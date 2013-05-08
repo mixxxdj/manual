@@ -22,9 +22,9 @@ in- and outputs to be used.
   that Mixxx uses to deliver audio to your audio device. Your choice can
   drastically affect how smooth Mixxx performs on your computer.
 
-* **Sample Rate**: Allows to manually select the sample rate for the audio input.
+* **Sample Rate**: Allows you to manually select the sample rate for the audio input.
   The sample rate value should be set to the sample rate of your audio interface.
-  By default, Mixxx try's the system default first, which is most likely 44.1
+  By default, Mixxx tries the system default first, which is most likely 44.1
   kHz. Otherwise, Mixxx will pick a different default.
 
 * **Latency**: Latency is the lag time in milliseconds that it takes for Mixxx

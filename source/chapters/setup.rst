@@ -54,15 +54,15 @@ out**.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menus, select your build-in soundcard,
+#. From the :guilabel:`Master` drop-down menus, select your built-in soundcard,
    then :guilabel:`Channels 1-2`
 #. Depending on your soundcard, you can specify a
    :ref:`microphone <interface-mic>`
 
-   a. Use your build-in microphone or connect a microphone to your computer
-   b. Is it detected by your :term:`OS <operating system>`, open the
-      :guilabel:`Input` tab
-   c. From the :guilabel:`Microphone` drop-down menu, select the input your
+   a. Use your built-in microphone or connect a microphone to your computer
+   b. Check that your microphone is detected by your :term:`OS <operating system>`
+   c. Open the :guilabel:`Input` tab
+   d. From the :guilabel:`Microphone` drop-down menu, select the input your
       microphone is connected to
 #. Click :guilabel:`Apply` to save the changes.
 
@@ -95,7 +95,7 @@ The depicted configuration above uses two soundcards. This setup is the bare
 minimum for serious DJing. Without any extra gear, the DJ can control Mixxx via
 mouse and keyboard. For more information see :ref:`controlling mixxx`.
 
-**Using external multi-channel soundcard**
+**Using an external multi-channel soundcard**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
@@ -105,13 +105,13 @@ mouse and keyboard. For more information see :ref:`controlling mixxx`.
    soundcard, then :guilabel:`Channels 3-4`
 #. Click :guilabel:`Apply` to save the changes.
 
-**Using two soundcards (build-in + external)**
+**Using two soundcards (built-in + external)**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
 #. From the :guilabel:`Master` drop-down menus, select the external soundcard,
    then :guilabel:`Channels 1-2`
-#. From the :guilabel:`Headphones` drop-down menus, select the build-in
+#. From the :guilabel:`Headphones` drop-down menus, select the built-in
    soundcard, then :guilabel:`Channels 1-2`
 #. Click :guilabel:`Apply` to save the changes.
 
@@ -134,13 +134,13 @@ presets. To see the full list, see :ref:`control-midi`.
 
    Using Mixxx together with a MIDI controller and external soundcard
 
-**Using a controller without integrated multi-channel soundcard**
+**Using a controller without an integrated multi-channel soundcard**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
 #. From the :guilabel:`Master` drop-down menus, select the external soundcard,
    then :guilabel:`Channels 1-2`
-#. From the :guilabel:`Headphones` drop-down menus, select the build-in
+#. From the :guilabel:`Headphones` drop-down menus, select the built-in
    soundcard, then :guilabel:`Channels 1-2`
 #. Click :guilabel:`Apply` to save the changes.
 
@@ -157,7 +157,7 @@ alternative sound setup may look like the figure below:
 
    Using Mixxx together with a MIDI controller and integrated soundcard
 
-**Using a controller with integrated multi-channel soundcard**
+**Using a controller with an integrated multi-channel soundcard**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
@@ -189,4 +189,4 @@ For best results, when using this setup you should ensure your system is capable
 of latencies under 10ms. Otherwise scratching may sound distorted. For more
 information about latency and how to improve it, see :ref:`configuration-latency`.
 
-.. seealso:: Go to the chapter :ref:`vinyl-control` for detailed informations.
+.. seealso:: Go to the chapter :ref:`vinyl-control` for detailed information.

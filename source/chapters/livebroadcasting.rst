@@ -155,7 +155,7 @@ Live Broadcasting Preferences
 * **Title**: Insert your custom title metadata here.
 
 .. note:: Due to licensing restrictions, MP3 streaming is not enabled by
-          default. For informations on how to enable MP3 streaming, go to
+          default. For information on how to enable MP3 streaming, go to
           the chapter :ref:`MP3 streaming`.
 
 Icecast vs. Shoutcast
@@ -209,7 +209,7 @@ In order to enable MP3 streaming you must install the :term:`LAME` MP3
 
 .. hint:: If you have activated MP3 streaming support, you'll be also able to
           record your mixes in MP3 format. Go to the chapter
-          :ref:`djing-recording-your-mix` for more informations.
+          :ref:`djing-recording-your-mix` for more information.
 
 Activate MP3 streaming support on Windows
 -----------------------------------------

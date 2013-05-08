@@ -138,8 +138,6 @@ software on Ubuntu.
 The Software Center version of Mixxx is under some circumstances out of date,
 therefore using `Method A: Personal Package Archive (ppa)`_ is preferable.
 
-.. todo:: Proof-read Ubuntu install instructions.
-
 Installation on Other Distributions
 -----------------------------------
 
@@ -162,7 +160,7 @@ Where to go from here?
 ======================
 
 * :doc:`Set up your audio devices and controllers <setup>`
-* :doc:`Open Mixxx and start importing your audio file <djing_with_mixxx>`
+* :doc:`Open Mixxx and start importing your audio files <djing_with_mixxx>`
 * :doc:`Get familiar with the Mixxx user interface <user_interface>`
 
 

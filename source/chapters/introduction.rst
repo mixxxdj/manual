@@ -126,7 +126,7 @@ Through the manual you'll find text formatted like this:
 
   Links to external websites are marked like this.
 
-Important informations in this manual are highlighted like this:
+Important information in this manual are highlighted like this:
 
 * .. note:: For anything that should receive a bit more attention.
 

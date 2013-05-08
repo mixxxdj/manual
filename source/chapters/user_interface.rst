@@ -74,7 +74,7 @@ Track Information Display
 
   .. hint:: Click directly on the BPM display and tap with the beat to set the
             BPM to the speed you are tapping. You can also use a keyboard
-            shortcut, go to :ref:`control-keyboard` for more informations.
+            shortcut, go to :ref:`control-keyboard` for more information.
 
 **Time Elapsed/Remaining**
   By default it displays the total elapsed time in the track up to the
@@ -199,13 +199,13 @@ are as follows:
 **Eject Track Button**
   Clicking this button ejects the track from the deck. Alternatively you can use
   a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  informations.
+  information.
 
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
   track's :term:`BPM` but failed to align the beat markers on the beats. For
-  more informations, go to the chapter :ref:`djing-bpm-detection`.
+  more information, go to the chapter :ref:`djing-bpm-detection`.
 
 **Quantize Mode Toggle**
   If enabled, all cues, hotcues, loops, and beatloops will be automatically
@@ -214,7 +214,7 @@ are as follows:
 **Keylock Toggle**
   :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch. This is useful if you would
-  like to speed up or slow down a track and avoid the “chipmunk” affect that
+  like to speed up or slow down a track and avoid the “chipmunk” effect that
   speeding up vocals has.
 
 .. _interface-vc-mode:
@@ -234,7 +234,7 @@ Vinyl Control Mode and Cueing controls
 
    The Vinyl Control Mode and Cueing controls of a deck
 
-The control above the waveforms relay to the :term:`vinyl control` feature in
+The control above the waveforms relate to the :term:`vinyl control` feature in
 Mixxx and is **hidden** in the default
 :ref:`Mixxx user interface <interface-overview>`. Click the
 :ref:`VINYL section expansion button <interface-expansion-buttons>` in the mixer
@@ -282,8 +282,8 @@ Sync and Rate Controls
 
 The rate controls allow you to change the rate at which tracks are played. This
 is very useful for :term:`beatmatching` two tracks together in a mix. You can
-control rate changes also from your computers keyboard, see the chapter
-:ref:`control-keyboard` for more informations.
+control rate changes also from your computer's keyboard, see the chapter
+:ref:`control-keyboard` for more information.
 
 **SYNC button**
 
@@ -418,8 +418,8 @@ loop points of a track.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
 * **Loop-Out**: This button allow you to manually set the end point of a loop.
-  A loop-in out is placed on the waveform indicating the position.If clicked when
-  a loop was already set, it moves the start point of a loop to a new position.
+  A loop-out marker is placed on the waveform indicating the position. If clicked when
+  a loop was already set, it moves the end point of a loop to a new position.
 * **Loop**: Also dubbed Reloop, this button toggles whether the loop is active
   or not. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
@@ -427,7 +427,7 @@ loop points of a track.
 
 .. hint:: If you are playing inside a loop and want to move the end point
           beyond its current position in the track, click on the *Loop* button
-          first and when the play position reaches the wanted position on the
+          first and when the play position reaches the desired position, click on the
           Loop-Out button.
 
 .. seealso:: If the :term:`Quantize <quantization>` mode is enabled, the loops
@@ -455,7 +455,7 @@ Hotcue Controls
 
 To jump in between different parts of a track, you can use these numbered
 buttons. You can also use keyboard shortcuts, go to :ref:`control-keyboard` for
-more informations.
+more information.
 
 Setting Hotcues
 ^^^^^^^^^^^^^^^
@@ -711,7 +711,7 @@ Cue Button
 If the button is pressed, the play position jumps to an existing
 :term:`Cue point <cue>` on the track or sets a new one, depending on whether a
 track is playing or not. If you have not set any custom cues yet, the default
-point is at the tracks beginning.
+point is at the track's beginning.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
@@ -753,7 +753,7 @@ Interface`.
           track.
 
 .. seealso:: You can also use keyboard shortcuts for Cueing. Go to
-             :ref:`control-keyboard` for more informations.
+             :ref:`control-keyboard` for more information.
 
 .. _interface-fx:
 
@@ -785,7 +785,7 @@ to a mix when used tactfully.
 
 .. seealso :: As an advanced user, you can route your audio signal to external
               software and then apply additional effects. Go to
-              :ref:`advanced-external-fx` for more informations.
+              :ref:`advanced-external-fx` for more information.
 
 .. _interface-sampler:
 
@@ -918,9 +918,9 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
-* Most computers have build-in microphones, while some are connected trough USB.
-  This works ok, but don't expect them to be of high-quality.
-* Best is to connect a good external microphone to the “Mic” or “Line” input on
+* Most computers have built-in microphones, while some are connected through USB.
+  These work adequately, but don't expect them to be high-quality.
+* The best solution is to connect a good external microphone to the “Mic” or “Line” input on
   your audio device. If available, use the “Gain” knob on the device to adjust
   the input signal.
 * Select the microphone input in
@@ -936,7 +936,7 @@ Microphone Controls
 
   Hold this button and talk to mix the microphone input into the Mixxx master
   output. Short click on the button for latching. This is handy for talking for
-  a extended period, for example when :ref:`streaming <live-broadcasting>` a
+  an extended period, for example when :ref:`streaming <live-broadcasting>` a
   radio show. When in Latch mode, click again to mute the microphone input.
 
 **Mix Orientation Toggle**
@@ -945,7 +945,7 @@ Microphone Controls
   Clicking cycles through all the options.
 
 **Microphone Volume Meter**
- It display the microphone volume input signal strength.
+  This displays the microphone volume input signal strength.
 
 **Microphone Gain Knob**
   Use this knob to adjust the gain of the microphone output. Try to keep the
@@ -970,7 +970,7 @@ Preview Deck Section
 
 .. versionadded:: 1.11
 
-The Preview Deck is a special deck that allows to pre-listen to tracks in the
+The Preview Deck is a special deck that allows you to pre-listen to tracks in the
 headphones before using them in your mix. Pre-listening a track does not change
 the tracks's :guilabel:`Played` state as well as the play counter and is not
 logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4`
@@ -981,7 +981,7 @@ The features in detail:
 * **Track Artist/Title**:
   The artist and title of the track is displayed here. This is the same
   listed under the :guilabel:`Track` and :guilabel:`Title` column in the Mixxx
-  library. This information is initially loaded from the tracks :term:`metadata`.
+  library. This information is initially loaded from the track's :term:`metadata`.
 
 * **Eject Track**:
   Clicking this button ejects the track from the deck.
@@ -995,8 +995,8 @@ The features in detail:
   Move the slider to adjust the gain of the track.
 
 * **VU-Meter**:
-  Shows the current volume of the track. If it's is too loud and distorted, a
+  Shows the current volume of the track. If it's too loud and distorted, a
   peak indicator flashes red.
 
-.. seealso:: For more informations , go to the chapter
+.. seealso:: For more information, go to the chapter
              :ref:`djing-previewing-tracks`.

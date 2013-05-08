@@ -98,23 +98,23 @@ music library.
   Mixxx reads :term:`metadata` from the tracks to fill the columns of the
   library. To edit this data, double-click on a field. If the field is editable
   it will become an editable text box. When you are done, hit :kbd:`Enter`. The
-  data will be saved to the Mixxx library, but **not** to the tracks metadata
+  data will be saved to the Mixxx library, but **not** to the track's metadata
   itself.
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
   to the waveform display or use the context menu. Go to the chapter
-  :ref:`djing-loading-tracks` for detailed informations.
+  :ref:`djing-loading-tracks` for detailed information.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
   time, and automatically detects newly added tracks on each subsequent
-  run. Go to the chapter :ref:`djing-import` for detailed informations.
+  run. Go to the chapter :ref:`djing-import` for detailed information.
 
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
   deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column.
-  Go to the chapter :ref:`djing-previewing-tracks` for detailed informations.
+  Go to the chapter :ref:`djing-previewing-tracks` for detailed information.
 
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
@@ -140,7 +140,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   playlist or crate in the sidebar.
 * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
   can't edit them in the track properties. If a BPM is locked, a “lock” icon
-  appears next to the tracks BPM.
+  appears next to the track's BPM.
 * **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of
   selected tracks from the Mixxx libary. After doing this we recommended you
   :ref:`analyze <library-analyze>` the tracks again.
@@ -243,7 +243,7 @@ Requeue` option in :menuselection:`Preferences --> Interface`.
 .. hint:: Put a pause between tracks that are automatically mixed by using a
           negative value in the :guilabel:`Transition time` spin-box.
 
-.. seealso:: For more informations , go to the chapter :ref:`djing-auto-dj`.
+.. seealso:: For more information, go to the chapter :ref:`djing-auto-dj`.
 
 .. _library-playlists:
 
@@ -285,7 +285,7 @@ the context menu:
 * **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
   available in the library for later use.
 * **Import playlist**: Import tracks from external playlists to a playlist in
-  various file formats. For more informations, go to :ref:`library-3rd-party`.
+  various file formats. For more information, go to :ref:`library-3rd-party`.
 * **Export playlist**: Export a playlist in various file formats, such as
   :file:`m3u`, :file:`pls`, or :file:`csv`. Ideal for processing the data in
   other applications.
@@ -308,7 +308,7 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   in the sidebar. Alternatively use the context menu in the library's
   :ref:`track list<library-root>`.
 
-Right-click on a existing crate's name to access the different features in the
+Right-click on an existing crate's name to access the different features in the
 context menu:
 
 * **Rename**: To rename a crate, enter the new crate name and click
@@ -341,7 +341,7 @@ Playlists serve a limited purpose of keeping an ordered list of tracks.
 You can right-click a playlist to queue it to :ref:`Auto DJ <library-auto-dj>`,
 so in a sense you can “play” it.
 
-Often DJ's keep a playlist of favorites or plan a list of tracks they want to
+Often DJs keep a playlist of favorites or plan a list of tracks they want to
 play at a party. In these cases they rarely care about the order since they will
 likely choose the order at the party based on the dance floor and mood and they
 certainly don't want duplicates. This is where crates come in. You can think of
@@ -389,7 +389,7 @@ Recordings
 |ic_lib_recordings| In this section of the library you can start and stop
 recordings well as view previous recordings and the dates they were made.
 
-.. seealso:: For more informations, go to :ref:`djing-recording-your-mix`.
+.. seealso:: For more information, go to :ref:`djing-recording-your-mix`.
 
 .. _library-history:
 
@@ -451,7 +451,7 @@ The Analyze features in detail:
 * **Select All**: Selects all tracks in the current view.
 * **Analyze**: Starts the detection on the selected tracks.
 
-.. seealso:: For more informations, go to :ref:`djing-bpm-detection`.
+.. seealso:: For more information, go to :ref:`djing-bpm-detection`.
 
 .. _library-3rd-party:
 

@@ -12,7 +12,7 @@ you music collection and playing your tracks.
 
 Opening Mixxx
 =============
-|logo| Once you've :ref:`installed Mixxx <installing-mixxx>` , start by opening
+|logo| Once you've :ref:`installed Mixxx <installing-mixxx>`, start by opening
 Mixxx and import your music to the Mixxx library.
 
 **Windows**
@@ -63,7 +63,7 @@ Importing your audio files
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
   .. warning :: On Windows 7 and 8 the import dialog points to your Windows
-                “Music“ Library , a special-purpose virtual folder. You can
+                “Music“ Library, a special-purpose virtual folder. You can
                 **not** use these virtual folders. Select a regular folder
                 instead, usually “My Music“, like pictured above.
 
@@ -472,7 +472,7 @@ Burn your recorded mix to a CD/DVD
 .. note:: Due to licensing restrictions, :term:`MP3` recording is not enabled
           per default. In order to enable MP3 streaming you must install the
           :term:`LAME` MP3 :term:`codec` yourself. Go to the chapter
-          :ref:`MP3 Streaming` for more informations.
+          :ref:`MP3 Streaming` for more information.
 
 .. _djing-auto-dj:
 

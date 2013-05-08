@@ -37,7 +37,7 @@ can perform actions by pointing and clicking with your mouse.
            a two-finger click gesture is often treated as a right click.
 
 .. seealso:: Using the Mouse drag/wheel on the waveforms you can adjust zoom and
-             playback rate of the tracks. For more informations, go to
+             playback rate of the tracks. For more information, go to
              :ref:`interface-waveform`.
 
 .. _control-keyboard:
@@ -78,7 +78,7 @@ enable/disable the keyboard mappings at runtime. You can do so by clicking
 Customizing the keyboard mapping
 --------------------------------
 
-Mixxx allows you to customize the keyboard control. For more informations, go to:
+Mixxx allows you to customize the keyboard control. For more information, go to:
 
 * :ref:`advanced-keyboard`
 
@@ -158,7 +158,7 @@ There is no mapping available for your controller or you want to change an
 existing mapping? You can map your controller by using the Controller Wizard or
 take full control with the MIDI Scripting support in Mixxx.
 
-.. seealso:: Go to :ref:`advanced-controller` for detailed informations.
+.. seealso:: Go to :ref:`advanced-controller` for detailed information.
 
 .. _control-timecode:
 
@@ -171,5 +171,5 @@ the sound and feel of having your digital music collection on vinyl. Many DJs
 prefer the tactile feel of vinyl, and vinyl control allows that feel to be
 preserved while retaining the benefits of using digital audio.
 
-.. seealso:: Go to :ref:`vinyl-control` for detailed informations.
+.. seealso:: Go to :ref:`vinyl-control` for detailed information.
 
