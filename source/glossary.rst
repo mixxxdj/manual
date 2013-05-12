@@ -260,37 +260,37 @@ Glossary of Terms
      slightly more clear than the same audio file compressed at 128 Kbps.
 
    kbps
-    Short for kilobits per second. Here used to measure the quality of audio
-    data. See :term:`bitrate`
+     Short for kilobits per second. Here used to measure the quality of audio
+     data. See :term:`bitrate`
 
    ReplayGain
-    ReplayGain normalizes audio data in a non-destructive way, so the tracks in
-    your music library don't all play at different volumes. Audio files are
-    scanned by a psychoacoustic algorithm to determine the loudness of the
-    audio data. ReplayGain information is stored as :term:`metadata` in a
-    digital audio file in order for the sound to be correctly played at the
-    right level of loudness.
+     ReplayGain normalizes audio data in a non-destructive way, so the tracks in
+     your music library don't all play at different volumes. Audio files are
+     scanned by a psychoacoustic algorithm to determine the loudness of the
+     audio data. ReplayGain information is stored as :term:`metadata` in a
+     digital audio file in order for the sound to be correctly played at the
+     right level of loudness.
 
    db
-    Short for decibels. A Decibel is a logarithmic measurement of sound
-    level. Whispering is around 25 dB while unbearable sound such as a jet
-    engine is around 160 db. Rule of thumb: A volume increase of 10 dB is
-    perceived as twice as loud.
+     Short for decibels. A Decibel is a logarithmic measurement of sound
+     level. Whispering is around 25 dB while unbearable sound such as a jet
+     engine is around 160 db. Rule of thumb: A volume increase of 10 dB is
+     perceived as twice as loud.
 
    cue sheet
-    A cue sheet (or CUE file, CUE sheet, etc.) is a formatted plain text file
-    which is used to provide index information for a large audio file. For
-    example, it can be used to tell software extra details about the layout of a
-    CD to burn.
+     A cue sheet (or CUE file, CUE sheet, etc.) is a formatted plain text file
+     which is used to provide index information for a large audio file. For
+     example, it can be used to tell software extra details about the layout of
+     a CD to burn.
 
    metadata
-    In general, any piece of information about a music file that Mixxx uses
-    (e.g. title, artist, album, hotcue locations, loops, etc.). Various file
-    metadata formats allow information such as the title, artist, album, and
-    track number to be stored in the audio file itself, see
-    `<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx stores additional metadata
-    about music files in its database, like :term:`beatgrid`, waveform data,
-    :term:`hotcues <hotcue>`, playlists, crates, number of plays, etc.
+     In general, any piece of information about a music file that Mixxx uses
+     (e.g. title, artist, album, hotcue locations, loops, etc.). Various file
+     metadata formats allow information such as the title, artist, album, and
+     track number to be stored in the audio file itself, see
+     `<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx stores additional metadata
+     about music files in its database, like :term:`beatgrid`, waveform data,
+     :term:`hotcues <hotcue>`, playlists, crates, number of plays, etc.
 
    CDJ
      CDJ is a term originally used to describe a line of CD players from Pioneer
