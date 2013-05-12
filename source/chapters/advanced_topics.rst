@@ -176,7 +176,7 @@ for effects. This gives Mixxx access to the extensive collection of LADSPA
 plugins.
 
 Make sure the correct multichannel sound card has been selected in Jack
-(Jack settings visible bottom left). Note that Mixxx possibly labels it's Jack
+(Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
 ports as “Portaudio”.
 
 Deleting Your Library

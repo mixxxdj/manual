@@ -129,7 +129,7 @@ language settings the defaults may be different.
 +----------------------------------------+---------------------+---------------------+--------------+
 
 .. seealso:: Mixxx allows you to customize the keyboard shortcuts. For more
-             information, and to download a a keyboard mapping image, go to
+             information, and to download a keyboard mapping image, go to
              :ref:`control-keyboard`.
 
 .. _appendix-shortcuts:

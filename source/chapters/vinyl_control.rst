@@ -189,7 +189,7 @@ Turntable Input Preamp
 Many turntables provide unamplified “phono level” output which must be boosted
 to a “line level” signal. Normally, a mixer or soundcard provides this
 amplification, but if you're plugging a turntable's phono output directly into
-a soundcard, that doesn't support phono input, Mixxx can do the amplification.
+a soundcard that doesn't support phono input, Mixxx can do the amplification.
 The :guilabel:`Turntable Input Preamp` slider allows you to adjust the level of
 preamplification applied to your decks' signal. However it is always preferable
 to use a proper phono preamplifier if you have one.
@@ -318,7 +318,7 @@ A rectangle provides visual feedback with regards to vinyl control status of a
 deck.
 
 * **Off**: Vinyl control disabled on the deck.
-* **Green**: Vinyl control is enable on the deck.
+* **Green**: Vinyl control is enabled on the deck.
 * **Yellow**: The needle has reached End-Of-Record.
 * **Red**: A needle skip was detected.
 
@@ -364,7 +364,7 @@ a new track, *End-Of-Record Mode* will be automatically disabled and
 
 When you're in *End-Of-Record Mode* and you want to still use the turntable for
 pitch control, simply lift the needle and place it anywhere in the main timecode
-area. It's ok, the track won't stop playing. As soon as Mixxx detects that the
+area. It's OK, the track won't stop playing. As soon as Mixxx detects that the
 needle has settled, it will automatically switch to *Relative Mode*.
 
 Control Track

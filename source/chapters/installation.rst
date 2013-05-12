@@ -143,7 +143,7 @@ Installation on Other Distributions
 
 Your distribution may maintain a non-official build that you may use.
 Alternatively, you can build Mixxx from source. This should be a pretty
-straight forward process, and it's certainly easiest on GNU/Linux. For more
+straightforward process, and it's certainly easiest on GNU/Linux. For more
 information, go to:
 
 * `<http://mixxx.org/wiki/doku.php/compiling_on_linux>`_
