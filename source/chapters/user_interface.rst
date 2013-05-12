@@ -470,7 +470,7 @@ Playing Hotcues
 * **While playing**: Tap a hotcue button to cause the track to instantly jump to
   the location of the hotcue and continue playing. If you are playing inside a
   loop and tap a hotcue whose position is outside of the loop, then the track
-  still instantly jump to the hotcue but the loop will be deactivated.
+  still instantly jumps to the hotcue but the loop will be deactivated.
 
 * **While stopped**: Tap a hotcue button to cause the track to instantly jump to
   the location of the hotcue and start playing as long as the button is pressed.
@@ -588,7 +588,7 @@ Headphone and Master Mix Controls
 
 **Head volume Knob**
   This button adjusts your headphone volume. You can adjust the volume of a
-  single deck's signal you listening to in the headphones with the
+  single deck's signal you are listening to in the headphones with the
   :ref:`Gain <interface-eq-gain>` knob.
 
 **Balance Knob**
@@ -691,7 +691,7 @@ on the left end of the crossfader and vice versa. This is also known as
 :menuselection:`Preferences --> Crossfader`.
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
-           automatize the crossfade between the decks.
+           automate the crossfade between the decks.
 
 .. _interface-play-pause:
 
@@ -932,7 +932,7 @@ Microphone Controls
 
 **Talk Button**
 
-  .. versionchanged:: 1.11 Latch mode added
+  .. versionchanged:: 1.11 Latch mode added.
 
   Hold this button and talk to mix the microphone input into the Mixxx master
   output. Short click on the button for latching. This is handy for talking for

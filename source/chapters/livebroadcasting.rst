@@ -40,7 +40,7 @@ Streaming Servers
      StreamingServer -> Listener3 [ dir=left, label = "Internet" ];
 
 **Local streaming server**
-  For experienced users, it may be interesting to set up an own local streaming
+  For experienced users, it may be interesting to set up your own local streaming
   server. This turns your personal computer into a radio station and listeners
   connect directly to your server. Mixxx as a streaming source does not need to
   run on the same computer as your streaming server. However, professional

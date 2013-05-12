@@ -22,7 +22,7 @@ Overview of the Library features
 
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
-:ref:`sampler <interface-sampler>`, see :ref:`djing-loading-tracks`.  Mixxx
+:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`.  Mixxx
 imports your music library automatically when it is run for the first time, and
 automatically detects newly added tracks on each subsequent run, see
 :ref:`djing-import`.
@@ -66,7 +66,7 @@ Search - Find your tracks
 
 The Search box above the sidebar filters the current library view for tracks
 that match your search query. The library search include some nice search
-features, go to the chapter :ref:`djing-finding-tracks` for details.
+features; go to the chapter :ref:`djing-finding-tracks` for details.
 
 .. _library-root:
 
@@ -154,7 +154,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   session and set their play counter to zero. The icon in the :guilabel:`Played`
   column changes.
 * **Open in File Browser**: Browse for the selected files in your file manager.
-* **Properties**: Similar to inline editing explained above the properties
+* **Properties**: Similar to inline editing explained above, the properties
   dialog allows you to view and edit metadata such as title, artist, album, and
   view the full file name and path. Note that you can not edit multiple files at
   once.
@@ -196,7 +196,7 @@ Hidden Tracks
 
 The Hidden Tracks view is also accessible by expanding the Library tree item in
 the sidebar. Any tracks that were previously loaded into your library, but were
-later set to be hidden from the library will appear here. Use the
+later set to be hidden from the library, will appear here. Use the
 :guilabel:`Hide from Library` context menu item in the
 :ref:`library <library-root>` view to temporarily hide selected tracks.
 
@@ -224,7 +224,7 @@ controls for automatic mixing. This is useful for taking a break from live
 mixing or for using Mixxx as media player.
 
 .. versionadded:: 1.11
-   Shuffle, Skip track, Fade now, Transition time, and Auto DJ Requeue
+   Shuffle, Skip track, Fade now, Transition time, and Auto DJ Requeue.
 
 The Auto DJ features in detail:
 
@@ -265,8 +265,8 @@ intended for live, attended performance use. However, you can use the
   and select :guilabel:`New playlist`. Name the playlist and click
   :guilabel:`OK`.
 * **Add Tracks**: Add tracks to a previously created playlist by
-  drag-and-dropping a selection of tracks from the library or playlists onto the
-  name of a playlist in the sidebar. Alternatively use the right-click context
+  dragging-and-dropping a selection of tracks from the library or playlists onto the
+  name of a playlist in the sidebar. Alternately, use the right-click context
   menu in the library`s :ref:`track list<library-root>`.
 
 Right-click on an existing playlist's name to access the different features in
@@ -435,8 +435,8 @@ Analyze - Preparing your tracks
 |ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
 them in a deck, nevertheless it is recommended that you analyze them before
 playing live with them to ensure the beatgrids are correct. Furthermore, track
-analysis takes considerable CPU power and might cause skips in the audio; things
-you surely don't need while performing.
+analysis takes considerable CPU power and might cause skips in the audio ---
+things you surely don't need while performing.
 
 The Analyze view allows you to run :term:`BPM` and :term:`beatgrid` detection on
 tracks in advance. Waveforms are generated as part of the analysis as well.

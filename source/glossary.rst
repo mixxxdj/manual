@@ -47,7 +47,7 @@ Glossary of Terms
      operating systems that Mixxx supports.
 
    file manager
-     Is a computer program that organizes data files into groups and shows you
+     A computer program that organizes data files into groups and shows you
      where they are when you need to find them again. Popular file managers for
      the :term:`operating systems <operating system>` Mixxx supports are
      Explorer on Windows, Finder on Mac OS X and Nautilus on GNU/Linux.
@@ -143,7 +143,7 @@ Glossary of Terms
      To cause something to advance at quicker than normal speed. In
      terms of audio software that means if you press the fast-forward button
      the audio will play with increased speed as long as the button is pressed.
-     This is useful to seek trough a track.
+     This is useful to seek through a track.
 
    fast-rewind
      The opposite of :term:`fast-forward`. If you press the fast-rewind button
@@ -222,7 +222,7 @@ Glossary of Terms
    AAC
      Advanced Audio Coding (AAC) is a patented audio compression algorithm which
      uses a form of :term:`lossy` data compression. Designed to be the successor
-     :term:`MP3`, AAC generally achieves better sound quality at similar bit
+     to :term:`MP3`, AAC generally achieves better sound quality at similar bit
      rates. While the .AAC extension is sometimes used for AAC-encoded files,
      they are typically saved with an .M4A file extension.
 
@@ -255,8 +255,8 @@ Glossary of Terms
 
    bitrate
      Describe the quality of an audio or video file. For audio data the bitrate
-     is commonly measured :term:`Kbps`. For example, an MP3 audio file that is
-     compressed at 192 Kbps will have a greater dynamic range and may sound
+     is commonly measured in :term:`Kbps`. For example, an MP3 audio file that
+     is compressed at 192 Kbps will have a greater dynamic range and may sound
      slightly more clear than the same audio file compressed at 128 Kbps.
 
    kbps
@@ -265,8 +265,8 @@ Glossary of Terms
 
    ReplayGain
     ReplayGain normalizes audio data in a non-destructive way, so the tracks in
-    your music library dont all play at different volume. Audio files are
-    scanned by an psychoacoustic algorithm to determine the loudness of the
+    your music library don't all play at different volumes. Audio files are
+    scanned by a psychoacoustic algorithm to determine the loudness of the
     audio data. ReplayGain information is stored as :term:`metadata` in a
     digital audio file in order for the sound to be correctly played at the
     right level of loudness.
