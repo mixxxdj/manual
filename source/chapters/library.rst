@@ -265,9 +265,9 @@ intended for live, attended performance use. However, you can use the
   and select :guilabel:`New playlist`. Name the playlist and click
   :guilabel:`OK`.
 * **Add Tracks**: Add tracks to a previously created playlist by
-  dragging-and-dropping a selection of tracks from the library or playlists onto the
-  name of a playlist in the sidebar. Alternately, use the right-click context
-  menu in the library`s :ref:`track list<library-root>`.
+  dragging-and-dropping a selection of tracks from the library or playlists onto
+  the name of a playlist in the sidebar. Alternatively, use the right-click
+  context menu in the library`s :ref:`track list<library-root>`.
 
 Right-click on an existing playlist's name to access the different features in
 the context menu:

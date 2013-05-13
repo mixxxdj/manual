@@ -235,8 +235,7 @@ Mixxx has three control modes regardless of which control records you use.
   your deck in relative mode, with one exception.  If you drop the needle in the
   “Lead-in Time” area (see `Vinyl Configuration`_), Mixxx will seek back to
   the beginning of the track.  Once a track is playing in Relative Mode, Mixxx
-  will not allow you to
-  select Absolute mode. Otherwise, the track would suddenly jump to a new
+  will not allow you to select Absolute mode. Otherwise, the track would suddenly jump to a new
   position.  Make sure the record is stopped and then you're free to select
   Absolute mode.
 * **Constant Mode**: This special mode is usually only activated when Mixxx
