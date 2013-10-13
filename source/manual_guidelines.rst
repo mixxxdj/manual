@@ -283,7 +283,7 @@ The user manual for Mixxx is written in `reStructuredText (reST)
 <http://docutils.sourceforge.net/rst.html>`_ format using
 `Sphinx <http://sphinx-doc.org>`_.
 
-The `Mixxx user manual repostitory <https://code.launchpad.net/~mixxxdevelopers/mixxx/manual>`_
+The `Mixxx user manual repository <https://github.com/mixxxdj/manual>`_
 contains the Sphinx source to generate the manual as found at
 `<http://mixxx.org/manual/latest/>`_.
 
@@ -302,7 +302,7 @@ Steps for use:
    http://graphviz.org/Download_windows.php on Windows. There is no need to
    install python-graphviz)
 #. Download Mixxx manual source from
-   `launchpad.net <https://code.launchpad.net/~mixxxdevelopers/mixxx/manual>`_
+   `github.com <https://github.com/mixxxdj/manual>`_
 #. Edit .rst files in :file:`source/`
 #. Run ``make html``
 #. Open the file :file:`build/html/index.html` in your Web browser to view the

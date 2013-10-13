@@ -144,7 +144,7 @@ Improving the Manual
   the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-Manual>`_.
 
 * **Get the Source Code**: To download the source code for the Mixxx manual, go
-  to: `<https://code.launchpad.net/~mixxxdevelopers/mixxx/manual>`_
+  to: `<https://github.com/mixxxdj/manual>`_
 
 Additional Resources
 ====================
@@ -164,8 +164,16 @@ There are a variety of other resources you can use to find out more.
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
 
+* **Mixxx Source Code**: To download the source code for Mixxx, go to:
+  `<https://github.com/mixxxdj/mixxx>`_
+
 * **Mixxx Bug Tracker**: To report a bug or request a feature, go to:
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://translations.launchpad.net/mixxx>`_
+  to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the 
+  `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first.
+
+* **Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ ,
+  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
+  and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ . 

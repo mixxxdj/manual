@@ -23,8 +23,8 @@ As a non-developer
 * `Report bugs <https://bugs.launchpad.net/mixxx>`_
 * Update our `Wiki <http://mixxx.org/wiki>`_ to make sure the information on it
   is up to date.
-* Translate Mixxx using `Launchpad Translations
-  <https://translations.launchpad.net/mixxx/trunk>`_
+* Translate Mixxx using `Transifex
+  <https://www.transifex.com/projects/p/mixxxdj/>`_
 * Answer questions on the `Troubleshooting Forum
   <http://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page
   <https://answers.launchpad.net/mixxx>`_
@@ -43,9 +43,9 @@ As a software developer
 * Join our :term:`IRC` channel, #mixxx on `Freenode <http://www.freenode.net/>`_
 * Tell us your ideas! Email us, talk on IRC, file wishlist :term:`bugs <bug
   report>`, or post on the forums.
-* Register an account on our development platform `Launchpad
-  <http://launchpad.net/mixxx>`_ and make a branch of our code. See `Launchpad
-  Tutorial <http://mixxx.org/wiki/doku.php/using_bazaar>`_
+* Register an account on our development platform `Github
+  <https://github.com/mixxxdj>`_ and fork our code.
+  See `Using Git for Mixxx Development <http://mixxx.org/wiki/doku.php/using_git>`_
 * Join the
   `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_
   on Launchpad.
