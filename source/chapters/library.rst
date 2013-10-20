@@ -345,7 +345,7 @@ Crates vs. Playlists
    S.Brandt <s.brandt@mixxx.org>
 
 Crates are unordered collections of tracks. Unlike playlists, they cannot
-contain duplicate entries and do not support drack-and-drop within them.
+contain duplicate entries and do not support drag-and-drop within them.
 
 Playlists serve a limited purpose of keeping an ordered list of tracks.
 You can right-click a playlist to queue it to :ref:`Auto DJ <library-auto-dj>`,
