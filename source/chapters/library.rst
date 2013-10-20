@@ -269,6 +269,9 @@ intended for live, attended performance use. However, you can use the
   the name of a playlist in the sidebar. Alternatively, use the right-click
   context menu in the library`s :ref:`track list<library-root>`.
 
+.. versionadded:: 1.12
+   Analyze Playlist option in the context menu.
+
 Right-click on an existing playlist's name to access the different features in
 the context menu:
 
@@ -284,6 +287,8 @@ the context menu:
   :guilabel:`Unlock` from the context menu to unlock the playlist.
 * **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
   available in the library for later use.
+* **Analyze entire playlist**: Forces the analysis of the playlist in the
+  :ref:`Analyze <library-analyze>` view.
 * **Import playlist**: Import tracks from external playlists to a playlist in
   various file formats. For more information, go to :ref:`library-3rd-party`.
 * **Export playlist**: Export a playlist in various file formats, such as
@@ -308,6 +313,9 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   in the sidebar. Alternatively use the context menu in the library's
   :ref:`track list<library-root>`.
 
+.. versionadded:: 1.12
+   Analyze Crate option in the menu.
+
 Right-click on an existing crate's name to access the different features in the
 context menu:
 
@@ -321,6 +329,8 @@ context menu:
   :guilabel:`Unlock` from the context menu to unlock the crate.
 * **Remove**: Removes an unlocked crate. Tracks in the crate are still available
   in the library for later use.
+* **Analyze entire crate**: Forces the analysis of the crate in the
+  :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
   file formats.
 * **Export crate**: Export a crate in various file formats, such as
@@ -440,16 +450,18 @@ things you surely don't need while performing.
 
 The Analyze view allows you to run :term:`BPM` and :term:`beatgrid` detection on
 tracks in advance. Waveforms are generated as part of the analysis as well.
+While analyzing, the progress in percentage and total queue length are shown.
 
-.. versionchanged:: 1.11
-   Shows the progress in percentage and total queue length while analyzing.
+.. versionadded:: 1.12
+   Drag and drop tracks from the library or external file managers onto the
+   analysis view to instantly analyze these files.
 
 The Analyze features in detail:
 
-* **All / New**: Allows you to view a list of either all tracks in the library
-  or tracks added to the library within the last 7 days.
-* **Select All**: Selects all tracks in the current view.
-* **Analyze**: Starts the detection on the selected tracks.
+* **All / New radio-buttons**: Allows you to view a list of either all tracks in
+  the library or tracks added to the library within the last 7 days.
+* **Select All button **: Selects all tracks in the current view.
+* **Analyze button **: Starts the detection on the selected tracks.
 
 .. seealso:: For more information, go to :ref:`djing-bpm-detection`.
 
