@@ -33,17 +33,15 @@ Mixxx Features
 * **Automatic Mixing**: Create a quick playlist and let Auto DJ take over.
 * **Microphone Input**: Drop vocals or give shoutouts on the air.
 
-.. versionadded:: 1.11
-   This version adds several major new features including completely revamped
-   Waveforms, Direct :term:`HID controller` support, Point & Click Controller
-   Mapping, Next Generation Beat Detection, a Library History Feature and much
-   more.
+.. versionadded:: 1.12
+
+.. todo:: Add 1.12 features inb4 release.
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
-  `<http://mixxx.org/whats-new-in-mixxx-1-11>`_
+  `<http://mixxx.org/whats-new-in-mixxx-1-12>`_
 * For a full list of new features and bugfixes, go to:
-  `https://launchpad.net/mixxx/1.11.0 <https://launchpad.net/mixxx/+milestone/1.11.0>`_
+  `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_
 
 System Requirements
 ===================

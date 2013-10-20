@@ -246,3 +246,58 @@ To start Mixxx in Developer mode from a custom resource directory with
 terminal and hit return: ::
 
   ./mixxx --controllerDebug --developer --resourcePath res
+
+.. _appendix-version-history:
+
+Version History
+===============
+
+**v1.11.0** (2013-05-09)
+
+  * Completely revamped Waveforms
+  * Direct :term:`HID controller` support
+  * Point & Click Controller Mapping
+  * Next Generation Beat Detection
+  * Library History Feature
+  * Improved AutoDJ
+  * Beatloop Rolls
+  * Preview Deck
+  * Advanced Search
+  * New and Improved User Manual
+  * New Controller Support
+
+For a full list of new features and bugfixes, go to:
+`https://launchpad.net/mixxx/1.11.0 <https://launchpad.net/mixxx/+milestone/1.11.0>`_.
+
+**v1.10.1** (2012-06-30)
+
+  * Bugfixes
+
+For a full list of bugfixes, go to:
+`https://launchpad.net/mixxx/1.10-1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_.
+
+**v1.10.0** (2011-12-25)
+
+  * Rewritten and Improved Vinyl Control Support
+  * 4 Sampler Decks
+  * Quantized Loops, Hotcues and Beatloops
+  * Phase Synchronization
+  * Beatgrid Adjust Feature
+  * Microphone Support
+  * Spinning Turntable Widgets and Waveform Scratching
+  * M4A Support for Windows Vista and Windows 7 users
+  * Brand New and Updated Skins
+  * Accessibility Improvements
+  * Limited Support for Internationalization
+  * Revamped and Rewritten User Manual
+  * Mixing engine improvements
+  * Updated MIDI Mappings
+
+For a full list of new features and bugfixes, go to:
+`https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_.
+
+.. seealso:: For an overview of previous versions, `take a look 
+             <https://launchpad.net/mixxx/+series>`_ at the timeline.
+
+
+
