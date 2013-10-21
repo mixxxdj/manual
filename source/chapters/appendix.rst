@@ -274,7 +274,7 @@ For a full list of new features and bugfixes, go to:
   * Bugfixes
 
 For a full list of bugfixes, go to:
-`https://launchpad.net/mixxx/1.10-1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_.
+`https://launchpad.net/mixxx/1.10.1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_.
 
 **v1.10.0** (2011-12-25)
 

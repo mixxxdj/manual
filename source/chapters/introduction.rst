@@ -33,7 +33,11 @@ Mixxx Features
 * **Automatic Mixing**: Create a quick playlist and let Auto DJ take over.
 * **Microphone Input**: Drop vocals or give shoutouts on the air.
 
-.. versionadded:: 1.12
+New in Mixxx |version|
+========================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
 
 .. todo:: Add 1.12 features inb4 release.
 
@@ -42,6 +46,9 @@ Mixxx Features
   `<http://mixxx.org/whats-new-in-mixxx-1-12>`_
 * For a full list of new features and bugfixes, go to:
   `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_
+
+.. seealso:: For an overview of previous changes, go to 
+             :ref:`appendix-version-history`.
 
 System Requirements
 ===================
