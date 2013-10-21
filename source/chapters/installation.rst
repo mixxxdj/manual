@@ -107,7 +107,7 @@ Method A: Personal Package Archive (ppa)
 * Open a terminal and type the following commands. Type in your administrator
   password if asked for. ::
 
-    sudo apt-add-repository ppa:mixxx
+    sudo apt-add-repository ppa:mixxx/mixxx
     sudo apt-get update
     sudo apt-get install libportaudio2 mixxx
 
