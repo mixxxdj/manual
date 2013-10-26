@@ -95,10 +95,15 @@ Importing your audio files
 **Import remote files**
   To import audio files which are not in your music library directory, drag them
   directly from an external :term:`file manager` or from the :ref:`Browse section
-  <library-browse>` to the track list.
+  <library-browse>` to the track list. Importing files into Mixxx does not
+  change the location of the files on the hard disk.
 
   .. note :: You can not drag complete folders to the library because currently
              Mixxx can not recursively scan folders for compatible music files.
+
+**Import playlists**
+  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls` 
+  playlist files from products other than Mixxx, see :ref:`library-playlists`.
 
 **Import music from CDs**
   Mixxx can not play music from Audio CDs. Convert the content to compatible

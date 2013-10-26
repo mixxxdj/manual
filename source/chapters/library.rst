@@ -270,7 +270,8 @@ intended for live, attended performance use. However, you can use the
   context menu in the library`s :ref:`track list<library-root>`.
 
 .. versionadded:: 1.12
-   Analyze Playlist option in the context menu.
+   :guilabel:`Analyze Playlist` option in the context menu.
+   Import playlists by drag-and-dropping them into a playlist in the sidebar.
 
 Right-click on an existing playlist's name to access the different features in
 the context menu:
@@ -460,8 +461,8 @@ The Analyze features in detail:
 
 * **All / New radio-buttons**: Allows you to view a list of either all tracks in
   the library or tracks added to the library within the last 7 days.
-* **Select All button **: Selects all tracks in the current view.
-* **Analyze button **: Starts the detection on the selected tracks.
+* **Select All button**: Selects all tracks in the current view.
+* **Analyze button**: Starts the detection on the selected tracks.
 
 .. seealso:: For more information, go to :ref:`djing-bpm-detection`.
 
