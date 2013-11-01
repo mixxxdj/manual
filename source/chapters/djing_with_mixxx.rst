@@ -74,13 +74,13 @@ Importing your audio files
   <Operating System>`. :term:`DRM` protected files, such as m4p
   files purchased in the iTunes Store, are not supported.
 
-  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. On Linux,
-  Mixxx does not have AAC (M4A) playback support enabled by default due to
-  licensing restrictions.
+  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The 
+  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
+  required for Windows Vista.
 
-  .. seealso :: To enable playback of AAC (M4A) files, you can build Mixxx from
-                source.
-                `<http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_
+  On Linux, AAC playback is disabled by default due to licensing restrictions.
+  To enable the playback of AAC files, `build Mixxx from source with m4a files support
+  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
 
 **Changing the music directory**
   The Mixxx music directory can always be changed at a later time in
@@ -107,7 +107,7 @@ Importing your audio files
 
 **Import music from CDs**
   Mixxx can not play music from Audio CDs. Convert the content to compatible
-  files in good quality and add them to them Mixxx library. See
+  files in good quality and add them to the Mixxx library. See
   `<https://en.wikipedia.org/wiki/Ripping>`_
 
 .. _djing-loading-tracks:
