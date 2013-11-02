@@ -118,6 +118,13 @@ occur throughout the track, you can basically “see” your music.
              Waveform Display --> Display type`.
 
 **Waveform overview**
+  
+  .. versionadded:: 1.12
+
+     Like with the Waveform summary, you can now select from different types
+     of displays for the overview in :menuselection:`Preferences --> Interface 
+     --> Waveform Display --> Preview type`.
+
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
   useful because they allow DJs to see breakdowns far in advance. Clicking
