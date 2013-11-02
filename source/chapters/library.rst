@@ -186,7 +186,7 @@ Missing Tracks
 --------------
 
 .. sectionauthor::
-   M.Linke <n.n.>
+   M.Linke <kain88@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
 .. versionadded:: 1.11
@@ -209,7 +209,7 @@ Hidden Tracks
 -------------
 
 .. sectionauthor::
-   M.Linke <n.n.>
+   M.Linke <kain88@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
 .. versionadded:: 1.11
