@@ -126,27 +126,47 @@ music library.
 Track list context menu
 -----------------------
 
+.. versionadded:: 1.12
+   
+   *Reload Track Metadata from MusicBrainz* and *Change BPM* context menu options
+
+.. versionchanged:: 1.12 All related options are in the BPM Options sub-menu
+
 Right-clicking on selected tracks in the track list reveals the context menu:
 
 * **Add to Auto DJ**: Adds the content of the session to the
   :ref:`Auto DJ <library-auto-dj>` playlist for automatic mixing.
 * **Load to Deck/Sampler**: Loads a selected file to a
-  :ref:`deck <interface-decks>`, :ref:`sampler <interface-sampler>` or
-  :ref:`previewdeck <interface-preview-deck>`. Alternatively
+  :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
+  :ref:`Previewdeck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. Note that you can't load
   multiple files at ones.
 * **Add to playlist/crate**: Add selected tracks to the playlists or
   crates that you have created before. Alternatively, drag the selection to the
   playlist or crate in the sidebar.
-* **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
-  can't edit them in the track properties. If a BPM is locked, a “lock” icon
-  appears next to the track's BPM.
-* **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of
-  selected tracks from the Mixxx libary. After doing this we recommended you
-  :ref:`analyze <library-analyze>` the tracks again.
-* **Reload Track Metadata**: If the track's metadata changes, e.g. if you used
-  iTunes to edit them, this option lets you load the new values to the Mixxx
-  library.
+* **BPM Options sub-menu**:
+
+    **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of 
+    the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks. If
+    many of the detected BPM are off from the tracks original tempo, you might
+    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyser Settings 
+    <djing-bpm-detection>` and re-run the analysis.
+
+    **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
+    can't edit them in the track properties. If a BPM is locked, a “lock” icon
+    appears next to the track's BPM.
+
+    **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of
+    selected tracks from the Mixxx library. After doing this we recommended you
+    :ref:`analyze <library-analyze>` the tracks again.
+
+* **Reload Track Metadata from File**: If the track's metadata changes, e.g. if
+  you used iTunes to edit them, this option lets you load the new values to the
+  Mixxx library.
+* **Reload Track Metadata from MusicBrainz**:
+
+  .. todo:: Add MusicBrainz infos
+
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
