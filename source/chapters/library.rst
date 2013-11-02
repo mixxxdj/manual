@@ -149,7 +149,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of 
     the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks. If
     many of the detected BPM are off from the tracks original tempo, you might
-    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyser Settings 
+    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyzer Settings 
     <djing-bpm-detection>` and re-run the analysis.
 
     **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you

@@ -341,7 +341,7 @@ auto-beatmatching via :guilabel:`SYNC` button.
 The beat grid is adjusted after track analysis is finished. Manual adjustments
 are redundant in many cases because Mixxx knows where the beats are.
 
-Analyser Settings
+Analyzer Settings
 -----------------
 
 BPM and beat detection is a complex operation. Depending on your computer and
