@@ -127,7 +127,7 @@ Track list context menu
 -----------------------
 
 .. versionadded:: 1.12
-   
+
    *Reload Track Metadata from MusicBrainz* and *Change BPM* context menu options
 
 .. versionchanged:: 1.12 All related options are in the BPM Options sub-menu
@@ -146,10 +146,10 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   playlist or crate in the sidebar.
 * **BPM Options sub-menu**:
 
-    **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of 
+    **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of
     the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks. If
     many of the detected BPM are off from the tracks original tempo, you might
-    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyzer Settings 
+    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyzer Settings
     <djing-bpm-detection>` and re-run the analysis.
 
     **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
@@ -500,6 +500,8 @@ iTunes, Traktor, Rhythmbox - Using external libraries
 libraries you have created in these applications. You can access music and
 playlists. If available, Mixxx automatically loads the external libraries from
 their default locations on your hard drive.
+
+.. note:: Playing a track from an external library will add it to your Mixxx library.
 
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
