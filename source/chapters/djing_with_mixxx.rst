@@ -160,15 +160,18 @@ current selected list (e.g. a playlist, a crate or even the whole library).
 Using search operators
 ----------------------
 
-.. versionadded:: 1.11
-
 Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
+.. versionchanged:: 1.12
+   Adds *location* and *album_artist* search keywords
+
 Mixxx supports the following filters:
 
-* **Text filtering**: For artist, album, genre, title, composer, comment, key
-* **Numeric filtering**: For year, track, bpm, duration, played, rating, bitrate
+* **Text filtering**: artist, album, album_artist, genre, title, composer,
+  comment, key, location
+
+* **Numeric filtering**: year, track, bpm, duration, played, rating, bitrate
 
 You can combine operators but there's no way to do an “OR” search right now.
 The following example list all tracks by “Danger” that are rated 4 or 5:
