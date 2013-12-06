@@ -11,8 +11,8 @@ Shortcuts let you work more efficiently. This table lists the default keyboard
 shortcuts for accessing Mixxx with an English keyboard layout. Depending on your
 language settings the defaults may be different.
 
-.. versionadded:: 1.11
-   Auto DJ and Preview Deck shortcuts
+.. versionadded:: 1.12
+   *Passthrough*, *Vinylcontrol Mode*, and *Vinylcontrol Cueing* shortcuts
 
 +----------------------------------------+---------------------+---------------------+--------------+
 | Function                               | Deck 1              | Deck 2              | Master       |
@@ -126,6 +126,14 @@ language settings the defaults may be different.
 | Seek Backwards                         |                     |                     | Alt + Left   |
 +----------------------------------------+---------------------+---------------------+--------------+
 | Seek Forwards                          |                     |                     | Alt + Right  |
++----------------------------------------+---------------------+---------------------+--------------+
+| **Vinyl Control**                                                                                 |
++----------------------------------------+---------------------+---------------------+--------------+
+| Passthrough                            | Ctrl + J            | Ctrl + K            |              |
++----------------------------------------+---------------------+---------------------+--------------+
+| Vinylcontrol Mode                      | Ctrl + Shift + Y    | Ctrl + Shift + U    |              |
++----------------------------------------+---------------------+---------------------+--------------+
+| Vinylcontrol Cueing                    | Ctrl + Alt+ Y       | Ctrl + Alt + U      |              |
 +----------------------------------------+---------------------+---------------------+--------------+
 
 .. seealso:: Mixxx allows you to customize the keyboard shortcuts. For more
