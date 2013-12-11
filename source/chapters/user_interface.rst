@@ -107,10 +107,10 @@ occur throughout the track, you can basically “see” your music.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
-  current playback position and is updated in realtime. The mouse can be used on
-  the waveform to pause, scratch, spin-back or throw the tracks. Right-clicking
-  on the waveforms allows you to drag with the mouse to make temporary pitch
-  adjustments.
+  current playback position and is updated in real time. The mouse can be used
+  on the waveform to pause, scratch, spin-back or throw the tracks.
+  Right-clicking on the waveforms allows you to drag with the mouse to make
+  temporary pitch adjustments.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the

@@ -9,7 +9,7 @@ usually depends on your budget or style of DJing.
 
 .. _control-mouse:
 
-Using a Mouse and Trackpad
+Using a Mouse and Touchpad
 ==========================
 
 Use your mouse to interact with the controls in the

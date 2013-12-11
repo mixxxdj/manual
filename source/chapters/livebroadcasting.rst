@@ -177,10 +177,10 @@ in :menuselection:`Preferences --> Live Broadcasting --> Stream Settings`.
 * **Shoutcast radio directory**: `www.shoutcast.com <http://www.shoutcast.com/>`_
 * **Icecast radio directory**: `dir.xiph.org <http://dir.xiph.org/>`_
 
-Often streaming hosts will run their own directories. Check your host's FAQ to find out.
-If you want to promote your streaming radio station even more, register at
-services like `streamfinder.com <http://streamfinder.com>`_. An overview
-of different internet radio directories is available at
+Often streaming hosts will run their own directories. Check your host's FAQ to
+find out. If you want to promote your streaming radio station even more,
+register at services like `streamfinder.com <http://streamfinder.com>`_.
+An overview of different internet radio directories is available at
 `shoutcheap.com <http://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
 
 Troubleshooting

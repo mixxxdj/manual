@@ -26,7 +26,7 @@ Glossary of Terms
 
    waveform summary
      The waveform summary shows the waveform envelope of the track near the
-     current playback postition.
+     current playback position.
 
    waveform overview
      The waveform overview shows the waveform envelope of the entire track, and
@@ -152,8 +152,8 @@ Glossary of Terms
 
    phase
      The phase of a track is its position relative to another track. If two
-     tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they should be
-     playing so that their beats are aligned.
+     tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they
+     should be playing so that their beats are aligned.
 
    pitch bend
      A technique used by DJs that temporarily `bends` the rate of a track up or

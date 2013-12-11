@@ -232,17 +232,17 @@ Mixxx has three control modes regardless of which control records you use.
   seeking on your CDJ.
 * **Relative Mode**: Takes the position to be relative to your deck's starting
   point, and only controls the pitch in Mixxx. It is not possible to seek using
-  your deck in relative mode, with one exception.  If you drop the needle in the
-  “Lead-in Time” area (see `Vinyl Configuration`_), Mixxx will seek back to
-  the beginning of the track.  Once a track is playing in Relative Mode, Mixxx
-  will not allow you to select Absolute mode. Otherwise, the track would suddenly jump to a new
-  position.  Make sure the record is stopped and then you're free to select
-  Absolute mode.
+  your deck in relative mode, with one exception. If you drop the needle in the
+  :guilabel:`Lead-in Time` area (see `Vinyl Configuration`_), Mixxx will seek
+  back to the beginning of the track.  Once a track is playing in Relative Mode,
+  Mixxx will not allow you to select Absolute mode. Otherwise, the track would
+  suddenly jump to a new position. Make sure the record is stopped and then
+  you're free to select Absolute mode.
 * **Constant Mode**: This special mode is usually only activated when Mixxx
   needs to keep playing a track even if the vinyl control signal isn't present.
   Constant mode is automatically enabled when the needle reaches the end of a
-  vinyl control record, or if “Needle-skip Prevention” is enabled and a needle
-  skip is detected.
+  vinyl control record, or if :guilabel:`Needle-skip Prevention` is enabled and
+  a needle skip is detected.
 
 Cueing Modes
 ------------
@@ -445,9 +445,9 @@ Signal          Meaning                               Troubleshooting
                                                       preferences.
 --------------  ------------------------------------  ------------------------------------
 |unbalanced|    Left or right channel is missing.     Check the wiring on your turntable /
-                Mixxx recives only a mono signal but  CDJ and also the headshell and
-                needs a stereo timecode signal to     needle on your turntable.
-                operate.
+                Mixxx receives only a mono signal     CDJ and also the headshell and
+                but needs a stereo timecode signal    needle on your turntable.
+                to operate.
 --------------  ------------------------------------  ------------------------------------
 |too_loud|      Timecode signal too loud.             Lower the amplification, either on
                 Mixxx receives a signal which has     your external Mixer, soundcard or

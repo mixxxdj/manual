@@ -49,7 +49,7 @@ efficiency gains to developers.
 Screenshots
 -----------
 
-Use english language settings when creating screen-shots of the Mixxx interface.
+Use English language settings when creating screen-shots of the Mixxx interface.
 This might change if we ever have true
 `i18n <https://en.wikipedia.org/wiki/Internationalization_and_localization>`_.
 The preferred file format is PNG. **Don't add shadows** to application window

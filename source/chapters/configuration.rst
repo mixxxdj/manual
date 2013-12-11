@@ -82,7 +82,7 @@ Latency, Sample Rate, and Audio API
 ===================================
 
 To achieve the best performance with Mixxx it is essential to configure your
-*latency*, *samplerate*, and *audio API*. These three factors largely determine
+*latency*, *sample rate*, and *audio API*. These three factors largely determine
 Mixxx's responsiveness and audio quality and the optimal settings will vary
 based on your computer and hardware quality.
 
@@ -124,8 +124,8 @@ produces higher audio quality. On high-wattage club sound systems, it may become
 apparent if your audio sample rate is too low.
 
 .. warning:: A sample rate of 96kHz takes Mixxx over twice as long to compute.
-             Keep in mind that increasing the samplerate will increase CPU usage
-             and likely raise the minimum latency you can achieve.
+             Keep in mind that increasing the sample rate will increase CPU
+             usage and likely raise the minimum latency you can achieve.
 
 Audio API
 ---------

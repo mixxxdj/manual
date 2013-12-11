@@ -186,7 +186,7 @@ professional soundcard together with a pair of :term:`timecode` records and
 headphones.
 
 For best results, when using this setup you should ensure your system is capable
-of latencies under 10ms. Otherwise scratching may sound distorted. For more
+of latencies under 10 ms. Otherwise scratching may sound distorted. For more
 information about latency and how to improve it, see :ref:`configuration-latency`.
 
 .. seealso:: Go to the chapter :ref:`vinyl-control` for detailed information.
