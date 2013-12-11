@@ -109,6 +109,18 @@
     :height: 12px
     :alt: Library - Preview Play
 
+.. |ic_lib_preview_play| image:: /_static/icons/ic_library_checked.png
+    :width: 10px
+    :align: middle
+    :height: 12px
+    :alt: Library - BPM Locked
+
+.. |ic_lib_preview_play| image:: /_static/icons/ic_library_unchecked.png
+    :width: 10px
+    :align: middle
+    :height: 12px
+    :alt: Library - BPM Unlocked
+
 .. -----------------------
 .. Mixxx preferences icons
 .. -----------------------
@@ -154,6 +166,12 @@
     :height: 32px
     :alt: Preferences - Icon Interface
 
+.. |ic_pref_interface| image:: /_static/icons/ic_preferences_keydetect.png
+    :width: 32px
+    :align: middle
+    :height: 32px
+    :alt: Preferences - Icon Key Detection
+
 .. |ic_pref_library| image:: /_static/icons/ic_preferences_library.png
     :width: 32px
     :align: middle
@@ -165,6 +183,12 @@
     :align: middle
     :height: 32px
     :alt: Preferences - Icon MIDI Controllers
+
+.. |ic_pref_midi| image:: /_static/icons/ic_preferences_modplug.png
+    :width: 32px
+    :align: middle
+    :height: 32px
+    :alt: Preferences - Icon Modplug Decoder
 
 .. |ic_pref_recording| image:: /_static/icons/ic_preferences_recording.png
     :width: 32px
