@@ -41,8 +41,8 @@ view on the right displays the tracks in those collections.
 * **Recordings**: Record your mix and view previous recordings.
 * **History**: Browse lists of tracks you played in past mixing sessions.
 * **Analyze**: Prepare your tracks for optimal mixing experience.
-* **External Libraries**: Access your existing iTunes, Traktor and Rhythmbox
-  libraries.
+* **External Libraries**: Access your existing iTunes, Traktor, Rhythmbox and
+  Banshee libraries.
 
 **Track List**:
 
@@ -488,31 +488,36 @@ The Analyze features in detail:
 
 .. _library-3rd-party:
 
-iTunes, Traktor, Rhythmbox - Using external libraries
-=====================================================
+iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
+==============================================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_itunes| The iTunes (Windows/Mac OS X),
-|ic_lib_traktor| Traktor (Windows/Mac OS X), and
-|ic_lib_rhythmbox| Rhythmbox (GNU/Linux) views allow you to use the music
-libraries you have created in these applications. You can access music and
-playlists. If available, Mixxx automatically loads the external libraries from
-their default locations on your hard drive.
+.. versionadded:: 1.12
+   Add support for Banshee music player
 
-.. note:: Playing a track from an external library will add it to your Mixxx library.
+* |ic_lib_itunes| `iTunes <http://itunes.apple.com>`_ (Windows, Mac OS X)
+* |ic_lib_traktor| `Traktor <http://http://www.native-instruments.com/en/traktor/>`_ (Windows, Mac OS X),
+* |ic_lib_rhythmbox| `Rhythmbox <https://projects.gnome.org/rhythmbox/>`_ (GNU/Linux)
+* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
+
+The external library views allow you to use the music libraries you have created
+in these third party applications. You can access music and playlists. If
+available, Mixxx automatically loads the external libraries from their default
+locations on your hard drive.
+
+.. note:: Playing a track from an external library will add it to your Mixxx
+          library.
 
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
 different location. Select :guilabel:`Use Default Library` to reset.
 
-.. versionadded:: 1.11
-
 * Right-click on a iTunes/Rhythmbox/Traktor playlist and choose
   :guilabel:`Import Playlist` to import it to be a regular Mixxx playlist.
-* If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or Mac
-  partition mounted in Linux, you can load it and use your iTunes tracks and
+* If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
+  Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists.
 
 .. seealso:: You can disable external libraries in

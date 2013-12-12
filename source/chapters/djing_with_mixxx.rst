@@ -89,8 +89,9 @@ Importing your audio files
   menu.
 
 **Import external libraries**
-  If you have iTunes, Traktor or Rhythmbox installed, Mixxx allows you to access
-  your tracks and playlists in the Mixxx library, see :ref:`library-3rd-party`.
+  If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
+  to access your tracks and playlists in the Mixxx library,
+  see :ref:`library-3rd-party`.
 
 **Import remote files**
   To import audio files which are not in your music library directory, drag them
