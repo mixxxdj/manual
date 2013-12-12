@@ -109,13 +109,13 @@
     :height: 12px
     :alt: Library - Preview Play
 
-.. |ic_lib_preview_play| image:: /_static/icons/ic_library_checked.png
+.. |ic_lib_bpm_locked| image:: /_static/icons/ic_library_checked.png
     :width: 10px
     :align: middle
     :height: 12px
     :alt: Library - BPM Locked
 
-.. |ic_lib_preview_play| image:: /_static/icons/ic_library_unchecked.png
+.. |ic_lib_bpm_unlocked| image:: /_static/icons/ic_library_unchecked.png
     :width: 10px
     :align: middle
     :height: 12px
@@ -166,7 +166,7 @@
     :height: 32px
     :alt: Preferences - Icon Interface
 
-.. |ic_pref_interface| image:: /_static/icons/ic_preferences_keydetect.png
+.. |ic_pref_key| image:: /_static/icons/ic_preferences_keydetect.png
     :width: 32px
     :align: middle
     :height: 32px
@@ -184,7 +184,7 @@
     :height: 32px
     :alt: Preferences - Icon MIDI Controllers
 
-.. |ic_pref_midi| image:: /_static/icons/ic_preferences_modplug.png
+.. |ic_pref_modplug| image:: /_static/icons/ic_preferences_modplug.png
     :width: 32px
     :align: middle
     :height: 32px
