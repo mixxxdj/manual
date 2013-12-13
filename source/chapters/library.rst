@@ -192,8 +192,6 @@ Missing Tracks
    M.Linke <kain88@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 1.11
-
 The Missing Tracks view is accessible by expanding the Library tree item in the
 sidebar. Any tracks that were previously loaded into your library, but were
 later detected to be missing from your hard disk by Mixxx will appear here.
@@ -214,8 +212,6 @@ Hidden Tracks
 .. sectionauthor::
    M.Linke <kain88@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
-
-.. versionadded:: 1.11
 
 The Hidden Tracks view is also accessible by expanding the Library tree item in
 the sidebar. Any tracks that were previously loaded into your library, but were
@@ -245,9 +241,6 @@ Auto DJ - Automate your mix
 |ic_lib_autodj| The Auto DJ queue is a special playlist that contains extra
 controls for automatic mixing. This is useful for taking a break from live
 mixing or for using Mixxx as media player.
-
-.. versionadded:: 1.11
-   Shuffle, Skip track, Fade now, Transition time, and Auto DJ Requeue.
 
 The Auto DJ features in detail:
 
@@ -409,8 +402,6 @@ the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
-.. versionadded:: 1.11
-
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
 access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
@@ -432,8 +423,6 @@ History - Keep track of your last sessions
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
-
-.. versionadded:: 1.11
 
 |ic_lib_history| The history section automatically keeps a list of tracks you
 play in your DJ sets. This is handy for remembering what worked in your DJ sets,

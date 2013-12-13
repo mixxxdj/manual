@@ -213,8 +213,6 @@ Previewing Tracks
    M.Linke <kain88@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 1.11
-
 To pre-listen to a track, activate the :guilabel:`Preview` column in a library
 view. Clicking the |ic_lib_preview_play| icon in the library's
 :guilabel:`Preview` column loads the selected track in a special :ref:`Preview
@@ -339,9 +337,7 @@ determine where the beats are. Consequently, the beat grids often looked
 unaligned. The DJ had to adjust the beat grid manually in oder to make use of
 auto-beatmatching via :guilabel:`SYNC` button.
 
-.. versionchanged:: 1.11
-   Mixxx comes with a new ultra-precise BPM and beat detector.
-
+Now Mixxx comes with a new ultra-precise BPM and beat detector.
 The beat grid is adjusted after track analysis is finished. Manual adjustments
 are redundant in many cases because Mixxx knows where the beats are.
 
@@ -434,9 +430,6 @@ the microphone.
    :figclass: pretty-figures
 
    Mixxx library - Recordings view
-
-.. versionadded:: 1.11
-   Allows to specify a custom recordings directory
 
 Mixxx can record your mix in various audio formats and quality settings. You can
 split your recordings, generate :term:`cue files <cue sheet>`, choose a custom

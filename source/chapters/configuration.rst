@@ -113,15 +113,12 @@ sub-1ms operation).
 Sample Rate
 -----------
 
-.. versionadded:: 1.11
-   Mixxx automatically selects a default sample rate for your soundcard, most
-   likely 44100 Hz
-
 The sample rate setting in Mixxx determines how many samples per second are
-produced by Mixxx. In general, a higher sample rate means that Mixxx produces
-more audio data for your soundcard. This takes more CPU time, but in theory
-produces higher audio quality. On high-wattage club sound systems, it may become
-apparent if your audio sample rate is too low.
+produced by Mixxx. Mixxx automatically selects a default sample rate for your
+soundcard, most likely 44100 Hz. In general, a higher sample rate means that
+Mixxx produces more audio data for your soundcard. This takes more CPU time, but
+in theory produces higher audio quality. On high-wattage club sound systems, it
+may become apparent if your audio sample rate is too low.
 
 .. warning:: A sample rate of 96kHz takes Mixxx over twice as long to compute.
              Keep in mind that increasing the sample rate will increase CPU

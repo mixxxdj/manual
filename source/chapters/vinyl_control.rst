@@ -113,9 +113,6 @@ quality of the corresponding open source driver.
 Supported Timecode media
 ------------------------
 
-.. versionchanged:: 1.11
-   Added MixVibes DVS V2 Vinyl support
-
 You can use any of the timecode media supported by Mixxx:
 
 +----------------------------------------+---------------------+

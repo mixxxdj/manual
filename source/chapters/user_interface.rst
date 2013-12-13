@@ -405,9 +405,6 @@ loop points of a track.
   position. If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
 * **Loop roll**:
-
-  .. versionadded:: 1.11
-
   Right-click on any of the numbered loop buttons to temporarily setup a rolling
   loop over the defined number of beats. Playback will resume where the track
   would have been if it had not entered the loop.
@@ -567,8 +564,7 @@ If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
 * :ref:`interface-sampler`
 * :ref:`interface-vc-mode`
 
-.. versionadded:: 1.11
-   You can also use the specific :ref:`appendix-shortcuts`.
+You can also use the specific :ref:`appendix-shortcuts`.
 
 .. _interface-head-master:
 
@@ -647,8 +643,6 @@ Equalizers and Gain Knobs
 
    EQ Controls
 
-.. versionadded:: 1.11 Latch mode for Kill Switches
-
 **Gain Knob**
   Above these knobs, the gain knob allows you to adjust the gain of the deck. In
   general, you should adjust this knob so that at full-volume the deck's audio is
@@ -683,9 +677,6 @@ Crossfader
    :figclass: pretty-figures
 
    The crossfader section of the mixer with Play/Pause and Cue buttons
-
-.. versionadded:: 1.11
-   Reverse crossfader (Hamster style)
 
 The :term:`crossfader` determines the actual volume of each deck when moving
 the slider from left to right. If both decks are playing and the crossfader is
@@ -868,9 +859,6 @@ are as follows:
 Sample Deck Controls
 --------------------
 
-.. versionadded:: 1.11
-   Samplers can sync to decks.
-
 **Play/Pause button**
   Clicking the button starts and stops playback. Right-clicking on the button
   will seek the play position to the beginning of the sample.
@@ -938,9 +926,6 @@ Microphone Controls
 -------------------
 
 **Talk Button**
-
-  .. versionchanged:: 1.11 Latch mode added.
-
   Hold this button and talk to mix the microphone input into the Mixxx master
   output. Short click on the button for latching. This is handy for talking for
   an extended period, for example when :ref:`streaming <live-broadcasting>` a
@@ -974,8 +959,6 @@ Preview Deck Section
    :figclass: pretty-figures
 
    The Preview Deck with a track loaded
-
-.. versionadded:: 1.11
 
 The Preview Deck is a special deck that allows you to pre-listen to tracks in the
 headphones before using them in your mix. Pre-listening a track does not change
