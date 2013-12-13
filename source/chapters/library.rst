@@ -37,11 +37,11 @@ view on the right displays the tracks in those collections.
 * **Auto DJ**: Automatically load and crossfade tracks for unattended mixing.
 * **Playlists**: Organize your tracks in sortable lists.
 * **Crates**: Manage your files in unordered track collections.
-* **Browse**: Browse and load tracks from your filesystem and connected devices.
+* **Browse**: Browse and load tracks from your file system and connected devices.
 * **Recordings**: Record your mix and view previous recordings.
 * **History**: Browse lists of tracks you played in past mixing sessions.
 * **Analyze**: Prepare your tracks for optimal mixing experience.
-* **External Libraries**: Access your existing iTunes, Traktor, Rhythmbox and
+* **External Libraries**: Access your existing iTunes, Traktor, Rhythmbox, and
   Banshee libraries.
 
 **Track List**:
@@ -127,15 +127,17 @@ Track list context menu
 -----------------------
 
 .. versionadded:: 1.12
+   :guilabel:`Reload Track Metadata from MusicBrainz` and :guilabel:`Change BPM`
+   context menu options.
 
-   *Reload Track Metadata from MusicBrainz* and *Change BPM* context menu options
-
-.. versionchanged:: 1.12 All related options are in the BPM Options sub-menu
+.. versionchanged:: 1.12
+   All related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
-* **Add to Auto DJ**: Adds the content of the session to the
-  :ref:`Auto DJ <library-auto-dj>` playlist for automatic mixing.
+* **Add to Auto DJ**: Adds the content of the selection to either the 
+  :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
+  playlist for automatic mixing.
 * **Load to Deck/Sampler**: Loads a selected file to a
   :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
   :ref:`Previewdeck <interface-preview-deck>`. Alternatively
@@ -153,12 +155,13 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     <djing-bpm-detection>` and re-run the analysis.
 
     **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
-    can't edit them in the track properties. If a BPM is locked, a “lock” icon
-    appears next to the track's BPM.
+    can't edit them in the track properties. The |ic_lib_bpm_unlocked| icon next
+    to the track's BPM in the library row is a toggle. Clicking it will set the
+    status to "locked", and the icon changes to |ic_lib_bpm_locked|.
 
     **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of
-    selected tracks from the Mixxx library. After doing this we recommended you
-    :ref:`analyze <library-analyze>` the tracks again.
+    selected tracks from the Mixxx library. After doing this, we recommended you
+    to :ref:`analyze <library-analyze>` the tracks again.
 
 * **Reload Track Metadata from File**: If the track's metadata changes, e.g. if
   you used iTunes to edit them, this option lets you load the new values to the
@@ -335,7 +338,7 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   :ref:`track list<library-root>`.
 
 .. versionadded:: 1.12
-   Analyze Crate option in the menu.
+   :guilabel:`Analyze Crate` option in the menu.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
