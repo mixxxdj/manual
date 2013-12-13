@@ -494,13 +494,15 @@ iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 1.12
-   Add support for Banshee music player
+Supported libraries:
 
 * |ic_lib_itunes| `iTunes <http://itunes.apple.com>`_ (Windows, Mac OS X)
 * |ic_lib_traktor| `Traktor <http://http://www.native-instruments.com/en/traktor/>`_ (Windows, Mac OS X),
 * |ic_lib_rhythmbox| `Rhythmbox <https://projects.gnome.org/rhythmbox/>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
+
+.. versionadded:: 1.12
+   Support for Banshee music player
 
 The external library views allow you to use the music libraries you have created
 in these third party applications. You can access music and playlists. If
@@ -514,7 +516,7 @@ Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
 different location. Select :guilabel:`Use Default Library` to reset.
 
-* Right-click on a iTunes/Rhythmbox/Traktor playlist and choose
+* Right-click on a iTunes/Traktor/Rhythmbox/Banshee playlist and choose
   :guilabel:`Import Playlist` to import it to be a regular Mixxx playlist.
 * If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
