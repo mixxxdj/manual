@@ -299,8 +299,6 @@ control rate changes also from your computer's keyboard, see the chapter
 * **Right-Click**: Only changes the :term:`rate` of the track to match the other
   deck but does not adjusts the :term:`phase`.
 
-.. versionchanged:: 1.11 Changed Sync mode (Ghetto Sync™)
-
 Decks and samplers now pick which sync target to sync to on the fly. Decks
 can't sync to samplers and samplers can only sync to decks. The sync target is:
 
@@ -363,6 +361,9 @@ Transport Controls
 
    The transport controls of the deck
 
+.. versionadded:: 1.12
+   Right-click on the Reverse button activates Reverse Roll (Censor)
+
 **Fast-Rewind button**
   As long as the button is pressed, the track will play in reverse with
   increased speed. Right-clicking on the button will seek the play position to
@@ -375,6 +376,9 @@ Transport Controls
 
 **Reverse button**
   As the name suggests, this button plays a track backwards.
+  Right-clicking on the button puts a track into reverse while being held, 
+  resumes the track and disables Slip mode when released. Useful to censor
+  expletives on the fly, or simply as part of your mix. 
 
 .. _interface-looping:
 
