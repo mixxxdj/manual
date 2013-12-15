@@ -175,11 +175,12 @@ Mixxx supports the following filters:
 * **Numeric filtering**: year, track, bpm, duration, played, rating, bitrate
 
 You can combine operators but there's no way to do an “OR” search right now.
-The following example list all tracks by “Danger” that are rated 4 or 5:
+The following example list all tracks by “Danger” over 300 seconds (5 minutes)
+long that are rated 4 or 5.
 
 ::
 
-    artist:Danger rating:>=4
+    artist:Danger duration:>300 rating:>=4
 
 +--------------------------------------+---------------------------------------+
 | Examples for text filtering          | Examples for numeric filtering        |
