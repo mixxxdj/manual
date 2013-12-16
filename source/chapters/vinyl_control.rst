@@ -257,7 +257,8 @@ find a break or a vocal sample, and cueing modes make these easy to find.
   and two minutes and Mixxx will seek to the one-minute hotcue.
 
 .. hint:: You can change the Control and Cueing Modes directly in the Mixxx user
-          interface while mixing, go to :ref:`interface-vc-mode`.
+          interface while mixing, go to :ref:`interface-vc-mode`. Alternatively,
+          use the :ref:`appendix-shortcuts`.
 
 Needle-skip Prevention
 ----------------------
@@ -296,7 +297,7 @@ Enabling Vinyl Control
 ======================
 
 For each deck, select :menuselection:`Options --> Vinyl Control -->
-Enable Vinyl Control` or use the :ref:`appendix-shortcuts`.
+Enable Vinyl Control`, or use the :ref:`appendix-shortcuts`.
 
 Vinyl Control Status Display
 ----------------------------
@@ -333,18 +334,10 @@ will continue on the first deck without interruption. Cue up the second track
 and mix it in. When you're ready to cue the first deck again, just toggle the
 second deck off and the first deck on again.
 
-You can bind a key to the ``[VinylControl],Toggle`` `control
-<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_ to automatically swap from
-one deck to the other.
-
-* In the :ref:`advanced-controller-wizard`, select :menuselection:`Vinyl
-  --> Single Deck mode` to assign the control to a key on your MIDI device.
-* To assign the control to a keyboard shortcut like :kbd:`Shift` + :kbd:`T` ,
-  you just need to add the following lines on top of your :ref:`custom keyboard
-  mapping <advanced-keyboard>` file. ::
-
-    [VinylControl]
-    Toggle Shift+T
+Use the :ref:`appendix-shortcuts` to swap focus from one deck to the other.
+Alternatively, select :menuselection:`Vinyl --> Single Deck mode` in the
+:ref:`advanced-controller-wizard`, to assign the control to a key on your
+controller.
 
 End-Of-Record Mode
 ==================

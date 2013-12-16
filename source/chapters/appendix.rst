@@ -135,6 +135,8 @@ language settings the defaults may be different.
 +----------------------------------------+---------------------+---------------------+--------------+
 | Vinylcontrol Cueing                    | Ctrl + Alt+ Y       | Ctrl + Alt + U      |              |
 +----------------------------------------+---------------------+---------------------+--------------+
+| Single Deck Toggle / Swap Decks        | Ctrl + T            | Ctrl + T            |              |
++----------------------------------------+---------------------+---------------------+--------------+
 
 .. seealso:: Mixxx allows you to customize the keyboard shortcuts. For more
              information, and to download a keyboard mapping image, go to
