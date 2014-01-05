@@ -446,7 +446,8 @@ view, then right-click on a sessions name to access the different features:
 * **Lock**: Protect a previous session against accidental merge and deletion.
   An icon indicates a locked session.
 * **Create new history playlist**: Split off the current history session, and
-  add a new session without having to restart Mixxx.
+  add a new session without having to restart Mixxx. The current history must
+  contain at least one track for this option to be available.
 * **Join with previous**: Join the current history session with a previous one.
 * **Export playlist**: Export a session in various file formats, ideal for
   processing the data in other applications.
