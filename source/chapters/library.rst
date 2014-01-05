@@ -435,6 +435,9 @@ track during the current session, it will be discarded.
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
 view, then right-click on a sessions name to access the different features:
 
+.. versionadded:: 1.12
+   :guilabel:`Create new history playlist` context menu option.
+
 * **Add to Auto DJ**: Adds the content of the session to the
   :ref:`Auto DJ <djing-auto-dj>` queue for automatic mixing.
 * **Rename**: Rename a session, default is the calendar date (YYYY-MM-DD).
@@ -442,6 +445,8 @@ view, then right-click on a sessions name to access the different features:
   current session.
 * **Lock**: Protect a previous session against accidental merge and deletion.
   An icon indicates a locked session.
+* **Create new history playlist**: Split off the current history session, and
+  add a new session without having to restart Mixxx.
 * **Join with previous**: Join the current history session with a previous one.
 * **Export playlist**: Export a session in various file formats, ideal for
   processing the data in other applications.
