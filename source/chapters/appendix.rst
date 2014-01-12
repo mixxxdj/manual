@@ -223,6 +223,9 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Comment line options are case-sensitive.
 
+.. versionadded:: 1.12
+   Show debug tooltips when developer mode is enabled.
+
 ======================  =================================================
 Option                  Description
 ======================  =================================================
@@ -242,13 +245,15 @@ Option                  Description
 ----------------------  -------------------------------------------------
 --settingsPath PATH     Top-level directory where Mixxx should look
                         for user settings files such as the library
-                        database and preferences config file.
+                        database and preferences configuration file.
 ----------------------  -------------------------------------------------
 --controllerDebug       Causes Mixxx to display/log all of the controller
-                        data it receives and script functions it loads
+                        data it receives and script functions it loads.
 ----------------------  -------------------------------------------------
 --developer             Enables developer-mode. Includes extra log info,
-                        stats on performance, and a Developer tools menu.
+                        stats on performance, a Developer tools menu, and
+                        provides useful information for skin writers in
+                        widget tooltips.
 ----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g 'fr')
