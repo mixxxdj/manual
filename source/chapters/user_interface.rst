@@ -699,9 +699,10 @@ on the left end of the crossfader and vice versa. This is also known as
 
 Play/Pause Button
 -----------------
-Clicking the Play/Pause button starts and pauses the playback. A right-click on
-the button during playback places a :term:`Cue point <cue>` on the track, see
-:ref:`interface-cue`.
+Clicking the Play/Pause button starts and pauses the playback.
+
+.. seealso:: The actual behaviour of the Play/Pause button dependes on the 
+             selected cue mode described here: :ref:`using-cue-modes`.
 
 .. hint :: To return to the beginning of the track, right-click on the deck's
            :ref:`Fast-Rewind Button <interface-transport>`.
@@ -710,22 +711,21 @@ the button during playback places a :term:`Cue point <cue>` on the track, see
 
 Cue Button
 ----------
-If the button is pressed, the play position jumps to an existing
-:term:`Cue point <cue>` on the track or sets a new one, depending on whether a
-track is playing or not. If you have not set any custom cues yet, the default
+If the button is pressed while the track is playing, the play position jumps to the
+:term:`Cue point <cue>` on the track and the track is paused.
+Once the track is paused at the :term:`Cue point <cue>` you can preview it by holding 
+the Cue Button. If you have not moved the :term:`Cue point <cue>` yet, the default
 point is at the track's beginning.
+
+.. seealso:: The actual behaviour of the Cue button dependes on the 
+             selected cue mode described here: :ref:`using-cue-modes`.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
 
-* **While playing**: The Cue point is set via :ref:`interface-play-pause`.
-  A right-click on the button places a Cue point at the current play position on
-  the track, and a :ref:`Cue marker <interface-waveform>` appears on the
-  waveforms.
+The Cue point is moved according to the selected Cue mode.
 
-* **While stopped**: Clicking on the Cue button places a Cue point at the
-  current play position on the track, and a Cue marker appears on the waveforms.
-  The existing cue point will be replaced.
+.. seealso:: You will find details here: :ref:`using-cue-modes`.
 
 Every track has a Cue point, by default on its beginning. Unlike with
 :ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points.
@@ -747,14 +747,14 @@ in :menuselection:`Preferences --> Interface`.
 
 * **While paused at Cue point (Cue button lit):** 
 
-  * Holding down the Cue button track plays from Cue point as long as 
+  * Holding down the Cue button track plays from :term:`Cue point <cue>` as long as 
     the button is pressed. After releasing the Cue button the track jumps back
     to Cue point and pauses again. You can continue playing by pressing play 
     before releasing the Cue button. 
 
-* **While paused not at Cue point (Cue button flashing)**: 
+* **While paused not at :term:`Cue point <cue>` (Cue button flashing)**: 
    
-  * Tapping the Cue button stores the current position as new Cue point.
+  * Tapping the Cue button stores the current position as new :term:`Cue point <cue>`.
 
 * **While playing:** 
 
@@ -769,7 +769,7 @@ in :menuselection:`Preferences --> Interface`.
 
 * **While paused at Cue point (Cue button lit)**: 
 
-  * Holding down the Cue button track plays from Cue point as long as 
+  * Holding down the Cue button track plays from :term:`Cue point <cue>` as long as 
     the button is pressed. After releasing the Cue button the track jums back
     to Cue point and pauses again. You can continue playing by pressing play 
     before releasing the Cue button. 
@@ -778,9 +778,9 @@ in :menuselection:`Preferences --> Interface`.
 
 * **While paused not at Cue point (Play button flashing)**: 
 
-  * Tapping the Cue button moves the track back to Cue point.
+  * Tapping the Cue button moves the track back to :term:`Cue point <cue>`.
 
-  * You can tab the Play/Pause button to start playing. The Cue point moves 
+  * You can tab the Play/Pause button to start playing. The :term:`Cue point <cue>` moves 
     to the position where the track was started. 
 
 * **While playing**: 
