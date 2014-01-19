@@ -739,48 +739,67 @@ in :menuselection:`Preferences --> Interface`.
 
 **Pioneer mode (default)**
 
-* **After track load** Track is paused. The flashing Play/Pause button 
-  indicates that that deck is ready to play. You can tab the Play/Pause
-  button to start playing. 
-* **While paused at Cue point (Cue button lit)**: 
-** Holding down the Cue button track plays from Cue point as long as 
-   the button is pressed. After releasing the Cue button the track jumps back
-   to Cue point and pauses again. You can continue playing by pressing play 
-   before releasing the Cue button. 
-* **While paused not at Cue point (Cue button flashing)
-**: Tapping the Cue button stores the current position as new Cue point.
-* **While playing**: 
-** Tapping the Cue button causes the track to instantly
-   jump to the location of the cue point where it pauses the playback.
-** Tapping the Play/Pause button pauses the track at the current position.   
+* **After track load:** 
+  
+  * Track is paused. The flashing Play/Pause button 
+    indicates that that deck is ready to play. You can tab the Play/Pause
+    button to start playing. 
+
+* **While paused at Cue point (Cue button lit):** 
+
+  * Holding down the Cue button track plays from Cue point as long as 
+    the button is pressed. After releasing the Cue button the track jumps back
+    to Cue point and pauses again. You can continue playing by pressing play 
+    before releasing the Cue button. 
+
+* **While paused not at Cue point (Cue button flashing)**: 
+   
+  * Tapping the Cue button stores the current position as new Cue point.
+
+* **While playing:** 
+
+  * Tapping the Cue button causes the track to instantly
+    jump to the location of the cue point where it pauses the playback.
+
+  * Tapping the Play/Pause button pauses the track at the current position.   
 
 **Denon mode**
 
-* **After track load** Track is paused. 
+* **After track load:** Track is paused. 
+
 * **While paused at Cue point (Cue button lit)**: 
-** Holding down the Cue button track plays from Cue point as long as 
-   the button is pressed. After releasing the Cue button the track jums back
-   to Cue point and pauses again. You can continue playing by pressing play 
-   before releasing the Cue button. 
-** Tapping the Play/Pause button starts the track at the current position.
-* **While paused not at Cue point (Play button flashing)
-**: Tapping the Cue button moves the track back to Cue point.
-** You can tab the Play/Pause button to start playing. The Cue point moves 
-   to the position where the track was started. 
+
+  * Holding down the Cue button track plays from Cue point as long as 
+    the button is pressed. After releasing the Cue button the track jums back
+    to Cue point and pauses again. You can continue playing by pressing play 
+    before releasing the Cue button. 
+
+  * Tapping the Play/Pause button starts the track at the current position.
+
+* **While paused not at Cue point (Play button flashing)**: 
+
+  * Tapping the Cue button moves the track back to Cue point.
+
+  * You can tab the Play/Pause button to start playing. The Cue point moves 
+    to the position where the track was started. 
+
 * **While playing**: 
-** Tapping the Cue button causes the track to instantly
-   jump to the location of the cue point where it pauses the playback.
-** Tapping the Play/Pause button pauses the track at the current position.
+
+  * Tapping the Cue button causes the track to instantly
+    jump to the location of the cue point where it pauses the playback.
+
+  * Tapping the Play/Pause button pauses the track at the current position.
 
 **Numark mode**
 
-It is basically the same as Pioneer mode but the buttons are less flashy.
-The Play/Pause button does not flash at all and the Cue button flashes with
-1 Hz instead of 2 Hz.
+* It is basically the same as Pioneer mode but the buttons are less flashy.
+  The Play/Pause button does not flash at all and the Cue button flashes with
+  1 Hz instead of 2 Hz.
 
-This mode is also useful if you want to implement a custom skin with 3 
-button decks, featuring a Cue button a dedicated Pause button and a Play/Stutter 
-button. 
+* This mode is also useful if you want to implement a custom skin with 3 
+  button decks, featuring a Cue button a dedicated Pause button and a Play/Stutter 
+  button. 
+
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
 
