@@ -150,7 +150,7 @@ collection of AU/VST/MAS plugins that are installed on your system.
 * Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`
 * Click :guilabel:`OK`
 * Change the audio input device to :guilabel:`Soundflower 16`
-* Changethe audio output device for example to :guilabel:`Built-in Output`
+* Change the audio output device for example to :guilabel:`Built-in Output`
 * Click :guilabel:`Create document`
 * In the :guilabel:`Output 1` channel, select an effect from the drop-down
   menu, for example :guilabel:`Apple > AUCompressor`
