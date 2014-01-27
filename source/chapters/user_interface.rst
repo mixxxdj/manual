@@ -59,7 +59,7 @@ Track Information Display
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
-  the Mixxx library. This information is initially loaded from the tracks
+  the Mixxx library. This information is initially loaded from the track's
   :term:`metadata`.
 
 **Track Artist**
