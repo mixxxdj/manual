@@ -470,7 +470,7 @@ Setting Hotcues
 
 Clicking on a numbered button will set a :term:`hotcue` at the current play
 position on the track. A marker with the corresponding number will appear in the
-waveform and the button will lit up to indicate that the hotcue is set.
+waveform and the button will light up to indicate that the hotcue is set.
 
 Playing Hotcues
 ^^^^^^^^^^^^^^^
