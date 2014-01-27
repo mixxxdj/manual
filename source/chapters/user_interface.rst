@@ -171,8 +171,8 @@ occur throughout the track, you can basically “see” your music.
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try to lower the frame rate or change the level of detail
-              shown in the waveform in in :menuselection:`Preferences -->
-              Interface --> Waveform Display`.
+              shown in the waveform in :menuselection:`Preferences --> Interface
+              --> Waveform Display`.
 
 .. _interface-button-grid:
 
@@ -328,7 +328,7 @@ can't sync to samplers and samplers can only sync to decks. The sync target is:
   the buttons you get even finer adjustments.
 
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the the left and right arrow buttons is like nudging the metal edge of
+  Pushing the left and right arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
@@ -603,7 +603,7 @@ Headphone and Master Mix Controls
   the master output.
 
 **Volume Knob**
-  The Volume Knob controls the overall volume of of the master output. Adjust
+  The Volume Knob controls the overall volume of the master output. Adjust
   this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
   at the peak.
 
@@ -780,7 +780,7 @@ to a mix when used tactfully.
   channel.
 
 **Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the the wavelength of the flange effect.
+  Adjusts the phase delay, intensity and the wavelength of the flange effect.
 
 .. hint :: For the most noticeable effect, enable the FX button and turn the
            Depth knob completely to the right.

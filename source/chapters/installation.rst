@@ -58,7 +58,7 @@ Method A: Direct Download
 * Download Mixxx for Mac OS X from `<http://mixxx.org/download.php>`_ .
 * Using :file:`Finder` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
-* Double-click the the Mixxx installer .DMG file, a new Finder window appears.
+* Double-click the Mixxx installer .DMG file, a new Finder window appears.
 * Locate the *Mixxx* icon within this new Finder window. Drag-and-drop it into
   your :file:`Applications` folder.
 * Eject the Mixxx installation volume from the Finder by clicking on the icon
