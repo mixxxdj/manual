@@ -297,7 +297,7 @@ control rate changes also from your computer's keyboard, see the chapter
 * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
   and :term:`phase` of the track matches the other deck.
 * **Right-Click**: Only changes the :term:`rate` of the track to match the other
-  deck but does not adjusts the :term:`phase`.
+  deck but does not adjust the :term:`phase`.
 
 Decks and samplers now pick which sync target to sync to on the fly. Decks
 can't sync to samplers and samplers can only sync to decks. The sync target is:
@@ -873,7 +873,7 @@ Sample Deck Controls
 * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
   and :term:`phase` of the track matches the sync target.
 * **Right-Click**: Only changes the :term:`rate` of the track to match the sync
-  target but does not adjusts the :term:`phase`.
+  target but does not adjust the :term:`phase`.
 
 **Hotcue Controls**
   To jump in between different parts of a sample, you can use these numbered
