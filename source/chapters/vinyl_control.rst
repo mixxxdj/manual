@@ -76,7 +76,7 @@ the basic ones are:
 
   Setting up CDJs for use with timecode CDs is similar to setting up
   turntables. The figure below outlines a typical configuration. First,
-  connect the RCA cables of the CDJs to an inputs of your sound card. Second,
+  connect the RCA cables of the CDJs to inputs of your sound card. Second,
   connect the inputs of your mixer to the outputs of your sound card. Make sure
   the input mode of your sound card is set to *Line*.
 
@@ -194,9 +194,9 @@ to use a proper phono preamplifier if you have one.
 Vinyl Configuration
 -------------------
 
-* **Vinyl Type**: Several different types of timecoded media can be used to
-  control Mixxx. Configure the drop-down menus to match what type of timecoded
-  media you are using on your decks.
+* **Vinyl Type**: Several types of timecoded media can be used to control Mixxx.
+  Configure the drop-down menus to match what type of timecoded media you are
+  using on your decks.
 * **Deck Vinyl Tempo**: Change this if you prefer to scratch with your
   turntable or CDJ set at 45 RPM, default is 33 RPM.
 * **Lead-in Time**: Allows you to set a dead-zone at the start of your vinyl or
@@ -411,7 +411,7 @@ Signal          Meaning                               Troubleshooting
                 about half the width of the graph.    spin some beats.
                 Rotating radar sweeps in the
                 direction your record on the
-                turntable is spinning .
+                turntable is spinning.
 --------------  ------------------------------------  ------------------------------------
 |wrong_type|    Incorrect choice of vinyl control     Select the correct vinyl type in the
                 source. Doughnut looks good but has   preferences. E.g. maybe you selected
