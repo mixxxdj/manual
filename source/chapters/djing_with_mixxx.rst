@@ -53,7 +53,7 @@ Importing your audio files
   are typically held.
 
   Click :guilabel:`Select Folder` and Mixxx will scan your music library.
-  Depending on the size of your library this could take some time. All of the
+  Depending on the size of your library this could take some time. All the
   supported music files Mixxx detects will be listed in the :ref:`library-root`.
 
   Mixxx automatically detects newly added tracks on each subsequent run. If you
@@ -301,8 +301,8 @@ to momentarily adjust the playback rate, allowing you to “shuffle” the beats
 a track forwards or backwards, so they can be aligned with another track. See
 the chapter :ref:`interface-rate`.
 
-Two tracks are beatmatched once their tempos are matched and their beats beats
-are aligned. A “perfect” beatmatch is nearly impossible - there will always be a
+Two tracks are beatmatched once their tempos are matched and their beats are
+aligned. A “perfect” beatmatch is nearly impossible - there will always be a
 tiny difference in the playback rates. A keen DJ will keep his or her ears open
 and listen for the beats drifting out of alignment. This has a distinct “double
 bass kick” sound which is often preceded by the kick weakening in intensity as
@@ -335,7 +335,7 @@ BPM and Beat Detection
 
 Previous versions of Mixxx were able to detect BPM values but unable to
 determine where the beats are. Consequently, the beat grids often looked
-unaligned. The DJ had to adjust the beat grid manually in oder to make use of
+unaligned. The DJ had to adjust the beat grid manually in order to make use of
 auto-beatmatching via :guilabel:`SYNC` button.
 
 Now Mixxx comes with a new ultra-precise BPM and beat detector.
@@ -453,7 +453,7 @@ Record your mix to disk
 * Click the :guilabel:`Start Recording` button or click
   :menuselection:`Options --> Record Mix` in the menu on top of the Mixxx
   application window.
-* The display above the track table shows how much data has already been
+* The display above the track table shows how many data has already been
   recorded.
 * Perform your mix
 * Click the :guilabel:`Stop Recording` button to stop the recording when the mix

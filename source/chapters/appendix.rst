@@ -247,8 +247,8 @@ Option                  Description
                         for user settings files such as the library
                         database and preferences configuration file.
 ----------------------  -------------------------------------------------
---controllerDebug       Causes Mixxx to display/log all of the controller
-                        data it receives and script functions it loads.
+--controllerDebug       Causes Mixxx to display/log all controller data
+                        it receives and script functions it loads.
 ----------------------  -------------------------------------------------
 --developer             Enables developer-mode. Includes extra log info,
                         stats on performance, a Developer tools menu, and
