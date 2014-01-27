@@ -146,8 +146,8 @@ occur throughout the track, you can basically “see” your music.
 
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
-  waveform in or out. You can choose whether or not to synchronize the zoom
-  level between the decks in :menuselection:`Preferences --> Interface -->
+  waveform in or out. You can choose whether to synchronize the zoom level
+  between the decks in :menuselection:`Preferences --> Interface -->
   Waveform Display --> Synchronize`.
 
 **Waveform Marker**

@@ -266,10 +266,10 @@ visually by aligning the beats that appear in each waveform.
 The mouse can be used on the waveforms to scratch, spin-back or throw the
 tracks.  Right-clicking and dragging on the waveforms allows you to nudge the
 track and make temporary pitch adjustments. Using the mouse-wheel on the
-waveform zooms the waveform in or out. You can choose whether or not to
-synchronize the zoom level between the decks in :menuselection:`Preferences -->
-Interface --> Waveform Display --> Synchronize`. The waveform display is updated
-in real time upon seeking.
+waveform zooms the waveform in or out. You can choose whether to synchronize the
+zoom level between the decks in :menuselection:`Preferences --> Interface -->
+Waveform Display --> Synchronize`. The waveform display is updated in real time
+upon seeking.
 
 There are two smaller waveform summary displays located adjacent to the main
 waveform displays. Clicking on a waveform summary allows you to seek through the
