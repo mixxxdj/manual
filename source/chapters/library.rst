@@ -227,7 +227,7 @@ The features in detail:
   Mixxx has for a track.
 * **Unhide Button**: Removes the selected tracks from the
   :guilabel:`Hidden Tracks` view and makes them available in the regular track
-  list again. The tracks appears again in every playlist or crate they were
+  list again. The tracks appear again in every playlist or crate they were
   listed before they were hidden.
 
 .. _library-auto-dj:
@@ -521,4 +521,4 @@ different location. Select :guilabel:`Use Default Library` to reset.
   playlists.
 
 .. seealso:: You can disable external libraries in
-             :menuselection:`Prefences --> Library`.
+             :menuselection:`Preferences --> Library`.
