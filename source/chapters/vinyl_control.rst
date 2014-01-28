@@ -238,8 +238,7 @@ Mixxx has three control modes regardless of which control records you use.
 * **Constant Mode**: This special mode is usually only activated when Mixxx
   needs to keep playing a track even if the vinyl control signal isn't present.
   Constant mode is automatically enabled when the needle reaches the end of a
-  vinyl control record, or if :guilabel:`Needle-skip Prevention` is enabled and
-  a needle skip is detected.
+  vinyl control record.
 
 Cueing Modes
 ------------
@@ -259,17 +258,6 @@ find a break or a vocal sample, and cueing modes make these easy to find.
 .. hint:: You can change the Control and Cueing Modes directly in the Mixxx user
           interface while mixing, go to :ref:`interface-vc-mode`. Alternatively,
           use the :ref:`appendix-shortcuts`.
-
-Needle-skip Prevention
-----------------------
-Allows Mixxx to detect and ignore small changes in needle position, such as when
-you've accidentally bumped your turntable. When Mixxx detects a needle skip, it
-will engage Constant mode and the vinyl indicator (normally a green rectangle)
-will become red. Needle-skip prevention can be advantageous in a live
-performance environment but the downside is that it can be accidentally enabled
-during scratching, causing your track to play forward regardless of the
-turntable's pitch. Consequently, **disabling** needle-skip prevention is
-recommended for **scratch performances**.
 
 .. _vinyl-control-signal-quality:
 
@@ -317,7 +305,6 @@ deck.
 * **Off**: Vinyl control disabled on the deck.
 * **Green**: Vinyl control is enabled on the deck.
 * **Yellow**: The needle has reached End-Of-Record.
-* **Red**: A needle skip was detected.
 
 Single Deck Control
 ===================
