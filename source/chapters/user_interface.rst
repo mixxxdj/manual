@@ -737,13 +737,7 @@ Mixxx Play/Pause/Cue beahvoir can be tweakd to fit to other devices in your
 setup or to your personal preferences. You can switch between the CUE modes
 in :menuselection:`Preferences --> Interface`.
 
-**Pioneer mode (default)**
-
-* **After track load:** 
-  
-  * Track is paused. The flashing Play/Pause button 
-    indicates that that deck is ready to play. You can tab the Play/Pause
-    button to start playing. 
+**Mixxx mode (default)**
 
 * **While paused at Cue point (Cue button lit):** 
 
@@ -762,6 +756,16 @@ in :menuselection:`Preferences --> Interface`.
     jump to the location of the cue point where it pauses the playback.
 
   * Tapping the Play/Pause button pauses the track at the current position.   
+
+**Pioneer mode**
+
+* It is basically the same as Mixxx mode but the buttons are more flashy 
+  like a Pioneer CDJ player 
+
+* The Play/Pause button flashes at 1 Hz when a track is paused
+
+* The Cue button flashes with 2 Hz instead of 1 Hz when the next push will
+  move the :term:`Cue point <cue>`
 
 **Denon mode**
 
@@ -792,11 +796,10 @@ in :menuselection:`Preferences --> Interface`.
 
 **Numark mode**
 
-* It is basically the same as Pioneer mode but the buttons are less flashy.
-  The Play/Pause button does not flash at all and the Cue button flashes with
-  1 Hz instead of 2 Hz.
-
-* This mode is also useful if you want to implement a custom skin with 3 
+* It is basically the same as Denon mode but without a flashing Play/Pause 
+  button.
+  
+* This mode is useful if you want to implement a custom skin with 3 
   button decks, featuring a Cue button a dedicated Pause button and a Play/Stutter 
   button. 
 
