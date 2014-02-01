@@ -701,7 +701,7 @@ Play/Pause Button
 -----------------
 Clicking the Play/Pause button starts and pauses the playback.
 
-.. seealso:: The actual behaviour of the Play/Pause button dependes on the
+.. seealso:: The actual behavior of the Play/Pause button depends on the
              selected cue mode described here: :ref:`using-cue-modes`.
 
 .. hint :: To return to the beginning of the track, right-click on the deck's
@@ -717,7 +717,7 @@ Once the track is paused at the :term:`Cue point <cue>` you can preview it by ho
 the Cue Button. If you have not moved the :term:`Cue point <cue>` yet, the default
 point is at the track's beginning.
 
-.. seealso:: The actual behaviour of the Cue button dependes on the
+.. seealso:: The actual behavior of the Cue button dependes on the
              selected cue mode described here: :ref:`using-cue-modes`.
 
 Setting Cue points
@@ -733,7 +733,7 @@ Every track has a Cue point, by default on its beginning. Unlike with
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-Mixxx Play/Pause/Cue beahvoir can be tweakd to fit to other devices in your
+Mixxx Play/Pause/Cue behavior can be tweaked to fit to other devices in your
 setup or to your personal preferences. You can switch between the CUE modes
 in :menuselection:`Preferences --> Interface`.
 
@@ -774,7 +774,7 @@ in :menuselection:`Preferences --> Interface`.
 * **While paused at Cue point (Cue button lit)**:
 
   * Holding down the Cue button track plays from :term:`Cue point <cue>` as long
-    as the button is pressed. After releasing the Cue button the track jums back
+    as the button is pressed. After releasing the Cue button the track jumps back
     to Cue point and pauses again. You can continue playing by pressing play
     before releasing the Cue button.
 
