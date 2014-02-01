@@ -711,6 +711,11 @@ Clicking the Play/Pause button starts and pauses the playback.
 
 Cue Button
 ----------
+
+.. sectionauthor::
+   Daniel Schürmann <daschuer@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
 If the button is pressed while the track is playing, the play position jumps to
 the :term:`Cue point <cue>` on the track and the track is paused. Once the track
 is paused at the Cue point, you can preview it by holding the Cue Button. If you
@@ -722,19 +727,18 @@ have not moved the Cue point yet, the default point is at the track's beginning.
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
 
-The Cue point is moved according to the selected Cue mode.
-
-.. seealso:: You will find details here: :ref:`using-cue-modes`.
-
 Every track has a Cue point, by default on its beginning. Unlike with
 :ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points.
+
+The Cue point is moved according to the selected Cue mode, as explained below.
 
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-Mixxx Play/Pause/Cue behavior can be tweaked to fit to other devices in your
-setup or to your personal preferences. You can switch between the CUE modes
-in :menuselection:`Preferences --> Interface`.
+Mixxx supports various Cue modes that adapt to fit other devices in your
+setup, or your personal preferences. The actual behavior of the Play, Pause, and
+Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
+:menuselection:`Preferences --> Interface`.
 
 **Mixxx mode (default)**
 
