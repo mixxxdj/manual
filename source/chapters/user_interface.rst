@@ -702,7 +702,7 @@ Play/Pause Button
 Clicking the Play/Pause button starts and pauses the playback.
 
 .. seealso:: The actual behavior of the Play/Pause button depends on the
-             selected cue mode described here: :ref:`interface-cue-modes`.
+             selected :ref:`Cue mode <interface-cue-modes>`.
 
 .. hint :: To return to the beginning of the track, right-click on the deck's
            :ref:`Fast-Rewind Button <interface-transport>`.
@@ -722,7 +722,7 @@ is paused at the Cue point, you can preview it by holding the Cue Button. If you
 have not moved the Cue point yet, the default point is at the track's beginning.
 
 .. seealso:: The actual behavior of the Cue button depends on the
-             selected cue mode described here: :ref:`interface-cue-modes`.
+             selected :ref:`Cue mode <interface-cue-modes>`.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
@@ -736,6 +736,9 @@ The Cue point is moved according to the selected Cue mode, as explained below.
 
 Using Cue Modes
 ^^^^^^^^^^^^^^^
+
+.. versionadded:: 1.12
+   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
 
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup, or your personal preferences. The actual behavior of the Play, Pause, and
