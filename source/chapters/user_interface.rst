@@ -740,10 +740,10 @@ in :menuselection:`Preferences --> Interface`.
 
 * **While paused at Cue point (Cue button lit):**
 
-  * Holding down the Cue button track plays from :term:`Cue point <cue>` as long
-    as the button is pressed. After releasing the Cue button the track jumps back
-    to Cue point and pauses again. You can continue playing by pressing play
-    before releasing the Cue button.
+  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
+    as long as the button is pressed. After releasing the Cue button, the track
+    jumps back to Cue point and pauses again. Continue playback by pressing the
+    Play/Pause button before releasing the Cue button.
 
 * **While paused not at Cue point (Cue button flashing)**:
 
@@ -771,10 +771,10 @@ in :menuselection:`Preferences --> Interface`.
 
 * **While paused at Cue point (Cue button lit)**:
 
-  * Holding down the Cue button track plays from Cue point as long as the button
-    is pressed. After releasing the Cue button the track jumps back to Cue point
-    and pauses again. You can continue playing by pressing play before releasing
-    the Cue button.
+  * Holding down the Cue button plays the track from the Cue point, as long as
+    the button is pressed. After releasing the Cue button, the track jumps back
+    to Cue point and pauses again. Continue playback by pressing the Play/Pause
+    button before releasing the Cue button.
 
   * Tapping the Play/Pause button starts the track at the current position.
 
@@ -782,8 +782,8 @@ in :menuselection:`Preferences --> Interface`.
 
   * Tapping the Cue button moves the track back to Cue point.
 
-  * You can tab the Play/Pause button to start playing. The Cue point moves to
-    the position where the track was started.
+  * Tab the Play/Pause button to start playing. The Cue point moves to the
+    position where the track was started.
 
 * **While playing**:
 
