@@ -752,7 +752,7 @@ in :menuselection:`Preferences --> Interface`.
 * **While playing:**
 
   * Tapping the Cue button causes the track to instantly jump to the location of
-    the cue point where it pauses the playback.
+    the Cue point where it pauses the playback.
 
   * Tapping the Play/Pause button pauses the track at the current position.
 
@@ -761,10 +761,9 @@ in :menuselection:`Preferences --> Interface`.
 * It is basically the same as Mixxx mode but the buttons are more flashy like a
   Pioneer CDJ player.
 
-* The Play/Pause button flashes at 1 Hz when a track is paused.
+* The Play/Pause button flashes once per second when a track is paused.
 
-* The Cue button flashes with 2 Hz instead of 1 Hz when the next push will
-  move the Cue point.
+* The Cue button flashes twice a second when the next push will move the Cue point.
 
 **Denon mode**
 
