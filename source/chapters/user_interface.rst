@@ -584,6 +584,11 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
+.. todo:: Update section to reflect 1.12 GUI layout.
+
+.. versionadded:: 1.12
+   Headphone split cue option
+
 **Head-Mix Knob**
   Allows you to customize how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
@@ -597,6 +602,12 @@ Headphone and Master Mix Controls
   This button adjusts your headphone volume. You can adjust the volume of a
   single deck's signal you are listening to in the headphones with the
   :ref:`Gain <interface-eq-gain>` knob.
+
+**Head-Split Button**
+  If activated, two mono signals are send to the headphone output instead of one
+  stereo signal. The master signal plays in the right channel, while the cueing
+  signal plays in the left channel. You can still adjust the head-mix so in the
+  left channel is not the pure cueing signal.
 
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
