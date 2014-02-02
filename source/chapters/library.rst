@@ -288,6 +288,8 @@ intended for live, attended performance use. However, you can use the
 .. versionadded:: 1.12
    :guilabel:`Analyze Playlist` option in the context menu.
    Import playlists by drag-and-dropping them into a playlist in the sidebar.
+   :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
+   options remember the last selected playlist directory.
 
 Right-click on an existing playlist's name to access the different features in
 the context menu:
@@ -331,7 +333,9 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   :ref:`track list<library-root>`.
 
 .. versionadded:: 1.12
-   :guilabel:`Analyze Crate` option in the menu.
+   :guilabel:`Analyze Crate` context menu option.
+   :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
+   remember the last selected playlist directory.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
@@ -437,6 +441,8 @@ view, then right-click on a sessions name to access the different features:
 
 .. versionadded:: 1.12
    :guilabel:`Create new history playlist` context menu option.
+   :guilabel:`Export playlist` context menu option remember the last selected
+   playlist directory.
 
 * **Add to Auto DJ**: Adds the content of the session to the
   :ref:`Auto DJ <djing-auto-dj>` queue for automatic mixing.
