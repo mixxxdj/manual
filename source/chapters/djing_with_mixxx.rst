@@ -74,19 +74,13 @@ Importing your audio files
   <Operating System>`. :term:`DRM` protected files, such as m4p
   files purchased in the iTunes Store, are not supported.
 
-  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The 
+  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
   `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
   required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
   To enable the playback of AAC files, `build Mixxx from source with m4a files support
   <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
-
-**Changing the music directory**
-  The Mixxx music directory can always be changed at a later time in
-  :menuselection:`Preferences --> Library`. You might want to run a library
-  rescan afterwards, select :menuselection:`Library --> Rescan Library` in the
-  menu.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
@@ -103,13 +97,61 @@ Importing your audio files
              Mixxx can not recursively scan folders for compatible music files.
 
 **Import playlists**
-  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls` 
+  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls`
   playlist files from products other than Mixxx, see :ref:`library-playlists`.
 
 **Import music from CDs**
   Mixxx can not play music from Audio CDs. Convert the content to compatible
   files in good quality and add them to the Mixxx library. See
   `<https://en.wikipedia.org/wiki/Ripping>`_
+
+.. _djing-changing-music-directories:
+
+Changing music directories
+==========================
+
+.. versionadded:: 1.12
+   Handles multiple music library folders and adds an option to move them to
+   another location without data loss.
+
+You can manually add, relink, and remove Mixxx music directories in
+:menuselection:`Preferences --> Library`.
+
+**Add a new music directory**
+  Mixxx handles multiple music library folders. Click :guilabel:`Add` to
+  browse to a directory where your music is stored. Mixxx will watch this
+  directory and its subdirectories for new tracks.
+
+  Directories can also be added from the :ref:`Browse <library-browse>` sidebar
+  item inside the library.
+
+**Relink a existing music directory**
+  If an existing music directory is moved, Mixxx doesn't know where to find the
+  audio files in it. Click :guilabel:`Relink` to select the music directory
+  in its new location. This will re-establish the links to the audio files in
+  the Mixxx library.
+
+**Remove a music directory**
+  Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and
+  its subdirectories for new tracks, and asks what would you like to do with the
+  tracks from these directories.
+
+  * Select :guilabel:`Hide Tracks` to hide all tracks from this directory and
+    subdirectories.
+  * Select :guilabel:`Delete Track Metadata` to delete all metadata for these
+    tracks from Mixxx permanently
+  * Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in
+    your library.
+
+  Hiding tracks saves their metadata in case you re-add them in the future.
+
+  Metadata means all track details (artist, title, playcount, etc.) as well as
+  beatgrids, hotcues, and loops. This choice only affects the Mixxx library.
+  No files on disk will be changed or deleted.
+
+.. hint:: When changing music directories, you might want to run a library
+          rescan afterwards. Select :menuselection:`Library --> Rescan Library`
+          in the menu.
 
 .. _djing-loading-tracks:
 

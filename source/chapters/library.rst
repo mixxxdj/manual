@@ -394,6 +394,9 @@ Browse - Loading remote tracks
 |ic_lib_browse| Browse mode works like a file-manager and allows you to load
 tracks that are not necessarily already in your Mixxx library.
 
+.. versionadded:: 1.12
+   Add music directories directly from the Browse sidebar item.
+
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
 music. Depending on your :term:`operating system`, the music will usually be
 found in the “My Music” or “Music” folder. Drag the files you want to import to
@@ -402,6 +405,12 @@ the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the
 
 .. note:: Currently you can drag only files but not folders to the Mixxx
           library.
+
+Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
+as new music directory. Mixxx will watch this directory and its subdirectories
+for new tracks.
+
+.. seealso:: For more informations, go to :ref:`djing-changing-music-directories`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
