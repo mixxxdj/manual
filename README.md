@@ -45,7 +45,6 @@ conventions.
 * Submit a [pull request]
 
 ---
-
 ### Sphinx and RST syntax guides:
 
 * <http://sphinx-doc.org/rest.html>
@@ -64,6 +63,19 @@ conventions.
 Even more [reStructuredText] resources:
 <http://stackoverflow.com/questions/2746692/restructuredtext-tool-support>
 
+---
+## Release Checklist for maintainers
+
+* Fix and delete todos listed in `build/html/todolist.html`
+* Fix and close issues listed in https://github.com/mixxxdj/manual/issues
+* Temporarily disable the *For documentation writers* toctree from TOC in `/index.rst`
+* Update the release and version tags in `/conf.py`
+* [Tag] the repository with the version number, and [create a new release].
+* Run `make html` to produce html output ready for upload to http://mixxx.org/manual/latest/
+* Check the output compiles correctly and does not produce any warnings
+* Run `make latexpdf` to produce pdf output for distribution
+* Run `make latexpdf` again, or the TOC is missing from the resulting pdf
+
 [reStructuredText]: http://docutils.sourceforge.net/rst.html
 [Sphinx]: http://sphinx-doc.org
 [Install Sphinx]: http://sphinx-doc.org/latest/install.html
@@ -76,3 +88,5 @@ Even more [reStructuredText] resources:
 [file edits]: https://help.github.com/articles/creating-and-editing-files-in-your-repository#editing-a-file
 [Fork and Edit]: https://github.com/blog/844-forking-with-the-edit-button
 [pull request]: https://help.github.com/articles/creating-a-pull-request
+[Tag]: https://github.com/mixxxdj/manual/tags
+[create a new release]: https://github.com/mixxxdj/manual/releases/new
