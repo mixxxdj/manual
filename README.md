@@ -12,7 +12,7 @@ The manual is written in [reStructuredText] format using the
 * [Install Sphinx], the documentation generator
 * [Install Graphviz], a graph visualization software (is used to draw some diagrams)
 * [Download] the latest Mixxx manual source or clone the repository
-  `git clone git://github.com/mixxxdj/manual.git`
+  `git clone https://github.com/mixxxdj/manual.git`
 * Edit .rst files in `source/`
 * Run `make html` to build an HTML version of the manual
 * Open the file `build/html/index.html` in your Web browser to view the results
@@ -32,7 +32,7 @@ conventions.
 
 ## Editing the manual using git (recommended)
 
-* Clone the repository `git clone git://github.com/mixxxdj/manual.git`
+* Clone the repository `git clone https://github.com/mixxxdj/manual.git`
 * Perform changes
 * Commit changes `git commit -m "Insert short summary of your changes here"`
 * Push changes `git push`
