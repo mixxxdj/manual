@@ -301,11 +301,11 @@ the context menu:
 * **Duplicate**: Sometimes you want to build a playlist based on an existing one.
   Select the playlist you would like to duplicate, choose
   :guilabel:`Duplicate Playlist`, name the new playlist and click :guilabel:`OK`.
+* **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
+  available in the library for later use.
 * **Lock**: |ic_lib_locked| This icon indicates a locked playlist. If a playlist
   is locked, you cannot add tracks, rename or delete the playlist. Choose
   :guilabel:`Unlock` from the context menu to unlock the playlist.
-* **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
-  available in the library for later use.
 * **Analyze entire playlist**: Forces the analysis of the playlist in the
   :ref:`Analyze <library-analyze>` view.
 * **Import playlist**: Import tracks from external playlists to a playlist in
@@ -345,11 +345,11 @@ context menu:
 * **Duplicate**: Just like playlists you can duplicate an existing crate.
   Select the crate you would like to duplicate, choose
   :guilabel:`Duplicate Crate`, name the new crate and click :guilabel:`OK`.
+* **Remove**: Removes an unlocked crate. Tracks in the crate are still available
+  in the library for later use.
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
-* **Remove**: Removes an unlocked crate. Tracks in the crate are still available
-  in the library for later use.
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
