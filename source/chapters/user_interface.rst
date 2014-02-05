@@ -986,6 +986,9 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
+.. versioadded:: 1.12
+   Microphone can accept stereo or mono input now.
+
 * Most computers have built-in microphones, while some are connected through USB.
   These work adequately, but don't expect them to be high-quality.
 * The best solution is to connect a good external microphone to the “Mic” or “Line” input on
