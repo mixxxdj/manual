@@ -161,6 +161,9 @@ You can manually add, relink, and remove Mixxx music directories in
 Loading Tracks
 ==============
 
+.. versionadded:: 1.12
+   Supports dragging tracks from deck to deck.
+
 Tracks can be loaded into a deck in several ways:
 
 * Right-click the :ref:`library track table <interface-library>`: Right-clicking
@@ -170,6 +173,9 @@ Tracks can be loaded into a deck in several ways:
 * By :ref:`control-keyboard` to load the selected track from library track table.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load a track into a deck.
+* Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
+  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  drag it to a deck or sampler.
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
   that track. This function also works with some other applications. For

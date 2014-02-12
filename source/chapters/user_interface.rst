@@ -118,7 +118,7 @@ occur throughout the track, you can basically “see” your music.
              Waveform Display --> Display type`.
 
 **Waveform overview**
-  
+
   .. versionadded:: 1.12
 
      Like with the Waveform summary, you can now select from different types
@@ -986,7 +986,7 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
-.. versioadded:: 1.12
+.. versionadded:: 1.12
    Microphone can accept stereo or mono input now.
 
 * Most computers have built-in microphones, while some are connected through USB.
