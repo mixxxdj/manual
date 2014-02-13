@@ -122,7 +122,7 @@ occur throughout the track, you can basically “see” your music.
   .. versionadded:: 1.12
 
      Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Interface 
+     of displays for the overview in :menuselection:`Preferences --> Interface
      --> Waveform Display --> Preview type`.
 
   The smaller, zoomed-out version of the waveform shows the various markers
@@ -376,9 +376,9 @@ Transport Controls
 
 **Reverse button**
   As the name suggests, this button plays a track backwards.
-  Right-clicking on the button puts a track into reverse while being held, 
+  Right-clicking on the button puts a track into reverse while being held,
   resumes the track and disables Slip mode when released. Useful to censor
-  expletives on the fly, or simply as part of your mix. 
+  expletives on the fly, or simply as part of your mix.
 
 .. _interface-looping:
 
@@ -426,8 +426,9 @@ loop points of a track.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
 * **Loop-Out**: This button allow you to manually set the end point of a loop.
-  A loop-out marker is placed on the waveform indicating the position. If clicked when
-  a loop was already set, it moves the end point of a loop to a new position.
+  A loop-out marker is placed on the waveform indicating the position. If
+  clicked when a loop was already set, it moves the end point of a loop to a new
+  position.
 * **Loop**: Also dubbed Reloop, this button toggles whether the loop is active
   or not. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
@@ -435,8 +436,8 @@ loop points of a track.
 
 .. hint:: If you are playing inside a loop and want to move the end point
           beyond its current position in the track, click on the *Loop* button
-          first and when the play position reaches the desired position, click on the
-          Loop-Out button.
+          first and when the play position reaches the desired position, click
+          on the Loop-Out button.
 
 .. seealso:: If the :term:`Quantize <quantization>` mode is enabled, the loops
              will automatically snap to the nearest beat. This is disabled by
@@ -660,9 +661,9 @@ Equalizers and Gain Knobs
 
 **Gain Knob**
   Above these knobs, the gain knob allows you to adjust the gain of the deck. In
-  general, you should adjust this knob so that at full-volume the deck's audio is
-  just at the peak of the center VU meters. This is so you can achieve the widest
-  dynamic range for your track.
+  general, you should adjust this knob so that at full-volume the deck's audio
+  is just at the peak of the center VU meters. This is so you can achieve the
+  widest dynamic range for your track.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
@@ -773,7 +774,6 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
   * Tapping the Cue button causes the track to instantly jump to the location of
     the Cue point where it pauses the playback.
-
   * Tapping the Play/Pause button pauses the track at the current position.
 
 **Pioneer mode**
@@ -788,20 +788,17 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 **Denon mode**
 
 * **After track load:** Track is paused.
-
 * **While paused at Cue point (Cue button lit)**:
 
   * Holding down the Cue button plays the track from the Cue point, as long as
     the button is pressed. After releasing the Cue button, the track jumps back
     to Cue point and pauses again. Continue playback by pressing the Play/Pause
     button before releasing the Cue button.
-
   * Tapping the Play/Pause button starts the track at the current position.
 
 * **While paused not at Cue point (Play button flashing)**:
 
   * Tapping the Cue button moves the track back to Cue point.
-
   * Tab the Play/Pause button to start playing. The Cue point moves to the
     position where the track was started.
 
@@ -809,14 +806,12 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
   * Tapping the Cue button causes the track to instantly jump to the location of
     the cue point where it pauses the playback.
-
   * Tapping the Play/Pause button pauses the track at the current position.
 
 **Numark mode**
 
 * It is basically the same as Denon mode but without a flashing Play/Pause
   button.
-
 * This mode is useful if you want to implement a custom skin with 3-button decks,
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
@@ -991,9 +986,9 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 * Most computers have built-in microphones, while some are connected through USB.
   These work adequately, but don't expect them to be high-quality.
-* The best solution is to connect a good external microphone to the “Mic” or “Line” input on
-  your audio device. If available, use the “Gain” knob on the device to adjust
-  the input signal.
+* The best solution is to connect a good external microphone to the “Mic” or
+  “Line” input on your audio device. If available, use the “Gain” knob on the
+  device to adjust the input signal.
 * Select the microphone input in
   :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and
   click :guilabel:`Apply`.
