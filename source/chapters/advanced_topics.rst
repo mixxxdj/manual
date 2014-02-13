@@ -9,26 +9,22 @@ Advanced Topics
 Adding support for your MIDI/HID Controller
 ===========================================
 
-.. _advanced-controller-midiscript:
+With several dozens DJ controllers supported out-of-the-box, Mixxx gives you
+comprehensive hardware control for your DJ mixes, see :ref:`control-midi`.
 
-MIDI Scripting
---------------
+Support for additional devices can be added to Mixxx by creating a new preset
+file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
+messages from a controller into commands that Mixxx understands.
 
-In order to support the advanced features of many :term:`MIDI` / :term:`HID`
-controllers, Mixxx offers what we call MIDI Scripting.
+The mapping files that ship with Mixxx are stored in the following file paths:
 
-It enables MIDI controls to be mapped to `QtScript
-<https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) functions
-stored in function library files, freeing Mixxx from a one-to-one MIDI mapping
-ideology. These user-created functions can then do anything desired with the
-MIDI event info such as have a single controller button simultaneously affect
-two or more Mixxx properties (“controls”,) adjust incoming control values to
-work better with Mixxx (scratching,) display a complex LED sequence, or even
-send messages to text displays on the controller.
+* Linux: :file:`/usr/share/mixxx/controllers` or
+  :file:`/usr/local/share/mixxx/controllers`
+* Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/controllers/`
+* Windows: :file:`C:\\Program Files\\Mixxx\\controllers`
 
-For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_ .
-
-.. _advanced-controller-wizard:
+You can download and share custom controller presets in the
+`Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
 
 Controller Wizard
 -----------------
@@ -42,8 +38,8 @@ Controller Wizard
 
    Mixxx Controller Wizard -  Mapping a control
 
-
-.. todo:: Add intro and proofread
+By far, the easiest way to create a new MIDI preset is by using the Controller
+Wizard.
 
 #. Connect your controller(s) to your computer
 #. Start Mixxx
@@ -59,9 +55,40 @@ Controller Wizard
    wish.
 #. When you are finished mapping controls, click :guilabel:`Done`
 
+The Controller wizard saves the new preset to the following file paths:
+
+* Linux: :file:`/home/<username>/.mixxx/controllers`
+* Mac OS X: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
+* Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
+
+You can then modify the XML file it creates (or any of the ones that
+ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
+information, go to
+`<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
+
 The Controller Wizard works only for :term:`MIDI` devices. Currently you can't
 map modifier (shift) keys and platter rotations. Use :ref:`MIDI Scripting
 <advanced-controller-midiscript>` instead.
+
+.. _advanced-controller-midiscript:
+
+MIDI Scripting
+--------------
+
+In order to support the advanced features of many :term:`MIDI`/:term:`HID`
+controllers, Mixxx offers what we call MIDI Scripting.
+
+It enables MIDI controls to be mapped to `QtScript
+<https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) functions
+stored in function library files, freeing Mixxx from a one-to-one MIDI mapping
+ideology. These user-created functions can then do anything desired with the
+MIDI event info such as have a single controller button simultaneously affect
+two or more Mixxx properties (“controls”,) adjust incoming control values to
+work better with Mixxx (scratching,) display a complex LED sequence, or even
+send messages to text displays on the controller.
+
+For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_
+and `<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
 
 .. _advanced-keyboard:
 
