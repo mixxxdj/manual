@@ -100,6 +100,8 @@ Live Broadcasting Preferences
 **Server Connection**
 
 * **Type**: Select the type of streaming server you want to connect with.
+  :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and
+  :term:`Icecast 2<icecast>` servers are supported.
 * **Host**: You can enter the host as either a host name or an IP address.
 * **Login**: As provided by your streaming server provider. Without this, you
   will not connect successfully to the server. The default password for
