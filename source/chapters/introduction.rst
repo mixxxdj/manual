@@ -37,9 +37,27 @@ New in Mixxx |version|
 ========================
 
 .. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. todo:: Add 1.12 features inb4 release.
+* 4 decks (including 4 vinyl control inputs if you want to use 4 turntables)
+* Master sync
+* Key detection and pitch shifting (independent of tempo) for harmonic mixing.
+* 4 effect units for built-in effects (this also introduces all the necessary
+  plumbing for LV2/VST, effect send/receive, and advanced chaining in a future
+  release)
+* Beatloop rolls (now you can create beatloops and automatically jump to where
+  the track would have been if you hadn't enabled the loop when you release it)
+* Resizable skins (yes, finally!)
+* Vinyl control deck passthrough (switch to real vinyl temporarily)
+* Auxiliary inputs that pass through to the master mix.
+* Custom key notations (pick between traditional, OpenKey, Lancelot notation or
+  a custom one)
+* Beat jumping and loop move
+* Multiple library folders
+* Mono output and input support (easily do the Master/Headphone trick on one
+  stereo output)
+* Along with over 100 performance, quality and usability improvements.
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
@@ -47,7 +65,7 @@ New in Mixxx |version|
 * For a full list of new features and bugfixes, go to:
   `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_
 
-.. seealso:: For an overview of previous changes, go to 
+.. seealso:: For an overview of previous changes, go to
              :ref:`appendix-version-history`.
 
 System Requirements
