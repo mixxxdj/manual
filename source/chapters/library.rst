@@ -482,13 +482,16 @@ playing live with them to ensure the beatgrids are correct. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
-The Analyze view allows you to run :term:`BPM` and :term:`beatgrid` detection on
-tracks in advance. Waveforms are generated as part of the analysis as well.
-While analyzing, the progress in percentage and total queue length are shown.
+The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
+:term:`ReplayGain` detection on tracks in advance. While analyzing, the progress
+in percentage and total queue length are shown.
 
 .. versionadded:: 1.12
    Drag and drop tracks from the library or external file managers onto the
    analysis view to instantly analyze these files.
+
+.. versionchanged:: 1.12
+   Does not generate waveforms to save disk space.
 
 The Analyze features in detail:
 
