@@ -124,11 +124,17 @@ Live Broadcasting Preferences
 
 **Stream Setting**
 
+.. versionadded:: 1.12
+   :guilabel:`Dynamically update Ogg Vorbis metadata` option
+
 * **Public stream**: If enabled, this option adds your radio station to the
   Shoutcast/Icecast directory.
 * **Enable UTF-8 metadata**: If enabled, this option fixes broken accented and
   foreign language symbols in :term:`metadata`, assuming the streaming provider
   has configured the server to support UTF-8 metadata.
+* **Dynamically update Ogg Vorbis metadata**: Due to flaws in some streaming
+  clients, updating Ogg Vorbis metadata dynamically can cause listener glitches
+  and disconnections. Check this box to update the metadata anyway.
 * **Stream name**: So, what's the name of your show?
 * **Website**: The website you would like your listeners to visit.
 * **Description**: Enter your DJ name and a short tagline.
@@ -144,6 +150,20 @@ Live Broadcasting Preferences
 * **Format**: Mixxx supports streaming to Icecast servers either in :term:`MP3`
   or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is supported in
   :term:`MP3` format.
+
+**Shoutcast metadata format**
+
+  .. versionadded:: 1.12
+
+  This allows to set custom metatdata formats for the Shoutcast title field.
+  Previously only ``artist - title`` was allowed. For example if you were
+  broadcasting as part of a station, you could add the station's name or the
+  presenter's name in the title: ``MyStation | $artist - $title``.
+  Or if you were doing a live mix with several artists, you could have:
+  ``Live mix by MyName - currently playing: $artist``. Or even if you wanted a
+  very unusual format: ``Hey, I like $artist, here is $title by $artist``.
+
+  The changes **do not** affect the case for the combination of OGG/Icecast2.
 
 **Custom metadata**
 
