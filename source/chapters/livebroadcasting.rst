@@ -149,8 +149,7 @@ Live Broadcasting Preferences
 
  By default, Mixxx broadcasts artist and title information of the files that you
  play to your listeners. You can disable this feature and use your own custom
- metadata. For technical reasons, broadcasting artist and title information is
- not supported for OGG streams.
+ metadata.
 
 * **Enable custom metadata**: Toggles custom metadata on and off.
 * **Artist**: Insert your custom artist metadata here, your DJ name for example.
