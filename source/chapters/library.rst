@@ -290,6 +290,8 @@ intended for live, attended performance use. However, you can use the
    Import playlists by drag-and-dropping them into a playlist in the sidebar.
    :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
    options remember the last selected playlist directory.
+   Displays the total number of tracks, and the total duration next to the
+   playlist's name.
 
 Right-click on an existing playlist's name to access the different features in
 the context menu:
@@ -336,6 +338,8 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
    :guilabel:`Analyze Crate` context menu option.
    :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
    remember the last selected playlist directory.
+   Displays the total number of tracks, and the total duration next to the
+   crate's name.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
