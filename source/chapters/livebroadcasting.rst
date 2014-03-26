@@ -238,31 +238,39 @@ Activate MP3 streaming support on Windows
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Owen Williams <owilliams@mixxx.org>
 
 To activate MP3 streaming on Windows, follow these steps:
 
-  1. Download LAME 3.98.4 :term:`binaries` from http://lame.bakerweb.biz/.
-     The download includes versions for 32-bit and 64-bit Windows
+  1. Download LAME 3.98.4 :term:`binaries` from
+     http://www.rarewares.org/mp3-lame-libraries.php.
+
+     .. hint:: The download page includes 32-bit and 64-bit versions. Make sure
+               the version you download matches the version of Mixxx that you
+               use, not the version of Windows. If you are on 64bit Windows but
+               are using 32bit Mixxx, you need the 32bit (“x86”) version of the
+               LAME binaries.
+
   #. Unpack the downloaded archive. You need a utility for manipulating archives
      like the free `7zip <http://www.7-zip.org/>`_.
-  #. If you have the 32-bit version of Mixxx, copy the file
-     :file:`libmp3lame.dll` from the :file:`x86` folder to the location you have
-     installed Mixxx, for example :file:`C:\\Program Files\\Mixxx\\`
-  #. Alternatively, if you have the 64-bit version of Mixxx, copy the file
-     :file:`libmp3lame.dll` from the :file:`x64` folder to the location you have
-     installed Mixxx
-  #. Rename :file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where
-     you have installed Mixxx
+  #. Copy :file:`libmp3lame.dll` to the location you have installed Mixxx,
+     probably :file:`C:\\Program Files\\Mixxx\\`.
+  #. **Only** if you are running Mixxx 1.11 or earlier, you **must** also rename
+     :file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where you have
+     installed Mixxx. Select :menuselection:`Help --> About` to find out your
+     version of Mixxx.
+
   #. Restart Mixxx
 
-.. hint:: A common mistake when going through the process is not copying only
-          :file:`libmp3lame.dll` from the LAME zip file and then renaming that
-          file to :file:`lame_enc.dll`. It's deceiving but there is a file named
-          :file:`lame_enc.dll` in the LAME zip file. You don't want that file!
-          Also, make sure the version of LAME you use (x86=32-bit vs. x64=64-bit)
-          matches the version of Mixxx you use. Select :menuselection:`Help -->
-          About` to find out whether you have installed the 32-bit or 64-bit
-          version of Mixxx.
+Windows Troubleshooting
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Double check that the version of LAME you use (“x86” = 32-bit vs. “x64” =
+  64-bit) matches the version of Mixxx you use.
+* If you are running Mixxx 1.11 or earlier, did you rename the
+  :file:`libmp3lame.dll` to :file:`lame_enc.dll`?
+* Make sure you put the correct LAME :file:`*.dll` file in the same folder that
+  contains the installation of Mixxx you are using.
 
 .. warning:: Some websites like `Audacity <http://audacity.sourceforge.net/>`_
              provide lame :term:`binaries` too. Do not use these versions or
@@ -288,7 +296,7 @@ To activate MP3 streaming on Mac OS X, follow these steps:
 Method B: Package manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Another easy way to activate MP3 streaming is to use `Homebrew <http://brew.sh/>`_
-or `MacPorts <http://www.macports.org/>`_, which are package managers like 
+or `MacPorts <http://www.macports.org/>`_, which are package managers like
 `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ on Debian/Ubuntu
 Linux. They provide a convenient way to install many Open Source packages.
 Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather
