@@ -96,10 +96,9 @@ music library.
 
 **Track Inline editing**
   Mixxx reads :term:`metadata` from the tracks to fill the columns of the
-  library. To edit this data, double-click on a field. If the field is editable
-  it will become an editable text box. When you are done, hit :kbd:`Enter`. The
-  data will be saved to the Mixxx library, but **not** to the track's metadata
-  itself.
+  library. Double-click on a field, edit the data, and hit :kbd:`Enter` when you
+  are done. Go to the chapter :ref:`edit metadata <djing-edit-metadata>` for
+  detailed information.
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
@@ -135,7 +134,7 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
-* **Add to Auto DJ**: Adds the content of the selection to either the 
+* **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
   playlist for automatic mixing.
 * **Load to Deck/Sampler**: Loads a selected file to a
@@ -163,13 +162,14 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     selected tracks from the Mixxx library. After doing this, we recommended you
     to :ref:`analyze <library-analyze>` the tracks again.
 
-* **Reload Track Metadata from File**: If the track's metadata changes, e.g. if
-  you used iTunes to edit them, this option lets you load the new values to the
-  Mixxx library.
+* **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
+  e.g. if you used iTunes to edit them, this option lets you save the new values
+  for the selected tracks to the Mixxx library, see
+  :ref:`edit metadata <djing-edit-metadata>`.
 * **Reload Track Metadata from MusicBrainz**:
-
-  .. todo:: Add MusicBrainz infos
-
+  Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database,
+  and apply the search results to your tracks, see
+  :ref:`edit metadata <djing-edit-metadata>`.
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
