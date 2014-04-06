@@ -410,3 +410,18 @@ Glossary of Terms
      of text. In Mixxx, it uses a mouse, keyboard, or
      :term:`MIDI <MIDI controller>` / :term:`HID <HID controller>` controllers
      as input devices.
+
+   MusicBrainz
+     A open-source music encyclopedia that collects music :term:`metadata` and
+     makes it available to the public. For more information, see
+     `<http://musicbrainz.org/>`_.
+
+   AcoustID
+     An acoustic fingerprint system built entirely on :term:`open-source`
+     technology. It aims to create a free database of user-submitted audio
+     fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata`
+     database and provide a web service for audio file identification using this
+     database. For more information, see`<http://acoustid.org/>`_.
+
+
+
