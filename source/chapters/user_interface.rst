@@ -780,9 +780,7 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
 * It is basically the same as Mixxx mode but the buttons are more flashy like a
   Pioneer CDJ player.
-
 * The Play/Pause button flashes once per second when a track is paused.
-
 * The Cue button flashes twice a second when the next push will move the Cue point.
 
 **Denon mode**
