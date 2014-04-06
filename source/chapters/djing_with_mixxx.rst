@@ -216,7 +216,7 @@ Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
 .. versionchanged:: 1.12
-   Adds *location* and *album_artist* search keywords
+   Adds *location*, *album_artist*, and *key* search keywords
 
 Mixxx supports the following filters:
 
@@ -225,13 +225,20 @@ Mixxx supports the following filters:
 
 * **Numeric filtering**: year, track, bpm, duration, played, rating, bitrate
 
+* **Special filtering**: Supports fuzzy matching of key searches. The following
+  example list tracks with harmonically compatible keys to C# minor.
+
+  ::
+
+     ~key:c#m
+
 You can combine operators but there's no way to do an “OR” search right now.
 The following example list all tracks by “Danger” over 300 seconds (5 minutes)
 long that are rated 4 or 5.
 
-::
+  ::
 
-    artist:Danger duration:>300 rating:>=4
+     artist:Danger duration:>300 rating:>=4
 
 +--------------------------------------+---------------------------------------+
 | Examples for text filtering          | Examples for numeric filtering        |
