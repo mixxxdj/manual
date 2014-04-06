@@ -224,7 +224,7 @@ options are only useful for development or debugging, as they make these tasks
 easier. Comment line options are case-sensitive.
 
 .. versionadded:: 1.12
-   Show debug tooltips when developer mode is enabled.
+   Show debug tooltips and provide extra skins when developer mode is enabled.
 
 ======================  =================================================
 Option                  Description
@@ -247,13 +247,13 @@ Option                  Description
                         for user settings files such as the library
                         database and preferences configuration file.
 ----------------------  -------------------------------------------------
---controllerDebug       Causes Mixxx to display/log all of the controller
-                        data it receives and script functions it loads.
+--controllerDebug       Causes Mixxx to display/log all controller data
+                        it receives and script functions it loads.
 ----------------------  -------------------------------------------------
 --developer             Enables developer-mode. Includes extra log info,
-                        stats on performance, a Developer tools menu, and
-                        provides useful information for skin writers in
-                        widget tooltips.
+                        stats on performance, a Developer tools menu,
+                        extra developer skins, and provides useful
+                        information for skin writers in widget tooltips.
 ----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g 'fr')

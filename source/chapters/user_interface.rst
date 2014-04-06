@@ -59,7 +59,7 @@ Track Information Display
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
-  the Mixxx library. This information is initially loaded from the tracks
+  the Mixxx library. This information is initially loaded from the track's
   :term:`metadata`.
 
 **Track Artist**
@@ -118,11 +118,11 @@ occur throughout the track, you can basically “see” your music.
              Waveform Display --> Display type`.
 
 **Waveform overview**
-  
+
   .. versionadded:: 1.12
 
      Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Interface 
+     of displays for the overview in :menuselection:`Preferences --> Interface
      --> Waveform Display --> Preview type`.
 
   The smaller, zoomed-out version of the waveform shows the various markers
@@ -146,8 +146,8 @@ occur throughout the track, you can basically “see” your music.
 
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
-  waveform in or out. You can choose whether or not to synchronize the zoom
-  level between the decks in :menuselection:`Preferences --> Interface -->
+  waveform in or out. You can choose whether to synchronize the zoom level
+  between the decks in :menuselection:`Preferences --> Interface -->
   Waveform Display --> Synchronize`.
 
 **Waveform Marker**
@@ -171,8 +171,8 @@ occur throughout the track, you can basically “see” your music.
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try to lower the frame rate or change the level of detail
-              shown in the waveform in in :menuselection:`Preferences -->
-              Interface --> Waveform Display`.
+              shown in the waveform in :menuselection:`Preferences --> Interface
+              --> Waveform Display`.
 
 .. _interface-button-grid:
 
@@ -297,7 +297,7 @@ control rate changes also from your computer's keyboard, see the chapter
 * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
   and :term:`phase` of the track matches the other deck.
 * **Right-Click**: Only changes the :term:`rate` of the track to match the other
-  deck but does not adjusts the :term:`phase`.
+  deck but does not adjust the :term:`phase`.
 
 Decks and samplers now pick which sync target to sync to on the fly. Decks
 can't sync to samplers and samplers can only sync to decks. The sync target is:
@@ -328,7 +328,7 @@ can't sync to samplers and samplers can only sync to decks. The sync target is:
   the buttons you get even finer adjustments.
 
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the the left and right arrow buttons is like nudging the metal edge of
+  Pushing the left and right arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
@@ -376,9 +376,9 @@ Transport Controls
 
 **Reverse button**
   As the name suggests, this button plays a track backwards.
-  Right-clicking on the button puts a track into reverse while being held, 
+  Right-clicking on the button puts a track into reverse while being held,
   resumes the track and disables Slip mode when released. Useful to censor
-  expletives on the fly, or simply as part of your mix. 
+  expletives on the fly, or simply as part of your mix.
 
 .. _interface-looping:
 
@@ -426,8 +426,9 @@ loop points of a track.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
 * **Loop-Out**: This button allow you to manually set the end point of a loop.
-  A loop-out marker is placed on the waveform indicating the position. If clicked when
-  a loop was already set, it moves the end point of a loop to a new position.
+  A loop-out marker is placed on the waveform indicating the position. If
+  clicked when a loop was already set, it moves the end point of a loop to a new
+  position.
 * **Loop**: Also dubbed Reloop, this button toggles whether the loop is active
   or not. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
@@ -435,8 +436,8 @@ loop points of a track.
 
 .. hint:: If you are playing inside a loop and want to move the end point
           beyond its current position in the track, click on the *Loop* button
-          first and when the play position reaches the desired position, click on the
-          Loop-Out button.
+          first and when the play position reaches the desired position, click
+          on the Loop-Out button.
 
 .. seealso:: If the :term:`Quantize <quantization>` mode is enabled, the loops
              will automatically snap to the nearest beat. This is disabled by
@@ -470,7 +471,7 @@ Setting Hotcues
 
 Clicking on a numbered button will set a :term:`hotcue` at the current play
 position on the track. A marker with the corresponding number will appear in the
-waveform and the button will lit up to indicate that the hotcue is set.
+waveform and the button will light up to indicate that the hotcue is set.
 
 Playing Hotcues
 ^^^^^^^^^^^^^^^
@@ -584,6 +585,11 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
+.. todo:: Update section to reflect 1.12 GUI layout.
+
+.. versionadded:: 1.12
+   Headphone split cue option
+
 **Head-Mix Knob**
   Allows you to customize how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
@@ -598,12 +604,18 @@ Headphone and Master Mix Controls
   single deck's signal you are listening to in the headphones with the
   :ref:`Gain <interface-eq-gain>` knob.
 
+**Head-Split Button**
+  If activated, two mono signals are send to the headphone output instead of one
+  stereo signal. The master signal plays in the right channel, while the cueing
+  signal plays in the left channel. You can still adjust the head-mix so in the
+  left channel is not the pure cueing signal.
+
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
   the master output.
 
 **Volume Knob**
-  The Volume Knob controls the overall volume of of the master output. Adjust
+  The Volume Knob controls the overall volume of the master output. Adjust
   this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
   at the peak.
 
@@ -649,9 +661,9 @@ Equalizers and Gain Knobs
 
 **Gain Knob**
   Above these knobs, the gain knob allows you to adjust the gain of the deck. In
-  general, you should adjust this knob so that at full-volume the deck's audio is
-  just at the peak of the center VU meters. This is so you can achieve the widest
-  dynamic range for your track.
+  general, you should adjust this knob so that at full-volume the deck's audio
+  is just at the peak of the center VU meters. This is so you can achieve the
+  widest dynamic range for your track.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
@@ -699,9 +711,10 @@ on the left end of the crossfader and vice versa. This is also known as
 
 Play/Pause Button
 -----------------
-Clicking the Play/Pause button starts and pauses the playback. A right-click on
-the button during playback places a :term:`Cue point <cue>` on the track, see
-:ref:`interface-cue`.
+Clicking the Play/Pause button starts and pauses the playback.
+
+.. seealso:: The actual behavior of the Play/Pause button depends on the
+             selected :ref:`Cue mode <interface-cue-modes>`.
 
 .. hint :: To return to the beginning of the track, right-click on the deck's
            :ref:`Fast-Rewind Button <interface-transport>`.
@@ -710,77 +723,98 @@ the button during playback places a :term:`Cue point <cue>` on the track, see
 
 Cue Button
 ----------
-If the button is pressed, the play position jumps to an existing
-:term:`Cue point <cue>` on the track or sets a new one, depending on whether a
-track is playing or not. If you have not set any custom cues yet, the default
-point is at the track's beginning.
+
+.. sectionauthor::
+   Daniel Schürmann <daschuer@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+If the button is pressed while the track is playing, the play position jumps to
+the :term:`Cue point <cue>` on the track and the track is paused. Once the track
+is paused at the Cue point, you can preview it by holding the Cue Button. If you
+have not moved the Cue point yet, the default point is at the track's beginning.
+
+.. seealso:: The actual behavior of the Cue button depends on the
+             selected :ref:`Cue mode <interface-cue-modes>`.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
 
-* **While playing**: The Cue point is set via :ref:`interface-play-pause`.
-  A right-click on the button places a Cue point at the current play position on
-  the track, and a :ref:`Cue marker <interface-waveform>` appears on the
-  waveforms.
-
-* **While stopped**: Clicking on the Cue button places a Cue point at the
-  current play position on the track, and a Cue marker appears on the waveforms.
-  The existing cue point will be replaced.
-
 Every track has a Cue point, by default on its beginning. Unlike with
 :ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points.
+
+The Cue point is moved according to the selected Cue mode, as explained below.
+
+.. _interface-cue-modes:
 
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-Mixxx Play/Pause/Cue beahvoir can be tweakd to fit to other devices in your
-setup or to your personal preferences. You can switch between the CUE modes
-in :menuselection:`Preferences --> Interface`.
+.. versionadded:: 1.12
+   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
 
-**Pioneer mode (default)**
+Mixxx supports various Cue modes that adapt to fit other devices in your
+setup, or your personal preferences. The actual behavior of the Play, Pause, and
+Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
+:menuselection:`Preferences --> Interface`.
 
-* **After track load** Track is paused. The flashing Play/Pause button
-  indicates that that deck is ready to play. You can tab the Play/Pause
-  button to start playing.
-* **While paused at Cue point (Cue button lit)**:
-** Holding down the Cue button track plays from Cue point as long as
-   the button is pressed. After releasing the Cue button the track jumps back
-   to Cue point and pauses again. You can continue playing by pressing play
-   before releasing the Cue button.
-* **While paused not at Cue point (Cue button flashing)
-**: Tapping the Cue button stores the current position as new Cue point.
-* **While playing**:
-** Tapping the Cue button causes the track to instantly
-   jump to the location of the cue point where it pauses the playback.
-** Tapping the Play/Pause button pauses the track at the current position.
+**Mixxx mode (default)**
+
+* **While paused at Cue point (Cue button lit):**
+
+  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
+    as long as the button is pressed. After releasing the Cue button, the track
+    jumps back to Cue point and pauses again. Continue playback by pressing the
+    Play/Pause button before releasing the Cue button.
+
+* **While paused not at Cue point (Cue button flashing)**:
+
+  * Tapping the Cue button stores the current position as new Cue point.
+
+* **While playing:**
+
+  * Tapping the Cue button causes the track to instantly jump to the location of
+    the Cue point where it pauses the playback.
+  * Tapping the Play/Pause button pauses the track at the current position.
+
+**Pioneer mode**
+
+* It is basically the same as Mixxx mode but the buttons are more flashy like a
+  Pioneer CDJ player.
+
+* The Play/Pause button flashes once per second when a track is paused.
+
+* The Cue button flashes twice a second when the next push will move the Cue point.
 
 **Denon mode**
 
-* **After track load** Track is paused.
+* **After track load:** Track is paused.
 * **While paused at Cue point (Cue button lit)**:
-** Holding down the Cue button track plays from Cue point as long as
-   the button is pressed. After releasing the Cue button the track jums back
-   to Cue point and pauses again. You can continue playing by pressing play
-   before releasing the Cue button.
-** Tapping the Play/Pause button starts the track at the current position.
-* **While paused not at Cue point (Play button flashing)
-**: Tapping the Cue button moves the track back to Cue point.
-** You can tab the Play/Pause button to start playing. The Cue point moves
-   to the position where the track was started.
+
+  * Holding down the Cue button plays the track from the Cue point, as long as
+    the button is pressed. After releasing the Cue button, the track jumps back
+    to Cue point and pauses again. Continue playback by pressing the Play/Pause
+    button before releasing the Cue button.
+  * Tapping the Play/Pause button starts the track at the current position.
+
+* **While paused not at Cue point (Play button flashing)**:
+
+  * Tapping the Cue button moves the track back to Cue point.
+  * Tab the Play/Pause button to start playing. The Cue point moves to the
+    position where the track was started.
+
 * **While playing**:
-** Tapping the Cue button causes the track to instantly
-   jump to the location of the cue point where it pauses the playback.
-** Tapping the Play/Pause button pauses the track at the current position.
+
+  * Tapping the Cue button causes the track to instantly jump to the location of
+    the cue point where it pauses the playback.
+  * Tapping the Play/Pause button pauses the track at the current position.
 
 **Numark mode**
 
-It is basically the same as Pioneer mode but the buttons are less flashy.
-The Play/Pause button does not flash at all and the Cue button flashes with
-1 Hz instead of 2 Hz.
+* It is basically the same as Denon mode but without a flashing Play/Pause
+  button.
+* This mode is useful if you want to implement a custom skin with 3-button decks,
+  featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
-This mode is also useful if you want to implement a custom skin with 3
-button decks, featuring a Cue button a dedicated Pause button and a Play/Stutter
-button.
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
 
@@ -810,7 +844,7 @@ to a mix when used tactfully.
   channel.
 
 **Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the the wavelength of the flange effect.
+  Adjusts the phase delay, intensity and the wavelength of the flange effect.
 
 .. hint :: For the most noticeable effect, enable the FX button and turn the
            Depth knob completely to the right.
@@ -903,7 +937,7 @@ Sample Deck Controls
 * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
   and :term:`phase` of the track matches the sync target.
 * **Right-Click**: Only changes the :term:`rate` of the track to match the sync
-  target but does not adjusts the :term:`phase`.
+  target but does not adjust the :term:`phase`.
 
 **Hotcue Controls**
   To jump in between different parts of a sample, you can use these numbered
@@ -947,11 +981,14 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
+.. versionadded:: 1.12
+   Microphone can accept stereo or mono input now.
+
 * Most computers have built-in microphones, while some are connected through USB.
   These work adequately, but don't expect them to be high-quality.
-* The best solution is to connect a good external microphone to the “Mic” or “Line” input on
-  your audio device. If available, use the “Gain” knob on the device to adjust
-  the input signal.
+* The best solution is to connect a good external microphone to the “Mic” or
+  “Line” input on your audio device. If available, use the “Gain” knob on the
+  device to adjust the input signal.
 * Select the microphone input in
   :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and
   click :guilabel:`Apply`.

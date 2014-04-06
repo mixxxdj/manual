@@ -227,7 +227,7 @@ The features in detail:
   Mixxx has for a track.
 * **Unhide Button**: Removes the selected tracks from the
   :guilabel:`Hidden Tracks` view and makes them available in the regular track
-  list again. The tracks appears again in every playlist or crate they were
+  list again. The tracks appear again in every playlist or crate they were
   listed before they were hidden.
 
 .. _library-auto-dj:
@@ -288,6 +288,10 @@ intended for live, attended performance use. However, you can use the
 .. versionadded:: 1.12
    :guilabel:`Analyze Playlist` option in the context menu.
    Import playlists by drag-and-dropping them into a playlist in the sidebar.
+   :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
+   options remember the last selected playlist directory.
+   Displays the total number of tracks, and the total duration next to the
+   playlist's name.
 
 Right-click on an existing playlist's name to access the different features in
 the context menu:
@@ -299,11 +303,11 @@ the context menu:
 * **Duplicate**: Sometimes you want to build a playlist based on an existing one.
   Select the playlist you would like to duplicate, choose
   :guilabel:`Duplicate Playlist`, name the new playlist and click :guilabel:`OK`.
+* **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
+  available in the library for later use.
 * **Lock**: |ic_lib_locked| This icon indicates a locked playlist. If a playlist
   is locked, you cannot add tracks, rename or delete the playlist. Choose
   :guilabel:`Unlock` from the context menu to unlock the playlist.
-* **Remove**: Removes an unlocked playlist. Tracks in the playlist are still
-  available in the library for later use.
 * **Analyze entire playlist**: Forces the analysis of the playlist in the
   :ref:`Analyze <library-analyze>` view.
 * **Import playlist**: Import tracks from external playlists to a playlist in
@@ -331,7 +335,11 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   :ref:`track list<library-root>`.
 
 .. versionadded:: 1.12
-   :guilabel:`Analyze Crate` option in the menu.
+   :guilabel:`Analyze Crate` context menu option.
+   :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
+   remember the last selected playlist directory.
+   Displays the total number of tracks, and the total duration next to the
+   crate's name.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
@@ -341,11 +349,11 @@ context menu:
 * **Duplicate**: Just like playlists you can duplicate an existing crate.
   Select the crate you would like to duplicate, choose
   :guilabel:`Duplicate Crate`, name the new crate and click :guilabel:`OK`.
+* **Remove**: Removes an unlocked crate. Tracks in the crate are still available
+  in the library for later use.
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
-* **Remove**: Removes an unlocked crate. Tracks in the crate are still available
-  in the library for later use.
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
@@ -390,6 +398,9 @@ Browse - Loading remote tracks
 |ic_lib_browse| Browse mode works like a file-manager and allows you to load
 tracks that are not necessarily already in your Mixxx library.
 
+.. versionadded:: 1.12
+   Add music directories directly from the Browse sidebar item.
+
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
 music. Depending on your :term:`operating system`, the music will usually be
 found in the “My Music” or “Music” folder. Drag the files you want to import to
@@ -398,6 +409,12 @@ the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the
 
 .. note:: Currently you can drag only files but not folders to the Mixxx
           library.
+
+Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
+as new music directory. Mixxx will watch this directory and its subdirectories
+for new tracks.
+
+.. seealso:: For more informations, go to :ref:`djing-changing-music-directories`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
@@ -437,6 +454,8 @@ view, then right-click on a sessions name to access the different features:
 
 .. versionadded:: 1.12
    :guilabel:`Create new history playlist` context menu option.
+   :guilabel:`Export playlist` context menu option remember the last selected
+   playlist directory.
 
 * **Add to Auto DJ**: Adds the content of the session to the
   :ref:`Auto DJ <djing-auto-dj>` queue for automatic mixing.
@@ -467,13 +486,16 @@ playing live with them to ensure the beatgrids are correct. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
-The Analyze view allows you to run :term:`BPM` and :term:`beatgrid` detection on
-tracks in advance. Waveforms are generated as part of the analysis as well.
-While analyzing, the progress in percentage and total queue length are shown.
+The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
+:term:`ReplayGain` detection on tracks in advance. While analyzing, the progress
+in percentage and total queue length are shown.
 
 .. versionadded:: 1.12
    Drag and drop tracks from the library or external file managers onto the
    analysis view to instantly analyze these files.
+
+.. versionchanged:: 1.12
+   Does not generate waveforms to save disk space.
 
 The Analyze features in detail:
 
@@ -521,4 +543,4 @@ different location. Select :guilabel:`Use Default Library` to reset.
   playlists.
 
 .. seealso:: You can disable external libraries in
-             :menuselection:`Prefences --> Library`.
+             :menuselection:`Preferences --> Library`.

@@ -88,7 +88,7 @@ to the streaming server:
 Live Broadcasting Preferences
 =============================
 
-.. figure:: ../_static/Mixxx-111-Preferences-Livebroadcasting.png
+.. figure:: ../_static/Mixxx-112-Preferences-Livebroadcasting.png
    :align: center
    :width: 75%
    :figwidth: 100%
@@ -100,6 +100,8 @@ Live Broadcasting Preferences
 **Server Connection**
 
 * **Type**: Select the type of streaming server you want to connect with.
+  :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and
+  :term:`Icecast 2<icecast>` servers are supported.
 * **Host**: You can enter the host as either a host name or an IP address.
 * **Login**: As provided by your streaming server provider. Without this, you
   will not connect successfully to the server. The default password for
@@ -122,11 +124,17 @@ Live Broadcasting Preferences
 
 **Stream Setting**
 
+.. versionadded:: 1.12
+   :guilabel:`Dynamically update Ogg Vorbis metadata` option
+
 * **Public stream**: If enabled, this option adds your radio station to the
   Shoutcast/Icecast directory.
 * **Enable UTF-8 metadata**: If enabled, this option fixes broken accented and
   foreign language symbols in :term:`metadata`, assuming the streaming provider
   has configured the server to support UTF-8 metadata.
+* **Dynamically update Ogg Vorbis metadata**: Due to flaws in some streaming
+  clients, updating Ogg Vorbis metadata dynamically can cause listener glitches
+  and disconnections. Check this box to update the metadata anyway.
 * **Stream name**: So, what's the name of your show?
 * **Website**: The website you would like your listeners to visit.
 * **Description**: Enter your DJ name and a short tagline.
@@ -143,12 +151,25 @@ Live Broadcasting Preferences
   or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is supported in
   :term:`MP3` format.
 
+**Shoutcast metadata format**
+
+  .. versionadded:: 1.12
+
+  This allows to set custom metatdata formats for the Shoutcast title field.
+  Previously only ``artist - title`` was allowed. For example if you were
+  broadcasting as part of a station, you could add the station's name or the
+  presenter's name in the title: ``MyStation | $artist - $title``.
+  Or if you were doing a live mix with several artists, you could have:
+  ``Live mix by MyName - currently playing: $artist``. Or even if you wanted a
+  very unusual format: ``Hey, I like $artist, here is $title by $artist``.
+
+  The changes **do not** affect the case for the combination of OGG/Icecast2.
+
 **Custom metadata**
 
  By default, Mixxx broadcasts artist and title information of the files that you
  play to your listeners. You can disable this feature and use your own custom
- metadata. For technical reasons, broadcasting artist and title information is
- not supported for OGG streams.
+ metadata.
 
 * **Enable custom metadata**: Toggles custom metadata on and off.
 * **Artist**: Insert your custom artist metadata here, your DJ name for example.
@@ -217,31 +238,39 @@ Activate MP3 streaming support on Windows
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Owen Williams <owilliams@mixxx.org>
 
 To activate MP3 streaming on Windows, follow these steps:
 
-  1. Download LAME 3.98.4 :term:`binaries` from http://lame.bakerweb.biz/.
-     The download includes versions for 32-bit and 64-bit Windows
+  1. Download LAME 3.98.4 :term:`binaries` from
+     http://www.rarewares.org/mp3-lame-libraries.php.
+
+     .. hint:: The download page includes 32-bit and 64-bit versions. Make sure
+               the version you download matches the version of Mixxx that you
+               use, not the version of Windows. If you are on 64bit Windows but
+               are using 32bit Mixxx, you need the 32bit (“x86”) version of the
+               LAME binaries.
+
   #. Unpack the downloaded archive. You need a utility for manipulating archives
      like the free `7zip <http://www.7-zip.org/>`_.
-  #. If you have the 32-bit version of Mixxx, copy the file
-     :file:`libmp3lame.dll` from the :file:`x86` folder to the location you have
-     installed Mixxx, for example :file:`C:\\Program Files\\Mixxx\\`
-  #. Alternatively, if you have the 64-bit version of Mixxx, copy the file
-     :file:`libmp3lame.dll` from the :file:`x64` folder to the location you have
-     installed Mixxx
-  #. Rename :file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where
-     you have installed Mixxx
+  #. Copy :file:`libmp3lame.dll` to the location you have installed Mixxx,
+     probably :file:`C:\\Program Files\\Mixxx\\`.
+  #. **Only** if you are running Mixxx 1.11 or earlier, you **must** also rename
+     :file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where you have
+     installed Mixxx. Select :menuselection:`Help --> About` to find out your
+     version of Mixxx.
+
   #. Restart Mixxx
 
-.. hint:: A common mistake when going through the process is not copying only
-          :file:`libmp3lame.dll` from the LAME zip file and then renaming that
-          file to :file:`lame_enc.dll`. It's deceiving but there is a file named
-          :file:`lame_enc.dll` in the LAME zip file. You don't want that file!
-          Also, make sure the version of LAME you use (x86=32-bit vs. x64=64-bit)
-          matches the version of Mixxx you use. Select :menuselection:`Help -->
-          About` to find out whether you have installed the 32-bit or 64-bit
-          version of Mixxx.
+Windows Troubleshooting
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Double check that the version of LAME you use (“x86” = 32-bit vs. “x64” =
+  64-bit) matches the version of Mixxx you use.
+* If you are running Mixxx 1.11 or earlier, did you rename the
+  :file:`libmp3lame.dll` to :file:`lame_enc.dll`?
+* Make sure you put the correct LAME :file:`*.dll` file in the same folder that
+  contains the installation of Mixxx you are using.
 
 .. warning:: Some websites like `Audacity <http://audacity.sourceforge.net/>`_
              provide lame :term:`binaries` too. Do not use these versions or
@@ -267,7 +296,7 @@ To activate MP3 streaming on Mac OS X, follow these steps:
 Method B: Package manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Another easy way to activate MP3 streaming is to use `Homebrew <http://brew.sh/>`_
-or `MacPorts <http://www.macports.org/>`_, which are package managers like 
+or `MacPorts <http://www.macports.org/>`_, which are package managers like
 `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ on Debian/Ubuntu
 Linux. They provide a convenient way to install many Open Source packages.
 Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather
