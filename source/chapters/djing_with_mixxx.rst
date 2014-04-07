@@ -383,8 +383,10 @@ Fetching track metadata from MusicBrainz can possibly fail if Mixxx could not
 find the requested track in the MusicBrainz database, could not connect to the
 MusicBrainz servers, or because you are not connected to the Internet.
 
-.. hint:: You can't identify short audio snippets. The MusicBrainz service has
-   been designed for identifying full audio files.
+.. hint:: The MusicBrainz service has been designed for identifying full audio
+   files. Is a track less then 2 minutes long, identifying the file will likely
+   fail. Identifying a layered mix-track or mash-up may produce false positives
+   in the result list.
 
 Using 3rd-party software
 ------------------------
