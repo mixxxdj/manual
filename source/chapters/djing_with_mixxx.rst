@@ -286,6 +286,121 @@ and click the :guilabel:`Play` button next to the waveform.
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
 
+.. _djing-edit-metadata:
+
+Edit metadata of audio files
+============================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
+library columns. You are free to edit most metadata, and Mixxx offers a number
+of different ways to do so. Note that some information can not be edited, such
+as bitrate, size, length, type, filename, and location.
+
+.. note:: Mixxx does not support editing the metadata of many tracks at a time
+          (bulk editing).
+
+.. warning:: Changes to a track's metadata will be saved to the Mixxx library,
+             but **not** to the track itself. Mixxx wont touch your audio files
+             to prevent data loss.
+
+Manual Edit
+-----------
+
+**Track Inline editing**:
+  Double-click on a field in the :ref:`library <library-root>`. If the field is
+  editable, it will become an editable text box. Enter a value and hit
+  :kbd:`Enter` when you are done.
+
+  .. figure:: ../_static/Mixxx-112-Library-Inline-edit.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx library - Inline editing
+     :figclass: pretty-figures
+
+     Mixxx library - Inline editing
+
+**Properties editor**:
+  Click on a **single track** in the library and select :guilabel:`Properties`
+  to open the editor. Add or change values in the editable fields, and save your
+  changes as explained below.
+
+  .. figure:: ../_static/Mixxx-112-Library-Properties-Editor.png
+     :align: center
+     :width: 100%
+     :figwidth: 50%
+     :alt: Mixxx library - Properties editor
+     :figclass: pretty-figures
+
+     Mixxx library - Properties editor
+
+  * **OK**: Accept the changes and close the editor.
+  * **Apply**: Accept the changes you made into the metadata.
+  * **Cancel**: Discard the changes and close the editor.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view.
+  * **Reload Track Metadata from File**: Prompts Mixxx to re-read the metadata
+    of the selected track if you have modified metadata in 3rd-party software,
+  * **Reload Track Metadata from MusicBrainz**:
+    Lookup metadata online by searching the :term:`MusicBrainz` database, see
+    below.
+
+Using the MusicBrainz online database
+-------------------------------------
+
+`Musicbrainz <http://musicbrainz.org/>`_ is an :term:`open-source` music
+encyclopedia that collects music :term:`metadata` and makes it available to the
+public.
+
+  .. figure:: ../_static/Mixxx-112-Library-MusicBrainz-Wizard.png
+     :align: center
+     :width: 100%
+     :figwidth: 66%
+     :alt: Mixxx library - MusicBrainz Wizard
+     :figclass: pretty-figures
+
+     Mixxx library - MusicBrainz Wizard
+
+The MusicBrainz wizard in Mixxx allows to search the MusicBrainz database and
+apply the search results to your tracks.
+
+Click on a **single track** in the library and select :guilabel:`Get Metadata
+from MusicBrainz`. Mixxx fetches track data from the MusicBrainz database and
+displays the search results.
+
+Select the best possible match from the search results by clicking on it in the
+list.
+
+  * **Apply**: Apply the selected MusicBrainz metadata to the track.
+  * **Close**: Close the wizard.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view and perform a MusicBrainz lookup on them as well.
+
+Fetching track metadata from MusicBrainz can possibly fail if Mixxx could not
+find the requested track in the MusicBrainz database, could not connect to the
+MusicBrainz servers, or because you are not connected to the Internet.
+
+.. hint:: The MusicBrainz service has been designed for identifying full audio
+   files. Is a track less then 2 minutes long, identifying the file will likely
+   fail. Identifying a layered mix-track or mash-up may produce false positives
+   in the result list.
+
+Using 3rd-party software
+------------------------
+
+If you have modified file metadata in 3rd-party software, select
+:menuselection:`Library --> Rescan Library` in the menu on top of the
+application window. This prompts Mixxx to re-read the metadata from **all**
+tracks in the library.
+
+Popular software to edit metadata of audio files include:
+  * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
+  * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
+  * `Picard <http://musicbrainz.org/doc/Picard_Tagger>`_ (Mac, Windows, Linux)
+
 .. _waveform-displays:
 
 Waveform displays
