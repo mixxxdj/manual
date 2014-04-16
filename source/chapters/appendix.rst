@@ -225,6 +225,7 @@ easier. Comment line options are case-sensitive.
 
 .. versionadded:: 1.12
    Show debug tooltips and provide extra skins when developer mode is enabled.
+   Added ``--safeMode`` option.
 
 ======================  =================================================
 Option                  Description
@@ -254,6 +255,15 @@ Option                  Description
                         stats on performance, a Developer tools menu,
                         extra developer skins, and provides useful
                         information for skin writers in widget tooltips.
+----------------------  -------------------------------------------------
+--safeMode              Disables risky things at start up. This should
+                        help troubleshoot crashes at startup or if Mixxx
+                        won't boot.
+
+                        * Automatically loads empty waveforms
+                        * Disables spinning vinyl widgets
+                        * Disables synchronization polling
+                        * Doesn't open controllers by default
 ----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g 'fr')
