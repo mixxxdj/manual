@@ -154,6 +154,10 @@ Application shortcuts
 Use these shortcuts to access features available in the menu on top of the
 application window.
 
+.. versionadded:: 1.12
+   Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
+   which provides various useful debugging tools.
+
 ========================================  ================================
 Function                                  Key
 ========================================  ================================
@@ -200,10 +204,12 @@ Open Preferences (Windows & Linux)        Ctrl + P
 Open Preferences (Mac OS X)               Ctrl + ,
 ----------------------------------------  --------------------------------
 Exit Mixxx                                Ctrl + Q
---------------------------------------------------------------------------
+----------------------------------------  --------------------------------
 **Developer menu**
 --------------------------------------------------------------------------
 Reload skin                               Ctrl + Shift + R
+----------------------------------------  --------------------------------
+Developer Tools                           Ctrl + Shift + D
 ========================================  ================================
 
 .. hint:: The :kbd:`Ctrl` key on Windows & Linux is equivalent to the
