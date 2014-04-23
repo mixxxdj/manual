@@ -621,13 +621,16 @@ choose to create them in the preferences.
 Record your mix to disk
 -----------------------
 
+.. versionadded:: 1.12
+   Displays the duration of the recording.
+
 * Click on the *Recordings* icon in the sidebar to switch to the
   :guilabel:`Recordings` view
 * Click the :guilabel:`Start Recording` button or click
   :menuselection:`Options --> Record Mix` in the menu on top of the Mixxx
   application window.
 * The display above the track table shows how many data has already been
-  recorded.
+  recorded as well as the duration of the recording.
 * Perform your mix
 * Click the :guilabel:`Stop Recording` button to stop the recording when the mix
   has finished.
