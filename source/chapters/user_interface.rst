@@ -56,6 +56,10 @@ Track Information Display
 
    The track information section of the deck
 
+.. versionadded::  1.12
+   Parse the title and the artist from the file name when the corresponding
+   :term:`metadata` are missing.
+
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
