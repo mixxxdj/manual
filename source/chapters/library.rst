@@ -491,8 +491,11 @@ The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
 in percentage and total queue length are shown.
 
 .. versionadded:: 1.12
-   Drag and drop tracks from the library or external file managers onto the
-   analysis view to instantly analyze these files.
+   * Drag and drop tracks from the library or external file managers onto the
+     analysis view to instantly analyze these files.
+   * The title changes to :guilabel:`Analyze (x/y)` where x is the number of
+     tracks that have been analyzed so far and y is the total number of tracks
+     originally in the queue.
 
 .. versionchanged:: 1.12
    Does not generate waveforms to save disk space.
