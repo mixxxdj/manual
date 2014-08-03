@@ -64,7 +64,16 @@ release = '1.12.0-beta1'
 # for a list of supported languages.
 language = 'en'
 
+# Directories in which to search for additional message catalogs (see language),
+# relative to the source directory. The directories on this path are searched
+# by the standard gettext module.
 locale_dirs = ['locale', ]
+
+# If true, a document`s text domain is its docname if it is a top-level project
+# file and its very base directory otherwise. By default, the document
+# markup/code.rst ends up in the markup text domain. With this option set to False,
+# it is markup/code.
+gettext_compact = False
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

@@ -1,1 +1,4 @@
-build
+build/html
+build/doctrees
+build/locale/.doctrees
+
