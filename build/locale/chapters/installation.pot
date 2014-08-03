@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2014, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/chapters/installation.rst:6
+# f11c55a6a87549479bfef0d3a3ca1a3a
+msgid "Installing Mixxx"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:8
+# 3f12f8a3ccd44aedb1c8d02e2b1551b2
+msgid "This part of the manual provides step-by-step directions for installing Mixxx on your computer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:12
+# 481b7bdf8be24b45bfeb41d5bed06bc1
+msgid "Installation on Windows"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:20
+# 8440a27da5674fb686133e175d9b8675
+msgid "Mixxx Installation - Ready to install the application"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:22
+# 8f3539dcbcd946228902b835d8c46314
+msgid "Download Mixxx for Windows from `<http://mixxx.org/download.php>`_ ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:23
+# e8b8a10f51d24774b222b4dbc962fda0
+msgid "Using :file:`Windows Explorer` browse to the location where the Mixxx download was saved, usually the :file:`Desktop` or :file:`Downloads` folder."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:25
+# a3aeb85591304c0eb8a5c7573721dcf4
+msgid "Double-click the Mixxx installer .EXE to open it up."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:26
+# 6d2f358accfd4f0f92744d52b31e0a9a
+msgid "Follow the step-by-step instructions in the installer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:27
+# 057f465b93d54690ac48119e487ea1a5
+msgid "If the installation is complete, a confirmation screen will appear."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:28
+# ae8b91be13504499a808a5a5cf7e7ad1
+msgid "Close the installer screen."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:30
+# 9ca33910a897483d929377362b4892de
+msgid "Mixxx is supported on Windows 8, Windows 7, Windows Vista or Windows XP, with native 32 and 64-bit versions."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:33
+# e864c98404dd47678bdce710f506f5da
+msgid "If you are not sure about 32-bit versus 64-bit, pick the 32-bit version when downloading the Mixxx installer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:36
+# 6fd2f1e5e760485591306ffc4729a129
+msgid "You may encounter a warning message similar to “Security Warning - Publisher could not be verified”. This is because the Mixxx installer is not digitally signed. Ignore the message and continue the installation. It does not indicate a security risk, if you can trust the source website such as `www.mixxx.org <http://mixxx.org/download.php>`_ ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:44
+# 50b4701006184d7989607f593bffc8a1
+msgid "Installation on Mac OS X"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:47
+# 675d946e0330473ca15bd4bf7c00dccf
+msgid "Method A: Direct Download"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:56
+# 4ebc439907f54399b46fde9d43c99307
+msgid "Mixxx Installation - Ready to drop the Mixxx icon to the Applications folder"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:58
+# 0f0f3189cd0340faba10df1a64d515c5
+msgid "Download Mixxx for Mac OS X from `<http://mixxx.org/download.php>`_ ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:59
+# f74a8aeae80340a6b238cd30a31ba02d
+msgid "Using :file:`Finder` browse to the location where the Mixxx download was saved, usually the :file:`Desktop` or :file:`Downloads` folder."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:61
+# 2130500060c24698943385a4c9a3b0f8
+msgid "Double-click the Mixxx installer .DMG file, a new Finder window appears."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:62
+# 26476457b0974351afec08b6985ab42a
+msgid "Locate the *Mixxx* icon within this new Finder window. Drag-and-drop it into your :file:`Applications` folder."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:64
+# 03c530d217ca41baabb2d16aa07def80
+msgid "Eject the Mixxx installation volume from the Finder by clicking on the icon right next to *Mixxx* volume name."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:67
+# d429063bb6e84d349a373a65d43cf6f1
+msgid "Mixxx requires an Intel Mac running Mac OS X 10.5 or newer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:70
+# 36550d4c17aa4e93a2ec2758a75d9878
+msgid "Method B: The Mac App Store"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:78
+# 2d403a3a5a5640adb9af5036c102cfc5
+msgid "Mixxx Installation from the Mac App Store"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:80
+# d51c5f63da604252885b97f5d6f73ff4
+msgid "The Mac App Store makes getting new apps easier than ever."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:82
+# ba767f1128774551b1f263ddc3422091
+msgid "Start the Mac :file:`App Store.app` on your computer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:83
+# 9a3f61cb4f9d4eeb9a294ad38f121f86
+msgid "Search for *mixxx* in the App Store, alternatively `click this direct link <http://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:86
+#: ../../source/chapters/installation.rst:133
+# e8a9ba15c2c34ff3a35d0de182f76f53
+# 26a1b98fba11487098e8bea15a6ec782
+msgid "Select Mixxx and click the :guilabel:`Install` button."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:87
+# a5cb1c597f8b464fa25a0dbc3c4dacff
+msgid "Type in your administrator password if asked."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:88
+# 06c7f215ff0d4b91a975f3dbaddf9f46
+msgid "Mixxx will be installed to your :file:`Applications` folder."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:90
+# b218e347d3dc459ba09bfdb78635f31e
+msgid "The App Store version of Mixxx is under some circumstances out of date, therefore using `Method A: Direct Download`_ is preferable."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:93
+# e432868c1a514379812666c48951ce11
+msgid "Due to licensing restrictions, :term:`vinyl control` is not available in Mixxx from the Mac App Store."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:97
+# 5cd978bddc3d4452bfe108abbd96257f
+msgid "Installation on GNU/Linux"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:99
+# 614cfb46628f4ef6ad9f0f22a49880b8
+msgid "Official packages of Mixxx are only offered for Ubuntu Linux. However, Mixxx can build on almost any Linux distribution."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:103
+# 7ffed1f809cd4fffb88484fd4bdb4ad9
+msgid "Installation on Ubuntu"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:106
+# 11c88c075c884c79840699b4a83c228d
+msgid "Method A: Personal Package Archive (ppa)"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:107
+# 9c0ff6641fe04788a89304beab4da9c8
+msgid "Open a terminal and type the following commands. Type in your administrator password if asked for. ::"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:114
+# f81d822182d04c41a1e2d7669aec70fe
+msgid "Start Mixxx by simply typing :file:`mixxx` into the terminal, then hit :kbd:`Return` ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:118
+# 616365160e704f06b3c7403ef8555306
+msgid "Method B: The Ubuntu Software Center"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:126
+# 7bca248733994383ad62721333e25a65
+msgid "Mixxx Installation from the Ubuntu Software Center"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:128
+# 9478bb21569f43559da453023d9a3e7d
+msgid "The Ubuntu Software Center provides the easiest and safest way to install software on Ubuntu."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:131
+# b54c96d36265436cba15763b4249ea38
+msgid "Start the :file:`Ubuntu Software Center` on your computer."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:132
+# acd6d36695b946898c274336679fec6a
+msgid "Search for *mixxx* in the Software center."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:134
+# c1665f5f5d454c1cab9c24c00c4cb900
+msgid "Type in your administrator password if asked for."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:135
+# 96f9e2d2191844a3b9e14276c9fa4621
+msgid "Mixxx will be installed and an icon is added to the frequently-used program icons on the launcher."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:138
+# 91ebea9a306e472691e5c983c1d36a55
+msgid "The Software Center version of Mixxx is under some circumstances out of date, therefore using `Method A: Personal Package Archive (ppa)`_ is preferable."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:142
+# d2efbfe4d16d4c7f9757ce4098d3cdaa
+msgid "Installation on Other Distributions"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:144
+# fab5e78a43e446558faba9270b66a732
+msgid "Your distribution may maintain a non-official build that you may use. Alternatively, you can build Mixxx from source. This should be a pretty straightforward process, and it's certainly easiest on GNU/Linux. For more information, go to:"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:149
+# d0b6cbda2a6a431f805199957290f547
+msgid "`<http://mixxx.org/wiki/doku.php/compiling_on_linux>`_"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:152
+# a6e61704403b4739b35ce3f250f0d6fb
+msgid "Building Mixxx from Source"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:154
+# 75ff086c57b440679c6be773ff624b30
+msgid "If your operating system isn't listed here, then it's likely you're going to have to build Mixxx from the source code. For more information, go to:"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:157
+# 44260126f0bb4f7299513fa0369d718e
+msgid "`<http://mixxx.org/wiki/doku.php#build_mixxx>`_"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:160
+# 2aa631fe5d5a465586d5b2363bcfee8f
+msgid "Where to go from here?"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:162
+# cdffcd6f407f4fc6937fcb0cd75cb7a2
+msgid ":doc:`Set up your audio devices and controllers <setup>`"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:163
+# 283dfeb3d0b746a2be2bceccb9faf2e2
+msgid ":doc:`Open Mixxx and start importing your audio files <djing_with_mixxx>`"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:164
+# 02b8860bdcfa44478dfe18ffbe247005
+msgid ":doc:`Get familiar with the Mixxx user interface <user_interface>`"
+msgstr ""
+

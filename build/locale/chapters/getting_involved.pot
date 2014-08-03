@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2014, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/chapters/getting_involved.rst:4
+# 538ed515ad9a4f9a91a15a83985859d0
+msgid "Contributing to the Project"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:6
+# d00cd4c737a14d7fb9a1fd0f13f67a53
+msgid "Mixxx is a community-driven project involving many DJs worldwide. Without the contributions from these DJs, Mixxx would not exist, and we're constantly looking for more contributors."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:10
+# c3f56a1147d54274aca8702ea35f07bf
+msgid "We want to make it as easy as possible for people to get involved in Mixxx development.  First off, to be clear **you don't have to be a programmer to contribute**."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:15
+# 2bace3c372954f899df234ca4f3d708e
+msgid "As a non-developer"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:17
+# 19e106026f07492b855df208ef140abd
+msgid "`Donate <http://mixxx.org/download.php>`_ to Mixxx using Paypal to help support and enhance development."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:19
+# ac26289bad6e40358b653d2e5810fb0a
+msgid "`Make skins <http://mixxx.org/wiki/doku.php/creating_skins>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:20
+# bf9e2a5b723d499082d39ed8f9c818ca
+msgid "`Make MIDI mappings <http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for your controller"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:23
+# 6d924619dbaf462eb86c1c540e1141bf
+msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:24
+# 86487f1569d1432b8e28e41e4a202705
+msgid "Update our `Wiki <http://mixxx.org/wiki>`_ to make sure the information on it is up to date."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:26
+# 4ae84a9ba30743e4b1613fc4987b170b
+msgid "Translate Mixxx using `Transifex <https://www.transifex.com/projects/p/mixxxdj/>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:28
+# 337360dcbc9b42b086690f2a6674e712
+msgid "Answer questions on the `Troubleshooting Forum <http://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page <https://answers.launchpad.net/mixxx>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:31
+# 52ffd0957c5d4dad9b25e2ec0536687f
+msgid "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog about our new releases when they come out. Any exposure on the web and in print helps our project grow, and is much appreciated."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:34
+# 2b85953bc8694f7e89fce5510623527b
+msgid "Send us some photos of you using Mixxx at a gig!"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:37
+# 6555119bbee64ddc9c3a7327b82bae8a
+msgid "As a software developer"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:39
+# 9a161f3e5d8740c2af46e133d64c13db
+msgid "You don't have to know C++. There are developers who got into Mixxx development while learning C++ along the way."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:41
+# 789343be788a49ecb094606cbd5ada91
+msgid "Join our mailing list: `mixxx-devel <https://lists.sourceforge.net/lists/listinfo/mixxx-devel>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:43
+# 3eec991e84ce43ea859962d6d6d74ba1
+msgid "Join our :term:`IRC` channel, #mixxx on `Freenode <http://www.freenode.net/>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:44
+# 17db0b3ec6fc4461901d95f004d83edc
+msgid "Tell us your ideas! Email us, talk on IRC, file wishlist :term:`bugs <bug report>`, or post on the forums."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:46
+# bdfd2119e8ab434bb01b29e86f42e7f2
+msgid "Register an account on our development platform `Github <https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx Development <http://mixxx.org/wiki/doku.php/using_git>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:49
+# dbe4140f72944183b345e416ac51f1b7
+msgid "Join the `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:52
+# e5c9a1394b934c13b1375b5c8efc3bce
+msgid "Get familiar with the code. Pick a bug off of the `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:54
+# e780a37a4ddc44a494c46026adc42c41
+msgid "Get help fixing the bug on IRC, talk to us about the best way to do it."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:56
+# 7877bdb25ccc4fb4b283d3213ea18f1f
+msgid "**Contributing to Mixxx in 3 Easy Steps:**"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:58
+# a8f4ea38b26d4508b35c537cbb389df0
+msgid "Pick a bug off of the `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:60
+# adda7d481ca642528ee06a1f818d3421
+msgid "Talk to us on IRC for help on how to fix it."
+msgstr ""
+
+#: ../../source/chapters/getting_involved.rst:61
+# 083b9cdfb6d549bc8a6c5b0e014ee6c7
+msgid "Fix it! *Done!* Your name will now be on the `Mixxx contributor list <http://mixxx.org/contact.php>`_."
+msgstr ""
+

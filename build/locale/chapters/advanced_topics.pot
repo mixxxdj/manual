@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2014, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/chapters/advanced_topics.rst:5
+# 8b9f7727b9bb43ca929890f84e26987e
+msgid "Advanced Topics"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:10
+# 0faa074f0e634532a45110b237d9f818
+msgid "Adding support for your MIDI/HID Controller"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:12
+# 7d977c9ecf984ac5b788fb04709d7eaf
+msgid "With several dozens DJ controllers supported out-of-the-box, Mixxx gives you comprehensive hardware control for your DJ mixes, see :ref:`control-midi`."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:15
+# ef8b2d09563b40bdafd492005d0e2963
+msgid "Support for additional devices can be added to Mixxx by creating a new preset file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx understands."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:19
+# 1cc10beab2384976b244ae701504b016
+msgid "The mapping files that ship with Mixxx are stored in the following file paths:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:21
+# 1f7aa9a014ab488ebdfffc2afdea4f9e
+msgid "Linux: :file:`/usr/share/mixxx/controllers` or :file:`/usr/local/share/mixxx/controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:23
+# 80ed65f0f7784b8da3ae392d761b6532
+msgid "Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/controllers/`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:24
+# 42ef806c59ea4b09b84695e4d84cd696
+msgid "Windows: :file:`C:\\\\Program Files\\\\Mixxx\\\\controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:26
+# bd44053ad5ba4c9989af2e165daefc40
+msgid "You can download and share custom controller presets in the `Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:30
+# a1be3f9c9dcd442da7870c5f05ac5f18
+msgid "Controller Wizard"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:39
+# 2cb4f423f0ce4b2faa119b57d3847525
+msgid "Mixxx Controller Wizard -  Mapping a control"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:41
+# 433af218764345cf92b8c69d46d6c2d4
+msgid "By far, the easiest way to create a new MIDI preset is by using the Controller Wizard."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:44
+# 1f34a319cd2d4c009a2a7cec22bbb9ea
+msgid "Connect your controller(s) to your computer"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:45
+# 3df15cf113414ac1ab49b02f3fc7fa6d
+msgid "Start Mixxx"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:46
+# fc41ec154dc141d38058da98b9ec9fc6
+msgid "Go to :menuselection:`Preferences --> Controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:47
+# 67dff0e4ff654218a76f1e876521a9df
+msgid "Select your device from the list of available devices on the left, and the right pane will change"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:49
+# 9b6acb38dc214f2b8313dfb355af51a0
+msgid "Activate the :guilabel:`Enabled` checkbox"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:50
+# 16ecf2384a45463496413cf186346db9
+msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:51
+# 1eaf0cbe04a74f10b93bddef7585b8cf
+msgid "Click any control in the Mixxx :term:`GUI`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:52
+# f2f7589c4a78448ab9ba290c6798af9c
+msgid "Alternatively, click the :guilabel:`Choose Control` button and choose one from the selection list"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:54
+# 7c10f0d0c31746d6ba4375898d77c972
+msgid "Move a control on your controller to map it. Repeat this as many times as you wish."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:56
+# def485d1c5ce479fa88536fd70932fdf
+msgid "When you are finished mapping controls, click :guilabel:`Done`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:58
+# 1178a1837d114d2baa88559572d36216
+msgid "The Controller wizard saves the new preset to the following file paths:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:60
+# 079bcca9b61b43e39ab22c9e3000addb
+msgid "Linux: :file:`/home/<username>/.mixxx/controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:61
+# 61621aebda1f42199d9cc3c15b5af963
+msgid "Mac OS X: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:62
+# 4840587788b54b63ac68537ef821655d
+msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\controllers`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:64
+# a5b1ffdf47db4f318a22262dcbba02b7
+msgid "You can then modify the XML file it creates (or any of the ones that ship with Mixxx) if you'd like to fine-tune it or add more presets. For more information, go to `<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:69
+# 45c61ba78c98496ba5cfdc514dffea57
+msgid "The Controller Wizard works only for :term:`MIDI` devices. Currently you can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI Scripting <advanced-controller-midiscript>` instead."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:76
+# 37da9f26bd89428daeaff47591d4f06e
+msgid "MIDI Scripting"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:78
+# 9723ed90a25e453a8b870faf14beab40
+msgid "In order to support the advanced features of many :term:`MIDI`/:term:`HID` controllers, Mixxx offers what we call MIDI Scripting."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:81
+# 4a916df08d544c988a7d6a1fc399ec7d
+msgid "It enables MIDI controls to be mapped to `QtScript <https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) functions stored in function library files, freeing Mixxx from a one-to-one MIDI mapping ideology. These user-created functions can then do anything desired with the MIDI event info such as have a single controller button simultaneously affect two or more Mixxx properties (“controls”,) adjust incoming control values to work better with Mixxx (scratching,) display a complex LED sequence, or even send messages to text displays on the controller."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:90
+# 9cdbb8739b4740689db7e4ee3f965923
+msgid "For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_ and `<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:96
+# 9b8c147f868846eeab4dd91b87efcfc6
+msgid "Making a Custom Keyboard Mapping"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:98
+# 00ff4ceb36b744ad95c36e412064bffa
+msgid "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text file which can be found at the following location:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:101
+# 59f858b66c0c4503adf48ae43d51193f
+msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:102
+# aaefa3655d8f4d42ada9a440184d5733
+msgid "Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:103
+# 0c92419f413d4dfd9ef8bd90b5e0f450
+msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:105
+# e2d3f3ca0c88402cbd787a67c161ad24
+msgid "Depending on your systems language settings, Mixxx might use a different file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg` for Spanish."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:109
+# 3288824a11c2402ebc248bb0f6416789
+msgid "There are two ways to customize the default Mixxx keyboard mapping:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:111
+# 49063103ebbb4940acf84fb8bf62fcb8
+msgid "Edit your system's default mapping file directly, e.g. :file:`en_US.kbd.cfg`."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:112
+# 0ed9050f19a94b3c847f97726157f1f5
+msgid "Copy the default mapping file to the following location:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:114
+# f61415f80a2c4266b0707ffcd2075070
+msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:115
+# 636132d79ada4fb7903f4c055d6cad8a
+msgid "Mac OS X: :file:`~/Library/Application\\ Support/Mixxx/Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:116
+# 313d0f02534c4277bccb9a9b4503e739
+msgid "Windows: :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:118
+# 59b69679fe4b4e908e7df119a9ec4b64
+msgid "Then edit this file and save the changes. On the next startup, Mixxx will check if :file:`Custom.kbd.cfg` is present and load that file instead of the default mapping file. This has the advantage, that you can always revert back to the default mapping, just by deleting :file:`Custom.kbd.cfg`."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:123
+# 0f6b4cef41804b80a2fc48472a346d6d
+msgid "For a list of controls that can be used in a keyboard mapping, see `<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:126
+# 54e17c2bfa524c0ba9536f28a9eea47e
+msgid "You can download and share custom keyboard mappings in the `Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:132
+# 506a47060b02480797e755f1a6235a51
+msgid "Additional Effects via external Mixer Mode"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:134
+# 2293d8e858444f2e8efe2198617dc743
+msgid "Mixxx does not have an effects engine yet (work on one is in progress). To hold you over you can use some external tools. Using the :ref:`external mixer mode <configuring-mixer-mode>` you route each deck directly to 3rd party effect hosts."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:139
+# 05f9c09a59ca49b4ba957162fc42a0f5
+msgid "The following examples are only intended to encourage experimentation, they are no definitive guidance."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:143
+# af67f60c549446849ec63bb9d95764e1
+msgid "Effects via AU Lab on Mac OS X"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:152
+# d30fc561d7fe40458cf0666834c4e6cb
+msgid "The Au Lab routing for external effects on Mac OS X"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:154
+# 5a6683d1943c4d48bc3c28bc8e7169ce
+msgid "On Mac OS X there is a pretty simple and free way to give Mixxx access to the collection of AU/VST/MAS plugins that are installed on your system."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:157
+# ab93a02d0a6c4843aab26f34c5761059
+msgid "Install the free `Soundflower <https://code.google.com/p/soundflower/>`_, a system extension for inter-application audio routing."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:159
+# 5fc50b4cd3ca40ea8553fe38955b4684
+msgid "Download AU Lab.app standalone from Apple (you will need an free Apple Developer Login though), go to the `Downloads for Developers <https://developer.apple.com/downloads/index.action>`_ page and search for “AU Lab” to get it."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:164
+# c01a505869a7487a9c735a1015a60cbd
+msgid "**In Mixxx**"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:166
+# 5cfdb54dd47a428c9919f5e52072262f
+msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:167
+# af876ff4b9d945dd88111e21a6a9b29a
+msgid "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 1-2`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:169
+# 80cf1f8c4c0242cfa265018d30d1abd4
+msgid "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 3-4`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:171
+# 3549764677b143a3b619624ad1e0f87d
+msgid "Click the :guilabel:`Apply` button"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:173
+# f58f012a639c4c8781d5160ea9b20eba
+msgid "**In AU Lab**"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:175
+# 0bb4d8bd0fe94ee0816ab5a78f8076f3
+msgid "Click on the :guilabel:`+` button to create a new configuration"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:176
+# 94b477106f774286a4d0ef97b8825816
+msgid "Add 2 stereo inputs tracks in the :guilabel:`Audio Input Tab`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:177
+# 0650dafee2d34f0381473573807ab9ca
+msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:178
+# 3111d6ab926940f881b6b94153714bec
+msgid "Click :guilabel:`OK`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:179
+# 753cfa9eb9c84cd093f994ec29486f4c
+msgid "Change the audio input device to :guilabel:`Soundflower 16`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:180
+# 6e797d4364e74e7ea163aa1e92471518
+msgid "Change the audio output device for example to :guilabel:`Built-in Output`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:181
+# 0ac4566f98e44f6db43ed9a2a1f1dfef
+msgid "Click :guilabel:`Create document`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:182
+# ac501c094d03417bb7d6cec0d004b1bd
+msgid "In the :guilabel:`Output 1` channel, select an effect from the drop-down menu, for example :guilabel:`Apple > AUCompressor`"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:185
+# 2b704ba180b94a48ab4acc29731d6c79
+msgid "The effect should now react if you play a track in Mixxx."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:188
+# 589ce5bfbe234b90810b7341f83127f9
+msgid "Effects via JACK Rack on GNU/Linux"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:197
+# bc99b90b8d2945839e58f7423ea93741
+msgid "The Jack routing for external effects on GNU/Linux"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:199
+# 349f9436cc054105aafe687de203126a
+msgid "Use `Jack <http://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_ effect racks, or for more control you can use Ardour (or other DAW) using sends for effects. This gives Mixxx access to the extensive collection of LADSPA plugins."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:205
+# 3a79fabac39e4d5bacb151bf4a7d7abf
+msgid "Make sure the correct multichannel sound card has been selected in Jack (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack ports as “Portaudio”."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:210
+# 613aa1bd949448b291f6a715d87e3480
+msgid "Deleting Your Library"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:212
+# fb24a99307674eb5b6480378608d2797
+msgid "The library file is stored in the following places depending on your :term:`operating system`:"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:219
+# 5f911a2f8d4542b8939b284c6df48867
+msgid "**Windows**"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:216
+# 7b40caf364d6453caa0f0efd0d5ce347
+msgid "The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:226
+# cffd0125b20548e0a851799311abbaff
+msgid "**Mac OS X**"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:222
+# 8596f13a19904c6d89a2c5fa3404c6d2
+msgid "The Mixxx library is stored in the :file:`Library/Application Support/Mixxx` folder in your home directory. To delete your library on Mac OS X type the following command into a terminal: ::"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:232
+# 199ddfa7ca274192bb83647f57dbfdaa
+msgid "**GNU/Linux**"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:229
+# 723db2f7d8224cbda2f8b3bf9d66d921
+msgid "The Mixxx library is stored in the ``.mixxx`` folder in your home directory. To delete your library on GNU/Linux type the following command into a terminal: ::"
+msgstr ""
+
+#: ../../source/chapters/advanced_topics.rst:234
+# cc2fb5a6d4524fc2a2a360f661209ba9
+msgid "Deleting your library will lose all of your :term:`metadata`. This includes saved hotcues, loops, comments, ratings, and other library related metadata. Only delete your library if you are fine with losing these."
+msgstr ""
+

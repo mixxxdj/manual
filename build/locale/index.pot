@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2014, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:7
+# aa462e6deeff492699b6b6352d6c6519
+msgid "Mixxx |version| User Manual"
+msgstr ""
+
+#: ../../source/index.rst:9
+# 1b09fd92900240f0bd03ddd50e328fde
+msgid "Mixxx is Free [#f1]_ DJ software for Windows, Mac OS X, and Linux. **Mixxx gives you everything you need to become a professional DJ** (except talent and hard work). Using Mixxx, you can rock the party with your vinyl turntables, your :term:`MIDI`/:term:`HID` controllers, or even just your keyboard."
+msgstr ""
+
+#: ../../source/index.rst:15
+# 8d77eff05a2b414f9cb218ea1254352f
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../source/index.rst:40
+# 53fd55d63f0942db84e25e04207872bd
+msgid "**For documentation writers**"
+msgstr ""
+
+#: ../../source/index.rst:48
+# d67c9c5735fc4db79d6f9475387761e1
+msgid "Yes, free with a capital F free. Free as in beer and free as in speech. For more information about what this means, see `Wikipedia <http://en.wikipedia.org/wiki/Open-source_software>`_."
+msgstr ""
+

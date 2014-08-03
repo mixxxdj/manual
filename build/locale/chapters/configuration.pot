@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2014, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/chapters/configuration.rst:4
+# 5951ab0bdf4e47268a6d8366374c15bd
+msgid "Configuring Mixxx"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:7
+# 09d478c5967946a7bc421ee475852587
+msgid "Sound Hardware Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:16
+# 7471c55edac24055923a34508bf4cd15
+msgid "Mixxx Sound Hardware Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:18
+# 4b89f2bbe15f43a2b6562dd94dc6f57a
+msgid ":menuselection:`Preferences --> Sound Hardware` allows you to select the audio in- and outputs to be used."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:21
+# 0ad4af097a0e41b2a765f9e0ad02ec9c
+msgid "**Sound API**: Depending your :term:`Operating System`, select the :term:`API` that Mixxx uses to deliver audio to your audio device. Your choice can drastically affect how smooth Mixxx performs on your computer."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:25
+# ebc5215fa59245f1b59c053946bc0171
+msgid "**Sample Rate**: Allows you to manually select the sample rate for the audio input. The sample rate value should be set to the sample rate of your audio interface. By default, Mixxx tries the system default first, which is most likely 44.1 kHz. Otherwise, Mixxx will pick a different default."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:30
+# d8a90035d94a4f0f8dfd52955cae3609
+msgid "**Latency**: Latency is the lag time in milliseconds that it takes for Mixxx to process your input. Lower latency means Mixxx will be more responsive but on slower computers it might cause glitches."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:34
+# 4aea11409ba24a58a62cdd8e0e8c1970
+msgid "**Buffer Underflow Count**: Underflows (no data is available when needed) indicate that some of the subsystems in Mixxx can't keep up with real-time deadlines. This is useful to tune the latency settings. If the counter increases, then increase your latency setting, decrease the sample rate setting or change the sound API setting if available."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:43
+# dd860359572444deb9205ddeb77314a5
+msgid "Audio Outputs"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:45
+# f0ed92b5cff54f76a4a11a63332db285
+msgid "Mixxx's mixing engine can be used two ways:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:57
+# 94b5043de82042f89ad6a37ab89ed5b9
+msgid "**Internal Mixer Mode**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:48
+# 259915ce07cf4dd08debe87859e9a5fa
+msgid "In this mode, Mixxx performs the mixing of the decks, microphone, and samplers in software and outputs them to a single output. To enable internal mixer mode assign a valid audio output to the :guilabel:`Master` output in :menuselection:`Preferences --> Sound Hardware --> Output`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:53
+# beb69495b4884bf7abf741076e79075a
+msgid "Internal mode is used in the following configurations:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:55
+# 49c1fb9043cf47a0878e4c0c11b129da
+msgid ":ref:`setup-laptop-only`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:56
+# 9f83f044f34d4314816377873cfe932b
+msgid ":ref:`setup-laptop-and-external-card`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:57
+# 3a8c2fe0099e430eb04e7513d6563c58
+msgid ":ref:`setup-controller-and-external-card`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:68
+# 2976a555dbb8455088c4e844cfa47333
+msgid "**External Mixer Mode**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:60
+# 5e24590162d241799f3b97bd4c02411c
+msgid "In this mode, Mixxx outputs the audio from each deck to a separate soundcard output. This allows you to route the deck outputs through a hardware mixer. Similarly, to enable external mixer mode, simply select a valid audio output for the :guilabel:`Deck` outputs in :menuselection:`Preferences --> Sound Hardware --> Output`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:66
+# 81d670b551d64dfda38a222a903c881f
+msgid "External mode is used in the following configuration:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:68
+# 3f00a4f5928c4704ae0819408357535c
+msgid ":ref:`setup-vinyl-control`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:71
+# 1052f25f4dfd4106ae80d313165d3885
+msgid "Headphone Output"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:73
+# 31011a7475e34d8e886f363d8cc8f310
+msgid "In both internal and external mixer mode, you can choose a headphone output for :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` in :menuselection:`Preferences --> Sound Hardware --> Output --> Microphone`. This allows you to listen and synchronize the track you will play next in your headphones before your audience hears the track. See also :ref:`interface-pfl`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:82
+# 9308e5310dfe4346ba5afae6da02886f
+msgid "Latency, Sample Rate, and Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:84
+# 3fe9a486e66844e1a6c9f809f1832172
+msgid "To achieve the best performance with Mixxx it is essential to configure your *latency*, *sample rate*, and *audio API*. These three factors largely determine Mixxx's responsiveness and audio quality and the optimal settings will vary based on your computer and hardware quality."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:92
+# 02b89b358c2947e081fd2dd3a92df627
+msgid "Latency"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:94
+# d1ec0a41dd054857b6bffcf743a0add0
+msgid "Latency is the lag time in milliseconds that it takes for Mixxx to process your input (turning knobs, sliding the crossfader, etc.). For example, a latency of 36 ms indicates that it will take approximately 36 milliseconds for Mixxx to stop the audio after you toggle the play button. Additionally, latency determines how quickly your :term:`Operating System` expects Mixxx to react. Lower latency means Mixxx will be more responsive. On the other hand, setting your latency too low may be too much for your computer to handle. In this situation, Mixxx playback will be choppy and very clearly distorted as your computer will not be able to keep up with how frequently Mixxx is processing audio."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:105
+# e55ce5659dbe4bbb81224abff36926fb
+msgid "A latency between 36-64 ms is acceptable if you are using Mixxx with a keyboard/mouse or a MIDI controller. A latency below 10 ms is recommended when vinyl control is used because Mixxx will feel unresponsive otherwise."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:109
+# f9e116d1d78d4302b370698bdc592d0a
+msgid "Keep in mind that *lower latencies require better soundcards and faster CPUs* and that zero latency DJ software is a myth (although Mixxx is capable of sub-1ms operation)."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:114
+# 86efe4f603564e139906ec2076c3f7ef
+msgid "Sample Rate"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:116
+# aba3f2927faa42f99095c5993c0fd2db
+msgid "The sample rate setting in Mixxx determines how many samples per second are produced by Mixxx. Mixxx automatically selects a default sample rate for your soundcard, most likely 44100 Hz. In general, a higher sample rate means that Mixxx produces more audio data for your soundcard. This takes more CPU time, but in theory produces higher audio quality. On high-wattage club sound systems, it may become apparent if your audio sample rate is too low."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:123
+# a9d4bcb2bab14cf8a10e1ffc03be945e
+msgid "A sample rate of 96kHz takes Mixxx over twice as long to compute. Keep in mind that increasing the sample rate will increase CPU usage and likely raise the minimum latency you can achieve."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:128
+# a52b7b8464a445c082c7b9e6ef275236
+msgid "Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:130
+# 2ddcef24d911454b87e8dfbc1f42a953
+msgid "The Audio :term:`API` that Mixxx uses is the method by which Mixxx talks to your :term:`Operating System` in order to deliver audio to your soundcard. Your choice of Audio API can drastically affect Mixxx's performance on your computer. **Therefore it is important to take care to choose the best Audio API available to you.** Refer to the following table of Audio APIs to see what the best choice is for your operating system."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:138
+# 2e5bac7ab9734616b5fb607bb2795749
+msgid "OS / Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:138
+# 6c2cb99f521c45a28d24bacaf44c2545
+msgid "Quality"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:140
+# 5708a5bb6af6489fa07bc9786f05d17b
+msgid "Windows / WMME"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:140
+#: ../../source/chapters/configuration.rst:142
+# 1d033c2ad88f4aa3a14dbcdcaea1b2a8
+# 8fb76aa2d69145f396662ae4742d4934
+msgid "Poor"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:142
+# 1e944c647168421e92fddbe3060e7217
+msgid "Windows / DirectSound"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:144
+# e1103a7b1cc14c2faf08fb52ca36e50b
+msgid "Windows / WASAPI"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:144
+#: ../../source/chapters/configuration.rst:146
+#: ../../source/chapters/configuration.rst:148
+#: ../../source/chapters/configuration.rst:150
+#: ../../source/chapters/configuration.rst:154
+#: ../../source/chapters/configuration.rst:156
+# 08820d11d4f843858a0edbd611a29f96
+# 22f3961100574c43a31388259cc643c2
+# b1428a69d31140f8a1e8b129ffbd85f8
+# 3412d6105aa5493fbe00db5a88473351
+# 76f5a34987e14499b04892867fa559d7
+# baf9fa9cc17a4b07b8b611ac2890c010
+msgid "Good"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:146
+# a61a64157f1f4d029a3930d7a7ea6670
+msgid "Windows / ASIO"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:148
+# d3cf4340c738489a9a2160d3e67e7e79
+msgid "Windows / WDDKMS"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:150
+# 6b6a3cb144734c019103dbd0c5f3a936
+msgid "Mac OS X / CoreAudio"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:152
+# 7d7d39717fde408dba2a3d3601b5611c
+msgid "GNU Linux / OSS"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:152
+# cdab8c6cfb6e4a11ade33bad3d1e753f
+msgid "OK"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:154
+# 0017dc387246401b98d0eaa5c66eff39
+msgid "GNU Linux / ALSA"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:156
+# 9fa4521b4e254b2f951ec1255371ea25
+msgid "GNU Linux / JACK (Advanced)"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:159
+# ddb782e6614249038c3207f2651ffa53
+msgid "On Windows, if an ASIO driver is not available for your operating system, you can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver for WDM audio devices."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:163
+# 48219131567948a68bdc2cb47c9b2b78
+msgid "On GNU/Linux using JACK, make sure to start your JACK daemon *before* running Mixxx. Otherwise JACK will not appear as a Sound API in the preferences."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:166
+# 2a0d3cd1305b4f839be151dd55487996
+msgid "On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio API. This is an emulation layer for ALSA provided by PulseAudio and results in very poor performance. Make sure to run Mixxx using the ``pasuspender`` tool on GNU/Linux distributions that use PulseAudio."
+msgstr ""
+
