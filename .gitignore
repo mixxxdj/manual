@@ -1,4 +1,6 @@
+#Ignore binary message catalog files (*.mo) compiled from textual translation descriptions (*.po)
+*.mo
+
 build/html
 build/doctrees
 build/locale/.doctrees
-
