@@ -115,6 +115,21 @@ music library.
   deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column.
   Go to the chapter :ref:`djing-previewing-tracks` for detailed information.
 
+**Cover/Album Art**
+
+  Mixxx can display the upper quarter of any cover art that it finds for a track
+  in the library. Mixxx will only check for available cover art locally. The
+  search algorithm chooses the first cover that appears in the following list.
+
+    1. The first cover saved in the ID3v2 tags of the track
+    2. If just one image file exists in the track folder take that.
+    3. %track-file-base%.jpg in the track directory for %track-file-base%.mp3
+    4. %album%.jpg
+    5. cover.jpg
+    6. front.jpg
+    7. album.jpg
+    8. folder.jpg
+
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
   because you added or moved files) you can do this with
@@ -126,11 +141,11 @@ Track list context menu
 -----------------------
 
 .. versionadded:: 1.12
-   :guilabel:`Reload Track Metadata from MusicBrainz` and :guilabel:`Change BPM`
-   context menu options.
+   :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
+   context menu options and :guilabel:`Cover Art`
 
 .. versionchanged:: 1.12
-   All related options are in the :guilabel:`BPM Options` sub-menu.
+   All BPM related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
@@ -170,6 +185,15 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database,
   and apply the search results to your tracks, see
   :ref:`edit metadata <djing-edit-metadata>`.
+* **Cover Art Option sub-menu**:
+
+    **Chose New Cover**: Select an image file as a new cover
+
+    **Unset Cover**: Delete any cover information saved in mixxx
+
+    **Reload from track/folder**: Reload the cover from the tracks ID3v2 tags or
+     a picture in the track folder if they are not available.
+
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
