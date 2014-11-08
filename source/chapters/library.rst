@@ -118,7 +118,7 @@ music library.
 **Cover/Album Art**
 
   Mixxx can display the upper quarter of any cover art that it finds for a track
-  in the library. Mixxx will only check for available cover art locally. The
+  in the library. Mixxx will only check locally for available cover art. The
   search algorithm chooses the first cover that appears in the following list.
 
     1. The first cover saved in the ID3v2 tags of the track
@@ -187,9 +187,9 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   :ref:`edit metadata <djing-edit-metadata>`.
 * **Cover Art Option sub-menu**:
 
-    **Chose New Cover**: Select an image file as a new cover
+    **Chose New Cover**: Select an image from the file-browser as new cover.
 
-    **Unset Cover**: Delete any cover information saved in mixxx
+    **Unset Cover**: Delete any cover information saved for this track.
 
     **Reload from track/folder**: Reload the cover from the tracks ID3v2 tags or
      a picture in the track folder if they are not available.
