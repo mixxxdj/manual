@@ -269,16 +269,28 @@ mixing or for using Mixxx as media player.
 The Auto DJ features in detail:
 
 * **Shuffle button**: Shuffles the content of the Auto DJ playlist.
+* **Add Random button**: Add random track from Auto DJ Crates.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
 * **Transition time spin-box**: Determines the duration of the transition.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
-The :guilabel:`Skip track` and :guilabel:`Fade now` buttons are only accessible
-if the Auto DJ mode is enabled. The Search field in the upper left corner is
-disabled in Auto DJ. By default, Auto DJ removes tracks after playing them but
-you have the choice of telling it not to by activating the :guilabel:`Auto DJ
-Requeue` option in :menuselection:`Preferences --> Interface`.
+The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
+buttons are only accessible if the Auto DJ mode is enabled. The Search field in
+the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks
+after playing them but you have the choice of telling it not to by activating
+the :guilabel:`Auto DJ Requeue` option in :menuselection:`Preferences -->
+Interface`.
+
+**AutoDJ Crates**
+
+Since |version| it is possible to add random tracks to the bottom of the auto DJ
+playlist. The tracks are not chosen from the standard library but from a set of
+crates. It will be all the crates that you have set as a source for auto DJ.
+Mixxx will normally try to select a track that you haven't played so far. You
+can set a amount off tracks that is always supposed to be available for
+selection no matter when they where last played in :menuselection:`Preferences
+--> Auto DJ --> Minium available tracks in Track Source`.
 
 .. hint:: Put a pause between tracks that are automatically mixed by using a
           negative value in the :guilabel:`Transition time` spin-box.
@@ -378,6 +390,7 @@ context menu:
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
+* **Auto DJ Track Source**: Use this crate as a source for random tracks in AutoDJ.
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
