@@ -68,11 +68,15 @@ Importing your audio files
                 instead, usually “My Music“, like pictured above.
 
 **Compatible files**
-  Mixxx supports a variety of file formats: :term:`Wave <WAV>` (wav),
-  :term:`Aiff <AIFF>` (aiff, aif), :term:`MP3` (mp3), :term:`Ogg vorbis` (ogg),
-  :term:`FLAC` (flac), and :term:`AAC` (aac, m4a) if supported by your :term:`OS
-  <Operating System>`. :term:`DRM` protected files, such as m4p
-  files purchased in the iTunes Store, are not supported.
+
+  .. versionadded:: 1.12
+     Support for the Opus audio format.
+
+  Mixxx supports a variety of audio file formats: :term:`Wave <WAV>` (wav),
+  :term:`Aiff <AIFF>` (aiff, aif), :term:`MP3` (mp3), :term:`Ogg Vorbis` (ogg),
+  :term:`FLAC` (flac), :term:`OPUS` (opus), and :term:`AAC` (aac, m4a) if
+  supported by your :term:`OS <Operating System>`. :term:`DRM` protected files,
+  such as m4p files purchased in the iTunes Store, are not supported.
 
   AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
   `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
@@ -216,14 +220,16 @@ Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
 .. versionchanged:: 1.12
-   Adds *location*, *album_artist*, and *key* search keywords
+   Adds *location*, *album_artist*, and *key* search keywords. Supports
+   human-readable time suffixes in time-based search query filters, e.g.
+   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``.
 
 Mixxx supports the following filters:
 
 * **Text filtering**: artist, album, album_artist, genre, title, composer,
   comment, key, location
 
-* **Numeric filtering**: year, track, bpm, duration, played, rating, bitrate
+* **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
 
 * **Special filtering**: Supports fuzzy matching of key searches. The following
   example list tracks with harmonically compatible keys to C# minor.
@@ -233,19 +239,19 @@ Mixxx supports the following filters:
      ~key:c#m
 
 You can combine operators but there's no way to do an “OR” search right now.
-The following example list all tracks by “Danger” over 300 seconds (5 minutes)
-long that are rated 4 or 5.
+The following example list all tracks by “Danger” over 5 minutes long that are
+rated 4 or 5.
 
   ::
 
-     artist:Danger duration:>300 rating:>=4
+     artist:Danger duration:>5:00 rating:>=4
 
 +--------------------------------------+---------------------------------------+
 | Examples for text filtering          | Examples for numeric filtering        |
 +======================================+=======================================+
-| artist: “com truise”                 | bpm:140                               |
+| artist: “com truise”                 | bpm: 140                              |
 +--------------------------------------+---------------------------------------+
-| album:Danger                         | bpm: >140                             |
+| album: Danger                        | bpm: >140                             |
 +--------------------------------------+---------------------------------------+
 | genre: Trance                        | year: <2010                           |
 +--------------------------------------+---------------------------------------+
@@ -256,6 +262,8 @@ long that are rated 4 or 5.
 | comment: foo                         | bpm: 140-150                          |
 +--------------------------------------+---------------------------------------+
 |                                      | played: >10                           |
++--------------------------------------+---------------------------------------+
+|                                      | duration: 1:30                        |
 +--------------------------------------+---------------------------------------+
 | Note it doesn't matter if you have   | Note that you can put a space between |
 | space between the colon and the      | the colon but currently there must be |
@@ -630,7 +638,7 @@ Record your mix to disk
   :menuselection:`Options --> Record Mix` in the menu on top of the Mixxx
   application window.
 * The display above the track table shows how many data has already been
-  recorded as well as the duration of the recording.
+  recorded, as well as the duration of the recording.
 * Perform your mix
 * Click the :guilabel:`Stop Recording` button to stop the recording when the mix
   has finished.

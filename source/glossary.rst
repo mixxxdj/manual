@@ -244,6 +244,10 @@ Glossary of Terms
      format used for CD audio. Wave files are not compressed, and are therefore
      :term:`lossless`. Wave files generally end with a .WAV extension.
 
+   OPUS
+     Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio
+     codec. The .OPUS filename extension is recommended.
+
    codec
      Short for compressor/decompressor, a codec is any technology for
      compressing and decompressing audio and video data. Some popular
