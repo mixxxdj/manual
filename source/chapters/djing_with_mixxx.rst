@@ -219,10 +219,11 @@ Using search operators
 Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
-.. versionchanged:: 1.12
+.. versionadded:: 1.12
    Adds *location*, *album_artist*, and *key* search keywords. Supports
    human-readable time suffixes in time-based search query filters, e.g.
-   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``.
+   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
+   filters.
 
 Mixxx supports the following filters:
 
@@ -231,20 +232,30 @@ Mixxx supports the following filters:
 
 * **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
 
-* **Special filtering**: Supports fuzzy matching of key searches. The following
-  example list tracks with harmonically compatible keys to C# minor.
+* **Special filtering**:
 
-  ::
+  * Supports fuzzy matching of key searches. The following example list tracks
+    with harmonically compatible keys to C# minor.
 
-     ~key:c#m
+    ::
 
-You can combine operators but there's no way to do an “OR” search right now.
-The following example list all tracks by “Danger” over 5 minutes long that are
-rated 4 or 5.
+       ~key:c#m
 
-  ::
+    You can combine operators but there's no way to do an “OR” search right now.
+    The following example list all tracks by “Danger” over 5 minutes long that
+    are rated 4 or 5.
 
-     artist:Danger duration:>5:00 rating:>=4
+    ::
+
+       artist:Danger duration:>5:00 rating:>=4
+
+  * Negative search filters. Use the ``-`` prefix as negation operator. The
+    following example would find “hip-hop“ from any year but 1990.
+
+    ::
+
+       genre:hip-hop -year:1990
+
 
 +--------------------------------------+---------------------------------------+
 | Examples for text filtering          | Examples for numeric filtering        |
@@ -261,7 +272,7 @@ rated 4 or 5.
 +--------------------------------------+---------------------------------------+
 | comment: foo                         | bpm: 140-150                          |
 +--------------------------------------+---------------------------------------+
-|                                      | played: >10                           |
+| genre:hip-hop -genre:gangsta         | played: >10                           |
 +--------------------------------------+---------------------------------------+
 |                                      | duration: 1:30                        |
 +--------------------------------------+---------------------------------------+
