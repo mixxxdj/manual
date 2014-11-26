@@ -130,6 +130,8 @@ music library.
     7. album.jpg
     8. folder.jpg
 
+  Mixxx supports the following image types: jpg, jpeg, png, gif, bmp
+
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
   because you added or moved files) you can do this with
