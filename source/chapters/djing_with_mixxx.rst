@@ -484,7 +484,7 @@ the two things a DJ must do to beatmatch.
 
 Mixxx can match the tempo and align the beats for you but this requires an
 accurately detected BPM value and a correct beat grid for both tracks. To enable
-this feature, hit the :guilabel:`SYNC` button. To beatmatch manually, the tempo
+this feature, tap the :guilabel:`SYNC` button. To beatmatch manually, the tempo
 of the two tracks must be synchronized by adjusting the playback rate
 sliders. You can adjust the phase of the beats by right-clicking and dragging on
 either waveform display to temporarily speed up or slow down one of the tracks
@@ -501,6 +501,29 @@ bass kick” sound which is often preceded by the kick weakening in intensity as
 the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
+
+.. _master-sync:
+
+Master Sync
+===========
+
+:term:`Master Sync` is an intelligent assistant that allows you to leave the
+beatmatching to Mixxx so you can focus on track selection, effects manipulation,
+looping, 4 deck mixing, and other advanced DJing techniques.
+
+To activate it, push and hold the :guilabel:`SYNC` button on each deck you want to
+sync.  You'll know Master Sync is on because the sync button will remain lit.  Once
+Master Sync is on, changing the rate of any deck will change the rates of all other
+decks.
+
+Usually, Master Sync will only make sure the rate sliders are set correctly.  If you
+also want to make sure your beats are perfectly in sync, turn on the :guilabel:`QUANTIZE`
+button.  When activated, Quantize will ensure that the beats are perfectly lined
+up as well.
+
+Master Sync will also notice if one of your tracks is double the BPM of another track
+and match them correctly.  So if you want to mix a 140 BPM drum & bass track with a
+70 bpm dubstep track, Master Sync will make sure they are lined up properly.
 
 .. _headphone-cueing:
 
@@ -731,4 +754,3 @@ DJ as follows:
   starts.
 * Mixxx will continue to automatically mix until the Auto DJ playlist is empty.
 * Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing
-
