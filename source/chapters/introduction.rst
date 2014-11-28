@@ -55,6 +55,7 @@ New in Mixxx |version|
   a custom one)
 * Beat jumping and loop move
 * Multiple library folders
+* Cover/Album Art Support
 * Mono output and input support (easily do the Master/Headphone trick on one
   stereo output)
 * Along with over 100 performance, quality and usability improvements.
@@ -194,9 +195,9 @@ There are a variety of other resources you can use to find out more.
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the 
+  to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the
   `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first.
 
 * **Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ ,
   `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ . 
+  and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ .

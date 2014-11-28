@@ -115,6 +115,23 @@ music library.
   deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column.
   Go to the chapter :ref:`djing-previewing-tracks` for detailed information.
 
+**Cover/Album Art**
+
+  Mixxx can display the upper quarter of any cover art that it finds for a track
+  in the library. Mixxx will only check locally for available cover art. The
+  search algorithm chooses the first cover that appears in the following list.
+
+    1. The first cover saved in the ID3v2 tags of the track
+    2. If just one image file exists in the track folder take that.
+    3. %track-file-base%.jpg in the track directory for %track-file-base%.mp3
+    4. %album%.jpg
+    5. cover.jpg
+    6. front.jpg
+    7. album.jpg
+    8. folder.jpg
+
+  Mixxx supports the following image types: jpg, jpeg, png, gif, bmp
+
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
   because you added or moved files) you can do this with
@@ -126,11 +143,11 @@ Track list context menu
 -----------------------
 
 .. versionadded:: 1.12
-   :guilabel:`Reload Track Metadata from MusicBrainz` and :guilabel:`Change BPM`
-   context menu options.
+   :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
+   context menu options and :guilabel:`Cover Art`
 
 .. versionchanged:: 1.12
-   All related options are in the :guilabel:`BPM Options` sub-menu.
+   All BPM related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
@@ -170,6 +187,15 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database,
   and apply the search results to your tracks, see
   :ref:`edit metadata <djing-edit-metadata>`.
+* **Cover Art Option sub-menu**:
+
+    **Chose New Cover**: Select an image from the file-browser as new cover.
+
+    **Unset Cover**: Delete any cover information saved for this track.
+
+    **Reload from track/folder**: Reload the cover from the tracks ID3v2 tags or
+     a picture in the track folder if they are not available.
+
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
@@ -245,16 +271,29 @@ mixing or for using Mixxx as media player.
 The Auto DJ features in detail:
 
 * **Shuffle button**: Shuffles the content of the Auto DJ playlist.
+* **Add Random button**: Add random track from Auto DJ Crates.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
 * **Transition time spin-box**: Determines the duration of the transition.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
-The :guilabel:`Skip track` and :guilabel:`Fade now` buttons are only accessible
-if the Auto DJ mode is enabled. The Search field in the upper left corner is
-disabled in Auto DJ. By default, Auto DJ removes tracks after playing them but
-you have the choice of telling it not to by activating the :guilabel:`Auto DJ
-Requeue` option in :menuselection:`Preferences --> Interface`.
+The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
+buttons are only accessible if the Auto DJ mode is enabled. The Search field in
+the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks
+after playing them but if you want AutoDJ to play the same tracks over and over
+again, you may activate the :guilabel:`Auto DJ Requeue` option in
+:menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`.
+
+**AutoDJ Crates**
+
+.. versionadded:: 1.12
+It is possible to add random tracks to the bottom of the auto DJ playlist. The
+tracks are not chosen from the standard library but from a set of crates. It
+will be all the crates that you have set as a source for auto DJ. Mixxx will
+normally try to select a track that you haven't played so far. You can set a
+amount off tracks that is always supposed to be available for selection no
+matter when they where last played in :menuselection:`Preferences --> Auto DJ
+--> Minimum available tracks in Track Source`.
 
 .. hint:: Put a pause between tracks that are automatically mixed by using a
           negative value in the :guilabel:`Transition time` spin-box.
@@ -354,6 +393,7 @@ context menu:
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
+* **AutoDJ Track Source**: Use this crate as a source for random tracks in AutoDJ.
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
