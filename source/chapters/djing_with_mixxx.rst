@@ -600,6 +600,48 @@ follow the note below.
 .. note:: If the detected BPM value is not sufficiently accurate but very close
           to an integer value, try to set the BPM value manually to the integer.
 
+.. _key-detection:
+
+Key Detection
+======================
+
+Mixxx comes with a high precision Key detection.
+
+Analyzer Settings
+-----------------
+
+Key detection is a complex operation. Depending on your computer and the track's
+bitrate and duration this may take some time. By default Mixxx analyzes the
+complete track. To accelerate Key detection on slower computers, a “Fast
+Analysis” option is available. If enabled, the Key is computed by analyzing the
+first minute of the track.
+
+.. figure:: ../_static/Mixxx-112-Preferences-Keydetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Key settings
+   :figclass: pretty-figures
+
+   Mixxx preferences - Key settings
+
+The table below summarizes the Key detection settings:
+
++---------------------------------------+--------------------------------------+
+| Option                                | Description                          |
++=======================================+======================================+
+| Enable Fast Analysis                  | If enabled, Key detection results    |
+|                                       | from the first minute of audio.      |
++---------------------------------------+--------------------------------------+
+| Re-analyze Key when settings          | It will re-analyze the Key           |
+| change or Key detection data is       | if your Key detection preferences    |
+| outdated                              | change or Key data from 3rd party    |
+|                                       | programs are present.                |
++---------------------------------------+--------------------------------------+
+| Key Notation                          | Change the way detected Keys are     |
+|                                       | displayed in the library             |
++---------------------------------------+--------------------------------------+
+
 .. _djing-recording-your-mix:
 
 Recording your Mix
