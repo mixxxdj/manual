@@ -509,7 +509,8 @@ Master Sync
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
 
-To activate it, push and hold the :guilabel:`SYNC` button on each deck you want to
+To activate it, push and hold (or click and hold) the :guilabel:`SYNC` button 
+on each deck you want to
 sync.  You'll know Master Sync is on because the sync button will remain lit.  Once
 Master Sync is on, changing the rate of any deck will change the rates of all other
 decks.

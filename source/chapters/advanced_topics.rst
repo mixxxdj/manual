@@ -70,8 +70,8 @@ were detected.
 switches and emit one value on the first press, and a different value on the next press.
 (Think an actual hardware toggle switch, or a button that lights up on the first press and
 turns off on the second press).
-* Jog Wheel / Select Knob.  Use this for knobs that don't have a beginning an end, but spin
-continuously.  Note that Mixxx does not detect large jog wheel very well.
+* Jog Wheel / Select Knob.  Use this for knobs that don't have a beginning or an end, but spin
+continuously.
 
 The Controller wizard saves the new preset to the following file paths:
 
