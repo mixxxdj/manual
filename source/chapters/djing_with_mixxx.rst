@@ -247,7 +247,7 @@ Mixxx supports the following filters:
 
     ::
 
-       artist:Danger duration:>5:00 rating:>=4
+     artist:Danger duration:>3m rating:>=4
 
   * Negative search filters. Use the ``-`` prefix as negation operator. The
     following example would find “hip-hop“ from any year but 1990.
@@ -257,30 +257,28 @@ Mixxx supports the following filters:
        genre:hip-hop -year:1990
 
 
-+--------------------------------------+---------------------------------------+
-| Examples for text filtering          | Examples for numeric filtering        |
-+======================================+=======================================+
-| artist: “com truise”                 | bpm: 140                              |
-+--------------------------------------+---------------------------------------+
-| album: Danger                        | bpm: >140                             |
-+--------------------------------------+---------------------------------------+
-| genre: Trance                        | year: <2010                           |
-+--------------------------------------+---------------------------------------+
-| title: foo                           | bpm: >=140                            |
-+--------------------------------------+---------------------------------------+
-| composer: foo                        | rating: <=4                           |
-+--------------------------------------+---------------------------------------+
-| comment: foo                         | bpm: 140-150                          |
-+--------------------------------------+---------------------------------------+
-| genre:hip-hop -genre:gangsta         | played: >10                           |
-+--------------------------------------+---------------------------------------+
-|                                      | duration: 1:30                        |
-+--------------------------------------+---------------------------------------+
-| Note it doesn't matter if you have   | Note that you can put a space between |
-| space between the colon and the      | the colon but currently there must be |
-| argument or not. Quotes must be used | no space between the operator and the |
-| for multi-word text arguments.       | number.                               |
-+--------------------------------------+---------------------------------------+
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Examples for text filtering          | Examples for numeric filtering        | Examples for duration filtering       |
++======================================+=======================================+=======================================+
+| artist: “com truise”                 | bpm:140                               | duration:2m10                         |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| album:Danger                         | bpm: >140                             | duration:<2:10                        |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| genre: Trance                        | year: <2010                           | duration:>1m35s                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| title: foo                           | bpm: >=140                            | duration:>62                          |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| composer: foo                        | rating: <=4                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| comment: foo                         | bpm: 140-150                          |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+|                                      | played: >10                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Note it doesn't matter if you have   | Note that you can put a space between | Note that you can put a space between |
+| space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
+| argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
+| for multi-word text arguments.       | number.                               | number.                               |
++--------------------------------------+---------------------------------------+---------------------------------------+
 
 .. _djing-previewing-tracks:
 
