@@ -51,9 +51,27 @@ Wizard.
 #. Click any control in the Mixxx :term:`GUI`
 #. Alternatively, click the :guilabel:`Choose Control` button and choose one
    from the selection list
-#. Move a control on your controller to map it. Repeat this as many times as you
-   wish.
+#. Push Learn and then move a control or push a button on your controller to map it.  You
+can also move a control without pushing the Learn button if you are learning many controls.
+#. If you are learning a button, just push it once.  If you are learning a knob or a slider,
+try to move it throughout its range.
+#. After Mixxx detects the control, you may click Learn Another or you can just click on
+another button in the Mixxx GUI to learn another control.
 #. When you are finished mapping controls, click :guilabel:`Done`
+
+There are also some advanced options in the Midi Wizard you may need to use:
+
+* Soft Takeover. Use this option for knobs or sliders to avoid sudden jumps in value
+when the knob in the GUI doesn't match the physical knob.  If you select this
+option, you won't be able to perform super-fast motions as easily. (Recommended off)
+* Invert:  Use this option for controls that you want to work backwards from how they
+were detected.
+* Switch Mode: Use this option on controllers that have controls that act like 
+switches and emit one value on the first press, and a different value on the next press.
+(Think an actual hardware toggle switch, or a button that lights up on the first press and
+turns off on the second press).
+* Jog Wheel / Select Knob.  Use this for knobs that don't have a beginning or an end, but spin
+continuously.
 
 The Controller wizard saves the new preset to the following file paths:
 
