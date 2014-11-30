@@ -117,18 +117,18 @@ music library.
 
 **Cover/Album Art**
 
-  Mixxx can display the upper quarter of any cover art that it finds for a track
-  in the library. Mixxx will only check locally for available cover art. The
-  search algorithm chooses the first cover that appears in the following list.
+  Mixxx can display any cover art that it finds for a track in the library.
+  The search algorithm will check locally for available cover art, and chooses
+  the first cover that appears in the following list:
 
-    1. The first cover saved in the ID3v2 tags of the track
+    1. The first cover saved in the ID3v2 :term:`tags<metadata>` of the track
     2. If just one image file exists in the track folder take that.
-    3. %track-file-base%.jpg in the track directory for %track-file-base%.mp3
-    4. %album%.jpg
-    5. cover.jpg
-    6. front.jpg
-    7. album.jpg
-    8. folder.jpg
+    3. :file:`%track-file-base%.jpg` in the track directory for :file:`%track-file-base%.mp3`
+    4. :file:`%album%.jpg`
+    5. :file:`cover.jpg`
+    6. :file:`front.jpg`
+    7. :file:`album.jpg`
+    8. :file:`folder.jpg`
 
   Mixxx supports the following image types: jpg, jpeg, png, gif, bmp
 
@@ -164,20 +164,20 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   playlist or crate in the sidebar.
 * **BPM Options sub-menu**:
 
-    **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of
-    the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks. If
-    many of the detected BPM are off from the tracks original tempo, you might
-    want to adjust the :guilabel:`BPM Range` in the :ref:`Analyzer Settings
-    <djing-bpm-detection>` and re-run the analysis.
+    * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200%
+      of the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks.
+      If many of the detected BPM are off from the tracks original tempo, you
+      might want to adjust the :guilabel:`BPM Range` in the
+      :ref:`Analyzer Settings <djing-bpm-detection>` and re-run the analysis.
 
-    **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you
-    can't edit them in the track properties. The |ic_lib_bpm_unlocked| icon next
-    to the track's BPM in the library row is a toggle. Clicking it will set the
-    status to "locked", and the icon changes to |ic_lib_bpm_locked|.
+    * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
+      you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
+      icon next to the track's BPM in the library row is a toggle. Clicking it
+      will set the status to "locked", and the icon changes to |ic_lib_bpm_locked|.
 
-    **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of
-    selected tracks from the Mixxx library. After doing this, we recommended you
-    to :ref:`analyze <library-analyze>` the tracks again.
+    * **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data
+      of selected tracks from the Mixxx library. After doing this, we
+      recommended you to :ref:`analyze <library-analyze>` the tracks again.
 
 * **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
   e.g. if you used iTunes to edit them, this option lets you save the new values
@@ -189,12 +189,11 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   :ref:`edit metadata <djing-edit-metadata>`.
 * **Cover Art Option sub-menu**:
 
-    **Chose New Cover**: Select an image from the file-browser as new cover.
-
-    **Unset Cover**: Delete any cover information saved for this track.
-
-    **Reload from track/folder**: Reload the cover from the tracks ID3v2 tags or
-     a picture in the track folder if they are not available.
+    * **Choose New Cover**: Select an image from the file-browser as new cover.
+    * **Unset Cover**: Delete any cover information saved for this track.
+    * **Reload from track/folder**: Reload the cover from the tracks ID3v2
+      :term:`tags<metadata>` or a picture in the track folder if they are not
+      available.
 
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
@@ -287,9 +286,10 @@ again, you may activate the :guilabel:`Auto DJ Requeue` option in
 **AutoDJ Crates**
 
 .. versionadded:: 1.12
-It is possible to add random tracks to the bottom of the auto DJ playlist. The
+
+It is possible to add random tracks to the bottom of the Auto DJ playlist. The
 tracks are not chosen from the standard library but from a set of crates. It
-will be all the crates that you have set as a source for auto DJ. Mixxx will
+will be all the crates that you have set as a source for Auto DJ. Mixxx will
 normally try to select a track that you haven't played so far. You can set a
 amount off tracks that is always supposed to be available for selection no
 matter when they where last played in :menuselection:`Preferences --> Auto DJ
@@ -531,11 +531,10 @@ The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
 in percentage and total queue length are shown.
 
 .. versionadded:: 1.12
-   * Drag and drop tracks from the library or external file managers onto the
-     analysis view to instantly analyze these files.
-   * The title changes to :guilabel:`Analyze (x/y)` where x is the number of
-     tracks that have been analyzed so far and y is the total number of tracks
-     originally in the queue.
+   Drag and drop tracks from the library or external file managers onto the
+   analysis view to instantly analyze these files. The title changes to
+   :guilabel:`Analyze (x/y)` where x is the number of tracks that have been
+   analyzed so far and y is the total number of tracks originally in the queue.
 
 .. versionchanged:: 1.12
    Does not generate waveforms to save disk space.
