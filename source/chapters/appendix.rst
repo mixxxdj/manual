@@ -183,6 +183,8 @@ Show Vinyl Control Section                Ctrl + 3
 ----------------------------------------  --------------------------------
 Show Preview Deck                         Ctrl + 4
 ----------------------------------------  --------------------------------
+Show Cover Art                            Ctrl + 5
+----------------------------------------  --------------------------------
 Full Screen (Windows & Linux)             F11
 ----------------------------------------  --------------------------------
 Full Screen (Mac OS X)                    Shift + Command + F
@@ -209,7 +211,13 @@ Exit Mixxx                                Ctrl + Q
 --------------------------------------------------------------------------
 Reload skin                               Ctrl + Shift + R
 ----------------------------------------  --------------------------------
-Developer Tools                           Ctrl + Shift + D
+Developer Tools                           Ctrl + Shift + T
+----------------------------------------  --------------------------------
+Stats: Base Bucket                        Ctrl + Shift + B
+----------------------------------------  --------------------------------
+Stats: Experiment Bucket                  Ctrl + Shift + E
+----------------------------------------  --------------------------------
+Debugger Enabled                          Ctrl + Shift + D
 ========================================  ================================
 
 .. hint:: The :kbd:`Ctrl` key on Windows & Linux is equivalent to the
@@ -230,8 +238,12 @@ options are only useful for development or debugging, as they make these tasks
 easier. Comment line options are case-sensitive.
 
 .. versionadded:: 1.12
-   Show debug tooltips and provide extra skins when developer mode is enabled.
-   Added ``--safeMode`` option.
+
+   * Show debug tooltips
+   * Provide extra skins when developer mode is enabled.
+   * Adds the debugger during skin parsing in ``--developer`` mode
+   * Adds "Enable Base" and "Enable Experiment" option in ``--developer`` mode
+   * Added ``--safeMode`` option.
 
 ======================  =================================================
 Option                  Description
@@ -260,7 +272,8 @@ Option                  Description
 --developer             Enables developer-mode. Includes extra log info,
                         stats on performance, a Developer tools menu,
                         extra developer skins, and provides useful
-                        information for skin writers in widget tooltips.
+                        information for skin writers in widget tooltips
+                        and logs .
 ----------------------  -------------------------------------------------
 --safeMode              Disables risky things at start up. This should
                         help troubleshoot crashes at startup or if Mixxx
@@ -279,12 +292,42 @@ Option                  Description
 -h, --help              Display this help message and exit
 ======================  =================================================
 
-**Example:**
+Developer tools
+===============
+
 To start Mixxx in Developer mode from a custom resource directory with
 :term:`MIDI` and :term:`HID` logging enabled, type the following line into the
 terminal and hit return: ::
 
   ./mixxx --controllerDebug --developer --resourcePath res
+
+
+Experiment modes for rapid development and testing
+---------------------------------------------------
+
+.. versionadded:: 1.12
+
+  * Adds a static Experiment class with a tri-state mode flag that indicates
+    whether the experiment mode is OFF, BASE, or EXPERIMENT.
+
+  * Adds :menuselection:`Developer-->Stats:Experiment Bucket` and
+    :menuselection:`Developer-->Stats:Base Bucket`. Each one toggles between OFF
+    and BASE/EXPERIMENT so you can choose exactly what time spans you would like
+    to collect in your base and experiment buckets.
+
+  * Updates StatsManager to segment collected stats into a base and experiment
+    bucket. This allows you to quickly measure the difference a code change has
+    on relevant counters / timers within the same execution of Mixxx.
+
+This is useful for quickly enabling and disabling a code change without
+a re-compile/re-run cycle to get an anecdotal sense of how it "feels" as
+well as a quantified sense of how it differs in terms of stats Mixxx
+collects.
+
+All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools
+are segmented into a BASE STATS and EXPERIMENT STATS section printed to
+the log on exit.
+
 
 .. _appendix-version-history:
 

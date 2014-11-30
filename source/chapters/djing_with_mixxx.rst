@@ -505,6 +505,8 @@ appropriate direction.
 Master Sync
 ===========
 
+.. versionadded:: 1.12
+
 :term:`Master Sync` is an intelligent assistant that allows you to leave the
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
