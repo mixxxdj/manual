@@ -247,7 +247,7 @@ Mixxx supports the following filters:
 
     ::
 
-     artist:Danger duration:>3m rating:>=4
+       artist:Danger duration:>3m rating:>=4
 
   * Negative search filters. Use the ``-`` prefix as negation operator. The
     following example would find “hip-hop“ from any year but 1990.
@@ -272,7 +272,7 @@ Mixxx supports the following filters:
 +--------------------------------------+---------------------------------------+---------------------------------------+
 | comment: foo                         | bpm: 140-150                          |                                       |
 +--------------------------------------+---------------------------------------+---------------------------------------+
-|                                      | played: >10                           |                                       |
+| genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
 +--------------------------------------+---------------------------------------+---------------------------------------+
 | Note it doesn't matter if you have   | Note that you can put a space between | Note that you can put a space between |
 | space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
