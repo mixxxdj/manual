@@ -509,22 +509,24 @@ Master Sync
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
 
-To activate Master Sync on a deck, push and hold (or click and hold) the :guilabel:`SYNC` button.
-You'll know Master Sync is on because the sync button will remain lit.  Changing 
-the rate of any deck that has Sync lit will change the rates of all other
-decks that also have the Sync button lit.  There is no need to set specific decks
-to be a master or followers.  You can play, stop, eject, load, and queue any track
-with master sync and it won't interrupt the playback of the other decks.  Changing
-the rate of stopped deck will change the rate of playing decks, however.
+To activate Master Sync on a deck, push and hold (or click and hold) the
+:guilabel:`SYNC` button. You'll know Master Sync is on because the sync button
+will remain lit.  Changing the rate of any deck that has Sync lit will change
+the rates of all other decks that also have the Sync button lit.  There is no
+need to set specific decks to be a master or followers.  You can play, stop,
+eject, load, and queue any track with master sync and it won't interrupt the
+playback of the other decks.  Changing the rate of stopped deck will change the
+rate of playing decks, however.
 
-Usually, Master Sync will only make sure the rate sliders are set correctly.  If you
-also want to make sure your beats are perfectly in sync, turn on the :guilabel:`QUANTIZE`
-button.  When activated, Quantize will ensure that the beats are perfectly lined
-up as well.
+Master Sync will also notice if one of your tracks is double the BPM of another
+track and match them correctly.  So if you want to mix a 140 BPM drum & bass
+track with a 70 bpm dubstep track, Master Sync will make sure they are lined up
+properly.
 
-Master Sync will also notice if one of your tracks is double the BPM of another track
-and match them correctly.  So if you want to mix a 140 BPM drum & bass track with a
-70 bpm dubstep track, Master Sync will make sure they are lined up properly.
+.. hint:: Usually, Master Sync will only make sure the rate sliders are set
+          correctly.  If you also want to make sure your beats are perfectly in
+          sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
+          Quantize will ensure that the beats are perfectly lined up as well.
 
 .. _headphone-cueing:
 
