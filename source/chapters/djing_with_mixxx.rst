@@ -606,7 +606,7 @@ follow the note below.
 Key Detection
 ======================
 
-Mixxx comes with a high precision Key detection which can help make your mixes
+Mixxx comes with a high precision key detection which can help make your mixes
 smoother by ensuring that your tracks are musically compatible.
 
 Analyzer Settings
