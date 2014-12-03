@@ -557,8 +557,9 @@ The table below summarizes the beat detection settings:
 +---------------------------------------+--------------------------------------+
 | Option                                | Description                          |
 +=======================================+======================================+
-| Enable Fast Analysis                  | If enabled, BPM detection results    |
-|                                       | from the first minute of audio.      |
+| Enable Fast Analysis                  | If enabled, BPM  will be detected by |
+|                                       | only listening to the first minute   |
+|                                       | of audio.                            |
 +---------------------------------------+--------------------------------------+
 | Assume constant tempo                 | If enabled, Mixxx assumes that the   |
 |                                       | distances between the beats are      |
