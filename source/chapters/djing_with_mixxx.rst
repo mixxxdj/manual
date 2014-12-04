@@ -500,6 +500,26 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
+.. _harmonic-mixing:
+
+Harmonic Mixing
+===============
+
+:term:`Harmonic Mixing` is a technique used to mix songs with matching melodies
+and harmonies. To learn more about :term:`Harmonic Mixing` you might want to
+check out `this site`_.
+
+.. _this site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+
+Mixxx has two major features to help you with :term:`Harmonic Mixing`. The first
+is a keylock. When it is active changing the speed of a track won't affect the
+key. The keylock can be activated with the :guilabel:`KEYLOCK` button. The other
+one is that Mixxx can automatically detect the key of a track and will display
+it in the library and the decks. The standart which is used to display a key can
+be changed in `key preferences`_.
+
+.. _key preferences: key-detection_
+
 .. _headphone-cueing:
 
 Headphone Cueing
@@ -558,8 +578,7 @@ The table below summarizes the beat detection settings:
 | Option                                | Description                          |
 +=======================================+======================================+
 | Enable Fast Analysis                  | If enabled, BPM  will be detected by |
-|                                       | only listening to the first minute   |
-|                                       | of audio.                            |
+|                                       | only using the first minute of audio.|
 +---------------------------------------+--------------------------------------+
 | Assume constant tempo                 | If enabled, Mixxx assumes that the   |
 |                                       | distances between the beats are      |
