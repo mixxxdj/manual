@@ -134,27 +134,27 @@ computer. **Therefore it is important to take care to choose the best Audio API
 available to you.** Refer to the following table of Audio APIs to see what the
 best choice is for your operating system.
 
-+----------------------------------------+--------------+
-| OS / Audio API                         | Quality      |
-+========================================+==============+
-| Windows / WMME                         | Poor         |
-+----------------------------------------+--------------+
-| Windows / DirectSound                  | Poor         |
-+----------------------------------------+--------------+
-| Windows / WASAPI                       | Good         |
-+----------------------------------------+--------------+
-| Windows / ASIO                         | Good         |
-+----------------------------------------+--------------+
-| Windows / WDDKMS                       | Good         |
-+----------------------------------------+--------------+
-| Mac OS X / CoreAudio                   | Good         |
-+----------------------------------------+--------------+
-| GNU Linux / OSS                        | OK           |
-+----------------------------------------+--------------+
-| GNU Linux / ALSA                       | Good         |
-+----------------------------------------+--------------+
-| GNU Linux / JACK (Advanced)            | Good         |
-+----------------------------------------+--------------+
++-----------------------------+---------+
+| OS / Audio API              | Quality |
++=============================+=========+
+| Windows / WMME              | Poor    |
++-----------------------------+---------+
+| Windows / DirectSound       | Poor    |
++-----------------------------+---------+
+| Windows / WASAPI            | Good    |
++-----------------------------+---------+
+| Windows / ASIO              | Good    |
++-----------------------------+---------+
+| Windows / WDDKMS            | Good    |
++-----------------------------+---------+
+| Mac OS X / CoreAudio        | Good    |
++-----------------------------+---------+
+| GNU Linux / OSS             | OK      |
++-----------------------------+---------+
+| GNU Linux / ALSA            | Good    |
++-----------------------------+---------+
+| GNU Linux / JACK (Advanced) | Good    |
++-----------------------------+---------+
 
 On Windows, if an ASIO driver is not available for your operating system, you
 can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
@@ -168,3 +168,37 @@ Mixxx. Otherwise JACK will not appear as a Sound API in the preferences.
              results in very poor performance. Make sure to run Mixxx using the
              ``pasuspender`` tool on GNU/Linux distributions that use
              PulseAudio.
+             
+Equalizer Preferences
+=====================
+
+.. figure:: ../_static/Mixxx-111-Preferences-Equalizer(TODO).png
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Equalizer Preferences
+   :figclass: pretty-figures
+
+   Equalizer Preferences
+   
+:menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
+
+* **Equalizer Rack**: The Equalizer Rack is a special Effect Rack, that is
+  connected to the deck's equalizer and filter controls. 
+
+  In this section you can select the equalizers and quick effects that used with 
+  the decks.    
+
+* **Equalizer Plugin**: Here you can select the effect that is uses as mixing 
+  EQ in each deck. By default only build in equalizers are displayed, but you 
+  are allowed to select any effect after you have unchecked "Only allow EQ knobs 
+  to control EQ specific effects"      
+
+  If you need different settings for each deck, you may uncheck "Use the same EQ 
+  filter for all decks"
+
+* **Quick Effect**: Here you can select the effect that is controlled by the 
+  filter knob in each deck. By default only build in filter effects are displayed 
+  in a common box for all decks, but it can be changed like above.  
+
+
