@@ -505,18 +505,18 @@ appropriate direction.
 Harmonic Mixing
 ===============
 
-:term:`Harmonic Mixing` is a technique used to mix songs with matching melodies
-and harmonies. To learn more about :term:`Harmonic Mixing` you might want to
-check out `this site`_.
+harmonic mixing is a technique used to mix songs with matching melodies
+and harmonies. To learn more about harmonic mixing you might want to
+check out `the mixshare site`_.
 
-.. _this site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
 
-Mixxx has two major features to help you with :term:`Harmonic Mixing`. The first
-is a keylock. When it is active changing the speed of a track won't affect the
-key. The keylock can be activated with the :guilabel:`KEYLOCK` button. The other
-one is that Mixxx can automatically detect the key of a track and will display
-it in the library and the decks. The standart which is used to display a key can
-be changed in `key preferences`_.
+Mixxx has two major features to help you with harmonic mixing. The first is a
+:term:`key lock`. When it is active changing the speed of a track won't affect
+the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
+the :ref:`interface-button-grid`. The other one is that Mixxx can automatically
+detect the key of a track and will display it in the library and the decks. The
+standart which is used to display a key can be changed in `key preferences`_.
 
 .. _key preferences: key-detection_
 
