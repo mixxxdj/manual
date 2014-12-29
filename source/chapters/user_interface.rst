@@ -823,38 +823,6 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 .. seealso:: You can also use keyboard shortcuts for Cueing. Go to
              :ref:`control-keyboard` for more information.
 
-.. _interface-fx:
-
-Effects Controls
-----------------
-
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
-
-   The effect control section of the mixer
-
-Currently, the only available internal effect in Mixxx is a :term:`flanger`.
-This effect applies a “sweeping” sound to the channel and can add extra depth
-to a mix when used tactfully.
-
-**FX Button**
-  The FX (“Effects”) button enables a built-in flanger effect on the selected
-  channel.
-
-**Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the wavelength of the flange effect.
-
-.. hint :: For the most noticeable effect, enable the FX button and turn the
-           Depth knob completely to the right.
-
-.. seealso :: As an advanced user, you can route your audio signal to external
-              software and then apply additional effects. Go to
-              :ref:`advanced-external-fx` for more information.
-
 .. _interface-sampler:
 
 The Sampler Section
@@ -958,6 +926,58 @@ Sample Deck Controls
 **Pitch/Rate slider**
   The slider allows you to change the speed of the sample. Right-clicking on the
   slider will reset the tempo to its original value.
+
+.. _interface-effects:
+
+The Effects Section
+===================
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
+   :align: center
+   :width: 304px
+   :figwidth: 100%
+   :alt: A sample deck
+   :figclass: pretty-figures
+
+   A Effect Chain
+
+Effect chains allow you to apply various effects to the different channels
+in mixxx.
+
+The Effects section is **hidden** in the default :ref:`Mixxx user interface
+<interface-overview>`. Click the :ref:`EFFECTS <interface-expansion-buttons>`
+button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
+show or hide the section.
+
+.. seealso :: As an advanced user, you can route your audio signal to external
+              software and then apply additional effects. Go to
+              :ref:`advanced-external-fx` for more information.
+
+General Effects Controlls
+-------------------------
+
+**Eject Effect Button**
+  Eject the currently loaded effect
+
+**Effect on/off Button**
+  Turn on or off the effect chain
+
+**Select Buttons**
+  Select an effect for the effect chain
+
+**Mix Knob**
+  Allows to decide how **strong** the effect should be.
+
+**Channel Buttons**
+  If clicked the effect will be active for the selected channel.
+  .. note::
+     effects can be active on more then one channel
+
+Specific Effect Controlls
+-------------------------
+
+Each effect provides it's own set of controlls. See the :ref:`Use Effects
+<djing-with-effects>` section.
 
 .. _interface-mic:
 
