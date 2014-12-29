@@ -612,7 +612,29 @@ networks of simple allpass and comb delay filters.
 Echo
 ----
 
-.. todo:: Echo effect description
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Echo.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Echo controlls
+
+Simple Echo with pingpong
+
+**Send**
+  How much of the signal to send into the delay buffer
+
+**Delay**
+  Delay time (seconds)
+
+**Feedback**
+  Amount the echo fades each time it loops
+
+**PingPong**
+  As the ping-pong amount increases, increasing amounts of the echoed signal is
+  bounced between the left and right speakers.
 
 .. _master-sync:
 
