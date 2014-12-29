@@ -949,6 +949,10 @@ The Effects section is **hidden** in the default :ref:`Mixxx user interface
 button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
 show or hide the section.
 
+.. seealso :: As an advanced user, you can route your audio signal to external
+              software and then apply additional effects. Go to
+              :ref:`advanced-external-fx` for more information.
+
 General Effects Controlls
 -------------------------
 

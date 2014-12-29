@@ -510,7 +510,29 @@ Use Effects
 Flanger
 -------
 
-.. todo:: Flanger effect description
+.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   The effect control section of the mixer
+
+Currently, the only available internal effect in Mixxx is a :term:`flanger`.
+This effect applies a “sweeping” sound to the channel and can add extra depth
+to a mix when used tactfully.
+
+**FX Button**
+  The FX (“Effects”) button enables a built-in flanger effect on the selected
+  channel.
+
+**Delay/Depth/LFO Knobs**
+  Adjusts the phase delay, intensity and the wavelength of the flange effect.
+
+.. hint :: For the most noticeable effect, enable the FX button and turn the
+           Depth knob completely to the right.
+
 
 .. _effects-bitcrusher:
 
