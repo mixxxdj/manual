@@ -561,14 +561,51 @@ by the reduction of the resolution or bandwidth of the samples
 Filter
 ------
 
-.. todo:: Filter effect description
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Filter.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Filter controlls
+
+Allows to fade a song out by sweeping a low or high pass filter
+
+**LPF**
+  Corner frequency ratio of the low pass filter
+
+**Q**
+  Resonance of the filters, default = Flat top
+
+**HPF**
+  Corner frequency ratio of the high pass filter
 
 .. _effects-reverb:
 
 Reverb
 ------
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Reverb.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
 
-.. todo:: Reverb effect description
+   Reverb controlls
+
+
+This is a port of the GPL'ed CAPS Reverb plugin, which has the following
+description: This is based on some of the famous Stanford CCRMA reverbs (NRev,
+KipRev) all based on the Chowning/Moorer/Schroeder reverberators, which use
+networks of simple allpass and comb delay filters.
+
+**Bandwidth**
+  Higher bandwidth values cause more bright (high-frequency) tones to be
+  included
+
+**Damping**
+  Higher damping values cause reverberations to die out more quickly.
 
 .. _effects-echo:
 
