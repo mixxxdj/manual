@@ -517,7 +517,7 @@ Flanger
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   The effect control section of the mixer
+   Flanger controlls
 
 This effect applies a “sweeping” sound to the channel and can add extra depth to
 a mix when used tactfully.
@@ -538,7 +538,23 @@ a mix when used tactfully.
 BitCrusher
 ----------
 
-.. todo:: BitCrusher effect description
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-BitCrusher.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   BitCrusher controlls
+
+The BitCrusher is an effect that adds quantisation noise to the signal
+by the reduction of the resolution or bandwidth of the samples
+
+**Bit Depth**
+  Adjusts the bit depth of the samples.
+
+**Downsampling**
+  Adjusts the sample rate, to which the signal is downsampled.
 
 .. _effects-filter:
 
