@@ -500,68 +500,6 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
-.. _djing-with-effects:
-
-Use Effects
-===========
-
-.. _effects-flanger:
-
-Flanger
--------
-
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
-
-   The effect control section of the mixer
-
-Currently, the only available internal effect in Mixxx is a :term:`flanger`.
-This effect applies a “sweeping” sound to the channel and can add extra depth
-to a mix when used tactfully.
-
-**FX Button**
-  The FX (“Effects”) button enables a built-in flanger effect on the selected
-  channel.
-
-**Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the wavelength of the flange effect.
-
-.. hint :: For the most noticeable effect, enable the FX button and turn the
-           Depth knob completely to the right.
-
-
-.. _effects-bitcrusher:
-
-BitCrusher
-----------
-
-.. todo:: BitCrusher effect description
-
-.. _effects-filter:
-
-Filter
-------
-
-.. todo:: Filter effect description
-
-.. _effects-reverb:
-
-Reverb
-------
-
-.. todo:: Reverb effect description
-
-.. _effects-echo:
-
-Echo
-----
-
-.. todo:: Echo effect description
-
 .. _master-sync:
 
 Master Sync
@@ -572,7 +510,7 @@ beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
 
 To activate Master Sync on a deck, push and hold (or click and hold) the :guilabel:`SYNC` button.
-You'll know Master Sync is on because the sync button will remain lit.  Changing
+You'll know Master Sync is on because the sync button will remain lit.  Changing 
 the rate of any deck that has Sync lit will change the rates of all other
 decks that also have the Sync button lit.  There is no need to set specific decks
 to be a master or followers.  You can play, stop, eject, load, and queue any track
