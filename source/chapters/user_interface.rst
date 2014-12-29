@@ -927,6 +927,54 @@ Sample Deck Controls
   The slider allows you to change the speed of the sample. Right-clicking on the
   slider will reset the tempo to its original value.
 
+.. _interface-effects:
+
+The Effects Section
+===================
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
+   :align: center
+   :width: 304px
+   :figwidth: 100%
+   :alt: A sample deck
+   :figclass: pretty-figures
+
+   A Effect Chain
+
+Effect chains allow you to apply various effects to the different channels
+in mixxx.
+
+The Effects section is **hidden** in the default :ref:`Mixxx user interface
+<interface-overview>`. Click the :ref:`EFFECTS <interface-expansion-buttons>`
+button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
+show or hide the section.
+
+General Effects Controlls
+-------------------------
+
+**Eject Effect Button**
+  Eject the currently loaded effect
+
+**Effect on/off Button**
+  Turn on or off the effect chain
+
+**Select Buttons**
+  Select an effect for the effect chain
+
+**Mix Knob**
+  Allows to decide how **strong** the effect should be.
+
+**Channel Buttons**
+  If clicked the effect will be active for the selected channel.
+  .. note::
+     effects can be active on more then one channel
+
+Specific Effect Controlls
+-------------------------
+
+Each effect provides it's own set of controlls. See the :ref:`Use Effects
+<djing-with-effects>` section.
+
 .. _interface-mic:
 
 The Microphone Section
