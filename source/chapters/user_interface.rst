@@ -945,11 +945,11 @@ Effect chains allow you to apply various effects to the different channels
 in mixxx.
 
 The Effects section is **hidden** in the default :ref:`Mixxx user interface
-<interface-overview>`. Click the :ref:`EFFECTS <interface-expansion-buttons>`
-button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
-show or hide the section.
+<interface-overview>` to save room on small screens. Click the :ref:`EFFECTS
+<interface-expansion-buttons>` button in the mixer section, or use the specific
+:ref:`appendix-shortcuts` to show or hide the section.
 
-.. seealso :: As an advanced user, you can route your audio signal to external
+.. seealso:: As an advanced user, you can route your audio signal to external
               software and then apply additional effects. Go to
               :ref:`advanced-external-fx` for more information.
 

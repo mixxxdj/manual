@@ -519,9 +519,8 @@ Flanger
 
    The effect control section of the mixer
 
-Currently, the only available internal effect in Mixxx is a :term:`flanger`.
-This effect applies a “sweeping” sound to the channel and can add extra depth
-to a mix when used tactfully.
+This effect applies a “sweeping” sound to the channel and can add extra depth to
+a mix when used tactfully.
 
 **FX Button**
   The FX (“Effects”) button enables a built-in flanger effect on the selected
