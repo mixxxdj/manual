@@ -505,6 +505,10 @@ appropriate direction.
 Use Effects
 ===========
 
+.. versionadded:: 1.12
+
+Mixxx comes with a set of native effects.
+
 .. _effects-flanger:
 
 Flanger

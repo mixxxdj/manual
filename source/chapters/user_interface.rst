@@ -932,6 +932,8 @@ Sample Deck Controls
 The Effects Section
 ===================
 
+.. versionadded:: 1.12
+
 .. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
    :align: center
    :width: 304px
@@ -950,8 +952,8 @@ The Effects section is **hidden** in the default :ref:`Mixxx user interface
 :ref:`appendix-shortcuts` to show or hide the section.
 
 .. seealso:: As an advanced user, you can route your audio signal to external
-              software and then apply additional effects. Go to
-              :ref:`advanced-external-fx` for more information.
+             software and then apply additional effects. Go to
+             :ref:`advanced-external-fx` for more information.
 
 General Effects Controlls
 -------------------------
