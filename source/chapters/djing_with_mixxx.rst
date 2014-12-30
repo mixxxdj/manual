@@ -608,6 +608,8 @@ networks of simple allpass and comb delay filters.
 **Damping**
   Higher damping values cause reverberations to die out more quickly.
 
+.. note:: This effect is not available in the Mac App Store version of Mixxx
+
 .. _effects-echo:
 
 Echo
