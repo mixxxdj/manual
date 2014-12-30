@@ -570,7 +570,8 @@ Filter
 
    Filter controlls
 
-Allows to fade a song out by sweeping a low or high pass filter
+The filter changes the tone of the music by allowing only high or low
+frequencies to pass through.
 
 **LPF**
   Corner frequency ratio of the low pass filter
