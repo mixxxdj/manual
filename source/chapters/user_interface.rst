@@ -58,7 +58,7 @@ Track Information Display
 
 .. versionadded::  1.12
    Parse the title and the artist from the file name when the corresponding
-   :term:`metadata` are missing.
+   :term:`metadata` is missing.
 
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
