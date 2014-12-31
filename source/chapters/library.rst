@@ -132,9 +132,9 @@ music library.
 
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
-  because you added or moved files) you can do this with
-  :menuselection:`Library --> Rescan Library` in the menu on top of the
-  application window. You can prompt an automatic rescan in
+  because you added or moved files) you can do this with :menuselection:`Library
+  --> Rescan Library` in the menu on top of the application window. You can
+  prompt an automatic rescan when mixxx is started in.
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
 Track list context menu
@@ -312,7 +312,7 @@ prefer to build them on-the-fly.
 
 Playlists are not directly loadable into the decks as Mixxx is primarily
 intended for live, attended performance use. However, you can use the
-:ref:`Auto DJ <library-auto-dj>` explained below.
+:ref:`Auto DJ <library-auto-dj>` explained above.
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
   and select :guilabel:`New playlist`. Name the playlist and click
