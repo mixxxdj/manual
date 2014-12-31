@@ -303,17 +303,19 @@ control rate changes also from your computer's keyboard, see the chapter
 * **Right-Click**: Only changes the :term:`rate` of the track to match the other
   deck but does not adjust the :term:`phase`.
 
-Decks and samplers now pick which sync target to sync to on the fly. Decks
-can't sync to samplers and samplers can only sync to decks. The sync target is:
+Decks and samplers now pick which sync target to sync to on the fly. Decks can't
+sync to samplers and samplers can only sync to decks. The sync target for
+samplers is:
 
 * The first (in numerical order) deck that is playing (rate > 0) a track that
   has a detected beatgrid.
 * The first (in numerical order) deck that has a track loaded with a detected
   beatgrid (could be stopped).
 
-  So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
-  track with a beatgrid then deck 1 will win since numerically it is first. This
-  will change again in the future once Mixxx gets a proper master sync feature.
+So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
+track with a beatgrid then deck 1 will win since numerically it is first. The
+sync targets for decks are chosen with the new master sync featuer, see
+:ref:`master-sync` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
