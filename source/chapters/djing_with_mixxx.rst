@@ -500,6 +500,149 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
+.. _djing-with-effects:
+
+Use Effects
+===========
+
+.. versionadded:: 1.12
+
+Mixxx comes with a set of native effects.
+
+.. _effects-flanger:
+
+Flanger
+-------
+
+.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Flanger controlls
+
+This effect applies a “sweeping” sound to the channel and can add extra depth to
+a mix when used tactfully.
+
+**FX Button**
+  The FX (“Effects”) button enables a built-in flanger effect on the selected
+  channel.
+
+**Delay/Depth/LFO Knobs**
+  Adjusts the phase delay, intensity and the wavelength of the flange effect.
+
+.. hint :: For the most noticeable effect, enable the FX button and turn the
+           Depth knob completely to the right.
+
+
+.. _effects-bitcrusher:
+
+BitCrusher
+----------
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-BitCrusher.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   BitCrusher controlls
+
+The BitCrusher is an effect that adds quantisation noise to the signal
+by the reduction of the resolution or bandwidth of the samples
+
+**Bit Depth**
+  Adjusts the bit depth of the samples.
+
+**Downsampling**
+  Adjusts the sample rate, to which the signal is downsampled.
+
+.. _effects-filter:
+
+Filter
+------
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Filter.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Filter controlls
+
+The filter changes the tone of the music by allowing only high or low
+frequencies to pass through.
+
+**LPF**
+  Corner frequency ratio of the low pass filter
+
+**Q**
+  Resonance of the filters, default = Flat top
+
+**HPF**
+  Corner frequency ratio of the high pass filter
+
+.. _effects-reverb:
+
+Reverb
+------
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Reverb.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Reverb controlls
+
+
+This is a port of the GPL'ed CAPS Reverb plugin, which has the following
+description: This is based on some of the famous Stanford CCRMA reverbs (NRev,
+KipRev) all based on the Chowning/Moorer/Schroeder reverberators, which use
+networks of simple allpass and comb delay filters.
+
+**Bandwidth**
+  Higher bandwidth values cause more bright (high-frequency) tones to be
+  included
+
+**Damping**
+  Higher damping values cause reverberations to die out more quickly.
+
+.. note:: This effect is not available in the Mac App Store version of Mixxx
+
+.. _effects-echo:
+
+Echo
+----
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Echo.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Echo controlls
+
+Simple Echo with pingpong
+
+**Send**
+  How much of the signal to send into the delay buffer
+
+**Delay**
+  Delay time (seconds)
+
+**Feedback**
+  Amount the echo fades each time it loops
+
+**PingPong**
+  As the ping-pong amount increases, increasing amounts of the echoed signal is
+  bounced between the left and right speakers.
+
 .. _master-sync:
 
 Master Sync
@@ -529,6 +672,26 @@ properly.
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
+
+.. _harmonic-mixing:
+
+Harmonic Mixing
+===============
+
+Harmonic mixing is a technique to mix songs with matching melodies and
+harmonies. To learn more about harmonic mixing you might want to check out `the
+mixshare site`_.
+
+.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+
+Mixxx has two features to help you with harmonic mixing. The first is a
+:term:`key lock`. When it is active changing the speed of a track won't affect
+the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
+the :ref:`interface-button-grid`. The second is that Mixxx can automatically
+detect the key of a track and will display it in the library and the decks. The
+standart which is used to display a key can be changed in `key preferences`_.
+
+.. _key preferences: key-detection_
 
 .. _headphone-cueing:
 
@@ -587,8 +750,8 @@ The table below summarizes the beat detection settings:
 +---------------------------------------+--------------------------------------+
 | Option                                | Description                          |
 +=======================================+======================================+
-| Enable Fast Analysis                  | If enabled, BPM detection results    |
-|                                       | from the first minute of audio.      |
+| Enable Fast Analysis                  | If enabled, BPM  will be detected by |
+|                                       | only using the first minute of audio.|
 +---------------------------------------+--------------------------------------+
 | Assume constant tempo                 | If enabled, Mixxx assumes that the   |
 |                                       | distances between the beats are      |
@@ -629,6 +792,51 @@ follow the note below.
 
 .. note:: If the detected BPM value is not sufficiently accurate but very close
           to an integer value, try to set the BPM value manually to the integer.
+
+.. _key-detection:
+
+Key Detection
+======================
+
+Mixxx comes with a high precision key detection to help you making smooth mixes
+by ensuring that your tracks are musically compatible.
+
+Analyzer Settings
+-----------------
+
+Key detection is a complex operation. Depending on your computer and the track's
+bitrate and duration this may take some time. By default Mixxx analyzes the
+complete track. To accelerate key detection on slower computers, a “Fast
+Analysis” option is available. If enabled, the key is computed by analyzing the
+first minute of the track.
+
+.. figure:: ../_static/Mixxx-112-Preferences-Keydetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Key settings
+   :figclass: pretty-figures
+
+   Mixxx preferences - Key settings
+
+The table below summarizes the Key detection settings:
+
++---------------------------------------+--------------------------------------+
+| Option                                | Description                          |
++=======================================+======================================+
+| Enable Fast Analysis                  | If enabled, the key will be detected |
+|                                       | by using only the first minute of    |
+|                                       | audio.                               |
++---------------------------------------+--------------------------------------+
+| Re-analyze key when settings          | If enabled, Mixxx will re-analyse    |
+| change or Key detection data is       | tracks if you select a different key |
+| outdated                              | detection plugin or the key was      |
+|                                       | generated by a program other than    |
+|                                       | Mixxx.                               |
++---------------------------------------+--------------------------------------+
+| Key Notation                          | Change the way keys are displayed    |
+|                                       | in the library.                      |
++---------------------------------------+--------------------------------------+
 
 .. _djing-recording-your-mix:
 
