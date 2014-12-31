@@ -56,10 +56,9 @@ Importing your audio files
   Depending on the size of your library this could take some time. All the
   supported music files Mixxx detects will be listed in the :ref:`library-root`.
 
-  Mixxx automatically detects newly added tracks on each subsequent run. If you
-  want to manually refresh your library without exiting (for example because you
-  added or moved files), you can do this with :menuselection:`Library --> Rescan
-  Library` in the menu. If you want to rescan at every launch, select
+  If you want to refresh your library (for example because you added or moved
+  files), you can do this with :menuselection:`Library --> Rescan Library` in
+  the menu. If you want to rescan at every launch, select
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
   .. warning :: On Windows 7 and 8 the import dialog points to your Windows

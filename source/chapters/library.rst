@@ -23,9 +23,8 @@ Overview of the Library features
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
 :ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`.  Mixxx
-imports your music library automatically when it is run for the first time, and
-automatically detects newly added tracks on each subsequent run, see
-:ref:`djing-import`.
+imports your music library automatically when it is run for the first time, see
+:ref:`djing-import` for more information.
 
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
@@ -107,8 +106,7 @@ music library.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
-  time, and automatically detects newly added tracks on each subsequent
-  run. Go to the chapter :ref:`djing-import` for detailed information.
+  time. Go to the chapter :ref:`djing-import` for detailed information.
 
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
