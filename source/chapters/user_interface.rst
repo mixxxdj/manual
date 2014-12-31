@@ -314,7 +314,7 @@ samplers is:
 
 So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
 track with a beatgrid then deck 1 will win since numerically it is first. The
-sync targets for decks are chosen with the new master sync featuer, see
+sync targets for decks are chosen with the new master sync feature, see
 :ref:`master-sync` for more information.
 
 **Pitch/Rate slider**
@@ -648,7 +648,7 @@ button. Pressing this button allows you to listen and synchronize the track you
 will play next in your headphones before your audience hears the track
 (headphone cueing). You can select more than one PFL button simultaneously.
 
-.. seealso:: Headphone cueing is only available if you have configured a
+.. note:: Headphone cueing is only available if you have configured a
              Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
 
 .. _interface-eq-gain:
@@ -945,8 +945,8 @@ The Effects Section
 
    A Effect Chain
 
-Effect chains allow you to apply various effects to the different channels
-in mixxx.
+Effect chains allow you to apply various effects to your mixxx. You can either
+add the effects to the master-output or individually for each deck.
 
 The Effects section is **hidden** in the default :ref:`Mixxx user interface
 <interface-overview>` to save room on small screens. Click the :ref:`EFFECTS
@@ -957,31 +957,30 @@ The Effects section is **hidden** in the default :ref:`Mixxx user interface
              software and then apply additional effects. Go to
              :ref:`advanced-external-fx` for more information.
 
-General Effects Controlls
+General Effects Controls
 -------------------------
 
 **Eject Effect Button**
-  Eject the currently loaded effect
+  Eject the currently loaded effect.
 
 **Effect on/off Button**
-  Turn on or off the effect chain
+  Turn the effect on or off.
 
 **Select Buttons**
-  Select an effect for the effect chain
+  Select an effect.
 
 **Mix Knob**
   Allows to decide how **strong** the effect should be.
 
 **Channel Buttons**
-  If clicked the effect will be active for the selected channel.
-  .. note::
-     effects can be active on more then one channel
+  Select if the effect should be applied to master/pfl or different decks. The
+  buttons will light up if the effect is applied to a specific deck.
 
-Specific Effect Controlls
+Specific Effect Controls
 -------------------------
 
-Each effect provides it's own set of controlls. See the :ref:`Use Effects
-<djing-with-effects>` section.
+Each effect provides it's own set of controlls, see the :ref:`Use Effects
+<djing-with-effects>` section for more information.
 
 .. _interface-mic:
 
