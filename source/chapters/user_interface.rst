@@ -900,8 +900,10 @@ Sample Deck Controls
 --------------------
 
 **Play/Pause button**
-  Clicking the button starts and stops playback. Right-clicking on the button
-  will seek the play position to the beginning of the sample.
+  Clicking the button always starts playback from the :term:`cue point <cue>`.
+  If playback is already enabled the play position will jump back to the
+  :term:`cue point <cue>`. Right-clicking on the button will stop playback and
+  seek the play position to the beginning of the sample.
 
 **Sync Button**
   Syncs the Sampler deck to a regular deck, as described in :ref:`interface-rate`.
