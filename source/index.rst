@@ -11,7 +11,8 @@ easy to use, so you will start mixing your favorite songs in no time,
 even if you've never used any DJ software before. Mixxx is also
 powerful, so experienced DJs will find all the advanced features they
 would expect. You can perform with Mixxx using :term:`MIDI` and :term:`HID`
-controllers, or even just with your computer's keyboard and mouse.
+controllers, CD players, vinyl turntables or even just with your
+computer's keyboard and mouse.
 
 Table of Contents
 -----------------
