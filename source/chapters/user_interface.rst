@@ -947,8 +947,8 @@ The Effects Section
 
    A Effect Chain
 
-Effect chains allow you to apply various effects to your mixxx. You can either
-add the effects to the master-output or individually for each deck.
+Effect chains allow you to apply various effects to your mix. You can either add
+the effects to the master-output or individually for each deck.
 
 The Effects section is **hidden** in the default :ref:`Mixxx user interface
 <interface-overview>` to save room on small screens. Click the :ref:`EFFECTS
@@ -981,7 +981,7 @@ General Effects Controls
 Specific Effect Controls
 -------------------------
 
-Each effect provides it's own set of controlls, see the :ref:`Use Effects
+Each effect provides it's own set of controls, see the :ref:`Use Effects
 <djing-with-effects>` section for more information.
 
 .. _interface-mic:

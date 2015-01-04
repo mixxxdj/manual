@@ -22,7 +22,7 @@ Overview of the Library features
 
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
-:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`.  Mixxx
+:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx
 imports your music library automatically when it is run for the first time, see
 :ref:`djing-import` for more information.
 
@@ -134,7 +134,7 @@ music library.
   If you want to manually refresh your library without exiting (for example
   because you added or moved files) you can do this with :menuselection:`Library
   --> Rescan Library` in the menu on top of the application window. You can
-  prompt an automatic rescan when mixxx is started in.
+  prompt an automatic rescan when Mixxx is started in
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
 Track list context menu

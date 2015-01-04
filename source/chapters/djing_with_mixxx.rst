@@ -520,7 +520,7 @@ Flanger
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   Flanger controlls
+   Flanger controls
 
 This effect applies a “sweeping” sound to the channel and can add extra depth to
 a mix when used tactfully.
@@ -548,7 +548,7 @@ BitCrusher
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   BitCrusher controlls
+   BitCrusher controls
 
 The BitCrusher is an effect that adds quantisation noise to the signal
 by the reduction of the resolution or bandwidth of the samples
@@ -571,7 +571,7 @@ Filter
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   Filter controlls
+   Filter controls
 
 The filter changes the tone of the music by allowing only high or low
 frequencies to pass through.
@@ -596,7 +596,7 @@ Reverb
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   Reverb controlls
+   Reverb controls
 
 
 This is a port of the GPL'ed CAPS Reverb plugin, which has the following
@@ -611,7 +611,7 @@ networks of simple allpass and comb delay filters.
 **Damping**
   Higher damping values cause reverberations to die out more quickly.
 
-.. note:: This effect is not available in the Mac App Store version of Mixxx
+.. note:: This effect is not available in the Mac App Store version of Mixxx.
 
 .. _effects-echo:
 
@@ -625,7 +625,7 @@ Echo
    :alt: The effect control section of the mixer
    :figclass: pretty-figures
 
-   Echo controlls
+   Echo controls
 
 Simple Echo with pingpong
 
