@@ -159,6 +159,9 @@ application window.
    Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
    which provides various useful debugging tools.
 
+.. versionchanged:: 1.12
+   Shortcuts for *Enable Vinyl Control 1-4*.
+
 ========================================  ================================
 Function                                  Key
 ========================================  ================================
@@ -194,9 +197,13 @@ Full Screen (Mac OS X)                    Shift + Command + F
 ----------------------------------------  --------------------------------
 **Options menu**
 --------------------------------------------------------------------------
-Enable Vinyl Control 1                    Ctrl + Y
+Enable Vinyl Control 1                    Ctrl + T
 ----------------------------------------  --------------------------------
-Enable Vinyl Control 2                    Ctrl + U
+Enable Vinyl Control 2                    Ctrl + Y
+----------------------------------------  --------------------------------
+Enable Vinyl Control 3                    Ctrl + U
+----------------------------------------  --------------------------------
+Enable Vinyl Control 4                    Ctrl + I
 ----------------------------------------  --------------------------------
 Enable Live Broadcasting                  Ctrl + L
 ----------------------------------------  --------------------------------
