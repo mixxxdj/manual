@@ -26,6 +26,9 @@ The mapping files that ship with Mixxx are stored in the following file paths:
 You can download and share custom controller presets in the
 `Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
 
+
+.. _advanced-controller-wizard:
+
 Controller Wizard
 -----------------
 
