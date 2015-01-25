@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-01-25 13:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgid "*Auto DJ* shortcuts"
 msgstr ""
 
 #: ../../source/chapters/appendix.rst:22
-#: ../../source/chapters/appendix.rst:162
+#: ../../source/chapters/appendix.rst:166
 # b6d928350f874912a1b7c7743b061265
 # f21c91453b264e0390096e30766bca18
 msgid "Function"
@@ -814,8 +814,10 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:142
 #: ../../source/chapters/appendix.rst:142
+#: ../../source/chapters/appendix.rst:200
 # fcea1b2a9fa04c029c3abe7af43e09bd
 # f1e6991f650641eba9c3b6fcbe0c63b5
+# 87ba27d13dfc471c9a0c4f0a7eead44c
 msgid "Ctrl + T"
 msgstr ""
 
@@ -836,565 +838,690 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:157
 # dcc58d4a1bb54ba2887bed48b57e2b15
-msgid "Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu which provides various useful debugging tools."
+msgid "Added *Show Effect Rack*, and *Show Cover Art* shortcuts. Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu which provides various useful debugging tools."
 msgstr ""
 
 #: ../../source/chapters/appendix.rst:162
+# 62631be7bea14d358b04590f99c8d4ae
+msgid "Shortcuts for *Enable Vinyl Control 1-4*."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:166
 # 6a52b539070341719eb4fa9e6aa5065c
 msgid "Key"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:164
+#: ../../source/chapters/appendix.rst:168
 # 42715d80f2314c7bab9adf1ea7debfb2
 msgid "**File menu**"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:166
+#: ../../source/chapters/appendix.rst:170
 # ab740f9d4f154a55995594a65c645734
 msgid "Load Track to Deck 1"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:166
+#: ../../source/chapters/appendix.rst:170
 # b197481fdfa14ca8ab7a14e842a35e38
 msgid "Ctrl + O"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:168
+#: ../../source/chapters/appendix.rst:172
 # f09f0ddb6cd14e4c96a7eabd89d4e28b
 msgid "Load Track to Deck 2"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:168
+#: ../../source/chapters/appendix.rst:172
 # f48e43112f90495f99f3243fb22052af
 msgid "Ctrl + Shift + O"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:170
+#: ../../source/chapters/appendix.rst:174
 # 7a5009152fe54fe3ae36102ae2b00d9b
 msgid "**Library menu**"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:172
+#: ../../source/chapters/appendix.rst:176
 # d0310da263cd44779494aaf896726e39
 msgid "Add new Playlist"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:172
+#: ../../source/chapters/appendix.rst:176
 # 2ec821b1d5bd42bca44c01031f7ffd71
 msgid "Ctrl + N"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:174
+#: ../../source/chapters/appendix.rst:178
 # 5b31971454ea4cc784e815e38c55bd15
 msgid "Add new Crate"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:174
+#: ../../source/chapters/appendix.rst:178
 # 7c5df83b96d54581a63cbf5ddddaf1c9
 msgid "Ctrl + Shift + N"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:176
+#: ../../source/chapters/appendix.rst:180
 # fa08e01ac31a46859652ffcd22d02f6a
 msgid "**View menu**"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:178
+#: ../../source/chapters/appendix.rst:182
 # f12357c3c1454977b88765d6afcf1fc8
 msgid "Show Samplers"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:178
+#: ../../source/chapters/appendix.rst:182
 # a67b09526fb04d5cbe0c40f35debd8b9
 msgid "Ctrl + 1"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:180
+#: ../../source/chapters/appendix.rst:184
 # 807380a96b1a4ce3814b86129b8492fe
 msgid "Show Microphone Section"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:180
+#: ../../source/chapters/appendix.rst:184
 # 732dea9b1b9f468ea582cbbdb0671f7c
 msgid "Ctrl + 2"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:182
+#: ../../source/chapters/appendix.rst:186
 # 38c48572f4bb4ab3ab52baa7bcb4803d
 msgid "Show Vinyl Control Section"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:182
+#: ../../source/chapters/appendix.rst:186
 # 350402fbaab44feda46cc278a91817fa
 msgid "Ctrl + 3"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:184
+#: ../../source/chapters/appendix.rst:188
 # d03b9190fa0c4031b28367f449715e9b
 msgid "Show Preview Deck"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:184
+#: ../../source/chapters/appendix.rst:188
 # 05f82df9558649c3b31aca8f5212970b
 msgid "Ctrl + 4"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:186
+#: ../../source/chapters/appendix.rst:190
+# d03b9190fa0c4031b28367f449715e9b
+msgid "Show Effect Rack"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:190
+# 015c5c6302a94120a0eb78fa4178b194
+msgid "Ctrl + 5"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:192
+# d03b9190fa0c4031b28367f449715e9b
+msgid "Show Cover Art"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:192
+# 48fd1760ce3d44e49927133b42f1ec0b
+msgid "Ctrl + 6"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:194
 # cdcd3720c7914e8abeefabd3e2a977a3
 msgid "Full Screen (Windows & Linux)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:186
+#: ../../source/chapters/appendix.rst:194
 # 65280e00b3104de58d9760ba9932dd83
 msgid "F11"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:188
+#: ../../source/chapters/appendix.rst:196
 # b3145e6846684d35ab9c6a6294cc1d6d
 msgid "Full Screen (Mac OS X)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:188
+#: ../../source/chapters/appendix.rst:196
 # 8468ae0c76ca4fa0a58cbaa450774b28
 msgid "Shift + Command + F"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:190
+#: ../../source/chapters/appendix.rst:198
 # 37e829987beb4c4ca7102fd33a8cad6b
 msgid "**Options menu**"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:192
+#: ../../source/chapters/appendix.rst:200
 # d90a6d05e8ff49b192673c646bf978c8
 msgid "Enable Vinyl Control 1"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:192
-# 015c5c6302a94120a0eb78fa4178b194
-msgid "Ctrl + Y"
-msgstr ""
-
-#: ../../source/chapters/appendix.rst:194
+#: ../../source/chapters/appendix.rst:202
 # 49ace7cdb5984fc69c9b00c86bdf0c05
 msgid "Enable Vinyl Control 2"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:194
+#: ../../source/chapters/appendix.rst:202
+# 015c5c6302a94120a0eb78fa4178b194
+msgid "Ctrl + Y"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:204
+# 49ace7cdb5984fc69c9b00c86bdf0c05
+msgid "Enable Vinyl Control 3"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:204
 # 45cb7c9773264ae1a5cfd91b13d0da14
 msgid "Ctrl + U"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:196
+#: ../../source/chapters/appendix.rst:206
+# 49ace7cdb5984fc69c9b00c86bdf0c05
+msgid "Enable Vinyl Control 4"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:206
+# 87ba27d13dfc471c9a0c4f0a7eead44c
+msgid "Ctrl + I"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:208
 # 8965136a445045bb9dd191a13fc60559
 msgid "Enable Live Broadcasting"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:196
+#: ../../source/chapters/appendix.rst:208
 # 532226edf7b145e4ba8174b55f945378
 msgid "Ctrl + L"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:198
+#: ../../source/chapters/appendix.rst:210
 # 6f3ce55a670a4813b61ecc99e1c430ed
 msgid "Record Mix"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:198
+#: ../../source/chapters/appendix.rst:210
 # 48fd1760ce3d44e49927133b42f1ec0b
 msgid "Ctrl + R"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:200
+#: ../../source/chapters/appendix.rst:212
 # 654d0181af874f7c8f0afc0d837d7f7b
 msgid "Enable Keyboard Shortcuts"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:200
+#: ../../source/chapters/appendix.rst:212
 # f6533d75e9304b9588646bd1ed3722f8
 msgid "Ctrl + \\`"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:202
+#: ../../source/chapters/appendix.rst:214
 # cc1f378b2776474a8f06e9a5a4554b63
 msgid "Open Preferences (Windows & Linux)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:202
+#: ../../source/chapters/appendix.rst:214
 # 4c29fc0ef8464d958eedff2055ea9b26
 msgid "Ctrl + P"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:204
+#: ../../source/chapters/appendix.rst:216
 # 0d7bf1ad01344d37a7175a31f23a975e
 msgid "Open Preferences (Mac OS X)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:204
+#: ../../source/chapters/appendix.rst:216
 # 87ba27d13dfc471c9a0c4f0a7eead44c
 msgid "Ctrl + ,"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:206
+#: ../../source/chapters/appendix.rst:218
 # 8641fbfba89446c6b70d75d384058257
 msgid "Exit Mixxx"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:206
+#: ../../source/chapters/appendix.rst:218
 # ab838306abba47a3bd876b0a287ed6ee
 msgid "Ctrl + Q"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:208
+#: ../../source/chapters/appendix.rst:220
 # 5ef8927483db4c21964ff1b2f205a2b3
 msgid "**Developer menu**"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:210
+#: ../../source/chapters/appendix.rst:222
 # e27e119cce2c4470a4e1494d18fd0710
 msgid "Reload skin"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:210
+#: ../../source/chapters/appendix.rst:222
 # 3f49ccead7764f309c59981f0f856bf6
 msgid "Ctrl + Shift + R"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:212
+#: ../../source/chapters/appendix.rst:224
 # ceab507f555c4b5ba6e186a6a2a6d861
 msgid "Developer Tools"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:212
+#: ../../source/chapters/appendix.rst:224
+# 7c5df83b96d54581a63cbf5ddddaf1c9
+msgid "Ctrl + Shift + T"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:226
+# a0387dec59c247c59e1cc918ed493a27
+msgid "Stats: Base Bucket"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:226
+# d9d4d045e3ad4f4db96f98746b6c7e0a
+msgid "Ctrl + Shift + B"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:228
+# 931aa29762e34e0b9766f38841c67b09
+msgid "Stats: Experiment Bucket"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:228
+# d9d4d045e3ad4f4db96f98746b6c7e0a
+msgid "Ctrl + Shift + E"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:230
+# e8f48b176bea4dd893c306d651f09457
+msgid "Debugger Enabled"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:230
 # d9d4d045e3ad4f4db96f98746b6c7e0a
 msgid "Ctrl + Shift + D"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:215
+#: ../../source/chapters/appendix.rst:233
 # 1ebcb8d5fa724fd9ba312138f800ab4d
 msgid "The :kbd:`Ctrl` key on Windows & Linux is equivalent to the :kbd:`Command` key on Mac OS X. The :kbd:`Alt` key on Windows & Linux is equivalent to the :kbd:`Option` key on Mac OS X. Application shortcuts are not customizable."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:220
+#: ../../source/chapters/appendix.rst:238
 # 48ce18b11c754012b1af753a1c59dbca
 msgid "The Developer menu is available if Mixxx is started using the :ref:`appendix-command-line-options`."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:226
+#: ../../source/chapters/appendix.rst:244
 # 2c6068f68ee64571be7a68efcbf82f7b
 msgid "Command line options"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:228
+#: ../../source/chapters/appendix.rst:246
 # baf958ac919d4c528a5a201d75d3af39
 msgid "Mixxx is designed to be as user-friendly as possible. As such, its command line options are only useful for development or debugging, as they make these tasks easier. Comment line options are case-sensitive."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:232
-# f3f5b120a43c42b39af9c56e75a7a829
-msgid "Show debug tooltips and provide extra skins when developer mode is enabled. Added ``--safeMode`` option."
+#: ../../source/chapters/appendix.rst:252
+# 38c48572f4bb4ab3ab52baa7bcb4803d
+msgid "Show debug tooltips"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:237
+#: ../../source/chapters/appendix.rst:253
+# f3f5b120a43c42b39af9c56e75a7a829
+msgid "Provide extra skins when developer mode is enabled."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:254
+# 93eafe314a644059a87e6860ba7e8bb4
+msgid "Adds the debugger during skin parsing in ``--developer`` mode"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:255
+# 2e4a5a3ec18043fcaf54c8e1d016e4f6
+msgid "Adds \"Enable Base\" and \"Enable Experiment\" option in ``--developer`` mode"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:256
+# 9b505ad455e74d2ca33a0885542195ff
+msgid "Added ``--safeMode`` option."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:259
 # 347f2bf234124a7ba88422babdf0db11
 msgid "Option"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:237
+#: ../../source/chapters/appendix.rst:259
 # 6260fddfeec94823900d35bd0555e8c1
 msgid "Description"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:239
+#: ../../source/chapters/appendix.rst:261
 # f182d361b2f1462691feb73e25d48e22
 msgid "[FILE]"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:239
+#: ../../source/chapters/appendix.rst:261
 # ec0010459f454a2ea1cbaec30c3e3faf
 msgid "Load the specified music file(s) at start-up. Each file you specify will be loaded into the next virtual deck. Supported file types: mp3, ogg, aiff, aif, wav, flac, and optional unprotected aac (m4a)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:245
+#: ../../source/chapters/appendix.rst:267
 # 1766ccba345f41f5a0f8a9e6fd7b70c5
 msgid "--resourcePath PATH"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:245
+#: ../../source/chapters/appendix.rst:267
 # 8e2fc31a127f455a819e046417d6c2e4
 msgid "Top-level directory where Mixxx should look for its resource files such as MIDI mappings, overriding the default installation location."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:249
+#: ../../source/chapters/appendix.rst:271
 # d1160f8f39ca429291dcf2b8127cc272
 msgid "--pluginPath PATH"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:249
+#: ../../source/chapters/appendix.rst:271
 # 868d941846f74cbbac07b5e1174263e3
 msgid "Top-level directory where Mixxx should look for sound source plugins in addition to default locations."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:253
+#: ../../source/chapters/appendix.rst:275
 # 090b12a6e85f43c08c50c5602c489acd
 msgid "--settingsPath PATH"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:253
+#: ../../source/chapters/appendix.rst:275
 # 1e35a01cc77049f3871f33e163e14136
 msgid "Top-level directory where Mixxx should look for user settings files such as the library database and preferences configuration file."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:257
+#: ../../source/chapters/appendix.rst:279
 # f4614bb7640d41fcb1b94dd2777a0491
 msgid "--controllerDebug"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:257
+#: ../../source/chapters/appendix.rst:279
 # a066ce8feb9b432a9f0994710d281d5c
 msgid "Causes Mixxx to display/log all controller data it receives and script functions it loads."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:260
+#: ../../source/chapters/appendix.rst:282
 # 9d1588b27e344653ade8534bdbfba61b
 msgid "--developer"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:260
+#: ../../source/chapters/appendix.rst:282
 # c9b3255532ed46be95bb17fcef6e4f20
-msgid "Enables developer-mode. Includes extra log info, stats on performance, a Developer tools menu, extra developer skins, and provides useful information for skin writers in widget tooltips."
+msgid "Enables developer-mode. Includes extra log info, stats on performance, a Developer tools menu, extra developer skins, and provides useful information for skin writers in widget tooltips and logs ."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:265
+#: ../../source/chapters/appendix.rst:288
 # 4b28ffc50fdd461da935291d4fcc8301
 msgid "--safeMode"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:265
+#: ../../source/chapters/appendix.rst:288
 # ae998edfcb45424c8c342f6d078c8b8b
 msgid "Disables risky things at start up. This should help troubleshoot crashes at startup or if Mixxx won't boot."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:269
+#: ../../source/chapters/appendix.rst:292
 # 13c9064584b34dbdb4416b8c601888cb
 msgid "Automatically loads empty waveforms"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:270
+#: ../../source/chapters/appendix.rst:293
 # fdd50e7b406844cea72ce0b00ad92890
 msgid "Disables spinning vinyl widgets"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:271
+#: ../../source/chapters/appendix.rst:294
 # 373277869e004dbe8eb01c29e7aaca7c
 msgid "Disables synchronization polling"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:272
+#: ../../source/chapters/appendix.rst:295
 # 34456934e90d477085b9a91ab9c58a81
 msgid "Doesn't open controllers by default"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:274
+#: ../../source/chapters/appendix.rst:297
 # be69b9b35ad745059e274c0643135769
 msgid "--locale LOCALE"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:274
+#: ../../source/chapters/appendix.rst:297
 # d8de02113f84480e83b49238126c2703
 msgid "Use a custom locale for loading translations (e.g 'fr')"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:277
+#: ../../source/chapters/appendix.rst:300
 # bc84db5f42e946b7bdedab0f5e7670b7
 msgid "-f, --fullScreen"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:277
+#: ../../source/chapters/appendix.rst:300
 # 2917be51a2624b84a9216ac8434d80e0
 msgid "Starts Mixxx in full-screen mode"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:279
+#: ../../source/chapters/appendix.rst:302
 # 17be1e4e2b32400d9ec07bffdc593709
 msgid "-h, --help"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:279
+#: ../../source/chapters/appendix.rst:302
 # 58da5480f2974c56af57c29795869dbd
 msgid "Display this help message and exit"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:282
-# bc8c0c9840e54d58903b935d49ee3864
-msgid "**Example:** To start Mixxx in Developer mode from a custom resource directory with :term:`MIDI` and :term:`HID` logging enabled, type the following line into the terminal and hit return: ::"
+#: ../../source/chapters/appendix.rst:306
+# ceab507f555c4b5ba6e186a6a2a6d861
+msgid "Developer tools"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:292
+#: ../../source/chapters/appendix.rst:308
+# bc8c0c9840e54d58903b935d49ee3864
+msgid "To start Mixxx in Developer mode from a custom resource directory with :term:`MIDI` and :term:`HID` logging enabled, type the following line into the terminal and hit return: ::"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:316
+# b6be774303f748fe9aef5cff36e09060
+msgid "Experiment modes for rapid development and testing"
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:320
+# 6562bb00f7534b1c9bbd34310982e0cf
+msgid "Adds a static Experiment class with a tri-state mode flag that indicates whether the experiment mode is OFF, BASE, or EXPERIMENT."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:323
+# e2def04aa887421ba3e5427014374026
+msgid "Adds :menuselection:`Developer-->Stats:Experiment Bucket` and :menuselection:`Developer-->Stats:Base Bucket`. Each one toggles between OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would like to collect in your base and experiment buckets."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:328
+# f5011b12f8f34607b688dea1e95ccbb4
+msgid "Updates StatsManager to segment collected stats into a base and experiment bucket. This allows you to quickly measure the difference a code change has on relevant counters / timers within the same execution of Mixxx."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:332
+# af2e82901ac942d7bd56c84deb11934f
+msgid "This is useful for quickly enabling and disabling a code change without a re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as well as a quantified sense of how it differs in terms of stats Mixxx collects."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:337
+# 4410b5bb0fbe46e888f9a7a27347a071
+msgid "All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are segmented into a BASE STATS and EXPERIMENT STATS section printed to the log on exit."
+msgstr ""
+
+#: ../../source/chapters/appendix.rst:345
 # 82f86f2dfae7453c8fe39a3cb2b7e555
 msgid "Version History"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:294
+#: ../../source/chapters/appendix.rst:347
 # 79bb7b7ab92a401894658db93bdcd6ee
 msgid "**v1.11.0** (2013-05-09)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:296
+#: ../../source/chapters/appendix.rst:349
 # 4efcf4804eec4dc2970a1dd63bded2b7
 msgid "Completely revamped Waveforms"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:297
+#: ../../source/chapters/appendix.rst:350
 # f283be284a2f4d3d9717a16ed45b7267
 msgid "Direct :term:`HID controller` support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:298
+#: ../../source/chapters/appendix.rst:351
 # 636aefd5920f41ecb6ffa18b64713c22
 msgid "Point & Click Controller Mapping"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:299
+#: ../../source/chapters/appendix.rst:352
 # 7b532b8cd45d4adeb36a08b703525743
 msgid "Next Generation Beat Detection"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:300
+#: ../../source/chapters/appendix.rst:353
 # 203a7eb8212844cc9b5766639c0596e8
 msgid "Library History Feature"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:301
+#: ../../source/chapters/appendix.rst:354
 # 4837b0c3af6145519723c0d846474c26
 msgid "Improved AutoDJ"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:302
+#: ../../source/chapters/appendix.rst:355
 # 9279a666e59c4d4787899ca80eded8eb
 msgid "Beatloop Rolls"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:303
+#: ../../source/chapters/appendix.rst:356
 # a044569114504c13ae2820fc8b5c88b6
 msgid "Preview Deck"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:304
+#: ../../source/chapters/appendix.rst:357
 # e6374bb452964e27a0f5784b80815810
 msgid "Advanced Search"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:305
+#: ../../source/chapters/appendix.rst:358
 # 72fa4dcb50cc4d73b02c3757fa3123ff
 msgid "New and Improved User Manual"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:306
+#: ../../source/chapters/appendix.rst:359
 # ba34c16c128b402d837f5d805af308f5
 msgid "New Controller Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:308
+#: ../../source/chapters/appendix.rst:361
 # 76eac5a90c51461dbfebe8cb44bcf9a5
 msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.11.0 <https://launchpad.net/mixxx/+milestone/1.11.0>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:311
+#: ../../source/chapters/appendix.rst:364
 # 39622f4ab5d746c6bd59c2506d92f676
 msgid "**v1.10.1** (2012-06-30)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:313
+#: ../../source/chapters/appendix.rst:366
 # 4c13fd46507447f7bb9e235bafd8c934
 msgid "Bugfixes"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:315
+#: ../../source/chapters/appendix.rst:368
 # 4f2ec11f03514c488238084c81301c57
 msgid "For a full list of bugfixes, go to: `https://launchpad.net/mixxx/1.10.1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:318
+#: ../../source/chapters/appendix.rst:371
 # 0ac8f86f7a84466d885ee7c1a9d9e806
 msgid "**v1.10.0** (2011-12-25)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:320
+#: ../../source/chapters/appendix.rst:373
 # 62631be7bea14d358b04590f99c8d4ae
 msgid "Rewritten and Improved Vinyl Control Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:321
+#: ../../source/chapters/appendix.rst:374
 # ae3a0272906f4e68890006b3dee6e881
 msgid "4 Sampler Decks"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:322
+#: ../../source/chapters/appendix.rst:375
 # 5cf32fd1fead474d8d9a01dfb4ca476e
 msgid "Quantized Loops, Hotcues and Beatloops"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:323
+#: ../../source/chapters/appendix.rst:376
 # 6a8310ce9ad14238ad50fd21a95602cd
 msgid "Phase Synchronization"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:324
+#: ../../source/chapters/appendix.rst:377
 # 24a47e093bea4a5ba3c1623835a46ebd
 msgid "Beatgrid Adjust Feature"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:325
+#: ../../source/chapters/appendix.rst:378
 # b255eded24ee4589b5976154e196b880
 msgid "Microphone Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:326
+#: ../../source/chapters/appendix.rst:379
 # 6c17be2fb5e246828d0b315f3d91926d
 msgid "Spinning Turntable Widgets and Waveform Scratching"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:327
+#: ../../source/chapters/appendix.rst:380
 # 04d69fac085f4fdc8647bd109df9998d
 msgid "M4A Support for Windows Vista and Windows 7 users"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:328
+#: ../../source/chapters/appendix.rst:381
 # 3caae0882e0a4d428419c0d0fa5b2648
 msgid "Brand New and Updated Skins"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:329
+#: ../../source/chapters/appendix.rst:382
 # 15a106553c5445c3b83be705acb16c7e
 msgid "Accessibility Improvements"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:330
+#: ../../source/chapters/appendix.rst:383
 # cf1b7a10f7d245288936f6958a08a9ad
 msgid "Limited Support for Internationalization"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:331
+#: ../../source/chapters/appendix.rst:384
 # 671f89e7be484adfad7a8f6b3df5dd53
 msgid "Revamped and Rewritten User Manual"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:332
+#: ../../source/chapters/appendix.rst:385
 # 37fdf6479b0649ab9e6829e0392c603d
 msgid "Mixing engine improvements"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:333
+#: ../../source/chapters/appendix.rst:386
 # b4216fa0436d48cab86e8a806520dce5
 msgid "Updated MIDI Mappings"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:335
+#: ../../source/chapters/appendix.rst:388
 # 0dd19ad56d3b465f9e8ef3226558edf6
 msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:338
+#: ../../source/chapters/appendix.rst:391
 # bb486b070e584f56b3f42ee954cb951f
 msgid "For an overview of previous versions, `take a look <https://launchpad.net/mixxx/+series>`_ at the timeline."
 msgstr ""

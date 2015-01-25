@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-01-25 13:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,6 +254,36 @@ msgstr ""
 #: ../../source/manual_guidelines.rst:199
 # 580db9649104495cab7b26c0aa4fee6f
 msgid "Normally, there are no heading levels assigned to certain characters as the structure is determined from the succession of headings. However, for the Python documentation, this convention is used which you may follow:"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# e2afe0114f61429fa72543446487c44f
+msgid "``#`` with overline, for parts"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# 571b5e3b6a0c4298919dbc7666c9ea33
+msgid "``*`` with overline, for chapters"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# 421d3e38d110469ebf55575cfc00dd76
+msgid "``=`` for sections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# 69d56ffe98ed49cebdf8110dc1a07dfb
+msgid "``-`` for subsections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# 064532ae05c14db9877cd28e76b28df8
+msgid "``^`` for subsubsections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+# 4175163fed51417a8ece35aab54e6dbc
+msgid "``\"`` for paragraphs"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:210

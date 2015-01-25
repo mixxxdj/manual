@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-01-25 13:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,781 +30,876 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:23
 # 20ac2afffa8b41df8871bf622a65598b
-msgid "The library manages all of your music files. This is where you can find the tracks you want to play and load them into a :ref:`deck <interface-decks>` or :ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`.  Mixxx imports your music library automatically when it is run for the first time, and automatically detects newly added tracks on each subsequent run, see :ref:`djing-import`."
+msgid "The library manages all of your music files. This is where you can find the tracks you want to play and load them into a :ref:`deck <interface-decks>` or :ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx imports your music library automatically when it is run for the first time, see :ref:`djing-import` for more information."
 msgstr ""
 
-#: ../../source/chapters/library.rst:30
+#: ../../source/chapters/library.rst:29
 # b6d0699383eb4149a06f70f868933ec2
 msgid "The sidebar on the left contains different collections of music. The track list view on the right displays the tracks in those collections."
 msgstr ""
 
-#: ../../source/chapters/library.rst:33
+#: ../../source/chapters/library.rst:32
 # f32a6994d1ac4ada9359f472259282c2
 msgid "**Sidebar**:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:35
+#: ../../source/chapters/library.rst:34
 # 422461e66b8d44f7b5c11141a897da13
 msgid "**Search**: Search for tracks in your Mixxx library."
 msgstr ""
 
-#: ../../source/chapters/library.rst:36
+#: ../../source/chapters/library.rst:35
 # 1c4b3b7dfbee425bb1ac3e578633e99b
 msgid "**Library**: View and edit your whole collection."
 msgstr ""
 
-#: ../../source/chapters/library.rst:37
+#: ../../source/chapters/library.rst:36
 # 12934aec54a64de6aed5516ecbb9f72c
 msgid "**Auto DJ**: Automatically load and crossfade tracks for unattended mixing."
 msgstr ""
 
-#: ../../source/chapters/library.rst:38
+#: ../../source/chapters/library.rst:37
 # b297639daf374d83962f4925bba136b0
 msgid "**Playlists**: Organize your tracks in sortable lists."
 msgstr ""
 
-#: ../../source/chapters/library.rst:39
+#: ../../source/chapters/library.rst:38
 # a2f81a6bbba34913b1285d9b2fe681c6
 msgid "**Crates**: Manage your files in unordered track collections."
 msgstr ""
 
-#: ../../source/chapters/library.rst:40
+#: ../../source/chapters/library.rst:39
 # 28781c891af74b94b9a275d8eb2f104f
 msgid "**Browse**: Browse and load tracks from your file system and connected devices."
 msgstr ""
 
-#: ../../source/chapters/library.rst:41
+#: ../../source/chapters/library.rst:40
 # 73afa632a5a74d9bbf80585cc2e5be92
 msgid "**Recordings**: Record your mix and view previous recordings."
 msgstr ""
 
-#: ../../source/chapters/library.rst:42
+#: ../../source/chapters/library.rst:41
 # 29699e750a4f4abcbc6ce6962c23742b
 msgid "**History**: Browse lists of tracks you played in past mixing sessions."
 msgstr ""
 
-#: ../../source/chapters/library.rst:43
+#: ../../source/chapters/library.rst:42
 # 39e60f0bba7645218adeff84a09be45e
 msgid "**Analyze**: Prepare your tracks for optimal mixing experience."
 msgstr ""
 
-#: ../../source/chapters/library.rst:44
+#: ../../source/chapters/library.rst:43
 # 4c8e85b890d54d97960f4804f05e8cfd
 msgid "**External Libraries**: Access your existing iTunes, Traktor, Rhythmbox, and Banshee libraries."
 msgstr ""
 
-#: ../../source/chapters/library.rst:47
+#: ../../source/chapters/library.rst:46
 # aa45c25d70f6408293909b77c538f0cf
 msgid "**Track List**:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:49
+#: ../../source/chapters/library.rst:48
 # 1a3999353f294609aa1e2557ac7bf805
 msgid "**Sort**: Display and sort track collections by different criteria."
 msgstr ""
 
-#: ../../source/chapters/library.rst:50
+#: ../../source/chapters/library.rst:49
 # c71cd486cca246a985a493c798c92be3
 msgid "**Load**: Drag tracks you want to play to the waveform display."
 msgstr ""
 
-#: ../../source/chapters/library.rst:51
+#: ../../source/chapters/library.rst:50
 # f68b45da08a54106b7b4c73af21cc886
 msgid "**Edit**: Rate tracks and edit track properties."
 msgstr ""
 
-#: ../../source/chapters/library.rst:56
+#: ../../source/chapters/library.rst:55
 # 09bcd9f58e8d42d0b048eb1fa055581c
 msgid "Search - Find your tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:65
+#: ../../source/chapters/library.rst:64
 # 82f1ad90835442f0a8b70e4528c4ad23
 msgid "The Search box - Has focus and a search term entered"
 msgstr ""
 
-#: ../../source/chapters/library.rst:67
+#: ../../source/chapters/library.rst:66
 # b65600acb4f94ffc8f84dc761852bce1
 msgid "The Search box above the sidebar filters the current library view for tracks that match your search query. The library search include some nice search features; go to the chapter :ref:`djing-finding-tracks` for details."
 msgstr ""
 
-#: ../../source/chapters/library.rst:74
+#: ../../source/chapters/library.rst:73
 # 94edec66f9c74522b47e17943ec6251a
 msgid "Library - View and edit your whole collection"
 msgstr ""
 
-#: ../../source/chapters/library.rst:79
+#: ../../source/chapters/library.rst:78
 # 937a3929ea2a402a90bdb79d68196c3b
 msgid "|ic_lib_library| The Library displays a sortable list of all the tracks in your music library."
 msgstr ""
 
-#: ../../source/chapters/library.rst:86
+#: ../../source/chapters/library.rst:85
 # 721f2e68bf2646b892d6af2e3e4f2f14
 msgid "**Customizing the view**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:83
+#: ../../source/chapters/library.rst:82
 # c07cbb26c5e94396a2aa3a209aba584b
 msgid "Move columns by clicking in a column header and dragging it to another position. Right-click on a column header to show and hide particular columns. Adjust the column width to fit the contents of the rows by double-clicking on the separator between two column headers."
 msgstr ""
 
-#: ../../source/chapters/library.rst:91
+#: ../../source/chapters/library.rst:90
 # d079271dfacd41b6ab929adac9457121
 msgid "**Sorting Tracks**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:89
+#: ../../source/chapters/library.rst:88
 # 01b4610d9f4f490294a85c20b86ad1c9
 msgid "Tracks are automatically sorted by the active column. Click on the active column header to reverse the sort order. Click on another column header to change the active column."
 msgstr ""
 
-#: ../../source/chapters/library.rst:95
+#: ../../source/chapters/library.rst:94
 # 30882325953145a1aa1077f7ca5896a5
 msgid "**Rating tracks**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:94
+#: ../../source/chapters/library.rst:93
 # fd6a129ef42f49ba89923abb9a245e9e
 msgid "Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering over the rating field and clicking the stars."
 msgstr ""
 
-#: ../../source/chapters/library.rst:101
+#: ../../source/chapters/library.rst:100
 # d596b71d35ec4fbfaded9d71b2cd8629
 msgid "**Track Inline editing**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:98
+#: ../../source/chapters/library.rst:97
 # 508bf3a3c170479ca82d13df167e4dc0
 msgid "Mixxx reads :term:`metadata` from the tracks to fill the columns of the library. Double-click on a field, edit the data, and hit :kbd:`Enter` when you are done. Go to the chapter :ref:`edit metadata <djing-edit-metadata>` for detailed information."
 msgstr ""
 
-#: ../../source/chapters/library.rst:106
+#: ../../source/chapters/library.rst:105
 # 0c4923cc9dff4997b26dca5e402cf986
 msgid "**Loading tracks**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:104
+#: ../../source/chapters/library.rst:103
 # 8581d6e0dd6c48c09e21cc4ef408ce18
 msgid "To load a track into a :ref:`deck <interface-decks>`, you can either drag it to the waveform display or use the context menu. Go to the chapter :ref:`djing-loading-tracks` for detailed information."
 msgstr ""
 
-#: ../../source/chapters/library.rst:111
+#: ../../source/chapters/library.rst:109
 # bbbba225822647ecbca0b019a0201e8f
 msgid "**Importing tracks**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:109
+#: ../../source/chapters/library.rst:108
 # 52bdadfe83ce44548a1fa9ad5f3ec89c
-msgid "Mixxx imports your music library automatically when it is run for the first time, and automatically detects newly added tracks on each subsequent run. Go to the chapter :ref:`djing-import` for detailed information."
+msgid "Mixxx imports your music library automatically when it is run for the first time. Go to the chapter :ref:`djing-import` for detailed information."
 msgstr ""
 
-#: ../../source/chapters/library.rst:116
+#: ../../source/chapters/library.rst:114
 # a65df240f8b5441e8a450b7eb8d8cf93
 msgid "**Previewing Tracks**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:114
+#: ../../source/chapters/library.rst:112
 # af2d2c0d0d8e48e4b6e970ab0a11e437
 msgid "To pre-listen to tracks in your headphones without loading them to a regular deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column. Go to the chapter :ref:`djing-previewing-tracks` for detailed information."
 msgstr ""
 
+#: ../../source/chapters/library.rst:116
+# 7ee1d4ea893d465fa2996fd468c2c9bc
+msgid "**Cover/Album Art**"
+msgstr ""
+
+#: ../../source/chapters/library.rst:118
+# e3b2602405c848059912be084e48a221
+msgid "Mixxx can display any cover art that it finds for a track in the library. The search algorithm will check locally for available cover art, and chooses the first cover that appears in the following list:"
+msgstr ""
+
+#: ../../source/chapters/library.rst:122
+# 92919c7bd89d42d3bcee31bc6e15fbdf
+msgid "The first cover saved in the ID3v2 :term:`tags<metadata>` of the track"
+msgstr ""
+
 #: ../../source/chapters/library.rst:123
+# aedaf2ee16e74abd90f775abbd24da0d
+msgid "If just one image file exists in the track folder take that."
+msgstr ""
+
+#: ../../source/chapters/library.rst:124
+# 6cec53ba089544ab98e83fd52d36e776
+msgid ":file:`%track-file-base%.jpg` in the track directory for :file:`%track-file-base%.mp3`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:125
+# 81a39fa0d822445aaa2acc1f35c4d655
+msgid ":file:`%album%.jpg`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:126
+# df535df765904e3fb9de88815091b93e
+msgid ":file:`cover.jpg`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:127
+# 3fb95e6d385248e996c952f8f28a76f1
+msgid ":file:`front.jpg`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:128
+# d544e8a1be9a41b7a7d3828d3df6e1b6
+msgid ":file:`album.jpg`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:129
+# 711c26baf3654db1b6b4662e6ad26065
+msgid ":file:`folder.jpg`"
+msgstr ""
+
+#: ../../source/chapters/library.rst:131
+# 0261c712a0a648749a8e4fa52cca0e90
+msgid "Mixxx supports the following image types: jpg, jpeg, png, gif, bmp"
+msgstr ""
+
+#: ../../source/chapters/library.rst:138
 # 6a08afedd75140ea9f121386ae27ebbc
 msgid "**Rescan Library**"
 msgstr ""
 
-#: ../../source/chapters/library.rst:119
+#: ../../source/chapters/library.rst:134
 # 793d5bfdbffc49a186a4aa1ea753a542
-msgid "If you want to manually refresh your library without exiting (for example because you added or moved files) you can do this with :menuselection:`Library --> Rescan Library` in the menu on top of the application window. You can prompt an automatic rescan in :menuselection:`Preferences --> Library --> Rescan on startup`."
+msgid "If you want to manually refresh your library without exiting (for example because you added or moved files) you can do this with :menuselection:`Library --> Rescan Library` in the menu on top of the application window. You can prompt an automatic rescan when Mixxx is started in :menuselection:`Preferences --> Library --> Rescan on startup`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:126
+#: ../../source/chapters/library.rst:141
 # e222df2777c44e51bc68bb85bb84be55
 msgid "Track list context menu"
 msgstr ""
 
-#: ../../source/chapters/library.rst:128
+#: ../../source/chapters/library.rst:143
 # 9b982c79f3ab44399c8deaf018d50998
-msgid ":guilabel:`Reload Track Metadata from MusicBrainz` and :guilabel:`Change BPM` context menu options."
+msgid ":guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM` context menu options and :guilabel:`Cover Art`"
 msgstr ""
 
-#: ../../source/chapters/library.rst:132
+#: ../../source/chapters/library.rst:147
 # 1ebb0cc2afbe46999747c93514346591
-msgid "All related options are in the :guilabel:`BPM Options` sub-menu."
+msgid "All BPM related options are in the :guilabel:`BPM Options` sub-menu."
 msgstr ""
 
-#: ../../source/chapters/library.rst:135
+#: ../../source/chapters/library.rst:150
 # 99071d6ce9ce4906aeb39bbf8ca6a089
 msgid "Right-clicking on selected tracks in the track list reveals the context menu:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:137
+#: ../../source/chapters/library.rst:152
 # 3ce45025657d429180687ff5423e9bf8
 msgid "**Add to Auto DJ**: Adds the content of the selection to either the :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>` playlist for automatic mixing."
 msgstr ""
 
-#: ../../source/chapters/library.rst:140
+#: ../../source/chapters/library.rst:155
 # ef687f0e5d794c56aefd865e03517fc5
 msgid "**Load to Deck/Sampler**: Loads a selected file to a :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or :ref:`Previewdeck <interface-preview-deck>`. Alternatively simply drag it to the :ref:`interface-waveform`. Note that you can't load multiple files at ones."
 msgstr ""
 
-#: ../../source/chapters/library.rst:145
+#: ../../source/chapters/library.rst:160
 # 51b9dec4f9e949e1b6c90a81e1bce917
 msgid "**Add to playlist/crate**: Add selected tracks to the playlists or crates that you have created before. Alternatively, drag the selection to the playlist or crate in the sidebar."
 msgstr ""
 
-#: ../../source/chapters/library.rst:148
+#: ../../source/chapters/library.rst:163
 # 0007d77238cd4a829e1837bd0c0bd365
 msgid "**BPM Options sub-menu**:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:150
+#: ../../source/chapters/library.rst:165
 # 1f7bc514e48745789650b80151a14e13
 msgid "**Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks. If many of the detected BPM are off from the tracks original tempo, you might want to adjust the :guilabel:`BPM Range` in the :ref:`Analyzer Settings <djing-bpm-detection>` and re-run the analysis."
 msgstr ""
 
-#: ../../source/chapters/library.rst:156
+#: ../../source/chapters/library.rst:171
 # e659ce75daa944dba2c7892e9e9b3a12
 msgid "**Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so you can't edit them in the track properties. The |ic_lib_bpm_unlocked| icon next to the track's BPM in the library row is a toggle. Clicking it will set the status to \"locked\", and the icon changes to |ic_lib_bpm_locked|."
 msgstr ""
 
-#: ../../source/chapters/library.rst:161
+#: ../../source/chapters/library.rst:176
 # bf7bc764b3fc47eb8dff2f1c36532ceb
 msgid "**Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data of selected tracks from the Mixxx library. After doing this, we recommended you to :ref:`analyze <library-analyze>` the tracks again."
 msgstr ""
 
-#: ../../source/chapters/library.rst:165
+#: ../../source/chapters/library.rst:180
 # 9e1c9a1fa8cd43c18ee2b509a9d2d93a
 msgid "**Reload Track Metadata from File**: If the track's :term:`metadata` changes, e.g. if you used iTunes to edit them, this option lets you save the new values for the selected tracks to the Mixxx library, see :ref:`edit metadata <djing-edit-metadata>`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:169
+#: ../../source/chapters/library.rst:184
 # f8fc3452bb0b46df89fb74ce50329baf
 msgid "**Reload Track Metadata from MusicBrainz**: Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database, and apply the search results to your tracks, see :ref:`edit metadata <djing-edit-metadata>`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:173
+#: ../../source/chapters/library.rst:188
+# 0007d77238cd4a829e1837bd0c0bd365
+msgid "**Cover Art Option sub-menu**:"
+msgstr ""
+
+#: ../../source/chapters/library.rst:190
+# 8c7586d003c04d2f86711f68eb3154bd
+msgid "**Choose New Cover**: Select an image from the file-browser as new cover."
+msgstr ""
+
+#: ../../source/chapters/library.rst:191
+# 5c695ef5a5b04b60a2fef57777d02392
+msgid "**Unset Cover**: Delete any cover information saved for this track."
+msgstr ""
+
+#: ../../source/chapters/library.rst:192
+# 510804967c3a417dabe419388b245de9
+msgid "**Reload from track/folder**: Reload the cover from the tracks ID3v2 :term:`tags<metadata>` or a picture in the track folder if they are not available."
+msgstr ""
+
+#: ../../source/chapters/library.rst:196
 # 7a804cdf13964eaca0f4c6a73bb01b4d
 msgid "**Hide from Library**: Temporarily hides selected tracks from the track list. Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is explained below."
 msgstr ""
 
-#: ../../source/chapters/library.rst:176
+#: ../../source/chapters/library.rst:199
 # 21bbc6ab3d8843fe88b574d96bf81889
 msgid "**Reset Play Count**: Marks selected tracks as not played in the current session and set their play counter to zero. The icon in the :guilabel:`Played` column changes."
 msgstr ""
 
-#: ../../source/chapters/library.rst:179
+#: ../../source/chapters/library.rst:202
 # a850bdfa24bc49278b20649d16fd5cf1
 msgid "**Open in File Browser**: Browse for the selected files in your file manager."
 msgstr ""
 
-#: ../../source/chapters/library.rst:180
+#: ../../source/chapters/library.rst:203
 # 2abc34f61ad14ccfa311e3cab2e0acea
 msgid "**Properties**: Similar to inline editing explained above, the properties dialog allows you to view and edit metadata such as title, artist, album, and view the full file name and path. Note that you can not edit multiple files at once."
 msgstr ""
 
-#: ../../source/chapters/library.rst:185
+#: ../../source/chapters/library.rst:208
 # 2b3ceeb2cb82444c8b55209f9f7d8990
 msgid "Most of the context menu items are available in file lists of other views like Auto DJ, Playlists, and Crates as well."
 msgstr ""
 
-#: ../../source/chapters/library.rst:189
+#: ../../source/chapters/library.rst:212
 # 7f29e59a241e458bb91fa9940f6840e7
 msgid "Missing Tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:195
+#: ../../source/chapters/library.rst:218
 # 9a1d90f9c6914d79bea2c81bf2610484
 msgid "The Missing Tracks view is accessible by expanding the Library tree item in the sidebar. Any tracks that were previously loaded into your library, but were later detected to be missing from your hard disk by Mixxx will appear here. Mixxx does not automatically delete records of missing tracks so that extra metadata Mixxx might have (such as hotcues and the beatgrids) will not be lost if the file is replaced."
 msgstr ""
 
-#: ../../source/chapters/library.rst:202
-#: ../../source/chapters/library.rst:222
+#: ../../source/chapters/library.rst:225
+#: ../../source/chapters/library.rst:245
 # 407a5fd4054542548c19cc9531c5614f
-# a7af8b3ac4554bc7adb2dc7d62f7e750
+# 407a5fd4054542548c19cc9531c5614f
 msgid "The features in detail:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:204
-#: ../../source/chapters/library.rst:224
-#: ../../source/chapters/library.rst:507
+#: ../../source/chapters/library.rst:227
+#: ../../source/chapters/library.rst:247
+#: ../../source/chapters/library.rst:544
 # beaf2668fe064932a3140e0d60af83c7
-# 0362d4e83ebb41fbbdae45f8d0b8cd73
-# 33a89b31e07242b6bcbcf1f1c94e3ca0
+# beaf2668fe064932a3140e0d60af83c7
+# beaf2668fe064932a3140e0d60af83c7
 msgid "**Select All button**: Selects all tracks in the current view."
 msgstr ""
 
-#: ../../source/chapters/library.rst:205
+#: ../../source/chapters/library.rst:228
 # f5eab297ef2047828ddbf79a7eb07914
 msgid "**Purge button**: Purges the selected tracks from the Mixxx library, but does not remove them from your computer. This will delete all :term:`metadata` Mixxx has for a track."
 msgstr ""
 
-#: ../../source/chapters/library.rst:210
+#: ../../source/chapters/library.rst:233
 # 5d90ca680c2b49c2acd845b23dd1442b
 msgid "Hidden Tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:216
+#: ../../source/chapters/library.rst:239
 # 3b79a5464ff84f6a9b843f962080ead3
 msgid "The Hidden Tracks view is also accessible by expanding the Library tree item in the sidebar. Any tracks that were previously loaded into your library, but were later set to be hidden from the library, will appear here. Use the :guilabel:`Hide from Library` context menu item in the :ref:`library <library-root>` view to temporarily hide selected tracks."
 msgstr ""
 
-#: ../../source/chapters/library.rst:225
+#: ../../source/chapters/library.rst:248
 # df398773d0904913bc7e4f606b48b7cb
 msgid "**Purge Button**: Purges the selected tracks from the Mixxx library, but does not remove them from your computer. This will delete all :term:`metadata` Mixxx has for a track."
 msgstr ""
 
-#: ../../source/chapters/library.rst:228
+#: ../../source/chapters/library.rst:251
 # e4fc00fd64fc470385e27b09447758ad
 msgid "**Unhide Button**: Removes the selected tracks from the :guilabel:`Hidden Tracks` view and makes them available in the regular track list again. The tracks appear again in every playlist or crate they were listed before they were hidden."
 msgstr ""
 
-#: ../../source/chapters/library.rst:236
+#: ../../source/chapters/library.rst:259
 # 8dcaf84446c84c87a207ceb8f9d7cec3
 msgid "Auto DJ - Automate your mix"
 msgstr ""
 
-#: ../../source/chapters/library.rst:241
+#: ../../source/chapters/library.rst:264
 # 4dc4ee5fad004f288b9b6ddc91cec5b9
 msgid "|ic_lib_autodj| The Auto DJ queue is a special playlist that contains extra controls for automatic mixing. This is useful for taking a break from live mixing or for using Mixxx as media player."
 msgstr ""
 
-#: ../../source/chapters/library.rst:245
+#: ../../source/chapters/library.rst:268
 # bf61a62123a64980a367ae06e59d8352
 msgid "The Auto DJ features in detail:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:247
+#: ../../source/chapters/library.rst:270
 # e2d264ce023e4e8eadde3da888b8c7e1
 msgid "**Shuffle button**: Shuffles the content of the Auto DJ playlist."
 msgstr ""
 
-#: ../../source/chapters/library.rst:248
+#: ../../source/chapters/library.rst:271
+# c3c13cbd3d3449a9825aa61c0737701a
+msgid "**Add Random button**: Add random track from Auto DJ Crates."
+msgstr ""
+
+#: ../../source/chapters/library.rst:272
 # c3c13cbd3d3449a9825aa61c0737701a
 msgid "**Skip track button**: Skips the next track in the Auto DJ playlist."
 msgstr ""
 
-#: ../../source/chapters/library.rst:249
+#: ../../source/chapters/library.rst:273
 # 42d5a7d90ea24c3893fe677515f48391
 msgid "**Fade now button**: Triggers the transition to the next track."
 msgstr ""
 
-#: ../../source/chapters/library.rst:250
+#: ../../source/chapters/library.rst:274
 # 970d14a0db3448d3929f7e4e2549a36b
 msgid "**Transition time spin-box**: Determines the duration of the transition."
 msgstr ""
 
-#: ../../source/chapters/library.rst:251
+#: ../../source/chapters/library.rst:275
 # 480731cf488b4b09aa1cd15ee8625623
 msgid "**Enable Auto DJ button**: Toggles the Auto DJ mode on or off."
 msgstr ""
 
-#: ../../source/chapters/library.rst:253
+#: ../../source/chapters/library.rst:277
 # 7a923691d2294dfd9c04d64d80891841
-msgid "The :guilabel:`Skip track` and :guilabel:`Fade now` buttons are only accessible if the Auto DJ mode is enabled. The Search field in the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks after playing them but you have the choice of telling it not to by activating the :guilabel:`Auto DJ Requeue` option in :menuselection:`Preferences --> Interface`."
+msgid "The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now` buttons are only accessible if the Auto DJ mode is enabled. The Search field in the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks after playing them but if you want AutoDJ to play the same tracks over and over again, you may activate the :guilabel:`Auto DJ Requeue` option in :menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:259
+#: ../../source/chapters/library.rst:284
+# d7270c54ef0d435aa9abcf3e985a8259
+msgid "**AutoDJ Crates**"
+msgstr ""
+
+#: ../../source/chapters/library.rst:288
+# a43c1c64857249358afd61a3dfb4c433
+msgid "It is possible to add random tracks to the bottom of the Auto DJ playlist. The tracks are not chosen from the standard library but from a set of crates. It will be all the crates that you have set as a source for Auto DJ. Mixxx will normally try to select a track that you haven't played so far. You can set a amount off tracks that is always supposed to be available for selection no matter when they where last played in :menuselection:`Preferences --> Auto DJ --> Minimum available tracks in Track Source`."
+msgstr ""
+
+#: ../../source/chapters/library.rst:296
 # 9ad09e4ba7ef4219917141342f7d7b40
 msgid "Put a pause between tracks that are automatically mixed by using a negative value in the :guilabel:`Transition time` spin-box."
 msgstr ""
 
-#: ../../source/chapters/library.rst:262
+#: ../../source/chapters/library.rst:299
 # f3b88e29d58245b98f96ac8722520c3b
 msgid "For more information, go to the chapter :ref:`djing-auto-dj`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:267
+#: ../../source/chapters/library.rst:304
 # f76e3cd74a5f4cdc97336691c1112f1b
 msgid "Playlists - Organizing your tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:272
+#: ../../source/chapters/library.rst:309
 # c67f6306f96a4852937e12ccf52f47c3
 msgid "|ic_lib_playlist| Playlists are ordered lists of tracks that allow you to plan your DJ sets. Some DJs construct playlists before they perform live, but others prefer to build them on-the-fly."
 msgstr ""
 
-#: ../../source/chapters/library.rst:276
+#: ../../source/chapters/library.rst:313
 # 7f71dc2b0a194fdeac960fed959fc58a
-msgid "Playlists are not directly loadable into the decks as Mixxx is primarily intended for live, attended performance use. However, you can use the :ref:`Auto DJ <library-auto-dj>` explained below."
+msgid "Playlists are not directly loadable into the decks as Mixxx is primarily intended for live, attended performance use. However, you can use the :ref:`Auto DJ <library-auto-dj>` explained above."
 msgstr ""
 
-#: ../../source/chapters/library.rst:280
+#: ../../source/chapters/library.rst:317
 # 77b72b86d4f24af28130cf530847c4a1
 msgid "**Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item and select :guilabel:`New playlist`. Name the playlist and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:283
+#: ../../source/chapters/library.rst:320
 # 936061fb2663447cbfde929e45280e8e
 msgid "**Add Tracks**: Add tracks to a previously created playlist by dragging-and-dropping a selection of tracks from the library or playlists onto the name of a playlist in the sidebar. Alternatively, use the right-click context menu in the library`s :ref:`track list<library-root>`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:288
+#: ../../source/chapters/library.rst:325
 # d9d167a67cf54640aa8c94ee161b0690
 msgid ":guilabel:`Analyze Playlist` option in the context menu. Import playlists by drag-and-dropping them into a playlist in the sidebar. :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu options remember the last selected playlist directory. Displays the total number of tracks, and the total duration next to the playlist's name."
 msgstr ""
 
-#: ../../source/chapters/library.rst:296
+#: ../../source/chapters/library.rst:333
 # 7aa5abfd5fc5411c926b30f424a4f239
 msgid "Right-click on an existing playlist's name to access the different features in the context menu:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:299
+#: ../../source/chapters/library.rst:336
 # ccffc8b14279496ebedf0f8451e4a046
 msgid "**Add to Auto DJ**: Adds the content of the playlist to the :ref:`Auto DJ <library-auto-dj>` queue for automatic mixing."
 msgstr ""
 
-#: ../../source/chapters/library.rst:301
+#: ../../source/chapters/library.rst:338
 # a86050c8103d471687831de8794c1bea
 msgid "**Rename**: To rename a playlist, just put in a new playlist name and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:303
+#: ../../source/chapters/library.rst:340
 # 1cc59455d622437698f69e408ad771d7
 msgid "**Duplicate**: Sometimes you want to build a playlist based on an existing one. Select the playlist you would like to duplicate, choose :guilabel:`Duplicate Playlist`, name the new playlist and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:306
+#: ../../source/chapters/library.rst:343
 # 42e76049916644a79f1ee5ad6b7c7662
 msgid "**Remove**: Removes an unlocked playlist. Tracks in the playlist are still available in the library for later use."
 msgstr ""
 
-#: ../../source/chapters/library.rst:308
+#: ../../source/chapters/library.rst:345
 # a4abfe9c13aa49758cc152bbe30fff68
 msgid "**Lock**: |ic_lib_locked| This icon indicates a locked playlist. If a playlist is locked, you cannot add tracks, rename or delete the playlist. Choose :guilabel:`Unlock` from the context menu to unlock the playlist."
 msgstr ""
 
-#: ../../source/chapters/library.rst:311
+#: ../../source/chapters/library.rst:348
 # 1eb0cf10bf8c47a4a2267ad87732b09d
 msgid "**Analyze entire playlist**: Forces the analysis of the playlist in the :ref:`Analyze <library-analyze>` view."
 msgstr ""
 
-#: ../../source/chapters/library.rst:313
+#: ../../source/chapters/library.rst:350
 # 745cfded427d42caa59e9e7d4c309840
 msgid "**Import playlist**: Import tracks from external playlists to a playlist in various file formats. For more information, go to :ref:`library-3rd-party`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:315
+#: ../../source/chapters/library.rst:352
 # 8efe06a0bdda471b9f1b78b81f3b0f00
 msgid "**Export playlist**: Export a playlist in various file formats, such as :file:`m3u`, :file:`pls`, or :file:`csv`. Ideal for processing the data in other applications."
 msgstr ""
 
-#: ../../source/chapters/library.rst:322
+#: ../../source/chapters/library.rst:359
 # 98f1016112cf4ff5b2d694fe94258305
 msgid "Crates - Working with track collections"
 msgstr ""
 
-#: ../../source/chapters/library.rst:327
+#: ../../source/chapters/library.rst:364
 # bf9fef8855254b6ca0b53e3b41d530ce
 msgid "|ic_lib_crates|  Crates are unordered collections of tracks, and are similar to playlists. Think of it like a DJ case to organize your favorite vinyls into."
 msgstr ""
 
-#: ../../source/chapters/library.rst:330
+#: ../../source/chapters/library.rst:367
 # d5cde309fca047bc86724c0a1382a2ee
 msgid "**Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and select :guilabel:`New Crate`. Name the crate and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:332
+#: ../../source/chapters/library.rst:369
 # 9d79e216a5b24f3ea842a43c134be8d2
 msgid "**Add Tracks**: Add tracks to a previously created crate by drag-and-dropping a selection of tracks from the library or playlists onto the name of a crate in the sidebar. Alternatively use the context menu in the library's :ref:`track list<library-root>`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:337
+#: ../../source/chapters/library.rst:374
 # 666ce24f474a4190a9037521807066fa
 msgid ":guilabel:`Analyze Crate` context menu option. :guilabel:`Import crate` and :guilabel:`Export crate` context menu options remember the last selected playlist directory. Displays the total number of tracks, and the total duration next to the crate's name."
 msgstr ""
 
-#: ../../source/chapters/library.rst:344
+#: ../../source/chapters/library.rst:381
 # 0bb299433080478b9baed62d05b862dd
 msgid "Right-click on an existing crate's name to access the different features in the context menu:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:347
+#: ../../source/chapters/library.rst:384
 # be43308b47814a6395ed329be5fde725
 msgid "**Rename**: To rename a crate, enter the new crate name and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:349
+#: ../../source/chapters/library.rst:386
 # bb36baec63ad4579bc726170491cdc55
 msgid "**Duplicate**: Just like playlists you can duplicate an existing crate. Select the crate you would like to duplicate, choose :guilabel:`Duplicate Crate`, name the new crate and click :guilabel:`OK`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:352
+#: ../../source/chapters/library.rst:389
 # c97618865e9c4aa18dbca2f6cb950f8a
 msgid "**Remove**: Removes an unlocked crate. Tracks in the crate are still available in the library for later use."
 msgstr ""
 
-#: ../../source/chapters/library.rst:354
+#: ../../source/chapters/library.rst:391
 # adf889f3bd6d4a008240ed6700b2995c
 msgid "**Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is locked, you cannot add tracks, rename or delete the crate. Choose :guilabel:`Unlock` from the context menu to unlock the crate."
 msgstr ""
 
-#: ../../source/chapters/library.rst:357
+#: ../../source/chapters/library.rst:394
+# f05859ee5bdd4bdd9d1b044ec7375745
+msgid "**AutoDJ Track Source**: Use this crate as a source for random tracks in AutoDJ."
+msgstr ""
+
+#: ../../source/chapters/library.rst:395
 # 85111fdcf40449ab8cf61bdce44d096e
 msgid "**Analyze entire crate**: Forces the analysis of the crate in the :ref:`Analyze <library-analyze>` view."
 msgstr ""
 
-#: ../../source/chapters/library.rst:359
+#: ../../source/chapters/library.rst:397
 # e8c180e05296431abdee7709b24a6f47
 msgid "**Import crate**: Import tracks from an external playlist to a crate in various file formats."
 msgstr ""
 
-#: ../../source/chapters/library.rst:361
+#: ../../source/chapters/library.rst:399
 # 6436115ac2d84c26b1ec05a739825620
 msgid "**Export crate**: Export a crate in various file formats, such as :file:`m3u`, :file:`pls`, or :file:`csv`. Ideal for processing the data in other applications."
 msgstr ""
 
-#: ../../source/chapters/library.rst:366
+#: ../../source/chapters/library.rst:404
 # b8ac3325c55547e5a4aef610a2c295d8
 msgid "Crates vs. Playlists"
 msgstr ""
 
-#: ../../source/chapters/library.rst:372
+#: ../../source/chapters/library.rst:410
 # 11b0562ef84c4a0d8c5842d692344770
 msgid "Crates are unordered collections of tracks. Unlike playlists, they cannot contain duplicate entries and do not support drag-and-drop within them."
 msgstr ""
 
-#: ../../source/chapters/library.rst:375
+#: ../../source/chapters/library.rst:413
 # ac5b027ba2e646d18f0a86beb450ed0d
 msgid "Playlists serve a limited purpose of keeping an ordered list of tracks. You can right-click a playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can “play” it."
 msgstr ""
 
-#: ../../source/chapters/library.rst:379
+#: ../../source/chapters/library.rst:417
 # e228d3e397214b1ab128842cb5b4fd11
 msgid "Often DJs keep a playlist of favorites or plan a list of tracks they want to play at a party. In these cases they rarely care about the order since they will likely choose the order at the party based on the dance floor and mood and they certainly don't want duplicates. This is where crates come in. You can think of them like labels in GMail or Web 2.0 tags for your music."
 msgstr ""
 
-#: ../../source/chapters/library.rst:385
+#: ../../source/chapters/library.rst:423
 # 477c17108ffe43f9aa47a642d26c88f7
 msgid "On the other hand, if you want to specifically plan out a set and practice the transitions you might want to keep an ordering of tracks or repeat them (if you plan to mix a track back in later on) so in that situation you could use a playlist."
 msgstr ""
 
-#: ../../source/chapters/library.rst:393
+#: ../../source/chapters/library.rst:431
 # 09c8184e56f74e2aa515ceb069d2e7d5
 msgid "Browse - Loading remote tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:398
+#: ../../source/chapters/library.rst:436
 # eed39dae8bf5475ca57ce611dbaa20d3
 msgid "|ic_lib_browse| Browse mode works like a file-manager and allows you to load tracks that are not necessarily already in your Mixxx library."
 msgstr ""
 
-#: ../../source/chapters/library.rst:401
+#: ../../source/chapters/library.rst:439
 # 1db53c38872b4f09a24142c3c81fcd7e
 msgid "Add music directories directly from the Browse sidebar item."
 msgstr ""
 
-#: ../../source/chapters/library.rst:404
+#: ../../source/chapters/library.rst:442
 # e8e72f3dc24c4f31a211cddaa0ca3f20
 msgid "Click the :guilabel:`Browse` sidebar item to navigate the computer and find your music. Depending on your :term:`operating system`, the music will usually be found in the “My Music” or “Music” folder. Drag the files you want to import to the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the :ref:`interface-waveform`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:410
+#: ../../source/chapters/library.rst:448
 # 576885b28cc9440188999f4388f327a8
 msgid "Currently you can drag only files but not folders to the Mixxx library."
 msgstr ""
 
-#: ../../source/chapters/library.rst:413
+#: ../../source/chapters/library.rst:451
 # 6f77c1ae61804fab860353479ad559eb
 msgid "Right-click on a folder and choose :guilabel:`Add to Library` to add the folder as new music directory. Mixxx will watch this directory and its subdirectories for new tracks."
 msgstr ""
 
-#: ../../source/chapters/library.rst:417
+#: ../../source/chapters/library.rst:455
 # ae96f3e4ad054d6d8086464846640c41
 msgid "For more informations, go to :ref:`djing-changing-music-directories`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:420
+#: ../../source/chapters/library.rst:458
 # 3ab2f64d2e57485db74c9e1f19310148
 msgid "Quick Links - Bookmark your favorite folders"
 msgstr ""
 
-#: ../../source/chapters/library.rst:422
+#: ../../source/chapters/library.rst:460
 # 485805173a37404aa76ad76bf61f4365
 msgid "Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`. The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that folder, right-click and choose :guilabel:`Remove from Quick Links`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:429
+#: ../../source/chapters/library.rst:467
 # d6e7e6bc450842d5bc5f9836b4056f27
 msgid "Recordings"
 msgstr ""
 
-#: ../../source/chapters/library.rst:431
+#: ../../source/chapters/library.rst:469
 # 47d9714a79d9436985a6a04727e2f544
 msgid "|ic_lib_recordings| In this section of the library you can start and stop recordings well as view previous recordings and the dates they were made."
 msgstr ""
 
-#: ../../source/chapters/library.rst:434
+#: ../../source/chapters/library.rst:472
 # 206e35c82dc347fcb482be53419147bb
 msgid "For more information, go to :ref:`djing-recording-your-mix`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:439
+#: ../../source/chapters/library.rst:477
 # 88e4e685933c46b0ad081aeef19a9a9b
 msgid "History - Keep track of your last sessions"
 msgstr ""
 
-#: ../../source/chapters/library.rst:444
+#: ../../source/chapters/library.rst:482
 # be693fa3d2bd43acb51bc57a67e67c54
 msgid "|ic_lib_history| The history section automatically keeps a list of tracks you play in your DJ sets. This is handy for remembering what worked in your DJ sets, posting set-lists, or reporting your plays to licensing organizations. Every time you start Mixxx, a new history section is created. If you don't play a track during the current session, it will be discarded."
 msgstr ""
 
-#: ../../source/chapters/library.rst:450
+#: ../../source/chapters/library.rst:488
 # ddccef55745a4f38b58b5176e1ee2c98
 msgid "|ic_lib_history_current| This icon indicates the current session."
 msgstr ""
 
-#: ../../source/chapters/library.rst:452
+#: ../../source/chapters/library.rst:490
 # 0cbdb6f377324708a7aa66b49e3d7e96
 msgid "Click on the *History* icon in the sidebar to switch to the :guilabel:`History` view, then right-click on a sessions name to access the different features:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:455
+#: ../../source/chapters/library.rst:493
 # e8cb245c969842a6b754238f9651cdd3
 msgid ":guilabel:`Create new history playlist` context menu option. :guilabel:`Export playlist` context menu option remember the last selected playlist directory."
 msgstr ""
 
-#: ../../source/chapters/library.rst:460
+#: ../../source/chapters/library.rst:498
 # 6464c3c9965f4a1d87e8cbaecb118cc2
 msgid "**Add to Auto DJ**: Adds the content of the session to the :ref:`Auto DJ <djing-auto-dj>` queue for automatic mixing."
 msgstr ""
 
-#: ../../source/chapters/library.rst:462
+#: ../../source/chapters/library.rst:500
 # f5433d890be442a9a3376f6102660de6
 msgid "**Rename**: Rename a session, default is the calendar date (YYYY-MM-DD)."
 msgstr ""
 
-#: ../../source/chapters/library.rst:463
+#: ../../source/chapters/library.rst:501
 # aa3402d5079340cbb9a0c086db5b8362
 msgid "**Remove**: Remove a previous session, but not the locked sessions or even the current session."
 msgstr ""
 
-#: ../../source/chapters/library.rst:465
+#: ../../source/chapters/library.rst:503
 # 8781c36229864a8c8b43dbd603a3bcaa
 msgid "**Lock**: Protect a previous session against accidental merge and deletion. An icon indicates a locked session."
 msgstr ""
 
-#: ../../source/chapters/library.rst:467
+#: ../../source/chapters/library.rst:505
 # c9cd3ec949e04d14bbf8a64f663b99f3
 msgid "**Create new history playlist**: Split off the current history session, and add a new session without having to restart Mixxx. The current history must contain at least one track for this option to be available."
 msgstr ""
 
-#: ../../source/chapters/library.rst:470
+#: ../../source/chapters/library.rst:508
 # 27de5b99c4044e47b81228989b79aa53
 msgid "**Join with previous**: Join the current history session with a previous one."
 msgstr ""
 
-#: ../../source/chapters/library.rst:471
+#: ../../source/chapters/library.rst:509
 # 95d56cb0d08a4a3a85e2da3153621d59
 msgid "**Export playlist**: Export a session in various file formats, ideal for processing the data in other applications."
 msgstr ""
 
-#: ../../source/chapters/library.rst:477
+#: ../../source/chapters/library.rst:515
 # b5810a7dcb174d8888b6dd5b409c5c04
 msgid "Analyze - Preparing your tracks"
 msgstr ""
 
-#: ../../source/chapters/library.rst:483
+#: ../../source/chapters/library.rst:521
 # 1faf7959d25847eea776dda1a4e2b3c1
 msgid "|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load them in a deck, nevertheless it is recommended that you analyze them before playing live with them to ensure the beatgrids are correct. Furthermore, track analysis takes considerable CPU power and might cause skips in the audio --- things you surely don't need while performing."
 msgstr ""
 
-#: ../../source/chapters/library.rst:489
+#: ../../source/chapters/library.rst:527
 # 813f3e3d2eea49b8864994b3229f2ff6
 msgid "The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in advance. While analyzing, the progress in percentage and total queue length are shown."
 msgstr ""
 
-#: ../../source/chapters/library.rst:493
+#: ../../source/chapters/library.rst:531
 # f23ffb174f8348bcaef22b4f5bc0671f
-msgid "* Drag and drop tracks from the library or external file managers onto the   analysis view to instantly analyze these files. * The title changes to :guilabel:`Analyze (x/y)` where x is the number of   tracks that have been analyzed so far and y is the total number of tracks   originally in the queue."
+msgid "Drag and drop tracks from the library or external file managers onto the analysis view to instantly analyze these files. The title changes to :guilabel:`Analyze (x/y)` where x is the number of tracks that have been analyzed so far and y is the total number of tracks originally in the queue."
 msgstr ""
 
-#: ../../source/chapters/library.rst:500
+#: ../../source/chapters/library.rst:537
 # 47acb0c9bf654b4e9536c8de1e80b3b6
 msgid "Does not generate waveforms to save disk space."
 msgstr ""
 
-#: ../../source/chapters/library.rst:503
+#: ../../source/chapters/library.rst:540
 # a08c9d724d7c4236ab364203b5c3c569
 msgid "The Analyze features in detail:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:505
+#: ../../source/chapters/library.rst:542
 # 997f50d5a0df4839aaabeb08f3ed00c6
 msgid "**All / New radio-buttons**: Allows you to view a list of either all tracks in the library or tracks added to the library within the last 7 days."
 msgstr ""
 
-#: ../../source/chapters/library.rst:508
+#: ../../source/chapters/library.rst:545
 # 9fa8301023fe484e8f8de0c14245afcd
 msgid "**Analyze button**: Starts the detection on the selected tracks."
 msgstr ""
 
-#: ../../source/chapters/library.rst:510
+#: ../../source/chapters/library.rst:547
 # ff64b093208c47b88515d82d5d3b4649
 msgid "For more information, go to :ref:`djing-bpm-detection`."
 msgstr ""
 
-#: ../../source/chapters/library.rst:515
+#: ../../source/chapters/library.rst:552
 # 96bbaa664e07456eb0e1c51677685357
 msgid "iTunes, Traktor, Rhythmbox, Banshee - Using external libraries"
 msgstr ""
 
-#: ../../source/chapters/library.rst:520
+#: ../../source/chapters/library.rst:557
 # 0b45a574d11642fb96590b0740f96e84
 msgid "Supported libraries:"
 msgstr ""
 
-#: ../../source/chapters/library.rst:522
+#: ../../source/chapters/library.rst:559
 # fdac0cacf4ab472e83393d89abb47507
 msgid "|ic_lib_itunes| `iTunes <http://itunes.apple.com>`_ (Windows, Mac OS X)"
 msgstr ""
 
-#: ../../source/chapters/library.rst:523
+#: ../../source/chapters/library.rst:560
 # 716c27e2861b41b881feebffcde9d3cf
 msgid "|ic_lib_traktor| `Traktor <http://http://www.native-instruments.com/en/traktor/>`_ (Windows, Mac OS X),"
 msgstr ""
 
-#: ../../source/chapters/library.rst:524
+#: ../../source/chapters/library.rst:561
 # 2358798a439a43a98181a254d724ba6e
 msgid "|ic_lib_rhythmbox| `Rhythmbox <https://projects.gnome.org/rhythmbox/>`_ (GNU/Linux)"
 msgstr ""
 
-#: ../../source/chapters/library.rst:525
+#: ../../source/chapters/library.rst:562
 # f01699d260594de48379d67b8b67258a
 msgid "|ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)"
 msgstr ""
 
-#: ../../source/chapters/library.rst:527
+#: ../../source/chapters/library.rst:564
 # 141ed19503cf448fb25c3561ee6d6a25
 msgid "Support for Banshee music player"
 msgstr ""
 
-#: ../../source/chapters/library.rst:530
+#: ../../source/chapters/library.rst:567
 # ddb92a6af0b646d8950fb433329da5f5
 msgid "The external library views allow you to use the music libraries you have created in these third party applications. You can access music and playlists. If available, Mixxx automatically loads the external libraries from their default locations on your hard drive."
 msgstr ""
 
-#: ../../source/chapters/library.rst:535
+#: ../../source/chapters/library.rst:572
 # 4465c69827bd47b7b24f4ddb2acd7c5f
 msgid "Playing a track from an external library will add it to your Mixxx library."
 msgstr ""
 
-#: ../../source/chapters/library.rst:538
+#: ../../source/chapters/library.rst:575
 # bf023a22b7964f3182a265eb2bd6250e
 msgid "Right-click on the iTunes icon in the Library tree and select :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a different location. Select :guilabel:`Use Default Library` to reset."
 msgstr ""
 
-#: ../../source/chapters/library.rst:542
+#: ../../source/chapters/library.rst:579
 # 92d12e0fbdaa43399273cf196877a4a2
 msgid "Right-click on a iTunes/Traktor/Rhythmbox/Banshee playlist and choose :guilabel:`Import Playlist` to import it to be a regular Mixxx playlist."
 msgstr ""
 
-#: ../../source/chapters/library.rst:544
+#: ../../source/chapters/library.rst:581
 # c5e88743ba334fc1bf53dad058d1f6d2
 msgid "If you have an iTunes configuration file (:file:`\\*.xml`) from a Windows or Mac partition mounted in Linux, you can load it and use your iTunes tracks and playlists."
 msgstr ""
 
-#: ../../source/chapters/library.rst:548
+#: ../../source/chapters/library.rst:585
 # 67a8c9f706714e858797a84a16fbc556
 msgid "You can disable external libraries in :menuselection:`Preferences --> Library`."
 msgstr ""

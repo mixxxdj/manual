@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-01-25 13:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,72 +17,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/_templates/layout.html:30
-# cd48cd2f6f514ee08a1f2bce04b3f089
+# 62303bae815d4fe7a73bdfe3b6d487c0
 msgid "Navigation"
 msgstr ""
 
 #: ../../source/_templates/layout.html:130
-# 50a410146faa4118848c1d3d5ef31613
+# ae09dffd67a44f63834816df4cdd30c3
 msgid "Search within %(docstitle)s"
 msgstr ""
 
 #: ../../source/_templates/layout.html:139
-# c836c3550ea74002a0cf37df4ef53385
+# cf6eaf2cc7be44f4b4e6425784577df4
 msgid "About these documents"
 msgstr ""
 
 #: ../../source/_templates/layout.html:142
-# e8867526a9844f9f82611b0fc9b0d5ce
+# e3f8dc463ded4a2490ab038cb9b1e20c
 msgid "Index"
 msgstr ""
 
 #: ../../source/_templates/layout.html:145
-# 07d464c1f95c48dd8b494c9c63320bf2
+# cde9de34e4f842a8a69a488ee4f100fa
 msgid "Search"
 msgstr ""
 
 #: ../../source/_templates/layout.html:148
-# a854671b5bf64ceda942e5f3dd54039c
+# dd94afadfa0241cc9c8eb57038c3fa00
 msgid "Copyright"
 msgstr ""
 
 #: ../../source/_templates/layout.html:197
-# 9c9151ca35b740759dd838c778ebd3ed
+# aee17537f0cf4e07af83a2e74bd55da2
 msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:199
-# 692cc19faea840cb9fb7ed6071674ddb
+# 0c6c7c928982471bbc0c88dd19713921
 msgid "&copy; Copyright %(copyright)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:203
-# 19414c63e6384cdcb8d90f65ba53fc4f
+# 4b7211e47c4f46f281460e1a418e5a79
 msgid "Last updated on %(last_updated)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:206
-# b749019f9e224b509845be891f5689ed
+# 39a4a2c70d9c41faa94afbd7e469e8b0
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:12
-# 72e52fbe072b4394a789abc51eef4b6e
+# 2c5e1cf986354ec0990271a4cd1cec4d
 msgid "Quick search"
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:15
-# cab2f162578e4b66af565e1b3771a755
+# 08db2e41cfb7416c9ed86e6c85bb8acc
 msgid "Go"
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:20
-# 13e914fb6fd749e78e76950e6af39704
+# ec9a2d4ca8134bcd95061a17fdeae866
 msgid "Looking for something?"
 msgstr ""
 
 #: ../../source/_templates/localtoc.html:11
-# 73eb3b2ce8d84b63bf05a776e214b83e
+# a6811234ba124939a5b22e8bc1d8b646
 msgid "In This Section"
 msgstr ""
 
