@@ -197,8 +197,8 @@ Deck Options Button Grid
    The Options Button Grid of the deck
 
 The six buttons at the bottom right below the waveform allow you to configure
-the deck. Starting from the top-left and moving counterclockwise the buttons
-are as follows:
+the deck. Starting from the top-left and moving clockwise the buttons are as
+follows:
 
 **Show/Hide Vinyl Widget**
   Toggles the visibility of the Vinyl Widget in the :ref:`interface-waveform`.
