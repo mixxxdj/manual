@@ -16,7 +16,7 @@ language settings the defaults may be different.
    *Single Deck Vinylcontrol Toggle* shortcuts
 
 .. versionchanged:: 1.12
-   *Auto DJ* shortcuts
+   *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
 
 +----------------------------------------+---------------------+---------------------+--------------+
 | Function                               | Deck 1              | Deck 2              | Master       |
@@ -140,6 +140,20 @@ language settings the defaults may be different.
 | Vinylcontrol Cueing                    | Ctrl + Alt+ Y       | Ctrl + Alt + U      |              |
 +----------------------------------------+---------------------+---------------------+--------------+
 | Single Deck Toggle / Swap Decks        | Ctrl + T            | Ctrl + T            |              |
++----------------------------------------+---------------------+---------------------+--------------+
+| **Search bar**                                                                                    |
++----------------------------------------+---------------------+---------------------+--------------+
+| Focus                                  | Ctrl + F                                                 |
++----------------------------------------+---------------------+---------------------+--------------+
+| Clear input                            | Ctrl + Back                                              |
++----------------------------------------+---------------------+---------------------+--------------+
+| Exit search and leave focus            | ESC                                                      |
++----------------------------------------+---------------------+---------------------+--------------+
+| **Library**                                                                                       |
++----------------------------------------+---------------------+---------------------+--------------+
+| Select all files in current list       | Ctrl + A                                                 |
++----------------------------------------+---------------------+---------------------+--------------+
+| Select group of files in current list  | Click first item, hold Shift key, click last item        |
 +----------------------------------------+---------------------+---------------------+--------------+
 
 .. seealso:: Mixxx allows you to customize the keyboard shortcuts. For more
