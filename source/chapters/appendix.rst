@@ -169,7 +169,7 @@ Use these shortcuts to access features available in the menu on top of the
 application window.
 
 .. versionadded:: 1.12
-   Added *Show Effect Rack*, and *Show Cover Art* shortcuts.
+   Added *Show Effect Rack*, *Maximize Library*, and *Show Cover Art* shortcuts.
    Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
    which provides various useful debugging tools.
 
@@ -204,6 +204,8 @@ Show Preview Deck                         Ctrl + 4
 Show Effect Rack                          Ctrl + 5
 ----------------------------------------  --------------------------------
 Show Cover Art                            Ctrl + 6
+----------------------------------------  --------------------------------
+Maximize Library                          Space
 ----------------------------------------  --------------------------------
 Full Screen (Windows & Linux)             F11
 ----------------------------------------  --------------------------------
