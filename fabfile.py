@@ -3,7 +3,7 @@ import fabric.contrib.project as project
 import os
 
 PROD = 'stacktrace.org'
-DEST_PATH = '/home/mixxx/public_html/manual/1.10'
+DEST_PATH = '/home/mixxx/public_html/manual/1.12'
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/html')
 
