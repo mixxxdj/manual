@@ -16,7 +16,7 @@ Mixxx Features
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-* **Dual Decks**: A scratchable, scrolling waveform marks beats and cue points
+* **4 Decks**: A scratchable, scrolling waveform marks beats and cue points
   of a track, along with a whole-song waveform overview for quick seeking.
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
@@ -112,7 +112,7 @@ Mixxx grow to become the most popular free DJ software in the world, receiving
 over 1,000,000 downloads annually. Our committed team has worked hard to create
 great DJ software, and this growth is a sign of our success.
 
-In 2011, RJ Ryan took over as Lead Developer to successfully continue the teams
+In 2011, RJ Ryan took over as Lead Developer to successfully continue the team's
 endeavor to make Mixxx a world-class DJ software.
 
 As our user community grows, so does our development team - Over 150 developers,
