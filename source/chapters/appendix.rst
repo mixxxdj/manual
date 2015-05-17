@@ -360,6 +360,27 @@ the log on exit.
 Version History
 ===============
 
+.. todo:: Add 1.12 release date
+
+**v1.12.0** (2015-XX-XX)
+
+  * 4 Decks with Master Sync
+  * New Effects Framework with 4 Effect Units and 5 Built-in Effects:
+    * Flanger, Bit Crusher, Reverb, Echo, Filter
+    * More to come!
+  * Configurable, Resizeable User Interface with 3 Brand New Skins
+  * Cover Art Display
+  * Music Key Detection and Shifting
+  * Vinyl Audio Pass-Through
+  * 4 Microphone inputs and 4 Auxiliary inputs
+  * MIDI Mapping GUI and Improved Learning Wizard
+  * RGB Musical Waveforms
+  * Hundreds of Bug Fixes and Improvements
+  * New Pitch-Independent Algorithm for Better-Sounding Key-lock
+
+For a full list of new features and bugfixes, go to:
+`https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_.
+
 **v1.11.0** (2013-05-09)
 
   * Completely revamped Waveforms
@@ -404,7 +425,7 @@ For a full list of bugfixes, go to:
 For a full list of new features and bugfixes, go to:
 `https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_.
 
-.. seealso:: For an overview of previous versions, `take a look 
+.. seealso:: For an overview of previous versions, `take a look
              <https://launchpad.net/mixxx/+series>`_ at the timeline.
 
 
