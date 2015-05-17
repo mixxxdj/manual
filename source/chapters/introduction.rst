@@ -195,8 +195,9 @@ There are a variety of other resources you can use to find out more.
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the
-  `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first.
+  to: `<https://www.transifex.com/organization/mixxx-dj-software/>`_ . Please
+  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
+  first.
 
 * **Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ ,
   `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
