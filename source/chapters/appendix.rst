@@ -261,7 +261,7 @@ Command line options
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
-easier. Comment line options are case-sensitive.
+easier. Command line options are case-sensitive.
 
 .. versionadded:: 1.12
 
