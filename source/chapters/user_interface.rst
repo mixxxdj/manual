@@ -644,9 +644,13 @@ PFL/Headphone Button
    The headphone buttons of both decks in the mixer
 
 The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>`
-button. Pressing this button allows you to listen and synchronize the track you
-will play next in your headphones before your audience hears the track
-(headphone cueing). You can select more than one PFL button simultaneously.
+button. Pressing this button plays the track on the headphone output at full
+volume regardless of the position of the crossfader or the deck’s line fader.
+By pushing the crossfader all the way to the opposite side of the deck or
+turning the deck’s volume fader all the way down and pressing this buttion,
+you can listen to and synchronize the track you will play next in your headphones
+before your audience hears it (headphone cueing). You can select more than one
+PFL button simultaneously.
 
 .. note:: Headphone cueing is only available if you have configured a
              Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
