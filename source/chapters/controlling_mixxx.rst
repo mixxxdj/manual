@@ -165,7 +165,7 @@ folder, go to :menuselection:`Preferences --> Controllers` and click the
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
   * OS X: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
   * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
-  * Windows XP and older: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
+  * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
 
 On Windows, the :file:`AppData` folder is hidden, so if you have not already, you will need
 to set Windows Explorer to show hidden files and folders (how to do this varies with each
