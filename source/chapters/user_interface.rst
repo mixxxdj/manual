@@ -651,7 +651,7 @@ output at full volume regardless of the position of the crossfader or the
 deck’s line fader. To play a track in your headphones but not have the 
 audience hear it, press the PFL button and move the crossfader all the 
 way to the opposite side of the deck or turn the deck’s volume fader all the 
-way down. You can select more than one PFL button simultaneously.
+way down.
 
 .. note:: Headphone cueing is only available if you have configured a
              Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
