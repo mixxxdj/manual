@@ -77,7 +77,8 @@ minimum requirements for having a great experience with Mixxx:
 
 * A 2GHz or faster CPU
 * At least 1GB of RAM
-* A soundcard with 2 stereo audio outputs
+* A soundcard with 2 stereo audio outputs (4 mono output channels)
+
 .. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx 
          can be used with an external mixer and a less powerful computer such 
          as a netbook.
