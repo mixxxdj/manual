@@ -281,6 +281,10 @@ track table to the right displays the content of your recordings directory. New
 recordings are automatically saved to this directory as well as CUE files if you
 choose to create them in the preferences.
 
+.. hint:: Recording your mixes and listening to them later to critique 
+          yourself is a great tool for improving your DJing skills. Sending 
+          your mixes to other DJs for feedback can also be helpful.
+
 Record your mix to disk
 -----------------------
 
