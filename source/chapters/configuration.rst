@@ -162,11 +162,23 @@ On Windows, if an ASIO driver is not available for your operating system, you
 can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
 for WDM audio devices.
 
-On GNU/Linux using JACK, make sure to start your JACK daemon *before* running
+On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will 
+prevent any other programs from using the sound card(s) that Mixxx is using. 
+JACK allows you to route audio between JACK-compatible applications in flexible 
+ways and output sound from multiple programs at the same time. However, JACK can 
+be complicated to set up. To use JACK, start the JACK daemon *before* running 
 Mixxx. Otherwise JACK will not appear as a Sound API in the preferences.
+
+Most modern GNU/Linux distributions use PulseAudio by default. When 
+launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is 
+running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows 
+multiple programs to access one sound card, but PulseAudio and JACK have 
+opposite design goals. PulseAudio is designed to make ordinary computer usage 
+such as watching videos online and listening to music easy whereas JACK is 
+designed for demanding low latency audio programs like Mixxx. It can be 
+difficult to setup JACK and PulseAudio to work well together. So, unless you 
+already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 .. warning:: On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio
              API. This is an emulation layer for ALSA provided by PulseAudio and
-             results in very poor performance. Make sure to run Mixxx using the
-             ``pasuspender`` tool on GNU/Linux distributions that use
-             PulseAudio.
+             results in very poor performance. 
