@@ -16,13 +16,6 @@ Support for additional devices can be added to Mixxx by creating a new preset
 file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
-The mapping files that ship with Mixxx are stored in the following file paths:
-
-* Linux: :file:`/usr/share/mixxx/controllers` or
-  :file:`/usr/local/share/mixxx/controllers`
-* Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/controllers/`
-* Windows: :file:`C:\\Program Files\\Mixxx\\controllers`
-
 You can download and share custom controller presets in the
 `Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
 
