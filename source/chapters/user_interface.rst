@@ -109,6 +109,37 @@ Waveform Displays
 The waveform section of a deck allows you to visualize the audio changes that
 occur throughout the track, you can basically “see” your music.
 
+Depending on the skin Mixxx displays either separate waveforms (default) or
+parallel waveforms. Select your preferred appearance in
+:menuselection:`Preferences --> Interface --> Skin`.
+
+.. figure:: ../_static/Mixxx-111-Deere-separate-waveform.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx default skin (Deere) - Separate waveforms
+   :figclass: pretty-figures
+
+   Mixxx default skin (Deere) - Separate waveforms
+
+With some skins the waveform displays are aligned parallel to each other in
+order to make :term:`beatmatching` easier, as it is possible to beatmatch
+visually by aligning the beats that appear in each waveform.
+
+.. figure:: ../_static/Mixxx-111-Latenight-parallel-waveform.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx alternative skin (Latenight) - Parallel waveforms
+   :figclass: pretty-figures
+
+   Mixxx alternative skin (Latenight) - Parallel waveforms
+
+.. warning :: If you have a slower computer and notice performance issues with
+              Mixxx, try to lower the frame rate or change the level of detail
+              shown in the waveform in :menuselection:`Preferences --> Interface
+              --> Waveform Display`.
+
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
   current playback position and is updated in real time. The mouse can be used
@@ -169,14 +200,6 @@ occur throughout the track, you can basically “see” your music.
   depending on whether a loop is activated or not.
 * **Track ending notification**: If the waveform overview flashes red, only 30
   seconds are left before the track reaches the end.
-
-.. seealso:: To learn how to get most out of the waveforms while mixing, go to
-             the chapter :ref:`waveform-displays`.
-
-.. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the level of detail
-              shown in the waveform in :menuselection:`Preferences --> Interface
-              --> Waveform Display`.
 
 .. _interface-button-grid:
 

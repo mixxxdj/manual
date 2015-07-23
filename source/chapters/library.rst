@@ -49,24 +49,6 @@ view on the right displays the tracks in those collections.
 * **Load**: Drag tracks you want to play to the waveform display.
 * **Edit**: Rate tracks and edit track properties.
 
-.. _library-search:
-
-Search - Find your tracks
-=========================
-
-.. figure:: ../_static/Mixxx-111-Library-Search.png
-   :align: center
-   :width: 190px
-   :figwidth: 100%
-   :alt: The Search box - Has focus and a search term entered
-   :figclass: pretty-figures
-
-   The Search box - Has focus and a search term entered
-
-The Search box above the sidebar filters the current library view for tracks
-that match your search query. The library search include some nice search
-features; go to the chapter :ref:`djing-finding-tracks` for details.
-
 .. _library-root:
 
 Library - View and edit your whole collection
@@ -252,6 +234,265 @@ The features in detail:
   :guilabel:`Hidden Tracks` view and makes them available in the regular track
   list again. The tracks appear again in every playlist or crate they were
   listed before they were hidden.
+
+.. _djing-loading-tracks:
+
+Loading Tracks
+==============
+
+.. versionadded:: 1.12
+   Supports dragging tracks from deck to deck.
+
+Tracks can be loaded into a deck in several ways:
+
+* Right-click the :ref:`library track table <interface-library>`: Right-clicking
+  on a track in the table will present the options :guilabel:`Load in Deck 1`
+  and :guilabel:`Load in Deck 2`, among others. Making either selection will
+  load a track into a deck.
+* By :ref:`control-keyboard` to load the selected track from library track 
+  table.
+* Drag-and-drop from library track table: Dragging-and-dropping a track from the
+  track table onto a waveform display will load a track into a deck.
+* Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
+  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  drag it to a deck or sampler.
+* Drag-and-drop from external file browser: Dragging-and-dropping a track from
+  an external file browser directly onto a waveform display in Mixxx will load
+  that track. This function also works with some other applications. For
+  example, on Mac OS X, dragging-and-dropping a track from iTunes onto one of
+  Mixxx's waveform displays will load that track into a deck.
+
+.. _djing-finding-tracks:
+
+Finding Tracks (Search)
+=======================
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+The :ref:`search function <library-search>` searches for a match only in the
+current selected list (e.g. a playlist, a crate or even the whole library).
+
+* Activate the search input field by pressing :kbd:`CTRL` + :kbd:`F`
+  (Windows/Linux) or :kbd:`CMD` + :kbd:`F` (Mac). Alternatively click into the
+  :ref:`search box <library-search>`.
+* Type your search term. Mixxx filters the tracks and retains only the ones that
+  match the search term. Search terms can include an artist's name, a song
+  title, BPM, etc.
+* To clear the search string hit :kbd:`ESC` or click the clear button right next
+  to the input field.
+* Hit :kbd:`TAB` to cycle between the search and the list of results in the
+  library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
+  list of results.
+
+.. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
+          disabled, see :ref:`control-keyboard`.
+
+Using search operators
+----------------------
+
+Search operators allow you to form more complex search queries. They allow you
+to limit certain search terms to particular properties of your tracks.
+
+.. versionadded:: 1.12
+   Adds *location*, *album_artist*, and *key* search keywords. Supports
+   human-readable time suffixes in time-based search query filters, e.g.
+   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
+   filters.
+
+Mixxx supports the following filters:
+
+* **Text filtering**: artist, album, album_artist, genre, title, composer,
+  comment, key, location
+
+* **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
+
+* **Special filtering**:
+
+  * Supports fuzzy matching of key searches. The following example list tracks
+    with harmonically compatible keys to C# minor.
+
+    ::
+
+       ~key:c#m
+
+    You can combine operators but there's no way to do an “OR” search right now.
+    The following example list all tracks by “Danger” over 5 minutes long that
+    are rated 4 or 5.
+
+    ::
+
+       artist:Danger duration:>3m rating:>=4
+
+  * Negative search filters. Use the ``-`` prefix as negation operator. The
+    following example would find “hip-hop“ from any year but 1990.
+
+    ::
+
+       genre:hip-hop -year:1990
+
+
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Examples for text filtering          | Examples for numeric filtering        | Examples for duration filtering       |
++======================================+=======================================+=======================================+
+| artist: “com truise”                 | bpm:140                               | duration:2m10                         |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| album:Danger                         | bpm: >140                             | duration:<2:10                        |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| genre: Trance                        | year: <2010                           | duration:>1m35s                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| title: foo                           | bpm: >=140                            | duration:>62                          |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| composer: foo                        | rating: <=4                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| comment: foo                         | bpm: 140-150                          |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Note it doesn't matter if you have   | Note that you can put a space between | Note that you can put a space between |
+| space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
+| argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
+| for multi-word text arguments.       | number.                               | number.                               |
++--------------------------------------+---------------------------------------+---------------------------------------+
+
+.. _djing-previewing-tracks:
+
+Previewing Tracks
+=================
+
+.. sectionauthor::
+   M.Linke <kain88@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+To pre-listen to a track, activate the :guilabel:`Preview` column in a library
+view. Clicking the |ic_lib_preview_play| icon in the library's
+:guilabel:`Preview` column loads the selected track in a special :ref:`Preview
+Deck <interface-preview-deck>` that will only output sound in the
+:ref:`headphones <interface-head-master>` channel. Click the
+|ic_lib_preview_pause| icon to stop the playback.
+
+Alternatively, select a track from the track list of the Mixxx library, drag the
+track to the waveform view of the :ref:`Preview Deck <interface-preview-deck>`
+and click the :guilabel:`Play` button next to the waveform.
+
+To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
+:kbd:`CMD` + :kbd:`4` (Mac).
+
+.. _djing-edit-metadata:
+
+Edit metadata of audio files
+============================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
+library columns. You are free to edit most metadata, and Mixxx offers a number
+of different ways to do so. Note that some information can not be edited, such
+as bitrate, size, length, type, filename, and location.
+
+.. note:: Mixxx does not support editing the metadata of many tracks at a time
+          (bulk editing).
+
+.. warning:: Changes to a track's metadata will be saved to the Mixxx library,
+             but **not** to the track itself. Mixxx wont touch your audio files
+             to prevent data loss.
+
+Manual Edit
+-----------
+
+**Track Inline editing**:
+  Double-click on a field in the :ref:`library <library-root>`. If the field is
+  editable, it will become an editable text box. Enter a value and hit
+  :kbd:`Enter` when you are done.
+
+  .. figure:: ../_static/Mixxx-112-Library-Inline-edit.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx library - Inline editing
+     :figclass: pretty-figures
+
+     Mixxx library - Inline editing
+
+**Properties editor**:
+  Click on a **single track** in the library and select :guilabel:`Properties`
+  to open the editor. Add or change values in the editable fields, and save your
+  changes as explained below.
+
+  .. figure:: ../_static/Mixxx-112-Library-Properties-Editor.png
+     :align: center
+     :width: 100%
+     :figwidth: 50%
+     :alt: Mixxx library - Properties editor
+     :figclass: pretty-figures
+
+     Mixxx library - Properties editor
+
+  * **OK**: Accept the changes and close the editor.
+  * **Apply**: Accept the changes you made into the metadata.
+  * **Cancel**: Discard the changes and close the editor.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view.
+  * **Reload Track Metadata from File**: Prompts Mixxx to re-read the metadata
+    of the selected track if you have modified metadata in 3rd-party software,
+  * **Reload Track Metadata from MusicBrainz**:
+    Lookup metadata online by searching the :term:`MusicBrainz` database, see
+    below.
+
+Using the MusicBrainz online database
+-------------------------------------
+
+`Musicbrainz <http://musicbrainz.org/>`_ is an :term:`open-source` music
+encyclopedia that collects music :term:`metadata` and makes it available to the
+public.
+
+  .. figure:: ../_static/Mixxx-112-Library-MusicBrainz-Wizard.png
+     :align: center
+     :width: 100%
+     :figwidth: 66%
+     :alt: Mixxx library - MusicBrainz Wizard
+     :figclass: pretty-figures
+
+     Mixxx library - MusicBrainz Wizard
+
+The MusicBrainz wizard in Mixxx allows to search the MusicBrainz database and
+apply the search results to your tracks.
+
+Click on a **single track** in the library and select :guilabel:`Get Metadata
+from MusicBrainz`. Mixxx fetches track data from the MusicBrainz database and
+displays the search results.
+
+Select the best possible match from the search results by clicking on it in the
+list.
+
+  * **Apply**: Apply the selected MusicBrainz metadata to the track.
+  * **Close**: Close the wizard.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view and perform a MusicBrainz lookup on them as well.
+
+Fetching track metadata from MusicBrainz can possibly fail if Mixxx could not
+find the requested track in the MusicBrainz database, could not connect to the
+MusicBrainz servers, or because you are not connected to the Internet.
+
+.. hint:: The MusicBrainz service has been designed for identifying full audio
+   files. Is a track less then 2 minutes long, identifying the file will likely
+   fail. Identifying a layered mix-track or mash-up may produce false positives
+   in the result list.
+
+Using 3rd-party software
+------------------------
+
+If you have modified file metadata in 3rd-party software, select
+:menuselection:`Library --> Rescan Library` in the menu on top of the
+application window. This prompts Mixxx to re-read the metadata from **all**
+tracks in the library.
+
+Popular software to edit metadata of audio files include:
+  * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
+  * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
+  * `Picard <http://musicbrainz.org/doc/Picard_Tagger>`_ (Mac, Windows, Linux)
 
 .. _library-auto-dj:
 
@@ -509,42 +750,14 @@ view, then right-click on a sessions name to access the different features:
 * **Export playlist**: Export a session in various file formats, ideal for
   processing the data in other applications.
 
-.. _library-analyze:
+Analyze - Prepare your tracks
+=============================
+ 
+This section allows you to analyze your tracks in advance of loading them into 
+a deck. Analyzing tracks requires considerably CPU power and may cause skips in 
+the audio while performing, so it helps to have your tracks analyzed before you 
+play. See :ref:`library-analyze` for details.
 
-Analyze - Preparing your tracks
-===============================
-
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
-
-|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
-them in a deck, nevertheless it is recommended that you analyze them before
-playing live with them to ensure the beatgrids are correct. Furthermore, track
-analysis takes considerable CPU power and might cause skips in the audio ---
-things you surely don't need while performing.
-
-The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
-:term:`ReplayGain` detection on tracks in advance. While analyzing, the progress
-in percentage and total queue length are shown.
-
-.. versionadded:: 1.12
-   Drag and drop tracks from the library or external file managers onto the
-   analysis view to instantly analyze these files. The title changes to
-   :guilabel:`Analyze (x/y)` where x is the number of tracks that have been
-   analyzed so far and y is the total number of tracks originally in the queue.
-
-.. versionchanged:: 1.12
-   Does not generate waveforms to save disk space.
-
-The Analyze features in detail:
-
-* **All / New radio-buttons**: Allows you to view a list of either all tracks in
-  the library or tracks added to the library within the last 7 days.
-* **Select All button**: Selects all tracks in the current view.
-* **Analyze button**: Starts the detection on the selected tracks.
-
-.. seealso:: For more information, go to :ref:`djing-bpm-detection`.
 
 .. _library-3rd-party:
 
