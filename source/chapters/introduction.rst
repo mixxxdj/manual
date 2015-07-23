@@ -21,8 +21,8 @@ Mixxx Features
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
 * **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.
-* **iTunes Integration**: Use your playlists and songs from iTunes, Traktor,
-  Rhythmbox, and Banshee.
+* **External Library Integration**: Use your playlists and songs from iTunes, 
+  Traktor, Rhythmbox, and Banshee.
 * **BPM Detection and Sync**: Instantly detect and sync the tempo of your songs.
 * **DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers.
 * **Timecode Support**: Use a real turntable or DJ-CD player as a controller.
