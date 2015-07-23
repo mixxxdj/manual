@@ -40,25 +40,24 @@ New in Mixxx |version|
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-* 4 decks (including 4 vinyl control inputs if you want to use 4 turntables)
+* 4 decks
 * Master sync
-* Key detection and pitch shifting (independent of tempo) for harmonic mixing.
-* 4 effect units for built-in effects (this also introduces all the necessary
-  plumbing for LV2/VST, effect send/receive, and advanced chaining in a future
-  release)
-* Beatloop rolls (now you can create beatloops and automatically jump to where
-  the track would have been if you hadn't enabled the loop when you release it)
-* Resizable skins (yes, finally!)
-* Vinyl control deck passthrough (switch to real vinyl temporarily)
-* Auxiliary inputs that pass through to the master mix.
-* Custom key notations (pick between traditional, OpenKey, Lancelot notation or
-  a custom one)
+* Color-coded waveforms showing the frequencies in tracks
+* Key detection and pitch shifting (independent of tempo) for harmonic mixing
+* Choice of traditional, OpenKey, Lancelot, and custom key notations
+* 4 effect units with built-in effects
+* Controller mapping :term:`GUI`
+* Resizable skins
 * Beat jumping and loop move
 * Multiple library folders
-* Cover/Album Art Support
-* Mono output and input support (easily do the Master/Headphone trick on one
-  stereo output)
-* Along with over 100 performance, quality and usability improvements.
+* Hierarchical library sorting
+* Cover/album art support
+* Vinyl passthrough mode to switch between control vinyl and music 
+  vinyl
+* Auxiliary inputs that pass through to the master mix
+* Mono output and input support
+* Improved support for using multiple sound cards
+* Over 100 other performance, quality and usability improvements
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
