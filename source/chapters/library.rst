@@ -320,7 +320,7 @@ intended for live, attended performance use. However, you can use the
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
-  context menu in the library`s :ref:`track list<library-root>`.
+  context menu in the library's :ref:`track list <library-root>`.
 
 .. versionadded:: 1.12
    :guilabel:`Analyze Playlist` option in the context menu.
