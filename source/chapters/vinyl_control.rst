@@ -45,7 +45,7 @@ used together with timecode control. The basic setups for timecode control are:
   output), and two stereo sound inputs.
 
   Your sound card inputs must match the turntable outputs. Turntables output
-  very quiet phono-level outputs that must be amplified for Mixx to use.
+  very quiet phono-level outputs that must be amplified for Mixxx to use.
   You should either find a sound card that has phono pre-amplifiers built in
   (one for each deck), use standalone phono pre-amplifiers, or use turntables
   with built in phono pre-amplifiers.
