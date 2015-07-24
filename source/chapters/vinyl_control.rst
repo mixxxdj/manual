@@ -20,10 +20,11 @@ How does it work?
 =================
 
 Vinyl control uses special :term:`timecode` records or CD's which are placed on
-real turntables or :term:`CDJ`. The audio output of the turntables is plugged
-into a computer on which Mixxx is running. When a record is played on one of the
-attached turntables, Mixxx reads the timecode from the record and uses the
-information to manipulate whatever track is loaded.
+real turntables or :term:`CDJ`s. The audio output of the turntables is plugged
+into a soundcard connected to a computer on which Mixxx is running.
+When a record is played on one of the attached turntables, Mixxx reads the
+timecode from the record and uses the information to manipulate whatever
+track is loaded.
 
 .. raw:: pdf
 
