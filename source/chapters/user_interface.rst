@@ -682,6 +682,10 @@ Equalizers and Gain Knobs
   audio is just at the peak of the center VU meters. This is so you can achieve
   the widest dynamic range for your track.
   
+  .. note:: By default, Mixxx automatically adjusts the gain of tracks to sound
+            like they are at approximately the same volume. Your tracks must be
+            :ref:`analyzed<library-analyze>` in advance to take advantage of
+            this feature.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
