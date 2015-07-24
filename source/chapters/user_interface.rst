@@ -691,6 +691,13 @@ Equalizers and Gain Knobs
   The low, mid, and high knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
+  
+  .. warning:: Be careful not to raise the EQs so much that any of the VU meters
+               are going into the red. At that point, your audio is clipping and
+               will sound worse. This is more often an issue with the low EQ
+               than the mid or high EQs. If you want to emphasize a frequency
+               band, it is better to lower the other ones and boost the track's
+               overall gain instead.
 
 **Kill Switches**
   The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
