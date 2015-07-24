@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-25 13:50+0100\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/todolist.rst:6
-# df81e86cf2f741359231e1787ecbd28e
 msgid "Automatically generated TODO list"
 msgstr ""
 
 #: ../../source/todolist.rst:8
-# beaf83a24cf54a46ae84af11ef74f4bf
 msgid "The following list is automatically generated from ``.. TODO::`` directives in the text."
 msgstr ""
 
 #: ../../source/todolist.rst:11
-# 7c9192e21e624a7d812ee5d6022a0eb0
 msgid "TODO items"
 msgstr ""
 
