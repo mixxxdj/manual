@@ -78,8 +78,8 @@ headphone cueing.
 
 .. _setup-laptop-with-splitter:
 
-Laptop and Stereo-to-Mono Splitter
-====================================
+Laptop and Splitter Cable
+=========================
 
 .. figure:: ../_static/mixxx_setup_splitter_adaptors.png
    :align: center
@@ -97,30 +97,21 @@ stereo output from a single jack into two separate mono singals.
 This setup allows you to start DJing without having to invest in expensive 
 equipment. However, your audience will not be able to enjoy music producers' 
 artistic use of stereophonic sound (although many club PA systems are wired in 
-mono anyway). Furthermore, soundcards built into computers tend to be fairly
-low quality, which you and your audience may notice at high volumes and on 
-large PA systems.
+mono anyway). Furthermore, soundcards built into computers are usually low
+quality.
 
 **Using a built-in soundcard and a stereo-to-mono splitter**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
-#. From the :guilabel:`Master Output Mode` drop-down menu, 
-   select :guilabel:`Mono`
 #. Select the :guilabel:`Output` tab
+#. Check that your headphones are plugged into the side of the cable with a
+   headphones symbol and that the speakers are plugged into the side of the cable
+   with a speaker symbol.
 #. From the :guilabel:`Master` drop-down menu, select your built-in soundcard,
    then :guilabel:`Channel 1`
 #. From the :guilabel:`Headphones` drop-down menu, select your built-in 
    soundcard, then :guilabel:`Channel 2`
 #. Click :guilabel:`Apply` to save the changes.
-
-Before starting to play, make sure that you have your speakers and headphones 
-plugged into the correct sides of the splitter cable. 
-:ref:`Load a track <djing-loading-tracks>` into a deck, turn the :ref:`volume 
-fader <interface-mixer>` for the deck all the way down, press the 
-:ref:`headphone <interface-pfl>` button, and check that you can only hear the 
-music through your headphones. If the music is playing through the speakers but 
-not your headphones, swap the sides of the splitter cable that the speakers and 
-headphones are plugged into.
 
 .. warning:: Most splitter cables, particularly those marketed as headphone
              splitter cables, output the same stereo signal to two headphone
