@@ -81,8 +81,7 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
  `tx push -s`
 
-* (optional) Translate on Transifex
-
+* (optional) Translate on [Transifex]
 
 * Download the translated strings from Transifex:
 
@@ -90,8 +89,7 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
 * Build the translated manual for the target language, e.g `de-DE` for German/Germany:
 
-`sphinx-intl build --locale-dir source/locale
-make -e SPHINXOPTS="-D language='de-DE'" html`
+ `sphinx-intl build --locale-dir source/locale make -e SPHINXOPTS="-D language='de-DE'" html`
 
 
 **Congratulations! You got the translated manual in the** `_build/html` **directory.**
