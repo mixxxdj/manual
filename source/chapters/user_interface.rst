@@ -605,9 +605,9 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head volume Knob**
-  This button adjusts your headphone volume. You can adjust the volume of a
-  single deck's signal you are listening to in the headphones with the
+**Head Gain Knob**
+  This button adjusts your headphone gain. You can adjust the gain of a
+  single deck's signal you are listening to in the headphones with the deck's
   :ref:`Gain <interface-eq-gain>` knob.
 
 **Head-Split Button**
@@ -620,8 +620,8 @@ Headphone and Master Mix Controls
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
   the master output.
 
-**Volume Knob**
-  The Volume Knob controls the overall volume of the master output. Adjust
+**Gain Knob**
+  The Gain Knob controls the overall gain of the master output. Adjust
   this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
   at the peak.
 
@@ -666,10 +666,12 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain of the deck. In
-  general, you should adjust this knob so that at full-volume the deck's audio
-  is just at the peak of the center VU meters. This is so you can achieve the
-  widest dynamic range for your track.
+  Above these knobs, the gain knob allows you to adjust the gain of the deck. 
+  Use this to compensate for the differences in recording levels between tracks.
+  In general, you should adjust this knob so that at full-volume the deck's
+  audio is just at the peak of the center VU meters. This is so you can achieve
+  the widest dynamic range for your track.
+  
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
@@ -922,7 +924,7 @@ Sample Deck Controls
   listen to the track in your headphones.
 
 **Gain Knob**
-  Allows you to adjust the volume of the track.
+  Allows you to adjust the gain of the track.
 
 **VU Meter**
   Shows the level of the signal and can be adjusted with the Gain knob.
