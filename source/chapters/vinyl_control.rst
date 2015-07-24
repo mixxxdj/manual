@@ -115,6 +115,11 @@ quality of the corresponding open source driver.
           system capable of :term:`latencies <latency>` of 10ms. With higher
           latencies the scratch sound will start to become distorted.
 
+.. note:: An external hardware mixer is not required for using timecode control.
+          You can use a
+          :ref:`MIDI or HID controller<setup-controller-and-external-card>`
+          to mix in software instead.
+
 Supported Timecode media
 ------------------------
 
