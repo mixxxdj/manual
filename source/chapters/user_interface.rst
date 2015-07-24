@@ -625,9 +625,19 @@ Headphone and Master Mix Controls
   this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
   at the peak.
 
-  .. hint:: If the Peak indicator on top of the Master VU meter flashes, the
-            master output signal is clipping (too loud). Lower the volume with
-            using the volume knob.
+  .. warning:: Gain is not the same as volume. Improperly setting the gain too
+               high or too low will decrease your sound quality. If you want to
+               adjust your overall volume, do so by adjusting the gain as close
+               to the sound output as possible. If you can adjust a PA system's
+               amplifier, adjust it there. This is not always an option for DJs,
+               so the next best place is usually the DJ mixer. If there is no DJ
+               mixer, adjust your soundcard. If your soundcard does not have any
+               controls on it (for example, for soundcards built into
+               computers), adjust the soundcard settings with your
+               :term:`OS<operating system>` mixer. For more thorough guides on
+               setting gain controls and other sound quality tips, see the
+               `Beginner DJ Links <http://mixxx.org/wiki/doku.php/beginner_dj_links>`_
+               page on the wiki.
 
 .. _interface-pfl:
 
