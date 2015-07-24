@@ -44,16 +44,17 @@ used together with timecode control. The basic setups for timecode control are:
   Two timecode vinyls, two turntables with phono pre-amplifiers (or line-level
   output), and two stereo sound inputs.
 
-  Your sound card inputs must match the turntable outputs.  Older turntables only
-  have phono-level outputs, and you should find a sound card that has a phono
-  pre-amplifier built in.  Some turntables have line-level output, and these can
-  be used with any sound card.
+  Your sound card inputs must match the turntable outputs. Turntables output
+  very quiet phono-level outputs that must be amplified for Mixx to use.
+  You should either find a sound card that has phono pre-amplifiers built in
+  (one for each deck), use standalone phono pre-amplifiers, or use turntables
+  with built in phono pre-amplifiers.
 
   You can try skipping the phono pre-amps if you use the software pre-amp in
   Mixxx on the Vinyl Control preferences pane. This may not work for everyone.
   Line-level signals are preferred and recommended.
 
-  For turntables a typical setup is depicted in the figure below.  First,
+  For turntables a typical setup is depicted in the figure below. First,
   connect the RCA cables from the turntables to the inputs on your sound card.
   Second, connect the outputs of your sound card to the inputs on your mixer.
 
