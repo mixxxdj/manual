@@ -52,4 +52,4 @@ Table of Contents
 
 .. [#f1] Yes, free with a capital F free. Free as in beer and free as in speech.
          For more information about what this means, see
-         `Wikipedia <http://en.wikipedia.org/wiki/Open-source_software>`_.
+         `Wikipedia <https://en.wikipedia.org/wiki/Open-source_software>`_.

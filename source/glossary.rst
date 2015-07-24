@@ -381,7 +381,7 @@ Glossary of Terms
      the changes within the community. Open source sprouted in the technological
      community as a response to proprietary software owned by corporations. For
      more information, see `Wikipedia
-     <http://en.wikipedia.org/wiki/Open-source_software>`_.
+     <https://en.wikipedia.org/wiki/Open-source_software>`_.
 
    url
      Uniform Resource Locator. The address that defines the route to a file on
@@ -425,7 +425,7 @@ Glossary of Terms
      technology. It aims to create a free database of user-submitted audio
      fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata`
      database and provide a web service for audio file identification using this
-     database. For more information, see`<http://acoustid.org/>`_.
+     database. For more information, see`<https://acoustid.org/>`_.
 
 
 

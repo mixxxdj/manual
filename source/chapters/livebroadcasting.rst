@@ -20,7 +20,7 @@ Streaming Servers
   broadcast the stream to your listeners. A popular free streaming service is
   `Caster.fm <http://www.caster.fm>`_. A review of several free and paid stream
   hosts is available at
-  `broadcastingworld.net <http://www.broadcastingworld.net/reviews/stream-hosting>`_.
+  `broadcastingworld.net <http://www.broadcastingworld.com/reviews/stream-hosting>`_.
 
   .. digraph:: remote_streaming
      :caption: Mixxx as client-side streaming source broadcasting to an
@@ -50,7 +50,7 @@ Streaming Servers
   bandwidth. Read the
   `Shoutcast documentation <http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_
   or
-  `Icecast documentation <http://www.icecast.org/docs.php>`_ for server setup
+  `Icecast documentation <http://www.icecast.org/docs/>`_ for server setup
   instructions.
 
   .. digraph:: local_streaming
@@ -200,7 +200,7 @@ in :menuselection:`Preferences --> Live Broadcasting --> Stream Settings`.
 
 Often streaming hosts will run their own directories. Check your host's FAQ to
 find out. If you want to promote your streaming radio station even more,
-register at services like `streamfinder.com <http://streamfinder.com>`_.
+register at services like `streamfinder.com <http://www.streamfinder.com/>`_.
 An overview of different internet radio directories is available at
 `shoutcheap.com <http://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
 
@@ -272,7 +272,7 @@ Windows Troubleshooting
 * Make sure you put the correct LAME :file:`*.dll` file in the same folder that
   contains the installation of Mixxx you are using.
 
-.. warning:: Some websites like `Audacity <http://audacity.sourceforge.net/>`_
+.. warning:: Some websites like `Audacity <http://audacityteam.org/>`_
              provide lame :term:`binaries` too. Do not use these versions or
              Mixxx will show an error when activating live broadcasting and your
              stream will fail.
@@ -285,7 +285,7 @@ Method A: Download
 To activate MP3 streaming on Mac OS X, follow these steps:
 
   1. Download
-     `LAME 3.98.4 <https://mega.co.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU>`_
+     `LAME 3.98.4 <https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU>`_
      Intel (Mac OS X 10.5+ 32-bit & 64-bit)
   #. Double-click on the downloaded zip file to unpack the file and you'll get
      an installer package file

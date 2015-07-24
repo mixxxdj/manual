@@ -556,9 +556,9 @@ iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 
 Supported libraries:
 
-* |ic_lib_itunes| `iTunes <http://itunes.apple.com>`_ (Windows, Mac OS X)
-* |ic_lib_traktor| `Traktor <http://http://www.native-instruments.com/en/traktor/>`_ (Windows, Mac OS X),
-* |ic_lib_rhythmbox| `Rhythmbox <https://projects.gnome.org/rhythmbox/>`_ (GNU/Linux)
+* |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, Mac OS X)
+* |ic_lib_traktor| `Traktor <http://www.native-instruments.com/en/products/traktor/>`_ (Windows, Mac OS X),
+* |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
 
 .. versionadded:: 1.12

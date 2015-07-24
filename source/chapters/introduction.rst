@@ -146,7 +146,7 @@ Through the manual you'll find text formatted like this:
   This is used to mark a keystroke, or a sequence of keystrokes. In this
   example, you would have to hold down the *STRG* key, then to press *G*.
 
-* `<http://www.wikipedia.org/>`_
+* `<https://www.wikipedia.org//>`_
 
   Links to external websites are marked like this.
 
@@ -199,6 +199,6 @@ There are a variety of other resources you can use to find out more.
   read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
-* **Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ ,
+* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
   `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ .
+  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .

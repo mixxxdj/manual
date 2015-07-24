@@ -78,12 +78,13 @@ Importing your audio files
   such as m4p files purchased in the iTunes Store, are not supported.
 
   AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
-  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
+  `Platform Update Supplement <https://support.microsoft.com/en-us/kb/2117917>`_ is
   required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
-  To enable the playback of AAC files, `build Mixxx from source with m4a files support
-  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
+  To enable the playback of AAC files, `build Mixxx from source with m4a/aac
+  files support
+  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
@@ -414,8 +415,8 @@ tracks in the library.
 
 Popular software to edit metadata of audio files include:
   * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
-  * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
-  * `Picard <http://musicbrainz.org/doc/Picard_Tagger>`_ (Mac, Windows, Linux)
+  * `Kid3 <http://sourceforge.net/projects/kid3/>`_ (Linux)
+  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
 
 .. _waveform-displays:
 
@@ -899,7 +900,7 @@ Burn your recorded mix to a CD/DVD
 * Right-click and select :guilabel:`Open in File Browser` to locate the file on
   your disk
 * Now burn the recording to a CD/DVD using a 3rd-party program, for example
-  `CDBurnerXP <http://www.cdburnerxp.se/>`_ for Windows or
+  `CDBurnerXP <https://cdburnerxp.se//>`_ for Windows or
   `Burn <http://burn-osx.sourceforge.net/>`_ for Mac OS X.
 
 .. note:: Due to licensing restrictions, :term:`MP3` recording is not enabled
