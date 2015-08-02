@@ -163,7 +163,8 @@ can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
 for WDM audio devices.
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will 
-prevent any other programs from using the sound card(s) that Mixxx is using. 
+prevent any other programs from using the sound card(s) that Mixxx is using.
+
 JACK allows you to route audio between JACK-compatible applications in flexible 
 ways and output sound from multiple programs at the same time. However, JACK can 
 be complicated to set up. To use JACK, start the JACK daemon *before* running 
