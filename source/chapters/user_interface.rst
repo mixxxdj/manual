@@ -658,6 +658,10 @@ way down.
 .. note:: Headphone cueing is only available if you have configured a
              Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
 
+.. note:: If you use an external hardware mixer, plug your headphones into that
+          rather than your sound card. Use the headphone buttons on the mixer
+          rather than the buttons in Mixxx.
+
 .. _interface-eq-gain:
 
 Equalizers and Gain Knobs
