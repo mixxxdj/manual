@@ -152,4 +152,4 @@ Even more [reStructuredText] resources:
 [pull request]: https://help.github.com/articles/creating-a-pull-request
 [Tag]: https://github.com/mixxxdj/manual/tags
 [create a new release]: https://github.com/mixxxdj/manual/releases/new
-[i18n]: #internationalization-\(i18n\)
+[i18n]: #internationalization-i18n

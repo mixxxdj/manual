@@ -21,8 +21,8 @@ Mixxx Features
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
 * **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.
-* **iTunes Integration**: Use your playlists and songs from iTunes, Traktor,
-  Rhythmbox, and Banshee.
+* **External Library Integration**: Use your playlists and songs from iTunes, 
+  Traktor, Rhythmbox, and Banshee.
 * **BPM Detection and Sync**: Instantly detect and sync the tempo of your songs.
 * **DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers.
 * **Timecode Support**: Use a real turntable or DJ-CD player as a controller.
@@ -40,25 +40,24 @@ New in Mixxx |version|
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-* 4 decks (including 4 vinyl control inputs if you want to use 4 turntables)
+* 4 decks
 * Master sync
-* Key detection and pitch shifting (independent of tempo) for harmonic mixing.
-* 4 effect units for built-in effects (this also introduces all the necessary
-  plumbing for LV2/VST, effect send/receive, and advanced chaining in a future
-  release)
-* Beatloop rolls (now you can create beatloops and automatically jump to where
-  the track would have been if you hadn't enabled the loop when you release it)
-* Resizable skins (yes, finally!)
-* Vinyl control deck passthrough (switch to real vinyl temporarily)
-* Auxiliary inputs that pass through to the master mix.
-* Custom key notations (pick between traditional, OpenKey, Lancelot notation or
-  a custom one)
+* Color-coded waveforms showing the frequencies in tracks
+* Key detection and pitch shifting (independent of tempo) for harmonic mixing
+* Choice of traditional, OpenKey, Lancelot, and custom key notations
+* 4 effect units with built-in effects
+* Controller mapping :term:`GUI`
+* Resizable skins
 * Beat jumping and loop move
 * Multiple library folders
-* Cover/Album Art Support
-* Mono output and input support (easily do the Master/Headphone trick on one
-  stereo output)
-* Along with over 100 performance, quality and usability improvements.
+* Hierarchical library sorting
+* Cover/album art support
+* Vinyl passthrough mode to switch between control vinyl and music 
+  vinyl
+* Auxiliary inputs that pass through to the master mix
+* Mono output and input support
+* Improved support for using multiple sound cards
+* Over 100 other performance, quality and usability improvements
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
@@ -78,7 +77,11 @@ minimum requirements for having a great experience with Mixxx:
 
 * A 2GHz or faster CPU
 * At least 1GB of RAM
-* A soundcard with 2 stereo audio outputs
+* A soundcard with 2 stereo audio outputs (4 mono output channels)
+
+.. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx 
+         can be used with an external mixer and a less powerful computer such 
+         as a netbook.
 
 About the Mixxx Project
 =======================
