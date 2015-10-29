@@ -327,6 +327,16 @@ headroom, or available level above the average before the signal clips. The
 loudest parts of the music (the transients) should briefly go into the yellow
 region.
 
+.. figure:: ../_static/waveform-good.png
+   :align: center
+   :alt: A waveform at a good level
+   :figclass: pretty-figures
+   
+   A waveform at a good level. Note that the example waveforms in this section
+   were made by adjusting the visual gain of the waveform display in Mixxx to
+   illustrate the concepts. Adjusting the visual gain of the waveform display
+   does not change the level of the audio.
+
 .. figure:: ../_static/level-meter-red.png
    :align: right
    :alt: A level meter in Mixxx indicating clipping. The gain should be turned down!
@@ -339,12 +349,17 @@ waveform are flattened because the equipment has reached the maximum level that
 it can amplify the signal to. This distorts sound in an unpleasant way and can
 damage equipment by driving it with more power than it is designed to handle.
 Increasing the gain past the point where clipping begins (further into the red
-on a meter) will distort the signal more. If there is a limiter being used with
-the sound system (which is usually the case on large PA systems), clipping more
-will not make the sound any louder but will distort it more. If you want to make
-the sound louder when every part of the signal chain is at its maximum without
-clipping, use more speakers or use more sensitive speakers that convert
-electrical energy into acoustic energy more efficiently.
+on a meter) will distort the signal more. If you want to make the sound louder
+when every part of the signal chain is at its maximum without clipping, use more
+speakers or use speakers that are more sensitive and convert electrical energy
+into acoustic energy more efficiently.
+
+.. figure:: ../_static/waveform-clipping.png
+   :align: center
+   :alt: A clipping waveform
+   :figclass: pretty-figures
+   
+   A clipping waveform
 
 .. figure:: ../_static/level-meter-too-low.png
    :align: left
@@ -364,7 +379,14 @@ and the noise from the sound card. The end result will have more noise than if
 the output of the sound card was turned up before the signal reached the mixer
 and the mixer's gain did not have to be turned up.
 
-.. note:: To adjust the output volume of a sound system while maintaing a
+.. figure:: ../_static/waveform-too-low.png
+   :align: center
+   :alt: A waveform at too low of a level
+   :figclass: pretty-figures
+   
+   A waveform that is too close to the noise floor
+   
+   .. note:: To adjust the output volume of a sound system while maintaing a
           high signal-to-noise ratio, the gain should be adjusted as close to
           the speakers as possible. Refer to the
           :ref:`Gain Knob <interface-gain-knob>` section for details.
