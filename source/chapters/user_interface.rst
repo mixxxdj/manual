@@ -647,18 +647,15 @@ Headphone and Master Mix Controls
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
   
 **Head Gain Knob**
-  This knob controls the gain applied to the headphone output signal that Mixxx sends
-  to your sound card. Generally, this knob should not be adjusted. To adjust the
-  volume in your headphones, adjust your sound card's gain on the headphone
-  output. Most external sound cards have a gain knob specifically for the
-  headphone jack. If you use an onboard sound card for your headphones, adjust
-  the gain control in your :term:`OS <operating system>` mixer program. If your
-  sound card only has one gain knob that controls both the main output and the
-  headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx to
-  control the volume of your headphones without affecting your main output.
-  
-  Some sound cards built into If your headphone output is not loud enough after turning your sound card all
-  the way up, 
+  This knob controls the gain applied to the headphone output signal that Mixxx
+  sends to your sound card. Generally, this knob should not be adjusted. To
+  adjust the volume in your headphones, adjust your sound card's gain on the
+  headphone output. Most external sound cards have a gain knob specifically for
+  the headphone jack. If you use an onboard sound card for your headphones,
+  adjust the gain control in your :term:`OS <operating system>` mixer program.
+  If your sound card only has one gain knob that controls both the main output
+  and the headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx
+  to control the volume of your headphones without affecting your main output.
 
 .. _interface-pfl:
 
