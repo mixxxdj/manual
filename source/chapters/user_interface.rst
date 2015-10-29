@@ -620,8 +620,9 @@ Headphone and Master Mix Controls
 .. _interface-gain-knob:
   
 **Gain Knob**
-  The Gain Knob controls the gain of the signal that Mixxx sends to your
-  sound card. Generally, this knob should not be adjusted. To change the output
+  The Gain Knob controls the gain applied to the Master output signal that
+  Mixxx sends to your sound card, Internet broadcasting servers, and recorded
+  mixes. Generally, this knob should not be adjusted. To change the output
   volume, a gain control should be adjusted as close to the speakers as possible
   for the best signal-to-noise ratio throughout your signal chain. Ideally, the
   volume would only be adjusted by adjusting the gain on the power amplifier.
@@ -642,11 +643,11 @@ Headphone and Master Mix Controls
                indicated by a level meter going into its red region
                or an LED labeled "clipping" turning on.**
   
-  .. seealso:: For a more in depth explanation of how to set your gains, see
+  .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
   
 **Head Gain Knob**
-  This knob controls the gain of the headphone output signal that Mixxx sends
+  This knob controls the gain applied to the headphone output signal that Mixxx sends
   to your sound card. Generally, this knob should not be adjusted. To adjust the
   volume in your headphones, adjust your sound card's gain on the headphone
   output. Most external sound cards have a gain knob specifically for the
@@ -655,6 +656,9 @@ Headphone and Master Mix Controls
   sound card only has one gain knob that controls both the main output and the
   headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx to
   control the volume of your headphones without affecting your main output.
+  
+  Some sound cards built into If your headphone output is not loud enough after turning your sound card all
+  the way up, 
 
 .. _interface-pfl:
 
@@ -676,7 +680,7 @@ will play next in your headphones before your audience hears the track
 (headphone cueing). You can select more than one PFL button simultaneously.
 
 .. note:: Headphone cueing is only available if you have configured a
-             Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+          Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
 
 .. _interface-eq-gain:
 
@@ -693,16 +697,13 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain of the deck. 
+  Above these knobs, the gain knob allows you to adjust the gain applied to the deck. 
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
   (the transients) briefly going into the yellow region. **Do NOT turn the
   Gain Knob up so much that the level meter is in the red region. At this point
   the track is clipping, which sounds bad and could damage equipment.**
-  
-  .. seealso:: For a more in depth explanation of how to set your gains, see
-               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
   
   .. note:: By default, Mixxx automatically applies an additional ReplayGain so
             tracks have approximately equal loudness at unity gain. Your tracks
@@ -711,6 +712,9 @@ Equalizers and Gain Knobs
             ReplayGain value, but will not apply a newly calculated ReplayGain
             value to a track after it has already started playing (to avoid a
             sudden change in the gain of a playing track).
+            
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
@@ -968,7 +972,7 @@ Sample Deck Controls
   listen to the track in your headphones.
 
 **Gain Knob**
-  Allows you to adjust the gain of the track.
+  Allows you to adjust the gain applied to the track.
 
 **Level Meter**
   Shows the level of the signal and can be adjusted with the Gain knob.
