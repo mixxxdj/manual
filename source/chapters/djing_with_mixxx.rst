@@ -367,17 +367,19 @@ into acoustic energy more efficiently.
    :figclass: pretty-figures
 
 On the other hand, the signal should not be too low. This is because every audio
-device generates a little noise at a level referred to as its noise floor. The signal
+device generates a little noise at a level referred to as its noise floor.
+Additionally, analog signals pick up noise as they travel along wires. The signal
 measured by the meter on the left is relatively close to the noise floor. When a
 device is turned up, the noise floor does not go up; only the signal does.
 However, every time the signal is amplified by the gain of another piece
 of equipment, both the noise and the signal from previous devices in the signal
 chain are amplified. For example, if your sound card is turned down and you turn
 the gain up on your mixer to compensate, the signal-to-noise ratio (SNR) of the
-sound card output will be low and the mixer's gain will amplify both the signal
-and the noise from the sound card. The end result will have more noise than if
-the output of the sound card was turned up before the signal reached the mixer
-and the mixer's gain did not have to be turned up.
+sound card output will be low and the mixer's gain will amplify the signal and
+the noise from the sound card, plus the noise picked up along the wire. The end
+result will have more noise than if the output of the sound card was turned up
+before the signal reached the mixer and the mixer's gain did not have to be
+turned up.
 
 .. figure:: ../_static/waveform-too-low.png
    :align: center
