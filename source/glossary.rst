@@ -180,10 +180,12 @@ Glossary of Terms
      i.e. treble, mid and bass. Useful for effects where the DJ drops a track
      out for a period or creates room for a transition.
 
-   vu meter
-     The volume unit (VU) meter is used to show the relative levels of audio
-     signals and is subdivided across channels. Basically it represents how
-     'loud' a sound from a channel is.
+   level meter
+     The level meter is used to show the average levels of audio
+     signals. The level should average around the top of the green region, with
+     the loudest parts of the music (the transients) briefly going into the
+     yellow region. If the level meter is in the red, the signal is clipping and
+     the gain should be turned down.
 
    balance
      A balance control on a mixer allows you to adjust the balance between the
@@ -195,7 +197,8 @@ Glossary of Terms
 
    volume
      A term that refers to the degree of sound intensity or audibility; loudness.
-     A volume control is used to adjust the output gain setting.
+     Volume is determined by people's perception and does not directly correspond
+     to any physical property of sound.
 
    reverse
      Reverse plays a track backwards.

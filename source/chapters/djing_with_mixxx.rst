@@ -303,6 +303,96 @@ and click the :guilabel:`Play` button next to the waveform.
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
 
+.. _djing-gain-staging:
+
+Setting your levels properly (gain staging)
+===========================================
+.. sectionauthor::
+   Be <be.0@gmx.com>
+   
+.. figure:: ../_static/level-meter-green.png
+   :align: left
+   :alt: A level meter in Mixxx with the gain set properly for the loudest part of a track
+   :figclass: pretty-figures
+
+Setting your levels properly, also known as gain staging, is essential for
+getting the best sound quality out of the equipment you are using. At every link
+in your signal chain, from Mixxx's channel gains to the power amplifier, the
+level should be well above the noise floor, but lower than the maximum level
+before the signal clips. The :term:`level meters <level meter>` should mostly be
+around the top of their green region. The level meter pictured to the left shows
+where Mixxx's level meters should average at the loudest parts of tracks. The
+average level should not be in the yellow region. Use the yellow region to leave
+headroom, or available level above the average before the signal clips. The
+loudest parts of the music (the transients) should briefly go into the yellow
+region.
+
+.. figure:: ../_static/waveform-good.png
+   :align: center
+   :alt: A waveform at a good level
+   :figclass: pretty-figures
+   
+   A waveform at a good level. Note that the example waveforms in this section
+   were made by adjusting the visual gain of the waveform display in Mixxx to
+   illustrate the concepts. Adjusting the visual gain of the waveform display
+   does not change the level of the audio.
+
+.. figure:: ../_static/level-meter-red.png
+   :align: right
+   :alt: A level meter in Mixxx indicating clipping. The gain should be turned down!
+   :figclass: pretty-figures
+
+**If a level meter is in its red region, the signal is clipping and the gain
+should be turned down.** Some equipment doesn't have a level meter and only has
+an LED that turns on when the signal clips. Clipping means that the peaks of the
+waveform are flattened because the equipment has reached the maximum level that
+it can amplify the signal to. This distorts sound in an unpleasant way and can
+damage equipment by driving it with more power than it is designed to handle.
+Increasing the gain past the point where clipping begins (further into the red
+on a meter) will distort the signal more. If you want to make the sound louder
+when every part of the signal chain is at its maximum without clipping, use more
+speakers or use speakers that are more sensitive and convert electrical energy
+into acoustic energy more efficiently.
+
+.. figure:: ../_static/waveform-clipping.png
+   :align: center
+   :alt: A clipping waveform
+   :figclass: pretty-figures
+   
+   A clipping waveform
+
+.. figure:: ../_static/level-meter-too-low.png
+   :align: left
+   :alt: A level meter in Mixxx with the gain set too low
+   :figclass: pretty-figures
+
+On the other hand, the signal should not be too low. This is because every audio
+device generates a little noise at a level referred to as its noise floor.
+Additionally, analog signals pick up noise as they travel along wires. The signal
+measured by the meter on the left is relatively close to the noise floor. When a
+device is turned up, the noise floor does not go up; only the signal does.
+However, every time the signal is amplified by the gain of another piece
+of equipment, both the noise and the signal from previous devices in the signal
+chain are amplified. For example, if your sound card is turned down and you turn
+the gain up on your mixer to compensate, the signal-to-noise ratio (SNR) of the
+sound card output will be low and the mixer's gain will amplify the signal and
+the noise from the sound card, plus the noise picked up along the wire. The end
+result will have more noise than if the output of the sound card was turned up
+before the signal reached the mixer and the mixer's gain did not have to be
+turned up.
+
+.. figure:: ../_static/waveform-too-low.png
+   :align: center
+   :alt: A waveform at too low of a level
+   :figclass: pretty-figures
+   
+   A waveform that is too close to the noise floor
+   
+   .. note:: To adjust the output volume of a sound system while maintaing a
+          high signal-to-noise ratio, the gain should be adjusted as close to
+          the speakers as possible. Refer to the
+          :ref:`Gain Knob <interface-gain-knob>` section for details.
+
 .. _djing-edit-metadata:
 
 Edit metadata of audio files
