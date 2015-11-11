@@ -116,6 +116,10 @@ quality.
    soundcard, then :guilabel:`Channel 2`
 #. Click :guilabel:`Apply` to save the changes.
 
+.. seealso:: See `the wiki
+             <http://mixxx.org/wiki/doku.php/hardware_compatibility#splitter_cables>`_
+             for a list of DJ splitter cables.
+
 .. warning:: Most splitter cables, particularly those marketed as headphone
              splitter cables, output the same stereo signal to two headphone
              jacks and will not work for this DJ setup. Also, if you use a
