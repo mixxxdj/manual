@@ -181,12 +181,13 @@ mouse and keyboard. For more information see :ref:`controlling mixxx`.
           portable, inexpensive backup.
 
 .. note:: Soundcards designed and marketed for recording often have a knob that 
-          allows you to mix its input directly with its output without the 
-          added :term:`latency` of sending the input into the computer. 
-          This function can be helpful when recording, but is not as useful
-          while DJing. To get the maximum output volume from these soundcards,
-          you may need to set this knob to only send output from the computer
-          and none from the input(s).
+          allows you to mix its input directly with its output. This function
+          can be helpful when recording (to hear the input without the latency
+          of going through the computer), but the master output level will be
+          low even if there is no sound on the inputs. To get the maximum output
+          level from these soundcards, you may need to set this knob to only
+          send output from the computer and none from the input(s). Typically
+          this is done by turning the knob clockwise as far as it turns.
 
 .. _setup-controller-and-external-card:
 
