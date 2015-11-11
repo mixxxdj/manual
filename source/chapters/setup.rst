@@ -186,8 +186,7 @@ mouse and keyboard. For more information see :ref:`controlling mixxx`.
           of going through the computer), but the master output level will be
           low even if there is no sound on the inputs. To get the maximum output
           level from these soundcards, you may need to set this knob to only
-          send output from the computer and none from the input(s). Typically
-          this is done by turning the knob clockwise as far as it turns.
+          send output from the computer and none from the input(s).
 
 .. _setup-controller-and-external-card:
 
