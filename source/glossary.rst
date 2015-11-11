@@ -91,30 +91,23 @@ Glossary of Terms
      Short for for Musical Instrument Digital Interface. A digital
      communications language and hardware specification enabling compatible
      electronic instruments, sequencers, computers, etc., to communicate with
-     each other in a network.
+     each other in a network. Most DJ :term:`controllers <controller>` use MIDI
+     to communicate with computers.
 
    HID
      Short for for Human Interface Device, a part of the USB specification. It
      specifies a device class (a type of computer hardware) for human interface
-     devices such as keyboards, mice and game controllers.
+     devices such as keyboards, mice, game controllers, and some DJ
+     :term:`controllers <controller>`.
 
-   MIDI controller
-     An external hardware device that generates and transmits :term:`MIDI` data
-     to MIDI-enabled hardware or software (e.g. Mixxx). Usually connected to
-     your computer via USB, MIDI controllers allow you to control audio
-     applications among others. Many DJs prefer to control DJ software using
-     physical knobs, faders, and wheels instead of using a computer keyboard.
-
-   HID controller
-     An external hardware device that generates and transmits :term:`HID` data
-     to HID-enabled hardware or software (e.g. Mixxx). Connected to your
-     computer via USB, HID controllers allow you to control audio applications
-     among others. Many DJs prefer to control DJ software using physical knobs,
-     faders, and wheels instead of using a computer keyboard.  Besides the known
-     DJ controllers also keyboards, mice and game controllers are some of the
-     most popular HID devices. Compared to :term:`MIDI` it also allows use of
-     advanced features such as those found on modern :term:`CDJs <CDJ>`,
-     e.g. display screens and high-resolution jogwheels.
+   controller
+     An external hardware device that generates and transmits signals to a
+     computer, usually via USB, to control software with physical controls
+     other than a mouse and keyboard. Controllers have many uses for music such
+     as controlling DJ programs like Mixxx. They typically send :term:`MIDI`
+     signals but some controllers use :term:`HID` signals. Many DJs prefer to
+     control DJ software using physical knobs, faders, and wheels on controllers
+     instead of using a computer keyboard and mouse.
 
    vinyl control
      A method of controlling DJ applications which simulates the traditional
@@ -411,9 +404,8 @@ Glossary of Terms
    GUI
      Short for “Graphical User Interface” and is pronounced “gooey”. It refers
      to a user interface based on graphics (icons, pictures and menus) instead
-     of text. In Mixxx, it uses a mouse, keyboard, or
-     :term:`MIDI <MIDI controller>` / :term:`HID <HID controller>` controllers
-     as input devices.
+     of text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID`
+     :term:`controllers <controller>` as input devices.
 
    MusicBrainz
      A open-source music encyclopedia that collects music :term:`metadata` and

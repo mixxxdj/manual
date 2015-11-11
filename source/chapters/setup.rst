@@ -131,7 +131,7 @@ quality.
 .. _setup-laptop-and-external-card:
 
 Laptop and External USB Soundcard
-================================
+=================================
 
 .. figure:: ../_static/mixxx_setup_ext_soundcard.png
    :align: center
@@ -148,9 +148,9 @@ master output and supplies the main mix to the audience. With the second stereo
 output (channels 3-4) you can :term:`cue <cueing>` and :ref:`preview 
 <djing-previewing-tracks>` the next track in your headphones. If
 your soundcard only has one stereo output, you can use multiple soundcards
-to achieve a similar setup. Most DJ :term:`MIDI controllers <MIDI controller>`
-above the most basic models include a soundcard with 2 stereo outputs
-(see :ref:`setup-controller-and-external-card` for details).
+to achieve a similar setup. Most DJ controllers above the most basic models
+include a soundcard with 2 stereo outputs (see
+:ref:`setup-controller-and-external-card` for details).
 
 The configuration depicted above uses two soundcards. This setup is the bare
 minimum for serious DJing. Without any extra gear, the DJ can control Mixxx via
@@ -194,28 +194,32 @@ mouse and keyboard. For more information see :ref:`controlling mixxx`.
 Laptop and MIDI or HID Controller
 =================================
 
-Most DJs prefer the tactile and intuitive control provided by DJ MIDI 
-controllers over only a keyboard and mouse. Mixxx can work with any :term:`MIDI 
-controller` as long as there is a MIDI mapping file to tell Mixxx how to 
-understand the controller's signals. Mixxx comes bundled with a number of MIDI
-mapping presets. To see the full list of included mappings, see
-:ref:`control-midi`. For controllers that Mixxx does not yet support, anyone can 
-:ref:`add support <advanced-controller>` for them.
+Most DJs prefer the tactile and intuitive control provided by DJ MIDI or HID
+controllers over only a keyboard and mouse. Mixxx can work with any :term:`MIDI`
+or :term:`HID` :term:`controller` as long as there is a mapping file
+to tell Mixxx how to understand the controller's signals. Mixxx comes bundled
+with a number of MIDI and HID mapping presets, which are listed in the
+`Mixxx DJ Hardware Guide <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+on the wiki. For controllers that Mixxx does not yet support, you can `search
+the forum <http://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
+started a mapping. You can also start one yourself using the information in the
+`Controller Mapping Documentation <http://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
+on the wiki.
 
 Controllers with an integrated soundcard
 ----------------------------------------
 
-Many DJ MIDI controllers include an integrated *multi-channel* soundcard.
+Many DJ controllers include an integrated *multi-channel* soundcard.
 A setup with this kind of controller may look like the diagram below:
 
 .. figure:: ../_static/mixxx_setup_midi_integrated_sound.png
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Using Mixxx together with a MIDI controller and integrated soundcard
+   :alt: Using Mixxx together with a DJ controller and integrated soundcard
    :figclass: pretty-figures
 
-   Using Mixxx together with a MIDI controller and integrated soundcard
+   Using Mixxx together with a DJ controller and integrated soundcard
 
 **Using a controller with an integrated multi-channel soundcard**
 
@@ -237,10 +241,10 @@ soundcard as depicted in the diagram below:
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Using Mixxx together with a MIDI controller and external soundcard
+   :alt: Using Mixxx together with a DJ controller and external soundcard
    :figclass: pretty-figures
 
-   Using Mixxx together with a MIDI controller and external soundcard
+   Using Mixxx together with a DJ controller and external soundcard
           
 **Using a controller without an integrated soundcard**
 
@@ -252,7 +256,7 @@ soundcard as depicted in the diagram below:
    soundcard, then :guilabel:`Channels 1-2`
 #. Click :guilabel:`Apply` to save the changes.
 
-.. note:: You can connect as many MIDI controllers as you have ports on your
+.. note:: You can connect as many controllers as you have ports on your
           computer. Just follow the steps in :ref:`control-midi` for each
           controller you want to use.
 
