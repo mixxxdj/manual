@@ -9,25 +9,28 @@ Hardware Setup
 This chapter describes the most common hardware setups to serve as examples. We
 will go over the setup of soundcards, controllers, and timecode records/CDs.
 
-Headphone cueing, or just cueing, is previewing the next track you would like to
-mix in your headphones. The audience will not hear what you are cueing in your
-headphones. Being able to cue is a crucial aspect of DJing that separates DJing
-from merely making a playlist.
+Headphone cueing, or just cueing, is a crucial aspect of DJing that separates
+DJing from merely making a playlist. Headphone cueing allows you to preview the
+next track you would like to mix in your headphones. The audience will not hear
+what you are cueing in your headphones until you decide to mix it in.
 
 In order to use headphone cueing, you will need at least 2 separate audio
 outputs, typically provided by a USB soundcard (also known as an “audio 
 interface”). The headphone jack on most laptops is not a second audio output. 
 Rather, plugging headphones into the jack simply redirects the laptop's single
-stereo output to your headphones. However, a splitter cable can be used to
-separate the stereo output of a headphone jack into two separate mono outputs
-for headphone cueing.
+stereo output from its speakers to your headphones. A splitter cable can be used
+to separate the stereo output of a headphone jack into two separate mono outputs
+for headphone cueing, but it is recommended to use a sound card with at least
+four mono outputs (for two stereo pairs). Such sound cards tend to be higher quality
+than those built into laptops and allow your mix to be enjoyed in stereo by your
+audience.
 
 Unlike some proprietary DJ systems, Mixxx can use any soundcard and any
-:term:`MIDI<MIDI controller>` or :term:`HID` controller that your
+:term:`MIDI` or :term:`HID` controller that your
 :term:`OS <operating system>` has drivers to use. Mixxx can use multiple audio
 devices simultaneously. Depending on your budget and application area, your
 sound setup and requirements may vary. This section provides useful information
-for club, hobby and radio DJs alike.
+for club, hobby, and radio DJs alike.
 
 .. seealso:: The `Mixxx DJ Hardware Guide
              <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
