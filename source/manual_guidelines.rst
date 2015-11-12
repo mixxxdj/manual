@@ -78,13 +78,13 @@ elements, use color ``#FF1F90`` if possible for consistency.
 
 Nice screenshot tools with build-in editor for annotations:
 
-* MacOSX: `Skitch <http://evernote.com/skitch/>`_
+* MacOSX: `Skitch <https://evernote.com/skitch/>`_
 * Linux: `Shutter <http://shutter-project.org/>`_
-* Windows: `PickPic <http://www.picpick.org/download>`_ or
+* Windows: `PickPic <http://www.nteworks.com/picpick/>`_ or
   `Screenshotcaptor <http://www.donationcoder.com/Software/Mouser/screenshotcaptor/>`_
 
 Alternatively, import your screenshots into
-`Inkscape <http://inkscape.org/>`_, add annotations and export as .png to
+`Inkscape <https://inkscape.org/>`_, add annotations and export as .png to
 :file:`/static`. Then save the original work as .svg to :file:`/static` as well,
 so any future contributor can work on your annotations at a later time.
 
@@ -112,9 +112,7 @@ Double quotes
 Use curly double quotes (“ ”). Avoid typewriter double quotes (" ")
 produced by the convenient quotation mark button on your keyboard.
 For details and key combinations, see
-`Wikipedia <https://en.wikipedia.org/wiki/Quotation_mark#Typing_quotation_marks_on_a_computer_keyboard>`_
-and
-`maxeroni.com <http://maxeroni.com/2011/10/18/proper-quotation-marks-%E2%80%93-rules-of-typography-1/>`_ .
+`Wikipedia <https://en.wikipedia.org/wiki/Quotation_marks_in_English#Typing_quotation_marks_on_a_computer_keyboard>`_ .
 
 Admonitions
 -----------

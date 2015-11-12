@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-25 13:50+0100\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,57 +17,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/chapters/setup.rst:2
-# 7c1ad6820d674fdd9a30438b7b5887cc
 msgid "Hardware Setup"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:8
-# efcd7cd4075148a495c372d79e5a854a
 msgid "This chapter describes the most common hardware setups to serve as examples. We will go over the setup of timecode records/CDs, MIDI control and keyboard control."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:13
-# a3fe9a127edf473884152b98ce9decf6
 msgid "Audio Output"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:15
-# ea490dc537d04e6c9175f3f648af5d22
 msgid "Headphone cueing, or just cueing, is previewing the next track you would like to mix in your headphones. The audience will not hear what you are cueing in your headphones. Being able to cue is a crucial aspect of DJing."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:19
-# b1d76011670d42d7b25dc72679385902
 msgid "In order to cue with your computer, you will need **at least 2 separate audio outputs**. Traditionally, a headphone jack on most laptops **is not a second audio output**. Rather, plugging headphones into the jack simply redirects the laptop's main output to your headphones. **Having a headphone jack alone will not allow you to cue.**"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:26
-# 9b1e42fee1224d14abe8c684431126a7
 msgid "Common Configurations"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:28
-# f33910080c9f4ad4813b840d2f4645bf
 msgid "Unlike some commercial DJ systems, Mixxx can control multiple audio devices simultaneously.  Depending on your budget and application area your sound setup and requirements may vary.  This section provides useful information for club, hobby and radio DJs alike."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:36
-# 8c5394e686c0422a9b0537c3ad81138c
 msgid "Laptop Only"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:45
-# a856cc3d0cac44deaac9c68371be60d4
 msgid "Using Mixxx with your built-in sound card"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:47
-# 450d9e1077004d72a4b881fb8379d623
 msgid "There is absolutely no need to buy an additional, expensive sound card **if you do not require headphone cueing**. The built-in soundcard on most computers and laptops comes with a single line-out and microphone input."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:51
-# 351baaa87cec4186882d8e14c481b070
 msgid "The figure above depicts how the sound configuration might look. The stereo output of your soundcard (channels 1-2) will be connected to the **Master out**."
 msgstr ""
 
@@ -76,11 +65,6 @@ msgstr ""
 #: ../../source/chapters/setup.rst:110
 #: ../../source/chapters/setup.rst:139
 #: ../../source/chapters/setup.rst:162
-# 0834d0b0f14d495abe60e3562aa5f58c
-# ccdefec557a048eba69f4d1365626cd8
-# bfc7dddec0774abaa989a7abc55fef52
-# 6f6aea6df13e4870b57f881d9fac730d
-# b9675942f5fb4b1a84b4d1383cbf037f
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
 msgstr ""
 
@@ -89,41 +73,30 @@ msgstr ""
 #: ../../source/chapters/setup.rst:111
 #: ../../source/chapters/setup.rst:140
 #: ../../source/chapters/setup.rst:163
-# fc5e41b8a96f4e1ebf585b57144f9ec6
-# 8fb5b37392544cf4b853ecd7863d086f
-# eac3273e36c14fd9b9cf6764da4e5415
-# 1722dc8547444ad18171a666c76ecebe
-# 23c9b96d79e4464486176d5597ac9808
 msgid "Select the :guilabel:`Output` tab"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:57
-# f98ac70d8f644411b1e59e332832f65b
 msgid "From the :guilabel:`Master` drop-down menus, select your built-in soundcard, then :guilabel:`Channels 1-2`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:59
-# 8cfde00dd4584795aaeb1bf813851648
 msgid "Depending on your soundcard, you can specify a :ref:`microphone <interface-mic>`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:62
-# 3fa21a181c984761bdd6188447df2442
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:63
-# 393d2a2bd1bf4c9882597f1c15c3e70b
 msgid "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:64
-# 60ec59afcc4c412cadc12303fe82d6b4
 msgid "Open the :guilabel:`Input` tab"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:65
-# b0cda274b6b84965bcc53fe991745c22
 msgid "From the :guilabel:`Microphone` drop-down menu, select the input your microphone is connected to"
 msgstr ""
 
@@ -132,137 +105,105 @@ msgstr ""
 #: ../../source/chapters/setup.rst:116
 #: ../../source/chapters/setup.rst:145
 #: ../../source/chapters/setup.rst:168
-# fc97aaa9a4ae421c93ea42dd6055dac7
-# 596b701aa8444fb185bacb777a0d9028
-# 5ea44547751744e0909520255848aa2a
-# 3f2d23b6fb61474da9e59b885023f238
-# 323aa14c35964232ba3590c95dc5f842
 msgid "Click :guilabel:`Apply` to save the changes."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:69
-# 90aa846758ad4d33b5bb1b733dd8e1cb
 msgid "This minimal configuration may be suitable for **radio DJs** that do not need headphone :term:`cueing`."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:75
-# a2410d412a0142e1a4c408f127538bc8
 msgid "Laptop and an External USB Soundcard"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:84
-# 070e6ca70db849458d1fb0eace23d89b
 msgid "Using Mixxx together with an external soundcard"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:86
-# 0e05f0350a8a4dfc8cd38913e13c303d
 msgid "The most common setup for DJing is a laptop and a soundcard with 2 stereo outputs (4 channels). The first stereo output (channels 1-2) is used as the **Master out** and supplies the main mix to the room. With the 2nd stereo output (channels 3-4) you can :term:`cue <cueing>` and :ref:`preview <djing-previewing-tracks>` the next track in your headphones. If your soundcard does not have 2 stereo outputs, you can use multiple soundcards to achieve the same setup."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:94
-# 5ee34cd0afc4423c91b3306760efd2e0
 msgid "The depicted configuration above uses two soundcards. This setup is the bare minimum for serious DJing. Without any extra gear, the DJ can control Mixxx via mouse and keyboard. For more information see :ref:`controlling mixxx`."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:98
-# 386d1b30aeab492eb34d395567d8d2fb
 msgid "**Using an external multi-channel soundcard**"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:102
 #: ../../source/chapters/setup.rst:112
 #: ../../source/chapters/setup.rst:141
-# 21ca0da57d814da8b33a7c1c584b2c08
-# 301eb2a34b3b46db9db1898cca2aabbb
-# b7e160b33ff440ec957d17527a282770
 msgid "From the :guilabel:`Master` drop-down menus, select the external soundcard, then :guilabel:`Channels 1-2`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:104
-# 78c36bca62d44ba1b91afab4f69b366d
 msgid "From the :guilabel:`Headphones` drop-down menus, select the external soundcard, then :guilabel:`Channels 3-4`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:108
-# 882a35329bbe485cb32b02f66aaee767
 msgid "**Using two soundcards (built-in + external)**"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:114
 #: ../../source/chapters/setup.rst:143
-# 7a9d16faf1924ccd9144f60c48bfe3b7
-# 3b52e088d15a43e995a4821030fc3734
 msgid "From the :guilabel:`Headphones` drop-down menus, select the built-in soundcard, then :guilabel:`Channels 1-2`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:121
-# 6c6654b698314aa483f26fc3bfdf01d1
 msgid "Laptop, MIDI Controller, and External USB Soundcard"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:123
-# 011b22f62cdb42e885097b2d78f4fa67
 msgid "Mixxx can work with any :term:`MIDI controller` that has drivers for your :term:`OS <operating system>`, as long as there is a MIDI mapping file to tell Mixxx how to understand it. Mixxx comes bundled with a number of MIDI mapping presets. To see the full list, see :ref:`control-midi`."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:135
-# 287d54b103704e02b0ccb57d66ea7072
 msgid "Using Mixxx together with a MIDI controller and external soundcard"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:137
-# e47acd442aea4d1fb59a20b5f7564a51
 msgid "**Using a controller without an integrated multi-channel soundcard**"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:147
-# 02bf2f2839814135ae7ee87ccfa755ed
 msgid "Your MIDI controller may have an integrated *multi-channel* soundcard. If yours does not, your sound setup may look like the figure above. Otherwise, an alternative sound setup may look like the figure below:"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:158
-# 3a2372e8f90247cab35c600dd4cc3af6
 msgid "Using Mixxx together with a MIDI controller and integrated soundcard"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:160
-# aabaabada9e14faa991b8f8c5494866e
 msgid "**Using a controller with an integrated multi-channel soundcard**"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:164
-# f29493166a38451dbfb0ee27a6ab834f
 msgid "From the :guilabel:`Master` drop-down menus, select your controllers soundcard, then :guilabel:`Channels 1-2`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:166
-# f25922ddc24a4465b461c763cd302006
 msgid "From the :guilabel:`Headphones` drop-down menus, select your controllers soundcard, then :guilabel:`Channels 3-4`"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:170
-# 2e30c8cd5bf141ab83094ba7e7f7ecf4
 msgid "You can connect as many MIDI controllers as you have ports on your computer. Just follow the steps in :ref:`control-midi` for each controller you want to use."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:181
-# 2e95cac476a74513afcf4e35a3dc47e5
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
 msgstr ""
 
 #: ../../source/chapters/setup.rst:183
-# 221b3bb3c5e84d118c4d2a66a21f8463
 msgid "This setup is usually preferred by DJs who work in clubs. Instead of carrying large and heavy CD bags or a MIDI controller, all you need to have is a professional soundcard together with a pair of :term:`timecode` records and headphones."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:188
-# e43e4e9cd86d4a96aa395ce44fbb0080
 msgid "For best results, when using this setup you should ensure your system is capable of latencies under 10 ms. Otherwise scratching may sound distorted. For more information about latency and how to improve it, see :ref:`configuration-latency`."
 msgstr ""
 
 #: ../../source/chapters/setup.rst:192
-# 25f77e5dc1c8459dbb07bf702c6f64f8
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
 msgstr ""
 

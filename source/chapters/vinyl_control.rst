@@ -20,10 +20,11 @@ How does it work?
 =================
 
 Vinyl control uses special :term:`timecode` records or CD's which are placed on
-real turntables or :term:`CDJ`. The audio output of the turntables is plugged
-into a computer on which Mixxx is running. When a record is played on one of the
-attached turntables, Mixxx reads the timecode from the record and uses the
-information to manipulate whatever track is loaded.
+real turntables or :term:`CDJ`s. The audio output of the turntables is plugged
+into a soundcard connected to a computer on which Mixxx is running.
+When a record is played on one of the attached turntables, Mixxx reads the
+timecode from the record and uses the information to manipulate whatever
+track is loaded.
 
 .. raw:: pdf
 
@@ -31,25 +32,29 @@ information to manipulate whatever track is loaded.
 
 What do I need to use it?
 =========================
-
-It is possible to use Mixxx's vinyl control with several hardware setups, but
-the basic ones are:
+ 
+It is possible to use Mixxx's vinyl control with a variety of setups. Unlike
+some proprietary DJ software, Mixxx can use several types of timecode media and
+any soundcard that your :ref:`OS <operating system>` has drivers to use.
+Optionally, any :ref:`MIDI/HID controller <using-midi-hid-controllers>` can be
+used together with timecode control. The basic setups for timecode control are:
 
 **Setup 1: Vinyl DJ**
 
   Two timecode vinyls, two turntables with phono pre-amplifiers (or line-level
   output), and two stereo sound inputs.
 
-  Your sound card inputs must match the turntable outputs.  Older turntables only
-  have phono-level outputs, and you should find a sound card that has a phono
-  pre-amplifier built in.  Some turntables have line-level output, and these can
-  be used with any sound card.
+  Your sound card inputs must match the turntable outputs. Turntables output
+  very quiet phono-level outputs that must be amplified for Mixxx to use.
+  You should either find a sound card that has phono pre-amplifiers built in
+  (one for each deck), use standalone phono pre-amplifiers, or use turntables
+  with built in phono pre-amplifiers.
 
   You can try skipping the phono pre-amps if you use the software pre-amp in
   Mixxx on the Vinyl Control preferences pane. This may not work for everyone.
   Line-level signals are preferred and recommended.
 
-  For turntables a typical setup is depicted in the figure below.  First,
+  For turntables a typical setup is depicted in the figure below. First,
   connect the RCA cables from the turntables to the inputs on your sound card.
   Second, connect the outputs of your sound card to the inputs on your mixer.
 
@@ -110,6 +115,11 @@ quality of the corresponding open source driver.
           system capable of :term:`latencies <latency>` of 10ms. With higher
           latencies the scratch sound will start to become distorted.
 
+.. note:: An external hardware mixer is not required for using timecode control.
+          You can use a
+          :ref:`MIDI or HID controller<setup-controller-and-external-card>`
+          to mix in software instead.
+
 Supported Timecode media
 ------------------------
 
@@ -133,7 +143,7 @@ At the present time, Serato records are recommended if you are looking to buy
 vinyl. If you want to use CDs, you can download a free copy for personal use
 from `Serato`_.
 
-.. _Serato: http://serato.com/scratchlive/downloads/scratchlive-controlcd
+.. _Serato: http://serato.com/controlcd/downloads
 
 .. _vinyl-control-config:
 

@@ -553,22 +553,23 @@ The Mixer Section
 The mixer section of the :ref:`Mixxx user interface <interface-overview>` allows
 you to control how the different decks and samplers are mixed together.
 
-.. _interface-vu-meter:
+.. _interface-level-meter:
 
-Channel Faders and VU Meters
-----------------------------
+Channel Faders and Level Meters
+-------------------------------
 
-**VU meters**
-  In the center of the mixer section are 4 :term:`VU meters <vu meter>`. The
-  two outer-most VU meters are for each deck, while the 2 inner-most VU meters
-  are the left and right VU meters for the master output.
-
-  The light at the top of the VU meter indicates when the audio in the selected
-  channel is clipping. If this light goes on, reduce the gain or EQs for this
-  deck to eliminate distortion.
+**Level meters**
+  In the center of the mixer section are 4 :term:`level meters <level meter>`. The
+  two outer-most level meters are for each deck, while the 2 inner-most level
+  meters are the left and right level meters for the master output. These should
+  stay at the top of the green region, with the loudest parts of the music
+  (transients) briefly going into the yellow region. They should never be in
+  the red region. Refer to
+  :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+  for more details.
 
 **Line faders**
-  The two large faders on either side of the VU meters are the deck volume
+  The two large faders on either side of the level meters are the deck volume
   faders, also known as Channel- or Line-faders. Adjusting these controls the
   volume of each deck.
 
@@ -589,7 +590,7 @@ Section Expansion Buttons
 
    The section expansion buttons
 
-Above the VU meters in the mixer are the optional section expansion buttons.
+Above the level meters in the mixer are the optional section expansion buttons.
 
 If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
 :guilabel:`VINYL` then you will enable control sections for interacting with:
@@ -620,7 +621,7 @@ Headphone and Master Mix Controls
    Headphone split cue option
 
 **Head-Mix Knob**
-  Allows you to customize how much of the master output you hear in your
+  Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
   Cueing signal. If the knob is set to the left, you only hear the cueing signal
   which can be useful for prelistening tracks.
@@ -628,29 +629,56 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head volume Knob**
-  This button adjusts your headphone volume. You can adjust the volume of a
-  single deck's signal you are listening to in the headphones with the
-  :ref:`Gain <interface-eq-gain>` knob.
-
 **Head-Split Button**
-  If activated, two mono signals are send to the headphone output instead of one
+  If activated, two mono signals are sent to the headphone output instead of one
   stereo signal. The master signal plays in the right channel, while the cueing
-  signal plays in the left channel. You can still adjust the head-mix so in the
-  left channel is not the pure cueing signal.
+  signal plays in the left channel. You can still adjust the
+  :guilabel:`Head-Mix Knob` to control the mix of the master and cue signals in
+  the left channel.
 
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
   the master output.
 
-**Volume Knob**
-  The Volume Knob controls the overall volume of the master output. Adjust
-  this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
-  at the peak.
-
-  .. hint:: If the Peak indicator on top of the Master VU meter flashes, the
-            master output signal is clipping (too loud). Lower the volume with
-            using the volume knob.
+.. _interface-gain-knob:
+  
+**Gain Knob**
+  The Gain Knob controls the gain applied to the Master output signal that
+  Mixxx sends to your sound card, Internet broadcasting servers, and recorded
+  mixes. Generally, this knob should not be adjusted. To change the output
+  volume, a gain control should be adjusted as close to the speakers as possible
+  for the best signal-to-noise ratio throughout your signal chain. Ideally, the
+  volume would only be adjusted by adjusting the gain on the power amplifier.
+  On active speakers, including computer speakers, studio monitors, and PA
+  systems that do not require a separate amplifier, this means adjusting the
+  gain on the speakers (which may be labeled "Volume").
+  
+  As a DJ, you may not have access to the power amplifier. In that case,
+  adjust the volume by adjusting the gain on the equipment closest to the power
+  amplifier that you have access to. Typically, this is a DJ mixer. If you are
+  not going through a mixer, adjust the gain of your sound card. If your sound
+  card does not have any controls on it (for example, for sound cards built into
+  computers), adjust the sound card settings with your :term:`OS <operating system>`
+  mixer program. The Master Gain Knob in Mixxx should be a last resort for
+  adjusting volume.
+  
+  .. warning:: **In no case should any part of the signal chain be clipping,
+               indicated by a level meter going into its red region
+               or an LED labeled "clipping" turning on.**
+  
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
+  
+**Head Gain Knob**
+  This knob controls the gain applied to the headphone output signal that Mixxx
+  sends to your sound card. Generally, this knob should not be adjusted. To
+  adjust the volume in your headphones, adjust your sound card's gain on the
+  headphone output. Most external sound cards have a gain knob specifically for
+  the headphone jack. If you use an onboard sound card for your headphones,
+  adjust the gain control in your :term:`OS <operating system>` mixer program.
+  If your sound card only has one gain knob that controls both the main output
+  and the headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx
+  to control the volume of your headphones without affecting your main output.
 
 .. _interface-pfl:
 
@@ -667,12 +695,23 @@ PFL/Headphone Button
    The headphone buttons of both decks in the mixer
 
 The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>`
-button. Pressing this button allows you to listen and synchronize the track you
-will play next in your headphones before your audience hears the track
-(headphone cueing). You can select more than one PFL button simultaneously.
+button and allows you to use headphone cueing. That is, it allows you to hear
+the track you will play next in your headphones before your audience hears it.
+This helps you plan when to start the next track and manipulate it to
+make it blend better with the currently playing track (for example, by
+synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button plays
+the track on the headphone output at full volume regardless of the position of the crossfader or the 
+deck’s line fader. To play a track in your headphones but not have the 
+audience hear it, press the PFL button and move the crossfader all the 
+way to the opposite side of the deck or turn the deck’s volume fader all the 
+way down.
 
 .. note:: Headphone cueing is only available if you have configured a
-             Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+          Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+
+.. note:: If you use an external hardware mixer, plug your headphones into that
+          rather than your sound card. Use the headphone buttons on the mixer
+          rather than the buttons in Mixxx.
 
 .. _interface-eq-gain:
 
@@ -689,15 +728,34 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain of the deck. In
-  general, you should adjust this knob so that at full-volume the deck's audio
-  is just at the peak of the center VU meters. This is so you can achieve the
-  widest dynamic range for your track.
+  Above these knobs, the gain knob allows you to adjust the gain applied to the deck. 
+  Use this to compensate for the differences in recording levels between tracks.
+  In general, you should adjust this knob so that the track's :term:`level meter`
+  stays around the top of the green region with the loudest parts of the track
+  (the transients) briefly going into the yellow region. **Do NOT turn the
+  Gain Knob up so much that the level meter is in the red region. At this point
+  the track is clipping, which sounds bad and could damage equipment.**
+  
+  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
+            tracks have approximately equal loudness at unity gain. Your tracks
+            must be :ref:`analyzed <library-analyze>` to take advantage of this
+            feature. When an unanalyzed track is loaded, Mixxx calculates its
+            ReplayGain value, but will not apply a newly calculated ReplayGain
+            value to a track after it has already started playing (to avoid a
+            sudden change in the gain of a playing track).
+            
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
+  
+  .. warning:: Be careful not to raise the EQs so much that the signal clips,
+               indicated by a :term:`level meter` being in the red region. See
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+               for a more detailed explanation.
 
 **Kill Switches**
   The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
@@ -945,9 +1003,9 @@ Sample Deck Controls
   listen to the track in your headphones.
 
 **Gain Knob**
-  Allows you to adjust the volume of the track.
+  Allows you to adjust the gain applied to the track.
 
-**VU Meter**
+**Level Meter**
   Shows the level of the signal and can be adjusted with the Gain knob.
 
 **Pitch/Rate slider**
