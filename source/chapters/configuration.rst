@@ -201,18 +201,74 @@ Equalizer Preferences
 * **Equalizer Rack**: The Equalizer Rack is a special Effect Rack, that is
   connected to the deck's equalizer and filter controls. 
 
-  In this section you can select the equalizers and quick effects that used with 
-  the decks.    
+  In this section you can select the equalizers and quick effects that used 
+  with the decks.    
 
 * **Equalizer Plugin**: Here you can select the effect that is uses as mixing 
   EQ in each deck. By default only build in equalizers are displayed, but you 
-  are allowed to select any effect after you have unchecked "Only allow EQ knobs 
-  to control EQ specific effects"      
+  are allowed to select any effect after you have unchecked "Only allow EQ 
+  knobs to control EQ specific effects"      
 
-  If you need different settings for each deck, you may uncheck "Use the same EQ 
-  filter for all decks"
+  If you need different settings for each deck, you may uncheck "Use the same 
+  EQ filter for all decks"
 
 * **Quick Effect**: Here you can select the effect that is controlled by the 
-  filter knob in each deck. By default only build in filter effects are displayed 
-  in a common box for all decks, but it can be changed like above.  
+  filter knob in each deck. By default only build in filter effects are 
+  displayed in a common box for all decks, but it can be changed like above. 
+
+* **High Shelf EQ**: This slider sets the turnover frequency of the high shelf 
+  EQ and the upper corner frequency of the mid EQ. Depending on the selected 
+  EQ type, changing this slider during playback may result in a crackling sound. 
+
+* **Low Shelf EQ**: This slider sets the turnover frequency of the low shelf EQ
+  and the lower corner frequency of the mid EQ. Depending on the selected EQ 
+  type, changing this slider during playback may result in a crackling sound. 
+
+* **Master EQ**: This section allows you to setup an EQ that effects only the 
+  master output. This is useful to Equalize the sound of you sound system for 
+  the room, you play it.  
+
+
+Mixing Equalizers 
+-----------------
+
+Mixxx offers three types of build in mixing equalizers, also called isolators 
+or cross over since they are all full kill types. They have all their individual 
+sound, so try them out. 
+
+The Bessel EQs with Lipshitz and Vanderkooy Mix do not touch the samples when 
+all knobs are at center. Once you touch the knobs it requires more CPU time. 
+
+The Linkwitz-Riley EQ applies always a linear, natural sounding phase shift. 
+The amount of CPU time does not change when you turn the CPU knobs.  
+
+The following table compares there technical parameters:  
+
++----------------+--------+------------+------------+-------------+-----------+ 
+| Type           | cut    | roll-off   |phase shift | bit perfect | CPU usage |
++================+========+============+============+=============+===========+
+| Bessel4 LV-Mix | soft   | -24 db/Oct | minimum    | yes         | low       |
++----------------+--------+------------+------------+-------------+-----------+ 
+| Bessel8 LV-Mix | medium | -48 db/Oct | minimum    | yes         | medium    |
++----------------+--------+------------+------------+-------------+-----------+
+| Linkwitz-Riley | sharp  | -48 db/Oct | linear     | no          | high      |
++----------------+--------+------------+------------+-------------+-----------+
+
+cut: the frequency responds (curve form) at the cutting frequency 
+
+roll-off: the steepness of the EQ bands
+
+phase shift: minimum = nearly no phase shift. linear = a natural phase shift
+
+bit perfect: if the input stream remain untouched touched if the EQ is at unity
+
+CPU usage: processing time, needed to calculate the EQ output 
+  
+
+
+
+
+
+     
+
 
