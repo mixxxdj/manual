@@ -261,11 +261,8 @@ Importing your audio files
   required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
-  To enable the playback of AAC files, `build Mixxx from source with m4a files 
-support
-  
-<http://www.mixxx.org/wiki/doku.php/
-compiling_on_linux#build_with_m4a_file_support>`_.
+  To enable the playback of AAC files, `build Mixxx from source with m4a files support
+  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
@@ -274,8 +271,7 @@ compiling_on_linux#build_with_m4a_file_support>`_.
 
 **Import remote files**
   To import audio files which are not in your music library directory, drag them
-  directly from an external :term:`file manager` or from the :ref:`Browse 
-section
+  directly from an external :term:`file manager` or from the :ref:`Browse section
   <library-browse>` to the track list. Importing files into Mixxx does not
   change the location of the files on the hard disk.
 

@@ -129,6 +129,55 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
+.. _master-sync:
+
+Master Sync
+===========
+
+.. versionadded:: 1.12
+
+:term:`Master Sync` is an intelligent assistant that allows you to leave the
+beatmatching to Mixxx so you can focus on track selection, effects manipulation,
+looping, 4 deck mixing, and other advanced DJing techniques.
+
+To activate Master Sync on a deck, push and hold (or click and hold) the
+:guilabel:`SYNC` button. You'll know Master Sync is on because the sync button
+will remain lit.  Changing the rate of any deck that has Sync lit will change
+the rates of all other decks that also have the Sync button lit.  There is no
+need to set specific decks to be a master or followers.  You can play, stop,
+eject, load, and queue any track with master sync and it won't interrupt the
+playback of the other decks.  Changing the rate of stopped deck will change the
+rate of playing decks, however.
+
+Master Sync will also notice if one of your tracks is double the BPM of another
+track and match them correctly.  So if you want to mix a 140 BPM drum & bass
+track with a 70 bpm dubstep track, Master Sync will make sure they are lined up
+properly.
+
+.. hint:: Usually, Master Sync will only make sure the rate sliders are set
+          correctly.  If you also want to make sure your beats are perfectly in
+          sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
+          Quantize will ensure that the beats are perfectly lined up as well.
+
+.. _harmonic-mixing:
+
+Harmonic Mixing
+===============
+
+Harmonic mixing is a technique to mix songs with matching melodies and
+harmonies. To learn more about harmonic mixing you might want to check out `the
+mixshare site`_.
+
+.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+
+Mixxx has two features to help you with harmonic mixing. The first is a
+:term:`key lock`. When it is active changing the speed of a track won't affect
+the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
+the :ref:`interface-button-grid`. The second is that Mixxx can automatically
+detect the key of a track and will display it in the library and the decks. The
+notation which is used to display a key can be changed in :ref:`Key Detection
+Preferences <key-detection>`.
+
 .. _djing-with-effects:
 
 Using Effects
@@ -272,60 +321,9 @@ Simple Echo with pingpong
   As the ping-pong amount increases, increasing amounts of the echoed signal is
   bounced between the left and right speakers.
 
-.. _master-sync:
-
-Master Sync
-===========
-
-.. versionadded:: 1.12
-
-:term:`Master Sync` is an intelligent assistant that allows you to leave the
-beatmatching to Mixxx so you can focus on track selection, effects manipulation,
-looping, 4 deck mixing, and other advanced DJing techniques.
-
-To activate Master Sync on a deck, push and hold (or click and hold) the
-:guilabel:`SYNC` button. You'll know Master Sync is on because the sync button
-will remain lit.  Changing the rate of any deck that has Sync lit will change
-the rates of all other decks that also have the Sync button lit.  There is no
-need to set specific decks to be a master or followers.  You can play, stop,
-eject, load, and queue any track with master sync and it won't interrupt the
-playback of the other decks.  Changing the rate of stopped deck will change the
-rate of playing decks, however.
-
-Master Sync will also notice if one of your tracks is double the BPM of another
-track and match them correctly.  So if you want to mix a 140 BPM drum & bass
-track with a 70 bpm dubstep track, Master Sync will make sure they are lined up
-properly.
-
-.. hint:: Usually, Master Sync will only make sure the rate sliders are set
-          correctly.  If you also want to make sure your beats are perfectly in
-          sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
-          Quantize will ensure that the beats are perfectly lined up as well.
-
-.. _harmonic-mixing:
-
-Harmonic Mixing
-===============
-
-Harmonic mixing is a technique to mix songs with matching melodies and
-harmonies. To learn more about harmonic mixing you might want to check out `the
-mixshare site`_.
-
-.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
-
-Mixxx has two features to help you with harmonic mixing. The first is a
-:term:`key lock`. When it is active changing the speed of a track won't affect
-the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
-the :ref:`interface-button-grid`. The second is that Mixxx can automatically
-detect the key of a track and will display it in the library and the decks. The
-notation which is used to display a key can be changed in :ref:`Key Detection
-Preferences <key-detection>`.
-
-.. _key preferences: key-detection_
-
 .. _djing-recording-your-mix:
 
-Recording your Mix
+Recording Your Mix
 ==================
 
 .. sectionauthor::
@@ -384,7 +382,7 @@ Record your mix to disk
 
 .. _djing-auto-dj:
 
-Using Auto DJ for automatic mixing
+Using Auto DJ For Automatic Mixing
 ==================================
 
 .. sectionauthor::
