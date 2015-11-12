@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,307 +17,270 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/manual_guidelines.rst:4
-# 577eec4f00a2461397cc8888c1e86d49
 msgid "Guidelines for Mixxx Manual writers"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:9
-# ac3655efeb814d0285ed829537d19efb
 msgid "What is the intended outcome of the manual?"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:10
-# 0ab9cae9f6024673919e85ba7e27e967
 msgid "A user who doesn\\'t know Mixxx yet should be able to mix two tracks from its music library in the shortest possible time. Assuming he will be more motivated to explore the software and get creative."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:14
-# 73958e9081ea4f2bb0d0972dc70e5c14
 msgid "(Future) characteristics of the Mixxx manual:"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:21
-# d7bf166549264c68bf86ed476d274185
 msgid "**User-friendly**"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:17
-# fc5378b7e9994a989bbd89fab7fa944b
 msgid "Easy to use when, where, and how you need it. Examine, how someone else is using the application. Watch someone else use the manual (preferably someone who has never seen it before). Be consistent with the instructional design so users can follow a set pattern. Don't use the terms you use as a developer, try to find the terminology of the user."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:27
-# 5f964700107844ad909df1b697662017
 msgid "**Based on sound learning principles**"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:24
-# a313762e245f4def86c3ec721acfcf05
 msgid "For example users should actually learn from it, not just refer to it. Use the KISS principle; keep it sweet and simple. Too much information can be overwhelming, so present one concept at a time. Explain simple features in a matrix."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:31
-# ed339e1b26cc43aab43fac2f70cb31dd
 msgid "**Motivational**"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:30
-# 7c37ddccf72b4cc79a5dd2da9debf60c
 msgid "Keeps users willing to push forward to higher levels. Present general concepts first to provide a frame of reference. Then move to more complex topics."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:33
-# b6f893e5889a45fe9a875d10a60531c2
 msgid "Group problems the user might hit in a particular task right there with the instruction for that task. Do not force a user to go to a separate “Troubleshooting” section. We can have such separate sections, but as a author you should duplicate pitfalls and problems and include a solution in the task."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:39
-# 149e301cd9234349a1f9f1d6f00c1d0b
 msgid "Technical conventions"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:42
-# 1967610a43374eb8ab4e23d2aad71bac
 msgid "Line Widths"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:44
-# 4e79d0d131554d399b9436c26bf39ff1
 msgid "Please configure your editor to have a max column-width of 80-columns. While it is not a strict requirement, 80-column cleanliness makes it easy to tile multiple buffers of code across a laptop screen, which provides significant efficiency gains to developers."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:50
-# 0d4e62e0f99342b38d76205bbe626a80
 msgid "Screenshots"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:52
-# a900f6789175405f98be914d010eae05
 msgid "Use English language settings when creating screen-shots of the Mixxx interface. This might change if we ever have true `i18n <https://en.wikipedia.org/wiki/Internationalization_and_localization>`_. The preferred file format is PNG. **Don't add shadows** to application window screen-shots as they are added automatically to the document with style-sheets."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:58
-# d411be197fe940abafdd6e4942856ff1
 msgid "Always include descriptive alt text and a figure description. The latter will be numbered in the PDF export. That sets them apart from the text below. Place screen-shots above the context you are going to explain."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:62
-# e1138734dfdf4fc680c8053304dc90b6
 msgid "Screenshots should only show the necessary area and not the entire screen where not necessary. Use annotation on the screenshot if necessary to emphasize elements, use color ``#FF1F90`` if possible for consistency."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:68
-# cfe71622a24a4822b18de4bd62781d0c
 msgid "Use this directive to place images like Screen-shots. Example markup: ::"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:79
-# 70d9cb463d6b44a88b940910cfde0e7b
 msgid "Nice screenshot tools with build-in editor for annotations:"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:81
-# 436cc0b41305490c928a4f9ba6b995fa
-msgid "MacOSX: `Skitch <http://evernote.com/skitch/>`_"
+msgid "MacOSX: `Skitch <https://evernote.com/skitch/>`_"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:82
-# 0862eba559724481b17da7345442ea7b
 msgid "Linux: `Shutter <http://shutter-project.org/>`_"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:83
-# a08c0dc5c7b94ed5a9b3672d062f5ba9
-msgid "Windows: `PickPic <http://www.picpick.org/download>`_ or `Screenshotcaptor <http://www.donationcoder.com/Software/Mouser/screenshotcaptor/>`_"
+msgid "Windows: `PickPic <http://www.nteworks.com/picpick/>`_ or `Screenshotcaptor <http://www.donationcoder.com/Software/Mouser/screenshotcaptor/>`_"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:86
-# af7818c0739e42388d98bb0ea58db536
-msgid "Alternatively, import your screenshots into `Inkscape <http://inkscape.org/>`_, add annotations and export as .png to :file:`/static`. Then save the original work as .svg to :file:`/static` as well, so any future contributor can work on your annotations at a later time."
+msgid "Alternatively, import your screenshots into `Inkscape <https://inkscape.org/>`_, add annotations and export as .png to :file:`/static`. Then save the original work as .svg to :file:`/static` as well, so any future contributor can work on your annotations at a later time."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:92
-# 5a9e9557020f4a0ebc6ab72311f56aaf
 msgid "File naming"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:94
-# 5c7d8c8059934097bfb860e0ba001906
 msgid "As the manual grows over the time with new versions of Mixxx and new screenshots, it is important to have files named consistently. Save files to the :file:`/static` folder or create a sub-folder in there."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:102
-# bf2ad0418baa46b2bad34bf7bc8662b7
 msgid "This scheme makes it easy to know which version a screenshot was taken from and where it belongs and if it must replaced, like e.g. :file:`Mixxx-111-Preferences-Recording.png`"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:106
-# e6edb084760b450898e27742ec7d6260
 msgid "Do not include any dot in the file names of your screenshots your file name or you wont be able to generate PDF with LaTeX."
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:110
-# 584e54967b0d4dda87977eae9bb83dcb
 msgid "Double quotes"
 msgstr ""
 
 #: ../../source/manual_guidelines.rst:112
-# 19210631fced4ffe91cd2132d27b285d
-msgid "Use curly double quotes (“ ”). Avoid typewriter double quotes (\" \") produced by the convenient quotation mark button on your keyboard. For details and key combinations, see `Wikipedia <https://en.wikipedia.org/wiki/Quotation_mark#Typing_quotation_marks_on_a_computer_keyboard>`_ and `maxeroni.com <http://maxeroni.com/2011/10/18/proper-quotation-marks-%E2%80%93-rules-of-typography-1/>`_ ."
+msgid "Use curly double quotes (“ ”). Avoid typewriter double quotes (\" \") produced by the convenient quotation mark button on your keyboard. For details and key combinations, see `Wikipedia <https://en.wikipedia.org/wiki/Quotation_marks_in_English#Typing_quotation_marks_on_a_computer_keyboard>`_ ."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:120
-# 8d33bfa4bbc147d6a7259b3c19bb8c0c
+#: ../../source/manual_guidelines.rst:118
 msgid "Admonitions"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:122
-# 6a8f4dc6678a497f9bd28941308bd902
+#: ../../source/manual_guidelines.rst:120
 msgid "The following admonitions are in use:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:126
-# 3c34534c80674e6baf830473201e322d
+#: ../../source/manual_guidelines.rst:124
 msgid "For anything that should receive a bit more attention. Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:133
-# 46bab534bc1f448b942811d1b9a8a290
+#: ../../source/manual_guidelines.rst:131
 msgid "For supplementary information that lightens the work load. Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:140
-# 933fb6135b5f41adb2c1383647622dcc
+#: ../../source/manual_guidelines.rst:138
 msgid "For references to other documents or websites if they need special attention. References to other documents can also be included in the text inline. Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:149
-# a3387d65725a4f8a913021ebb849624e
+#: ../../source/manual_guidelines.rst:147
 msgid "Recommended over :rst:dir:`note` for anything that needs to be done with caution. Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:157
-# 09c0ddf7515a45faa1d1538a41b57c6a
+#: ../../source/manual_guidelines.rst:155
 msgid "Allow inserting todo items into documents and to keep a :ref:`automatically generated TODO list <todo-list>` Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:164
-# af1fc828420f46a39ec1711dc07eb9b5
+#: ../../source/manual_guidelines.rst:162
 msgid "Substitution"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:166
-# 2bfb396d3aab48b0917719078ddf59ef
+#: ../../source/manual_guidelines.rst:164
 msgid "Replacement images or text can be included in the text. They are added through a substitution (aka alias). This may be appropriate when the replacement image or text is repeated many times throughout one or more documents, especially if it may need to change later."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:171
-# ab0eb43a4d9940088f224b6e85ec8c3e
+#: ../../source/manual_guidelines.rst:169
 msgid "All replacements are kept in the file :file:`shortcuts.rstext` which is included at the beginning of each file in which a substitution is used."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:174
-# c005d75e8e7548b399cd1f5dfeb7fd87
+#: ../../source/manual_guidelines.rst:172
 msgid "To use an alias for the Mixxx logo, simply put the definition into :file:`shortcuts.rstext`."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:181
-# e2ac805bdbec4c1eb17a7317fcb192de
+#: ../../source/manual_guidelines.rst:179
 msgid "Using this image alias, you can insert it easily in the text with ``|logo|`` , like this:  |logo|"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:184
-# d97169b53a554c619c66f7c37c1e0bf6
+#: ../../source/manual_guidelines.rst:182
 msgid "For a text replacement the code looks similar:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:191
-# fc687a84134f46d480d190ff2edd8b1a
+#: ../../source/manual_guidelines.rst:189
 msgid "Using this text alias, you can insert it easily with ``|longtext|`` , like this:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:191
-# 1923eb1467ad45f6b65bea2933fc54b2
+#: ../../source/manual_guidelines.rst:189
 msgid "|longtext| ."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:193
-# 2a31b309d77b4601a4b72b9fd814e493
+#: ../../source/manual_guidelines.rst:191
 msgid "The substitute section in the docs. `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_ and `also here <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions>`_"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:198
-# 0ef115423034450c97764259fe53c927
+#: ../../source/manual_guidelines.rst:196
 msgid "Headings"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:199
-# 580db9649104495cab7b26c0aa4fee6f
+#: ../../source/manual_guidelines.rst:197
 msgid "Normally, there are no heading levels assigned to certain characters as the structure is determined from the succession of headings. However, for the Python documentation, this convention is used which you may follow:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:210
-# 326752f747f2483e9a9c8cecefc805fd
+#: ../../source/manual_guidelines.rst:0
+msgid "``#`` with overline, for parts"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+msgid "``*`` with overline, for chapters"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+msgid "``=`` for sections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+msgid "``-`` for subsections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+msgid "``^`` for subsubsections"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:0
+msgid "``\"`` for paragraphs"
+msgstr ""
+
+#: ../../source/manual_guidelines.rst:208
 msgid "Of course, you are free to use your own marker characters (see the reST documentation), and use a deeper nesting level, but keep in mind that most target formats (HTML, LaTeX) have a limited supported nesting depth."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:215
-# 82bf73d4663a4ff985462d0caa6f2d1a
+#: ../../source/manual_guidelines.rst:213
 msgid "Paragraph-level markup"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:217
-# 6ea7cc36ebb34a1bb8334e7b6b6378a6
+#: ../../source/manual_guidelines.rst:215
 msgid "These directives create short paragraphs and can be used inside information units as well as normal text:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:222
-# 1e342f35bbaa4f86a81b5db171c8e41d
+#: ../../source/manual_guidelines.rst:220
 msgid "This directive documents the version of the project which added the described feature. Example markup: ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:229
-# cdd566820b2d45308090b35fbb753d16
+#: ../../source/manual_guidelines.rst:227
 msgid "Similar to :rst:dir:`versionadded`, but describes when and what changed in the named feature in some way (new parameters, changed side effects, etc.)."
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:233
-# 199d4e3ea7ff4e4999443a9c02ffac68
+#: ../../source/manual_guidelines.rst:231
 msgid "Other semantic markup"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:234
-# 0bea194f19354e8f86e92d21ec204a4c
+#: ../../source/manual_guidelines.rst:232
 msgid "The following roles don't do anything special except formatting the text in a different style. Nonetheless, use them:"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:239
-# 338cc93dcff844e3b37f10dbb56d51df
+#: ../../source/manual_guidelines.rst:237
 msgid "Any label used in the interface should be marked with this role, including button labels, window titles, field names, menu and menu selection names, and even values in selection lists. An accelerator key for the GUI label can be included using an ampersand; this will be stripped and displayed underlined in the output. To include a literal ampersand, double it. Example markup: :guilabel:`&Cancel` ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:250
-# 17f302c997ad49dcb5b145787ef281f8
+#: ../../source/manual_guidelines.rst:248
 msgid "Mark a sequence of keystrokes. Example markup: :kbd:`STRG` + :kbd:`G` ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:256
-# be69f54a11124491b2525381d6f3a729
+#: ../../source/manual_guidelines.rst:254
 msgid "This is  used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation. Example markup: :menuselection:`Options --> Enable Live Broadcasting` ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:264
-# 297cf999329742b7aa6dd4621eac1c01
+#: ../../source/manual_guidelines.rst:262
 msgid "The name of a file or directory. Example markup: :file:`Mixxx/Recordings` ::"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:269
-# bb564597de5a4f1a8798355f3284164e
+#: ../../source/manual_guidelines.rst:267
 msgid "Meta-information markup"
 msgstr ""
 
-#: ../../source/manual_guidelines.rst:273
-# afeecdebacf9419195e90189fe295b73
+#: ../../source/manual_guidelines.rst:271
 msgid "Identifies the author of the current section and helps to keep track of contributions. By default, this markup isn't reflected in the output in any way. Example markup: ::"
 msgstr ""
 

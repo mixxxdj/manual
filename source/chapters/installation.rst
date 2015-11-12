@@ -19,7 +19,7 @@ Installation on Windows
 
    Mixxx Installation - Ready to install the application
 
-* Download Mixxx for Windows from `<http://mixxx.org/download.php>`_ .
+* Download Mixxx for Windows from `<http://mixxx.org/download/>`_ .
 * Using :file:`Windows Explorer` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
 * Double-click the Mixxx installer .EXE to open it up.
@@ -38,7 +38,7 @@ native 32 and 64-bit versions.
              installer is not digitally signed. Ignore the message and continue
              the installation. It does not indicate a security risk, if you
              can trust the source website such as `www.mixxx.org
-             <http://mixxx.org/download.php>`_ .
+             <http://mixxx.org/download/>`_ .
 
 Installation on Mac OS X
 ========================
@@ -55,7 +55,7 @@ Method A: Direct Download
 
    Mixxx Installation - Ready to drop the Mixxx icon to the Applications folder
 
-* Download Mixxx for Mac OS X from `<http://mixxx.org/download.php>`_ .
+* Download Mixxx for Mac OS X from `<http://mixxx.org/download/>`_ .
 * Using :file:`Finder` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
 * Double-click the Mixxx installer .DMG file, a new Finder window appears.
@@ -154,7 +154,7 @@ Building Mixxx from Source
 If your operating system isn't listed here, then it's likely you're going to
 have to build Mixxx from the source code. For more information, go to:
 
-* `<http://mixxx.org/wiki/doku.php#build_mixxx>`_
+* `<http://mixxx.org/wiki/doku.php/start#build_mixxx>`_
 
 Where to go from here?
 ======================

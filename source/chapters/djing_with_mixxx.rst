@@ -56,10 +56,9 @@ Importing your audio files
   Depending on the size of your library this could take some time. All the
   supported music files Mixxx detects will be listed in the :ref:`library-root`.
 
-  Mixxx automatically detects newly added tracks on each subsequent run. If you
-  want to manually refresh your library without exiting (for example because you
-  added or moved files), you can do this with :menuselection:`Library --> Rescan
-  Library` in the menu. If you want to rescan at every launch, select
+  If you want to refresh your library (for example because you added or moved
+  files), you can do this with :menuselection:`Library --> Rescan Library` in
+  the menu. If you want to rescan at every launch, select
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
   .. warning :: On Windows 7 and 8 the import dialog points to your Windows
@@ -79,12 +78,13 @@ Importing your audio files
   such as m4p files purchased in the iTunes Store, are not supported.
 
   AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
-  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
+  `Platform Update Supplement <https://support.microsoft.com/en-us/kb/2117917>`_ is
   required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
-  To enable the playback of AAC files, `build Mixxx from source with m4a files support
-  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
+  To enable the playback of AAC files, `build Mixxx from source with m4a/aac
+  files support
+  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
@@ -303,6 +303,96 @@ and click the :guilabel:`Play` button next to the waveform.
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
 
+.. _djing-gain-staging:
+
+Setting your levels properly (gain staging)
+===========================================
+.. sectionauthor::
+   Be <be.0@gmx.com>
+   
+.. figure:: ../_static/level-meter-green.png
+   :align: left
+   :alt: A level meter in Mixxx with the gain set properly for the loudest part of a track
+   :figclass: pretty-figures
+
+Setting your levels properly, also known as gain staging, is essential for
+getting the best sound quality out of the equipment you are using. At every link
+in your signal chain, from Mixxx's channel gains to the power amplifier, the
+level should be well above the noise floor, but lower than the maximum level
+before the signal clips. The :term:`level meters <level meter>` should mostly be
+around the top of their green region. The level meter pictured to the left shows
+where Mixxx's level meters should average at the loudest parts of tracks. The
+average level should not be in the yellow region. Use the yellow region to leave
+headroom, or available level above the average before the signal clips. The
+loudest parts of the music (the transients) should briefly go into the yellow
+region.
+
+.. figure:: ../_static/waveform-good.png
+   :align: center
+   :alt: A waveform at a good level
+   :figclass: pretty-figures
+   
+   A waveform at a good level. Note that the example waveforms in this section
+   were made by adjusting the visual gain of the waveform display in Mixxx to
+   illustrate the concepts. Adjusting the visual gain of the waveform display
+   does not change the level of the audio.
+
+.. figure:: ../_static/level-meter-red.png
+   :align: right
+   :alt: A level meter in Mixxx indicating clipping. The gain should be turned down!
+   :figclass: pretty-figures
+
+**If a level meter is in its red region, the signal is clipping and the gain
+should be turned down.** Some equipment doesn't have a level meter and only has
+an LED that turns on when the signal clips. Clipping means that the peaks of the
+waveform are flattened because the equipment has reached the maximum level that
+it can amplify the signal to. This distorts sound in an unpleasant way and can
+damage equipment by driving it with more power than it is designed to handle.
+Increasing the gain past the point where clipping begins (further into the red
+on a meter) will distort the signal more. If you want to make the sound louder
+when every part of the signal chain is at its maximum without clipping, use more
+speakers or use speakers that are more sensitive and convert electrical energy
+into acoustic energy more efficiently.
+
+.. figure:: ../_static/waveform-clipping.png
+   :align: center
+   :alt: A clipping waveform
+   :figclass: pretty-figures
+   
+   A clipping waveform
+
+.. figure:: ../_static/level-meter-too-low.png
+   :align: left
+   :alt: A level meter in Mixxx with the gain set too low
+   :figclass: pretty-figures
+
+On the other hand, the signal should not be too low. This is because every audio
+device generates a little noise at a level referred to as its noise floor.
+Additionally, analog signals pick up noise as they travel along wires. The signal
+measured by the meter on the left is relatively close to the noise floor. When a
+device is turned up, the noise floor does not go up; only the signal does.
+However, every time the signal is amplified by the gain of another piece
+of equipment, both the noise and the signal from previous devices in the signal
+chain are amplified. For example, if your sound card is turned down and you turn
+the gain up on your mixer to compensate, the signal-to-noise ratio (SNR) of the
+sound card output will be low and the mixer's gain will amplify the signal and
+the noise from the sound card, plus the noise picked up along the wire. The end
+result will have more noise than if the output of the sound card was turned up
+before the signal reached the mixer and the mixer's gain did not have to be
+turned up.
+
+.. figure:: ../_static/waveform-too-low.png
+   :align: center
+   :alt: A waveform at too low of a level
+   :figclass: pretty-figures
+   
+   A waveform that is too close to the noise floor
+   
+   .. note:: To adjust the output volume of a sound system while maintaing a
+          high signal-to-noise ratio, the gain should be adjusted as close to
+          the speakers as possible. Refer to the
+          :ref:`Gain Knob <interface-gain-knob>` section for details.
+
 .. _djing-edit-metadata:
 
 Edit metadata of audio files
@@ -415,8 +505,8 @@ tracks in the library.
 
 Popular software to edit metadata of audio files include:
   * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
-  * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
-  * `Picard <http://musicbrainz.org/doc/Picard_Tagger>`_ (Mac, Windows, Linux)
+  * `Kid3 <http://sourceforge.net/projects/kid3/>`_ (Linux)
+  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
 
 .. _waveform-displays:
 
@@ -500,6 +590,149 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
+.. _djing-with-effects:
+
+Use Effects
+===========
+
+.. versionadded:: 1.12
+
+Mixxx comes with a set of native effects.
+
+.. _effects-flanger:
+
+Flanger
+-------
+
+.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Flanger controls
+
+This effect applies a “sweeping” sound to the channel and can add extra depth to
+a mix when used tactfully.
+
+**FX Button**
+  The FX (“Effects”) button enables a built-in flanger effect on the selected
+  channel.
+
+**Delay/Depth/LFO Knobs**
+  Adjusts the phase delay, intensity and the wavelength of the flange effect.
+
+.. hint :: For the most noticeable effect, enable the FX button and turn the
+           Depth knob completely to the right.
+
+
+.. _effects-bitcrusher:
+
+BitCrusher
+----------
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-BitCrusher.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   BitCrusher controls
+
+The BitCrusher is an effect that adds quantisation noise to the signal
+by the reduction of the resolution or bandwidth of the samples
+
+**Bit Depth**
+  Adjusts the bit depth of the samples.
+
+**Downsampling**
+  Adjusts the sample rate, to which the signal is downsampled.
+
+.. _effects-filter:
+
+Filter
+------
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Filter.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Filter controls
+
+The filter changes the tone of the music by allowing only high or low
+frequencies to pass through.
+
+**LPF**
+  Corner frequency ratio of the low pass filter
+
+**Q**
+  Resonance of the filters, default = Flat top
+
+**HPF**
+  Corner frequency ratio of the high pass filter
+
+.. _effects-reverb:
+
+Reverb
+------
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Reverb.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Reverb controls
+
+
+This is a port of the GPL'ed CAPS Reverb plugin, which has the following
+description: This is based on some of the famous Stanford CCRMA reverbs (NRev,
+KipRev) all based on the Chowning/Moorer/Schroeder reverberators, which use
+networks of simple allpass and comb delay filters.
+
+**Bandwidth**
+  Higher bandwidth values cause more bright (high-frequency) tones to be
+  included
+
+**Damping**
+  Higher damping values cause reverberations to die out more quickly.
+
+.. note:: This effect is not available in the Mac App Store version of Mixxx.
+
+.. _effects-echo:
+
+Echo
+----
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Echo.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The effect control section of the mixer
+   :figclass: pretty-figures
+
+   Echo controls
+
+Simple Echo with pingpong
+
+**Send**
+  How much of the signal to send into the delay buffer
+
+**Delay**
+  Delay time (seconds)
+
+**Feedback**
+  Amount the echo fades each time it loops
+
+**PingPong**
+  As the ping-pong amount increases, increasing amounts of the echoed signal is
+  bounced between the left and right speakers.
+
 .. _master-sync:
 
 Master Sync
@@ -529,6 +762,26 @@ properly.
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
+
+.. _harmonic-mixing:
+
+Harmonic Mixing
+===============
+
+Harmonic mixing is a technique to mix songs with matching melodies and
+harmonies. To learn more about harmonic mixing you might want to check out `the
+mixshare site`_.
+
+.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+
+Mixxx has two features to help you with harmonic mixing. The first is a
+:term:`key lock`. When it is active changing the speed of a track won't affect
+the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
+the :ref:`interface-button-grid`. The second is that Mixxx can automatically
+detect the key of a track and will display it in the library and the decks. The
+standart which is used to display a key can be changed in `key preferences`_.
+
+.. _key preferences: key-detection_
 
 .. _headphone-cueing:
 
@@ -587,8 +840,8 @@ The table below summarizes the beat detection settings:
 +---------------------------------------+--------------------------------------+
 | Option                                | Description                          |
 +=======================================+======================================+
-| Enable Fast Analysis                  | If enabled, BPM detection results    |
-|                                       | from the first minute of audio.      |
+| Enable Fast Analysis                  | If enabled, BPM  will be detected by |
+|                                       | only using the first minute of audio.|
 +---------------------------------------+--------------------------------------+
 | Assume constant tempo                 | If enabled, Mixxx assumes that the   |
 |                                       | distances between the beats are      |
@@ -629,6 +882,51 @@ follow the note below.
 
 .. note:: If the detected BPM value is not sufficiently accurate but very close
           to an integer value, try to set the BPM value manually to the integer.
+
+.. _key-detection:
+
+Key Detection
+======================
+
+Mixxx comes with a high precision key detection to help you making smooth mixes
+by ensuring that your tracks are musically compatible.
+
+Analyzer Settings
+-----------------
+
+Key detection is a complex operation. Depending on your computer and the track's
+bitrate and duration this may take some time. By default Mixxx analyzes the
+complete track. To accelerate key detection on slower computers, a “Fast
+Analysis” option is available. If enabled, the key is computed by analyzing the
+first minute of the track.
+
+.. figure:: ../_static/Mixxx-112-Preferences-Keydetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Key settings
+   :figclass: pretty-figures
+
+   Mixxx preferences - Key settings
+
+The table below summarizes the Key detection settings:
+
++---------------------------------------+--------------------------------------+
+| Option                                | Description                          |
++=======================================+======================================+
+| Enable Fast Analysis                  | If enabled, the key will be detected |
+|                                       | by using only the first minute of    |
+|                                       | audio.                               |
++---------------------------------------+--------------------------------------+
+| Re-analyze key when settings          | If enabled, Mixxx will re-analyse    |
+| change or Key detection data is       | tracks if you select a different key |
+| outdated                              | detection plugin or the key was      |
+|                                       | generated by a program other than    |
+|                                       | Mixxx.                               |
++---------------------------------------+--------------------------------------+
+| Key Notation                          | Change the way keys are displayed    |
+|                                       | in the library.                      |
++---------------------------------------+--------------------------------------+
 
 .. _djing-recording-your-mix:
 
@@ -692,7 +990,7 @@ Burn your recorded mix to a CD/DVD
 * Right-click and select :guilabel:`Open in File Browser` to locate the file on
   your disk
 * Now burn the recording to a CD/DVD using a 3rd-party program, for example
-  `CDBurnerXP <http://www.cdburnerxp.se/>`_ for Windows or
+  `CDBurnerXP <https://cdburnerxp.se//>`_ for Windows or
   `Burn <http://burn-osx.sourceforge.net/>`_ for Mac OS X.
 
 .. note:: Due to licensing restrictions, :term:`MP3` recording is not enabled

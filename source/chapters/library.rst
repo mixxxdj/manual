@@ -22,10 +22,9 @@ Overview of the Library features
 
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
-:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`.  Mixxx
-imports your music library automatically when it is run for the first time, and
-automatically detects newly added tracks on each subsequent run, see
-:ref:`djing-import`.
+:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx
+imports your music library automatically when it is run for the first time, see
+:ref:`djing-import` for more information.
 
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
@@ -107,8 +106,7 @@ music library.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
-  time, and automatically detects newly added tracks on each subsequent
-  run. Go to the chapter :ref:`djing-import` for detailed information.
+  time. Go to the chapter :ref:`djing-import` for detailed information.
 
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
@@ -134,9 +132,9 @@ music library.
 
 **Rescan Library**
   If you want to manually refresh your library without exiting (for example
-  because you added or moved files) you can do this with
-  :menuselection:`Library --> Rescan Library` in the menu on top of the
-  application window. You can prompt an automatic rescan in
+  because you added or moved files) you can do this with :menuselection:`Library
+  --> Rescan Library` in the menu on top of the application window. You can
+  prompt an automatic rescan when Mixxx is started in
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
 Track list context menu
@@ -314,7 +312,7 @@ prefer to build them on-the-fly.
 
 Playlists are not directly loadable into the decks as Mixxx is primarily
 intended for live, attended performance use. However, you can use the
-:ref:`Auto DJ <library-auto-dj>` explained below.
+:ref:`Auto DJ <library-auto-dj>` explained above.
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
   and select :guilabel:`New playlist`. Name the playlist and click
@@ -322,7 +320,7 @@ intended for live, attended performance use. However, you can use the
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
-  context menu in the library`s :ref:`track list<library-root>`.
+  context menu in the library's :ref:`track list <library-root>`.
 
 .. versionadded:: 1.12
    :guilabel:`Analyze Playlist` option in the context menu.
@@ -558,9 +556,9 @@ iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 
 Supported libraries:
 
-* |ic_lib_itunes| `iTunes <http://itunes.apple.com>`_ (Windows, Mac OS X)
-* |ic_lib_traktor| `Traktor <http://http://www.native-instruments.com/en/traktor/>`_ (Windows, Mac OS X),
-* |ic_lib_rhythmbox| `Rhythmbox <https://projects.gnome.org/rhythmbox/>`_ (GNU/Linux)
+* |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, Mac OS X)
+* |ic_lib_traktor| `Traktor <http://www.native-instruments.com/en/products/traktor/>`_ (Windows, Mac OS X),
+* |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
 
 .. versionadded:: 1.12

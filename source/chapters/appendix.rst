@@ -16,7 +16,7 @@ language settings the defaults may be different.
    *Single Deck Vinylcontrol Toggle* shortcuts
 
 .. versionchanged:: 1.12
-   *Auto DJ* shortcuts
+   *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
 
 +----------------------------------------+---------------------+---------------------+--------------+
 | Function                               | Deck 1              | Deck 2              | Master       |
@@ -141,6 +141,20 @@ language settings the defaults may be different.
 +----------------------------------------+---------------------+---------------------+--------------+
 | Single Deck Toggle / Swap Decks        | Ctrl + T            | Ctrl + T            |              |
 +----------------------------------------+---------------------+---------------------+--------------+
+| **Search bar**                                                                                    |
++----------------------------------------+---------------------+---------------------+--------------+
+| Focus                                  | Ctrl + F                                                 |
++----------------------------------------+---------------------+---------------------+--------------+
+| Clear input                            | Ctrl + Back                                              |
++----------------------------------------+---------------------+---------------------+--------------+
+| Exit search and leave focus            | ESC                                                      |
++----------------------------------------+---------------------+---------------------+--------------+
+| **Library**                                                                                       |
++----------------------------------------+---------------------+---------------------+--------------+
+| Select all files in current list       | Ctrl + A                                                 |
++----------------------------------------+---------------------+---------------------+--------------+
+| Select group of files in current list  | Click first item, hold Shift key, click last item        |
++----------------------------------------+---------------------+---------------------+--------------+
 
 .. seealso:: Mixxx allows you to customize the keyboard shortcuts. For more
              information, and to download a keyboard mapping image, go to
@@ -155,8 +169,12 @@ Use these shortcuts to access features available in the menu on top of the
 application window.
 
 .. versionadded:: 1.12
+   Added *Show Effect Rack*, *Maximize Library*, and *Show Cover Art* shortcuts.
    Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
    which provides various useful debugging tools.
+
+.. versionchanged:: 1.12
+   Shortcuts for *Enable Vinyl Control 1-4*.
 
 ========================================  ================================
 Function                                  Key
@@ -183,7 +201,11 @@ Show Vinyl Control Section                Ctrl + 3
 ----------------------------------------  --------------------------------
 Show Preview Deck                         Ctrl + 4
 ----------------------------------------  --------------------------------
-Show Cover Art                            Ctrl + 5
+Show Effect Rack                          Ctrl + 5
+----------------------------------------  --------------------------------
+Show Cover Art                            Ctrl + 6
+----------------------------------------  --------------------------------
+Maximize Library                          Space
 ----------------------------------------  --------------------------------
 Full Screen (Windows & Linux)             F11
 ----------------------------------------  --------------------------------
@@ -191,9 +213,13 @@ Full Screen (Mac OS X)                    Shift + Command + F
 ----------------------------------------  --------------------------------
 **Options menu**
 --------------------------------------------------------------------------
-Enable Vinyl Control 1                    Ctrl + Y
+Enable Vinyl Control 1                    Ctrl + T
 ----------------------------------------  --------------------------------
-Enable Vinyl Control 2                    Ctrl + U
+Enable Vinyl Control 2                    Ctrl + Y
+----------------------------------------  --------------------------------
+Enable Vinyl Control 3                    Ctrl + U
+----------------------------------------  --------------------------------
+Enable Vinyl Control 4                    Ctrl + I
 ----------------------------------------  --------------------------------
 Enable Live Broadcasting                  Ctrl + L
 ----------------------------------------  --------------------------------
@@ -235,7 +261,7 @@ Command line options
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
-easier. Comment line options are case-sensitive.
+easier. Command line options are case-sensitive.
 
 .. versionadded:: 1.12
 
@@ -334,6 +360,27 @@ the log on exit.
 Version History
 ===============
 
+.. todo:: Add 1.12 release date
+
+**v1.12.0** (2015-XX-XX)
+
+  * 4 Decks with Master Sync
+  * New Effects Framework with 4 Effect Units and 5 Built-in Effects:
+    * Flanger, Bit Crusher, Reverb, Echo, Filter
+    * More to come!
+  * Configurable, Resizeable User Interface with 3 Brand New Skins
+  * Cover Art Display
+  * Music Key Detection and Shifting
+  * Vinyl Audio Pass-Through
+  * 4 Microphone inputs and 4 Auxiliary inputs
+  * MIDI Mapping GUI and Improved Learning Wizard
+  * RGB Musical Waveforms
+  * Hundreds of Bug Fixes and Improvements
+  * New Pitch-Independent Algorithm for Better-Sounding Key-lock
+
+For a full list of new features and bugfixes, go to:
+`https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_.
+
 **v1.11.0** (2013-05-09)
 
   * Completely revamped Waveforms
@@ -378,7 +425,7 @@ For a full list of bugfixes, go to:
 For a full list of new features and bugfixes, go to:
 `https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_.
 
-.. seealso:: For an overview of previous versions, `take a look 
+.. seealso:: For an overview of previous versions, `take a look
              <https://launchpad.net/mixxx/+series>`_ at the timeline.
 
 

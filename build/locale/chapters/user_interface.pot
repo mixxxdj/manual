@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1460 +17,1196 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/chapters/user_interface.rst:4
-# f3a1ceb3963d4d35bed8f789e398f420
 msgid "An Overview of the Mixxx Interface"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:6
-# 1a27563723584a9b8c49fd8d3423922e
 msgid "Welcome to the Mixxx interface. This is where the magic happens. You are going to want to get very familiar with this interface because it is the main way to use Mixxx. In this chapter, we present the default interface of Mixxx and describe its elements, knobs and faders."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:18
-# 53ac90b51e2342a193a871c05272f595
 msgid "The Mixxx interface - Deere skin"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:20
-# 762b682d4f7343dfac2f6e222fa2bf0a
 msgid "This is the Deere skin. It is the default skin supplied with Mixxx. There are a variety of others skins included with Mixxx. You should explore them all to figure out which one you prefer. This section will focus on Deere only."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:27
-# fbf06fc5268a407e975d8e8aa5017be2
 msgid "The Deck Sections"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:40
-# 6331e04f63d346528f29fe3ea4710071
 msgid "A deck with a track loaded"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:42
-# e9c033cc2dd847ae844426413bc63e1e
 msgid "The deck section allows you to control everything relating to a virtual turntable :term:`deck`. We are going to break this down into sections."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:48
-#: ../../source/chapters/user_interface.rst:899
-# 4142f257fdfd4007bf452fb05d9829f9
-# 652c0ea7d5fb4fa8baf523e2aab14f3a
+#: ../../source/chapters/user_interface.rst:869
 msgid "Track Information Display"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:57
-# b800ba5b20d34edd9debcbe60bdae419
 msgid "The track information section of the deck"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:59
-# a35460c8963942d786d776356fe7f270
-msgid "Parse the title and the artist from the file name when the corresponding :term:`metadata` are missing."
+msgid "Parse the title and the artist from the file name when the corresponding :term:`metadata` is missing."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:67
-# 870643bce41349de93cd7db45367c1c9
 msgid "**Track Title**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:64
-# b5de6686e9ce443d94fa5524347039eb
 msgid "The title of the track that was loaded into a deck is displayed on top. This is the same as the title listed under the :guilabel:`Title` column heading in the Mixxx library. This information is initially loaded from the track's :term:`metadata`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:71
-# 4ee9c823656740afaf1ebe586bb8edf4
 msgid "**Track Artist**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:70
-# 3e18236823024a2fbd733d71d8bd011b
 msgid "The title of the track is listed below. It is the same as listed under the :guilabel:`Artist` column heading in the Mixxx library."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:81
-#: ../../source/chapters/user_interface.rst:907
-# 4b5866c7171a419d8e8d087825f6903c
-# 97f4eb7fa41e403a9204e4e431b593c9
+#: ../../source/chapters/user_interface.rst:877
 msgid "**BPM (Tempo)**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:74
-# e3dd52d3825244fba405911bccfe915b
 msgid "The number at the top right is the effective :term:`BPM` of the track. This is the detected :term:`BPM` of the track, adjusted for the playback rate of the track. For example, if the track is normally 100 BPM, and it is playing at +5%, then the effective BPM will read 105 BPM."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:79
-# 4d5c4225d1634dcfa17ecd75aaa695f0
 msgid "Click directly on the BPM display and tap with the beat to set the BPM to the speed you are tapping. You can also use a keyboard shortcut, go to :ref:`control-keyboard` for more information."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:89
-# 0aac5c9c2a0542e899c9fc5020a46fac
 msgid "**Time Elapsed/Remaining**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:84
-# 84c7304d209e4b5fb3a4375ab8b2b495
 msgid "By default it displays the total elapsed time in the track up to the millisecond. Clicking on the display switches to the *Time Remaining* view, which indicates how much time is left before the track reaches the end. You can change the default in :menuselection:`Preferences --> Interface --> Position Display`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:94
-# de47a59abe654068939409997b0a8008
 msgid "Waveform Displays"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:107
-# 18531934ef874f4b93f8850f75811106
 msgid "The waveform summary and waveform overview of the deck"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:109
-# 45a62f06cbf14e01aa9041b94d51392d
 msgid "The waveform section of a deck allows you to visualize the audio changes that occur throughout the track, you can basically “see” your music."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:122
-# 3c97ea1636364069bb9e590f9ccd0d1c
 msgid "**Waveform summary**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:113
-# 52bda6a7b0a14b0987dd144dcc222f51
 msgid "The big waveform summary shows the waveform envelope of the track near the current playback position and is updated in real time. The mouse can be used on the waveform to pause, scratch, spin-back or throw the tracks. Right-clicking on the waveforms allows you to drag with the mouse to make temporary pitch adjustments."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:119
-# f512c24f7d7343b4a7b72b1487099027
 msgid "You can select from different types of displays for the waveform, which differ primarily in the level of detail shown in the waveform, in :menuselection:`Preferences --> Interface --> Waveform Display --> Display type`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:124
-#: ../../source/chapters/user_interface.rst:888
-# 76372c31c6c744398bce56931ea79497
-# 9455c6f6841f4f2999e105c8f00ab444
+#: ../../source/chapters/user_interface.rst:858
 msgid "**Waveform overview**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:128
-# b77be7d87a994ea484e9bd6287986188
 msgid "Like with the Waveform summary, you can now select from different types of displays for the overview in :menuselection:`Preferences --> Interface --> Waveform Display --> Preview type`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:132
-# 304f18a3ce48415890de1f7acb5eebce
 msgid "The smaller, zoomed-out version of the waveform shows the various markers within the track as well as the waveform envelope of the entire track. This is useful because they allow DJs to see breakdowns far in advance. Clicking somewhere on the waveform allows you to jump to an arbitrary position in the track."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:149
-# bc506e2bf8fa474ea6283e05717b4702
 msgid "**Vinyl Widget**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:139
-# 6cadc2334a0c4fd1a38ee2e616a8fd92
 msgid "The line on the vinyl widget rotates if the track moves. It is similar to the position marker found on scratch records. Use the mouse on the vinyl widget to pause, scratch, spin-back or throw tracks - just like a real record. When performing :ref:`Loop rolls <interface-looping>` or right-clicking on the vinyl during playback, a “ghost” marker hints where the playback will continue. The Vinyl Widget is hidden by default and can be enabled in the :ref:`interface-button-grid`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:147
-# b015d8c7dfda49bcb3171c3246e71c7f
 msgid "If :term:`Vinyl control` is enabled, it can optionally display the time-coded vinyl signal quality. Activate the option in :menuselection:`Preferences --> Vinyl Control --> Show Signal Quality in Skin`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:155
-# f86e54b9958a46bdb37bdc3e9c11bdcd
 msgid "**Waveform Zoom**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:152
-# 4dc03a26e0234a6a81b3a4a503634bf6
 msgid "Using the mouse-wheel everywhere in the waveform summary will zoom the waveform in or out. You can choose whether to synchronize the zoom level between the decks in :menuselection:`Preferences --> Interface --> Waveform Display --> Synchronize`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:158
-#: ../../source/chapters/user_interface.rst:891
-# 66002e83e844418fabcb96e7d3ac0ca3
-# afd7305e9b1b4b7fab90ae4af8be8a66
+#: ../../source/chapters/user_interface.rst:861
 msgid "**Waveform Marker**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:158
-# 37d24396b9484f7490b9bdfef2400d75
 msgid "While mixing, various additional markers can appear on the waveforms:"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:160
-# 8c18c609592c4aab901585f8534ea84a
 msgid "**Position marker**: The static vertical line in the center of the waveform summary indicates the playback point of the deck."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:162
-# c3c8359acaab4a0b808ffc363430093b
 msgid "**Beat marker**: The regular white lines on the waveform summary indicate the locations of beats in the audio, also called the :term:`beatgrid`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:164
-# 9330fb3bb85a4bcfb48e4b7b0d506ac9
 msgid "**Cue marker**: Indicates the position of the :term:`cue point <cue>`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:165
-#: ../../source/chapters/user_interface.rst:895
-# d220d4d0d33546388cd7c3450a0c249d
-# 094cfb622f9a47e2b230c63e47b7bb84
+#: ../../source/chapters/user_interface.rst:865
 msgid "**Hotcue marker**: Indicate the position and number of a :term:`hotcue` point if set."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:167
-# cc245fe528e7446b89d6f8c84f64b606
 msgid "**Loop-in/Out marker**: Indicate the beginning and the end of a loop."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:168
-# be906c94e3e4410b99bd11084b78324b
 msgid "**Loop overlay**: Is drawn between the Loop-in/Out markers and changes color depending on whether a loop is activated or not."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:170
-# 72c9369a4eb443248a566b16b208396f
 msgid "**Track ending notification**: If the waveform overview flashes red, only 30 seconds are left before the track reaches the end."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:173
-# 15201bc154364d5b9b9c5a26fb9b1d1f
 msgid "To learn how to get most out of the waveforms while mixing, go to the chapter :ref:`waveform-displays`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:176
-# 691ca72267c8464eaad80f14c0b62dc2
 msgid "If you have a slower computer and notice performance issues with Mixxx, try to lower the frame rate or change the level of detail shown in the waveform in :menuselection:`Preferences --> Interface --> Waveform Display`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:184
-#: ../../source/chapters/user_interface.rst:910
-# b79ca6c9b0fc418ba53c1811c5a99f45
-# 558cf42fb1754892872ae9f16d78c1c4
+#: ../../source/chapters/user_interface.rst:880
 msgid "Deck Options Button Grid"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:197
-# d1e134fc5fbf4e02980dfd0c584e4520
 msgid "The Options Button Grid of the deck"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:199
-# 88848dcf2c75497f9c227343d87d4fcf
-msgid "The six buttons at the bottom right below the waveform allow you to configure the deck. Starting from the top-left and moving counterclockwise the buttons are as follows:"
+msgid "The six buttons at the bottom right below the waveform allow you to configure the deck. Starting from the top-left and moving clockwise the buttons are as follows:"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:204
-# 5a97fdb688e9432fa9573e9814d25847
 msgid "**Show/Hide Vinyl Widget**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:204
-# 4eb1439ec1024e6aac36e3d63b9eb914
 msgid "Toggles the visibility of the Vinyl Widget in the :ref:`interface-waveform`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:208
-#: ../../source/chapters/user_interface.rst:917
-# 896c059a2983435396ec563c591cdc30
-# 152c0bad9d694474a4d69d58f75f97e0
+#: ../../source/chapters/user_interface.rst:887
 msgid "**Repeat Mode Toggle**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:207
-#: ../../source/chapters/user_interface.rst:916
-# a014fa0bacd749799b1c1d1c1ace971d
-# 0bbb979350b746d09ed97ff34f76bb32
+#: ../../source/chapters/user_interface.rst:886
 msgid "If enabled, the repeat mode will jump back to the beginning and continue playing when the track finishes."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:213
-#: ../../source/chapters/user_interface.rst:920
-# dd7c9344f16d4bb99a86f0b133727a66
-# 265565fbeae742e5967ba78c5d283243
+#: ../../source/chapters/user_interface.rst:890
 msgid "**Eject Track Button**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:211
-# ae5e7e6f05374f42b2ff6fea28fcbe08
 msgid "Clicking this button ejects the track from the deck. Alternatively you can use a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more information."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:219
-# f030a7fb0d5e4f4e8a288178abe39924
 msgid "**Beat-grid Adjust Button**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:216
-# f9f08d07443f461cbaa6b32aeb189265
 msgid "Clicking this button adjusts the track beat-grid so that the current position is marked as a beat. This is useful if Mixxx was able to accurately detect the track's :term:`BPM` but failed to align the beat markers on the beats. For more information, go to the chapter :ref:`djing-bpm-detection`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:223
-# 6b1b6e25d93a493caa01c9ef2143e8c9
 msgid "**Quantize Mode Toggle**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:222
-# 94d8b1539b2040b8a4b1994ff7d0ab9f
 msgid "If enabled, all cues, hotcues, loops, and beatloops will be automatically :term:`quantized <quantization>` so that they begin on a beat."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:229
-#: ../../source/chapters/user_interface.rst:927
-# 6612837ccafd4ffc99c8d9008050f5bc
-# afcbd7a5f6ca441bb188ff42cd945ea7
+#: ../../source/chapters/user_interface.rst:897
 msgid "**Keylock Toggle**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:226
-# 1d97f8b2d5f84cdc81a85d66eb7db3d7
 msgid ":term:`Keylock <key lock>` locks the track's pitch so that adjustments to its tempo via the rate slider do not affect its pitch. This is useful if you would like to speed up or slow down a track and avoid the “chipmunk” effect that speeding up vocals has."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:234
-# 4e257253ba434993ac51822005bd86bd
 msgid "Vinyl Control Mode and Cueing controls"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:246
-# f0acd16664eb49b797186b29fb6f245c
 msgid "The Vinyl Control Mode and Cueing controls of a deck"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:248
-# 4dde40c7857c45c8af48eb2f815f0ff0
 msgid "The control above the waveforms relate to the :term:`vinyl control` feature in Mixxx and is **hidden** in the default :ref:`Mixxx user interface <interface-overview>`. Click the :ref:`VINYL section expansion button <interface-expansion-buttons>` in the mixer section, or use the specific :ref:`appendix-shortcuts` to show or hide the section."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:255
-# 6243c2a431d24032b1b2cf95a9789d79
 msgid "**Abs/Rel/Const button**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:257
-# 96e5d280f8d54701a8e82cf03d02a56d
 msgid "**Absolute mode**: The track position equals needle position and speed."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:258
-# f81a5b25ea9e4370aa0c313a814ea4db
 msgid "**Relative mode**: The track speed equals needle speed regardless of needle position."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:260
-# a5657777a5644445a438bfbe714da750
 msgid "**Constant mode**: The track speed equals last known-steady speed regardless of needle input."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:263
-# 13596467457c4cee9ec3d69a9cc36e34
 msgid "**Off/One/Hot button**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:265
-# 939880168d0d4a679c26c706f0bd82de
 msgid "This button determines how :term:`cue points <cue>` are treated in vinyl control relative mode:"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:268
-# 0e7eba30b7044d84bc83ff4520a61dfc
 msgid "**Off**: Cue points are ignored."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:269
-# 16429334fcef41c088ec502061f6c9b6
 msgid "**One Cue**: If the needle is dropped after the cue point, the track will seek to that cue point."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:271
-# a92eb90d624e46f997f53b8204da2d10
 msgid "**Hot Cue**: The track will seek to nearest previous :term:`hotcue` point."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:273
-# 9ac587ffaaa141168806d44fc035d6d3
 msgid "For more information on how to use Vinyl control in your setup, go to the chapter :ref:`vinyl-control`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:279
-# 5fb0e2ad81b0437fad5fbd1c249589a1
 msgid "Sync and Rate Controls"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:292
-# 97e249ccf3f845819d43ecb7c85fe033
 msgid "Rate controls"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:294
-# facfa8f425f14dee80540a5969f3961f
 msgid "The rate controls allow you to change the rate at which tracks are played. This is very useful for :term:`beatmatching` two tracks together in a mix. You can control rate changes also from your computer's keyboard, see the chapter :ref:`control-keyboard` for more information."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:299
-# ba20b2958b6b418b8356a190132810c8
 msgid "**SYNC button**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:301
-# 8732f09d228d4a6884a4a70d66d25d7a
 msgid "**Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM` and :term:`phase` of the track matches the other deck."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:303
-# 95a74bbc86904a5bbb2bcd10cb2b8bc6
 msgid "**Right-Click**: Only changes the :term:`rate` of the track to match the other deck but does not adjust the :term:`phase`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:306
-# 38fb4aa7d77c451cbd623ce9ca14f80f
-msgid "Decks and samplers now pick which sync target to sync to on the fly. Decks can't sync to samplers and samplers can only sync to decks. The sync target is:"
+msgid "Decks and samplers now pick which sync target to sync to on the fly. Decks can't sync to samplers and samplers can only sync to decks. The sync target for samplers is:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:309
-# 8b4939f6a94b412c821c6747d0784c63
+#: ../../source/chapters/user_interface.rst:310
 msgid "The first (in numerical order) deck that is playing (rate > 0) a track that has a detected beatgrid."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:311
-# 5b6315c4eb8846328ddddceb445978ce
+#: ../../source/chapters/user_interface.rst:312
 msgid "The first (in numerical order) deck that has a track loaded with a detected beatgrid (could be stopped)."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:314
-# fc7f3bacee454d058a04313209f361b7
-msgid "So basically, if you sync a sampler and both deck 1 and deck 2 are playing a track with a beatgrid then deck 1 will win since numerically it is first. This will change again in the future once Mixxx gets a proper master sync feature."
+#: ../../source/chapters/user_interface.rst:315
+msgid "So basically, if you sync a sampler and both deck 1 and deck 2 are playing a track with a beatgrid then deck 1 will win since numerically it is first. The sync targets for decks are chosen with the new master sync feature, see :ref:`master-sync` for more information."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:322
-#: ../../source/chapters/user_interface.rst:960
-# fd9409f03d264782844718d5018c7c20
-# bf51d396f237495e94c66702d1c3bd72
+#: ../../source/chapters/user_interface.rst:324
+#: ../../source/chapters/user_interface.rst:932
 msgid "**Pitch/Rate slider**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:319
-# ffe1bc3c5ebd44ad9278d6da667fb540
+#: ../../source/chapters/user_interface.rst:321
 msgid "The slider allows you to change the speed of the song, by default up to 10% from the tracks original tempos. The speed will increase as you move the slider up, opposite to the behavior found on DJ turntables and :term:`CDJ`. Right-clicking on the slider will reset the tempo to its original value."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:327
-# 847b54e4a73f4be8938d2f48dce5cdce
+#: ../../source/chapters/user_interface.rst:329
 msgid "**Pitch Rate Display**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:325
-# 0cf683a62bf94f51bf7b230af2b1f00c
+#: ../../source/chapters/user_interface.rst:327
 msgid "The percent that the track's rate is sped up or slowed down is noted here. Is the Pitch/Rate slider positioned at the center, the pitch rate display is at +0.0%, which indicates no change."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:332
-# f3af81286bb7434eb25b98567514eb09
+#: ../../source/chapters/user_interface.rst:334
 msgid "**Pitch/Rate buttons**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:330
-# 1a78b66305454c99a929ea21a2056bab
+#: ../../source/chapters/user_interface.rst:332
 msgid "The plus and minus buttons increase or decrease the tempo in steps at which a song is played, same as pulling the pitch slider slightly. By right-clicking the buttons you get even finer adjustments."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:339
-# 6fffb64e720a4c7b92b776cc5b2e4741
+#: ../../source/chapters/user_interface.rst:341
 msgid "**Temporary Pitch/Rate buttons (Nudge)**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:335
-# 5723cb2666964030b632dd0727dddc59
+#: ../../source/chapters/user_interface.rst:337
 msgid "Pushing the left and right arrow buttons is like nudging the metal edge of a turntable, or the outer edge of a CD player. It will give the track a push or pull forwards or backwards. If the buttons are released the previous tempo is restored. The buttons can act as either a fixed :term:`pitch bend` or a :term:`ramping pitch bend`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:341
-# c33dc4a7e6e34cd0afd5968a92f28c40
+#: ../../source/chapters/user_interface.rst:343
 msgid "To customize the amount by which the buttons alter the pitch of the track, the slider range as well as the direction, go to :menuselection:`Preferences --> Interface`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:345
-# 300447cffa814471ba9dbce024619b7e
+#: ../../source/chapters/user_interface.rst:347
 msgid "If the tempo of a track changes, you'll notice that the tone changes based on the pitch used (e.g. playing at faster pitch gives a chipmunk sound). You can enable the :ref:`Keylock <interface-button-grid>` feature to maintain a constant tone."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:353
-# d0899247ebe54f45ae31e5648485fe4f
+#: ../../source/chapters/user_interface.rst:355
 msgid "Transport Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:366
-# 68fc07bc25fa4814b36f5791c3bd723f
+#: ../../source/chapters/user_interface.rst:368
 msgid "The transport controls of the deck"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:368
-# db261ab5baf444faa00153b7213d3ff3
+#: ../../source/chapters/user_interface.rst:370
 msgid "Right-click on the Reverse button activates Reverse Roll (Censor)"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:374
-# 09028fa3d43d49a5b78ac5b132de7033
+#: ../../source/chapters/user_interface.rst:376
 msgid "**Fast-Rewind button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:372
-# c02f1b596ace494e893e7e0ac116f338
+#: ../../source/chapters/user_interface.rst:374
 msgid "As long as the button is pressed, the track will play in reverse with increased speed. Right-clicking on the button will seek the play position to the beginning of the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:379
-# a1300a98421c4314bf3332fdfbe621a0
+#: ../../source/chapters/user_interface.rst:381
 msgid "**Fast-Forward button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:377
-# 7b93ecf2676d49af973e4bf30ba1b224
+#: ../../source/chapters/user_interface.rst:379
 msgid "As long as the button is pressed, the track will play with increased speed. Right-clicking on the button will seek the play position to the end of the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:385
-# 7cef3f3562494c55b155e139ff80ee12
+#: ../../source/chapters/user_interface.rst:387
 msgid "**Reverse button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:382
-# 0d1c02e4a77e4c6788cc42f5b462a8d0
+#: ../../source/chapters/user_interface.rst:384
 msgid "As the name suggests, this button plays a track backwards. Right-clicking on the button puts a track into reverse while being held, resumes the track and disables Slip mode when released. Useful to censor expletives on the fly, or simply as part of your mix."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:390
-# 886082bd640f41e191b17bedd4799186
+#: ../../source/chapters/user_interface.rst:392
 msgid "Loop Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:403
-# 1d58a9f89a624861942fe53ab072a1fa
+#: ../../source/chapters/user_interface.rst:405
 msgid "The beatloop and looping controls of the deck"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:405
-# 483bc69f697547c2a817c120bdefb0e4
+#: ../../source/chapters/user_interface.rst:407
 msgid "In this section of the Mixxx interface you can control (beat-)loops and set the loop points of a track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:408
-# 8c2935fa2cb64237be3744573eb38640
+#: ../../source/chapters/user_interface.rst:410
 msgid "**Beatlooping Buttons**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:410
-# d93e899f72e44fadbbdcd0991e72abfc
+#: ../../source/chapters/user_interface.rst:412
 msgid "**Instant loop**: The numbered buttons represents a different :term:`bar` length. Clicking on any of that buttons will set a loop of the defined number of beats from the beat immediately following the current playback position. If a loop is set, a loop overlay will be drawn on the :ref:`waveforms <interface-waveform>`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:415
-# 479dba4a8c9346b399bf0394f9859ca9
+#: ../../source/chapters/user_interface.rst:417
 msgid "**Loop roll**: Right-click on any of the numbered loop buttons to temporarily setup a rolling loop over the defined number of beats. Playback will resume where the track would have been if it had not entered the loop."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:419
-# 8601943ae1b948fb9f64b48fcc31f3f2
+#: ../../source/chapters/user_interface.rst:421
 msgid "**Double loop**: Clicking on the plus button will double the current loop's length up to 64 bars. The length of the loop overlay in the waveform will increase accordingly."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:422
-# 4018a5dfb9e440fbbd1b5d0007e30901
+#: ../../source/chapters/user_interface.rst:424
 msgid "**Halve loop**: Clicking on the minus button will halve the current loop's length down to 1/32 bars. The length of the loop overlay in the waveform will decrease accordingly."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:426
-# e3cf3db2f69646dfaac58b067ae87f00
+#: ../../source/chapters/user_interface.rst:428
 msgid "**Loop Buttons**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:428
-# a0b36e0e1f67411ebefe8ca0711cb5e8
+#: ../../source/chapters/user_interface.rst:430
 msgid "**Loop-In**: This button allow you to manually set the start point of a loop. A loop-in marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the start point of a loop to a new position."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:432
-# f1777c4be0884ec8b3d31a1cf3e6665e
+#: ../../source/chapters/user_interface.rst:434
 msgid "**Loop-Out**: This button allow you to manually set the end point of a loop. A loop-out marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the end point of a loop to a new position."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:436
-# 08e32d8c8ffe46048c8d875f7d6da8ca
+#: ../../source/chapters/user_interface.rst:438
 msgid "**Loop**: Also dubbed Reloop, this button toggles whether the loop is active or not. This works for manually placed loops as well as automatic loops set by the beatlooping buttons. Depending on the current status of the loop, the loop overlay on the waveforms changes color."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:441
-# 448f4a6c4532470b8ef53d642ba16d6c
+#: ../../source/chapters/user_interface.rst:443
 msgid "If you are playing inside a loop and want to move the end point beyond its current position in the track, click on the *Loop* button first and when the play position reaches the desired position, click on the Loop-Out button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:446
-# 69fbb897c5a9462ba6d37918c606b550
+#: ../../source/chapters/user_interface.rst:448
 msgid "If the :term:`Quantize <quantization>` mode is enabled, the loops will automatically snap to the nearest beat. This is disabled by default, click on the :ref:`Quantize Mode Toggle <interface-button-grid>` to enable it."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:454
-# 20f7c28371d8425e8b363782aecafa0c
+#: ../../source/chapters/user_interface.rst:456
 msgid "Hotcue Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:467
-# 4250e3b946a641c688155524efc5d100
+#: ../../source/chapters/user_interface.rst:469
 msgid "The hotcue controls of the deck"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:469
-# a3bb1be71aab4f1a9de8b2c14aee1025
+#: ../../source/chapters/user_interface.rst:471
 msgid "To jump in between different parts of a track, you can use these numbered buttons. You can also use keyboard shortcuts, go to :ref:`control-keyboard` for more information."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:474
-# 4706846e27944824a9ca77e9cfae2694
+#: ../../source/chapters/user_interface.rst:476
 msgid "Setting Hotcues"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:476
-# 47a25c0a589349c2a6a2d1f92c4baa13
+#: ../../source/chapters/user_interface.rst:478
 msgid "Clicking on a numbered button will set a :term:`hotcue` at the current play position on the track. A marker with the corresponding number will appear in the waveform and the button will light up to indicate that the hotcue is set."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:481
-# 43ccc3de5c4743268dc1dd4739b7dd28
+#: ../../source/chapters/user_interface.rst:483
 msgid "Playing Hotcues"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:483
-# 9949690ac76f43c7a498f6a3822bfd35
+#: ../../source/chapters/user_interface.rst:485
 msgid "**While playing**: Tap a hotcue button to cause the track to instantly jump to the location of the hotcue and continue playing. If you are playing inside a loop and tap a hotcue whose position is outside of the loop, then the track still instantly jumps to the hotcue but the loop will be deactivated."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:488
-# be49137eb6ce4b97bfe5f0829d50e4e7
+#: ../../source/chapters/user_interface.rst:490
 msgid "**While stopped**: Tap a hotcue button to cause the track to instantly jump to the location of the hotcue and start playing as long as the button is pressed. Press the :ref:`Play <control-keyboard>` keyboard shortcut while the hotcue button is pressed to continue playback, then release the hotcue button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:494
-# dce39bd68dfa4a3b8608796449aacdde
+#: ../../source/chapters/user_interface.rst:496
 msgid "Deleting Hotcues"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:496
-# fbc1d086acf045f7bb58e96a45f2ee34
+#: ../../source/chapters/user_interface.rst:498
 msgid "To delete a hotcue, right-click on the numbered button. The marker in the waveform will be deleted as well."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:499
-# 8e7dd248c8734df080c6e739c01ab7c8
+#: ../../source/chapters/user_interface.rst:501
 msgid "Mixxx supports up to 36 hotcues per deck. By default, only some of them are visible in the user interface. You can customize your :ref:`keyboard <advanced-keyboard>` or :ref:`controller <advanced-controller>` mappings to use all of them."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:504
-# ed2bc51ab2f944d3b5c1d1c4e1ab26a6
+#: ../../source/chapters/user_interface.rst:506
 msgid "Just as with the loops (see above), if the :term:`quantize <quantization>` mode is enabled, the hotcues will automatically snap to the nearest beat. This is disabled by default, click on the :ref:`Quantize Mode Toggle <interface-button-grid>` to enable it."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:513
-# e579d8581ffc4b44bed242532615d55f
+#: ../../source/chapters/user_interface.rst:515
 msgid "The Mixer Section"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:526
-# 20667c4d19b64724bbff5a3397e2bb37
+#: ../../source/chapters/user_interface.rst:528
 msgid "The mixer section"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:528
-# bb7541d365134ce1a0af788ebf0387d4
+#: ../../source/chapters/user_interface.rst:530
 msgid "The mixer section of the :ref:`Mixxx user interface <interface-overview>` allows you to control how the different decks and samplers are mixed together."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:534
-# 43b319076fd94a3580faa8ca1c53bc00
+#: ../../source/chapters/user_interface.rst:536
 msgid "Channel Faders and VU Meters"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:543
-# c730e39811cd486e936124ad957e0f78
+#: ../../source/chapters/user_interface.rst:545
 msgid "**VU meters**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:537
-# 88ee7b8e3f7c4d46bee63055f55dc6c2
+#: ../../source/chapters/user_interface.rst:539
 msgid "In the center of the mixer section are 4 :term:`VU meters <vu meter>`. The two outer-most VU meters are for each deck, while the 2 inner-most VU meters are the left and right VU meters for the master output."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:541
-# aebb8dc3897d437aaf2fe9136816233d
+#: ../../source/chapters/user_interface.rst:543
 msgid "The light at the top of the VU meter indicates when the audio in the selected channel is clipping. If this light goes on, reduce the gain or EQs for this deck to eliminate distortion."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:551
-# 8af6498d877e4fd29184031042c4cdb5
+#: ../../source/chapters/user_interface.rst:553
 msgid "**Line faders**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:546
-# 7d8aa9224607474e8d667a5913819543
+#: ../../source/chapters/user_interface.rst:548
 msgid "The two large faders on either side of the VU meters are the deck volume faders, also known as Channel- or Line-faders. Adjusting these controls the volume of each deck."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:550
-# 2f9f79508f8c4b7eb5085e16a1df7f5b
+#: ../../source/chapters/user_interface.rst:552
 msgid "Some DJ's prefer to use the line faders over the crossfader for fading between tracks. Try it, you may like it."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:556
-# 3d4b17b8d9d34c2fbe0fad81d15c2742
+#: ../../source/chapters/user_interface.rst:558
 msgid "Section Expansion Buttons"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:565
-# e7ecd8f960454f85a740108ad76fe7c2
+#: ../../source/chapters/user_interface.rst:567
 msgid "The section expansion buttons"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:567
-# e6a533c71a9640c0acab7f1075be1531
+#: ../../source/chapters/user_interface.rst:569
 msgid "Above the VU meters in the mixer are the optional section expansion buttons."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:569
-# b5bd2c2dff2146888e4b76d67ba349b0
+#: ../../source/chapters/user_interface.rst:571
 msgid "If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or :guilabel:`VINYL` then you will enable control sections for interacting with:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:572
-# f5101a1237574636ad0112df8a5cf2ac
+#: ../../source/chapters/user_interface.rst:574
 msgid ":ref:`interface-mic`"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:573
-# b5222164337b42728b5a65a3135d0a97
+#: ../../source/chapters/user_interface.rst:575
 msgid ":ref:`interface-sampler`"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:574
-# f888747b5c81456185ec979291bb10a5
+#: ../../source/chapters/user_interface.rst:576
 msgid ":ref:`interface-vc-mode`"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:576
-# 583dc531d6a54df1851658e465da270c
+#: ../../source/chapters/user_interface.rst:578
 msgid "You can also use the specific :ref:`appendix-shortcuts`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:581
-# e0e347c8622d4793856969dfc2cdea91
+#: ../../source/chapters/user_interface.rst:583
 msgid "Headphone and Master Mix Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:590
-# 30730634b1ae40489e85388e2930d41f
+#: ../../source/chapters/user_interface.rst:592
 msgid "The headphone and master mix knobs"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:0
-# 4f388a5d5a454917ab133a2089f1d402
 msgid "Todo"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:592
-# 48785879788947f7bbc87011072f731b
+#: ../../source/chapters/user_interface.rst:594
 msgid "Update section to reflect 1.12 GUI layout."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:594
-# b52ab02354e74b0b97639104ef2c6e7f
+#: ../../source/chapters/user_interface.rst:596
 msgid "Headphone split cue option"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:604
-# e4361553e9be448a92b40a4c4c0f9ad0
+#: ../../source/chapters/user_interface.rst:606
 msgid "**Head-Mix Knob**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:598
-# 669e0eff1a6c4c2187f48e71f09180e0
+#: ../../source/chapters/user_interface.rst:600
 msgid "Allows you to customize how much of the master output you hear in your headphones. It works like a crossfader between the stereo Master and stereo Cueing signal. If the knob is set to the left, you only hear the cueing signal which can be useful for prelistening tracks."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:603
-# cf2aedca7ba045d28851d19208291d1f
+#: ../../source/chapters/user_interface.rst:605
 msgid "Don't forget to activate the :guilabel:`PFL` button on the deck you want to listen to in your headphones."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:609
-# 5833fad8e2eb4c37b4d46a26a3f83250
+#: ../../source/chapters/user_interface.rst:611
 msgid "**Head volume Knob**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:607
-# d795e4546e7144549c0d8a7d874efedc
+#: ../../source/chapters/user_interface.rst:609
 msgid "This button adjusts your headphone volume. You can adjust the volume of a single deck's signal you are listening to in the headphones with the :ref:`Gain <interface-eq-gain>` knob."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:615
-# 57edb8da576146c69594d7fa4216d8b9
+#: ../../source/chapters/user_interface.rst:617
 msgid "**Head-Split Button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:612
-# 0b0d667c275a47cab2ee94597c8e3d94
+#: ../../source/chapters/user_interface.rst:614
 msgid "If activated, two mono signals are send to the headphone output instead of one stereo signal. The master signal plays in the right channel, while the cueing signal plays in the left channel. You can still adjust the head-mix so in the left channel is not the pure cueing signal."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:619
-# b37b02a21b24409e9e9bf2fb4a49e7e9
+#: ../../source/chapters/user_interface.rst:621
 msgid "**Balance Knob**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:618
-# 46a45a0ab25c4367bdc7255ade22e516
+#: ../../source/chapters/user_interface.rst:620
 msgid "This knob allows you to adjust the :term:`balance` (left/right orientation) of the master output."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:628
-# c8c96b166a0a4bdb94c0fc7c224825cc
+#: ../../source/chapters/user_interface.rst:630
 msgid "**Volume Knob**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:622
-# 9251ec38c9dd4425b38648d8966bb834
+#: ../../source/chapters/user_interface.rst:624
 msgid "The Volume Knob controls the overall volume of the master output. Adjust this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just at the peak."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:626
-# 394908a1fc004405b0c028ccd7d15644
+#: ../../source/chapters/user_interface.rst:628
 msgid "If the Peak indicator on top of the Master VU meter flashes, the master output signal is clipping (too loud). Lower the volume with using the volume knob."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:633
-# bae118df772240c392593e24259e5d94
+#: ../../source/chapters/user_interface.rst:635
 msgid "PFL/Headphone Button"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:642
-# e8d67cf964fe4c688be1bb743c791c3f
+#: ../../source/chapters/user_interface.rst:644
 msgid "The headphone buttons of both decks in the mixer"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:644
-# dceddcb3f4c9411da7768d5b8252e3bd
+#: ../../source/chapters/user_interface.rst:646
 msgid "The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>` button. Pressing this button allows you to listen and synchronize the track you will play next in your headphones before your audience hears the track (headphone cueing). You can select more than one PFL button simultaneously."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:649
-# 6e6e6a5b855d4be38cea18e3c95d52e9
+#: ../../source/chapters/user_interface.rst:651
 msgid "Headphone cueing is only available if you have configured a Headphone Output in :menuselection:`Preferences --> Sound Hardware`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:655
-# 94b470cfdf2a4847bc7c267177f8f96e
+#: ../../source/chapters/user_interface.rst:657
 msgid "Equalizers and Gain Knobs"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:664
-# 97190e4f013b4cc5891341c2c513fd82
+#: ../../source/chapters/user_interface.rst:666
 msgid "EQ Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:670
-#: ../../source/chapters/user_interface.rst:953
-# 948ad4835e7f489e8568505681c606d5
-# 83b3b5a37f7e4beebb743d4bb7079ee9
+#: ../../source/chapters/user_interface.rst:672
+#: ../../source/chapters/user_interface.rst:925
 msgid "**Gain Knob**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:667
-# 1fa030098dee4cbb9959cec0dd747c8d
+#: ../../source/chapters/user_interface.rst:669
 msgid "Above these knobs, the gain knob allows you to adjust the gain of the deck. In general, you should adjust this knob so that at full-volume the deck's audio is just at the peak of the center VU meters. This is so you can achieve the widest dynamic range for your track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:675
-# 1ab26adecedd4e3190f95c9767be938f
+#: ../../source/chapters/user_interface.rst:677
 msgid "**EQ Knobs**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:673
-# cf85fb682049469eac74af7c32142014
+#: ../../source/chapters/user_interface.rst:675
 msgid "The low, mid, and high knobs allow you to change the filters of the audio. This allows you to selectively reduce or boost certain frequency ranges of the audio."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:682
-# f7d2cacc2f27445c8baeca5fd8b866bd
+#: ../../source/chapters/user_interface.rst:684
 msgid "**Kill Switches**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:678
-# ba4914d5450143bd9575d71f6d40dbbe
+#: ../../source/chapters/user_interface.rst:680
 msgid "The small boxes next to each EQ knob are called :term:`kills <kill switch>`. Hold these buttons to fully remove that frequency range. Short click on the buttons for latching. When in Latch mode, click again to restore the frequency range. If the Kill switches do not work as expected, check the high/low shelf EQ settings in the preferences."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:684
-# 63e874e17b104dbb8f8fca4f068bed2c
+#: ../../source/chapters/user_interface.rst:686
 msgid "You can customize the EQ settings in :menuselection:`Preferences --> Equalizer`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:690
-# 27183e74e28b4c6c86438ab6cefa8c5d
+#: ../../source/chapters/user_interface.rst:692
 msgid "Crossfader"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:699
-# ecda99938cf849bd9b77815718f257c6
+#: ../../source/chapters/user_interface.rst:701
 msgid "The crossfader section of the mixer with Play/Pause and Cue buttons"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:701
-# 52443422edcb4a5db4c9d7aed1a27136
+#: ../../source/chapters/user_interface.rst:703
 msgid "The :term:`crossfader` determines the actual volume of each deck when moving the slider from left to right. If both decks are playing and the crossfader is in its default center position, then you will hear both decks. Right-clicking on the crossfader will reset the slider to its default position."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:706
-# ad07853c9fe94c8ea64859b2de161ea9
+#: ../../source/chapters/user_interface.rst:708
 msgid "You can reverse the configuration of the crossfader, so that the right deck is on the left end of the crossfader and vice versa. This is also known as *Hamster Style*. To adjust the crossfader to your style of mixing, go to :menuselection:`Preferences --> Crossfader`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:711
-# 234e1597f5c54612a4514205d3d01e83
+#: ../../source/chapters/user_interface.rst:713
 msgid "Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can automate the crossfade between the decks."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:717
-# 4c4d0b14dbd740d08c379b762277d5e7
+#: ../../source/chapters/user_interface.rst:719
 msgid "Play/Pause Button"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:718
-# 1bbcbee012a94bfd9dd0e5809646edcd
+#: ../../source/chapters/user_interface.rst:720
 msgid "Clicking the Play/Pause button starts and pauses the playback."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:720
-# 97ea41a48d7f4120a66a0a600783029e
+#: ../../source/chapters/user_interface.rst:722
 msgid "The actual behavior of the Play/Pause button depends on the selected :ref:`Cue mode <interface-cue-modes>`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:723
-# 17e79b5d48e64451bb396167c3df83fe
+#: ../../source/chapters/user_interface.rst:725
 msgid "To return to the beginning of the track, right-click on the deck's :ref:`Fast-Rewind Button <interface-transport>`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:729
-# b5d2129a73b8433283f490271b0dcaa1
+#: ../../source/chapters/user_interface.rst:731
 msgid "Cue Button"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:735
-# 1062a25a53094dfab619003be858b48f
+#: ../../source/chapters/user_interface.rst:737
 msgid "If the button is pressed while the track is playing, the play position jumps to the :term:`Cue point <cue>` on the track and the track is paused. Once the track is paused at the Cue point, you can preview it by holding the Cue Button. If you have not moved the Cue point yet, the default point is at the track's beginning."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:740
-# 54fa888d71a74ba3a15f40239f32051d
+#: ../../source/chapters/user_interface.rst:742
 msgid "The actual behavior of the Cue button depends on the selected :ref:`Cue mode <interface-cue-modes>`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:744
-# 3d18ae27d6374bc8866697d986660a06
+#: ../../source/chapters/user_interface.rst:746
 msgid "Setting Cue points"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:746
-# 11fda128a59e43909fe7b96110d96a17
+#: ../../source/chapters/user_interface.rst:748
 msgid "Every track has a Cue point, by default on its beginning. Unlike with :ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:749
-# 33b8ec33d7944dc69300370b881f86f8
+#: ../../source/chapters/user_interface.rst:751
 msgid "The Cue point is moved according to the selected Cue mode, as explained below."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:754
-# e9ec27b5c0fc4be284af92cecb5307dd
+#: ../../source/chapters/user_interface.rst:756
 msgid "Using Cue Modes"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:756
-# 795fe599818e49df85ff7e5f2c09e2a2
+#: ../../source/chapters/user_interface.rst:758
 msgid "The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:759
-# 85f9a0ebc5a346f9a6f70257bf5f60ef
+#: ../../source/chapters/user_interface.rst:761
 msgid "Mixxx supports various Cue modes that adapt to fit other devices in your setup, or your personal preferences. The actual behavior of the Play, Pause, and Cue buttons depends on the selected Cue mode. To change the Cue mode, go to :menuselection:`Preferences --> Interface`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:764
-# aefbc211caa244af8f06d0c3598874fd
+#: ../../source/chapters/user_interface.rst:766
 msgid "**Mixxx mode (default)**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:766
-# 18530eec7ee44c5c8e73de903f6d7393
+#: ../../source/chapters/user_interface.rst:768
 msgid "**While paused at Cue point (Cue button lit):**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:768
-# 4a5c93914c404a79899143b24af6f0aa
+#: ../../source/chapters/user_interface.rst:770
 msgid "Holding down the Cue button plays the track from the :term:`Cue point <cue>`, as long as the button is pressed. After releasing the Cue button, the track jumps back to Cue point and pauses again. Continue playback by pressing the Play/Pause button before releasing the Cue button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:773
-# 359a7542911f4b6e81cc887767507c5d
+#: ../../source/chapters/user_interface.rst:775
 msgid "**While paused not at Cue point (Cue button flashing)**:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:775
-# 9195a1f0050f4297a49feecfe0575518
+#: ../../source/chapters/user_interface.rst:777
 msgid "Tapping the Cue button stores the current position as new Cue point."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:777
-# a1a21e0a0abd4251bb149b255c00e728
+#: ../../source/chapters/user_interface.rst:779
 msgid "**While playing:**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:779
-# 22a84d22d101406f955bdfdfe5fea5f4
+#: ../../source/chapters/user_interface.rst:781
 msgid "Tapping the Cue button causes the track to instantly jump to the location of the Cue point where it pauses the playback."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:781
-#: ../../source/chapters/user_interface.rst:811
-# d32adc11aa3747ffa55f12979ab5b567
-# 6e00fea1fa594f6ba142953c20fc61f7
+#: ../../source/chapters/user_interface.rst:783
+#: ../../source/chapters/user_interface.rst:813
 msgid "Tapping the Play/Pause button pauses the track at the current position."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:783
-# ac881ffcecb445e685adc9d8f3b639e8
+#: ../../source/chapters/user_interface.rst:785
 msgid "**Pioneer mode**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:785
-# 9f880da1bd074a17a503f3fa65e66260
+#: ../../source/chapters/user_interface.rst:787
 msgid "It is basically the same as Mixxx mode but the buttons are more flashy like a Pioneer CDJ player."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:787
-# 8656ed951e374f8e83ad59688037b375
+#: ../../source/chapters/user_interface.rst:789
 msgid "The Play/Pause button flashes once per second when a track is paused."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:788
-# f2b94662bcab41c0a1e01fd20ec1ae7a
+#: ../../source/chapters/user_interface.rst:790
 msgid "The Cue button flashes twice a second when the next push will move the Cue point."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:790
-# 479a09f2ae2449628f7af490c1d9292a
+#: ../../source/chapters/user_interface.rst:792
 msgid "**Denon mode**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:792
-# 2c4a2fc2dcdd4496a91d405fb522afdc
+#: ../../source/chapters/user_interface.rst:794
 msgid "**After track load:** Track is paused."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:793
-# 414bdd43b3804db2828ce4d3b159857b
+#: ../../source/chapters/user_interface.rst:795
 msgid "**While paused at Cue point (Cue button lit)**:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:795
-# a9189f8580d64573a8e5adb860245585
+#: ../../source/chapters/user_interface.rst:797
 msgid "Holding down the Cue button plays the track from the Cue point, as long as the button is pressed. After releasing the Cue button, the track jumps back to Cue point and pauses again. Continue playback by pressing the Play/Pause button before releasing the Cue button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:799
-# 5fc8767ff7c14dd882a1f849e4eb34c2
+#: ../../source/chapters/user_interface.rst:801
 msgid "Tapping the Play/Pause button starts the track at the current position."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:801
-# 719256b8aeae4e0d8c48e9b29179d32a
+#: ../../source/chapters/user_interface.rst:803
 msgid "**While paused not at Cue point (Play button flashing)**:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:803
-# fc0dbec56589468380217a4637c2ee8b
+#: ../../source/chapters/user_interface.rst:805
 msgid "Tapping the Cue button moves the track back to Cue point."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:804
-# 0fe0a1ea6a9a47708aac0abdc7479f73
+#: ../../source/chapters/user_interface.rst:806
 msgid "Tab the Play/Pause button to start playing. The Cue point moves to the position where the track was started."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:807
-# 6a4aaeb1daf046c3b6b83e9a08cd5b0b
+#: ../../source/chapters/user_interface.rst:809
 msgid "**While playing**:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:809
-# 628fe2303c1f414b903502d9e45cad9c
+#: ../../source/chapters/user_interface.rst:811
 msgid "Tapping the Cue button causes the track to instantly jump to the location of the cue point where it pauses the playback."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:813
-# e5a18b3d932a4935853b2a3bfede572f
+#: ../../source/chapters/user_interface.rst:815
 msgid "**Numark mode**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:815
-# 08a1cd20ef9c4e5b91494ee9bc465470
+#: ../../source/chapters/user_interface.rst:817
 msgid "It is basically the same as Denon mode but without a flashing Play/Pause button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:817
-# fe24f23f85e34d35bdb48f855b6f0e2f
+#: ../../source/chapters/user_interface.rst:819
 msgid "This mode is useful if you want to implement a custom skin with 3-button decks, featuring a Cue button, a dedicated Pause button, and a Play/Stutter button."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:820
-# ee76a195cc5949529f117d52a1ca0420
+#: ../../source/chapters/user_interface.rst:822
 msgid "Use the :ref:`interface-hotcues` to place more reference points on a track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:823
-# 0161d5ae36db4873a7f35b95a6dd060e
+#: ../../source/chapters/user_interface.rst:825
 msgid "You can also use keyboard shortcuts for Cueing. Go to :ref:`control-keyboard` for more information."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:829
-# 56d7d0c868df46d5a5b636c8ca13364f
-msgid "Effects Controls"
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:838
-# e50b035602c84b51a338661f5a33089b
-msgid "The effect control section of the mixer"
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:840
-# e33e046aab6c4177b1cb29e1d6e73b56
-msgid "Currently, the only available internal effect in Mixxx is a :term:`flanger`. This effect applies a “sweeping” sound to the channel and can add extra depth to a mix when used tactfully."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:846
-# 9200e490cfdf48a88c2f887ae26fc75f
-msgid "**FX Button**"
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:845
-# fa773e1ac65a46858bef89f8d9057aa0
-msgid "The FX (“Effects”) button enables a built-in flanger effect on the selected channel."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:849
-# a3e480a884624c01b20fa4f51a6be538
-msgid "**Delay/Depth/LFO Knobs**"
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:849
-# b7a59339d76c4c998d9b97aadbd1416b
-msgid "Adjusts the phase delay, intensity and the wavelength of the flange effect."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:851
-# 788e9db28d044eae9ac9689b7c213f81
-msgid "For the most noticeable effect, enable the FX button and turn the Depth knob completely to the right."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:854
-# b432078daa9f43e8a7d9b011ebbd0e66
-msgid "As an advanced user, you can route your audio signal to external software and then apply additional effects. Go to :ref:`advanced-external-fx` for more information."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:861
-# 06382acc266a42eea9c8e74415a80b8a
+#: ../../source/chapters/user_interface.rst:831
 msgid "The Sampler Section"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:870
-# d8f12405bdb54383a1c0467bdcf05fcf
+#: ../../source/chapters/user_interface.rst:840
 msgid "A sample deck"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:872
-# 3f41aff15caf4730b3a8cc99271afaf9
+#: ../../source/chapters/user_interface.rst:842
 msgid "Samplers are miniature decks. They allow you to play short samples and jingles but also additional tracks in your mix. They come with a small overview waveform and a limited number of controls. All controls work just like on the regular decks, see :ref:`interface-decks`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:877
-# 9177484ae1624de38517157a7774081e
+#: ../../source/chapters/user_interface.rst:847
 msgid "The Sampler section is **hidden** in the default :ref:`Mixxx user interface <interface-overview>`. Click the :ref:`SAMPLER <interface-expansion-buttons>` button in the mixer section, or use the specific :ref:`appendix-shortcuts` to show or hide the section."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:883
-# 9f023244d2584698a0bf60e5150f89ca
+#: ../../source/chapters/user_interface.rst:853
 msgid "Waveform Display"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:886
-# 07de84adb87b498bb9d6b356785d5c56
+#: ../../source/chapters/user_interface.rst:856
 msgid "The waveform shows the various markers within the track as well as the waveform envelope of the entire track. Clicking somewhere on the waveform allows you to jump to an arbitrary position in the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:891
-# 05d82a9066934e19bab14538b68c3206
+#: ../../source/chapters/user_interface.rst:861
 msgid "While mixing, some additional markers can appear on the waveforms:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:893
-# ca0d3861e5784c3e9b32c654d85af7cd
+#: ../../source/chapters/user_interface.rst:863
 msgid "**Position marker**: A vertical line indicates the playback point of the sample deck."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:903
-# 2960366292aa40df929687e4eae85c9c
+#: ../../source/chapters/user_interface.rst:873
 msgid "**Track Artist/Title**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:902
-# f6c6a663e51f4698b4d3b5ce6afc0885
+#: ../../source/chapters/user_interface.rst:872
 msgid "The artist and title of the track that was loaded into a sampler deck is displayed here."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:906
-# 23847be35fc341e9a6184dabd05a039c
+#: ../../source/chapters/user_interface.rst:876
 msgid "The number at the top right is the effective :term:`BPM` of the track. Tap the BPM to set the BPM to the speed you are tapping."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:911
-# b74f5eeb59714603a69ccbc74cc061e4
+#: ../../source/chapters/user_interface.rst:881
 msgid "The buttons grid next to the waveform overview allow you to configure the sampler deck. Starting from the top-left and moving counterclockwise the buttons are as follows:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:920
-# 17829018d5ba4383a43240bf33e34a98
+#: ../../source/chapters/user_interface.rst:890
 msgid "Clicking this button ejects the track from the deck."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:923
-#: ../../source/chapters/user_interface.rst:1010
-# b8565f6b0da74ca0b1a4d0a2ce83ae36
-# 1e6c036f7a064e5c8704b030da60cb33
+#: ../../source/chapters/user_interface.rst:893
+#: ../../source/chapters/user_interface.rst:1035
 msgid "**Mix Orientation Toggle**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:923
-# fa10a086cbfa42af812250e3099fe69d
+#: ../../source/chapters/user_interface.rst:893
 msgid "This control determines the microphone input's mix orientation."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:926
-# cda342e65ca8401d9a6d651aca804507
+#: ../../source/chapters/user_interface.rst:896
 msgid ":term:`Keylock <key lock>` locks the track's pitch so that adjustments to its tempo via the rate slider do not affect its pitch."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:930
-# f3de89b565fa418d9d3853121ab4516d
+#: ../../source/chapters/user_interface.rst:900
 msgid "Sample Deck Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:934
-# de176ae45fae4fafbbea5a5ea30c1625
+#: ../../source/chapters/user_interface.rst:906
 msgid "**Play/Pause button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:933
-# 64d315ff2e4e42d0b9a805fcc4b7a0bb
-msgid "Clicking the button starts and stops playback. Right-clicking on the button will seek the play position to the beginning of the sample."
+#: ../../source/chapters/user_interface.rst:903
+msgid "Clicking the button always starts playback from the :term:`cue point <cue>`. If playback is already enabled the play position will jump back to the :term:`cue point <cue>`. Right-clicking on the button will stop playback and seek the play position to the beginning of the sample."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:937
-# 2ddc3bafd2aa4a698f4720802ab61be4
+#: ../../source/chapters/user_interface.rst:909
 msgid "**Sync Button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:937
-# 5aae80fe9c604b34a24eb173225eff01
+#: ../../source/chapters/user_interface.rst:909
 msgid "Syncs the Sampler deck to a regular deck, as described in :ref:`interface-rate`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:939
-# bba5a0811e824d71bd8653b594007f6c
+#: ../../source/chapters/user_interface.rst:911
 msgid "**Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM` and :term:`phase` of the track matches the sync target."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:941
-# 26f0c1dfc8274549a7443b82d1884d07
+#: ../../source/chapters/user_interface.rst:913
 msgid "**Right-Click**: Only changes the :term:`rate` of the track to match the sync target but does not adjust the :term:`phase`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:946
-# 6826eb3d4cf14f84b7402354ca09278f
+#: ../../source/chapters/user_interface.rst:918
 msgid "**Hotcue Controls**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:945
-# 0b2183949bd54f4e8fd427ec0ed25089
+#: ../../source/chapters/user_interface.rst:917
 msgid "To jump in between different parts of a sample, you can use these numbered hotcue buttons."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:950
-# ff0978126130421294ee55e7aed0762a
+#: ../../source/chapters/user_interface.rst:922
 msgid "**PFL/Headphone Button**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:949
-# b1029a2c91b7423abb11dc8ef489e5b6
+#: ../../source/chapters/user_interface.rst:921
 msgid "If active, the :term:`pre-fader listen or PFL <PFL>` button allows you to listen to the track in your headphones."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:953
-# bc4fb607c39e4089a8abea03197c54a6
+#: ../../source/chapters/user_interface.rst:925
 msgid "Allows you to adjust the volume of the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:956
-# c98f47646f204fa59e105dcfcc7168f0
+#: ../../source/chapters/user_interface.rst:928
 msgid "**VU Meter**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:956
-# 79331d5e925746908bf0673580571c8d
+#: ../../source/chapters/user_interface.rst:928
 msgid "Shows the level of the signal and can be adjusted with the Gain knob."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:959
-# fa0a36bd011b40558e594b9e4ddf6748
+#: ../../source/chapters/user_interface.rst:931
 msgid "The slider allows you to change the speed of the sample. Right-clicking on the slider will reset the tempo to its original value."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:965
-# 71a584af44644a1dab67311b90c13274
-msgid "The Microphone Section"
+#: ../../source/chapters/user_interface.rst:937
+msgid "The Effects Section"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:977
-# 9cdae120f49c447eb214fad03d424f76
-msgid "The Microphone section"
+#: ../../source/chapters/user_interface.rst:948
+msgid "A Effect Chain"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:950
+msgid "Effect chains allow you to apply various effects to your mix. You can either add the effects to the master-output or individually for each deck."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:953
+msgid "The Effects section is **hidden** in the default :ref:`Mixxx user interface <interface-overview>` to save room on small screens. Click the :ref:`EFFECTS <interface-expansion-buttons>` button in the mixer section, or use the specific :ref:`appendix-shortcuts` to show or hide the section."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:958
+msgid "As an advanced user, you can route your audio signal to external software and then apply additional effects. Go to :ref:`advanced-external-fx` for more information."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:963
+msgid "General Effects Controls"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:966
+msgid "**Eject Effect Button**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:966
+msgid "Eject the currently loaded effect."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:969
+msgid "**Effect on/off Button**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:969
+msgid "Turn the effect on or off."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:972
+msgid "**Select Buttons**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:972
+msgid "Select an effect."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:975
+msgid "**Mix Knob**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:975
+msgid "Allows to decide how **strong** the effect should be."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:979
-# 9002ae7b4f954d4888af6ebaaf6c5556
-msgid "The microphone section is **hidden** in the default :ref:`Mixxx user interface <interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>` button in the mixer section, or use the specific :ref:`appendix-shortcuts` to show or hide the section."
+msgid "**Channel Buttons**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:978
+msgid "Select if the effect should be applied to master/pfl or different decks. The buttons will light up if the effect is applied to a specific deck."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:982
+msgid "Specific Effect Controls"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:984
-# 959e01ae6cad443fa51a99613d9de7dd
-msgid "**Setup the microphone**"
+msgid "Each effect provides it's own set of controls, see the :ref:`Use Effects <djing-with-effects>` section for more information."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:986
-# 9f1e43f0bc85471e8f74ba63c4fd5e68
-msgid "Microphone can accept stereo or mono input now."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:989
-# 27a1152fd9db4d49a7110a18ab36b35b
-msgid "Most computers have built-in microphones, while some are connected through USB. These work adequately, but don't expect them to be high-quality."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:991
-# 0bf45e3df8fd47e3bf22d3239c10e5eb
-msgid "The best solution is to connect a good external microphone to the “Mic” or “Line” input on your audio device. If available, use the “Gain” knob on the device to adjust the input signal."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:994
-# 068883353afb4c8ba8ec88ea640b800c
-msgid "Select the microphone input in :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and click :guilabel:`Apply`."
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:999
-# c4dcea90dde747559be57d49c8374259
-msgid "Microphone Controls"
-msgstr ""
-
-#: ../../source/chapters/user_interface.rst:1005
-# dbef831531a74172b1f2eccb68066f54
-msgid "**Talk Button**"
+#: ../../source/chapters/user_interface.rst:990
+msgid "The Microphone Section"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:1002
-# 250de15b3f0849e3aba9905b4063ade4
-msgid "Hold this button and talk to mix the microphone input into the Mixxx master output. Short click on the button for latching. This is handy for talking for an extended period, for example when :ref:`streaming <live-broadcasting>` a radio show. When in Latch mode, click again to mute the microphone input."
+msgid "The Microphone section"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1008
-# 827ec8ebcf9a428e866714a7f3d6a10f
-msgid "This control determines the microphone input's mix orientation. Either to the left side of crossfader, to the right side or to the center (default). Clicking cycles through all the options."
+#: ../../source/chapters/user_interface.rst:1004
+msgid "The microphone section is **hidden** in the default :ref:`Mixxx user interface <interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>` button in the mixer section, or use the specific :ref:`appendix-shortcuts` to show or hide the section."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1013
-# ad1a9b218a41479aa93be899777bab14
-msgid "**Microphone Volume Meter**"
+#: ../../source/chapters/user_interface.rst:1009
+msgid "**Setup the microphone**"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1013
-# a7ed36806a514e758a5773f460ca508d
-msgid "This displays the microphone volume input signal strength."
+#: ../../source/chapters/user_interface.rst:1011
+msgid "Microphone can accept stereo or mono input now."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1017
-# 1d9cd0911f734b4b8ac5390ea495ad93
-msgid "**Microphone Gain Knob**"
+#: ../../source/chapters/user_interface.rst:1014
+msgid "Most computers have built-in microphones, while some are connected through USB. These work adequately, but don't expect them to be high-quality."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:1016
-# 400cbf62da704fd8a3a0f5663b9486c8
-msgid "Use this knob to adjust the gain of the microphone output. Try to keep the volume at a reasonable level to avoid signal clipping."
+msgid "The best solution is to connect a good external microphone to the “Mic” or “Line” input on your audio device. If available, use the “Gain” knob on the device to adjust the input signal."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1022
-# 534fd536a6ad4bbc9cd9db5f07a5cb0c
-msgid "Preview Deck Section"
+#: ../../source/chapters/user_interface.rst:1019
+msgid "Select the microphone input in :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and click :guilabel:`Apply`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1034
-# 2484beccfc5448799c4d4ca44a571a83
-msgid "The Preview Deck with a track loaded"
+#: ../../source/chapters/user_interface.rst:1024
+msgid "Microphone Controls"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1036
-# 1d3082c80f044414a077d19680d50689
-msgid "The Preview Deck is a special deck that allows you to pre-listen to tracks in the headphones before using them in your mix. Pre-listening a track does not change the tracks's :guilabel:`Played` state as well as the play counter and is not logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac) to display the Preview Deck."
+#: ../../source/chapters/user_interface.rst:1030
+msgid "**Talk Button**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1027
+msgid "Hold this button and talk to mix the microphone input into the Mixxx master output. Short click on the button for latching. This is handy for talking for an extended period, for example when :ref:`streaming <live-broadcasting>` a radio show. When in Latch mode, click again to mute the microphone input."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1033
+msgid "This control determines the microphone input's mix orientation. Either to the left side of crossfader, to the right side or to the center (default). Clicking cycles through all the options."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1038
+msgid "**Microphone Volume Meter**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1038
+msgid "This displays the microphone volume input signal strength."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:1042
-# 196b8661e815417791734c4857d430c5
+msgid "**Microphone Gain Knob**"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1041
+msgid "Use this knob to adjust the gain of the microphone output. Try to keep the volume at a reasonable level to avoid signal clipping."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1047
+msgid "Preview Deck Section"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1059
+msgid "The Preview Deck with a track loaded"
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1061
+msgid "The Preview Deck is a special deck that allows you to pre-listen to tracks in the headphones before using them in your mix. Pre-listening a track does not change the tracks's :guilabel:`Played` state as well as the play counter and is not logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac) to display the Preview Deck."
+msgstr ""
+
+#: ../../source/chapters/user_interface.rst:1067
 msgid "The features in detail:"
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1044
-# 0deafb01afc341e7a6cd74e243191ce0
+#: ../../source/chapters/user_interface.rst:1069
 msgid "**Track Artist/Title**: The artist and title of the track is displayed here. This is the same listed under the :guilabel:`Track` and :guilabel:`Title` column in the Mixxx library. This information is initially loaded from the track's :term:`metadata`."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1049
-# 1e450b2af8ac4684a2c545bc46395378
+#: ../../source/chapters/user_interface.rst:1074
 msgid "**Eject Track**: Clicking this button ejects the track from the deck."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1052
-# 747c3d9858934c8b961c60bf6343c3b7
+#: ../../source/chapters/user_interface.rst:1077
 msgid "**Waveform overview**: Shows the various markers (Cues, Hotcues) within the track as well as the waveform envelope of the entire track. Clicking somewhere on the waveform allows you to jump to an arbitrary position in the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1057
-# fa8b60b8616140d296f9c10fa2fb1c9d
+#: ../../source/chapters/user_interface.rst:1082
 msgid "**Gain**: Move the slider to adjust the gain of the track."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1060
-# 054aa5ca257c4801b8cc931d24b1d2b4
+#: ../../source/chapters/user_interface.rst:1085
 msgid "**VU-Meter**: Shows the current volume of the track. If it's too loud and distorted, a peak indicator flashes red."
 msgstr ""
 
-#: ../../source/chapters/user_interface.rst:1064
-# 4ac3bc6cf6e5451db2cb99235e962e5d
+#: ../../source/chapters/user_interface.rst:1089
 msgid "For more information, go to the chapter :ref:`djing-previewing-tracks`."
 msgstr ""
 

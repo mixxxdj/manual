@@ -6,10 +6,15 @@
 Mixxx |version| User Manual
 ***************************
 
-Mixxx is Free [#f1]_ DJ software for Windows, Mac OS X, and Linux. **Mixxx gives
-you everything you need to become a professional DJ** (except talent and hard
-work). Using Mixxx, you can rock the party with your vinyl turntables, your
-:term:`MIDI`/:term:`HID` controllers, or even just your keyboard.
+Mixxx is free [#f1]_ DJ software for Windows, Mac OS X and Linux.
+It's easy to use so you can start mixing your favourite songs in
+no time, even if you've never DJed before. Mixxx offers a variety of
+features for experienced DJs and beginners alike, such as automatic
+beat and key detection, master sync, hotcues, looping, 4 decks,
+effects and many more.
+You can perform with Mixxx using :term:`MIDI` and :term:`HID`
+controllers, CD players, vinyl turntables or even just your
+computer's keyboard and mouse.
 
 Table of Contents
 -----------------
@@ -47,4 +52,4 @@ Table of Contents
 
 .. [#f1] Yes, free with a capital F free. Free as in beer and free as in speech.
          For more information about what this means, see
-         `Wikipedia <http://en.wikipedia.org/wiki/Open-source_software>`_.
+         `Wikipedia <https://en.wikipedia.org/wiki/Open-source_software>`_.

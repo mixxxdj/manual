@@ -58,7 +58,7 @@ Track Information Display
 
 .. versionadded::  1.12
    Parse the title and the artist from the file name when the corresponding
-   :term:`metadata` are missing.
+   :term:`metadata` is missing.
 
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
@@ -197,8 +197,8 @@ Deck Options Button Grid
    The Options Button Grid of the deck
 
 The six buttons at the bottom right below the waveform allow you to configure
-the deck. Starting from the top-left and moving counterclockwise the buttons
-are as follows:
+the deck. Starting from the top-left and moving clockwise the buttons are as
+follows:
 
 **Show/Hide Vinyl Widget**
   Toggles the visibility of the Vinyl Widget in the :ref:`interface-waveform`.
@@ -303,17 +303,19 @@ control rate changes also from your computer's keyboard, see the chapter
 * **Right-Click**: Only changes the :term:`rate` of the track to match the other
   deck but does not adjust the :term:`phase`.
 
-Decks and samplers now pick which sync target to sync to on the fly. Decks
-can't sync to samplers and samplers can only sync to decks. The sync target is:
+Decks and samplers now pick which sync target to sync to on the fly. Decks can't
+sync to samplers and samplers can only sync to decks. The sync target for
+samplers is:
 
 * The first (in numerical order) deck that is playing (rate > 0) a track that
   has a detected beatgrid.
 * The first (in numerical order) deck that has a track loaded with a detected
   beatgrid (could be stopped).
 
-  So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
-  track with a beatgrid then deck 1 will win since numerically it is first. This
-  will change again in the future once Mixxx gets a proper master sync feature.
+So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
+track with a beatgrid then deck 1 will win since numerically it is first. The
+sync targets for decks are chosen with the new master sync feature, see
+:ref:`master-sync` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -528,22 +530,23 @@ The Mixer Section
 The mixer section of the :ref:`Mixxx user interface <interface-overview>` allows
 you to control how the different decks and samplers are mixed together.
 
-.. _interface-vu-meter:
+.. _interface-level-meter:
 
-Channel Faders and VU Meters
-----------------------------
+Channel Faders and Level Meters
+-------------------------------
 
-**VU meters**
-  In the center of the mixer section are 4 :term:`VU meters <vu meter>`. The
-  two outer-most VU meters are for each deck, while the 2 inner-most VU meters
-  are the left and right VU meters for the master output.
-
-  The light at the top of the VU meter indicates when the audio in the selected
-  channel is clipping. If this light goes on, reduce the gain or EQs for this
-  deck to eliminate distortion.
+**Level meters**
+  In the center of the mixer section are 4 :term:`level meters <level meter>`. The
+  two outer-most level meters are for each deck, while the 2 inner-most level
+  meters are the left and right level meters for the master output. These should
+  stay at the top of the green region, with the loudest parts of the music
+  (transients) briefly going into the yellow region. They should never be in
+  the red region. Refer to
+  :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+  for more details.
 
 **Line faders**
-  The two large faders on either side of the VU meters are the deck volume
+  The two large faders on either side of the level meters are the deck volume
   faders, also known as Channel- or Line-faders. Adjusting these controls the
   volume of each deck.
 
@@ -564,7 +567,7 @@ Section Expansion Buttons
 
    The section expansion buttons
 
-Above the VU meters in the mixer are the optional section expansion buttons.
+Above the level meters in the mixer are the optional section expansion buttons.
 
 If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
 :guilabel:`VINYL` then you will enable control sections for interacting with:
@@ -595,7 +598,7 @@ Headphone and Master Mix Controls
    Headphone split cue option
 
 **Head-Mix Knob**
-  Allows you to customize how much of the master output you hear in your
+  Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
   Cueing signal. If the knob is set to the left, you only hear the cueing signal
   which can be useful for prelistening tracks.
@@ -603,29 +606,56 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head volume Knob**
-  This button adjusts your headphone volume. You can adjust the volume of a
-  single deck's signal you are listening to in the headphones with the
-  :ref:`Gain <interface-eq-gain>` knob.
-
 **Head-Split Button**
-  If activated, two mono signals are send to the headphone output instead of one
+  If activated, two mono signals are sent to the headphone output instead of one
   stereo signal. The master signal plays in the right channel, while the cueing
-  signal plays in the left channel. You can still adjust the head-mix so in the
-  left channel is not the pure cueing signal.
+  signal plays in the left channel. You can still adjust the
+  :guilabel:`Head-Mix Knob` to control the mix of the master and cue signals in
+  the left channel.
 
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
   the master output.
 
-**Volume Knob**
-  The Volume Knob controls the overall volume of the master output. Adjust
-  this knob so that the :ref:`Master VU meters <interface-vu-meter>` are just
-  at the peak.
-
-  .. hint:: If the Peak indicator on top of the Master VU meter flashes, the
-            master output signal is clipping (too loud). Lower the volume with
-            using the volume knob.
+.. _interface-gain-knob:
+  
+**Gain Knob**
+  The Gain Knob controls the gain applied to the Master output signal that
+  Mixxx sends to your sound card, Internet broadcasting servers, and recorded
+  mixes. Generally, this knob should not be adjusted. To change the output
+  volume, a gain control should be adjusted as close to the speakers as possible
+  for the best signal-to-noise ratio throughout your signal chain. Ideally, the
+  volume would only be adjusted by adjusting the gain on the power amplifier.
+  On active speakers, including computer speakers, studio monitors, and PA
+  systems that do not require a separate amplifier, this means adjusting the
+  gain on the speakers (which may be labeled "Volume").
+  
+  As a DJ, you may not have access to the power amplifier. In that case,
+  adjust the volume by adjusting the gain on the equipment closest to the power
+  amplifier that you have access to. Typically, this is a DJ mixer. If you are
+  not going through a mixer, adjust the gain of your sound card. If your sound
+  card does not have any controls on it (for example, for sound cards built into
+  computers), adjust the sound card settings with your :term:`OS <operating system>`
+  mixer program. The Master Gain Knob in Mixxx should be a last resort for
+  adjusting volume.
+  
+  .. warning:: **In no case should any part of the signal chain be clipping,
+               indicated by a level meter going into its red region
+               or an LED labeled "clipping" turning on.**
+  
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
+  
+**Head Gain Knob**
+  This knob controls the gain applied to the headphone output signal that Mixxx
+  sends to your sound card. Generally, this knob should not be adjusted. To
+  adjust the volume in your headphones, adjust your sound card's gain on the
+  headphone output. Most external sound cards have a gain knob specifically for
+  the headphone jack. If you use an onboard sound card for your headphones,
+  adjust the gain control in your :term:`OS <operating system>` mixer program.
+  If your sound card only has one gain knob that controls both the main output
+  and the headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx
+  to control the volume of your headphones without affecting your main output.
 
 .. _interface-pfl:
 
@@ -642,12 +672,23 @@ PFL/Headphone Button
    The headphone buttons of both decks in the mixer
 
 The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>`
-button. Pressing this button allows you to listen and synchronize the track you
-will play next in your headphones before your audience hears the track
-(headphone cueing). You can select more than one PFL button simultaneously.
+button and allows you to use headphone cueing. That is, it allows you to hear
+the track you will play next in your headphones before your audience hears it.
+This helps you plan when to start the next track and manipulate it to
+make it blend better with the currently playing track (for example, by
+synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button plays
+the track on the headphone output at full volume regardless of the position of the crossfader or the 
+deck’s line fader. To play a track in your headphones but not have the 
+audience hear it, press the PFL button and move the crossfader all the 
+way to the opposite side of the deck or turn the deck’s volume fader all the 
+way down.
 
-.. seealso:: Headphone cueing is only available if you have configured a
-             Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+.. note:: Headphone cueing is only available if you have configured a
+          Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+
+.. note:: If you use an external hardware mixer, plug your headphones into that
+          rather than your sound card. Use the headphone buttons on the mixer
+          rather than the buttons in Mixxx.
 
 .. _interface-eq-gain:
 
@@ -664,15 +705,34 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain of the deck. In
-  general, you should adjust this knob so that at full-volume the deck's audio
-  is just at the peak of the center VU meters. This is so you can achieve the
-  widest dynamic range for your track.
+  Above these knobs, the gain knob allows you to adjust the gain applied to the deck. 
+  Use this to compensate for the differences in recording levels between tracks.
+  In general, you should adjust this knob so that the track's :term:`level meter`
+  stays around the top of the green region with the loudest parts of the track
+  (the transients) briefly going into the yellow region. **Do NOT turn the
+  Gain Knob up so much that the level meter is in the red region. At this point
+  the track is clipping, which sounds bad and could damage equipment.**
+  
+  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
+            tracks have approximately equal loudness at unity gain. Your tracks
+            must be :ref:`analyzed <library-analyze>` to take advantage of this
+            feature. When an unanalyzed track is loaded, Mixxx calculates its
+            ReplayGain value, but will not apply a newly calculated ReplayGain
+            value to a track after it has already started playing (to avoid a
+            sudden change in the gain of a playing track).
+            
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
   The low, mid, and high knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
+  
+  .. warning:: Be careful not to raise the EQs so much that the signal clips,
+               indicated by a :term:`level meter` being in the red region. See
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+               for a more detailed explanation.
 
 **Kill Switches**
   The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
@@ -823,38 +883,6 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 .. seealso:: You can also use keyboard shortcuts for Cueing. Go to
              :ref:`control-keyboard` for more information.
 
-.. _interface-fx:
-
-Effects Controls
-----------------
-
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
-
-   The effect control section of the mixer
-
-Currently, the only available internal effect in Mixxx is a :term:`flanger`.
-This effect applies a “sweeping” sound to the channel and can add extra depth
-to a mix when used tactfully.
-
-**FX Button**
-  The FX (“Effects”) button enables a built-in flanger effect on the selected
-  channel.
-
-**Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the wavelength of the flange effect.
-
-.. hint :: For the most noticeable effect, enable the FX button and turn the
-           Depth knob completely to the right.
-
-.. seealso :: As an advanced user, you can route your audio signal to external
-              software and then apply additional effects. Go to
-              :ref:`advanced-external-fx` for more information.
-
 .. _interface-sampler:
 
 The Sampler Section
@@ -930,8 +958,10 @@ Sample Deck Controls
 --------------------
 
 **Play/Pause button**
-  Clicking the button starts and stops playback. Right-clicking on the button
-  will seek the play position to the beginning of the sample.
+  Clicking the button always starts playback from the :term:`cue point <cue>`.
+  If playback is already enabled the play position will jump back to the
+  :term:`cue point <cue>`. Right-clicking on the button will stop playback and
+  seek the play position to the beginning of the sample.
 
 **Sync Button**
   Syncs the Sampler deck to a regular deck, as described in :ref:`interface-rate`.
@@ -950,14 +980,67 @@ Sample Deck Controls
   listen to the track in your headphones.
 
 **Gain Knob**
-  Allows you to adjust the volume of the track.
+  Allows you to adjust the gain applied to the track.
 
-**VU Meter**
+**Level Meter**
   Shows the level of the signal and can be adjusted with the Gain knob.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the sample. Right-clicking on the
   slider will reset the tempo to its original value.
+
+.. _interface-effects:
+
+The Effects Section
+===================
+
+.. versionadded:: 1.12
+
+.. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
+   :align: center
+   :width: 304px
+   :figwidth: 100%
+   :alt: A sample deck
+   :figclass: pretty-figures
+
+   A Effect Chain
+
+Effect chains allow you to apply various effects to your mix. You can either add
+the effects to the master-output or individually for each deck.
+
+The Effects section is **hidden** in the default :ref:`Mixxx user interface
+<interface-overview>` to save room on small screens. Click the :ref:`EFFECTS
+<interface-expansion-buttons>` button in the mixer section, or use the specific
+:ref:`appendix-shortcuts` to show or hide the section.
+
+.. seealso:: As an advanced user, you can route your audio signal to external
+             software and then apply additional effects. Go to
+             :ref:`advanced-external-fx` for more information.
+
+General Effects Controls
+-------------------------
+
+**Eject Effect Button**
+  Eject the currently loaded effect.
+
+**Effect on/off Button**
+  Turn the effect on or off.
+
+**Select Buttons**
+  Select an effect.
+
+**Mix Knob**
+  Allows to decide how **strong** the effect should be.
+
+**Channel Buttons**
+  Select if the effect should be applied to master/pfl or different decks. The
+  buttons will light up if the effect is applied to a specific deck.
+
+Specific Effect Controls
+-------------------------
+
+Each effect provides it's own set of controls, see the :ref:`Use Effects
+<djing-with-effects>` section for more information.
 
 .. _interface-mic:
 

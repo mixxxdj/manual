@@ -16,13 +16,13 @@ Mixxx Features
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-* **Dual Decks**: A scratchable, scrolling waveform marks beats and cue points
+* **4 Decks**: A scratchable, scrolling waveform marks beats and cue points
   of a track, along with a whole-song waveform overview for quick seeking.
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
 * **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.
-* **iTunes Integration**: Use your playlists and songs from iTunes, Traktor,
-  Rhythmbox, and Banshee.
+* **External Library Integration**: Use your playlists and songs from iTunes, 
+  Traktor, Rhythmbox, and Banshee.
 * **BPM Detection and Sync**: Instantly detect and sync the tempo of your songs.
 * **DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers.
 * **Timecode Support**: Use a real turntable or DJ-CD player as a controller.
@@ -40,25 +40,24 @@ New in Mixxx |version|
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-* 4 decks (including 4 vinyl control inputs if you want to use 4 turntables)
+* 4 decks
 * Master sync
-* Key detection and pitch shifting (independent of tempo) for harmonic mixing.
-* 4 effect units for built-in effects (this also introduces all the necessary
-  plumbing for LV2/VST, effect send/receive, and advanced chaining in a future
-  release)
-* Beatloop rolls (now you can create beatloops and automatically jump to where
-  the track would have been if you hadn't enabled the loop when you release it)
-* Resizable skins (yes, finally!)
-* Vinyl control deck passthrough (switch to real vinyl temporarily)
-* Auxiliary inputs that pass through to the master mix.
-* Custom key notations (pick between traditional, OpenKey, Lancelot notation or
-  a custom one)
+* Color-coded waveforms showing the frequencies in tracks
+* Key detection and pitch shifting (independent of tempo) for harmonic mixing
+* Choice of traditional, OpenKey, Lancelot, and custom key notations
+* 4 effect units with built-in effects
+* Controller mapping :term:`GUI`
+* Resizable skins
 * Beat jumping and loop move
 * Multiple library folders
-* Cover/Album Art Support
-* Mono output and input support (easily do the Master/Headphone trick on one
-  stereo output)
-* Along with over 100 performance, quality and usability improvements.
+* Hierarchical library sorting
+* Cover/album art support
+* Vinyl passthrough mode to switch between control vinyl and music 
+  vinyl
+* Auxiliary inputs that pass through to the master mix
+* Mono output and input support
+* Improved support for using multiple sound cards
+* Over 100 other performance, quality and usability improvements
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
@@ -78,7 +77,11 @@ minimum requirements for having a great experience with Mixxx:
 
 * A 2GHz or faster CPU
 * At least 1GB of RAM
-* A soundcard with 2 stereo audio outputs
+* A soundcard with 2 stereo audio outputs (4 mono output channels)
+
+.. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx 
+         can be used with an external mixer and a less powerful computer such 
+         as a netbook.
 
 About the Mixxx Project
 =======================
@@ -112,7 +115,7 @@ Mixxx grow to become the most popular free DJ software in the world, receiving
 over 1,000,000 downloads annually. Our committed team has worked hard to create
 great DJ software, and this growth is a sign of our success.
 
-In 2011, RJ Ryan took over as Lead Developer to successfully continue the teams
+In 2011, RJ Ryan took over as Lead Developer to successfully continue the team's
 endeavor to make Mixxx a world-class DJ software.
 
 As our user community grows, so does our development team - Over 150 developers,
@@ -146,7 +149,7 @@ Through the manual you'll find text formatted like this:
   This is used to mark a keystroke, or a sequence of keystrokes. In this
   example, you would have to hold down the *STRG* key, then to press *G*.
 
-* `<http://www.wikipedia.org/>`_
+* `<https://www.wikipedia.org//>`_
 
   Links to external websites are marked like this.
 
@@ -195,9 +198,10 @@ There are a variety of other resources you can use to find out more.
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the
-  `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first.
+  to: `<https://www.transifex.com/organization/mixxx-dj-software/>`_ . Please
+  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
+  first.
 
-* **Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ ,
+* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
   `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ .
+  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .

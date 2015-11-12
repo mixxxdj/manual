@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,72 +17,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/_templates/layout.html:30
-# cd48cd2f6f514ee08a1f2bce04b3f089
 msgid "Navigation"
 msgstr ""
 
 #: ../../source/_templates/layout.html:130
-# 50a410146faa4118848c1d3d5ef31613
 msgid "Search within %(docstitle)s"
 msgstr ""
 
 #: ../../source/_templates/layout.html:139
-# c836c3550ea74002a0cf37df4ef53385
 msgid "About these documents"
 msgstr ""
 
 #: ../../source/_templates/layout.html:142
-# e8867526a9844f9f82611b0fc9b0d5ce
 msgid "Index"
 msgstr ""
 
 #: ../../source/_templates/layout.html:145
-# 07d464c1f95c48dd8b494c9c63320bf2
 msgid "Search"
 msgstr ""
 
 #: ../../source/_templates/layout.html:148
-# a854671b5bf64ceda942e5f3dd54039c
 msgid "Copyright"
 msgstr ""
 
 #: ../../source/_templates/layout.html:197
-# 9c9151ca35b740759dd838c778ebd3ed
 msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:199
-# 692cc19faea840cb9fb7ed6071674ddb
 msgid "&copy; Copyright %(copyright)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:203
-# 19414c63e6384cdcb8d90f65ba53fc4f
 msgid "Last updated on %(last_updated)s."
 msgstr ""
 
 #: ../../source/_templates/layout.html:206
-# b749019f9e224b509845be891f5689ed
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:12
-# 72e52fbe072b4394a789abc51eef4b6e
 msgid "Quick search"
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:15
-# cab2f162578e4b66af565e1b3771a755
 msgid "Go"
 msgstr ""
 
 #: ../../source/_templates/searchbox.html:20
-# 13e914fb6fd749e78e76950e6af39704
 msgid "Looking for something?"
 msgstr ""
 
 #: ../../source/_templates/localtoc.html:11
-# 73eb3b2ce8d84b63bf05a776e214b83e
 msgid "In This Section"
 msgstr ""
 

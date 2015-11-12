@@ -91,30 +91,23 @@ Glossary of Terms
      Short for for Musical Instrument Digital Interface. A digital
      communications language and hardware specification enabling compatible
      electronic instruments, sequencers, computers, etc., to communicate with
-     each other in a network.
+     each other in a network. Most DJ :term:`controllers <controller>` use MIDI
+     to communicate with computers.
 
    HID
      Short for for Human Interface Device, a part of the USB specification. It
      specifies a device class (a type of computer hardware) for human interface
-     devices such as keyboards, mice and game controllers.
+     devices such as keyboards, mice, game controllers, and some DJ
+     :term:`controllers <controller>`.
 
-   MIDI controller
-     An external hardware device that generates and transmits :term:`MIDI` data
-     to MIDI-enabled hardware or software (e.g. Mixxx). Usually connected to
-     your computer via USB, MIDI controllers allow you to control audio
-     applications among others. Many DJs prefer to control DJ software using
-     physical knobs, faders, and wheels instead of using a computer keyboard.
-
-   HID controller
-     An external hardware device that generates and transmits :term:`HID` data
-     to HID-enabled hardware or software (e.g. Mixxx). Connected to your
-     computer via USB, HID controllers allow you to control audio applications
-     among others. Many DJs prefer to control DJ software using physical knobs,
-     faders, and wheels instead of using a computer keyboard.  Besides the known
-     DJ controllers also keyboards, mice and game controllers are some of the
-     most popular HID devices. Compared to :term:`MIDI` it also allows use of
-     advanced features such as those found on modern :term:`CDJs <CDJ>`,
-     e.g. display screens and high-resolution jogwheels.
+   controller
+     An external hardware device that generates and transmits signals to a
+     computer, usually via USB, to control software with physical controls
+     other than a mouse and keyboard. Controllers have many uses for music such
+     as controlling DJ programs like Mixxx. They typically send :term:`MIDI`
+     signals but some controllers use :term:`HID` signals. Many DJs prefer to
+     control DJ software using physical knobs, faders, and wheels on controllers
+     instead of using a computer keyboard and mouse.
 
    vinyl control
      A method of controlling DJ applications which simulates the traditional
@@ -180,10 +173,12 @@ Glossary of Terms
      i.e. treble, mid and bass. Useful for effects where the DJ drops a track
      out for a period or creates room for a transition.
 
-   vu meter
-     The volume unit (VU) meter is used to show the relative levels of audio
-     signals and is subdivided across channels. Basically it represents how
-     'loud' a sound from a channel is.
+   level meter
+     The level meter is used to show the average levels of audio
+     signals. The level should average around the top of the green region, with
+     the loudest parts of the music (the transients) briefly going into the
+     yellow region. If the level meter is in the red, the signal is clipping and
+     the gain should be turned down.
 
    balance
      A balance control on a mixer allows you to adjust the balance between the
@@ -195,7 +190,8 @@ Glossary of Terms
 
    volume
      A term that refers to the degree of sound intensity or audibility; loudness.
-     A volume control is used to adjust the output gain setting.
+     Volume is determined by people's perception and does not directly correspond
+     to any physical property of sound.
 
    reverse
      Reverse plays a track backwards.
@@ -381,7 +377,7 @@ Glossary of Terms
      the changes within the community. Open source sprouted in the technological
      community as a response to proprietary software owned by corporations. For
      more information, see `Wikipedia
-     <http://en.wikipedia.org/wiki/Open-source_software>`_.
+     <https://en.wikipedia.org/wiki/Open-source_software>`_.
 
    url
      Uniform Resource Locator. The address that defines the route to a file on
@@ -411,9 +407,8 @@ Glossary of Terms
    GUI
      Short for “Graphical User Interface” and is pronounced “gooey”. It refers
      to a user interface based on graphics (icons, pictures and menus) instead
-     of text. In Mixxx, it uses a mouse, keyboard, or
-     :term:`MIDI <MIDI controller>` / :term:`HID <HID controller>` controllers
-     as input devices.
+     of text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID`
+     :term:`controllers <controller>` as input devices.
 
    MusicBrainz
      A open-source music encyclopedia that collects music :term:`metadata` and
@@ -425,7 +420,7 @@ Glossary of Terms
      technology. It aims to create a free database of user-submitted audio
      fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata`
      database and provide a web service for audio file identification using this
-     database. For more information, see`<http://acoustid.org/>`_.
+     database. For more information, see`<https://acoustid.org/>`_.
 
 
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2014, The Mixxx Development Team
+# Copyright (C) 2011-2015, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-03 12:40+0200\n"
+"POT-Creation-Date: 2015-07-24 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,377 +17,306 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/chapters/introduction.rst:2
-# 82f227b1feb64814bdaf538a39dc231c
 msgid "Introduction to Mixxx"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:4
-# cec665fb980142448cd29035290b77c2
 msgid "Mixxx allows you to perform live DJ mixes with your digital music collection. It helps you rock the party with MIDI controllers, vinyl turntables, or even just your keyboard."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:8
-# 18496562638347d9a8a69d0a9a91cf7b
 msgid "Mixxx is used by professional DJs and bedroom DJs alike. It is designed by an international team of volunteer DJs who want to bring the joy of DJing to everyone. The project is non-profit, open-source and community driven. Together and with your help we aim to build the best DJ software ever created."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:14
-# f3e58159b27d47c8b13d6d42709c38b0
 msgid "Mixxx Features"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:19
-# 9286116c0c644102b9769966b8be373d
-msgid "**Dual Decks**: A scratchable, scrolling waveform marks beats and cue points of a track, along with a whole-song waveform overview for quick seeking."
+msgid "**4 Decks**: A scratchable, scrolling waveform marks beats and cue points of a track, along with a whole-song waveform overview for quick seeking."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:21
-# 152c2087b5434971a0afd08fb820d0b0
 msgid "**Advanced Controls**: Change playback with time stretching, and loop beat segments."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:23
-# fc18d1d7e3914ab0b1ee5f8453ae4fd2
 msgid "**Sampler Decks**: Perfect for dropping that vocal sample or airhorn."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:24
-# cf2351404d4a4b67bdfaa89500cc6dd6
 msgid "**iTunes Integration**: Use your playlists and songs from iTunes, Traktor, Rhythmbox, and Banshee."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:26
-# f50f6179518a4a76bf35437f05233416
 msgid "**BPM Detection and Sync**: Instantly detect and sync the tempo of your songs."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:27
-# 58a00f885bb542f39783ccad3256fc51
 msgid "**DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:28
-# d6d8dc0498624ed1b677159a0669f905
 msgid "**Timecode Support**: Use a real turntable or DJ-CD player as a controller."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:29
-# 403914d84ca3443c9a1a2e6ad0feb352
 msgid "**Live Broadcasting**: Start a radio station and stream your mixes live over the Internet."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:31
-# 5750c2551b1e43b48f89c4e2fd768364
 msgid "**Powerful Mixing Engine**: Supports various file formats, custom EQ shelves, recording, etc."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:33
-# 08f9b48d6d4d49dda10d765300cb9b69
 msgid "**Automatic Mixing**: Create a quick playlist and let Auto DJ take over."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:34
-# 01c3937f3d60407d9ca28b1e581fca19
 msgid "**Microphone Input**: Drop vocals or give shoutouts on the air."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:37
-# 0c7a53ddd70949019179810d15cc0ce4
 msgid "New in Mixxx |version|"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:43
-# 28cb50e7828145a79840d0a4383e1a0f
 msgid "4 decks (including 4 vinyl control inputs if you want to use 4 turntables)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:44
-# 0ba0aed31d6146e799d4e897bb8950fc
 msgid "Master sync"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:45
-# b0db467116ae42ceb00ea7ddeea1067e
 msgid "Key detection and pitch shifting (independent of tempo) for harmonic mixing."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:46
-# 0d2ae87130f847b8be24a5ccae6c2e70
 msgid "4 effect units for built-in effects (this also introduces all the necessary plumbing for LV2/VST, effect send/receive, and advanced chaining in a future release)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:49
-# 2b160bb787694af9a855def59e51a6cc
 msgid "Beatloop rolls (now you can create beatloops and automatically jump to where the track would have been if you hadn't enabled the loop when you release it)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:51
-# 05651f7fc953458cad409fe6c2b3cf68
 msgid "Resizable skins (yes, finally!)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:52
-# 03611cda4c004d04885cdd17217f2011
 msgid "Vinyl control deck passthrough (switch to real vinyl temporarily)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:53
-# 15a10417d8e746ffafb2c92e8602e775
 msgid "Auxiliary inputs that pass through to the master mix."
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:54
-# 35a6ed0146704c179b13d9d31e5ad99e
 msgid "Custom key notations (pick between traditional, OpenKey, Lancelot notation or a custom one)"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:56
-# 76ddee5c2d174e3196df0ebba571e155
 msgid "Beat jumping and loop move"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:57
-# 3ea0ae154c804b76b9bdc3f2ceeaf3e9
 msgid "Multiple library folders"
 msgstr ""
 
 #: ../../source/chapters/introduction.rst:58
-# 27e48e3a5aaa466e8124d431ba73199a
+msgid "Cover/Album Art Support"
+msgstr ""
+
+#: ../../source/chapters/introduction.rst:59
 msgid "Mono output and input support (easily do the Master/Headphone trick on one stereo output)"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:60
-# 2b956baa82874ec68cf9b53309d07a23
+#: ../../source/chapters/introduction.rst:61
 msgid "Along with over 100 performance, quality and usability improvements."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:62
-# ac4bc3fc536648f2af4292d8a11e6656
+#: ../../source/chapters/introduction.rst:63
 msgid "For a full list of features go to: `<http://mixxx.org/features/>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:63
-# ae3bc9eed5814143875a5611028da783
+#: ../../source/chapters/introduction.rst:64
 msgid "For an overview of the new features, go to: `<http://mixxx.org/whats-new-in-mixxx-1-12>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:65
-# 515a68be1fd346f8bf276de984149ebf
+#: ../../source/chapters/introduction.rst:66
 msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:68
-# 0517b0efead6460d834e9242623b49f4
+#: ../../source/chapters/introduction.rst:69
 msgid "For an overview of previous changes, go to :ref:`appendix-version-history`."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:72
-# 6143e3e51d154a3dbce3e3d6799b9c47
+#: ../../source/chapters/introduction.rst:73
 msgid "System Requirements"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:74
-# 2e0ecac39fd94c0bb24c84b34f993761
+#: ../../source/chapters/introduction.rst:75
 msgid "Mixxx is available for Windows, Mac OS X and GNU/Linux. Mixxx is designed to use very few system resources, but the Mixxx Development Team suggests these minimum requirements for having a great experience with Mixxx:"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:78
-# d40f8db794934d4a90eca35b057276d9
+#: ../../source/chapters/introduction.rst:79
 msgid "A 2GHz or faster CPU"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:79
-# 31c80c207f4c4c85bab5dd0e4af34dae
+#: ../../source/chapters/introduction.rst:80
 msgid "At least 1GB of RAM"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:80
-# 25cff9d2e11b4b868d86d6405d25f226
+#: ../../source/chapters/introduction.rst:81
 msgid "A soundcard with 2 stereo audio outputs"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:83
-# a95075caddde4d5bae6f6637a62f9fda
+#: ../../source/chapters/introduction.rst:84
 msgid "About the Mixxx Project"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:85
-# 60b02fedb768414ebfb5e98695f27d84
+#: ../../source/chapters/introduction.rst:86
 msgid "Mixxx is designed by an international team of volunteer DJs who want to bring the joy of DJing to everyone. The project is non-profit, open-source and community driven. Together and with your help we aim to build the best DJ software ever created."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:90
-# 3025ed11e92a44e89d4558928acd481c
+#: ../../source/chapters/introduction.rst:91
 msgid "Mixxx started as an open-source project because of demand for DJing software on Linux, and discontent with proprietary DJ software on Windows and Mac OS X. Today, Mixxx development is driven by the simple idea that together we can create a better way to DJ, and that has brought Mixxx to the cutting edge."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:95
-# 465cc61f62d141398514429f705e9820
+#: ../../source/chapters/introduction.rst:96
 msgid "Mixxx is the only free cross-platform vinyl control software and has the most advanced MIDI/HID controller support via our innovative JavaScript-based scripting engine. We are continuing to pursue new and exciting features that give DJs more tools to create better live mixes."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:101
-# 3334ca29f948472ba838f4632e8713ce
+#: ../../source/chapters/introduction.rst:102
 msgid "Project History"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:103
-# 028aa39b883546f39cfb025b1f5e4c61
+#: ../../source/chapters/introduction.rst:104
 msgid "Mixxx was originally created in 2002 as part of a PhD thesis on new interfaces for DJing by Tue Haste Andersen. After releasing the project as open source, dozens of contributors began modifying and improving Mixxx."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:107
-# 58d82e1e25034229a6171cf328cfe99e
+#: ../../source/chapters/introduction.rst:108
 msgid "In 2006, a new development team lead by Adam Davison and Albert Santoni began reorganizing the project to ensure smooth growth of both the code-base and the number of contributors. A renewed focus on usability and stability has helped Mixxx grow to become the most popular free DJ software in the world, receiving over 1,000,000 downloads annually. Our committed team has worked hard to create great DJ software, and this growth is a sign of our success."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:114
-# e71d17928a834c4b8685c28f480ff200
-msgid "In 2011, RJ Ryan took over as Lead Developer to successfully continue the teams endeavor to make Mixxx a world-class DJ software."
+#: ../../source/chapters/introduction.rst:115
+msgid "In 2011, RJ Ryan took over as Lead Developer to successfully continue the team's endeavor to make Mixxx a world-class DJ software."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:117
-# 2bc9413c2cc842849a3147fd488bba0b
+#: ../../source/chapters/introduction.rst:118
 msgid "As our user community grows, so does our development team - Over 150 developers, artists, and translators have helped create Mixxx!"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:121
-# ef3070a6e8dc48f7b771e7f3c2fe21c3
+#: ../../source/chapters/introduction.rst:122
 msgid "About the Mixxx Manual"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:126
-# c08b2140a5ce4a159713301fce58843e
+#: ../../source/chapters/introduction.rst:127
 msgid "Some effort has been made to present the material in a way that is neither too technical nor too dumbed-down. Take some time to look through it and you'll find lots of hints that will enhance both your enjoyment and your productivity."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:130
-# 5109a1031dc540c596f023e7952dae6f
+#: ../../source/chapters/introduction.rst:131
 msgid "Through the manual you'll find text formatted like this:"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:132
-# 13c4278061e04f7b8ce09d13d60b9fec
+#: ../../source/chapters/introduction.rst:133
 msgid ":menuselection:`Library --> Add new Playlist`"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:134
-# 0dfa0934c3214292bf561a07c0d6e295
+#: ../../source/chapters/introduction.rst:135
 msgid "This is to simplify the business of choosing commands in menus. In this example, the instruction means “Open the *Library* menu at the top of the application window and then choose the *Add new Playlist* command”."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:138
-# 07fa15c4e2e64c2abf1b44c6601f5d38
+#: ../../source/chapters/introduction.rst:139
 msgid ":guilabel:`Apply`"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:140
-# d170aa8321f94f9888637ae8b95dcd62
+#: ../../source/chapters/introduction.rst:141
 msgid "This is used to indicate a certain area of the :term:`GUI`, including button labels, tabs, checkboxes, field names, values in selection lists etc. ."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:143
-# 2ab9f6aacfa342c7aaeadcf7f02f95ac
+#: ../../source/chapters/introduction.rst:144
 msgid ":kbd:`STRG` + :kbd:`G`"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:145
-# 0622019d65c544208b790ff175083a1a
+#: ../../source/chapters/introduction.rst:146
 msgid "This is used to mark a keystroke, or a sequence of keystrokes. In this example, you would have to hold down the *STRG* key, then to press *G*."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:148
-# 78ba3bd301324a81b794c731e64c95b6
-msgid "`<http://www.wikipedia.org/>`_"
+#: ../../source/chapters/introduction.rst:149
+msgid "`<https://www.wikipedia.org//>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:150
-# 2cf8eea2d0e64a0383116ee54668d697
+#: ../../source/chapters/introduction.rst:151
 msgid "Links to external websites are marked like this."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:152
-# 1c0b8cca28924c13863277f29cb62717
+#: ../../source/chapters/introduction.rst:153
 msgid "Important information in this manual are highlighted like this:"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:154
-# 88ff0617e38649b5b19515a60d3a8eab
+#: ../../source/chapters/introduction.rst:155
 msgid "For anything that should receive a bit more attention."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:156
-# 1c7f12773ca8411c9058271e696a415b
+#: ../../source/chapters/introduction.rst:157
 msgid "For supplementary information that lightens the work load."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:158
-# 50b0d4a18bdc43f09f87a80f355db023
+#: ../../source/chapters/introduction.rst:159
 msgid "For references to other documents or websites if they need special attention."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:161
-# 8ad59d163de64183ba0c728ca8b8f810
+#: ../../source/chapters/introduction.rst:162
 msgid "For anything that needs to be done with caution."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:164
-# 82ac3dcd8bde40bb8bb28676b25e3d5b
+#: ../../source/chapters/introduction.rst:165
 msgid "Improving the Manual"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:166
-# c1003508085f422ba055f879b2db87e0
+#: ../../source/chapters/introduction.rst:167
 msgid "**Send Feedback**: If you have comments, corrections or suggestions regarding the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-Manual>`_."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:169
-# 27031a7c49884018ae22add614f4d42d
+#: ../../source/chapters/introduction.rst:170
 msgid "**Get the Source Code**: To download the source code for the Mixxx manual, go to: `<https://github.com/mixxxdj/manual>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:173
-# 0237063025c34255a8fa4d71e0382881
+#: ../../source/chapters/introduction.rst:174
 msgid "Additional Resources"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:178
-# 105ae231750d44afb45e80f61ab94d46
+#: ../../source/chapters/introduction.rst:179
 msgid "Got questions? Need more information? Want to :ref:`contribute <contributing>` ? There are a variety of other resources you can use to find out more."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:181
-# 1363d1fbe4864f63941162fe55543f21
+#: ../../source/chapters/introduction.rst:182
 msgid "**Mixxx Website**: For general information and updates, as well as the latest news on Mixxx, go to: `<http://mixxx.org>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:184
-# 14aa8c6189a94a72b2f5ea110df1ba66
+#: ../../source/chapters/introduction.rst:185
 msgid "**Mixxx Support Websites**: To get support from the Mixxx wiki, IRC channel or Developer mailing list, go to: `<http://mixxx.org/support>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:187
-# af7a5f8bde3d48e180f7308f878b6660
+#: ../../source/chapters/introduction.rst:188
 msgid "**Mixxx Community Forums**: To search for answers, post your question or answer other DJ's questions, go to: `<http://mixxx.org/forums>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:190
-# 1aefc71aeb744c66bdb8d13c1c99596a
+#: ../../source/chapters/introduction.rst:191
 msgid "**Mixxx Source Code**: To download the source code for Mixxx, go to: `<https://github.com/mixxxdj/mixxx>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:193
-# 114bc5b32010450ea30242c6cc5af74d
+#: ../../source/chapters/introduction.rst:194
 msgid "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: `<https://bugs.launchpad.net/mixxx>`_"
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:196
-# b95910eaea524bb794d6a42ffd3c60a9
-msgid "**Mixxx Translations**: To translate Mixxx and promote your mother tongue, go to: `<https://www.transifex.com/projects/p/mixxxdj/>`_ . Please read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first."
+#: ../../source/chapters/introduction.rst:197
+msgid "**Mixxx Translations**: To translate Mixxx and promote your mother tongue, go to: `<https://www.transifex.com/organization/mixxx-dj-software/>`_ . Please read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ first."
 msgstr ""
 
-#: ../../source/chapters/introduction.rst:200
-# 31b0231b0e0f4b998c474bddacd876e3
-msgid "**Social Media**: Follow us on `Twitter <http://twitter.com/mixxxdj>`_ , `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ , and `Google+ <https://plus.google.com/102441931224839455484/posts>`_ ."
+#: ../../source/chapters/introduction.rst:202
+msgid "**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ , `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ , and `Google+ <https://plus.google.com/+mixxx/posts>`_ ."
 msgstr ""
 

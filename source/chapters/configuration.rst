@@ -27,15 +27,16 @@ in- and outputs to be used.
   By default, Mixxx tries the system default first, which is most likely 44.1
   kHz. Otherwise, Mixxx will pick a different default.
 
-* **Latency**: Latency is the lag time in milliseconds that it takes for Mixxx
-  to process your input. Lower latency means Mixxx will be more responsive but
-  on slower computers it might cause glitches.
+* **Audio buffer**: Also known as latency, this is the lag time in milliseconds 
+  that it takes for Mixxx to process your input. Lower latency means Mixxx 
+  will be more responsive but on slower computers and cheaper sound cards it 
+  might cause glitches.
 
 * **Buffer Underflow Count**: Underflows (no data is available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with
   real-time deadlines. This is useful to tune the latency settings. If the
-  counter increases, then increase your latency setting, decrease the sample
-  rate setting or change the sound API setting if available.
+  counter increases, then increase your audio buffer setting, decrease the 
+  sample rate setting or change the sound API setting if available.
 
 .. _configuring-mixer-mode:
 
@@ -82,29 +83,30 @@ Latency, Sample Rate, and Audio API
 ===================================
 
 To achieve the best performance with Mixxx it is essential to configure your
-*latency*, *sample rate*, and *audio API*. These three factors largely determine
-Mixxx's responsiveness and audio quality and the optimal settings will vary
-based on your computer and hardware quality.
+*audio buffer*, *sample rate*, and *audio API*. These three factors largely 
+determine Mixxx's responsiveness and audio quality and the optimal settings 
+will vary based on your computer and hardware quality.
 
 .. _configuration-latency:
 
-Latency
--------
+Audio Buffer
+------------
 
-Latency is the lag time in milliseconds that it takes for Mixxx to process your
-input (turning knobs, sliding the crossfader, etc.). For example, a latency of
-36 ms indicates that it will take approximately 36 milliseconds for Mixxx to
-stop the audio after you toggle the play button. Additionally, latency
-determines how quickly your :term:`Operating System` expects Mixxx to
-react. Lower latency means Mixxx will be more responsive. On the other hand,
-setting your latency too low may be too much for your computer to handle. In
-this situation, Mixxx playback will be choppy and very clearly distorted as your
-computer will not be able to keep up with how frequently Mixxx is processing
-audio.
+The audio buffer, also known as latency, is the lag time in milliseconds that 
+it takes for Mixxx to process your input (turning knobs, sliding the 
+crossfader, etc.). For example, with an audio buffer of 36 ms, it 
+will take approximately 36 milliseconds for Mixxx to stop the audio after you 
+toggle the play button. Additionally, the audio buffer setting determines how 
+quickly your :term:`Operating System` expects Mixxx to react. A smaller audio 
+buffer means Mixxx will be more responsive. On the other hand,
+setting your audio buffer too low may be too much for your computer and sound 
+card to handle. In this situation, Mixxx playback will be choppy and very 
+clearly distorted as your computer will not be able to keep up with how 
+frequently Mixxx is processing audio.
 
-A latency between 36-64 ms is acceptable if you are using Mixxx with a
-keyboard/mouse or a MIDI controller. A latency below 10 ms is recommended when
-vinyl control is used because Mixxx will feel unresponsive otherwise.
+An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a
+keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended 
+when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
 Keep in mind that *lower latencies require better soundcards and faster CPUs*
 and that zero latency DJ software is a myth (although Mixxx is capable of
@@ -113,16 +115,16 @@ sub-1ms operation).
 Sample Rate
 -----------
 
-The sample rate setting in Mixxx determines how many samples per second are
-produced by Mixxx. Mixxx automatically selects a default sample rate for your
-soundcard, most likely 44100 Hz. In general, a higher sample rate means that
-Mixxx produces more audio data for your soundcard. This takes more CPU time, but
-in theory produces higher audio quality. On high-wattage club sound systems, it
-may become apparent if your audio sample rate is too low.
+The sample rate setting in Mixxx controls how many samples per second are
+produced by Mixxx. This determines the maximum frequency in Mixxx's signal, 
+which is half the sample rate. Humans can only hear up to 20 kHz, so there 
+is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate 
+for playback. Most music is published with a 44100 Hz sample rate.
 
 .. warning:: A sample rate of 96kHz takes Mixxx over twice as long to compute.
              Keep in mind that increasing the sample rate will increase CPU
-             usage and likely raise the minimum latency you can achieve.
+             usage and likely raise the minimum audio buffer size you can 
+             use.
 
 Audio API
 ---------
@@ -160,14 +162,27 @@ On Windows, if an ASIO driver is not available for your operating system, you
 can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
 for WDM audio devices.
 
-On GNU/Linux using JACK, make sure to start your JACK daemon *before* running
+On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will 
+prevent any other programs from using the sound card(s) that Mixxx is using.
+
+JACK allows you to route audio between JACK-compatible applications in flexible 
+ways and output sound from multiple programs at the same time. However, JACK can 
+be complicated to set up. To use JACK, start the JACK daemon *before* running 
 Mixxx. Otherwise JACK will not appear as a Sound API in the preferences.
+
+Most modern GNU/Linux distributions use PulseAudio by default. When 
+launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is 
+running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows 
+multiple programs to access one sound card, but PulseAudio and JACK have 
+opposite design goals. PulseAudio is designed to make ordinary computer usage 
+such as watching videos online and listening to music easy whereas JACK is 
+designed for demanding low latency audio programs like Mixxx. It can be 
+difficult to setup JACK and PulseAudio to work well together. So, unless you 
+already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 .. warning:: On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio
              API. This is an emulation layer for ALSA provided by PulseAudio and
-             results in very poor performance. Make sure to run Mixxx using the
-             ``pasuspender`` tool on GNU/Linux distributions that use
-             PulseAudio.
+             results in very poor performance. 
              
 Equalizer Preferences
 =====================
@@ -200,5 +215,4 @@ Equalizer Preferences
 * **Quick Effect**: Here you can select the effect that is controlled by the 
   filter knob in each deck. By default only build in filter effects are displayed 
   in a common box for all decks, but it can be changed like above.  
-
 

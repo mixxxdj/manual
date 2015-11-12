@@ -16,15 +16,11 @@ Support for additional devices can be added to Mixxx by creating a new preset
 file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
-The mapping files that ship with Mixxx are stored in the following file paths:
-
-* Linux: :file:`/usr/share/mixxx/controllers` or
-  :file:`/usr/local/share/mixxx/controllers`
-* Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/controllers/`
-* Windows: :file:`C:\\Program Files\\Mixxx\\controllers`
-
 You can download and share custom controller presets in the
 `Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
+
+
+.. _advanced-controller-wizard:
 
 Controller Wizard
 -----------------
@@ -217,7 +213,7 @@ Effects via JACK Rack on GNU/Linux
 
    The Jack routing for external effects on GNU/Linux
 
-Use `Jack <http://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
+Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
 each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
 effect racks, or for more control you can use Ardour (or other DAW) using sends
 for effects. This gives Mixxx access to the extensive collection of LADSPA

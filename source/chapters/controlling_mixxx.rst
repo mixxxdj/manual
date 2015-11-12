@@ -92,6 +92,8 @@ controller which are external hardware devices used to control audio
 applications. Many DJs prefer the hands-on feel of a controller with Mixxx
 because it can feel similar to using a real mixer and turntables or :term:`CDJ`.
 
+.. _load-preset:
+
 Loading a controller preset
 ---------------------------
 .. figure:: ../_static/Mixxx-111-Preferences-Controllers.png
@@ -149,7 +151,31 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
 
 .. _Hardware Compatibility wiki page: http://www.mixxx.org/wiki/doku.php/hardware_compatibility
 .. _Bug Tracker: http://bugs.launchpad.net/mixxx
-.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7
+.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7 
+
+Installing a preset from the forum
+----------------------------------
+To use a controller mapping that did not come bundled with Mixxx, place the
+controller mapping in your User Presets folder. This is the folder called
+"controllers" inside your User Preferences folder. To open your User Presets
+folder, go to :menuselection:`Preferences --> Controllers` and click the
+:guilabel:`Open User Preset Folder` button. Alternatively, navigate to the folder in your
+:term:`OS<operating system>` file browser:
+
+  * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
+  * OS X: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
+  * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
+  * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
+
+On Windows, the :file:`AppData` folder is hidden, so if you have not already, you will need
+to set Windows Explorer to show hidden files and folders (how to do this varies with each
+version of Windows).
+
+If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
+file by right clicking on it in your file browser and selecting the option for extracting
+an archive or compressed folder. Copy the :file:`.xml` file into your User Preset folder.
+If there is a :file:`.js` file, also copy that to your User Preset folder. Restart Mixxx
+and :ref:`load the preset<load-preset>`.
 
 Map your own your controller
 ----------------------------
