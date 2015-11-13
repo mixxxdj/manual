@@ -19,8 +19,8 @@ Mixxx and import your music to the Mixxx library.
 
 **Mac OSX**
   Double-click the Mixxx icon in the :file:`Applications` folder. Alternatively,
-  drag the Mixxx icon to the dock and double-click it there, or perform a search
-  for :file:`Mixxx.app`.
+  drag the Mixxx icon to the dock and double-click it there or search for
+  "Mixxx" in Spotlight.
 
 **GNU/Linux**
   Simply type :command:`mixxx` into the terminal, then hit :kbd:`Return`. With
@@ -204,9 +204,10 @@ designed for demanding low latency audio programs like Mixxx. It can be
 difficult to setup JACK and PulseAudio to work well together. So, unless you 
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
-.. warning:: On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio
-             API. This is an emulation layer for ALSA provided by PulseAudio and
-             results in very poor performance. 
+.. warning:: On GNU/Linux it is not recommended to use the ``pulse`` device
+             with the ALSA Audio API. This is an emulation layer for ALSA
+             provided by PulseAudio. It has poor performance, but may be
+             suitable for basic playback.
              
 .. _djing-import:
 
@@ -229,7 +230,7 @@ Importing your audio files
 **Setup the music library**
   The first time you run Mixxx, you are asked to select a directory where your
   music is stored. By default, the dialog points to a location where music files
-  are typically held.
+  are typically held, but you can select any location on your computer.
 
   Click :guilabel:`Select Folder` and Mixxx will scan your music library.
   Depending on the size of your library this could take some time. All the
@@ -346,14 +347,11 @@ BPM and Beat Detection Preferences
 .. sectionauthor::
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   
+.. TODO:: Update this section to explain the differences between the beatgrid
+          and beatmap options.
 
-Previous versions of Mixxx were able to detect BPM values but unable to
-determine where the beats are. Consequently, the beat grids often looked
-unaligned. The DJ had to adjust the beat grid manually in order to make use of
-auto-beatmatching via :guilabel:`SYNC` button.
-
-Now Mixxx comes with a new ultra-precise BPM and beat detector.
-The beat grid is adjusted after track analysis is finished. Manual adjustments
+Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments
 are redundant in many cases because Mixxx knows where the beats are.
 
 Analyzer Settings

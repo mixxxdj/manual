@@ -109,8 +109,8 @@ Waveform Displays
 The waveform section of a deck allows you to visualize the audio changes that
 occur throughout the track, you can basically “see” your music.
 
-Depending on the skin Mixxx displays either separate waveforms (default) or
-parallel waveforms. Select your preferred appearance in
+Depending on the skin Mixxx displays either parallel waveforms (default) or
+separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
 .. figure:: ../_static/Mixxx-111-Deere-separate-waveform.png
