@@ -217,11 +217,11 @@ Equalizer Preferences
   dedicated filter knob in each deck. By default only built-in filter effects are
   selected for all decks, but that can be changed as above.
 
-* **High Shelf EQ**: This slider sets the crossover frequency of the high shelf
+* **High Shelf EQ**: This slider sets the turnover frequency of the high shelf
   EQ and the upper corner frequency of the mid EQ. Depending on the selected
   EQ type, changing this slider during playback may result in a crackling sound.
 
-* **Low Shelf EQ**: This slider sets the crossover frequency of the low shelf EQ
+* **Low Shelf EQ**: This slider sets the turnover frequency of the low shelf EQ
   and the lower corner frequency of the mid EQ. Depending on the selected EQ
   type, changing this slider during playback may result in a crackling sound.
 
