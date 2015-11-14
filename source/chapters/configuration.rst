@@ -180,10 +180,13 @@ designed for demanding low latency audio programs like Mixxx. It can be
 difficult to setup JACK and PulseAudio to work well together. So, unless you
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
-.. warning:: On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio
-             API. This is an emulation layer for ALSA provided by PulseAudio and
-             results in very poor performance.
-
+If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can 
+choose the virtual device ``pulse``. This allows Mixxx to share the default 
+system sound card with other media players. This does only work if you start 
+mixxx without pasuspender. Since the sound stream is routed from ALSA to Pulse 
+and back to ALSA, this adds an additional latency of ~2 x the selected audio 
+buffer.  
+ 
 Equalizer Preferences
 =====================
 
@@ -217,51 +220,52 @@ Equalizer Preferences
   dedicated filter knob in each deck. By default only built-in filter effects are
   selected for all decks, but that can be changed as above.
 
-* **High Shelf EQ**: This slider sets the turnover frequency of the high shelf
-  EQ and the upper corner frequency of the mid EQ. Depending on the selected
-  EQ type, changing this slider during playback may result in a crackling sound.
-
-* **Low Shelf EQ**: This slider sets the turnover frequency of the low shelf EQ
-  and the lower corner frequency of the mid EQ. Depending on the selected EQ
-  type, changing this slider during playback may result in a crackling sound.
+* **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing 
+  EQ. It controls which frequency range is effected by the three Channel EQ
+  knobs Low, Mid and High. By default the low knob controls the bass and bub bass 
+  range up to 246 Hz. The mid knob controls the mid range up to 2,5 kHz. 
+  The remaining terrible range is controlled by the high knob.   
 
 * **Master EQ**: This section allows you to setup an EQ that effects only the
-  master output. This is useful for equalizing the sound of your sound system or
-  the room you're playing in.
+  master output. 
 
 
 Mixing Equalizers
 -----------------
 
-Mixxx offers three types of built-in mixing equalizers, also called isolators
-or crossovers since they are full kill effects. They have all their own individual
-sound, so try them out.
+Mixxx offers three types of mixing equalizers with full kill feature. They are 
+actually isolators, adopted from analog cross over networks. Each EQ is 
+combination of a high shelf filter a band pass filter and a low shelf filter, 
+offering its own individual sound, so try them out.
+
 
 The Bessel EQs with Lipshitz and Vanderkooy Mix do not alter audio samples when
 all knobs are at center. Once you adjust the knobs it activates and requires more
 CPU time.
 
-The Linkwitz-Riley EQ always applies a slight linear, natural sounding phase shift.
+The Linkwitz-Riley EQ always applies a minimum, natural sounding phase shift.
 The amount of CPU time does not change when you adjust the EQ knobs.
 
 The following table compares some technical parameters:
 
 +----------------+--------+------------+------------+-------------+-----------+
-| Type           | cut    | roll-off   |phase shift | bit perfect | CPU usage |
+| Type           | cut    | roll-off   | phase      | bit perfect | CPU usage |
 +================+========+============+============+=============+===========+
-| Bessel4 LV-Mix | soft   | -24 db/Oct | minimum    | yes         | low       |
+| Bessel4 LV-Mix | soft   | -24 db/Oct | linear     | yes         | low       |
 +----------------+--------+------------+------------+-------------+-----------+
-| Bessel8 LV-Mix | medium | -48 db/Oct | minimum    | yes         | medium    |
+| Bessel8 LV-Mix | medium | -48 db/Oct | linear     | yes         | medium    |
 +----------------+--------+------------+------------+-------------+-----------+
-| Linkwitz-Riley | sharp  | -48 db/Oct | linear     | no          | high      |
+| Linkwitz-Riley | sharp  | -48 db/Oct | minimum    | no          | high      |
 +----------------+--------+------------+------------+-------------+-----------+
 
-cut: the frequency response (curve form) at the cutoff frequency
+cut: the frequency response (curve form) at the cross over frequency
 
-roll-off: the steepness of the EQ bands
+roll-off: The steepness of the EQ bands
 
-phase shift: minimum = nearly no phase shift. linear = a natural phase shift
+linear phase: No phase distortion, all frequencies are processed with the same group delay
 
-bit perfect: if the input stream remain untouched touched if the EQ is at unity
+minimum phase: A natural phase distortion, the group delay changes by the frequency
 
-CPU usage: processing time, needed to calculate the EQ output
+bit perfect: Whether the EQ changes the input at all when the EQ is at unity
+
+CPU usage: Processing time, needed to calculate the EQ output 
