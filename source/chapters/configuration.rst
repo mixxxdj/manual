@@ -27,15 +27,15 @@ in- and outputs to be used.
   By default, Mixxx tries the system default first, which is most likely 44.1
   kHz. Otherwise, Mixxx will pick a different default.
 
-* **Audio buffer**: Also known as latency, this is the lag time in milliseconds 
-  that it takes for Mixxx to process your input. Lower latency means Mixxx 
-  will be more responsive but on slower computers and cheaper sound cards it 
+* **Audio buffer**: Also known as latency, this is the lag time in milliseconds
+  that it takes for Mixxx to process your input. Lower latency means Mixxx
+  will be more responsive but on slower computers and cheaper sound cards it
   might cause glitches.
 
 * **Buffer Underflow Count**: Underflows (no data is available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with
   real-time deadlines. This is useful to tune the latency settings. If the
-  counter increases, then increase your audio buffer setting, decrease the 
+  counter increases, then increase your audio buffer setting, decrease the
   sample rate setting or change the sound API setting if available.
 
 .. _configuring-mixer-mode:
@@ -83,8 +83,8 @@ Latency, Sample Rate, and Audio API
 ===================================
 
 To achieve the best performance with Mixxx it is essential to configure your
-*audio buffer*, *sample rate*, and *audio API*. These three factors largely 
-determine Mixxx's responsiveness and audio quality and the optimal settings 
+*audio buffer*, *sample rate*, and *audio API*. These three factors largely
+determine Mixxx's responsiveness and audio quality and the optimal settings
 will vary based on your computer and hardware quality.
 
 .. _configuration-latency:
@@ -92,20 +92,20 @@ will vary based on your computer and hardware quality.
 Audio Buffer
 ------------
 
-The audio buffer, also known as latency, is the lag time in milliseconds that 
-it takes for Mixxx to process your input (turning knobs, sliding the 
-crossfader, etc.). For example, with an audio buffer of 36 ms, it 
-will take approximately 36 milliseconds for Mixxx to stop the audio after you 
-toggle the play button. Additionally, the audio buffer setting determines how 
-quickly your :term:`Operating System` expects Mixxx to react. A smaller audio 
+The audio buffer, also known as latency, is the lag time in milliseconds that
+it takes for Mixxx to process your input (turning knobs, sliding the
+crossfader, etc.). For example, with an audio buffer of 36 ms, it
+will take approximately 36 milliseconds for Mixxx to stop the audio after you
+toggle the play button. Additionally, the audio buffer setting determines how
+quickly your :term:`Operating System` expects Mixxx to react. A smaller audio
 buffer means Mixxx will be more responsive. On the other hand,
-setting your audio buffer too low may be too much for your computer and sound 
-card to handle. In this situation, Mixxx playback will be choppy and very 
-clearly distorted as your computer will not be able to keep up with how 
+setting your audio buffer too low may be too much for your computer and sound
+card to handle. In this situation, Mixxx playback will be choppy and very
+clearly distorted as your computer will not be able to keep up with how
 frequently Mixxx is processing audio.
 
 An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a
-keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended 
+keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
 Keep in mind that *lower latencies require better soundcards and faster CPUs*
@@ -116,14 +116,14 @@ Sample Rate
 -----------
 
 The sample rate setting in Mixxx controls how many samples per second are
-produced by Mixxx. This determines the maximum frequency in Mixxx's signal, 
-which is half the sample rate. Humans can only hear up to 20 kHz, so there 
-is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate 
+produced by Mixxx. This determines the maximum frequency in Mixxx's signal,
+which is half the sample rate. Humans can only hear up to 20 kHz, so there
+is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate
 for playback. Most music is published with a 44100 Hz sample rate.
 
 .. warning:: A sample rate of 96kHz takes Mixxx over twice as long to compute.
              Keep in mind that increasing the sample rate will increase CPU
-             usage and likely raise the minimum audio buffer size you can 
+             usage and likely raise the minimum audio buffer size you can
              use.
 
 Audio API
@@ -162,28 +162,28 @@ On Windows, if an ASIO driver is not available for your operating system, you
 can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
 for WDM audio devices.
 
-On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will 
+On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
 
-JACK allows you to route audio between JACK-compatible applications in flexible 
-ways and output sound from multiple programs at the same time. However, JACK can 
-be complicated to set up. To use JACK, start the JACK daemon *before* running 
+JACK allows you to route audio between JACK-compatible applications in flexible
+ways and output sound from multiple programs at the same time. However, JACK can
+be complicated to set up. To use JACK, start the JACK daemon *before* running
 Mixxx. Otherwise JACK will not appear as a Sound API in the preferences.
 
-Most modern GNU/Linux distributions use PulseAudio by default. When 
-launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is 
-running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows 
-multiple programs to access one sound card, but PulseAudio and JACK have 
-opposite design goals. PulseAudio is designed to make ordinary computer usage 
-such as watching videos online and listening to music easy whereas JACK is 
-designed for demanding low latency audio programs like Mixxx. It can be 
-difficult to setup JACK and PulseAudio to work well together. So, unless you 
+Most modern GNU/Linux distributions use PulseAudio by default. When
+launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is
+running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows
+multiple programs to access one sound card, but PulseAudio and JACK have
+opposite design goals. PulseAudio is designed to make ordinary computer usage
+such as watching videos online and listening to music easy whereas JACK is
+designed for demanding low latency audio programs like Mixxx. It can be
+difficult to setup JACK and PulseAudio to work well together. So, unless you
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 .. warning:: On GNU/Linux do *not* use the ``pulse`` device with the ALSA Audio
              API. This is an emulation layer for ALSA provided by PulseAudio and
-             results in very poor performance. 
-             
+             results in very poor performance.
+
 Equalizer Preferences
 =====================
 
@@ -195,66 +195,68 @@ Equalizer Preferences
    :figclass: pretty-figures
 
    Equalizer Preferences
-   
+
 :menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
 
-* **Equalizer Rack**: The Equalizer Rack is a special Effect Rack, that is
-  connected to the deck's equalizer and filter controls. 
+* **Equalizer Rack**: The Equalizer Rack is a special Effect Rack that is
+  connected to the deck's equalizer and filter controls.
 
-  In this section you can select the equalizers and quick effects that used 
-  with the decks.    
+  In this section you can select the equalizers and quick effects that are used
+  with the decks.
 
-* **Equalizer Plugin**: Here you can select the effect that is uses as mixing 
-  EQ in each deck. By default only build in equalizers are displayed, but you 
-  are allowed to select any effect after you have unchecked "Only allow EQ 
-  knobs to control EQ specific effects"      
+* **Equalizer Plugin**: Here you can select the effect that is used as mixing
+  EQ in each deck. By default only built-in equalizers are displayed.  If you uncheck
+  "Only allow EQ knobs to control EQ specific effects" you can select any other
+  effect.
 
-  If you need different settings for each deck, you may uncheck "Use the same 
+
+  If you want different settings for each deck, you may uncheck "Use the same
   EQ filter for all decks"
 
-* **Quick Effect**: Here you can select the effect that is controlled by the 
-  filter knob in each deck. By default only build in filter effects are 
-  displayed in a common box for all decks, but it can be changed like above. 
+* **Quick Effect**: Here you can select the effect that is controlled by the
+  dedicated filter knob in each deck. By default only built-in filter effects are
+  selected for all decks, but that can be changed as above.
 
-* **High Shelf EQ**: This slider sets the turnover frequency of the high shelf 
-  EQ and the upper corner frequency of the mid EQ. Depending on the selected 
-  EQ type, changing this slider during playback may result in a crackling sound. 
+* **High Shelf EQ**: This slider sets the turnover frequency of the high shelf
+  EQ and the upper corner frequency of the mid EQ. Depending on the selected
+  EQ type, changing this slider during playback may result in a crackling sound.
 
 * **Low Shelf EQ**: This slider sets the turnover frequency of the low shelf EQ
-  and the lower corner frequency of the mid EQ. Depending on the selected EQ 
-  type, changing this slider during playback may result in a crackling sound. 
+  and the lower corner frequency of the mid EQ. Depending on the selected EQ
+  type, changing this slider during playback may result in a crackling sound.
 
-* **Master EQ**: This section allows you to setup an EQ that effects only the 
-  master output. This is useful to Equalize the sound of you sound system for 
-  the room, you play it.  
+* **Master EQ**: This section allows you to setup an EQ that effects only the
+  master output. This is useful for equalizing the sound of your sound system or
+  the room you're playing in.
 
 
-Mixing Equalizers 
+Mixing Equalizers
 -----------------
 
-Mixxx offers three types of build in mixing equalizers, also called isolators 
-or cross over since they are all full kill types. They have all their individual 
-sound, so try them out. 
+Mixxx offers three types of built-in mixing equalizers, also called isolators
+or crossovers since they are full kill effects. They have all their own individual
+sound, so try them out.
 
-The Bessel EQs with Lipshitz and Vanderkooy Mix do not touch the samples when 
-all knobs are at center. Once you touch the knobs it requires more CPU time. 
+The Bessel EQs with Lipshitz and Vanderkooy Mix do not alter audio samples when
+all knobs are at center. Once you adjust the knobs it activates and requires more
+CPU time.
 
-The Linkwitz-Riley EQ applies always a linear, natural sounding phase shift. 
-The amount of CPU time does not change when you turn the CPU knobs.  
+The Linkwitz-Riley EQ always applies a slight linear, natural sounding phase shift.
+The amount of CPU time does not change when you adjust the EQ knobs.
 
-The following table compares there technical parameters:  
+The following table compares some technical parameters:
 
-+----------------+--------+------------+------------+-------------+-----------+ 
++----------------+--------+------------+------------+-------------+-----------+
 | Type           | cut    | roll-off   |phase shift | bit perfect | CPU usage |
 +================+========+============+============+=============+===========+
 | Bessel4 LV-Mix | soft   | -24 db/Oct | minimum    | yes         | low       |
-+----------------+--------+------------+------------+-------------+-----------+ 
++----------------+--------+------------+------------+-------------+-----------+
 | Bessel8 LV-Mix | medium | -48 db/Oct | minimum    | yes         | medium    |
 +----------------+--------+------------+------------+-------------+-----------+
 | Linkwitz-Riley | sharp  | -48 db/Oct | linear     | no          | high      |
 +----------------+--------+------------+------------+-------------+-----------+
 
-cut: the frequency responds (curve form) at the cutting frequency 
+cut: the frequency response (curve form) at the cutoff frequency
 
 roll-off: the steepness of the EQ bands
 
@@ -262,13 +264,4 @@ phase shift: minimum = nearly no phase shift. linear = a natural phase shift
 
 bit perfect: if the input stream remain untouched touched if the EQ is at unity
 
-CPU usage: processing time, needed to calculate the EQ output 
-  
-
-
-
-
-
-     
-
-
+CPU usage: processing time, needed to calculate the EQ output
