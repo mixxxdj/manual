@@ -221,10 +221,10 @@ Equalizer Preferences
   selected for all decks, but that can be changed as above.
 
 * **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing 
-  EQ. It controls which frequency range is effected by the three Channel EQ
-  knobs Low, Mid and High. By default the low knob controls the bass and bub bass 
+  EQ. It controls which frequency range is affected by the three Channel EQ
+  knobs Low, Mid and High. By default the low knob controls the bass and sub bass 
   range up to 246 Hz. The mid knob controls the mid range up to 2,5 kHz. 
-  The remaining terrible range is controlled by the high knob.   
+  The remaining teble range is controlled by the high knob.   
 
 * **Master EQ**: This section allows you to setup an EQ that effects only the
   master output. 
@@ -235,7 +235,7 @@ Mixing Equalizers
 
 Mixxx offers three types of mixing equalizers with full kill feature. They are 
 actually isolators, adopted from analog cross over networks. Each EQ is 
-combination of a high shelf filter a band pass filter and a low shelf filter, 
+combination of a high shelf filter, a band pass filter, and a low shelf filter, 
 offering its own individual sound, so try them out.
 
 
@@ -248,15 +248,15 @@ The amount of CPU time does not change when you adjust the EQ knobs.
 
 The following table compares some technical parameters:
 
-+----------------+--------+------------+------------+-------------+-----------+
-| Type           | cut    | roll-off   | phase      | bit perfect | CPU usage |
-+================+========+============+============+=============+===========+
-| Bessel4 LV-Mix | soft   | -24 db/Oct | linear     | yes         | low       |
-+----------------+--------+------------+------------+-------------+-----------+
-| Bessel8 LV-Mix | medium | -48 db/Oct | linear     | yes         | medium    |
-+----------------+--------+------------+------------+-------------+-----------+
-| Linkwitz-Riley | sharp  | -48 db/Oct | minimum    | no          | high      |
-+----------------+--------+------------+------------+-------------+-----------+
++----------------+--------+------------+-------------+-------------+-----------+
+| Type           | cut    | roll-off   | phase shift | bit perfect | CPU usage |
++================+========+============+=============+=============+===========+
+| Bessel4 LV-Mix | soft   | -24 db/Oct | linear      | yes         | low       |
++----------------+--------+------------+-------------+-------------+-----------+
+| Bessel8 LV-Mix | medium | -48 db/Oct | linear      | yes         | medium    |
++----------------+--------+------------+-------------+-------------+-----------+
+| Linkwitz-Riley | sharp  | -48 db/Oct | minimum     | no          | high      |
++----------------+--------+------------+-------------+-------------+-----------+
 
 cut: the frequency response (curve form) at the cross over frequency
 
