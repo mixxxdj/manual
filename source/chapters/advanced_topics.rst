@@ -123,7 +123,7 @@ Depending on your systems language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-It is not recommended to modify the keyboard mapping file in-place because all your changes
+It is not recommended to modify the system-wide keyboard mapping file because all your changes
 can be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
