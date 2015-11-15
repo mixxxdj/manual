@@ -123,10 +123,9 @@ Depending on your systems language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-There are two ways to customize the default Mixxx keyboard mapping:
-
-1. Edit your system's default mapping file directly, e.g. :file:`en_US.kbd.cfg`.
-2. Copy the default mapping file to the following location:
+It is not recommended to modify the keyboard mapping file in-place because all your changes
+can be lost if you uninstall or upgrade Mixxx.
+Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
 * Mac OS X: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
