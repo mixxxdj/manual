@@ -7,12 +7,25 @@ found at <http://mixxx.org/manual/latest/>.
 The manual is written in [reStructuredText] format using the
 [Sphinx] documentation generator.
 
-## Steps for use:
+## Getting Started
 
-* [Install Sphinx], the documentation generator
-* [Install Graphviz], a graph visualization software (is used to draw some diagrams)
-* [Download] the latest Mixxx manual source or clone the repository
-  `git clone https://github.com/mixxxdj/manual.git`
+First [Download] the latest Mixxx manual source or clone the repository
+
+    $ git clone https://github.com/mixxxdj/manual.git
+
+Next, install the dependencies using pip. From within the repository root
+(type ```cd manual``` after typing the above command):
+
+    $ pip install -r requirements.txt
+
+If you do not wish to use pip:
+* [Install Sphinx], the documentation generator. *Note:* Version 1.3.1 seems to have a bug
+  with graphviz. We suggest using version 1.2.3 until this is resolved.
+* [Install Graphviz], graph visualization software (used to draw some diagrams)
+
+Once you have the repository cloned and dependencies installed you can edit and
+build the manual to see your changes.
+
 * Edit .rst files in `source/`
 * Run `make html` to build an HTML version of the manual
 * Open the file `build/html/index.html` in your Web browser to view the results
