@@ -23,6 +23,11 @@ If you do not wish to use pip:
   with graphviz. We suggest using version 1.2.3 until this is resolved.
 * [Install Graphviz], graph visualization software (used to draw some diagrams)
 
+If you'd like to build manual PDFs, you will need a functioning LaTeX installation.
+* On Mac, install [MacTeX].
+* On Debian-based systems, install `texlive-fonts-recommended` and
+  `texlive-latex-extra`.
+
 Once you have the repository cloned and dependencies installed you can edit and
 build the manual to see your changes.
 
@@ -166,3 +171,4 @@ Even more [reStructuredText] resources:
 [Tag]: https://github.com/mixxxdj/manual/tags
 [create a new release]: https://github.com/mixxxdj/manual/releases/new
 [i18n]: #internationalization-i18n
+[MacTeX]: https://tug.org/mactex/
