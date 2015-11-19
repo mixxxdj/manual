@@ -296,6 +296,14 @@ Deck <interface-preview-deck>` that will only output sound in the
 :ref:`headphones <interface-head-master>` channel. Click the
 |ic_lib_preview_pause| icon to stop the playback.
 
+Mixxx skins also have the option to show a mini Preview Deck which you can
+activate by selecting :menuselection:`View --> Show Preview Deck`.  This will
+show you an overview of the track waveform and you can use the mouse to click
+around the track to preview different parts.  If you want to quickly seek back
+to the beginning of a track, you can right-click the play button in the preview
+deck.  The preview play button in the Library view always restarts playback from
+the beginning
+
 Alternatively, select a track from the track list of the Mixxx library, drag the
 track to the waveform view of the :ref:`Preview Deck <interface-preview-deck>`
 and click the :guilabel:`Play` button next to the waveform.
