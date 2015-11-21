@@ -23,12 +23,14 @@ def html():
 
 def pdf():
     local('make latex')
-    local('make latex')
     # The manual PDF build typically throws tons of errors. We should fix them
     # but for now we ignore so the build server job isn't always marked as
     # failed when a mostly-working PDF is generated.
     with settings(warn_only=True):
         with lcd('build/latex'):
+            # You need to run pdflatex twice to get the TOC and references
+            # right.
+            local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
             local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
 
 @hosts(PROD)
