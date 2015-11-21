@@ -1,5 +1,6 @@
 fabric
 sphinx==1.2.3
+sphinx-intl
 graphviz
 pycrypto
 ecdsa
