@@ -2,3 +2,4 @@ fabric
 sphinx==1.2.3
 graphviz
 pycrypto
+ecdsa
