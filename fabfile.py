@@ -16,7 +16,16 @@ def clean():
 
 def regen():
     clean()
+    html()
+
+def html():
     local('make html')
+
+def pdf():
+    local('make latex')
+    local('make latex')
+    with cd('build/latex'):
+        local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
 
 @hosts(PROD)
 def publish():
