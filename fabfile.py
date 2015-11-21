@@ -24,7 +24,7 @@ def html():
 def pdf():
     local('make latex')
     local('make latex')
-    with cd('build/latex'):
+    with lcd('build/latex'):
         local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
 
 @hosts(PROD)
