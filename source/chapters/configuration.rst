@@ -495,7 +495,7 @@ shown.
    :guilabel:`Analyze (x/y)` where x is the number of tracks that have been
    analyzed so far and y is the total number of tracks originally in the queue.
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    Does not generate waveforms to save disk space.
 
 The Analyze features in detail:

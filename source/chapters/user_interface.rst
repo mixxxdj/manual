@@ -56,7 +56,7 @@ Track Information Display
 
    The track information section of the deck
 
-.. versionadded::  1.12
+.. versionadded:: 2.0
    Parse the title and the artist from the file name when the corresponding
    :term:`metadata` is missing.
 

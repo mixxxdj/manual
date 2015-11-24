@@ -15,7 +15,7 @@ language settings the defaults may be different.
    *Passthrough*, *Vinylcontrol Mode*, *Vinylcontrol Cueing*, and
    *Single Deck Vinylcontrol Toggle* shortcuts
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
 
 +----------------------------------------+---------------------+---------------------+--------------+
@@ -173,7 +173,7 @@ application window.
    Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
    which provides various useful debugging tools.
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    Shortcuts for *Enable Vinyl Control 1-4*.
 
 ========================================  ================================

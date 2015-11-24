@@ -126,7 +126,7 @@ Track list context menu
    :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
    context menu options and :guilabel:`Cover Art`
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    All BPM related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
