@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 1.12\n"
+"Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-24 12:51+0200\n"
+"POT-Creation-Date: 2015-11-24 13:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgid "Start the Mac :file:`App Store.app` on your computer."
 msgstr ""
 
 #: ../../source/chapters/installation.rst:83
-msgid "Search for *mixxx* in the App Store, alternatively `click this direct link <http://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ ."
+msgid "Search for *mixxx* in the App Store, alternatively `click this direct link <https://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ ."
 msgstr ""
 
 #: ../../source/chapters/installation.rst:86
@@ -222,7 +222,7 @@ msgid "If your operating system isn't listed here, then it's likely you're going
 msgstr ""
 
 #: ../../source/chapters/installation.rst:157
-msgid "`<http://mixxx.org/wiki/doku.php/start#build_mixxx>`_"
+msgid "`<http://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_"
 msgstr ""
 
 #: ../../source/chapters/installation.rst:160

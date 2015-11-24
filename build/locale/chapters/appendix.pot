@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 1.12\n"
+"Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-24 12:51+0200\n"
+"POT-Creation-Date: 2015-11-24 13:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1145,195 +1145,187 @@ msgstr ""
 msgid "Version History"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:0
-msgid "Todo"
-msgstr ""
-
 #: ../../source/chapters/appendix.rst:363
-msgid "Add 1.12 release date"
+msgid "**v2.0.0** (2015-12-31)"
 msgstr ""
 
 #: ../../source/chapters/appendix.rst:365
-msgid "**v1.12.0** (2015-XX-XX)"
-msgstr ""
-
-#: ../../source/chapters/appendix.rst:367
 msgid "4 Decks with Master Sync"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:368
+#: ../../source/chapters/appendix.rst:366
 msgid "New Effects Framework with 4 Effect Units and 5 Built-in Effects: * Flanger, Bit Crusher, Reverb, Echo, Filter * More to come!"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:371
+#: ../../source/chapters/appendix.rst:369
 msgid "Configurable, Resizeable User Interface with 3 Brand New Skins"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:372
+#: ../../source/chapters/appendix.rst:370
 msgid "Cover Art Display"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:373
+#: ../../source/chapters/appendix.rst:371
 msgid "Music Key Detection and Shifting"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:374
+#: ../../source/chapters/appendix.rst:372
 msgid "Vinyl Audio Pass-Through"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:375
+#: ../../source/chapters/appendix.rst:373
 msgid "4 Microphone inputs and 4 Auxiliary inputs"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:376
+#: ../../source/chapters/appendix.rst:374
 msgid "MIDI Mapping GUI and Improved Learning Wizard"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:377
+#: ../../source/chapters/appendix.rst:375
 msgid "RGB Musical Waveforms"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:378
+#: ../../source/chapters/appendix.rst:376
 msgid "Hundreds of Bug Fixes and Improvements"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:379
+#: ../../source/chapters/appendix.rst:377
 msgid "New Pitch-Independent Algorithm for Better-Sounding Key-lock"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:381
-msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_."
+#: ../../source/chapters/appendix.rst:379
+msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/2.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:384
+#: ../../source/chapters/appendix.rst:382
 msgid "**v1.11.0** (2013-05-09)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:386
+#: ../../source/chapters/appendix.rst:384
 msgid "Completely revamped Waveforms"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:387
-msgid "Direct :term:`HID controller` support"
+#: ../../source/chapters/appendix.rst:385
+msgid "Direct :term:`HID` controller support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:388
+#: ../../source/chapters/appendix.rst:386
 msgid "Point & Click Controller Mapping"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:389
+#: ../../source/chapters/appendix.rst:387
 msgid "Next Generation Beat Detection"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:390
+#: ../../source/chapters/appendix.rst:388
 msgid "Library History Feature"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:391
+#: ../../source/chapters/appendix.rst:389
 msgid "Improved AutoDJ"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:392
+#: ../../source/chapters/appendix.rst:390
 msgid "Beatloop Rolls"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:393
+#: ../../source/chapters/appendix.rst:391
 msgid "Preview Deck"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:394
+#: ../../source/chapters/appendix.rst:392
 msgid "Advanced Search"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:395
+#: ../../source/chapters/appendix.rst:393
 msgid "New and Improved User Manual"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:396
+#: ../../source/chapters/appendix.rst:394
 msgid "New Controller Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:398
+#: ../../source/chapters/appendix.rst:396
 msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.11.0 <https://launchpad.net/mixxx/+milestone/1.11.0>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:401
+#: ../../source/chapters/appendix.rst:399
 msgid "**v1.10.1** (2012-06-30)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:403
+#: ../../source/chapters/appendix.rst:401
 msgid "Bugfixes"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:405
+#: ../../source/chapters/appendix.rst:403
 msgid "For a full list of bugfixes, go to: `https://launchpad.net/mixxx/1.10.1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:408
+#: ../../source/chapters/appendix.rst:406
 msgid "**v1.10.0** (2011-12-25)"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:410
+#: ../../source/chapters/appendix.rst:408
 msgid "Rewritten and Improved Vinyl Control Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:411
+#: ../../source/chapters/appendix.rst:409
 msgid "4 Sampler Decks"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:412
+#: ../../source/chapters/appendix.rst:410
 msgid "Quantized Loops, Hotcues and Beatloops"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:413
+#: ../../source/chapters/appendix.rst:411
 msgid "Phase Synchronization"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:414
+#: ../../source/chapters/appendix.rst:412
 msgid "Beatgrid Adjust Feature"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:415
+#: ../../source/chapters/appendix.rst:413
 msgid "Microphone Support"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:416
+#: ../../source/chapters/appendix.rst:414
 msgid "Spinning Turntable Widgets and Waveform Scratching"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:417
+#: ../../source/chapters/appendix.rst:415
 msgid "M4A Support for Windows Vista and Windows 7 users"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:418
+#: ../../source/chapters/appendix.rst:416
 msgid "Brand New and Updated Skins"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:419
+#: ../../source/chapters/appendix.rst:417
 msgid "Accessibility Improvements"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:420
+#: ../../source/chapters/appendix.rst:418
 msgid "Limited Support for Internationalization"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:421
+#: ../../source/chapters/appendix.rst:419
 msgid "Revamped and Rewritten User Manual"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:422
+#: ../../source/chapters/appendix.rst:420
 msgid "Mixing engine improvements"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:423
+#: ../../source/chapters/appendix.rst:421
 msgid "Updated MIDI Mappings"
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:425
+#: ../../source/chapters/appendix.rst:423
 msgid "For a full list of new features and bugfixes, go to: `https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_."
 msgstr ""
 
-#: ../../source/chapters/appendix.rst:428
+#: ../../source/chapters/appendix.rst:426
 msgid "For an overview of previous versions, `take a look <https://launchpad.net/mixxx/+series>`_ at the timeline."
 msgstr ""
 
