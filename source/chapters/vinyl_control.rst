@@ -32,7 +32,7 @@ track is loaded.
 
 What do I need to use it?
 =========================
- 
+
 It is possible to use Mixxx's vinyl control with a variety of setups. Unlike
 some proprietary DJ software, Mixxx can use several types of timecode media and
 any soundcard that your :ref:`OS <operating system>` has drivers to use.
@@ -143,7 +143,7 @@ At the present time, Serato records are recommended if you are looking to buy
 vinyl. If you want to use CDs, you can download a free copy for personal use
 from `Serato`_.
 
-.. _Serato: http://serato.com/controlcd/downloads
+.. _Serato: https://serato.com/controlcd/downloads
 
 .. _vinyl-control-config:
 

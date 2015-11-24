@@ -14,7 +14,7 @@ Mixxx and import your music to the Mixxx library.
 
 **Windows**
   Double-click the Mixxx icon on the Desktop. Alternatively, browse your Windows
-  start menu and click the Mixxx icon, or perform a search for 
+  start menu and click the Mixxx icon, or perform a search for
   :file:`Mixxx.exe`.
 
 **Mac OSX**
@@ -46,20 +46,20 @@ in- and outputs to be used.
   that Mixxx uses to deliver audio to your audio device. Your choice can
   drastically affect how smooth Mixxx performs on your computer.
 
-* **Sample Rate**: Allows you to manually select the sample rate for the audio input.
-  The sample rate value should be set to the sample rate of your audio interface.
-  By default, Mixxx tries the system default first, which is most likely 44.1
-  kHz. Otherwise, Mixxx will pick a different default.
+* **Sample Rate**: Allows you to manually select the sample rate for the audio
+  input. The sample rate value should be set to the sample rate of your audio
+  interface. By default, Mixxx tries the system default first, which is most
+  likely 44.1 kHz. Otherwise, Mixxx will pick a different default.
 
-* **Audio buffer**: Also known as latency, this is the lag time in milliseconds 
-  that it takes for Mixxx to process your input. Lower latency means Mixxx 
-  will be more responsive but on slower computers and cheaper sound cards it 
+* **Audio buffer**: Also known as latency, this is the lag time in milliseconds
+  that it takes for Mixxx to process your input. Lower latency means Mixxx
+  will be more responsive but on slower computers and cheaper sound cards it
   might cause glitches.
 
 * **Buffer Underflow Count**: Underflows (no data is available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with
   real-time deadlines. This is useful to tune the latency settings. If the
-  counter increases, then increase your audio buffer setting, decrease the 
+  counter increases, then increase your audio buffer setting, decrease the
   sample rate setting or change the sound API setting if available.
 
 .. _configuring-mixer-mode:
@@ -107,8 +107,8 @@ Latency, Sample Rate, and Audio API
 ===================================
 
 To achieve the best performance with Mixxx it is essential to configure your
-*audio buffer*, *sample rate*, and *audio API*. These three factors largely 
-determine Mixxx's responsiveness and audio quality and the optimal settings 
+*audio buffer*, *sample rate*, and *audio API*. These three factors largely
+determine Mixxx's responsiveness and audio quality and the optimal settings
 will vary based on your computer and hardware quality.
 
 .. _configuration-latency:
@@ -116,20 +116,20 @@ will vary based on your computer and hardware quality.
 Audio Buffer
 ------------
 
-The audio buffer, also known as latency, is the lag time in milliseconds that 
-it takes for Mixxx to process your input (turning knobs, sliding the 
-crossfader, etc.). For example, with an audio buffer of 36 ms, it 
-will take approximately 36 milliseconds for Mixxx to stop the audio after you 
-toggle the play button. Additionally, the audio buffer setting determines how 
-quickly your :term:`Operating System` expects Mixxx to react. A smaller audio 
+The audio buffer, also known as latency, is the lag time in milliseconds that
+it takes for Mixxx to process your input (turning knobs, sliding the
+crossfader, etc.). For example, with an audio buffer of 36 ms, it
+will take approximately 36 milliseconds for Mixxx to stop the audio after you
+toggle the play button. Additionally, the audio buffer setting determines how
+quickly your :term:`Operating System` expects Mixxx to react. A smaller audio
 buffer means Mixxx will be more responsive. On the other hand,
-setting your audio buffer too low may be too much for your computer and sound 
-card to handle. In this situation, Mixxx playback will be choppy and very 
-clearly distorted as your computer will not be able to keep up with how 
+setting your audio buffer too low may be too much for your computer and sound
+card to handle. In this situation, Mixxx playback will be choppy and very
+clearly distorted as your computer will not be able to keep up with how
 frequently Mixxx is processing audio.
 
 An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a
-keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended 
+keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
 Keep in mind that *lower latencies require better soundcards and faster CPUs*
@@ -140,14 +140,14 @@ Sample Rate
 -----------
 
 The sample rate setting in Mixxx controls how many samples per second are
-produced by Mixxx. This determines the maximum frequency in Mixxx's signal, 
-which is half the sample rate. Humans can only hear up to 20 kHz, so there 
-is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate 
+produced by Mixxx. This determines the maximum frequency in Mixxx's signal,
+which is half the sample rate. Humans can only hear up to 20 kHz, so there
+is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate
 for playback. Most music is published with a 44100 Hz sample rate.
 
 .. warning:: A sample rate of 96kHz takes Mixxx over twice as long to compute.
              Keep in mind that increasing the sample rate will increase CPU
-             usage and likely raise the minimum audio buffer size you can 
+             usage and likely raise the minimum audio buffer size you can
              use.
 
 Audio API
@@ -186,29 +186,29 @@ On Windows, if an ASIO driver is not available for your operating system, you
 can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
 for WDM audio devices.
 
-On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will 
+On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
 
-JACK allows you to route audio between JACK-compatible applications in flexible 
-ways and output sound from multiple programs at the same time. However, JACK can 
-be complicated to set up. To use JACK, start the JACK daemon *before* running 
+JACK allows you to route audio between JACK-compatible applications in flexible
+ways and output sound from multiple programs at the same time. However, JACK can
+be complicated to set up. To use JACK, start the JACK daemon *before* running
 Mixxx. Otherwise JACK will not appear as a Sound API in the preferences.
 
-Most modern GNU/Linux distributions use PulseAudio by default. When 
-launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is 
-running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows 
-multiple programs to access one sound card, but PulseAudio and JACK have 
-opposite design goals. PulseAudio is designed to make ordinary computer usage 
-such as watching videos online and listening to music easy whereas JACK is 
-designed for demanding low latency audio programs like Mixxx. It can be 
-difficult to setup JACK and PulseAudio to work well together. So, unless you 
+Most modern GNU/Linux distributions use PulseAudio by default. When
+launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is
+running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows
+multiple programs to access one sound card, but PulseAudio and JACK have
+opposite design goals. PulseAudio is designed to make ordinary computer usage
+such as watching videos online and listening to music easy whereas JACK is
+designed for demanding low latency audio programs like Mixxx. It can be
+difficult to setup JACK and PulseAudio to work well together. So, unless you
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 .. warning:: On GNU/Linux it is not recommended to use the ``pulse`` device
              with the ALSA Audio API. This is an emulation layer for ALSA
              provided by PulseAudio. It has poor performance, but may be
              suitable for basic playback.
-             
+
 .. _djing-import:
 
 Importing your audio files
@@ -258,12 +258,12 @@ Importing your audio files
   such as m4p files purchased in the iTunes Store, are not supported.
 
   AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
-  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is
-  required for Windows Vista.
+  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
+  is required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
-  To enable the playback of AAC files, `build Mixxx from source with m4a files support
-  <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_file_support>`_.
+  To enable the playback of AAC files, `build Mixxx from source with m4a/AAC
+  files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
@@ -347,7 +347,7 @@ BPM and Beat Detection Preferences
 .. sectionauthor::
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
-   
+
 .. TODO:: Update this section to explain the differences between the beatgrid
           and beatmap options.
 
@@ -482,11 +482,11 @@ playing live with them to ensure the beatgrids are correct. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
-Once you have configured your music directories and your BPM and key detection 
-settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze 
-view on the left side panel of the library. Thiis allows you to run 
-:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in 
-advance. While analyzing, the progress in percentage and total queue length are 
+Once you have configured your music directories and your BPM and key detection
+settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
+view on the left side panel of the library. Thiis allows you to run
+:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
+advance. While analyzing, the progress in percentage and total queue length are
 shown.
 
 .. versionadded:: 2.0

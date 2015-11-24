@@ -492,7 +492,7 @@ tracks in the library.
 Popular software to edit metadata of audio files include:
   * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
   * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
-  * `Picard <http://musicbrainz.org/doc/Picard_Tagger>`_ (Mac, Windows, Linux)
+  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
 
 .. _library-auto-dj:
 

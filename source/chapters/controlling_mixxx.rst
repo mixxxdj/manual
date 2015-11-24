@@ -150,8 +150,8 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              the details of each.
 
 .. _Hardware Compatibility wiki page: http://www.mixxx.org/wiki/doku.php/hardware_compatibility
-.. _Bug Tracker: http://bugs.launchpad.net/mixxx
-.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7 
+.. _Bug Tracker: https://bugs.launchpad.net/mixxx
+.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7
 
 Installing a preset from the forum
 ----------------------------------
@@ -198,4 +198,3 @@ prefer the tactile feel of vinyl, and vinyl control allows that feel to be
 preserved while retaining the benefits of using digital audio.
 
 .. seealso:: Go to :ref:`vinyl-control` for detailed information.
-
