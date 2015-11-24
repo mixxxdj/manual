@@ -35,9 +35,9 @@ What do I need to use it?
 
 It is possible to use Mixxx's vinyl control with a variety of setups. Unlike
 some proprietary DJ software, Mixxx can use several types of timecode media and
-any soundcard that your :ref:`OS <operating system>` has drivers to use.
-Optionally, any :ref:`MIDI/HID controller <using-midi-hid-controllers>` can be
-used together with timecode control. The basic setups for timecode control are:
+any soundcard that your :term:`operating system` has drivers to use.
+Optionally, any :ref:`MIDI/HID controller <control-midi>` can be used together
+with timecode control. The basic setups for timecode control are:
 
 **Setup 1: Vinyl DJ**
 

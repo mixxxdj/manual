@@ -64,9 +64,9 @@ The default mapping for English keyboards is depicted in the figure above. It is
 divided into a left-hand side for deck 1 and right-hand side for deck 2. Please
 note that you can also access the functions through Mixxx's interface.
 
-For some user groups, like those using :term:`MIDI <MIDI Controller>`/:term:`HID
-<HID Controller>` controllers or vinyl control, it might be useful to
-enable/disable the keyboard mappings at runtime. You can do so by clicking
+For some user groups, like those using :term:`controllers <controller>` or
+:term:`vinyl control`, it might be useful to enable/disable the keyboard
+mappings at runtime. You can do so by clicking
 :menuselection:`Options --> Enable Keyboard Shortcuts`.
 
 .. hint::  If you hover with the mouse over a control (e.g. the crossfader) in
@@ -87,10 +87,10 @@ Mixxx allows you to customize the keyboard control. For more information, go to:
 Using MIDI/HID Controllers
 ==========================
 
-Mixxx supports :term:`MIDI <MIDI Controller>` and :term:`HID <HID controller>`
-controller which are external hardware devices used to control audio
-applications. Many DJs prefer the hands-on feel of a controller with Mixxx
-because it can feel similar to using a real mixer and turntables or :term:`CDJ`.
+Mixxx supports MIDI and HID :term:`controllers <controller>` which are external
+hardware devices used to control audio applications. Many DJs prefer the
+hands-on feel of a controller with Mixxx because it can feel similar to using a
+real mixer and turntables or :term:`CDJ`.
 
 .. _load-preset:
 

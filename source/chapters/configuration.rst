@@ -129,7 +129,7 @@ clearly distorted as your computer will not be able to keep up with how
 frequently Mixxx is processing audio.
 
 An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a
-keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended
+keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
 Keep in mind that *lower latencies require better soundcards and faster CPUs*

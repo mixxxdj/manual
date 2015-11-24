@@ -271,12 +271,12 @@ Finding Tracks (Search)
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-The :ref:`search function <library-search>` searches for a match only in the
-current selected list (e.g. a playlist, a crate or even the whole library).
+The search function filters the current selected list (e.g. a playlist, a crate
+or even the whole library) for tracks that match your search query.
 
 * Activate the search input field by pressing :kbd:`CTRL` + :kbd:`F`
   (Windows/Linux) or :kbd:`CMD` + :kbd:`F` (Mac). Alternatively click into the
-  :ref:`search box <library-search>`.
+  search box.
 * Type your search term. Mixxx filters the tracks and retains only the ones that
   match the search term. Search terms can include an artist's name, a song
   title, BPM, etc.

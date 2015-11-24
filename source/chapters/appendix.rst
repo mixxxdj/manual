@@ -382,7 +382,7 @@ For a full list of new features and bugfixes, go to:
 **v1.11.0** (2013-05-09)
 
   * Completely revamped Waveforms
-  * Direct :term:`HID controller` support
+  * Direct :term:`HID` controller support
   * Point & Click Controller Mapping
   * Next Generation Beat Detection
   * Library History Feature
