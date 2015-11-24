@@ -16,8 +16,9 @@ Mixxx Features
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-* **4 Decks**: A scratchable, scrolling waveform marks beats and cue points
-  of a track, along with a whole-song waveform overview for quick seeking.
+* **4 Decks**: Each deck features a scratchable, scrolling waveform that marks
+  beats and cue points, along with a whole-song waveform overview for quick
+  seeking.
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
 * **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.

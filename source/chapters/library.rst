@@ -138,7 +138,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
   :ref:`Previewdeck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. Note that you can't load
-  multiple files at ones.
+  multiple files at once.
 * **Add to playlist/crate**: Add selected tracks to the playlists or
   crates that you have created before. Alternatively, drag the selection to the
   playlist or crate in the sidebar.

@@ -20,7 +20,7 @@ How does it work?
 =================
 
 Vinyl control uses special :term:`timecode` records or CD's which are placed on
-real turntables or :term:`CDJ`s. The audio output of the turntables is plugged
+real turntables or :term:`CDJ`. The audio output of the turntables is plugged
 into a soundcard connected to a computer on which Mixxx is running.
 When a record is played on one of the attached turntables, Mixxx reads the
 timecode from the record and uses the information to manipulate whatever
@@ -41,8 +41,8 @@ with timecode control. The basic setups for timecode control are:
 
 **Setup 1: Vinyl DJ**
 
-  Two timecode vinyls, two turntables with phono pre-amplifiers (or line-level
-  output), and two stereo sound inputs.
+  2-4 timecode vinyls, 2-4 turntables with phono pre-amplifiers (or line-level
+  output), and 2-4 stereo sound inputs.
 
   Your sound card inputs must match the turntable outputs. Turntables output
   very quiet phono-level outputs that must be amplified for Mixxx to use.
@@ -77,7 +77,7 @@ with timecode control. The basic setups for timecode control are:
 
 **Setup 2: CDJ**
 
-  Two timecode CDs, two CD decks, and two stereo sound inputs.
+  2-4 timecode CDs, 2-4 CD decks, and 2-4 stereo sound inputs.
 
   Setting up CDJs for use with timecode CDs is similar to setting up
   turntables. The figure below outlines a typical configuration. First,
@@ -98,11 +98,11 @@ with timecode control. The basic setups for timecode control are:
 
 * It is recommended to use a proper DJ sound card that has **multiple** stereo
   line inputs on it.
-* Alternatively you can use two sound cards, each with a single stereo line in,
-  but this is strongly discouraged.
+* Alternatively you can use multiple sound cards, each with a single stereo line
+  in, but this is strongly discouraged.
 
 Mixxx supports vinyl control input through a single soundcard with at least
-4-channels of input (two stereo line-in jacks), or through two separate
+4-channels of input (two stereo line-in jacks), or through multiple separate
 soundcards which each have 2-channels of input (a single stereo line-in jack).
 Vinyl control requires the use of stereo line-in jacks - Mono or microphone
 inputs will not work.
@@ -159,19 +159,19 @@ Configuring Input and Output devices
 
    Mixxx preferences - Setting up Input and Output devices for Vinyl Control
 
-Mixxx can be controlled by up to 2 decks with either timecoded vinyl or
+Mixxx can be controlled by up to 4 decks with either timecoded vinyl or
 timecoded CDs.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Input` tab
-#. From the :guilabel:`Vinyl Control 1` and :guilabel:`Vinyl Control 2`
+#. From the :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4`
    drop-down menus, select the soundcard(s) which your decks are plugged into
 #. In the channel selection drop-down menu, select the channel pairs
    corresponding to the plug on your soundcard that your deck(s) are plugged
-   into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4`
+   into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4` etc.
 #. Click :guilabel:`Apply` to save the changes.
 #. Select the :guilabel:`Output` tab
-#. Specified :guilabel:`Deck 1` and :guilabel:`Deck 2` to route Mixxx's output
+#. Specify :guilabel:`Deck 1` - :guilabel:`Deck 4` to route Mixxx's output
    directly to the external mixer
 #. Click :guilabel:`Apply` to save the changes.
 
@@ -280,9 +280,9 @@ of your timecode signal is moderate. A signal that is too loud or too quiet will
 cause adverse performance, often characterized by a loss of position data
 causing absolute mode to behave like relative mode.
 
-Mixxx represents your timecode signal quality as a circular representation of
-the vinyl control audio signal itself. The two graphs correspond to your
-:guilabel:`Deck 1` and :guilabel:`Deck 2` input devices.
+Mixxx represents the quality of the timecode signal as a circular graphic coming
+from the vinyl control audio itself. The graphs correspond to your active input
+devices :guilabel:`Deck 1` - :guilabel:`Deck 4` .
 
 If your vinyl signal is working, you should see a round, green circle drawn with
 two lines. This vinyl “doughnut” should be as circular as possible, and the
@@ -375,15 +375,14 @@ Troubleshooting
 
 To complete your setup you must configure Mixxx properly. Make sure you have:
 
-* specified :guilabel:`Deck 1` and :guilabel:`Deck 2` in
+* specified :guilabel:`Deck 1` - :guilabel:`Deck 4` in
   :menuselection:`Preferences --> Sound Hardware` to
   route Mixxx's output directly to the external mixer
-* specified :guilabel:`Vinyl Control 1` and :guilabel:`Vinyl Control 2` under
+* specified :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4` under
   :menuselection:`Preferences --> Sound Hardware --> Input`
 * selected the correct control type under
   :menuselection:`Preferences --> Vinyl Control --> Vinyl type` in the
-  preferences. See :ref:`control-timecode` for the list of supported control
-  records/CDs.
+  preferences. See the list of `Supported Timecode media`_
 * enabled vinyl control via the menu under
   :menuselection:`Options -> Vinyl Control --> Enable Vinyl Control`.
 

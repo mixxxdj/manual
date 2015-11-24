@@ -97,7 +97,7 @@ Headphone Output
 
 In both internal and external mixer mode, you can choose a headphone output for
 :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` in
-:menuselection:`Preferences --> Sound Hardware --> Output --> Microphone`. This
+:menuselection:`Preferences --> Sound Hardware --> Output --> Headphone`. This
 allows you to listen and synchronize the track you will play next in your
 headphones before your audience hears the track. See also :ref:`interface-pfl`.
 

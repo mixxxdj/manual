@@ -104,8 +104,8 @@ Live Broadcasting Preferences
   :term:`Icecast 2<icecast>` servers are supported.
 * **Host**: You can enter the host as either a host name or an IP address.
 * **Login**: As provided by your streaming server provider. Without this, you
-  will not connect successfully to the server. The default password for
-  *Icecast* is ``source`` while the default password for Shoutcast is ``admin``.
+  will not connect successfully to the server. The default login for
+  *Icecast* is ``source`` while the default login for Shoutcast is ``admin``.
 * **Mount**: A mount point is a unique name identifying a particular stream.
   For *Shoutcast* it is not necessary to specify a mount point. The setting must
   not be blank if you are using *Icecast*. Try the default ``/mount`` or

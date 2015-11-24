@@ -27,8 +27,8 @@ Installation on Windows
 * If the installation is complete, a confirmation screen will appear.
 * Close the installer screen.
 
-Mixxx is supported on Windows 8, Windows 7, Windows Vista or Windows XP, with
-native 32 and 64-bit versions.
+Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
+64-bit versions.
 
 .. note:: If you are not sure about 32-bit versus 64-bit, pick the 32-bit
           version when downloading the Mixxx installer.

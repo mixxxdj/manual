@@ -67,7 +67,7 @@ Track Information Display
   :term:`metadata`.
 
 **Track Artist**
-  The title of the track is listed below. It is the same as listed under the
+  The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the Mixxx library.
 
 **BPM (Tempo)**
@@ -149,16 +149,16 @@ visually by aligning the beats that appear in each waveform.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Interface -->
-             Waveform Display --> Display type`.
+             waveform, in :menuselection:`Preferences --> Waveforms -->
+             Summary type`.
 
 **Waveform overview**
 
   .. versionadded:: 2.0
 
      Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Interface
-     --> Waveform Display --> Preview type`.
+     of displays for the overview in :menuselection:`Preferences --> Waveforms
+     --> Overview type`.
 
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
@@ -330,10 +330,10 @@ Decks and samplers now pick which sync target to sync to on the fly. Decks can't
 sync to samplers and samplers can only sync to decks. The sync target for
 samplers is:
 
-* The first (in numerical order) deck that is playing (rate > 0) a track that
-  has a detected beatgrid.
-* The first (in numerical order) deck that has a track loaded with a detected
-  beatgrid (could be stopped).
+* The first deck (in numerical order) that is playing a track with a detected
+  beatgrid, and has a rate different than zero.
+* The first deck (in numerical order) that has a track loaded with a detected
+  beatgrid, no matter if it is playing or stopped.
 
 So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
 track with a beatgrid then deck 1 will win since numerically it is first. The
@@ -623,8 +623,8 @@ Headphone and Master Mix Controls
 **Head-Mix Knob**
   Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
-  Cueing signal. If the knob is set to the left, you only hear the cueing signal
-  which can be useful for prelistening tracks.
+  Cueing signal. If the knob is set to the left, you only hear the cueing signal,
+  which is the usual position for prelistening tracks.
 
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
@@ -971,7 +971,7 @@ are as follows:
   Clicking this button ejects the track from the deck.
 
 **Mix Orientation Toggle**
-  This control determines the microphone input's mix orientation.
+  This control determines the sampler input's mix orientation.
 
 **Keylock Toggle**
   :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
