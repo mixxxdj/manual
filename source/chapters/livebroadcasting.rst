@@ -124,7 +124,7 @@ Live Broadcasting Preferences
 
 **Stream Setting**
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Dynamically update Ogg Vorbis metadata` option
 
 * **Public stream**: If enabled, this option adds your radio station to the
@@ -153,7 +153,7 @@ Live Broadcasting Preferences
 
 **Shoutcast metadata format**
 
-  .. versionadded:: 1.12
+  .. versionadded:: 2.0
 
   This allows to set custom metatdata formats for the Shoutcast title field.
   Previously only ``artist - title`` was allowed. For example if you were

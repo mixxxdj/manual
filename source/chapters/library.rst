@@ -122,7 +122,7 @@ music library.
 Track list context menu
 -----------------------
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
    context menu options and :guilabel:`Cover Art`
 
@@ -240,7 +240,7 @@ The features in detail:
 Loading Tracks
 ==============
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Supports dragging tracks from deck to deck.
 
 Tracks can be loaded into a deck in several ways:
@@ -295,7 +295,7 @@ Using search operators
 Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Adds *location*, *album_artist*, and *key* search keywords. Supports
    human-readable time suffixes in time-based search query filters, e.g.
    ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
@@ -524,7 +524,7 @@ again, you may activate the :guilabel:`Auto DJ Requeue` option in
 
 **AutoDJ Crates**
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
 It is possible to add random tracks to the bottom of the Auto DJ playlist. The
 tracks are not chosen from the standard library but from a set of crates. It
@@ -563,7 +563,7 @@ intended for live, attended performance use. However, you can use the
   the name of a playlist in the sidebar. Alternatively, use the right-click
   context menu in the library's :ref:`track list <library-root>`.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Analyze Playlist` option in the context menu.
    Import playlists by drag-and-dropping them into a playlist in the sidebar.
    :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
@@ -612,7 +612,7 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   in the sidebar. Alternatively use the context menu in the library's
   :ref:`track list<library-root>`.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Analyze Crate` context menu option.
    :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
    remember the last selected playlist directory.
@@ -677,7 +677,7 @@ Browse - Loading remote tracks
 |ic_lib_browse| Browse mode works like a file-manager and allows you to load
 tracks that are not necessarily already in your Mixxx library.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Add music directories directly from the Browse sidebar item.
 
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
@@ -731,7 +731,7 @@ track during the current session, it will be discarded.
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
 view, then right-click on a sessions name to access the different features:
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Create new history playlist` context menu option.
    :guilabel:`Export playlist` context menu option remember the last selected
    playlist directory.
@@ -774,7 +774,7 @@ Supported libraries:
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Support for Banshee music player
 
 The external library views allow you to use the music libraries you have created

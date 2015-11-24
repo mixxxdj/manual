@@ -248,7 +248,7 @@ Importing your audio files
 
 **Compatible files**
 
-  .. versionadded:: 1.12
+  .. versionadded:: 2.0
      Support for the Opus audio format.
 
   Mixxx supports a variety of audio file formats: :term:`Wave <WAV>` (wav),
@@ -293,7 +293,7 @@ Importing your audio files
 Changing music directories
 ==========================
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Handles multiple music library folders and adds an option to move them to
    another location without data loss.
 
@@ -489,7 +489,7 @@ view on the left side panel of the library. Thiis allows you to run
 advance. While analyzing, the progress in percentage and total queue length are 
 shown.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Drag and drop tracks from the library or external file managers onto the
    analysis view to instantly analyze these files. The title changes to
    :guilabel:`Analyze (x/y)` where x is the number of tracks that have been

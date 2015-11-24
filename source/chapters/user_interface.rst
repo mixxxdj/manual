@@ -154,7 +154,7 @@ visually by aligning the beats that appear in each waveform.
 
 **Waveform overview**
 
-  .. versionadded:: 1.12
+  .. versionadded:: 2.0
 
      Like with the Waveform summary, you can now select from different types
      of displays for the overview in :menuselection:`Preferences --> Interface
@@ -390,7 +390,7 @@ Transport Controls
 
    The transport controls of the deck
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Right-click on the Reverse button activates Reverse Roll (Censor)
 
 **Fast-Rewind button**
@@ -617,7 +617,7 @@ Headphone and Master Mix Controls
 
 .. todo:: Update section to reflect 1.12 GUI layout.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Headphone split cue option
 
 **Head-Mix Knob**
@@ -836,7 +836,7 @@ The Cue point is moved according to the selected Cue mode, as explained below.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
 
 Mixxx supports various Cue modes that adapt to fit other devices in your
@@ -1017,7 +1017,7 @@ Sample Deck Controls
 The Effects Section
 ===================
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
 .. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
    :align: center
@@ -1089,7 +1089,7 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Microphone can accept stereo or mono input now.
 
 * Most computers have built-in microphones, while some are connected through USB.

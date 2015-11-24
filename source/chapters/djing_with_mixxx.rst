@@ -134,7 +134,7 @@ appropriate direction.
 Master Sync
 ===========
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
 :term:`Master Sync` is an intelligent assistant that allows you to leave the
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
@@ -183,7 +183,7 @@ Preferences <key-detection>`.
 Using Effects
 =============
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
 Mixxx comes with a set of native effects.
 
@@ -363,7 +363,7 @@ choose to create them in the preferences.
 Record your mix to disk
 -----------------------
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Displays the duration of the recording.
 
 * Click on the *Recordings* icon in the sidebar to switch to the
