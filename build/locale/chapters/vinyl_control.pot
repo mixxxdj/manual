@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 13:14+0100\n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:22
-msgid "Vinyl control uses special :term:`timecode` records or CD's which are placed on real turntables or :term:`CDJ`s. The audio output of the turntables is plugged into a soundcard connected to a computer on which Mixxx is running. When a record is played on one of the attached turntables, Mixxx reads the timecode from the record and uses the information to manipulate whatever track is loaded."
+msgid "Vinyl control uses special :term:`timecode` records or CD's which are placed on real turntables or :term:`CDJ`. The audio output of the turntables is plugged into a soundcard connected to a computer on which Mixxx is running. When a record is played on one of the attached turntables, Mixxx reads the timecode from the record and uses the information to manipulate whatever track is loaded."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:34
@@ -45,7 +45,7 @@ msgid "**Setup 1: Vinyl DJ**"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:44
-msgid "Two timecode vinyls, two turntables with phono pre-amplifiers (or line-level output), and two stereo sound inputs."
+msgid "2-4 timecode vinyls, 2-4 turntables with phono pre-amplifiers (or line-level output), and 2-4 stereo sound inputs."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:47
@@ -73,7 +73,7 @@ msgid "**Setup 2: CDJ**"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:80
-msgid "Two timecode CDs, two CD decks, and two stereo sound inputs."
+msgid "2-4 timecode CDs, 2-4 CD decks, and 2-4 stereo sound inputs."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:82
@@ -93,11 +93,11 @@ msgid "It is recommended to use a proper DJ sound card that has **multiple** ste
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:101
-msgid "Alternatively you can use two sound cards, each with a single stereo line in, but this is strongly discouraged."
+msgid "Alternatively you can use multiple sound cards, each with a single stereo line in, but this is strongly discouraged."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:104
-msgid "Mixxx supports vinyl control input through a single soundcard with at least 4-channels of input (two stereo line-in jacks), or through two separate soundcards which each have 2-channels of input (a single stereo line-in jack). Vinyl control requires the use of stereo line-in jacks - Mono or microphone inputs will not work."
+msgid "Mixxx supports vinyl control input through a single soundcard with at least 4-channels of input (two stereo line-in jacks), or through multiple separate soundcards which each have 2-channels of input (a single stereo line-in jack). Vinyl control requires the use of stereo line-in jacks - Mono or microphone inputs will not work."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:110
@@ -172,7 +172,7 @@ msgid "Mixxx preferences - Setting up Input and Output devices for Vinyl Control
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:162
-msgid "Mixxx can be controlled by up to 2 decks with either timecoded vinyl or timecoded CDs."
+msgid "Mixxx can be controlled by up to 4 decks with either timecoded vinyl or timecoded CDs."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:165
@@ -184,11 +184,11 @@ msgid "Select the :guilabel:`Input` tab"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:167
-msgid "From the :guilabel:`Vinyl Control 1` and :guilabel:`Vinyl Control 2` drop-down menus, select the soundcard(s) which your decks are plugged into"
+msgid "From the :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4` drop-down menus, select the soundcard(s) which your decks are plugged into"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:169
-msgid "In the channel selection drop-down menu, select the channel pairs corresponding to the plug on your soundcard that your deck(s) are plugged into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4`"
+msgid "In the channel selection drop-down menu, select the channel pairs corresponding to the plug on your soundcard that your deck(s) are plugged into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4` etc."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:172
@@ -201,7 +201,7 @@ msgid "Select the :guilabel:`Output` tab"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:174
-msgid "Specified :guilabel:`Deck 1` and :guilabel:`Deck 2` to route Mixxx's output directly to the external mixer"
+msgid "Specify :guilabel:`Deck 1` - :guilabel:`Deck 4` to route Mixxx's output directly to the external mixer"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:179
@@ -297,7 +297,7 @@ msgid "A successful vinyl control setup hinges on good signal quality. Many fact
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:283
-msgid "Mixxx represents your timecode signal quality as a circular representation of the vinyl control audio signal itself. The two graphs correspond to your :guilabel:`Deck 1` and :guilabel:`Deck 2` input devices."
+msgid "Mixxx represents the quality of the timecode signal as a circular graphic coming from the vinyl control audio itself. The graphs correspond to your active input devices :guilabel:`Deck 1` - :guilabel:`Deck 4` ."
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:287
@@ -381,7 +381,7 @@ msgid "Just drop the needle in the control area and let the record play forward 
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:372
-#: ../../source/chapters/vinyl_control.rst:396
+#: ../../source/chapters/vinyl_control.rst:395
 msgid "Troubleshooting"
 msgstr ""
 
@@ -394,154 +394,154 @@ msgid "To complete your setup you must configure Mixxx properly. Make sure you h
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:378
-msgid "specified :guilabel:`Deck 1` and :guilabel:`Deck 2` in :menuselection:`Preferences --> Sound Hardware` to route Mixxx's output directly to the external mixer"
+msgid "specified :guilabel:`Deck 1` - :guilabel:`Deck 4` in :menuselection:`Preferences --> Sound Hardware` to route Mixxx's output directly to the external mixer"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:381
-msgid "specified :guilabel:`Vinyl Control 1` and :guilabel:`Vinyl Control 2` under :menuselection:`Preferences --> Sound Hardware --> Input`"
+msgid "specified :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4` under :menuselection:`Preferences --> Sound Hardware --> Input`"
 msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:383
-msgid "selected the correct control type under :menuselection:`Preferences --> Vinyl Control --> Vinyl type` in the preferences. See :ref:`control-timecode` for the list of supported control records/CDs."
+msgid "selected the correct control type under :menuselection:`Preferences --> Vinyl Control --> Vinyl type` in the preferences. See the list of `Supported Timecode media`_"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:387
+#: ../../source/chapters/vinyl_control.rst:386
 msgid "enabled vinyl control via the menu under :menuselection:`Options -> Vinyl Control --> Enable Vinyl Control`."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:390
+#: ../../source/chapters/vinyl_control.rst:389
 msgid "**Signal Quality**"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:392
+#: ../../source/chapters/vinyl_control.rst:391
 msgid "The graph is displayed in :menuselection:`Preferences --> Vinyl Control`, see :ref:`vinyl-control-signal-quality`."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:396
+#: ../../source/chapters/vinyl_control.rst:395
 msgid "Signal"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:396
+#: ../../source/chapters/vinyl_control.rst:395
 msgid "Meaning"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:398
+#: ../../source/chapters/vinyl_control.rst:397
 msgid "|miss_config|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:398
+#: ../../source/chapters/vinyl_control.rst:397
 msgid "Vinyl control input channels not correctly set up. Vinyl control will not work."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:398
+#: ../../source/chapters/vinyl_control.rst:397
 msgid "Open Preferences/ Sound Hardware and set up the devices you want to use, see `Configuring Input and Output devices`_"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:403
+#: ../../source/chapters/vinyl_control.rst:402
 msgid "|no_signal|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:403
+#: ../../source/chapters/vinyl_control.rst:402
 msgid "Vinyl control input channels set up correctly. Waiting for timecode input signal."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:403
+#: ../../source/chapters/vinyl_control.rst:402
 msgid "Start your turntable or CDJ with the selected timecode vinyl or CD."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:407
+#: ../../source/chapters/vinyl_control.rst:406
 msgid "|ok|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:407
+#: ../../source/chapters/vinyl_control.rst:406
 msgid "Nearly perfect green doughnut about about half the width of the graph. Rotating radar sweeps in the direction your record on the turntable is spinning."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:407
+#: ../../source/chapters/vinyl_control.rst:406
 msgid "Everything is OK, nothing to do. Go spin some beats."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:413
+#: ../../source/chapters/vinyl_control.rst:412
 msgid "|wrong_type|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:413
+#: ../../source/chapters/vinyl_control.rst:412
 msgid "Incorrect choice of vinyl control source. Doughnut looks good but has a solid red color."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:413
+#: ../../source/chapters/vinyl_control.rst:412
 msgid "Select the correct vinyl type in the preferences. E.g. maybe you selected side B of the Serato Vinyl but your record is on side A."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:418
+#: ../../source/chapters/vinyl_control.rst:417
 msgid "|bad_signal|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:418
+#: ../../source/chapters/vinyl_control.rst:417
 msgid "Input signal is bad. As the vinyl signal gets worse, you'll see the color of the doughnut change from green over orange to red."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:418
+#: ../../source/chapters/vinyl_control.rst:417
 msgid "Check the wiring / grounding on your turntable / CDJ. You timecode record / CD might be worn out or the needle on your turntable is dirty."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:423
+#: ../../source/chapters/vinyl_control.rst:422
 msgid "|wrong_dir|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:423
+#: ../../source/chapters/vinyl_control.rst:422
 msgid "Wrong direction. The green doughnut looks good but the radar sweeps in the opposite direction of the record on your turntable / CDJ."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:423
+#: ../../source/chapters/vinyl_control.rst:422
 msgid "You probably have a wiring problem. Try reversing the left and right inputs on your turntable. You may also have to rewire the headshell."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:428
+#: ../../source/chapters/vinyl_control.rst:427
 msgid "|not_timecode|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:428
+#: ../../source/chapters/vinyl_control.rst:427
 msgid "Input signal is no timecode signal. Mixxx receives a normal audio signal while it expects a timecode signal."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:428
+#: ../../source/chapters/vinyl_control.rst:427
 msgid "Start your turntable or CDJ with the selected timecode vinyl or CD. You may want to check if the inputs devices are set up correctly in the preferences."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:434
+#: ../../source/chapters/vinyl_control.rst:433
 msgid "|unbalanced|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:434
+#: ../../source/chapters/vinyl_control.rst:433
 msgid "Left or right channel is missing. Mixxx receives only a mono signal but needs a stereo timecode signal to operate."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:434
+#: ../../source/chapters/vinyl_control.rst:433
 msgid "Check the wiring on your turntable / CDJ and also the headshell and needle on your turntable."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:439
+#: ../../source/chapters/vinyl_control.rst:438
 msgid "|too_loud|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:439
+#: ../../source/chapters/vinyl_control.rst:438
 msgid "Timecode signal too loud. Mixxx receives a signal which has too much amplification."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:439
+#: ../../source/chapters/vinyl_control.rst:438
 msgid "Lower the amplification, either on your external Mixer, soundcard or with the `Turntable Input Preamp`_"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:443
+#: ../../source/chapters/vinyl_control.rst:442
 msgid "|too_quiet|"
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:443
+#: ../../source/chapters/vinyl_control.rst:442
 msgid "Timecode signal too quiet. Mixxx receives a signal which has not enough amplification."
 msgstr ""
 
-#: ../../source/chapters/vinyl_control.rst:443
+#: ../../source/chapters/vinyl_control.rst:442
 msgid "Boost the amplification, either on your external Mixer, soundcard or with the `Turntable Input Preamp`_"
 msgstr ""
 

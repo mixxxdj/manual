@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 13:14+0100\n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "**Track Artist**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:70
-msgid "The title of the track is listed below. It is the same as listed under the :guilabel:`Artist` column heading in the Mixxx library."
+msgid "The artist of the track is listed below. It is the same as listed under the :guilabel:`Artist` column heading in the Mixxx library."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:81
@@ -135,7 +135,7 @@ msgid "The big waveform summary shows the waveform envelope of the track near th
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:150
-msgid "You can select from different types of displays for the waveform, which differ primarily in the level of detail shown in the waveform, in :menuselection:`Preferences --> Interface --> Waveform Display --> Display type`."
+msgid "You can select from different types of displays for the waveform, which differ primarily in the level of detail shown in the waveform, in :menuselection:`Preferences --> Waveforms --> Summary type`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:155
@@ -144,7 +144,7 @@ msgid "**Waveform overview**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:159
-msgid "Like with the Waveform summary, you can now select from different types of displays for the overview in :menuselection:`Preferences --> Interface --> Waveform Display --> Preview type`."
+msgid "Like with the Waveform summary, you can now select from different types of displays for the overview in :menuselection:`Preferences --> Waveforms --> Overview type`."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:163
@@ -355,11 +355,11 @@ msgid "Decks and samplers now pick which sync target to sync to on the fly. Deck
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:333
-msgid "The first (in numerical order) deck that is playing (rate > 0) a track that has a detected beatgrid."
+msgid "The first deck (in numerical order) that is playing a track with a detected beatgrid, and has a rate different than zero."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:335
-msgid "The first (in numerical order) deck that has a track loaded with a detected beatgrid (could be stopped)."
+msgid "The first deck (in numerical order) that has a track loaded with a detected beatgrid, no matter if it is playing or stopped."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:338
@@ -640,7 +640,7 @@ msgid "**Head-Mix Knob**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:624
-msgid "Allows you to control how much of the master output you hear in your headphones. It works like a crossfader between the stereo Master and stereo Cueing signal. If the knob is set to the left, you only hear the cueing signal which can be useful for prelistening tracks."
+msgid "Allows you to control how much of the master output you hear in your headphones. It works like a crossfader between the stereo Master and stereo Cueing signal. If the knob is set to the left, you only hear the cueing signal, which is the usual position for prelistening tracks."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:629
@@ -993,7 +993,7 @@ msgid "**Mix Orientation Toggle**"
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:974
-msgid "This control determines the microphone input's mix orientation."
+msgid "This control determines the sampler input's mix orientation."
 msgstr ""
 
 #: ../../source/chapters/user_interface.rst:977

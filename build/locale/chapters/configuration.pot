@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 13:14+0100\n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgid "Headphone Output"
 msgstr ""
 
 #: ../../source/chapters/configuration.rst:98
-msgid "In both internal and external mixer mode, you can choose a headphone output for :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` in :menuselection:`Preferences --> Sound Hardware --> Output --> Microphone`. This allows you to listen and synchronize the track you will play next in your headphones before your audience hears the track. See also :ref:`interface-pfl`."
+msgid "In both internal and external mixer mode, you can choose a headphone output for :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` in :menuselection:`Preferences --> Sound Hardware --> Output --> Headphone`. This allows you to listen and synchronize the track you will play next in your headphones before your audience hears the track. See also :ref:`interface-pfl`."
 msgstr ""
 
 #: ../../source/chapters/configuration.rst:107

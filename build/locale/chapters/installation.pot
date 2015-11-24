@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 13:14+0100\n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Close the installer screen."
 msgstr ""
 
 #: ../../source/chapters/installation.rst:30
-msgid "Mixxx is supported on Windows 8, Windows 7, Windows Vista or Windows XP, with native 32 and 64-bit versions."
+msgid "Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and 64-bit versions."
 msgstr ""
 
 #: ../../source/chapters/installation.rst:33
