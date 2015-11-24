@@ -360,9 +360,7 @@ the log on exit.
 Version History
 ===============
 
-.. todo:: Add 1.12 release date
-
-**v1.12.0** (2015-XX-XX)
+**v2.0.0** (2015-12-31)
 
   * 4 Decks with Master Sync
   * New Effects Framework with 4 Effect Units and 5 Built-in Effects:
@@ -379,7 +377,7 @@ Version History
   * New Pitch-Independent Algorithm for Better-Sounding Key-lock
 
 For a full list of new features and bugfixes, go to:
-`https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_.
+`https://launchpad.net/mixxx/2.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_.
 
 **v1.11.0** (2013-05-09)
 
@@ -427,6 +425,3 @@ For a full list of new features and bugfixes, go to:
 
 .. seealso:: For an overview of previous versions, `take a look
              <https://launchpad.net/mixxx/+series>`_ at the timeline.
-
-
-
