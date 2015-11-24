@@ -641,7 +641,7 @@ Headphone and Master Mix Controls
   the master output.
 
 .. _interface-gain-knob:
-  
+
 **Gain Knob**
   The Gain Knob controls the gain applied to the Master output signal that
   Mixxx sends to your sound card, Internet broadcasting servers, and recorded
@@ -652,7 +652,7 @@ Headphone and Master Mix Controls
   On active speakers, including computer speakers, studio monitors, and PA
   systems that do not require a separate amplifier, this means adjusting the
   gain on the speakers (which may be labeled "Volume").
-  
+
   As a DJ, you may not have access to the power amplifier. In that case,
   adjust the volume by adjusting the gain on the equipment closest to the power
   amplifier that you have access to. Typically, this is a DJ mixer. If you are
@@ -661,14 +661,14 @@ Headphone and Master Mix Controls
   computers), adjust the sound card settings with your :term:`OS <operating system>`
   mixer program. The Master Gain Knob in Mixxx should be a last resort for
   adjusting volume.
-  
+
   .. warning:: **In no case should any part of the signal chain be clipping,
                indicated by a level meter going into its red region
                or an LED labeled "clipping" turning on.**
-  
+
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
-  
+
 **Head Gain Knob**
   This knob controls the gain applied to the headphone output signal that Mixxx
   sends to your sound card. Generally, this knob should not be adjusted. To
@@ -699,12 +699,12 @@ button and allows you to use headphone cueing. That is, it allows you to hear
 the track you will play next in your headphones before your audience hears it.
 This helps you plan when to start the next track and manipulate it to
 make it blend better with the currently playing track (for example, by
-synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button plays
-the track on the headphone output at full volume regardless of the position of the crossfader or the 
-deck’s line fader. To play a track in your headphones but not have the 
-audience hear it, press the PFL button and move the crossfader all the 
-way to the opposite side of the deck or turn the deck’s volume fader all the 
-way down.
+synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button
+plays the track on the headphone output at full volume regardless of the
+position of the crossfader or the deck’s line fader. To play a track in your
+headphones but not have the audience hear it, press the PFL button and move the
+crossfader all the way to the opposite side of the deck or turn the deck’s
+volume fader all the way down.
 
 .. note:: Headphone cueing is only available if you have configured a
           Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
@@ -728,14 +728,14 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain applied to the deck. 
+  Above these knobs, the gain knob allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
   (the transients) briefly going into the yellow region. **Do NOT turn the
   Gain Knob up so much that the level meter is in the red region. At this point
   the track is clipping, which sounds bad and could damage equipment.**
-  
+
   .. note:: By default, Mixxx automatically applies an additional ReplayGain so
             tracks have approximately equal loudness at unity gain. Your tracks
             must be :ref:`analyzed <library-analyze>` to take advantage of this
@@ -743,7 +743,7 @@ Equalizers and Gain Knobs
             ReplayGain value, but will not apply a newly calculated ReplayGain
             value to a track after it has already started playing (to avoid a
             sudden change in the gain of a playing track).
-            
+
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
@@ -751,7 +751,7 @@ Equalizers and Gain Knobs
   The low, mid, and high knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
-  
+
   .. warning:: Be careful not to raise the EQs so much that the signal clips,
                indicated by a :term:`level meter` being in the red region. See
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
@@ -764,8 +764,8 @@ Equalizers and Gain Knobs
   range. If the Kill switches do not work as expected, check the high/low shelf
   EQ settings in the preferences.
 
-.. seealso:: You can customize the EQ settings in :menuselection:`Preferences
-             --> Equalizer`.
+.. seealso:: You can customize the EQ settings in
+             :menuselection:`Preferences --> Equalizer`.
 
 .. _interface-crossfader:
 
