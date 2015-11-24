@@ -249,7 +249,7 @@ Tracks can be loaded into a deck in several ways:
   on a track in the table will present the options :guilabel:`Load in Deck 1`
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
-* By :ref:`control-keyboard` to load the selected track from library track 
+* By :ref:`control-keyboard` to load the selected track from library track
   table.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load a track into a deck.
@@ -318,7 +318,7 @@ Mixxx supports the following filters:
        ~key:c#m
 
     You can combine operators but there's no way to do an “OR” search right now.
-    The following example list all tracks by “Danger” over 5 minutes long that
+    The following example list all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
 
     ::
@@ -752,10 +752,10 @@ view, then right-click on a sessions name to access the different features:
 
 Analyze - Prepare your tracks
 =============================
- 
-This section allows you to analyze your tracks in advance of loading them into 
-a deck. Analyzing tracks requires considerably CPU power and may cause skips in 
-the audio while performing, so it helps to have your tracks analyzed before you 
+
+This section allows you to analyze your tracks in advance of loading them into
+a deck. Analyzing tracks requires considerably CPU power and may cause skips in
+the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`library-analyze` for details.
 
 
