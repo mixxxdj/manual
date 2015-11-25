@@ -5,3 +5,4 @@ graphviz
 pycrypto
 ecdsa
 markupsafe
+transifex-client
