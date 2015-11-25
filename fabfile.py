@@ -11,18 +11,49 @@ ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/html')
 env.user = 'mixxx'
 
+def make_command(language):
+    return 'make -e SPHINXOPTS="-D language=\'%s\'"' % language
+
+@task
 def clean():
     local('make clean')
 
+@task
+def i18n_update_source_translations():
+    # Builds .pot files containing translation text from all manual pages.
+    local('make gettext')
+
+    # Updates Transifex configuration to include new chapters / source files.
+    local('sphinx-intl update-txconfig-resources --pot-dir source/locale/pot '
+          '--transifex-project-name mixxxdj-manual --locale-dir source/locale')
+
+@task
+def tx_push():
+    # Pushes latest .pot files to Transifex.
+    local('tx push -s')
+
+@task
+def tx_pull():
+    # Pulls latest .po translation files for all languages from Transifex.
+    local('tx pull -a')
+
+@task
+def i18n_build():
+    # Re-build .mo files.
+    local('sphinx-intl build')
+
+@task
 def regen():
     clean()
     html()
 
-def html():
-    local('make html')
+@task
+def html(language='en'):
+    local('%s html' % make_command(language))
 
-def pdf():
-    local('make latex')
+@task
+def pdf(language='en'):
+    local('%s latex' % make_command(language))
     # The manual PDF build typically throws tons of errors. We should fix them
     # but for now we ignore so the build server job isn't always marked as
     # failed when a mostly-working PDF is generated.
@@ -33,6 +64,7 @@ def pdf():
             local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
             local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
 
+@task
 @hosts(PROD)
 def publish():
     regen()

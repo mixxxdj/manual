@@ -1,5 +1,4 @@
-Mixxx User Manual
-=================
+# Mixxx User Manual
 
 This repository contains the sources for the Mixxx User Manual as
 found at <http://mixxx.org/manual/latest/>.
@@ -70,8 +69,14 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
 ### Prerequisites
 
-* Install [sphinx-intl], a utility tool that provides several features that make it easy to translate and to apply translation to Sphinx generated documents.
-* Install [transifex-client]. Transifex allows collaborative translation via a web interface. The Python-based command line client makes it easy to fetch and push translations.
+If you did not install requirements with `pip install -r requirements.txt` above
+then you must manually install the following dependencies:
+
+* [sphinx-intl], a utility that makes it easy to translate and compile
+  translations to Sphinx projects.
+* [transifex-client]. Transifex allows collaborative translation via a web
+  interface. The Python-based command line client makes it easy to fetch and
+  push translations.
 
   Install transifex-client on Linux and Mac OS X
 
@@ -81,39 +86,86 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
   `http://files.transifex.com/transifex-client/0.11b3/tx.exe`
 
-### Maintaining the Mixxx manual translations
+  You will need to make a `.transifexrc` in your home directory with your
+  username and password to use the Transifex client. See
+  [transifex-configuration] for more details.
 
-* Clean the build directory
+### Maintaining translations
 
- `make clean`
+These steps document how to maintain the translations of the Mixxx
+manual. **Typically, unless you are a manual maintainer you do not need to
+perform these steps.** However, it is appreciated if you update the source
+translations when making changes to the manual.
 
-* Extract translatable strings into translation templates (`.pot` files):
+#### Update source translations
 
- `make gettext`
+For every change to the manual source files (.rst) the source translation files
+(.pot) must be re-generated. These are stored in `source/locale/pot` and contain
+the text of every English phrase in the manual in a common format used for
+translation.
 
-* Generate the Transifex file-to-resource mappings in `.tx/config`:
+Additionally, for every new source file added (i.e. new chapters or manaul
+pages) the Transifex configuration file (stored in `.tx/config`) needs updating.
 
- `sphinx-intl update-txconfig-resources --pot-dir source/locale/pot --transifex-project-name mixxxdj-manual --locale-dir source/locale`
+To do both of these, run:
 
-* Push the `.pot` files to Transifex with:
+    fab i18n_update_source_translations
 
- `tx push -s`
+Commit the new source translations and Transifex configuration with:
 
-* (optional) Translate on [Transifex]
+    git add source/translations/pot .tx
+    git commit -m "Update source translations and Transifex configuration."
 
-* Download the translated strings from Transifex:
+#### Push source translations to Transifex
 
- `tx pull -l`
+After generating new source translation files and updating the Transifex
+configuration, you must push the new source files to Transifex to be translated.
 
-* Build the translated manual for the target language, e.g `de-DE` for German/Germany:
+To do this, run:
 
- `sphinx-intl build --locale-dir source/locale make -e SPHINXOPTS="-D language='de-DE'" html`
+    fab tx_push
 
+#### Pull completed translations from Transifex
 
-**Congratulations! You got the translated manual in the** `_build/html` **directory.**
+To pull newly completed translation (.po) files from Transifex, run:
 
+    fab tx_pull
 
-For more infos on Translating with Sphinx, see [Sphinx i18n].
+Commit the changes to the repository with:
+
+    git add source/translations
+    git commit -m "Pull latest translations from Transifex."
+
+#### Compile the translations from Transifex and verify there are no errors.
+
+To compile the translations (.po) from Transifex into compiled translation (.mo)
+files, run:
+
+    fab i18n_build
+
+We do not check .mo files into the repository, so make sure you do not add
+them (they are ignored by our `.gitignore`).
+
+### To build a translated manual in a particular language:
+
+**Note:** it's good practice to clean your build directory first:
+
+    fab clean
+
+For example, to build an HTML manual for `de-DE` (Germany/Germany):
+
+    fab i18n_build html:language=de-DE
+
+Unless an error occurred, your translated HTML manual is in the `build/html`
+directory.
+
+To build a PDF manual:
+
+    fab i18n_build pdf:language=de-DE
+
+Your translated PDF manual is located at `build/latex/Mixxx-Manual.pdf`.
+
+For more information on Translating with Sphinx, see [Sphinx i18n].
 
 ## Release Checklist for maintainers
 
@@ -122,11 +174,10 @@ For more infos on Translating with Sphinx, see [Sphinx i18n].
 * Temporarily disable the *For documentation writers* toctree from TOC in `/index.rst`
 * Update the release and version tags in `/conf.py`
 * [Tag] the repository with the version number, and [create a new release].
-* Run `make html` to produce html output ready for upload to http://mixxx.org/manual/latest/
+* Run `fab html` to produce html output ready for upload to http://mixxx.org/manual/latest/
 * Check the output compiles correctly and does not produce any warnings
 * Add translated html output for all available languages, see [i18n]
-* Run `make latexpdf` to produce pdf output for distribution
-* Run `make latexpdf` again, or the TOC is missing from the resulting pdf
+* Run `fab pdf` to produce PDF output for distribution
 
 ## Resources
 
@@ -158,6 +209,7 @@ Even more [reStructuredText] resources:
 
 [Transifex]: https://www.transifex.com/organization/mixxx-dj-software/dashboard/mixxxdj-manual
 [transifex-client]: http://docs.transifex.com/client/setup/
+[transifex-configuration]: http://docs.transifex.com/client/config/
 [Atom]: https://atom.io/
 [Sublime]: http://www.sublimetext.com
 [Kate]: http://kate-editor.org/
