@@ -190,10 +190,10 @@ if "%1" == "texinfo" (
 )
 
 if "%1" == "gettext" (
-	%SPHINXBUILD% -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
+	%SPHINXBUILD% -b gettext %I18NSPHINXOPTS% source/locale/pot
 	if errorlevel 1 exit /b 1
 	echo.
-	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
+	echo.Build finished. The message catalogs are in source/locale/pot.
 	goto end
 )
 
