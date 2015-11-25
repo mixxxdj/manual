@@ -42,13 +42,11 @@ Table of Contents
    chapters/appendix
    glossary
 
-**For documentation writers**
 
-.. toctree::
-   :numbered:
+.. Only include developer documentation when we are not building a release version.
+.. only:: not release
 
-   /todolist
-   /manual_guidelines
+   .. include:: index_developer.rst
 
 .. [#f1] Yes, free with a capital F free. Free as in beer and free as in speech.
          For more information about what this means, see

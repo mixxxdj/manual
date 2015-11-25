@@ -10,9 +10,15 @@ DEST_PATH = '/home/mixxx/public_html/manual/%s' % conf.version
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/html')
 env.user = 'mixxx'
+env.sphinx_tags = []
 
 def make_command(language):
-    return 'make -e SPHINXOPTS="-D language=\'%s\'"' % language
+    tags = ' '.join('-t %s' % tag for tag in env.sphinx_tags)
+    return 'make -e SPHINXOPTS="-D language=\'%s\' %s"' % (language, tags)
+
+@task
+def release():
+    env.sphinx_tags.append('release')
 
 @task
 def clean():
