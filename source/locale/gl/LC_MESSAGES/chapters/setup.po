@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
+"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"Language-Team: Galician (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/gl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/chapters/setup.rst:2
+msgid "Hardware Setup"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:9
+msgid ""
+"This chapter describes the most common hardware setups to serve as examples."
+" We will go over the setup of soundcards, controllers, and timecode "
+"records/CDs."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:12
+msgid ""
+"Headphone cueing, or just cueing, is a crucial aspect of DJing that "
+"separates DJing from merely making a playlist. Headphone cueing allows you "
+"to preview the next track you would like to mix in your headphones. The "
+"audience will not hear what you are cueing in your headphones until you "
+"decide to mix it in."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:17
+msgid ""
+"In order to use headphone cueing, you will need at least 2 separate audio "
+"outputs, typically provided by a USB soundcard (also known as an “audio "
+"interface”). The headphone jack on most laptops is not a second audio "
+"output. Rather, plugging headphones into the jack simply redirects the "
+"laptop's single stereo output from its speakers to your headphones. A "
+"splitter cable can be used to separate the stereo output of a headphone jack"
+" into two separate mono outputs for headphone cueing, but it is recommended "
+"to use a sound card with at least four mono outputs (for two stereo pairs). "
+"Such sound cards tend to be higher quality than those built into laptops and"
+" allow your mix to be enjoyed in stereo by your audience."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:28
+msgid ""
+"Unlike some proprietary DJ systems, Mixxx can use any soundcard and any "
+":term:`MIDI` or :term:`HID` controller that your :term:`OS <operating "
+"system>` has drivers to use. Mixxx can use multiple audio devices "
+"simultaneously. Depending on your budget and application area, your sound "
+"setup and requirements may vary. This section provides useful information "
+"for club, hobby, and radio DJs alike."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:35
+msgid ""
+"The `Mixxx DJ Hardware Guide "
+"<http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists controllers "
+"and sound cards with information about their compatibility with Mixxx and "
+"different :term:`operating systems<operating system>`. It also has "
+"suggestions for what to consider when you are shopping for DJ equipment."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:46
+msgid "Laptop Only"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:55
+msgid "Using Mixxx with your built-in sound card"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:57
+msgid ""
+"There is no need to buy any equipment other than a computer if you do not "
+"require headphone :term:`cueing`. The built-in soundcard on most computers "
+"and laptops comes with a single stereo line-out and a microphone input."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:61
+msgid ""
+"The figure above depicts how the sound configuration might look. The stereo "
+"output of your soundcard (channels 1-2) will be connected to the **Master "
+"out**."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:65 ../../source/chapters/setup.rst:108
+#: ../../source/chapters/setup.rst:161 ../../source/chapters/setup.rst:171
+#: ../../source/chapters/setup.rst:225 ../../source/chapters/setup.rst:250
+msgid "Open :menuselection:`Preferences --> Sound Hardware`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:66 ../../source/chapters/setup.rst:109
+#: ../../source/chapters/setup.rst:162 ../../source/chapters/setup.rst:172
+#: ../../source/chapters/setup.rst:226 ../../source/chapters/setup.rst:251
+msgid "Select the :guilabel:`Output` tab"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:67
+msgid ""
+"From the :guilabel:`Master` drop-down menu, select your built-in soundcard, "
+"then :guilabel:`Channels 1-2`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:69
+msgid ""
+"Depending on your soundcard, you can specify a :ref:`microphone <interface-"
+"mic>`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:72
+msgid "Use your built-in microphone or connect a microphone to your computer"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:73
+msgid ""
+"Check that your microphone is detected by your :term:`OS <operating system>`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:74
+msgid "Open the :guilabel:`Input` tab"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:75
+msgid ""
+"From the :guilabel:`Microphone` drop-down menu, select the input your "
+"microphone is connected to"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:77 ../../source/chapters/setup.rst:117
+#: ../../source/chapters/setup.rst:167 ../../source/chapters/setup.rst:177
+#: ../../source/chapters/setup.rst:231 ../../source/chapters/setup.rst:256
+msgid "Click :guilabel:`Apply` to save the changes."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:79
+msgid ""
+"This minimal configuration may be suitable for **radio DJs** who do not need"
+" headphone cueing."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:85
+msgid "Laptop and Splitter Cable"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:95
+msgid ""
+"The cheapest way to DJ and :term:`cue` with headphones uses a stereo-to-mono"
+" DJ splitter cable (also known as a “Y cable”) plugged into the headphone "
+"jack of a laptop or other computer. This cable divides the stereo output "
+"from a single jack into two separate mono singals."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:100
+msgid ""
+"This setup allows you to start DJing without having to invest in expensive "
+"equipment. However, your audience will not be able to enjoy music producers'"
+" artistic use of stereophonic sound (although many club PA systems are wired"
+" in mono anyway). Furthermore, soundcards built into computers are usually "
+"low quality."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:106
+msgid "**Using a built-in soundcard and a stereo-to-mono splitter**"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:110
+msgid ""
+"Check that your headphones are plugged into the side of the cable with a "
+"headphones symbol and that the speakers are plugged into the side of the "
+"cable with a speaker symbol."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:113
+msgid ""
+"From the :guilabel:`Master` drop-down menu, select your built-in soundcard, "
+"then :guilabel:`Channel 1`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:115
+msgid ""
+"From the :guilabel:`Headphones` drop-down menu, select your built-in "
+"soundcard, then :guilabel:`Channel 2`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:119
+msgid ""
+"See `the wiki "
+"<http://mixxx.org/wiki/doku.php/hardware_compatibility#splitter_cables>`_ "
+"for a list of DJ splitter cables."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:123
+msgid ""
+"Most splitter cables, particularly those marketed as headphone splitter "
+"cables, output the same stereo signal to two headphone jacks and will not "
+"work for this DJ setup. Also, if you use a generic stereo-to-mono splitter "
+"adapter, you may only be able to hear out of one side of your speakers and "
+"headphones. DJ splitter cables allow you to hear the same mono signal on "
+"both sides of your headphones and speakers."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:134
+msgid "Laptop and External USB Soundcard"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:143
+msgid "Using Mixxx together with an external soundcard"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:145
+msgid ""
+"The most common setup for DJing is a laptop and a soundcard with 2 stereo "
+"outputs (4 channels). The first stereo output (channels 1-2) is used as the "
+"master output and supplies the main mix to the audience. With the second "
+"stereo output (channels 3-4) you can :term:`cue <cueing>` and :ref:`preview "
+"<djing-previewing-tracks>` the next track in your headphones. If your "
+"soundcard only has one stereo output, you can use multiple soundcards to "
+"achieve a similar setup. Most DJ controllers above the most basic models "
+"include a soundcard with 2 stereo outputs (see :ref:`setup-controller-and-"
+"external-card` for details)."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:155
+msgid ""
+"The configuration depicted above uses two soundcards. This setup is the bare"
+" minimum for serious DJing. Without any extra gear, the DJ can control Mixxx"
+" via mouse and keyboard. For more information see :ref:`controlling mixxx`."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:159
+msgid "**Using two soundcards (built-in + external)**"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:163 ../../source/chapters/setup.rst:173
+#: ../../source/chapters/setup.rst:252
+msgid ""
+"From the :guilabel:`Master` drop-down menu, select the external soundcard, "
+"then :guilabel:`Channels 1-2`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:165 ../../source/chapters/setup.rst:254
+msgid ""
+"From the :guilabel:`Headphones` drop-down menu, select the built-in "
+"soundcard, then :guilabel:`Channels 1-2`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:169
+msgid "**Using an external multi-channel soundcard**"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:175
+msgid ""
+"From the :guilabel:`Headphones` drop-down menu, select the external "
+"soundcard, then :guilabel:`Channels 3-4`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:179
+msgid ""
+"If you have technical difficulties with your external sound card, a "
+":ref:`splitter cable<setup-laptop-with-splitter>` can be used as a portable,"
+" inexpensive backup."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:183
+msgid ""
+"Soundcards designed and marketed for recording often have a knob that allows"
+" you to mix its input directly with its output. This function can be helpful"
+" when recording (to hear the input without the latency of going through the "
+"computer), but the master output level will be low even if there is no sound"
+" on the inputs. To get the maximum output level from these soundcards, you "
+"may need to set this knob to only send output from the computer and none "
+"from the input(s)."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:194
+msgid "Laptop and MIDI or HID Controller"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:196
+msgid ""
+"Most DJs prefer the tactile and intuitive control provided by DJ MIDI or HID"
+" controllers over only a keyboard and mouse. Mixxx can work with any "
+":term:`MIDI` or :term:`HID` :term:`controller` as long as there is a mapping"
+" file to tell Mixxx how to understand the controller's signals. Mixxx comes "
+"bundled with a number of MIDI and HID mapping presets, which are listed in "
+"the `Mixxx DJ Hardware Guide "
+"<http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ on the wiki. For "
+"controllers that Mixxx does not yet support, you can `search the forum "
+"<http://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has started "
+"a mapping. You can also start one yourself using the information in the "
+"`Controller Mapping Documentation "
+"<http://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_ on"
+" the wiki."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:209
+msgid "Controllers with an integrated soundcard"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:211
+msgid ""
+"Many DJ controllers include an integrated *multi-channel* soundcard. A setup"
+" with this kind of controller may look like the diagram below:"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:221
+msgid "Using Mixxx together with a DJ controller and integrated soundcard"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:223
+msgid "**Using a controller with an integrated multi-channel soundcard**"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:227
+msgid ""
+"From the :guilabel:`Master` drop-down menu, select your controller's "
+"soundcard, then :guilabel:`Channels 1-2`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:229
+msgid ""
+"From the :guilabel:`Headphones` drop-down menu, select your controller's "
+"soundcard, then :guilabel:`Channels 3-4`"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:234
+msgid "Controllers without an integrated sound card"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:236
+msgid ""
+"Controllers without an integrated soundcard can be used together with a USB "
+"soundcard as depicted in the diagram below:"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:246
+msgid "Using Mixxx together with a DJ controller and external soundcard"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:248
+msgid "**Using a controller without an integrated soundcard**"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:258
+msgid ""
+"You can connect as many controllers as you have ports on your computer. Just"
+" follow the steps in :ref:`control-midi` for each controller you want to "
+"use."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:269
+msgid "Laptop, External Hardware Mixer and Vinyl Control"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:278
+msgid "Using Mixxx together with turntables and external mixer"
+msgstr ""
+
+#: ../../source/chapters/setup.rst:280
+msgid ""
+"This setup allows DJs to use the techniques of DJing with vinyl record "
+"turntables combined with the portability and flexibility of a laptop "
+"computer. Instead of carrying crates of records or CDs, DJs can carry their "
+"entire music collection on their laptop. In addition to a laptop and "
+"headphones, this setup requires a soundcard with at least two pairs of "
+"stereo inputs and outputs as well as a pair of :term:`timecode` records."
+msgstr ""
+
+#: ../../source/chapters/setup.rst:287
+msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
+msgstr ""

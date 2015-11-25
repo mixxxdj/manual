@@ -1,0 +1,887 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Fer22f <Fer22f@gmail.com>, 2015
+# Fer22f <Fer22f@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
+"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/glossary.rst:2
+msgid "Glossary of Terms"
+msgstr "Glossário"
+
+#: ../../source/glossary.rst:217
+msgid "AAC"
+msgstr "AAC"
+
+#: ../../source/glossary.rst:219
+msgid ""
+"Advanced Audio Coding (AAC) is a patented audio compression algorithm which "
+"uses a form of :term:`lossy` data compression. Designed to be the successor "
+"to :term:`MP3`, AAC generally achieves better sound quality at similar bit "
+"rates. While the .AAC extension is sometimes used for AAC-encoded files, "
+"they are typically saved with an .M4A file extension."
+msgstr "O Advanced Audio Coding (ACC), em português Codificação de Áudio Avançada é um algorítimo de compressão de áudio patenteado que comprime o áudio :term:`com perdas <lossy>`. Projetado para ser o sucessor do :term:`MP3`, o AAC geralmente consegue melhor qualidade de som em taxas de bit similares. Enquanto a extensão .AAC é algumas vezes usada para arquivos codificados em AAC, tipicamente eles são salvos com a extensão .M4A."
+
+#: ../../source/glossary.rst:417
+msgid "AcoustID"
+msgstr "AcoustID"
+
+#: ../../source/glossary.rst:419
+msgid ""
+"An acoustic fingerprint system built entirely on :term:`open-source` "
+"technology. It aims to create a free database of user-submitted audio "
+"fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata` "
+"database and provide a web service for audio file identification using this "
+"database. For more information, see`<https://acoustid.org/>`_."
+msgstr "Um sistema de impressão digital acústica construído inteiramente em tecnologia de :term:`código aberto`. Tem como objetivo criar um banco de dados gratuito de impressões digitais de áudio mandados por usuários com mapeamento com os :term:`metadados` da base de dados do :term:`MusicBrainz` e fornecer um serviço web para a identificação do arquivo de áudio usando este banco de dados. Para mais informações veja `<https://acoustid.org/>`_."
+
+#: ../../source/glossary.rst:229
+msgid "AIFF"
+msgstr "AIFF"
+
+#: ../../source/glossary.rst:231
+msgid ""
+"Short for Audio Interchange File Format. High-quality digital audio file "
+"format, similar to .wav files. Contains CD-quality audio stored in a non-"
+"compressed, :term:`lossless` format. AIFF files generally end with a .AIFF "
+"or .AIF extension."
+msgstr "É o nome curto para Audio Interchange File Format, em português Formato de Arquivo de Áudio Interligado. É um arquivo de áudio digital de alta qualidade, similar aos arquivos .wav. Contém qualidade de CD guardados em um formato não comprimido :term:`sem perca`. Os arquivos AIFF geralmente terminam com a extensão .AIFF ou .AIF."
+
+#: ../../source/glossary.rst:182
+msgid "balance"
+msgstr "balanceamento"
+
+#: ../../source/glossary.rst:184
+msgid ""
+"A balance control on a mixer allows you to adjust the balance between the "
+"left and right channel. The balance refers to the relative volume of the "
+"corresponding channel in a stereo audio signal."
+msgstr "Um controle de balanceamento em um mixer permite que você ajuste o balanço entre os canais esquerdo e direito. O balanceamento se refere ao volume relativo do respectivo canal em um sinal de áudio estéreo."
+
+#: ../../source/glossary.rst:333
+msgid "bar"
+msgstr "compasso"
+
+#: ../../source/glossary.rst:335
+msgid ""
+"In musical notation, a bar (or measure) is a segment of time defined by a "
+"given number of beats. Typically, a piece consists of several bars of the "
+"same length."
+msgstr "Na notação musical, um compasso é um segmento de tempo definido por um número definido de batidas. Tipicamente, uma peça consiste de vários compassos do mesmo tamanho."
+
+#: ../../source/glossary.rst:83
+msgid "beatgrid"
+msgstr "grade de batidas"
+
+#: ../../source/glossary.rst:85
+msgid ""
+"A series of markers that point to the location of beats within the track. "
+"Beatgrids are used for advanced mixing functions such as track :term:`sync`,"
+" precise effects synchronization, looping and accurate :term:`BPM` "
+"representation."
+msgstr "Uma série de marcadores que apontam para a localização das batidas na faixa. Grades de Batida são usados para funções avançadas de mixagem como a :term:`sincronização` de faixas, sincronização de efeitos precisos, looping e representação precisa do :term:`BPM`."
+
+#: ../../source/glossary.rst:79
+msgid "beatmatching"
+msgstr "beatmatching"
+
+#: ../../source/glossary.rst:81
+msgid ""
+"A mixing technique used to establish a similar tempo with two or more "
+"tracks, making them sound like just one track."
+msgstr "Uma técnica de mixagem para estabelecer um tempo similar entre duas ou mais faixas, fazendo elas parecerem apenas uma faixa."
+
+#: ../../source/glossary.rst:310
+msgid "binaries"
+msgstr "binários"
+
+#: ../../source/glossary.rst:312
+msgid ""
+"Files that contain compiled computer code, which was compiled from source "
+"code. Source code, which is usually a bunch of text files, is processed with"
+" a program called a compiler. The compiler then generates a binary, which is"
+" something like an an .exe or a .dll file. By using binaries you are "
+"relieved of the task of having to compile the code by yourself."
+msgstr "Arquivos que contém código de computador compilado, que foi compilado do código-fonte. O código-fonte, que geralmente é um monte de arquivos de texto, é processado em um programa chamado compilador. Esse compilador gera um binário, o que é alguma coisa .exe ou .dll. Usando os binários, você se livra da tarefa de compilar o código."
+
+#: ../../source/glossary.rst:255
+msgid "bitrate"
+msgstr "taxa de bits"
+
+#: ../../source/glossary.rst:257
+msgid ""
+"Describe the quality of an audio or video file. For audio data the bitrate "
+"is commonly measured in :term:`Kbps`. For example, an MP3 audio file that is"
+" compressed at 192 Kbps will have a greater dynamic range and may sound "
+"slightly more clear than the same audio file compressed at 128 Kbps."
+msgstr "Descreve a qualidade de um arquivo de áudio ou de vídeo. Para áudio, a taxa de bits é geralmente medida em :term:`Kbps`. Por exemplo, um arquivo de áudio MP3 que é comprimido em 192 Kbps vai ter uma faixa dinâmica melhor e ficará um pouco mais claro do que o mesmo áudio comprimido em 128 Kbps."
+
+#: ../../source/glossary.rst:74
+msgid "BPM"
+msgstr "BPM"
+
+#: ../../source/glossary.rst:76
+msgid ""
+"Beats per minute (BPM) is used as a measure of tempo in music. If you tap "
+"your foot to music you are following the “beat”. If you count how many taps "
+"you do in a minute you have calculated the BPM."
+msgstr "As Batidas por minuto (BPM) são usadas para medir o tempo de uma música. Se você bate o pé com a música, você está seguindo a \"batida\". Se você contar quantas vezes você bate o pé em um minuto, você terá calculado o BPM."
+
+#: ../../source/glossary.rst:305
+msgid "bug report"
+msgstr "relatar um bug"
+
+#: ../../source/glossary.rst:307
+msgid ""
+"Every software has bugs. When you come across a bug in this software, you "
+"should submit a report about it to the developers. They can use this to "
+"identify, replicate and fix the issue."
+msgstr "Bugs são problemas encontrados no software e todo software tem bugs. Quando você encontrar um bug, você precisa relatar este bug para os desenvolvedores. Esse relato poderá ser usado para identificar, reproduzir e corrigir esse problema."
+
+#: ../../source/glossary.rst:294
+msgid "CDJ"
+msgstr "CDJ"
+
+#: ../../source/glossary.rst:296
+msgid ""
+"CDJ is a term originally used to describe a line of CD players from Pioneer "
+"Electronics. Today CDJ generally refers to DJ CD players that work like a "
+"record player. They allow analog control of music using CDs, usually using a"
+" touch sensitive emulated vinyl control surface."
+msgstr "CDJ é um termo originalmente usado para descreve a linha de tocadores de disco da Pioneeer. Hoje em dia CDJ geralmente significa tocadores de disco de DJ que funcionam como um tocador de disco. Eles permitem um controle analógico da música usando CDs, geralmente usando uma superfície que simula o vinil."
+
+#: ../../source/glossary.rst:246
+msgid "codec"
+msgstr "codec"
+
+#: ../../source/glossary.rst:248
+msgid ""
+"Short for compressor/decompressor, a codec is any technology for compressing"
+" and decompressing audio and video data. Some popular codecs for computer "
+"audio include :term:`MP3` and :term:`Ogg Vorbis`."
+msgstr "Versão curta de compressor/descompressor, um codec é qualquer tecnologia de compressão ou descompressão de áudio e de vídeo. Alguns codecs populares para computador incluem o :term:`MP3` e o:term:`Ogg Vorbis`."
+
+#: ../../source/glossary.rst:102
+msgid "controller"
+msgstr ""
+
+#: ../../source/glossary.rst:104
+msgid ""
+"An external hardware device that generates and transmits signals to a "
+"computer, usually via USB, to control software with physical controls other "
+"than a mouse and keyboard. Controllers have many uses for music such as "
+"controlling DJ programs like Mixxx. They typically send :term:`MIDI` signals"
+" but some controllers use :term:`HID` signals. Many DJs prefer to control DJ"
+" software using physical knobs, faders, and wheels on controllers instead of"
+" using a computer keyboard and mouse."
+msgstr ""
+
+#: ../../source/glossary.rst:11
+msgid "crossfader"
+msgstr "crossfader"
+
+#: ../../source/glossary.rst:13
+msgid ""
+"The crossfader is a slider that determines how much each deck of audio "
+"contributes to the :term:`master output`."
+msgstr "Um crossfader é um deslizante que determinado o quanto de cada deck de áudio sai para a :term:`saída mestre`. Assim se o crossfader estiver para direita, o áudio dos decks da direita vai aparecer mais do que o áudio dos decks da esquerda e vice-versa."
+
+#: ../../source/glossary.rst:323
+msgid "cue"
+msgstr "cue"
+
+#: ../../source/glossary.rst:325
+msgid ""
+"A Cue or Cue point is a reference point in the track usually placed on the "
+"position the DJ wants the track to start at by default. This is useful to "
+"instantly jump to that point without seeking through the track."
+msgstr "Um Cue ou um ponto cue é um ponto de referência na faixa que é geralmente posicionado onde o DJ quer que a faixa comece a tocar. Isso é útil para pular instantaneamente para aquele ponto sem precisar buscá-lo pela baixa."
+
+#: ../../source/glossary.rst:279
+msgid "cue sheet"
+msgstr "folha de cues"
+
+#: ../../source/glossary.rst:281
+msgid ""
+"A cue sheet (or CUE file, CUE sheet, etc.) is a formatted plain text file "
+"which is used to provide index information for a large audio file. For "
+"example, it can be used to tell software extra details about the layout of a"
+" CD to burn."
+msgstr "Uma folha de cues (ou arquivo CUE, folha CUE, etc.) é um arquivo de texto formatado que dá o índice para um arquivo de áudio grande. Por exemplo, ele pode ser usado para informar ao software detalhes extras sobre como o CD deve ser gravado."
+
+#: ../../source/glossary.rst:6
+msgid "cueing"
+msgstr "cueing"
+
+#: ../../source/glossary.rst:8
+msgid ""
+"Headphone cueing, or just cueing, is listening to the next track you would "
+"like to mix in in your headphones. The audience will not hear what you are "
+"cueing in your headphones. Being able to cue is a crucial aspect to DJing."
+msgstr "Cueing no fone, ou só cueing, é ouvir a próxima faixa que você quer mixar somente nos seus fones de ouvido. O público não vai ouvir o que você está ouvindo nos seus fones. Ser capaz de realizar o cueing é um aspecto crucial de um DJ."
+
+#: ../../source/glossary.rst:273
+msgid "db"
+msgstr "db"
+
+#: ../../source/glossary.rst:275
+msgid ""
+"Short for decibels. A Decibel is a logarithmic measurement of sound level. "
+"Whispering is around 25 dB while unbearable sound such as a jet engine is "
+"around 160 db. Rule of thumb: A volume increase of 10 dB is perceived as "
+"twice as loud."
+msgstr "É a versão curta de decibéis. Um decibél é uma medida logarítimica do nível de som. Assobiar por exemplo é por volta de 25 dB enquanto um som insuportável como o de um jato é por volta de 160 dB. A regra é a seguinte: Um aumento de volume de 10 dB é percebido como duas vezes mais alto."
+
+#: ../../source/glossary.rst:64
+msgid "deck"
+msgstr "deck"
+
+#: ../../source/glossary.rst:66
+msgid ""
+"A deck is like a virtual vinyl turntable. You can load a :term:`track` into "
+"it and play the track, just like you would put a record on turntable and "
+"play it."
+msgstr "Um deck é como um toca-discos virtual. Você pode carregar uma :term:`faixa` nele e tocar a faixa do mesmo jeito que você coloca um disco de vinil no toca-discos e coloca ele para tocar."
+
+#: ../../source/glossary.rst:350
+msgid "DRM"
+msgstr "DRM"
+
+#: ../../source/glossary.rst:352
+msgid ""
+"Digital Rights Management (DRM) technologies attempt to control what you can"
+" and can't do with the media and hardware you've purchased. Typically, a DRM"
+" system either encrypts the data so that it can only be accessed in a way "
+"authorized by copyright holders or marks content with a digital watermark or"
+" similar method so that the content can not be freely distributed. For "
+"information about how you can get involved in activism against DRM, see "
+"`Defective by Design <http://www.defectivebydesign.org>`_."
+msgstr "Digital Rights Management (DRM), em português Gerenciamento de Direitos Digitais é uma tecnologia que tenta controlar o que você pode ou não fazer com a mídia ou hardware que você comprou. Tipicamente, um sistema de DRM criptografa a informação de uma maneira que ela só pode ser acessada de uma forma autorizada pelos donos dos direitos autorais ou marca o conteúdo com uma marca d'água digital ou um método parecido para que o conteúdo não possa ser distribuído livremente. Para mais informações sobre como você pode se envolver no ativismo contra o DRM, veja o site `Defective by Design, em inglês <http://www.defectivebydesign.org>`_."
+
+#: ../../source/glossary.rst:134
+msgid "fast-forward"
+msgstr "avanço rápido"
+
+#: ../../source/glossary.rst:136
+msgid ""
+"To cause something to advance at quicker than normal speed. In terms of "
+"audio software that means if you press the fast-forward button the audio "
+"will play with increased speed as long as the button is pressed. This is "
+"useful to seek through a track."
+msgstr "Em inglês fast-foward, significa avançar alguma coisa mais rápido do que na velocidade normal. Nos termos de software de áudio, isso significa que se você pressionar o botão de avanço rápido, o áudio vai ser tocado com uma velocidade maior enquanto você segurar o botão. Isso é útil para buscar pela faixa."
+
+#: ../../source/glossary.rst:140
+msgid "fast-rewind"
+msgstr "rebobinamento rapido"
+
+#: ../../source/glossary.rst:142
+msgid ""
+"The opposite of :term:`fast-forward`. If you press the fast-rewind button "
+"the audio will play in reverse with increased speed as long as the button is"
+" pressed."
+msgstr "O oposto do :term:`avanço rápido`. Se você pressionar o botão de rebobinamento rápido, o áudio vai tocar em reverso rapidamente enquanto você segurar o botão."
+
+#: ../../source/glossary.rst:48
+msgid "file manager"
+msgstr "navegador de arquivos"
+
+#: ../../source/glossary.rst:50
+msgid ""
+"A computer program that organizes data files into groups and shows you where"
+" they are when you need to find them again. Popular file managers for the "
+":term:`operating systems <operating system>` Mixxx supports are Explorer on "
+"Windows, Finder on Mac OS X and Nautilus on GNU/Linux."
+msgstr "Um programa no computador que organiza os arquivos de dados em grupos e mostra para você onde eles estão quando você precisar achá-los de novo. Navegadores de arquivos populares para os :term:`sistemas operacionais <operating system>` que o Mixxx suporta são: Explorer no Windows, Finder no Mac OS X e Nautilus no GNU/Linux."
+
+#: ../../source/glossary.rst:224
+msgid "FLAC"
+msgstr "FLAC"
+
+#: ../../source/glossary.rst:226
+msgid ""
+"Free Lossless Audio Compression (FLAC), a patent-free audio compression "
+"similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio "
+"quality when used). FLAC files generally end with a .FLAC extension."
+msgstr "Free Lossless Audio Compression (FLAC) ou em português Compressão de Áudio Sem Perdas Gratuita é uma compressão de áudio livre de patentes similar ao :term:`MP3` porém :term:`sem perdas` (isto é, não há nenhuma perda na qualidade do áudio quando usado). Arquivos FLAC geralmente terminam com a extensão .FLAC."
+
+#: ../../source/glossary.rst:338
+msgid "flanger"
+msgstr "flanger"
+
+#: ../../source/glossary.rst:340
+msgid ""
+"A flanger is an effect that mixes the input signal with a delayed copy of "
+"itself which leads to interferences in the signal and creates a comb-filter "
+"effect. By routing the output of the effect back into the input (feedback), "
+"the effect is enhanced."
+msgstr "O  flanger é um efeito que mixa o sinal da entrada com uma cópia dele mesmo atrasado que leva a interferências no sinal e cria o efeito de Filtro Comb. O efeito é aprimorado ao direcionar o áudio da saída para o efeito novamente na entrada (feedback)."
+
+#: ../../source/glossary.rst:406
+msgid "GUI"
+msgstr "GUI"
+
+#: ../../source/glossary.rst:408
+msgid ""
+"Short for “Graphical User Interface” and is pronounced “gooey”. It refers to"
+" a user interface based on graphics (icons, pictures and menus) instead of "
+"text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID` "
+":term:`controllers <controller>` as input devices."
+msgstr ""
+
+#: ../../source/glossary.rst:54
+msgid "head/mix button"
+msgstr "botão mixagem do fone"
+
+#: ../../source/glossary.rst:56
+msgid ""
+"The head/mix button is used to control how much you mix the :term:`master "
+"output` into your :term:`headphone output`. This can be very useful when "
+":term:`cueing` a track, because you can test out how it sounds when mixed "
+"with the main mix in your headphones, before letting the audience hear the "
+"track."
+msgstr "O botão mixagem do fone é usado para controlar o quando da mixagem da :term:`saída mestre`  você quer na :term:`saída do fone`.  Isso pode ser útil quando você realizar o :term:`cueing` da faixa, porque você pode testar quão bom ela vai ficar para o público antes de colocar em prática."
+
+#: ../../source/glossary.rst:39
+msgid "headphone button"
+msgstr "botão do fone"
+
+#: ../../source/glossary.rst:41
+msgid ""
+"The headphone button is used to indicate whether or not you are pre-"
+"listening to a deck or sampler in your headphones."
+msgstr "O botão do fone é usado para selecionar se você quer pré-escutar o seu deck ou sampler nos seus fones de ouvido."
+
+#: ../../source/glossary.rst:18
+msgid "headphone output"
+msgstr "saída do fone"
+
+#: ../../source/glossary.rst:20
+msgid "The headphone output is what you hear in your headphones."
+msgstr "A saída do fone é o que você ouve nos seus fones de ouvido."
+
+#: ../../source/glossary.rst:96
+msgid "HID"
+msgstr "HID"
+
+#: ../../source/glossary.rst:98
+msgid ""
+"Short for for Human Interface Device, a part of the USB specification. It "
+"specifies a device class (a type of computer hardware) for human interface "
+"devices such as keyboards, mice, game controllers, and some DJ "
+":term:`controllers <controller>`."
+msgstr ""
+
+#: ../../source/glossary.rst:328
+msgid "hotcue"
+msgstr "hotcue"
+
+#: ../../source/glossary.rst:330
+msgid ""
+"Similar to the main :term:`cue` point, a hotcue is a reference point in the "
+"track. DJs usually place hotcues at distinctive positions within a track "
+"such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues."
+msgstr "Similar ao ponto :term:`cue`, um hotcue é um ponto de referência em uma faixa. DJs usualmente colocam hotcues em posições distintas em uma faixa como as caídas, quebradas ou bumbos e caixas. O Mixxx suporta até 36 hotcues."
+
+#: ../../source/glossary.rst:392
+msgid "HSV"
+msgstr "HSV"
+
+#: ../../source/glossary.rst:394
+msgid ""
+"HSV stands for hue, saturation, and value, and is also often called HSB (B "
+"for brightness). The HSV Color Model represents color in a way more suited "
+"to the human perception of color. For example, the relationships “stronger "
+"than”, “darker than”, and “the opposite of” are easily expressed in HSV. In "
+"contrast, the representation of the hardware-oriented :term:`RGB` model is "
+"close to what most monitors show."
+msgstr "HSV é uma abreviatura para hue (matiz), saturation (saturação) e value (valor) e é muitas vezes chamado de HSB (B para brilho). O Modelo de Cor HSV representa a cor de uma maneira muito mais adequada à percepção humana da cor. Por exemplo, relações de \"mais forte que\", \"mais escuro que\", e o \"oposto  de\" são facilmente expressados em HSV. Porém, a representação do modelo orientado à hardware :term:`RGB` é mais próximo do que os monitores mostram."
+
+#: ../../source/glossary.rst:364
+msgid "icecast"
+msgstr "icecast"
+
+#: ../../source/glossary.rst:366
+msgid ""
+"Icecast is free and :term:`open-source` software that allows digital audio "
+"content to be broadcast to and from media player software, enabling the "
+"creation of Internet radio stations. Unlike :term:`Shoutcast <shoutcast>`, "
+"the software provides the ability to stream in free file formats like "
+":term:`Ogg Vorbis` and run your own directory server."
+msgstr "O Icecast é um software livre e de :term:`código aberto` que permite que conteúdo digital de áudio seja transmitido para softwares de reprodução de mídia e de softwares de reprodução de mídia, permitindo a criação de estações de radio na Internet. Ao contrário do :term:`Shoutcast <shoutcast>`, o software dá a habilidade de transmitir em formatos de arquivo livres como o :term:`Ogg Vorbis` e rodar o seu próprio servidor de diretórios."
+
+#: ../../source/glossary.rst:69
+msgid "IRC"
+msgstr "IRC"
+
+#: ../../source/glossary.rst:71
+msgid ""
+"Internet Relay Chat (IRC) is a an online chat network. The Mixxx IRC channel"
+" can be found on the `FreeNode IRC Network <http://freenode.net>`_ in the "
+"#mixxx channel."
+msgstr "Internet Relay Chat (IRC) é uma rede de bate-papo online. O canal do IRC do Mixxx pode ser encontrado na `Rede FreeNode de IRC <http://freenode.net>`_ no canal #mixxx. Aviso: neste bate-papo geralmente se fala em inglês."
+
+#: ../../source/glossary.rst:261
+msgid "kbps"
+msgstr "kbps"
+
+#: ../../source/glossary.rst:263
+msgid ""
+"Short for kilobits per second. Here used to measure the quality of audio "
+"data. See :term:`bitrate`"
+msgstr "Termo curto para kilobits por segundo. Uasdo para medir a qualidade dos dados de áudio. Veja :term:`taxa de bits`"
+
+#: ../../source/glossary.rst:34
+msgid "key lock"
+msgstr "trava de tom"
+
+#: ../../source/glossary.rst:36
+msgid ""
+"With key lock enabled, the tempo of the track will change but the pitch "
+"remains consistent.  When unlocked, the pitch slider will speed up (or slow "
+"down) the track and the pitch will increase (or decrease) along with it."
+msgstr "Com a trava de tom ativada, o tempo da faixa vai mudar porém o pitch vai continuar consistente. Quando destravado, o deslizante do pitch vai acelerar (ou desacelerar) a faixa e o tom vai aumentar (ou diminuir) com ele."
+
+#: ../../source/glossary.rst:170
+msgid "kill switch"
+msgstr "botão matar"
+
+#: ../../source/glossary.rst:172
+msgid ""
+"A button to turn on and off individual frequency ranges within a channel, "
+"i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
+" for a period or creates room for a transition."
+msgstr "Um botão para ligar ou desligar uma extensão de frequências individuais em um canal como os agudos, o médio e os graves. Útil para efeitos onde o DJ joga a faixa por um tempo e cria espaço para uma transição."
+
+#: ../../source/glossary.rst:251
+msgid "LAME"
+msgstr "LAME"
+
+#: ../../source/glossary.rst:253
+msgid ""
+"LAME is a free software :term:`codec` used to encode/compress audio into the"
+" :term:`lossy` :term:`MP3` file format."
+msgstr "O LAME é software de :term:`codec` livre usado para codificar/comprimir áudio para o formato de arquivo MP3 :term:`com perdas`."
+
+#: ../../source/glossary.rst:164
+msgid "latency"
+msgstr "latência"
+
+#: ../../source/glossary.rst:166
+msgid ""
+"Latency refers to a short period of delay (usually measured in milliseconds)"
+" between when an audio signal enters and when it emerges from a system. "
+"Being able to lower the latency as much as possible makes a huge difference "
+"in responsiveness."
+msgstr "A Latência se refere ao curto período de atraso (geralmente medido em milisegundos) entre quando um sinal de áudio entra e quando emerge sistema. Diminuir a latência ao máximo faz uma diferência enorme na capacidade de resposta."
+
+#: ../../source/glossary.rst:175
+msgid "level meter"
+msgstr ""
+
+#: ../../source/glossary.rst:177
+msgid ""
+"The level meter is used to show the average levels of audio signals. The "
+"level should average around the top of the green region, with the loudest "
+"parts of the music (the transients) briefly going into the yellow region. If"
+" the level meter is in the red, the signal is clipping and the gain should "
+"be turned down."
+msgstr ""
+
+#: ../../source/glossary.rst:204
+msgid "lossless"
+msgstr "sem perdas"
+
+#: ../../source/glossary.rst:206
+msgid ""
+"Used when describing audio compression algorithms, a lossless algorithm is "
+"one which results in no loss in audio quality when used."
+msgstr "Usado quando descrevendo algorítimos de compressão de áudio, um algorítimo sem perdas é aquele que não há perdas na qualidade do áudio quando usado."
+
+#: ../../source/glossary.rst:208
+msgid "lossy"
+msgstr "com perdas"
+
+#: ../../source/glossary.rst:210
+msgid ""
+"Used when describing audio compression algorithms, a lossy algorithm is one "
+"which results in a loss in audio quality when used."
+msgstr "Usado quando descrevendo algorítimos de compressão de áudio, um algorítimo com perdas é aquele que há perdas na qualidade do áudio quando usado."
+
+#: ../../source/glossary.rst:15
+msgid "master output"
+msgstr "saída mestre"
+
+#: ../../source/glossary.rst:17
+msgid ""
+"The master output is the main audio output. It is what your audience hears."
+msgstr "A saída mestre é a saída principal de audio. É a que o seu público escuta."
+
+#: ../../source/glossary.rst:285
+msgid "metadata"
+msgstr "metadados"
+
+#: ../../source/glossary.rst:287
+msgid ""
+"In general, any piece of information about a music file that Mixxx uses "
+"(e.g. title, artist, album, hotcue locations, loops, etc.). Various file "
+"metadata formats allow information such as the title, artist, album, and "
+"track number to be stored in the audio file itself, see "
+"`<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx stores additional metadata "
+"about music files in its database, like :term:`beatgrid`, waveform data, "
+":term:`hotcues <hotcue>`, playlists, crates, number of plays, etc."
+msgstr "Em geral, qualquer peça de informação sobre o arquivo de música que o Mixxx usa (como o título, artista, álbum, localização das hotcues, loops, etc.). Muitos formatos de metadados de arquivos permitem que informações como o título, artista, álbum e número da faixa possam ser guardadas dentro do próprio arquivo de áudio, veja `<https://pt.wikipedia.org/wiki/ID3>`_ . O Mixxx guarda metadados adicionais sobre os arquivos de música na sua própria base de dados, como a :term:`grade de batidas`, dados das ondas, :term:`hotcues <hotcue>`, listas de reprodução, caixas, número de reproduções, etc."
+
+#: ../../source/glossary.rst:89
+msgid "MIDI"
+msgstr "MIDI"
+
+#: ../../source/glossary.rst:91
+msgid ""
+"Short for for Musical Instrument Digital Interface. A digital communications"
+" language and hardware specification enabling compatible electronic "
+"instruments, sequencers, computers, etc., to communicate with each other in "
+"a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
+"with computers."
+msgstr ""
+
+#: ../../source/glossary.rst:212
+msgid "MP3"
+msgstr "MP3"
+
+#: ../../source/glossary.rst:214
+msgid ""
+"A patented audio compression algorithm which uses a form of :term:`lossy` "
+"data compression. It is de-facto standard of digital audio compression for "
+"music. MP3 files generally end with a .MP3 extension."
+msgstr "Um algorítimo de compressão de audio patenteado que usa uma forma de compressão de dados :term:`com perdas`. Ele é de fato o padrão de compressão de áudio digital para música. Arquivos MP3 geralmente terminam com a extensão .MP3."
+
+#: ../../source/glossary.rst:412
+msgid "MusicBrainz"
+msgstr "MusicBrainz"
+
+#: ../../source/glossary.rst:414
+msgid ""
+"A open-source music encyclopedia that collects music :term:`metadata` and "
+"makes it available to the public. For more information, see "
+"`<http://musicbrainz.org/>`_."
+msgstr "Uma enciclopédia de código livre que coleta :term:`metadados` de música e os faz disponíveis para o público. Para mais informações, veja `http://musicbrainz.org/, em inglês <http://musicbrainz.org/>`_."
+
+#: ../../source/glossary.rst:198
+msgid "Ogg Vorbis"
+msgstr "Ogg Vorbis"
+
+#: ../../source/glossary.rst:200
+msgid ""
+"A patent-free audio compression algorithm which uses a form of lossy data "
+"compression. It is designed to provide for efficient streaming and "
+"manipulation of high quality digital audio. Ogg Vorbis files generally end "
+"with a .OGG or .OGA extension."
+msgstr "Um algorítimo de compressão de áudio livre de patentes que usa uma forma de compressão de dados com perdas. Ele foi projetado para ser eficiente para transmissão e para a manipulação de áudio digital de alta qualidade. Arquivos Ogg Vorbis geralmente terminam com a extensão .OGG ou .OGA."
+
+#: ../../source/glossary.rst:371
+msgid "open-source"
+msgstr "código aberto"
+
+#: ../../source/glossary.rst:373
+msgid ""
+"Generically, open-source refers to a program for which the source code is "
+"available to the public for use and/or modification from its original design"
+" free of charge. Open source code is typically created as a collaborative "
+"effort in which programmers improve upon the code and share the changes "
+"within the community. Open source sprouted in the technological community as"
+" a response to proprietary software owned by corporations. For more "
+"information, see `Wikipedia <https://en.wikipedia.org/wiki/Open-"
+"source_software>`_."
+msgstr "Genericamente, código aberto refere-se a um programa onde o código fonte está disponível para o público usar e/ou modificar do seu estado original livre de custos. Código fonte aberto é tipicamente criado com um esforço coletivo onde programadores melhoram o código e compartilham as mudanças com a comunidade. Código aberto brotou na comunidade tecnológica como uma responsa a software patentado possuído pelas corporações. Para mais informação, veja `Wikipedia <https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto>`_."
+
+#: ../../source/glossary.rst:300
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../../source/glossary.rst:302
+msgid ""
+"An :term:`operating system` feature used to draw hardware-accelerated "
+"graphics. Mixxx uses OpenGL to draw the waveform displays and spinning vinyl"
+" widgets."
+msgstr "Um recurso do :term:`sistema operacional  <operating system>` usado para desenhar gráficos acelerados por hardware. O Mixxx usa o OpenGL para desenhar os mostradores de onda e janelas de vinil giratório."
+
+#: ../../source/glossary.rst:43
+msgid "operating system"
+msgstr "sistema operacional"
+
+#: ../../source/glossary.rst:45
+msgid ""
+"Your operating system (OS) is the computing environment on your computer. "
+"For example, Windows, Mac OS X, or GNU/Linux are the three operating systems"
+" that Mixxx supports."
+msgstr "O seu sistema operacional (SO) é o ambiente de computação no seu computador. Por exemplo, Windows, Mac OS X, ou GNU/Linux são três sistemas operacionais que o Mixxx suporta."
+
+#: ../../source/glossary.rst:242
+msgid "OPUS"
+msgstr "OPUS"
+
+#: ../../source/glossary.rst:244
+msgid ""
+"Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio "
+"codec. The .OPUS filename extension is recommended."
+msgstr "Opus é um codec de áudio :term:`com perdas` totalmente abeto, altamente volátil e livre de royalties. A extensão de nome de arquivo .OPUS é recomendada."
+
+#: ../../source/glossary.rst:21
+msgid "PFL"
+msgstr "PFL"
+
+#: ../../source/glossary.rst:23
+msgid ""
+"``PFL`` or “pre-fader listen” is a fancy word for whether or not you are "
+"“pre-listening” to a deck in your headphones. See also: :term:`headphone "
+"button`."
+msgstr "``PFL`` ou “pre-fader listen” que signfica audição pré-fader é uma palavra bonita que significa “pré-escutar” um deck nos seus fones ou não pré-escutar. Veja também: :term:`botão do fone`."
+
+#: ../../source/glossary.rst:145
+msgid "phase"
+msgstr "fase"
+
+#: ../../source/glossary.rst:147
+msgid ""
+"The phase of a track is its position relative to another track. If two "
+"tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they "
+"should be playing so that their beats are aligned."
+msgstr "A fase de uma faixa é a sua posição relativa ao de outra faixa. Se duas faixas estão :term:`sincronizadas <sync>' para o mesmo tempo e dentro da fase então elas estão sendo tocadas com suas batidas alinhadas."
+
+#: ../../source/glossary.rst:150
+msgid "pitch bend"
+msgstr "pitch bend"
+
+#: ../../source/glossary.rst:152
+msgid ""
+"A technique used by DJs that temporarily `bends` the rate of a track up or "
+"down, usually while a button is held. This technique is usually used to make"
+" micro-adjustments to the synchronization of tracks while beatmatching. "
+"Before digital DJing, this was accomplished by dragging one's finger "
+"alongside the turntable to slow it down or by twisting the record spindle to"
+" speed it up."
+msgstr "Uma técnica usada por DJs que temporariamente muda a velocidade da faixa para mais rápido ou mais devagar, geralmente enquanto o botão é segurado. Essa técnica é geralmente usada para fazer ajustamentos finos na sincronização das faixas enquanto você iguala as batidas. Antes das mixagens digitais, isso era realizado arrastando um dedo no lado do toca-discos para desacelerar ou dando um empurrãozinho no disco para acelerar."
+
+#: ../../source/glossary.rst:344
+msgid "podcast"
+msgstr "podcast"
+
+#: ../../source/glossary.rst:346
+msgid ""
+"A podcast is a feed of audio or video files made available for free or for "
+"purchase over the Internet. Podcast clients such as iTunes allow listeners "
+"to subscribe to the feed and automatically download content to their "
+"portable audio players as it becomes available."
+msgstr "Um podcast é um feed de arquivos de áudio ou de vídeo disponível gratuitamente ou para comprar na internet. Clientes de podcast como o iTunes permitem aos ouvintes se inscrever no feed e baixar o conteúdo automaticamente para os reprodutores de áudio portáteis quando um novo podcast se torna disponível."
+
+#: ../../source/glossary.rst:387
+msgid "quantization"
+msgstr "quantização"
+
+#: ../../source/glossary.rst:389
+msgid ""
+"Quantization is the process of aligning notes and other events like loops or"
+" cuepoints so that they start or finish exactly on beats or fractions of "
+"beats."
+msgstr "Quantização é o processo de alinhar notas e outros eventos como loops e pontos cue para que eles comecem ou terminem exatamente dentro das batidas ou frações de batidas."
+
+#: ../../source/glossary.rst:158
+msgid "ramping pitch bend"
+msgstr "pitch bend em rampa"
+
+#: ../../source/glossary.rst:160
+msgid ""
+"Basically identical to the regular :term:`pitch bend` with the difference "
+"that the pitch changes gradually, instead of all at once. Often uses for "
+"temporary pitch changes. It simulates the effect of touching a turntable to "
+"temporarily slow down or speed up a record."
+msgstr "Basicamente idêntico ao :term:`pitch bend` só´que com a diferença que o pitch muda gradualmente ao invés de uma vez só. Muitas vezes usa mudanças temporárias no pitch. Ele simula o efeito de tocar um toca-discos para diminuir ou aumentar a velocidade de um disco de vinil."
+
+#: ../../source/glossary.rst:127
+msgid "rate"
+msgstr "taxa"
+
+#: ../../source/glossary.rst:129
+msgid ""
+"The speed at which a track is played back, usually expressed in terms of a "
+"percentage of the speed relative to the tracks normal rate. Often while "
+"mixing, DJs adjust the rates of tracks so that they can play at the same "
+"tempo as other tracks. This allows DJs to :term:`beatmix <beatmatching>`, "
+"and is an essential part of DJing."
+msgstr "A velocidade na qual a faixa é reproduzida, geralmente expressa em porcentagem relativa à velocidade normal da faixa. Muitas vezes quando mixando, DJs ajustam as taxas das faixas para que elas toquem no mesmo tempo que as outras faixas. Isso permite aos DJs fazer :term:`beatmatching` que é essencial para ser um DJ."
+
+#: ../../source/glossary.rst:265
+msgid "ReplayGain"
+msgstr "ReplayGain"
+
+#: ../../source/glossary.rst:267
+msgid ""
+"ReplayGain normalizes audio data in a non-destructive way, so the tracks in "
+"your music library don't all play at different volumes. Audio files are "
+"scanned by a psychoacoustic algorithm to determine the loudness of the audio"
+" data. ReplayGain information is stored as :term:`metadata` in a digital "
+"audio file in order for the sound to be correctly played at the right level "
+"of loudness."
+msgstr "O ReplayGain normaliza os dados de áudio de uma maneira não destrutitva, para que as faixas da sua biblioteca de música não toquem em diferentes volumes. Os arquivos de áudio são examinados por um algorítimo físicoacústico para determinar o volume dos dados de áudio. A informação do ReplayGain é guardada como :term:`metadados` em arquivo de áudio digital para que o som seja reproduzido com o nível correto de volume."
+
+#: ../../source/glossary.rst:195
+msgid "reverse"
+msgstr "inverter reprodução"
+
+#: ../../source/glossary.rst:197
+msgid "Reverse plays a track backwards."
+msgstr "Toca a faixa de trás para frente."
+
+#: ../../source/glossary.rst:400
+msgid "RGB"
+msgstr "RGB"
+
+#: ../../source/glossary.rst:402
+msgid ""
+"The RGB color model is an additive color model in which red, green, and blue"
+" light are added together in various ways to reproduce a broad array of "
+"colors. The name of the model comes from the initials of the three additive "
+"primary colors, red, green, and blue."
+msgstr "O modelo de cor RGB é um modelo de cor aditiva no qual a luz vermelha, verde e azul são adicionadas de várias maneiras para reproduzir um conjunto amplo de cores. O nome do modelo vem das iniciais das cores aditivas primárias em inglês: red, green e blue."
+
+#: ../../source/glossary.rst:359
+msgid "shoutcast"
+msgstr "shoutcast"
+
+#: ../../source/glossary.rst:361
+msgid ""
+"Shoutcast is proprietary software that allows digital audio content to be "
+"broadcast to and from media player software, enabling the creation of "
+"Internet radio stations."
+msgstr "O Shoutcast é um software patenteado que permite que conteúdo de áudio digital seja transmitido para e de um software de reprodução de mídia, possibilitando a criação de estações de rádio na Internet."
+
+#: ../../source/glossary.rst:317
+msgid "soundcard"
+msgstr "placa de som"
+
+#: ../../source/glossary.rst:319
+msgid ""
+"Also known as an audio card, it is an internal computer expansion card or "
+"external expansion device that facilitates the input and output of audio "
+"signals to and from a computer. Today DJ-soundcards are usually connected "
+"via USB and have at least 2 stereo audio outputs to support :term:`cueing`."
+msgstr "Também conhecido como placa de áudio, é uma placa interna do computador ou um dispositivo externo que permite a entrada e a saída de sinais de áudio para dentro e para fora do computador. As placas de som de DJ de hoje geralmente são conectadas via USB e tem pelo menos duas saídas de áudio estéreo para suportar o :term:`cueing`."
+
+#: ../../source/glossary.rst:123
+msgid "sync"
+msgstr "sincronização"
+
+#: ../../source/glossary.rst:125
+msgid ""
+"Sync allows you to automatically adjust a track's :term:`tempo` and "
+":term:`phase` to be in sync with another deck that is playing."
+msgstr "A sincronização ajusta automaticamente o :term:`tempo` e a :term:`fase` da faixa para que ela fique em sincronia com o outro deck que está tocando."
+
+#: ../../source/glossary.rst:187
+msgid "tempo"
+msgstr "tempo"
+
+#: ../../source/glossary.rst:189
+msgid "The speed of a track measured in :term:`bpm`."
+msgstr "A velocidade da faixa medida em :term:`BPM`."
+
+#: ../../source/glossary.rst:117
+msgid "timecode"
+msgstr "timecode"
+
+#: ../../source/glossary.rst:119
+msgid ""
+"Used here in conjunction with :term:`vinyl control`. A special audio signal "
+"on a control vinyl or control CD (timecode media) that a computer can listen"
+" to in order to determine speed, direction and position of the playback."
+msgstr "Usado em conjunto com o :term:`controle por vinil`. É um sinal de áudio especial em um vinil ou em CD de controle (mídia de timecode) que um computador pode escutar para determinar a velocidade, direção e posição da reprodução."
+
+#: ../../source/glossary.rst:61
+msgid "track"
+msgstr "faixa"
+
+#: ../../source/glossary.rst:63
+msgid "A track is another word for a song."
+msgstr "Faixa é um outro nome para música."
+
+#: ../../source/glossary.rst:381
+msgid "url"
+msgstr "url"
+
+#: ../../source/glossary.rst:383
+msgid ""
+"Uniform Resource Locator. The address that defines the route to a file on an"
+" Internet server. URLs are typed into a Web browser to access Web pages and "
+"files, and URLs are embedded within the pages themselves as hypertext links."
+" One example of a URL is `<http://www.mixxx.org>`_ ."
+msgstr "Uniform Resource Locator, em português Localizador-Padrão de Recursos é o endereço que defineo caminho para um arquivo em um servidor da Internet. URLs são digitadas em um navegador Web para acessar páginas e arquivos na Web, e URLs são colocadas nas próprias páginas com links. Um exemplo de URL é `<http://www.mixxx.org>`_ ."
+
+#: ../../source/glossary.rst:111
+msgid "vinyl control"
+msgstr "controle por vinil"
+
+#: ../../source/glossary.rst:113
+msgid ""
+"A method of controlling DJ applications which simulates the traditional "
+"DJing paradigm of two turntables. Using special :term:`timecode` media, the "
+"DJ application analyzes the timecode signal and simulates the sound and feel"
+" of having your music collection on vinyl."
+msgstr "Um método de controlar aplicações de DJ que simula o paradigma tradicional de dois toca-discos. Usando mídia especial de :term:`timecode`, uma aplicação de DJ analisa o sinal de timecode e simula o som e o sentimento de ter sua coleção de música no vinil."
+
+#: ../../source/glossary.rst:190
+msgid "volume"
+msgstr "volume"
+
+#: ../../source/glossary.rst:192
+msgid ""
+"A term that refers to the degree of sound intensity or audibility; loudness."
+" Volume is determined by people's perception and does not directly "
+"correspond to any physical property of sound."
+msgstr ""
+
+#: ../../source/glossary.rst:235
+msgid "WAV"
+msgstr "WAV"
+
+#: ../../source/glossary.rst:237
+msgid ""
+"Standard digital audio file format used for storing waveform data; allows "
+"audio recordings to be saved with different sampling rates and bitrates; "
+"often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard "
+"format used for CD audio. Wave files are not compressed, and are therefore "
+":term:`lossless`. Wave files generally end with a .WAV extension."
+msgstr "Arquivo de áudio digital padrão usado para guardar dados de ondas; permite que gravações de áudio sejam salvas com diferentes taxas de amostragem e taxas de bit; geralmente salvo em formato estéreo, de 16 bits e em 44.1 KHz, o que é o formato padrão para áudio em CDs. Arquivos wave não são comprimidos, e são portanto :term:`sem perdas`. Arquivos wave geralmente terminam com a extensão .WAV."
+
+#: ../../source/glossary.rst:30
+msgid "waveform overview"
+msgstr "visão geral da onda"
+
+#: ../../source/glossary.rst:32
+msgid ""
+"The waveform overview shows the waveform envelope of the entire track, and "
+"is useful because they allow DJs to see breakdowns far in advance."
+msgstr "A visão geral da onda mostra a onda de toda a faixa, e é útil porque permite aos DJs ver caídas e outros efeitos na música antes de acontecerem."
+
+#: ../../source/glossary.rst:26
+msgid "waveform summary"
+msgstr "sumário da onda"
+
+#: ../../source/glossary.rst:28
+msgid ""
+"The waveform summary shows the waveform envelope of the track near the "
+"current playback position."
+msgstr "O sumário da onda mostra a onda perto de onde a faixa está atualmente tocando."

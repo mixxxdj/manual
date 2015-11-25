@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
+"PO-Revision-Date: 2015-11-24 16:12+0000\n"
+"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/chapters/installation.rst:6
+msgid "Installing Mixxx"
+msgstr "Instal·lació del Mixxx"
+
+#: ../../source/chapters/installation.rst:8
+msgid ""
+"This part of the manual provides step-by-step directions for installing "
+"Mixxx on your computer."
+msgstr "Aquesta part del manual proporciona instruccions pas a pas per a instal·lar el Mixxx al vostre ordinador."
+
+#: ../../source/chapters/installation.rst:12
+msgid "Installation on Windows"
+msgstr "Instal·lació en Windows"
+
+#: ../../source/chapters/installation.rst:20
+msgid "Mixxx Installation - Ready to install the application"
+msgstr "Instal·lació del Mixxx - Preparat per a instal·lar l'aplicació"
+
+#: ../../source/chapters/installation.rst:22
+msgid "Download Mixxx for Windows from `<http://mixxx.org/download/>`_ ."
+msgstr "Descarregueu el Mixxx per a Windows des de `<http://mixxx.org/download/>`_ ."
+
+#: ../../source/chapters/installation.rst:23
+msgid ""
+"Using :file:`Windows Explorer` browse to the location where the Mixxx "
+"download was saved, usually the :file:`Desktop` or :file:`Downloads` folder."
+msgstr "Utilitzeu :file:`l'Explorador de Windows` per localitzar la carpeta on s'ha baixat el Mixxx, habitualment a :file:`l'Escriptori` o la carpeta de :file:`Baixades`."
+
+#: ../../source/chapters/installation.rst:25
+msgid "Double-click the Mixxx installer .EXE to open it up."
+msgstr "Feu doble clic a l'instal·lador del Mixxx per obrir-lo."
+
+#: ../../source/chapters/installation.rst:26
+msgid "Follow the step-by-step instructions in the installer."
+msgstr "Seguiu les instrucions de l'instal·lador pas a pas."
+
+#: ../../source/chapters/installation.rst:27
+msgid "If the installation is complete, a confirmation screen will appear."
+msgstr "Si la instal·lació s'acaba satisfactòriament, es mostrarà una pantalla de confirmació."
+
+#: ../../source/chapters/installation.rst:28
+msgid "Close the installer screen."
+msgstr "Tanqueu la finestra de l'instal·lador."
+
+#: ../../source/chapters/installation.rst:30
+msgid ""
+"Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 "
+"and 64-bit versions."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:33
+msgid ""
+"If you are not sure about 32-bit versus 64-bit, pick the 32-bit version when"
+" downloading the Mixxx installer."
+msgstr "Si no esteu segurs de quina versió necessiteu, si la de 32 bits o la de 64 bits, descarregueu l'instal·lador de 32 bits."
+
+#: ../../source/chapters/installation.rst:36
+msgid ""
+"You may encounter a warning message similar to “Security Warning - Publisher"
+" could not be verified”. This is because the Mixxx installer is not "
+"digitally signed. Ignore the message and continue the installation. It does "
+"not indicate a security risk, if you can trust the source website such as "
+"`www.mixxx.org <http://mixxx.org/download/>`_ ."
+msgstr "Pot ser que us apareixi un avís similar a “Avís de seguretat - No es pot verificar l'editor\". Això és perquè l'instal·lador del Mixxx no està signat digitalment. Podeu ignorar el missatge i continuar amb la instalació. No representa un risc de seguretat, si confieu en el lloc web d'on l'heu descarregat, com `www.mixxx.org <http://mixxx.org/download/>`_ ."
+
+#: ../../source/chapters/installation.rst:44
+msgid "Installation on Mac OS X"
+msgstr "Instal·lació per a Mac OS X"
+
+#: ../../source/chapters/installation.rst:47
+msgid "Method A: Direct Download"
+msgstr "Mètode A: Descàrrega directa"
+
+#: ../../source/chapters/installation.rst:56
+msgid ""
+"Mixxx Installation - Ready to drop the Mixxx icon to the Applications folder"
+msgstr "Instal·lació del Mixxx - Preparat per a descarregar la icona del Mixxx a la carpeta d'Aplicacions"
+
+#: ../../source/chapters/installation.rst:58
+msgid "Download Mixxx for Mac OS X from `<http://mixxx.org/download/>`_ ."
+msgstr "Descarregueu el Mixxx per a Mac OS X des de `<http://mixxx.org/download/>`_ ."
+
+#: ../../source/chapters/installation.rst:59
+msgid ""
+"Using :file:`Finder` browse to the location where the Mixxx download was "
+"saved, usually the :file:`Desktop` or :file:`Downloads` folder."
+msgstr "Utilitzeu el :file:`Finder` per localitzar la carpeta on s'ha baixat el Mixxx, habitualment :file:`l'Escriptori` o la carpeta de :file:`Baixades`."
+
+#: ../../source/chapters/installation.rst:61
+msgid ""
+"Double-click the Mixxx installer .DMG file, a new Finder window appears."
+msgstr "Feu doble clic a l'instal·lador del Mixxx. S'obrirà una nova finestra del Finder."
+
+#: ../../source/chapters/installation.rst:62
+msgid ""
+"Locate the *Mixxx* icon within this new Finder window. Drag-and-drop it into"
+" your :file:`Applications` folder."
+msgstr "Localitzeu la icona del *Mixxx* en aquesta finestra. Arrastreu-lo a la vostra carpeta :file:`d'Aplicacions`."
+
+#: ../../source/chapters/installation.rst:64
+msgid ""
+"Eject the Mixxx installation volume from the Finder by clicking on the icon "
+"right next to *Mixxx* volume name."
+msgstr "Extraieu el volum d'instal·lació del Mixxx del Finder fent clic en la icona just a la dreta del nom del volum *Mixxx*."
+
+#: ../../source/chapters/installation.rst:67
+msgid "Mixxx requires an Intel Mac running Mac OS X 10.5 or newer."
+msgstr "El Mixxx requereix un Mac amb processador Intel, que tingui el Mac OS 10.5 o superior."
+
+#: ../../source/chapters/installation.rst:70
+msgid "Method B: The Mac App Store"
+msgstr "Mètode B: el App Store de Mac."
+
+#: ../../source/chapters/installation.rst:78
+msgid "Mixxx Installation from the Mac App Store"
+msgstr "Instal·lació des de la Mac App Store"
+
+#: ../../source/chapters/installation.rst:80
+msgid "The Mac App Store makes getting new apps easier than ever."
+msgstr "La Mac App Store permet obtenir noves aplicacions mes fàcil que mai."
+
+#: ../../source/chapters/installation.rst:82
+msgid "Start the Mac :file:`App Store.app` on your computer."
+msgstr "Obriu la :file:`App Store.app` del Mac al vostre ordinador."
+
+#: ../../source/chapters/installation.rst:83
+msgid ""
+"Search for *mixxx* in the App Store, alternatively `click this direct link "
+"<https://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ ."
+msgstr ""
+
+#: ../../source/chapters/installation.rst:86
+#: ../../source/chapters/installation.rst:133
+msgid "Select Mixxx and click the :guilabel:`Install` button."
+msgstr "Seleccioneu el Mixxx i feu clic al botó :guilabel:`Instal·la`"
+
+#: ../../source/chapters/installation.rst:87
+msgid "Type in your administrator password if asked."
+msgstr "Intoduïu la contrasenya d'administrador, si us la demana."
+
+#: ../../source/chapters/installation.rst:88
+msgid "Mixxx will be installed to your :file:`Applications` folder."
+msgstr "El Mixxx s'instal·larà a la vostra carpeta :file:`Aplicacions`"
+
+#: ../../source/chapters/installation.rst:90
+msgid ""
+"The App Store version of Mixxx is under some circumstances out of date, "
+"therefore using `Method A: Direct Download`_ is preferable."
+msgstr "Podria passar que la versió del Mixxx de la App Store no sigui la més recent, de manera que es preferible utilitzar el `Mètode A: Descàrrega directa`_."
+
+#: ../../source/chapters/installation.rst:93
+msgid ""
+"Due to licensing restrictions, :term:`vinyl control` is not available in "
+"Mixxx from the Mac App Store."
+msgstr "Degut a restriccions de llicència, el :term:`control de vinil <vinyl control>` no està disponible en el Mixxx de la Mac App Store."
+
+#: ../../source/chapters/installation.rst:97
+msgid "Installation on GNU/Linux"
+msgstr "Instal·lació en GNU/Linux"
+
+#: ../../source/chapters/installation.rst:99
+msgid ""
+"Official packages of Mixxx are only offered for Ubuntu Linux. However, Mixxx"
+" can build on almost any Linux distribution."
+msgstr "Els paquets oficials de Mixxx només es troben disponibles per a Ubuntu Linux. Tot i això, es pot compilar el Mixxx pràcticament a totes les distribucions Linux."
+
+#: ../../source/chapters/installation.rst:103
+msgid "Installation on Ubuntu"
+msgstr "Instal·lació en Ubuntu"
+
+#: ../../source/chapters/installation.rst:106
+msgid "Method A: Personal Package Archive (ppa)"
+msgstr "Mètode A: Personal Package Archive (ppa)"
+
+#: ../../source/chapters/installation.rst:107
+msgid ""
+"Open a terminal and type the following commands. Type in your administrator "
+"password if asked for. ::"
+msgstr "Obriu un terminal i escriviu les instruccions següents: Introduïu la constrasenya d'administrador si se us demana. ::"
+
+#: ../../source/chapters/installation.rst:114
+msgid ""
+"Start Mixxx by simply typing :file:`mixxx` into the terminal, then hit "
+":kbd:`Return` ."
+msgstr "Inicieu el Mixxx escrivint :file:`mixxx` al terminal, i prement :kbd:`Enter` (també anomenat Return o Intro)."
+
+#: ../../source/chapters/installation.rst:118
+msgid "Method B: The Ubuntu Software Center"
+msgstr "Mètode B: L'Ubuntu Software Center"
+
+#: ../../source/chapters/installation.rst:126
+msgid "Mixxx Installation from the Ubuntu Software Center"
+msgstr "Instal·lació del Mixxx des de l'Ubuntu Software Center"
+
+#: ../../source/chapters/installation.rst:128
+msgid ""
+"The Ubuntu Software Center provides the easiest and safest way to install "
+"software on Ubuntu."
+msgstr "L'Ubuntu Software Center proporciona la manera més senzilla i segura d'instal·lar aplicacions en Ubuntu."
+
+#: ../../source/chapters/installation.rst:131
+msgid "Start the :file:`Ubuntu Software Center` on your computer."
+msgstr "Inicieu el :file:`Ubuntu Software Center` al vostre ordinador."
+
+#: ../../source/chapters/installation.rst:132
+msgid "Search for *mixxx* in the Software center."
+msgstr "Cerqueu per *mixxx* en el Software Center."
+
+#: ../../source/chapters/installation.rst:134
+msgid "Type in your administrator password if asked for."
+msgstr "Introduïu la vostra contrasenya d'administrador, si se us demana."
+
+#: ../../source/chapters/installation.rst:135
+msgid ""
+"Mixxx will be installed and an icon is added to the frequently-used program "
+"icons on the launcher."
+msgstr "El Mixxx s'instal·larà i es posarà una icona a la llista de programes utilitzats habitualment."
+
+#: ../../source/chapters/installation.rst:138
+msgid ""
+"The Software Center version of Mixxx is under some circumstances out of "
+"date, therefore using `Method A: Personal Package Archive (ppa)`_ is "
+"preferable."
+msgstr "Podria passar que la versió del Mixxx del Software Center no sigui la més recent, de manera que és preferible utilitzar el `Mètode A: Personal Package Archive (ppa)`_."
+
+#: ../../source/chapters/installation.rst:142
+msgid "Installation on Other Distributions"
+msgstr "Instal·lació per a altres distribucions"
+
+#: ../../source/chapters/installation.rst:144
+msgid ""
+"Your distribution may maintain a non-official build that you may use. "
+"Alternatively, you can build Mixxx from source. This should be a pretty "
+"straightforward process, and it's certainly easiest on GNU/Linux. For more "
+"information, go to:"
+msgstr "La vostra distribució pot ser que mantingui un paquet no oficial que podrieu utilitzar. Alternativament, podeu compilar el Mixxx a partir del codi font. Això hauria de ser un procés poc problemàtic, i certament és el més fàcil a GNU/Linux. Per a més informació aneu a:"
+
+#: ../../source/chapters/installation.rst:149
+msgid "`<http://mixxx.org/wiki/doku.php/compiling_on_linux>`_"
+msgstr "`<http://mixxx.org/wiki/doku.php/compiling_on_linux>`_"
+
+#: ../../source/chapters/installation.rst:152
+msgid "Building Mixxx from Source"
+msgstr "Compilació del Mixxx a partir del codi font"
+
+#: ../../source/chapters/installation.rst:154
+msgid ""
+"If your operating system isn't listed here, then it's likely you're going to"
+" have to build Mixxx from the source code. For more information, go to:"
+msgstr "Si el vostre sistema operatiu no està en aquesta llista, aleshores és possible que us calgui compilar el Mixxx a partir del codi font. Per a més informació, aneu a:"
+
+#: ../../source/chapters/installation.rst:157
+msgid ""
+"`<http://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_"
+msgstr ""
+
+#: ../../source/chapters/installation.rst:160
+msgid "Where to go from here?"
+msgstr "Quins són els passos a seguir a partir d'aquí?"
+
+#: ../../source/chapters/installation.rst:162
+msgid ":doc:`Set up your audio devices and controllers <setup>`"
+msgstr ":doc:`Configureu els vostres dispositius i controladors d'àudio <setup>`"
+
+#: ../../source/chapters/installation.rst:163
+msgid ""
+":doc:`Open Mixxx and start importing your audio files <djing_with_mixxx>`"
+msgstr ":doc:`Obriu el Mixxx i comenceu a importar els vostres fitxers d'àudio <djing_with_mixxx>`"
+
+#: ../../source/chapters/installation.rst:164
+msgid ":doc:`Get familiar with the Mixxx user interface <user_interface>`"
+msgstr ":doc:`Familiaritzeu-vos amb la interfície del Mixxx <user_interface>`"

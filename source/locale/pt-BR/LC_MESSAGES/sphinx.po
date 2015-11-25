@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Fer22f <Fer22f@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
+"PO-Revision-Date: 2015-06-14 14:45+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/_templates/layout.html:30
+msgid "Navigation"
+msgstr "Navegação"
+
+#: ../../source/_templates/layout.html:130
+msgid "Search within %(docstitle)s"
+msgstr "Procure dentro do %(docstitle)s"
+
+#: ../../source/_templates/layout.html:139
+msgid "About these documents"
+msgstr "Sobre esses documentos"
+
+#: ../../source/_templates/layout.html:142
+msgid "Index"
+msgstr "Índice"
+
+#: ../../source/_templates/layout.html:145
+msgid "Search"
+msgstr "Pesquisa"
+
+#: ../../source/_templates/layout.html:148
+msgid "Copyright"
+msgstr "Direitos Autorais"
+
+#: ../../source/_templates/layout.html:197
+msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
+msgstr "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
+
+#: ../../source/_templates/layout.html:199
+msgid "&copy; Copyright %(copyright)s."
+msgstr "&copy; Copyright %(copyright)s."
+
+#: ../../source/_templates/layout.html:203
+msgid "Last updated on %(last_updated)s."
+msgstr "Última atualização em %(last_updated)s."
+
+#: ../../source/_templates/layout.html:206
+msgid ""
+"Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
+"%(sphinx_version)s."
+msgstr "Criado usando <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
+
+#: ../../source/_templates/searchbox.html:12
+msgid "Quick search"
+msgstr "Busca rápida"
+
+#: ../../source/_templates/searchbox.html:15
+msgid "Go"
+msgstr "Ir"
+
+#: ../../source/_templates/searchbox.html:20
+msgid "Looking for something?"
+msgstr "Procurando por alguma coisa?"
+
+#: ../../source/_templates/localtoc.html:11
+msgid "In This Section"
+msgstr "Nessa Seção"
