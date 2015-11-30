@@ -527,10 +527,11 @@ mixing or for using Mixxx as media player.
 The Auto DJ features in detail:
 
 * **Shuffle button**: Shuffles the content of the Auto DJ playlist.
-* **Add Random button**: Add random track from Auto DJ Crates.
+* **Add Random button**: Add random track from Auto DJ track sources.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
-* **Transition time spin-box**: Determines the duration of the transition.
+* **Transition time spin-box**: Determines the duration of the transition. Put a
+  pause between tracks that are automatically mixed by using a negative value.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
@@ -540,20 +541,18 @@ after playing them but if you want AutoDJ to play the same tracks over and over
 again, you may activate the :guilabel:`Auto DJ Requeue` option in
 :menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`.
 
-**AutoDJ Crates**
+.. _library-auto-dj-crates:
+
+**Auto DJ Crates**
 
 .. versionadded:: 2.0
 
 It is possible to add random tracks to the bottom of the Auto DJ playlist. The
-tracks are not chosen from the standard library but from a set of crates. It
-will be all the crates that you have set as a source for Auto DJ. Mixxx will
-normally try to select a track that you haven't played so far. You can set a
-amount off tracks that is always supposed to be available for selection no
-matter when they where last played in :menuselection:`Preferences --> Auto DJ
---> Minimum available tracks in Track Source`.
-
-.. hint:: Put a pause between tracks that are automatically mixed by using a
-          negative value in the :guilabel:`Transition time` spin-box.
+tracks are chosen from a set of crates that you have set as a source for
+Auto DJ, or from the standard library. Mixxx will normally try to select tracks
+that you haven't played so far. You can set a amount of tracks that is always
+supposed to be available for selection no matter when they where last played in
+:menuselection:`Preferences --> Auto DJ --> Minimum available tracks in Track Source`.
 
 .. seealso:: For more information, go to the chapter :ref:`djing-auto-dj`.
 
@@ -631,9 +630,9 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   :ref:`track list<library-root>`.
 
 .. versionadded:: 2.0
-   :guilabel:`Analyze Crate` context menu option.
-   :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
-   remember the last selected playlist directory.
+   :guilabel:`Analyze Crate` and :guilabel:`Auto DJ Track Source` context menu
+   options. :guilabel:`Import crate` and :guilabel:`Export crate` context menu
+   options remember the last selected playlist directory.
    Displays the total number of tracks, and the total duration next to the
    crate's name.
 
@@ -650,7 +649,8 @@ context menu:
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
-* **AutoDJ Track Source**: Use this crate as a source for random tracks in AutoDJ.
+* **Auto DJ Track Source**: Use this crate as a source for random tracks in
+  Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` .
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various

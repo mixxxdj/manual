@@ -5,7 +5,7 @@ DJing With Mixxx
 
 Mixxx was designed to be easy to learn for both novice and experienced DJs.
 
-This part of the manual provides you with directions for using Mixxx's features 
+This part of the manual provides you with directions for using Mixxx's features
 to create your own mixes.
 
 .. _djing-gain-staging:
@@ -14,7 +14,7 @@ Setting Your Levels Properly (Gain Staging)
 ===========================================
 .. sectionauthor::
    Be <be.0@gmx.com>
-   
+
 .. figure:: ../_static/level-meter-green.png
    :align: left
    :alt: A level meter in Mixxx with the gain set properly for the loudest part of a track
@@ -36,7 +36,7 @@ region.
    :align: center
    :alt: A waveform at a good level
    :figclass: pretty-figures
-   
+
    A waveform at a good level. Note that the example waveforms in this section
    were made by adjusting the visual gain of the waveform display in Mixxx to
    illustrate the concepts. Adjusting the visual gain of the waveform display
@@ -63,7 +63,7 @@ into acoustic energy more efficiently.
    :align: center
    :alt: A clipping waveform
    :figclass: pretty-figures
-   
+
    A clipping waveform
 
 .. figure:: ../_static/level-meter-too-low.png
@@ -90,9 +90,9 @@ turned up.
    :align: center
    :alt: A waveform at too low of a level
    :figclass: pretty-figures
-   
+
    A waveform that is too close to the noise floor
-   
+
    .. note:: To adjust the output volume of a sound system while maintaing a
           high signal-to-noise ratio, the gain should be adjusted as close to
           the speakers as possible. Refer to the
@@ -356,8 +356,8 @@ track table to the right displays the content of your recordings directory. New
 recordings are automatically saved to this directory as well as CUE files if you
 choose to create them in the preferences.
 
-.. hint:: Recording your mixes and listening to them later to critique 
-          yourself is a great tool for improving your DJing skills. Sending 
+.. hint:: Recording your mixes and listening to them later to critique
+          yourself is a great tool for improving your DJing skills. Sending
           your mixes to other DJs for feedback can also be helpful.
 
 Record your mix to disk
@@ -397,6 +397,9 @@ Using Auto DJ For Automatic Mixing
 
    Mixxx library - Auto DJ view
 
+.. versionadded:: 2.0
+   Add random tracks from Auto DJ track sources
+
 Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
 the current track is nearly finished, and crossfade into it.  See
 :ref:`library-auto-dj`.
@@ -426,6 +429,49 @@ There are several ways to load tracks into the Auto DJ playlist:
   managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on
   the right.
 
+.. _djing-auto-dj-crates:
+
+Using Auto DJ crates
+--------------------
+
+Instead of inserting the contents of the crates directly into the Auto DJ
+playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are merely associated
+crates that become a source of random track selections.
+
+* **Set a crate as Auto DJ track source**:  Expand the :guilabel:`Auto DJ` item
+  in the sidebar, and right-click on the :guilabel:`Crates` sub-item. Select
+  one of the existing crates from the list. This makes the content of the crate
+  available for random selection into the :ref:`Auto DJ <library-auto-dj>`
+  queue for automatic mixing. The name of the crate is now listed as sub-item
+  below.
+
+  If you do not have any crates available for selection in the list, go
+  and create a crate first and add some tracks, see :ref:`library-crates`.
+
+* **Manually add tracks from track sources to Auto DJ**: Click the
+  :guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of the
+  library. Click the :guilabel:`Add random` button to add one track at the time
+  from Auto DJ track sources to the bottom of the Auto DJ playlist.
+
+  .. note:: If you did not set any crates as Auto-DJ track source, clicking the
+            :guilabel:`Add Random` button will add a track selected from the
+            whole library instead.
+
+* **Automatically add tracks from track sources to Auto DJ**: Mixxx can randomly
+  add tracks to the Auto Dj playlist from the track sources, as soon as a
+  specified minumum number of tracks remain. Select
+  :menuselection:`Preferences --> Auto DJ --> Enable random track addition to
+  queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` to
+  change the minimum number of tracks after which random tracks may be added.
+
+  .. note:: If you did not set any crates as Auto-DJ track source, tracks are
+            selected from the whole library instead.
+
+* **Remove a crate as Auto DJ track source**: Expand the :guilabel:`Auto DJ`
+  item in the sidebar, and right-click on one of the crates listed below the
+  :guilabel:`Crates` sub-item. The select :guilabel:`Remove Crate as Track
+  Source`.
+
 Playing tracks in Auto DJ
 -------------------------
 
@@ -439,3 +485,7 @@ DJ as follows:
   starts.
 * Mixxx will continue to automatically mix until the Auto DJ playlist is empty.
 * Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing
+
+.. hint:: You can add a track to the end of the Auto DJ playlist once it is
+          played instead of removing it. Set :menuselection:`Preferences -->
+          Auto DJ --> Re-queue tracks after playback --> On`.
