@@ -71,6 +71,24 @@ music library.
   column header to reverse the sort order. Click on another column header to
   change the active column.
 
+  * **Multi-Column sorting**
+
+    .. versionadded:: 2.0
+
+    You can sort multiple columns by clicking *up to three* column headers you
+    wish to sort your tracks by. This makes searching for tracks in a large list
+    more efficient. Clicking twice on a column header will reverse the sort
+    order.
+
+    Example:
+
+    #. Click on the :guilabel:`BPM` column header -> list is sorted by BPM
+    #. Click on the :guilabel:`Year` column header -> list is sorted by
+       year. If year is equal, it is still sorted by the last sort, e.g. BPM.
+    #. Click on the :guilabel:`Genre` column header -> list is sorted by
+       genre. If genre is equal, it is still sorted by year. If genre and year
+       is equal, then it is sorted by BMP.
+
 **Rating tracks**
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
   over the rating field and clicking the stars.
