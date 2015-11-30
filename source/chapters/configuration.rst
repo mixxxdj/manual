@@ -484,7 +484,7 @@ things you surely don't need while performing.
 
 Once you have configured your music directories and your BPM and key detection
 settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
-view on the left side panel of the library. Thiis allows you to run
+view on the left side panel of the library. This allows you to run
 :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
 advance. While analyzing, the progress in percentage and total queue length are
 shown.

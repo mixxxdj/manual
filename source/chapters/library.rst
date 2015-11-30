@@ -62,7 +62,7 @@ music library.
 
 **Customizing the view**
   Move columns by clicking in a column header and dragging it to another
-  position. Right-click on a column header to show and hide particular
+  position. Right-click on a column header to show or hide particular
   columns. Adjust the column width to fit the contents of the rows by
   double-clicking on the separator between two column headers.
 
