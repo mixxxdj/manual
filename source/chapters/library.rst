@@ -1,6 +1,6 @@
 .. include:: /shortcuts.rstext
 
-.. _interface-library:
+.. _library-interface:
 
 The Mixxx Library
 *****************
@@ -22,7 +22,7 @@ Overview of the Library features
 
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
-:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx
+:ref:`sampler <interface-sampler>`; see :ref:`library-loading-tracks`. Mixxx
 imports your music library automatically when it is run for the first time, see
 :ref:`configuration-import` for more information.
 
@@ -96,13 +96,13 @@ music library.
 **Track Inline editing**
   Mixxx reads :term:`metadata` from the tracks to fill the columns of the
   library. Double-click on a field, edit the data, and hit :kbd:`Enter` when you
-  are done. Go to the chapter :ref:`edit metadata <djing-edit-metadata>` for
+  are done. Go to the chapter :ref:`edit metadata <library-edit-metadata>` for
   detailed information.
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
   to the waveform display or use the context menu. Go to the chapter
-  :ref:`djing-loading-tracks` for detailed information.
+  :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
@@ -111,7 +111,7 @@ music library.
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
   deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column.
-  Go to the chapter :ref:`djing-previewing-tracks` for detailed information.
+  Go to the chapter :ref:`library-previewing-tracks` for detailed information.
 
 **Cover/Album Art**
 
@@ -180,11 +180,11 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
   e.g. if you used iTunes to edit them, this option lets you save the new values
   for the selected tracks to the Mixxx library, see
-  :ref:`edit metadata <djing-edit-metadata>`.
+  :ref:`edit metadata <library-edit-metadata>`.
 * **Reload Track Metadata from MusicBrainz**:
   Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database,
   and apply the search results to your tracks, see
-  :ref:`edit metadata <djing-edit-metadata>`.
+  :ref:`edit metadata <library-edit-metadata>`.
 * **Cover Art Option sub-menu**:
 
     * **Choose New Cover**: Select an image from the file-browser as new cover.
@@ -253,7 +253,11 @@ The features in detail:
   list again. The tracks appear again in every playlist or crate they were
   listed before they were hidden.
 
-.. _djing-loading-tracks:
+.. seealso:: To learn how to permanently remove tracks from the Mixxx library
+             using the :guilabel:`Hidden Tracks` view, see
+             :ref:`permanently remove tracks <configuration-removing-tracks>`.
+
+.. _library-loading-tracks:
 
 Loading Tracks
 ==============
@@ -263,7 +267,7 @@ Loading Tracks
 
 Tracks can be loaded into a deck in several ways:
 
-* Right-click the :ref:`library track table <interface-library>`: Right-clicking
+* Right-click the :ref:`library track table <library-interface>`: Right-clicking
   on a track in the table will present the options :guilabel:`Load in Deck 1`
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
@@ -280,7 +284,7 @@ Tracks can be loaded into a deck in several ways:
   example, on Mac OS X, dragging-and-dropping a track from iTunes onto one of
   Mixxx's waveform displays will load that track into a deck.
 
-.. _djing-finding-tracks:
+.. _library-finding-tracks:
 
 Finding Tracks (Search)
 =======================
@@ -374,7 +378,7 @@ Mixxx supports the following filters:
 | for multi-word text arguments.       | number.                               | number.                               |
 +--------------------------------------+---------------------------------------+---------------------------------------+
 
-.. _djing-previewing-tracks:
+.. _library-previewing-tracks:
 
 Previewing Tracks
 =================
@@ -397,7 +401,7 @@ and click the :guilabel:`Play` button next to the waveform.
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
 
-.. _djing-edit-metadata:
+.. _library-edit-metadata:
 
 Edit metadata of audio files
 ============================
@@ -767,6 +771,9 @@ view, then right-click on a sessions name to access the different features:
 * **Join with previous**: Join the current history session with a previous one.
 * **Export playlist**: Export a session in various file formats, ideal for
   processing the data in other applications.
+
+
+.. _library-analyze:
 
 Analyze - Prepare your tracks
 =============================
