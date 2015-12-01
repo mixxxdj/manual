@@ -15,8 +15,8 @@ next track you would like to mix in your headphones. The audience will not hear
 what you are cueing in your headphones until you decide to mix it in.
 
 In order to use headphone cueing, you will need at least 2 separate audio
-outputs, typically provided by a USB soundcard (also known as an “audio 
-interface”). The headphone jack on most laptops is not a second audio output. 
+outputs, typically provided by a USB soundcard (also known as an “audio
+interface”). The headphone jack on most laptops is not a second audio output.
 Rather, plugging headphones into the jack simply redirects the laptop's single
 stereo output from its speakers to your headphones. A splitter cable can be used
 to separate the stereo output of a headphone jack into two separate mono outputs
@@ -32,8 +32,7 @@ devices simultaneously. Depending on your budget and application area, your
 sound setup and requirements may vary. This section provides useful information
 for club, hobby, and radio DJs alike.
 
-.. seealso:: The `Mixxx DJ Hardware Guide
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+.. seealso:: The `Mixxx DJ Hardware Guide <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
              lists controllers and sound cards with information about
              their compatibility with Mixxx and different
              :term:`operating systems<operating system>`. It also has
@@ -54,7 +53,7 @@ Laptop Only
 
    Using Mixxx with your built-in sound card
 
-There is no need to buy any equipment other than a computer if you do not 
+There is no need to buy any equipment other than a computer if you do not
 require headphone :term:`cueing`. The built-in soundcard on most computers and
 laptops comes with a single stereo line-out and a microphone input.
 
@@ -92,14 +91,14 @@ Laptop and Splitter Cable
    :figclass: pretty-figures
 
 
-The cheapest way to DJ and :term:`cue` with headphones uses a 
+The cheapest way to DJ and :term:`cue` with headphones uses a
 stereo-to-mono DJ splitter cable (also known as a “Y cable”) plugged
 into the headphone jack of a laptop or other computer. This cable divides the
 stereo output from a single jack into two separate mono singals.
 
-This setup allows you to start DJing without having to invest in expensive 
-equipment. However, your audience will not be able to enjoy music producers' 
-artistic use of stereophonic sound (although many club PA systems are wired in 
+This setup allows you to start DJing without having to invest in expensive
+equipment. However, your audience will not be able to enjoy music producers'
+artistic use of stereophonic sound (although many club PA systems are wired in
 mono anyway). Furthermore, soundcards built into computers are usually low
 quality.
 
@@ -112,12 +111,11 @@ quality.
    with a speaker symbol.
 #. From the :guilabel:`Master` drop-down menu, select your built-in soundcard,
    then :guilabel:`Channel 1`
-#. From the :guilabel:`Headphones` drop-down menu, select your built-in 
+#. From the :guilabel:`Headphones` drop-down menu, select your built-in
    soundcard, then :guilabel:`Channel 2`
 #. Click :guilabel:`Apply` to save the changes.
 
-.. seealso:: See `the wiki
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility#splitter_cables>`_
+.. seealso:: See `the wiki <http://mixxx.org/wiki/doku.php/hardware_compatibility#splitter_cables>`_
              for a list of DJ splitter cables.
 
 .. warning:: Most splitter cables, particularly those marketed as headphone
@@ -145,8 +143,8 @@ Laptop and External USB Soundcard
 The most common setup for DJing is a laptop and a soundcard with 2 stereo
 outputs (4 channels). The first stereo output (channels 1-2) is used as the
 master output and supplies the main mix to the audience. With the second stereo
-output (channels 3-4) you can :term:`cue <cueing>` and :ref:`preview 
-<djing-previewing-tracks>` the next track in your headphones. If
+output (channels 3-4) you can :term:`cue <cueing>` and :ref:`preview
+<library-previewing-tracks>` the next track in your headphones. If
 your soundcard only has one stereo output, you can use multiple soundcards
 to achieve a similar setup. Most DJ controllers above the most basic models
 include a soundcard with 2 stereo outputs (see
@@ -180,7 +178,7 @@ mouse and keyboard. For more information see :ref:`controlling mixxx`.
           :ref:`splitter cable<setup-laptop-with-splitter>` can be used as a
           portable, inexpensive backup.
 
-.. note:: Soundcards designed and marketed for recording often have a knob that 
+.. note:: Soundcards designed and marketed for recording often have a knob that
           allows you to mix its input directly with its output. This function
           can be helpful when recording (to hear the input without the latency
           of going through the computer), but the master output level will be
@@ -244,7 +242,7 @@ soundcard as depicted in the diagram below:
    :figclass: pretty-figures
 
    Using Mixxx together with a DJ controller and external soundcard
-          
+
 **Using a controller without an integrated soundcard**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
@@ -277,10 +275,10 @@ Laptop, External Hardware Mixer and Vinyl Control
 
    Using Mixxx together with turntables and external mixer
 
-This setup allows DJs to use the techniques of DJing with vinyl record 
-turntables combined with the portability and flexibility of a laptop computer. 
-Instead of carrying crates of records or CDs, DJs can carry their entire music 
-collection on their laptop. In addition to a laptop and headphones, this setup 
+This setup allows DJs to use the techniques of DJing with vinyl record
+turntables combined with the portability and flexibility of a laptop computer.
+Instead of carrying crates of records or CDs, DJs can carry their entire music
+collection on their laptop. In addition to a laptop and headphones, this setup
 requires a soundcard with at least two pairs of stereo inputs and outputs
 as well as a pair of :term:`timecode` records.
 
