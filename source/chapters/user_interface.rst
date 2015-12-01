@@ -239,7 +239,7 @@ follows:
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
   track's :term:`BPM` but failed to align the beat markers on the beats. For
-  more information, go to the chapter :ref:`djing-bpm-detection`.
+  more information, go to the chapter :ref:`configuration-bpm-detection`.
 
 **Quantize Mode Toggle**
   If enabled, all cues, hotcues, loops, and beatloops will be automatically
@@ -738,11 +738,11 @@ Equalizers and Gain Knobs
 
   .. note:: By default, Mixxx automatically applies an additional ReplayGain so
             tracks have approximately equal loudness at unity gain. Your tracks
-            must be :ref:`analyzed <library-analyze>` to take advantage of this
-            feature. When an unanalyzed track is loaded, Mixxx calculates its
-            ReplayGain value, but will not apply a newly calculated ReplayGain
-            value to a track after it has already started playing (to avoid a
-            sudden change in the gain of a playing track).
+            must be :ref:`analyzed <configuration-analyze>` to take advantage of
+            this feature. When an unanalyzed track is loaded, Mixxx calculates
+            its ReplayGain value, but will not apply a newly calculated
+            ReplayGain value to a track after it has already started playing
+            (to avoid a sudden change in the gain of a playing track).
 
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
@@ -1168,4 +1168,4 @@ The features in detail:
   peak indicator flashes red.
 
 .. seealso:: For more information, go to the chapter
-             :ref:`djing-previewing-tracks`.
+             :ref:`library-previewing-tracks`.

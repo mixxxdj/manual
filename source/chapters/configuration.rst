@@ -1,11 +1,11 @@
 .. include:: /shortcuts.rstext
 
-.. _configuring-mixxx:
+.. _configuration-mixxx:
 
 Mixxx Setup
 ***********
 
-.. _djing-open:
+.. _configuration-open:
 
 Opening Mixxx
 =============
@@ -62,7 +62,7 @@ in- and outputs to be used.
   counter increases, then increase your audio buffer setting, decrease the
   sample rate setting or change the sound API setting if available.
 
-.. _configuring-mixer-mode:
+.. _configuration-mixer-mode:
 
 Audio Outputs
 =============
@@ -209,7 +209,7 @@ already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
              provided by PulseAudio. It has poor performance, but may be
              suitable for basic playback.
 
-.. _djing-import:
+.. _configuration-import:
 
 Importing your audio files
 ==========================
@@ -288,7 +288,7 @@ Importing your audio files
   files in good quality and add them to the Mixxx library. See
   `<https://en.wikipedia.org/wiki/Ripping>`_
 
-.. _djing-changing-music-directories:
+.. _configuration-changing-music-directories:
 
 Changing music directories
 ==========================
@@ -339,7 +339,7 @@ You can manually add, relink, and remove Mixxx music directories in
           rescan afterwards. Select :menuselection:`Library --> Rescan Library`
           in the menu.
 
-.. _djing-bpm-detection:
+.. _configuration-bpm-detection:
 
 BPM and Beat Detection Preferences
 ==================================
@@ -422,7 +422,7 @@ follow the note below.
 .. note:: If the detected BPM value is not sufficiently accurate but very close
           to an integer value, try to set the BPM value manually to the integer.
 
-.. _key-detection:
+.. _configuration-key-detection:
 
 Key Detection Preferences
 =========================
@@ -467,7 +467,7 @@ The table below summarizes the Key detection settings:
 |                                       | in the library.                      |
 +---------------------------------------+--------------------------------------+
 
-.. _library-analyze:
+.. _configuration-analyze:
 
 Analyze your library
 ====================
@@ -505,4 +505,4 @@ The Analyze features in detail:
 * **Select All button**: Selects all tracks in the current view.
 * **Analyze button**: Starts the detection on the selected tracks.
 
-.. seealso:: For more information, go to :ref:`djing-bpm-detection`.
+.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.

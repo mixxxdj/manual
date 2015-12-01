@@ -18,7 +18,7 @@ can perform actions by pointing and clicking with your mouse.
 
 * **Single Left Click**: Performing a left mouse click on buttons triggers the
   default action for that control. Moreover if you click on a value in the track
-  list of the Mixxx :ref:`library <interface-library>`, you can change the
+  list of the Mixxx :ref:`library <library-interface>`, you can change the
   value. For example the year of a track.
 * **Single Right Click**: On most buttons, performing a right click triggers a
   different action than a left click. You can return any knob or fader to its
@@ -92,7 +92,7 @@ hardware devices used to control audio applications. Many DJs prefer the
 hands-on feel of a controller with Mixxx because it can feel similar to using a
 real mixer and turntables or :term:`CDJ`.
 
-.. _load-preset:
+.. _control-load-preset:
 
 Loading a controller preset
 ---------------------------
@@ -175,7 +175,7 @@ If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for extracting
 an archive or compressed folder. Copy the :file:`.xml` file into your User Preset folder.
 If there is a :file:`.js` file, also copy that to your User Preset folder. Restart Mixxx
-and :ref:`load the preset<load-preset>`.
+and :ref:`load the preset<control-load-preset>`.
 
 Map your own your controller
 ----------------------------

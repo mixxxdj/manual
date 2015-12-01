@@ -148,7 +148,7 @@ Additional Effects via external Mixer Mode
 ==========================================
 
 Mixxx comes with a set of :ref:`native effects <djing-with-effects>`.
-Additinally, using the :ref:`external mixer mode <configuring-mixer-mode>` you
+Additinally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
 can route each deck directly to 3rd party effect hosts.
 
 The following examples are only intended to encourage experimentation, they are

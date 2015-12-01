@@ -176,7 +176,7 @@ the key. To enable :term:`key lock`, click the :guilabel:`key lock` button in
 the :ref:`interface-button-grid`. The second is that Mixxx can automatically
 detect the key of a track and will display it in the library and the decks. The
 notation which is used to display a key can be changed in :ref:`Key Detection
-Preferences <key-detection>`.
+Preferences <configuration-key-detection>`.
 
 .. _djing-with-effects:
 

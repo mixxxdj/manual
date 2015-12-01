@@ -24,7 +24,7 @@ The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
 :ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx
 imports your music library automatically when it is run for the first time, see
-:ref:`djing-import` for more information.
+:ref:`configuration-import` for more information.
 
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
@@ -106,7 +106,7 @@ music library.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
-  time. Go to the chapter :ref:`djing-import` for detailed information.
+  time. Go to the chapter :ref:`configuration-import` for detailed information.
 
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
@@ -163,10 +163,10 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **BPM Options sub-menu**:
 
     * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200%
-      of the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks.
+      of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>` the tracks.
       If many of the detected BPM are off from the tracks original tempo, you
       might want to adjust the :guilabel:`BPM Range` in the
-      :ref:`Analyzer Settings <djing-bpm-detection>` and re-run the analysis.
+      :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
@@ -175,7 +175,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
     * **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data
       of selected tracks from the Mixxx library. After doing this, we
-      recommended you to :ref:`analyze <library-analyze>` the tracks again.
+      recommended you to :ref:`analyze <configuration-analyze>` the tracks again.
 
 * **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
   e.g. if you used iTunes to edit them, this option lets you save the new values
@@ -604,7 +604,7 @@ the context menu:
   is locked, you cannot add tracks, rename or delete the playlist. Choose
   :guilabel:`Unlock` from the context menu to unlock the playlist.
 * **Analyze entire playlist**: Forces the analysis of the playlist in the
-  :ref:`Analyze <library-analyze>` view.
+  :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists to a playlist in
   various file formats. For more information, go to :ref:`library-3rd-party`.
 * **Export playlist**: Export a playlist in various file formats, such as
@@ -652,7 +652,7 @@ context menu:
 * **Auto DJ Track Source**: Use this crate as a source for random tracks in
   Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` .
 * **Analyze entire crate**: Forces the analysis of the crate in the
-  :ref:`Analyze <library-analyze>` view.
+  :ref:`Analyze <configuration-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
   file formats.
 * **Export crate**: Export a crate in various file formats, such as
@@ -711,7 +711,7 @@ Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
 as new music directory. Mixxx will watch this directory and its subdirectories
 for new tracks.
 
-.. seealso:: For more informations, go to :ref:`djing-changing-music-directories`.
+.. seealso:: For more informations, go to :ref:`configuration-changing-music-directories`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
@@ -774,7 +774,7 @@ Analyze - Prepare your tracks
 This section allows you to analyze your tracks in advance of loading them into
 a deck. Analyzing tracks requires considerably CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
-play. See :ref:`library-analyze` for details.
+play. See :ref:`configuration-analyze` for details.
 
 
 .. _library-3rd-party:
