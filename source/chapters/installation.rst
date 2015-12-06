@@ -27,8 +27,8 @@ Installation on Windows
 * If the installation is complete, a confirmation screen will appear.
 * Close the installer screen.
 
-Mixxx is supported on Windows 8, Windows 7, Windows Vista or Windows XP, with
-native 32 and 64-bit versions.
+Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
+64-bit versions.
 
 .. note:: If you are not sure about 32-bit versus 64-bit, pick the 32-bit
           version when downloading the Mixxx installer.
@@ -82,7 +82,7 @@ The Mac App Store makes getting new apps easier than ever.
 * Start the Mac :file:`App Store.app` on your computer.
 * Search for *mixxx* in the App Store, alternatively
   `click this direct link
-  <http://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ .
+  <https://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ .
 * Select Mixxx and click the :guilabel:`Install` button.
 * Type in your administrator password if asked.
 * Mixxx will be installed to your :file:`Applications` folder.
@@ -154,7 +154,7 @@ Building Mixxx from Source
 If your operating system isn't listed here, then it's likely you're going to
 have to build Mixxx from the source code. For more information, go to:
 
-* `<http://mixxx.org/wiki/doku.php/start#build_mixxx>`_
+* `<http://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_
 
 Where to go from here?
 ======================
@@ -162,5 +162,3 @@ Where to go from here?
 * :doc:`Set up your audio devices and controllers <setup>`
 * :doc:`Open Mixxx and start importing your audio files <djing_with_mixxx>`
 * :doc:`Get familiar with the Mixxx user interface <user_interface>`
-
-

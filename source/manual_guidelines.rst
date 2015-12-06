@@ -80,8 +80,7 @@ Nice screenshot tools with build-in editor for annotations:
 
 * MacOSX: `Skitch <https://evernote.com/skitch/>`_
 * Linux: `Shutter <http://shutter-project.org/>`_
-* Windows: `PickPic <http://www.nteworks.com/picpick/>`_ or
-  `Screenshotcaptor <http://www.donationcoder.com/Software/Mouser/screenshotcaptor/>`_
+* Windows: `PickPic <http://ngwin.com/picpick/>`_ 
 
 Alternatively, import your screenshots into
 `Inkscape <https://inkscape.org/>`_, add annotations and export as .png to
@@ -273,4 +272,3 @@ Meta-information markup
    way. Example markup: ::
 
       .. sectionauthor:: Jon Doe <name@domain.tld>
-

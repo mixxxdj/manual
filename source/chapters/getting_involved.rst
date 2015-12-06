@@ -21,10 +21,10 @@ As a non-developer
   <http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for
   your controller
 * `Report bugs <https://bugs.launchpad.net/mixxx>`_
-* Update our `Wiki <http://mixxx.org/wiki/doku.php>`_ to make sure the information on it
-  is up to date.
+* Update our `Wiki <http://mixxx.org/wiki/doku.php>`_ to make sure the
+  information on it is up to date.
 * Translate Mixxx using `Transifex
-  <https://www.transifex.com/projects/p/mixxxdj/>`_
+  <https://www.transifex.com/mixxx-dj-software/public/>`_
 * Answer questions on the `Troubleshooting Forum
   <http://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page
   <https://answers.launchpad.net/mixxx>`_
@@ -60,4 +60,3 @@ As a software developer
 #. Talk to us on IRC for help on how to fix it.
 #. Fix it! *Done!* Your name will now be on the `Mixxx contributor list
    <http://mixxx.org/contact/>`_.
-

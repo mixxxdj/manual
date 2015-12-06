@@ -11,11 +11,11 @@ Shortcuts let you work more efficiently. This table lists the default keyboard
 shortcuts for accessing Mixxx with an English keyboard layout. Depending on your
 language settings the defaults may be different.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    *Passthrough*, *Vinylcontrol Mode*, *Vinylcontrol Cueing*, and
    *Single Deck Vinylcontrol Toggle* shortcuts
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
 
 +----------------------------------------+---------------------+---------------------+--------------+
@@ -168,12 +168,12 @@ Application shortcuts
 Use these shortcuts to access features available in the menu on top of the
 application window.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Added *Show Effect Rack*, *Maximize Library*, and *Show Cover Art* shortcuts.
    Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
    which provides various useful debugging tools.
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    Shortcuts for *Enable Vinyl Control 1-4*.
 
 ========================================  ================================
@@ -263,7 +263,7 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
    * Show debug tooltips
    * Provide extra skins when developer mode is enabled.
@@ -331,7 +331,7 @@ terminal and hit return: ::
 Experiment modes for rapid development and testing
 ---------------------------------------------------
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
   * Adds a static Experiment class with a tri-state mode flag that indicates
     whether the experiment mode is OFF, BASE, or EXPERIMENT.
@@ -360,9 +360,7 @@ the log on exit.
 Version History
 ===============
 
-.. todo:: Add 1.12 release date
-
-**v1.12.0** (2015-XX-XX)
+**v2.0.0** (2015-12-31)
 
   * 4 Decks with Master Sync
   * New Effects Framework with 4 Effect Units and 5 Built-in Effects:
@@ -379,12 +377,12 @@ Version History
   * New Pitch-Independent Algorithm for Better-Sounding Key-lock
 
 For a full list of new features and bugfixes, go to:
-`https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_.
+`https://launchpad.net/mixxx/2.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_.
 
 **v1.11.0** (2013-05-09)
 
   * Completely revamped Waveforms
-  * Direct :term:`HID controller` support
+  * Direct :term:`HID` controller support
   * Point & Click Controller Mapping
   * Next Generation Beat Detection
   * Library History Feature
@@ -427,6 +425,3 @@ For a full list of new features and bugfixes, go to:
 
 .. seealso:: For an overview of previous versions, `take a look
              <https://launchpad.net/mixxx/+series>`_ at the timeline.
-
-
-

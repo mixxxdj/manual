@@ -1,0 +1,828 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 17:11+0100\n"
+"PO-Revision-Date: 2015-11-24 16:12+0000\n"
+"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/chapters/configuration.rst:6
+msgid "Mixxx Setup"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:11
+msgid "Opening Mixxx"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:12
+msgid ""
+"|logo| Once you've :ref:`installed Mixxx <installing-mixxx>`, start by "
+"opening Mixxx and import your music to the Mixxx library."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:18
+msgid "**Windows**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:16
+msgid ""
+"Double-click the Mixxx icon on the Desktop. Alternatively, browse your "
+"Windows start menu and click the Mixxx icon, or perform a search for "
+":file:`Mixxx.exe`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:23
+msgid "**Mac OSX**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:21
+msgid ""
+"Double-click the Mixxx icon in the :file:`Applications` folder. "
+"Alternatively, drag the Mixxx icon to the dock and double-click it there or "
+"search for \"Mixxx\" in Spotlight."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:28
+msgid "**GNU/Linux**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:26
+msgid ""
+"Simply type :command:`mixxx` into the terminal, then hit :kbd:`Return`. With"
+" some distributions like Ubuntu you can also double-click the Mixxx icon in "
+"the launcher. Alternatively, perform a search for :file:`mixxx`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:31
+msgid "Sound Hardware Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:40
+msgid "Mixxx Sound Hardware Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:42
+msgid ""
+":menuselection:`Preferences --> Sound Hardware` allows you to select the "
+"audio in- and outputs to be used."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:45
+msgid ""
+"**Sound API**: Depending your :term:`Operating System`, select the "
+":term:`API` that Mixxx uses to deliver audio to your audio device. Your "
+"choice can drastically affect how smooth Mixxx performs on your computer."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:49
+msgid ""
+"**Sample Rate**: Allows you to manually select the sample rate for the audio"
+" input. The sample rate value should be set to the sample rate of your audio"
+" interface. By default, Mixxx tries the system default first, which is most "
+"likely 44.1 kHz. Otherwise, Mixxx will pick a different default."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:54
+msgid ""
+"**Audio buffer**: Also known as latency, this is the lag time in "
+"milliseconds that it takes for Mixxx to process your input. Lower latency "
+"means Mixxx will be more responsive but on slower computers and cheaper "
+"sound cards it might cause glitches."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:59
+msgid ""
+"**Buffer Underflow Count**: Underflows (no data is available when needed) "
+"indicate that some of the subsystems in Mixxx can't keep up with real-time "
+"deadlines. This is useful to tune the latency settings. If the counter "
+"increases, then increase your audio buffer setting, decrease the sample rate"
+" setting or change the sound API setting if available."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:68
+msgid "Audio Outputs"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:70
+msgid "Mixxx's mixing engine can be used two ways:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:82
+msgid "**Internal Mixer Mode**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:73
+msgid ""
+"In this mode, Mixxx performs the mixing of the decks, microphone, and "
+"samplers in software and outputs them to a single output. To enable internal"
+" mixer mode assign a valid audio output to the :guilabel:`Master` output in "
+":menuselection:`Preferences --> Sound Hardware --> Output`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:78
+msgid "Internal mode is used in the following configurations:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:80
+msgid ":ref:`setup-laptop-only`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:81
+msgid ":ref:`setup-laptop-and-external-card`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:82
+msgid ":ref:`setup-controller-and-external-card`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:93
+msgid "**External Mixer Mode**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:85
+msgid ""
+"In this mode, Mixxx outputs the audio from each deck to a separate soundcard"
+" output. This allows you to route the deck outputs through a hardware mixer."
+" Similarly, to enable external mixer mode, simply select a valid audio "
+"output for the :guilabel:`Deck` outputs in :menuselection:`Preferences --> "
+"Sound Hardware --> Output`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:91
+msgid "External mode is used in the following configuration:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:93
+msgid ":ref:`setup-vinyl-control`"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:96
+msgid "Headphone Output"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:98
+msgid ""
+"In both internal and external mixer mode, you can choose a headphone output "
+"for :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` "
+"in :menuselection:`Preferences --> Sound Hardware --> Output --> Headphone`."
+" This allows you to listen and synchronize the track you will play next in "
+"your headphones before your audience hears the track. See also :ref"
+":`interface-pfl`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:107
+msgid "Latency, Sample Rate, and Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:109
+msgid ""
+"To achieve the best performance with Mixxx it is essential to configure your"
+" *audio buffer*, *sample rate*, and *audio API*. These three factors largely"
+" determine Mixxx's responsiveness and audio quality and the optimal settings"
+" will vary based on your computer and hardware quality."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:117
+msgid "Audio Buffer"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:119
+msgid ""
+"The audio buffer, also known as latency, is the lag time in milliseconds "
+"that it takes for Mixxx to process your input (turning knobs, sliding the "
+"crossfader, etc.). For example, with an audio buffer of 36 ms, it will take "
+"approximately 36 milliseconds for Mixxx to stop the audio after you toggle "
+"the play button. Additionally, the audio buffer setting determines how "
+"quickly your :term:`Operating System` expects Mixxx to react. A smaller "
+"audio buffer means Mixxx will be more responsive. On the other hand, setting"
+" your audio buffer too low may be too much for your computer and sound card "
+"to handle. In this situation, Mixxx playback will be choppy and very clearly"
+" distorted as your computer will not be able to keep up with how frequently "
+"Mixxx is processing audio."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:131
+msgid ""
+"An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a"
+" keyboard/mouse or a controller. An audio buffer below 10 ms is recommended "
+"when vinyl control is used because Mixxx will feel unresponsive otherwise."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:135
+msgid ""
+"Keep in mind that *lower latencies require better soundcards and faster "
+"CPUs* and that zero latency DJ software is a myth (although Mixxx is capable"
+" of sub-1ms operation)."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:140
+msgid "Sample Rate"
+msgstr "采样率"
+
+#: ../../source/chapters/configuration.rst:142
+msgid ""
+"The sample rate setting in Mixxx controls how many samples per second are "
+"produced by Mixxx. This determines the maximum frequency in Mixxx's signal, "
+"which is half the sample rate. Humans can only hear up to 20 kHz, so there "
+"is generally no need to use more than a 44.1 kHz (44100 Hz) sample rate for "
+"playback. Most music is published with a 44100 Hz sample rate."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:148
+msgid ""
+"A sample rate of 96kHz takes Mixxx over twice as long to compute. Keep in "
+"mind that increasing the sample rate will increase CPU usage and likely "
+"raise the minimum audio buffer size you can use."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:154
+msgid "Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:156
+msgid ""
+"The Audio :term:`API` that Mixxx uses is the method by which Mixxx talks to "
+"your :term:`Operating System` in order to deliver audio to your soundcard. "
+"Your choice of Audio API can drastically affect Mixxx's performance on your "
+"computer. **Therefore it is important to take care to choose the best Audio "
+"API available to you.** Refer to the following table of Audio APIs to see "
+"what the best choice is for your operating system."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:164
+msgid "OS / Audio API"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:164
+msgid "Quality"
+msgstr "品质"
+
+#: ../../source/chapters/configuration.rst:166
+msgid "Windows / WMME"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:166
+#: ../../source/chapters/configuration.rst:168
+msgid "Poor"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:168
+msgid "Windows / DirectSound"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:170
+msgid "Windows / WASAPI"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:170
+#: ../../source/chapters/configuration.rst:172
+#: ../../source/chapters/configuration.rst:174
+#: ../../source/chapters/configuration.rst:176
+#: ../../source/chapters/configuration.rst:180
+#: ../../source/chapters/configuration.rst:182
+msgid "Good"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:172
+msgid "Windows / ASIO"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:174
+msgid "Windows / WDDKMS"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:176
+msgid "Mac OS X / CoreAudio"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:178
+msgid "GNU Linux / OSS"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:178
+msgid "OK"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:180
+msgid "GNU Linux / ALSA"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:182
+msgid "GNU Linux / JACK (Advanced)"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:185
+msgid ""
+"On Windows, if an ASIO driver is not available for your operating system, "
+"you can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency "
+"audio driver for WDM audio devices."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:189
+msgid ""
+"On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will "
+"prevent any other programs from using the sound card(s) that Mixxx is using."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:192
+msgid ""
+"JACK allows you to route audio between JACK-compatible applications in "
+"flexible ways and output sound from multiple programs at the same time. "
+"However, JACK can be complicated to set up. To use JACK, start the JACK "
+"daemon *before* running Mixxx. Otherwise JACK will not appear as a Sound API"
+" in the preferences."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:197
+msgid ""
+"Most modern GNU/Linux distributions use PulseAudio by default. When launched"
+" from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is "
+"running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows "
+"multiple programs to access one sound card, but PulseAudio and JACK have "
+"opposite design goals. PulseAudio is designed to make ordinary computer "
+"usage such as watching videos online and listening to music easy whereas "
+"JACK is designed for demanding low latency audio programs like Mixxx. It can"
+" be difficult to setup JACK and PulseAudio to work well together. So, unless"
+" you already use JACK, it is easiest to let Mixxx suspend PulseAudio and use"
+" ALSA."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:207
+msgid ""
+"On GNU/Linux it is not recommended to use the ``pulse`` device with the ALSA"
+" Audio API. This is an emulation layer for ALSA provided by PulseAudio. It "
+"has poor performance, but may be suitable for basic playback."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:215
+msgid "Importing your audio files"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:227
+msgid "Mixxx running on Windows 8 - Choose music library directory dialog"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:247
+msgid "**Setup the music library**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:231
+msgid ""
+"The first time you run Mixxx, you are asked to select a directory where your"
+" music is stored. By default, the dialog points to a location where music "
+"files are typically held, but you can select any location on your computer."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:235
+msgid ""
+"Click :guilabel:`Select Folder` and Mixxx will scan your music library. "
+"Depending on the size of your library this could take some time. All the "
+"supported music files Mixxx detects will be listed in the :ref:`library-"
+"root`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:239
+msgid ""
+"If you want to refresh your library (for example because you added or moved "
+"files), you can do this with :menuselection:`Library --> Rescan Library` in "
+"the menu. If you want to rescan at every launch, select "
+":menuselection:`Preferences --> Library --> Rescan on startup`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:244
+msgid ""
+"On Windows 7 and 8 the import dialog points to your Windows “Music“ Library,"
+" a special-purpose virtual folder. You can **not** use these virtual "
+"folders. Select a regular folder instead, usually “My Music“, like pictured "
+"above."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:249
+msgid "**Compatible files**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:251
+msgid "Support for the Opus audio format."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:254
+msgid ""
+"Mixxx supports a variety of audio file formats: :term:`Wave <WAV>` (wav), "
+":term:`Aiff <AIFF>` (aiff, aif), :term:`MP3` (mp3), :term:`Ogg Vorbis` "
+"(ogg), :term:`FLAC` (flac), :term:`OPUS` (opus), and :term:`AAC` (aac, m4a) "
+"if supported by your :term:`OS <Operating System>`. :term:`DRM` protected "
+"files, such as m4p files purchased in the iTunes Store, are not supported."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:260
+msgid ""
+"AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The "
+"`Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_ is "
+"required for Windows Vista."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:264
+msgid ""
+"On Linux, AAC playback is disabled by default due to licensing restrictions."
+" To enable the playback of AAC files, `build Mixxx from source with m4a/AAC "
+"files support "
+"<http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:271
+msgid "**Import external libraries**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:269
+msgid ""
+"If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows "
+"you to access your tracks and playlists in the Mixxx library, see :ref"
+":`library-3rd-party`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:280
+msgid "**Import remote files**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:274
+msgid ""
+"To import audio files which are not in your music library directory, drag "
+"them directly from an external :term:`file manager` or from the :ref:`Browse"
+" section <library-browse>` to the track list. Importing files into Mixxx "
+"does not change the location of the files on the hard disk."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:279
+msgid ""
+"You can not drag complete folders to the library because currently Mixxx can"
+" not recursively scan folders for compatible music files."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:284
+msgid "**Import playlists**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:283
+msgid ""
+"You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls`"
+" playlist files from products other than Mixxx, see :ref:`library-"
+"playlists`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:289
+msgid "**Import music from CDs**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:287
+msgid ""
+"Mixxx can not play music from Audio CDs. Convert the content to compatible "
+"files in good quality and add them to the Mixxx library. See "
+"`<https://en.wikipedia.org/wiki/Ripping>`_"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:294
+msgid "Changing music directories"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:296
+msgid ""
+"Handles multiple music library folders and adds an option to move them to "
+"another location without data loss."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:300
+msgid ""
+"You can manually add, relink, and remove Mixxx music directories in "
+":menuselection:`Preferences --> Library`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:312
+msgid "**Add a new music directory**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:304
+msgid ""
+"Mixxx handles multiple music library folders. Click :guilabel:`Add` to "
+"browse to a directory where your music is stored. Mixxx will watch this "
+"directory and its subdirectories for new tracks."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:308
+msgid ""
+"If you add a directory that is already in your library, or you are currently"
+" :ref:`rescanning your library <library-root>`, the operation is canceled."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:311
+msgid ""
+"Directories can also be added from the :ref:`Browse <library-browse>` "
+"sidebar item inside the library."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:318
+msgid "**Relink a existing music directory**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:315
+msgid ""
+"If an existing music directory is moved, Mixxx doesn't know where to find "
+"the audio files in it. Click :guilabel:`Relink` to select the music "
+"directory in its new location. This will re-establish the links to the audio"
+" files in the Mixxx library."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:336
+msgid "**Remove a music directory**"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:321
+msgid ""
+"Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and its"
+" subdirectories for new tracks, and asks what would you like to do with the "
+"tracks from these directories."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:325
+msgid ""
+"Select :guilabel:`Hide Tracks` to hide all tracks from this directory and "
+"subdirectories."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:327
+msgid ""
+"Select :guilabel:`Delete Track Metadata` to delete all metadata for these "
+"tracks from Mixxx permanently"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:329
+msgid ""
+"Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in "
+"your library."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:332
+msgid ""
+"Hiding tracks saves their metadata in case you re-add them in the future."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:334
+msgid ""
+"Metadata means all track details (artist, title, playcount, etc.) as well as"
+" beatgrids, hotcues, and loops. This choice only affects the Mixxx library. "
+"No files on disk will be changed or deleted."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:338
+msgid ""
+"When changing music directories, you might want to run a library rescan "
+"afterwards. Select :menuselection:`Library --> Rescan Library` in the menu."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:345
+msgid "BPM and Beat Detection Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:0
+msgid "Todo"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:351
+msgid ""
+"Update this section to explain the differences between the beatgrid and "
+"beatmap options."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:354
+msgid ""
+"Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments are "
+"redundant in many cases because Mixxx knows where the beats are."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:358
+#: ../../source/chapters/configuration.rst:434
+msgid "Analyzer Settings"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:360
+msgid ""
+"BPM and beat detection is a complex operation. Depending on your computer "
+"and the track's bitrate and duration this may take some time. By default "
+"Mixxx analyzes the complete track. To accelerate beat detection on slower "
+"computers, a “Fast Analysis” option is available. If enabled, the BPM is "
+"computed by analyzing the first minute of the track. In most cases this does"
+" not affect the beat detection negatively because most of today's dance "
+"music is written in a 4/4 signature with a fixed tempo."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:375
+msgid "Mixxx preferences - BPM settings"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:377
+msgid "The table below summarizes the beat detection settings:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:380
+#: ../../source/chapters/configuration.rst:454
+msgid "Option"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:380
+#: ../../source/chapters/configuration.rst:454
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/chapters/configuration.rst:382
+#: ../../source/chapters/configuration.rst:456
+msgid "Enable Fast Analysis"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:382
+msgid ""
+"If enabled, BPM  will be detected by only using the first minute of audio."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:385
+msgid "Assume constant tempo"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:385
+msgid ""
+"If enabled, Mixxx assumes that the distances between the beats are constant."
+" If disabled, the raw beat grid obtained by the analyzer is presented. The "
+"latter is appropriate for tracks with variable tempo."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:392
+msgid "Enable Offset Correction"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:392
+msgid "Prevents beat markers from being placed incorrectly."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:395
+msgid ""
+"Re-analyze beats when settings change or beat detection data is outdated"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:395
+msgid ""
+"If enabled, Mixxx over-writes old beat grids from Mixxx before v1.11. "
+"Moreover, it will re-analyze the BPM if your beat detection preferences "
+"change or BPM data from 3rd party programs are present."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:404
+msgid "Correcting Beat Grids"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:406
+msgid ""
+"There may be situations where BPM and beat detection do not result in a "
+"proper beat grid."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:409
+msgid ""
+"Typically, the detected BPM is correct but the analyzer has failed to detect"
+" the location of the first beat. Consequently, the beat markers are shifted,"
+" i.e. the beat markers are always a fixed distance from the true beat. To "
+"adjust the beat grid, cue the track before a real beat and click the "
+":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:415
+msgid ""
+"If the detected BPM is not accurate, the corresponding beat grid will also "
+"be inaccurate. A deviation of 0.02 BPM units from the correct BPM will cause"
+" beatgrid alignment issues on long tracks (e.g. a club mix). If this "
+"happens, your beatgrid may look aligned for the few minutes but you will "
+"notice a slight drift as the song goes on. Finding the correct BPM is easy "
+"in many cases - just follow the note below."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:422
+msgid ""
+"If the detected BPM value is not sufficiently accurate but very close to an "
+"integer value, try to set the BPM value manually to the integer."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:428
+msgid "Key Detection Preferences"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:430
+msgid ""
+"Mixxx comes with a high precision key detection to help you making smooth "
+"mixes by ensuring that your tracks are musically compatible."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:436
+msgid ""
+"Key detection is a complex operation. Depending on your computer and the "
+"track's bitrate and duration this may take some time. By default Mixxx "
+"analyzes the complete track. To accelerate key detection on slower "
+"computers, a “Fast Analysis” option is available. If enabled, the key is "
+"computed by analyzing the first minute of the track."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:449
+msgid "Mixxx preferences - Key settings"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:451
+msgid "The table below summarizes the Key detection settings:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:456
+msgid ""
+"If enabled, the key will be detected by using only the first minute of "
+"audio."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:460
+msgid "Re-analyze key when settings change or Key detection data is outdated"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:460
+msgid ""
+"If enabled, Mixxx will re-analyse tracks if you select a different key "
+"detection plugin or the key was generated by a program other than Mixxx."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:466
+msgid "Key Notation"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:466
+msgid "Change the way keys are displayed in the library."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:473
+msgid "Analyze your library"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:479
+msgid ""
+"|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load"
+" them in a deck, nevertheless it is recommended that you analyze them before"
+" playing live with them to ensure the beatgrids are correct. Furthermore, "
+"track analysis takes considerable CPU power and might cause skips in the "
+"audio --- things you surely don't need while performing."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:485
+msgid ""
+"Once you have configured your music directories and your BPM and key "
+"detection settings, press :guilabel:`OK` on the Preferences window. Go to "
+"the Analyze view on the left side panel of the library. Thiis allows you to "
+"run :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on "
+"tracks in advance. While analyzing, the progress in percentage and total "
+"queue length are shown."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:492
+msgid ""
+"Drag and drop tracks from the library or external file managers onto the "
+"analysis view to instantly analyze these files. The title changes to "
+":guilabel:`Analyze (x/y)` where x is the number of tracks that have been "
+"analyzed so far and y is the total number of tracks originally in the queue."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:498
+msgid "Does not generate waveforms to save disk space."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:501
+msgid "The Analyze features in detail:"
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:503
+msgid ""
+"**All / New radio-buttons**: Allows you to view a list of either all tracks "
+"in the library or tracks added to the library within the last 7 days."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:505
+msgid "**Select All button**: Selects all tracks in the current view."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:506
+msgid "**Analyze button**: Starts the detection on the selected tracks."
+msgstr ""
+
+#: ../../source/chapters/configuration.rst:508
+msgid "For more information, go to :ref:`djing-bpm-detection`."
+msgstr ""

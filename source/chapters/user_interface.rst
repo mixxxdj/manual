@@ -56,7 +56,7 @@ Track Information Display
 
    The track information section of the deck
 
-.. versionadded::  1.12
+.. versionadded:: 2.0
    Parse the title and the artist from the file name when the corresponding
    :term:`metadata` is missing.
 
@@ -67,7 +67,7 @@ Track Information Display
   :term:`metadata`.
 
 **Track Artist**
-  The title of the track is listed below. It is the same as listed under the
+  The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the Mixxx library.
 
 **BPM (Tempo)**
@@ -109,6 +109,37 @@ Waveform Displays
 The waveform section of a deck allows you to visualize the audio changes that
 occur throughout the track, you can basically “see” your music.
 
+Depending on the skin Mixxx displays either parallel waveforms (default) or
+separate waveforms. Select your preferred appearance in
+:menuselection:`Preferences --> Interface --> Skin`.
+
+.. figure:: ../_static/Mixxx-111-Deere-separate-waveform.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx default skin (Deere) - Separate waveforms
+   :figclass: pretty-figures
+
+   Mixxx default skin (Deere) - Separate waveforms
+
+With some skins the waveform displays are aligned parallel to each other in
+order to make :term:`beatmatching` easier, as it is possible to beatmatch
+visually by aligning the beats that appear in each waveform.
+
+.. figure:: ../_static/Mixxx-111-Latenight-parallel-waveform.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx alternative skin (Latenight) - Parallel waveforms
+   :figclass: pretty-figures
+
+   Mixxx alternative skin (Latenight) - Parallel waveforms
+
+.. warning :: If you have a slower computer and notice performance issues with
+              Mixxx, try to lower the frame rate or change the level of detail
+              shown in the waveform in :menuselection:`Preferences --> Interface
+              --> Waveform Display`.
+
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
   current playback position and is updated in real time. The mouse can be used
@@ -118,16 +149,16 @@ occur throughout the track, you can basically “see” your music.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Interface -->
-             Waveform Display --> Display type`.
+             waveform, in :menuselection:`Preferences --> Waveforms -->
+             Summary type`.
 
 **Waveform overview**
 
-  .. versionadded:: 1.12
+  .. versionadded:: 2.0
 
      Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Interface
-     --> Waveform Display --> Preview type`.
+     of displays for the overview in :menuselection:`Preferences --> Waveforms
+     --> Overview type`.
 
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
@@ -170,14 +201,6 @@ occur throughout the track, you can basically “see” your music.
 * **Track ending notification**: If the waveform overview flashes red, only 30
   seconds are left before the track reaches the end.
 
-.. seealso:: To learn how to get most out of the waveforms while mixing, go to
-             the chapter :ref:`waveform-displays`.
-
-.. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the level of detail
-              shown in the waveform in :menuselection:`Preferences --> Interface
-              --> Waveform Display`.
-
 .. _interface-button-grid:
 
 Deck Options Button Grid
@@ -216,7 +239,7 @@ follows:
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
   track's :term:`BPM` but failed to align the beat markers on the beats. For
-  more information, go to the chapter :ref:`djing-bpm-detection`.
+  more information, go to the chapter :ref:`configuration-bpm-detection`.
 
 **Quantize Mode Toggle**
   If enabled, all cues, hotcues, loops, and beatloops will be automatically
@@ -307,10 +330,10 @@ Decks and samplers now pick which sync target to sync to on the fly. Decks can't
 sync to samplers and samplers can only sync to decks. The sync target for
 samplers is:
 
-* The first (in numerical order) deck that is playing (rate > 0) a track that
-  has a detected beatgrid.
-* The first (in numerical order) deck that has a track loaded with a detected
-  beatgrid (could be stopped).
+* The first deck (in numerical order) that is playing a track with a detected
+  beatgrid, and has a rate different than zero.
+* The first deck (in numerical order) that has a track loaded with a detected
+  beatgrid, no matter if it is playing or stopped.
 
 So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
 track with a beatgrid then deck 1 will win since numerically it is first. The
@@ -367,7 +390,7 @@ Transport Controls
 
    The transport controls of the deck
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Right-click on the Reverse button activates Reverse Roll (Censor)
 
 **Fast-Rewind button**
@@ -594,14 +617,14 @@ Headphone and Master Mix Controls
 
 .. todo:: Update section to reflect 1.12 GUI layout.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Headphone split cue option
 
 **Head-Mix Knob**
   Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
-  Cueing signal. If the knob is set to the left, you only hear the cueing signal
-  which can be useful for prelistening tracks.
+  Cueing signal. If the knob is set to the left, you only hear the cueing signal,
+  which is the usual position for prelistening tracks.
 
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
@@ -618,7 +641,7 @@ Headphone and Master Mix Controls
   the master output.
 
 .. _interface-gain-knob:
-  
+
 **Gain Knob**
   The Gain Knob controls the gain applied to the Master output signal that
   Mixxx sends to your sound card, Internet broadcasting servers, and recorded
@@ -629,7 +652,7 @@ Headphone and Master Mix Controls
   On active speakers, including computer speakers, studio monitors, and PA
   systems that do not require a separate amplifier, this means adjusting the
   gain on the speakers (which may be labeled "Volume").
-  
+
   As a DJ, you may not have access to the power amplifier. In that case,
   adjust the volume by adjusting the gain on the equipment closest to the power
   amplifier that you have access to. Typically, this is a DJ mixer. If you are
@@ -638,14 +661,14 @@ Headphone and Master Mix Controls
   computers), adjust the sound card settings with your :term:`OS <operating system>`
   mixer program. The Master Gain Knob in Mixxx should be a last resort for
   adjusting volume.
-  
+
   .. warning:: **In no case should any part of the signal chain be clipping,
                indicated by a level meter going into its red region
                or an LED labeled "clipping" turning on.**
-  
+
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
-  
+
 **Head Gain Knob**
   This knob controls the gain applied to the headphone output signal that Mixxx
   sends to your sound card. Generally, this knob should not be adjusted. To
@@ -676,12 +699,12 @@ button and allows you to use headphone cueing. That is, it allows you to hear
 the track you will play next in your headphones before your audience hears it.
 This helps you plan when to start the next track and manipulate it to
 make it blend better with the currently playing track (for example, by
-synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button plays
-the track on the headphone output at full volume regardless of the position of the crossfader or the 
-deck’s line fader. To play a track in your headphones but not have the 
-audience hear it, press the PFL button and move the crossfader all the 
-way to the opposite side of the deck or turn the deck’s volume fader all the 
-way down.
+synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button
+plays the track on the headphone output at full volume regardless of the
+position of the crossfader or the deck’s line fader. To play a track in your
+headphones but not have the audience hear it, press the PFL button and move the
+crossfader all the way to the opposite side of the deck or turn the deck’s
+volume fader all the way down.
 
 .. note:: Headphone cueing is only available if you have configured a
           Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
@@ -705,22 +728,22 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain applied to the deck. 
+  Above these knobs, the gain knob allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
   (the transients) briefly going into the yellow region. **Do NOT turn the
   Gain Knob up so much that the level meter is in the red region. At this point
   the track is clipping, which sounds bad and could damage equipment.**
-  
+
   .. note:: By default, Mixxx automatically applies an additional ReplayGain so
             tracks have approximately equal loudness at unity gain. Your tracks
-            must be :ref:`analyzed <library-analyze>` to take advantage of this
-            feature. When an unanalyzed track is loaded, Mixxx calculates its
-            ReplayGain value, but will not apply a newly calculated ReplayGain
-            value to a track after it has already started playing (to avoid a
-            sudden change in the gain of a playing track).
-            
+            must be :ref:`analyzed <configuration-analyze>` to take advantage of
+            this feature. When an unanalyzed track is loaded, Mixxx calculates
+            its ReplayGain value, but will not apply a newly calculated
+            ReplayGain value to a track after it has already started playing
+            (to avoid a sudden change in the gain of a playing track).
+
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
@@ -728,7 +751,7 @@ Equalizers and Gain Knobs
   The low, mid, and high knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
-  
+
   .. warning:: Be careful not to raise the EQs so much that the signal clips,
                indicated by a :term:`level meter` being in the red region. See
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
@@ -741,8 +764,8 @@ Equalizers and Gain Knobs
   range. If the Kill switches do not work as expected, check the high/low shelf
   EQ settings in the preferences.
 
-.. seealso:: You can customize the EQ settings in :menuselection:`Preferences
-             --> Equalizer`.
+.. seealso:: You can customize the EQ settings in
+             :menuselection:`Preferences --> Equalizer`.
 
 .. _interface-crossfader:
 
@@ -813,7 +836,7 @@ The Cue point is moved according to the selected Cue mode, as explained below.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
 
 Mixxx supports various Cue modes that adapt to fit other devices in your
@@ -948,7 +971,7 @@ are as follows:
   Clicking this button ejects the track from the deck.
 
 **Mix Orientation Toggle**
-  This control determines the microphone input's mix orientation.
+  This control determines the sampler input's mix orientation.
 
 **Keylock Toggle**
   :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
@@ -994,7 +1017,7 @@ Sample Deck Controls
 The Effects Section
 ===================
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
 
 .. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
    :align: center
@@ -1066,7 +1089,7 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Microphone can accept stereo or mono input now.
 
 * Most computers have built-in microphones, while some are connected through USB.
@@ -1145,4 +1168,4 @@ The features in detail:
   peak indicator flashes red.
 
 .. seealso:: For more information, go to the chapter
-             :ref:`djing-previewing-tracks`.
+             :ref:`library-previewing-tracks`.

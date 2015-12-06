@@ -18,7 +18,7 @@ can perform actions by pointing and clicking with your mouse.
 
 * **Single Left Click**: Performing a left mouse click on buttons triggers the
   default action for that control. Moreover if you click on a value in the track
-  list of the Mixxx :ref:`library <interface-library>`, you can change the
+  list of the Mixxx :ref:`library <library-interface>`, you can change the
   value. For example the year of a track.
 * **Single Right Click**: On most buttons, performing a right click triggers a
   different action than a left click. You can return any knob or fader to its
@@ -64,9 +64,9 @@ The default mapping for English keyboards is depicted in the figure above. It is
 divided into a left-hand side for deck 1 and right-hand side for deck 2. Please
 note that you can also access the functions through Mixxx's interface.
 
-For some user groups, like those using :term:`MIDI <MIDI Controller>`/:term:`HID
-<HID Controller>` controllers or vinyl control, it might be useful to
-enable/disable the keyboard mappings at runtime. You can do so by clicking
+For some user groups, like those using :term:`controllers <controller>` or
+:term:`vinyl control`, it might be useful to enable/disable the keyboard
+mappings at runtime. You can do so by clicking
 :menuselection:`Options --> Enable Keyboard Shortcuts`.
 
 .. hint::  If you hover with the mouse over a control (e.g. the crossfader) in
@@ -87,12 +87,12 @@ Mixxx allows you to customize the keyboard control. For more information, go to:
 Using MIDI/HID Controllers
 ==========================
 
-Mixxx supports :term:`MIDI <MIDI Controller>` and :term:`HID <HID controller>`
-controller which are external hardware devices used to control audio
-applications. Many DJs prefer the hands-on feel of a controller with Mixxx
-because it can feel similar to using a real mixer and turntables or :term:`CDJ`.
+Mixxx supports MIDI and HID :term:`controllers <controller>` which are external
+hardware devices used to control audio applications. Many DJs prefer the
+hands-on feel of a controller with Mixxx because it can feel similar to using a
+real mixer and turntables or :term:`CDJ`.
 
-.. _load-preset:
+.. _control-load-preset:
 
 Loading a controller preset
 ---------------------------
@@ -150,8 +150,8 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              the details of each.
 
 .. _Hardware Compatibility wiki page: http://www.mixxx.org/wiki/doku.php/hardware_compatibility
-.. _Bug Tracker: http://bugs.launchpad.net/mixxx
-.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7 
+.. _Bug Tracker: https://bugs.launchpad.net/mixxx
+.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7
 
 Installing a preset from the forum
 ----------------------------------
@@ -175,7 +175,7 @@ If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for extracting
 an archive or compressed folder. Copy the :file:`.xml` file into your User Preset folder.
 If there is a :file:`.js` file, also copy that to your User Preset folder. Restart Mixxx
-and :ref:`load the preset<load-preset>`.
+and :ref:`load the preset<control-load-preset>`.
 
 Map your own your controller
 ----------------------------
@@ -198,4 +198,3 @@ prefer the tactile feel of vinyl, and vinyl control allows that feel to be
 preserved while retaining the benefits of using digital audio.
 
 .. seealso:: Go to :ref:`vinyl-control` for detailed information.
-

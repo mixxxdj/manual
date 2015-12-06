@@ -123,10 +123,9 @@ Depending on your systems language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-There are two ways to customize the default Mixxx keyboard mapping:
-
-1. Edit your system's default mapping file directly, e.g. :file:`en_US.kbd.cfg`.
-2. Copy the default mapping file to the following location:
+It is not recommended to modify the system-wide keyboard mapping file because all your changes
+can be lost if you uninstall or upgrade Mixxx.
+Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
 * Mac OS X: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
@@ -148,10 +147,9 @@ You can download and share custom keyboard mappings in the
 Additional Effects via external Mixer Mode
 ==========================================
 
-Mixxx does not have an effects engine yet (work on one is in progress).
-To hold you over you can use some external tools. Using the
-:ref:`external mixer mode <configuring-mixer-mode>` you route each deck
-directly to 3rd party effect hosts.
+Mixxx comes with a set of :ref:`native effects <djing-with-effects>`.
+Additinally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
+can route each deck directly to 3rd party effect hosts.
 
 The following examples are only intended to encourage experimentation, they are
 no definitive guidance.

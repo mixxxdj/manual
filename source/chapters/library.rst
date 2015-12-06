@@ -1,6 +1,6 @@
 .. include:: /shortcuts.rstext
 
-.. _interface-library:
+.. _library-interface:
 
 The Mixxx Library
 *****************
@@ -22,9 +22,9 @@ Overview of the Library features
 
 The library manages all of your music files. This is where you can find the
 tracks you want to play and load them into a :ref:`deck <interface-decks>` or
-:ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. Mixxx
+:ref:`sampler <interface-sampler>`; see :ref:`library-loading-tracks`. Mixxx
 imports your music library automatically when it is run for the first time, see
-:ref:`djing-import` for more information.
+:ref:`configuration-import` for more information.
 
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
@@ -49,24 +49,6 @@ view on the right displays the tracks in those collections.
 * **Load**: Drag tracks you want to play to the waveform display.
 * **Edit**: Rate tracks and edit track properties.
 
-.. _library-search:
-
-Search - Find your tracks
-=========================
-
-.. figure:: ../_static/Mixxx-111-Library-Search.png
-   :align: center
-   :width: 190px
-   :figwidth: 100%
-   :alt: The Search box - Has focus and a search term entered
-   :figclass: pretty-figures
-
-   The Search box - Has focus and a search term entered
-
-The Search box above the sidebar filters the current library view for tracks
-that match your search query. The library search include some nice search
-features; go to the chapter :ref:`djing-finding-tracks` for details.
-
 .. _library-root:
 
 Library - View and edit your whole collection
@@ -80,7 +62,7 @@ music library.
 
 **Customizing the view**
   Move columns by clicking in a column header and dragging it to another
-  position. Right-click on a column header to show and hide particular
+  position. Right-click on a column header to show or hide particular
   columns. Adjust the column width to fit the contents of the rows by
   double-clicking on the separator between two column headers.
 
@@ -89,6 +71,24 @@ music library.
   column header to reverse the sort order. Click on another column header to
   change the active column.
 
+  * **Multi-Column sorting**
+
+    .. versionadded:: 2.0
+
+    You can sort multiple columns by clicking *up to three* column headers you
+    wish to sort your tracks by. This makes searching for tracks in a large list
+    more efficient. Clicking twice on a column header will reverse the sort
+    order.
+
+    Example:
+
+    #. Click on the :guilabel:`BPM` column header -> list is sorted by BPM
+    #. Click on the :guilabel:`Year` column header -> list is sorted by
+       year. If year is equal, it is still sorted by the last sort, e.g. BPM.
+    #. Click on the :guilabel:`Genre` column header -> list is sorted by
+       genre. If genre is equal, it is still sorted by year. If genre and year
+       is equal, then it is sorted by BMP.
+
 **Rating tracks**
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
   over the rating field and clicking the stars.
@@ -96,22 +96,22 @@ music library.
 **Track Inline editing**
   Mixxx reads :term:`metadata` from the tracks to fill the columns of the
   library. Double-click on a field, edit the data, and hit :kbd:`Enter` when you
-  are done. Go to the chapter :ref:`edit metadata <djing-edit-metadata>` for
+  are done. Go to the chapter :ref:`edit metadata <library-edit-metadata>` for
   detailed information.
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
   to the waveform display or use the context menu. Go to the chapter
-  :ref:`djing-loading-tracks` for detailed information.
+  :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
   Mixxx imports your music library automatically when it is run for the first
-  time. Go to the chapter :ref:`djing-import` for detailed information.
+  time. Go to the chapter :ref:`configuration-import` for detailed information.
 
 **Previewing Tracks**
   To pre-listen to tracks in your headphones without loading them to a regular
   deck, click the |ic_lib_preview_play| icon in the :guilabel:`Preview` column.
-  Go to the chapter :ref:`djing-previewing-tracks` for detailed information.
+  Go to the chapter :ref:`library-previewing-tracks` for detailed information.
 
 **Cover/Album Art**
 
@@ -140,11 +140,11 @@ music library.
 Track list context menu
 -----------------------
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
    context menu options and :guilabel:`Cover Art`
 
-.. versionchanged:: 1.12
+.. versionchanged:: 2.0
    All BPM related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
@@ -156,17 +156,17 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
   :ref:`Previewdeck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. Note that you can't load
-  multiple files at ones.
+  multiple files at once.
 * **Add to playlist/crate**: Add selected tracks to the playlists or
   crates that you have created before. Alternatively, drag the selection to the
   playlist or crate in the sidebar.
 * **BPM Options sub-menu**:
 
     * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200%
-      of the BPM set by Mixxx when :ref:`analyzing <library-analyze>` the tracks.
+      of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>` the tracks.
       If many of the detected BPM are off from the tracks original tempo, you
       might want to adjust the :guilabel:`BPM Range` in the
-      :ref:`Analyzer Settings <djing-bpm-detection>` and re-run the analysis.
+      :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
@@ -175,16 +175,16 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
     * **Clear BPM and Beatgrid**: Removes :term:`BPM` and :term:`beatgrid` data
       of selected tracks from the Mixxx library. After doing this, we
-      recommended you to :ref:`analyze <library-analyze>` the tracks again.
+      recommended you to :ref:`analyze <configuration-analyze>` the tracks again.
 
 * **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
   e.g. if you used iTunes to edit them, this option lets you save the new values
   for the selected tracks to the Mixxx library, see
-  :ref:`edit metadata <djing-edit-metadata>`.
+  :ref:`edit metadata <library-edit-metadata>`.
 * **Reload Track Metadata from MusicBrainz**:
   Lookup :term:`metadata` online by searching the :term:`MusicBrainz` database,
   and apply the search results to your tracks, see
-  :ref:`edit metadata <djing-edit-metadata>`.
+  :ref:`edit metadata <library-edit-metadata>`.
 * **Cover Art Option sub-menu**:
 
     * **Choose New Cover**: Select an image from the file-browser as new cover.
@@ -253,6 +253,269 @@ The features in detail:
   list again. The tracks appear again in every playlist or crate they were
   listed before they were hidden.
 
+.. seealso:: To learn how to permanently remove tracks from the Mixxx library
+             using the :guilabel:`Hidden Tracks` view, see
+             :ref:`permanently remove tracks <configuration-removing-tracks>`.
+
+.. _library-loading-tracks:
+
+Loading Tracks
+==============
+
+.. versionadded:: 2.0
+   Supports dragging tracks from deck to deck.
+
+Tracks can be loaded into a deck in several ways:
+
+* Right-click the :ref:`library track table <library-interface>`: Right-clicking
+  on a track in the table will present the options :guilabel:`Load in Deck 1`
+  and :guilabel:`Load in Deck 2`, among others. Making either selection will
+  load a track into a deck.
+* By :ref:`control-keyboard` to load the selected track from library track
+  table.
+* Drag-and-drop from library track table: Dragging-and-dropping a track from the
+  track table onto a waveform display will load a track into a deck.
+* Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
+  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  drag it to a deck or sampler.
+* Drag-and-drop from external file browser: Dragging-and-dropping a track from
+  an external file browser directly onto a waveform display in Mixxx will load
+  that track. This function also works with some other applications. For
+  example, on Mac OS X, dragging-and-dropping a track from iTunes onto one of
+  Mixxx's waveform displays will load that track into a deck.
+
+.. _library-finding-tracks:
+
+Finding Tracks (Search)
+=======================
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+The search function filters the current selected list (e.g. a playlist, a crate
+or even the whole library) for tracks that match your search query.
+
+* Activate the search input field by pressing :kbd:`CTRL` + :kbd:`F`
+  (Windows/Linux) or :kbd:`CMD` + :kbd:`F` (Mac). Alternatively click into the
+  search box.
+* Type your search term. Mixxx filters the tracks and retains only the ones that
+  match the search term. Search terms can include an artist's name, a song
+  title, BPM, etc.
+* To clear the search string hit :kbd:`ESC` or click the clear button right next
+  to the input field.
+* Hit :kbd:`TAB` to cycle between the search and the list of results in the
+  library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
+  list of results.
+
+.. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
+          disabled, see :ref:`control-keyboard`.
+
+Using search operators
+----------------------
+
+Search operators allow you to form more complex search queries. They allow you
+to limit certain search terms to particular properties of your tracks.
+
+.. versionadded:: 2.0
+   Adds *location*, *album_artist*, and *key* search keywords. Supports
+   human-readable time suffixes in time-based search query filters, e.g.
+   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
+   filters.
+
+Mixxx supports the following filters:
+
+* **Text filtering**: artist, album, album_artist, genre, title, composer,
+  comment, key, location
+
+* **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
+
+* **Special filtering**:
+
+  * Supports fuzzy matching of key searches. The following example list tracks
+    with harmonically compatible keys to C# minor.
+
+    ::
+
+       ~key:c#m
+
+    You can combine operators but there's no way to do an “OR” search right now.
+    The following example list all tracks by “Danger” over 3 minutes long that
+    are rated 4 or 5.
+
+    ::
+
+       artist:Danger duration:>3m rating:>=4
+
+  * Negative search filters. Use the ``-`` prefix as negation operator. The
+    following example would find “hip-hop“ from any year but 1990.
+
+    ::
+
+       genre:hip-hop -year:1990
+
+
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Examples for text filtering          | Examples for numeric filtering        | Examples for duration filtering       |
++======================================+=======================================+=======================================+
+| artist: “com truise”                 | bpm:140                               | duration:2m10                         |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| album:Danger                         | bpm: >140                             | duration:<2:10                        |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| genre: Trance                        | year: <2010                           | duration:>1m35s                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| title: foo                           | bpm: >=140                            | duration:>62                          |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| composer: foo                        | rating: <=4                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| comment: foo                         | bpm: 140-150                          |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
+| Note it doesn't matter if you have   | Note that you can put a space between | Note that you can put a space between |
+| space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
+| argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
+| for multi-word text arguments.       | number.                               | number.                               |
++--------------------------------------+---------------------------------------+---------------------------------------+
+
+.. _library-previewing-tracks:
+
+Previewing Tracks
+=================
+
+.. sectionauthor::
+   M.Linke <kain88@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+To pre-listen to a track, activate the :guilabel:`Preview` column in a library
+view. Clicking the |ic_lib_preview_play| icon in the library's
+:guilabel:`Preview` column loads the selected track in a special :ref:`Preview
+Deck <interface-preview-deck>` that will only output sound in the
+:ref:`headphones <interface-head-master>` channel. Click the
+|ic_lib_preview_pause| icon to stop the playback.
+
+Alternatively, select a track from the track list of the Mixxx library, drag the
+track to the waveform view of the :ref:`Preview Deck <interface-preview-deck>`
+and click the :guilabel:`Play` button next to the waveform.
+
+To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
+:kbd:`CMD` + :kbd:`4` (Mac).
+
+.. _library-edit-metadata:
+
+Edit metadata of audio files
+============================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
+library columns. You are free to edit most metadata, and Mixxx offers a number
+of different ways to do so. Note that some information can not be edited, such
+as bitrate, size, length, type, filename, and location.
+
+.. note:: Mixxx does not support editing the metadata of many tracks at a time
+          (bulk editing).
+
+.. warning:: Changes to a track's metadata will be saved to the Mixxx library,
+             but **not** to the track itself. Mixxx wont touch your audio files
+             to prevent data loss.
+
+Manual Edit
+-----------
+
+**Track Inline editing**:
+  Double-click on a field in the :ref:`library <library-root>`. If the field is
+  editable, it will become an editable text box. Enter a value and hit
+  :kbd:`Enter` when you are done.
+
+  .. figure:: ../_static/Mixxx-112-Library-Inline-edit.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx library - Inline editing
+     :figclass: pretty-figures
+
+     Mixxx library - Inline editing
+
+**Properties editor**:
+  Click on a **single track** in the library and select :guilabel:`Properties`
+  to open the editor. Add or change values in the editable fields, and save your
+  changes as explained below.
+
+  .. figure:: ../_static/Mixxx-112-Library-Properties-Editor.png
+     :align: center
+     :width: 100%
+     :figwidth: 50%
+     :alt: Mixxx library - Properties editor
+     :figclass: pretty-figures
+
+     Mixxx library - Properties editor
+
+  * **OK**: Accept the changes and close the editor.
+  * **Apply**: Accept the changes you made into the metadata.
+  * **Cancel**: Discard the changes and close the editor.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view.
+  * **Reload Track Metadata from File**: Prompts Mixxx to re-read the metadata
+    of the selected track if you have modified metadata in 3rd-party software,
+  * **Reload Track Metadata from MusicBrainz**:
+    Lookup metadata online by searching the :term:`MusicBrainz` database, see
+    below.
+
+Using the MusicBrainz online database
+-------------------------------------
+
+`Musicbrainz <http://musicbrainz.org/>`_ is an :term:`open-source` music
+encyclopedia that collects music :term:`metadata` and makes it available to the
+public.
+
+  .. figure:: ../_static/Mixxx-112-Library-MusicBrainz-Wizard.png
+     :align: center
+     :width: 100%
+     :figwidth: 66%
+     :alt: Mixxx library - MusicBrainz Wizard
+     :figclass: pretty-figures
+
+     Mixxx library - MusicBrainz Wizard
+
+The MusicBrainz wizard in Mixxx allows to search the MusicBrainz database and
+apply the search results to your tracks.
+
+Click on a **single track** in the library and select :guilabel:`Get Metadata
+from MusicBrainz`. Mixxx fetches track data from the MusicBrainz database and
+displays the search results.
+
+Select the best possible match from the search results by clicking on it in the
+list.
+
+  * **Apply**: Apply the selected MusicBrainz metadata to the track.
+  * **Close**: Close the wizard.
+  * **Previous/Next**: Load the previous or next track in the current library
+    view and perform a MusicBrainz lookup on them as well.
+
+Fetching track metadata from MusicBrainz can possibly fail if Mixxx could not
+find the requested track in the MusicBrainz database, could not connect to the
+MusicBrainz servers, or because you are not connected to the Internet.
+
+.. hint:: The MusicBrainz service has been designed for identifying full audio
+   files. Is a track less then 2 minutes long, identifying the file will likely
+   fail. Identifying a layered mix-track or mash-up may produce false positives
+   in the result list.
+
+Using 3rd-party software
+------------------------
+
+If you have modified file metadata in 3rd-party software, select
+:menuselection:`Library --> Rescan Library` in the menu on top of the
+application window. This prompts Mixxx to re-read the metadata from **all**
+tracks in the library.
+
+Popular software to edit metadata of audio files include:
+  * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
+  * `Kid3 <http://kid3.sourceforge.net/>`_ (Linux)
+  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
+
 .. _library-auto-dj:
 
 Auto DJ - Automate your mix
@@ -268,10 +531,11 @@ mixing or for using Mixxx as media player.
 The Auto DJ features in detail:
 
 * **Shuffle button**: Shuffles the content of the Auto DJ playlist.
-* **Add Random button**: Add random track from Auto DJ Crates.
+* **Add Random button**: Add random track from Auto DJ track sources.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
-* **Transition time spin-box**: Determines the duration of the transition.
+* **Transition time spin-box**: Determines the duration of the transition. Put a
+  pause between tracks that are automatically mixed by using a negative value.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
@@ -281,20 +545,18 @@ after playing them but if you want AutoDJ to play the same tracks over and over
 again, you may activate the :guilabel:`Auto DJ Requeue` option in
 :menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`.
 
-**AutoDJ Crates**
+.. _library-auto-dj-crates:
 
-.. versionadded:: 1.12
+**Auto DJ Crates**
+
+.. versionadded:: 2.0
 
 It is possible to add random tracks to the bottom of the Auto DJ playlist. The
-tracks are not chosen from the standard library but from a set of crates. It
-will be all the crates that you have set as a source for Auto DJ. Mixxx will
-normally try to select a track that you haven't played so far. You can set a
-amount off tracks that is always supposed to be available for selection no
-matter when they where last played in :menuselection:`Preferences --> Auto DJ
---> Minimum available tracks in Track Source`.
-
-.. hint:: Put a pause between tracks that are automatically mixed by using a
-          negative value in the :guilabel:`Transition time` spin-box.
+tracks are chosen from a set of crates that you have set as a source for
+Auto DJ, or from the standard library. Mixxx will normally try to select tracks
+that you haven't played so far. You can set a amount of tracks that is always
+supposed to be available for selection no matter when they where last played in
+:menuselection:`Preferences --> Auto DJ --> Minimum available tracks in Track Source`.
 
 .. seealso:: For more information, go to the chapter :ref:`djing-auto-dj`.
 
@@ -322,7 +584,7 @@ intended for live, attended performance use. However, you can use the
   the name of a playlist in the sidebar. Alternatively, use the right-click
   context menu in the library's :ref:`track list <library-root>`.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Analyze Playlist` option in the context menu.
    Import playlists by drag-and-dropping them into a playlist in the sidebar.
    :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
@@ -346,7 +608,7 @@ the context menu:
   is locked, you cannot add tracks, rename or delete the playlist. Choose
   :guilabel:`Unlock` from the context menu to unlock the playlist.
 * **Analyze entire playlist**: Forces the analysis of the playlist in the
-  :ref:`Analyze <library-analyze>` view.
+  :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists to a playlist in
   various file formats. For more information, go to :ref:`library-3rd-party`.
 * **Export playlist**: Export a playlist in various file formats, such as
@@ -371,10 +633,10 @@ playlists. Think of it like a DJ case to organize your favorite vinyls into.
   in the sidebar. Alternatively use the context menu in the library's
   :ref:`track list<library-root>`.
 
-.. versionadded:: 1.12
-   :guilabel:`Analyze Crate` context menu option.
-   :guilabel:`Import crate` and :guilabel:`Export crate` context menu options
-   remember the last selected playlist directory.
+.. versionadded:: 2.0
+   :guilabel:`Analyze Crate` and :guilabel:`Auto DJ Track Source` context menu
+   options. :guilabel:`Import crate` and :guilabel:`Export crate` context menu
+   options remember the last selected playlist directory.
    Displays the total number of tracks, and the total duration next to the
    crate's name.
 
@@ -391,9 +653,10 @@ context menu:
 * **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
-* **AutoDJ Track Source**: Use this crate as a source for random tracks in AutoDJ.
+* **Auto DJ Track Source**: Use this crate as a source for random tracks in
+  Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` .
 * **Analyze entire crate**: Forces the analysis of the crate in the
-  :ref:`Analyze <library-analyze>` view.
+  :ref:`Analyze <configuration-analyze>` view.
 * **Import crate**: Import tracks from an external playlist to a crate in various
   file formats.
 * **Export crate**: Export a crate in various file formats, such as
@@ -436,7 +699,7 @@ Browse - Loading remote tracks
 |ic_lib_browse| Browse mode works like a file-manager and allows you to load
 tracks that are not necessarily already in your Mixxx library.
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Add music directories directly from the Browse sidebar item.
 
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
@@ -452,7 +715,7 @@ Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
 as new music directory. Mixxx will watch this directory and its subdirectories
 for new tracks.
 
-.. seealso:: For more informations, go to :ref:`djing-changing-music-directories`.
+.. seealso:: For more informations, go to :ref:`configuration-changing-music-directories`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
@@ -490,7 +753,7 @@ track during the current session, it will be discarded.
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
 view, then right-click on a sessions name to access the different features:
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    :guilabel:`Create new history playlist` context menu option.
    :guilabel:`Export playlist` context menu option remember the last selected
    playlist directory.
@@ -509,42 +772,17 @@ view, then right-click on a sessions name to access the different features:
 * **Export playlist**: Export a session in various file formats, ideal for
   processing the data in other applications.
 
+
 .. _library-analyze:
 
-Analyze - Preparing your tracks
-===============================
+Analyze - Prepare your tracks
+=============================
 
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
+This section allows you to analyze your tracks in advance of loading them into
+a deck. Analyzing tracks requires considerably CPU power and may cause skips in
+the audio while performing, so it helps to have your tracks analyzed before you
+play. See :ref:`configuration-analyze` for details.
 
-|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
-them in a deck, nevertheless it is recommended that you analyze them before
-playing live with them to ensure the beatgrids are correct. Furthermore, track
-analysis takes considerable CPU power and might cause skips in the audio ---
-things you surely don't need while performing.
-
-The Analyze view allows you to run :term:`beatgrid`, :term:`key`, and
-:term:`ReplayGain` detection on tracks in advance. While analyzing, the progress
-in percentage and total queue length are shown.
-
-.. versionadded:: 1.12
-   Drag and drop tracks from the library or external file managers onto the
-   analysis view to instantly analyze these files. The title changes to
-   :guilabel:`Analyze (x/y)` where x is the number of tracks that have been
-   analyzed so far and y is the total number of tracks originally in the queue.
-
-.. versionchanged:: 1.12
-   Does not generate waveforms to save disk space.
-
-The Analyze features in detail:
-
-* **All / New radio-buttons**: Allows you to view a list of either all tracks in
-  the library or tracks added to the library within the last 7 days.
-* **Select All button**: Selects all tracks in the current view.
-* **Analyze button**: Starts the detection on the selected tracks.
-
-.. seealso:: For more information, go to :ref:`djing-bpm-detection`.
 
 .. _library-3rd-party:
 
@@ -561,7 +799,7 @@ Supported libraries:
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
 
-.. versionadded:: 1.12
+.. versionadded:: 2.0
    Support for Banshee music player
 
 The external library views allow you to use the music libraries you have created

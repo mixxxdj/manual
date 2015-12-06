@@ -1,7 +1,31 @@
-.. _configuring-mixxx:
+.. include:: /shortcuts.rstext
 
-Configuring Mixxx
-*****************
+.. _configuration-mixxx:
+
+Mixxx Setup
+***********
+
+.. _configuration-open:
+
+Opening Mixxx
+=============
+|logo| Once you've :ref:`installed Mixxx <installing-mixxx>`, start by opening
+Mixxx and import your music to the Mixxx library.
+
+**Windows**
+  Double-click the Mixxx icon on the Desktop. Alternatively, browse your Windows
+  start menu and click the Mixxx icon, or perform a search for
+  :file:`Mixxx.exe`.
+
+**Mac OSX**
+  Double-click the Mixxx icon in the :file:`Applications` folder. Alternatively,
+  drag the Mixxx icon to the dock and double-click it there or search for
+  "Mixxx" in Spotlight.
+
+**GNU/Linux**
+  Simply type :command:`mixxx` into the terminal, then hit :kbd:`Return`. With
+  some distributions like Ubuntu you can also double-click the Mixxx icon in the
+  launcher. Alternatively, perform a search for :file:`mixxx`.
 
 Sound Hardware Preferences
 ==========================
@@ -22,10 +46,10 @@ in- and outputs to be used.
   that Mixxx uses to deliver audio to your audio device. Your choice can
   drastically affect how smooth Mixxx performs on your computer.
 
-* **Sample Rate**: Allows you to manually select the sample rate for the audio input.
-  The sample rate value should be set to the sample rate of your audio interface.
-  By default, Mixxx tries the system default first, which is most likely 44.1
-  kHz. Otherwise, Mixxx will pick a different default.
+* **Sample Rate**: Allows you to manually select the sample rate for the audio
+  input. The sample rate value should be set to the sample rate of your audio
+  interface. By default, Mixxx tries the system default first, which is most
+  likely 44.1 kHz. Otherwise, Mixxx will pick a different default.
 
 * **Audio buffer**: Also known as latency, this is the lag time in milliseconds
   that it takes for Mixxx to process your input. Lower latency means Mixxx
@@ -38,7 +62,7 @@ in- and outputs to be used.
   counter increases, then increase your audio buffer setting, decrease the
   sample rate setting or change the sound API setting if available.
 
-.. _configuring-mixer-mode:
+.. _configuration-mixer-mode:
 
 Audio Outputs
 =============
@@ -73,7 +97,7 @@ Headphone Output
 
 In both internal and external mixer mode, you can choose a headphone output for
 :term:`pre-fader listening <PFL>` or :term:`headphone cueing <cueing>` in
-:menuselection:`Preferences --> Sound Hardware --> Output --> Microphone`. This
+:menuselection:`Preferences --> Sound Hardware --> Output --> Headphone`. This
 allows you to listen and synchronize the track you will play next in your
 headphones before your audience hears the track. See also :ref:`interface-pfl`.
 
@@ -105,7 +129,7 @@ clearly distorted as your computer will not be able to keep up with how
 frequently Mixxx is processing audio.
 
 An audio buffer between 36-64 ms is acceptable if you are using Mixxx with a
-keyboard/mouse or a MIDI controller. An audio buffer below 10 ms is recommended
+keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
 Keep in mind that *lower latencies require better soundcards and faster CPUs*
@@ -196,6 +220,9 @@ buffer.
 Equalizer Preferences
 =====================
 
+.. sectionauthor::
+   Daniel Schürmann <daschuer@mixxx.org>
+
 .. figure:: ../_static/Mixxx-111-Preferences-Equalizer(TODO).png
    :align: center
    :width: 80%
@@ -275,3 +302,324 @@ minimum phase: A natural phase distortion, the group delay changes by the freque
 bit perfect: Whether the EQ changes leaves the original samples untouched when the EQ is at unity
 
 CPU usage: Processing time, needed to calculate the EQ output 
+
+.. _configuration-import:
+
+Importing your audio files
+==========================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+.. figure:: ../_static/Mixxx-111-1st-run-choose-library-directory-win.png
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Mixxx 1st run - Choose music library directory dialog
+   :figclass: pretty-figures
+
+   Mixxx running on Windows 8 - Choose music library directory dialog
+
+
+**Setup the music library**
+  The first time you run Mixxx, you are asked to select a directory where your
+  music is stored. By default, the dialog points to a location where music files
+  are typically held, but you can select any location on your computer.
+
+  Click :guilabel:`Select Folder` and Mixxx will scan your music library.
+  Depending on the size of your library this could take some time. All the
+  supported music files Mixxx detects will be listed in the :ref:`library-root`.
+
+  If you want to refresh your library (for example because you added or moved
+  files), you can do this with :menuselection:`Library --> Rescan Library` in
+  the menu. If you want to rescan at every launch, select
+  :menuselection:`Preferences --> Library --> Rescan on startup`.
+
+  .. warning :: On Windows 7 and 8 the import dialog points to your Windows
+                “Music“ Library, a special-purpose virtual folder. You can
+                **not** use these virtual folders. Select a regular folder
+                instead, usually “My Music“, like pictured above.
+
+**Compatible files**
+
+  .. versionadded:: 2.0
+     Support for the Opus audio format.
+
+  Mixxx supports a variety of audio file formats: :term:`Wave <WAV>` (wav),
+  :term:`Aiff <AIFF>` (aiff, aif), :term:`MP3` (mp3), :term:`Ogg Vorbis` (ogg),
+  :term:`FLAC` (flac), :term:`OPUS` (opus), and :term:`AAC` (aac, m4a) if
+  supported by your :term:`OS <Operating System>`. :term:`DRM` protected files,
+  such as m4p files purchased in the iTunes Store, are not supported.
+
+  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
+  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
+  is required for Windows Vista.
+
+  On Linux, AAC playback is disabled by default due to licensing restrictions.
+  To enable the playback of AAC files, `build Mixxx from source with m4a/AAC
+  files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_.
+
+**Import external libraries**
+  If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
+  to access your tracks and playlists in the Mixxx library,
+  see :ref:`library-3rd-party`.
+
+**Import remote files**
+  To import audio files which are not in your music library directory, drag them
+  directly from an external :term:`file manager` or from the :ref:`Browse section
+  <library-browse>` to the track list. Importing files into Mixxx does not
+  change the location of the files on the hard disk.
+
+  .. note :: You can not drag complete folders to the library because currently
+             Mixxx can not recursively scan folders for compatible music files.
+
+**Import playlists**
+  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls`
+  playlist files from products other than Mixxx, see :ref:`library-playlists`.
+
+**Import music from CDs**
+  Mixxx can not play music from Audio CDs. Convert the content to compatible
+  files in good quality and add them to the Mixxx library. See
+  `<https://en.wikipedia.org/wiki/Ripping>`_
+
+.. _configuration-changing-music-directories:
+
+Changing music directories
+==========================
+
+.. versionadded:: 2.0
+   Handles multiple music library folders and adds an option to move them to
+   another location without data loss.
+
+You can manually add, relink, and remove Mixxx music directories in
+:menuselection:`Preferences --> Library`.
+
+**Add a new music directory**
+  Mixxx handles multiple music library folders. Click :guilabel:`Add` to
+  browse to a directory where your music is stored. Mixxx will watch this
+  directory and its subdirectories for new tracks.
+
+  If you add a directory that is already in your library, or you are currently
+  :ref:`rescanning your library <library-root>`, the operation is canceled.
+
+  Directories can also be added from the :ref:`Browse <library-browse>` sidebar
+  item inside the library.
+
+**Relink a existing music directory**
+  If an existing music directory is moved, Mixxx doesn't know where to find the
+  audio files in it. Click :guilabel:`Relink` to select the music directory
+  in its new location. This will re-establish the links to the audio files in
+  the Mixxx library.
+
+**Remove a music directory**
+  Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and
+  its subdirectories for new tracks, and asks what would you like to do with the
+  tracks from these directories.
+
+  * Select :guilabel:`Hide Tracks` to hide all tracks from this directory and
+    subdirectories.
+  * Select :guilabel:`Delete Track Metadata` to delete all metadata for these
+    tracks from Mixxx permanently
+  * Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in
+    your library.
+
+  Hiding tracks saves their metadata in case you re-add them in the future.
+
+  Metadata means all track details (artist, title, playcount, etc.) as well as
+  beatgrids, hotcues, and loops. This choice only affects the Mixxx library.
+  No files on disk will be changed or deleted.
+
+.. hint:: When changing music directories, you might want to run a library
+          rescan afterwards. Select :menuselection:`Library --> Rescan Library`
+          in the menu.
+
+.. _configuration-removing-tracks:
+
+Removing tracks from the library
+================================
+
+Removing tracks from the Mixxx library will **not** physically delete them from
+your drive. However it does delete extra metadata Mixxx might have (such as
+hotcues and the beatgrids), and removes links to playlists or crates.
+
+#. Click the :guilabel:`Library` item in the sidebar.
+#. Find and select the tracks you want to remove, perform a right-click on them
+   and select :guilabel:`Hide from Library` from the context menu.
+#. Expand the :guilabel:`Library` item in the sidebar and click on the
+   :guilabel:`Hidden tracks` sub-item. All tracks that were set to be hidden
+   from the library will appear here.
+#. Select the tracks you want to remove, or use the :guilabel:`Select All`
+   button.
+#. To confirm you want to permanently remove these tracks from the library,
+   click :guilabel:`Purge`.
+
+.. hint:: If you later decide to add some of the deleted tracks back, import
+          them to the Mixxx library again, see :ref:`configuration-import`.
+
+.. _configuration-bpm-detection:
+
+BPM and Beat Detection Preferences
+==================================
+
+.. sectionauthor::
+   T.Rafreider <trafreider@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+.. TODO:: Update this section to explain the differences between the beatgrid
+          and beatmap options.
+
+Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments
+are redundant in many cases because Mixxx knows where the beats are.
+
+Analyzer Settings
+-----------------
+
+BPM and beat detection is a complex operation. Depending on your computer and
+the track's bitrate and duration this may take some time. By default Mixxx
+analyzes the complete track. To accelerate beat detection on slower computers, a
+“Fast Analysis” option is available. If enabled, the BPM is computed by
+analyzing the first minute of the track. In most cases this does not affect the
+beat detection negatively because most of today's dance music is written in a
+4/4 signature with a fixed tempo.
+
+.. figure:: ../_static/Mixxx-111-Preferences-Beatdetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - BPM settings
+   :figclass: pretty-figures
+
+   Mixxx preferences - BPM settings
+
+The table below summarizes the beat detection settings:
+
++---------------------------------------+--------------------------------------+
+| Option                                | Description                          |
++=======================================+======================================+
+| Enable Fast Analysis                  | If enabled, BPM  will be detected by |
+|                                       | only using the first minute of audio.|
++---------------------------------------+--------------------------------------+
+| Assume constant tempo                 | If enabled, Mixxx assumes that the   |
+|                                       | distances between the beats are      |
+|                                       | constant. If disabled, the raw beat  |
+|                                       | grid obtained by the analyzer is     |
+|                                       | presented. The latter is appropriate |
+|                                       | for tracks with variable tempo.      |
++---------------------------------------+--------------------------------------+
+| Enable Offset Correction              | Prevents beat markers from being     |
+|                                       | placed incorrectly.                  |
++---------------------------------------+--------------------------------------+
+| Re-analyze beats when settings        | If enabled, Mixxx over-writes old    |
+| change or beat detection data is      | beat grids from Mixxx before v1.11.  |
+| outdated                              | Moreover, it will re-analyze the BPM |
+|                                       | if your beat detection preferences   |
+|                                       | change or BPM data from 3rd party    |
+|                                       | programs are present.                |
++---------------------------------------+--------------------------------------+
+
+Correcting Beat Grids
+---------------------
+
+There may be situations where BPM and beat detection do not result in a proper
+beat grid.
+
+Typically, the detected BPM is correct but the analyzer has failed to detect the
+location of the first beat. Consequently, the beat markers are shifted, i.e.
+the beat markers are always a fixed distance from the true beat. To adjust the
+beat grid, cue the track before a real beat and click the :guilabel:`Beat-grid
+Adjust` button in the :ref:`interface-button-grid`.
+
+If the detected BPM is not accurate, the corresponding beat grid will also be
+inaccurate. A deviation of 0.02 BPM units from the correct BPM will cause
+beatgrid alignment issues on long tracks (e.g. a club mix). If this happens,
+your beatgrid may look aligned for the few minutes but you will notice a slight
+drift as the song goes on. Finding the correct BPM is easy in many cases - just
+follow the note below.
+
+.. note:: If the detected BPM value is not sufficiently accurate but very close
+          to an integer value, try to set the BPM value manually to the integer.
+
+.. _configuration-key-detection:
+
+Key Detection Preferences
+=========================
+
+Mixxx comes with a high precision key detection to help you making smooth mixes
+by ensuring that your tracks are musically compatible.
+
+Analyzer Settings
+-----------------
+
+Key detection is a complex operation. Depending on your computer and the track's
+bitrate and duration this may take some time. By default Mixxx analyzes the
+complete track. To accelerate key detection on slower computers, a “Fast
+Analysis” option is available. If enabled, the key is computed by analyzing the
+first minute of the track.
+
+.. figure:: ../_static/Mixxx-112-Preferences-Keydetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Key settings
+   :figclass: pretty-figures
+
+   Mixxx preferences - Key settings
+
+The table below summarizes the Key detection settings:
+
++---------------------------------------+--------------------------------------+
+| Option                                | Description                          |
++=======================================+======================================+
+| Enable Fast Analysis                  | If enabled, the key will be detected |
+|                                       | by using only the first minute of    |
+|                                       | audio.                               |
++---------------------------------------+--------------------------------------+
+| Re-analyze key when settings          | If enabled, Mixxx will re-analyse    |
+| change or Key detection data is       | tracks if you select a different key |
+| outdated                              | detection plugin or the key was      |
+|                                       | generated by a program other than    |
+|                                       | Mixxx.                               |
++---------------------------------------+--------------------------------------+
+| Key Notation                          | Change the way keys are displayed    |
+|                                       | in the library.                      |
++---------------------------------------+--------------------------------------+
+
+.. _configuration-analyze:
+
+Analyze your library
+====================
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
+them in a deck, nevertheless it is recommended that you analyze them before
+playing live with them to ensure the beatgrids are correct. Furthermore, track
+analysis takes considerable CPU power and might cause skips in the audio ---
+things you surely don't need while performing.
+
+Once you have configured your music directories and your BPM and key detection
+settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
+view on the left side panel of the library. This allows you to run
+:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
+advance. While analyzing, the progress in percentage and total queue length are
+shown.
+
+.. versionadded:: 2.0
+   Drag and drop tracks from the library or external file managers onto the
+   analysis view to instantly analyze these files. The title changes to
+   :guilabel:`Analyze (x/y)` where x is the number of tracks that have been
+   analyzed so far and y is the total number of tracks originally in the queue.
+
+.. versionchanged:: 2.0
+   Does not generate waveforms to save disk space.
+
+The Analyze features in detail:
+
+* **All / New radio-buttons**: Allows you to view a list of either all tracks in
+  the library or tracks added to the library within the last 7 days.
+* **Select All button**: Selects all tracks in the current view.
+* **Analyze button**: Starts the detection on the selected tracks.
+
+.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.

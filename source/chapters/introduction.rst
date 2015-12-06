@@ -16,12 +16,13 @@ Mixxx Features
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-* **4 Decks**: A scratchable, scrolling waveform marks beats and cue points
-  of a track, along with a whole-song waveform overview for quick seeking.
+* **4 Decks**: Each deck features a scratchable, scrolling waveform that marks
+  beats and cue points, along with a whole-song waveform overview for quick
+  seeking.
 * **Advanced Controls**: Change playback with time stretching, and loop beat
   segments.
 * **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.
-* **External Library Integration**: Use your playlists and songs from iTunes, 
+* **External Library Integration**: Use your playlists and songs from iTunes,
   Traktor, Rhythmbox, and Banshee.
 * **BPM Detection and Sync**: Instantly detect and sync the tempo of your songs.
 * **DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers.
@@ -52,7 +53,7 @@ New in Mixxx |version|
 * Multiple library folders
 * Hierarchical library sorting
 * Cover/album art support
-* Vinyl passthrough mode to switch between control vinyl and music 
+* Vinyl passthrough mode to switch between control vinyl and music
   vinyl
 * Auxiliary inputs that pass through to the master mix
 * Mono output and input support
@@ -61,9 +62,9 @@ New in Mixxx |version|
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
 * For an overview of the new features, go to:
-  `<http://mixxx.org/whats-new-in-mixxx-1-12>`_
+  `<http://mixxx.org/whats-new-in-mixxx-2-0>`_
 * For a full list of new features and bugfixes, go to:
-  `https://launchpad.net/mixxx/1.12.0 <https://launchpad.net/mixxx/+milestone/1.12.0>`_
+  `https://launchpad.net/mixxx/2.0.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_
 
 .. seealso:: For an overview of previous changes, go to
              :ref:`appendix-version-history`.
@@ -79,9 +80,9 @@ minimum requirements for having a great experience with Mixxx:
 * At least 1GB of RAM
 * A soundcard with 2 stereo audio outputs (4 mono output channels)
 
-.. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx 
-         can be used with an external mixer and a less powerful computer such 
-         as a netbook.
+.. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx
+          can be used with an external mixer and a less powerful computer such
+          as a netbook.
 
 About the Mixxx Project
 =======================
@@ -198,7 +199,7 @@ There are a variety of other resources you can use to find out more.
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/organization/mixxx-dj-software/>`_ . Please
+  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
   read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
