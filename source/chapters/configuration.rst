@@ -139,15 +139,15 @@ best choice is for your operating system.
 +-----------------------------+---------+
 | OS / Audio API              | Quality |
 +=============================+=========+
-| Windows / WMME              | Poor    |
+| Windows / MME               | Poor    |
 +-----------------------------+---------+
 | Windows / DirectSound       | Poor    |
 +-----------------------------+---------+
-| Windows / WASAPI            | Good    |
+| Windows / WASAPI            | OK      |
 +-----------------------------+---------+
 | Windows / ASIO              | Good    |
 +-----------------------------+---------+
-| Windows / WDDKMS            | Good    |
+| Windows / WDM-KS            | Good    |
 +-----------------------------+---------+
 | Mac OS X / CoreAudio        | Good    |
 +-----------------------------+---------+
@@ -158,9 +158,15 @@ best choice is for your operating system.
 | GNU Linux / JACK (Advanced) | Good    |
 +-----------------------------+---------+
 
-On Windows, if an ASIO driver is not available for your operating system, you
-can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
-for WDM audio devices.
+On Windows, if there is a native ASIO driver available for your soundcard, it
+might be the best choice to achieve a low latency, since it usually bypasses the
+windows kernel.
+
+For an ASIO Setup, every soundcards need to provide its own ASIO driver.
+If this is not the case, just use the WDM-KS API. To solve specific problems,
+you may consider to use `ASIO4ALL <http://asio4all.com>`_, a thin wrapper
+around the WDM-KS API. But be aware that this introduces another degree of 
+complexity and does not improve the latency.
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
