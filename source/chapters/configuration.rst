@@ -266,6 +266,6 @@ linear phase: No phase distortion, all frequencies are processed with the same g
 
 minimum phase: A natural phase distortion, the group delay changes by the frequency
 
-bit perfect: Whether the EQ changes the input at all when the EQ is at unity
+bit perfect: Whether the EQ changes leaves the original samples untouched when the EQ is at unity
 
 CPU usage: Processing time, needed to calculate the EQ output 
