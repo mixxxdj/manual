@@ -212,9 +212,10 @@ already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can 
 choose the virtual device ``pulse``. This allows Mixxx to share the default 
 system sound card with other media players. This only works if you start 
-mixxx without pasuspender. Since the sound stream is routed from ALSA to Pulse 
-and back to ALSA, this adds an additional latency of ~2 x the selected audio 
-buffer.  
+mixxx without pasuspender, which you can do by running "mixxx" from a console 
+rather than clicking the launcher icon in a menu or on your desktop. Since the 
+sound stream is routed from ALSA to Pulse and back to ALSA, this adds an 
+additional latency of ~2 x the selected audio buffer.  
  
 Equalizer Preferences
 =====================
