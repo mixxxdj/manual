@@ -163,23 +163,23 @@ best choice is for your operating system.
 +-----------------------------+---------+
 | OS / Audio API              | Quality |
 +=============================+=========+
-| Windows / MME               | Poor    |
-+-----------------------------+---------+
-| Windows / DirectSound       | Poor    |
-+-----------------------------+---------+
-| Windows / WASAPI            | OK      |
-+-----------------------------+---------+
 | Windows / ASIO              | Good    |
 +-----------------------------+---------+
 | Windows / WDM-KS            | Good    |
 +-----------------------------+---------+
-| Mac OS X / CoreAudio        | Good    |
+| Windows / WASAPI            | OK      |
 +-----------------------------+---------+
-| GNU Linux / OSS             | OK      |
+| Windows / DirectSound       | Poor    |
++-----------------------------+---------+
+| Windows / MME               | Poor    |
++-----------------------------+---------+
+| Mac OS X / CoreAudio        | Good    |
 +-----------------------------+---------+
 | GNU Linux / ALSA            | Good    |
 +-----------------------------+---------+
 | GNU Linux / JACK (Advanced) | Good    |
++-----------------------------+---------+
+| GNU Linux / OSS             | OK      |
 +-----------------------------+---------+
 
 On Windows, if your soundcard comes with a an ASIO driver bypassing the 
