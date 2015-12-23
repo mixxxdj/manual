@@ -186,10 +186,8 @@ On Windows, if your soundcard comes with a an ASIO driver bypassing the
 kernel, it is the best choice to achieve a low latency. 
 
 For an ASIO Setup, every soundcard need to provide its own ASIO driver.
-If this is not the case, use the WDM-KS API. To solve specific problems,
-you may consider to use `ASIO4ALL <http://asio4all.com>`_, a thin wrapper
-around the WDM-KS API. But be aware that this introduces another degree of 
-complexity and does not improve the latency.
+If this is not the case, use the WDM-KS API. There is generally no advantage 
+to using ASIO4ALL <http://asio4all.com>_, a wrapper around the WDM-KS API. 
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
