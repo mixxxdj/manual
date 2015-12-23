@@ -182,12 +182,11 @@ best choice is for your operating system.
 | GNU Linux / JACK (Advanced) | Good    |
 +-----------------------------+---------+
 
-On Windows, if there is a native ASIO driver available for your soundcard, it
-might be the best choice to achieve a low latency, since it usually bypasses the
-windows kernel.
+On Windows, if your soundcard comes with a an ASIO driver bypassing the 
+kernel, it is the best choice to achieve a low latency. 
 
-For an ASIO Setup, every soundcards need to provide its own ASIO driver.
-If this is not the case, just use the WDM-KS API. To solve specific problems,
+For an ASIO Setup, every soundcard need to provide its own ASIO driver.
+If this is not the case, use the WDM-KS API. To solve specific problems,
 you may consider to use `ASIO4ALL <http://asio4all.com>`_, a thin wrapper
 around the WDM-KS API. But be aware that this introduces another degree of 
 complexity and does not improve the latency.
@@ -212,7 +211,7 @@ already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can 
 choose the virtual device ``pulse``. This allows Mixxx to share the default 
-system sound card with other media players. This does only work if you start 
+system sound card with other media players. This only works if you start 
 mixxx without pasuspender. Since the sound stream is routed from ALSA to Pulse 
 and back to ALSA, this adds an additional latency of ~2 x the selected audio 
 buffer.  
