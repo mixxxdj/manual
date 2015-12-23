@@ -60,10 +60,10 @@ Wizard.
 There are also some advanced options in the Midi Wizard you may need to use:
 
 * Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in
-  value when the knob in the term:`GUI` doesn't match the physical knob.  If you
+  value when the knob in the :term:`GUI` doesn't match the physical knob. If you
   select this option, you won't be able to perform super-fast motions as easily.
   (Recommended off)
-* Invert:  Use this option for controls that you want to work backwards from how
+* Invert: Use this option for controls that you want to work backwards from how
   they were detected.
 * Switch Mode: Use this option on controllers that have controls that act like
   switches and emit one value on the first press, and a different value on the
@@ -123,13 +123,13 @@ Depending on your systems language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-It is not recommended to modify the system-wide keyboard mapping file because all your changes
-can be lost if you uninstall or upgrade Mixxx.
+It is not recommended to modify the system-wide keyboard mapping file because
+all your changes can be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
 * Mac OS X: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
-* Windows: :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\Custom.kbd.cfg`
+* Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
 Then edit this file and save the changes. On the next startup, Mixxx will check
 if :file:`Custom.kbd.cfg` is present and load that file instead of the default
