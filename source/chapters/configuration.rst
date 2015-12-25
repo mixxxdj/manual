@@ -236,8 +236,8 @@ Equalizer Preferences
   In this section you can select the equalizers and quick effects that are used
   with the decks.
 
-* **Equalizer Plugin**: Here you can select the effect that is used as mixing
-  EQ in each deck. By default only built-in equalizers are displayed.  If you uncheck
+* **Equalizer Plugin**: Here you can select the effect that is used as the mixing
+  EQ in each deck. By default only built-in equalizers are displayed. If you uncheck
   "Only allow EQ knobs to control EQ specific effects" you can select any other
   effect.
 
@@ -250,8 +250,8 @@ Equalizer Preferences
   selected for all decks, but that can be changed as above.
 
 * **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing 
-  EQ. It controls which frequency range is affected by the three Channel EQ
-  knobs Low, Mid and High. By default the low knob controls the bass and sub bass 
+  EQ. It controls which frequency range is affected by the Low, Mid, and High 
+  channel EQ knobs. By default the low knob controls the bass and sub bass 
   range up to 246 Hz. The mid knob controls the mid range up to 2,5 kHz. 
   The remaining teble range is controlled by the high knob.   
 
@@ -295,9 +295,9 @@ linear phase: No phase distortion, all frequencies are processed with the same g
 
 minimum phase: A natural phase distortion, the group delay changes by the frequency
 
-bit perfect: Whether the EQ changes leaves the original samples untouched when the EQ is at unity
+bit perfect: Whether the EQ leaves the original samples untouched when the EQ is at unity
 
-CPU usage: Processing time, needed to calculate the EQ output 
+CPU usage: Processing time needed to calculate the EQ output 
 
 .. _configuration-import:
 
