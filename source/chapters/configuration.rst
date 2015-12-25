@@ -242,10 +242,6 @@ Equalizer Preferences
   "Only allow EQ knobs to control EQ specific effects" you can select any other
   effect.
 
-
-  If you want different settings for each deck, you may uncheck "Use the same
-  EQ filter for all decks"
-
 * **Quick Effect**: Here you can select the effect that is controlled by the
   dedicated filter knob in each deck. By default only built-in filter effects are
   selected for all decks, but that can be changed as above.
