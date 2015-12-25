@@ -160,27 +160,27 @@ computer. **Therefore it is important to take care to choose the best Audio API
 available to you.** Refer to the following table of Audio APIs to see what the
 best choice is for your operating system.
 
-+-----------------------------+---------+
-| OS / Audio API              | Quality |
-+=============================+=========+
-| Windows / ASIO              | Good    |
-+-----------------------------+---------+
-| Windows / WDM-KS            | Good    |
-+-----------------------------+---------+
-| Windows / WASAPI            | OK      |
-+-----------------------------+---------+
-| Windows / DirectSound       | Poor    |
-+-----------------------------+---------+
-| Windows / MME               | Poor    |
-+-----------------------------+---------+
-| Mac OS X / CoreAudio        | Good    |
-+-----------------------------+---------+
-| GNU Linux / ALSA            | Good    |
-+-----------------------------+---------+
-| GNU Linux / JACK (Advanced) | Good    |
-+-----------------------------+---------+
-| GNU Linux / OSS             | OK      |
-+-----------------------------+---------+
++-----------------------------+------------+
+| OS / Audio API              | Quality    |
++=============================+============+
+| Windows / ASIO              | Good       |
++-----------------------------+------------+
+| Windows / WDM-KS            | Good       |
++-----------------------------+------------+
+| Windows / WASAPI            | Acceptable |
++-----------------------------+------------+
+| Windows / DirectSound       | Poor       |
++-----------------------------+------------+
+| Windows / MME               | Poor       |
++-----------------------------+------------+
+| Mac OS X / CoreAudio        | Good       |
++-----------------------------+------------+
+| GNU Linux / ALSA            | Good       |
++-----------------------------+------------+
+| GNU Linux / JACK (Advanced) | Good       |
++-----------------------------+------------+
+| GNU Linux / OSS             | Acceptable |
++-----------------------------+------------+
 
 On Windows, if all your soundcards comes with an ASIO driver bypassing the 
 kernel, it is the best choice to achieve a low latency. If this is not the 
