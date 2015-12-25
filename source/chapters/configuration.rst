@@ -262,7 +262,7 @@ Mixing Equalizers
 Mixxx offers three types of mixing equalizers with full kill feature. They are 
 actually isolators, adopted from analog cross over networks. Each EQ is 
 combination of a high shelf filter, a band pass filter, and a low shelf filter. 
-All EQ types are offering its own individual sound, so try them out. 
+Each EQ type has its own sound, so try them out to find which one you prefer. 
 
 
 The Bessel EQs with Lipshitz and Vanderkooy Mix do not alter audio samples when
