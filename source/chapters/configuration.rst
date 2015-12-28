@@ -23,9 +23,12 @@ Mixxx and importing your music to the Mixxx library.
   "Mixxx" in Spotlight.
 
 **GNU/Linux**
-  Simply type :command:`mixxx` into the terminal, then hit :kbd:`Return`. With
-  some distributions like Ubuntu you can also double-click the Mixxx icon in the
-  launcher. Alternatively, perform a search for :file:`mixxx`.
+  Click the Mixxx icon in the applications menu or launcher of your desktop 
+  environment or perform a search for :file:`mixxx`. Alternatively type 
+  :command:`mixxx` into the terminal, then hit :kbd:`Return`. If your soundcard
+  is not accessable from Mixxx because it is used by other Applications via Pulse, 
+  you Mixx may close and restart it using :command:`pasuspender mixxx`. 
+  :command:`mixxx --help` gives an overview about advanced command line options.  
 
 Sound Hardware Preferences
 ==========================
