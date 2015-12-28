@@ -7,7 +7,7 @@ Mixxx |version| User Manual
 ***************************
 
 Mixxx is free [#f1]_ DJ software for Windows, Mac OS X and Linux.
-It's easy to use so you can start mixing your favourite songs in
+It's easy to use so you can start mixing your favorite songs in
 no time, even if you've never DJed before. Mixxx offers a variety of
 features for experienced DJs and beginners alike, such as automatic
 beat and key detection, master sync, hotcues, looping, 4 decks,

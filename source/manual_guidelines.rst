@@ -7,22 +7,20 @@ Guidelines for Mixxx Manual writers
 
 What is the intended outcome of the manual?
 ===========================================
-A user who doesn\'t know Mixxx yet should be able to mix two tracks from its
-music library in the shortest possible time. Assuming he will be more motivated
-to explore the software and get creative.
+A user who doesn\'t know Mixxx yet should be able to mix two tracks from their
+music library in the shortest possible time. 
 
 (Future) characteristics of the Mixxx manual:
 
 **User-friendly**
-  Easy to use when, where, and how you need it. Examine, how someone else is
-  using the application. Watch someone else use the manual (preferably someone
+  Easy to use when, where, and how you need it. Watch how someone else uses the
+  application. Watch them look for information in the manual (preferably someone
   who has never seen it before). Be consistent with the instructional design so
-  users can follow a set pattern. Don't use the terms you use as a developer,
-  try to find the terminology of the user.
+  users can follow a set pattern. Don't use software development terms.
 
 **Based on sound learning principles**
   For example users should actually learn from it, not just refer to it. Use
-  the KISS principle; keep it sweet and simple. Too much information can be
+  the KISS principle: keep it short and simple. Too much information can be
   overwhelming, so present one concept at a time. Explain simple features in a
   matrix.
 
@@ -32,7 +30,7 @@ to explore the software and get creative.
 
 Group problems the user might hit in a particular task right there with the
 instruction for that task. Do not force a user to go to a separate
-“Troubleshooting” section. We can have such separate sections, but as a author
+“Troubleshooting” section. We can have such separate sections, but as an author
 you should duplicate pitfalls and problems and include a solution in the task.
 
 Technical conventions
