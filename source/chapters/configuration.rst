@@ -58,7 +58,7 @@ inputs and outputs to be used.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with real-time
-  deadlines imposed by the current audio audio buffer size. This is useful to
+  deadlines imposed by the current audio buffer size. This is useful to
   tune the latency settings. If the counter increases, then increase your audio
   buffer size, decrease the sample rate setting or change the sound API
   setting if available.
