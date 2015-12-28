@@ -160,31 +160,33 @@ computer. **Therefore it is important to take care to choose the best Audio API
 available to you.** Refer to the following table of Audio APIs to see what the
 best choice is for your operating system.
 
-+----------------------------------------+--------------+
-| OS / Audio API                         | Quality      |
-+========================================+==============+
-| Windows / WMME                         | Poor         |
-+----------------------------------------+--------------+
-| Windows / DirectSound                  | Poor         |
-+----------------------------------------+--------------+
-| Windows / WASAPI                       | Good         |
-+----------------------------------------+--------------+
-| Windows / ASIO                         | Good         |
-+----------------------------------------+--------------+
-| Windows / WDDKMS                       | Good         |
-+----------------------------------------+--------------+
-| Mac OS X / CoreAudio                   | Good         |
-+----------------------------------------+--------------+
-| GNU Linux / OSS                        | OK           |
-+----------------------------------------+--------------+
-| GNU Linux / ALSA                       | Good         |
-+----------------------------------------+--------------+
-| GNU Linux / JACK (Advanced)            | Good         |
-+----------------------------------------+--------------+
++-----------------------------+------------+
+| OS / Audio API              | Quality    |
++=============================+============+
+| Windows / ASIO              | Good       |
++-----------------------------+------------+
+| Windows / WDM-KS            | Good       |
++-----------------------------+------------+
+| Windows / WASAPI            | Acceptable |
++-----------------------------+------------+
+| Windows / DirectSound       | Poor       |
++-----------------------------+------------+
+| Windows / MME               | Poor       |
++-----------------------------+------------+
+| Mac OS X / CoreAudio        | Good       |
++-----------------------------+------------+
+| GNU Linux / ALSA            | Good       |
++-----------------------------+------------+
+| GNU Linux / JACK (Advanced) | Good       |
++-----------------------------+------------+
+| GNU Linux / OSS             | Acceptable |
++-----------------------------+------------+
 
-On Windows, if an ASIO driver is not available for your operating system, you
-can try installing `ASIO4ALL <http://asio4all.com>`_, a low-latency audio driver
-for WDM audio devices.
+For a low latency on Windows, it is best to use an ASIO driver that bypassses 
+the sound processing of the Windows kernel. If there is no such ASIO driver 
+available for your soundcard, use the WDM-KS API. There is generally no 
+advantage to using ASIO4ALL <http://asio4all.com>_, a wrapper around the 
+WDM-KS API. 
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
@@ -204,10 +206,95 @@ designed for demanding low latency audio programs like Mixxx. It can be
 difficult to setup JACK and PulseAudio to work well together. So, unless you
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
-.. warning:: On GNU/Linux it is not recommended to use the ``pulse`` device
-             with the ALSA Audio API. This is an emulation layer for ALSA
-             provided by PulseAudio. It has poor performance, but may be
-             suitable for basic playback.
+If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can 
+choose the virtual device ``pulse``. This allows Mixxx to share the default 
+system sound card with other media players. This only works if you start 
+mixxx without pasuspender, which you can do by running "mixxx" from a console 
+rather than clicking the launcher icon in a menu or on your desktop. Since the 
+sound stream is routed from ALSA to Pulse and back to ALSA, this adds an 
+additional latency of ~2 x the selected audio buffer.  
+ 
+Equalizer Preferences
+=====================
+
+.. sectionauthor::
+   Daniel Schürmann <daschuer@mixxx.org>
+
+.. figure:: ../_static/Mixxx-111-Preferences-Equalizer(TODO).png
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Equalizer Preferences
+   :figclass: pretty-figures
+
+   Equalizer Preferences
+
+:menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
+
+* **Equalizer Rack**: The Equalizer Rack is a special Effect Rack that is
+  connected to the deck's equalizer and filter controls.
+
+  In this section you can select the equalizers and quick effects that are used
+  with the decks.
+
+* **Equalizer Plugin**: Here you can select the effect that is used as the mixing
+  EQ in each deck. By default only built-in equalizers are displayed. If you uncheck
+  "Only allow EQ knobs to control EQ specific effects" you can select any other
+  effect.
+
+* **Quick Effect**: Here you can select the effect that is controlled by the
+  dedicated filter knob in each deck. By default only built-in filter effects are
+  selected for all decks, but that can be changed as above.
+
+* **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing 
+  EQ. It controls which frequency range is affected by the Low, Mid, and High 
+  channel EQ knobs. By default the low knob controls the bass and sub bass 
+  range up to 246 Hz. The mid knob controls the mid range up to 2,5 kHz. 
+  The remaining teble range is controlled by the high knob.   
+
+* **Master EQ**: This section allows you to setup an EQ that effects only the
+  master output. 
+
+
+Mixing Equalizers
+-----------------
+
+Mixxx offers three types of mixing equalizers with full kill feature. They are 
+actually isolators, adopted from analog cross over networks. Each EQ is 
+combination of a high shelf filter, a band pass filter, and a low shelf filter. 
+Each EQ type has its own sound, so try them out to find which one you prefer. 
+
+
+The Bessel EQs with Lipshitz and Vanderkooy Mix do not alter audio samples when
+all knobs are at center. Once you adjust the knobs it activates and requires more
+CPU time.
+
+The Linkwitz-Riley EQ always applies a minimum, natural sounding phase shift.
+The amount of CPU time does not change when you adjust the EQ knobs.
+
+The following table compares some technical parameters:
+
++----------------+--------+------------+-------------+-------------+-----------+
+| Type           | cut    | roll-off   | phase shift | bit perfect | CPU usage |
++================+========+============+=============+=============+===========+
+| Bessel4 LV-Mix | soft   | -24 db/Oct | linear      | yes         | low       |
++----------------+--------+------------+-------------+-------------+-----------+
+| Bessel8 LV-Mix | medium | -48 db/Oct | linear      | yes         | medium    |
++----------------+--------+------------+-------------+-------------+-----------+
+| Linkwitz-Riley | sharp  | -48 db/Oct | minimum     | no          | high      |
++----------------+--------+------------+-------------+-------------+-----------+
+
+cut: the frequency response (curve form) at the cross over frequency
+
+roll-off: The steepness of the EQ bands
+
+linear phase: No phase distortion, all frequencies are processed with the same group delay
+
+minimum phase: A natural phase distortion, the group delay changes by the frequency
+
+bit perfect: Whether the EQ leaves the original samples untouched when the EQ is at unity
+
+CPU usage: Processing time needed to calculate the EQ output 
 
 .. _configuration-import:
 
