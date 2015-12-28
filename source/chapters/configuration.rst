@@ -10,7 +10,7 @@ Mixxx Setup
 Opening Mixxx
 =============
 |logo| Once you've :ref:`installed Mixxx <installing-mixxx>`, start by opening
-Mixxx and import your music to the Mixxx library.
+Mixxx and importing your music to the Mixxx library.
 
 **Windows**
   Double-click the Mixxx icon on the Desktop. Alternatively, browse your Windows
@@ -40,11 +40,11 @@ Sound Hardware Preferences
    Mixxx Sound Hardware Preferences
 
 :menuselection:`Preferences --> Sound Hardware` allows you to select the audio
-in- and outputs to be used.
+inputs and outputs to be used.
 
-* **Sound API**: Depending your :term:`Operating System`, select the :term:`API`
+* **Sound API**: Depending on your :term:`Operating System`, select the :term:`API`
   that Mixxx uses to deliver audio to your audio device. Your choice can
-  drastically affect how smooth Mixxx performs on your computer.
+  drastically affect how well Mixxx performs on your computer.
 
 * **Sample Rate**: Allows you to manually select the sample rate for the audio
   input. The sample rate value should be set to the sample rate of your audio
@@ -56,22 +56,23 @@ in- and outputs to be used.
   will be more responsive but on slower computers and cheaper sound cards it
   might cause glitches.
 
-* **Buffer Underflow Count**: Underflows (no data is available when needed)
-  indicate that some of the subsystems in Mixxx can't keep up with
-  real-time deadlines. This is useful to tune the latency settings. If the
-  counter increases, then increase your audio buffer setting, decrease the
-  sample rate setting or change the sound API setting if available.
+* **Buffer Underflow Count**: Underflows (data is not available when needed)
+  indicate that some of the subsystems in Mixxx can't keep up with real-time
+  deadlines imposed by the current audio audio buffer size. This is useful to
+  tune the latency settings. If the counter increases, then increase your audio
+  buffer size, decrease the sample rate setting or change the sound API
+  setting if available.
 
 .. _configuration-mixer-mode:
 
 Audio Outputs
 =============
 
-Mixxx's mixing engine can be used two ways:
+Mixxx's mixing engine can be used in two ways:
 
 **Internal Mixer Mode**
   In this mode, Mixxx performs the mixing of the decks, microphone, and samplers
-  in software and outputs them to a single output. To enable internal mixer mode
+  in software and outputs them to a single output. To enable internal mixer mode,
   assign a valid audio output to the :guilabel:`Master` output in
   :menuselection:`Preferences --> Sound Hardware --> Output`.
 
@@ -84,7 +85,7 @@ Mixxx's mixing engine can be used two ways:
 **External Mixer Mode**
   In this mode, Mixxx outputs the audio from each deck to a separate soundcard
   output. This allows you to route the deck outputs through a hardware mixer.
-  Similarly, to enable external mixer mode, simply select a valid audio output
+  To enable external mixer mode, select a valid audio output
   for the :guilabel:`Deck` outputs in
   :menuselection:`Preferences --> Sound Hardware --> Output`.
 
@@ -182,11 +183,11 @@ best choice is for your operating system.
 | GNU Linux / OSS             | Acceptable |
 +-----------------------------+------------+
 
-For a low latency on Windows, it is best to use an ASIO driver that bypassses 
-the sound processing of the Windows kernel. If there is no such ASIO driver 
-available for your soundcard, use the WDM-KS API. There is generally no 
-advantage to using ASIO4ALL <http://asio4all.com>_, a wrapper around the 
-WDM-KS API. 
+For low latency on Windows, it is best to use an ASIO driver that bypassses
+the sound processing of the Windows kernel. If there is no such ASIO driver
+available for your soundcard, use the WDM-KS API. There is generally no
+advantage to using ASIO4ALL <http://asio4all.com>_, a wrapper around the
+WDM-KS API.
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
 prevent any other programs from using the sound card(s) that Mixxx is using.
@@ -206,14 +207,14 @@ designed for demanding low latency audio programs like Mixxx. It can be
 difficult to setup JACK and PulseAudio to work well together. So, unless you
 already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
-If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can 
-choose the virtual device ``pulse``. This allows Mixxx to share the default 
-system sound card with other media players. This only works if you start 
-mixxx without pasuspender, which you can do by running "mixxx" from a console 
-rather than clicking the launcher icon in a menu or on your desktop. Since the 
-sound stream is routed from ALSA to Pulse and back to ALSA, this adds an 
-additional latency of ~2 x the selected audio buffer.  
- 
+If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can
+choose the virtual device ``pulse``. This allows Mixxx to share the default
+system sound card with other media players. This only works if you start
+Mixxx without pasuspender, which you can do by running "mixxx" from a console
+rather than clicking the launcher icon in a menu or on your desktop. Since the
+sound stream is routed from ALSA to Pulse and back to ALSA, this adds an
+additional latency of ~2 x the selected audio buffer size.
+
 Equalizer Preferences
 =====================
 
@@ -231,46 +232,47 @@ Equalizer Preferences
 
 :menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
 
-* **Equalizer Rack**: The Equalizer Rack is a special Effect Rack that is
+* **Equalizer Rack**: The Equalizer Rack is a special effect rack that is
   connected to the deck's equalizer and filter controls.
 
   In this section you can select the equalizers and quick effects that are used
   with the decks.
 
-* **Equalizer Plugin**: Here you can select the effect that is used as the mixing
-  EQ in each deck. By default only built-in equalizers are displayed. If you uncheck
-  "Only allow EQ knobs to control EQ specific effects" you can select any other
-  effect.
+* **Equalizer Plugin**: Here you can select the effect that is used as the
+  mixing EQ in each deck. By default only built-in equalizers are
+  displayed. Unchecking "Only allow EQ knobs to control EQ specific effects"
+  allows you to select any other effect.
 
 * **Quick Effect**: Here you can select the effect that is controlled by the
   dedicated filter knob in each deck. By default only built-in filter effects are
   selected for all decks, but that can be changed as above.
 
-* **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing 
-  EQ. It controls which frequency range is affected by the Low, Mid, and High 
-  channel EQ knobs. By default the low knob controls the bass and sub bass 
-  range up to 246 Hz. The mid knob controls the mid range up to 2,5 kHz. 
-  The remaining teble range is controlled by the high knob.   
+* **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing
+  EQ. It controls which frequency range is affected by the low, mid, and high
+  channel EQ knobs. By default the low knob controls the bass and sub bass
+  range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
+  The remaining treble range is controlled by the high knob.
 
-* **Master EQ**: This section allows you to setup an EQ that effects only the
-  master output. 
+* **Master EQ**: This section allows you to setup an EQ that affects the master
+  output.
 
 
 Mixing Equalizers
 -----------------
 
-Mixxx offers three types of mixing equalizers with full kill feature. They are 
-actually isolators, adopted from analog cross over networks. Each EQ is 
-combination of a high shelf filter, a band pass filter, and a low shelf filter. 
-Each EQ type has its own sound, so try them out to find which one you prefer. 
+Mixxx offers three types of mixing equalizers with a full kill option. These
+equalizers are "isolators", adapted from analog crossover networks. Each EQ is
+combination of a high shelf filter, a band pass filter, and a low shelf filter.
+Each EQ type has a unique sound, so try them out to find out which one you
+prefer.
 
+The Bessel EQs with Lipshitz and Vanderkooy Mix (LV-Mix) do not alter the sound
+or take any processing time when their knobs are in the center position. They
+activate once you adjust an EQ knob.
 
-The Bessel EQs with Lipshitz and Vanderkooy Mix do not alter audio samples when
-all knobs are at center. Once you adjust the knobs it activates and requires more
-CPU time.
-
-The Linkwitz-Riley EQ always applies a minimum, natural sounding phase shift.
-The amount of CPU time does not change when you adjust the EQ knobs.
+The Linkwitz-Riley EQ on the other hand always applies a minimum, natural
+sounding phase shift to the sound. Their processing time does not change when
+you adjust the EQ knobs.
 
 The following table compares some technical parameters:
 
@@ -284,17 +286,17 @@ The following table compares some technical parameters:
 | Linkwitz-Riley | sharp  | -48 db/Oct | minimum     | no          | high      |
 +----------------+--------+------------+-------------+-------------+-----------+
 
-cut: the frequency response (curve form) at the cross over frequency
+cut: the frequency response (curve form) at the cross over frequency.
 
-roll-off: The steepness of the EQ bands
+roll-off: The steepness of the EQ bands.
 
-linear phase: No phase distortion, all frequencies are processed with the same group delay
+linear phase: No phase distortion, all frequencies are processed with the same group delay.
 
-minimum phase: A natural phase distortion, the group delay changes by the frequency
+minimum phase: A natural phase distortion, the group delay changes by the frequency.
 
-bit perfect: Whether the EQ leaves the original samples untouched when the EQ is at unity
+bit perfect: Whether the EQ leaves the original samples untouched when the EQ is at unity.
 
-CPU usage: Processing time needed to calculate the EQ output 
+CPU usage: Processing time needed to calculate the EQ output.
 
 .. _configuration-import:
 
@@ -340,11 +342,11 @@ Importing your audio files
 
   Mixxx supports a variety of audio file formats: :term:`Wave <WAV>` (wav),
   :term:`Aiff <AIFF>` (aiff, aif), :term:`MP3` (mp3), :term:`Ogg Vorbis` (ogg),
-  :term:`FLAC` (flac), :term:`OPUS` (opus), and :term:`AAC` (aac, m4a) if
+  :term:`FLAC` (flac), :term:`Opus` (opus), and :term:`AAC` (aac, m4a) if
   supported by your :term:`OS <Operating System>`. :term:`DRM` protected files,
   such as m4p files purchased in the iTunes Store, are not supported.
 
-  AAC (M4A) is supported on Windows Vista and Mac OSX 10.5 onwards. The
+  AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
   `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
   is required for Windows Vista.
 
@@ -489,7 +491,7 @@ The table below summarizes the beat detection settings:
 +---------------------------------------+--------------------------------------+
 | Option                                | Description                          |
 +=======================================+======================================+
-| Enable Fast Analysis                  | If enabled, BPM  will be detected by |
+| Enable Fast Analysis                  | If enabled, BPM will be detected by  |
 |                                       | only using the first minute of audio.|
 +---------------------------------------+--------------------------------------+
 | Assume constant tempo                 | If enabled, Mixxx assumes that the   |
@@ -503,7 +505,7 @@ The table below summarizes the beat detection settings:
 |                                       | placed incorrectly.                  |
 +---------------------------------------+--------------------------------------+
 | Re-analyze beats when settings        | If enabled, Mixxx over-writes old    |
-| change or beat detection data is      | beat grids from Mixxx before v1.11.  |
+| change or beat detection data is      | beat grids from prior versions.      |
 | outdated                              | Moreover, it will re-analyze the BPM |
 |                                       | if your beat detection preferences   |
 |                                       | change or BPM data from 3rd party    |
@@ -518,7 +520,7 @@ beat grid.
 
 Typically, the detected BPM is correct but the analyzer has failed to detect the
 location of the first beat. Consequently, the beat markers are shifted, i.e.
-the beat markers are always a fixed distance from the true beat. To adjust the
+the beat markers are a fixed distance from the true beat. To adjust the
 beat grid, cue the track before a real beat and click the :guilabel:`Beat-grid
 Adjust` button in the :ref:`interface-button-grid`.
 
@@ -537,8 +539,8 @@ follow the note below.
 Key Detection Preferences
 =========================
 
-Mixxx comes with a high precision key detection to help you making smooth mixes
-by ensuring that your tracks are musically compatible.
+Mixxx comes with a high precision musical key detector to help you make smooth
+mixes by ensuring that your tracks are musically compatible.
 
 Analyzer Settings
 -----------------
@@ -588,7 +590,7 @@ Analyze your library
 
 |ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
 them in a deck, nevertheless it is recommended that you analyze them before
-playing live with them to ensure the beatgrids are correct. Furthermore, track
+playing live to ensure the beatgrids are correct. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
