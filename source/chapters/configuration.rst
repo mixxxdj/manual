@@ -53,17 +53,39 @@ inputs and outputs to be used.
   input. The sample rate value should be set to the sample rate of your audio
   interface. By default, Mixxx tries the system default first, which is most
   likely 44.1 kHz. Otherwise, Mixxx will pick a different default.
-
-* **Multi-Soundcard Syncronization**: Mixxx is able to use two or more soundcards 
-  at a time, each with its own clock. The Mixxx engine is driven by the Master 
-  soundcards. Here you can select the syncronization used for the other the other 
-  soundcards to avoid buffer over or underflows.  
-    
+        
 * **Audio buffer**: Also known as latency, this is the lag time in milliseconds
   that it takes for Mixxx to process your input. Lower latency means Mixxx
   will be more responsive but on slower computers and cheaper sound cards it
   might cause glitches.
 
+* **Multi-Soundcard Synchronization**: Mixxx is able to use two or more soundcards 
+  at a time, each with its own clock. The Mixxx engine is driven by the Master 
+  soundcards. Here you can select the synchronization used for the other the other 
+  soundcards to avoid buffer over or underflows.
+
+* **Keylock/Pitch-Bending Engine**: Allows you to select the engine for all 
+  independent Tempo and Pitch changes like keylock. Use Soundtouch on old devices 
+  and Netbooks or if you experience buffer underflows during keylock.  
+
+* **Master Mix**: You may disable the master Mix to save some processing time, if 
+  you use no master sound card, no recording and no broadcasting. 
+
+* **Master Output Mode**: In Mono Mode, the left and right channel are combined to a 
+  mono signal, which is passed to both channels of your master sound card. 
+  This is usefull for outdoor setups where you can only hear the right or the left 
+  speaker. 
+
+* **Microphone/Talkover Mixxx**: In broadcasting setups you may remove the talkover
+  channel from the master output to avoid echo or looping effects.
+
+* **Headphone/Master Delay: Allows you to minimize echo effects if you hear the 
+  master speakers though you headphones. Setup:
+  * switch to mono mode (see above). 
+  * listen to headphone with on ear and to the master speakers with the other ear. 
+  * Adjust the delays until the sound seems to be centered, the stereo effect is gone.
+  * switch back to stereo mode  
+  
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with real-time
   deadlines imposed by the current audio audio buffer size. This is useful to
