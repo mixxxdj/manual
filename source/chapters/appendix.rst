@@ -372,6 +372,7 @@ Version History
   * Vinyl Audio Pass-Through
   * 4 Microphone inputs and 4 Auxiliary inputs
   * MIDI Mapping GUI and Improved Learning Wizard
+  * MusicBrainz metadata fetching
   * RGB Musical Waveforms
   * Hundreds of Bug Fixes and Improvements
   * New Pitch-Independent Algorithm for Better-Sounding Key-lock
