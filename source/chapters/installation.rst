@@ -43,8 +43,6 @@ Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
 Installation on Mac OS X
 ========================
 
-Method A: Direct Download
--------------------------
 .. figure:: ../_static/Mixxx-111-Installation-MacOSX.png
    :align: center
    :width: 75%
@@ -66,33 +64,6 @@ Method A: Direct Download
 
 Mixxx requires an Intel Mac running Mac OS X 10.5 or newer.
 
-Method B: The Mac App Store
----------------------------
-.. figure:: ../_static/Mixxx-111-installation-MacOSX-App-Store.png
-   :align: center
-   :width: 75%
-   :figwidth: 100%
-   :alt: Mixxx Installation from the Mac App Store
-   :figclass: pretty-figures
-
-   Mixxx Installation from the Mac App Store
-
-The Mac App Store makes getting new apps easier than ever.
-
-* Start the Mac :file:`App Store.app` on your computer.
-* Search for *mixxx* in the App Store, alternatively
-  `click this direct link
-  <https://itunes.apple.com/us/app/mixxx/id413756578?mt=12>`_ .
-* Select Mixxx and click the :guilabel:`Install` button.
-* Type in your administrator password if asked.
-* Mixxx will be installed to your :file:`Applications` folder.
-
-The App Store version of Mixxx is under some circumstances out of date,
-therefore using `Method A: Direct Download`_ is preferable.
-
-.. note:: Due to licensing restrictions, :term:`vinyl control` is not available
-          in Mixxx from the Mac App Store.
-
 Installation on GNU/Linux
 =========================
 
@@ -109,7 +80,7 @@ Method A: Personal Package Archive (ppa)
 
     sudo apt-add-repository ppa:mixxx/mixxx
     sudo apt-get update
-    sudo apt-get install libportaudio2 mixxx
+    sudo apt-get install mixxx
 
 * Start Mixxx by simply typing :file:`mixxx` into the terminal, then hit
   :kbd:`Return` .
