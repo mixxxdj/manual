@@ -146,8 +146,8 @@ will remain lit.  Changing the rate of any deck that has Sync lit will change
 the rates of all other decks that also have the Sync button lit.  There is no
 need to set specific decks to be a master or followers.  You can play, stop,
 eject, load, and queue any track with master sync and it won't interrupt the
-playback of the other decks.  Changing the rate of stopped deck will change the
-rate of playing decks, however.
+playback of the other decks.  However, changing the rate of a stopped deck will
+change the rate of playing decks.
 
 Master Sync will also notice if one of your tracks is double the BPM of another
 track and match them correctly.  So if you want to mix a 140 BPM drum & bass
@@ -229,14 +229,14 @@ BitCrusher
 
    BitCrusher controls
 
-The BitCrusher is an effect that adds quantisation noise to the signal
-by the reduction of the resolution or bandwidth of the samples
+The BitCrusher is an effect that adds quantization noise to the signal
+by the reduction of the resolution or bandwidth of the samples.
 
 **Bit Depth**
   Adjusts the bit depth of the samples.
 
 **Downsampling**
-  Adjusts the sample rate, to which the signal is downsampled.
+  Adjusts the sample rate to which the signal is downsampled.
 
 .. _effects-filter:
 
@@ -256,13 +256,13 @@ The filter changes the tone of the music by allowing only high or low
 frequencies to pass through.
 
 **LPF**
-  Corner frequency ratio of the low pass filter
+  Corner frequency ratio of the low pass filter.
 
 **Q**
-  Resonance of the filters, default = Flat top
+  Resonance of the filters, default = Flat top.
 
 **HPF**
-  Corner frequency ratio of the high pass filter
+  Corner frequency ratio of the high pass filter.
 
 .. _effects-reverb:
 
@@ -285,7 +285,7 @@ networks of simple allpass and comb delay filters.
 
 **Bandwidth**
   Higher bandwidth values cause more bright (high-frequency) tones to be
-  included
+  included.
 
 **Damping**
   Higher damping values cause reverberations to die out more quickly.
@@ -309,13 +309,13 @@ Echo
 Simple Echo with pingpong
 
 **Send**
-  How much of the signal to send into the delay buffer
+  How much of the signal to send into the delay buffer.
 
 **Delay**
-  Delay time (seconds)
+  Delay time in seconds.
 
 **Feedback**
-  Amount the echo fades each time it loops
+  Amount the echo fades each time it loops.
 
 **PingPong**
   As the ping-pong amount increases, increasing amounts of the echoed signal is
@@ -330,7 +330,7 @@ Recording Your Mix
    S.Brandt <s.brandt@mixxx.org>
 
 With the integrated recording feature you can record your mix as an audio file
-and listen to it later, distribute it as :term:`Podcast` or burn it to CD.
+and listen to it later, distribute it as a :term:`Podcast` or burn it to CD.
 Mixxx records the master output - the audio you hear from the speakers including
 the microphone.
 
@@ -371,13 +371,13 @@ Record your mix to disk
 * Click the :guilabel:`Start Recording` button or click
   :menuselection:`Options --> Record Mix` in the menu on top of the Mixxx
   application window.
-* The display above the track table shows how many data has already been
+* The display above the track table shows how much data has already been
   recorded, as well as the duration of the recording.
 * Perform your mix
 * Click the :guilabel:`Stop Recording` button to stop the recording when the mix
   has finished.
 
-.. hint:: You can instantly play your recording as track in Mixxx. Simply
+.. hint:: You can instantly play your recording as a track in Mixxx. Simply
           drag-and-drop the track to a deck.
 
 .. _djing-auto-dj:
@@ -435,10 +435,10 @@ Using Auto DJ crates
 --------------------
 
 Instead of inserting the contents of the crates directly into the Auto DJ
-playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are merely associated
+playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated
 crates that become a source of random track selections.
 
-* **Set a crate as Auto DJ track source**:  Expand the :guilabel:`Auto DJ` item
+* **Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto DJ` item
   in the sidebar, and right-click on the :guilabel:`Crates` sub-item. Select
   one of the existing crates from the list. This makes the content of the crate
   available for random selection into the :ref:`Auto DJ <library-auto-dj>`
@@ -453,24 +453,24 @@ crates that become a source of random track selections.
   library. Click the :guilabel:`Add random` button to add one track at the time
   from Auto DJ track sources to the bottom of the Auto DJ playlist.
 
-  .. note:: If you did not set any crates as Auto-DJ track source, clicking the
-            :guilabel:`Add Random` button will add a track selected from the
+  .. note:: If you did not set any crates as an Auto DJ track source, clicking the
+            :guilabel:`Add Random` button will add a randomly selected track from the
             whole library instead.
 
 * **Automatically add tracks from track sources to Auto DJ**: Mixxx can randomly
-  add tracks to the Auto Dj playlist from the track sources, as soon as a
+  add tracks to the Auto DJ playlist from track sources as soon as a
   specified minumum number of tracks remain. Select
   :menuselection:`Preferences --> Auto DJ --> Enable random track addition to
   queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` to
   change the minimum number of tracks after which random tracks may be added.
 
-  .. note:: If you did not set any crates as Auto-DJ track source, tracks are
+  .. note:: If you did not set any crates as an Auto DJ track source, tracks are
             selected from the whole library instead.
 
-* **Remove a crate as Auto DJ track source**: Expand the :guilabel:`Auto DJ`
+* **Remove a crate from the Auto DJ track sources**: Expand the :guilabel:`Auto DJ`
   item in the sidebar, and right-click on one of the crates listed below the
-  :guilabel:`Crates` sub-item. The select :guilabel:`Remove Crate as Track
-  Source`.
+  :guilabel:`Crates` sub-item. Select :guilabel:`Remove Crate as Track
+  Source` to remove the crate from the Auto DJ track sources.
 
 Playing tracks in Auto DJ
 -------------------------
