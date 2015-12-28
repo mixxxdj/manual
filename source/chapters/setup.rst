@@ -83,12 +83,13 @@ headphone cueing.
 Laptop and Splitter Cable
 =========================
 
-.. figure:: ../_static/mixxx_setup_splitter_adaptors.png
-   :align: center
-   :width: 75%
-   :figwidth: 100%
-   :alt: Using Mixxx with your built-in sound card and a DJ splitter cable
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/mixxx_setup_splitter_adaptors.png
+      :align: center
+      :width: 75%
+      :figwidth: 100%
+      :alt: Using Mixxx with your built-in sound card and a DJ splitter cable
+      :figclass: pretty-figures
 
 
 The cheapest way to DJ and :term:`cue` with headphones uses a

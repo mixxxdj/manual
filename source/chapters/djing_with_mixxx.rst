@@ -192,14 +192,15 @@ Mixxx comes with a set of native effects.
 Flanger
 -------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-111-Deere-Mixer-FX.png
+      :align: center
+      :width: 321px
+      :figwidth: 100%
+      :alt: The effect control section of the mixer
+      :figclass: pretty-figures
 
-   Flanger controls
+      Flanger controls
 
 This effect applies a “sweeping” sound to the channel and can add extra depth to
 a mix when used tactfully.
@@ -220,14 +221,15 @@ a mix when used tactfully.
 BitCrusher
 ----------
 
-.. figure:: ../_static/Mixxx-112-LateNight-Effects-BitCrusher.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-112-LateNight-Effects-BitCrusher.png
+      :align: center
+      :width: 321px
+      :figwidth: 100%
+      :alt: The effect control section of the mixer
+      :figclass: pretty-figures
 
-   BitCrusher controls
+      BitCrusher controls
 
 The BitCrusher is an effect that adds quantization noise to the signal
 by the reduction of the resolution or bandwidth of the samples.
@@ -243,14 +245,15 @@ by the reduction of the resolution or bandwidth of the samples.
 Filter
 ------
 
-.. figure:: ../_static/Mixxx-112-LateNight-Effects-Filter.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-112-LateNight-Effects-Filter.png
+      :align: center
+      :width: 321px
+      :figwidth: 100%
+      :alt: The effect control section of the mixer
+      :figclass: pretty-figures
 
-   Filter controls
+      Filter controls
 
 The filter changes the tone of the music by allowing only high or low
 frequencies to pass through.
@@ -268,14 +271,15 @@ frequencies to pass through.
 
 Reverb
 ------
-.. figure:: ../_static/Mixxx-112-LateNight-Effects-Reverb.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-112-LateNight-Effects-Reverb.png
+      :align: center
+      :width: 321px
+      :figwidth: 100%
+      :alt: The effect control section of the mixer
+      :figclass: pretty-figures
 
-   Reverb controls
+      Reverb controls
 
 
 This is a port of the GPL'ed CAPS Reverb plugin, which has the following
@@ -297,14 +301,15 @@ networks of simple allpass and comb delay filters.
 Echo
 ----
 
-.. figure:: ../_static/Mixxx-112-LateNight-Effects-Echo.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The effect control section of the mixer
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-112-LateNight-Effects-Echo.png
+      :align: center
+      :width: 321px
+      :figwidth: 100%
+      :alt: The effect control section of the mixer
+      :figclass: pretty-figures
 
-   Echo controls
+      Echo controls
 
 Simple Echo with pingpong
 

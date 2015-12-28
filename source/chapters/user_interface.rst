@@ -1019,14 +1019,15 @@ The Effects Section
 
 .. versionadded:: 2.0
 
-.. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
-   :align: center
-   :width: 304px
-   :figwidth: 100%
-   :alt: A sample deck
-   :figclass: pretty-figures
+..
+   .. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
+      :align: center
+      :width: 304px
+      :figwidth: 100%
+      :alt: A sample deck
+      :figclass: pretty-figures
 
-   A Effect Chain
+      A Effect Chain
 
 Effect chains allow you to apply various effects to your mix. You can either add
 the effects to the master-output or individually for each deck.
