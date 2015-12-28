@@ -9,7 +9,7 @@ Advanced Topics
 Adding support for your MIDI/HID Controller
 ===========================================
 
-With several dozens DJ controllers supported out-of-the-box, Mixxx gives you
+With several dozens of DJ controllers supported out-of-the-box, Mixxx gives you
 comprehensive hardware control for your DJ mixes, see :ref:`control-midi`.
 
 Support for additional devices can be added to Mixxx by creating a new preset
@@ -53,14 +53,14 @@ Wizard.
 #. If you are learning a button, just push it once.  If you are learning a knob
    or a slider, try to move it throughout its range.
 #. After Mixxx detects the control, you may click :guilabel:`Learn Another` or
-   you can just click on another button in the Mixxx :term:`GUI` to learn another
+   you can click on another button in the Mixxx :term:`GUI` to learn another
    control.
 #. When you are finished mapping controls, click :guilabel:`Done`
 
 There are also some advanced options in the Midi Wizard you may need to use:
 
 * Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in
-  value when the knob in the :term:`GUI` doesn't match the physical knob. If you
+  when the knob in the :term:`GUI` doesn't match the physical knob. If you
   select this option, you won't be able to perform super-fast motions as easily.
   (Recommended off)
 * Invert: Use this option for controls that you want to work backwards from how
@@ -99,9 +99,9 @@ It enables MIDI controls to be mapped to `QtScript
 <https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) functions
 stored in function library files, freeing Mixxx from a one-to-one MIDI mapping
 ideology. These user-created functions can then do anything desired with the
-MIDI event info such as have a single controller button simultaneously affect
-two or more Mixxx properties (“controls”,) adjust incoming control values to
-work better with Mixxx (scratching,) display a complex LED sequence, or even
+MIDI event such as have a single controller button simultaneously affect
+two or more Mixxx properties (“controls”), adjust incoming control values to
+work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
 For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_
@@ -119,12 +119,12 @@ file which can be found at the following location:
 * Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
 * Windows: :file:`<Mixxx installation directory>\\keyboard\\en_US.kbd.cfg`
 
-Depending on your systems language settings, Mixxx might use a different
+Depending on your system's language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-It is not recommended to modify the system-wide keyboard mapping file because
-all your changes can be lost if you uninstall or upgrade Mixxx.
+It is not recommended that you modify the system-wide keyboard mapping file because
+all your changes may be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
@@ -133,8 +133,8 @@ Instead, copy the default mapping file to the following location:
 
 Then edit this file and save the changes. On the next startup, Mixxx will check
 if :file:`Custom.kbd.cfg` is present and load that file instead of the default
-mapping file. This has the advantage, that you can always revert back to the
-default mapping, just by deleting :file:`Custom.kbd.cfg`.
+mapping file. This has the advantage that you can always revert back to the
+default mapping by deleting :file:`Custom.kbd.cfg`.
 
 For a list of controls that can be used in a keyboard mapping, see
 `<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_.
@@ -148,11 +148,11 @@ Additional Effects via external Mixer Mode
 ==========================================
 
 Mixxx comes with a set of :ref:`native effects <djing-with-effects>`.
-Additinally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
+Additionally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
 can route each deck directly to 3rd party effect hosts.
 
 The following examples are only intended to encourage experimentation, they are
-no definitive guidance.
+not definitive guidance.
 
 Effects via AU Lab on Mac OS X
 -------------------------------
@@ -166,7 +166,7 @@ Effects via AU Lab on Mac OS X
 
    The Au Lab routing for external effects on Mac OS X
 
-On Mac OS X there is a pretty simple and free way to give Mixxx access to the
+On Mac OS X there is a simple and free way to give Mixxx access to the
 collection of AU/VST/MAS plugins that are installed on your system.
 
 * Install the free `Soundflower <https://code.google.com/p/soundflower/>`_,
@@ -188,7 +188,7 @@ collection of AU/VST/MAS plugins that are installed on your system.
 **In AU Lab**
 
 * Click on the :guilabel:`+` button to create a new configuration
-* Add 2 stereo inputs tracks in the :guilabel:`Audio Input Tab`
+* Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`
 * Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`
 * Click :guilabel:`OK`
 * Change the audio input device to :guilabel:`Soundflower 16`
@@ -213,7 +213,7 @@ Effects via JACK Rack on GNU/Linux
 
 Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
 each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
-effect racks, or for more control you can use Ardour (or other DAW) using sends
+effect racks, or for more control you can use Ardour (or another DAW) using sends
 for effects. This gives Mixxx access to the extensive collection of LADSPA
 plugins.
 
