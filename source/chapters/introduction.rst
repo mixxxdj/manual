@@ -2,7 +2,7 @@ Introduction to Mixxx
 *********************
 
 Mixxx allows you to perform live DJ mixes with your digital music collection.
-It helps you rock the party with MIDI controllers, vinyl turntables, or even
+It helps you rock the party with DJ controllers, vinyl turntables, or even
 just your keyboard.
 
 Mixxx is used by professional DJs and bedroom DJs alike. It is designed by an
@@ -58,6 +58,7 @@ New in Mixxx |version|
 * Auxiliary inputs that pass through to the master mix
 * Mono output and input support
 * Improved support for using multiple sound cards
+* MusicBrainz tagging support
 * Over 100 other performance, quality and usability improvements
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
