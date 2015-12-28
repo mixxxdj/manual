@@ -54,6 +54,11 @@ inputs and outputs to be used.
   interface. By default, Mixxx tries the system default first, which is most
   likely 44.1 kHz. Otherwise, Mixxx will pick a different default.
 
+* **Multi-Soundcard Syncronization**: Mixxx is able to use two or more soundcards 
+  at a time, each with its own clock. The Mixxx engine is driven by the Master 
+  soundcards. Here you can select the syncronization used for the other the other 
+  soundcards to avoid buffer over or underflows.  
+    
 * **Audio buffer**: Also known as latency, this is the lag time in milliseconds
   that it takes for Mixxx to process your input. Lower latency means Mixxx
   will be more responsive but on slower computers and cheaper sound cards it
