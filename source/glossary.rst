@@ -125,6 +125,11 @@ Glossary of Terms
      Sync allows you to automatically adjust a track's :term:`tempo` and
      :term:`phase` to be in sync with another deck that is playing.
 
+   master sync
+     Master sync mode persistently adjusts a track's :term:`tempo` and
+     :term:`phase` (if :term:`quantization` is enabled) in order to stay in sync
+     with other decks that are in master sync mode.
+
    rate
      The speed at which a track is played back, usually expressed in terms of a
      percentage of the speed relative to the tracks normal rate. Often while
@@ -316,6 +321,7 @@ Glossary of Terms
      are relieved of the task of having to compile the code by yourself.
 
    soundcard
+   soundcards
      Also known as an audio card, it is an internal computer expansion card or
      external expansion device that facilitates the input and output of audio
      signals to and from a computer. Today DJ-soundcards are usually connected
@@ -410,6 +416,9 @@ Glossary of Terms
      of text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID`
      :term:`controllers <controller>` as input devices.
 
+   key
+     Short for "musical key" (i.e. C major).
+
    MusicBrainz
      A open-source music encyclopedia that collects music :term:`metadata` and
      makes it available to the public. For more information, see
@@ -421,3 +430,10 @@ Glossary of Terms
      fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata`
      database and provide a web service for audio file identification using this
      database. For more information, see`<https://acoustid.org/>`_.
+
+   API
+     An Application Program Interface (API) is a specification and set of rules
+     for how software programs interact with each other. In Mixxx, an example of
+     this is the Sound API that Mixxx uses to communicate with the
+     :term:`Operating System` to make use of the :term:`soundcards` connected to
+     the computer.
