@@ -200,7 +200,7 @@ Glossary of Terms
      A patent-free audio compression algorithm which uses a form of lossy data
      compression. It is designed to provide for efficient streaming and
      manipulation of high quality digital audio. Ogg Vorbis files generally end
-     with a .OGG or .OGA extension.
+     with a .ogg or .oga extension.
 
    lossless
      Used when describing audio compression algorithms, a lossless algorithm is
@@ -213,36 +213,36 @@ Glossary of Terms
    MP3
      A patented audio compression algorithm which uses a form of :term:`lossy`
      data compression. It is de-facto standard of digital audio compression for
-     music. MP3 files generally end with a .MP3 extension.
+     music. MP3 files generally end with a .mp3 extension.
 
    AAC
      Advanced Audio Coding (AAC) is a patented audio compression algorithm which
      uses a form of :term:`lossy` data compression. Designed to be the successor
      to :term:`MP3`, AAC generally achieves better sound quality at similar bit
-     rates. While the .AAC extension is sometimes used for AAC-encoded files,
-     they are typically saved with an .M4A file extension.
+     rates. While the .aac extension is sometimes used for AAC-encoded files,
+     they are typically saved with an .m4a file extension.
 
    FLAC
      Free Lossless Audio Compression (FLAC), a patent-free audio compression
      similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio
-     quality when used). FLAC files generally end with a .FLAC extension.
+     quality when used). FLAC files generally end with a .flac extension.
 
    AIFF
      Short for Audio Interchange File Format. High-quality digital audio file
      format, similar to .wav files. Contains CD-quality audio stored in a
      non-compressed, :term:`lossless` format. AIFF files generally end with a
-     .AIFF or .AIF extension.
+     .aiff or .aif extension.
 
    WAV
      Standard digital audio file format used for storing waveform data; allows
      audio recordings to be saved with different sampling rates and bitrates;
      often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard
      format used for CD audio. Wave files are not compressed, and are therefore
-     :term:`lossless`. Wave files generally end with a .WAV extension.
+     :term:`lossless`. Wave files generally end with a .wav extension.
 
-   OPUS
+   Opus
      Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio
-     codec. The .OPUS filename extension is recommended.
+     codec. The .opus filename extension is recommended.
 
    codec
      Short for compressor/decompressor, a codec is any technology for
@@ -421,6 +421,3 @@ Glossary of Terms
      fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata`
      database and provide a web service for audio file identification using this
      database. For more information, see`<https://acoustid.org/>`_.
-
-
-
