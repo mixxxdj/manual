@@ -87,7 +87,7 @@ inputs and outputs to be used.
 
   * Switch to mono mode (see above).
   * Listen to your headphones with one ear and the master speakers with the other ear.
-  * Adjust the delays until the sound seems to be identical and there is no audible delay.
+  * Adjust the delays until the sound seems to be centered and the stereo effect is gone.
   * Switch back to stereo mode.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
