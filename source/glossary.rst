@@ -33,6 +33,7 @@ Glossary of Terms
      is useful because they allow DJs to see breakdowns far in advance.
 
    key lock
+   keylock
      With key lock enabled, the tempo of the track will change but the pitch
      remains consistent.  When unlocked, the pitch slider will speed up (or slow
      down) the track and the pitch will increase (or decrease) along with it.
