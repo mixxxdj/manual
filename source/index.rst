@@ -43,11 +43,6 @@ Table of Contents
    glossary
 
 
-.. Only include developer documentation when we are not building a release version.
-.. only:: not release
-
-   .. include:: index_developer.rst
-
 .. [#f1] Yes, free with a capital F free. Free as in beer and free as in speech.
          For more information about what this means, see
          `Wikipedia <https://en.wikipedia.org/wiki/Open-source_software>`_.
