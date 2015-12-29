@@ -297,7 +297,7 @@ Finding Tracks (Search)
 The search function filters the currently displayed list (e.g. a playlist,
 a crate, or even the whole library) for tracks that match your search query.
 
-* Activate the search input field by clicking in it or pressing :kbd:`CTRL` + 
+* Activate the search input field by clicking in it or pressing :kbd:`CTRL` +
   :kbd:`F` (Windows/Linux) or :kbd:`CMD` + :kbd:`F` (Mac).
 * Type your search term(s). Mixxx filters the tracks as you type and shows only
   those matching the search term(s). Search terms can include an artist's name,
@@ -505,7 +505,7 @@ Fetching track metadata from MusicBrainz can fail:
    positives in the result list.
 
 Using third-party software
-------------------------
+--------------------------
 
 If you have modified file metadata in third-party software, select
 :menuselection:`Library --> Rescan Library` in the menu on top of the
@@ -535,7 +535,7 @@ The Auto DJ features in detail:
 * **Add Random button**: Add random track from Auto DJ track sources.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
-* **Transition time spin-box**: Determines the duration of the transition. A 
+* **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
@@ -575,7 +575,7 @@ prefer to build them on-the-fly.
 
 Playlists are not directly loadable into decks as Mixxx is primarily
 intended for live, attended performance use. However, you can right-click a
-playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can 
+playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
 "play" it.
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
@@ -587,6 +587,7 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
   context menu in the library's :ref:`track list <library-root>`.
 
 .. versionadded:: 2.0
+
 * :guilabel:`Analyze Playlist` option in the context menu.
 * Import playlists by dragging-and-dropping them into a playlist in the sidebar.
 * :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
@@ -612,7 +613,7 @@ the context menu:
 * **Analyze entire playlist**: Forces the analysis of the tracks in the playlist
   in the :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists in various file
-  formats to a new Mixxx playlist. For more information, go to 
+  formats to a new Mixxx playlist. For more information, go to
   :ref:`library-3rd-party`.
 * **Export playlist**: Export a playlist to various file formats such as
   :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
@@ -637,6 +638,7 @@ holding your favorite records.
   library's :ref:`track list<library-root>`.
 
 .. versionadded:: 2.0
+
 * :guilabel:`Analyze Crate` and :guilabel:`Auto DJ Track Source` context menu
   options.
 * :guilabel:`Import crate` and :guilabel:`Export crate` context menu
@@ -753,6 +755,7 @@ tracks during the session, it will be discarded.
 |ic_lib_history_current| This icon indicates the current session.
 
 .. versionadded:: 2.0
+
 * :guilabel:`Create new history playlist` context menu option.
 * :guilabel:`Export playlist` context menu option remember the last selected
   playlist directory.
@@ -765,7 +768,7 @@ view, then right-click on a session's name/date to access the different features
 * **Rename**: Rename a session. The default is the calendar date (YYYY-MM-DD).
 * **Remove**: Remove a previous (unlocked) session. (You cannot remove the
   current session.)
-* **Lock**: Protect a previous session against accidental merge or deletion. An 
+* **Lock**: Protect a previous session against accidental merge or deletion. An
   |ic_lib_locked| icon indicates a locked session.
 * **Create new history playlist**: Split off the current history session and
   add a new session without having to restart Mixxx. The current history must
