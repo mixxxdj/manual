@@ -26,8 +26,8 @@ Mixxx and importing your music to the Mixxx library.
   Click the Mixxx icon in the applications menu or launcher of your desktop 
   environment or perform a search for :file:`mixxx`. Alternatively type 
   :command:`mixxx` into the terminal, then hit :kbd:`Return`. If your soundcard
-  is not accessable from Mixxx because it is used by other Applications via Pulse, 
-  you Mixx may close and restart it using :command:`pasuspender mixxx`. 
+  is not accessible from Mixxx because it is used by other applications via 
+  PulseAudio, you may close and restart it using :command:`pasuspender mixxx`. 
   :command:`mixxx --help` gives an overview about advanced command line options.  
 
 Sound Hardware Preferences
@@ -61,22 +61,22 @@ inputs and outputs to be used.
 
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more soundcards 
   at a time, each with its own clock. The Mixxx engine is driven by the Master 
-  soundcards. Here you can select the synchronization used for the other the other 
-  soundcards to avoid buffer over or underflows.
+  soundcards. Here you can select the synchronization used for the other 
+  soundcards to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: Allows you to select the engine for all 
-  independent Tempo and Pitch changes like keylock. Use Soundtouch on old devices 
-  and Netbooks or if you experience buffer underflows during keylock.  
+  independent tempo and pitch changes like keylock. Use Soundtouch on old devices 
+  and netbooks or if you experience buffer underflows using :term:`key lock`.
 
-* **Master Mix**: You may disable the master Mix to save some processing time, if 
-  you use no master sound card, no recording and no broadcasting. 
+* **Master Mix**: You may disable the master mix to save some processing time, if 
+  you do not use the Master output, recording or live broadcasting.
 
 * **Master Output Mode**: In Mono Mode, the left and right channel are combined to a 
   mono signal, which is passed to both channels of your master sound card. 
-  This is usefull for outdoor setups where you can only hear the right or the left 
+  This is useful for outdoor setups where you can only hear the right or the left 
   speaker. 
 
-* **Microphone/Talkover Mixxx**: In broadcasting setups you may remove the talkover
+* **Microphone/Talkover Mix**: In broadcasting setups you may remove the talkover
   channel from the master output to avoid echo or looping effects.
 
 * **Headphone/Master Delay: Allows you to minimize echo effects if you hear the 
