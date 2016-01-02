@@ -93,10 +93,10 @@ turned up.
 
    A waveform that is too close to the noise floor
 
-   .. note:: To adjust the output volume of a sound system while maintaing a
-          high signal-to-noise ratio, the gain should be adjusted as close to
-          the speakers as possible. Refer to the
-          :ref:`Gain Knob <interface-gain-knob>` section for details.
+   .. note:: To adjust the output volume of a sound system while maintaining a
+             high signal-to-noise ratio, the gain should be adjusted as close to
+             the speakers as possible. Refer to the
+             :ref:`Gain Knob <interface-gain-knob>` section for details.
 
 .. _beatmatching-and-mixing:
 
@@ -464,7 +464,7 @@ crates that become a source of random track selections.
 
 * **Automatically add tracks from track sources to Auto DJ**: Mixxx can randomly
   add tracks to the Auto DJ playlist from track sources as soon as a
-  specified minumum number of tracks remain. Select
+  specified minimum number of tracks remain. Select
   :menuselection:`Preferences --> Auto DJ --> Enable random track addition to
   queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` to
   change the minimum number of tracks after which random tracks may be added.
