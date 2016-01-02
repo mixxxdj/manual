@@ -220,7 +220,7 @@ best choice is for your operating system.
 For low latency on Windows, it is best to use an ASIO driver that bypassses
 the sound processing of the Windows kernel. If there is no such ASIO driver
 available for your soundcard, use the WDM-KS API. There is generally no
-advantage to using ASIO4ALL <http://asio4all.com>_, a wrapper around the
+advantage to using `ASIO4ALL <http://asio4all.com>`_, a wrapper around the
 WDM-KS API.
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
