@@ -202,19 +202,17 @@ Flanger
 
       Flanger controls
 
-This effect applies a “sweeping” sound to the channel and can add extra depth to
-a mix when used tactfully.
+The Flanger is simple modulation effect, created by taking the input signal and
+mixing it with a delayed, pitch modulated copy of itself.
 
-**FX Button**
-  The FX (“Effects”) button enables a built-in flanger effect on the selected
-  channel.
+**Depth**
+  Controls the intensity of the effect.
 
-**Delay/Depth/LFO Knobs**
-  Adjusts the phase delay, intensity and the wavelength of the flange effect.
+**Delay**
+  Sets the value for the delay length.
 
-.. hint :: For the most noticeable effect, enable the FX button and turn the
-           Depth knob completely to the right.
-
+**Period**
+  Controls the speed of the effect.
 
 .. _effects-bitcrusher:
 
