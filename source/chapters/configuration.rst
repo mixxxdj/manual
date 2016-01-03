@@ -255,15 +255,14 @@ Equalizer Preferences
 .. sectionauthor::
    Daniel Schürmann <daschuer@mixxx.org>
 
-..
-   .. figure:: ../_static/Mixxx-111-Preferences-Equalizer(TODO).png
-      :align: center
-      :width: 80%
-      :figwidth: 100%
-      :alt: Equalizer Preferences
-      :figclass: pretty-figures
+.. figure:: ../_static/Mixxx-200-Preferences-Equalizer.png
+    :align: center
+    :width: 80%
+    :figwidth: 100%
+    :alt: Equalizer Preferences
+    :figclass: pretty-figures
 
-      Equalizer Preferences
+    Equalizer Preferences
 
 :menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
 
@@ -275,8 +274,8 @@ Equalizer Preferences
 
 * **Equalizer Plugin**: Here you can select the effect that is used as the
   mixing EQ in each deck. By default only built-in equalizers are
-  displayed. Unchecking "Only allow EQ knobs to control EQ specific effects"
-  allows you to select any other effect.
+  displayed. Unchecking :menuselection:`Only allow EQ knobs to control EQ
+  specific effects` allows you to select any other effect.
 
 * **Quick Effect**: Here you can select the effect that is controlled by the
   dedicated filter knob in each deck. By default only built-in filter effects are
