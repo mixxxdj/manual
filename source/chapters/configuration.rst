@@ -586,15 +586,14 @@ complete track. To accelerate key detection on slower computers, a “Fast
 Analysis” option is available. If enabled, the key is computed by analyzing the
 first minute of the track.
 
-..
-   .. figure:: ../_static/Mixxx-112-Preferences-Keydetection.png
-      :align: center
-      :width: 75%
-      :figwidth: 100%
-      :alt: Mixxx preferences - Key settings
-      :figclass: pretty-figures
+.. figure:: ../_static/Mixxx-200-Preferences-Keydetection.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Key settings
+   :figclass: pretty-figures
 
-      Mixxx preferences - Key settings
+   Mixxx preferences - Key settings
 
 The table below summarizes the Key detection settings:
 
