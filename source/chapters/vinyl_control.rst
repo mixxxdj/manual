@@ -437,9 +437,11 @@ Signal          Meaning                               Troubleshooting
 --------------  ------------------------------------  ------------------------------------
 |too_loud|      Timecode signal too loud.             Lower the amplification, either on
                 Mixxx receives a signal which has     your external Mixer, soundcard or
-                too much amplification.               with the `Turntable Input Preamp`_
+                too much amplification.               with the `Turntable Input Signal
+                                                      Boost`_
 --------------  ------------------------------------  ------------------------------------
 |too_quiet|     Timecode signal too quiet.            Boost the amplification, either on
                 Mixxx receives a signal which has     your external Mixer, soundcard or
-                not enough amplification.             with the `Turntable Input Preamp`_
+                not enough amplification.             with the `Turntable Input Signal
+                                                      Boost`_
 ==============  ====================================  ====================================
