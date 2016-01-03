@@ -88,7 +88,7 @@ to the streaming server:
 Live Broadcasting Preferences
 =============================
 
-.. figure:: ../_static/Mixxx-112-Preferences-Livebroadcasting.png
+.. figure:: ../_static/Mixxx-200-Preferences-Livebroadcasting.png
    :align: center
    :width: 75%
    :figwidth: 100%
