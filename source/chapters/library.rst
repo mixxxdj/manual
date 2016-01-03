@@ -429,7 +429,7 @@ Manual Edit
   editable, it will become an editable text box. Enter a value and hit
   :kbd:`Enter` when you are done.
 
-  .. figure:: ../_static/Mixxx-112-Library-Inline-edit.png
+  .. figure:: ../_static/Mixxx-200-Library-Inline-edit.png
      :align: center
      :width: 100%
      :figwidth: 100%
@@ -443,7 +443,7 @@ Manual Edit
   to open the editor. Add or change values in the editable fields, and save your
   changes as explained below.
 
-  .. figure:: ../_static/Mixxx-112-Library-Properties-Editor.png
+  .. figure:: ../_static/Mixxx-200-Library-Properties-Editor.png
      :align: center
      :width: 100%
      :figwidth: 50%
@@ -471,7 +471,7 @@ Using the MusicBrainz online database
 encyclopedia that collects music :term:`metadata` and makes it available to the
 public.
 
-  .. figure:: ../_static/Mixxx-112-Library-MusicBrainz-Wizard.png
+  .. figure:: ../_static/Mixxx-200-Library-MusicBrainz-Wizard.png
      :align: center
      :width: 100%
      :figwidth: 66%
