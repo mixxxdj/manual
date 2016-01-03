@@ -87,7 +87,7 @@ Method A: Personal Package Archive (ppa)
 
 Method B: The Ubuntu Software Center
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. figure:: ../_static/Mixxx-111-Installation-Ubuntu-Linux.png
+.. figure:: ../_static/Mixxx-200-Installation-Ubuntu-Linux.png
    :align: center
    :width: 75%
    :figwidth: 100%
