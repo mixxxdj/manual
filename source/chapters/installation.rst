@@ -43,7 +43,7 @@ Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
 Installation on Mac OS X
 ========================
 
-.. figure:: ../_static/Mixxx-111-Installation-MacOSX.png
+.. figure:: ../_static/Mixxx-200-Installation-MacOSX.png
    :align: center
    :width: 75%
    :figwidth: 100%
