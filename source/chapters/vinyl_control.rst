@@ -178,7 +178,7 @@ timecoded CDs.
 Configuring Vinyl Control
 =========================
 
-.. figure:: ../_static/Mixxx-111-Preferences-Vinylcontrol.png
+.. figure:: ../_static/Mixxx-200-Preferences-Vinylcontrol.png
    :align: center
    :width: 75%
    :figwidth: 100%
@@ -190,16 +190,16 @@ Configuring Vinyl Control
 You can configure vinyl control in
 :menuselection:`Preferences --> Vinyl Control`.
 
-Turntable Input Preamp
-----------------------
+Turntable Input Signal Boost
+----------------------------
 
 Many turntables provide unamplified “phono level” output which must be boosted
 to a “line level” signal. Normally, a mixer or soundcard provides this
 amplification, but if you're plugging a turntable's phono output directly into
 a soundcard that doesn't support phono input, Mixxx can do the amplification.
-The :guilabel:`Turntable Input Preamp` slider allows you to adjust the level of
-preamplification applied to your decks' signal. However it is always preferable
-to use a proper phono preamplifier if you have one.
+The :guilabel:`Turntable Input Signal Boost` slider allows you to adjust the
+level of preamplification applied to your decks' signal. However it is always
+preferable to use a proper phono preamplifier if you have one.
 
 Vinyl Configuration
 -------------------
