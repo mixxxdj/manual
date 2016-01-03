@@ -387,7 +387,7 @@ Importing your audio files
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.
   To enable the playback of AAC files, `build Mixxx from source with m4a/AAC
-  files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#build_with_m4a_aac_file_support>`_.
+  files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
 
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
