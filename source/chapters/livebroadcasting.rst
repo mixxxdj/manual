@@ -20,7 +20,7 @@ Streaming Servers
   broadcast the stream to your listeners. A popular free streaming service is
   `Caster.fm <http://www.caster.fm>`_. A review of several free and paid stream
   hosts is available at
-  `broadcastingworld.net <http://www.broadcastingworld.com/reviews/stream-hosting>`_.
+  `broadcastingworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>`_.
 
   .. digraph:: remote_streaming
      :caption: Mixxx as client-side streaming source broadcasting to an
