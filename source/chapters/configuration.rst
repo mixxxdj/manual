@@ -512,7 +512,7 @@ analyzing the first minute of the track. In most cases this does not affect the
 beat detection negatively because most of today's dance music is written in a
 4/4 signature with a fixed tempo.
 
-.. figure:: ../_static/Mixxx-111-Preferences-Beatdetection.png
+.. figure:: ../_static/Mixxx-200-Preferences-Beatdetection.png
    :align: center
    :width: 75%
    :figwidth: 100%
