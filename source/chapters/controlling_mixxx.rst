@@ -96,7 +96,7 @@ real mixer and turntables or :term:`CDJ`.
 
 Loading a controller preset
 ---------------------------
-.. figure:: ../_static/Mixxx-111-Preferences-Controllers.png
+.. figure:: ../_static/Mixxx-200-Preferences-Controllers.png
    :align: center
    :width: 75%
    :figwidth: 100%
@@ -113,9 +113,9 @@ Without loading the correct preset, your controller does not work with Mixxx.
 #. Select your device from the list of available devices on the left, and the
    right pane will change
 #. Activate the :guilabel:`Enabled` checkbox
-#. Select the mapping for your controller from the :guilabel:`Presets`
+#. Select the mapping for your controller from the :guilabel:`Load Preset`
    drop-down menu
-#. Click :guilabel:`OK` and Mixxx can now be controlled by your controller(s).
+#. Click :guilabel:`Apply` and Mixxx can now be controlled by your controller(s).
 #. Repeat step 4-7 for any of the controllers you want to use
 
 .. hint:: If you do not find a connected device in the list, make sure to
@@ -159,23 +159,23 @@ To use a controller mapping that did not come bundled with Mixxx, place the
 controller mapping in your User Presets folder. This is the folder called
 "controllers" inside your User Preferences folder. To open your User Presets
 folder, go to :menuselection:`Preferences --> Controllers` and click the
-:guilabel:`Open User Preset Folder` button. Alternatively, navigate to the folder in your
-:term:`OS<operating system>` file browser:
+:guilabel:`Open User Preset Folder` button. Alternatively, navigate to the
+folder in your :term:`OS <operating system>` file browser:
 
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
   * OS X: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
   * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
   * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
 
-On Windows, the :file:`AppData` folder is hidden, so if you have not already, you will need
-to set Windows Explorer to show hidden files and folders (how to do this varies with each
-version of Windows).
+On Windows, the :file:`AppData` folder is hidden, so if you have not already,
+you will need to set Windows Explorer to show hidden files and folders (how to
+do this varies with each version of Windows).
 
 If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
-file by right clicking on it in your file browser and selecting the option for extracting
-an archive or compressed folder. Copy the :file:`.xml` file into your User Preset folder.
-If there is a :file:`.js` file, also copy that to your User Preset folder. Restart Mixxx
-and :ref:`load the preset<control-load-preset>`.
+file by right clicking on it in your file browser and selecting the option for
+extracting an archive or compressed folder. Copy the :file:`.xml` file into your
+User Preset folder. If there is a :file:`.js` file, also copy that to your
+User Preset folder. Restart Mixxx and :ref:`load the preset <control-load-preset>`.
 
 Map your own your controller
 ----------------------------
