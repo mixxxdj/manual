@@ -1131,9 +1131,9 @@ Preview Deck Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Preview-Deck.png
+.. figure:: ../_static/Mixxx-200-Latenight-Preview-Deck.png
    :align: center
-   :width: 30%
+   :width: 50%
    :figwidth: 100%
    :alt: The Preview Deck with a track loaded
    :figclass: pretty-figures
@@ -1153,18 +1153,23 @@ The features in detail:
   listed under the :guilabel:`Track` and :guilabel:`Title` column in the Mixxx
   library. This information is initially loaded from the track's :term:`metadata`.
 
-* **Eject Track**:
+* **Eject Track button**:
   Clicking this button ejects the track from the deck.
+
+* **Play/Pause button**:
+  Clicking the button starts and pauses the playback. Right-clicking on the
+  button will stop playback and seek the play position to the beginning of the
+  tracks.
 
 * **Waveform overview**:
   Shows the various markers (Cues, Hotcues) within the track as well as the
   waveform envelope of the entire track. Clicking somewhere on the waveform
   allows you to jump to an arbitrary position in the track.
 
-* **Gain**:
+* **Gain slider**:
   Move the slider to adjust the gain of the track.
 
-* **VU-Meter**:
+* **Volume Meter**:
   Shows the current volume of the track. If it's too loud and distorted, a
   peak indicator flashes red.
 
