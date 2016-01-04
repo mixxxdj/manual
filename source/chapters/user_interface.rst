@@ -109,36 +109,35 @@ Waveform Displays
 The waveform section of a deck allows you to visualize the audio changes that
 occur throughout the track, you can basically “see” your music.
 
+By default the waveform displays are aligned parallel to each other in
+order to make :term:`beatmatching` easier, as it is possible to beatmatch
+visually by aligning the beats that appear in each waveform.
+
+.. figure:: ../_static/Mixxx-200-Latenight-parallel-waveform.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx default skin (Latenight) - Parallel waveforms
+   :figclass: pretty-figures
+
+   Mixxx default skin (Latenight) - Parallel waveforms
+
 Depending on the skin Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
-.. figure:: ../_static/Mixxx-111-Deere-separate-waveform.png
+.. figure:: ../_static/Mixxx-200-Deere-separate-waveform.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx default skin (Deere) - Separate waveforms
+   :alt: Mixxx alternative skin (Deere) - Separate waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Deere) - Separate waveforms
-
-With some skins the waveform displays are aligned parallel to each other in
-order to make :term:`beatmatching` easier, as it is possible to beatmatch
-visually by aligning the beats that appear in each waveform.
-
-.. figure:: ../_static/Mixxx-111-Latenight-parallel-waveform.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Mixxx alternative skin (Latenight) - Parallel waveforms
-   :figclass: pretty-figures
-
-   Mixxx alternative skin (Latenight) - Parallel waveforms
+   Mixxx alternative skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the level of detail
-              shown in the waveform in :menuselection:`Preferences --> Interface
-              --> Waveform Display`.
+              Mixxx, try to lower the frame rate or change the waveform type in
+              :menuselection:`Preferences --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -182,8 +181,7 @@ visually by aligning the beats that appear in each waveform.
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Interface -->
-  Waveform Display --> Synchronize`.
+  between the decks in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
