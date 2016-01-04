@@ -8,18 +8,18 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/Mixxx-111-Deere-1440x900.png
+.. figure:: ../_static/Mixxx-200-Latenight.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: The Mixxx interface - Deere skin
+   :alt: The Mixxx interface - Latenight skin
    :figclass: pretty-figures
 
-   The Mixxx interface - Deere skin
+   The Mixxx interface - Latenight skin
 
-This is the Deere skin. It is the default skin supplied with Mixxx. There are a
-variety of others skins included with Mixxx. You should explore them all to
-figure out which one you prefer. This section will focus on Deere only.
+This is the Latenight skin. It is the default skin supplied with Mixxx. There
+are a variety of others skins included with Mixxx. You should explore them all
+to figure out which one you prefer. This section will focus on Latenight only.
 
 .. _interface-decks:
 
