@@ -340,14 +340,14 @@ Importing your audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-1st-run-choose-library-directory-win.png
+.. figure:: ../_static/Mixxx-200-1st-run-choose-library-directory-win.png
    :align: center
    :width: 50%
    :figwidth: 100%
    :alt: Mixxx 1st run - Choose music library directory dialog
    :figclass: pretty-figures
 
-   Mixxx running on Windows 8 - Choose music library directory dialog
+   Mixxx running on Windows 10 - Choose music library directory dialog
 
 
 **Setup the music library**
