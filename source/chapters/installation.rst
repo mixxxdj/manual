@@ -10,14 +10,14 @@ your computer.
 
 Installation on Windows
 =======================
-.. figure:: ../_static/Mixxx-111-Installation-Windows.png
+.. figure:: ../_static/Mixxx-200-Installation-Windows.png
    :align: center
    :width: 50%
    :figwidth: 100%
-   :alt: Mixxx Installation - Ready to install the application
+   :alt: Mixxx Installation on Windows 10 - Ready to install the application
    :figclass: pretty-figures
 
-   Mixxx Installation - Ready to install the application
+   Mixxx Installation on Windows 10 - Ready to install the application
 
 * Download Mixxx for Windows from `<http://mixxx.org/download/>`_ .
 * Using :file:`Windows Explorer` browse to the location where the Mixxx download
