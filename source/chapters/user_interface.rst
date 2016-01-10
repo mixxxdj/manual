@@ -30,7 +30,7 @@ The Deck Sections
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -47,7 +47,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Track-Info.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Track-Info.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -208,9 +208,9 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Button-Grid.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Button-Grid.png
    :align: center
-   :width: 90px
+   :width: 79px
    :figwidth: 100%
    :alt: The Options Button Grid of the deck
    :figclass: pretty-figures
@@ -303,9 +303,9 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Rate-Control.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Rate-Control.png
    :align: right
-   :width: 64px
+   :width: 68px
    :figwidth: 100px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
@@ -379,9 +379,9 @@ Transport Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Transport.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
    :align: center
-   :width: 66px
+   :width: 55px
    :figwidth: 100%
    :alt: The transport controls of the deck
    :figclass: pretty-figures
@@ -416,9 +416,9 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Loops.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Loops.png
    :align: center
-   :width: 236px
+   :width: 205px
    :figwidth: 100%
    :alt: The beatloop and looping controls of the deck
    :figclass: pretty-figures
@@ -480,9 +480,9 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Hotcues.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Hotcues.png
    :align: center
-   :width: 65px
+   :width: 54px
    :figwidth: 100%
    :alt: The hotcue controls of the deck
    :figclass: pretty-figures
@@ -909,9 +909,9 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 The Sampler Section
 ===================
 
-.. figure:: ../_static/Mixxx-111-Deere-Sampler-Deck.png
+.. figure:: ../_static/Mixxx-200-Latenight-Sampler-Deck.png
    :align: center
-   :width: 304px
+   :width: 355px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures
