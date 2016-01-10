@@ -249,6 +249,167 @@ follows:
   like to speed up or slow down a track and avoid the “chipmunk” effect that
   speeding up vocals has.
 
+.. _interface-playback:
+
+Playback/Cue Controls
+---------------------
+
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Playback.png
+  :align: center
+  :width: 54px
+  :figwidth: 100%
+  :alt: The playback and cueing controls of the deck
+  :figclass: pretty-figures
+
+  The playback and cueing controls of the deck
+
+.. _interface-play-pause:
+
+**Play/Pause Button**
+  Clicking the Play/Pause button starts and pauses the playback.
+
+  .. seealso:: The actual behavior of the Play/Pause button depends on the
+               selected :ref:`Cue mode <interface-cue-modes>`.
+
+.. hint :: To return to the beginning of the track, right-click on the deck's
+           :ref:`Fast-Rewind Button <interface-transport>`.
+
+.. _interface-cue:
+
+.. sectionauthor::
+   Daniel Schürmann <daschuer@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+**Cue Button**
+  If the button is pressed while the track is playing, the play position jumps to
+  the :term:`Cue point <cue>` on the track and the track is paused. Once the track
+  is paused at the Cue point, you can preview it by holding the Cue Button. If you
+  have not moved the Cue point yet, the default point is at the track's beginning.
+
+  .. seealso:: The actual behavior of the Cue button depends on the
+               selected :ref:`Cue mode <interface-cue-modes>`.
+
+Setting Cue points
+^^^^^^^^^^^^^^^^^^
+
+Every track has a Cue point, by default on its beginning. Unlike with
+:ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points.
+
+The Cue point is moved according to the selected Cue mode, as explained below.
+
+.. _interface-cue-modes:
+
+Using Cue Modes
+^^^^^^^^^^^^^^^
+
+.. versionadded:: 2.0
+   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
+
+Mixxx supports various Cue modes that adapt to fit other devices in your
+setup, or your personal preferences. The actual behavior of the Play, Pause, and
+Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
+:menuselection:`Preferences --> Interface`.
+
+**Mixxx mode (default)**
+
+* **While paused at Cue point (Cue button lit):**
+
+  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
+    as long as the button is pressed. After releasing the Cue button, the track
+    jumps back to Cue point and pauses again. Continue playback by pressing the
+    Play/Pause button before releasing the Cue button.
+
+* **While paused not at Cue point (Cue button flashing)**:
+
+  * Tapping the Cue button stores the current position as new Cue point.
+
+* **While playing:**
+
+  * Tapping the Cue button causes the track to instantly jump to the location of
+    the Cue point where it pauses the playback.
+  * Tapping the Play/Pause button pauses the track at the current position.
+
+**Pioneer mode**
+
+* It is basically the same as Mixxx mode but the buttons are more flashy like a
+  Pioneer CDJ player.
+* The Play/Pause button flashes once per second when a track is paused.
+* The Cue button flashes twice a second when the next push will move the Cue point.
+
+**Denon mode**
+
+* **After track load:** Track is paused.
+* **While paused at Cue point (Cue button lit)**:
+
+  * Holding down the Cue button plays the track from the Cue point, as long as
+    the button is pressed. After releasing the Cue button, the track jumps back
+    to Cue point and pauses again. Continue playback by pressing the Play/Pause
+    button before releasing the Cue button.
+  * Tapping the Play/Pause button starts the track at the current position.
+
+* **While paused not at Cue point (Play button flashing)**:
+
+  * Tapping the Cue button moves the track back to Cue point.
+  * Tab the Play/Pause button to start playing. The Cue point moves to the
+    position where the track was started.
+
+* **While playing**:
+
+  * Tapping the Cue button causes the track to instantly jump to the location of
+    the cue point where it pauses the playback.
+  * Tapping the Play/Pause button pauses the track at the current position.
+
+**Numark mode**
+
+* It is basically the same as Denon mode but without a flashing Play/Pause
+  button.
+* This mode is useful if you want to implement a custom skin with 3-button decks,
+  featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
+
+.. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
+          track.
+
+.. seealso:: You can also use keyboard shortcuts for Cueing. Go to
+             :ref:`control-keyboard` for more information.
+
+.. _interface-transport:
+
+Transport Controls
+------------------
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
+  :align: center
+  :width: 55px
+  :figwidth: 100%
+  :alt: The transport controls of the deck
+  :figclass: pretty-figures
+
+  The transport controls of the deck
+
+.. versionadded:: 2.0
+  Right-click on the Reverse button activates Reverse Roll (Censor)
+
+**Fast-Rewind button**
+ As long as the button is pressed, the track will play in reverse with
+ increased speed. Right-clicking on the button will seek the play position to
+ the beginning of the track.
+
+**Fast-Forward button**
+ As long as the button is pressed, the track will play with increased speed.
+ Right-clicking on the button will seek the play position to the end of the
+ track.
+
+**Reverse button**
+ As the name suggests, this button plays a track backwards.
+ Right-clicking on the button puts a track into reverse while being held,
+ resumes the track and disables Slip mode when released. Useful to censor
+ expletives on the fly, or simply as part of your mix.
+
+
 .. _interface-vc-mode:
 
 Vinyl Control Mode and Cueing controls
@@ -369,43 +530,6 @@ sync targets for decks are chosen with the new master sync feature, see
           based on the pitch used (e.g. playing at faster pitch gives a chipmunk
           sound). You can enable the :ref:`Keylock <interface-button-grid>`
           feature to maintain a constant tone.
-
-.. _interface-transport:
-
-Transport Controls
-------------------
-
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
-
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
-   :align: center
-   :width: 55px
-   :figwidth: 100%
-   :alt: The transport controls of the deck
-   :figclass: pretty-figures
-
-   The transport controls of the deck
-
-.. versionadded:: 2.0
-   Right-click on the Reverse button activates Reverse Roll (Censor)
-
-**Fast-Rewind button**
-  As long as the button is pressed, the track will play in reverse with
-  increased speed. Right-clicking on the button will seek the play position to
-  the beginning of the track.
-
-**Fast-Forward button**
-  As long as the button is pressed, the track will play with increased speed.
-  Right-clicking on the button will seek the play position to the end of the
-  track.
-
-**Reverse button**
-  As the name suggests, this button plays a track backwards.
-  Right-clicking on the button puts a track into reverse while being held,
-  resumes the track and disables Slip mode when released. Useful to censor
-  expletives on the fly, or simply as part of your mix.
 
 .. _interface-looping:
 
