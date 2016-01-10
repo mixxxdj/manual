@@ -130,6 +130,6 @@ have to build Mixxx from the source code. For more information, go to:
 Where to go from here?
 ======================
 
+* :ref:`Open Mixxx and start importing your audio files <configuration-open>`
 * :doc:`Set up your audio devices and controllers <setup>`
-* :doc:`Open Mixxx and start importing your audio files <djing_with_mixxx>`
 * :doc:`Get familiar with the Mixxx user interface <user_interface>`
