@@ -663,9 +663,9 @@ The Mixer Section
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer.png
+.. figure:: ../_static/Mixxx-200-Latenight-Mixer.png
    :align: center
-   :width: 321px
+   :width: 442px
    :figwidth: 100%
    :alt: The mixer section
    :figclass: pretty-figures
@@ -728,21 +728,21 @@ You can also use the specific :ref:`appendix-shortcuts`.
 Headphone and Master Mix Controls
 ---------------------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-Master.png
+.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Master.png
    :align: center
-   :width: 321px
+   :width: 117px
    :figwidth: 100%
    :alt: The headphone and master mix knobs
    :figclass: pretty-figures
 
    The headphone and master mix knobs
 
-.. todo:: Update section to reflect 1.12 GUI layout.
+.. todo:: There is no Head-Split Button in Latenight as of v2.0.0.
 
 .. versionadded:: 2.0
    Headphone split cue option
 
-**Head-Mix Knob**
+**Pre/Main Knob**
   Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
   Cueing signal. If the knob is set to the left, you only hear the cueing signal,
@@ -755,7 +755,7 @@ Headphone and Master Mix Controls
   If activated, two mono signals are sent to the headphone output instead of one
   stereo signal. The master signal plays in the right channel, while the cueing
   signal plays in the left channel. You can still adjust the
-  :guilabel:`Head-Mix Knob` to control the mix of the master and cue signals in
+  :guilabel:`Pre/Main Knob` to control the mix of the master and cue signals in
   the left channel.
 
 **Balance Knob**
@@ -764,8 +764,8 @@ Headphone and Master Mix Controls
 
 .. _interface-gain-knob:
 
-**Gain Knob**
-  The Gain Knob controls the gain applied to the Master output signal that
+**Master Knob**
+  The Master Gain Knob controls the gain applied to the Master output signal that
   Mixxx sends to your sound card, Internet broadcasting servers, and recorded
   mixes. Generally, this knob should not be adjusted. To change the output
   volume, a gain control should be adjusted as close to the speakers as possible
@@ -799,7 +799,7 @@ Headphone and Master Mix Controls
   the headphone jack. If you use an onboard sound card for your headphones,
   adjust the gain control in your :term:`OS <operating system>` mixer program.
   If your sound card only has one gain knob that controls both the main output
-  and the headphone output, then adjust the :guilabel:`Head Gain Knob` in Mixxx
+  and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
   to control the volume of your headphones without affecting your main output.
 
 .. _interface-pfl:
@@ -840,9 +840,9 @@ volume fader all the way down.
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-EQ.png
+.. figure:: ../_static/Mixxx-200-Latenight-Mixer-EQ.png
    :align: right
-   :width: 81px
+   :width: 77px
    :figwidth: 100px
    :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
@@ -850,7 +850,7 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  Above these knobs, the gain knob allows you to adjust the gain applied to the deck.
+  The gain knob allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
@@ -870,7 +870,7 @@ Equalizers and Gain Knobs
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
-  The low, mid, and high knobs allow you to change the filters of the audio.
+  The low, mid, and high EQ knobs allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
 
@@ -894,14 +894,14 @@ Equalizers and Gain Knobs
 Crossfader
 ----------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-Crossfader.png
+.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Crossfader.png
    :align: center
-   :width: 449px
+   :width: 318px
    :figwidth: 100%
-   :alt: The crossfader section of the mixer with Play/Pause and Cue buttons
+   :alt: The crossfader section of the mixer
    :figclass: pretty-figures
 
-   The crossfader section of the mixer with Play/Pause and Cue buttons
+   The crossfader section of the mixer
 
 The :term:`crossfader` determines the actual volume of each deck when moving
 the slider from left to right. If both decks are playing and the crossfader is
@@ -915,118 +915,6 @@ on the left end of the crossfader and vice versa. This is also known as
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
-
-.. _interface-play-pause:
-
-Play/Pause Button
------------------
-Clicking the Play/Pause button starts and pauses the playback.
-
-.. seealso:: The actual behavior of the Play/Pause button depends on the
-             selected :ref:`Cue mode <interface-cue-modes>`.
-
-.. hint :: To return to the beginning of the track, right-click on the deck's
-           :ref:`Fast-Rewind Button <interface-transport>`.
-
-.. _interface-cue:
-
-Cue Button
-----------
-
-.. sectionauthor::
-   Daniel Schürmann <daschuer@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
-
-If the button is pressed while the track is playing, the play position jumps to
-the :term:`Cue point <cue>` on the track and the track is paused. Once the track
-is paused at the Cue point, you can preview it by holding the Cue Button. If you
-have not moved the Cue point yet, the default point is at the track's beginning.
-
-.. seealso:: The actual behavior of the Cue button depends on the
-             selected :ref:`Cue mode <interface-cue-modes>`.
-
-Setting Cue points
-^^^^^^^^^^^^^^^^^^
-
-Every track has a Cue point, by default on its beginning. Unlike with
-:ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue points.
-
-The Cue point is moved according to the selected Cue mode, as explained below.
-
-.. _interface-cue-modes:
-
-Using Cue Modes
-^^^^^^^^^^^^^^^
-
-.. versionadded:: 2.0
-   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
-
-Mixxx supports various Cue modes that adapt to fit other devices in your
-setup, or your personal preferences. The actual behavior of the Play, Pause, and
-Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
-:menuselection:`Preferences --> Interface`.
-
-**Mixxx mode (default)**
-
-* **While paused at Cue point (Cue button lit):**
-
-  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
-    as long as the button is pressed. After releasing the Cue button, the track
-    jumps back to Cue point and pauses again. Continue playback by pressing the
-    Play/Pause button before releasing the Cue button.
-
-* **While paused not at Cue point (Cue button flashing)**:
-
-  * Tapping the Cue button stores the current position as new Cue point.
-
-* **While playing:**
-
-  * Tapping the Cue button causes the track to instantly jump to the location of
-    the Cue point where it pauses the playback.
-  * Tapping the Play/Pause button pauses the track at the current position.
-
-**Pioneer mode**
-
-* It is basically the same as Mixxx mode but the buttons are more flashy like a
-  Pioneer CDJ player.
-* The Play/Pause button flashes once per second when a track is paused.
-* The Cue button flashes twice a second when the next push will move the Cue point.
-
-**Denon mode**
-
-* **After track load:** Track is paused.
-* **While paused at Cue point (Cue button lit)**:
-
-  * Holding down the Cue button plays the track from the Cue point, as long as
-    the button is pressed. After releasing the Cue button, the track jumps back
-    to Cue point and pauses again. Continue playback by pressing the Play/Pause
-    button before releasing the Cue button.
-  * Tapping the Play/Pause button starts the track at the current position.
-
-* **While paused not at Cue point (Play button flashing)**:
-
-  * Tapping the Cue button moves the track back to Cue point.
-  * Tab the Play/Pause button to start playing. The Cue point moves to the
-    position where the track was started.
-
-* **While playing**:
-
-  * Tapping the Cue button causes the track to instantly jump to the location of
-    the cue point where it pauses the playback.
-  * Tapping the Play/Pause button pauses the track at the current position.
-
-**Numark mode**
-
-* It is basically the same as Denon mode but without a flashing Play/Pause
-  button.
-* This mode is useful if you want to implement a custom skin with 3-button decks,
-  featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
-
-.. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
-          track.
-
-.. seealso:: You can also use keyboard shortcuts for Cueing. Go to
-             :ref:`control-keyboard` for more information.
 
 .. _interface-sampler:
 
