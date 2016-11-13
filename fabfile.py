@@ -4,7 +4,7 @@ import os
 
 from source import conf
 
-PROD = 'stacktrace.org'
+PROD = 'direct.mixxx.org:2022'
 # Format the path using the version in the Sphinx config.
 DEST_PATH = '/home/mixxx/public_html/manual/%s' % conf.version
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
