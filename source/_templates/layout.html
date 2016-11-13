@@ -36,11 +36,12 @@
         {%- if prev %}
           <li class="right">Previous Topic: <a href="{{ prev.link|e }}" title="{{ prev.title }}">{{ prev.title }}</a></li>
         {%- endif %} #}
+        <li class="right" style="margin-right: 10px"><a href="{{ pathto('Mixxx-Manual.pdf', 1) }}">pdf</a></li>
         {%- for rellink in rellinks %}
-        <li class="right" {% if loop.first %}style="margin-right: 10px"{% endif %}>
+        <li class="right">
           <a href="{{ pathto(rellink[0]) }}" title="{{ rellink[1]|striptags|e }}"
              {{ accesskey(rellink[2]) }}>{{ rellink[3] }}</a>
-          {%- if not loop.first %}{{ reldelim2 }}{% endif %}</li>
+          {{ reldelim2 }}</li>
         {%- endfor %}
         {%- block rootrellink %}
         <li><a href="{{ pathto(master_doc) }}">{{ shorttitle|e }}</a>{{ reldelim1 }}</li>
