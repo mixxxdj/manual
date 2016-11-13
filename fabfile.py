@@ -8,8 +8,9 @@ PROD = 'direct.mixxx.org:2022'
 # Format the path using the version in the Sphinx config.
 DEST_PATH = '/home/mixxx/public_html/manual/%s' % conf.version
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
-DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/html')
 env.user = 'mixxx'
+HTML_DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/html')
+PDF_DEPLOY_PATH = os.path.join(ROOT_PATH, 'build/latex/Mixxx-Manual.pdf')
 env.sphinx_tags = []
 
 def make_command(language):
@@ -74,8 +75,11 @@ def pdf(language='en'):
 @hosts(PROD)
 def publish():
     regen()
+    pdf()
+    put(local_path=PDF_DEPLOY_PATH,
+        remote_path=DEST_PATH)
     project.rsync_project(
         remote_dir=DEST_PATH,
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
+        local_dir=HTML_DEPLOY_PATH.rstrip('/') + '/',
         delete=True
     )
