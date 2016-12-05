@@ -102,6 +102,11 @@ Live Broadcasting Preferences
 * **Type**: Select the type of streaming server you want to connect with.
   :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and
   :term:`Icecast 2<icecast>` servers are supported.
+
+  Mixxx works with Shoutcast 2 using the Shoutcast 1 protocol if you provide a
+  stream name in :menuselection:`Preferences --> Live Broadcasting -->
+  Stream Info`. If you don't provide a stream name, Shoutcast 2 rejects the
+  connection (where Shoutcast 1 would accept this case).
 * **Host**: You can enter the host as either a host name or an IP address.
 * **Login**: As provided by your streaming server provider. Without this, you
   will not connect successfully to the server. The default login for
