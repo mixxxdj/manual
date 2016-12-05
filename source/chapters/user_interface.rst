@@ -336,6 +336,10 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
     the Cue point where it pauses the playback.
   * Tapping the Play/Pause button pauses the track at the current position.
 
+**Mixxx mode (no blinking)**
+
+  Is the same as the default Mixxx mode, but with no blinking indicators.
+
 **Pioneer mode**
 
 * It is basically the same as Mixxx mode but the buttons are more flashy like a
@@ -345,7 +349,6 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
 **Denon mode**
 
-* **After track load:** Track is paused.
 * **While paused at Cue point (Cue button lit)**:
 
   * Holding down the Cue button plays the track from the Cue point, as long as
