@@ -76,9 +76,9 @@ Track Information Display
   track. For example, if the track is normally 100 BPM, and it is playing at
   +5%, then the effective BPM will read 105 BPM.
 
-  .. hint:: Click directly on the BPM display and tap with the beat to set the
-            BPM to the speed you are tapping. You can also use a keyboard
-            shortcut, go to :ref:`control-keyboard` for more information.
+  .. hint:: You can use a keyboard shortcut and tap with the beat to set the BPM
+            to the speed you are tapping, go to :ref:`control-keyboard` for more
+            information.
 
 **Time Elapsed/Remaining**
   By default it displays the total elapsed time in the track up to the
@@ -86,7 +86,6 @@ Track Information Display
   which indicates how much time is left before the track reaches the end.
   You can change the default in :menuselection:`Preferences --> Interface -->
   Position Display`.
-
 
 .. _interface-waveform:
 
