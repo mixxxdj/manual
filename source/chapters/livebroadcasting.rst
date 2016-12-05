@@ -105,7 +105,7 @@ Live Broadcasting Preferences
 
   Mixxx works with Shoutcast 2 using the Shoutcast 1 protocol if you provide a
   stream name in :menuselection:`Preferences --> Live Broadcasting -->
-  Stream Info`. If you don't provide a stream name, Shoutcast 2 rejects the
+  Stream Settings`. If you don't provide a stream name, Shoutcast 2 rejects the
   connection (where Shoutcast 1 would accept this case).
 * **Host**: You can enter the host as either a host name or an IP address.
 * **Login**: As provided by your streaming server provider. Without this, you
