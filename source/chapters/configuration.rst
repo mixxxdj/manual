@@ -34,7 +34,7 @@ Mixxx and importing your music to the Mixxx library.
 Sound Hardware Preferences
 ==========================
 
-.. figure:: ../_static/Mixxx-111-Preferences-Soundhardware.png
+.. figure:: ../_static/Mixxx-200-Preferences-Soundhardware.png
    :align: center
    :width: 80%
    :figwidth: 100%

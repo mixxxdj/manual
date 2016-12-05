@@ -44,9 +44,9 @@ for club, hobby, and radio DJs alike.
 Laptop Only
 ===========
 
-.. figure:: ../_static/Mixxx-111-Preferences-Soundhardware.png
+.. figure:: ../_static/Mixxx-200-Preferences-Soundhardware.png
    :align: center
-   :width: 75%
+   :width: 80%
    :figwidth: 100%
    :alt: Using Mixxx with your built-in sound card
    :figclass: pretty-figures

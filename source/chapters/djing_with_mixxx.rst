@@ -413,7 +413,7 @@ Loading tracks into Auto DJ
 To play tracks automatically, they must first be loaded into the Auto DJ
 playlist. The Auto DJ playlist is empty by default.
 
-.. figure:: ../_static/Mixxx-111-Library-Add-to-Auto-DJ.png
+.. figure:: ../_static/Mixxx-200-Library-Add-to-Auto-DJ.png
    :align: center
    :width: 50%
    :figwidth: 100%

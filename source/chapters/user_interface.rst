@@ -96,7 +96,7 @@ Waveform Displays
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Waveform.png
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-Waveform.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -702,16 +702,25 @@ Channel Faders and Level Meters
 Section Expansion Buttons
 -------------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-Expansion-Buttons.png
+.. figure:: ../_static/Mixxx-200-Latenight-Top-Expansion-Buttons.png
    :align: center
-   :width: 154px
+   :width: 448px
    :figwidth: 100%
    :alt: The section expansion buttons
    :figclass: pretty-figures
 
-   The section expansion buttons
+   The section expansion buttons on top
 
-Above the level meters in the mixer are the optional section expansion buttons.
+   .. figure:: ../_static/Mixxx-200-Latenight-Bottom-Expansion-Buttons.png
+      :align: center
+      :width: 448px
+      :figwidth: 100%
+      :alt: The section expansion buttons
+      :figclass: pretty-figures
+
+      The section expansion buttons on the bottom
+
+On top, and on the button of the user interface are the section expansion buttons.
 
 If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
 :guilabel:`VINYL` then you will enable control sections for interacting with:
@@ -934,10 +943,10 @@ but also additional tracks in your mix. They come with a small overview waveform
 and a limited number of controls. All controls work just like on the regular
 decks, see :ref:`interface-decks`.
 
-The Sampler section is **hidden** in the default
+The Sampler section can be **hidden** in the
 :ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`SAMPLER <interface-expansion-buttons>` button in the mixer section, or use
-the specific :ref:`appendix-shortcuts` to show or hide the section.
+:ref:`SAMPLER <interface-expansion-buttons>` button, or use the specific
+:ref:`appendix-shortcuts` to show or hide the section.
 
 Waveform Display
 ----------------
