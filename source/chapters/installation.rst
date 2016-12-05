@@ -73,7 +73,7 @@ Installation on Mac OS X
 * Eject the Mixxx installation volume from the Finder by clicking on the icon
   right next to *Mixxx* volume name.
 
-Mixxx requires an Intel Mac running Mac OS X 10.8 or newer.
+Mixxx requires an Intel Mac running Mac OS X 10.5 or newer.
 
 Installation on GNU/Linux
 =========================
