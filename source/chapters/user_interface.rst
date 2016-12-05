@@ -296,6 +296,14 @@ Every track has a Cue point, by default on its beginning. Unlike with
 
 The Cue point is moved according to the selected Cue mode, as explained below.
 
+Auto Cue
+^^^^^^^^
+Mixxx automatically seeks to the saved Cue point on track load. If none exists,
+seeks to the beginning of the track.
+
+Uncheck :menuselection:`Preferences --> Interface --> Auto Cue` to always
+seek to the beginning of the track.
+
 .. _interface-cue-modes:
 
 Using Cue Modes
