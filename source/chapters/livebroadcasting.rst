@@ -139,7 +139,10 @@ Live Broadcasting Preferences
   has configured the server to support UTF-8 metadata.
 * **Dynamically update Ogg Vorbis metadata**: Due to flaws in some streaming
   clients, updating Ogg Vorbis metadata dynamically can cause listener glitches
-  and disconnections. Check this box to update the metadata anyway.
+  and disconnections. Check this box to update the metadata anyway. Some players
+  that listeners can use have bugs that can cause audio glitches or
+  disconnections when the Ogg Vorbis metadata is updated dynamically. If this is
+  not a problem, you can enable this checkbox.
 * **Stream name**: So, what's the name of your show?
 * **Website**: The website you would like your listeners to visit.
 * **Description**: Enter your DJ name and a short tagline.
