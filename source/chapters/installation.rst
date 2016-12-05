@@ -33,12 +33,23 @@ Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
 .. note:: If you are not sure about 32-bit versus 64-bit, pick the 32-bit
           version when downloading the Mixxx installer.
 
-.. warning:: You may encounter a warning message similar to “Security Warning -
-             Publisher could not be verified”. This is because the Mixxx
-             installer is not digitally signed. Ignore the message and continue
-             the installation. It does not indicate a security risk, if you
-             can trust the source website such as `www.mixxx.org
-             <http://mixxx.org/download/>`_ .
+.. figure:: ../_static/Mixxx-200-Installation-Windows-UAC-Warning.png
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Mixxx Installation on Windows 10 - User Account Control (UAC) warning message
+   :figclass: pretty-figures
+
+   Mixxx Installation on Windows 10 - User Account Control (UAC) warning message
+
+.. warning:: You may encounter a warning message similar to “Do you want to
+             allow this app to make changes to your PC”. This is a Windows
+             security feature to prevent anything from running with elevated
+             rights without you approving first. The Mixxx installer is not
+             digitally signed. It does not indicate a security risk, if you can
+             trust the source website such as `www.mixxx.org
+             <http://mixxx.org/download/>`_ . In this case, ignore the message
+             and continue the installation.
 
 Installation on Mac OS X
 ========================
