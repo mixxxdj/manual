@@ -20,15 +20,16 @@ Mixxx and importing your music to the Mixxx library.
 **Mac OSX**
   Double-click the Mixxx icon in the :file:`Applications` folder. Alternatively,
   drag the Mixxx icon to the dock and double-click it there or search for
-  "Mixxx" in Spotlight.
+  :command:`mixxx` in Spotlight.
 
 **GNU/Linux**
   Click the Mixxx icon in the applications menu or launcher of your desktop
   environment or perform a search for :file:`mixxx`. Alternatively type
-  :command:`mixxx` into the terminal, then hit :kbd:`Return`. If your :term:`soundcard`
-  is not accessible from Mixxx because it is used by other applications via PulseAudio,
-  you may close and restart Mixxx using :command:`pasuspender mixxx`.
-  See :ref:`appendix-command-line-options` for an overview of Mixxx's command line options.
+  :command:`mixxx` into the terminal, then hit :kbd:`Return`.
+  If your :term:`soundcard` is not accessible from Mixxx because it is used by
+  other applications via PulseAudio, you may close and restart Mixxx using
+  :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` for an
+  overview of Mixxx's command line options.
 
 Sound Hardware Preferences
 ==========================
@@ -66,9 +67,9 @@ inputs and outputs to be used.
   soundcards to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
-  for independent tempo and pitch changes (e.g. :term:`keylock`). Use Soundtouch
-  on lower power machines (such as netbooks) or if you experience buffer
-  underflows while using :term:`keylock`.
+  for independent tempo and pitch changes (e.g. :term:`keylock`). Use
+  :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
+  you experience buffer underflows while using :term:`keylock`.
 
 * **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
   you do not use the Master output, recording or live broadcasting.
@@ -83,19 +84,21 @@ inputs and outputs to be used.
   useful for preventing echo in broadcasting setups.
 
 * **Headphone/Master Delay**: This setting allows you to compensate for the
-  delay between what you hear in your headphones and the master speakers. Setup:
+  delay between what you hear in your headphones and the master speakers.
 
-  * Switch to mono mode (see above).
-  * Listen to your headphones with one ear and the master speakers with the other ear.
-  * Adjust the delays until the sound seems to be centered and the stereo effect is gone.
-  * Switch back to stereo mode.
+  #. Switch to mono mode (see above).
+  #. Listen to your headphones with one ear and the master speakers with the
+     other ear.
+  #. Adjust the delays until the sound seems to be centered and the stereo
+     effect is gone.
+  #. Switch back to stereo mode.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with real-time
-  deadlines imposed by the current audio buffer size. This is useful to
-  tune the latency settings. If the counter increases, then increase your audio
-  buffer size, decrease the sample rate setting or change the sound API
-  setting if available.
+  deadlines imposed by the current audio buffer size. This is useful to tune the
+  latency settings. If the counter increases, then increase your audio buffer
+  size, decrease the sample rate setting or change the sound API setting if
+  available.
 
 .. _configuration-mixer-mode:
 
@@ -244,10 +247,10 @@ already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can
 choose the virtual device ``pulse``. This allows Mixxx to share the default
 system sound card with other media players. This only works if you start
-Mixxx without pasuspender, which you can do by running "mixxx" from a console
-rather than clicking the launcher icon in a menu or on your desktop. Since the
-sound stream is routed from ALSA to Pulse and back to ALSA, this adds an
-additional latency of ~2 x the selected audio buffer size.
+Mixxx without pasuspender, which you can do by running :command:`mixxx` from a
+console rather than clicking the launcher icon in a menu or on your desktop.
+Since the sound stream is routed from ALSA to Pulse and back to ALSA, this adds
+an additional latency of ~2 x the selected audio buffer size.
 
 Equalizer Preferences
 =====================
@@ -320,17 +323,15 @@ The following table compares some technical parameters:
 | Linkwitz-Riley | sharp  | -48 db/Oct | minimum     | no          | high      |
 +----------------+--------+------------+-------------+-------------+-----------+
 
-cut: the frequency response (curve form) at the cross over frequency.
-
-roll-off: The steepness of the EQ bands.
-
-linear phase: No phase distortion, all frequencies are processed with the same group delay.
-
-minimum phase: A natural phase distortion, the group delay changes by the frequency.
-
-bit perfect: Whether the EQ leaves the original samples untouched when the EQ is at unity.
-
-CPU usage: Processing time needed to calculate the EQ output.
+ * cut: the frequency response (curve form) at the cross over frequency.
+ * roll-off: The steepness of the EQ bands.
+ * linear phase: No phase distortion, all frequencies are processed with the
+   same group delay.
+ * minimum phase: A natural phase distortion, the group delay changes by the
+   frequency.
+ * bit perfect: Whether the EQ leaves the original samples untouched when the EQ
+   is at unity.
+ * CPU usage: Processing time needed to calculate the EQ output.
 
 .. _configuration-import:
 
@@ -513,7 +514,7 @@ beat detection negatively because most of today's dance music is written in a
 
 .. figure:: ../_static/Mixxx-200-Preferences-Beatdetection.png
    :align: center
-   :width: 75%
+   :width: 80%
    :figwidth: 100%
    :alt: Mixxx preferences - BPM settings
    :figclass: pretty-figures
@@ -587,7 +588,7 @@ first minute of the track.
 
 .. figure:: ../_static/Mixxx-200-Preferences-Keydetection.png
    :align: center
-   :width: 75%
+   :width: 80%
    :figwidth: 100%
    :alt: Mixxx preferences - Key settings
    :figclass: pretty-figures
