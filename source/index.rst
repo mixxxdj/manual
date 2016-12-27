@@ -6,6 +6,8 @@
 Mixxx |version| User Manual
 ***************************
 
+WOW
+
 Mixxx is free [#f1]_ DJ software for Windows, Mac OS X and Linux.
 It's easy to use so you can start mixing your favourite songs in
 no time, even if you've never DJed before. Mixxx offers a variety of
