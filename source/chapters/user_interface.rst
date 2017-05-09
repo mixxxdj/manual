@@ -902,7 +902,7 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
 **CUP mode**
 
-* **While Playing:**
+* **While playing**:
 
   * Tapping the Cue button causes the track to instantly jump to the location of 
     the cue point. The track will start playing once the Cue button is released.
