@@ -901,7 +901,9 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
 **CUP mode**
+
 * **While Playing**:
+
   * Tapping the Cue button causes the track to instantly jump to the location of the cue point. The track will start playing once the Cue button is released.
 
 * **While paused not at Cue point (Cue button flashing)**:
