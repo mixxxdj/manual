@@ -900,6 +900,14 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 * This mode is useful if you want to implement a custom skin with 3-button decks,
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
+**Cup mode**
+
+* Tapping the Cue button causes the track to instantly jump to the location of the cue point. The track will start playing once the Cue button is released.
+
+* **While paused not at Cue point (Cue button flashing)**:
+
+  * Tapping the Cue button stores the current position as new Cue point. The track will start playing once the Cue button is released.
+
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
 
