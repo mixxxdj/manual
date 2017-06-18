@@ -190,7 +190,7 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 
 ### Editors with Restructured Text (reST) syntax highlighting
 
-* Windows, Linux, Mac OSX : [Atom], [Sublime]
+* Windows, Linux, Mac OSX : [Atom], [Visual Studio Code], [Sublime]
 * Linux: [Kate], [Retext]
 * Windows: [Intype]
 * Webapp: [Notex]
@@ -211,6 +211,7 @@ Even more [reStructuredText] resources:
 [transifex-client]: http://docs.transifex.com/client/setup/
 [transifex-configuration]: http://docs.transifex.com/client/config/
 [Atom]: https://atom.io/
+[Visual Studio Code]: https://code.visualstudio.com/
 [Sublime]: http://www.sublimetext.com
 [Kate]: http://kate-editor.org/
 [Retext]: http://sourceforge.net/p/retext/
