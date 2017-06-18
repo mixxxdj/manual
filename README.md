@@ -116,7 +116,7 @@ For every change to the manual source files (.rst) the source translation files
 the text of every English phrase in the manual in a common format used for
 translation.
 
-Additionally, for every new source file added (i.e. new chapters or manaul
+Additionally, for every new source file added (i.e. new chapters or manual
 pages) the Transifex configuration file (stored in `.tx/config`) needs updating.
 
 To do both of these, run:
