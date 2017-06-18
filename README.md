@@ -22,6 +22,10 @@ If you do not wish to use pip:
   with graphviz. We suggest using version 1.2.3 until this is resolved.
 * [Install Graphviz], graph visualization software (used to draw some diagrams)
 
+To upgrade dependencies using pip:
+
+    $ pip install -r requirements.txt --upgrade
+
 If you'd like to build manual PDFs, you will need a functioning LaTeX installation.
 * On Mac, install [MacTeX].
 * On Debian-based systems, install `texlive-fonts-recommended` and
