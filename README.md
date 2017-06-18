@@ -212,8 +212,8 @@ Even more [reStructuredText] resources:
 [sphinx-intl]: https://pypi.python.org/pypi/sphinx-intl
 
 [Transifex]: https://www.transifex.com/organization/mixxx-dj-software/dashboard/mixxxdj-manual
-[transifex-client]: http://docs.transifex.com/client/setup/
-[transifex-configuration]: http://docs.transifex.com/client/config/
+[transifex-client]: https://docs.transifex.com/client/installing-the-client
+[transifex-configuration]: https://docs.transifex.com/client/client-configuration/
 [Atom]: https://atom.io/
 [Visual Studio Code]: https://code.visualstudio.com/
 [Sublime]: http://www.sublimetext.com
