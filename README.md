@@ -72,8 +72,8 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
 ### Prerequisites
 
-If you did not install requirements with `pip install -r requirements.txt` above
-then you must manually install the following dependencies:
+If you did **not** install requirements with `pip install -r requirements.txt`
+above then you must manually install the following dependencies:
 
 * [sphinx-intl], a utility that makes it easy to translate and compile
   translations to Sphinx projects.
@@ -81,17 +81,27 @@ then you must manually install the following dependencies:
   interface. The Python-based command line client makes it easy to fetch and
   push translations.
 
-  Install transifex-client on Linux and Mac OS X
+**Install transifex-client on Linux and Mac OS X**
 
   `pip install transifex-client`
 
-  Install transifex-client on Windows
+**Install transifex-client on Windows**
 
-  `http://files.transifex.com/transifex-client/0.11b3/tx.exe`
+   The easiest way to install it is with pip:
 
-  You will need to make a `.transifexrc` in your home directory with your
-  username and password to use the Transifex client. See
-  [transifex-configuration] for more details.
+  `easy_install pip`
+
+  `pip install transifex-client`
+
+  The first line installs pip on a system level. Then it installs the Transifex
+  Client using pip.
+
+  If you do not wish to use pip, download the latest releases from
+  https://github.com/transifex/transifex-client/releases
+
+You will need to make a `.transifexrc` in your home directory with your
+username and password to use the Transifex client. See
+[transifex-configuration] for more details.
 
 ### Maintaining translations
 
