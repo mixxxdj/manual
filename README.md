@@ -12,7 +12,7 @@ First [Download] the latest Mixxx manual source or clone the repository
 
     $ git clone https://github.com/mixxxdj/manual.git
 
-Next, install the dependencies using pip. From within the repository root
+Next, install the dependencies using [pip]. From within the repository root
 (type ```cd manual``` after typing the above command):
 
     $ pip install -r requirements.txt
@@ -200,6 +200,7 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 Even more [reStructuredText] resources:
 <http://stackoverflow.com/questions/2746692/restructuredtext-tool-support>
 
+[pip]: https://pip.pypa.io/
 [reStructuredText]: http://docutils.sourceforge.net/rst.html
 [Sphinx]: http://sphinx-doc.org
 [Install Sphinx]: http://sphinx-doc.org/latest/install.html
