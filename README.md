@@ -18,8 +18,7 @@ Next, install the dependencies using [pip]. From within the repository root
     $ pip install -r requirements.txt
 
 If you do not wish to use pip:
-* [Install Sphinx], the documentation generator. *Note:* Version 1.3.1 seems to have a bug
-  with graphviz. We suggest using version 1.2.3 until this is resolved.
+* [Install Sphinx], the documentation generator.
 * [Install Graphviz], graph visualization software (used to draw some diagrams)
 
 To upgrade dependencies using pip:
