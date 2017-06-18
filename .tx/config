@@ -5,119 +5,213 @@ type = PO
 
 [mixxxdj-manual.chaptersadvanced_topicspot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/advanced_topics.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/advanced_topics.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersappendixpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/appendix.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/appendix.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersconfigurationpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/configuration.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/configuration.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersdjing_with_mixxxpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/djing_with_mixxx.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/djing_with_mixxx.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersgetting_involvedpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/getting_involved.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/getting_involved.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersinstallationpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/installation.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/installation.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersintroductionpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/introduction.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/introduction.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chapterslibrarypot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/library.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/library.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chapterslivebroadcastingpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/livebroadcasting.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/livebroadcasting.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chaptersquickstartpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/quickstart.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/quickstart.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.chapterssetuppot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/setup.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/setup.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.user_interfacepot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/user_interface.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/user_interface.pot
 source_lang = en_US
-minimum_perc = 0
-type = PO
-
-[mixxxdj-manual.vinyl_controlpot]
-file_filter = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.pot
-source_file = source/locale/pot/chapters/user_interface.pot
-source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.vinyl_controlpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.po
+minimum_perc = 0
 source_file = source/locale/pot/chapters/user_interface.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.glossarypot]
 file_filter = source/locale/<lang>/LC_MESSAGES/glossary.po
+minimum_perc = 0
 source_file = source/locale/pot/glossary.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.indexpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+minimum_perc = 0
 source_file = source/locale/pot/index.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
 
 [mixxxdj-manual.sphinxpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/sphinx.po
+minimum_perc = 0
 source_file = source/locale/pot/sphinx.pot
 source_lang = en_US
-minimum_perc = 0
 type = PO
+
+[mixxxdj-manual.glossary_]
+file_filter = source/locale/<lang>/LC_MESSAGES/glossary.po
+source_file = source/locale/pot/glossary.pot
+source_lang = en
+
+[mixxxdj-manual.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = source/locale/pot/index.pot
+source_lang = en
+
+[mixxxdj-manual.index_developer]
+file_filter = source/locale/<lang>/LC_MESSAGES/index_developer.po
+source_file = source/locale/pot/index_developer.pot
+source_lang = en
+
+[mixxxdj-manual.manual_guidelines]
+file_filter = source/locale/<lang>/LC_MESSAGES/manual_guidelines.po
+source_file = source/locale/pot/manual_guidelines.pot
+source_lang = en
+
+[mixxxdj-manual.sphinx]
+file_filter = source/locale/<lang>/LC_MESSAGES/sphinx.po
+source_file = source/locale/pot/sphinx.pot
+source_lang = en
+
+[mixxxdj-manual.todolist]
+file_filter = source/locale/<lang>/LC_MESSAGES/todolist.po
+source_file = source/locale/pot/todolist.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--advanced_topics]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/advanced_topics.po
+source_file = source/locale/pot/chapters/advanced_topics.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--appendix]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/appendix.po
+source_file = source/locale/pot/chapters/appendix.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--configuration]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/configuration.po
+source_file = source/locale/pot/chapters/configuration.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--controlling_mixxx]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/controlling_mixxx.po
+source_file = source/locale/pot/chapters/controlling_mixxx.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--djing_with_mixxx]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/djing_with_mixxx.po
+source_file = source/locale/pot/chapters/djing_with_mixxx.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--getting_involved]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/getting_involved.po
+source_file = source/locale/pot/chapters/getting_involved.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--installation]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/installation.po
+source_file = source/locale/pot/chapters/installation.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--introduction]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/introduction.po
+source_file = source/locale/pot/chapters/introduction.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--library]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/library.po
+source_file = source/locale/pot/chapters/library.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--livebroadcasting]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/livebroadcasting.po
+source_file = source/locale/pot/chapters/livebroadcasting.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--quickstart]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/quickstart.po
+source_file = source/locale/pot/chapters/quickstart.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--setup]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/setup.po
+source_file = source/locale/pot/chapters/setup.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--user_interface]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/user_interface.po
+source_file = source/locale/pot/chapters/user_interface.pot
+source_lang = en
+
+[mixxxdj-manual.chapters--vinyl_control]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.po
+source_file = source/locale/pot/chapters/vinyl_control.pot
+source_lang = en
+
