@@ -11,13 +11,6 @@ Shortcuts let you work more efficiently. This table lists the default keyboard
 shortcuts for accessing Mixxx with an English keyboard layout. Depending on your
 language settings the defaults may be different.
 
-.. versionadded:: 2.0
-   *Passthrough*, *Vinylcontrol Mode*, *Vinylcontrol Cueing*, and
-   *Single Deck Vinylcontrol Toggle* shortcuts
-
-.. versionchanged:: 2.0
-   *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
-
 +----------------------------------------+---------------------+---------------------+--------------+
 | Function                               | Deck 1              | Deck 2              | Master       |
 +========================================+=====================+=====================+==============+
@@ -168,14 +161,6 @@ Application shortcuts
 Use these shortcuts to access features available in the menu on top of the
 application window.
 
-.. versionadded:: 2.0
-   Added *Show Effect Rack*, *Maximize Library*, and *Show Cover Art* shortcuts.
-   Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
-   which provides various useful debugging tools.
-
-.. versionchanged:: 2.0
-   Shortcuts for *Enable Vinyl Control 1-4*.
-
 ========================================  ================================
 Function                                  Key
 ========================================  ================================
@@ -263,14 +248,6 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
-.. versionadded:: 2.0
-
-   * Show debug tooltips
-   * Provide extra skins when developer mode is enabled.
-   * Adds the debugger during skin parsing in ``--developer`` mode
-   * Adds "Enable Base" and "Enable Experiment" option in ``--developer`` mode
-   * Added ``--safeMode`` option.
-
 ======================  =================================================
 Option                  Description
 ======================  =================================================
@@ -330,8 +307,6 @@ terminal and hit return: ::
 
 Experiment modes for rapid development and testing
 ---------------------------------------------------
-
-.. versionadded:: 2.0
 
   * Adds a static Experiment class with a tri-state mode flag that indicates
     whether the experiment mode is OFF, BASE, or EXPERIMENT.

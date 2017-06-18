@@ -129,9 +129,6 @@ Live Broadcasting Preferences
 
 **Stream Setting**
 
-.. versionadded:: 2.0
-   :guilabel:`Dynamically update Ogg Vorbis metadata` option
-
 * **Public stream**: If enabled, this option adds your radio station to the
   Shoutcast/Icecast directory.
 * **Enable UTF-8 metadata**: If enabled, this option fixes broken accented and
@@ -160,8 +157,6 @@ Live Broadcasting Preferences
   :term:`MP3` format.
 
 **Shoutcast metadata format**
-
-  .. versionadded:: 2.0
 
   This allows to set custom metatdata formats for the Shoutcast title field.
   Previously only ``artist - title`` was allowed. For example if you were

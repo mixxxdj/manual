@@ -56,15 +56,12 @@ Track Information Display
 
    The track information section of the deck
 
-.. versionadded:: 2.0
-   Parse the title and the artist from the file name when the corresponding
-   :term:`metadata` is missing.
-
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
   the Mixxx library. This information is initially loaded from the track's
-  :term:`metadata`.
+  :term:`metadata`. Is the metadata missing, parse the title and the artist
+  from the file name.
 
 **Track Artist**
   The artist of the track is listed below. It is the same as listed under the
@@ -152,17 +149,13 @@ separate waveforms. Select your preferred appearance in
 
 **Waveform overview**
 
-  .. versionadded:: 2.0
-
-     Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Waveforms
-     --> Overview type`.
-
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
   useful because they allow DJs to see breakdowns far in advance. Clicking
   somewhere on the waveform allows you to jump to an arbitrary position in the
-  track.
+  track. Like with the Waveform summary, you can select from different types
+  of displays for the overview in :menuselection:`Preferences --> Waveforms
+   --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -309,9 +302,6 @@ seek to the beginning of the track.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-.. versionadded:: 2.0
-   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
-
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup, or your personal preferences. The actual behavior of the Play, Pause, and
 Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
@@ -417,9 +407,6 @@ Transport Controls
   :figclass: pretty-figures
 
   The transport controls of the deck
-
-.. versionadded:: 2.0
-  Right-click on the Reverse button activates Reverse Roll (Censor)
 
 **Fast-Rewind button**
  As long as the button is pressed, the track will play in reverse with
@@ -776,9 +763,6 @@ Headphone and Master Mix Controls
 
 .. todo:: There is no Head-Split Button in Latenight as of v2.0.0.
 
-.. versionadded:: 2.0
-   Headphone split cue option
-
 **Pre/Main Knob**
   Allows you to control how much of the master output you hear in your
   headphones. It works like a crossfader between the stereo Master and stereo
@@ -1064,8 +1048,6 @@ Sample Deck Controls
 The Effects Section
 ===================
 
-.. versionadded:: 2.0
-
 ..
    .. figure:: ../_static/Mixxx-112-LateNight-Effects-Deck.png
       :align: center
@@ -1137,9 +1119,6 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
 
 **Setup the microphone**
 
-.. versionadded:: 2.0
-   Microphone can accept stereo or mono input now.
-
 * Most computers have built-in microphones, while some are connected through USB.
   These work adequately, but don't expect them to be high-quality.
 * The best solution is to connect a good external microphone to the “Mic” or
@@ -1147,7 +1126,7 @@ specific :ref:`appendix-shortcuts` to show or hide the section.
   device to adjust the input signal.
 * Select the microphone input in
   :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and
-  click :guilabel:`Apply`.
+  click :guilabel:`Apply`. Mixxx will accept stereo or mono input.
 
 Microphone Controls
 -------------------

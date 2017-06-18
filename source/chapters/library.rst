@@ -73,8 +73,6 @@ music library.
 
   * **Multi-Column sorting**
 
-    .. versionadded:: 2.0
-
     You can sort multiple columns by clicking *up to three* column headers you
     wish to sort your tracks by. This makes searching for tracks in a large list
     more efficient. Clicking twice on a column header will reverse the sort
@@ -139,13 +137,6 @@ music library.
 
 Track list context menu
 -----------------------
-
-.. versionadded:: 2.0
-   :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
-   context menu options and :guilabel:`Cover Art`
-
-.. versionchanged:: 2.0
-   All BPM related options are in the :guilabel:`BPM Options` sub-menu.
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
@@ -263,9 +254,6 @@ The features in detail:
 Loading Tracks
 ==============
 
-.. versionadded:: 2.0
-   You can drag tracks from deck to deck.
-
 Tracks can be loaded into a deck in several ways:
 
 * Right-click the :ref:`library track table <library-interface>`: Right-clicking
@@ -316,12 +304,6 @@ Using search operators
 
 Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
-
-.. versionadded:: 2.0
-   Adds *location*, *album_artist*, and *key* search keywords. Supports
-   human-readable time suffixes in time-based search query filters, e.g.
-   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
-   filters.
 
 Mixxx supports the following filters:
 
@@ -550,8 +532,6 @@ again, you can activate the :guilabel:`Auto DJ Requeue` option in
 
 **Auto DJ Crates**
 
-.. versionadded:: 2.0
-
 It is possible to add random tracks to the bottom of the Auto DJ playlist. The
 tracks are chosen from a set of crates that you have set as a source for
 Auto DJ, or from the standard library. Mixxx will normally try to select tracks
@@ -580,20 +560,12 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
   and select :guilabel:`New playlist`. Name the playlist and click
-  :guilabel:`OK`.
+  :guilabel:`OK`. The total number of tracks and total duration are displayed
+  next to the name.
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
   context menu in the library's :ref:`track list <library-root>`.
-
-.. versionadded:: 2.0
-
-* :guilabel:`Analyze Playlist` option in the context menu.
-* Import playlists by dragging-and-dropping them into a playlist in the sidebar.
-* :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
-  options remember the last selected playlist directory.
-* The total number of tracks and total duration are displayed next to the
-  playlist's name.
 
 Right-click on an existing playlist name to access the different features in
 the context menu:
@@ -632,19 +604,11 @@ holding your favorite records.
 
 * **Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and
   select :guilabel:`New Crate`. Name the crate and click :guilabel:`OK`.
+  The total number of tracks and total duration are displayed next to the name.
 * **Add Tracks**: Add tracks to a previously created crate by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a crate in the sidebar. Alternatively use the context menu in the
   library's :ref:`track list<library-root>`.
-
-.. versionadded:: 2.0
-
-* :guilabel:`Analyze Crate` and :guilabel:`Auto DJ Track Source` context menu
-  options.
-* :guilabel:`Import crate` and :guilabel:`Export crate` context menu
-  options remember the last selected playlist directory.
-* Displays the total number of tracks and the total duration next to the
-  crate's name.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
@@ -703,9 +667,6 @@ Browse - Loading remote tracks
 tracks from anywhere on your computer that are not necessarily already in your
 Mixxx library.
 
-.. versionadded:: 2.0
-   Add music directories directly from the Browse sidebar item.
-
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
 music. Depending on your :term:`operating system`, your music will usually be
 found in the “My Music” or “Music” folder. Drag the files you want to import to
@@ -754,12 +715,6 @@ tracks during the session, it will be discarded.
 
 |ic_lib_history_current| This icon indicates the current session.
 
-.. versionadded:: 2.0
-
-* :guilabel:`Create new history playlist` context menu option.
-* :guilabel:`Export playlist` context menu option remember the last selected
-  playlist directory.
-
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
 view, then right-click on a session's name/date to access the different features:
 
@@ -804,9 +759,6 @@ Supported libraries:
 * |ic_lib_traktor| `Traktor <http://www.native-instruments.com/en/products/traktor/>`_ (Windows, Mac OS X),
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
-
-.. versionadded:: 2.0
-   Support for Banshee music player
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
