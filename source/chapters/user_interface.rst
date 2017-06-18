@@ -133,7 +133,7 @@ separate waveforms. Select your preferred appearance in
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try to lower the frame rate or change the waveform type in
-              :menuselection:`Preferences --> Waveforms`.
+              :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -144,8 +144,8 @@ separate waveforms. Select your preferred appearance in
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Waveforms -->
-             Summary type`.
+             waveform, in :menuselection:`Preferences --> Interface -->
+             Waveforms --> Summary type`.
 
 **Waveform overview**
 
@@ -154,8 +154,8 @@ separate waveforms. Select your preferred appearance in
   useful because they allow DJs to see breakdowns far in advance. Clicking
   somewhere on the waveform allows you to jump to an arbitrary position in the
   track. Like with the Waveform summary, you can select from different types
-  of displays for the overview in :menuselection:`Preferences --> Waveforms
-   --> Overview type`.
+  of displays for the overview in :menuselection:`Preferences --> Interface -->
+  Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -173,7 +173,7 @@ separate waveforms. Select your preferred appearance in
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Waveforms`.
+  between the decks in :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
