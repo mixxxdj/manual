@@ -83,15 +83,14 @@ above then you must manually install the following dependencies:
 
 **Install transifex-client on Linux and Mac OS X**
 
-  `pip install transifex-client`
+    $ pip install transifex-client
 
 **Install transifex-client on Windows**
 
    The easiest way to install it is with pip:
 
-  `easy_install pip`
-
-  `pip install transifex-client`
+    $  easy_install pip
+    $  pip install transifex-client
 
   The first line installs pip on a system level. Then it installs the Transifex
   Client using pip.
