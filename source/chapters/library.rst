@@ -590,6 +590,10 @@ the context menu:
 * **Export playlist**: Export a playlist to various file formats such as
   :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
   other applications.
+* **Export Track files**: This copies all of the tracks in a playlist into a
+  folder such as an external USB stick. Only files are copied, not
+  Mixxx-specific metadata like waveforms or cover art that is not embedded in
+  the file.
 
 .. _library-crates:
 
@@ -632,6 +636,9 @@ context menu:
 * **Export crate**: Export a crate to various file formats, such as
   :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
   other applications.
+* **Export Track files**: This copies all of the tracks in a crate into a folder
+  such as an external USB stick. Only files are copied, not Mixxx-specific
+  metadata like waveforms or cover art that is not embedded in the file.
 
 Crates vs. Playlists
 --------------------
