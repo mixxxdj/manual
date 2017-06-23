@@ -87,6 +87,12 @@ music library.
        genre. If genre is equal, it is still sorted by year. If genre and year
        is equal, then it is sorted by BPM.
 
+  * **Random sorting**
+
+    .. versionadded:: 2.1.0
+
+    Click on the :guilabel:`Preview` column header to randomly sort tracks.
+
 **Rating tracks**
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
   over the rating field and clicking the stars.
@@ -382,6 +388,8 @@ and click the :guilabel:`Play` button next to the waveform.
 
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
+
+.. hint:: Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
 .. _library-edit-metadata:
 
