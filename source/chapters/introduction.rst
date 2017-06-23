@@ -41,6 +41,8 @@ New in Mixxx |version|
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
+.. todo:: Update feature list for |version|.
+
 * 4 decks
 * Master sync
 * Color-coded waveforms showing the frequencies in tracks
@@ -62,10 +64,11 @@ New in Mixxx |version|
 * Over 100 other performance, quality and usability improvements
 
 * For a full list of features go to: `<http://mixxx.org/features/>`_
-* For an overview of the new features, go to:
-  `<http://mixxx.org/whats-new-in-mixxx-2-0>`_
+* For an overview of new features, go to:
+  `<http://mixxx.org/whats-new-in-mixxx-2-1-0>`_
 * For a full list of new features and bugfixes, go to:
-  `https://launchpad.net/mixxx/2.0.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_
+  `https://launchpad.net/mixxx/2.1.0
+  <https://launchpad.net/mixxx/+milestone/2.1.0>`_
 
 .. seealso:: For an overview of previous changes, go to
              :ref:`appendix-version-history`.
