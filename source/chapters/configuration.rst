@@ -220,7 +220,7 @@ best choice is for your operating system.
 | GNU Linux / OSS             | Acceptable |
 +-----------------------------+------------+
 
-For low latency on Windows, it is best to use an ASIO driver that bypassses
+For low latency on Windows, it is best to use an ASIO driver that bypasses
 the sound processing of the Windows kernel. If there is no such ASIO driver
 available for your soundcard, use the WDM-KS API. There is generally no
 advantage to using `ASIO4ALL <http://asio4all.com>`_, a wrapper around the
@@ -389,7 +389,7 @@ Importing your audio files
 **Import external libraries**
   If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
   to access your tracks and playlists in the Mixxx library,
-  see :ref:`library-3rd-party`.
+  see :ref:`library-third-party`.
 
 **Import remote files**
   To import audio files which are not in your music library directory, drag them
@@ -401,8 +401,9 @@ Importing your audio files
              Mixxx can not recursively scan folders for compatible music files.
 
 **Import playlists**
-  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls`
-  playlist files from products other than Mixxx, see :ref:`library-playlists`.
+  You can import existing :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`csv`,
+  playlist files from third-party products into
+  :ref:`playlists <library-playlists>` or :ref:`crates <library-crates>`.
 
 **Import music from CDs**
   Mixxx can not play music from Audio CDs. Convert the content to compatible
@@ -536,7 +537,7 @@ The table below summarizes the beat detection settings:
 | change or beat detection data is      | beat grids from prior versions.      |
 | outdated                              | Moreover, it will re-analyze the BPM |
 |                                       | if your beat detection preferences   |
-|                                       | change or BPM data from 3rd party    |
+|                                       | change or BPM data from third-party  |
 |                                       | programs are present.                |
 +---------------------------------------+--------------------------------------+
 

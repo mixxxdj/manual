@@ -594,10 +594,10 @@ the context menu:
   in the :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists in various file
   formats to a new Mixxx playlist. For more information, go to
-  :ref:`library-3rd-party`.
+  :ref:`library-third-party`.
 * **Export playlist**: Export a playlist to various file formats such as
-  :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
-  other applications.
+  :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`.
+  This allows you to use the data in other applications.
 * **Export Track files**: This copies all of the tracks in a playlist into a
   folder such as an external USB stick. Only files are copied, not
   Mixxx-specific metadata like waveforms or cover art that is not embedded in
@@ -642,8 +642,8 @@ context menu:
 * **Import crate**: Import tracks from external playlists in various file
   formats to a new Mixxx crate.
 * **Export crate**: Export a crate to various file formats, such as
-  :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
-  other applications.
+  :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This
+  allows you to use the data in other applications.
 * **Export Track files**: This copies all of the tracks in a crate into a folder
   such as an external USB stick. Only files are copied, not Mixxx-specific
   metadata like waveforms or cover art that is not embedded in the file.
@@ -760,7 +760,7 @@ the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`configuration-analyze` for details.
 
 
-.. _library-3rd-party:
+.. _library-third-party:
 
 iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 ==============================================================
