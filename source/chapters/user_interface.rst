@@ -77,12 +77,18 @@ Track Information Display
             to the speed you are tapping, go to :ref:`control-keyboard` for more
             information.
 
-**Time Elapsed/Remaining**
+**Time Elapsed/Remaining/Both**
+
+  .. versionadded:: 2.1.0
+     Option to show elapsed and remaining time simultaneously
+
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
   which indicates how much time is left before the track reaches the end.
+  Clicking the display again, both the elapsed and remaining time are shown
+  simultaneously in the format *elapsed time / remaining time*.
   You can change the default in :menuselection:`Preferences --> Interface -->
-  Position Display`.
+  Track Time Display`.
 
 .. _interface-waveform:
 
