@@ -313,12 +313,12 @@ to limit certain search terms to particular properties of your tracks.
 
 Mixxx supports the following filters:
 
-* **Text filtering**: artist, album, album_artist, genre, title, composer,
-  comment, key, location
+* **Text filtering**: album_artist, album, artist, comment, composer, crate,
+  genre, grouping, location, title
 
-* **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
+* **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
-* **Special filtering**:
+* **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
   * Supports fuzzy matching of key searches. The following example list tracks
     with harmonically compatible keys to C# minor.
