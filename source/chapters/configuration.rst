@@ -267,22 +267,24 @@ Equalizer Preferences
 
     Equalizer Preferences
 
-:menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
+:menuselection:`Preferences --> Equalizer` allows you to setup the
+:term:`equalizers <EQ>`.
 
 * **Equalizer Rack**: The Equalizer Rack is a special effect rack that is
   connected to the deck's equalizer and filter controls.
 
   In this section you can select the equalizers and quick effects that are used
-  with the decks.
+  with the decks. Different equalizers and quick effects can be assigned to each
+  decks by unchecking :menuselection:`Use the same EQ filter for all decks`.
 
-* **Equalizer Plugin**: Here you can select the effect that is used as the
-  mixing EQ in each deck. By default only built-in equalizers are
-  displayed. Unchecking :menuselection:`Only allow EQ knobs to control EQ
-  specific effects` allows you to select any other effect.
+  * **Equalizer Plugin**: Here you can select the effect that is used as the
+    mixing EQ in each deck. By default only built-in equalizers are
+    displayed. Unchecking :menuselection:`Only allow EQ knobs to control EQ
+    specific effects` allows you to select any other effect.
 
-* **Quick Effect**: Here you can select the effect that is controlled by the
-  dedicated filter knob in each deck. By default only built-in filter effects are
-  selected for all decks, but that can be changed as above.
+  * **Quick Effect**: Here you can select the effect that is controlled by the
+    dedicated filter knob in each deck. By default only built-in filter effects
+    are selected for all decks, but that can be changed as above.
 
 * **High/Low Shelf EQ**: This slider sets the crossover frequencies of the mixing
   EQ. It controls which frequency range is affected by the low, mid, and high
@@ -290,9 +292,23 @@ Equalizer Preferences
   range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
   The remaining treble range is controlled by the high knob.
 
-* **Master EQ**: This section allows you to setup an EQ that affects the master
-  output.
+* **Master EQ**: This section allows you to setup an graphic equalizer that affects
+  the master output.
 
+* **Miscellaneous**:
+
+  .. versionadded:: 2.1.0
+     Reset gain on track load
+
+  * **Reset equalizers on track load**: Resets the equalizers to their default
+    values when loading a track.
+
+  * **Reset gain on track load**: Resets the deck gain to unity when loading a
+    track. This option is helpful for use with controllers that have EQ knobs,
+    but no gain knobs.
+
+  * **Bypass EQ effect processing**: When checked, EQs are not processed,
+    improving performance on slower computers.
 
 Mixing Equalizers
 -----------------
