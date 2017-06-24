@@ -149,13 +149,18 @@ separate waveforms. Select your preferred appearance in
 
 **Waveform overview**
 
+  ..versionadded:: 2.1.0
+    Darken played part of track in decks and samplers
+
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
-  useful because they allow DJs to see breakdowns far in advance. Clicking
-  somewhere on the waveform allows you to jump to an arbitrary position in the
-  track. Like with the Waveform summary, you can select from different types
-  of displays for the overview in :menuselection:`Preferences --> Interface -->
-  Waveforms --> Overview type`.
+  useful because they allow DJs to see breakdowns far in advance. As visual aid,
+  the part of the track that has already been played is darkened.
+
+  Clicking somewhere on the waveform allows you to jump to an arbitrary position
+  in the track. Like with the Waveform summary, you can select from different
+  types of displays for the overview in
+  :menuselection:`Preferences --> Interface --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
