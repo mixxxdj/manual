@@ -138,7 +138,8 @@ separate waveforms. Select your preferred appearance in
    Mixxx alternative skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the waveform type in
+              Mixxx, try to lower the frame rate or change the type for waveform
+              overview and waveform summary in
               :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform summary**
@@ -306,8 +307,8 @@ Auto Cue
 Mixxx automatically seeks to the saved Cue point on track load. If none exists,
 seeks to the beginning of the track.
 
-Uncheck :menuselection:`Preferences --> Interface --> Auto Cue` to always
-seek to the beginning of the track.
+Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to main
+cue point on track load` to always seek to the beginning of the track.
 
 .. _interface-cue-modes:
 
@@ -317,7 +318,7 @@ Using Cue Modes
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup, or your personal preferences. The actual behavior of the Play, Pause, and
 Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
-:menuselection:`Preferences --> Interface`.
+:menuselection:`Preferences --> Interface --> Cue mode`.
 
 **Mixxx mode (default)**
 
@@ -551,7 +552,8 @@ sync targets for decks are chosen with the new master sync feature, see
 
 .. seealso:: To customize the amount by which the buttons alter the pitch of
              the track, the slider range as well as the direction, go to
-             :menuselection:`Preferences --> Interface`.
+             :menuselection:`Preferences --> Interface -->
+             Adjustment buttons --> Permanent / Temporary`.
 
 .. hint:: If the tempo of a track changes, you'll notice that the tone changes
           based on the pitch used (e.g. playing at faster pitch gives a chipmunk
