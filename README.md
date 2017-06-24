@@ -81,7 +81,7 @@ above then you must manually install the following dependencies:
   interface. The Python-based command line client makes it easy to fetch and
   push translations.
 
-**Install transifex-client on Linux and Mac OS X**
+**Install transifex-client on Linux and macOS**
 
     $ pip install transifex-client
 

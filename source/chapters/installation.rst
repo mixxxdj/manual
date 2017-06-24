@@ -51,7 +51,7 @@ Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
              <http://mixxx.org/download/>`_ . In this case, ignore the message
              and continue the installation.
 
-Installation on Mac OS X
+Installation on macOS
 ========================
 
 .. figure:: ../_static/Mixxx-200-Installation-MacOSX.png
@@ -64,7 +64,7 @@ Installation on Mac OS X
 
    Mixxx Installation - Ready to drop the Mixxx icon to the Applications folder
 
-* Download Mixxx for Mac OS X from `<http://mixxx.org/download/>`_ .
+* Download Mixxx for macOS from `<http://mixxx.org/download/>`_ .
 * Using :file:`Finder` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
 * Double-click the Mixxx installer .DMG file, a new Finder window appears.
@@ -73,7 +73,7 @@ Installation on Mac OS X
 * Eject the Mixxx installation volume from the Finder by clicking on the icon
   right next to *Mixxx* volume name.
 
-Mixxx requires an Intel Mac running Mac OS X 10.8 or newer.
+Mixxx requires an Intel Mac running macOS 10.8 or newer.
 
 Installation on GNU/Linux
 =========================

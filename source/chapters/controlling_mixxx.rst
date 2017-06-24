@@ -163,7 +163,7 @@ folder, go to :menuselection:`Preferences --> Controllers` and click the
 folder in your :term:`OS <operating system>` file browser:
 
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
-  * OS X: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
+  * macOS: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
   * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
   * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
 

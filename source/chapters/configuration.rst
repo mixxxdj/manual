@@ -211,7 +211,7 @@ best choice is for your operating system.
 +-----------------------------+------------+
 | Windows / MME               | Poor       |
 +-----------------------------+------------+
-| Mac OS X / CoreAudio        | Good       |
+| macOS / CoreAudio           | Good       |
 +-----------------------------+------------+
 | GNU Linux / ALSA            | Good       |
 +-----------------------------+------------+
@@ -378,7 +378,7 @@ Importing your audio files
   supported by your :term:`OS <Operating System>`. :term:`DRM` protected files,
   such as m4p files purchased in the iTunes Store, are not supported.
 
-  AAC (M4A) is supported on Windows Vista and Mac OS X 10.8 onwards. The
+  AAC (M4A) is supported on Windows Vista and macOS 10.8 onwards. The
   `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
   is required for Windows Vista.
 

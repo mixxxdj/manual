@@ -76,7 +76,7 @@ New in Mixxx |version|
 System Requirements
 ===================
 
-Mixxx is available for Windows, Mac OS X and GNU/Linux. Mixxx is designed to
+Mixxx is available for Windows, macOS and GNU/Linux. Mixxx is designed to
 use very few system resources, but the Mixxx Development Team suggests these
 minimum requirements for having a great experience with Mixxx:
 
@@ -97,7 +97,7 @@ community driven. Together and with your help we aim to build the best DJ
 software ever created.
 
 Mixxx started as an open-source project because of demand for DJing software on
-Linux, and discontent with proprietary DJ software on Windows and Mac OS X.
+Linux, and discontent with proprietary DJ software on Windows and macOS.
 Today, Mixxx development is driven by the simple idea that together we can
 create a better way to DJ, and that has brought Mixxx to the cutting edge.
 

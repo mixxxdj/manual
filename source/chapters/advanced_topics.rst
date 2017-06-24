@@ -75,7 +75,7 @@ There are also some advanced options in the Midi Wizard you may need to use:
 The Controller wizard saves the new preset to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
-* Mac OS X: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
+* macOS: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
@@ -116,7 +116,7 @@ The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text
 file which can be found at the following location:
 
 * Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`
-* Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
+* macOS: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
 * Windows: :file:`<Mixxx installation directory>\\keyboard\\en_US.kbd.cfg`
 
 Depending on your system's language settings, Mixxx might use a different
@@ -128,7 +128,7 @@ all your changes may be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
-* Mac OS X: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
+* macOS: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
 Then edit this file and save the changes. On the next startup, Mixxx will check
@@ -154,7 +154,7 @@ can route each deck directly to 3rd party effect hosts.
 The following examples are only intended to encourage experimentation, they are
 not definitive guidance.
 
-Effects via AU Lab on Mac OS X
+Effects via AU Lab on macOS
 -------------------------------
 
 .. figure:: ../_static/Mixxx-111-external-fx-aulab-setup.png
@@ -164,9 +164,9 @@ Effects via AU Lab on Mac OS X
    :alt: The Au Lab routing for external effects
    :figclass: pretty-figures
 
-   The Au Lab routing for external effects on Mac OS X
+   The Au Lab routing for external effects on macOS
 
-On Mac OS X there is a simple and free way to give Mixxx access to the
+On macOS there is a simple and free way to give Mixxx access to the
 collection of AU/VST/MAS plugins that are installed on your system.
 
 * Install the free `Soundflower <https://code.google.com/p/soundflower/>`_,
@@ -233,9 +233,9 @@ The library file is stored in the following places depending on your
   To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in
   this folder.
 
-**Mac OS X**
+**macOS**
   The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`
-  folder in your home directory. To delete your library on Mac OS X type the
+  folder in your home directory. To delete your library on macOS type the
   following command into a terminal: ::
 
        rm ~/Library/Application\ Support/Mixxx/mixxxdb.sqlite

@@ -44,14 +44,14 @@ Glossary of Terms
 
    operating system
      Your operating system (OS) is the computing environment on your
-     computer. For example, Windows, Mac OS X, or GNU/Linux are the three
+     computer. For example, Windows, macOS, or GNU/Linux are the three
      operating systems that Mixxx supports.
 
    file manager
      A computer program that organizes data files into groups and shows you
      where they are when you need to find them again. Popular file managers for
      the :term:`operating systems <operating system>` Mixxx supports are
-     Explorer on Windows, Finder on Mac OS X and Nautilus on GNU/Linux.
+     Explorer on Windows, Finder on macOS and Nautilus on GNU/Linux.
 
    head/mix button
      The head/mix button is used to control how much you mix the :term:`master
@@ -438,3 +438,8 @@ Glossary of Terms
      this is the Sound API that Mixxx uses to communicate with the
      :term:`Operating System` to make use of the :term:`soundcards` connected to
      the computer.
+
+   macOS
+     macOS (originally named "Mac OS X" until 2012 and then "OS X" until 2016)
+     is the current Mac operating system that officially succeeded the classic
+     Mac OS in 2001.

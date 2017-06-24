@@ -194,7 +194,7 @@ Maximize Library                          Space
 ----------------------------------------  --------------------------------
 Full Screen (Windows & Linux)             F11
 ----------------------------------------  --------------------------------
-Full Screen (Mac OS X)                    Shift + Command + F
+Full Screen (macOS)                       Shift + Command + F
 ----------------------------------------  --------------------------------
 **Options menu**
 --------------------------------------------------------------------------
@@ -214,7 +214,7 @@ Enable Keyboard Shortcuts                 Ctrl + \`
 ----------------------------------------  --------------------------------
 Open Preferences (Windows & Linux)        Ctrl + P
 ----------------------------------------  --------------------------------
-Open Preferences (Mac OS X)               Ctrl + ,
+Open Preferences (macOS)                  Ctrl + ,
 ----------------------------------------  --------------------------------
 Exit Mixxx                                Ctrl + Q
 ----------------------------------------  --------------------------------
@@ -232,8 +232,8 @@ Debugger Enabled                          Ctrl + Shift + D
 ========================================  ================================
 
 .. hint:: The :kbd:`Ctrl` key on Windows & Linux is equivalent to the
-          :kbd:`Command` key on Mac OS X. The :kbd:`Alt` key on Windows & Linux
-          is equivalent to the :kbd:`Option` key on Mac OS X. Application
+          :kbd:`Command` key on macOS. The :kbd:`Alt` key on Windows & Linux
+          is equivalent to the :kbd:`Option` key on macOS. Application
           shortcuts are not customizable.
 
 .. note:: The Developer menu is available if Mixxx is started using the

@@ -280,16 +280,16 @@ Windows Troubleshooting
              Mixxx will show an error when activating live broadcasting and your
              stream will fail.
 
-Activate MP3 streaming support on Mac OS X
+Activate MP3 streaming support on macOS
 ------------------------------------------
 
 Method A: Download
 ^^^^^^^^^^^^^^^^^^
-To activate MP3 streaming on Mac OS X, follow these steps:
+To activate MP3 streaming on macOS, follow these steps:
 
   1. Download
      `LAME 3.98.4 <https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU>`_
-     Intel (Mac OS X 10.8+ 64-bit)
+     Intel (macOS 10.8+ 64-bit)
   #. Double-click on the downloaded zip file to unpack the file and you'll get
      an installer package file
   #. Double-click on the installer package file and follow the step-by-step
