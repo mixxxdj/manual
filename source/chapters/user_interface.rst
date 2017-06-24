@@ -149,8 +149,8 @@ separate waveforms. Select your preferred appearance in
 
 **Waveform overview**
 
-  ..versionadded:: 2.1.0
-    Darken played part of track in decks and samplers
+  .. versionadded:: 2.1.0
+     Darken played part of track in decks and samplers
 
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
