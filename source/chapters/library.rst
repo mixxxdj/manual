@@ -159,10 +159,14 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   playlist or crate in the sidebar.
 * **BPM Options sub-menu**:
 
-    * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200%
-      of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>` the
-      tracks. If many of the detected BPM values are incorrect, you might want
-      to adjust the :guilabel:`BPM Range` in the
+    .. versionadded:: 2.1
+       Add BPM conversions 133,33% and 150%
+
+    * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75%,
+      133,33%, 150%, or 200% of the BPM set by Mixxx when
+      :ref:`analyzing <configuration-analyze>` the tracks. If many of the
+      detected BPM values are incorrect, you might want to adjust the
+      :guilabel:`BPM Range` in the
       :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
       analysis.
 
