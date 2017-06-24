@@ -184,7 +184,8 @@ separate waveforms. Select your preferred appearance in
   While mixing, various additional markers can appear on the waveforms:
 
 * **Position marker**: The static vertical line in the center of the waveform
-  summary indicates the playback point of the deck.
+  summary indicates the playback point of the deck. The waveform overview
+  includes a vertical line to show the current position within the track.
 * **Beat marker**: The regular white lines on the waveform summary indicate the
   locations of beats in the audio, also called the :term:`beatgrid`.
 * **Cue marker**: Indicates the position of the :term:`cue point <cue>`.
