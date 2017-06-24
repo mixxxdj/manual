@@ -443,3 +443,16 @@ Glossary of Terms
      macOS (originally named "Mac OS X" until 2012 and then "OS X" until 2016)
      is the current Mac operating system that officially succeeded the classic
      Mac OS in 2001.
+
+   EQ
+   Equalizer
+     An equalizer allows the sound in specified frequency bands to be amplified
+     or reduced, in order to adjust the quality and character of the sound.
+
+     A simple graphic equalizer consists of multiple controls for boosting or
+     cutting bands or frequencies of sound.
+
+     A parametric equalizer controls more parameters of the sound than a graphic
+     equalizer. It can control three aspects of each frequency: level (boost or
+     cut), the center or primary frequency, and the bandwidth or range of each
+     frequency.
