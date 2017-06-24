@@ -248,6 +248,15 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
+.. versionadded:: 2.1.0
+
+   * ``--debugAssertBreak`` option
+   * ``--logLevel`` option
+
+.. versionchanged:: 2.1.0
+
+   * ``--controllerDebug`` option also prints outgoing MIDI messages
+
 ======================  =================================================
 Option                  Description
 ======================  =================================================
@@ -269,7 +278,8 @@ Option                  Description
                         database and preferences configuration file.
 ----------------------  -------------------------------------------------
 --controllerDebug       Causes Mixxx to display/log all controller data
-                        it receives and script functions it loads.
+                        it sends and receives, and script functions it
+                        loads.
 ----------------------  -------------------------------------------------
 --developer             Enables developer-mode. Includes extra log info,
                         stats on performance, a Developer tools menu,
@@ -287,9 +297,25 @@ Option                  Description
                         * Doesn't open controllers by default
 ----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
-                        (e.g 'fr')
+                        (e.g ``fr``)
 ----------------------  -------------------------------------------------
 -f, --fullScreen        Starts Mixxx in full-screen mode
+----------------------  -------------------------------------------------
+--logLevel LEVEL        Sets the verbosity of command line logging
+
+                        * ``critical`` - Critical/Fatal only
+                        * ``warning``  - Above + Warnings
+                        * ``info``     - Above + Informational messages
+                        * ``debug``    - Above + Debug/Developer messages
+                        * ``trace``    - Above + Profiling messages
+----------------------  -------------------------------------------------
+--debugAssertBreak      Breaks (SIGINT) Mixxx, if a DEBUG_ASSERT evaluates
+                        to false. Under a debugger you can continue
+                        afterwards. This  will also avoid to switch the
+                        MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to
+                        a time consuming full rebuild. Now the
+                        MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if
+                        --debugAssertBreak is not passed.
 ----------------------  -------------------------------------------------
 -h, --help              Display this help message and exit
 ======================  =================================================
@@ -310,10 +336,10 @@ Experiment modes for rapid development and testing
   * Adds a static Experiment class with a tri-state mode flag that indicates
     whether the experiment mode is OFF, BASE, or EXPERIMENT.
 
-  * Adds :menuselection:`Developer-->Stats:Experiment Bucket` and
-    :menuselection:`Developer-->Stats:Base Bucket`. Each one toggles between OFF
-    and BASE/EXPERIMENT so you can choose exactly what time spans you would like
-    to collect in your base and experiment buckets.
+  * Adds :menuselection:`Developer --> Stats:Experiment Bucket` and
+    :menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between
+    OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would
+    like to collect in your base and experiment buckets.
 
   * Updates StatsManager to segment collected stats into a base and experiment
     bucket. This allows you to quickly measure the difference a code change has

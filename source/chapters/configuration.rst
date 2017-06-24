@@ -17,7 +17,7 @@ Mixxx and importing your music to the Mixxx library.
   start menu and click the Mixxx icon, or perform a search for
   :file:`Mixxx.exe`.
 
-**Mac OSX**
+**macOS**
   Double-click the Mixxx icon in the :file:`Applications` folder. Alternatively,
   drag the Mixxx icon to the dock and double-click it there or search for
   :command:`mixxx` in Spotlight.
