@@ -146,9 +146,13 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
+.. versionadded:: 2.1.0
+   Add option to replace AutoDJ queue
+
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
-  playlist for automatic mixing.
+  playlist for automatic mixing. The :guilabel:`replace` option deletes the
+  Auto DJ queue first, and then fills it with the selected tracks.
 * **Load to Deck/Sampler**: Loads a selected file to a
   :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
   :ref:`Previewdeck <interface-preview-deck>`. Alternatively
