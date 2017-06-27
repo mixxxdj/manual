@@ -529,12 +529,17 @@ mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
 
+.. versionadded:: 2.10
+   Selection Info label
+
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
 * **Add Random button**: Add random track from Auto DJ track sources.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
 * **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
+* **Selection Info label**: Displays the duration and number of selected tracks.
+  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.  
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
