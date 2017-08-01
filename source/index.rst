@@ -29,10 +29,10 @@ Table of Contents
 
    chapters/introduction
    chapters/installation
-   chapters/setup
    chapters/configuration
    chapters/user_interface
    chapters/library
+   chapters/hardware
    chapters/controlling_mixxx
    chapters/vinyl_control
    chapters/livebroadcasting
