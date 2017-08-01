@@ -1,12 +1,14 @@
-Example Setups
-**************
+DJ Hardware
+***********
 
 .. sectionauthor::
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
    Be <be.0@gmx.com>
 
-Depending on your budget and application area, your sound setup and requirements may vary.
+Although Mixxx can be used with just a laptop computer, fully taking advantage of
+Mixxx's features requires specialized DJ hardware. Depending on your budget and
+application area, your setup and requirements may vary.
 This section provides useful information for club, hobby, and radio DJs alike.
 
 .. seealso:: The `Mixxx DJ Hardware Guide <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
@@ -15,6 +17,101 @@ This section provides useful information for club, hobby, and radio DJs alike.
              :term:`operating systems<operating system>`. It also has
              suggestions for what to consider when you are shopping for DJ
              equipment.
+
+Types of DJ Hardware
+====================
+
+.. seealso:: The `Mixxx DJ Hardware Guide
+             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+             lists controllers, sound cards, and mixers with information about
+             their compatibility with Mixxx and different
+             :term:`operating systems<operating system>`. It also has
+             suggestions for what to consider when you are shopping for DJ
+             equipment.
+
+Controllers
+-----------
+DJs often use a device called a DJ controller which has knobs, faders, buttons,
+jog wheels, and other components to control DJ software such as Mixxx. It is difficult
+to manipulate Mixxx's controls fast enough while music is playing with only a keyboard
+and mouse while looking at a computer screen. Controllers allow quick access to different
+controls while providing tactile and visual feedback indicating the state of each control,
+such as the position of a knob or whether a switch is on or off. This allows the DJ to
+focus on manipulating the music without needing to look at their computer screen all
+the time. Controllers also allow the DJ to use two hands to manipulate two different
+controls at the same time, which is required for many mixing techniques.
+
+DJ controllers typically do not do any actual audio processing. Instead, they
+send signals (typically :term:`MIDI` or :term:`HID` over a USB cable) to the computer
+to instruct DJ software how to manipulate the audio. Many DJ controllers include a
+soundcard with 2 separate stereo outputs built into the device. This allows the DJ to
+transport and setup only one piece of hardware in addition to a laptop. Some devices can
+be used as both controllers and hardware mixers.
+
+Soundcards
+----------
+A soundcard or audio interface is a device that allows a computer to send output to
+and receive input from audio equipment. Whether using internal or external mixing,
+it is recommended to use a single soundcard with at least 4 independent output channels
+(2 separate stereo pairs). Although the term "soundcard" originated with card-shaped
+devices installed directly into desktop computers, most DJs today use USB soundcards
+with laptop computers.
+
+The headphone jack on most laptops is not a second audio output.
+Rather, plugging headphones into the jack simply redirects the laptop's single
+stereo output from its speakers to your headphones. A splitter cable can be used
+to separate the stereo output of a headphone jack into two separate mono outputs
+for headphone cueing, but it is recommended to use a sound card with at least
+four mono outputs (for two stereo pairs). Such sound cards tend to be higher quality
+than those built into laptops and allow your mix to be enjoyed in stereo by your
+audience.
+
+Unlike some proprietary DJ systems, Mixxx can use any soundcard and any
+:term:`MIDI` or :term:`HID` controller that your :term:`OS <operating system>`
+has drivers to use. If your controller has an integrated soundcard, you may
+choose to use a different soundcard for higher quality audio. Mixxx can also
+use multiple audio devices simultaneously.
+
+Mixers
+------
+Mixers are devices that combine audio signals. Many DJ mixers have a USB soundcard
+built into them to send unmixed audio files from DJ software directly to the mixer
+without needing a separate stand-alone soundcard.
+
+.. hint:: Often DJs who use DJ software with internal mixing send their master output to
+          a hardware mixer. This can be helpful to send the mixed signal to both a main
+          speaker output for the audience and booth speakers for the DJ with separate gain
+          controls for each output. It also facilitates smooth transitions between DJs. However,
+          using an external mixer with internal mixing is not necessary. Each piece of
+          equipment an audio signal passes through reduces the sound quality, so avoiding
+          unnecessary equipment in the signal path can provide better sound quality. Many DJ
+          controllers provide separate master and booth outputs with independent volume controls.
+          Alternatively, a sound card with at least 6 output channels can be used with Mixxx's
+          Booth output.
+
+.. hint:: Many people confuse "analog mixers" and "hardware mixers", but these are
+          are not the same. Many hardware mixers process audio digitally with
+          specialized signal processors as opposed to a general purpose CPU like those in
+          laptop and desktop computers.
+
+Turntables
+----------
+
+CDJs
+----
+
+Microphones
+-----------
+
+.. warning:: USB microphones are not recommended for use with Mixxx. These microphones
+             have their own soundcard built in, which often creates complications when
+             configuring it at the same time as a different soundcard for output. Some
+             USB microphones have headphone jacks for direct monitoring, but this directly
+             monitored signal only includes the microphone signal without the music from
+             Mixxx.
+
+Example Setups
+==============
 
 .. _setup-laptop-only:
 

@@ -8,6 +8,21 @@ Installing Mixxx
 This part of the manual provides step-by-step directions for installing Mixxx on
 your computer.
 
+System Requirements
+===================
+
+Mixxx is available for Windows, Mac OS X and GNU/Linux. Mixxx is designed to
+use very few system resources, but the Mixxx Development Team suggests these
+minimum requirements for having a great experience with Mixxx:
+
+* A 2GHz or faster CPU
+* At least 1GB of RAM
+* A soundcard with 2 stereo audio outputs (4 mono output channels)
+
+.. hint:: The equalizerss can be disabled to save CPU usage. Using this feature,
+          Mixxx can be used with an external mixer and a less powerful computer
+          such as a netbook.
+
 Installation on Windows
 =======================
 .. figure:: ../_static/Mixxx-200-Installation-Windows.png
