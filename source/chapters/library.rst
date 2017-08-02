@@ -787,7 +787,7 @@ Analyze - Prepare your tracks
 This section allows you to analyze your tracks in advance of loading them into
 a deck. Analyzing tracks requires considerable CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
-play. See :ref:`configuration-analyze` for details.
+play. See :ref:`getting-started-analyze-library` for details.
 
 
 .. _library-3rd-party:
@@ -828,3 +828,24 @@ different location. Select :guilabel:`Use Default Library` to reset.
 
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
+
+Removing tracks from the library
+================================
+
+Removing tracks from the Mixxx library will **not** physically delete them from
+your drive. However it does delete extra metadata Mixxx might have (such as
+hotcues and the beatgrids), and removes links to playlists or crates.
+
+#. Click the :guilabel:`Library` item in the sidebar.
+#. Find and select the tracks you want to remove, perform a right-click on them
+   and select :guilabel:`Hide from Library` from the context menu.
+#. Expand the :guilabel:`Library` item in the sidebar and click on the
+   :guilabel:`Hidden tracks` sub-item. All tracks that were set to be hidden
+   from the library will appear here.
+#. Select the tracks you want to remove, or use the :guilabel:`Select All`
+   button.
+#. To confirm you want to permanently remove these tracks from the library,
+   click :guilabel:`Purge`.
+
+.. hint:: If you later decide to add some of the deleted tracks back, import
+          them to the Mixxx library again, see :ref:`configuration-import`.

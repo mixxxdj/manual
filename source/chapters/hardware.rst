@@ -1,3 +1,5 @@
+.. _hardware:
+
 DJ Hardware
 ***********
 
@@ -20,14 +22,6 @@ This section provides useful information for club, hobby, and radio DJs alike.
 
 Types of DJ Hardware
 ====================
-
-.. seealso:: The `Mixxx DJ Hardware Guide
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
-             lists controllers, sound cards, and mixers with information about
-             their compatibility with Mixxx and different
-             :term:`operating systems<operating system>`. It also has
-             suggestions for what to consider when you are shopping for DJ
-             equipment.
 
 Controllers
 -----------
@@ -116,6 +110,9 @@ Microphones
 
 Example Setups
 ==============
+
+.. seealso:: :ref:`getting-started-sound-io` has details about each available
+             input and output option.
 
 .. _setup-laptop-only:
 

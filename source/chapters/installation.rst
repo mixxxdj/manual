@@ -17,7 +17,8 @@ minimum requirements for having a great experience with Mixxx:
 
 * A 2GHz or faster CPU
 * At least 1GB of RAM
-* A soundcard with 2 stereo audio outputs (4 mono output channels)
+* A soundcard with 2 stereo audio outputs (4 mono output channels). If using a
+  microphone, a sound card with direct monitoring is recommended.
 
 .. hint:: The equalizerss can be disabled to save CPU usage. Using this feature,
           Mixxx can be used with an external mixer and a less powerful computer
@@ -152,10 +153,3 @@ If your operating system isn't listed here, then it's likely you're going to
 have to build Mixxx from the source code. For more information, go to:
 
 * `<http://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_
-
-Where to go from here?
-======================
-
-* :ref:`Open Mixxx and start importing your audio files <configuration-open>`
-* :doc:`Set up your audio devices and controllers <setup>`
-* :doc:`Get familiar with the Mixxx user interface <user_interface>`

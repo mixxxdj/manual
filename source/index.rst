@@ -29,7 +29,7 @@ Table of Contents
 
    chapters/introduction
    chapters/installation
-   chapters/configuration
+   chapters/getting_started
    chapters/user_interface
    chapters/library
    chapters/hardware
@@ -37,6 +37,7 @@ Table of Contents
    chapters/vinyl_control
    chapters/livebroadcasting
    chapters/djing_with_mixxx
+   chapters/preferences
    chapters/advanced_topics
    chapters/getting_involved
    chapters/appendix
