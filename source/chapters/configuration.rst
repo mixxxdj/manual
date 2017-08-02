@@ -82,20 +82,20 @@ inputs and outputs to be used.
 * **Microphone Mix Mode**: Controls the routing of microphone inputs. Refer to
   SECTION below for more details.
 
-* **Microphone Latency Compensation**: Only available when Microphone Mix Mode is
-  set to "Direct monitor (recording and broadcasting only)". This controls the amount
-  of time Mixxx uses to compensate for the latency of receiving microphone input.
-  It should be set to the measured round trip latency through the sound card. Refer
-  to SECTION below for more details.
+* **Microphone Latency Compensation**: Only available when Microphone Mix Mode
+  is set to "Direct monitor (recording and broadcasting only)". This controls
+  the amount of time Mixxx uses to compensate for the latency of receiving
+  microphone input. It should be set to the measured round trip latency through
+  the sound card. Refer to SECTION below for more details.
 
 * **Master Delay**: Use this if the Headphones output is delayed relative
   to the Master output, which can happen when using Bluetooth headphones.
 
 * **Headphones Delay**: If you hear sounds off beat in your headphones compared
-  to the main or booth speakers, use the Headphone Delay to align the sounds. This
-  occurs because it takes time for sound to travel from distant speakers to your
-  ears, but it takes a very short time for sound to travel from your headphones to
-  your ears.
+  to the main or booth speakers, use the Headphone Delay to align the sounds.
+  This occurs because it takes time for sound to travel from distant speakers
+  to your ears, but it takes a very short time for sound to travel from your
+  headphones to your ears.
 
   #. Switch to mono mode (see above).
   #. Listen to your headphones with one ear and the master speakers with the
@@ -110,10 +110,11 @@ inputs and outputs to be used.
      other ear.
   #. Increase the Headphone Delay until you hear beats at the same exact time in both ears.
 
-* **Booth Delay**: When using Mixxx's Booth output, if the speakers hooked up to the
-  Master output are farther away than the booth speakers and you hear the main speakers
-  over the booth speakers, you can use the Booth Delay to align the sounds. You may want
-  to increase the Headphones Delay as described above as well.
+* **Booth Delay**: When using Mixxx's Booth output, if the speakers hooked up
+  to the Master output are farther away than the booth speakers and you hear
+  the main speakers over the booth speakers, you can use the Booth Delay to
+  align the sounds. You may want to increase the Headphones Delay as described
+  above as well.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with real-time
@@ -135,7 +136,8 @@ Internal mixing
 """""""""""""""
 
 * **Master**: all decks, samplers, microphones, and auxiliary inputs mixed together
-* **Headphones**: all decks, samplers, microphones, and auxiliary inputs assigned to :term:`pre-fader listening <PFL>`
+* **Headphones**: all decks, samplers, microphones, and auxiliary inputs
+  assigned to :term:`pre-fader listening <PFL>`
 * **Booth**: same as Master output, but has a separate gain control
 
 External mixing
@@ -156,33 +158,40 @@ Internal mixing
 
 External mixing
 """""""""""""""
-* **Record/Broadcast**: When this is configured, Mixxx will record and broadcast from this soundcard input instead of the internal master mix.
+* **Record/Broadcast**: When this is configured, Mixxx will record and
+  broadcast from this soundcard input instead of the internal master mix.
 
 Either internal or external mixing
 """"""""""""""""""""""""""""""""""
-* **Vinyl Control 1-4**: timecode input from turntables or CDJs for manipulating decks 1-4
+* **Vinyl Control 1-4**: timecode input from turntables or CDJs for
+  manipulating decks 1-4
 
 Microphone Mix Mode and Latency Compensation
 --------------------------------------------
-The Microphone Mix Mode option presents three options for routing the microphone inputs:
+The Microphone Mix Mode option presents three options for routing the
+microphone inputs:
 
-* **Master output only**: The microphones are mixed with the master output. If the Booth output
-  is configured, the microphones are excluded from it. This can be helpful to prevent feedback
-  in a loud DJ booth.
-* **Master and booth outputs**: The microphones are mixed with both the master and booth outputs.
-* **Direct monitor (recording and broadcasting only)**: The microphones are recorded
-  and broadcasted, but are not mixed with the Master or Booth outputs. This is meant to be
-  used with a soundcard configured to directly monitor the microphone inputs.
+* **Master output only**: The microphones are mixed with the master output. If
+  the Booth output is configured, the microphones are excluded from it. This
+  can be helpful to prevent feedback in a loud DJ booth.
+* **Master and booth outputs**: The microphones are mixed with both the
+  master and booth outputs.
+* **Direct monitor (recording and broadcasting only)**: The microphones
+  are recorded and broadcasted, but are not mixed with the Master or Booth
+  outputs. This is meant to be used with a soundcard configured to directly
+  monitor the microphone inputs.
 
-The "Master output only" and "Master and booth outputs" options are referred to as software
-monitoring because the input signal is mixed with the music in softawre. Due to the nature of
-digital audio, it takes time for input from a soundcard to be available for Mixxx to process,
-time for Mixxx to process the audio, and more time to send the audio back out the soundcard.
-This time is referred to as "latency". Mixxx can be configured to run at low latencies, but there
-is no way to completely eliminate latency. Thus, if you use software monitoring, you will hear
-the microphone signal out of the speakers after you make sound into the microphone. Although
-latency is measured in milliseconds, even a few milliseconds can be disorienting and distracting,
-whether you are using the microphone for spoken announcements, vocals, or playing a musical
+The "Master output only" and "Master and booth outputs" options are referred to
+as software monitoring because the input signal is mixed with the music in
+softawre. Due to the nature of digital audio, it takes time for input from a
+soundcard to be available for Mixxx to process, time for Mixxx to process the
+audio, and more time to send the audio back out the soundcard. This time is
+referred to as "latency". Mixxx can be configured to run at low latencies, but
+there is no way to completely eliminate latency. Thus, if you use software
+monitoring, you will hear the microphone signal out of the speakers after you
+make sound into the microphone. Although latency is measured in milliseconds,
+even a few milliseconds can be disorienting and distracting, whether you are
+using the microphone for spoken announcements, vocals, or playing a musical
 instrument.
 
 .. figure:: ../_static/software-monitor-signal-path.png
@@ -194,13 +203,15 @@ instrument.
 
    Microphone input with software monitoring signal path
 
-To work around this issue, most soundcards with microphone inputs have a feature called
-direct monitoring. Soundcard manufacturers often refer to this as "zero latency monitoring"
-(although truly zero latency is physically impossible, the latency is so small it
-cannot be heard). This routes the audio from the soundcard's inputs directly to its outputs
-o avoid the latency of sending it into the computer and back out. The tradeoff is that you cannot
-use Mixxx's effects to process the microphone input in real time. How to activate direct
-monitoring varies on every sound card, so refer to your soundcard's manual for details.
+To work around this issue, most soundcards with microphone inputs have a
+feature called direct monitoring. Soundcard manufacturers often refer to this
+as "zero latency monitoring" (although truly zero latency is physically
+impossible, the latency is so small it cannot be heard). This routes the audio
+from the soundcard's inputs directly to its outputs to avoid the latency of
+sending it into the computer and back out. The tradeoff is that you cannot
+use Mixxx's effects to process the microphone input in real time. How to
+activate direct monitoring varies on every sound card, so refer to your
+soundcard's manual for details.
 
 .. figure:: ../_static/direct-monitor-signal-path.png
    :align: center
@@ -212,35 +223,38 @@ monitoring varies on every sound card, so refer to your soundcard's manual for d
    Microphone input with direct monitoring signal path
 
 .. warning:: USB microphones are not recommended for use with Mixxx. Some
-             USB microphones have headphone jacks for direct monitoring, but this directly
-             monitored signal only includes the microphone signal without the music from
-             Mixxx. These microphones have their own soundcard built in, which often
-             creates complications when configuring it at the same time as a different
-             soundcard for output.
+             USB microphones have headphone jacks for direct monitoring, but
+             this directly monitored signal only includes the microphone signal
+             without the music from Mixxx. These microphones have their own
+             soundcard built in, which often creates complications when
+             configuring it at the same time as a different soundcard for
+             output.
 
 Microphone Latency Compensation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-When using direct monitoring, it still takes time for Mixxx to receive the audio input
-and process it. Without compensating for this, the microphone inputs are out of time
-relative to the music in your recorded and broadcasted mixes even though they are aligned
-on the soundcard output with direct monitoring. Mixxx compensates for this latency in
-the recorded and broadcasted mixes if you configure the Microphone Latency Compensation
-option. The latency is equal to the amount of time it takes for audio to make a complete
-trip from your soundcard's input, through your computer, and back out the soundcard, also
-known as the round trip latency. Mixxx cannot calculate the round trip latency amount
-because it depends on details of your soundcard's hardware, your operating system,
-your soundcard's driver, and other factors in your computer's hardware. You must use a
-physical cable to directly connect an output on your soundcard to its input and use
-a third party program to measure the round trip latency. These programs are recommended
-on each OS:
+When using direct monitoring, it still takes time for Mixxx to receive the
+audio input and process it. Without compensating for this, the microphone
+inputs are out of time relative to the music in your recorded and broadcasted
+mixes even though they are aligned on the soundcard output with direct
+monitoring. Mixxx compensates for this latency in the recorded and broadcasted
+mixes if you configure the Microphone Latency Compensation option. The latency
+is equal to the amount of time it takes for audio to make a complete trip from
+your soundcard's input, through your computer, and back out the soundcard, also
+known as the round trip latency. Mixxx cannot calculate the round trip
+latency amount because it depends on details of your soundcard's hardware, your
+operating system, your soundcard's driver, and other factors in your computer's
+hardware. You must use a physical cable to directly connect an output on your
+soundcard to its input and use a third party program to measure the round trip
+latency. These programs are recommended on each OS:
 
 * **GNU/Linux**: jack_iodelay
 * **Windows**: RTL Utility
 * **macOS**: Audacity?
 
-Copy the time measured in milliseconds by the measurement program into the Microphone
-Latency Compensation option in Mixxx. You must use the same sample rate and audio buffer
-size in the measurement program as you do in Mixxx for the measurement to be accurate.
+Copy the time measured in milliseconds by the measurement program into
+the Microphone Latency Compensation option in Mixxx. You must use the same
+sample rate and audio buffer size in the measurement program as you do in Mixxx
+for the measurement to be accurate.
 
 .. figure:: ../_static/latency-measurement.png
    :align: center
@@ -251,63 +265,70 @@ size in the measurement program as you do in Mixxx for the measurement to be acc
 
    Measuring round trip latency
 
-.. hint:: Some soundcards, both standalone soundcards and soundcards integrated into DJ
-          controllers, have a loopback feature. This sends the mix of the directly
-          monitored inputs and the output from the computer back to the computer instead
-          of just sending the microphone input to the computer. If your soundcard supports
-          this, you can configure the soundcard's loopback input as Mixxx's Record/Broadcast
+.. hint:: Some soundcards, both standalone soundcards and soundcards
+          integrated into DJ controllers, have a loopback feature. This sends
+          the mix of the directly monitored inputs and the output from the
+          computer back to the computer instead of just sending the microphone
+          input to the computer. If your soundcard supports this, you can
+          configure the soundcard's loopback input as Mixxx's Record/Broadcast
           input and do not need to measure your round trip latency.
 
-.. warning:: The round trip latency varies unpredictably for each combination of sample rate
-             and audio buffer size with the same soundcard, computer, and OS. If you decide
-             to change the sample rate or buffer size you use with Mixxx, you will need to
-             remeasure your round trip latency to have your microphone inputs aligned in
-             your recorded and broadcasted mixes.
+.. warning:: The round trip latency varies unpredictably for each combination
+             of sample rate and audio buffer size with the same soundcard,
+             computer, and OS. If you decide to change the sample rate or
+             buffer size you use with Mixxx, you will need to remeasure your
+             round trip latency to have your microphone inputs aligned in your
+             recorded and broadcasted mixes.
 
 Configuring Direct Monitoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Stand-alone Soundcards
 """"""""""""""""""""
-On stand-alone soundcards, there is often a knob on the device that
-crossfades the soundcard's output between the signal from the computer and the directly
-monitored inputs. If your soundcard has a knob like this, set the knob to the center.
-Also, you will need to configure your soundcard to route the mono microphone inputs to
-both sides of the main stereo output. This is often controlled by a switch on the device
-as well.
+On stand-alone soundcards, there is often a knob on the device that crossfades
+the soundcard's output between the signal from the computer and the directly
+monitored inputs. If your soundcard has a knob like this, set the knob to
+the center. Also, you will need to configure your soundcard to route the mono
+microphone inputs to both sides of the main stereo output. This is often
+controlled by a switch on the device as well.
 
-Soundcards with lots of inputs & outputs often have a proprietary program provided
-by the manufacturer with the driver that can control direct monitoring and other
-soundcard features instead of knobs and switches on the hardware. On GNU/Linux, you
-might be able to access these controls with alsamixer.
+Soundcards with lots of inputs & outputs often have a proprietary
+program provided by the manufacturer with the driver that can control direct
+monitoring and other soundcard features instead of knobs and switches on the
+hardware. On GNU/Linux, you might be able to access these controls with
+alsamixer.
 
 DJ Controllers
 """"""""""""""
-DJ controllers with microphone inputs typically have direct monitoring of microphone inputs
-hardwired or switched on by default. Often, cheap DJ controllers hardwire microphone inputs
-directly to the master output without digitizing the signal to make it available to the
-computer. If this is the case, you cannot use Mixxx's microphone input to record or
-broadcast with your microphone using Mixxx's Microphone input. It is still possible to
-record/broadcast your microphone by using a splitter cable on your controller's master output
-and sending one of the split signals to a different soundcard's input while listening to the
-other split signal through speakers. Refer to your controller's manual and its page on the
-Mixxx wiki for details about setting up your specific controller's microphone inputs
-with Mixxx.
+DJ controllers with microphone inputs typically have direct monitoring
+of microphone inputs hardwired or switched on by default. Often, cheap DJ
+controllers hardwire microphone inputs directly to the master output without
+digitizing the signal to make it available to the computer. If this is the
+case, you cannot use Mixxx's microphone input to record or broadcast with your
+microphone using Mixxx's Microphone input. It is still possible
+to record/broadcast your microphone by using a splitter cable on your
+controller's master output and sending one of the split signals to a different
+soundcard's input while listening to the other split signal through speakers.
+Refer to your controller's manual and its page on the Mixxx wiki for details
+about setting up your specific controller's microphone inputs with Mixxx.
 
 External Mixers
 ^^^^^^^^^^^^^^^
-Another way to work around the latency issue is to send the output of Mixxx to a soundcard
-output, connect the soundcard output to a hardware's mixer input, plug the microphone into
-another input on the hardware mixer, and connect the hardware mixer's output to an input on
-your soundcard, and configure that soundcard input for Mixxx's Record/Broadcast
-input. Other software for radio and Internet broadcasting does not support latency compensation
-for microphone inputs and only works with this kind of setup. However, this setup is not
-recommended unless the mixer is a digital mixer and has an integrated USB soundcard. Every
-conversion between digital and analog signals adds noise and distortion to the signal, which
-reduces the sound quality. This type of setup is especially not recommended when using a
-computer's built in soundcard because it is not possible to use the mixer to mix stereo
-signals with only 2 output channels and sound cards built into computers tend to have
-bad sound quality. Instead, it is recommended use a soundcard capable of direct monitoring.
+Another way to work around the latency issue is to send the output of Mixxx to
+a soundcard output, connect the soundcard output to a hardware's mixer input,
+plug the microphone into another input on the hardware mixer, and connect the
+hardware mixer's output to an input on your soundcard, and configure that
+soundcard input for Mixxx's Record/Broadcast input. Other software for radio
+and Internet broadcasting does not support latency compensation for microphone
+inputs and only works with this kind of setup. However, this setup is
+not recommended unless the mixer is a digital mixer and has an integrated USB
+soundcard. Every conversion between digital and analog signals adds noise and
+distortion to the signal, which reduces the sound quality. This type of setup
+is especially not recommended when using a computer's built in soundcard
+because it is not possible to use the mixer to mix stereo signals with only 2
+output channels and sound cards built into computers tend to have bad sound
+quality. Instead, it is recommended use a soundcard capable of direct
+monitoring.
 
 .. _configuration-latency-samplerate-audioapi:
 

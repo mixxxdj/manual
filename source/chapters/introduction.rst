@@ -14,19 +14,21 @@ What Mixxx Does
 ===============
 Mixxx is different from typical music player applications because it is designed
 to play multiple audio files simultaneously and has many features to manipulate
-the playback of the audio files. This allows for creatively mixing different music
-together on the fly. Additionally, it allows you to preview the next track you
-would like to play before the audience hears it, also known as headphone cueing.
-In order to use headphone cueing, you need at least 2 separate audio outputs,
-typically provided by a USB soundcard (also known as an “audio interface”). Mixxx can
-be used in two different ways to provide headphone cueing:
+the playback of the audio files. This allows for creatively mixing
+different music together on the fly. Additionally, it allows you to preview the
+next track you would like to play before the audience hears it, also known as
+headphone cueing. In order to use headphone cueing, you need at least 2
+separate audio outputs, typically provided by a USB soundcard (also known as an
+“audio interface”). Mixxx can be used in two different ways to provide
+headphone cueing:
 
 **Internal Mixing**
 
   Mixxx plays multiple audio files on the computer at the same
   time, mixes them together, and sends the mixed output to one output. A
-  separate signal is sent to the other output for headphone cueing. Often a DJ controller
-  is used with internal mixing to provide easier control over Mixxx than a mouse and keyboard.
+  separate signal is sent to the other output for headphone cueing. Often a
+  DJ controller is used with internal mixing to provide easier control over
+  Mixxx than a mouse and keyboard.
 
   .. figure:: ../_static/mixxx_setup_midi_integrated_sound.png
      :align: center
@@ -35,19 +37,20 @@ be used in two different ways to provide headphone cueing:
      :alt: Using Mixxx together with a DJ controller and integrated soundcard
      :figclass: pretty-figures
 
-     Using Mixxx together with a DJ controller for internal mixing. The DJ controller has an
-     integrated soundcard that provides two separate stereo outputs.
-
+     Using Mixxx together with a DJ controller for internal mixing. The
+     DJ controller has an integrated soundcard that provides two separate
+     stereo outputs.
 
 **External Mixing**
 
   Mixxx plays multiple audio files on the computer at the same
   time and sends each track to a separate soundcard output. The soundcard's
-  outputs are plugged into an external hardware mixer. The hardware mixer performs
-  the actual mixing of the audio signals and provides separate outputs for the mixed
-  signal to play to the audience and for the DJ to use headphone cueing. External mixing
-  is typically used with vinyl control, and sometimes a small DJ controller is used to
-  control features of Mixxx that are not available on the hardware mixer.
+  outputs are plugged into an external hardware mixer. The hardware
+  mixer performs the actual mixing of the audio signals and provides separate
+  outputs for the mixed signal to play to the audience and for the DJ to use
+  headphone cueing. External mixing is typically used with vinyl control, and
+  sometimes a small DJ controller is used to control features of Mixxx that are
+  not available on the hardware mixer.
 
   .. figure:: ../_static/mixxx_setup_timecode_vc.png
      :align: center
