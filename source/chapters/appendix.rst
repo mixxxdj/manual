@@ -1,6 +1,44 @@
-
 Appendix
 ********
+
+Additional Resources
+====================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+Got questions? Need more information? Want to :ref:`contribute <contributing>`?
+There are a variety of other resources where you can find out more:
+
+* **Mixxx Website**: For general information and updates, as well as the latest
+  news on Mixxx, go to: `<http://mixxx.org>`_
+
+* **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
+  documentation on making controller mappings, and other tips and tricks, go to:
+  `<https://mixxx.org/wiki/doku.php>`_
+
+* **Mixxx Community Forums**: To search for answers, post your question or
+  answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
+
+* **Mixxx IRC Chat Channel**: Join the #mixxx channel on the
+  `Freenode IRC Network <http://www.freenode.net/>`_ for support or to chat with
+  other Mixxx users and developers. A web page for accessing the IRC channel is
+  available at `<https://mixxx.org/irc>`_
+
+* **Mixxx Source Code**: To download the source code for Mixxx, go to:
+  `<https://github.com/mixxxdj/mixxx>`_
+
+* **Mixxx Bug Tracker**: To report a bug or request a feature, go to:
+  `<https://bugs.launchpad.net/mixxx>`_
+
+* **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
+  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
+  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
+  first.
+
+* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
+  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
+  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .
 
 .. _appendix-keyboard:
 

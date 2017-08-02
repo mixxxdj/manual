@@ -2,34 +2,41 @@ Introduction to Mixxx
 *********************
 
 Mixxx allows you to perform live DJ mixes with your digital music collection.
-It helps you rock the party with DJ controllers, vinyl turntables, or even
-just your keyboard.
+It helps you rock the party with DJ controllers, vinyl turntables, or even just
+your keyboard. It is developed by an international team of volunteers who
+want to bring the joy of DJing to everyone. The project is non-profit,
+open-source and community driven. Together and with your help we aim to build
+the best DJ software ever created.
 
-Mixxx is used by professional DJs and bedroom DJs alike. It is designed by an
-international team of volunteer DJs who want to bring the joy of DJing to
-everyone. The project is non-profit, open-source and community driven. Together
-and with your help we aim to build the best DJ software ever created.
+Mixxx has lots of features to manipulate music, but these are only tools. Mixxx
+will not instantly make you a great DJ. It up to you to develop your own ways
+to use these tools in creative ways. This manual will help you understand
+Mixxx's features and provide hints about how to get started using them.
 
-What Mixxx Does
+Some effort has been made to present the material in a way that is neither too
+technical nor too dumbed-down. Take some time to look through it and you'll
+find lots of hints that will enhance both your enjoyment and your productivity.
+
+How Mixxx Works
 ===============
 Mixxx is different from typical music player applications because it is designed
-to play multiple audio files simultaneously and has many features to manipulate
-the playback of the audio files. This lets you creatively mix different music
-together on the fly.
+to play multiple audio files at the same time and has many features to
+manipulate the playback of the audio files. This lets you creatively mix
+different music together on the fly.
 
 Additionally, you can use Mixxx to preview the next track you would like to
 play in headphones before the audience hears it, also known as headphone
-cueing. This helps you to improvise and choose a track that will mix well into
-the currently playing tracks without having to plan out every detail in
-advance. In order to use headphone cueing, you need at least 2 separate audio
-outputs, typically provided by a USB soundcard (also known as an “audio
-interface”). Mixxx can be used in two different ways for headphone cueing:
+cueing. This helps you choose a track that is appropriate for the present
+moment and that will mix well into the currently playing track(s). In order to
+use headphone cueing, you need at least 2 separate audio outputs, typically
+provided by a USB soundcard (also known as an “audio interface”). Mixxx can be
+used in two different ways for headphone cueing:
 
 **Internal Mixing**
 
   Mixxx plays multiple audio files on the computer at the same
   time, mixes them together, and sends the mixed signal to one soundcard
-  output. A separate signal is sent to the other soundcard output for headphone
+  output. A separate signal is sent to another soundcard output for headphone
   cueing. Often a DJ controller is used with internal mixing to provide easier
   control over Mixxx than a mouse and keyboard.
 
@@ -51,9 +58,13 @@ interface”). Mixxx can be used in two different ways for headphone cueing:
   plugged into an external hardware mixer. The hardware mixer performs the
   actual mixing of the audio signals. On the hardware mixer, there are separate
   outputs for the mixed signal to play to the audience and for the DJ to use
-  headphone cueing. External mixing is typically used with vinyl control.
-  Sometimes DJs who use external mixing also use a small controller for Mixxx
-  features that are not available on the hardware mixer.
+  headphone cueing.
+
+  External mixing is typically used with turntables and
+  :ref:`special vinyl records<vinyl-control>` to manipulate digital music files
+  as if the music was on the vinyl records. Sometimes DJs who use external
+  mixing also use a small controller for Mixxx features that are not available
+  on the hardware mixer.
 
   .. figure:: ../_static/mixxx_setup_timecode_vc.png
      :align: center
@@ -62,96 +73,5 @@ interface”). Mixxx can be used in two different ways for headphone cueing:
      :alt: Using Mixxx together with turntables and external mixer
      :figclass: pretty-figures
 
-     Using Mixxx together with a USB sound card, external mixer, and timecode vinyl for
-     external mixing
-
-About the Mixxx Manual
-======================
-
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
-
-Some effort has been made to present the material in a way that is neither too
-technical nor too dumbed-down. Take some time to look through it and you'll
-find lots of hints that will enhance both your enjoyment and your productivity.
-
-Through the manual you'll find text formatted like this:
-
-* :menuselection:`Library --> Add new Playlist`
-
-  This is to simplify the business of choosing commands in menus. In this
-  example, the instruction means “Open the *Library* menu at the top of the
-  application window and then choose the *Add new Playlist* command”.
-
-* :guilabel:`Apply`
-
-  This is used to indicate a certain area of the :term:`GUI`, including button
-  labels, tabs, checkboxes, field names, values in selection lists etc. .
-
-* :kbd:`CTRL` + :kbd:`G`
-
-  This is used to mark a keystroke, or a sequence of keystrokes. In this
-  example, you would have to hold down the *Ctrl* key, then to press *G*.
-
-* `<https://www.wikipedia.org/>`_
-
-  Links to external websites are marked like this.
-
-Important information in this manual are highlighted like this:
-
-* .. note:: For anything that should receive a bit more attention.
-
-* .. hint:: For supplementary information that lightens the work load.
-
-* .. seealso:: For references to other documents or websites if they need
-               special attention.
-
-* .. warning:: For anything that needs to be done with caution.
-
-Improving the Manual
---------------------
-
-* **Send Feedback**: If you have comments, corrections or suggestions regarding
-  the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-Manual>`_.
-
-* **Get the Source Code**: To download the source code for the Mixxx manual, go
-  to: `<https://github.com/mixxxdj/manual>`_
-
-Additional Resources
-====================
-
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
-
-Got questions? Need more information? Want to :ref:`contribute <contributing>`?
-There are a variety of other resources where you can find out more:
-
-* **Mixxx Website**: For general information and updates, as well as the latest
-  news on Mixxx, go to: `<http://mixxx.org>`_
-
-* **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
-  documentation on making controller mappings, and other tips and tricks, go to:
-  `<https://mixxx.org/wiki/doku.php>`_
-
-* **Mixxx Community Forums**: To search for answers, post your question or
-  answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
-
-* **Mixxx IRC Chat Channel**: Join the #mixxx channel on the
-  `Freenode IRC Network <http://www.freenode.net/>`_ for support or to chat with
-  other Mixxx users and developers. A web page for accessing the IRC channel is
-  available at `<https://mixxx.org/irc>`_
-
-* **Mixxx Source Code**: To download the source code for Mixxx, go to:
-  `<https://github.com/mixxxdj/mixxx>`_
-
-* **Mixxx Bug Tracker**: To report a bug or request a feature, go to:
-  `<https://bugs.launchpad.net/mixxx>`_
-
-* **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
-  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
-  first.
-
-* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
-  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .
+     Using Mixxx together with a USB sound card, external mixer, and
+     timecode vinyl for external mixing
