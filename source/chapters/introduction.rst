@@ -14,21 +14,24 @@ What Mixxx Does
 ===============
 Mixxx is different from typical music player applications because it is designed
 to play multiple audio files simultaneously and has many features to manipulate
-the playback of the audio files. This allows for creatively mixing
-different music together on the fly. Additionally, it allows you to preview the
-next track you would like to play before the audience hears it, also known as
-headphone cueing. In order to use headphone cueing, you need at least 2
-separate audio outputs, typically provided by a USB soundcard (also known as an
-“audio interface”). Mixxx can be used in two different ways to provide
-headphone cueing:
+the playback of the audio files. This lets you creatively mix different music
+together on the fly.
+
+Additionally, you can use Mixxx to preview the next track you would like to
+play in headphones before the audience hears it, also known as headphone
+cueing. This helps you to improvise and choose a track that will mix well into
+the currently playing tracks without having to plan out every detail in
+advance. In order to use headphone cueing, you need at least 2 separate audio
+outputs, typically provided by a USB soundcard (also known as an “audio
+interface”). Mixxx can be used in two different ways for headphone cueing:
 
 **Internal Mixing**
 
   Mixxx plays multiple audio files on the computer at the same
-  time, mixes them together, and sends the mixed output to one output. A
-  separate signal is sent to the other output for headphone cueing. Often a
-  DJ controller is used with internal mixing to provide easier control over
-  Mixxx than a mouse and keyboard.
+  time, mixes them together, and sends the mixed signal to one soundcard
+  output. A separate signal is sent to the other soundcard output for headphone
+  cueing. Often a DJ controller is used with internal mixing to provide easier
+  control over Mixxx than a mouse and keyboard.
 
   .. figure:: ../_static/mixxx_setup_midi_integrated_sound.png
      :align: center
@@ -43,14 +46,14 @@ headphone cueing:
 
 **External Mixing**
 
-  Mixxx plays multiple audio files on the computer at the same
-  time and sends each track to a separate soundcard output. The soundcard's
-  outputs are plugged into an external hardware mixer. The hardware
-  mixer performs the actual mixing of the audio signals and provides separate
+  Mixxx plays multiple audio files on the computer at the same time and sends
+  each track to a separate soundcard output. The soundcard's outputs are
+  plugged into an external hardware mixer. The hardware mixer performs the
+  actual mixing of the audio signals. On the hardware mixer, there are separate
   outputs for the mixed signal to play to the audience and for the DJ to use
-  headphone cueing. External mixing is typically used with vinyl control, and
-  sometimes a small DJ controller is used to control features of Mixxx that are
-  not available on the hardware mixer.
+  headphone cueing. External mixing is typically used with vinyl control.
+  Sometimes DJs who use external mixing also use a small controller for Mixxx
+  features that are not available on the hardware mixer.
 
   .. figure:: ../_static/mixxx_setup_timecode_vc.png
      :align: center
@@ -85,10 +88,10 @@ Through the manual you'll find text formatted like this:
   This is used to indicate a certain area of the :term:`GUI`, including button
   labels, tabs, checkboxes, field names, values in selection lists etc. .
 
-* :kbd:`STRG` + :kbd:`G`
+* :kbd:`CTRL` + :kbd:`G`
 
   This is used to mark a keystroke, or a sequence of keystrokes. In this
-  example, you would have to hold down the *STRG* key, then to press *G*.
+  example, you would have to hold down the *Ctrl* key, then to press *G*.
 
 * `<https://www.wikipedia.org/>`_
 
@@ -120,17 +123,23 @@ Additional Resources
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-Got questions? Need more information? Want to :ref:`contribute <contributing>` ?
-There are a variety of other resources you can use to find out more.
+Got questions? Need more information? Want to :ref:`contribute <contributing>`?
+There are a variety of other resources where you can find out more:
 
 * **Mixxx Website**: For general information and updates, as well as the latest
   news on Mixxx, go to: `<http://mixxx.org>`_
 
-* **Mixxx Support Websites**: To get support from the Mixxx wiki, IRC channel
-  or Developer mailing list, go to: `<http://mixxx.org/support>`_
+* **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
+  documentation on making controller mappings, and other tips and tricks, go to:
+  `<https://mixxx.org/wiki/doku.php>`_
 
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
+
+* **Mixxx IRC Chat Channel**: Join the #mixxx channel on the
+  `Freenode IRC Network <http://www.freenode.net/>`_ for support or to chat with
+  other Mixxx users and developers. A web page for accessing the IRC channel is
+  available at `<https://mixxx.org/irc>`_
 
 * **Mixxx Source Code**: To download the source code for Mixxx, go to:
   `<https://github.com/mixxxdj/mixxx>`_
