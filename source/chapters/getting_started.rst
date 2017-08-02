@@ -39,13 +39,10 @@ sound hardware in :menuselection:`Preferences --> Sound Hardware`. At a
 minimum, one output must be configured. You do not need to configure all inputs
 and outputs.
 
-.. hint:: For Mixxx to perform the best it can on your system, configure
-          the other :ref:`preferences-sound-hardware` preferences in
-          addition to the inputs and outputs.
-
-.. seealso:: The :ref:`hardware` chapter explains different types of DJ
-             hardware and how to set them up with the the input and output
-             options.
+The :ref:`hardware` chapter explains different types of DJ hardware and how to
+set them up with the the input and output options. For Mixxx to perform the best
+it can on your system, configure the other :ref:`preferences-sound-hardware`
+preferences in addition to the inputs and outputs.
 
 .. figure:: ../_static/Mixxx-200-Preferences-Soundhardware.png
    :align: center
@@ -59,45 +56,44 @@ and outputs.
 Output Options
 --------------
 
-Internal mixing
-^^^^^^^^^^^^^^^
+**Internal mixing**:
+
 Use these outputs if you are not using an external hardware mixer. If you are
 using a controller with a built in soundcard, use these outputs.
 
-* **Master**: all decks, samplers, microphones, and auxiliary inputs mixed
+* *Master*: all decks, samplers, microphones, and auxiliary inputs mixed
   together. This output is sent to the speakers for the audience.
-* **Headphones**: all decks, samplers, microphones, and auxiliary inputs
+* *Headphones*: all decks, samplers, microphones, and auxiliary inputs
   assigned to :term:`pre-fader listening <PFL>`
-* **Booth**: same as Master output, but has a separate gain control
+* *Booth*: same as Master output, but has a separate gain control
 
-External mixing
-^^^^^^^^^^^^^^^
+**External mixing**:
 
-* **Decks 1-4**: the individual unmixed decks to send to an external mixer
-* **Bus Left/Center/Right**: all decks, samplers, and auxiliary inputs
+* *Decks 1-4*: the individual unmixed decks to send to an external mixer
+* *Bus Left/Center/Right*: all decks, samplers, and auxiliary inputs
   assigned to each side of Mixxx's crossfader
 
 Input Options
 -------------
 
-Internal mixing
-^^^^^^^^^^^^^^^
+**Internal mixing**:
+
 Use these inputs if you are not using an external hardware mixer. If you are
 using a controller with a built in soundcard, use these inputs.
 
-* **Microphone 1-4**: live microphone or musical instrument inputs
-* **Auxiliary 1-4**: other sound sources
+* *Microphone 1-4*: live microphone or musical instrument inputs
+* *Auxiliary 1-4*: other sound sources
 
-External mixing
-^^^^^^^^^^^^^^^
-* **Record/Broadcast**: When this is configured, Mixxx will record and
+**External mixing**:
+
+* *Record/Broadcast*: When this is configured, Mixxx will record and
   broadcast from this soundcard input instead of the internal master mix. If
   you have a microphone plugged into the mixer, do not configure the Microphone
   1-4 inputs.
 
-Either internal or external mixing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* **Vinyl Control 1-4**: timecode input from turntables or CDJs for
+**Either internal or external mixing**:
+
+* *Vinyl Control 1-4*: timecode input from turntables or CDJs for
   manipulating decks 1-4
 
 .. _getting-started-import-audio-files:
