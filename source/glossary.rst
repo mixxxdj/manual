@@ -335,6 +335,14 @@ Glossary of Terms
      signals to and from a computer. Today DJ-soundcards are usually connected
      via USB and have at least 2 stereo audio outputs to support :term:`cueing`.
 
+   direct monitoring
+     A feature of many :term:`soundcards` that allows microphones and other
+     input signals to be heard through the soundcard outputs with no
+     perceivable latency. With direct monitoring, the sound card mixes the
+     input signal in hardware with the output signal from Mixxx. This
+     bypasses the latency of sending the signal into the computer for Mixxx to
+     process and sending it back out to the soundcard.
+
    cue
      A Cue or Cue point is a reference point in the track usually placed on the
      position the DJ wants the track to start at by default. This is useful to
