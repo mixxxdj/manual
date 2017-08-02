@@ -39,9 +39,9 @@ sound hardware in :menuselection:`Preferences --> Sound Hardware`. At a
 minimum, one output must be configured. You do not need to configure all inputs
 and outputs.
 
-.. seealso:: For Mixxx to perform the best it can on your system, read the
-             full details about all the :ref:`preferences-sound-hardware`
-             preferences.
+.. hint:: For Mixxx to perform the best it can on your system, configure
+          the other :ref:`preferences-sound-hardware` preferences in
+          addition to the inputs and outputs.
 
 .. seealso:: The :ref:`hardware` chapter explains different types of DJ
              hardware and how to set them up with the the input and output
@@ -117,95 +117,23 @@ Importing your audio files
 
    Mixxx running on Windows 10 - Choose music library directory dialog
 
+The first time you run Mixxx, you are asked to select a directory where your
+music is stored. By default, the dialog points to a location where music files
+are typically held, but you can select any location on your computer.
 
-**Setup the music library**
-  The first time you run Mixxx, you are asked to select a directory where your
-  music is stored. By default, the dialog points to a location where music files
-  are typically held, but you can select any location on your computer.
+Click :guilabel:`Select Folder` and Mixxx will scan your music library.
+Depending on the size of your library this could take some time. All the
+supported music files Mixxx detects will be listed in the :ref:`library-root`.
 
-  Click :guilabel:`Select Folder` and Mixxx will scan your music library.
-  Depending on the size of your library this could take some time. All the
-  supported music files Mixxx detects will be listed in the :ref:`library-root`.
+If you want to refresh your library (for example because you added or moved
+files), you can do this with :menuselection:`Library --> Rescan Library` in
+the menu. If you want to rescan at every launch, select
+:menuselection:`Preferences --> Library --> Rescan on startup`.
 
-  If you want to refresh your library (for example because you added or moved
-  files), you can do this with :menuselection:`Library --> Rescan Library` in
-  the menu. If you want to rescan at every launch, select
-  :menuselection:`Preferences --> Library --> Rescan on startup`.
-
-  .. warning :: On Windows 7 and 8 the import dialog points to your Windows
-                “Music“ Library, a special-purpose virtual folder. You can
-                **not** use these virtual folders. Select a regular folder
-                instead, usually “My Music“, like pictured above.
-
-.. _getting-started-file-format-compatibility:
-
-**Compatible files**
-
-  Mixxx supports a variety of audio file formats:
-
-  Lossless:
-
-  * :term:`FLAC` (flac)
-  * :term:`Wave <WAV>` (wav)
-  * :term:`Aiff <AIFF>` (aiff, aif)
-
-  Lossy:
-
-  * :term:`MP3` (mp3)
-  * :term:`Ogg Vorbis` (ogg)
-  * :term:`AAC` (aac, m4a, mp4)
-  * :term:`Opus` (opus)
-
-  Lossless formats preserve every detail of the original recording and are
-  recommended for the best sound quality. Lossy formats take up less storage
-  space on your computer at the expense of reducing sound quality. However,
-  modern hard drives and solid state drives are big enough to store many
-  thousands of tracks in FLAC.
-
-  There is no benefit to converting lossy file to lossless formats. The detail
-  lost when  making the lossy file cannot be recovered.
-
-  AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
-  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
-  is required for Windows Vista.
-
-  On Linux, AAC playback is disabled by default due to licensing restrictions.
-  To enable the playback of AAC files,
-  `build Mixxx from source with m4a/AAC files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
-
-  .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
-               iTunes Store in 2009 or earlier, are not supported.
-
-  .. warning:: :term:`ALAC` files use the same container MP4 container format
-               and file extensions (m4a, mp4) as AAC files, but Mixxx cannot
-               play ALAC files. It is recommended to convert ALAC files to FLAC
-               for use in Mixxx. This will not reduce the sound quality of the
-               files.
-
-**Import external libraries**
-  If you have iTunes, Traktor, Rhythmbox, or Banshee installed, Mixxx allows you
-  to access your tracks and playlists in the Mixxx library,
-  see :ref:`library-3rd-party`.
-
-**Import remote files**
-  To import audio files which are not in your music library directory, drag them
-  directly from an external :term:`file manager` or from the
-  :ref:`Browse section<library-browse>` to the track list. Importing files
-  into Mixxx does not change the location of the files on the hard disk.
-
-  .. note :: You can not drag complete folders to the library because currently
-             Mixxx can not recursively scan folders for compatible music files.
-
-**Import playlists**
-  You can import existing :file:`m3u`, :file:`pls` , :file:`m3u8`, :file:`pls`
-  playlist files from products other than Mixxx, see :ref:`library-playlists`.
-
-**Import music from CDs**
-  Mixxx can not play music directly from audio CDs. Use a CD ripping program to
-  copy the audio from the CD to files on your computer. It is recommended to
-  save the ripped files in the :term:`FLAC` format. Many different programs are
-  available to rip CDs, but not every program is capable of saving them to
-  FLAC.
+.. warning :: On Windows 7 and 8 the import dialog points to your Windows
+              “Music“ Library, a special-purpose virtual folder. You can
+              **not** use these virtual folders. Select a regular folder
+              instead, usually “My Music“, like pictured above.
 
 .. _getting-started-analyze-library:
 

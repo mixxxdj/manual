@@ -20,9 +20,9 @@ minimum requirements for having a great experience with Mixxx:
 * A soundcard with 2 stereo audio outputs (4 mono output channels). If using a
   microphone, a sound card with direct monitoring is recommended.
 
-.. hint:: The equalizerss can be disabled to save CPU usage. Using this feature,
-          Mixxx can be used with an external mixer and a less powerful computer
-          such as a netbook.
+.. hint:: The equalizers can be disabled in the :ref:`preferences-equalizers` Preferences
+          to save CPU usage. Using this feature, Mixxx can be used with an external mixer and a
+          less powerful computer such as a netbook.
 
 Installation on Windows
 =======================

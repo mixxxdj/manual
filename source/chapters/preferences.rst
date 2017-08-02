@@ -527,7 +527,7 @@ The table below summarizes the Key detection settings:
 |                                       | in the library.                      |
 +---------------------------------------+--------------------------------------+
 
-.. _configuration-analyze:
+.. _preferences-equalizers:
 
 Equalizers
 ==========
