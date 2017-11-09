@@ -836,8 +836,8 @@ The Cue point is moved according to the selected Cue mode, as explained below.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-.. versionadded:: 2.0
-   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
+.. versionadded:: 2.1.0
+   The Mixxx/Pioneer/Denon/Numark/CUP Cue modes gives users now even more flexibility.
 
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup, or your personal preferences. The actual behavior of the Play, Pause, and
@@ -899,6 +899,18 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
   button.
 * This mode is useful if you want to implement a custom skin with 3-button decks,
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
+
+**CUP mode**
+
+* **While playing**:
+
+  * Tapping the Cue button causes the track to instantly jump to the location of 
+    the cue point. The track will start playing once the Cue button is released.
+
+* **While paused not at Cue point (Cue button flashing)**:
+
+  * Tapping the Cue button stores the current position as new Cue point. The 
+    track will start playing once the Cue button is released.
 
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
