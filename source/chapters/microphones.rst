@@ -131,20 +131,34 @@ signal.
 Mixxx can compensate for this timing misalignment, but it is complicated to
 set up. If you do not want to record or broadcast your microphone input, you do
 not need to set this up. To configure this, open
-:guilabel:`Options -> Preferences -> Sound Hardware`. For the
-:guilabel:`Microphone Monitor Mode` option, select **Direct monitor (recording
-and broadcasting only)**.
+:guilabel:`Options -> Preferences -> Sound Hardware` and click the
+:guilabel:`Input` tab. Select the soundcard input(s) for the Microphone 1-4
+inputs. Make sure you select only a single mono channel for each Microphone
+input instead of a stereo pair of channels (unless you have stereo
+microphones set up). For the :guilabel:`Microphone Monitor Mode` option, select
+**Direct monitor (recording and broadcasting only)**.
 
-Set the
-:guilabel:`Microphone Latency Compensation` option to the amount of time it
-takes for audio to make a complete trip from your soundcard's input, through
-your computer, and back out the soundcard, also known as the round trip latency.
-Mixxx cannot calculate the round trip latency amount because it depends on
-details of your soundcard's hardware, your operating system, your soundcard's
-driver, and other factors in your computer's hardware. You must use a physical
-cable to directly connect an output on your soundcard to its input and use a
-third party program to measure the round trip latency. These programs are
-recommended on each OS:
+Set the :guilabel:`Microphone Latency Compensation` option to the round trip
+latency. This is different from the size of the :ref:`preferences-audio-buffer`
+configured in Mixxx. The round trip latency is amount of time it takes for
+audio to make a complete trip from your soundcard's input, through your
+computer, and back out the soundcard. Mixxx cannot calculate the round trip
+latency amount because it depends on details of your soundcard's hardware, your
+operating system, your soundcard's driver, and other factors in your computer's
+hardware. You must use a physical cable to directly connect an output on your
+soundcard to its input and use a third party program to measure the round trip
+latency.
+
+.. figure:: ../_static/latency-measurement.png
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Measuring round trip latency
+   :figclass: pretty-figures
+
+   Measuring round trip latency
+
+These programs are recommended on each OS for measuring round trip latency:
 
 * **GNU/Linux**: jack_iodelay
 * **Windows**: RTL Utility
@@ -161,15 +175,6 @@ the relative volume of your microphone input to the music will be different in
 your recorded and broadcasted signal compared to what you hear from your
 speakers. Only adjust the microphone volume with the input gain control on your
 soundcard with direct monitoring.
-
-.. figure:: ../_static/latency-measurement.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Measuring round trip latency
-   :figclass: pretty-figures
-
-   Measuring round trip latency
 
 .. warning:: The round trip latency varies unpredictably for each
              combination of sample rate, audio buffer size, soundcard, computer,
