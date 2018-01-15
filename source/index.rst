@@ -34,6 +34,7 @@ Table of Contents
    chapters/hardware
    chapters/controlling_mixxx
    chapters/vinyl_control
+   chapters/microphones
    chapters/livebroadcasting
    chapters/djing_with_mixxx
    chapters/preferences
