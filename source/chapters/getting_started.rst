@@ -29,6 +29,72 @@ Mixxx and importing your music to the Mixxx library.
   :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` for an
   overview of Mixxx's command line options.
 
+.. _getting-started-import-audio-files:
+
+Importing your audio files
+==========================
+
+.. sectionauthor::
+   S.Brandt <s.brandt@mixxx.org>
+
+.. figure:: ../_static/Mixxx-200-1st-run-choose-library-directory-win.png
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Mixxx 1st run - Choose music library directory dialog
+   :figclass: pretty-figures
+
+   Mixxx running on Windows 10 - Choose music library directory dialog
+
+The first time you run Mixxx, you are asked to select a directory where your
+music is stored. By default, the dialog points to a location where music files
+are typically held, but you can select any location on your computer.
+
+Click :guilabel:`Select Folder` and Mixxx will scan your music library.
+Depending on the size of your library this could take some time. All the
+supported music files Mixxx detects will be listed in the :ref:`library-root`.
+
+If you want to refresh your library (for example because you added or moved
+files), you can do this with :menuselection:`Library --> Rescan Library` in
+the menu. If you want to rescan at every launch, select
+:menuselection:`Preferences --> Library --> Rescan on startup`.
+
+.. warning :: On Windows 7 and 8 the import dialog points to your Windows
+              “Music“ Library, a special-purpose virtual folder. You can
+              **not** use these virtual folders. Select a regular folder
+              instead, usually “My Music“, like pictured above.
+
+.. _getting-started-analyze-library:
+
+Analyze your library
+====================
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+
+|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
+them in a deck, nevertheless it is recommended that you analyze them before
+playing live to ensure the beatgrids are correct. Furthermore, track
+analysis takes considerable CPU power and might cause skips in the audio ---
+things you surely don't need while performing.
+
+Once you have configured your music directories and your BPM and key detection
+settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
+view on the left side panel of the library. This allows you to run
+:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
+advance. While analyzing, the progress in percentage and total queue length are
+shown.
+
+The Analyze features in detail:
+
+* **All / New radio-buttons**: Allows you to view a list of either all tracks in
+  the library or tracks added to the library within the last 7 days.
+* **Select All button**: Selects all tracks in the current view.
+* **Analyze button**: Starts the detection on the selected tracks.
+
+.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
+
 .. _getting-started-sound-io:
 
 Configuring sound input and output
@@ -95,69 +161,3 @@ using a controller with a built in soundcard, use these inputs.
 
 * *Vinyl Control 1-4*: timecode input from turntables or CDJs for
   manipulating decks 1-4
-
-.. _getting-started-import-audio-files:
-
-Importing your audio files
-==========================
-
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
-
-.. figure:: ../_static/Mixxx-200-1st-run-choose-library-directory-win.png
-   :align: center
-   :width: 50%
-   :figwidth: 100%
-   :alt: Mixxx 1st run - Choose music library directory dialog
-   :figclass: pretty-figures
-
-   Mixxx running on Windows 10 - Choose music library directory dialog
-
-The first time you run Mixxx, you are asked to select a directory where your
-music is stored. By default, the dialog points to a location where music files
-are typically held, but you can select any location on your computer.
-
-Click :guilabel:`Select Folder` and Mixxx will scan your music library.
-Depending on the size of your library this could take some time. All the
-supported music files Mixxx detects will be listed in the :ref:`library-root`.
-
-If you want to refresh your library (for example because you added or moved
-files), you can do this with :menuselection:`Library --> Rescan Library` in
-the menu. If you want to rescan at every launch, select
-:menuselection:`Preferences --> Library --> Rescan on startup`.
-
-.. warning :: On Windows 7 and 8 the import dialog points to your Windows
-              “Music“ Library, a special-purpose virtual folder. You can
-              **not** use these virtual folders. Select a regular folder
-              instead, usually “My Music“, like pictured above.
-
-.. _getting-started-analyze-library:
-
-Analyze your library
-====================
-
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
-
-|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
-them in a deck, nevertheless it is recommended that you analyze them before
-playing live to ensure the beatgrids are correct. Furthermore, track
-analysis takes considerable CPU power and might cause skips in the audio ---
-things you surely don't need while performing.
-
-Once you have configured your music directories and your BPM and key detection
-settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
-view on the left side panel of the library. This allows you to run
-:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
-advance. While analyzing, the progress in percentage and total queue length are
-shown.
-
-The Analyze features in detail:
-
-* **All / New radio-buttons**: Allows you to view a list of either all tracks in
-  the library or tracks added to the library within the last 7 days.
-* **Select All button**: Selects all tracks in the current view.
-* **Analyze button**: Starts the detection on the selected tracks.
-
-.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
