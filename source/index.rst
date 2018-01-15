@@ -28,7 +28,6 @@ Table of Contents
    :numbered:
 
    chapters/introduction
-   chapters/installation
    chapters/getting_started
    chapters/user_interface
    chapters/library
