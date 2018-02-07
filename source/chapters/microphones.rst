@@ -6,25 +6,23 @@ Using Microphones
 *****************
 There are three ways to use microphones with Mixxx, each with their own pros
 and cons:
-  * :ref:`Software monitoring<microphones-software-monitoring>`: cheapest and 
+  * :ref:`Software monitoring<microphones-software-monitoring>`: Cheapest and 
     simplest to set up, but there is a disorienting delay, referred to as 
     "latency", between sound going into the microphone and hearing it come out 
-    speakers or headphones
+    speakers or headphones.
   * :ref:`Direct monitoring<microphones-direct-monitoring>`: Recommended for 
-    most users. This avoids the latency of software monitoring but require a 
-    soundcard that supports this feature and can be complicated to set up.
-  * :ref:`Hardware mixers<microphones-hardware-mixers>`: most expensive 
-    option to set up with high sound quality
+    most users. This is the easiest and cheapest to set up with good sound 
+    quality and without the latency issue of software monitoring.
+  * :ref:`Hardware mixers<microphones-hardware-mixers>`: Most expensive option 
+    to set up with high sound quality. This does not have the latency issue of 
+    software monitoring.
 
-.. warning:: USB microphones are not recommended because they can only be 
-             used with software monitoring with Mixxx. not be used
-             with direct monitoring with Mixxx. Some USB microphones
-             have headphone jacks for direct monitoring, but the music
-             output from Mixxx cannot be heard together with the microphone
-             input from the headphone jack. Also, these microphones have their
-             own soundcard built in, which often creates complications when
-             configuring it at the same time as a different soundcard for
-             output.
+.. warning:: USB microphones are not recommended. These devices have their own 
+             soundcard built in and can only be used with software monitoring. 
+             Some USB microphones have headphone jacks for direct monitoring, 
+             but the music from Mixxx cannot be heard in this headphone jack. 
+             Also, they can be difficult to configure at the same time as a 
+             different soundcard for music output.
 
 .. _microphones-software-monitoring:
 
