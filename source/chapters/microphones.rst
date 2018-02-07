@@ -6,19 +6,22 @@ Using Microphones
 *****************
 There are three ways to use microphones with Mixxx, each with their own pros
 and cons:
-  * Software monitoring: cheapest and simplest to set up, but there is a
-    disorienting delay, referred to as "latency", between sound going into the
-    microphone and hearing it come out speakers or headphones
-  * Direct monitoring: avoids the latency of software monitoring but requires a
-    soundcard capable of direct monitoring and can be complicated to set
-    up. Recommended for most users.
-  * External mixing: most expensive option to set up with high sound quality
+  * :ref:`Software monitoring<microphones-software-monitoring>`: cheapest and 
+    simplest to set up, but there is a disorienting delay, referred to as 
+    "latency", between sound going into the microphone and hearing it come out 
+    speakers or headphones
+  * :ref:`Direct monitoring<microphones-direct-monitoring>`: Recommended for 
+    most users. This avoids the latency of software monitoring but require a 
+    soundcard that supports this feature and can be complicated to set up.
+  * :ref:`Hardware mixers<microphones-hardware-mixers>`: most expensive 
+    option to set up with high sound quality
 
-.. warning:: USB microphones are not recommended because they cannot be used
+.. warning:: USB microphones are not recommended because they can only be 
+             used with software monitoring with Mixxx. not be used
              with direct monitoring with Mixxx. Some USB microphones
              have headphone jacks for direct monitoring, but the music
              output from Mixxx cannot be heard together with the microphone
-             input in the headphone jack. Also, these microphones have their
+             input from the headphone jack. Also, these microphones have their
              own soundcard built in, which often creates complications when
              configuring it at the same time as a different soundcard for
              output.
@@ -31,13 +34,7 @@ Software monitoring can be used with the soundcard build into a computer, but
 it has a big drawback. Due to the nature of digital audio, it takes time for
 input from the soundcard to be available for Mixxx to process, time for Mixxx
 to process the audio, and more time to send the audio back out the soundcard.
-This time is referred to as "latency". Mixxx can be configured to run at low
-latencies by choosing a smaller :ref:`preferences-audio-buffer`, but there is no
-way to completely eliminate latency. Thus, if you use software monitoring, you
-will hear the microphone signal out of the speakers after you make sound into
-the microphone. Although latency is measured in milliseconds, even a few
-milliseconds can be disorienting and distracting, whether you are using the
-microphone for spoken announcements, vocals, or playing a musical instrument.
+This time is referred to as "latency".
 
 .. figure:: ../_static/software-monitor-signal-path.png
    :align: center
@@ -48,21 +45,29 @@ microphone for spoken announcements, vocals, or playing a musical instrument.
 
    Microphone input with software monitoring signal path
 
+Mixxx can be configured to run at low latencies by choosing a smaller 
+:ref:`preferences-audio-buffer`, but there is no way to completely eliminate 
+latency. Thus, if you use software monitoring, you will hear the microphone 
+signal out of the speakers after you make sound into the microphone. Although 
+latency is measured in milliseconds, even a few milliseconds of latency can be 
+disorienting and distracting to hear, whether you are using the microphone for 
+spoken announcements, vocals, or playing a musical instrument.
+
 .. _microphones-direct-monitoring:
 
 Direct monitoring
 -----------------
-To work around the issue of latency with
-:ref:`software monitoring <microphones-software-monitoring>`, most soundcards
-with microphone inputs have a feature called "direct monitoring".
-Soundcard manufacturers often refer to this feature as "zero latency monitoring"
-(although truly zero latency is physically impossible, the latency
-is so small it cannot be heard). Soundcards built into computers typically do
-not support direct monitoring.
+Direct monitoring with a :ref:`loopback input<microphones-loopback-input>` is 
+the recommended way to use microphones with Mixxx for most users. To use direct 
+monitoring, you need a soundcard that supports it. Most soundcards with 
+microphone inputs support direct monitoring. A soundcard 
+that also supports a loopback input is recommended for easier setup. Soundcards 
+that come built into computers typically do not support direct monitoring.
 
 Direct monitoring routes the audio from the soundcard's inputs directly to its
-outputs to avoid the latency of sending it into the computer and back out. At
-the same time, the soundcard sends the input into the computer so Mixxx can
+outputs to avoid the latency of sending it into the computer and back out with 
+:ref:`software monitoring <microphones-software-monitoring>`. At the same time, 
+the soundcard sends the input into the computer so Mixxx can
 record and broadcast it.
 
 .. figure:: ../_static/direct-monitor-signal-path.png
@@ -78,26 +83,32 @@ To setup direct monitoring, it must be
 :ref:`activated on your soundcard <microphones-activating-direct-monitoring-on-soundcard>`.
 If you are not recording or broadcasting the microphone with the music, no
 further setup is needed. To record and/or broadcast with the microphone
-signal mixed into the music, setting up a either a
-:ref:`loopback input <microphones-loopback-input>` or
-:ref:`latency compensation <microphones-latency-compensation>` is required.
+signal mixed into the music, set up a either a 
+:ref:`loopback input<microphones-loopback-input>` or
+:ref:`latency compensation <microphones-latency-compensation>`.
+
+Because the microphones are mixed with the music by the soundcard rather 
+than Mixxx, adjust the microphone volume with the input gain knob on 
+your soundcard. If you adjust the microphone gain knob in Mixxx, the volume 
+of the microphone relative to the music will be different in your recorded 
+and broadcasted mixes compared to what you hear from your soundcard's output.
 
 .. _microphones-loopback-input:
 
 Loopback Input
 ^^^^^^^^^^^^^^
 Some soundcards that support direct monitoring have a feature called
-"loopback". Using a soundcard with this feature is the recommended way
-to use microphones with Mixxx because it is the easiest and cheapest to setup
-without the latency issue of
-:ref:`software monitoring <microphones-software-monitoring>` and with good
-sound quality.
+"loopback". Using direct monitoring with a soundcard that supports loopback is 
+the recommended way to use microphones with Mixxx. It is the easiest to 
+setup without the latency issue of
+:ref:`software monitoring <microphones-software-monitoring>` and cheapest 
+to set up with good sound quality.
 
-Using direct monitoring, the soundcard mixes the microphone input with the
-music output from Mixxx in hardware. This avoids the latency of sending the
+Using direct monitoring, the microphone input is mixed with the music output 
+from Mixxx by the soundcard. This avoids the latency of sending the
 microphone signal into the computer and back out. The mixed signal is sent to
 the speakers connected to the main output. Using the loopback feature, that
-mixed signal is sent to the computer instead of the microphone signal alone,
+mixed signal is sent into the computer instead of the microphone signal alone,
 typically using input channels 1-2.
 
 .. figure:: ../_static/direct-monitor-loopback-signal-path.png
@@ -112,25 +123,37 @@ typically using input channels 1-2.
 To configure Mixxx with a loopback input, open
 :guilabel:`Options -> Preferences -> Sound Hardware`, click the
 :guilabel:`Input` tab, and select the soundcard for the **Record/Broadcast
-input**. Do not configure anything for the Microphone 1-4 inputs. The
-microphone controls in Mixxx will not affect your microphones because they are
-mixed in hardware by the soundcard and not sent directly to Mixxx. Use the gain
-knobs on the soundcard to control the volume of the microphones.
+input**.
 
-.. _microphones_latency_compensation:
+Do not configure anything for the Microphone 1-4 inputs. The microphone 
+controls in Mixxx will not affect your microphones because they are mixed by 
+the soundcard and not sent directly to Mixxx.
+
+.. _microphones-latency-compensation:
 
 Latency Compensation
 ^^^^^^^^^^^^^^^^^^^^
 When using direct monitoring without a
 :ref:`loopback input <microphones-loopback-input>`, it still takes time for
-Mixxx to receive the audio input and process it. Without compensating for this,
-the microphone inputs are out of time relative to the music in your recorded
-and broadcasted mixes even though they are aligned in the soundcard's output
-signal.
+Mixxx to receive the audio input from the soundcard and process it. Without 
+compensating for this, the microphone inputs are out of time relative to the 
+music in your recorded and broadcasted mixes even though they are aligned in 
+what you hear from your soundcard's output.
+
+.. figure:: ../_static/direct-monitor-input-latency.png
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Diagram explaining latency offset with direct monitoring
+   :figclass: pretty-figures
+   
+   Diagram explaining latency offset with direct monitoring
 
 Mixxx can compensate for this timing misalignment, but it is complicated to
-set up. If you do not want to record or broadcast your microphone input, you do
-not need to set this up. To configure this, open
+set up. If you do not want to record your microphone into your mix or 
+broadcast, you do not need to set this up.
+
+To configure latency compensation, open
 :guilabel:`Options -> Preferences -> Sound Hardware` and click the
 :guilabel:`Input` tab. Select the soundcard input(s) for the Microphone 1-4
 inputs. Make sure you select only a single mono channel for each Microphone
@@ -147,7 +170,12 @@ latency amount because it depends on details of your soundcard's hardware, your
 operating system, your soundcard's driver, and other factors in your computer's
 hardware. You must use a physical cable to directly connect an output on your
 soundcard to its input and use a third party program to measure the round trip
-latency.
+latency. These programs are recommended on each OS for measuring round trip 
+latency:
+
+* **GNU/Linux**: jack_iodelay
+* **Windows**: RTL Utility
+* **macOS**: Audacity?
 
 .. figure:: ../_static/latency-measurement.png
    :align: center
@@ -158,23 +186,11 @@ latency.
 
    Measuring round trip latency
 
-These programs are recommended on each OS for measuring round trip latency:
-
-* **GNU/Linux**: jack_iodelay
-* **Windows**: RTL Utility
-* **macOS**: Audacity?
-
 Copy the time measured in milliseconds by the measurement program into
 the :guilabel:`Microphone Latency Compensation` option in Mixxx's Sound
 Hardware Preferences. You must use the same sample rate and audio buffer size
 in the measurement program as you do in Mixxx for the measurement to be
 accurate.
-
-If you adjust the microphone gain knob in Mixxx while using direct monitoring,
-the relative volume of your microphone input to the music will be different in
-your recorded and broadcasted signal compared to what you hear from your
-speakers. Only adjust the microphone volume with the input gain control on your
-soundcard with direct monitoring.
 
 .. warning:: The round trip latency varies unpredictably for each
              combination of sample rate, audio buffer size, soundcard, computer,
@@ -207,32 +223,18 @@ access these controls with alsamixer.
 Refer to the section below for details about using microphones with
 :ref:`DJ controllers <microphones-dj-controllers>`.
 
-.. _microphones-external-mixing:
+.. _microphones-hardware-mixers:
 
-External mixing
----------------
-Another way to work around the latency issue with software monitoring is to
-send the output of Mixxx to a hardware mixer, plug a microphone into the
-hardware mixer, and send the output of the hardware mixer back to Mixxx. To do
-this, connect the output of the mixer to a soundcard input and configure that
-soundcard input for Mixxx's Record/Broadcast input in
-:guilabel:`Options -> Preferences -> Sound Hardware`. Other software for radio
-and Internet broadcasting does not support latency compensation for microphone
-inputs and only works with this kind of setup. This is generally not
-recommended because mixers that can do this without decreasing the sound
-quality of the music are much more expensive than soundcards with
-microphone inputs that support
-:ref:`direct monitoring <microphones-direct-monitoring>`.
-
-Every conversion between digital and analog signals adds noise and distortion
-to the signal, which reduces the sound quality. So, if you want to use an
-external mixer with a microphone input, it is recommended to use a digital
-mixer with a built in USB soundcard.
-
-Using a hardware mixer with a computer's built in soundcard is not recommended.
-It is not possible to use the mixer to mix stereo signals with only 2
-output channels. Also, sound cards built into computers tend to have bad sound
-quality.
+Hardware Mixers
+----------------
+Mixxx can be used with a microphone plugged into an external hardware mixer. 
+This does not have the problem with latency that happens with
+:ref:`software monitoring<microphones-software-monitoring>`, but it is 
+generally recommeded to use a sound card that supports
+:ref:`direct monitoring<microphones-direct-monitoring>` and a
+:ref:`loopback input<microphones-loopback-input>` instead. Mixers that can be 
+used with Mixxx without reducing the sound quality of the music tend to be much 
+more expensive than sound cards that support direct monitoring.
 
 .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
    :align: center
@@ -241,31 +243,67 @@ quality.
    :alt: Using a microphone with an external mixer
    :figclass: pretty-figures
 
-   Using a microphone with an external mixer
+   Using a microphone with an external mixer and a stand-alone USB soundcard
+
+Every conversion between digital and analog signals adds noise and distortion 
+to the signal, which reduces the sound quality. Typically, a soundcard that 
+converts the digital signals from Mixxx to analog is required to use Mixxx with 
+an external mixer. To record and/or broadcast the mix, the mixer's analog 
+output has to be converted back to digital by the soundcard to send it back 
+to Mixxx. Alternatively, some mixers process signals digitally and have a 
+built-in USB soundcard. These digital mixers can send signals back and forth to 
+Mixxx without converting them to analog. Using these mixers with Mixxx will not 
+reduce the sound quality of the music.
+
+.. figure:: ../_static/external-mixing-with-microphone-signal-path.png
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Using a microphone with an external mixer that has a built in USB 
+         soundcard
+   :figclass: pretty-figures
+
+   Using a microphone with an external mixer that has a built in USB soundcard
+   
+To configure Mixxx for using a hardware mixer and a microphone, go to
+:guilabel:`Options -> Preferences -> Sound Hardware`. In the Output 
+tab, configure the :guilabel:`Deck 1-2` outputs (and :guilabel:`Deck 3-4` 
+outputs if your soundcard and mixer support 4 decks) to send Mixxx's decks to 
+the mixer. In the Input tab, if you want to record and/or broadcast your mix, 
+configure the :guilabel:`Record/Broadcast` input to soundcard channels 
+connected to the mixer's record, booth, or auxiliary output. For mixers with a 
+built-in USB soundcard, refer to the mixer manufacturer's manual to find which 
+channels of the mixer's soundcard send the record output back to the computer 
+for the :guilabel:`Record/Broadcast` input. Do not configure anything for the
+:guilabel:`Microphone 1-4` inputs.
+
+Using a hardware mixer with a computer's built in soundcard is not recommended.
+It is not possible to use the mixer to mix stereo signals with only 2
+output channels. Also, soundcards built into computers tend to have bad sound
+quality.
 
 .. _microphones-dj-controllers:
 
-DJ Controllers
---------------
-DJ controllers with microphone inputs typically have
-:ref:`direct monitoring <microphones-direct-monitoring>` of microphone inputs
-hardwired or switched on by default. Some DJ controllers also have a
-:ref:`loopback input <microphones-loopback-input>` for easier setup, which may
-need to be configured in the soundcard control panel provided by the
-manufacturer with the driver. Refer to the controller's manual and its page on
-the Mixxx wiki for details about setting up the specific controller's
-microphone inputs with Mixxx.
+DJ Controllers With Microphone Inputs
+--------------------------------------
+DJ controllers with microphone inputs typically mix the microphone input with 
+the master output without sending it to the computer. This does not have the 
+problem with latency that happens with
+:ref:`software monitoring<microphones-software-monitoring>`. However, many 
+cheap DJ controllers do not digitize the signal to make it available to the
+computer. Refer to the controller's page on the
+`Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+or the manual from the controller manufacturer for details about your 
+particular controller.
 
-Many cheap DJ controllers hardwire microphone inputs directly to the
-master output without digitizing the signal to make it available to the
-computer. If this is the case, you cannot use Mixxx's microphone input to
-record or broadcast with the microphone using Mixxx's Microphone input. It is
-still possible to record and broadcast the microphone by connecting the booth
-output of the controller to a soundcard input and configuring this for Mixxx's
-:guilabel:`Record/Broadcast` input. If the controller does not have a booth
-output, a Y splitter cable can be used on each side of the stereo main output
-to connect the main output to both the speakers and to another soundcard's
-input.
+If the controller does not digitize the microphone input, you cannot use 
+Mixxx's microphone input to record or broadcast with the microphone using 
+Mixxx's :guilabel:`Microphone 1-4` inputs. It is still possible to record and 
+broadcast the microphone by connecting the booth output of the controller to a 
+soundcard input and configuring this for Mixxx's :guilabel:`Record/Broadcast` 
+input. If the controller does not have a booth output, a Y splitter cable can 
+be used on each side of the stereo main output to connect the main output to 
+both the speakers and to another soundcard's input.
 
 .. figure:: ../_static/dj-controller-with-mic-and-splitter-cables.png
    :align: center
@@ -275,5 +313,5 @@ input.
          broadcast the mix with a microphone
    :figclass: pretty-figures
 
-    Using a DJ controller with Y splitter cables to record and/or
-    broadcast the mix with a microphone
+   Using a DJ controller with Y splitter cables to record and/or broadcast the 
+   mix with a microphone
