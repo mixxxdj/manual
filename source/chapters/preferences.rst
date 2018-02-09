@@ -4,8 +4,7 @@
 
 Preferences
 ***********
-Mixxx has many options to customize in
-:menuselection:`Options --> Preferences`.
+Mixxx has many options to customize in :menuselection:`Options --> Preferences`.
 
 .. _preferences-sound-hardware:
 
@@ -26,13 +25,10 @@ To achieve the best performance with Mixxx it is essential to configure your
 determine Mixxx's responsiveness and reliability. The optimal settings
 will vary based on your computer and hardware quality.
 
-If you are using a microphone, it is important to configure the
-:ref:`preferences-mic-monitor-mode`.
-
 For information about the different input and output options, refer to
 :ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains different
 types of DJ hardware and how to set them up with the the input and output
-options.
+options. If you are using a microphone, refer to the :ref:`microphones` chapter.
 
 .. _preferences-audio-buffer:
 
@@ -49,8 +45,8 @@ factors.
 
 The audio buffer setting determines how quickly your :term:`Operating System`
 expects Mixxx to react. A smaller audio buffer means Mixxx will be more
-responsive, but requires a faster CPU and quality sound card. Setting your
-audio buffer too small may be too much for your computer and sound card to
+responsive, but requires a faster CPU and quality audio interface. Setting your
+audio buffer too small may be too much for your computer and audio interface to
 handle. In this situation, Mixxx playback will be choppy and very clearly
 distorted as your system will not be able to keep up with how frequently Mixxx
 is trying to processing audio. It is recommended to set your audio buffer as
@@ -97,7 +93,7 @@ Sound API
 ---------
 
 The Sound :term:`API` that Mixxx uses is the method by which Mixxx talks to your
-:term:`Operating System` in order to deliver audio to your soundcard. Your
+:term:`Operating System` in order to deliver audio to your audio interface. Your
 choice of Sound API can drastically affect Mixxx's performance on your
 computer. **Therefore it is important to take care to choose the best Sound API
 available to you.**
@@ -113,13 +109,14 @@ The following Sound APIs are available on Windows:
   * **MME**: Poor
 
 It is best to use the ASIO Sound API that bypassses the sound processing of the
-Windows kernel. Using ASIO requires a driver for your soundcard from
+Windows kernel. Using ASIO requires a driver for your audio interface from
 the manufacturer. Check the manufacturer's website to see if a driver download
 is available. Soundcards designed for musicians almost always have an ASIO
-driver available, but soundcards built into computers and very cheap soundcards
-typically do not have an ASIO driver. If there is no ASIO driver available for
-your soundcard, use the WDM-KS API. There is generally no advantage to using
-`ASIO4ALL <http://asio4all.com>`_, a wrapper around the WDM-KS API.
+driver available, but audio interfaces built into computers and very cheap 
+audio interfaces typically do not have an ASIO driver. If there is no ASIO 
+driver available for your audio interface, use the WDM-KS API. There is 
+generally no advantage to using `ASIO4ALL <http://asio4all.com>`_, a wrapper 
+around the WDM-KS API.
 
 GNU/Linux
 ^^^^^^^^^
@@ -130,7 +127,7 @@ The following Sound APIs are available on GNU/Linux:
   * **OSS**: Acceptable
 
 ALSA is the simplest sound API to configure. Using ALSA will prevent any other
-programs from using the soundcard(s) that Mixxx is using.
+programs from using the audio interface(s) that Mixxx is using.
 
 JACK allows you to route audio between JACK-compatible applications in flexible
 ways and output sound from multiple programs at the same time. However, JACK can
@@ -142,7 +139,7 @@ a Sound API in the preferences.
 Most modern GNU/Linux distributions use PulseAudio by default. When
 launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is
 running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows
-multiple programs to access one sound card, but PulseAudio and JACK have
+multiple programs to access one audio interface, but PulseAudio and JACK have
 opposite design goals. PulseAudio is designed to make ordinary computer usage
 such as watching videos online and listening to music easy whereas JACK is
 designed for demanding low latency audio programs like Mixxx. It can be
@@ -151,13 +148,14 @@ already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.
 
 If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can
 choose the virtual device ``pulse``. This allows Mixxx to share the default
-system sound card with other media players. This only works if you start
+system audio interface with other media players. This only works if you start
 Mixxx without pasuspender, which you can do by running :command:`mixxx` from a
 console rather than clicking the launcher icon in a menu or on your desktop.
 Since the sound stream is routed from ALSA to Pulse and back to ALSA, this adds
 an additional latency of ~2 x the selected audio buffer size.
 
-OSS is an Sound API that predates ALSA. Few modern soundcards have OSS drivers.
+OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS 
+drivers.
 
 macOS
 ^^^^^
@@ -166,10 +164,10 @@ CoreAudio is the only Sound API on macOS.
 Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
-  :term:`soundcards` at a time, each with its own clock. When multiple
-  soundcards are in use, the Mixxx engine is driven by the Master
-  soundcard. Here you can select the synchronization used for the other
-  soundcards to avoid buffer overflows or underflows.
+  :term:`audio interfaces` at a time, each with its own clock. When multiple
+  audio interfaces are in use, the Mixxx engine is driven by the Master
+  audio interface. Here you can select the synchronization used for the other
+  audio interfaces to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
   for independent tempo and pitch changes (e.g. :term:`keylock`). Use
@@ -180,9 +178,10 @@ Other Sound Hardware options
   you do not use the Master output, recording or live broadcasting.
 
 * **Master Output Mode**: In Mono mode, the left and right channel are combined
-  into a mono signal which is passed to both channels of your master sound card.
-  This is useful for setups where the audience cannot hear your mix in stereo
-  because of speaker placement or playing in a space with lots of reverberation.
+  into a mono signal which is passed to both channels of your master audio 
+  interface. This is useful for setups where the audience cannot hear your mix 
+  in stereo because of speaker placement or playing in a space with lots of 
+  reverberation.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
   indicate that some of the subsystems in Mixxx can't keep up with real-time

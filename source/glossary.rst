@@ -328,17 +328,22 @@ Glossary of Terms
      which is something like an an .exe or a .dll file. By using binaries you
      are relieved of the task of having to compile the code by yourself.
 
+   audio interface
+     An audio interface is a device that facilitates the input and output of 
+     audio signals to and from a computer, typically connected by USB. Almost 
+     all computers come with a basic audio interface built in, but a higher
+     quality audio interface with at least 4 output channels is recommended for
+     Mixxx.
+   
    soundcard
    soundcards
-     Also known as an audio card, it is an internal computer expansion card or
-     external expansion device that facilitates the input and output of audio
-     signals to and from a computer. Today DJ-soundcards are usually connected
-     via USB and have at least 2 stereo audio outputs to support :term:`cueing`.
+     Another name for an :term:`audio interface`, although few audio interfaces
+     are shaped like cards anymore.
 
    direct monitoring
      A feature of many :term:`soundcards` that allows microphones and other
      input signals to be heard through the soundcard outputs with no
-     perceivable latency. With direct monitoring, the sound card mixes the
+     perceivable latency. With direct monitoring, the audio interface mixes the
      input signal in hardware with the output signal from Mixxx. This
      bypasses the latency of sending the signal into the computer for Mixxx to
      process and sending it back out to the soundcard.

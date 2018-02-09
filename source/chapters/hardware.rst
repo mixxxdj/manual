@@ -35,19 +35,18 @@ which is required for many mixing techniques.
 DJ controllers typically do not do any actual audio processing. Instead, they
 send signals (typically :term:`MIDI` or :term:`HID` over a USB cable) to the
 computer to instruct DJ software how to manipulate the audio. Many DJ
-controllers include a soundcard with 2 separate stereo outputs built into the
-device. This allows the DJ to transport and setup only one piece of hardware in
-addition to a laptop. Some devices can be used as both controllers and hardware
-mixers.
+controllers include an audio interface with 2 separate stereo outputs built 
+into the device. This allows the DJ to transport and setup only one piece of 
+hardware in addition to a laptop. Some devices can be used as both controllers 
+and hardware mixers.
 
-Soundcards
-----------
-A soundcard or audio interface is a device that allows a computer to send
-output to and receive input from audio equipment. Whether using internal or
-external mixing, it is recommended to use a single soundcard with at least 4
-independent output channels (2 separate stereo pairs). Although the term
-"soundcard" originated with card-shaped devices installed directly into desktop
-computers, most DJs today use USB soundcards with laptop computers.
+Audio Interface
+----------------
+An audio interface (also known as a "sound card", although few of them look 
+like cards anymore) is a device that allows a computer to send output to and 
+receive input from audio equipment. Whether using internal or external mixing, 
+it is recommended to use a single audio interface with at least 4 independent 
+output channels (2 separate stereo pairs).
 
 The headphone jack on most laptops is not a second audio output. Rather,
 plugging headphones into the jack simply redirects the laptop's single stereo
@@ -58,17 +57,17 @@ least four mono outputs (for two stereo pairs). Such sound cards tend to be
 higher quality than those built into laptops and allow your mix to be enjoyed
 in stereo by your audience.
 
-Unlike some proprietary DJ systems, Mixxx can use any soundcard and any
+Unlike some proprietary DJ systems, Mixxx can use any audio interface and any
 :term:`MIDI` or :term:`HID` controller that your :term:`OS <operating system>`
-has drivers to use. If your controller has an integrated soundcard, you may
-choose to use a different soundcard for higher quality audio. Mixxx can also
-use multiple audio devices simultaneously.
+has drivers to use. If your controller has an integrated audio interface, you 
+may choose to use a different audio interface for higher quality audio. Mixxx 
+can also use multiple audio interfaces simultaneously.
 
 Mixers
 ------
-Mixers are devices that combine audio signals. Many DJ mixers have a
-USB soundcard built into them to send unmixed audio files from DJ software
-directly to the mixer without needing a separate stand-alone soundcard.
+Mixers are devices that combine audio signals. Some DJ mixers have a USB audio 
+interface built into them to send unmixed audio files from DJ software directly 
+to the mixer without needing a separate stand-alone audio interface.
 
 .. hint:: Often DJs who use DJ software with internal mixing send their
           master output to a hardware mixer. This can be helpful to send the
@@ -98,11 +97,12 @@ Microphones
 -----------
 
 .. warning:: USB microphones are not recommended for use with Mixxx. These
-             microphones have their own soundcard built in, which often creates
-             complications when configuring it at the same time as a different
-             soundcard for output. Some USB microphones have headphone jacks
-             for direct monitoring, but this directly monitored signal only
-             includes the microphone signal without the music from Mixxx.
+             microphones have their own audio interface built in, which often 
+             creates complications when configuring it at the same time as a 
+             different audio interface for output. Some USB microphones have 
+             headphone jacks for direct monitoring, but this directly monitored 
+             signal only includes the microphone signal without the music from 
+             Mixxx.
 
 Example Setups
 ==============
@@ -124,16 +124,16 @@ Laptop Only
 
    Using Mixxx with your built-in sound card
 
-The built-in soundcard on most computers and laptops comes with a single stereo 
-line-out and a microphone input. The figure above depicts how the sound 
-configuration might look. The stereo output of your soundcard (channels 1-2) 
-will be connected to the **Master out**.
+The built-in audio interface on most computers and laptops comes with a single 
+stereo line-out and a microphone input. The figure above depicts how the sound 
+configuration might look. The stereo output of your audio interface (channels 
+1-2) will be connected to the **Master out**.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select your built-in soundcard,
-   then :guilabel:`Channels 1-2`
-#. Depending on your soundcard, you can specify a
+#. From the :guilabel:`Master` drop-down menu, select your built-in audio 
+   interface, then :guilabel:`Channels 1-2`
+#. Depending on your audio interface, you can specify a
    :ref:`microphone <interface-mic>`
 
    a. Use your built-in microphone or connect a microphone to your computer
@@ -163,20 +163,20 @@ stereo output from a single jack into two separate mono singals.
 This setup allows you to start DJing without having to invest in expensive 
 equipment. However, your audience will not be able to enjoy music producers' 
 artistic use of stereophonic sound (although many club PA systems are wired in 
-mono anyway). Furthermore, soundcards built into computers are usually low
+mono anyway). Furthermore, audio interfaces built into computers are usually low
 quality and often pick up interface from other components of the computer.
 
-**Using a built-in soundcard and a stereo-to-mono splitter**
+**Using a built-in audio interface and a stereo-to-mono splitter**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
 #. Check that your headphones are plugged into the side of the cable with a
    headphones symbol and that the speakers are plugged into the side of the cable
    with a speaker symbol.
-#. From the :guilabel:`Master` drop-down menu, select your built-in soundcard,
-   then :guilabel:`Channel 1`
+#. From the :guilabel:`Master` drop-down menu, select your built-in audio 
+   interface, then :guilabel:`Channel 1`
 #. From the :guilabel:`Headphones` drop-down menu, select your built-in 
-   soundcard, then :guilabel:`Channel 2`
+   audio interface, then :guilabel:`Channel 2`
 #. Click :guilabel:`Apply` to save the changes.
 
 .. seealso:: See `the wiki
@@ -196,40 +196,40 @@ quality and often pick up interface from other components of the computer.
 Laptop and External USB Soundcard
 ---------------------------------
 
-.. figure:: ../_static/mixxx_setup_ext_soundcard.png
+.. figure:: ../_static/mixxx_setup_ext_audio_interface.png
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Using Mixxx together with an external soundcard
+   :alt: Using Mixxx together with an external audio interface
    :figclass: pretty-figures
 
-   Using Mixxx together with an external soundcard
+   Using Mixxx together with an external audio interface
 
-**Using two soundcards (built-in + external)**
+**Using two audio interfaces (built-in + external)**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external soundcard,
-   then :guilabel:`Channels 1-2`
+#. From the :guilabel:`Master` drop-down menu, select the external audio 
+   interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the built-in
-   soundcard, then :guilabel:`Channels 1-2`
+   audio interface, then :guilabel:`Channels 1-2`
 #. Select the :guilabel:`Input` tab
-#. From the :guilabel:`Microphone 1` drop-down menu, select the external soundcard,
-   then :guilabel:`Channel 1`
+#. From the :guilabel:`Microphone 1` drop-down menu, select the external audio 
+   interface, then :guilabel:`Channel 1`
 #. From the :guilabel:`Microphone Mix Mode` drop-down menu, select the
    :guilabel:`Direct monitor (recording and broadcasting only)` option.
-#. Configure the soundcard to directly monitor the microphone input. Refer
-   to the soundcard's manual for details.
+#. Configure the audio interface to directly monitor the microphone input. Refer
+   to the audio interface's manual for details.
 #. Click :guilabel:`Apply` to save the changes.
 
-**Using an external multi-channel soundcard**
+**Using an external multi-channel audio interface**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external soundcard,
-   then :guilabel:`Channels 1-2`
+#. From the :guilabel:`Master` drop-down menu, select the external 
+   audio interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the external
-   soundcard, then :guilabel:`Channels 3-4`
+   audio interface, then :guilabel:`Channels 3-4`
 #. Click :guilabel:`Apply` to save the changes.
 
 .. _setup-controller-and-external-card:
@@ -249,54 +249,55 @@ started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation <http://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
 on the wiki.
 
-Controllers with an integrated soundcard
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Controllers with an integrated audio interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Many DJ controllers include an integrated *multi-channel* soundcard.
+Many DJ controllers include an integrated *multi-channel* audio interface.
 A setup with this kind of controller may look like the diagram below:
 
-.. figure:: ../_static/mixxx_setup_midi_integrated_sound.png
+.. figure:: ../_static/mixxx_setup_midi_integrated_audio_interface.png
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Using Mixxx together with a DJ controller and integrated soundcard
+   :alt: Using Mixxx together with a DJ controller and integrated audio 
+         interface
    :figclass: pretty-figures
 
-   Using Mixxx together with a DJ controller and integrated soundcard
+   Using Mixxx together with a DJ controller and integrated audio interface
 
-**Using a controller with an integrated multi-channel soundcard**
+**Using a controller with an integrated multi-channel audio interface**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
 #. From the :guilabel:`Master` drop-down menu, select your controller's
-   soundcard, then :guilabel:`Channels 1-2`
+   audio interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select your controller's
-   soundcard, then :guilabel:`Channels 3-4`
+   audio interface, then :guilabel:`Channels 3-4`
 #. Click :guilabel:`Apply` to save the changes.
 
-Controllers without an integrated sound card
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Controllers without an integrated audio interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Controllers without an integrated soundcard can be used together with a USB
-soundcard as depicted in the diagram below:
+Controllers without an integrated audio interface can be used together with a 
+USB audio interface as depicted in the diagram below:
 
-.. figure:: ../_static/mixxx_setup_midi_with_ext_sound.png
+.. figure:: ../_static/mixxx_setup_midi_with_ext_audio_interface.png
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Using Mixxx together with a DJ controller and external soundcard
+   :alt: Using Mixxx together with a DJ controller and external audio interface
    :figclass: pretty-figures
 
-   Using Mixxx together with a DJ controller and external soundcard
+   Using Mixxx together with a DJ controller and external audio interface
           
-**Using a controller without an integrated soundcard**
+**Using a controller without an integrated audio interface**
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external soundcard,
-   then :guilabel:`Channels 1-2`
+#. From the :guilabel:`Master` drop-down menu, select the external audio 
+   interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the built-in
-   soundcard, then :guilabel:`Channels 1-2`
+   audio interface, then :guilabel:`Channels 1-2`
 #. Click :guilabel:`Apply` to save the changes.
 
 .. note:: You can connect as many controllers as you have ports on your
@@ -325,7 +326,7 @@ This setup allows DJs to use the techniques of DJing with vinyl record
 turntables combined with the portability and flexibility of a laptop computer. 
 Instead of carrying crates of records or CDs, DJs can carry their entire music 
 collection on their laptop. In addition to a laptop and headphones, this setup 
-requires a soundcard with at least two pairs of stereo inputs and outputs
+requires an audio interface with at least two pairs of stereo inputs and outputs
 as well as a pair of :term:`timecode` records.
 
 .. seealso:: Go to the chapter :ref:`vinyl-control` for detailed information.

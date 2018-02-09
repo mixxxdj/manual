@@ -60,5 +60,5 @@ cueing:
      :alt: Using Mixxx together with turntables and external mixer
      :figclass: pretty-figures
 
-     Using Mixxx together with a USB sound card, external mixer, and
+     Using Mixxx together with a USB audio interface, external mixer, and
      timecode vinyl for external mixing

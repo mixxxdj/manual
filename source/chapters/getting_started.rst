@@ -24,10 +24,10 @@ Mixxx and importing your music to the Mixxx library.
   Click the Mixxx icon in the applications menu or launcher of your desktop
   environment or perform a search for :file:`mixxx`. Alternatively type
   :command:`mixxx` into the terminal, then hit :kbd:`Return`.
-  If your :term:`soundcard` is not accessible from Mixxx because it is used by
-  other applications via PulseAudio, you may close and restart Mixxx using
-  :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` for an
-  overview of Mixxx's command line options.
+  If your :term:`audio interface` is not accessible from Mixxx because it is 
+  used by other applications via PulseAudio, you may close and restart Mixxx 
+  using :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` 
+  for an overview of Mixxx's command line options.
 
 .. _getting-started-import-audio-files:
 
@@ -117,7 +117,7 @@ Output Options
 **Internal mixing**:
 
 Use these outputs if you are not using an external hardware mixer. If you are
-using a controller with a built in soundcard, use these outputs.
+using a controller with a built in audio interface, use these outputs.
 
 * *Master*: all decks, samplers, microphones, and auxiliary inputs mixed
   together. This output is sent to the speakers for the audience.
@@ -137,7 +137,7 @@ Input Options
 **Internal mixing**:
 
 Use these inputs if you are not using an external hardware mixer. If you are
-using a controller with a built in soundcard, use these inputs.
+using a controller with a built in audio interface, use these inputs.
 
 * *Microphone 1-4*: live microphone or musical instrument inputs
 * *Auxiliary 1-4*: other sound sources
@@ -145,9 +145,9 @@ using a controller with a built in soundcard, use these inputs.
 **External mixing**:
 
 * *Record/Broadcast*: When this is configured, Mixxx will record and
-  broadcast from this soundcard input instead of the internal master mix. If
-  you have a microphone plugged into the mixer, do not configure the Microphone
-  1-4 inputs.
+  broadcast from this audio interface input instead of the internal master 
+  mix. If you have a microphone plugged into the mixer, do not configure the 
+  Microphone 1-4 inputs.
 
 **Either internal or external mixing**:
 
