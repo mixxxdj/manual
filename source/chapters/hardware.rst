@@ -10,31 +10,27 @@ DJ Hardware
 
 Although Mixxx can be used with just a laptop computer, fully taking advantage of
 Mixxx's features requires specialized DJ hardware. Depending on your budget and
-application area, your setup and requirements may vary.
-This section provides useful information for club, hobby, and radio DJs alike.
+application area, your setup and requirements may vary. This section provides 
+useful information for club, hobby, and radio DJs alike.
 
 .. seealso:: The `Mixxx DJ Hardware Guide <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_
              lists controllers and sound cards with information about
              their compatibility with Mixxx and different
-             :term:`operating systems<operating system>`. It also has
-             suggestions for what to consider when you are shopping for DJ
-             equipment.
-
+             :term:`operating systems<operating system>`.
+             
 Types of DJ Hardware
 ====================
 
 Controllers
 -----------
-DJs often use a device called a DJ controller which has knobs, faders, buttons,
-jog wheels, and other components to control DJ software such as Mixxx. It
-is difficult to manipulate Mixxx's controls fast enough while music is playing
-with only a keyboard and mouse while looking at a computer screen. Controllers
-allow quick access to different controls while providing tactile and visual
-feedback indicating the state of each control, such as the position of a knob
-or whether a switch is on or off. This allows the DJ to focus on manipulating
-the music without needing to look at their computer screen all the time.
-Controllers also allow the DJ to use two hands to manipulate two different
-controls at the same time, which is required for many mixing techniques.
+DJ controllers are devices with knobs, faders, buttons, and jog wheels to 
+control DJ software such as Mixxx. Controllers allow quick access to different 
+controls while providing tactile and visual feedback indicating 
+the state of each control, such as the position of a knob or whether a switch 
+is on or off. This allows the DJ to focus on manipulating the music without 
+needing to look at their computer screen all the time. Controllers also allow 
+the DJ to use two hands to manipulate two different controls at the same time, 
+which is required for many mixing techniques.
 
 DJ controllers typically do not do any actual audio processing. Instead, they
 send signals (typically :term:`MIDI` or :term:`HID` over a USB cable) to the
@@ -128,13 +124,10 @@ Laptop Only
 
    Using Mixxx with your built-in sound card
 
-There is no need to buy any equipment other than a computer if you do not 
-require headphone :term:`cueing`. The built-in soundcard on most computers and
-laptops comes with a single stereo line-out and a microphone input.
-
-The figure above depicts how the sound configuration might look. The stereo
-output of your soundcard (channels 1-2) will be connected to the **Master
-out**.
+The built-in soundcard on most computers and laptops comes with a single stereo 
+line-out and a microphone input. The figure above depicts how the sound 
+configuration might look. The stereo output of your soundcard (channels 1-2) 
+will be connected to the **Master out**.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
@@ -150,9 +143,6 @@ out**.
       microphone is connected to
 #. Click :guilabel:`Apply` to save the changes.
 
-This minimal configuration may be suitable for **radio DJs** who do not need
-headphone cueing.
-
 .. _setup-laptop-with-splitter:
 
 Laptop and Splitter Cable
@@ -164,7 +154,6 @@ Laptop and Splitter Cable
    :figwidth: 100%
    :alt: Using Mixxx with your built-in sound card and a DJ splitter cable
    :figclass: pretty-figures
-
 
 The cheapest way to DJ and :term:`cue` with headphones uses a 
 stereo-to-mono DJ splitter cable (also known as a “Y cable”) plugged
@@ -242,18 +231,6 @@ Laptop and External USB Soundcard
 #. From the :guilabel:`Headphones` drop-down menu, select the external
    soundcard, then :guilabel:`Channels 3-4`
 #. Click :guilabel:`Apply` to save the changes.
-
-.. hint:: If you have technical difficulties with your external sound card, a
-          :ref:`splitter cable<setup-laptop-with-splitter>` can be used as a
-          portable, inexpensive backup.
-
-.. note:: Soundcards designed and marketed for recording often have a knob that 
-          allows you to mix its input directly with its output. This function
-          can be helpful when recording (to hear the input without the latency
-          of going through the computer), but the master output level will be
-          low even if there is no sound on the inputs. To get the maximum output
-          level from these soundcards, you may need to set this knob to only
-          send output from the computer and none from the input(s).
 
 .. _setup-controller-and-external-card:
 

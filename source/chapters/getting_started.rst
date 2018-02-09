@@ -79,19 +79,12 @@ playing live to ensure the beatgrids are correct. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
-Once you have configured your music directories and your BPM and key detection
-settings, press :guilabel:`OK` on the Preferences window. Go to the Analyze
-view on the left side panel of the library. This allows you to run
-:term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in
-advance. While analyzing, the progress in percentage and total queue length are
-shown.
-
-The Analyze features in detail:
-
-* **All / New radio-buttons**: Allows you to view a list of either all tracks in
-  the library or tracks added to the library within the last 7 days.
-* **Select All button**: Selects all tracks in the current view.
-* **Analyze button**: Starts the detection on the selected tracks.
+Once you have
+:ref:`imported your music library<getting-started-import-audio-files>`, press 
+:guilabel:`OK` on the Preferences window. Go to the Analyze view on the left 
+side panel of the library. This allows you to run :term:`beatgrid`, 
+:term:`key`, and :term:`ReplayGain` detection on tracks in advance. While 
+analyzing, the progress in percentage and total queue length are shown.
 
 .. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
 
@@ -101,9 +94,8 @@ Configuring sound input and output
 ==================================
 
 Before you can start using Mixxx, you need to configure Mixxx to use your
-sound hardware in :menuselection:`Preferences --> Sound Hardware`. At a
-minimum, one output must be configured. You do not need to configure all inputs
-and outputs.
+sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do not 
+need to configure all inputs and outputs.
 
 The :ref:`hardware` chapter explains different types of DJ hardware and how to
 set them up with the the input and output options. For Mixxx to perform the best
