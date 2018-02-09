@@ -1,3 +1,4 @@
+
 Appendix
 ********
 
@@ -15,16 +16,16 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
-  `<https://mixxx.org/wiki/doku.php>`_
+  `<https://mixxx.org/wiki/>`_
 
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
 
-* **Mixxx IRC Chat Channel**: Join the #mixxx channel on the
-  `Freenode IRC Network <http://www.freenode.net/>`_ for support or to chat with
-  other Mixxx users and developers. A web page for accessing the IRC channel is
-  available at `<https://mixxx.org/irc>`_
-
+* **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our 
+  `Zulip chat <http://mixxx.zulipchat.com/>`_. Stand-alone
+  `apps for Zulip <https://zulipchat.com/apps/>`_ can be configured to use the 
+  server mixxx.zulipchat.com
+  
 * **Mixxx Source Code**: To download the source code for Mixxx, go to:
   `<https://github.com/mixxxdj/mixxx>`_
 
