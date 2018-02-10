@@ -7,15 +7,14 @@ Using Microphones
 There are three ways to use microphones with Mixxx, each with their own pros
 and cons:
 
-  * :ref:`Software monitoring<microphones-software-monitoring>`: Cheapest and 
-    simplest to set up, but you cannot hear yourself without a disorienting 
-    delay, referred to as "latency".
-  * :ref:`Direct monitoring<microphones-direct-monitoring>`: Recommended for 
-    most users. This is the cheapest to set up with good sound quality and 
-    without the latency of software monitoring.
-  * :ref:`Hardware mixers<microphones-hardware-mixers>`: Most expensive option 
-    to set up with high sound quality. This does not have the latency of 
+  * :ref:`microphones-software-monitoring`: Cheapest and simplest to set up, 
+    but you cannot hear yourself without a disorienting delay, referred to as 
+    "latency".
+  * :ref:`microphones-direct-monitoring`: Recommended for most users. This is 
+    the cheapest to set up with good sound quality and without the latency of 
     software monitoring.
+  * :ref:`microphones-hardware-mixers`: Most expensive option to set up with 
+    high sound quality. This does not have the latency of software monitoring.
 
 .. warning:: USB microphones are not recommended. These devices have their own 
              audio interface built in and can only be used with software 
@@ -26,7 +25,7 @@ and cons:
 
 .. _microphones-software-monitoring:
 
-Software monitoring
+Software Monitoring
 -------------------
 Software monitoring can be used with the built-in microphone on a laptop or 
 with a headset plugged into the built-in audio interface on a computer. 
@@ -74,19 +73,19 @@ To use software monitoring:
 
 .. _microphones-direct-monitoring:
 
-Direct monitoring
+Direct Monitoring
 -----------------
-Direct monitoring with a :ref:`loopback input<microphones-loopback-input>` is 
-the recommended way to use microphones with Mixxx for most users. Except for 
-audio interfaces built into computers, most audio interfaces with microphone 
-inputs support direct monitoring. However, not all audio interfaces that 
-support direct monitoring also have a loopback input feature.
+Direct monitoring with a :ref:`microphones-loopback-input` is the recommended 
+way to use microphones with Mixxx for most users. Except for audio interfaces 
+built into computers, most audio interfaces with microphone inputs support 
+direct monitoring. However, not all audio interfaces that support direct 
+monitoring also have a loopback input.
 
 Direct monitoring routes the audio from the audio interface's inputs directly to 
 its outputs to avoid the latency of sending it into the computer and back out 
-with :ref:`software monitoring <microphones-software-monitoring>`. At the same 
-time, the audio interface sends the input into the computer so Mixxx can record 
-and broadcast it.
+with :ref:`microphones-software-monitoring`. At the same time, the audio 
+interface sends the input into the computer so Mixxx can record and broadcast 
+it.
 
 .. figure:: ../_static/direct-monitor-signal-path.png
    :align: center
@@ -101,12 +100,11 @@ and broadcast it.
 
 Loopback Input
 ^^^^^^^^^^^^^^
-Some audio interfaces that support :ref:`direct monitoring 
-<microphones-direct-monitoring>` have a loopback input feature. This adds 
-Mixxx's output to the microphone input that the audio interface sends to the 
-computer. Configuring Mixxx to record and/or broadcast a loopback input is 
-easier to set up than configuring :ref:`latency compensation 
-<microphones-latency-compensation>`.
+Some audio interfaces that support :ref:`microphones-direct-monitoring` have a 
+loopback input feature. This adds Mixxx's output to the microphone input that 
+the audio interface sends to the computer. Configuring Mixxx to record and 
+broadcast a loopback input is easier to set up than configuring 
+:ref:`microphones-latency-compensation`.
 
 .. figure:: ../_static/direct-monitor-loopback-signal-path.png
    :align: center
@@ -137,12 +135,12 @@ are mixed by the audio interface and not sent directly to Mixxx.
 
 Latency Compensation
 ^^^^^^^^^^^^^^^^^^^^
-When using :ref:`direct monitoring <microphones-direct-monitoring>`, it still 
-takes time for Mixxx to receive the audio input from the audio interface and 
-process it. Without compensating for this latency or using a :ref:`loopback 
-input <microphones-loopback-input>`, the microphone inputs are out of time 
-relative to the music in your recorded and broadcasted mixes even though they 
-are aligned in what you hear from your audio interface's output.
+When using :ref:`microphones-direct-monitoring`, it takes time for Mixxx to 
+receive the audio input from the audio interface and process it. Without 
+compensating for this latency or using a :ref:`microphones-loopback-input`, the 
+microphone inputs are out of time relative to the music in your recorded and 
+broadcasted mixes even though they are aligned in what you hear from your audio 
+interface's output.
 
 .. figure:: ../_static/direct-monitor-input-latency.png
    :align: center
@@ -156,8 +154,8 @@ are aligned in what you hear from your audio interface's output.
 Mixxx can compensate for this timing misalignment, but it is complicated to set 
 up. If you do not want to record your microphone into your mix or broadcast, 
 you can :ref:`activate direct monitoring on your audio interface 
-<microphones-activate-direct-monitoring>` without configuring 
-latency compensation.
+<microphones-activate-direct-monitoring>` without configuring latency 
+compensation.
 
 To configure latency compensation:
 
@@ -191,9 +189,8 @@ To configure latency compensation:
 
 .. _microphones-measure-round-trip-latency:
 
-Measuring round trip latency
+Measuring Round Trip Latency
 """""""""""""""""""""""""""""
-
 The round trip latency is different from the size of the 
 :ref:`preferences-audio-buffer` configured in Mixxx. It is the amount of time it 
 takes for audio to make a complete trip from your audio interface's input, 
@@ -224,20 +221,19 @@ change the sample rate or buffer size you use with Mixxx, you will need to
 remeasure your round trip latency to have your microphone inputs aligned in your 
 recorded and broadcasted mixes.
 
-.. warning:: Make sure direct monitoring is not :ref:`activated on your 
+.. warning:: Make sure direct monitoring is *not* :ref:`activated on your 
              audio interface <microphones-activate-direct-monitoring>` while you 
              are measuring the round trip latency or you will not get an 
              accurate measurement.
              
 Copy the round trip latency time in milliseconds into the :guilabel:`Microphone 
 Latency Compensation` option in the :guilabel:`Sound Hardware` section of 
-Mixxx's Preferences. Refer to the :ref:`Latency Compensation 
-<microphones-latency-compensation>` section above for more detailed setup 
-instructions.
+Mixxx's Preferences. Refer to the :ref:`microphones-latency-compensation` 
+section above for more detailed setup instructions.
 
 .. _microphones-activate-direct-monitoring:
 
-Activating direct monitoring and loopback on the audio interface
+Activating Direct Monitoring And Loopback On The Audio Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 General tips for activating direct monitoring and loopback are described below. 
 However, every audio interface is different, so refer to the audio interface 
@@ -255,28 +251,34 @@ direct monitoring, you typically need to toggle a switch on the device.
 
 To activate loopback input, there may be a switch on the device.
 
-Soundcards with lots of inputs and outputs often have a proprietary
+Audio interfaces with lots of inputs and outputs often have a proprietary
 program provided by the manufacturer that is installed automatically with the
 driver instead of knobs and switches on the hardware to control direct
 monitoring, loopback, stereo/mono switches, and other audio interface features. 
 On GNU/Linux, you might be able to access these controls with alsamixer.
 
-Refer to the section below for details about using microphones with
-:ref:`DJ controllers <microphones-dj-controllers>`.
+Refer to the section below for details about :ref:`microphones-dj-controllers`.
 
 .. _microphones-hardware-mixers:
 
 Hardware Mixers
 ----------------
 Mixxx can be used with a microphone plugged into an external hardware mixer. 
-This does not have the problem with latency that happens with
-:ref:`software monitoring <microphones-software-monitoring>`, but it is 
-generally recommeded to use an audio interface that supports
-:ref:`direct monitoring <microphones-direct-monitoring>` and a
-:ref:`loopback input <microphones-loopback-input>` instead unless you are 
-using :ref:`vinyl control <vinyl-control>`. Mixers that can be 
-used with Mixxx without reducing the sound quality of the music tend to be much 
-more expensive than audio interfaces that support direct monitoring.
+This does not have the problem with latency that happens 
+with :ref:`microphones-software-monitoring`, but it is 
+generally recommeded to use an audio interface that 
+supports :ref:`microphones-direct-monitoring` and a 
+:ref:`microphones-loopback-input` instead unless you are using 
+:ref:`vinyl-control`.
+
+An audio interface is required to send sound between Mixxx and the 
+external mixer. The audio interfaces built into computers only have one stereo 
+output, so Mixxx cannot send each deck to independent stero channels on the 
+mixer. Also, audio interfaces built into computers do not have high sound 
+quality. Thus, another audio interface is recommended to use Mixxx with an 
+external mixer. It is recommeded 
+
+Audio interfaces that support :ref:`vinyl-control`.
 
 .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
    :align: center
@@ -327,24 +329,18 @@ To configure Mixxx for using a hardware mixer and a microphone:
 Do not configure anything for the :guilabel:`Microphone 1-4` inputs when using 
 an external mixer.
 
-Using a hardware mixer with a computer's built in audio interface is not 
-recommended. It is not possible to use the mixer to mix stereo signals with 
-only 2 output channels. Also, audio interfaces built into computers tend to 
-have bad sound quality.
-
 .. _microphones-dj-controllers:
 
 DJ Controllers With Microphone Inputs
 --------------------------------------
 DJ controllers with microphone inputs typically mix the microphone input with 
 the master output without sending it to the computer. This does not have the 
-problem with latency that happens with
-:ref:`software monitoring<microphones-software-monitoring>`. However, many 
-cheap DJ controllers do not digitize the signal to make it available to the
-computer. Refer to the controller's page on the
-`Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
-or the manual from the controller manufacturer for details about your 
-particular controller.
+problem with latency that happens with 
+:ref:`microphones-software-monitoring`. However, many cheap DJ controllers do 
+not digitize the signal to make it available to the computer. Refer to the 
+controller's page on the `Mixxx wiki 
+<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or the manual from 
+the controller manufacturer for details about your particular controller.
 
 If the controller does not digitize the microphone input, you cannot use 
 Mixxx's microphone input to record or broadcast with the microphone using 
