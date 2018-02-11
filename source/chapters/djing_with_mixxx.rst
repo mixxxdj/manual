@@ -334,8 +334,11 @@ Recording Your Mix
 
 With the integrated recording feature you can record your mix as an audio file
 and listen to it later, distribute it as a :term:`Podcast` or burn it to CD.
-Mixxx records the master output - the audio you hear from the speakers including
-the microphone.
+By default, Mixxx records the Master output. Alternatively, Mixxx can record 
+the output of an external mixer if you have an audio interface configured for 
+the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound 
+Hardware`. Refer to :ref:`microphones-record-broadcast-external-mixer` for 
+details.
 
 .. figure:: ../_static/Mixxx-111-Library-Recordings.png
    :align: center

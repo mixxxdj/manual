@@ -1113,24 +1113,13 @@ The Microphone Section
 
    The Microphone section
 
-The microphone section is **hidden** in the default
-:ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`MIC <interface-expansion-buttons>` button in the mixer section, or use the
-specific :ref:`appendix-shortcuts` to show or hide the section.
+The microphone section is **hidden** in the default :ref:`Mixxx user interface 
+<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>` 
+button in the mixer section, or use the specific :ref:`appendix-shortcuts` to 
+show or hide the section.
 
-**Setup the microphone**
-
-.. versionadded:: 2.0
-   Microphone can accept stereo or mono input now.
-
-* Most computers have built-in microphones, while some are connected through USB.
-  These work adequately, but don't expect them to be high-quality.
-* The best solution is to connect a good external microphone to the “Mic” or
-  “Line” input on your audio device. If available, use the “Gain” knob on the
-  device to adjust the input signal.
-* Select the microphone input in
-  :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and
-  click :guilabel:`Apply`.
+.. seealso:: The :ref:`microphones` chapter has detailed instructions for 
+             setting up microphones with various hardware.
 
 Microphone Controls
 -------------------
