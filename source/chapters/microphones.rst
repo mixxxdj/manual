@@ -63,27 +63,27 @@ To use software monitoring:
    microphone controls.
 #. Click the :guilabel:`Talk` button when you are using the microphone. 
 
-.. hint:: If you would prefer to not hear the microphone input mixed with 
-          Mixxx's output, you can set the :guilabel:`Microphone Monitor Mode` 
-          option to :guilabel:`Direct monitor (recording and broadcasting 
-          only)`. This will still mix the microphone input with your 
-          recorded and broadcasted mixes, but it will not mix the microphone 
-          with the Master output. Don't forget to press the :guilabel:`Talk` 
-          button when using the microphone if you use this option.
+.. hint:: If you would prefer to not hear the microphone input, you can set the 
+          :guilabel:`Microphone Monitor Mode` option to :guilabel:`Direct 
+          monitor (recording and broadcasting only)`. This will still mix the 
+          microphone input with your recorded and broadcasted mixes, but it 
+          will not mix the microphone with the Master output. Don't forget to 
+          press the :guilabel:`Talk` button when using the microphone if you 
+          use this option.
 
 .. _microphones-direct-monitoring:
 
 Direct Monitoring
 -----------------
-Direct monitoring with a :ref:`microphones-loopback-input` is the recommended 
-way to use microphones with Mixxx for most users. Except for audio interfaces 
-built into computers, most audio interfaces with microphone inputs support 
-direct monitoring. However, not all audio interfaces that support direct 
-monitoring also have a loopback input.
+An audio interface with direct monitoring and a 
+:ref:`microphones-loopback-input` is the recommended way to use microphones with 
+Mixxx for most users. Except for audio interfaces built into computers, most 
+audio interfaces with microphone inputs support direct monitoring. However, not 
+all audio interfaces that support direct monitoring also have a loopback input.
 
-Direct monitoring routes the audio from the audio interface's inputs directly to 
-its outputs to avoid the latency of sending it into the computer and back out 
-with :ref:`microphones-software-monitoring`. At the same time, the audio 
+Direct monitoring routes the audio from the audio interface's inputs directly
+its outputs. This avoids the latency of sending it into the computer and back 
+out with :ref:`microphones-software-monitoring`. At the same time, the audio 
 interface sends the input into the computer so Mixxx can record and broadcast 
 it.
 
@@ -101,10 +101,9 @@ it.
 Loopback Input
 ^^^^^^^^^^^^^^
 Some audio interfaces that support :ref:`microphones-direct-monitoring` have a 
-loopback input feature. This adds Mixxx's output to the microphone input that 
-the audio interface sends to the computer. Configuring Mixxx to record and 
-broadcast a loopback input is easier to set up than configuring 
-:ref:`microphones-latency-compensation`.
+loopback input feature. They add Mixxx's output to the microphone signal before 
+sending it to the computer. This makes it easier to set up Mixxx with direct 
+monitoring than configuring :ref:`microphones-latency-compensation`.
 
 .. figure:: ../_static/direct-monitor-loopback-signal-path.png
    :align: center
@@ -119,7 +118,7 @@ To configure Mixxx with a loopback input:
 
 #. Open :menuselection:`Preferences --> Sound Hardware`.
 #. Click the :guilabel:`Input` tab.
-#. Select the audio interface for the :guilabel:`Record/Broadcast input`. Do 
+#. Select the audio interface for the :guilabel:`Record/Broadcast` input. Do 
    not configure anything for the :guilabel:`Microphone 1-4` inputs.
 #. Click the :guilabel:`Apply` button.
 #. Click the :guilabel:`OK` button.
@@ -135,12 +134,12 @@ are mixed by the audio interface and not sent directly to Mixxx.
 
 Latency Compensation
 ^^^^^^^^^^^^^^^^^^^^
-When using :ref:`microphones-direct-monitoring`, it takes time for Mixxx to 
-receive the audio input from the audio interface and process it. Without 
+When using :ref:`microphones-direct-monitoring`, you will hear the microphone 
+mixed with the music from Mixxx without any noticable latency. However, it still
+takes time for Mixxx to receive the microphone signal and process it. Without 
 compensating for this latency or using a :ref:`microphones-loopback-input`, the 
-microphone inputs are out of time relative to the music in your recorded and 
-broadcasted mixes even though they are aligned in what you hear from your audio 
-interface's output.
+microphone inputs will be out of time relative to the music in your recorded 
+and broadcasted mixes.
 
 .. figure:: ../_static/direct-monitor-input-latency.png
    :align: center
@@ -157,52 +156,26 @@ you can :ref:`activate direct monitoring on your audio interface
 <microphones-activate-direct-monitoring>` without configuring latency 
 compensation.
 
-To configure latency compensation:
-
-#. Open :menuselection:`Preferences --> Sound Hardware`.
-#. Click the :guilabel:`Input` tab.
-#. Select the audio interface input(s) for the :guilabel:`Microphone 1-4` 
-   inputs. Select a single mono channel for each Microphone input instead of a 
-   stereo pair of channels (unless you have stereo microphones set up).
-#. For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct 
-   monitor (recording and broadcasting only)`.
-#. :ref:`Measure the round trip latency 
-   <microphones-measure-round-trip-latency>` and enter that time in 
-   milliseconds for the :guilabel:`Microphone Latency Compensation` option.
-#. Click the :guilabel:`Apply` button.
-#. Click the :guilabel:`OK` button.
-#. :ref:`Activate direct monitoring on your audio interface. 
-   <microphones-activate-direct-monitoring>`
-#. Click the :guilabel:`Mics` button in the main Mixxx window to show the 
-   microphone controls.
-#. Click the :guilabel:`Talk` button when you are using the microphone. 
-   Mixxx will not record or broadcast your microphone if the 
-   :guilabel:`Talk` button is not active. However, you will still hear the 
-   microphone in your main output because the microphone is mixed by your    
-   audio interface, not Mixxx. You may leave the :guilabel:`Talk` button on to 
-   ensure you do not forget it, but this will record and broadcast background 
-   noise when you are not actively using the microphone.
-#. Adjust the microphone volume with the input gain knob on your audio 
-   interface. Do not adjust the microphone gain in Mixxx or the relative volume 
-   of the mics and music will be different in your recorded and broadcasted 
-   mixes compared to what you hear out your audio interface.
-
 .. _microphones-measure-round-trip-latency:
 
 Measuring Round Trip Latency
 """""""""""""""""""""""""""""
-The round trip latency is different from the size of the 
-:ref:`preferences-audio-buffer` configured in Mixxx. It is the amount of time it 
-takes for audio to make a complete trip from your audio interface's input, 
-through your computer, and back out the audio interface. Mixxx cannot calculate 
-the round trip latency because it depends on details of your audio interface's 
-hardware, your operating system, your audio interface's driver, and other 
-factors in your computer's hardware. You must use a physical cable to directly 
-connect an output on your audio interface to its input and use a third party 
-program to measure the round trip latency. These programs are recommended on 
-each OS for measuring round trip latency:
+To configure Mixxx to compensate for input latency while using direct 
+monitoring, first you must measure the round trip latency of your setup. The 
+round trip latency is different from the size of the 
+:ref:`preferences-audio-buffer` configured in Mixxx. It is the amount of time 
+it takes for audio to make a complete trip from your audio interface's input, 
+through your computer, and back out the audio interface.
 
-* **GNU/Linux**: `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_
+Mixxx cannot calculate the round trip latency because it depends on details of 
+your audio interface's hardware, your operating system, your audio interface's 
+driver, and other factors in your computer's hardware. The round trip latency 
+can only be found by measuring it. To do this, use a physical cable to connect 
+the audio interface's output to its input. Then, use a third party program to 
+measure the round trip latency. These programs are recommended on each OS:
+
+* **GNU/Linux**: 
+  `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_
 * **Windows**: `RTL Utility  <http://www.oblique-audio.com/free/rtlutility>`_
 * **macOS**: `Audacity <https://manual.audacityteam.org/man/latency_test.html>`_
 
@@ -218,18 +191,47 @@ each OS for measuring round trip latency:
 You must use the same sample rate and audio buffer size in the measurement 
 program as you do in Mixxx for the measurement to be accurate. If you decide to 
 change the sample rate or buffer size you use with Mixxx, you will need to 
-remeasure your round trip latency to have your microphone inputs aligned in your 
-recorded and broadcasted mixes.
+remeasure your round trip latency to have your microphone inputs aligned in 
+your recorded and broadcasted mixes.
 
 .. warning:: Make sure direct monitoring is *not* :ref:`activated on your 
-             audio interface <microphones-activate-direct-monitoring>` while you 
-             are measuring the round trip latency or you will not get an 
+             audio interface <microphones-activate-direct-monitoring>` while
+             you are measuring the round trip latency or you will not get an 
              accurate measurement.
-             
-Copy the round trip latency time in milliseconds into the :guilabel:`Microphone 
-Latency Compensation` option in the :guilabel:`Sound Hardware` section of 
-Mixxx's Preferences. Refer to the :ref:`microphones-latency-compensation` 
-section above for more detailed setup instructions.
+
+.. _microphones-configure-latency-compensation:
+
+Configuring Latency Compensation
+""""""""""""""""""""""""""""""""
+#. Before opening Mixxx, :ref:`measure the round trip latency 
+   <microphones-measure-round-trip-latency>`.
+#. Open Mixxx.
+#. Open :menuselection:`Preferences --> Sound Hardware`.
+#. Click the :guilabel:`Input` tab.
+#. Select the audio interface input(s) for the :guilabel:`Microphone 1-4` 
+   inputs. Select a single mono channel for each Microphone input unless you 
+   are using stereo microphones.
+#. For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct 
+   monitor (recording and broadcasting only)`.
+#. Enter the measured round trip latency in millseceonds for the 
+   :guilabel:`Microphone Latency Compensation` option.
+#. Click the :guilabel:`Apply` button.
+#. Click the :guilabel:`OK` button.
+#. :ref:`Activate direct monitoring on your audio interface. 
+   <microphones-activate-direct-monitoring>`
+#. Click the :guilabel:`Mics` button in the main Mixxx window to show the 
+   microphone controls.
+#. Click the :guilabel:`Talk` button when you are using the microphone. 
+   Mixxx will not record or broadcast your microphone if the 
+   :guilabel:`Talk` button is not active. However, you will still hear the 
+   microphone in your main output because the microphone is mixed by your    
+   audio interface, not Mixxx. You may leave the :guilabel:`Talk` button on to 
+   ensure you do not forget it, but this will record and broadcast background 
+   noise when you are not actively using the microphone.
+#. Adjust the microphone volume with the input gain knob on your audio 
+   interface. Do not adjust the microphone gain in Mixxx. If you do, the 
+   relative volume of the mics and music will be different in your recorded 
+   and broadcasted mixes compared to what you hear out of your audio interface.
 
 .. _microphones-activate-direct-monitoring:
 
@@ -246,16 +248,18 @@ audio interface has a knob like this, set the knob to the center.
 Alternatively, some audio interfaces have a switch to toggle direct monitoring 
 instead of a knob.
 
-To hear mono microphone inputs on both sides of the main stereo output with 
+To hear mono microphone inputs on both sides of the stereo output with 
 direct monitoring, you typically need to toggle a switch on the device.
 
-To activate loopback input, there may be a switch on the device.
+If the audio interface supports :ref:`microphones-loopback-input`, that may 
+be activated by a switch on the device.
 
-Audio interfaces with lots of inputs and outputs often have a proprietary
+Audio interfaces with lots of inputs and outputs often have a control panel
 program provided by the manufacturer that is installed automatically with the
-driver instead of knobs and switches on the hardware to control direct
-monitoring, loopback, stereo/mono switches, and other audio interface features. 
-On GNU/Linux, you might be able to access these controls with alsamixer.
+driver. This may be used instead of knobs and switches on the hardware to 
+control direct monitoring, loopback, stereo/mono switches, and other audio 
+interface features. On GNU/Linux, you might be able to access these controls 
+with :command:`alsamixer`.
 
 Refer to the section below for details about :ref:`microphones-dj-controllers`.
 
@@ -265,20 +269,41 @@ Hardware Mixers
 ----------------
 Mixxx can be used with a microphone plugged into an external hardware mixer. 
 This does not have the problem with latency that happens 
-with :ref:`microphones-software-monitoring`, but it is 
-generally recommeded to use an audio interface that 
-supports :ref:`microphones-direct-monitoring` and a 
-:ref:`microphones-loopback-input` instead unless you are using 
-:ref:`vinyl-control`.
+with :ref:`microphones-software-monitoring`. However, it is generally 
+recommeded to use an audio interface that supports 
+:ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input` 
+instead of an external mixer. If you are using :ref:`vinyl-control` and a 
+microphone, you may need an external mixer.
 
-An audio interface is required to send sound between Mixxx and the 
-external mixer. The audio interfaces built into computers only have one stereo 
-output, so Mixxx cannot send each deck to independent stero channels on the 
-mixer. Also, audio interfaces built into computers do not have high sound 
-quality. Thus, another audio interface is recommended to use Mixxx with an 
-external mixer. It is recommeded 
+Mixxx can send each deck to separate stereo channels on an external mixer by 
+using the :guilabel:`Deck 1-4` outputs. This requires an audio interface with 
+at least 4 output channels (2 stereo pairs). Audio interfaces built into 
+computers only have one stereo output and they do not have high sound quality. 
+Thus, another audio interface is recommended. Audio interfaces with at least 4 
+output channels typically have microphone inputs and support 
+:ref:`microphones-direct-monitoring`, so there is no need for the external 
+mixer.
 
-Audio interfaces that support :ref:`vinyl-control`.
+However, audio interfaces with phono preamplifiers for :ref:`vinyl-control` do 
+not have microphone inputs. If you want to use vinyl control with a microphone, 
+it is recommended to plug the microphone into a DJ mixer.
+
+.. warning:: Some mixers that are not designed for DJing have a built-in USB
+             audio interface. However, the audio interfaces in these mixers 
+             typically send only 2 channels (one stereo pair) to the mixer, so 
+             they are not recommended.
+
+.. _microphones-record-broadcast-external-mixer:
+
+Recording And Broadcasting With An External Hardware Mixer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To record or broadcast with an external hardware mixer, the output of the mixer 
+needs to be connected to the input of an audio interface. Most DJ mixers have 
+an extra output for this which may be labeled "record", "session", "auxiliary", 
+or "booth". Some audio interfaces for vinyl control have enough input channels 
+to receive the output of the mixer and timecode from two turntables. If yours 
+does not, you may use the input jack on the audio interface built into your 
+computer, but these do not have high sound quality.
 
 .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
    :align: center
@@ -290,17 +315,13 @@ Audio interfaces that support :ref:`vinyl-control`.
    Using a microphone with an external DJ mixer and a stand-alone USB audio 
    interface
 
-Every conversion between digital and analog signals adds noise and distortion 
-to the signal, which reduces the sound quality. Typically, an audio interface 
-that converts the digital signals from Mixxx to analog is required to use Mixxx 
-with an external mixer. To record and/or broadcast the mix, the mixer's analog 
-output has to be converted back to digital by the audio interface to send it 
-back to Mixxx.
-
-Alternatively, some mixers process signals digitally and have a 
-built-in USB audio interface. These digital mixers can send signals back and 
-forth to Mixxx without converting them to analog. Using these mixers with Mixxx 
-will not reduce the sound quality of the music.
+Alternatively, some DJ mixers have a built-in USB audio interface. These 
+have inputs with phono preamplifiers for vinyl control and usually can send 
+the record output back to the computer without a separate audio interface. Many 
+(but not all) of these mixers are digital mixers, so they can send signals back 
+and forth to Mixxx without converting them to analog. This results in higher 
+sound quality for your recorded and broadcasted mixes compared to using a 
+separate audio interface with an external mixer.
 
 .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
    :align: center
@@ -313,21 +334,25 @@ will not reduce the sound quality of the music.
    Using a microphone with an external mixer that has a built in USB audio 
    interface
    
-To configure Mixxx for using a hardware mixer and a microphone:
+To configure Mixxx for using a hardware mixer for recording and/or broadcasting:
 
-#. Open :menuselection:`Options -> Preferences -> Sound Hardware`.
-#. In the :guilabel:`Output` tab, configure the :guilabel:`Deck 1-2` outputs 
-   (and :guilabel:`Deck 3-4` outputs if your audio interface and mixer support 
-   4 decks). If you do not want to record or broadcast your mix, no further 
-   setup is required.
+#. Open :menuselection:`Preferences --> Sound Hardware`.
+#. In the :guilabel:`Output` tab, select the audio interface for the 
+   :guilabel:`Deck 1-2` outputs (and :guilabel:`Deck 3-4` outputs if your audio 
+   interface and mixer support 4 decks).
 #. Click the :guilabel:`Input` tab.
-#. Configure the :guilabel:`Record/Broadcast` input to audio interface channels 
-   connected to the mixer's record, booth, or auxiliary output. For mixers with 
-   a built-in USB audio interface, refer to the mixer manufacturer's manual to 
-   find which channels of the mixer's audio interface send the record output.
+#. For the :guilabel:`Record/Broadcast` input, select the audio interface
+   connected to the mixer's output. For mixers with a built-in USB audio
+   interface, refer to the mixer manufacturer's manual to find which channels of
+   the mixer's audio interface send the record output.
+#. If you are using vinyl control, select the audio interface connected to the
+   turntables for the :guilabel:`Vinyl Control 1-4` inputs.
+#. Click the :guilabel:`Apply` button.
+#. Click the :guilabel:`OK` button.
 
 Do not configure anything for the :guilabel:`Microphone 1-4` inputs when using 
-an external mixer.
+an external mixer. The microphone controls in Mixxx will not affect your 
+microphones because the microphone is mixed by the external mixer.
 
 .. _microphones-dj-controllers:
 
