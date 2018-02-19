@@ -875,11 +875,12 @@ files to take less space on your computer without sacrificing audio quality.
 WAV and AIFF files are uncompressed and take up much more space.
 
 Lossy formats take up less storage space on your computer than lossless
-formats at the expense of reducing sound quality. However, modern hard drives
-and solid state drives are big enough to store many thousands of tracks in FLAC.
+formats at the expense of reducing sound quality. Assuming an average track 
+length of about 4 minutes, a 1 TB hard drive or solid state drive can store 
+about 42000 FLAC files or about 115000 MP3 files at 320 kbps.
 
 There is no benefit to converting lossy file to lossless formats. The detail
-lost when  making the lossy file cannot be recovered.
+lost when making the lossy file cannot be recovered.
 
 AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
 `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
