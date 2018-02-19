@@ -354,6 +354,9 @@ Do not configure anything for the :guilabel:`Microphone 1-4` inputs when using
 an external mixer. The microphone controls in Mixxx will not affect your 
 microphones because the microphone is mixed by the external mixer.
 
+DJ mixers typically do not supply phantom power required for condenser 
+microphones. Stand-alone audio interfaces typically do supply phantom power.
+
 .. _microphones-dj-controllers:
 
 DJ Controllers With Microphone Inputs
@@ -387,3 +390,6 @@ input.
 
    Using a DJ controller with Y splitter cables to record and/or broadcast the 
    mix with a microphone
+   
+DJ controllers typically do not supply phantom power required for condenser 
+microphones. Stand-alone audio interfaces typically do supply phantom power.
