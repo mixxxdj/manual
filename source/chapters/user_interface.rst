@@ -762,11 +762,22 @@ Headphone and Master Mix Controls
    Headphone split cue option
 
 **Pre/Main Knob**
-  Allows you to control how much of the master output you hear in your
-  headphones. It works like a crossfader between the stereo Master and stereo
-  Cueing signal. If the knob is set to the left, you only hear the cueing signal,
-  which is the usual position for prelistening tracks.
-
+  Allows you to control how much of the master output you hear in the
+  :guilabel:`Headphones` output. It works like a crossfader between the stereo 
+  Master and stereo :term:`PFL` signal. If the knob is set to the left, you 
+  only hear the PFL signal, which is the usual position for prelistening tracks.
+  
+  This can be used to practice DJing with only one stereo output and a set 
+  of either speakers or headphones.
+  
+  Additionally, this can be used to mix in headphones when you cannot hear the 
+  speakers connected to the :guilabel:`Master` output and there are no booth 
+  monitor speakers. Some DJs prefer to use this knob to mix in headphones all 
+  the time, but many find it to be a difficult way to play. If there is only one 
+  set of speakers and no booth monitors, you can avoid the need to mix in 
+  headphones by setting up the speakers behind you so both you and your 
+  audience can hear them.
+  
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 

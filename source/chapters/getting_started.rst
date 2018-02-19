@@ -116,8 +116,9 @@ Output Options
 
 **Internal mixing**:
 
-Use these outputs if you are not using an external hardware mixer. If you are
-using a controller with a built in audio interface, use these outputs.
+Use these outputs if you are not using an :ref:`external hardware mixer 
+<hardware-mixers>`. If you are using a controller with a built-in audio 
+interface, use these outputs.
 
 * *Master*: all decks, samplers, microphones, and auxiliary inputs mixed
   together. This output is sent to the speakers for the audience.
@@ -133,7 +134,6 @@ using a controller with a built in audio interface, use these outputs.
 
 Input Options
 -------------
-
 **Internal mixing**:
 
 Use these inputs if you are not using an external hardware mixer. If you are
@@ -153,3 +153,6 @@ using a controller with a built in audio interface, use these inputs.
 
 * *Vinyl Control 1-4*: timecode input from turntables or CDJs for
   manipulating decks 1-4
+  
+.. seealso:: :ref:`microphones`
+

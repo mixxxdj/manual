@@ -20,9 +20,10 @@ Glossary of Terms
      The headphone output is what you hear in your headphones.
 
    PFL
-     ``PFL`` or “pre-fader listen” is a fancy word for whether or not you are
-     “pre-listening” to a deck in your headphones. See also:
-     :term:`headphone button`.
+     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected 
+     by the deck volume faders. This allows for pre-listening tracks in 
+     headphones by lowering the volume fader so the deck plays only to 
+     headphones but not to the audience. See also: :term:`headphone button`.
 
    waveform summary
      The waveform summary shows the waveform envelope of the track near the

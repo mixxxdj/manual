@@ -36,6 +36,7 @@ Table of Contents
    chapters/user_interface
    chapters/library
    chapters/hardware
+   chapters/example_setups
    chapters/controlling_mixxx
    chapters/vinyl_control
    chapters/microphones

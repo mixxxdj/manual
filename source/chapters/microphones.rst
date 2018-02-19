@@ -4,8 +4,9 @@
 
 Using Microphones
 *****************
-There are three ways to use microphones with Mixxx, each with their own pros
-and cons:
+Mixxx can work with any microphone that can be plugged into your :ref:`audio 
+interface <hardware-audio-interfaces>`. There are three ways to use microphones 
+with Mixxx, each with their own pros and cons:
 
   * :ref:`microphones-software-monitoring`: Cheapest and simplest to set up, 
     but you cannot hear yourself without a disorienting delay, referred to as 
@@ -302,7 +303,7 @@ needs to be connected to the input of an audio interface. Most DJ mixers have
 an extra output for this which may be labeled "record", "session", "auxiliary", 
 or "booth". Some audio interfaces for vinyl control have enough input channels 
 to receive the output of the mixer and timecode from two turntables. If yours 
-does not, you may use the input jack on the audio interface built into your 
+does not, you may use the input of the audio interface built into your 
 computer, but these do not have high sound quality.
 
 .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
