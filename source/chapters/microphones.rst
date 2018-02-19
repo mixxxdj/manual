@@ -222,18 +222,22 @@ Configuring Latency Compensation
    <microphones-activate-direct-monitoring>`
 #. Click the :guilabel:`Mics` button in the main Mixxx window to show the 
    microphone controls.
-#. Click the :guilabel:`Talk` button when you are using the microphone. 
-   Mixxx will not record or broadcast your microphone if the 
-   :guilabel:`Talk` button is not active. However, you will still hear the 
-   microphone in your main output because the microphone is mixed by your    
-   audio interface, not Mixxx. You may leave the :guilabel:`Talk` button on to 
-   ensure you do not forget it, but this will record and broadcast background 
-   noise when you are not actively using the microphone.
+#. Click the :guilabel:`Talk` button when you are using the microphone.
 #. Adjust the microphone volume with the input gain knob on your audio 
    interface. Do not adjust the microphone gain in Mixxx. If you do, the 
    relative volume of the mics and music will be different in your recorded 
    and broadcasted mixes compared to what you hear out of your audio interface.
 
+Mixxx will not record or broadcast your microphone if the :guilabel:`Talk` 
+button is not active. However, you will still hear the microphone in your main 
+output because the microphone is mixed by your audio interface, not Mixxx. You 
+may leave the :guilabel:`Talk` button on to ensure you do not forget it, but 
+this will record and broadcast background noise when you are not actively using 
+the microphone. If your microphone has an on/off switch on it, you may leave 
+the :guilabel:`Talk` button enabled in Mixxx and use the switch on the 
+microphone to avoid adding background noise to your mix. Alternatively, you can 
+adjust the input gain on your audio interface throughout your mix.
+   
 .. _microphones-activate-direct-monitoring:
 
 Activating Direct Monitoring And Loopback On The Audio Interface
