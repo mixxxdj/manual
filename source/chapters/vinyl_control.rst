@@ -1,3 +1,4 @@
+
 .. include:: /shortcuts.rstext
 
 .. _vinyl-control:
@@ -21,7 +22,7 @@ How does it work?
 
 Vinyl control uses special :term:`timecode` records or CD's which are placed on
 real turntables or :term:`CDJ`. The audio output of the turntables is plugged
-into a soundcard connected to a computer on which Mixxx is running.
+into a audio interface connected to a computer on which Mixxx is running.
 When a record is played on one of the attached turntables, Mixxx reads the
 timecode from the record and uses the information to manipulate whatever
 track is loaded.
@@ -35,7 +36,7 @@ What do I need to use it?
 
 It is possible to use Mixxx's vinyl control with a variety of setups. Unlike
 some proprietary DJ software, Mixxx can use several types of timecode media and
-any soundcard that your :term:`operating system` has drivers to use.
+any audio interface that your :term:`operating system` has drivers to use.
 Optionally, any :ref:`MIDI/HID controller <control-midi>` can be used together
 with timecode control. The basic setups for timecode control are:
 
@@ -44,10 +45,10 @@ with timecode control. The basic setups for timecode control are:
   2-4 timecode vinyls, 2-4 turntables with phono pre-amplifiers (or line-level
   output), and 2-4 stereo sound inputs.
 
-  Your sound card inputs must match the turntable outputs. Turntables output
-  very quiet phono-level outputs that must be amplified for Mixxx to use.
-  You should either find a sound card that has phono pre-amplifiers built in
-  (one for each deck), use standalone phono pre-amplifiers, or use turntables
+  Your audio interface inputs must match the turntable outputs. Turntables 
+  output very quiet phono-level outputs that must be amplified for Mixxx to use.
+  You should either find a audio interface that has phono pre-amplifiers built 
+  in (one for each deck), use standalone phono pre-amplifiers, or use turntables
   with built in phono pre-amplifiers.
 
   You can try skipping the phono pre-amps if you use the software pre-amp in
@@ -55,8 +56,9 @@ with timecode control. The basic setups for timecode control are:
   Line-level signals are preferred and recommended.
 
   For turntables a typical setup is depicted in the figure below. First,
-  connect the RCA cables from the turntables to the inputs on your sound card.
-  Second, connect the outputs of your sound card to the inputs on your mixer.
+  connect the RCA cables from the turntables to the inputs on your audio 
+  interface. Second, connect the outputs of your audio interface to the inputs
+  on your mixer.
 
 .. figure:: ../_static/mixxx_setup_timecode_vc.png
    :align: center
@@ -81,9 +83,9 @@ with timecode control. The basic setups for timecode control are:
 
   Setting up CDJs for use with timecode CDs is similar to setting up
   turntables. The figure below outlines a typical configuration. First,
-  connect the RCA cables of the CDJs to inputs of your sound card. Second,
-  connect the inputs of your mixer to the outputs of your sound card. Make sure
-  the input mode of your sound card is set to *Line*.
+  connect the RCA cables of the CDJs to inputs of your audio interface. Second,
+  connect the inputs of your mixer to the outputs of your audio interface. Make 
+  sure the input mode of your audio interface is set to *Line*.
 
 .. figure:: ../_static/mixxx_setup_timecode_cdj.png
    :align: center
@@ -96,19 +98,19 @@ with timecode control. The basic setups for timecode control are:
 
 **Sound inputs**
 
-* It is recommended to use a proper DJ sound card that has **multiple** stereo
+* It is recommended to use a DJ audio interface that has **multiple** stereo
   line inputs on it.
-* Alternatively you can use multiple sound cards, each with a single stereo line
-  in, but this is strongly discouraged.
+* Alternatively you can use multiple audio interfaces, each with a single stereo 
+  line in, but this is strongly discouraged.
 
-Mixxx supports vinyl control input through a single soundcard with at least
-4-channels of input (two stereo line-in jacks), or through multiple separate
-soundcards which each have 2-channels of input (a single stereo line-in jack).
-Vinyl control requires the use of stereo line-in jacks - Mono or microphone
+Mixxx supports vinyl control input through a single audio interface with at 
+least 4-channels of input (two stereo line-in jacks), or through multiple separate
+audio interfaces which each have 2-channels of input (a single stereo line-in 
+jack). Vinyl control requires the use of stereo line-in jacks - Mono or microphone
 inputs will not work.
 
-It is strongly recommended to use a soundcard that comes with native low latency
-drivers such as ASIO (Windows) or CoreAudio (Mac). Linux users depend on the
+It is strongly recommended to use a audio interface that comes with native low 
+latency drivers such as ASIO (Windows) or CoreAudio (Mac). Linux users depend on the
 quality of the corresponding open source driver.
 
 .. note:: For best scratch performance with vinyl control, we recommend using a
@@ -165,10 +167,12 @@ timecoded CDs.
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Input` tab
 #. From the :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4`
-   drop-down menus, select the soundcard(s) which your decks are plugged into
+   drop-down menus, select the audio interface(s) which your decks are plugged 
+   into.
 #. In the channel selection drop-down menu, select the channel pairs
-   corresponding to the plug on your soundcard that your deck(s) are plugged
-   into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4` etc.
+   corresponding to the plug on your audio interface that your deck(s) are 
+   plugged into, typically :guilabel:`Channels 1-2` and
+   :guilabel:`Channels 3-4` etc.
 #. Click :guilabel:`Apply` to save the changes.
 #. Select the :guilabel:`Output` tab
 #. Specify :guilabel:`Deck 1` - :guilabel:`Deck 4` to route Mixxx's output
@@ -194,12 +198,12 @@ Turntable Input Signal Boost
 ----------------------------
 
 Many turntables provide unamplified “phono level” output which must be boosted
-to a “line level” signal. Normally, a mixer or soundcard provides this
+to a “line level” signal. Normally, a mixer or audio interface provides this
 amplification, but if you're plugging a turntable's phono output directly into
-a soundcard that doesn't support phono input, Mixxx can do the amplification.
-The :guilabel:`Turntable Input Signal Boost` slider allows you to adjust the
-level of preamplification applied to your decks' signal. However it is always
-preferable to use a proper phono preamplifier if you have one.
+a audio interface that doesn't support phono input, Mixxx can do the 
+amplification. The :guilabel:`Turntable Input Signal Boost` slider allows you
+to adjust the level of preamplification applied to your decks' signal. However,
+it is always preferable to use a proper phono preamplifier if you have one.
 
 Vinyl Configuration
 -------------------
@@ -436,12 +440,12 @@ Signal          Meaning                               Troubleshooting
                 to operate.
 --------------  ------------------------------------  ------------------------------------
 |too_loud|      Timecode signal too loud.             Lower the amplification, either on
-                Mixxx receives a signal which has     your external Mixer, soundcard or
-                too much amplification.               with the `Turntable Input Signal
-                                                      Boost`_
+                Mixxx receives a signal which has     your external mixer, audio
+                too much amplification.               interface, or with the `Turntable 
+                                                      Input Signal Boost`_.
 --------------  ------------------------------------  ------------------------------------
 |too_quiet|     Timecode signal too quiet.            Boost the amplification, either on
-                Mixxx receives a signal which has     your external Mixer, soundcard or
-                not enough amplification.             with the `Turntable Input Signal
-                                                      Boost`_
+                Mixxx receives a signal which has     your external Mixer, audio
+                not enough amplification.             interface, or with the `Turntable
+                                                      Input Signal Boost`_.
 ==============  ====================================  ====================================

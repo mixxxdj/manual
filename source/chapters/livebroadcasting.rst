@@ -9,6 +9,9 @@ Live Broadcasting - Start your own Internet radio
 Live Broadcasting in Mixxx allow you to stream your mix over the Internet to
 listeners around the world.
 
+.. seealso:: The :ref:`microphones` chapter has detailed instructions for 
+             including input from microphones in your broadcasted mixes.
+
 Streaming Servers
 =================
 

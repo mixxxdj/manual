@@ -762,11 +762,22 @@ Headphone and Master Mix Controls
    Headphone split cue option
 
 **Pre/Main Knob**
-  Allows you to control how much of the master output you hear in your
-  headphones. It works like a crossfader between the stereo Master and stereo
-  Cueing signal. If the knob is set to the left, you only hear the cueing signal,
-  which is the usual position for prelistening tracks.
-
+  Allows you to control how much of the master output you hear in the
+  :guilabel:`Headphones` output. It works like a crossfader between the stereo 
+  Master and stereo :term:`PFL` signal. If the knob is set to the left, you 
+  only hear the PFL signal, which is the usual position for prelistening tracks.
+  
+  This can be used to practice DJing with only one stereo output and a set 
+  of either speakers or headphones.
+  
+  Additionally, this can be used to mix in headphones when you cannot hear the 
+  speakers connected to the :guilabel:`Master` output and there are no booth 
+  monitor speakers. Some DJs prefer to use this knob to mix in headphones all 
+  the time, but many find it to be a difficult way to play. If there is only one 
+  set of speakers and no booth monitors, you can avoid the need to mix in 
+  headphones by setting up the speakers behind you so both you and your 
+  audience can hear them.
+  
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
@@ -879,11 +890,12 @@ Equalizers and Gain Knobs
 
   .. note:: By default, Mixxx automatically applies an additional ReplayGain so
             tracks have approximately equal loudness at unity gain. Your tracks
-            must be :ref:`analyzed <configuration-analyze>` to take advantage of
-            this feature. When an unanalyzed track is loaded, Mixxx calculates
-            its ReplayGain value, but will not apply a newly calculated
-            ReplayGain value to a track after it has already started playing
-            (to avoid a sudden change in the gain of a playing track).
+            must be :ref:`analyzed <getting-started-analyze-library>` to take
+            advantage of this feature. When an unanalyzed track is
+            loaded, Mixxx calculates its ReplayGain value, but will not apply a
+            newly calculated ReplayGain value to a track after it has
+            already started playing (to avoid a sudden change in the gain of a
+            playing track).
 
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
@@ -1112,24 +1124,13 @@ The Microphone Section
 
    The Microphone section
 
-The microphone section is **hidden** in the default
-:ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`MIC <interface-expansion-buttons>` button in the mixer section, or use the
-specific :ref:`appendix-shortcuts` to show or hide the section.
+The microphone section is **hidden** in the default :ref:`Mixxx user interface 
+<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>` 
+button in the mixer section, or use the specific :ref:`appendix-shortcuts` to 
+show or hide the section.
 
-**Setup the microphone**
-
-.. versionadded:: 2.0
-   Microphone can accept stereo or mono input now.
-
-* Most computers have built-in microphones, while some are connected through USB.
-  These work adequately, but don't expect them to be high-quality.
-* The best solution is to connect a good external microphone to the “Mic” or
-  “Line” input on your audio device. If available, use the “Gain” knob on the
-  device to adjust the input signal.
-* Select the microphone input in
-  :menuselection:`Preference --> Sound Hardware --> Input --> Microphone` and
-  click :guilabel:`Apply`.
+.. seealso:: The :ref:`microphones` chapter has detailed instructions for 
+             setting up microphones with various hardware.
 
 Microphone Controls
 -------------------
