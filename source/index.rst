@@ -41,6 +41,7 @@ Table of Contents
    chapters/vinyl_control
    chapters/microphones
    chapters/livebroadcasting
+   chapters/effects
    chapters/djing_with_mixxx
    chapters/preferences
    chapters/advanced_topics
