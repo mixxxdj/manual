@@ -18,10 +18,12 @@ effect units can be shown by toggling the setting in the skin settings menu.
    :alt: An effect unit
    :figclass: pretty-figures
 
-Each effect unit can load up to 3 effects in a chain. These effects processed
-one after the other in series. You will hear different sounds depending on the
-position of effects within the chain. Each effect in the chain has its own
-switch to toggle it on and off.
+   An effect unit
+
+Each effect unit can load up to 3 effects in a chain. These effects are
+processed one after the other in series. You will hear different sounds
+depending on the position of effects within the chain. Each effect in the chain
+has its own button to toggle it on and off.
 
 Effect units can process sound from:
   * decks
@@ -64,6 +66,8 @@ effect unit to reveal the effect parameters:
    :align: center
    :alt: An effect unit with parameters showing
    :figclass: pretty-figures
+
+   An effect unit with parameters showing
 
 You can customize how the metaknob is linked to the parameters by clicking the
 buttons below the parameter knobs. The button under the parameter name
