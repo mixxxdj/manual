@@ -128,9 +128,9 @@ You can use any of the timecode media supported by Mixxx:
 +----------------------------------------+---------------------+
 | Type                                   | Responsiveness      |
 +========================================+=====================+
-| Serato CV02 Vinyl                      | Very high           |
+| Serato CV02/2.5 Vinyl                  | Very high           |
 +----------------------------------------+---------------------+
-| Serato CV02 CD                         | Very high           |
+| Serato Control CD 1.0                  | Very high           |
 +----------------------------------------+---------------------+
 | Traktor Scratch MK1 Vinyl              | Very high           |
 +----------------------------------------+---------------------+
