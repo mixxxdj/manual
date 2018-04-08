@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-TEST Mixxx |version| User Manual
+
 ***************************
 
 Mixxx is a `free <https://gnu.org/philosophy/free-sw.html>`_ DJ software for
 Windows, Mac OS X and Linux. It's easy to use, even if you've never DJed.
-Mixxx offers a variety of features to help beginners get started and help
+aASDF ASDF ASDF ASDF Mixxx offers a variety of features to help beginners get started and help
 experienced DJs get creative:
   * beat, tempo, and musical key detection
   * master sync
