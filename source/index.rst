@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Mixxx |version| User Manual
+TEST Mixxx |version| User Manual
 ***************************
 
 Mixxx is a `free <https://gnu.org/philosophy/free-sw.html>`_ DJ software for
