@@ -169,7 +169,7 @@ Effects via AU Lab on macOS
 On macOS there is a simple and free way to give Mixxx access to the
 collection of AU/VST/MAS plugins that are installed on your system.
 
-* Install the free `Soundflower <https://code.google.com/p/soundflower/>`_,
+* Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_,
   a system extension for inter-application audio routing.
 * Download AU Lab.app standalone from Apple (you will need an free Apple
   Developer Login though), go to the

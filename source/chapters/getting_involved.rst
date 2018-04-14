@@ -39,8 +39,8 @@ As a software developer
 * You don't have to know C++. There are developers who got into Mixxx
   development while learning C++ along the way.
 * Join our mailing list: `mixxx-devel
-  <https://lists.sourceforge.net/lists/listinfo/mixxx-devel>`_
-* Join our :term:`IRC` channel, #mixxx on `Freenode <http://www.freenode.net/>`_
+  <https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_
+* Join our :term:`IRC` channel, #mixxx on `Freenode <https://freenode.net/>`_
 * Tell us your ideas! Email us, talk on IRC, file wishlist :term:`bugs <bug
   report>`, or post on the forums.
 * Register an account on our development platform `Github

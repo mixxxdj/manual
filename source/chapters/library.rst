@@ -465,7 +465,7 @@ Manual Edit
 Using the MusicBrainz online database
 -------------------------------------
 
-`Musicbrainz <http://musicbrainz.org/>`_ is an :term:`open-source` music
+`Musicbrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
 encyclopedia that collects music :term:`metadata` and makes it available to the
 public.
 
@@ -511,9 +511,9 @@ application window. This prompts Mixxx to re-read the metadata from **all**
 tracks in the library.
 
 Popular software to edit metadata of audio files include:
-  * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
-  * `Kid3 <http://kid3.sourceforge.net/>`_ (Mac, Windows, Linux)
-  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
+  * `Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)
+  * `Kid3 <https://kid3.sourceforge.io/>`_ (Mac, Windows, Linux)
+  * `Picard <https://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
 
 .. _library-auto-dj:
 
@@ -784,7 +784,7 @@ iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 Supported libraries:
 
 * |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)
-* |ic_lib_traktor| `Traktor <http://www.native-instruments.com/en/products/traktor/>`_ (Windows, macOS),
+* |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/products/traktor/>`_ (Windows, macOS),
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
 
@@ -863,7 +863,7 @@ There is no benefit to converting lossy file to lossless formats. The detail
 lost when making the lossy file cannot be recovered.
 
 AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
-`Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
+`Platform Update Supplement <https://support.microsoft.com/en-us/help/2117917/platform-update-supplement-for-windows-vista-and-for-windows-server-20>`_
 is required for Windows Vista.
 
 On Linux, AAC playback is disabled by default due to licensing restrictions.

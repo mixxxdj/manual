@@ -208,7 +208,7 @@ Often streaming hosts will run their own directories. Check your host's FAQ to
 find out. If you want to promote your streaming radio station even more,
 register at services like `streamfinder.com <http://www.streamfinder.com/>`_.
 An overview of different internet radio directories is available at
-`shoutcheap.com <http://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
+`shoutcheap.com <https://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
 
 Troubleshooting
 ===============
@@ -258,7 +258,7 @@ To activate MP3 streaming on Windows, follow these steps:
                LAME binaries.
 
   #. Unpack the downloaded archive. You need a utility for manipulating archives
-     like the free `7zip <http://www.7-zip.org/>`_.
+     like the free `7zip <https://www.7-zip.org/>`_.
   #. Copy :file:`libmp3lame.dll` to the location you have installed Mixxx,
      probably :file:`C:\\Program Files\\Mixxx\\`.
   #. **Only** if you are running Mixxx 1.11 or earlier, you **must** also rename
@@ -278,7 +278,7 @@ Windows Troubleshooting
 * Make sure you put the correct LAME :file:`*.dll` file in the same folder that
   contains the installation of Mixxx you are using.
 
-.. warning:: Some websites like `Audacity <http://audacityteam.org/>`_
+.. warning:: Some websites like `Audacity <https://www.audacityteam.org/>`_
              provide lame :term:`binaries` too. Do not use these versions or
              Mixxx will show an error when activating live broadcasting and your
              stream will fail.
@@ -301,8 +301,8 @@ To activate MP3 streaming on macOS, follow these steps:
 
 Method B: Package manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Another easy way to activate MP3 streaming is to use `Homebrew <http://brew.sh/>`_
-or `MacPorts <http://www.macports.org/>`_, which are package managers like
+Another easy way to activate MP3 streaming is to use `Homebrew <https://brew.sh/>`_
+or `MacPorts <https://www.macports.org/>`_, which are package managers like
 `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ on Debian/Ubuntu
 Linux. They provide a convenient way to install many Open Source packages.
 Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather

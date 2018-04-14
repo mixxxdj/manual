@@ -108,7 +108,7 @@ and make your computer work harder.
 
 For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all
 that is needed for playback, read `24/192 Music Downloads Are Very Silly Indeed
-<http://xiph.org/~xiphmont/demo/neil-young.html>`_.
+<https://xiph.org/~xiphmont/demo/neil-young.html>`_.
 
 Specifications
 ^^^^^^^^^^^^^^
@@ -135,7 +135,7 @@ However, most venues have DJs plug into :ref:`hardware DJ mixers
 balanced). Most home/computer speakers and amplifiers have RCA and/or 1/8" TRS
 stereo inputs. Most live sound mixers have balanced 1/4" TRS mono inputs. If
 you need to interconnect balanced and unbalanced gear, refer to this `guide
-from Presonus <http://www.presonus.com/news/articles/balanced-unbalanced>`_ and
+from Presonus <https://www.presonus.com/learn/technical-articles/balanced-unbalanced>`_ and
 this `guide from Rane <http://www.rane.com/note110.html>`_.
 
 Number of Channels

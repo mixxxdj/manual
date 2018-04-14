@@ -223,7 +223,7 @@ best choice is for your operating system.
 For low latency on Windows, it is best to use an ASIO driver that bypasses
 the sound processing of the Windows kernel. If there is no such ASIO driver
 available for your soundcard, use the WDM-KS API. There is generally no
-advantage to using `ASIO4ALL <http://asio4all.com>`_, a wrapper around the
+advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a wrapper around the
 WDM-KS API.
 
 On GNU/Linux, ALSA is the simplest sound API to configure. Using ALSA will
@@ -395,7 +395,7 @@ Importing your audio files
   such as m4p files purchased in the iTunes Store, are not supported.
 
   AAC (M4A) is supported on Windows Vista and macOS 10.8 onwards. The
-  `Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
+  `Platform Update Supplement <https://support.microsoft.com/en-us/help/2117917/platform-update-supplement-for-windows-vista-and-for-windows-server-20>`_
   is required for Windows Vista.
 
   On Linux, AAC playback is disabled by default due to licensing restrictions.

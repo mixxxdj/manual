@@ -71,7 +71,7 @@ Glossary of Terms
 
    IRC
      Internet Relay Chat (IRC) is a an online chat network. The Mixxx IRC
-     channel can be found on the `FreeNode IRC Network <http://freenode.net>`_
+     channel can be found on the `FreeNode IRC Network <https://freenode.net>`_
      in the #mixxx channel.
 
    BPM
@@ -383,7 +383,7 @@ Glossary of Terms
      way authorized by copyright holders or marks content with a digital
      watermark or similar method so that the content can not be freely
      distributed. For information about how you can get involved in activism
-     against DRM, see `Defective by Design <http://www.defectivebydesign.org>`_.
+     against DRM, see `Defective by Design <https://www.defectivebydesign.org>`_.
 
    shoutcast
      Shoutcast is proprietary software that allows digital audio content to be
@@ -411,7 +411,7 @@ Glossary of Terms
      Uniform Resource Locator. The address that defines the route to a file on
      an Internet server. URLs are typed into a Web browser to access Web pages
      and files, and URLs are embedded within the pages themselves as hypertext
-     links. One example of a URL is `<http://www.mixxx.org>`_ .
+     links. One example of a URL is `<https://mixxx.org>`_ .
 
    quantization
      Quantization is the process of aligning notes and other events like loops
@@ -444,7 +444,7 @@ Glossary of Terms
    MusicBrainz
      A open-source music encyclopedia that collects music :term:`metadata` and
      makes it available to the public. For more information, see
-     `<http://musicbrainz.org/>`_.
+     `<https://musicbrainz.org/>`_.
 
    AcoustID
      An acoustic fingerprint system built entirely on :term:`open-source`
