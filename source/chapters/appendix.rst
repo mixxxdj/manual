@@ -21,11 +21,11 @@ There are a variety of other resources where you can find out more:
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
 
-* **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our 
+* **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our
   `Zulip chat <http://mixxx.zulipchat.com/>`_. Stand-alone
-  `apps for Zulip <https://zulipchat.com/apps/>`_ can be configured to use the 
+  `apps for Zulip <https://zulipchat.com/apps/>`_ can be configured to use the
   server mixxx.zulipchat.com
-  
+
 * **Mixxx Source Code**: To download the source code for Mixxx, go to:
   `<https://github.com/mixxxdj/mixxx>`_
 

@@ -24,9 +24,9 @@ Mixxx and importing your music to the Mixxx library.
   Click the Mixxx icon in the applications menu or launcher of your desktop
   environment or perform a search for :file:`mixxx`. Alternatively type
   :command:`mixxx` into the terminal, then hit :kbd:`Return`.
-  If your :term:`audio interface` is not accessible from Mixxx because it is 
-  used by other applications via PulseAudio, you may close and restart Mixxx 
-  using :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` 
+  If your :term:`audio interface` is not accessible from Mixxx because it is
+  used by other applications via PulseAudio, you may close and restart Mixxx
+  using :command:`pasuspender mixxx`. See :ref:`appendix-command-line-options`
   for an overview of Mixxx's command line options.
 
 .. _getting-started-import-audio-files:
@@ -80,10 +80,10 @@ analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
 Once you have
-:ref:`imported your music library<getting-started-import-audio-files>`, press 
-:guilabel:`OK` on the Preferences window. Go to the Analyze view on the left 
-side panel of the library. This allows you to run :term:`beatgrid`, 
-:term:`key`, and :term:`ReplayGain` detection on tracks in advance. While 
+:ref:`imported your music library<getting-started-import-audio-files>`, press
+:guilabel:`OK` on the Preferences window. Go to the Analyze view on the left
+side panel of the library. This allows you to run :term:`beatgrid`,
+:term:`key`, and :term:`ReplayGain` detection on tracks in advance. While
 analyzing, the progress in percentage and total queue length are shown.
 
 .. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
@@ -94,7 +94,7 @@ Configuring sound input and output
 ==================================
 
 Before you can start using Mixxx, you need to configure Mixxx to use your
-sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do not 
+sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do not
 need to configure all inputs and outputs.
 
 The :ref:`hardware` chapter explains different types of DJ hardware and how to
@@ -116,8 +116,8 @@ Output Options
 
 **Internal mixing**:
 
-Use these outputs if you are not using an :ref:`external hardware mixer 
-<hardware-mixers>`. If you are using a controller with a built-in audio 
+Use these outputs if you are not using an :ref:`external hardware mixer
+<hardware-mixers>`. If you are using a controller with a built-in audio
 interface, use these outputs.
 
 * *Master*: all decks, samplers, microphones, and auxiliary inputs mixed
@@ -145,14 +145,14 @@ using a controller with a built in audio interface, use these inputs.
 **External mixing**:
 
 * *Record/Broadcast*: When this is configured, Mixxx will record and
-  broadcast from this audio interface input instead of the internal master 
-  mix. If you have a microphone plugged into the mixer, do not configure the 
+  broadcast from this audio interface input instead of the internal master
+  mix. If you have a microphone plugged into the mixer, do not configure the
   Microphone 1-4 inputs.
 
 **Either internal or external mixing**:
 
 * *Vinyl Control 1-4*: timecode input from turntables or CDJs for
   manipulating decks 1-4
-  
+
 .. seealso:: :ref:`microphones`
 
