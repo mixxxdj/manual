@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _setup:
 
 Example Setups

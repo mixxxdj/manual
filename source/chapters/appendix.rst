@@ -1,3 +1,4 @@
+.. include:: /shortcuts.rstext
 
 Appendix
 ********

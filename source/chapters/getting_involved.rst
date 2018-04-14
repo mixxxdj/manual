@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _contributing:
 
 Contributing to the Project

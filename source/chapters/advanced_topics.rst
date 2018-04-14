@@ -1,4 +1,3 @@
-
 .. include:: /shortcuts.rstext
 
 Advanced Topics

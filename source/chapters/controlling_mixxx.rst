@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _controlling mixxx:
 
 Controlling Mixxx

@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _live-broadcasting:
 
 Live Broadcasting - Start your own Internet radio
