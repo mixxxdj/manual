@@ -420,6 +420,10 @@ Edit metadata of audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
+.. versionadded:: 2.10
+
+   Option to write audio tags back into files
+
 Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
 library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
@@ -428,9 +432,13 @@ as bitrate, size, length, type, filename, and location.
 .. note:: Mixxx does not support editing the metadata of many tracks at a time
           (bulk editing).
 
-.. warning:: Changes to a track's metadata will be saved to the Mixxx library,
-             but **not** to the track itself. Mixxx wont touch your audio files
-             to prevent data loss.
+.. warning:: Mixxx wont touch your audio files by default. Changes to a track's
+             metadata will be saved to the Mixxx library, but **not** to the
+             track itself.
+
+             If you wish to write modified track metadata from the library into
+             file tags, check the box in :menuselection:`Preferences -->
+             Library --> Track Metadata Synchronisation`.
 
 Manual Edit
 -----------
