@@ -775,8 +775,6 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
-.. todo:: There is no Head-Split Button in Latenight as of v2.0.0.
-
 **Pre/Main Knob**
   Allows you to control how much of the master output you hear in the
   :guilabel:`Headphones` output. It works like a crossfader between the stereo

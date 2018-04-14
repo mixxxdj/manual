@@ -198,10 +198,6 @@ Library
 Changing music directories
 --------------------------
 
-.. versionadded:: 2.0
-   Handles multiple music library folders and adds an option to move them to
-   another location without data loss.
-
 You can manually add, relink, and remove Mixxx music directories in
 :menuselection:`Preferences --> Library`.
 
