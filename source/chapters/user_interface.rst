@@ -666,6 +666,18 @@ Playing Hotcues
   Press the :ref:`Play <control-keyboard>` keyboard shortcut while the hotcue
   button is pressed to continue playback, then release the hotcue button.
 
+Hotcue labels
+^^^^^^^^^^^^^
+
+.. versionadded:: 2.1.0
+
+You can add custom names to hotcues. Right-clicking on a selected track in the
+:ref:`track list <library-tracks>` reveals the context menu.
+Choose :menuselection:`Properties --> Cuepoints --> Label` and add a label for
+the hotcue. Press :kbd:`Enter` , then click :guilabel:`OK` to save.
+
+The hotcue indicator on the waveform changes to the format ``#:label``.
+
 Deleting Hotcues
 ^^^^^^^^^^^^^^^^
 
