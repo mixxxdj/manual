@@ -546,7 +546,9 @@ The Auto DJ features in detail:
    Selection Info label
 
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
-* **Add Random button**: Add random track from Auto DJ track sources.
+* **Add Random button**: Adds a random track from track sources (crates) to the
+  Auto DJ queue. If no track sources are configured, the track is added from the
+  library instead.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
 * **Transition time spin-box**: Determines the duration of the transition. A
