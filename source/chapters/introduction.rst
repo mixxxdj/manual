@@ -8,7 +8,7 @@ It helps you rock the party with DJ controllers, vinyl turntables, or even just
 your keyboard. It is developed by an international team of volunteers who want
 to bring the joy of DJing to everyone. The project is non-profit, open-source
 and community driven. Together, we aim to build the best DJ software ever
-created. We hope you will join us!
+created. We hope you will :ref:`join us <contributing>`!
 
 .. _intro-how-mixxx-works:
 
