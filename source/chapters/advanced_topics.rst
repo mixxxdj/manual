@@ -17,7 +17,7 @@ file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
 You can download and share custom controller presets in the
-`Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 
 .. _advanced-controller-wizard:
@@ -81,7 +81,7 @@ The Controller wizard saves the new preset to the following file paths:
 You can then modify the XML file it creates (or any of the ones that
 ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
 information, go to
-`<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
+`<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
 
 The Controller Wizard works only for :term:`MIDI` devices. Currently you can't
 map modifier (shift) keys and platter rotations. Use :ref:`MIDI Scripting
@@ -104,8 +104,8 @@ two or more Mixxx properties (“controls”), adjust incoming control values to
 work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
-For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_
-and `<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
+For more information, go to `<https://mixxx.org/wiki/doku.php/midi_scripting>`_
+and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
 
 .. _advanced-keyboard:
 
@@ -137,10 +137,10 @@ mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
 
 For a list of controls that can be used in a keyboard mapping, see
-`<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_.
+`<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_.
 
 You can download and share custom keyboard mappings in the
-`Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 .. _advanced-external-fx:
 

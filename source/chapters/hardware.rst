@@ -15,7 +15,7 @@ chapter provides general background information about various types of DJ
 hardware.
 
 .. seealso:: The `Mixxx DJ Hardware Guide
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
+             <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
              specific devices with information about their prices,
              features, and compatibility with Mixxx.
 
@@ -45,12 +45,12 @@ Mixxx can work with any :term:`MIDI` or :term:`HID` :term:`controller` as long
 as there is a mapping file to tell Mixxx how to understand the controller's
 signals. Mixxx comes bundled with a number of MIDI and HID mapping presets,
 which are listed in the `Mixxx DJ Hardware Guide
-<http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ on the wiki. For
+<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ on the wiki. For
 controllers that Mixxx does not yet support, you can `search the forum
-<http://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
+<https://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
 started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation
-<http://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
+<https://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
 on the wiki.
 
 .. seealso:: :ref:`control-midi` describes how to configure Mixxx to use

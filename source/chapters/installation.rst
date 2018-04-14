@@ -19,7 +19,7 @@ Installation on Windows
 
    Mixxx Installation on Windows 10 - Ready to install the application
 
-* Download Mixxx for Windows from `<http://mixxx.org/download/>`_ .
+* Download Mixxx for Windows from `<https://mixxx.org/download/>`_ .
 * Using :file:`Windows Explorer` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
 * Double-click the Mixxx installer .EXE to open it up.
@@ -48,7 +48,7 @@ Mixxx is supported on Windows 10 / 8.1 / 8 / 7 / Vista / XP, with native 32 and
              rights without you approving first. The Mixxx installer is not
              digitally signed. It does not indicate a security risk, if you can
              trust the source website such as `www.mixxx.org
-             <http://mixxx.org/download/>`_ . In this case, ignore the message
+             <https://mixxx.org/download/>`_ . In this case, ignore the message
              and continue the installation.
 
 Installation on macOS
@@ -64,7 +64,7 @@ Installation on macOS
 
    Mixxx Installation - Ready to drop the Mixxx icon to the Applications folder
 
-* Download Mixxx for macOS from `<http://mixxx.org/download/>`_ .
+* Download Mixxx for macOS from `<https://mixxx.org/download/>`_ .
 * Using :file:`Finder` browse to the location where the Mixxx download
   was saved, usually the :file:`Desktop` or :file:`Downloads` folder.
 * Double-click the Mixxx installer .DMG file, a new Finder window appears.
@@ -128,7 +128,7 @@ Alternatively, you can build Mixxx from source. This should be a pretty
 straightforward process, and it's certainly easiest on GNU/Linux. For more
 information, go to:
 
-* `<http://mixxx.org/wiki/doku.php/compiling_on_linux>`_
+* `<https://mixxx.org/wiki/doku.php/compiling_on_linux>`_
 
 Building Mixxx from Source
 ==========================
@@ -136,7 +136,7 @@ Building Mixxx from Source
 If your operating system isn't listed here, then it's likely you're going to
 have to build Mixxx from the source code. For more information, go to:
 
-* `<http://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_
+* `<https://mixxx.org/wiki/doku.php/start#compile_mixxx_from_source_code>`_
 
 Where to go from here?
 ======================

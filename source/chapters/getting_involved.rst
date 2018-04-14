@@ -14,19 +14,19 @@ contribute**.
 As a non-developer
 ==================
 
-* `Donate <http://mixxx.org/download/>`_ to Mixxx using Paypal to help
+* `Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help
   support and enhance development.
-* `Make skins <http://mixxx.org/wiki/doku.php/creating_skins>`_
+* `Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_
 * `Make MIDI mappings
-  <http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for
+  <https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for
   your controller
 * `Report bugs <https://bugs.launchpad.net/mixxx>`_
-* Update our `Wiki <http://mixxx.org/wiki/doku.php>`_ to make sure the
+* Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the
   information on it is up to date.
 * Translate Mixxx using `Transifex
   <https://www.transifex.com/mixxx-dj-software/public/>`_
 * Answer questions on the `Troubleshooting Forum
-  <http://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page
+  <https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page
   <https://answers.launchpad.net/mixxx>`_
 * Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog
   about our new releases when they come out. Any exposure on the web and in
@@ -45,7 +45,7 @@ As a software developer
   report>`, or post on the forums.
 * Register an account on our development platform `Github
   <https://github.com/mixxxdj>`_ and fork our code.
-  See `Using Git for Mixxx Development <http://mixxx.org/wiki/doku.php/using_git>`_
+  See `Using Git for Mixxx Development <https://mixxx.org/wiki/doku.php/using_git>`_
 * Join the
   `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_
   on Launchpad.
@@ -59,4 +59,4 @@ As a software developer
    <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_
 #. Talk to us on IRC for help on how to fix it.
 #. Fix it! *Done!* Your name will now be on the `Mixxx contributor list
-   <http://mixxx.org/contact/>`_.
+   <https://mixxx.org/contact/>`_.

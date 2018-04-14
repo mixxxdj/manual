@@ -12,14 +12,14 @@ Got questions? Need more information? Want to :ref:`contribute <contributing>`?
 There are a variety of other resources where you can find out more:
 
 * **Mixxx Website**: For general information and updates, as well as the latest
-  news on Mixxx, go to: `<http://mixxx.org>`_
+  news on Mixxx, go to: `<https://mixxx.org>`_
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
   `<https://mixxx.org/wiki/>`_
 
 * **Mixxx Community Forums**: To search for answers, post your question or
-  answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
+  answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
 
 * **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our
   `Zulip chat <http://mixxx.zulipchat.com/>`_. Stand-alone
@@ -34,7 +34,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
-  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
+  read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
 * **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,

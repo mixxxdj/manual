@@ -539,7 +539,7 @@ The Auto DJ features in detail:
 * **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
 * **Selection Info label**: Displays the duration and number of selected tracks.
-  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.  
+  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
@@ -855,8 +855,8 @@ files to take less space on your computer without sacrificing audio quality.
 WAV and AIFF files are uncompressed and take up much more space.
 
 Lossy formats take up less storage space on your computer than lossless
-formats at the expense of reducing sound quality. Assuming an average track 
-length of about 4 minutes, a 1 TB hard drive or solid state drive can store 
+formats at the expense of reducing sound quality. Assuming an average track
+length of about 4 minutes, a 1 TB hard drive or solid state drive can store
 about 42000 FLAC files or about 115000 MP3 files at 320 kbps.
 
 There is no benefit to converting lossy file to lossless formats. The detail
@@ -868,7 +868,7 @@ is required for Windows Vista.
 
 On Linux, AAC playback is disabled by default due to licensing restrictions.
 To enable the playback of AAC files,
-`build Mixxx from source with m4a/AAC files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
+`build Mixxx from source with m4a/AAC files support <https://mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
              iTunes Store in 2009 or earlier, are not supported.
