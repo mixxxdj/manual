@@ -180,7 +180,7 @@ a hardware mixer.
 
 Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono
 outputs (2 stereo pairs) to send Mixxx's decks to the mixer's stereo channels.
-Some DJ mixers have a USB :ref:`audio interface <hardware-audio-interface>`
+Some DJ mixers have a USB :ref:`audio interface <hardware-audio-interfaces>`
 built into them. This lets Mixxx send unmixed audio files directly to the mixer
 without needing a separate stand-alone audio interface.
 
@@ -229,6 +229,6 @@ Microphones
 ===========
 Microphones convert changes in sound pressure in air to changes in voltage (an
 analog audio signal). Mixxx can work with any microphone that can be plugged
-into your :ref:`audio interface <hardware-audio-interface>`.
+into your :ref:`audio interface <hardware-audio-interfaces>`.
 
 .. seealso:: :ref:`microphones`
