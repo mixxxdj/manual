@@ -68,4 +68,4 @@ Mixxx can be used in two different ways for headphone cueing:
 
      Using Mixxx together with a USB audio interface, external mixer, and
      timecode vinyl for external mixing
->>>>>>> upstream/manual-2.1.x
+
