@@ -330,6 +330,7 @@ Recording Your Mix
 
 With the integrated recording feature you can record your mix as an audio file
 and listen to it later, distribute it as a :term:`Podcast` or burn it to CD.
+
 By default, Mixxx records the Master output. Alternatively, Mixxx can record
 the output of an external mixer if you have an audio interface configured for
 the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound
@@ -364,6 +365,18 @@ choose to create them in the preferences.
 
 Record your mix to disk
 -----------------------
+
+.. versionadded:: 2.10
+
+   Added recording widget to toggle a recording session.
+
+Click on the recording icon on top of the application window to start,
+and stop the recording session. The duration of the running recording is
+displayed next to the icon.
+
+.. note:: The recording widget might not be available in some skins.
+
+Alternatively:
 
 * Click on the *Recordings* icon in the sidebar to switch to the
   :guilabel:`Recordings` view
