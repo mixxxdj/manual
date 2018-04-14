@@ -93,6 +93,19 @@ Tracks - View and edit your whole collection
 
     Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
+  * **Sort keys by circle of fifths**
+
+    .. versionadded:: 2.1.0
+
+    Click on the :guilabel:`Key` column header.
+    The order starts with *C* at the top, then its relative minor (*a*), then
+    adds 1 sharp (*G*), then *G*'s relative minor (*e*), and so adding
+    sharps/removing flats around the circle of fifths.
+    For :ref:`Lancelot <configuration-key-detection>` notation, it starts with
+    *G#m* at the top, which is *1A* in that notation, and proceeds
+    alphanumerically (minor keys appear before their relative major keys in this
+    case).
+
 **Rating tracks**
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
   over the rating field and clicking the stars.
