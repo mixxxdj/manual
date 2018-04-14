@@ -862,38 +862,37 @@ Compatible file formats
 =======================
 Mixxx supports a variety of audio file formats:
 
-Lossless:
-
-* :term:`FLAC` (flac)
-* :term:`Wave <WAV>` (wav)
-* :term:`Aiff <AIFF>` (aiff, aif)
-
-Lossy:
-
-* :term:`MP3` (mp3)
-* :term:`Ogg Vorbis` (ogg)
-* :term:`AAC` (aac, m4a, mp4)
-* :term:`Opus` (opus)
++----------------------------------------+-------------------------------------+
+| Lossless                               | Lossy                               |
++========================================+=====================================+
+| :term:`FLAC` (flac)                    | :term:`MP3` (mp3)                   |
++----------------------------------------+-------------------------------------+
+| :term:`Wave <WAV>` (wav)               | :term:`Ogg Vorbis` (ogg)            |
++----------------------------------------+-------------------------------------+
+| :term:`Aiff <AIFF>` (aiff, aif)        | :term:`AAC` (aac, m4a, mp4)         |
++----------------------------------------+-------------------------------------+
+|                                        | :term:`Opus` (opus)                 |
++----------------------------------------+-------------------------------------+
 
 Lossless formats preserve every detail of the original recording and are
-recommended for the best sound quality. The FLAC format compresses the
+recommended for the best sound quality. The :file:`FLAC` format compresses the
 files to take less space on your computer without sacrificing audio quality.
-WAV and AIFF files are uncompressed and take up much more space.
+:file:`WAV` and :file:`AIFF` files are uncompressed and take up much more space.
 
 Lossy formats take up less storage space on your computer than lossless
 formats at the expense of reducing sound quality. Assuming an average track
 length of about 4 minutes, a 1 TB hard drive or solid state drive can store
-about 42000 FLAC files or about 115000 MP3 files at 320 kbps.
+about 42000 :file:`FLAC` files or about 115000 :file:`MP3` files at 320 kbps.
 
 There is no benefit to converting lossy file to lossless formats. The detail
 lost when making the lossy file cannot be recovered.
 
-AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
+:file:`AAC (M4A)` is supported on Windows Vista and macOS 10.8 onwards. The
 `Platform Update Supplement <https://support.microsoft.com/en-us/help/2117917/platform-update-supplement-for-windows-vista-and-for-windows-server-20>`_
 is required for Windows Vista.
 
-On Linux, AAC playback is disabled by default due to licensing restrictions.
-To enable the playback of AAC files,
+On Linux, :file:`AAC` playback is disabled by default due to licensing restrictions.
+To enable the playback of :file:`AAC` files,
 `build Mixxx from source with m4a/AAC files support <https://mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
@@ -911,4 +910,4 @@ Mixxx can not play music directly from audio CDs. Use a CD ripping program to
 copy the audio from the CD to files on your computer. It is recommended to
 save the ripped files in the :term:`FLAC` format. Many different programs are
 available to rip CDs, but not every program is capable of saving them to
-FLAC.
+:file:`FLAC`.
