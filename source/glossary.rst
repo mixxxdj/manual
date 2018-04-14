@@ -330,6 +330,7 @@ Glossary of Terms
      are relieved of the task of having to compile the code by yourself.
 
    audio interface
+   audio interfaces
      An audio interface is a device that facilitates the input and output of
      audio signals to and from a computer, typically connected by USB. Almost
      all computers come with a basic audio interface built in, but a higher
