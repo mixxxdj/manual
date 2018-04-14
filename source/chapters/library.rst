@@ -606,6 +606,9 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
   the name of a playlist in the sidebar. Alternatively, use the right-click
   context menu in the library's :ref:`track list <library-tracks>`.
 
+  .. hint:: If you have a track selected in the library, all of the visible
+            playlist and crates that it is in are shown in bold.
+
 Right-click on an existing playlist name to access the different features in
 the context menu:
 
