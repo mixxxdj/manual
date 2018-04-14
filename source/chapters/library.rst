@@ -468,10 +468,10 @@ Manual Edit
   * **Cancel**: Discard the changes and close the editor.
   * **Previous/Next**: Load the previous or next track in the current library
     view.
-  * **Reload Track Metadata from File**: Prompts Mixxx to re-read the metadata
+  * **Import Metadata from File**: Prompts Mixxx to re-read the metadata
     of the selected track (such as when you have modified it externally with
     another application.)
-  * **Reload Track Metadata from MusicBrainz**:
+  * **Import Metadata from MusicBrainz**:
     Look up metadata on-line by searching the :term:`MusicBrainz` database. See
     below.
 
