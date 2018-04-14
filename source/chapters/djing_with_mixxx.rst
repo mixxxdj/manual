@@ -164,9 +164,9 @@ Harmonic Mixing
 
 Harmonic mixing is a technique to mix songs with matching melodies and
 harmonies. To learn more about harmonic mixing you might want to check out `the
-mixshare site`_.
+mixshare archive`_.
 
-.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+.. _the mixshare archive: https://web.archive.org/web/20161123191234/http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
 
 Mixxx has two features to help you with harmonic mixing. The first is a
 :term:`key lock`. When it is active changing the speed of a track won't affect
