@@ -20,9 +20,10 @@ Glossary of Terms
      The headphone output is what you hear in your headphones.
 
    PFL
-     ``PFL`` or “pre-fader listen” is a fancy word for whether or not you are
-     “pre-listening” to a deck in your headphones. See also:
-     :term:`headphone button`.
+     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected 
+     by the deck volume faders. This allows for pre-listening tracks in 
+     headphones by lowering the volume fader so the deck plays only to 
+     headphones but not to the audience. See also: :term:`headphone button`.
 
    waveform summary
      The waveform summary shows the waveform envelope of the track near the
@@ -233,6 +234,13 @@ Glossary of Terms
      similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio
      quality when used). FLAC files generally end with a .flac extension.
 
+   ALAC
+     Apple Lossless Audio Codec (ALAC) is a :term:`lossless` audio file format
+     used by iTunes and other Apple products. ALAC files use the same MP4
+     container format as AAC and use the same file extensions (m4a, mp4). Mixxx
+     and many other programs are not compatible with ALAC. It is recommended
+     to convert ALAC files to :term:`FLAC` for use in Mixxx.
+
    AIFF
      Short for Audio Interchange File Format. High-quality digital audio file
      format, similar to .wav files. Contains CD-quality audio stored in a
@@ -321,12 +329,25 @@ Glossary of Terms
      which is something like an an .exe or a .dll file. By using binaries you
      are relieved of the task of having to compile the code by yourself.
 
+   audio interface
+     An audio interface is a device that facilitates the input and output of 
+     audio signals to and from a computer, typically connected by USB. Almost 
+     all computers come with a basic audio interface built in, but a higher
+     quality audio interface with at least 4 output channels is recommended for
+     Mixxx.
+   
    soundcard
    soundcards
-     Also known as an audio card, it is an internal computer expansion card or
-     external expansion device that facilitates the input and output of audio
-     signals to and from a computer. Today DJ-soundcards are usually connected
-     via USB and have at least 2 stereo audio outputs to support :term:`cueing`.
+     Another name for an :term:`audio interface`, although few audio interfaces
+     are shaped like cards anymore.
+
+   direct monitoring
+     A feature of many :term:`soundcards` that allows microphones and other
+     input signals to be heard through the soundcard outputs with no
+     perceivable latency. With direct monitoring, the audio interface mixes the
+     input signal in hardware with the output signal from Mixxx. This
+     bypasses the latency of sending the signal into the computer for Mixxx to
+     process and sending it back out to the soundcard.
 
    cue
      A Cue or Cue point is a reference point in the track usually placed on the

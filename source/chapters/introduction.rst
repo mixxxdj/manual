@@ -1,212 +1,71 @@
+.. _intro:
+
 Introduction to Mixxx
 *********************
 
-Mixxx allows you to perform live DJ mixes with your digital music collection.
-It helps you rock the party with DJ controllers, vinyl turntables, or even
-just your keyboard.
+Mixxx enables you to perform live DJ mixes with your digital music collection.
+It helps you rock the party with DJ controllers, vinyl turntables, or even just
+your keyboard. It is developed by an international team of volunteers who want
+to bring the joy of DJing to everyone. The project is non-profit, open-source
+and community driven. Together, we aim to build the best DJ software ever
+created. We hope you will join us!
 
-Mixxx is used by professional DJs and bedroom DJs alike. It is designed by an
-international team of volunteer DJs who want to bring the joy of DJing to
-everyone. The project is non-profit, open-source and community driven. Together
-and with your help we aim to build the best DJ software ever created.
+.. _intro-how-mixxx-works:
 
-Mixxx Features
-==============
+How Mixxx Works
+===============
+Mixxx is different from typical music player applications because it plays
+multiple audio files at the same time and has many features to
+manipulate the playback of the audio files. This lets you creatively mix
+different tracks together on the fly.
 
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
+You can use Mixxx to preview the next track in headphones before the audience
+hears it, also known as headphone cueing. This helps you choose a track that
+is appropriate for the present moment and that will mix well into the
+currently playing track(s). To use headphone cueing, you need at least 2
+separate audio outputs, typically provided by a USB audio interface (also known
+as a “sound card”, although most of them are not shaped like cards anymore).
+Mixxx can be used in two different ways for headphone cueing:
 
-* **4 Decks**: Each deck features a scratchable, scrolling waveform that marks
-  beats and cue points, along with a whole-song waveform overview for quick
-  seeking.
-* **Advanced Controls**: Change playback with time stretching, and loop beat
-  segments.
-* **Sampler Decks**: Perfect for dropping that vocal sample or airhorn.
-* **External Library Integration**: Use your playlists and songs from iTunes,
-  Traktor, Rhythmbox, and Banshee.
-* **BPM Detection and Sync**: Instantly detect and sync the tempo of your songs.
-* **DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers.
-* **Timecode Support**: Use a real turntable or DJ-CD player as a controller.
-* **Live Broadcasting**: Start a radio station and stream your mixes live over
-  the Internet.
-* **Powerful Mixing Engine**: Supports various file formats, custom EQ shelves,
-  recording, etc.
-* **Automatic Mixing**: Create a quick playlist and let Auto DJ take over.
-* **Microphone Input**: Drop vocals or give shoutouts on the air.
+**Internal Mixing**
 
-New in Mixxx |version|
-========================
+  Mixxx plays multiple audio files on the computer at the same
+  time, mixes them together, and sends the mixed signal to one audio interface
+  output. A separate signal is sent to another audio interface output
+  for headphone cueing. Often a DJ controller is used with internal mixing to
+  provide easier control over Mixxx than a mouse and keyboard.
 
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
+  .. figure:: ../_static/mixxx_setup_midi_integrated_audio_interface.png
+     :align: center
+     :width: 75%
+     :figwidth: 100%
+     :alt: Using Mixxx together with a DJ controller and integrated audio
+           interface
+     :figclass: pretty-figures
 
-.. todo:: Update feature list for |version|.
+     Using Mixxx together with a DJ controller for internal mixing. The
+     DJ controller has an integrated audio interface that provides two separate
+     stereo outputs.
 
-* 4 decks
-* Master sync
-* Color-coded waveforms showing the frequencies in tracks
-* Key detection and pitch shifting (independent of tempo) for harmonic mixing
-* Choice of traditional, OpenKey, Lancelot, and custom key notations
-* 4 effect units with built-in effects
-* Controller mapping :term:`GUI`
-* Resizable skins
-* Beat jumping and loop move
-* Multiple library folders
-* Hierarchical library sorting
-* Cover/album art support
-* Vinyl passthrough mode to switch between control vinyl and music
-  vinyl
-* Auxiliary inputs that pass through to the master mix
-* Mono output and input support
-* Improved support for using multiple sound cards
-* MusicBrainz tagging support
-* Over 100 other performance, quality and usability improvements
+**External Mixing**
 
-* For a full list of features go to: `<http://mixxx.org/features/>`_
-* For an overview of new features, go to:
-  `<http://mixxx.org/whats-new-in-mixxx-2-1-0>`_
-* For a full list of new features and bugfixes, go to:
-  `https://launchpad.net/mixxx/2.1.0
-  <https://launchpad.net/mixxx/+milestone/2.1.0>`_
+  In this kind of setup, Mixxx plays multiple audio files on the computer at
+  the same time and sends each track to a separate audio interface output. The
+  audio interface's outputs are plugged into an external hardware mixer. The
+  hardware mixer performs the actual mixing of the audio signals. On the
+  hardware mixer, there are separate outputs for the mixed signal to play to
+  the audience and for the DJ to use headphone cueing. External mixing is
+  typically used with turntables and :ref:`special vinyl
+  records<vinyl-control>` to manipulate digital music files as if the music was
+  on the vinyl records.
 
-.. seealso:: For an overview of previous changes, go to
-             :ref:`appendix-version-history`.
+  .. figure:: ../_static/mixxx_setup_timecode_vc.png
+     :align: center
+     :width: 75%
+     :figwidth: 100%
+     :alt: Using Mixxx together with turntables and external mixer
+     :figclass: pretty-figures
 
-System Requirements
-===================
-
-Mixxx is available for Windows, macOS and GNU/Linux. Mixxx is designed to
-use very few system resources, but the Mixxx Development Team suggests these
-minimum requirements for having a great experience with Mixxx:
-
-* A 2GHz or faster CPU
-* At least 1GB of RAM
-* A soundcard with 2 stereo audio outputs (4 mono output channels)
-
-.. hint:: The EQs can be disabled to save CPU usage. Using this feature, Mixxx
-          can be used with an external mixer and a less powerful computer such
-          as a netbook.
-
-About the Mixxx Project
-=======================
-
-Mixxx is designed by an international team of volunteer DJs who want to bring
-the joy of DJing to everyone. The project is non-profit, open-source and
-community driven. Together and with your help we aim to build the best DJ
-software ever created.
-
-Mixxx started as an open-source project because of demand for DJing software on
-Linux, and discontent with proprietary DJ software on Windows and macOS.
-Today, Mixxx development is driven by the simple idea that together we can
-create a better way to DJ, and that has brought Mixxx to the cutting edge.
-
-Mixxx is the only free cross-platform vinyl control software and has the most
-advanced MIDI/HID controller support via our innovative JavaScript-based
-scripting engine. We are continuing to pursue new and exciting features that
-give DJs more tools to create better live mixes.
-
-Project History
----------------
-
-Mixxx was originally created in 2002 as part of a PhD thesis on new interfaces
-for DJing by Tue Haste Andersen. After releasing the project as open source,
-dozens of contributors began modifying and improving Mixxx.
-
-In 2006, a new development team lead by Adam Davison and Albert Santoni began
-reorganizing the project to ensure smooth growth of both the code-base and the
-number of contributors. A renewed focus on usability and stability has helped
-Mixxx grow to become the most popular free DJ software in the world, receiving
-over 1,000,000 downloads annually. Our committed team has worked hard to create
-great DJ software, and this growth is a sign of our success.
-
-In 2011, RJ Ryan took over as Lead Developer to successfully continue the team's
-endeavor to make Mixxx a world-class DJ software.
-
-As our user community grows, so does our development team - Over 150 developers,
-artists, and translators have helped create Mixxx!
-
-About the Mixxx Manual
-======================
-
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
-
-Some effort has been made to present the material in a way that is neither too
-technical nor too dumbed-down. Take some time to look through it and you'll
-find lots of hints that will enhance both your enjoyment and your productivity.
-
-Through the manual you'll find text formatted like this:
-
-* :menuselection:`Library --> Add new Playlist`
-
-  This is to simplify the business of choosing commands in menus. In this
-  example, the instruction means “Open the *Library* menu at the top of the
-  application window and then choose the *Add new Playlist* command”.
-
-* :guilabel:`Apply`
-
-  This is used to indicate a certain area of the :term:`GUI`, including button
-  labels, tabs, checkboxes, field names, values in selection lists etc. .
-
-* :kbd:`STRG` + :kbd:`G`
-
-  This is used to mark a keystroke, or a sequence of keystrokes. In this
-  example, you would have to hold down the *STRG* key, then to press *G*.
-
-* `<https://www.wikipedia.org/>`_
-
-  Links to external websites are marked like this.
-
-Important information in this manual are highlighted like this:
-
-* .. note:: For anything that should receive a bit more attention.
-
-* .. hint:: For supplementary information that lightens the work load.
-
-* .. seealso:: For references to other documents or websites if they need
-               special attention.
-
-* .. warning:: For anything that needs to be done with caution.
-
-Improving the Manual
---------------------
-
-* **Send Feedback**: If you have comments, corrections or suggestions regarding
-  the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-Manual>`_.
-
-* **Get the Source Code**: To download the source code for the Mixxx manual, go
-  to: `<https://github.com/mixxxdj/manual>`_
-
-Additional Resources
-====================
-
-.. sectionauthor::
-   S.Brandt <s.brandt@mixxx.org>
-
-Got questions? Need more information? Want to :ref:`contribute <contributing>` ?
-There are a variety of other resources you can use to find out more.
-
-* **Mixxx Website**: For general information and updates, as well as the latest
-  news on Mixxx, go to: `<http://mixxx.org>`_
-
-* **Mixxx Support Websites**: To get support from the Mixxx wiki, IRC channel
-  or Developer mailing list, go to: `<http://mixxx.org/support>`_
-
-* **Mixxx Community Forums**: To search for answers, post your question or
-  answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
-
-* **Mixxx Source Code**: To download the source code for Mixxx, go to:
-  `<https://github.com/mixxxdj/mixxx>`_
-
-* **Mixxx Bug Tracker**: To report a bug or request a feature, go to:
-  `<https://bugs.launchpad.net/mixxx>`_
-
-* **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
-  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
-  first.
-
-* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
-  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .
+     Using Mixxx together with a USB audio interface, external mixer, and
+     timecode vinyl for external mixing
+>>>>>>> upstream/manual-2.1.x
