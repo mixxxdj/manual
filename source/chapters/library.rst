@@ -32,7 +32,7 @@ view on the right displays the tracks in those collections.
 **Sidebar**:
 
 * **Search**: Search for tracks in your Mixxx library.
-* **Library**: View and edit your whole collection.
+* **Tracks**: View and edit your whole collection.
 * **Auto DJ**: Automatically load and crossfade tracks for unattended mixing.
 * **Playlists**: Arrange tracks in a set order.
 * **Crates**: Organize tracks in (unordered) collections.
@@ -49,16 +49,15 @@ view on the right displays the tracks in those collections.
 * **Load**: Drag tracks you want to play to the waveform display.
 * **Edit**: Rate tracks and edit track properties.
 
-.. _library-root:
+.. _library-tracks:
 
-Library - View and edit your whole collection
-=============================================
+Tracks - View and edit your whole collection
+============================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_library| The Library displays a sortable list of all the tracks in your
-music library.
+|ic_lib_library| A sortable list of all the tracks in your music library.
 
 **Customizing the view**
   Move columns by clicking a column header and dragging it to another
@@ -246,7 +245,7 @@ The Hidden Tracks view is accessible by expanding the Library tree item in
 the sidebar. Any tracks that were previously loaded into your library but were
 later set to be hidden from the library will appear here. Use the
 :guilabel:`Hide from Library` context menu item in the
-:ref:`library <library-root>` view to temporarily hide selected tracks.
+:ref:`tracks <library-tracks>` view to temporarily hide selected tracks.
 
 The features in detail:
 
@@ -423,7 +422,7 @@ Manual Edit
 -----------
 
 **Track Inline editing**:
-  Double-click on a field in the :ref:`library <library-root>`. If the field is
+  Double-click on a field in the :ref:`library <library-tracks>`. If the field is
   editable, it will become an editable text box. Enter a value and hit
   :kbd:`Enter` when you are done.
 
@@ -591,7 +590,7 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
-  context menu in the library's :ref:`track list <library-root>`.
+  context menu in the library's :ref:`track list <library-tracks>`.
 
 Right-click on an existing playlist name to access the different features in
 the context menu:
@@ -643,7 +642,7 @@ holding your favorite records.
 * **Add Tracks**: Add tracks to a previously created crate by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a crate in the sidebar. Alternatively use the context menu in the
-  library's :ref:`track list<library-root>`.
+  library's :ref:`track list<library-tracks>`.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
@@ -708,7 +707,7 @@ Mixxx library.
 Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
 music. Depending on your :term:`operating system`, your music will usually be
 found in the “My Music” or “Music” folder. Drag the files you want to import to
-the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the
+to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
 .. note:: Currently you can only drag files (not folders) to the Mixxx library.

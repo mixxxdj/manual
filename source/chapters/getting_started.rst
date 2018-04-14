@@ -52,7 +52,7 @@ are typically held, but you can select any location on your computer.
 
 Click :guilabel:`Select Folder` and Mixxx will scan your music library.
 Depending on the size of your library this could take some time. All the
-supported music files Mixxx detects will be listed in the :ref:`library-root`.
+supported music files Mixxx detects will be listed in the :ref:`library-tracks`.
 
 If you want to refresh your library (for example because you added or moved
 files), you can do this with :menuselection:`Library --> Rescan Library` in

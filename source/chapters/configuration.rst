@@ -374,7 +374,7 @@ Importing your audio files
 
   Click :guilabel:`Select Folder` and Mixxx will scan your music library.
   Depending on the size of your library this could take some time. All the
-  supported music files Mixxx detects will be listed in the :ref:`library-root`.
+  supported music files Mixxx detects will be listed in the :ref:`library-tracks`.
 
   If you want to refresh your library (for example because you added or moved
   files), you can do this with :menuselection:`Library --> Rescan Library` in
@@ -440,7 +440,7 @@ You can manually add, relink, and remove Mixxx music directories in
   directory and its subdirectories for new tracks.
 
   If you add a directory that is already in your library, or you are currently
-  :ref:`rescanning your library <library-root>`, the operation is canceled.
+  :ref:`rescanning your library <library-tracks>`, the operation is canceled.
 
   Directories can also be added from the :ref:`Browse <library-browse>` sidebar
   item inside the library.
