@@ -211,10 +211,10 @@ You can manually add, relink, and remove Mixxx music directories in
   directory and its subdirectories for new tracks.
 
   If you add a directory that is already in your library, or you are currently
-  :ref:`rescanning your library <library-root>`, the operation is canceled.
+  :ref:`rescanning your library <library-tracks>`, the operation is canceled.
 
-  Directories can also be added from the :ref:`Browse <library-browse>` sidebar
-  item inside the library.
+  Directories can also be added from the :ref:`Computer <library-computer>`
+  sidebar item inside the library.
 
 **Relink a existing music directory**
   If an existing music directory is moved, Mixxx doesn't know where to find the

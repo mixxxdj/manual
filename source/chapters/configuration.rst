@@ -409,9 +409,9 @@ Importing your audio files
 
 **Import remote files**
   To import audio files which are not in your music library directory, drag them
-  directly from an external :term:`file manager` or from the :ref:`Browse section
-  <library-browse>` to the track list. Importing files into Mixxx does not
-  change the location of the files on the hard disk.
+  directly from an external :term:`file manager` or from the :ref:`Computer
+  section <library-computer>` to the track list. Importing files into Mixxx does
+  not change the location of the files on the hard disk.
 
   .. note :: You can not drag complete folders to the library because currently
              Mixxx can not recursively scan folders for compatible music files.
@@ -442,8 +442,8 @@ You can manually add, relink, and remove Mixxx music directories in
   If you add a directory that is already in your library, or you are currently
   :ref:`rescanning your library <library-tracks>`, the operation is canceled.
 
-  Directories can also be added from the :ref:`Browse <library-browse>` sidebar
-  item inside the library.
+  Directories can also be added from the :ref:`Computer <library-computer>`
+  sidebar item inside the library.
 
 **Relink a existing music directory**
   If an existing music directory is moved, Mixxx doesn't know where to find the

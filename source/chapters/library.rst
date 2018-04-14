@@ -36,7 +36,8 @@ view on the right displays the tracks in those collections.
 * **Auto DJ**: Automatically load and crossfade tracks for unattended mixing.
 * **Playlists**: Arrange tracks in a set order.
 * **Crates**: Organize tracks in (unordered) collections.
-* **Browse**: Browse and load tracks from your file system and connected devices.
+* **Computer**: Navigate, view, and load tracks from folders on your hard disk
+  and connected devices.
 * **Recordings**: Record your mix and view previous recordings.
 * **History**: Browse lists of tracks played in past mixing sessions.
 * **Analyze**: Generate Mixxx-specific data for tracks before a gig.
@@ -692,21 +693,21 @@ If however you want to plan out a specific set and practice the transitions,
 you will want an ordered list of tracks. Playlists serve this purpose.
 
 
-.. _library-browse:
+.. _library-computer:
 
-Browse - Loading remote tracks
-==============================
+Computer - Loading remote tracks
+================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_browse| Browse mode works like a file manager and allows you to load
-tracks from anywhere on your computer that are not necessarily already in your
-Mixxx library.
+|ic_lib_browse| This mode works like a file manager and allows you to load
+tracks from anywhere on your computer and connected devices, that are not
+necessarily already in your Mixxx library.
 
-Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
-music. Depending on your :term:`operating system`, your music will usually be
-found in the “My Music” or “Music” folder. Drag the files you want to import to
+Click the :guilabel:`Computer` sidebar item to navigate the computer and find
+your music. Depending on your :term:`operating system`, your music will usually
+be found in the “My Music” or “Music” folder. Drag the files you want to import
 to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
