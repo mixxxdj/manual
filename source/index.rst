@@ -12,15 +12,16 @@ Mixxx is a `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for
 Windows, macOS and Linux. It's easy to use, even if you've never DJed.
 Mixxx offers a variety of features to help beginners get started and help
 experienced DJs get creative:
+
   * beat, tempo, and musical key detection
   * master sync
   * hotcues
   * looping
   * 4 decks
   * effects
-You can use Mixxx to perform with :term:`MIDI` and :term:`HID`
-controllers, CD players, vinyl turntables or even just your
-computer's keyboard and mouse.
+
+You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers,
+CD players, vinyl turntables or even just your computer's keyboard and mouse.
 
 Table of Contents
 -----------------
