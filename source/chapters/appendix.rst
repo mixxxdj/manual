@@ -292,6 +292,7 @@ easier. Command line options are case-sensitive.
 
    * ``--debugAssertBreak`` option
    * ``--logLevel`` option
+   * ``--logFlushLevel`` option
 
 .. versionchanged:: 2.1.0
 
@@ -349,13 +350,18 @@ Option                  Description
                         * ``debug``    - Above + Debug/Developer messages
                         * ``trace``    - Above + Profiling messages
 ----------------------  -------------------------------------------------
+--logFlushLevel LEVEL   Sets the the logging level at which the log buffer
+                        is flushed to ``mixxx.log``.
+                        LEVEL is one of the values defined at ``--logLevel``
+                        above.
+----------------------  -------------------------------------------------
 --debugAssertBreak      Breaks (SIGINT) Mixxx, if a DEBUG_ASSERT evaluates
                         to false. Under a debugger you can continue
                         afterwards. This  will also avoid to switch the
                         MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to
                         a time consuming full rebuild. Now the
                         MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if
-                        --debugAssertBreak is not passed.
+                        ``--debugAssertBreak`` is not passed.
 ----------------------  -------------------------------------------------
 -h, --help              Display this help message and exit
 ======================  =================================================
