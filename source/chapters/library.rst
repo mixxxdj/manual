@@ -580,7 +580,7 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
 "play" it.
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
-  and select :guilabel:`New playlist`. Name the playlist and click
+  and select :guilabel:`Create New Playlist`. Name the playlist and click
   :guilabel:`OK`. The total number of tracks and total duration are displayed
   next to the name.
 * **Import playlists**:
@@ -633,7 +633,7 @@ Crates - Organizing tracks into collections
 holding your favorite records.
 
 * **Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and
-  select :guilabel:`New Crate`. Name the crate and click :guilabel:`OK`.
+  select :guilabel:`Create New Crate`. Name the crate and click :guilabel:`OK`.
   The total number of tracks and total duration are displayed next to the name.
 * **Import crates**:
   Right-click on the :guilabel:`Crates` sidebar item
