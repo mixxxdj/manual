@@ -8,7 +8,7 @@ Guidelines for Mixxx Manual writers
 What is the intended outcome of the manual?
 ===========================================
 A user who doesn\'t know Mixxx yet should be able to mix two tracks from their
-music library in the shortest possible time. 
+music library in the shortest possible time.
 
 (Future) characteristics of the Mixxx manual:
 

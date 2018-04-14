@@ -20,9 +20,9 @@ Glossary of Terms
      The headphone output is what you hear in your headphones.
 
    PFL
-     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected 
-     by the deck volume faders. This allows for pre-listening tracks in 
-     headphones by lowering the volume fader so the deck plays only to 
+     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected
+     by the deck volume faders. This allows for pre-listening tracks in
+     headphones by lowering the volume fader so the deck plays only to
      headphones but not to the audience. See also: :term:`headphone button`.
 
    waveform summary
@@ -330,12 +330,12 @@ Glossary of Terms
      are relieved of the task of having to compile the code by yourself.
 
    audio interface
-     An audio interface is a device that facilitates the input and output of 
-     audio signals to and from a computer, typically connected by USB. Almost 
+     An audio interface is a device that facilitates the input and output of
+     audio signals to and from a computer, typically connected by USB. Almost
      all computers come with a basic audio interface built in, but a higher
      quality audio interface with at least 4 output channels is recommended for
      Mixxx.
-   
+
    soundcard
    soundcards
      Another name for an :term:`audio interface`, although few audio interfaces
