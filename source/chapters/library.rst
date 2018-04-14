@@ -583,6 +583,11 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
   and select :guilabel:`New playlist`. Name the playlist and click
   :guilabel:`OK`. The total number of tracks and total duration are displayed
   next to the name.
+* **Import playlists**:
+  Right-click on the :guilabel:`Playlists` sidebar item
+  and select :guilabel:`Import Playlist`. Select one or more playlists and click
+  :guilabel:`OK`. Mixxx creates an import of these existing external playlists
+  as new Mixxx playlists.
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
@@ -606,7 +611,7 @@ the context menu:
 * **Analyze entire playlist**: Forces the analysis of the tracks in the playlist
   in the :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists in various file
-  formats to a new Mixxx playlist. For more information, go to
+  formats to the selected playlist. For more information, go to
   :ref:`library-third-party`.
 * **Export playlist**: Export a playlist to various file formats such as
   :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`.
@@ -630,6 +635,11 @@ holding your favorite records.
 * **Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and
   select :guilabel:`New Crate`. Name the crate and click :guilabel:`OK`.
   The total number of tracks and total duration are displayed next to the name.
+* **Import crates**:
+  Right-click on the :guilabel:`Crates` sidebar item
+  and select :guilabel:`Import Crate`. Select one or more playlists and click
+  :guilabel:`OK`. Mixxx creates an import of these existing external playlists
+  as new Mixxx crates.
 * **Add Tracks**: Add tracks to a previously created crate by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a crate in the sidebar. Alternatively use the context menu in the
@@ -653,7 +663,7 @@ context menu:
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <configuration-analyze>` view.
 * **Import crate**: Import tracks from external playlists in various file
-  formats to a new Mixxx crate.
+  formats to the selected crate.
 * **Export crate**: Export a crate to various file formats, such as
   :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This
   allows you to use the data in other applications.
