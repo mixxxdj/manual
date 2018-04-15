@@ -420,7 +420,7 @@ Edit metadata of audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 2.10
+.. versionadded:: 2.1
 
    Option to write audio tags back into files
 
@@ -550,7 +550,7 @@ mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
 
-.. versionadded:: 2.10
+.. versionadded:: 2.1
    Selection Info label
 
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.

@@ -366,7 +366,7 @@ choose to create them in the preferences.
 Record your mix to disk
 -----------------------
 
-.. versionadded:: 2.10
+.. versionadded:: 2.1
 
    Added recording widget to toggle a recording session.
 
