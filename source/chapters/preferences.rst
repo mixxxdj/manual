@@ -249,8 +249,9 @@ Beat Detection
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. TODO:: Update this section to explain the differences between the beatgrid
-          and beatmap options.
+..
+  .. TODO:: Update this section to explain the differences between the beatgrid
+            and beatmap options.
 
 Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments
 are redundant in many cases because Mixxx knows where the beats are.
