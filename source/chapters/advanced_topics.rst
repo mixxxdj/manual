@@ -146,7 +146,7 @@ You can download and share custom keyboard mappings in the
 Additional Effects via external Mixer Mode
 ==========================================
 
-Mixxx comes with a set of :ref:`native effects <djing-with-effects>`.
+Mixxx comes with a set of :ref:`native effects <effects>`.
 Additionally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
 can route each deck directly to 3rd party effect hosts.
 
