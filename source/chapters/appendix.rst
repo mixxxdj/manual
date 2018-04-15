@@ -405,6 +405,39 @@ the log on exit.
 
 Version History
 ===============
+**v2.1.0** (2018-04-15)
+
+  * Graphical interface scales for high resolution screens
+  * Overhauled Deere and LateNight skins
+  * New Tango skin
+  * Resizable waveforms
+  * Effects are synchronized to the tempo
+  * Effects are processed post-fader and post-crossfader and can be previewed in headphones
+  * One metaknob per effect with customizable parameter control for intuitive use of effect chains
+  * Nine new effects: Autopan, Biquad Equalizer, Biquad Full Kill Equalizer, Loudness Contour, Metronome, Parametric Equalizer, Phaser, Stereo Balance, Tremolo
+  * Loaded effects and their parameters are saved and restored when Mixxx restarts
+  * More transparent sounding equalizers (Biquad Equalizer and Biquad Full Kill Equalizer)
+  * Improved scratching sounds with jog wheels, vinyl control, and dragging waveforms with the mouse
+  * Simplified looping and beatjump controls
+  * Configurable rows of 8 samplers with up to 8 rows available for a total of 64 samplers
+  * Files loaded to samplers are reloaded when Mixxx restarts
+  * Improved volume normalization algorithm (EBU-R 128)
+  * Filter library table by crates
+  * Sort musical keys in library table by circle of fifths
+  * Write metadata tags back to audio files
+  * New JavaScript library for controller mapping
+  * Configure multiple Internet broadcasting stations and use multiple stations at the same time
+  * Broadcast and record microphones with direct monitoring and latency compensation
+  * Broadcast and record from an external mixer
+  * Booth output with independent gain knob for using sound cards with 6 output channels without an external mixer
+  * Prevent screensaver from starting while Mixxx is running
+  * CUP (Cue And Play) cue button mode
+  * Time remaining and time elapsed now take into account the tempo fader
+  * Clicking cover art now shows it full size in a separate window
+
+For a full list of new features and bugfixes, go to:
+`https://launchpad.net/mixxx/2.1 <https://launchpad.net/mixxx/+milestone/2.1.0>`_.
+
 
 **v2.0.0** (2015-12-31)
 
