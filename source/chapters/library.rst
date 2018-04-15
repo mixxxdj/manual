@@ -210,7 +210,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Clear**:
     * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
       from the selected tracks in the Mixxx library. After doing this, we
-      recommend :ref:`analyzing <configuration-analyze>` the tracks again.
+      recommend :ref:`analyzing <library-analyze>` the tracks again.
     * **Play Count**: Marks selected tracks as not played in the current
       session and sets their play counter to zero. The icon in the
       :guilabel:`Played` column changes.
@@ -228,7 +228,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Change BPM**:
 
     * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
-      200% of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>`
+      200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
       the tracks. If many of the detected BPM values are incorrect, you might
       want to adjust the :guilabel:`BPM Range` in the
       :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
@@ -299,7 +299,7 @@ The features in detail:
 
 .. seealso:: To learn how to permanently remove tracks from the Mixxx library
              using the :guilabel:`Hidden Tracks` view, see
-             :ref:`permanently remove tracks <configuration-removing-tracks>`.
+             :ref:`permanently remove tracks <library-removing-tracks>`.
 
 .. _library-loading-tracks:
 
@@ -660,7 +660,7 @@ the context menu:
   is locked, you cannot add tracks, rename or delete the playlist. Choose
   :guilabel:`Unlock` from the context menu to unlock the playlist.
 * **Analyze entire playlist**: Forces the analysis of the tracks in the playlist
-  in the :ref:`Analyze <configuration-analyze>` view.
+  in the :ref:`Analyze <library-analyze>` view.
 * **Import playlist**: Import tracks from external playlists in various file
   formats to the selected playlist. For more information, go to
   :ref:`library-third-party`.
@@ -712,7 +712,7 @@ context menu:
 * **Auto DJ Track Source**: Use this crate as a source for random tracks in
   Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` .
 * **Analyze entire crate**: Forces the analysis of the crate in the
-  :ref:`Analyze <configuration-analyze>` view.
+  :ref:`Analyze <library-analyze>` view.
 * **Import crate**: Import tracks from external playlists in various file
   formats to the selected crate.
 * **Export crate**: Export a crate to various file formats, such as
@@ -768,7 +768,7 @@ Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
 as an additional music directory. Mixxx will watch this directory and its
 subdirectories for new tracks.
 
-.. seealso:: For more informations, go to :ref:`configuration-changing-music-directories`.
+.. seealso:: For more informations, go to :ref:`configuration-import`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
@@ -869,6 +869,8 @@ different location. Select :guilabel:`Use Default Library` to reset.
 
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
+
+.. _library-removing-tracks:
 
 Removing tracks from the library
 ================================

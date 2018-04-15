@@ -7,7 +7,7 @@ Getting Started
 
 Opening Mixxx
 =============
-|logo| Once you've :ref:`installed Mixxx <installing-mixxx>`, start by opening
+|logo| Once you've `installed Mixxx <https://mixxx.org/download/>`_, start by opening
 Mixxx and importing your music to the Mixxx library.
 
 **Windows**
