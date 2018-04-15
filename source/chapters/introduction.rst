@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _intro:
 
 Introduction to Mixxx
