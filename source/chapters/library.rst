@@ -159,65 +159,90 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
-.. versionadded:: 2.1.0
-   Add option to replace AutoDJ queue
+  .. versionadded:: 2.1.0
+
+     * Add options to replace AutoDJ queue, clear waveforms
+     * Use checkbox menu in Crates selection
+     * Add BPM conversions 133,33% and 150%
+     * Re-organize context menu
 
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
   playlist for automatic mixing. The :guilabel:`replace` option deletes the
   Auto DJ queue first, and then fills it with the selected tracks.
-* **Load to Deck/Sampler**: Loads a selected file to a
-  :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
+
+* **Load to**:
+  Loads a selected file to one of the available
+  :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
   :ref:`Previewdeck <interface-preview-deck>`. Alternatively
-  simply drag it to the :ref:`interface-waveform`. Note that you can't load
-  multiple files at once.
-* **Add to playlist/crate**: Add selected tracks to playlists or
-  crates you have previously created. Alternatively, drag the selection to a
-  playlist or crate in the sidebar.
-* **BPM Options sub-menu**:
+  simply drag it to the :ref:`interface-waveform`. The number of available decks
+  and samplers might differ, depending on the selected skin. Note that you
+  can't load multiple files at once.
+* **Add to Playlist**: Add selected tracks to an existing playlist, or drag the
+  selection to a playlist crate in the sidebar. Choose :guilabel:`Create new
+  playlist` to put them into a new playlist.
+* **Crates:** The checkbox shows in which existing crates the selection is in.
+  Changing the crates selection does not collapse the menu, which allows
+  much easier categorization of tracks without going through the menu from
+  scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
 
-    .. versionadded:: 2.1
-       Add BPM conversions 133,33% and 150%
+* **Metadata**:
+    * **Import from File Tags**: If the track's :term:`metadata` changes,
+      (e.g. if you used iTunes to edit it,) this option lets you save the new
+      values for the selected tracks to the Mixxx library. See
+      :ref:`edit metadata <library-edit-metadata>`.
+    * **Import from MusicBrainz**: Look up :term:`metadata` online by searching
+      the :term:`MusicBrainz` database and apply the search results to your
+      tracks. See :ref:`edit metadata <library-edit-metadata>`.
+    * **Export to File Tags:** Saves :term:`metadata` to files. Mixxx may wait
+      to modify files until they are not loaded to any decks or samplers. If you
+      do not see changed metadata in other programs immediately, eject the track
+      from all decks and samplers or shutdown Mixxx.
 
-    * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75%,
-      133,33%, 150%, or 200% of the BPM set by Mixxx when
-      :ref:`analyzing <configuration-analyze>` the tracks. If many of the
-      detected BPM values are incorrect, you might want to adjust the
-      :guilabel:`BPM Range` in the
+    * **Cover Art**:
+
+      * **Choose New Cover**: Select an image from the file browser as the cover.
+      * **Clear Cover**: Delete any cover information saved for this track.
+      * **Reload from track/folder**: Reload the cover from the tracks' ID3v2
+        :term:`tags <metadata>` or a picture in the track folder if the tags do
+        not supply any.
+
+* **Clear**:
+    * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
+      from the selected tracks in the Mixxx library. After doing this, we
+      recommend :ref:`analyzing <configuration-analyze>` the tracks again.
+    * **Play Count**: Marks selected tracks as not played in the current
+      session and sets their play counter to zero. The icon in the
+      :guilabel:`Played` column changes.
+    * **Hotcues**: Clears all saved :term:`hotcues <hotcue>` and
+      :ref:`hotcue labels <interface-hotcues>`.
+    * **ReplayGain**: Clears all saved :term:`ReplayGain` values.
+    * **Waveform**: Clears the saved waveform data from the selected tracks.
+      This is useful if a file is overwritten by another file of the same name,
+      or was edited externally (e.g. in a waveform editor). To clear the
+      waveform cache for all tracks in the library, select
+      :menuselection:`Preferences --> Waveforms --> Clear cached Waveforms` .
+    * **All**: Clears all of the data above from the Mixxx library database at
+      once.
+
+* **Change BPM**:
+
+    * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
+      200% of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>`
+      the tracks. If many of the detected BPM values are incorrect, you might
+      want to adjust the :guilabel:`BPM Range` in the
       :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
       analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
       icon next to the track's BPM in the library row is a toggle. Clicking it
-      will set the status to "locked", and the icon changes to |ic_lib_bpm_locked|.
-
-    * **Clear BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid`
-      data from the selected tracks in the Mixxx library. After doing this, we
-      recommend :ref:`analyzing <configuration-analyze>` the tracks again.
-
-* **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
-  (e.g. if you used iTunes to edit it,) this option lets you save the new values
-  for the selected tracks to the Mixxx library. See
-  :ref:`edit metadata <library-edit-metadata>`.
-* **Reload Track Metadata from MusicBrainz**:
-  Look up :term:`metadata` online by searching the :term:`MusicBrainz` database
-  and apply the search results to your tracks. See
-  :ref:`edit metadata <library-edit-metadata>`.
-* **Cover Art Option sub-menu**:
-
-    * **Choose New Cover**: Select an image from the file browser as the cover.
-    * **Unset Cover**: Delete any cover information saved for this track.
-    * **Reload from track/folder**: Reload the cover from the tracks' ID3v2
-      :term:`tags<metadata>` or a picture in the track folder if the tags do not
-      supply any.
+      will set the status to "locked", and the icon changes to
+      |ic_lib_bpm_locked|.
 
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
-* **Reset Play Count**: Marks selected tracks as not played in the current
-  session and sets their play counter to zero. The icon in the :guilabel:`Played`
-  column changes.
 * **Open in File Browser**: Brings up the selected files in your file manager.
 * **Properties**: Similar to inline editing explained above, the properties
   dialog allows you to view and edit metadata such as title, artist, album, and
