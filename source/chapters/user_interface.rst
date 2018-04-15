@@ -60,8 +60,8 @@ Track Information Display
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
   the Mixxx library. This information is initially loaded from the track's
-  :term:`metadata`. Is the metadata missing, parse the title and the artist
-  from the file name.
+  :term:`metadata`. If the metadata is missing, the title and artist are guessed
+  from the filename.
 
 **Track Artist**
   The artist of the track is listed below. It is the same as listed under the
@@ -138,9 +138,8 @@ separate waveforms. Select your preferred appearance in
    Mixxx alternative skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the type for waveform
-              overview and waveform summary in
-              :menuselection:`Preferences --> Interface --> Waveforms`.
+              Mixxx, try lowering the frame rate or changing the waveform type
+              in :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
