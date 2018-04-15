@@ -721,8 +721,8 @@ you will want an ordered list of tracks. Playlists serve this purpose.
 
 .. _library-computer:
 
-Computer - Loading remote tracks
-================================
+Computer - Loading tracks from anywhere on your computer
+========================================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
