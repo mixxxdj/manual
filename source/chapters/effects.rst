@@ -22,7 +22,7 @@ effect units can be shown by toggling the setting in the skin settings menu.
 
 Each effect unit can load up to 3 effects in a chain. These effects are
 processed one after the other in series. You will hear different sounds
-depending on the position of effects within the chain. Each effect in the chain
+depending on the order of effects within the chain. Each effect in the chain
 has its own button to toggle it on and off.
 
 Effect units can process sound from:
@@ -41,15 +41,24 @@ depending on the skin.
 If a channel is assigned to multiple effect units, those effect units are
 chained together. This allows you to chain more than 3 effects at a time.
 
-The mix knob crossfades between the dry signal (input to the unit) and the wet
-signal (output of the last effect in the unit). This adjusts the level of all 3
-effects in the unit together. When the knob is fully left, no sound will be
-heard from the effect unit. When the knob is fully right, only the output of
+The mix knob adjusts the mix between the dry signal (input to the unit) and the
+wet signal (output of the last effect in the unit). It changes the level of
+all 3 effects in the unit together. When the knob is fully left, no sound will
+be heard from the effect unit. When the knob is fully right, only the output of
 the effect unit will be heard without any of the dry input signal.
 
 Effects are processed after the deck faders and crossfader. This allows effects
 like Echo and Reverb to continue outputting sound after their input has been
-cut off by lowering the fader.
+cut off by lowering the fader. Unlike other DJ software and hardware, effects
+can also be heard in headphones even though they are processed after the faders
+for the master output. Refer to the :ref:`effects-in-headphones` section below
+for details.
+
+Note that equalizer and filter effects create a phase shift. If the mix knob is
+anywhere in the middle between dry and wet and any of these effects are enabled
+in the unit, there will be comb filtering which is probably not desired. For
+more background information, read `Equalizers and Phase Shift
+<http://ethanwiner.com/EQPhase.html>`_.
 
 Effect Parameters & Metaknobs
 =============================
@@ -88,9 +97,9 @@ over them to show the tooltip. If you do not see tooltips, check that you have
 them enabled for the skin in :menuselection:`Preferences --> Interface`.
 
 Effects (except for Reverb) that have a length of time as a parameter are
-synchronized to the tempo of decks. When these effects are in a unit which is
-assigned to a channel that Mixxx does not know the tempo of (any channel other
-than a normal deck), the :ref:`master-sync` tempo is used.
+synchronized to the tempo of decks.
+
+.. _effects-in-headphones:
 
 Effects In Headphones
 =====================
@@ -107,8 +116,10 @@ audience, but this requires a few more steps:
   #. Disable the effect unit for the deck
   #. Enable the headphone button for the deck
   #. Enable the headphone button for the effect unit
+  #. Enable effects and adjust their metaknobs and parameters for how you want
+     the effects to sound.
   #. When you are ready to mix in the effect, turn the mix knob fully left (dry)
   #. Enable the effect unit for the deck
-  #. Turn the mix knob right
+  #. Turn the mix knob right so the effects are heard in the master output
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
