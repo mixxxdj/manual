@@ -25,7 +25,7 @@ with Mixxx, each with their own pros and cons:
              same time as a different audio interface for music output.
 
 .. seealso:: The `Mixxx DJ Hardware Guide
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
+             <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
              specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 
