@@ -42,9 +42,9 @@ As a software developer
   development while learning C++ along the way.
 * Join our mailing list: `mixxx-devel
   <https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_
-* Join our :term:`IRC` channel, #mixxx on `Freenode <https://freenode.net/>`_
-* Tell us your ideas! Email us, talk on IRC, file wishlist :term:`bugs <bug
-  report>`, or post on the forums.
+* Join our `Zulip chat <https://mixxx.zulipchat.com/>`_.
+* Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist
+  :term:`bugs <bug report>`, or post on the forums.
 * Register an account on our development platform `Github
   <https://github.com/mixxxdj>`_ and fork our code.
   See `Using Git for Mixxx Development <https://mixxx.org/wiki/doku.php/using_git>`_
@@ -53,12 +53,13 @@ As a software developer
   on Launchpad.
 * Get familiar with the code. Pick a bug off of the `Easy Bug List
   <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_
-* Get help fixing the bug on IRC, talk to us about the best way to do it.
+* Get help fixing the bug on :term:`Zulip`, talk to us about the best way to do
+  it.
 
 **Contributing to Mixxx in 3 Easy Steps:**
 
 #. Pick a bug off of the `Easy Bug List
    <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_
-#. Talk to us on IRC for help on how to fix it.
+#. Talk to us on :term:`Zulip` for help on how to fix it.
 #. Fix it! *Done!* Your name will now be on the `Mixxx contributor list
    <https://mixxx.org/contact/>`_.

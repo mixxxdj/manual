@@ -70,9 +70,16 @@ Glossary of Terms
      play it.
 
    IRC
-     Internet Relay Chat (IRC) is a an online chat network. The Mixxx IRC
-     channel can be found on the `FreeNode IRC Network <https://freenode.net>`_
-     in the #mixxx channel.
+     Internet Relay Chat (IRC) is an online chat network. The Mixxx IRC channel
+     was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx``
+     channel. The channel was replaced in 2018 by the
+     :term:`Mixxx Zulip Chat <Zulip>`.
+
+   Zulip
+     `Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat
+     application that combines the immediacy of real-time chat with the
+     productivity benefits of threaded conversations. The ``Mixxx Zulip Chat``
+     at can be found at `<https://mixxx.zulipchat.com>`_ .
 
    BPM
      Beats per minute (BPM) is used as a measure of tempo in music.
