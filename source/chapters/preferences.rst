@@ -112,10 +112,10 @@ It is best to use the ASIO Sound API that bypassses the sound processing of the
 Windows kernel. Using ASIO requires a driver for your audio interface from
 the manufacturer. Check the manufacturer's website to see if a driver download
 is available. Soundcards designed for musicians almost always have an ASIO
-driver available, but audio interfaces built into computers and very cheap 
-audio interfaces typically do not have an ASIO driver. If there is no ASIO 
-driver available for your audio interface, use the WDM-KS API. There is 
-generally no advantage to using `ASIO4ALL <http://asio4all.com>`_, a wrapper 
+driver available, but audio interfaces built into computers and very cheap
+audio interfaces typically do not have an ASIO driver. If there is no ASIO
+driver available for your audio interface, use the WDM-KS API. There is
+generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a wrapper
 around the WDM-KS API.
 
 GNU/Linux
@@ -154,7 +154,7 @@ console rather than clicking the launcher icon in a menu or on your desktop.
 Since the sound stream is routed from ALSA to Pulse and back to ALSA, this adds
 an additional latency of ~2 x the selected audio buffer size.
 
-OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS 
+OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS
 drivers.
 
 macOS
@@ -178,9 +178,9 @@ Other Sound Hardware options
   you do not use the Master output, recording or live broadcasting.
 
 * **Master Output Mode**: In Mono mode, the left and right channel are combined
-  into a mono signal which is passed to both channels of your master audio 
-  interface. This is useful for setups where the audience cannot hear your mix 
-  in stereo because of speaker placement or playing in a space with lots of 
+  into a mono signal which is passed to both channels of your master audio
+  interface. This is useful for setups where the audience cannot hear your mix
+  in stereo because of speaker placement or playing in a space with lots of
   reverberation.
 
 * **Buffer Underflow Count**: Underflows (data is not available when needed)
@@ -198,10 +198,6 @@ Library
 Changing music directories
 --------------------------
 
-.. versionadded:: 2.0
-   Handles multiple music library folders and adds an option to move them to
-   another location without data loss.
-
 You can manually add, relink, and remove Mixxx music directories in
 :menuselection:`Preferences --> Library`.
 
@@ -211,10 +207,10 @@ You can manually add, relink, and remove Mixxx music directories in
   directory and its subdirectories for new tracks.
 
   If you add a directory that is already in your library, or you are currently
-  :ref:`rescanning your library <library-root>`, the operation is canceled.
+  :ref:`rescanning your library <library-tracks>`, the operation is canceled.
 
-  Directories can also be added from the :ref:`Browse <library-browse>` sidebar
-  item inside the library.
+  Directories can also be added from the :ref:`Computer <library-computer>`
+  sidebar item inside the library.
 
 **Relink a existing music directory**
   If an existing music directory is moved, Mixxx doesn't know where to find the

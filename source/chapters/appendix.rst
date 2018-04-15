@@ -1,3 +1,4 @@
+.. include:: /shortcuts.rstext
 
 Appendix
 ********
@@ -12,20 +13,20 @@ Got questions? Need more information? Want to :ref:`contribute <contributing>`?
 There are a variety of other resources where you can find out more:
 
 * **Mixxx Website**: For general information and updates, as well as the latest
-  news on Mixxx, go to: `<http://mixxx.org>`_
+  news on Mixxx, go to: `<https://mixxx.org>`_
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
   `<https://mixxx.org/wiki/>`_
 
 * **Mixxx Community Forums**: To search for answers, post your question or
-  answer other DJ's questions, go to: `<http://mixxx.org/forums>`_
+  answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
 
-* **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our 
-  `Zulip chat <http://mixxx.zulipchat.com/>`_. Stand-alone
-  `apps for Zulip <https://zulipchat.com/apps/>`_ can be configured to use the 
-  server mixxx.zulipchat.com
-  
+* **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our
+  `Zulip chat <https://mixxx.zulipchat.com/>`_. Stand-alone
+  `apps for Zulip <https://zulipchat.com/apps/>`_ can be configured to use the
+  server ``mixxx.zulipchat.com``.
+
 * **Mixxx Source Code**: To download the source code for Mixxx, go to:
   `<https://github.com/mixxxdj/mixxx>`_
 
@@ -34,7 +35,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
-  read the `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_
+  read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
 * **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
@@ -49,13 +50,6 @@ Keyboard mapping table
 Shortcuts let you work more efficiently. This table lists the default keyboard
 shortcuts for accessing Mixxx with an English keyboard layout. Depending on your
 language settings the defaults may be different.
-
-.. versionadded:: 2.0
-   *Passthrough*, *Vinylcontrol Mode*, *Vinylcontrol Cueing*, and
-   *Single Deck Vinylcontrol Toggle* shortcuts
-
-.. versionchanged:: 2.0
-   *Auto DJ* shortcuts, :kbd:`Esc` key exit search and leave focus
 
 +----------------------------------------+---------------------+---------------------+--------------+
 | Function                               | Deck 1              | Deck 2              | Master       |
@@ -207,14 +201,6 @@ Application shortcuts
 Use these shortcuts to access features available in the menu on top of the
 application window.
 
-.. versionadded:: 2.0
-   Added *Show Effect Rack*, *Maximize Library*, and *Show Cover Art* shortcuts.
-   Added a :guilabel:`Developer Tools` option to the :guilabel:`Developer` menu
-   which provides various useful debugging tools.
-
-.. versionchanged:: 2.0
-   Shortcuts for *Enable Vinyl Control 1-4*.
-
 ========================================  ================================
 Function                                  Key
 ========================================  ================================
@@ -248,7 +234,7 @@ Maximize Library                          Space
 ----------------------------------------  --------------------------------
 Full Screen (Windows & Linux)             F11
 ----------------------------------------  --------------------------------
-Full Screen (Mac OS X)                    Shift + Command + F
+Full Screen (macOS)                       Shift + Command + F
 ----------------------------------------  --------------------------------
 **Options menu**
 --------------------------------------------------------------------------
@@ -268,7 +254,7 @@ Enable Keyboard Shortcuts                 Ctrl + \`
 ----------------------------------------  --------------------------------
 Open Preferences (Windows & Linux)        Ctrl + P
 ----------------------------------------  --------------------------------
-Open Preferences (Mac OS X)               Ctrl + ,
+Open Preferences (macOS)                  Ctrl + ,
 ----------------------------------------  --------------------------------
 Exit Mixxx                                Ctrl + Q
 ----------------------------------------  --------------------------------
@@ -286,8 +272,8 @@ Debugger Enabled                          Ctrl + Shift + D
 ========================================  ================================
 
 .. hint:: The :kbd:`Ctrl` key on Windows & Linux is equivalent to the
-          :kbd:`Command` key on Mac OS X. The :kbd:`Alt` key on Windows & Linux
-          is equivalent to the :kbd:`Option` key on Mac OS X. Application
+          :kbd:`Command` key on macOS. The :kbd:`Alt` key on Windows & Linux
+          is equivalent to the :kbd:`Option` key on macOS. Application
           shortcuts are not customizable.
 
 .. note:: The Developer menu is available if Mixxx is started using the
@@ -302,22 +288,23 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
-.. versionadded:: 2.0
+.. versionadded:: 2.1.0
 
-   * Show debug tooltips
-   * Provide extra skins when developer mode is enabled.
-   * Adds the debugger during skin parsing in ``--developer`` mode
-   * Adds "Enable Base" and "Enable Experiment" option in ``--developer`` mode
-   * Added ``--safeMode`` option.
+   * ``--debugAssertBreak`` option
+   * ``--logLevel`` option
+   * ``--logFlushLevel`` option
+
+.. versionchanged:: 2.1.0
+
+   * ``--controllerDebug`` option also prints outgoing MIDI messages
 
 ======================  =================================================
 Option                  Description
 ======================  =================================================
 [FILE]                  Load the specified music file(s) at start-up.
                         Each file you specify will be loaded into the
-                        next virtual deck. Supported file types: mp3, ogg,
-                        aiff, aif, wav, flac, and optional unprotected
-                        aac (m4a)
+                        next virtual deck. For a list of supported file
+                        types, go to :ref:`configuration-import`
 ----------------------  -------------------------------------------------
 --resourcePath PATH     Top-level directory where Mixxx should look
                         for its resource files such as MIDI mappings,
@@ -332,7 +319,8 @@ Option                  Description
                         database and preferences configuration file.
 ----------------------  -------------------------------------------------
 --controllerDebug       Causes Mixxx to display/log all controller data
-                        it receives and script functions it loads.
+                        it sends and receives, and script functions it
+                        loads.
 ----------------------  -------------------------------------------------
 --developer             Enables developer-mode. Includes extra log info,
                         stats on performance, a Developer tools menu,
@@ -350,9 +338,30 @@ Option                  Description
                         * Doesn't open controllers by default
 ----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
-                        (e.g 'fr')
+                        (e.g ``fr``)
 ----------------------  -------------------------------------------------
 -f, --fullScreen        Starts Mixxx in full-screen mode
+----------------------  -------------------------------------------------
+--logLevel LEVEL        Sets the verbosity of command line logging
+
+                        * ``critical`` - Critical/Fatal only
+                        * ``warning``  - Above + Warnings
+                        * ``info``     - Above + Informational messages
+                        * ``debug``    - Above + Debug/Developer messages
+                        * ``trace``    - Above + Profiling messages
+----------------------  -------------------------------------------------
+--logFlushLevel LEVEL   Sets the the logging level at which the log buffer
+                        is flushed to ``mixxx.log``.
+                        LEVEL is one of the values defined at ``--logLevel``
+                        above.
+----------------------  -------------------------------------------------
+--debugAssertBreak      Breaks (SIGINT) Mixxx, if a DEBUG_ASSERT evaluates
+                        to false. Under a debugger you can continue
+                        afterwards. This  will also avoid to switch the
+                        MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to
+                        a time consuming full rebuild. Now the
+                        MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if
+                        ``--debugAssertBreak`` is not passed.
 ----------------------  -------------------------------------------------
 -h, --help              Display this help message and exit
 ======================  =================================================
@@ -370,15 +379,13 @@ terminal and hit return: ::
 Experiment modes for rapid development and testing
 ---------------------------------------------------
 
-.. versionadded:: 2.0
-
   * Adds a static Experiment class with a tri-state mode flag that indicates
     whether the experiment mode is OFF, BASE, or EXPERIMENT.
 
-  * Adds :menuselection:`Developer-->Stats:Experiment Bucket` and
-    :menuselection:`Developer-->Stats:Base Bucket`. Each one toggles between OFF
-    and BASE/EXPERIMENT so you can choose exactly what time spans you would like
-    to collect in your base and experiment buckets.
+  * Adds :menuselection:`Developer --> Stats:Experiment Bucket` and
+    :menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between
+    OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would
+    like to collect in your base and experiment buckets.
 
   * Updates StatsManager to segment collected stats into a base and experiment
     bucket. This allows you to quickly measure the difference a code change has
@@ -418,50 +425,6 @@ Version History
 
 For a full list of new features and bugfixes, go to:
 `https://launchpad.net/mixxx/2.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_.
-
-**v1.11.0** (2013-05-09)
-
-  * Completely revamped Waveforms
-  * Direct :term:`HID` controller support
-  * Point & Click Controller Mapping
-  * Next Generation Beat Detection
-  * Library History Feature
-  * Improved AutoDJ
-  * Beatloop Rolls
-  * Preview Deck
-  * Advanced Search
-  * New and Improved User Manual
-  * New Controller Support
-
-For a full list of new features and bugfixes, go to:
-`https://launchpad.net/mixxx/1.11.0 <https://launchpad.net/mixxx/+milestone/1.11.0>`_.
-
-**v1.10.1** (2012-06-30)
-
-  * Bugfixes
-
-For a full list of bugfixes, go to:
-`https://launchpad.net/mixxx/1.10.1 <https://launchpad.net/mixxx/+milestone/1.10.1>`_.
-
-**v1.10.0** (2011-12-25)
-
-  * Rewritten and Improved Vinyl Control Support
-  * 4 Sampler Decks
-  * Quantized Loops, Hotcues and Beatloops
-  * Phase Synchronization
-  * Beatgrid Adjust Feature
-  * Microphone Support
-  * Spinning Turntable Widgets and Waveform Scratching
-  * M4A Support for Windows Vista and Windows 7 users
-  * Brand New and Updated Skins
-  * Accessibility Improvements
-  * Limited Support for Internationalization
-  * Revamped and Rewritten User Manual
-  * Mixing engine improvements
-  * Updated MIDI Mappings
-
-For a full list of new features and bugfixes, go to:
-`https://launchpad.net/mixxx/1.10.0 <https://launchpad.net/mixxx/+milestone/1.10.0>`_.
 
 .. seealso:: For an overview of previous versions, `take a look
              <https://launchpad.net/mixxx/+series>`_ at the timeline.

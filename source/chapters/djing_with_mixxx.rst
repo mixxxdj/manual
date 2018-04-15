@@ -134,8 +134,6 @@ appropriate direction.
 Master Sync
 ===========
 
-.. versionadded:: 2.0
-
 :term:`Master Sync` is an intelligent assistant that allows you to leave the
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
@@ -166,9 +164,9 @@ Harmonic Mixing
 
 Harmonic mixing is a technique to mix songs with matching melodies and
 harmonies. To learn more about harmonic mixing you might want to check out `the
-mixshare site`_.
+mixshare archive`_.
 
-.. _the mixshare site: http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
+.. _the mixshare archive: https://web.archive.org/web/20161123191234/http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
 
 Mixxx has two features to help you with harmonic mixing. The first is a
 :term:`key lock`. When it is active changing the speed of a track won't affect
@@ -188,10 +186,11 @@ Recording Your Mix
 
 With the integrated recording feature you can record your mix as an audio file
 and listen to it later, distribute it as a :term:`Podcast` or burn it to CD.
-By default, Mixxx records the Master output. Alternatively, Mixxx can record 
-the output of an external mixer if you have an audio interface configured for 
-the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound 
-Hardware`. Refer to :ref:`microphones-record-broadcast-external-mixer` for 
+
+By default, Mixxx records the Master output. Alternatively, Mixxx can record
+the output of an external mixer if you have an audio interface configured for
+the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound
+Hardware`. Refer to :ref:`microphones-record-broadcast-external-mixer` for
 details.
 
 .. figure:: ../_static/Mixxx-111-Library-Recordings.png
@@ -223,8 +222,17 @@ choose to create them in the preferences.
 Record your mix to disk
 -----------------------
 
-.. versionadded:: 2.0
-   Displays the duration of the recording.
+.. versionadded:: 2.1
+
+   Added recording widget to toggle a recording session.
+
+Click on the recording icon on top of the application window to start,
+and stop the recording session. The duration of the running recording is
+displayed next to the icon.
+
+.. note:: The recording widget might not be available in some skins.
+
+Alternatively:
 
 * Click on the *Recordings* icon in the sidebar to switch to the
   :guilabel:`Recordings` view
@@ -256,9 +264,6 @@ Using Auto DJ For Automatic Mixing
    :figclass: pretty-figures
 
    Mixxx library - Auto DJ view
-
-.. versionadded:: 2.0
-   Add random tracks from Auto DJ track sources
 
 Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
 the current track is nearly finished, and crossfade into it.  See

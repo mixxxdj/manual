@@ -8,7 +8,7 @@ Guidelines for Mixxx Manual writers
 What is the intended outcome of the manual?
 ===========================================
 A user who doesn\'t know Mixxx yet should be able to mix two tracks from their
-music library in the shortest possible time. 
+music library in the shortest possible time.
 
 (Future) characteristics of the Mixxx manual:
 
@@ -76,9 +76,9 @@ elements, use color ``#FF1F90`` if possible for consistency.
 
 Nice screenshot tools with build-in editor for annotations:
 
-* MacOSX: `Skitch <https://evernote.com/skitch/>`_
+* macOS: `Skitch <https://evernote.com/products/skitch>`_
 * Linux: `Shutter <http://shutter-project.org/>`_
-* Windows: `PickPic <http://ngwin.com/picpick/>`_ 
+* Windows: `ShareX <https://getsharex.com//>`_
 
 Alternatively, import your screenshots into
 `Inkscape <https://inkscape.org/>`_, add annotations and export as .png to

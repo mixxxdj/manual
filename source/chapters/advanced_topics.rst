@@ -1,4 +1,3 @@
-
 .. include:: /shortcuts.rstext
 
 Advanced Topics
@@ -17,7 +16,7 @@ file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
 You can download and share custom controller presets in the
-`Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 
 .. _advanced-controller-wizard:
@@ -75,13 +74,13 @@ There are also some advanced options in the Midi Wizard you may need to use:
 The Controller wizard saves the new preset to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
-* Mac OS X: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
+* macOS: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
 ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
 information, go to
-`<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
+`<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
 
 The Controller Wizard works only for :term:`MIDI` devices. Currently you can't
 map modifier (shift) keys and platter rotations. Use :ref:`MIDI Scripting
@@ -104,8 +103,8 @@ two or more Mixxx properties (“controls”), adjust incoming control values to
 work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
-For more information, go to `<http://mixxx.org/wiki/doku.php/midi_scripting>`_
-and `<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
+For more information, go to `<https://mixxx.org/wiki/doku.php/midi_scripting>`_
+and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
 
 .. _advanced-keyboard:
 
@@ -116,7 +115,7 @@ The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text
 file which can be found at the following location:
 
 * Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`
-* Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
+* macOS: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
 * Windows: :file:`<Mixxx installation directory>\\keyboard\\en_US.kbd.cfg`
 
 Depending on your system's language settings, Mixxx might use a different
@@ -128,7 +127,7 @@ all your changes may be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
-* Mac OS X: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
+* macOS: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
 Then edit this file and save the changes. On the next startup, Mixxx will check
@@ -137,24 +136,24 @@ mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
 
 For a list of controls that can be used in a keyboard mapping, see
-`<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_.
+`<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_.
 
 You can download and share custom keyboard mappings in the
-`Mixxx User customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 .. _advanced-external-fx:
 
 Additional Effects via external Mixer Mode
 ==========================================
 
-Mixxx comes with a set of :ref:`native effects <djing-with-effects>`.
+Mixxx comes with a set of :ref:`native effects <effects>`.
 Additionally, using the :ref:`external mixer mode <configuration-mixer-mode>` you
 can route each deck directly to 3rd party effect hosts.
 
 The following examples are only intended to encourage experimentation, they are
 not definitive guidance.
 
-Effects via AU Lab on Mac OS X
+Effects via AU Lab on macOS
 -------------------------------
 
 .. figure:: ../_static/Mixxx-111-external-fx-aulab-setup.png
@@ -164,12 +163,12 @@ Effects via AU Lab on Mac OS X
    :alt: The Au Lab routing for external effects
    :figclass: pretty-figures
 
-   The Au Lab routing for external effects on Mac OS X
+   The Au Lab routing for external effects on macOS
 
-On Mac OS X there is a simple and free way to give Mixxx access to the
+On macOS there is a simple and free way to give Mixxx access to the
 collection of AU/VST/MAS plugins that are installed on your system.
 
-* Install the free `Soundflower <https://code.google.com/p/soundflower/>`_,
+* Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_,
   a system extension for inter-application audio routing.
 * Download AU Lab.app standalone from Apple (you will need an free Apple
   Developer Login though), go to the
@@ -233,9 +232,9 @@ The library file is stored in the following places depending on your
   To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in
   this folder.
 
-**Mac OS X**
+**macOS**
   The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`
-  folder in your home directory. To delete your library on Mac OS X type the
+  folder in your home directory. To delete your library on macOS type the
   following command into a terminal: ::
 
        rm ~/Library/Application\ Support/Mixxx/mixxxdb.sqlite

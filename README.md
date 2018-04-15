@@ -12,15 +12,18 @@ First [Download] the latest Mixxx manual source or clone the repository
 
     $ git clone https://github.com/mixxxdj/manual.git
 
-Next, install the dependencies using pip. From within the repository root
+Next, install the dependencies using [pip]. From within the repository root
 (type ```cd manual``` after typing the above command):
 
     $ pip install -r requirements.txt
 
 If you do not wish to use pip:
-* [Install Sphinx], the documentation generator. *Note:* Version 1.3.1 seems to have a bug
-  with graphviz. We suggest using version 1.2.3 until this is resolved.
+* [Install Sphinx], the documentation generator.
 * [Install Graphviz], graph visualization software (used to draw some diagrams)
+
+To upgrade dependencies using pip:
+
+    $ pip install -r requirements.txt --upgrade
 
 If you'd like to build manual PDFs, you will need a functioning LaTeX installation.
 * On Mac, install [MacTeX].
@@ -69,8 +72,8 @@ The Mixxx manual is translated using the [Transifex] web service for team transl
 
 ### Prerequisites
 
-If you did not install requirements with `pip install -r requirements.txt` above
-then you must manually install the following dependencies:
+If you did **not** install requirements with `pip install -r requirements.txt`
+above then you must manually install the following dependencies:
 
 * [sphinx-intl], a utility that makes it easy to translate and compile
   translations to Sphinx projects.
@@ -78,17 +81,26 @@ then you must manually install the following dependencies:
   interface. The Python-based command line client makes it easy to fetch and
   push translations.
 
-  Install transifex-client on Linux and Mac OS X
+**Install transifex-client on Linux and macOS**
 
-  `pip install transifex-client`
+    $ pip install transifex-client
 
-  Install transifex-client on Windows
+**Install transifex-client on Windows**
 
-  `http://files.transifex.com/transifex-client/0.11b3/tx.exe`
+   The easiest way to install it is with pip:
 
-  You will need to make a `.transifexrc` in your home directory with your
-  username and password to use the Transifex client. See
-  [transifex-configuration] for more details.
+    $  easy_install pip
+    $  pip install transifex-client
+
+  The first line installs pip on a system level. Then it installs the Transifex
+  Client using pip.
+
+  If you do not wish to use pip, download the latest releases from
+  https://github.com/transifex/transifex-client/releases
+
+You will need to make a `.transifexrc` in your home directory with your
+username and password to use the Transifex client. See
+[transifex-configuration] for more details.
 
 ### Maintaining translations
 
@@ -104,7 +116,7 @@ For every change to the manual source files (.rst) the source translation files
 the text of every English phrase in the manual in a common format used for
 translation.
 
-Additionally, for every new source file added (i.e. new chapters or manaul
+Additionally, for every new source file added (i.e. new chapters or manual
 pages) the Transifex configuration file (stored in `.tx/config`) needs updating.
 
 To do both of these, run:
@@ -190,7 +202,7 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 
 ### Editors with Restructured Text (reST) syntax highlighting
 
-* Windows, Linux, Mac OSX : [Atom], [Sublime]
+* Windows, Linux, Mac OSX : [Atom], [Visual Studio Code], [Sublime]
 * Linux: [Kate], [Retext]
 * Windows: [Intype]
 * Webapp: [Notex]
@@ -200,6 +212,7 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 Even more [reStructuredText] resources:
 <http://stackoverflow.com/questions/2746692/restructuredtext-tool-support>
 
+[pip]: https://pip.pypa.io/
 [reStructuredText]: http://docutils.sourceforge.net/rst.html
 [Sphinx]: http://sphinx-doc.org
 [Install Sphinx]: http://sphinx-doc.org/latest/install.html
@@ -208,9 +221,10 @@ Even more [reStructuredText] resources:
 [sphinx-intl]: https://pypi.python.org/pypi/sphinx-intl
 
 [Transifex]: https://www.transifex.com/organization/mixxx-dj-software/dashboard/mixxxdj-manual
-[transifex-client]: http://docs.transifex.com/client/setup/
-[transifex-configuration]: http://docs.transifex.com/client/config/
+[transifex-client]: https://docs.transifex.com/client/installing-the-client
+[transifex-configuration]: https://docs.transifex.com/client/client-configuration/
 [Atom]: https://atom.io/
+[Visual Studio Code]: https://code.visualstudio.com/
 [Sublime]: http://www.sublimetext.com
 [Kate]: http://kate-editor.org/
 [Retext]: http://sourceforge.net/p/retext/

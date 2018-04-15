@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _controlling mixxx:
 
 Controlling Mixxx
@@ -149,9 +151,9 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              up-to-date information about which controllers work with Mixxx and
              the details of each.
 
-.. _Hardware Compatibility wiki page: http://www.mixxx.org/wiki/doku.php/hardware_compatibility
+.. _Hardware Compatibility wiki page: https://mixxx.org/wiki/doku.php/hardware_compatibility
 .. _Bug Tracker: https://bugs.launchpad.net/mixxx
-.. _Controller presets forum: http://mixxx.org/forums/viewforum.php?f=7
+.. _Controller presets forum: https://mixxx.org/forums/viewforum.php?f=7
 
 Installing a preset from the forum
 ----------------------------------
@@ -163,7 +165,7 @@ folder, go to :menuselection:`Preferences --> Controllers` and click the
 folder in your :term:`OS <operating system>` file browser:
 
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
-  * OS X: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
+  * macOS: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
   * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
   * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
 

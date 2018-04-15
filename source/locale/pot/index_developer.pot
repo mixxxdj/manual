@@ -16,15 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../todolist.rst:6
-msgid "Automatically generated TODO list"
-msgstr ""
-
-#: ../../todolist.rst:8
-msgid "The following list is automatically generated from ``.. TODO::`` directives in the text."
-msgstr ""
-
-#: ../../todolist.rst:11
-msgid "TODO items"
+#: ../../index_developer.rst:1
+msgid "**For documentation writers**"
 msgstr ""
 

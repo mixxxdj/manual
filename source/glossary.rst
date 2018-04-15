@@ -20,9 +20,9 @@ Glossary of Terms
      The headphone output is what you hear in your headphones.
 
    PFL
-     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected 
-     by the deck volume faders. This allows for pre-listening tracks in 
-     headphones by lowering the volume fader so the deck plays only to 
+     ``PFL`` or “pre-fader listen” is the headphone signal that is not affected
+     by the deck volume faders. This allows for pre-listening tracks in
+     headphones by lowering the volume fader so the deck plays only to
      headphones but not to the audience. See also: :term:`headphone button`.
 
    waveform summary
@@ -45,14 +45,14 @@ Glossary of Terms
 
    operating system
      Your operating system (OS) is the computing environment on your
-     computer. For example, Windows, Mac OS X, or GNU/Linux are the three
+     computer. For example, Windows, macOS, or GNU/Linux are the three
      operating systems that Mixxx supports.
 
    file manager
      A computer program that organizes data files into groups and shows you
      where they are when you need to find them again. Popular file managers for
      the :term:`operating systems <operating system>` Mixxx supports are
-     Explorer on Windows, Finder on Mac OS X and Nautilus on GNU/Linux.
+     Explorer on Windows, Finder on macOS and Nautilus on GNU/Linux.
 
    head/mix button
      The head/mix button is used to control how much you mix the :term:`master
@@ -70,9 +70,16 @@ Glossary of Terms
      play it.
 
    IRC
-     Internet Relay Chat (IRC) is a an online chat network. The Mixxx IRC
-     channel can be found on the `FreeNode IRC Network <http://freenode.net>`_
-     in the #mixxx channel.
+     Internet Relay Chat (IRC) is an online chat network. The Mixxx IRC channel
+     was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx``
+     channel. The channel was replaced in 2018 by the
+     :term:`Mixxx Zulip Chat <Zulip>`.
+
+   Zulip
+     `Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat
+     application that combines the immediacy of real-time chat with the
+     productivity benefits of threaded conversations. The ``Mixxx Zulip Chat``
+     at can be found at `<https://mixxx.zulipchat.com>`_ .
 
    BPM
      Beats per minute (BPM) is used as a measure of tempo in music.
@@ -330,12 +337,13 @@ Glossary of Terms
      are relieved of the task of having to compile the code by yourself.
 
    audio interface
-     An audio interface is a device that facilitates the input and output of 
-     audio signals to and from a computer, typically connected by USB. Almost 
+   audio interfaces
+     An audio interface is a device that facilitates the input and output of
+     audio signals to and from a computer, typically connected by USB. Almost
      all computers come with a basic audio interface built in, but a higher
      quality audio interface with at least 4 output channels is recommended for
      Mixxx.
-   
+
    soundcard
    soundcards
      Another name for an :term:`audio interface`, although few audio interfaces
@@ -383,7 +391,7 @@ Glossary of Terms
      way authorized by copyright holders or marks content with a digital
      watermark or similar method so that the content can not be freely
      distributed. For information about how you can get involved in activism
-     against DRM, see `Defective by Design <http://www.defectivebydesign.org>`_.
+     against DRM, see `Defective by Design <https://www.defectivebydesign.org>`_.
 
    shoutcast
      Shoutcast is proprietary software that allows digital audio content to be
@@ -411,7 +419,7 @@ Glossary of Terms
      Uniform Resource Locator. The address that defines the route to a file on
      an Internet server. URLs are typed into a Web browser to access Web pages
      and files, and URLs are embedded within the pages themselves as hypertext
-     links. One example of a URL is `<http://www.mixxx.org>`_ .
+     links. One example of a URL is `<https://mixxx.org>`_ .
 
    quantization
      Quantization is the process of aligning notes and other events like loops
@@ -444,7 +452,7 @@ Glossary of Terms
    MusicBrainz
      A open-source music encyclopedia that collects music :term:`metadata` and
      makes it available to the public. For more information, see
-     `<http://musicbrainz.org/>`_.
+     `<https://musicbrainz.org/>`_.
 
    AcoustID
      An acoustic fingerprint system built entirely on :term:`open-source`
@@ -459,3 +467,21 @@ Glossary of Terms
      this is the Sound API that Mixxx uses to communicate with the
      :term:`Operating System` to make use of the :term:`soundcards` connected to
      the computer.
+
+   macOS
+     macOS (originally named "Mac OS X" until 2012 and then "OS X" until 2016)
+     is the current Mac operating system that officially succeeded the classic
+     Mac OS in 2001.
+
+   EQ
+   Equalizer
+     An equalizer allows the sound in specified frequency bands to be amplified
+     or reduced, in order to adjust the quality and character of the sound.
+
+     A simple graphic equalizer consists of multiple controls for boosting or
+     cutting bands or frequencies of sound.
+
+     A parametric equalizer controls more parameters of the sound than a graphic
+     equalizer. It can control three aspects of each frequency: level (boost or
+     cut), the center or primary frequency, and the bandwidth or range of each
+     frequency.

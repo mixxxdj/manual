@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _live-broadcasting:
 
 Live Broadcasting - Start your own Internet radio
@@ -9,7 +11,7 @@ Live Broadcasting - Start your own Internet radio
 Live Broadcasting in Mixxx allow you to stream your mix over the Internet to
 listeners around the world.
 
-.. seealso:: The :ref:`microphones` chapter has detailed instructions for 
+.. seealso:: The :ref:`microphones` chapter has detailed instructions for
              including input from microphones in your broadcasted mixes.
 
 Streaming Servers
@@ -132,9 +134,6 @@ Live Broadcasting Preferences
 
 **Stream Setting**
 
-.. versionadded:: 2.0
-   :guilabel:`Dynamically update Ogg Vorbis metadata` option
-
 * **Public stream**: If enabled, this option adds your radio station to the
   Shoutcast/Icecast directory.
 * **Enable UTF-8 metadata**: If enabled, this option fixes broken accented and
@@ -163,8 +162,6 @@ Live Broadcasting Preferences
   :term:`MP3` format.
 
 **Shoutcast metadata format**
-
-  .. versionadded:: 2.0
 
   This allows to set custom metatdata formats for the Shoutcast title field.
   Previously only ``artist - title`` was allowed. For example if you were
@@ -213,7 +210,7 @@ Often streaming hosts will run their own directories. Check your host's FAQ to
 find out. If you want to promote your streaming radio station even more,
 register at services like `streamfinder.com <http://www.streamfinder.com/>`_.
 An overview of different internet radio directories is available at
-`shoutcheap.com <http://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
+`shoutcheap.com <https://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
 
 Troubleshooting
 ===============
@@ -263,7 +260,7 @@ To activate MP3 streaming on Windows, follow these steps:
                LAME binaries.
 
   #. Unpack the downloaded archive. You need a utility for manipulating archives
-     like the free `7zip <http://www.7-zip.org/>`_.
+     like the free `7zip <https://www.7-zip.org/>`_.
   #. Copy :file:`libmp3lame.dll` to the location you have installed Mixxx,
      probably :file:`C:\\Program Files\\Mixxx\\`.
   #. **Only** if you are running Mixxx 1.11 or earlier, you **must** also rename
@@ -283,21 +280,21 @@ Windows Troubleshooting
 * Make sure you put the correct LAME :file:`*.dll` file in the same folder that
   contains the installation of Mixxx you are using.
 
-.. warning:: Some websites like `Audacity <http://audacityteam.org/>`_
+.. warning:: Some websites like `Audacity <https://www.audacityteam.org/>`_
              provide lame :term:`binaries` too. Do not use these versions or
              Mixxx will show an error when activating live broadcasting and your
              stream will fail.
 
-Activate MP3 streaming support on Mac OS X
+Activate MP3 streaming support on macOS
 ------------------------------------------
 
 Method A: Download
 ^^^^^^^^^^^^^^^^^^
-To activate MP3 streaming on Mac OS X, follow these steps:
+To activate MP3 streaming on macOS, follow these steps:
 
   1. Download
      `LAME 3.98.4 <https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU>`_
-     Intel (Mac OS X 10.5+ 32-bit & 64-bit)
+     Intel (macOS 10.8+ 64-bit)
   #. Double-click on the downloaded zip file to unpack the file and you'll get
      an installer package file
   #. Double-click on the installer package file and follow the step-by-step
@@ -306,8 +303,8 @@ To activate MP3 streaming on Mac OS X, follow these steps:
 
 Method B: Package manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Another easy way to activate MP3 streaming is to use `Homebrew <http://brew.sh/>`_
-or `MacPorts <http://www.macports.org/>`_, which are package managers like
+Another easy way to activate MP3 streaming is to use `Homebrew <https://brew.sh/>`_
+or `MacPorts <https://www.macports.org/>`_, which are package managers like
 `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ on Debian/Ubuntu
 Linux. They provide a convenient way to install many Open Source packages.
 Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather

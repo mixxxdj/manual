@@ -1,3 +1,5 @@
+.. include:: /shortcuts.rstext
+
 .. _interface-overview:
 
 An Overview of the Mixxx Interface
@@ -56,15 +58,12 @@ Track Information Display
 
    The track information section of the deck
 
-.. versionadded:: 2.0
-   Parse the title and the artist from the file name when the corresponding
-   :term:`metadata` is missing.
-
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
   is the same as the title listed under the :guilabel:`Title` column heading in
   the Mixxx library. This information is initially loaded from the track's
-  :term:`metadata`.
+  :term:`metadata`. If the metadata is missing, the title and artist are guessed
+  from the filename.
 
 **Track Artist**
   The artist of the track is listed below. It is the same as listed under the
@@ -80,12 +79,18 @@ Track Information Display
             to the speed you are tapping, go to :ref:`control-keyboard` for more
             information.
 
-**Time Elapsed/Remaining**
+**Time Elapsed/Remaining/Both**
+
+  .. versionadded:: 2.1.0
+     Option to show elapsed and remaining time simultaneously
+
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
   which indicates how much time is left before the track reaches the end.
+  Clicking the display again, both the elapsed and remaining time are shown
+  simultaneously in the format *elapsed time / remaining time*.
   You can change the default in :menuselection:`Preferences --> Interface -->
-  Position Display`.
+  Track Time Display`.
 
 .. _interface-waveform:
 
@@ -135,8 +140,8 @@ separate waveforms. Select your preferred appearance in
    Mixxx alternative skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
-              Mixxx, try to lower the frame rate or change the waveform type in
-              :menuselection:`Preferences --> Waveforms`.
+              Mixxx, try lowering the frame rate or changing the waveform type
+              in :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -147,22 +152,23 @@ separate waveforms. Select your preferred appearance in
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Waveforms -->
-             Summary type`.
+             waveform, in :menuselection:`Preferences --> Interface -->
+             Waveforms --> Summary type`.
 
 **Waveform overview**
 
-  .. versionadded:: 2.0
-
-     Like with the Waveform summary, you can now select from different types
-     of displays for the overview in :menuselection:`Preferences --> Waveforms
-     --> Overview type`.
+  .. versionadded:: 2.1.0
+     Darken played part of track in decks and samplers
 
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
-  useful because they allow DJs to see breakdowns far in advance. Clicking
-  somewhere on the waveform allows you to jump to an arbitrary position in the
-  track.
+  useful because they allow DJs to see breakdowns far in advance. As visual aid,
+  the part of the track that has already been played is darkened.
+
+  Clicking somewhere on the waveform allows you to jump to an arbitrary position
+  in the track. Like with the Waveform summary, you can select from different
+  types of displays for the overview in
+  :menuselection:`Preferences --> Interface --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -180,13 +186,14 @@ separate waveforms. Select your preferred appearance in
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Waveforms`.
+  between the decks in :menuselection:`Preferences --> Interface --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
 
 * **Position marker**: The static vertical line in the center of the waveform
-  summary indicates the playback point of the deck.
+  summary indicates the playback point of the deck. The waveform overview
+  includes a vertical line to show the current position within the track.
 * **Beat marker**: The regular white lines on the waveform summary indicate the
   locations of beats in the audio, also called the :term:`beatgrid`.
 * **Cue marker**: Indicates the position of the :term:`cue point <cue>`.
@@ -301,21 +308,18 @@ Auto Cue
 Mixxx automatically seeks to the saved Cue point on track load. If none exists,
 seeks to the beginning of the track.
 
-Uncheck :menuselection:`Preferences --> Interface --> Auto Cue` to always
-seek to the beginning of the track.
+Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to main
+cue point on track load` to always seek to the beginning of the track.
 
 .. _interface-cue-modes:
 
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-.. versionadded:: 2.0
-   The Mixxx/Pioneer/Denon/Numark Cue modes gives users now even more flexibility.
-
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup, or your personal preferences. The actual behavior of the Play, Pause, and
 Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
-:menuselection:`Preferences --> Interface`.
+:menuselection:`Preferences --> Interface --> Cue mode`.
 
 **Mixxx mode (default)**
 
@@ -376,6 +380,24 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 * This mode is useful if you want to implement a custom skin with 3-button decks,
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
+**CUP (Cue + Play) mode**
+
+* **While paused at Cue point (Cue button lit):**
+
+  * Continue playback by releasing the Cue button.
+
+* **While paused not at Cue point (Cue button flashing)**:
+
+  * Tapping the Cue button stores the current position as new Cue point.
+    Continue playback by releasing the Cue button.
+
+* **While playing:**
+
+  * Tapping the Cue button causes the track to instantly jump to the location of
+    the Cue point where it pauses the playback. Continue playback by releasing
+    the Cue button.
+  * Tapping the Play/Pause button pauses the track at the current position.
+
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
 
@@ -399,9 +421,6 @@ Transport Controls
   :figclass: pretty-figures
 
   The transport controls of the deck
-
-.. versionadded:: 2.0
-  Right-click on the Reverse button activates Reverse Roll (Censor)
 
 **Fast-Rewind button**
  As long as the button is pressed, the track will play in reverse with
@@ -534,7 +553,8 @@ sync targets for decks are chosen with the new master sync feature, see
 
 .. seealso:: To customize the amount by which the buttons alter the pitch of
              the track, the slider range as well as the direction, go to
-             :menuselection:`Preferences --> Interface`.
+             :menuselection:`Preferences --> Interface -->
+             Adjustment buttons --> Permanent / Temporary`.
 
 .. hint:: If the tempo of a track changes, you'll notice that the tone changes
           based on the pitch used (e.g. playing at faster pitch gives a chipmunk
@@ -647,6 +667,18 @@ Playing Hotcues
   Press the :ref:`Play <control-keyboard>` keyboard shortcut while the hotcue
   button is pressed to continue playback, then release the hotcue button.
 
+Hotcue labels
+^^^^^^^^^^^^^
+
+.. versionadded:: 2.1.0
+
+You can add custom names to hotcues. Right-clicking on a selected track in the
+:ref:`track list <library-tracks>` reveals the context menu.
+Choose :menuselection:`Properties --> Cuepoints --> Label` and add a label for
+the hotcue. Press :kbd:`Enter` , then click :guilabel:`OK` to save.
+
+The hotcue indicator on the waveform changes to the format ``#:label``.
+
 Deleting Hotcues
 ^^^^^^^^^^^^^^^^
 
@@ -756,28 +788,23 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
-.. todo:: There is no Head-Split Button in Latenight as of v2.0.0.
-
-.. versionadded:: 2.0
-   Headphone split cue option
-
 **Pre/Main Knob**
   Allows you to control how much of the master output you hear in the
-  :guilabel:`Headphones` output. It works like a crossfader between the stereo 
-  Master and stereo :term:`PFL` signal. If the knob is set to the left, you 
+  :guilabel:`Headphones` output. It works like a crossfader between the stereo
+  Master and stereo :term:`PFL` signal. If the knob is set to the left, you
   only hear the PFL signal, which is the usual position for prelistening tracks.
-  
-  This can be used to practice DJing with only one stereo output and a set 
+
+  This can be used to practice DJing with only one stereo output and a set
   of either speakers or headphones.
-  
-  Additionally, this can be used to mix in headphones when you cannot hear the 
-  speakers connected to the :guilabel:`Master` output and there are no booth 
-  monitor speakers. Some DJs prefer to use this knob to mix in headphones all 
-  the time, but many find it to be a difficult way to play. If there is only one 
-  set of speakers and no booth monitors, you can avoid the need to mix in 
-  headphones by setting up the speakers behind you so both you and your 
+
+  Additionally, this can be used to mix in headphones when you cannot hear the
+  speakers connected to the :guilabel:`Master` output and there are no booth
+  monitor speakers. Some DJs prefer to use this knob to mix in headphones all
+  the time, but many find it to be a difficult way to play. If there is only one
+  set of speakers and no booth monitors, you can avoid the need to mix in
+  headphones by setting up the speakers behind you so both you and your
   audience can hear them.
-  
+
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
@@ -1057,13 +1084,14 @@ Sample Deck Controls
 
 The Effects Section
 ===================
-   .. figure:: ../_static/effect-unit-collapsed.png
-      :align: center
-      :figwidth: 100%
-      :alt: An effect unit
-      :figclass: pretty-figures
 
-      An effect unit
+.. figure:: ../_static/effect-unit-collapsed.png
+   :align: center
+   :figwidth: 100%
+   :alt: An effect unit
+   :figclass: pretty-figures
+
+   An effect unit
 
 Mixxx comes with some built in sound effects that can be chained together in
 effect units. Effect units can be freely assigned to different decks as well
@@ -1090,12 +1118,12 @@ The Microphone Section
 
    The Microphone section
 
-The microphone section is **hidden** in the default :ref:`Mixxx user interface 
-<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>` 
-button in the mixer section, or use the specific :ref:`appendix-shortcuts` to 
+The microphone section is **hidden** in the default :ref:`Mixxx user interface
+<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>`
+button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
 show or hide the section.
 
-.. seealso:: The :ref:`microphones` chapter has detailed instructions for 
+.. seealso:: The :ref:`microphones` chapter has detailed instructions for
              setting up microphones with various hardware.
 
 Microphone Controls

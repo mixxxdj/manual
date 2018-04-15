@@ -32,11 +32,12 @@ view on the right displays the tracks in those collections.
 **Sidebar**:
 
 * **Search**: Search for tracks in your Mixxx library.
-* **Library**: View and edit your whole collection.
+* **Tracks**: View and edit your whole collection.
 * **Auto DJ**: Automatically load and crossfade tracks for unattended mixing.
 * **Playlists**: Arrange tracks in a set order.
 * **Crates**: Organize tracks in (unordered) collections.
-* **Browse**: Browse and load tracks from your file system and connected devices.
+* **Computer**: Navigate, view, and load tracks from folders on your hard disk
+  and connected devices.
 * **Recordings**: Record your mix and view previous recordings.
 * **History**: Browse lists of tracks played in past mixing sessions.
 * **Analyze**: Generate Mixxx-specific data for tracks before a gig.
@@ -49,16 +50,15 @@ view on the right displays the tracks in those collections.
 * **Load**: Drag tracks you want to play to the waveform display.
 * **Edit**: Rate tracks and edit track properties.
 
-.. _library-root:
+.. _library-tracks:
 
-Library - View and edit your whole collection
-=============================================
+Tracks - View and edit your whole collection
+============================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_library| The Library displays a sortable list of all the tracks in your
-music library.
+|ic_lib_library| A sortable list of all the tracks in your music library.
 
 **Customizing the view**
   Move columns by clicking a column header and dragging it to another
@@ -73,8 +73,6 @@ music library.
 
   * **Multi-Column sorting**
 
-    .. versionadded:: 2.0
-
     You can sort multiple columns by clicking *up to three* column headers you
     wish to sort your tracks by. This makes searching for tracks in a large list
     more efficient. Clicking twice on a column header will reverse the sort
@@ -88,6 +86,25 @@ music library.
     #. Click on the :guilabel:`Genre` column header -> list is sorted by
        genre. If genre is equal, it is still sorted by year. If genre and year
        is equal, then it is sorted by BPM.
+
+  * **Random sorting**
+
+    .. versionadded:: 2.1.0
+
+    Click on the :guilabel:`Preview` column header to randomly sort tracks.
+
+  * **Sort keys by circle of fifths**
+
+    .. versionadded:: 2.1.0
+
+    Click on the :guilabel:`Key` column header.
+    The order starts with *C* at the top, then its relative minor (*a*), then
+    adds 1 sharp (*G*), then *G*'s relative minor (*e*), and so adding
+    sharps/removing flats around the circle of fifths.
+    For :ref:`Lancelot <configuration-key-detection>` notation, it starts with
+    *G#m* at the top, which is *1A* in that notation, and proceeds
+    alphanumerically (minor keys appear before their relative major keys in this
+    case).
 
 **Rating tracks**
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
@@ -140,66 +157,92 @@ music library.
 Track list context menu
 -----------------------
 
-.. versionadded:: 2.0
-   :guilabel:`Reload Track Metadata from MusicBrainz`, :guilabel:`Change BPM`
-   context menu options and :guilabel:`Cover Art`
-
-.. versionchanged:: 2.0
-   All BPM related options are in the :guilabel:`BPM Options` sub-menu.
-
 Right-clicking on selected tracks in the track list reveals the context menu:
+
+  .. versionadded:: 2.1.0
+
+     * Add options to replace AutoDJ queue, clear waveforms
+     * Use checkbox menu in Crates selection
+     * Add BPM conversions 133,33% and 150%
+     * Re-organize context menu
 
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
-  playlist for automatic mixing.
-* **Load to Deck/Sampler**: Loads a selected file to a
-  :ref:`Deck <interface-decks>`, :ref:`Sampler <interface-sampler>` or
-  :ref:`Previewdeck <interface-preview-deck>`. Alternatively
-  simply drag it to the :ref:`interface-waveform`. Note that you can't load
-  multiple files at once.
-* **Add to playlist/crate**: Add selected tracks to playlists or
-  crates you have previously created. Alternatively, drag the selection to a
-  playlist or crate in the sidebar.
-* **BPM Options sub-menu**:
+  playlist for automatic mixing. The :guilabel:`replace` option deletes the
+  Auto DJ queue first, and then fills it with the selected tracks.
 
-    * **Change BPM**: Allows to change the :term:`BPM` to 50%, 66%, 75% or 200%
-      of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>` the
-      tracks. If many of the detected BPM values are incorrect, you might want
-      to adjust the :guilabel:`BPM Range` in the
+* **Load to**:
+  Loads a selected file to one of the available
+  :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
+  :ref:`Previewdeck <interface-preview-deck>`. Alternatively
+  simply drag it to the :ref:`interface-waveform`. The number of available decks
+  and samplers might differ, depending on the selected skin. Note that you
+  can't load multiple files at once.
+* **Add to Playlist**: Add selected tracks to an existing playlist, or drag the
+  selection to a playlist crate in the sidebar. Choose :guilabel:`Create new
+  playlist` to put them into a new playlist.
+* **Crates:** The checkbox shows in which existing crates the selection is in.
+  Changing the crates selection does not collapse the menu, which allows
+  much easier categorization of tracks without going through the menu from
+  scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
+
+* **Metadata**:
+    * **Import from File Tags**: If the track's :term:`metadata` changes,
+      (e.g. if you used iTunes to edit it,) this option lets you save the new
+      values for the selected tracks to the Mixxx library. See
+      :ref:`edit metadata <library-edit-metadata>`.
+    * **Import from MusicBrainz**: Look up :term:`metadata` online by searching
+      the :term:`MusicBrainz` database and apply the search results to your
+      tracks. See :ref:`edit metadata <library-edit-metadata>`.
+    * **Export to File Tags:** Saves :term:`metadata` to files. Mixxx may wait
+      to modify files until they are not loaded to any decks or samplers. If you
+      do not see changed metadata in other programs immediately, eject the track
+      from all decks and samplers or shutdown Mixxx.
+
+    * **Cover Art**:
+
+      * **Choose New Cover**: Select an image from the file browser as the cover.
+      * **Clear Cover**: Delete any cover information saved for this track.
+      * **Reload from track/folder**: Reload the cover from the tracks' ID3v2
+        :term:`tags <metadata>` or a picture in the track folder if the tags do
+        not supply any.
+
+* **Clear**:
+    * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
+      from the selected tracks in the Mixxx library. After doing this, we
+      recommend :ref:`analyzing <configuration-analyze>` the tracks again.
+    * **Play Count**: Marks selected tracks as not played in the current
+      session and sets their play counter to zero. The icon in the
+      :guilabel:`Played` column changes.
+    * **Hotcues**: Clears all saved :term:`hotcues <hotcue>` and
+      :ref:`hotcue labels <interface-hotcues>`.
+    * **ReplayGain**: Clears all saved :term:`ReplayGain` values.
+    * **Waveform**: Clears the saved waveform data from the selected tracks.
+      This is useful if a file is overwritten by another file of the same name,
+      or was edited externally (e.g. in a waveform editor). To clear the
+      waveform cache for all tracks in the library, select
+      :menuselection:`Preferences --> Waveforms --> Clear cached Waveforms` .
+    * **All**: Clears all of the data above from the Mixxx library database at
+      once.
+
+* **Change BPM**:
+
+    * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
+      200% of the BPM set by Mixxx when :ref:`analyzing <configuration-analyze>`
+      the tracks. If many of the detected BPM values are incorrect, you might
+      want to adjust the :guilabel:`BPM Range` in the
       :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
       analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
       icon next to the track's BPM in the library row is a toggle. Clicking it
-      will set the status to "locked", and the icon changes to |ic_lib_bpm_locked|.
-
-    * **Clear BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid`
-      data from the selected tracks in the Mixxx library. After doing this, we
-      recommend :ref:`analyzing <configuration-analyze>` the tracks again.
-
-* **Reload Track Metadata from File**: If the track's :term:`metadata` changes,
-  (e.g. if you used iTunes to edit it,) this option lets you save the new values
-  for the selected tracks to the Mixxx library. See
-  :ref:`edit metadata <library-edit-metadata>`.
-* **Reload Track Metadata from MusicBrainz**:
-  Look up :term:`metadata` online by searching the :term:`MusicBrainz` database
-  and apply the search results to your tracks. See
-  :ref:`edit metadata <library-edit-metadata>`.
-* **Cover Art Option sub-menu**:
-
-    * **Choose New Cover**: Select an image from the file browser as the cover.
-    * **Unset Cover**: Delete any cover information saved for this track.
-    * **Reload from track/folder**: Reload the cover from the tracks' ID3v2
-      :term:`tags<metadata>` or a picture in the track folder if the tags do not
-      supply any.
+      will set the status to "locked", and the icon changes to
+      |ic_lib_bpm_locked|.
 
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
-* **Reset Play Count**: Marks selected tracks as not played in the current
-  session and sets their play counter to zero. The icon in the :guilabel:`Played`
-  column changes.
 * **Open in File Browser**: Brings up the selected files in your file manager.
 * **Properties**: Similar to inline editing explained above, the properties
   dialog allows you to view and edit metadata such as title, artist, album, and
@@ -241,7 +284,7 @@ The Hidden Tracks view is accessible by expanding the Library tree item in
 the sidebar. Any tracks that were previously loaded into your library but were
 later set to be hidden from the library will appear here. Use the
 :guilabel:`Hide from Library` context menu item in the
-:ref:`library <library-root>` view to temporarily hide selected tracks.
+:ref:`tracks <library-tracks>` view to temporarily hide selected tracks.
 
 The features in detail:
 
@@ -263,9 +306,6 @@ The features in detail:
 Loading Tracks
 ==============
 
-.. versionadded:: 2.0
-   You can drag tracks from deck to deck.
-
 Tracks can be loaded into a deck in several ways:
 
 * Right-click the :ref:`library track table <library-interface>`: Right-clicking
@@ -282,7 +322,7 @@ Tracks can be loaded into a deck in several ways:
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
   that track. This function also works with some other applications. For
-  example, on Mac OS X, dragging-and-dropping a track from iTunes onto one of
+  example, on macOS, dragging-and-dropping a track from iTunes onto one of
   Mixxx's waveform displays will load it into that deck.
 
 .. _library-finding-tracks:
@@ -317,20 +357,14 @@ Using search operators
 Search operators allow you to form more complex search queries. They allow you
 to limit certain search terms to particular properties of your tracks.
 
-.. versionadded:: 2.0
-   Adds *location*, *album_artist*, and *key* search keywords. Supports
-   human-readable time suffixes in time-based search query filters, e.g.
-   ``1:30``, ``1m30s``, ``1m30``, ``90``, ``90s``. Supports negative search
-   filters.
-
 Mixxx supports the following filters:
 
-* **Text filtering**: artist, album, album_artist, genre, title, composer,
-  comment, key, location
+* **Text filtering**: album_artist, album, artist, comment, composer, crate,
+  genre, grouping, location, title
 
-* **Numeric filtering**: year, track, bpm, played, rating, bitrate, duration
+* **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
-* **Special filtering**:
+* **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
   * Supports fuzzy matching of key searches. The following example list tracks
     with harmonically compatible keys to C# minor.
@@ -401,6 +435,8 @@ and click the :guilabel:`Play` button next to the waveform.
 To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
 :kbd:`CMD` + :kbd:`4` (Mac).
 
+.. hint:: Click on the :guilabel:`Preview` column header to randomly sort tracks.
+
 .. _library-edit-metadata:
 
 Edit metadata of audio files
@@ -408,6 +444,10 @@ Edit metadata of audio files
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
+
+.. versionadded:: 2.1
+
+   Option to write audio tags back into files
 
 Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
 library columns. You are free to edit most metadata, and Mixxx offers a number
@@ -417,15 +457,19 @@ as bitrate, size, length, type, filename, and location.
 .. note:: Mixxx does not support editing the metadata of many tracks at a time
           (bulk editing).
 
-.. warning:: Changes to a track's metadata will be saved to the Mixxx library,
-             but **not** to the track itself. Mixxx wont touch your audio files
-             to prevent data loss.
+.. warning:: Mixxx wont touch your audio files by default. Changes to a track's
+             metadata will be saved to the Mixxx library, but **not** to the
+             track itself.
+
+             If you wish to write modified track metadata from the library into
+             file tags, check the box in :menuselection:`Preferences -->
+             Library --> Track Metadata Synchronisation`.
 
 Manual Edit
 -----------
 
 **Track Inline editing**:
-  Double-click on a field in the :ref:`library <library-root>`. If the field is
+  Double-click on a field in the :ref:`library <library-tracks>`. If the field is
   editable, it will become an editable text box. Enter a value and hit
   :kbd:`Enter` when you are done.
 
@@ -457,17 +501,17 @@ Manual Edit
   * **Cancel**: Discard the changes and close the editor.
   * **Previous/Next**: Load the previous or next track in the current library
     view.
-  * **Reload Track Metadata from File**: Prompts Mixxx to re-read the metadata
+  * **Import Metadata from File**: Prompts Mixxx to re-read the metadata
     of the selected track (such as when you have modified it externally with
     another application.)
-  * **Reload Track Metadata from MusicBrainz**:
+  * **Import Metadata from MusicBrainz**:
     Look up metadata on-line by searching the :term:`MusicBrainz` database. See
     below.
 
 Using the MusicBrainz online database
 -------------------------------------
 
-`Musicbrainz <http://musicbrainz.org/>`_ is an :term:`open-source` music
+`Musicbrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
 encyclopedia that collects music :term:`metadata` and makes it available to the
 public.
 
@@ -513,9 +557,9 @@ application window. This prompts Mixxx to re-read the metadata from **all**
 tracks in the library.
 
 Popular software to edit metadata of audio files include:
-  * `Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows)
-  * `Kid3 <http://kid3.sourceforge.net/>`_ (Mac, Windows, Linux)
-  * `Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
+  * `Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)
+  * `Kid3 <https://kid3.sourceforge.io/>`_ (Mac, Windows, Linux)
+  * `Picard <https://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)
 
 .. _library-auto-dj:
 
@@ -531,12 +575,19 @@ mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
 
+.. versionadded:: 2.1
+   Selection Info label
+
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
-* **Add Random button**: Add random track from Auto DJ track sources.
+* **Add Random button**: Adds a random track from track sources (crates) to the
+  Auto DJ queue. If no track sources are configured, the track is added from the
+  library instead.
 * **Skip track button**: Skips the next track in the Auto DJ playlist.
 * **Fade now button**: Triggers the transition to the next track.
 * **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
+* **Selection Info label**: Displays the duration and number of selected tracks.
+  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
@@ -549,8 +600,6 @@ again, you can activate the :guilabel:`Auto DJ Requeue` option in
 .. _library-auto-dj-crates:
 
 **Auto DJ Crates**
-
-.. versionadded:: 2.0
 
 It is possible to add random tracks to the bottom of the Auto DJ playlist. The
 tracks are chosen from a set of crates that you have set as a source for
@@ -579,21 +628,21 @@ playlist to queue it to :ref:`Auto DJ <library-auto-dj>`, so in a sense you can
 "play" it.
 
 * **Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar item
-  and select :guilabel:`New playlist`. Name the playlist and click
-  :guilabel:`OK`.
+  and select :guilabel:`Create New Playlist`. Name the playlist and click
+  :guilabel:`OK`. The total number of tracks and total duration are displayed
+  next to the name.
+* **Import playlists**:
+  Right-click on the :guilabel:`Playlists` sidebar item
+  and select :guilabel:`Import Playlist`. Select one or more playlists and click
+  :guilabel:`OK`. Mixxx creates an import of these existing external playlists
+  as new Mixxx playlists.
 * **Add Tracks**: Add tracks to a previously created playlist by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a playlist in the sidebar. Alternatively, use the right-click
-  context menu in the library's :ref:`track list <library-root>`.
+  context menu in the library's :ref:`track list <library-tracks>`.
 
-.. versionadded:: 2.0
-
-* :guilabel:`Analyze Playlist` option in the context menu.
-* Import playlists by dragging-and-dropping them into a playlist in the sidebar.
-* :guilabel:`Import playlist` and :guilabel:`Export playlist` context menu
-  options remember the last selected playlist directory.
-* The total number of tracks and total duration are displayed next to the
-  playlist's name.
+  .. hint:: If you have a track selected in the library, all of the visible
+            playlist and crates that it is in are shown in bold.
 
 Right-click on an existing playlist name to access the different features in
 the context menu:
@@ -613,11 +662,15 @@ the context menu:
 * **Analyze entire playlist**: Forces the analysis of the tracks in the playlist
   in the :ref:`Analyze <configuration-analyze>` view.
 * **Import playlist**: Import tracks from external playlists in various file
-  formats to a new Mixxx playlist. For more information, go to
-  :ref:`library-3rd-party`.
+  formats to the selected playlist. For more information, go to
+  :ref:`library-third-party`.
 * **Export playlist**: Export a playlist to various file formats such as
-  :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
-  other applications.
+  :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`.
+  This allows you to use the data in other applications.
+* **Export Track files**: This copies all of the tracks in a playlist into a
+  folder such as an external USB stick. Only files are copied, not
+  Mixxx-specific metadata like waveforms or cover art that is not embedded in
+  the file.
 
 .. _library-crates:
 
@@ -631,20 +684,17 @@ Crates - Organizing tracks into collections
 holding your favorite records.
 
 * **Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and
-  select :guilabel:`New Crate`. Name the crate and click :guilabel:`OK`.
+  select :guilabel:`Create New Crate`. Name the crate and click :guilabel:`OK`.
+  The total number of tracks and total duration are displayed next to the name.
+* **Import crates**:
+  Right-click on the :guilabel:`Crates` sidebar item
+  and select :guilabel:`Import Crate`. Select one or more playlists and click
+  :guilabel:`OK`. Mixxx creates an import of these existing external playlists
+  as new Mixxx crates.
 * **Add Tracks**: Add tracks to a previously created crate by
   dragging-and-dropping a selection of tracks from the library or playlists onto
   the name of a crate in the sidebar. Alternatively use the context menu in the
-  library's :ref:`track list<library-root>`.
-
-.. versionadded:: 2.0
-
-* :guilabel:`Analyze Crate` and :guilabel:`Auto DJ Track Source` context menu
-  options.
-* :guilabel:`Import crate` and :guilabel:`Export crate` context menu
-  options remember the last selected playlist directory.
-* Displays the total number of tracks and the total duration next to the
-  crate's name.
+  library's :ref:`track list<library-tracks>`.
 
 Right-click on an existing crate's name to access the different features in the
 context menu:
@@ -664,10 +714,13 @@ context menu:
 * **Analyze entire crate**: Forces the analysis of the crate in the
   :ref:`Analyze <configuration-analyze>` view.
 * **Import crate**: Import tracks from external playlists in various file
-  formats to a new Mixxx crate.
+  formats to the selected crate.
 * **Export crate**: Export a crate to various file formats, such as
-  :file:`m3u`, :file:`pls`, or :file:`csv`. This allows you to use the data in
-  other applications.
+  :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This
+  allows you to use the data in other applications.
+* **Export Track files**: This copies all of the tracks in a crate into a folder
+  such as an external USB stick. Only files are copied, not Mixxx-specific
+  metadata like waveforms or cover art that is not embedded in the file.
 
 Crates vs. Playlists
 --------------------
@@ -691,25 +744,22 @@ If however you want to plan out a specific set and practice the transitions,
 you will want an ordered list of tracks. Playlists serve this purpose.
 
 
-.. _library-browse:
+.. _library-computer:
 
-Browse - Loading remote tracks
-==============================
+Computer - Loading tracks from anywhere on your computer
+========================================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_browse| Browse mode works like a file manager and allows you to load
-tracks from anywhere on your computer that are not necessarily already in your
-Mixxx library.
+|ic_lib_browse| This mode works like a file manager and allows you to load
+tracks from anywhere on your computer and connected devices, that are not
+necessarily already in your Mixxx library.
 
-.. versionadded:: 2.0
-   Add music directories directly from the Browse sidebar item.
-
-Click the :guilabel:`Browse` sidebar item to navigate the computer and find your
-music. Depending on your :term:`operating system`, your music will usually be
-found in the “My Music” or “Music” folder. Drag the files you want to import to
-the |ic_lib_library| :ref:`Library <library-root>` icon or directly to the
+Click the :guilabel:`Computer` sidebar item to navigate the computer and find
+your music. Depending on your :term:`operating system`, your music will usually
+be found in the “My Music” or “Music” folder. Drag the files you want to import
+to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
 .. note:: Currently you can only drag files (not folders) to the Mixxx library.
@@ -754,12 +804,6 @@ tracks during the session, it will be discarded.
 
 |ic_lib_history_current| This icon indicates the current session.
 
-.. versionadded:: 2.0
-
-* :guilabel:`Create new history playlist` context menu option.
-* :guilabel:`Export playlist` context menu option remember the last selected
-  playlist directory.
-
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
 view, then right-click on a session's name/date to access the different features:
 
@@ -790,7 +834,7 @@ the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`getting-started-analyze-library` for details.
 
 
-.. _library-3rd-party:
+.. _library-third-party:
 
 iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 ==============================================================
@@ -800,13 +844,10 @@ iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
 
 Supported libraries:
 
-* |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, Mac OS X)
-* |ic_lib_traktor| `Traktor <http://www.native-instruments.com/en/products/traktor/>`_ (Windows, Mac OS X),
+* |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)
+* |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/products/traktor/>`_ (Windows, macOS),
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
-* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, Mac OS X, GNU/Linux)
-
-.. versionadded:: 2.0
-   Support for Banshee music player
+* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -856,39 +897,38 @@ Compatible file formats
 =======================
 Mixxx supports a variety of audio file formats:
 
-Lossless:
-
-* :term:`FLAC` (flac)
-* :term:`Wave <WAV>` (wav)
-* :term:`Aiff <AIFF>` (aiff, aif)
-
-Lossy:
-
-* :term:`MP3` (mp3)
-* :term:`Ogg Vorbis` (ogg)
-* :term:`AAC` (aac, m4a, mp4)
-* :term:`Opus` (opus)
++----------------------------------------+-------------------------------------+
+| Lossless                               | Lossy                               |
++========================================+=====================================+
+| :term:`FLAC` (flac)                    | :term:`MP3` (mp3)                   |
++----------------------------------------+-------------------------------------+
+| :term:`Wave <WAV>` (wav)               | :term:`Ogg Vorbis` (ogg)            |
++----------------------------------------+-------------------------------------+
+| :term:`Aiff <AIFF>` (aiff, aif)        | :term:`AAC` (aac, m4a, mp4)         |
++----------------------------------------+-------------------------------------+
+|                                        | :term:`Opus` (opus)                 |
++----------------------------------------+-------------------------------------+
 
 Lossless formats preserve every detail of the original recording and are
-recommended for the best sound quality. The FLAC format compresses the
+recommended for the best sound quality. The :file:`FLAC` format compresses the
 files to take less space on your computer without sacrificing audio quality.
-WAV and AIFF files are uncompressed and take up much more space.
+:file:`WAV` and :file:`AIFF` files are uncompressed and take up much more space.
 
 Lossy formats take up less storage space on your computer than lossless
-formats at the expense of reducing sound quality. Assuming an average track 
-length of about 4 minutes, a 1 TB hard drive or solid state drive can store 
-about 42000 FLAC files or about 115000 MP3 files at 320 kbps.
+formats at the expense of reducing sound quality. Assuming an average track
+length of about 4 minutes, a 1 TB hard drive or solid state drive can store
+about 42000 :file:`FLAC` files or about 115000 :file:`MP3` files at 320 kbps.
 
 There is no benefit to converting lossy file to lossless formats. The detail
 lost when making the lossy file cannot be recovered.
 
-AAC (M4A) is supported on Windows Vista and Mac OS X 10.5 onwards. The
-`Platform Update Supplement <http://support.microsoft.com/kb/2117917>`_
+:file:`AAC (M4A)` is supported on Windows Vista and macOS 10.8 onwards. The
+`Platform Update Supplement <https://support.microsoft.com/en-us/help/2117917/platform-update-supplement-for-windows-vista-and-for-windows-server-20>`_
 is required for Windows Vista.
 
-On Linux, AAC playback is disabled by default due to licensing restrictions.
-To enable the playback of AAC files,
-`build Mixxx from source with m4a/AAC files support <http://www.mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
+On Linux, :file:`AAC` playback is disabled by default due to licensing restrictions.
+To enable the playback of :file:`AAC` files,
+`build Mixxx from source with m4a/AAC files support <https://mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
              iTunes Store in 2009 or earlier, are not supported.
@@ -905,4 +945,4 @@ Mixxx can not play music directly from audio CDs. Use a CD ripping program to
 copy the audio from the CD to files on your computer. It is recommended to
 save the ripped files in the :term:`FLAC` format. Many different programs are
 available to rip CDs, but not every program is capable of saving them to
-FLAC.
+:file:`FLAC`.
