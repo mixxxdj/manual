@@ -101,15 +101,6 @@ Waveform Displays
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Waveform.png
-   :align: center
-   :width: 60%
-   :figwidth: 100%
-   :alt: The deck waveform summary and waveform overview
-   :figclass: pretty-figures
-
-   The waveform summary and waveform overview of the deck
-
 The waveform section of a deck allows you to visualize the audio changes that
 occur throughout the track, you can basically “see” your music.
 

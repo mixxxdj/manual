@@ -98,7 +98,7 @@ digital form.
 Bit depth determines the possible dynamic range of the signal. 16 bits is more
 than enough for playing back music. While 24 bits is helpful for recording,
 `it is useless for playback
-<http://www.sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you-
+<https://sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you-
 knew-about-bit-depth-is-probably-wrong/>`_.
 
 Half the sample rate determines the maximum frequency that can be represented

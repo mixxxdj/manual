@@ -25,7 +25,7 @@ with Mixxx, each with their own pros and cons:
              same time as a different audio interface for music output.
 
 .. seealso:: The `Mixxx DJ Hardware Guide
-             <http://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
+             <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
              specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 
@@ -41,14 +41,15 @@ time for input from the audio interface to be available for Mixxx to process,
 time for Mixxx to process the audio, and more time to send the audio back out
 the audio interface. This time is referred to as "latency".
 
-.. figure:: ../_static/software-monitor-signal-path.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Microphone input with software monitoring signal path
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/software-monitor-signal-path.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Microphone input with software monitoring signal path
+     :figclass: pretty-figures
 
-   Microphone input with software monitoring signal path
+     Microphone input with software monitoring signal path
 
 Mixxx can be configured to run at low latencies by choosing a smaller
 :ref:`preferences-audio-buffer`, but there is no way to completely eliminate
@@ -93,14 +94,15 @@ out with :ref:`microphones-software-monitoring`. At the same time, the audio
 interface sends the input into the computer so Mixxx can record and broadcast
 it.
 
-.. figure:: ../_static/direct-monitor-signal-path.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Microphone input with direct monitoring signal path
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/direct-monitor-signal-path.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Microphone input with direct monitoring signal path
+     :figclass: pretty-figures
 
-   Microphone input with direct monitoring signal path
+     Microphone input with direct monitoring signal path
 
 .. _microphones-loopback-input:
 
@@ -111,14 +113,15 @@ loopback input feature. They add Mixxx's output to the microphone signal before
 sending it to the computer. This makes it easier to set up Mixxx with direct
 monitoring than configuring :ref:`microphones-latency-compensation`.
 
-.. figure:: ../_static/direct-monitor-loopback-signal-path.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Microphone input with direct monitoring signal path
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/direct-monitor-loopback-signal-path.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Microphone input with direct monitoring signal path
+     :figclass: pretty-figures
 
-   Microphone input with direct monitoring signal path
+     Microphone input with direct monitoring signal path
 
 To configure Mixxx with a loopback input:
 
@@ -147,14 +150,15 @@ compensating for this latency or using a :ref:`microphones-loopback-input`, the
 microphone inputs will be out of time relative to the music in your recorded
 and broadcasted mixes.
 
-.. figure:: ../_static/direct-monitor-input-latency.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Diagram explaining latency offset with direct monitoring
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/direct-monitor-input-latency.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Diagram explaining latency offset with direct monitoring
+     :figclass: pretty-figures
 
-   Diagram explaining latency offset with direct monitoring
+     Diagram explaining latency offset with direct monitoring
 
 Mixxx can compensate for this timing misalignment, but it is complicated to set
 up. If you do not want to record your microphone into your mix or broadcast,
@@ -185,14 +189,15 @@ measure the round trip latency. These programs are recommended on each OS:
 * **Windows**: `RTL Utility  <http://www.oblique-audio.com/free/rtlutility>`_
 * **macOS**: `Audacity <https://manual.audacityteam.org/man/latency_test.html>`_
 
-.. figure:: ../_static/latency-measurement.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Measuring round trip latency
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/latency-measurement.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Measuring round trip latency
+     :figclass: pretty-figures
 
-   Measuring round trip latency
+     Measuring round trip latency
 
 You must use the same sample rate and audio buffer size in the measurement
 program as you do in Mixxx for the measurement to be accurate. If you decide to
@@ -315,15 +320,16 @@ to receive the output of the mixer and timecode from two turntables. If yours
 does not, you may use the input of the audio interface built into your
 computer, but these do not have high sound quality.
 
-.. figure:: ../_static/external-mixing-with-microphone-signal-path.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Using a microphone with an external mixer
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Using a microphone with an external mixer
+     :figclass: pretty-figures
 
-   Using a microphone with an external DJ mixer and a stand-alone USB audio
-   interface
+     Using a microphone with an external DJ mixer and a stand-alone USB audio
+     interface
 
 Alternatively, some DJ mixers have a built-in USB audio interface. These
 have inputs with phono preamplifiers for vinyl control and usually can send
@@ -333,16 +339,17 @@ and forth to Mixxx without converting them to analog. This results in higher
 sound quality for your recorded and broadcasted mixes compared to using a
 separate audio interface with an external mixer.
 
-.. figure:: ../_static/external-mixing-with-microphone-signal-path.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Using a microphone with an external mixer that has a built in USB
-         audio interface
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/external-mixing-with-microphone-signal-path.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Using a microphone with an external mixer that has a built in USB
+           audio interface
+     :figclass: pretty-figures
 
-   Using a microphone with an external mixer that has a built in USB audio
-   interface
+     Using a microphone with an external mixer that has a built in USB audio
+     interface
 
 To configure Mixxx for using a hardware mixer for recording and/or broadcasting:
 
@@ -390,16 +397,17 @@ output, a Y splitter cable can be used on each side of the stereo main output to
 connect the main output to both the speakers and to another audio interface's
 input.
 
-.. figure:: ../_static/dj-controller-with-mic-and-splitter-cables.png
-   :align: center
-   :width: 80%
-   :figwidth: 100%
-   :alt: Using a DJ controller with Y splitter cables to record and/or
-         broadcast the mix with a microphone
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/dj-controller-with-mic-and-splitter-cables.png
+     :align: center
+     :width: 80%
+     :figwidth: 100%
+     :alt: Using a DJ controller with Y splitter cables to record and/or
+           broadcast the mix with a microphone
+     :figclass: pretty-figures
 
-   Using a DJ controller with Y splitter cables to record and/or broadcast the
-   mix with a microphone
+     Using a DJ controller with Y splitter cables to record and/or broadcast the
+     mix with a microphone
 
 DJ controllers typically do not supply phantom power required for condenser
 microphones. Stand-alone audio interfaces typically do supply phantom power.

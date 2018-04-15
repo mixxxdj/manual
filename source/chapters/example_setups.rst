@@ -87,12 +87,13 @@ This setup allows for playing to an audience without headphone :term:`cueing`.
 Laptop and Splitter Cable
 =========================
 
-.. figure:: ../_static/mixxx_setup_splitter_adaptors.png
-   :align: center
-   :width: 75%
-   :figwidth: 100%
-   :alt: Using Mixxx with your built-in sound card and a DJ splitter cable
-   :figclass: pretty-figures
+.. TODO: Uncomment when this diagram is added.
+  .. figure:: ../_static/mixxx_setup_splitter_adaptors.png
+     :align: center
+     :width: 75%
+     :figwidth: 100%
+     :alt: Using Mixxx with your built-in sound card and a DJ splitter cable
+     :figclass: pretty-figures
 
 The cheapest way to DJ and :term:`cue` with headphones uses a stereo-to-mono DJ
 splitter cable (also known as a “Y cable”) plugged into the headphone jack of a

@@ -208,7 +208,7 @@ in :menuselection:`Preferences --> Live Broadcasting --> Stream Settings`.
 
 Often streaming hosts will run their own directories. Check your host's FAQ to
 find out. If you want to promote your streaming radio station even more,
-register at services like `streamfinder.com <http://www.streamfinder.com/>`_.
+register at services like `streamfinder.com <https://www.streamfinder.com/>`_.
 An overview of different internet radio directories is available at
 `shoutcheap.com <https://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_
 
