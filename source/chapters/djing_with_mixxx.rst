@@ -489,3 +489,7 @@ DJ as follows:
 .. hint:: You can add a track to the end of the Auto DJ playlist once it is
           played instead of removing it. Set :menuselection:`Preferences -->
           Auto DJ --> Re-queue tracks after playback --> On`.
+.. note:: While in Auto DJ mode, you can control Mixxx from outside
+          applications that use the
+          `MPRIS interface <https://specifications.freedesktop.org/mpris-spec/latest/>`_
+          such as `KDE's media controller <https://store.kde.org/p/998887/>`_ .

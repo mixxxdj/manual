@@ -7,7 +7,8 @@ Live Broadcasting - Start your own Internet radio
    S.Brandt <s.brandt@mixxx.org>
 
 Live Broadcasting in Mixxx allow you to stream your mix over the Internet to
-listeners around the world.
+listeners around the world. You can also broadcast the metadata
+of played tracks in various ways.
 
 Streaming Servers
 =================
@@ -330,3 +331,60 @@ the package might be slightly named different such as :file:`lame`.
        sudo apt-get install libmp3lame0
 
   #. Restart Mixxx
+
+Broadcast metadata
+==================
+
+There are two ways in which the metadata of a track is broadcasted.
+First, every second Mixxx checks the loudest track that is being
+played at that moment and broadcasts it in the following ways:
+
+* Through a plain txt file
+* Via the `MPRIS interface <https://specifications.freedesktop.org/mpris-spec/latest/>`_
+
+Second, when tracks are listened to for half of their duration or
+for more than 4 minutes, whichever happens first, it counts as
+a listen and it is broadcasted to the following services:
+
+* To the `ListenBrainz service <https://listenbrainz.org/>`_
+
+.. note::
+  To avoid spamming, listens have a cooldown period of about
+  5 minutes in which it is not broadcasted. This countdown only
+  happens while the track is ejected, stops when the track
+  is loaded and resets when it is ejected again.
+
+Metadata broadcast preferences
+------------------------------
+
+.. figure:: ../_static/Mixxx-230-Preferences-Metadata.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Mixxx preferences - Metadata broadcast preferences
+   :figclass: pretty-figures
+
+   Mixxx preferences - Metadata broadcast preferences
+
+Plain txt preferences
+^^^^^^^^^^^^^^^^^^^^^
+**Metadata file options**
+
+* **Enable metadata file**: Checkbox to enable / disable the file broadcast.
+* **File encoding**: Dropdown menu to select the file encoding. This
+  is especially important because some broadcasting services that
+  listen for this file only accept specific encodings.
+* **File format**: This is the string that will be written to the file
+  but replacing the substrings $author and $title by the current
+  author and title of the track. Use this to customize the file appearence.
+* **File path**: You can manually write in the text field or search
+  for it in your filesystem with the button.
+
+Listenbrainz preferences
+^^^^^^^^^^^^^^^^^^^^^^^^
+**ListenBrainz options**
+
+* **Enable ListenBrainz metadata broadcast**: Checkbox to enable / disable
+  ListenBrainz metadata broadcast.
+* **User Token**: This is the token necessary to submit listens to
+  listenbrainz. You will find it in *your info* section on the website.
