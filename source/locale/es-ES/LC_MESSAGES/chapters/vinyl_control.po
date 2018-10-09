@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:6
 msgid "Vinyl Control"
-msgstr ""
+msgstr "Control del vinilo"
 
 #: ../../source/chapters/vinyl_control.rst:13
 msgid ""
@@ -303,7 +303,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:205
 msgid "Vinyl Configuration"
-msgstr ""
+msgstr "Configuración de vinilo"
 
 #: ../../source/chapters/vinyl_control.rst:207
 msgid ""
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:275
 msgid "Signal Quality"
-msgstr ""
+msgstr "Calidad de la señal"
 
 #: ../../source/chapters/vinyl_control.rst:277
 msgid ""
@@ -564,7 +564,7 @@ msgstr ""
 #: ../../source/chapters/vinyl_control.rst:372
 #: ../../source/chapters/vinyl_control.rst:395
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solución de problemas"
 
 #: ../../source/chapters/vinyl_control.rst:374
 msgid "**Configuration**"

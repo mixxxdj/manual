@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Galician (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:26
 msgid "G"
-msgstr ""
+msgstr "SOL"
 
 #: ../../source/chapters/appendix.rst:28
 msgid "Crossfade Right"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:38
 msgid "B"
-msgstr ""
+msgstr "SI"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "N"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:46
 msgid "D"
-msgstr ""
+msgstr "RE"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "L"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:48
 msgid "A"
-msgstr ""
+msgstr "La"
 
 #: ../../source/chapters/appendix.rst:48
 msgid "J"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:78
 msgid "F"
-msgstr ""
+msgstr "FA"
 
 #: ../../source/chapters/appendix.rst:78
 msgid ";"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:86
 msgid "E"
-msgstr ""
+msgstr "MI"
 
 #: ../../source/chapters/appendix.rst:86
 msgid "O"
@@ -411,7 +411,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:88
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../source/chapters/appendix.rst:88
 msgid "7"
@@ -427,7 +427,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:90
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "Toggle Loop On/Off"
@@ -435,7 +435,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:92
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "9"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:98
 msgid "C"
-msgstr ""
+msgstr "DO"
 
 #: ../../source/chapters/appendix.rst:98
 msgid "."
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:150
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #: ../../source/chapters/appendix.rst:152
 msgid "**Library**"
@@ -804,7 +804,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Amosar a sección do Control do vinilo"
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Ctrl + 3"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Show Effect Rack"
-msgstr ""
+msgstr "Amosar a caixa de efectos"
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Ctrl + 5"
@@ -828,7 +828,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Show Cover Art"
-msgstr ""
+msgstr "Amosa o deseño da portada"
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Ctrl + 6"
@@ -836,11 +836,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Maximize Library"
-msgstr ""
+msgstr "Maximizar a fonoteca"
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Space"
-msgstr ""
+msgstr "Espazo"
 
 #: ../../source/chapters/appendix.rst:210
 msgid "Full Screen (Windows & Linux)"
@@ -892,7 +892,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Activar a difusión en directo"
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Ctrl + L"
@@ -900,7 +900,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:226
 msgid "Record Mix"
-msgstr ""
+msgstr "Gravar a mestura"
 
 #: ../../source/chapters/appendix.rst:226
 msgid "Ctrl + R"
@@ -952,7 +952,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Developer Tools"
-msgstr ""
+msgstr "Ferramentas de desenvolvemento"
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Ctrl + Shift + T"

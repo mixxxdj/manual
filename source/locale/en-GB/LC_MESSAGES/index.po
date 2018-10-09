@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Dr Rajnish Vijay Barar, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-07-24 13:24+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Dr Rajnish Vijay Barar\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "Mixxx |version| User Manual"
-msgstr ""
+msgstr "Mixxx |version| User Manual"
 
 #: ../../source/index.rst:9
 msgid ""
@@ -30,19 +31,19 @@ msgid ""
 "sync, hotcues, looping, 4 decks, effects and many more. You can perform with"
 " Mixxx using :term:`MIDI` and :term:`HID` controllers, CD players, vinyl "
 "turntables or even just your computer's keyboard and mouse."
-msgstr ""
+msgstr "Mixxx is free [#f1]_ DJ software for Windows, Mac OS X and Linux. It's easy to use so you can start mixing your favourite songs in no time, even if you've never DJed before. Mixxx offers a variety of features for experienced DJs and beginners alike, such as automatic beat and key detection, master sync, hotcues, looping, 4 decks, effects and many more. You can perform with Mixxx using :term:`MIDI` and :term:`HID` controllers, CD players, vinyl turntables or even just your computer's keyboard and mouse."
 
 #: ../../source/index.rst:20
 msgid "Table of Contents"
-msgstr ""
+msgstr "Table of Contents"
 
 #: ../../source/index.rst:45
 msgid "**For documentation writers**"
-msgstr ""
+msgstr "**For documentation writers**"
 
 #: ../../source/index.rst:53
 msgid ""
 "Yes, free with a capital F free. Free as in beer and free as in speech. For "
 "more information about what this means, see `Wikipedia "
 "<https://en.wikipedia.org/wiki/Open-source_software>`_."
-msgstr ""
+msgstr "Yes, free with a capital F free. Free as in beer and free as in speech. For more information about what this means, see `Wikipedia <https://en.wikipedia.org/wiki/Open-source_software>`_."

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# 405d736f191818f17327f0e52fc76555, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-11-10 23:22+0000\n"
+"Last-Translator: 405d736f191818f17327f0e52fc76555\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,18 +20,18 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:3
 msgid "Appendix"
-msgstr ""
+msgstr "Apéndice"
 
 #: ../../source/chapters/appendix.rst:8
 msgid "Keyboard mapping table"
-msgstr ""
+msgstr "Tabla de mapeados del teclado"
 
 #: ../../source/chapters/appendix.rst:10
 msgid ""
 "Shortcuts let you work more efficiently. This table lists the default "
 "keyboard shortcuts for accessing Mixxx with an English keyboard layout. "
 "Depending on your language settings the defaults may be different."
-msgstr ""
+msgstr "Los atajos ayudan a trabajar de manera más eficiente. Esta tabla muestra los atajos de teclado por defecto para acceder a Mixxx mediante un teclado con disposición en inglés. Dependiendo de los ajustes de lenguaje, los ajustes por defecto podrían ser diferentes. "
 
 #: ../../source/chapters/appendix.rst:14
 msgid ""
@@ -49,15 +50,15 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Deck 1"
-msgstr ""
+msgstr "Plato 1"
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Deck 2"
-msgstr ""
+msgstr "Plato 2"
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Master"
-msgstr ""
+msgstr "Master"
 
 #: ../../source/chapters/appendix.rst:24
 msgid "**Mixer**"
@@ -69,7 +70,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:26
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../../source/chapters/appendix.rst:28
 msgid "Crossfade Right"
@@ -105,7 +106,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:34
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../source/chapters/appendix.rst:36
 msgid "Headphone Cue (Pre-fader listen)"
@@ -125,7 +126,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:38
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "N"
@@ -165,7 +166,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:46
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "L"
@@ -178,7 +179,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:48
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/chapters/appendix.rst:48
 msgid "J"
@@ -186,7 +187,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:50
 msgid "Reverse Playback"
-msgstr ""
+msgstr "Reproducción marcha atrás"
 
 #: ../../source/chapters/appendix.rst:50
 msgid "Shift + A"
@@ -311,7 +312,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:70
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/chapters/appendix.rst:70
 msgid "6"
@@ -347,11 +348,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:78
 msgid "Cue"
-msgstr ""
+msgstr "CUE"
 
 #: ../../source/chapters/appendix.rst:78
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../source/chapters/appendix.rst:78
 msgid ";"
@@ -375,7 +376,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:82
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../source/chapters/appendix.rst:82
 msgid "U"
@@ -399,7 +400,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:86
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../../source/chapters/appendix.rst:86
 msgid "O"
@@ -411,7 +412,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:88
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../source/chapters/appendix.rst:88
 msgid "7"
@@ -427,7 +428,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:90
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "Toggle Loop On/Off"
@@ -435,7 +436,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:92
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "9"
@@ -471,7 +472,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:98
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/chapters/appendix.rst:98
 msgid "."
@@ -669,7 +670,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Focus"
-msgstr ""
+msgstr "Foco"
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Ctrl + F"
@@ -677,7 +678,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Clear input"
-msgstr ""
+msgstr "Entrada de borrado"
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Ctrl + Back"
@@ -689,7 +690,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:150
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #: ../../source/chapters/appendix.rst:152
 msgid "**Library**"
@@ -788,7 +789,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:196
 msgid "Show Samplers"
-msgstr ""
+msgstr "Mostrar muestras"
 
 #: ../../source/chapters/appendix.rst:196
 msgid "Ctrl + 1"
@@ -796,7 +797,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Show Microphone Section"
-msgstr ""
+msgstr "Mostrar la sección Micrófono"
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Ctrl + 2"
@@ -804,7 +805,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Mostrar la Sección de Control de vinilo"
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Ctrl + 3"
@@ -812,7 +813,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Show Preview Deck"
-msgstr ""
+msgstr "Mostrar vista previa de la Cubierta"
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Ctrl + 4"
@@ -820,7 +821,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Show Effect Rack"
-msgstr ""
+msgstr "Estante del efecto de visualización"
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Ctrl + 5"
@@ -828,7 +829,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Show Cover Art"
-msgstr ""
+msgstr "Mostrar carátula"
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Ctrl + 6"
@@ -836,11 +837,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Maximize Library"
-msgstr ""
+msgstr "Biblioteca Maximizar"
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Space"
-msgstr ""
+msgstr "Espacio"
 
 #: ../../source/chapters/appendix.rst:210
 msgid "Full Screen (Windows & Linux)"
@@ -848,7 +849,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:210
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #: ../../source/chapters/appendix.rst:212
 msgid "Full Screen (Mac OS X)"
@@ -892,7 +893,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Habilitar de televisión en directo"
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Ctrl + L"
@@ -900,7 +901,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:226
 msgid "Record Mix"
-msgstr ""
+msgstr "Grabar mezcla"
 
 #: ../../source/chapters/appendix.rst:226
 msgid "Ctrl + R"
@@ -952,7 +953,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Developer Tools"
-msgstr ""
+msgstr "Herramientas para desarrolladores"
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Ctrl + Shift + T"
@@ -997,18 +998,18 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:260
 msgid "Command line options"
-msgstr ""
+msgstr "Opciones de la línea de comandos"
 
 #: ../../source/chapters/appendix.rst:262
 msgid ""
 "Mixxx is designed to be as user-friendly as possible. As such, its command "
 "line options are only useful for development or debugging, as they make "
 "these tasks easier. Command line options are case-sensitive."
-msgstr ""
+msgstr "Mixxx está diseñado para ser lo más amigable para el usuario como sea posible. Como tal, las opciones de la línea de comandos solo son útiles con propósitos de desarrollo o depuración, al hacer estas tareas más sencillas. Las opciones de la línea de comandos son sensibles a las mayúsculas."
 
 #: ../../source/chapters/appendix.rst:268
 msgid "Show debug tooltips"
-msgstr ""
+msgstr "Mostrar consejos sobre las herramientas de depuración"
 
 #: ../../source/chapters/appendix.rst:269
 msgid "Provide extra skins when developer mode is enabled."
@@ -1028,11 +1029,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:275
 msgid "Option"
-msgstr ""
+msgstr "Opción"
 
 #: ../../source/chapters/appendix.rst:275
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../source/chapters/appendix.rst:277
 msgid "[FILE]"
@@ -1292,7 +1293,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:391
 msgid "Preview Deck"
-msgstr ""
+msgstr "Cubierta de previsualización"
 
 #: ../../source/chapters/appendix.rst:392
 msgid "Advanced Search"

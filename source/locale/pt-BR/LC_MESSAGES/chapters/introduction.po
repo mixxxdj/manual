@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Fer22f <Fer22f@gmail.com>, 2015
+# Fer22f <Fer22f@gmail.com>, 2015,2017
 # Fer22f <Fer22f@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,7 +109,7 @@ msgstr "Novo no Mixxx |version|"
 
 #: ../../source/chapters/introduction.rst:44
 msgid "4 decks"
-msgstr ""
+msgstr "4 decks"
 
 #: ../../source/chapters/introduction.rst:45
 msgid "Master sync"
@@ -117,7 +117,7 @@ msgstr "Sincronização mestre"
 
 #: ../../source/chapters/introduction.rst:46
 msgid "Color-coded waveforms showing the frequencies in tracks"
-msgstr ""
+msgstr "Formas de onda coloridas mostrando as frequências nas faixas"
 
 #: ../../source/chapters/introduction.rst:47
 msgid ""
@@ -126,19 +126,19 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:48
 msgid "Choice of traditional, OpenKey, Lancelot, and custom key notations"
-msgstr ""
+msgstr "Escolha de notações de tom tradicional, OpenKey, Lancelot e customizado"
 
 #: ../../source/chapters/introduction.rst:49
 msgid "4 effect units with built-in effects"
-msgstr ""
+msgstr "4 unidades de efeito com efeitos incluídos"
 
 #: ../../source/chapters/introduction.rst:50
 msgid "Controller mapping :term:`GUI`"
-msgstr ""
+msgstr ":term:`GUI` de mapeamento de Controlado"
 
 #: ../../source/chapters/introduction.rst:51
 msgid "Resizable skins"
-msgstr ""
+msgstr "Skins redimensionáveis"
 
 #: ../../source/chapters/introduction.rst:52
 msgid "Beat jumping and loop move"
@@ -150,11 +150,11 @@ msgstr "Multiplos diretórios de biblioteca"
 
 #: ../../source/chapters/introduction.rst:54
 msgid "Hierarchical library sorting"
-msgstr ""
+msgstr "Classificação hierárquica de biblioteca"
 
 #: ../../source/chapters/introduction.rst:55
 msgid "Cover/album art support"
-msgstr ""
+msgstr "Suporte a capa/arte de álbum"
 
 #: ../../source/chapters/introduction.rst:56
 msgid "Vinyl passthrough mode to switch between control vinyl and music vinyl"
@@ -166,15 +166,15 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:59
 msgid "Mono output and input support"
-msgstr ""
+msgstr "Suporte a saída e entrada mono"
 
 #: ../../source/chapters/introduction.rst:60
 msgid "Improved support for using multiple sound cards"
-msgstr ""
+msgstr "Suporte melhorado do uso de múltiplas placas de som"
 
 #: ../../source/chapters/introduction.rst:61
 msgid "Over 100 other performance, quality and usability improvements"
-msgstr ""
+msgstr "Mais de 100 outras melhorias em performance, qualidade e usabilidade"
 
 #: ../../source/chapters/introduction.rst:63
 msgid "For a full list of features go to: `<http://mixxx.org/features/>`_"
@@ -219,7 +219,7 @@ msgstr "Pelo menos 1GB de RAM"
 
 #: ../../source/chapters/introduction.rst:81
 msgid "A soundcard with 2 stereo audio outputs (4 mono output channels)"
-msgstr ""
+msgstr "Uma placa de som com 2 saídas de áudio estéreo (4 canais de saída mono)"
 
 #: ../../source/chapters/introduction.rst:83
 msgid ""

@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Fer22f <Fer22f@gmail.com>, 2015
+# Fer22f <Fer22f@gmail.com>, 2015,2017
 # Fer22f <Fer22f@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -254,7 +254,7 @@ msgid ""
 "It is not recommended to modify the system-wide keyboard mapping file "
 "because all your changes can be lost if you uninstall or upgrade Mixxx. "
 "Instead, copy the default mapping file to the following location:"
-msgstr ""
+msgstr "Não é recomendado que você modifique o arquivo de mapeamento de teclado do sistema porque todas as suas mudanças serão perdidas se você desinstalar ou atualizar o Mixxx. Ao invés disso, copie o arquivo de mapeamento padrão para o seguinte local:"
 
 #: ../../source/chapters/advanced_topics.rst:130
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"

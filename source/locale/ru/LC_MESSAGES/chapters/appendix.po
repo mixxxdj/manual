@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Russian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Master"
-msgstr ""
+msgstr "Мастер"
 
 #: ../../source/chapters/appendix.rst:24
 msgid "**Mixer**"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:26
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../../source/chapters/appendix.rst:28
 msgid "Crossfade Right"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:38
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "N"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:46
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "L"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:48
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/chapters/appendix.rst:48
 msgid "J"
@@ -347,11 +347,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:78
 msgid "Cue"
-msgstr ""
+msgstr "Кий"
 
 #: ../../source/chapters/appendix.rst:78
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../source/chapters/appendix.rst:78
 msgid ";"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:82
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../source/chapters/appendix.rst:82
 msgid "U"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:86
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../../source/chapters/appendix.rst:86
 msgid "O"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:98
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/chapters/appendix.rst:98
 msgid "."
@@ -669,7 +669,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Focus"
-msgstr ""
+msgstr "Фокус"
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Ctrl + F"
@@ -677,7 +677,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Clear input"
-msgstr ""
+msgstr "Ясно, вход"
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Ctrl + Back"
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:150
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #: ../../source/chapters/appendix.rst:152
 msgid "**Library**"
@@ -740,7 +740,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:180
 msgid "Key"
-msgstr ""
+msgstr "Ключ"
 
 #: ../../source/chapters/appendix.rst:182
 msgid "**File menu**"
@@ -788,7 +788,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:196
 msgid "Show Samplers"
-msgstr ""
+msgstr "Показать пробоотборники"
 
 #: ../../source/chapters/appendix.rst:196
 msgid "Ctrl + 1"
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Show Microphone Section"
-msgstr ""
+msgstr "Показать раздел микрофон"
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Ctrl + 2"
@@ -804,7 +804,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Показать раздел контроля виниловый"
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Ctrl + 3"
@@ -812,7 +812,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Show Preview Deck"
-msgstr ""
+msgstr "Показать предварительный просмотр палубы"
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Ctrl + 4"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Show Effect Rack"
-msgstr ""
+msgstr "Показать эффект стойку"
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Ctrl + 5"
@@ -828,7 +828,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Show Cover Art"
-msgstr ""
+msgstr "Показать обложку"
 
 #: ../../source/chapters/appendix.rst:206
 msgid "Ctrl + 6"
@@ -836,11 +836,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Maximize Library"
-msgstr ""
+msgstr "Максимизировать Библиотека"
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Space"
-msgstr ""
+msgstr "Пространство"
 
 #: ../../source/chapters/appendix.rst:210
 msgid "Full Screen (Windows & Linux)"
@@ -892,7 +892,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Разрешить трансляцию"
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Ctrl + L"
@@ -952,7 +952,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Developer Tools"
-msgstr ""
+msgstr "Инструменты разработчика"
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Ctrl + Shift + T"
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:391
 msgid "Preview Deck"
-msgstr ""
+msgstr "Предварительный просмотр палубы"
 
 #: ../../source/chapters/appendix.rst:392
 msgid "Advanced Search"

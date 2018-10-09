@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Galician (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:221
 msgid "BitCrusher"
-msgstr ""
+msgstr "BitCrusher"
 
 #: ../../source/chapters/djing_with_mixxx.rst:230
 msgid "BitCrusher controls"
@@ -289,7 +289,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:244
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: ../../source/chapters/djing_with_mixxx.rst:253
 msgid "Filter controls"
@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:298
 msgid "Echo"
-msgstr ""
+msgstr "Eco"
 
 #: ../../source/chapters/djing_with_mixxx.rst:307
 msgid "Echo controls"
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "How much of the signal to send into the delay buffer"
-msgstr ""
+msgstr "Que cantidade de sinal será enviada ao búfer de retardo"
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "**Delay**"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "Delay time (seconds)"
-msgstr ""
+msgstr "Tempo de retardo (segundos)"
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "**Feedback**"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-11-12 11:49+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:74
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../source/glossary.rst:76
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:265
 msgid "ReplayGain"
-msgstr ""
+msgstr "Ganancia de repetición"
 
 #: ../../source/glossary.rst:267
 msgid ""

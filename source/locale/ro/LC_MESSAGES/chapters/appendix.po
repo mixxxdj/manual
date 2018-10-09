@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# titus <titus0818@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-25 12:03+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-23 20:29+0000\n"
+"Last-Translator: titus <titus0818@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,23 +46,23 @@ msgstr ""
 #: ../../source/chapters/appendix.rst:22
 #: ../../source/chapters/appendix.rst:180
 msgid "Function"
-msgstr ""
+msgstr "Funcție"
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Deck 1"
-msgstr ""
+msgstr "Deck 1"
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Deck 2"
-msgstr ""
+msgstr "Deck 2"
 
 #: ../../source/chapters/appendix.rst:22
 msgid "Master"
-msgstr ""
+msgstr "Master"
 
 #: ../../source/chapters/appendix.rst:24
 msgid "**Mixer**"
-msgstr ""
+msgstr "**Mixer**"
 
 #: ../../source/chapters/appendix.rst:26
 msgid "Crossfade Left"
@@ -69,7 +70,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:26
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../../source/chapters/appendix.rst:28
 msgid "Crossfade Right"
@@ -77,7 +78,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:28
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: ../../source/chapters/appendix.rst:30
 msgid "Small Crossfade Left"
@@ -101,11 +102,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:34
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../source/chapters/appendix.rst:34
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../source/chapters/appendix.rst:36
 msgid "Headphone Cue (Pre-fader listen)"
@@ -113,23 +114,23 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:36
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: ../../source/chapters/appendix.rst:36
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "Bass Kill"
-msgstr ""
+msgstr "Omoară Bass"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: ../../source/chapters/appendix.rst:40
 msgid "**Playback**"
@@ -137,7 +138,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:42
 msgid "Load selected track to deck"
-msgstr ""
+msgstr "Încarcă pista selectată în deck"
 
 #: ../../source/chapters/appendix.rst:42
 msgid "Shift + left"
@@ -149,7 +150,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:44
 msgid "Unload track from deck"
-msgstr ""
+msgstr "Descarcă pista din deck"
 
 #: ../../source/chapters/appendix.rst:44
 msgid "Alt + Shift + left"
@@ -161,15 +162,15 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:46
 msgid "Playback"
-msgstr ""
+msgstr "Redare"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: ../../source/chapters/appendix.rst:48
 #: ../../source/chapters/appendix.rst:130
@@ -178,23 +179,23 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:48
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/chapters/appendix.rst:48
 msgid "J"
-msgstr ""
+msgstr "J"
 
 #: ../../source/chapters/appendix.rst:50
 msgid "Reverse Playback"
-msgstr ""
+msgstr "Redare invers"
 
 #: ../../source/chapters/appendix.rst:50
 msgid "Shift + A"
-msgstr ""
+msgstr "Shift + A"
 
 #: ../../source/chapters/appendix.rst:50
 msgid "Shift + J"
-msgstr ""
+msgstr "Shift + J"
 
 #: ../../source/chapters/appendix.rst:52
 #: ../../source/chapters/appendix.rst:132
@@ -203,11 +204,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:52
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../../source/chapters/appendix.rst:52
 msgid "K"
-msgstr ""
+msgstr "K"
 
 #: ../../source/chapters/appendix.rst:54
 msgid "Tempo Adjust Down"
@@ -215,11 +216,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:54
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: ../../source/chapters/appendix.rst:54
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #: ../../source/chapters/appendix.rst:56
 msgid "Tempo Adjust Up"
@@ -311,7 +312,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:70
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/chapters/appendix.rst:70
 msgid "6"
@@ -351,7 +352,7 @@ msgstr "Cue"
 
 #: ../../source/chapters/appendix.rst:78
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../source/chapters/appendix.rst:78
 msgid ";"
@@ -375,7 +376,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:82
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../source/chapters/appendix.rst:82
 msgid "U"
@@ -399,7 +400,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:86
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../../source/chapters/appendix.rst:86
 msgid "O"
@@ -411,7 +412,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:88
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../source/chapters/appendix.rst:88
 msgid "7"
@@ -427,7 +428,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:90
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "Toggle Loop On/Off"
@@ -435,7 +436,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:92
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../source/chapters/appendix.rst:92
 msgid "9"
@@ -471,7 +472,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:98
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/chapters/appendix.rst:98
 msgid "."
@@ -796,7 +797,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Show Microphone Section"
-msgstr ""
+msgstr "Arată secțiunea microfon"
 
 #: ../../source/chapters/appendix.rst:198
 msgid "Ctrl + 2"
@@ -804,7 +805,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Arată secțiunea control disc vinil"
 
 #: ../../source/chapters/appendix.rst:200
 msgid "Ctrl + 3"
@@ -812,7 +813,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Show Preview Deck"
-msgstr ""
+msgstr "Arată previzualizare Deck"
 
 #: ../../source/chapters/appendix.rst:202
 msgid "Ctrl + 4"
@@ -848,7 +849,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:210
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #: ../../source/chapters/appendix.rst:212
 msgid "Full Screen (Mac OS X)"
@@ -892,7 +893,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Activare transmisie live"
 
 #: ../../source/chapters/appendix.rst:224
 msgid "Ctrl + L"
@@ -952,7 +953,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Developer Tools"
-msgstr ""
+msgstr "Unelte de dezvoltare"
 
 #: ../../source/chapters/appendix.rst:240
 msgid "Ctrl + Shift + T"
@@ -1028,11 +1029,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:275
 msgid "Option"
-msgstr "Opțiuni"
+msgstr "Opțiune"
 
 #: ../../source/chapters/appendix.rst:275
 msgid "Description"
-msgstr ""
+msgstr "Descriere"
 
 #: ../../source/chapters/appendix.rst:277
 msgid "[FILE]"
@@ -1292,7 +1293,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:391
 msgid "Preview Deck"
-msgstr ""
+msgstr "Previzualizare Deck"
 
 #: ../../source/chapters/appendix.rst:392
 msgid "Advanced Search"

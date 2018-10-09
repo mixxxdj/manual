@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:6
 msgid "Vinyl Control"
-msgstr ""
+msgstr "黑胶控制"
 
 #: ../../source/chapters/vinyl_control.rst:13
 msgid ""
@@ -303,7 +303,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:205
 msgid "Vinyl Configuration"
-msgstr ""
+msgstr "唱盘配置"
 
 #: ../../source/chapters/vinyl_control.rst:207
 msgid ""
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../source/chapters/vinyl_control.rst:275
 msgid "Signal Quality"
-msgstr ""
+msgstr "信号质量"
 
 #: ../../source/chapters/vinyl_control.rst:277
 msgid ""
@@ -564,7 +564,7 @@ msgstr ""
 #: ../../source/chapters/vinyl_control.rst:372
 #: ../../source/chapters/vinyl_control.rst:395
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排除"
 
 #: ../../source/chapters/vinyl_control.rst:374
 msgid "**Configuration**"

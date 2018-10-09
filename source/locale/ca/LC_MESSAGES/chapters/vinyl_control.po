@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgid ""
 "and feel of having your digital music collection on vinyl. Many DJs prefer "
 "the tactile feel of vinyl, and vinyl control allows that feel to be "
 "preserved while retaining the benefits of using digital audio."
-msgstr "El control de vinil permet a l'usuari manipular la reproducció d'una pista al Mixxx utilitzant un tocadiscs real com a controlador. Té l'efecte de simular el so i la sensació de tenir la música digital en vinil. Molts DJs prefereixen la sensació d'utilitzar vinils, i el control de vinils permet mantenir aquesta sensació, amb els beneficis de l'àudio digital."
+msgstr "El control de vinil permet a l'usuari manipular la reproducció d'una pista al Mixxx utilitzant un tocadiscs real com a controladora. Té l'efecte de simular el so i la sensació de tenir la música digital en vinil. Molts DJs prefereixen la sensació d'utilitzar vinils, i el control de vinils permet mantenir aquesta sensació, amb els beneficis de l'àudio digital."
 
 #: ../../source/chapters/vinyl_control.rst:20
 msgid "How does it work?"
@@ -43,7 +43,7 @@ msgid ""
 "When a record is played on one of the attached turntables, Mixxx reads the "
 "timecode from the record and uses the information to manipulate whatever "
 "track is loaded."
-msgstr ""
+msgstr "El control de vinil utilitza uns discs especials amb :term:`codis de temps <timecode>` que es posen en tocadiscs o :term:`CDJ` reals. La sortida de l'àudio d'aquests dispositius es connecta a l'entrada de la targeta de so on el Mixxx s'executa. Quan es reprodueix un d'aquests discs, el Mixxx llegeix els codis de temps i utilitza aquesta informació per alterar la pista que està carregada."
 
 #: ../../source/chapters/vinyl_control.rst:34
 msgid "What do I need to use it?"
@@ -56,7 +56,7 @@ msgid ""
 " and any soundcard that your :term:`operating system` has drivers to use. "
 "Optionally, any :ref:`MIDI/HID controller <control-midi>` can be used "
 "together with timecode control. The basic setups for timecode control are:"
-msgstr ""
+msgstr "És possible utilitzar el control de vinil del Mixxx de diverses maneres. A diferència d'algunes aplicacions propietàries, el Mixxx pot utilitzar diferents tipus de discs amb codis de temps, i qualsevol targeta de la que tingueu els controladors per al vostre :term:`sistema operatiu <operating system>`. Podeu utilitzar una :ref:`controladora MIDI/HID <control-midi>` juntament amb el control de vinil. Les configuracions típiques per al control de vinil són:"
 
 #: ../../source/chapters/vinyl_control.rst:42
 msgid "**Setup 1: Vinyl DJ**"
@@ -66,7 +66,7 @@ msgstr "**Configuració 1: DJ de vinil**"
 msgid ""
 "2-4 timecode vinyls, 2-4 turntables with phono pre-amplifiers (or line-level"
 " output), and 2-4 stereo sound inputs."
-msgstr ""
+msgstr "de 2-4 vinils de codis de temps, de 2-4 tocadiscs amb un pre-amplificador \"phono\" (o que tinguin sortida a nivel-de-línia), i de 2-4 entrades d'audio estèreo."
 
 #: ../../source/chapters/vinyl_control.rst:47
 msgid ""
@@ -75,7 +75,7 @@ msgid ""
 "should either find a sound card that has phono pre-amplifiers built in (one "
 "for each deck), use standalone phono pre-amplifiers, or use turntables with "
 "built in phono pre-amplifiers."
-msgstr ""
+msgstr "Les entrades de la vostra targeta de so han de concidir amb les sortides del tocadisc. La sortida dels tocadiscs habituals és molt feble, a nivell \"phono\" i cal amplificar-la. Podeu utilitzar una targeta de so que incorpori un preamplificador \"phono\" (una per a cada tocadisc), utilitzar un pre-amplificador phono extern, o utilitzar tocadiscs que porting un pre-amplificador incorporat."
 
 #: ../../source/chapters/vinyl_control.rst:53
 msgid ""
@@ -89,7 +89,7 @@ msgid ""
 "For turntables a typical setup is depicted in the figure below. First, "
 "connect the RCA cables from the turntables to the inputs on your sound card."
 " Second, connect the outputs of your sound card to the inputs on your mixer."
-msgstr ""
+msgstr "A continuació es mostra una configuració típica per a tocadiscs. Primer, connecteu els cables RCA dels tocadiscs a les entrades de la tageta de so. Després, conecteu les sortides de la targeta de so a les entrades del mesclador."
 
 #: ../../source/chapters/vinyl_control.rst:68
 msgid "Using Mixxx together with turntables and external mixer"
@@ -107,7 +107,7 @@ msgstr "**Configuració 2: CDJ**"
 
 #: ../../source/chapters/vinyl_control.rst:80
 msgid "2-4 timecode CDs, 2-4 CD decks, and 2-4 stereo sound inputs."
-msgstr ""
+msgstr "2-4 CD amb codis de temps, 2-4 reproductors de CD i 2-4 entrades d'àudio estèreo."
 
 #: ../../source/chapters/vinyl_control.rst:82
 msgid ""
@@ -136,7 +136,7 @@ msgstr "Es recomana utilitzar una targeta específica de DJ, que tingui **múlti
 msgid ""
 "Alternatively you can use multiple sound cards, each with a single stereo "
 "line in, but this is strongly discouraged."
-msgstr ""
+msgstr "També podeu utilitzar múltiples targetes de so, cada una amb una entrada estèreo, però està força desaconsellat."
 
 #: ../../source/chapters/vinyl_control.rst:104
 msgid ""
@@ -145,7 +145,7 @@ msgid ""
 " soundcards which each have 2-channels of input (a single stereo line-in "
 "jack). Vinyl control requires the use of stereo line-in jacks - Mono or "
 "microphone inputs will not work."
-msgstr ""
+msgstr "El Mixxx permet el control de vinil amb una targeta de so amb almenys 4 canals d'entrada (dues entrades estèreo), o amb més d'una targeta amb 2 canals d'entrada (una entrada estèreo). El control de vinil requereix que s'utilitzin entrades estèreo. Les entrades mono o de micròfon no serveixen."
 
 #: ../../source/chapters/vinyl_control.rst:110
 msgid ""
@@ -166,7 +166,7 @@ msgid ""
 "An external hardware mixer is not required for using timecode control. You "
 "can use a :ref:`MIDI or HID controller<setup-controller-and-external-card>` "
 "to mix in software instead."
-msgstr ""
+msgstr "No es necessita un mesclador físic extern per a utilitzar el control amb codis de temps. Podeu utilitzar una :ref:`controladora  MIDI o HID <setup-controller-and-external-card>` per a mesclar amb el mesclador intern del Mixxx."
 
 #: ../../source/chapters/vinyl_control.rst:124
 msgid "Supported Timecode media"
@@ -235,7 +235,7 @@ msgstr "Preferències del Mixxx - Configuració dels dispositius d'entrada i sor
 msgid ""
 "Mixxx can be controlled by up to 4 decks with either timecoded vinyl or "
 "timecoded CDs."
-msgstr ""
+msgstr "Es poden utilitzar fins a 4 plats amb vinils o CD de codis de temps amb el Mixxx."
 
 #: ../../source/chapters/vinyl_control.rst:165
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
@@ -249,14 +249,14 @@ msgstr "Seleccioneu la pestanya :guilabel:`Entrada`"
 msgid ""
 "From the :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4` drop-down"
 " menus, select the soundcard(s) which your decks are plugged into"
-msgstr ""
+msgstr "Des del primer desplegable al costat de :guilabel:`Control de Vinil 1` a :guilabel:`Control de Vinil 4` seleccioneu la(es) targeta(es) de so on heu connectat els tocadiscs"
 
 #: ../../source/chapters/vinyl_control.rst:169
 msgid ""
 "In the channel selection drop-down menu, select the channel pairs "
 "corresponding to the plug on your soundcard that your deck(s) are plugged "
 "into, typically :guilabel:`Channels 1-2` and :guilabel:`Channels 3-4` etc."
-msgstr ""
+msgstr "Al desplegable de selecció del canal, seleccioneu la parella de canals que es corresponguin amb els connectors on els heu connectat, per exemple :guilabel:`Canals 1-2` and :guilabel:`Canals 3-4` etc."
 
 #: ../../source/chapters/vinyl_control.rst:172
 #: ../../source/chapters/vinyl_control.rst:176
@@ -271,7 +271,7 @@ msgstr "Seleccioneu la pestanya :guilabel:`Sortida`"
 msgid ""
 "Specify :guilabel:`Deck 1` - :guilabel:`Deck 4` to route Mixxx's output "
 "directly to the external mixer"
-msgstr ""
+msgstr "Indiqueu en els desplegables de :guilabel:`Plat 1` a :guilabel:`Plat 4` la targeta per a enviar la sortida del Mixxx directament al mesclador extern"
 
 #: ../../source/chapters/vinyl_control.rst:179
 msgid "Configuring Vinyl Control"
@@ -414,7 +414,7 @@ msgid ""
 "You can change the Control and Cueing Modes directly in the Mixxx user "
 "interface while mixing, go to :ref:`interface-vc-mode`. Alternatively, use "
 "the :ref:`appendix-shortcuts`."
-msgstr "Podeu canviar el Control i el mode Cue directament des de la interfície del Mixxx mentre mescleu, aneu a :ref:`interface-vc-mode`. També podeu utiltizar els :ref:`appendix-shortcuts`."
+msgstr "Podeu canviar el Control i el mode Cue directament des de la interfície del Mixxx mentre mescleu, aneu a :ref:`interface-vc-mode`. També podeu utilitzar els :ref:`appendix-shortcuts`."
 
 #: ../../source/chapters/vinyl_control.rst:275
 msgid "Signal Quality"
@@ -434,7 +434,7 @@ msgid ""
 "Mixxx represents the quality of the timecode signal as a circular graphic "
 "coming from the vinyl control audio itself. The graphs correspond to your "
 "active input devices :guilabel:`Deck 1` - :guilabel:`Deck 4` ."
-msgstr ""
+msgstr "El Mixxx representa la qualitat de la senyal de codis de temps com un gràfic circular generat a partir de l'àudio mateix. Els gràfics es corresponen als dispositius d'entrada actius :guilabel:`Control de vinil 1` a :guilabel:`Control de vinil 4`."
 
 #: ../../source/chapters/vinyl_control.rst:287
 msgid ""
@@ -457,7 +457,7 @@ msgstr "Activació del control de Vinil"
 msgid ""
 "For each deck, select :menuselection:`Options --> Vinyl Control --> Enable "
 "Vinyl Control`, or use the :ref:`appendix-shortcuts`."
-msgstr "Per a cada plat, seleccioneu :menuselection:`Opcions --> Control per Vinils --> Activa el control de Vinil`, o utiltizeu les :ref:`appendix-shortcuts`."
+msgstr "Per a cada plat, seleccioneu :menuselection:`Opcions --> Control per Vinils --> Activa el control de Vinil`, o utilitzeu les :ref:`appendix-shortcuts`."
 
 #: ../../source/chapters/vinyl_control.rst:301
 msgid "Vinyl Control Status Display"
@@ -494,7 +494,7 @@ msgid ""
 "If you only have one turntable, you can still use Mixxx to play your sets. "
 "In the :menuselection:`Preferences --> Sound Hardware --> Input` tab, use "
 "the same audio input for both :guilabel:`Vinyl Control` decks."
-msgstr "Si només teniu un tocadisc, també podeu utilitzar-lo amb el Mixx per a les vostres sessions. A :menuselection:`Preferències --> Maquinari de so --> Entrada`, utilitzeu la mateixa entrada per als dos :guilabel:`Control de Vinil`."
+msgstr "Si només teniu un tocadisc, també podeu utilitzar-lo amb el Mixxx per a les vostres sessions. A :menuselection:`Preferències --> Maquinari de so --> Entrada`, utilitzeu la mateixa entrada per als dos :guilabel:`Control de Vinil`."
 
 #: ../../source/chapters/vinyl_control.rst:326
 msgid ""
@@ -513,7 +513,7 @@ msgid ""
 "Alternatively, select :menuselection:`Vinyl --> Single Deck mode` in the "
 ":ref:`advanced-controller-wizard`, to assign the control to a key on your "
 "controller."
-msgstr "Utilitzeu els :ref:`appendix-shortcuts` per a canviar el focus d'un plat a l'altre. També podeu configurar :menuselection:`Control de vinil --> Següent plat del control de vinil` a :ref:`advanced-controller-wizard`, per a assignar l'acció a una tecla del vostre controlador."
+msgstr "Utilitzeu els :ref:`appendix-shortcuts` per a canviar el focus d'un plat a l'altre. També podeu configurar :menuselection:`Control de vinil --> Següent plat del control de vinil` a :ref:`advanced-controller-wizard`, per a assignar l'acció a una tecla de la vostra controladora."
 
 #: ../../source/chapters/vinyl_control.rst:340
 msgid "End-Of-Record Mode"
@@ -582,20 +582,20 @@ msgid ""
 "specified :guilabel:`Deck 1` - :guilabel:`Deck 4` in "
 ":menuselection:`Preferences --> Sound Hardware` to route Mixxx's output "
 "directly to the external mixer"
-msgstr ""
+msgstr "configurat les sortides :guilabel:`Plat 1` a :guilabel:`Plat 4` a :menuselection:`Preferències --> Maquinari de so` per a enviar la sortida del Mixxx directament al mesclador extern"
 
 #: ../../source/chapters/vinyl_control.rst:381
 msgid ""
 "specified :guilabel:`Vinyl Control 1` - :guilabel:`Vinyl Control 4` under "
 ":menuselection:`Preferences --> Sound Hardware --> Input`"
-msgstr ""
+msgstr "configurades les entrades :guilabel:`Control de vinil 1` a :guilabel:`Control de vinil 4` a :menuselection:`Preferències --> Maquinari de so --> Entrada` "
 
 #: ../../source/chapters/vinyl_control.rst:383
 msgid ""
 "selected the correct control type under :menuselection:`Preferences --> "
 "Vinyl Control --> Vinyl type` in the preferences. See the list of `Supported"
 " Timecode media`_"
-msgstr ""
+msgstr "seleccionat el tipus correcte de control a :menuselection:`Preferències --> Control de vinil --> Tipus de vinil`. Podeu consultar la llista de `discs amb codis de temps suportats`_"
 
 #: ../../source/chapters/vinyl_control.rst:386
 msgid ""

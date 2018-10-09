@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2018-02-23 11:07+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../source/chapters/livebroadcasting.rst:82
 msgid "Click :guilabel:`OK`"
-msgstr ""
+msgstr "Haga clic en :guilabel:`OK`"
 
 #: ../../source/chapters/livebroadcasting.rst:83
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../source/chapters/livebroadcasting.rst:89
 msgid "Live Broadcasting Preferences"
-msgstr ""
+msgstr "En vivo difusión preferencias"
 
 #: ../../source/chapters/livebroadcasting.rst:98
 msgid "Mixxx preferences - Setting up live broadcasting"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../source/chapters/livebroadcasting.rst:208
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solución de problemas"
 
 #: ../../source/chapters/livebroadcasting.rst:210
 msgid ""
