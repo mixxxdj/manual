@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2017, The Mixxx Development Team
+# Copyright (C) 2011-2018, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.1\n"
+"Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-18 14:05+0200\n"
+"POT-Creation-Date: 2018-10-06 18:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgid "Nice screenshot tools with build-in editor for annotations:"
 msgstr ""
 
 #: ../../manual_guidelines.rst:79
-msgid "MacOSX: `Skitch <https://evernote.com/skitch/>`_"
+msgid "macOS: `Skitch <https://evernote.com/products/skitch>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:80
@@ -105,7 +105,7 @@ msgid "Linux: `Shutter <http://shutter-project.org/>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:81
-msgid "Windows: `PickPic <http://ngwin.com/picpick/>`_"
+msgid "Windows: `ShareX <https://getsharex.com//>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:83
