@@ -183,10 +183,6 @@ Live Broadcasting Preferences
 * **Artist**: Insert your custom artist metadata here, your DJ name for example.
 * **Title**: Insert your custom title metadata here.
 
-.. note:: Due to licensing restrictions, MP3 streaming is not enabled by
-          default. For information on how to enable MP3 streaming, go to
-          the chapter :ref:`MP3 streaming`.
-
 Icecast vs. Shoutcast
 ---------------------
 
@@ -217,8 +213,6 @@ Troubleshooting
 
 * If you have trouble connecting to your streaming server, check the
   configuration in the :ref:`live-broadcasting-preferences`.
-* You may need the :term:`LAME` libraries to stream in MP3. See
-  :ref:`MP3 Streaming`.
 * You may have selected the :term:`Ogg Vorbis` format that is unsupported by
   Shoutcast servers.
 * You may need to check your firewall settings. Both Icecast and Shoutcast use
@@ -226,115 +220,3 @@ Troubleshooting
   need to open up the next port (port 8001) as well.
 * You may need to configure port forwarding if you are behind a router or your
   router will block requests to your streaming port (for example, port 8000)
-
-.. _MP3 Streaming:
-
-Activate MP3 streaming support
-==============================
-
-Due to licensing restrictions, :term:`MP3` streaming is not enabled by default.
-In order to enable MP3 streaming you must install the :term:`LAME` MP3
-:term:`codec` yourself. The following section explains how you can do that.
-
-.. hint:: If you have activated MP3 streaming support, you'll be also able to
-          record your mixes in MP3 format. Go to the chapter
-          :ref:`djing-recording-your-mix` for more information.
-
-Activate MP3 streaming support on Windows
------------------------------------------
-
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
-   Owen Williams <owilliams@mixxx.org>
-
-To activate MP3 streaming on Windows, follow these steps:
-
-  1. Download LAME 3.98.4 :term:`binaries` from
-     http://www.rarewares.org/mp3-lame-libraries.php.
-
-     .. hint:: The download page includes 32-bit and 64-bit versions. Make sure
-               the version you download matches the version of Mixxx that you
-               use, not the version of Windows. If you are on 64bit Windows but
-               are using 32bit Mixxx, you need the 32bit (“x86”) version of the
-               LAME binaries.
-
-  #. Unpack the downloaded archive. You need a utility for manipulating archives
-     like the free `7zip <https://www.7-zip.org/>`_.
-  #. Copy :file:`libmp3lame.dll` to the location you have installed Mixxx,
-     probably :file:`C:\\Program Files\\Mixxx\\`.
-  #. **Only** if you are running Mixxx 1.11 or earlier, you **must** also rename
-     :file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where you have
-     installed Mixxx. Select :menuselection:`Help --> About` to find out your
-     version of Mixxx.
-
-  #. Restart Mixxx
-
-Windows Troubleshooting
-^^^^^^^^^^^^^^^^^^^^^^^
-
-* Double check that the version of LAME you use (“x86” = 32-bit vs. “x64” =
-  64-bit) matches the version of Mixxx you use.
-* If you are running Mixxx 1.11 or earlier, did you rename the
-  :file:`libmp3lame.dll` to :file:`lame_enc.dll`?
-* Make sure you put the correct LAME :file:`*.dll` file in the same folder that
-  contains the installation of Mixxx you are using.
-
-.. warning:: Some websites like `Audacity <https://www.audacityteam.org/>`_
-             provide lame :term:`binaries` too. Do not use these versions or
-             Mixxx will show an error when activating live broadcasting and your
-             stream will fail.
-
-Activate MP3 streaming support on macOS
-------------------------------------------
-
-Method A: Download
-^^^^^^^^^^^^^^^^^^
-To activate MP3 streaming on macOS, follow these steps:
-
-  1. Download
-     `LAME 3.98.4 <https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU>`_
-     Intel (macOS 10.8+ 64-bit)
-  #. Double-click on the downloaded zip file to unpack the file and you'll get
-     an installer package file
-  #. Double-click on the installer package file and follow the step-by-step
-     instructions in the installer
-  #. Restart Mixxx
-
-Method B: Package manager
-^^^^^^^^^^^^^^^^^^^^^^^^^
-Another easy way to activate MP3 streaming is to use `Homebrew <https://brew.sh/>`_
-or `MacPorts <https://www.macports.org/>`_, which are package managers like
-`apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ on Debian/Ubuntu
-Linux. They provide a convenient way to install many Open Source packages.
-Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather
-simple.
-
-**Homebrew**:
-
-  1. Open a terminal and type the following commands::
-
-      brew install lame
-
-  #. Restart Mixxx
-
-**Macports**:
-
-  1. Open a terminal and type the following commands::
-
-      sudo port install lame
-
-  #. Restart Mixxx
-
-Activate MP3 streaming support on Linux
----------------------------------------
-
-On Ubuntu and GNU/Linux-based operating systems MP3 streams can be activated by
-installing the package :file:`libmp3lame`. Dependent on your Linux distribution
-the package might be slightly named different such as :file:`lame`.
-
-  1. Open a terminal and type the following commands::
-
-       sudo apt-get install libmp3lame0
-
-  #. Restart Mixxx
