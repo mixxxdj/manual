@@ -218,7 +218,7 @@ python get-pip.py
 Alternatively, instead of installing pip on the system, you can also install a python-virtualenv and then use PyPI in that virtualenv.
 
 ### Windows troubleshooting
-First, in order to have "pip", you need to install python. Python 2.17.12 and onwards already include pip, but you should follow the steps to upgrade it:
+First, in order to have "pip", you need to install python. Python 2.7.12 and onwards already include pip, but you should follow the steps to upgrade it:
 ```
 python -m pip install -U pip
 ```
