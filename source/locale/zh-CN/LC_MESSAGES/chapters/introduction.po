@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Hakaii Sansei <liangwei.yee@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Hakaii Sansei <liangwei.yee@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:2
 msgid "Introduction to Mixxx"
-msgstr ""
+msgstr "Mixxx 介绍"
 
 #: ../../source/chapters/introduction.rst:4
 msgid ""
@@ -39,7 +40,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:14
 msgid "Mixxx Features"
-msgstr ""
+msgstr "Mixxx 特征"
 
 #: ../../source/chapters/introduction.rst:19
 msgid ""
@@ -176,13 +177,13 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:63
 msgid "For a full list of features go to: `<http://mixxx.org/features/>`_"
-msgstr ""
+msgstr "完整的特征，请去：<http://mixxx.org/features/>"
 
 #: ../../source/chapters/introduction.rst:64
 msgid ""
 "For an overview of the new features, go to: `<http://mixxx.org/whats-new-in-"
 "mixxx-2-0>`_"
-msgstr ""
+msgstr "概述特征，请往：<http://mixxx.org/whats-new-in-mixxx-2-0>"
 
 #: ../../source/chapters/introduction.rst:66
 msgid ""
@@ -198,7 +199,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:73
 msgid "System Requirements"
-msgstr ""
+msgstr "系统要求"
 
 #: ../../source/chapters/introduction.rst:75
 msgid ""
@@ -227,7 +228,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:88
 msgid "About the Mixxx Project"
-msgstr ""
+msgstr "关于Mixxx 项目"
 
 #: ../../source/chapters/introduction.rst:90
 msgid ""
@@ -256,14 +257,14 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:106
 msgid "Project History"
-msgstr ""
+msgstr "项目历史"
 
 #: ../../source/chapters/introduction.rst:108
 msgid ""
 "Mixxx was originally created in 2002 as part of a PhD thesis on new "
 "interfaces for DJing by Tue Haste Andersen. After releasing the project as "
 "open source, dozens of contributors began modifying and improving Mixxx."
-msgstr ""
+msgstr "Mixxx 原创于2002，是PhD"
 
 #: ../../source/chapters/introduction.rst:112
 msgid ""
@@ -290,7 +291,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:126
 msgid "About the Mixxx Manual"
-msgstr ""
+msgstr "关于Mixxx手册"
 
 #: ../../source/chapters/introduction.rst:131
 msgid ""
@@ -337,7 +338,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:153
 msgid "`<https://www.wikipedia.org//>`_"
-msgstr ""
+msgstr "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=google%20translate"
 
 #: ../../source/chapters/introduction.rst:155
 msgid "Links to external websites are marked like this."
@@ -367,7 +368,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:169
 msgid "Improving the Manual"
-msgstr ""
+msgstr "提升手册"
 
 #: ../../source/chapters/introduction.rst:171
 msgid ""
@@ -384,7 +385,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:178
 msgid "Additional Resources"
-msgstr ""
+msgstr "更多资源"
 
 #: ../../source/chapters/introduction.rst:183
 msgid ""

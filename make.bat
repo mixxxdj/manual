@@ -1,17 +1,14 @@
 @ECHO OFF
+SETLOCAL EnableDelayedExpansion
 
 REM Command file for Sphinx documentation
+REM echo running make.bat with: %0 %*
+
 
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set BUILDDIR=build
-set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% source
-set I18NSPHINXOPTS=%SPHINXOPTS% source
-if NOT "%PAPER%" == "" (
-	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
-	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%
-)
 
 if "%1" == "" goto help
 
@@ -40,7 +37,25 @@ if "%1" == "help" (
 	goto end
 )
 
-if "%1" == "clean" (
+if "%1" == "-e" (
+REM ok, this is really a dummy patch for -e SPHINXOPTS="-D language='xx' "
+set tempvar=%3
+set SPHINXOPTS=!tempvar:"=!
+set SPHINXOPTS=!SPHINXOPTS:'=!
+set selectedoption=%4
+) else (
+set selectedoption=%1
+)
+
+set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% source
+set I18NSPHINXOPTS=%SPHINXOPTS% source
+if NOT "%PAPER%" == "" (
+	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
+	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%
+)
+
+
+if "%selectedoption%" == "clean" (
 	for /d %%i in (%BUILDDIR%\*) do rmdir /q /s %%i
 	del /q /s %BUILDDIR%\*
 	goto end
@@ -60,7 +75,8 @@ if errorlevel 9009 (
 	exit /b 1
 )
 
-if "%1" == "html" (
+if "%selectedoption%" == "html" (
+    REM echo running: %SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	%SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	if errorlevel 1 exit /b 1
 	echo.
@@ -68,7 +84,7 @@ if "%1" == "html" (
 	goto end
 )
 
-if "%1" == "dirhtml" (
+if "%selectedoption%" == "dirhtml" (
 	%SPHINXBUILD% -b dirhtml %ALLSPHINXOPTS% %BUILDDIR%/dirhtml
 	if errorlevel 1 exit /b 1
 	echo.
@@ -76,7 +92,7 @@ if "%1" == "dirhtml" (
 	goto end
 )
 
-if "%1" == "singlehtml" (
+if "%selectedoption%" == "singlehtml" (
 	%SPHINXBUILD% -b singlehtml %ALLSPHINXOPTS% %BUILDDIR%/singlehtml
 	if errorlevel 1 exit /b 1
 	echo.
@@ -84,7 +100,7 @@ if "%1" == "singlehtml" (
 	goto end
 )
 
-if "%1" == "pickle" (
+if "%selectedoption%" == "pickle" (
 	%SPHINXBUILD% -b pickle %ALLSPHINXOPTS% %BUILDDIR%/pickle
 	if errorlevel 1 exit /b 1
 	echo.
@@ -92,7 +108,7 @@ if "%1" == "pickle" (
 	goto end
 )
 
-if "%1" == "json" (
+if "%selectedoption%" == "json" (
 	%SPHINXBUILD% -b json %ALLSPHINXOPTS% %BUILDDIR%/json
 	if errorlevel 1 exit /b 1
 	echo.
@@ -100,7 +116,7 @@ if "%1" == "json" (
 	goto end
 )
 
-if "%1" == "htmlhelp" (
+if "%selectedoption%" == "htmlhelp" (
 	%SPHINXBUILD% -b htmlhelp %ALLSPHINXOPTS% %BUILDDIR%/htmlhelp
 	if errorlevel 1 exit /b 1
 	echo.
@@ -109,7 +125,7 @@ if "%1" == "htmlhelp" (
 	goto end
 )
 
-if "%1" == "qthelp" (
+if "%selectedoption%" == "qthelp" (
 	%SPHINXBUILD% -b qthelp %ALLSPHINXOPTS% %BUILDDIR%/qthelp
 	if errorlevel 1 exit /b 1
 	echo.
@@ -121,7 +137,7 @@ if "%1" == "qthelp" (
 	goto end
 )
 
-if "%1" == "devhelp" (
+if "%selectedoption%" == "devhelp" (
 	%SPHINXBUILD% -b devhelp %ALLSPHINXOPTS% %BUILDDIR%/devhelp
 	if errorlevel 1 exit /b 1
 	echo.
@@ -129,7 +145,7 @@ if "%1" == "devhelp" (
 	goto end
 )
 
-if "%1" == "epub" (
+if "%selectedoption%" == "epub" (
 	%SPHINXBUILD% -b epub %ALLSPHINXOPTS% %BUILDDIR%/epub
 	if errorlevel 1 exit /b 1
 	echo.
@@ -137,7 +153,7 @@ if "%1" == "epub" (
 	goto end
 )
 
-if "%1" == "latex" (
+if "%selectedoption%" == "latex" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	if errorlevel 1 exit /b 1
 	echo.
@@ -145,7 +161,7 @@ if "%1" == "latex" (
 	goto end
 )
 
-if "%1" == "latexpdf" (
+if "%selectedoption%" == "latexpdf" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	cd %BUILDDIR%/latex
 	make all-pdf
@@ -155,7 +171,7 @@ if "%1" == "latexpdf" (
 	goto end
 )
 
-if "%1" == "latexpdfja" (
+if "%selectedoption%" == "latexpdfja" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	cd %BUILDDIR%/latex
 	make all-pdf-ja
@@ -165,7 +181,7 @@ if "%1" == "latexpdfja" (
 	goto end
 )
 
-if "%1" == "text" (
+if "%selectedoption%" == "text" (
 	%SPHINXBUILD% -b text %ALLSPHINXOPTS% %BUILDDIR%/text
 	if errorlevel 1 exit /b 1
 	echo.
@@ -173,7 +189,7 @@ if "%1" == "text" (
 	goto end
 )
 
-if "%1" == "man" (
+if "%selectedoption%" == "man" (
 	%SPHINXBUILD% -b man %ALLSPHINXOPTS% %BUILDDIR%/man
 	if errorlevel 1 exit /b 1
 	echo.
@@ -181,7 +197,7 @@ if "%1" == "man" (
 	goto end
 )
 
-if "%1" == "texinfo" (
+if "%selectedoption%" == "texinfo" (
 	%SPHINXBUILD% -b texinfo %ALLSPHINXOPTS% %BUILDDIR%/texinfo
 	if errorlevel 1 exit /b 1
 	echo.
@@ -189,7 +205,7 @@ if "%1" == "texinfo" (
 	goto end
 )
 
-if "%1" == "gettext" (
+if "%selectedoption%" == "gettext" (
 	%SPHINXBUILD% -b gettext %I18NSPHINXOPTS% source/locale/pot
 	if errorlevel 1 exit /b 1
 	echo.
@@ -197,7 +213,7 @@ if "%1" == "gettext" (
 	goto end
 )
 
-if "%1" == "changes" (
+if "%selectedoption%" == "changes" (
 	%SPHINXBUILD% -b changes %ALLSPHINXOPTS% %BUILDDIR%/changes
 	if errorlevel 1 exit /b 1
 	echo.
@@ -205,7 +221,7 @@ if "%1" == "changes" (
 	goto end
 )
 
-if "%1" == "linkcheck" (
+if "%selectedoption%" == "linkcheck" (
 	%SPHINXBUILD% -b linkcheck %ALLSPHINXOPTS% %BUILDDIR%/linkcheck
 	if errorlevel 1 exit /b 1
 	echo.
@@ -214,7 +230,7 @@ or in %BUILDDIR%/linkcheck/output.txt.
 	goto end
 )
 
-if "%1" == "doctest" (
+if "%selectedoption%" == "doctest" (
 	%SPHINXBUILD% -b doctest %ALLSPHINXOPTS% %BUILDDIR%/doctest
 	if errorlevel 1 exit /b 1
 	echo.
@@ -223,7 +239,7 @@ results in %BUILDDIR%/doctest/output.txt.
 	goto end
 )
 
-if "%1" == "xml" (
+if "%selectedoption%" == "xml" (
 	%SPHINXBUILD% -b xml %ALLSPHINXOPTS% %BUILDDIR%/xml
 	if errorlevel 1 exit /b 1
 	echo.
@@ -231,7 +247,7 @@ if "%1" == "xml" (
 	goto end
 )
 
-if "%1" == "pseudoxml" (
+if "%selectedoption%" == "pseudoxml" (
 	%SPHINXBUILD% -b pseudoxml %ALLSPHINXOPTS% %BUILDDIR%/pseudoxml
 	if errorlevel 1 exit /b 1
 	echo.

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Josep Maria Antolin <josepma@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-07-24 13:24+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2018-02-10 10:20+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "Mixxx |version| User Manual"
-msgstr ""
+msgstr "Manual de usuario de Mixxx |version|"
 
 #: ../../source/index.rst:9
 msgid ""
@@ -30,19 +31,19 @@ msgid ""
 "sync, hotcues, looping, 4 decks, effects and many more. You can perform with"
 " Mixxx using :term:`MIDI` and :term:`HID` controllers, CD players, vinyl "
 "turntables or even just your computer's keyboard and mouse."
-msgstr ""
+msgstr "Mixxx es un software de DJ gratuito [#f1]_ para Windows, Mac OS X y Linux. Es fácil de usar así que puedes empezar a mezclar tus canciones favoritas enseguida, incluso si no has hecho de DJ antes. Mixxx ofrece una variedad de características para DJs con experiencia así como para principiantes, como la detección automática del tempo y la clave musical, sincronización maestra, hotcues, bucles, 4 platos, efectos y mucho más. Puedes usar mix con controladores :term:`MIDI` y :term:`HID` , reproductores de CD, platos de vinilo o simplemente con el teclado y el ratón."
 
 #: ../../source/index.rst:20
 msgid "Table of Contents"
-msgstr ""
+msgstr "Tabla de contenido"
 
 #: ../../source/index.rst:45
 msgid "**For documentation writers**"
-msgstr ""
+msgstr "**Para redactores de la documentación**"
 
 #: ../../source/index.rst:53
 msgid ""
 "Yes, free with a capital F free. Free as in beer and free as in speech. For "
 "more information about what this means, see `Wikipedia "
 "<https://en.wikipedia.org/wiki/Open-source_software>`_."
-msgstr ""
+msgstr "Sí, gratuito con G mayúscula. Libre y gratuito, como la expresión inglesa \"Free as in beer and free as in speech\". Para más información sobre su significado, visita la `Wikipedia <https://es.wikipedia.org/wiki/Software_de_c%C3%B3digo_abierto>`_."

@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Fer22f <Fer22f@gmail.com>, 2015
+# Fer22f <Fer22f@gmail.com>, 2015,2017
 # Fer22f <Fer22f@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1205,7 +1205,7 @@ msgstr "Histórico de Versões"
 
 #: ../../source/chapters/appendix.rst:363
 msgid "**v2.0.0** (2015-12-31)"
-msgstr ""
+msgstr "**v2.0.0** (2015-12-31)"
 
 #: ../../source/chapters/appendix.rst:365
 msgid "4 Decks with Master Sync"
@@ -1258,7 +1258,7 @@ msgid ""
 "For a full list of new features and bugfixes, go to: "
 "`https://launchpad.net/mixxx/2.0 "
 "<https://launchpad.net/mixxx/+milestone/2.0.0>`_."
-msgstr ""
+msgstr "Para uma lista complete de novas funcionalidades e correções de bug, vá para: `https://launchpad.net/mixxx/2.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_."
 
 #: ../../source/chapters/appendix.rst:382
 msgid "**v1.11.0** (2013-05-09)"
@@ -1270,7 +1270,7 @@ msgstr "Ondas totalmente reformuladas"
 
 #: ../../source/chapters/appendix.rst:385
 msgid "Direct :term:`HID` controller support"
-msgstr ""
+msgstr "Suporte direto de controladores :term:`HID`"
 
 #: ../../source/chapters/appendix.rst:386
 msgid "Point & Click Controller Mapping"

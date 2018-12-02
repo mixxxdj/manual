@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# titus <titus0818@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-25 12:03+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-23 20:29+0000\n"
+"Last-Translator: titus <titus0818@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:5
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Subiecte avansate"
 
 #: ../../source/chapters/advanced_topics.rst:10
 msgid "Adding support for your MIDI/HID Controller"
-msgstr ""
+msgstr "Adăugarea suportului pentru controlerul MIDI/HID"
 
 #: ../../source/chapters/advanced_topics.rst:12
 msgid ""
@@ -47,7 +48,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:26
 msgid "Controller Wizard"
-msgstr ""
+msgstr "Asistent controler"
 
 #: ../../source/chapters/advanced_topics.rst:35
 msgid "Mixxx Controller Wizard -  Mapping a control"
@@ -65,7 +66,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:41
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Pornire Mixxx"
 
 #: ../../source/chapters/advanced_topics.rst:42
 msgid "Go to :menuselection:`Preferences --> Controllers`"

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Josep Maria Antolin <josepma@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2018-02-10 10:43+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,14 +20,14 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:2
 msgid "Introduction to Mixxx"
-msgstr ""
+msgstr "Introducción a Mixxx"
 
 #: ../../source/chapters/introduction.rst:4
 msgid ""
 "Mixxx allows you to perform live DJ mixes with your digital music "
 "collection. It helps you rock the party with MIDI controllers, vinyl "
 "turntables, or even just your keyboard."
-msgstr ""
+msgstr "Mixxx te permite realizar mezclas en vivo con la música en formato digital de tu colección. Te ayudará a ser el rey de la fiesta usando controladores MIDI, platos de vinilo o simplemente con tu teclado."
 
 #: ../../source/chapters/introduction.rst:8
 msgid ""
@@ -35,40 +36,40 @@ msgid ""
 " everyone. The project is non-profit, open-source and community driven. "
 "Together and with your help we aim to build the best DJ software ever "
 "created."
-msgstr ""
+msgstr "Mixxx lo usan tanto DJ profesionales como los que lo son por afición. Está diseñado por un equipo internacional de DJs voluntarios que quieren hacer llegar la satisfacción de hacer de DJ a todo el mundo. Es un proyecto sin ánimo de lucro, de código abierto y dirigido por la comunidad. Juntos y con tu ayuda queremos construir la mejor aplicación de DJ jamás creada."
 
 #: ../../source/chapters/introduction.rst:14
 msgid "Mixxx Features"
-msgstr ""
+msgstr "Características de Mixxx"
 
 #: ../../source/chapters/introduction.rst:19
 msgid ""
 "**4 Decks**: Each deck features a scratchable, scrolling waveform that marks"
 " beats and cue points, along with a whole-song waveform overview for quick "
 "seeking."
-msgstr ""
+msgstr "**4 Platos**: Cada plato dispone de una forma de onda sobre la que se puede hacer scratch, y muestra las pulsaciones y puntos CUE, además de otra forma de onda de la canción entera, para ir rápidamente a cualquier punto."
 
 #: ../../source/chapters/introduction.rst:22
 msgid ""
 "**Advanced Controls**: Change playback with time stretching, and loop beat "
 "segments."
-msgstr ""
+msgstr "**Controles avanzados**: Cambia la velocidad reproducción sin cambiar el tono, y bucles definidos por pulsaciones."
 
 #: ../../source/chapters/introduction.rst:24
 msgid "**Sampler Decks**: Perfect for dropping that vocal sample or airhorn."
-msgstr ""
+msgstr "**Reproductores de muestras**: Perfectos para añadir esa frase o pito."
 
 #: ../../source/chapters/introduction.rst:25
 msgid ""
 "**External Library Integration**: Use your playlists and songs from iTunes, "
 "Traktor, Rhythmbox, and Banshee."
-msgstr ""
+msgstr "**Integración de librerías externas**: Usa las listas de reproducción y canciones de iTunes, Traktor, Rhythmbox y Banshee."
 
 #: ../../source/chapters/introduction.rst:27
 msgid ""
 "**BPM Detection and Sync**: Instantly detect and sync the tempo of your "
 "songs."
-msgstr ""
+msgstr "**Detección de BPM y sincronización**: Detecta y sincroniza el tempo de tus canciones."
 
 #: ../../source/chapters/introduction.rst:28
 msgid ""
@@ -337,7 +338,7 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:153
 msgid "`<https://www.wikipedia.org//>`_"
-msgstr ""
+msgstr "`<https://www.wikipedia.org//>`_"
 
 #: ../../source/chapters/introduction.rst:155
 msgid "Links to external websites are marked like this."
@@ -367,14 +368,14 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:169
 msgid "Improving the Manual"
-msgstr ""
+msgstr "Mejorar el manual"
 
 #: ../../source/chapters/introduction.rst:171
 msgid ""
 "**Send Feedback**: If you have comments, corrections or suggestions "
 "regarding the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-"
 "Manual>`_."
-msgstr ""
+msgstr "**Envía comentarios**: Si tienes comentarios, correcicones o sugerencias acerca del manual, ` envíanos un correo en inglés <feedback@mixxx.org?subject=Mixxx-Manual>`_."
 
 #: ../../source/chapters/introduction.rst:174
 msgid ""
@@ -384,20 +385,20 @@ msgstr ""
 
 #: ../../source/chapters/introduction.rst:178
 msgid "Additional Resources"
-msgstr ""
+msgstr "Recursos adicionales"
 
 #: ../../source/chapters/introduction.rst:183
 msgid ""
 "Got questions? Need more information? Want to :ref:`contribute "
 "<contributing>` ? There are a variety of other resources you can use to find"
 " out more."
-msgstr ""
+msgstr "¿Tienes Preguntas? ¿Necesitas más información? ¿Quieres :ref:`contribute <contributing>` ? Aquí tienes un conjunto de recursos que puedes usar para saber más."
 
 #: ../../source/chapters/introduction.rst:186
 msgid ""
 "**Mixxx Website**: For general information and updates, as well as the "
 "latest news on Mixxx, go to: `<http://mixxx.org>`_"
-msgstr ""
+msgstr "**Página web de Mixxx**: Para información general y actualizaciones, así como las últimas noticias sobre Mixxx, visita: `<http://mixxx.org>`_"
 
 #: ../../source/chapters/introduction.rst:189
 msgid ""
@@ -409,13 +410,13 @@ msgstr ""
 msgid ""
 "**Mixxx Community Forums**: To search for answers, post your question or "
 "answer other DJ's questions, go to: `<http://mixxx.org/forums>`_"
-msgstr ""
+msgstr "**Foros de la comunidad Mixxx**: Para buscar respuestas, hacer preguntas o responder a las preguntas de otros DJs, visita: `<http://mixxx.org/forums>`_"
 
 #: ../../source/chapters/introduction.rst:195
 msgid ""
 "**Mixxx Source Code**: To download the source code for Mixxx, go to: "
 "`<https://github.com/mixxxdj/mixxx>`_"
-msgstr ""
+msgstr "**Código fuete de Mixxx**: Para descargar el código fuente de Mixxx, visita: `<https://github.com/mixxxdj/mixxx>`_"
 
 #: ../../source/chapters/introduction.rst:198
 msgid ""
@@ -429,7 +430,7 @@ msgid ""
 "go to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please "
 "read the `Translation FAQ "
 "<http://mixxx.org/wiki/doku.php/internationalization>`_ first."
-msgstr ""
+msgstr "**Traducciones de Mixxx**: Para traducir Mixxx y promocionar tu lengua materna, visita: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Lee primero nuestra `Translation FAQ <http://mixxx.org/wiki/doku.php/internationalization>`_ ."
 
 #: ../../source/chapters/introduction.rst:206
 msgid ""

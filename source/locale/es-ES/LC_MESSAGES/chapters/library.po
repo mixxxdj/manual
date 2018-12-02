@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-11-12 12:05+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:194
 msgid "Missing Tracks"
-msgstr ""
+msgstr "Faltan pistas"
 
 #: ../../source/chapters/library.rst:200
 msgid ""
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:215
 msgid "Hidden Tracks"
-msgstr ""
+msgstr "Pistas ocultas"
 
 #: ../../source/chapters/library.rst:221
 msgid ""
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:708
 msgid "Recordings"
-msgstr ""
+msgstr "Grabaciones"
 
 #: ../../source/chapters/library.rst:710
 msgid ""

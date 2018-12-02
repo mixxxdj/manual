@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Italian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:82
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../source/chapters/appendix.rst:82
 msgid "U"
@@ -669,7 +669,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Focus"
-msgstr ""
+msgstr "Il centro"
 
 #: ../../source/chapters/appendix.rst:146
 msgid "Ctrl + F"
@@ -677,7 +677,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Clear input"
-msgstr ""
+msgstr "Cancella l input"
 
 #: ../../source/chapters/appendix.rst:148
 msgid "Ctrl + Back"
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:150
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #: ../../source/chapters/appendix.rst:152
 msgid "**Library**"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Show Effect Rack"
-msgstr ""
+msgstr "Mostra Rack effetti"
 
 #: ../../source/chapters/appendix.rst:204
 msgid "Ctrl + 5"
@@ -836,11 +836,11 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Maximize Library"
-msgstr ""
+msgstr "Massimizza Libreria"
 
 #: ../../source/chapters/appendix.rst:208
 msgid "Space"
-msgstr ""
+msgstr "Spazio"
 
 #: ../../source/chapters/appendix.rst:210
 msgid "Full Screen (Windows & Linux)"
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:391
 msgid "Preview Deck"
-msgstr ""
+msgstr "Deck Anteprima"
 
 #: ../../source/chapters/appendix.rst:392
 msgid "Advanced Search"

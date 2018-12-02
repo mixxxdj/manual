@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-11-10 23:21+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -1097,7 +1097,7 @@ msgstr ""
 
 #: ../../source/chapters/user_interface.rst:773
 msgid "Crossfader"
-msgstr ""
+msgstr "Crossfader"
 
 #: ../../source/chapters/user_interface.rst:782
 msgid "The crossfader section of the mixer with Play/Pause and Cue buttons"
@@ -1362,7 +1362,7 @@ msgstr ""
 
 #: ../../source/chapters/user_interface.rst:934
 msgid "Waveform Display"
-msgstr ""
+msgstr "Visualización de las ondas"
 
 #: ../../source/chapters/user_interface.rst:937
 msgid ""

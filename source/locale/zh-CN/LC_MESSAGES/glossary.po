@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -396,7 +396,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:392
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: ../../source/glossary.rst:394
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:412
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../../source/glossary.rst:414
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:265
 msgid "ReplayGain"
-msgstr ""
+msgstr "播放增益"
 
 #: ../../source/glossary.rst:267
 msgid ""
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:400
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../../source/glossary.rst:402
 msgid ""

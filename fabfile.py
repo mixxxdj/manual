@@ -42,7 +42,7 @@ def tx_push():
 @task
 def tx_pull():
     # Pulls latest .po translation files for all languages from Transifex.
-    local('tx pull -a')
+    local('tx pull -a -f')
 
 @task
 def i18n_build():

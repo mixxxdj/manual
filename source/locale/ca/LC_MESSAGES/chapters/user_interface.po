@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-25 17:19+0000\n"
-"Last-Translator: Josep Maria Antolin Segura <josepma@gmail.com>\n"
+"PO-Revision-Date: 2017-11-12 12:28+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +91,7 @@ msgstr "**Artista de la pista**"
 msgid ""
 "The artist of the track is listed below. It is the same as listed under the "
 ":guilabel:`Artist` column heading in the Mixxx library."
-msgstr ""
+msgstr "L'artista de la pista es mostra a sota. És el mateix que apareix en la columna :guilabel:`Artista` de la Biblioteca del Mixxx."
 
 #: ../../source/chapters/user_interface.rst:81
 #: ../../source/chapters/user_interface.rst:958
@@ -145,7 +145,7 @@ msgid ""
 "Depending on the skin Mixxx displays either parallel waveforms (default) or "
 "separate waveforms. Select your preferred appearance in "
 ":menuselection:`Preferences --> Interface --> Skin`."
-msgstr ""
+msgstr "Depenent de l'aparença, el Mixxx mostra els gràfics d'ona de reproducció en paral·lel (per defecte) o separats. Podeu canviar l'aparença des de :menuselection:`Preferències --> Interfície --> Aparença`."
 
 #: ../../source/chapters/user_interface.rst:123
 msgid "Mixxx default skin (Deere) - Separate waveforms"
@@ -187,7 +187,7 @@ msgid ""
 "You can select from different types of displays for the waveform, which "
 "differ primarily in the level of detail shown in the waveform, in "
 ":menuselection:`Preferences --> Waveforms --> Summary type`."
-msgstr ""
+msgstr "Podeu seleccionar entre els diferents tipus de gràfic del gràfic d'ona anant a :menuselection:`Preferències --> Gràfics d'ona --> Gràfic de reproducció`.\nEs diferencien principalment en el nivell de detall que es mostra."
 
 #: ../../source/chapters/user_interface.rst:155
 #: ../../source/chapters/user_interface.rst:939
@@ -199,7 +199,7 @@ msgid ""
 "Like with the Waveform summary, you can now select from different types of "
 "displays for the overview in :menuselection:`Preferences --> Waveforms --> "
 "Overview type`."
-msgstr ""
+msgstr "De la mateixa manera que amb el gràfic d'ona de reproducció, podeu seleccionar entre els diferents tipus de gràfic del gràfic d'ona anant a :menuselection:`Preferències --> Gràfics d'ona --> Gràfic de la pista completa`."
 
 #: ../../source/chapters/user_interface.rst:163
 msgid ""
@@ -489,13 +489,13 @@ msgstr "Els plats i els reproductors de mostres trien al moment a quin altre pla
 msgid ""
 "The first deck (in numerical order) that is playing a track with a detected "
 "beatgrid, and has a rate different than zero."
-msgstr ""
+msgstr "El primer plat (en ordre numèric) que estigui reproduïnt una pista amb graella de ritme detectada, i la velocitat de reproducció sigui diferent a la de per defecte."
 
 #: ../../source/chapters/user_interface.rst:335
 msgid ""
 "The first deck (in numerical order) that has a track loaded with a detected "
 "beatgrid, no matter if it is playing or stopped."
-msgstr ""
+msgstr "El primer plat (en ordre numèric) que tingui una pista carregada amb la graella de ritme detectada, independentment de si està reproduïnt o no."
 
 #: ../../source/chapters/user_interface.rst:338
 msgid ""
@@ -558,7 +558,7 @@ msgid ""
 "To customize the amount by which the buttons alter the pitch of the track, "
 "the slider range as well as the direction, go to :menuselection:`Preferences"
 " --> Interface`."
-msgstr "Per canviar la mida del salt dels botons, el rang del control lliscant i també la direcció, podeu anar a :menuselection:`Preferències -> Interficie`"
+msgstr "Per canviar la mida del salt dels botons, el rang del control lliscant i també la direcció, podeu anar a :menuselection:`Preferències --> Interficie`"
 
 #: ../../source/chapters/user_interface.rst:370
 msgid ""
@@ -769,7 +769,7 @@ msgid ""
 "visible in the user interface. You can customize your :ref:`keyboard "
 "<advanced-keyboard>` or :ref:`controller <advanced-controller>` mappings to "
 "use all of them."
-msgstr "El Mixxx suporta fins a 36 hotcues per plat. Per defecte, només se'n mostren uns pocs a la interfície. Podeu configurar el vostre :ref:`teclat <advanced-keyboard>` o mapeigs de :ref:`controlador <advanced-controller>` per utilitzar-los tots."
+msgstr "El Mixxx suporta fins a 36 hotcues per plat. Per defecte, només se'n mostren uns pocs a la interfície. Podeu configurar les :ref:`dreceres de teclat <advanced-keyboard>` o les assignacions de la :ref:`controladora <advanced-controller>` per utilitzar-los tots."
 
 #: ../../source/chapters/user_interface.rst:529
 msgid ""
@@ -796,11 +796,11 @@ msgstr "La secció del mesclador de la :ref:`interfície d'usuari del Mixxx <int
 
 #: ../../source/chapters/user_interface.rst:559
 msgid "Channel Faders and Level Meters"
-msgstr ""
+msgstr "Monitors de nivell i controls lliscants del canal"
 
 #: ../../source/chapters/user_interface.rst:569
 msgid "**Level meters**"
-msgstr ""
+msgstr "**Monitors de nivell**"
 
 #: ../../source/chapters/user_interface.rst:562
 msgid ""
@@ -811,7 +811,7 @@ msgid ""
 "the music (transients) briefly going into the yellow region. They should "
 "never be in the red region. Refer to :ref:`Setting your levels properly "
 "(gain staging) <djing-gain-staging>` for more details."
-msgstr ""
+msgstr "A la part central del mesclador hi ha 4 :term:`monitors de nivell <level meter>`. Els externs corresponen a cada plat, mentre que els 2 centrals corresponen al nivell esquerra i dret de la sortida mestra. Aquests últims hauríen d'estar al voltant de la part superior de la zona verda, passant a la zona groga només de tant en tant. No deixeu que passin a la zona vermella. Consulteu :ref:`djing-gain-staging` per a més informació."
 
 #: ../../source/chapters/user_interface.rst:577
 msgid "**Line faders**"
@@ -822,13 +822,13 @@ msgid ""
 "The two large faders on either side of the level meters are the deck volume "
 "faders, also known as Channel- or Line-faders. Adjusting these controls the "
 "volume of each deck."
-msgstr ""
+msgstr "Els dos controls lliscants llargs a cada costat dels monitors de nivell són els faders de volum dels plats, també coneguts com a faders de canal o de línia. Serveixen per ajustar el volum de cada plat."
 
 #: ../../source/chapters/user_interface.rst:576
 msgid ""
 "Some DJ's prefer to use the line faders over the crossfader for fading "
 "between tracks. Try it, you may like it."
-msgstr "Alguns DJs prefereixen utiltizar els controls de volum en comptes del crossfader per a canviar de volum entre les pistes. Proveu-ho, potser us agrada."
+msgstr "Alguns DJs prefereixen utilitzar els controls de volum en comptes del crossfader per a canviar de volum entre les pistes. Proveu-ho, potser us agrada."
 
 #: ../../source/chapters/user_interface.rst:582
 msgid "Section Expansion Buttons"
@@ -842,7 +842,7 @@ msgstr "La secció dels botons d'expansió"
 msgid ""
 "Above the level meters in the mixer are the optional section expansion "
 "buttons."
-msgstr ""
+msgstr "A sobre dels monitors de nivell del mesclador hi ha la seccio opcional dels botons d'expansió."
 
 #: ../../source/chapters/user_interface.rst:595
 msgid ""
@@ -889,7 +889,7 @@ msgstr "Opció de pre-escolta partida amb auriculars"
 
 #: ../../source/chapters/user_interface.rst:630
 msgid "**Head-Mix Knob**"
-msgstr "**Rodeta Head-Mix**"
+msgstr "**Rodeta Auriculars-Mestre**"
 
 #: ../../source/chapters/user_interface.rst:624
 msgid ""
@@ -897,7 +897,7 @@ msgid ""
 "headphones. It works like a crossfader between the stereo Master and stereo "
 "Cueing signal. If the knob is set to the left, you only hear the cueing "
 "signal, which is the usual position for prelistening tracks."
-msgstr ""
+msgstr "Permet controlar la quantitat de senyal de sortida mestra que es sent pels auriculars. És com un crossfader entre la sortida mestra i la senyal de pre-escolta. Si la rodeta està a l'esquera, només sentireu la pre-escolta, que és la posició habitual per a pre-escoltar les pistes."
 
 #: ../../source/chapters/user_interface.rst:629
 msgid ""
@@ -916,7 +916,7 @@ msgid ""
 "cueing signal plays in the left channel. You can still adjust the :guilabel"
 ":`Head-Mix Knob` to control the mix of the master and cue signals in the "
 "left channel."
-msgstr ""
+msgstr "Si està activat, s'enviaran dos senyals mono a la sortida d'auriculars, en comptes d'una senyal estèreo. La senyal de sortida mestra sonarà pel canal dret, mentre que la senyal de pre-escolta es sentirà pel canal esquerra. Podeu seguir utilitzant la rodeta de :guilabel:`Auriculars-Mestre` per a controlar la mescla de la senyal mestra i de pre-escolta pel canal esquerra."
 
 #: ../../source/chapters/user_interface.rst:641
 msgid "**Balance Knob**"
@@ -945,7 +945,7 @@ msgid ""
 "power amplifier. On active speakers, including computer speakers, studio "
 "monitors, and PA systems that do not require a separate amplifier, this "
 "means adjusting the gain on the speakers (which may be labeled \"Volume\")."
-msgstr ""
+msgstr "La rodeta de guany permet canviar el guany aplicat a la sortida mestra que el Mixxx envia a la targeta de so, als servidors d'emissió i als enregistraments. Normalment no és necessari tocar aquesta rodeta. Per a canviar el volum de sortida, utilitzeu el volum que estigui més proper als altaveus per a tenir el millor ràtio de senyal respecte soroll (SNR). Idealment, només cal canviar el volum de l'amplificador. En el cas d'altaveus amplificats, com els altaveus per a ordinador o els monitors d'estudi, hi trobareu un control de guany, (que pot estar etiquetat com a \"Volume\")."
 
 #: ../../source/chapters/user_interface.rst:656
 msgid ""
@@ -957,25 +957,25 @@ msgid ""
 "cards built into computers), adjust the sound card settings with your "
 ":term:`OS <operating system>` mixer program. The Master Gain Knob in Mixxx "
 "should be a last resort for adjusting volume."
-msgstr ""
+msgstr "Com a DJ, potser no teniu accés a l'amplificador principal. En aquest cas, ajusteu el volum al dispositiu més proper a l'amplificador al qual tingueu accés, com la taula de mescles. Si no esteu connectats a una taula de mescles, ajusteu el guany de la vostra targeta de so. Si la targeta no té control de guany (per exemple, una targeta integrada), utilitzeu l'aplicació mesclador de vostre :term:`sistema operatiu <operating system>`. Hauríeu d'utilitzar el guany mestre com a últim recurs per ajustar el volum.."
 
 #: ../../source/chapters/user_interface.rst:665
 msgid ""
 "**In no case should any part of the signal chain be clipping, indicated by a"
 " level meter going into its red region or an LED labeled \"clipping\" "
 "turning on.**"
-msgstr ""
+msgstr "**Sota cap circumstància hauríeu de permetre que la senyal saturi en algun punt. Això passa quan un monitor de nivell entra a la zona vermella, o quan s'ilumini un LED que tingui l'etiqueta \"clipping\".**"
 
 #: ../../source/chapters/user_interface.rst:669
 #: ../../source/chapters/user_interface.rst:747
 msgid ""
 "For an explanation of why you should set your gains this way, see "
 ":ref:`Setting your levels properly (gain staging) <djing-gain-staging>`."
-msgstr ""
+msgstr "Teniu una explicació de perquè heu de posar els guanys d'aquesta manera a :ref:`djing-gain-staging`."
 
 #: ../../source/chapters/user_interface.rst:681
 msgid "**Head Gain Knob**"
-msgstr ""
+msgstr "**Rodeta de guany dels auriculars**"
 
 #: ../../source/chapters/user_interface.rst:673
 msgid ""
@@ -989,7 +989,7 @@ msgid ""
 "controls both the main output and the headphone output, then adjust the "
 ":guilabel:`Head Gain Knob` in Mixxx to control the volume of your headphones"
 " without affecting your main output."
-msgstr ""
+msgstr "Aquesta rodeta controla el guany aplicat a la sortida d'auriculars que el Mixxx envia a la vostra targeta de so. Normalment no l'haurieu de tocar. Per ajustar el volum dels auriculars, ajusteu el guany de la sortida d'auriculars. Moltes targetes externes tenen una rodeta específica per als auriculars. Si utilitzeu una targeta integrada, canvieu el guany utilitzant l'aplicació de mesclador del :term:`sistema operatiu <operating system>`. Si la vostra targeta de so només té un control de guany que controla tant la sortida mestra com la d'auriculars, aleshores utilitzeu la rodeta :guilabel:`Guany d'auriculars` del Mixxx per a ajustar el volum dels auriculars sense afectar la sortida mestra."
 
 #: ../../source/chapters/user_interface.rst:686
 msgid "PFL/Headphone Button"
@@ -1012,20 +1012,20 @@ msgid ""
 "play a track in your headphones but not have the audience hear it, press the"
 " PFL button and move the crossfader all the way to the opposite side of the "
 "deck or turn the deck’s volume fader all the way down."
-msgstr ""
+msgstr "El botó d'auriculars també es coneix amb el nom de :term:`PFL` i permet pre-escoltar utilitzant els auriculars. És a dir, permet escoltar la pista que esteu preparant abans de que la senti el públic. Això us permet decidir on començarà la pista i manipular-la per a que s'ajusti millor amb la pista que sona (per exemple, sincronitzant els tocs, posant un bucle o equalitzant-la). A l'activar la pre-escolta escoltareu la pista pels auriculars al volum màxim, independent de la posició del fader del canal. Així doncs, per a que l'audiència no senti la pista que esteu pre-escoltant, premeu el botó de pre-escolta i poseu el crossfader cap al plat contrari, o poseu el volum del canal a zero."
 
 #: ../../source/chapters/user_interface.rst:709
 msgid ""
 "Headphone cueing is only available if you have configured a Headphone Output"
 " in :menuselection:`Preferences --> Sound Hardware`."
-msgstr "La pre-escolta per auriculars només està disponible si heu configurat la sortida d'auriculars en les :menuselection:`Preferències -> Maquinari de so`."
+msgstr "La pre-escolta per auriculars només està disponible si heu configurat la sortida d'auriculars en les :menuselection:`Preferències --> Maquinari de so`."
 
 #: ../../source/chapters/user_interface.rst:712
 msgid ""
 "If you use an external hardware mixer, plug your headphones into that rather"
 " than your sound card. Use the headphone buttons on the mixer rather than "
 "the buttons in Mixxx."
-msgstr ""
+msgstr "Si utilitzeu un mesclador físic extern, connecteu-hi els auriculars, en comptes de a la sortida de la targeta de so. Així mateix, utilitzeu els botons d'auriculars del mesclador extern i no els del Mixxx."
 
 #: ../../source/chapters/user_interface.rst:719
 msgid "Equalizers and Gain Knobs"
@@ -1045,7 +1045,7 @@ msgid ""
 "region. **Do NOT turn the Gain Knob up so much that the level meter is in "
 "the red region. At this point the track is clipping, which sounds bad and "
 "could damage equipment.**"
-msgstr ""
+msgstr "A sobre d'aquestes rodetes, la rodeta de guany permet ajustar el guany que s'aplica a cada plat. Utilitzeu-lo per a compensar ls diferències entre els nivells de les pistes. En general, hauríeu d'ajustar la rodeta de manera que el :term:`monitor de nivell <level meter>` hauria d'estar al voltant de la part superior de la zona verda, passant a la zona groga només de tant en tant. ** NO augmenteu el guany tant com per a que el monitor arribu a la zona vermella. Fareu que la pista saturi, fent que soni malament i podríeu arribar a espatllar l'equipament.**"
 
 #: ../../source/chapters/user_interface.rst:739
 msgid ""
@@ -1056,7 +1056,7 @@ msgid ""
 " not apply a newly calculated ReplayGain value to a track after it has "
 "already started playing (to avoid a sudden change in the gain of a playing "
 "track)."
-msgstr ""
+msgstr "Per defecte, el Mixxx aplica automàticament un guany addicional anomenat ReplayGain per a que les pistes tinguin la intensitat aproximadament anivellada. Per a que això sigui així, les pistes han d'estar :ref:`analitzades <library-analyze>`. Si carregueu una pista que no té el guany calculat, el Mixxx calcularà el valor però no l'aplicarà si ja ha començat a sonar (per evitar que hi hagi un salt brusc del mateix)."
 
 #: ../../source/chapters/user_interface.rst:758
 msgid "**EQ Knobs**"
@@ -1075,7 +1075,7 @@ msgid ""
 "a :term:`level meter` being in the red region. See :ref:`Setting your levels"
 " properly (gain staging) <djing-gain-staging>` for a more detailed "
 "explanation."
-msgstr ""
+msgstr "Tingueu en compte de no augmentar la equalització fins a saturar la senyal, indicat pel :term:`monitor de nivell <level meter>` en la zona vermella. Consulteu :ref:`djing-gain-staging` per a més informació."
 
 #: ../../source/chapters/user_interface.rst:765
 msgid "**Kill Switches**"
@@ -1416,7 +1416,7 @@ msgstr "**Commutador d'orientació de la mescla**"
 
 #: ../../source/chapters/user_interface.rst:974
 msgid "This control determines the sampler input's mix orientation."
-msgstr ""
+msgstr "Aquest control determina la destinació de la mescla de l'entrada del reproductor de mostres."
 
 #: ../../source/chapters/user_interface.rst:977
 msgid ""
@@ -1484,11 +1484,11 @@ msgstr "Si està actiu, permet :term:`escoltar prèviament <PFL>` la pista pels 
 
 #: ../../source/chapters/user_interface.rst:1006
 msgid "Allows you to adjust the gain applied to the track."
-msgstr ""
+msgstr "Permet canviar el guany que s'aplica a una pista."
 
 #: ../../source/chapters/user_interface.rst:1009
 msgid "**Level Meter**"
-msgstr ""
+msgstr "**Monitor de nivell**"
 
 #: ../../source/chapters/user_interface.rst:1009
 msgid "Shows the level of the signal and can be adjusted with the Gain knob."
