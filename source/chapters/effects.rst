@@ -102,17 +102,31 @@ synchronized to the tempo of decks.
 
 .. _effects-mix-mode:
 
-Effect Unit Mix Knob and Mix Modes
+Effect Unit Mix Modes
 ==================================
 The effect unit mix knob controls the level of all 3 effects in the unit
 together. It can be toggled between two different modes with the mix mode
 button adjacent to it.
+
+.. figure:: ../_static/effect-unit-dry-slash-wet-mode.png
+   :align: center
+   :alt: An effect unit in Dry/Wet mode
+   :figclass: pretty-figures
+
+   An effect unit in Dry/Wet mode
 
 In the default Dry/Wet mode, the mix knob crossfades between the dry signal
 (input to the first effect in the unit) and the wet signal (output of the last
 effect in the unit). When the knob is fully left, no sound will be heard from
 the effect unit. When the knob is fully right, only the output of the effect
 unit will be heard without any of the dry input signal.
+
+.. figure:: ../_static/effect-unit-dry-plus-wet-mode.png
+   :align: center
+   :alt: An effect unit in Dry+Wet mode
+   :figclass: pretty-figures
+
+   An effect unit in Dry+Wet mode
 
 In Dry+Wet mode, the dry signal is always at full volume. The mix knob controls
 how much of the wet signal is added to the dry signal. A useful example for
