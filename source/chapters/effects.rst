@@ -45,9 +45,8 @@ chained together. This allows you to chain more than 3 effects at a time.
 
 The mix knob adjusts the mix between the dry signal (input to the unit) and the
 wet signal (output of the last effect in the unit). It changes the level of
-all 3 effects in the unit together. When the knob is fully left, no sound will
-be heard from the effect unit. When the knob is fully right, only the output of
-the effect unit will be heard without any of the dry input signal.
+all 3 effects in the unit together. Refer to the :ref:`effects-mix-mode` section
+below for details.
 
 Effects are processed after the deck faders and crossfader. This allows effects
 like Echo and Reverb to continue outputting sound after their input has been
@@ -100,6 +99,29 @@ them enabled for the skin in :menuselection:`Preferences --> Interface`.
 
 Effects (except for Reverb) that have a length of time as a parameter are
 synchronized to the tempo of decks.
+
+.. _effects-mix-mode:
+
+Effect Unit Mix Knob and Mix Modes
+==================================
+The effect unit mix knob controls the level of all 3 effects in the unit
+together. It can be toggled between two different modes with the mix mode
+button adjacent to it.
+
+In the default Dry/Wet mode, the mix knob crossfades between the dry signal
+(input to the first effect in the unit) and the wet signal (output of the last
+effect in the unit). When the knob is fully left, no sound will be heard from
+the effect unit. When the knob is fully right, only the output of the effect
+unit will be heard without any of the dry input signal.
+
+In Dry+Wet mode, the dry signal is always at full volume. The mix knob controls
+how much of the wet signal is added to the dry signal. A useful example for
+Dry+Wet mode is loading a filter or equalizer effect before the Echo effect. With
+this setup, the filter or equalizer can remove bass frequencies from the echoed
+signal without removing them from the unechoed signal. If the effect unit is
+switched to Dry/Wet mode with the same effects in the same order, the bass
+frequencies will be taken out of the echoed signal, but they will also be
+removed from the unechoed signal.
 
 .. _effects-in-headphones:
 
