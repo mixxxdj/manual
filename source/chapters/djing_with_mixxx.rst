@@ -17,7 +17,8 @@ Setting Your Levels Properly (Gain Staging)
 
 .. figure:: ../_static/level-meter-green.png
    :align: left
-   :alt: A level meter in Mixxx with the gain set properly for the loudest part of a track
+   :alt: A level meter in Mixxx with the gain set properly for the loudest part
+         of a track
    :figclass: pretty-figures
 
 Setting your levels properly, also known as gain staging, is essential for
@@ -44,7 +45,8 @@ region.
 
 .. figure:: ../_static/level-meter-red.png
    :align: right
-   :alt: A level meter in Mixxx indicating clipping. The gain should be turned down!
+   :alt: A level meter in Mixxx indicating clipping. The gain should be turned
+         down!
    :figclass: pretty-figures
 
 **If a level meter is in its red region, the signal is clipping and the gain
@@ -299,10 +301,10 @@ Instead of inserting the contents of the crates directly into the Auto DJ
 playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated
 crates that become a source of random track selections.
 
-* **Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto DJ` item
-  in the sidebar, and right-click on the :guilabel:`Crates` sub-item. Select
-  one of the existing crates from the list. This makes the content of the crate
-  available for random selection into the :ref:`Auto DJ <library-auto-dj>`
+* **Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto DJ`
+  item in the sidebar, and right-click on the :guilabel:`Crates` sub-item.
+  Select one of the existing crates from the list. This makes the content of the
+  crate available for random selection into the :ref:`Auto DJ <library-auto-dj>`
   queue for automatic mixing. The name of the crate is now listed as sub-item
   below.
 
@@ -314,9 +316,9 @@ crates that become a source of random track selections.
   library. Click the :guilabel:`Add random` button to add one track at the time
   from Auto DJ track sources to the bottom of the Auto DJ playlist.
 
-  .. note:: If you did not set any crates as an Auto DJ track source, clicking the
-            :guilabel:`Add Random` button will add a randomly selected track from the
-            whole library instead.
+  .. note:: If you did not set any crates as an Auto DJ track source, clicking
+            the :guilabel:`Add Random` button will add a randomly selected track
+            from the whole library instead.
 
 * **Automatically add tracks from track sources to Auto DJ**: Mixxx can randomly
   add tracks to the Auto DJ playlist from track sources as soon as a

@@ -16,9 +16,8 @@ your budget and application area, your setup and requirements may vary. This
 chapter provides general background information about various types of DJ
 hardware.
 
-.. seealso:: The `Mixxx DJ Hardware Guide
-             <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
-             specific devices with information about their prices,
+.. seealso:: The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+             lists specific devices with information about their prices,
              features, and compatibility with Mixxx.
 
 .. _hardware-controllers:

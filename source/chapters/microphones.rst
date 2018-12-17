@@ -24,9 +24,8 @@ with Mixxx, each with their own pros and cons:
              headphone jack. Also, they can be difficult to configure at the
              same time as a different audio interface for music output.
 
-.. seealso:: The `Mixxx DJ Hardware Guide
-             <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists
-             specific audio interfaces with information about their prices,
+.. seealso:: The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+             lists specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 
 .. _microphones-software-monitoring:
@@ -205,10 +204,10 @@ change the sample rate or buffer size you use with Mixxx, you will need to
 remeasure your round trip latency to have your microphone inputs aligned in
 your recorded and broadcasted mixes.
 
-.. warning:: Make sure direct monitoring is *not* :ref:`activated on your
-             audio interface <microphones-activate-direct-monitoring>` while
-             you are measuring the round trip latency or you will not get an
-             accurate measurement.
+.. warning:: Make sure direct monitoring is *not*
+            :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`
+             while you are measuring the round trip latency or you will not get
+             an accurate measurement.
 
 .. _microphones-configure-latency-compensation:
 
