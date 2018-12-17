@@ -222,10 +222,6 @@ choose to create them in the preferences.
 Record your mix to disk
 -----------------------
 
-.. versionadded:: 2.1
-
-   Added recording widget to toggle a recording session.
-
 Click on the recording icon on top of the application window to start,
 and stop the recording session. The duration of the running recording is
 displayed next to the icon.

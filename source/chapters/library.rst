@@ -89,13 +89,9 @@ Tracks - View and edit your whole collection
 
   * **Random sorting**
 
-    .. versionadded:: 2.1.0
-
     Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
   * **Sort keys by circle of fifths**
-
-    .. versionadded:: 2.1.0
 
     Click on the :guilabel:`Key` column header.
     The order starts with *C* at the top, then its relative minor (*a*), then
@@ -158,13 +154,6 @@ Track list context menu
 -----------------------
 
 Right-clicking on selected tracks in the track list reveals the context menu:
-
-  .. versionadded:: 2.1.0
-
-     * Add options to replace AutoDJ queue, clear waveforms
-     * Use checkbox menu in Crates selection
-     * Add BPM conversions 133,33% and 150%
-     * Re-organize context menu
 
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
@@ -445,10 +434,6 @@ Edit metadata of audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 2.1
-
-   Option to write audio tags back into files
-
 Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
 library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
@@ -574,9 +559,6 @@ controls for automatic mixing. This is useful when taking a break from live
 mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
-
-.. versionadded:: 2.1
-   Selection Info label
 
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
 * **Add Random button**: Adds a random track from track sources (crates) to the
