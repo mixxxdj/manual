@@ -110,7 +110,7 @@ and make your computer work harder.
 
 For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all
 that is needed for playback, read `24/192 Music Downloads Are Very Silly Indeed
-<https://xiph.org/~xiphmont/demo/neil-young.html>`_.
+<https://people.xiph.org/~xiphmont/demo/neil-young.html>`_.
 
 Specifications
 ^^^^^^^^^^^^^^
@@ -124,7 +124,7 @@ Connector and Cable Types
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 If you are unfamiliar with professional audio equipment, read Digital DJ Tips'
 `Essential Guide to Audio Cables for DJs
-<http://www.digitaldjtips.com/2011/07/the-essential-guide-to-audio-cables-for-djs>`_
+<https://www.digitaldjtips.com/2011/07/the-essential-guide-to-audio-cables-for-djs>`_
 to understand the different kinds of connectors on audio interfaces. It
 is better to use an audio interface with balanced outputs, especially if you
 will run long cables directly into an amplifier or active speakers without
@@ -137,8 +137,9 @@ However, most venues have DJs plug into :ref:`hardware DJ mixers
 balanced). Most home/computer speakers and amplifiers have RCA and/or 1/8" TRS
 stereo inputs. Most live sound mixers have balanced 1/4" TRS mono inputs. If
 you need to interconnect balanced and unbalanced gear, refer to this `guide
-from Presonus <https://www.presonus.com/learn/technical-articles/balanced-unbalanced>`_ and
-this `guide from Rane <http://www.rane.com/note110.html>`_.
+from Presonus (deleted, via archive.org)
+<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn/technical-articles/Balanced-Unbalanced>`_
+and this `guide from Rane <http://www.rane.com/note110.html>`_.
 
 Number of Channels
 ^^^^^^^^^^^^^^^^^^^

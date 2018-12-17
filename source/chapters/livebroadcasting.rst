@@ -203,7 +203,7 @@ Generally your streaming server host adds your radio station to the
 Shoutcast/Icecast directory, if you enable the :guilabel:`Public Stream` option
 in :menuselection:`Preferences --> Live Broadcasting --> Stream Settings`.
 
-* **Shoutcast radio directory**: `www.shoutcast.com <http://www.shoutcast.com/>`_
+* **Shoutcast radio directory**: `www.shoutcast.com <https://www.shoutcast.com/>`_
 * **Icecast radio directory**: `dir.xiph.org <http://dir.xiph.org/>`_
 
 Often streaming hosts will run their own directories. Check your host's FAQ to
