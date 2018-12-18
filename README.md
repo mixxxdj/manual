@@ -26,7 +26,7 @@ To upgrade dependencies using pip:
     $ pip install -r requirements.txt --upgrade
 
 If you'd like to build manual PDFs, you will need a functioning LaTeX installation.
-* On Mac, install [MacTeX].
+* On Mac, install [MacTeX (Basic TeX)].
 * On Debian-based systems, install `texlive-fonts-recommended` and
   `texlive-latex-extra`.
 
@@ -289,4 +289,4 @@ Even more [reStructuredText] resources:
 [Tag]: https://github.com/mixxxdj/manual/tags
 [create a new release]: https://github.com/mixxxdj/manual/releases/new
 [i18n]: #internationalization-i18n
-[MacTeX]: https://tug.org/mactex/
+[MacTeX (Basic TeX)]: https://tug.org/mactex/morepackages.html
