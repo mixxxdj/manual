@@ -243,6 +243,35 @@ Follow that link to download an installer named VCForPython27.msi.
 Also, in that same link, open the "System requirements" section and download the
 x86 or x64 (or both) version of the Microsoft Visual C++ runtimes.
 
+### macOS troubleshooting
+
+After installing the requirements via ``pip install -r requirements.txt`` and
+running ``make html``, you might get the error
+```
+WARNING: dot command 'dot' cannot be run (needed for graphviz output), check the
+graphviz_dot setting
+```
+
+Graphviz possibly is not installed to its default location (the path must
+contain an executable, not only a directory)
+``/usr/local/bin/dot`` or ``/usr/bin/dot``.
+
+Check the path with
+```
+pip show graphviz
+```
+
+Uninstall
+```
+pip uninstall graphviz
+```
+
+install again using [brew]
+
+```
+brew install graphviz
+```
+
 ## Resources
 
 ### Sphinx and RST syntax guides:
@@ -254,7 +283,7 @@ x86 or x64 (or both) version of the Microsoft Visual C++ runtimes.
 
 ### Editors with Restructured Text (reST) syntax highlighting
 
-* Windows, Linux, Mac OSX : [Atom], [Visual Studio Code], [Sublime]
+* Windows, Linux, macos : [Atom], [Visual Studio Code], [Sublime]
 * Linux: [Kate], [Retext]
 * Windows: [Intype]
 * Webapp: [Notex]
@@ -290,3 +319,4 @@ Even more [reStructuredText] resources:
 [create a new release]: https://github.com/mixxxdj/manual/releases/new
 [i18n]: #internationalization-i18n
 [MacTeX (Basic TeX)]: https://tug.org/mactex/morepackages.html
+[brew]: https://brew.sh/
