@@ -186,7 +186,8 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 * Temporarily disable the *For documentation writers* toctree from TOC in `/index.rst`
 * Update the release and version tags in `/conf.py`
 * [Tag] the repository with the version number, and [create a new release].
-* Run `fab html` to produce html output ready for upload to http://mixxx.org/manual/latest/
+* Run `fab html` to produce html output ready for upload to
+  http://mixxx.org/manual/latest/
 * Check the output compiles correctly and does not produce any warnings
 * Add translated html output for all available languages, see [i18n]
 * Run `fab pdf` to produce PDF output for distribution
@@ -194,11 +195,18 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 ## Troubleshooting
 
 ### Linux troubleshooting
-ON some systems, using the system package version of pip and running the command `pip install -r requirements.txt` might damage the python installation. Concretely, pyopenssl might get damaged and you might get an error saying `'module' object has no attribute 'SSL_ST_INIT'`
+ON some systems, using the system package version of pip and running the command
+`pip install -r requirements.txt` might damage the python installation.
+Concretely, pyopenssl might get damaged and you might get an error saying
+`'module' object has no attribute 'SSL_ST_INIT'`
 
-This happens because the repository has an old version and when installing/updating the requirements, the scripts break.
+This happens because the repository has an old version and when
+installing/updating the requirements, the scripts break.
 
-The solution to fix this consists on deleting the broken files, remove the installed package and install it manually (all commands require access privileges, so use sudo or whatever you need)
+The solution to fix this consists on deleting the broken files,
+remove the installed package and install it manually (all commands require
+access privileges, so use sudo or whatever you need)
+
 Fix python:
 ```
 rm -rf /usr/lib/python2.7/dist-packages/OpenSSL
@@ -215,19 +223,25 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-Alternatively, instead of installing pip on the system, you can also install a python-virtualenv and then use PyPI in that virtualenv.
+Alternatively, instead of installing pip on the system, you can also install a
+python-virtualenv and then use PyPI in that virtualenv.
 
 ### Windows troubleshooting
-First, in order to have "pip", you need to install python. Python 2.7.12 and onwards already include pip, but you should follow the steps to upgrade it:
+First, in order to have "pip", you need to install python. Python 2.7.12 and
+onwards already include pip, but you should follow the steps to upgrade it:
 ```
 python -m pip install -U pip
 ```
-When installing the required dependencies, you will most probably get an error which says that you need to manually install Visual studio. Concretely, you will see this:
+When installing the required dependencies, you will most probably get an error
+which says that you need to manually install Visual studio.
+Concretely, you will see this:
 ```
-error: Microsoft Visual C++ 9.0 is required (Unable to find vcvarsall.bat). Get it from http://aka.ms/vcpython27
+error: Microsoft Visual C++ 9.0 is required (Unable to find vcvarsall.bat).
+Get it from http://aka.ms/vcpython27
 ```
 Follow that link to download an installer named VCForPython27.msi.
-Also, in that same link, open the "System requirements" section and download the x86 or x64 (or both) version of the Microsoft Visual C++ runtimes.
+Also, in that same link, open the "System requirements" section and download the
+x86 or x64 (or both) version of the Microsoft Visual C++ runtimes.
 
 ## Resources
 
