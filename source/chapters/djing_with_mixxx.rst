@@ -147,11 +147,6 @@ eject, load, and queue any track with master sync and it won't interrupt the
 playback of the other decks.  However, changing the rate of a stopped deck will
 change the rate of playing decks.
 
-Master Sync will also notice if one of your tracks is double the BPM of another
-track and match them correctly.  So if you want to mix a 140 BPM drum & bass
-track with a 70 bpm dubstep track, Master Sync will make sure they are lined up
-properly.
-
 .. hint:: Usually, Master Sync will only make sure the rate sliders are set
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
