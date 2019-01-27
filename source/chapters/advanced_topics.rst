@@ -127,7 +127,7 @@ all your changes may be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
-* macOS: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
+* macOS: :file:`~/Library/Application\\ Support/Mixxx/Custom.kbd.cfg`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
 Then edit this file and save the changes. On the next startup, Mixxx will check
