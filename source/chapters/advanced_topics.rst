@@ -74,7 +74,7 @@ There are also some advanced options in the Midi Wizard you may need to use:
 The Controller wizard saves the new preset to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
-* macOS: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
+* macOS: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
