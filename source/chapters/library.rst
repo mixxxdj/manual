@@ -154,6 +154,15 @@ Tracks - View and edit your whole collection
   prompt an automatic rescan when Mixxx is started under
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
+  Rescanning the library will add new files to the library and mark tracks
+  as missing if the corresponding file has been deleted. It tries to detect
+  and relocate missing tracks if files have been renamed or moved into another
+  directory.
+
+  Automatically refreshing the metadata of tracks when files have been modified
+  by an external application is not supported, yet. In this case you need to
+  select the affected tracks and (re-)import their metadata from file tags.
+
 Track list context menu
 -----------------------
 
