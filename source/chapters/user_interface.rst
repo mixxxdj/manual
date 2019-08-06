@@ -20,7 +20,7 @@ Mixxx and describe its elements, knobs and faders.
    The Mixxx interface - Latenight skin
 
 This is the Latenight skin. It is the default skin supplied with Mixxx. There
-are a variety of others skins included with Mixxx. You should explore them all
+are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Latenight only.
 
 .. _interface-decks:
@@ -117,7 +117,7 @@ visually by aligning the beats that appear in each waveform.
 
    Mixxx default skin (Latenight) - Parallel waveforms
 
-Depending on the skin Mixxx displays either parallel waveforms (default) or
+Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
