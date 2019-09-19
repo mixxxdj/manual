@@ -27,7 +27,7 @@ will vary based on your computer and hardware quality.
 
 For information about the different input and output options, refer to
 :ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains different
-types of DJ hardware and how to set them up with the the input and output
+types of DJ hardware and how to set them up with the input and output
 options. If you are using a microphone, refer to the :ref:`microphones` chapter.
 
 .. _preferences-audio-buffer:

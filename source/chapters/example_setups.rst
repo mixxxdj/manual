@@ -98,7 +98,7 @@ Laptop and Splitter Cable
 The cheapest way to DJ and :term:`cue` with headphones uses a stereo-to-mono DJ
 splitter cable (also known as a “Y cable”) plugged into the headphone jack of a
 laptop or other computer. This cable divides the stereo output from a single
-jack into two separate mono singals.
+jack into two separate mono signals.
 
 This setup allows you to start DJing without having to invest in expensive
 equipment. However, because the signals are in mono, you and your audience will

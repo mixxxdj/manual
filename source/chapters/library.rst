@@ -183,7 +183,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Load to**:
   Loads a selected file to one of the available
   :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
-  :ref:`Previewdeck <interface-preview-deck>`. Alternatively
+  :ref:`Preview Deck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. The number of available decks
   and samplers might differ, depending on the selected skin. Note that you
   can't load multiple files at once.
@@ -375,7 +375,7 @@ Mixxx supports the following filters:
 
 * **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
-  * Supports fuzzy matching of key searches. The following example list tracks
+  * Supports fuzzy matching of key searches. The following example lists tracks
     with harmonically compatible keys to C# minor.
 
     ::
@@ -383,7 +383,7 @@ Mixxx supports the following filters:
        ~key:c#m
 
     You can combine operators but there's no way to do an “OR” search right now.
-    The following example list all tracks by “Danger” over 3 minutes long that
+    The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
 
     ::
@@ -441,8 +441,8 @@ Alternatively, select a track from the track list of the Mixxx library, drag the
 track to the waveform view of the :ref:`Preview Deck <interface-preview-deck>`
 and click the :guilabel:`Play` button next to the waveform.
 
-To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
-:kbd:`CMD` + :kbd:`4` (Mac).
+To display the :ref:`Preview Deck <interface-preview-deck>`,
+press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac).
 
 .. hint:: Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
@@ -466,7 +466,7 @@ as bitrate, size, length, type, filename, and location.
 .. note:: Mixxx does not support editing the metadata of many tracks at a time
           (bulk editing).
 
-.. warning:: Mixxx wont touch your audio files by default. Changes to a track's
+.. warning:: Mixxx won't touch your audio files by default. Changes to a track's
              metadata will be saved to the Mixxx library, but **not** to the
              track itself.
 
@@ -520,7 +520,7 @@ Manual Edit
 Using the MusicBrainz online database
 -------------------------------------
 
-`Musicbrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
+`MusicBrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
 encyclopedia that collects music :term:`metadata` and makes it available to the
 public.
 
@@ -549,7 +549,7 @@ Select the best match from the search results by clicking on it in the list.
 
 Fetching track metadata from MusicBrainz can fail:
   * if Mixxx is unable to find the specified track in the MusicBrainz database,
-  * if Mixxx cannot reach the MusicBrainz servers (if they are down,)
+  * if Mixxx cannot reach the MusicBrainz servers (if they are down),
   * or if you are not connected to the Internet.
 
 .. hint:: The MusicBrainz service has been designed for identifying full audio
