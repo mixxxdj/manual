@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.graphviz',
     'sphinx_rtd_theme',
+    'sphinx_multiversion',
 ]
 
 todo_include_todos = True
@@ -97,6 +98,12 @@ supported_languages = {
     'zh-CN': '中文 (中国)',
     'zh-TW': '中文 (臺灣)',
 }
+
+smv_tag_whitelist = r'^$'
+smv_branch_whitelist = r'^manual-(\d+)\.(\d+|x)\.(\d+|x)$'
+smv_remote_whitelist = r'^origin$'
+smv_released_pattern = r'^.*/manual-(?!2\.3\.x)(\d+)\.(\d+|x)\.(\d+|x)$'
+smv_latest_version = r'manual-2.2.x'
 
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched

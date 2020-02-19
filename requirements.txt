@@ -7,3 +7,4 @@ ecdsa
 markupsafe
 transifex-client
 sphinx-rtd-theme==0.4.3
+git+https://github.com/Holzhaus/sphinx-multiversion.git
