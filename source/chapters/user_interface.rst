@@ -80,10 +80,6 @@ Track Information Display
             information.
 
 **Time Elapsed/Remaining/Both**
-
-  .. versionadded:: 2.1.0
-     Option to show elapsed and remaining time simultaneously
-
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
   which indicates how much time is left before the track reaches the end.
@@ -147,10 +143,6 @@ separate waveforms. Select your preferred appearance in
              Waveforms --> Summary type`.
 
 **Waveform overview**
-
-  .. versionadded:: 2.1.0
-     Darken played part of track in decks and samplers
-
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
   useful because they allow DJs to see breakdowns far in advance. As visual aid,
@@ -660,8 +652,6 @@ Playing Hotcues
 
 Hotcue labels
 ^^^^^^^^^^^^^
-
-.. versionadded:: 2.1.0
 
 You can add custom names to hotcues. Right-clicking on a selected track in the
 :ref:`track list <library-tracks>` reveals the context menu.

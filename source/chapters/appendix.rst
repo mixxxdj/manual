@@ -288,16 +288,6 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
-.. versionadded:: 2.1.0
-
-   * ``--debugAssertBreak`` option
-   * ``--logLevel`` option
-   * ``--logFlushLevel`` option
-
-.. versionchanged:: 2.1.0
-
-   * ``--controllerDebug`` option also prints outgoing MIDI messages
-
 ======================  =================================================
 Option                  Description
 ======================  =================================================

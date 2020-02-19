@@ -89,13 +89,9 @@ Tracks - View and edit your whole collection
 
   * **Random sorting**
 
-    .. versionadded:: 2.1.0
-
     Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
   * **Sort keys by circle of fifths**
-
-    .. versionadded:: 2.1.0
 
     Click on the :guilabel:`Key` column header.
     The order starts with *C* at the top, then its relative minor (*a*), then
@@ -138,7 +134,8 @@ Tracks - View and edit your whole collection
 
     1. The first image saved in the track's ID3v2/Vorbis :term:`tags<metadata>`
     2. An image file in the track folder (if there is only one image file there.)
-    3. :file:`%track-file-base%.jpg` in the track directory for :file:`%track-file-base%.mp3`
+    3. :file:`%track-file-base%.jpg` in the track directory for
+       :file:`%track-file-base%.mp3`
     4. :file:`%album%.jpg`
     5. :file:`cover.jpg`
     6. :file:`front.jpg`
@@ -167,13 +164,6 @@ Track list context menu
 -----------------------
 
 Right-clicking on selected tracks in the track list reveals the context menu:
-
-  .. versionadded:: 2.1.0
-
-     * Add options to replace AutoDJ queue, clear waveforms
-     * Use checkbox menu in Crates selection
-     * Add BPM conversions 133,33% and 150%
-     * Re-organize context menu
 
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
@@ -454,10 +444,6 @@ Edit metadata of audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 2.1
-
-   Option to write audio tags back into files
-
 Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
 library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
@@ -583,9 +569,6 @@ controls for automatic mixing. This is useful when taking a break from live
 mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
-
-.. versionadded:: 2.1
-   Selection Info label
 
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
 * **Add Random button**: Adds a random track from track sources (crates) to the
@@ -826,8 +809,8 @@ view, then right-click on a session's name/date to access the different features
 * **Create new history playlist**: Split off the current history session and
   add a new session without having to restart Mixxx. The current history must
   contain at least one track for this option to be available.
-* **Join with previous**: Append the selected history session to the end of the previous
-  one.
+* **Join with previous**: Append the selected history session to the end of the
+  previous one.
 * **Export playlist**: Export a session in various file formats. This allows you
   to use the data in other applications.
 
