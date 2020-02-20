@@ -1,4 +1,8 @@
 (function() {
+    /* addEventListener that also works for IE
+     * Source:
+     * https://stackoverflow.com/a/15564058
+     */
     function addEvent(element, eventName, fn) {
         if (element.addEventListener)
             element.addEventListener(eventName, fn, false);

@@ -1,3 +1,7 @@
+/* Hide Scrollbars in WebKit browsers
+ * See this for details:
+ * https://stackoverflow.com/a/13184693
+ */
 .rst-widget-sidebar::-webkit-scrollbar {
   /* This is the magic bit */
   display: none;
