@@ -1,0 +1,12 @@
+{#- The ReadTheDocs template does not support sidebars, but loads this template
+ #  at the correct location. We'll just abuse this to insert our custom sidebar
+ #  here.
+ #}
+{%- if sidebars != None %}
+{#- new style sidebar: explicitly include/exclude templates #}
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar">
+  {%- for sidebartemplate in sidebars %}
+    {%- include sidebartemplate %}
+  {%- endfor %}
+</div>
+{%- endif %}
