@@ -123,6 +123,15 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #html_theme_options = {}
 
+# Enable "Edit on GitHub" links.
+html_context = {
+    "display_github": True,
+    "github_user": "mixxxdj",
+    "github_repo": "manual",
+    "github_version": "manual-2.2.x",
+    "conf_py_path": "/source/",
+}
+
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['themes']
 
