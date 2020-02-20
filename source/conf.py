@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Mixxx'
-copyright = u'2011-2018, The Mixxx Development Team'
+copyright = u'2011-2020, The Mixxx Development Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -286,7 +286,7 @@ texinfo_documents = [
 epub_title = u'Mixxx User Manual'
 epub_author = u'The Mixxx Development Team'
 epub_publisher = u'The Mixxx Development Team'
-epub_copyright = u'2011-2018, The Mixxx Development Team'
+epub_copyright = u'2011-2020, The Mixxx Development Team'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Mixxx'
