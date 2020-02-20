@@ -1,0 +1,34 @@
+{%- if versions %}
+{% if html_theme == 'sphinx_rtd_theme' %}
+<span class="rst-widget-header">
+    <span class="fa fa-book rst-widget-header-left"> Other Versions</span>
+    v: {{ current_version.version }}
+    <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+    {%- if versions.releases %}
+    <dl>
+        <dt>Releases</dt>
+        {%- for item in versions.releases %}
+        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
+        {%- endfor %}
+    </dl>
+    {%- endif %}
+    {%- if versions.in_development %}
+    <dl>
+        <dt>Development Versions</dt>
+        {%- for item in versions.in_development %}
+        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
+        {%- endfor %}
+    </dl>
+    {%- endif %}
+</div>
+{% else %}
+<h3>{{ _('Versions') }}</h3>
+<ul>
+    {%- for item in versions %}
+    <li><a href="{{ item.url }}">{{ item.version }}</a></li>
+    {%- endfor %}
+</ul>
+{%- endif %}
+{%- endif %}

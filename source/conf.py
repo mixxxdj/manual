@@ -224,6 +224,7 @@ html_sidebars = {
     '**': [
         'download.html',
         'languages.html',
+        'versioning.html',
     ],
 }
 
