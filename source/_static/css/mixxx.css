@@ -3,6 +3,11 @@
     background: url("../navbar-bg.jpg");
 }
 
+/* Less obstrusive toctree links */
+.toctree-wrapper a {
+    color: #404040;
+}
+
 /* Colors */
 .rst-content .admonition,
 .rst-content .admonition-todo,
