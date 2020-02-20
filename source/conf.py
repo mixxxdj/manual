@@ -38,7 +38,7 @@ extensions = [
 todo_include_todos = True
 
 # Add any paths that contain templates here, relative to this directory.
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -147,7 +147,14 @@ html_favicon = "_static/favicon.ico"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_css_files = ['css/mixxx.css']
+html_css_files = [
+    'css/mixxx.css',
+    'css/widget-sidebar.css',
+]
+
+html_js_files = [
+    'js/widget-sidebar.js',
+]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -163,7 +170,9 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': ['download.html'],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

@@ -3,6 +3,11 @@
     background: url("../navbar-bg.jpg");
 }
 
+/* Less obstrusive toctree links */
+.toctree-wrapper a {
+    color: #404040;
+}
+
 /* Colors */
 .rst-content .admonition,
 .rst-content .admonition-todo,
@@ -134,7 +139,8 @@ a:hover {
 .wy-nav-top img {
     background-color: #ff6600;
 }
-.rst-versions a {
+.rst-versions a,
+.rst-sidebar a {
     color: #ff6600;
 }
 .rst-content a code,
