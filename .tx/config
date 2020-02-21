@@ -49,10 +49,38 @@ source_file = source/locale/pot/chapters/djing_with_mixxx.pot
 source_lang = en_US
 type = PO
 
+[mixxxdj-manual.chapterseffectspot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/effects.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/effects.pot
+source_lang = en_US
+type = PO
+
+[mixxxdj-manual.chaptersexample_setupspot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/example_setups.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/example_setups.pot
+source_lang = en_US
+type = PO
+
 [mixxxdj-manual.chaptersgetting_involvedpot]
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/getting_involved.po
 minimum_perc = 0
 source_file = source/locale/pot/chapters/getting_involved.pot
+source_lang = en_US
+type = PO
+
+[mixxxdj-manual.chaptersgetting_startedpot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/getting_started.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/getting_started.pot
+source_lang = en_US
+type = PO
+
+[mixxxdj-manual.chaptershardwarepot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/hardware.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/hardware.pot
 source_lang = en_US
 type = PO
 
@@ -74,6 +102,20 @@ type = PO
 file_filter = source/locale/<lang>/LC_MESSAGES/chapters/livebroadcasting.po
 minimum_perc = 0
 source_file = source/locale/pot/chapters/livebroadcasting.pot
+source_lang = en_US
+type = PO
+
+[mixxxdj-manual.chaptersmicrophonespot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/microphones.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/microphones.pot
+source_lang = en_US
+type = PO
+
+[mixxxdj-manual.chapterspreferencespot]
+file_filter = source/locale/<lang>/LC_MESSAGES/chapters/preferences.po
+minimum_perc = 0
+source_file = source/locale/pot/chapters/preferences.pot
 source_lang = en_US
 type = PO
 
