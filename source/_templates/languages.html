@@ -1,0 +1,17 @@
+<span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> {{ _('Languages') }}</span>
+  {{ supported_languages[language] }}
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>{{ _('Read this page in another language') }}</dt>
+      {%- for langcode, langname in supported_languages.items() %}
+      <dd>
+        <a href="{{ pathto('/'.join(('..', langcode, pagename + '.html')), 1)|e }}">
+         {{ langname }}
+        </a>
+      </dd>
+      {%- endfor %}
+  </dl>
+</div>

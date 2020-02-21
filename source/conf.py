@@ -66,6 +66,38 @@ release = '2.2.2'
 # for a list of supported languages.
 language = 'en'
 
+supported_languages = {
+    'ca': 'Catalan',
+    'cs': 'Czech',
+    'de': 'German',
+    'de-DE': 'German (Germany)',
+    'en': 'English',
+    'en-GB': 'English (UK)',
+    'es': 'Spanish',
+    'es-ES': 'Spanish (Spain)',
+    'es-MX': 'Spanish (Mexico)',
+    'fi': 'Finnish',
+    'fr': 'French',
+    'gl': 'Galician',
+    'id': 'Indonesian',
+    'it': 'Italian',
+    'ja-JP': 'Japanese',
+    'kn': 'Kannada',
+    'nl': 'Dutch',
+    'pl': 'Polish',
+    'pt': 'Portugese',
+    'pt-BR': 'Portugese (Brazil)',
+    'ro': 'Romanian',
+    'ru': 'Russian',
+    'ru-RU': 'Russian (Russia)',
+    'sl': 'Slovenian',
+    'sq': 'Albanian',
+    'sr': 'Serbian',
+    'tr': 'Turkish',
+    'zh-CN': 'Chinese (China)',
+    'zh-TW': 'Chinese (Taiwan)',
+}
+
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched
 # by the standard gettext module.
@@ -130,6 +162,8 @@ html_context = {
     "github_repo": "manual",
     "github_version": "manual-2.2.x",
     "conf_py_path": "/source/",
+    "language": language,
+    "supported_languages": supported_languages,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -180,7 +214,10 @@ html_last_updated_fmt = '%b %d, %Y'
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    '**': ['download.html'],
+    '**': [
+        'download.html',
+        'languages.html',
+    ],
 }
 
 # Additional templates that should be rendered to pages, maps page names to
