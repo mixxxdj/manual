@@ -218,15 +218,13 @@ Add new Crate                             Ctrl + Shift + N
 ----------------------------------------  --------------------------------
 **View menu**
 --------------------------------------------------------------------------
-Show Samplers                             Ctrl + 1
+Show Skin Settings Menu                   Ctrl + 1
 ----------------------------------------  --------------------------------
 Show Microphone Section                   Ctrl + 2
 ----------------------------------------  --------------------------------
 Show Vinyl Control Section                Ctrl + 3
 ----------------------------------------  --------------------------------
 Show Preview Deck                         Ctrl + 4
-----------------------------------------  --------------------------------
-Show Effect Rack                          Ctrl + 5
 ----------------------------------------  --------------------------------
 Show Cover Art                            Ctrl + 6
 ----------------------------------------  --------------------------------
@@ -287,16 +285,6 @@ Command line options
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
-
-.. versionadded:: 2.1.0
-
-   * ``--debugAssertBreak`` option
-   * ``--logLevel`` option
-   * ``--logFlushLevel`` option
-
-.. versionchanged:: 2.1.0
-
-   * ``--controllerDebug`` option also prints outgoing MIDI messages
 
 ======================  =================================================
 Option                  Description

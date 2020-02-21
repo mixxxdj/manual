@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:74
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../source/glossary.rst:76
 msgid ""
@@ -396,7 +396,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:392
 msgid "HSV"
-msgstr ""
+msgstr "單純皰疹病毒"
 
 #: ../../source/glossary.rst:394
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:261
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 #: ../../source/glossary.rst:263
 msgid ""
@@ -558,7 +558,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:212
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../../source/glossary.rst:214
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:412
 msgid "MusicBrainz"
-msgstr ""
+msgstr "音軌"
 
 #: ../../source/glossary.rst:414
 msgid ""
@@ -580,7 +580,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:198
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg 格式"
 
 #: ../../source/glossary.rst:200
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:265
 msgid "ReplayGain"
-msgstr ""
+msgstr "重播增益"
 
 #: ../../source/glossary.rst:267
 msgid ""
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:400
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../../source/glossary.rst:402
 msgid ""

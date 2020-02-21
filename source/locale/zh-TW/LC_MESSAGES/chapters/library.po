@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:194
 msgid "Missing Tracks"
-msgstr ""
+msgstr "不見蹤跡"
 
 #: ../../source/chapters/library.rst:200
 msgid ""
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:215
 msgid "Hidden Tracks"
-msgstr ""
+msgstr "隱藏的曲目"
 
 #: ../../source/chapters/library.rst:221
 msgid ""
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:708
 msgid "Recordings"
-msgstr ""
+msgstr "錄音"
 
 #: ../../source/chapters/library.rst:710
 msgid ""

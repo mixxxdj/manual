@@ -6,3 +6,4 @@ pycrypto
 ecdsa
 markupsafe
 transifex-client
+sphinx-rtd-theme==0.4.3

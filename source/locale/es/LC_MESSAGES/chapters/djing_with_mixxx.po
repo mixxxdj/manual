@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-11-25 12:29+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "Adjusts the sample rate, to which the signal is downsampled."
-msgstr ""
+msgstr "Ajusta la velocidad de muestreo, a la que la señal se reduce."
 
 #: ../../source/chapters/djing_with_mixxx.rst:244
 msgid "Filter"
@@ -299,7 +299,7 @@ msgstr ""
 msgid ""
 "The filter changes the tone of the music by allowing only high or low "
 "frequencies to pass through."
-msgstr ""
+msgstr "El filtro cambia el tono de la música permitiendo que pasen las frecuéncias altas o bajas."
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "**LPF**"
@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "Corner frequency ratio of the low pass filter"
-msgstr ""
+msgstr "Frecuencia de corte para el filtro paso bajo"
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "**Q**"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "Resonance of the filters, default = Flat top"
-msgstr ""
+msgstr "resonancia de los filtros, por defecto= plano"
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "**HPF**"
@@ -323,7 +323,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "Corner frequency ratio of the high pass filter"
-msgstr ""
+msgstr "Frecuencia de corte para el filtro paso alto"
 
 #: ../../source/chapters/djing_with_mixxx.rst:270
 msgid "Reverb"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "Amount the echo fades each time it loops"
-msgstr ""
+msgstr "Cantidad de eco que se desvanece en cada repetición"
 
 #: ../../source/chapters/djing_with_mixxx.rst:322
 msgid "**PingPong**"

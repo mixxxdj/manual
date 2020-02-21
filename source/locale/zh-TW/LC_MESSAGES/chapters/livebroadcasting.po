@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../source/chapters/livebroadcasting.rst:89
 msgid "Live Broadcasting Preferences"
-msgstr ""
+msgstr "直播首選項"
 
 #: ../../source/chapters/livebroadcasting.rst:98
 msgid "Mixxx preferences - Setting up live broadcasting"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../source/chapters/livebroadcasting.rst:208
 msgid "Troubleshooting"
-msgstr ""
+msgstr "疑難排解"
 
 #: ../../source/chapters/livebroadcasting.rst:210
 msgid ""

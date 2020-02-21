@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +31,11 @@ msgstr "El Mixxx ha estat dissenyat per a que sigui fàcil d'aprendre tant per a
 msgid ""
 "This part of the manual provides you with directions for using Mixxx's "
 "features to create your own mixes."
-msgstr ""
+msgstr "Aquesta part del manual us dóna indicacions per a utilitzar les característiques del Mixxx per fer les vostres pròpies mescles."
 
 #: ../../source/chapters/djing_with_mixxx.rst:14
 msgid "Setting Your Levels Properly (Gain Staging)"
-msgstr ""
+msgstr "Ajust dels nivells de forma adequada (Gain Staging en anglès)"
 
 #: ../../source/chapters/djing_with_mixxx.rst:23
 msgid ""
@@ -50,7 +50,7 @@ msgid ""
 "yellow region. Use the yellow region to leave headroom, or available level "
 "above the average before the signal clips. The loudest parts of the music "
 "(the transients) should briefly go into the yellow region."
-msgstr ""
+msgstr "Establir els nivells adequadament, anomenat en anglès \"gain staging\", és essencial per a obtenir la millor qualitat de l'equipament que feu servir. A cada element de la cadena, des dels guanys del canal del Mixxx fins a l'amplificador, heu de mantenir un nivell ben per sobre del soroll de fons, però per sota de l'amplitut màxima abans de que distorsioni. Els :term:`Monitors de nivell <level meter>` hauriaen d'estar al voltant de la part superior de la zona verda. El monitor a la imatge de l'esquerra ensenya com hauria d'estar en les parts de la pista més altes. El nivell no hauria d'estar normalment a la zona groga. Deixeu la zona groga com a marge per a evitar distorsió. Només hi haurien d'entrar els pics de la pista a la zona groga."
 
 #: ../../source/chapters/djing_with_mixxx.rst:40
 msgid ""
@@ -58,7 +58,7 @@ msgid ""
 "were made by adjusting the visual gain of the waveform display in Mixxx to "
 "illustrate the concepts. Adjusting the visual gain of the waveform display "
 "does not change the level of the audio."
-msgstr ""
+msgstr "Una ona d'àudio a un nivell correcte. Tingueu en compte que els gràfics d'ona d'aquesta secció s'han fet ajustant el guany visual del mateix al Mixxx per intentar descriure els conceptes. Canviar el guany visual del gràfic d'ona no canvia el nivell de l'àudio."
 
 #: ../../source/chapters/djing_with_mixxx.rst:50
 msgid ""
@@ -74,11 +74,11 @@ msgid ""
 "its maximum without clipping, use more speakers or use speakers that are "
 "more sensitive and convert electrical energy into acoustic energy more "
 "efficiently."
-msgstr ""
+msgstr "**Si un monitor de nivell està en la zona vermella, la senyal satura i haurieu de reduïr el guany.** Alguns equipaments no tenen un monitor de nivell, però disposen d'un LED que s'ilumina quan la senyal satura. La saturació implica que els pics de la ona de so queden retallats perquè s'ha assolit en nivell màxim possible al qual es pot amplificar la senyal. Això fa que soni distorsionat i no sigui agradable i també pot fer que l'equipament s'espalli per requerir més potència que la que està dissenyat per utilitzar. Com més s'incrementi el guany, més es distorsionarà la senyal. Si voleu que soni més alt sense que distorsioni, i ja heu ajustat els guanys per a que no saturi, haureu d'utilitzar més altaveus, o utilitzar altaveus més eficients."
 
 #: ../../source/chapters/djing_with_mixxx.rst:67
 msgid "A clipping waveform"
-msgstr ""
+msgstr "Una ona d'àudio que satura"
 
 #: ../../source/chapters/djing_with_mixxx.rst:74
 msgid ""
@@ -97,11 +97,11 @@ msgid ""
 "have more noise than if the output of the sound card was turned up before "
 "the signal reached the mixer and the mixer's gain did not have to be turned "
 "up."
-msgstr ""
+msgstr "Per altra banda, la senyal no hauria d'estar massa baixa. Això és degut a que tot dispositiu d'àudio genera una mica de soroll, que es coneix per soroll de fons. A més a més, els dispositius analògics poden capturar soroll pels cables. La senyal que ensenyem al monitor de l'esquerra està propera al soroll de fons. Quan incrementem el guany d'un dispositiu, el soroll de fons no augmenta, només ho fa la senyal. Però si amplifiquem la senyal en un dispositiu posterior, amplificarem tant la senyal com aquest primer soroll de fons. És a dir, si teniu el volum baix a la targeta de so, i augmenteu el guany amb el mesclador extern, la ràtio de senyal respecte soroll (SNR) serà petita i el guany del mesclador amplificarà tant la senyal com el soroll de fons, a més de possibles sorolls capturats pel cable. En definitiva, tindreu més soroll que no si haguéssiu augmentat el guany a la sortida de la targeta de so, abans que arribés al mesclador."
 
 #: ../../source/chapters/djing_with_mixxx.rst:94
 msgid "A waveform that is too close to the noise floor"
-msgstr ""
+msgstr "Una ona d'àudio que està massa aprop del soroll de fons"
 
 #: ../../source/chapters/djing_with_mixxx.rst:96
 msgid ""
@@ -109,7 +109,7 @@ msgid ""
 "to-noise ratio, the gain should be adjusted as close to the speakers as "
 "possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for "
 "details."
-msgstr ""
+msgstr "Per a ajustar el volum de sortida d'un sistema d'àudio mantenint una ràtio alta de senyal respecte soroll (SNR), heu d'ajustar el guany tan aprop dels altaveus com sigui possible. Podeu consultar la secció :ref:`Rodeta de guany <interface-gain-knob>` per a més informació."
 
 #: ../../source/chapters/djing_with_mixxx.rst:104
 msgid "Beatmatching and Mixing"
@@ -148,7 +148,7 @@ msgid ""
 "weakening in intensity as the two kicks drift out of phase. When this "
 "happens, the beats can be realigned by simply tapping one of the temporary "
 "pitch bend buttons a few times in the appropriate direction."
-msgstr "Dues pistes estan enquadrades quan el tempo coincideix i els seus tocs estan alineats. Un enquadrament “perfecte” és gairebé impossible - sempre hi ha una lleugera diferència en la velocitat. Heu de parar l'orella i estar atents a que els tocs es desquadrin. Sentireu un só característic com de \"doble tambó\" precedit d'una pèrdua d'intensitat del mateix degut a la pèrdua de fase. Quan això passa, podeu tornar a enquadrar els tocs prement un dels botons d'ajustament de velocitat momentani en la direcció correcta."
+msgstr "Dues pistes estan enquadrades quan el tempo coincideix i els seus tocs estan alineats. Un enquadrament “perfecte” és gairebé impossible - sempre hi ha una lleugera diferència en la velocitat. Heu de parar l'orella i estar atents a que els tocs es desquadrin. Sentireu un so característic com de \"doble tambó\" precedit d'una pèrdua d'intensitat del mateix degut a la pèrdua de fase. Quan això passa, podeu tornar a enquadrar els tocs prement un dels botons d'ajustament de velocitat momentani en la direcció correcta."
 
 #: ../../source/chapters/djing_with_mixxx.rst:135
 msgid "Master Sync"
@@ -209,11 +209,11 @@ msgid ""
 "automatically detect the key of a track and will display it in the library "
 "and the decks. The notation which is used to display a key can be changed in"
 " :ref:`Key Detection Preferences <key-detection>`."
-msgstr ""
+msgstr "El Mixxx té dues característiques que us poden ajudar per a fer mescles harmòniques. La primera és el :term:`bloqueig de clau <key lock>`. Quan s'activa, el canvi de velocitat no afectarà a la clau musical/to. Per activar el :term:`bloqueig de clau <key lock>`, feu clic al botó :guilabel:`bloqueig de clau` de la :ref:`interface-button-grid`. L'altra opció és que el Mixxx detecti automàticament la clau musical de la pista i la mostri a la biblioteca i als plats. Podeu canviar la notació que s'utilitza per mostrar la clau des de :ref:`les preferències de detecció <key-detection>`."
 
 #: ../../source/chapters/djing_with_mixxx.rst:184
 msgid "Using Effects"
-msgstr ""
+msgstr "Ús d'efectes"
 
 #: ../../source/chapters/djing_with_mixxx.rst:188
 msgid "Mixxx comes with a set of native effects."
@@ -412,7 +412,7 @@ msgstr "En incrementar el ping-pong, s'incrementen els rebots de la senyal d'esq
 
 #: ../../source/chapters/djing_with_mixxx.rst:327
 msgid "Recording Your Mix"
-msgstr ""
+msgstr "Enregistra la mescla"
 
 #: ../../source/chapters/djing_with_mixxx.rst:332
 msgid ""
@@ -450,7 +450,7 @@ msgid ""
 "Recording your mixes and listening to them later to critique yourself is a "
 "great tool for improving your DJing skills. Sending your mixes to other DJs "
 "for feedback can also be helpful."
-msgstr ""
+msgstr "Enregistrar les mescles i escoltar-les després per estudiar-les és una eina útil per a millorar les vostres habilitats de DJ. Envieu les mecles a altres DJ per a que us donin la opinió també pot ser útil."
 
 #: ../../source/chapters/djing_with_mixxx.rst:364
 msgid "Record your mix to disk"
@@ -497,7 +497,7 @@ msgstr "Podeu reproduir l'enregistrament en qualsevol moment al Mixxx. Tan sols 
 
 #: ../../source/chapters/djing_with_mixxx.rst:386
 msgid "Using Auto DJ For Automatic Mixing"
-msgstr ""
+msgstr "Ús del DJ automatic per a mescles desateses"
 
 #: ../../source/chapters/djing_with_mixxx.rst:398
 msgid "Mixxx library - Auto DJ view"

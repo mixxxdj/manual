@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-25 17:17+0000\n"
-"Last-Translator: Josep Maria Antolin Segura <josepma@gmail.com>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,7 +255,7 @@ msgid ""
 ":menuselection:`Library --> Rescan Library` in the menu on top of the "
 "application window. You can prompt an automatic rescan when Mixxx is started"
 " in :menuselection:`Preferences --> Library --> Rescan on startup`."
-msgstr "Si voleu actualitzar la llibreria manualment sense sortir de l'aplicació (per exemple, perquè heu afegit o mogut fitxers), podeu fer-ho des del menú principal de l'aplicació :menuselection:`Biblioteca -> Torna a escanejar la biblioteca`. També podeu forçar una actualització automàtica quan s'inicia el Mixxx des de :menuselection:`Preferències --> Biblioteca -> Torna a escanejar la biblioteca a l'inici`."
+msgstr "Si voleu actualitzar la llibreria manualment sense sortir de l'aplicació (per exemple, perquè heu afegit o mogut fitxers), podeu fer-ho des del menú principal de l'aplicació :menuselection:`Biblioteca --> Torna a escanejar la biblioteca`. També podeu forçar una actualització automàtica quan s'inicia el Mixxx des de :menuselection:`Preferències --> Biblioteca -> Torna a escanejar la biblioteca a l'inici`."
 
 #: ../../source/chapters/library.rst:123
 msgid "Track list context menu"
@@ -290,7 +290,7 @@ msgid ""
 "decks>`, :ref:`Sampler <interface-sampler>` or :ref:`Previewdeck <interface-"
 "preview-deck>`. Alternatively simply drag it to the :ref:`interface-"
 "waveform`. Note that you can't load multiple files at once."
-msgstr ""
+msgstr "**Carrega al plat/Reproductor de mostres**: Carrega una pista al :ref:`Plat <interface-decks>`, :ref:`Reproductor de mostres <interface-sampler>` o :ref:`Reproductor de pre-escolta <interface-preview-deck>`. També ho podeu fer arrossegant-la fins al :ref:`gràfic d'ona <interface-waveform>`. Només les podeu carregar d'una en una."
 
 #: ../../source/chapters/library.rst:142
 msgid ""
@@ -509,14 +509,14 @@ msgstr "Per trobar les pistes (cerca)"
 msgid ""
 "The search function filters the current selected list (e.g. a playlist, a "
 "crate or even the whole library) for tracks that match your search query."
-msgstr ""
+msgstr "La funció de cerca fitra la llista actual (p.ex. una llista de reproducció, una caixa, o la biblioteca senceera) i mostra les pistes que concideixen amb els criteris de cerca."
 
 #: ../../source/chapters/library.rst:277
 msgid ""
 "Activate the search input field by pressing :kbd:`CTRL` + :kbd:`F` "
 "(Windows/Linux) or :kbd:`CMD` + :kbd:`F` (Mac). Alternatively click into the"
 " search box."
-msgstr ""
+msgstr "Activeu el campd e cerca prement :kbd:`CTRL` + :kbd:`F` (Windows/Linux) o bé :kbd:`CMD` + :kbd:`F` (Mac). També podeu fer clic al camp de cerca."
 
 #: ../../source/chapters/library.rst:280
 msgid ""
@@ -542,7 +542,7 @@ msgstr "Premeu :kbd:`TAB` per a alternar entre el camp de cerca i la llista de r
 msgid ""
 "If the search input field has focus, the Mixxx keyboard shortcuts are "
 "disabled, see :ref:`control-keyboard`."
-msgstr "Si teniu el focus al camp de cerca, les dreceres de teclat del Mixxx es desactivaran, consulteu :ref:`control-keyboards`."
+msgstr "Si teniu el focus al camp de cerca, les dreceres de teclat del Mixxx es desactivaran, consulteu :ref:`control-keyboard`."
 
 #: ../../source/chapters/library.rst:293
 msgid "Using search operators"
@@ -591,7 +591,7 @@ msgid ""
 "You can combine operators but there's no way to do an “OR” search right now."
 " The following example list all tracks by “Danger” over 3 minutes long that "
 "are rated 4 or 5."
-msgstr ""
+msgstr "Podeu combinar operadors, però es possible fer un condicionant “O BÉ” per ara. L'exemple següent filra les pistes de l'artista  “Danger” de 3 minuts o més i que tinguin una puntuació de 4 o 5."
 
 #: ../../source/chapters/library.rst:328
 msgid ""
@@ -865,7 +865,7 @@ msgid ""
 "not find the requested track in the MusicBrainz database, could not connect "
 "to the MusicBrainz servers, or because you are not connected to the "
 "Internet."
-msgstr "La cerca de dades a MusicBrainz pot fallar si el Mixx no troba la pista a la base de dades del MusicBrainz, o bé si no pot conectar-se al servidor, o si no esteu connectats a internet."
+msgstr "La cerca de dades a MusicBrainz pot fallar si el Mixxx no troba la pista a la base de dades del MusicBrainz, o bé si no pot conectar-se al servidor, o si no esteu connectats a internet."
 
 #: ../../source/chapters/library.rst:479
 msgid ""
@@ -885,7 +885,7 @@ msgid ""
 ":menuselection:`Library --> Rescan Library` in the menu on top of the "
 "application window. This prompts Mixxx to re-read the metadata from **all** "
 "tracks in the library."
-msgstr "Si heu modificat les metadades utiltizant altres aplicacions, seleccioneu :menuselection:`Biblioteca --> Torna a escanejar la biblioteca` al menú principal de l'aplicació. Això indica al Mixxx que torni a llegir les metadades de **totes** les pistes de la Biblioteca."
+msgstr "Si heu modificat les metadades utilitzant altres aplicacions, seleccioneu :menuselection:`Biblioteca --> Torna a escanejar la biblioteca` al menú principal de l'aplicació. Això indica al Mixxx que torni a llegir les metadades de **totes** les pistes de la Biblioteca."
 
 #: ../../source/chapters/library.rst:495
 msgid "Popular software to edit metadata of audio files include:"
@@ -897,7 +897,7 @@ msgstr "`Mp3tag <http://www.mp3tag.de/en/index.html>`_ (Windows, en anglès)"
 
 #: ../../source/chapters/library.rst:494
 msgid "`Kid3 <http://kid3.sourceforge.net/>`_ (Linux)"
-msgstr ""
+msgstr "`Kid3 <http://kid3.sourceforge.net/>`_ (Linux)"
 
 #: ../../source/chapters/library.rst:495
 msgid "`Picard <http://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)"
@@ -968,7 +968,7 @@ msgid ""
 "selection no matter when they where last played in "
 ":menuselection:`Preferences --> Auto DJ --> Minimum available tracks in "
 "Track Source`."
-msgstr "És possible afegir pistes aleatòries al final de la cua de reproducció de DJ Automàtic. Les pistes no es trien de la biblioteca, sinó d'un conjunt de caixes. Concretament, les caixes que poseu com a font de pistes per a DJ Automàtic. El Mixxx provarà de seleccionar una pista que no s'hagi reproduït encara. Podeu configurar quantes pistes estaran disponibles sense tenir en compte quan s'han reproduït des de :menuselection:`Preferències --> DJ Automàtic -> Quantitat mínima de pistes disponibles com a fonts`."
+msgstr "És possible afegir pistes aleatòries al final de la cua de reproducció de DJ Automàtic. Les pistes no es trien de la biblioteca, sinó d'un conjunt de caixes. Concretament, les caixes que poseu com a font de pistes per a DJ Automàtic. El Mixxx provarà de seleccionar una pista que no s'hagi reproduït encara. Podeu configurar quantes pistes estaran disponibles sense tenir en compte quan s'han reproduït des de :menuselection:`Preferències --> DJ Automàtic --> Quantitat mínima de pistes disponibles com a fonts`."
 
 #: ../../source/chapters/library.rst:537
 msgid ""
@@ -1011,7 +1011,7 @@ msgid ""
 "dropping a selection of tracks from the library or playlists onto the name "
 "of a playlist in the sidebar. Alternatively, use the right-click context "
 "menu in the library's :ref:`track list <library-root>`."
-msgstr ""
+msgstr "**Afegeix Pistes**: Afegeix pistes a una llista de reproduccio´existent arrossegant-les des de la biblioteca o una altra llista, a sobre del nom de la llista destí, a la barra lateral. També podeu fer clic amb el botó dret sobre la pista a la :ref:`biblioteca <library-root>`."
 
 #: ../../source/chapters/library.rst:566
 msgid ""
@@ -1346,7 +1346,7 @@ msgstr "**Exporta la llista de reproducció**: Exporta la sessió a diferents fo
 
 #: ../../source/chapters/library.rst:754
 msgid "Analyze - Prepare your tracks"
-msgstr ""
+msgstr "Analitza - Prepara les pistes"
 
 #: ../../source/chapters/library.rst:756
 msgid ""
@@ -1354,7 +1354,7 @@ msgid ""
 "into a deck. Analyzing tracks requires considerably CPU power and may cause "
 "skips in the audio while performing, so it helps to have your tracks "
 "analyzed before you play. See :ref:`library-analyze` for details."
-msgstr ""
+msgstr "Aquesta secció permet analitzar les pistes per avançat. L'anàlisi de les pistes utilitza força temps de CPU i podria causar salts en l'àudio durant una sessió, de manera que és preferible tenir les pistes analitzades abans de reproduïr-les. Consulteu :ref:`library-analyze` per a més informació."
 
 #: ../../source/chapters/library.rst:765
 msgid "iTunes, Traktor, Rhythmbox, Banshee - Using external libraries"

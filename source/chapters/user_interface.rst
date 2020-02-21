@@ -20,7 +20,7 @@ Mixxx and describe its elements, knobs and faders.
    The Mixxx interface - Latenight skin
 
 This is the Latenight skin. It is the default skin supplied with Mixxx. There
-are a variety of others skins included with Mixxx. You should explore them all
+are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Latenight only.
 
 .. _interface-decks:
@@ -80,10 +80,6 @@ Track Information Display
             information.
 
 **Time Elapsed/Remaining/Both**
-
-  .. versionadded:: 2.1.0
-     Option to show elapsed and remaining time simultaneously
-
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
   which indicates how much time is left before the track reaches the end.
@@ -117,7 +113,7 @@ visually by aligning the beats that appear in each waveform.
 
    Mixxx default skin (Latenight) - Parallel waveforms
 
-Depending on the skin Mixxx displays either parallel waveforms (default) or
+Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
@@ -147,10 +143,6 @@ separate waveforms. Select your preferred appearance in
              Waveforms --> Summary type`.
 
 **Waveform overview**
-
-  .. versionadded:: 2.1.0
-     Darken played part of track in decks and samplers
-
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
   useful because they allow DJs to see breakdowns far in advance. As visual aid,
@@ -660,8 +652,6 @@ Playing Hotcues
 
 Hotcue labels
 ^^^^^^^^^^^^^
-
-.. versionadded:: 2.1.0
 
 You can add custom names to hotcues. Right-clicking on a selected track in the
 :ref:`track list <library-tracks>` reveals the context menu.

@@ -74,7 +74,7 @@ There are also some advanced options in the Midi Wizard you may need to use:
 The Controller wizard saves the new preset to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
-* macOS: :file:`/Users/<username>/Library/Application\ Support/Mixxx/controllers`
+* macOS: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
@@ -122,12 +122,12 @@ Depending on your system's language settings, Mixxx might use a different
 file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg`
 for Spanish.
 
-It is not recommended that you modify the system-wide keyboard mapping file because
-all your changes may be lost if you uninstall or upgrade Mixxx.
+It is not recommended that you modify the system-wide keyboard mapping file
+because all your changes may be lost if you uninstall or upgrade Mixxx.
 Instead, copy the default mapping file to the following location:
 
 * Linux: :file:`~/.mixxx/Custom.kbd.cfg`
-* macOS: :file:`~/Library/Application\ Support/Mixxx/Custom.kbd.cfg`
+* macOS: :file:`~/Library/Application\\ Support/Mixxx/Custom.kbd.cfg`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
 Then edit this file and save the changes. On the next startup, Mixxx will check

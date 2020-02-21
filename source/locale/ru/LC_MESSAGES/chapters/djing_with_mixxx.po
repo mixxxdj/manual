@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Alex Chubov <achubov@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Alex Chubov <achubov@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +20,12 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
-msgstr ""
+msgstr "Ди-джеинг с Mixxx"
 
 #: ../../source/chapters/djing_with_mixxx.rst:6
 msgid ""
 "Mixxx was designed to be easy to learn for both novice and experienced DJs."
-msgstr ""
+msgstr "Mixxx был разработан что бы быть лёгким в изучении как новичкам, так и опытным ди-джеем."
 
 #: ../../source/chapters/djing_with_mixxx.rst:8
 msgid ""
@@ -259,7 +260,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:221
 msgid "BitCrusher"
-msgstr ""
+msgstr "BitCrusher"
 
 #: ../../source/chapters/djing_with_mixxx.rst:230
 msgid "BitCrusher controls"
@@ -277,7 +278,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:236
 msgid "Adjusts the bit depth of the samples."
-msgstr ""
+msgstr "Регулирует глубину образцов."
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "**Downsampling**"
@@ -285,11 +286,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "Adjusts the sample rate, to which the signal is downsampled."
-msgstr ""
+msgstr "Регулирует частоту дискретизации, какой сигнал является понижению разрешения."
 
 #: ../../source/chapters/djing_with_mixxx.rst:244
 msgid "Filter"
-msgstr ""
+msgstr "Фильтр"
 
 #: ../../source/chapters/djing_with_mixxx.rst:253
 msgid "Filter controls"
@@ -299,7 +300,7 @@ msgstr ""
 msgid ""
 "The filter changes the tone of the music by allowing only high or low "
 "frequencies to pass through."
-msgstr ""
+msgstr "Фильтр меняет тон музыки, позволяя только высокие или низкие частоты пройти."
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "**LPF**"
@@ -307,7 +308,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "Corner frequency ratio of the low pass filter"
-msgstr ""
+msgstr "Фильтр угловой частоты соотношение низких частот"
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "**Q**"
@@ -315,7 +316,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "Resonance of the filters, default = Flat top"
-msgstr ""
+msgstr "Резонансные фильтры, по умолчанию = плоский верх"
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "**HPF**"
@@ -323,11 +324,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "Corner frequency ratio of the high pass filter"
-msgstr ""
+msgstr "Угловые соотношения частот высокой проходят фильтр"
 
 #: ../../source/chapters/djing_with_mixxx.rst:270
 msgid "Reverb"
-msgstr ""
+msgstr "Реверберации"
 
 #: ../../source/chapters/djing_with_mixxx.rst:278
 msgid "Reverb controls"
@@ -349,7 +350,7 @@ msgstr ""
 msgid ""
 "Higher bandwidth values cause more bright (high-frequency) tones to be "
 "included"
-msgstr ""
+msgstr "Более высокие значения пропускной способности вызывать более яркие тона (высокочастотные) быть включены"
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "**Damping**"
@@ -357,7 +358,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "Higher damping values cause reverberations to die out more quickly."
-msgstr ""
+msgstr "Высокие значения затухания вызвать отголоски умереть более быстро."
 
 #: ../../source/chapters/djing_with_mixxx.rst:293
 msgid "This effect is not available in the Mac App Store version of Mixxx."
@@ -365,7 +366,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:298
 msgid "Echo"
-msgstr ""
+msgstr "Эхо"
 
 #: ../../source/chapters/djing_with_mixxx.rst:307
 msgid "Echo controls"
@@ -373,7 +374,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:309
 msgid "Simple Echo with pingpong"
-msgstr ""
+msgstr "Простые эхо с pingpong"
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "**Send**"
@@ -381,7 +382,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "How much of the signal to send into the delay buffer"
-msgstr ""
+msgstr "Сколько из сигнала для отправки в буфер задержки"
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "**Delay**"
@@ -389,7 +390,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "Delay time (seconds)"
-msgstr ""
+msgstr "Время задержки (в секундах)"
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "**Feedback**"
@@ -397,7 +398,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "Amount the echo fades each time it loops"
-msgstr ""
+msgstr "Сумма эхо исчезает каждый раз, когда он петли"
 
 #: ../../source/chapters/djing_with_mixxx.rst:322
 msgid "**PingPong**"
@@ -407,7 +408,7 @@ msgstr ""
 msgid ""
 "As the ping-pong amount increases, increasing amounts of the echoed signal "
 "is bounced between the left and right speakers."
-msgstr ""
+msgstr "Как Настольный теннис сумма увеличивается, увеличивая количество отражение сигнала является отскочил между левой и правой колонки."
 
 #: ../../source/chapters/djing_with_mixxx.rst:327
 msgid "Recording Your Mix"

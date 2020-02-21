@@ -14,6 +14,7 @@
 
 import sys
 import os
+import sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,6 +32,7 @@ import os
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.graphviz',
+    'sphinx_rtd_theme',
 ]
 
 todo_include_todos = True
@@ -49,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Mixxx'
-copyright = u'2011-2018, The Mixxx Development Team'
+copyright = u'2011-2020, The Mixxx Development Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -114,12 +116,21 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'mixxx'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
+
+# Enable "Edit on GitHub" links.
+html_context = {
+    "display_github": True,
+    "github_user": "mixxxdj",
+    "github_repo": "manual",
+    "github_version": "manual-2.2.x",
+    "conf_py_path": "/source/",
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['themes']
@@ -133,7 +144,7 @@ html_title = "Mixxx User Manual"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "_static/mixxx_logo_color_230px.png"
+html_logo = "_static/mixxx-icon-logo-symbolic.svg"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -144,6 +155,15 @@ html_favicon = "_static/favicon.ico"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/mixxx.css',
+    'css/widget-sidebar.css',
+]
+
+html_js_files = [
+    'js/widget-sidebar.js',
+]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -159,7 +179,9 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': ['download.html'],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -286,7 +308,7 @@ texinfo_documents = [
 epub_title = u'Mixxx User Manual'
 epub_author = u'The Mixxx Development Team'
 epub_publisher = u'The Mixxx Development Team'
-epub_copyright = u'2011-2018, The Mixxx Development Team'
+epub_copyright = u'2011-2020, The Mixxx Development Team'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Mixxx'

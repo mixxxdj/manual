@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-25 17:11+0000\n"
-"Last-Translator: Josep Maria Antolin Segura <josepma@gmail.com>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +92,7 @@ msgid ""
 "Beatgrids are used for advanced mixing functions such as track :term:`sync`,"
 " precise effects synchronization, looping and accurate :term:`BPM` "
 "representation."
-msgstr "Una serie de marques que indiquen la localització dels tocs de compàs en la pista. Les graelles de ritme s'utiltizen per a funcions de mescla avançades com la :term:`sincronització <sync>`, efectes precisos de sincronització, bucles i representació acurada de :term:`BPM`."
+msgstr "Una serie de marques que indiquen la localització dels tocs de compàs en la pista. Les graelles de ritme s'utilitzen per a funcions de mescla avançades com la :term:`sincronització <sync>`, efectes precisos de sincronització, bucles i representació acurada de :term:`BPM`."
 
 #: ../../source/glossary.rst:79
 msgid "beatmatching"
@@ -176,7 +176,7 @@ msgstr "Abreviació de codificador/descodificador. Un codec és qualsevol algori
 
 #: ../../source/glossary.rst:102
 msgid "controller"
-msgstr ""
+msgstr "controladora"
 
 #: ../../source/glossary.rst:104
 msgid ""
@@ -187,7 +187,7 @@ msgid ""
 " but some controllers use :term:`HID` signals. Many DJs prefer to control DJ"
 " software using physical knobs, faders, and wheels on controllers instead of"
 " using a computer keyboard and mouse."
-msgstr ""
+msgstr "Un dispositiu extern que genera i transmet senyals a un ordinador, generalment per USB, per a controlar l'aplicació utilitzant els controls físics, en comptes del ratolí i el teclat. Les controladores tenen moltes utilitats per a la música, com el control d'aplicacions de DJ com el Mixxx. Moltes controladores envien senyals :term:`MIDI`, però algunes envien senyals :term:`HID`. Molts DJ prefereixen utilitzar les aplicacions amb les rodetes i controls lliscants físics d'aquestes controladores, i no haver d'utilitzar el teclat i el ratolí."
 
 #: ../../source/glossary.rst:11
 msgid "crossfader"
@@ -339,7 +339,7 @@ msgid ""
 " a user interface based on graphics (icons, pictures and menus) instead of "
 "text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID` "
 ":term:`controllers <controller>` as input devices."
-msgstr ""
+msgstr "Diminutiu de “Graphical User Interface”, que vol dir Interfície gràfica d'usuari. Es tracta del tipus d'interfície que utilitza icones, imatges i menús en comptes de text. El Mixxx es pot utilitzar amb el teclat, el ratolí o amb :term:`controladores <controller>` :term:`MIDI` o :term:`HID`."
 
 #: ../../source/glossary.rst:54
 msgid "head/mix button"
@@ -382,7 +382,7 @@ msgid ""
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
-msgstr ""
+msgstr "Diminutiu de Human Interface Device, que vol dir dispositiu d'interfície humana, i forma part de la especificació USB. És una classe de dispositiu pensada per a dispositius per a l'ús per persones, com són el teclat, el ratolí, comandaments de jocs o les :term:`controladores <controller>` de DJ."
 
 #: ../../source/glossary.rst:328
 msgid "hotcue"
@@ -473,7 +473,7 @@ msgstr "LAME"
 msgid ""
 "LAME is a free software :term:`codec` used to encode/compress audio into the"
 " :term:`lossy` :term:`MP3` file format."
-msgstr "El LAME és un :term:`codificador <codec>` que s'utiltiza per codificar l'audio al format :term:`MP3`, que és :term:`amb pèrdues <lossy>`."
+msgstr "El LAME és un :term:`codificador <codec>` que s'utilitza per codificar l'audio al format :term:`MP3`, que és :term:`amb pèrdues <lossy>`."
 
 #: ../../source/glossary.rst:164
 msgid "latency"
@@ -489,7 +489,7 @@ msgstr "La latència és el petit retard (mesurat habitualment en milisegons) en
 
 #: ../../source/glossary.rst:175
 msgid "level meter"
-msgstr ""
+msgstr "Monitor de nivell"
 
 #: ../../source/glossary.rst:177
 msgid ""
@@ -498,7 +498,7 @@ msgid ""
 "parts of the music (the transients) briefly going into the yellow region. If"
 " the level meter is in the red, the signal is clipping and the gain should "
 "be turned down."
-msgstr ""
+msgstr "El monitor de nivell s'utilitza per visualitzar la intensitat de la senyal d'audio. El nivell hauria d'estar al voltant de la part superior de la zona verda, passant a la zona groga només de tant en tant. Si el nivell arriba a la zona vermella, la senyal està saturant i hauríeu de reduïr el guany. "
 
 #: ../../source/glossary.rst:204
 msgid "lossless"
@@ -518,7 +518,7 @@ msgstr "En anglès lossy o amb pèrdues"
 msgid ""
 "Used when describing audio compression algorithms, a lossy algorithm is one "
 "which results in a loss in audio quality when used."
-msgstr "Utiltizat quan es descriu un algorismes de codificació d'audio, el terme amb pèrdues fa referència a aquell que resulta en una pèrdua, perceptible o no, de la qualitat de l'audio."
+msgstr "Utilitzat quan es descriu un algorismes de codificació d'audio, el terme amb pèrdues fa referència a aquell que resulta en una pèrdua, perceptible o no, de la qualitat de l'audio."
 
 #: ../../source/glossary.rst:15
 msgid "master output"
@@ -555,7 +555,7 @@ msgid ""
 "instruments, sequencers, computers, etc., to communicate with each other in "
 "a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
 "with computers."
-msgstr ""
+msgstr "Diminutiu de Musical Instrument Digital Interface, que vol dir Interfície digital per a instruments musicals. És un llenguatge de comunicació i una especificació de maquinari que permet la comunicació entre instruments electrònics, seqüenciadors i ordinadors entre altres. Moltes :term:`controladores <controller>` DJ utilitzen el llenguatge MIDI."
 
 #: ../../source/glossary.rst:212
 msgid "MP3"
@@ -807,7 +807,7 @@ msgid ""
 "Used here in conjunction with :term:`vinyl control`. A special audio signal "
 "on a control vinyl or control CD (timecode media) that a computer can listen"
 " to in order to determine speed, direction and position of the playback."
-msgstr "Utilitzant conjuntament amb el terme :term:`control de vinil <vinyl control>`. Es tracta d'una senyal d'audio especial que tenen alguns vinils i CDs que un ordinador o reproductor pot interpretar per tal de determinar la velocitat, direcció i posició de la reproducció."
+msgstr "Utilitzat conjuntament amb el terme :term:`control de vinil <vinyl control>`. Es tracta d'una senyal d'audio especial que tenen alguns vinils i CDs que un ordinador o reproductor pot interpretar per tal de determinar la velocitat, direcció i posició de la reproducció."
 
 #: ../../source/glossary.rst:61
 msgid "track"
@@ -850,7 +850,7 @@ msgid ""
 "A term that refers to the degree of sound intensity or audibility; loudness."
 " Volume is determined by people's perception and does not directly "
 "correspond to any physical property of sound."
-msgstr ""
+msgstr "Un terme que indica el grau d'intensitat de l'àudio. La percepció de cada persona determina el volum i no es correspon directament a una propietat física del so."
 
 #: ../../source/glossary.rst:235
 msgid "WAV"

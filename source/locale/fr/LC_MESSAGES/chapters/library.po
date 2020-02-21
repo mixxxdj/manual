@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Cajetan Bouchard <cajetan.bouchard@gmail.com>, 2015
+# Damien <damien.bernard@openmailbox.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2018-01-24 18:13+0000\n"
+"Last-Translator: Damien <damien.bernard@openmailbox.org>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +21,11 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:6 ../../source/chapters/library.rst:21
 msgid "The Mixxx Library"
-msgstr ""
+msgstr "La Bibliothèque de Mixxx"
 
 #: ../../source/chapters/library.rst:9
 msgid "Overview of the Library features"
-msgstr ""
+msgstr "Vue d'ensemble des fonctionnalités de la Bibliothèque"
 
 #: ../../source/chapters/library.rst:23
 msgid ""
@@ -32,17 +34,17 @@ msgid ""
 "or :ref:`sampler <interface-sampler>`; see :ref:`djing-loading-tracks`. "
 "Mixxx imports your music library automatically when it is run for the first "
 "time, see :ref:`djing-import` for more information."
-msgstr ""
+msgstr "La bibliothèque gère tous vos fichiers de musique. C'est là que vous pouvez trouver les pistes que vous voulez lire et les charger dans une :ref:`platine <interface-decks>` ou un :ref:`sampler <interface-sampler>`; voir :ref:`djing-loading-tracks`. Mixxx importe votre bibliothèque de musique automatiquement quand il est lancé pour la première fois, voir :ref:`djing-import` pour plus d'informations. "
 
 #: ../../source/chapters/library.rst:29
 msgid ""
 "The sidebar on the left contains different collections of music. The track "
 "list view on the right displays the tracks in those collections."
-msgstr ""
+msgstr "La barre latérale sur la gauche contient différentes collections de musique. La vue de liste de pistes sur la droite affiche les pistes dans ces collections."
 
 #: ../../source/chapters/library.rst:32
 msgid "**Sidebar**:"
-msgstr ""
+msgstr "**Barre latérale**:"
 
 #: ../../source/chapters/library.rst:34
 msgid "**Search**: Search for tracks in your Mixxx library."
@@ -397,7 +399,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:194
 msgid "Missing Tracks"
-msgstr ""
+msgstr "Pistes manquantes"
 
 #: ../../source/chapters/library.rst:200
 msgid ""
@@ -415,7 +417,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:209 ../../source/chapters/library.rst:229
 msgid "**Select All button**: Selects all tracks in the current view."
-msgstr ""
+msgstr "**Bouton Tout Sélectionner**: Sélectionne toutes les pistes dans la vue actuelle."
 
 #: ../../source/chapters/library.rst:210
 msgid ""
@@ -426,7 +428,7 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:215
 msgid "Hidden Tracks"
-msgstr ""
+msgstr "Pistes masquées"
 
 #: ../../source/chapters/library.rst:221
 msgid ""
@@ -551,7 +553,7 @@ msgstr "Utiliser des opérateurs de recherche"
 msgid ""
 "Search operators allow you to form more complex search queries. They allow "
 "you to limit certain search terms to particular properties of your tracks."
-msgstr "Les opérateurs de recherche vous permettent de formuler des recherches plus précises. Ils vous permettent de limiter certains termes de recherche à des à des propriétés particulières de vos pistes."
+msgstr "Les opérateurs de recherche vous permettent de formuler des recherches plus précises. Ils vous permettent de limiter certains termes de recherche à des propriétés particulières de vos pistes."
 
 #: ../../source/chapters/library.rst:298
 msgid ""
@@ -616,51 +618,51 @@ msgstr ""
 
 #: ../../source/chapters/library.rst:339
 msgid "bpm:140"
-msgstr ""
+msgstr "bpm:140"
 
 #: ../../source/chapters/library.rst:339
 msgid "duration:2m10"
-msgstr ""
+msgstr "duration:2m10"
 
 #: ../../source/chapters/library.rst:341
 msgid "album:Danger"
-msgstr ""
+msgstr "album:Danger"
 
 #: ../../source/chapters/library.rst:341
 msgid "bpm: >140"
-msgstr ""
+msgstr "bpm:>140"
 
 #: ../../source/chapters/library.rst:341
 msgid "duration:<2:10"
-msgstr ""
+msgstr "duration:<2:10"
 
 #: ../../source/chapters/library.rst:343
 msgid "genre: Trance"
-msgstr ""
+msgstr "genre:Trance"
 
 #: ../../source/chapters/library.rst:343
 msgid "year: <2010"
-msgstr ""
+msgstr "year:<2010"
 
 #: ../../source/chapters/library.rst:343
 msgid "duration:>1m35s"
-msgstr ""
+msgstr "duration:>1m35s"
 
 #: ../../source/chapters/library.rst:345
 msgid "title: foo"
-msgstr ""
+msgstr "titre: foo"
 
 #: ../../source/chapters/library.rst:345
 msgid "bpm: >=140"
-msgstr ""
+msgstr "bpm:>=140"
 
 #: ../../source/chapters/library.rst:345
 msgid "duration:>62"
-msgstr ""
+msgstr "duration:>62"
 
 #: ../../source/chapters/library.rst:347
 msgid "composer: foo"
-msgstr ""
+msgstr "compositeur: foo"
 
 #: ../../source/chapters/library.rst:347
 msgid "rating: <=4"

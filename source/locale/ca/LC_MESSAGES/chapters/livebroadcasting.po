@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Josep Maria Antolin Segura <josepma@gmail.com>, 2015
+# Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 16:13+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +77,7 @@ msgstr "Per a usuaris experimentats, pot ser interessant muntar el vostre propi 
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an local streaming "
 "server"
-msgstr "El Mixxx com a font d'emissió, utiltizant un servidor d'emissió local"
+msgstr "El Mixxx com a font d'emissió, utilitzant un servidor d'emissió local"
 
 #: ../../source/chapters/livebroadcasting.rst:74
 msgid "Configuring Mixxx"
@@ -91,7 +91,7 @@ msgstr "Comenceu indicant al Mixxx la informació necessària per a connectar-se
 
 #: ../../source/chapters/livebroadcasting.rst:79
 msgid "Open :menuselection:`Preferences --> Live Broadcasting`."
-msgstr "Obriu :menuselection:`Preferències -> Emissió en viu`."
+msgstr "Obriu :menuselection:`Preferències --> Emissió en viu`."
 
 #: ../../source/chapters/livebroadcasting.rst:80
 msgid ""
@@ -107,7 +107,7 @@ msgstr "Feu clic a :guilabel:`Acceptar`"
 msgid ""
 "Go to :menuselection:`Options --> Enable Live Broadcasting` or use the :ref"
 ":`appendix-shortcuts` to start broadcasting."
-msgstr "Aneu a :menuselection:`Opcions -> Activa la emissió en viu` o utilitzen les :ref:`appendix-shortcuts` per a començar la emissió."
+msgstr "Aneu a :menuselection:`Opcions --> Activa la emissió en viu` o utilitzen les :ref:`appendix-shortcuts` per a començar la emissió."
 
 #: ../../source/chapters/livebroadcasting.rst:89
 msgid "Live Broadcasting Preferences"
@@ -138,7 +138,7 @@ msgid ""
 "**Login**: As provided by your streaming server provider. Without this, you "
 "will not connect successfully to the server. The default login for *Icecast*"
 " is ``source`` while the default login for Shoutcast is ``admin``."
-msgstr ""
+msgstr "**Usuari**: El que us proporcioni el servidor d'emissió. Sense ell no podreu connectar-vos al servidor amb èxit. L'usuari per defecte per a *Icecast* és ``source`` mentre que per a Shoutcast és ``admin``."
 
 #: ../../source/chapters/livebroadcasting.rst:109
 msgid ""
@@ -196,7 +196,7 @@ msgid ""
 "**Dynamically update Ogg Vorbis metadata**: Due to flaws in some streaming "
 "clients, updating Ogg Vorbis metadata dynamically can cause listener "
 "glitches and disconnections. Check this box to update the metadata anyway."
-msgstr "**Actualitza les metadades Ogg Vorbis dinàmicament**: Alguns reproductors que poden utiltizar els oients tenen errors que poden produïr salts d'àudio o desconnexions quan s'actualitzen les metadades Ogg Vorbis dinàmicament. Si això no és un problema, podeu activar aquest camp."
+msgstr "**Actualitza les metadades Ogg Vorbis dinàmicament**: Alguns reproductors que poden utilitzar els oients tenen errors que poden produïr salts d'àudio o desconnexions quan s'actualitzen les metadades Ogg Vorbis dinàmicament. Si això no és un problema, podeu activar aquest camp."
 
 #: ../../source/chapters/livebroadcasting.rst:138
 msgid "**Stream name**: So, what's the name of your show?"
@@ -233,7 +233,7 @@ msgid ""
 "**Format**: Mixxx supports streaming to Icecast servers either in "
 ":term:`MP3` or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is "
 "supported in :term:`MP3` format."
-msgstr "**Format**: El Mixxx permet emetre als servidors Icecast tant en format :term:`MP3` com en :term:`Ogg Vorbis`, mentre que per a servidors Shoutcast, només es pot utiltizar el format :term:`MP3`."
+msgstr "**Format**: El Mixxx permet emetre als servidors Icecast tant en format :term:`MP3` com en :term:`Ogg Vorbis`, mentre que per a servidors Shoutcast, només es pot utilitzar el format :term:`MP3`."
 
 #: ../../source/chapters/livebroadcasting.rst:154
 msgid "**Shoutcast metadata format**"
@@ -359,7 +359,7 @@ msgid ""
 "You may need to check your firewall settings. Both Icecast and Shoutcast use"
 " two ports. If you are streaming on a port (for example, port 8000) then you"
 " need to open up the next port (port 8001) as well."
-msgstr "Potser heu de canviar les opcions del tallafoc. Tant el Icecast com el Shoutcast utiltizen dos ports. Si emeteu pel un port (per exemple, el 8000), aleshores també heu d'obrir el port següent, (8001)."
+msgstr "Potser heu de canviar les opcions del tallafoc. Tant el Icecast com el Shoutcast utilitzen dos ports. Si emeteu pel un port (per exemple, el 8000), aleshores també heu d'obrir el port següent, (8001)."
 
 #: ../../source/chapters/livebroadcasting.rst:219
 msgid ""
@@ -406,7 +406,7 @@ msgid ""
 " you download matches the version of Mixxx that you use, not the version of "
 "Windows. If you are on 64bit Windows but are using 32bit Mixxx, you need the"
 " 32bit (“x86”) version of the LAME binaries."
-msgstr "La pàgina de descàrrega té versions per a 32-bits i 64-bits. Assegureu-vos de triar la versió que coincideixi amb la versió del Mixxx que utiltizeu, no pas la que tingui el Windows. És a dir, si el vostre Windows és de 64bits però utilitzeu el Mixxx de 32bits, aleshores necessiteu els binaris de LAME de 32bits (“x86”)."
+msgstr "La pàgina de descàrrega té versions per a 32-bits i 64-bits. Assegureu-vos de triar la versió que coincideixi amb la versió del Mixxx que utilitzeu, no pas la que tingui el Windows. És a dir, si el vostre Windows és de 64bits però utilitzeu el Mixxx de 32bits, aleshores necessiteu els binaris de LAME de 32bits (“x86”)."
 
 #: ../../source/chapters/livebroadcasting.rst:254
 msgid ""
@@ -426,7 +426,7 @@ msgid ""
 ":file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where you have "
 "installed Mixxx. Select :menuselection:`Help --> About` to find out your "
 "version of Mixxx."
-msgstr "**Només** si feu anar el Mixxx 1.11 o anteriors, **cal** que canvieu el nom de :file:`libmp3lame.dll` a :file:`lame_enc.dll` a la carpeta on heu instal·lat el Mixxx. Podeu consultar la versió del Mixx anant a :menuselection:`Ajuda --> Quant a`."
+msgstr "**Només** si feu anar el Mixxx 1.11 o anteriors, **cal** que canvieu el nom de :file:`libmp3lame.dll` a :file:`lame_enc.dll` a la carpeta on heu instal·lat el Mixxx. Podeu consultar la versió del Mixxx anant a :menuselection:`Ajuda --> Sobre el Mixxx`."
 
 #: ../../source/chapters/livebroadcasting.rst:263
 #: ../../source/chapters/livebroadcasting.rst:294

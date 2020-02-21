@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Russian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:74
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../source/glossary.rst:76
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:261
 msgid "kbps"
-msgstr ""
+msgstr "кбит/с"
 
 #: ../../source/glossary.rst:263
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:412
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../../source/glossary.rst:414
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:265
 msgid "ReplayGain"
-msgstr ""
+msgstr "Выравнивание громкости"
 
 #: ../../source/glossary.rst:267
 msgid ""
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:400
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../../source/glossary.rst:402
 msgid ""

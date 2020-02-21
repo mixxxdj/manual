@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Hakaii Sansei <liangwei.yee@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"PO-Revision-Date: 2017-09-20 09:04+0000\n"
+"Last-Translator: Hakaii Sansei <liangwei.yee@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:5
 msgid "Advanced Topics"
-msgstr ""
+msgstr "高级主题"
 
 #: ../../source/chapters/advanced_topics.rst:10
 msgid "Adding support for your MIDI/HID Controller"
@@ -65,7 +66,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:41
 msgid "Start Mixxx"
-msgstr ""
+msgstr "关于 Mixxx"
 
 #: ../../source/chapters/advanced_topics.rst:42
 msgid "Go to :menuselection:`Preferences --> Controllers`"
@@ -188,7 +189,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:93
 msgid "MIDI Scripting"
-msgstr ""
+msgstr "MIDI 脚本"
 
 #: ../../source/chapters/advanced_topics.rst:95
 msgid ""
@@ -427,7 +428,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:226
 msgid "Deleting Your Library"
-msgstr ""
+msgstr "删除您的音乐库"
 
 #: ../../source/chapters/advanced_topics.rst:228
 msgid ""
@@ -437,7 +438,7 @@ msgstr ""
 
 #: ../../source/chapters/advanced_topics.rst:235
 msgid "**Windows**"
-msgstr ""
+msgstr "Windows 系统"
 
 #: ../../source/chapters/advanced_topics.rst:232
 msgid ""

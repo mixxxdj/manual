@@ -89,13 +89,9 @@ Tracks - View and edit your whole collection
 
   * **Random sorting**
 
-    .. versionadded:: 2.1.0
-
     Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
   * **Sort keys by circle of fifths**
-
-    .. versionadded:: 2.1.0
 
     Click on the :guilabel:`Key` column header.
     The order starts with *C* at the top, then its relative minor (*a*), then
@@ -138,7 +134,8 @@ Tracks - View and edit your whole collection
 
     1. The first image saved in the track's ID3v2/Vorbis :term:`tags<metadata>`
     2. An image file in the track folder (if there is only one image file there.)
-    3. :file:`%track-file-base%.jpg` in the track directory for :file:`%track-file-base%.mp3`
+    3. :file:`%track-file-base%.jpg` in the track directory for
+       :file:`%track-file-base%.mp3`
     4. :file:`%album%.jpg`
     5. :file:`cover.jpg`
     6. :file:`front.jpg`
@@ -154,17 +151,19 @@ Tracks - View and edit your whole collection
   prompt an automatic rescan when Mixxx is started under
   :menuselection:`Preferences --> Library --> Rescan on startup`.
 
+  Rescanning the library will add new files to the library and mark tracks
+  as missing if the corresponding file has been deleted. It tries to detect
+  and relocate missing tracks if files have been renamed or moved into another
+  directory.
+
+  Automatically refreshing the metadata of tracks when files have been modified
+  by an external application is not supported, yet. In this case you need to
+  select the affected tracks and (re-)import their metadata from file tags.
+
 Track list context menu
 -----------------------
 
 Right-clicking on selected tracks in the track list reveals the context menu:
-
-  .. versionadded:: 2.1.0
-
-     * Add options to replace AutoDJ queue, clear waveforms
-     * Use checkbox menu in Crates selection
-     * Add BPM conversions 133,33% and 150%
-     * Re-organize context menu
 
 * **Add to Auto DJ**: Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
@@ -174,7 +173,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Load to**:
   Loads a selected file to one of the available
   :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
-  :ref:`Previewdeck <interface-preview-deck>`. Alternatively
+  :ref:`Preview Deck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. The number of available decks
   and samplers might differ, depending on the selected skin. Note that you
   can't load multiple files at once.
@@ -366,7 +365,7 @@ Mixxx supports the following filters:
 
 * **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
-  * Supports fuzzy matching of key searches. The following example list tracks
+  * Supports fuzzy matching of key searches. The following example lists tracks
     with harmonically compatible keys to C# minor.
 
     ::
@@ -374,7 +373,7 @@ Mixxx supports the following filters:
        ~key:c#m
 
     You can combine operators but there's no way to do an “OR” search right now.
-    The following example list all tracks by “Danger” over 3 minutes long that
+    The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
 
     ::
@@ -432,8 +431,8 @@ Alternatively, select a track from the track list of the Mixxx library, drag the
 track to the waveform view of the :ref:`Preview Deck <interface-preview-deck>`
 and click the :guilabel:`Play` button next to the waveform.
 
-To display the Preview deck, press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or
-:kbd:`CMD` + :kbd:`4` (Mac).
+To display the :ref:`Preview Deck <interface-preview-deck>`,
+press :kbd:`CTRL` + :kbd:`4` (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac).
 
 .. hint:: Click on the :guilabel:`Preview` column header to randomly sort tracks.
 
@@ -445,10 +444,6 @@ Edit metadata of audio files
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. versionadded:: 2.1
-
-   Option to write audio tags back into files
-
 Mixxx reads relevant :term:`metadata` from the tracks and displays them in the
 library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
@@ -457,7 +452,7 @@ as bitrate, size, length, type, filename, and location.
 .. note:: Mixxx does not support editing the metadata of many tracks at a time
           (bulk editing).
 
-.. warning:: Mixxx wont touch your audio files by default. Changes to a track's
+.. warning:: Mixxx won't touch your audio files by default. Changes to a track's
              metadata will be saved to the Mixxx library, but **not** to the
              track itself.
 
@@ -511,7 +506,7 @@ Manual Edit
 Using the MusicBrainz online database
 -------------------------------------
 
-`Musicbrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
+`MusicBrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music
 encyclopedia that collects music :term:`metadata` and makes it available to the
 public.
 
@@ -540,7 +535,7 @@ Select the best match from the search results by clicking on it in the list.
 
 Fetching track metadata from MusicBrainz can fail:
   * if Mixxx is unable to find the specified track in the MusicBrainz database,
-  * if Mixxx cannot reach the MusicBrainz servers (if they are down,)
+  * if Mixxx cannot reach the MusicBrainz servers (if they are down),
   * or if you are not connected to the Internet.
 
 .. hint:: The MusicBrainz service has been designed for identifying full audio
@@ -574,9 +569,6 @@ controls for automatic mixing. This is useful when taking a break from live
 mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
-
-.. versionadded:: 2.1
-   Selection Info label
 
 * **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
 * **Add Random button**: Adds a random track from track sources (crates) to the
@@ -817,8 +809,8 @@ view, then right-click on a session's name/date to access the different features
 * **Create new history playlist**: Split off the current history session and
   add a new session without having to restart Mixxx. The current history must
   contain at least one track for this option to be available.
-* **Join with previous**: Append the selected history session to the end of the previous
-  one.
+* **Join with previous**: Append the selected history session to the end of the
+  previous one.
 * **Export playlist**: Export a session in various file formats. This allows you
   to use the data in other applications.
 

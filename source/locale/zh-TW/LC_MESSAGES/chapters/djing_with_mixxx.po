@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:193
 msgid "Flanger"
-msgstr ""
+msgstr "鑲邊"
 
 #: ../../source/chapters/djing_with_mixxx.rst:202
 msgid "Flanger controls"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:221
 msgid "BitCrusher"
-msgstr ""
+msgstr "BitCrusher"
 
 #: ../../source/chapters/djing_with_mixxx.rst:230
 msgid "BitCrusher controls"
@@ -277,7 +277,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:236
 msgid "Adjusts the bit depth of the samples."
-msgstr ""
+msgstr "調整樣品的位深度。"
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "**Downsampling**"
@@ -285,11 +285,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "Adjusts the sample rate, to which the signal is downsampled."
-msgstr ""
+msgstr "調整取樣速率，信號是縮減圖元採樣。"
 
 #: ../../source/chapters/djing_with_mixxx.rst:244
 msgid "Filter"
-msgstr ""
+msgstr "篩選器"
 
 #: ../../source/chapters/djing_with_mixxx.rst:253
 msgid "Filter controls"
@@ -299,7 +299,7 @@ msgstr ""
 msgid ""
 "The filter changes the tone of the music by allowing only high or low "
 "frequencies to pass through."
-msgstr ""
+msgstr "篩選器通過僅允許高或低的頻率，通過改變了音樂的基調。"
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "**LPF**"
@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "Corner frequency ratio of the low pass filter"
-msgstr ""
+msgstr "角頻率比的低通濾波器"
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "**Q**"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "Resonance of the filters, default = Flat top"
-msgstr ""
+msgstr "共振濾光片，預設 = 平頂"
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "**HPF**"
@@ -323,11 +323,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "Corner frequency ratio of the high pass filter"
-msgstr ""
+msgstr "高角頻率比高通濾波器"
 
 #: ../../source/chapters/djing_with_mixxx.rst:270
 msgid "Reverb"
-msgstr ""
+msgstr "混響"
 
 #: ../../source/chapters/djing_with_mixxx.rst:278
 msgid "Reverb controls"
@@ -349,7 +349,7 @@ msgstr ""
 msgid ""
 "Higher bandwidth values cause more bright (high-frequency) tones to be "
 "included"
-msgstr ""
+msgstr "高頻寬值會導致更多明亮的 （高頻） 音調要包括"
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "**Damping**"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "Higher damping values cause reverberations to die out more quickly."
-msgstr ""
+msgstr "高阻尼值會導致很快死了更多的迴響。"
 
 #: ../../source/chapters/djing_with_mixxx.rst:293
 msgid "This effect is not available in the Mac App Store version of Mixxx."
@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:298
 msgid "Echo"
-msgstr ""
+msgstr "回聲"
 
 #: ../../source/chapters/djing_with_mixxx.rst:307
 msgid "Echo controls"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:309
 msgid "Simple Echo with pingpong"
-msgstr ""
+msgstr "簡單的回顯用乒乓球"
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "**Send**"
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "How much of the signal to send into the delay buffer"
-msgstr ""
+msgstr "多少的信號送入延遲緩衝"
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "**Delay**"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "Delay time (seconds)"
-msgstr ""
+msgstr "延遲時間 （秒）"
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "**Feedback**"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "Amount the echo fades each time it loops"
-msgstr ""
+msgstr "量回聲消失它迴圈每次"
 
 #: ../../source/chapters/djing_with_mixxx.rst:322
 msgid "**PingPong**"
@@ -407,7 +407,7 @@ msgstr ""
 msgid ""
 "As the ping-pong amount increases, increasing amounts of the echoed signal "
 "is bounced between the left and right speakers."
-msgstr ""
+msgstr "隨著乒乓球量的增加，越來越多的迴響信號之間的左和右的擴音器反彈。"
 
 #: ../../source/chapters/djing_with_mixxx.rst:327
 msgid "Recording Your Mix"

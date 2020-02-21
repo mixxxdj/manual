@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-11-25 12:38+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:193
 msgid "Flanger"
-msgstr ""
+msgstr "Flanger"
 
 #: ../../source/chapters/djing_with_mixxx.rst:202
 msgid "Flanger controls"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:221
 msgid "BitCrusher"
-msgstr ""
+msgstr "BitCrusher"
 
 #: ../../source/chapters/djing_with_mixxx.rst:230
 msgid "BitCrusher controls"
@@ -277,7 +277,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:236
 msgid "Adjusts the bit depth of the samples."
-msgstr ""
+msgstr "Ajusta la profundidad de bits de las muestras."
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "**Downsampling**"
@@ -285,11 +285,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:239
 msgid "Adjusts the sample rate, to which the signal is downsampled."
-msgstr ""
+msgstr "Ajusta la frecuencia de muestreo, que es la señal disminuirá."
 
 #: ../../source/chapters/djing_with_mixxx.rst:244
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: ../../source/chapters/djing_with_mixxx.rst:253
 msgid "Filter controls"
@@ -299,7 +299,7 @@ msgstr ""
 msgid ""
 "The filter changes the tone of the music by allowing only high or low "
 "frequencies to pass through."
-msgstr ""
+msgstr "El filtro cambia el tono de la música que sólo permite alta o bajas frecuencias para pasar a través."
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "**LPF**"
@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:259
 msgid "Corner frequency ratio of the low pass filter"
-msgstr ""
+msgstr "Relación de frecuencia de esquina del bajo filtro de paso"
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "**Q**"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:262
 msgid "Resonance of the filters, default = Flat top"
-msgstr ""
+msgstr "Resonancia de los filtros por defecto = Flat top"
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "**HPF**"
@@ -323,11 +323,11 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:265
 msgid "Corner frequency ratio of the high pass filter"
-msgstr ""
+msgstr "Relación de frecuencia de esquina del alto filtro de paso"
 
 #: ../../source/chapters/djing_with_mixxx.rst:270
 msgid "Reverb"
-msgstr ""
+msgstr "Reverb"
 
 #: ../../source/chapters/djing_with_mixxx.rst:278
 msgid "Reverb controls"
@@ -349,7 +349,7 @@ msgstr ""
 msgid ""
 "Higher bandwidth values cause more bright (high-frequency) tones to be "
 "included"
-msgstr ""
+msgstr "Valores de ancho de banda más altos causan más brillante tonos (alta frecuencia) que se incluirán"
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "**Damping**"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:291
 msgid "Higher damping values cause reverberations to die out more quickly."
-msgstr ""
+msgstr "Valores mayores de amortiguamiento provocan reverberaciones a morir más rápidamente."
 
 #: ../../source/chapters/djing_with_mixxx.rst:293
 msgid "This effect is not available in the Mac App Store version of Mixxx."
@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:298
 msgid "Echo"
-msgstr ""
+msgstr "Eco"
 
 #: ../../source/chapters/djing_with_mixxx.rst:307
 msgid "Echo controls"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:309
 msgid "Simple Echo with pingpong"
-msgstr ""
+msgstr "Simple Echo con ping-pong"
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "**Send**"
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:312
 msgid "How much of the signal to send into the delay buffer"
-msgstr ""
+msgstr "Cuánto de la señal a enviar en el búfer de retardo"
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "**Delay**"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:315
 msgid "Delay time (seconds)"
-msgstr ""
+msgstr "Tiempo de retardo (segundos)"
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "**Feedback**"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/chapters/djing_with_mixxx.rst:318
 msgid "Amount the echo fades each time it loops"
-msgstr ""
+msgstr "Cantidad el eco desvanece cada vez coloca"
 
 #: ../../source/chapters/djing_with_mixxx.rst:322
 msgid "**PingPong**"
@@ -407,7 +407,7 @@ msgstr ""
 msgid ""
 "As the ping-pong amount increases, increasing amounts of the echoed signal "
 "is bounced between the left and right speakers."
-msgstr ""
+msgstr "A medida que aumenta la cantidad de ping pong, cantidades crecientes de la señal de eco se rebotó entre los altavoces izquierdos y derecho."
 
 #: ../../source/chapters/djing_with_mixxx.rst:327
 msgid "Recording Your Mix"

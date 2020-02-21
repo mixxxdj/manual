@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2015-11-24 12:15+0000\n"
+"PO-Revision-Date: 2017-09-20 09:37+0000\n"
 "Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
 "Language-Team: Finnish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:26
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../../source/chapters/appendix.rst:28
 msgid "Crossfade Right"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:38
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../source/chapters/appendix.rst:38
 msgid "N"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:46
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../source/chapters/appendix.rst:46
 msgid "L"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:48
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/chapters/appendix.rst:48
 msgid "J"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:78
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../source/chapters/appendix.rst:78
 msgid ";"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:86
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../../source/chapters/appendix.rst:86
 msgid "O"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../source/chapters/appendix.rst:98
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/chapters/appendix.rst:98
 msgid "."
