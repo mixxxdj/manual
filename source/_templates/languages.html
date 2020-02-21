@@ -6,7 +6,7 @@
 <div class="rst-widget-body">
   <dl>
     <dt>{{ _('Read this page in another language') }}</dt>
-      {%- for langcode, langname in supported_languages.items() %}
+      {%- for langcode, langname in supported_languages %}
       <dd>
         <a href="{{ pathto('/'.join(('..', langcode, pagename + '.html')), 1)|e }}">
          {{ langname }}

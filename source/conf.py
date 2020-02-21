@@ -163,7 +163,7 @@ html_context = {
     "github_version": "manual-2.2.x",
     "conf_py_path": "/source/",
     "language": language,
-    "supported_languages": supported_languages,
+    "supported_languages": list(sorted(supported_languages.items(), key=lambda x: x[1])),
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
