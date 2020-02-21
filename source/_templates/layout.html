@@ -1,0 +1,20 @@
+{% extends "!layout.html" %}
+{% block content %}
+{% if current_version and latest_version and current_version != latest_version %}
+<div class="rst-content">
+  <div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>
+      {% if current_version.is_released %}
+      You're reading an old version of this manual.
+      If you want up-to-date information, please have a look at the manual for <a href="{{ vpathto(latest_version.name) }}">version {{latest_version.version}}</a>.
+      {% else %}
+      You're reading the manual for a development version of Mixxx.
+      For the latest released version, please have a look at <a href="{{ vpathto(latest_version.name) }}">version {{latest_version.version}}</a>.
+      {% endif %}
+    </p>
+  </div>
+</div>
+{% endif %}
+{{ super() }}
+{% endblock %}%
