@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Mixxx |version| User Manual"
 msgstr ""
 
 #: ../../index.rst:11
-msgid "Mixxx is a `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for Windows, macOS and Linux. It's easy to use, even if you've never DJed. Mixxx offers a variety of features to help beginners get started and help experienced DJs get creative:"
+msgid "Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for Windows, macOS and Linux. It's easy to use, even if you've never DJed. Mixxx offers a variety of features to help beginners get started and help experienced DJs get creative:"
 msgstr ""
 
 #: ../../index.rst:16
@@ -55,4 +55,3 @@ msgstr ""
 #: ../../index.rst:27
 msgid "Table of Contents"
 msgstr ""
-

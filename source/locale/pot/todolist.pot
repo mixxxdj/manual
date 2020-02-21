@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,9 @@ msgid "Automatically generated todo list"
 msgstr ""
 
 #: ../../todolist.rst:8
-msgid "The following list is automatically generated from ``.. todo::`` directives in the text. It will only show up in the output if ``todo_include_todos = True``. See `<http://www.sphinx-doc.org/en/stable/ext/todo.html>`_"
+msgid "The following list is automatically generated from ``.. todo::`` directives in the text. It will only show up in the output if ``todo_include_todos = True``. See `<http://www.sphinx-doc.org/en/master/usage/extensions/todo.html>`_"
 msgstr ""
 
 #: ../../todolist.rst:13
 msgid "todo items"
 msgstr ""
-

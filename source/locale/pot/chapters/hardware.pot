@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,88 +28,88 @@ msgstr ""
 msgid "The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific devices with information about their prices, features, and compatibility with Mixxx."
 msgstr ""
 
-#: ../../chapters/hardware.rst:27
+#: ../../chapters/hardware.rst:26
 msgid "Controllers"
 msgstr ""
 
-#: ../../chapters/hardware.rst:28
+#: ../../chapters/hardware.rst:27
 msgid "DJ controllers are devices with knobs, faders, buttons, and jog wheels to control DJ software such as Mixxx. Controllers allow quick access to different controls while providing tactile and visual feedback indicating the state of each control, such as the position of a knob or whether a switch is on or off. This allows you to focus on manipulating the music without needing to look at your computer screen all the time. Controllers also allow using two hands to manipulate two different controls at the same time, which is required for many mixing techniques."
 msgstr ""
 
-#: ../../chapters/hardware.rst:37
+#: ../../chapters/hardware.rst:36
 msgid "DJ controllers typically do not do any actual audio processing. Instead, they send signals (typically :term:`MIDI` or :term:`HID` over a USB cable) to the computer to instruct DJ software how to manipulate the audio. Many DJ controllers include an :ref:`audio interface <hardware-audio-interfaces>` with 2 separate stereo outputs built into the device. This allows the DJ to transport and setup only one piece of hardware in addition to a laptop. Some devices can be used as both a controller and :ref:`hardware mixer <hardware-mixers>`."
 msgstr ""
 
-#: ../../chapters/hardware.rst:46
+#: ../../chapters/hardware.rst:45
 msgid "Mixxx can work with any :term:`MIDI` or :term:`HID` :term:`controller` as long as there is a mapping file to tell Mixxx how to understand the controller's signals. Mixxx comes bundled with a number of MIDI and HID mapping presets, which are listed in the `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ on the wiki. For controllers that Mixxx does not yet support, you can `search the forum <https://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has started a mapping. You can also start one yourself using the information in the `Controller Mapping Documentation <https://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_ on the wiki."
 msgstr ""
 
-#: ../../chapters/hardware.rst:58
+#: ../../chapters/hardware.rst:57
 msgid ":ref:`control-midi` describes how to configure Mixxx to use controllers."
 msgstr ""
 
-#: ../../chapters/hardware.rst:64
+#: ../../chapters/hardware.rst:63
 msgid "Audio Interfaces"
 msgstr ""
 
-#: ../../chapters/hardware.rst:65
+#: ../../chapters/hardware.rst:64
 msgid "An audio interface (also known as a \"sound card\", although few of them are shaped like cards anymore) is a device that allows a computer to send output to and receive input from audio equipment. Whether using :ref:`internal or external mixing <intro-how-mixxx-works>`, it is recommended to use a single audio interface with at least 4 independent output channels (2 separate stereo pairs)."
 msgstr ""
 
-#: ../../chapters/hardware.rst:72
+#: ../../chapters/hardware.rst:71
 msgid "The headphone jack on most laptops is not a second audio output. Rather, plugging headphones into the jack simply redirects the laptop's single stereo output from its speakers to your headphones. A splitter cable can be used to separate the stereo output of a headphone jack into two separate mono outputs for headphone cueing, but it is recommended to use a sound card with at least four mono outputs (for two stereo pairs). Such sound cards tend to be higher quality than those built into laptops and allow your mix to be enjoyed in stereo by your audience."
 msgstr ""
 
-#: ../../chapters/hardware.rst:81
+#: ../../chapters/hardware.rst:80
 msgid "Unlike some proprietary DJ systems, Mixxx can use any audio interface and any :term:`MIDI` or :term:`HID` controller that your :term:`OS <operating system>` has drivers to use. If your controller has an integrated audio interface, you may choose to use a different audio interface for higher quality audio. Mixxx can also use multiple audio interfaces simultaneously."
 msgstr ""
 
-#: ../../chapters/hardware.rst:88
+#: ../../chapters/hardware.rst:87
 msgid "Audio Interface Considerations"
 msgstr ""
 
-#: ../../chapters/hardware.rst:89
+#: ../../chapters/hardware.rst:88
 msgid "This section provides background information to help you choose an audio interface to use with Mixxx."
 msgstr ""
 
-#: ../../chapters/hardware.rst:93
+#: ../../chapters/hardware.rst:92
 msgid "Bit Depth and Sample Rate"
 msgstr ""
 
-#: ../../chapters/hardware.rst:94
+#: ../../chapters/hardware.rst:93
 msgid "Most music is published with a bit depth of 16 bits at a sample rate of 44.1 kHz because this is all that is needed to store all the detail of music in digital form."
 msgstr ""
 
-#: ../../chapters/hardware.rst:98
+#: ../../chapters/hardware.rst:97
 msgid "Bit depth determines the possible dynamic range of the signal. 16 bits is more than enough for playing back music. While 24 bits is helpful for recording, `it is useless for playback <https://sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you- knew-about-bit-depth-is-probably-wrong/>`_."
 msgstr ""
 
-#: ../../chapters/hardware.rst:104
+#: ../../chapters/hardware.rst:103
 msgid "Half the sample rate determines the maximum frequency that can be represented by the signal. Humans generally can't hear frequencies above 20 kHz, so a sampling rate of 44.1 kHz, representing a maximum frequency of 22.05 kHz, is fine for playback. Higher sample rates like 88.2 kHz and 96 kHz can be helpful to reduce aliasing distortion when recording, but have no benefit for playback and make your computer work harder."
 msgstr ""
 
-#: ../../chapters/hardware.rst:111
-msgid "For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all that is needed for playback, read `24/192 Music Downloads Are Very Silly Indeed <https://xiph.org/~xiphmont/demo/neil-young.html>`_."
+#: ../../chapters/hardware.rst:110
+msgid "For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all that is needed for playback, read `24/192 Music Downloads Are Very Silly Indeed <https://people.xiph.org/~xiphmont/demo/neil-young.html>`_."
 msgstr ""
 
-#: ../../chapters/hardware.rst:116
+#: ../../chapters/hardware.rst:115
 msgid "Specifications"
 msgstr ""
 
-#: ../../chapters/hardware.rst:117
+#: ../../chapters/hardware.rst:116
 msgid "When considering specifications, higher dynamic range, higher signal-to-noise ratio (SNR), higher maximum output level, lower THD+N (Total Harmonic Distortion + Noise; look for a more negative dB value or smaller percentage), and lower crosstalk (more negative dB value) are better. Cheap audio interfaces tend to not have these specifications published."
 msgstr ""
 
-#: ../../chapters/hardware.rst:124
+#: ../../chapters/hardware.rst:123
 msgid "Connector and Cable Types"
 msgstr ""
 
-#: ../../chapters/hardware.rst:125
-msgid "If you are unfamiliar with professional audio equipment, read Digital DJ Tips' `Essential Guide to Audio Cables for DJs <http://www.digitaldjtips.com/2011/07/the-essential-guide-to-audio-cables-for-djs>`_ to understand the different kinds of connectors on audio interfaces. It is better to use an audio interface with balanced outputs, especially if you will run long cables directly into an amplifier or active speakers without going through a :ref:`hardware mixer <hardware-mixers>`. Balanced signals reject interference and are less susceptible to ground loop hum issues (which can be a problem when plugging unbalanced gear into separate power sources)."
+#: ../../chapters/hardware.rst:124
+msgid "If you are unfamiliar with professional audio equipment, read Digital DJ Tips' `Essential Guide to Audio Cables for DJs <https://www.digitaldjtips.com/2011/07/the-essential-guide-to-audio-cables-for-djs>`_ to understand the different kinds of connectors on audio interfaces. It is better to use an audio interface with balanced outputs, especially if you will run long cables directly into an amplifier or active speakers without going through a :ref:`hardware mixer <hardware-mixers>`. Balanced signals reject interference and are less susceptible to ground loop hum issues (which can be a problem when plugging unbalanced gear into separate power sources)."
 msgstr ""
 
-#: ../../chapters/hardware.rst:135
-msgid "However, most venues have DJs plug into :ref:`hardware DJ mixers <hardware-mixers>`, which typically only have RCA inputs (RCA cables cannot be balanced). Most home/computer speakers and amplifiers have RCA and/or 1/8\" TRS stereo inputs. Most live sound mixers have balanced 1/4\" TRS mono inputs. If you need to interconnect balanced and unbalanced gear, refer to this `guide from Presonus <https://www.presonus.com/learn/technical-articles/balanced-unbalanced>`_ and this `guide from Rane <http://www.rane.com/note110.html>`_."
+#: ../../chapters/hardware.rst:134
+msgid "However, most venues have DJs plug into :ref:`hardware DJ mixers <hardware-mixers>`, which typically only have RCA inputs (RCA cables cannot be balanced). Most home/computer speakers and amplifiers have RCA and/or 1/8\" TRS stereo inputs. Most live sound mixers have balanced 1/4\" TRS mono inputs. If you need to interconnect balanced and unbalanced gear, refer to this `guide from Presonus (deleted, via archive.org) <https://web.archive.org/web/20171011070552/https://www.presonus.com/learn/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane <http://www.rane.com/note110.html>`_."
 msgstr ""
 
 #: ../../chapters/hardware.rst:144
@@ -187,4 +187,3 @@ msgstr ""
 #: ../../chapters/hardware.rst:234
 msgid ":ref:`microphones`"
 msgstr ""
-
