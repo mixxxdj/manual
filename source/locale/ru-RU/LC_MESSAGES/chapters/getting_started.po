@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/mixxx-dj-software/teams/7734/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../chapters/getting_started.rst:6
+msgid "Getting Started"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:9
+msgid "Opening Mixxx"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:10
+msgid ""
+"|logo| Once you've `installed Mixxx <https://mixxx.org/download/>`_, start "
+"by opening Mixxx and importing your music to the Mixxx library."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:16
+msgid "**Windows**"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:14
+msgid ""
+"Double-click the Mixxx icon on the Desktop. Alternatively, browse your "
+"Windows start menu and click the Mixxx icon, or perform a search for "
+":file:`Mixxx.exe`."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:21
+msgid "**Mac OSX**"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:19
+msgid ""
+"Double-click the Mixxx icon in the :file:`Applications` folder. "
+"Alternatively, drag the Mixxx icon to the dock and double-click it there or "
+"search for :command:`mixxx` in Spotlight."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:30
+msgid "**GNU/Linux**"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:24
+msgid ""
+"Click the Mixxx icon in the applications menu or launcher of your desktop "
+"environment or perform a search for :file:`mixxx`. Alternatively type "
+":command:`mixxx` into the terminal, then hit :kbd:`Return`. If your "
+":term:`audio interface` is not accessible from Mixxx because it is used by "
+"other applications via PulseAudio, you may close and restart Mixxx using "
+":command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` for "
+"an overview of Mixxx's command line options."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:35
+msgid "Importing your audio files"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:47
+msgid "Mixxx running on Windows 10 - Choose music library directory dialog"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:49
+msgid ""
+"The first time you run Mixxx, you are asked to select a directory where your"
+" music is stored. By default, the dialog points to a location where music "
+"files are typically held, but you can select any location on your computer."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:53
+msgid ""
+"Click :guilabel:`Select Folder` and Mixxx will scan your music library. "
+"Depending on the size of your library this could take some time. All the "
+"supported music files Mixxx detects will be listed in the :ref:`library-"
+"tracks`."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:57
+msgid ""
+"If you want to refresh your library (for example because you added or moved "
+"files), you can do this with :menuselection:`Library --> Rescan Library` in "
+"the menu. If you want to rescan at every launch, select "
+":menuselection:`Preferences --> Library --> Rescan on startup`."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:62
+msgid ""
+"On Windows 7 and 8 the import dialog points to your Windows “Music“ Library,"
+" a special-purpose virtual folder. You can **not** use these virtual "
+"folders. Select a regular folder instead, usually “My Music“, like pictured "
+"above."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:70
+msgid "Analyze your library"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:76
+msgid ""
+"|ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load"
+" them in a deck, nevertheless it is recommended that you analyze them before"
+" playing live to ensure the beatgrids are correct. Furthermore, track "
+"analysis takes considerable CPU power and might cause skips in the audio ---"
+" things you surely don't need while performing."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:82
+msgid ""
+"Once you have :ref:`imported your music library<getting-started-import-"
+"audio-files>`, press :guilabel:`OK` on the Preferences window. Go to the "
+"Analyze view on the left side panel of the library. This allows you to run "
+":term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in"
+" advance. While analyzing, the progress in percentage and total queue length"
+" are shown."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:89
+msgid "For more information, go to :ref:`configuration-bpm-detection`."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:94
+msgid "Configuring sound input and output"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:96
+msgid ""
+"Before you can start using Mixxx, you need to configure Mixxx to use your "
+"sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do "
+"not need to configure all inputs and outputs."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:100
+msgid ""
+"The :ref:`hardware` chapter explains different types of DJ hardware and how "
+"to set them up with the the input and output options. For Mixxx to perform "
+"the best it can on your system, configure the other :ref:`preferences-sound-"
+"hardware` preferences in addition to the inputs and outputs."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:112
+msgid "Mixxx Sound Hardware Preferences"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:115
+msgid "Output Options"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:117
+#: ../../chapters/getting_started.rst:137
+msgid "**Internal mixing**:"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:119
+msgid ""
+"Use these outputs if you are not using an :ref:`external hardware mixer "
+"<hardware-mixers>`. If you are using a controller with a built-in audio "
+"interface, use these outputs."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:123
+msgid ""
+"*Master*: all decks, samplers, microphones, and auxiliary inputs mixed "
+"together. This output is sent to the speakers for the audience."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:125
+msgid ""
+"*Headphones*: all decks, samplers, microphones, and auxiliary inputs "
+"assigned to :term:`pre-fader listening <PFL>`"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:127
+msgid "*Booth*: same as Master output, but has a separate gain control"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:129
+#: ../../chapters/getting_started.rst:145
+msgid "**External mixing**:"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:131
+msgid "*Decks 1-4*: the individual unmixed decks to send to an external mixer"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:132
+msgid ""
+"*Bus Left/Center/Right*: all decks, samplers, and auxiliary inputs assigned "
+"to each side of Mixxx's crossfader"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:136
+msgid "Input Options"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:139
+msgid ""
+"Use these inputs if you are not using an external hardware mixer. If you are"
+" using a controller with a built in audio interface, use these inputs."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:142
+msgid "*Microphone 1-4*: live microphone or musical instrument inputs"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:143
+msgid "*Auxiliary 1-4*: other sound sources"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:147
+msgid ""
+"*Record/Broadcast*: When this is configured, Mixxx will record and broadcast"
+" from this audio interface input instead of the internal master mix. If you "
+"have a microphone plugged into the mixer, do not configure the Microphone "
+"1-4 inputs."
+msgstr ""
+
+#: ../../chapters/getting_started.rst:152
+msgid "**Either internal or external mixing**:"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:154
+msgid ""
+"*Vinyl Control 1-4*: timecode input from turntables or CDJs for manipulating"
+" decks 1-4"
+msgstr ""
+
+#: ../../chapters/getting_started.rst:157
+msgid ":ref:`microphones`"
+msgstr ""

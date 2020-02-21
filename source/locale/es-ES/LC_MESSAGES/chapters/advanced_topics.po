@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2018-03-04 18:24+0000\n"
-"Last-Translator: Borja Sanus Pastor\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,21 +18,22 @@ msgstr ""
 "Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/chapters/advanced_topics.rst:5
+#: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
 msgstr "Opciones Avanzadas"
 
-#: ../../source/chapters/advanced_topics.rst:10
+#: ../../chapters/advanced_topics.rst:9
 msgid "Adding support for your MIDI/HID Controller"
 msgstr "Mapeo de Mixx para controladoras MIDI/HID"
 
-#: ../../source/chapters/advanced_topics.rst:12
+#: ../../chapters/advanced_topics.rst:11
 msgid ""
-"With several dozens DJ controllers supported out-of-the-box, Mixxx gives you"
-" comprehensive hardware control for your DJ mixes, see :ref:`control-midi`."
-msgstr "Con una amplia gama de controladoras soportadas, Mixx ofrece un fácil control del hardware en tus sesiones de DJ, para ello lee: ref:`control-midi`."
+"With several dozens of DJ controllers supported out-of-the-box, Mixxx gives "
+"you comprehensive hardware control for your DJ mixes, see :ref:`control-"
+"midi`."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:15
+#: ../../chapters/advanced_topics.rst:14
 msgid ""
 "Support for additional devices can be added to Mixxx by creating a new "
 "preset file. This file tells Mixxx how to translate, or map, "
@@ -40,106 +41,106 @@ msgid ""
 " understands."
 msgstr "La configuración del mapeo de otras controladoras puede añadirse mediante la creación de un archivo. Éste archivo dicta a Mixxx como traducir o mapear \n:term:`MIDI`/:term:`HID` acciones de una controladora en comandos que Mixxx comprenda."
 
-#: ../../source/chapters/advanced_topics.rst:19
+#: ../../chapters/advanced_topics.rst:18
 msgid ""
 "You can download and share custom controller presets in the `Mixxx User "
-"customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_."
-msgstr "Las preconfiguraciones de las controladoras se pueden descargar y compartir en los Foros de Usuarios sobre Configuración <http://mixxx.org/forums/viewforum.php?f=6>`_."
+"customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:26
+#: ../../chapters/advanced_topics.rst:25
 msgid "Controller Wizard"
 msgstr "Asistente para la configuración de la controladora"
 
-#: ../../source/chapters/advanced_topics.rst:35
+#: ../../chapters/advanced_topics.rst:34
 msgid "Mixxx Controller Wizard -  Mapping a control"
 msgstr "Asistente para el aprendizaje de la controladora - Mapeo de una acción."
 
-#: ../../source/chapters/advanced_topics.rst:37
+#: ../../chapters/advanced_topics.rst:36
 msgid ""
 "By far, the easiest way to create a new MIDI preset is by using the "
 "Controller Wizard."
 msgstr "De hecho la solución más fácil para crear un nuevo mapeo MIDI es usar el Asistente de Configuración de la controladora."
 
-#: ../../source/chapters/advanced_topics.rst:40
+#: ../../chapters/advanced_topics.rst:39
 msgid "Connect your controller(s) to your computer"
 msgstr "Conecte su controladora(s) al ordenador"
 
-#: ../../source/chapters/advanced_topics.rst:41
+#: ../../chapters/advanced_topics.rst:40
 msgid "Start Mixxx"
 msgstr "Active Mixxx"
 
-#: ../../source/chapters/advanced_topics.rst:42
+#: ../../chapters/advanced_topics.rst:41
 msgid "Go to :menuselection:`Preferences --> Controllers`"
 msgstr "Vaya a:menuselection:`Preferences-->controladora`"
 
-#: ../../source/chapters/advanced_topics.rst:43
+#: ../../chapters/advanced_topics.rst:42
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
 msgstr "Seleccione su controladora de la lista de dispositivos disponibles izquierda y el panel de la derecha cambiará."
 
-#: ../../source/chapters/advanced_topics.rst:45
+#: ../../chapters/advanced_topics.rst:44
 msgid "Activate the :guilabel:`Enabled` checkbox"
 msgstr "Active el :guilabel:'enabled'checkbox"
 
-#: ../../source/chapters/advanced_topics.rst:46
+#: ../../chapters/advanced_topics.rst:45
 msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"
 msgstr "Haga clic en :guilabel:'Learning Wizard' para abrir el menú de selección."
 
-#: ../../source/chapters/advanced_topics.rst:47
+#: ../../chapters/advanced_topics.rst:46
 msgid "Click any control in the Mixxx :term:`GUI`"
 msgstr "Haga clic en cualquier opción de Mixxx :term:'GUI'"
 
-#: ../../source/chapters/advanced_topics.rst:48
+#: ../../chapters/advanced_topics.rst:47
 msgid ""
 "Alternatively, click the :guilabel:`Choose Control` button and choose one "
 "from the selection list"
 msgstr "Por otra parte, haga clic en el :guilabel:'Elija Control' botón y elija una opción del menú de selección."
 
-#: ../../source/chapters/advanced_topics.rst:50
+#: ../../chapters/advanced_topics.rst:49
 msgid ""
 "Push :guilabel:`Learn` and then move a control or push a button on your "
 "controller to map it.  You can also move a control without pushing the "
 ":guilabel:`Learn` button if you are learning many controls."
 msgstr "Haga clic en configurar y luego utilice el control seleccionado o aprete un botón en su controladora para mapearlo. También se puede mover un control sin apretar el :guilabel:'learn' botón si está configurando muchas secciones."
 
-#: ../../source/chapters/advanced_topics.rst:53
+#: ../../chapters/advanced_topics.rst:52
 msgid ""
 "If you are learning a button, just push it once.  If you are learning a knob"
 " or a slider, try to move it throughout its range."
 msgstr "Si está configurando una acción, aprételo únicamente una vez. Si está configurando una perilla o un fader muévalo en todo su rango o trayectoria."
 
-#: ../../source/chapters/advanced_topics.rst:55
+#: ../../chapters/advanced_topics.rst:54
 msgid ""
 "After Mixxx detects the control, you may click :guilabel:`Learn Another` or "
-"you can just click on another button in the Mixxx :term:`GUI` to learn "
-"another control."
-msgstr "Tras la detección de Mixxx del control, se puede hacer clic en :guilabel'Configurar Otro' o hacer clic en otro botón en Mixxx :term'GUI' para configurar otra acción."
+"you can click on another button in the Mixxx :term:`GUI` to learn another "
+"control."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:58
+#: ../../chapters/advanced_topics.rst:57
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
 msgstr "Cuando termine el mapeo de controles, haga clic en :guilabel:'Proceso Terminado'"
 
-#: ../../source/chapters/advanced_topics.rst:60
+#: ../../chapters/advanced_topics.rst:59
 msgid ""
 "There are also some advanced options in the Midi Wizard you may need to use:"
 msgstr "También existen opciones avanzadas en el Asistente que quizá necesitará utilizar:"
 
-#: ../../source/chapters/advanced_topics.rst:62
+#: ../../chapters/advanced_topics.rst:61
 msgid ""
 "Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in"
-" value when the knob in the term:`GUI` doesn't match the physical knob.  If "
-"you select this option, you won't be able to perform super-fast motions as "
+" when the knob in the :term:`GUI` doesn't match the physical knob. If you "
+"select this option, you won't be able to perform super-fast motions as "
 "easily. (Recommended off)"
-msgstr "Emparejador: Utilice esta opción para perillas o faders y evitar cambios repentinos de valor cuando la perilla en el term:'GUI' no empareje con la perilla física. Si selecciona esta opción, no podrá realizar acciones muy rápidas con tanta facilidad. (Se recomienda deshabilitar)."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:66
+#: ../../chapters/advanced_topics.rst:65
 msgid ""
-"Invert:  Use this option for controls that you want to work backwards from "
+"Invert: Use this option for controls that you want to work backwards from "
 "how they were detected."
-msgstr "Inversión de proceso: Utilice esta opción para aquellas acciones que usted quiera modificar de entre aquellas que seleccionó."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:68
+#: ../../chapters/advanced_topics.rst:67
 msgid ""
 "Switch Mode: Use this option on controllers that have controls that act like"
 " switches and emit one value on the first press, and a different value on "
@@ -147,187 +148,185 @@ msgid ""
 "lights up on the first press and turns off on the second press)."
 msgstr "Modo de Activación: Utilice esta opción en controladoras que tengan controles que actúen como interruptores y emiten un valor la primera vez que pulsa, y uno diferente en la segunda pulsación. (Piense en un hardware o flip-flop de conmutación, o en un botón que se ilumina en la primera pulsación y se apaga en la segunda pulsación)."
 
-#: ../../source/chapters/advanced_topics.rst:72
+#: ../../chapters/advanced_topics.rst:71
 msgid ""
 "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or "
 "an end, but spin continuously."
 msgstr "Plato / Perilla de selección: Use esta opción para perillas que no tienen un inicio o un fin, pero que giran de contínuo."
 
-#: ../../source/chapters/advanced_topics.rst:75
+#: ../../chapters/advanced_topics.rst:74
 msgid ""
 "The Controller wizard saves the new preset to the following file paths:"
 msgstr "El asistente de instalación guarda la nueva configuración en el siguiente fichero:"
 
-#: ../../source/chapters/advanced_topics.rst:77
+#: ../../chapters/advanced_topics.rst:76
 msgid "Linux: :file:`/home/<username>/.mixxx/controllers`"
 msgstr "Linux: :file:`/home/<username>/.mixxx/controllers`"
 
-#: ../../source/chapters/advanced_topics.rst:78
+#: ../../chapters/advanced_topics.rst:77
 msgid ""
-"Mac OS X: :file:`/Users/<username>/Library/Application\\ "
+"macOS: :file:`/Users/<username>/Library/Application\\\\ "
 "Support/Mixxx/controllers`"
-msgstr "Mac OS X: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:79
+#: ../../chapters/advanced_topics.rst:78
 msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\controllers`"
 msgstr "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\controllers`"
 
-#: ../../source/chapters/advanced_topics.rst:81
+#: ../../chapters/advanced_topics.rst:80
 msgid ""
 "You can then modify the XML file it creates (or any of the ones that ship "
 "with Mixxx) if you'd like to fine-tune it or add more presets. For more "
 "information, go to "
-"`<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
-msgstr "Usted puede modificar el archivo XML creado (o cualquier otro relacionado con Mixxx) si prefiere modificarlo o añadir más configuraciones. Para más información sobre éste tema, visite <http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
+"`<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:86
+#: ../../chapters/advanced_topics.rst:85
 msgid ""
 "The Controller Wizard works only for :term:`MIDI` devices. Currently you "
 "can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI "
 "Scripting <advanced-controller-midiscript>` instead."
 msgstr "El sistema de configuración de controladoras sólo funciona con sistemas :term:`MIDI`. No se pueden mapear los botones de funciones (shift) y rotación de platos. En lugar de intentar esto use :ref:`MIDI Scripting<advanced-controller-midiscript>`"
 
-#: ../../source/chapters/advanced_topics.rst:93
+#: ../../chapters/advanced_topics.rst:92
 msgid "MIDI Scripting"
 msgstr "Configuración de la Secuencia de Comandos MIDI."
 
-#: ../../source/chapters/advanced_topics.rst:95
+#: ../../chapters/advanced_topics.rst:94
 msgid ""
 "In order to support the advanced features of many :term:`MIDI`/:term:`HID` "
 "controllers, Mixxx offers what we call MIDI Scripting."
 msgstr "Para poder se compatible con características avanzadas de muchas controladoras :term:`MIDI`/:term:`HID`, Mixxx ofrece lo que se conoce como Encriptación MIDI."
 
-#: ../../source/chapters/advanced_topics.rst:98
+#: ../../chapters/advanced_topics.rst:97
 msgid ""
 "It enables MIDI controls to be mapped to `QtScript "
 "<https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) "
 "functions stored in function library files, freeing Mixxx from a one-to-one "
 "MIDI mapping ideology. These user-created functions can then do anything "
-"desired with the MIDI event info such as have a single controller button "
-"simultaneously affect two or more Mixxx properties (“controls”,) adjust "
-"incoming control values to work better with Mixxx (scratching,) display a "
+"desired with the MIDI event such as have a single controller button "
+"simultaneously affect two or more Mixxx properties (“controls”), adjust "
+"incoming control values to work better with Mixxx (scratching), display a "
 "complex LED sequence, or even send messages to text displays on the "
 "controller."
-msgstr "Esto permite que los controles MIDI puedan mapearse a funciones `QtScript <https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) almacenadas en función de archivos de la colección de canciones, liberando así a Mixxx del mapeo uno a uno. Estas funciones creadas y orientadas al usuario pueden facilitar cualquier acción deseada en MIDI, como por ejemplo tener un único botón de controladora que afecten a dos o más propiedades de Mixxx (\"controles\"), ajustar valores de entrada para trabajar mejor con Mixxx (realizar scratch) mostrar una secuencia compleja de LED, o incluso enviar mensajes a mostreo de texto en la controladora."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:107
+#: ../../chapters/advanced_topics.rst:106
 msgid ""
 "For more information, go to "
-"`<http://mixxx.org/wiki/doku.php/midi_scripting>`_ and "
-"`<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
-msgstr "Para más información vaya a `<http://mixxx.org/wiki/doku.php/midi_scripting>`_ and `<http://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
+"`<https://mixxx.org/wiki/doku.php/midi_scripting>`_ and "
+"`<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:113
+#: ../../chapters/advanced_topics.rst:112
 msgid "Making a Custom Keyboard Mapping"
 msgstr "Cómo realizar un mapeo de teclado personalizado."
 
-#: ../../source/chapters/advanced_topics.rst:115
+#: ../../chapters/advanced_topics.rst:114
 msgid ""
 "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a "
 "text file which can be found at the following location:"
 msgstr "El :ref:`<appendix-keyboard>` mapeo por defecto del teclado se encuentra definido en un archivo de texto que se puede encontrar en la siguiente dirección:"
 
-#: ../../source/chapters/advanced_topics.rst:118
+#: ../../chapters/advanced_topics.rst:117
 msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
 msgstr "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
 
-#: ../../source/chapters/advanced_topics.rst:119
+#: ../../chapters/advanced_topics.rst:118
 msgid ""
-"Mac OS X: "
+"macOS: "
 ":file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
-msgstr "Mac OS X: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:120
+#: ../../chapters/advanced_topics.rst:119
 msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
 msgstr "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
 
-#: ../../source/chapters/advanced_topics.rst:122
+#: ../../chapters/advanced_topics.rst:121
 msgid ""
-"Depending on your systems language settings, Mixxx might use a different "
+"Depending on your system's language settings, Mixxx might use a different "
 "file as default, e.g. :file:`de_DE.kbd.cfg` for German or "
 ":file:`es_ES.kbd.cfg` for Spanish."
-msgstr "En relación a con qué idioma configure su ordenador, Mixxx podría utilizar un archivo diferente por defecto, por ejemplo :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg` for Spanish."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:126
+#: ../../chapters/advanced_topics.rst:125
 msgid ""
-"It is not recommended to modify the system-wide keyboard mapping file "
-"because all your changes can be lost if you uninstall or upgrade Mixxx. "
+"It is not recommended that you modify the system-wide keyboard mapping file "
+"because all your changes may be lost if you uninstall or upgrade Mixxx. "
 "Instead, copy the default mapping file to the following location:"
-msgstr "No se recomienda modificar el mapeo del archivo para el mapeo del teclado porque todos los cambios pueden perderse si desinstalas o actualizas MIxxx. En lugar de esto, copia el archivo de mapeo por defecto en el siguiente destino:"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:130
+#: ../../chapters/advanced_topics.rst:129
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
 msgstr "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
 
-#: ../../source/chapters/advanced_topics.rst:131
-msgid "Mac OS X: :file:`~/Library/Application\\ Support/Mixxx/Custom.kbd.cfg`"
-msgstr "Mac OS X: :file:`~/Library/Application\\ Support/Mixxx/Custom.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:130
+msgid "macOS: :file:`~/Library/Application\\\\ Support/Mixxx/Custom.kbd.cfg`"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:132
-msgid ""
-"Windows: :file:`%USERPROFILE%\\\\Local Settings\\\\Application "
-"Data\\\\Mixxx\\\\Custom.kbd.cfg`"
-msgstr "Windows: :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\Custom.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:131
+msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:134
+#: ../../chapters/advanced_topics.rst:133
 msgid ""
 "Then edit this file and save the changes. On the next startup, Mixxx will "
 "check if :file:`Custom.kbd.cfg` is present and load that file instead of the"
-" default mapping file. This has the advantage, that you can always revert "
-"back to the default mapping, just by deleting :file:`Custom.kbd.cfg`."
-msgstr "Luego edita este archivo y guarda los cambios. En el siguiente inicio de programa, Mixxx comprobará si :file:`Custom.kbd.cfg` está presente y carga el archivo en lugar del archivo por defecto. Esto tiene la ventaja de que siempre puede volver a la configuración por defecto mediante la eliminación de :file:`Custom.kbd.cfg`."
+" default mapping file. This has the advantage that you can always revert "
+"back to the default mapping by deleting :file:`Custom.kbd.cfg`."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:139
+#: ../../chapters/advanced_topics.rst:138
 msgid ""
 "For a list of controls that can be used in a keyboard mapping, see "
-"`<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_."
-msgstr "Para una lista que pueda usarse en un mapeo de teclado, ver `<http://www.mixxx.org/wiki/doku.php/mixxxcontrols>`_."
+"`<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:142
+#: ../../chapters/advanced_topics.rst:141
 msgid ""
 "You can download and share custom keyboard mappings in the `Mixxx User "
-"customizations forums <http://mixxx.org/forums/viewforum.php?f=6>`_."
-msgstr "Usted podrá descargar y compartir mapeos de teclado en el forum de usuarios de Mixxx <http://mixxx.org/forums/viewforum.php?f=6>`_."
+"customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:148
+#: ../../chapters/advanced_topics.rst:147
 msgid "Additional Effects via external Mixer Mode"
 msgstr "Efectos Adicionales mediante Mezclador externo"
 
-#: ../../source/chapters/advanced_topics.rst:150
+#: ../../chapters/advanced_topics.rst:149
 msgid ""
-"Mixxx does not have an effects engine yet (work on one is in progress). To "
-"hold you over you can use some external tools. Using the :ref:`external "
-"mixer mode <configuring-mixer-mode>` you route each deck directly to 3rd "
-"party effect hosts."
-msgstr "Mixxx no tiene ningún hardware de efectos todavía (estamos trabajando en uno). Para salir del paso puede utilizar algun hardware externo. Con la utilización de :ref: modo de mezcla externa <configuring-mixer-mode>` puede configurar cada plato directamente con un 3º módulo de efectos externo."
+"Mixxx comes with a set of :ref:`native effects <effects>`. Additionally, "
+"using the :ref:`external mixer mode <intro-how-mixxx-works>` you can route "
+"each deck directly to 3rd party effect hosts."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:155
+#: ../../chapters/advanced_topics.rst:153
 msgid ""
 "The following examples are only intended to encourage experimentation, they "
-"are no definitive guidance."
-msgstr "Los siguientes ejemplos solo se proponen para experimentar con ellos, no son consejos definitivos."
+"are not definitive guidance."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:159
-msgid "Effects via AU Lab on Mac OS X"
-msgstr "Efectos via AU Lab en MAC OS X"
+#: ../../chapters/advanced_topics.rst:157
+msgid "Effects via AU Lab on macOS"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:168
-msgid "The Au Lab routing for external effects on Mac OS X"
-msgstr "El sistema de asignación  Au Lab para efectos externos en Mac OS X "
+#: ../../chapters/advanced_topics.rst:166
+msgid "The Au Lab routing for external effects on macOS"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:170
+#: ../../chapters/advanced_topics.rst:168
 msgid ""
-"On Mac OS X there is a pretty simple and free way to give Mixxx access to "
-"the collection of AU/VST/MAS plugins that are installed on your system."
-msgstr "En Mac OS X hay una manera muy fácil y gratuita para dar acceso a Mixxx a la colección de aplicaciones AU/VST/MAS que están instalados en tu sistema. "
+"On macOS there is a simple and free way to give Mixxx access to the "
+"collection of AU/VST/MAS plugins that are installed on your system."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:173
+#: ../../chapters/advanced_topics.rst:171
 msgid ""
-"Install the free `Soundflower <https://code.google.com/p/soundflower/>`_, a "
-"system extension for inter-application audio routing."
-msgstr "Intala el gratuito `Soundflower <https://code.google.com/p/soundflower/>`_,  un sistema para aplicaciones para el sistema de asignación de audio."
+"Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-"
+"Original/releases/>`_, a system extension for inter-application audio "
+"routing."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:175
+#: ../../chapters/advanced_topics.rst:173
 msgid ""
 "Download AU Lab.app standalone from Apple (you will need an free Apple "
 "Developer Login though), go to the `Downloads for Developers "
@@ -335,141 +334,141 @@ msgid ""
 "“AU Lab” to get it."
 msgstr "Descargue AU Lab.app Standalone de Apple (necesitará una clave de acceso para desarrolladores de Apple), acceda a la página `Downloads for Developers https://developer.apple.com/downloads/index.action>`_ y busque \"AU Lab\" para conseguirla."
 
-#: ../../source/chapters/advanced_topics.rst:180
+#: ../../chapters/advanced_topics.rst:178
 msgid "**In Mixxx**"
 msgstr "**En Mixxx**"
 
-#: ../../source/chapters/advanced_topics.rst:182
+#: ../../chapters/advanced_topics.rst:180
 msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
 msgstr "Vaya a :menuselection:`Configuración -->  Hardware de Sonido--> Output`"
 
-#: ../../source/chapters/advanced_topics.rst:183
+#: ../../chapters/advanced_topics.rst:181
 msgid ""
 "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 1-2`"
 msgstr "Seleccione para :guilabel:`Deck 1` the :guilabel:`Soundflower 16` hardware  con :guilabel:`Canales 1-2`"
 
-#: ../../source/chapters/advanced_topics.rst:185
+#: ../../chapters/advanced_topics.rst:183
 msgid ""
 "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 3-4`"
 msgstr "Seleccione para :guilabel:`Deck 2` the :guilabel:`Soundflower 16` hardware con :guilabel:`Canales 3-4`"
 
-#: ../../source/chapters/advanced_topics.rst:187
+#: ../../chapters/advanced_topics.rst:185
 msgid "Click the :guilabel:`Apply` button"
 msgstr "Haga clic en el botón :guilabel:`Apply`"
 
-#: ../../source/chapters/advanced_topics.rst:189
+#: ../../chapters/advanced_topics.rst:187
 msgid "**In AU Lab**"
 msgstr "**En AU Lab**"
 
-#: ../../source/chapters/advanced_topics.rst:191
+#: ../../chapters/advanced_topics.rst:189
 msgid "Click on the :guilabel:`+` button to create a new configuration"
 msgstr "Haga clic en el botón :guilabel:`+` para crear una nueva configuración."
 
-#: ../../source/chapters/advanced_topics.rst:192
-msgid "Add 2 stereo inputs tracks in the :guilabel:`Audio Input Tab`"
-msgstr "Añada 2 canciones entrantes en el :guilabel:`apartado de Audio Input`."
+#: ../../chapters/advanced_topics.rst:190
+msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:193
+#: ../../chapters/advanced_topics.rst:191
 msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
 msgstr "Añada 2 canciones entrantes en el :guilabel:`apartado de Audio Input`."
 
-#: ../../source/chapters/advanced_topics.rst:194
+#: ../../chapters/advanced_topics.rst:192
 msgid "Click :guilabel:`OK`"
 msgstr "Haga clic en :guilabel:`OK`"
 
-#: ../../source/chapters/advanced_topics.rst:195
+#: ../../chapters/advanced_topics.rst:193
 msgid "Change the audio input device to :guilabel:`Soundflower 16`"
 msgstr "Cambie la entrada de audio a :guilabel:`Soundflower 16`"
 
-#: ../../source/chapters/advanced_topics.rst:196
+#: ../../chapters/advanced_topics.rst:194
 msgid ""
 "Change the audio output device for example to :guilabel:`Built-in Output`"
 msgstr "Cambie la salida de audio, por ejemplo a :guilabel:`Built-in Output`"
 
-#: ../../source/chapters/advanced_topics.rst:197
+#: ../../chapters/advanced_topics.rst:195
 msgid "Click :guilabel:`Create document`"
 msgstr "Haga clic en :guilabel:`Crear documento`"
 
-#: ../../source/chapters/advanced_topics.rst:198
+#: ../../chapters/advanced_topics.rst:196
 msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
 "menu, for example :guilabel:`Apple > AUCompressor`"
 msgstr "En el canal :guilabel:`Output 1`, seleccione un efecto del menú, por ejemplo, :guilabel:`Apple > AUCompressor`"
 
-#: ../../source/chapters/advanced_topics.rst:201
+#: ../../chapters/advanced_topics.rst:199
 msgid "The effect should now react if you play a track in Mixxx."
 msgstr "El efecto debería funcionar si usted hace sonar una canción en Mixxx."
 
-#: ../../source/chapters/advanced_topics.rst:204
+#: ../../chapters/advanced_topics.rst:202
 msgid "Effects via JACK Rack on GNU/Linux"
 msgstr "Efectos via JACK en GNU/Linux"
 
-#: ../../source/chapters/advanced_topics.rst:213
+#: ../../chapters/advanced_topics.rst:211
 msgid "The Jack routing for external effects on GNU/Linux"
 msgstr "El enrutamiento para efectos externos en GNU/Linux"
 
-#: ../../source/chapters/advanced_topics.rst:215
+#: ../../chapters/advanced_topics.rst:213
 msgid ""
 "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to "
 "route each deck directly through `JACK Rack <http://jack-"
 "rack.sourceforge.net/>`_ effect racks, or for more control you can use "
-"Ardour (or other DAW) using sends for effects. This gives Mixxx access to "
+"Ardour (or another DAW) using sends for effects. This gives Mixxx access to "
 "the extensive collection of LADSPA plugins."
-msgstr "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ para rutear cada plato directamento mediante `JACK Rack <http://jack-rack.sourceforge.net/>`_ controladoras de efectos, o para tener más control, puede utilizar Ardour (o otro DAW) para utilizar efectos. Esto le da a Mixxx acceso a la extensa colección de pluggins LADSPA."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:221
+#: ../../chapters/advanced_topics.rst:219
 msgid ""
-"Make sure the correct multichannel sound card has been selected in Jack "
-"(Jack settings visible bottom left). Note that Mixxx possibly labels its "
+"Make sure the correct multichannel audio interface has been selected in Jack"
+" (Jack settings visible bottom left). Note that Mixxx possibly labels its "
 "Jack ports as “Portaudio”."
-msgstr "Esté seguro de que ha seleccionado la tarjeta de sonido multicanal correctamente en Jack (Opciones de Jack visibles abajo a la izquierda). Tenga en cuenta que Mixxx probablemente nombre su Jack como “Portaudio”."
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:226
+#: ../../chapters/advanced_topics.rst:224
 msgid "Deleting Your Library"
 msgstr "Eliminar su carpeta de música"
 
-#: ../../source/chapters/advanced_topics.rst:228
+#: ../../chapters/advanced_topics.rst:226
 msgid ""
 "The library file is stored in the following places depending on your "
 ":term:`operating system`:"
 msgstr "La carpeta de música está almacenada en los siguientes destinos dependiendo de tu :term:`sistema operativo`:"
 
-#: ../../source/chapters/advanced_topics.rst:235
+#: ../../chapters/advanced_topics.rst:233
 msgid "**Windows**"
 msgstr "**Windows**"
 
-#: ../../source/chapters/advanced_topics.rst:232
+#: ../../chapters/advanced_topics.rst:230
 msgid ""
 "The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local "
 "Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on"
 " Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
 msgstr "La carpeta de archivos se almacena en la carpeta :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\`. Para borrar las canciones de Windows, borre el archivo :file:`mixxxdb.sqlite`  de esta carpeta."
 
-#: ../../source/chapters/advanced_topics.rst:242
-msgid "**Mac OS X**"
-msgstr "**Mac OS X**"
+#: ../../chapters/advanced_topics.rst:240
+msgid "**macOS**"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:238
+#: ../../chapters/advanced_topics.rst:236
 msgid ""
 "The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`"
-" folder in your home directory. To delete your library on Mac OS X type the "
+" folder in your home directory. To delete your library on macOS type the "
 "following command into a terminal: ::"
-msgstr "La carpeta de almacenamiento de archivos se almacena en la carpeta :file:`Library/Application Support/Mixxx` en su directorio raiz. Para borrar tu carpeta de canciones en MAC OS X escriba el siguiente comando en el terminal::"
+msgstr ""
 
-#: ../../source/chapters/advanced_topics.rst:248
+#: ../../chapters/advanced_topics.rst:246
 msgid "**GNU/Linux**"
 msgstr "**GNU/Linux**"
 
-#: ../../source/chapters/advanced_topics.rst:245
+#: ../../chapters/advanced_topics.rst:243
 msgid ""
 "The Mixxx library is stored in the ``.mixxx`` folder in your home directory."
 " To delete your library on GNU/Linux type the following command into a "
 "terminal: ::"
 msgstr "La carpeta de canciones se almacena en la carpeta ``.mixxx``  de tu directorio raiz. Para borrar dicha carpeta en GNU/Linux escriba el siguiente comando en el terminal::"
 
-#: ../../source/chapters/advanced_topics.rst:250
+#: ../../chapters/advanced_topics.rst:248
 msgid ""
 "Deleting your library will lose all of your :term:`metadata`. This includes "
 "saved hotcues, loops, comments, ratings, and other library related metadata."

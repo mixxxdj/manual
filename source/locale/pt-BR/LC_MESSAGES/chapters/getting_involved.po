@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:04+0000\n"
-"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,147 +19,146 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/chapters/getting_involved.rst:4
+#: ../../chapters/getting_involved.rst:6
 msgid "Contributing to the Project"
 msgstr "Contribuindo para o Projeto"
 
-#: ../../source/chapters/getting_involved.rst:6
+#: ../../chapters/getting_involved.rst:8
 msgid ""
 "Mixxx is a community-driven project involving many DJs worldwide. Without "
 "the contributions from these DJs, Mixxx would not exist, and we're "
 "constantly looking for more contributors."
 msgstr "O Mixxx é um projeto dirigido pela comunidade envolvendo muitos DJs mundo afora. Sem a contribuição desses DJs, o Mixxx não iria existir, e nós estamos constantemente procurando por mais contribuíntes."
 
-#: ../../source/chapters/getting_involved.rst:10
+#: ../../chapters/getting_involved.rst:12
 msgid ""
 "We want to make it as easy as possible for people to get involved in Mixxx "
 "development.  First off, to be clear **you don't have to be a programmer to "
 "contribute**."
 msgstr "Nós queremos deixar o envolvimento de novas pessoas no desenvolvimento do Mixxx o mais fácil possível. Para começar, que fique claro que **você não precisa ser um programador para contribuir**."
 
-#: ../../source/chapters/getting_involved.rst:15
+#: ../../chapters/getting_involved.rst:17
 msgid "As a non-developer"
 msgstr "Como um não programador"
 
-#: ../../source/chapters/getting_involved.rst:17
+#: ../../chapters/getting_involved.rst:19
 msgid ""
-"`Donate <http://mixxx.org/download/>`_ to Mixxx using Paypal to help support"
-" and enhance development."
-msgstr "`Doe <http://mixxx.org/download/>`_ para o Mixxx usando Paypal para ajudar a suportar e melhorar o desenvolvimento."
+"`Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help "
+"support and enhance development."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:19
-msgid "`Make skins <http://mixxx.org/wiki/doku.php/creating_skins>`_"
-msgstr "`Faça skins <http://mixxx.org/wiki/doku.php/creating_skins>`_"
+#: ../../chapters/getting_involved.rst:21
+msgid "`Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:20
+#: ../../chapters/getting_involved.rst:22
 msgid ""
 "`Make MIDI mappings "
-"<http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for "
+"<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for "
 "your controller"
-msgstr "`Faça mapeamentos MIDI <http://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ para o seu controlador."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:23
+#: ../../chapters/getting_involved.rst:25
 msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
 msgstr "`Relate bugs <https://bugs.launchpad.net/mixxx>`_"
 
-#: ../../source/chapters/getting_involved.rst:24
+#: ../../chapters/getting_involved.rst:26
 msgid ""
-"Update our `Wiki <http://mixxx.org/wiki/doku.php>`_ to make sure the "
+"Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the "
 "information on it is up to date."
-msgstr "Atualize nossa `Wiki <http://mixxx.org/wiki/doku.php>`_ para ter certeza de que a informação nela esteja atualizada."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:26
+#: ../../chapters/getting_involved.rst:28
 msgid ""
 "Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
 "software/public/>`_"
 msgstr "Traduza o Mixxx usando o `Transifex <https://www.transifex.com/mixxx-dj-software/public/>`_"
 
-#: ../../source/chapters/getting_involved.rst:28
+#: ../../chapters/getting_involved.rst:30
 msgid ""
 "Answer questions on the `Troubleshooting Forum "
-"<http://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
+"<https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
 "page <https://answers.launchpad.net/mixxx>`_"
-msgstr "Responda questões no `Fórum de Solução de Problemas <http://mixxx.org/forums/viewforum.php?f=3>`_ e na `Página de Perguntas do Launchpad <https://answers.launchpad.net/mixxx>`_"
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:31
+#: ../../chapters/getting_involved.rst:33
 msgid ""
 "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
 " about our new releases when they come out. Any exposure on the web and in "
 "print helps our project grow, and is much appreciated."
 msgstr "Ajude a promover o Mixxx: Se você tem um blog, escreva um artigo sobre o Mixxx. Faça uma postagem quando novas versões forem lançadas. Qualquer exibição na web e no papel ajuda o nosso projeto a crescer, e é muito apreciada."
 
-#: ../../source/chapters/getting_involved.rst:34
+#: ../../chapters/getting_involved.rst:36
 msgid "Send us some photos of you using Mixxx at a gig!"
 msgstr "Nos mande algumas fotos de você usando o Mixxx em uma apresentação!"
 
-#: ../../source/chapters/getting_involved.rst:37
+#: ../../chapters/getting_involved.rst:39
 msgid "As a software developer"
 msgstr "Como um desenvolvedor de software"
 
-#: ../../source/chapters/getting_involved.rst:39
+#: ../../chapters/getting_involved.rst:41
 msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
 msgstr "Você não precisa saber C++. Existem desenvolvedores que entraram no desenvolvimento do Mixxx enquanto aprendendo C++."
 
-#: ../../source/chapters/getting_involved.rst:41
+#: ../../chapters/getting_involved.rst:43
 msgid ""
 "Join our mailing list: `mixxx-devel "
-"<https://lists.sourceforge.net/lists/listinfo/mixxx-devel>`_"
-msgstr "Junte-se à nossa lista de e-mails: `mixxx-devel <https://lists.sourceforge.net/lists/listinfo/mixxx-devel>`_"
+"<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:43
+#: ../../chapters/getting_involved.rst:45
+msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:46
 msgid ""
-"Join our :term:`IRC` channel, #mixxx on `Freenode "
-"<http://www.freenode.net/>`_"
-msgstr "Junte-se ao nosso canal de :term:`IRC`, #mixxx no `Freenode <http://www.freenode.net/>`_"
+"Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist "
+":term:`bugs <bug report>`, or post on the forums."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:44
-msgid ""
-"Tell us your ideas! Email us, talk on IRC, file wishlist :term:`bugs <bug "
-"report>`, or post on the forums."
-msgstr "Diga-nos as suas ideias! Nos mande um e-mail, fale no IRC, faça um :term:`bug <bug report>` de lista de desejos, ou poste nos fórums."
-
-#: ../../source/chapters/getting_involved.rst:46
+#: ../../chapters/getting_involved.rst:48
 msgid ""
 "Register an account on our development platform `Github "
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
-"Development <http://mixxx.org/wiki/doku.php/using_git>`_"
-msgstr "Registre uma conta na nossa plataforma de desenvolvimento `Github <https://github.com/mixxxdj>`_ e forque nosso código. Veja `Usando o Git para o Desenvolvimento do Mixxx <http://mixxx.org/wiki/doku.php/using_git>`_"
+"Development <https://mixxx.org/wiki/doku.php/using_git>`_"
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:49
+#: ../../chapters/getting_involved.rst:51
 msgid ""
 "Join the `Mixxx Development Team "
 "<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
 msgstr "Entre na `Equipe de Desenvolvimento do Mixxx <https://launchpad.net/~mixxxcontributors/+join>`_ no Launchpad."
 
-#: ../../source/chapters/getting_involved.rst:52
+#: ../../chapters/getting_involved.rst:54
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 msgstr "Se familiarize com o código. Pegue um bug da `Lista de Bugs Fáceis <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
-#: ../../source/chapters/getting_involved.rst:54
+#: ../../chapters/getting_involved.rst:56
 msgid ""
-"Get help fixing the bug on IRC, talk to us about the best way to do it."
-msgstr "Consiga ajuda para corrigir o bug no IRC, e converse com a gente sobre a melhor maneira de corrigí-lo."
+"Get help fixing the bug on :term:`Zulip`, talk to us about the best way to "
+"do it."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:56
+#: ../../chapters/getting_involved.rst:59
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
 msgstr "**Contribuindo para o MIxxx em 3 Passos Fáceis**"
 
-#: ../../source/chapters/getting_involved.rst:58
+#: ../../chapters/getting_involved.rst:61
 msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 msgstr "Pegue um bug da `Lista de Bugs Fáceis <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
-#: ../../source/chapters/getting_involved.rst:60
-msgid "Talk to us on IRC for help on how to fix it."
-msgstr "Converse com a gente no IRC para ajuda em como corrigí-lo."
+#: ../../chapters/getting_involved.rst:63
+msgid "Talk to us on :term:`Zulip` for help on how to fix it."
+msgstr ""
 
-#: ../../source/chapters/getting_involved.rst:61
+#: ../../chapters/getting_involved.rst:64
 msgid ""
 "Fix it! *Done!* Your name will now be on the `Mixxx contributor list "
-"<http://mixxx.org/contact/>`_."
-msgstr "Conserte! *Pronto!* Agora seu nome vai estar na `lista de contribuíntes do Mixx <http://mixxx.org/contact/>`_."
+"<https://mixxx.org/contact/>`_."
+msgstr ""
