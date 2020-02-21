@@ -1,4 +1,4 @@
-fabric<2.0
+fabric3<2.0
 sphinx
 sphinx-intl
 graphviz
