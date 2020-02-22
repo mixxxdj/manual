@@ -181,7 +181,8 @@ your audio interface's hardware, your operating system, your audio interface's
 driver, and other factors in your computer's hardware. The round trip latency
 can only be found by measuring it. To do this, use a physical cable to connect
 the audio interface's output to its input. Then, use a third party program to
-measure the round trip latency. These programs are recommended on each OS:
+measure the round trip latency. These programs are recommended on each
+:term:`OS <operating system>`:
 
 * **GNU/Linux**:
   `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_
