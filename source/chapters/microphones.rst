@@ -205,7 +205,7 @@ remeasure your round trip latency to have your microphone inputs aligned in
 your recorded and broadcasted mixes.
 
 .. warning:: Make sure direct monitoring is *not*
-            :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`
+             :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`
              while you are measuring the round trip latency or you will not get
              an accurate measurement.
 
