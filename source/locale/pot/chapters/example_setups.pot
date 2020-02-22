@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,11 +138,11 @@ msgid "Laptop and Splitter Cable"
 msgstr ""
 
 #: ../../chapters/example_setups.rst:98
-msgid "The cheapest way to DJ and :term:`cue` with headphones uses a stereo-to-mono DJ splitter cable (also known as a “Y cable”) plugged into the headphone jack of a laptop or other computer. This cable divides the stereo output from a single jack into two separate mono singals."
+msgid "The cheapest way to DJ and :term:`cue` with headphones uses a stereo-to-mono DJ splitter cable (also known as a “Y cable”) plugged into the headphone jack of a laptop or other computer. This cable divides the stereo output from a single jack into two separate mono signals."
 msgstr ""
 
 #: ../../chapters/example_setups.rst:103
-msgid "This setup allows you to start DJing without having to invest in expensive equipment. However, because the signals are in mono, you and your audience will not be able to enjoy music producers' positioning of sound in space (although many club PA systems are wired in mono anyway). Furthermore, audio interfaces built into computers are usually low quality and often pick up interface from other components of the computer."
+msgid "This setup allows you to start DJing without having to invest in expensive equipment. However, because the signals are in mono, you and your audience will not be able to enjoy music producers' positioning of sound in space (although many club PA systems are wired in mono anyway). Furthermore, audio interfaces built into computers are usually low quality and often pick up interference from other components of the computer."
 msgstr ""
 
 #: ../../chapters/example_setups.rst:110
@@ -259,4 +259,3 @@ msgstr ""
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
 msgstr ""
-

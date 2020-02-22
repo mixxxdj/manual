@@ -1,8 +1,9 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Christophe Genre <cgenre.dev@lilo.org>, 2019
 # Damien <damien.bernard@openmailbox.org>, 2015
 # Damien <damien.bernard@openmailbox.org>, 2015
 # Sebastien BLAISOT <sebastien@blaisot.org>, 2015
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:06+0000\n"
-"Last-Translator: Damien <damien.bernard@openmailbox.org>\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,423 +21,83 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/chapters/introduction.rst:2
+#: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
 msgstr "Introduction à Mixxx"
 
-#: ../../source/chapters/introduction.rst:4
+#: ../../chapters/introduction.rst:8
 msgid ""
-"Mixxx allows you to perform live DJ mixes with your digital music "
-"collection. It helps you rock the party with MIDI controllers, vinyl "
-"turntables, or even just your keyboard."
-msgstr "Mixxx vous permet de réaliser des mix de DJ avec votre collection de musique numérique. Il vous aide à animer vos soirées avec des contrôleurs MIDI, des platines vinyle ou simplement votre clavier."
+"Mixxx enables you to perform live DJ mixes with your digital music "
+"collection. It helps you rock the party with DJ controllers, vinyl "
+"turntables, or even just your keyboard. It is developed by an international "
+"team of volunteers who want to bring the joy of DJing to everyone. The "
+"project is non-profit, open-source and community driven. Together, we aim to"
+" build the best DJ software ever created. We hope you will :ref:`join us "
+"<contributing>`!"
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:8
+#: ../../chapters/introduction.rst:18
+msgid "How Mixxx Works"
+msgstr ""
+
+#: ../../chapters/introduction.rst:19
 msgid ""
-"Mixxx is used by professional DJs and bedroom DJs alike. It is designed by "
-"an international team of volunteer DJs who want to bring the joy of DJing to"
-" everyone. The project is non-profit, open-source and community driven. "
-"Together and with your help we aim to build the best DJ software ever "
-"created."
-msgstr "Mixxx est utilisé par des DJ professionnels aussi bien que par des DJ occasionnels. Il est conçu par une équipe internationale de DJ bénévoles qui souhaitent permettre à tout le monde de découvrir la joie du mixage. C'est un projet à but non lucratif, libre et piloté par la communauté. Ensemble et avec votre aide, nous ambitionnons de construire le meilleur logiciel pour DJ jamais conçu."
+"Mixxx is different from typical music player applications because it plays "
+"multiple audio files at the same time and has many features to manipulate "
+"the playback of the audio files. This lets you creatively mix different "
+"tracks together on the fly."
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:14
-msgid "Mixxx Features"
-msgstr "Fonctionnalités de Mixxx"
-
-#: ../../source/chapters/introduction.rst:19
+#: ../../chapters/introduction.rst:24
 msgid ""
-"**4 Decks**: Each deck features a scratchable, scrolling waveform that marks"
-" beats and cue points, along with a whole-song waveform overview for quick "
-"seeking."
-msgstr "**4 Platines**: Chaque platine comprend une forme d'onde, qu'on peut scratcher ou faire défiler et qui marque les battements et les points de repère, ainsi qu'une vue d'ensemble de la forme d'onde de la piste entière pour une recherche rapide."
+"You can use Mixxx to preview the next track in headphones before the "
+"audience hears it, also known as headphone cueing. This helps you choose a "
+"track that is appropriate for the present moment and that will mix well into"
+" the currently playing track(s). To use headphone cueing, you need at least "
+"2 separate audio outputs, typically provided by a USB audio interface (also "
+"known as a “sound card”, although most of them are not shaped like cards "
+"anymore). Mixxx can be used in two different ways for headphone cueing:"
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:22
+#: ../../chapters/introduction.rst:32
+msgid "**Internal Mixing**"
+msgstr ""
+
+#: ../../chapters/introduction.rst:34
 msgid ""
-"**Advanced Controls**: Change playback with time stretching, and loop beat "
-"segments."
-msgstr "**Contrôles avancés** : Modifiez la lecture en étirant le temps, formez des boucles de segments rythmiques."
+"Mixxx plays multiple audio files on the computer at the same time, mixes "
+"them together, and sends the mixed signal to one audio interface output. A "
+"separate signal is sent to another audio interface output for headphone "
+"cueing. Often a DJ controller is used with internal mixing to provide easier"
+" control over Mixxx than a mouse and keyboard."
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:24
-msgid "**Sampler Decks**: Perfect for dropping that vocal sample or airhorn."
-msgstr "**Platines d’échantillonnage** : Parfait pour vos samples de voix ou de corne de brume"
-
-#: ../../source/chapters/introduction.rst:25
+#: ../../chapters/introduction.rst:48
 msgid ""
-"**External Library Integration**: Use your playlists and songs from iTunes, "
-"Traktor, Rhythmbox, and Banshee."
-msgstr "**Intégration des bibliothèques externes**: Utilisez vos listes de lecture et chansons de iTunes, Traktor, Rhthmbox et Banshee."
+"Using Mixxx together with a DJ controller for internal mixing. The DJ "
+"controller has an integrated audio interface that provides two separate "
+"stereo outputs."
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:27
+#: ../../chapters/introduction.rst:52
+msgid "**External Mixing**"
+msgstr ""
+
+#: ../../chapters/introduction.rst:54
 msgid ""
-"**BPM Detection and Sync**: Instantly detect and sync the tempo of your "
-"songs."
-msgstr "**Détection de tempo et synchronisation** : Détectez instantanément et synchronisez le tempo de vos morceaux. "
+"In this kind of setup, Mixxx plays multiple audio files on the computer at "
+"the same time and sends each track to a separate audio interface output. The"
+" audio interface's outputs are plugged into an external hardware mixer. The "
+"hardware mixer performs the actual mixing of the audio signals. On the "
+"hardware mixer, there are separate outputs for the mixed signal to play to "
+"the audience and for the DJ to use headphone cueing. External mixing is "
+"typically used with turntables and :ref:`special vinyl records<vinyl-"
+"control>` to manipulate digital music files as if the music was on the vinyl"
+" records."
+msgstr ""
 
-#: ../../source/chapters/introduction.rst:28
+#: ../../chapters/introduction.rst:71
 msgid ""
-"**DJ Controller Support**: Control your DJ mixes with MIDI/HID controllers."
-msgstr "**Support des contrôleurs DJ** : Contrôlez vos mixes avec des contrôleurs MIDI/HID."
-
-#: ../../source/chapters/introduction.rst:29
-msgid ""
-"**Timecode Support**: Use a real turntable or DJ-CD player as a controller."
-msgstr "**Support timecode** : Utilisez une platine réelle ou un lecteur DJ-CD comme contrôleur."
-
-#: ../../source/chapters/introduction.rst:30
-msgid ""
-"**Live Broadcasting**: Start a radio station and stream your mixes live over"
-" the Internet."
-msgstr "**Diffusion en direct\" : Lancez une station radio et diffusez vos mixes en direct sur internet."
-
-#: ../../source/chapters/introduction.rst:32
-msgid ""
-"**Powerful Mixing Engine**: Supports various file formats, custom EQ "
-"shelves, recording, etc."
-msgstr "**Moteur de mixage puissant** : Supporte de nombreux formats de fichiers, les bancs d'égalisation personnalisables, l'enregistrement, etc..."
-
-#: ../../source/chapters/introduction.rst:34
-msgid ""
-"**Automatic Mixing**: Create a quick playlist and let Auto DJ take over."
-msgstr "**Mixage automatique** : Créez rapidement une liste de lecture et laissez Auto DJ faire le reste."
-
-#: ../../source/chapters/introduction.rst:35
-msgid "**Microphone Input**: Drop vocals or give shoutouts on the air."
-msgstr "**Entrée Microphone**: Lâchez un texte ou faites des dédicaces à l'antenne."
-
-#: ../../source/chapters/introduction.rst:38
-msgid "New in Mixxx |version|"
-msgstr "Nouveautés dans Mixxx |version|"
-
-#: ../../source/chapters/introduction.rst:44
-msgid "4 decks"
-msgstr "4 platines"
-
-#: ../../source/chapters/introduction.rst:45
-msgid "Master sync"
-msgstr "Synchronisation principale"
-
-#: ../../source/chapters/introduction.rst:46
-msgid "Color-coded waveforms showing the frequencies in tracks"
-msgstr "Des formes d'onde avec un code couleur indiquent les fréquences dans les pistes"
-
-#: ../../source/chapters/introduction.rst:47
-msgid ""
-"Key detection and pitch shifting (independent of tempo) for harmonic mixing"
-msgstr "Détection de tonalité et modification de hauteur (indépendante du tempo) pour un mixage harmonique"
-
-#: ../../source/chapters/introduction.rst:48
-msgid "Choice of traditional, OpenKey, Lancelot, and custom key notations"
-msgstr "Un choix parmi les notations traditionnelles, OpenKey, Lancelot et personnalisées"
-
-#: ../../source/chapters/introduction.rst:49
-msgid "4 effect units with built-in effects"
-msgstr "4 unités d'effets internes"
-
-#: ../../source/chapters/introduction.rst:50
-msgid "Controller mapping :term:`GUI`"
-msgstr "Affectation des contrôleurs :term:`GUI`"
-
-#: ../../source/chapters/introduction.rst:51
-msgid "Resizable skins"
-msgstr "Thèmes redimensionnables"
-
-#: ../../source/chapters/introduction.rst:52
-msgid "Beat jumping and loop move"
-msgstr "Saut de battement et déplacement de boucle"
-
-#: ../../source/chapters/introduction.rst:53
-msgid "Multiple library folders"
-msgstr "Répertoires de bibliothèque multiples"
-
-#: ../../source/chapters/introduction.rst:54
-msgid "Hierarchical library sorting"
-msgstr "Classement hiérarchique de la bibliothèque"
-
-#: ../../source/chapters/introduction.rst:55
-msgid "Cover/album art support"
-msgstr "Prise en charge des jaquettes/couvertures d'album"
-
-#: ../../source/chapters/introduction.rst:56
-msgid "Vinyl passthrough mode to switch between control vinyl and music vinyl"
-msgstr "Mode vinyle passthrough pour basculer entre un vinyle de contrôle et un vinyle de musique"
-
-#: ../../source/chapters/introduction.rst:58
-msgid "Auxiliary inputs that pass through to the master mix"
-msgstr "Entrées auxiliaires qui passent directement vers le mix principal"
-
-#: ../../source/chapters/introduction.rst:59
-msgid "Mono output and input support"
-msgstr "Prise en charge des entrées et sorties mono"
-
-#: ../../source/chapters/introduction.rst:60
-msgid "Improved support for using multiple sound cards"
-msgstr "Prise en charge améliorée de l'utilisation simultanée de plusieurs cartes son"
-
-#: ../../source/chapters/introduction.rst:61
-msgid "Over 100 other performance, quality and usability improvements"
-msgstr "Plus de 100 autres améliorations sur les performances, la qualité et l'utilisation"
-
-#: ../../source/chapters/introduction.rst:63
-msgid "For a full list of features go to: `<http://mixxx.org/features/>`_"
-msgstr "Pour une liste complète des fonctionnalités, consultez : `<http://mixxx.org/features/>`_"
-
-#: ../../source/chapters/introduction.rst:64
-msgid ""
-"For an overview of the new features, go to: `<http://mixxx.org/whats-new-in-"
-"mixxx-2-0>`_"
-msgstr "Pour un aperçu des nouvelles fonctionnalités, voir `<http://mixxx.org/whats-new-in-mixxx-2-0>`_"
-
-#: ../../source/chapters/introduction.rst:66
-msgid ""
-"For a full list of new features and bugfixes, go to: "
-"`https://launchpad.net/mixxx/2.0.0 "
-"<https://launchpad.net/mixxx/+milestone/2.0.0>`_"
-msgstr "Pour une liste complète des nouvelles fonctionnalités et correctifs de bugs, voir  `https://launchpad.net/mixxx/2.0.0 <https://launchpad.net/mixxx/+milestone/2.0.0>`_"
-
-#: ../../source/chapters/introduction.rst:69
-msgid ""
-"For an overview of previous changes, go to :ref:`appendix-version-history`."
-msgstr "Pour un aperçu des précédents changements, consultez : :ref:`appendix-version-history`."
-
-#: ../../source/chapters/introduction.rst:73
-msgid "System Requirements"
-msgstr "Pré-requis système"
-
-#: ../../source/chapters/introduction.rst:75
-msgid ""
-"Mixxx is available for Windows, Mac OS X and GNU/Linux. Mixxx is designed to"
-" use very few system resources, but the Mixxx Development Team suggests "
-"these minimum requirements for having a great experience with Mixxx:"
-msgstr "Mixxx est disponible pour Windows, Mac OS X et GNU/Linux. Mixxx est conçu pour utiliser très peu de ressources, mais l'équipe de développement de Mixxx vous suggère ces pré-requis minimum pour obtenir la meilleure expérience avec Mixxx."
-
-#: ../../source/chapters/introduction.rst:79
-msgid "A 2GHz or faster CPU"
-msgstr "Un processeur 2GHz ou supérieur"
-
-#: ../../source/chapters/introduction.rst:80
-msgid "At least 1GB of RAM"
-msgstr "Au moins 1 Go de RAM"
-
-#: ../../source/chapters/introduction.rst:81
-msgid "A soundcard with 2 stereo audio outputs (4 mono output channels)"
-msgstr "Une carte son avec 2 sorties audio stéréo (4 canaux de sorties mono)"
-
-#: ../../source/chapters/introduction.rst:83
-msgid ""
-"The EQs can be disabled to save CPU usage. Using this feature, Mixxx can be "
-"used with an external mixer and a less powerful computer such as a netbook."
-msgstr "Les égaliseurs peuvent être désactivés pour économiser des ressources processeur. Dans ce cas, Mixxx peut être utilisé avec une table de mixage externe et un ordinateur moins puissant comme un netbook."
-
-#: ../../source/chapters/introduction.rst:88
-msgid "About the Mixxx Project"
-msgstr "À propos du Projet Mixxx"
-
-#: ../../source/chapters/introduction.rst:90
-msgid ""
-"Mixxx is designed by an international team of volunteer DJs who want to "
-"bring the joy of DJing to everyone. The project is non-profit, open-source "
-"and community driven. Together and with your help we aim to build the best "
-"DJ software ever created."
-msgstr "Mixxx est conçu par une équipe internationale de DJ bénévoles qui souhaitent permettre à tout le monde de découvrir la joie du mixage. C'est un projet à but non lucratif, libre et piloté par la communauté. Ensemble et avec votre aide, nous ambitionnons de construire le meilleur logiciel pour DJ jamais conçu."
-
-#: ../../source/chapters/introduction.rst:95
-msgid ""
-"Mixxx started as an open-source project because of demand for DJing software"
-" on Linux, and discontent with proprietary DJ software on Windows and Mac OS"
-" X. Today, Mixxx development is driven by the simple idea that together we "
-"can create a better way to DJ, and that has brought Mixxx to the cutting "
-"edge."
-msgstr "Mixxx a démarré comme projet open-source en raison de la demande pour un logiciel de mixage sous linux et du mécontentement envers les logiciels de mixage propriétaires sous Windows et Max OS X. Aujourd'hui, le développement de Mixxx est porté par la simple idée qu'ensemble nous pouvons créer une meilleure façon de mixer, et cela a amené Mixxx à la pointe."
-
-#: ../../source/chapters/introduction.rst:100
-msgid ""
-"Mixxx is the only free cross-platform vinyl control software and has the "
-"most advanced MIDI/HID controller support via our innovative JavaScript-"
-"based scripting engine. We are continuing to pursue new and exciting "
-"features that give DJs more tools to create better live mixes."
-msgstr "Mixxx est le seul logiciel libre de contrôle vinyl multi-plateforme et dispose du support de contrôleurs MIDI/HID le plus avancé via notre moteur de script innovant basé sur javascript. Nous recherchons constamment de nouvelles fonctionnalités pour donner aux DJ un maximum d'outils en vue de créer les meilleurs mixes live."
-
-#: ../../source/chapters/introduction.rst:106
-msgid "Project History"
-msgstr "Historique du projet"
-
-#: ../../source/chapters/introduction.rst:108
-msgid ""
-"Mixxx was originally created in 2002 as part of a PhD thesis on new "
-"interfaces for DJing by Tue Haste Andersen. After releasing the project as "
-"open source, dozens of contributors began modifying and improving Mixxx."
-msgstr "Mixxx a été initialement créé en 2002 dans le cadre d'une thèse de doctorat sur de nouvelles interfaces pour mixer par Thue Haste Andersen. Après que le projet eut été rendu disponible en open source, des dizaines de contributeurs commencèrent à modifier et améliorer Mixxx."
-
-#: ../../source/chapters/introduction.rst:112
-msgid ""
-"In 2006, a new development team lead by Adam Davison and Albert Santoni "
-"began reorganizing the project to ensure smooth growth of both the code-base"
-" and the number of contributors. A renewed focus on usability and stability "
-"has helped Mixxx grow to become the most popular free DJ software in the "
-"world, receiving over 1,000,000 downloads annually. Our committed team has "
-"worked hard to create great DJ software, and this growth is a sign of our "
-"success."
-msgstr "En 2006, une nouvelle équipe de développement menée par Adam Davidson et Albert Santoni commença à réorganiser le projet pour faciliter la croissance à la fois du code et du nombre de contributeurs. L'accent mis à nouveau sur la facilité d'utilisation et la stabilité ont permis à Mixxx de devenir le logiciel libre pour DJ le plus populaire au monde, avec plus de 1 000 000 de téléchargements annuels. Notre équipe dévouée a travaillé dur pour créer un excellent logiciel pour DJ, et cette croissance est le signe de notre succès."
-
-#: ../../source/chapters/introduction.rst:119
-msgid ""
-"In 2011, RJ Ryan took over as Lead Developer to successfully continue the "
-"team's endeavor to make Mixxx a world-class DJ software."
-msgstr "En 2011, RJ Ryan a repris la charge de développeur principal afin de poursuivre avec succès l'effort de l'équipe pour faire de Mixxx un logiciel de DJing de classe mondiale."
-
-#: ../../source/chapters/introduction.rst:122
-msgid ""
-"As our user community grows, so does our development team - Over 150 "
-"developers, artists, and translators have helped create Mixxx!"
-msgstr "L'accroissement de notre communauté d'utilisateurs s'accompagne d'un accroissement de notre équipe de développement - Plus de 150 développeurs, artistes et traducteurs ont aidé à créer Mixxx !"
-
-#: ../../source/chapters/introduction.rst:126
-msgid "About the Mixxx Manual"
-msgstr "À Propos du Manuel de Mixxx"
-
-#: ../../source/chapters/introduction.rst:131
-msgid ""
-"Some effort has been made to present the material in a way that is neither "
-"too technical nor too dumbed-down. Take some time to look through it and "
-"you'll find lots of hints that will enhance both your enjoyment and your "
-"productivity."
-msgstr "Des efforts ont été faits pour vous présenter un manuel qui ne soit à la fois pas trop technique ni trop simpliste. Prenez le temps de le parcourir et vous trouverez de nombreuses astuces qui amélioreront à la fois votre plaisir et votre productivité."
-
-#: ../../source/chapters/introduction.rst:135
-msgid "Through the manual you'll find text formatted like this:"
-msgstr "Tout au long de ce manuel, vous trouverez du texte formaté de la façon suivante :"
-
-#: ../../source/chapters/introduction.rst:137
-msgid ":menuselection:`Library --> Add new Playlist`"
-msgstr ":menuselection:`Bibliothèque --> Créer une nouvelle liste de lecture`"
-
-#: ../../source/chapters/introduction.rst:139
-msgid ""
-"This is to simplify the business of choosing commands in menus. In this "
-"example, the instruction means “Open the *Library* menu at the top of the "
-"application window and then choose the *Add new Playlist* command”."
-msgstr "Il s'agit du choix d'une commande dans les menus. Dans cet exemple, cette instruction indique “Ouvrez le menu *Bibliothèque* en haut de la fenêtre de l'application puis choisissez la commande *Créer une nouvelle liste de lecture*”."
-
-#: ../../source/chapters/introduction.rst:143
-msgid ":guilabel:`Apply`"
-msgstr ":guilabel:`Appliquer`"
-
-#: ../../source/chapters/introduction.rst:145
-msgid ""
-"This is used to indicate a certain area of the :term:`GUI`, including button"
-" labels, tabs, checkboxes, field names, values in selection lists etc. ."
-msgstr "Est utilisé pour indiquer une zone de la :term:`GUI`, comme un bouton, un onglet , une case à cocher, le nom d'un champ ou une valeur dans une liste de sélection, etc..."
-
-#: ../../source/chapters/introduction.rst:148
-msgid ":kbd:`STRG` + :kbd:`G`"
-msgstr ":kbd:`CTRL` + :kbd:`G`"
-
-#: ../../source/chapters/introduction.rst:150
-msgid ""
-"This is used to mark a keystroke, or a sequence of keystrokes. In this "
-"example, you would have to hold down the *STRG* key, then to press *G*."
-msgstr "Est utilisé pour indiquer une touche ou une séquence de touches. Dans cet exemple, vous devez presser et maintenir la touche *CTRL* enfoncée, puis appuyer sur la touche *G*."
-
-#: ../../source/chapters/introduction.rst:153
-msgid "`<https://www.wikipedia.org//>`_"
-msgstr "`<https://www.wikipedia.org//>`_"
-
-#: ../../source/chapters/introduction.rst:155
-msgid "Links to external websites are marked like this."
-msgstr "Les liens vers des sites externes sont indiqués de la sorte."
-
-#: ../../source/chapters/introduction.rst:157
-msgid "Important information in this manual are highlighted like this:"
-msgstr "Les informations importantes de ce manuel sont présentées de cette façon :"
-
-#: ../../source/chapters/introduction.rst:159
-msgid "For anything that should receive a bit more attention."
-msgstr "Tout ce qui nécessite un peu plus d'attention."
-
-#: ../../source/chapters/introduction.rst:161
-msgid "For supplementary information that lightens the work load."
-msgstr "Pour les informations complémentaires qui permettent de diminuer la charge de travail."
-
-#: ../../source/chapters/introduction.rst:163
-msgid ""
-"For references to other documents or websites if they need special "
-"attention."
-msgstr "Pour les références à d'autres documents ou sites web s'ils nécessitent une attention particulière."
-
-#: ../../source/chapters/introduction.rst:166
-msgid "For anything that needs to be done with caution."
-msgstr "Tout ce qui doit être fait avec précaution."
-
-#: ../../source/chapters/introduction.rst:169
-msgid "Improving the Manual"
-msgstr "Améliorer le manuel"
-
-#: ../../source/chapters/introduction.rst:171
-msgid ""
-"**Send Feedback**: If you have comments, corrections or suggestions "
-"regarding the manual, `write us an email <feedback@mixxx.org?subject=Mixxx-"
-"Manual>`_."
-msgstr "**Envoyer un retour**: Si vous avez des commentaires, corrections ou suggestions à propos de ce manuel, `envoyez nous un mail <feedback@mixxx.org?subject=Mixxx-Manual>`_."
-
-#: ../../source/chapters/introduction.rst:174
-msgid ""
-"**Get the Source Code**: To download the source code for the Mixxx manual, "
-"go to: `<https://github.com/mixxxdj/manual>`_"
-msgstr "**Téléchargez le code source**: Pour télécharger le code source du manuel de Mixxx, consultez : `<https://github.com/mixxxdj/manual>`_"
-
-#: ../../source/chapters/introduction.rst:178
-msgid "Additional Resources"
-msgstr "Ressources Complémentaires"
-
-#: ../../source/chapters/introduction.rst:183
-msgid ""
-"Got questions? Need more information? Want to :ref:`contribute "
-"<contributing>` ? There are a variety of other resources you can use to find"
-" out more."
-msgstr "Vous avez des questions ? Besoin d'informations complémentaires ? Vous voulez :ref:`contribuer <contributing>`  ? Il existe de nombreuses autres ressources que vous pouvez utiliser pour en savoir davantage."
-
-#: ../../source/chapters/introduction.rst:186
-msgid ""
-"**Mixxx Website**: For general information and updates, as well as the "
-"latest news on Mixxx, go to: `<http://mixxx.org>`_"
-msgstr "**Site web de Mixxx** : Pour des informations générales et des mises à jour, ainsi que les dernières informations sur Mixxx, consultez : `<http://mixxx.org>`_"
-
-#: ../../source/chapters/introduction.rst:189
-msgid ""
-"**Mixxx Support Websites**: To get support from the Mixxx wiki, IRC channel "
-"or Developer mailing list, go to: `<http://mixxx.org/support>`_"
-msgstr "**Les sites de support de Mixxx**: Pour obtenir du support à partir du wiki Mixxx, du canal IRC ou de la mailing list des développeurs, visitez : `<http://mixxx.org/support>`_"
-
-#: ../../source/chapters/introduction.rst:192
-msgid ""
-"**Mixxx Community Forums**: To search for answers, post your question or "
-"answer other DJ's questions, go to: `<http://mixxx.org/forums>`_"
-msgstr "**Les forums communautaires Mixxx** : Pour trouver des réponses, poser votre question ou répondre aux questions d'autres DJ, rendez-vous sur : `<http://mixxx.org/forums>`_"
-
-#: ../../source/chapters/introduction.rst:195
-msgid ""
-"**Mixxx Source Code**: To download the source code for Mixxx, go to: "
-"`<https://github.com/mixxxdj/mixxx>`_"
-msgstr "**Code source de Mixxx**: Pour télécharger le code source de Mixxx, visitez : `<https://github.com/mixxxdj/mixxx>`_"
-
-#: ../../source/chapters/introduction.rst:198
-msgid ""
-"**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
-"`<https://bugs.launchpad.net/mixxx>`_"
-msgstr "**Mixxx Bug Tracker**: Pour rapporter un bug ou demander une fonctionnalité, consultez : `<https://bugs.launchpad.net/mixxx>`_"
-
-#: ../../source/chapters/introduction.rst:201
-msgid ""
-"**Mixxx Translations**: To translate Mixxx and promote your mother tongue, "
-"go to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please "
-"read the `Translation FAQ "
-"<http://mixxx.org/wiki/doku.php/internationalization>`_ first."
-msgstr "**Traductions de Mixxx**: Pour traduire Mixxx et promouvoir votre langue maternelle, allez sur `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Lisez d'abord la ` FAQ des traductions<http://mixxx.org/wiki/doku.php/internationalization>`_  s'il vous plaît "
-
-#: ../../source/chapters/introduction.rst:206
-msgid ""
-"**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ , "
-"`Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,"
-" and `Google+ <https://plus.google.com/+mixxx/posts>`_ ."
-msgstr "**Réseaux sociaux**: Suivez nous sur `Twitter <https://twitter.com/mixxxdj>`_ , `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ , et `Google+ <https://plus.google.com/+mixxx/posts>`_ ."
+"Using Mixxx together with a USB audio interface, external mixer, and "
+"timecode vinyl for external mixing"
+msgstr ""

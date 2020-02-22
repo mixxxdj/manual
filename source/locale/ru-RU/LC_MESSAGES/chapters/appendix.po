@@ -1,0 +1,1472 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../chapters/appendix.rst:4
+msgid "Appendix"
+msgstr ""
+
+#: ../../chapters/appendix.rst:7
+msgid "Additional Resources"
+msgstr ""
+
+#: ../../chapters/appendix.rst:12
+msgid ""
+"Got questions? Need more information? Want to :ref:`contribute "
+"<contributing>`? There are a variety of other resources where you can find "
+"out more:"
+msgstr ""
+
+#: ../../chapters/appendix.rst:15
+msgid ""
+"**Mixxx Website**: For general information and updates, as well as the "
+"latest news on Mixxx, go to: `<https://mixxx.org>`_"
+msgstr ""
+
+#: ../../chapters/appendix.rst:18
+msgid ""
+"**Mixxx Wiki**: For up-to-date information about supported DJ hardware, "
+"documentation on making controller mappings, and other tips and tricks, go "
+"to: `<https://mixxx.org/wiki/>`_"
+msgstr ""
+
+#: ../../chapters/appendix.rst:22
+msgid ""
+"**Mixxx Community Forums**: To search for answers, post your question or "
+"answer other DJ's questions, go to: `<https://mixxx.org/forums>`_"
+msgstr ""
+
+#: ../../chapters/appendix.rst:25
+msgid ""
+"**Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our `Zulip"
+" chat <https://mixxx.zulipchat.com/>`_. Stand-alone `apps for Zulip "
+"<https://zulipchat.com/apps/>`_ can be configured to use the server "
+"``mixxx.zulipchat.com``."
+msgstr ""
+
+#: ../../chapters/appendix.rst:30
+msgid ""
+"**Mixxx Source Code**: To download the source code for Mixxx, go to: "
+"`<https://github.com/mixxxdj/mixxx>`_"
+msgstr ""
+
+#: ../../chapters/appendix.rst:33
+msgid ""
+"**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
+"`<https://bugs.launchpad.net/mixxx>`_"
+msgstr ""
+
+#: ../../chapters/appendix.rst:36
+msgid ""
+"**Mixxx Translations**: To translate Mixxx and promote your mother tongue, "
+"go to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please "
+"read the `Translation FAQ "
+"<https://mixxx.org/wiki/doku.php/internationalization>`_ first."
+msgstr ""
+
+#: ../../chapters/appendix.rst:41
+msgid ""
+"**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ , "
+"`Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,"
+" and `Google+ <https://plus.google.com/+mixxx/posts>`_ ."
+msgstr ""
+
+#: ../../chapters/appendix.rst:48
+msgid "Keyboard mapping table"
+msgstr ""
+
+#: ../../chapters/appendix.rst:50
+msgid ""
+"Shortcuts let you work more efficiently. This table lists the default "
+"keyboard shortcuts for accessing Mixxx with an English keyboard layout. "
+"Depending on your language settings the defaults may be different."
+msgstr ""
+
+#: ../../chapters/appendix.rst:55 ../../chapters/appendix.rst:205
+msgid "Function"
+msgstr ""
+
+#: ../../chapters/appendix.rst:55
+msgid "Deck 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:55
+msgid "Deck 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:55
+msgid "Master"
+msgstr ""
+
+#: ../../chapters/appendix.rst:57
+msgid "**Mixer**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:59
+msgid "Crossfade Left"
+msgstr ""
+
+#: ../../chapters/appendix.rst:59
+msgid "G"
+msgstr ""
+
+#: ../../chapters/appendix.rst:61
+msgid "Crossfade Right"
+msgstr ""
+
+#: ../../chapters/appendix.rst:61
+msgid "H"
+msgstr ""
+
+#: ../../chapters/appendix.rst:63
+msgid "Small Crossfade Left"
+msgstr ""
+
+#: ../../chapters/appendix.rst:63
+msgid "Shift + G"
+msgstr ""
+
+#: ../../chapters/appendix.rst:65
+msgid "Small Crossfade Right"
+msgstr ""
+
+#: ../../chapters/appendix.rst:65
+msgid "Shift + H"
+msgstr ""
+
+#: ../../chapters/appendix.rst:67
+msgid "Activate/Disable Effects Unit"
+msgstr ""
+
+#: ../../chapters/appendix.rst:67
+msgid "5"
+msgstr ""
+
+#: ../../chapters/appendix.rst:67
+msgid "0"
+msgstr ""
+
+#: ../../chapters/appendix.rst:69
+msgid "Headphone Cue (Pre-fader listen)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:69
+msgid "T"
+msgstr ""
+
+#: ../../chapters/appendix.rst:69
+msgid "Y"
+msgstr ""
+
+#: ../../chapters/appendix.rst:71
+msgid "Bass Kill"
+msgstr ""
+
+#: ../../chapters/appendix.rst:71
+msgid "B"
+msgstr ""
+
+#: ../../chapters/appendix.rst:71
+msgid "N"
+msgstr ""
+
+#: ../../chapters/appendix.rst:73
+msgid "**Playback**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:75
+msgid "Load selected track to deck"
+msgstr ""
+
+#: ../../chapters/appendix.rst:75
+msgid "Shift + left"
+msgstr ""
+
+#: ../../chapters/appendix.rst:75
+msgid "Shift + right"
+msgstr ""
+
+#: ../../chapters/appendix.rst:77
+msgid "Unload track from deck"
+msgstr ""
+
+#: ../../chapters/appendix.rst:77
+msgid "Alt + Shift + left"
+msgstr ""
+
+#: ../../chapters/appendix.rst:77
+msgid "Alt + Shift + right"
+msgstr ""
+
+#: ../../chapters/appendix.rst:79
+msgid "Playback"
+msgstr ""
+
+#: ../../chapters/appendix.rst:79
+msgid "D"
+msgstr ""
+
+#: ../../chapters/appendix.rst:79
+msgid "L"
+msgstr ""
+
+#: ../../chapters/appendix.rst:81 ../../chapters/appendix.rst:163
+msgid "Seek Backwards"
+msgstr ""
+
+#: ../../chapters/appendix.rst:81
+msgid "A"
+msgstr ""
+
+#: ../../chapters/appendix.rst:81
+msgid "J"
+msgstr ""
+
+#: ../../chapters/appendix.rst:83
+msgid "Reverse Playback"
+msgstr ""
+
+#: ../../chapters/appendix.rst:83
+msgid "Shift + A"
+msgstr ""
+
+#: ../../chapters/appendix.rst:83
+msgid "Shift + J"
+msgstr ""
+
+#: ../../chapters/appendix.rst:85 ../../chapters/appendix.rst:165
+msgid "Seek Forwards"
+msgstr ""
+
+#: ../../chapters/appendix.rst:85
+msgid "S"
+msgstr ""
+
+#: ../../chapters/appendix.rst:85
+msgid "K"
+msgstr ""
+
+#: ../../chapters/appendix.rst:87
+msgid "Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix.rst:87
+msgid "F1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:87
+msgid "F5"
+msgstr ""
+
+#: ../../chapters/appendix.rst:89
+msgid "Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix.rst:89
+msgid "F2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:89
+msgid "F6"
+msgstr ""
+
+#: ../../chapters/appendix.rst:91
+msgid "Small Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix.rst:91
+msgid "Shift + F1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:91
+msgid "Shift + F5"
+msgstr ""
+
+#: ../../chapters/appendix.rst:93
+msgid "Small Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix.rst:93
+msgid "Shift + F2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:93
+msgid "Shift + F6"
+msgstr ""
+
+#: ../../chapters/appendix.rst:95
+msgid "Temporary Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix.rst:95
+msgid "F3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:95
+msgid "F7"
+msgstr ""
+
+#: ../../chapters/appendix.rst:97
+msgid "Temporary Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix.rst:97
+msgid "F4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:97
+msgid "F8"
+msgstr ""
+
+#: ../../chapters/appendix.rst:99
+msgid "Small Temporary Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix.rst:99
+msgid "Shift + F3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:99
+msgid "Shift + F7"
+msgstr ""
+
+#: ../../chapters/appendix.rst:101
+msgid "Small Temporary Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix.rst:101
+msgid "Shift + F4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:101
+msgid "Shift + F8"
+msgstr ""
+
+#: ../../chapters/appendix.rst:103
+msgid "Tempo (BPM) Sync"
+msgstr ""
+
+#: ../../chapters/appendix.rst:103
+msgid "1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:103
+msgid "6"
+msgstr ""
+
+#: ../../chapters/appendix.rst:105
+msgid "BPM Tap Tempo Adjust"
+msgstr ""
+
+#: ../../chapters/appendix.rst:105
+msgid "Shift + !"
+msgstr ""
+
+#: ../../chapters/appendix.rst:105
+msgid "Shift + ^"
+msgstr ""
+
+#: ../../chapters/appendix.rst:107
+msgid "**Cue and Loop**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:109
+msgid "Set Cuepoint"
+msgstr ""
+
+#: ../../chapters/appendix.rst:109
+msgid "Shift + D"
+msgstr ""
+
+#: ../../chapters/appendix.rst:109
+msgid "Shift + L"
+msgstr ""
+
+#: ../../chapters/appendix.rst:111
+msgid "Cue"
+msgstr ""
+
+#: ../../chapters/appendix.rst:111
+msgid "F"
+msgstr ""
+
+#: ../../chapters/appendix.rst:111
+msgid ";"
+msgstr ""
+
+#: ../../chapters/appendix.rst:113
+msgid "Cue Go-to-and-stop"
+msgstr ""
+
+#: ../../chapters/appendix.rst:113
+msgid "Shift + F"
+msgstr ""
+
+#: ../../chapters/appendix.rst:113
+msgid "Shift + :"
+msgstr ""
+
+#: ../../chapters/appendix.rst:115
+msgid "Activate 4 Beat Loop"
+msgstr ""
+
+#: ../../chapters/appendix.rst:115
+msgid "Q"
+msgstr ""
+
+#: ../../chapters/appendix.rst:115
+msgid "U"
+msgstr ""
+
+#: ../../chapters/appendix.rst:117
+msgid "Halve Beat Loop Size"
+msgstr ""
+
+#: ../../chapters/appendix.rst:117
+msgid "W"
+msgstr ""
+
+#: ../../chapters/appendix.rst:117
+msgid "I"
+msgstr ""
+
+#: ../../chapters/appendix.rst:119
+msgid "Double Beat Loop Size"
+msgstr ""
+
+#: ../../chapters/appendix.rst:119
+msgid "E"
+msgstr ""
+
+#: ../../chapters/appendix.rst:119
+msgid "O"
+msgstr ""
+
+#: ../../chapters/appendix.rst:121
+msgid "Set Loop In Point"
+msgstr ""
+
+#: ../../chapters/appendix.rst:121
+msgid "2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:121
+msgid "7"
+msgstr ""
+
+#: ../../chapters/appendix.rst:123
+msgid "Set Loop Out Point (Activates Loop)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:123
+msgid "3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:123
+msgid "8"
+msgstr ""
+
+#: ../../chapters/appendix.rst:125
+msgid "Toggle Loop On/Off"
+msgstr ""
+
+#: ../../chapters/appendix.rst:125
+msgid "4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:125
+msgid "9"
+msgstr ""
+
+#: ../../chapters/appendix.rst:127
+msgid "Set Hot cue 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:127
+msgid "Z"
+msgstr ""
+
+#: ../../chapters/appendix.rst:127
+msgid "M"
+msgstr ""
+
+#: ../../chapters/appendix.rst:129
+msgid "Set Hot cue 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:129
+msgid "X"
+msgstr ""
+
+#: ../../chapters/appendix.rst:129
+msgid ","
+msgstr ""
+
+#: ../../chapters/appendix.rst:131
+msgid "Set Hot cue 3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:131
+msgid "C"
+msgstr ""
+
+#: ../../chapters/appendix.rst:131
+msgid "."
+msgstr ""
+
+#: ../../chapters/appendix.rst:133
+msgid "Set Hot cue 4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:133
+msgid "V"
+msgstr ""
+
+#: ../../chapters/appendix.rst:133
+msgid "/"
+msgstr ""
+
+#: ../../chapters/appendix.rst:135
+msgid "Clear Hot cue 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:135
+msgid "Shift + Z"
+msgstr ""
+
+#: ../../chapters/appendix.rst:135
+msgid "Shift + M"
+msgstr ""
+
+#: ../../chapters/appendix.rst:137
+msgid "Clear Hot cue 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:137
+msgid "Shift + X"
+msgstr ""
+
+#: ../../chapters/appendix.rst:137
+msgid "Shift + <"
+msgstr ""
+
+#: ../../chapters/appendix.rst:139
+msgid "Clear Hot cue 3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:139
+msgid "Shift + C"
+msgstr ""
+
+#: ../../chapters/appendix.rst:139
+msgid "Shift + >"
+msgstr ""
+
+#: ../../chapters/appendix.rst:141
+msgid "Clear Hot cue 4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:141
+msgid "Shift + V"
+msgstr ""
+
+#: ../../chapters/appendix.rst:141
+msgid "Shift + ?"
+msgstr ""
+
+#: ../../chapters/appendix.rst:143
+msgid "**Microphone**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:145
+msgid "Microphone Talkover"
+msgstr ""
+
+#: ../../chapters/appendix.rst:145
+msgid "\\`"
+msgstr ""
+
+#: ../../chapters/appendix.rst:147
+msgid "**Auto DJ**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:149
+msgid "Shuffle Auto DJ playlist"
+msgstr ""
+
+#: ../../chapters/appendix.rst:149
+msgid "Shift + F9"
+msgstr ""
+
+#: ../../chapters/appendix.rst:151
+msgid "Skip next track in Auto DJ"
+msgstr ""
+
+#: ../../chapters/appendix.rst:151
+msgid "Shift + F10"
+msgstr ""
+
+#: ../../chapters/appendix.rst:153
+msgid "Fade to next track in Auto DJ"
+msgstr ""
+
+#: ../../chapters/appendix.rst:153
+msgid "Shift + F11"
+msgstr ""
+
+#: ../../chapters/appendix.rst:155
+msgid "Toggle Auto DJ on/Off"
+msgstr ""
+
+#: ../../chapters/appendix.rst:155
+msgid "Shift + F12"
+msgstr ""
+
+#: ../../chapters/appendix.rst:157
+msgid "**Preview Deck**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:159
+msgid "Load Selected Track And Play"
+msgstr ""
+
+#: ../../chapters/appendix.rst:159
+msgid "Alt + Return"
+msgstr ""
+
+#: ../../chapters/appendix.rst:161
+msgid "Start/Stop"
+msgstr ""
+
+#: ../../chapters/appendix.rst:161
+msgid "Return"
+msgstr ""
+
+#: ../../chapters/appendix.rst:163
+msgid "Alt + Left"
+msgstr ""
+
+#: ../../chapters/appendix.rst:165
+msgid "Alt + Right"
+msgstr ""
+
+#: ../../chapters/appendix.rst:167
+msgid "**Vinyl Control**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:169
+msgid "Passthrough"
+msgstr ""
+
+#: ../../chapters/appendix.rst:169
+msgid "Ctrl + J"
+msgstr ""
+
+#: ../../chapters/appendix.rst:169
+msgid "Ctrl + K"
+msgstr ""
+
+#: ../../chapters/appendix.rst:171
+msgid "Vinylcontrol Mode"
+msgstr ""
+
+#: ../../chapters/appendix.rst:171
+msgid "Ctrl + Shift + Y"
+msgstr ""
+
+#: ../../chapters/appendix.rst:171
+msgid "Ctrl + Shift + U"
+msgstr ""
+
+#: ../../chapters/appendix.rst:173
+msgid "Vinylcontrol Cueing"
+msgstr ""
+
+#: ../../chapters/appendix.rst:173
+msgid "Ctrl + Alt+ Y"
+msgstr ""
+
+#: ../../chapters/appendix.rst:173
+msgid "Ctrl + Alt + U"
+msgstr ""
+
+#: ../../chapters/appendix.rst:175
+msgid "Single Deck Toggle / Swap Decks"
+msgstr ""
+
+#: ../../chapters/appendix.rst:175 ../../chapters/appendix.rst:175
+#: ../../chapters/appendix.rst:239
+msgid "Ctrl + T"
+msgstr ""
+
+#: ../../chapters/appendix.rst:177
+msgid "**Search bar**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:179
+msgid "Focus"
+msgstr ""
+
+#: ../../chapters/appendix.rst:179
+msgid "Ctrl + F"
+msgstr ""
+
+#: ../../chapters/appendix.rst:181
+msgid "Clear input"
+msgstr ""
+
+#: ../../chapters/appendix.rst:181
+msgid "Ctrl + Back"
+msgstr ""
+
+#: ../../chapters/appendix.rst:183
+msgid "Exit search and leave focus"
+msgstr ""
+
+#: ../../chapters/appendix.rst:183
+msgid "ESC"
+msgstr ""
+
+#: ../../chapters/appendix.rst:185
+msgid "**Library**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:187
+msgid "Select all files in current list"
+msgstr ""
+
+#: ../../chapters/appendix.rst:187
+msgid "Ctrl + A"
+msgstr ""
+
+#: ../../chapters/appendix.rst:189
+msgid "Select group of files in current list"
+msgstr ""
+
+#: ../../chapters/appendix.rst:189
+msgid "Click first item, hold Shift key, click last item"
+msgstr ""
+
+#: ../../chapters/appendix.rst:192
+msgid ""
+"Mixxx allows you to customize the keyboard shortcuts. For more information, "
+"and to download a keyboard mapping image, go to :ref:`control-keyboard`."
+msgstr ""
+
+#: ../../chapters/appendix.rst:199
+msgid "Application shortcuts"
+msgstr ""
+
+#: ../../chapters/appendix.rst:201
+msgid ""
+"Use these shortcuts to access features available in the menu on top of the "
+"application window."
+msgstr ""
+
+#: ../../chapters/appendix.rst:205
+msgid "Key"
+msgstr ""
+
+#: ../../chapters/appendix.rst:207
+msgid "**File menu**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:209
+msgid "Load Track to Deck 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:209
+msgid "Ctrl + O"
+msgstr ""
+
+#: ../../chapters/appendix.rst:211
+msgid "Load Track to Deck 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:211
+msgid "Ctrl + Shift + O"
+msgstr ""
+
+#: ../../chapters/appendix.rst:213
+msgid "**Library menu**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:215
+msgid "Add new Playlist"
+msgstr ""
+
+#: ../../chapters/appendix.rst:215
+msgid "Ctrl + N"
+msgstr ""
+
+#: ../../chapters/appendix.rst:217
+msgid "Add new Crate"
+msgstr ""
+
+#: ../../chapters/appendix.rst:217
+msgid "Ctrl + Shift + N"
+msgstr ""
+
+#: ../../chapters/appendix.rst:219
+msgid "**View menu**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:221
+msgid "Show Skin Settings Menu"
+msgstr ""
+
+#: ../../chapters/appendix.rst:221
+msgid "Ctrl + 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:223
+msgid "Show Microphone Section"
+msgstr ""
+
+#: ../../chapters/appendix.rst:223
+msgid "Ctrl + 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:225
+msgid "Show Vinyl Control Section"
+msgstr ""
+
+#: ../../chapters/appendix.rst:225
+msgid "Ctrl + 3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:227
+msgid "Show Preview Deck"
+msgstr ""
+
+#: ../../chapters/appendix.rst:227
+msgid "Ctrl + 4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:229
+msgid "Show Cover Art"
+msgstr ""
+
+#: ../../chapters/appendix.rst:229
+msgid "Ctrl + 6"
+msgstr ""
+
+#: ../../chapters/appendix.rst:231
+msgid "Maximize Library"
+msgstr ""
+
+#: ../../chapters/appendix.rst:231
+msgid "Space"
+msgstr ""
+
+#: ../../chapters/appendix.rst:233
+msgid "Full Screen (Windows & Linux)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:233
+msgid "F11"
+msgstr ""
+
+#: ../../chapters/appendix.rst:235
+msgid "Full Screen (macOS)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:235
+msgid "Shift + Command + F"
+msgstr ""
+
+#: ../../chapters/appendix.rst:237
+msgid "**Options menu**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:239
+msgid "Enable Vinyl Control 1"
+msgstr ""
+
+#: ../../chapters/appendix.rst:241
+msgid "Enable Vinyl Control 2"
+msgstr ""
+
+#: ../../chapters/appendix.rst:241
+msgid "Ctrl + Y"
+msgstr ""
+
+#: ../../chapters/appendix.rst:243
+msgid "Enable Vinyl Control 3"
+msgstr ""
+
+#: ../../chapters/appendix.rst:243
+msgid "Ctrl + U"
+msgstr ""
+
+#: ../../chapters/appendix.rst:245
+msgid "Enable Vinyl Control 4"
+msgstr ""
+
+#: ../../chapters/appendix.rst:245
+msgid "Ctrl + I"
+msgstr ""
+
+#: ../../chapters/appendix.rst:247
+msgid "Enable Live Broadcasting"
+msgstr ""
+
+#: ../../chapters/appendix.rst:247
+msgid "Ctrl + L"
+msgstr ""
+
+#: ../../chapters/appendix.rst:249
+msgid "Record Mix"
+msgstr ""
+
+#: ../../chapters/appendix.rst:249
+msgid "Ctrl + R"
+msgstr ""
+
+#: ../../chapters/appendix.rst:251
+msgid "Enable Keyboard Shortcuts"
+msgstr ""
+
+#: ../../chapters/appendix.rst:251
+msgid "Ctrl + \\`"
+msgstr ""
+
+#: ../../chapters/appendix.rst:253
+msgid "Open Preferences (Windows & Linux)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:253
+msgid "Ctrl + P"
+msgstr ""
+
+#: ../../chapters/appendix.rst:255
+msgid "Open Preferences (macOS)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:255
+msgid "Ctrl + ,"
+msgstr ""
+
+#: ../../chapters/appendix.rst:257
+msgid "Exit Mixxx"
+msgstr ""
+
+#: ../../chapters/appendix.rst:257
+msgid "Ctrl + Q"
+msgstr ""
+
+#: ../../chapters/appendix.rst:259
+msgid "**Developer menu**"
+msgstr ""
+
+#: ../../chapters/appendix.rst:261
+msgid "Reload skin"
+msgstr ""
+
+#: ../../chapters/appendix.rst:261
+msgid "Ctrl + Shift + R"
+msgstr ""
+
+#: ../../chapters/appendix.rst:263
+msgid "Developer Tools"
+msgstr ""
+
+#: ../../chapters/appendix.rst:263
+msgid "Ctrl + Shift + T"
+msgstr ""
+
+#: ../../chapters/appendix.rst:265
+msgid "Stats: Base Bucket"
+msgstr ""
+
+#: ../../chapters/appendix.rst:265
+msgid "Ctrl + Shift + B"
+msgstr ""
+
+#: ../../chapters/appendix.rst:267
+msgid "Stats: Experiment Bucket"
+msgstr ""
+
+#: ../../chapters/appendix.rst:267
+msgid "Ctrl + Shift + E"
+msgstr ""
+
+#: ../../chapters/appendix.rst:269
+msgid "Debugger Enabled"
+msgstr ""
+
+#: ../../chapters/appendix.rst:269
+msgid "Ctrl + Shift + D"
+msgstr ""
+
+#: ../../chapters/appendix.rst:272
+msgid ""
+"The :kbd:`Ctrl` key on Windows & Linux is equivalent to the :kbd:`Command` "
+"key on macOS. The :kbd:`Alt` key on Windows & Linux is equivalent to the "
+":kbd:`Option` key on macOS. Application shortcuts are not customizable."
+msgstr ""
+
+#: ../../chapters/appendix.rst:277
+msgid ""
+"The Developer menu is available if Mixxx is started using the :ref"
+":`appendix-command-line-options`."
+msgstr ""
+
+#: ../../chapters/appendix.rst:283
+msgid "Command line options"
+msgstr ""
+
+#: ../../chapters/appendix.rst:285
+msgid ""
+"Mixxx is designed to be as user-friendly as possible. As such, its command "
+"line options are only useful for development or debugging, as they make "
+"these tasks easier. Command line options are case-sensitive."
+msgstr ""
+
+#: ../../chapters/appendix.rst:290
+msgid "Option"
+msgstr ""
+
+#: ../../chapters/appendix.rst:290
+msgid "Description"
+msgstr ""
+
+#: ../../chapters/appendix.rst:292
+msgid "[FILE]"
+msgstr ""
+
+#: ../../chapters/appendix.rst:292
+msgid ""
+"Load the specified music file(s) at start-up. Each file you specify will be "
+"loaded into the next virtual deck. For a list of supported file types, go to"
+" :ref:`configuration-import`"
+msgstr ""
+
+#: ../../chapters/appendix.rst:297
+msgid "--resourcePath PATH"
+msgstr ""
+
+#: ../../chapters/appendix.rst:297
+msgid ""
+"Top-level directory where Mixxx should look for its resource files such as "
+"MIDI mappings, overriding the default installation location."
+msgstr ""
+
+#: ../../chapters/appendix.rst:301
+msgid "--pluginPath PATH"
+msgstr ""
+
+#: ../../chapters/appendix.rst:301
+msgid ""
+"Top-level directory where Mixxx should look for sound source plugins in "
+"addition to default locations."
+msgstr ""
+
+#: ../../chapters/appendix.rst:305
+msgid "--settingsPath PATH"
+msgstr ""
+
+#: ../../chapters/appendix.rst:305
+msgid ""
+"Top-level directory where Mixxx should look for user settings files such as "
+"the library database and preferences configuration file."
+msgstr ""
+
+#: ../../chapters/appendix.rst:309
+msgid "--controllerDebug"
+msgstr ""
+
+#: ../../chapters/appendix.rst:309
+msgid ""
+"Causes Mixxx to display/log all controller data it sends and receives, and "
+"script functions it loads."
+msgstr ""
+
+#: ../../chapters/appendix.rst:313
+msgid "--developer"
+msgstr ""
+
+#: ../../chapters/appendix.rst:313
+msgid ""
+"Enables developer-mode. Includes extra log info, stats on performance, a "
+"Developer tools menu, extra developer skins, and provides useful information"
+" for skin writers in widget tooltips and logs ."
+msgstr ""
+
+#: ../../chapters/appendix.rst:319
+msgid "--safeMode"
+msgstr ""
+
+#: ../../chapters/appendix.rst:319
+msgid ""
+"Disables risky things at start up. This should help troubleshoot crashes at "
+"startup or if Mixxx won't boot."
+msgstr ""
+
+#: ../../chapters/appendix.rst:323
+msgid "Automatically loads empty waveforms"
+msgstr ""
+
+#: ../../chapters/appendix.rst:324
+msgid "Disables spinning vinyl widgets"
+msgstr ""
+
+#: ../../chapters/appendix.rst:325
+msgid "Disables synchronization polling"
+msgstr ""
+
+#: ../../chapters/appendix.rst:326
+msgid "Doesn't open controllers by default"
+msgstr ""
+
+#: ../../chapters/appendix.rst:328
+msgid "--locale LOCALE"
+msgstr ""
+
+#: ../../chapters/appendix.rst:328
+msgid "Use a custom locale for loading translations (e.g ``fr``)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:331
+msgid "-f, --fullScreen"
+msgstr ""
+
+#: ../../chapters/appendix.rst:331
+msgid "Starts Mixxx in full-screen mode"
+msgstr ""
+
+#: ../../chapters/appendix.rst:333
+msgid "--logLevel LEVEL"
+msgstr ""
+
+#: ../../chapters/appendix.rst:333
+msgid "Sets the verbosity of command line logging"
+msgstr ""
+
+#: ../../chapters/appendix.rst:335
+msgid "``critical`` - Critical/Fatal only"
+msgstr ""
+
+#: ../../chapters/appendix.rst:336
+msgid "``warning``  - Above + Warnings"
+msgstr ""
+
+#: ../../chapters/appendix.rst:337
+msgid "``info``     - Above + Informational messages"
+msgstr ""
+
+#: ../../chapters/appendix.rst:338
+msgid "``debug``    - Above + Debug/Developer messages"
+msgstr ""
+
+#: ../../chapters/appendix.rst:339
+msgid "``trace``    - Above + Profiling messages"
+msgstr ""
+
+#: ../../chapters/appendix.rst:341
+msgid "--logFlushLevel LEVEL"
+msgstr ""
+
+#: ../../chapters/appendix.rst:341
+msgid ""
+"Sets the the logging level at which the log buffer is flushed to "
+"``mixxx.log``. LEVEL is one of the values defined at ``--logLevel`` above."
+msgstr ""
+
+#: ../../chapters/appendix.rst:346
+msgid "--debugAssertBreak"
+msgstr ""
+
+#: ../../chapters/appendix.rst:346
+msgid ""
+"Breaks (SIGINT) Mixxx, if a DEBUG_ASSERT evaluates to false. Under a "
+"debugger you can continue afterwards. This  will also avoid to switch the "
+"MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to a time consuming full "
+"rebuild. Now the MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if "
+"``--debugAssertBreak`` is not passed."
+msgstr ""
+
+#: ../../chapters/appendix.rst:354
+msgid "-h, --help"
+msgstr ""
+
+#: ../../chapters/appendix.rst:354
+msgid "Display this help message and exit"
+msgstr ""
+
+#: ../../chapters/appendix.rst:358
+msgid "Developer tools"
+msgstr ""
+
+#: ../../chapters/appendix.rst:360
+msgid ""
+"To start Mixxx in Developer mode from a custom resource directory with "
+":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
+"the terminal and hit return: ::"
+msgstr ""
+
+#: ../../chapters/appendix.rst:368
+msgid "Experiment modes for rapid development and testing"
+msgstr ""
+
+#: ../../chapters/appendix.rst:370
+msgid ""
+"Adds a static Experiment class with a tri-state mode flag that indicates "
+"whether the experiment mode is OFF, BASE, or EXPERIMENT."
+msgstr ""
+
+#: ../../chapters/appendix.rst:373
+msgid ""
+"Adds :menuselection:`Developer --> Stats:Experiment Bucket` and "
+":menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between "
+"OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would "
+"like to collect in your base and experiment buckets."
+msgstr ""
+
+#: ../../chapters/appendix.rst:378
+msgid ""
+"Updates StatsManager to segment collected stats into a base and experiment "
+"bucket. This allows you to quickly measure the difference a code change has "
+"on relevant counters / timers within the same execution of Mixxx."
+msgstr ""
+
+#: ../../chapters/appendix.rst:382
+msgid ""
+"This is useful for quickly enabling and disabling a code change without a "
+"re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as "
+"well as a quantified sense of how it differs in terms of stats Mixxx "
+"collects."
+msgstr ""
+
+#: ../../chapters/appendix.rst:387
+msgid ""
+"All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are "
+"segmented into a BASE STATS and EXPERIMENT STATS section printed to the log "
+"on exit."
+msgstr ""
+
+#: ../../chapters/appendix.rst:395
+msgid "Version History"
+msgstr ""
+
+#: ../../chapters/appendix.rst:396
+msgid "**v2.1.0** (2018-04-15)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:398
+msgid "Graphical interface scales for high resolution screens"
+msgstr ""
+
+#: ../../chapters/appendix.rst:399
+msgid "Overhauled Deere and LateNight skins"
+msgstr ""
+
+#: ../../chapters/appendix.rst:400
+msgid "New Tango skin"
+msgstr ""
+
+#: ../../chapters/appendix.rst:401
+msgid "Resizable waveforms"
+msgstr ""
+
+#: ../../chapters/appendix.rst:402
+msgid "Effects are synchronized to the tempo"
+msgstr ""
+
+#: ../../chapters/appendix.rst:403
+msgid ""
+"Effects are processed post-fader and post-crossfader and can be previewed in"
+" headphones"
+msgstr ""
+
+#: ../../chapters/appendix.rst:404
+msgid ""
+"One metaknob per effect with customizable parameter control for intuitive "
+"use of effect chains"
+msgstr ""
+
+#: ../../chapters/appendix.rst:405
+msgid ""
+"Nine new effects: Autopan, Biquad Equalizer, Biquad Full Kill Equalizer, "
+"Loudness Contour, Metronome, Parametric Equalizer, Phaser, Stereo Balance, "
+"Tremolo"
+msgstr ""
+
+#: ../../chapters/appendix.rst:406
+msgid ""
+"Loaded effects and their parameters are saved and restored when Mixxx "
+"restarts"
+msgstr ""
+
+#: ../../chapters/appendix.rst:407
+msgid ""
+"More transparent sounding equalizers (Biquad Equalizer and Biquad Full Kill "
+"Equalizer)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:408
+msgid ""
+"Improved scratching sounds with jog wheels, vinyl control, and dragging "
+"waveforms with the mouse"
+msgstr ""
+
+#: ../../chapters/appendix.rst:409
+msgid "Simplified looping and beatjump controls"
+msgstr ""
+
+#: ../../chapters/appendix.rst:410
+msgid ""
+"Configurable rows of 8 samplers with up to 8 rows available for a total of "
+"64 samplers"
+msgstr ""
+
+#: ../../chapters/appendix.rst:411
+msgid "Files loaded to samplers are reloaded when Mixxx restarts"
+msgstr ""
+
+#: ../../chapters/appendix.rst:412
+msgid "Improved volume normalization algorithm (EBU-R 128)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:413
+msgid "Filter library table by crates"
+msgstr ""
+
+#: ../../chapters/appendix.rst:414
+msgid "Sort musical keys in library table by circle of fifths"
+msgstr ""
+
+#: ../../chapters/appendix.rst:415
+msgid "Write metadata tags back to audio files"
+msgstr ""
+
+#: ../../chapters/appendix.rst:416
+msgid "New JavaScript library for controller mapping"
+msgstr ""
+
+#: ../../chapters/appendix.rst:417
+msgid ""
+"Configure multiple Internet broadcasting stations and use multiple stations "
+"at the same time"
+msgstr ""
+
+#: ../../chapters/appendix.rst:418
+msgid ""
+"Broadcast and record microphones with direct monitoring and latency "
+"compensation"
+msgstr ""
+
+#: ../../chapters/appendix.rst:419
+msgid "Broadcast and record from an external mixer"
+msgstr ""
+
+#: ../../chapters/appendix.rst:420
+msgid ""
+"Booth output with independent gain knob for using sound cards with 6 output "
+"channels without an external mixer"
+msgstr ""
+
+#: ../../chapters/appendix.rst:421
+msgid "Prevent screensaver from starting while Mixxx is running"
+msgstr ""
+
+#: ../../chapters/appendix.rst:422
+msgid "CUP (Cue And Play) cue button mode"
+msgstr ""
+
+#: ../../chapters/appendix.rst:423
+msgid "Time remaining and time elapsed now take into account the tempo fader"
+msgstr ""
+
+#: ../../chapters/appendix.rst:424
+msgid "Clicking cover art now shows it full size in a separate window"
+msgstr ""
+
+#: ../../chapters/appendix.rst:426
+msgid ""
+"For a full list of new features and bugfixes, go to: "
+"`https://launchpad.net/mixxx/2.1 "
+"<https://launchpad.net/mixxx/+milestone/2.1.0>`_."
+msgstr ""
+
+#: ../../chapters/appendix.rst:430
+msgid "**v2.0.0** (2015-12-31)"
+msgstr ""
+
+#: ../../chapters/appendix.rst:432
+msgid "4 Decks with Master Sync"
+msgstr ""
+
+#: ../../chapters/appendix.rst:433
+msgid ""
+"New Effects Framework with 4 Effect Units and 5 Built-in Effects: * Flanger,"
+" Bit Crusher, Reverb, Echo, Filter * More to come!"
+msgstr ""
+
+#: ../../chapters/appendix.rst:436
+msgid "Configurable, Resizeable User Interface with 3 Brand New Skins"
+msgstr ""
+
+#: ../../chapters/appendix.rst:437
+msgid "Cover Art Display"
+msgstr ""
+
+#: ../../chapters/appendix.rst:438
+msgid "Music Key Detection and Shifting"
+msgstr ""
+
+#: ../../chapters/appendix.rst:439
+msgid "Vinyl Audio Pass-Through"
+msgstr ""
+
+#: ../../chapters/appendix.rst:440
+msgid "4 Microphone inputs and 4 Auxiliary inputs"
+msgstr ""
+
+#: ../../chapters/appendix.rst:441
+msgid "MIDI Mapping GUI and Improved Learning Wizard"
+msgstr ""
+
+#: ../../chapters/appendix.rst:442
+msgid "MusicBrainz metadata fetching"
+msgstr ""
+
+#: ../../chapters/appendix.rst:443
+msgid "RGB Musical Waveforms"
+msgstr ""
+
+#: ../../chapters/appendix.rst:444
+msgid "Hundreds of Bug Fixes and Improvements"
+msgstr ""
+
+#: ../../chapters/appendix.rst:445
+msgid "New Pitch-Independent Algorithm for Better-Sounding Key-lock"
+msgstr ""
+
+#: ../../chapters/appendix.rst:447
+msgid ""
+"For a full list of new features and bugfixes, go to: "
+"`https://launchpad.net/mixxx/2.0 "
+"<https://launchpad.net/mixxx/+milestone/2.0.0>`_."
+msgstr ""
+
+#: ../../chapters/appendix.rst:450
+msgid ""
+"For an overview of previous versions, `take a look "
+"<https://launchpad.net/mixxx/+series>`_ at the timeline."
+msgstr ""

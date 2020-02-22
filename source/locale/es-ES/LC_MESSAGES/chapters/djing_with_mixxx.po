@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-11-25 12:38+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/chapters/djing_with_mixxx.rst:4
+#: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:6
+#: ../../chapters/djing_with_mixxx.rst:6
 msgid ""
 "Mixxx was designed to be easy to learn for both novice and experienced DJs."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:8
+#: ../../chapters/djing_with_mixxx.rst:8
 msgid ""
 "This part of the manual provides you with directions for using Mixxx's "
 "features to create your own mixes."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:14
+#: ../../chapters/djing_with_mixxx.rst:14
 msgid "Setting Your Levels Properly (Gain Staging)"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:23
+#: ../../chapters/djing_with_mixxx.rst:24
 msgid ""
 "Setting your levels properly, also known as gain staging, is essential for "
 "getting the best sound quality out of the equipment you are using. At every "
@@ -51,7 +51,7 @@ msgid ""
 "(the transients) should briefly go into the yellow region."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:40
+#: ../../chapters/djing_with_mixxx.rst:41
 msgid ""
 "A waveform at a good level. Note that the example waveforms in this section "
 "were made by adjusting the visual gain of the waveform display in Mixxx to "
@@ -59,7 +59,7 @@ msgid ""
 "does not change the level of the audio."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:50
+#: ../../chapters/djing_with_mixxx.rst:52
 msgid ""
 "**If a level meter is in its red region, the signal is clipping and the gain"
 " should be turned down.** Some equipment doesn't have a level meter and only"
@@ -75,11 +75,11 @@ msgid ""
 "efficiently."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:67
+#: ../../chapters/djing_with_mixxx.rst:69
 msgid "A clipping waveform"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:74
+#: ../../chapters/djing_with_mixxx.rst:76
 msgid ""
 "On the other hand, the signal should not be too low. This is because every "
 "audio device generates a little noise at a level referred to as its noise "
@@ -98,23 +98,23 @@ msgid ""
 "up."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:94
+#: ../../chapters/djing_with_mixxx.rst:96
 msgid "A waveform that is too close to the noise floor"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:96
+#: ../../chapters/djing_with_mixxx.rst:98
 msgid ""
-"To adjust the output volume of a sound system while maintaing a high signal-"
-"to-noise ratio, the gain should be adjusted as close to the speakers as "
-"possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for "
-"details."
+"To adjust the output volume of a sound system while maintaining a high "
+"signal-to-noise ratio, the gain should be adjusted as close to the speakers "
+"as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
+" details."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:104
+#: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:106
+#: ../../chapters/djing_with_mixxx.rst:108
 msgid ""
 ":term:`Beatmatching` is the process of adjusting the playback rate of a "
 "track so that it matches the tempo of another track. Beatmatching also "
@@ -123,7 +123,7 @@ msgid ""
 "and aligning the beats are the two things a DJ must do to beatmatch."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:112
+#: ../../chapters/djing_with_mixxx.rst:114
 msgid ""
 "Mixxx can match the tempo and align the beats for you but this requires an "
 "accurately detected BPM value and a correct beat grid for both tracks. To "
@@ -137,7 +137,7 @@ msgid ""
 " with another track. See the chapter :ref:`interface-rate`."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:123
+#: ../../chapters/djing_with_mixxx.rst:125
 msgid ""
 "Two tracks are beatmatched once their tempos are matched and their beats are"
 " aligned. A “perfect” beatmatch is nearly impossible - there will always be "
@@ -149,18 +149,18 @@ msgid ""
 "pitch bend buttons a few times in the appropriate direction."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:135
+#: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:139
+#: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
 ":term:`Master Sync` is an intelligent assistant that allows you to leave the"
 " beatmatching to Mixxx so you can focus on track selection, effects "
 "manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:143
+#: ../../chapters/djing_with_mixxx.rst:143
 msgid ""
 "To activate Master Sync on a deck, push and hold (or click and hold) the "
 ":guilabel:`SYNC` button. You'll know Master Sync is on because the sync "
@@ -168,11 +168,11 @@ msgid ""
 "will change the rates of all other decks that also have the Sync button lit."
 "  There is no need to set specific decks to be a master or followers.  You "
 "can play, stop, eject, load, and queue any track with master sync and it "
-"won't interrupt the playback of the other decks.  Changing the rate of "
-"stopped deck will change the rate of playing decks, however."
+"won't interrupt the playback of the other decks.  However, changing the rate"
+" of a stopped deck will change the rate of playing decks."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:152
+#: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
 "Master Sync will also notice if one of your tracks is double the BPM of "
 "another track and match them correctly.  So if you want to mix a 140 BPM "
@@ -180,7 +180,7 @@ msgid ""
 "they are lined up properly."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:157
+#: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
 "Usually, Master Sync will only make sure the rate sliders are set correctly."
 "  If you also want to make sure your beats are perfectly in sync, turn on "
@@ -188,18 +188,18 @@ msgid ""
 "the beats are perfectly lined up as well."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:165
+#: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:167
+#: ../../chapters/djing_with_mixxx.rst:167
 msgid ""
 "Harmonic mixing is a technique to mix songs with matching melodies and "
 "harmonies. To learn more about harmonic mixing you might want to check out "
-"`the mixshare site`_."
+"`the mixshare archive`_."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:173
+#: ../../chapters/djing_with_mixxx.rst:173
 msgid ""
 "Mixxx has two features to help you with harmonic mixing. The first is a "
 ":term:`key lock`. When it is active changing the speed of a track won't "
@@ -207,225 +207,34 @@ msgid ""
 "button in the :ref:`interface-button-grid`. The second is that Mixxx can "
 "automatically detect the key of a track and will display it in the library "
 "and the decks. The notation which is used to display a key can be changed in"
-" :ref:`Key Detection Preferences <key-detection>`."
+" :ref:`Key Detection Preferences <configuration-key-detection>`."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:184
-msgid "Using Effects"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:188
-msgid "Mixxx comes with a set of native effects."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:193
-msgid "Flanger"
-msgstr "Flanger"
-
-#: ../../source/chapters/djing_with_mixxx.rst:202
-msgid "Flanger controls"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:204
-msgid ""
-"This effect applies a “sweeping” sound to the channel and can add extra "
-"depth to a mix when used tactfully."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:209
-msgid "**FX Button**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:208
-msgid ""
-"The FX (“Effects”) button enables a built-in flanger effect on the selected "
-"channel."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:212
-msgid "**Delay/Depth/LFO Knobs**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:212
-msgid ""
-"Adjusts the phase delay, intensity and the wavelength of the flange effect."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:214
-msgid ""
-"For the most noticeable effect, enable the FX button and turn the Depth knob"
-" completely to the right."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:221
-msgid "BitCrusher"
-msgstr "BitCrusher"
-
-#: ../../source/chapters/djing_with_mixxx.rst:230
-msgid "BitCrusher controls"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:232
-msgid ""
-"The BitCrusher is an effect that adds quantisation noise to the signal by "
-"the reduction of the resolution or bandwidth of the samples"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:236
-msgid "**Bit Depth**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:236
-msgid "Adjusts the bit depth of the samples."
-msgstr "Ajusta la profundidad de bits de las muestras."
-
-#: ../../source/chapters/djing_with_mixxx.rst:239
-msgid "**Downsampling**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:239
-msgid "Adjusts the sample rate, to which the signal is downsampled."
-msgstr "Ajusta la frecuencia de muestreo, que es la señal disminuirá."
-
-#: ../../source/chapters/djing_with_mixxx.rst:244
-msgid "Filter"
-msgstr "Filtro"
-
-#: ../../source/chapters/djing_with_mixxx.rst:253
-msgid "Filter controls"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:255
-msgid ""
-"The filter changes the tone of the music by allowing only high or low "
-"frequencies to pass through."
-msgstr "El filtro cambia el tono de la música que sólo permite alta o bajas frecuencias para pasar a través."
-
-#: ../../source/chapters/djing_with_mixxx.rst:259
-msgid "**LPF**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:259
-msgid "Corner frequency ratio of the low pass filter"
-msgstr "Relación de frecuencia de esquina del bajo filtro de paso"
-
-#: ../../source/chapters/djing_with_mixxx.rst:262
-msgid "**Q**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:262
-msgid "Resonance of the filters, default = Flat top"
-msgstr "Resonancia de los filtros por defecto = Flat top"
-
-#: ../../source/chapters/djing_with_mixxx.rst:265
-msgid "**HPF**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:265
-msgid "Corner frequency ratio of the high pass filter"
-msgstr "Relación de frecuencia de esquina del alto filtro de paso"
-
-#: ../../source/chapters/djing_with_mixxx.rst:270
-msgid "Reverb"
-msgstr "Reverb"
-
-#: ../../source/chapters/djing_with_mixxx.rst:278
-msgid "Reverb controls"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:281
-msgid ""
-"This is a port of the GPL'ed CAPS Reverb plugin, which has the following "
-"description: This is based on some of the famous Stanford CCRMA reverbs "
-"(NRev, KipRev) all based on the Chowning/Moorer/Schroeder reverberators, "
-"which use networks of simple allpass and comb delay filters."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:288
-msgid "**Bandwidth**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:287
-msgid ""
-"Higher bandwidth values cause more bright (high-frequency) tones to be "
-"included"
-msgstr "Valores de ancho de banda más altos causan más brillante tonos (alta frecuencia) que se incluirán"
-
-#: ../../source/chapters/djing_with_mixxx.rst:291
-msgid "**Damping**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:291
-msgid "Higher damping values cause reverberations to die out more quickly."
-msgstr "Valores mayores de amortiguamiento provocan reverberaciones a morir más rápidamente."
-
-#: ../../source/chapters/djing_with_mixxx.rst:293
-msgid "This effect is not available in the Mac App Store version of Mixxx."
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:298
-msgid "Echo"
-msgstr "Eco"
-
-#: ../../source/chapters/djing_with_mixxx.rst:307
-msgid "Echo controls"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:309
-msgid "Simple Echo with pingpong"
-msgstr "Simple Echo con ping-pong"
-
-#: ../../source/chapters/djing_with_mixxx.rst:312
-msgid "**Send**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:312
-msgid "How much of the signal to send into the delay buffer"
-msgstr "Cuánto de la señal a enviar en el búfer de retardo"
-
-#: ../../source/chapters/djing_with_mixxx.rst:315
-msgid "**Delay**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:315
-msgid "Delay time (seconds)"
-msgstr "Tiempo de retardo (segundos)"
-
-#: ../../source/chapters/djing_with_mixxx.rst:318
-msgid "**Feedback**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:318
-msgid "Amount the echo fades each time it loops"
-msgstr "Cantidad el eco desvanece cada vez coloca"
-
-#: ../../source/chapters/djing_with_mixxx.rst:322
-msgid "**PingPong**"
-msgstr ""
-
-#: ../../source/chapters/djing_with_mixxx.rst:321
-msgid ""
-"As the ping-pong amount increases, increasing amounts of the echoed signal "
-"is bounced between the left and right speakers."
-msgstr "A medida que aumenta la cantidad de ping pong, cantidades crecientes de la señal de eco se rebotó entre los altavoces izquierdos y derecho."
-
-#: ../../source/chapters/djing_with_mixxx.rst:327
+#: ../../chapters/djing_with_mixxx.rst:184
 msgid "Recording Your Mix"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:332
+#: ../../chapters/djing_with_mixxx.rst:189
 msgid ""
 "With the integrated recording feature you can record your mix as an audio "
-"file and listen to it later, distribute it as :term:`Podcast` or burn it to "
-"CD. Mixxx records the master output - the audio you hear from the speakers "
-"including the microphone."
+"file and listen to it later, distribute it as a :term:`Podcast` or burn it "
+"to CD."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:344
+#: ../../chapters/djing_with_mixxx.rst:192
+msgid ""
+"By default, Mixxx records the Master output. Alternatively, Mixxx can record"
+" the output of an external mixer if you have an audio interface configured "
+"for the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences "
+"--> Sound Hardware`. Refer to :ref:`microphones-record-broadcast-external-"
+"mixer` for details."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:205
 msgid "Mixxx library - Recordings view"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:346
+#: ../../chapters/djing_with_mixxx.rst:207
 msgid ""
 "Mixxx can record your mix in various audio formats and quality settings. You"
 " can split your recordings, generate :term:`cue files <cue sheet>`, choose a"
@@ -436,7 +245,7 @@ msgid ""
 ":menuselection:`Preferences --> Recording`."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:354
+#: ../../chapters/djing_with_mixxx.rst:215
 msgid ""
 "If you click on the *Recordings* icon in the sidebar of the Mixxx library, "
 "the track table to the right displays the content of your recordings "
@@ -444,142 +253,228 @@ msgid ""
 "as CUE files if you choose to create them in the preferences."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:359
+#: ../../chapters/djing_with_mixxx.rst:220
 msgid ""
 "Recording your mixes and listening to them later to critique yourself is a "
 "great tool for improving your DJing skills. Sending your mixes to other DJs "
 "for feedback can also be helpful."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:364
+#: ../../chapters/djing_with_mixxx.rst:225
 msgid "Record your mix to disk"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:366
-msgid "Displays the duration of the recording."
+#: ../../chapters/djing_with_mixxx.rst:227
+msgid ""
+"Click on the recording icon on top of the application window to start, and "
+"stop the recording session. The duration of the running recording is "
+"displayed next to the icon."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:369
+#: ../../chapters/djing_with_mixxx.rst:231
+msgid "The recording widget might not be available in some skins."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:233
+msgid "Alternatively:"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:235
 msgid ""
 "Click on the *Recordings* icon in the sidebar to switch to the "
 ":guilabel:`Recordings` view"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:371
+#: ../../chapters/djing_with_mixxx.rst:237
 msgid ""
 "Click the :guilabel:`Start Recording` button or click "
 ":menuselection:`Options --> Record Mix` in the menu on top of the Mixxx "
 "application window."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:374
+#: ../../chapters/djing_with_mixxx.rst:240
 msgid ""
-"The display above the track table shows how many data has already been "
+"The display above the track table shows how much data has already been "
 "recorded, as well as the duration of the recording."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:376
+#: ../../chapters/djing_with_mixxx.rst:242
 msgid "Perform your mix"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:377
+#: ../../chapters/djing_with_mixxx.rst:243
 msgid ""
 "Click the :guilabel:`Stop Recording` button to stop the recording when the "
 "mix has finished."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:380
+#: ../../chapters/djing_with_mixxx.rst:246
 msgid ""
-"You can instantly play your recording as track in Mixxx. Simply drag-and-"
+"You can instantly play your recording as a track in Mixxx. Simply drag-and-"
 "drop the track to a deck."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:386
+#: ../../chapters/djing_with_mixxx.rst:252
 msgid "Using Auto DJ For Automatic Mixing"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:398
+#: ../../chapters/djing_with_mixxx.rst:264
 msgid "Mixxx library - Auto DJ view"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:400
+#: ../../chapters/djing_with_mixxx.rst:266
 msgid ""
 "Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
 "when the current track is nearly finished, and crossfade into it.  See :ref"
 ":`library-auto-dj`."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:405
+#: ../../chapters/djing_with_mixxx.rst:271
 msgid "Loading tracks into Auto DJ"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:407
+#: ../../chapters/djing_with_mixxx.rst:273
 msgid ""
 "To play tracks automatically, they must first be loaded into the Auto DJ "
 "playlist. The Auto DJ playlist is empty by default."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:417
+#: ../../chapters/djing_with_mixxx.rst:283
 msgid "Mixxx library - Adding a playlist to Auto DJ"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:419
+#: ../../chapters/djing_with_mixxx.rst:285
 msgid "There are several ways to load tracks into the Auto DJ playlist:"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:421
+#: ../../chapters/djing_with_mixxx.rst:287
 msgid ""
 "Select single or multiple tracks from the library, a regular playlist or "
 "crate and drag them to the Auto DJ icon on the left."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:423
+#: ../../chapters/djing_with_mixxx.rst:289
 msgid ""
 "Select a regular playlist or crate, right-click with the mouse and select "
 ":guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto"
 " DJ."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:425
+#: ../../chapters/djing_with_mixxx.rst:291
 msgid ""
 "While in the Auto DJ view of the library, drag tracks from external file "
 "managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
 " the right."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:430
+#: ../../chapters/djing_with_mixxx.rst:298
+msgid "Using Auto DJ crates"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:300
+msgid ""
+"Instead of inserting the contents of the crates directly into the Auto DJ "
+"playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
+"crates that become a source of random track selections."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:304
+msgid ""
+"**Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto "
+"DJ` item in the sidebar, and right-click on the :guilabel:`Crates` sub-item."
+" Select one of the existing crates from the list. This makes the content of "
+"the crate available for random selection into the :ref:`Auto DJ <library-"
+"auto-dj>` queue for automatic mixing. The name of the crate is now listed as"
+" sub-item below."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:311
+msgid ""
+"If you do not have any crates available for selection in the list, go and "
+"create a crate first and add some tracks, see :ref:`library-crates`."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:314
+msgid ""
+"**Manually add tracks from track sources to Auto DJ**: Click the "
+":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
+"the library. Click the :guilabel:`Add random` button to add one track at the"
+" time from Auto DJ track sources to the bottom of the Auto DJ playlist."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:319
+msgid ""
+"If you did not set any crates as an Auto DJ track source, clicking the "
+":guilabel:`Add Random` button will add a randomly selected track from the "
+"whole library instead."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:323
+msgid ""
+"**Automatically add tracks from track sources to Auto DJ**: Mixxx can "
+"randomly add tracks to the Auto DJ playlist from track sources as soon as a "
+"specified minimum number of tracks remain. Select "
+":menuselection:`Preferences --> Auto DJ --> Enable random track addition to "
+"queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` "
+"to change the minimum number of tracks after which random tracks may be "
+"added."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:330
+msgid ""
+"If you did not set any crates as an Auto DJ track source, tracks are "
+"selected from the whole library instead."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:333
+msgid ""
+"**Remove a crate from the Auto DJ track sources**: Expand the "
+":guilabel:`Auto DJ` item in the sidebar, and right-click on one of the "
+"crates listed below the :guilabel:`Crates` sub-item. Select "
+":guilabel:`Remove Crate as Track Source` to remove the crate from the Auto "
+"DJ track sources."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:339
 msgid "Playing tracks in Auto DJ"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:432
+#: ../../chapters/djing_with_mixxx.rst:341
 msgid ""
 "Now that you have loaded tracks into the Auto DJ playlist, you can activate "
 "Auto DJ as follows:"
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:435
+#: ../../chapters/djing_with_mixxx.rst:344
 msgid ""
 "Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
 "DJ` view of the library."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:437
+#: ../../chapters/djing_with_mixxx.rst:346
 msgid "Click the :guilabel:`Enable Auto DJ` button."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:438
+#: ../../chapters/djing_with_mixxx.rst:347
 msgid ""
 "The first tracks from your list are loaded into the decks and the playback "
 "starts."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:440
+#: ../../chapters/djing_with_mixxx.rst:349
 msgid ""
 "Mixxx will continue to automatically mix until the Auto DJ playlist is "
 "empty."
 msgstr ""
 
-#: ../../source/chapters/djing_with_mixxx.rst:441
+#: ../../chapters/djing_with_mixxx.rst:350
 msgid ""
 "Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:352
+msgid ""
+"You can add a track to the end of the Auto DJ playlist once it is played "
+"instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
+"queue tracks after playback --> On`."
 msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:37+0000\n"
-"Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"Last-Translator: Benny Beat <bennybeat@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,60 +18,14 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/_templates/layout.html:30
-msgid "Navigation"
-msgstr "Navegació"
+#: ../../_templates/download.html:2
+msgid "Download"
+msgstr "Baixada"
 
-#: ../../source/_templates/layout.html:130
-msgid "Search within %(docstitle)s"
-msgstr "Cerca en %(docstitle)s"
+#: ../../_templates/download.html:7
+msgid "Offline versions of this manual"
+msgstr ""
 
-#: ../../source/_templates/layout.html:139
-msgid "About these documents"
-msgstr "Sobre aquests documents"
-
-#: ../../source/_templates/layout.html:142
-msgid "Index"
-msgstr "Índex"
-
-#: ../../source/_templates/layout.html:145
-msgid "Search"
-msgstr "Cerca"
-
-#: ../../source/_templates/layout.html:148
-msgid "Copyright"
-msgstr "Copyright"
-
-#: ../../source/_templates/layout.html:197
-msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-
-#: ../../source/_templates/layout.html:199
-msgid "&copy; Copyright %(copyright)s."
-msgstr "&copy; Copyright %(copyright)s."
-
-#: ../../source/_templates/layout.html:203
-msgid "Last updated on %(last_updated)s."
-msgstr "Actualitzat el %(last_updated)s."
-
-#: ../../source/_templates/layout.html:206
-msgid ""
-"Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
-"%(sphinx_version)s."
-msgstr "Generat amb <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-
-#: ../../source/_templates/searchbox.html:12
-msgid "Quick search"
-msgstr "Cerca ràpida"
-
-#: ../../source/_templates/searchbox.html:15
-msgid "Go"
-msgstr "Vés"
-
-#: ../../source/_templates/searchbox.html:20
-msgid "Looking for something?"
-msgstr "Cerques alguna cosa?"
-
-#: ../../source/_templates/localtoc.html:11
-msgid "In This Section"
-msgstr "En aquesta secció"
+#: ../../_templates/download.html:10
+msgid "PDF"
+msgstr ""

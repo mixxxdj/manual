@@ -1,17 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
 # Damien <damien.bernard@openmailbox.org>, 2015
-# Ed Ward <edwsaintesprit@hotmail.com>, 2015
+# Ed Ward, 2015
+# Rafael French <rafael.venan@free.fr>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:06+0000\n"
-"Last-Translator: Damien <damien.bernard@openmailbox.org>\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-01-31 11:58+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/chapters/quickstart.rst:2
+#: ../../chapters/quickstart.rst:4
 msgid "Quickstart"
 msgstr "Démarrage rapide"
 
-#: ../../source/chapters/quickstart.rst:4
+#: ../../chapters/quickstart.rst:6
 msgid ""
 "If you're new to DJing, this is the section for you. We've got some "
 "tutorials for you that cover the basics of DJing with Mixxx. If you already "
@@ -31,54 +32,54 @@ msgid ""
 "get your groove on with Mixxx, you can skip to the `Table of Contents`_."
 msgstr "Si vous débutez le DJing, ce chapitre est pour vous. Nous vous proposons des tutoriels qui couvrent les fondamentaux du DJing avec Mixxx. Si en revanche, vous êtes déjà DJ et cherchez simplement comment fonctionne Mixxx, vous pouvez passer directement à la `Table of Contents`_."
 
-#: ../../source/chapters/quickstart.rst:10
+#: ../../chapters/quickstart.rst:12
 msgid "Example of a note"
 msgstr "Exemple de remarque"
 
-#: ../../source/chapters/quickstart.rst:12
+#: ../../chapters/quickstart.rst:14
 msgid "Example of a warning"
 msgstr "Exemple d'avertissement"
 
-#: ../../source/chapters/quickstart.rst:0
+#: ../../chapters/quickstart.rst:16
 msgid "Todo"
 msgstr "A faire"
 
-#: ../../source/chapters/quickstart.rst:14
+#: ../../chapters/quickstart.rst:16
 msgid "Example of a todo"
 msgstr "Exemple de note \"à faire\""
 
-#: ../../source/chapters/quickstart.rst:17
+#: ../../chapters/quickstart.rst:19
 msgid "Loading a Track"
 msgstr "Charger une piste"
 
-#: ../../source/chapters/quickstart.rst:19
+#: ../../chapters/quickstart.rst:21
 msgid "Lesson about how to load a track."
 msgstr "Leçon concernant le chargement d'une piste."
 
-#: ../../source/chapters/quickstart.rst:23
+#: ../../chapters/quickstart.rst:25
 msgid "Using the Mixer Section"
-msgstr "Utilisez la partie mélangeur"
+msgstr "Utilisez la section table de mixage"
 
-#: ../../source/chapters/quickstart.rst:25
+#: ../../chapters/quickstart.rst:27
 msgid "Lesson about how to use the mixer."
-msgstr "Leçon concernant l'utilisation du mélangeur."
+msgstr "Leçon concernant l'utilisation de la table de mixage."
 
-#: ../../source/chapters/quickstart.rst:28
+#: ../../chapters/quickstart.rst:30
 msgid "The Beatmatching Basics"
 msgstr "Les fondamentaux du beatmatching"
 
-#: ../../source/chapters/quickstart.rst:30
+#: ../../chapters/quickstart.rst:32
 msgid "Lesson about how to beatmatch."
 msgstr "Leçon concernant le beatmatching (synchronisation des pistes)"
 
-#: ../../source/chapters/quickstart.rst:34
+#: ../../chapters/quickstart.rst:36
 msgid "Getting Funky with Effects"
 msgstr "Utiliser les effets pour rendre votre mix plus funky"
 
-#: ../../source/chapters/quickstart.rst:36
+#: ../../chapters/quickstart.rst:38
 msgid "Effects overview tutorial."
 msgstr "Tutoriel d'introduction aux effets."
 
-#: ../../source/chapters/quickstart.rst:40
+#: ../../chapters/quickstart.rst:42
 msgid "Mixxxing it Up with Hotcues and Loops"
 msgstr "Mixez encore plus haut avec les boucles et les hotcues"

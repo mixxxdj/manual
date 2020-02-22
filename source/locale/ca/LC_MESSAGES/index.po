@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:37+0000\n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:23+0000\n"
 "Last-Translator: Josep Maria Antolin <josepma@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -19,32 +19,49 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/index.rst:7
+#: ../../index.rst:9
 msgid "Mixxx |version| User Manual"
 msgstr "Manual d'usuari del Mixxx |version|"
 
-#: ../../source/index.rst:9
+#: ../../index.rst:11
 msgid ""
-"Mixxx is free [#f1]_ DJ software for Windows, Mac OS X and Linux. It's easy "
-"to use so you can start mixing your favourite songs in no time, even if "
-"you've never DJed before. Mixxx offers a variety of features for experienced"
-" DJs and beginners alike, such as automatic beat and key detection, master "
-"sync, hotcues, looping, 4 decks, effects and many more. You can perform with"
-" Mixxx using :term:`MIDI` and :term:`HID` controllers, CD players, vinyl "
-"turntables or even just your computer's keyboard and mouse."
-msgstr "El Mixxx és una aplicació de DJ lliure [#f1]_ per Windows, Mac OS X i Linux. És fàcil d'utilitzar de manera que podeu començar mesclant les vostres cançons preferides de seguida, fins i tot si sou nous en fer de DJ. Mixxx ofereix una sèrie de característiques per DJs experimentats i també per a princiants, com són la detecció automàtica de tocs de compàs i clau musical, sincronització mestra, hotcues, bucles, 4 plats, efectes i molts més. Podeu utilitzar dispositius :term:`MIDI` i :term:`HID`, reproductors de CD, tocadiscs o tan sols el teclat i el ratolí."
+"Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software "
+"for Windows, macOS and Linux. It's easy to use, even if you've never DJed. "
+"Mixxx offers a variety of features to help beginners get started and help "
+"experienced DJs get creative:"
+msgstr ""
 
-#: ../../source/index.rst:20
+#: ../../index.rst:16
+msgid "beat, tempo, and musical key detection"
+msgstr ""
+
+#: ../../index.rst:17
+msgid "master sync"
+msgstr ""
+
+#: ../../index.rst:18
+msgid "hotcues"
+msgstr ""
+
+#: ../../index.rst:19
+msgid "looping"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "4 decks"
+msgstr "4 plats"
+
+#: ../../index.rst:21
+msgid "effects"
+msgstr ""
+
+#: ../../index.rst:23
+msgid ""
+"You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, "
+"CD players, vinyl turntables or even just your computer's keyboard and "
+"mouse."
+msgstr ""
+
+#: ../../index.rst:27
 msgid "Table of Contents"
 msgstr "Taula de continguts"
-
-#: ../../source/index.rst:45
-msgid "**For documentation writers**"
-msgstr "**Per als redactors de la documentació**"
-
-#: ../../source/index.rst:53
-msgid ""
-"Yes, free with a capital F free. Free as in beer and free as in speech. For "
-"more information about what this means, see `Wikipedia "
-"<https://en.wikipedia.org/wiki/Open-source_software>`_."
-msgstr "Sí, lliure. Per utilitzar-lo i per canviar-lo. Els anglesos utilitzen la expressió \"Free as in beer and free as in speech\". Per a més informació de què significa això, visiteu la `Vikipèdia en català <https://ca.wikipedia.org/wiki/Programari_lliure>`_ o la\n`Versió en anglès <https://en.wikipedia.org/wiki/Open-source_software>`_."

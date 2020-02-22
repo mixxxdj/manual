@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Arnold Marko <arnold.marko@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../chapters/djing_with_mixxx.rst:4
+msgid "DJing With Mixxx"
+msgstr "Didžejanje s programom Mixxx"
+
+#: ../../chapters/djing_with_mixxx.rst:6
+msgid ""
+"Mixxx was designed to be easy to learn for both novice and experienced DJs."
+msgstr "Mixxx je bil ustvarjen za enostavno učenje tako za novince, kot tudi izkušene didžeje."
+
+#: ../../chapters/djing_with_mixxx.rst:8
+msgid ""
+"This part of the manual provides you with directions for using Mixxx's "
+"features to create your own mixes."
+msgstr "Ta del priročnika podaja smernice za uporabo funkcionalnosti programa Mixxx pri ustvarjanju lastnih miksov."
+
+#: ../../chapters/djing_with_mixxx.rst:14
+msgid "Setting Your Levels Properly (Gain Staging)"
+msgstr "Pravilno nastavljanje nivojev (določitev ojačitev)"
+
+#: ../../chapters/djing_with_mixxx.rst:24
+msgid ""
+"Setting your levels properly, also known as gain staging, is essential for "
+"getting the best sound quality out of the equipment you are using. At every "
+"link in your signal chain, from Mixxx's channel gains to the power "
+"amplifier, the level should be well above the noise floor, but lower than "
+"the maximum level before the signal clips. The :term:`level meters <level "
+"meter>` should mostly be around the top of their green region. The level "
+"meter pictured to the left shows where Mixxx's level meters should average "
+"at the loudest parts of tracks. The average level should not be in the "
+"yellow region. Use the yellow region to leave headroom, or available level "
+"above the average before the signal clips. The loudest parts of the music "
+"(the transients) should briefly go into the yellow region."
+msgstr "Pravilna nastavitev nivojev, ki je poznana tudi kot Gain Staging, je bistvena za zagotavljanje najboljše kakovosti zvoka opreme, ki jo uporabljate. V vsaki povezavi v vaši verigi signala, od Mixxx ojačitev kanala pa do ojačevalca, morajo biti nivoji krepko preko praga šuma, a še vedno pod maksimalnim nivojem, preko katerega začne signal prebijati. :term:`Merilci nivojev<level meter>` bi morali iti večinoma do vrhnjega dela zelenega področja. Merilec nivoja prikazan na levi strani  prikazuje, kje bi morali biti merilci v povprečju ob na najbolj glasnih delih skladb. Povprečni nivo naj ne bi bil v rumenem delu. Rumeni del uporabite, da dopustite prostor na vrhu, ki omogoča da bolj glasni deli ne prebijajo. Najbolj glasni deli (vrhovi) naj za kratek čas uidejo v rumen del."
+
+#: ../../chapters/djing_with_mixxx.rst:41
+msgid ""
+"A waveform at a good level. Note that the example waveforms in this section "
+"were made by adjusting the visual gain of the waveform display in Mixxx to "
+"illustrate the concepts. Adjusting the visual gain of the waveform display "
+"does not change the level of the audio."
+msgstr "Valovna oblika z dobrimi nivoji. Bodite pozorni na to, da so primeri valovnih oblik v tem razdelku bili ustvarjeni s prilagajanjem prikaza ojačitve v prikazovalniku valovne oblike, da bi bolje prikazali koncept dela. Prilagajnje prikaza ojačitve sicer ne vpliva na nivo signala zvoka."
+
+#: ../../chapters/djing_with_mixxx.rst:52
+msgid ""
+"**If a level meter is in its red region, the signal is clipping and the gain"
+" should be turned down.** Some equipment doesn't have a level meter and only"
+" has an LED that turns on when the signal clips. Clipping means that the "
+"peaks of the waveform are flattened because the equipment has reached the "
+"maximum level that it can amplify the signal to. This distorts sound in an "
+"unpleasant way and can damage equipment by driving it with more power than "
+"it is designed to handle. Increasing the gain past the point where clipping "
+"begins (further into the red on a meter) will distort the signal more. If "
+"you want to make the sound louder when every part of the signal chain is at "
+"its maximum without clipping, use more speakers or use speakers that are "
+"more sensitive and convert electrical energy into acoustic energy more "
+"efficiently."
+msgstr "**Če je merilec signala v rdečem področju, signal prebija in je potrebno znižati ojačitev.** Nekatere naprave nimajo merilca nivojev, temveč le LED lućko, ki zasveti, ko signal prebija. Prebijanje pomeni, da se vrhovi valovne oblike stisnejo ali porežejo, ker je naprava dosegla največjo stopnjo ojačitve signala, ki jo zmore. To popači zvok na neprijeten način in lahko opremo poškoduje, saj jo poganjamo z več moči, kot jo lahko prenese. Jačanje signala preko točke, kjer se začne prebijanje (še bolj v rdečo), bo še bolj opačilo zvok. Če želite narediti zvok bolj glasen po tem, ko so vsi členi v verigi signala na maksimumu, uporabite več zvočnikov ali bolj občutljive zvočnike, ki bolj učinkovito pretvarjajo elektirčno energijo v akustično."
+
+#: ../../chapters/djing_with_mixxx.rst:69
+msgid "A clipping waveform"
+msgstr "Prebijanje valovne oblike"
+
+#: ../../chapters/djing_with_mixxx.rst:76
+msgid ""
+"On the other hand, the signal should not be too low. This is because every "
+"audio device generates a little noise at a level referred to as its noise "
+"floor. Additionally, analog signals pick up noise as they travel along "
+"wires. The signal measured by the meter on the left is relatively close to "
+"the noise floor. When a device is turned up, the noise floor does not go up;"
+" only the signal does. However, every time the signal is amplified by the "
+"gain of another piece of equipment, both the noise and the signal from "
+"previous devices in the signal chain are amplified. For example, if your "
+"sound card is turned down and you turn the gain up on your mixer to "
+"compensate, the signal-to-noise ratio (SNR) of the sound card output will be"
+" low and the mixer's gain will amplify the signal and the noise from the "
+"sound card, plus the noise picked up along the wire. The end result will "
+"have more noise than if the output of the sound card was turned up before "
+"the signal reached the mixer and the mixer's gain did not have to be turned "
+"up."
+msgstr "Po drugi strani signal ne sme biti prenizek. Razlog temu je dejstvo, da vsaka zvočna naprava ustvarja tudi nekaj šuma, ki mu pravimo prag šuma. Poleg tega analogni signali pobirajo šum, ko potujejo po žicah. Signal, ki ga je izmeril merilnik na levi, je precej blizu pragu šuma. Vendar - vsakič ko ojačimo signal iz predhodne naprave v verigi signala, se ojačita tako signal, kot tudi šum. Na primer, če je vaša zvočna karta utišana in ojačite signal na mešalni mizi, da bi ga dvignili, je razmerje med signalom in šumom zvočne (SNR) kartice majhno in bo miksre ojačal tako signal, kot tudi šum, vključno s šumom, ki ga povzroči žica. Končni rezultat bo imel več šuma, kot bi ga imel, če bi dvignili izhod zvočne kartice in signala ne bi bilo potrebno ojačiti na mešalni mizi."
+
+#: ../../chapters/djing_with_mixxx.rst:96
+msgid "A waveform that is too close to the noise floor"
+msgstr "Valovna oblika, ki je preblizu pragu šuma"
+
+#: ../../chapters/djing_with_mixxx.rst:98
+msgid ""
+"To adjust the output volume of a sound system while maintaining a high "
+"signal-to-noise ratio, the gain should be adjusted as close to the speakers "
+"as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
+" details."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:106
+msgid "Beatmatching and Mixing"
+msgstr "Izenačevanje beata in miksanje"
+
+#: ../../chapters/djing_with_mixxx.rst:108
+msgid ""
+":term:`Beatmatching` is the process of adjusting the playback rate of a "
+"track so that it matches the tempo of another track. Beatmatching also "
+"involves adjusting the :term:`phase` of the beats in a track so that they "
+"are aligned with the beats in the other track. Matching the :term:`tempo` "
+"and aligning the beats are the two things a DJ must do to beatmatch."
+msgstr ":term:`Izenačevanje beata` je postopek prilagajanja hitrosti predvajanja skladbe, tako da ustreza tempu druge skladbe. Izenačevanje beata vsebuje tudi prilagajanje :term:`faze` beata v skladbi, tako da so te poravnane z beati v drugi skladbi. Izenačevanje :term:`tempa` in poranava beatov sta dve stvari, ki jih mora didžej opraviti, da bi izenačil beat. "
+
+#: ../../chapters/djing_with_mixxx.rst:114
+msgid ""
+"Mixxx can match the tempo and align the beats for you but this requires an "
+"accurately detected BPM value and a correct beat grid for both tracks. To "
+"enable this feature, tap the :guilabel:`SYNC` button. To beatmatch manually,"
+" the tempo of the two tracks must be synchronized by adjusting the playback "
+"rate sliders. You can adjust the phase of the beats by right-clicking and "
+"dragging on either waveform display to temporarily speed up or slow down one"
+" of the tracks until the beats are aligned. The temporary pitch bend buttons"
+" can also be used to momentarily adjust the playback rate, allowing you to "
+"“shuffle” the beats in a track forwards or backwards, so they can be aligned"
+" with another track. See the chapter :ref:`interface-rate`."
+msgstr "Mixxx lahko izenači tempo in poravna beat namesto vas, a to zahteva natačno prepoznan BPM in pravilno mrežo beatov za obe skladbi. Ta funkcija se vključi z gumbom  :guilabel:`SYNC`. Za ročno izenačevanje beata je potrebno tempo obeh skladb sinhornizirati z uporabo drsnika hitrosti. Fazo beatov lahko prilaogdite tako da desno kliknete in vlečete po poljubnem prikazovalniku valovne oblike in tako začasno pospešite ali upočasnite eno od skladb, dokler obe nista poravnani. Za trenutno prilagajanje hitrosti so na voljo tudi gumbi za začasno pregibanje višine, ki omogočajo “prerazporejanje” beatov naoprej ali nazaj, tako da jih izenačimo z drugo skladbo. Glej poglavje :ref:`interface-rate`."
+
+#: ../../chapters/djing_with_mixxx.rst:125
+msgid ""
+"Two tracks are beatmatched once their tempos are matched and their beats are"
+" aligned. A “perfect” beatmatch is nearly impossible - there will always be "
+"a tiny difference in the playback rates. A keen DJ will keep his or her ears"
+" open and listen for the beats drifting out of alignment. This has a "
+"distinct “double bass kick” sound which is often preceded by the kick "
+"weakening in intensity as the two kicks drift out of phase. When this "
+"happens, the beats can be realigned by simply tapping one of the temporary "
+"pitch bend buttons a few times in the appropriate direction."
+msgstr "Dve skladbi sta izenačeni v beatu, kadar njun tempo enak in so beati poravnani.  “Perfektno” izenačen beat je skorajda nemogoče doseči, ker bodo vedno obstajale majhne razlike v hitrosti predvajanja. Vešć didžej bo imel našpičena ušesa in bo poslušal, kdaj se beata začneta razhajati. V tem primeru se pojavi značilni zvok “dvojnega bas bobna”, pred katerimse pogosto pojavi manjašanje jakosti basa, ki je posledica faznega zamika. Ko se to zgodi, se lahko beata preprosto poravnata z nekaj pritiski na gumb za pregibanje višine."
+
+#: ../../chapters/djing_with_mixxx.rst:137
+msgid "Master Sync"
+msgstr "Master sinhronizacije"
+
+#: ../../chapters/djing_with_mixxx.rst:139
+msgid ""
+":term:`Master Sync` is an intelligent assistant that allows you to leave the"
+" beatmatching to Mixxx so you can focus on track selection, effects "
+"manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
+msgstr ":term:`Master sinhronizacije` je inteligenten pomočnik, ki omogoča izenačevanje beata, tako da se lahko fokusirate na izbor skladb, manipuliranje efektov, ustvarjanje zank, mikasnje s 4 predvajalniki in druge napredne Dj tehnike."
+
+#: ../../chapters/djing_with_mixxx.rst:143
+msgid ""
+"To activate Master Sync on a deck, push and hold (or click and hold) the "
+":guilabel:`SYNC` button. You'll know Master Sync is on because the sync "
+"button will remain lit.  Changing the rate of any deck that has Sync lit "
+"will change the rates of all other decks that also have the Sync button lit."
+"  There is no need to set specific decks to be a master or followers.  You "
+"can play, stop, eject, load, and queue any track with master sync and it "
+"won't interrupt the playback of the other decks.  However, changing the rate"
+" of a stopped deck will change the rate of playing decks."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:152
+msgid ""
+"Master Sync will also notice if one of your tracks is double the BPM of "
+"another track and match them correctly.  So if you want to mix a 140 BPM "
+"drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
+"they are lined up properly."
+msgstr "Master sinhronizacije bo tudi opazil, če je BPM neke skladbe dvakratnik druge in jih pravilno izenačil. Če denimo miksaate 140 BPM drum&bass skladbo z 70 BPM dubstepom, bo Master sinhronizacije poskrbel, da bosta skladbi pravilno poravnani."
+
+#: ../../chapters/djing_with_mixxx.rst:157
+msgid ""
+"Usually, Master Sync will only make sure the rate sliders are set correctly."
+"  If you also want to make sure your beats are perfectly in sync, turn on "
+"the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
+"the beats are perfectly lined up as well."
+msgstr "Ponavadi bo Master sinhronizacije poskrbel le za to, da bodo drsniki za hitrost pravilno nastavljeni. Če želite tudi, da sta beata popolnoma sinhronizirana, vklopite gumb :guilabel:`KVANTIZACIJA` button.Ko je aktiviran, bo poskrbel, da so beati tudi prefektno poravnani."
+
+#: ../../chapters/djing_with_mixxx.rst:165
+msgid "Harmonic Mixing"
+msgstr "Harmonično miksanje"
+
+#: ../../chapters/djing_with_mixxx.rst:167
+msgid ""
+"Harmonic mixing is a technique to mix songs with matching melodies and "
+"harmonies. To learn more about harmonic mixing you might want to check out "
+"`the mixshare archive`_."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:173
+msgid ""
+"Mixxx has two features to help you with harmonic mixing. The first is a "
+":term:`key lock`. When it is active changing the speed of a track won't "
+"affect the key. To enable :term:`key lock`, click the :guilabel:`key lock` "
+"button in the :ref:`interface-button-grid`. The second is that Mixxx can "
+"automatically detect the key of a track and will display it in the library "
+"and the decks. The notation which is used to display a key can be changed in"
+" :ref:`Key Detection Preferences <configuration-key-detection>`."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:184
+msgid "Recording Your Mix"
+msgstr "Snemanje miksa"
+
+#: ../../chapters/djing_with_mixxx.rst:189
+msgid ""
+"With the integrated recording feature you can record your mix as an audio "
+"file and listen to it later, distribute it as a :term:`Podcast` or burn it "
+"to CD."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:192
+msgid ""
+"By default, Mixxx records the Master output. Alternatively, Mixxx can record"
+" the output of an external mixer if you have an audio interface configured "
+"for the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences "
+"--> Sound Hardware`. Refer to :ref:`microphones-record-broadcast-external-"
+"mixer` for details."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:205
+msgid "Mixxx library - Recordings view"
+msgstr "Mixxx knjižnica - Ogled posnetkov"
+
+#: ../../chapters/djing_with_mixxx.rst:207
+msgid ""
+"Mixxx can record your mix in various audio formats and quality settings. You"
+" can split your recordings, generate :term:`cue files <cue sheet>`, choose a"
+" custom recording directory and even set your own :term:`metadata`. By "
+"default, Mixxx saves your recordings as lossless :term:`wav` files to a "
+":file:`Mixxx/Recordings` sub-folder in the Mixxx music directory. Before you"
+" start recording, we recommend that you adjust the settings in "
+":menuselection:`Preferences --> Recording`."
+msgstr "Mixxx lahko snema v različnih zvočnih formatih in z različno kakovostjo. Posnetke lahko razrežete, ustvarite  :term:`cue datoteke<cue sheet>`, izberete poljuben direktorij za snemanje in celo določite svoje lastne :term:`metapodatke`. Mixxx privzeto snema brez izgube kakovosti v :term:`wav` datoteke v poddirektorij Mixxxovega glasbena direktorija na lokacijo :file:`Mixxx/Recordings` . Priporočamo, da pred snemanjem prilagodite nastavitve v :menuselection:`Nastavitve --> Snemanje`."
+
+#: ../../chapters/djing_with_mixxx.rst:215
+msgid ""
+"If you click on the *Recordings* icon in the sidebar of the Mixxx library, "
+"the track table to the right displays the content of your recordings "
+"directory. New recordings are automatically saved to this directory as well "
+"as CUE files if you choose to create them in the preferences."
+msgstr "Če kliknete na ikono \"Posnetki\" na stranskem panoju v Mixxx knjižnici, pano na desni prikaže vsebino našega direktorija s posnetki. Novi posnetki se bodo shranili v ta direktorij, kot tudi CUE datoteke, če jih potrdite v možnostih."
+
+#: ../../chapters/djing_with_mixxx.rst:220
+msgid ""
+"Recording your mixes and listening to them later to critique yourself is a "
+"great tool for improving your DJing skills. Sending your mixes to other DJs "
+"for feedback can also be helpful."
+msgstr "Snemanje miksov za kasnejše kritično poslušanje je odlično orodje za izboljšanje lastnih didižejevskih tehnik. V pomoč je tudi, če svoje mikse pošljete drugim didžejem, da vam podajo mnenje. "
+
+#: ../../chapters/djing_with_mixxx.rst:225
+msgid "Record your mix to disk"
+msgstr "Posnemite svoj miks na disk"
+
+#: ../../chapters/djing_with_mixxx.rst:227
+msgid ""
+"Click on the recording icon on top of the application window to start, and "
+"stop the recording session. The duration of the running recording is "
+"displayed next to the icon."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:231
+msgid "The recording widget might not be available in some skins."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:233
+msgid "Alternatively:"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:235
+msgid ""
+"Click on the *Recordings* icon in the sidebar to switch to the "
+":guilabel:`Recordings` view"
+msgstr "Kliknite na ikono \"Posnetki\" v stranskem panoju, da bi preklopili v pogled :guilabel:`Posnetki`."
+
+#: ../../chapters/djing_with_mixxx.rst:237
+msgid ""
+"Click the :guilabel:`Start Recording` button or click "
+":menuselection:`Options --> Record Mix` in the menu on top of the Mixxx "
+"application window."
+msgstr "Kliknite na gumb :guilabel:`Začni snemati`ali kliknite na :menuselection:`Možnosti --> Snemaj miks` V meniju na vrhu okna programa Mixxx."
+
+#: ../../chapters/djing_with_mixxx.rst:240
+msgid ""
+"The display above the track table shows how much data has already been "
+"recorded, as well as the duration of the recording."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:242
+msgid "Perform your mix"
+msgstr "Izvedite svoj miks"
+
+#: ../../chapters/djing_with_mixxx.rst:243
+msgid ""
+"Click the :guilabel:`Stop Recording` button to stop the recording when the "
+"mix has finished."
+msgstr "Kliknite na gumb :guilabel:`Ustvai snemanje`, da zaustavite snemanje, ko je miksanje končano."
+
+#: ../../chapters/djing_with_mixxx.rst:246
+msgid ""
+"You can instantly play your recording as a track in Mixxx. Simply drag-and-"
+"drop the track to a deck."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:252
+msgid "Using Auto DJ For Automatic Mixing"
+msgstr "Raba Auto Dj za samodejno miksanje"
+
+#: ../../chapters/djing_with_mixxx.rst:264
+msgid "Mixxx library - Auto DJ view"
+msgstr "Mixxx knjižnica - Auto DJ pogled"
+
+#: ../../chapters/djing_with_mixxx.rst:266
+msgid ""
+"Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
+"when the current track is nearly finished, and crossfade into it.  See :ref"
+":`library-auto-dj`."
+msgstr "Auto DJ omogoča samodejno nalaganje skladb iz Auto Dj seznama predvajanja , ko je trenutna skladba skoraj končana in navzkrižni prehod na njo. Glej :ref:`library-auto-dj`."
+
+#: ../../chapters/djing_with_mixxx.rst:271
+msgid "Loading tracks into Auto DJ"
+msgstr "Nalaganje skladb v Auto DJ"
+
+#: ../../chapters/djing_with_mixxx.rst:273
+msgid ""
+"To play tracks automatically, they must first be loaded into the Auto DJ "
+"playlist. The Auto DJ playlist is empty by default."
+msgstr "Za samodejno predvajanje skladb, morajo biti te najprej naložene v Auto DH seznam predvajanja. Privzeto je ta seznam prazen."
+
+#: ../../chapters/djing_with_mixxx.rst:283
+msgid "Mixxx library - Adding a playlist to Auto DJ"
+msgstr "Mixxx knjižnica - Dodajanje seznama predvajanja v Auto DJ"
+
+#: ../../chapters/djing_with_mixxx.rst:285
+msgid "There are several ways to load tracks into the Auto DJ playlist:"
+msgstr "Obstaja več načinov za nalaganje skladb v Auto Dj seznam predvajanja."
+
+#: ../../chapters/djing_with_mixxx.rst:287
+msgid ""
+"Select single or multiple tracks from the library, a regular playlist or "
+"crate and drag them to the Auto DJ icon on the left."
+msgstr "Izberite sno ali več skladb iz knjižnice, normalen seznam predvajanja ali zaboj in ga potegnite na Auto Dj ikon na levi strani."
+
+#: ../../chapters/djing_with_mixxx.rst:289
+msgid ""
+"Select a regular playlist or crate, right-click with the mouse and select "
+":guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto"
+" DJ."
+msgstr "Izberite običajen seznam predvajanja ali zaboj, desno kliknite nanji in iz miškinega menija izberite :guilabel:`Dodaj v Auto DJ`. To bo dodalo skladbo v Auto DJ zaporedje."
+
+#: ../../chapters/djing_with_mixxx.rst:291
+msgid ""
+"While in the Auto DJ view of the library, drag tracks from external file "
+"managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
+" the right."
+msgstr "Medtem, ko ste v Auto Dj prikazu knjižnice, povlecite skladbe iz zunanjega upravljalika datotek na Auto DJ ikono v stranskem panoju ali na Auto Dj tabelo skladb na desni."
+
+#: ../../chapters/djing_with_mixxx.rst:298
+msgid "Using Auto DJ crates"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:300
+msgid ""
+"Instead of inserting the contents of the crates directly into the Auto DJ "
+"playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
+"crates that become a source of random track selections."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:304
+msgid ""
+"**Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto "
+"DJ` item in the sidebar, and right-click on the :guilabel:`Crates` sub-item."
+" Select one of the existing crates from the list. This makes the content of "
+"the crate available for random selection into the :ref:`Auto DJ <library-"
+"auto-dj>` queue for automatic mixing. The name of the crate is now listed as"
+" sub-item below."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:311
+msgid ""
+"If you do not have any crates available for selection in the list, go and "
+"create a crate first and add some tracks, see :ref:`library-crates`."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:314
+msgid ""
+"**Manually add tracks from track sources to Auto DJ**: Click the "
+":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
+"the library. Click the :guilabel:`Add random` button to add one track at the"
+" time from Auto DJ track sources to the bottom of the Auto DJ playlist."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:319
+msgid ""
+"If you did not set any crates as an Auto DJ track source, clicking the "
+":guilabel:`Add Random` button will add a randomly selected track from the "
+"whole library instead."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:323
+msgid ""
+"**Automatically add tracks from track sources to Auto DJ**: Mixxx can "
+"randomly add tracks to the Auto DJ playlist from track sources as soon as a "
+"specified minimum number of tracks remain. Select "
+":menuselection:`Preferences --> Auto DJ --> Enable random track addition to "
+"queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` "
+"to change the minimum number of tracks after which random tracks may be "
+"added."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:330
+msgid ""
+"If you did not set any crates as an Auto DJ track source, tracks are "
+"selected from the whole library instead."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:333
+msgid ""
+"**Remove a crate from the Auto DJ track sources**: Expand the "
+":guilabel:`Auto DJ` item in the sidebar, and right-click on one of the "
+"crates listed below the :guilabel:`Crates` sub-item. Select "
+":guilabel:`Remove Crate as Track Source` to remove the crate from the Auto "
+"DJ track sources."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:339
+msgid "Playing tracks in Auto DJ"
+msgstr "Predvajanje skladb z Auto DJ"
+
+#: ../../chapters/djing_with_mixxx.rst:341
+msgid ""
+"Now that you have loaded tracks into the Auto DJ playlist, you can activate "
+"Auto DJ as follows:"
+msgstr "Sedaj, ko ste naložili skladbe v Auto DJ seznam predvajanja, lahko aktivirate Auto DJ na tak način:"
+
+#: ../../chapters/djing_with_mixxx.rst:344
+msgid ""
+"Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
+"DJ` view of the library."
+msgstr "Kliknite na 'Auto DJ ' ikono v stranskem panoju, da preklopite na :guilabel:`Auto DJ` prikaz knjižnice."
+
+#: ../../chapters/djing_with_mixxx.rst:346
+msgid "Click the :guilabel:`Enable Auto DJ` button."
+msgstr "Kliknite na gumb  :guilabel:`Vklopi Auto DJ`."
+
+#: ../../chapters/djing_with_mixxx.rst:347
+msgid ""
+"The first tracks from your list are loaded into the decks and the playback "
+"starts."
+msgstr "Prva skladba iz vašega seznama se bo naložila v predvajalnik in predvajanje se bo začelo."
+
+#: ../../chapters/djing_with_mixxx.rst:349
+msgid ""
+"Mixxx will continue to automatically mix until the Auto DJ playlist is "
+"empty."
+msgstr "Mixxx bo samodejno miksla skladbe, dokler AutoDJ seznam predvajanja ne bo prazen."
+
+#: ../../chapters/djing_with_mixxx.rst:350
+msgid ""
+"Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing"
+msgstr "Kliknite na gumb :guilabel:`Izklopi Auto DJ`, da zaustavite samodejno miksanje skladb"
+
+#: ../../chapters/djing_with_mixxx.rst:352
+msgid ""
+"You can add a track to the end of the Auto DJ playlist once it is played "
+"instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
+"queue tracks after playback --> On`."
+msgstr ""
