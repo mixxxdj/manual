@@ -31,7 +31,7 @@ can perform actions by pointing and clicking with your mouse.
 * **Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values
   by placing the cursor over the control and moving the mouse wheel.
 
-.. hint::  If you hover with the mouse over a control (e.g the crossfader) in
+.. hint::  If you hover with the mouse over a control (e.g. the crossfader) in
            the Mixxx user interface, the tooltip lists the left- and right-click
            action respectively.
 

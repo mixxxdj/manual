@@ -387,7 +387,7 @@ To complete your setup you must configure Mixxx properly. Make sure you have:
   :menuselection:`Preferences --> Vinyl Control --> Vinyl type` in the
   preferences. See the list of `Supported Timecode media`_
 * enabled vinyl control via the menu under
-  :menuselection:`Options -> Vinyl Control --> Enable Vinyl Control`.
+  :menuselection:`Options --> Vinyl Control --> Enable Vinyl Control`.
 
 **Signal Quality**
 

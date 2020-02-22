@@ -223,7 +223,7 @@ Configuring Latency Compensation
    are using stereo microphones.
 #. For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct
    monitor (recording and broadcasting only)`.
-#. Enter the measured round trip latency in millseceonds for the
+#. Enter the measured round trip latency in milliseconds for the
    :guilabel:`Microphone Latency Compensation` option.
 #. Click the :guilabel:`Apply` button.
 #. Click the :guilabel:`OK` button.
