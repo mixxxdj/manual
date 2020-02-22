@@ -485,3 +485,7 @@ Glossary of Terms
      equalizer. It can control three aspects of each frequency: level (boost or
      cut), the center or primary frequency, and the bandwidth or range of each
      frequency.
+
+   DAW
+     A digital audio workstation (DAW) is an electronic device or application
+     software used for recording, editing and producing audio files.
