@@ -170,10 +170,18 @@ collection of AU/VST/MAS plugins that are installed on your system.
 
 * Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_,
   a system extension for inter-application audio routing.
-* Download AU Lab.app standalone from Apple (you will need an free Apple
-  Developer Login though), go to the
-  `Downloads for Developers <https://developer.apple.com/downloads/index.action>`_
-  page and search for “AU Lab” to get it.
+* Install the free digital audio mixing application
+  `AU Lab <https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_.
+
+.. hint:: macOS 10.15 (Catalina) introduces additional restrictions on running
+          non-Apple software. Make sure to grant permission in
+          `System Preferences --> Security & Privacy --> Microphone --> AU Lab`.
+
+Alternatively, try `Blackhole <https://github.com/ExistentialAudio/BlackHole>`_,
+a modern virtual audio driver that allows applications to pass audio to other
+applications with zero additional latency, and
+`Hosting AU <http://ju-x.com/hostingau.html>`_, a free micro-sized
+:term:`DAW` that hosts Audio Unit instruments and effect plugins.
 
 **In Mixxx**
 
