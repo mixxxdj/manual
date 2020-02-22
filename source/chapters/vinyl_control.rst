@@ -407,7 +407,7 @@ Signal          Meaning                               Troubleshooting
                 input signal.
 --------------  ------------------------------------  ------------------------------------
 |ok|            Nearly perfect green doughnut about   Everything is OK, nothing to do. Go
-                about half the width of the graph.    spin some beats.
+                half the width of the graph.          spin some beats.
                 Rotating radar sweeps in the
                 direction your record on the
                 turntable is spinning.

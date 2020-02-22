@@ -198,7 +198,7 @@ separate master and booth outputs with independent volume controls.
 Alternatively, a sound card with at least 6 output channels can be used with
 Mixxx's :guilabel:`Booth` output.
 
-Many people confuse "analog mixers" and "hardware mixers", but these are are
+Many people confuse "analog mixers" and "hardware mixers", but these are
 not the same. Many hardware mixers process audio digitally with specialized
 signal processors as opposed to a general purpose CPU like those in laptop and
 desktop computers.

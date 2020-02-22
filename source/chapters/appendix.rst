@@ -338,7 +338,7 @@ Option                  Description
                         * ``debug``    - Above + Debug/Developer messages
                         * ``trace``    - Above + Profiling messages
 ----------------------  -------------------------------------------------
---logFlushLevel LEVEL   Sets the the logging level at which the log buffer
+--logFlushLevel LEVEL   Sets the logging level at which the log buffer
                         is flushed to ``mixxx.log``.
                         LEVEL is one of the values defined at ``--logLevel``
                         above.
