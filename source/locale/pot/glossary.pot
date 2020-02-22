@@ -713,6 +713,6 @@ msgid "Zulip"
 msgstr ""
 
 #: ../../glossary.rst:79
-msgid "`Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat application that combines the immediacy of real-time chat with the productivity benefits of threaded conversations. The ``Mixxx Zulip Chat`` at can be found at `<https://mixxx.zulipchat.com>`_ ."
+msgid "`Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat application that combines the immediacy of real-time chat with the productivity benefits of threaded conversations. The ``Mixxx Zulip Chat`` can be found at `<https://mixxx.zulipchat.com>`_ ."
 msgstr ""
 

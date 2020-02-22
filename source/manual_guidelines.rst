@@ -101,7 +101,7 @@ where it belongs and if it must replaced, like e.g.
 :file:`Mixxx-111-Preferences-Recording.png`
 
 .. warning:: Do not include any dot in the file names of your screenshots your
-             file name or you wont be able to generate PDF with LaTeX.
+             file name or you won't be able to generate PDF with LaTeX.
 
 Double quotes
 -------------
