@@ -251,7 +251,7 @@ Activate MP3 streaming support on Windows
 To activate MP3 streaming on Windows, follow these steps:
 
   1. Download LAME 3.98.4 :term:`binaries` from
-     http://www.rarewares.org/mp3-lame-libraries.php.
+     https://www.rarewares.org/mp3-lame-libraries.php.
 
      .. hint:: The download page includes 32-bit and 64-bit versions. Make sure
                the version you download matches the version of Mixxx that you

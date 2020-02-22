@@ -38,9 +38,8 @@ There are a variety of other resources where you can find out more:
   read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
-* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
-  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .
+* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
+  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_.
 
 .. _appendix-keyboard:
 
