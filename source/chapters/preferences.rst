@@ -49,7 +49,7 @@ responsive, but requires a faster CPU and quality audio interface. Setting your
 audio buffer too small may be too much for your computer and audio interface to
 handle. In this situation, Mixxx playback will be choppy and very clearly
 distorted as your system will not be able to keep up with how frequently Mixxx
-is trying to processing audio. It is recommended to set your audio buffer as
+is trying to process audio. It is recommended to set your audio buffer as
 small as your system can handle reliably without glitches. Experiment with
 different audio buffer sizes to find what works for your system.
 

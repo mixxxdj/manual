@@ -137,7 +137,7 @@ Input Options
 **Internal mixing**:
 
 Use these inputs if you are not using an external hardware mixer. If you are
-using a controller with a built in audio interface, use these inputs.
+using a controller with a built-in audio interface, use these inputs.
 
 * *Microphone 1-4*: live microphone or musical instrument inputs
 * *Auxiliary 1-4*: other sound sources

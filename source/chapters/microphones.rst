@@ -284,7 +284,7 @@ Hardware Mixers
 Mixxx can be used with a microphone plugged into an external hardware mixer.
 This does not have the problem with latency that happens
 with :ref:`microphones-software-monitoring`. However, it is generally
-recommeded to use an audio interface that supports
+recommended to use an audio interface that supports
 :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input`
 instead of an external mixer. If you are using :ref:`vinyl-control` and a
 microphone, you may need an external mixer.

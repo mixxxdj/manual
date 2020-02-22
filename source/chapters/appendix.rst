@@ -34,7 +34,7 @@ There are a variety of other resources where you can find out more:
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
+  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
   read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
