@@ -489,3 +489,7 @@ Glossary of Terms
    DAW
      A digital audio workstation (DAW) is an electronic device or application
      software used for recording, editing and producing audio files.
+
+   LADSPA
+     Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard
+     for handling audio filters and audio signal processing effects.

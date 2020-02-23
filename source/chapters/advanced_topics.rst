@@ -222,7 +222,7 @@ Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
 each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
 effect racks, or for more control you can use Ardour (or another :term:`DAW`)
 using sends for effects. This gives Mixxx access to the extensive collection of
-LADSPA plugins.
+:term:`LADSPA` plugins.
 
 Make sure the correct multichannel audio interface has been selected in Jack
 (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
