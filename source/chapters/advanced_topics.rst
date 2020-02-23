@@ -170,10 +170,18 @@ collection of AU/VST/MAS plugins that are installed on your system.
 
 * Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_,
   a system extension for inter-application audio routing.
-* Download AU Lab.app standalone from Apple (you will need an free Apple
-  Developer Login though), go to the
-  `Downloads for Developers <https://developer.apple.com/downloads/index.action>`_
-  page and search for “AU Lab” to get it.
+* Install the free digital audio mixing application
+  `AU Lab <https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_.
+
+.. hint:: macOS 10.15 (Catalina) introduces additional restrictions on running
+          non-Apple software. Make sure to grant permission in
+          `System Preferences --> Security & Privacy --> Microphone --> AU Lab`.
+
+Alternatively, try `Blackhole <https://github.com/ExistentialAudio/BlackHole>`_,
+a modern virtual audio driver that allows applications to pass audio to other
+applications with zero additional latency, and
+`Hosting AU <http://ju-x.com/hostingau.html>`_, a free micro-sized
+:term:`DAW` that hosts Audio Unit instruments and effect plugins.
 
 **In Mixxx**
 
@@ -212,13 +220,13 @@ Effects via JACK Rack on GNU/Linux
 
 Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
 each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
-effect racks, or for more control you can use Ardour (or another DAW) using sends
-for effects. This gives Mixxx access to the extensive collection of LADSPA
-plugins.
+effect racks, or for more control you can use Ardour (or another :term:`DAW`)
+using sends for effects. This gives Mixxx access to the extensive collection of
+:term:`LADSPA` plugins.
 
 Make sure the correct multichannel audio interface has been selected in Jack
 (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
-ports as “Portaudio”.
+ports as :guilabel:`Portaudio`.
 
 Deleting Your Library
 =====================

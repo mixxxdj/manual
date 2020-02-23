@@ -34,13 +34,12 @@ There are a variety of other resources where you can find out more:
   `<https://bugs.launchpad.net/mixxx>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
-  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_ . Please
+  to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
   read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
   first.
 
-* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_ ,
-  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ ,
-  and `Google+ <https://plus.google.com/+mixxx/posts>`_ .
+* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
+  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_.
 
 .. _appendix-keyboard:
 
@@ -338,7 +337,7 @@ Option                  Description
                         * ``debug``    - Above + Debug/Developer messages
                         * ``trace``    - Above + Profiling messages
 ----------------------  -------------------------------------------------
---logFlushLevel LEVEL   Sets the the logging level at which the log buffer
+--logFlushLevel LEVEL   Sets the logging level at which the log buffer
                         is flushed to ``mixxx.log``.
                         LEVEL is one of the values defined at ``--logLevel``
                         above.

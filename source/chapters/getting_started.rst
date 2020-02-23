@@ -98,7 +98,7 @@ sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do not
 need to configure all inputs and outputs.
 
 The :ref:`hardware` chapter explains different types of DJ hardware and how to
-set them up with the the input and output options. For Mixxx to perform the best
+set them up with the input and output options. For Mixxx to perform the best
 it can on your system, configure the other :ref:`preferences-sound-hardware`
 preferences in addition to the inputs and outputs.
 
@@ -137,7 +137,7 @@ Input Options
 **Internal mixing**:
 
 Use these inputs if you are not using an external hardware mixer. If you are
-using a controller with a built in audio interface, use these inputs.
+using a controller with a built-in audio interface, use these inputs.
 
 * *Microphone 1-4*: live microphone or musical instrument inputs
 * *Auxiliary 1-4*: other sound sources

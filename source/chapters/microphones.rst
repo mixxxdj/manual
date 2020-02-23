@@ -181,11 +181,12 @@ your audio interface's hardware, your operating system, your audio interface's
 driver, and other factors in your computer's hardware. The round trip latency
 can only be found by measuring it. To do this, use a physical cable to connect
 the audio interface's output to its input. Then, use a third party program to
-measure the round trip latency. These programs are recommended on each OS:
+measure the round trip latency. These programs are recommended on each
+:term:`OS <operating system>`:
 
 * **GNU/Linux**:
   `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_
-* **Windows**: `RTL Utility  <http://www.oblique-audio.com/free/rtlutility>`_
+* **Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_
 * **macOS**: `Audacity <https://manual.audacityteam.org/man/latency_test.html>`_
 
 .. TODO: Uncomment when this diagram is added.
@@ -205,7 +206,7 @@ remeasure your round trip latency to have your microphone inputs aligned in
 your recorded and broadcasted mixes.
 
 .. warning:: Make sure direct monitoring is *not*
-            :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`
+             :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`
              while you are measuring the round trip latency or you will not get
              an accurate measurement.
 
@@ -223,7 +224,7 @@ Configuring Latency Compensation
    are using stereo microphones.
 #. For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct
    monitor (recording and broadcasting only)`.
-#. Enter the measured round trip latency in millseceonds for the
+#. Enter the measured round trip latency in milliseconds for the
    :guilabel:`Microphone Latency Compensation` option.
 #. Click the :guilabel:`Apply` button.
 #. Click the :guilabel:`OK` button.
@@ -284,7 +285,7 @@ Hardware Mixers
 Mixxx can be used with a microphone plugged into an external hardware mixer.
 This does not have the problem with latency that happens
 with :ref:`microphones-software-monitoring`. However, it is generally
-recommeded to use an audio interface that supports
+recommended to use an audio interface that supports
 :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input`
 instead of an external mixer. If you are using :ref:`vinyl-control` and a
 microphone, you may need an external mixer.

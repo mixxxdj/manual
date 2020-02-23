@@ -462,7 +462,7 @@ control relative mode:
 * **Off**: Cue points are ignored.
 * **One Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
-* **Hot Cue**: The track will seek to nearest previous :term:`hotcue` point.
+* **Hot Cue**: The track will seek to the nearest previous :term:`hotcue` point.
 
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
@@ -585,11 +585,11 @@ loop points of a track.
 
 **Loop Buttons**
 
-* **Loop-In**: This button allow you to manually set the start point of a loop.
+* **Loop-In**: This button allows you to manually set the start point of a loop.
   A loop-in marker is placed on the waveform indicating the position.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
-* **Loop-Out**: This button allow you to manually set the end point of a loop.
+* **Loop-Out**: This button allows you to manually set the end point of a loop.
   A loop-out marker is placed on the waveform indicating the position. If
   clicked when a loop was already set, it moves the end point of a loop to a new
   position.

@@ -6,7 +6,7 @@ Glossary of Terms
 
    cueing
      Headphone cueing, or just cueing, is listening to the next track you would
-     like to mix in in your headphones. The audience will not hear what you are
+     like to mix in your headphones. The audience will not hear what you are
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
 
    crossfader
@@ -97,14 +97,14 @@ Glossary of Terms
      :term:`BPM` representation.
 
    MIDI
-     Short for for Musical Instrument Digital Interface. A digital
+     Short for Musical Instrument Digital Interface. A digital
      communications language and hardware specification enabling compatible
      electronic instruments, sequencers, computers, etc., to communicate with
      each other in a network. Most DJ :term:`controllers <controller>` use MIDI
      to communicate with computers.
 
    HID
-     Short for for Human Interface Device, a part of the USB specification. It
+     Short for Human Interface Device, a part of the USB specification. It
      specifies a device class (a type of computer hardware) for human interface
      devices such as keyboards, mice, game controllers, and some DJ
      :term:`controllers <controller>`.
@@ -485,3 +485,11 @@ Glossary of Terms
      equalizer. It can control three aspects of each frequency: level (boost or
      cut), the center or primary frequency, and the bandwidth or range of each
      frequency.
+
+   DAW
+     A digital audio workstation (DAW) is an electronic device or application
+     software used for recording, editing and producing audio files.
+
+   LADSPA
+     Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard
+     for handling audio filters and audio signal processing effects.

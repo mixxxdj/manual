@@ -138,7 +138,8 @@ stereo inputs. Most live sound mixers have balanced 1/4" TRS mono inputs. If
 you need to interconnect balanced and unbalanced gear, refer to this `guide
 from Presonus (deleted, via archive.org)
 <https://web.archive.org/web/20171011070552/https://www.presonus.com/learn/technical-articles/Balanced-Unbalanced>`_
-and this `guide from Rane <http://www.rane.com/note110.html>`_.
+and this `guide from Rane (deleted, via archive.org)
+<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_.
 
 Number of Channels
 ^^^^^^^^^^^^^^^^^^^
@@ -198,7 +199,7 @@ separate master and booth outputs with independent volume controls.
 Alternatively, a sound card with at least 6 output channels can be used with
 Mixxx's :guilabel:`Booth` output.
 
-Many people confuse "analog mixers" and "hardware mixers", but these are are
+Many people confuse "analog mixers" and "hardware mixers", but these are
 not the same. Many hardware mixers process audio digitally with specialized
 signal processors as opposed to a general purpose CPU like those in laptop and
 desktop computers.
