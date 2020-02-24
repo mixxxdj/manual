@@ -57,10 +57,6 @@ html:
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
-versionedhtml:
-	$(SPHINXMULTIVERSION) source $(BUILDDIR)/html -b html $(ALLSPHINXOPTS)
-	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 dirhtml:
 	$(SPHINXBUILD) source $(BUILDDIR)/dirhtml -b dirhtml $(ALLSPHINXOPTS)
 	@echo
@@ -182,3 +178,8 @@ pseudoxml:
 	$(SPHINXBUILD) source $(BUILDDIR)/pseudoxml -b pseudoxml $(ALLSPHINXOPTS)
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+versionedhtml:
+	$(SPHINXMULTIVERSION) source $(BUILDDIR)/html -b html $(ALLSPHINXOPTS)
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
