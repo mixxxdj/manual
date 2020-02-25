@@ -72,6 +72,10 @@ def pdf(language='en'):
             local('pdflatex -interaction=nonstopmode Mixxx-Manual.tex')
 
 @task
+def versionedhtml(language='en'):
+    local('%s html' % make_command(language))
+
+@task
 @hosts(PROD)
 def publish():
     regen()
