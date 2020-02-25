@@ -191,5 +191,5 @@ versionedlatex:
 
 versionedlatexpdf: versionedlatex
 	@echo "Generating PDFs from LaTeX files..."
-	$(foreach dir,$(wildcard $(BUILDDIR)/latex/*/*),$(MAKE) -C $(dir) "LATEXMKOPTS=-pdfxe -f -interaction=nonstopmode" || true ;)
+	$(foreach dir,$(wildcard $(BUILDDIR)/latex/*/*),$(MAKE) -C $(dir) -e "LATEXMKOPTS=-pdfxe -f -interaction=nonstopmode" || true ;)
 	@echo "LaTeX PDF generation finished; the PDF files are in $(BUILDDIR)/latex."
