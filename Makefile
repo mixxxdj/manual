@@ -186,8 +186,10 @@ versionedhtml:
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
-versionedlatexpdf:
-	#$(SPHINXMULTIVERSION) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS)
-	@echo "Running LaTeX files through pdflatex..."
-	$(foreach dir,$(wildcard $(BUILDDIR)/latex/*/*),$(MAKE) -C $(dir) all-pdf;)
-	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+versionedlatex:
+	$(SPHINXMULTIVERSION) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS)
+
+versionedlatexpdf: versionedlatex
+	@echo "Generating PDFs from LaTeX files..."
+	$(foreach dir,$(wildcard $(BUILDDIR)/latex/*/*),$(MAKE) -C $(dir) LATEXMKOPTS=-interaction=nonstopmode ;)
+	@echo "LaTeX PDF generation finished; the PDF files are in $(BUILDDIR)/latex."
