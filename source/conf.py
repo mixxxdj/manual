@@ -270,9 +270,9 @@ latex_elements = {
     'utf8extra': '',
     'preamble': (
         '\\usepackage{fontspec}\n'
-        '\\setsansfont{DejaVu Sans}\n'
-        '\\setromanfont{DejaVu Serif}\n'
-        '\\setmonofont{DejaVu Sans Mono}\n'
+        '\\setsansfont{Noto Sans CJK JP}\n'
+        '\\setromanfont{Noto Serif CJK JP}\n'
+        '\\setmonofont{Noto Sans Mono CJK JP}\n'
     ),
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
@@ -290,6 +290,7 @@ latex_elements = {
 'babel' : '\\usepackage[english]{babel}'
 
 }
+latex_docclass = {}
 
 latex_engine = 'xelatex'
 
