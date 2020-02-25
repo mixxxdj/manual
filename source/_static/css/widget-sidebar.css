@@ -138,10 +138,7 @@
     }
 }
 
-.rst-widget-sidebar .rst-widget-body,
-.rst-widget-sidebar .rst-widget-header:target {
-    display:none;
-}
-.rst-widget-sidebar .rst-widget-header:target .rst-widget-body {
-    display:block;
+/* Fix overlap of sidebar widgets and navbar*/
+.wy-nav-side {
+    padding-bottom: calc(4rem + 22px);
 }

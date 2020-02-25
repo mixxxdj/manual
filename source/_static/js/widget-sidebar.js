@@ -13,6 +13,9 @@
     addEvent(window, 'load', function(){
         document.querySelectorAll('.rst-widget-sidebar .rst-widget-header + .rst-widget-body').forEach(function(e) {
             e.previousElementSibling.onclick = function() { e.classList.toggle('shift-up'); };
-        })
+        });
+        document.querySelector('*[data-toggle="wy-nav-top"]').onclick = function() {
+            document.querySelector('.rst-widget-sidebar').classList.toggle('shift');
+        };
     });
 })();
