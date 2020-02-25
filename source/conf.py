@@ -266,6 +266,14 @@ htmlhelp_basename = 'Mixxxdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
+    'inputenc': '',
+    'utf8extra': '',
+    'preamble': (
+        '\\usepackage{fontspec}\n'
+        '\\setsansfont{DejaVu Sans}\n'
+        '\\setromanfont{DejaVu Serif}\n'
+        '\\setmonofont{DejaVu Sans Mono}\n'
+    ),
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
 
@@ -282,6 +290,8 @@ latex_elements = {
 'babel' : '\\usepackage[english]{babel}'
 
 }
+
+latex_engine = 'xelatex'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
