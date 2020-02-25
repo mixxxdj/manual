@@ -73,7 +73,7 @@ def pdf(language='en'):
 
 @task
 def versionedhtml(language='en'):
-    local('%s html' % make_command(language))
+    local('%s versionedhtml' % make_command(language))
 
 @task
 @hosts(PROD)
