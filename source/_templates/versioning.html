@@ -9,7 +9,7 @@
     {%- if versions.releases %}
     <dl>
         <dt>Releases</dt>
-        {%- for item in versions.releases %}
+        {%- for item in versions.releases|sort(attribute="release", reverse=true) %}
         <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
         {%- endfor %}
     </dl>
@@ -17,7 +17,7 @@
     {%- if versions.in_development %}
     <dl>
         <dt>Development Versions</dt>
-        {%- for item in versions.in_development %}
+        {%- for item in versions.in_development|sort(attribute="release", reverse=true) %}
         <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
         {%- endfor %}
     </dl>
