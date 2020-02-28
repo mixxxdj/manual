@@ -49,6 +49,7 @@ help:
 	@echo "  linkcheck  to check all external links for integrity"
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 	@echo "  versionedhtml to make standalone HTML files for each version"
+	@echo "  versionedlatexpdf  to make LaTeX files and run them through pdflatex for each version"
 
 clean:
 	rm -rf $(BUILDDIR)/*
@@ -184,3 +185,11 @@ versionedhtml:
 	$(SPHINXMULTIVERSION) source $(BUILDDIR)/html -b html $(ALLSPHINXOPTS)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+
+versionedlatex:
+	$(SPHINXMULTIVERSION) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS)
+
+versionedlatexpdf: versionedlatex
+	@echo "Generating PDFs from LaTeX files..."
+	$(foreach dir,$(wildcard $(BUILDDIR)/latex/*/*),$(MAKE) -C $(dir) -e "LATEXMKOPTS=-f -interaction=nonstopmode" || true ;)
+	@echo "LaTeX PDF generation finished; the PDF files are in $(BUILDDIR)/latex."
