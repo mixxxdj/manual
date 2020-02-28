@@ -6,18 +6,18 @@
     <span class="fa fa-caret-down"></span>
 </span>
 <div class="rst-widget-body">
-    {%- if versions.releases %}
-    <dl>
-        <dt>Releases</dt>
-        {%- for item in versions.releases|sort(attribute="release", reverse=true) %}
-        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
-        {%- endfor %}
-    </dl>
-    {%- endif %}
     {%- if versions.in_development %}
     <dl>
         <dt>Development Versions</dt>
         {%- for item in versions.in_development|sort(attribute="release", reverse=true) %}
+        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
+        {%- endfor %}
+    </dl>
+    {%- endif %}
+    {%- if versions.releases %}
+    <dl>
+        <dt>Releases</dt>
+        {%- for item in versions.releases|sort(attribute="release", reverse=true) %}
         <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
         {%- endfor %}
     </dl>
