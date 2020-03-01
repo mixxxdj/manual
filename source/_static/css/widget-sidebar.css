@@ -97,7 +97,8 @@
     display:inline-block;
     margin:0
 }
-.rst-widget-sidebar .rst-widget-body dd a{
+.rst-widget-sidebar .rst-widget-body dd a,
+.rst-widget-sidebar .rst-widget-body dd strong {
     display:inline-block;
     padding:6px;
     color:#fcfcfc

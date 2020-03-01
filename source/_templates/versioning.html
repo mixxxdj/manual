@@ -10,7 +10,13 @@
     <dl>
         <dt>Development Versions</dt>
         {%- for item in versions.in_development|sort(attribute="release", reverse=true) %}
-        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
+        <dd>
+        {%- if item == current_version %}
+          <strong>{{ item.version }}</strong>
+        {%- else %}
+          <a href="{{ item.url }}">{{ item.version }}</a>
+        {%- endif %}
+        </dd>
         {%- endfor %}
     </dl>
     {%- endif %}
@@ -18,7 +24,13 @@
     <dl>
         <dt>Releases</dt>
         {%- for item in versions.releases|sort(attribute="release", reverse=true) %}
-        <dd><a href="{{ item.url }}">{{ item.version }}</a></dd>
+        <dd>
+        {%- if item == current_version %}
+          <strong>{{ item.version }}</strong>
+        {%- else %}
+          <a href="{{ item.url }}">{{ item.version }}</a>
+        {%- endif %}
+        </dd>
         {%- endfor %}
     </dl>
     {%- endif %}
