@@ -7,8 +7,8 @@
     <p>
       {% if current_version.is_released %}
       You're reading the manual for Mixxx {{current_version.version}}.
-      If you're using another version, please select to another version in the sidebar.
-      The latest Mixxx release is version {{latest_version.version}}, which you can find <a href="{{ vpathto(latest_version.name) }}">version {{latest_version.version}}</a>.
+      If you're using another version, please select it in the sidebar.
+      The latest Mixxx release is <a href="{{ vpathto(latest_version.name) }}">version {{latest_version.version}}</a>.
       {% else %}
       You're reading the manual for a development version of Mixxx.
       For the latest released version, please have a look at <a href="{{ vpathto(latest_version.name) }}">version {{latest_version.version}}</a>.
