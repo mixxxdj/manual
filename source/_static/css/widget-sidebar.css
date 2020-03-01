@@ -141,5 +141,5 @@
 
 /* Fix overlap of sidebar widgets and navbar*/
 .wy-nav-side {
-    padding-bottom: calc(4rem + 22px);
+    padding-bottom: 8rem;
 }
