@@ -97,7 +97,8 @@
     display:inline-block;
     margin:0
 }
-.rst-widget-sidebar .rst-widget-body dd a{
+.rst-widget-sidebar .rst-widget-body dd a,
+.rst-widget-sidebar .rst-widget-body dd strong {
     display:inline-block;
     padding:6px;
     color:#fcfcfc
@@ -140,5 +141,5 @@
 
 /* Fix overlap of sidebar widgets and navbar*/
 .wy-nav-side {
-    padding-bottom: calc(4rem + 22px);
+    padding-bottom: 8rem;
 }
