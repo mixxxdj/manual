@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,7 +406,7 @@ msgid "selected the correct control type under :menuselection:`Preferences --> V
 msgstr ""
 
 #: ../../chapters/vinyl_control.rst:389
-msgid "enabled vinyl control via the menu under :menuselection:`Options -> Vinyl Control --> Enable Vinyl Control`."
+msgid "enabled vinyl control via the menu under :menuselection:`Options --> Vinyl Control --> Enable Vinyl Control`."
 msgstr ""
 
 #: ../../chapters/vinyl_control.rst:392
@@ -454,7 +454,7 @@ msgid "|ok|"
 msgstr ""
 
 #: ../../chapters/vinyl_control.rst:409
-msgid "Nearly perfect green doughnut about about half the width of the graph. Rotating radar sweeps in the direction your record on the turntable is spinning."
+msgid "Nearly perfect green doughnut about half the width of the graph. Rotating radar sweeps in the direction your record on the turntable is spinning."
 msgstr ""
 
 #: ../../chapters/vinyl_control.rst:409

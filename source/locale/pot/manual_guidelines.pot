@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "macOS: `Skitch <https://evernote.com/products/skitch>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:80
-msgid "Linux: `Shutter <http://shutter-project.org/>`_"
+msgid "Linux: `Shutter <https://shutter-project.org/>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:81
@@ -197,7 +197,7 @@ msgid "|longtext| ."
 msgstr ""
 
 #: ../../manual_guidelines.rst:188
-msgid "The substitute section in the docs. `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_ and `also here <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions>`_"
+msgid "The substitute section in the docs. `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_ and `also here <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:193

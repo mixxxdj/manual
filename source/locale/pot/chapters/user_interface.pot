@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -544,7 +544,7 @@ msgid "**One Cue**: If the needle is dropped after the cue point, the track will
 msgstr ""
 
 #: ../../chapters/user_interface.rst:465
-msgid "**Hot Cue**: The track will seek to nearest previous :term:`hotcue` point."
+msgid "**Hot Cue**: The track will seek to the nearest previous :term:`hotcue` point."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:467
@@ -669,11 +669,11 @@ msgid "**Loop Buttons**"
 msgstr ""
 
 #: ../../chapters/user_interface.rst:588
-msgid "**Loop-In**: This button allow you to manually set the start point of a loop. A loop-in marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the start point of a loop to a new position."
+msgid "**Loop-In**: This button allows you to manually set the start point of a loop. A loop-in marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the start point of a loop to a new position."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:592
-msgid "**Loop-Out**: This button allow you to manually set the end point of a loop. A loop-out marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the end point of a loop to a new position."
+msgid "**Loop-Out**: This button allows you to manually set the end point of a loop. A loop-out marker is placed on the waveform indicating the position. If clicked when a loop was already set, it moves the end point of a loop to a new position."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:596

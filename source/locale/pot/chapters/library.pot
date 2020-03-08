@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1074,7 +1074,7 @@ msgid "|ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS
 msgstr ""
 
 #: ../../chapters/library.rst:840
-msgid "|ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/products/traktor/>`_ (Windows, macOS),"
+msgid "|ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)"
 msgstr ""
 
 #: ../../chapters/library.rst:841

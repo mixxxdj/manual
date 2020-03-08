@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,8 +62,8 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:62
 #: ../../chapters/microphones.rst:127
-#: ../../chapters/microphones.rst:219
-#: ../../chapters/microphones.rst:355
+#: ../../chapters/microphones.rst:220
+#: ../../chapters/microphones.rst:356
 msgid "Open :menuselection:`Preferences --> Sound Hardware`."
 msgstr ""
 
@@ -77,25 +77,25 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:66
 #: ../../chapters/microphones.rst:131
-#: ../../chapters/microphones.rst:228
-#: ../../chapters/microphones.rst:366
+#: ../../chapters/microphones.rst:229
+#: ../../chapters/microphones.rst:367
 msgid "Click the :guilabel:`Apply` button."
 msgstr ""
 
 #: ../../chapters/microphones.rst:67
 #: ../../chapters/microphones.rst:132
-#: ../../chapters/microphones.rst:229
-#: ../../chapters/microphones.rst:367
+#: ../../chapters/microphones.rst:230
+#: ../../chapters/microphones.rst:368
 msgid "Click the :guilabel:`OK` button."
 msgstr ""
 
 #: ../../chapters/microphones.rst:68
-#: ../../chapters/microphones.rst:232
+#: ../../chapters/microphones.rst:233
 msgid "Click the :guilabel:`Mics` button in the main Mixxx window to show the microphone controls."
 msgstr ""
 
 #: ../../chapters/microphones.rst:70
-#: ../../chapters/microphones.rst:234
+#: ../../chapters/microphones.rst:235
 msgid "Click the :guilabel:`Talk` button when you are using the microphone."
 msgstr ""
 
@@ -128,8 +128,8 @@ msgid "To configure Mixxx with a loopback input:"
 msgstr ""
 
 #: ../../chapters/microphones.rst:128
-#: ../../chapters/microphones.rst:220
-#: ../../chapters/microphones.rst:359
+#: ../../chapters/microphones.rst:221
+#: ../../chapters/microphones.rst:360
 msgid "Click the :guilabel:`Input` tab."
 msgstr ""
 
@@ -170,165 +170,161 @@ msgid "To configure Mixxx to compensate for input latency while using direct mon
 msgstr ""
 
 #: ../../chapters/microphones.rst:179
-msgid "Mixxx cannot calculate the round trip latency because it depends on details of your audio interface's hardware, your operating system, your audio interface's driver, and other factors in your computer's hardware. The round trip latency can only be found by measuring it. To do this, use a physical cable to connect the audio interface's output to its input. Then, use a third party program to measure the round trip latency. These programs are recommended on each OS:"
+msgid "Mixxx cannot calculate the round trip latency because it depends on details of your audio interface's hardware, your operating system, your audio interface's driver, and other factors in your computer's hardware. The round trip latency can only be found by measuring it. To do this, use a physical cable to connect the audio interface's output to its input. Then, use a third party program to measure the round trip latency. These programs are recommended on each :term:`OS <operating system>`:"
 msgstr ""
 
-#: ../../chapters/microphones.rst:186
+#: ../../chapters/microphones.rst:187
 msgid "**GNU/Linux**: `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_"
 msgstr ""
 
-#: ../../chapters/microphones.rst:188
-msgid "**Windows**: `RTL Utility  <http://www.oblique-audio.com/free/rtlutility>`_"
+#: ../../chapters/microphones.rst:189
+msgid "**Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_"
 msgstr ""
 
-#: ../../chapters/microphones.rst:189
+#: ../../chapters/microphones.rst:190
 msgid "**macOS**: `Audacity <https://manual.audacityteam.org/man/latency_test.html>`_"
 msgstr ""
 
-#: ../../chapters/microphones.rst:201
+#: ../../chapters/microphones.rst:202
 msgid "You must use the same sample rate and audio buffer size in the measurement program as you do in Mixxx for the measurement to be accurate. If you decide to change the sample rate or buffer size you use with Mixxx, you will need to remeasure your round trip latency to have your microphone inputs aligned in your recorded and broadcasted mixes."
 msgstr ""
 
-#: ../../chapters/microphones.rst:207
-msgid "Make sure direct monitoring is *not* :ref:`activated on your audio interface <microphones-activate-direct-monitoring>`"
-msgstr ""
-
-#: ../../chapters/microphones.rst:209
-msgid "while you are measuring the round trip latency or you will not get an accurate measurement."
-msgstr ""
-
-#: ../../chapters/microphones.rst:215
-msgid "Configuring Latency Compensation"
+#: ../../chapters/microphones.rst:208
+msgid "Make sure direct monitoring is *not* :ref:`activated on your audio interface <microphones-activate-direct-monitoring>` while you are measuring the round trip latency or you will not get an accurate measurement."
 msgstr ""
 
 #: ../../chapters/microphones.rst:216
+msgid "Configuring Latency Compensation"
+msgstr ""
+
+#: ../../chapters/microphones.rst:217
 msgid "Before opening Mixxx, :ref:`measure the round trip latency <microphones-measure-round-trip-latency>`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:218
+#: ../../chapters/microphones.rst:219
 msgid "Open Mixxx."
 msgstr ""
 
-#: ../../chapters/microphones.rst:221
+#: ../../chapters/microphones.rst:222
 msgid "Select the audio interface input(s) for the :guilabel:`Microphone 1-4` inputs. Select a single mono channel for each Microphone input unless you are using stereo microphones."
 msgstr ""
 
-#: ../../chapters/microphones.rst:224
+#: ../../chapters/microphones.rst:225
 msgid "For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct monitor (recording and broadcasting only)`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:226
-msgid "Enter the measured round trip latency in millseceonds for the :guilabel:`Microphone Latency Compensation` option."
+#: ../../chapters/microphones.rst:227
+msgid "Enter the measured round trip latency in milliseconds for the :guilabel:`Microphone Latency Compensation` option."
 msgstr ""
 
-#: ../../chapters/microphones.rst:230
+#: ../../chapters/microphones.rst:231
 msgid ":ref:`Activate direct monitoring on your audio interface. <microphones-activate-direct-monitoring>`"
 msgstr ""
 
-#: ../../chapters/microphones.rst:235
+#: ../../chapters/microphones.rst:236
 msgid "Adjust the microphone volume with the input gain knob on your audio interface. Do not adjust the microphone gain in Mixxx. If you do, the relative volume of the mics and music will be different in your recorded and broadcasted mixes compared to what you hear out of your audio interface."
 msgstr ""
 
-#: ../../chapters/microphones.rst:240
+#: ../../chapters/microphones.rst:241
 msgid "Mixxx will not record or broadcast your microphone if the :guilabel:`Talk` button is not active. However, you will still hear the microphone in your main output because the microphone is mixed by your audio interface, not Mixxx. You may leave the :guilabel:`Talk` button on to ensure you do not forget it, but this will record and broadcast background noise when you are not actively using the microphone. If your microphone has an on/off switch on it, you may leave the :guilabel:`Talk` button enabled in Mixxx and use the switch on the microphone to avoid adding background noise to your mix. Alternatively, you can adjust the input gain on your audio interface throughout your mix."
 msgstr ""
 
-#: ../../chapters/microphones.rst:253
+#: ../../chapters/microphones.rst:254
 msgid "Activating Direct Monitoring And Loopback On The Audio Interface"
 msgstr ""
 
-#: ../../chapters/microphones.rst:254
+#: ../../chapters/microphones.rst:255
 msgid "General tips for activating direct monitoring and loopback are described below. However, every audio interface is different, so refer to the audio interface manual from the manufacturer for more details."
 msgstr ""
 
-#: ../../chapters/microphones.rst:258
+#: ../../chapters/microphones.rst:259
 msgid "On stand-alone audio interfaces, there is often a knob on the device that controls direct monitoring. This knob crossfades the audio interface's output between the signal from the computer and the directly monitored inputs. If your audio interface has a knob like this, set the knob to the center. Alternatively, some audio interfaces have a switch to toggle direct monitoring instead of a knob."
 msgstr ""
 
-#: ../../chapters/microphones.rst:265
+#: ../../chapters/microphones.rst:266
 msgid "To hear mono microphone inputs on both sides of the stereo output with direct monitoring, you typically need to toggle a switch on the device."
 msgstr ""
 
-#: ../../chapters/microphones.rst:268
+#: ../../chapters/microphones.rst:269
 msgid "If the audio interface supports :ref:`microphones-loopback-input`, that may be activated by a switch on the device."
 msgstr ""
 
-#: ../../chapters/microphones.rst:271
+#: ../../chapters/microphones.rst:272
 msgid "Audio interfaces with lots of inputs and outputs often have a control panel program provided by the manufacturer that is installed automatically with the driver. This may be used instead of knobs and switches on the hardware to control direct monitoring, loopback, stereo/mono switches, and other audio interface features. On GNU/Linux, you might be able to access these controls with :command:`alsamixer`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:278
+#: ../../chapters/microphones.rst:279
 msgid "Refer to the section below for details about :ref:`microphones-dj-controllers`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:283
+#: ../../chapters/microphones.rst:284
 msgid "Hardware Mixers"
 msgstr ""
 
-#: ../../chapters/microphones.rst:284
-msgid "Mixxx can be used with a microphone plugged into an external hardware mixer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, it is generally recommeded to use an audio interface that supports :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input` instead of an external mixer. If you are using :ref:`vinyl-control` and a microphone, you may need an external mixer."
+#: ../../chapters/microphones.rst:285
+msgid "Mixxx can be used with a microphone plugged into an external hardware mixer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, it is generally recommended to use an audio interface that supports :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input` instead of an external mixer. If you are using :ref:`vinyl-control` and a microphone, you may need an external mixer."
 msgstr ""
 
-#: ../../chapters/microphones.rst:292
+#: ../../chapters/microphones.rst:293
 msgid "Mixxx can send each deck to separate stereo channels on an external mixer by using the :guilabel:`Deck 1-4` outputs. This requires an audio interface with at least 4 output channels (2 stereo pairs). Audio interfaces built into computers only have one stereo output and they do not have high sound quality. Thus, another audio interface is recommended. Audio interfaces with at least 4 output channels typically have microphone inputs and support :ref:`microphones-direct-monitoring`, so there is no need for the external mixer."
 msgstr ""
 
-#: ../../chapters/microphones.rst:301
+#: ../../chapters/microphones.rst:302
 msgid "However, audio interfaces with phono preamplifiers for :ref:`vinyl-control` do not have microphone inputs. If you want to use vinyl control with a microphone, it is recommended to plug the microphone into a DJ mixer."
 msgstr ""
 
-#: ../../chapters/microphones.rst:305
+#: ../../chapters/microphones.rst:306
 msgid "Some mixers that are not designed for DJing have a built-in USB audio interface. However, the audio interfaces in these mixers typically send only 2 channels (one stereo pair) to the mixer, so they are not recommended."
 msgstr ""
 
-#: ../../chapters/microphones.rst:313
+#: ../../chapters/microphones.rst:314
 msgid "Recording And Broadcasting With An External Hardware Mixer"
 msgstr ""
 
-#: ../../chapters/microphones.rst:314
+#: ../../chapters/microphones.rst:315
 msgid "To record or broadcast with an external hardware mixer, the output of the mixer needs to be connected to the input of an audio interface. Most DJ mixers have an extra output for this which may be labeled \"record\", \"session\", \"auxiliary\", or \"booth\". Some audio interfaces for vinyl control have enough input channels to receive the output of the mixer and timecode from two turntables. If yours does not, you may use the input of the audio interface built into your computer, but these do not have high sound quality."
 msgstr ""
 
-#: ../../chapters/microphones.rst:333
+#: ../../chapters/microphones.rst:334
 msgid "Alternatively, some DJ mixers have a built-in USB audio interface. These have inputs with phono preamplifiers for vinyl control and usually can send the record output back to the computer without a separate audio interface. Many (but not all) of these mixers are digital mixers, so they can send signals back and forth to Mixxx without converting them to analog. This results in higher sound quality for your recorded and broadcasted mixes compared to using a separate audio interface with an external mixer."
 msgstr ""
 
-#: ../../chapters/microphones.rst:353
+#: ../../chapters/microphones.rst:354
 msgid "To configure Mixxx for using a hardware mixer for recording and/or broadcasting:"
 msgstr ""
 
-#: ../../chapters/microphones.rst:356
+#: ../../chapters/microphones.rst:357
 msgid "In the :guilabel:`Output` tab, select the audio interface for the :guilabel:`Deck 1-2` outputs (and :guilabel:`Deck 3-4` outputs if your audio interface and mixer support 4 decks)."
 msgstr ""
 
-#: ../../chapters/microphones.rst:360
+#: ../../chapters/microphones.rst:361
 msgid "For the :guilabel:`Record/Broadcast` input, select the audio interface connected to the mixer's output. For mixers with a built-in USB audio interface, refer to the mixer manufacturer's manual to find which channels of the mixer's audio interface send the record output."
 msgstr ""
 
-#: ../../chapters/microphones.rst:364
+#: ../../chapters/microphones.rst:365
 msgid "If you are using vinyl control, select the audio interface connected to the turntables for the :guilabel:`Vinyl Control 1-4` inputs."
 msgstr ""
 
-#: ../../chapters/microphones.rst:369
+#: ../../chapters/microphones.rst:370
 msgid "Do not configure anything for the :guilabel:`Microphone 1-4` inputs when using an external mixer. The microphone controls in Mixxx will not affect your microphones because the microphone is mixed by the external mixer."
 msgstr ""
 
-#: ../../chapters/microphones.rst:373
+#: ../../chapters/microphones.rst:374
 msgid "DJ mixers typically do not supply phantom power required for condenser microphones. Stand-alone audio interfaces typically do supply phantom power."
 msgstr ""
 
-#: ../../chapters/microphones.rst:379
+#: ../../chapters/microphones.rst:380
 msgid "DJ Controllers With Microphone Inputs"
 msgstr ""
 
-#: ../../chapters/microphones.rst:380
+#: ../../chapters/microphones.rst:381
 msgid "DJ controllers with microphone inputs typically mix the microphone input with the master output without sending it to the computer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do not digitize the signal to make it available to the computer. Refer to the controller's page on the `Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or the manual from the controller manufacturer for details about your particular controller."
 msgstr ""
 
-#: ../../chapters/microphones.rst:389
+#: ../../chapters/microphones.rst:390
 msgid "If the controller does not digitize the microphone input, you cannot use Mixxx's microphone input to record or broadcast with the microphone using Mixxx's :guilabel:`Microphone 1-4` inputs. It is still possible to record and broadcast the microphone by connecting the booth output of the controller to an audio interface input and configuring this for Mixxx's :guilabel:`Record/Broadcast` input. If the controller does not have a booth output, a Y splitter cable can be used on each side of the stereo main output to connect the main output to both the speakers and to another audio interface's input."
 msgstr ""
 
-#: ../../chapters/microphones.rst:411
+#: ../../chapters/microphones.rst:412
 msgid "DJ controllers typically do not supply phantom power required for condenser microphones. Stand-alone audio interfaces typically do supply phantom power."
 msgstr ""
