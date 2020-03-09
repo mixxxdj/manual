@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
 "Language-Team: Italian (https://www.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
 "MIME-Version: 1.0\n"
@@ -148,8 +148,8 @@ msgstr ""
 #: ../../chapters/getting_started.rst:100
 msgid ""
 "The :ref:`hardware` chapter explains different types of DJ hardware and how "
-"to set them up with the the input and output options. For Mixxx to perform "
-"the best it can on your system, configure the other :ref:`preferences-sound-"
+"to set them up with the input and output options. For Mixxx to perform the "
+"best it can on your system, configure the other :ref:`preferences-sound-"
 "hardware` preferences in addition to the inputs and outputs."
 msgstr ""
 
@@ -211,7 +211,7 @@ msgstr ""
 #: ../../chapters/getting_started.rst:139
 msgid ""
 "Use these inputs if you are not using an external hardware mixer. If you are"
-" using a controller with a built in audio interface, use these inputs."
+" using a controller with a built-in audio interface, use these inputs."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:142

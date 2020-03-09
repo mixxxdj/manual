@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
-"Last-Translator: Benny Beat <bennybeat@gmail.com>\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -271,9 +271,19 @@ msgstr "cueing o Pre-escolta"
 #: ../../glossary.rst:8
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
-"like to mix in in your headphones. The audience will not hear what you are "
+"like to mix in your headphones. The audience will not hear what you are "
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
-msgstr "La pre-escolta amb auriculars, o també cueing, vol dir escoltar la següent pista que voleu mesclar fent servir els auriculars. El public no sentirà el que esteu pre-escoltant. Poder pre-escoltar és un aspecte crucial per a fer de DJ."
+msgstr ""
+
+#: ../../glossary.rst:488
+msgid "DAW"
+msgstr ""
+
+#: ../../glossary.rst:490
+msgid ""
+"A digital audio workstation (DAW) is an electronic device or application "
+"software used for recording, editing and producing audio files."
+msgstr ""
 
 #: ../../glossary.rst:294
 msgid "db"
@@ -462,11 +472,11 @@ msgstr "HID"
 
 #: ../../glossary.rst:107
 msgid ""
-"Short for for Human Interface Device, a part of the USB specification. It "
+"Short for Human Interface Device, a part of the USB specification. It "
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
-msgstr "Diminutiu de Human Interface Device, que vol dir dispositiu d'interfície humana, i forma part de la especificació USB. És una classe de dispositiu pensada per a dispositius per a l'ús per persones, com són el teclat, el ratolí, comandaments de jocs o les :term:`controladores <controller>` de DJ."
+msgstr ""
 
 #: ../../glossary.rst:364
 msgid "hotcue"
@@ -561,6 +571,16 @@ msgid ""
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
 msgstr "Utilitzant en el context de l'equalitzador, el botó permet el pas o no de certes frequències d'un canal, com són els aguts, mitjos i baixos. És útil per fer lloc per una transició."
+
+#: ../../glossary.rst:492
+msgid "LADSPA"
+msgstr ""
+
+#: ../../glossary.rst:494
+msgid ""
+"Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for"
+" handling audio filters and audio signal processing effects."
+msgstr ""
 
 #: ../../glossary.rst:272
 msgid "LAME"
@@ -669,12 +689,12 @@ msgstr "MIDI"
 
 #: ../../glossary.rst:100
 msgid ""
-"Short for for Musical Instrument Digital Interface. A digital communications"
-" language and hardware specification enabling compatible electronic "
+"Short for Musical Instrument Digital Interface. A digital communications "
+"language and hardware specification enabling compatible electronic "
 "instruments, sequencers, computers, etc., to communicate with each other in "
 "a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
 "with computers."
-msgstr "Diminutiu de Musical Instrument Digital Interface, que vol dir Interfície digital per a instruments musicals. És un llenguatge de comunicació i una especificació de maquinari que permet la comunicació entre instruments electrònics, seqüenciadors i ordinadors entre altres. Moltes :term:`controladores <controller>` DJ utilitzen el llenguatge MIDI."
+msgstr ""
 
 #: ../../glossary.rst:226
 msgid "MP3"

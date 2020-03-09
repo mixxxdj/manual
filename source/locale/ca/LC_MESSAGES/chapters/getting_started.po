@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Josep Maria Antolin <josepma@gmail.com>, 2020
+# Benny Beat <bennybeat@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Josep Maria Antolin <josepma@gmail.com>, 2020\n"
+"Last-Translator: Benny Beat <bennybeat@gmail.com>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:6
 msgid "Getting Started"
-msgstr ""
+msgstr "Inici"
 
 #: ../../chapters/getting_started.rst:9
 msgid "Opening Mixxx"
-msgstr "Obriu el Mixxx"
+msgstr "Obrint el Mixxx"
 
 #: ../../chapters/getting_started.rst:10
 msgid ""
@@ -45,13 +46,13 @@ msgid ""
 "Windows start menu and click the Mixxx icon, or perform a search for "
 ":file:`Mixxx.exe`."
 msgstr ""
-"Feu doble-clic a la icona del Mixxx de l'escriptori. També podeu anar al "
-"menú inicia de Windows i fer clic a la icona del Mixxx, o també podeu cercar"
-" el fixer :file:`Mixxx.exe`."
+"Feu doble clic a la icona del Mixxx de l'escriptori. Des del menú Inicia del"
+" Windows també podeu fer clic a la icona del Mixxx o cercar el fixer "
+":file:`Mixxx.exe`."
 
 #: ../../chapters/getting_started.rst:21
 msgid "**Mac OSX**"
-msgstr "**A Mac OSX**"
+msgstr "**Mac OSX**"
 
 #: ../../chapters/getting_started.rst:19
 msgid ""
@@ -89,10 +90,10 @@ msgid ""
 " music is stored. By default, the dialog points to a location where music "
 "files are typically held, but you can select any location on your computer."
 msgstr ""
-"El primer cop que executeu el Mixxx, us demanarà que seleccioneu el "
-"directori on teniu la vostra música. Per defecte, la finestra s'ubica en la "
-"carpeta on es posen habitualment els fitxers d'àudio, però podeu seleccionar"
-" qualsevol carpeta de l'ordinador."
+"El primer cop que executeu el Mixxx, si us demanarà que seleccioneu la ruta "
+"de la vostra música. Per defecte se selecciona la predeterminada pel sistema"
+" per emmagatzemar els fitxers d'àudio, però podeu triar qualsevol altra "
+"carpeta de l'ordinador."
 
 #: ../../chapters/getting_started.rst:53
 msgid ""
@@ -109,9 +110,11 @@ msgid ""
 "the menu. If you want to rescan at every launch, select "
 ":menuselection:`Preferences --> Library --> Rescan on startup`."
 msgstr ""
-"Si voleu refrescar la biblioteca (per exemple perquè heu afegit o mogut "
-"fitxers), podeu fer-ho des de la opció :menuselection:`Biblioteca --> Torna "
-"a escanejar la biblioteca a l'inici`."
+"Si voleu actualitzar la biblioteca (p. ex. en afegir o moure fitxers), podeu"
+" fer-ho des de l'opció :menuselection:`Llibreria --> Torna a escanejar`. Si "
+"voleu fer aquest procés cada vegada que s'iniciï el Mixxx, seleccioneu "
+":menuselection:`Preferències --> Llibreria --> Torna a escanejar en "
+"iniciar`."
 
 #: ../../chapters/getting_started.rst:62
 msgid ""
@@ -121,13 +124,13 @@ msgid ""
 "above."
 msgstr ""
 "A Windows 7 i 8 la carpeta configurada en la finestra d'importació és la "
-"Llibreria \"Música\" de Windows, una carpeta virtual especial. **No** podeu "
+"Llibreria  «Música» de Windows, una carpeta virtual especial. **No** podeu "
 "utilitzar aquest tipus de carpetes. Seleccioneu una carpeta específica, com "
-"\"La meva Música\"."
+"«La meva Música»."
 
 #: ../../chapters/getting_started.rst:70
 msgid "Analyze your library"
-msgstr "Analitzeu la Biblioteca"
+msgstr "Anàlisi de la llibreria"
 
 #: ../../chapters/getting_started.rst:76
 msgid ""
@@ -166,8 +169,8 @@ msgstr ""
 #: ../../chapters/getting_started.rst:100
 msgid ""
 "The :ref:`hardware` chapter explains different types of DJ hardware and how "
-"to set them up with the the input and output options. For Mixxx to perform "
-"the best it can on your system, configure the other :ref:`preferences-sound-"
+"to set them up with the input and output options. For Mixxx to perform the "
+"best it can on your system, configure the other :ref:`preferences-sound-"
 "hardware` preferences in addition to the inputs and outputs."
 msgstr ""
 
@@ -229,7 +232,7 @@ msgstr ""
 #: ../../chapters/getting_started.rst:139
 msgid ""
 "Use these inputs if you are not using an external hardware mixer. If you are"
-" using a controller with a built in audio interface, use these inputs."
+" using a controller with a built-in audio interface, use these inputs."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:142
@@ -260,4 +263,4 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:157
 msgid ":ref:`microphones`"
-msgstr ""
+msgstr ":ref:`micròfons`"

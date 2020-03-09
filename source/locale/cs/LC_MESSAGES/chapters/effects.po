@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:14
 msgid "Effect Units"
-msgstr ""
+msgstr "Efektové jednotky"
 
 #: ../../chapters/effects.rst:15
 msgid ""
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:23
 msgid "An effect unit"
-msgstr ""
+msgstr "Efektová jednotka"
 
 #: ../../chapters/effects.rst:25
 msgid ""
@@ -55,31 +55,31 @@ msgstr ""
 
 #: ../../chapters/effects.rst:36
 msgid "Effect units can process sound from:"
-msgstr ""
+msgstr "Efektové jednotky mohou zpracovat zvuk z:"
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "Přehrávače"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
-msgstr ""
+msgstr "Mikrofony"
 
 #: ../../chapters/effects.rst:33
 msgid "auxiliary inputs"
-msgstr ""
+msgstr "Pomocné vstupy (Aux)"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "Hlavní míchání"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
-msgstr ""
+msgstr ":term:`PFL` (sluchátka) míchání"
 
 #: ../../chapters/effects.rst:36
 msgid "left/middle/right crossfader buses"
-msgstr ""
+msgstr "Sběrnice levého/prostředního/pravého prolínače"
 
 #: ../../chapters/effects.rst:38
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:65
 msgid "Effect Parameters & Metaknobs"
-msgstr ""
+msgstr "Parametr efektu a regulátory"
 
 #: ../../chapters/effects.rst:66
 msgid ""

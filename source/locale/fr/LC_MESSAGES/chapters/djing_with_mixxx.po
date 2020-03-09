@@ -5,6 +5,7 @@
 # Translators:
 # Damien <damien.bernard@openmailbox.org>, 2015-2016
 # Ed Ward, 2015
+# Rafael French <rafael.venan@free.fr>, 2020
 # Sebastien BLAISOT <sebastien@blaisot.org>, 2015-2016
 # Stéphane Guillou <stephane.guillou@member.fsf.org>, 2015
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2020-02-23 22:46+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,7 +113,7 @@ msgid ""
 "signal-to-noise ratio, the gain should be adjusted as close to the speakers "
 "as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
 " details."
-msgstr ""
+msgstr "Pour ajuster le volume de sortie d'un système son tout en maintenant un ratio signal-bruit haut, le gain doit être ajusté aussi près des enceintes que possible. Référez-vous à la section  :ref:`Bouton de gain <interface-gain-knob>` pour plus de gain."
 
 #: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
@@ -174,7 +175,7 @@ msgid ""
 "can play, stop, eject, load, and queue any track with master sync and it "
 "won't interrupt the playback of the other decks.  However, changing the rate"
 " of a stopped deck will change the rate of playing decks."
-msgstr ""
+msgstr "Pour activer la synchronisation principale sur une platine, maintenez appuyé (ou maintenez cliqué à la souris) le bouton :guilabel:`SYNC`. Vous saurez que la synchronisation principale est activée lorsque le bouton sync restera allumé en permanence. La modification de vitesse sur n'importe quelle platine qui a le bouton sync allumé changera la vitesse de toutes les autres platines qui ont le bouton sync allumé. Il n'y a pas besoin de spécifier une platine comme maître ou suiveuse. Vous pouvez lire, arrêter, éjecter et mettre en queue une piste avec la synchronisation principale et cela n'arrêtera pas la lecture des autres platines. Cependant, le changement de vitesse d'une platine arrêtée changera la vitesse des platines en lecture."
 
 #: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
@@ -201,7 +202,7 @@ msgid ""
 "Harmonic mixing is a technique to mix songs with matching melodies and "
 "harmonies. To learn more about harmonic mixing you might want to check out "
 "`the mixshare archive`_."
-msgstr ""
+msgstr "Le mixage harmonique est une technique pour mixer des chansons en faisant correspondre les mélodies et les harmonies. Pour en apprendre plus à propos du mixage harmonique, vous pouvez visiter `l'archive mixshare`_."
 
 #: ../../chapters/djing_with_mixxx.rst:173
 msgid ""
@@ -212,7 +213,7 @@ msgid ""
 "automatically detect the key of a track and will display it in the library "
 "and the decks. The notation which is used to display a key can be changed in"
 " :ref:`Key Detection Preferences <configuration-key-detection>`."
-msgstr ""
+msgstr "Mixxx possède deux fonctions pour vous aider avec le mixage harmonique. La première est le :term:`verrouillage de tonalité`. Quand elle est active, changer le vitesse d'une piste n'affectera pas la tonalité. Pour activer le :term:`verrouillage de tonalité`, cliquez sur le bouton :guilabel:`verrouillage de tonalité` dans l':ref:`interface-button-grid`. La seconde, Mixxx peut automatiquement détecter la tonalité d'une piste et l'afficher dans la bibliothèque et dans les platines. La notation utilisée pour afficher une tonalité peut être changée dans les  :ref:`Préférences de détection de tonalité <configuration-key-detection>`."
 
 #: ../../chapters/djing_with_mixxx.rst:184
 msgid "Recording Your Mix"
@@ -223,7 +224,7 @@ msgid ""
 "With the integrated recording feature you can record your mix as an audio "
 "file and listen to it later, distribute it as a :term:`Podcast` or burn it "
 "to CD."
-msgstr ""
+msgstr "Grâce à la fonction d'enregistrement intégrée, vous pouvez enregistrer votre mix sous forme de fichier audio et l'écouter plus tard, le distribuer en tant que :term:`Podcast` ou le graver sur CD."
 
 #: ../../chapters/djing_with_mixxx.rst:192
 msgid ""
@@ -232,7 +233,7 @@ msgid ""
 "for the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences "
 "--> Sound Hardware`. Refer to :ref:`microphones-record-broadcast-external-"
 "mixer` for details."
-msgstr ""
+msgstr "Par défaut, Mixxx enregistre la sortie principale. Alternativement, Mixxx peut enregistrer la sortie d'une table de mixage externe si vous avez une interface audio configurée pour l'entrée :guilabel:`Enregistrer/Diffuser` dans :menuselection:`Préférences -> Matériel sonore `. Voir: ref:`microphones-record-broadcast-external-mixer» pour plus de détails."
 
 #: ../../chapters/djing_with_mixxx.rst:205
 msgid "Mixxx library - Recordings view"
@@ -273,15 +274,15 @@ msgid ""
 "Click on the recording icon on top of the application window to start, and "
 "stop the recording session. The duration of the running recording is "
 "displayed next to the icon."
-msgstr ""
+msgstr "Cliquer sur l'icône d'enregistrement en haut de la fenêtre de l'application pour démarrer et arrêter la session d'enregistrement. La durée de l'enregistrement en cours est affichée à côté de l'icône."
 
 #: ../../chapters/djing_with_mixxx.rst:231
 msgid "The recording widget might not be available in some skins."
-msgstr ""
+msgstr "Le widget d'enregistrement peut ne pas être disponible dans certains thèmes."
 
 #: ../../chapters/djing_with_mixxx.rst:233
 msgid "Alternatively:"
-msgstr ""
+msgstr "Alternativement:"
 
 #: ../../chapters/djing_with_mixxx.rst:235
 msgid ""
@@ -300,7 +301,7 @@ msgstr "Cliquez sur le bouton :guilabel:`Démarrer l'enregistrement ou sur :menu
 msgid ""
 "The display above the track table shows how much data has already been "
 "recorded, as well as the duration of the recording."
-msgstr ""
+msgstr "L'affichage au dessus du tableau des pistes montre combien de données ont déjà été enregistrées, ainsi que la durée de l'enregistrement."
 
 #: ../../chapters/djing_with_mixxx.rst:242
 msgid "Perform your mix"
@@ -316,7 +317,7 @@ msgstr "Cliquez sur le bouton :guilabel:`Arrêter l'enregistrement` pour arrête
 msgid ""
 "You can instantly play your recording as a track in Mixxx. Simply drag-and-"
 "drop the track to a deck."
-msgstr ""
+msgstr "Vous pouvez instantanément lire vos enregistrements comme une piste dans Mixxx. Glissez-déposez simplement la piste dans une platine."
 
 #: ../../chapters/djing_with_mixxx.rst:252
 msgid "Using Auto DJ For Automatic Mixing"
@@ -373,14 +374,14 @@ msgstr "En vue Auto DJ de la bibliothèque, faites glisser des pistes depuis un 
 
 #: ../../chapters/djing_with_mixxx.rst:298
 msgid "Using Auto DJ crates"
-msgstr ""
+msgstr "Utilisation des bacs Auto DJ"
 
 #: ../../chapters/djing_with_mixxx.rst:300
 msgid ""
 "Instead of inserting the contents of the crates directly into the Auto DJ "
 "playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
 "crates that become a source of random track selections."
-msgstr ""
+msgstr "Au lieu d'insérer le contenu des bacs directement dans la liste de lecture Auto DJ, :ref:`Auto DJ crates <library-auto-dj-crates>` sont des bacs associées qui deviennent une source de sélections aléatoires de pistes."
 
 #: ../../chapters/djing_with_mixxx.rst:304
 msgid ""
@@ -390,13 +391,13 @@ msgid ""
 "the crate available for random selection into the :ref:`Auto DJ <library-"
 "auto-dj>` queue for automatic mixing. The name of the crate is now listed as"
 " sub-item below."
-msgstr ""
+msgstr "**Ajouter un bac aux sources de la piste Auto DJ**: Développer l'élément :guilabel:`Auto DJ` dans la barre latérale, et cliquez avec le bouton droit sur le sous-élément :guilabel:`Bacs`. Sélectionner l'un des bacs existantes dans la liste. Cela rend le contenu du bac disponible pour une sélection aléatoire dans la file d'attente :ref:`Auto DJ <library-auto-dj>` pour le mix automatique. Le nom du bac est maintenant répertorié comme sous-élément ci-dessous."
 
 #: ../../chapters/djing_with_mixxx.rst:311
 msgid ""
 "If you do not have any crates available for selection in the list, go and "
 "create a crate first and add some tracks, see :ref:`library-crates`."
-msgstr ""
+msgstr "Si vous n'avez pas de bacs disponibles pour la sélection dans la liste, allez d'abord créer un bac et ajouter quelques pistes, voir :ref:`library-crates`."
 
 #: ../../chapters/djing_with_mixxx.rst:314
 msgid ""
@@ -404,14 +405,14 @@ msgid ""
 ":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
 "the library. Click the :guilabel:`Add random` button to add one track at the"
 " time from Auto DJ track sources to the bottom of the Auto DJ playlist."
-msgstr ""
+msgstr "**Ajouter manuellement des pistes à partir des sources de piste à Auto DJ**: Cliquer sur l'élément :guilabel:`Auto DJ` dans la barre latérale et passer à la vue Auto DJ de la bibliothèque. Cliquer sur le bouton :guilabel:`Ajouter aléatoirement` pour ajouter une piste à la fois à partir des sources de piste Auto DJ à la fin de la liste de lecture Auto DJ."
 
 #: ../../chapters/djing_with_mixxx.rst:319
 msgid ""
 "If you did not set any crates as an Auto DJ track source, clicking the "
 ":guilabel:`Add Random` button will add a randomly selected track from the "
 "whole library instead."
-msgstr ""
+msgstr "Si vous n'avez pas défini de bac comme source de piste Auto DJ, cliquer sur le bouton :guilabel:`Ajouter aléatoirement` pour ajouter une piste sélectionnée au hasard dans toute la bibliothèque."
 
 #: ../../chapters/djing_with_mixxx.rst:323
 msgid ""
@@ -422,13 +423,13 @@ msgid ""
 "queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` "
 "to change the minimum number of tracks after which random tracks may be "
 "added."
-msgstr ""
+msgstr "**Ajouter automatiquement des pistes à partir des sources de piste à Auto DJ**: Mixxx peut ajouter au hasard des pistes à la liste de lecture Auto DJ à partir des sources de piste dès qu'il reste un nombre minimum de pistes spécifié. Sélectionner :menuselection:`Préférences -> Auto DJ -> Activer l'ajout au hasard d'une piste à la file d'attente. -> Allumé`. Réglé :menuselection:`Nombre minimum de pistes avant l'ajout` pour changer le nombre minimum de pistes après lesquelles des pistes aléatoires peuvent être ajoutées."
 
 #: ../../chapters/djing_with_mixxx.rst:330
 msgid ""
 "If you did not set any crates as an Auto DJ track source, tracks are "
 "selected from the whole library instead."
-msgstr ""
+msgstr "Si vous n'avez défini aucun bac comme source de piste Auto DJ, les pistes sont sélectionnées à partir de toute la bibliothèque."
 
 #: ../../chapters/djing_with_mixxx.rst:333
 msgid ""
@@ -437,7 +438,7 @@ msgid ""
 "crates listed below the :guilabel:`Crates` sub-item. Select "
 ":guilabel:`Remove Crate as Track Source` to remove the crate from the Auto "
 "DJ track sources."
-msgstr ""
+msgstr "**Supprimer un bac des sources de piste Auto DJ**: Développer l'élément :guilabel:`Auto DJ` dans la barre latérale, et cliquer avec le bouton droit sur l'un des bacs répertoriées sous le sous-élément :guilabel:` Bacs`. Sélectionner :guilabel:`Supprimer le bac comme source de piste` pour supprimer le bac des sources de piste Auto DJ."
 
 #: ../../chapters/djing_with_mixxx.rst:339
 msgid "Playing tracks in Auto DJ"
@@ -481,4 +482,4 @@ msgid ""
 "You can add a track to the end of the Auto DJ playlist once it is played "
 "instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
 "queue tracks after playback --> On`."
-msgstr ""
+msgstr "Vous pouvez ajouter une piste à la fin de la liste de lecture Auto DJ une fois qu'elle a été lue au lieu de la supprimer. Définir :menuselection:`Préférences --> Auto DJ --> Remettre les pistes dans la file après la lecture --> Allumé`"

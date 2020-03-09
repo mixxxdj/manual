@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Josep Maria Antolin <josepma@gmail.com>, 2020
+# Benny Beat <bennybeat@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Josep Maria Antolin <josepma@gmail.com>, 2020\n"
+"Last-Translator: Benny Beat <bennybeat@gmail.com>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,20 +31,25 @@ msgid ""
 "Mixxx has a powerful sound effects system. Understanding how it works can "
 "open you up to a wide variety of mixing techniques."
 msgstr ""
+"El Mixxx té un sistema molt potent d'efectes. Entendre el seu funcionament "
+"us facilitarà un ventall molt variat de tècniques per mesclar."
 
 #: ../../chapters/effects.rst:14
 msgid "Effect Units"
-msgstr ""
+msgstr "Unitat d'efectes"
 
 #: ../../chapters/effects.rst:15
 msgid ""
 "Mixxx has 4 effect units. By default, only 2 of them are shown. The other 2 "
 "effect units can be shown by toggling the setting in the skin settings menu."
 msgstr ""
+"El Mixxx té 4 unitats d'efectes, però només 2 es mostren per defecte, Les "
+"altres 2 restants es poden habilitar alternant l'opció adient al menú de "
+"configuració de la interfície."
 
 #: ../../chapters/effects.rst:23
 msgid "An effect unit"
-msgstr ""
+msgstr "Una unitat d'efectes"
 
 #: ../../chapters/effects.rst:25
 msgid ""
@@ -59,15 +65,15 @@ msgstr ""
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "reproductors"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
-msgstr ""
+msgstr "micròfons"
 
 #: ../../chapters/effects.rst:33
 msgid "auxiliary inputs"
-msgstr ""
+msgstr "entrades auxiliars"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"

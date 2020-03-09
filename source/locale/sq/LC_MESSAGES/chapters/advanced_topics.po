@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Albanian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -327,147 +327,162 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:173
 msgid ""
-"Download AU Lab.app standalone from Apple (you will need an free Apple "
-"Developer Login though), go to the `Downloads for Developers "
-"<https://developer.apple.com/downloads/index.action>`_ page and search for "
-"“AU Lab” to get it."
+"Install the free digital audio mixing application `AU Lab "
+"<https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:178
-msgid "**In Mixxx**"
+#: ../../chapters/advanced_topics.rst:176
+msgid ""
+"macOS 10.15 (Catalina) introduces additional restrictions on running non-"
+"Apple software. Make sure to grant permission in `System Preferences --> "
+"Security & Privacy --> Microphone --> AU Lab`."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:180
+msgid ""
+"Alternatively, try `Blackhole "
+"<https://github.com/ExistentialAudio/BlackHole>`_, a modern virtual audio "
+"driver that allows applications to pass audio to other applications with "
+"zero additional latency, and `Hosting AU <http://ju-x.com/hostingau.html>`_,"
+" a free micro-sized :term:`DAW` that hosts Audio Unit instruments and effect"
+" plugins."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:186
+msgid "**In Mixxx**"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:188
 msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:181
+#: ../../chapters/advanced_topics.rst:189
 msgid ""
 "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 1-2`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:183
+#: ../../chapters/advanced_topics.rst:191
 msgid ""
 "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 3-4`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:185
+#: ../../chapters/advanced_topics.rst:193
 msgid "Click the :guilabel:`Apply` button"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:187
+#: ../../chapters/advanced_topics.rst:195
 msgid "**In AU Lab**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:189
+#: ../../chapters/advanced_topics.rst:197
 msgid "Click on the :guilabel:`+` button to create a new configuration"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:190
+#: ../../chapters/advanced_topics.rst:198
 msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:191
+#: ../../chapters/advanced_topics.rst:199
 msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:192
+#: ../../chapters/advanced_topics.rst:200
 msgid "Click :guilabel:`OK`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:193
+#: ../../chapters/advanced_topics.rst:201
 msgid "Change the audio input device to :guilabel:`Soundflower 16`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:194
+#: ../../chapters/advanced_topics.rst:202
 msgid ""
 "Change the audio output device for example to :guilabel:`Built-in Output`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:195
+#: ../../chapters/advanced_topics.rst:203
 msgid "Click :guilabel:`Create document`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:196
+#: ../../chapters/advanced_topics.rst:204
 msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
 "menu, for example :guilabel:`Apple > AUCompressor`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:199
+#: ../../chapters/advanced_topics.rst:207
 msgid "The effect should now react if you play a track in Mixxx."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:202
+#: ../../chapters/advanced_topics.rst:210
 msgid "Effects via JACK Rack on GNU/Linux"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:211
+#: ../../chapters/advanced_topics.rst:219
 msgid "The Jack routing for external effects on GNU/Linux"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:213
+#: ../../chapters/advanced_topics.rst:221
 msgid ""
 "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to "
 "route each deck directly through `JACK Rack <http://jack-"
 "rack.sourceforge.net/>`_ effect racks, or for more control you can use "
-"Ardour (or another DAW) using sends for effects. This gives Mixxx access to "
-"the extensive collection of LADSPA plugins."
+"Ardour (or another :term:`DAW`) using sends for effects. This gives Mixxx "
+"access to the extensive collection of :term:`LADSPA` plugins."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:219
+#: ../../chapters/advanced_topics.rst:227
 msgid ""
 "Make sure the correct multichannel audio interface has been selected in Jack"
 " (Jack settings visible bottom left). Note that Mixxx possibly labels its "
-"Jack ports as “Portaudio”."
+"Jack ports as :guilabel:`Portaudio`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:224
+#: ../../chapters/advanced_topics.rst:232
 msgid "Deleting Your Library"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:226
+#: ../../chapters/advanced_topics.rst:234
 msgid ""
 "The library file is stored in the following places depending on your "
 ":term:`operating system`:"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:233
+#: ../../chapters/advanced_topics.rst:241
 msgid "**Windows**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:230
+#: ../../chapters/advanced_topics.rst:238
 msgid ""
 "The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local "
 "Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on"
 " Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:240
+#: ../../chapters/advanced_topics.rst:248
 msgid "**macOS**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:236
+#: ../../chapters/advanced_topics.rst:244
 msgid ""
 "The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`"
 " folder in your home directory. To delete your library on macOS type the "
 "following command into a terminal: ::"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:246
+#: ../../chapters/advanced_topics.rst:254
 msgid "**GNU/Linux**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:243
+#: ../../chapters/advanced_topics.rst:251
 msgid ""
 "The Mixxx library is stored in the ``.mixxx`` folder in your home directory."
 " To delete your library on GNU/Linux type the following command into a "
 "terminal: ::"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:248
+#: ../../chapters/advanced_topics.rst:256
 msgid ""
 "Deleting your library will lose all of your :term:`metadata`. This includes "
 "saved hotcues, loops, comments, ratings, and other library related metadata."

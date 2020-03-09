@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
 "Language-Team: Spanish (Mexico) (https://www.transifex.com/mixxx-dj-software/teams/7734/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -209,14 +209,15 @@ msgid ""
 "this `guide from Presonus (deleted, via archive.org) "
 "<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn"
 "/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane "
-"<http://www.rane.com/note110.html>`_."
-msgstr ""
-
-#: ../../chapters/hardware.rst:144
-msgid "Number of Channels"
+"(deleted, via archive.org) "
+"<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 msgstr ""
 
 #: ../../chapters/hardware.rst:145
+msgid "Number of Channels"
+msgstr ""
+
+#: ../../chapters/hardware.rst:146
 msgid ""
 "Audio interfaces sometimes have multiple connectors for a single channel, "
 "resulting in more connectors than channels. So, not every connector can send"
@@ -229,11 +230,11 @@ msgid ""
 "controls, but they both play the same signal."
 msgstr ""
 
-#: ../../chapters/hardware.rst:156
+#: ../../chapters/hardware.rst:157
 msgid "Vinyl Control and Phono Preamplifiers"
 msgstr ""
 
-#: ../../chapters/hardware.rst:157
+#: ../../chapters/hardware.rst:158
 msgid ""
 "Turntables output low voltage (phono level) signals that need to be "
 "amplified to line level before most audio equipment can work with them. So, "
@@ -251,11 +252,11 @@ msgid ""
 "preamps."
 msgstr ""
 
-#: ../../chapters/hardware.rst:174
+#: ../../chapters/hardware.rst:175
 msgid "Mixers"
 msgstr ""
 
-#: ../../chapters/hardware.rst:175
+#: ../../chapters/hardware.rst:176
 msgid ""
 "Mixers are devices that combine audio signals. DJ mixers are different from "
 "live and studio mixers because they have multiple stereo channels with phono"
@@ -264,7 +265,7 @@ msgid ""
 "without a hardware mixer."
 msgstr ""
 
-#: ../../chapters/hardware.rst:181
+#: ../../chapters/hardware.rst:182
 msgid ""
 "Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono"
 " outputs (2 stereo pairs) to send Mixxx's decks to the mixer's stereo "
@@ -274,7 +275,7 @@ msgid ""
 "interface."
 msgstr ""
 
-#: ../../chapters/hardware.rst:187
+#: ../../chapters/hardware.rst:188
 msgid ""
 "Often DJs who use DJ software with internal mixing send their master output "
 "to a hardware mixer. This can be helpful to send the mixed signal to both a "
@@ -283,7 +284,7 @@ msgid ""
 "transitions between DJs."
 msgstr ""
 
-#: ../../chapters/hardware.rst:193
+#: ../../chapters/hardware.rst:194
 msgid ""
 "However, using an external mixer with internal mixing is not necessary and "
 "reduces the sound quality. Each piece of equipment an audio signal passes "
@@ -294,23 +295,23 @@ msgid ""
 " Mixxx's :guilabel:`Booth` output."
 msgstr ""
 
-#: ../../chapters/hardware.rst:201
+#: ../../chapters/hardware.rst:202
 msgid ""
 "Many people confuse \"analog mixers\" and \"hardware mixers\", but these are"
-" are not the same. Many hardware mixers process audio digitally with "
-"specialized signal processors as opposed to a general purpose CPU like those"
-" in laptop and desktop computers."
+" not the same. Many hardware mixers process audio digitally with specialized"
+" signal processors as opposed to a general purpose CPU like those in laptop "
+"and desktop computers."
 msgstr ""
 
-#: ../../chapters/hardware.rst:206
+#: ../../chapters/hardware.rst:207
 msgid ":ref:`microphones-record-broadcast-external-mixer`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:211
+#: ../../chapters/hardware.rst:212
 msgid "Turntables"
 msgstr ""
 
-#: ../../chapters/hardware.rst:212
+#: ../../chapters/hardware.rst:213
 msgid ""
 "Turntables are mechanical devices that play music recordings cut into vinyl "
 "phonograph records. Before software like Mixxx was available, the art of "
@@ -320,15 +321,15 @@ msgid ""
 "record."
 msgstr ""
 
-#: ../../chapters/hardware.rst:218
+#: ../../chapters/hardware.rst:219
 msgid ":ref:`vinyl-control`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:221
+#: ../../chapters/hardware.rst:222
 msgid "CDJs"
 msgstr ""
 
-#: ../../chapters/hardware.rst:222
+#: ../../chapters/hardware.rst:223
 msgid ""
 "CDJs are devices that play digital audio files and have controls from "
 "manipulating the playback of the audio. Originally CDJs played audio CDs, "
@@ -337,17 +338,17 @@ msgid ""
 ":ref:`controller <hardware-controllers>` for Mixxx."
 msgstr ""
 
-#: ../../chapters/hardware.rst:229
+#: ../../chapters/hardware.rst:230
 msgid "Microphones"
 msgstr ""
 
-#: ../../chapters/hardware.rst:230
+#: ../../chapters/hardware.rst:231
 msgid ""
 "Microphones convert changes in sound pressure in air to changes in voltage "
 "(an analog audio signal). Mixxx can work with any microphone that can be "
 "plugged into your :ref:`audio interface <hardware-audio-interfaces>`."
 msgstr ""
 
-#: ../../chapters/hardware.rst:234
+#: ../../chapters/hardware.rst:235
 msgid ":ref:`microphones`"
 msgstr ""

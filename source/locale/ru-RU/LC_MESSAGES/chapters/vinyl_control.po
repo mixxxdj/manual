@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:25+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:48+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
@@ -598,7 +598,7 @@ msgstr ""
 
 #: ../../chapters/vinyl_control.rst:389
 msgid ""
-"enabled vinyl control via the menu under :menuselection:`Options -> Vinyl "
+"enabled vinyl control via the menu under :menuselection:`Options --> Vinyl "
 "Control --> Enable Vinyl Control`."
 msgstr ""
 
@@ -656,9 +656,8 @@ msgstr ""
 
 #: ../../chapters/vinyl_control.rst:409
 msgid ""
-"Nearly perfect green doughnut about about half the width of the graph. "
-"Rotating radar sweeps in the direction your record on the turntable is "
-"spinning."
+"Nearly perfect green doughnut about half the width of the graph. Rotating "
+"radar sweeps in the direction your record on the turntable is spinning."
 msgstr ""
 
 #: ../../chapters/vinyl_control.rst:409

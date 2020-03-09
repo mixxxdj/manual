@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:25+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:48+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -253,7 +253,7 @@ msgstr ""
 msgid ""
 "**Beat marker**: The regular white lines on the waveform summary indicate "
 "the locations of beats in the audio, also called the :term:`beatgrid`."
-msgstr "**Oznaka beata**: Bele črte na prikazu valovne oblike prikazujejo lokacije beatov v zvoku in jih imenujemo tudi mreža beatov."
+msgstr "**Ritmična oznaka**: Bele črte na prikazu valovne oblike prikazujejo lokacije dob v zvoku, ki jih imenujemo tudi ritmična mreža."
 
 #: ../../chapters/user_interface.rst:182
 msgid "**Cue marker**: Indicates the position of the :term:`cue point <cue>`."
@@ -332,7 +332,7 @@ msgstr "Klik na ta gumb bo izvrgel skladbo iz predvajalnika. Namesto tega je mog
 
 #: ../../chapters/user_interface.rst:229
 msgid "**Beat-grid Adjust Button**"
-msgstr "**Gumb za prilagajanje mreže beata**"
+msgstr "**Gumb za prilagajanje ritmične mreže**"
 
 #: ../../chapters/user_interface.rst:226
 msgid ""
@@ -351,7 +351,7 @@ msgstr "**Vklop/izklop kvantizacije**"
 msgid ""
 "If enabled, all cues, hotcues, loops, and beatloops will be automatically "
 ":term:`quantized <quantization>` so that they begin on a beat."
-msgstr "Če je kvantizacija vklopljena, bodo vse cue in hotcue iztočnice, zanke in beat-zanke samodejno :term:`kvantizirane <quantization>`, tako da se bodo začele na beatu."
+msgstr "Če je kvantizacija vklopljena, bodo vse cue in hotcue iztočnice, zanke in ritmične zanke samodejno :term:`kvantizirane <quantization>`, tako da se bodo začele na dobi."
 
 #: ../../chapters/user_interface.rst:239
 #: ../../chapters/user_interface.rst:1027
@@ -723,8 +723,9 @@ msgstr "**One Cue**: Če je igla spuščena za cue izotčnico, se bo skladba pre
 
 #: ../../chapters/user_interface.rst:465
 msgid ""
-"**Hot Cue**: The track will seek to nearest previous :term:`hotcue` point."
-msgstr "**Hot Cue**: Skladba se bo prevrtela do najbližje :term:`hotcue` izotčnice."
+"**Hot Cue**: The track will seek to the nearest previous :term:`hotcue` "
+"point."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:467
 msgid ""
@@ -746,7 +747,7 @@ msgid ""
 "This is very useful for :term:`beatmatching` two tracks together in a mix. "
 "You can control rate changes also from your computer's keyboard, see the "
 "chapter :ref:`control-keyboard` for more information."
-msgstr "Kontrole za določanje hitrosti omogočajo spreminjanje stopnje hitrosti predvajanja skladb. To je zelo uporabno za :term:`usklajevanje beata` dveh skladb v misku. To stopnjo lahko nadzorujete tudi s pomočjo tipkovnice. Za več informaciji glej :ref:`control-keyboard`."
+msgstr "Kontrole za določanje hitrosti omogočajo spreminjanje stopnje hitrosti predvajanja skladb. To je zelo uporabno za :term:`usklajevanje ritma` dveh skladb v misku. To stopnjo lahko nadzorujete tudi s pomočjo tipkovnice. Za več informaciji glej :ref:`control-keyboard`."
 
 #: ../../chapters/user_interface.rst:493
 msgid "**SYNC button**"
@@ -789,7 +790,7 @@ msgid ""
 " track with a beatgrid then deck 1 will win since numerically it is first. "
 "The sync targets for decks are chosen with the new master sync feature, see "
 ":ref:`master-sync` for more information."
-msgstr "Če denimo sinhronizirate vzorčevalnik in tako predvajalnik 1, kot tudi 2 predvajata skladbi, ki imata mrežo beata, bo izbran predvajalnik 1, ker je prvi po vrsti. Enote za sinhronizacijo predvajalnikov se določi z novo funkcijo master sinhronizacije. Za več informaciji glej :ref:`master-sync` "
+msgstr "Če denimo sinhronizirate vzorčevalnik in tako predvajalnik 1, kot tudi 2 predvajata skladbi, ki imata ritmični mreži, bo izbran predvajalnik 1, ker je prvi po vrsti. Ciljne enote za sinhronizacijo predvajalnikov se določi z novo funkcijo master sinhronizacije. Za več informaciji glej :ref:`master-sync` "
 
 #: ../../chapters/user_interface.rst:518
 #: ../../chapters/user_interface.rst:1062
@@ -860,17 +861,17 @@ msgstr "Kontrola zank"
 
 #: ../../chapters/user_interface.rst:563
 msgid "The beatloop and looping controls of the deck"
-msgstr "Kontrole predvajalnika za beat-zanke in zanke "
+msgstr "Kontrole predvajalnika za ritmične zanke in zanke "
 
 #: ../../chapters/user_interface.rst:565
 msgid ""
 "In this section of the Mixxx interface you can control (beat-)loops and set "
 "the loop points of a track."
-msgstr "V tem razdelku Mixxx vmesnika lahko kontrolirate (beat-)zanke in določite točke zank v skladbi."
+msgstr "V tem razdelku Mixxx vmesnika lahko kontrolirate (ritmične) zanke in določite točke zank v skladbi."
 
 #: ../../chapters/user_interface.rst:568
 msgid "**Beatlooping Buttons**"
-msgstr "**Beat-zanke gumbi**"
+msgstr "**Gumbi ritmičnih zank**"
 
 #: ../../chapters/user_interface.rst:570
 msgid ""
@@ -879,14 +880,14 @@ msgid ""
 "number of beats from the beat immediately following the current playback "
 "position. If a loop is set, a loop overlay will be drawn on the "
 ":ref:`waveforms <interface-waveform>`."
-msgstr "**Instantna zanka**: Oštevilčeni gumbi predstavljajo različno dolžino :term:`kosa` . S klikom na katerega od teh gumbov se ustvari zanka z določenimštevilom beatov, ki se začne za beatom, ki sledi trenutni poziciji predvajanja. Kadar je zanka postavljena je ta prikazana na prikazu :ref:`valovne oblike<interface-waveform>`."
+msgstr "**Instantna zanka**: Oštevilčeni gumbi predstavljajo različno število :term:`dob` . S klikom na katerega od teh gumbov se ustvari zanka iz določenega števila dob, ki se začne za taktom, ki sledi trenutni poziciji predvajanja. Kadar je zanka postavljena je ta prikazana na prikazu :ref:`valovne oblike<interface-waveform>`."
 
 #: ../../chapters/user_interface.rst:575
 msgid ""
 "**Loop roll**: Right-click on any of the numbered loop buttons to "
 "temporarily setup a rolling loop over the defined number of beats. Playback "
 "will resume where the track would have been if it had not entered the loop."
-msgstr "**Kotaleča se zanka**: Z desnim klikom na katerega od oštevilčenih gumbov za zanke, se bo začasno ustvarila kotaleča zanka v dolžini izbranega števila beatov. Predvajanje se bo nadaljevalo na mestu, kjer bi se skladba nahajala, če ne bi vstopila v zanko."
+msgstr "**Kotaleča se zanka**: Z desnim klikom na katerega od oštevilčenih gumbov za zanke, se bo začasno ustvarila kotaleča zanka v dolžini izbranega števila dob. Predvajanje se bo nadaljevalo na mestu, kjer bi se skladba nahajala, če ne bi vstopila v zanko."
 
 #: ../../chapters/user_interface.rst:579
 msgid ""
@@ -908,19 +909,19 @@ msgstr "**Gumbi za zanke**"
 
 #: ../../chapters/user_interface.rst:588
 msgid ""
-"**Loop-In**: This button allow you to manually set the start point of a "
+"**Loop-In**: This button allows you to manually set the start point of a "
 "loop. A loop-in marker is placed on the waveform indicating the position. If"
 " clicked when a loop was already set, it moves the start point of a loop to "
 "a new position."
-msgstr "**Vhod zanke**: Ta gumb omogoča ročno določitev začetne točke zanke. Oznaka za vhod v zanko se pojavi na prikazu valovne oblike na mestu vhoda. Če je zanka že bila ustvarjena, klik na ta gumb na novo določi začetno točko zanke."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:592
 msgid ""
-"**Loop-Out**: This button allow you to manually set the end point of a loop."
-" A loop-out marker is placed on the waveform indicating the position. If "
-"clicked when a loop was already set, it moves the end point of a loop to a "
-"new position."
-msgstr "**Izhod zanke**: Ta gumb omogoča ročno določitev končne točke zanke. Oznaka za izhod iz zanke se pojavi na prikazu valovne oblike na mestu izhoda. Če je zanka že bila ustvarjena, klik na ta gumb na novo določi končno točko zanke."
+"**Loop-Out**: This button allows you to manually set the end point of a "
+"loop. A loop-out marker is placed on the waveform indicating the position. "
+"If clicked when a loop was already set, it moves the end point of a loop to "
+"a new position."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:596
 msgid ""
@@ -928,7 +929,7 @@ msgid ""
 " or not. This works for manually placed loops as well as automatic loops set"
 " by the beatlooping buttons. Depending on the current status of the loop, "
 "the loop overlay on the waveforms changes color."
-msgstr "**Zanka**: Označen tudi kot Ponovi zanko. Ta gumb določa ali je zanka aktivna ali ne. To deluje tako za ročno določene zanke, kot tudi za avtomatske, ki jih postavijo gumbi za ustvarjanje beat-zank. Prikaz zanke v prikazovalniku valovne oblike, bo glede na stanje zanke spremenil barvo."
+msgstr "**Zanka**: Označen tudi kot Ponovi zanko. Ta gumb določa ali je zanka aktivna ali ne. To deluje tako za ročno določene zanke, kot tudi za avtomatske, ki jih postavijo gumbi za ustvarjanje ritmičnih zank. Prikaz zanke v prikazovalniku valovne oblike, bo glede na stanje zanke spremenil barvo."
 
 #: ../../chapters/user_interface.rst:601
 msgid ""
@@ -942,7 +943,7 @@ msgid ""
 "If the :term:`Quantize <quantization>` mode is enabled, the loops will "
 "automatically snap to the nearest beat. This is disabled by default, click "
 "on the :ref:`Quantize Mode Toggle <interface-button-grid>` to enable it."
-msgstr "Če je vključen način :term:`Kvantizacija<quantization>` , bodo zanke samodejno skakale na najbližji beat. Ta način v izhodišču ni vključenn in se vključi s klikom na :ref:`Vklop/izklop kvantizacije <interface-button-grid>`."
+msgstr "Če je vključen način :term:`Kvantizacija<quantization>`, bodo zanke samodejno skakale na najbližjo dobo. Ta način v izhodišču ni vključenn in se vključi s klikom na :ref:`Vklop/izklop kvantizacije <interface-button-grid>`."
 
 #: ../../chapters/user_interface.rst:614
 msgid "Hotcue Controls"
@@ -1034,7 +1035,7 @@ msgid ""
 "mode is enabled, the hotcues will automatically snap to the nearest beat. "
 "This is disabled by default, click on the :ref:`Quantize Mode Toggle "
 "<interface-button-grid>` to enable it."
-msgstr "Tako kot z zankami (glej zgoraj), bodo tudi hotcu iztočnice samodejno skočile na najbljižji beat, če je vklopljen način :term:`nvantizacija <quantization>`  Ta način v izhodišču ni vključenn in se vključi s klikom na :ref:`Vklop/izklop kvantizacije <interface-button-grid>`."
+msgstr "Tako kot z zankami (glej zgoraj), bodo tudi hotcue iztočnice samodejno skočile na najbljižjo dobo, če je vklopljen način :term:`knvantizacija <quantization>`  Ta način v izhodišču ni vključenn in se vključi s klikom na :ref:`Vklop/izklop kvantizacije <interface-button-grid>`."
 
 #: ../../chapters/user_interface.rst:683
 msgid "The Mixer Section"

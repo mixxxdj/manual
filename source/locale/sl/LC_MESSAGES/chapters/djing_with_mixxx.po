@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2020-02-21 11:01+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
-msgstr "Izenačevanje beata in miksanje"
+msgstr "Izenačevanje ritma in miksanje"
 
 #: ../../chapters/djing_with_mixxx.rst:108
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 "involves adjusting the :term:`phase` of the beats in a track so that they "
 "are aligned with the beats in the other track. Matching the :term:`tempo` "
 "and aligning the beats are the two things a DJ must do to beatmatch."
-msgstr ":term:`Izenačevanje beata` je postopek prilagajanja hitrosti predvajanja skladbe, tako da ustreza tempu druge skladbe. Izenačevanje beata vsebuje tudi prilagajanje :term:`faze` beata v skladbi, tako da so te poravnane z beati v drugi skladbi. Izenačevanje :term:`tempa` in poranava beatov sta dve stvari, ki jih mora didžej opraviti, da bi izenačil beat. "
+msgstr ":term:`Izenačevanje ritma` je postopek prilagajanja hitrosti predvajanja skladbe, tako da ustreza tempu druge skladbe. Izenačevanje ritma vsebuje tudi prilagajanje :term:`faze` ritma v skladbi, tako da so te poravnane z dobami v drugi skladbi. Izenačevanje :term:`tempa` in poranava dob sta dve stvari, ki jih mora didžej opraviti, da bi izenačil ritem. "
 
 #: ../../chapters/djing_with_mixxx.rst:114
 msgid ""
@@ -136,7 +136,7 @@ msgid ""
 " can also be used to momentarily adjust the playback rate, allowing you to "
 "“shuffle” the beats in a track forwards or backwards, so they can be aligned"
 " with another track. See the chapter :ref:`interface-rate`."
-msgstr "Mixxx lahko izenači tempo in poravna beat namesto vas, a to zahteva natačno prepoznan BPM in pravilno mrežo beatov za obe skladbi. Ta funkcija se vključi z gumbom  :guilabel:`SYNC`. Za ročno izenačevanje beata je potrebno tempo obeh skladb sinhornizirati z uporabo drsnika hitrosti. Fazo beatov lahko prilaogdite tako da desno kliknete in vlečete po poljubnem prikazovalniku valovne oblike in tako začasno pospešite ali upočasnite eno od skladb, dokler obe nista poravnani. Za trenutno prilagajanje hitrosti so na voljo tudi gumbi za začasno pregibanje višine, ki omogočajo “prerazporejanje” beatov naoprej ali nazaj, tako da jih izenačimo z drugo skladbo. Glej poglavje :ref:`interface-rate`."
+msgstr "Mixxx lahko izenači tempo in poravna ritem namesto vas, a za to potrebuje za obe skladbi natačno prepoznan BPM in pravilni ritmični mreži za. Ta funkcija se vključi z gumbom  :guilabel:`SYNC`. Za ročno izenačevanje ritma je potrebno tempo obeh skladb sinhronizirati z uporabo drsnika hitrosti. Fazo ritma lahko prilaogdite tako da desno kliknete in vlečete po poljubnem prikazovalniku valovne oblike in tako začasno pospešite ali upočasnite eno od skladb, dokler obe nista poravnani. Za trenutno prilagajanje hitrosti so na voljo tudi gumbi za začasno pregibanje višine, ki omogočajo “prerazporejanje” dob naoprej ali nazaj, tako da jih izenačimo z drugo skladbo. Glej poglavje :ref:`interface-rate`."
 
 #: ../../chapters/djing_with_mixxx.rst:125
 msgid ""
@@ -148,7 +148,7 @@ msgid ""
 "weakening in intensity as the two kicks drift out of phase. When this "
 "happens, the beats can be realigned by simply tapping one of the temporary "
 "pitch bend buttons a few times in the appropriate direction."
-msgstr "Dve skladbi sta izenačeni v beatu, kadar njun tempo enak in so beati poravnani.  “Perfektno” izenačen beat je skorajda nemogoče doseči, ker bodo vedno obstajale majhne razlike v hitrosti predvajanja. Vešć didžej bo imel našpičena ušesa in bo poslušal, kdaj se beata začneta razhajati. V tem primeru se pojavi značilni zvok “dvojnega bas bobna”, pred katerimse pogosto pojavi manjašanje jakosti basa, ki je posledica faznega zamika. Ko se to zgodi, se lahko beata preprosto poravnata z nekaj pritiski na gumb za pregibanje višine."
+msgstr "Dve skladbi sta ritmično izenačeni, kadar iamta enak tempo in so dobe poravnane.  “Perfektno” izenačen ritem je skorajda nemogoče doseči, ker bodo vedno obstajale majhne razlike v hitrosti predvajanja. Vešč didžej bo imel našpičena ušesa in bo poslušal, kdaj se ritma začneta razhajati. V tem primeru se pojavi značilni zvok “dvojnega bas bobna”, pred katerim se pogosto pojavi manjašanje jakosti basa, ki je posledica faznega zamika. Ko se to zgodi, se lahko ritma poravnata z nekaj pritiski na gumb za pregibanje višine."
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
@@ -159,7 +159,7 @@ msgid ""
 ":term:`Master Sync` is an intelligent assistant that allows you to leave the"
 " beatmatching to Mixxx so you can focus on track selection, effects "
 "manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
-msgstr ":term:`Master sinhronizacije` je inteligenten pomočnik, ki omogoča izenačevanje beata, tako da se lahko fokusirate na izbor skladb, manipuliranje efektov, ustvarjanje zank, mikasnje s 4 predvajalniki in druge napredne Dj tehnike."
+msgstr ":term:`Master sinhronizacije` je inteligenten pomočnik, ki omogoča izenačevanje ritma, tako da se lahko fokusirate na izbor skladb, manipuliranje efektov, ustvarjanje zank, mikasnje s 4 predvajalniki in druge napredne Dj tehnike."
 
 #: ../../chapters/djing_with_mixxx.rst:143
 msgid ""
@@ -187,7 +187,7 @@ msgid ""
 "  If you also want to make sure your beats are perfectly in sync, turn on "
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
-msgstr "Ponavadi bo Master sinhronizacije poskrbel le za to, da bodo drsniki za hitrost pravilno nastavljeni. Če želite tudi, da sta beata popolnoma sinhronizirana, vklopite gumb :guilabel:`KVANTIZACIJA` button.Ko je aktiviran, bo poskrbel, da so beati tudi prefektno poravnani."
+msgstr "Ponavadi bo Master sinhronizacije poskrbel le za to, da bodo drsniki za hitrost pravilno nastavljeni. Če želite tudi, da sta ritma popolnoma sinhronizirana, vklopite gumb :guilabel:`KVANTIZACIJA` button.Ko je aktiviran, bo poskrbel, da so dobe tudi prefektno poravnani."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"

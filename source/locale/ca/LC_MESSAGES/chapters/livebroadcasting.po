@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:48+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -409,9 +409,9 @@ msgstr "Per a habilitar la emissió en MP3 a Windows, seguiu aquests passos:"
 
 #: ../../chapters/livebroadcasting.rst:253
 msgid ""
-"Download LAME 3.98.4 :term:`binaries` from http://www.rarewares.org/mp3"
+"Download LAME 3.98.4 :term:`binaries` from https://www.rarewares.org/mp3"
 "-lame-libraries.php."
-msgstr "Descarregueu els fitxesr :term:`binaris <binaries>` de LAME 3,98.4 des de http://www.rarewares.org/mp3-lame-libraries.php."
+msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:256
 msgid ""

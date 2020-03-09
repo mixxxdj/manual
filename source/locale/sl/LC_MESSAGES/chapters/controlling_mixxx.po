@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -70,10 +70,10 @@ msgstr "**Miškino Kolesce**: Tako kot z vlecenjem, lahko vrednosti regulatorja 
 
 #: ../../chapters/controlling_mixxx.rst:34
 msgid ""
-"If you hover with the mouse over a control (e.g the crossfader) in the Mixxx"
-" user interface, the tooltip lists the left- and right-click action "
+"If you hover with the mouse over a control (e.g. the crossfader) in the "
+"Mixxx user interface, the tooltip lists the left- and right-click action "
 "respectively."
-msgstr "Če s kazalcem miške lebdite nad kontrolo v uporabniškem vmesniku (npr. navzkrižnim drsnikom), se na levi ali desni strani pojavi namig za orodje."
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:38
 msgid ""

@@ -6,14 +6,15 @@
 # Christophe Genre <cgenre.dev@lilo.org>, 2019
 # Damien <damien.bernard@openmailbox.org>, 2015
 # Damien <damien.bernard@openmailbox.org>, 2015
+# Rafael French <rafael.venan@free.fr>, 2020
 # Sebastien BLAISOT <sebastien@blaisot.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2020-02-24 11:50+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,11 +35,11 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr ""
+msgstr "Mixxx vous permet d'effectuer des mixages DJ en direct avec votre collection de musique numérique. Il vous aide à faire vibrer la fête avec des contrôleurs DJ, des platines vinyles ou même simplement votre clavier. Il est développé par une équipe internationale de bénévoles qui veulent apporter la joie du DJ à tout le monde. Le projet est à but non lucratif, open source et axé sur la communauté. Ensemble, nous visons à créer le meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`join us <contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
-msgstr ""
+msgstr "Comment Mixxx fonctionne"
 
 #: ../../chapters/introduction.rst:19
 msgid ""
@@ -46,7 +47,7 @@ msgid ""
 "multiple audio files at the same time and has many features to manipulate "
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
-msgstr ""
+msgstr "Mixxx est différent des applications de lecteur de musique classiques car il lit plusieurs fichiers audio en même temps et possède de nombreuses fonctionnalités pour manipuler la lecture des fichiers audio. Cela vous permet de mixer de manière créative différentes pistes à la volée."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -57,11 +58,11 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore). Mixxx can be used in two different ways for headphone cueing:"
-msgstr ""
+msgstr "Vous pouvez utiliser Mixxx pour prévisualiser la piste suivante dans le casque avant que le public ne l'entende, également connu sous le nom de pré-écoute au casque. Cela vous aide à choisir une piste qui convient au moment présent et qui s'intégrera bien dans la ou les pistes en cours de lecture. Pour utiliser la pré-écoute au casque, vous avez besoin d'au moins 2 sorties audio distinctes, généralement fournies par une interface audio USB (également connue sous le nom de «carte son», bien que la plupart d'entre elles ne soient plus sous forme de cartes). Mixxx peut être utilisé de deux manières différentes pour la pré-écoute au casque:"
 
 #: ../../chapters/introduction.rst:32
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "**Mixage interne**"
 
 #: ../../chapters/introduction.rst:34
 msgid ""
@@ -70,18 +71,18 @@ msgid ""
 "separate signal is sent to another audio interface output for headphone "
 "cueing. Often a DJ controller is used with internal mixing to provide easier"
 " control over Mixxx than a mouse and keyboard."
-msgstr ""
+msgstr "Mixxx lit plusieurs fichiers audio sur l'ordinateur en même temps, les mélange et envoie le signal mixé à une sortie d'interface audio. Un signal séparé est envoyé à une autre sortie d'interface audio pour la pré-écoute au casque. Souvent, un contrôleur DJ est utilisé avec un mixage interne pour fournir un contrôle plus facile de Mixxx qu'une souris et un clavier."
 
 #: ../../chapters/introduction.rst:48
 msgid ""
 "Using Mixxx together with a DJ controller for internal mixing. The DJ "
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
-msgstr ""
+msgstr "Utilisation de Mixxx avec un contrôleur DJ pour le mixage interne. Le contrôleur DJ possède une interface audio intégrée qui fournit deux sorties stéréo séparées."
 
 #: ../../chapters/introduction.rst:52
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Mixage externe**"
 
 #: ../../chapters/introduction.rst:54
 msgid ""
@@ -94,10 +95,10 @@ msgid ""
 "typically used with turntables and :ref:`special vinyl records<vinyl-"
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
-msgstr ""
+msgstr "Dans ce type de configuration, Mixxx lit plusieurs fichiers audio sur l'ordinateur en même temps et envoie chaque piste sur une sortie d'interface audio distincte. Les sorties de l'interface audio sont connectées à une table de mixage matérielle externe. La table de mixage matérielle effectue le mixage réel des signaux audio. Sur la table de mixage matérielle, il existe des sorties distinctes pour le signal mixé à jouer pour le public et pour le DJ pour utiliser la pré-écoute au casque. Le mixage externe est généralement utilisé avec les platines et :ref:`special vinyl records<vinyl-control>` pour manipuler des fichiers de musique numérique comme si la musique était sur les disques vinyle."
 
 #: ../../chapters/introduction.rst:71
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
-msgstr ""
+msgstr "Utilisation de Mixxx avec une interface audio USB, une table de mixage externe et un vinyle avec timecode pour le mixage externe"

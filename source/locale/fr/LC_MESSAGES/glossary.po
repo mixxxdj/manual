@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 10:38+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgid ""
 "to :term:`MP3`, AAC generally achieves better sound quality at similar bit "
 "rates. While the .aac extension is sometimes used for AAC-encoded files, "
 "they are typically saved with an .m4a file extension."
-msgstr ""
+msgstr "Advanced Audio Coding (AAC) est un algorithme de compression audio soumis à licence qui utilise une forme de compression :term:`avec perte`. Conçu pour être le successeur de :term:`MP3`, AAC obtient généralement un son de meilleure qualité à un débit identique. Bien que l'extension .acc soit parfois utilisée pour les fichiers encodés en AAC, ils sont généralement enregistrés avec l'extension de fichier .m4a."
 
 #: ../../glossary.rst:456
 msgid "AcoustID"
@@ -61,11 +61,11 @@ msgid ""
 "format, similar to .wav files. Contains CD-quality audio stored in a non-"
 "compressed, :term:`lossless` format. AIFF files generally end with a .aiff "
 "or .aif extension."
-msgstr ""
+msgstr "Acronyme pour Audio Interchange File Format (NdT : Format de Fichier d'échange Audio). C'est un format de fichier audio numérique de haute qualité, similaire aux fichiers .wav. Il contient du son de qualité CD stocké dans un format :term:`sans perte` non compressé. Les fichiers AIFF se terminent généralement par l'extension .aiff ou .aif."
 
 #: ../../glossary.rst:243
 msgid "ALAC"
-msgstr ""
+msgstr "ALAC"
 
 #: ../../glossary.rst:245
 msgid ""
@@ -74,11 +74,11 @@ msgid ""
 "container format as AAC and use the same file extensions (m4a, mp4). Mixxx "
 "and many other programs are not compatible with ALAC. It is recommended to "
 "convert ALAC files to :term:`FLAC` for use in Mixxx."
-msgstr ""
+msgstr "Apple Lossless Audio Codec (ALAC) est un format de fichier audio :term:`sans perte` utilisé par iTunes et d'autres produits Apple. Les fichiers ALAC utilisent le même format de conteneur MP4 que AAC et utilisent les mêmes extensions de fichier (m4a, mp4). Mixxx et de nombreux autres programmes ne sont pas compatibles avec ALAC. Il est recommandé de convertir les fichiers ALAC en :term:`FLAC` pour une utilisation dans Mixxx."
 
 #: ../../glossary.rst:463
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../glossary.rst:465
 msgid ""
@@ -87,15 +87,15 @@ msgid ""
 "this is the Sound API that Mixxx uses to communicate with the "
 ":term:`Operating System` to make use of the :term:`soundcards` connected to "
 "the computer."
-msgstr ""
+msgstr "Une interface de programmation d’application (API) est une spécification et un ensemble de règles sur la façon dont les programmes logiciels interagissent les uns avec les autres. Dans Mixxx, un exemple de ceci est l'API sonore que Mixxx utilise pour communiquer avec le :term:`système d'exploitation` pour utiliser les :term:`cartes son` connectées à l'ordinateur."
 
 #: ../../glossary.rst:338
 msgid "audio interface"
-msgstr ""
+msgstr "interface audio"
 
 #: ../../glossary.rst:339
 msgid "audio interfaces"
-msgstr ""
+msgstr "interfaces audio"
 
 #: ../../glossary.rst:341
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "audio signals to and from a computer, typically connected by USB. Almost all"
 " computers come with a basic audio interface built in, but a higher quality "
 "audio interface with at least 4 output channels is recommended for Mixxx."
-msgstr ""
+msgstr "Une interface audio est un appareil qui facilite l'entrée et la sortie de signaux audio vers et depuis un ordinateur, généralement connecté par USB. Presque tous les ordinateurs sont livrés avec une interface audio de base intégrée, mais une interface audio de meilleure qualité avec au moins 4 canaux de sortie est recommandée pour Mixxx."
 
 #: ../../glossary.rst:196
 msgid "balance"
@@ -274,9 +274,19 @@ msgstr "Repérage"
 #: ../../glossary.rst:8
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
-"like to mix in in your headphones. The audience will not hear what you are "
+"like to mix in your headphones. The audience will not hear what you are "
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
 msgstr "Le repérage au casque, ou juste repérage, est l'écoute de la piste suivante que vous souhaitez mixer dans vos écouteurs. Le public n'entendra pas ce que vous êtes en train de repérer dans votre casque. Être capable de repérer est un aspect crucial du DJing."
+
+#: ../../glossary.rst:488
+msgid "DAW"
+msgstr "DAW"
+
+#: ../../glossary.rst:490
+msgid ""
+"A digital audio workstation (DAW) is an electronic device or application "
+"software used for recording, editing and producing audio files."
+msgstr "Une station de travail audio numérique (DAW) est un appareil électronique ou une application logiciel utilisé pour enregistrer, éditer et produire des fichiers audio."
 
 #: ../../glossary.rst:294
 msgid "db"
@@ -303,7 +313,7 @@ msgstr "Une platine est comme une platine vinyl virtuelle. Vous pouvez charger u
 
 #: ../../glossary.rst:351
 msgid "direct monitoring"
-msgstr ""
+msgstr "monitoring direct"
 
 #: ../../glossary.rst:353
 msgid ""
@@ -313,7 +323,7 @@ msgid ""
 "in hardware with the output signal from Mixxx. This bypasses the latency of "
 "sending the signal into the computer for Mixxx to process and sending it "
 "back out to the soundcard."
-msgstr ""
+msgstr "Une caractéristique de beaucoup :term:`cartes son` qui permet aux microphones et autres signaux d'entrée d'être entendus via les sorties de la carte son sans latence perceptible. Avec un monitoring direct, l'interface audio mélange le signal d'entrée dans le matériel avec le signal de sortie de Mixxx. Cela contourne la latence de l'envoi du signal dans l'ordinateur pour que Mixxx le traite et le renvoie à la carte son."
 
 #: ../../glossary.rst:386
 msgid "DRM"
@@ -328,27 +338,27 @@ msgid ""
 " similar method so that the content can not be freely distributed. For "
 "information about how you can get involved in activism against DRM, see "
 "`Defective by Design <https://www.defectivebydesign.org>`_."
-msgstr ""
+msgstr "Les technologies de Digital Rights Management (DRM) tentent de contrôler ce que vous pouvez et ne pouvez pas faire avec les supports et le matériel que vous avez achetés. En règle générale, un système DRM crypte les données afin qu'elles ne soient accessibles que d'une manière autorisée par les titulaires de droits d'auteur ou marque le contenu avec un filigrane numérique ou une méthode similaire afin que le contenu ne puisse pas être distribué librement. Pour plus d'informations sur la manière dont vous pouvez vous impliquer dans l'activisme contre les DRM, voir `Defective by Design <https://www.defectivebydesign.org>`_."
 
 #: ../../glossary.rst:475
 msgid "EQ"
-msgstr ""
+msgstr "EQ"
 
 #: ../../glossary.rst:476
 msgid "Equalizer"
-msgstr ""
+msgstr "Égaliseur"
 
 #: ../../glossary.rst:478
 msgid ""
 "An equalizer allows the sound in specified frequency bands to be amplified "
 "or reduced, in order to adjust the quality and character of the sound."
-msgstr ""
+msgstr "Un égaliseur permet d'amplifier ou de réduire le son dans les bandes de fréquences spécifiées, afin d'ajuster la qualité et le caractère du son."
 
 #: ../../glossary.rst:481
 msgid ""
 "A simple graphic equalizer consists of multiple controls for boosting or "
 "cutting bands or frequencies of sound."
-msgstr ""
+msgstr "Un égaliseur graphique simple se compose de plusieurs commandes pour augmenter ou réduire les bandes ou les fréquences du son."
 
 #: ../../glossary.rst:484
 msgid ""
@@ -356,7 +366,7 @@ msgid ""
 "equalizer. It can control three aspects of each frequency: level (boost or "
 "cut), the center or primary frequency, and the bandwidth or range of each "
 "frequency."
-msgstr ""
+msgstr "Un égaliseur paramétrique contrôle plus de paramètres du son qu'un égaliseur graphique. Il peut contrôler trois aspects de chaque fréquence: le niveau (augmentation ou coupure), la fréquence centrale ou primaire, et la bande passante ou la plage de chaque fréquence."
 
 #: ../../glossary.rst:148
 msgid "fast-forward"
@@ -391,7 +401,7 @@ msgid ""
 " they are when you need to find them again. Popular file managers for the "
 ":term:`operating systems <operating system>` Mixxx supports are Explorer on "
 "Windows, Finder on macOS and Nautilus on GNU/Linux."
-msgstr ""
+msgstr "Un programme informatique qui organise les fichiers de données en groupes et vous montre où ils sont quand vous avez besoin de les retrouver. Les gestionnaires de fichier populaires pour les :term:`systèmes d'exploitation <operating system>` que Mixxx supporte sont Explorateur sous Windows, Finder sous macOS et Nautilus sous GNU/Linux."
 
 #: ../../glossary.rst:238
 msgid "FLAC"
@@ -402,7 +412,7 @@ msgid ""
 "Free Lossless Audio Compression (FLAC), a patent-free audio compression "
 "similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio "
 "quality when used). FLAC files generally end with a .flac extension."
-msgstr ""
+msgstr "Free Lossless Audio Compression (FLAC), un format de compression audio libre de droit similaire au :term:`MP3` mais :term:`sans perte` (c'est à dire qu'il n'y a pas de perte dans la qualité audio à l'utilisation). Les fichiers FLAC se terminent généralement avec l'extension .flac."
 
 #: ../../glossary.rst:374
 msgid "flanger"
@@ -465,7 +475,7 @@ msgstr "HID"
 
 #: ../../glossary.rst:107
 msgid ""
-"Short for for Human Interface Device, a part of the USB specification. It "
+"Short for Human Interface Device, a part of the USB specification. It "
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
@@ -519,7 +529,7 @@ msgid ""
 "was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx`` "
 "channel. The channel was replaced in 2018 by the :term:`Mixxx Zulip Chat "
 "<Zulip>`."
-msgstr ""
+msgstr "Internet Relay Chat (IRC) est un réseau de chat en ligne. Le canal Mixxx IRC était sur le `FreeNode IRC Network <https://freenode.net>`_ dans le canal ``#mixxx``. Le canal a été remplacée en 2018 par le :term:`Mixxx Zulip Chat <Zulip>`."
 
 #: ../../glossary.rst:282
 msgid "kbps"
@@ -533,11 +543,11 @@ msgstr "Abréviation de kilobits par seconde. Ici utilisé pour mesurer la quali
 
 #: ../../glossary.rst:448
 msgid "key"
-msgstr ""
+msgstr "tonalité"
 
 #: ../../glossary.rst:450
 msgid "Short for \"musical key\" (i.e. C major)."
-msgstr ""
+msgstr "Abréviation de \"tonalité musicale\" (exemple ut majeur)."
 
 #: ../../glossary.rst:35
 msgid "key lock"
@@ -545,7 +555,7 @@ msgstr "verrouillage de tonalité"
 
 #: ../../glossary.rst:36
 msgid "keylock"
-msgstr ""
+msgstr "verrouillage"
 
 #: ../../glossary.rst:38
 msgid ""
@@ -564,6 +574,16 @@ msgid ""
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
 msgstr "Un bouton pour activer et désactiver les plages de fréquences individuelles au sein d'un canal, c'est-à-dire les aigus, les médiums et les graves. Utile pour les effets où le DJ baisse une piste pendant une période ou crée de la place pour une transition."
+
+#: ../../glossary.rst:492
+msgid "LADSPA"
+msgstr "LADSPA"
+
+#: ../../glossary.rst:494
+msgid ""
+"Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for"
+" handling audio filters and audio signal processing effects."
+msgstr "L':term:`API` Linux Audio Developer's Simple Plugin (LADSPA) est une norme pour la gestion des filtres audio et des effets de traitement du signal audio."
 
 #: ../../glossary.rst:272
 msgid "LAME"
@@ -622,14 +642,14 @@ msgstr "Utilisé pour décrire un algorithme de compression audio, un algorithme
 
 #: ../../glossary.rst:470
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../glossary.rst:472
 msgid ""
 "macOS (originally named \"Mac OS X\" until 2012 and then \"OS X\" until "
 "2016) is the current Mac operating system that officially succeeded the "
 "classic Mac OS in 2001."
-msgstr ""
+msgstr "macOS (initialement nommé «Mac OS X» jusqu'en 2012 puis «OS X» jusqu'en 2016) est le système d'exploitation Mac actuel qui a officiellement succédé au Mac OS classique en 2001."
 
 #: ../../glossary.rst:15
 msgid "master output"
@@ -642,14 +662,14 @@ msgstr "La sortie principale est la sortie audio maître. Il s'agit de ce que vo
 
 #: ../../glossary.rst:136
 msgid "master sync"
-msgstr ""
+msgstr "synchronisation principale"
 
 #: ../../glossary.rst:138
 msgid ""
 "Master sync mode persistently adjusts a track's :term:`tempo` and "
 ":term:`phase` (if :term:`quantization` is enabled) in order to stay in sync "
 "with other decks that are in master sync mode."
-msgstr ""
+msgstr "Le mode synchronisation principale ajuste de manière persistante les :term:`tempo` et :term:`phase` (si la :term:`quantification` est activée) afin de rester synchronisé avec les autres platines en mode synchronisation principale."
 
 #: ../../glossary.rst:306
 msgid "metadata"
@@ -672,8 +692,8 @@ msgstr "MIDI"
 
 #: ../../glossary.rst:100
 msgid ""
-"Short for for Musical Instrument Digital Interface. A digital communications"
-" language and hardware specification enabling compatible electronic "
+"Short for Musical Instrument Digital Interface. A digital communications "
+"language and hardware specification enabling compatible electronic "
 "instruments, sequencers, computers, etc., to communicate with each other in "
 "a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
 "with computers."
@@ -688,7 +708,7 @@ msgid ""
 "A patented audio compression algorithm which uses a form of :term:`lossy` "
 "data compression. It is de-facto standard of digital audio compression for "
 "music. MP3 files generally end with a .mp3 extension."
-msgstr ""
+msgstr "Un algorithme de compression audio breveté qui utilise une forme de compression des données :term:`avec perte` . C'est de facto la norme de compression audio numérique pour la musique. Les fichiers MP3 se terminent généralement par une extension .mp3."
 
 #: ../../glossary.rst:451
 msgid "MusicBrainz"
@@ -699,7 +719,7 @@ msgid ""
 "A open-source music encyclopedia that collects music :term:`metadata` and "
 "makes it available to the public. For more information, see "
 "`<https://musicbrainz.org/>`_."
-msgstr ""
+msgstr "Une encyclopédie musicale open source qui collecte des :term:`métadonnées` de la musique et les met à la disposition du public. Pour plus d'informations, voir `<https://musicbrainz.org/>`_."
 
 #: ../../glossary.rst:212
 msgid "Ogg Vorbis"
@@ -711,7 +731,7 @@ msgid ""
 "compression. It is designed to provide for efficient streaming and "
 "manipulation of high quality digital audio. Ogg Vorbis files generally end "
 "with a .ogg or .oga extension."
-msgstr ""
+msgstr "Un algorithme de compression audio sans brevet qui utilise une forme de compression de données avec perte. Il est conçu pour assurer une diffusion et une manipulation efficaces de l'audio numérique de haute qualité. Les fichiers Ogg Vorbis se terminent généralement par une extension .ogg ou .oga."
 
 #: ../../glossary.rst:407
 msgid "open-source"
@@ -749,7 +769,7 @@ msgid ""
 "Your operating system (OS) is the computing environment on your computer. "
 "For example, Windows, macOS, or GNU/Linux are the three operating systems "
 "that Mixxx supports."
-msgstr ""
+msgstr "Votre système d'exploitation (OS) est l'environnement informatique de votre ordinateur. Par exemple, Windows, macOS ou GNU/Linux sont les trois systèmes d'exploitation pris en charge par Mixxx."
 
 #: ../../glossary.rst:263
 msgid "Opus"
@@ -759,7 +779,7 @@ msgstr "Opus"
 msgid ""
 "Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio "
 "codec. The .opus filename extension is recommended."
-msgstr ""
+msgstr "Opus est un un codec audio totalement ouvert, libre de droits et très polyvalent :term:`avec perte`. L'extension de nom de fichier .opus est recommandée."
 
 #: ../../glossary.rst:21
 msgid "PFL"
@@ -771,7 +791,7 @@ msgid ""
 "by the deck volume faders. This allows for pre-listening tracks in "
 "headphones by lowering the volume fader so the deck plays only to headphones"
 " but not to the audience. See also: :term:`headphone button`."
-msgstr ""
+msgstr "``PFL`` ou “pre-fader listen” est le signal du casque qui n'est pas affecté par les curseurs de volume de la platine. Cela permet de pré-écouter les pistes dans le casque en baissant le curseur de volume pour que la platine ne joue que sur le casque mais pas vers le public. Voir aussi :term:`bouton casque`."
 
 #: ../../glossary.rst:159
 msgid "phase"
@@ -800,7 +820,7 @@ msgstr "Une technique utilisée par les DJs qui `courbent` temporairement la vit
 
 #: ../../glossary.rst:380
 msgid "podcast"
-msgstr "balado"
+msgstr "podcast"
 
 #: ../../glossary.rst:382
 msgid ""
@@ -897,13 +917,13 @@ msgstr "carte de son"
 
 #: ../../glossary.rst:347
 msgid "soundcards"
-msgstr ""
+msgstr "cartes de son"
 
 #: ../../glossary.rst:349
 msgid ""
 "Another name for an :term:`audio interface`, although few audio interfaces "
 "are shaped like cards anymore."
-msgstr ""
+msgstr "Un autre nom pour une :term:`interface audio`, bien que peu d'interfaces audio aient encore la forme de cartes."
 
 #: ../../glossary.rst:132
 msgid "sync"
@@ -952,7 +972,7 @@ msgid ""
 " Internet server. URLs are typed into a Web browser to access Web pages and "
 "files, and URLs are embedded within the pages themselves as hypertext links."
 " One example of a URL is `<https://mixxx.org>`_ ."
-msgstr ""
+msgstr "Uniform Resource Locator. Adresse qui définit l'itinéraire vers un fichier sur un serveur Internet. Les URL sont saisies dans un navigateur Web pour accéder aux pages et fichiers Web, et les URL sont intégrées dans les pages elles-mêmes sous forme de liens hypertextes. Un exemple d'URL est `<https://mixxx.org>`_ ."
 
 #: ../../glossary.rst:120
 msgid "vinyl control"
@@ -988,7 +1008,7 @@ msgid ""
 "often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard "
 "format used for CD audio. Wave files are not compressed, and are therefore "
 ":term:`lossless`. Wave files generally end with a .wav extension."
-msgstr ""
+msgstr "Format de fichier audio numérique standard utilisé pour stocker des données de forme d'onde; permet de sauvegarder des enregistrements audio avec différents taux d'échantillonnage et débits binaires; souvent enregistré au format stéréo 44,1 KHz, 16 bits, qui est le format standard utilisé pour les CD audio. Les fichiers Wave ne sont pas compressés et sont donc :term:`sans perte`. Les fichiers Wav se terminent généralement par une extension .wav"
 
 #: ../../glossary.rst:31
 msgid "waveform overview"
@@ -1012,7 +1032,7 @@ msgstr "La forme d'onde sommaire montre l'enveloppe de forme d'onde de la piste 
 
 #: ../../glossary.rst:77
 msgid "Zulip"
-msgstr ""
+msgstr "Zulip"
 
 #: ../../glossary.rst:79
 msgid ""
@@ -1020,4 +1040,4 @@ msgid ""
 "application that combines the immediacy of real-time chat with the "
 "productivity benefits of threaded conversations. The ``Mixxx Zulip Chat`` at"
 " can be found at `<https://mixxx.zulipchat.com>`_ ."
-msgstr ""
+msgstr "`Zulip <https://zulipchat.com/>`_ est une puissante application de chat en groupe open source qui combine l'immédiateté du chat en temps réel avec les avantages de productivité des conversations avec fil conducteur. Retrouvé le ``Mixxx Zulip Chat`` sur `<https://mixxx.zulipchat.com>`_."

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:25+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:48+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -723,8 +723,9 @@ msgstr "**Único**: Se a agulha for solta depois do ponto cue, a faixa vai até 
 
 #: ../../chapters/user_interface.rst:465
 msgid ""
-"**Hot Cue**: The track will seek to nearest previous :term:`hotcue` point."
-msgstr "**Quente**: A faixa vai até o ponto :term:`hotcue` anterior mais próximo."
+"**Hot Cue**: The track will seek to the nearest previous :term:`hotcue` "
+"point."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:467
 msgid ""
@@ -908,19 +909,19 @@ msgstr "**Botões de Loop**"
 
 #: ../../chapters/user_interface.rst:588
 msgid ""
-"**Loop-In**: This button allow you to manually set the start point of a "
+"**Loop-In**: This button allows you to manually set the start point of a "
 "loop. A loop-in marker is placed on the waveform indicating the position. If"
 " clicked when a loop was already set, it moves the start point of a loop to "
 "a new position."
-msgstr "**Entrada do Loop**: Esse botão permite que você defina manualmente o ponto inicial do loop. A marca da entrada do loop é colocada nas ondas na posição indicada. Se clicado quando o loop já foi definido, move o ponto inicial do loop para a nova posição."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:592
 msgid ""
-"**Loop-Out**: This button allow you to manually set the end point of a loop."
-" A loop-out marker is placed on the waveform indicating the position. If "
-"clicked when a loop was already set, it moves the end point of a loop to a "
-"new position."
-msgstr "**Saída do Loop**: Esse botão permite que você defina manualmente o ponto final do loop. A marca de saída do loop é colocada nas ondas na posição indicada. Se clicado quando o loop já foi definido, move o ponto final do loop para a nova posição."
+"**Loop-Out**: This button allows you to manually set the end point of a "
+"loop. A loop-out marker is placed on the waveform indicating the position. "
+"If clicked when a loop was already set, it moves the end point of a loop to "
+"a new position."
+msgstr ""
 
 #: ../../chapters/user_interface.rst:596
 msgid ""

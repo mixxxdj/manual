@@ -5,18 +5,18 @@
 # 
 # Translators:
 # S.Brandt <s.brandt@mixxx.org>, 2020
-# Benny Beat <bennybeat@gmail.com>, 2020
 # Joan Prim Armengol, 2020
 # Josep Maria Antolin <josepma@gmail.com>, 2020
+# Benny Beat <bennybeat@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:25+0000\n"
-"Last-Translator: Josep Maria Antolin <josepma@gmail.com>, 2020\n"
+"Last-Translator: Benny Beat <bennybeat@gmail.com>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:36
 msgid "Audio Buffer"
-msgstr "Búfer d'audio"
+msgstr "Memòria intermèdia d'àudio"
 
 #: ../../chapters/preferences.rst:38
 msgid ""
@@ -73,6 +73,13 @@ msgid ""
 "audio after you toggle the play button. The actual latency will be longer "
 "depending on a variety of factors."
 msgstr ""
+"La memòria intermèdia d'àudio és la quantitat d'àudio en mil·lisegons que el"
+" Mixxx processa al mateix temps. Aquest factor determina la latència entre "
+"els canvis als controls del Mixxx com ara en moure el crossfader o prémer el"
+" botó de pausa i el que triga a poder-se apreciar aquests canvis a l'àudio. "
+"Per exemple, amb una memòria intermèdia de 23 ms, el Mixxx trigarà "
+"aproximadament 23 mil·lisegons a reproduir l'àudio una vegada premeu el botó"
+" Inicia. La latència actual dependrà de diversos factors."
 
 #: ../../chapters/preferences.rst:46
 msgid ""
@@ -82,8 +89,8 @@ msgid ""
 "Setting your audio buffer too small may be too much for your computer and "
 "audio interface to handle. In this situation, Mixxx playback will be choppy "
 "and very clearly distorted as your system will not be able to keep up with "
-"how frequently Mixxx is trying to processing audio. It is recommended to set"
-" your audio buffer as small as your system can handle reliably without "
+"how frequently Mixxx is trying to process audio. It is recommended to set "
+"your audio buffer as small as your system can handle reliably without "
 "glitches. Experiment with different audio buffer sizes to find what works "
 "for your system."
 msgstr ""
@@ -153,27 +160,27 @@ msgstr "Windows"
 
 #: ../../chapters/preferences.rst:103
 msgid "The following Sound APIs are available on Windows:"
-msgstr ""
+msgstr "Per a Windows estan disponibles aquestes API de so:"
 
 #: ../../chapters/preferences.rst:105
 msgid "**ASIO**: Good"
-msgstr ""
+msgstr "**ASIO**: Bona"
 
 #: ../../chapters/preferences.rst:106
 msgid "**WDM-KS**: Good"
-msgstr ""
+msgstr "**WDM-KS**: Bona"
 
 #: ../../chapters/preferences.rst:107
 msgid "**WASAPI**: Acceptable"
-msgstr ""
+msgstr "**WASAPI**: Acceptable"
 
 #: ../../chapters/preferences.rst:108
 msgid "**DirectSound**: Poor"
-msgstr ""
+msgstr "**DirectSound**: Dolenta"
 
 #: ../../chapters/preferences.rst:109
 msgid "**MME**: Poor"
-msgstr ""
+msgstr "**MME**: Dolenta"
 
 #: ../../chapters/preferences.rst:111
 msgid ""
@@ -190,23 +197,23 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:122
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: ../../chapters/preferences.rst:123
 msgid "The following Sound APIs are available on GNU/Linux:"
-msgstr ""
+msgstr "Per a GNU/Linux estan disponibles aquestes API de so:"
 
 #: ../../chapters/preferences.rst:125
 msgid "**ALSA**: Good"
-msgstr ""
+msgstr "**ALSA**: Bona"
 
 #: ../../chapters/preferences.rst:126
 msgid "**JACK**: Good"
-msgstr ""
+msgstr "**JACK**: Bona"
 
 #: ../../chapters/preferences.rst:127
 msgid "**OSS**: Acceptable"
-msgstr ""
+msgstr "**OSS**: Acceptable"
 
 #: ../../chapters/preferences.rst:129
 msgid ""
@@ -262,11 +269,11 @@ msgstr "macOS"
 
 #: ../../chapters/preferences.rst:162
 msgid "CoreAudio is the only Sound API on macOS."
-msgstr ""
+msgstr "CoreAudio és l'única API de so disponible per a macOS."
 
 #: ../../chapters/preferences.rst:165
 msgid "Other Sound Hardware options"
-msgstr ""
+msgstr "Altres opcions de maquinari de so"
 
 #: ../../chapters/preferences.rst:166
 msgid ""
@@ -328,7 +335,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:213
 msgid "**Add a new music directory**"
-msgstr "**Afegiu una nova carpeta de música**"
+msgstr "**Addicció d'una carpeta nova de música**"
 
 #: ../../chapters/preferences.rst:205
 msgid ""
@@ -371,7 +378,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:237
 msgid "**Remove a music directory**"
-msgstr "**Esborreu una carpeta de música**"
+msgstr "**Supressió d'una carpeta de música**"
 
 #: ../../chapters/preferences.rst:222
 msgid ""
@@ -506,7 +513,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:291
 msgid "Enable Offset Correction"
-msgstr "Activar la correcció de desplaçament"
+msgstr "Activació de la correcció de desplaçament"
 
 #: ../../chapters/preferences.rst:291
 msgid "Prevents beat markers from being placed incorrectly."
@@ -730,7 +737,7 @@ msgstr "Tipus"
 
 #: ../../chapters/preferences.rst:433
 msgid "cut"
-msgstr ""
+msgstr "tall"
 
 #: ../../chapters/preferences.rst:433
 msgid "roll-off"
@@ -754,7 +761,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:435
 msgid "soft"
-msgstr ""
+msgstr "suau"
 
 #: ../../chapters/preferences.rst:435
 msgid "-24 db/Oct"
@@ -762,11 +769,11 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:435 ../../chapters/preferences.rst:437
 msgid "linear"
-msgstr ""
+msgstr "linear"
 
 #: ../../chapters/preferences.rst:435 ../../chapters/preferences.rst:437
 msgid "yes"
-msgstr ""
+msgstr "sí"
 
 #: ../../chapters/preferences.rst:435
 msgid "low"
@@ -798,7 +805,7 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:439
 msgid "no"
-msgstr ""
+msgstr "no"
 
 #: ../../chapters/preferences.rst:439
 msgid "high"

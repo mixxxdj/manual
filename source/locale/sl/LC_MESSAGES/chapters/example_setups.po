@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"
-msgstr ""
+msgstr "Primeri posatavitev"
 
 #: ../../chapters/example_setups.rst:7
 msgid ""

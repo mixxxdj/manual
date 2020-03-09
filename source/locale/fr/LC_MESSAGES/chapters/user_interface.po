@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:25+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 10:18+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Bienvenue dans l'interface de Mixxx. C'est ici que toute la magie opère
 
 #: ../../chapters/user_interface.rst:20
 msgid "The Mixxx interface - Latenight skin"
-msgstr ""
+msgstr "L'interface de Mixxx - Thème Latenight"
 
 #: ../../chapters/user_interface.rst:22
 msgid ""
@@ -44,7 +44,7 @@ msgid ""
 "There are a variety of other skins included with Mixxx. You should explore "
 "them all to figure out which one you prefer. This section will focus on "
 "Latenight only."
-msgstr ""
+msgstr "Voici le thème Latenight . C'est le thème par défaut fourni avec Mixxx. Il existe une variété d'autres thèmes inclus avec Mixxx. Vous devriez tous les essayer pour trouver celui que vous préférez. Cette section se concentre sur Latenight seulement."
 
 #: ../../chapters/user_interface.rst:29
 msgid "The Deck Sections"
@@ -79,7 +79,7 @@ msgid ""
 "in the Mixxx library. This information is initially loaded from the track's "
 ":term:`metadata`. If the metadata is missing, the title and artist are "
 "guessed from the filename."
-msgstr ""
+msgstr "Le titre de la piste qui a été chargée dans la platine est affiché en haut. C'est le même que celui indiqué dans la colonne :guilabel:`Titre` de la bibliothèque de Mixxx. Cette information est chargée depuis les :term:`métadonnées` de la piste. Si les métadonnées sont manquantes, le titre et l'artiste sont devinés à partir du nom de fichier."
 
 #: ../../chapters/user_interface.rst:70
 msgid "**Track Artist**"
@@ -107,11 +107,11 @@ msgstr "Le nombre en haut à droite est le :term:`BPM` effectif de la piste. C'e
 msgid ""
 "You can use a keyboard shortcut and tap with the beat to set the BPM to the "
 "speed you are tapping, go to :ref:`control-keyboard` for more information."
-msgstr ""
+msgstr "Vous pouvez utiliser un raccourci clavier et tapoter sur le rythme, pour régler le BPM à la vitesse à laquelle vous tapoter, aller à :ref:`control-keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:89
 msgid "**Time Elapsed/Remaining/Both**"
-msgstr ""
+msgstr "**Temps écoulé/Restant/Les deux**"
 
 #: ../../chapters/user_interface.rst:83
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 "simultaneously in the format *elapsed time / remaining time*. You can change"
 " the default in :menuselection:`Preferences --> Interface --> Track Time "
 "Display`."
-msgstr ""
+msgstr "Par défaut, ceci affiche le temps écoulé dans la piste à la milliseconde près. Cliquer sur l'afficheur le fait basculer en vue *Temps restant*, qui indique combien de temps il reste avant que la piste n'atteigne la fin. En cliquant à nouveau sur l'affichage, le temps écoulé et le temps restant sont affichés simultanément au format *temps écoulé / temps restant*. Vous pouvez changer la vue par défaut dans :menuselection:`Préférences --> Platines --> Options de platine`."
 
 #: ../../chapters/user_interface.rst:94
 msgid "Waveform Displays"
@@ -139,29 +139,29 @@ msgid ""
 "By default the waveform displays are aligned parallel to each other in order"
 " to make :term:`beatmatching` easier, as it is possible to beatmatch "
 "visually by aligning the beats that appear in each waveform."
-msgstr ""
+msgstr "Par défaut les affichages de formes d'onde sont alignés parallèlement l'un à l'autre afin de faciliter le :term:`beatmatching`, puisqu'il est possible d'effectuer le beatmatch visuellement en alignant les battements qui apparaissent sur chaque forme d'onde."
 
 #: ../../chapters/user_interface.rst:114
 msgid "Mixxx default skin (Latenight) - Parallel waveforms"
-msgstr ""
+msgstr "Thème de Mixxx par défaut (Latenight) - Forme d'ondes parallèles"
 
 #: ../../chapters/user_interface.rst:116
 msgid ""
 "Depending on the skin, Mixxx displays either parallel waveforms (default) or"
 " separate waveforms. Select your preferred appearance in "
 ":menuselection:`Preferences --> Interface --> Skin`."
-msgstr ""
+msgstr "En fonction du thème, Mixxx affiche soit des formes d'ondes parallèles (par défaut), soit des formes d'ondes séparées. Choisissez votre apparence préférée dans :menuselection:`Préférences --> Interface --> Thème`."
 
 #: ../../chapters/user_interface.rst:127
 msgid "Mixxx alternative skin (Deere) - Separate waveforms"
-msgstr ""
+msgstr "Thème alternatif de Mixxx (Deere) - Formes d'onde séparées"
 
 #: ../../chapters/user_interface.rst:129
 msgid ""
 "If you have a slower computer and notice performance issues with Mixxx, try "
 "lowering the frame rate or changing the waveform type in "
 ":menuselection:`Preferences --> Interface --> Waveforms`."
-msgstr ""
+msgstr "Si vous avez un ordinateur lent et que vous remarquez des problèmes de performances avec Mixxx, essayez de réduire la fréquence d'images ou de changer le type de forme d'onde dans :menuselection:`Préférences --> Formes d'onde`."
 
 #: ../../chapters/user_interface.rst:143
 msgid "**Waveform summary**"
@@ -181,7 +181,7 @@ msgid ""
 "You can select from different types of displays for the waveform, which "
 "differ primarily in the level of detail shown in the waveform, in "
 ":menuselection:`Preferences --> Interface --> Waveforms --> Summary type`."
-msgstr ""
+msgstr "Vous pouvez choisir entre plusieurs types d'affichage pour la forme d'onde, qui diffèrent principalement par le niveau de détail montré dans la forme d'onde, dans  :menuselection:`Préférences --> Formes d'onde --> Type formes d'onde`."
 
 #: ../../chapters/user_interface.rst:154 ../../chapters/user_interface.rst:988
 msgid "**Waveform overview**"
@@ -193,7 +193,7 @@ msgid ""
 "within the track as well as the waveform envelope of the entire track. This "
 "is useful because they allow DJs to see breakdowns far in advance. As visual"
 " aid, the part of the track that has already been played is darkened."
-msgstr ""
+msgstr "La version dézoomée et plus petite de la forme d'onde montre les différents marqueurs au sein de la piste ainsi que la forme d'onde de la piste entière. Ceci est utile puisque cela permet aux DJs de voir la structure de la piste par avance. Comme aide visuelle, la partie de la piste qui a déjà été jouée est assombrie.."
 
 #: ../../chapters/user_interface.rst:151
 msgid ""
@@ -201,7 +201,7 @@ msgid ""
 "position in the track. Like with the Waveform summary, you can select from "
 "different types of displays for the overview in :menuselection:`Preferences "
 "--> Interface --> Waveforms --> Overview type`."
-msgstr ""
+msgstr "Cliquer quelque part sur la forme d'onde vous permet de sauter à une position arbitraire dans la piste. Comme avec le résumé de la forme d'onde, vous pouvez choisir parmi différents types d'affichages pour la vue d'ensemble dans :menuelection:`Préférences -> Formes d'onde -> Type d’aperçu de la forme d'onde`."
 
 #: ../../chapters/user_interface.rst:167
 msgid "**Vinyl Widget**"
@@ -236,7 +236,7 @@ msgid ""
 "waveform in or out. You can choose whether to synchronize the zoom level "
 "between the decks in :menuselection:`Preferences --> Interface --> "
 "Waveforms`."
-msgstr ""
+msgstr "Utiliser la molette de la souris  n'importe où sur l'affichage de forme d'onde entraînera un zoom avant ou arrière sur la forme d'onde. Vous pouvez choisir si le niveau de zoom est synchronisé entre les platines ou non dans :menuselection:`Préférences --> Formes d'onde --> Synchroniser le niveau de zoom pour toutes les formes d'onde`."
 
 #: ../../chapters/user_interface.rst:175 ../../chapters/user_interface.rst:991
 msgid "**Waveform Marker**"
@@ -251,7 +251,7 @@ msgid ""
 "**Position marker**: The static vertical line in the center of the waveform "
 "summary indicates the playback point of the deck. The waveform overview "
 "includes a vertical line to show the current position within the track."
-msgstr ""
+msgstr "**Marqueur de position**: La ligne verticale fixe au centre de l'affichage de la forme d'onde indique le point de lecture de la platine. La vue d'ensemble de la forme d'onde comprend une ligne verticale pour montrer la position actuelle dans la piste."
 
 #: ../../chapters/user_interface.rst:180
 msgid ""
@@ -313,7 +313,7 @@ msgstr "Enclenche la visibilité du vinyle en rotation dans :ref:`interface-wave
 #: ../../chapters/user_interface.rst:218
 #: ../../chapters/user_interface.rst:1017
 msgid "**Repeat Mode Toggle**"
-msgstr "** Bouton Répéter**"
+msgstr "**Bouton Répéter**"
 
 #: ../../chapters/user_interface.rst:217
 #: ../../chapters/user_interface.rst:1016
@@ -345,7 +345,7 @@ msgid ""
 " detect the track's :term:`BPM` but failed to align the beat markers on the "
 "beats. For more information, go to the chapter :ref:`configuration-bpm-"
 "detection`."
-msgstr ""
+msgstr "Cliquer sur ce bouton ajuste la grille rythmique de la piste afin que la position actuelle soit marquée comme battement. Ceci est utile si Mixxx a pu détecter précisément le :term:`BPM` de la piste mais n'a pas réussi à aligner les marqueurs de battements sur les battements. Pour plus d'informations, voir le chapitre :ref:`configuration-bpm-detection`."
 
 #: ../../chapters/user_interface.rst:233
 msgid "**Quantize Mode Toggle**"
@@ -372,15 +372,15 @@ msgstr "Le :term:`Verrouillage de tonalité <key lock>` verrouille la hauteur de
 
 #: ../../chapters/user_interface.rst:244
 msgid "Playback/Cue Controls"
-msgstr ""
+msgstr "Commandes Lecture/Repère"
 
 #: ../../chapters/user_interface.rst:253
 msgid "The playback and cueing controls of the deck"
-msgstr ""
+msgstr "Le contrôle de lecture et de pré-écoute de la platine"
 
 #: ../../chapters/user_interface.rst:261
 msgid "**Play/Pause Button**"
-msgstr ""
+msgstr "**Bouton de Lecture/Pause**"
 
 #: ../../chapters/user_interface.rst:258
 msgid "Clicking the Play/Pause button starts and pauses the playback."
@@ -400,7 +400,7 @@ msgstr "Pour revenir au début de la piste, faites un clic droit sur le :ref:`Fa
 
 #: ../../chapters/user_interface.rst:279
 msgid "**Cue Button**"
-msgstr ""
+msgstr "**Bouton de repère**"
 
 #: ../../chapters/user_interface.rst:273
 msgid ""
@@ -436,19 +436,19 @@ msgstr "Le point de repère est déplacé en fonction du mode Repère sélection
 
 #: ../../chapters/user_interface.rst:290
 msgid "Auto Cue"
-msgstr ""
+msgstr "Point de repère automatique"
 
 #: ../../chapters/user_interface.rst:291
 msgid ""
 "Mixxx automatically seeks to the saved Cue point on track load. If none "
 "exists, seeks to the beginning of the track."
-msgstr ""
+msgstr "Mixxx se positionne automatiquement au point de repère sauvegardé. S'il n'y en a pas, il se positionne au début de la piste."
 
 #: ../../chapters/user_interface.rst:294
 msgid ""
 "Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to "
 "main cue point on track load` to always seek to the beginning of the track."
-msgstr ""
+msgstr "Décocher :menuselection:`Préférences -> Platines -> Options de platine-> Sauter au point de repère principale lors du chargement de la piste` pour toujours rechercher le début de la piste."
 
 #: ../../chapters/user_interface.rst:300
 msgid "Using Cue Modes"
@@ -460,7 +460,7 @@ msgid ""
 "setup, or your personal preferences. The actual behavior of the Play, Pause,"
 " and Cue buttons depends on the selected Cue mode. To change the Cue mode, "
 "go to :menuselection:`Preferences --> Interface --> Cue mode`."
-msgstr ""
+msgstr "Mixxx prend en charge divers modes de repère qui s'adaptent à d'autres appareils de votre configuration ou à vos préférences personnelles. Le comportement réel des boutons Lecture, Pause et Repère dépend du mode de repère sélectionné. Pour changer le mode de repère, allez dans :menuselection:`Préférences -> Platines --> Options de platine`."
 
 #: ../../chapters/user_interface.rst:307
 msgid "**Mixxx mode (default)**"
@@ -504,12 +504,12 @@ msgstr "Appuyer sur le bouton Lecture/Pause pour mettre la piste en pause à la 
 
 #: ../../chapters/user_interface.rst:326
 msgid "**Mixxx mode (no blinking)**"
-msgstr ""
+msgstr "**Mode Mixxx (sans clignotement)**"
 
 #: ../../chapters/user_interface.rst:328
 msgid ""
 "Is the same as the default Mixxx mode, but with no blinking indicators."
-msgstr ""
+msgstr "Identique au mode Mixxx par défaut, mais sans indicateur clignotant."
 
 #: ../../chapters/user_interface.rst:330
 msgid "**Pioneer mode**"
@@ -595,24 +595,24 @@ msgstr "Ce mode est utile si vous souhaitez implémenter un thème personnalisé
 
 #: ../../chapters/user_interface.rst:366
 msgid "**CUP (Cue + Play) mode**"
-msgstr ""
+msgstr "**Mode CUP (Point de repère et lecture)**"
 
 #: ../../chapters/user_interface.rst:370
 msgid "Continue playback by releasing the Cue button."
-msgstr ""
+msgstr "Continuez la lecture en relâchant le bouton Repère."
 
 #: ../../chapters/user_interface.rst:374
 msgid ""
 "Tapping the Cue button stores the current position as new Cue point. "
 "Continue playback by releasing the Cue button."
-msgstr ""
+msgstr "Appuyer sur le bouton Repère stocke la position actuelle comme nouveau point de repère. Continuer la lecture en relâchant le bouton Repère."
 
 #: ../../chapters/user_interface.rst:379
 msgid ""
 "Tapping the Cue button causes the track to instantly jump to the location of"
 " the Cue point where it pauses the playback. Continue playback by releasing "
 "the Cue button."
-msgstr ""
+msgstr "Appuyer sur le bouton Repère, et la piste saute instantanément à l'emplacement du point de repère où elle interrompt la lecture. Continuez la lecture en relâchant le bouton Repère."
 
 #: ../../chapters/user_interface.rst:384
 msgid ""
@@ -727,8 +727,9 @@ msgstr "**Repère Unique**: Si l'aiguille est écartée après le point de repè
 
 #: ../../chapters/user_interface.rst:465
 msgid ""
-"**Hot Cue**: The track will seek to nearest previous :term:`hotcue` point."
-msgstr "**Repère Rapide**: La piste se poursuivra au repère le plus proche précédent le point de :term:`repère rapide`"
+"**Hot Cue**: The track will seek to the nearest previous :term:`hotcue` "
+"point."
+msgstr "**Repère Rapide**: La piste recherchera le plus proche point de :term:`repère rapide` précédent."
 
 #: ../../chapters/user_interface.rst:467
 msgid ""
@@ -821,7 +822,7 @@ msgstr "Le pourcentage de vitesse de la piste qui est accéléré ou ralenti est
 
 #: ../../chapters/user_interface.rst:528
 msgid "**Pitch/Rate buttons**"
-msgstr "** Boutons Hauteur/Vitesse**"
+msgstr "**Boutons Hauteur/Vitesse**"
 
 #: ../../chapters/user_interface.rst:526
 msgid ""
@@ -832,7 +833,7 @@ msgstr "Les boutons plus et moins augmentent ou réduisent le tempo de la musiqu
 
 #: ../../chapters/user_interface.rst:535
 msgid "**Temporary Pitch/Rate buttons (Nudge)**"
-msgstr "** Boutons Hauteur/Vitesse temporaire (Coup de pouce)**"
+msgstr "**Boutons Hauteur/Vitesse temporaire (Coup de pouce)**"
 
 #: ../../chapters/user_interface.rst:531
 msgid ""
@@ -848,7 +849,7 @@ msgid ""
 "To customize the amount by which the buttons alter the pitch of the track, "
 "the slider range as well as the direction, go to :menuselection:`Preferences"
 " --> Interface --> Adjustment buttons --> Permanent / Temporary`."
-msgstr ""
+msgstr "Pour paramétrer la proportion pour laquelle les boutons modifient l'intensité de la piste, ainsi que l'amplitude et la direction du curseur, aller dans :menuselection:`Préférences-->Platines --> Options de vitesse (Tempo) et tonalité (Hauteur)`."
 
 #: ../../chapters/user_interface.rst:542
 msgid ""
@@ -912,7 +913,7 @@ msgstr "**Boutons de Boucle**"
 
 #: ../../chapters/user_interface.rst:588
 msgid ""
-"**Loop-In**: This button allow you to manually set the start point of a "
+"**Loop-In**: This button allows you to manually set the start point of a "
 "loop. A loop-in marker is placed on the waveform indicating the position. If"
 " clicked when a loop was already set, it moves the start point of a loop to "
 "a new position."
@@ -920,10 +921,10 @@ msgstr "**Début de boucle**: ce bouton vous permet de définir manuellement le 
 
 #: ../../chapters/user_interface.rst:592
 msgid ""
-"**Loop-Out**: This button allow you to manually set the end point of a loop."
-" A loop-out marker is placed on the waveform indicating the position. If "
-"clicked when a loop was already set, it moves the end point of a loop to a "
-"new position."
+"**Loop-Out**: This button allows you to manually set the end point of a "
+"loop. A loop-out marker is placed on the waveform indicating the position. "
+"If clicked when a loop was already set, it moves the end point of a loop to "
+"a new position."
 msgstr "**Fin de boucle**: ce bouton vous permet de définir manuellement le point final d'une boucle. Un marqueur de fin de boucle est placé sur la forme d'onde indiquant la position. Si vous cliquez dessus alors qu'une boucle était déjà définie, il le point final le la boucle se déplace vers une nouvelle position."
 
 #: ../../chapters/user_interface.rst:596
@@ -999,7 +1000,7 @@ msgstr "**A l'arrêt**: Tapez sur un bouton de repère rapide pour provoquer ins
 
 #: ../../chapters/user_interface.rst:654
 msgid "Hotcue labels"
-msgstr ""
+msgstr "Etiquettes de repères rapides"
 
 #: ../../chapters/user_interface.rst:656
 msgid ""
@@ -1007,12 +1008,12 @@ msgid ""
 "the :ref:`track list <library-tracks>` reveals the context menu. Choose "
 ":menuselection:`Properties --> Cuepoints --> Label` and add a label for the "
 "hotcue. Press :kbd:`Enter` , then click :guilabel:`OK` to save."
-msgstr ""
+msgstr "Vous pouvez ajouter des noms personnalisés aux repères rapides. Clique-Droit sur une piste sélectionnée dans le :ref:`track list <library-tracks>` fait apparaître le menu contextuel. Choisir :menuselection:`Propriétés --> Points de repères --> Etiquette` et ajouter une étiquette pour le repère rapide. Appuyez sur :kbd:`Entrée`, puis cliquer sur :guilabel:`OK` pour enregistrer."
 
 #: ../../chapters/user_interface.rst:661
 msgid ""
 "The hotcue indicator on the waveform changes to the format ``#:label``."
-msgstr ""
+msgstr "L'indicateur de repère rapide sur la forme d'onde passe au format ``#: label``."
 
 #: ../../chapters/user_interface.rst:664
 msgid "Deleting Hotcues"
@@ -1097,17 +1098,17 @@ msgstr "Boutons d'extension de section"
 
 #: ../../chapters/user_interface.rst:736
 msgid "The section expansion buttons on top"
-msgstr ""
+msgstr "Les boutons d'extension de section du dessus"
 
 #: ../../chapters/user_interface.rst:745
 msgid "The section expansion buttons on the bottom"
-msgstr ""
+msgstr "Les boutons d'extension de section du dessous"
 
 #: ../../chapters/user_interface.rst:747
 msgid ""
 "On top, and on the button of the user interface are the section expansion "
 "buttons."
-msgstr ""
+msgstr "En haut, et sur le bouton de l'interface utilisateur se trouvent les boutons d'extension de section."
 
 #: ../../chapters/user_interface.rst:749
 msgid ""
@@ -1142,7 +1143,7 @@ msgstr "Potentiomètres de mixage casque et principal"
 
 #: ../../chapters/user_interface.rst:790
 msgid "**Pre/Main Knob**"
-msgstr ""
+msgstr "**Potentiomètre Pré-écoute/Général**"
 
 #: ../../chapters/user_interface.rst:773
 msgid ""
@@ -1151,13 +1152,13 @@ msgid ""
 " Master and stereo :term:`PFL` signal. If the knob is set to the left, you "
 "only hear the PFL signal, which is the usual position for prelistening "
 "tracks."
-msgstr ""
+msgstr "Vous permet de contrôler quelle proportion de la sortie principale vous entendez dans le :guilabel:`casque`. Il fonctionne comme un curseur de mixage entre le signal principal stéréo et le signal :term:`PFL` stéréo. Si le potentiomètre est réglé à gauche, vous n'entendez que le signal de pré-écoute, ce qui est la position habituelle pour la pré-écoute des pistes."
 
 #: ../../chapters/user_interface.rst:778
 msgid ""
 "This can be used to practice DJing with only one stereo output and a set of "
 "either speakers or headphones."
-msgstr ""
+msgstr "Cela peut être utilisé pour pratiquer le DJing avec une seule sortie stéréo et un ensemble de haut-parleurs ou de casques."
 
 #: ../../chapters/user_interface.rst:781
 msgid ""
@@ -1168,7 +1169,7 @@ msgid ""
 "one set of speakers and no booth monitors, you can avoid the need to mix in "
 "headphones by setting up the speakers behind you so both you and your "
 "audience can hear them."
-msgstr ""
+msgstr "De plus, cela peut être utilisé pour mixer dans le casque lorsque vous n'entendez pas les haut-parleurs connectés à la sortie :guilabel:`Master` et qu'il n'y a pas de haut-parleurs de contrôle de cabine. Certains DJ préfèrent utiliser ce potentiomètre pour mixer dans le casque tout le temps, mais beaucoup trouvent que c'est une façon difficile de jouer. S'il n'y a qu'un seul ensemble de haut-parleurs et aucun moniteur de cabine, vous pouvez éviter d'avoir à mixer dans le casque en installant les haut-parleurs derrière vous afin que vous et votre public puissiez les entendre."
 
 #: ../../chapters/user_interface.rst:789
 msgid ""
@@ -1187,7 +1188,7 @@ msgid ""
 "cueing signal plays in the left channel. You can still adjust the "
 ":guilabel:`Pre/Main Knob` to control the mix of the master and cue signals "
 "in the left channel."
-msgstr ""
+msgstr "S'il est activé, deux signaux mono sont envoyés à la sortie casque au lieu d'un signal stéréo. Le signal principal est lu dans le canal droit, tandis que le signal de pré-écoute est lu dans le canal gauche. Vous pouvez également régler le :guilabel:`potentiomètre Pré-écoute/Général` pour contrôler le mixage des signaux principal et pré-écoute dans le canal gauche."
 
 #: ../../chapters/user_interface.rst:801
 msgid "**Balance Knob**"
@@ -1201,7 +1202,7 @@ msgstr "Ce potentiomètre vous permet de régler la :term:`balance` (orientation
 
 #: ../../chapters/user_interface.rst:830
 msgid "**Master Knob**"
-msgstr ""
+msgstr "**Potentiomètre principal**"
 
 #: ../../chapters/user_interface.rst:806
 msgid ""
@@ -1214,7 +1215,7 @@ msgid ""
 "power amplifier. On active speakers, including computer speakers, studio "
 "monitors, and PA systems that do not require a separate amplifier, this "
 "means adjusting the gain on the speakers (which may be labeled \"Volume\")."
-msgstr ""
+msgstr "Le potentiomètre de gain principal contrôle le gain appliqué au signal de sortie principal que Mixxx envoie à votre carte son, aux serveurs de diffusion Internet et aux mixages enregistrés. Généralement, ce Potentiomètre ne doit pas être réglé. Pour modifier le volume de sortie, un contrôle de gain doit être réglée aussi près des haut-parleurs que possible pour le meilleur rapport signal / bruit tout au long de votre chaîne de signal. Idéalement, le volume ne devrait être ajusté qu'en ajustant le gain sur l'amplificateur de puissance. Sur des haut-parleurs actifs, y compris les haut-parleurs d'ordinateur, les moniteurs de studio et les systèmes de sonorisation qui ne nécessitent pas d'amplificateur séparé, cela signifie régler le gain sur les haut-parleurs (qui peut être étiqueté \"Volume\")."
 
 #: ../../chapters/user_interface.rst:816
 msgid ""
@@ -1243,7 +1244,7 @@ msgstr "Pour une explication sur les raisons pour lesquelles vous devez définir
 
 #: ../../chapters/user_interface.rst:841
 msgid "**Head Gain Knob**"
-msgstr "Potentiomètre de gain du casque"
+msgstr "**Potentiomètre de gain du casque**"
 
 #: ../../chapters/user_interface.rst:833
 msgid ""
@@ -1257,7 +1258,7 @@ msgid ""
 "controls both the main output and the headphone output, then adjust the "
 ":guilabel:`Head Gain` knob in Mixxx to control the volume of your headphones"
 " without affecting your main output."
-msgstr ""
+msgstr "Ce potentiomètre contrôle le gain appliqué au signal de sortie casque que Mixxx envoie à votre carte son. Généralement, ce potentiomètre ne doit pas être réglé. Pour régler le volume de votre casque, réglez le gain de votre carte son sur la sortie casque. La plupart des cartes son externes ont un potentiomètre de gain spécialement conçu pour la prise casque. Si vous utilisez une carte son intégrée pour vos écouteurs, réglez le contrôle de gain dans votre programme de mixage de l':term:`OS <operating system>`. Si votre carte son n'a qu'un seul potentiomètre de gain qui contrôle à la fois la sortie principale et la sortie casque, ajuster le :guilabel:`potentiomètre Gain du casque` dans Mixxx pour contrôler le volume de votre casque sans affecter votre sortie principale."
 
 #: ../../chapters/user_interface.rst:846
 msgid "PFL/Headphone Button"
@@ -1317,7 +1318,7 @@ msgid ""
 "track (the transients) briefly going into the yellow region. **Do NOT turn "
 "the Gain Knob up so much that the level meter is in the red region. At this "
 "point the track is clipping, which sounds bad and could damage equipment.**"
-msgstr ""
+msgstr "Le potentiomètre de gain vous permet de régler le gain appliqué à la platine. Utilisez-le pour compenser les différences de niveaux d'enregistrement entre les pistes. En général, vous devez régler ce potentiomètre de sorte que le :term:`vue-mètre` de la piste reste autour du haut de la région verte avec les parties les plus bruyantes de la piste (les transitoires) allant brièvement dans la région jaune. **Ne tournez PAS le potentiomètre de gain au point que le vue-mètre se trouve dans la zone rouge. À ce stade, la piste est écrêtée, ce qui semble mauvais et pourrait endommager l'équipement.**"
 
 #: ../../chapters/user_interface.rst:899
 msgid ""
@@ -1328,7 +1329,7 @@ msgid ""
 " value, but will not apply a newly calculated ReplayGain value to a track "
 "after it has already started playing (to avoid a sudden change in the gain "
 "of a playing track)."
-msgstr ""
+msgstr "Par défaut, Mixxx applique automatiquement un ReplayGain supplémentaire afin que les pistes aient à peu près la même intensité sonore à gain unitaire. Vos pistes doivent être :ref:`analyzed <getting-started-analyze-library>` pour profiter de cette fonctionnalité. Lorsqu'une piste non analysée est chargée, Mixxx calcule sa valeur ReplayGain, mais n'applique cette nouvelle valeur à une piste en cours de lecture (pour éviter un changement soudain du gain d'une piste en cours de lecture). "
 
 #: ../../chapters/user_interface.rst:919
 msgid "**EQ Knobs**"
@@ -1339,7 +1340,7 @@ msgid ""
 "The low, mid, and high EQ knobs allow you to change the filters of the "
 "audio. This allows you to selectively reduce or boost certain frequency "
 "ranges of the audio."
-msgstr ""
+msgstr "Les potentiomètres EQ bas, moyen et haut vous permettent de changer les filtres de l'audio. Cela vous permet de réduire ou d'augmenter sélectivement certaines gammes de fréquences de l'audio."
 
 #: ../../chapters/user_interface.rst:916
 msgid ""
@@ -1374,7 +1375,7 @@ msgstr "Curseur de mixage"
 
 #: ../../chapters/user_interface.rst:943
 msgid "The crossfader section of the mixer"
-msgstr ""
+msgstr "La section curseur de mixage de la table de mixage"
 
 #: ../../chapters/user_interface.rst:945
 msgid ""
@@ -1420,7 +1421,7 @@ msgid ""
 "<interface-overview>`. Click the :ref:`SAMPLER <interface-expansion-"
 "buttons>` button, or use the specific :ref:`appendix-shortcuts` to show or "
 "hide the section."
-msgstr ""
+msgstr "La section Échantillonneur peut-être **cachée** dans l':ref:`Mixxx user interface <interface-overview>`. Cliquer sur le bouton :ref:`SAMPLER <interface-expansion-buttons>`, ou utiliser le :ref:`appendix-shortcuts` spécifique pour afficher ou masquer la section."
 
 #: ../../chapters/user_interface.rst:983
 msgid "Waveform Display"
@@ -1567,7 +1568,7 @@ msgstr "La section Effets"
 
 #: ../../chapters/user_interface.rst:1075
 msgid "An effect unit"
-msgstr ""
+msgstr "Une unité d'effet"
 
 #: ../../chapters/user_interface.rst:1077
 msgid ""
@@ -1575,13 +1576,13 @@ msgid ""
 " effect units. Effect units can be freely assigned to different decks as "
 "well as other inputs. The buttons for routing decks to effect units are in "
 "the :ref:`interface-decks`."
-msgstr ""
+msgstr "Mixxx est livré avec des effets sonores intégrés qui peuvent être enchaînés dans des unités d'effets. Les unités d'effets peuvent être librement attribuées à différentes platines ainsi qu'à d'autres entrées. Les boutons de routage des platines vers les unités d'effet se trouvent dans :ref:`interface-decks`."
 
 #: ../../chapters/user_interface.rst:1082
 msgid ""
 "The :ref:`effects` chapter has a more detailed explanation of the effects "
 "system."
-msgstr ""
+msgstr "Le chapitre :ref:`effects` contient une explication plus détaillée du système d'effets."
 
 #: ../../chapters/user_interface.rst:1088
 msgid "The Microphone Section"
@@ -1603,7 +1604,7 @@ msgstr "La section microphone est **cachée** dans l':ref:`Mixxx user interface 
 msgid ""
 "The :ref:`microphones` chapter has detailed instructions for setting up "
 "microphones with various hardware."
-msgstr ""
+msgstr "Le chapitre :ref:`microphones` contient des instructions détaillées sur la configuration des microphones avec divers matériels."
 
 #: ../../chapters/user_interface.rst:1111
 msgid "Microphone Controls"
@@ -1611,7 +1612,7 @@ msgstr "Commandes du microphone"
 
 #: ../../chapters/user_interface.rst:1117
 msgid "**Talk Button**"
-msgstr "** Bouton conversation **"
+msgstr "**Bouton conversation**"
 
 #: ../../chapters/user_interface.rst:1114
 msgid ""
@@ -1680,14 +1681,14 @@ msgstr "**Artiste/Titre de la piste**: L'artiste et le titre de la piste sont af
 #: ../../chapters/user_interface.rst:1161
 msgid ""
 "**Eject Track button**: Clicking this button ejects the track from the deck."
-msgstr ""
+msgstr "**Bouton Éjecter piste**: Cliquer sur ce bouton pour éjecter la piste de la platine."
 
 #: ../../chapters/user_interface.rst:1164
 msgid ""
 "**Play/Pause button**: Clicking the button starts and pauses the playback. "
 "Right-clicking on the button will stop playback and seek the play position "
 "to the beginning of the tracks."
-msgstr ""
+msgstr "**Bouton Lecture/Pause**: Cliquer sur le bouton démarre et interrompt la lecture. Un Clic-Droit sur le bouton arrêtera la lecture et cherchera la position de lecture au début des pistes."
 
 #: ../../chapters/user_interface.rst:1169
 msgid ""
@@ -1699,15 +1700,15 @@ msgstr "**Vue d'ensemble de la forme d'onde**: Montre les divers marqueurs (rep�
 
 #: ../../chapters/user_interface.rst:1174
 msgid "**Gain slider**: Move the slider to adjust the gain of the track."
-msgstr ""
+msgstr "**Curseur de gain**: déplacer le curseur pour régler le gain de la piste."
 
 #: ../../chapters/user_interface.rst:1177
 msgid ""
 "**Volume Meter**: Shows the current volume of the track. If it's too loud "
 "and distorted, a peak indicator flashes red."
-msgstr ""
+msgstr "**Vu-mètre**: Affiche le volume actuel de la piste. S'il est trop fort et déformé, un indicateur de crête clignote en rouge."
 
 #: ../../chapters/user_interface.rst:1181
 msgid ""
 "For more information, go to the chapter :ref:`library-previewing-tracks`."
-msgstr ""
+msgstr "Pour plus d'informations, reportez-vous au chapitre :ref:`library-previewing-tracks`."

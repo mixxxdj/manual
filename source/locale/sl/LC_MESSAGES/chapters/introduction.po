@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2020-02-21 13:08+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +31,11 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr ""
+msgstr "Mixx omogoča didžejanja v živo s pomočjo digitalnih zbirk glasbe. Omogoča obvladovanje žurk preko DJ kontrolerjev, gramofonov ali zgolj preko tipkovnice. Razvija ga mednarodna ekipa prostovoljcev, ki bi radi veselje didžejanja delili z vsemi. Projekt je neprofiten, odprtokoden in skupnosten. Skupaj ustvarjamo najboljši Dj program, ki je kdaj obstajal. Upamo, da se nam boste :ref::`pridružili <contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
-msgstr ""
+msgstr "Delovanje Mixxx-a"
 
 #: ../../chapters/introduction.rst:19
 msgid ""
@@ -43,7 +43,7 @@ msgid ""
 "multiple audio files at the same time and has many features to manipulate "
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
-msgstr ""
+msgstr "Mixxx je drugačen od tipičnih programov za predvajanje glasbe, saj predvaja več zvočnih datotek hkrati in ima mnogo možnosti za manipuliranje predvajanja zvočnih datotek. To omogoča kreativno miksanje različnih skladb v živo."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:52
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Zunanje miksanje**"
 
 #: ../../chapters/introduction.rst:54
 msgid ""

@@ -31,20 +31,26 @@ msgid ""
 "Mixxx has a powerful sound effects system. Understanding how it works can "
 "open you up to a wide variety of mixing techniques."
 msgstr ""
+"Mixxx dispose d'un puissant système d'effets sonores. Comprendre comment "
+"cela fonctionne peut vous ouvrir à une grande variété de techniques de "
+"mixage."
 
 #: ../../chapters/effects.rst:14
 msgid "Effect Units"
-msgstr ""
+msgstr "Unité d'effets"
 
 #: ../../chapters/effects.rst:15
 msgid ""
 "Mixxx has 4 effect units. By default, only 2 of them are shown. The other 2 "
 "effect units can be shown by toggling the setting in the skin settings menu."
 msgstr ""
+"Mixxx a 4 unités d'effets. Par défaut, seuls 2 d'entre elles sont affichées."
+" Les 2 autres unités d'effets peuvent être affichées en basculant le "
+"paramètre dans le menu des paramètres du thème."
 
 #: ../../chapters/effects.rst:23
 msgid "An effect unit"
-msgstr ""
+msgstr "Une unité d'effet"
 
 #: ../../chapters/effects.rst:25
 msgid ""
@@ -53,34 +59,38 @@ msgid ""
 "depending on the order of effects within the chain. Each effect in the chain"
 " has its own button to toggle it on and off."
 msgstr ""
+"Chaque unité d'effet peut charger jusqu'à 3 effets dans une chaîne. Ces "
+"effets sont traités les uns après les autres en série. Vous entendrez des "
+"sons différents selon l'ordre des effets dans la chaîne. Chaque effet de la "
+"chaîne possède son propre bouton pour l'activer et le désactiver."
 
 #: ../../chapters/effects.rst:36
 msgid "Effect units can process sound from:"
-msgstr ""
+msgstr "Les unités d'effets peuvent traiter le son à partir de:"
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "platines"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
-msgstr ""
+msgstr "microphones"
 
 #: ../../chapters/effects.rst:33
 msgid "auxiliary inputs"
-msgstr ""
+msgstr "entrées auxiliaires"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "le mix principal"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
-msgstr ""
+msgstr "le mix :term:`PFL` (casque)"
 
 #: ../../chapters/effects.rst:36
 msgid "left/middle/right crossfader buses"
-msgstr ""
+msgstr "bus curseur de mixage gauche/milieu/droite"
 
 #: ../../chapters/effects.rst:38
 msgid ""
@@ -89,12 +99,20 @@ msgid ""
 "skin. The buttons for routing other inputs to effect units are in different "
 "locations depending on the skin."
 msgstr ""
+"Les boutons permettant d'acheminer les unités d'effets vers les platines, "
+"les microphones et les entrées auxiliaires sont situés dans la platine, le "
+"microphone et les sections auxiliaires du thème. Les boutons de routage "
+"d'autres entrées vers les unités d'effet se trouvent à différents "
+"emplacements en fonction du thème."
 
 #: ../../chapters/effects.rst:43
 msgid ""
 "If a channel is assigned to multiple effect units, those effect units are "
 "chained together. This allows you to chain more than 3 effects at a time."
 msgstr ""
+"Si un canal est affecté à plusieurs unités d'effets, ces unités d'effets "
+"sont chaînées ensemble. Cela vous permet de chaîner plus de 3 effets à la "
+"fois."
 
 #: ../../chapters/effects.rst:46
 msgid ""
@@ -103,6 +121,10 @@ msgid ""
 " of all 3 effects in the unit together. Refer to the :ref:`effects-mix-mode`"
 " section below for details."
 msgstr ""
+"Le potentiomètre de mixage ajuste le mixage entre le signal original (entrée"
+" de l'unité) et le signal traité (sortie du dernier effet de l'unité). Il "
+"change le niveau des 3 effets de l'unité ensemble. Reportez-vous à la "
+"section :ref:`effects-mix-mode` ci-dessous pour plus de détails."
 
 #: ../../chapters/effects.rst:51
 msgid ""
@@ -113,6 +135,13 @@ msgid ""
 "processed after the faders for the master output. Refer to the :ref"
 ":`effects-in-headphones` section below for details."
 msgstr ""
+"Les effets sont traités après les curseurs de platine et le curseur de "
+"mixage. Cela permet à des effets comme Echo et Reverb de continuer à émettre"
+" du son après que leur entrée a été coupée en baissant le curseur. "
+"Contrairement aux autres logiciels et matériels DJ, les effets peuvent "
+"également être entendus dans le casque même s'ils sont traités après les "
+"curseurs pour la sortie principale. Reportez-vous à la section :ref"
+":`effects-in-headphones` ci-dessous pour plus de détails."
 
 #: ../../chapters/effects.rst:58
 msgid ""
@@ -122,10 +151,16 @@ msgid ""
 "desired. For more background information, read `Equalizers and Phase Shift "
 "<http://ethanwiner.com/EQPhase.html>`_."
 msgstr ""
+"Noter que les effets d'égaliseur et de filtre créent un décalage de phase. "
+"Si le potentiomètre de mixage est n'importe où au milieu entre original et "
+"traité et que l'un de ces effets est activé dans l'unité, il y aura un "
+"filtrage en peigne qui n'est probablement pas souhaité. Pour plus "
+"d'informations, liser `Equalizers and Phase Shift "
+"<http://ethanwiner.com/EQPhase.html>`_."
 
 #: ../../chapters/effects.rst:65
 msgid "Effect Parameters & Metaknobs"
-msgstr ""
+msgstr "Paramètre d'effet et super potentiomètres"
 
 #: ../../chapters/effects.rst:66
 msgid ""
@@ -135,16 +170,24 @@ msgid ""
 "parameters. The metaknob allows you to easily control the effects in a unit "
 "without having to manipulate every parameter individually."
 msgstr ""
+"Chaque effet dans une :ref:`Effect Unit <effects-effect-unit>` a son propre "
+"ensemble de paramètres. Par défaut, ceux-ci sont masqués. Au lieu de cela, "
+"il y a un seul bouton appelé \"super potentiomètre\" pour chaque effet qui "
+"est lié aux différents paramètres. Le super potentiomètres vous permet de "
+"contrôler facilement les effets dans une unité sans avoir à manipuler chaque"
+" paramètre individuellement."
 
 #: ../../chapters/effects.rst:72
 msgid ""
 "If you want more detailed control of effects, press the expansion button on "
 "the effect unit to reveal the effect parameters:"
 msgstr ""
+"Si vous souhaitez un contrôle plus détaillé des effets, appuyez sur le "
+"bouton d'extension de l'unité d'effet pour afficher les paramètres d'effet:"
 
 #: ../../chapters/effects.rst:80
 msgid "An effect unit with parameters showing"
-msgstr ""
+msgstr "Une unité d'effet avec des paramètres affichés"
 
 #: ../../chapters/effects.rst:82
 msgid ""
@@ -152,6 +195,10 @@ msgid ""
 "the buttons below the parameter knobs. The button under the parameter name "
 "controls the metaknob link mode:"
 msgstr ""
+"Vous pouvez personnaliser la façon dont le super potentiomètre est lié aux "
+"paramètres en cliquant sur les boutons situés sous les boutons de "
+"paramètres. Le bouton sous le nom du paramètre contrôle le mode de liaison "
+"super potentiomètre:"
 
 #: ../../chapters/effects.rst:86
 msgid "Inactive: parameter not linked"
@@ -159,27 +206,36 @@ msgstr "Inactif: paramètre non lié"
 
 #: ../../chapters/effects.rst:87
 msgid "Active: parameter moves with metaknob"
-msgstr ""
+msgstr "Actif: le paramètre se déplace avec le super potentiomètre"
 
 #: ../../chapters/effects.rst:88
 msgid "Left side active: parameter moves with left half of metaknob turn"
 msgstr ""
+"Côté gauche actif: le paramètre se déplace avec une moitié de rotation à "
+"gauche du super potentiomètre"
 
 #: ../../chapters/effects.rst:89
 msgid "Right side active: parameter moves with right half of metaknob turn"
 msgstr ""
+"Côté droit actif: le paramètre se déplace avec une moitié de rotation à "
+"droite du super potentiomètre"
 
 #: ../../chapters/effects.rst:90
 msgid ""
 "Left and right side active: parameter moves across range with half of "
 "metaknob turn and back with the other half"
 msgstr ""
+"Côté gauche et droit actif: le paramètre se déplace avec une moitié de "
+"rotation du super potentiomètre et reviens en arrière avec l'autre moitié de"
+" rotation"
 
 #: ../../chapters/effects.rst:93
 msgid ""
 "The button below the metaknob link button inverts the parameter's "
 "relationship to the metaknob."
 msgstr ""
+"Le bouton sous le bouton de lien super potentiomètre inverse la relation du "
+"paramètre avec le super potentiomètre."
 
 #: ../../chapters/effects.rst:96
 msgid ""
@@ -188,16 +244,22 @@ msgid ""
 "you have them enabled for the skin in :menuselection:`Preferences --> "
 "Interface`."
 msgstr ""
+"Pour plus d'informations sur des effets spécifiques et leurs paramètres, "
+"passer votre souris dessus pour afficher l'info-bulle. Si vous ne voyez pas "
+"d'infobulles, vérifiez que vous les avez activées pour l'habillage dans "
+":menuselection:`Préférences -> Interface`."
 
 #: ../../chapters/effects.rst:100
 msgid ""
 "Effects (except for Reverb) that have a length of time as a parameter are "
 "synchronized to the tempo of decks."
 msgstr ""
+"Les effets (à l'exception de Reverb) dont la durée est paramétrée sont "
+"synchronisés avec le tempo des platines."
 
 #: ../../chapters/effects.rst:106
 msgid "Effect Unit Mix Modes"
-msgstr ""
+msgstr "Modes de mixage des unité d'effets"
 
 #: ../../chapters/effects.rst:107
 msgid ""
@@ -205,10 +267,13 @@ msgid ""
 "together. It can be toggled between two different modes with the mix mode "
 "button adjacent to it."
 msgstr ""
+"Le potentiomètre de mixage de l'unité d'effets contrôle le niveau des 3 "
+"effets de l'unité ensemble. Il peut être basculé entre deux modes différents"
+" avec le bouton de mode de mixage adjacent."
 
 #: ../../chapters/effects.rst:116
 msgid "An effect unit in Dry/Wet mode"
-msgstr ""
+msgstr "Une unité d'effet en mode Original/Traité"
 
 #: ../../chapters/effects.rst:118
 msgid ""
@@ -218,10 +283,16 @@ msgid ""
 "heard from the effect unit. When the knob is fully right, only the output of"
 " the effect unit will be heard without any of the dry input signal."
 msgstr ""
+"Dans le mode Original/Traité par défaut, le bouton de mixage effectue un "
+"fondu entre le signal original (entrée du premier effet de l'unité) et le "
+"signal traité (sortie du dernier effet de l'unité). Lorsque le bouton est "
+"complètement à gauche, aucun son n'est émis par l'unité d'effet. Lorsque le "
+"bouton est complètement à droite, seule la sortie de l'unité d'effet sera "
+"entendue sans aucun signal d'entrée original."
 
 #: ../../chapters/effects.rst:129
 msgid "An effect unit in Dry+Wet mode"
-msgstr ""
+msgstr "Une unité d'effet en mode Original+Traité"
 
 #: ../../chapters/effects.rst:131
 msgid ""
@@ -234,10 +305,19 @@ msgid ""
 " in the same order, the bass frequencies will be taken out of the echoed "
 "signal, but they will also be removed from the unechoed signal."
 msgstr ""
+"En mode Original+Traité, le signal original est toujours à plein volume. Le "
+"bouton de mixage contrôle la quantité de signal traité ajoutée au signal "
+"original. Un exemple utile pour le mode Original+Traité est le chargement "
+"d'un effet de filtre ou d'égalisation avant l'effet Echo. Avec cette "
+"configuration, le filtre ou l'égaliseur peut supprimer les basses fréquences"
+" du signal avec écho sans les supprimer du signal sans écho. Si l'unité "
+"d'effet est commutée en mode Original/Traité avec les mêmes effets dans le "
+"même ordre, les fréquences graves seront supprimées du signal avec écho, "
+"mais elles seront également supprimées du signal sans écho."
 
 #: ../../chapters/effects.rst:143
 msgid "Effects In Headphones"
-msgstr ""
+msgstr "Effets dans le casque"
 
 #: ../../chapters/effects.rst:144
 msgid ""
@@ -248,46 +328,63 @@ msgid ""
 " are processed in parallel for the headphone output (prefader) and master "
 "output (postfader)."
 msgstr ""
+"Pour prévisualiser comment une piste sonne avec des effets avant de mixer "
+"dans la piste, affectez simplement la platine à une unité d'effets et "
+"activez le bouton casque de la platine. Noter que cela augmentera le CPU par"
+" rapport à l'affectation d'une unité d'effet à une platine sans que le "
+"bouton du casque soit activé. En effet, les effets sont traités en parallèle"
+" pour la sortie casque (prefader) et la sortie master (postfader)."
 
 #: ../../chapters/effects.rst:151
 msgid ""
 "Effects can also be previewed in headphones on decks that are playing to the"
 " audience, but this requires a few more steps:"
 msgstr ""
+"Les effets peuvent également être prévisualisés dans le casque sur les "
+"platines qui sont en lecture pour le public, mais cela nécessite quelques "
+"étapes supplémentaires:"
 
 #: ../../chapters/effects.rst:154
 msgid "Disable the effect unit for the deck"
-msgstr ""
+msgstr "Désactivez l'unité d'effet de la platine"
 
 #: ../../chapters/effects.rst:155
 msgid "Enable the headphone button for the deck"
-msgstr ""
+msgstr "Activer le bouton casque de la platine"
 
 #: ../../chapters/effects.rst:156
 msgid "Enable the headphone button for the effect unit"
-msgstr ""
+msgstr "Activer le bouton casque de l'unité d'effet"
 
 #: ../../chapters/effects.rst:157
 msgid ""
 "Enable effects and adjust their metaknobs and parameters for how you want "
 "the effects to sound."
 msgstr ""
+"Activer les effets et ajuster leurs super potentiomètre et paramètres selon "
+"la façon dont vous souhaitez que les effets sonnent."
 
 #: ../../chapters/effects.rst:159
 msgid ""
 "When you are ready to mix in the effect, turn the mix knob fully left (dry)"
 msgstr ""
+"Lorsque vous êtes prêt à mixer l'effet, tourner le potentiomètre de mixage "
+"complètement à gauche (original)"
 
 #: ../../chapters/effects.rst:160
 msgid "Enable the effect unit for the deck"
-msgstr ""
+msgstr "Activer l'unité d'effet de la platine"
 
 #: ../../chapters/effects.rst:161
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
+"Tourner le potentiomètre de mixage vers la droite pour que les effets soient"
+" entendus dans la sortie principale"
 
 #: ../../chapters/effects.rst:162
 msgid ""
 "Disable the headphone button for the effect unit so you do not forget to "
 "turn it off later"
 msgstr ""
+"Désactiver le bouton casque de l'unité d'effet pour ne pas oublier de "
+"l'éteindre plus tard"

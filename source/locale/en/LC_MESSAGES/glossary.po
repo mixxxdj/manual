@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: English (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -270,9 +270,19 @@ msgstr "cueing"
 #: ../../glossary.rst:8
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
-"like to mix in in your headphones. The audience will not hear what you are "
+"like to mix in your headphones. The audience will not hear what you are "
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
-msgstr "Headphone cueing, or just cueing, is listening to the next track you would like to mix in in your headphones. The audience will not hear what you are cueing in your headphones. Being able to cue is a crucial aspect to DJing."
+msgstr "Headphone cueing, or just cueing, is listening to the next track you would like to mix in your headphones. The audience will not hear what you are cueing in your headphones. Being able to cue is a crucial aspect to DJing."
+
+#: ../../glossary.rst:488
+msgid "DAW"
+msgstr "DAW"
+
+#: ../../glossary.rst:490
+msgid ""
+"A digital audio workstation (DAW) is an electronic device or application "
+"software used for recording, editing and producing audio files."
+msgstr "A digital audio workstation (DAW) is an electronic device or application software used for recording, editing and producing audio files."
 
 #: ../../glossary.rst:294
 msgid "db"
@@ -461,11 +471,11 @@ msgstr "HID"
 
 #: ../../glossary.rst:107
 msgid ""
-"Short for for Human Interface Device, a part of the USB specification. It "
+"Short for Human Interface Device, a part of the USB specification. It "
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
-msgstr "Short for for Human Interface Device, a part of the USB specification. It specifies a device class (a type of computer hardware) for human interface devices such as keyboards, mice, game controllers, and some DJ :term:`controllers <controller>`."
+msgstr "Short for Human Interface Device, a part of the USB specification. It specifies a device class (a type of computer hardware) for human interface devices such as keyboards, mice, game controllers, and some DJ :term:`controllers <controller>`."
 
 #: ../../glossary.rst:364
 msgid "hotcue"
@@ -560,6 +570,16 @@ msgid ""
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
 msgstr "A button to turn on and off individual frequency ranges within a channel, i.e. treble, mid and bass. Useful for effects where the DJ drops a track out for a period or creates room for a transition."
+
+#: ../../glossary.rst:492
+msgid "LADSPA"
+msgstr "LADSPA"
+
+#: ../../glossary.rst:494
+msgid ""
+"Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for"
+" handling audio filters and audio signal processing effects."
+msgstr "Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for handling audio filters and audio signal processing effects."
 
 #: ../../glossary.rst:272
 msgid "LAME"
@@ -668,12 +688,12 @@ msgstr "MIDI"
 
 #: ../../glossary.rst:100
 msgid ""
-"Short for for Musical Instrument Digital Interface. A digital communications"
-" language and hardware specification enabling compatible electronic "
+"Short for Musical Instrument Digital Interface. A digital communications "
+"language and hardware specification enabling compatible electronic "
 "instruments, sequencers, computers, etc., to communicate with each other in "
 "a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
 "with computers."
-msgstr "Short for for Musical Instrument Digital Interface. A digital communications language and hardware specification enabling compatible electronic instruments, sequencers, computers, etc., to communicate with each other in a network. Most DJ :term:`controllers <controller>` use MIDI to communicate with computers."
+msgstr "Short for Musical Instrument Digital Interface. A digital communications language and hardware specification enabling compatible electronic instruments, sequencers, computers, etc., to communicate with each other in a network. Most DJ :term:`controllers <controller>` use MIDI to communicate with computers."
 
 #: ../../glossary.rst:226
 msgid "MP3"

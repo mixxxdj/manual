@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -298,7 +298,8 @@ msgid ""
 "this `guide from Presonus (deleted, via archive.org) "
 "<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn"
 "/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane "
-"<http://www.rane.com/note110.html>`_."
+"(deleted, via archive.org) "
+"<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 msgstr ""
 "However, most venues have DJs plug into :ref:`hardware DJ mixers <hardware-"
 "mixers>`, which typically only have RCA inputs (RCA cables cannot be "
@@ -308,13 +309,14 @@ msgstr ""
 "this `guide from Presonus (deleted, via archive.org) "
 "<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn"
 "/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane "
-"<http://www.rane.com/note110.html>`_."
+"(deleted, via archive.org) "
+"<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 
-#: ../../chapters/hardware.rst:144
+#: ../../chapters/hardware.rst:145
 msgid "Number of Channels"
 msgstr "Number of Channels"
 
-#: ../../chapters/hardware.rst:145
+#: ../../chapters/hardware.rst:146
 msgid ""
 "Audio interfaces sometimes have multiple connectors for a single channel, "
 "resulting in more connectors than channels. So, not every connector can send"
@@ -336,11 +338,11 @@ msgstr ""
 "controllers have separate master and booth outputs with independent volume "
 "controls, but they both play the same signal."
 
-#: ../../chapters/hardware.rst:156
+#: ../../chapters/hardware.rst:157
 msgid "Vinyl Control and Phono Preamplifiers"
 msgstr "Vinyl Control and Phono Preamplifiers"
 
-#: ../../chapters/hardware.rst:157
+#: ../../chapters/hardware.rst:158
 msgid ""
 "Turntables output low voltage (phono level) signals that need to be "
 "amplified to line level before most audio equipment can work with them. So, "
@@ -372,11 +374,11 @@ msgstr ""
 "higher-end all-in-one controllers also include audio interfaces with phono "
 "preamps."
 
-#: ../../chapters/hardware.rst:174
+#: ../../chapters/hardware.rst:175
 msgid "Mixers"
 msgstr "Mixers"
 
-#: ../../chapters/hardware.rst:175
+#: ../../chapters/hardware.rst:176
 msgid ""
 "Mixers are devices that combine audio signals. DJ mixers are different from "
 "live and studio mixers because they have multiple stereo channels with phono"
@@ -390,7 +392,7 @@ msgstr ""
 " to use a DJ mixer with :ref:`vinyl-control`, but vinyl control can be used "
 "without a hardware mixer."
 
-#: ../../chapters/hardware.rst:181
+#: ../../chapters/hardware.rst:182
 msgid ""
 "Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono"
 " outputs (2 stereo pairs) to send Mixxx's decks to the mixer's stereo "
@@ -406,7 +408,7 @@ msgstr ""
 "directly to the mixer without needing a separate stand-alone audio "
 "interface."
 
-#: ../../chapters/hardware.rst:187
+#: ../../chapters/hardware.rst:188
 msgid ""
 "Often DJs who use DJ software with internal mixing send their master output "
 "to a hardware mixer. This can be helpful to send the mixed signal to both a "
@@ -420,7 +422,7 @@ msgstr ""
 "separate gain controls for each output. It also facilitates smooth "
 "transitions between DJs."
 
-#: ../../chapters/hardware.rst:193
+#: ../../chapters/hardware.rst:194
 msgid ""
 "However, using an external mixer with internal mixing is not necessary and "
 "reduces the sound quality. Each piece of equipment an audio signal passes "
@@ -438,27 +440,27 @@ msgstr ""
 "Alternatively, a sound card with at least 6 output channels can be used with"
 " Mixxx's :guilabel:`Booth` output."
 
-#: ../../chapters/hardware.rst:201
+#: ../../chapters/hardware.rst:202
 msgid ""
 "Many people confuse \"analog mixers\" and \"hardware mixers\", but these are"
-" are not the same. Many hardware mixers process audio digitally with "
-"specialized signal processors as opposed to a general purpose CPU like those"
-" in laptop and desktop computers."
+" not the same. Many hardware mixers process audio digitally with specialized"
+" signal processors as opposed to a general purpose CPU like those in laptop "
+"and desktop computers."
 msgstr ""
 "Many people confuse \"analog mixers\" and \"hardware mixers\", but these are"
-" are not the same. Many hardware mixers process audio digitally with "
-"specialized signal processors as opposed to a general purpose CPU like those"
-" in laptop and desktop computers."
+" not the same. Many hardware mixers process audio digitally with specialized"
+" signal processors as opposed to a general purpose CPU like those in laptop "
+"and desktop computers."
 
-#: ../../chapters/hardware.rst:206
+#: ../../chapters/hardware.rst:207
 msgid ":ref:`microphones-record-broadcast-external-mixer`"
 msgstr ":ref:`microphones-record-broadcast-external-mixer`"
 
-#: ../../chapters/hardware.rst:211
+#: ../../chapters/hardware.rst:212
 msgid "Turntables"
 msgstr "Turntables"
 
-#: ../../chapters/hardware.rst:212
+#: ../../chapters/hardware.rst:213
 msgid ""
 "Turntables are mechanical devices that play music recordings cut into vinyl "
 "phonograph records. Before software like Mixxx was available, the art of "
@@ -474,15 +476,15 @@ msgstr ""
 " digital files in Mixxx as if the digital file was pressed onto the vinyl "
 "record."
 
-#: ../../chapters/hardware.rst:218
+#: ../../chapters/hardware.rst:219
 msgid ":ref:`vinyl-control`"
 msgstr ":ref:`vinyl-control`"
 
-#: ../../chapters/hardware.rst:221
+#: ../../chapters/hardware.rst:222
 msgid "CDJs"
 msgstr "CDJs"
 
-#: ../../chapters/hardware.rst:222
+#: ../../chapters/hardware.rst:223
 msgid ""
 "CDJs are devices that play digital audio files and have controls from "
 "manipulating the playback of the audio. Originally CDJs played audio CDs, "
@@ -496,11 +498,11 @@ msgstr ""
 "be plugged into a computer with a USB cable to function as a "
 ":ref:`controller <hardware-controllers>` for Mixxx."
 
-#: ../../chapters/hardware.rst:229
+#: ../../chapters/hardware.rst:230
 msgid "Microphones"
 msgstr "Microphones"
 
-#: ../../chapters/hardware.rst:230
+#: ../../chapters/hardware.rst:231
 msgid ""
 "Microphones convert changes in sound pressure in air to changes in voltage "
 "(an analog audio signal). Mixxx can work with any microphone that can be "
@@ -510,6 +512,6 @@ msgstr ""
 "(an analog audio signal). Mixxx can work with any microphone that can be "
 "plugged into your :ref:`audio interface <hardware-audio-interfaces>`."
 
-#: ../../chapters/hardware.rst:234
+#: ../../chapters/hardware.rst:235
 msgid ":ref:`microphones`"
 msgstr ":ref:`microphones`"

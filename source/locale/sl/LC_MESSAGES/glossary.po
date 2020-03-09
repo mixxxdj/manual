@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,11 +122,11 @@ msgid ""
 "In musical notation, a bar (or measure) is a segment of time defined by a "
 "given number of beats. Typically, a piece consists of several bars of the "
 "same length."
-msgstr ""
+msgstr "Takt označuje segment časa, ki se sestavljen iz določenega števila dob. Skladbe so ponavadi sestavljene iz več taktov enake dolžine."
 
 #: ../../glossary.rst:92
 msgid "beatgrid"
-msgstr "mreža beata"
+msgstr "ritmična mreža"
 
 #: ../../glossary.rst:94
 msgid ""
@@ -134,11 +134,11 @@ msgid ""
 "Beatgrids are used for advanced mixing functions such as track :term:`sync`,"
 " precise effects synchronization, looping and accurate :term:`BPM` "
 "representation."
-msgstr "Serija oznak, ki kažejo na lokacijo beatov v skladbi. Mreže beatov se uporabljajo za napredne načine miksanja, kot je  :term:`sinhornizacija` skladb, natančna sinhronizacija efektov, ustvarjanje zank in natačen prikaz hitrosti v :term:`BPM`."
+msgstr "Serija oznak, ki kažejo na lokacijo dob v skladbi. Ritmične mreže se uporabljajo za napredne načine miksanja, kot je  :term:`sinhronizacija` skladb, natančna sinhronizacija efektov, ustvarjanje zank in natačen prikaz hitrosti v :term:`BPM`."
 
 #: ../../glossary.rst:88
 msgid "beatmatching"
-msgstr "izenačevanje beata"
+msgstr "izenačevanje ritma"
 
 #: ../../glossary.rst:90
 msgid ""
@@ -180,7 +180,7 @@ msgid ""
 "Beats per minute (BPM) is used as a measure of tempo in music. If you tap "
 "your foot to music you are following the “beat”. If you count how many taps "
 "you do in a minute you have calculated the BPM."
-msgstr "Beats per minute (BPM) ali udarci na minuto se uporablja za merjenje tempa glasbe. Kadar z nogo udarjamo na ritem glasbe sledimo “beatu”. Če preštejemo število teh udarcev na minuto, dobimo BPM."
+msgstr "Beats per minute (BPM) ali udarci na minuto se uporablja za merjenje tempa glasbe. Kadar z nogo udarjamo na ritem glasbe sledimo ritmu. Če preštejemo število teh udarcev na minuto, dobimo BPM."
 
 #: ../../glossary.rst:326
 msgid "bug report"
@@ -271,8 +271,18 @@ msgstr "predposlušanje"
 #: ../../glossary.rst:8
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
-"like to mix in in your headphones. The audience will not hear what you are "
+"like to mix in your headphones. The audience will not hear what you are "
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
+msgstr ""
+
+#: ../../glossary.rst:488
+msgid "DAW"
+msgstr ""
+
+#: ../../glossary.rst:490
+msgid ""
+"A digital audio workstation (DAW) is an electronic device or application "
+"software used for recording, editing and producing audio files."
 msgstr ""
 
 #: ../../glossary.rst:294
@@ -462,7 +472,7 @@ msgstr "HID"
 
 #: ../../glossary.rst:107
 msgid ""
-"Short for for Human Interface Device, a part of the USB specification. It "
+"Short for Human Interface Device, a part of the USB specification. It "
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
@@ -561,6 +571,16 @@ msgid ""
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
 msgstr "Gumb za vklop ali izklop posameznih frekvenčnih razponov v posameznem kanalu. To so visoki, srednji in nizki toni. Uporabno za efekt, ko DJ neko skladbo za trenutek vrže ven in ustvari prostor za prehod."
+
+#: ../../glossary.rst:492
+msgid "LADSPA"
+msgstr ""
+
+#: ../../glossary.rst:494
+msgid ""
+"Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for"
+" handling audio filters and audio signal processing effects."
+msgstr ""
 
 #: ../../glossary.rst:272
 msgid "LAME"
@@ -661,7 +681,7 @@ msgid ""
 "`<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx stores additional metadata "
 "about music files in its database, like :term:`beatgrid`, waveform data, "
 ":term:`hotcues <hotcue>`, playlists, crates, number of plays, etc."
-msgstr "Na splošno je to katerikoli podatek o glasbeni datoteki, ki jo Mixxx uporablja (npr. naslov, izvajalec, album, hotcue iztočnice, zanke, ...) Mnogi formati metapodatkov omgočajo, da se podatki, kot so naslov, izvajalec, album in zaporedna številka skladbe shranijo v datoteko samo. Glej `<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx dodatne metapodatke o glasbi shranjuje v podatkovni bazi. Tu shranjuje npr. :term:`mrežo beatov`, podatke o valovni obliki, :term:`hotcue iztočnice <hotcue>`, sezname predvajanje, zaboje, število predvajanj, itd."
+msgstr "Na splošno je to katerikoli podatek o glasbeni datoteki, ki jo Mixxx uporablja (npr. naslov, izvajalec, album, hotcue iztočnice, zanke, ...) Mnogi formati metapodatkov omgočajo, da se podatki, kot so naslov, izvajalec, album in zaporedna številka skladbe shranijo v datoteko samo. Glej `<https://en.wikipedia.org/wiki/ID3>`_ . Mixxx dodatne metapodatke o glasbi shranjuje v podatkovni bazi. Tu shranjuje npr. :term:`ritmično mrežo`, podatke o valovni obliki, :term:`hotcue iztočnice <hotcue>`, sezname predvajanje, zaboje, število predvajanj, itd."
 
 #: ../../glossary.rst:98
 msgid "MIDI"
@@ -669,8 +689,8 @@ msgstr "MIDI"
 
 #: ../../glossary.rst:100
 msgid ""
-"Short for for Musical Instrument Digital Interface. A digital communications"
-" language and hardware specification enabling compatible electronic "
+"Short for Musical Instrument Digital Interface. A digital communications "
+"language and hardware specification enabling compatible electronic "
 "instruments, sequencers, computers, etc., to communicate with each other in "
 "a network. Most DJ :term:`controllers <controller>` use MIDI to communicate "
 "with computers."
@@ -779,7 +799,7 @@ msgid ""
 "The phase of a track is its position relative to another track. If two "
 "tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they "
 "should be playing so that their beats are aligned."
-msgstr ""
+msgstr "Faza skladbe je njen relativni položaj glede na drugo skladbo. Če sta dve skladbi :term:`sinhonizirani <sync>` na enak tempo in sta v fazi, bi se morali predvajati tako, da bi njuna ritma morala biti poravanana."
 
 #: ../../glossary.rst:164
 msgid "pitch bend"
@@ -793,7 +813,7 @@ msgid ""
 "Before digital DJing, this was accomplished by dragging one's finger "
 "alongside the turntable to slow it down or by twisting the record spindle to"
 " speed it up."
-msgstr "Tehnika uporabljena pri didžejanju, ki začasno spremeni hitrost skladbe, ponavadi ko držimo gumb. Ta tehnika je ponavadi namenjena mikro-popravkom sinhronizacije skladb, ko izenačujemo njihov beat. Pred digitalnim didžejanjem se je to delao s pritiskom prsta na gramofonsko ploščo, da se jo je upočasnilo ali s stiskanjem sredinskega vstavka, da se jo je pospešilo."
+msgstr "Tehnika uporabljena pri didžejanju, ki začasno spremeni hitrost skladbe, ponavadi ko držimo gumb. Ta tehnika je ponavadi namenjena mikro-popravkom sinhronizacije skladb, ko izenačujemo njihov ritem. Pred digitalnim didžejanjem se je to delalo s pritiskom prsta na gramofonsko ploščo, da se jo je upočasnilo ali s stiskanjem sredinskega vstavka, da se jo je pospešilo."
 
 #: ../../glossary.rst:380
 msgid "podcast"
@@ -816,7 +836,7 @@ msgid ""
 "Quantization is the process of aligning notes and other events like loops or"
 " cuepoints so that they start or finish exactly on beats or fractions of "
 "beats."
-msgstr "Kvantizacija je postopek poravnavanja not in drugih dogodkov, kot so zanke ali iztočnice, tako da se začnejo in končajo točno na beat ali dele beata."
+msgstr "Kvantizacija je postopek poravnavanja not in drugih dogodkov, kot so zanke ali iztočnice, tako da se začnejo in končajo točno na ritem ali dobe."
 
 #: ../../glossary.rst:172
 msgid "ramping pitch bend"
@@ -841,7 +861,7 @@ msgid ""
 "mixing, DJs adjust the rates of tracks so that they can play at the same "
 "tempo as other tracks. This allows DJs to :term:`beatmix <beatmatching>`, "
 "and is an essential part of DJing."
-msgstr "Hitrost s katero se sladba predvaja, ponavadi izraženo v procentih hitrosti relativno na normalno hitrost skladbe. Pogosto med miskanjem didžeji prilagodijo hitrost skladb, tako da se predvajajo z enako hitrostjo, kot druge. To omogoča didžejem da  :term:`miksajo na beat <beatmatching>`, kar je osnovni del didžejanja."
+msgstr "Hitrost s katero se sladba predvaja, ponavadi izraženo v procentih hitrosti relativno na normalno hitrost skladbe. Pogosto med miksanjem didžeji prilagodijo hitrost skladb, tako da se predvajajo z enako hitrostjo, kot druge. To omogoča didžejem da  :term:`miksajo na ritem<beatmatching>`, kar je osnovni tehnika didžejanja."
 
 #: ../../glossary.rst:286
 msgid "ReplayGain"
@@ -961,7 +981,7 @@ msgid ""
 "DJing paradigm of two turntables. Using special :term:`timecode` media, the "
 "DJ application analyzes the timecode signal and simulates the sound and feel"
 " of having your music collection on vinyl."
-msgstr ""
+msgstr "Metoda nadziranja DJ programov, ki oponaša tradicionalno didžejanje z dvema gramofonoma. Z uporabo posebne nosilca s :term:`časovno kodo`, Dj aplikacijo analizira časovno kodo signala in simulira zvok in občutek, kot da bi delali z glasbeno zbirko gramofosnkih plošč."
 
 #: ../../glossary.rst:204
 msgid "volume"

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Josep Maria Antolin <josepma@gmail.com>, 2020
+# Benny Beat <bennybeat@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Josep Maria Antolin <josepma@gmail.com>, 2020\n"
+"Last-Translator: Benny Beat <bennybeat@gmail.com>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:6
 msgid "DJ Hardware"
-msgstr ""
+msgstr "Maquinari DJ"
 
 #: ../../chapters/hardware.rst:13
 msgid ""
@@ -33,6 +33,11 @@ msgid ""
 "may vary. This chapter provides general background information about various"
 " types of DJ hardware."
 msgstr ""
+"Tot i que el Mixxx pot ser utilitzat només amb un portàtil o ordinador de "
+"sobretaula, l'experiència completa s'obté mitjançant maquinari especialitzat"
+" per a DJ. Depenent del vostre pressupost i zona d'acció, la configuració i "
+"requeriments poden variar. Aquest capítol proporciona informació general "
+"sobre diversos tipus de maquinari DJ."
 
 #: ../../chapters/hardware.rst:19
 msgid ""
@@ -44,7 +49,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:26
 msgid "Controllers"
-msgstr "Controladores"
+msgstr "Controladors"
 
 #: ../../chapters/hardware.rst:27
 msgid ""
@@ -92,7 +97,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:63
 msgid "Audio Interfaces"
-msgstr ""
+msgstr "Interfícies d'àudio"
 
 #: ../../chapters/hardware.rst:64
 msgid ""
@@ -174,7 +179,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:115
 msgid "Specifications"
-msgstr ""
+msgstr "Especificacions"
 
 #: ../../chapters/hardware.rst:116
 msgid ""
@@ -187,7 +192,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:123
 msgid "Connector and Cable Types"
-msgstr ""
+msgstr "Tipus de cables i connectors"
 
 #: ../../chapters/hardware.rst:124
 msgid ""
@@ -213,14 +218,15 @@ msgid ""
 "this `guide from Presonus (deleted, via archive.org) "
 "<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn"
 "/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane "
-"<http://www.rane.com/note110.html>`_."
-msgstr ""
-
-#: ../../chapters/hardware.rst:144
-msgid "Number of Channels"
+"(deleted, via archive.org) "
+"<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 msgstr ""
 
 #: ../../chapters/hardware.rst:145
+msgid "Number of Channels"
+msgstr "Nombre de canals"
+
+#: ../../chapters/hardware.rst:146
 msgid ""
 "Audio interfaces sometimes have multiple connectors for a single channel, "
 "resulting in more connectors than channels. So, not every connector can send"
@@ -233,11 +239,11 @@ msgid ""
 "controls, but they both play the same signal."
 msgstr ""
 
-#: ../../chapters/hardware.rst:156
-msgid "Vinyl Control and Phono Preamplifiers"
-msgstr ""
-
 #: ../../chapters/hardware.rst:157
+msgid "Vinyl Control and Phono Preamplifiers"
+msgstr "Preamplificadors fono i control amb vinil"
+
+#: ../../chapters/hardware.rst:158
 msgid ""
 "Turntables output low voltage (phono level) signals that need to be "
 "amplified to line level before most audio equipment can work with them. So, "
@@ -255,11 +261,11 @@ msgid ""
 "preamps."
 msgstr ""
 
-#: ../../chapters/hardware.rst:174
-msgid "Mixers"
-msgstr ""
-
 #: ../../chapters/hardware.rst:175
+msgid "Mixers"
+msgstr "Mescladors"
+
+#: ../../chapters/hardware.rst:176
 msgid ""
 "Mixers are devices that combine audio signals. DJ mixers are different from "
 "live and studio mixers because they have multiple stereo channels with phono"
@@ -268,7 +274,7 @@ msgid ""
 "without a hardware mixer."
 msgstr ""
 
-#: ../../chapters/hardware.rst:181
+#: ../../chapters/hardware.rst:182
 msgid ""
 "Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono"
 " outputs (2 stereo pairs) to send Mixxx's decks to the mixer's stereo "
@@ -278,7 +284,7 @@ msgid ""
 "interface."
 msgstr ""
 
-#: ../../chapters/hardware.rst:187
+#: ../../chapters/hardware.rst:188
 msgid ""
 "Often DJs who use DJ software with internal mixing send their master output "
 "to a hardware mixer. This can be helpful to send the mixed signal to both a "
@@ -287,7 +293,7 @@ msgid ""
 "transitions between DJs."
 msgstr ""
 
-#: ../../chapters/hardware.rst:193
+#: ../../chapters/hardware.rst:194
 msgid ""
 "However, using an external mixer with internal mixing is not necessary and "
 "reduces the sound quality. Each piece of equipment an audio signal passes "
@@ -298,23 +304,23 @@ msgid ""
 " Mixxx's :guilabel:`Booth` output."
 msgstr ""
 
-#: ../../chapters/hardware.rst:201
+#: ../../chapters/hardware.rst:202
 msgid ""
 "Many people confuse \"analog mixers\" and \"hardware mixers\", but these are"
-" are not the same. Many hardware mixers process audio digitally with "
-"specialized signal processors as opposed to a general purpose CPU like those"
-" in laptop and desktop computers."
+" not the same. Many hardware mixers process audio digitally with specialized"
+" signal processors as opposed to a general purpose CPU like those in laptop "
+"and desktop computers."
 msgstr ""
 
-#: ../../chapters/hardware.rst:206
+#: ../../chapters/hardware.rst:207
 msgid ":ref:`microphones-record-broadcast-external-mixer`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:211
-msgid "Turntables"
-msgstr ""
-
 #: ../../chapters/hardware.rst:212
+msgid "Turntables"
+msgstr "Tocadiscos"
+
+#: ../../chapters/hardware.rst:213
 msgid ""
 "Turntables are mechanical devices that play music recordings cut into vinyl "
 "phonograph records. Before software like Mixxx was available, the art of "
@@ -323,16 +329,23 @@ msgid ""
 " digital files in Mixxx as if the digital file was pressed onto the vinyl "
 "record."
 msgstr ""
+"Els tocadiscos o plats, són dispositius mecànics que reprodueixen música i "
+"enregistraments fonogràfics mitjançant vinils. Abans que el Mixxx fos una "
+"realitat, l'art del DJing s'obtenia amb els plats i  :ref:`DJ mixers "
+"<hardware-mixers>` mescladors. Actualment podeu punxar als vostres plats amb"
+" vinils especials que tenen gravat un codi de temps i així controlar la "
+"reproducció d'arxius digitals des del Mixxx, com si aquest fitxer fos la "
+"gravació original del vinil en comptes d'aquest codi."
 
-#: ../../chapters/hardware.rst:218
+#: ../../chapters/hardware.rst:219
 msgid ":ref:`vinyl-control`"
-msgstr ""
-
-#: ../../chapters/hardware.rst:221
-msgid "CDJs"
-msgstr ""
+msgstr ":ref:`control amb vinil`"
 
 #: ../../chapters/hardware.rst:222
+msgid "CDJs"
+msgstr "Reproductors de CD"
+
+#: ../../chapters/hardware.rst:223
 msgid ""
 "CDJs are devices that play digital audio files and have controls from "
 "manipulating the playback of the audio. Originally CDJs played audio CDs, "
@@ -340,18 +353,29 @@ msgid ""
 "be plugged into a computer with a USB cable to function as a "
 ":ref:`controller <hardware-controllers>` for Mixxx."
 msgstr ""
-
-#: ../../chapters/hardware.rst:229
-msgid "Microphones"
-msgstr ""
+"Els reproductors de CD són dispositius que reprodueixen fitxers digitals "
+"d'àudio i disposen de controls per manipular aquesta reproducció. "
+"Originalment, els reproductors de CD només reproduïen aquest tipus de "
+"suport, però els més recents inclouen també ports per a unitats USB o "
+"targetes SD. Alguns reproductors es poden connectar a un ordinador "
+"mitjançant un cable USB per funcionar com un  :ref:`controller <hardware-"
+"controllers>` controlador per al Mixxx."
 
 #: ../../chapters/hardware.rst:230
+msgid "Microphones"
+msgstr "Micròfons"
+
+#: ../../chapters/hardware.rst:231
 msgid ""
 "Microphones convert changes in sound pressure in air to changes in voltage "
 "(an analog audio signal). Mixxx can work with any microphone that can be "
 "plugged into your :ref:`audio interface <hardware-audio-interfaces>`."
 msgstr ""
+"El micròfon converteix els canvis de so a la pressió de l'àire en impulsos "
+"elèctrics o voltatge (un senyal analògic d'àudio). El Mixxx pot treballar "
+"amb qualsevol mena de micròfon que pugueu connectar a la :ref:`interfície "
+"d'àudio <hardware-audio-interfaces>`."
 
-#: ../../chapters/hardware.rst:234
+#: ../../chapters/hardware.rst:235
 msgid ":ref:`microphones`"
-msgstr ""
+msgstr ":ref:`micròfons`"

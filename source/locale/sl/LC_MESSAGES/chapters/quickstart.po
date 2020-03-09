@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2019-04-12 07:14+0000\n"
+"PO-Revision-Date: 2020-02-21 10:54+0000\n"
 "Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -64,11 +64,11 @@ msgstr "Vaje za rabo mikserja"
 
 #: ../../chapters/quickstart.rst:30
 msgid "The Beatmatching Basics"
-msgstr "Osnove izenačevanja beata"
+msgstr "Osnove izenačevanja ritma"
 
 #: ../../chapters/quickstart.rst:32
 msgid "Lesson about how to beatmatch."
-msgstr "Vaje za izenačevanje beata"
+msgstr "Vaje za izenačevanje ritma"
 
 #: ../../chapters/quickstart.rst:36
 msgid "Getting Funky with Effects"

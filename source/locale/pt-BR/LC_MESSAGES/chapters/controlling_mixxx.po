@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -70,10 +70,10 @@ msgstr "**Roda do Mouse**: Como em um Arrasto com o Mousae, você pode mudar o v
 
 #: ../../chapters/controlling_mixxx.rst:34
 msgid ""
-"If you hover with the mouse over a control (e.g the crossfader) in the Mixxx"
-" user interface, the tooltip lists the left- and right-click action "
+"If you hover with the mouse over a control (e.g. the crossfader) in the "
+"Mixxx user interface, the tooltip lists the left- and right-click action "
 "respectively."
-msgstr "Se você ficar com o mouse em cima de um controle (por exemplo o crossfader) na interface do usuário do Mixxx, uma tooltip vai listar as ações dos botões esquerdo e direito respectivamente."
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:38
 msgid ""

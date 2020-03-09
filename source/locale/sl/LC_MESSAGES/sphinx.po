@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
 "Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -28,4 +28,16 @@ msgstr ""
 
 #: ../../_templates/download.html:10
 msgid "PDF"
+msgstr ""
+
+#: ../../_templates/languages.html:2
+msgid "Languages"
+msgstr ""
+
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
+msgstr ""
+
+#: ../../_templates/versioning.html:25
+msgid "Versions"
 msgstr ""
