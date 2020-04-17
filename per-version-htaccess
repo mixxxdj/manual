@@ -28,8 +28,7 @@ RewriteRule ^([^,;]+).*$ %{ENV:BASE}$1 [L,R=301]
 # Rewrite any HTML/JS/CSS/PDF legacy links from http://mixxx.org/manual/2.1/* to
 # http://mixxx.org/manual/2.1/en/*
 RewriteCond $1 \.(html|js|css|pdf|gif|png|jpg|svg)$
-# Ignore any URL with a slash in it (assuming it is already a language-specific URL).
-RewriteCond $1 !^[^/]+/
+RewriteCond $1 !^en/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
