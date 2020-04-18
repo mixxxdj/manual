@@ -305,19 +305,16 @@ Option                  Description
                         for user settings files such as the library
                         database and preferences configuration file.
 ----------------------  -------------------------------------------------
---controllerDebug       Causes Mixxx to display/log all controller data
-                        it sends and receives, and script functions it
-                        loads.
+--controllerDebug       Display/log all controller data Mixxx sends and
+                        receives as well as script functions it loads.
 ----------------------  -------------------------------------------------
---developer             Enables developer-mode. Includes extra log info,
-                        stats on performance, a Developer tools menu,
-                        extra developer skins, and provides useful
-                        information for skin writers in widget tooltips
-                        and logs .
+--developer             Enable developer-mode. Includes extra logs, stats
+                        on performance, a Developer tools menu and extra
+                        developer skins. Also provides useful information
+                        for skin writers in widget tooltips and logs.
 ----------------------  -------------------------------------------------
---safeMode              Disables risky things at start up. This should
-                        help troubleshoot crashes at startup or if Mixxx
-                        won't boot.
+--safeMode              Disable risky things at start up. This should
+                        help troubleshoot startup crashes.
 
                         * Automatically loads empty waveforms
                         * Disables spinning vinyl widgets
@@ -327,9 +324,9 @@ Option                  Description
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g ``fr``)
 ----------------------  -------------------------------------------------
--f, --fullScreen        Starts Mixxx in full-screen mode
+-f, --fullScreen        Start Mixxx in full-screen mode-
 ----------------------  -------------------------------------------------
---logLevel LEVEL        Sets the verbosity of command line logging
+--logLevel LEVEL        Set the verbosity of command line logging.
 
                         * ``critical`` - Critical/Fatal only
                         * ``warning``  - Above + Warnings
@@ -337,18 +334,16 @@ Option                  Description
                         * ``debug``    - Above + Debug/Developer messages
                         * ``trace``    - Above + Profiling messages
 ----------------------  -------------------------------------------------
---logFlushLevel LEVEL   Sets the logging level at which the log buffer
+--logFlushLevel LEVEL   Set the logging level at which the log buffer
                         is flushed to ``mixxx.log``.
                         LEVEL is one of the values defined at ``--logLevel``
                         above.
 ----------------------  -------------------------------------------------
---debugAssertBreak      Breaks (SIGINT) Mixxx, if a DEBUG_ASSERT evaluates
-                        to false. Under a debugger you can continue
-                        afterwards. This  will also avoid to switch the
-                        MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to
-                        a time consuming full rebuild. Now the
-                        MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if
-                        ``--debugAssertBreak`` is not passed.
+--debugAssertBreak      Breaks (SIGINT) Mixxx if a DEBUG_ASSERT evaluates
+                        to false. A debugger can then be used to continue.
+                        This disables the MIXXX_DEBUG_ASSERTIONS_FATAL
+                        flag which can otherwise lead to a time consuming
+                        full rebuild.
 ----------------------  -------------------------------------------------
 -h, --help              Display this help message and exit
 ======================  =================================================
