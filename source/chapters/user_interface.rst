@@ -302,7 +302,7 @@ Using Cue Modes
 Mixxx supports various Cue modes that adapt to fit other devices in your
 setup or your personal preferences. The actual behavior of the Play, Pause, and
 Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
-:menuselection:`Preferences --> Interface --> Cue mode`.
+:menuselection:`Preferences --> Decks --> Cue mode`.
 
 **Mixxx mode (default)**
 
