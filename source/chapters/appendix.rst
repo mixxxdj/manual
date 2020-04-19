@@ -309,9 +309,9 @@ Option                  Description
                         receives as well as script functions it loads.
 ----------------------  -------------------------------------------------
 --developer             Enable developer-mode. Includes extra logs, stats
-                        on performance, a Developer tools menu and extra
-                        developer skins. Also provides useful information
-                        for skin writers in widget tooltips and logs.
+                        on performance and the Developer tools menu as
+                        well as tooltips and logs useful for skin
+                        developers.
 ----------------------  -------------------------------------------------
 --safeMode              Disable risky things at start up. This should
                         help troubleshoot startup crashes.
@@ -324,7 +324,7 @@ Option                  Description
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g ``fr``)
 ----------------------  -------------------------------------------------
--f, --fullScreen        Start Mixxx in full-screen mode-
+-f, --fullScreen        Start Mixxx in full-screen mode.
 ----------------------  -------------------------------------------------
 --logLevel LEVEL        Set the verbosity of command line logging.
 
