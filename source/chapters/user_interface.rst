@@ -85,8 +85,7 @@ Track Information Display
   which indicates how much time is left before the track reaches the end.
   Clicking the display again, both the elapsed and remaining time are shown
   simultaneously in the format *elapsed time / remaining time*.
-  You can change the default in :menuselection:`Preferences --> Interface -->
-  Track Time Display`.
+  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
 
 .. _interface-waveform:
 
