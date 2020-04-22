@@ -12,35 +12,18 @@ RewriteEngine On
   Header set Vary "Accept-Language"
 </IfModule>
 
-# Record the base URI in ENV::BASE.
-# https://stackoverflow.com/questions/21062290/set-rewritebase-to-the-current-folder-path-dynamically
-RewriteCond %{REQUEST_URI}::$1 ^(.*?/)(.*)::\2$
-RewriteRule ^(.*)$ - [E=BASE:%1]
+# Use english as default language
+# Note: Even though we want to do this unconditionally, we can't use SetEnv
+# here, because that runs *after* most early request processing directives are
+# run. Using SetEnvIf is the recommended workaround.
+# See https://httpd.apache.org/docs/2.4/mod/mod_env.html#setenv for details.
+SetEnvIf _ ".*" MANUAL_LANGUAGE=en
 
-# First, append Accept-Language to the URL.
-RewriteRule ^$ %{REQUEST_URI}%{HTTP:Accept-Language} [L,R=301]
+# If the first language in the HTTP Accept-Language is in the list of supported languages, use it
+SetEnvIf Accept-Language "^(ca|cs|de|de-DE|en-GB|es|es-ES|es-MX|fi|fr|gl|id|it|ja-JP|kn|nl|pl|pt|pt-BR|ro|ru|ru-RU|sl|sq|sr|tr|zh-CN|zh-TW).*" MANUAL_LANGUAGE=$1
 
-# Then, hackily extract the first preferrered language by stripping everything
-# from a comma or semicolon onward.
-RewriteCond %{REQUEST_URI} [,;]
-RewriteRule ^([^,;]+).*$ %{ENV:BASE}$1 [L,R=301]
-
-# Rewrite any HTML/JS/CSS/PDF legacy links from http://mixxx.org/manual/2.1/* to
-# http://mixxx.org/manual/2.1/en/*
-RewriteCond $1 \.(html|js|css|pdf|gif|png|jpg|svg)$
-# Ignore any URL with a slash in it (assuming it is already a language-specific URL).
-RewriteCond $1 !^[^/]+/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.*)$ %{ENV:BASE}en/$1 [L,R=301]
-
-# If the requested path is not a directory and has a dash then try stripping
-# everything after the dash (e.g. fr-CA -> fr).
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} [-]
-RewriteRule ^([^-/]+)[^/]+$ %{ENV:BASE}$1 [L,R=301]
-
-# If the requested path is not a directory then redirect to en (e.g. xy -> en).
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^[^/]+$ %{ENV:BASE}en/ [L,R=301]
+# Redirect to requested page in the language determined above, but only if no
+# language is already present in the request URL
+RewriteRule ^([^/]+)/?$ /$1/%{ENV:MANUAL_LANGUAGE}/ [R=301,L]
+RewriteRule ^([^/]+)/(chapters(?:/.*)?)$ /$1/%{ENV:MANUAL_LANGUAGE}/$2 [R=301,L]
+RewriteRule ^([^/]+)/(Mixxx-Manual\.pdf)$ /$1/%{ENV:MANUAL_LANGUAGE}/$2 [R=301,L]
