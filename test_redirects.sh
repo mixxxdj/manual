@@ -10,7 +10,7 @@ fi
 # Read the base URL from the environment or the command line arguments, or fall back to the default mixxx
 [ -n "$1" ] && BASE_URL="$1"
 [ -z "$BASE_URL" ] && BASE_URL="${DEFAULT_BASE_URL}"
-printf 'Running tests using base URL: %s' "$BASE_URL"
+printf 'Running tests using base URL: %s\n' "$BASE_URL"
 
 FAILED=0
 
