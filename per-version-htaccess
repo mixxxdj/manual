@@ -20,7 +20,7 @@ RewriteEngine On
 SetEnvIf _ ".*" MANUAL_LANGUAGE=en
 
 # If the first language in the HTTP Accept-Language is in the list of supported languages, use it
-SetEnvIf Accept-Language "^(ca|cs|de|de-DE|en-GB|es|es-ES|es-MX|fi|fr|gl|id|it|ja-JP|kn|nl|pl|pt|pt-BR|ro|ru|ru-RU|sl|sq|sr|tr|zh-CN|zh-TW).*" MANUAL_LANGUAGE=$1
+SetEnvIf Accept-Language "\b(ca|cs|de-DE|de|en-GB|es-ES|es-MX|es|fi|fr|gl|id|it|ja-JP|kn|nl|pl|pt-BR|pt|ro|ru-RU|ru|sl|sq|sr|tr|zh-CN|zh-TW)\b.*" MANUAL_LANGUAGE=$1
 
 # Redirect to requested page in the language determined above, but only if no
 # language is already present in the request URL

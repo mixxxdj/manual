@@ -64,6 +64,16 @@ test_redirect "chapters" "de/chapters" -H 'Accept-Language: de'
 test_redirect "chapters/user_interface.html" "de/chapters/user_interface.html" -H 'Accept-Language: de'
 test_redirect "Mixxx-Manual.pdf" "de/Mixxx-Manual.pdf" -H 'Accept-Language: de'
 
+test_redirect "" "de-DE/" -H 'Accept-Language: de-DE, de'
+test_redirect "chapters" "de-DE/chapters" -H 'Accept-Language: de-DE, de'
+test_redirect "chapters/user_interface.html" "de-DE/chapters/user_interface.html" -H 'Accept-Language: de-DE, de'
+test_redirect "Mixxx-Manual.pdf" "de-DE/Mixxx-Manual.pdf" -H 'Accept-Language: de-DE, de'
+
+test_redirect "" "de/" -H 'Accept-Language: xxx, de;q=0.9, en;q=0.8'
+test_redirect "chapters" "de/chapters" -H 'Accept-Language: xxx, de;q=0.9, en;q=0.8'
+test_redirect "chapters/user_interface.html" "de/chapters/user_interface.html" -H 'Accept-Language: xxx, de;q=0.9, en;q=0.8'
+test_redirect "Mixxx-Manual.pdf" "de/Mixxx-Manual.pdf" -H 'Accept-Language: xxx, de;q=0.9, en;q=0.8'
+
 test_redirect "es/" "es/"
 test_redirect "es/" "es/" -H 'Accept-Language: de'
 test_redirect "es/chapters" "es/chapters"
