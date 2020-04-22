@@ -37,7 +37,7 @@ test_redirect() {
 
 
     # shellcheck disable=SC2086
-    RESPONSE="$(curl -s -D- "$@" "${BASE_URL}/$ORIGINAL_URL")"
+    RESPONSE="$(curl -s -I "$@" "${BASE_URL}/$ORIGINAL_URL")"
     ACTUAL_URL=$(printf "%s" "${RESPONSE}" | grep -Po "Location: \K.*" | tr -d '\r')
 
     # No redirect found, actual URL is the original URL
