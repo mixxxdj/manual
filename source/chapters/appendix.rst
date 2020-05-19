@@ -293,28 +293,29 @@ Option                  Description
                         next virtual deck. For a list of supported file
                         types, go to :ref:`configuration-import`
 ----------------------  -------------------------------------------------
---resourcePath PATH     Top-level directory where Mixxx should look
-                        for its resource files such as MIDI mappings,
+--resourcePath PATH     Top-level directory where Mixxx will look for
+                        its resource files such as MIDI mappings,
                         overriding the default installation location.
 ----------------------  -------------------------------------------------
---pluginPath PATH       Top-level directory where Mixxx should look
-                        for sound source plugins in addition to default
+--pluginPath PATH       Top-level directory where Mixxx will look for
+                        sound source plugins in addition to default
                         locations.
 ----------------------  -------------------------------------------------
---settingsPath PATH     Top-level directory where Mixxx should look
-                        for user settings files such as the library
-                        database and preferences configuration file.
+--settingsPath PATH     Top-level directory where Mixxx will look for
+                        user settings files such as the library database
+                        and preferences configuration file.
 ----------------------  -------------------------------------------------
---controllerDebug       Display/log all controller data Mixxx sends and
-                        receives as well as script functions it loads.
+--controllerDebug       Log all controller data Mixxx sends and receives
+                        as well as scripts it loads.
 ----------------------  -------------------------------------------------
---developer             Enable developer-mode. Includes extra logs, stats
+--developer             Enable developer mode. Includes extra logs, stats
                         on performance and the Developer tools menu as
                         well as tooltips and logs useful for skin
                         developers.
 ----------------------  -------------------------------------------------
---safeMode              Disable risky things at start up. This should
-                        help troubleshoot startup crashes.
+--safeMode              Disable OpenGL widgets (scrolling waveforms,
+                        spinnies) to work around GPU driver bugs.
+                        If Mixxx is crashing on startup, try using this.
 
                         * Automatically loads empty waveforms
                         * Disables spinning vinyl widgets
