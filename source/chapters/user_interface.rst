@@ -337,7 +337,7 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
   * Holding down the Cue button plays the track from the Cue point as long as
     the button is pressed. After releasing the Cue button, the track jumps back
-    to Cue point and pauses again. Continue playback by pressing the Play/Pause
+    to the Cue point and pauses again. Continue playback by pressing the Play/Pause
     button before releasing the Cue button.
 
 * **While paused not at Cue point (Play button flashing)**:
