@@ -386,6 +386,13 @@ Mixxx supports the following filters:
     ::
 
        genre:hip-hop -year:1990
+       
+  * Search for empty fields. The following example lists all tracks without a
+    genre. It works for all text fields, including crates.
+
+    ::
+ 
+       genre:""
 
 
 +--------------------------------------+---------------------------------------+---------------------------------------+
