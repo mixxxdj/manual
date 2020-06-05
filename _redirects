@@ -1,0 +1,31 @@
+/           /latest/               302
+/latest/*   /2.2/:splat            301
+/:version/* /:version/ca/:splat    301 Language=ca
+/:version/* /:version/cs/:splat    301 Language=cs
+/:version/* /:version/de-DE/:splat 301 Language=de-DE
+/:version/* /:version/de/:splat    301 Language=de
+/:version/* /:version/en-GB/:splat 301 Language=en-GB
+/:version/* /:version/es-ES/:splat 301 Language=es-ES
+/:version/* /:version/es-MX/:splat 301 Language=es-MX
+/:version/* /:version/es/:splat    301 Language=es
+/:version/* /:version/fi/:splat    301 Language=fi
+/:version/* /:version/fr/:splat    301 Language=fr
+/:version/* /:version/gl/:splat    301 Language=gl
+/:version/* /:version/id/:splat    301 Language=id
+/:version/* /:version/it/:splat    301 Language=it
+/:version/* /:version/ja-JP/:splat 301 Language=ja-JP
+/:version/* /:version/kn/:splat    301 Language=kn
+/:version/* /:version/nl/:splat    301 Language=nl
+/:version/* /:version/pl/:splat    301 Language=pl
+/:version/* /:version/pt-BR/:splat 301 Language=pt-BR
+/:version/* /:version/pt/:splat    301 Language=pt
+/:version/* /:version/ro/:splat    301 Language=ro
+/:version/* /:version/ru-RU/:splat 301 Language=ru-RU
+/:version/* /:version/ru/:splat    301 Language=ru
+/:version/* /:version/sl/:splat    301 Language=sl
+/:version/* /:version/sq/:splat    301 Language=sq
+/:version/* /:version/sr/:splat    301 Language=sr
+/:version/* /:version/tr/:splat    301 Language=tr
+/:version/* /:version/zh-CN/:splat 301 Language=zh-CN
+/:version/* /:version/zh-TW/:splat 301 Language=zh-TW
+/:version/* /:version/en/:splat    301
