@@ -179,8 +179,8 @@ extracting an archive or compressed folder. Copy the :file:`.xml` file into your
 User Preset folder. If there is a :file:`.js` file, also copy that to your
 User Preset folder. Restart Mixxx and :ref:`load the preset <control-load-preset>`.
 
-Map your own your controller
-----------------------------
+Map your own controller
+-----------------------
 
 There is no mapping available for your controller or you want to change an
 existing mapping? You can map your controller by using the Controller Wizard or
