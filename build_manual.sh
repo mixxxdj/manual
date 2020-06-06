@@ -22,8 +22,8 @@ do
     else
         printf '/:version/* /:version/%s/:splat    301 Language=%s\n' "$lang" "$lang" >> build/html/_redirects
     fi
-    make versionedhtml SPHINXOPTS="-q -j $(nproc) -Dlanguage=$lang"
-    make versionedlatexpdf SPHINXOPTS="-q -j $(nproc) -Dlanguage=$lang"
+    make versionedhtml SPHINXOPTS="-Q -j $(nproc) -Dlanguage=$lang"
+    make versionedlatexpdf SPHINXOPTS="-Q -j $(nproc) -Dlanguage=$lang" >/dev/null
     i=$((i + 1))
 done
 
