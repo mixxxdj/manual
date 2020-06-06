@@ -23,5 +23,12 @@ do
         printf '/:version/* /:version/%s/:splat    301 Language=%s\n' "$lang" "$lang" >> build/html/_redirects
     fi
     make versionedhtml SPHINXOPTS="-q -j $(nproc) -Dlanguage=$lang"
+    make versionedlatexpdf SPHINXOPTS="-q -j $(nproc) -Dlanguage=$lang"
     i=$((i + 1))
+done
+
+cd build/latex || exit 1
+for file in */*/Mixxx-Manual.pdf
+do
+    cp "$file" "../html/$file"
 done
