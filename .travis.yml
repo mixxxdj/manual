@@ -1,0 +1,27 @@
+language: python
+python:
+- 3.7
+os: linux
+dist: xenial
+cache:
+  pip: true
+
+install:
+- npm install -g netlify-cli
+- export PATH="$(npm prefix -g)/bin:$PATH"
+- pip install -r requirements.txt
+
+script:
+- mkdir html
+- git remote rename origin fork
+- git remote add origin https://github.com/mixxxdj/manual.git
+- git fetch origin
+- git branch -r
+- sh build_manual.sh
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: netlify deploy --prod --dir build/html
+  on:
+    branch: netlify

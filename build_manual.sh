@@ -1,12 +1,4 @@
 #!/bin/sh
-# Add remote to build other branches, too
-if git remote -v | grep -q origin
-then
-    git remote remove origin
-fi
-git remote add origin --fetch https://github.com/mixxxdj/manual.git
-git fetch origin
-
 # Parse languages and ensure that "en" is built last
 cd source || exit 1
 LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys() if lang != "en"), reverse=True)))')"
