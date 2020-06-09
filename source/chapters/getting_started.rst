@@ -7,7 +7,7 @@ Getting Started
 
 Installing Mixxx
 ================
-Once you've `downloaded Mixxx <https://mixxx.org/download/>`_, you need
+After `downloading Mixxx from our Website <https://mixxx.org/download/>`_, you need
 to install it on your computer.
 
  **Windows**
@@ -200,4 +200,3 @@ using a controller with a built in audio interface, use these inputs.
   manipulating decks 1-4
 
 .. seealso:: :ref:`microphones`
-
