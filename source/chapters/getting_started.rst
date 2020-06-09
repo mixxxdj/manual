@@ -5,9 +5,54 @@
 Getting Started
 ***************
 
+Installing Mixxx
+================
+Once you've `downloaded Mixxx <https://mixxx.org/download/>`_, you need
+to install it on your computer.
+
+ **Windows**
+   Double-click the Mixxx installation file and go through the installation wizard.
+
+ **macOS**
+   Double-click the Mixxx .dmg file and drag the Mixxx icon to your Applications
+   folder.
+
+ **GNU/Linux**
+   No steps are necessary after you follow the instructions on the download
+   page.
+
+Upgrading Mixxx
+===============
+
+.. sectionauthor::
+   Owen Williams <owilliams@mixxx.org>
+
+You may safely install Mixxx on top of any previous version. You don't need to
+uninstall the old version.
+
+Your settings and library will not be removed or reset, but they may be upgraded
+when you launch the new version of Mixxx. Note that we do not guarantee that new
+configurations will work on older versions of Mixxx, therefore you may want to
+make a backup of your existing settings just in case.
+
+ **Windows**
+   Mixxx settings are in :file:`%LOCALAPPDATA%\\Mixxx`, which is usually
+   something like :file:`c:\\Users\\<username>\\AppData\\Local\\Mixxx`. If you have
+   trouble finding this folder, see `these instructions
+   <https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/>`_.
+
+  **macOS**
+    Mixxx settings are in :file:`/Users/<username>/Library/Application\\ Support/Mixxx`
+
+  **GNU/Linux**
+    Mixxx settings are in :file:`/home/<username>/.mixxx`
+
+Copy this folder to a backup drive or somewhere else on your system to make a
+backup of your settings.
+
 Opening Mixxx
 =============
-|logo| Once you've `installed Mixxx <https://mixxx.org/download/>`_, start by
+|logo| Once you've installed Mixxx, start by
 opening Mixxx and importing your music to the Mixxx library.
 
 **Windows**
@@ -15,7 +60,7 @@ opening Mixxx and importing your music to the Mixxx library.
   start menu and click the Mixxx icon, or perform a search for
   :file:`Mixxx.exe`.
 
-**Mac OSX**
+**macOS**
   Double-click the Mixxx icon in the :file:`Applications` folder. Alternatively,
   drag the Mixxx icon to the dock and double-click it there or search for
   :command:`mixxx` in Spotlight.
