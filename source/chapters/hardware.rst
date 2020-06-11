@@ -109,7 +109,8 @@ and make your computer work harder.
 
 For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all
 that is needed for playback, read `24/192 Music Downloads Are Very Silly Indeed
-<https://people.xiph.org/~xiphmont/demo/neil-young.html>`_.
+<https://web.archive.org/web/20120306150922/https://people.xiph.org/~xiphmont/
+demo/neil-young.html>`_.
 
 Specifications
 ^^^^^^^^^^^^^^
