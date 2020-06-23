@@ -298,27 +298,27 @@ cue point on track load` to always seek to the beginning of the track.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-Mixxx supports various Cue modes that adapt to fit other devices in your
-setup or your personal preferences. The actual behavior of the Play, Pause, and
-Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
+Mixxx supports various Cue modes that adapt to fit other devices in your setup
+or your personal preferences. The actual behavior of the Play, Pause, and Cue
+buttons depends on the selected Cue mode. To change the Cue mode, go to
 :menuselection:`Preferences --> Decks --> Cue mode`.
 
 **Mixxx mode (default)**
 
 * **While paused at Cue point (Cue button lit):**
 
-  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
+  * Hold down the Cue button to play the track from the :term:`Cue point <cue>`,
     as long as the button is pressed. After releasing the Cue button, the track
-    jumps back to the Cue point and pauses again. Continue playback by pressing 
-    the Play/Pause button before releasing the Cue button.
+    jumps back to the Cue point and pauses again.
+  * Press Play/Pause before releasing the Cue button to continue playback normally.
 
 * **While paused not at Cue point (Cue button flashing)**:
 
-  * Tapping the Cue button stores the current position as new Cue point.
+  * Tap the Cue button to store the current position as new :term:`Cue point <cue>`.
 
 * **While playing:**
 
-  * Tap the Cue button to jump to the Cue point, pausing playback.
+  * Tap the Cue button to jump to the :term:`Cue point <cue>` and pause playback.
 
 **Mixxx mode (no blinking)**
 
@@ -327,26 +327,28 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 **Pioneer mode**
 
 * Same as Mixxx mode, but the buttons are more flashy matching a Pioneer CDJ player.
+
   * The Play/Pause button flashes once per second when a track is paused.
-  * The Cue button flashes twice a second when the next push will move the Cue point.
+  * The Cue button flashes twice a second when the next push will move the :term:`Cue point <cue>`.
 
 **Denon mode**
 
-* **While paused at Cue point (Cue button lit)**:
+* **While paused at Cue point (Cue button lit) - same as Mixxx mode**:
 
-  * Holding down the Cue button plays the track from the Cue point as long as
-    the button is pressed. After releasing the Cue button, the track jumps back
-    to the Cue point and pauses again. Continue playback by pressing the Play/Pause
-    button before releasing the Cue button.
+  * Hold down the Cue button to play the track from the :term:`Cue point <cue>`,
+    as long as the button is pressed. After releasing the Cue button, the track
+    jumps back to the :term:`Cue point <cue>` and pauses again.
+  * Press Play/Pause before releasing the Cue button to continue playback normally.
 
 * **While paused not at Cue point (Play button flashing)**:
 
-  * Tapping the Cue button moves the track back to Cue point.
-  * Tap the Play/Pause button to start playing and move the Cue point to where the track was started.
+  * Tap the Cue button to move the track back to :term:`Cue point <cue>`.
+  * Tap the Play/Pause button to move the :term:`Cue point <cue>` to the current
+    position and start playback.
 
-* **While playing**:
+* **While playing - same as Mixxx mode**:
 
-  * Tap the Cue button to jump to the Cue point, pausing playback.
+  * Tap the Cue button to jump to the :term:`Cue point <cue>` and pause playback.
 
 **Numark mode**
 
@@ -356,10 +358,11 @@ Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
 
 **CUP (Cue + Play) mode**
 
-* Pressing the Cue button will always jump to the Cue point and pause, continuing 
-  playback only when either the Cue button is released or Play/Pause is pressed.
-* If the track is currently paused, the current position will be set as new Cue 
-  point first.
+* Press the Cue button to jump to the :term:`Cue point <cue>` and pause,
+  continuing playback only when either the Cue button is released or Play/Pause
+  is pressed.
+* If the Cue button is pressed while paused, the :term:`Cue point <cue>` is
+  first moved to the current position.
 
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
