@@ -6,6 +6,8 @@ dist: xenial
 cache:
   pip: true
 
+if: type != pull_request AND branch =~ /^(manual-)/
+
 install:
 - sudo apt-get update && sudo apt-get install -y texlive texlive-xetex texlive-latex-extra latexmk xindy
 - npm install -g netlify-cli
@@ -24,5 +26,3 @@ deploy:
   provider: script
   skip_cleanup: true
   script: netlify deploy --prod --dir build/html
-  on:
-    branch: netlify
