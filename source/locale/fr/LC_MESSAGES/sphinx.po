@@ -1,16 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Rafael French <rafael.venan@free.fr>, 2020
 # Stéphane Guillou <stephane.guillou@member.fsf.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:06+0000\n"
-"Last-Translator: Stéphane Guillou <stephane.guillou@member.fsf.org>\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 10:39+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,60 +19,26 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/_templates/layout.html:30
-msgid "Navigation"
-msgstr "Navigation"
+#: ../../_templates/download.html:2
+msgid "Download"
+msgstr "Téléchargement"
 
-#: ../../source/_templates/layout.html:130
-msgid "Search within %(docstitle)s"
-msgstr "Chercher dans %(docstitle)s"
+#: ../../_templates/download.html:7
+msgid "Offline versions of this manual"
+msgstr "Versions hors ligne de ce manuel"
 
-#: ../../source/_templates/layout.html:139
-msgid "About these documents"
-msgstr "À propos de ces documents"
+#: ../../_templates/download.html:10
+msgid "PDF"
+msgstr "PDF"
 
-#: ../../source/_templates/layout.html:142
-msgid "Index"
-msgstr "Index"
+#: ../../_templates/languages.html:2
+msgid "Languages"
+msgstr "Langages"
 
-#: ../../source/_templates/layout.html:145
-msgid "Search"
-msgstr "Recherche"
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
+msgstr "Lire cette page dans une autre langue"
 
-#: ../../source/_templates/layout.html:148
-msgid "Copyright"
-msgstr "Droit d'auteur"
-
-#: ../../source/_templates/layout.html:197
-msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-
-#: ../../source/_templates/layout.html:199
-msgid "&copy; Copyright %(copyright)s."
-msgstr "&copy; Copyright %(copyright)s."
-
-#: ../../source/_templates/layout.html:203
-msgid "Last updated on %(last_updated)s."
-msgstr "Dernière mise à jour le %(last_updated)s."
-
-#: ../../source/_templates/layout.html:206
-msgid ""
-"Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
-"%(sphinx_version)s."
-msgstr "Créé grâce à <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-
-#: ../../source/_templates/searchbox.html:12
-msgid "Quick search"
-msgstr "Recherche rapide"
-
-#: ../../source/_templates/searchbox.html:15
-msgid "Go"
-msgstr "Aller"
-
-#: ../../source/_templates/searchbox.html:20
-msgid "Looking for something?"
-msgstr "À la recherche de quelque-chose ?"
-
-#: ../../source/_templates/localtoc.html:11
-msgid "In This Section"
-msgstr "Dans cette section"
+#: ../../_templates/versioning.html:25
+msgid "Versions"
+msgstr "Versions"

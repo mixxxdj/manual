@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "macOS: `Skitch <https://evernote.com/products/skitch>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:80
-msgid "Linux: `Shutter <http://shutter-project.org/>`_"
+msgid "Linux: `Shutter <https://shutter-project.org/>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:81
@@ -125,7 +125,7 @@ msgid "This scheme makes it easy to know which version a screenshot was taken fr
 msgstr ""
 
 #: ../../manual_guidelines.rst:103
-msgid "Do not include any dot in the file names of your screenshots your file name or you wont be able to generate PDF with LaTeX."
+msgid "Do not include any dot in the file names of your screenshots your file name or you won't be able to generate PDF with LaTeX."
 msgstr ""
 
 #: ../../manual_guidelines.rst:107
@@ -197,7 +197,7 @@ msgid "|longtext| ."
 msgstr ""
 
 #: ../../manual_guidelines.rst:188
-msgid "The substitute section in the docs. `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_ and `also here <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions>`_"
+msgid "The substitute section in the docs. `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_ and `also here <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions>`_"
 msgstr ""
 
 #: ../../manual_guidelines.rst:193
@@ -283,4 +283,3 @@ msgstr ""
 #: ../../manual_guidelines.rst:268
 msgid "Identifies the author of the current section and helps to keep track of contributions. By default, this markup isn't reflected in the output in any way. Example markup: ::"
 msgstr ""
-

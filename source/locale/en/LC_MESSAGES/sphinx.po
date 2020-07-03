@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 17:11+0100\n"
-"PO-Revision-Date: 2017-09-20 09:04+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"PO-Revision-Date: 2020-03-08 04:47+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
 "Language-Team: English (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,60 +17,26 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/_templates/layout.html:30
-msgid "Navigation"
-msgstr "Navigation"
+#: ../../_templates/download.html:2
+msgid "Download"
+msgstr "Download"
 
-#: ../../source/_templates/layout.html:130
-msgid "Search within %(docstitle)s"
-msgstr "Search within %(docstitle)s"
+#: ../../_templates/download.html:7
+msgid "Offline versions of this manual"
+msgstr "Offline versions of this manual"
 
-#: ../../source/_templates/layout.html:139
-msgid "About these documents"
-msgstr "About these documents"
+#: ../../_templates/download.html:10
+msgid "PDF"
+msgstr "PDF"
 
-#: ../../source/_templates/layout.html:142
-msgid "Index"
-msgstr "Index"
+#: ../../_templates/languages.html:2
+msgid "Languages"
+msgstr "Languages"
 
-#: ../../source/_templates/layout.html:145
-msgid "Search"
-msgstr "Search"
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
+msgstr "Read this page in another language"
 
-#: ../../source/_templates/layout.html:148
-msgid "Copyright"
-msgstr "Copyright"
-
-#: ../../source/_templates/layout.html:197
-msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-
-#: ../../source/_templates/layout.html:199
-msgid "&copy; Copyright %(copyright)s."
-msgstr "&copy; Copyright %(copyright)s."
-
-#: ../../source/_templates/layout.html:203
-msgid "Last updated on %(last_updated)s."
-msgstr "Last updated on %(last_updated)s."
-
-#: ../../source/_templates/layout.html:206
-msgid ""
-"Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
-"%(sphinx_version)s."
-msgstr "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-
-#: ../../source/_templates/searchbox.html:12
-msgid "Quick search"
-msgstr "Quick search"
-
-#: ../../source/_templates/searchbox.html:15
-msgid "Go"
-msgstr "Go"
-
-#: ../../source/_templates/searchbox.html:20
-msgid "Looking for something?"
-msgstr "Looking for something?"
-
-#: ../../source/_templates/localtoc.html:11
-msgid "In This Section"
-msgstr "In This Section"
+#: ../../_templates/versioning.html:25
+msgid "Versions"
+msgstr "Versions"

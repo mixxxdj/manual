@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rui <xymarior@yandex.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>, 2020\n"
+"Language-Team: Portuguese (https://www.transifex.com/mixxx-dj-software/teams/7734/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../chapters/effects.rst:6
+msgid "Effects"
+msgstr "Efeitos"
+
+#: ../../chapters/effects.rst:8
+msgid ""
+"Mixxx has a powerful sound effects system. Understanding how it works can "
+"open you up to a wide variety of mixing techniques."
+msgstr ""
+
+#: ../../chapters/effects.rst:14
+msgid "Effect Units"
+msgstr ""
+
+#: ../../chapters/effects.rst:15
+msgid ""
+"Mixxx has 4 effect units. By default, only 2 of them are shown. The other 2 "
+"effect units can be shown by toggling the setting in the skin settings menu."
+msgstr ""
+
+#: ../../chapters/effects.rst:23
+msgid "An effect unit"
+msgstr ""
+
+#: ../../chapters/effects.rst:25
+msgid ""
+"Each effect unit can load up to 3 effects in a chain. These effects are "
+"processed one after the other in series. You will hear different sounds "
+"depending on the order of effects within the chain. Each effect in the chain"
+" has its own button to toggle it on and off."
+msgstr ""
+
+#: ../../chapters/effects.rst:36
+msgid "Effect units can process sound from:"
+msgstr ""
+
+#: ../../chapters/effects.rst:31
+msgid "decks"
+msgstr ""
+
+#: ../../chapters/effects.rst:32
+msgid "microphones"
+msgstr ""
+
+#: ../../chapters/effects.rst:33
+msgid "auxiliary inputs"
+msgstr ""
+
+#: ../../chapters/effects.rst:34
+msgid "the master mix"
+msgstr ""
+
+#: ../../chapters/effects.rst:35
+msgid "the :term:`PFL` (headphone) mix"
+msgstr ""
+
+#: ../../chapters/effects.rst:36
+msgid "left/middle/right crossfader buses"
+msgstr ""
+
+#: ../../chapters/effects.rst:38
+msgid ""
+"The buttons to route effect units to decks, microphones, and auxiliary "
+"inputs are located in the deck, microphone, and auxiliary sections of the "
+"skin. The buttons for routing other inputs to effect units are in different "
+"locations depending on the skin."
+msgstr ""
+
+#: ../../chapters/effects.rst:43
+msgid ""
+"If a channel is assigned to multiple effect units, those effect units are "
+"chained together. This allows you to chain more than 3 effects at a time."
+msgstr ""
+
+#: ../../chapters/effects.rst:46
+msgid ""
+"The mix knob adjusts the mix between the dry signal (input to the unit) and "
+"the wet signal (output of the last effect in the unit). It changes the level"
+" of all 3 effects in the unit together. Refer to the :ref:`effects-mix-mode`"
+" section below for details."
+msgstr ""
+
+#: ../../chapters/effects.rst:51
+msgid ""
+"Effects are processed after the deck faders and crossfader. This allows "
+"effects like Echo and Reverb to continue outputting sound after their input "
+"has been cut off by lowering the fader. Unlike other DJ software and "
+"hardware, effects can also be heard in headphones even though they are "
+"processed after the faders for the master output. Refer to the :ref"
+":`effects-in-headphones` section below for details."
+msgstr ""
+
+#: ../../chapters/effects.rst:58
+msgid ""
+"Note that equalizer and filter effects create a phase shift. If the mix knob"
+" is anywhere in the middle between dry and wet and any of these effects are "
+"enabled in the unit, there will be comb filtering which is probably not "
+"desired. For more background information, read `Equalizers and Phase Shift "
+"<http://ethanwiner.com/EQPhase.html>`_."
+msgstr ""
+
+#: ../../chapters/effects.rst:65
+msgid "Effect Parameters & Metaknobs"
+msgstr ""
+
+#: ../../chapters/effects.rst:66
+msgid ""
+"Every effect within an :ref:`Effect Unit <effects-effect-unit>` has its own "
+"set of parameters. By default, these are hidden. Instead, there is a single "
+"knob called a \"metaknob\" for each effect which is linked to the different "
+"parameters. The metaknob allows you to easily control the effects in a unit "
+"without having to manipulate every parameter individually."
+msgstr ""
+
+#: ../../chapters/effects.rst:72
+msgid ""
+"If you want more detailed control of effects, press the expansion button on "
+"the effect unit to reveal the effect parameters:"
+msgstr ""
+
+#: ../../chapters/effects.rst:80
+msgid "An effect unit with parameters showing"
+msgstr ""
+
+#: ../../chapters/effects.rst:82
+msgid ""
+"You can customize how the metaknob is linked to the parameters by clicking "
+"the buttons below the parameter knobs. The button under the parameter name "
+"controls the metaknob link mode:"
+msgstr ""
+
+#: ../../chapters/effects.rst:86
+msgid "Inactive: parameter not linked"
+msgstr ""
+
+#: ../../chapters/effects.rst:87
+msgid "Active: parameter moves with metaknob"
+msgstr ""
+
+#: ../../chapters/effects.rst:88
+msgid "Left side active: parameter moves with left half of metaknob turn"
+msgstr ""
+
+#: ../../chapters/effects.rst:89
+msgid "Right side active: parameter moves with right half of metaknob turn"
+msgstr ""
+
+#: ../../chapters/effects.rst:90
+msgid ""
+"Left and right side active: parameter moves across range with half of "
+"metaknob turn and back with the other half"
+msgstr ""
+
+#: ../../chapters/effects.rst:93
+msgid ""
+"The button below the metaknob link button inverts the parameter's "
+"relationship to the metaknob."
+msgstr ""
+
+#: ../../chapters/effects.rst:96
+msgid ""
+"For information about specific effects and their parameters, hover your "
+"mouse over them to show the tooltip. If you do not see tooltips, check that "
+"you have them enabled for the skin in :menuselection:`Preferences --> "
+"Interface`."
+msgstr ""
+
+#: ../../chapters/effects.rst:100
+msgid ""
+"Effects (except for Reverb) that have a length of time as a parameter are "
+"synchronized to the tempo of decks."
+msgstr ""
+
+#: ../../chapters/effects.rst:106
+msgid "Effect Unit Mix Modes"
+msgstr ""
+
+#: ../../chapters/effects.rst:107
+msgid ""
+"The effect unit mix knob controls the level of all 3 effects in the unit "
+"together. It can be toggled between two different modes with the mix mode "
+"button adjacent to it."
+msgstr ""
+
+#: ../../chapters/effects.rst:116
+msgid "An effect unit in Dry/Wet mode"
+msgstr ""
+
+#: ../../chapters/effects.rst:118
+msgid ""
+"In the default Dry/Wet mode, the mix knob crossfades between the dry signal "
+"(input to the first effect in the unit) and the wet signal (output of the "
+"last effect in the unit). When the knob is fully left, no sound will be "
+"heard from the effect unit. When the knob is fully right, only the output of"
+" the effect unit will be heard without any of the dry input signal."
+msgstr ""
+
+#: ../../chapters/effects.rst:129
+msgid "An effect unit in Dry+Wet mode"
+msgstr ""
+
+#: ../../chapters/effects.rst:131
+msgid ""
+"In Dry+Wet mode, the dry signal is always at full volume. The mix knob "
+"controls how much of the wet signal is added to the dry signal. A useful "
+"example for Dry+Wet mode is loading a filter or equalizer effect before the "
+"Echo effect. With this setup, the filter or equalizer can remove bass "
+"frequencies from the echoed signal without removing them from the unechoed "
+"signal. If the effect unit is switched to Dry/Wet mode with the same effects"
+" in the same order, the bass frequencies will be taken out of the echoed "
+"signal, but they will also be removed from the unechoed signal."
+msgstr ""
+
+#: ../../chapters/effects.rst:143
+msgid "Effects In Headphones"
+msgstr ""
+
+#: ../../chapters/effects.rst:144
+msgid ""
+"To preview how a track will sound with effects before you mix in the track, "
+"simply assign the deck to an effect unit and enable the headphone button for"
+" the deck. Note that this will increase CPU compared to assigning an effect "
+"unit to a deck without the headphone button enabled. This is because effects"
+" are processed in parallel for the headphone output (prefader) and master "
+"output (postfader)."
+msgstr ""
+
+#: ../../chapters/effects.rst:151
+msgid ""
+"Effects can also be previewed in headphones on decks that are playing to the"
+" audience, but this requires a few more steps:"
+msgstr ""
+
+#: ../../chapters/effects.rst:154
+msgid "Disable the effect unit for the deck"
+msgstr ""
+
+#: ../../chapters/effects.rst:155
+msgid "Enable the headphone button for the deck"
+msgstr ""
+
+#: ../../chapters/effects.rst:156
+msgid "Enable the headphone button for the effect unit"
+msgstr ""
+
+#: ../../chapters/effects.rst:157
+msgid ""
+"Enable effects and adjust their metaknobs and parameters for how you want "
+"the effects to sound."
+msgstr ""
+
+#: ../../chapters/effects.rst:159
+msgid ""
+"When you are ready to mix in the effect, turn the mix knob fully left (dry)"
+msgstr ""
+
+#: ../../chapters/effects.rst:160
+msgid "Enable the effect unit for the deck"
+msgstr ""
+
+#: ../../chapters/effects.rst:161
+msgid "Turn the mix knob right so the effects are heard in the master output"
+msgstr ""
+
+#: ../../chapters/effects.rst:162
+msgid ""
+"Disable the headphone button for the effect unit so you do not forget to "
+"turn it off later"
+msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,133 +44,133 @@ msgstr ""
 msgid "The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific audio interfaces with information about their prices, features, and suitability for use with microphones."
 msgstr ""
 
-#: ../../chapters/microphones.rst:35
+#: ../../chapters/microphones.rst:34
 msgid "Software Monitoring"
 msgstr ""
 
-#: ../../chapters/microphones.rst:36
+#: ../../chapters/microphones.rst:35
 msgid "Software monitoring can be used with the built-in microphone on a laptop or with a headset plugged into the built-in audio interface on a computer. However, there is a delay between the time you make sound into the microphone and hear it in the Master output. Due to the nature of digital audio, it takes time for input from the audio interface to be available for Mixxx to process, time for Mixxx to process the audio, and more time to send the audio back out the audio interface. This time is referred to as \"latency\"."
 msgstr ""
 
-#: ../../chapters/microphones.rst:54
+#: ../../chapters/microphones.rst:53
 msgid "Mixxx can be configured to run at low latencies by choosing a smaller :ref:`preferences-audio-buffer`, but there is no way to completely eliminate latency. Although latency is measured in milliseconds, even a few milliseconds of latency can be disorienting and distracting to hear, whether you are using the microphone for spoken announcements, vocals, or playing a musical instrument."
 msgstr ""
 
-#: ../../chapters/microphones.rst:61
+#: ../../chapters/microphones.rst:60
 msgid "To use software monitoring:"
 msgstr ""
 
-#: ../../chapters/microphones.rst:63
-#: ../../chapters/microphones.rst:128
+#: ../../chapters/microphones.rst:62
+#: ../../chapters/microphones.rst:127
 #: ../../chapters/microphones.rst:220
 #: ../../chapters/microphones.rst:356
 msgid "Open :menuselection:`Preferences --> Sound Hardware`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:64
+#: ../../chapters/microphones.rst:63
 msgid "Select the :guilabel:`Input` tab."
 msgstr ""
 
-#: ../../chapters/microphones.rst:65
+#: ../../chapters/microphones.rst:64
 msgid "For :guilabel:`Microphone 1`, select the audio interface that your microphone is plugged into."
 msgstr ""
 
-#: ../../chapters/microphones.rst:67
-#: ../../chapters/microphones.rst:132
+#: ../../chapters/microphones.rst:66
+#: ../../chapters/microphones.rst:131
 #: ../../chapters/microphones.rst:229
 #: ../../chapters/microphones.rst:367
 msgid "Click the :guilabel:`Apply` button."
 msgstr ""
 
-#: ../../chapters/microphones.rst:68
-#: ../../chapters/microphones.rst:133
+#: ../../chapters/microphones.rst:67
+#: ../../chapters/microphones.rst:132
 #: ../../chapters/microphones.rst:230
 #: ../../chapters/microphones.rst:368
 msgid "Click the :guilabel:`OK` button."
 msgstr ""
 
-#: ../../chapters/microphones.rst:69
+#: ../../chapters/microphones.rst:68
 #: ../../chapters/microphones.rst:233
 msgid "Click the :guilabel:`Mics` button in the main Mixxx window to show the microphone controls."
 msgstr ""
 
-#: ../../chapters/microphones.rst:71
+#: ../../chapters/microphones.rst:70
 #: ../../chapters/microphones.rst:235
 msgid "Click the :guilabel:`Talk` button when you are using the microphone."
 msgstr ""
 
-#: ../../chapters/microphones.rst:73
+#: ../../chapters/microphones.rst:72
 msgid "If you would prefer to not hear the microphone input, you can set the :guilabel:`Microphone Monitor Mode` option to :guilabel:`Direct monitor (recording and broadcasting only)`. This will still mix the microphone input with your recorded and broadcasted mixes, but it will not mix the microphone with the Master output. Don't forget to press the :guilabel:`Talk` button when using the microphone if you use this option."
 msgstr ""
 
-#: ../../chapters/microphones.rst:84
+#: ../../chapters/microphones.rst:83
 msgid "Direct Monitoring"
 msgstr ""
 
-#: ../../chapters/microphones.rst:85
+#: ../../chapters/microphones.rst:84
 msgid "An audio interface with direct monitoring and a :ref:`microphones-loopback-input` is the recommended way to use microphones with Mixxx for most users. Except for audio interfaces built into computers, most audio interfaces with microphone inputs support direct monitoring. However, not all audio interfaces that support direct monitoring also have a loopback input."
 msgstr ""
 
-#: ../../chapters/microphones.rst:91
+#: ../../chapters/microphones.rst:90
 msgid "Direct monitoring routes the audio from the audio interface's inputs directly its outputs. This avoids the latency of sending it into the computer and back out with :ref:`microphones-software-monitoring`. At the same time, the audio interface sends the input into the computer so Mixxx can record and broadcast it."
 msgstr ""
 
-#: ../../chapters/microphones.rst:110
+#: ../../chapters/microphones.rst:109
 msgid "Loopback Input"
 msgstr ""
 
-#: ../../chapters/microphones.rst:111
+#: ../../chapters/microphones.rst:110
 msgid "Some audio interfaces that support :ref:`microphones-direct-monitoring` have a loopback input feature. They add Mixxx's output to the microphone signal before sending it to the computer. This makes it easier to set up Mixxx with direct monitoring than configuring :ref:`microphones-latency-compensation`."
 msgstr ""
 
-#: ../../chapters/microphones.rst:126
+#: ../../chapters/microphones.rst:125
 msgid "To configure Mixxx with a loopback input:"
 msgstr ""
 
-#: ../../chapters/microphones.rst:129
+#: ../../chapters/microphones.rst:128
 #: ../../chapters/microphones.rst:221
 #: ../../chapters/microphones.rst:360
 msgid "Click the :guilabel:`Input` tab."
 msgstr ""
 
-#: ../../chapters/microphones.rst:130
+#: ../../chapters/microphones.rst:129
 msgid "Select the audio interface for the :guilabel:`Record/Broadcast` input. Do not configure anything for the :guilabel:`Microphone 1-4` inputs."
 msgstr ""
 
-#: ../../chapters/microphones.rst:134
+#: ../../chapters/microphones.rst:133
 msgid ":ref:`Activate direct monitoring and loopback on your audio interface. <microphones-activate-direct-monitoring>`"
 msgstr ""
 
-#: ../../chapters/microphones.rst:136
+#: ../../chapters/microphones.rst:135
 msgid "Adjust the microphone volume with the input gain knob on your audio interface."
 msgstr ""
 
-#: ../../chapters/microphones.rst:139
+#: ../../chapters/microphones.rst:138
 msgid "The microphone controls in Mixxx will not affect your microphones because they are mixed by the audio interface and not sent directly to Mixxx."
 msgstr ""
 
-#: ../../chapters/microphones.rst:145
+#: ../../chapters/microphones.rst:144
 msgid "Latency Compensation"
 msgstr ""
 
-#: ../../chapters/microphones.rst:146
+#: ../../chapters/microphones.rst:145
 msgid "When using :ref:`microphones-direct-monitoring`, you will hear the microphone mixed with the music from Mixxx without any noticable latency. However, it still takes time for Mixxx to receive the microphone signal and process it. Without compensating for this latency or using a :ref:`microphones-loopback-input`, the microphone inputs will be out of time relative to the music in your recorded and broadcasted mixes."
 msgstr ""
 
-#: ../../chapters/microphones.rst:163
+#: ../../chapters/microphones.rst:162
 msgid "Mixxx can compensate for this timing misalignment, but it is complicated to set up. If you do not want to record your microphone into your mix or broadcast, you can :ref:`activate direct monitoring on your audio interface <microphones-activate-direct-monitoring>` without configuring latency compensation."
 msgstr ""
 
-#: ../../chapters/microphones.rst:172
+#: ../../chapters/microphones.rst:171
 msgid "Measuring Round Trip Latency"
 msgstr ""
 
-#: ../../chapters/microphones.rst:173
+#: ../../chapters/microphones.rst:172
 msgid "To configure Mixxx to compensate for input latency while using direct monitoring, first you must measure the round trip latency of your setup. The round trip latency is different from the size of the :ref:`preferences-audio-buffer` configured in Mixxx. It is the amount of time it takes for audio to make a complete trip from your audio interface's input, through your computer, and back out the audio interface."
 msgstr ""
 
-#: ../../chapters/microphones.rst:180
-msgid "Mixxx cannot calculate the round trip latency because it depends on details of your audio interface's hardware, your operating system, your audio interface's driver, and other factors in your computer's hardware. The round trip latency can only be found by measuring it. To do this, use a physical cable to connect the audio interface's output to its input. Then, use a third party program to measure the round trip latency. These programs are recommended on each OS:"
+#: ../../chapters/microphones.rst:179
+msgid "Mixxx cannot calculate the round trip latency because it depends on details of your audio interface's hardware, your operating system, your audio interface's driver, and other factors in your computer's hardware. The round trip latency can only be found by measuring it. To do this, use a physical cable to connect the audio interface's output to its input. Then, use a third party program to measure the round trip latency. These programs are recommended on each :term:`OS <operating system>`:"
 msgstr ""
 
 #: ../../chapters/microphones.rst:187
@@ -178,7 +178,7 @@ msgid "**GNU/Linux**: `jack_iodelay <https://www.linuxmusicians.com/viewtopic.ph
 msgstr ""
 
 #: ../../chapters/microphones.rst:189
-msgid "**Windows**: `RTL Utility  <http://www.oblique-audio.com/free/rtlutility>`_"
+msgid "**Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_"
 msgstr ""
 
 #: ../../chapters/microphones.rst:190
@@ -214,7 +214,7 @@ msgid "For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Dir
 msgstr ""
 
 #: ../../chapters/microphones.rst:227
-msgid "Enter the measured round trip latency in millseceonds for the :guilabel:`Microphone Latency Compensation` option."
+msgid "Enter the measured round trip latency in milliseconds for the :guilabel:`Microphone Latency Compensation` option."
 msgstr ""
 
 #: ../../chapters/microphones.rst:231
@@ -262,7 +262,7 @@ msgid "Hardware Mixers"
 msgstr ""
 
 #: ../../chapters/microphones.rst:285
-msgid "Mixxx can be used with a microphone plugged into an external hardware mixer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, it is generally recommeded to use an audio interface that supports :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input` instead of an external mixer. If you are using :ref:`vinyl-control` and a microphone, you may need an external mixer."
+msgid "Mixxx can be used with a microphone plugged into an external hardware mixer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, it is generally recommended to use an audio interface that supports :ref:`microphones-direct-monitoring` and a :ref:`microphones-loopback-input` instead of an external mixer. If you are using :ref:`vinyl-control` and a microphone, you may need an external mixer."
 msgstr ""
 
 #: ../../chapters/microphones.rst:293
@@ -328,4 +328,3 @@ msgstr ""
 #: ../../chapters/microphones.rst:412
 msgid "DJ controllers typically do not supply phantom power required for condenser microphones. Stand-alone audio interfaces typically do supply phantom power."
 msgstr ""
-

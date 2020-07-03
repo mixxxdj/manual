@@ -85,8 +85,7 @@ Track Information Display
   which indicates how much time is left before the track reaches the end.
   Clicking the display again, both the elapsed and remaining time are shown
   simultaneously in the format *elapsed time / remaining time*.
-  You can change the default in :menuselection:`Preferences --> Interface -->
-  Track Time Display`.
+  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
 
 .. _interface-waveform:
 
@@ -299,87 +298,71 @@ cue point on track load` to always seek to the beginning of the track.
 Using Cue Modes
 ^^^^^^^^^^^^^^^
 
-Mixxx supports various Cue modes that adapt to fit other devices in your
-setup, or your personal preferences. The actual behavior of the Play, Pause, and
-Cue buttons depends on the selected Cue mode. To change the Cue mode, go to
-:menuselection:`Preferences --> Interface --> Cue mode`.
+Mixxx supports various Cue modes that adapt to fit other devices in your setup
+or your personal preferences. The actual behavior of the Play, Pause, and Cue
+buttons depends on the selected Cue mode. To change the Cue mode, go to
+:menuselection:`Preferences --> Decks --> Cue mode`.
 
 **Mixxx mode (default)**
 
 * **While paused at Cue point (Cue button lit):**
 
-  * Holding down the Cue button plays the track from the :term:`Cue point <cue>`,
+  * Hold down the Cue button to play the track from the :term:`Cue point <cue>`,
     as long as the button is pressed. After releasing the Cue button, the track
-    jumps back to Cue point and pauses again. Continue playback by pressing the
-    Play/Pause button before releasing the Cue button.
+    jumps back to the Cue point and pauses again.
+  * Press Play/Pause before releasing the Cue button to continue playback normally.
 
 * **While paused not at Cue point (Cue button flashing)**:
 
-  * Tapping the Cue button stores the current position as new Cue point.
+  * Tap the Cue button to store the current position as new :term:`Cue point <cue>`.
 
 * **While playing:**
 
-  * Tapping the Cue button causes the track to instantly jump to the location of
-    the Cue point where it pauses the playback.
-  * Tapping the Play/Pause button pauses the track at the current position.
+  * Tap the Cue button to jump to the :term:`Cue point <cue>` and pause playback.
 
 **Mixxx mode (no blinking)**
 
-  Is the same as the default Mixxx mode, but with no blinking indicators.
+* Same as the default Mixxx mode, but without blinking indicators.
 
 **Pioneer mode**
 
-* It is basically the same as Mixxx mode but the buttons are more flashy like a
-  Pioneer CDJ player.
-* The Play/Pause button flashes once per second when a track is paused.
-* The Cue button flashes twice a second when the next push will move the Cue point.
+* Same as Mixxx mode, but the buttons are more flashy matching a Pioneer CDJ player.
+
+  * The Play/Pause button flashes once per second when a track is paused.
+  * The Cue button flashes twice a second when the next push will move the :term:`Cue point <cue>`.
 
 **Denon mode**
 
-* **While paused at Cue point (Cue button lit)**:
+* **While paused at Cue point (Cue button lit) - same as Mixxx mode**:
 
-  * Holding down the Cue button plays the track from the Cue point, as long as
-    the button is pressed. After releasing the Cue button, the track jumps back
-    to Cue point and pauses again. Continue playback by pressing the Play/Pause
-    button before releasing the Cue button.
-  * Tapping the Play/Pause button starts the track at the current position.
+  * Hold down the Cue button to play the track from the :term:`Cue point <cue>`,
+    as long as the button is pressed. After releasing the Cue button, the track
+    jumps back to the :term:`Cue point <cue>` and pauses again.
+  * Press Play/Pause before releasing the Cue button to continue playback normally.
 
 * **While paused not at Cue point (Play button flashing)**:
 
-  * Tapping the Cue button moves the track back to Cue point.
-  * Tab the Play/Pause button to start playing. The Cue point moves to the
-    position where the track was started.
+  * Tap the Cue button to move the track back to :term:`Cue point <cue>`.
+  * Tap the Play/Pause button to move the :term:`Cue point <cue>` to the current
+    position and start playback.
 
-* **While playing**:
+* **While playing - same as Mixxx mode**:
 
-  * Tapping the Cue button causes the track to instantly jump to the location of
-    the cue point where it pauses the playback.
-  * Tapping the Play/Pause button pauses the track at the current position.
+  * Tap the Cue button to jump to the :term:`Cue point <cue>` and pause playback.
 
 **Numark mode**
 
-* It is basically the same as Denon mode but without a flashing Play/Pause
-  button.
+* Same as Denon mode, but without a flashing Play/Pause button.
 * This mode is useful if you want to implement a custom skin with 3-button decks,
   featuring a Cue button, a dedicated Pause button, and a Play/Stutter button.
 
 **CUP (Cue + Play) mode**
 
-* **While paused at Cue point (Cue button lit):**
-
-  * Continue playback by releasing the Cue button.
-
-* **While paused not at Cue point (Cue button flashing)**:
-
-  * Tapping the Cue button stores the current position as new Cue point.
-    Continue playback by releasing the Cue button.
-
-* **While playing:**
-
-  * Tapping the Cue button causes the track to instantly jump to the location of
-    the Cue point where it pauses the playback. Continue playback by releasing
-    the Cue button.
-  * Tapping the Play/Pause button pauses the track at the current position.
+* Press the Cue button to jump to the :term:`Cue point <cue>` and pause,
+  continuing playback only when either the Cue button is released or Play/Pause
+  is pressed.
+* If the Cue button is pressed while paused, the :term:`Cue point <cue>` is
+  first moved to the current position.
 
 .. hint:: Use the :ref:`interface-hotcues` to place more reference points on a
           track.
@@ -462,7 +445,7 @@ control relative mode:
 * **Off**: Cue points are ignored.
 * **One Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
-* **Hot Cue**: The track will seek to nearest previous :term:`hotcue` point.
+* **Hot Cue**: The track will seek to the nearest previous :term:`hotcue` point.
 
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
@@ -585,11 +568,11 @@ loop points of a track.
 
 **Loop Buttons**
 
-* **Loop-In**: This button allow you to manually set the start point of a loop.
+* **Loop-In**: This button allows you to manually set the start point of a loop.
   A loop-in marker is placed on the waveform indicating the position.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
-* **Loop-Out**: This button allow you to manually set the end point of a loop.
+* **Loop-Out**: This button allows you to manually set the end point of a loop.
   A loop-out marker is placed on the waveform indicating the position. If
   clicked when a loop was already set, it moves the end point of a loop to a new
   position.

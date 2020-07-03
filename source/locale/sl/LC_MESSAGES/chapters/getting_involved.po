@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Arnold Marko <arnold.marko@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../chapters/getting_involved.rst:6
+msgid "Contributing to the Project"
+msgstr "Prispevanje k projektu"
+
+#: ../../chapters/getting_involved.rst:8
+msgid ""
+"Mixxx is a community-driven project involving many DJs worldwide. Without "
+"the contributions from these DJs, Mixxx would not exist, and we're "
+"constantly looking for more contributors."
+msgstr "Mixxx projekt poganja skupnost, ki vsebuje številne DJe iz celega sveta. Brez njihovih prispevkov Mixxx ne bi obstajal, zato vedno iščemo še več tisih, ki bi prispevali skupnosti."
+
+#: ../../chapters/getting_involved.rst:12
+msgid ""
+"We want to make it as easy as possible for people to get involved in Mixxx "
+"development.  First off, to be clear **you don't have to be a programmer to "
+"contribute**."
+msgstr "Ljudem bi radi čim bolj olajšali pristop k razvoju programa Mixxx. Naj bo zato najprej jasno, da **za sodelovanje ni potrebno biti programer**."
+
+#: ../../chapters/getting_involved.rst:17
+msgid "As a non-developer"
+msgstr "Kot ne-razvojnik"
+
+#: ../../chapters/getting_involved.rst:19
+msgid ""
+"`Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help "
+"support and enhance development."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:21
+msgid "`Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:22
+msgid ""
+"`Make MIDI mappings "
+"<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for "
+"your controller"
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:25
+msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
+msgstr "`Prijavite napake <https://bugs.launchpad.net/mixxx>`_"
+
+#: ../../chapters/getting_involved.rst:26
+msgid ""
+"Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the "
+"information on it is up to date."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:28
+msgid ""
+"Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
+"software/public/>`_"
+msgstr "Prevedite Mixxx preko Transifexa `Transifex <https://www.transifex.com/mixxx-dj-software/public/>`_"
+
+#: ../../chapters/getting_involved.rst:30
+msgid ""
+"Answer questions on the `Troubleshooting Forum "
+"<https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
+"page <https://answers.launchpad.net/mixxx>`_"
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:33
+msgid ""
+"Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
+" about our new releases when they come out. Any exposure on the web and in "
+"print helps our project grow, and is much appreciated."
+msgstr "Pomagajte promovirati Mixxx. Če imate blog, napišite članek o Mixxx. Blogajte o naših novih izdajah, ko se pojavijo. Vsaka omemba našega projekta na spletu ali v tisku, pomaga k naši rasti in je zelo dobrodošla."
+
+#: ../../chapters/getting_involved.rst:36
+msgid "Send us some photos of you using Mixxx at a gig!"
+msgstr "Pošljite nam fotografije vaših nastopov, ko uporabljate Mixxx."
+
+#: ../../chapters/getting_involved.rst:39
+msgid "As a software developer"
+msgstr "Kot razvijalec programa"
+
+#: ../../chapters/getting_involved.rst:41
+msgid ""
+"You don't have to know C++. There are developers who got into Mixxx "
+"development while learning C++ along the way."
+msgstr "poznavanje C++ ni dovolj. Imamo razvijalce, ki so se učili C++ sproti, medtem ko so že bili v razvoju."
+
+#: ../../chapters/getting_involved.rst:43
+msgid ""
+"Join our mailing list: `mixxx-devel "
+"<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:45
+msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:46
+msgid ""
+"Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist "
+":term:`bugs <bug report>`, or post on the forums."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:48
+msgid ""
+"Register an account on our development platform `Github "
+"<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
+"Development <https://mixxx.org/wiki/doku.php/using_git>`_"
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:51
+msgid ""
+"Join the `Mixxx Development Team "
+"<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
+msgstr "Pridružite se  `Mixxx razvojni skupini <https://launchpad.net/~mixxxcontributors/+join>`_ na Launchpad."
+
+#: ../../chapters/getting_involved.rst:54
+msgid ""
+"Get familiar with the code. Pick a bug off of the `Easy Bug List "
+"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr "Seznanite se s kodo. Izberite hrošč s seznama enostavnih `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+
+#: ../../chapters/getting_involved.rst:56
+msgid ""
+"Get help fixing the bug on :term:`Zulip`, talk to us about the best way to "
+"do it."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:59
+msgid "**Contributing to Mixxx in 3 Easy Steps:**"
+msgstr "**Prispevanje za Mixxx v 3 enostavnih korakih:**"
+
+#: ../../chapters/getting_involved.rst:61
+msgid ""
+"Pick a bug off of the `Easy Bug List "
+"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr "Izberite hrošč s seznama `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+
+#: ../../chapters/getting_involved.rst:63
+msgid "Talk to us on :term:`Zulip` for help on how to fix it."
+msgstr ""
+
+#: ../../chapters/getting_involved.rst:64
+msgid ""
+"Fix it! *Done!* Your name will now be on the `Mixxx contributor list "
+"<https://mixxx.org/contact/>`_."
+msgstr ""

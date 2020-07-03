@@ -77,7 +77,7 @@ elements, use color ``#FF1F90`` if possible for consistency.
 Nice screenshot tools with build-in editor for annotations:
 
 * macOS: `Skitch <https://evernote.com/products/skitch>`_
-* Linux: `Shutter <http://shutter-project.org/>`_
+* Linux: `Shutter <https://shutter-project.org/>`_
 * Windows: `ShareX <https://getsharex.com//>`_
 
 Alternatively, import your screenshots into
@@ -187,7 +187,7 @@ Using this text alias, you can insert it easily with ``|longtext|`` , like this:
 
 .. seealso:: The substitute section in the docs.
              `Here <http://www.thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#more-about-aliases>`_
-             and `also here <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions>`_
+             and `also here <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions>`_
 
 Headings
 --------

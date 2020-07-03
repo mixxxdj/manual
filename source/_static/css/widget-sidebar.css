@@ -97,7 +97,8 @@
     display:inline-block;
     margin:0
 }
-.rst-widget-sidebar .rst-widget-body dd a{
+.rst-widget-sidebar .rst-widget-body dd a,
+.rst-widget-sidebar .rst-widget-body dd strong {
     display:inline-block;
     padding:6px;
     color:#fcfcfc
@@ -138,10 +139,7 @@
     }
 }
 
-.rst-widget-sidebar .rst-widget-body,
-.rst-widget-sidebar .rst-widget-header:target {
-    display:none;
-}
-.rst-widget-sidebar .rst-widget-header:target .rst-widget-body {
-    display:block;
+/* Fix overlap of sidebar widgets and navbar*/
+.wy-nav-side {
+    padding-bottom: 8rem;
 }
