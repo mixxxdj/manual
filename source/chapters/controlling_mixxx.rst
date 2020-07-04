@@ -47,7 +47,7 @@ can perform actions by pointing and clicking with your mouse.
 Using a Keyboard
 ================
 
-.. figure:: ../_static/Mixxx-220-Keyboard-Mapping.png
+.. figure:: ../_templates/keyboard_mapping_sheet.svg
    :align: center
    :width: 100%
    :figwidth: 100%
