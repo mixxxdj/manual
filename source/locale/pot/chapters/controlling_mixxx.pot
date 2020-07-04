@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader valu
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:34
-msgid "If you hover with the mouse over a control (e.g the crossfader) in the Mixxx user interface, the tooltip lists the left- and right-click action respectively."
+msgid "If you hover with the mouse over a control (e.g. the crossfader) in the Mixxx user interface, the tooltip lists the left- and right-click action respectively."
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:38
@@ -69,7 +69,7 @@ msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:59
-msgid ":download:`Download the image <../_static/Mixxx-111-Keyboard-Mapping.png>`"
+msgid ":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:61
@@ -243,4 +243,3 @@ msgstr ""
 #: ../../chapters/controlling_mixxx.rst:202
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr ""
-

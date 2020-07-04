@@ -31,7 +31,7 @@ can perform actions by pointing and clicking with your mouse.
 * **Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values
   by placing the cursor over the control and moving the mouse wheel.
 
-.. hint::  If you hover with the mouse over a control (e.g the crossfader) in
+.. hint::  If you hover with the mouse over a control (e.g. the crossfader) in
            the Mixxx user interface, the tooltip lists the left- and right-click
            action respectively.
 
@@ -47,7 +47,7 @@ can perform actions by pointing and clicking with your mouse.
 Using a Keyboard
 ================
 
-.. figure:: ../_static/Mixxx-220-Keyboard-Mapping.png
+.. figure:: ../_templates/keyboard_mapping_sheet.svg
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -179,8 +179,8 @@ extracting an archive or compressed folder. Copy the :file:`.xml` file into your
 User Preset folder. If there is a :file:`.js` file, also copy that to your
 User Preset folder. Restart Mixxx and :ref:`load the preset <control-load-preset>`.
 
-Map your own your controller
-----------------------------
+Map your own controller
+-----------------------
 
 There is no mapping available for your controller or you want to change an
 existing mapping? You can map your controller by using the Controller Wizard or

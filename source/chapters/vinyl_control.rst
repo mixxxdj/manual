@@ -387,7 +387,7 @@ To complete your setup you must configure Mixxx properly. Make sure you have:
   :menuselection:`Preferences --> Vinyl Control --> Vinyl type` in the
   preferences. See the list of `Supported Timecode media`_
 * enabled vinyl control via the menu under
-  :menuselection:`Options -> Vinyl Control --> Enable Vinyl Control`.
+  :menuselection:`Options --> Vinyl Control --> Enable Vinyl Control`.
 
 **Signal Quality**
 
@@ -407,7 +407,7 @@ Signal          Meaning                               Troubleshooting
                 input signal.
 --------------  ------------------------------------  ------------------------------------
 |ok|            Nearly perfect green doughnut about   Everything is OK, nothing to do. Go
-                about half the width of the graph.    spin some beats.
+                half the width of the graph.          spin some beats.
                 Rotating radar sweeps in the
                 direction your record on the
                 turntable is spinning.

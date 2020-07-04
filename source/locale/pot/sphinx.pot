@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,59 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../_templates/layout.html:30
-msgid "Navigation"
+#: ../../_templates/download.html:2
+msgid "Download"
 msgstr ""
 
-#: ../../_templates/layout.html:131
-msgid "Search within %(docstitle)s"
+#: ../../_templates/download.html:7
+msgid "Offline versions of this manual"
 msgstr ""
 
-#: ../../_templates/layout.html:140
-msgid "About these documents"
+#: ../../_templates/download.html:10
+msgid "PDF"
 msgstr ""
 
-#: ../../_templates/layout.html:143
-msgid "Index"
+#: ../../_templates/languages.html:2
+msgid "Languages"
 msgstr ""
 
-#: ../../_templates/layout.html:146
-msgid "Search"
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
 msgstr ""
 
-#: ../../_templates/layout.html:149
-msgid "Copyright"
+#: ../../_templates/versioning.html:25
+msgid "Versions"
 msgstr ""
-
-#: ../../_templates/layout.html:198
-msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr ""
-
-#: ../../_templates/layout.html:200
-msgid "&copy; Copyright %(copyright)s."
-msgstr ""
-
-#: ../../_templates/layout.html:204
-msgid "Last updated on %(last_updated)s."
-msgstr ""
-
-#: ../../_templates/layout.html:207
-msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-msgstr ""
-
-#: ../../_templates/localtoc.html:11
-msgid "In This Section"
-msgstr ""
-
-#: ../../_templates/searchbox.html:12
-msgid "Quick search"
-msgstr ""
-
-#: ../../_templates/searchbox.html:15
-msgid "Go"
-msgstr ""
-
-#: ../../_templates/searchbox.html:20
-msgid "Looking for something?"
-msgstr ""
-

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "To achieve the best performance with Mixxx it is essential to configure y
 msgstr ""
 
 #: ../../chapters/preferences.rst:28
-msgid "For information about the different input and output options, refer to :ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains different types of DJ hardware and how to set them up with the the input and output options. If you are using a microphone, refer to the :ref:`microphones` chapter."
+msgid "For information about the different input and output options, refer to :ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains different types of DJ hardware and how to set them up with the input and output options. If you are using a microphone, refer to the :ref:`microphones` chapter."
 msgstr ""
 
 #: ../../chapters/preferences.rst:36
@@ -49,7 +49,7 @@ msgid "The audio buffer is the amount of audio in milliseconds that Mixxx proces
 msgstr ""
 
 #: ../../chapters/preferences.rst:46
-msgid "The audio buffer setting determines how quickly your :term:`Operating System` expects Mixxx to react. A smaller audio buffer means Mixxx will be more responsive, but requires a faster CPU and quality audio interface. Setting your audio buffer too small may be too much for your computer and audio interface to handle. In this situation, Mixxx playback will be choppy and very clearly distorted as your system will not be able to keep up with how frequently Mixxx is trying to processing audio. It is recommended to set your audio buffer as small as your system can handle reliably without glitches. Experiment with different audio buffer sizes to find what works for your system."
+msgid "The audio buffer setting determines how quickly your :term:`Operating System` expects Mixxx to react. A smaller audio buffer means Mixxx will be more responsive, but requires a faster CPU and quality audio interface. Setting your audio buffer too small may be too much for your computer and audio interface to handle. In this situation, Mixxx playback will be choppy and very clearly distorted as your system will not be able to keep up with how frequently Mixxx is trying to process audio. It is recommended to set your audio buffer as small as your system can handle reliably without glitches. Experiment with different audio buffer sizes to find what works for your system."
 msgstr ""
 
 #: ../../chapters/preferences.rst:56
@@ -546,4 +546,3 @@ msgstr ""
 #: ../../chapters/preferences.rst:450
 msgid "CPU usage: Processing time needed to calculate the EQ output."
 msgstr ""
-

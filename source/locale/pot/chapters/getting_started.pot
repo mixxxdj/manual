@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2018, The Mixxx Development Team
+# Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 18:35+0200\n"
+"POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "Before you can start using Mixxx, you need to configure Mixxx to use your
 msgstr ""
 
 #: ../../chapters/getting_started.rst:100
-msgid "The :ref:`hardware` chapter explains different types of DJ hardware and how to set them up with the the input and output options. For Mixxx to perform the best it can on your system, configure the other :ref:`preferences-sound-hardware` preferences in addition to the inputs and outputs."
+msgid "The :ref:`hardware` chapter explains different types of DJ hardware and how to set them up with the input and output options. For Mixxx to perform the best it can on your system, configure the other :ref:`preferences-sound-hardware` preferences in addition to the inputs and outputs."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:112
@@ -151,7 +151,7 @@ msgid "Input Options"
 msgstr ""
 
 #: ../../chapters/getting_started.rst:139
-msgid "Use these inputs if you are not using an external hardware mixer. If you are using a controller with a built in audio interface, use these inputs."
+msgid "Use these inputs if you are not using an external hardware mixer. If you are using a controller with a built-in audio interface, use these inputs."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:142
@@ -177,4 +177,3 @@ msgstr ""
 #: ../../chapters/getting_started.rst:157
 msgid ":ref:`microphones`"
 msgstr ""
-
