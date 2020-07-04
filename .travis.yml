@@ -9,23 +9,39 @@ cache:
 if: type != pull_request AND branch =~ /^(manual-)/
 
 install:
-- sudo apt-get update && sudo apt-get install -y texlive texlive-xetex texlive-latex-extra latexmk xindy
-- npm install -g netlify-cli
-- export PATH="$(npm prefix -g)/bin:$PATH"
 - pip install -r requirements.txt
 
-script:
-- mkdir html
-- git remote rename origin fork
-- git remote add origin https://github.com/mixxxdj/manual.git
-- git fetch origin
+before_script:
+- git clone https://github.com/mixxxdj/manual.git manual
+- cd manual
 - git branch -r
 - export LATEST_BRANCH="$(git branch -r | grep -Po 'origin/manual-\d+\.\d+\.x' | sort | tail -n 1)"
 - echo "Building from branch ${LATEST_BRANCH}"
 - git checkout "${LATEST_BRANCH}"
-- sh build_manual.sh
 
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: netlify deploy --prod --dir build/html
+jobs:
+  include:
+    - name: HTML
+      script:
+      - sh ../build_html.sh
+      before_deploy:
+      - npm install -g netlify-cli
+      - export PATH="$(npm prefix -g)/bin:$PATH"
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: netlify deploy --prod --dir build/html
+        on:
+          all_branches: true
+
+    - name: PDF
+      script:
+      - sh ../build_pdf.sh
+      addons:
+        apt:
+          packages:
+            - texlive
+            - texlive-xetex
+            - texlive-latex-extra
+            - latexmk
+            - xindy
