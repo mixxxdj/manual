@@ -1,9 +1,7 @@
-#!/bin/sh
-# Parse languages and ensure that "en" is built last
+# Parse languages
 cd source || exit 1
-LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys() if lang != "en"), reverse=True)))')"
+LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys()), reverse=True)))')"
 cd .. || exit 1
-LANGUAGES="$LANGUAGES en"
 NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
 
 i=1
