@@ -1,5 +1,7 @@
 #!/bin/sh
 # Parse languages and ensure that "en" is built last
+# This is necessary because we generate the redirect rules in the same loop
+# and want to use "en" as a fallback.
 cd source || exit 1
 LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys() if lang != "en"), reverse=True)))')"
 cd .. || exit 1
