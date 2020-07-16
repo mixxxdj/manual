@@ -1,5 +1,7 @@
 #!/bin/sh
 # Parse languages and ensure that "en" is built last
+# This is necessary because we generate the redirect rules in the same loop
+# and want to use "en" as a fallback.
 cd source || exit 1
 LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys() if lang != "en"), reverse=True)))')"
 cd .. || exit 1
@@ -22,13 +24,6 @@ do
     else
         printf '/:version/* /:version/%s/:splat    301 Language=%s\n' "$lang" "$lang" >> build/html/_redirects
     fi
-    make versionedhtml SPHINXOPTS="-Q -j $(nproc) -Dlanguage=$lang"
-    make versionedlatexpdf SPHINXOPTS="-Q -j $(nproc) -Dlanguage=$lang" >/dev/null
+    make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"
     i=$((i + 1))
-done
-
-cd build/latex || exit 1
-for file in */*/Mixxx-Manual.pdf
-do
-    cp "$file" "../html/$file"
 done
