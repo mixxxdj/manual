@@ -161,7 +161,7 @@ separate waveforms. Select your preferred appearance in
   The Vinyl Widget is hidden by default and can be enabled in the
   :ref:`interface-button-grid`.
 
-  If :term:`Vinyl control` is enabled, it can optionally display the time-coded
+  If :term:`vinyl control` is enabled, it can optionally display the time-coded
   vinyl signal quality. Activate the option in :menuselection:`Preferences -->
   Vinyl Control --> Show Signal Quality in Skin`.
 
