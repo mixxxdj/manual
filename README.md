@@ -44,13 +44,8 @@ point to dead URLs.
 ## Guidelines for Mixxx Manual writers
 
 The Mixxx manual is based on sound learning principles, and is supposed to be
-user-friendly & motivational. Please refer to the guidelines for style
-conventions:
-
-  * Run `make html` to build an HTML version of the manual, then open
-    `build/html/manual_guidelines.html` in your browser (recommended).
-  * Alternatively, open https://github.com/mixxxdj/manual/blob/manual/source/manual_guidelines.rst
-    for a quick overview. Github may not render all code correct.
+user-friendly & motivational. Please refer to the [guidelines](manual_guidelines.rst) for style
+conventions.
 
 ## Editing the manual using git (recommended)
 
