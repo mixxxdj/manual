@@ -105,7 +105,7 @@ turned up.
 Beatmatching and Mixing
 =======================
 
-:term:`Beatmatching` is the process of adjusting the playback rate of a track so
+:term:`Beatmatching<beatmatching>` is the process of adjusting the playback rate of a track so
 that it matches the tempo of another track. Beatmatching also involves adjusting
 the :term:`phase` of the beats in a track so that they are aligned with the
 beats in the other track. Matching the :term:`tempo` and aligning the beats are
@@ -136,7 +136,7 @@ appropriate direction.
 Master Sync
 ===========
 
-:term:`Master Sync` is an intelligent assistant that allows you to leave the
+:term:`Master Sync<master sync>` is an intelligent assistant that allows you to leave the
 beatmatching to Mixxx so you can focus on track selection, effects manipulation,
 looping, 4 deck mixing, and other advanced DJing techniques.
 
@@ -187,7 +187,7 @@ Recording Your Mix
    S.Brandt <s.brandt@mixxx.org>
 
 With the integrated recording feature you can record your mix as an audio file
-and listen to it later, distribute it as a :term:`Podcast` or burn it to CD.
+and listen to it later, distribute it as a :term:`Podcast<podcast>` or burn it to CD.
 
 By default, Mixxx records the Master output. Alternatively, Mixxx can record
 the output of an external mixer if you have an audio interface configured for
@@ -207,7 +207,7 @@ details.
 Mixxx can record your mix in various audio formats and quality settings. You can
 split your recordings, generate :term:`cue files <cue sheet>`, choose a custom
 recording directory and even set your own :term:`metadata`. By default, Mixxx
-saves your recordings as lossless :term:`wav` files to a
+saves your recordings as lossless :term:`WAV` files to a
 :file:`Mixxx/Recordings` sub-folder in the Mixxx music directory. Before you
 start recording, we recommend that you adjust the settings in
 :menuselection:`Preferences --> Recording`.
