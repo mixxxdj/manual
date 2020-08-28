@@ -193,7 +193,7 @@ take full control with the MIDI Scripting support in Mixxx.
 Using Timecode Vinyl Records and CDs
 ====================================
 
-:term:`Vinyl control` allows a user to manipulate the playback of a track in
+:term:`Vinyl control<vinyl control>` allows a user to manipulate the playback of a track in
 Mixxx using a turntable or :term:`CDJ` as an interface. In effect, it simulates
 the sound and feel of having your digital music collection on vinyl. Many DJs
 prefer the tactile feel of vinyl, and vinyl control allows that feel to be
