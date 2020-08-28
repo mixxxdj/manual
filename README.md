@@ -114,14 +114,14 @@ translations when making changes to the manual.
 For every change to the manual source files (.rst) the source translation files
 (.pot) must be re-generated. These are stored in `source/locale/pot` and contain
 the text of every English phrase in the manual in a common format used for
-translation.
+translation and can be regenerated with:
+
+    make gettext
 
 Additionally, for every new source file added (i.e. new chapters or manual
-pages) the Transifex configuration file (stored in `.tx/config`) needs updating.
+pages) the Transifex configuration file (stored in `.tx/config`) needs updating:
 
-To do both of these, run:
-
-    fab i18n_update_source_translations
+    sphinx-intl update-txconfig-resources --pot-dir source/locale/pot --transifex-project-name mixxxdj-manual --locale-dir source/locale
 
 Commit the new source translations and Transifex configuration with:
 
@@ -135,13 +135,13 @@ configuration, you must push the new source files to Transifex to be translated.
 
 To do this, run:
 
-    fab tx_push
+    tx push -s
 
 #### Pull completed translations from Transifex
 
 To pull newly completed translation (.po) files from Transifex, run:
 
-    fab tx_pull
+    tx pull -a -f
 
 Commit the changes to the repository with:
 
@@ -153,7 +153,7 @@ Commit the changes to the repository with:
 To compile the translations (.po) from Transifex into compiled translation (.mo)
 files, run:
 
-    fab i18n_build
+    sphinx-intl build
 
 We do not check .mo files into the repository, so make sure you do not add
 them (they are ignored by our `.gitignore`).
@@ -162,18 +162,20 @@ them (they are ignored by our `.gitignore`).
 
 **Note:** it's good practice to clean your build directory first:
 
-    fab clean
+    make clean
 
 For example, to build an HTML manual for `de-DE` (Germany/Germany):
 
-    fab i18n_build html:language=de-DE
+    sphinx-intl build
+    make -e SPHINXOPTS="-Dlanguage=de-DE" html
 
 Unless an error occurred, your translated HTML manual is in the `build/html`
 directory.
 
 To build a PDF manual:
 
-    fab i18n_build pdf:language=de-DE
+    sphinx-intl build
+    make -e SPHINXOPTS="-Dlanguage=de-DE" pdf
 
 Your translated PDF manual is located at `build/latex/Mixxx-Manual.pdf`.
 
@@ -186,11 +188,8 @@ For more information on Translating with Sphinx, see [Sphinx i18n].
 * Temporarily disable the *For documentation writers* toctree from TOC in `/index.rst`
 * Update the release and version tags in `/conf.py`
 * [Tag] the repository with the version number, and [create a new release].
-* Run `fab html` to produce html output ready for upload to
-  http://mixxx.org/manual/latest/
 * Check the output compiles correctly and does not produce any warnings
 * Add translated html output for all available languages, see [i18n]
-* Run `fab pdf` to produce PDF output for distribution
 
 ## Troubleshooting
 
