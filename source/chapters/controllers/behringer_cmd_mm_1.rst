@@ -2,8 +2,7 @@
 
 [[/media/hardware/behringer/behringercmdmm1overview.png|]]
 
-  - [Forum
-    thread](https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276)
+  - [Forum thread](https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276)
 
 The Behringer CMD MM-1 is a flexible controller that controls 4 decks by
 default. The mapping can be easily configured to control any combination

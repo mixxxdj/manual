@@ -6,12 +6,9 @@ The Behringer CMD Studio 4a is a 2 deck controller that supports 4
 virtual decks and has a built in 4 channel (one stereo master, one
 stereo headphones) USB sound card built in.
 
-  - [Mixxx Forum
-    Thread](http://www.mixxx.org/forums/viewtopic.php?f=7&t=7868)
-  - [Manufacturer's product
-    page](http://www.music-group.com/Categories/Behringer/Computer-Audio/DJ-Controllers/CMD-STUDIO-4a/p/P0809/Features)
-  - [Manufacturer's
-    manual](https://media.music-group.com/media/PLM/data/docs/P0809/CMD-STUDIO-4A_QSG_WW.pdf)
+  - [Mixxx Forum Thread](http://www.mixxx.org/forums/viewtopic.php?f=7&t=7868)
+  - [Manufacturer's product page](http://www.music-group.com/Categories/Behringer/Computer-Audio/DJ-Controllers/CMD-STUDIO-4a/p/P0809/Features)
+  - [Manufacturer's manual](https://media.music-group.com/media/PLM/data/docs/P0809/CMD-STUDIO-4A_QSG_WW.pdf)
 
 ## Mixxx Sound Hardware Preferences
 
@@ -19,9 +16,6 @@ stereo headphones) USB sound card built in.
   - Headphone output: channels 3-4
 
 ## Mapping description
-
-(This page details v1.4 of the Behringer CMD STUDIO 4a controler
-mapping)
 
 Most of the buttons and knobs on the controller behave as they are
 labelled:
@@ -132,7 +126,7 @@ These do not control effects; they have other functions:
 
 ### DEL-mode
 
-DEL-mode is activated by \*tapping\* the deck's hot cue DEL button (the
+DEL-mode is activated by *tapping* the deck's hot cue DEL button (the
 button will light up blue). This is equivalent to a shift button on
 other controllers and so changes the behaviour of a number of the
 controller buttons as follows:

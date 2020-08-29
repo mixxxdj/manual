@@ -2,8 +2,7 @@
 
 ![http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1143/images/MC6000MK2\_angle.jpg](http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1143/images/MC6000MK2_angle.jpg)
 
-- [Manufacturer's product
-  page](http://denondj.com/products/view/mc6000mk2)
+- [Manufacturer's product page](http://denondj.com/products/view/mc6000mk2)
 - [Forum thread](http://www.mixxx.org/forums/viewtopic.php?f=7&t=6251)
 - [Mixxx maintainer](https://github.com/uklotzde)
 
