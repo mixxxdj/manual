@@ -1,4 +1,7 @@
-# Behringer BCD3000
+.. _behringer-bcd3000:
+
+Behringer B-Control Deejay BCD 3000
+===================================
 
   - [Manufacturer's page](https://www.behringer.com/product.html?modelCode=P0758)
   - [Manual](https://www.parts-express.com/pedocs/manuals/248-6084-behringer-bcd3000-manual-42714.pdf).
