@@ -13,5 +13,5 @@ message must be sent](http://mixxx.org/forums/viewtopic.php?f=3&t=8380)
 to switch channels 1-2 to the microphone input.
 
 .. note::
-   Unfortunately a detailed description of this controller mapping is still missing
+   Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider contributing one.

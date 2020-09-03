@@ -48,18 +48,13 @@ the values below at the very top of the JavaScript file
     installation. This is required in order for Expand Library feature
     to work properly. 
   - **FXMode**: Select FX Mode based on skin used:
-
-<!-- end list -->
-
-``` 
     * value "**1**": (Deere skin): Each deck is assigned its own Effect Unit with 3 effects per deck (e.g. Deck 1 = Effect Unit 1, Deck 2 = Effect Unit 2, etc...\\
     * value "**2**": (other skins): FX button 1 = Effect Unit 1, Effect 1, FX Button 2 = Effect Unit 2, Effect 1,  FX button 3 = Effect Unit 3, Effect 1. Effect settings are shared by each deck.\\
-* **PitchBendOnWheelOff**: allow nudge with wheel when wheel is not active. 
-* **noPlayOnSyncDoublePress**: Specify if Play is disabled on Sync button Double Press. 
-* **ShiftFilterFX4**: Specify Shift+Filter control behavior - FX parameter 4 (true) or Channel Gain (false)
-```
+  - **PitchBendOnWheelOff**: allow nudge with wheel when wheel is not active. 
+  - **noPlayOnSyncDoublePress**: Specify if Play is disabled on Sync button Double Press. 
+  - **ShiftFilterFX4**: Specify Shift+Filter control behavior - FX parameter 4 (true) or Channel Gain (false)
 
-## Mixxx 2.0 Mapping
+## Mapping Description
 
 [[/media/numarkmixtrackpro3mapping.gif|]]
 
@@ -398,19 +393,6 @@ server](http://downloads.mixxx.org/builds/master/release/).
 Some configuration options that exist in 2.0 are no longer available in
 2.1. Version 2.1 supports the following options:
 
-  - **TrackEndWarning**: whether the Wheel button flashes near the end
-    of a track
-  - **iCutEnabled**: whether to enable iCut with the jog wheel. See
-    [\#platter/jog wheel](#platter/jog%20wheel) section for details
-  - **smartPFL**: When the Load button is used, the Cue/PFL button is
-    automatically activated on the deck being loaded and deactivated on
-    the other deck
-  - **noPlayOnSyncDoublePress**: Specify if Play is disabled on Sync
-    button Double Press. 
-  - **ShiftFilterFX4**: Specify Shift+Filter control behavior - FX
-    parameter 4 (true) or Channel Gain (false)
-  - **PitchBendOnWheelOff**: allow nudge with wheel when wheel is not
-    active. 
 
 #### Effects
 

@@ -1,7 +1,7 @@
-EKS Otus
-========
+Evolution X-Session
+===================
 
-This controller has been discontinued as EKS is went out of business.
+This product has been discontinued.
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

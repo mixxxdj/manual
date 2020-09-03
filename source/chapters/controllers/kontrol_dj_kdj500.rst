@@ -1,7 +1,7 @@
-EKS Otus
-========
+Kontrol DJ KDJ500
+=================
 
-This controller has been discontinued as EKS is went out of business.
+-  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=1609>`__
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

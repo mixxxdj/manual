@@ -1,7 +1,7 @@
-EKS Otus
-========
+Numark DJ2GO
+============
 
-This controller has been discontinued as EKS is went out of business.
+-  `Manufacturer’s product page <http://www.numark.com/product/dj2go>`__
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

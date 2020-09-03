@@ -3,12 +3,9 @@
 [[/media/hardware/denondj-img-mc7000.jpg]]
 
   - [Denon MC7000 Mapping thread](https://mixxx.discourse.group/t/denon-mc7000-mapping/18235)
-  - [Manufacturer's product
-    page](https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus)
-  - [User
-    Guide](http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf)
-  - [Hardware Setting
-    Specification](http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf)
+  - [Manufacturer's product page](https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus)
+  - [User Guide](http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf)
+  - [Hardware Setting Specification](http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf)
 
 ## General
 
@@ -402,42 +399,3 @@ Platter Ring LEDs are correlated with the VINYL button.
     is correlated with the platter movement too.
   - If VINYL Mode is set OFF the current track position is indicated by
     the Platter LEDs starting at the top.
-
-### Change Log
-
-**Release for Mixxx 2.3**
-  - added Library sort function for Artist, Title, BPM, Key
-  - added Softtakeover for Pitch faders
-  - some minor code cleaning and improvements
-
-**Release for Mixxx 2.2.4**
-  - The current version of Mixxx does not yet support sort function in
-    library. This will be mapped with Mixxx 2.3
-  - all other functions and LEDs are working except PAD mode 2nd and 3rd
-    function
-
-### Wish List
-
-All additional wishes will be listed here (help appreciated):
-
-  - improve Platter Ring LED performance. Currently only 26 signals are
-    sent for one complete turn around for 48 LEDs. This is gonna be
-    solved using MIXXX 2.3
-  - let Platter Ring LEDs flash during the last minute (or other time
-    period) of a track
-  - colored Hot Cue
-  - Secondary PAD functions
-
-## Contact and DJ Web Sites
-
-If you like to contact me then please visit [the
-Forum](https://mixxx.discourse.group/t/denon-mc7000-mapping/18235) or contact
-me on [Facebook](http://www.facebook.com/OsZ.DJ/).
-
-To check out my performances with this MC7000 using MIXXX please visit
-me on [Mixcloud](http://www.mixcloud.com/DJ_OsZ/uploads/) or
-[Hearthis.at](http://www.hearthis.at/osz/).
-
-Listen 24/7 to Techno shows (recorded and live) directly on our website
-[Techno Connection](http://www.technoconnection.com) or at [Radio
-Garden](https://radio.garden/listen/techno-connection/).

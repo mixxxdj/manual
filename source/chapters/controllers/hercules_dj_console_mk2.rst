@@ -1,7 +1,5 @@
-EKS Otus
-========
-
-This controller has been discontinued as EKS is went out of business.
+Hercules DJ Console Mk2
+=======================
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

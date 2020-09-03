@@ -12,14 +12,7 @@ design changes.
 
 The audio interface is recognized in Ubuntu 14.04 out of the box.
 
-## Mapping
-
-This mapping is integrated in Mixxx 2.1 with [this
-PR](https://github.com/mixxxdj/mixxx/pull/1540). This mapping is based
-on [this
-mapping](https://github.com/snowyoneill/Mixxx-Numark-MixTrack-Pro-II-2016.midi).
-
-[[/media/hardware/numarkmixtrackproii.png|numarkmixtrackproii.png]]
+## Mapping Description
 
 ### 1\. Browser Knob
 
@@ -205,8 +198,3 @@ the cue output and the master mix output.
 
 Press this button while the music is playing to jump back to the last
 set cue point, creating a "stutter" effect.
-
-## Other Community Mappings
-
-  - <https://github.com/tompreston/Mixxx-Numark-Mixtrack-Pro-II-Mappings>
-  - <https://github.com/snowyoneill/Mixxx-Numark-MixTrack-Pro-II-2016.midi>
