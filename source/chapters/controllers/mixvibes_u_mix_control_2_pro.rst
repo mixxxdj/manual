@@ -38,17 +38,10 @@ Mapping description
 -  BPM-Tap: Press “Shift” + “Sync”
 -  Keylock: Press “Jog”
 
-**Currently not fully working (work in progress)**
-
 **Currently not working**
 
 -  Sample-Deck-Management
 -  Loop-Knob & Loop-Setting
-
-**Future & Wishlist**
-
--  FX-Section
--  Semi-4-Deck-Control
 
 **Not MIDI-mappable**
 
