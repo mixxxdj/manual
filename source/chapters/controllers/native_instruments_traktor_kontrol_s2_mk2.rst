@@ -1,29 +1,24 @@
-Native Instruments Traktor Kontrol S2 Mk2
+Native Instruments Traktor Kontrol S2 MK2
 =========================================
 
-The Native Instruments Traktor Kontrol S2 Mk2 is a 2 deck all-in-one
+The Native Instruments Traktor Kontrol S2 MK2 is a 2 deck all-in-one
 controller with an integrated audio interface. It has a pair of balanced
 1/4" TRS outputs and a pair of unbalanced RCA outputs which both output
 the main mix, a 1/4" TRS headphone jack, and a 1/4" TRS microphone
 input. The microphone input is digitized and available to the computer
-for recording and broadcasting. The Kontrol S2 Mk2 can run with only USB
+for recording and broadcasting. The Kontrol S2 MK2 can run with only USB
 bus power and an optional power supply can be connected to make the LEDs
 brighter and the headphone output louder.
 
-The Kontrol S2 Mk2 can be distinguished from the Mk1 by the jog wheels.
-The top of the jog wheels on the Mk2 are shiny aluminum; the top of the
+The Kontrol S2 MK2 can be distinguished from the Mk1 by the jog wheels.
+The top of the jog wheels on the MK2 are shiny aluminum; the top of the
 jog wheels on the Mk1 are black. The Kontrol S2 Mk3 does not have
 effects knobs at the top.
-
-Reviews: \*
-`DJTechTools <https://djtechtools.com/2013/10/22/review-traktor-kontrol-s4-mk2-and-s2-mk2/>`__
-\*
-`DJWorx <https://djworx.com/review-ni-traktor-kontrol-s2-mk2-dj-controller/>`__
 
 Compatibility
 -------------
 
-The Kontrol S2 Mk2 is a USB audio and HID class compliant device. It is
+The Kontrol S2 MK2 is a USB audio and HID class compliant device. It is
 fully compatible with Linux, Windows, and macOS. No proprietary driver
 is required on Linux or macOS. For Windows, download and install the
 latest driver from `Native Instruments’
@@ -35,14 +30,14 @@ Audio routing
 ========== ====================== =============
 Output     Device                 Channels
 ========== ====================== =============
-Master     Traktor Kontrol S2 Mk2 Channel 1 - 2
-Headphones Traktor Kontrol S2 Mk2 Channel 3 - 4
+Master     Traktor Kontrol S2 MK2 Channel 1 - 2
+Headphones Traktor Kontrol S2 MK2 Channel 3 - 4
 ========== ====================== =============
 
 ============ ====================== =============
 Input        Device                 Channels
 ============ ====================== =============
-Microphone 1 Traktor Kontrol S2 Mk2 Channel 1 - 2
+Microphone 1 Traktor Kontrol S2 MK2 Channel 1 - 2
 ============ ====================== =============
 
 Do *not* configure the Record/Broadcast input in Mixxx.
@@ -160,7 +155,7 @@ Center column
 Effects
 ~~~~~~~
 
-The Kontrol S2 Mk2 uses the `standard Mixxx effects
+The Kontrol S2 MK2 uses the `standard Mixxx effects
 mapping <https://github.com/mixxxdj/mixxx/wiki/standard-effects-mapping>`__.
 
 Front panel

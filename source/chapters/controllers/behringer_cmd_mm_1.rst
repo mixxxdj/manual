@@ -1,18 +1,23 @@
 Behringer CMD MM-1
 ==================
 
-[[/media/hardware/behringer/behringercmdmm1overview.png|]]
+.. figure:: ../../_static/controllers/behringer_cmd_mm_1_overview.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Behringer CMD MM-1 (overview)
+   :figclass: pretty-figures
 
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276>`__
+   Behringer CMD MM-1 (overview)
 
 The Behringer CMD MM-1 is a flexible controller that controls 4 decks by
 default. The mapping can be easily configured to control any combination
-of decks and effect units. The `Behringer CMD
-DC-1 <behringer_cmd_dc-1>`__ and `Behringer CMD
-DV-1 <behringer_cmd_dv-1>`__ are designed to be used together with the
+of decks and effect units. The Behringer CMD DC-1 and Behringer CMD
+DV-1 are designed to be used together with the
 CMD MM-1, but the CMD MM-1 can be used alone or with other controllers
-(especially the `Novation
-Launchpad <novation_launchpad_mapping_by_szdavid92>`__)
+(especially the :ref:`Novation Launchpad <novation-launchpad>`).
+
+-  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276>`__
 
 Mapping description
 -------------------
@@ -53,7 +58,14 @@ gEdit) and editing the lines at the very top of the file.
 Top row
 ~~~~~~~
 
-[[/media/hardware/behringer/behringercmdmm1-toprowlabeled.png|]]
+.. figure:: ../../_static/controllers/behringer_cmd_mm_1_toprow.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Behringer CMD MM-1 (top row)
+   :figclass: pretty-figures
+
+   Behringer CMD MM-1 (top row)
 
 The top left knobs control the Master balance and Master gain. The top
 right knobs control the headphone gain and cue mix (PFL/master mix in
@@ -118,7 +130,15 @@ Deck Mode
 FX Mode
 ^^^^^^^
 
-[[/media/hardware/behringer/buttonsofflabeledfxmode-min.png|]]
+.. figure:: ../../_static/controllers/behringer_cmd_mm_1_fxmode.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Behringer CMD MM-1 (FX mode)
+   :figclass: pretty-figures
+
+   Behringer CMD MM-1 (FX mode)
+
 
 [1]&[2] Buttons:
 

@@ -1,16 +1,16 @@
 Hercules DJ Control Instinct (S)
 ================================
 
+This is the cheapest all-in-one controller with an integrated sound
+card. The DJ Control Instinct S is functionally identical to the DJ
+Control Instinct, but has a brushed stainless finish.
+
 -  Manufacturer’s product pages:
 
    -  `DJ Control Instinct S <http://www.hercules.com/us/leisure-controllers/bdd/p/248/djcontrol-instinct-s-series/>`__
    -  `DJ Control Instinct <http://www.hercules.com/us/DJ-Music/bdd/p/187/djcontrol-instinct/>`__
 
 -  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3907>`__
-
-This is the cheapest all-in-one controller with an integrated sound
-card. The DJ Control Instinct S is functionally identical to the DJ
-Control Instinct, but has a brushed stainless finish.
 
 Setup
 -----
@@ -36,63 +36,60 @@ channels 1 and 2, so to get stereo output you want to select the
 Controls
 --------
 
-[[/media/hardware/hercules_dj_control_instinct.svg|]] *Image by Hercules
-from*\ http://ts.hercules.com/download/sound/manuals/DJ_Instinct/Poster/Poster_DJCInstinct_UK.pdf\ *.
-Click on the image for a bigger version.*
+.. figure:: ../../_static/controllers/hercules_djcontrol_instinct.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl Instinct (schematic view)
+   :figclass: pretty-figures
 
-1. Jog Wheel for the deck on the side of the wheel
-2. Action buttons for the deck on the side of the controls, depending on
-   the mode they do the following:
+   Hercules DJControl Instinct (schematic view). This picture is taken from `product poster <http://ts.hercules.com/download/sound/manuals/DJ_Instinct/Poster/Poster_DJCInstinct_UK.pdf>`__ (courtesy of Guillemot Corporation S.A.).
 
--  Hot Cue:
+1.  Jog Wheel for the deck on the side of the wheel
+2.  Action buttons for the deck on the side of the controls, depending on
+    the mode they do the following:
 
-   -  **1:** Set and play (by holding it) from Hot Cue 1
-   -  **2:** Set and play (by holding it) from Hot Cue 2
-   -  **3:** Reset Hot Cue 1
-   -  **4:** Reset Hot Cue 2
+    - Hot Cue:
 
--  Loop
+      - **1:** Set and play (by holding it) from Hot Cue 1
+      - **2:** Set and play (by holding it) from Hot Cue 2
+      - **3:** Reset Hot Cue 1
+      - **4:** Reset Hot Cue 2
 
-   -  **1:** Set Loop start
-   -  **2:** Set loop end
-   -  **3:** Shrink loop (halves it)
-   -  **4:** Exit loop
+    - Loop
 
--  Effect
+      - **1:** Set Loop start
+      - **2:** Set loop end
+      - **3:** Shrink loop (halves it)
+      - **4:** Exit loop
 
-   -  **1:** Toggle Effect 1
-   -  **2:** Toggle Effect 2
-   -  **3:** Toggle Effect 3
-   -  **4:** Toggle Effect 4
+    - Effect
 
--  Sample
+      - **1:** Toggle Effect 1
+      - **2:** Toggle Effect 2
+      - **3:** Toggle Effect 3
+      - **4:** Toggle Effect 4
 
-   -  **1:** Play Sample 1
-   -  **2:** Play Sample 2
-   -  **3:** Play Sample 3
-   -  **4:** Play Sample 4
+    - Sample
 
--  Mode status display. The current mode is glowing or if none is on,
-   Hot Cues are enabled
--  Headphone volume controls
--  No direct use, used as a button to add a second layer of controls
--  Switch the current mode for both decks
--  Knobs to adjust the EQ of the deck they are on. Top knob adjusts
-   highs, middle knob the mids and bottom know the lows.
--  Buttons to browse your library. The up and down button go up and down
-   in the current playlist, The folder/left button goes up in the
-   playlist list and the Files/right button goes down in the playlist
-   list.
--  Load the currently selected track to the respective deck (A is the
-   left deck, B is the right deck)
--  Listen to this deck unmixed on the headphones
--  Deck volume adjusts the output volume of the respective deck
--  Crossfader
--  Temporary pitch shift. Pressing the Vinyl button increases the shift.
--  Adjust tempo. Pressing both buttons together resets to the original
-   tempo. Pressing the Vinyl button takes the steps bigger.
--  Fast forward and backward buttons for the respective decks
--  Sync tempo of this deck to the tempo of the other deck
--  If pressed while paused sets the cue and when held plays from the
-   cue, when pressed during playback jumps to the cue.
--  Play and pause playback of the respective decks
+      - **1:** Play Sample 1
+      - **2:** Play Sample 2
+      - **3:** Play Sample 3
+      - **4:** Play Sample 4
+
+3.  Mode status display. The current mode is glowing or if none is on, Hot Cues are enabled.
+4.  Headphone volume controls
+5.  No direct use, used as a button to add a second layer of controls
+6.  Switch the current mode for both decks
+7.  Knobs to adjust the EQ of the deck they are on. Top knob adjusts highs, middle knob the mids and bottom know the lows.
+8.  Buttons to browse your library. The up and down button go up and down in the current playlist, The folder/left button goes up in the playlist list and the Files/right button goes down in the playlist list.
+9.  Load the currently selected track to the respective deck (A is the left deck, B is the right deck)
+10.  Listen to this deck unmixed on the headphones
+11.  Deck volume adjusts the output volume of the respective deck
+12.  Crossfader
+13.  Temporary pitch shift. Pressing the Vinyl button increases the shift.
+14.  Adjust tempo. Pressing both buttons together resets to the original tempo. Pressing the Vinyl button takes the steps bigger.
+15.  Fast forward and backward buttons for the respective decks
+16.  Sync tempo of this deck to the tempo of the other deck
+17.  If pressed while paused sets the cue and when held plays from the cue, when pressed during playback jumps to the cue.
+18.  Play and pause playback of the respective decks

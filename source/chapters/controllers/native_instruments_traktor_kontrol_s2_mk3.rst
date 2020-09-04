@@ -1,14 +1,11 @@
 Native Instruments Traktor Kontrol S2 MK3
 =========================================
 
--  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
--  `DJTechTools Review <https://djtechtools.com/2018/09/06/traktor-kontrol-s2-mk3-simplified-and-mobile-friendly/>`__
--  `Digital DJ Tips Review <https://www.digitaldjtips.com/reviews/traktor-kontrol-s2-mk3/>`__
--  `DJWORX Review <https://djworx.com/the-small-and-perfectly-formed-traktor-kontrol-s2-mk3/>`__
-
 The Kontrol S2 MK3 is a two-channel controller with an integrated sound card. It has two integrated stereo outputs (line and 1/8" / 3.5 mm TRS), headphone outputs (1/8" / 3.5 mm TRS) and microphone
 inputs (1/4" / 6.3 mm TRS). The MK3 uses the standard HID protocol to send and receive signals from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from USB bus power, but using the
 separate power supply increases the brightness of the LEDs, which is helpful for using it in daylight, and increases the volume of the headphone output.
+
+-  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +16,14 @@ Mixxx Sound Hardware Preferences
 Mixxx mapping
 ~~~~~~~~~~~~~
 
-[[/media/hardware/nativeinstruments/traktorkontrols2mk3-schema.png|]]
+.. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_s2_mk3.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Native Instruments Traktor Kontrol S2 MK3 (schematic view)
+   :figclass: pretty-figures
+
+   Native Instruments Traktor Kontrol S2 MK3 (schematic view)
 
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | Element          | Primary function                                                                                                            | Secondary function (+ SHIFT)                        |

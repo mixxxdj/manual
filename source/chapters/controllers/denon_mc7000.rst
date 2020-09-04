@@ -1,16 +1,6 @@
 Denon MC7000
 ============
 
-[[/media/hardware/denondj-img-mc7000.jpg]]
-
--  `Denon MC7000 Mapping thread <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
--  `Manufacturer’s product page <https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus>`__
--  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
--  `Hardware Setting Specification <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf>`__
-
-General
--------
-
 The Denon MC7000 is a professional DJ controller which has got 4-channel
 capability and dual USB connections. These two USB audio interfaces
 enable two DJs to play together. This controller includes Denon’s high
@@ -23,6 +13,11 @@ Changing controls that deliver an unprecedented ability to instantly and
 harmonically match musical keys. The unit’s comprehensive, multi-input
 mixer also provides access to line/phono inputs from both authentic
 analogue (vinyl) and digital sources.
+
+-  `Denon MC7000 Mapping thread <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
+-  `Manufacturer’s product page <https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus>`__
+-  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
+-  `Hardware Setting Specification <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf>`__
 
 Features
 ~~~~~~~~
@@ -70,29 +65,8 @@ Compatibility
 Mapping
 -------
 
-How to get the mapping
-~~~~~~~~~~~~~~~~~~~~~~
-
-For MIXXX 2.2.4 and following the mapping will be included in the
-Software. You don’t need to download.
-
-The version for MIXXX 2.2.2 or MIXXX 2.2.3 is on GitHub. You need both
-files so please just right click each of the links and “save link as”.
-
--  `Denon MC7000 Mapping \*.xml
-   file <https://github.com/mixxxdj/mixxx/raw/2.2/res/controllers/Denon-MC7000.midi.xml>`__
--  `Denon MC7000 Mapping \*.js
-   file <https://github.com/mixxxdj/mixxx/raw/2.2/res/controllers/Denon-MC7000-scripts.js>`__
-
-Read further `where to place the mapping
-files <https://github.com/mixxxdj/mixxx/wiki/controller_mapping_file_locations>`__
-for your system.
-
-**You need to activate the mapping in Preferences -> Controller -> chose
-the MC7000 mapping.**
-
 This controller is made for Serato DJ and most of the mapping is made
-for MIXXX accordingly. Anyhow, there are several differences for
+for Mixxx accordingly. Anyhow, there are several differences for
 functions not matching the Serato mapping. If you have any wishes to
 improve the mapping, then please discuss it in the `Denon MC7000
 Mapping <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
@@ -116,7 +90,15 @@ Please check the \*.js mapping file for user variables to:
 Layout and functions
 ~~~~~~~~~~~~~~~~~~~~
 
-[[/media/denonmc7000-layout.png]]
+.. figure:: ../../_static/controllers/denon_mc7000_layout.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Denon MC7000 (schematic view)
+   :figclass: pretty-figures
+
+   Denon MC7000 (schematic view)
+
 
 1.  **Input Selector:** Set this switch to the desired audio source from
     this channel. Channel’s controls will only send MIDI information

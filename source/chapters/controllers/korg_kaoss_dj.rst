@@ -3,20 +3,22 @@ Korg Kaoss DJ controller
 
 2-deck controller with touch controlled jogwheels, built-in 4-channel soundcard and a Korg Kaoss Pad as built-in effect section (can be switched off for using software effects).
 
-[[/media/hardware/korg_kaoss_dj.png|korg_kaoss_dj.png]] [[/media/hardware/korg-kaoss-dj_mode-switch.jpg|]] [[/media/hardware/korg-kaoss-dj_linein.jpg|]] [[/media/hardware/korg-kaoss-dj_lineout.jpg|]]
-[[/media/hardware/korg-kaoss-dj_headphones_mic.jpg|]] [[/media/hardware/korg-kaoss-dj_overview.jpg|]]
-
 -  `Manufacturer’s product page <http://www.korg.com/uk/products/dj/kaoss_dj/>`__
 -  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8479>`__
 -  `Pull request on Github <https://github.com/mixxxdj/mixxx/pull/1509>`__
 
-Configuration options
----------------------
-
 Mapping
 -------
 
-[[/media/hardware/korg_kaoss_dj_diagram.png|]]
+.. figure:: ../../_static/controllers/korg_kaoss_dj.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Korg Kaoss DJ (schematic view)
+   :figclass: pretty-figures
+
+   Korg Kaoss DJ (schematic view)
+
 
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | No.                                            | Name                                           | Function                                       | Shifted Operation                              |
@@ -49,9 +51,9 @@ Mapping
 |                                                |                                                | and the horizontal axis controls the super     |                                                |
 |                                                |                                                | knob.                                          |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| :::                                            | Touchpad (Kaoss Effect mode)                   | Controls the KAOSS effect                      | Adjusts the depth of the KAOSS Effect          |
+|                                                | Touchpad (Kaoss Effect mode)                   | Controls the KAOSS effect                      | Adjusts the depth of the KAOSS Effect          |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| :::                                            | Touchpad (sampler mode)                        | Controls the sampler function of the DJ        | ---                                            |
+|                                                | Touchpad (sampler mode)                        | Controls the sampler function of the DJ        | ---                                            |
 |                                                |                                                | software                                       |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 11                                             | Crossfader                                     | Adjusts the balance between Decks A and B      | ---                                            |

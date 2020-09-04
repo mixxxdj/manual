@@ -1,8 +1,6 @@
 American Audio VMS4/4.1
 =======================
 
-[[/media/hardware/american_audio/vms4.1_angle.jpg|vms4.1_angle.jpg]]
-
 -  `Original VMS4 <http://www.adj.com/vms4>`__
 -  `VMS4.1 <http://www.adj.com/vms4-1>`__
 -  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
@@ -94,11 +92,6 @@ Control
 -------
 
 This guide explains how the VMS4 is mapped by default in Mixxx.
-
-[[/media/hardware/american_audio/vms4.1_top.jpg|]]
-
-*Image courtesy of*\ `American Audio <http://www.adjaudio.com/>`__\ *.
-Click on it for a larger version.*
 
 **Easy customization:** We have provided the following customization
 variables at the top of the script you can set to your liking:

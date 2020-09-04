@@ -1,11 +1,9 @@
 American Audio VMS2
 ===================
 
-[[/media/hardware/American-Audio-VMS2.png|American-Audio-VMS2.png]]
-
 -  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
--  `Latest controller mapping <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
+-  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 
 The American Audio VMS2 is a 2-deck all-in-one controller. It is a USB
 class compliant MIDI and audio device that works with GNU/Linux, Mac OS

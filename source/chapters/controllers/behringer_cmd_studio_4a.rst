@@ -1,7 +1,14 @@
 Behringer CMD Studio 4a
 =======================
 
-[[/media/hardware/cmd-studio-4a_p0809_top_l.png|]]
+.. figure:: ../../_static/controllers/behringer_cmd_studio_4a_top.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Behringer CMD Studio 4a (top view)
+   :figclass: pretty-figures
+
+   Behringer CMD Studio 4a (top view)
 
 The Behringer CMD Studio 4a is a 2 deck controller that supports 4
 virtual decks and has a built in 4 channel (one stereo master, one
@@ -23,7 +30,14 @@ Mapping description
 Most of the buttons and knobs on the controller behave as they are
 labelled:
 
-[[/media/hardware/cmd-studio-4a-layout.png|]]
+.. figure:: ../../_static/controllers/behringer_cmd_studio_4a_layout.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Behringer CMD Studio 4a Layout
+   :figclass: pretty-figures
+
+   Behringer CMD Studio 4a Layout
 
 The only major departure from the above are the 4 “FX Control” knobs and
 buttons at the top of each deck.

@@ -16,7 +16,14 @@ Mapping description (by function)
 Shift / Supershift
 ^^^^^^^^^^^^^^^^^^
 
-[[/media/hercules-mp3e2-schema-shift.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_shift.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (shift/supershift)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (shift/supershift)
 
 +-----------------------+-----------------------+-----------------------+
 | Function              | Control               | number                |
@@ -58,7 +65,15 @@ Shift / Supershift
 Library
 ^^^^^^^
 
-[[/media/hercules-mp3e2-schema-library.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_library.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (library)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (library)
+
 
 =========================================================================== ============================= ======
 Function                                                                    Control                       number
@@ -75,7 +90,15 @@ Loads the current highlighted track into the corresponding sampler (1 or 2) Shif
 Master/Headphones/Microphone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[[/media/hercules-mp3e2-schema-masterheadmicro.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_masterheadmicro.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (master/headphones/microphone)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (master/headphones/microphone)
+
 
 ================================================================= ========================= ======
 Function                                                          Control                   number
@@ -90,7 +113,16 @@ Toggles deck output to the headphones monitor on/off              Headphone moni
 Sampler
 ^^^^^^^
 
-[[/media/hercules-mp3e2-schema-sampler.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_sampler.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (sampler)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (sampler)
+
+
 
 =========================================================================== =================== ======
 Function                                                                    Control             number
@@ -108,7 +140,15 @@ Decks / Channels
 Playing
 '''''''
 
-[[/media/hercules-mp3e2-schema-deck-playing.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_deckplaying.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (deck playing)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (deck playing)
+
 
 +-----------------------+-----------------------+-----------------------+
 | Function              | Control               | number                |
@@ -162,7 +202,15 @@ Playing
 Volume / Equalizer / Effects
 ''''''''''''''''''''''''''''
 
-[[/media/hercules-mp3e2-schema-deck-voleffects.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_deckvolumeeqfx.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (deck volume/EQ/FX)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (deck volume/EQ/FX)
+
 
 =========================================================================== ======================================== ======
 Function                                                                    Control                                  number
@@ -181,7 +229,15 @@ Spinback Effect                                                             Supe
 Hotcues
 '''''''
 
-[[/media/hercules-mp3e2-schema-hotcues.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_hotcues.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (hotcues)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (hotcues)
+
 
 *Need to be in Hotcue mode (button Loop/Fx (4) lit up). If not, press Loop/Fx button to switch to hotcue mode.*
 
@@ -195,7 +251,15 @@ If hotcue X is set, clears its hotcue status.                                   
 Loops
 '''''
 
-[[/media/hercules-mp3e2-schema-loops.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_loops.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (loops)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (loops)
+
 
 *Need to be in Loop mode (button Loop/Fx (4) turned off). If not, press Loop/Fx button to switch to Loop mode.*
 
@@ -221,7 +285,15 @@ Half loop                      Shift + Pitchbend -   1
 Pitch / Syncing
 '''''''''''''''
 
-[[/media/hercules-mp3e2-schema-pitchsync.jpg|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_pitchsync.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (pitch / sync)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (pitch / sync)
+
 
 +-----------------------+-----------------------+-----------------------+
 | Function              | Control               | number                |
@@ -279,7 +351,15 @@ Pitch / Syncing
 Mapping description (by knob/button)
 ------------------------------------
 
-[[/media/hercules_mappa.png|]]
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_mapping.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl MP3 e2 (schematic view)
+   :figclass: pretty-figures
+
+   Hercules DJControl MP3 e2 (schematic view)
+
 
 Global controls
 ^^^^^^^^^^^^^^^
@@ -355,10 +435,10 @@ Deck / Channel specific controls
 | Number       | Control      | Simple function  | Shifted      | Supershifted |
 |              |              |                  | function     | function     |
 +==============+==============+==================+==============+==============+
-| 1            | Pitchbend    | Temporary Holds  | + double     | + Filter     |
+| 1            | Pitchbend    | Temporary Holds  | \+ double    | \+ Filter    |
 |              | +/-          | the pitch 4%     | loop         | High Kill    |
-|              |              | higher while     | - half loop  | - Filter Low |
-|              |              | pressed          |              | Kill         |
+|              |              | higher while     | \- half loop | \- Filter    |
+|              |              | pressed          |              | Low Kill     |
 +--------------+--------------+------------------+--------------+--------------+
 | 2            | Master Tempo | Syncs the BPM    | Enable       | Quantize     |
 |              |              | and phase to     | key-lock for | (Magnet)     |
@@ -508,7 +588,7 @@ Troubleshooting
 ---------------
 
 Jog wheels not working or controller not responding
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If your jog wheels doesn’t work, or nothing works on the controller even when you have carefully read all other resources, you should be aware that this controller stores at least two configuration
 options in the controller:
@@ -533,7 +613,7 @@ solution for Linux. So if you normally use Linux, you will have to find a comput
 need to do this once, then the controller should work with Linux.
 
 Controller not recognized as bulk controller
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It has been reported that when the Hercules drivers are installed on a Windows, the driver takes over the bulk communication with the controller so it cannot be recognized by Mixxx as a bulk
 controller. Uninstall the Hercules driver and use it as a USB bulk controller.

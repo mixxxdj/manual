@@ -7,11 +7,6 @@ Vestax went out of business in 2014.
 -  `ASIO driver for Windows in serato.com <https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6038>`__
 
-.. figure:: vci100mkii.png
-   :alt: vci100mkii.png
-
-   vci100mkii.png
-
 Mapping Description
 -------------------
 

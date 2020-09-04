@@ -1,11 +1,6 @@
 Allen & Heath Xone:K2
 =====================
 
-.. figure:: http://www.allen-heath.com/media/XoneK2_Front_Main-463x1024.jpg
-   :alt: http://www.allen-heath.com/media/XoneK2_Front_Main-463x1024.jpg
-
-   http://www.allen-heath.com/media/XoneK2_Front_Main-463x1024.jpg
-
 -  `Manufacturer’s product
    page <http://www.allen-heath.com/ahproducts/xonek2/>`__
 -  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3776>`__

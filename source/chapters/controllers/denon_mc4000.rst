@@ -1,18 +1,15 @@
 Denon MC4000
 ============
 
-[[/media/hardware/mc4000.jpg|mc4000.jpg]]
-
--  `Manufacturer’s product page <http://denondj.com/products/view/mc4000>`__
--  `Video review <https://www.youtube.com/watch?v=vXyXSGjeT9o>`__
--  `Manual / Midi commands <http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1444/documents/MC4000%20-%20User%20Guide%20-%20v1.2_00.pdf>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=7443>`__
-
 The MC4000 is a 2-deck DJ controller for the professional entertainer
 wrapping in-demand audio manipulation tools in a robust steel chassis
 for rugged durability. In addition to precision touch-activated jog
 wheels, performers get access to dedicated hot cue and sample pads for
-on-the-fly
+on-the-fly remixes.
+
+-  `Manufacturer’s product page <http://denondj.com/products/view/mc4000>`__
+-  `Manual / Midi commands <http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1444/documents/MC4000%20-%20User%20Guide%20-%20v1.2_00.pdf>`__
+-  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=7443>`__
 
 The microphone and auxilliary inputs are mixed with the master output in
 hardware. They are not available to the computer through the MC4000’s
@@ -25,10 +22,17 @@ Mapping Description
 
 The Mixxx mapping is mostly the same as the standard Serato mapping,
 with a few exceptions which are highlighted below with *underlined text*
-or [STRIKEOUT:strikethrough] where a specific functionality that exists
-in Serato is not (yet) implemented in the Mixxx mapping.
+where a specific functionality that exists in Serato is not (yet) implemented in the Mixxx mapping.
 
-[[/media/hardware/denon_mc4000_controller_layout.svg|]]
+.. figure:: ../../_static/controllers/denon_mc4000_layout.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Denon MC4000 (layout)
+   :figclass: pretty-figures
+
+   Denon MC4000 (layout)
+
 
 1. **Channel Level:** Adjust the level of the pre-fader, pre-EQ audio signal
 2. **Channel EQ:** Boost or cut the high, mid-range, and low frequencies
