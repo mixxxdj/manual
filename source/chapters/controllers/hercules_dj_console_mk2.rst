@@ -1,4 +1,4 @@
-Hercules DJ Console Mk2
+Hercules DJ Console MK2
 =======================
 
 .. note::

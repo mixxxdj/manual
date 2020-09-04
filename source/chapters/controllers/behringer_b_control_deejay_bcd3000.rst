@@ -4,7 +4,7 @@ Behringer B-Control Deejay BCD 3000
 ===================================
 
   - `Manufacturer's page <https://www.behringer.com/product.html?modelCode=P0758>`__
-  - `Manual <https://www.parts-express.com/pedocs/manuals/248-6084-behringer-bcd3000-manual-42714.pdf`__
+  - `Manual <https://www.parts-express.com/pedocs/manuals/248-6084-behringer-bcd3000-manual-42714.pdf>`__
 
 By default, the input channels 1-2 use the RCA phono inputs for the
 source signal. On Windows, this can be switched to the microphone in the
