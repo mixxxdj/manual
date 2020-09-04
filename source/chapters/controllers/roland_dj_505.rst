@@ -1,29 +1,17 @@
 Roland DJ-505
 =============
 
-.. figure:: https://static.roland.com/assets/images/products/gallery/dj-505_t_gal.jpg
-   :alt: https://static.roland.com/assets/images/products/gallery/dj-505_t_gal.jpg
-
-   https://static.roland.com/assets/images/products/gallery/dj-505_t_gal.jpg
-
 The Roland DJ-505 is an all-in-one USB MIDI controller with an
 integrated audio interface. It has controls for 2 decks that can be
 toggled between decks to play with 4 decks. It also features a TR-S step
 sequencer with sounds from the TR-808 and the TR-909 drum machines
 (TR-606 and TR-707 are available via firmware update).
 
--  `Manufacturer’s product
-   page <https://www.roland.com/global/products/dj-505/>`__
--  `Serato DJ Hardware
-   Page <https://serato.com/dj/hardware/roland-dj-505>`__
--  `Owner’s
-   Manual <https://www.roland.com/global/support/by_product/dj-505/owners_manuals/>`__
--  `Driver/Firmware/TR-S Samples Download
-   Page <https://www.roland.com/global/products/dj-505/downloads>`__
--  `Mapping Forum
-   Thread <https://mixxx.org/forums/viewtopic.php?f=7&t=12688>`__
--  `Mapping Git
-   Repository <https://github.com/Holzhaus/mixxx/tree/roland-dj-505-mapping>`__
+-  `Manufacturer’s product page <https://www.roland.com/global/products/dj-505/>`__
+-  `Serato DJ Hardware Page <https://serato.com/dj/hardware/roland-dj-505>`__
+-  `Owner’s Manual <https://www.roland.com/global/support/by_product/dj-505/owners_manuals/>`__
+-  `Driver/Firmware/TR-S Samples Download Page <https://www.roland.com/global/products/dj-505/downloads>`__
+-  `Mapping Forum Thread <https://mixxx.org/forums/viewtopic.php?f=7&t=12688>`__
 
 Drivers
 -------
@@ -60,15 +48,17 @@ together in input channels 5-6, so Mixxx can record and broadcast them.
 The knobs for MASTER LEVEL, BOOTH LEVEL, PHONES VOLUME, MIC LEVEL,
 TR/SAMPLER LEVEL and CUE/MASTER MIXING are controlling the hardware
 mixer of the built-in audio interface. Hence, turning the knobs will not
-change values in the Mixxx GUI and you’ll need to set them to their
+change values in the Mixxx GUI and you’ll need to set the Mixxx knobs to their
 default values when using the controller:
 
-[[/media/2019-11-27-130732_182x403_scrot.png|]]
+- Set the master/booth/headphones/microphone/aux channel levels to 100% (knob center position)
+- Set cue/master mixing to cue-only (leftmost position)
 
-**Note:** You should assign the Vinyl Control input channels even if you
-do not intend to use timecode vinyl. These channel assignments are also
-needed to make the CH 1/2 PC/LINE/PHONO switches work (i. e. passing
-through line or phono input to the left/right deck).
+.. note::
+   You should assign the Vinyl Control input channels even if you
+   do not intend to use timecode vinyl. These channel assignments are also
+   needed to make the CH 1/2 PC/LINE/PHONO switches work (i. e. passing
+   through line or phono input to the left/right deck).
 
 Controller Mapping
 ------------------

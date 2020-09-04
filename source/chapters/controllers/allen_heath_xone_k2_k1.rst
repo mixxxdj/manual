@@ -1,20 +1,17 @@
 Allen & Heath Xone:K2
 =====================
 
--  `Manufacturer’s product
-   page <http://www.allen-heath.com/ahproducts/xonek2/>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3776>`__
--  `Manufacturer’s User
-   Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
--  `Blank template
-   diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
-
 The Allen & Heath Xone:K2 is a flexible controller that is mapped to
 control Mixxx’s decks, effects, or both. It has an integrated 4 channel
 audio interface with 2 RCA jacks and an 1/8" stereo headphone jack. The
 Xone K1 is the same as the Xone K2 but without the built in audio
 interface and does not come with the EVA travel case that the K2 comes
 with.
+
+-  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
+-  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3776>`__
+-  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
+-  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
 
 Audio Setup
 -----------

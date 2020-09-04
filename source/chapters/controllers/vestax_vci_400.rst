@@ -1,8 +1,6 @@
 Vestax VCI-400
 ==============
 
-[[/media/vci-400dj_layout2.png|vci-400dj_layout2.png]]
-
 The Vestax VCI-400 is a 4 deck controller. It has an integrated audio
 interface with balanced outputs (XLR and 1/4" TRS), two pairs of RCA
 inputs, and two XLR / 1/4" combination microphone inputs. The microphone
@@ -33,6 +31,16 @@ firmware <http://forum.djtechtools.com/showthread.php?t=64071&p=572022&viewfull=
 
 Mapping
 -------
+
+.. figure:: ../../_static/controllers/vestax_vci_400.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Vestax VCI-400 (top view with annotations)
+   :figclass: pretty-figures
+
+   Vestax VCI-400 (top view with annotations)
+
 
 The VCI-400 mapping for Mixxx is based on the Serato Limited Edition
 overlay.

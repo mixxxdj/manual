@@ -1,7 +1,9 @@
-Novation Launchpad Mk2
+.. _novation_launchpad_mk2:
+
+Novation Launchpad MK2
 ======================
 
-Novation Launchpad Mk2 is an updated versions of the Launchpad.
+Novation Launchpad MK2 is an updated versions of the Launchpad.
 It introduces new features such as RGB, velocity sensitive pads, and a redesigned layout scheme.
 
 .. note::

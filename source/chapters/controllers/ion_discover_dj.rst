@@ -1,16 +1,11 @@
 Ion Discover DJ
 ===============
 
-.. figure:: http://www.ionaudio.com/images/products/DISCOVER_DJ_top_Lg.jpg
-   :alt: http://www.ionaudio.com/images/products/DISCOVER_DJ_top_Lg.jpg
-
-   http://www.ionaudio.com/images/products/DISCOVER_DJ_top_Lg.jpg
+The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-ing” for people with a potential interest. It does not have a built in sound card, so a `splitter
+cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound card <hardware%20compatibility#USB%20sound%20cards>`__ is required to use headphones with it.
 
 -  `Manufacturer’s product page <http://www.ionaudio.com/products/details/discover-dj>`__
 -  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=939>`__
-
-The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-ing” for people with a potential interest. It does not have a built in sound card, so a `splitter
-cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound card <hardware%20compatibility#USB%20sound%20cards>`__ is required to use headphones with it.
 
 Compatibility
 -------------

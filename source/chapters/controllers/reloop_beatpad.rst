@@ -1,16 +1,13 @@
 Reloop Beatpad
 ==============
 
-[[/media/hardware/reloop/reloopbeatpadtp.png|]]
-
--  `Manufacturer’s product page <http://www.reloop.com/reloop-beatpad>`__
--  `Forum thread : mapping to download, users feedback, installation
-   notes <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7581>`__
-
 The **Reloop Beatpad** is a conventional 2 channel controller that is primarily
 designed to work with algoriddim‘s djay on the iOS platform and more recently on
 the Android platform, but can also be used with Mixxx by sending MIDI signals to
 a computer with a USB cable.
+
+-  `Manufacturer’s product page <http://www.reloop.com/reloop-beatpad>`__
+-  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7581>`__
 
 Mixer Section
 -------------

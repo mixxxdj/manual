@@ -1,10 +1,6 @@
 American Audio VMS2
 ===================
 
--  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
--  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
-
 The American Audio VMS2 is a 2-deck all-in-one controller. It is a USB
 class compliant MIDI and audio device that works with GNU/Linux, Mac OS
 X, and Windows. It features a 4 channel input and 4 channel output sound
@@ -13,6 +9,10 @@ not use both at once). There is a separate RCA booth output. The VMS2
 can also be used as a stand-alone mixer with analog sources without a
 computer by setting the USB/Analog switches on the front of the device
 to “Analog”.
+
+-  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
+-  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
+-  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 
 Audio Setup
 -----------

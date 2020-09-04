@@ -1,19 +1,14 @@
 MixVibes U-Mix Control (Pro) 2
-------------------------------
-
-.. figure:: http://www.mixvibes.com/sites/default/files/products/pictures/2012.03.01_U-MIXCONTROLPRO2_persp_LD.png
-   :alt: http://www.mixvibes.com/sites/default/files/products/pictures/2012.03.01_U-MIXCONTROLPRO2_persp_LD.png
-
-   http://www.mixvibes.com/sites/default/files/products/pictures/2012.03.01_U-MIXCONTROLPRO2_persp_LD.png
-
--  `Manufacturer’s product page <http://www.mixvibes.com/products/u-mix-control-pro-2>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=4892>`__
+==============================
 
 The MixVibes U-Mix Control Pro 2 is a MIDI DJ controller with an **internal soundcard** and **two
 Inputs** for Turntables or any Audio-Source with RCA. It offers also a **changeable** Cross-fader, **adjustable**
 Cross-Fader **Curve** and **individual Touch-Level-Sensors**.
 The U-Mix Control **Pro** differs only in Cue-Button-Labels
 The U-Mix Control 2 (without “Pro” = internal soundcard) also. Both should work fine with this MIDI mapping.
+
+-  `Manufacturer’s product page <http://www.mixvibes.com/products/u-mix-control-pro-2>`__
+-  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=4892>`__
 
 Mapping description
 -------------------

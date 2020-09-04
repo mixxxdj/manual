@@ -1,9 +1,6 @@
 Reloop Beatmix 4
 ================
 
--  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
-
 The **Reloop Beatmix 4** is a performance-oriented 4-channel pad controller with
 integrated soundcard. **Beatmix 4** offers an ergonomically designed 4-channel
 mixer layout, optimized for the club allowing you to work intuitively: Dedicated
@@ -11,7 +8,10 @@ equalizer and gain dials, high-quality line-faders, an extremely smooth-running
 crossfader, 16 multi-colour drum pads, as well as two extensive FX units are the
 foundation for your creativity.
 
-This controller is a midi and audio class compliant device so it is compatible
+-  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
+-  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
+
+This controller is a MIDI and audio class compliant device so it is compatible
 as-is with Linux, MacOS and Windows. However, on windows, the manufacturer ship
 an ASIO low-latency driver that can be found on the `Manufacturer’s product
 page <http://www.reloop.com/reloop-beatmix-4>`__.
@@ -25,8 +25,6 @@ using the mouse or keayboard.
 
 Mixer Section
 -------------
-
-[[/media/reloop-beatmix4_mixer-section.png|]]
 
 1.  **MASTER** Controls the master volume to your main sound system. This
     controls the built in sound card and has no effect on the master gain knob
@@ -61,8 +59,6 @@ Mixer Section
 Trax selector and Back button
 -----------------------------
 
-[[/media/reloop-beatmix4_trax-selector.png|]]
-
 The trax selector let you navigate through your library (playlist and tracks) as
 well as preview tracks.
 
@@ -84,8 +80,6 @@ The trax selector has three modes:
 
 Transport Section
 -----------------
-
-[[/media/reloop-beatmix4_transport-section.png|]]
 
 **PLAY/PAUSE** Press to launch and pause your track.
 
@@ -109,9 +103,6 @@ on both).
 
 Jog wheel and pitch slider
 --------------------------
-
-[[/media/Reloop-Beatmix4_JogWheel.png|]]
-[[/media/reloop-beatmix4_pitchslider.png|]]
 
 Touch and move the jog wheel to scratch (either deck playing or not).
 
@@ -140,8 +131,6 @@ effects <#Effects-Section>`__.
 
 Effects Section
 ---------------
-
-[[/media/reloop-beatmix4_fx-section.png|]]
 
 The effect section let you control the first two EffectUnits. There are two
 different effect modes mapped:
@@ -175,8 +164,6 @@ corresponding led will blink three times, indicating which mode you switched to.
 
 Pad Section
 -----------
-
-[[/media/reloop-beatmix_pad-section.png|]]
 
 Mode A - Cue points and Loops
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

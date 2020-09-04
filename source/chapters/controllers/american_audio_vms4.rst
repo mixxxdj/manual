@@ -1,16 +1,16 @@
 American Audio VMS4/4.1
 =======================
 
--  `Original VMS4 <http://www.adj.com/vms4>`__
--  `VMS4.1 <http://www.adj.com/vms4-1>`__
--  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
--  `VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__
-
 The original VMS4 has problems with sound quality. The microphone input
 impedance is off and the output volume is low. The VMS4.1 is the same
 controller, except that those hardware issues have been fixed. The
 Traktor edition has different labels on some buttons & knobs, but it’s
 otherwise the same hardware as the VMS4.1.
+
+-  `Original VMS4 <http://www.adj.com/vms4>`__
+-  `VMS4.1 <http://www.adj.com/vms4-1>`__
+-  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
+-  `VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__
 
 Setup
 -----
@@ -143,9 +143,10 @@ side controls Deck 1 and the right side controls Deck 2.*
 -  **Touch strip**
    Scroll through the respective Library panes. (Left for the
    folders/crates list, right for the track list.)
-    - Hold Shift and touch:
-         - to affect the Dry/Wet knob on the respective effect unit while the deck is playing
-         - for Needle drop - search through the track while the deck is stopped
+   Hold Shift and touch:
+   -  to affect the Dry/Wet knob on the respective effect unit while the deck is playing
+   -  for Needle drop - search through the track while the deck is stopped
+
 -  **Wheel**
    Move the wheel while touching the top to scratch the current track like a vinyl record
    Move the wheel without touching the top (so on the sides) to perform a temporary pitch bend
@@ -162,12 +163,16 @@ The left side controls effect unit 1 and the right side controls effect
 unit 2.
 
 -  **Select knob**
+
   -  Rotate to choose the effect chain preset
   -  Press to toggle whether the effect unit is on or not
+
 -  **Control knob**
+
   -  Adjusts the wet/dry ratio
   -  When Parameter is on, this becomes the Wonder Knob, adjusting all
      effect parameters at once
+
 -  **On/Off** - Toggles the effect for the deck matching the effect unit
    number
 -  **Parameter** - Toggles what the above Control knob adjusts
@@ -196,7 +201,7 @@ Mixer controls
 The volume sliders don’t control the ones in Mixxx because direct Deck
 outputs are affected by Mixxx’s internal ones.
 
--  **Midilog 1** - This strip controls Deck 3/C
--  **Midilog 2** - This strip controls Deck 1/A
--  **Midilog 3** - This strip controls Deck 2/B
--  **Midilog 4** - This strip controls Deck 4/D
+-  **Midilog 1:** This strip controls Deck 3/C
+-  **Midilog 2:** This strip controls Deck 1/A
+-  **Midilog 3:** This strip controls Deck 2/B
+-  **Midilog 4:** This strip controls Deck 4/D

@@ -1,14 +1,19 @@
 Stanton SCS.3m “DaMix”
 ======================
 
-[[/media/hardware/stantonscs/scs3m_angle.jpg|]]
-
 -  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3m.html>`__
 
 Mapping Description
 -------------------
 
-[[/media/hardware/stantonscs/scs3m_main.png|]]
+.. figure:: ../../_static/controllers/stanton_scs3m.png
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3m "DaMix" (top view)
+   :figclass: pretty-figures
+
+   Stanton SCS.3m "DaMix" (top view)
+
 
 The left side of the controller controls deck 1. The right side is for deck 2.
 This l’ll walk through the controller from top to bottom and explain the

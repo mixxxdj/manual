@@ -15,21 +15,21 @@ page <http://www.stantondj.com/stanton-controllers-systems/djc4.html//>`__.
 Sound card setup
 ----------------
 
-[[/media/hardware/stanton-djc-4-rear.jpg|]]
-
 This controller has a built-in 4 channel sound card, with MASTER output (RCA and balanced 6.3 mm TRS) and HEADPHONE output (6.3 and 3.5mm jack).
 
-============= ========================
-Output        
-============= ========================
-Channels      Assign to
-1-2           Master
-3-4           Headphones
-Input         
-Channels      Assign to
-1-2 (Input 1) Vinyl Control 1 or Aux 1
-3-4 (Input 2) Vinyl Control 2 or Aux 2
-============= ========================
+=============== ========================
+Output Channels Assign to
+=============== ========================
+1-2             Master
+3-4             Headphones
+=============== ========================
+
+=============== ========================
+Input Channels  Assign to
+=============== ========================
+1-2 (Input 1)   Vinyl Control 1 or Aux 1
+3-4 (Input 2)   Vinyl Control 2 or Aux 2
+=============== ========================
 
 Above the **Gain** knobs are switches to select which input should be sent to the PC. For input 1 this can be Aux (3.5 mm TRS) or Line/Phono 1/2 (RCA) and for input 2 this can be microphone (6.3 mm
 TRS on front) or Line/Phono 3/4 (RCA).
@@ -48,8 +48,6 @@ Hardware controls
 The **Master** and **Mic Level** are hardware controls and interact directly with the integrated sound card and are not mapped to Mixxx.
 
 Please refer to `the user manual <https://mixxx.org/manual/latest/en/chapters/djing_with_mixxx.html#djing-gain-staging>`__ in order to learn how to set your levels properly when using Mixxx.
-
-[[/media/hardware/stanton-djc-4-front.jpg|]]
 
 Mapping description
 -------------------

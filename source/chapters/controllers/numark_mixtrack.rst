@@ -3,16 +3,23 @@
 Numark Mixtrack
 ===============
 
+This controller as the same as the :ref:`Numark Mixtrack Pro <numark-mixtrack-pro>` but without a built-in sound card.
+It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mixtrack-pro-3>`.
+
 -  `Manufacturer’s product page <http://www.numark.com/mixtrack>`__
 -  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=1808>`__
-
-This controller as the same as the :ref:`Numark Mixtrack Pro <numark-mixtrack-pro>`__ but without a built-in sound card.
-It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mixtrack-pro-3>`__.
 
 Mapping Description
 -------------------
 
-[[/media/numarkmixtrack_tech.png|]]
+.. figure:: ../../_static/controllers/numark_mixtrack.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack (schematic view)
+   :figclass: pretty-figures
+
+   Numark Mixtrack (schematic view)
 
 1.  USB cable
 2.  Channel Treble

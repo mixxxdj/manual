@@ -6,10 +6,6 @@ Stanton SCS.1d
 Mapping description
 -------------------
 
-[[/media/hardware/stantonscs/scs.1d_callouts.jpg|]]
-
-*Image courtesy of*\ `Stanton Magnetics, Inc. <http://www.stantondj.com>`__
-
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
 

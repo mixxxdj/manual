@@ -1,18 +1,27 @@
 Numark N4
 =========
 
-.. figure:: http://www.numark.com/images/sized/images/product_large/n4_top_vdj_lg_02-624x390.jpg
-   :alt: http://www.numark.com/images/sized/images/product_large/n4_top_vdj_lg_02-624x390.jpg
-
-   http://www.numark.com/images/sized/images/product_large/n4_top_vdj_lg_02-624x390.jpg
+The Numark N4 is a 4-deck DJ controller with seamless integration of external devices.
 
 -  `Manufacturer’s product page <http://www.numark.com/product/n4>`__
+-  `Wiki page <https://github.com/mixxxdj/mixxx/wiki/Numark-N4>`__
 
-This mapping features full 4-deck support and seamless integration of external devices.
+Mapping Description
++++++++++++++++++++
 
-This mapping has some unusual features like per Deck shift buttons and multiple pages of hotcues. [[/media/hardware/numark/n4_mixxx_overlay.svg|]]
+.. figure:: ../../_static/controllers/numark_n4.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark N4 (schematic view)
+   :figclass: pretty-figures
 
-This overlay can be downloaded in a ready to print format for DIN [[/media/hardware/numark/numarkn4-mixxx-overlay-a3.pdf|A3]] and [[/media/hardware/numark/numarkn4-mixxx-overlay-a4.pdf|A4]] printers.
+   Numark N4 (schematic view)
+
+
+This mapping has some unusual features like per Deck shift buttons and multiple pages of hotcues.
+An annotated, ready-to-print overlay of this mapping can be downloaded for :download:`DIN A3<../../_static/controllers/numark_n4_overlay_a3.pdf>` and :download:`DIN A4<../../_static/controllers/numark_n4_overlay_a4.pdf>` printers.
+
 
 Definable Settings
 ------------------

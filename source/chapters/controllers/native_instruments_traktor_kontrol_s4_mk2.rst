@@ -1,10 +1,6 @@
 Native Instruments Traktor Kontrol S4 MK2
 =========================================
 
-[[/media/native_instrument_traktor_s4-mkii-1.jpg|native_instrument_traktor_s4-mkii-1.jpg]]
-
--  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
-
 The Kontrol S4 MK2 is a 4 deck all-in-one controller with a sturdy build quality and integrated sound card. The MK2 has substantial improvements over the S4 MK1, including large multicolor buttons.
 The MK1 is not supported and cannot be supported because it uses a proprietary communication protocol exclusive to Traktor. The MK2 uses the standard HID protocol (also used by keyboards & mice) to
 send and receive signals from a computer, so it can work with Mixxx. The easiest way to tell the MK1 apart from the MK2 is the appearance of the jog wheel. On the MK1, the top of the jog wheel is
@@ -12,6 +8,8 @@ black plastic; on the MK2, the top of the jog wheel is shiny aluminum.
 
 The Kontrol S4 Mk2 can run from USB bus power. Using the separate power supply increases the brightness of the LEDs, which is helpful for using it in daylight, and increases the volume of the
 headphone output.
+
+-  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
 
 Compatibility
 -------------
@@ -34,7 +32,7 @@ The phono inputs on the S4 can be used with turntables for timecode vinyl contro
 Mixxx is the full version. However, note that Mixxx is not compatible with Traktor Scratch Mk2 timecode; refer to the `Mixxx
 manual <http://mixxx.org/manual/latest/chapters/vinyl_control.html#supported-timecode-media>`__ for a list of supported types of timecode.
 
-Mapping description
+Mapping Description
 -------------------
 
 Note that Mixxx doesn’t have the concept of a single “master” deck for sync. Instead, push and hold the sync button to “lock” sync on for all decks you want to remain in sync. Or you can push Shift +

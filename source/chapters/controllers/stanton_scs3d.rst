@@ -1,15 +1,19 @@
 Stanton SCS.3d “DaScratch”
 ==========================
 
-[[/media/hardware/stantonscs/scs3dangle.jpg|scs3dangle.jpg]]
-
 -  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__
 -  `Walk-through video! <http://www.youtube.com/watch?v=8DUpTikA8u0>`__
 
 Default Mapping
 ---------------
 
-[[/media/hardware/stantonscs/scs3d_preset.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_layout.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (layout)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (layout)
 
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
@@ -54,7 +58,14 @@ text editor and you’ll see these variables right near the top. Edit & save.
 Mode buttons
 ~~~~~~~~~~~~
 
-[[/media/hardware/stantonscs/modebuttons.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_modebuttons.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (mode buttons)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (mode buttons)
+
 
 -  FX - Adjust & toggle Flanger effect, toggle reverse effect
 -  EQ - Adjust channel EQ parameters
@@ -102,7 +113,13 @@ These modes let you adjust the effect unit parameters. The FX button will be red
 when adjusting effect unit 1, purple for unit 2, and black for unit 3. (In Mixxx
 versions below 2.0.1, there is only one mode that adjusts the Flanger effect.)
 
-[[/media/hardware/stantonscs/slidermode.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_slidermode.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (slider mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (slider mode)
 
 -  Left slider (S3) adjusts the first effect parameter
 -  Center slider (S4) adjusts the second effect parameter
@@ -115,7 +132,13 @@ Hold the FX button down and touch any slider to reset it to center.
 EQ Mode
 ~~~~~~~
 
-[[/media/hardware/stantonscs/slidermode.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_slidermode.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (slider mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (slider mode)
 
 -  Left slider (S3) adjusts low frequency equalizer
 -  Center slider (S4) adjusts mid frequency equalizer
@@ -206,7 +229,15 @@ light when a cue point is set on that button. (Changeable with the
 Vinyl Modes
 -----------
 
-[[/media/hardware/stantonscs/circlemode.gif|]] **Vinyl mode (red)**
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (circle mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (circle mode)
+
+**Vinyl mode (red)**
 
 -  Outer circle (C1) and Center slider (S4) allow you to bend the song’s pitch,
    akin to dragging your finger on the record
@@ -232,8 +263,15 @@ Vinyl Modes
 Deck Mode
 ~~~~~~~~~
 
-[[/media/hardware/stantonscs/slidermode.jpg|]] You are in this mode only **while
-holding down the Deck button**, unless the controller is in single-deck mode*:
+.. figure:: ../../_static/controllers/stanton_scs3d_slidermode.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (slider mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (slider mode)
+
+You are in this mode only **while holding down the Deck button**, unless the controller is in single-deck mode:
 
 -  Gain slider (S1) adjusts master volume
 -  Pitch slider (S2) adjusts master balance (pan)
@@ -261,7 +299,13 @@ in the controller preferences.
 General controls
 ~~~~~~~~~~~~~~~~
 
-[[/media/hardware/stantonscs/slidermode.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_slidermode.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (slider mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (slider mode)
 
 Unless otherwise noted, the following controls have the same function in all
 modes.
@@ -291,7 +335,14 @@ have alternate overlays, you can switch to those by touching the mode again. The
 first overlay is red, the second blue, the third is purple. The following
 mode-overlays are available:
 
-[[/media/hardware/stantonscs/modebuttons.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_modebuttons.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (mode buttons)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (mode buttons)
+
 
 -  FX: (red) Control effect device; (blue) Control deck superknob
 -  EQ: (red) Control deck EQ
@@ -315,7 +366,13 @@ Each mode will be explained in detail below.
 FX mode
 ~~~~~~~
 
-[[/media/hardware/stantonscs/slidermode.jpg|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_slidermode.jpg
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (slider mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (slider mode)
 
 FX mode allows you to control effects. Slider S2 controls the wet/dry mix of the
 current effect. Sliders S3, S4, and S5 control the first three effect knobs on
@@ -383,7 +440,14 @@ held.
 LOOP mode
 ~~~~~~~~~
 
-[[/media/hardware/stantonscs/circlemode.gif|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (circle mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (circle mode)
+
 
 By touching the circle you activate a loop over a certain number of beats.
 Touching on the right side will activate a beat-loop over 1, 2, 4, 8 etc beats,
@@ -413,7 +477,13 @@ three, for cue points 11 to 15 (purple light).
 VINYL mode
 ~~~~~~~~~~
 
-[[/media/hardware/stantonscs/circlemode.gif|]]
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+   :align: center
+   :figwidth: 100%
+   :alt: Stanton SCS.3d (circle mode)
+   :figclass: pretty-figures
+
+   Stanton SCS.3d (circle mode)
 
 The circle C1 functions as a jog-wheel, slide clockwise to speed-up the track.
 The center slider S4 can be used to raise and lower speed by holding it above or

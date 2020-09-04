@@ -1,8 +1,6 @@
 Numark Mixtrack Platinum
 ========================
 
-[[/media/undefined/mixtrackplatinum_ortho_3000x1875_web.jpg|]]
-
 -  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-platinum>`__
 -  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8863>`__
 
@@ -37,7 +35,14 @@ are “true” or “false” unless specified.
 Mapping
 -------
 
-[[/media/hardware/mixtrack_platinum_labeled.png|]]
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack Platinum (schematic view)
+   :figclass: pretty-figures
+
+   Numark Mixtrack Platinum (schematic view)
 
 | 1. **Browse Knob:** Rotate this knob clockwise to scroll down, counter clockwise to scroll up. Press the Knob to load tracks into the inactive deck, expand entries in the library view, and select
   playlists and crates.

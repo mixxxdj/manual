@@ -1,15 +1,16 @@
 Stanton SCS.1m
 ==============
 
-[[/media/hardware/stantonscs/scs1mproductshot.png|]]
+-  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
 
--  `Manufacturer’s product
-   page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
+.. figure:: ../../_static/controllers/stanton_scs1m.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Stanton SCS.1m (top/schematic view)
+   :figclass: pretty-figures
 
-[[/media/hardware/stantonscs/scs1m-map.png|]]
-
-*Image courtesy of*\ `Stanton Magnetics, Inc. <http://www.stantondj.com>`__\ *,
-overlay (C) 2009 Sean M. Pappalardo*
+   Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo.
 
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:

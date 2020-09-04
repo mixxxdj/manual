@@ -44,7 +44,16 @@ The MKII features a 1/8 inch headphone connection along with standard 1/4 inch c
 Mapping description
 -------------------
 
-[[/media/vestax-vci-300-overview.png|]] Image (c) `Vestax <http://www.vestax.com>`__
+.. figure:: ../../_static/controllers/vestax_vci_300.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Vestax VCI-300 (schematic view)
+   :figclass: pretty-figures
+
+   Vestax VCI-300 (schematic view)
+   Image (c) `Vestax <http://www.vestax.com>`__
+
 
 Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely resemble the original to make the transition easy.
 

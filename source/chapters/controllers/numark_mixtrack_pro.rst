@@ -1,17 +1,24 @@
+.. _numark-mixtrack-pro:
+
 Numark Mixtrack Pro
 ===================
 
-[[/media/numark_mixtrackpro.jpg|]]
+This is the same as the :ref:`Numark Mixtrack <numark-mixtrack>` with the addition of an integrated sound card. This product has been discontinued and succeeded by the :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>`.
 
 -  `Manufacturer’s product page <http://www.numark.com/product/mixtrackpro>`__
-
-This is hte same as the `Numark Mixtrack <Numark%20Mixtrack>`__ with the addition of an integrated sound card. This product has been discontinued and succeeded by the `Numark Mixtrack Pro
-3 <Numark%20Mixtrack%20Pro%203>`__.
 
 Mapping Description
 -------------------
 
-[[/media/mixtrackproschema.png|]]
+.. figure:: ../../_static/controllers/numark_mixtrack_pro.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack Pro (schematic view)
+   :figclass: pretty-figures
+
+   Numark Mixtrack Pro (schematic view)
+
 
 1.  **USB:** This USB connection sends and receives control information to/from a connected computer.
 2.  **CHANNEL TREBLE:** Adjusts the high (treble) frequencies of the corresponding channel.

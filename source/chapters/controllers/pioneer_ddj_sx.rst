@@ -1,12 +1,13 @@
 Pioneer DDJ-SX
 ==============
 
+The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive control of all of Mixxx’s features. The DDJ-SX mapping `reportedly works with the
+DDJ-SX2 <https://mixxx.org/forums/viewtopic.php?p=37884#p37884>`__, but it does not use the new features of the DDJ-SX2 hardware.
+
 -  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/controller/ddj-sx/black/overview/>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8310>`__
 -  `Manual (multi-language) <http://docs.pioneerdj.com/Manuals/DDJ_SX_DRH1193_manual/>`__
 
-The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive control of all of Mixxx’s features. The DDJ-SX mapping `reportedly works with the
-DDJ-SX2 <https://mixxx.org/forums/viewtopic.php?p=37884#p37884>`__, but it does not use the new features of the DDJ-SX2 hardware.
 
 User Options
 ------------
@@ -516,7 +517,14 @@ The PAD lights show the active part in the active section: The active part PAD i
 
 Continuous slice mode moves to the next section if the end of the previous active section is reached.
 
-[[/media/hardware/pioneerddjsx/pioneerddjsx_slicertype1.png|]]
+.. figure:: ../../_static/controllers/pioneer_ddj_sx_slicertype1.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Pioneer DDJ SX Slicer (type 1)
+   :figclass: pretty-figures
+
+   Pioneer DDJ SX Slicer (type 1)
 
 By pressing PAD X, the play position jumps to the beat X of the active section. If you have pressed the PAD on-beat and hold it, the play position is playing in loop. The beat loop length depends on
 the selected slicer quantization (changeable by pressing [**PARAMETER LEFT**] or [**PARAMETER RIGHT**]). If you release the PAD, the playback will resume where the track would have been if the slicer
@@ -530,7 +538,15 @@ The PAD lights show the active part in the active section: The active part PAD l
 As soon as loop slice mode is activated, the active section is played in loop (not visible in waveform). If the end of the active section is reached, the play position jumps back to the beginning of
 the active section.
 
-[[/media/hardware/pioneerddjsx/pioneerddjsx_slicertype2.png|]]
+.. figure:: ../../_static/controllers/pioneer_ddj_sx_slicertype2.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Pioneer DDJ SX Slicer (type 2)
+   :figclass: pretty-figures
+
+   Pioneer DDJ SX Slicer (type 2)
+
 
 By pressing PAD X, the play position jumps to the beat X of the active section. In loop slice mode beat loop is not possible.
 
