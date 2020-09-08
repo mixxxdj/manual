@@ -30,7 +30,6 @@ import sphinx_rtd_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
     'sphinx.ext.todo',
     'sphinx.ext.graphviz',
     'sphinx_rtd_theme',
@@ -45,7 +44,6 @@ templates_path = ['_templates']
 # The suffix of source filenames.
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.md': 'markdown',
 }
 
 # The encoding of source files.
