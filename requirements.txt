@@ -1,9 +1,6 @@
-fabric3<2.0
 sphinx
 sphinx-intl
 graphviz
-pycrypto
-ecdsa
 markupsafe
 transifex-client
 sphinx-rtd-theme==0.4.3
