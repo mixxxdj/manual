@@ -1,8 +1,8 @@
-Hercules DJ Control Instinct (S)
-================================
+Hercules DJControl Instinct (S)
+===============================
 
 This is the cheapest all-in-one controller with an integrated sound
-card. The DJ Control Instinct S is functionally identical to the DJ
+card. The DJControl Instinct S is functionally identical to the DJ
 Control Instinct, but has a brushed stainless finish.
 
 -  Manufacturer’s product pages:
