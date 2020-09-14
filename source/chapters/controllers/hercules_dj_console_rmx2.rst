@@ -1,5 +1,5 @@
-Hercules DJ Console RMX 2
-=========================
+Hercules DJ Console RMX2
+========================
 
 -  `Manufacturer’s product page <http://www.hercules.com/us/DJ-Music/bdd/p/193/djconsole-rmx-2/>`__
 -  `Manual / Midi commands <https://support.hercules.com/de/product/djconsolermx2-de>`__
