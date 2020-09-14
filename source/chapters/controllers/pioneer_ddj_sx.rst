@@ -2,7 +2,7 @@ Pioneer DDJ-SX
 ==============
 
 The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive control of all of Mixxx’s features. The DDJ-SX mapping `reportedly works with the
-DDJ-SX2 <https://mixxx.org/forums/viewtopic.php?p=37884#p37884>`__, but it does not use the new features of the DDJ-SX2 hardware.
+DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954/22#p37884>`__, but it does not use the new features of the DDJ-SX2 hardware.
 
 -  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/controller/ddj-sx/black/overview/>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8310>`__

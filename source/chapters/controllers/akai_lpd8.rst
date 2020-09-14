@@ -2,7 +2,7 @@ Akai LPD8
 =========
 
 -  `Manufacturer’s product page <http://www.akaipro.com/product/lpd8>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=4477>`__
+-  `Forum thread <https://mixxx.discourse.group/t/akai-lpd8-mapping-4-decks-30-hotcues-loops-etc-v2/13064>`__
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

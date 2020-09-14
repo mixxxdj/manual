@@ -9,7 +9,7 @@ Behringer B-Control Deejay BCD 3000
 By default, the input channels 1-2 use the RCA phono inputs for the
 source signal. On Windows, this can be switched to the microphone in the
 ASIO driver control panel. On GNU/Linux and Mac OS X, `a particular MIDI
-message must be sent <http://mixxx.org/forums/viewtopic.php?f=3&t=8380>`
+message must be sent <https://mixxx.discourse.group/t/mixxx-bcd3000-mic-port-is-not-work/16008>`
 to switch channels 1-2 to the microphone input.
 
 .. note::

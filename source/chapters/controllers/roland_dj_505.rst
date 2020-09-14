@@ -11,7 +11,7 @@ sequencer with sounds from the TR-808 and the TR-909 drum machines
 -  `Serato DJ Hardware Page <https://serato.com/dj/hardware/roland-dj-505>`__
 -  `Owner’s Manual <https://www.roland.com/global/support/by_product/dj-505/owners_manuals/>`__
 -  `Driver/Firmware/TR-S Samples Download Page <https://www.roland.com/global/products/dj-505/downloads>`__
--  `Mapping Forum Thread <https://mixxx.org/forums/viewtopic.php?f=7&t=12688>`__
+-  `Mapping Forum Thread <https://mixxx.discourse.group/t/roland-dj-505/17916>`__
 
 Drivers
 -------

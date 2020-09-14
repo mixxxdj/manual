@@ -3,8 +3,8 @@ Hercules DJ Console RMX 2
 
 -  `Manufacturer’s product page <http://www.hercules.com/us/DJ-Music/bdd/p/193/djconsole-rmx-2/>`__
 -  `Manual / Midi commands <https://support.hercules.com/de/product/djconsolermx2-de>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=11860>`__
--  `Previous forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=4541>`__
+-  `Forum thread <https://mixxx.discourse.group/t/hercules-dj-console-rmx-2-mapping-overhaul/17278>`__
+-  `Previous forum thread <https://mixxx.discourse.group/t/custom-midi-mapping-hercules-rmx-2-0-1-3/13102>`__
 
 This all-in-one DJ controller features a built in 4 channel sound card with balanced XLR master outputs and a balanced microphone input. It is a USB class compliant MIDI and audio device (unlike older
 Hercules controllers).

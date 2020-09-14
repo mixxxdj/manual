@@ -1,7 +1,7 @@
 Vestax Spin
 ===========
 
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=5250>`__
+-  `Forum thread <https://mixxx.discourse.group/t/vestax-spin-mapping-v1-2-bhvn-official/13583>`__
 
 Vestax went out of business in 2014.
 

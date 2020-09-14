@@ -9,7 +9,7 @@ not have a built in sound card, so it requires a separate sound card or
 splitter cable (although it does include 5-pin MIDI in and out ports).
 
 -  `Manufacturer’s website <http://electrixpro.com/>`__
--  `Forum topic <http://mixxx.org/forums/viewtopic.php?f=7&t=7189>`__
+-  `Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-mapping/15071>`__
 -  `Manufacturer’s manual <http://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
 
 Compatibility and setup

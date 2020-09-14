@@ -2,7 +2,7 @@ Numark Total Control
 ====================
 
 -  `Manufacturer’s product page <http://www.numark.com/totalcontrol>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=1252>`__
+-  `Forum thread <https://mixxx.discourse.group/t/numark-total-control/10507>`__
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

@@ -10,7 +10,7 @@ Control Instinct, but has a brushed stainless finish.
    -  `DJ Control Instinct S <http://www.hercules.com/us/leisure-controllers/bdd/p/248/djcontrol-instinct-s-series/>`__
    -  `DJ Control Instinct <http://www.hercules.com/us/DJ-Music/bdd/p/187/djcontrol-instinct/>`__
 
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3907>`__
+-  `Forum thread <https://mixxx.discourse.group/t/hercules-dj-control-instinct/12623>`__
 
 Setup
 -----

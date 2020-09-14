@@ -11,7 +11,7 @@ Hercules P32 DJ
 -  Mapping files on GitHub: `Hercules P32 DJ.midi.xml <https://raw.githubusercontent.com/Be-ing/mixxx/hercules_p32_mapping/res/controllers/Hercules%20P32%20DJ.midi.xml>`__ and
    `Hercules-P32-scripts.js <https://raw.githubusercontent.com/Be-ing/mixxx/hercules_p32_mapping/res/controllers/Hercules-P32-scripts.js>`__ (save both files to your `controller mapping file
    locations#user controller mapping folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__)
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=8132>`__
+-  `Forum thread <https://mixxx.discourse.group/t/hercules-p32-dj-controller-mapping/15804>`__
 -  `DJTechTools review <http://djtechtools.com/2016/06/22/can-pads-replace-jogs-hercules-p32-dj-controller/>`__
 -  `Digital DJ Tips review <http://www.digitaldjtips.com/2016/03/review-video-hercules-p32-dj-grid-pad-controller/>`__
 

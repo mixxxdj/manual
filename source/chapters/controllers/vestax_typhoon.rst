@@ -2,7 +2,7 @@ Vestax Typhoon
 ==============
 
 -  `Manfacturer’s product page <http://serato.com/hardware/vestax-typhoon>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3822>`__
+-  `Forum thread <https://mixxx.discourse.group/t/vestax-typhoon-mapping-for-mixxx-2-0/12551>`__
 
 Vestax went out of business in 2014.
 

@@ -7,7 +7,7 @@ This controller as the same as the :ref:`Numark Mixtrack Pro <numark-mixtrack-pr
 It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mixtrack-pro-3>`.
 
 -  `Manufacturer’s product page <http://www.numark.com/mixtrack>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=1808>`__
+-  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack/10918>`__
 
 Mapping Description
 -------------------

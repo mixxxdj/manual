@@ -9,7 +9,7 @@ interface and does not come with the EVA travel case that the K2 comes
 with.
 
 -  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3776>`__
+-  `Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__
 -  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
 -  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
 

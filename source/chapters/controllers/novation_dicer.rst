@@ -2,7 +2,7 @@ Novation Dicer
 ==============
 
 -  `Manufacturer’s product page <http://www.novationmusic.com/global/products/digital_dj/dicer/>`__
--  `Forum thread <http://mixxx.org/forums/viewtopic.php?f=7&t=3583>`__
+-  `Forum thread <https://mixxx.discourse.group/t/novation-dicer-mapping/12329>`__
 
 The Novation Dicer is a small controller designed to be placed on the corner of turntables for use with timecode vinyl. They are sold in pairs.
 
