@@ -1,10 +1,10 @@
-Hercules DJ Control Compact
-===========================
+Hercules DJControl Compact
+==========================
 
 -  `Manufacturer’s product page <https://www.hercules.com/us/DJ-Music/bdd/p/253/djcontrol-compact/>`__
 - `MIDI mapping manual <http://ts.hercules.com/download/sound/manuals/DJC_Compact/DJC_Compact_MIDI_Mapping.pdf>`__
 
-The Hercules DJ Control Compact is a simple controller for basic
+The Hercules DJControl Compact is a simple controller for basic
 two-channel mixing. This device does not have a built in sound card, so
 it would require a `splitter
 cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound
