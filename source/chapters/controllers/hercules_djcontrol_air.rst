@@ -1,13 +1,13 @@
-Hercules DJ Control Air
+Hercules DJ Control AIR
 =======================
 
 This is one of the cheapest Hercules DJ controller from Hercules leisure
 DJ controllers brand. There are actually many versions of it:
 
--  DJ Control Air (The one shown in picture above)
--  DJ Control Air Street Edition (Limited Edition)
--  DJ Control Air S Series
--  DJ Control Air for iPad
+-  DJControl AIR (The one shown in picture above)
+-  DJControl AIR Street Edition (Limited Edition)
+-  DJControl AIR S Series
+-  DJControl AIR for iPad
 
 This controller have built-in soundcard with mixer output (3.5mm jack)
 and headphones output (6.35mm jack).
@@ -33,10 +33,10 @@ Mapping Description
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Hercules DJControl Air (schematic view)
+   :alt: Hercules DJControl AIR (schematic view)
    :figclass: pretty-figures
 
-   Hercules DJControl Air (schematic view). This picture is taken from the `Getting Started Tutorial <http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__ (courtesy of Guillemot Corporation S.A.).
+   Hercules DJControl AIR (schematic view). This picture is taken from the `Getting Started Tutorial <http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__ (courtesy of Guillemot Corporation S.A.).
 
 We assume from the annoted picture above that each decks have same controls.
 
