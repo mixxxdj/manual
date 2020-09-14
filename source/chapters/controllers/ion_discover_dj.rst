@@ -1,4 +1,4 @@
-Ion Discover DJ
+ION Discover DJ
 ===============
 
 The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-ing” for people with a potential interest. It does not have a built in sound card, so a `splitter
