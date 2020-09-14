@@ -1,8 +1,7 @@
 Hercules DJ Console RMX2
 ========================
 
--  `Manufacturer’s product page <http://www.hercules.com/us/DJ-Music/bdd/p/193/djconsole-rmx-2/>`__
--  `Manual / Midi commands <https://support.hercules.com/de/product/djconsolermx2-de>`__
+-  `Manufacturer’s product page <https://support.hercules.com/en/product/djconsolermx-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-dj-console-rmx-2-mapping-overhaul/17278>`__
 -  `Previous forum thread <https://mixxx.discourse.group/t/custom-midi-mapping-hercules-rmx-2-0-1-3/13102>`__
 

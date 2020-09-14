@@ -6,14 +6,9 @@ Hercules P32 DJ
 
    https://www.hercules.com/wp-content/uploads/2018/05/HerculesDJ_HerculesP32DJ_top-1400x747.jpg
 
--  `Manufacturer’s product page <http://www.hercules.com/uk/advanced-controllers/bdd/p/258/hercules-p32-dj/>`__
--  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/p32dj-en/>`__
--  Mapping files on GitHub: `Hercules P32 DJ.midi.xml <https://raw.githubusercontent.com/Be-ing/mixxx/hercules_p32_mapping/res/controllers/Hercules%20P32%20DJ.midi.xml>`__ and
-   `Hercules-P32-scripts.js <https://raw.githubusercontent.com/Be-ing/mixxx/hercules_p32_mapping/res/controllers/Hercules-P32-scripts.js>`__ (save both files to your `controller mapping file
-   locations#user controller mapping folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__)
+-  `Manufacturer’s product page <https://www.hercules.com/en-us/product/herculesp32dj/>`__
+-  `Manufacturer’s technical support page <https://support.hercules.com/en/product/p32dj-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-p32-dj-controller-mapping/15804>`__
--  `DJTechTools review <http://djtechtools.com/2016/06/22/can-pads-replace-jogs-hercules-p32-dj-controller/>`__
--  `Digital DJ Tips review <http://www.digitaldjtips.com/2016/03/review-video-hercules-p32-dj-grid-pad-controller/>`__
 
 The Hercules P32 DJ is a relatively compact DJ controller with a built-in sound card. Rather than jog wheels, it has a 4 x 4 multicolor (red/blue/purple) pad grid for each deck. The pad grids can be
 switched between 4 different layers to perform a variety of functions.
