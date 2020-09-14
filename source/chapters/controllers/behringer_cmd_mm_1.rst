@@ -1,15 +1,6 @@
 Behringer CMD MM-1
 ==================
 
-.. figure:: ../../_static/controllers/behringer_cmd_mm_1_overview.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Behringer CMD MM-1 (overview)
-   :figclass: pretty-figures
-
-   Behringer CMD MM-1 (overview)
-
 The Behringer CMD MM-1 is a flexible controller that controls 4 decks by
 default. The mapping can be easily configured to control any combination
 of decks and effect units. The Behringer CMD DC-1 and Behringer CMD
