@@ -11,7 +11,7 @@ device is not USB MIDI class compliant. Its signals are translated to MIDI by
 special drivers on Windows and macOS. *There is no driver available for Linux.*
 
 -  `Mixxx Forum Thread <https://mixxx.discourse.group/t/create-a-mapping-for-reloop-jockey-3-me/13703>`__
--  `Manufacturer’s product page <http://www.reloop.com/reloop-jockey-3-me>`__
+-  `Manufacturer’s product page <https://www.reloop.com/reloop-jockey-3-me-1114>`__
 -  `Manufacturer’s manual <http://www.reloop.com/media/catalog/product/pdf/2/2/4/224649_Reloop_IM.pdf>`__
 -  `Review from Digitaldjtips.com <http://www.digitaldjtips.com/2011/05/review-video-reloop-jockey-iii-me-controller/2/>`__
 

@@ -1,7 +1,7 @@
 Reloop Beatmix 2
 ================
 
--  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-2>`__
+-  `Manufacturer’s product page <https://www.reloop.com/reloop-beatmix-2>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
 
 The **Reloop Beatmix 2** is a performance-oriented 2-channel pad controller with

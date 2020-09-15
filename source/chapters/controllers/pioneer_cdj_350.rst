@@ -1,7 +1,7 @@
-Pioneer CDJ 350
+Pioneer CDJ-350
 ===============
 
--  `Manufacturer’s product page <http://www.pioneerelectronics.com/PUSA/DJ/CD-DVD-Media-Players/CDJ-350>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/player/archive/cdj-350/black/overview/>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=1917>`__
 
 This is a CD and USB media player that can control Mixxx via USB with

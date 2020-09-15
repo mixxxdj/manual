@@ -1,7 +1,7 @@
 Mixman DM2
 ==========
 
--  `Manufacturer’s product page <http://www.mixman.com/products/dm2.html>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20070811232655/http://www.mixman.com/products/dm2.html>`__ (archived)
 
 .. figure:: ../../_static/controllers/mixman_dm2.png
    :align: center

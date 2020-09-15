@@ -1,7 +1,7 @@
-Pioneer CDJ 2000
+Pioneer CDJ-2000
 ================
 
--  `Manufacturer’s product page <http://www.pioneerelectronics.com/PUSA/DJ/CD-DVD-Media-Players/CDJ-2000>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/player/archive/cdj-2000/black/overview/>`__
 
 This is a CD and USB media player that can control Mixxx over USB with
 MIDI or HID. It can also control Mixxx by playing timecode from a CD or

@@ -1,7 +1,7 @@
 Tascam US-428
 =============
 
--  `Manufacturer’s product page <http://www.tascam.com/products/us-428.html>`__
+-  `Manufacturer’s product page <https://tascam.com/us/product/us-428/top>`__
 
 This product has been discontinued.
 

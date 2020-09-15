@@ -1,3 +1,5 @@
+.. _reloop-beatmix-4:
+
 Reloop Beatmix 4
 ================
 

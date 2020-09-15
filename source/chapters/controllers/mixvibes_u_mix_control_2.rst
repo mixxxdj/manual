@@ -7,7 +7,7 @@ Cross-Fader **Curve** and **individual Touch-Level-Sensors**.
 The U-Mix Control **Pro** differs only in Cue-Button-Labels
 The U-Mix Control 2 (without “Pro” = internal soundcard) also. Both should work fine with this MIDI mapping.
 
--  `Manufacturer’s product page <http://www.mixvibes.com/products/u-mix-control-pro-2>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20151110080127/http://www.mixvibes.com/products/u-mix-control-pro-2>`__ (archived)
 -  `Forum thread <https://mixxx.discourse.group/t/v1-0-mixvibes-u-mix-control-pro-2-mapping/13322>`__
 
 Mapping description

@@ -1,7 +1,7 @@
-Pioneer CDJ 850
+Pioneer CDJ-850
 ===============
 
--  `Manufacturer’s product page <http://www.pioneerelectronics.com/PUSA/DJ/CD-DVD-Media-Players/CDJ-850>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/player/cdj-850/black/overview/>`__
 
 This is a CD and USB media player that can control Mixxx via USB with
 MIDI or HID. It can also control Mixxx by playing timecode from a CD or
