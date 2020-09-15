@@ -1,9 +1,8 @@
 Pioneer DDJ-SB2
 ===============
 
--  [[http://www.pioneerdj.com/en/product/controller/ddj-sb2/black/overview/|Manufacturer’s product page]]
--  [[https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26#p26782|Forum thread]]
--  [[https://github.com/dg3nec/mixxx/tree/DDJ-SB2/res/controllers]]
+-  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb2/black/overview/>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26#p26782>`__
 
 The Pioneer DDJ-SB2 is an all-in-one USB MIDI controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks. It is compatible with Mixxx
 since version 2.0.
