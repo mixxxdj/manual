@@ -633,21 +633,23 @@ Playing Hotcues
   Press the :ref:`Play <control-keyboard>` keyboard shortcut while the hotcue
   button is pressed to continue playback, then release the hotcue button.
 
-Hotcue labels
-^^^^^^^^^^^^^
+Highlighting Hotcues
+^^^^^^^^^^^^^^^^^^^^
 
-You can add custom names to hotcues. Right-clicking on a selected track in the
-:ref:`track list <library-tracks>` reveals the context menu.
-Choose :menuselection:`Properties --> Cuepoints --> Label` and add a label for
-the hotcue. Press :kbd:`Enter` , then click :guilabel:`OK` to save.
+It's possible to add labels or colors to your hotcues to make them easier to
+distinguish and make it possible to get their "meaning" at first glance.
 
-The hotcue indicator on the waveform changes to the format ``#:label``.
+Labels and colors can be assigned from the Hotcue context menu, which can be
+opened by right-clicking either the hotcue button or the hotcue marker in the
+waveform overview.
+
+.. hint:: Mixxx allows :ref:`customizing the color palette <configuration-colors-palette>` and :ref:`bulk replacing hotcue colors <configuration-colors-replace>`.
 
 Deleting Hotcues
 ^^^^^^^^^^^^^^^^
 
-To delete a hotcue, right-click on the numbered button. The marker in the
-waveform will be deleted as well.
+To delete a hotcue, right-click on the hotcue button or the waveform marker in
+the overview waveform to open the context menu, then click the trash icon.
 
 .. note:: Mixxx supports up to 36 hotcues per deck. By default, only some of
           them are visible in the user interface. You can customize your
