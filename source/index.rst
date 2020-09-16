@@ -50,5 +50,5 @@ Table of Contents
    chapters/advanced_topics
    chapters/getting_involved
    chapters/appendix
-   chapters/controllers
+   hardware/guide
    glossary

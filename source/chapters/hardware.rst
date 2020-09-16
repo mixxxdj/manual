@@ -16,9 +16,11 @@ your budget and application area, your setup and requirements may vary. This
 chapter provides general background information about various types of DJ
 hardware.
 
-.. seealso:: The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
-             lists specific devices with information about their prices,
-             features, and compatibility with Mixxx.
+.. seealso:: Instructions how to use your DJ Controller that work out-of-the-box with Mixxx can be found in the
+             :ref:`Hardware Guide <hardware-guide>` section of this manual.
+             The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_
+             on the Mixxx Wiki also lists additional devices, including
+             information about their prices, features, and compatibility with Mixxx.
 
 .. _hardware-controllers:
 
@@ -45,13 +47,12 @@ devices can be used as both a controller and :ref:`hardware mixer
 Mixxx can work with any :term:`MIDI` or :term:`HID` :term:`controller` as long
 as there is a mapping file to tell Mixxx how to understand the controller's
 signals. Mixxx comes bundled with a number of MIDI and HID mapping presets,
-which are listed in the `Mixxx DJ Hardware Guide
-<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ on the wiki. For
-controllers that Mixxx does not yet support, you can `search the forum
-<https://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
+which are listed in the :ref:`Hardware Guide <hardware-guide>` section of this
+manual. For controllers that Mixxx does not yet support, you can `search the forum
+<https://mixxx.discourse.group/c/controller-mappings/10>`_ to see if anyone has
 started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation
-<https://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
+<https://github.com/mixxxdj/mixxx/wiki#controller-mapping-documentation>`_
 on the wiki.
 
 .. seealso:: :ref:`control-midi` describes how to configure Mixxx to use
