@@ -195,7 +195,7 @@ OUT                  Mark end of loop
 RELOOP               Leave / Reenter current loop
 LOOP                 Start a 4 Beat loop from current position
 Smart (Shift + Loop) Toggle quantize
-(:2) / (*2)          Halve or double the current loop length
+(\:2) / (\*2)        Halve or double the current loop length
 ==================== =========================================
 
 As Mixxx currently only supports one active loop per deck, the secondary

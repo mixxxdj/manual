@@ -79,7 +79,7 @@ Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely resembl
 09    Trim                  This controls the volume of the track before it goes to the EQ and fader.
 10    Censor                Temporary play backwards while pressed, resumes from where the playhead would have been if the button was not pressed
 \     Shift + Censor        1.11: Toggle reverse playback. Pressing Censor again during reverse playback, will return to normal playback.
-\     :::                   1.12 (work in progress): Enable/disable effect unit with preselected *Filter* effect. The filter parameter is controlled with the Mid EQ knob next to the button.
+\                           1.12 (work in progress): Enable/disable effect unit with preselected *Filter* effect. The filter parameter is controlled with the Mid EQ knob next to the button.
 11    Auto Loop             Enable beatloop of the current beatloop value (default: 4 beats) for tracks that have BPM calculated
 \     Shift + Auto Loop     Enter/Exit beatloop roll
 \     Scroll + Auto Loop    Reset number of beats to 4 if beatloop not active
@@ -106,8 +106,8 @@ Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely resembl
 \     Cursor Left/Right     Switches to the next view (Library, Queue, etc.)
 \     Tab                   Toggles (expands/collapses) the currently selected sidebar item.
 25    Jog (platter touched) Track search (while paused when scratching is disabled)
-\     :::                   Pitch bend / nudge (while playing when scratching is disabled)
-\     :::                   Scratch (when scratching is enabled)
+\                           Pitch bend / nudge (while playing when scratching is disabled)
+\                           Scratch (when scratching is enabled)
 \     Jog (outer rim)       Pitch bend / nudge
 \     Shift + Jog           Fast track search (while paused)
 \     Scroll + Jog          Scroll playlist (while paused)
