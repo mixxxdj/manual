@@ -200,7 +200,7 @@ Glossary of Terms
      corresponding channel in a stereo audio signal.
 
    tempo
-     The speed of a track measured in :term:`bpm`.
+     The speed of a track measured in :term:`BPM`.
 
    volume
      A term that refers to the degree of sound intensity or audibility; loudness.
@@ -276,7 +276,7 @@ Glossary of Terms
 
    bitrate
      Describe the quality of an audio or video file. For audio data the bitrate
-     is commonly measured in :term:`Kbps`. For example, an MP3 audio file that
+     is commonly measured in :term:`kbps`. For example, an MP3 audio file that
      is compressed at 192 Kbps will have a greater dynamic range and may sound
      slightly more clear than the same audio file compressed at 128 Kbps.
 
@@ -415,7 +415,7 @@ Glossary of Terms
      more information, see `Wikipedia
      <https://en.wikipedia.org/wiki/Open-source_software>`_.
 
-   url
+   URL
      Uniform Resource Locator. The address that defines the route to a file on
      an Internet server. URLs are typed into a Web browser to access Web pages
      and files, and URLs are embedded within the pages themselves as hypertext
@@ -465,7 +465,7 @@ Glossary of Terms
      An Application Program Interface (API) is a specification and set of rules
      for how software programs interact with each other. In Mixxx, an example of
      this is the Sound API that Mixxx uses to communicate with the
-     :term:`Operating System` to make use of the :term:`soundcards` connected to
+     :term:`operating system` to make use of the :term:`soundcards` connected to
      the computer.
 
    macOS
