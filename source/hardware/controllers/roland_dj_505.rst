@@ -32,13 +32,15 @@ The mapping relies on the following channel assignments (for line/phono
 input support, applying effects to the TR-S output, etc.):
 
 ===================== ================
-Output
+Output Channels       Assigned to
 ===================== ================
-Channels              Assigned to
 1-2                   Master
 3-4                   Headphones
-Input
-Channels              Assigned to
+===================== ================
+
+===================== ================
+Input Channels        Assigned to
+===================== ================
 1-2 (CH 1 Line/Phono) Vinyl Control 1
 3-4 (CH 2 Line/Phono) Vinyl Control 2
 5-6 (Mix)             Record/Broadcast
