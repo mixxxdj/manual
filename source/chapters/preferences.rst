@@ -240,6 +240,47 @@ You can manually add, relink, and remove Mixxx music directories in
           rescan afterwards. Select :menuselection:`Library --> Rescan Library`
           in the menu.
 
+.. _configuration-colors:
+
+Colors
+======
+
+.. _configuration-colors-palette:
+
+Selecting Palettes and Default Colors
+-------------------------------------
+
+**Track/Hotcue Palette**
+  It is possible to assign colors to tracks and :ref:`hotcues <interface-hotcues>`
+  to highlight them. Mixxx offers a selection of different palettes that you can
+  choose colors from.
+
+  You can also make your own palette by clicking the :guilabel:`Edit` button next
+  to the palette name. This will open a new window which allows you to add, modify,
+  reorder and remove colors in the palette and save it under a new name.
+
+  When editing the hotcue palette, the palette editor also allows assigning a
+  specific color to a hotcue number. This setting honored when
+  :guilabel:`Hotcue default color` is set to `By hotcue number`. If no color in
+  the palette has a hotcue number assigned to it, the color of new hotcues will
+  be mapped to the position of the color in the palette.
+
+**Default Hotcue Color**
+  It is possible to either either select a single color from the current hotcue palette that will be assigned to all newly created hotcue colors, or select the :guilabel:`By hotcue number` options. The latter will automatically assign a color from the palette to new hotcues based on the hotcue number.
+
+.. _configuration-colors-replace:
+
+Replacing Hotcue Colors
+-----------------------
+
+Sometimes it's necessary to bulk replace colors of existing hotcues in your library.
+Instead of changing the color of every single hotcue manually, you can
+:guilabel:`Replace` to open the cue color replace dialog.
+
+In addition to selecting the new color, you may set conditions that determine
+which hotcues the new color will be assigned to.
+If you tick both checkboxes, the new color will only applied if both conditions match.
+
 .. _configuration-bpm-detection:
 
 Beat Detection
