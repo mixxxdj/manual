@@ -1,6 +1,9 @@
 Roland DJ-505
 =============
 
+.. sectionauthor::
+   Jan Holthuis <jholthuis@mixxx.org>
+
 The Roland DJ-505 is an all-in-one USB MIDI controller with an
 integrated audio interface. It has controls for 2 decks that can be
 toggled between decks to play with 4 decks. It also features a TR-S step
