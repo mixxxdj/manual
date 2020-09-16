@@ -1,4 +1,4 @@
-.. _novation_launchpad_mk2:
+.. _novation-launchpad-mk2:
 
 Novation Launchpad MK2
 ======================
