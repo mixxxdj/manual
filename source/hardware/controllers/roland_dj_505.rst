@@ -610,7 +610,7 @@ Pads right of the white lit pad raise the pitch, pads left of it lower it.
 +------+---------------------------------+------------------------------------------+
 
 Known Issues
-~~~~~~~~~~~~
+------------
 
 -  TR-S Syncing currently works at the BPM level, but phase syncing is
    not implemented yet. As a workaround, the NUDGE button can be used to
