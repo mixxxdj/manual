@@ -72,6 +72,16 @@ A mapping has been `added to
 Mixxx <https://github.com/mixxxdj/mixxx/pull/2111>`__ prior to the 2.3.0
 release.
 
+.. figure:: ../../_static/controllers/roland_dj_505.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (schematic view)
+
+
 Controls
 ~~~~~~~~
 
@@ -108,91 +118,91 @@ found on the specified page in the Owner’s Manual.
 |        | PREPARE] button  | to toggle ascending/descending order).   |
 +--------+------------------+------------------------------------------+
 
-+----------------------------------------------------------------------+
-| Deck Section (p. 5-6)                                                |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
-+--------+------------------+------------------------------------------+
-| 1      | Jog dial (top    | Perform scratch operation.               |
-|        | surface)         |                                          |
-+--------+------------------+------------------------------------------+
-| 1      | Jog dial (outer  | Rotate to lower/raise playback speed     |
-|        | edge)            | (and pitch if key lock is off).          |
-+--------+------------------+------------------------------------------+
-| 1      | [SHIFT] + Jog    | Search fast through the playback         |
-|        | dial (top        | location.                                |
-|        | surface)         |                                          |
-+--------+------------------+------------------------------------------+
-| 2      | [SLIP] button    | Hold to turn on slip mode temporarily or |
-|        |                  | double press to turn it on permanently.  |
-+--------+------------------+------------------------------------------+
-| 2      | [SHIFT] + [SLIP] | Toggle vinyl control mode.               |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 3      | [SHIFT] button   | Hold down to access other functions.     |
-+--------+------------------+------------------------------------------+
-| 4      | [SYNC] button    | Match tempo and phase of other deck.     |
-|        |                  | Long press to enable Master Sync.        |
-+--------+------------------+------------------------------------------+
-| 4      | [SHIFT] + [SYNC] | Cancels Sync mode.                       |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 5      | [CUE] button     | Specifies, plays or recalls temporary    |
-|        |                  | cue point.                               |
-+--------+------------------+------------------------------------------+
-| 5      | [SHIFT] + [CUE]  | Returns to the beginning of the song.    |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 6      | [PLAY/PAUSE]     | Plays or pause the song.                 |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 6      | [SHIFT] +        | Hold to play backwards.                  |
-|        | [PLAY/PAUSE]     |                                          |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 7      | Pad Mode Select  | *See section “Performance Pads”.*        |
-+--------+------------------+------------------------------------------+
-| 8      | Performance Pads | *See section “Performance Pads”.*        |
-+--------+------------------+------------------------------------------+
-| 9      | PARAMETER area   | *See section “Performance Pads”.*        |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area: [AUTO | Turns auto loop on/off.                  |
-|        | LOOP] button     |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area:       | Set the loop playback length to          |
-|        | [1/2X], [2X]     | half/double.                             |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area:       | Move the loop by it’s length toward the  |
-|        | [SHIFT] + [1/2X] | left.                                    |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area:       | Move the loop by it’s length toward the  |
-|        | [SHIFT] + [2X]   | right.                                   |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area: [IN], | Specify loop-in/loop-out points.         |
-|        | [OUT] button     |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area:       | Toggle beats quantization.               |
-|        | [SHIFT] + [IN]   |                                          |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 10     | LOOP area:       | Cancels loop playback, go to loop-in     |
-|        | [SHIFT] + [OUT]  | point and resume playback.               |
-|        | button           |                                          |
-+--------+------------------+------------------------------------------+
-| 11     | [DECK 3], [DECK  | Switches the deck (left: decks 1 and 3,  |
-|        | 4] buttons       | right: decks 2 and 4)                    |
-+--------+------------------+------------------------------------------+
-| 12     | [KEY LOCK]       | Toggle key lock.                         |
-+--------+------------------+------------------------------------------+
-| 12     | [SHIFT] + [KEY   | Cycles through tempo slider range (8%,   |
-|        | LOCK]            | 16%, 50%).                               |
-+--------+------------------+------------------------------------------+
-| 13     | Tempo slider     | Adjust song playback speed (and pitch if |
-|        |                  | key lock if off).                        |
-+--------+------------------+------------------------------------------+
++-------------------------------------------------------------------------------------------+
+| Deck Section (p. 5-6)                                                                     |
++========+==================+===============================================================+
+| No.    | Control          | Function                                                      |
++--------+------------------+---------------------------------------------------------------+
+| 1      | Jog dial (top    | Perform scratch operation.                                    |
+|        | surface)         |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 1      | Jog dial (outer  | Rotate to lower/raise playback speed                          |
+|        | edge)            | (and pitch if key lock is off).                               |
++--------+------------------+---------------------------------------------------------------+
+| 1      | [SHIFT] + Jog    | Search fast through the playback                              |
+|        | dial (top        | location.                                                     |
+|        | surface)         |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 2      | [SLIP] button    | Hold to turn on slip mode temporarily or                      |
+|        |                  | double press to turn it on permanently.                       |
++--------+------------------+---------------------------------------------------------------+
+| 2      | [SHIFT] + [SLIP] | Toggle vinyl control mode.                                    |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 3      | [SHIFT] button   | Hold down to access other functions.                          |
++--------+------------------+---------------------------------------------------------------+
+| 4      | [SYNC] button    | Match tempo and phase of other deck.                          |
+|        |                  | Long press to enable Master Sync.                             |
++--------+------------------+---------------------------------------------------------------+
+| 4      | [SHIFT] + [SYNC] | Cancels Sync mode.                                            |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 5      | [CUE] button     | Specifies, plays or recalls temporary                         |
+|        |                  | cue point.                                                    |
++--------+------------------+---------------------------------------------------------------+
+| 5      | [SHIFT] + [CUE]  | Returns to the beginning of the song.                         |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 6      | [PLAY/PAUSE]     | Plays or pause the song.                                      |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 6      | [SHIFT] +        | Hold to play backwards.                                       |
+|        | [PLAY/PAUSE]     |                                                               |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 7      | Pad Mode Select  | See :ref:`Performance Pads <roland-dj-505-performancepads>`.  |
++--------+------------------+---------------------------------------------------------------+
+| 8      | Performance Pads | See :ref:`Performance Pads <roland-dj-505-performancepads>`.  |
++--------+------------------+---------------------------------------------------------------+
+| 9      | PARAMETER area   | See :ref:`Performance Pads <roland-dj-505-performancepads>`.  |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area: [AUTO | Turns auto loop on/off.                                       |
+|        | LOOP] button     |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area:       | Set the loop playback length to                               |
+|        | [1/2X], [2X]     | half/double.                                                  |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area:       | Move the loop by it’s length toward the                       |
+|        | [SHIFT] + [1/2X] | left.                                                         |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area:       | Move the loop by it’s length toward the                       |
+|        | [SHIFT] + [2X]   | right.                                                        |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area: [IN], | Specify loop-in/loop-out points.                              |
+|        | [OUT] button     |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area:       | Toggle beats quantization.                                    |
+|        | [SHIFT] + [IN]   |                                                               |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 10     | LOOP area:       | Cancels loop playback, go to loop-in                          |
+|        | [SHIFT] + [OUT]  | point and resume playback.                                    |
+|        | button           |                                                               |
++--------+------------------+---------------------------------------------------------------+
+| 11     | [DECK 3], [DECK  | Switches the deck (left: decks 1 and 3,                       |
+|        | 4] buttons       | right: decks 2 and 4)                                         |
++--------+------------------+---------------------------------------------------------------+
+| 12     | [KEY LOCK]       | Toggle key lock.                                              |
++--------+------------------+---------------------------------------------------------------+
+| 12     | [SHIFT] + [KEY   | Cycles through tempo slider range (8%,                        |
+|        | LOCK]            | 16%, 50%).                                                    |
++--------+------------------+---------------------------------------------------------------+
+| 13     | Tempo slider     | Adjust song playback speed (and pitch if                      |
+|        |                  | key lock if off).                                             |
++--------+------------------+---------------------------------------------------------------+
 
 +----------------------------------------------------------------------+
 | Mixer Section (p. 7)                                                 |
@@ -247,19 +257,17 @@ found on the specified page in the Owner’s Manual.
 |        |                  | channel and master.                      |
 +--------+------------------+------------------------------------------+
 
-+----------------------------------------------------------------------+
-| Effects Section (p. 7)                                               |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
-+--------+------------------+------------------------------------------+
-| 1      | CH ASSIGN area   | Toggle FX 1/2 for decks 1/2 (3/4 if      |
-|        |                  | [SHIFT] is pressed) or the TR-S (Aux 3)  |
-|        |                  | and Samplers 1-16.                       |
-+--------+------------------+------------------------------------------+
-| 2-5    | *Various*        | *See*\ `Standard effects                 |
-|        |                  | ma                                       |
-|        |                  | pping <standard_effects_mapping>`__\ *.* |
-+--------+------------------+------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------+
+| Effects Section (p. 7)                                                                                                         |
++========+==================+====================================================================================================+
+| No.    | Control          | Function                                                                                           |
++--------+------------------+----------------------------------------------------------------------------------------------------+
+| 1      | CH ASSIGN area   | Toggle FX 1/2 for decks 1/2 (3/4 if                                                                |
+|        |                  | [SHIFT] is pressed) or the TR-S (Aux 3)                                                            |
+|        |                  | and Samplers 1-16.                                                                                 |
++--------+------------------+----------------------------------------------------------------------------------------------------+
+| 2-5    | *Various*        | See `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__. |
++--------+------------------+----------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------+
 | TR-S Section (p. 8)                                                  |
@@ -276,7 +284,7 @@ found on the specified page in the Owner’s Manual.
 |        |                  | matching is not implemented yet, use the |
 |        |                  | NUDGE button instead).                   |
 +--------+------------------+------------------------------------------+
-| 4      | [SHIFT] + [SYNC] | *Not yet mapped.*                        |
+| 4      | [SHIFT] + [SYNC] | *Currently not mapped.*                  |
 |        | button           |                                          |
 +--------+------------------+------------------------------------------+
 | 5-17   | *Various*        | *See Owner’s Manual.*                    |
@@ -308,65 +316,204 @@ found on the specified page in the Owner’s Manual.
 | 6      | [MIC LEVEL] knob | Adjust the microphone volume.            |
 +--------+------------------+------------------------------------------+
 
+.. _roland-dj-505-performancepads:
+
 Performance Pads
 ~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
 
 You can use the Pad Mode Select buttons to select a mode for the
 performance pads.
 
-============================== ===================== ==========
-Control                        Mode                  LED Color
-============================== ===================== ==========
-[HOT CUE] button               Hot Cue Mode          White
-[SHIFT] + [HOT CUE] button     Cue Loop Mode         Blue
-[ROLL] button                  Roll Mode             Light blue
-[ROLL] button (press twice)    Loop Mode             Green
-[TR] button                    TR Mode               Red
-[SHIFT] + [TR] button          Pattern Mode          Green
-[TR] button (press twice)      TR Velocity Mode      Orange
-[SAMPLER] button               Sampler Mode          Magenta
-[SHIFT] + [SAMPLER] button     Velocity Sampler Mode Purple
-[SAMPLER] button (press twice) Pitch Play Mode       Green
-============================== ===================== ==========
+======================================== ===================== ==========
+Control                                  Mode                  LED Color
+======================================== ===================== ==========
+[HOT CUE] button                         Hot Cue Mode          White
+[SHIFT] + [HOT CUE] button               Cue Loop Mode         Blue
+[SHIFT] + [HOT CUE] button (press twice) Prepare Mode          Red
+[ROLL] button                            Roll Mode             Light blue
+[ROLL] button (press twice)              Loop Mode             Green
+[TR] button                              TR Mode               Red
+[SHIFT] + [TR] button                    Pattern Mode          Green
+[TR] button (press twice)                TR Velocity Mode      Orange
+[SAMPLER] button                         Sampler Mode          Magenta
+[SHIFT] + [SAMPLER] button               Velocity Sampler Mode Purple
+[SAMPLER] button (press twice)           Pitch Play Mode       Green
+======================================== ===================== ==========
 
 Most pad modes are similar to those found when used with Serato. A
 notable exception is the Loop Mode, which replaces the Serato’s Saved
 Loop Mode. In this mapping, the Loop Mode is similar to the Roll mode,
 but sets a non-rolling beatloop instead.
 
--  **Hot Cue Mode:** Press a pad that is unlit to assign a hot cue point
-   to it. If a pad is lit, press it to start playback from the hot cue
-   location. Hold [SHIFT] and press a pad to clear the hot cue. After
-   setting or using a hot cue, use the PARAMETER BUTTONS to change its
-   color. Use the PARAMETER BUTTONS while holding [SHIFT] for moving the
-   beatgrid left/right.
--  **Cue Loop Mode:** When the deck is playing and a pad that is lit is
-   pressed, auto loop will start from the location of the hot cue point
-   that is assigned to the pad. If the pad is not lit, a hot cue is
-   specified at the current location and auto loop starts immediately.
--  **Roll Mode:** While holding down a performane pad, a rolling loop
-   plays with the beatlength that is assigned to the pad. The pad that
-   creates a roll of 4 beats length is illuminated. Each pad to the
-   right doubles the length, left halves it. You can use the PARAMETER
-   buttons to cycle through four sets, as described in the Owner’s
-   Manual.
--  **TR/Pattern/TR Velocity Modes:** These modes are hardcoded in the
-   device, so they work exactly as described in the Owner’s Manual.
--  **Sampler/Velocity Sampler Play Modes:** Press a pad that is unlit to
-   load the track under the cursor into the sample slot assigned to the
-   pad. If the pad is lit, the sample in the slot is played. In Velocity
-   Sampler Mode, pressing the pad stronger results in a louder sample
-   playback volume. When holding [SHIFT] and pressing a pad, sample
-   playback is stopped. If the sample is not playing, the slot is
-   cleared.
--  **Pitch Play Mode:** Play from a hot cue point and change the pitch
-   in semitone steps. Pads right of the white lit pad raise the pitch,
-   pads left of it lower the pitch. Hold [SHIFT] and press a dimly lit
-   pad to select hot cue point. Use the PARAMETER buttons to cycle
-   though different semitone ranges (Up, Mid, Down).
+Modes that are described in the owner’s manual (Slicer, Slicer
+Loop, Saved Loop, Flip) but not listed below are currently not mapped.
 
-The other modes that are described in the owner’s manual (Slicer, Slicer
-Loop, Saved Loop, Flip) are currently not mapped.
+Hot Cue Mode
+^^^^^^^^^^^^
+
+Bookmark positions in the track and jump to them.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1-8  | Pad (unlit)                     | Save current position as hot cue.        |
++------+---------------------------------+------------------------------------------+
+| 1-8  | Pad (lit)                       | Jump to hot cue. If the track is         |
+|      |                                 | stopped, holding the pad will preview    |
+|      |                                 | the hot cue until the pad is released.   |
++------+---------------------------------+------------------------------------------+
+| 1-8  | [SHIFT] + Pad (lit)             | Clear hot cue.                           |
++------+---------------------------------+------------------------------------------+
+| 9    | PARAMETER - button              | Change color of last used hotcue to the  |
+|      |                                 | previous color in the palette.           |
++------+---------------------------------+------------------------------------------+
+| 10   | PARAMETER + button              | Change color of last used hotcue to the  |
+|      |                                 | next color in the palette.               |
++------+---------------------------------+------------------------------------------+
+| 9    | [SHIFT] + PARAMETER - button    | Move beatgrid left.                      |
++------+---------------------------------+------------------------------------------+
+| 10   | [SHIFT] + PARAMETER + button    | Move beatgrid right.                     |
++------+---------------------------------+------------------------------------------+
+
+Cue Loop Mode
+^^^^^^^^^^^^^
+
+Set beatloop from a hot cue point.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1-8  | Pad (lit)                       | Set a beatloop at the position of the    |
+|      |                                 | hotcue and jump to it.                   |
++------+---------------------------------+------------------------------------------+
+| 1-8  | Pad (unlit)                     | Save the current position as hot cue and |
+|      |                                 | set a beatloop.                          |
++------+---------------------------------+------------------------------------------+
+| 9    | PARAMETER - button              | Halve the size of the current loop.      |
++------+---------------------------------+------------------------------------------+
+| 9    | PARAMETER + button              | Double the size of the current loop.     |
++------+---------------------------------+------------------------------------------+
+| 9-10 | [SHIFT] + PARAMETER -/+ buttons | *Currently not mapped*.                  |
++------+---------------------------------+------------------------------------------+
+
+Prepare Mode
+^^^^^^^^^^^^
+
+This mode allow you to prepare tracks by setting intro/outro cues.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1    | Pad (unlit)                     | Set current position as intro start.     |
++------+---------------------------------+------------------------------------------+
+| 1    | Pad (lit)                       | Jump to intro start position.            |
++------+---------------------------------+------------------------------------------+
+| 2    | Pad (unlit)                     | Set current position as intro end.       |
++------+---------------------------------+------------------------------------------+
+| 2    | Pad (lit)                       | Jump to intro end position.              |
++------+---------------------------------+------------------------------------------+
+| 3    | Pad (unlit)                     | Set current position as outro start.     |
++------+---------------------------------+------------------------------------------+
+| 3    | Pad (lit)                       | Jump to outro start position.            |
++------+---------------------------------+------------------------------------------+
+| 4    | Pad (unlit)                     | Set current position as outro end.       |
++------+---------------------------------+------------------------------------------+
+| 4    | Pad (lit)                       | Jump to outro end position.              |
++------+---------------------------------+------------------------------------------+
+| 5-8  | Pad                             | *Currently not mapped*.                  |
++------+---------------------------------+------------------------------------------+
+| 9-10 | [SHIFT] + PARAMETER -/+ buttons | *Currently not mapped*.                  |
++------+---------------------------------+------------------------------------------+
+
+.. note:: This mode has been added by the Mixxx developers and is not available in
+          Serato.
+
+Roll Mode
+^^^^^^^^^
+
+The Roll Mode provides quick access to rolling loops and beatjumps.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1-4  | Pad (hold)                      | Play a rolling loop with the beatlength  |
+|      |                                 | that is assigned to the pad.             |
++------+---------------------------------+------------------------------------------+
+| 5    | Pad (press)                     | Beatjump left.                           |
++------+---------------------------------+------------------------------------------+
+| 6    | Pad (press)                     | Decrease beatjump size.                  |
++------+---------------------------------+------------------------------------------+
+| 7    | Pad (press)                     | Increase beatjump size.                  |
++------+---------------------------------+------------------------------------------+
+| 8    | Pad (press)                     | Beatjump right.                          |
++------+---------------------------------+------------------------------------------+
+| 9    | PARAMETER - button              | Halve the size of the current loop.      |
++------+---------------------------------+------------------------------------------+
+| 9    | PARAMETER + button              | Double the size of the current loop.     |
++------+---------------------------------+------------------------------------------+
+| 9-10 | [SHIFT] + PARAMETER -/+ buttons | *Currently not mapped*.                  |
++------+---------------------------------+------------------------------------------+
+
+TR/Pattern/TR Velocity Modes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+These modes are hardcoded in the device firmware, so they work exactly as
+described in the Owner’s Manual.
+
+
+Sampler/Velocity Sampler Play Modes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The sampler modes allow you to load, play and stop samples in the first 8 sample slots.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1-8  | Pad (unlit)                     | Load currently selected track into the   |
+|      |                                 | sample slot associated with the pad.     |
++------+---------------------------------+------------------------------------------+
+| 1-8  | [SHIFT} + Pad (lit)             | If the sample is playing, stop the       |
+|      |                                 | playback. If the sample is not playing,  |
+|      |                                 | eject the sample from the sample slot.   |
++------+---------------------------------+------------------------------------------+
+| 1-8  | Pad (lit)                       | Play the sample in the sample slot       |
+|      |                                 | associated with the pad.                 |
+|      |                                 | *Velocity Sampler Mode*: The playback    |
+|      |                                 | volume of the sample depends on the      |
+|      |                                 | pressure (velocity).                     |
++------+---------------------------------+------------------------------------------+
+| 9-10 | PARAMETER -/+ buttons           | *Currently not mapped*.                  |
++------+---------------------------------+------------------------------------------+
+
+
+Pitch Play Mode
+^^^^^^^^^^^^^^^
+
+Play the track from a hot cue position and change the pitch in semitone steps.
+Pads right of the white lit pad raise the pitch, pads left of it lower it.
+
++------+---------------------------------+------------------------------------------+
+| No.  | Control                         | Function                                 |
++======+=================================+==========================================+
+| 1-8  | Pad                             | Play currently selected hotcue with      |
+|      |                                 | modified pitch.                          |
++------+---------------------------------+------------------------------------------+
+| 1-8  | [SHIFT] + Pad (dimly lit)       | Select hot cue for pitch play. The pad   |
+|      |                                 | of the currently selected hotcue pad is  |
+|      |                                 | lit.                                     |
++------+---------------------------------+------------------------------------------+
+| 9-10 | PARAMETER -/+ buttons           | Cycles through semitone ranges (Up, Mid, |
+|      |                                 | Down).                                   |
++------+---------------------------------+------------------------------------------+
 
 Known Issues
 ~~~~~~~~~~~~
