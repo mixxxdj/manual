@@ -4,6 +4,16 @@ Roland DJ-505
 .. sectionauthor::
    Jan Holthuis <jholthuis@mixxx.org>
 
+.. figure:: ../../_static/controllers/roland_dj_505.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (schematic view)
+
+
 The Roland DJ-505 is an all-in-one USB MIDI controller with an
 integrated audio interface. It has controls for 2 decks that can be
 toggled between decks to play with 4 decks. It also features a TR-S step
@@ -68,31 +78,25 @@ default values when using the controller:
 Controller Mapping
 ------------------
 
-A mapping has been `added to
-Mixxx <https://github.com/mixxxdj/mixxx/pull/2111>`__ prior to the 2.3.0
-release.
+The control numbering in the schematic drawings matches the those found on the
+specified page in the Owner’s Manual.
 
-.. figure:: ../../_static/controllers/roland_dj_505.svg
+
+Browser Section (p. 4)
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_browser.svg
    :align: center
-   :width: 100%
+   :width: 60%
    :figwidth: 100%
-   :alt: Roland DJ-505 (schematic view)
+   :alt: Roland DJ-505 (browser section)
    :figclass: pretty-figures
 
-   Roland DJ-505 (schematic view)
+   Roland DJ-505 (browser section)
 
-
-Controls
-~~~~~~~~
-
-A schematic drawing with the control numbers that are used here can be
-found on the specified page in the Owner’s Manual.
-
-+----------------------------------------------------------------------+
-| Browser Section (p. 4)                                               |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
 +--------+------------------+------------------------------------------+
+| No.    | Control          | Function                                 |
++========+==================+==========================================+
 | 1      | [LOAD] buttons   | Load song into deck.                     |
 +--------+------------------+------------------------------------------+
 | 1      | [SHIFT] + [LOAD] | Sort library by BPM (press repeatedly to |
@@ -118,11 +122,22 @@ found on the specified page in the Owner’s Manual.
 |        | PREPARE] button  | to toggle ascending/descending order).   |
 +--------+------------------+------------------------------------------+
 
-+-------------------------------------------------------------------------------------------+
-| Deck Section (p. 5-6)                                                                     |
-+========+==================+===============================================================+
-| No.    | Control          | Function                                                      |
+
+Deck Section (p. 5-6)
+~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_deck.svg
+   :align: center
+   :width: 80%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (deck section)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (deck section)
+
 +--------+------------------+---------------------------------------------------------------+
+| No.    | Control          | Function                                                      |
++========+==================+===============================================================+
 | 1      | Jog dial (top    | Perform scratch operation.                                    |
 |        | surface)         |                                                               |
 +--------+------------------+---------------------------------------------------------------+
@@ -204,11 +219,22 @@ found on the specified page in the Owner’s Manual.
 |        |                  | key lock if off).                                             |
 +--------+------------------+---------------------------------------------------------------+
 
-+----------------------------------------------------------------------+
-| Mixer Section (p. 7)                                                 |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
+
+Mixer Section (p. 7)
+~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_mixer.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (mixer section)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (mixer section)
+
 +--------+------------------+------------------------------------------+
+| No.    | Control          | Function                                 |
++========+==================+==========================================+
 | 1      | [TRIM] knobs     | Adjust the deck gain (prefader)          |
 +--------+------------------+------------------------------------------+
 | 2      | [HI], [MID],     | Adjust the high/mid/low-frequency        |
@@ -257,11 +283,22 @@ found on the specified page in the Owner’s Manual.
 |        |                  | channel and master.                      |
 +--------+------------------+------------------------------------------+
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-| Effects Section (p. 7)                                                                                                         |
-+========+==================+====================================================================================================+
-| No.    | Control          | Function                                                                                           |
+
+Effects Section (p. 7)
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_effects.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (effects section)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (effects section)
+
 +--------+------------------+----------------------------------------------------------------------------------------------------+
+| No.    | Control          | Function                                                                                           |
++========+==================+====================================================================================================+
 | 1      | CH ASSIGN area   | Toggle FX 1/2 for decks 1/2 (3/4 if                                                                |
 |        |                  | [SHIFT] is pressed) or the TR-S (Aux 3)                                                            |
 |        |                  | and Samplers 1-16.                                                                                 |
@@ -269,11 +306,22 @@ found on the specified page in the Owner’s Manual.
 | 2-5    | *Various*        | See `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__. |
 +--------+------------------+----------------------------------------------------------------------------------------------------+
 
-+----------------------------------------------------------------------+
-| TR-S Section (p. 8)                                                  |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
+
+TR-S Section (p. 8)
+~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_505_trs.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (TR-S section)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (TR-S section)
+
 +--------+------------------+------------------------------------------+
+| No.    | Control          | Function                                 |
++========+==================+==========================================+
 | 1      | [VALUE] knob     | *See Owner’s Manual.*                    |
 +--------+------------------+------------------------------------------+
 | 2      | [SHIFT] button   | Hold down to access other functions.     |
@@ -290,11 +338,12 @@ found on the specified page in the Owner’s Manual.
 | 5-17   | *Various*        | *See Owner’s Manual.*                    |
 +--------+------------------+------------------------------------------+
 
-+----------------------------------------------------------------------+
-| Front Panel (p. 8)                                                   |
-+========+==================+==========================================+
-| No.    | Control          | Function                                 |
+Front Panel (p. 8)
+~~~~~~~~~~~~~~~~~~
+
 +--------+------------------+------------------------------------------+
+| No.    | Control          | Function                                 |
++========+==================+==========================================+
 | 1      | [PHONES] jacks   | Connect headphones here.                 |
 +--------+------------------+------------------------------------------+
 | 2      | [VOLUME] knob    | Adjust the volume of the headphones.     |
