@@ -370,15 +370,6 @@ Front Panel (p. 8)
 Performance Pads
 ~~~~~~~~~~~~~~~~
 
-.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
-   :align: center
-   :width: 65%
-   :figwidth: 100%
-   :alt: Roland DJ-505 (performance pads)
-   :figclass: pretty-figures
-
-   Roland DJ-505 (performance pads)
-
 You can use the Pad Mode Select buttons to select a mode for the
 performance pads.
 
@@ -409,6 +400,15 @@ Loop, Saved Loop, Flip) but not listed below are currently not mapped.
 Hot Cue Mode
 ^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
+
 Bookmark positions in the track and jump to them.
 
 +------+---------------------------------+------------------------------------------+
@@ -436,6 +436,15 @@ Bookmark positions in the track and jump to them.
 Cue Loop Mode
 ^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
+
 Set beatloop from a hot cue point.
 
 +------+---------------------------------+------------------------------------------+
@@ -456,6 +465,15 @@ Set beatloop from a hot cue point.
 
 Prepare Mode
 ^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
 
 This mode allow you to prepare tracks by setting intro/outro cues.
 
@@ -488,6 +506,15 @@ This mode allow you to prepare tracks by setting intro/outro cues.
 
 Roll Mode
 ^^^^^^^^^
+
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
 
 The Roll Mode provides quick access to rolling loops and beatjumps.
 
@@ -522,6 +549,15 @@ described in the Owner’s Manual.
 Sampler/Velocity Sampler Play Modes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
+
 The sampler modes allow you to load, play and stop samples in the first 8 sample slots.
 
 +------+---------------------------------+------------------------------------------+
@@ -546,6 +582,15 @@ The sampler modes allow you to load, play and stop samples in the first 8 sample
 
 Pitch Play Mode
 ^^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
 
 Play the track from a hot cue position and change the pitch in semitone steps.
 Pads right of the white lit pad raise the pitch, pads left of it lower it.
