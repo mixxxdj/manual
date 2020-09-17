@@ -1,12 +1,12 @@
 .. include:: /shortcuts.rstext
 
-.. _hardware-guide:
+.. _hardware-manuals:
 
-Hardware Guide
-**************
+Hardware Manuals
+****************
 
-.. sectionauthor::
-   Jan Holthuis <jholthuis@mixxx.org>
+Controllers
+-----------
 
 Mixxx supports the following :ref:`controllers <hardware-controllers>` out of the box.
 Additional third-party controller mappings that were contributed by the community (but are not yet included in Mixxx) can be found at Mixxx' `Controller Mapping Forum <https://mixxx.discourse.group/c/controller-mappings/10>`__.
