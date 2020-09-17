@@ -1,5 +1,5 @@
-Hercules DJ Control AIR
-=======================
+Hercules DJControl AIR
+======================
 
 This is one of the cheapest Hercules DJ controller from Hercules leisure
 DJ controllers brand. There are actually many versions of it:
