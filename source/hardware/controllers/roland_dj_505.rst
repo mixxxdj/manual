@@ -87,7 +87,7 @@ Browser Section (p. 4)
 
 .. figure:: ../../_static/controllers/roland_dj_505_browser.svg
    :align: center
-   :width: 60%
+   :width: 45%
    :figwidth: 100%
    :alt: Roland DJ-505 (browser section)
    :figclass: pretty-figures
@@ -225,7 +225,7 @@ Mixer Section (p. 7)
 
 .. figure:: ../../_static/controllers/roland_dj_505_mixer.svg
    :align: center
-   :width: 60%
+   :width: 50%
    :figwidth: 100%
    :alt: Roland DJ-505 (mixer section)
    :figclass: pretty-figures
@@ -372,7 +372,7 @@ Performance Pads
 
 .. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
    :align: center
-   :width: 100%
+   :width: 65%
    :figwidth: 100%
    :alt: Roland DJ-505 (performance pads)
    :figclass: pretty-figures
