@@ -256,17 +256,43 @@ Selecting Palettes and Default Colors
   choose colors from.
 
   You can also make your own palette by clicking the :guilabel:`Edit` button next
-  to the palette name. This will open a new window which allows you to add, modify,
-  reorder and remove colors in the palette and save it under a new name.
-
-  When editing the hotcue palette, the palette editor also allows assigning a
-  specific color to a hotcue number. This setting honored when
-  :guilabel:`Hotcue default color` is set to `By hotcue number`. If no color in
-  the palette has a hotcue number assigned to it, the color of new hotcues will
-  be mapped to the position of the color in the palette.
+  to the palette name. This will open a the :ref:`palette editor <configuration-colors-editor>`.
 
 **Default Hotcue Color**
-  It is possible to either either select a single color from the current hotcue palette that will be assigned to all newly created hotcue colors, or select the :guilabel:`By hotcue number` options. The latter will automatically assign a color from the palette to new hotcues based on the hotcue number.
+  It is possible to either select a single color from the current hotcue palette
+  that will be assigned to all newly created hotcue colors, or select the
+  :guilabel:`By hotcue number` option. The latter will automatically assign a
+  color from the palette to new hotcues based on the hotcue number.
+
+.. _configuration-colors-editor:
+
+Editing Palettes
+----------------
+
+The palette editor allows you add, modify, reorder and remove colors in a color
+palette and save it under a new name. You can also delete custom palettes.
+
+To modify a color, double-click it to open the color picker window.
+
+When editing the hotcue palette, the palette editor also allows assigning a
+specific default color to a hotcue number. This setting honored when
+:guilabel:`Hotcue default color` is set to `By hotcue number`.
+
+That makes it possible to assign just a few distinct colors to your hotcues
+automatically, but still have more colors available in the palette in case you
+want to override the color manually.
+
+For example, if you have a color palette consisting of 4 colors, and you
+configure the palette to assign the first color to hotcue 1 and the third color
+to hotcue 2, then hotcue 1 will use the first color and hotcue 2 will be
+assigned the third color. The colors will repeat when setting a hotcue with a
+number greater than those used in the palette. In the example above, hotcue 3
+will use the first color and hotcue 2 the second color, and so on.
+
+If no color in the palette has a hotcue number assigned to it, new hotcues will
+use the color at the same index from the palette (i.e. hotcue 1 will be
+assigned the first color in the palette, hotcue 2 uses the second color in the
+palette, etc.).
 
 .. _configuration-colors-replace:
 
