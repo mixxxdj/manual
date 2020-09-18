@@ -27,7 +27,7 @@ To make DJing with Mixxx a fun experience, at least the following pieces are nee
   track is playing on the speakers, and
 - audio cables and adapters to connect the equipment to your computer.
 
-Additionally, the follwing equiment will be helpful:
+Additionally, you might consider getting the follwing equiment:
 
 - a :ref:`controller <hardware-controllers>`,
 - :ref:`turntables <hardware-turntables>`, an audio interface with phono inputs
@@ -194,7 +194,7 @@ interfaces with phono preamps.
 Driver Support
 ^^^^^^^^^^^^^^
 Unlike some proprietary DJ programs, Mixxx works with any audio interface that
-your operating system has a driver to use — including for timecode vinyl (DVS)
+is compatible with your operating system — including for timecode vinyl (DVS)
 use.
 
 USB Audio Class compliant audio interfaces should work out of the box on all
@@ -283,7 +283,7 @@ Headphones
 ==========
 
 Being able to listen to what you will play next in headphones before your
-audience hears on the main speakers or your broadcast stream it is an essential
+audience hears on the main speakers or your broadcast stream is an essential
 part of DJing. DJ headphones are generally better quality than typical consumer
 headphones. Importantly, they are designed to have good isolation, meaning they
 block outside sound. This allows the DJ to focus on the sound in the headphones
@@ -308,8 +308,8 @@ for a friend or a reviewer may not be comfortable for you.
 
 In-ear monitors (IEMs) isolate sound better than headphones but are more
 expensive. They usually cost more than double the price of good DJ headphones
-with comparable. They may be a sound investment for musicians who play often in
-very loud environments to preserve their hearing.
+with comparable quality. They may be a sound investment for musicians who play
+often in very loud environments to preserve their hearing.
 
 .. _hardware-splitter-cables:
 
