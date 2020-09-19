@@ -275,7 +275,7 @@ palette and save it under a new name. You can also delete custom palettes.
 To modify a color, double-click it to open the color picker window.
 
 When editing the hotcue palette, the palette editor also allows assigning a
-specific default color to a hotcue number. This setting honored when
+specific default color to a hotcue number. This setting is honored when
 :guilabel:`Hotcue default color` is set to `By hotcue number`.
 
 That makes it possible to assign just a few distinct colors to your hotcues
@@ -287,7 +287,7 @@ configure the palette to assign the first color to hotcue 1 and the third color
 to hotcue 2, then hotcue 1 will use the first color and hotcue 2 will be
 assigned the third color. The colors will repeat when setting a hotcue with a
 number greater than those used in the palette. In the example above, hotcue 3
-will use the first color and hotcue 2 the second color, and so on.
+will use the first color and hotcue 4 the second color, and so on.
 
 If no color in the palette has a hotcue number assigned to it, new hotcues will
 use the color at the same index from the palette (i.e. hotcue 1 will be
