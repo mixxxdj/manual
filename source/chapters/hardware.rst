@@ -27,7 +27,7 @@ To make DJing with Mixxx a fun experience, at least the following pieces are nee
   track is playing on the speakers, and
 - audio cables and adapters to connect the equipment to your computer.
 
-Additionally, you might consider getting the follwing equiment:
+Additionally, you might consider getting the following equiment:
 
 - a :ref:`controller <hardware-controllers>`,
 - :ref:`turntables <hardware-turntables>`, an audio interface with phono inputs
