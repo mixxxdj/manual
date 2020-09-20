@@ -3,7 +3,7 @@
 Korg nanoKONTROL
 ================
 
-This controller has been discontinued in favor of the :ref:`Korg nanoKONTROL 2<korg-nanokontrol-2>`.
+This controller has been discontinued in favor of the :ref:`Korg nanoKONTROL 2<korg-nanokontrol2>`.
 
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=1999>`__
 
