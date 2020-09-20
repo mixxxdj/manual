@@ -31,8 +31,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :numbered:
+   :numbered: 2
 
    chapters/introduction
    chapters/getting_started
@@ -50,4 +49,5 @@ Table of Contents
    chapters/advanced_topics
    chapters/getting_involved
    chapters/appendix
+   hardware/manuals
    glossary
