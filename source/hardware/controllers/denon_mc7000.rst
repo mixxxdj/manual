@@ -81,13 +81,13 @@ Please check the \*.js mapping file for user variables to:
 
 -  activate NeedleDrop sensor while a track is playing (default: false)
 -  set the Pitch Fader ranges in % to toggle between them (default: 4,
-   6, 10, 16, 24)
+   6, 8, 10, 16, 24)
 -  Platter Ring LED mode: single LED on or off (default: 1). Can be
    switched with SHIFT + Deck button
 -  Vinyl Mode on or off at MIXXX start which also triggers the Platter
    Ring LED function (default: 1)
 -  Scratch Parameters (default: 33.3, 1/10, 1/10/32)
--  Jog Parameters (default: 30, 3)
+-  Jog Parameters (default: 1, 3)
 
 Layout and functions
 ~~~~~~~~~~~~~~~~~~~~
@@ -194,7 +194,8 @@ Layout and functions
 
 23. **Deck:** Selects which deck in the software is controlled by that
     hardware deck. The left deck can control Deck 1 or 3; the right deck
-    can control Deck 2 or 4.
+    can control Deck 2 or 4. Press and hold Shift and then press this
+    button to trigger the Platter LEDs mode.
 
 24. **Shift:** Press and hold this button to access secondary functions
     of other controls.
@@ -223,10 +224,13 @@ Layout and functions
     button is on, move the platter to “scratch” the track as you would
     with a vinyl record. When the Vinyl button is off (or if you are
     touching only the side of the platter), move the platter to
-    temporarily adjust the track’s speed.
+    temporarily adjust the track’s speed. Press and hold Shift and then
+    move the side of the platter (or deactivate Vinyl) navigates quickly
+    through the track (Search).
 
 29. **Stop Time:** Controls the rate at which the track slows to a
-    complete stop (“brake time”) during backspin.
+    complete stop (“brake time”) during backspin. This also affects
+    how quickly the track starts after a backspin ("Soft Start").
 
 30. **Vinyl:** Press this button to activate/deactivate a “vinyl mode”
     for the platter. When activated, you can use the platter to
@@ -238,7 +242,7 @@ Layout and functions
 32. **Pitch Bend –/+:** Press and hold one of these buttons to
     momentarily reduce or increase (respectively) the speed of the
     track. Press and hold Shift and then press one of these buttons to
-    set the range of the Pitch Fader to values of 4%, 6%, 10%, 16% and
+    set the range of the Pitch Fader to values of 4%, 6%, 8%, 10%, 16% and
     24%. Can be customized within the \*.js file.
 
 33. **Key Lock / Key Sync:** Press this button to activate/deactivate
@@ -249,7 +253,9 @@ Layout and functions
 
 34. **Key Select/Reset:** Turn this knob to raise or lower the key of
     the track. Press this knob to reset the track’s key to its original
-    key.
+    key. Press and hold Shift and turn the knob to zoom in and out the
+    waveforms. Press and hold Shift and push the knob to reset the Waveform
+    zoom to the level set in preferences.
 
 35. **Pads:** Performance PADs have different functions based on the PAD
     Mode described below.
@@ -281,13 +287,13 @@ Layout and functions
 -  SAMPLER: 8 samplers can be triggered from either Deck. Add samplers
    to the sampler bank pushing a PAD button. If a sampler is loaded then
    the push will start the sampler, push again while playing will replay
-   the track from start. Press and hold SHIFT and push a PAD button to
+   the track from Cue point. Press and hold SHIFT and push a PAD button to
    stop a sampler while playing or eject a sampler when stopped.
 -  *This section needs further development.* **HELP APPRECIATED**
 
 40. **Auto-Loop/Reloop:** Press this button to create an auto-loop with
-    the length of 4 beats. You may change the length of beats by using
-    the 1/2 or X2 buttons. Press and hold Shift and then press this
+    the length set with loop length. You may change the length of beats by
+    using the 1/2 or X2 buttons. Press and hold Shift and then press this
     button to toggle the current loop on or off. If the loop is ahead of
     the current play position, the track will keep playing normally
     until it reaches the loop.
@@ -300,27 +306,28 @@ Layout and functions
     the current loop. Press and hold Shift and then press this button to
     create a Loop Out point at the current Location.
 
-43. **< / > Param 1/2:** These are currently used to beat jump backward
-    or forward by 8 beats. Press and hold Shift and then press these
-    buttons jumps 32 beats. *This section needs further development.*
-    **HELP APPRECIATED**
+43. **< / > Param 1/2:** These are currently mapped to add/remove rating
+    stars to the loaded track. Press and hold Shift and then press these
+    buttons to change track color in the library.
+    *This section needs further development.* **HELP APPRECIATED**
 
 44. **Slip:** Press this button to enable or disable Slip Mode. In Slip
-    Mode, you can jump to cue points, trigger loop rolls, or use the
+    Mode, you can jump to cue points, trigger loops or use the
     platters, while the track’s timeline continues. In other words, when
-    you stop the action, the track will resume normal playback from
+    you deactivate Slip Mode, the track will resume normal playback from
     where it would have been if you had never done anything (i.e., as if
     the track had been playing forward the whole time).
 
-45. **Censor / Rev:** Press this button to activate the Backspin
-    feature. If the track did not stop yet then when you release the
-    button, normal playback will resume. Press and hold Shift and then
-    press this button to reverse the playback of the track. The original
-    CENSOR function (as in Serato) can be manually triggered by
-    activating SLIP followed by SHIFT + CENSOR.
+45. **Censor / Rev:** Press and hold this button to play the track Reverse.
+    When releasing the button, the track starts running normally again.
+    If the Slip Mode was active then after releasing the button the track 
+    continues as it had been playing forward the whole time (CENSOR).
+    Press and hold shift and push this button to activate a backspin
+    with a length set by the Stop Time knob (29).
 
 46. **Adjust/Set:** Press this button to adjust the Beat Grid to the
-    current location.
+    current location. Press and hold Shift and then press this button to
+    activate quantize mode.
 
 47. **Slide/Clr:** Press this button to adjust the Beat Grid to another
     playing track.
@@ -329,30 +336,31 @@ Layout and functions
     Press and hold Shift and then turn this knob to browse quickly
     through the tracks in your library. Press the left side button to
     load a track into the active Deck (1 or 3), press the right side
-    button to load a track into the active Deck (2 or 4). Press and hold
-    Shift and push the knob to open folders on the left side of the
-    library.
+    button to load a track into the active Deck (2 or 4). If you keep
+    the knob pressed down longer than 0,5 sec an actual loaded track 
+    will be ejected from the deck upon release of the knob.   
+    Press and hold Shift and push the knob to open folders on the left
+    side of the library.
 
-49. **Sort:** *will be implemented with MIXXX 2.3*
+49. **Sort:** Press and hold this button to activate sort functions.
 
-50. **Back/Fwd/Sort BPM:** Press this button to move to the previous
-    window. Press and hold Shift and then press this button to move to
-    the next window. *MIXXX 2.3: Press and hold Sort and then press this
-    button to sort the tracks by BPM.*
+50. **Back/Fwd/Sort BPM:** Press this button to switch between right and
+    left side of the library. Press and hold Shift and then press this button
+    to move through frames inside the GUI.
+    Press and hold Sort and then press this button to sort the tracks by BPM.
 
 51. **Load Prep/Open Prep/Sort Key:** Press this button to load the
     currently selected track to the Preview Deck. Press and hold Shift
     and then press this button to start the track in Preview Deck.
-    *MIXXX 2.3: Press and hold Sort and then press this button to sort
-    the tracks by key.*
+    Press and hold Sort and then press this button to sort the tracks by key.
 
-52. **Files/History/Sort Artist:** Press this to maximise the library.
-    *MIXXX 2.3: Press and hold Sort and then press this button to sort
-    the tracks by artist.*
+52. **Files/History/Sort Artist:** Press this button to maximise the library.
+    Press this button again to exit maximised library.
+    Press and hold Sort and then press this button to sort the tracks by artist.
 
-53. **Panel/View/Sort Title:** Press this to open and close the FX
-    section inside the GUI. *MIXXX 2.3: Press and hold Sort and then
-    press this button to sort the tracks by title.*
+53. **Panel/View/Sort Title:** Press this button to open and close the FX
+    section inside the GUI.
+    Press and hold Sort and then press this button to sort the tracks by title.
 
 54. **Needle Drop Strip:** The length of this strip represents the
     length of the entire track. Place your finger on a point along this
