@@ -37,7 +37,7 @@ Additionally, you might consider getting the following equiment:
 - cases for laptop, controller and headphones, and
 - custom fader and knob caps to customize your gear.
 
-.. seealso:: Instructions how to use your DJ Controller that work
+.. seealso:: Instructions how to use DJ Controllers that work
    out-of-the-box with Mixxx can be found in the :ref:`Hardware Manuals
    <hardware-manuals>` section of this manual.  The `Mixxx DJ Hardware Guide
    <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ on the
