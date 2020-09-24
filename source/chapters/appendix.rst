@@ -403,6 +403,107 @@ the log on exit.
 
 Version History
 ===============
+
+**2.1.8** (2019-04-07)
+
+  * Fix a rare chance for a corrupt track file while writing metadata in out of disk situations. lp:1815305
+  * Fix export of BPM track file metadata. lp:1816490
+  * Fix export of BPM track file metadata. lp:1816490
+  * Fix sending of broadcast metadata with TLS enabled libshout 2.4.1. lp:1817395
+  * Fix resdicovering purged tracks in all cases. lp:1821514
+  * Fix dropping track from OSX Finder. lp:1822424
+
+
+**2.1.7** (2019-01-15)
+
+  * Fix syncing to doublespeed `lp:1808697 <https://bugs.launchpad.net/mixxx/+bug/1808697>`__
+  * Fix issues when changing beats of a synced track `lp:1808698 <https://bugs.launchpad.net/mixxx/+bug/1808698>`__
+  * Fix direction of pitch bend buttons when inverting rate slider `lp:1770745 <https://bugs.launchpad.net/mixxx/+bug/1770745>`__
+  * Use first loaded deck if no playing deck is found `lp:1784185 <https://bugs.launchpad.net/mixxx/+bug/1784185>`__
+  * Encode file names correctly on macOS `lp:1776949 <https://bugs.launchpad.net/mixxx/+bug/1776949>`__
+
+
+**2.1.6** (2018-12-23)
+
+  * Fix crash when loading a Qt5 Soundsource / Vamp Plug-In. `lp:1774639 <https://bugs.launchpad.net/mixxx/+bug/1774639>`__
+  * Validate effect parameter range. `lp:1795234 <https://bugs.launchpad.net/mixxx/+bug/1795234>`__
+  * Fix crash using the bpm_tap button without a track loaded. `lp:1801844 <https://bugs.launchpad.net/mixxx/+bug/1801844>`__
+  * Fix possible crash after ejecting a track. `lp:1801874 <https://bugs.launchpad.net/mixxx/+bug/1801874>`__
+  * Fix wrong bitrate reported for faulty mp3 files. `lp:1782912 <https://bugs.launchpad.net/mixxx/+bug/1782912>`__
+  * Fix Echo effect syncing `lp:1793232 <https://bugs.launchpad.net/mixxx/+bug/1793232>`__
+  * Fix iTunes context menu `lp:1799932 <https://bugs.launchpad.net/mixxx/+bug/1799932>`__
+  * Fix loading the wrong track after delete search and scroll. `lp:1803148 <https://bugs.launchpad.net/mixxx/+bug/1803148>`__
+  * Improve search bar timing. `lp:1635087 <https://bugs.launchpad.net/mixxx/+bug/1635087>`__
+  * Fix quoted search sentence. `lp:1784141 <https://bugs.launchpad.net/mixxx/+bug/1784141>`__
+  * Fix loading a track formerly not existing. `lp:1800395 <https://bugs.launchpad.net/mixxx/+bug/1800395>`__
+  * Fix importing m3u files with blank lines. `lp:1806271 <https://bugs.launchpad.net/mixxx/+bug/1806271>`__
+  * Fix position in sampler overview waveforms. `lp:1744170 <https://bugs.launchpad.net/mixxx/+bug/1744170>`__
+  * Don’t reset rate slider, syncing a track without a beatgrid. `lp:1783020 <https://bugs.launchpad.net/mixxx/+bug/1783020>`__
+  * Clean up iTunes track context menu. `lp:1800335 <https://bugs.launchpad.net/mixxx/+bug/1800335>`__
+  * Collapsed sampler are not analyzed on startup. `lp:1801126 <https://bugs.launchpad.net/mixxx/+bug/1801126>`__
+  * search for decoration characters like “˚”. `lp:1802730 <https://bugs.launchpad.net/mixxx/+bug/1802730>`__
+  * Fix cue button blinking after pressing eject on an empty deck. `lp:1808222 <https://bugs.launchpad.net/mixxx/+bug/1808222>`__
+
+
+**2.1.5** (2018-10-28)
+
+  * Code signing for Windows builds. `lp:1517823 <https://bugs.launchpad.net/mixxx/+bug/1517823>`__
+  * Fix crash on exit when preferences is open. `lp:1793185 <https://bugs.launchpad.net/mixxx/+bug/1793185>`__
+  * Fix crash when analyzing corrupt MP3s. `lp:1793387 <https://bugs.launchpad.net/mixxx/+bug/1793387>`__
+  * Fix crash when importing metadata from MusicBrainz. `lp:1794993 <https://bugs.launchpad.net/mixxx/+bug/1794993>`__
+  * Library search fixes when single quotes are used. `lp:1784090 <https://bugs.launchpad.net/mixxx/+bug/1784090>`__ `lp:1789728 <https://bugs.launchpad.net/mixxx/+bug/1789728>`__
+  * Fix scrolling waveform on Windows with WDM-KS sound API. `lp:1729345 <https://bugs.launchpad.net/mixxx/+bug/1729345>`__
+  * Fix right clicking on beatgrid alignment button in Tango and LateNight skins. `lp:1798237 <https://bugs.launchpad.net/mixxx/+bug/1798237>`__
+  * Improve speed of importing iTunes library. `lp:1785545 <https://bugs.launchpad.net/mixxx/+bug/1785545>`__
+  * Add 2 deck mapping for DJTechTools MIDI Fighter Twister.
+
+
+**2.1.4** (2018-08-29)
+
+  * Fix track selection not getting shown in the track table on Windows. There are no changes to the source code, but the Jenkins build configuration was changed to delete the Jenkins workspace before each build. `lp:1751482 <https://bugs.launchpad.net/mixxx/+bug/1751482>`__
+
+
+**2.1.3** (2018-08-20)
+
+  * Fix a severe `performance regression on Windows <https://mixxx.discourse.group/t/mixxx-2-1-2-running-much-slower-than-2-1-1/17447>`
+
+
+**2.1.2** (2018-08-10)
+
+  * Allow maximum deck speed of 4x normal.
+  * Don’t always quantize hotcues, a 2.1.1 regression. `lp:1777429 <https://bugs.launchpad.net/mixxx/+bug/1777429>`__
+  * Fix artifacts using more than 32 samplers. `lp:1779559 <https://bugs.launchpad.net/mixxx/+bug/1779559>`__
+  * store No EQ and Filter persistently. `lp:1780479 <https://bugs.launchpad.net/mixxx/+bug/1780479>`__
+  * Pad unreadable samples with silence on cache miss. `lp:1777480 <https://bugs.launchpad.net/mixxx/+bug/1777480>`__
+  * Fixing painting of preview column for Qt5 builds. `lp:1776555 <https://bugs.launchpad.net/mixxx/+bug/1776555>`__
+  * LateNight: Fix play button right click. `lp:1781829 <https://bugs.launchpad.net/mixxx/+bug/1781829>`__
+  * LateNight: Added missing sort up/down buttons.
+  * Fix sampler play button tooltips. `lp:1779468 <https://bugs.launchpad.net/mixxx/+bug/1779468>`__
+  * Shade: remove superfluid margins and padding in sampler.xml. `lp:1773588 <https://bugs.launchpad.net/mixxx/+bug/1773588>`__
+  * Deere: Fix background-color code.
+  * ITunes: Don’t stop import in case of duplicated Playlists. `lp:1783493 <https://bugs.launchpad.net/mixxx/+bug/1783493>`__
+
+
+**2.1.1** (2018-06-13)
+
+  * Require Soundtouch 2.0 to avoid segfault. `lp:1577042 <https://bugs.launchpad.net/mixxx/+bug/1577042>`__
+  * Improved skins including library view fix. `lp:1773709 <https://bugs.launchpad.net/mixxx/+bug/1773709>`__ `lp:1772202 <https://bugs.launchpad.net/mixxx/+bug/1772202>`__
+  * `lp:1763953 <https://bugs.launchpad.net/mixxx/+bug/1763953>`__
+  * Fix crash when importing ID3v2 APIC frames. `lp:1774790 <https://bugs.launchpad.net/mixxx/+bug/1774790>`__
+  * Synchronize execution of Vamp analyzers. `lp:1743256 <https://bugs.launchpad.net/mixxx/+bug/1743256>`__
+  * DlgTrackInfo: Mismatching signal/slot connection.
+  * Detect M4A decoding errors on Windows. `lp:1766834 <https://bugs.launchpad.net/mixxx/+bug/1766834>`__
+  * Fix spinback inertia effect.
+  * Fix decoding fixes and upgrade DB schema. `lp:1766042 <https://bugs.launchpad.net/mixxx/+bug/1766042>`__ `lp:1769717 <https://bugs.launchpad.net/mixxx/+bug/1769717>`__
+  * Fix integration of external track libraries. `lp:1766360 <https://bugs.launchpad.net/mixxx/+bug/1766360>`__
+  * Fix memory leak when loading cover art. `lp:1767068 <https://bugs.launchpad.net/mixxx/+bug/1767068>`__
+  * Fix clearing of ReplayGain gain/ratio in file tags. `lp:1766094 <https://bugs.launchpad.net/mixxx/+bug/1766094>`__
+  * Fix crash when removing a quick link. `lp:1510068 <https://bugs.launchpad.net/mixxx/+bug/1510068>`__
+  * Fidlib: Thread-safe and reentrant generation of filters. `lp:1765210 <https://bugs.launchpad.net/mixxx/+bug/1765210>`__
+  * Fix unresponsive scrolling through crates & playlists using encoder. `lp:1719474 <https://bugs.launchpad.net/mixxx/+bug/1719474>`__
+  * Swap default values for temp/perm rate changes. `lp:1764254 <https://bugs.launchpad.net/mixxx/+bug/1764254>`__
+
+
 **v2.1.0** (2018-04-15)
 
   * Graphical interface scales for high resolution screens
