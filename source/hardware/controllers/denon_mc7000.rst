@@ -80,11 +80,11 @@ User Variables
 Please check the \*.js mapping file for user variables to:
 
 -  activate NeedleDrop sensor while a track is playing (default: false)
--  set the Pitch Fader ranges in % to toggle between them (default: 4,
-   6, 8, 10, 16, 24)
+-  set the Pitch Fader ranges in % to toggle between them 
+   (default: 4, 6, 8, 10, 16, 24)
 -  Platter Ring LED mode: single LED on or off (default: 1). Can be
    switched with SHIFT + Deck button
--  Vinyl Mode on or off at MIXXX start which also triggers the Platter
+-  Vinyl Mode on or off at Mixxx start which also triggers the Platter
    Ring LED function (default: 1)
 -  Scratch Parameters (default: 33.3, 1/10, 1/10/32)
 -  Jog Parameters (default: 1, 3)
@@ -115,7 +115,7 @@ Layout and functions
     pre-fader, pre-EQ audio signal for the channel.
 
 4.  **Channel Level Meters:** These LEDs display the audio signal level
-    of the channel as in MIXXX GUI.
+    of the channel as in Mixxx GUI.
 
 5.  **Channel EQ:** Turn these knobs to boost or cut the high,
     mid-range, and low frequencies for the channel.
@@ -146,7 +146,7 @@ Layout and functions
     are hidden, otherwise shown.
 
 13. **Master Level Meters:** These LEDs show the Master Audio signal
-    (hardware). **They will not match with the Master Level in MIXXX.**
+    (hardware). **They will not match with the Master Level in Mixxx.**
 
 14. **Master Level:** Turn this knob to adjust the volume level of the
     master outputs (hardware).
@@ -261,35 +261,31 @@ Layout and functions
     Mode described below.
 
 36. **Cue / Cue Loop / Flip:**
-
--  HOT CUE: Push a Performance PAD to set or play a HOT CUE. Press and
-   hold Shift to delete HOT CUE.
--  *This section needs further development.* **HELP APPRECIATED**
+    HOT CUE: Push a Performance PAD to set or play a HOT CUE. Press and
+    hold Shift to delete HOT CUE.
+    2nd / 3rd functions are not yet available
 
 37. **Roll / Saved Loop:**
-
--  ROLL Mode lets you repeat a number of beats while keep pushing the
-   PAD button down. From first to 8th PAD button the loop size is set as
-   1/16, 1/8, 1/4, 1/2, 1, 2, 4 and 8 beats. The SLIP function remains
-   active so that the track continues at the position where it had been
-   playing forward the whole time.
--  *This section needs further development.* **HELP APPRECIATED**
+    ROLL: lets you repeat a number of beats while keep pushing the
+    PAD button down. From first to 8th PAD button the loop size is set as
+    1/16, 1/8, 1/4, 1/2, 1, 2, 4 and 8 beats. The SLIP function remains
+    active so that the track continues at the position where it had been
+    playing forward the whole time.
+    2nd / 3rd functions are not yet available
 
 38. **Slicer / Slicer Loop:**
-
--  SLICER Mode is set as beatjump only (way different to Serato). The
-   first row buttons jump forward by 1, 2, 4 and 8 beats. The 2nd row
-   buttons jump backward by 1, 2, 4 and 8 beats.
--  *This section needs further development.* **HELP APPRECIATED**
+    SLICER: is set as beatjump only (way different to Serato). The
+    first row buttons jump forward by 1, 2, 4 and 8 beats. The 2nd row
+    buttons jump backward by 1, 2, 4 and 8 beats.
+    2nd / 3rd functions are not yet available
 
 39. **Sampler / Velocity Samp.:**
-
--  SAMPLER: 8 samplers can be triggered from either Deck. Add samplers
-   to the sampler bank pushing a PAD button. If a sampler is loaded then
-   the push will start the sampler, push again while playing will replay
-   the track from Cue point. Press and hold SHIFT and push a PAD button to
-   stop a sampler while playing or eject a sampler when stopped.
--  *This section needs further development.* **HELP APPRECIATED**
+    SAMPLER: 8 samplers can be triggered from either Deck. Add samplers
+    to the sampler bank pushing a PAD button. If a sampler is loaded then
+    the push will start the sampler, push again while playing will replay
+    the track from Cue point. Press and hold SHIFT and push a PAD button to
+    stop a sampler while playing or eject a sampler when stopped.
+    2nd / 3rd functions are not yet available
 
 40. **Auto-Loop/Reloop:** Press this button to create an auto-loop with
     the length set with loop length. You may change the length of beats by
@@ -309,7 +305,6 @@ Layout and functions
 43. **< / > Param 1/2:** These are currently mapped to add/remove rating
     stars to the loaded track. Press and hold Shift and then press these
     buttons to change track color in the library.
-    *This section needs further development.* **HELP APPRECIATED**
 
 44. **Slip:** Press this button to enable or disable Slip Mode. In Slip
     Mode, you can jump to cue points, trigger loops or use the
@@ -369,7 +364,7 @@ Layout and functions
 
 55. **FX On / Select:** Press this button to turn the corresponding
     effect on or off. Press and hold Shift and then press this button to
-    select an effect from the list that was enabled in the MIXXX
+    select an effect from the list that was enabled in the Mixxx
     Properties FX section.
 
 56. **FX Level:** Turn this knob to adjust the level of the
@@ -385,17 +380,17 @@ Layout and functions
     preview.
 
 Front Panel. **Crossfader Contour:** Adjusts the slope of the crossfader
-curve. Turn the knob to the left for a smooth fade (mixing) or to the
-right for a sharp cut (scratching). The center position is a typical
-setting. This seams to have a very minor effect in MIXXX.
+    curve. Turn the knob to the left for a smooth fade (mixing) or to the
+    right for a sharp cut (scratching). The center position is a typical
+    setting. This seams to have a very minor effect in Mixxx.
 
 LEDs
-~~~~
+----
 
-The Channel Volume Meters matches to the ones shown in MIXXX GUI. Only
+The Channel Volume Meters matches to the ones shown in Mixxx GUI. Only
 when clipping the red LED illuminates.
 
-As mentioned before the Master Volume Meter is not correlated to MIXXX
+As mentioned before the Master Volume Meter is not correlated to Mixxx
 GUI as the controller handles that in Hardware.
 
 Button LEDs are fully mapped for the first function. As you press and
