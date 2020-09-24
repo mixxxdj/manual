@@ -406,12 +406,11 @@ Version History
 
 **2.1.8** (2019-04-07)
 
-  * Fix a rare chance for a corrupt track file while writing metadata in out of disk situations. lp:1815305
-  * Fix export of BPM track file metadata. lp:1816490
-  * Fix export of BPM track file metadata. lp:1816490
-  * Fix sending of broadcast metadata with TLS enabled libshout 2.4.1. lp:1817395
-  * Fix resdicovering purged tracks in all cases. lp:1821514
-  * Fix dropping track from OSX Finder. lp:1822424
+  * Fix a rare chance for a corrupt track file while writing metadata in out of disk situations. `lp:1815305 <https://bugs.launchpad.net/mixxx/+bug/1815305>`__
+  * Fix export of BPM track file metadata. `lp:1816490 <https://bugs.launchpad.net/mixxx/+bug/1816490>`__
+  * Fix sending of broadcast metadata with TLS enabled libshout 2.4.1. `lp:1817395 <https://bugs.launchpad.net/mixxx/+bug/1817395>`__
+  * Fix resdicovering purged tracks in all cases. `lp:1821514 <https://bugs.launchpad.net/mixxx/+bug/1821514>`__
+  * Fix dropping track from OSX Finder. `lp:1822424 <https://bugs.launchpad.net/mixxx/+bug/1822424>`__
 
 
 **2.1.7** (2019-01-15)
@@ -465,7 +464,7 @@ Version History
 
 **2.1.3** (2018-08-20)
 
-  * Fix a severe `performance regression on Windows <https://mixxx.discourse.group/t/mixxx-2-1-2-running-much-slower-than-2-1-1/17447>`
+  * Fix a severe `performance regression on Windows <https://mixxx.discourse.group/t/mixxx-2-1-2-running-much-slower-than-2-1-1/17447>`__
 
 
 **2.1.2** (2018-08-10)
