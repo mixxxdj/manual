@@ -395,6 +395,7 @@ Version History
   * Add controller mapping for Hercules DJControl Jogvision `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
   * Fix missing manual in deb package `lp:1889776 <https://bugs.launchpad.net/mixxx/+bug/1889776>`__ (https://bugs.launchpad.net/mixxx/+bug/1889776)
   * Fix caching of duplicate tracks that reference the same file `#3027 <https://github.com/mixxxdj/mixxx/pull/3027>`__
+  * Fix loss of precision when dealing with floating-point sample positions while setting loop out position and seeking using vinyl control `#3126 <https://github.com/mixxxdj/mixxx/pull/3126>`__ `#3127 <https://github.com/mixxxdj/mixxx/pull/3127>`__
 
 
 **2.2.4** (2020-06-27)
