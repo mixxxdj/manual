@@ -61,7 +61,7 @@ manual <https://mixxx.org/manual/latest/en/chapters/controlling_mixxx.html#using
 Mapping configuration
 ~~~~~~~~~~~~~~~~~~~~~
 
-Edit the 'Hercules_DJControl_Jogvision-scripts.js', and change the 'CFG.(user|fine)' variables to fit your needs:  
+Edit the :file:`Hercules_DJControl_Jogvision-scripts.js`, and change the ``CFG.(user|fine)`` variables to fit your needs:  
 
 .. list-table:: *USER Variables* (you may freely modify them)
    :widths: 25 25 25 50
