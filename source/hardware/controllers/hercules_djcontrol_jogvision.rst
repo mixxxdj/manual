@@ -26,7 +26,7 @@ Sound card setup
 
 This controller has built-in 4 channel output sound card, with:
 
-- OUTPUTS:
+- Outputs:
 
   - MASTER:RCA and 3.5mm jack
   - HEADPHONE: 6.35mm and 3.5mm jack
