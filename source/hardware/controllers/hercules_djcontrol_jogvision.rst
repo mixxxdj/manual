@@ -15,11 +15,9 @@ Compatibility
 
 This controller is a class compliant USB MIDI and audio device, so it
 can be used without any special drivers on GNU/Linux, Mac OS X, and
-Windows. However, if you wish to use the `ASIO sound
-API <https://mixxx.org/manual/latest/en/chapters/preferences.html?highlight=asio#windows>`__
-under Windows, please install the latest driver package available from
+Windows. For Windows, please install the latest driver package available from
 the `Support
-page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__.
+page <https://support.hercules.com/es/product/djcontroljogvision-es/>`__.
 
 Sound card setup
 ----------------
@@ -42,22 +40,13 @@ This controller has built-in 4 channel output sound card, with:
 - From the **Headphones** drop-down menu, select the audio interface, then **Channels 3-4**  
 - Click **Apply** to save the changes.  
 
-Please refer to `the user manual <https://mixxx.org/manual/latest/en/chapters/example_setups.html#laptop-and-external-usb-audio-interface>`__
-for more details about the audio configuration in Mixxx.
+Please refer to the user manual for more details about the audio configuration in Mixxx.
 
 .. note::
    The **Master** and **Headphone** knobs, as well as the
    **Master** button are hardware controls and interact directly with the
    integrated sound card’s output.
    
-Mapping description
--------------------
-
-Save both MIDI and script files to your `user controller mapping
-folder <https://github.com/mixxxdj/mixxx/wiki/controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__,
-then load the preset as described in `the user
-manual <https://mixxx.org/manual/latest/en/chapters/controlling_mixxx.html#using-midi-hid-controllers>`__
-
 Mapping configuration
 ~~~~~~~~~~~~~~~~~~~~~
 
