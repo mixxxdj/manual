@@ -33,7 +33,7 @@ This controller has built-in 4 channel output sound card, with:
   - BOOTH: RCA and 3.5mm jack
 - INPUTS:
 
-  - MIC:6.35mm jack
+  - MIC: 6.35mm jack
   - AUX: 3.5mm jack
 
 - Open **Preferences \> Sound Hardware**  
