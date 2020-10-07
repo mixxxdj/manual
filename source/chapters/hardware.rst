@@ -9,6 +9,7 @@ DJ Hardware
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
    Be <be.0@gmx.com>
+   Jan Holthuis <jholthuis@mixxx.org>
 
 Although Mixxx can be used with just a laptop or desktop computer, fully taking
 advantage of Mixxx's features requires specialized DJ hardware. Depending on
@@ -16,7 +17,27 @@ your budget and application area, your setup and requirements may vary. This
 chapter provides general background information about various types of DJ
 hardware.
 
-.. seealso:: Instructions how to use your DJ Controller that work
+To make DJing with Mixxx a fun experience, at least the following pieces are needed:
+
+- speakers to play the music to the audience,
+- an :ref:`audio interface <hardware-audio-interfaces>` with 4 mono/2 stereo
+  output channels (or 2 mono output channels + a :ref:`DJ splitter cable
+  <hardware-splitter-cables>`),
+- :ref:`headphones <hardware-headphones>` for prelistening tracks while another
+  track is playing on the speakers, and
+- audio cables and adapters to connect the equipment to your computer.
+
+Additionally, you might consider getting the following equiment:
+
+- a :ref:`controller <hardware-controllers>`,
+- :ref:`turntables <hardware-turntables>`, an audio interface with phono inputs
+  and :ref:`timecode vinyl <vinyl-control-media>`,
+- a laptop/controller stand,
+- a surge protector to protect the equipment from voltage spikes,
+- cases for laptop, controller and headphones, and
+- custom fader and knob caps to customize your gear.
+
+.. seealso:: Instructions how to use DJ Controllers that work
    out-of-the-box with Mixxx can be found in the :ref:`Hardware Manuals
    <hardware-manuals>` section of this manual.  The `Mixxx DJ Hardware Guide
    <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ on the
@@ -72,12 +93,12 @@ pairs).
 
 The headphone jack on most laptops is not a second audio output. Rather,
 plugging headphones into the jack simply redirects the laptop's single stereo
-output from its speakers to your headphones. A splitter cable can be used to
-separate the stereo output of a headphone jack into two separate mono outputs
-for headphone cueing, but it is recommended to use a sound card with at
-least four mono outputs (for two stereo pairs). Such sound cards tend to be
-higher quality than those built into laptops and allow your mix to be enjoyed
-in stereo by your audience.
+output from its speakers to your headphones. A :ref:`splitter cable
+<hardware-splitter-cables>` can be used to separate the stereo output of a
+headphone jack into two separate mono outputs for headphone cueing, but it is
+recommended to use a sound card with at least four mono outputs (for two stereo
+pairs). Such sound cards tend to be higher quality than those built into
+laptops and allow your mix to be enjoyed in stereo by your audience.
 
 Unlike some proprietary DJ systems, Mixxx can use any audio interface and any
 :term:`MIDI` or :term:`HID` controller that your :term:`OS <operating system>`
@@ -172,6 +193,27 @@ audio interfaces have phono preamps on their deck inputs, but not necessarily
 on every deck input. Many higher-end all-in-one controllers also include audio
 interfaces with phono preamps.
 
+Driver Support
+^^^^^^^^^^^^^^
+Unlike some proprietary DJ programs, Mixxx works with any audio interface that
+is compatible with your operating system — including for timecode vinyl (DVS)
+use.
+
+USB Audio Class compliant audio interfaces should work out of the box on all
+operating systems supported by Mixxx. This is the case for the integrated audio
+interfaces in most DJ controllers. Sound cards that aren't USB Audio Class
+compliant need a driver for each OS.
+
+.. note:: On Windows, you should install the manufacturer's drivers even for
+   USB class compliant audio interfaces to be able to use the recommended ASIO
+   sound API.
+
+.. hint:: If you are considering buying a controller or audio interface, the
+   easiest way to tell if it is USB class compliant before you buy it is to
+   search for macOS drivers for the device on the manufacturer's website. If it
+   is advertised as compatible with macOS or iOS but there are no drivers to
+   download for macOS, the device is USB class compliant.
+
 .. _hardware-mixers:
 
 Mixers
@@ -236,3 +278,53 @@ analog audio signal). Mixxx can work with any microphone that can be plugged
 into your :ref:`audio interface <hardware-audio-interfaces>`.
 
 .. seealso:: :ref:`microphones`
+
+.. _hardware-headphones:
+
+Headphones
+==========
+
+Being able to listen to what you will play next in headphones before your
+audience hears on the main speakers or your broadcast stream is an essential
+part of DJing. DJ headphones are generally better quality than typical consumer
+headphones. Importantly, they are designed to have good isolation, meaning they
+block outside sound. This allows the DJ to focus on the sound in the headphones
+better without having to turn up the volume to drown out sound from the
+monitors, PA system, and chatter. Also, DJ headphones have hinges or flexible
+headbands that allow the DJ to take off one headphone cup to hear the monitor
+or PA output better in one ear and compare it to the headphone output in the
+other ear.
+
+When shopping for headphones, consider how well they isolate sound and their
+durability. The most frequent places that headphones break are the cable
+attachment point and the headband. Look for headphones with detachable cables,
+metal headbands, and other individually replaceable parts. Avoid Bluetooth
+headphones because these may be unreliable and will always reduce sound
+quality. Active noise canceling headphones also tend to have worse sound
+quality than other headphones of a comparable price. DJ headphones with a
+closed design block out a lot of sound simply by being closed.
+
+Whether to get on-ear or over-ear headphones is a matter of personal
+preference. Everyone's head is different, so headphones that are comfortable
+for a friend or a reviewer may not be comfortable for you.
+
+In-ear monitors (IEMs) isolate sound better than headphones but are more
+expensive. They usually cost more than double the price of good DJ headphones
+with comparable quality. They may be a sound investment for musicians who play
+often in very loud environments to preserve their hearing.
+
+.. _hardware-splitter-cables:
+
+Splitter Cables
+===============
+DJ splitter cables are the cheapest way to get two separate sound outputs from
+your computer.  These plug into the onboard audio interface built into computer
+motherboards and split the stereo signal into two separate mono signals.
+However, onboard audio interfaces are not good quality, and you lose the stereo
+effect of hearing different sounds arranged in space.
+
+Devices marketed as "headphone splitter" instead of DJ splitters duplicate one
+stereo signal in two jacks.  These cannot be used for headphone cueing.  Also,
+generic stereo-to-mono splitter cables or adapters typically have two mono jack
+outputs.  Plugging headphones or stereo speakers into a generic stereo-to-mono
+splitter will only play sound on one side of the headphones or speakers.

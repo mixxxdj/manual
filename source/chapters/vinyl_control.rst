@@ -121,6 +121,8 @@ quality of the corresponding open source driver.
           :ref:`MIDI or HID controller<setup-controller-and-external-card>`
           to mix in software instead.
 
+.. _vinyl-control-media:
+
 Supported Timecode media
 ------------------------
 
