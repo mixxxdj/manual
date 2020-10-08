@@ -335,9 +335,16 @@ Tracks can be unloaded into a deck in several ways:
 * To unload track in Deck 1, use the keyboard shortcut Shift + Left. In Deck 2 you can
   unload track with Shift + Right
 
-* You can use the eject track button to unload track from a deck. This button is
-  located at the bottom right, below the waveform.
+* You can use the eject track button to unload track from a deck. Look for a button with this blue icon:
 
+.. figure:: ../_static/Mixxx-eject-button.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: The Mixxx Library
+   :figclass: pretty-figures
+
+   The Mixxx Library
 
 .. _library-finding-tracks:
 
