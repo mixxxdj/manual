@@ -8,7 +8,7 @@ Glossary of Terms
      Headphone cueing, or just cueing, is listening to the next track you would
      like to mix in your headphones. The audience will not hear what you are
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
-     The shortcut for headphone cueing in Deck1 is T while for Deck 2 the shortcut is Y. 
+     The shortcut for headphone cueing in Deck 1 is T while for Deck 2 the shortcut is Y. 
 
    crossfader
      The crossfader is a slider that determines how much each deck of audio

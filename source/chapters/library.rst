@@ -313,7 +313,7 @@ Tracks can be loaded into a deck in several ways:
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
   table.
-* Using keyboard shortcut keys to load track in Deck1 with Shift + Left and Deck2
+* Using keyboard shortcut keys to load track in Deck 1 with Shift + Left and Deck 2
  with Shift + Right
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
