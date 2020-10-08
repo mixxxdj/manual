@@ -20,9 +20,9 @@ There are a variety of other resources where you can find out more:
   `<https://mixxx.org/wiki/>`_
 
 * **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts. 
-  Please note that this shortcuts are for keyboards configured in English
-  layout and default shortcuts may be different if your language settings
-  is not english.
+  Please note that these shortcuts are for keyboards configured in English
+  layout and default shortcuts may be different if your language setting
+  is not English.
   :ref:`default keyboard mappings<appendix-keyboard>`
 
 * **Mixxx Community Forums**: To search for answers, post your question or

@@ -114,7 +114,7 @@ Tracks - View and edit your whole collection
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
-  to the waveform display, use the context menu or use shortcut keys. Go to the chapter
+  to the waveform display, use the context menu, or use shortcut keys. Go to the chapter
   :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
@@ -327,11 +327,16 @@ Tracks can be loaded into a deck in several ways:
   Mixxx's waveform displays will load it into that deck.
 
 
-unLoading Tracks
+Unloading Tracks
 ==============
 
-* To unload track in Deck1, use the keyboard shortcut Shift + Left. In Deck2 you can
+Tracks can be unloaded into a deck in several ways:
+
+* To unload track in Deck 1, use the keyboard shortcut Shift + Left. In Deck 2 you can
   unload track with Shift + Right
+
+* You can use the eject track button to unload track from a deck. This button is
+  located at the bottom right, below the waveform.
 
 
 .. _library-finding-tracks:

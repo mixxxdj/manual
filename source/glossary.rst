@@ -14,6 +14,11 @@ Glossary of Terms
      The crossfader is a slider that determines how much each deck of audio
      contributes to the :term:`master output`.
 
+   shortcut
+     Shortcut is an alternative faster way of achieving some Mixxx functions. This is mostly with 
+     keyboard Keys. The default shortcut :ref:`here<appendix-keyboard>` is for English keyboard layout. 
+     Depending on your language settings the defaults may be different.
+
    master output
      The master output is the main audio output. It is what your audience hears.
 

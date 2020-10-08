@@ -27,9 +27,6 @@ processed one after the other in series. You will hear different sounds
 depending on the order of effects within the chain. Each effect in the chain
 has its own button to toggle it on and off.
 
-The shortcut to quickly Activate/Disable Effects Unit is 5 Deck1 and 0 in Deck2 
-in an English keyboard layout.
-
 Effect units can process sound from:
   * decks
   * microphones
@@ -63,6 +60,9 @@ anywhere in the middle between dry and wet and any of these effects are enabled
 in the unit, there will be comb filtering which is probably not desired. For
 more background information, read `Equalizers and Phase Shift
 <http://ethanwiner.com/EQPhase.html>`_.
+
+The shortcut to quickly activate/disable any effect unit for Deck 1 is 5 and 0 for Deck 2 
+in an English keyboard layout.
 
 Effect Parameters & Metaknobs
 =============================
