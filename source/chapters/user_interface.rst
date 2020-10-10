@@ -372,38 +372,37 @@ buttons depends on the selected Cue mode. To change the Cue mode, go to
 
 .. _interface-transport:
 
-Transport Controls
-------------------
+.. Transport Controls
+.. ------------------
 
-.. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
+.. .. sectionauthor::
+..    RJ Ryan <rryan@mixxx.org>
+..    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
-  :align: center
-  :width: 55px
-  :figwidth: 100%
-  :alt: The transport controls of the deck
-  :figclass: pretty-figures
+.. .. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
+..   :align: center
+..   :width: 55px
+..   :figwidth: 100%
+..   :alt: The transport controls of the deck
+..   :figclass: pretty-figures
 
-  The transport controls of the deck
+..   The transport controls of the deck
 
-**Fast-Rewind button**
- As long as the button is pressed, the track will play in reverse with
- increased speed. Right-clicking on the button will seek the play position to
- the beginning of the track.
+.. **Fast-Rewind button**
+..  As long as the button is pressed, the track will play in reverse with
+..  increased speed. Right-clicking on the button will seek the play position to
+..  the beginning of the track.
 
-**Fast-Forward button**
- As long as the button is pressed, the track will play with increased speed.
- Right-clicking on the button will seek the play position to the end of the
- track.
+.. **Fast-Forward button**
+..  As long as the button is pressed, the track will play with increased speed.
+..  Right-clicking on the button will seek the play position to the end of the
+..  track.
 
-**Reverse button**
- As the name suggests, this button plays a track backwards.
- Right-clicking on the button puts a track into reverse while being held,
- resumes the track and disables Slip mode when released. Useful to censor
- expletives on the fly, or simply as part of your mix.
-
+.. **Reverse button**
+..  As the name suggests, this button plays a track backwards.
+..  Right-clicking on the button puts a track into reverse while being held,
+..  resumes the track and disables Slip mode when released. Useful to censor
+..  expletives on the fly, or simply as part of your mix.
 
 .. _interface-vc-mode:
 
