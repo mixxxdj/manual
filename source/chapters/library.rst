@@ -835,11 +835,12 @@ play. See :ref:`getting-started-analyze-library` for details.
 
 .. _library-third-party:
 
-iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
-==============================================================
+Using libraries from other software
+===================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
+   Ukpai Ugochi <outreachy applicant>
 
 Supported libraries:
 
@@ -865,6 +866,48 @@ different location. Select :guilabel:`Use Default Library` to reset.
 * If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists as well.
+
+.. _library-serato:
+
+Using the Serato library
+------------------------
+
+Mixxx supports reading your Serato library and crates both from your local hard drive as well as portable USB drives. Smart crates are currently not supported.
+
+Serato stores information such as hot cues, track color and beatgrid in the file tags.
+Regardless of whether a track is loaded into deck from the libray or directly from the file browser, Mixxx will import that information automatically if present.
+
+Saved loops are imported as well, but since Mixxx is lacking support for saved loops, only the first loop is usable in Mixxx.
+All other saved loops can be used like regular hotcues for now.
+   
+Waveforms, Gain values and "Flips" are not imported from Serato.
+
+.. note:: Due to differences in the metadata format, importing Serato information from Ogg Vorbis files is currently not supported.
+
+**How to import Serato libraries from external USB drive**
+
+* Copy music library from Serato into external USB drive
+* Plug in USB drive while Mixxx is running
+* Click on Serato in the library. All USB drives containing a Serato library will be detected automatically.
+* For each removable device, the library and all crates from Serato will accessible.
+
+Import your Beatgrid and Hotcues
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Serato libraries imported into Mixxx would have beatgrid, hotcues and other metadata imported immediately you load the track for the first time.
+
+If you have already added a track to your Mixxx library before support for reading Serato's hotcues was added, you can reimport metadata from Serato via the track context menu.
+This action will clear your existing cuepoints in Mixxx if the track has any Serato hotcues.
+
+**To reimport metadata for files**
+
+* Right click on the track and select metadata
+* Click on Import from file tag. If the track has Serato Metadata, all existing cue points will be overwritten
+
+Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
+This problem may cause your cues to be shifted up by a few milliseconds. 
+
+Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
 
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
