@@ -313,8 +313,8 @@ Tracks can be loaded into a deck in several ways:
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
   table.
-* Using keyboard shortcut keys to load track in Deck 1 with Shift + Left and Deck 2
- with Shift + Right
+* Using keyboard shortcut keys to load track in Deck 1 with :kbd:`Shift` + :kbd:`Left` and Deck 2
+ with :kbd:`Shift` + :kbd:`Right`
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
@@ -328,23 +328,12 @@ Tracks can be loaded into a deck in several ways:
 
 
 Unloading Tracks
-==============
+================
 
-Tracks can be unloaded into a deck in several ways:
+* To unload track in Deck 1, use the keyboard shortcut :kbd:`Shift` + :kbd:`Left`. In Deck 2 you can
+  unload track with :kbd:`Shift` + :kbd:`Right`
 
-* To unload track in Deck 1, use the keyboard shortcut Shift + Left. In Deck 2 you can
-  unload track with Shift + Right
-
-* You can use the eject track button to unload track from a deck. Look for a button with this blue icon:
-
-.. figure:: ../_static/Mixxx-eject-button.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: The Mixxx Library
-   :figclass: pretty-figures
-
-   The Mixxx Library
+* You can also use the eject track button to unload track from a deck. 
 
 .. _library-finding-tracks:
 
