@@ -1,0 +1,730 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>9. Using Microphones &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="10. Live Broadcasting - Start your own Internet radio" href="livebroadcasting.html" />
+    <link rel="prev" title="8. Vinyl Control" href="vinyl_control.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">9. Using Microphones</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#software-monitoring">9.1. Software Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#direct-monitoring">9.2. Direct Monitoring</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#loopback-input">9.2.1. Loopback Input</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latency-compensation">9.2.2. Latency Compensation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#measuring-round-trip-latency">9.2.2.1. Measuring Round Trip Latency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuring-latency-compensation">9.2.2.2. Configuring Latency Compensation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#activating-direct-monitoring-and-loopback-on-the-audio-interface">9.2.3. Activating Direct Monitoring And Loopback On The Audio Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hardware-mixers">9.3. Hardware Mixers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#recording-and-broadcasting-with-an-external-hardware-mixer">9.3.1. Recording And Broadcasting With An External Hardware Mixer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#dj-controllers-with-microphone-inputs">9.4. DJ Controllers With Microphone Inputs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">9. </span>Using Microphones</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/microphones.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="using-microphones">
+<span id="microphones"></span><h1><span class="section-number">9. </span>Using Microphones<a class="headerlink" href="#using-microphones" title="Permalink to this headline">¶</a></h1>
+<p>Mixxx can work with any microphone that can be plugged into your <a class="reference internal" href="hardware.html#hardware-audio-interfaces"><span class="std std-ref">audio
+interface</span></a>. There are three ways to use microphones
+with Mixxx, each with their own pros and cons:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#microphones-software-monitoring"><span class="std std-ref">Software Monitoring</span></a>: Cheapest and simplest to set up,
+but you cannot hear yourself without a disorienting delay, referred to as
+“latency”.</p></li>
+<li><p><a class="reference internal" href="#microphones-direct-monitoring"><span class="std std-ref">Direct Monitoring</span></a>: Recommended for most users. This is
+the cheapest to set up with good sound quality and without the latency of
+software monitoring.</p></li>
+<li><p><a class="reference internal" href="#microphones-hardware-mixers"><span class="std std-ref">Hardware Mixers</span></a>: Most expensive option to set up with
+high sound quality. This does not have the latency of software monitoring.</p></li>
+</ul>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>USB microphones are not recommended. These devices have their own
+audio interface built in and can only be used with software
+monitoring. Some USB microphones have headphone jacks for direct
+monitoring, but the music from Mixxx cannot be heard in this
+headphone jack. Also, they can be difficult to configure at the
+same time as a different audio interface for music output.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">Mixxx DJ Hardware Guide</a>
+lists specific audio interfaces with information about their prices,
+features, and suitability for use with microphones.</p>
+</div>
+<div class="section" id="software-monitoring">
+<span id="microphones-software-monitoring"></span><h2><span class="section-number">9.1. </span>Software Monitoring<a class="headerlink" href="#software-monitoring" title="Permalink to this headline">¶</a></h2>
+<p>Software monitoring can be used with the built-in microphone on a laptop or
+with a headset plugged into the built-in audio interface on a computer.
+However, there is a delay between the time you make sound into the microphone
+and hear it in the Master output. Due to the nature of digital audio, it takes
+time for input from the audio interface to be available for Mixxx to process,
+time for Mixxx to process the audio, and more time to send the audio back out
+the audio interface. This time is referred to as “latency”.</p>
+<p>Mixxx can be configured to run at low latencies by choosing a smaller
+<a class="reference internal" href="preferences.html#preferences-audio-buffer"><span class="std std-ref">Audio Buffer</span></a>, but there is no way to completely eliminate
+latency. Although latency is measured in milliseconds, even a few milliseconds
+of latency can be disorienting and distracting to hear, whether you are using
+the microphone for spoken announcements, vocals, or playing a musical
+instrument.</p>
+<p>To use software monitoring:</p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span>.</p></li>
+<li><p>Select the <span class="guilabel">Input</span> tab.</p></li>
+<li><p>For <span class="guilabel">Microphone 1</span>, select the audio interface that your
+microphone is plugged into.</p></li>
+<li><p>Click the <span class="guilabel">Apply</span> button.</p></li>
+<li><p>Click the <span class="guilabel">OK</span> button.</p></li>
+<li><p>Click the <span class="guilabel">Mics</span> button in the main Mixxx window to show the
+microphone controls.</p></li>
+<li><p>Click the <span class="guilabel">Talk</span> button when you are using the microphone.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you would prefer to not hear the microphone input, you can set the
+<span class="guilabel">Microphone Monitor Mode</span> option to <span class="guilabel">Direct
+monitor (recording and broadcasting only)</span>. This will still mix the
+microphone input with your recorded and broadcasted mixes, but it
+will not mix the microphone with the Master output. Don’t forget to
+press the <span class="guilabel">Talk</span> button when using the microphone if you
+use this option.</p>
+</div>
+</div>
+<div class="section" id="direct-monitoring">
+<span id="microphones-direct-monitoring"></span><h2><span class="section-number">9.2. </span>Direct Monitoring<a class="headerlink" href="#direct-monitoring" title="Permalink to this headline">¶</a></h2>
+<p>An audio interface with direct monitoring and a
+<a class="reference internal" href="#microphones-loopback-input"><span class="std std-ref">Loopback Input</span></a> is the recommended way to use microphones with
+Mixxx for most users. Except for audio interfaces built into computers, most
+audio interfaces with microphone inputs support direct monitoring. However, not
+all audio interfaces that support direct monitoring also have a loopback input.</p>
+<p>Direct monitoring routes the audio from the audio interface’s inputs directly
+its outputs. This avoids the latency of sending it into the computer and back
+out with <a class="reference internal" href="#microphones-software-monitoring"><span class="std std-ref">Software Monitoring</span></a>. At the same time, the audio
+interface sends the input into the computer so Mixxx can record and broadcast
+it.</p>
+<div class="section" id="loopback-input">
+<span id="microphones-loopback-input"></span><h3><span class="section-number">9.2.1. </span>Loopback Input<a class="headerlink" href="#loopback-input" title="Permalink to this headline">¶</a></h3>
+<p>Some audio interfaces that support <a class="reference internal" href="#microphones-direct-monitoring"><span class="std std-ref">Direct Monitoring</span></a> have a
+loopback input feature. They add Mixxx’s output to the microphone signal before
+sending it to the computer. This makes it easier to set up Mixxx with direct
+monitoring than configuring <a class="reference internal" href="#microphones-latency-compensation"><span class="std std-ref">Latency Compensation</span></a>.</p>
+<p>To configure Mixxx with a loopback input:</p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span>.</p></li>
+<li><p>Click the <span class="guilabel">Input</span> tab.</p></li>
+<li><p>Select the audio interface for the <span class="guilabel">Record/Broadcast</span> input. Do
+not configure anything for the <span class="guilabel">Microphone 1-4</span> inputs.</p></li>
+<li><p>Click the <span class="guilabel">Apply</span> button.</p></li>
+<li><p>Click the <span class="guilabel">OK</span> button.</p></li>
+<li><p><a class="reference internal" href="#microphones-activate-direct-monitoring"><span class="std std-ref">Activate direct monitoring and loopback on your audio interface.</span></a></p></li>
+<li><p>Adjust the microphone volume with the input gain knob on your audio
+interface.</p></li>
+</ol>
+<p>The microphone controls in Mixxx will not affect your microphones because they
+are mixed by the audio interface and not sent directly to Mixxx.</p>
+</div>
+<div class="section" id="latency-compensation">
+<span id="microphones-latency-compensation"></span><h3><span class="section-number">9.2.2. </span>Latency Compensation<a class="headerlink" href="#latency-compensation" title="Permalink to this headline">¶</a></h3>
+<p>When using <a class="reference internal" href="#microphones-direct-monitoring"><span class="std std-ref">Direct Monitoring</span></a>, you will hear the microphone
+mixed with the music from Mixxx without any noticeable latency. However, it still
+takes time for Mixxx to receive the microphone signal and process it. Without
+compensating for this latency or using a <a class="reference internal" href="#microphones-loopback-input"><span class="std std-ref">Loopback Input</span></a>, the
+microphone inputs will be out of time relative to the music in your recorded
+and broadcasted mixes.</p>
+<p>Mixxx can compensate for this timing misalignment, but it is complicated to set
+up. If you do not want to record your microphone into your mix or broadcast,
+you can <a class="reference internal" href="#microphones-activate-direct-monitoring"><span class="std std-ref">activate direct monitoring on your audio interface</span></a> without configuring latency
+compensation.</p>
+<div class="section" id="measuring-round-trip-latency">
+<span id="microphones-measure-round-trip-latency"></span><h4><span class="section-number">9.2.2.1. </span>Measuring Round Trip Latency<a class="headerlink" href="#measuring-round-trip-latency" title="Permalink to this headline">¶</a></h4>
+<p>To configure Mixxx to compensate for input latency while using direct
+monitoring, first you must measure the round trip latency of your setup. The
+round trip latency is different from the size of the
+<a class="reference internal" href="preferences.html#preferences-audio-buffer"><span class="std std-ref">Audio Buffer</span></a> configured in Mixxx. It is the amount of time
+it takes for audio to make a complete trip from your audio interface’s input,
+through your computer, and back out the audio interface.</p>
+<p>Mixxx cannot calculate the round trip latency because it depends on details of
+your audio interface’s hardware, your operating system, your audio interface’s
+driver, and other factors in your computer’s hardware. The round trip latency
+can only be found by measuring it. To do this, use a physical cable to connect
+the audio interface’s output to its input. Then, use a third party program to
+measure the round trip latency. These programs are recommended on each
+<a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a>:</p>
+<ul class="simple">
+<li><p><strong>GNU/Linux</strong>:
+<a class="reference external" href="https://www.linuxmusicians.com/viewtopic.php?t=8022">jack_iodelay</a></p></li>
+<li><p><strong>Windows</strong>: <a class="reference external" href="https://oblique-audio.com/rtl-utility.php">RTL Utility</a></p></li>
+<li><p><strong>macOS</strong>: <a class="reference external" href="https://manual.audacityteam.org/man/latency_test.html">Audacity</a></p></li>
+</ul>
+<p>You must use the same sample rate and audio buffer size in the measurement
+program as you do in Mixxx for the measurement to be accurate. If you decide to
+change the sample rate or buffer size you use with Mixxx, you will need to
+remeasure your round trip latency to have your microphone inputs aligned in
+your recorded and broadcasted mixes.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure direct monitoring is <em>not</em>
+<a class="reference internal" href="#microphones-activate-direct-monitoring"><span class="std std-ref">activated on your audio interface</span></a>
+while you are measuring the round trip latency or you will not get
+an accurate measurement.</p>
+</div>
+</div>
+<div class="section" id="configuring-latency-compensation">
+<span id="microphones-configure-latency-compensation"></span><h4><span class="section-number">9.2.2.2. </span>Configuring Latency Compensation<a class="headerlink" href="#configuring-latency-compensation" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Before opening Mixxx, <a class="reference internal" href="#microphones-measure-round-trip-latency"><span class="std std-ref">measure the round trip latency</span></a>.</p></li>
+<li><p>Open Mixxx.</p></li>
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span>.</p></li>
+<li><p>Click the <span class="guilabel">Input</span> tab.</p></li>
+<li><p>Select the audio interface input(s) for the <span class="guilabel">Microphone 1-4</span>
+inputs. Select a single mono channel for each Microphone input unless you
+are using stereo microphones.</p></li>
+<li><p>For the <span class="guilabel">Microphone Monitor Mode</span> option, select <span class="guilabel">Direct
+monitor (recording and broadcasting only)</span>.</p></li>
+<li><p>Enter the measured round trip latency in milliseconds for the
+<span class="guilabel">Microphone Latency Compensation</span> option.</p></li>
+<li><p>Click the <span class="guilabel">Apply</span> button.</p></li>
+<li><p>Click the <span class="guilabel">OK</span> button.</p></li>
+<li><p><a class="reference internal" href="#microphones-activate-direct-monitoring"><span class="std std-ref">Activate direct monitoring on your audio interface.</span></a></p></li>
+<li><p>Click the <span class="guilabel">Mics</span> button in the main Mixxx window to show the
+microphone controls.</p></li>
+<li><p>Click the <span class="guilabel">Talk</span> button when you are using the microphone.</p></li>
+<li><p>Adjust the microphone volume with the input gain knob on your audio
+interface. Do not adjust the microphone gain in Mixxx. If you do, the
+relative volume of the mics and music will be different in your recorded
+and broadcasted mixes compared to what you hear out of your audio interface.</p></li>
+</ol>
+<p>Mixxx will not record or broadcast your microphone if the <span class="guilabel">Talk</span>
+button is not active. However, you will still hear the microphone in your main
+output because the microphone is mixed by your audio interface, not Mixxx. You
+may leave the <span class="guilabel">Talk</span> button on to ensure you do not forget it, but
+this will record and broadcast background noise when you are not actively using
+the microphone. If your microphone has an on/off switch on it, you may leave
+the <span class="guilabel">Talk</span> button enabled in Mixxx and use the switch on the
+microphone to avoid adding background noise to your mix. Alternatively, you can
+adjust the input gain on your audio interface throughout your mix.</p>
+</div>
+</div>
+<div class="section" id="activating-direct-monitoring-and-loopback-on-the-audio-interface">
+<span id="microphones-activate-direct-monitoring"></span><h3><span class="section-number">9.2.3. </span>Activating Direct Monitoring And Loopback On The Audio Interface<a class="headerlink" href="#activating-direct-monitoring-and-loopback-on-the-audio-interface" title="Permalink to this headline">¶</a></h3>
+<p>General tips for activating direct monitoring and loopback are described below.
+However, every audio interface is different, so refer to the audio interface
+manual from the manufacturer for more details.</p>
+<p>On stand-alone audio interfaces, there is often a knob on the device that
+controls direct monitoring. This knob crossfades the audio interface’s output
+between the signal from the computer and the directly monitored inputs. If your
+audio interface has a knob like this, set the knob to the center.
+Alternatively, some audio interfaces have a switch to toggle direct monitoring
+instead of a knob.</p>
+<p>To hear mono microphone inputs on both sides of the stereo output with
+direct monitoring, you typically need to toggle a switch on the device.</p>
+<p>If the audio interface supports <a class="reference internal" href="#microphones-loopback-input"><span class="std std-ref">Loopback Input</span></a>, that may
+be activated by a switch on the device.</p>
+<p>Audio interfaces with lots of inputs and outputs often have a control panel
+program provided by the manufacturer that is installed automatically with the
+driver. This may be used instead of knobs and switches on the hardware to
+control direct monitoring, loopback, stereo/mono switches, and other audio
+interface features. On GNU/Linux, you might be able to access these controls
+with <strong class="command">alsamixer</strong>.</p>
+<p>Refer to the section below for details about <a class="reference internal" href="#microphones-dj-controllers"><span class="std std-ref">DJ Controllers With Microphone Inputs</span></a>.</p>
+</div>
+</div>
+<div class="section" id="hardware-mixers">
+<span id="microphones-hardware-mixers"></span><h2><span class="section-number">9.3. </span>Hardware Mixers<a class="headerlink" href="#hardware-mixers" title="Permalink to this headline">¶</a></h2>
+<p>Mixxx can be used with a microphone plugged into an external hardware mixer.
+This does not have the problem with latency that happens
+with <a class="reference internal" href="#microphones-software-monitoring"><span class="std std-ref">Software Monitoring</span></a>. However, it is generally
+recommended to use an audio interface that supports
+<a class="reference internal" href="#microphones-direct-monitoring"><span class="std std-ref">Direct Monitoring</span></a> and a <a class="reference internal" href="#microphones-loopback-input"><span class="std std-ref">Loopback Input</span></a>
+instead of an external mixer. If you are using <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a> and a
+microphone, you may need an external mixer.</p>
+<p>Mixxx can send each deck to separate stereo channels on an external mixer by
+using the <span class="guilabel">Deck 1-4</span> outputs. This requires an audio interface with
+at least 4 output channels (2 stereo pairs). Audio interfaces built into
+computers only have one stereo output and they do not have high sound quality.
+Thus, another audio interface is recommended. Audio interfaces with at least 4
+output channels typically have microphone inputs and support
+<a class="reference internal" href="#microphones-direct-monitoring"><span class="std std-ref">Direct Monitoring</span></a>, so there is no need for the external
+mixer.</p>
+<p>However, audio interfaces with phono preamplifiers for <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a> do
+not have microphone inputs. If you want to use vinyl control with a microphone,
+it is recommended to plug the microphone into a DJ mixer.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Some mixers that are not designed for DJing have a built-in USB
+audio interface. However, the audio interfaces in these mixers
+typically send only 2 channels (one stereo pair) to the mixer, so
+they are not recommended.</p>
+</div>
+<div class="section" id="recording-and-broadcasting-with-an-external-hardware-mixer">
+<span id="microphones-record-broadcast-external-mixer"></span><h3><span class="section-number">9.3.1. </span>Recording And Broadcasting With An External Hardware Mixer<a class="headerlink" href="#recording-and-broadcasting-with-an-external-hardware-mixer" title="Permalink to this headline">¶</a></h3>
+<p>To record or broadcast with an external hardware mixer, the output of the mixer
+needs to be connected to the input of an audio interface. Most DJ mixers have
+an extra output for this which may be labeled “record”, “session”, “auxiliary”,
+or “booth”. Some audio interfaces for vinyl control have enough input channels
+to receive the output of the mixer and timecode from two turntables. If yours
+does not, you may use the input of the audio interface built into your
+computer, but these do not have high sound quality.</p>
+<p>Alternatively, some DJ mixers have a built-in USB audio interface. These
+have inputs with phono preamplifiers for vinyl control and usually can send
+the record output back to the computer without a separate audio interface. Many
+(but not all) of these mixers are digital mixers, so they can send signals back
+and forth to Mixxx without converting them to analog. This results in higher
+sound quality for your recorded and broadcasted mixes compared to using a
+separate audio interface with an external mixer.</p>
+<p>To configure Mixxx for using a hardware mixer for recording and/or broadcasting:</p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span>.</p></li>
+<li><p>In the <span class="guilabel">Output</span> tab, select the audio interface for the
+<span class="guilabel">Deck 1-2</span> outputs (and <span class="guilabel">Deck 3-4</span> outputs if your audio
+interface and mixer support 4 decks).</p></li>
+<li><p>Click the <span class="guilabel">Input</span> tab.</p></li>
+<li><p>For the <span class="guilabel">Record/Broadcast</span> input, select the audio interface
+connected to the mixer’s output. For mixers with a built-in USB audio
+interface, refer to the mixer manufacturer’s manual to find which channels of
+the mixer’s audio interface send the record output.</p></li>
+<li><p>If you are using vinyl control, select the audio interface connected to the
+turntables for the <span class="guilabel">Vinyl Control 1-4</span> inputs.</p></li>
+<li><p>Click the <span class="guilabel">Apply</span> button.</p></li>
+<li><p>Click the <span class="guilabel">OK</span> button.</p></li>
+</ol>
+<p>Do not configure anything for the <span class="guilabel">Microphone 1-4</span> inputs when using
+an external mixer. The microphone controls in Mixxx will not affect your
+microphones because the microphone is mixed by the external mixer.</p>
+<p>DJ mixers typically do not supply phantom power required for condenser
+microphones. Stand-alone audio interfaces typically do supply phantom power.</p>
+</div>
+</div>
+<div class="section" id="dj-controllers-with-microphone-inputs">
+<span id="microphones-dj-controllers"></span><h2><span class="section-number">9.4. </span>DJ Controllers With Microphone Inputs<a class="headerlink" href="#dj-controllers-with-microphone-inputs" title="Permalink to this headline">¶</a></h2>
+<p>DJ controllers with microphone inputs typically mix the microphone input with
+the master output without sending it to the computer. This does not have the
+problem with latency that happens with
+<a class="reference internal" href="#microphones-software-monitoring"><span class="std std-ref">Software Monitoring</span></a>. However, many cheap DJ controllers do
+not digitize the signal to make it available to the computer. Refer to the
+controller’s page on the <a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">Mixxx wiki</a> or the manual from
+the controller manufacturer for details about your particular controller.</p>
+<p>If the controller does not digitize the microphone input, you cannot use
+Mixxx’s microphone input to record or broadcast with the microphone using
+Mixxx’s <span class="guilabel">Microphone 1-4</span> inputs. It is still possible to record and
+broadcast the microphone by connecting the booth output of the controller to an
+audio interface input and configuring this for Mixxx’s
+<span class="guilabel">Record/Broadcast</span> input. If the controller does not have a booth
+output, a Y splitter cable can be used on each side of the stereo main output to
+connect the main output to both the speakers and to another audio interface’s
+input.</p>
+<p>DJ controllers typically do not supply phantom power required for condenser
+microphones. Stand-alone audio interfaces typically do supply phantom power.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="livebroadcasting.html" class="btn btn-neutral float-right" title="10. Live Broadcasting - Start your own Internet radio" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="vinyl_control.html" class="btn btn-neutral float-left" title="8. Vinyl Control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/microphones.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/microphones.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/microphones.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/microphones.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/microphones.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/microphones.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/microphones.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/microphones.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/microphones.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/microphones.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/microphones.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/microphones.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/microphones.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/microphones.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/microphones.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/microphones.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/microphones.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/microphones.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/microphones.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/microphones.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/microphones.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/microphones.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/microphones.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/microphones.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/microphones.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/microphones.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/microphones.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/microphones.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/microphones.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quickstart &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Quickstart</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/quickstart.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quickstart">
+<h1>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h1>
+<p>If you’re new to DJing, this is the section for you. We’ve got some tutorials
+for you that cover the basics of DJing with Mixxx. If you already you already
+know how to DJ and are just looking for an overview of how to get your groove on
+with Mixxx, you can skip to the <a href="#id2"><span class="problematic" id="id3">`Table of Contents`_</span></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Example of a note</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Example of a warning</p>
+</div>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>Example of a todo</p>
+</div>
+<div class="section" id="loading-a-track">
+<h2>Loading a Track<a class="headerlink" href="#loading-a-track" title="Permalink to this headline">¶</a></h2>
+<p>Lesson about how to load a track.</p>
+</div>
+<div class="section" id="using-the-mixer-section">
+<h2>Using the Mixer Section<a class="headerlink" href="#using-the-mixer-section" title="Permalink to this headline">¶</a></h2>
+<p>Lesson about how to use the mixer.</p>
+</div>
+<div class="section" id="the-beatmatching-basics">
+<h2>The Beatmatching Basics<a class="headerlink" href="#the-beatmatching-basics" title="Permalink to this headline">¶</a></h2>
+<p>Lesson about how to beatmatch.</p>
+</div>
+<div class="section" id="getting-funky-with-effects">
+<h2>Getting Funky with Effects<a class="headerlink" href="#getting-funky-with-effects" title="Permalink to this headline">¶</a></h2>
+<p>Effects overview tutorial.</p>
+</div>
+<div class="section" id="mixxxing-it-up-with-hotcues-and-loops">
+<h2>Mixxxing it Up with Hotcues and Loops<a class="headerlink" href="#mixxxing-it-up-with-hotcues-and-loops" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/quickstart.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/quickstart.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/quickstart.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/quickstart.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/quickstart.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/quickstart.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/quickstart.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/quickstart.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/quickstart.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/quickstart.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/quickstart.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/quickstart.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/quickstart.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/quickstart.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/quickstart.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/quickstart.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/quickstart.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/quickstart.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/quickstart.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/quickstart.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/quickstart.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/quickstart.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/quickstart.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/quickstart.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/quickstart.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/quickstart.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/quickstart.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/quickstart.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/quickstart.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,779 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>10. Live Broadcasting - Start your own Internet radio &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="11. Effects" href="effects.html" />
+    <link rel="prev" title="9. Using Microphones" href="microphones.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">10. Live Broadcasting - Start your own Internet radio</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#streaming-servers">10.1. Streaming Servers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-mixxx">10.2. Configuring Mixxx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#live-broadcasting-preferences">10.3. Live Broadcasting Preferences</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#icecast-vs-shoutcast">10.3.1. Icecast vs. Shoutcast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#broadcast-directories">10.3.2. Broadcast directories</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#troubleshooting">10.4. Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#activate-mp3-streaming-support">10.5. Activate MP3 streaming support</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#activate-mp3-streaming-support-on-windows">10.5.1. Activate MP3 streaming support on Windows</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#windows-troubleshooting">10.5.1.1. Windows Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#activate-mp3-streaming-support-on-macos">10.5.2. Activate MP3 streaming support on macOS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#method-a-download">10.5.2.1. Method A: Download</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#method-b-package-manager">10.5.2.2. Method B: Package manager</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#activate-mp3-streaming-support-on-linux">10.5.3. Activate MP3 streaming support on Linux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">10. </span>Live Broadcasting - Start your own Internet radio</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/livebroadcasting.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="live-broadcasting-start-your-own-internet-radio">
+<span id="live-broadcasting"></span><h1><span class="section-number">10. </span>Live Broadcasting - Start your own Internet radio<a class="headerlink" href="#live-broadcasting-start-your-own-internet-radio" title="Permalink to this headline">¶</a></h1>
+<p>Live Broadcasting in Mixxx allow you to stream your mix over the Internet to
+listeners around the world.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">Using Microphones</span></a> chapter has detailed instructions for
+including input from microphones in your broadcasted mixes.</p>
+</div>
+<div class="section" id="streaming-servers">
+<h2><span class="section-number">10.1. </span>Streaming Servers<a class="headerlink" href="#streaming-servers" title="Permalink to this headline">¶</a></h2>
+<dl>
+<dt><strong>Remote streaming server</strong></dt><dd><p>Mixxx allows you to feed your audio stream directly to
+<a class="reference internal" href="../glossary.html#term-shoutcast"><span class="xref std std-term">Shoutcast</span></a> and <a class="reference internal" href="../glossary.html#term-icecast"><span class="xref std std-term">Icecast</span></a> streaming servers.
+Depending on the number of listeners, streaming audio requires a significant
+amount of bandwidth. Streaming servers provide the required bandwidth and
+broadcast the stream to your listeners. A popular free streaming service is
+<a class="reference external" href="http://www.caster.fm">Caster.fm</a>. A review of several free and paid stream
+hosts is available at
+<a class="reference external" href="http://www.broadcastingworld.com/reviews/category-stream-hosting">broadcastingworld.net</a>.</p>
+<div class="figure align-default" id="id2">
+digraph remote_streaming {
+rankdir=LR;
+size=&quot;6,6&quot;;
+StreamingServer [shape = rectangle, style=filled, fillcolor=gainsboro];
+Router [shape = box, style=dashed] ;
+node [shape = box];
+Mixxx -&gt; Router [ label = &quot;Lan&quot; ];
+Router -&gt; StreamingServer [ label = &quot;Internet&quot; ];
+StreamingServer -&gt; Listener1 [ dir=left, label = &quot;Internet&quot; ];
+StreamingServer -&gt; Listener2 [ dir=left, label = &quot;Internet&quot; ];
+StreamingServer -&gt; Listener3 [ dir=left, label = &quot;Internet&quot; ];
+}
+<p class="caption"><span class="caption-text">Mixxx as client-side streaming source broadcasting to an
+remote streaming server</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</dd>
+<dt><strong>Local streaming server</strong></dt><dd><p>For experienced users, it may be interesting to set up your own local streaming
+server. This turns your personal computer into a radio station and listeners
+connect directly to your server. Mixxx as a streaming source does not need to
+run on the same computer as your streaming server. However, professional
+stations often run the streaming source on the same computer as the streaming
+server for stability and reliability reasons. Keep in mind that if want to
+stream audio to a significant number of listeners, you’ll need enough
+bandwidth. Read the
+<a class="reference external" href="http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide">Shoutcast documentation</a>
+or
+<a class="reference external" href="http://www.icecast.org/docs/">Icecast documentation</a> for server setup
+instructions.</p>
+<div class="figure align-default" id="id3">
+digraph local_streaming {
+rankdir=LR;
+size=&quot;5.5,6&quot;;
+Router [shape = box, style=dashed] ;
+StreamingServer [shape = rectangle, style=filled, fillcolor=gainsboro];
+node [shape = box];
+Mixxx -&gt; StreamingServer [ label = &quot;&quot; ];
+StreamingServer -&gt; Router [ dir=left, label = &quot;Lan&quot; ];
+Router -&gt; Listener1 [ dir=left, label = &quot;Internet&quot; ];
+Router -&gt; Listener2 [ dir=left, label = &quot;Internet&quot; ];
+Router -&gt; Listener3 [ dir=left, label = &quot;Internet&quot; ];
+}
+<p class="caption"><span class="caption-text">Mixxx as client-side streaming source broadcasting to an
+local streaming server</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="configuring-mixxx">
+<h2><span class="section-number">10.2. </span>Configuring Mixxx<a class="headerlink" href="#configuring-mixxx" title="Permalink to this headline">¶</a></h2>
+<p>Start by supplying Mixxx with all information needed to establish a connection
+to the streaming server:</p>
+<ul class="simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Live Broadcasting</span>.</p></li>
+<li><p>Insert the settings following the descriptions in the
+<a class="reference internal" href="#live-broadcasting-preferences"><span class="std std-ref">Live Broadcasting Preferences</span></a></p></li>
+<li><p>Click <span class="guilabel">OK</span></p></li>
+<li><p>Go to <span class="menuselection">Options ‣ Enable Live Broadcasting</span> or use
+the <a class="reference internal" href="appendix.html#appendix-shortcuts"><span class="std std-ref">Application shortcuts</span></a> to start broadcasting.</p></li>
+</ul>
+</div>
+<div class="section" id="live-broadcasting-preferences">
+<span id="id1"></span><h2><span class="section-number">10.3. </span>Live Broadcasting Preferences<a class="headerlink" href="#live-broadcasting-preferences" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id4" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Livebroadcasting.png"><img alt="Mixxx preferences - Setting up live broadcasting" src="../_images/Mixxx-200-Preferences-Livebroadcasting.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx preferences - Setting up live broadcasting</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Server Connection</strong></p>
+<ul>
+<li><p><strong>Type</strong>: Select the type of streaming server you want to connect with.
+<a class="reference internal" href="../glossary.html#term-shoutcast"><span class="xref std std-term">Shoutcast 1</span></a>, <a class="reference internal" href="../glossary.html#term-icecast"><span class="xref std std-term">Icecast 1</span></a>, and
+<a class="reference internal" href="../glossary.html#term-icecast"><span class="xref std std-term">Icecast 2</span></a> servers are supported.</p>
+<p>Mixxx works with Shoutcast 2 using the Shoutcast 1 protocol if you provide a
+stream name in <span class="menuselection">Preferences ‣ Live Broadcasting ‣
+Stream Settings</span>. If you don’t provide a stream name, Shoutcast 2 rejects the
+connection (where Shoutcast 1 would accept this case).</p>
+</li>
+<li><p><strong>Host</strong>: You can enter the host as either a host name or an IP address.</p></li>
+<li><p><strong>Login</strong>: As provided by your streaming server provider. Without this, you
+will not connect successfully to the server. The default login for
+<em>Icecast</em> is <code class="docutils literal notranslate"><span class="pre">source</span></code> while the default login for Shoutcast is <code class="docutils literal notranslate"><span class="pre">admin</span></code>.</p></li>
+<li><p><strong>Mount</strong>: A mount point is a unique name identifying a particular stream.
+For <em>Shoutcast</em> it is not necessary to specify a mount point. The setting must
+not be blank if you are using <em>Icecast</em>. Try the default <code class="docutils literal notranslate"><span class="pre">/mount</span></code> or
+<code class="docutils literal notranslate"><span class="pre">/live</span></code>. If you haven’t been given a specific mount point you can usually
+make one up. It always begins with a <code class="docutils literal notranslate"><span class="pre">/</span></code> (slash) followed by a text without
+any special characters in it.</p></li>
+<li><p><strong>Port</strong>: As provided by your streaming server provider. Most servers use the
+default port 8000.</p></li>
+<li><p><strong>Password</strong>: As provided by your streaming server provider, unless you run
+your own radio server. It is required to establish the connection to the
+server and to start the broadcast.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do not enter a <a class="reference internal" href="../glossary.html#term-url"><span class="xref std std-term">URL</span></a> as the host! <code class="docutils literal notranslate"><span class="pre">http://example.com:8000</span></code>
+does not work. Use <code class="docutils literal notranslate"><span class="pre">example.com</span></code> in the <span class="guilabel">Host</span> field
+and <code class="docutils literal notranslate"><span class="pre">8000</span></code> in the <span class="guilabel">Port</span> field instead.</p>
+</div>
+<p><strong>Stream Setting</strong></p>
+<ul class="simple">
+<li><p><strong>Public stream</strong>: If enabled, this option adds your radio station to the
+Shoutcast/Icecast directory.</p></li>
+<li><p><strong>Enable UTF-8 metadata</strong>: If enabled, this option fixes broken accented and
+foreign language symbols in <a class="reference internal" href="../glossary.html#term-metadata"><span class="xref std std-term">metadata</span></a>, assuming the streaming provider
+has configured the server to support UTF-8 metadata.</p></li>
+<li><p><strong>Dynamically update Ogg Vorbis metadata</strong>: Due to flaws in some streaming
+clients, updating Ogg Vorbis metadata dynamically can cause listener glitches
+and disconnections. Check this box to update the metadata anyway. Some players
+that listeners can use have bugs that can cause audio glitches or
+disconnections when the Ogg Vorbis metadata is updated dynamically. If this is
+not a problem, you can enable this checkbox.</p></li>
+<li><p><strong>Stream name</strong>: So, what’s the name of your show?</p></li>
+<li><p><strong>Website</strong>: The website you would like your listeners to visit.</p></li>
+<li><p><strong>Description</strong>: Enter your DJ name and a short tagline.</p></li>
+<li><p><strong>Genre</strong>: List the main genres you play. This attracts search hits on stream
+directories. Genre must not be blank.</p></li>
+</ul>
+<p><strong>Encoding</strong></p>
+<ul class="simple">
+<li><p><strong>Bitrate</strong>: Selecting a <a class="reference internal" href="../glossary.html#term-bitrate"><span class="xref std std-term">bitrate</span></a> of 128 or 160 <a class="reference internal" href="../glossary.html#term-kbps"><span class="xref std std-term">kbps</span></a> is common
+and provides sufficient quality to your listeners. Higher bitrates will use a
+larger chunk in your Internet connection bandwidth to stream and for your
+listeners to receive the stream.</p></li>
+<li><p><strong>Format</strong>: Mixxx supports streaming to Icecast servers either in <a class="reference internal" href="../glossary.html#term-MP3"><span class="xref std std-term">MP3</span></a>
+or <a class="reference internal" href="../glossary.html#term-Ogg-Vorbis"><span class="xref std std-term">Ogg Vorbis</span></a> format, streaming to Shoutcast servers is supported in
+<a class="reference internal" href="../glossary.html#term-MP3"><span class="xref std std-term">MP3</span></a> format.</p></li>
+</ul>
+<p><strong>Shoutcast metadata format</strong></p>
+<blockquote>
+<div><p>This allows to set custom metadata formats for the Shoutcast title field.
+Previously only <code class="docutils literal notranslate"><span class="pre">artist</span> <span class="pre">-</span> <span class="pre">title</span></code> was allowed. For example if you were
+broadcasting as part of a station, you could add the station’s name or the
+presenter’s name in the title: <code class="docutils literal notranslate"><span class="pre">MyStation</span> <span class="pre">|</span> <span class="pre">$artist</span> <span class="pre">-</span> <span class="pre">$title</span></code>.
+Or if you were doing a live mix with several artists, you could have:
+<code class="docutils literal notranslate"><span class="pre">Live</span> <span class="pre">mix</span> <span class="pre">by</span> <span class="pre">MyName</span> <span class="pre">-</span> <span class="pre">currently</span> <span class="pre">playing:</span> <span class="pre">$artist</span></code>. Or even if you wanted a
+very unusual format: <code class="docutils literal notranslate"><span class="pre">Hey,</span> <span class="pre">I</span> <span class="pre">like</span> <span class="pre">$artist,</span> <span class="pre">here</span> <span class="pre">is</span> <span class="pre">$title</span> <span class="pre">by</span> <span class="pre">$artist</span></code>.</p>
+<p>The changes <strong>do not</strong> affect the case for the combination of OGG/Icecast2.</p>
+</div></blockquote>
+<p><strong>Custom metadata</strong></p>
+<blockquote>
+<div><p>By default, Mixxx broadcasts artist and title information of the files that you
+play to your listeners. You can disable this feature and use your own custom
+metadata.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Enable custom metadata</strong>: Toggles custom metadata on and off.</p></li>
+<li><p><strong>Artist</strong>: Insert your custom artist metadata here, your DJ name for example.</p></li>
+<li><p><strong>Title</strong>: Insert your custom title metadata here.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Due to licensing restrictions, MP3 streaming is not enabled by
+default. For information on how to enable MP3 streaming, go to
+the chapter <a class="reference internal" href="#mp3-streaming"><span class="std std-ref">Activate MP3 streaming support</span></a>.</p>
+</div>
+<div class="section" id="icecast-vs-shoutcast">
+<h3><span class="section-number">10.3.1. </span>Icecast vs. Shoutcast<a class="headerlink" href="#icecast-vs-shoutcast" title="Permalink to this headline">¶</a></h3>
+<p>Both essentially serve the same purpose. An Icecast server can stream either
+<a class="reference internal" href="../glossary.html#term-MP3"><span class="xref std std-term">MP3</span></a> or <a class="reference internal" href="../glossary.html#term-Ogg-Vorbis"><span class="xref std std-term">Ogg Vorbis</span></a>. However, although Ogg is more efficient and
+effective (you get higher-fidelity sound than MP3 at lower data rates) not all
+players can play Ogg streams. As a result MP3 is probably a safe choice unless
+you know your listeners can hear an Ogg stream successfully.</p>
+</div>
+<div class="section" id="broadcast-directories">
+<h3><span class="section-number">10.3.2. </span>Broadcast directories<a class="headerlink" href="#broadcast-directories" title="Permalink to this headline">¶</a></h3>
+<p>Generally your streaming server host adds your radio station to the
+Shoutcast/Icecast directory, if you enable the <span class="guilabel">Public Stream</span> option
+in <span class="menuselection">Preferences ‣ Live Broadcasting ‣ Stream Settings</span>.</p>
+<ul class="simple">
+<li><p><strong>Shoutcast radio directory</strong>: <a class="reference external" href="https://www.shoutcast.com/">www.shoutcast.com</a></p></li>
+<li><p><strong>Icecast radio directory</strong>: <a class="reference external" href="http://dir.xiph.org/">dir.xiph.org</a></p></li>
+</ul>
+<p>Often streaming hosts will run their own directories. Check your host’s FAQ to
+find out. If you want to promote your streaming radio station even more,
+register at services like <a class="reference external" href="https://www.streamfinder.com/">streamfinder.com</a>.
+An overview of different internet radio directories is available at
+<a class="reference external" href="https://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/">shoutcheap.com</a></p>
+</div>
+</div>
+<div class="section" id="troubleshooting">
+<h2><span class="section-number">10.4. </span>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>If you have trouble connecting to your streaming server, check the
+configuration in the <a class="reference internal" href="#live-broadcasting-preferences"><span class="std std-ref">Live Broadcasting Preferences</span></a>.</p></li>
+<li><p>You may need the <a class="reference internal" href="../glossary.html#term-LAME"><span class="xref std std-term">LAME</span></a> libraries to stream in MP3. See
+<a class="reference internal" href="#mp3-streaming"><span class="std std-ref">Activate MP3 streaming support</span></a>.</p></li>
+<li><p>You may have selected the <a class="reference internal" href="../glossary.html#term-Ogg-Vorbis"><span class="xref std std-term">Ogg Vorbis</span></a> format that is unsupported by
+Shoutcast servers.</p></li>
+<li><p>You may need to check your firewall settings. Both Icecast and Shoutcast use
+two ports. If you are streaming on a port (for example, port 8000) then you
+need to open up the next port (port 8001) as well.</p></li>
+<li><p>You may need to configure port forwarding if you are behind a router or your
+router will block requests to your streaming port (for example, port 8000)</p></li>
+</ul>
+</div>
+<div class="section" id="activate-mp3-streaming-support">
+<span id="mp3-streaming"></span><h2><span class="section-number">10.5. </span>Activate MP3 streaming support<a class="headerlink" href="#activate-mp3-streaming-support" title="Permalink to this headline">¶</a></h2>
+<p>Due to licensing restrictions, <a class="reference internal" href="../glossary.html#term-MP3"><span class="xref std std-term">MP3</span></a> streaming is not enabled by default.
+In order to enable MP3 streaming you must install the <a class="reference internal" href="../glossary.html#term-LAME"><span class="xref std std-term">LAME</span></a> MP3
+<a class="reference internal" href="../glossary.html#term-codec"><span class="xref std std-term">codec</span></a> yourself. The following section explains how you can do that.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you have activated MP3 streaming support, you’ll be also able to
+record your mixes in MP3 format. Go to the chapter
+<a class="reference internal" href="djing_with_mixxx.html#djing-recording-your-mix"><span class="std std-ref">Recording Your Mix</span></a> for more information.</p>
+</div>
+<div class="section" id="activate-mp3-streaming-support-on-windows">
+<h3><span class="section-number">10.5.1. </span>Activate MP3 streaming support on Windows<a class="headerlink" href="#activate-mp3-streaming-support-on-windows" title="Permalink to this headline">¶</a></h3>
+<p>To activate MP3 streaming on Windows, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Download LAME 3.98.4 <a class="reference internal" href="../glossary.html#term-binaries"><span class="xref std std-term">binaries</span></a> from
+<a class="reference external" href="https://www.rarewares.org/mp3-lame-libraries.php">https://www.rarewares.org/mp3-lame-libraries.php</a>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>The download page includes 32-bit and 64-bit versions. Make sure
+the version you download matches the version of Mixxx that you
+use, not the version of Windows. If you are on 64bit Windows but
+are using 32bit Mixxx, you need the 32bit (“x86”) version of the
+LAME binaries.</p>
+</div>
+</li>
+<li><p>Unpack the downloaded archive. You need a utility for manipulating archives
+like the free <a class="reference external" href="https://www.7-zip.org/">7zip</a>.</p></li>
+<li><p>Copy <code class="file docutils literal notranslate"><span class="pre">libmp3lame.dll</span></code> to the location you have installed Mixxx,
+probably <code class="file docutils literal notranslate"><span class="pre">C:\Program</span> <span class="pre">Files\Mixxx\</span></code>.</p></li>
+<li><p><strong>Only</strong> if you are running Mixxx 1.11 or earlier, you <strong>must</strong> also rename
+<code class="file docutils literal notranslate"><span class="pre">libmp3lame.dll</span></code> to <code class="file docutils literal notranslate"><span class="pre">lame_enc.dll</span></code> in the folder where you have
+installed Mixxx. Select <span class="menuselection">Help ‣ About</span> to find out your
+version of Mixxx.</p></li>
+<li><p>Restart Mixxx</p></li>
+</ol>
+</div></blockquote>
+<div class="section" id="windows-troubleshooting">
+<h4><span class="section-number">10.5.1.1. </span>Windows Troubleshooting<a class="headerlink" href="#windows-troubleshooting" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Double check that the version of LAME you use (“x86” = 32-bit vs. “x64” =
+64-bit) matches the version of Mixxx you use.</p></li>
+<li><p>If you are running Mixxx 1.11 or earlier, did you rename the
+<code class="file docutils literal notranslate"><span class="pre">libmp3lame.dll</span></code> to <code class="file docutils literal notranslate"><span class="pre">lame_enc.dll</span></code>?</p></li>
+<li><p>Make sure you put the correct LAME <code class="file docutils literal notranslate"><span class="pre">*.dll</span></code> file in the same folder that
+contains the installation of Mixxx you are using.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Some websites like <a class="reference external" href="https://www.audacityteam.org/">Audacity</a>
+provide lame <a class="reference internal" href="../glossary.html#term-binaries"><span class="xref std std-term">binaries</span></a> too. Do not use these versions or
+Mixxx will show an error when activating live broadcasting and your
+stream will fail.</p>
+</div>
+</div>
+</div>
+<div class="section" id="activate-mp3-streaming-support-on-macos">
+<h3><span class="section-number">10.5.2. </span>Activate MP3 streaming support on macOS<a class="headerlink" href="#activate-mp3-streaming-support-on-macos" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="method-a-download">
+<h4><span class="section-number">10.5.2.1. </span>Method A: Download<a class="headerlink" href="#method-a-download" title="Permalink to this headline">¶</a></h4>
+<p>To activate MP3 streaming on macOS, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Download
+<a class="reference external" href="https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0ShdOBTYj8noSwXluxiKjdWvFQRgOU">LAME 3.98.4</a>
+Intel (macOS 10.8+ 64-bit)</p></li>
+<li><p>Double-click on the downloaded zip file to unpack the file and you’ll get
+an installer package file</p></li>
+<li><p>Double-click on the installer package file and follow the step-by-step
+instructions in the installer</p></li>
+<li><p>Restart Mixxx</p></li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="method-b-package-manager">
+<h4><span class="section-number">10.5.2.2. </span>Method B: Package manager<a class="headerlink" href="#method-b-package-manager" title="Permalink to this headline">¶</a></h4>
+<p>Another easy way to activate MP3 streaming is to use <a class="reference external" href="https://brew.sh/">Homebrew</a>
+or <a class="reference external" href="https://www.macports.org/">MacPorts</a>, which are package managers like
+<a class="reference external" href="https://en.wikipedia.org/wiki/Advanced_Packaging_Tool">apt</a> on Debian/Ubuntu
+Linux. They provide a convenient way to install many Open Source packages.
+Once Homebrew or Macports is installed, adding MP3 support to Mixxx is rather
+simple.</p>
+<p><strong>Homebrew</strong>:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Open a terminal and type the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">lame</span>
+</pre></div>
+</div>
+</li>
+<li><p>Restart Mixxx</p></li>
+</ol>
+</div></blockquote>
+<p><strong>Macports</strong>:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Open a terminal and type the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">port</span> <span class="n">install</span> <span class="n">lame</span>
+</pre></div>
+</div>
+</li>
+<li><p>Restart Mixxx</p></li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="activate-mp3-streaming-support-on-linux">
+<h3><span class="section-number">10.5.3. </span>Activate MP3 streaming support on Linux<a class="headerlink" href="#activate-mp3-streaming-support-on-linux" title="Permalink to this headline">¶</a></h3>
+<p>On Ubuntu and GNU/Linux-based operating systems MP3 streams can be activated by
+installing the package <code class="file docutils literal notranslate"><span class="pre">libmp3lame</span></code>. Dependent on your Linux distribution
+the package might be slightly named different such as <code class="file docutils literal notranslate"><span class="pre">lame</span></code>.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Open a terminal and type the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">libmp3lame0</span>
+</pre></div>
+</div>
+</li>
+<li><p>Restart Mixxx</p></li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="effects.html" class="btn btn-neutral float-right" title="11. Effects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="microphones.html" class="btn btn-neutral float-left" title="9. Using Microphones" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/livebroadcasting.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/livebroadcasting.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/livebroadcasting.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/livebroadcasting.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/livebroadcasting.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/livebroadcasting.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/livebroadcasting.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/livebroadcasting.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/livebroadcasting.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/livebroadcasting.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/livebroadcasting.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/livebroadcasting.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/livebroadcasting.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/livebroadcasting.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/livebroadcasting.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/livebroadcasting.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/livebroadcasting.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/livebroadcasting.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/livebroadcasting.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/livebroadcasting.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/livebroadcasting.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/livebroadcasting.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/livebroadcasting.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/livebroadcasting.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/livebroadcasting.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/livebroadcasting.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/livebroadcasting.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/livebroadcasting.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/livebroadcasting.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

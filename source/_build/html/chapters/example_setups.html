@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. Example Setups &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="7. Controlling Mixxx" href="controlling_mixxx.html" />
+    <link rel="prev" title="5. DJ Hardware" href="hardware.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Example Setups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#computer-only">6.1. Computer Only</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#practicing-mixing-broadcasting">6.1.1. Practicing Mixing / Broadcasting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#playing-for-an-audience">6.1.2. Playing for an Audience</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#laptop-and-splitter-cable">6.2. Laptop and Splitter Cable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#laptop-and-external-usb-audio-interface">6.3. Laptop and External USB Audio Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#laptop-and-midi-or-hid-controller">6.4. Laptop and MIDI or HID Controller</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#controllers-with-an-integrated-audio-interface">6.4.1. Controllers with an integrated audio interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controllers-without-an-integrated-audio-interface">6.4.2. Controllers without an integrated audio interface</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#laptop-external-hardware-mixer-and-vinyl-control">6.5. Laptop, External Hardware Mixer and Vinyl Control</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">6. </span>Example Setups</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/example_setups.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="example-setups">
+<span id="setup"></span><h1><span class="section-number">6. </span>Example Setups<a class="headerlink" href="#example-setups" title="Permalink to this headline">¶</a></h1>
+<p>This chapter presents some example hardware setups with instructions for how to
+configure Mixxx to work with them.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="hardware.html#hardware"><span class="std std-ref">DJ Hardware</span></a>: background information about different types of
+equipment.</p></li>
+<li><p><a class="reference internal" href="getting_started.html#getting-started-sound-io"><span class="std std-ref">Configuring sound input and output</span></a>: details about each available
+input and output option.</p></li>
+<li><p><a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">Using Microphones</span></a>: details for configuring Mixxx to work with
+microphones.</p></li>
+<li><p><a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">DJ Hardware Guide</a>
+lists specific devices with information about their prices,
+features, and compatibility with Mixxx.</p></li>
+</ul>
+</div>
+<div class="section" id="computer-only">
+<span id="setup-laptop-only"></span><h2><span class="section-number">6.1. </span>Computer Only<a class="headerlink" href="#computer-only" title="Permalink to this headline">¶</a></h2>
+<p>The built-in audio interface on most computers comes with a single stereo
+line-out and a microphone input. This can be set up with Mixxx in two ways:</p>
+<div class="section" id="practicing-mixing-broadcasting">
+<h3><span class="section-number">6.1.1. </span>Practicing Mixing / Broadcasting<a class="headerlink" href="#practicing-mixing-broadcasting" title="Permalink to this headline">¶</a></h3>
+<p>This setup can be used with a single audio output for speakers or headphones to
+practice DJing without investing in any equipment other than a computer and a
+set of speakers or headphones. With this configuration, use the <a class="reference internal" href="user_interface.html#interface-head-master"><span class="std std-ref">Pre/Main
+Knob</span></a> to switch back and forth between the Master mix
+and <a class="reference internal" href="../glossary.html#term-PFL"><span class="xref std std-term">PFL</span></a> signal. This setup cannot be used to play for a live audience
+because the Master mix is not sent to an audio interface output. However, it can
+be used by radio DJs who only need to send the Master mix to a broadcast
+audience.</p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select your built-in audio
+interface, then <span class="guilabel">Channels 1-2</span>. Although this is labeled
+<span class="guilabel">Headphones</span>, you can also plug speakers into the output jack of
+your computer.</p></li>
+<li><p>Depending on your audio interface, you can specify a
+<a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">microphone</span></a></p>
+<ol class="loweralpha simple">
+<li><p>Use your built-in microphone or connect a microphone to your computer</p></li>
+<li><p>Check that your microphone is detected by your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a></p></li>
+<li><p>Open the <span class="guilabel">Input</span> tab</p></li>
+<li><p>From the <span class="guilabel">Microphone</span> drop-down menu, select the input your
+microphone is connected to</p></li>
+</ol>
+</li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+<div class="section" id="playing-for-an-audience">
+<h3><span class="section-number">6.1.2. </span>Playing for an Audience<a class="headerlink" href="#playing-for-an-audience" title="Permalink to this headline">¶</a></h3>
+<p>This setup allows for playing to an audience without headphone <a class="reference internal" href="../glossary.html#term-cueing"><span class="xref std std-term">cueing</span></a>.</p>
+<div class="pretty-figures figure align-center" id="id1" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-Preferences-Soundhardware.png"><img alt="Using Mixxx with your built-in sound card" src="../_images/Mixxx-111-Preferences-Soundhardware.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx with your built-in sound card</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select your built-in audio
+interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>Depending on your audio interface, you can specify a
+<a class="reference internal" href="user_interface.html#interface-mic"><span class="std std-ref">microphone</span></a></p>
+<ol class="loweralpha simple">
+<li><p>Use your built-in microphone or connect a microphone to your computer</p></li>
+<li><p>Check that your microphone is detected by your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a></p></li>
+<li><p>Open the <span class="guilabel">Input</span> tab</p></li>
+<li><p>From the <span class="guilabel">Microphone</span> drop-down menu, select the input your
+microphone is connected to</p></li>
+</ol>
+</li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="laptop-and-splitter-cable">
+<span id="setup-laptop-with-splitter"></span><h2><span class="section-number">6.2. </span>Laptop and Splitter Cable<a class="headerlink" href="#laptop-and-splitter-cable" title="Permalink to this headline">¶</a></h2>
+<p>The cheapest way to DJ and <a class="reference internal" href="../glossary.html#term-cue"><span class="xref std std-term">cue</span></a> with headphones uses a stereo-to-mono DJ
+splitter cable (also known as a “Y cable”) plugged into the headphone jack of a
+laptop or other computer. This cable divides the stereo output from a single
+jack into two separate mono signals.</p>
+<p>This setup allows you to start DJing without having to invest in expensive
+equipment. However, because the signals are in mono, you and your audience will
+not be able to enjoy music producers’ positioning of sound in space (although
+many club PA systems are wired in mono anyway). Furthermore, audio interfaces
+built into computers are usually low quality and often pick up interference from
+other components of the computer.</p>
+<p><strong>Using a built-in audio interface and a stereo-to-mono splitter</strong></p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>Check that your headphones are plugged into the side of the cable with a
+headphones symbol and that the speakers are plugged into the side of the
+cable with a speaker symbol.</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select your built-in audio
+interface, then <span class="guilabel">Channel 1</span></p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select your built-in
+audio interface, then <span class="guilabel">Channel 2</span></p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Most splitter cables, particularly those marketed as headphone
+splitter cables, output the same stereo signal to two headphone
+jacks and will not work for this DJ setup. Also, if you use a
+generic stereo-to-mono splitter adapter, you may only be able to
+hear out of one side of your speakers and headphones. DJ splitter
+cables allow you to hear the same mono signal on both sides of your
+headphones and speakers.</p>
+</div>
+</div>
+<div class="section" id="laptop-and-external-usb-audio-interface">
+<span id="setup-laptop-and-external-card"></span><h2><span class="section-number">6.3. </span>Laptop and External USB Audio Interface<a class="headerlink" href="#laptop-and-external-usb-audio-interface" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_ext_audio_interface.png"><img alt="Using Mixxx together with an external audio interface" src="../_images/mixxx_setup_ext_audio_interface.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with an external audio interface</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Using two audio interfaces (built-in + external)</strong></p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select the external audio
+interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select the built-in
+audio interface, then <span class="guilabel">Channels 1-2</span></p></li>
+</ol>
+<p><strong>Using an external multi-channel audio interface</strong></p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select the external
+audio interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select the external
+audio interface, then <span class="guilabel">Channels 3-4</span></p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+<div class="section" id="laptop-and-midi-or-hid-controller">
+<span id="setup-controller-and-external-card"></span><h2><span class="section-number">6.4. </span>Laptop and MIDI or HID Controller<a class="headerlink" href="#laptop-and-midi-or-hid-controller" title="Permalink to this headline">¶</a></h2>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference internal" href="hardware.html#hardware-controllers"><span class="std std-ref">Controllers</span></a> section of the <a class="reference internal" href="hardware.html#hardware"><span class="std std-ref">DJ Hardware</span></a>
+chapter has background information about controllers.</p>
+</div>
+<div class="section" id="controllers-with-an-integrated-audio-interface">
+<h3><span class="section-number">6.4.1. </span>Controllers with an integrated audio interface<a class="headerlink" href="#controllers-with-an-integrated-audio-interface" title="Permalink to this headline">¶</a></h3>
+<p>Many DJ controllers include an integrated <em>multi-channel</em> audio interface.
+A setup with this kind of controller may look like the diagram below:</p>
+<div class="pretty-figures figure align-center" id="id3" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_midi_integrated_audio_interface.png"><img alt="Using Mixxx together with a DJ controller and integrated audio interface" src="../_images/mixxx_setup_midi_integrated_audio_interface.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with a DJ controller and integrated audio interface</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Using a controller with an integrated multi-channel audio interface</strong></p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select your controller’s
+audio interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select your controller’s
+audio interface, then <span class="guilabel">Channels 3-4</span></p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+<div class="section" id="controllers-without-an-integrated-audio-interface">
+<h3><span class="section-number">6.4.2. </span>Controllers without an integrated audio interface<a class="headerlink" href="#controllers-without-an-integrated-audio-interface" title="Permalink to this headline">¶</a></h3>
+<p>Controllers without an integrated audio interface can be used together with a
+USB audio interface as depicted in the diagram below:</p>
+<div class="pretty-figures figure align-center" id="id4" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_midi_with_ext_audio_interface.png"><img alt="Using Mixxx together with a DJ controller and external audio interface" src="../_images/mixxx_setup_midi_with_ext_audio_interface.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with a DJ controller and external audio interface</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Using a controller without an integrated audio interface</strong></p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>From the <span class="guilabel">Master</span> drop-down menu, select the external audio
+interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>From the <span class="guilabel">Headphones</span> drop-down menu, select the built-in
+audio interface, then <span class="guilabel">Channels 1-2</span></p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="laptop-external-hardware-mixer-and-vinyl-control">
+<span id="setup-vinyl-control"></span><h2><span class="section-number">6.5. </span>Laptop, External Hardware Mixer and Vinyl Control<a class="headerlink" href="#laptop-external-hardware-mixer-and-vinyl-control" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id5" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_timecode_vc.png"><img alt="Using Mixxx together with turntables and external mixer" src="../_images/mixxx_setup_timecode_vc.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with turntables and external mixer</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>This setup allows DJs to use the techniques of DJing with vinyl record
+turntables combined with the portability and flexibility of a laptop computer.
+Instead of carrying crates of records or CDs, DJs can carry their entire music
+collection on their laptop. In addition to a laptop and headphones, this setup
+requires an audio interface with at least two pairs of stereo inputs and outputs
+as well as a pair of <a class="reference internal" href="../glossary.html#term-timecode"><span class="xref std std-term">timecode</span></a> records.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Go to the chapter <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a> for detailed information.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="controlling_mixxx.html" class="btn btn-neutral float-right" title="7. Controlling Mixxx" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="hardware.html" class="btn btn-neutral float-left" title="5. DJ Hardware" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/example_setups.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/example_setups.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/example_setups.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/example_setups.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/example_setups.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/example_setups.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/example_setups.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/example_setups.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/example_setups.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/example_setups.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/example_setups.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/example_setups.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/example_setups.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/example_setups.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/example_setups.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/example_setups.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/example_setups.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/example_setups.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/example_setups.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/example_setups.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/example_setups.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/example_setups.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/example_setups.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/example_setups.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/example_setups.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/example_setups.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/example_setups.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/example_setups.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/example_setups.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

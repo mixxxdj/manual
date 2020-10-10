@@ -1,0 +1,891 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>8. Vinyl Control &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="9. Using Microphones" href="microphones.html" />
+    <link rel="prev" title="7. Controlling Mixxx" href="controlling_mixxx.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">8. Vinyl Control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-it-work">8.1. How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-do-i-need-to-use-it">8.2. What do I need to use it?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#supported-timecode-media">8.2.1. Supported Timecode media</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-input-and-output-devices">8.3. Configuring Input and Output devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-vinyl-control">8.4. Configuring Vinyl Control</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#turntable-input-signal-boost">8.4.1. Turntable Input Signal Boost</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vinyl-configuration">8.4.2. Vinyl Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#control-mode">8.4.3. Control Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cueing-modes">8.4.4. Cueing Modes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#signal-quality">8.4.5. Signal Quality</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#enabling-vinyl-control">8.5. Enabling Vinyl Control</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vinyl-control-status-display">8.5.1. Vinyl Control Status Display</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#single-deck-control">8.6. Single Deck Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#end-of-record-mode">8.7. End-Of-Record Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#control-track">8.8. Control Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#troubleshooting">8.9. Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">8. </span>Vinyl Control</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/vinyl_control.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="vinyl-control">
+<span id="id1"></span><h1><span class="section-number">8. </span>Vinyl Control<a class="headerlink" href="#vinyl-control" title="Permalink to this headline">¶</a></h1>
+<p>Vinyl control allows a user to manipulate the playback of a track in Mixxx using
+a real turntable as a controller. In effect, it simulates the sound and feel of
+having your digital music collection on vinyl. Many DJs prefer the tactile feel
+of vinyl, and vinyl control allows that feel to be preserved while retaining the
+benefits of using digital audio.</p>
+<div class="section" id="how-does-it-work">
+<h2><span class="section-number">8.1. </span>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h2>
+<p>Vinyl control uses special <a class="reference internal" href="../glossary.html#term-timecode"><span class="xref std std-term">timecode</span></a> records or CD’s which are placed on
+real turntables or <a class="reference internal" href="../glossary.html#term-CDJ"><span class="xref std std-term">CDJ</span></a>. The audio output of the turntables is plugged
+into a audio interface connected to a computer on which Mixxx is running.
+When a record is played on one of the attached turntables, Mixxx reads the
+timecode from the record and uses the information to manipulate whatever
+track is loaded.</p>
+</div>
+<div class="section" id="what-do-i-need-to-use-it">
+<h2><span class="section-number">8.2. </span>What do I need to use it?<a class="headerlink" href="#what-do-i-need-to-use-it" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to use Mixxx’s vinyl control with a variety of setups. Unlike
+some proprietary DJ software, Mixxx can use several types of timecode media and
+any audio interface that your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">operating system</span></a> has drivers to use.
+Optionally, any <a class="reference internal" href="controlling_mixxx.html#control-midi"><span class="std std-ref">MIDI/HID controller</span></a> can be used together
+with timecode control. The basic setups for timecode control are:</p>
+<p><strong>Setup 1: Vinyl DJ</strong></p>
+<blockquote>
+<div><p>2-4 timecode vinyls, 2-4 turntables with phono pre-amplifiers (or line-level
+output), and 2-4 stereo sound inputs.</p>
+<p>Your audio interface inputs must match the turntable outputs. Turntables
+output very quiet phono-level outputs that must be amplified for Mixxx to use.
+You should either find a audio interface that has phono pre-amplifiers built
+in (one for each deck), use standalone phono pre-amplifiers, or use turntables
+with built in phono pre-amplifiers.</p>
+<p>You can try skipping the phono pre-amps if you use the software pre-amp in
+Mixxx on the Vinyl Control preferences pane. This may not work for everyone.
+Line-level signals are preferred and recommended.</p>
+<p>For turntables a typical setup is depicted in the figure below. First,
+connect the RCA cables from the turntables to the inputs on your audio
+interface. Second, connect the outputs of your audio interface to the inputs
+on your mixer.</p>
+</div></blockquote>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_timecode_vc.png"><img alt="Using Mixxx together with turntables and external mixer" src="../_images/mixxx_setup_timecode_vc.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with turntables and external mixer</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Many modern turntables have a <em>Line/Phono</em> select switch.  If yours
+does, make sure it matches the input or switch setting on your sound
+card.</p>
+</div>
+<p><strong>Setup 2: CDJ</strong></p>
+<blockquote>
+<div><p>2-4 timecode CDs, 2-4 CD decks, and 2-4 stereo sound inputs.</p>
+<p>Setting up CDJs for use with timecode CDs is similar to setting up
+turntables. The figure below outlines a typical configuration. First,
+connect the RCA cables of the CDJs to inputs of your audio interface. Second,
+connect the inputs of your mixer to the outputs of your audio interface. Make
+sure the input mode of your audio interface is set to <em>Line</em>.</p>
+</div></blockquote>
+<div class="pretty-figures figure align-center" id="id3" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/mixxx_setup_timecode_cdj.png"><img alt="Using Mixxx together with CDJs and external mixer" src="../_images/mixxx_setup_timecode_cdj.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Using Mixxx together with CDJs and external mixer</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Sound inputs</strong></p>
+<ul class="simple">
+<li><p>It is recommended to use a DJ audio interface that has <strong>multiple</strong> stereo
+line inputs on it.</p></li>
+<li><p>Alternatively you can use multiple audio interfaces, each with a single stereo
+line in, but this is strongly discouraged.</p></li>
+</ul>
+<p>Mixxx supports vinyl control input through a single audio interface with at
+least 4-channels of input (two stereo line-in jacks), or through multiple separate
+audio interfaces which each have 2-channels of input (a single stereo line-in
+jack). Vinyl control requires the use of stereo line-in jacks - Mono or microphone
+inputs will not work.</p>
+<p>It is strongly recommended to use a audio interface that comes with native low
+latency drivers such as ASIO (Windows) or CoreAudio (Mac). Linux users depend on the
+quality of the corresponding open source driver.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For best scratch performance with vinyl control, we recommend using a
+system capable of <a class="reference internal" href="../glossary.html#term-latency"><span class="xref std std-term">latencies</span></a> of 10ms. With higher
+latencies the scratch sound will start to become distorted.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An external hardware mixer is not required for using timecode control.
+You can use a
+<a class="reference internal" href="example_setups.html#setup-controller-and-external-card"><span class="std std-ref">MIDI or HID controller</span></a>
+to mix in software instead.</p>
+</div>
+<div class="section" id="supported-timecode-media">
+<h3><span class="section-number">8.2.1. </span>Supported Timecode media<a class="headerlink" href="#supported-timecode-media" title="Permalink to this headline">¶</a></h3>
+<p>You can use any of the timecode media supported by Mixxx:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 66%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Responsiveness</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Serato CV02/2.5 Vinyl</p></td>
+<td><p>Very high</p></td>
+</tr>
+<tr class="row-odd"><td><p>Serato Control CD 1.0</p></td>
+<td><p>Very high</p></td>
+</tr>
+<tr class="row-even"><td><p>Traktor Scratch MK1 Vinyl</p></td>
+<td><p>Very high</p></td>
+</tr>
+<tr class="row-odd"><td><p>Traktor Scratch MK2 Vinyl</p></td>
+<td><p>Not supported</p></td>
+</tr>
+<tr class="row-even"><td><p>MixVibes DVS V2 Vinyl</p></td>
+<td><p>Very high</p></td>
+</tr>
+</tbody>
+</table>
+<p>At the present time, Serato records are recommended if you are looking to buy
+vinyl. If you want to use CDs, you can download a free copy for personal use
+from <a class="reference external" href="https://serato.com/controlcd/downloads">Serato</a>.</p>
+</div>
+</div>
+<div class="section" id="configuring-input-and-output-devices">
+<span id="vinyl-control-config"></span><h2><span class="section-number">8.3. </span>Configuring Input and Output devices<a class="headerlink" href="#configuring-input-and-output-devices" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id4" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-Preferences-Soundhardware-VC.png"><img alt="Mixxx preferences - Setting up Input and Output devices for Vinyl Control" src="../_images/Mixxx-111-Preferences-Soundhardware-VC.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx preferences - Setting up Input and Output devices for Vinyl Control</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>Mixxx can be controlled by up to 4 decks with either timecoded vinyl or
+timecoded CDs.</p>
+<ol class="arabic simple">
+<li><p>Open <span class="menuselection">Preferences ‣ Sound Hardware</span></p></li>
+<li><p>Select the <span class="guilabel">Input</span> tab</p></li>
+<li><p>From the <span class="guilabel">Vinyl Control 1</span> - <span class="guilabel">Vinyl Control 4</span>
+drop-down menus, select the audio interface(s) which your decks are plugged
+into.</p></li>
+<li><p>In the channel selection drop-down menu, select the channel pairs
+corresponding to the plug on your audio interface that your deck(s) are
+plugged into, typically <span class="guilabel">Channels 1-2</span> and
+<span class="guilabel">Channels 3-4</span> etc.</p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+<li><p>Select the <span class="guilabel">Output</span> tab</p></li>
+<li><p>Specify <span class="guilabel">Deck 1</span> - <span class="guilabel">Deck 4</span> to route Mixxx’s output
+directly to the external mixer</p></li>
+<li><p>Click <span class="guilabel">Apply</span> to save the changes.</p></li>
+</ol>
+</div>
+<div class="section" id="configuring-vinyl-control">
+<h2><span class="section-number">8.4. </span>Configuring Vinyl Control<a class="headerlink" href="#configuring-vinyl-control" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id5" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Vinylcontrol.png"><img alt="Mixxx preferences - Setting up vinyl control" src="../_images/Mixxx-200-Preferences-Vinylcontrol.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx preferences - Setting up vinyl control</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>You can configure vinyl control in
+<span class="menuselection">Preferences ‣ Vinyl Control</span>.</p>
+<div class="section" id="turntable-input-signal-boost">
+<h3><span class="section-number">8.4.1. </span>Turntable Input Signal Boost<a class="headerlink" href="#turntable-input-signal-boost" title="Permalink to this headline">¶</a></h3>
+<p>Many turntables provide unamplified “phono level” output which must be boosted
+to a “line level” signal. Normally, a mixer or audio interface provides this
+amplification, but if you’re plugging a turntable’s phono output directly into
+a audio interface that doesn’t support phono input, Mixxx can do the
+amplification. The <span class="guilabel">Turntable Input Signal Boost</span> slider allows you
+to adjust the level of preamplification applied to your decks’ signal. However,
+it is always preferable to use a proper phono preamplifier if you have one.</p>
+</div>
+<div class="section" id="vinyl-configuration">
+<h3><span class="section-number">8.4.2. </span>Vinyl Configuration<a class="headerlink" href="#vinyl-configuration" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Vinyl Type</strong>: Several types of timecoded media can be used to control Mixxx.
+Configure the drop-down menus to match what type of timecoded media you are
+using on your decks.</p></li>
+<li><p><strong>Deck Vinyl Tempo</strong>: Change this if you prefer to scratch with your
+turntable or CDJ set at 45 RPM, default is 33 RPM.</p></li>
+<li><p><strong>Lead-in Time</strong>: Allows you to set a dead-zone at the start of your vinyl or
+CD, where the time code will be ignored. This is useful in situations where
+the time code begins very close to the edge of a vinyl which can make
+back-cueing over the first beat in a track tricky to do without your turntable’s
+needle falling off the vinyl. Setting a lead-in time of 20 seconds or more
+helps alleviate this by giving you more room on the vinyl to cue with. It’s
+also useful when you’ve worn the grooves at the edge of a control record to
+the point that it no longer works reliably: you simply set the lead-in so that
+the start of the tracks begin in good groove area. You can keep doing this
+until you run out of groove area, thereby decreasing your record replacement
+frequency.</p></li>
+<li><p><strong>Show Signal Quality in Skins</strong>: If enabled, a circular representation of the
+incoming timecode signal is displayed in real-time on the
+<a class="reference internal" href="user_interface.html#interface-button-grid"><span class="std std-ref">Vinyl Widget</span></a> in the Mixxx Interface.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Although not recommended, you can use different kinds of timecode
+media per deck.</p>
+</div>
+</div>
+<div class="section" id="control-mode">
+<span id="vinyl-control-modes"></span><h3><span class="section-number">8.4.3. </span>Control Mode<a class="headerlink" href="#control-mode" title="Permalink to this headline">¶</a></h3>
+<p>Mixxx has three control modes regardless of which control records you use.</p>
+<ul class="simple">
+<li><p><strong>Absolute Mode</strong>: Provides Mixxx with both pitch and position information
+from the timecode, and allows you to seek by needle dropping on your vinyl or
+seeking on your CDJ.</p></li>
+<li><p><strong>Relative Mode</strong>: Takes the position to be relative to your deck’s starting
+point, and only controls the pitch in Mixxx. It is not possible to seek using
+your deck in relative mode, with one exception. If you drop the needle in the
+<span class="guilabel">Lead-in Time</span> area (see <a class="reference internal" href="#vinyl-configuration">Vinyl Configuration</a>), Mixxx will seek
+back to the beginning of the track.  Once a track is playing in Relative Mode,
+Mixxx will not allow you to select Absolute mode. Otherwise, the track would
+suddenly jump to a new position. Make sure the record is stopped and then
+you’re free to select Absolute mode.</p></li>
+<li><p><strong>Constant Mode</strong>: This special mode is usually only activated when Mixxx
+needs to keep playing a track even if the vinyl control signal isn’t present.
+Constant mode is automatically enabled when the needle reaches the end of a
+vinyl control record.</p></li>
+</ul>
+</div>
+<div class="section" id="cueing-modes">
+<h3><span class="section-number">8.4.4. </span>Cueing Modes<a class="headerlink" href="#cueing-modes" title="Permalink to this headline">¶</a></h3>
+<p>Mixxx has two optional cueing modes for vinyl control which <strong>only</strong> apply to
+<strong>Relative Mode</strong>. These modes are useful for quickly seeking to specific
+positions in a track without touching the laptop. Turntablists often need to
+find a break or a vocal sample, and cueing modes make these easy to find.</p>
+<ul class="simple">
+<li><p><strong>Cue</strong>: In this mode, when you drop the needle on the record <em>after</em> the
+Cue point, Mixxx will seek to that cue point.</p></li>
+<li><p><strong>Hot Cue</strong>: When the needle is dropped Mixxx will seek to the nearest hotcue
+point, working backwards. So if you have a hotcue at the one-minute mark, and
+another at the two-minute mark, you can drop the needle anywhere between one
+and two minutes and Mixxx will seek to the one-minute hotcue.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can change the Control and Cueing Modes directly in the Mixxx user
+interface while mixing, go to <a class="reference internal" href="user_interface.html#interface-vc-mode"><span class="std std-ref">Vinyl Control Mode and Cueing controls</span></a>. Alternatively,
+use the <a class="reference internal" href="appendix.html#appendix-shortcuts"><span class="std std-ref">Application shortcuts</span></a>.</p>
+</div>
+</div>
+<div class="section" id="signal-quality">
+<span id="vinyl-control-signal-quality"></span><h3><span class="section-number">8.4.5. </span>Signal Quality<a class="headerlink" href="#signal-quality" title="Permalink to this headline">¶</a></h3>
+<p>A successful vinyl control setup hinges on good signal quality. Many factors can
+affect signal quality, but the most important one is ensuring the volume level
+of your timecode signal is moderate. A signal that is too loud or too quiet will
+cause adverse performance, often characterized by a loss of position data
+causing absolute mode to behave like relative mode.</p>
+<p>Mixxx represents the quality of the timecode signal as a circular graphic coming
+from the vinyl control audio itself. The graphs correspond to your active input
+devices <span class="guilabel">Deck 1</span> - <span class="guilabel">Deck 4</span> .</p>
+<p>If your vinyl signal is working, you should see a round, green circle drawn with
+two lines. This vinyl “doughnut” should be as circular as possible, and the
+lines should be clear with a minimum amount of fuzz.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can display the signal quality in the Mixxx user interface while
+mixing, see <a class="reference internal" href="#vinyl-control-config"><span class="std std-ref">Configuring Input and Output devices</span></a> .</p>
+</div>
+</div>
+</div>
+<div class="section" id="enabling-vinyl-control">
+<h2><span class="section-number">8.5. </span>Enabling Vinyl Control<a class="headerlink" href="#enabling-vinyl-control" title="Permalink to this headline">¶</a></h2>
+<p>For each deck, select <span class="menuselection">Options ‣ Vinyl Control ‣
+Enable Vinyl Control</span>, or use the <a class="reference internal" href="appendix.html#appendix-shortcuts"><span class="std std-ref">Application shortcuts</span></a>.</p>
+<div class="section" id="vinyl-control-status-display">
+<h3><span class="section-number">8.5.1. </span>Vinyl Control Status Display<a class="headerlink" href="#vinyl-control-status-display" title="Permalink to this headline">¶</a></h3>
+<div class="pretty-figures figure align-center" id="id6" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-Deere-Vinylcontrol-Status.png"><img alt="The vinyl control status of the deck" src="../_images/Mixxx-111-Deere-Vinylcontrol-Status.png" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">The vinyl control status, and signal quality display of the deck</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<p>A rectangle provides visual feedback with regards to vinyl control status of a
+deck.</p>
+<ul class="simple">
+<li><p><strong>Off</strong>: Vinyl control disabled on the deck.</p></li>
+<li><p><strong>Green</strong>: Vinyl control is enabled on the deck.</p></li>
+<li><p><strong>Yellow</strong>: The needle has reached End-Of-Record.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="single-deck-control">
+<h2><span class="section-number">8.6. </span>Single Deck Control<a class="headerlink" href="#single-deck-control" title="Permalink to this headline">¶</a></h2>
+<p>If you only have one turntable, you can still use Mixxx to play your sets. In
+the <span class="menuselection">Preferences ‣ Sound Hardware ‣ Input</span> tab, use the same
+audio input for both <span class="guilabel">Vinyl Control</span> decks.</p>
+<p>When mixing, you’ll have one track playing automatically while the other is
+controlled by the turntable. Start by enabling vinyl control on the first deck,
+and start mixing. When you’re ready to cue up the next record, just disable
+vinyl control on the first deck and enable it on the second deck. Playback
+will continue on the first deck without interruption. Cue up the second track
+and mix it in. When you’re ready to cue the first deck again, just toggle the
+second deck off and the first deck on again.</p>
+<p>Use the <a class="reference internal" href="appendix.html#appendix-shortcuts"><span class="std std-ref">Application shortcuts</span></a> to swap focus from one deck to the other.
+Alternatively, select <span class="menuselection">Vinyl ‣ Single Deck mode</span> in the
+<a class="reference internal" href="advanced_topics.html#advanced-controller-wizard"><span class="std std-ref">Controller Wizard</span></a>, to assign the control to a key on your
+controller.</p>
+</div>
+<div class="section" id="end-of-record-mode">
+<h2><span class="section-number">8.7. </span>End-Of-Record Mode<a class="headerlink" href="#end-of-record-mode" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes the track you are playing is longer than the timecode area on your
+record. If the needle reaches the end of the vinyl timecode, Mixxx will enter
+a special <em>End-Of-Record Mode</em>. When this happens, the vinyl indicator (usually
+a green rectangle) will blink yellow as a warning. At the same time, Mixxx will
+automatically enable <em>Constant Mode</em> and will ignore the turntable’s pitch. At
+this point the track will simply continue playing until the end. When you load
+a new track, <em>End-Of-Record Mode</em> will be automatically disabled and
+<em>Constant Mode</em> turned off.</p>
+<p>When you’re in <em>End-Of-Record Mode</em> and you want to still use the turntable for
+pitch control, simply lift the needle and place it anywhere in the main timecode
+area. It’s OK, the track won’t stop playing. As soon as Mixxx detects that the
+needle has settled, it will automatically switch to <em>Relative Mode</em>.</p>
+</div>
+<div class="section" id="control-track">
+<h2><span class="section-number">8.8. </span>Control Track<a class="headerlink" href="#control-track" title="Permalink to this headline">¶</a></h2>
+<p>Some vinyl control records have a special portion of grooves near the center
+of the record for selecting and loading tracks in the user interface. You can
+see these grooves because there is a gap between the main timecode area and the
+inner circle. Some control records have not been tested with Mixxx, and their
+control areas are not supported. Serato CV02 Vinyl and Traktor Vinyl MK1 are
+known to work. Serato CV02 CDs are known not to work.</p>
+<p>Just drop the needle in the control area and let the record play forward or
+backward. The highlighted row in the library should move up or down. Simply
+lift the needle and drop it anywhere in the main timecode area to load the
+track.</p>
+</div>
+<div class="section" id="troubleshooting">
+<h2><span class="section-number">8.9. </span>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<p><strong>Configuration</strong></p>
+<p>To complete your setup you must configure Mixxx properly. Make sure you have:</p>
+<ul class="simple">
+<li><p>specified <span class="guilabel">Deck 1</span> - <span class="guilabel">Deck 4</span> in
+<span class="menuselection">Preferences ‣ Sound Hardware</span> to
+route Mixxx’s output directly to the external mixer</p></li>
+<li><p>specified <span class="guilabel">Vinyl Control 1</span> - <span class="guilabel">Vinyl Control 4</span> under
+<span class="menuselection">Preferences ‣ Sound Hardware ‣ Input</span></p></li>
+<li><p>selected the correct control type under
+<span class="menuselection">Preferences ‣ Vinyl Control ‣ Vinyl type</span> in the
+preferences. See the list of <a class="reference internal" href="#supported-timecode-media">Supported Timecode media</a></p></li>
+<li><p>enabled vinyl control via the menu under
+<span class="menuselection">Options ‣ Vinyl Control ‣ Enable Vinyl Control</span>.</p></li>
+</ul>
+<p><strong>Signal Quality</strong></p>
+<p>The graph is displayed in <span class="menuselection">Preferences ‣ Vinyl Control</span>, see
+<a class="reference internal" href="#vinyl-control-signal-quality"><span class="std std-ref">Signal Quality</span></a>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 42%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Signal</p></th>
+<th class="head"><p>Meaning</p></th>
+<th class="head"><p>Troubleshooting</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_no_input_configured.png"><img alt="Vinyl Control - No input configured" class="align-middle" src="../_images/vinyl_control_scope_no_input_configured.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Vinyl control input channels not
+correctly set up. Vinyl control
+will not work.</p></td>
+<td><p>Open Preferences/ Sound Hardware and
+set up the devices you want to use,
+see <a class="reference internal" href="#configuring-input-and-output-devices">Configuring Input and Output
+devices</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_no_signal.png"><img alt="Vinyl Control - Receives no signal" class="align-middle" src="../_images/vinyl_control_scope_no_signal.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Vinyl control input channels set up
+correctly. Waiting for timecode
+input signal.</p></td>
+<td><p>Start your turntable or CDJ with the
+selected timecode vinyl or CD.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_ok.png"><img alt="Vinyl Control - Receives good signal" class="align-middle" src="../_images/vinyl_control_scope_signal_ok.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Nearly perfect green doughnut about
+half the width of the graph.
+Rotating radar sweeps in the
+direction your record on the
+turntable is spinning.</p></td>
+<td><p>Everything is OK, nothing to do. Go
+spin some beats.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_vinyl_type_wrong.png"><img alt="Vinyl Control - Receives signal from wrong vinyl type" class="align-middle" src="../_images/vinyl_control_scope_vinyl_type_wrong.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Incorrect choice of vinyl control
+source. Doughnut looks good but has
+a solid red color.</p></td>
+<td><p>Select the correct vinyl type in the
+preferences. E.g. maybe you selected
+side B of the Serato Vinyl but your
+record is on side A.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_bad.png"><img alt="Vinyl Control - Receives bad signal" class="align-middle" src="../_images/vinyl_control_scope_signal_bad.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Input signal is bad. As the vinyl
+signal gets worse, you’ll see the
+color of the doughnut change from
+green over orange to red.</p></td>
+<td><p>Check the wiring / grounding on your
+turntable / CDJ. You timecode record
+/ CD might be worn out or the needle
+on your turntable is dirty.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_wrong_direction.png"><img alt="Vinyl Control - Signal goes in wrong direction" class="align-middle" src="../_images/vinyl_control_scope_signal_wrong_direction.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Wrong direction. The green doughnut
+looks good but the radar sweeps
+in the opposite direction of the
+record on your turntable / CDJ.</p></td>
+<td><p>You probably have a wiring problem.
+Try reversing the left and right
+inputs on your turntable. You may
+also have to rewire the headshell.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_not_timecode.png"><img alt="Vinyl Control - Receives no timecode signal" class="align-middle" src="../_images/vinyl_control_scope_signal_not_timecode.png" style="height: 75px;" /></a></p></td>
+<td><p>Input signal is no timecode signal.
+Mixxx receives a normal audio signal
+while it expects a timecode signal.</p></td>
+<td><p>Start your turntable or CDJ with the
+selected timecode vinyl or CD. You
+may want to check if the inputs
+devices are set up correctly in the
+preferences.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_unbalanced.png"><img alt="Vinyl Control - Receives mono signal" class="align-middle" src="../_images/vinyl_control_scope_signal_unbalanced.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Left or right channel is missing.
+Mixxx receives only a mono signal
+but needs a stereo timecode signal
+to operate.</p></td>
+<td><p>Check the wiring on your turntable /
+CDJ and also the headshell and
+needle on your turntable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_too_loud.png"><img alt="Vinyl Control - Receives too loud input signal" class="align-middle" src="../_images/vinyl_control_scope_signal_too_loud.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Timecode signal too loud.
+Mixxx receives a signal which has
+too much amplification.</p></td>
+<td><p>Lower the amplification, either on
+your external mixer, audio
+interface, or with the <a class="reference internal" href="#turntable-input-signal-boost">Turntable
+Input Signal Boost</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../_images/vinyl_control_scope_signal_too_quiet.png"><img alt="Vinyl Control - Receives too quiet signal" class="align-middle" src="../_images/vinyl_control_scope_signal_too_quiet.png" style="width: 75px; height: 75px;" /></a></p></td>
+<td><p>Timecode signal too quiet.
+Mixxx receives a signal which has
+not enough amplification.</p></td>
+<td><p>Boost the amplification, either on
+your external Mixer, audio
+interface, or with the <a class="reference internal" href="#turntable-input-signal-boost">Turntable
+Input Signal Boost</a>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="microphones.html" class="btn btn-neutral float-right" title="9. Using Microphones" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="controlling_mixxx.html" class="btn btn-neutral float-left" title="7. Controlling Mixxx" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/vinyl_control.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/vinyl_control.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/vinyl_control.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/vinyl_control.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/vinyl_control.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/vinyl_control.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/vinyl_control.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/vinyl_control.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/vinyl_control.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/vinyl_control.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/vinyl_control.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/vinyl_control.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/vinyl_control.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/vinyl_control.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/vinyl_control.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/vinyl_control.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/vinyl_control.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/vinyl_control.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/vinyl_control.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/vinyl_control.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/vinyl_control.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/vinyl_control.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/vinyl_control.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/vinyl_control.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/vinyl_control.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/vinyl_control.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/vinyl_control.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/vinyl_control.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/vinyl_control.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

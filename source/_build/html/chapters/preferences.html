@@ -1,0 +1,883 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>13. Preferences &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="14. Advanced Topics" href="advanced_topics.html" />
+    <link rel="prev" title="12. DJing With Mixxx" href="djing_with_mixxx.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">13. Preferences</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sound-hardware">13.1. Sound Hardware</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#audio-buffer">13.1.1. Audio Buffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sample-rate">13.1.2. Sample Rate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sound-api">13.1.3. Sound API</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#windows">13.1.3.1. Windows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gnu-linux">13.1.3.2. GNU/Linux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#macos">13.1.3.3. macOS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#other-sound-hardware-options">13.1.4. Other Sound Hardware options</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#library">13.2. Library</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#changing-music-directories">13.2.1. Changing music directories</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#beat-detection">13.3. Beat Detection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#correcting-beat-grids">13.3.1. Correcting Beat Grids</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#key-detection">13.4. Key Detection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#analyzer-settings">13.4.1. Analyzer Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#equalizers">13.5. Equalizers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#mixing-equalizers">13.5.1. Mixing Equalizers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">13. </span>Preferences</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/preferences.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="preferences">
+<span id="id1"></span><h1><span class="section-number">13. </span>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h1>
+<p>Mixxx has many options to customize in <span class="menuselection">Options ‣ Preferences</span>.</p>
+<div class="section" id="sound-hardware">
+<span id="preferences-sound-hardware"></span><h2><span class="section-number">13.1. </span>Sound Hardware<a class="headerlink" href="#sound-hardware" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Soundhardware.png"><img alt="Mixxx Sound Hardware Preferences" src="../_images/Mixxx-200-Preferences-Soundhardware.png" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx Sound Hardware Preferences</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>To achieve the best performance with Mixxx it is essential to configure your
+<em>audio buffer</em>, <em>sample rate</em>, and <em>audio API</em>. These three factors largely
+determine Mixxx’s responsiveness and reliability. The optimal settings
+will vary based on your computer and hardware quality.</p>
+<p>For information about the different input and output options, refer to
+<a class="reference internal" href="getting_started.html#getting-started-sound-io"><span class="std std-ref">Configuring sound input and output</span></a>. The <a class="reference internal" href="hardware.html#hardware"><span class="std std-ref">DJ Hardware</span></a> chapter explains different
+types of DJ hardware and how to set them up with the input and output
+options. If you are using a microphone, refer to the <a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">Using Microphones</span></a> chapter.</p>
+<div class="section" id="audio-buffer">
+<span id="preferences-audio-buffer"></span><h3><span class="section-number">13.1.1. </span>Audio Buffer<a class="headerlink" href="#audio-buffer" title="Permalink to this headline">¶</a></h3>
+<p>The audio buffer is the amount of audio in milliseconds that Mixxx processes at
+a time. This is a major factor that determines the latency between changing
+controls in Mixxx such as moving the crossfader or pressing the play button and
+hearing the audio change. For example, with an audio buffer of 23 ms, it will
+take approximately 23 milliseconds for Mixxx to stop the audio after you toggle
+the play button. The actual latency will be longer depending on a variety of
+factors.</p>
+<p>The audio buffer setting determines how quickly your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">Operating System</span></a>
+expects Mixxx to react. A smaller audio buffer means Mixxx will be more
+responsive, but requires a faster CPU and quality audio interface. Setting your
+audio buffer too small may be too much for your computer and audio interface to
+handle. In this situation, Mixxx playback will be choppy and very clearly
+distorted as your system will not be able to keep up with how frequently Mixxx
+is trying to process audio. It is recommended to set your audio buffer as
+small as your system can handle reliably without glitches. Experiment with
+different audio buffer sizes to find what works for your system.</p>
+<p>An audio buffer between 23-64 ms is acceptable if you are using Mixxx with a
+keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
+when vinyl control is used because Mixxx will feel unresponsive otherwise.</p>
+<p>The <a class="reference external" href="https://mixxx.org/wiki/doku.php/adjusting_audio_latency">Adjusting Audio Latency</a>
+page on the Mixxx Wiki has tips for different operating systems
+that may help you use a smaller audio buffer reliably.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Your system may glitch only occasionally if you have your audio
+buffer set a little too low. This will happen at unpredictable
+times and you may not notice if you are only doing brief tests of
+each audio buffer size. When you think you have found a good
+buffer size for your system, play with Mixxx for at least a half
+hour before performing to ensure no glitches happen.</p>
+</div>
+</div>
+<div class="section" id="sample-rate">
+<span id="preferences-sample-rate"></span><h3><span class="section-number">13.1.2. </span>Sample Rate<a class="headerlink" href="#sample-rate" title="Permalink to this headline">¶</a></h3>
+<p>The sample rate setting in Mixxx controls how many samples (chunks of audio)
+per second are produced by Mixxx. This determines the maximum frequency in
+Mixxx’s signal, which is half the sample rate. Humans can only hear up to 20
+kHz, so there is generally no need to use more than a 44.1 kHz (44100 Hz)
+sample rate for playback. Most music is published with a 44100 Hz sample rate,
+and playing music in a different sample rate than the audio file slightly
+reduces sound quality.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>A sample rate of 96 kHz gives your computer less than half the time
+to as to do the same processing. Increasing the sample
+rate will increase CPU usage and likely raise the minimum audio
+buffer size you can use reliably.</p>
+</div>
+</div>
+<div class="section" id="sound-api">
+<span id="preferences-sound-api"></span><h3><span class="section-number">13.1.3. </span>Sound API<a class="headerlink" href="#sound-api" title="Permalink to this headline">¶</a></h3>
+<p>The Sound <a class="reference internal" href="../glossary.html#term-API"><span class="xref std std-term">API</span></a> that Mixxx uses is the method by which Mixxx talks to your
+<a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">Operating System</span></a> in order to deliver audio to your audio interface. Your
+choice of Sound API can drastically affect Mixxx’s performance on your
+computer. <strong>Therefore it is important to take care to choose the best Sound API
+available to you.</strong></p>
+<div class="section" id="windows">
+<h4><span class="section-number">13.1.3.1. </span>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h4>
+<p>The following Sound APIs are available on Windows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>ASIO</strong>: Good</p></li>
+<li><p><strong>WDM-KS</strong>: Good</p></li>
+<li><p><strong>WASAPI</strong>: Acceptable</p></li>
+<li><p><strong>DirectSound</strong>: Poor</p></li>
+<li><p><strong>MME</strong>: Poor</p></li>
+</ul>
+</div></blockquote>
+<p>It is best to use the ASIO Sound API that bypassses the sound processing of the
+Windows kernel. Using ASIO requires a driver for your audio interface from
+the manufacturer. Check the manufacturer’s website to see if a driver download
+is available. Soundcards designed for musicians almost always have an ASIO
+driver available, but audio interfaces built into computers and very cheap
+audio interfaces typically do not have an ASIO driver. If there is no ASIO
+driver available for your audio interface, use the WDM-KS API. There is
+generally no advantage to using <a class="reference external" href="http://www.asio4all.org">ASIO4ALL</a>, a wrapper
+around the WDM-KS API.</p>
+</div>
+<div class="section" id="gnu-linux">
+<h4><span class="section-number">13.1.3.2. </span>GNU/Linux<a class="headerlink" href="#gnu-linux" title="Permalink to this headline">¶</a></h4>
+<p>The following Sound APIs are available on GNU/Linux:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>ALSA</strong>: Good</p></li>
+<li><p><strong>JACK</strong>: Good</p></li>
+<li><p><strong>OSS</strong>: Acceptable</p></li>
+</ul>
+</div></blockquote>
+<p>ALSA is the simplest sound API to configure. Using ALSA will prevent any other
+programs from using the audio interface(s) that Mixxx is using.</p>
+<p>JACK allows you to route audio between JACK-compatible applications in flexible
+ways and output sound from multiple programs at the same time. However, JACK can
+be complicated to set up. Unless you will be connecting Mixxx to other
+JACK-compatible applications, JACK offers no advantages over ALSA. To use JACK,
+start the JACK daemon <em>before</em> running Mixxx. Otherwise JACK will not appear as
+a Sound API in the preferences.</p>
+<p>Most modern GNU/Linux distributions use PulseAudio by default. When
+launched from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is
+running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows
+multiple programs to access one audio interface, but PulseAudio and JACK have
+opposite design goals. PulseAudio is designed to make ordinary computer usage
+such as watching videos online and listening to music easy whereas JACK is
+designed for demanding low latency audio programs like Mixxx. It can be
+difficult to setup JACK and PulseAudio to work well together. So, unless you
+already use JACK, it is easiest to let Mixxx suspend PulseAudio and use ALSA.</p>
+<p>If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can
+choose the virtual device <code class="docutils literal notranslate"><span class="pre">pulse</span></code>. This allows Mixxx to share the default
+system audio interface with other media players. This only works if you start
+Mixxx without pasuspender, which you can do by running <strong class="command">mixxx</strong> from a
+console rather than clicking the launcher icon in a menu or on your desktop.
+Since the sound stream is routed from ALSA to Pulse and back to ALSA, this adds
+an additional latency of ~2 x the selected audio buffer size.</p>
+<p>OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS
+drivers.</p>
+</div>
+<div class="section" id="macos">
+<h4><span class="section-number">13.1.3.3. </span>macOS<a class="headerlink" href="#macos" title="Permalink to this headline">¶</a></h4>
+<p>CoreAudio is the only Sound API on macOS.</p>
+</div>
+</div>
+<div class="section" id="other-sound-hardware-options">
+<h3><span class="section-number">13.1.4. </span>Other Sound Hardware options<a class="headerlink" href="#other-sound-hardware-options" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Multi-Soundcard Synchronization</strong>: Mixxx is able to use two or more
+<a class="reference internal" href="../glossary.html#term-audio-interfaces"><span class="xref std std-term">audio interfaces</span></a> at a time, each with its own clock. When multiple
+audio interfaces are in use, the Mixxx engine is driven by the Master
+audio interface. Here you can select the synchronization used for the other
+audio interfaces to avoid buffer overflows or underflows.</p></li>
+<li><p><strong>Keylock/Pitch-Bending Engine</strong>: This allows you to select the engine used
+for independent tempo and pitch changes (e.g. <a class="reference internal" href="../glossary.html#term-keylock"><span class="xref std std-term">keylock</span></a>). Use
+<span class="menuselection">Soundtouch</span> on lower power machines (such as netbooks) or if
+you experience buffer underflows while using <a class="reference internal" href="../glossary.html#term-keylock"><span class="xref std std-term">keylock</span></a>.</p></li>
+<li><p><strong>Master Mix</strong>: You may disable the master mix to reduce Mixxx’s CPU usage if
+you do not use the Master output, recording or live broadcasting.</p></li>
+<li><p><strong>Master Output Mode</strong>: In Mono mode, the left and right channel are combined
+into a mono signal which is passed to both channels of your master audio
+interface. This is useful for setups where the audience cannot hear your mix
+in stereo because of speaker placement or playing in a space with lots of
+reverberation.</p></li>
+<li><p><strong>Buffer Underflow Count</strong>: Underflows (data is not available when needed)
+indicate that some of the subsystems in Mixxx can’t keep up with real-time
+deadlines imposed by the current audio buffer size. This is useful to tune the
+latency settings. If the counter increases, then increase your audio buffer
+size, decrease the sample rate setting or change the sound API setting if
+available.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="library">
+<h2><span class="section-number">13.2. </span>Library<a class="headerlink" href="#library" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="changing-music-directories">
+<span id="configuration-import"></span><h3><span class="section-number">13.2.1. </span>Changing music directories<a class="headerlink" href="#changing-music-directories" title="Permalink to this headline">¶</a></h3>
+<p>You can manually add, relink, and remove Mixxx music directories in
+<span class="menuselection">Preferences ‣ Library</span>.</p>
+<dl>
+<dt><strong>Add a new music directory</strong></dt><dd><p>Mixxx handles multiple music library folders. Click <span class="guilabel">Add</span> to
+browse to a directory where your music is stored. Mixxx will watch this
+directory and its subdirectories for new tracks.</p>
+<p>If you add a directory that is already in your library, or you are currently
+<a class="reference internal" href="library.html#library-tracks"><span class="std std-ref">rescanning your library</span></a>, the operation is canceled.</p>
+<p>Directories can also be added from the <a class="reference internal" href="library.html#library-computer"><span class="std std-ref">Computer</span></a>
+sidebar item inside the library.</p>
+</dd>
+<dt><strong>Relink a existing music directory</strong></dt><dd><p>If an existing music directory is moved, Mixxx doesn’t know where to find the
+audio files in it. Click <span class="guilabel">Relink</span> to select the music directory
+in its new location. This will re-establish the links to the audio files in
+the Mixxx library.</p>
+</dd>
+<dt><strong>Remove a music directory</strong></dt><dd><p>Click <span class="guilabel">Remove</span>, and Mixxx will no longer watch a directory and
+its subdirectories for new tracks, and asks what would you like to do with the
+tracks from these directories.</p>
+<ul class="simple">
+<li><p>Select <span class="guilabel">Hide Tracks</span> to hide all tracks from this directory and
+subdirectories.</p></li>
+<li><p>Select <span class="guilabel">Delete Track Metadata</span> to delete all metadata for these
+tracks from Mixxx permanently</p></li>
+<li><p>Select <span class="guilabel">Leave Tracks Unchanged</span> to leave the tracks unchanged in
+your library.</p></li>
+</ul>
+<p>Hiding tracks saves their metadata in case you re-add them in the future.</p>
+<p>Metadata means all track details (artist, title, playcount, etc.) as well as
+beatgrids, hotcues, and loops. This choice only affects the Mixxx library.
+No files on disk will be changed or deleted.</p>
+</dd>
+</dl>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>When changing music directories, you might want to run a library
+rescan afterwards. Select <span class="menuselection">Library ‣ Rescan Library</span>
+in the menu.</p>
+</div>
+</div>
+</div>
+<div class="section" id="beat-detection">
+<span id="configuration-bpm-detection"></span><h2><span class="section-number">13.3. </span>Beat Detection<a class="headerlink" href="#beat-detection" title="Permalink to this headline">¶</a></h2>
+<p>Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments
+are redundant in many cases because Mixxx knows where the beats are.</p>
+<p>BPM and beat detection is a complex operation. Depending on your computer and
+the track’s bitrate and duration this may take some time. By default Mixxx
+analyzes the complete track. To accelerate beat detection on slower computers, a
+“Fast Analysis” option is available. If enabled, the BPM is computed by
+analyzing the first minute of the track. In most cases this does not affect the
+beat detection negatively because most of today’s dance music is written in a
+4/4 signature with a fixed tempo.</p>
+<div class="pretty-figures figure align-center" id="id3" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Beatdetection.png"><img alt="Mixxx preferences - BPM settings" src="../_images/Mixxx-200-Preferences-Beatdetection.png" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx preferences - BPM settings</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>The table below summarizes the beat detection settings:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 51%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Option</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Enable Fast Analysis</p></td>
+<td><p>If enabled, BPM will be detected by
+only using the first minute of audio.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Assume constant tempo</p></td>
+<td><p>If enabled, Mixxx assumes that the
+distances between the beats are
+constant. If disabled, the raw beat
+grid obtained by the analyzer is
+presented. The latter is appropriate
+for tracks with variable tempo.</p></td>
+</tr>
+<tr class="row-even"><td><p>Enable Offset Correction</p></td>
+<td><p>Prevents beat markers from being
+placed incorrectly.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Re-analyze beats when settings
+change or beat detection data is
+outdated</p></td>
+<td><p>If enabled, Mixxx over-writes old
+beat grids from prior versions.
+Moreover, it will re-analyze the BPM
+if your beat detection preferences
+change or BPM data from 3rd party
+programs are present.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="correcting-beat-grids">
+<h3><span class="section-number">13.3.1. </span>Correcting Beat Grids<a class="headerlink" href="#correcting-beat-grids" title="Permalink to this headline">¶</a></h3>
+<p>There may be situations where BPM and beat detection do not result in a proper
+beat grid.</p>
+<p>Typically, the detected BPM is correct but the analyzer has failed to detect the
+location of the first beat. Consequently, the beat markers are shifted, i.e.
+the beat markers are a fixed distance from the true beat. To adjust the
+beat grid, cue the track before a real beat and click the <span class="guilabel">Beat-grid
+Adjust</span> button in the <a class="reference internal" href="user_interface.html#interface-button-grid"><span class="std std-ref">Deck Options Button Grid</span></a>.</p>
+<p>If the detected BPM is not accurate, the corresponding beat grid will also be
+inaccurate. A deviation of 0.02 BPM units from the correct BPM will cause
+beatgrid alignment issues on long tracks (e.g. a club mix). If this happens,
+your beatgrid may look aligned for the few minutes but you will notice a slight
+drift as the song goes on. Finding the correct BPM is easy in many cases - just
+follow the note below.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the detected BPM value is not sufficiently accurate but very close
+to an integer value, try to set the BPM value manually to the integer.</p>
+</div>
+</div>
+</div>
+<div class="section" id="key-detection">
+<span id="configuration-key-detection"></span><h2><span class="section-number">13.4. </span>Key Detection<a class="headerlink" href="#key-detection" title="Permalink to this headline">¶</a></h2>
+<p>Mixxx comes with a high precision musical key detector to help you make smooth
+mixes by ensuring that your tracks are musically compatible.</p>
+<div class="section" id="analyzer-settings">
+<h3><span class="section-number">13.4.1. </span>Analyzer Settings<a class="headerlink" href="#analyzer-settings" title="Permalink to this headline">¶</a></h3>
+<p>Key detection is a complex operation. Depending on your computer and the track’s
+bitrate and duration this may take some time. By default Mixxx analyzes the
+complete track. To accelerate key detection on slower computers, a “Fast
+Analysis” option is available. If enabled, the key is computed by analyzing the
+first minute of the track.</p>
+<div class="pretty-figures figure align-center" id="id4" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Keydetection.png"><img alt="Mixxx preferences - Key settings" src="../_images/Mixxx-200-Preferences-Keydetection.png" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx preferences - Key settings</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>The table below summarizes the Key detection settings:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 51%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Option</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Enable Fast Analysis</p></td>
+<td><p>If enabled, the key will be detected
+by using only the first minute of
+audio.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Re-analyze key when settings
+change or Key detection data is
+outdated</p></td>
+<td><p>If enabled, Mixxx will re-analyse
+tracks if you select a different key
+detection plugin or the key was
+generated by a program other than
+Mixxx.</p></td>
+</tr>
+<tr class="row-even"><td><p>Key Notation</p></td>
+<td><p>Change the way keys are displayed
+in the library.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="equalizers">
+<span id="preferences-equalizers"></span><h2><span class="section-number">13.5. </span>Equalizers<a class="headerlink" href="#equalizers" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id5" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Equalizer.png"><img alt="Equalizer Preferences" src="../_images/Mixxx-200-Preferences-Equalizer.png" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text">Equalizer Preferences</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p><span class="menuselection">Preferences ‣ Equalizer</span> allows you to setup the equalizers.</p>
+<ul>
+<li><p><strong>Equalizer Rack</strong>: The Equalizer Rack is a special effect rack that is
+connected to the deck’s equalizer and filter controls.</p>
+<p>In this section you can select the equalizers and quick effects that are used
+with the decks.</p>
+</li>
+<li><p><strong>Equalizer Plugin</strong>: Here you can select the effect that is used as the
+mixing EQ in each deck. By default only built-in equalizers are
+displayed. Unchecking <span class="menuselection">Only allow EQ knobs to control EQ
+specific effects</span> allows you to select any other effect.</p></li>
+<li><p><strong>Quick Effect</strong>: Here you can select the effect that is controlled by the
+dedicated filter knob in each deck. By default only built-in filter effects
+are selected for all decks, but that can be changed as above.</p></li>
+<li><p><strong>High/Low Shelf EQ</strong>: This slider sets the crossover frequencies of the
+mixing EQ. It controls which frequency range is affected by the low, mid, and
+high channel EQ knobs. By default the low knob controls the bass and sub bass
+range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
+The remaining treble range is controlled by the high knob.</p></li>
+<li><p><strong>Master EQ</strong>: This section allows you to setup an EQ that affects the master
+output.</p></li>
+</ul>
+<div class="section" id="mixing-equalizers">
+<h3><span class="section-number">13.5.1. </span>Mixing Equalizers<a class="headerlink" href="#mixing-equalizers" title="Permalink to this headline">¶</a></h3>
+<p>Mixxx offers three types of mixing equalizers with a full kill option. These
+equalizers are “isolators”, adapted from analog crossover networks. Each EQ is
+combination of a high shelf filter, a band pass filter, and a low shelf filter.
+Each EQ type has a unique sound, so try them out to find out which one you
+prefer.</p>
+<p>The Bessel EQs with Lipshitz and Vanderkooy Mix (LV-Mix) do not alter the sound
+or take any processing time when their knobs are in the center position. They
+activate once you adjust an EQ knob.</p>
+<p>The Linkwitz-Riley EQ on the other hand always applies a minimum, natural
+sounding phase shift to the sound. Their processing time does not change when
+you adjust the EQ knobs.</p>
+<p>The following table compares some technical parameters:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 11%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>cut</p></th>
+<th class="head"><p>roll-off</p></th>
+<th class="head"><p>phase shift</p></th>
+<th class="head"><p>bit perfect</p></th>
+<th class="head"><p>CPU usage</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Bessel4 LV-Mix</p></td>
+<td><p>soft</p></td>
+<td><p>-24 db/Oct</p></td>
+<td><p>linear</p></td>
+<td><p>yes</p></td>
+<td><p>low</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bessel8 LV-Mix</p></td>
+<td><p>medium</p></td>
+<td><p>-48 db/Oct</p></td>
+<td><p>linear</p></td>
+<td><p>yes</p></td>
+<td><p>medium</p></td>
+</tr>
+<tr class="row-even"><td><p>Linkwitz-Riley</p></td>
+<td><p>sharp</p></td>
+<td><p>-48 db/Oct</p></td>
+<td><p>minimum</p></td>
+<td><p>no</p></td>
+<td><p>high</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><ul class="simple">
+<li><p>cut: the frequency response (curve form) at the cross over frequency.</p></li>
+<li><p>roll-off: The steepness of the EQ bands.</p></li>
+<li><p>linear phase: No phase distortion, all frequencies are processed with the
+same group delay.</p></li>
+<li><p>minimum phase: A natural phase distortion, the group delay changes by the
+frequency.</p></li>
+<li><p>bit perfect: Whether the EQ leaves the original samples untouched when the EQ
+is at unity.</p></li>
+<li><p>CPU usage: Processing time needed to calculate the EQ output.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="advanced_topics.html" class="btn btn-neutral float-right" title="14. Advanced Topics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="djing_with_mixxx.html" class="btn btn-neutral float-left" title="12. DJing With Mixxx" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/preferences.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/preferences.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/preferences.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/preferences.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/preferences.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/preferences.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/preferences.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/preferences.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/preferences.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/preferences.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/preferences.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/preferences.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/preferences.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/preferences.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/preferences.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/preferences.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/preferences.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/preferences.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/preferences.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/preferences.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/preferences.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/preferences.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/preferences.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/preferences.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/preferences.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/preferences.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/preferences.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/preferences.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/preferences.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

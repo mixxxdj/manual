@@ -1,0 +1,637 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>5. DJ Hardware &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="6. Example Setups" href="example_setups.html" />
+    <link rel="prev" title="4. The Mixxx Library" href="library.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">5. DJ Hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#controllers">5.1. Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#audio-interfaces">5.2. Audio Interfaces</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#audio-interface-considerations">5.2.1. Audio Interface Considerations</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#bit-depth-and-sample-rate">5.2.1.1. Bit Depth and Sample Rate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#specifications">5.2.1.2. Specifications</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connector-and-cable-types">5.2.1.3. Connector and Cable Types</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#number-of-channels">5.2.1.4. Number of Channels</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#vinyl-control-and-phono-preamplifiers">5.2.1.5. Vinyl Control and Phono Preamplifiers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#mixers">5.3. Mixers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#turntables">5.4. Turntables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cdjs">5.5. CDJs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#microphones">5.6. Microphones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">5. </span>DJ Hardware</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/hardware.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dj-hardware">
+<span id="hardware"></span><h1><span class="section-number">5. </span>DJ Hardware<a class="headerlink" href="#dj-hardware" title="Permalink to this headline">¶</a></h1>
+<p>Although Mixxx can be used with just a laptop or desktop computer, fully taking
+advantage of Mixxx’s features requires specialized DJ hardware. Depending on
+your budget and application area, your setup and requirements may vary. This
+chapter provides general background information about various types of DJ
+hardware.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">Mixxx DJ Hardware Guide</a>
+lists specific devices with information about their prices,
+features, and compatibility with Mixxx.</p>
+</div>
+<div class="section" id="controllers">
+<span id="hardware-controllers"></span><h2><span class="section-number">5.1. </span>Controllers<a class="headerlink" href="#controllers" title="Permalink to this headline">¶</a></h2>
+<p>DJ controllers are devices with knobs, faders, buttons, and jog wheels to
+control DJ software such as Mixxx. Controllers allow quick access to different
+controls while providing tactile and visual feedback indicating the state of
+each control, such as the position of a knob or whether a switch is on or off.
+This allows you to focus on manipulating the music without needing to look at
+your computer screen all the time. Controllers also allow using two hands to
+manipulate two different controls at the same time, which is required for many
+mixing techniques.</p>
+<p>DJ controllers typically do not do any actual audio processing. Instead, they
+send signals (typically <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a> or <a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a> over a USB cable) to the
+computer to instruct DJ software how to manipulate the audio. Many DJ
+controllers include an <a class="reference internal" href="#hardware-audio-interfaces"><span class="std std-ref">audio interface</span></a> with
+2 separate stereo outputs built into the device. This allows the DJ to
+transport and setup only one piece of hardware in addition to a laptop. Some
+devices can be used as both a controller and <a class="reference internal" href="#hardware-mixers"><span class="std std-ref">hardware mixer</span></a>.</p>
+<p>Mixxx can work with any <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a> or <a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a> <a class="reference internal" href="../glossary.html#term-controller"><span class="xref std std-term">controller</span></a> as long
+as there is a mapping file to tell Mixxx how to understand the controller’s
+signals. Mixxx comes bundled with a number of MIDI and HID mapping presets,
+which are listed in the <a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">Mixxx DJ Hardware Guide</a> on the wiki. For
+controllers that Mixxx does not yet support, you can <a class="reference external" href="https://mixxx.org/forums/search.php?fid[]=7">search the forum</a> to see if anyone has
+started a mapping. You can also start one yourself using the information in the
+<a class="reference external" href="https://mixxx.org/wiki/doku.php/start#controller_mapping_documentation">Controller Mapping Documentation</a>
+on the wiki.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="controlling_mixxx.html#control-midi"><span class="std std-ref">Using MIDI/HID Controllers</span></a> describes how to configure Mixxx to use
+controllers.</p>
+</div>
+</div>
+<div class="section" id="audio-interfaces">
+<span id="hardware-audio-interfaces"></span><h2><span class="section-number">5.2. </span>Audio Interfaces<a class="headerlink" href="#audio-interfaces" title="Permalink to this headline">¶</a></h2>
+<p>An audio interface (also known as a “sound card”, although few of them are
+shaped like cards anymore) is a device that allows a computer to send output to
+and receive input from audio equipment. Whether using <a class="reference internal" href="introduction.html#intro-how-mixxx-works"><span class="std std-ref">internal or
+external mixing</span></a>, it is recommended to use a single
+audio interface with at least 4 independent output channels (2 separate stereo
+pairs).</p>
+<p>The headphone jack on most laptops is not a second audio output. Rather,
+plugging headphones into the jack simply redirects the laptop’s single stereo
+output from its speakers to your headphones. A splitter cable can be used to
+separate the stereo output of a headphone jack into two separate mono outputs
+for headphone cueing, but it is recommended to use a sound card with at
+least four mono outputs (for two stereo pairs). Such sound cards tend to be
+higher quality than those built into laptops and allow your mix to be enjoyed
+in stereo by your audience.</p>
+<p>Unlike some proprietary DJ systems, Mixxx can use any audio interface and any
+<a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a> or <a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a> controller that your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a>
+has drivers to use. If your controller has an integrated audio interface, you
+may choose to use a different audio interface for higher quality audio. Mixxx
+can also use multiple audio interfaces simultaneously.</p>
+<div class="section" id="audio-interface-considerations">
+<h3><span class="section-number">5.2.1. </span>Audio Interface Considerations<a class="headerlink" href="#audio-interface-considerations" title="Permalink to this headline">¶</a></h3>
+<p>This section provides background information to help you choose an audio
+interface to use with Mixxx.</p>
+<div class="section" id="bit-depth-and-sample-rate">
+<h4><span class="section-number">5.2.1.1. </span>Bit Depth and Sample Rate<a class="headerlink" href="#bit-depth-and-sample-rate" title="Permalink to this headline">¶</a></h4>
+<p>Most music is published with a bit depth of 16 bits at a sample rate of 44.1
+kHz because this is all that is needed to store all the detail of music in
+digital form.</p>
+<p>Bit depth determines the possible dynamic range of the signal. 16 bits is more
+than enough for playing back music. While 24 bits is helpful for recording,
+<a class="reference external" href="https://sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you-knew-about-bit-depth-is-probably-wrong/">it is useless for playback</a>.</p>
+<p>Half the sample rate determines the maximum frequency that can be represented
+by the signal. Humans generally can’t hear frequencies above 20 kHz, so a
+sampling rate of 44.1 kHz, representing a maximum frequency of 22.05 kHz, is
+fine for playback. Higher sample rates like 88.2 kHz and 96 kHz can be helpful
+to reduce aliasing distortion when recording, but have no benefit for playback
+and make your computer work harder.</p>
+<p>For a more thorough and technical explanation of why 16 bits at 44.1 kHz is all
+that is needed for playback, read <a class="reference external" href="https://web.archive.org/web/20120306150922/https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads Are Very Silly Indeed</a>.</p>
+</div>
+<div class="section" id="specifications">
+<h4><span class="section-number">5.2.1.2. </span>Specifications<a class="headerlink" href="#specifications" title="Permalink to this headline">¶</a></h4>
+<p>When considering specifications, higher dynamic range, higher signal-to-noise
+ratio (SNR), higher maximum output level, lower THD+N (Total Harmonic
+Distortion + Noise; look for a more negative dB value or smaller percentage),
+and lower crosstalk (more negative dB value) are better. Cheap audio interfaces
+tend to not have these specifications published.</p>
+</div>
+<div class="section" id="connector-and-cable-types">
+<h4><span class="section-number">5.2.1.3. </span>Connector and Cable Types<a class="headerlink" href="#connector-and-cable-types" title="Permalink to this headline">¶</a></h4>
+<p>If you are unfamiliar with professional audio equipment, read Digital DJ Tips’
+<a class="reference external" href="https://www.digitaldjtips.com/2011/07/the-essential-guide-to-audio-cables-for-djs">Essential Guide to Audio Cables for DJs</a>
+to understand the different kinds of connectors on audio interfaces. It
+is better to use an audio interface with balanced outputs, especially if you
+will run long cables directly into an amplifier or active speakers without
+going through a <a class="reference internal" href="#hardware-mixers"><span class="std std-ref">hardware mixer</span></a>. Balanced signals
+reject interference and are less susceptible to ground loop hum issues (which
+can be a problem when plugging unbalanced gear into separate power sources).</p>
+<p>However, most venues have DJs plug into <a class="reference internal" href="#hardware-mixers"><span class="std std-ref">hardware DJ mixers</span></a>, which typically only have RCA inputs (RCA cables cannot be
+balanced). Most home/computer speakers and amplifiers have RCA and/or 1/8” TRS
+stereo inputs. Most live sound mixers have balanced 1/4” TRS mono inputs. If
+you need to interconnect balanced and unbalanced gear, refer to this <a class="reference external" href="https://web.archive.org/web/20171011070552/https://www.presonus.com/learn/technical-articles/Balanced-Unbalanced">guide
+from Presonus (deleted, via archive.org)</a>
+and this <a class="reference external" href="https://web.archive.org/web/20191224231514/rane.com/note110.html">guide from Rane (deleted, via archive.org)</a>.</p>
+</div>
+<div class="section" id="number-of-channels">
+<h4><span class="section-number">5.2.1.4. </span>Number of Channels<a class="headerlink" href="#number-of-channels" title="Permalink to this headline">¶</a></h4>
+<p>Audio interfaces sometimes have multiple connectors for a single channel,
+resulting in more connectors than channels. So, not every connector can send or
+receive and independent signal. For example, some audio interfaces made for
+DJing have 4 output channels with 4 mono output connectors and 1 stereo
+headphone connector. This does not mean that the audio interface can send out 6
+different signals at the same time; rather, the signal on 2 of the mono outputs
+and the stereo headphone output would be the same. Also, many controllers have
+separate master and booth outputs with independent volume controls, but they
+both play the same signal.</p>
+</div>
+<div class="section" id="vinyl-control-and-phono-preamplifiers">
+<h4><span class="section-number">5.2.1.5. </span>Vinyl Control and Phono Preamplifiers<a class="headerlink" href="#vinyl-control-and-phono-preamplifiers" title="Permalink to this headline">¶</a></h4>
+<p>Turntables output low voltage (phono level) signals that need to be amplified
+to line level before most audio equipment can work with them. So, if you want
+to use <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a>, sometimes referred to as a Digital Vinyl System
+(DVS), it is best to have phono preamplifiers (one for each deck) somewhere
+between your turntable and sound card to boost the turntable’s phono level
+signal to line level. Mixxx can amplify phono level signals in software, but it
+is better to do it in hardware. The phono preamp can be in the turntable, in
+the audio interface, or a stand alone device. Most audio interfaces do not have
+phono preamps; these are generally found on audio interfaces specifically made
+for controlling DJ software with timecode vinyl. <a class="reference internal" href="#hardware-mixers"><span class="std std-ref">Mixers</span></a> with
+audio interfaces have phono preamps on their deck inputs, but not necessarily
+on every deck input. Many higher-end all-in-one controllers also include audio
+interfaces with phono preamps.</p>
+</div>
+</div>
+</div>
+<div class="section" id="mixers">
+<span id="hardware-mixers"></span><h2><span class="section-number">5.3. </span>Mixers<a class="headerlink" href="#mixers" title="Permalink to this headline">¶</a></h2>
+<p>Mixers are devices that combine audio signals. DJ mixers are different from
+live and studio mixers because they have multiple stereo channels with phono
+preamplifiers for connecting <a class="reference internal" href="#hardware-turntables"><span class="std std-ref">Turntables</span></a>. It is conventional to
+use a DJ mixer with <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a>, but vinyl control can be used without
+a hardware mixer.</p>
+<p>Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono
+outputs (2 stereo pairs) to send Mixxx’s decks to the mixer’s stereo channels.
+Some DJ mixers have a USB <a class="reference internal" href="#hardware-audio-interfaces"><span class="std std-ref">audio interface</span></a>
+built into them. This lets Mixxx send unmixed audio files directly to the mixer
+without needing a separate stand-alone audio interface.</p>
+<p>Often DJs who use DJ software with internal mixing send their master output to
+a hardware mixer. This can be helpful to send the mixed signal to both a main
+speaker output for the audience and booth speakers for the DJ with separate
+gain controls for each output. It also facilitates smooth transitions between
+DJs.</p>
+<p>However, using an external mixer with internal mixing is not necessary and
+reduces the sound quality. Each piece of equipment an audio signal passes
+through reduces the sound quality, so avoiding unnecessary equipment in the
+signal path can provide better sound quality. Many DJ controllers provide
+separate master and booth outputs with independent volume controls.
+Alternatively, a sound card with at least 6 output channels can be used with
+Mixxx’s <span class="guilabel">Booth</span> output.</p>
+<p>Many people confuse “analog mixers” and “hardware mixers”, but these are
+not the same. Many hardware mixers process audio digitally with specialized
+signal processors as opposed to a general purpose CPU like those in laptop and
+desktop computers.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="microphones.html#microphones-record-broadcast-external-mixer"><span class="std std-ref">Recording And Broadcasting With An External Hardware Mixer</span></a></p>
+</div>
+</div>
+<div class="section" id="turntables">
+<span id="hardware-turntables"></span><h2><span class="section-number">5.4. </span>Turntables<a class="headerlink" href="#turntables" title="Permalink to this headline">¶</a></h2>
+<p>Turntables are mechanical devices that play music recordings cut into vinyl
+phonograph records. Before software like Mixxx was available, the art of DJing
+originated with turntables and <a class="reference internal" href="#hardware-mixers"><span class="std std-ref">DJ mixers</span></a>. Special
+vinyl records can be used with turntables to control the playback of digital
+files in Mixxx as if the digital file was pressed onto the vinyl record.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a></p>
+</div>
+</div>
+<div class="section" id="cdjs">
+<h2><span class="section-number">5.5. </span>CDJs<a class="headerlink" href="#cdjs" title="Permalink to this headline">¶</a></h2>
+<p>CDJs are devices that play digital audio files and have controls from
+manipulating the playback of the audio. Originally CDJs played audio CDs, but
+new devices typically use USB storage drives or SD cards. Some CDJs can be
+plugged into a computer with a USB cable to function as a <a class="reference internal" href="#hardware-controllers"><span class="std std-ref">controller</span></a> for Mixxx.</p>
+</div>
+<div class="section" id="microphones">
+<h2><span class="section-number">5.6. </span>Microphones<a class="headerlink" href="#microphones" title="Permalink to this headline">¶</a></h2>
+<p>Microphones convert changes in sound pressure in air to changes in voltage (an
+analog audio signal). Mixxx can work with any microphone that can be plugged
+into your <a class="reference internal" href="#hardware-audio-interfaces"><span class="std std-ref">audio interface</span></a>.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">Using Microphones</span></a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="example_setups.html" class="btn btn-neutral float-right" title="6. Example Setups" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="library.html" class="btn btn-neutral float-left" title="4. The Mixxx Library" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/hardware.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/hardware.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/hardware.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/hardware.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/hardware.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/hardware.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/hardware.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/hardware.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/hardware.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/hardware.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/hardware.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/hardware.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/hardware.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/hardware.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/hardware.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/hardware.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/hardware.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/hardware.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/hardware.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/hardware.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/hardware.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/hardware.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/hardware.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/hardware.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/hardware.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/hardware.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/hardware.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/hardware.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/hardware.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

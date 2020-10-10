@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Mixxx 2.2 User Manual &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Introduction to Mixxx" href="chapters/introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="chapters/introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Mixxx 2.2 User Manual</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="mixxx-version-user-manual">
+<h1>Mixxx 2.2 User Manual<a class="headerlink" href="#mixxx-version-user-manual" title="Permalink to this headline">¶</a></h1>
+<p>Mixxx is <a class="reference external" href="https://www.gnu.org/philosophy/free-sw.html">free</a> DJ software for
+Windows, macOS and Linux. It’s easy to use, even if you’ve never DJed.
+Mixxx offers a variety of features to help beginners get started and help
+experienced DJs get creative:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>beat, tempo, and musical key detection</p></li>
+<li><p>master sync</p></li>
+<li><p>hotcues</p></li>
+<li><p>looping</p></li>
+<li><p>4 decks</p></li>
+<li><p>effects</p></li>
+</ul>
+</div></blockquote>
+<p>You can use Mixxx to perform with <a class="reference internal" href="glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a> and <a class="reference internal" href="glossary.html#term-HID"><span class="xref std std-term">HID</span></a> controllers,
+CD players, vinyl turntables or even just your computer’s keyboard and mouse.</p>
+<div class="section" id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="chapters/introduction.html">1. Introduction to Mixxx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/introduction.html#how-mixxx-works">1.1. How Mixxx Works</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/getting_started.html">2. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_started.html#opening-mixxx">2.1. Opening Mixxx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_started.html#importing-your-audio-files">2.2. Importing your audio files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_started.html#analyze-your-library">2.3. Analyze your library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_started.html#configuring-sound-input-and-output">2.4. Configuring sound input and output</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/user_interface.html">3. An Overview of the Mixxx Interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#the-deck-sections">3.1. The Deck Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#the-mixer-section">3.2. The Mixer Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#the-sampler-section">3.3. The Sampler Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#the-effects-section">3.4. The Effects Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#the-microphone-section">3.5. The Microphone Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/user_interface.html#preview-deck-section">3.6. Preview Deck Section</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/library.html">4. The Mixxx Library</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#overview-of-the-library-features">4.1. Overview of the Library features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#tracks-view-and-edit-your-whole-collection">4.2. Tracks - View and edit your whole collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#loading-tracks">4.3. Loading Tracks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#finding-tracks-search">4.4. Finding Tracks (Search)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#previewing-tracks">4.5. Previewing Tracks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#edit-metadata-of-audio-files">4.6. Edit metadata of audio files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#auto-dj-automate-your-mix">4.7. Auto DJ - Automate your mix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#playlists-arranging-tracks-in-a-set-order">4.8. Playlists - Arranging tracks in a set order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#crates-organizing-tracks-into-collections">4.9. Crates - Organizing tracks into collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#computer-loading-tracks-from-anywhere-on-your-computer">4.10. Computer - Loading tracks from anywhere on your computer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#recordings">4.11. Recordings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#history-keep-track-of-your-sessions">4.12. History - Keep track of your sessions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#analyze-prepare-your-tracks">4.13. Analyze - Prepare your tracks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#itunes-traktor-rhythmbox-banshee-using-external-libraries">4.14. iTunes, Traktor, Rhythmbox, Banshee - Using external libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#removing-tracks-from-the-library">4.15. Removing tracks from the library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#compatible-file-formats">4.16. Compatible file formats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/library.html#music-from-audio-cds">4.17. Music from audio CDs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/hardware.html">5. DJ Hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#controllers">5.1. Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#audio-interfaces">5.2. Audio Interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#mixers">5.3. Mixers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#turntables">5.4. Turntables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#cdjs">5.5. CDJs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/hardware.html#microphones">5.6. Microphones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/example_setups.html">6. Example Setups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/example_setups.html#computer-only">6.1. Computer Only</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/example_setups.html#laptop-and-splitter-cable">6.2. Laptop and Splitter Cable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/example_setups.html#laptop-and-external-usb-audio-interface">6.3. Laptop and External USB Audio Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/example_setups.html#laptop-and-midi-or-hid-controller">6.4. Laptop and MIDI or HID Controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/example_setups.html#laptop-external-hardware-mixer-and-vinyl-control">6.5. Laptop, External Hardware Mixer and Vinyl Control</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/controlling_mixxx.html">7. Controlling Mixxx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/controlling_mixxx.html#using-a-mouse-and-touchpad">7.1. Using a Mouse and Touchpad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/controlling_mixxx.html#using-a-keyboard">7.2. Using a Keyboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/controlling_mixxx.html#using-midi-hid-controllers">7.3. Using MIDI/HID Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/controlling_mixxx.html#using-timecode-vinyl-records-and-cds">7.4. Using Timecode Vinyl Records and CDs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/vinyl_control.html">8. Vinyl Control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#how-does-it-work">8.1. How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#what-do-i-need-to-use-it">8.2. What do I need to use it?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#configuring-input-and-output-devices">8.3. Configuring Input and Output devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#configuring-vinyl-control">8.4. Configuring Vinyl Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#enabling-vinyl-control">8.5. Enabling Vinyl Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#single-deck-control">8.6. Single Deck Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#end-of-record-mode">8.7. End-Of-Record Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#control-track">8.8. Control Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/vinyl_control.html#troubleshooting">8.9. Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/microphones.html">9. Using Microphones</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/microphones.html#software-monitoring">9.1. Software Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/microphones.html#direct-monitoring">9.2. Direct Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/microphones.html#hardware-mixers">9.3. Hardware Mixers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/microphones.html#dj-controllers-with-microphone-inputs">9.4. DJ Controllers With Microphone Inputs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/livebroadcasting.html#streaming-servers">10.1. Streaming Servers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/livebroadcasting.html#configuring-mixxx">10.2. Configuring Mixxx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/livebroadcasting.html#live-broadcasting-preferences">10.3. Live Broadcasting Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/livebroadcasting.html#troubleshooting">10.4. Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/livebroadcasting.html#activate-mp3-streaming-support">10.5. Activate MP3 streaming support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/effects.html">11. Effects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/effects.html#effect-units">11.1. Effect Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/effects.html#effect-parameters-metaknobs">11.2. Effect Parameters &amp; Metaknobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/effects.html#effect-unit-mix-modes">11.3. Effect Unit Mix Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/effects.html#effects-in-headphones">11.4. Effects In Headphones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/djing_with_mixxx.html">12. DJing With Mixxx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#setting-your-levels-properly-gain-staging">12.1. Setting Your Levels Properly (Gain Staging)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#beatmatching-and-mixing">12.2. Beatmatching and Mixing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#master-sync">12.3. Master Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#harmonic-mixing">12.4. Harmonic Mixing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#recording-your-mix">12.5. Recording Your Mix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/djing_with_mixxx.html#using-auto-dj-for-automatic-mixing">12.6. Using Auto DJ For Automatic Mixing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/preferences.html">13. Preferences</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/preferences.html#sound-hardware">13.1. Sound Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/preferences.html#library">13.2. Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/preferences.html#beat-detection">13.3. Beat Detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/preferences.html#key-detection">13.4. Key Detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/preferences.html#equalizers">13.5. Equalizers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/advanced_topics.html">14. Advanced Topics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/advanced_topics.html#adding-support-for-your-midi-hid-controller">14.1. Adding support for your MIDI/HID Controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/advanced_topics.html#making-a-custom-keyboard-mapping">14.2. Making a Custom Keyboard Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/advanced_topics.html#additional-effects-via-external-mixer-mode">14.3. Additional Effects via external Mixer Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/advanced_topics.html#deleting-your-library">14.4. Deleting Your Library</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/getting_involved.html">15. Contributing to the Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_involved.html#as-a-non-developer">15.1. As a non-developer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/getting_involved.html#as-a-software-developer">15.2. As a software developer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/appendix.html">16. Appendix</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#additional-resources">16.1. Additional Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#keyboard-mapping-table">16.2. Keyboard mapping table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#application-shortcuts">16.3. Application shortcuts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#command-line-options">16.4. Command line options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#developer-tools">16.5. Developer tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/appendix.html#version-history">16.6. Version History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">17. Glossary of Terms</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="chapters/introduction.html" class="btn btn-neutral float-right" title="1. Introduction to Mixxx" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../id/index.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../ca/index.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../de/index.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../de-DE/index.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../en/index.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../en-GB/index.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../es/index.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../es-ES/index.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../es-MX/index.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../fr/index.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../gl/index.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../it/index.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../nl/index.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../pl/index.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../pt/index.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../pt-BR/index.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../ro/index.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../sq/index.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../sl/index.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../fi/index.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../tr/index.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../cs/index.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../ru/index.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../ru-RU/index.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../sr/index.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../kn/index.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../zh-CN/index.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../zh-TW/index.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../ja-JP/index.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

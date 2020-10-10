@@ -1,0 +1,619 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7. Controlling Mixxx &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="8. Vinyl Control" href="vinyl_control.html" />
+    <link rel="prev" title="6. Example Setups" href="example_setups.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. Controlling Mixxx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-a-mouse-and-touchpad">7.1. Using a Mouse and Touchpad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-a-keyboard">7.2. Using a Keyboard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#customizing-the-keyboard-mapping">7.2.1. Customizing the keyboard mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#using-midi-hid-controllers">7.3. Using MIDI/HID Controllers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#loading-a-controller-preset">7.3.1. Loading a controller preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supported-controllers">7.3.2. Supported controllers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-a-preset-from-the-forum">7.3.3. Installing a preset from the forum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#map-your-own-controller">7.3.4. Map your own controller</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#using-timecode-vinyl-records-and-cds">7.4. Using Timecode Vinyl Records and CDs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">7. </span>Controlling Mixxx</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/controlling_mixxx.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="controlling-mixxx">
+<span id="id1"></span><h1><span class="section-number">7. </span>Controlling Mixxx<a class="headerlink" href="#controlling-mixxx" title="Permalink to this headline">¶</a></h1>
+<p>Mixxx can be controlled with a keyboard, a mouse, <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a>/<a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a>
+controllers, time-code records/CDs, or a combination of these. The choice
+usually depends on your budget or style of DJing.</p>
+<div class="section" id="using-a-mouse-and-touchpad">
+<span id="control-mouse"></span><h2><span class="section-number">7.1. </span>Using a Mouse and Touchpad<a class="headerlink" href="#using-a-mouse-and-touchpad" title="Permalink to this headline">¶</a></h2>
+<p>Use your mouse to interact with the controls in the
+<a class="reference internal" href="user_interface.html#interface-overview"><span class="std std-ref">Mixxx User Interface</span></a> on your computer screen. You
+can perform actions by pointing and clicking with your mouse.</p>
+<ul class="simple">
+<li><p><strong>Single Left Click</strong>: Performing a left mouse click on buttons triggers the
+default action for that control. Moreover if you click on a value in the track
+list of the Mixxx <a class="reference internal" href="library.html#library-interface"><span class="std std-ref">library</span></a>, you can change the
+value. For example the year of a track.</p></li>
+<li><p><strong>Single Right Click</strong>: On most buttons, performing a right click triggers a
+different action than a left click. You can return any knob or fader to its
+default value by right-clicking that control.</p></li>
+<li><p><strong>Mouse Drag</strong>: Click on a knob or fader, hold the left mouse button and move
+your cursor to change the value of the control. Use mouse drag to drop tracks
+from the file list to the decks, crates, playlists, etc.</p></li>
+<li><p><strong>Mouse Wheel</strong>: Just like Mouse Drag, you can change knob and fader values
+by placing the cursor over the control and moving the mouse wheel.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you hover with the mouse over a control (e.g. the crossfader) in
+the Mixxx user interface, the tooltip lists the left- and right-click
+action respectively.</p>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>On a Macbook or a computer with a touchpad that lacks mouse buttons,
+a two-finger click gesture is often treated as a right click.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Using the Mouse drag/wheel on the waveforms you can adjust zoom and
+playback rate of the tracks. For more information, go to
+<a class="reference internal" href="user_interface.html#interface-waveform"><span class="std std-ref">Waveform Displays</span></a>.</p>
+</div>
+</div>
+<div class="section" id="using-a-keyboard">
+<span id="control-keyboard"></span><h2><span class="section-number">7.2. </span>Using a Keyboard<a class="headerlink" href="#using-a-keyboard" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-220-Keyboard-Mapping.png"><img alt="Keyboard shortcuts" src="../_images/Mixxx-220-Keyboard-Mapping.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx Keyboard shortcuts (for en-us keyboard layout)</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<p><a class="reference download internal" download="" href="../_downloads/c157c54e1ede137c1e3067ed6f315305/Mixxx-220-Keyboard-Mapping.png"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">the</span> <span class="pre">image</span></code></a></p>
+</div>
+</div>
+<p>Controlling Mixxx with a keyboard is handy. Unlike mouse control, the keyboard
+allows you to manage things simultaneously. For example, you can start playing
+a track on deck 1 whilst stopping deck 2 at the same time.</p>
+<p>The default mapping for English keyboards is depicted in the figure above. It is
+divided into a left-hand side for deck 1 and right-hand side for deck 2. Please
+note that you can also access the functions through Mixxx’s interface.</p>
+<p>For some user groups, like those using <a class="reference internal" href="../glossary.html#term-controller"><span class="xref std std-term">controllers</span></a> or
+<a class="reference internal" href="../glossary.html#term-vinyl-control"><span class="xref std std-term">vinyl control</span></a>, it might be useful to enable/disable the keyboard
+mappings at runtime. You can do so by clicking
+<span class="menuselection">Options ‣ Enable Keyboard Shortcuts</span>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you hover with the mouse over a control (e.g. the crossfader) in
+the Mixxx user interface, the tooltip lists the keyboard shortcuts of
+the control among a description of the control.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>For a list of default shortcuts, go to <a class="reference internal" href="appendix.html#appendix-keyboard"><span class="std std-ref">Keyboard mapping table</span></a>.</p>
+</div>
+<div class="section" id="customizing-the-keyboard-mapping">
+<h3><span class="section-number">7.2.1. </span>Customizing the keyboard mapping<a class="headerlink" href="#customizing-the-keyboard-mapping" title="Permalink to this headline">¶</a></h3>
+<p>Mixxx allows you to customize the keyboard control. For more information, go to:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="advanced_topics.html#advanced-keyboard"><span class="std std-ref">Making a Custom Keyboard Mapping</span></a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="using-midi-hid-controllers">
+<span id="control-midi"></span><h2><span class="section-number">7.3. </span>Using MIDI/HID Controllers<a class="headerlink" href="#using-midi-hid-controllers" title="Permalink to this headline">¶</a></h2>
+<p>Mixxx supports MIDI and HID <a class="reference internal" href="../glossary.html#term-controller"><span class="xref std std-term">controllers</span></a> which are external
+hardware devices used to control audio applications. Many DJs prefer the
+hands-on feel of a controller with Mixxx because it can feel similar to using a
+real mixer and turntables or <a class="reference internal" href="../glossary.html#term-CDJ"><span class="xref std std-term">CDJ</span></a>.</p>
+<div class="section" id="loading-a-controller-preset">
+<span id="control-load-preset"></span><h3><span class="section-number">7.3.1. </span>Loading a controller preset<a class="headerlink" href="#loading-a-controller-preset" title="Permalink to this headline">¶</a></h3>
+<div class="pretty-figures figure align-center" id="id3" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Controllers.png"><img alt="Mixxx Preferences - Loading a controller preset" src="../_images/Mixxx-200-Preferences-Controllers.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx Preferences - Loading a controller preset</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>Without loading the correct preset, your controller does not work with Mixxx.</p>
+<ol class="arabic simple">
+<li><p>Connect your controller(s) to your computer</p></li>
+<li><p>Start Mixxx</p></li>
+<li><p>Go to <span class="menuselection">Preferences ‣ Controllers</span></p></li>
+<li><p>Select your device from the list of available devices on the left, and the
+right pane will change</p></li>
+<li><p>Activate the <span class="guilabel">Enabled</span> checkbox</p></li>
+<li><p>Select the mapping for your controller from the <span class="guilabel">Load Preset</span>
+drop-down menu</p></li>
+<li><p>Click <span class="guilabel">Apply</span> and Mixxx can now be controlled by your controller(s).</p></li>
+<li><p>Repeat step 4-7 for any of the controllers you want to use</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you do not find a connected device in the list, make sure to
+install any necessary drivers for that device.</p>
+</div>
+</div>
+<div class="section" id="supported-controllers">
+<h3><span class="section-number">7.3.2. </span>Supported controllers<a class="headerlink" href="#supported-controllers" title="Permalink to this headline">¶</a></h3>
+<p>Mixxx can use any <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a>/<a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a> controller that is recognized by your
+<a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a> (some may require drivers), as long as there is a
+MIDI/HID mapping file to tell Mixxx how to understand it. Mixxx comes bundled
+with a number of mappings for various devices. There are two levels of
+controller mappings:</p>
+<ul class="simple">
+<li><p><strong>Mixxx Certified Mappings</strong>: These mappings are verified by the Mixxx
+Development Team.</p></li>
+<li><p><strong>Community Supported Mappings</strong>: These mappings are provided and have been
+verified as working by the Mixxx community, but the Mixxx Development Team is
+unable to verify their quality because we don’t have the devices ourselves.
+They might have bugs or rough edges.</p></li>
+</ul>
+<p>If you run into issues with any of these mappings, please file a <a class="reference internal" href="../glossary.html#term-bug-report"><span class="xref std std-term">bug
+report</span></a> on our <a class="reference external" href="https://bugs.launchpad.net/mixxx">Bug Tracker</a> or tell us about it on our mailing list, forums,
+or <a class="reference internal" href="../glossary.html#term-IRC"><span class="xref std std-term">IRC</span></a> channel. Device support varies for each supported <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a>, so make sure to consult the documentation of the device.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Additional mappings are available in the <a class="reference external" href="https://mixxx.org/forums/viewforum.php?f=7">Controller presets forum</a>.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Before purchasing a controller to use with Mixxx, consult our
+<a class="reference external" href="https://mixxx.org/wiki/doku.php/hardware_compatibility">Hardware Compatibility wiki page</a>. It contains the most
+up-to-date information about which controllers work with Mixxx and
+the details of each.</p>
+</div>
+</div>
+<div class="section" id="installing-a-preset-from-the-forum">
+<h3><span class="section-number">7.3.3. </span>Installing a preset from the forum<a class="headerlink" href="#installing-a-preset-from-the-forum" title="Permalink to this headline">¶</a></h3>
+<p>To use a controller mapping that did not come bundled with Mixxx, place the
+controller mapping in your User Presets folder. This is the folder called
+“controllers” inside your User Preferences folder. To open your User Presets
+folder, go to <span class="menuselection">Preferences ‣ Controllers</span> and click the
+<span class="guilabel">Open User Preset Folder</span> button. Alternatively, navigate to the
+folder in your <a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">OS</span></a> file browser:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>GNU/Linux: <code class="file docutils literal notranslate"><span class="pre">/home/&lt;username&gt;/.mixxx/controllers</span></code></p></li>
+<li><p>macOS: <code class="file docutils literal notranslate"><span class="pre">/Users/&lt;username&gt;/Library/Application</span> <span class="pre">Support/Mixxx/controllers</span></code></p></li>
+<li><p>Windows Vista and newer: <code class="file docutils literal notranslate"><span class="pre">C:\Users\&lt;username&gt;\AppData\Mixxx\controllers</span></code></p></li>
+<li><p>Windows XP: <code class="file docutils literal notranslate"><span class="pre">C:\Documents</span> <span class="pre">and</span> <span class="pre">Settings\&lt;username&gt;\AppData\controllers</span></code></p></li>
+</ul>
+</div></blockquote>
+<p>On Windows, the <code class="file docutils literal notranslate"><span class="pre">AppData</span></code> folder is hidden, so if you have not already,
+you will need to set Windows Explorer to show hidden files and folders (how to
+do this varies with each version of Windows).</p>
+<p>If the mapping was posted as a <code class="file docutils literal notranslate"><span class="pre">.zip</span></code> file, first extract the <code class="file docutils literal notranslate"><span class="pre">.zip</span></code>
+file by right clicking on it in your file browser and selecting the option for
+extracting an archive or compressed folder. Copy the <code class="file docutils literal notranslate"><span class="pre">.xml</span></code> file into your
+User Preset folder. If there is a <code class="file docutils literal notranslate"><span class="pre">.js</span></code> file, also copy that to your
+User Preset folder. Restart Mixxx and <a class="reference internal" href="#control-load-preset"><span class="std std-ref">load the preset</span></a>.</p>
+</div>
+<div class="section" id="map-your-own-controller">
+<h3><span class="section-number">7.3.4. </span>Map your own controller<a class="headerlink" href="#map-your-own-controller" title="Permalink to this headline">¶</a></h3>
+<p>There is no mapping available for your controller or you want to change an
+existing mapping? You can map your controller by using the Controller Wizard or
+take full control with the MIDI Scripting support in Mixxx.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Go to <a class="reference internal" href="advanced_topics.html#advanced-controller"><span class="std std-ref">Adding support for your MIDI/HID Controller</span></a> for detailed information.</p>
+</div>
+</div>
+</div>
+<div class="section" id="using-timecode-vinyl-records-and-cds">
+<span id="control-timecode"></span><h2><span class="section-number">7.4. </span>Using Timecode Vinyl Records and CDs<a class="headerlink" href="#using-timecode-vinyl-records-and-cds" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../glossary.html#term-vinyl-control"><span class="xref std std-term">Vinyl control</span></a> allows a user to manipulate the playback of a track in
+Mixxx using a turntable or <a class="reference internal" href="../glossary.html#term-CDJ"><span class="xref std std-term">CDJ</span></a> as an interface. In effect, it simulates
+the sound and feel of having your digital music collection on vinyl. Many DJs
+prefer the tactile feel of vinyl, and vinyl control allows that feel to be
+preserved while retaining the benefits of using digital audio.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Go to <a class="reference internal" href="vinyl_control.html#vinyl-control"><span class="std std-ref">Vinyl Control</span></a> for detailed information.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="vinyl_control.html" class="btn btn-neutral float-right" title="8. Vinyl Control" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="example_setups.html" class="btn btn-neutral float-left" title="6. Example Setups" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/controlling_mixxx.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/controlling_mixxx.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/controlling_mixxx.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/controlling_mixxx.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/controlling_mixxx.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/controlling_mixxx.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/controlling_mixxx.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/controlling_mixxx.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/controlling_mixxx.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/controlling_mixxx.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/controlling_mixxx.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/controlling_mixxx.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/controlling_mixxx.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/controlling_mixxx.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/controlling_mixxx.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/controlling_mixxx.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/controlling_mixxx.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/controlling_mixxx.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/controlling_mixxx.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/controlling_mixxx.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/controlling_mixxx.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/controlling_mixxx.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/controlling_mixxx.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/controlling_mixxx.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/controlling_mixxx.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/controlling_mixxx.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/controlling_mixxx.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/controlling_mixxx.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/controlling_mixxx.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

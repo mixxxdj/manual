@@ -1,0 +1,552 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Getting Started &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3. An Overview of the Mixxx Interface" href="user_interface.html" />
+    <link rel="prev" title="1. Introduction to Mixxx" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#opening-mixxx">2.1. Opening Mixxx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#importing-your-audio-files">2.2. Importing your audio files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#analyze-your-library">2.3. Analyze your library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-sound-input-and-output">2.4. Configuring sound input and output</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#output-options">2.4.1. Output Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#input-options">2.4.2. Input Options</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_topics.html">14. Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">2. </span>Getting Started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/getting_started.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="getting-started">
+<span id="getting-started-mixxx"></span><h1><span class="section-number">2. </span>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="opening-mixxx">
+<h2><span class="section-number">2.1. </span>Opening Mixxx<a class="headerlink" href="#opening-mixxx" title="Permalink to this headline">¶</a></h2>
+<p><img alt="logo" src="../_images/mixxx-icon.png" /> Once you’ve <a class="reference external" href="https://mixxx.org/download/">installed Mixxx</a>, start by
+opening Mixxx and importing your music to the Mixxx library.</p>
+<dl class="simple">
+<dt><strong>Windows</strong></dt><dd><p>Double-click the Mixxx icon on the Desktop. Alternatively, browse your Windows
+start menu and click the Mixxx icon, or perform a search for
+<code class="file docutils literal notranslate"><span class="pre">Mixxx.exe</span></code>.</p>
+</dd>
+<dt><strong>Mac OSX</strong></dt><dd><p>Double-click the Mixxx icon in the <code class="file docutils literal notranslate"><span class="pre">Applications</span></code> folder. Alternatively,
+drag the Mixxx icon to the dock and double-click it there or search for
+<strong class="command">mixxx</strong> in Spotlight.</p>
+</dd>
+<dt><strong>GNU/Linux</strong></dt><dd><p>Click the Mixxx icon in the applications menu or launcher of your desktop
+environment or perform a search for <code class="file docutils literal notranslate"><span class="pre">mixxx</span></code>. Alternatively type
+<strong class="command">mixxx</strong> into the terminal, then hit <kbd class="kbd docutils literal notranslate">Return</kbd>.
+If your <a class="reference internal" href="../glossary.html#term-audio-interface"><span class="xref std std-term">audio interface</span></a> is not accessible from Mixxx because it is
+used by other applications via PulseAudio, you may close and restart Mixxx
+using <strong class="command">pasuspender mixxx</strong>. See <a class="reference internal" href="appendix.html#appendix-command-line-options"><span class="std std-ref">Command line options</span></a>
+for an overview of Mixxx’s command line options.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="importing-your-audio-files">
+<span id="getting-started-import-audio-files"></span><h2><span class="section-number">2.2. </span>Importing your audio files<a class="headerlink" href="#importing-your-audio-files" title="Permalink to this headline">¶</a></h2>
+<div class="pretty-figures figure align-center" id="id1" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-1st-run-choose-library-directory-win.png"><img alt="Mixxx 1st run - Choose music library directory dialog" src="../_images/Mixxx-200-1st-run-choose-library-directory-win.png" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx running on Windows 10 - Choose music library directory dialog</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<p>The first time you run Mixxx, you are asked to select a directory where your
+music is stored. By default, the dialog points to a location where music files
+are typically held, but you can select any location on your computer.</p>
+<p>Click <span class="guilabel">Select Folder</span> and Mixxx will scan your music library.
+Depending on the size of your library this could take some time. All the
+supported music files Mixxx detects will be listed in the <a class="reference internal" href="library.html#library-tracks"><span class="std std-ref">Tracks - View and edit your whole collection</span></a>.</p>
+<p>If you want to refresh your library (for example because you added or moved
+files), you can do this with <span class="menuselection">Library ‣ Rescan Library</span> in
+the menu. If you want to rescan at every launch, select
+<span class="menuselection">Preferences ‣ Library ‣ Rescan on startup</span>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>On Windows 7 and 8 the import dialog points to your Windows
+“Music“ Library, a special-purpose virtual folder. You can
+<strong>not</strong> use these virtual folders. Select a regular folder
+instead, usually “My Music“, like pictured above.</p>
+</div>
+</div>
+<div class="section" id="analyze-your-library">
+<span id="getting-started-analyze-library"></span><h2><span class="section-number">2.3. </span>Analyze your library<a class="headerlink" href="#analyze-your-library" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/ic_library_prepare.png"><img alt="Library - Icon Analyze" class="align-middle" src="../_images/ic_library_prepare.png" style="width: 32px; height: 32px;" /></a> Mixxx automatically analyzes tracks the first time you load
+them in a deck, nevertheless it is recommended that you analyze them before
+playing live to ensure the beatgrids are correct. Furthermore, track
+analysis takes considerable CPU power and might cause skips in the audio —
+things you surely don’t need while performing.</p>
+<p>Once you have
+<a class="reference internal" href="#getting-started-import-audio-files"><span class="std std-ref">imported your music library</span></a>, press
+<span class="guilabel">OK</span> on the Preferences window. Go to the Analyze view on the left
+side panel of the library. This allows you to run <a class="reference internal" href="../glossary.html#term-beatgrid"><span class="xref std std-term">beatgrid</span></a>,
+<a class="reference internal" href="../glossary.html#term-key"><span class="xref std std-term">key</span></a>, and <a class="reference internal" href="../glossary.html#term-ReplayGain"><span class="xref std std-term">ReplayGain</span></a> detection on tracks in advance. While
+analyzing, the progress in percentage and total queue length are shown.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>For more information, go to <a class="reference internal" href="preferences.html#configuration-bpm-detection"><span class="std std-ref">Beat Detection</span></a>.</p>
+</div>
+</div>
+<div class="section" id="configuring-sound-input-and-output">
+<span id="getting-started-sound-io"></span><h2><span class="section-number">2.4. </span>Configuring sound input and output<a class="headerlink" href="#configuring-sound-input-and-output" title="Permalink to this headline">¶</a></h2>
+<p>Before you can start using Mixxx, you need to configure Mixxx to use your
+sound hardware in <span class="menuselection">Preferences ‣ Sound Hardware</span>. You do not
+need to configure all inputs and outputs.</p>
+<p>The <a class="reference internal" href="hardware.html#hardware"><span class="std std-ref">DJ Hardware</span></a> chapter explains different types of DJ hardware and how to
+set them up with the input and output options. For Mixxx to perform the best
+it can on your system, configure the other <a class="reference internal" href="preferences.html#preferences-sound-hardware"><span class="std std-ref">Sound Hardware</span></a>
+preferences in addition to the inputs and outputs.</p>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-200-Preferences-Soundhardware.png"><img alt="Mixxx Sound Hardware Preferences" src="../_images/Mixxx-200-Preferences-Soundhardware.png" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx Sound Hardware Preferences</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="output-options">
+<h3><span class="section-number">2.4.1. </span>Output Options<a class="headerlink" href="#output-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Internal mixing</strong>:</p>
+<p>Use these outputs if you are not using an <a class="reference internal" href="hardware.html#hardware-mixers"><span class="std std-ref">external hardware mixer</span></a>. If you are using a controller with a built-in audio
+interface, use these outputs.</p>
+<ul class="simple">
+<li><p><em>Master</em>: all decks, samplers, microphones, and auxiliary inputs mixed
+together. This output is sent to the speakers for the audience.</p></li>
+<li><p><em>Headphones</em>: all decks, samplers, microphones, and auxiliary inputs
+assigned to <a class="reference internal" href="../glossary.html#term-PFL"><span class="xref std std-term">pre-fader listening</span></a></p></li>
+<li><p><em>Booth</em>: same as Master output, but has a separate gain control</p></li>
+</ul>
+<p><strong>External mixing</strong>:</p>
+<ul class="simple">
+<li><p><em>Decks 1-4</em>: the individual unmixed decks to send to an external mixer</p></li>
+<li><p><em>Bus Left/Center/Right</em>: all decks, samplers, and auxiliary inputs
+assigned to each side of Mixxx’s crossfader</p></li>
+</ul>
+</div>
+<div class="section" id="input-options">
+<h3><span class="section-number">2.4.2. </span>Input Options<a class="headerlink" href="#input-options" title="Permalink to this headline">¶</a></h3>
+<p><strong>Internal mixing</strong>:</p>
+<p>Use these inputs if you are not using an external hardware mixer. If you are
+using a controller with a built-in audio interface, use these inputs.</p>
+<ul class="simple">
+<li><p><em>Microphone 1-4</em>: live microphone or musical instrument inputs</p></li>
+<li><p><em>Auxiliary 1-4</em>: other sound sources</p></li>
+</ul>
+<p><strong>External mixing</strong>:</p>
+<ul class="simple">
+<li><p><em>Record/Broadcast</em>: When this is configured, Mixxx will record and
+broadcast from this audio interface input instead of the internal master
+mix. If you have a microphone plugged into the mixer, do not configure the
+Microphone 1-4 inputs.</p></li>
+</ul>
+<p><strong>Either internal or external mixing</strong>:</p>
+<ul class="simple">
+<li><p><em>Vinyl Control 1-4</em>: timecode input from turntables or CDJs for
+manipulating decks 1-4</p></li>
+</ul>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="microphones.html#microphones"><span class="std std-ref">Using Microphones</span></a></p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="user_interface.html" class="btn btn-neutral float-right" title="3. An Overview of the Mixxx Interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="introduction.html" class="btn btn-neutral float-left" title="1. Introduction to Mixxx" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/getting_started.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/getting_started.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/getting_started.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/getting_started.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/getting_started.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/getting_started.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/getting_started.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/getting_started.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/getting_started.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/getting_started.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/getting_started.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/getting_started.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/getting_started.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/getting_started.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/getting_started.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/getting_started.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/getting_started.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/getting_started.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/getting_started.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/getting_started.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/getting_started.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/getting_started.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/getting_started.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/getting_started.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/getting_started.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/getting_started.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/getting_started.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/getting_started.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/getting_started.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

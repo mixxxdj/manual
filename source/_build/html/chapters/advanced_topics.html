@@ -1,0 +1,645 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>14. Advanced Topics &mdash; Mixxx User Manual</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/mixxx.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/widget-sidebar.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/widget-sidebar.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="15. Contributing to the Project" href="getting_involved.html" />
+    <link rel="prev" title="13. Preferences" href="preferences.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mixxx
+          
+
+          
+            
+            <img src="../_static/mixxx-icon-logo-symbolic.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction to Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">2. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user_interface.html">3. An Overview of the Mixxx Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="library.html">4. The Mixxx Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">5. DJ Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example_setups.html">6. Example Setups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="controlling_mixxx.html">7. Controlling Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vinyl_control.html">8. Vinyl Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="microphones.html">9. Using Microphones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="livebroadcasting.html">10. Live Broadcasting - Start your own Internet radio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">11. Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="djing_with_mixxx.html">12. DJing With Mixxx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preferences.html">13. Preferences</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">14. Advanced Topics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#adding-support-for-your-midi-hid-controller">14.1. Adding support for your MIDI/HID Controller</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#controller-wizard">14.1.1. Controller Wizard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#midi-scripting">14.1.2. MIDI Scripting</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#making-a-custom-keyboard-mapping">14.2. Making a Custom Keyboard Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#additional-effects-via-external-mixer-mode">14.3. Additional Effects via external Mixer Mode</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#effects-via-au-lab-on-macos">14.3.1. Effects via AU Lab on macOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#effects-via-jack-rack-on-gnu-linux">14.3.2. Effects via JACK Rack on GNU/Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deleting-your-library">14.4. Deleting Your Library</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">15. Contributing to the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">16. Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">17. Glossary of Terms</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mixxx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">14. </span>Advanced Topics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/mixxxdj/manual/blob/manual-2.2.x/source/chapters/advanced_topics.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="advanced-topics">
+<h1><span class="section-number">14. </span>Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="adding-support-for-your-midi-hid-controller">
+<span id="advanced-controller"></span><h2><span class="section-number">14.1. </span>Adding support for your MIDI/HID Controller<a class="headerlink" href="#adding-support-for-your-midi-hid-controller" title="Permalink to this headline">¶</a></h2>
+<p>With several dozens of DJ controllers supported out-of-the-box, Mixxx gives you
+comprehensive hardware control for your DJ mixes, see <a class="reference internal" href="controlling_mixxx.html#control-midi"><span class="std std-ref">Using MIDI/HID Controllers</span></a>.</p>
+<p>Support for additional devices can be added to Mixxx by creating a new preset
+file. This file tells Mixxx how to translate, or map, <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a>/<a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a>
+messages from a controller into commands that Mixxx understands.</p>
+<p>You can download and share custom controller presets in the
+<a class="reference external" href="https://mixxx.org/forums/viewforum.php?f=6">Mixxx User customizations forums</a>.</p>
+<div class="section" id="controller-wizard">
+<span id="advanced-controller-wizard"></span><h3><span class="section-number">14.1.1. </span>Controller Wizard<a class="headerlink" href="#controller-wizard" title="Permalink to this headline">¶</a></h3>
+<div class="pretty-figures figure align-center" id="id2" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-Controller-Learning-Wizard.png"><img alt="Mixxx Controller Wizard -  Mapping a control" src="../_images/Mixxx-111-Controller-Learning-Wizard.png" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">Mixxx Controller Wizard -  Mapping a control</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>By far, the easiest way to create a new MIDI preset is by using the Controller
+Wizard.</p>
+<ol class="arabic simple">
+<li><p>Connect your controller(s) to your computer</p></li>
+<li><p>Start Mixxx</p></li>
+<li><p>Go to <span class="menuselection">Preferences ‣ Controllers</span></p></li>
+<li><p>Select your device from the list of available devices on the left, and the
+right pane will change</p></li>
+<li><p>Activate the <span class="guilabel">Enabled</span> checkbox</p></li>
+<li><p>Click on <span class="guilabel">Learning Wizard</span> to open the selection dialog</p></li>
+<li><p>Click any control in the Mixxx <a class="reference internal" href="../glossary.html#term-GUI"><span class="xref std std-term">GUI</span></a></p></li>
+<li><p>Alternatively, click the <span class="guilabel">Choose Control</span> button and choose one
+from the selection list</p></li>
+<li><p>Push <span class="guilabel">Learn</span> and then move a control or push a button on your
+controller to map it.  You can also move a control without pushing the
+<span class="guilabel">Learn</span> button if you are learning many controls.</p></li>
+<li><p>If you are learning a button, just push it once.  If you are learning a knob
+or a slider, try to move it throughout its range.</p></li>
+<li><p>After Mixxx detects the control, you may click <span class="guilabel">Learn Another</span> or
+you can click on another button in the Mixxx <a class="reference internal" href="../glossary.html#term-GUI"><span class="xref std std-term">GUI</span></a> to learn another
+control.</p></li>
+<li><p>When you are finished mapping controls, click <span class="guilabel">Done</span></p></li>
+</ol>
+<p>There are also some advanced options in the Midi Wizard you may need to use:</p>
+<ul class="simple">
+<li><p>Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in
+when the knob in the <a class="reference internal" href="../glossary.html#term-GUI"><span class="xref std std-term">GUI</span></a> doesn’t match the physical knob. If you
+select this option, you won’t be able to perform super-fast motions as easily.
+(Recommended off)</p></li>
+<li><p>Invert: Use this option for controls that you want to work backwards from how
+they were detected.</p></li>
+<li><p>Switch Mode: Use this option on controllers that have controls that act like
+switches and emit one value on the first press, and a different value on the
+next press. (Think an actual hardware toggle switch, or a button that lights
+up on the first press and turns off on the second press).</p></li>
+<li><p>Jog Wheel / Select Knob:  Use this for knobs that don’t have a beginning or an
+end, but spin continuously.</p></li>
+</ul>
+<p>The Controller wizard saves the new preset to the following file paths:</p>
+<ul class="simple">
+<li><p>Linux: <code class="file docutils literal notranslate"><span class="pre">/home/&lt;username&gt;/.mixxx/controllers</span></code></p></li>
+<li><p>macOS: <code class="file docutils literal notranslate"><span class="pre">/Users/&lt;username&gt;/Library/Application\</span> <span class="pre">Support/Mixxx/controllers</span></code></p></li>
+<li><p>Windows: <code class="file docutils literal notranslate"><span class="pre">%LOCALAPPDATA%\Mixxx\controllers</span></code></p></li>
+</ul>
+<p>You can then modify the XML file it creates (or any of the ones that
+ship with Mixxx) if you’d like to fine-tune it or add more presets. For more
+information, go to
+<a class="reference external" href="https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format">https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format</a>.</p>
+<p>The Controller Wizard works only for <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a> devices. Currently you can’t
+map modifier (shift) keys and platter rotations. Use <a class="reference internal" href="#advanced-controller-midiscript"><span class="std std-ref">MIDI Scripting</span></a> instead.</p>
+</div>
+<div class="section" id="midi-scripting">
+<span id="advanced-controller-midiscript"></span><h3><span class="section-number">14.1.2. </span>MIDI Scripting<a class="headerlink" href="#midi-scripting" title="Permalink to this headline">¶</a></h3>
+<p>In order to support the advanced features of many <a class="reference internal" href="../glossary.html#term-MIDI"><span class="xref std std-term">MIDI</span></a>/<a class="reference internal" href="../glossary.html#term-HID"><span class="xref std std-term">HID</span></a>
+controllers, Mixxx offers what we call MIDI Scripting.</p>
+<p>It enables MIDI controls to be mapped to <a class="reference external" href="https://en.wikipedia.org/wiki/QtScript">QtScript</a> (aka Javascript/EMCAScript) functions
+stored in function library files, freeing Mixxx from a one-to-one MIDI mapping
+ideology. These user-created functions can then do anything desired with the
+MIDI event such as have a single controller button simultaneously affect
+two or more Mixxx properties (“controls”), adjust incoming control values to
+work better with Mixxx (scratching), display a complex LED sequence, or even
+send messages to text displays on the controller.</p>
+<p>For more information, go to <a class="reference external" href="https://mixxx.org/wiki/doku.php/midi_scripting">https://mixxx.org/wiki/doku.php/midi_scripting</a>
+and <a class="reference external" href="https://mixxx.org/wiki/doku.php/hid_mapping_format">https://mixxx.org/wiki/doku.php/hid_mapping_format</a>.</p>
+</div>
+</div>
+<div class="section" id="making-a-custom-keyboard-mapping">
+<span id="advanced-keyboard"></span><h2><span class="section-number">14.2. </span>Making a Custom Keyboard Mapping<a class="headerlink" href="#making-a-custom-keyboard-mapping" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference internal" href="appendix.html#appendix-keyboard"><span class="std std-ref">default keyboard mappings</span></a> are defined in a text
+file which can be found at the following location:</p>
+<ul class="simple">
+<li><p>Linux: <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/mixxx/keyboard/en_US.kbd.cfg</span></code></p></li>
+<li><p>macOS: <code class="file docutils literal notranslate"><span class="pre">/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg</span></code></p></li>
+<li><p>Windows: <code class="file docutils literal notranslate"><span class="pre">&lt;Mixxx</span> <span class="pre">installation</span> <span class="pre">directory&gt;\keyboard\en_US.kbd.cfg</span></code></p></li>
+</ul>
+<p>Depending on your system’s language settings, Mixxx might use a different
+file as default, e.g. <code class="file docutils literal notranslate"><span class="pre">de_DE.kbd.cfg</span></code> for German or <code class="file docutils literal notranslate"><span class="pre">es_ES.kbd.cfg</span></code>
+for Spanish.</p>
+<p>It is not recommended that you modify the system-wide keyboard mapping file
+because all your changes may be lost if you uninstall or upgrade Mixxx.
+Instead, copy the default mapping file to the following location:</p>
+<ul class="simple">
+<li><p>Linux: <code class="file docutils literal notranslate"><span class="pre">~/.mixxx/Custom.kbd.cfg</span></code></p></li>
+<li><p>macOS: <code class="file docutils literal notranslate"><span class="pre">~/Library/Application\</span> <span class="pre">Support/Mixxx/Custom.kbd.cfg</span></code></p></li>
+<li><p>Windows: <code class="file docutils literal notranslate"><span class="pre">%LOCALAPPDATA%\Mixxx\Custom.kbd.cfg</span></code></p></li>
+</ul>
+<p>Then edit this file and save the changes. On the next startup, Mixxx will check
+if <code class="file docutils literal notranslate"><span class="pre">Custom.kbd.cfg</span></code> is present and load that file instead of the default
+mapping file. This has the advantage that you can always revert back to the
+default mapping by deleting <code class="file docutils literal notranslate"><span class="pre">Custom.kbd.cfg</span></code>.</p>
+<p>For a list of controls that can be used in a keyboard mapping, see
+<a class="reference external" href="https://mixxx.org/wiki/doku.php/mixxxcontrols">https://mixxx.org/wiki/doku.php/mixxxcontrols</a>.</p>
+<p>You can download and share custom keyboard mappings in the
+<a class="reference external" href="https://mixxx.org/forums/viewforum.php?f=6">Mixxx User customizations forums</a>.</p>
+</div>
+<div class="section" id="additional-effects-via-external-mixer-mode">
+<span id="advanced-external-fx"></span><h2><span class="section-number">14.3. </span>Additional Effects via external Mixer Mode<a class="headerlink" href="#additional-effects-via-external-mixer-mode" title="Permalink to this headline">¶</a></h2>
+<p>Mixxx comes with a set of <a class="reference internal" href="effects.html#effects"><span class="std std-ref">native effects</span></a>.
+Additionally, using the <a class="reference internal" href="introduction.html#intro-how-mixxx-works"><span class="std std-ref">external mixer mode</span></a> you
+can route each deck directly to 3rd party effect hosts.</p>
+<p>The following examples are only intended to encourage experimentation, they are
+not definitive guidance.</p>
+<div class="section" id="effects-via-au-lab-on-macos">
+<h3><span class="section-number">14.3.1. </span>Effects via AU Lab on macOS<a class="headerlink" href="#effects-via-au-lab-on-macos" title="Permalink to this headline">¶</a></h3>
+<div class="pretty-figures figure align-center" id="id3" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-external-fx-aulab-setup.png"><img alt="The Au Lab routing for external effects" src="../_images/Mixxx-111-external-fx-aulab-setup.png" style="width: 90%;" /></a>
+<p class="caption"><span class="caption-text">The Au Lab routing for external effects on macOS</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>On macOS there is a simple and free way to give Mixxx access to the
+collection of AU/VST/MAS plugins that are installed on your system.</p>
+<ul class="simple">
+<li><p>Install the free <a class="reference external" href="https://github.com/RogueAmoeba/Soundflower-Original/releases/">Soundflower</a>,
+a system extension for inter-application audio routing.</p></li>
+<li><p>Install the free digital audio mixing application
+<a class="reference external" href="https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip">AU Lab</a>.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>macOS 10.15 (Catalina) introduces additional restrictions on running
+non-Apple software. Make sure to grant permission in
+<cite>System Preferences –&gt; Security &amp; Privacy –&gt; Microphone –&gt; AU Lab</cite>.</p>
+</div>
+<p>Alternatively, try <a class="reference external" href="https://github.com/ExistentialAudio/BlackHole">Blackhole</a>,
+a modern virtual audio driver that allows applications to pass audio to other
+applications with zero additional latency, and
+<a class="reference external" href="http://ju-x.com/hostingau.html">Hosting AU</a>, a free micro-sized
+<a class="reference internal" href="../glossary.html#term-DAW"><span class="xref std std-term">DAW</span></a> that hosts Audio Unit instruments and effect plugins.</p>
+<p><strong>In Mixxx</strong></p>
+<ul class="simple">
+<li><p>Go to <span class="menuselection">Preferences ‣ Sound Hardware‣ Output</span></p></li>
+<li><p>Select for <span class="guilabel">Deck 1</span> the <span class="guilabel">Soundflower 16</span> device with
+<span class="guilabel">Channel 1-2</span></p></li>
+<li><p>Select for <span class="guilabel">Deck 2</span> the <span class="guilabel">Soundflower 16</span> device with
+<span class="guilabel">Channel 3-4</span></p></li>
+<li><p>Click the <span class="guilabel">Apply</span> button</p></li>
+</ul>
+<p><strong>In AU Lab</strong></p>
+<ul class="simple">
+<li><p>Click on the <span class="guilabel">+</span> button to create a new configuration</p></li>
+<li><p>Add 2 stereo input tracks in the <span class="guilabel">Audio Input Tab</span></p></li>
+<li><p>Add 2 stereo output tracks in the <span class="guilabel">Audio Output Tab</span></p></li>
+<li><p>Click <span class="guilabel">OK</span></p></li>
+<li><p>Change the audio input device to <span class="guilabel">Soundflower 16</span></p></li>
+<li><p>Change the audio output device for example to <span class="guilabel">Built-in Output</span></p></li>
+<li><p>Click <span class="guilabel">Create document</span></p></li>
+<li><p>In the <span class="guilabel">Output 1</span> channel, select an effect from the drop-down
+menu, for example <span class="guilabel">Apple &gt; AUCompressor</span></p></li>
+</ul>
+<p>The effect should now react if you play a track in Mixxx.</p>
+</div>
+<div class="section" id="effects-via-jack-rack-on-gnu-linux">
+<h3><span class="section-number">14.3.2. </span>Effects via JACK Rack on GNU/Linux<a class="headerlink" href="#effects-via-jack-rack-on-gnu-linux" title="Permalink to this headline">¶</a></h3>
+<div class="pretty-figures figure align-center" id="id4" style="width: 100%">
+<a class="reference internal image-reference" href="../_images/Mixxx-111-external-fx-jackrack-setup.png"><img alt="The Jack routing for external effects" src="../_images/Mixxx-111-external-fx-jackrack-setup.png" style="width: 90%;" /></a>
+<p class="caption"><span class="caption-text">The Jack routing for external effects on GNU/Linux</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>Use <a class="reference external" href="https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit">Jack</a> to route
+each deck directly through <a class="reference external" href="http://jack-rack.sourceforge.net/">JACK Rack</a>
+effect racks, or for more control you can use Ardour (or another <a class="reference internal" href="../glossary.html#term-DAW"><span class="xref std std-term">DAW</span></a>)
+using sends for effects. This gives Mixxx access to the extensive collection of
+<a class="reference internal" href="../glossary.html#term-LADSPA"><span class="xref std std-term">LADSPA</span></a> plugins.</p>
+<p>Make sure the correct multichannel audio interface has been selected in Jack
+(Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
+ports as <span class="guilabel">Portaudio</span>.</p>
+</div>
+</div>
+<div class="section" id="deleting-your-library">
+<h2><span class="section-number">14.4. </span>Deleting Your Library<a class="headerlink" href="#deleting-your-library" title="Permalink to this headline">¶</a></h2>
+<p>The library file is stored in the following places depending on your
+<a class="reference internal" href="../glossary.html#term-operating-system"><span class="xref std std-term">operating system</span></a>:</p>
+<dl>
+<dt><strong>Windows</strong></dt><dd><p>The Mixxx library is stored in the
+<code class="file docutils literal notranslate"><span class="pre">%USERPROFILE%\Local</span> <span class="pre">Settings\Application</span> <span class="pre">Data\Mixxx\</span></code> folder.
+To delete your library on Windows, delete the <code class="file docutils literal notranslate"><span class="pre">mixxxdb.sqlite</span></code> file in
+this folder.</p>
+</dd>
+<dt><strong>macOS</strong></dt><dd><p>The Mixxx library is stored in the <code class="file docutils literal notranslate"><span class="pre">Library/Application</span> <span class="pre">Support/Mixxx</span></code>
+folder in your home directory. To delete your library on macOS type the
+following command into a terminal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">~/</span><span class="n">Library</span><span class="o">/</span><span class="n">Application</span>\ <span class="n">Support</span><span class="o">/</span><span class="n">Mixxx</span><span class="o">/</span><span class="n">mixxxdb</span><span class="o">.</span><span class="n">sqlite</span>
+</pre></div>
+</div>
+</dd>
+<dt><strong>GNU/Linux</strong></dt><dd><p>The Mixxx library is stored in the <code class="docutils literal notranslate"><span class="pre">.mixxx</span></code> folder in your home directory.
+To delete your library on GNU/Linux type the following command into a terminal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">~/.</span><span class="n">mixxx</span><span class="o">/</span><span class="n">mixxxdb</span><span class="o">.</span><span class="n">sqlite</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Deleting your library will lose all of your <a class="reference internal" href="../glossary.html#term-metadata"><span class="xref std std-term">metadata</span></a>. This
+includes saved hotcues, loops, comments, ratings, and other library
+related metadata. Only delete your library if you are fine with
+losing these.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="getting_involved.html" class="btn btn-neutral float-right" title="15. Contributing to the Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="preferences.html" class="btn btn-neutral float-left" title="13. Preferences" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2011-2020, The Mixxx Development Team
+      <span class="lastupdated">
+        Last updated on Oct 10, 2020.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-widget-sidebar shift-up" aria-label="sidebar"><span class="rst-widget-header">
+  <span class="fa fa-download rst-widget-header-left"> Download</span>
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Offline versions of this manual</dt>
+    <dd>
+      <a href="../Mixxx-Manual.pdf">
+        <span class="fa fa-file-pdf-o"></span> PDF
+      </a>
+    </dd>
+  </dl>
+</div><span class="rst-widget-header">
+  <span class="fa fa-globe rst-widget-header-left"> Languages</span>
+  
+  <span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-widget-body">
+  <dl>
+    <dt>Read this page in another language</dt>
+      <dd>
+        <a href="../../id/chapters/advanced_topics.html">
+         Bahasa Indonesia
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ca/chapters/advanced_topics.html">
+         Català
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de/chapters/advanced_topics.html">
+         Deutsch
+        </a>
+      </dd>
+      <dd>
+        <a href="../../de-DE/chapters/advanced_topics.html">
+         Deutsch (Deutschland)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en/chapters/advanced_topics.html">
+         English
+        </a>
+      </dd>
+      <dd>
+        <a href="../../en-GB/chapters/advanced_topics.html">
+         English (UK)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es/chapters/advanced_topics.html">
+         Español
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-ES/chapters/advanced_topics.html">
+         Español (España)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../es-MX/chapters/advanced_topics.html">
+         Español (Mexico)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fr/chapters/advanced_topics.html">
+         Français
+        </a>
+      </dd>
+      <dd>
+        <a href="../../gl/chapters/advanced_topics.html">
+         Galego
+        </a>
+      </dd>
+      <dd>
+        <a href="../../it/chapters/advanced_topics.html">
+         Italiano
+        </a>
+      </dd>
+      <dd>
+        <a href="../../nl/chapters/advanced_topics.html">
+         Nederlands
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pl/chapters/advanced_topics.html">
+         Polszczyzna
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt/chapters/advanced_topics.html">
+         Português
+        </a>
+      </dd>
+      <dd>
+        <a href="../../pt-BR/chapters/advanced_topics.html">
+         Português (Brasil)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ro/chapters/advanced_topics.html">
+         Română
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sq/chapters/advanced_topics.html">
+         Shqip
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sl/chapters/advanced_topics.html">
+         Slovenščina
+        </a>
+      </dd>
+      <dd>
+        <a href="../../fi/chapters/advanced_topics.html">
+         Suomi
+        </a>
+      </dd>
+      <dd>
+        <a href="../../tr/chapters/advanced_topics.html">
+         Türkçe
+        </a>
+      </dd>
+      <dd>
+        <a href="../../cs/chapters/advanced_topics.html">
+         Čeština
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru/chapters/advanced_topics.html">
+         Русский
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ru-RU/chapters/advanced_topics.html">
+         Русский (Росси́я)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../sr/chapters/advanced_topics.html">
+         Српски Језик
+        </a>
+      </dd>
+      <dd>
+        <a href="../../kn/chapters/advanced_topics.html">
+         ಕನ್ನಡ
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-CN/chapters/advanced_topics.html">
+         中文 (中国)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../zh-TW/chapters/advanced_topics.html">
+         中文 (臺灣)
+        </a>
+      </dd>
+      <dd>
+        <a href="../../ja-JP/chapters/advanced_topics.html">
+         日本語
+        </a>
+      </dd>
+  </dl>
+</div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
