@@ -8,16 +8,16 @@ Glossary of Terms
      Headphone cueing, or just cueing, is listening to the next track you would
      like to mix in your headphones. The audience will not hear what you are
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
-     The shortcut for headphone cueing in Deck 1 is T while for Deck 2 the shortcut is Y. 
+     The shortcut for headphone cueing in Deck1 is T while for Deck 2 the shortcut is Y.
+
+   shortcuts
+     Shortcuts let you work more efficiently. This manual shows some shortcuts for 
+     accessing Mixxx functions with an English keyboard layout. Depending on your language
+     settings the defaults may be different.
 
    crossfader
      The crossfader is a slider that determines how much each deck of audio
      contributes to the :term:`master output`.
-
-   shortcut
-     Shortcut is an alternative faster way of achieving some Mixxx functions. This is mostly with 
-     keyboard Keys. The default shortcut :ref:`here<appendix-keyboard>` is for English keyboard layout. 
-     Depending on your language settings the defaults may be different.
 
    master output
      The master output is the main audio output. It is what your audience hears.
