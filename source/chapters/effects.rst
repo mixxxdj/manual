@@ -61,9 +61,6 @@ in the unit, there will be comb filtering which is probably not desired. For
 more background information, read `Equalizers and Phase Shift
 <http://ethanwiner.com/EQPhase.html>`_.
 
-The shortcut to quickly activate/disable any effect unit for Deck 1 is 5 and 0 for Deck 2 
-in an English keyboard layout.
-
 Effect Parameters & Metaknobs
 =============================
 Every effect within an :ref:`Effect Unit <effects-effect-unit>` has its own set

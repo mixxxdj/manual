@@ -47,6 +47,7 @@ Table of Contents
    chapters/effects
    chapters/djing_with_mixxx
    chapters/preferences
+   chapters/import_from_serato
    chapters/advanced_topics
    chapters/getting_involved
    chapters/appendix
