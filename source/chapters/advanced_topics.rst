@@ -2384,7 +2384,6 @@ The ``[Library]`` controls
 
      ===== ================== ============ ======== ===== ======
      Index Description        Library      Playlist Crate Browse
-
      ===== ================== ============ ======== ===== ======
      0     Artist             X            X        X     X
      1     Title              X            X        X     X
