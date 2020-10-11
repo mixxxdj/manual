@@ -262,7 +262,7 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
    Indicator that the master mix is processed
 
    :range: binary
-   :feedback: n/a
+   :feedback: N/A
 
    .. versionadded:: v2.0.0
 
@@ -272,7 +272,7 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
    Adjusts the gain for the master output as well as recording and broadcasting signal
 
    :range: 0.0..1.0..5.0
-   :feedback: Master Vol knob
+   :feedback: Master volume knob
 
    .. versionadded:: v2.0.0
 
@@ -282,7 +282,7 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
    Indicator that the headphone mix is processed
 
    :range: binary
-   :feedback: n/a
+   :feedback: N/A
 
    .. versionadded:: v2.0.0
 
@@ -292,7 +292,7 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
    Adjusts the headphone output gain
 
    :range: 0.0..1.0..5.0
-   :feedback: Head Vol knob
+   :feedback: Headphone volume knob
 
    .. versionadded:: v2.0.0
 
@@ -319,7 +319,7 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
 
    Latency setting (sound buffer size) in milliseconds (default 64)
 
-   :range: absolute value
+   :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
 
 
@@ -451,7 +451,7 @@ decks in Mixxx.
    Fast rewind (REW)
 
    :range: binary
-   :feedback: \< button
+   :feedback: < button
 
 
 .. mixxx:control:: [ChannelN],beat_active
@@ -656,12 +656,11 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],beatsync
 
-   **changed behavior** Syncs the BPM and phase (depending on quantize) to that of the other track (if BPM is detected on both)
-
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value
 
    .. versionchanged:: v1.10.0
+      Syncs the BPM and phase (depending on quantize) to that of the other track (if BPM is detected on both).
 
 
 .. mixxx:control:: [ChannelN],beatsync_phase
@@ -757,7 +756,7 @@ decks in Mixxx.
    Cue button, always in CDJ mode
 
    :range: binary
-   :feedback: n/a
+   :feedback: N/A
 
    .. versionadded:: v1.10.0
 
@@ -767,7 +766,7 @@ decks in Mixxx.
    CUP button, Go to cue point and play after release. If stopped, sets a cue point at the current location.
 
    :range: binary
-   :feedback: n/a
+   :feedback: N/A
 
    .. versionadded:: v2.1.0
 
@@ -832,7 +831,7 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],end_of_track
 
-   Switches to "1" if the play osition is within the 'end' range defined in Preferences \> Waveforms \> "End of track warning"
+   Switches to "1" if the play osition is within the 'end' range defined in Preferences > Waveforms > "End of track warning"
 
    :range: binary, read-only
    :feedback: Waveform and Overview widgets show a flashing border
@@ -861,7 +860,7 @@ decks in Mixxx.
    Fast forward (FF)
 
    :range: binary
-   :feedback: \> button
+   :feedback: > button
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_activate
@@ -1122,12 +1121,13 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],loop_double
 
-   Doubles beatloop\_size. If beatloop\_size equals the size of the loop, the loop is resized. \[89\]
+   Doubles beatloop_size. If beatloop_size equals the size of the loop, the loop is resized.
 
    :range: binary
    :feedback: beatloop\_size spinbox changes
 
    .. versionadded:: v1.10.0
+   .. versionchanged:: v2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_enabled
@@ -1152,22 +1152,24 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],loop_halve
 
-   Halves beatloop\_size. If beatloop\_size equals the size of the loop, the loop is resized. \[93\]
+   Halves beatloop_size. If beatloop\_size equals the size of the loop, the loop is resized.
 
    :range: binary
    :feedback: beatloop\_size spinbox changes
 
    .. versionadded:: v1.10.0
+   .. versionchanged:: v2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_in
 
-   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size. \[95\]
+   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
 
    :range: binary
    :feedback: Loop-in marker changes on waveform.
 
    .. versionadded:: v1.8.0
+   .. versionchanged:: v2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_in_goto
@@ -1182,12 +1184,13 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],loop_out
 
-   If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size. \[98\]
+   If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
 
    :range: binary
    :feedback: Loop-out marker changes on waveform.
 
    .. versionadded:: v1.8.0
+   .. versionchanged:: v2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_out_goto
@@ -1252,9 +1255,16 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],orientation
 
-   Crossfader assignment. 0 = left side of crossfader, 1 = center (not affected by crossfader), 2 = right side of crossfader
+   Crossfader assignment.
 
-   :range: 0-2
+   :range:
+      ===== ===================================
+      Value Meaning
+      ===== ===================================
+      0     Left side of crossfader
+      1     Center (not affected by crossfader)
+      2     Right side of crossfader
+      ===== ===================================
    :feedback: N/A
 
    .. versionadded:: v1.9.0
@@ -1438,9 +1448,9 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],play
 
-   Toggles playing or pausing the track. Feedback: 1.0 if track is playing or play command is adopted and track will be played after loading
+   Toggles playing or pausing the track.
 
-   :range: binary
+   :range: binary, 1.0 if track is playing or play command is adopted and track will be played after loading
    :feedback: Play/pause button
 
 
@@ -1466,7 +1476,7 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],playposition
 
-   Sets the absolute position in the track. The Range is -0.14 to 1.14 (0 = beginning -\> Midi 14, 1 = end -\> Midi 114)
+   Sets the absolute position in the track. The Range is -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
 
    :range: default
    :feedback: Waveform
@@ -1503,7 +1513,6 @@ decks in Mixxx.
    Indicates orientation of speed slider.
 
    :range: -1 or 1
-   :feedback: ?
 
 
 .. mixxx:control:: [ChannelN],rate_perm_down
@@ -1588,7 +1597,6 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],rateEngine
 
-
    Actual rate (used in visuals, not for control)
 
 
@@ -1650,7 +1658,7 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],scratch2
 
-   Affects **absolute** play speed & direction whether currently playing or not when *scratch2\_enabled* is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -1660,7 +1668,7 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],scratch2_enable
 
-   Takes over play speed & direction for *scratch2*.
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
    :range: binary
    :feedback: Waveform
@@ -1680,20 +1688,20 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],stars_up
 
-   Increase the rating of the currently loaded track (if the skin has star widgets in the decks section)
+   Increase the rating of the currently loaded track (if the skin has star widgets in the decks section).
 
    :range: binary
-   :feedback: Star count is increased in the deck's star widget and in the library table
+   :feedback: Star count is increased in the deck's star widget and in the library table.
 
    .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],stars_down
 
-   Decrease the rating of the currently loaded track (if the skin has star widgets in the decks section)
+   Decrease the rating of the currently loaded track (if the skin has star widgets in the decks section).
 
    :range: binary
-   :feedback: Star count is decreased in the deck's star widget and in the library table
+   :feedback: Star count is decreased in the deck's star widget and in the library table.
 
    .. versionadded:: v2.3.0
 
@@ -1721,7 +1729,7 @@ decks in Mixxx.
    Seeks a player to the start and then stops it.
 
    :range: binary
-   :feedback: Deck stops at the beginning
+   :feedback: Deck stops at the beginning.
 
    .. versionadded:: v1.10.0
 
@@ -1731,7 +1739,7 @@ decks in Mixxx.
    Stops a player.
 
    :range: binary
-   :feedback: Pause Button. Deck pauses at the current position
+   :feedback: Pause Button. Deck pauses at the current position.
 
    .. versionadded:: v1.10.0
 
@@ -1748,20 +1756,28 @@ decks in Mixxx.
 
 .. mixxx:control:: [ChannelN],sync_master
 
-   Sets deck as master clock. (NOTE: Through version 2.3 this button just enables master sync mode (similar to sync\_enabled), it does not actually guarantee the deck will be master. This will be fixed in a future version)
+   Sets deck as master clock.
 
    :range: binary
    :feedback: SYNC button will light up and stay lit & Speed slider snaps to the appropriate value. SYNC button stays lit and slider adjustments are linked on all decks that have SYNC enabled.
 
    .. versionadded:: v2.0.0
+   .. versionchanged:: v2.3.0
+      This button just enables master sync mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
 
 
 .. mixxx:control:: [ChannelN],sync_mode
 
    .. versionadded:: v2.0.0
 
-   :range: enumeration with ``SYNC_NONE`` = 0; ``SYNC_FOLLOWER`` = 1 and ``SYNC_MASTER`` = 2.
-
+   :range:
+      ===== =============================
+      Value Meaning
+      ===== =============================
+      0     Sync disabled for that deck
+      1     Deck is sync follower
+      1     Deck is sync leader
+      ===== =============================
 
 .. mixxx:control:: [ChannelN],sync_key
 
@@ -1797,7 +1813,7 @@ decks in Mixxx.
    Sample rate of the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: n/a
+   :feedback: N/A
 
    .. versionadded:: v1.9.0
 
@@ -1807,7 +1823,7 @@ decks in Mixxx.
    Number of sound samples in the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: n/a
+   :feedback: N/A
 
 
 .. mixxx:control:: [ChannelN],volume
@@ -1815,7 +1831,7 @@ decks in Mixxx.
    Adjusts the channel volume fader
 
    :range: default
-   :feedback: VOL fader
+   :feedback: Deck volume fader
 
 
 .. mixxx:control:: [ChannelN],mute
@@ -1842,17 +1858,33 @@ decks in Mixxx.
 
    Determines how cue points are treated in vinyl control Relative mode
 
-   :range: 0.0-2.0
-   :feedback: Off - cue points ignored; One Cue - If needle is dropped after the cue point, track will seek to that cue point; hot cue - track will seek to nearest previous hot cue point
+   :range:
+      ===== =============================
+      Value Meaning
+      ===== =============================
+      0     Cue points ignored
+      1     One Cue - If needle is dropped after the cue point, track will seek to that cue point
+      2     Hot Cue - Track will seek to nearest previous hot cue point
+      ===== =============================
 
    .. versionadded:: v1.10.0
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_mode
 
-   Determines how vinyl control interprets needle information: absolute mode - track position equals needle position and speed; relative mode - track speed equals needle speed regardless of needle position; constant mode - track speed equals last known-steady speed regardless of needle input
+   Determines how vinyl control interprets needle information. absolute mode - track position equals needle position and speed; relative mode - track speed equals needle speed regardless of needle position; constant mode - track speed equals last known-steady speed regardless of needle input
 
-   :range: 0.0-2.0
+   :range:
+      ===== =============
+      Value Meaning
+      ===== =============
+      0     Absolute Mode
+      1     Relative Mode
+      2     Constant Mode
+      ===== =============
+
+      See :ref:`Control Mode <vinyl-control-modes>` for details.
+
    :feedback: 3-way button indicates status
 
    .. versionadded:: v1.10.0
@@ -2047,9 +2079,16 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
 
 .. mixxx:control:: [MicrophoneN],orientation
 
-   Set microphone orientation, 0 = left side of crossfader, 1 = center, 2 = right side of crossfader. Default is center.
+   Set microphone orientation,
 
-   :range: 0-2
+   :range:
+      ===== ===================================
+      Value Meaning
+      ===== ===================================
+      0     Left side of crossfader
+      1     Center (not affected by crossfader)
+      2     Right side of crossfader
+      ===== ===================================
    :feedback: N/A
 
    .. versionadded:: v1.10.0
@@ -2128,7 +2167,14 @@ The ``[Recording]`` controls
 
    Indicates whether Mixxx is currently recording.
 
-   :range: 0-2, where 0 = recording stopped, 1 = initialize recording and 2 = recording active.
+   :range:
+      ===== ====================
+      Value Meaning
+      ===== ====================
+      0     Recording Stopped
+      1     Initialize Recording
+      2     Recording Active
+      ===== ====================
    :feedback: Recording icon
 
 
@@ -2380,10 +2426,9 @@ The ``[Library]`` controls
 
    Indicates the sorting column the track table
 
-   :range: See table below
-
+   :range:
      ===== ================== ============ ======== ===== ======
-     Index Description        Library      Playlist Crate Browse
+     Value Description        Library      Playlist Crate Browse
      ===== ================== ============ ======== ===== ======
      0     Artist             X            X        X     X
      1     Title              X            X        X     X
