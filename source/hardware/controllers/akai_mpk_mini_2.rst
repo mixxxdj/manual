@@ -1,4 +1,4 @@
-AKAI MPK Mini mkII
+Akai MPK Mini mkII
 ===================
 
 The *Akai MPK Mini mkII* is a funny keyboard controller for musicians.
