@@ -9,7 +9,7 @@ The *Akai APC Mini* is a controller for a 64 Samplers deck.
 Mapping description
 -------------------
 
--  The 64 pads are mapped directly to the 64 Samplers available in the extended skins, if the Skin has less Samplers, the non matching buttons will simply not work.
+-  The 64 pads are mapped directly to the 64 samplers available in the extended skins. If the skin has less samplers, the corresponding buttons will simply not work.
 -  All buttons light up in yellow when a sample is loaded in the corresponding slot. 
 -  When pressed and while playing, they will linght green.
 -  When stopped, they will light in red.
