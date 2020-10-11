@@ -17,7 +17,7 @@ Mapping description
 -  The 8 knobs are attached to the controls of the selected effect, in order left-right, top-bottom.
 
 Experiments with Samplers and Velocity
--------------------
+--------------------------------------
 
 The main keyboard supports the pressure velocity, this is mapped to the pregain of the attached sample, so different playing styles can be applied, even if only approximated.
 If you map the Grand Piano notes to all Samplers, you can actually play a Grand Piano on top of whatever is playing on the decs.
