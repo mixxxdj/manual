@@ -1,4 +1,4 @@
-AKAI APC Mini
+Akai APC Mini
 ===================
 
 The *AKAI APC Mini* is a controller for a 64 Samplers deck.
