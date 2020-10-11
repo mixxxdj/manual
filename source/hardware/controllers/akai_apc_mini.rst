@@ -10,7 +10,7 @@ Mapping description
 -------------------
 
 -  The 64 pads are mapped directly to the 64 Samplers available in the extended skins, if the Skin has less Samplers, the non matching buttons will simply not work.
--  All buttons lights up in yellow when a sample is configured in the corresponding slot
+-  All buttons light up in yellow when a sample is loaded in the corresponding slot. 
 -  When pressed and while playing, they will linght green.
 -  When stopped, they will light in red.
 -  The sliders below the buttons are mapped to the pregain control of the first two rows of samplers, that is:
