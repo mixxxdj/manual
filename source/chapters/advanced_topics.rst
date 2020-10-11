@@ -124,107 +124,20 @@ JavaScript files, so you can not do, for example:
 
    engine.setValue('MyController', 'keylock_toggle')
 
-.. mixxx:control:: [Various],*_up
-
-   Increases the value
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,rate\_perm\_up" sets the speed one step higher (4 % default)
-   :noindexentry:
-
-
-.. mixxx:control:: [Various],*_down
-
-   Decreases the value
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,rate\_perm\_down" sets the speed one step lower (4 % default)
-   :noindexentry:
-
-
-.. mixxx:control:: [Various],*_up_small
-
-   Increases the value by smaller step
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,rate\_perm\_up\_small" sets the speed one small step higher (1 % default)
-   :noindexentry:
-
-
-.. mixxx:control:: [Various],*_down_small
-
-   Decreases the value by smaller step
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,rate\_perm\_down\_small" sets the speed one small step lower (1 % default)
-   :noindexentry:
-
-
-.. mixxx:control:: [Various],*_set_one
-
-   Sets the value to 1.0
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,volume\_set\_one" sets the channel volume to full
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
-
-.. mixxx:control:: [Various],*_set_minus_one
-
-   Sets the value to -1.0
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,volume\_set\_minus\_one" sets the channel volume to zero
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
-
-.. mixxx:control:: [Various],*_set_default
-
-   Sets the control to its default
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,waveform\_zoom\_set\_default" return to default waveform zoom level
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
-
-.. mixxx:control:: [Various],*_set_zero
-
-   Sets the value to 0.0
-
-   :range: default
-   :feedback: e.g. "`[Master]`,crossfader\_set\_zero" put the crossfader in the middle again
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
-
-.. mixxx:control:: [Various],*_toggle
-
-   Sets the value to 0.0 if the value was \> 0.0, and to 1.0 if the value was 0.0
-
-   :range: default
-   :feedback: e.g. "`[Channel*N*]`,volume\_toggle" will cut off/on a track while you're playing
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
-
-.. mixxx:control:: [Various],*_minus_toggle
-
-   Sets the value to -1.0 if the value was \> -1.0, and to 1.0 if the value was -1.0
-
-   :range: default
-   :feedback: e.g. "`[Master]`,crossfader\_minus\_toggle" can tilt the crossfader from left to right
-   :noindexentry:
-
-   .. versionadded:: v1.11.0
-
+================== ============================================================
+Control Suffix     Description
+================== ============================================================
+``_up``            Increases the value, e.g. :mixxx:coref:`[ChannelN],rate_perm_up` sets the speed one step higher (4 % default)
+``_down``          Decreases the value, sets the speed one step lower (4 % default)
+``_up_small``      Increases the value by smaller step, sets the speed one small step higher (1 % default)
+``_down_small``    Decreases the value by smaller step, sets the speed one small step lower (1 % default)
+``_set_one``       Sets the value to 1.0, sets the channel volume to full
+``_set_minus_one`` Sets the value to -1.0, sets the channel volume to zero
+``_set_default``   Sets the control to its default, return to default waveform zoom level
+``_set_zero``      Sets the value to 0.0, put the crossfader in the middle again
+``_toggle``        Sets the value to 0.0 if the value was > 0.0, and to 1.0 if the value was 0.0, will cut off/on a track while you're playing
+``_minus_toggle``  Sets the value to -1.0 if the value was > -1.0, and to 1.0 if the value was -1.0, can tilt the crossfader from left to right
+================== ============================================================
 
 
 The ``[Master]`` group
