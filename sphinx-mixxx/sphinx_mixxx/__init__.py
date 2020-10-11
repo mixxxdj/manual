@@ -1,0 +1,1 @@
+from .mixxx import setup

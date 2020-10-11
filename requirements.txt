@@ -5,3 +5,4 @@ markupsafe
 transifex-client
 sphinx-rtd-theme==0.4.3
 sphinx-multiversion==0.2.1
+./sphinx-mixxx
