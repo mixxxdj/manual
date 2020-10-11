@@ -2,7 +2,7 @@ AKAI MPK Mini mkII
 ===================
 
 The *Akai MPK Mini mkII* is a funny keyboard controller for musicians.
-This device is not really conceived for DJing but this adaptation can be funny.
+This device is not really conceived for DJing but could be useful for radio broadcasting setups. 
 
 -  `Manufacturer’s product
    page <https://www.akaipro.com/mpk-mini-mkii>`__
