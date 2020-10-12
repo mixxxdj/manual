@@ -49,7 +49,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-Track-Information -display.png
+.. figure:: ../_static/Mixxx-200-Deere-track-info.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -417,7 +417,7 @@ Vinyl Control Mode and Cueing controls
 
 .. figure:: ../_static/Mixxx-200-Deere-Vinyl-Control-Mode-and-cueing-options.png
    :align: center
-   :width: 70%
+   :width: 20%
    :figwidth: 100%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
@@ -603,7 +603,7 @@ Hotcue Controls
 
 .. figure:: ../_static/Mixxx-200-Deere-hot-cue-controls.png
    :align: center
-   :width: 54px
+   :width: 59px
    :figwidth: 100%
    :alt: The hotcue controls of the deck
    :figclass: pretty-figures
@@ -672,7 +672,7 @@ The Mixer Section
 
 .. figure:: ../_static/Mixxx-200-Deere-The-Mixer-Section.png
    :align: center
-   :width: 442px
+   :width: 430px
    :figwidth: 100%
    :alt: The mixer section
    :figclass: pretty-figures
@@ -712,7 +712,7 @@ Section Expansion Buttons
 
 .. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-top.png
    :align: center
-   :width: 448px
+   :width: 435px
    :figwidth: 100%
    :alt: The section expansion buttons
    :figclass: pretty-figures
@@ -721,7 +721,7 @@ Section Expansion Buttons
 
    .. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-skin-settings.png
       :align: center
-      :width: 448px
+      :width: 220px
       :figwidth: 100%
       :alt: The section expansion buttons
       :figclass: pretty-figures
@@ -833,7 +833,7 @@ Headphone and Master Mix Controls
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/Mixxx-200-Deere Headphone-button.png
+.. figure:: ../_static/Mixxx-200-Deere-Headphone-button.png
    :align: center
    :width: 321px
    :figwidth: 100%
@@ -867,9 +867,9 @@ Equalizers and Gain Knobs
 -------------------------
 
 .. figure:: ../_static/Mixxx-200-Deere-gain-knob.png
-   :align: right
-   :width: 77px
-   :figwidth: 100px
+   :align: center
+   :width: 300px
+   :figwidth: 150px
    :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
 
@@ -950,7 +950,7 @@ The Sampler Section
 
 .. figure:: ../_static/Mixxx-200-Deere-The-Sampler-Section.png
    :align: center
-   :width: 355px
+   :width: 170px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures

@@ -10,18 +10,18 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/Mixxx-200-Latenight.png
+.. figure:: ../_static/Mixxx-200-Deere.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: The Mixxx interface - Latenight skin
+   :alt: The Mixxx interface - Deere skin
    :figclass: pretty-figures
 
-   The Mixxx interface - Latenight skin
+   The Mixxx interface - Deere skin
 
-This is the Latenight skin. It is the default skin supplied with Mixxx. There
+This is the Deere skin. It is the default skin supplied with Mixxx. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Latenight only.
+to figure out which one you prefer. This section will focus on Deere only.
 
 .. _interface-decks:
 
@@ -32,7 +32,7 @@ The Deck Sections
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck.png
+.. figure:: ../_static/Mixxx-200-Deere-The-Deck-section.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -49,7 +49,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Track-Info.png
+.. figure:: ../_static/Mixxx-200-Deere-track-info.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -103,7 +103,7 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/Mixxx-200-Latenight-parallel-waveform.png
+.. figure:: ../_static/Mixxx-200-Deere-Parallel-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -116,7 +116,7 @@ Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
-.. figure:: ../_static/Mixxx-200-Deere-separate-waveform.png
+.. figure:: ../_static/Mixxx-200-Latenight-skin-parallel-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -196,7 +196,7 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Button-Grid.png
+.. figure:: ../_static/Mixxx-200-Deere-Deck-options-button-grid.png
    :align: center
    :width: 79px
    :figwidth: 100%
@@ -209,23 +209,24 @@ The six buttons at the bottom right below the waveform allow you to configure
 the deck. Starting from the top-left and moving clockwise the buttons are as
 follows:
 
-**Show/Hide Vinyl Widget**
-  Toggles the visibility of the Vinyl Widget in the :ref:`interface-waveform`.
+**Slip Mode Toggle**
+  When active, the playback continues muted in the background during a loop, reverse, scratch, etc. 
+  Once disabled, the audible playback will resume where the track would have been.
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
-
-**Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
-
+  
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
   track's :term:`BPM` but failed to align the beat markers on the beats. For
   more information, go to the chapter :ref:`configuration-bpm-detection`.
+
+**Eject Track Button**
+  Clicking this button ejects the track from the deck. Alternatively you can use
+  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
+  information.
 
 **Quantize Mode Toggle**
   If enabled, all cues, hotcues, loops, and beatloops will be automatically
@@ -242,7 +243,7 @@ follows:
 Playback/Cue Controls
 ---------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Playback.png
+.. figure:: ../_static/Mixxx-200-Deere-Playback-Cue-controls.png
   :align: center
   :width: 54px
   :figwidth: 100%
@@ -259,8 +260,6 @@ Playback/Cue Controls
   .. seealso:: The actual behavior of the Play/Pause button depends on the
                selected :ref:`Cue mode <interface-cue-modes>`.
 
-.. hint :: To return to the beginning of the track, right-click on the deck's
-           :ref:`Fast-Rewind Button <interface-transport>`.
 
 .. _interface-cue:
 
@@ -405,6 +404,9 @@ buttons depends on the selected Cue mode. To change the Cue mode, go to
 ..  expletives on the fly, or simply as part of your mix.
 
 
+ .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+
+
 .. _interface-vc-mode:
 
 Vinyl Control Mode and Cueing controls
@@ -413,9 +415,9 @@ Vinyl Control Mode and Cueing controls
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Vinyl-Mode.png
+.. figure:: ../_static/Mixxx-200-Deere-Vinyl-Control-Mode-and-cueing-options.png
    :align: center
-   :width: 70%
+   :width: 20%
    :figwidth: 100%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
@@ -437,15 +439,15 @@ section.
 * **Constant mode**: The track speed equals last known-steady speed regardless
   of needle input.
 
-**Off/One/Hot button**
+**Cue/Hot button**
 
 This button determines how :term:`cue points <cue>` are treated in vinyl
 control relative mode:
 
 * **Off**: Cue points are ignored.
-* **One Cue**: If the needle is dropped after the cue point, the track will seek
+* **Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
-* **Hot Cue**: The track will seek to the nearest previous :term:`hotcue` point.
+* **Hot**: The track will seek to the nearest previous :term:`hotcue` point.
 
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
@@ -459,7 +461,7 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Rate-Control.png
+.. figure:: ../_static/Mixxx-200-Deere-Sync-and-Rate-Controls.png
    :align: right
    :width: 68px
    :figwidth: 100px
@@ -536,7 +538,7 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Loops.png
+.. figure:: ../_static/Mixxx-200-Deere-loop-controls.png
    :align: center
    :width: 205px
    :figwidth: 100%
@@ -550,19 +552,15 @@ loop points of a track.
 
 **Beatlooping Buttons**
 
-* **Instant loop**: The numbered buttons represents a different :term:`bar`
-  length. Clicking on any of that buttons will set a loop of the defined
+* **Instant loop**: The input box allows you to set any BeatLoop Size, each of which represents a different :term:`bar`
+  length. This value will set a loop of the defined
   number of beats from the beat immediately following the current playback
   position. If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
-* **Loop roll**:
-  Right-click on any of the numbered loop buttons to temporarily setup a rolling
-  loop over the defined number of beats. Playback will resume where the track
-  would have been if it had not entered the loop.
-* **Double loop**: Clicking on the plus button will double the current loop's
+* **Double loop**: Clicking on the arrow pointing up will double the current loop's
   length up to 64 bars. The length of the loop overlay in the waveform will
   increase accordingly.
-* **Halve loop**: Clicking on the minus button will halve the current loop's
+* **Halve loop**: Clicking on the arrow pointing down will halve the current loop's
   length down to 1/32 bars. The length of the loop overlay in the waveform will
   decrease accordingly.
 
@@ -580,6 +578,9 @@ loop points of a track.
   or not. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
   loop overlay on the waveforms changes color.
+* **ReLoop**:
+  Temporarily sets up a rolling loop over the defined number of beats. 
+  Playback will resume where the track  would have been if it had not entered the loop.
 
 .. hint:: If you are playing inside a loop and want to move the end point
           beyond its current position in the track, click on the *Loop* button
@@ -600,9 +601,9 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Hotcues.png
+.. figure:: ../_static/Mixxx-200-Deere-hot-cue-controls.png
    :align: center
-   :width: 54px
+   :width: 59px
    :figwidth: 100%
    :alt: The hotcue controls of the deck
    :figclass: pretty-figures
@@ -669,9 +670,9 @@ The Mixer Section
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer.png
+.. figure:: ../_static/Mixxx-200-Deere-The-Mixer-Section.png
    :align: center
-   :width: 442px
+   :width: 430px
    :figwidth: 100%
    :alt: The mixer section
    :figclass: pretty-figures
@@ -709,32 +710,32 @@ Channel Faders and Level Meters
 Section Expansion Buttons
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Top-Expansion-Buttons.png
+.. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-top.png
    :align: center
-   :width: 448px
+   :width: 435px
    :figwidth: 100%
    :alt: The section expansion buttons
    :figclass: pretty-figures
 
    The section expansion buttons on top
 
-   .. figure:: ../_static/Mixxx-200-Latenight-Bottom-Expansion-Buttons.png
+   .. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-skin-settings.png
       :align: center
-      :width: 448px
+      :width: 220px
       :figwidth: 100%
       :alt: The section expansion buttons
       :figclass: pretty-figures
 
-      The section expansion buttons on the bottom
+      The section expansion options under the Skin settings on the right.
 
-On top, and on the button of the user interface are the section expansion buttons.
+On top, and on the right side of the user interface are the section expansion buttons abd options.
 
-If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
-:guilabel:`VINYL` then you will enable control sections for interacting with:
+If you click on either :guilabel:`MICS & AUX`, :guilabel:`SAMPLER`, or
+:guilabel:`EFFECTS` then you will enable control sections for interacting with:
 
 * :ref:`interface-mic`
 * :ref:`interface-sampler`
-* :ref:`interface-vc-mode`
+`
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
@@ -822,13 +823,17 @@ Headphone and Master Mix Controls
   If your sound card only has one gain knob that controls both the main output
   and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
   to control the volume of your headphones without affecting your main output.
+  
+  
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+
 
 .. _interface-pfl:
 
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-PFL.png
+.. figure:: ../_static/Mixxx-200-Deere-Headphone-button.png
    :align: center
    :width: 321px
    :figwidth: 100%
@@ -861,10 +866,10 @@ volume fader all the way down.
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-EQ.png
-   :align: right
-   :width: 77px
-   :figwidth: 100px
+.. figure:: ../_static/Mixxx-200-Deere-gain-knob.png
+   :align: center
+   :width: 300px
+   :figwidth: 150px
    :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
 
@@ -916,7 +921,7 @@ Equalizers and Gain Knobs
 Crossfader
 ----------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Crossfader.png
+.. figure:: ../_static/Mixxx-200-Deere-crossfader.png
    :align: center
    :width: 318px
    :figwidth: 100%
@@ -943,9 +948,9 @@ on the left end of the crossfader and vice versa. This is also known as
 The Sampler Section
 ===================
 
-.. figure:: ../_static/Mixxx-200-Latenight-Sampler-Deck.png
+.. figure:: ../_static/Mixxx-200-Deere-The-Sampler-Section.png
    :align: center
-   :width: 355px
+   :width: 170px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures
@@ -1073,7 +1078,7 @@ The Microphone Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Microphone.png
+.. figure:: ../_static/Mixxx-200-Deere-the-Microphone-section.png
    :align: center
    :width: 286px
    :figwidth: 100%
@@ -1119,7 +1124,7 @@ Preview Deck Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Preview-Deck.png
+.. figure:: ../_static/Mixxx-Deere-Preview-Deck-Section.png
    :align: center
    :width: 50%
    :figwidth: 100%
