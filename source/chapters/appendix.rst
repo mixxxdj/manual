@@ -285,34 +285,26 @@ Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
-======================  =================================================
-Option                  Description
-======================  =================================================
-[FILE]                  Load the specified music file(s) at start-up.
-                        Each file you specify will be loaded into the
-                        next virtual deck. For a list of supported file
-                        types, go to :ref:`configuration-import`
-----------------------  -------------------------------------------------
+In addition to these options, it is possible to specify one or more music
+file(s) on the command line. These will be loaded at start-up.  Each file you
+specify will be loaded into the next virtual deck. For a list of supported file
+types, go to :ref:`configuration-import`.
+
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
                         overriding the default installation location.
-----------------------  -------------------------------------------------
 --pluginPath PATH       Top-level directory where Mixxx will look for
                         sound source plugins in addition to default
                         locations.
-----------------------  -------------------------------------------------
 --settingsPath PATH     Top-level directory where Mixxx will look for
                         user settings files such as the library database
                         and preferences configuration file.
-----------------------  -------------------------------------------------
 --controllerDebug       Log all controller data Mixxx sends and receives
                         as well as scripts it loads.
-----------------------  -------------------------------------------------
 --developer             Enable developer mode. Includes extra logs, stats
                         on performance and the Developer tools menu as
                         well as tooltips and logs useful for skin
                         developers.
-----------------------  -------------------------------------------------
 --safeMode              Disable OpenGL widgets (scrolling waveforms,
                         spinnies) to work around GPU driver bugs.
                         If Mixxx is crashing on startup, try using this.
@@ -321,33 +313,30 @@ Option                  Description
                         * Disables spinning vinyl widgets
                         * Disables synchronization polling
                         * Doesn't open controllers by default
-----------------------  -------------------------------------------------
 --locale LOCALE         Use a custom locale for loading translations
                         (e.g ``fr``)
-----------------------  -------------------------------------------------
 -f, --fullScreen        Start Mixxx in full-screen mode.
-----------------------  -------------------------------------------------
 --logLevel LEVEL        Set the verbosity of command line logging.
 
-                        * ``critical`` - Critical/Fatal only
-                        * ``warning``  - Above + Warnings
-                        * ``info``     - Above + Informational messages
-                        * ``debug``    - Above + Debug/Developer messages
-                        * ``trace``    - Above + Profiling messages
-----------------------  -------------------------------------------------
+                        ============  ==========================
+                        Value         Meaning
+                        ============  ==========================
+                        ``critical``  Critical/Fatal only
+                        ``warning``   Above + Warnings
+                        ``info``      Above + Informational messages
+                        ``debug``     Above + Debug/Developer messages
+                        ``trace``     Above + Profiling messages
+                        ============  ==========================
 --logFlushLevel LEVEL   Set the logging level at which the log buffer
                         is flushed to ``mixxx.log``.
-                        LEVEL is one of the values defined at ``--logLevel``
+                        ``LEVEL`` is one of the values defined at ``--logLevel``
                         above.
-----------------------  -------------------------------------------------
---debugAssertBreak      Breaks (SIGINT) Mixxx if a DEBUG_ASSERT evaluates
+--debugAssertBreak      Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates
                         to false. A debugger can then be used to continue.
-                        This disables the MIXXX_DEBUG_ASSERTIONS_FATAL
+                        This disables the ``MIXXX_DEBUG_ASSERTIONS_FATAL``
                         flag which can otherwise lead to a time consuming
                         full rebuild.
-----------------------  -------------------------------------------------
 -h, --help              Display this help message and exit
-======================  =================================================
 
 Developer tools
 ===============
