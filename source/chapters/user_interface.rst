@@ -1004,15 +1004,16 @@ are as follows:
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
 
-**Eject Track Button**
-  Clicking this button ejects the track from the deck.
+  **Keylock Toggle**
+  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  tempo via the rate slider do not affect its pitch.
 
 **Mix Orientation Toggle**
   This control determines the sampler input's mix orientation.
 
-**Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
-  tempo via the rate slider do not affect its pitch.
+**Eject Track Button**
+  Clicking this button ejects the track from the deck.
+
 
 Sample Deck Controls
 --------------------
