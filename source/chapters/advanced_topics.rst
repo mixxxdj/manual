@@ -109,20 +109,55 @@ and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
 Mixxx Controls
 --------------
 
-See :ref:`controlindex` for a full list.
+Nearly every knob, button, or fader you see in Mixxx's interface is
+controllable via Mixxx's "control" system. The control system allows
+skins, MIDI controllers, and HID controllers to control Mixxx via a
+single interface.
+
+A control is identified by a "group" (which is used for grouping
+associated controls) and a "key" (the name of the individual control).
+
+For example, the volume fader for Deck 1 is identified by the group
+`[Channel1]` and key :mixxx:coref:`volume <[Channel1],volume>`. Similarly, the
+volume fader for Sampler 1 is identified by the group `[Sampler1]` and key
+:mixxx:coref:`volume <[Sampler1],volume>`.
+
+The group is used to collect all the controls that affect one component
+of Mixxx into one collection. Some groups have a high overlap of
+controls in common (e.g. samplers, decks, and the preview deck all share
+the same control keys).
+
+In addition to controlling Mixxx, the control system can be used to
+inspect Mixxx's state. For example, the sample rate of the track loaded
+in Deck 1 can be accessed via the :mixxx:coref:`[Channel1],track_samplerate`
+control. You can read the :mixxx:coref:`[Channel3],play` control to determine
+whether Deck 3 is playing.
+
+The default value range is 0.0 to 1.0, unless otherwise noted. Binary means
+that it is either 'ON' (non-zero) or 'OFF' (zero).
+
+.. hint:: Discovering Controls used in Skins
+
+   You can view the control connected to any part of a skin by running
+   Mixxx with the ``--developer`` command line option and hovering your mouse
+   cursor over part of the skin. If no tooltip appears, enable tooltips for
+   the Library and Skin in :menuselection:`Options --> Preferences --> Interface`.
+
+.. hint:: Changing any control from the GUI in Developer Mode
+
+   When running Mixxx in Developer Mode (with the ``--developer`` command
+   line option), you can view and manually set the state of any control in
+   Mixxx by going to :menuselection:`Developer --> Developer Tools`.
+
+.. seealso:: See :ref:`controlindex` for a full list.
+
 
 ControlPotMeter controls
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-The following extensions add some features to ControlPotMeter controls
-(volume, crossfader, ...). Use in conjunction with ``[Channel*N*]``,
-``[Sampler*N*]``, ``[Master]`` ... groups. Please note, this doesn't work in
-JavaScript files, so you can not do, for example:
-
-.. code-block:: javascript
-
-   engine.setValue('MyController', 'keylock_toggle')
+The following extensions add some features to ``ControlPotMeter`` controls
+(volume, crossfader, ...). Use in conjunction with ``[ChannelN]``,
+``[SamplerN]``, ``[Master]``, ... groups.
 
 ================== ============================================================
 Control Suffix     Description
@@ -138,6 +173,22 @@ Control Suffix     Description
 ``_toggle``        Sets the value to 0.0 if the value was > 0.0, and to 1.0 if the value was 0.0, will cut off/on a track while you're playing
 ``_minus_toggle``  Sets the value to -1.0 if the value was > -1.0, and to 1.0 if the value was -1.0, can tilt the crossfader from left to right
 ================== ============================================================
+
+These controls can be used in JavaScript files like this:
+
+.. code-block:: javascript
+
+   // This won't work:
+   engine.setValue(group, "pitch_up_small", 1.0);
+
+   // Use this instead:
+   script.triggerControl(group, "pitch_up_small", 50);
+
+To use ``*_toggle`` the respective shortcut for scripts is:
+
+.. code-block:: javascript
+
+   script.toggleControl(group, "keylock_toggle", 100);
 
 
 The ``[Master]`` group
