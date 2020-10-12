@@ -103,7 +103,7 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/Mixxx-200-Deere-Parallel-waveformsm.png
+.. figure:: ../_static/Mixxx-200-Deere-Parallel-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
