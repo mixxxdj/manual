@@ -292,7 +292,7 @@ Even more [reStructuredText] resources:
 [Sphinx]: http://sphinx-doc.org
 [Install Sphinx]: http://sphinx-doc.org/latest/install.html
 [Sphinx i18n]: http://sphinx-doc.org/intl.html
-[Install Graphviz]: http://graphviz.org/Download..php
+[Install Graphviz]: https://graphviz.org/download/
 [sphinx-intl]: https://pypi.python.org/pypi/sphinx-intl
 
 [Transifex]: https://www.transifex.com/organization/mixxx-dj-software/dashboard/mixxxdj-manual
@@ -302,7 +302,7 @@ Even more [reStructuredText] resources:
 [Visual Studio Code]: https://code.visualstudio.com/
 [Sublime]: http://www.sublimetext.com
 [Kate]: http://kate-editor.org/
-[Retext]: http://sourceforge.net/p/retext/
+[Retext]: https://github.com/retext-project/retext
 [Intype]: http://inotai.com/intype
 [Notex]: https://www.notex.ch/
 [Download]: https://github.com/mixxxdj/manual/archive/manual.zip
