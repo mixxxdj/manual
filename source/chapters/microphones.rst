@@ -143,7 +143,7 @@ are mixed by the audio interface and not sent directly to Mixxx.
 Latency Compensation
 ^^^^^^^^^^^^^^^^^^^^
 When using :ref:`microphones-direct-monitoring`, you will hear the microphone
-mixed with the music from Mixxx without any noticable latency. However, it still
+mixed with the music from Mixxx without any noticeable latency. However, it still
 takes time for Mixxx to receive the microphone signal and process it. Without
 compensating for this latency or using a :ref:`microphones-loopback-input`, the
 microphone inputs will be out of time relative to the music in your recorded

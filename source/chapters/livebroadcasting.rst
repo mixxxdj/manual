@@ -163,7 +163,7 @@ Live Broadcasting Preferences
 
 **Shoutcast metadata format**
 
-  This allows to set custom metatdata formats for the Shoutcast title field.
+  This allows to set custom metadata formats for the Shoutcast title field.
   Previously only ``artist - title`` was allowed. For example if you were
   broadcasting as part of a station, you could add the station's name or the
   presenter's name in the title: ``MyStation | $artist - $title``.

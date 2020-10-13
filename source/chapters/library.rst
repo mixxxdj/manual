@@ -760,7 +760,7 @@ Right-click on a folder and choose :guilabel:`Add to Library` to add the folder
 as an additional music directory. Mixxx will watch this directory and its
 subdirectories for new tracks.
 
-.. seealso:: For more informations, go to :ref:`configuration-import`.
+.. seealso:: For more information, go to :ref:`configuration-import`.
 
 Quick Links - Bookmark your favorite folders
 --------------------------------------------
