@@ -3283,6 +3283,8 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
    .. versionadded:: v2.3.0
 
 
+.. _advanced-mixxxcontrols-effects:
+
 The Effects Framework
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -3689,7 +3691,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
     Toggles the flanger effect.
 
     .. deprecated:: v2.0.0
-       This control has been **removed** without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
 .. mixxx:control:: [ChannelN],Hercules1
@@ -3738,7 +3740,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
     Adjusts the intensity of the flange effect
 
     .. deprecated:: v2.0.0
-       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
 .. mixxx:control:: [Flanger],lfoDelay
@@ -3748,7 +3750,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
     Adjusts the phase delay of the flange effect in microseconds
 
     .. deprecated:: v2.0.0
-       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
 .. mixxx:control:: [Flanger],lfoPeriod
@@ -3758,7 +3760,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
     Adjusts the wavelength of the flange effect in microseconds
 
     .. deprecated:: v2.0.0
-       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
 .. _advanced-keyboard:
