@@ -163,22 +163,25 @@ class MixxxDomain(Domain):
                      target, node, contnode):
 
         targets = generate_targets(target)
-
+        corefs = sorted(self.get_objects(), key=lambda x: x[5])
+        matches = None
         if typ == "coref":
-            corefs = sorted(self.get_objects(), key=lambda x: x[5])
             matches = [
                 (docname, anchor)
                 for name, sig, group, docname, anchor, prio in corefs
                 if sig in targets
             ]
         elif typ == "cogroupref":
-            # TODO: Resolve cogroup references
-            return None
+            groups = [
+                group for name, sig, group, docname, anchor, prio in corefs
+                if group in targets
+            ]
+            if groups:
+                matches = [("mixxx-control", "cap-{}".format(groups[0]))]
         else:
             logger.warning(__('Unsupported cross-references %r'),
                            target, type='ref', subtype='mixxx', location=node)
             return None
-
 
         if not matches:
             logger.warning(__('no target found for cross-reference %r'),
