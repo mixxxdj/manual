@@ -491,6 +491,25 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :feedback: Master meter R
 
 
+.. mixxx:control:: [Master],headVolume
+    :range: 0.0..1.0..5.0
+    :feedback: Headphone Gain knob
+
+    Adjust headphone volume.
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[Master],headGain` instead.
+
+
+.. mixxx:control:: [Master],volume
+    :range: 0.0..1.0..5.0
+    :feedback: Master Gain knob
+
+    Adjust master volume.
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[Master],gain` instead.
+
 .. _advanced-mixxxcontrols-decks:
 
 Decks, Preview Decks and Samplers
@@ -2404,6 +2423,182 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
 
+Deprecated controls
++++++++++++++++++++
+
+These controls have been deprecated, new controller mappings should use the alternatives.
+
+.. mixxx:control:: [ChannelN],beatloop
+                   [PreviewDeckN],beatloop
+                   [SamplerN],beatloop
+
+    :range: positive real number
+    :feedback: A loop is shown over the set number of beats.
+
+    Setup a loop over the set number of beats.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle` instead.
+
+
+.. mixxx:control:: [ChannelN],reloop_exit
+                   [PreviewDeckN],reloop_exit
+                   [SamplerN],reloop_exit
+
+    :range: binary
+    :feedback: Loop range in waveform activates or deactivates.
+
+    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
+
+
+.. mixxx:control:: [ChannelN],jog
+                   [PreviewDeckN],jog
+                   [SamplerN],jog
+
+    :range: -3.0..3.0
+    :feedback: waveform
+
+    Affects relative play speed & direction for short instances (additive & is automatically reset to 0)
+
+    .. deprecated:: ??
+       Use the JavaScript ``engine.scratch`` functions instead.
+
+
+.. mixxx:control:: [ChannelN],scratch
+                   [PreviewDeckN],scratch
+                   [SamplerN],scratch
+
+    :range: -3.0..3.0
+    :feedback: Waveform
+
+    Affects play speed & direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative)
+
+    .. deprecated:: ??
+       Use the JavaScript ``engine.scratch`` functions instead.
+
+
+.. mixxx:control:: [ChannelN],filter
+                   [PreviewDeckN],filter
+                   [SamplerN],filter
+
+    :range: binary
+    :feedback: Filter button
+
+    Toggles the filter effect
+
+    .. versionadded:: v2.0.0
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterDepth
+                   [PreviewDeckN],filterDepth
+                   [SamplerN],filterDepth
+
+    :range: default
+    :feedback: Filter depth knob
+
+    Adjusts the intensity of the filter effect
+
+    .. versionadded:: v2.0.0
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 <[QuickEffectRack1_[ChannelI]],super1>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterLow
+                   [PreviewDeckN],filterLow
+                   [SamplerN],filterLow
+
+    :range: 0.0..1.0..4.0
+    :feedback: LOW knob
+
+    Adjusts the gain of the low EQ filter
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterLowKill
+                   [PreviewDeckN],filterLowKill
+                   [SamplerN],filterLowKill
+
+    :range: binary
+    :feedback: LOW kill knob
+
+    Holds the gain of the low EQ to -inf while active
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterMid
+                   [PreviewDeckN],filterMid
+                   [SamplerN],filterMid
+
+    :range: 0.0..1.0..4.0
+    :feedback: MID knob
+
+    Adjusts the gain of the mid EQ filter
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterMidKill
+                   [PreviewDeckN],filterMidKill
+                   [SamplerN],filterMidKill
+
+    :range: binary
+    :feedback: MID kill knob
+
+    Holds the gain of the mid EQ to -inf while active
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterHigh
+                   [PreviewDeckN],filterHigh
+                   [SamplerN],filterHigh
+
+    :range: 0.0..1.0..4.0
+    :feedback: HIGH knob
+
+    Adjusts the gain of the high EQ filter
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterHighKill
+                   [PreviewDeckN],filterHighKill
+                   [SamplerN],filterHighKill
+
+    :range: binary
+    :feedback: HIGH kill knob
+
+    Holds the gain of the high EQ to -inf while active
+
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],beatloop_X
+                   [PreviewDeckN],beatloop_X
+                   [SamplerN],beatloop_X
+
+    :range: toggle
+    :feedback: A loop is shown over X beats.
+
+    Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+
+    .. versionadded:: v1.10.0
+    .. deprecated:: v2.0.0
+       Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead.
+
 .. _advanced-mixxxcontrols-samplers:
 
 Global Sampler controls
@@ -3007,6 +3202,68 @@ This group is going to be deprecated at some point, with its controls added to `
    :feedback: Library track table highlight
 
 
+.. mixxx:control:: [Playlist],LoadSelectedIntoFirstStopped
+    :range: binary
+    :feedback: Waveform view
+
+    Loads the currently highlighted song into the first stopped deck
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],GoToItem` instead.
+
+
+.. mixxx:control:: [Playlist],SelectNextPlaylist
+    :range: binary
+    :feedback: Library sidebar
+
+    Switches to the next view (Library, Queue, etc.)
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],MoveDown` instead.
+
+
+.. mixxx:control:: [Playlist],SelectPrevPlaylist
+    :range: binary
+    :feedback: Library sidebar
+
+    Switches to the previous view (Library, Queue, etc.)
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],MoveUp` instead.
+
+
+.. mixxx:control:: [Playlist],ToggleSelectedSidebarItem
+    :range: binary
+    :feedback: Library sidebar
+
+    Toggles (expands/collapses) the currently selected sidebar item.
+
+    .. versionadded:: v1.11.0
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],GoToItem` instead.
+
+
+.. mixxx:control:: [Playlist],SelectNextTrack
+    :range: binary
+    :feedback: Library track table highlight
+
+    Scrolls to the next track in the track table.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],MoveDown` instead.
+
+
+.. mixxx:control:: [Playlist],SelectPrevTrack
+    :range: binary
+    :feedback: Library track table highlight
+
+    Scrolls to the previous track in the track table.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[Library],MoveUp` instead.
+
+
+
 The ``[Controls]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3422,6 +3679,90 @@ Controls
    The type of the Kth parameter value. See the Parameter Value Types table.
 
    :range: integer, read-only
+
+
+Removed controls
+~~~~~~~~~~~~~~~~
+
+These controls have been removed from Mixxx. Skins and controller mappings that attempt to use them will not work correctly.
+
+.. mixxx:control:: [ChannelN],flanger
+    :range: binary
+    :feedback: Flanger button
+
+    Toggles the flanger effect.
+
+    .. deprecated:: v2.0.0
+       This control has been **removed** without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+
+
+.. mixxx:control:: [ChannelN],Hercules1
+                   [ChannelN],Hercules2
+                   [ChannelN],Hercules3
+                   [ChannelN],Hercules4
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [ChannelN],NextTask
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [ChannelN],NextTrack
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [ChannelN],PrevTask
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [ChannelN],PrevTrack
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [ChannelN],transform
+
+    .. deprecated:: ??
+       This control has been **removed**.
+
+
+.. mixxx:control:: [Flanger],lfoDepth
+    :range: default
+    :feedback: Depth knob
+
+    Adjusts the intensity of the flange effect
+
+    .. deprecated:: v2.0.0
+       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+
+
+.. mixxx:control:: [Flanger],lfoDelay
+    :range: 50..10000
+    :feedback: Delay knob
+
+    Adjusts the phase delay of the flange effect in microseconds
+
+    .. deprecated:: v2.0.0
+       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
+
+
+.. mixxx:control:: [Flanger],lfoPeriod
+    :range: 50000..2000000
+    :feedback: LFO knob
+
+    Adjusts the wavelength of the flange effect in microseconds
+
+    .. deprecated:: v2.0.0
+       This control has been removed without a direct replacement. See [Effects Framework](#effects-framework) section instead.
 
 
 .. _advanced-keyboard:
