@@ -19,6 +19,8 @@ analogue (vinyl) and digital sources.
 -  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
 -  `Hardware Setting Specification <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf>`__
 
+.. versionadded:: 2.2.4
+
 Features
 ~~~~~~~~
 

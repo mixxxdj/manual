@@ -1,6 +1,8 @@
 Hercules DJ Console MK4
 =======================
 
+.. versionadded:: 1.8
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

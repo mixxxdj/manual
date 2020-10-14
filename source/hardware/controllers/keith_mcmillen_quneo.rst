@@ -29,6 +29,8 @@ of the box.
    create their own code to respond to QuNeo’s sensor data. Hack away to
    control your world in ways never before possible!
 
+.. versionadded:: 1.11
+
 Mapping Description
 ^^^^^^^^^^^^^^^^^^^
 

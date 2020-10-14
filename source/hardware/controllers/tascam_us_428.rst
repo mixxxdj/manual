@@ -1,9 +1,11 @@
 Tascam US-428
 =============
 
+This product has been discontinued.
+
 -  `Manufacturer’s product page <https://tascam.com/us/product/us-428/top>`__
 
-This product has been discontinued.
+.. versionadded:: 1.6.2
 
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.

@@ -8,6 +8,8 @@ Hercules DJ Console RMX2
 This all-in-one DJ controller features a built in 4 channel sound card with balanced XLR master outputs and a balanced microphone input. It is a USB class compliant MIDI and audio device (unlike older
 Hercules controllers).
 
+.. versionadded:: 1.11
+
 User Options
 ------------
 

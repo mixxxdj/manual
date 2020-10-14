@@ -9,7 +9,9 @@ RCA inputs do not have phono preamps and do not work for vinyl control.
 The VCI-400 requires its own power supply; it does not run on USB bus
 power.
 
-Vestax went out of business in 2014.
+This controller has been discontinued as Vestax went out of business in 2014.
+
+.. versionadded:: 1.10.1
 
 Compatibility
 -------------

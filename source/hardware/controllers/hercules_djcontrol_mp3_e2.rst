@@ -10,6 +10,8 @@ and will be included in Mixxx 2.1, but the MP3 e2 was already supported in Mixxx
 
 The mapping is included in Mixxx and allows you to manipulate 4 decks, 2 at a time, switching Deck A (left) between Channel 1 and 3 and Deck B (right) between Channel 2 and 4.
 
+.. versionadded:: 1.11
+
 Mapping description (by function)
 ---------------------------------
 

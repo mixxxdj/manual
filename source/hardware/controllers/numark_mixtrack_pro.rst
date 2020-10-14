@@ -7,6 +7,8 @@ This is the same as the :ref:`Numark Mixtrack <numark-mixtrack>` with the additi
 
 -  `Manufacturer’s product page <http://www.numark.com/product/mixtrackpro>`__
 
+.. versionadded:: 1.8.2
+
 Mapping Description
 -------------------
 

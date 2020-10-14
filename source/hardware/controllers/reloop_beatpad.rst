@@ -9,6 +9,8 @@ a computer with a USB cable.
 -  `Manufacturer’s product page <http://www.reloop.com/reloop-beatpad>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7581>`__
 
+.. versionadded:: 2.0
+
 Mixer Section
 -------------
 

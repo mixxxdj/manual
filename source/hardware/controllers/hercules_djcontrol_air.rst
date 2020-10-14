@@ -19,6 +19,8 @@ vu-meter.
 -  `Manufacturer’s product page <https://support.hercules.com/en/product/djcontrolair-en/>`__
 -  `Forum Thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=3263&p=25704&hilit=air#p25704>`__
 
+.. versionadded:: 1.11
+
 Sound Hardware settings
 -----------------------
 

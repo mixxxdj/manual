@@ -6,6 +6,8 @@ Reloop Terminal Mix 2/4
 
 The Reloop Terminal Mix 2 and Terminal Mix 4 use the same mapping in Mixxx.
 
+.. versionadded:: 1.11
+
 Sound hardware
 --------------
 

@@ -11,6 +11,8 @@ CMD MM-1, but the CMD MM-1 can be used alone or with other controllers
 -  `Manufacturer's product page <https://www.behringer.com/product.html?modelCode=P0AJE>`__
 -  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276>`__
 
+.. versionadded:: 2.1
+
 Mapping description
 -------------------
 

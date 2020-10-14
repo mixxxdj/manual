@@ -15,6 +15,8 @@ The top of the jog wheels on the MK2 are shiny aluminum; the top of the
 jog wheels on the Mk1 are black. The Kontrol S2 Mk3 does not have
 effects knobs at the top.
 
+.. versionadded:: 2.3
+
 Compatibility
 -------------
 

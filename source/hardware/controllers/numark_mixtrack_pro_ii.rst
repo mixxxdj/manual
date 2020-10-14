@@ -9,6 +9,8 @@ minor design changes.
    page <http://www.numark.com/product/mixtrack-pro-ii>`__
 -  `Forum thread <https://mixxx.discourse.group/t/complete-mapping-for-mixtrack-pro-ii-is-ready/14756>`__
 
+.. versionadded:: 1.11
+
 Mapping Description
 -------------------
 
