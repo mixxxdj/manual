@@ -2798,6 +2798,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 The ``[VinylControl]`` group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`.
+
 .. mixxx:control:: [VinylControl],Toggle
 
    Moves control by a vinyl control signal from one deck to another if using the single deck vinyl control (VC) feature.
@@ -2810,6 +2812,8 @@ The ``[VinylControl]`` group
 
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`.
 
 .. mixxx:control:: [Recording],toggle_recording
 
@@ -3256,6 +3260,8 @@ This group is going to be deprecated at some point, with its controls added to `
 
 The ``[Controls]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group.
 
 .. mixxx:control:: [Controls],touch_shift
 
