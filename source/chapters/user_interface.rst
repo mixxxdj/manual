@@ -404,7 +404,7 @@ Transport Controls
  expletives on the fly, or simply as part of your mix.
 
 
- .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+ .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can be mapped to keyboards and MIDI controllers. See this `guide here. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
 
 
 .. _interface-vc-mode:
