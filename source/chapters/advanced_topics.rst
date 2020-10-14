@@ -3044,12 +3044,41 @@ In the list below,
 
 .. versionadded:: v2.0.0
 
-.. mixxx:control:: [EffectRack1],num_effectunits
+Linking Values
+++++++++++++++
 
-   The number of EffectUnits in this rack
+Effect parameters can be linked to the effect's metaknob.
+This linkage can be user-controlled by changing the ``link_type`` and the ``link_inverse`` control of the parameter.
+The default link type is loaded from the effect parameter's manifest's ``linkHint`` property.
 
-   :range: integer, read-only
+=================  =============  ============================================
+Link Type          Integer Value  Intepretation
+=================  =============  ============================================
+None               0              Not controlled by the metaknob
+Linked             1              Controlled by the metaknob as it is
+Linked Left        2              Controlled by the left side of the metaknob
+Linked Right       3              Controlled by the right side of the metaknob
+Linked Left Right  4              Controlled by both sides of the metaknob
+=================  =============  ============================================
 
+============  =============  ==============================
+Link Inverse  Integer Value  Intepretation
+============  =============  ==============================
+Normal        0              Linked in equal relation
+Inverse       1              Linked in an inverse relation.
+============  =============  ==============================
+
+
+EQs and Filters
++++++++++++++++
+
+Equalizers and filters are special effects units.
+The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`.
+Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
+
+
+Controls
+++++++++
 
 .. mixxx:control:: [EffectRack1],show
 
@@ -3058,7 +3087,27 @@ In the list below,
    :range: binary
 
 
+.. mixxx:control:: [EffectRack1],num_effectunits
+                   [EqualizerRack1],num_effectunits
+                   [QuickEffectRack1],num_effectunits
+
+   The number of EffectUnits in this rack
+
+   :range: integer, read-only
+
+
+.. mixxx:control:: [EffectRack1],clear
+                   [EqualizerRack1],clear
+                   [QuickEffectRack1],clear
+
+   Clear the Effect Rack
+
+   :range: binary
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN],chain_selector
+                   [EqualizerRack1_[ChannelI]],chain_selector
+                   [QuickEffectRack1_[ChannelI]],chain_selector
 
    Select EffectChain preset. \> 0 goes one forward; \< 0 goes one backward.
 
@@ -3066,6 +3115,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],clear
+                   [EqualizerRack1_[ChannelI]],clear
+                   [QuickEffectRack1_[ChannelI]],clear
 
    Clear the currently loaded EffectChain in this EffectUnit.
 
@@ -3073,6 +3124,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],enabled
+                   [EqualizerRack1_[ChannelI]],enabled
+                   [QuickEffectRack1_[ChannelI]],enabled
 
    If true, the EffectChain in this EffectUnit will be processed. Meant to allow the user a quick toggle for the effect unit.
 
@@ -3080,6 +3133,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],focused_effect
+                   [EqualizerRack1_[ChannelI]],focused_effect
+                   [QuickEffectRack1_[ChannelI]],focused_effect
 
    0 indicates no effect is focused; \> 0 indicates the index of the focused effect. Focusing an effect only does something if a controller mapping changes how it behaves when an effect is focused.
 
@@ -3087,6 +3142,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],group_[ChannelI]_enable
+                   [EqualizerRack1_[ChannelI]],group_[ChannelI]_enable
+                   [QuickEffectRack1_[ChannelI]],group_[ChannelI]_enable
 
    Whether or not this EffectChain applies to Deck I
 
@@ -3115,6 +3172,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],loaded
+                   [EqualizerRack1_[ChannelI]],loaded
+                   [QuickEffectRack1_[ChannelI]],loaded
 
    Whether an EffectChain is loaded into the EffectUnit
 
@@ -3122,6 +3181,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],mix
+                   [EqualizerRack1_[ChannelI]],mix
+                   [QuickEffectRack1_[ChannelI]],mix
 
    The dry/wet mixing ratio for this EffectChain with the EngineChannels it is mixed with
 
@@ -3129,6 +3190,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
+                   [EqualizerRack1_[ChannelI]],next_chain
+                   [QuickEffectRack1_[ChannelI]],next_chain
 
    Cycle to the next EffectChain preset after the currently loaded preset.
 
@@ -3136,6 +3199,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effects
+                   [EqualizerRack1_[ChannelI]],num_effects
+                   [QuickEffectRack1_[ChannelI]],num_effects
 
    The number of Effects that this EffectChain has
 
@@ -3143,6 +3208,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effectslots
+                   [EqualizerRack1_[ChannelI]],num_effectslots
+                   [QuickEffectRack1_[ChannelI]],num_effectslots
 
    The number of effect slots available in this EffectUnit.
 
@@ -3150,6 +3217,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain
+                   [EqualizerRack1_[ChannelI]],prev_chain
+                   [QuickEffectRack1_[ChannelI]],prev_chain
 
    Cycle to the previous EffectChain preset before the currently loaded preset.
 
@@ -3157,6 +3226,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],show_focus
+                   [EqualizerRack1_[ChannelI]],show_focus
+                   [QuickEffectRack1_[ChannelI]],show_focus
 
    Whether to show focus buttons and draw a border around the focused effect in skins. This should not be manipulated by skins; it should only be changed by controller mappings.
 
@@ -3164,6 +3235,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],show_parameters
+                   [EqualizerRack1_[ChannelI]],show_parameters
+                   [QuickEffectRack1_[ChannelI]],show_parameters
 
    :range: binary
 
@@ -3171,6 +3244,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],super1
+                   [EqualizerRack1_[ChannelI]],super1
+                   [QuickEffectRack1_[ChannelI]],super1
 
    The EffectChain superknob. Moves the metaknobs for each effect in the chain.
 
@@ -3178,6 +3253,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],clear
+                   [EqualizerRack1_[ChannelI]_Effect1],clear
+                   [QuickEffectRack1_[ChannelI]_Effect1],clear
 
    Clear the currently loaded Effect in this Effect slot from the EffectUnit.
 
@@ -3185,6 +3262,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],effect_selector
+                   [EqualizerRack1_[ChannelI]_Effect1],effect_selector
+                   [QuickEffectRack1_[ChannelI]_Effect1],effect_selector
 
    Select Effect -- \>0 goes one forward, \<0 goes one backward.
 
@@ -3192,6 +3271,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],enabled
+                   [EqualizerRack1_[ChannelI]_Effect1],enabled
+                   [QuickEffectRack1_[ChannelI]_Effect1],enabled
 
    If true, the effect in this slot will be processed. Meant to allow the user a quick toggle for this effect.
 
@@ -3199,6 +3280,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],loaded
+                   [EqualizerRack1_[ChannelI]_Effect1],loaded
+                   [QuickEffectRack1_[ChannelI]_Effect1],loaded
 
    Whether an Effect is loaded into this EffectSlot
 
@@ -3206,6 +3289,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],next_effect
+                   [EqualizerRack1_[ChannelI]_Effect1],next_effect
+                   [QuickEffectRack1_[ChannelI]_Effect1],next_effect
 
    Cycle to the next effect after the currently loaded effect.
 
@@ -3213,6 +3298,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_parameters
+                   [EqualizerRack1_[ChannelI]_Effect1],num_parameters
+                   [QuickEffectRack1_[ChannelI]_Effect1],num_parameters
 
    The number of parameters the currently loaded effect has.
 
@@ -3220,6 +3307,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_parameterslots
+                   [EqualizerRack1_[ChannelI]_Effect1],num_parameterslots
+                   [QuickEffectRack1_[ChannelI]_Effect1],num_parameterslots
 
    The number of parameter slots available.
 
@@ -3227,6 +3316,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_button_parameters
+                   [EqualizerRack1_[ChannelI]_Effect1],num_button_parameters
+                   [QuickEffectRack1_[ChannelI]_Effect1],num_button_parameters
 
    The number of button parameters the currently loaded effect has.
 
@@ -3234,6 +3325,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_button_parameterslots
+                   [EqualizerRack1_[ChannelI]_Effect1],num_button_parameterslots
+                   [QuickEffectRack1_[ChannelI]_Effect1],num_button_parameterslots
 
    The number of button parameter slots available.
 
@@ -3241,6 +3334,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],meta
+                   [EqualizerRack1_[ChannelI]_Effect1],meta
+                   [QuickEffectRack1_[ChannelI]_Effect1],meta
 
    Controls the parameters that are linked to the metaknob.
 
@@ -3248,6 +3343,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],prev_effect
+                   [EqualizerRack1_[ChannelI]_Effect1],prev_effect
+                   [QuickEffectRack1_[ChannelI]_Effect1],prev_effect
 
    Cycle to the previous effect before the currently loaded effect.
 
@@ -3255,6 +3352,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK
+                   [EqualizerRack1_[ChannelI]_Effect1],parameterK
+                   [QuickEffectRack1_[ChannelI]_Effect1],parameterK
 
    The scaled value of the Kth parameter.
    See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#parameter-values>`__ section for more information.
@@ -3263,6 +3362,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK_link_inverse
+                   [EqualizerRack1_[ChannelI]_Effect1],parameterK_link_inverse
+                   [QuickEffectRack1_[ChannelI]_Effect1],parameterK_link_inverse
 
    The link direction of the Kth parameter to the effect's metaknob.
 
@@ -3270,6 +3371,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK_link_type
+                   [EqualizerRack1_[ChannelI]_Effect1],parameterK_link_type
+                   [QuickEffectRack1_[ChannelI]_Effect1],parameterK_link_type
 
    The link type of the Kth parameter to the effects's metaknob.
 
@@ -3277,6 +3380,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK_loaded
+                   [EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded
+                   [QuickEffectRack1_[ChannelI]_Effect1],parameterK_loaded
 
    Whether or not the Kth parameter slot has an effect parameter loaded into it.
 
@@ -3284,6 +3389,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK_type
+                   [EqualizerRack1_[ChannelI]_Effect1],parameterK_type
+                   [QuickEffectRack1_[ChannelI]_Effect1],parameterK_type
 
    The type of the Kth parameter value. See the Parameter Value Types table.
 
@@ -3291,6 +3398,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],button_parameterK
+                   [EqualizerRack1_[ChannelI]_Effect1],button_parameterK
+                   [QuickEffectRack1_[ChannelI]_Effect1],button_parameterK
 
    The value of the Kth parameter. See the Parameter Values section for more information.
 
@@ -3298,6 +3407,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],button_parameterK_loaded
+                   [EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded
+                   [QuickEffectRack1_[ChannelI]_Effect1],button_parameterK_loaded
 
    Whether or not the Kth parameter slot has an effect parameter loaded into it.
 
@@ -3305,6 +3416,8 @@ In the list below,
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],button_parameterK_type
+                   [EqualizerRack1_[ChannelI]_Effect1],button_parameterK_type
+                   [QuickEffectRack1_[ChannelI]_Effect1],button_parameterK_type
 
    The type of the Kth parameter value. See the Parameter Value Types table.
 

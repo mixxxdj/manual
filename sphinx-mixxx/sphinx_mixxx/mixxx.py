@@ -15,13 +15,19 @@ logger = logging.getLogger(__name__)
 def generate_targets(target):
     return {
         target,
+        re.sub(r"(?<=\[EffectRack1_EffectUnit)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[EffectRack1_EffectUnitN_Effect)\d+(?=\])", "M", target),
+        re.sub(r"(?<=\[EqualizerRack1_\[Channel)\d+(?=\]\])", "I", target),
+        re.sub(r"(?<=\[QuickEffectRack1_\[Channel)\d+(?=\]\])", "I", target),
+        re.sub(r"(?<=group_\[Channel)\d+(?=\]_)", "I", target),
+        re.sub(r"(?<=\[EqualizerRack1_\[Sampler)\d+(?=\]\])", "J", target),
+        re.sub(r"(?<=\[QuickEffectRack1_\[Sampler)\d+(?=\]\])", "J", target),
+        re.sub(r"(?<=group_\[Sampler)\d+(?=\]_)", "J", target),
         re.sub(r"(?<=\[Channel)\d+(?=\])", "N", target),
         re.sub(r"(?<=\[Auxiliary)\d+(?=\])", "N", target),
         re.sub(r"(?<=\[Microphone)\d+(?=\])", "N", target),
         re.sub(r"(?<=\[PreviewDeck)\d+(?=\])", "N", target),
         re.sub(r"(?<=\[Sampler)\d+(?=\])", "N", target),
-        re.sub(r"(?<=\[EffectRack1_EffectUnit)\d+(?=\])", "N", target),
-        re.sub(r"(?<=\[EffectRack1_EffectUnitN_Effect)\d+(?=\])", "M", target),
     }
 
 
