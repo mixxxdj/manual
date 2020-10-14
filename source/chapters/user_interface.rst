@@ -871,8 +871,20 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
+  Gain or Loss in sounds is also referred to as volume levels.
   The gain knob allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
+  There are 4 Gain Knobs:
+      1. The Super-Knob
+      2. The Low Filter Knob
+      3. The Mid Filter Knob
+      4. The High Filter Knob
+  Each knob has a left and right side. The left side directs sounds to the left speakers or headset. The right side directs sounds to the right speakers or headset.
+   The mid-position places the filter in a balanced position. This allows the filter to be shared equally by both the left and right sides of the headset.
+   The low filter knob regulates the bass.
+   The mid filter knob regulates the main voice.
+   The high filter knob regulates the treble from the sound.
+  These effects are best heard with the headset as a secondary output.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
   (the transients) briefly going into the yellow region. **Do NOT turn the
@@ -926,8 +938,10 @@ Crossfader
    The crossfader section of the mixer
 
 The :term:`crossfader` determines the actual volume of each deck when moving
-the slider from left to right. If both decks are playing and the crossfader is
-in its default center position, then you will hear both decks. Right-clicking on
+the slider from left to right. Simply put, the crossfader aids the user to regulate the volume and the intensity of the sound output from both deck.
+Crossfading is a sound output effect that allows the user play more than one song at a time on different deck.
+It is a very useful function when making music mix. The user can slowly fadeout a song with the crossfader and allow the new song come up.
+If both decks are playing and the crossfader is in its default center position, then you will hear both decks. Right-clicking on
 the crossfader will reset the slider to its default position.
 
 You can reverse the configuration of the crossfader, so that the right deck is
