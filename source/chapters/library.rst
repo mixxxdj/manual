@@ -848,6 +848,7 @@ Supported libraries:
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS, GNU/Linux)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -856,6 +857,9 @@ locations on your hard drive.
 
 .. note:: Playing a track from an external library will add it to your Mixxx
           library.
+
+.. seealso:: External libraries can be disabled under
+             :menuselection:`Preferences --> Library`.
 
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
@@ -908,9 +912,6 @@ Decoders may slightly detect different track start and end times for files from 
 This problem may cause your cues to be shifted up by a few milliseconds. 
 
 Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
-
-.. seealso:: External libraries can be disabled under
-             :menuselection:`Preferences --> Library`.
 
 .. _library-removing-tracks:
 
