@@ -49,7 +49,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-track-info.png
+.. figure:: ../_static/Mixxx-200-Deere-Track-Information-display.png
    :align: center
    :width: 60%
    :figwidth: 100%
