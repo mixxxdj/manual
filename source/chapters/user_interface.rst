@@ -110,7 +110,7 @@ visually by aligning the beats that appear in each waveform.
    :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Latenight) - Parallel waveforms
+   Mixxx default skin (Deere) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
@@ -123,7 +123,7 @@ separate waveforms. Select your preferred appearance in
    :alt: Mixxx alternative skin (Latenight) - parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx alternative skin (Deere) - Separate waveforms
+   Mixxx alternative skin (Latenight) - Parallel waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
