@@ -107,7 +107,7 @@ visually by aligning the beats that appear in each waveform.
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx default skin (Latenight) - Parallel waveforms
+   :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
    Mixxx default skin (Latenight) - Parallel waveforms
@@ -120,7 +120,7 @@ separate waveforms. Select your preferred appearance in
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx alternative skin (Deere) - Separate waveforms
+   :alt: Mixxx alternative skin (Latenight) - parallel waveforms
    :figclass: pretty-figures
 
    Mixxx alternative skin (Deere) - Separate waveforms
