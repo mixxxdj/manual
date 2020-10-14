@@ -1525,8 +1525,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Outro end marker may change on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_clear
@@ -1538,8 +1537,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro end marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_enabled
@@ -1551,8 +1549,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Outro end button lights up.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_position
@@ -1564,8 +1561,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Outro end marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_set
@@ -1577,8 +1573,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro end marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_activate
@@ -1590,8 +1585,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Outro start marker may change on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_clear
@@ -1603,8 +1597,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro start marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_enabled
@@ -1616,8 +1609,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Outro start button lights up.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_position
@@ -1629,8 +1621,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Outro start marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_set
@@ -1642,8 +1633,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro start marker changes on waveform.
 
-   .. deprecated:: v2.3.0
-      This control has been removed.
+   .. versionadded:: v2.3.0
 
 
 .. mixxx:control:: [ChannelN],passthrough
