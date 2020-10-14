@@ -2649,8 +2649,10 @@ The ``[Recording]`` controls
    :feedback: Recording icon
 
 
-The ``[AutoDJ]`` controls
-~~~~~~~~~~~~~~~~~~~~~~~~~
+AutoDJ controls
+~~~~~~~~~~~~~~~
+
+The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`.
 
 .. mixxx:control:: [AutoDJ],enabled
 
@@ -2705,9 +2707,11 @@ The ``[AutoDJ]`` controls
 The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
+
 .. mixxx:control:: [Library],MoveUp
 
-   Equivalent to pressing the UP key on the keyboard
+   Equivalent to pressing the :kbd:`Up` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2717,7 +2721,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveDown
 
-   Equivalent to pressing the DOWN key on the keyboard
+   Equivalent to pressing the :kbd:`Down` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2727,9 +2731,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveVertical
 
-   Move UP or DOWN the specified number of locations (negative for UP). Intended to be mapped to an encoder knob.
+   Move the specified number of locations up or down. Intended to be mapped to an encoder knob.
 
-   :range: Relative
+   :range: Relative (positive values move down, negative values move up)
    :feedback: Currently selected item changes
 
    .. versionadded:: v2.1.0
@@ -2737,7 +2741,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],ScrollUp
 
-   Equivalent to pressing the PAGEUP key on the keyboard
+   Equivalent to pressing the :kbd:`PageUp` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2747,7 +2751,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],ScrollDown
 
-   Equivalent to pressing the PAGEDOWN key on the keyboard
+   Equivalent to pressing the :kbd:`PageDown` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2757,9 +2761,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],ScrollVertical
 
-   Scroll UP or DOWN the specified number of pages (negative for UP). Intended to be mapped to an encoder knob.
+   Scroll the specified number of pages up or down. Intended to be mapped to an encoder knob.
 
-   :range: Relative
+   :range: Relative (positive values move down, negative values move up)
    :feedback: Currently selected item changes
 
    .. versionadded:: v2.1.0
@@ -2767,7 +2771,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveLeft
 
-   Equivalent to pressing the LEFT key on the keyboard
+   Equivalent to pressing the :kbd:`Left` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2777,7 +2781,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveRight
 
-   Equivalent to pressing the RIGHT key on the keyboard
+   Equivalent to pressing the :kbd:`Right` key on the keyboard
 
    :range: Binary
    :feedback: Currently selected item changes
@@ -2787,9 +2791,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveHorizontal
 
-   Move LEFT or RIGHT the specified number of locations (negative for LEFT). Intended to be mapped to an encoder knob.
+   Move the specified number of locations left or right. Intended to be mapped to an encoder knob.
 
-   :range: Relative
+   :range: Relative (positive values move right, negative values move left)
    :feedback: Currently selected item changes
 
    .. versionadded:: v2.1.0
@@ -2797,7 +2801,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveFocusForward
 
-   Equivalent to pressing the TAB key on the keyboard
+   Equivalent to pressing the :kbd:`Tab` key on the keyboard
 
    :range: Binary
    :feedback: Currently focused pane changes
@@ -2807,7 +2811,7 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveFocusBackward
 
-   Equivalent to pressing the SHIFT+TAB key on the keyboard
+   Equivalent to pressing the :kbd:`Shift` + :kbd:`Tab` key on the keyboard
 
    :range: Binary
    :feedback: Currently focused pane changes
@@ -2817,9 +2821,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],MoveFocus
 
-   Move focus forward or backwards the specified number of panes (negative for SHIFT+TAB). Intended to be mapped to an encoder knob.
+   Move focus the specified number of panes forward or backwards. Intended to be mapped to an encoder knob.
 
-   :range: Relative
+   :range: Relative (positive values move forward, negative values move backward)
    :feedback: Currently focused pane changes
 
    .. versionadded:: v2.1.0
@@ -2836,6 +2840,7 @@ The ``[Library]`` controls
 
 
 .. mixxx:control:: [Library],AutoDjAddBottom
+                   [Playlist],AutoDjAddBottom
 
    Add selected track(s) to Auto DJ Queue (bottom).
 
@@ -2846,6 +2851,7 @@ The ``[Library]`` controls
 
 
 .. mixxx:control:: [Library],AutoDjAddTop
+                   [Playlist],AutoDjAddTop
 
    Add selected track(s) to Auto DJ Queue (top).
 
@@ -2938,9 +2944,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],sort_column_toggle
 
-   Equivalent to clicking on column headers. A new value sets sort\_column to that value and sort\_order to 0, setting the same value again will toggle sort\_order.
+   Equivalent to clicking on column headers. A new value sets :mixxx:coref:`[Library],sort_column` to that value and :mixxx:coref:`[Library],sort_order` to 0, setting the same value again will toggle :mixxx:coref:`[Library],sort_order`.
 
-   :range: See table below
+   :range: Same as for :mixxx:coref:`[Library],sort_column`
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: v2.3.0
@@ -2948,9 +2954,9 @@ The ``[Library]`` controls
 
 .. mixxx:control:: [Library],sort_order
 
-   Indicate the sort order of the track table (0 for ascending, 1 for descending)
+   Indicate the sort order of the track tables.
 
-   :range: Binary
+   :range: Binary (0 for ascending, 1 for descending)
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: v2.3.0
@@ -3208,9 +3214,9 @@ In the list below,
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_parameters
 
-   The number of parameters the currently loaded effect has. 0 if no effect is loaded
+   The number of parameters the currently loaded effect has.
 
-   :range: integer, read-only
+   :range: integer, read-only,  0 if no effect is loaded
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_parameterslots
@@ -3222,9 +3228,9 @@ In the list below,
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_button_parameters
 
-   The number of button parameters the currently loaded effect has. 0 if no effect is loaded
+   The number of button parameters the currently loaded effect has.
 
-   :range: integer, read-only
+   :range: integer, read-only, 0 if no effect is loaded
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],num_button_parameterslots
