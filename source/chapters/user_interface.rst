@@ -735,7 +735,7 @@ If you click on either :guilabel:`MICS & AUX`, :guilabel:`SAMPLER`, or
 
 * :ref:`interface-mic`
 * :ref:`interface-sampler`
-`
+
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
