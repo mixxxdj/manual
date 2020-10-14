@@ -251,7 +251,8 @@ Glossary of Terms
      quality when used). FLAC files generally end with a .flac extension.
 
    ALAC
-     Apple Lossless Audio Codec (ALAC) is a :term:`lossless` audio file format
+   Apple Lossless Audio Codec
+     A :term:`lossless` audio file format
      used by iTunes and other Apple products. ALAC files use the same MP4
      container format as AAC and use the same file extensions (:file:`m4a`,
      :file:`mp4`). Mixxx and many other programs are not compatible with ALAC.
