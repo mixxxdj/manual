@@ -2,10 +2,27 @@ import re
 from docutils.parsers.rst import directives
 from sphinx.domains import Domain, Index
 from sphinx.domains.std import StandardDomain
+from sphinx.locale import __
 from sphinx.roles import XRefRole
 from sphinx.directives import ObjectDescription
+from sphinx.util import logging
 from sphinx.util.nodes import make_refnode
 from sphinx import addnodes
+
+logger = logging.getLogger(__name__)
+
+
+def generate_targets(target):
+    return {
+        target,
+        re.sub(r"(?<=\[Channel)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[Auxiliary)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[Microphone)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[PreviewDeck)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[Sampler)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[EffectRack1_EffectUnit)\d+(?=\])", "N", target),
+        re.sub(r"(?<=\[EffectRack1_EffectUnitN_Effect)\d+(?=\])", "M", target),
+    }
 
 
 class MixxxControlGroupNode(ObjectDescription):
@@ -140,27 +157,43 @@ class MixxxDomain(Domain):
         return "{}.{}.{}".format(self.name, nodename, node.arguments[0])
 
     def get_objects(self):
-        for obj in self.data["objects"]:
-            yield(obj)
+        yield from self.data["objects"]
 
     def resolve_xref(self, env, fromdocname, builder, typ,
                      target, node, contnode):
 
-        match = [
-            (docname, anchor)
-            for name, sig, typ, docname, anchor, prio in self.get_objects()
-            if sig == target
-        ]
+        targets = generate_targets(target)
 
-        if len(match) > 0:
-            todocname = match[0][0]
-            targ = match[0][1]
-
-            return make_refnode(
-                builder, fromdocname, todocname, targ, contnode, targ)
-        else:
-            print("Awww, found nothing")
+        if typ == "coref":
+            corefs = sorted(self.get_objects(), key=lambda x: x[5])
+            matches = [
+                (docname, anchor)
+                for name, sig, group, docname, anchor, prio in corefs
+                if sig in targets
+            ]
+        elif typ == "cogroupref":
+            # TODO: Resolve cogroup references
             return None
+        else:
+            logger.warning(__('Unsupported cross-references %r'),
+                           target, type='ref', subtype='mixxx', location=node)
+            return None
+
+
+        if not matches:
+            logger.warning(__('no target found for cross-reference %r'),
+                           target, type='ref', subtype='mixxx', location=node)
+            return None
+
+        if len(matches) > 1:
+            logger.warning(
+                __('more than one target found for cross-reference %r: %s'),
+                target, ', '.join(match[0] for match in matches),
+                type='ref', subtype='python', location=node)
+
+        todocname, targ = matches[0]
+        return make_refnode(
+            builder, fromdocname, todocname, targ, contnode, targ)
 
 
 def setup(app):
