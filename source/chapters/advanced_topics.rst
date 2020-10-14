@@ -111,8 +111,8 @@ Mixxx Controls
 
 Nearly every knob, button, or fader you see in Mixxx's interface is
 controllable via Mixxx's "control" system. The control system allows
-skins, MIDI controllers, and HID controllers to control Mixxx via a
-single interface.
+skins, :term:`MIDI` controllers, :term:`HID` controllers and keyboards
+to control Mixxx via a single interface.
 
 A control is identified by a "group" (which is used for grouping
 associated controls) and a "key" (the name of the individual control).
@@ -1436,7 +1436,7 @@ decks in Mixxx.
    Connects the vinyl control input for vinyl control on that deck to the channel output. Allows to mix external media into DJ sets.
 
    :range: binary
-   :feedback: GUI control currently missing FIXME
+   :feedback: Passthrough label in the track overview and passthrough button
 
    .. versionadded:: v2.0.0
 
@@ -1717,7 +1717,7 @@ decks in Mixxx.
    .. versionadded:: v1.8.0
 
 
-.. mixxx:control:: [ChannelN],scratch2_enable
+.. mixxx:control:: [ChannelN],scratch2_enabled
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
@@ -2061,10 +2061,10 @@ have a different purpose (playing samples). Any control listed above for
 ``[ChannelN]`` will work for a sampler, just replace ``[ChannelN]`` with
 ``[SamplerN]``.
 
-.. mixxx:control:: [SamplerN],[Samplers],show_samplers
+.. mixxx:control:: [Samplers],show_samplers
 
 
-.. mixxx:control:: [SamplerN],[Sampler],SaveSamplerBank
+.. mixxx:control:: [Sampler],SaveSamplerBank
 
    :range: binary
    :feedback: Shows Sampler bank(s)
@@ -2075,7 +2075,7 @@ have a different purpose (playing samples). Any control listed above for
    :feedback: Opens file dialog. Configuration file can be named and saved.
 
 
-.. mixxx:control:: [SamplerN],[Sampler],LoadSamplerBank
+.. mixxx:control:: [Sampler],LoadSamplerBank
 
    Load saved sampler configuration file and add tracks to the available samplers.
 
@@ -2088,8 +2088,9 @@ Auxiliary controls
 
 You can map audio interface's inputs to mixxx's auxiliary input channels and
 connect external audio source to it (cellphone, mp3 player). Then you can use
-your midi controller to control its volume and some other parameters
-(orientation, gain, volume), apply effects and use listen function.
+your :term:`MIDI` controller to control its volume and some other parameters
+(orientation, gain, :term:`volume`), apply effects and use the
+prelisten function.
 
 
 Preview Deck controls
@@ -2143,6 +2144,9 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
    :feedback: N/A
 
    .. versionadded:: v1.10.0
+   .. deprecated:: v1.10.0
+
+      The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI.
 
 
 .. mixxx:control:: [MicrophoneN],PeakIndicator
