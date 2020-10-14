@@ -118,9 +118,9 @@ A control is identified by a "group" (which is used for grouping
 associated controls) and a "key" (the name of the individual control).
 
 For example, the volume fader for Deck 1 is identified by the group
-`[Channel1]` and key :mixxx:coref:`volume <[Channel1],volume>`. Similarly, the
-volume fader for Sampler 1 is identified by the group `[Sampler1]` and key
-:mixxx:coref:`volume <[Sampler1],volume>`.
+:mixxx:cogroupref:`[Channel1] <[ChannelN]>` and key :mixxx:coref:`volume <[Channel1],volume>`.
+Similarly, the volume fader for Sampler 1 is identified by the group
+:mixxx:cogroupref:`[Sampler1] <[SamplerN]>` and key :mixxx:coref:`volume <[Sampler1],volume>`.
 
 The group is used to collect all the controls that affect one component
 of Mixxx into one collection. Some groups have a high overlap of
@@ -194,7 +194,8 @@ To use ``*_toggle`` the respective shortcut for scripts is:
 The ``[Master]`` group
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:coref:`Master` group generally corresponds to controls that affect the mixing engine. This will bear some similarity to what you will find on a DJ mixer (e.g. crossfader controls, headphone cueing controls, etc.).
+The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine.
+This will bear some similarity to what you will find on a DJ mixer (e.g. crossfader controls, headphone cueing controls, etc.).
 
 .. mixxx:control:: [Master],audio_latency_usage
 
@@ -490,14 +491,23 @@ The :mixxx:coref:`Master` group generally corresponds to controls that affect th
    :feedback: Master meter R
 
 
-The Channel controls
-~~~~~~~~~~~~~~~~~~~~
+.. _advanced-mixxxcontrols-decks:
 
-The ``[ChannelN]`` group is for each deck in Mixxx. Whenever you see
-``[ChannelN]``, think "Deck N". N can range from 1 to the number of active
-decks in Mixxx.
+Decks, Preview Decks and Samplers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group.
+Whenever you see :mixxx:cogroupref:`[ChannelN]`, think "Deck N".
+N can range from 1 to the number of active decks in Mixxx.
+
+Preview decks and Sample decks ("samplers") in Mixxx are identical to regular decks, they simply have a different purpose (previewing tracks or playing samples, respectively).
+Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
+
+.. seealso:: There are some :ref:`additional global controls for samplers <advanced-mixxxcontrols-samplers>`.
 
 .. mixxx:control:: [ChannelN],back
+                   [PreviewDeckN],back
+                   [SamplerN],back
 
    Fast rewind (REW)
 
@@ -506,6 +516,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beat_active
+                   [PreviewDeckN],beat_active
+                   [SamplerN],beat_active
 
    Indicates whether the player is currently positioned within 50 milliseconds of a beat or not.
 
@@ -516,6 +528,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump
+                   [PreviewDeckN],beatjump
+                   [SamplerN],beatjump
 
    Jump forward by X beats (positive) or backward by X beats (negative). If a loop is active, the loop is moved by X beats.
 
@@ -526,6 +540,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump_size
+                   [PreviewDeckN],beatjump_size
+                   [SamplerN],beatjump_size
 
    Set the number of beats to jump with beatjump\_forward/backward.
 
@@ -536,6 +552,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump_forward
+                   [PreviewDeckN],beatjump_forward
+                   [SamplerN],beatjump_forward
 
    Jump forward by beatjump\_size. If a loop is active, the loop is moved forward by X beats.
 
@@ -546,6 +564,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump_backward
+                   [PreviewDeckN],beatjump_backward
+                   [SamplerN],beatjump_backward
 
    Jump backward by beatjump\_size. If a loop is active, the loop is moved backward by X beats.
 
@@ -556,6 +576,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump_X_forward
+                   [PreviewDeckN],beatjump_X_forward
+                   [SamplerN],beatjump_X_forward
 
    Jump forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved forward by X betas.
 
@@ -566,6 +588,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatjump_X_backward
+                   [PreviewDeckN],beatjump_X_backward
+                   [SamplerN],beatjump_X_backward
 
    Jump backward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved backward by X beats.
 
@@ -576,6 +600,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatloop_activate
+                   [PreviewDeckN],beatloop_activate
+                   [SamplerN],beatloop_activate
 
    Set a loop that is beatloop\_size beats long and enables the loop
 
@@ -586,6 +612,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_activate
+                   [PreviewDeckN],beatloop_X_activate
+                   [SamplerN],beatloop_X_activate
 
    Activates a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
@@ -596,6 +624,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatloop_size
+                   [PreviewDeckN],beatloop_size
+                   [SamplerN],beatloop_size
 
    Set the length of the loop in beats that will get set with beatloop\_activate and beatlooproll\_activate. Changing this will resize an existing loop if the length of the loop matches beatloop\_size.
 
@@ -606,6 +636,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_toggle
+                   [PreviewDeckN],beatloop_X_toggle
+                   [SamplerN],beatloop_X_toggle
 
    Toggles a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
@@ -616,6 +648,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_enabled
+                   [PreviewDeckN],beatloop_X_enabled
+                   [SamplerN],beatloop_X_enabled
 
    1 if beatloop X is enabled, 0 if not.
 
@@ -626,6 +660,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_activate
+                   [PreviewDeckN],beatlooproll_activate
+                   [SamplerN],beatlooproll_activate
 
    Activates a rolling loop over beatloop\_size beats. Once disabled, playback will resume where the track would have been if it had not entered the loop.
 
@@ -636,6 +672,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_X_activate
+                   [PreviewDeckN],beatlooproll_X_activate
+                   [SamplerN],beatlooproll_X_activate
 
    Activates a rolling loop over X beats. Once disabled, playback will resume where the track would have been if it had not entered the loop. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
@@ -646,6 +684,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_faster
+                   [PreviewDeckN],beats_adjust_faster
+                   [SamplerN],beats_adjust_faster
 
    Adjust the average BPM up by +0.01
 
@@ -656,6 +696,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_slower
+                   [PreviewDeckN],beats_adjust_slower
+                   [SamplerN],beats_adjust_slower
 
    Adjust the average BPM down by -0.01.
 
@@ -666,6 +708,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_translate_curpos
+                   [PreviewDeckN],beats_translate_curpos
+                   [SamplerN],beats_translate_curpos
 
    Adjust beatgrid so closest beat is aligned with the current playposition.
 
@@ -676,6 +720,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_translate_match_alignment
+                   [PreviewDeckN],beats_translate_match_alignment
+                   [SamplerN],beats_translate_match_alignment
 
    Adjust beatgrid to match another playing deck.
 
@@ -686,6 +732,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_translate_earlier
+                   [PreviewDeckN],beats_translate_earlier
+                   [SamplerN],beats_translate_earlier
 
    Move Beatgrid earlier
 
@@ -696,6 +744,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beats_translate_later
+                   [PreviewDeckN],beats_translate_later
+                   [SamplerN],beats_translate_later
 
    Move Beatgrid later
 
@@ -706,6 +756,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatsync
+                   [PreviewDeckN],beatsync
+                   [SamplerN],beatsync
 
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value
@@ -715,6 +767,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatsync_phase
+                   [PreviewDeckN],beatsync_phase
+                   [SamplerN],beatsync_phase
 
    Syncs the phase to that of the other track (if BPM is detected on both)
 
@@ -725,6 +779,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],beatsync_tempo
+                   [PreviewDeckN],beatsync_tempo
+                   [SamplerN],beatsync_tempo
 
    Syncs the BPM to that of the other track (if BPM is detected on both)
 
@@ -735,6 +791,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],bpm
+                   [PreviewDeckN],bpm
+                   [SamplerN],bpm
 
    bpm reflects the perceived (rate-adjusted) BPM of the file loaded in ChannelN
 
@@ -745,6 +803,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],bpm_tap
+                   [PreviewDeckN],bpm_tap
+                   [SamplerN],bpm_tap
 
    When tapped repeatedly, adjusts the BPM of ChannelN to match the tapped BPM
 
@@ -755,6 +815,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],CloneFromDeck
+                   [PreviewDeckN],CloneFromDeck
+                   [SamplerN],CloneFromDeck
 
    Clone the given deck number, copying the play state, position, rate, and key. If 0 or a negative number is given, Mixxx will attempt to select the first playing deck as the source for the clone.
 
@@ -765,6 +827,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_default
+                   [PreviewDeckN],cue_default
+                   [SamplerN],cue_default
 
    In CDJ mode, when playing, returns to the cue point & pauses. If stopped, sets a cue point at the current location. If stopped and at a cue point, plays from that point until released (set to 0.)
 
@@ -773,6 +837,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_gotoandplay
+                   [PreviewDeckN],cue_gotoandplay
+                   [SamplerN],cue_gotoandplay
 
    If the Cue point is set, seeks the player to it and starts playback.
 
@@ -783,6 +849,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_gotoandstop
+                   [PreviewDeckN],cue_gotoandstop
+                   [SamplerN],cue_gotoandstop
 
    If the Cue point is set, seeks the player to it and stops.
 
@@ -793,6 +861,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_indicator
+                   [PreviewDeckN],cue_indicator
+                   [SamplerN],cue_indicator
 
    Provides information to be bound to the Cue Button e.g. blinking when next press will move the cue point
 
@@ -803,6 +873,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_cdj
+                   [PreviewDeckN],cue_cdj
+                   [SamplerN],cue_cdj
 
    Cue button, always in CDJ mode
 
@@ -813,6 +885,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_play
+                   [PreviewDeckN],cue_play
+                   [SamplerN],cue_play
 
    CUP button, Go to cue point and play after release. If stopped, sets a cue point at the current location.
 
@@ -823,6 +897,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_point
+                   [PreviewDeckN],cue_point
+                   [SamplerN],cue_point
 
    The current position of the cue point in samples
 
@@ -831,6 +907,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_preview
+                   [PreviewDeckN],cue_preview
+                   [SamplerN],cue_preview
 
    Plays from the current cue point
 
@@ -839,6 +917,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_set
+                   [PreviewDeckN],cue_set
+                   [SamplerN],cue_set
 
    Sets a cue point at the current location
 
@@ -847,6 +927,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],cue_simple
+                   [PreviewDeckN],cue_simple
+                   [SamplerN],cue_simple
 
    If the player is not playing, set the cue point at the current location otherwise seek to the cue point.
 
@@ -855,6 +937,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],duration
+                   [PreviewDeckN],duration
+                   [SamplerN],duration
 
    Outputs the length of the current song in seconds
 
@@ -863,6 +947,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],eject
+                   [PreviewDeckN],eject
+                   [SamplerN],eject
 
    Eject currently loaded track
 
@@ -873,6 +959,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],end
+                   [PreviewDeckN],end
+                   [SamplerN],end
 
    Jump to end of track
 
@@ -881,6 +969,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],end_of_track
+                   [PreviewDeckN],end_of_track
+                   [SamplerN],end_of_track
 
    Switches to "1" if the play osition is within the 'end' range defined in Preferences > Waveforms > "End of track warning"
 
@@ -889,6 +979,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],file_bpm
+                   [PreviewDeckN],file_bpm
+                   [SamplerN],file_bpm
 
    the detected BPM of the loaded track
 
@@ -897,6 +989,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],file_key
+                   [PreviewDeckN],file_key
+                   [SamplerN],file_key
 
    the detected key of the loaded track
 
@@ -907,6 +1001,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],fwd
+                   [PreviewDeckN],fwd
+                   [SamplerN],fwd
 
    Fast forward (FF)
 
@@ -915,6 +1011,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_activate
+                   [PreviewDeckN],hotcue_X_activate
+                   [SamplerN],hotcue_X_activate
 
    If hotcue X is set, seeks the player to hotcue X's position. If hotcue X is not set, sets hotcue X to the current play position. To continue playing while any hotcues are activated, play must be set to 0, not 1.
 
@@ -925,6 +1023,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_clear
+                   [PreviewDeckN],hotcue_X_clear
+                   [SamplerN],hotcue_X_clear
 
    If hotcue X is set, clears its hotcue status.
 
@@ -935,6 +1035,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_color
+                   [PreviewDeckN],hotcue_X_color
+                   [SamplerN],hotcue_X_color
 
    Color of hotcue X or -1 if the hotcue is not set.
 
@@ -945,6 +1047,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_enabled
+                   [PreviewDeckN],hotcue_X_enabled
+                   [SamplerN],hotcue_X_enabled
 
    1 if hotcue X is active, (position is not -1), 0 otherwise.
 
@@ -954,6 +1058,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_goto
+                   [PreviewDeckN],hotcue_X_goto
+                   [SamplerN],hotcue_X_goto
 
    If hotcue X is set, seeks the player to hotcue X's position.
 
@@ -964,6 +1070,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_gotoandplay
+                   [PreviewDeckN],hotcue_X_gotoandplay
+                   [SamplerN],hotcue_X_gotoandplay
 
    If hotcue X is set, seeks the player to hotcue X's position and starts playback.
 
@@ -974,6 +1082,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_gotoandstop
+                   [PreviewDeckN],hotcue_X_gotoandstop
+                   [SamplerN],hotcue_X_gotoandstop
 
    If hotcue X is set, seeks the player to hotcue X's position and stops.
 
@@ -984,6 +1094,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_position
+                   [PreviewDeckN],hotcue_X_position
+                   [SamplerN],hotcue_X_position
 
    The position of hotcue X in samples, -1 if not set.
 
@@ -994,6 +1106,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_set
+                   [PreviewDeckN],hotcue_X_set
+                   [SamplerN],hotcue_X_set
 
    Set hotcue X to the current play position. If hotcue X was previously set, clears its hotcue status.
 
@@ -1004,6 +1118,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus
+                   [PreviewDeckN],hotcue_focus
+                   [SamplerN],hotcue_focus
 
    Contains the number of the most recentlly used hotcue (or -1 if no hotcue was used)
 
@@ -1014,6 +1130,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus_color_prev
+                   [PreviewDeckN],hotcue_focus_color_prev
+                   [SamplerN],hotcue_focus_color_prev
 
    If there is a focused hotcue, sets its color to the previous color in the palette.
 
@@ -1024,6 +1142,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus_color_next
+                   [PreviewDeckN],hotcue_focus_color_next
+                   [SamplerN],hotcue_focus_color_next
 
    If there is a focused hotcue, sets its color to the next color in the palette.
 
@@ -1034,6 +1154,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_end_activate
+                   [PreviewDeckN],intro_end_activate
+                   [SamplerN],intro_end_activate
 
    If the intro end cue is set, seeks the player to the intro end position. If the intro end is not set, sets the intro end to the current play position.
 
@@ -1044,6 +1166,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_end_clear
+                   [PreviewDeckN],intro_end_clear
+                   [SamplerN],intro_end_clear
 
    If the intro end cue is set, clears its status.
 
@@ -1054,6 +1178,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_end_enabled
+                   [PreviewDeckN],intro_end_enabled
+                   [SamplerN],intro_end_enabled
 
    1 if intro end cue is set, (position is not -1), 0 otherwise.
 
@@ -1064,6 +1190,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_end_position
+                   [PreviewDeckN],intro_end_position
+                   [SamplerN],intro_end_position
 
    The position of the intro end in samples, -1 if not set.
 
@@ -1074,6 +1202,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_end_set
+                   [PreviewDeckN],intro_end_set
+                   [SamplerN],intro_end_set
 
    Set intro end to the current play position. If intro end was previously set, it is moved to the new position.
 
@@ -1084,6 +1214,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_start_activate
+                   [PreviewDeckN],intro_start_activate
+                   [SamplerN],intro_start_activate
 
    If the intro start cue is set, seeks the player to the intro start position. If the intro start is not set, sets the intro start to the current play position.
 
@@ -1094,6 +1226,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_start_clear
+                   [PreviewDeckN],intro_start_clear
+                   [SamplerN],intro_start_clear
 
    If the intro start cue is set, clears its status.
 
@@ -1104,6 +1238,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_start_enabled
+                   [PreviewDeckN],intro_start_enabled
+                   [SamplerN],intro_start_enabled
 
    1 if intro start cue is set, (position is not -1), 0 otherwise.
 
@@ -1114,6 +1250,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_start_position
+                   [PreviewDeckN],intro_start_position
+                   [SamplerN],intro_start_position
 
    The position of the intro start in samples, -1 if not set.
 
@@ -1124,6 +1262,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],intro_start_set
+                   [PreviewDeckN],intro_start_set
+                   [SamplerN],intro_start_set
 
    Set intro start to the current play position. If intro start was previously set, it is moved to the new position.
 
@@ -1134,6 +1274,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],key
+                   [PreviewDeckN],key
+                   [SamplerN],key
 
    Current key of the track
 
@@ -1143,6 +1285,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],keylock
+                   [PreviewDeckN],keylock
+                   [SamplerN],keylock
 
    Enable key-lock for the specified deck (rate changes only affect tempo, not key)
 
@@ -1153,6 +1297,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],LoadSelectedTrack
+                   [PreviewDeckN],LoadSelectedTrack
+                   [SamplerN],LoadSelectedTrack
 
    Loads the currently highlighted track into the deck
 
@@ -1161,6 +1307,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],LoadSelectedTrackAndPlay
+                   [PreviewDeckN],LoadSelectedTrackAndPlay
+                   [SamplerN],LoadSelectedTrackAndPlay
 
    Loads the currently highlighted track into the deck and starts playing
 
@@ -1171,6 +1319,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_double
+                   [PreviewDeckN],loop_double
+                   [SamplerN],loop_double
 
    Doubles beatloop_size. If beatloop_size equals the size of the loop, the loop is resized.
 
@@ -1182,6 +1332,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_enabled
+                   [PreviewDeckN],loop_enabled
+                   [SamplerN],loop_enabled
 
    Indicates whether or not a loop is enabled.
 
@@ -1192,6 +1344,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_end_position
+                   [PreviewDeckN],loop_end_position
+                   [SamplerN],loop_end_position
 
    The player loop-out position in samples, -1 if not set.
 
@@ -1202,6 +1356,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_halve
+                   [PreviewDeckN],loop_halve
+                   [SamplerN],loop_halve
 
    Halves beatloop_size. If beatloop\_size equals the size of the loop, the loop is resized.
 
@@ -1213,6 +1369,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_in
+                   [PreviewDeckN],loop_in
+                   [SamplerN],loop_in
 
    If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
 
@@ -1224,6 +1382,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_in_goto
+                   [PreviewDeckN],loop_in_goto
+                   [SamplerN],loop_in_goto
 
    Seek to the loop in point.
 
@@ -1234,6 +1394,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_out
+                   [PreviewDeckN],loop_out
+                   [SamplerN],loop_out
 
    If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
 
@@ -1245,6 +1407,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_out_goto
+                   [PreviewDeckN],loop_out_goto
+                   [SamplerN],loop_out_goto
 
    Seek to the loop out point.
 
@@ -1255,6 +1419,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_move
+                   [PreviewDeckN],loop_move
+                   [SamplerN],loop_move
 
    Move loop forward by X beats (positive) or backward by X beats (negative).
 
@@ -1265,6 +1431,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_move_X_forward
+                   [PreviewDeckN],loop_move_X_forward
+                   [SamplerN],loop_move_X_forward
 
    Moves the loop in and out points forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
@@ -1275,6 +1443,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_move_X_backward
+                   [PreviewDeckN],loop_move_X_backward
+                   [SamplerN],loop_move_X_backward
 
    Loop moves by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
@@ -1285,6 +1455,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_scale
+                   [PreviewDeckN],loop_scale
+                   [SamplerN],loop_scale
 
    Scale the loop length by the value scale is set to by moving the end marker. beatloop\_size is not updated to reflect the change.
 
@@ -1295,6 +1467,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],loop_start_position
+                   [PreviewDeckN],loop_start_position
+                   [SamplerN],loop_start_position
 
    The player loop-in position in samples, -1 if not set.
 
@@ -1305,6 +1479,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],orientation
+                   [PreviewDeckN],orientation
+                   [SamplerN],orientation
 
    Crossfader assignment.
 
@@ -1322,6 +1498,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_end_activate
+                   [PreviewDeckN],outro_end_activate
+                   [SamplerN],outro_end_activate
 
    If the outro end cue is set, seeks the player to the outro end position. If the outro end is not set, sets the outro end to the current play position.
 
@@ -1333,6 +1511,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_end_clear
+                   [PreviewDeckN],outro_end_clear
+                   [SamplerN],outro_end_clear
 
    If the outro end cue is set, clears its status.
 
@@ -1344,6 +1524,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_end_enabled
+                   [PreviewDeckN],outro_end_enabled
+                   [SamplerN],outro_end_enabled
 
    1 if outro end cue is set, (position is not -1), 0 otherwise.
 
@@ -1355,6 +1537,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_end_position
+                   [PreviewDeckN],outro_end_position
+                   [SamplerN],outro_end_position
 
    The position of the outro end in samples, -1 if not set.
 
@@ -1366,6 +1550,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_end_set
+                   [PreviewDeckN],outro_end_set
+                   [SamplerN],outro_end_set
 
    Set outro end to the current play position. If outro end was previously set, it is moved to the new position.
 
@@ -1377,6 +1563,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_start_activate
+                   [PreviewDeckN],outro_start_activate
+                   [SamplerN],outro_start_activate
 
    If the outro start cue is set, seeks the player to the outro start position. If the outro start is not set, sets the outro start to the current play position.
 
@@ -1388,6 +1576,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_start_clear
+                   [PreviewDeckN],outro_start_clear
+                   [SamplerN],outro_start_clear
 
    If the outro start cue is set, clears its status.
 
@@ -1399,6 +1589,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_start_enabled
+                   [PreviewDeckN],outro_start_enabled
+                   [SamplerN],outro_start_enabled
 
    1 if outro start cue is set, (position is not -1), 0 otherwise.
 
@@ -1410,6 +1602,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_start_position
+                   [PreviewDeckN],outro_start_position
+                   [SamplerN],outro_start_position
 
    The position of the outro start in samples, -1 if not set.
 
@@ -1421,6 +1615,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],outro_start_set
+                   [PreviewDeckN],outro_start_set
+                   [SamplerN],outro_start_set
 
    Set outro start to the current play position. If outro start was previously set, it is moved to the new position.
 
@@ -1432,6 +1628,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],passthrough
+                   [PreviewDeckN],passthrough
+                   [SamplerN],passthrough
 
    Connects the vinyl control input for vinyl control on that deck to the channel output. Allows to mix external media into DJ sets.
 
@@ -1442,14 +1640,40 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],PeakIndicator
+                   [PreviewDeckN],PeakIndicator
+                   [SamplerN],PeakIndicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
    :range: binary
    :feedback: Clip light
 
+.. mixxx:control:: [ChannelN],PeakIndicatorL
+                   [PreviewDeckN],PeakIndicatorL
+                   [SamplerN],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: v2.0.0
+
+.. mixxx:control:: [ChannelN],PeakIndicatorR
+                   [PreviewDeckN],PeakIndicatorR
+                   [SamplerN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: v2.0.0
 
 .. mixxx:control:: [ChannelN],pfl
+                   [PreviewDeckN],pfl
+                   [SamplerN],pfl
 
    Toggles headphone cueing
 
@@ -1458,6 +1682,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],pitch
+                   [PreviewDeckN],pitch
+                   [SamplerN],pitch
 
    The total adjustment to the track's pitch, including changes from the rate slider if keylock is off as well as pitch\_adjust. Do not map this to knobs or sliders on controllers; map pitch\_adjust instead.
 
@@ -1468,6 +1694,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],pitch_up
+                   [PreviewDeckN],pitch_up
+                   [SamplerN],pitch_up
 
    Changes the track pitch up one half step, independent of the tempo.
 
@@ -1478,6 +1706,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],pitch_down
+                   [PreviewDeckN],pitch_down
+                   [SamplerN],pitch_down
 
    Changes the track pitch down one half step, independent of the tempo.
 
@@ -1488,6 +1718,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],pitch_adjust
+                   [PreviewDeckN],pitch_adjust
+                   [SamplerN],pitch_adjust
 
    Adjust the pitch in addition to the speed slider pitch.
 
@@ -1498,6 +1730,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],play
+                   [PreviewDeckN],play
+                   [SamplerN],play
 
    Toggles playing or pausing the track.
 
@@ -1506,6 +1740,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],play_indicator
+                   [PreviewDeckN],play_indicator
+                   [SamplerN],play_indicator
 
    Provides information to be bound with the a Play/Pause button e.g blinking when play is possible
 
@@ -1516,6 +1752,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],play_stutter
+                   [PreviewDeckN],play_stutter
+                   [SamplerN],play_stutter
 
    A play button without pause. Pushing while playing, starts play at cue point again (Stutter).
 
@@ -1526,6 +1764,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],playposition
+                   [PreviewDeckN],playposition
+                   [SamplerN],playposition
 
    Sets the absolute position in the track. The Range is -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
 
@@ -1534,6 +1774,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],pregain
+                   [PreviewDeckN],pregain
+                   [SamplerN],pregain
 
    Adjusts the pre-fader gain of the track (to avoid clipping)
 
@@ -1542,6 +1784,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],quantize
+                   [PreviewDeckN],quantize
+                   [SamplerN],quantize
 
    Aligns Hot-cues and Loop In & Out to the next beat from the current position.
 
@@ -1552,6 +1796,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate
+                   [PreviewDeckN],rate
+                   [SamplerN],rate
 
    Speed control
 
@@ -1560,6 +1806,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_dir
+                   [PreviewDeckN],rate_dir
+                   [SamplerN],rate_dir
 
    Indicates orientation of speed slider.
 
@@ -1567,6 +1815,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_perm_down
+                   [PreviewDeckN],rate_perm_down
+                   [SamplerN],rate_perm_down
 
    Sets the speed one step lower (4 % default) lower
 
@@ -1575,6 +1825,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_perm_down_small
+                   [PreviewDeckN],rate_perm_down_small
+                   [SamplerN],rate_perm_down_small
 
    Sets the speed one small step lower (1 % default)
 
@@ -1583,6 +1835,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_perm_up
+                   [PreviewDeckN],rate_perm_up
+                   [SamplerN],rate_perm_up
 
    Sets the speed one step higher (4 % default)
 
@@ -1591,6 +1845,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_perm_up_small
+                   [PreviewDeckN],rate_perm_up_small
+                   [SamplerN],rate_perm_up_small
 
    Sets the speed one small step higher (1 % default)
 
@@ -1599,6 +1855,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_temp_down
+                   [PreviewDeckN],rate_temp_down
+                   [SamplerN],rate_temp_down
 
    Holds the speed one step lower while active
 
@@ -1607,6 +1865,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_temp_down_small
+                   [PreviewDeckN],rate_temp_down_small
+                   [SamplerN],rate_temp_down_small
 
    Holds the speed one small step lower while active
 
@@ -1615,6 +1875,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_temp_up
+                   [PreviewDeckN],rate_temp_up
+                   [SamplerN],rate_temp_up
 
    Holds the speed one step higher while active
 
@@ -1623,6 +1885,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rate_temp_up_small
+                   [PreviewDeckN],rate_temp_up_small
+                   [SamplerN],rate_temp_up_small
 
    Holds the speed one small step higher while active
 
@@ -1631,6 +1895,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rateRange
+                   [PreviewDeckN],rateRange
+                   [SamplerN],rateRange
 
    Sets the range of the Speed slider (0.08 = 8%)
 
@@ -1639,6 +1905,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rateSearch
+                   [PreviewDeckN],rateSearch
+                   [SamplerN],rateSearch
 
    Seeks forward (positive values) or backward (negative values) at a speed determined by the value
 
@@ -1647,11 +1915,15 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],rateEngine
+                   [PreviewDeckN],rateEngine
+                   [SamplerN],rateEngine
 
    Actual rate (used in visuals, not for control)
 
 
 .. mixxx:control:: [ChannelN],reloop_andstop
+                   [PreviewDeckN],reloop_andstop
+                   [SamplerN],reloop_andstop
 
    Activate current loop, jump to its loop in point, and stop playback.
 
@@ -1661,6 +1933,8 @@ decks in Mixxx.
    .. versionadded:: v2.1.0
 
 .. mixxx:control:: [ChannelN],reloop_toggle
+                   [PreviewDeckN],reloop_toggle
+                   [SamplerN],reloop_toggle
 
    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
 
@@ -1671,6 +1945,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],repeat
+                   [PreviewDeckN],repeat
+                   [SamplerN],repeat
 
    Enable repeat-mode for the specified deck
 
@@ -1681,6 +1957,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],reset_key
+                   [PreviewDeckN],reset_key
+                   [SamplerN],reset_key
 
    Resets the key to the original track key.
 
@@ -1690,6 +1968,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],reverse
+                   [PreviewDeckN],reverse
+                   [SamplerN],reverse
 
    Toggles playing the track backwards
 
@@ -1698,6 +1978,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],reverseroll
+                   [PreviewDeckN],reverseroll
+                   [SamplerN],reverseroll
 
    Enables reverse and slip mode while held (Censor)
 
@@ -1708,6 +1990,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],scratch2
+                   [PreviewDeckN],scratch2
+                   [SamplerN],scratch2
 
    Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
 
@@ -1718,6 +2002,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],scratch2_enabled
+                   [PreviewDeckN],scratch2_enabled
+                   [SamplerN],scratch2_enabled
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
@@ -1728,6 +2014,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],slip_enabled
+                   [PreviewDeckN],slip_enabled
+                   [SamplerN],slip_enabled
 
    Toggles slip mode. When active, the playback continues muted in the background during a loop, scratch etc. Once disabled, the audible playback will resume where the track would have been.
 
@@ -1738,6 +2026,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],stars_up
+                   [PreviewDeckN],stars_up
+                   [SamplerN],stars_up
 
    Increase the rating of the currently loaded track (if the skin has star widgets in the decks section).
 
@@ -1748,6 +2038,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],stars_down
+                   [PreviewDeckN],stars_down
+                   [SamplerN],stars_down
 
    Decrease the rating of the currently loaded track (if the skin has star widgets in the decks section).
 
@@ -1758,6 +2050,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],start
+                   [PreviewDeckN],start
+                   [SamplerN],start
 
    Jump to start of track
 
@@ -1766,6 +2060,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],start_play
+                   [PreviewDeckN],start_play
+                   [SamplerN],start_play
 
    Start playback from the beginning of the deck.
 
@@ -1776,6 +2072,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],start_stop
+                   [PreviewDeckN],start_stop
+                   [SamplerN],start_stop
 
    Seeks a player to the start and then stops it.
 
@@ -1786,6 +2084,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],stop
+                   [PreviewDeckN],stop
+                   [SamplerN],stop
 
    Stops a player.
 
@@ -1796,6 +2096,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],sync_enabled
+                   [PreviewDeckN],sync_enabled
+                   [SamplerN],sync_enabled
 
    Syncs the BPM and phase (depending on quantize) to that of the other track (if BPM is detected on both). Click & hold for at least one second activates Master sync on that deck.
 
@@ -1806,6 +2108,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],sync_master
+                   [PreviewDeckN],sync_master
+                   [SamplerN],sync_master
 
    Sets deck as master clock.
 
@@ -1818,6 +2122,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],sync_mode
+                   [PreviewDeckN],sync_mode
+                   [SamplerN],sync_mode
 
    .. versionadded:: v2.0.0
 
@@ -1831,6 +2137,8 @@ decks in Mixxx.
       ===== =============================
 
 .. mixxx:control:: [ChannelN],sync_key
+                   [PreviewDeckN],sync_key
+                   [SamplerN],sync_key
 
    :feedback: Key value widget
 
@@ -1840,6 +2148,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],track_color
+                   [PreviewDeckN],track_color
+                   [SamplerN],track_color
 
    Color of the currently loaded track or -1 if no track is loaded or the track has no color.
 
@@ -1850,6 +2160,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],track_loaded
+                   [PreviewDeckN],track_loaded
+                   [SamplerN],track_loaded
 
    Whether a track is loaded in the specified deck
 
@@ -1860,6 +2172,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],track_samplerate
+                   [PreviewDeckN],track_samplerate
+                   [SamplerN],track_samplerate
 
    Sample rate of the track loaded on the specified deck
 
@@ -1870,6 +2184,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],track_samples
+                   [PreviewDeckN],track_samples
+                   [SamplerN],track_samples
 
    Number of sound samples in the track loaded on the specified deck
 
@@ -1878,6 +2194,9 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],volume
+                   [PreviewDeckN],volume
+                   [SamplerN],volume
+
 
    Adjusts the channel volume fader
 
@@ -1886,6 +2205,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],mute
+                   [PreviewDeckN],mute
+                   [SamplerN],mute
 
    Mutes the channel
 
@@ -1896,6 +2217,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_enabled
+                   [PreviewDeckN],vinylcontrol_enabled
+                   [SamplerN],vinylcontrol_enabled
 
    Toggles whether a deck is being controlled by digital vinyl
 
@@ -1906,6 +2229,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_cueing
+                   [PreviewDeckN],vinylcontrol_cueing
+                   [SamplerN],vinylcontrol_cueing
 
    Determines how cue points are treated in vinyl control Relative mode
 
@@ -1922,6 +2247,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_mode
+                   [PreviewDeckN],vinylcontrol_mode
+                   [SamplerN],vinylcontrol_mode
 
    Determines how vinyl control interprets needle information. absolute mode - track position equals needle position and speed; relative mode - track speed equals needle speed regardless of needle position; constant mode - track speed equals last known-steady speed regardless of needle input
 
@@ -1942,6 +2269,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_status
+                   [PreviewDeckN],vinylcontrol_status
+                   [SamplerN],vinylcontrol_status
 
    Provides visual feedback with regards to vinyl control status
 
@@ -1952,6 +2281,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],visual_bpm
+                   [PreviewDeckN],visual_bpm
+                   [SamplerN],visual_bpm
 
    BPM to display in the UI (updated more slowly than the actual bpm)
 
@@ -1962,6 +2293,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],visual_key
+                   [PreviewDeckN],visual_key
+                   [SamplerN],visual_key
 
    Current musical key after pitch shifting to display in the UI using the notation selected in the preferences
 
@@ -1972,6 +2305,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],visual_key_distance
+                   [PreviewDeckN],visual_key_distance
+                   [SamplerN],visual_key_distance
 
    The distance to the nearest key measured in cents
 
@@ -1982,6 +2317,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],VuMeter
+                   [PreviewDeckN],VuMeter
+                   [SamplerN],VuMeter
 
    Outputs the current instantaneous deck volume
 
@@ -1990,6 +2327,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],VuMeterL
+                   [PreviewDeckN],VuMeterL
+                   [SamplerN],VuMeterL
 
    Outputs the current instantaneous deck volume for the left channel
 
@@ -1998,6 +2337,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],VuMeterR
+                   [PreviewDeckN],VuMeterR
+                   [SamplerN],VuMeterR
 
    Outputs the current instantaneous deck volume for the right channel
 
@@ -2006,6 +2347,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom
+                   [PreviewDeckN],waveform_zoom
+                   [SamplerN],waveform_zoom
 
    Zooms the waveform to look ahead or back as needed.
 
@@ -2016,6 +2359,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_up
+                   [PreviewDeckN],waveform_zoom_up
+                   [SamplerN],waveform_zoom_up
 
    Waveform Zoom Out
 
@@ -2026,6 +2371,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_down
+                   [PreviewDeckN],waveform_zoom_down
+                   [SamplerN],waveform_zoom_down
 
    Waveform Zoom In
 
@@ -2036,6 +2383,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_set_default
+                   [PreviewDeckN],waveform_zoom_set_default
+                   [SamplerN],waveform_zoom_set_default
 
    Return to default waveform zoom level
 
@@ -2046,6 +2395,8 @@ decks in Mixxx.
 
 
 .. mixxx:control:: [ChannelN],wheel
+                   [PreviewDeckN],wheel
+                   [SamplerN],wheel
 
    Affects relative play speed & direction persistently (additive offset & must manually be undone)
 
@@ -2053,26 +2404,26 @@ decks in Mixxx.
    :feedback: Waveform
 
 
-The Sampler controls
-~~~~~~~~~~~~~~~~~~~~
+.. _advanced-mixxxcontrols-samplers:
 
-Sample decks ("samplers") in Mixxx are identical to decks, they simply
-have a different purpose (playing samples). Any control listed above for
-``[ChannelN]`` will work for a sampler, just replace ``[ChannelN]`` with
-``[SamplerN]``.
+Global Sampler controls
++++++++++++++++++++++++
+
+These controls can be used to control all samplers.
 
 .. mixxx:control:: [Samplers],show_samplers
 
-
-.. mixxx:control:: [Sampler],SaveSamplerBank
-
    :range: binary
    :feedback: Shows Sampler bank(s)
+
+.. mixxx:control:: [Sampler],SaveSamplerBank
 
    Save sampler configuration. Make currently loaded tracks in samplers instantly available at a later point.
 
    :range: binary
    :feedback: Opens file dialog. Configuration file can be named and saved.
+
+   .. versionadded: 2.0.0
 
 
 .. mixxx:control:: [Sampler],LoadSamplerBank
@@ -2082,46 +2433,24 @@ have a different purpose (playing samples). Any control listed above for
    :range: binary
    :feedback: Opens file dialog. Select configuration file.
 
-
-Auxiliary controls
-~~~~~~~~~~~~~~~~~~
-
-You can map audio interface's inputs to mixxx's auxiliary input channels and
-connect external audio source to it (cellphone, mp3 player). Then you can use
-your :term:`MIDI` controller to control its volume and some other parameters
-(orientation, gain, :term:`volume`), apply effects and use the
-prelisten function.
+   .. versionadded: 2.0.0
 
 
-Preview Deck controls
-~~~~~~~~~~~~~~~~~~~~~
+.. _advanced-mixxxcontrols-aux:
 
-Preview decks in Mixxx are identical to regular decks. Any control listed above
-for ``[ChannelN]`` will work for a preview deck, just replace ``[ChannelN]``
-with ``[PreviewDeckN]``.
+Microphones and Auxiliary Channels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+In contrast to :ref:`decks, preview decks and samplers <advanced-mixxxcontrols-decks>`, microphones and auxiliary channels are input channels.
+You can map audio interface's inputs to mixxx's auxiliary input channels and connect external audio source to it (cellphone, mp3 player).
+Then you can use your :term:`MIDI` controller to control its volume and some other parameters (orientation, gain, :term:`volume`), apply effects and use the prelisten function.
 
-The ``[VinylControl]`` group
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. mixxx:control:: [VinylControl],Toggle
-
-   Moves control by a vinyl control signal from one deck to another if using the single deck vinyl control (VC) feature.
-
-   :range: binary
-   :feedback: If VC isn't enabled on any decks, enable it on the first one we're receiving samples for. If VC is enabled on a single (exclusive) deck, and another deck is setup to receive samples, disable it on the former deck and enable it on the next eligible deck (ordered by deck number). If VC is enabled on multiple decks, don't do anything.
-
-   .. versionadded:: v1.10.0
-
-
-The ``[MicrophoneN]`` group
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Microphone 1, just use ``[Microphone]``.
+.. note:: Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`.
 
 .. mixxx:control:: [MicrophoneN],enabled
+                   [AuxiliaryN],enabled
 
-   1 if a microphone input is enabled, 0 if not.
+   1 if a channel input is enabled, 0 if not.
 
    :range: binary
    :feedback: Microphone is enabled.
@@ -2129,9 +2458,25 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
    .. versionadded:: v1.10.0
 
 
-.. mixxx:control:: [MicrophoneN],orientation
+.. mixxx:control:: [MicrophoneN],input_configured
+                   [AuxiliaryN],input_configured
 
-   Set microphone orientation,
+   1 if there is input is configured for this channel, 0 if not.
+
+   :range: binary, read-only
+   :feedback: Configured channel in the sound preferences.
+
+
+.. mixxx:control:: [MicrophoneN],master
+.. mixxx:control:: [AuxiliaryN],master
+
+   :range: binary
+
+
+.. mixxx:control:: [MicrophoneN],orientation
+                   [AuxiliaryN],orientation
+
+   Set channel orientation,
 
    :range:
       ===== ===================================
@@ -2150,6 +2495,7 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
 
 
 .. mixxx:control:: [MicrophoneN],PeakIndicator
+                   [AuxiliaryN],PeakIndicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
@@ -2159,9 +2505,40 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
    .. versionadded:: v1.10.0
 
 
-.. mixxx:control:: [MicrophoneN],talkover
+.. mixxx:control:: [MicrophoneN],PeakIndicatorL
+                   [AuxiliaryN],PeakIndicatorL
 
-   Hold value at 1 to mix microphone input into the master output.
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: v2.0.0
+
+.. mixxx:control:: [MicrophoneN],PeakIndicatorR
+                   [AuxiliaryN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: v2.0.0
+
+.. mixxx:control:: [MicrophoneN],pfl
+                   [AuxiliaryN],pfl
+
+   Toggles headphone cueing
+
+   :range: binary
+   :feedback: Headphone button
+
+
+.. mixxx:control:: [MicrophoneN],talkover
+                   [AuxiliaryN],talkover
+
+   Hold value at 1 to mix channel input into the master output.
 
    :range: binary
    :feedback: Talk button
@@ -2170,8 +2547,9 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
 
 
 .. mixxx:control:: [MicrophoneN],volume
+                   [AuxiliaryN],volume
 
-   Adjusts the microphone volume fader
+   Adjusts the channel volume fader
 
    :range: default
    :feedback: Microphone volume fader changes
@@ -2180,14 +2558,16 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
 
 
 .. mixxx:control:: [MicrophoneN],pregain
+                   [AuxiliaryN],pregain
 
-   Adjusts the gain of the mic input
+   Adjusts the gain of the input
 
    :range: 0.0..1.0..4.0
    :feedback: Microphone gain knob
 
 
 .. mixxx:control:: [MicrophoneN],mute
+                   [AuxiliaryN],mute
 
    Mutes the channel
 
@@ -2198,11 +2578,47 @@ Below, N=2 up to the number of active microphones. e.g ``[Microphone2]``. For Mi
 
 
 .. mixxx:control:: [MicrophoneN],VuMeter
+                   [AuxiliaryN],VuMeter
 
-   Outputs the current instantaneous microphone volume
+   Outputs the current instantaneous channel volume
 
    :range: default
    :feedback: Microphone VU meter changes
+
+   .. versionadded:: v1.10.0
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterL
+                   [AuxiliaryN],VuMeterL
+
+   Outputs the current instantaneous deck volume for the left channel
+
+   :range: default
+   :feedback: Deck VU meter L
+
+   .. versionadded:: v2.0.0
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterR
+                   [AuxiliaryN],VuMeterR
+
+   Outputs the current instantaneous deck volume for the right channel
+
+   :range: default
+   :feedback: Deck VU meter R
+
+   .. versionadded:: v2.0.0
+
+
+The ``[VinylControl]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:control:: [VinylControl],Toggle
+
+   Moves control by a vinyl control signal from one deck to another if using the single deck vinyl control (VC) feature.
+
+   :range: binary
+   :feedback: If VC isn't enabled on any decks, enable it on the first one we're receiving samples for. If VC is enabled on a single (exclusive) deck, and another deck is setup to receive samples, disable it on the former deck and enable it on the next eligible deck (ordered by deck number). If VC is enabled on multiple decks, don't do anything.
 
    .. versionadded:: v1.10.0
 
