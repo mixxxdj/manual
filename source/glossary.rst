@@ -4,6 +4,10 @@ Glossary of Terms
 .. glossary::
    :sorted:
 
+   ASIO
+   Audio Stream Input/Output
+     ASIO is a :term:`low-latency <latency>` :term:`audio interface` :term:`API` on Microsoft Windows.
+
    cueing
      Headphone cueing, or just cueing, is listening to the next track you would
      like to mix in your headphones. The audience will not hear what you are
@@ -70,7 +74,8 @@ Glossary of Terms
      play it.
 
    IRC
-     Internet Relay Chat (IRC) is an online chat network. The Mixxx IRC channel
+   Internet Relay Chat 
+     IRC is an online chat network. The Mixxx IRC channel
      was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx``
      channel. The channel was replaced in 2018 by the
      :term:`Mixxx Zulip Chat <Zulip>`.
@@ -82,7 +87,8 @@ Glossary of Terms
      at can be found at `<https://mixxx.zulipchat.com>`_ .
 
    BPM
-     Beats per minute (BPM) is used as a measure of tempo in music.
+   Beats per minute
+     BPM is used as a measure of tempo in music.
      If you tap your foot to music you are following the “beat”.
      If you count how many taps you do in a minute you have calculated the BPM.
 
@@ -97,21 +103,22 @@ Glossary of Terms
      :term:`BPM` representation.
 
    MIDI
-     Short for Musical Instrument Digital Interface. A digital
-     communications language and hardware specification enabling compatible
+   Musical Instrument Digital Interface
+     A digital communications language and hardware specification enabling compatible
      electronic instruments, sequencers, computers, etc., to communicate with
      each other in a network. Most DJ :term:`controllers <controller>` use MIDI
      to communicate with computers.
 
    HID
-     Short for Human Interface Device, a part of the USB specification. It
-     specifies a device class (a type of computer hardware) for human interface
+   Human Interface Device
+     A part of the :term:`USB` specification. It specifies a device class (a
+     type of computer hardware) for human interface
      devices such as keyboards, mice, game controllers, and some DJ
      :term:`controllers <controller>`.
 
    controller
      An external hardware device that generates and transmits signals to a
-     computer, usually via USB, to control software with physical controls
+     computer, usually via :term:`USB`, to control software with physical controls
      other than a mouse and keyboard. Controllers have many uses for music such
      as controlling DJ programs like Mixxx. They typically send :term:`MIDI`
      signals but some controllers use :term:`HID` signals. Many DJs prefer to
@@ -227,43 +234,45 @@ Glossary of Terms
    MP3
      A patented audio compression algorithm which uses a form of :term:`lossy`
      data compression. It is de-facto standard of digital audio compression for
-     music. MP3 files generally end with a .mp3 extension.
+     music. MP3 files generally end with a :file:`.mp3` extension.
 
    AAC
-     Advanced Audio Coding (AAC) is a patented audio compression algorithm which
-     uses a form of :term:`lossy` data compression. Designed to be the successor
-     to :term:`MP3`, AAC generally achieves better sound quality at similar bit
-     rates. While the .aac extension is sometimes used for AAC-encoded files,
-     they are typically saved with an .m4a file extension.
+   Advanced Audio Coding 
+     A patented audio compression algorithm which uses a form of :term:`lossy`
+     data compression. Designed to be the successor to :term:`MP3`, AAC
+     generally achieves better sound quality at similar bit rates. While the
+     .aac extension is sometimes used for AAC-encoded files, they are typically
+     saved with an :file:`.m4a` file extension.
 
    FLAC
-     Free Lossless Audio Compression (FLAC), a patent-free audio compression
-     similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio
+   Free Lossless Audio Compression
+     A patent-free audio compression similar to :term:`MP3` but
+     :term:`lossless` (i.e. there is no loss in audio
      quality when used). FLAC files generally end with a .flac extension.
 
    ALAC
      Apple Lossless Audio Codec (ALAC) is a :term:`lossless` audio file format
      used by iTunes and other Apple products. ALAC files use the same MP4
-     container format as AAC and use the same file extensions (m4a, mp4). Mixxx
-     and many other programs are not compatible with ALAC. It is recommended
-     to convert ALAC files to :term:`FLAC` for use in Mixxx.
+     container format as AAC and use the same file extensions (:file:`m4a`,
+     :file:`mp4`). Mixxx and many other programs are not compatible with ALAC.
+     It is recommended to convert ALAC files to :term:`FLAC` for use in Mixxx.
 
    AIFF
-     Short for Audio Interchange File Format. High-quality digital audio file
-     format, similar to .wav files. Contains CD-quality audio stored in a
-     non-compressed, :term:`lossless` format. AIFF files generally end with a
-     .aiff or .aif extension.
+   Audio Interchange File Format
+     High-quality digital audio file format, similar to .wav files. Contains
+     CD quality audio stored in a non-compressed, :term:`lossless` format. AIFF
+     files generally end with a .aiff or .aif extension.
 
    WAV
      Standard digital audio file format used for storing waveform data; allows
      audio recordings to be saved with different sampling rates and bitrates;
      often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard
      format used for CD audio. Wave files are not compressed, and are therefore
-     :term:`lossless`. Wave files generally end with a .wav extension.
+     :term:`lossless`. Wave files generally end with a :file:`.wav` extension.
 
    Opus
      Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio
-     codec. The .opus filename extension is recommended.
+     codec. The :file:`.opus` filename extension is recommended.
 
    codec
      Short for compressor/decompressor, a codec is any technology for
@@ -293,7 +302,8 @@ Glossary of Terms
      right level of loudness.
 
    db
-     Short for decibels. A Decibel is a logarithmic measurement of sound
+   decibel
+     A Decibel is a logarithmic measurement of sound
      level. Whispering is around 25 dB while unbearable sound such as a jet
      engine is around 160 db. Rule of thumb: A volume increase of 10 dB is
      perceived as twice as loud.
@@ -339,8 +349,8 @@ Glossary of Terms
    audio interface
    audio interfaces
      An audio interface is a device that facilitates the input and output of
-     audio signals to and from a computer, typically connected by USB. Almost
-     all computers come with a basic audio interface built in, but a higher
+     audio signals to and from a computer, typically connected by :term:`USB`.
+     Almost all computers come with a basic audio interface built in, but a higher
      quality audio interface with at least 4 output channels is recommended for
      Mixxx.
 
@@ -416,7 +426,8 @@ Glossary of Terms
      <https://en.wikipedia.org/wiki/Open-source_software>`_.
 
    URL
-     Uniform Resource Locator. The address that defines the route to a file on
+   Uniform Resource Locator
+     The address that defines the route to a file on
      an Internet server. URLs are typed into a Web browser to access Web pages
      and files, and URLs are embedded within the pages themselves as hypertext
      links. One example of a URL is `<https://mixxx.org>`_ .
@@ -441,7 +452,8 @@ Glossary of Terms
      primary colors, red, green, and blue.
 
    GUI
-     Short for “Graphical User Interface” and is pronounced “gooey”. It refers
+   Graphical User Interface
+     It's pronounced "gooey" and it refers
      to a user interface based on graphics (icons, pictures and menus) instead
      of text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID`
      :term:`controllers <controller>` as input devices.
@@ -462,7 +474,8 @@ Glossary of Terms
      database. For more information, see`<https://acoustid.org/>`_.
 
    API
-     An Application Program Interface (API) is a specification and set of rules
+   Application Program Interface
+     An API is a specification and set of rules
      for how software programs interact with each other. In Mixxx, an example of
      this is the Sound API that Mixxx uses to communicate with the
      :term:`operating system` to make use of the :term:`soundcards` connected to
@@ -487,9 +500,20 @@ Glossary of Terms
      frequency.
 
    DAW
-     A digital audio workstation (DAW) is an electronic device or application
-     software used for recording, editing and producing audio files.
+   Digital Audio Workstation
+     An electronic device or application software used for recording, editing
+     and producing audio files.
 
    LADSPA
-     Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard
-     for handling audio filters and audio signal processing effects.
+   Linux Audio Developer's Simple Plugin
+     The LADSPA :term:`API` is a standard for handling audio filters and audio
+     signal processing effects.
+
+   USB
+   Universal Serial Bus
+     USB is an industry standard for cables, connectors
+     and protocols and used for lots of consumer hardware. If an :term:`audio interface`
+     is "USB class compliant", this means it can be used on all major
+     :term:`operating systems <operating system>` without special drivers (on
+     Windows, special drivers might still be necessary to use the :term:`ASIO`
+     sound :term:`API` though).
