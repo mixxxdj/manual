@@ -892,26 +892,21 @@ Waveforms, Gain values and "Flips" are not imported from Serato.
 
 * Copy music library from Serato into external USB drive
 * Plug in USB drive while Mixxx is running
-* Click on Serato in the library. All USB drives containing a Serato library will be detected automatically.
+* Click on :guilabel:`Serato` in the library. All USB drives containing a Serato library will be detected automatically.
 * For each removable device, the library and all crates from Serato will accessible.
 
-Import your Beatgrid and Hotcues
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you have already added a track containing Serato Metadata to your Mixxx library in a Mixxx version that didn't support reading that data, you can reimport it from the file's tags via the track context menu.
 
-Serato libraries imported into Mixxx would have beatgrid, hotcues and other metadata imported immediately you load the track for the first time.
-
-If you have already added a track to your Mixxx library before support for reading Serato's hotcues was added, you can reimport metadata from Serato via the track context menu.
-This action will clear your existing cuepoints in Mixxx if the track has any Serato hotcues.
+.. warning:: This action will clear your existing cuepoints in Mixxx if the file contains Serato Metadata
 
 **To reimport metadata for files**
 
-* Right click on the track and select metadata
-* Click on Import from file tag. If the track has Serato Metadata, all existing cue points will be overwritten
+* Right click on the track to show the context menu
+* Select :menuselection:`Metadata --> Import From File Tags`.
 
-Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
-This problem may cause your cues to be shifted up by a few milliseconds. 
-
-Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
+.. hint:: Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
+          This problem may cause your cues to be shifted up by a few milliseconds. 
+          Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
 
 .. _library-removing-tracks:
 
