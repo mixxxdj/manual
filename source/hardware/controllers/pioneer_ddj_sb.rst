@@ -1,7 +1,7 @@
 Pioneer DDJ-SB
 ==============
 
-The Pioneer DDJ-SB is an all-in-one 2 deck USB MIDI controller with a built in soundcard. Mixxx allows it to control 4 decks. It is compatible with Mixxx since version 1.12.
+The Pioneer DDJ-SB is an all-in-one 2 deck USB :term:`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks.
 
 -  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/midi-mapping-for-pioneer-ddj-sb/14806>`__
@@ -18,7 +18,7 @@ Windows
 Windows Vista, Windows 7 and Windows 8 are supported. You can download the latest drivers and firmware from http://www.pioneerdj.com/en/support/software/ddj-sb.
 
 .. note::
-   If you're using windows and have problems getting both sound outputs to work properly, please try using a different Sound API (see the Preferences menu).
+   If you're using Windows and have problems getting both sound outputs to work properly, please try using a different Sound :term:`API` in the :ref:`preferences <preferences-sound-api>`.
    DirectSound seems to have issues with this controller.
    WASAPI seems to work fine, as does MME, although only with higher latencies.
    On Windows 10, only MME works.
