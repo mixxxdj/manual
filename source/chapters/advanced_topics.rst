@@ -2810,6 +2810,24 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    .. versionadded:: v1.10.0
 
 
+.. mixxx:control:: [VinylControl],show_vinylcontrol
+   Toggle the vinyl control section in skins.
+
+   :range: binary
+   :feedback: VC controls are shown
+
+   .. versionadded:: v1.10.0
+
+
+.. mixxx:control:: [VinylControl],gain
+   Allows to amplify the "phono" level of attached turntables to "line" level.
+   This is equivalent to setting the :ref:`turntable boost <turntable-input-signal-boost>` in :menuselection:`Options --> Preferences --> Vinyl Control`
+
+   :range: binary
+   :feedback: position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)
+
+   .. versionadded:: v1.10.0
+
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
