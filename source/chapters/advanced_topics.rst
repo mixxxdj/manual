@@ -2658,8 +2658,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
 
 
-.. mixxx:control:: [MicrophoneN],orientation
-                   [AuxiliaryN],orientation
+.. mixxx:control:: [AuxiliaryN],orientation
 
    Set channel orientation,
 
@@ -2672,6 +2671,10 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       2     Right side of crossfader
       ===== ===================================
    :feedback: N/A
+
+   .. versionadded:: v1.10.0
+      
+.. mixxx:control:: [MicrophoneN],orientation
 
    .. versionadded:: v1.10.0
    .. deprecated:: v1.10.0
