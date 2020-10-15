@@ -162,3 +162,16 @@ a:hover {
 .btn-link:visited {
     color: #b69b59;
 }
+
+/* Custom styling for :hwlabel: role */
+.rst-content .hwlabel {
+    border: 1px solid #7fbbe3;
+    background: #343131;
+    color: white;
+    font-size: 70%;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 2.4px 6px;
+    margin: auto 2px;
+    text-transform: uppercase;
+}
