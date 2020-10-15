@@ -2724,7 +2724,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 
 .. mixxx:control:: [MicrophoneN],talkover
-                   [AuxiliaryN],talkover
 
    Hold value at 1 to mix channel input into the master output.
 
