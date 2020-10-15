@@ -7,6 +7,8 @@ This controller has been discontinued. The :ref:`Behringer B-Control Deejay BCD 
 
   - `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3563>`__
 
+.. versionadded:: 1.11
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

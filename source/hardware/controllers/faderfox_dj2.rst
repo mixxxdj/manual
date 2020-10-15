@@ -3,6 +3,8 @@ FaderFox DJ2
 
 -  `Manufacturer’s product page <http://www.faderfox.de/dj2.html>`__
 
+.. versionadded:: 1.6
+
 Setting up the controller
 -------------------------
 

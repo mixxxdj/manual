@@ -13,6 +13,11 @@ foundation for your creativity.
 -  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
 
+.. versionadded:: 2.1
+
+Audio
+-----
+
 This controller is a MIDI and audio class compliant device so it is compatible
 as-is with Linux, MacOS and Windows. However, on windows, the manufacturer ship
 an ASIO low-latency driver that can be found on the `Manufacturer’s product

@@ -8,6 +8,8 @@ There are two mappings for this controller included in Mixxx. The one labeled â€
 -  `Manufacturerâ€™s product page <http://www.korg.com/us/products/controllers/nanokontrol2/>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=4759>`__
 
+.. versionadded:: 1.11
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

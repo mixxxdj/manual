@@ -11,6 +11,8 @@ headphone output.
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
 
+.. versionadded:: 2.1
+
 Compatibility
 -------------
 

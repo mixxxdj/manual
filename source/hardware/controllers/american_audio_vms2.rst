@@ -14,6 +14,8 @@ to “Analog”.
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
 -  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 
+.. versionadded:: 1.11
+
 Audio Setup
 -----------
 

@@ -7,6 +7,8 @@ separate power supply increases the brightness of the LEDs, which is helpful for
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
 
+.. versionadded:: 2.2.4
+
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

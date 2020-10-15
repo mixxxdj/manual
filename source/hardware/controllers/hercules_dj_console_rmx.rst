@@ -12,6 +12,8 @@ upgrade to the `latest version of Mixxx <http://mixxx.org/download>`__
 if you have not already. On Windows (and Mac OS X?) the driver is still
 recommended.
 
+.. versionadded:: 1.11
+
 Audio
 -----
 

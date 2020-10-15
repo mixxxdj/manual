@@ -26,6 +26,8 @@ sequencer with sounds from the TR-808 and the TR-909 drum machines
 -  `Driver/Firmware/TR-S Samples Download Page <https://www.roland.com/global/products/dj-505/downloads>`__
 -  `Mapping Forum Thread <https://mixxx.discourse.group/t/roland-dj-505/17916>`__
 
+.. versionadded:: 2.3.0
+
 Drivers
 -------
 

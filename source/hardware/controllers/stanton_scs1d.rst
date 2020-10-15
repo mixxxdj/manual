@@ -3,6 +3,8 @@ Stanton SCS.1d
 
 -  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1d.html>`__
 
+.. versionadded:: 1.9.1
+
 Mapping description
 -------------------
 

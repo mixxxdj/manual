@@ -5,6 +5,8 @@ Hercules DJControl Inpulse 300
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-inpulse-300/17854/>`__
 
+.. versionadded:: 2.2.4
+
 Compatibility
 -------------
 

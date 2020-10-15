@@ -3,6 +3,8 @@ Numark Omni Control
 
 -  `Manfacturer’s product page <http://www.numark.com/product/omnicontrol>`__
 
+.. versionadded:: 1.10
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

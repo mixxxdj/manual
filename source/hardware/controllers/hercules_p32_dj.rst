@@ -15,6 +15,8 @@ switched between 4 different layers to perform a variety of functions.
 
 Thanks to Hercules for supporting the development of this mapping by providing a controller.
 
+.. versionadded:: 2.1
+
 Compatibility
 -------------
 

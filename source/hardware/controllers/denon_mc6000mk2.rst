@@ -5,6 +5,8 @@ Denon MC6000MK2
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6251>`__
 -  `Mixxx maintainer <https://github.com/uklotzde>`__
 
+.. versionadded:: 2.0
+
 The number in the first column refers to the corresponding label in the *Owner’s Manual* in the chapter *Part names and functions* starting on page 20.
 
 ============= ===================== ======== ================= =========================================================================================================================================================

@@ -8,6 +8,7 @@ DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8310>`__
 -  `Manual (multi-language) <http://docs.pioneerdj.com/Manuals/DDJ_SX_DRH1193_manual/>`__
 
+.. versionadded:: 2.1
 
 User Options
 ------------

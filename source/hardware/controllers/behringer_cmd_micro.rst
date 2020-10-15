@@ -18,6 +18,8 @@ require a `splitter cable <hardware%20compatibility#splitter%20cables>`__ or `se
    page <https://www.music-group.com/Categories/Behringer/Computer-Audio/DJ-Controllers/CMD-MICRO/p/P0AJR/>`__
    (offline as of 2016)
 
+.. versionadded:: 2.1
+
 Mapping description
 -------------------
 
