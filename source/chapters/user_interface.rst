@@ -930,9 +930,8 @@ the slider from left to right. If both decks are playing and the crossfader is
 in its default center position, then you will hear both decks. Right-clicking on
 the crossfader will reset the slider to its default position.
 
-To crossfade left or right in master, you can use the keyboard shortcut G and H 
-in an English Keyboard layout. To apply small crossfade left and small crossfade 
-right in master the shortcut keys are shift+G and shift+H respectively. 
+To move the crossfader left or right, you can use the :term:`keyboard shortcut` :kbd:`G` and :kbd:`H`.
+To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively. 
 
 You can reverse the configuration of the crossfader, so that the right deck is
 on the left end of the crossfader and vice versa. This is also known as

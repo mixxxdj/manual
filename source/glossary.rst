@@ -8,7 +8,6 @@ Glossary of Terms
      Headphone cueing, or just cueing, is listening to the next track you would
      like to mix in your headphones. The audience will not hear what you are
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
-     The shortcut for headphone cueing in Deck1 is T while for Deck 2 the shortcut is Y.
 
    shortcuts
      Shortcuts let you work more efficiently. This manual shows some shortcuts for 

@@ -114,7 +114,7 @@ Tracks - View and edit your whole collection
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
-  to the waveform display, use the context menu, or use shortcut keys. Go to the chapter
+  to the waveform display, use the context menu or use :term:`keyboard shortcuts <shortcut>`. Go to the chapter
   :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
@@ -313,13 +313,8 @@ Tracks can be loaded into a deck in several ways:
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
   table.
-<<<<<<< HEAD
-* Using keyboard shortcut keys to load track in Deck 1 with :kbd:`Shift` + :kbd:`Left` and Deck 2
+* Using keyboard :term:`shortcut <shortcuts>` keys to load track in Deck 1 with :kbd:`Shift` + :kbd:`Left` and Deck 2
  with :kbd:`Shift` + :kbd:`Right`
-=======
-* Using keyboard shortcut keys to load track in Deck1 with Shift + Left and Deck2
- with Shift + Right
->>>>>>> b1eb71d86fc5670f886799a713ad47df7f7a4a08
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
@@ -332,32 +327,7 @@ Tracks can be loaded into a deck in several ways:
   Mixxx's waveform displays will load it into that deck.
 
 
-<<<<<<< HEAD
 Unloading Tracks
-================
-
-* To unload track in Deck 1, use the keyboard shortcut :kbd:`Shift` + :kbd:`Left`. In Deck 2 you can
-  unload track with :kbd:`Shift` + :kbd:`Right`
-
-* You can also use the eject track button to unload track from a deck. 
-=======
-UnLoading Tracks
-================
-
-* To unload track in Deck 1, use the keyboard shortcut Shift + Left. In Deck 2 you can
-  unload track with Shift + Right
-
-* You can also use the eject track button to unload track from a deck. Look for a button with this icon:
-
-  .. figure:: ../_static/Mixxx-eject-button.png
-     :align: center
-     :width: 100%
-     :figwidth: 100%
-     :alt: Mixxx library - Eject Button
-     :figclass: pretty-figures
-
-     Mixxx library - Eject Button
->>>>>>> b1eb71d86fc5670f886799a713ad47df7f7a4a08
 
 .. _library-finding-tracks:
 
@@ -382,7 +352,7 @@ a crate, or even the whole library) for tracks that match your search query.
   library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
   list of results.
 
-.. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
+.. note:: If the search input field has focus, the Mixxx keyboard :term:`shortcuts <shortcuts>` are
           disabled, see :ref:`control-keyboard`.
 
 Using search operators
