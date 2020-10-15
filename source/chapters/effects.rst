@@ -27,7 +27,11 @@ processed one after the other in series. You will hear different sounds
 depending on the order of effects within the chain. Each effect in the chain
 has its own button to toggle it on and off.
 
+<<<<<<< HEAD
 The shortcut to quickly Activate or Disable any Effect Unit is :kbd:`5` for Deck  1 and :kbd:`0` in Deck 2.
+=======
+The shortcut to quickly Activate or Disable any Effect Unit is 5 Deck  1 and 0 in Deck 2.
+>>>>>>> b1eb71d86fc5670f886799a713ad47df7f7a4a08
 
 Effect units can process sound from:
   * decks
