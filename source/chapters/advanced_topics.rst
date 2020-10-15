@@ -2673,7 +2673,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: N/A
 
    .. versionadded:: v1.10.0
-      
+
 .. mixxx:control:: [MicrophoneN],orientation
 
    .. versionadded:: v1.10.0
@@ -2813,6 +2813,7 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
 
 
 .. mixxx:control:: [VinylControl],show_vinylcontrol
+
    Toggle the vinyl control section in skins.
 
    :range: binary
@@ -2822,8 +2823,9 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
 
 
 .. mixxx:control:: [VinylControl],gain
+
    Allows to amplify the "phono" level of attached turntables to "line" level.
-   This is equivalent to setting the :ref:`turntable boost <turntable-input-signal-boost>` in :menuselection:`Options --> Preferences --> Vinyl Control`
+   This is equivalent to setting the :ref:`turntable boost <vinyl-control-config-gain>` in :menuselection:`Options --> Preferences --> Vinyl Control`
 
    :range: binary
    :feedback: position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)
