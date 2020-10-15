@@ -113,8 +113,9 @@ visually by aligning the beats that appear in each waveform.
    Mixxx default skin (Latenight) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
-separate waveforms. Select your preferred appearance in
-:menuselection:`Preferences --> Interface --> Skin`.
+separate waveforms. You can select your preferred appearance by clicking the 
+gear icon in the upper right corner. Then under Skin Settings, click/toggle 
+the Parallel Waveforms option to choose between parallel or separate waveform.
 
 .. figure:: ../_static/Mixxx-200-Deere-separate-waveform.png
    :align: center
