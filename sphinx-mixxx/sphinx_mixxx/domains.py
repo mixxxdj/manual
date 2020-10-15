@@ -1,7 +1,6 @@
 import re
 from docutils.parsers.rst import directives
 from sphinx.domains import Domain, Index
-from sphinx.domains.std import StandardDomain
 from sphinx.locale import __
 from sphinx.roles import XRefRole
 from sphinx.directives import ObjectDescription
@@ -203,15 +202,3 @@ class MixxxDomain(Domain):
         todocname, targ = matches[0]
         return make_refnode(
             builder, fromdocname, todocname, targ, contnode, targ)
-
-
-def setup(app):
-    app.add_domain(MixxxDomain)
-
-    StandardDomain.initial_data["labels"]["controlindex"] =\
-        ("mixxx-control", "", "Control Index")
-
-    StandardDomain.initial_data["anonlabels"]["controlindex"] =\
-        ("mixxx-control", "")
-
-    return {"version": "0.1"}

@@ -1,1 +1,1 @@
-from .mixxx import setup
+from .setup import setup
