@@ -24,15 +24,15 @@ Sound card setup
 
 This controller has built-in 4 channel output sound card, with:
 
-- Outputs:
-
-  - MASTER: RCA and 3.5mm jack
-  - HEADPHONE: 6.35mm and 3.5mm jack
-  - BOOTH: RCA and 3.5mm jack
-- Inputs:
-
-  - MIC: 6.35mm jack
-  - AUX: 3.5mm jack
+================  ===================
+Channel           Port
+================  ===================
+Master Output     RCA and 3.5mm jack
+Booth Output      RCA and 3.5mm jack
+Headphone Output  6.35mm and 3.5mm jack
+Microphone Input  6.35mm jack
+Auxiliary Input   3.5mm jack
+================  ===================
 
 - Open :menuselection:`Preferences --> Sound Hardware`  
 - Select the :guilabel:`Output` tab  
