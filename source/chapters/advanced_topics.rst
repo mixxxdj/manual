@@ -2653,14 +2653,20 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 
 .. mixxx:control:: [MicrophoneN],master
-.. mixxx:control:: [AuxiliaryN],master
+                   [AuxiliaryN],master
+
+|  Hold value at 1 to mix channel input into the master output.
+|  For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
+|  Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
+   :feedback: Auxiliary: Play button
+              Microphone: N/A
 
 
 .. mixxx:control:: [AuxiliaryN],orientation
 
-   Set channel orientation,
+   Set channel orientation.
 
    :range:
       ===== ===================================
@@ -2919,6 +2925,7 @@ The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
+Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
 
 .. mixxx:control:: [Library],MoveUp
 
@@ -3196,6 +3203,8 @@ The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate 
 The ``[Playlist]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering
+the currently focused widget. This is helpful when another application's window is focused.
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
