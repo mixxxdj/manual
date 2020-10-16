@@ -3338,7 +3338,7 @@ This linkage can be user-controlled by changing the ``link_type`` and the ``link
 The default link type is loaded from the effect parameter's manifest's ``linkHint`` property.
 
 =================  =============  ============================================
-Link Type          Integer Value  Intepretation
+Link Type          Integer Value  Interpretation
 =================  =============  ============================================
 None               0              Not controlled by the metaknob
 Linked             1              Controlled by the metaknob as it is
@@ -3348,7 +3348,7 @@ Linked Left Right  4              Controlled by both sides of the metaknob
 =================  =============  ============================================
 
 ============  =============  ==============================
-Link Inverse  Integer Value  Intepretation
+Link Inverse  Integer Value  Interpretation
 ============  =============  ==============================
 Normal        0              Linked in equal relation
 Inverse       1              Linked in an inverse relation.
