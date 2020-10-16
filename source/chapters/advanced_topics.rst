@@ -229,7 +229,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],balance
 
-   Adjusts the left/right channel balance on the Master output
+   Adjusts the left/right channel balance on the Master output.
 
    :range: -1.0..1.0
    :feedback: Center Balance knob
@@ -237,7 +237,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],booth_enabled
 
-   Indicates whether a Booth output is configured in the Sound Hardware Preferences
+   Indicates whether a Booth output is configured in the :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
 
    :range: binary
    :feedback: Booth gain knob shown or hidden
@@ -247,7 +247,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],booth_gain
 
-   Adjusts the gain of the Booth output
+   Adjusts the gain of the Booth output.
 
    :range: 0.0...1.0...5.0
    :feedback: Booth gain knob
@@ -257,7 +257,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader
 
-   Adjusts the crossfader between players/decks (-1.0 is all the way left, Deck 1)
+   Adjusts the crossfader between players/decks (-1.0 is all the way left).
 
    :range: -1.0..1.0
    :feedback: Crossfader slider
@@ -265,7 +265,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_down
 
-   Moves the crossfader left by 1/10th
+   Moves the crossfader left by 1/10th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -273,7 +273,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_down_small
 
-   Moves the crossfader left by 1/100th
+   Moves the crossfader left by 1/100th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -283,7 +283,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_up
 
-   Moves the crossfader right by 1/10th
+   Moves the crossfader right by 1/10th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -291,7 +291,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_up_small
 
-   Moves the crossfader right by 1/100th
+   Moves the crossfader right by 1/100th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -311,17 +311,17 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],enabled
 
-   Indicator that the master mix is processed
+   Indicator that the master mix is processed.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],gain
 
-   Adjusts the gain for the master output as well as recording and broadcasting signal
+   Adjusts the gain for the master output as well as recording and broadcasting signal.
 
    :range: 0.0..1.0..5.0
    :feedback: Master volume knob
@@ -331,17 +331,17 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],headEnabled
 
-   Indicator that the headphone mix is processed
+   Indicator that the headphone mix is processed.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],headGain
 
-   Adjusts the headphone output gain
+   Adjusts the headphone output gain.
 
    :range: 0.0..1.0..5.0
    :feedback: Headphone volume knob
@@ -351,7 +351,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],headMix
 
-   Adjusts the cue/main mix in the headphone output
+   Adjusts the cue/main mix in the headphone output.
 
    :range: default
    :feedback: Pre/Main knob
@@ -369,7 +369,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],latency
 
-   Latency setting (sound buffer size) in milliseconds (default 64)
+   Latency setting (sound buffer size) in milliseconds (default 64).
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
@@ -377,7 +377,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],maximize_library
 
-   Toggle maximized view of library
+   Toggle maximized view of library.
 
    :range: binary
    :feedback: Toggle maximized view of library
@@ -390,7 +390,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of decks currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -400,7 +400,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of available effects that can be selected in an effect slot.
 
    :range: integer, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.1.0
 
@@ -410,7 +410,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of samplers currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -420,14 +420,14 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of preview decks currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [Master],PeakIndicator
 
-   Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite)
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
 
    :range: binary
    :feedback: Clip light (mono)
@@ -435,7 +435,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],PeakIndicatorL
 
-   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
 
    :range: binary
    :feedback: Clip light (left)
@@ -443,7 +443,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],PeakIndicatorR
 
-   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
 
    :range: binary
    :feedback: Clip light (right)
@@ -451,10 +451,10 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],samplerate
 
-   The current output sample rate in Hz (default 44100)
+   The current output sample rate (default: 44100 Hz).
 
-   :range: absolute value
-   :feedback: (none)
+   :range: absolute value (in Hz)
+   :feedback: None
 
 
 .. mixxx:control:: [Master],talkoverDucking
@@ -469,7 +469,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],VuMeter
 
-   Outputs the current instantaneous master volume (composite)
+   Outputs the current instantaneous master volume (composite).
 
    :range: default
    :feedback: Master meter (mono)
@@ -477,7 +477,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],VuMeterL
 
-   Outputs the current instantaneous master volume for the left channel
+   Outputs the current instantaneous master volume for the left channel.
 
    :range: default
    :feedback: Master meter L
@@ -485,27 +485,29 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],VuMeterR
 
-   Outputs the current instantaneous master volume for the right channel
+   Outputs the current instantaneous master volume for the right channel.
 
    :range: default
    :feedback: Master meter R
 
 
 .. mixxx:control:: [Master],headVolume
-    :range: 0.0..1.0..5.0
-    :feedback: Headphone Gain knob
 
     Adjust headphone volume.
+
+    :range: 0.0..1.0..5.0
+    :feedback: Headphone Gain knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[Master],headGain` instead.
 
 
 .. mixxx:control:: [Master],volume
-    :range: 0.0..1.0..5.0
-    :feedback: Master Gain knob
 
     Adjust master volume.
+
+    :range: 0.0..1.0..5.0
+    :feedback: Master Gain knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[Master],gain` instead.
@@ -541,7 +543,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Indicates whether the player is currently positioned within 50 milliseconds of a beat or not.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -562,7 +564,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_size
                    [SamplerN],beatjump_size
 
-   Set the number of beats to jump with beatjump\_forward/backward.
+   Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`/:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`.
 
    :range: positive real number
    :feedback: Beatjump size spinbox
@@ -574,10 +576,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_forward
                    [SamplerN],beatjump_forward
 
-   Jump forward by beatjump\_size. If a loop is active, the loop is moved forward by X beats.
+   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved forward by X beats.
 
    :range: binary
-   :feedback: Player jumps forward by beatjump\_size.
+   :feedback: Player jumps forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
 
    .. versionadded:: 2.1.0
 
@@ -586,10 +588,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_backward
                    [SamplerN],beatjump_backward
 
-   Jump backward by beatjump\_size. If a loop is active, the loop is moved backward by X beats.
+   Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved backward by X beats.
 
    :range: binary
-   :feedback: Player jumps backward by beatjump\_size.
+   :feedback: Player jumps backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
 
    .. versionadded:: 2.1.0
 
@@ -622,10 +624,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
 
-   Set a loop that is beatloop\_size beats long and enables the loop
+   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop
 
    :range: binary
-   :feedback: A loop is shown over beatloop\_size beats
+   :feedback: A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats
 
    .. versionadded:: 2.1.0
 
@@ -646,7 +648,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_size
                    [SamplerN],beatloop_size
 
-   Set the length of the loop in beats that will get set with beatloop\_activate and beatlooproll\_activate. Changing this will resize an existing loop if the length of the loop matches beatloop\_size.
+   Set the length of the loop in beats that will get set with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
+   Changing this will resize an existing loop if the length of the loop matches :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
 
    :range: positive real number
    :feedback: Beatloop size spinbox and possibly loop section on waveform
@@ -682,10 +685,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatlooproll_activate
                    [SamplerN],beatlooproll_activate
 
-   Activates a rolling loop over beatloop\_size beats. Once disabled, playback will resume where the track would have been if it had not entered the loop.
+   Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats. Once disabled, playback will resume where the track would have been if it had not entered the loop.
 
    :range: binary
-   :feedback: A loop overlay is shown over beatloop\_size beats on waveform.
+   :feedback: A loop overlay is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats on waveform.
 
    .. versionadded:: 2.1.0
 
@@ -898,7 +901,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Cue button, always in CDJ mode
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -910,7 +913,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    CUP button, Go to cue point and play after release. If stopped, sets a cue point at the current location.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.1.0
 
@@ -962,7 +965,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Outputs the length of the current song in seconds
 
    :range: absolute value
-   :feedback: (none)
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],eject
@@ -1001,20 +1004,20 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],file_bpm
                    [SamplerN],file_bpm
 
-   the detected BPM of the loaded track
+   The detected BPM of the loaded track.
 
    :range: positive value, read-only
-   :feedback: N/A
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],file_key
                    [PreviewDeckN],file_key
                    [SamplerN],file_key
 
-   the detected key of the loaded track
+   The detected key of the loaded track.
 
    :range: ?, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
@@ -1033,7 +1036,12 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_activate
                    [SamplerN],hotcue_X_activate
 
-   If hotcue X is set, seeks the player to hotcue X's position. If hotcue X is not set, sets hotcue X to the current play position. To continue playing while any hotcues are activated, play must be set to 0, not 1.
+   If hotcue X is not set, this sets a hotcue at the current play position and saves it to hotcue slot X.
+
+   If hotcue X is set, the player seeks to hotcue X's position.
+   Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
+   After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position.
+   If :mixxx:coref:`play <[ChannelN],play>` is to 1 while previewing is active, the playback will continue and no seek occurs.
 
    :range: binary
    :feedback: Player may change position. Hotcue X marker may change on waveform.
@@ -1069,7 +1077,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_enabled
                    [SamplerN],hotcue_X_enabled
 
-   1 if hotcue X is active, (position is not -1), 0 otherwise.
+   Indicates if hotcue slot X is set. The value is 1 if the hotcue is set (position is not -1), 0 otherwise.
 
    :range: binary, read-only
 
@@ -1140,10 +1148,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_focus
                    [SamplerN],hotcue_focus
 
-   Contains the number of the most recentlly used hotcue (or -1 if no hotcue was used)
+   Contains the number of the most recentlly used hotcue (or -1 if no hotcue was used).
 
    :range: positive integer (or -1)
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.3.0
 
@@ -1341,10 +1349,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_double
                    [SamplerN],loop_double
 
-   Doubles beatloop_size. If beatloop_size equals the size of the loop, the loop is resized.
+   Doubles :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of the loop, the loop is resized.
 
    :range: binary
-   :feedback: beatloop\_size spinbox changes
+   :feedback: Beatloop size spinbox changes
 
    .. versionadded:: 1.10.0
    .. versionchanged:: 2.1.0
@@ -1378,10 +1386,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_halve
                    [SamplerN],loop_halve
 
-   Halves beatloop_size. If beatloop\_size equals the size of the loop, the loop is resized.
+   Halves :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of the loop, the loop is resized.
 
    :range: binary
-   :feedback: beatloop\_size spinbox changes
+   :feedback: Beatloop size spinbox changes
 
    .. versionadded:: 1.10.0
    .. versionchanged:: 2.1.0
@@ -1391,7 +1399,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_in
                    [SamplerN],loop_in
 
-   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
+   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, :mixxx:coref`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size.
 
    :range: binary
    :feedback: Loop-in marker changes on waveform.
@@ -1416,7 +1424,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_out
                    [SamplerN],loop_out
 
-   If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, beatloop\_size will be updated to reflect the new loop size.
+   If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size.
 
    :range: binary
    :feedback: Loop-out marker changes on waveform.
@@ -1477,7 +1485,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_scale
                    [SamplerN],loop_scale
 
-   Scale the loop length by the value scale is set to by moving the end marker. beatloop\_size is not updated to reflect the change.
+   Scale the loop length by the value scale is set to by moving the end marker. :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change.
 
    :range: 0.0 - infinity
    :feedback: Loop length is scaled by given amount on waveform.
@@ -1511,7 +1519,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       1     Center (not affected by crossfader)
       2     Right side of crossfader
       ===== ===================================
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -1694,7 +1702,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch
                    [SamplerN],pitch
 
-   The total adjustment to the track's pitch, including changes from the rate slider if keylock is off as well as pitch\_adjust. Do not map this to knobs or sliders on controllers; map pitch\_adjust instead.
+   The total adjustment to the track's pitch, including changes from the rate slider if keylock is off as well as :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>`.
+
+   .. note:: Do not map this to knobs or sliders on controllers; map :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>` instead.
 
    :range: -6.0..6.0
    :feedback: Key display
@@ -2187,7 +2197,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Sample rate of the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -2199,7 +2209,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Number of sound samples in the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: N/A
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],volume
@@ -2676,7 +2686,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       1     Center (not affected by crossfader)
       2     Right side of crossfader
       ===== ===================================
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -3309,7 +3319,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
    If enabled, colors will be assigned to newly created hot cue points automatically.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.3.0
 
