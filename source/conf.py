@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx_rtd_theme',
     'sphinx_multiversion',
+    'sphinx_mixxx',
 ]
 
 todo_include_todos = True
