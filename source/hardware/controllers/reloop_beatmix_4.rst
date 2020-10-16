@@ -156,9 +156,9 @@ Shift + FX1        select effect 1               Effect parameter 4
 Shift + FX2        select effect 2               Effect parameter 5
 Shift + FX3        select effect 3               Effect parameter 6
 Beats turn         SuperKnob                     dry/wet knob
-Beats push         EffectUnit enable/disable     
+Beats push         EffectUnit enable/disable
 Shift + Beats turn dry/wet knob                  Select Effect Chain
-Shift + Beats push Eject Effect Chain            
+Shift + Beats push Eject Effect Chain
 ================== ============================= ===================
 
 You can choose which deck you want to apply EffectUnit 1 and 2 by pressing Shift

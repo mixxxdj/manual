@@ -96,5 +96,5 @@ Known problems
 --------------
 
 -  The pitch on the controller has a very short run. Thus, having it configured as a +10/-10 (or more) is tricky because you will get a very low pitch precision. Configuring it as +8/-8 (Mk2 style) is
-   higly recommended.
+   highly recommended.
 -  Each slide/knob needs to be moved on Mixxx startup to match levels with the Mixxx UI.

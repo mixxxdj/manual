@@ -17,7 +17,7 @@ Sound hardware
   at high levels you should use the additional power supply (6v/1.5A).
 | The official manual from Reloop states not to operate the unit at temperatures
   below 5°C/41°F as it might damage A/D converters and other components.
-  However, the audio output may already start crackling if the temperatur drops
+  However, the audio output may already start crackling if the temperature drops
   below 10°C.
 
 | **Inputs**
@@ -37,14 +37,14 @@ Sound hardware
   the hard-wired ``TONE`` knob.
   At the back, there are unbalanced outputs for booth and master (RCA), as well
   as a balanced master output (1/4”).
-| The output level of both master ouputs, booth and headphone outputs are all
+| The output level of both master outputs, booth and headphone outputs are all
   controlled by respective hard-wired knobs in the center column which can’t be
   mapped to software.
 
 Controller hardware / Maintenance
 ---------------------------------
 
-| The jog wheels’ touch sensitivity can be adjusted seperately. Refer to the
+| The jog wheels’ touch sensitivity can be adjusted separately. Refer to the
   `official
   manual <http://www.reloop.com/media/custom/upload/Reloop-TM4_Factory+JogReset.pdf>`__
   for instructions.
@@ -57,7 +57,7 @@ Controller hardware / Maintenance
 | After a few years of heavy usage the pushbuttons and sliders may start to wear
   out. Then, buttons need to be pressed harder or in a different manner than
   what was working before, and sliders may send false values when they are
-  actually in the ‘off zone’. Luckily, the pushbuttons are standart parts and
+  actually in the ‘off zone’. Luckily, the pushbuttons are standard parts and
   relatively easy to replace, and the sliders’ conductive surface can be cleaned
   with Q-tips and alcohol.
 
@@ -263,7 +263,7 @@ deck.*
 -  Press while tracks table has focus: perform the Track Load Action specified
    in *Preferences > Library* (default: load track to next empty deck)
 -  **Volume Level Meter**
--  LEDs dislay the hardware(!) volume of the Master output (2 blue LEDs at the
+-  LEDs display the hardware (!) volume of the Master output (2 blue LEDs at the
    top indicate clipping)
 -  *Attention:* the Master volume might already clip in Mixxx before the
    hardware LEDs light up. You can adjust the hardware Master volume knob and
@@ -273,7 +273,7 @@ deck.*
 -  **POWER** LED (red)
 -  **MIDI** LED (blue)
 -  flashes when a MIDI messages was sent
--  when it flashes although no control is touched, it’s probaly due to dust in
+-  when it flashes although no control is touched, it’s probably due to dust in
    the jogwheels (See `Controler Hardware /
    Maintenance <#controller-hardware-maintenance>`__)
 -  **Shift Lock** switch at the back side
@@ -293,7 +293,7 @@ Deck assign switches
 | Use the four switches on the front of the unit to choose on which side of the
   cross fader that deck will be heard. (Note that the fader-start functionality
   correctly follows this assignment.) If “thru” is selected, the cross-fader
-  will not affect the audio from that deck and it will always be heared.
+  will not affect the audio from that deck and it will always be heard.
 
 Curve adjust
 ^^^^^^^^^^^^

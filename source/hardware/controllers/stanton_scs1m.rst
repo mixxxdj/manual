@@ -85,7 +85,7 @@ Global controls
 -  **Preset** buttons: Hot cue points for the selected deck (**q** button)
 -  **Bank Down** button: select backward between Library, Playlist, and Browse
    views
--  **Bank Up** button: select foreward between Library, Playlist, and Browse
+-  **Bank Up** button: select forward between Library, Playlist, and Browse
    views
 -  **q** button: Change which deck’s hot cues are active (**Preset** buttons.)
    Off is Deck 1, On (red) is Deck 2.

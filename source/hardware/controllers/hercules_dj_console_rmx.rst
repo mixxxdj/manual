@@ -83,7 +83,7 @@ Deck / Channel specific controls
 |                                  | and moves to the beginning.      |
 +----------------------------------+----------------------------------+
 | Cue                              | Sets the cue point if a track is |
-|                                  | stoped and not at the current    |
+|                                  | stopped and not at the curren    |
 |                                  | cue point                        |
 |                                  | Stops track and returns to the   |
 |                                  | current cue point if a track is  |

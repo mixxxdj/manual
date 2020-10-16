@@ -15,12 +15,12 @@ User Options
 
 To change the mapping’s user options, you have to open the script file (*.js). At the top of the file under **USER OPTIONS** the following settings can be made:
 
--  **DJCRMX2.jogwheelSensivity**: Sets the jogwheel sensivity. 1 = default, 2 is twice as sensitive, 0.5 is half as sensitive.
+-  **DJCRMX2.jogwheelSensivity**: Sets the jogwheel sensitivity. 1 = default, 2 is twice as sensitive, 0.5 is half as sensitive.
 -  **DJCRMX2.jogwheelShiftMultiplier**: Sets how much more sensitive the jogwheels get when holding [**SHIFT**]. Set it to 1 to disable jogwheel sensitivity increase when holding [**SHIFT**].
 -  **DJCRMX2.twinkleVumeterAutodjOn**: If true, level-meter twinkles if *AutoDJ* is enabled.
 -  **DJCRMX2.autoPFL**: If true, PFL / Cue (headphone) is being activated by loading a track into certain deck.
 -  **DJCRMX2.vuMeterOutputMaster**: If true, deck vu meters show master output (L = Deck A, R = Deck B). If false, deck vu meter shows deck output (mono).
--  **DJCRMX2.showHideSamplersEffectsOnPadMode**: If true, *Samplers* and *EffectRack* get shown or hidden in dependance of Pad-Mode.
+-  **DJCRMX2.showHideSamplersEffectsOnPadMode**: If true, *Samplers* and *EffectRack* get shown or hidden depending on the Pad-Mode.
 
 General Functions
 -----------------
