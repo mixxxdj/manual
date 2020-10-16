@@ -113,9 +113,9 @@ visually by aligning the beats that appear in each waveform.
    Mixxx default skin (Latenight) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
-separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while 
-Shade skin provides only separate waveforms. 
-In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner, 
+separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
+Shade skin provides only separate waveforms.
+In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
 
