@@ -204,7 +204,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0 .. 25 %
    :feedback: latency meter
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],audio_latency_overload
@@ -214,7 +214,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Overload indicator
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],audio_latency_overload_count
@@ -224,7 +224,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0 .. n
    :feedback: Counter in hardware preferences
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],balance
@@ -242,7 +242,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Booth gain knob shown or hidden
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],booth_gain
@@ -252,7 +252,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0.0...1.0...5.0
    :feedback: Booth gain knob
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],crossfader
@@ -278,7 +278,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Crossfader slider
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [Master],crossfader_up
@@ -296,7 +296,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Crossfader slider
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [Master],duckStrength
@@ -306,7 +306,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0.0..1.0
    :feedback: Strength knob
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],enabled
@@ -316,7 +316,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],gain
@@ -326,7 +326,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0.0..1.0..5.0
    :feedback: Master volume knob
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],headEnabled
@@ -336,7 +336,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],headGain
@@ -346,7 +346,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: 0.0..1.0..5.0
    :feedback: Headphone volume knob
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],headMix
@@ -364,7 +364,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Split Cue button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],latency
@@ -382,7 +382,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Toggle maximized view of library
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],num_decks
@@ -392,7 +392,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: integer
    :feedback: N/A
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [Master],num_effectsavailable
@@ -402,7 +402,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: integer, read-only
    :feedback: N/A
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],num_samplers
@@ -412,7 +412,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: integer
    :feedback: N/A
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [Master],num_preview_decks
@@ -422,7 +422,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: integer
    :feedback: N/A
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [Master],PeakIndicator
@@ -464,7 +464,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: FIXME
    :feedback: Ducking mode button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],VuMeter
@@ -543,7 +543,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beatjump
@@ -555,7 +555,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: real number
    :feedback: Player jumps forward or backward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beatjump_size
@@ -567,7 +567,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive real number
    :feedback: Beatjump size spinbox
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatjump_forward
@@ -579,7 +579,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player jumps forward by beatjump\_size.
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatjump_backward
@@ -591,7 +591,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player jumps backward by beatjump\_size.
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatjump_X_forward
@@ -603,7 +603,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player jumps forward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beatjump_X_backward
@@ -615,7 +615,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player jumps backward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_activate
@@ -627,7 +627,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: A loop is shown over beatloop\_size beats
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_activate
@@ -639,7 +639,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: A loop is shown over X beats.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_size
@@ -651,7 +651,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive real number
    :feedback: Beatloop size spinbox and possibly loop section on waveform
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_toggle
@@ -663,7 +663,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: A loop is shown over X beats.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_enabled
@@ -675,7 +675,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatloop X button in skin is lit.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_activate
@@ -687,7 +687,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: A loop overlay is shown over beatloop\_size beats on waveform.
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_X_activate
@@ -699,7 +699,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_faster
@@ -711,7 +711,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatgrid lines move closer to each other.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_slower
@@ -723,7 +723,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatgrid lines move further apart from each other.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beats_translate_curpos
@@ -735,7 +735,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatgrid moves to align with current playposition.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beats_translate_match_alignment
@@ -747,7 +747,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Instead of syncing the beatgrid to the current playposition, sync the beatgrid so the nearest beat lines up with the other track's nearest beat.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beats_translate_earlier
@@ -759,7 +759,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatgrid moves left by a small amount.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beats_translate_later
@@ -771,7 +771,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Beatgrid moves right by a small amount.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],beatsync
@@ -781,7 +781,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value
 
-   .. versionchanged:: v1.10.0
+   .. versionchanged:: 1.10.0
       Syncs the BPM and phase (depending on quantize) to that of the other track (if BPM is detected on both).
 
 
@@ -794,7 +794,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],beatsync_tempo
@@ -806,7 +806,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],bpm
@@ -818,7 +818,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: real-valued
    :feedback: BPM value display
 
-   .. versionchanged:: v1.10.0
+   .. versionchanged:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],bpm_tap
@@ -830,7 +830,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: BPM value display (play speed doesn't change)
 
-   .. versionadded:: v1.9.2
+   .. versionadded:: 1.9.2
 
 
 .. mixxx:control:: [ChannelN],CloneFromDeck
@@ -842,7 +842,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: integer
    :feedback: The channel will start playing at the rate and position of the source deck.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],cue_default
@@ -864,7 +864,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position and start playing.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],cue_gotoandstop
@@ -876,7 +876,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],cue_indicator
@@ -888,7 +888,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Cue button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],cue_cdj
@@ -900,7 +900,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],cue_play
@@ -912,7 +912,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],cue_point
@@ -974,7 +974,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Eject button is lit. Be sure to set back to 0 with scripts so the button does not stay lit.
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [ChannelN],end
@@ -1016,7 +1016,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?, read-only
    :feedback: N/A
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],fwd
@@ -1038,7 +1038,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Hotcue X marker may change on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_clear
@@ -1050,7 +1050,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Hotcue X marker changes on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_color
@@ -1062,7 +1062,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 3-Byte RGB color code (or -1)
    :feedback: Color of Hotcue X button and waveform marker changes.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_enabled
@@ -1073,7 +1073,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: binary, read-only
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_goto
@@ -1085,7 +1085,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_gotoandplay
@@ -1097,7 +1097,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_gotoandstop
@@ -1109,7 +1109,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_position
@@ -1121,7 +1121,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Hotcue X marker changes on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_set
@@ -1133,7 +1133,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Hotcue X marker changes on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus
@@ -1145,7 +1145,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer (or -1)
    :feedback: N/A
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus_color_prev
@@ -1157,7 +1157,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Color of focused hotcue button and waveform marker changes.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],hotcue_focus_color_next
@@ -1169,7 +1169,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Color of focused hotcue button and waveform marker changes.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_end_activate
@@ -1181,7 +1181,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Intro end marker may change on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_end_clear
@@ -1193,7 +1193,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Intro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_end_enabled
@@ -1205,7 +1205,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Intro end button lights up.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_end_position
@@ -1217,7 +1217,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Intro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_end_set
@@ -1229,7 +1229,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Intro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_start_activate
@@ -1241,7 +1241,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Intro start marker may change on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_start_clear
@@ -1253,7 +1253,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Intro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_start_enabled
@@ -1265,7 +1265,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Intro start button lights up.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_start_position
@@ -1277,7 +1277,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Intro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],intro_start_set
@@ -1289,7 +1289,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Intro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],key
@@ -1300,7 +1300,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: real-valued
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],keylock
@@ -1312,7 +1312,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: key-lock button activates
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [ChannelN],LoadSelectedTrack
@@ -1334,7 +1334,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Track name & waveform change & Play/pause button
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],loop_double
@@ -1346,8 +1346,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: beatloop\_size spinbox changes
 
-   .. versionadded:: v1.10.0
-   .. versionchanged:: v2.1.0
+   .. versionadded:: 1.10.0
+   .. versionchanged:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_enabled
@@ -1359,7 +1359,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Loop in waveform is active.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],loop_end_position
@@ -1371,7 +1371,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Loop-out marker shows on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],loop_halve
@@ -1383,8 +1383,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: beatloop\_size spinbox changes
 
-   .. versionadded:: v1.10.0
-   .. versionchanged:: v2.1.0
+   .. versionadded:: 1.10.0
+   .. versionchanged:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_in
@@ -1396,8 +1396,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop-in marker changes on waveform.
 
-   .. versionadded:: v1.8.0
-   .. versionchanged:: v2.1.0
+   .. versionadded:: 1.8.0
+   .. versionchanged:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_in_goto
@@ -1409,7 +1409,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Waveform position jumps
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_out
@@ -1421,8 +1421,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop-out marker changes on waveform.
 
-   .. versionadded:: v1.8.0
-   .. versionchanged:: v2.1.0
+   .. versionadded:: 1.8.0
+   .. versionchanged:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_out_goto
@@ -1434,7 +1434,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Waveform position jumps
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],loop_move
@@ -1446,7 +1446,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: real number
    :feedback: Loop moves forward or backward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],loop_move_X_forward
@@ -1458,7 +1458,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop moves forward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],loop_move_X_backward
@@ -1470,7 +1470,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop moves backward by X beats.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],loop_scale
@@ -1482,7 +1482,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 0.0 - infinity
    :feedback: Loop length is scaled by given amount on waveform.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],loop_start_position
@@ -1494,7 +1494,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Loop-in marker changes on waveform.
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],orientation
@@ -1513,7 +1513,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       ===== ===================================
    :feedback: N/A
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_activate
@@ -1525,7 +1525,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Outro end marker may change on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_clear
@@ -1537,7 +1537,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_enabled
@@ -1549,7 +1549,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Outro end button lights up.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_position
@@ -1561,7 +1561,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Outro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_end_set
@@ -1573,7 +1573,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro end marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_activate
@@ -1585,7 +1585,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Player may change position. Outro start marker may change on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_clear
@@ -1597,7 +1597,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_enabled
@@ -1609,7 +1609,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Outro start button lights up.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_position
@@ -1621,7 +1621,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: positive integer
    :feedback: Outro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],outro_start_set
@@ -1633,7 +1633,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Outro start marker changes on waveform.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],passthrough
@@ -1645,7 +1645,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Passthrough label in the track overview and passthrough button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],PeakIndicator
@@ -1666,7 +1666,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 .. mixxx:control:: [ChannelN],PeakIndicatorR
                    [PreviewDeckN],PeakIndicatorR
@@ -1678,7 +1678,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 .. mixxx:control:: [ChannelN],pfl
                    [PreviewDeckN],pfl
@@ -1699,7 +1699,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: -6.0..6.0
    :feedback: Key display
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],pitch_up
@@ -1711,7 +1711,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Key display
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],pitch_down
@@ -1723,7 +1723,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Key display
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],pitch_adjust
@@ -1735,7 +1735,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: -3.0..3.0
    :feedback: Key display
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],play
@@ -1757,7 +1757,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Play/pause button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],play_stutter
@@ -1769,7 +1769,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Play/Stutter button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],playposition
@@ -1801,7 +1801,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Hot-cues or Loop In/Out markers
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],rate
@@ -1939,7 +1939,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop range in waveform activates or deactivates and play position moves to loop in point.
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 .. mixxx:control:: [ChannelN],reloop_toggle
                    [PreviewDeckN],reloop_toggle
@@ -1950,7 +1950,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Loop range in waveform activates or deactivates.
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],repeat
@@ -1962,7 +1962,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: when track finishes, song loops to beginning
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [ChannelN],reset_key
@@ -1973,7 +1973,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: binary
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],reverse
@@ -1995,7 +1995,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: REV button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],scratch2
@@ -2007,7 +2007,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: -3.0..3.0
    :feedback: Waveform
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],scratch2_enabled
@@ -2019,7 +2019,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Waveform
 
-   .. versionadded:: v1.8.0
+   .. versionadded:: 1.8.0
 
 
 .. mixxx:control:: [ChannelN],slip_enabled
@@ -2031,7 +2031,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Slip mode button
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],stars_up
@@ -2043,7 +2043,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Star count is increased in the deck's star widget and in the library table.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],stars_down
@@ -2055,7 +2055,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Star count is decreased in the deck's star widget and in the library table.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],start
@@ -2077,7 +2077,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Deck plays from beginning
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],start_stop
@@ -2089,7 +2089,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Deck stops at the beginning.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],stop
@@ -2101,7 +2101,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Pause Button. Deck pauses at the current position.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],sync_enabled
@@ -2113,7 +2113,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: SYNC button & Speed slider snaps to the appropriate value. If pressed and held, SYNC button stays lit and slider adjustments are linked on all decks that have SYNC enabled.
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],sync_master
@@ -2125,8 +2125,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: SYNC button will light up and stay lit & Speed slider snaps to the appropriate value. SYNC button stays lit and slider adjustments are linked on all decks that have SYNC enabled.
 
-   .. versionadded:: v2.0.0
-   .. versionchanged:: v2.3.0
+   .. versionadded:: 2.0.0
+   .. versionchanged:: 2.3.0
       This button just enables master sync mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
 
 
@@ -2134,7 +2134,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],sync_mode
                    [SamplerN],sync_mode
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
    :range:
       ===== =============================
@@ -2153,7 +2153,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Match musical key
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],track_color
@@ -2165,7 +2165,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 3-Byte RGB color code (or -1)
    :feedback: Track color changes in the library view.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],track_loaded
@@ -2177,7 +2177,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary, read-only
    :feedback: Waveform and track metadata shown in deck
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [ChannelN],track_samplerate
@@ -2189,7 +2189,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: absolute value, read-only
    :feedback: N/A
 
-   .. versionadded:: v1.9.0
+   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [ChannelN],track_samples
@@ -2222,7 +2222,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Mute button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_enabled
@@ -2234,7 +2234,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: When enabled, a vinyl indication should appear onscreen indicating green for Enabled
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_cueing
@@ -2252,7 +2252,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       2     Hot Cue - Track will seek to nearest previous hot cue point
       ===== =============================
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_mode
@@ -2274,7 +2274,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :feedback: 3-way button indicates status
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_status
@@ -2286,7 +2286,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 0.0-3.0, read-only
    :feedback: Off for control disabled, green for control enabled, blinking yellow for when the needle reaches the end of the record, and red for needle skip detected
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],visual_bpm
@@ -2298,7 +2298,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?
    :feedback: BPM value widget
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],visual_key
@@ -2310,7 +2310,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?
    :feedback: Key value widget
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],visual_key_distance
@@ -2322,7 +2322,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: -0.5..0.5
    :feedback: Key value widget
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [ChannelN],VuMeter
@@ -2364,7 +2364,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 1.0 - 10.0
    :feedback: Waveform zoom buttons
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_up
@@ -2376,7 +2376,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?
    :feedback: Waveform zoom buttons
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_down
@@ -2388,7 +2388,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?
    :feedback: Waveform zoom buttons
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom_set_default
@@ -2400,7 +2400,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: ?
    :feedback: Waveform zoom buttons
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [ChannelN],wheel
@@ -2479,8 +2479,8 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Toggles the filter effect
 
-    .. versionadded:: v2.0.0
-    .. deprecated:: v2.0.0
+    .. versionadded:: 2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead.
 
 
@@ -2493,8 +2493,8 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Adjusts the intensity of the filter effect
 
-    .. versionadded:: v2.0.0
-    .. deprecated:: v2.0.0
+    .. versionadded:: 2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 <[QuickEffectRack1_[ChannelI]],super1>` instead.
 
 
@@ -2507,7 +2507,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Adjusts the gain of the low EQ filter
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
 
 
@@ -2520,7 +2520,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Holds the gain of the low EQ to -inf while active
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
 
 
@@ -2533,7 +2533,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Adjusts the gain of the mid EQ filter
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
 
 
@@ -2546,7 +2546,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Holds the gain of the mid EQ to -inf while active
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
 
 
@@ -2559,7 +2559,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Adjusts the gain of the high EQ filter
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
 
 
@@ -2572,7 +2572,7 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Holds the gain of the high EQ to -inf while active
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
 
 
@@ -2585,8 +2585,8 @@ These controls have been deprecated, new controller mappings should use the alte
 
     Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
-    .. versionadded:: v1.10.0
-    .. deprecated:: v2.0.0
+    .. versionadded:: 1.10.0
+    .. deprecated:: 2.0.0
        Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead.
 
 .. _advanced-mixxxcontrols-samplers:
@@ -2640,7 +2640,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Microphone is enabled.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [MicrophoneN],input_configured
@@ -2678,12 +2678,12 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       ===== ===================================
    :feedback: N/A
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 .. mixxx:control:: [MicrophoneN],orientation
 
-   .. versionadded:: v1.10.0
-   .. deprecated:: v1.10.0
+   .. versionadded:: 1.10.0
+   .. deprecated:: 1.10.0
 
       The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI.
 
@@ -2696,7 +2696,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Microphone Clip light
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [MicrophoneN],PeakIndicatorL
@@ -2707,7 +2707,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 .. mixxx:control:: [MicrophoneN],PeakIndicatorR
                    [AuxiliaryN],PeakIndicatorR
@@ -2718,7 +2718,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 .. mixxx:control:: [MicrophoneN],pfl
                    [AuxiliaryN],pfl
@@ -2736,7 +2736,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Talk button
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [MicrophoneN],volume
@@ -2747,7 +2747,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: default
    :feedback: Microphone volume fader changes
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [MicrophoneN],pregain
@@ -2767,7 +2767,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Mute button
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [MicrophoneN],VuMeter
@@ -2778,7 +2778,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: default
    :feedback: Microphone VU meter changes
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [MicrophoneN],VuMeterL
@@ -2789,7 +2789,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: default
    :feedback: Deck VU meter L
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [MicrophoneN],VuMeterR
@@ -2800,7 +2800,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: default
    :feedback: Deck VU meter R
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 The ``[VinylControl]`` group
@@ -2815,7 +2815,7 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    :range: binary
    :feedback: If VC isn't enabled on any decks, enable it on the first one we're receiving samples for. If VC is enabled on a single (exclusive) deck, and another deck is setup to receive samples, disable it on the former deck and enable it on the next eligible deck (ordered by deck number). If VC is enabled on multiple decks, don't do anything.
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [VinylControl],show_vinylcontrol
@@ -2825,7 +2825,7 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    :range: binary
    :feedback: VC controls are shown
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [VinylControl],gain
@@ -2836,7 +2836,7 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    :range: binary
    :feedback: position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)
 
-   .. versionadded:: v1.10.0
+   .. versionadded:: 1.10.0
 
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2878,7 +2878,7 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    :range: binary
    :feedback: AutoDJ button
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [AutoDJ],shuffle_playlist
@@ -2888,7 +2888,7 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    :range: binary
    :feedback: Order of tracks in the AutoDJ playlist changes.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [AutoDJ],skip_next
@@ -2898,7 +2898,7 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    :range: binary
    :feedback: Skipped track is removed from the AutoDJ playlist.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [AutoDJ],fade_now
@@ -2908,7 +2908,7 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    :range: binary
    :feedback: Crossfader slider moves to the other side.
 
-   .. versionadded:: v1.11.0
+   .. versionadded:: 1.11.0
 
 
 .. mixxx:control:: [AutoDJ],add_random_track
@@ -2918,7 +2918,7 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    :range: binary
    :feedback: Track is added to AutoDJ queue.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 The ``[Library]`` controls
@@ -2934,7 +2934,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveDown
@@ -2944,7 +2944,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveVertical
@@ -2954,7 +2954,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Relative (positive values move down, negative values move up)
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],ScrollUp
@@ -2964,7 +2964,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],ScrollDown
@@ -2974,7 +2974,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],ScrollVertical
@@ -2984,7 +2984,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Relative (positive values move down, negative values move up)
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveLeft
@@ -2994,7 +2994,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveRight
@@ -3004,7 +3004,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveHorizontal
@@ -3014,7 +3014,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Relative (positive values move right, negative values move left)
    :feedback: Currently selected item changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveFocusForward
@@ -3024,7 +3024,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently focused pane changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveFocusBackward
@@ -3034,7 +3034,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Currently focused pane changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],MoveFocus
@@ -3044,7 +3044,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Relative (positive values move forward, negative values move backward)
    :feedback: Currently focused pane changes
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],GoToItem
@@ -3054,7 +3054,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Context dependent
 
-   .. versionadded:: v2.1.0
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Library],AutoDjAddBottom
@@ -3065,7 +3065,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Append track(s) to Auto DJ playlist
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Library],AutoDjAddTop
@@ -3076,7 +3076,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Prepend track(s) to Auto DJ playlist
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Library],show_coverart
@@ -3093,14 +3093,14 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Library view
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Library],font_size_decrement
 
    Decrease the size of the library font
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
    :range: Binary
    :feedback: Library view
@@ -3110,7 +3110,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    Increase or decrease the size of the library font
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
    :range: Relative
    :feedback: Library view
@@ -3157,7 +3157,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    :feedback: Sorting indicator in the column headers of the track table
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [Library],sort_column_toggle
@@ -3167,7 +3167,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Same as for :mixxx:coref:`[Library],sort_column`
    :feedback: Sorting indicator in the column headers of the track table
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [Library],sort_order
@@ -3177,7 +3177,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary (0 for ascending, 1 for descending)
    :feedback: Sorting indicator in the column headers of the track table
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [Library],track_color_prev
@@ -3187,7 +3187,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Track color changes in the library view.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [Library],track_color_next
@@ -3197,7 +3197,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :range: Binary
    :feedback: Track color changes in the library view.
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 The ``[Playlist]`` controls
@@ -3263,7 +3263,7 @@ This group is going to be deprecated at some point, with its controls added to `
 
     Toggles (expands/collapses) the currently selected sidebar item.
 
-    .. versionadded:: v1.11.0
+    .. versionadded:: 1.11.0
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[Library],GoToItem` instead.
 
@@ -3301,7 +3301,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
    :range: binary
    :feedback: All Widgets
 
-   .. versionadded:: v2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Controls],AutoHotcueColors
@@ -3311,7 +3311,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
    :range: binary
    :feedback: N/A
 
-   .. versionadded:: v2.3.0
+   .. versionadded:: 2.3.0
 
 
 .. _advanced-mixxxcontrols-effects:
@@ -3328,7 +3328,7 @@ In the list below,
  *  I ranges from 1 to ``[Master],num_decks``, inclusive.
  *  J ranges from 1 to ``[Master],num_samplers``, inclusive.
 
-.. versionadded:: v2.0.0
+.. versionadded:: 2.0.0
 
 Linking Values
 ++++++++++++++
@@ -3721,7 +3721,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     Toggles the flanger effect.
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
@@ -3770,7 +3770,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     Adjusts the intensity of the flange effect
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
@@ -3780,7 +3780,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     Adjusts the phase delay of the flange effect in microseconds
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
@@ -3790,7 +3790,7 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     Adjusts the wavelength of the flange effect in microseconds
 
-    .. deprecated:: v2.0.0
+    .. deprecated:: 2.0.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead.
 
 
