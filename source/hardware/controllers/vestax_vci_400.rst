@@ -28,7 +28,7 @@ will continue to work with Linux.
 Note that the VCI-400 and VCI-400 Ean Golden Edition are incompatible.
 Their firmwares use different MIDI messages to communicate with the
 computer. Unfortunately, `it is not possible to switch between the
-VCI-400 and VCI-400 EGE
+VCI-400 and VCI-400 Ean Golden Edition
 firmware <http://forum.djtechtools.com/showthread.php?t=64071&p=572022&viewfull=1#post572022>`__.
 
 Mapping

@@ -92,7 +92,7 @@ Beatloop Off SHIFT + Loop Out = Loop Double.
 **Browser:**
 
 Encoder = Move up/down list Encoder button = Switch focus between List
-and file view SHIFT + Encoder button = Maximize/Minimize broser view
+and file view SHIFT + Encoder button = Maximize/Minimize browser view
 Assistant = AutoDJ On/Off
 
 **FX:**

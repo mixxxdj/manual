@@ -34,7 +34,7 @@ There are some user configurable options for this mapping. To change the options
 
 -  **blinkingSync**: If true the sync button blinks with the beat, if false led is lit when sync is enabled.
 -  **invertVinylSlipButton**: If true, the vinyl button activates slip. Vinyl mode is then activated by using shift. Allows toggling slip faster, but is counterintuitive.
--  **jogwheelSensivity**: Sets the jogwheels sensivity. 1 is default, 2 is twice as sensitive, 0.5 is half as sensitive.
+-  **jogwheelSensivity**: Sets the jogwheels sensitivity. 1 is default, 2 is twice as sensitive, 0.5 is half as sensitive.
 -  **jogwheelShiftMultiplier**: Sets how much more sensitive the jogwheels get when holding shift. Set to 1 to disable jogwheel sensitivity increase when holding shift.
 -  **speedRateToNormalTime**: Time per step (in ms) for pitch speed fade to normal
 -  **showVumeterMaster**: If true Level-Meter shows VU-Master left & right. If false shows level of channel: 1/3 2/4 (depending active deck)

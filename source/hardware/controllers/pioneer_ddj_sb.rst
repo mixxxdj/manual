@@ -51,7 +51,7 @@ Shift + pushing rotary knob toggle expanding library section
 Switching between decks
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Pressing shift + “key lock / tempo range” allows the left deck to switch between decks 1 and 3 and the right deck to swicth between decks 2 and 4.
+Pressing Shift + “Key Lock / Tempo Range” allows the left deck to switch between decks 1 and 3 and the right deck to switch between decks 2 and 4.
 
 Volume, equalizers & filters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +60,7 @@ Between the decks the usual faders, crossfader and EQ knobs can be found. A filt
 
 Knobs are available for the master and headphones level. These are functional but are not reflected in Mixxx, as they control the controller’s soundcard directly.
 
-The filter fade button allows to use the crossfader in an innovative way that fades accross songs through filtering instead of fading.
+The filter fade button allows to use the crossfader in an innovative way that fades across songs through filtering instead of fading.
 
 There is no trim/gain knob, but the same effect can be achieved by using the filter knobs while holding shift.
 

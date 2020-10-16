@@ -49,11 +49,11 @@ PFL (symbolized by a headphone)
 -  \**PFL: \**Press these buttons to send each channel to the Headphones Output
    channel for pre-listening.
 -  \**Slip mode: \**Hold :ref:`SHIFT <reloop-beatpad-shift>` down and then press these buttons to
-   activate/desactivate Slip Mode. When active, the playback continues muted in
+   activate/deactivate Slip Mode. When active, the playback continues muted in
    the background during a loop, scratch etc. Once disabled, the audible
    playback will resume where the track would have been.
 -  **Quantize mode:** Hold :ref:`SHIFT <reloop-beatpad-shift>` down and then press these buttons
-   to activate/desactivate the Quantize mode. When active, it aligns Hot-cues
+   to activate/deactivate the Quantize mode. When active, it aligns Hot-cues
    and Loops to the next beat from the current position.
 
 Equalizer
@@ -158,11 +158,11 @@ SYNC
 
 -  **Press once** to synchronize the tempo (BPM) and phase to that of the other
    track.
--  **Press twice quickly** to play the track immediatly, synchronized to the
+-  **Press twice quickly** to play the track immediately, synchronized to the
    tempo (BPM) and to the phase of the other track, if the track was paused.
 -  **Sync Lock:** Hold for at least half of a second to enable **sync lock** for
    this deck. Decks with sync locked will all play at the same tempo, and decks
-   that also have **quantize** enabled (wich is enabled by default by the
+   that also have **quantize** enabled (which is enabled by default by the
    mapping) will always have their beats lined up.
    **Note :** the **quantize** mode is not mapped on the controller but can be
    enabled/desabled from Mixxx.
@@ -385,10 +385,10 @@ show on in Sampler mode when the controller is in :ref:`SHIFT <reloop-beatpad-sh
 
 Press the SAMPLER mode button to set the PADs to cycle between 4 sub modes:
 
--   **Sampler mode** (orange LEDs): each pad triggers a sample from the selected Sampler bank. The PADs wich are lit indicate which samples are loaded and ready to use. While a sample is playing, the corresponding PAD changes its color to pink.
--   **Sampler bank selection mode** (pink LED): each pad selects 1 of the 4 sampler banks. The PAD wich is lit indicates wich bank is active.
--   **Loop mode** status and selection (magenta LEDs): press any pad to toggle between **[[#LOOPS-SECTION|regular loop mode]]** and **[[#LOOPS-SECTION|roll loop mode]]**.\\ **Regular loop mode** is symbolized by the left PAD lit, representing the loop), and all the others switched off. **Roll loop mode** is symbolized by both the left (representing the loop) and the right PADs lit (symbolizing the position after the loop where the track will continue to play when the loop will be triggered off).
--   **Effect rack selection** mode (purple LED): each pads selects 1 of the 4 effect racks. The PAD which is lit indicates which effect rack is active (see **[[#EFFECTS-SECTION|EFFECTS SECTION]]**).
+-   **Sampler mode** (orange LEDs): each pad triggers a sample from the selected Sampler bank. The PADs wgich are lit indicate which samples are loaded and ready to use. While a sample is playing, the corresponding PAD changes its color to pink.
+-   **Sampler bank selection mode** (pink LED): each pad selects 1 of the 4 sampler banks. The PAD that is lit indicates which bank is active.
+-   **Loop mode** status and selection (magenta LEDs): press any pad to toggle between :ref:`regular loop mode <reloop-beatpad-loops>` and :ref:`roll loop mode <reloop-beatpad-loops>`. **Regular loop mode** is symbolized by the left PAD lit, representing the loop), and all the others switched off. **Roll loop mode** is symbolized by both the left (representing the loop) and the right PADs lit (symbolizing the position after the loop where the track will continue to play when the loop will be triggered off).
+-   **Effect rack selection** mode (purple LED): each pads selects 1 of the 4 effect racks. The PAD which is lit indicates which effect rack is active (see :ref:`Effect Section <reloop-beatpad-effects>`).
 
 Troubleshooting
 ---------------

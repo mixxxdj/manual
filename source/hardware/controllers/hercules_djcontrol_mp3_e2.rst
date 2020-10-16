@@ -521,7 +521,7 @@ Deck / Channel specific controls
 +--------------+--------------+------------------+--------------+--------------+
 | 15           | Cue          | Sets the cue     |              |              |
 |              |              | point if a track |              |              |
-|              |              | is stoped and    |              |              |
+|              |              | is stopped and   |              |              |
 |              |              | not at the       |              |              |
 |              |              | current cue      |              |              |
 |              |              | point            |              |              |
