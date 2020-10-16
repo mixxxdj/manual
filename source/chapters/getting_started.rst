@@ -155,4 +155,3 @@ using a controller with a built-in audio interface, use these inputs.
   manipulating decks 1-4
 
 .. seealso:: :ref:`microphones`
-
