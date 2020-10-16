@@ -12,6 +12,8 @@ splitter cable (although it does include 5-pin MIDI in and out ports).
 -  `Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-mapping/15071>`__
 -  `Manufacturer’s manual <http://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
 
+.. versionadded:: 2.0
+
 Compatibility and setup
 -----------------------
 

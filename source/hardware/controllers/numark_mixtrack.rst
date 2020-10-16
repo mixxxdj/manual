@@ -9,6 +9,8 @@ It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mi
 -  `Manufacturer’s product page <http://www.numark.com/mixtrack>`__
 -  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack/10918>`__
 
+.. versionadded:: 1.8.2
+
 Mapping Description
 -------------------
 

@@ -23,6 +23,8 @@ separate `USB audio
 interface <Hardware%20Compatibility#USB%20Audio%20Interfaces>`__ with a
 microphone input is suggested.
 
+.. versionadded:: 2.1
+
 Configuration options
 ---------------------
 

@@ -65,6 +65,11 @@ class MixxxControlNode(ObjectDescription):
 
     def handle_signature(self, sig, signode):
         matchobj = re.match(r"(?P<group>\[.*\]),(?P<control>.*)", sig)
+        if not matchobj:
+            logger.warning(__('Unsupported control signature %r'),
+                           sig, type='ref', subtype='mixxx', location=signode)
+            return sig, signode
+
         group, control = matchobj.groups()
 
         signode["group"] = group
@@ -77,6 +82,8 @@ class MixxxControlNode(ObjectDescription):
         return sig, group
 
     def add_target_and_index(self, name_cls, sig, signode):
+        if "group" not in signode:
+            return
         anchor = "control-" + signode["group"] + "-" + signode["control"]
         signode["ids"].append(anchor)
         if "noindex" not in self.options:

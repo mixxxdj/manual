@@ -4,6 +4,8 @@ Stanton SCS.3d “DaScratch”
 -  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__
 -  `Walk-through video! <http://www.youtube.com/watch?v=8DUpTikA8u0>`__
 
+.. versionadded:: 1.7
+
 Default Mapping
 ---------------
 

@@ -4,6 +4,8 @@ M-Audio Torq Xponent
 This device has been discontinued. M-Audio discontinued its DJ products after the company was bought by inMusic in 2012. This device is a class compliant USB audio and MIDI device, so it does not
 require a special driver on any OS that Mixxx runs on.
 
+.. versionadded:: 1.6
+
 Note for Windows users
 ----------------------
 

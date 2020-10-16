@@ -1,9 +1,6 @@
 Reloop Beatmix 2
 ================
 
--  `Manufacturer’s product page <productpage_url_>`_
--  `Forum thread <forum_url_>`_
-
 The **Reloop Beatmix 2** is a performance-oriented 2-channel pad controller with
 integrated soundcard. **Beatmix 2** offers an ergonomically designed 2-channel
 mixer layout, optimized for the club allowing you to work intuitively: Dedicated
@@ -21,5 +18,10 @@ compatible with this controller, but hasn’t been tested. See the
 :ref:`Reloop Beatmix 4 <reloop-beatmix-4>` page for the complete mapping
 description.
 
+-  `Manufacturer’s product page <productpage_url_>`_
+-  `Forum thread <forum_url_>`_
+
 .. _productpage_url: https://www.reloop.com/reloop-beatmix-2
 .. _forum_url: http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428
+
+.. versionadded:: 2.1

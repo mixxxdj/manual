@@ -5,6 +5,8 @@ Stanton DJC.4
 -  `Manual / Midi commands <http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__
 -  `Forum thread <https://mixxx.discourse.group/t/mapping-for-stanton-djc-4/14074>`__
 
+.. versionadded:: 2.2.4
+
 Compatibility
 -------------
 

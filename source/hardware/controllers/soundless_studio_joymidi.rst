@@ -17,6 +17,8 @@ The joyMIDI is a portable 4-in-1 MIDI controller with 4 operating modes: Keyboar
    (See the chapter 7.3 , DJ controller mode)
 -  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=13166&p=43644#p43644>`__
 
+.. versionadded:: 2.2.4
+
 Mapping Description
 -------------------
 

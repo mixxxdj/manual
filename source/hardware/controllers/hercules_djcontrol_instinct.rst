@@ -8,6 +8,8 @@ Control Instinct, but has a brushed stainless finish.
 -  `Manufacturer's product page <https://support.hercules.com/en/product/djcontrolinstinct-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-dj-control-instinct/12623>`__
 
+.. versionadded:: 1.10.1
+
 Setup
 -----
 

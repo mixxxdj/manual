@@ -7,6 +7,8 @@ Korg Kaoss DJ controller
 -  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8479>`__
 -  `Pull request on Github <https://github.com/mixxxdj/mixxx/pull/1509>`__
 
+.. versionadded:: 2.1
+
 Mapping
 -------
 

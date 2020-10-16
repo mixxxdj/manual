@@ -7,6 +7,8 @@ the MIDI Fighter series, Chroma Cables, and Chroma Caps.
 
 -  `Manufacturer’s product page <http://www.djtechpro.com/eng/product-details.php?id=10>`__
 
+.. versionadded:: 1.10.1
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

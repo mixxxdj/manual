@@ -12,6 +12,8 @@ otherwise the same hardware as the VMS4.1.
 -  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
 -  `VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__
 
+.. versionadded:: 1.9
+
 Setup
 -----
 

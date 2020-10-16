@@ -17,6 +17,8 @@ sound card, so this controller’s sound card is not suitable for
 broadcasting or recording the inputs. You could use the controller with
 a separate USB sound card that has a microphone input for that purpose.
 
+.. versionadded:: 2.1
+
 Mapping Description
 -------------------
 

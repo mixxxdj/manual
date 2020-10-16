@@ -7,6 +7,8 @@ cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound card <h
 -  `Manufacturer’s product page <https://www.ionaudio.com/discover-dj-bicue3>`__
 -  `Forum thread <https://mixxx.discourse.group/t/ion-discover-dj-controller-possible-future-support/10284>`__
 
+.. versionadded:: 1.8
+
 Compatibility
 -------------
 

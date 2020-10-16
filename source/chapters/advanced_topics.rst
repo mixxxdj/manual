@@ -2653,15 +2653,20 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 
 .. mixxx:control:: [MicrophoneN],master
-.. mixxx:control:: [AuxiliaryN],master
+                   [AuxiliaryN],master
+
+   Hold value at 1 to mix channel input into the master output.
+   For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
+   Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
+   :feedback: Auxiliary: Play button
+              Microphone: N/A
 
 
-.. mixxx:control:: [MicrophoneN],orientation
-                   [AuxiliaryN],orientation
+.. mixxx:control:: [AuxiliaryN],orientation
 
-   Set channel orientation,
+   Set channel orientation.
 
    :range:
       ===== ===================================
@@ -2672,6 +2677,10 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       2     Right side of crossfader
       ===== ===================================
    :feedback: N/A
+
+   .. versionadded:: v1.10.0
+
+.. mixxx:control:: [MicrophoneN],orientation
 
    .. versionadded:: v1.10.0
    .. deprecated:: v1.10.0
@@ -2721,7 +2730,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 
 .. mixxx:control:: [MicrophoneN],talkover
-                   [AuxiliaryN],talkover
 
    Hold value at 1 to mix channel input into the master output.
 
@@ -2810,6 +2818,26 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    .. versionadded:: v1.10.0
 
 
+.. mixxx:control:: [VinylControl],show_vinylcontrol
+
+   Toggle the vinyl control section in skins.
+
+   :range: binary
+   :feedback: VC controls are shown
+
+   .. versionadded:: v1.10.0
+
+
+.. mixxx:control:: [VinylControl],gain
+
+   Allows to amplify the "phono" level of attached turntables to "line" level.
+   This is equivalent to setting the :ref:`turntable boost <vinyl-control-config-gain>` in :menuselection:`Options --> Preferences --> Vinyl Control`
+
+   :range: binary
+   :feedback: position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)
+
+   .. versionadded:: v1.10.0
+
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2897,6 +2925,7 @@ The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
+Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
 
 .. mixxx:control:: [Library],MoveUp
 
@@ -3174,6 +3203,8 @@ The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate 
 The ``[Playlist]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering
+the currently focused widget. This is helpful when another application's window is focused.
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
@@ -3307,7 +3338,7 @@ This linkage can be user-controlled by changing the ``link_type`` and the ``link
 The default link type is loaded from the effect parameter's manifest's ``linkHint`` property.
 
 =================  =============  ============================================
-Link Type          Integer Value  Intepretation
+Link Type          Integer Value  Interpretation
 =================  =============  ============================================
 None               0              Not controlled by the metaknob
 Linked             1              Controlled by the metaknob as it is
@@ -3317,7 +3348,7 @@ Linked Left Right  4              Controlled by both sides of the metaknob
 =================  =============  ============================================
 
 ============  =============  ==============================
-Link Inverse  Integer Value  Intepretation
+Link Inverse  Integer Value  Interpretation
 ============  =============  ==============================
 Normal        0              Linked in equal relation
 Inverse       1              Linked in an inverse relation.

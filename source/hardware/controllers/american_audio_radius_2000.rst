@@ -7,6 +7,8 @@ when they are connected by a sound card.
 
 -  `Manufacturer’s product page <https://www.americandj.eu/en/radius-2000.html>`__
 
+.. versionadded:: 1.10
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

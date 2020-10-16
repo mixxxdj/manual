@@ -6,6 +6,8 @@ The Numark N4 is a 4-deck DJ controller with seamless integration of external de
 -  `Manufacturer’s product page <http://www.numark.com/product/n4>`__
 -  `Wiki page <https://github.com/mixxxdj/mixxx/wiki/Numark-N4>`__
 
+.. versionadded:: 1.10
+
 Mapping Description
 +++++++++++++++++++
 
