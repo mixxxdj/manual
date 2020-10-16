@@ -66,8 +66,13 @@ class MixxxControlNode(ObjectDescription):
     def handle_signature(self, sig, signode):
         matchobj = re.match(r"(?P<group>\[.*\]),(?P<control>.*)", sig)
         if not matchobj:
-            logger.warning(__('Unsupported control signature %r'),
-                           sig, type='ref', subtype='mixxx', location=signode)
+            logger.warning(
+                __("Unsupported control signature %r"),
+                sig,
+                type="ref",
+                subtype="mixxx",
+                location=signode,
+            )
             return sig, signode
 
         group, control = matchobj.groups()
@@ -90,7 +95,9 @@ class MixxxControlNode(ObjectDescription):
             signame = type(self).__name__
             name = "{}.{}.{}".format(MixxxDomain.name, signame, sig)
             objs = self.env.domaindata[MixxxDomain.name]["objects"]
-            objs.add((name, sig, signode["group"], self.env.docname, anchor, 0))
+            objs.add(
+                (name, sig, signode["group"], self.env.docname, anchor, 0)
+            )
 
 
 class MixxxControlIndex(Index):
@@ -129,9 +136,10 @@ class MixxxControlIndex(Index):
         """
 
         content = {}
-        items = ((name, dispname, typ, docname, anchor)
-                 for name, dispname, typ, docname, anchor, prio
-                 in self.domain.get_objects())
+        items = (
+            (name, dispname, typ, docname, anchor)
+            for name, dispname, typ, docname, anchor, prio in self.domain.get_objects()
+        )
         items = sorted(items, key=lambda item: item[0])
         for name, dispname, typ, docname, anchor in items:
             lis = content.setdefault(typ, set())
@@ -171,9 +179,9 @@ class MixxxDomain(Domain):
     def get_objects(self):
         yield from self.data["objects"]
 
-    def resolve_xref(self, env, fromdocname, builder, typ,
-                     target, node, contnode):
-
+    def resolve_xref(
+        self, env, fromdocname, builder, typ, target, node, contnode
+    ):
         targets = generate_targets(target)
         corefs = sorted(self.get_objects(), key=lambda x: x[5])
         matches = None
@@ -185,27 +193,43 @@ class MixxxDomain(Domain):
             ]
         elif typ == "cogroupref":
             groups = [
-                group for name, sig, group, docname, anchor, prio in corefs
+                group
+                for name, sig, group, docname, anchor, prio in corefs
                 if group in targets
             ]
             if groups:
                 matches = [("mixxx-control", "cap-{}".format(groups[0]))]
         else:
-            logger.warning(__('Unsupported cross-references %r'),
-                           target, type='ref', subtype='mixxx', location=node)
+            logger.warning(
+                __("Unsupported cross-references %r"),
+                target,
+                type="ref",
+                subtype="mixxx",
+                location=node,
+            )
             return None
 
         if not matches:
-            logger.warning(__('no target found for cross-reference %r'),
-                           target, type='ref', subtype='mixxx', location=node)
+            logger.warning(
+                __("no target found for cross-reference %r"),
+                target,
+                type="ref",
+                subtype="mixxx",
+                location=node,
+            )
             return None
 
         if len(matches) > 1:
             logger.warning(
-                __('more than one target found for cross-reference %r: %s'),
-                target, ', '.join(match[0] for match in matches),
-                type='ref', subtype='python', location=node)
+                __("more than one target found for cross-reference %r: %s"),
+                target,
+                ", ".join(match[0] for match in matches),
+                type="ref",
+                subtype="python",
+                location=node,
+            )
 
         todocname, targ = matches[0]
         return make_refnode(
-            builder, fromdocname, todocname, targ, contnode, targ)
+            builder, fromdocname, todocname, targ, contnode, targ
+        )

@@ -6,5 +6,5 @@ class HWLabel(GUILabel):
 
 
 specific_docroles = {
-    'hwlabel': HWLabel(),
+    "hwlabel": HWLabel(),
 }

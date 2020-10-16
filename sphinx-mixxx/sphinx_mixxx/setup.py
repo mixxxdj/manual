@@ -12,10 +12,15 @@ def setup(app):
     for rolename, func in specific_docroles.items():
         roles.register_local_role(rolename, func)
 
-    StandardDomain.initial_data["labels"]["controlindex"] =\
-        ("mixxx-control", "", "Control Index")
+    StandardDomain.initial_data["labels"]["controlindex"] = (
+        "mixxx-control",
+        "",
+        "Control Index",
+    )
 
-    StandardDomain.initial_data["anonlabels"]["controlindex"] =\
-        ("mixxx-control", "")
+    StandardDomain.initial_data["anonlabels"]["controlindex"] = (
+        "mixxx-control",
+        "",
+    )
 
     return {"version": "0.1"}
