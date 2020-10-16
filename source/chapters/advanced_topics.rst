@@ -454,7 +454,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The current output sample rate (default: 44100 Hz).
 
    :range: absolute value (in Hz)
-   :feedback: (none)
+   :feedback: None
 
 
 .. mixxx:control:: [Master],talkoverDucking
@@ -965,7 +965,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Outputs the length of the current song in seconds
 
    :range: absolute value
-   :feedback: (none)
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],eject
