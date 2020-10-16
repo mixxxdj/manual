@@ -34,11 +34,11 @@ This controller has built-in 4 channel output sound card, with:
   - MIC: 6.35mm jack
   - AUX: 3.5mm jack
 
-- Open **Preferences \> Sound Hardware**  
-- Select the **Output** tab  
-- From the **Master** drop-down menu, select the audio interface, then **Channels 1-2**  
-- From the **Headphones** drop-down menu, select the audio interface, then **Channels 3-4**  
-- Click **Apply** to save the changes.  
+- Open :menuselection:`Preferences --> Sound Hardware`  
+- Select the :guilabel:`Output` tab  
+- From the :guilabel:`Master` drop-down menu, select the audio interface, then :guilabel:`Channels 1-2` 
+- From the :guilabel:`Headphones` drop-down menu, select the audio interface, then :guilabel:`Channels 3-4`  
+- Click :guilabel:`Apply` to save the changes.  
 
 Please refer to the user manual for more details about the audio configuration in Mixxx.
 
