@@ -18,7 +18,7 @@ repos:
   - id: codespell
     name: "Check for spelling mistakes"
     args: ["--ignore-words", ".codespellignore"]
-    exclude: ^source/locale/.*$
+    exclude: ^(.*\.svg|source/locale/.*)$
 - repo: https://github.com/psf/black
   rev: stable
   hooks:
