@@ -331,7 +331,7 @@ Press the **BOUNCE LOOP** mode button to set the PADs to Loop Roll mode.
 Pads
 ^^^^
 
-Press (and keep down) any of the 4 pads to trigger a momentary 
+Press (and keep down) any of the 4 pads to trigger a momentary
 :ref:`Loop Roll <interface-looping>` of a different size (in beats) as per the
 table.
 

@@ -605,7 +605,7 @@ will work and if you launch Mixxx with :literal:`-``-controllerDebug` parameter,
 
 ::
 
-   Debug [Controller]: "DJ Control MP3 e2 : 3 bytes: B3 38 38 " 
+   Debug [Controller]: "DJ Control MP3 e2 : 3 bytes: B3 38 38 "
 
 note the B3 here. it’s B<MIDI Channel # - 1>. So this controller is configured on channel 4. controller configured on channel 1 will show B0, which is correct.
 
