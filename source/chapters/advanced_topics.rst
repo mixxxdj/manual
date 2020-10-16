@@ -2655,9 +2655,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 .. mixxx:control:: [MicrophoneN],master
                    [AuxiliaryN],master
 
-|  Hold value at 1 to mix channel input into the master output.
-|  For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
-|  Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
+   Hold value at 1 to mix channel input into the master output.
+   For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
+   Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
    :feedback: Auxiliary: Play button
