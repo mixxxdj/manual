@@ -314,7 +314,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    Indicator that the master mix is processed.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
@@ -334,7 +334,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    Indicator that the headphone mix is processed.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
@@ -390,7 +390,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of decks currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -400,7 +400,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of available effects that can be selected in an effect slot.
 
    :range: integer, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.1.0
 
@@ -410,7 +410,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of samplers currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -420,7 +420,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    The number of preview decks currently enabled.
 
    :range: integer
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.11.0
 
@@ -543,7 +543,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Indicates whether the player is currently positioned within 50 milliseconds of a beat or not.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -901,7 +901,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Cue button, always in CDJ mode
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -913,7 +913,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    CUP button, Go to cue point and play after release. If stopped, sets a cue point at the current location.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.1.0
 
@@ -1007,7 +1007,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    The detected BPM of the loaded track.
 
    :range: positive value, read-only
-   :feedback: N/A
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],file_key
@@ -1017,7 +1017,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    The detected key of the loaded track.
 
    :range: ?, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.0.0
 
@@ -1151,7 +1151,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Contains the number of the most recentlly used hotcue (or -1 if no hotcue was used).
 
    :range: positive integer (or -1)
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.3.0
 
@@ -1519,7 +1519,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       1     Center (not affected by crossfader)
       2     Right side of crossfader
       ===== ===================================
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -2197,7 +2197,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Sample rate of the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.9.0
 
@@ -2209,7 +2209,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Number of sound samples in the track loaded on the specified deck
 
    :range: absolute value, read-only
-   :feedback: N/A
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],volume
@@ -2686,7 +2686,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       1     Center (not affected by crossfader)
       2     Right side of crossfader
       ===== ===================================
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -3319,7 +3319,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
    If enabled, colors will be assigned to newly created hot cue points automatically.
 
    :range: binary
-   :feedback: N/A
+   :feedback: None
 
    .. versionadded:: 2.3.0
 
