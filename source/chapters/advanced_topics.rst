@@ -3138,36 +3138,40 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
      ===== ================== ============ ======== ===== ======
      Value Description        Library      Playlist Crate Browse
      ===== ================== ============ ======== ===== ======
-     0     Artist             X            X        X     X
-     1     Title              X            X        X     X
-     2     Album              X            X        X     X
-     3     Albumartist        X            X        X     X
-     4     Year               X            X        X     X
-     5     Genre              X            X        X     X
-     6     Composer           X            X        X     X
-     7     Grouping           X            X        X     X
-     8     Tracknumber        X            X        X     X
-     9     Filetype           X            X        X     X
-     10    Native Location    X            X        X     X
-     11    Comment            X            X        X     X
-     12    Duration           X            X        X     X
-     13    Bitrate            X            X        X     X
-     14    BPM                X            X        X     X
-     15    ReplayGain         X            X        X     X
-     16    Datetime Added     X            X        X     X
-     17    Times Played       X            X        X     X
-     18    Rating             X            X        X     X
-     19    Key                X            X        X     X
-     20    Preview            X            X        X     X
-     21    Coverart           X            X        X
-     22    Position                        X
-     23    Playlist ID                     X
-     24    Location                        X
-     25    Filename                                       X
-     26    File Modified Time                             X
-     27    File Creation Time                             X
+     0     (Current Column)   X            X        X     X
+     1     Artist             X            X        X     X
+     2     Title              X            X        X     X
+     3     Album              X            X        X     X
+     4     Albumartist        X            X        X     X
+     5     Year               X            X        X     X
+     6     Genre              X            X        X     X
+     7     Composer           X            X        X     X
+     8     Grouping           X            X        X     X
+     9     Tracknumber        X            X        X     X
+     10    Filetype           X            X        X     X
+     11    Native Location    X            X        X     X
+     12    Comment            X            X        X     X
+     13    Duration           X            X        X     X
+     14    Bitrate            X            X        X     X
+     15    BPM                X            X        X     X
+     16    ReplayGain         X            X        X     X
+     17    Datetime Added     X            X        X     X
+     18    Times Played       X            X        X     X
+     19    Rating             X            X        X     X
+     20    Key                X            X        X     X
+     21    Preview            X            X        X     X
+     22    Coverart           X            X        X
+     23    Position                        X
+     24    Playlist ID                     X
+     25    Location                        X
+     26    Filename                                       X
+     27    File Modified Time                             X
+     28    File Creation Time                             X
+     29    Sample Rate
+     30    Track Color        X            X        X
      ===== ================== ============ ======== ===== ======
 
+   :Current Column is the column with the cursor on it
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: 2.3.0
