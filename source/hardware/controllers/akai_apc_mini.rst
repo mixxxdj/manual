@@ -3,8 +3,7 @@ Akai APC Mini
 
 The *Akai APC Mini* is a controller for a 64 Samplers deck.
 
--  `Manufacturer’s product
-   page <https://www.akaipro.com/apc-mini>`__
+-  `Manufacturer’s product page <https://www.akaipro.com/apc-mini>`__
 
 Mapping description
 -------------------
