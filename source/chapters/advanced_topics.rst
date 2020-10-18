@@ -3179,7 +3179,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    Equivalent to clicking on column headers. A new value sets :mixxx:coref:`[Library],sort_column` to that value and :mixxx:coref:`[Library],sort_order` to 0, setting the same value again will toggle :mixxx:coref:`[Library],sort_order`.
 
-   :range: Same as for :mixxx:coref:`[Library],sort_column` or value 0 for sorting the current column with the cursor on it
+   :range: Same as for :mixxx:coref:`[Library],sort_column` or value 0 for sorting according the current column with the cursor on it
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: 2.3.0
