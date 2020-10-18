@@ -899,7 +899,7 @@ If you have already added a track containing Serato Metadata to your Mixxx libra
 
 .. warning:: This action will clear your existing cuepoints in Mixxx if the file contains Serato Metadata
 
-**To reimport metadata for files**
+To reimport metadata from files:
 
 * Right click on the track to show the context menu
 * Select :menuselection:`Metadata --> Import From File Tags`.
