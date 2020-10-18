@@ -10,7 +10,7 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/Mixxx-200-Deere.png
+.. figure:: ../_static/2.2/overview.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -32,7 +32,7 @@ The Deck Sections
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-The-Deck-section.png
+.. figure:: ../_static/2.2/interface-decks.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -49,7 +49,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-Track-Information-display.png
+.. figure:: ../_static/2.2/track-information.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -87,7 +87,7 @@ Track Information Display
   The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show. 
   Clicking the key will expand it to reveal more options: 
 
-  .. figure:: ../_static/key_options.png
+  .. figure:: ../_static/2.2/key_options.png
    :align: center
    :width: 42%
    :figwidth: 100%
@@ -97,7 +97,7 @@ Track Information Display
    The Key options.
 
   * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
-  * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key
+  * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key.
 
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
@@ -123,7 +123,7 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/Mixxx-200-Deere-Parallel-waveforms.png
+.. figure:: ../_static/2.2/deere-parallel-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -136,7 +136,7 @@ Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
-.. figure:: ../_static/Mixxx-200-Latenight-skin-parallel-waveforms.png
+.. figure:: ../_static/2.2/latenight-parallel-waveforms.png 
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -216,7 +216,7 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-Deck-options-button-grid.png
+.. figure:: ../_static/2.2/options-button-grid.png
    :align: center
    :width: 79px
    :figwidth: 100%
@@ -263,7 +263,7 @@ follows:
 Playback/Cue Controls
 ---------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-Playback-Cue-controls.png
+.. figure:: ../_static/2.2/cue-controls.png
   :align: center
   :width: 54px
   :figwidth: 100%
@@ -398,7 +398,7 @@ Transport Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
+.. figure:: ../_static/2.2/transport-controls.png
   :align: center
   :width: 55px
   :figwidth: 100%
@@ -424,8 +424,7 @@ Transport Controls
  expletives on the fly, or simply as part of your mix.
 
 
- .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can be mapped to keyboards and MIDI controllers. See this `guide here. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
-
+ .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can still be mapped to keyboards and MIDI controllers. 
 
 .. _interface-vc-mode:
 
@@ -435,10 +434,10 @@ Vinyl Control Mode and Cueing controls
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-Vinyl-Control-Mode-and-cueing-options.png
+.. figure:: ../_static/2.2/vinyl-control-mode.png
    :align: center
    :width: 20%
-   :figwidth: 100%
+   :figwidth: 90%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -481,7 +480,7 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-Sync-and-Rate-Controls.png
+.. figure:: ../_static/2.2/sync-and-rate-controls.png
    :align: right
    :width: 68px
    :figwidth: 100px
@@ -558,7 +557,7 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-loop-controls.png
+.. figure:: ../_static/2.2/loop-controls.png
    :align: center
    :width: 205px
    :figwidth: 100%
@@ -621,7 +620,7 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-hot-cue-controls.png
+.. figure:: ../_static/2.2/cue-controls.png
    :align: center
    :width: 59px
    :figwidth: 100%
@@ -690,7 +689,7 @@ The Mixer Section
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-The-Mixer-Section.png
+.. figure:: ../_static/2.2/mixer-section.png
    :align: center
    :width: 430px
    :figwidth: 100%
@@ -730,7 +729,7 @@ Channel Faders and Level Meters
 Section Expansion Buttons
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-top.png
+.. figure:: ../_static/2.2/expansion-buttons-top.png
    :align: center
    :width: 435px
    :figwidth: 100%
@@ -739,7 +738,7 @@ Section Expansion Buttons
 
    The section expansion buttons on top
 
-   .. figure:: ../_static/Mixxx-200-Deere-Section-Expansion-buttons-skin-settings.png
+   .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
       :align: center
       :width: 220px
       :figwidth: 100%
@@ -853,7 +852,7 @@ Headphone and Master Mix Controls
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-Headphone-button.png
+.. figure:: ../_static/2.2/headphone-button.png
    :align: center
    :width: 321px
    :figwidth: 100%
@@ -886,7 +885,7 @@ volume fader all the way down.
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Deere-gain-knob.png
+.. figure:: ../_static/2.2/gain-knob.png
    :align: center
    :width: 300px
    :figwidth: 150px
@@ -941,7 +940,7 @@ Equalizers and Gain Knobs
 Crossfader
 ----------
 
-.. figure:: ../_static/Mixxx-200-Deere-crossfader.png
+.. figure:: ../_static/2.2/crossfader.png
    :align: center
    :width: 318px
    :figwidth: 100%
@@ -968,7 +967,7 @@ on the left end of the crossfader and vice versa. This is also known as
 The Sampler Section
 ===================
 
-.. figure:: ../_static/Mixxx-200-Deere-The-Sampler-Section.png
+.. figure:: ../_static/2.2/sampler-section.png
    :align: center
    :width: 170px
    :figwidth: 100%
@@ -1099,7 +1098,7 @@ The Microphone Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-the-Microphone-section.png
+.. figure:: ../_static/2.2/microphone-section.png
    :align: center
    :width: 286px
    :figwidth: 100%
@@ -1145,7 +1144,7 @@ Preview Deck Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Deere-Preview-Deck-Section.png
+.. figure:: ../_static/2.2/preview-deck-section.png
    :align: center
    :width: 50%
    :figwidth: 100%
