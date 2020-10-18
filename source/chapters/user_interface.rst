@@ -79,6 +79,26 @@ Track Information Display
             to the speed you are tapping, go to :ref:`control-keyboard` for more
             information.
 
+**Cover Art**
+  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library. 
+  In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
+
+**Key**
+  The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show. 
+  Clicking the key will expand it to reveal more options: 
+
+  .. figure:: ../_static/key_options.png
+   :align: center
+   :width: 42%
+   :figwidth: 100%
+   :alt: The options displayed when you click on the Key
+   :figclass: pretty-figures
+
+   The Key options.
+
+  * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
+  * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
