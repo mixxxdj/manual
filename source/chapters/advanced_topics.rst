@@ -3138,7 +3138,6 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
      ===== ================== ============ ======== ===== ======
      Value Description        Library      Playlist Crate Browse
      ===== ================== ============ ======== ===== ======
-     0     (Current Column)   X            X        X     X
      1     Artist             X            X        X     X
      2     Title              X            X        X     X
      3     Album              X            X        X     X
@@ -3171,7 +3170,6 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
      30    Track Color        X            X        X
      ===== ================== ============ ======== ===== ======
 
-   :Current Column is the column with the cursor on it
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: 2.3.0
@@ -3181,7 +3179,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    Equivalent to clicking on column headers. A new value sets :mixxx:coref:`[Library],sort_column` to that value and :mixxx:coref:`[Library],sort_order` to 0, setting the same value again will toggle :mixxx:coref:`[Library],sort_order`.
 
-   :range: Same as for :mixxx:coref:`[Library],sort_column`
+   :range: Same as for :mixxx:coref:`[Library],sort_column`or value 0 for sorting the current column with the cursor on it
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: 2.3.0
