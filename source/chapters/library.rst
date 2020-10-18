@@ -888,7 +888,7 @@ Waveforms, Gain values and "Flips" are not imported from Serato.
 
 .. note:: Due to differences in the metadata format, importing Serato information from Ogg Vorbis files is currently not supported.
 
-**How to import Serato libraries from external USB drive**
+To import Serato libraries from external USB drives:
 
 * Copy music library from Serato into external USB drive
 * Plug in USB drive while Mixxx is running
