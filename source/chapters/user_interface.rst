@@ -136,14 +136,14 @@ Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. Select your preferred appearance in
 :menuselection:`Preferences --> Interface --> Skin`.
 
-.. figure:: ../_static/2.2/latenight-parallel-waveforms.png 
+.. figure:: ../_static/2.2/deere-separate-waveforms.png 
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Mixxx alternative skin (Latenight) - parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx alternative skin (Latenight) - Parallel waveforms
+   Mixxx default skin (Deere) - Seperate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
