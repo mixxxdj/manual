@@ -20,6 +20,7 @@ The Pioneer DDJ-200 is a simple 2 deck USB and Bluetooth DJ controller designed 
 -  `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596B_manual/>`__
 -  `Manufacturer's Firmware Update <https://www.pioneerdj.com/en/support/software/controller/ddj-200/>`__
 -  `Mixxx User Forum <https://mixxx.discourse.group/t/pioneer-ddj-200-mapping/18259>`__
+
 .. versionadded:: 2.2.5
 
 Controller Mapping
