@@ -55,7 +55,7 @@ Edit the :file:`Hercules_DJControl_Jogvision-scripts.js`, and change the ``CFG.(
 .. hint::
    This controller mapping can be customized by editing the corresponding Javascript file and editing the configuration options at the top of the file.
 
-All controls *act as labeled*, but there are some **additional** functionalities that have been added:
+All controls act as labeled, but there are some additional functionalities that have been added:
 
 - MODE+Loop ON                  : set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode  
 - MODE+Loop X 1/2 / X 2         : do a 'beatjump_size' beats beatjump backward/forward  
