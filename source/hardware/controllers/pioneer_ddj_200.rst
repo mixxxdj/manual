@@ -83,11 +83,3 @@ No.  Control                                            Function
 6    Transition FX Button                               Turns on :ref:`AutoDJ <djing-auto-dj>`.
 7    Cross fader                                        Fades between left and right deck.
 ===  =================================================  ============================================================================================
-
-
-.. _pioneer-ddj-200-issues:
-
-Known Issues
-~~~~~~~~~~~~
-
--  None
