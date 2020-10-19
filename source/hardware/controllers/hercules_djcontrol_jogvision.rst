@@ -52,63 +52,8 @@ Mapping configuration
 
 Edit the :file:`Hercules_DJControl_Jogvision-scripts.js`, and change the ``CFG.(user|fine)`` variables to fit your needs:  
 
-.. list-table:: *USER Variables* (you may freely modify them)
-   :widths: 25 25 25 50
-   :header-rows: 1
-
-   * - VARIABLE NAME
-     - DEFAULT VALUE
-     - AVAILABLE VALUES
-     - DESCRIPTION
-   * - beatDetection
-     - normal
-     - normal\|follow
-     - (follow=song position is more accurate with beat position, but beat detection is much less accurate)
-   * - initUpdateEffects
-     - 0.8
-     - \[0..1\]
-     - (if value > 0, set some effects values at startup with given float value)
-   * - beatHelper
-     - 1
-     - 0\|1
-     - (0=disabled; 1=use outer jog leg to indicate where to slide the pitch controller; see also 'CFG.fine.beatHelpSensitivity' variable)
-   * - beatActiveMode
-     - follow
-     - normal\|reverse\|blink\|follow\|fill\|bounce\|alternate\|off\|on
-     - defines how the beats leds will lite
-
-.. list-table:: *FINE TUNNING Variables* (you may modify them, but not too far from the default values...)
-   :widths: 25 25 25 50
-   :header-rows: 1
-
-   * - VARIABLE NAME
-     - DEFAULT VALUE
-     - AVAILABLE VALUES
-     - DESCRIPTION
-   * - beatHelpSensitivity
-     - 0.5
-     - \[0..1)
-     - Max distance (float) in BPMs to be considered as a match (in use if CFG.user.beatHelper=1): the lower, the more sensitive. Values equal or bigger than 1 are reset to 0.9 and a warning is printed
-   * - quickMoveFactor
-     - 0.002
-     - \[0..1\]
-     - the smaller (float), the slower MODE+JogWheel will move 'playposition' (when such channel is NOT playing)
-   * - quickBrowseFactor
-     - 10
-     - \[0..inf\]
-     - the bigger, the faster MODE+Browser jog will move the cursor position in the library up/down
-   * - spinBackBrakeFactor
-     - 100
-     - (0..5000\]
-     - the bigger, the softer the brake will be applied (0 = immediate stop; >=5000 = it will take almost forever to stop)
-   * - spinBackInitialSpeed
-     - 6
-     - (0..200\]
-     - the bigger, the stronger will be the "back" impulse (1 = no spinbak, but stop and start sloooowly)
-   * - mixGainFactor
-     - 0.1
-     - (0..1)
-     - (float) the bigger, the faster the Pregain or Mix level will be updated
+.. hint::
+   This controller mapping can be customized by editing the corresponding Javascript file and editing the configuration options at the top of the file.
 
 All controls *act as labeled*, but there are some **additional** functionalities that have been added:
 
