@@ -2,8 +2,8 @@ Pioneer DDJ-200
 ===============
 
 .. sectionauthor::
-   Daniel Giddins <daniel.giddins@nottingham.ac.uk>
-   Frank Breitling <frank.breitling@gmx.de>
+   Daniel Giddins <daniel.giddins at nottingham.ac.uk>
+   Frank Breitling <frank.breitling at gmx.de>
 
 .. figure:: ../../_static/controllers/pioneer_ddj_200.svg
    :align: center
@@ -14,12 +14,12 @@ Pioneer DDJ-200
 
    Pioneer DDJ-200 (schematic view)
 
-The Pioneer DDJ-200 is a simple 2 deck USB DJ controller designed for WeDJ, djay, edjing Mix and Rekordbox.
+The Pioneer DDJ-200 is a simple 2 deck USB and Bluetooth DJ controller designed for WeDJ, djay, edjing Mix and Rekordbox.
 
 -  `Manufacturer's Product Page <https://www.pioneerdj.com/en-gb/product/controller/ddj-200/black/overview/>`__
 -  `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596B_manual/>`__
 -  `Manufacturer's Firmware Update <https://www.pioneerdj.com/en/support/software/controller/ddj-200/>`__
-
+-  `Mixxx User Forum <https://mixxx.discourse.group/t/pioneer-ddj-200-mapping/18259>`__
 .. versionadded:: 2.2.5
 
 Controller Mapping
