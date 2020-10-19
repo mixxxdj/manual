@@ -57,16 +57,20 @@ Edit the :file:`Hercules_DJControl_Jogvision-scripts.js`, and change the ``CFG.(
 
 All controls act as labeled, but there are some additional functionalities that have been added:
 
-- MODE+Loop ON                  : set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode  
-- MODE+Loop X 1/2 / X 2         : do a 'beatjump_size' beats beatjump backward/forward  
-- MODE+Loop Size Knob           : decrease/increase pitch (only key, not tempo!)  
-- MODE+JogWheel plate (playing) : scratch with 'Slip' ON (deactivate 'Slip' when plate is released)  
-- MODE+JogWheel plate (stopped) : move song position backward/forward faster by 'quickMoveFactor' factor  
-- MODE+Browser Knob Turn        : move library selected position in groups of 'quickBrowseFactor' elements forward/backward  
-- MODE+LOAD A|B                 : toggle 'quantize' for deck where MODE key is pressed  
-- SHIFT+LOAD A|B                : eject track from deck where SHIFT key is pressed  
-- SHIFT+Browser Knob Press      : activate (double-click) currently selected item in browser  
-- SHIFT+Loop Size Knob          : move existing loop forward/backward  
-- SHIFT+JogWheelTouch           : do a 'backspin' with 'spinBackBrakeFactor' and 'spinBackInitialSpeed' factors  
-- SHIFT+MultiFX                 : set beatgrid to current position  
-- SHIFT+Air control Filter      : do the reverse than standard, that is, high-pass filter  
+=========================================================  =============================================================
+Control                                                    Description
+=========================================================  =============================================================
+:hwlabel:`MODE` + :hwlabel:`LOOP ON                        Set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode
+:hwlabel:`MODE` + :hwlabel:`LOOP X½` / :hwlabel:`LOOP X2`  Do a beatjump backward/forward
+:hwlabel:`MODE` + :hwlabel:`LOOP SIZE` knob                Decrease/Increase pitch (only key, not tempo!)
+:hwlabel:`MODE` + Jog Wheel plate (playing)                Scratch with 'Slip' on (deactivate 'Slip' when plate is released)
+:hwlabel:`MODE` + Jog Wheel plate (stopped)                Move song position backward/forward faster
+:hwlabel:`MODE` + :hwlabel:`BROWSER` knob turn             Move library selected position multiple elements forward/backward
+:hwlabel:`MODE` + :hwlabel:`LOAD` buttons                  Toggle 'quantize' for deck where :hwlabel:`MODE` button is pressed
+:hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons                 Eject track from deck where :hwlabel:`SHIFT` key is pressed
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` knob press           Activate (double-click) currently selected item in browser
+:hwlabel:`SHIFT` + :hwlabel:`LOOP SIZE` knob               Move existing loop forward/backward
+:hwlabel:`SHIFT` + Jog Wheel touch                         Do a backspin
+:hwlabel:`SHIFT` + `:hwlabel:`MULTI FX`                    Set beatgrid to current position
+:hwlabel:`SHIFT` + :hwlabel:`AIR CONTROL` Filter           Do the reverse than standard, that is, high-pass filter
+=========================================================  =============================================================
