@@ -840,7 +840,7 @@ Using libraries from other software
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
-   Ukpai Ugochi <outreachy applicant>
+   Ukpai Ugochi <ukpaiugochiibem@gmail.com outreachy applicant>
 
 Supported libraries:
 
@@ -848,7 +848,7 @@ Supported libraries:
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
-* |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -881,7 +881,7 @@ Mixxx supports reading your Serato library and crates both from your local hard 
 Serato stores information such as hot cues, track color and beatgrid in the file tags.
 Regardless of whether a track is loaded into deck from the libray or directly from the file browser, Mixxx will import that information automatically if present.
 
-Saved loops are imported as well, but since Mixxx is lacking support for saved loops, only the first loop is usable in Mixxx.
+Saved loops are imported as well, but since Mixxx is lacking support for mulitple saved loops, only the first loop is usable in Mixxx.
 All other saved loops can be used like regular hotcues for now.
    
 Waveforms, Gain values and "Flips" are not imported from Serato.
@@ -890,10 +890,10 @@ Waveforms, Gain values and "Flips" are not imported from Serato.
 
 To import Serato libraries from external USB drives:
 
-* Copy music library from Serato into external USB drive
-* Plug in USB drive while Mixxx is running
-* Click on :guilabel:`Serato` in the library. All USB drives containing a Serato library will be detected automatically.
-* For each removable device, the library and all crates from Serato will accessible.
+1. Copy music library from Serato into external USB drive
+2. Plug in USB drive while Mixxx is running
+3. Click on :guilabel:`Serato` in the library. All USB drives containing a Serato library will be detected automatically.
+4. For each removable device, the library and all crates from Serato will accessible.
 
 If you have already added a track containing Serato Metadata to your Mixxx library in a Mixxx version that didn't support reading that data, you can reimport it from the file's tags via the track context menu.
 
