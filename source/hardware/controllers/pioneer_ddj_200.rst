@@ -90,4 +90,4 @@ No.  Control                                            Function
 Known Issues
 ~~~~~~~~~~~~
 
--  Track does not align to the other track if jog wheel is used to move the play position.
+-  None
