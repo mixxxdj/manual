@@ -43,8 +43,8 @@ Auxiliary Input   3.5mm jack
 Please refer to the user manual for more details about the audio configuration in Mixxx.
 
 .. note::
-   The **Master** and **Headphone** knobs, as well as the
-   **Master** button are hardware controls and interact directly with the
+   The :hwlabel:`MASTER` and :hwlabel:`HEADPHONE` knobs, as well as the
+   :hwlabel:`MASTER` button are hardware controls and interact directly with the
    integrated sound card’s output.
    
 Mapping configuration
