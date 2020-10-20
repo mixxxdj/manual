@@ -7,7 +7,7 @@ Native Instruments Traktor Kontrol Z2
 
 The Native Instruments Traktor Kontrol Z2 is a 2+2 channel USB :term:`HID` mixer/controller with an integrated audio interface.
 It has two full channels and two further channels with limited controls. 
-The Traktor Z2 is intended for a :term:`DVS` systems and is  provided with Traktor Scratch MK2 Vinyls and CDs. 
+The Traktor Z2 is intended for a DVS systems and is provided with Traktor Scratch MK2 :term:`timecode` Vinyls and CDs. 
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-mixer/traktor-kontrol-z2/>`__
 -  `Virtual DJ Hardware Page <https://www.virtualdj.com/manuals/hardware/ni/z2.html>`__
