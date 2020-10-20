@@ -9,6 +9,8 @@ It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mi
 -  `Manufacturer’s product page <http://www.numark.com/mixtrack>`__
 -  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack/10918>`__
 
+.. versionadded:: 1.8.2
+
 Mapping Description
 -------------------
 
@@ -59,7 +61,7 @@ Mapping Description
 
     -  Auto Looping
 
-       -  1/2 X: devide loop length by 2
+       -  1/2 X: divide loop length by 2
        -  1 Bar: make a loop of just one bar (the current one)
        -  2 X: multiply loop length by 2
 
@@ -83,8 +85,8 @@ Known problems
 --------------
 
 -  The pitch on the controller has a very short run. Thus, having it configured as a +10/-10 (or more) is tricky because you will get a very low pitch precision. Configuring it as +8/-8 (Mk2 style) is
-   higly recommended
--  The autolooping functions, altough implemented are quite flawed. The “loop one bar”, which is present since the 1.0b version, is making a loop between two bars, which are rarely fitted on real
+   highly recommended
+-  The autolooping functions, although implemented are quite flawed. The “loop one bar”, which is present since the 1.0b version, is making a loop between two bars, which are rarely fitted on real
    “measures”. As of mixxx 1.9, there is no possibility to adjust the bars to make them fit perfectly to the tempo
 -  Pressing play while “cue previewing” should start the track for real, CDJ style. This is not implemented yet, and is marked as a TODO in Mixxx code, so it is unlikely to get implemented on the
    controller mapping side. \*NOTE: If you use the mapping included with the software, this feature is supported. Controls in this mapping are different than the community made one, so be careful.\*

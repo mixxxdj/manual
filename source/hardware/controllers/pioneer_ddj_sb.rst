@@ -1,11 +1,13 @@
 Pioneer DDJ-SB
 ==============
 
+The Pioneer DDJ-SB is an all-in-one 2 deck USB :term:`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks.
+
 -  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/midi-mapping-for-pioneer-ddj-sb/14806>`__
 -  `GitHub pull request <https://github.com/mixxxdj/mixxx/pull/663>`__
 
-The Pioneer DDJ-SB is an all-in-one 2 deck USB MIDI controller with a built in soundcard. Mixxx allows it to control 4 decks. It is compatible with Mixxx since version 1.12.
+.. versionadded:: 2.0
 
 Drivers
 -------
@@ -15,8 +17,11 @@ Windows
 
 Windows Vista, Windows 7 and Windows 8 are supported. You can download the latest drivers and firmware from http://www.pioneerdj.com/en/support/software/ddj-sb.
 
-**IMPORTANT for Windows users**: If you are having issues getting both sound outputs to work properly, please try using a different Sound API (see the Preferences menu). DirectSound seems to have
-issues with this controller. WASAPI seems to work fine, as does MME, although only with higher latencies. On Windows 10, only MME works.
+.. note::
+   If you're using Windows and have problems getting both sound outputs to work properly, please try using a different Sound :term:`API` in the :ref:`preferences <preferences-sound-api>`.
+   DirectSound seems to have issues with this controller.
+   WASAPI seems to work fine, as does MME, although only with higher latencies.
+   On Windows 10, only MME works.
 
 Mac OS X & Linux
 ~~~~~~~~~~~~~~~~
@@ -46,7 +51,7 @@ Shift + pushing rotary knob toggle expanding library section
 Switching between decks
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Pressing shift + “key lock / tempo range” allows the left deck to switch between decks 1 and 3 and the right deck to swicth between decks 2 and 4.
+Pressing Shift + “Key Lock / Tempo Range” allows the left deck to switch between decks 1 and 3 and the right deck to switch between decks 2 and 4.
 
 Volume, equalizers & filters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -55,7 +60,7 @@ Between the decks the usual faders, crossfader and EQ knobs can be found. A filt
 
 Knobs are available for the master and headphones level. These are functional but are not reflected in Mixxx, as they control the controller’s soundcard directly.
 
-The filter fade button allows to use the crossfader in an innovative way that fades accross songs through filtering instead of fading.
+The filter fade button allows to use the crossfader in an innovative way that fades across songs through filtering instead of fading.
 
 There is no trim/gain knob, but the same effect can be achieved by using the filter knobs while holding shift.
 

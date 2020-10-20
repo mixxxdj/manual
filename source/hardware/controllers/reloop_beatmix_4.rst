@@ -13,6 +13,11 @@ foundation for your creativity.
 -  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
 
+.. versionadded:: 2.1
+
+Audio
+-----
+
 This controller is a MIDI and audio class compliant device so it is compatible
 as-is with Linux, MacOS and Windows. However, on windows, the manufacturer ship
 an ASIO low-latency driver that can be found on the `Manufacturer’s product
@@ -151,9 +156,9 @@ Shift + FX1        select effect 1               Effect parameter 4
 Shift + FX2        select effect 2               Effect parameter 5
 Shift + FX3        select effect 3               Effect parameter 6
 Beats turn         SuperKnob                     dry/wet knob
-Beats push         EffectUnit enable/disable     
+Beats push         EffectUnit enable/disable
 Shift + Beats turn dry/wet knob                  Select Effect Chain
-Shift + Beats push Eject Effect Chain            
+Shift + Beats push Eject Effect Chain
 ================== ============================= ===================
 
 You can choose which deck you want to apply EffectUnit 1 and 2 by pressing Shift

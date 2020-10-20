@@ -386,12 +386,12 @@ Mixxx supports the following filters:
     ::
 
        genre:hip-hop -year:1990
-       
+
   * Search for empty fields. The following example lists all tracks without a
     genre. It works for all text fields, including crates.
 
     ::
- 
+
        genre:""
 
 
@@ -835,11 +835,12 @@ play. See :ref:`getting-started-analyze-library` for details.
 
 .. _library-third-party:
 
-iTunes, Traktor, Rhythmbox, Banshee - Using external libraries
-==============================================================
+Using libraries from other software
+===================================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
+   Ukpai Ugochi <ukpaiugochiibem@gmail.com outreachy applicant>
 
 Supported libraries:
 
@@ -847,6 +848,7 @@ Supported libraries:
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -855,6 +857,9 @@ locations on your hard drive.
 
 .. note:: Playing a track from an external library will add it to your Mixxx
           library.
+
+.. seealso:: External libraries can be disabled under
+             :menuselection:`Preferences --> Library`.
 
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
@@ -866,8 +871,42 @@ different location. Select :guilabel:`Use Default Library` to reset.
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists as well.
 
-.. seealso:: External libraries can be disabled under
-             :menuselection:`Preferences --> Library`.
+.. _library-serato:
+
+Using the Serato library
+------------------------
+
+Mixxx supports reading your Serato library and crates both from your local hard drive as well as portable USB drives. Smart crates are currently not supported.
+
+Serato stores information such as hot cues, track color and beatgrid in the file tags.
+Regardless of whether a track is loaded into deck from the libray or directly from the file browser, Mixxx will import that information automatically if present.
+
+Saved loops are imported as well, but since Mixxx is lacking support for multiple saved loops, only the first loop is usable in Mixxx.
+All other saved loops can be used like regular hotcues for now.
+   
+Waveforms, Gain values and "Flips" are not imported from Serato.
+
+.. note:: Due to differences in the metadata format, importing Serato information from Ogg Vorbis files is currently not supported.
+
+To import Serato libraries from external USB drives:
+
+1. Copy music library from Serato into external USB drive
+2. Plug in USB drive while Mixxx is running
+3. Click on :guilabel:`Serato` in the library. All USB drives containing a Serato library will be detected automatically.
+4. For each removable device, the library and all crates from Serato will accessible.
+
+If you have already added a track containing Serato Metadata to your Mixxx library in a Mixxx version that didn't support reading that data, you can reimport it from the file's tags via the track context menu.
+
+.. warning:: This action will clear your existing cuepoints in Mixxx if the file contains Serato Metadata
+
+To reimport metadata from files:
+
+* Right click on the track to show the context menu
+* Select :menuselection:`Metadata --> Import From File Tags`.
+
+.. hint:: Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
+          This problem may cause your cues to be shifted up by a few milliseconds. 
+          Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
 
 .. _library-removing-tracks:
 

@@ -6,14 +6,19 @@ control 4 Channels. It has a built-in sound card with 6 channels in and 4
 channels out. It features both balanced 1/4" and unbalanced RCA master outputs
 plus RCA booth outputs with an independent volume control. It can also be used
 as a stand-alone mixer, or used to mix an analog source with music files in
-Mixxx. This device requires a power adapter in addition to the USB cable. This
-device is not USB MIDI class compliant. Its signals are translated to MIDI by
-special drivers on Windows and macOS. *There is no driver available for Linux.*
+Mixxx. This device requires a power adapter in addition to the USB cable.
 
 -  `Mixxx Forum Thread <https://mixxx.discourse.group/t/create-a-mapping-for-reloop-jockey-3-me/13703>`__
 -  `Manufacturer’s product page <https://www.reloop.com/reloop-jockey-3-me-1114>`__
 -  `Manufacturer’s manual <http://www.reloop.com/media/catalog/product/pdf/2/2/4/224649_Reloop_IM.pdf>`__
 -  `Review from Digitaldjtips.com <http://www.digitaldjtips.com/2011/05/review-video-reloop-jockey-iii-me-controller/2/>`__
+
+.. versionadded:: 2.1
+
+.. warning::
+   This device is not USB :term:`MIDI` class compliant.
+   Its signals are translated to :term:`MIDI` by special drivers on Windows and macOS.
+   There is no driver available for Linux.
 
 Setup
 -----

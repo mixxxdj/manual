@@ -91,6 +91,12 @@
     :height: 32px
     :alt: Library - Icon Rhythmbox
 
+.. |ic_lib_serato| image:: /_static/icons/ic_library_serato.png
+    :width: 32px
+    :align: middle
+    :height: 32px
+    :alt: Library - Icon Serato
+
 .. |ic_lib_traktor| image:: /_static/icons/ic_library_traktor.png
     :width: 32px
     :align: middle

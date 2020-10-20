@@ -3,6 +3,8 @@
 TrakProDJ
 =========
 
+.. versionadded:: 1.10.0
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

@@ -1,8 +1,6 @@
 Stanton SCS.1m
 ==============
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
-
 .. figure:: ../../_static/controllers/stanton_scs1m.png
    :align: center
    :width: 75%
@@ -11,6 +9,10 @@ Stanton SCS.1m
    :figclass: pretty-figures
 
    Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo.
+
+-  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
+
+.. versionadded:: 1.7
 
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
@@ -83,7 +85,7 @@ Global controls
 -  **Preset** buttons: Hot cue points for the selected deck (**q** button)
 -  **Bank Down** button: select backward between Library, Playlist, and Browse
    views
--  **Bank Up** button: select foreward between Library, Playlist, and Browse
+-  **Bank Up** button: select forward between Library, Playlist, and Browse
    views
 -  **q** button: Change which deck’s hot cues are active (**Preset** buttons.)
    Off is Deck 1, On (red) is Deck 2.

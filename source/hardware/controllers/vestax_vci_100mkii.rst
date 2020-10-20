@@ -1,11 +1,13 @@
 Vestax VCI-100 MKII
 ===================
 
-Vestax went out of business in 2014.
+This controller has been discontinued as Vestax went out of business in 2014.
 
 -  `Product page in archive.org <http://web.archive.org/web/20140809134938/http://www.vestax.com/v/products/detail.php?cate_id=118&parent_id=8>`__
 -  `ASIO driver for Windows in serato.com <https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware>`__
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6038>`__
+
+.. versionadded:: 2.0
 
 Mapping Description
 -------------------

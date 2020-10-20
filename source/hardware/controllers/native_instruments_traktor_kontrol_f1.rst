@@ -5,6 +5,8 @@ The Traktor Kontrol F1 is a small versatile controller that is intended to be us
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/de/products/traktor/dj-controllers/traktor-kontrol-f1/>`__
 
+.. versionadded:: 1.11
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

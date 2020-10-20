@@ -1,6 +1,8 @@
 Hercules DJ Console (Mac Edition)
 =================================
 
+.. versionadded:: 1.7
+
 .. note::
    Unfortunately a detailed description of this controller mapping is still missing.
    If you own this controller, please consider

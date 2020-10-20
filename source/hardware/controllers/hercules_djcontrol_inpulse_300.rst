@@ -5,6 +5,8 @@ Hercules DJControl Inpulse 300
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-inpulse-300/17854/>`__
 
+.. versionadded:: 2.2.4
+
 Compatibility
 -------------
 
@@ -70,7 +72,7 @@ Controls not included in this mapping
    in every other Pad mode). This would make it easier to use the pads to
    control effect and the mapping might be modified eventually to take
    advantage of this possibility.
-   
+
    For more details about `updating the
    Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
 
@@ -90,7 +92,7 @@ Beatloop Off SHIFT + Loop Out = Loop Double.
 **Browser:**
 
 Encoder = Move up/down list Encoder button = Switch focus between List
-and file view SHIFT + Encoder button = Maximize/Minimize broser view
+and file view SHIFT + Encoder button = Maximize/Minimize browser view
 Assistant = AutoDJ On/Off
 
 **FX:**

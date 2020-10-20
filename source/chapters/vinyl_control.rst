@@ -195,6 +195,9 @@ Configuring Vinyl Control
 You can configure vinyl control in
 :menuselection:`Preferences --> Vinyl Control`.
 
+
+.. _vinyl-control-config-gain:
+
 Turntable Input Signal Boost
 ----------------------------
 

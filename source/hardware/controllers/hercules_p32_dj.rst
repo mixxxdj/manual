@@ -15,6 +15,8 @@ switched between 4 different layers to perform a variety of functions.
 
 Thanks to Hercules for supporting the development of this mapping by providing a controller.
 
+.. versionadded:: 2.1
+
 Compatibility
 -------------
 
@@ -80,7 +82,7 @@ Other controls
 -  **Record button**: toggles recording on and off.
 -  **Slip button**: toggles slip mode on and off for all decks. With shift, toggles between decks 1 & 3 on the left and decks 2 & 4 on the right.
 -  **Pad grid**: Press the Hotcue/Loop/Slicer/Sampler buttons to activate different modes
--  **Hotcue mode**: Press an unlit pad to set a hotcue. Pres a red pad to activate a hotcue. Press a red pad with shift to delete a hotcue.
+-  **Hotcue mode**: Press an unlit pad to set a hotcue. Press a red pad to activate a hotcue. Press a red pad with shift to delete a hotcue.
 -  **Loop mode**: Control manual loops and other miscellaneous functions. On the top row, from left to right, the pads set the loop in point, loop out point, and toggle the loop (without changing its
    size). Hold the loop in or loop out button while moving the waveform with the mouse to adjust the loop in/out point (new in Mixxx 2.1). On the bottom row, the two purple buttons temporarily
    decrease/increase the playback speed while they are held down for beatmatching. The button to the right of those shifts the beat grid to the current position.

@@ -13,6 +13,8 @@ with.
 -  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
 -  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
 
+.. versionadded:: 1.11
+
 Audio Setup
 -----------
 

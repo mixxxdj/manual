@@ -19,6 +19,8 @@ vu-meter.
 -  `Manufacturer’s product page <https://support.hercules.com/en/product/djcontrolair-en/>`__
 -  `Forum Thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=3263&p=25704&hilit=air#p25704>`__
 
+.. versionadded:: 1.11
+
 Sound Hardware settings
 -----------------------
 
@@ -38,7 +40,7 @@ Mapping Description
 
    Hercules DJControl AIR (schematic view). This picture is taken from the `Getting Started Tutorial <http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__ (courtesy of Guillemot Corporation S.A.).
 
-We assume from the annoted picture above that each decks have same controls.
+We assume from the annotated picture above that each decks have same controls.
 
 Jogs / Jogs Wheels (1)
 ~~~~~~~~~~~~~~~~~~~~~~

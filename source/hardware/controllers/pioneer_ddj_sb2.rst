@@ -1,41 +1,40 @@
 Pioneer DDJ-SB2
 ===============
 
+The Pioneer DDJ-SB2 is an all-in-one USB :term:`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
+
 -  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb2/black/overview/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26#p26782>`__
 
-The Pioneer DDJ-SB2 is an all-in-one USB MIDI controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks. It is compatible with Mixxx
-since version 2.0.
+.. versionadded:: 2.0
+
+Audio
+-----
 
 The sound card has 2 RCA jacks for the main output. There are two headphone jacks, one small (1/8“) and one large (1/4”) connector (each jack plays the same channels, they cannot be used for
 independent signals). There is a 1/4" microphone input with an adjustable gain knob. The microphone input is mixed directly with the main RCA outputs in hardware. It is not available to the computer,
-so cannot record or broadcast with the microphone input on the controller. You could use the controller with a separate `USB Sound Card <Hardware%20Compatibility#USB%20Sound%20Cards>`__ that has a
+so cannot record or broadcast with the microphone input on the controller. You could use the controller with a separate USB :ref:`audio interface <hardware-audio-interfaces>` that has a
 microphone input for that purpose. The microphone preamplifier is very noisy, so it is recommended to keep the microphone gain knob all the way down when not using a microphone, otherwise there will
 be noise added to the main RCA outputs.
-
-Compatibility
--------------
 
 Windows
 ~~~~~~~
 
-Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/#drivers>`__ for Windows versions 7 and newer. Select the ASIO sound API in Mixxx’s Sound Hardware Preferences.
+Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/#drivers>`__ for Windows versions 7 and newer. Select the ASIO sound :term:`API` in Mixxx’s Sound Hardware Preferences.
 
 Mac OS X & Linux
 ~~~~~~~~~~~~~~~~
 
-The DDJ-SB2 is a USB class compliant MIDI and audio device, so it works with Mac OS X and Linux without any special drivers.
+The DDJ-SB2 is a USB class compliant :term:`MIDI` and audio device, so it works with Mac OS X and Linux without any special drivers.
 
 User Options
 ------------
 
-There are some user configurable options for this mapping. To change the options, open the .js file in your `controller mapping file locations#user controller mapping
-folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__ for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or
-TextEdit on Mac OS X.
+There are some user configurable options for this mapping. To change the options, open the ``.js`` file in your controller for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or TextEdit on Mac OS X.
 
 -  **blinkingSync**: If true the sync button blinks with the beat, if false led is lit when sync is enabled.
 -  **invertVinylSlipButton**: If true, the vinyl button activates slip. Vinyl mode is then activated by using shift. Allows toggling slip faster, but is counterintuitive.
--  **jogwheelSensivity**: Sets the jogwheels sensivity. 1 is default, 2 is twice as sensitive, 0.5 is half as sensitive.
+-  **jogwheelSensivity**: Sets the jogwheels sensitivity. 1 is default, 2 is twice as sensitive, 0.5 is half as sensitive.
 -  **jogwheelShiftMultiplier**: Sets how much more sensitive the jogwheels get when holding shift. Set to 1 to disable jogwheel sensitivity increase when holding shift.
 -  **speedRateToNormalTime**: Time per step (in ms) for pitch speed fade to normal
 -  **showVumeterMaster**: If true Level-Meter shows VU-Master left & right. If false shows level of channel: 1/3 2/4 (depending active deck)

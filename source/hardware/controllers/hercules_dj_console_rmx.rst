@@ -12,6 +12,8 @@ upgrade to the `latest version of Mixxx <http://mixxx.org/download>`__
 if you have not already. On Windows (and Mac OS X?) the driver is still
 recommended.
 
+.. versionadded:: 1.11
+
 Audio
 -----
 
@@ -81,7 +83,7 @@ Deck / Channel specific controls
 |                                  | and moves to the beginning.      |
 +----------------------------------+----------------------------------+
 | Cue                              | Sets the cue point if a track is |
-|                                  | stoped and not at the current    |
+|                                  | stopped and not at the curren    |
 |                                  | cue point                        |
 |                                  | Stops track and returns to the   |
 |                                  | current cue point if a track is  |

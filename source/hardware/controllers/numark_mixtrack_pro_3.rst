@@ -23,6 +23,8 @@ separate `USB audio
 interface <Hardware%20Compatibility#USB%20Audio%20Interfaces>`__ with a
 microphone input is suggested.
 
+.. versionadded:: 2.1
+
 Configuration options
 ---------------------
 
@@ -280,7 +282,7 @@ audio, scratching the track like a vinyl record.
   will open. As a visual reference, TAP LED and Wheel button LED will be
   ON.
 | **Wheel Button Off + Touch platter**: If track is not playing, allows
-  positionning the track
+  positioning the track
 | **Shift + Wheel Off + Touch platter**: fast seek through track
 
 **Configuration Options:** The `iCutEnabled <#configuration-options>`__

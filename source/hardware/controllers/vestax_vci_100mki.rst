@@ -3,6 +3,8 @@ Vestax VCI-100 MKI
 
 This controller has been discontinued as Vestax went out of business in 2014.
 
+.. versionadded:: 1.6
+
 .. note::
    Only Firmware version 1.2 is supported by Mixxx.
 

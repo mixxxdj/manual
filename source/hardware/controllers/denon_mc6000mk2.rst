@@ -5,6 +5,8 @@ Denon MC6000MK2
 -  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6251>`__
 -  `Mixxx maintainer <https://github.com/uklotzde>`__
 
+.. versionadded:: 2.0
+
 The number in the first column refers to the corresponding label in the *Ownerâ€™s Manual* in the chapter *Part names and functions* starting on page 20.
 
 ============= ===================== ======== ================= =========================================================================================================================================================
@@ -109,9 +111,9 @@ The number in the first column refers to the corresponding label in the *Ownerâ€
 37            CHANNEL FADER                                    Control channel output volume
 38            CROSS FADER                                      Control balance between assigned channels
 39            VU METER                                         Display channel/master output volume
-40            BOOTH ASSIGN                                     Select source for booth ouput
-41            BOOTH LEVEL                                      Control booth ouput volume
-42            MASTER LEVEL                                     Control master ouput volume
+40            BOOTH ASSIGN                                     Select source for booth output
+41            BOOTH LEVEL                                      Control booth output volume
+42            MASTER LEVEL                                     Control master output volume
 43            HI KNOB                                          Control channel EQ (high freq.)
 43            MID KNOB                                         Control channel EQ (mid. freq.)
 43            LOW KNOB                                         Control channel EQ (low freq.)

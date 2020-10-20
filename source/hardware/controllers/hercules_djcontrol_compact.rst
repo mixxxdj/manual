@@ -15,6 +15,8 @@ decks to headphones.
 Thanks to Hercules for supporting the development of this mapping by
 providing a controller.
 
+.. versionadded:: 2.1
+
 Mapping description
 -------------------
 
