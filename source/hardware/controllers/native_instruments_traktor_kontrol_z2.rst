@@ -4,12 +4,13 @@ Native Instruments Traktor Kontrol Z2
 .. sectionauthor::
    Jörg Wartenberg
 
+..  
 .. figure:: ../../_static/controllers/native_instruments_traktor_z2.svg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Native Instruments Traktor Kontrol Z2 (schematic view)
-   :figclass: pretty-figures
+..   :align: center
+..   :width: 100%
+..   :figwidth: 100%
+..   :alt: Native Instruments Traktor Kontrol Z2 (schematic view)
+..   :figclass: pretty-figures
 
    Native Instruments Traktor Kontrol Z2 (schematic view)
 
