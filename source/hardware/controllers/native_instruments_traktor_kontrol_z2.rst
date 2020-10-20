@@ -73,13 +73,6 @@ specified page in the Manual.
 Browse Section
 ~~~~~~~~~~~~~~
 
-.. figure:: ../../_static/controllers/traktor_z2_browser.svg
-   :align: center
-   :width: 45%
-   :figwidth: 100%
-   :alt: Native Instruments Traktor Kontrol Z2 (browser section)
-   :figclass: pretty-figures
-
    Native Instruments Traktor Kontrol Z2 (Browse section)
 
 ========  =============================================================  ==========================================
