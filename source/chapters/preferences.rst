@@ -43,7 +43,7 @@ take approximately 23 milliseconds for Mixxx to stop the audio after you toggle
 the play button. The actual latency will be longer depending on a variety of
 factors.
 
-The audio buffer setting determines how quickly your :term:`Operating System`
+The audio buffer setting determines how quickly your :term:`operating system`
 expects Mixxx to react. A smaller audio buffer means Mixxx will be more
 responsive, but requires a faster CPU and quality audio interface. Setting your
 audio buffer too small may be too much for your computer and audio interface to
@@ -93,7 +93,7 @@ Sound API
 ---------
 
 The Sound :term:`API` that Mixxx uses is the method by which Mixxx talks to your
-:term:`Operating System` in order to deliver audio to your audio interface. Your
+:term:`operating system` in order to deliver audio to your audio interface. Your
 choice of Sound API can drastically affect Mixxx's performance on your
 computer. **Therefore it is important to take care to choose the best Sound API
 available to you.**
