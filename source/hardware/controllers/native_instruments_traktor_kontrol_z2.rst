@@ -1,5 +1,5 @@
 Native Instruments Traktor Kontrol Z2
-=============
+=====================================
 
 .. sectionauthor::
    Jörg Wartenberg
@@ -80,8 +80,8 @@ The control numbering in the schematic drawings matches the those found on the
 specified page in the Manual.
 
 
-Brows Section (p. 4)
-~~~~~~~~~~~~~~~~~~~~~~
+Browse Section
+~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/traktor_z2_browser.svg
    :align: center
