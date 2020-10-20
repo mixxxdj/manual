@@ -25,10 +25,10 @@ Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the 
 NIHardwareService.exe on Microsoft Windows and LEDs
 ---------------------------------------------------
 If you've a parallel installation of National Instruments Traktor 3 software, there will be a windows service C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareService.exe installed. It starts during while booting and takes over control of the LEDs of the Traktor Kontrol Z2.
-The LEDs on the Traktor Kontrol Z2 will only work with Mixxx, if you:
+The LEDs on the Traktor Kontrol Z2 will only work with Mixxx, if you either:
 
-- deinstall the Traktor 3 software
-- stop the Windows service NIHardwareService.exe (e.g. by Windows task manager -> Show processes from all users -> select NIHardwareService.exe -> End process)
+- Deinstall the Traktor 3 software
+- Stop the Windows service NIHardwareService.exe (e.g. by Windows task manager -> Show processes from all users -> select NIHardwareService.exe -> End process)
 
 Audio Setup
 -----------
