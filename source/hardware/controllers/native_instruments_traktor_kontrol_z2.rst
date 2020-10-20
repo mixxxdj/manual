@@ -11,7 +11,7 @@ The Traktor Z2 is intended for a DVS systems and is provided with Traktor Scratc
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-mixer/traktor-kontrol-z2/>`__
 -  `Virtual DJ Hardware Page <https://www.virtualdj.com/manuals/hardware/ni/z2.html>`__
--  `Traktor Kontrol Z2 Manual <https://www.native-instruments.com/fileadmin/ni_media/downloads/manuals/TRAKTOR_KONTROL_Z2_Manual_All_Languages_12_2014.zip>`__
+-  `Traktor Kontrol Z2 Manual (ZIP-file) <https://www.native-instruments.com/fileadmin/ni_media/downloads/manuals/TRAKTOR_KONTROL_Z2_Manual_All_Languages_12_2014.zip>`__
 -  `Driver/Firmware-Updates Download Page <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__
 
 .. versionadded:: 2.4.0
@@ -22,12 +22,12 @@ Drivers
 You can download the latest Windows & MacOS drivers and firmware from the `manufacturer’s website <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
 Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the device is plug-and-play on Linux.
 
-NIHardwareService.exe on Windows and LEDs
------------------------------------------
+NIHardwareService.exe on Microsoft Windows and LEDs
+---------------------------------------------------
 If you've a parallel installation of National Instruments Traktor 3 software, there will be a windows service C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareService.exe installed. It starts during while booting and takes over control of the LEDs of the Traktor Kontrol Z2.
 The LEDs on the Traktor Kontrol Z2 will only work with Mixxx, if you:
--deinstall the Traktor 3 software
--stop the Windows service NIHardwareService.exe (e.g. by Windows task manager -> Show processes from all users -> select NIHardwareService.exe -> End process)
+- deinstall the Traktor 3 software
+- stop the Windows service NIHardwareService.exe (e.g. by Windows task manager -> Show processes from all users -> select NIHardwareService.exe -> End process)
 
 Audio Setup
 -----------
