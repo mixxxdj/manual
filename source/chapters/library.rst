@@ -315,11 +315,11 @@ Tracks can be loaded into a deck in several ways:
 * By :ref:`control-keyboard` to load the selected track in the library track
   table.
 * Using keyboard :term:`shortcut <shortcuts>` keys to load track in Deck 1 with :kbd:`Shift` + :kbd:`Left` and Deck 2
- with :kbd:`Shift` + :kbd:`Right`
+  with :kbd:`Shift` + :kbd:`Right`
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
-  or preview deck, click on the :ref:`track title <interface-track-info>`, :ref:`track artist <interface-track-info` or cover art and
+  or preview deck, click on the :ref:`track title <interface-track-info>`, :ref:`track artist <interface-track-info`> or cover art and
   drag it to another deck or sampler.
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
