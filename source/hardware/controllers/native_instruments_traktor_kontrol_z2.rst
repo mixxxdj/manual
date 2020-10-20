@@ -25,8 +25,9 @@ Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the 
 .. warning::
    **NIHardwareService.exe** on Microsoft Windows
    
-   If you've a parallel installation of the National Instruments Traktor 3 software, there will be a Windows service :file:`C:\\Program Files\\Common Files\\Native Instruments\\Hardware\\NIHardwareService.exe` installed. It starts at system boot and takes over control of the LEDs of the Traktor Kontrol Z2.
-   The LEDs on the Traktor Kontrol Z2 will only reliable work with Mixxx, if you either:
+   If you've a parallel installation of the National Instruments Traktor 3 software, there will be a Windows service
+   :file:`C:\\Program Files\\Common Files\\Native Instruments\\Hardware\\NIHardwareService.exe` installed.
+   It starts at system boot and takes over control of the LEDs of the Traktor Kontrol Z2. The LEDs on the Traktor Kontrol Z2 will only reliable work with Mixxx, if you either:
    
    - Deinstall the Traktor 3 software
    - Stop the Windows service NIHardwareService.exe *e.g. by Windows task manager -> Show processes from all users -> select NIHardwareService.exe -> End process*
@@ -52,8 +53,7 @@ Input Channels        Assigned to
 7-8 (Recording)       Record/Broadcast
 ===================== ================
 
-The microphone an auxiliary inputs are mixed with each other in the hardware.
-together in input channels 1-2, so Mixxx can record and broadcast them.
+The microphone and auxiliary inputs are mixed with each other in the hardware together in input channels 1-2, so Mixxx can record and broadcast them.
 
 The knobs for :hwlabel:`MASTER`, :hwlabel:`BOOTH`, :hwlabel:`HP VOLUME` are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller:
