@@ -22,7 +22,6 @@ The Traktor Z2 is intended for a :term:`DVS` systems and is  provided with Trakt
 -  `Virtual DJ Hardware Page <https://www.virtualdj.com/manuals/hardware/ni/z2.html>`__
 -  `Traktor Kontrol Z2 Manual <https://www.native-instruments.com/fileadmin/ni_media/downloads/manuals/TRAKTOR_KONTROL_Z2_Manual_All_Languages_12_2014.zip>`__
 -  `Driver/Firmware-Updates Download Page <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__
--  `Mapping Forum Thread <>`__
 
 .. versionadded:: 2.4.0
 
