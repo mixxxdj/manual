@@ -22,7 +22,7 @@ Drivers
 You can download the latest Windows & MacOS drivers and firmware from the `manufacturer’s website <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
 Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the device is plug-and-play on Linux.
 
-NIHardwareService.exe on Microsoft Windows and LEDs
+NIHardwareService.exe on Microsoft Windows
 ---------------------------------------------------
 If you've a parallel installation of National Instruments Traktor 3 software, there will be a windows service C:\\Program Files\\Common Files\\Native Instruments\\Hardware\\NIHardwareService.exe installed. It starts at system boot and takes over control of the LEDs of the Traktor Kontrol Z2.
 The LEDs on the Traktor Kontrol Z2 will only work with Mixxx, if you either:
@@ -33,8 +33,7 @@ The LEDs on the Traktor Kontrol Z2 will only work with Mixxx, if you either:
 Audio Setup
 -----------
 
-The mapping relies on the following channel assignments (for line/phono
-input support, applying effects to the TR-S output, etc.):
+The mapping relies on the following channel assignments:
 
 ===================== ================
 Output Channels       Assigned to
@@ -53,7 +52,7 @@ Input Channels        Assigned to
 ===================== ================
 
 The microphone an auxiliary inputs are mixed with each other in the hardware.
-together in input channels 5-6, so Mixxx can record and broadcast them.
+together in input channels 1-2, so Mixxx can record and broadcast them.
 
 The knobs for :hwlabel:`MASTER`, :hwlabel:`BOOTH`, :hwlabel:`HP VOLUME` are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller:
