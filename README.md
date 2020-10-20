@@ -311,7 +311,7 @@ Even more [reStructuredText] resources:
 [Retext]: https://github.com/retext-project/retext
 [Intype]: http://inotai.com/intype
 [Notex]: https://www.notex.ch/
-[Download]: https://github.com/mixxxdj/manual/archive/manual.zip
+[Download]: https://github.com/mixxxdj/manual/archive/manual-2.2.x.zip
 [file edits]: https://help.github.com/articles/creating-and-editing-files-in-your-repository#editing-a-file
 [Fork and Edit]: https://github.com/blog/844-forking-with-the-edit-button
 [pull request]: https://help.github.com/articles/creating-a-pull-request
