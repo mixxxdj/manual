@@ -433,3 +433,10 @@ epub_copyright = u"2011-2020, The Mixxx Development Team"
 
 # If false, no index is generated.
 # epub_use_index = True
+
+# Ignore links to GitHub Pull Requests to avoid "429 Client Error" due to
+# GitHub's rate limiting
+linkcheck_ignore = [r"^https://github.com/mixxxdj/mixxx/pull/\d+$"]
+
+# Avoid freezing during linkcheck
+linkcheck_timeout = 5
