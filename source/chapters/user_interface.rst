@@ -69,6 +69,14 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the Mixxx library.
 
+**Time Elapsed/Remaining/Both**
+  By default it displays the total elapsed time in the track up to the
+  millisecond. Clicking on the display switches to the *Time Remaining* view,
+  which indicates how much time is left before the track reaches the end.
+  Clicking the display again, both the elapsed and remaining time are shown
+  simultaneously in the format *elapsed time / remaining time*.
+  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
+
 **BPM (Tempo)**
   The number at the top right is the effective :term:`BPM` of the track. This is
   the detected :term:`BPM` of the track, adjusted for the playback rate of the
@@ -78,10 +86,6 @@ Track Information Display
   .. hint:: You can use a keyboard shortcut and tap with the beat to set the BPM
             to the speed you are tapping, go to :ref:`control-keyboard` for more
             information.
-
-**Cover Art**
-  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library. 
-  In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
 
 **Key**
   The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show. 
@@ -99,13 +103,9 @@ Track Information Display
   * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
   * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key.
 
-**Time Elapsed/Remaining/Both**
-  By default it displays the total elapsed time in the track up to the
-  millisecond. Clicking on the display switches to the *Time Remaining* view,
-  which indicates how much time is left before the track reaches the end.
-  Clicking the display again, both the elapsed and remaining time are shown
-  simultaneously in the format *elapsed time / remaining time*.
-  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
+**Cover Art**
+  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library. 
+  In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
 
 .. _interface-waveform:
 
