@@ -141,7 +141,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Waveforms --> Summary type`.
+             waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
