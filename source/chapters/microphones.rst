@@ -411,3 +411,6 @@ input.
 
 DJ controllers typically do not supply phantom power required for condenser
 microphones. Stand-alone audio interfaces typically do supply phantom power.
+
+Microphone Ducking
+------------------
