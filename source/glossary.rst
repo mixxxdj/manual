@@ -38,7 +38,6 @@ Glossary of Terms
      The waveform overview shows the waveform envelope of the entire track, and
      is useful because they allow DJs to see breakdowns far in advance.
 
-   key lock
    keylock
      With key lock enabled, the tempo of the track will change but the pitch
      remains consistent.  When unlocked, the pitch slider will speed up (or slow
@@ -341,7 +340,6 @@ Glossary of Terms
      which is something like an an .exe or a .dll file. By using binaries you
      are relieved of the task of having to compile the code by yourself.
 
-   audio interface
    audio interfaces
      An audio interface is a device that facilitates the input and output of
      audio signals to and from a computer, typically connected by USB. Almost
@@ -349,7 +347,6 @@ Glossary of Terms
      quality audio interface with at least 4 output channels is recommended for
      Mixxx.
 
-   soundcard
    soundcards
      Another name for an :term:`audio interface`, although few audio interfaces
      are shaped like cards anymore.
@@ -478,7 +475,6 @@ Glossary of Terms
      is the current Mac operating system that officially succeeded the classic
      Mac OS in 2001.
 
-   EQ
    Equalizer
      An equalizer allows the sound in specified frequency bands to be amplified
      or reduced, in order to adjust the quality and character of the sound.
