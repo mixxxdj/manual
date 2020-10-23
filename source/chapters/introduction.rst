@@ -29,6 +29,7 @@ separate audio outputs, typically provided by a USB audio interface (also known
 as a “sound card”, although most of them are not shaped like cards anymore).
 
 The :term:`shortcut <shortcuts>` for headphone cueing in Deck1 is :kbd:`T` while for Deck 2 the shortcut is :kbd:`Y`. 
+
 Mixxx can be used in two different ways for headphone cueing:
 
 **Internal Mixing**
