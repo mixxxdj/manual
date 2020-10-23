@@ -235,7 +235,7 @@ follows:
   :term:`quantized <quantization>` so that they begin on a beat.
 
 **Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch. This is useful if you would
   like to speed up or slow down a track and avoid the “chipmunk” effect that
   speeding up vocals has.
@@ -1009,7 +1009,7 @@ are as follows:
   This control determines the sampler input's mix orientation.
 
 **Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch.
 
 Sample Deck Controls
