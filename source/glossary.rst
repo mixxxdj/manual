@@ -25,10 +25,6 @@ Glossary of Terms
      headphones by lowering the volume fader so the deck plays only to
      headphones but not to the audience. See also: :term:`headphone button`.
 
-   waveform summary
-     The waveform summary shows the waveform envelope of the track near the
-     current playback position.
-
    waveform overview
      The waveform overview shows the waveform envelope of the entire track, and
      is useful because they allow DJs to see breakdowns far in advance.
