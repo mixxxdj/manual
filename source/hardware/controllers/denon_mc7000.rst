@@ -1,13 +1,6 @@
 Denon MC7000
 ============
 
-The Denon MC7000 is a professional DJ controller which has got 4-channel capability and dual USB connections. These two USB audio interfaces enable two DJs to play together. This controller includes Denon’s high build quality and superior 24-bit audio reproduction, makes this suited to both mobile and club DJs.
-
-The dual 6" platters have a touch-capacitive design with rotational LED displays. The MC7000 has exclusive and dedicated Key Matching and Changing controls that deliver an unprecedented ability to instantly and harmonically match musical keys. The unit’s comprehensive, multi-input mixer also provides access to line/phono inputs from both authentic analogue (vinyl) and digital sources.
-
-Links
-~~~~~
-
 -  `Denon MC7000 Mapping thread <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 -  `Manufacturer’s product page <https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus>`__
 -  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
@@ -17,6 +10,10 @@ Links
 
 Features
 ~~~~~~~~
+
+The Denon MC7000 is a professional DJ controller which has got 4-channel capability and dual USB connections. These two USB audio interfaces enable two DJs to play together. This controller includes Denon’s high build quality and superior 24-bit audio reproduction, makes this suited to both mobile and club DJs.
+
+The dual 6" platters have a touch-capacitive design with rotational LED displays. The MC7000 has exclusive and dedicated Key Matching and Changing controls that deliver an unprecedented ability to instantly and harmonically match musical keys. The unit’s comprehensive, multi-input mixer also provides access to line/phono inputs from both authentic analogue (vinyl) and digital sources.
 
 -  4-channel DJ controller with digital mixer
 -  Dual USB audio interfaces - connect 2 computers at once
@@ -36,11 +33,11 @@ Compatibility
    upgrade your **Kernel** to minimum versions LTS: **4.19.105** or
    **5.4.21**. All kernel versions **5.6.x** and following are supporting the device. 
    All recent Linux distributions are shipped with Audio support for the MC7000, like
-        -  Ubuntu 20.04 and 20.10
-        -  Ubuntu based like Linux Mint and KDE Neon
-        -  Manjaro Linux 19.x & 20.x
-        -  OpenSUSE Tumbleweed
-        -  Gentoo stable 
+    -  Ubuntu 20.04 and 20.10
+    -  Ubuntu based like Linux Mint and KDE Neon
+    -  Manjaro Linux 19.x & 20.x
+    -  OpenSUSE Tumbleweed
+    -  Gentoo stable 
         
 Mapping
 ~~~~~~~
@@ -309,7 +306,7 @@ Layout and functions
 
 ----
 
-39. :hwlabel:`SAMPLER`: 8 samplers can be triggered from either Deck. Add samplers to the sampler bank pushing a Performance PAD button. If a sampler is loaded then the push will start the sampler, push again while playing will replay the track from Cue point.
+39. :hwlabel:`SAMPLER`: Push this button to activate the "Sampler" feature. 8 samplers can be triggered from either Deck. Add samplers to the sampler bank pushing a Performance PAD button. If a sampler is loaded then another push on the Performance PAD will play the sampler from its Cue point. Push the Performance PAD again while playing will replay the sampler from Cue point.
 
     Press and hold :hwlabel:`SHIFT` and push a Performance PAD button to stop a sampler while playing or eject a sampler when stopped.
 
@@ -431,7 +428,7 @@ Layout and functions
     
 ----
 
-    :hwlabel:`X FADER CONTOUR`: Adjusts the slope of the crossfader curve. Turn the knob to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching). The center position is a typical setting. This seams to have a very minor effect in Mixxx.
+    :hwlabel:`X FADER CONTOUR`: Adjusts the slope of the crossfader curve. Turn the knob to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching). The center position is a typical setting. This seems to have a very minor effect in Mixxx.
 
 LEDs
 ~~~~
@@ -453,4 +450,4 @@ Platter Ring LED Mode can be switched by pressing :hwlabel:`SHIFT` and :hwlabel:
     -  Mode 1 = Single "on" LED chase (all other LEDs are "off")
 
     .. hint::
-        The Platter Ring LED Mode by default is set to "Mode 1" but can be changed inside the script :file:`Denon-MC7000-scripts.js`
+        The Platter Ring LED Mode by default is set to "Mode 1" but can be changed inside the script :file:`Denon-MC7000-scripts.js`.
