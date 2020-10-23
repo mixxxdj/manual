@@ -50,8 +50,8 @@ No.  Control                                            Function
 1    :hwlabel:`SHIFT` + `JOG WHEEL` (top)               Scratch (move play position) faster
 1    :hwlabel:`SHIFT (left)` + `JOG WHEEL` (outer)      Move track selection in library
 2    :hwlabel:`SHIFT` button                            Switch function of controls
-3    :hwlabel:`PAD 1 - 8`                               Set (if empty) or play (if set) hot cue point / loop 1 - 8
-3    :hwlabel:`SHIFT` + `PAD 1 - 8`                     Unset / delete hot cue 1 - 8
+3    Pad 1 - 8                                          Set (if empty) or play (if set) hot cue point / loop 1 - 8
+3    :hwlabel:`SHIFT` + Pad 1 - 8                       Unset / delete hot cue 1 - 8
 4    :hwlabel:`CUE` button                              Set or play cue point, change cue point with JOG WHEEL (top) + cue point
 4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop
 5    :hwlabel:`PLAY/PAUSE` button                       Play / pause
