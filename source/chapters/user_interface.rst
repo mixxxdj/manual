@@ -132,6 +132,17 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
               Mixxx, try lowering the frame rate or changing the waveform type
               in :menuselection:`Preferences --> Waveforms`.
 
+**Waveform summary**
+  The big waveform summary shows the waveform envelope of the track near the
+  current playback position and is updated in real time. The mouse can be used
+  on the waveform to pause, scratch, spin-back or throw the tracks.
+  Right-clicking on the waveforms allows you to drag with the mouse to make
+  temporary pitch adjustments.
+
+  .. hint :: You can select from different types of displays for the waveform,
+             which differ primarily in the level of detail shown in the
+             waveform, in :menuselection:`Preferences --> Waveforms --> Summary type`.
+
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
@@ -139,8 +150,8 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   the part of the track that has already been played is darkened.
 
   Clicking somewhere on the waveform allows you to jump to an arbitrary position
-  in the track. You can select from different types of displays for the overview,  
-  which differ primarily in the level of detail shown in the waveform, in
+  in the track. Like with the Waveform summary, you can select from different
+  types of displays for the overview in
   :menuselection:`Preferences --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
@@ -157,7 +168,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   Vinyl Control --> Show Signal Quality in Skin`.
 
 **Waveform Zoom**
-  Using the mouse-wheel everywhere in the waveform overview will zoom the
+  Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
   between the decks in :menuselection:`Preferences --> Waveforms`.
 
@@ -167,7 +178,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 * **Position marker**: The static vertical line in the center of the waveform
   summary indicates the playback point of the deck. The waveform overview
   includes a vertical line to show the current position within the track.
-* **Beat marker**: The regular white lines on the waveform overview indicate the
+* **Beat marker**: The regular white lines on the waveform summary indicate the
   locations of beats in the audio, also called the :term:`beatgrid`.
 * **Cue marker**: Indicates the position of the :term:`cue point <cue>`.
 * **Hotcue marker**: Indicate the position and number of a :term:`hotcue`
