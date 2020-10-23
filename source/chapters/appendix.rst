@@ -19,6 +19,12 @@ There are a variety of other resources where you can find out more:
   documentation on making controller mappings, and other tips and tricks, go to:
   `<https://mixxx.org/wiki/>`_
 
+* **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts. 
+  Please note that these shortcuts are for keyboards configured in English
+  layout and default shortcuts may be different if your language setting
+  is not English.
+  :ref:`default keyboard mappings<appendix-keyboard>`
+
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
 
