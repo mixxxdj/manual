@@ -45,10 +45,10 @@ Deck section (p. 8)
 ===  =================================================  ============================================================================================
 No.  Control                                            Function
 ===  =================================================  ============================================================================================
-1    :hwlabel:`JOG WHEEL` (top)                         Scratch (move play position)
-1    :hwlabel:`JOG WHEEL` (outer)                       Pitch bend (nudge)
-1    :hwlabel:`SHIFT` + `JOG WHEEL` (top)               Scratch (move play position) faster
-1    :hwlabel:`SHIFT (left)` + `JOG WHEEL` (outer)      Move track selection in library
+1    Jog Wheel (top)                                    Scratch (move play position)
+1    Jog Wheel (outer)                                  Pitch bend (nudge)
+1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Scratch (move play position) faster
+1    :hwlabel:`SHIFT (left)` + Jog Wheel (outer)        Move track selection in library
 2    :hwlabel:`SHIFT` button                            Switch function of controls
 3    Pad 1 - 8                                          Set (if empty) or play (if set) hot cue point / loop 1 - 8
 3    :hwlabel:`SHIFT` + Pad 1 - 8                       Unset / delete hot cue 1 - 8
