@@ -33,11 +33,12 @@ Compatibility
    upgrade your **Kernel** to minimum versions LTS: **4.19.105** or
    **5.4.21**. All kernel versions **5.6.x** and following are supporting the device. 
    All recent Linux distributions are shipped with Audio support for the MC7000, like
-    -  Ubuntu 20.04 and 20.10
-    -  Ubuntu based like Linux Mint and KDE Neon
-    -  Manjaro Linux 19.x & 20.x
-    -  OpenSUSE Tumbleweed
-    -  Gentoo stable 
+   
+  - Ubuntu 20.04 and 20.10
+  - Ubuntu based like Linux Mint and KDE Neon
+  - Manjaro Linux 19.x & 20.x
+  - OpenSUSE Tumbleweed
+  - Gentoo stable 
         
 Mapping
 ~~~~~~~
@@ -441,13 +442,13 @@ Button LEDs are fully mapped for the first function. As you press and hold :hwla
 
 Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
 
-    -  If VINYL Mode is set ON then the LED follows the 33.3 rpm value.
-    -  If VINYL Mode is set OFF then the current track position is indicated by the Platter LEDs starting at the top.
+  - If VINYL Mode is set ON then the LED follows the 33.3 rpm value.
+  - If VINYL Mode is set OFF then the current track position is indicated by the Platter LEDs starting at the top.
    
 Platter Ring LED Mode can be switched by pressing :hwlabel:`SHIFT` and :hwlabel:`Deck`
 
-    -  Mode 0 = Single "off" LED chase (all other LEDs are "on")
-    -  Mode 1 = Single "on" LED chase (all other LEDs are "off")
+  - Mode 0 = Single "off" LED chase (all other LEDs are "on")
+  - Mode 1 = Single "on" LED chase (all other LEDs are "off")
 
     .. hint::
         The Platter Ring LED Mode by default is set to "Mode 1" but can be changed inside the script :file:`Denon-MC7000-scripts.js`.
