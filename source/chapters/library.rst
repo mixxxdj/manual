@@ -349,7 +349,7 @@ a crate, or even the whole library) for tracks that match your search query.
   library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
   list of results.
 
-.. note:: note:: If the search input field has focus, the Mixxx keyboard shortcuts are
+.. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
 Using search operators
