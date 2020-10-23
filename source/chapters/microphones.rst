@@ -414,3 +414,24 @@ microphones. Stand-alone audio interfaces typically do supply phantom power.
 
 Microphone Ducking
 ------------------
+While using Mixxx, you might want to talk through your microphone as the music plays, therefore, you might need the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.
+
+.. figure:: ../_static/microphone_ducking.png
+   :align: center
+   :width: 40%
+   :figwidth: 90%
+   :alt: The microphone ducking section
+   :figclass: pretty-figures
+
+   The microphone ducking controls
+
+The Strength knob adjusts the microphone talkover ducking strength and its behaviour depends on any of the Microphone talkover modes described below.
+Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
+
+   * Off: When you talk through your microphone, the music  volume does not reduce.
+   * Auto: Talking through your microphone will automatically reduce the music volume. You can adjust the amount to which the volume is automatically reduced with the Strength knob.
+   * Manual: This sets a fixed level to which the music volume reduces to, regardless of the volume of the microphone input. When you talk through your microphone, you can manually set the amount to which the music volume is reduced by turning the Strength knob to a level that suits you.
+
+.. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.
+
+.. Note:: Enabling the Microphone Gain option will cause the ducking effect to be ineffective, so, you can disable it for the ducking effect to work correctly.
