@@ -65,7 +65,7 @@ Compatibility
       the MC7000 Audio Interface.
 
 Mapping
--------
+~~~~~~~
 
 This controller is made for Serato DJ and most of the mapping is made
 for Mixxx accordingly. Anyhow, there are several differences for
@@ -75,9 +75,9 @@ Mapping <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 thread.
 
 User Variables
-~~~~~~~~~~~~~~
+--------------
 
-Please check the \*.js mapping file for user variables to:
+Please check the Denon-MC7000-scripts.js mapping file for user variables to:
 
 -  activate NeedleDrop sensor while a track is playing (default: false)
 -  set the Pitch Fader ranges in % to toggle between them 
@@ -90,7 +90,7 @@ Please check the \*.js mapping file for user variables to:
 -  Jog Parameters (default: 1, 3)
 
 Layout and functions
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: ../../_static/controllers/denon_mc7000_layout.png
    :align: center
@@ -102,72 +102,46 @@ Layout and functions
    Denon MC7000 (schematic view)
 
 
-1.  **Input Selector:** Set this switch to the desired audio source from
-    this channel. Channel’s controls will only send MIDI information
-    when its input selector is set to USB.
+1.  :hwlabel:`Input Selector`: Set this switch to the desired audio source from this channel. Channel’s controls will only send MIDI information when its input selector is set to USB.
 
-2.  **USB Selector:** Press this button to select whether the deck is
-    controlling the computer connected to USB Port 1 or USB Port 2. If
-    only one USB Port is connected the controller activates this
-    automatically.
+2. :hwlabel:`USB Selector`: Press this button to select whether the deck is controlling the computer connected to USB Port 1 or USB Port 2. If only one USB Port is connected the controller activates this automatically.
 
-3.  **Channel Level:** Turn this knob to adjust the level of the
-    pre-fader, pre-EQ audio signal for the channel.
+3.  :hwlabel:`LEVEL`: Turn this knob to adjust the level of the pre-fader, pre-EQ audio signal for the channel.
 
-4.  **Channel Level Meters:** These LEDs display the audio signal level
-    of the channel as in Mixxx GUI.
+4.  :hwlabel:`Channel Level Meters`: These LEDs display the audio signal level of the channel as in Mixxx GUI.
 
-5.  **Channel EQ:** Turn these knobs to boost or cut the high,
-    mid-range, and low frequencies for the channel.
+5.  :hwlabel:`Channel EQ`: Turn these knobs to boost or cut the :hwlabel:`HI`, :hwlabel:`MID` and :hwlabel:`LOW` frequencies for the channel.
 
-6.  **Channel Filter:** Turn this knob to adjust the filter applied to
-    the channel. Turn the knob counterclockwise to apply a low-pass
-    filter. Turn the knob clockwise to apply a high-pass Filter.
+6.  :hwlabel:`FILTER`: Turn this knob to adjust the filter applied to the channel. Turn the knob counterclockwise to apply a low-pass filter. Turn the knob clockwise to apply a high-pass Filter.
 
-7.  **Channel Cue:** Press this button to send the channel’s pre-fader
-    signal to the headphones’ cue channel.
+7.  :hwlabel:`Channel CUE`: Press this button to send the channel’s pre-fader signal to the headphones’ cue channel.
 
-8.  **Channel Fader:** Use this fader to adjust the channel’s volume
-    level.
+8.  :hwlabel:`Channel Fader`: Use this fader to adjust the channel’s volume level.
 
-9.  **Crossfader Assign:** Routes the audio playing on the corresponding
-    channel to either side of the crossfader (L or R), or bypasses the
-    crossfader and sends the audio directly to the program mix (center,
-    Thru).
+9.  :hwlabel:`Crossfader Assign`: Routes the audio playing on the corresponding channel to either side of the crossfader (:hwlabel:`A` or :hwlabel:`B`), or bypasses the crossfader and sends the audio directly to the program mix (:hwlabel:`THRU`).
 
-10. **Crossfader:** Use this crossfader to mix between the left and
-    right decks.
+10. :hwlabel:`Crossfader`: Use this crossfader to mix between the left and right decks.
 
-11. **Channel FX:** Use these buttons to apply Effect A and/or B to the
-    corresponding channel.
+11. :hwlabel:`FX ASSIGN`: Use these buttons to apply :hwlabel:`FX 1` and/or :hwlabel:`FX 2` to the corresponding channel.
 
-12. **Sampler Volume:** Turn this knob to adjust the volume level of the
-    software’s sampler. If the volume is set to 0 then the Sampler banks
-    are hidden, otherwise shown.
+12. :hwlabel:`SAMPLER LEVEL`: Turn this knob to adjust the volume level of the software’s sampler. If the volume is set to 0 then the Sampler banks are hidden, otherwise shown.
 
-13. **Master Level Meters:** These LEDs show the Master Audio signal
-    (hardware). **They will not match with the Master Level in Mixxx.**
+13. :hwlabel:`Master Level Meters`: These LEDs show the Master Audio signal (hardware). **They will not match with the Master Level in Mixxx.**
 
-14. **Master Level:** Turn this knob to adjust the volume level of the
-    master outputs (hardware).
+14. :hwlabel:`MASTER LEVEL`: Turn this knob to adjust the volume level of the master outputs (hardware).
 
-15. **Booth Level:** Turn this knob to adjust the volume level of the
-    booth outputs (hardware).
+15. :hwlabel:`BOOTH LEVEL`: Turn this knob to adjust the volume level of the booth outputs (hardware).
 
-16. **Mic On/Off:** Press this button to activate/deactivate the
-    microphones (hardware).
+16. :hwlabel:`MIC ON/OFF`: Press this button to activate/deactivate the microphones (hardware).
 
-17. **Mic Level:** Turn these knobs to adjust the volume levels of the
-    corresponding microphone inputs (hardware). The Peak light next to
-    each knob indicates the current signal level by its color: green
-    (low), amber (normal/optimal), or red (maximum/peak).
+17. :hwlabel:`MIC LEVEL`: Turn these knobs to adjust the volume levels of the corresponding microphone inputs (hardware).
 
-18. **MIC settings: Left Deck:** *Mic EQ:* Turn these knobs to boost or
-    cut the high and low frequencies for Mic 1. **Right Deck:** *Tone:*
-    Turn this knob to adjust the tone of the Mic 2 audio signal. *Mic
-    Echo Level:* Turn this knob to adjust the amount of the echo effect
-    on the microphones’ audio signal. This works on both: Mic 1 and Mic
-    2.
+18. :hwlabel:`MIC settings`: 
+    **Left Deck:** :hwlabel:`Mic EQ`: Turn these knobs to boost or cut the :hwlabel:`HI` and :hwlabel:`LOW` frequencies for Mic 1. 
+    
+    **Right Deck:** :hwlabel:`TONE`: Turn this knob to adjust the tone (high-low) of the Mic 2 audio signal. 
+    
+    **Right Deck:** :hwlabel:`ECHO (MIC 1 & 2)`: Turn this knob to adjust the amount of the echo effect on the microphones’ audio signal. This works on both: Mic 1 and Mic 2.
 
 19. **MIC switch: Left Deck:** Talkover/Post: Press this button to use
     the “talkover” feature, which automatically reduces the volume level
@@ -175,7 +149,9 @@ Layout and functions
     hold Shift and then press this button to activate/deactivate the
     “post” feature. When on, the microphones’ signal will be sent to the
     Booth Outputs. When off, the microphones’ signal will not be routed
-    to the Booth Outputs. **Right Deck:** Echo On/Off: Press this button
+    to the Booth Outputs. 
+    
+    **Right Deck:** `ECHO MIC1&2`: Press this button
     to activate or deactivate the echo effect on the microphones’ audio
     signal.
 
@@ -385,7 +361,7 @@ Front Panel. **Crossfader Contour:** Adjusts the slope of the crossfader
     setting. This seams to have a very minor effect in Mixxx.
 
 LEDs
-----
+~~~~
 
 The Channel Volume Meters matches to the ones shown in Mixxx GUI. Only
 when clipping the red LED illuminates.
