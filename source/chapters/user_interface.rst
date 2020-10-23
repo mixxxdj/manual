@@ -130,7 +130,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
-              in :menuselection:`Preferences --> Interface --> Waveforms`.
+              in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -141,8 +141,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Interface -->
-             Waveforms --> Summary type`.
+             waveform, in :menuselection:`Preferences --> Waveforms --> Summary type`.
 
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
@@ -153,7 +152,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   Clicking somewhere on the waveform allows you to jump to an arbitrary position
   in the track. Like with the Waveform summary, you can select from different
   types of displays for the overview in
-  :menuselection:`Preferences --> Interface --> Waveforms --> Overview type`.
+  :menuselection:`Preferences --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -171,7 +170,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Interface --> Waveforms`.
+  between the decks in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
