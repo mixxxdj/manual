@@ -78,7 +78,7 @@ Mixer section (p. 10)
 No.  Control                                            Function
 ===  =================================================  ============================================================================================
 1    :hwlabel:`MASTER CUE` button                       Toggle Master/Cue knob of headphones between left and right
-1    :hwlabel:`SHIFT` + `MASTER CUE` button             Toggle between 2- and 4-deck mode
+1    :hwlabel:`SHIFT` + :hwlabel:`MASTER CUE` button    Toggle between 2- and 4-deck mode
 2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs  Adjust high/mid/low-frequencies
 3    :hwlabel:`CFX` knobs                               Turns on the selected effects
 4    :hwlabel:`HEADPHONE CUE 1 / 2` button              Toggle headphone pre-fader listening of channel 1 / 2, in 4-deck mode LED idicate deck 3 and 4
