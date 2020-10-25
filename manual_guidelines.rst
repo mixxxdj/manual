@@ -72,7 +72,7 @@ elements, use color ``#FF1F90`` if possible for consistency.
 
        Insert descriptive caption here
 
-Nice screenshot tools with build-in editor for annotations:
+Nice screenshot tools with built-in editor for annotations:
 
 * macOS: `Skitch <https://evernote.com/products/skitch>`_
 * Linux: `Shutter <https://shutter-project.org/>`_

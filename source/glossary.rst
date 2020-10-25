@@ -13,6 +13,11 @@ Glossary of Terms
      like to mix in your headphones. The audience will not hear what you are
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
 
+   shortcuts
+     Shortcuts let you work more efficiently. This manual shows some shortcuts for
+     accessing Mixxx functions with an English keyboard layout. Depending on your language
+     settings the defaults may be different.
+
    crossfader
      The crossfader is a slider that determines how much each deck of audio
      contributes to the :term:`master output`.
@@ -38,7 +43,6 @@ Glossary of Terms
      is useful because they allow DJs to see breakdowns far in advance.
 
    key lock
-   keylock
      With key lock enabled, the tempo of the track will change but the pitch
      remains consistent.  When unlocked, the pitch slider will speed up (or slow
      down) the track and the pitch will increase (or decrease) along with it.
@@ -74,7 +78,7 @@ Glossary of Terms
      play it.
 
    IRC
-   Internet Relay Chat 
+   Internet Relay Chat
      IRC is an online chat network. The Mixxx IRC channel
      was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx``
      channel. The channel was replaced in 2018 by the
@@ -237,7 +241,7 @@ Glossary of Terms
      music. MP3 files generally end with a :file:`.mp3` extension.
 
    AAC
-   Advanced Audio Coding 
+   Advanced Audio Coding
      A patented audio compression algorithm which uses a form of :term:`lossy`
      data compression. Designed to be the successor to :term:`MP3`, AAC
      generally achieves better sound quality at similar bit rates. While the
@@ -348,7 +352,6 @@ Glossary of Terms
      are relieved of the task of having to compile the code by yourself.
 
    audio interface
-   audio interfaces
      An audio interface is a device that facilitates the input and output of
      audio signals to and from a computer, typically connected by :term:`USB`.
      Almost all computers come with a basic audio interface built in, but a higher
@@ -356,12 +359,11 @@ Glossary of Terms
      Mixxx.
 
    soundcard
-   soundcards
      Another name for an :term:`audio interface`, although few audio interfaces
      are shaped like cards anymore.
 
    direct monitoring
-     A feature of many :term:`soundcards` that allows microphones and other
+     A feature of many :term:`soundcards <soundcard>` that allows microphones and other
      input signals to be heard through the soundcard outputs with no
      perceivable latency. With direct monitoring, the audio interface mixes the
      input signal in hardware with the output signal from Mixxx. This
@@ -479,7 +481,7 @@ Glossary of Terms
      An API is a specification and set of rules
      for how software programs interact with each other. In Mixxx, an example of
      this is the Sound API that Mixxx uses to communicate with the
-     :term:`operating system` to make use of the :term:`soundcards` connected to
+     :term:`operating system` to make use of the :term:`soundcards <soundcard>` connected to
      the computer.
 
    macOS
