@@ -60,17 +60,17 @@ All controls act as labeled, but there are some additional functionalities that 
 =========================================================  =============================================================
 Control                                                    Description
 =========================================================  =============================================================
-:hwlabel:`MODE` + :hwlabel:`LOOP ON                        Set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode
+:hwlabel:`MODE` + :hwlabel:`LOOP ON`                       Set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode
 :hwlabel:`MODE` + :hwlabel:`LOOP X½` / :hwlabel:`LOOP X2`  Do a beatjump backward/forward
 :hwlabel:`MODE` + :hwlabel:`LOOP SIZE` knob                Decrease/Increase pitch (only key, not tempo!)
 :hwlabel:`MODE` + Jog Wheel plate (playing)                Scratch with 'Slip' on (deactivate 'Slip' when plate is released)
 :hwlabel:`MODE` + Jog Wheel plate (stopped)                Move song position backward/forward faster
-:hwlabel:`MODE` + :hwlabel:`BROWSER` knob turn             Move library selected position multiple elements forward/backward
+:hwlabel:`MODE` + :hwlabel:`BROWSER` knob turn             Move library's selected position multiple elements forward/backward
 :hwlabel:`MODE` + :hwlabel:`LOAD` buttons                  Toggle 'quantize' for deck where :hwlabel:`MODE` button is pressed
 :hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons                 Eject track from deck where :hwlabel:`SHIFT` key is pressed
 :hwlabel:`SHIFT` + :hwlabel:`BROWSER` knob press           Activate (double-click) currently selected item in browser
 :hwlabel:`SHIFT` + :hwlabel:`LOOP SIZE` knob               Move existing loop forward/backward
 :hwlabel:`SHIFT` + Jog Wheel touch                         Do a backspin
-:hwlabel:`SHIFT` + `:hwlabel:`MULTI FX`                    Set beatgrid to current position
+:hwlabel:`SHIFT` + :hwlabel:`MULTI FX`                     Set beatgrid to current position
 :hwlabel:`SHIFT` + :hwlabel:`AIR CONTROL` Filter           Do the reverse than standard, that is, high-pass filter
 =========================================================  =============================================================
