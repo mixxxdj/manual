@@ -60,7 +60,7 @@ All controls act as labeled, but there are some additional functionalities that 
 =========================================================  =============================================================
 Control                                                    Description
 =========================================================  =============================================================
-:hwlabel:`MODE` + :hwlabel:`LOOP ON`                       Set a loop_in mark (with curently defined loop_size), activate it, and enable slip mode
+:hwlabel:`MODE` + :hwlabel:`LOOP ON`                       Set a loop_in mark (with currently defined loop_size), activate it, and enable slip mode
 :hwlabel:`MODE` + :hwlabel:`LOOP X½` / :hwlabel:`LOOP X2`  Do a beatjump backward/forward
 :hwlabel:`MODE` + :hwlabel:`LOOP SIZE` knob                Decrease/Increase pitch (only key, not tempo!)
 :hwlabel:`MODE` + Jog Wheel plate (playing)                Scratch with 'Slip' on (deactivate 'Slip' when plate is released)
