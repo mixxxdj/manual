@@ -375,7 +375,7 @@ buttons depends on the selected Cue mode. To change the Cue mode, go to
 .. _interface-intro-outro:
 
 Intro/Outro Markers
-------------------
+-------------------
 
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
