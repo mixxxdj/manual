@@ -10,7 +10,7 @@ Glossary of Terms
      cueing in your headphones. Being able to cue is a crucial aspect to DJing.
 
    shortcuts
-     Shortcuts let you work more efficiently. This manual shows some shortcuts for 
+     Shortcuts let you work more efficiently. This manual shows some shortcuts for
      accessing Mixxx functions with an English keyboard layout. Depending on your language
      settings the defaults may be different.
 
