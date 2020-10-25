@@ -414,7 +414,8 @@ microphones. Stand-alone audio interfaces typically do supply phantom power.
 
 Microphone Ducking
 ------------------
-While using Mixxx, you might want to talk through your microphone as the music plays, therefore, you might need the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.
+Microphone ducking is that effect you hear when you speak through the microphone, and the music volume is reduced by the presence of the voice signal coming through the microphone.
+While using Mixxx with a microphone, you might want the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.  The music will 'duck' out of the way of the microphone audio.
 
 .. figure:: ../_static/microphone_ducking.png
    :align: center
@@ -428,9 +429,9 @@ While using Mixxx, you might want to talk through your microphone as the music p
 The Strength knob adjusts the microphone talkover ducking strength and its behaviour depends on any of the Microphone talkover modes described below.
 Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
 
-   * Off: When you talk through your microphone, the music  volume does not reduce.
-   * Auto: Talking through your microphone will automatically reduce the music volume. You can adjust the amount to which the volume is automatically reduced with the Strength knob.
-   * Manual: This sets a fixed level to which the music volume reduces to, regardless of the volume of the microphone input. When you talk through your microphone, you can manually set the amount to which the music volume is reduced by turning the Strength knob to a level that suits you.
+   * Off: When you speak through the microphone, the music  volume does not reduce.
+   * Auto: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob.
+   * Manual: In this mode, you have to remember to manually adjust the Strength knob to a desired level each time you speak. Otherwise, the music will play at the volume set by the Strength knob, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you.
 
 .. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.
 
