@@ -312,7 +312,7 @@ Tracks can be loaded into a deck in several ways:
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
-  table. Use keybord :kbd:`Up` and :kbd:`Down` arrow button to select a track, :kbd:`Shift` + :kbd:`Left`
+  table. Use keyboard :kbd:`Up` and :kbd:`Down` arrow button to select a track, :kbd:`Shift` + :kbd:`Left`
   to load into Deck 1 and :kbd:`Shift` + :kbd:`Right` to load into Deck 2.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
