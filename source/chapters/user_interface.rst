@@ -934,7 +934,7 @@ the slider from left to right. If both decks are playing and the crossfader is
 in its default center position, then you will hear both decks. Right-clicking on
 the crossfader will reset the slider to its default position.
 
-To move the crossfader left or right, you can use the :term:`keyboard shortcut` :kbd:`G` and :kbd:`H`.
+To move the crossfader left or right, you can use the :term:`keyboard shortcut <shortcut>` :kbd:`G` and :kbd:`H`.
 To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively.
 
 You can reverse the configuration of the crossfader, so that the right deck is
