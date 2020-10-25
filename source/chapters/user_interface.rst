@@ -400,7 +400,7 @@ The intro and outro are sections and each section is defined by two points. See 
  Right-clicking on the marker when it is set, clears the marker.
 
 **Outro Start/End Markers**
-The analyzer places the outro end point at the last sound of a track and you can decide where to place the outro start point. 
+The analyzer places the outro end point at the last sound of a track and you can decide where to place the outro start point.
  Left-clicking on the marker when it is set will jump to the marker and when it is not set, will set the marker to the current play position.
  Right-clicking on the marker when it is set, clears the marker.
 
