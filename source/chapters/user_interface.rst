@@ -372,6 +372,40 @@ buttons depends on the selected Cue mode. To change the Cue mode, go to
 .. seealso:: You can also use keyboard shortcuts for Cueing. Go to
              :ref:`control-keyboard` for more information.
 
+.. _interface-intro-outro:
+
+Intro/Outro Markers
+------------------
+
+.. sectionauthor::
+   RJ Ryan <rryan@mixxx.org>
+   S.Brandt <s.brandt@mixxx.org>
+   Goodness Chris-Ugari <goodnesschrisugari@yahoo.com>
+
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-intro-outro.png
+  :align: center
+  :width: 55px
+  :figwidth: 100%
+  :alt: The Intro/Outro End and Start Markers
+  :figclass: pretty-figures
+
+  The Intro/Outro End and Start Markers
+
+You can use the Intro/Outro Markers with Auto DJ to mix in and out of points but unlike hotcues, they do not mark only one point.
+The intro and outro are sections and each section is defined by two points. See :ref:`library-auto-dj`.
+
+**Intro Start/End Markers**
+ The analyzer places the intro start point at the first sound of a track and you can decide where to place the intro end point.
+ Left-clicking on the marker when it is set will jump to the marker and when it is not set, will set the marker to the current play position.
+ Right-clicking on the marker when it is set, clears the marker.
+
+**Outro Start/End Markers**
+The analyzer places the outro end point at the last sound of a track and you can decide where to place the outro start point. 
+ Left-clicking on the marker when it is set will jump to the marker and when it is not set, will set the marker to the current play position.
+ Right-clicking on the marker when it is set, clears the marker.
+
+.. note:: If :term:`quantization` is enabled, right-clicking on any of the markers snaps to the nearest beat.
+
 .. _interface-transport:
 
 Transport Controls
