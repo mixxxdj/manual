@@ -520,8 +520,3 @@ Glossary of Terms
      :term:`operating systems <operating system>` without special drivers (on
      Windows, special drivers might still be necessary to use the :term:`ASIO`
      sound :term:`API` though).
-
-   Intro/Outro Markers
-     Intro and Outro makers are reference points in tracks usually placed at the beginnings and ends of the intro and outro of tracks.
-     They can be used with Auto DJ to mix in and out of those points in the tracks.
-     The intro and outro are sections and each section is defined by two points (intro start/end markers and outro start/end markers).
