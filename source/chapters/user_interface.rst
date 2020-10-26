@@ -378,8 +378,6 @@ Intro/Outro Markers
 -------------------
 
 .. sectionauthor::
-   RJ Ryan <rryan@mixxx.org>
-   S.Brandt <s.brandt@mixxx.org>
    Goodness Chris-Ugari <goodnesschrisugari@yahoo.com>
 
 .. figure:: ../_static/Mixxx-200-Latenight-Deck-intro-outro.png
@@ -396,15 +394,15 @@ The intro and outro are sections and each section is defined by two points. See 
 
 **Intro Start/End Markers**
  The analyzer places the intro start point at the first sound of a track and you can decide where to place the intro end point.
- Left-clicking on the marker when it is set will jump to the marker and when it is not set, will set the marker to the current play position.
- Right-clicking on the marker when it is set, clears the marker.
+ Left-clicking on the marker when it is set jumps to the marker. When it is not set, clicking sets the marker to the current play position.
+ Right-clicking on the marker when it is set clears the marker.
 
 **Outro Start/End Markers**
 The analyzer places the outro end point at the last sound of a track and you can decide where to place the outro start point.
- Left-clicking on the marker when it is set will jump to the marker and when it is not set, will set the marker to the current play position.
- Right-clicking on the marker when it is set, clears the marker.
+ Left-clicking on the marker when it is set jumps to the marker. When it is not set, clicking sets the marker to the current play position.
+ Right-clicking on the marker when it is set clears the marker.
 
-.. note:: If :term:`quantization` is enabled, right-clicking on any of the markers snaps to the nearest beat.
+.. note:: If :term:`quantization` is enabled, left-clicking on any of the markers snaps to the nearest beat.
 
 .. _interface-transport:
 
