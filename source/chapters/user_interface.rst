@@ -844,9 +844,7 @@ Headphone and Master Mix Controls
   and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
   to control the volume of your headphones without affecting your main output.
   
-  
  .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
-
 
 .. _interface-pfl:
 
@@ -1036,7 +1034,6 @@ are as follows:
 
 **Eject Track Button**
   Clicking this button ejects the track from the deck.
-
 
 Sample Deck Controls
 --------------------
