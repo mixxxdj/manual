@@ -2924,16 +2924,6 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
    .. versionadded:: 1.11.0
 
 
-.. mixxx:control:: [AutoDJ],add_random_track
-
-   Adds a random track to the Auto DJ queue.
-
-   :range: binary
-   :feedback: Track is added to AutoDJ queue.
-
-   .. versionadded:: 2.3.0
-
-
 The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
