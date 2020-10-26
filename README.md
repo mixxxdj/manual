@@ -50,7 +50,7 @@ conventions.
 ## Editing the manual using git (recommended)
 
 * Clone the repository `git clone https://github.com/mixxxdj/manual.git`
-* Install requirements `pip install -r requirements.txt` (see above) 
+* Install requirements `pip install -r requirements.txt` (see above)
 * Install pre-commit `pre-commit install`
 * Perform changes
 * Check changes `pre-commit run --files /path/to/your/file`
