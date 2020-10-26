@@ -138,7 +138,6 @@ Shade skin provides only separate waveforms.
 In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
-
 .. figure:: ../_static/2.2/deere-separate-waveforms.png 
    :align: center
    :width: 100%
@@ -1159,8 +1158,8 @@ Preview Deck Section
    The Preview Deck with a track loaded
 
 The Preview Deck is a special deck that allows you to pre-listen to tracks in the
-headphones before using them in your mix. Pre-listening a track does not change
-the tracks's :guilabel:`Played` state as well as the play counter and is not
+headphones before using them in your mix. Pre-listening to a track does not change
+its :guilabel:`Played` state as well as the play counter and is not
 logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4`
 (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac) to display the Preview Deck.
 
