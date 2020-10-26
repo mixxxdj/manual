@@ -130,7 +130,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
-              in :menuselection:`Preferences --> Interface --> Waveforms`.
+              in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -141,8 +141,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Interface -->
-             Waveforms --> Summary type`.
+             waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
@@ -153,7 +152,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   Clicking somewhere on the waveform allows you to jump to an arbitrary position
   in the track. Like with the Waveform summary, you can select from different
   types of displays for the overview in
-  :menuselection:`Preferences --> Interface --> Waveforms --> Overview type`.
+  :menuselection:`Preferences --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -171,7 +170,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Interface --> Waveforms`.
+  between the decks in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
@@ -235,7 +234,7 @@ follows:
   :term:`quantized <quantization>` so that they begin on a beat.
 
 **Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch. This is useful if you would
   like to speed up or slow down a track and avoid the “chipmunk” effect that
   speeding up vocals has.
@@ -933,6 +932,9 @@ the slider from left to right. If both decks are playing and the crossfader is
 in its default center position, then you will hear both decks. Right-clicking on
 the crossfader will reset the slider to its default position.
 
+To move the crossfader left or right, you can use the :term:`keyboard shortcut <shortcut>` :kbd:`G` and :kbd:`H`.
+To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively.
+
 You can reverse the configuration of the crossfader, so that the right deck is
 on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
@@ -1009,7 +1011,7 @@ are as follows:
   This control determines the sampler input's mix orientation.
 
 **Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch.
 
 Sample Deck Controls
