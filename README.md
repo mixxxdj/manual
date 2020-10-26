@@ -50,7 +50,10 @@ conventions.
 ## Editing the manual using git (recommended)
 
 * Clone the repository `git clone https://github.com/mixxxdj/manual.git`
+* Install requirements `pip install -r requirements.txt` (see above) 
+* Install pre-commit `pre-commit install`
 * Perform changes
+* Check changes `pre-commit run --files /path/to/your/file`
 * Commit changes `git commit -m "Insert short summary of your changes here"`
 * Push changes `git push`
 * Submit a [pull request]
