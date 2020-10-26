@@ -31,15 +31,15 @@ Compatibility
 -  **Linux** users need to know that the MC7000 internal audio interface
    is not available out-of-the-box for older Linux Kernels. You have to
    upgrade your **Kernel** to minimum versions LTS: **4.19.105** or
-   **5.4.21**. All kernel versions **5.6.x** and following are supporting the device. 
+   **5.4.21**. All kernel versions **5.6.x** and following are supporting the device.
    All recent Linux distributions are shipped with Audio support for the MC7000, like
-   
+
   - Ubuntu 20.04 and 20.10
   - Ubuntu based like Linux Mint and KDE Neon
   - Manjaro Linux 19.x & 20.x
   - OpenSUSE Tumbleweed
-  - Gentoo stable 
-        
+  - Gentoo stable
+
 Mapping
 ~~~~~~~
 
@@ -56,7 +56,7 @@ User Variables
 Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables to:
 
 -  activate NeedleDrop sensor while a track is playing (default: false)
--  set the Pitch Fader ranges in % to toggle between them 
+-  set the Pitch Fader ranges in % to toggle between them
    (default: 4, 6, 8, 10, 16, 24)
 -  Platter Ring LED mode: single LED on or off (default: 1). Can be
    switched with SHIFT + Deck button
@@ -80,10 +80,10 @@ Layout and functions
 
 ----
 
-1.  **Input Selector** Set this switch to the desired audio source from this channel. 
+1.  **Input Selector** Set this switch to the desired audio source from this channel.
 
     (:hwlabel:`LINE/PHONO`) will disable the corresponding Deck (switches off all LEDs and the controller will not send MIDI signals to control Mixxx). This allows the mixer to use an external source.
-    
+
     (:hwlabel:`USB`) will turn the corresponding Deck on and allows to control Mixxx via USB connection.
 
     .. hint::
@@ -146,21 +146,21 @@ Layout and functions
 ----
 
 14. :hwlabel:`MASTER LEVEL` Turn this knob to adjust the volume level of the master outputs.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
 ----
 
 15. :hwlabel:`BOOTH LEVEL` Turn this knob to adjust the volume level of the booth outputs.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
 ----
 
 16. :hwlabel:`MIC ON/OFF` Press this button to activate/deactivate the microphones.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
@@ -173,14 +173,14 @@ Layout and functions
 
 ----
 
-18. **Microphone settings** 
+18. **Microphone settings**
 
-    **Left Deck: Mix EQ** Turn these knobs to boost or cut the :hwlabel:`HI` and :hwlabel:`LOW` frequencies for Mic 1. 
-    
-    **Right Deck:** :hwlabel:`TONE` Turn this knob to adjust the tone (high-low) of the Mic 2 audio signal. 
-    
+    **Left Deck: Mix EQ** Turn these knobs to boost or cut the :hwlabel:`HI` and :hwlabel:`LOW` frequencies for Mic 1.
+
+    **Right Deck:** :hwlabel:`TONE` Turn this knob to adjust the tone (high-low) of the Mic 2 audio signal.
+
     **Right Deck:** :hwlabel:`ECHO (MIC 1&2)` Turn this knob to adjust the amount of the echo effect on the microphones’ audio signal. This works on both: Mic 1 and Mic 2.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
@@ -188,12 +188,12 @@ Layout and functions
 
 19. **Microphone switch**
 
-    **Left Deck:** :hwlabel:`TALKOVER MIC 1&2` Press this button to use the “talkover” feature, which automatically reduces the volume level of the master mix when you speak into the microphones. 
-    
+    **Left Deck:** :hwlabel:`TALKOVER MIC 1&2` Press this button to use the “talkover” feature, which automatically reduces the volume level of the master mix when you speak into the microphones.
+
     :hwlabel:`SHIFT` + :hwlabel:`TALKOVER MIC 1&2` to activate/deactivate the “post” feature. When on, the microphones signal will be sent to the Booth Outputs. When off, the microphones signal will not be routed to the Booth Outputs.
-    
+
     **Right Deck:** `ECHO MIC 1&2` Press this button to activate or deactivate the echo effect on the microphones’ audio signal.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
@@ -207,14 +207,14 @@ Layout and functions
 ----
 
 21. :hwlabel:`PHONES MIX` Adjusts the software’s audio output to the headphones, mixing between the cue output and the master mix output.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
 ----
 
 22. :hwlabel:`SPLIT` When this switch is in the On position, the headphone audio will be “split” such that all channels sent to cue channel are summed to mono and sent to the left headphone channel and the master mix is summed to mono and sent to the right channel. When the switch is in the Off position, the cue channel and master mix will be “blended” together.
-    
+
     .. hint::
         This is handled by the controller. The status of Mixxx will not be changed.
 
@@ -222,21 +222,21 @@ Layout and functions
 
 23. :hwlabel:`DECK` Selects which deck in the software is controlled by that
     hardware deck. The left deck can control Deck 1 or 3; the right deck
-    can control Deck 2 or 4. 
-    
+    can control Deck 2 or 4.
+
     :hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode. See Chapter "LEDs" below for details.
 
 ----
 
 24. :hwlabel:`SHIFT` Press and hold this button to access secondary functions of other controls.
- 
+
 ----
 
 25. :hwlabel:`SYNC` Press this button to automatically match the corresponding deck’s tempo with the tempo and phase of the opposite deck. Press again to deactivate Sync. Hold this button down for one sec to permanently match the tempo.
 
 ----
 
-26. :hwlabel:`CUE` During playback, press this button to return the track to the cue point. If a cue point is not set yet, then press this button to set it at the current track position. If the deck is paused, press and hold this button to play the track from the cue point. Release the button to return the track to the cue point and pause it. To continue playback without returning to the cue point, press and hold this button and then press the :hwlabel:`PLAY` button, afterwards release cue button. 
+26. :hwlabel:`CUE` During playback, press this button to return the track to the cue point. If a cue point is not set yet, then press this button to set it at the current track position. If the deck is paused, press and hold this button to play the track from the cue point. Release the button to return the track to the cue point and pause it. To continue playback without returning to the cue point, press and hold this button and then press the :hwlabel:`PLAY` button, afterwards release cue button.
 
     :hwlabel:`SHIFT` + :hwlabel:`CUE` to return to the start of the track.
 
@@ -248,7 +248,7 @@ Layout and functions
 
 ----
 
-28. **Platter:** This capacitive, touch-sensitive platter controls the audio playhead when the wheel is touched and moved. When the :hwlabel:`VINYL` button is on, move the platter to “scratch” the track as you would with a vinyl record. When the :hwlabel:`VINYL` button is off (or if you are touching only the side of the platter), move the platter to temporarily adjust the track’s speed. 
+28. **Platter:** This capacitive, touch-sensitive platter controls the audio playhead when the wheel is touched and moved. When the :hwlabel:`VINYL` button is on, move the platter to “scratch” the track as you would with a vinyl record. When the :hwlabel:`VINYL` button is off (or if you are touching only the side of the platter), move the platter to temporarily adjust the track’s speed.
 
     :hwlabel:`SHIFT` + Jog Wheel (:hwlabel:`SEARCH`) navigates quickly through the track. This only applies if touching the side of the platter or with :hwlabel:`VINYL` deactivated.
 
@@ -294,7 +294,7 @@ Layout and functions
 36. :hwlabel:`CUE` Push this button to activate the "Hot Cue" feature. In this mode push a Performance PAD to set or play a Hot Cue.
 
     :hwlabel:`SHIFT` + Performance PAD to delete an existing Hot Cue.
-    
+
     2nd (:hwlabel:`CUE LOOP`) and 3rd (:hwlabel:`FLIP`) functions are not available.
 
 ----
@@ -319,7 +319,7 @@ Layout and functions
 
 ----
 
-40. :hwlabel:`AUTO LOOP` Press this button to create an auto-loop with the length set with loop length. You may change the length of beats by using the :hwlabel:`X1/2` or :hwlabel:`X2` buttons. 
+40. :hwlabel:`AUTO LOOP` Press this button to create an auto-loop with the length set with loop length. You may change the length of beats by using the :hwlabel:`X1/2` or :hwlabel:`X2` buttons.
 
    :hwlabel:`SHIFT` + :hwlabel:`AUTO LOOP` to toggle the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
 
@@ -337,7 +337,7 @@ Layout and functions
 
 ----
 
-43. :hwlabel:`</> PARAM 1 2` Press these buttons to add/remove rating stars to the loaded track. 
+43. :hwlabel:`</> PARAM 1 2` Press these buttons to add/remove rating stars to the loaded track.
 
     :hwlabel:`SHIFT` + :hwlabel:`</> PARAM 1 2` to change the track color in the library.
 
@@ -384,7 +384,7 @@ Layout and functions
 
 ----
 
-51. :hwlabel:`L.PREP` Press this button to load the currently selected track to the Preview Deck. 
+51. :hwlabel:`L.PREP` Press this button to load the currently selected track to the Preview Deck.
 
     :hwlabel:`SHIFT` + :hwlabel:`L.PREP` (:hwlabel:`OPEN PREP`) to start and stop playing the track in Preview Deck.
 
@@ -407,7 +407,7 @@ Layout and functions
 54. :hwlabel:`NEEDLE DROP` The length of this strip represents the length of the entire track. Place your finger on a point along this sensor to jump to that point in the track.
 
     :hwlabel:`SHIFT` + :hwlabel:`NEEDLE DROP` to jump to a position while a track is currently playing.
-    
+
     .. hint::
         Activate Needle Drop while playing a track can be set inside the script :file:`Denon-MC7000-scripts.js`
 
@@ -430,7 +430,7 @@ Layout and functions
 58. :hwlabel:`FX TAP` Press this button will activate Effects for the Master output. This can be overlapped with Channel Effects.
 
     :hwlabel:`SHIFT` + :hwlabel:`FX TAP` (:hwlabel:`FX MODE`) to activate effects for headphones cue.
-    
+
 ----
 
     :hwlabel:`X FADER CONTOUR` Adjusts the slope of the crossfader curve. Turn the knob to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching). The center position is a typical setting. This seems to have a very minor effect in Mixxx.
@@ -448,7 +448,7 @@ Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
 
   - If vinyl mode is enabled, the LED imitates a turntable platter spinning at 33.3 rpm.
   - If vinyl mode is disabled, the current track position is indicated by the Platter LEDs starting at the top.
-   
+
 :hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
 
   - Mode 0 = Single "off" LED chase (all other LEDs are "on")
