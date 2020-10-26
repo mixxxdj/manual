@@ -430,7 +430,7 @@ The Strength knob adjusts the microphone talkover ducking strength and its behav
 Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
 
    * Off: When you speak through the microphone, the music  volume does not reduce.
-   * Auto: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjus4t the amount by which the volume is automatically reduced with the Strength knob.
+   * Auto: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob.
    * Manual: In this mode, you have to remember to manually adjust the Strength knob to a desired level each time you speak. Otherwise, the music will play at the volume set by the Strength knob, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you.
 
 .. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.
