@@ -190,7 +190,7 @@ Layout and functions
 
     **Left Deck:** :hwlabel:`TALKOVER MIC 1&2` Press this button to use the “talkover” feature, which automatically reduces the volume level of the master mix when you speak into the microphones. 
     
-    :hwlabel:`SHIFT` + :hwlabel:`TALKOVER MIC 1&2`to activate/deactivate the “post” feature. When on, the microphones’ signal will be sent to the Booth Outputs. When off, the microphones’ signal will not be routed to the Booth Outputs. 
+    :hwlabel:`SHIFT` + :hwlabel:`TALKOVER MIC 1&2`to activate/deactivate the “post” feature. When on, the microphones’ signal will be sent to the Booth Outputs. When off, the microphones’ signal will not be routed to the Booth Outputs.
     
     **Right Deck:** `ECHO MIC 1&2` Press this button to activate or deactivate the echo effect on the microphones’ audio signal.
     
