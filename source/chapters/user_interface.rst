@@ -145,7 +145,7 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
    :alt: Mixxx alternative skin (Latenight) - parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Deere) - Seperate waveforms
+   Mixxx default skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
@@ -1189,3 +1189,4 @@ The features in detail:
 
 .. seealso:: For more information, go to the chapter
              :ref:`library-previewing-tracks`.
+
