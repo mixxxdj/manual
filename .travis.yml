@@ -16,6 +16,11 @@ before_script:
 - cd manual
 - git checkout main
 
+env:
+  global:
+    # DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY_PASSWORD for deploys.
+    secure: Grb831jjrNEbaPC8z+CdLySVVaHcpsqcq2HaRSOi0ZuZEEECVs8Xoe/RNZZq7zXiHBNMrlpEW8aAQhUaEpg9x/0zNsv2jsDm/vFi8NkmsHjZmIm7x9LtJrltlrmorbexqe5AU0oaT91hifCrIdan+CWMavvLJKQW87O1TLSZAKE=
+
 jobs:
   include:
     - name: HTML
@@ -45,3 +50,11 @@ jobs:
             - texlive-lang-all
             - latexmk
             - xindy
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: bash ../travis-deploy.sh
+  on:
+    all_branches: true
+    condition: "\"${TRAVIS_JOB_NAME}\" =~ PDF"
