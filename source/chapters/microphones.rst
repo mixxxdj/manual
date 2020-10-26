@@ -434,4 +434,5 @@ Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
    * Manual: In this mode, you have to remember to manually adjust the Strength knob to a desired level each time you speak. Otherwise, the music will play at the volume set by the Strength knob, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you.
 
 .. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.
+
 .. Note:: Enabling the Microphone Gain option will cause the ducking effect to be ineffective, so, you can disable it for the ducking effect to work correctly.
