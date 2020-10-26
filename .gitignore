@@ -1,6 +1,7 @@
-#Ignore binary message catalog files (*.mo) compiled from textual translation descriptions (*.po)
+# Ignore binary message catalog files (*.mo) compiled from textual translation descriptions (*.po)
 *.mo
 *.pyc
 
+# Generated during a regular build
 build
 source/locale/pot/.doctrees

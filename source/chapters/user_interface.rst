@@ -133,8 +133,11 @@ visually by aligning the beats that appear in each waveform.
    Mixxx default skin (Deere) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
-separate waveforms. Select your preferred appearance in
-:menuselection:`Preferences --> Interface --> Skin`.
+separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
+Shade skin provides only separate waveforms.
+In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
+then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
+
 
 .. figure:: ../_static/2.2/deere-separate-waveforms.png 
    :align: center
@@ -147,7 +150,7 @@ separate waveforms. Select your preferred appearance in
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
-              in :menuselection:`Preferences --> Interface --> Waveforms`.
+              in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform summary**
   The big waveform summary shows the waveform envelope of the track near the
@@ -158,8 +161,7 @@ separate waveforms. Select your preferred appearance in
 
   .. hint :: You can select from different types of displays for the waveform,
              which differ primarily in the level of detail shown in the
-             waveform, in :menuselection:`Preferences --> Interface -->
-             Waveforms --> Summary type`.
+             waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
@@ -170,7 +172,7 @@ separate waveforms. Select your preferred appearance in
   Clicking somewhere on the waveform allows you to jump to an arbitrary position
   in the track. Like with the Waveform summary, you can select from different
   types of displays for the overview in
-  :menuselection:`Preferences --> Interface --> Waveforms --> Overview type`.
+  :menuselection:`Preferences --> Waveforms --> Overview type`.
 
 **Vinyl Widget**
   The line on the vinyl widget rotates if the track moves. It is similar to the
@@ -181,14 +183,14 @@ separate waveforms. Select your preferred appearance in
   The Vinyl Widget is hidden by default and can be enabled in the
   :ref:`interface-button-grid`.
 
-  If :term:`Vinyl control` is enabled, it can optionally display the time-coded
+  If :term:`vinyl control` is enabled, it can optionally display the time-coded
   vinyl signal quality. Activate the option in :menuselection:`Preferences -->
   Vinyl Control --> Show Signal Quality in Skin`.
 
 **Waveform Zoom**
   Using the mouse-wheel everywhere in the waveform summary will zoom the
   waveform in or out. You can choose whether to synchronize the zoom level
-  between the decks in :menuselection:`Preferences --> Interface --> Waveforms`.
+  between the decks in :menuselection:`Preferences --> Waveforms`.
 
 **Waveform Marker**
   While mixing, various additional markers can appear on the waveforms:
@@ -253,7 +255,7 @@ follows:
   :term:`quantized <quantization>` so that they begin on a beat.
 
 **Keylock Toggle**
-  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch. This is useful if you would
   like to speed up or slow down a track and avoid the “chipmunk” effect that
   speeding up vocals has.
@@ -953,6 +955,9 @@ The :term:`crossfader` determines the actual volume of each deck when moving
 the slider from left to right. If both decks are playing and the crossfader is
 in its default center position, then you will hear both decks. Right-clicking on
 the crossfader will reset the slider to its default position.
+
+To move the crossfader left or right, you can use the :term:`keyboard shortcut <shortcut>` :kbd:`G` and :kbd:`H`.
+To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively.
 
 You can reverse the configuration of the crossfader, so that the right deck is
 on the left end of the crossfader and vice versa. This is also known as

@@ -114,7 +114,7 @@ Tracks - View and edit your whole collection
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
-  to the waveform display or use the context menu. Go to the chapter
+  to the waveform display, use the context menu or use :term:`keyboard shortcuts <shortcut>`. Go to the chapter
   :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
@@ -312,17 +312,20 @@ Tracks can be loaded into a deck in several ways:
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
-  table.
+  table. Use keyboard :kbd:`Up` and :kbd:`Down` arrow button to select a track, :kbd:`Shift` + :kbd:`Left`
+  to load into Deck 1 and :kbd:`Shift` + :kbd:`Right` to load into Deck 2.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
-  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  or preview deck, click on the :ref:`track title <interface-track-info>`, :ref:`track artist <interface-track-info>` or cover art and
   drag it to another deck or sampler.
+  Note that you can also drop tracks onto Playlists and Crates in the sidebar, as well as into track tables of active Playlists or Crates.
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
   that track. This function also works with some other applications. For
   example, on macOS, dragging-and-dropping a track from iTunes onto one of
   Mixxx's waveform displays will load it into that deck.
+
 
 .. _library-finding-tracks:
 

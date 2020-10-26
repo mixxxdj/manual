@@ -43,7 +43,7 @@ take approximately 23 milliseconds for Mixxx to stop the audio after you toggle
 the play button. The actual latency will be longer depending on a variety of
 factors.
 
-The audio buffer setting determines how quickly your :term:`Operating System`
+The audio buffer setting determines how quickly your :term:`operating system`
 expects Mixxx to react. A smaller audio buffer means Mixxx will be more
 responsive, but requires a faster CPU and quality audio interface. Setting your
 audio buffer too small may be too much for your computer and audio interface to
@@ -93,7 +93,7 @@ Sound API
 ---------
 
 The Sound :term:`API` that Mixxx uses is the method by which Mixxx talks to your
-:term:`Operating System` in order to deliver audio to your audio interface. Your
+:term:`operating system` in order to deliver audio to your audio interface. Your
 choice of Sound API can drastically affect Mixxx's performance on your
 computer. **Therefore it is important to take care to choose the best Sound API
 available to you.**
@@ -164,15 +164,15 @@ CoreAudio is the only Sound API on macOS.
 Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
-  :term:`audio interfaces` at a time, each with its own clock. When multiple
+  :term:`audio interface <audio interface>` at a time, each with its own clock. When multiple
   audio interfaces are in use, the Mixxx engine is driven by the Master
   audio interface. Here you can select the synchronization used for the other
   audio interfaces to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
-  for independent tempo and pitch changes (e.g. :term:`keylock`). Use
+  for independent tempo and pitch changes (e.g. :term:`key lock`). Use
   :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
-  you experience buffer underflows while using :term:`keylock`.
+  you experience buffer underflows while using :term:`key lock`.
 
 * **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
   you do not use the Master output, recording or live broadcasting.

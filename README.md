@@ -44,13 +44,8 @@ point to dead URLs.
 ## Guidelines for Mixxx Manual writers
 
 The Mixxx manual is based on sound learning principles, and is supposed to be
-user-friendly & motivational. Please refer to the guidelines for style
-conventions:
-
-  * Run `make html` to build an HTML version of the manual, then open
-    `build/html/manual_guidelines.html` in your browser (recommended).
-  * Alternatively, open https://github.com/mixxxdj/manual/blob/manual/source/manual_guidelines.rst
-    for a quick overview. Github may not render all code correct.
+user-friendly & motivational. Please refer to the [guidelines](manual_guidelines.rst) for style
+conventions.
 
 ## Editing the manual using git (recommended)
 
@@ -311,7 +306,7 @@ Even more [reStructuredText] resources:
 [Retext]: https://github.com/retext-project/retext
 [Intype]: http://inotai.com/intype
 [Notex]: https://www.notex.ch/
-[Download]: https://github.com/mixxxdj/manual/archive/manual.zip
+[Download]: https://github.com/mixxxdj/manual/archive/manual-2.2.x.zip
 [file edits]: https://help.github.com/articles/creating-and-editing-files-in-your-repository#editing-a-file
 [Fork and Edit]: https://github.com/blog/844-forking-with-the-edit-button
 [pull request]: https://help.github.com/articles/creating-a-pull-request
