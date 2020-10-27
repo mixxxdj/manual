@@ -406,7 +406,8 @@ Transport Controls
  resumes the track and disables Slip mode when released. Useful to censor
  expletives on the fly, or simply as part of your mix.
 
-
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+ 
 .. _interface-vc-mode:
 
 Vinyl Control Mode and Cueing controls
