@@ -845,7 +845,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Clone the given deck number, copying the play state, position, rate, and key. If 0 or a negative number is given, Mixxx will attempt to select the first playing deck as the source for the clone.
 
-   :range: integer
+   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :feedback: The channel will start playing at the rate and position of the source deck.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],CloneFromSampler
+                   [PreviewDeckN],CloneFromSampler
+                   [SamplerN],CloneFromSampler
+
+   Clone the given sampler number, copying the play state, position, rate, and key.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
    :feedback: The channel will start playing at the rate and position of the source deck.
 
    .. versionadded:: 2.3.0
