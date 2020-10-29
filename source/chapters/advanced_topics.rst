@@ -1450,7 +1450,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_in
                    [SamplerN],loop_in
 
-   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, :mixxx:coref`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size.
+   If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size.
 
    :range: binary
    :feedback: Loop-in marker changes on waveform.
