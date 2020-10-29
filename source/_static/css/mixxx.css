@@ -175,3 +175,9 @@ a:hover {
     margin: auto 2px;
     text-transform: uppercase;
 }
+
+/* Allow wrapping in tables */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal;
+}
