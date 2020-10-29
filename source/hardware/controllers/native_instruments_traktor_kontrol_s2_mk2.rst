@@ -100,10 +100,10 @@ Sampler mode
     Press a lit pad with :hwlabel:`SHIFT` to stop a sampler, or if it is already stopped, unload the
     sample.
 
-Transport Pad Row
-^^^^^^^^^^^^^^^^^
+Transport Controls
+^^^^^^^^^^^^^^^^^^
 
-The bottom pad row works as labelled on the controller:
+The transport controls work mostly as labelled on the controller:
 
 :hwlabel:`SYNC` button
     Press to :term:`sync` :term:`tempo`.
@@ -115,23 +115,17 @@ The bottom pad row works as labelled on the controller:
     Press with :hwlabel:`SHIFT` to seek the beginning of the track and stop.
 :hwlabel:`PLAY` button
     Play or pause the deck. Press with :hwlabel:`SHIFT` to toggle key lock.
-
 :hwlabel:`TEMPO` fader
-^^^^^^^^^^^^^^^^^^^^^^
-
-Adjusts the :term:`tempo`.
-
+    Adjusts the :term:`tempo`.
 :hwlabel:`FLUX` button
-^^^^^^^^^^^^^^^^^^^^^^
+    Mixxx `does not yet have a very useful flux/slip
+    mode <https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this
+    button toggles the top pad row to the intro/outro cues. Press the button
+    when it is lit to return the top pad row to hotcue mode.
 
-Mixxx `does not yet have a very useful flux/slip
-mode <https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this
-button toggles the top pad row to the intro/outro cues. Press the button
-when it is lit to return the top pad row to hotcue mode.
-
-When slip mode is implemented in Mixxx in the future, this could be
-changed so :hwlabel:`SHIFT` + :hwlabel:`FLUX` button activates intro & outro mode for the
-pads.
+    When slip mode is implemented in Mixxx in the future, this could be
+    changed so :hwlabel:`SHIFT` + :hwlabel:`FLUX` button activates intro & outro mode for the
+    pads.
 
 Mixer
 ~~~~~
