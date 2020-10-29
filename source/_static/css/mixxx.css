@@ -177,7 +177,6 @@ a:hover {
 }
 
 /* Allow wrapping in tables */
-.wy-table-responsive table td,
-.wy-table-responsive table th {
+.wy-table-responsive table td {
     white-space: normal;
 }
