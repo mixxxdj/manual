@@ -88,23 +88,23 @@ Track Information Display
             information.
 
 **Key**
-  The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show. 
-  Clicking the key will expand it to reveal more options: 
+  .. figure:: ../_static/2.2/key-options.png
+    :align: center
+    :width: 42%
+    :figwidth: 90%
+    :alt: The options displayed when you click on the Key
+    :figclass: pretty-figures
 
-  .. figure:: ../_static/2.2/key_options.png
-   :align: center
-   :width: 42%
-   :figwidth: 100%
-   :alt: The options displayed when you click on the Key
-   :figclass: pretty-figures
+    The Key options.
 
-   The Key options.
+The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show.
+Clicking the key will expand it to reveal more options:
 
   * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
   * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key.
 
 **Cover Art**
-  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library. 
+  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library.
   In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
 
 .. _interface-waveform:
@@ -138,7 +138,7 @@ Shade skin provides only separate waveforms.
 In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
-.. figure:: ../_static/2.2/deere-separate-waveforms.png 
+.. figure:: ../_static/2.2/deere-separate-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -231,13 +231,13 @@ the deck. Starting from the top-left and moving clockwise the buttons are as
 follows:
 
 **Slip Mode Toggle**
-  When active, the playback continues muted in the background during a loop, reverse, scratch, etc. 
+  When active, the playback continues muted in the background during a loop, reverse, scratch, etc.
   Once disabled, the audible playback will resume where the track would have been.
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
-  
+
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
@@ -401,31 +401,27 @@ Transport Controls
 
 .. figure:: ../_static/2.2/transport-controls.png
   :align: center
-  :width: 55px
+  :width: 80px
   :figwidth: 100%
   :alt: The transport controls of the deck
   :figclass: pretty-figures
 
   The transport controls of the deck
 
-**Fast-Rewind button**
- As long as the button is pressed, the track will play in reverse with
- increased speed. Right-clicking on the button will seek the play position to
- the beginning of the track.
+**Beatjump/ Loop Move Size**
+  You can type or use the arrow keys in the input box to select the number of beats to jump or move, with the Beatjump Forward/ Backward buttons.
 
-**Fast-Forward button**
- As long as the button is pressed, the track will play with increased speed.
- Right-clicking on the button will seek the play position to the end of the
- track.
+**Beatjump Forward button**
+  Left-clicking this button while the loop is inactive will make the track jump forward by the set number of beats.
+  Left-clicking this button while the loop is active will move the loop forward by the set number of beats.
+  Right-clicking this button while the loop is inactive will make the track jump forward by one beat.
+  Right-clicking this button while the loop is active will move the loop forward by one beat.
 
-**Reverse button**
- As the name suggests, this button plays a track backwards.
- Right-clicking on the button puts a track into reverse while being held,
- resumes the track and disables Slip mode when released. Useful to censor
- expletives on the fly, or simply as part of your mix.
-
-
- .. note:: Not all of these controls may be present in all skins anymore (like the Deere skin). However, they can still be mapped to keyboards and MIDI controllers. 
+**Beatjump Backward button**
+  Left-clicking this button while the loop is inactive will make the track jump backward by the set number of beats.
+  Left-clicking this button while the loop is active will move the loop backward by the set number of beats.
+  Right-clicking this button while the loop is inactive will make the track jump backward by one beat.
+  Right-clicking this button while the loop is active will move the loop backward by one beat.
 
 .. _interface-vc-mode:
 
@@ -437,8 +433,8 @@ Vinyl Control Mode and Cueing controls
 
 .. figure:: ../_static/2.2/vinyl-control-mode.png
    :align: center
-   :width: 20%
-   :figwidth: 90%
+   :width: 25%
+   :figwidth: 60%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -496,25 +492,24 @@ control rate changes also from your computer's keyboard, see the chapter
 :ref:`control-keyboard` for more information.
 
 **SYNC button**
+  * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
+    and :term:`phase` of the track matches the other deck.
+  * **Right-Click**: Only changes the :term:`rate` of the track to match the other
+    deck but does not adjust the :term:`phase`.
 
-* **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
-  and :term:`phase` of the track matches the other deck.
-* **Right-Click**: Only changes the :term:`rate` of the track to match the other
-  deck but does not adjust the :term:`phase`.
+  Decks and samplers now pick which sync target to sync to on the fly. Decks can't
+  sync to samplers and samplers can only sync to decks. The sync target for
+  samplers is:
 
-Decks and samplers now pick which sync target to sync to on the fly. Decks can't
-sync to samplers and samplers can only sync to decks. The sync target for
-samplers is:
+  * The first deck (in numerical order) that is playing a track with a detected
+    beatgrid, and has a rate different than zero.
+  * The first deck (in numerical order) that has a track loaded with a detected
+    beatgrid, no matter if it is playing or stopped.
 
-* The first deck (in numerical order) that is playing a track with a detected
-  beatgrid, and has a rate different than zero.
-* The first deck (in numerical order) that has a track loaded with a detected
-  beatgrid, no matter if it is playing or stopped.
-
-So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
-track with a beatgrid then deck 1 will win since numerically it is first. The
-sync targets for decks are chosen with the new master sync feature, see
-:ref:`master-sync` for more information.
+  So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
+  track with a beatgrid then deck 1 will win since numerically it is first. The
+  sync targets for decks are chosen with the new master sync feature, see
+  :ref:`master-sync` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -570,40 +565,38 @@ Loop Controls
 In this section of the Mixxx interface you can control (beat-)loops and set the
 loop points of a track.
 
-**Beatlooping Buttons**
-
-* **Instant loop**: The input box allows you to set any BeatLoop Size, each of which represents a different :term:`bar`
-  length. This value will set a loop of the defined
-  number of beats from the beat immediately following the current playback
-  position. If a loop is set, a loop overlay will be drawn on the
+**Beatloop size**
+  The input box allows you to set the size of the loop in beats to set with the Beatloop button. Changing this resizes the loop if the loop already matches the size.
+  If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
-* **Double loop**: Clicking on the arrow pointing up will double the current loop's
+**Beatloop**
+  Left-clicking the Beatloop button starts a loop over the set number of beats. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
+  the beatlooping buttons. Depending on the current status of the loop, the
+  loop overlay on the waveforms changes color. Right-clicking the Beatloop button temporarily enables a rolling loop over the set number of beats. Playback will resume where the track would have been if it had not entered the loop.
+**Double loop**
+  Clicking on the arrow pointing up will double the current loop's
   length up to 64 bars. The length of the loop overlay in the waveform will
   increase accordingly.
-* **Halve loop**: Clicking on the arrow pointing down will halve the current loop's
+**Halve loop**
+  Clicking on the arrow pointing down will halve the current loop's
   length down to 1/32 bars. The length of the loop overlay in the waveform will
   decrease accordingly.
-
-**Loop Buttons**
-
-* **Loop-In**: This button allows you to manually set the start point of a loop.
+**Loop-In**
+  This button allows you to manually set the start point of a loop.
   A loop-in marker is placed on the waveform indicating the position.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
-* **Loop-Out**: This button allows you to manually set the end point of a loop.
+**Loop-Out**
+  This button allows you to manually set the end point of a loop.
   A loop-out marker is placed on the waveform indicating the position. If
   clicked when a loop was already set, it moves the end point of a loop to a new
   position.
-* **Loop**: Also dubbed Reloop, this button toggles whether the loop is active
-  or not. This works for manually placed loops as well as automatic loops set by
-  the beatlooping buttons. Depending on the current status of the loop, the
-  loop overlay on the waveforms changes color.
-* **ReLoop**:
-  Temporarily sets up a rolling loop over the defined number of beats. 
-  Playback will resume where the track  would have been if it had not entered the loop.
+**Reloop**
+  Left-clicking this button toggles the current loop on or off. If the loop is ahead of the current position, looping will start when the loop is reached. This works only if the Loop-in and Loop-Out marker are set.
+  Right-clicking this button enables the loop, jumps to Loop-in marker and stops playback.
 
 .. hint:: If you are playing inside a loop and want to move the end point
-          beyond its current position in the track, click on the *Loop* button
+          beyond its current position in the track, click on the *Beatloop* button
           first and when the play position reaches the desired position, click
           on the Loop-Out button.
 
@@ -621,9 +614,9 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/cue-controls.png
+.. figure:: ../_static/2.2/hot-cue-controls.png
    :align: center
-   :width: 59px
+   :width: 125px
    :figwidth: 100%
    :alt: The hotcue controls of the deck
    :figclass: pretty-figures
@@ -843,7 +836,7 @@ Headphone and Master Mix Controls
   If your sound card only has one gain knob that controls both the main output
   and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
   to control the volume of your headphones without affecting your main output.
-  
+
  .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
 
 .. _interface-pfl:
@@ -1189,4 +1182,3 @@ The features in detail:
 
 .. seealso:: For more information, go to the chapter
              :ref:`library-previewing-tracks`.
-
