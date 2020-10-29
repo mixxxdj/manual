@@ -144,7 +144,6 @@ Deck Columns
     With :hwlabel:`SHIFT`, controls gain.
     Press to reset the Quick Effect superknob.
     Press with :hwlabel:`SHIFT` to reset gain.
-    Press and turn to change the effect chain preset loaded to the Quick Effect chain (new in Mixxx 2.4).
 :hwlabel:`FX 1`/:hwlabel:`FX 2` buttons
     Assign the deck to effect units 1 and 2.
 :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs
