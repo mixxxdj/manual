@@ -107,7 +107,7 @@ For more information, go to `<https://mixxx.org/wiki/doku.php/midi_scripting>`_
 and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
 
 
-.. _advanced-mixxx-controls:
+.. _advanced-mixxxcontrols:
 
 Mixxx Controls
 --------------
