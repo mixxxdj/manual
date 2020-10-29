@@ -19,7 +19,7 @@ Mixxx and describe its elements, knobs and faders.
 
    The Mixxx interface - Deere skin
 
-This is the Deere skin. It is the default skin supplied with Mixxx. There
+This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
 are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Deere only.
 
@@ -106,6 +106,7 @@ Clicking the key will expand it to reveal more options:
 **Cover Art**
   The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library.
   In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
+  The cover art is also shown in the Vinyl Widget next to the :ref:`parallel waveforms <interface-waveform>`.
 
 .. _interface-waveform:
 
@@ -409,19 +410,15 @@ Transport Controls
   The transport controls of the deck
 
 **Beatjump/ Loop Move Size**
-  You can type or use the arrow keys in the input box to select the number of beats to jump or move, with the Beatjump Forward/ Backward buttons.
-
-**Beatjump Forward button**
-  Left-clicking this button while the loop is inactive will make the track jump forward by the set number of beats.
-  Left-clicking this button while the loop is active will move the loop forward by the set number of beats.
-  Right-clicking this button while the loop is inactive will make the track jump forward by one beat.
-  Right-clicking this button while the loop is active will move the loop forward by one beat.
+  You can type, use the arrow keys or scroll vertically in the input box to select the number of beats to jump or move, with the Beatjump Forward/ Backward buttons.
 
 **Beatjump Backward button**
-  Left-clicking this button while the loop is inactive will make the track jump backward by the set number of beats.
-  Left-clicking this button while the loop is active will move the loop backward by the set number of beats.
-  Right-clicking this button while the loop is inactive will make the track jump backward by one beat.
-  Right-clicking this button while the loop is active will move the loop backward by one beat.
+  Clicking this while the loop is inactive will make the track jump backward by the set number of beats (left click) or by one beat (right click).
+  Clicking this while the loop is active will move the loop backward by the set number of beats (left click) or by one beat (right click).
+
+**Beatjump Forward button**
+  Clicking this while the loop is inactive will make the track jump forward by the set number of beats (left click) or by one beat (right click).
+  Clicking this while the loop is active will move the loop forward by the set number of beats (left click) or by one beat (right click).
 
 .. _interface-vc-mode:
 
@@ -442,9 +439,7 @@ Vinyl Control Mode and Cueing controls
 
 The control above the waveforms relate to the :term:`vinyl control` feature in
 Mixxx and is **hidden** in the default
-:ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`VINYL section expansion button <interface-expansion-buttons>` in the mixer
-section, or use the specific :ref:`appendix-shortcuts` to show or hide the
+:ref:`Mixxx user interface <interface-overview>`. Click the gear icon in the upper right corner, then toggle :menuselection:`Skin Settings --> Vinyl Control Options`, or use the specific :ref:`appendix-shortcuts` to show or hide the
 section.
 
 **Abs/Rel/Const button**
@@ -564,6 +559,7 @@ Loop Controls
 
 In this section of the Mixxx interface you can control (beat-)loops and set the
 loop points of a track.
+You can also shift loops using the :ref:`beatjump / loop move controls <transport-controls>` shown at the right side of the looping controls.
 
 **Beatloop size**
   The input box allows you to set the size of the loop in beats to set with the Beatloop button. Changing this resizes the loop if the loop already matches the size.
@@ -717,40 +713,6 @@ Channel Faders and Level Meters
 
   .. hint:: Some DJ's prefer to use the line faders over the crossfader for
             fading between tracks. Try it, you may like it.
-
-.. _interface-expansion-buttons:
-
-Section Expansion Buttons
--------------------------
-
-.. figure:: ../_static/2.2/expansion-buttons-top.png
-   :align: center
-   :width: 435px
-   :figwidth: 100%
-   :alt: The section expansion buttons
-   :figclass: pretty-figures
-
-   The section expansion buttons on top
-
-   .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
-      :align: center
-      :width: 220px
-      :figwidth: 100%
-      :alt: The section expansion buttons
-      :figclass: pretty-figures
-
-      The section expansion options under the Skin settings on the right.
-
-On top, and on the right side of the user interface are the section expansion buttons abd options.
-
-If you click on either :guilabel:`MICS & AUX`, :guilabel:`SAMPLER`, or
-:guilabel:`EFFECTS` then you will enable control sections for interacting with:
-
-* :ref:`interface-mic`
-* :ref:`interface-sampler`
-
-
-You can also use the specific :ref:`appendix-shortcuts`.
 
 .. _interface-head-master:
 
@@ -978,7 +940,7 @@ decks, see :ref:`interface-decks`.
 
 The Sampler section can be **hidden** in the
 :ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`SAMPLER <interface-expansion-buttons>` button, or use the specific
+:guilabel:`SAMPLERS` button at the top of the user interface, or use the specific
 :ref:`appendix-shortcuts` to show or hide the section.
 
 Waveform Display
@@ -1102,8 +1064,7 @@ The Microphone Section
    The Microphone section
 
 The microphone section is **hidden** in the default :ref:`Mixxx user interface
-<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>`
-button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
+<interface-overview>`. Click the :guilabel:`MICS & AUX` button at the top of your user interface, or use the specific :ref:`appendix-shortcuts` to
 show or hide the section.
 
 .. seealso:: The :ref:`microphones` chapter has detailed instructions for
