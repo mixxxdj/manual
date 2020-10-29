@@ -925,7 +925,7 @@ is required for Windows Vista.
 
 On Linux, :file:`AAC` playback is disabled by default due to licensing restrictions.
 To enable the playback of :file:`AAC` files,
-`build Mixxx from source with m4a/AAC files support <https://github.com/mixxxdj/mixxx/wiki/compiling%20on%20linux#optional-build-with-m4aaac-file-support>`_.
+`build Mixxx from source with m4a/AAC files support <https://github.com/mixxxdj/mixxx/wiki/Compiling-On-Linux#user-content-optional-build-with-m4aaac-file-support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
              iTunes Store in 2009 or earlier, are not supported.
