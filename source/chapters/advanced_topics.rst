@@ -155,6 +155,8 @@ that it is either 'ON' (non-zero) or 'OFF' (zero).
 .. seealso:: See :ref:`controlindex` for a full list.
 
 
+.. _advanced-mixxxcontrols-controlpotmeter:
+
 ControlPotMeter controls
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -209,6 +211,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    .. versionadded:: 2.0.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],audio_latency_overload
 
@@ -218,6 +223,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :feedback: Overload indicator
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],audio_latency_overload_count
@@ -236,6 +244,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    :range: -1.0..1.0
    :feedback: Center Balance knob
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],booth_enabled
@@ -257,6 +268,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    .. versionadded:: 2.1.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],crossfader
 
@@ -264,6 +278,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    :range: -1.0..1.0
    :feedback: Crossfader slider
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],crossfader_down
@@ -311,6 +328,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    .. versionadded:: 2.0.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],enabled
 
@@ -330,6 +350,10 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :feedback: Master volume knob
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 
 .. mixxx:control:: [Master],headEnabled
@@ -351,6 +375,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    .. versionadded:: 2.0.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],headMix
 
@@ -358,6 +385,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    :range: default
    :feedback: Pre/Main knob
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],headSplit
@@ -435,6 +465,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Clip light (mono)
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],PeakIndicatorL
 
@@ -443,6 +476,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: binary
    :feedback: Clip light (left)
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],PeakIndicatorR
 
@@ -450,6 +486,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    :range: binary
    :feedback: Clip light (right)
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],samplerate
@@ -477,6 +516,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: default
    :feedback: Master meter (mono)
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],VuMeterL
 
@@ -485,6 +527,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
    :range: default
    :feedback: Master meter L
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [Master],VuMeterR
 
@@ -492,6 +537,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
    :range: default
    :feedback: Master meter R
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [Master],headVolume
@@ -825,6 +873,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: BPM value display
 
    .. versionchanged:: 1.10.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],bpm_tap
@@ -1680,6 +1731,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Clip light
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 .. mixxx:control:: [ChannelN],PeakIndicatorL
                    [PreviewDeckN],PeakIndicatorL
                    [SamplerN],PeakIndicatorL
@@ -1690,6 +1744,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Clip light (left)
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 .. mixxx:control:: [ChannelN],PeakIndicatorR
                    [PreviewDeckN],PeakIndicatorR
@@ -1702,6 +1759,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Clip light (right)
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 .. mixxx:control:: [ChannelN],pfl
                    [PreviewDeckN],pfl
@@ -1725,6 +1785,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Key display
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],pitch_up
@@ -1761,6 +1824,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Key display
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],play
@@ -1806,6 +1872,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: default
    :feedback: Waveform
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [ChannelN],pregain
                    [PreviewDeckN],pregain
@@ -1815,6 +1884,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: 0.0..1.0..4.0
    :feedback: GAIN knob
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],quantize
@@ -1837,6 +1909,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: -1.0..1.0
    :feedback: Speed slider
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],rate_dir
@@ -1937,6 +2012,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: 0.0..3.0
    :feedback: none, until you move the Speed slider
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [ChannelN],rateSearch
                    [PreviewDeckN],rateSearch
@@ -1946,6 +2024,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: -300..300
    :feedback: Deck seeks
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],rateEngine
@@ -2237,6 +2318,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: default
    :feedback: Deck volume fader
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [ChannelN],mute
                    [PreviewDeckN],mute
@@ -2349,6 +2433,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    .. versionadded:: 2.0.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [ChannelN],VuMeter
                    [PreviewDeckN],VuMeter
@@ -2358,6 +2445,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: default
    :feedback: Deck VU meter
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],VuMeterL
@@ -2369,6 +2459,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: default
    :feedback: Deck VU meter L
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [ChannelN],VuMeterR
                    [PreviewDeckN],VuMeterR
@@ -2378,6 +2471,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: default
    :feedback: Deck VU meter R
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom
@@ -2666,6 +2762,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Microphone is enabled.
 
    .. versionadded:: 1.10.0
+   .. deprecated:: 2.0.0
+      Use :mixxx:coref:`[MicrophoneN],input_configured` instead.
 
 
 .. mixxx:control:: [MicrophoneN],input_configured
@@ -2721,6 +2819,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Microphone Clip light
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
    .. versionadded:: 1.10.0
 
 
@@ -2732,6 +2833,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Clip light (left)
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
    .. versionadded:: 2.0.0
 
 .. mixxx:control:: [MicrophoneN],PeakIndicatorR
@@ -2742,6 +2846,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    :range: binary
    :feedback: Clip light (right)
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
    .. versionadded:: 2.0.0
 
@@ -2774,6 +2881,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    .. versionadded:: 1.10.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [MicrophoneN],pregain
                    [AuxiliaryN],pregain
@@ -2782,6 +2892,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    :range: 0.0..1.0..4.0
    :feedback: Microphone gain knob
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [MicrophoneN],mute
@@ -2805,6 +2918,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    .. versionadded:: 1.10.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [MicrophoneN],VuMeterL
                    [AuxiliaryN],VuMeterL
@@ -2816,6 +2932,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    .. versionadded:: 2.0.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [MicrophoneN],VuMeterR
                    [AuxiliaryN],VuMeterR
@@ -2826,6 +2945,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Deck VU meter R
 
    .. versionadded:: 2.0.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 The ``[VinylControl]`` group
@@ -3489,6 +3611,9 @@ Controls
 
    :range: 0.0..1.0
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
                    [EqualizerRack1_[ChannelI]],next_chain
@@ -3551,6 +3676,9 @@ Controls
    The EffectChain superknob. Moves the metaknobs for each effect in the chain.
 
    :range: 0.0..1.0
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],clear
@@ -3642,6 +3770,9 @@ Controls
 
    :range: 0..1
 
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
+
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],prev_effect
                    [EqualizerRack1_[ChannelI]_Effect1],prev_effect
@@ -3660,6 +3791,9 @@ Controls
    See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#parameter-values>`__ section for more information.
 
    :range: double
+
+   .. note::
+      This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],parameterK_link_inverse
