@@ -161,7 +161,7 @@ ControlPotMeter controls
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following extensions add some features to ``ControlPotMeter`` controls
-(volume, crossfader, ...). Use in conjunction with ``[ChannelN]``,
+(volume, :term:`crossfader`, ...). Use in conjunction with ``[ChannelN]``,
 ``[SamplerN]``, ``[Master]``, ... groups.
 
 ================== ============================================================
@@ -200,7 +200,7 @@ The ``[Master]`` group
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine.
-This will bear some similarity to what you will find on a DJ mixer (e.g. crossfader controls, headphone cueing controls, etc.).
+This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
 
 .. mixxx:control:: [Master],audio_latency_usage
 
@@ -270,7 +270,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader
 
-   Adjusts the crossfader between players/decks (-1.0 is all the way left).
+   Adjusts the :term:`crossfader` between players/decks (-1.0 is all the way left).
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
@@ -280,7 +280,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_down
 
-   Moves the crossfader left by 1/10th.
+   Moves the :term:`crossfader` left by 1/10th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -288,7 +288,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_down_small
 
-   Moves the crossfader left by 1/100th.
+   Moves the :term:`crossfader` left by 1/100th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -298,7 +298,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_up
 
-   Moves the crossfader right by 1/10th.
+   Moves the :term:`crossfader` right by 1/10th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -306,7 +306,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. crossfa
 
 .. mixxx:control:: [Master],crossfader_up_small
 
-   Moves the crossfader right by 1/100th.
+   Moves the :term:`crossfader` right by 1/100th.
 
    :range: binary
    :feedback: Crossfader slider
@@ -1560,7 +1560,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],orientation
                    [SamplerN],orientation
 
-   Crossfader assignment.
+   Set channel orientation for the :term:`crossfader`.
 
    :range:
       ===== ===================================
@@ -2759,7 +2759,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 .. mixxx:control:: [AuxiliaryN],orientation
 
-   Set channel orientation.
+   Set channel orientation for the :term:`crossfader`.
 
    :range:
       ===== ===================================
