@@ -559,7 +559,7 @@ Loop Controls
 
 In this section of the Mixxx interface you can control (beat-)loops and set the
 loop points of a track.
-You can also shift loops using the :ref:`beatjump / loop move controls <transport-controls>` shown at the right side of the looping controls.
+You can also shift loops using the :ref:`beatjump / loop move controls <interface-transport>` shown at the right side of the looping controls.
 
 **Beatloop size**
   The input box allows you to set the size of the loop in beats to set with the Beatloop button. Changing this resizes the loop if the loop already matches the size.
