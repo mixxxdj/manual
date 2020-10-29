@@ -714,6 +714,38 @@ Channel Faders and Level Meters
   .. hint:: Some DJ's prefer to use the line faders over the crossfader for
             fading between tracks. Try it, you may like it.
 
+.. _interface-expansion-buttons:
+
+Section Expansion Buttons
+-------------------------
+
+  .. figure:: ../_static/2.2/expansion-buttons-top.png
+   :align: center
+   :width: 430px
+   :figwidth: 90%
+   :alt: The section expansion buttons
+   :figclass: pretty-figures
+
+   The section expansion buttons on top
+
+  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+    :align: center
+    :width: 245px
+    :figwidth: 90%
+    :alt: The section expansion buttons
+    :figclass: pretty-figures
+
+    The section expansion options under the Skin settings on the right.
+
+On top, and on the right side of the user interface are the section expansion buttons and options.
+
+If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+
+* :ref:`interface-effects`
+* :ref:`interface-sampler`
+* :ref:`interface-mic`
+
+You can also use the specific :ref:`appendix-shortcuts`.
 .. _interface-head-master:
 
 Headphone and Master Mix Controls
