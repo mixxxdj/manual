@@ -204,7 +204,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],audio_latency_usage
 
-   Reflects fraction of latency, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows
+   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
@@ -393,7 +393,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],latency
 
-   Latency setting (sound buffer size) in milliseconds (default 64).
+   :term:`Latency <latency>` setting (sound buffer size) in milliseconds (default 64).
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
@@ -3974,7 +3974,7 @@ collection of AU/VST/MAS plugins that are installed on your system.
 
 Alternatively, try `Blackhole <https://github.com/ExistentialAudio/BlackHole>`_,
 a modern virtual audio driver that allows applications to pass audio to other
-applications with zero additional latency, and
+applications with zero additional :term:`latency`, and
 `Hosting AU <http://ju-x.com/hostingau.html>`_, a free micro-sized
 :term:`DAW` that hosts Audio Unit instruments and effect plugins.
 
