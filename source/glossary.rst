@@ -145,10 +145,11 @@ Glossary of Terms
      Sync allows you to automatically adjust a track's :term:`tempo` and
      :term:`phase` to be in sync with another deck that is playing.
 
+   sync lock
    master sync
-     Master sync mode persistently adjusts a track's :term:`tempo` and
-     :term:`phase` (if :term:`quantization` is enabled) in order to stay in sync
-     with other decks that are in master sync mode.
+     Sync lock mode persistently adjusts a track's :term:`tempo` and
+     :term:`phase` (if :term:`quantization` is enabled) in order to stay in
+     :term:`sync` with other decks that are in sync lock mode.
 
    rate
      The speed at which a track is played back, usually expressed in terms of a
