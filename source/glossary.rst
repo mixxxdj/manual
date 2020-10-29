@@ -372,7 +372,8 @@ Glossary of Terms
      process and sending it back out to the soundcard.
 
    cue
-     A Cue or Cue point is a reference point in the track usually placed on the
+   cue point
+     A reference point in the track usually placed on the
      position the DJ wants the track to start at by default. This is useful to
      instantly jump to that point without seeking through the track.
 
