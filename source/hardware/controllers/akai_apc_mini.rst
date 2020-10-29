@@ -5,7 +5,7 @@ Akai APC Mini
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Behringer CMD Micro
+   :alt: Akai APC Mini
    :figclass: pretty-figures
 
 The *Akai APC Mini* is a controller for a 64 Samplers deck.
@@ -16,6 +16,7 @@ Mapping description
 -------------------
 
 - ( 1 ) The 64 pads are mapped directly to the 64 samplers available in the extended skins. If the skin has less samplers, the corresponding buttons will simply not work.
+
 The first two rows of buttons are setup to be repeating samples to be used for looping sounds, the other six rows are left as they are.
 All buttons supports three light states, yellow, green and red
 
