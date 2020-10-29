@@ -2513,10 +2513,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],beatloop
                    [SamplerN],beatloop
 
+    Setup a loop over the set number of beats.
+
     :range: positive real number
     :feedback: A loop is shown over the set number of beats.
-
-    Setup a loop over the set number of beats.
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle` instead.
@@ -2526,10 +2526,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],reloop_exit
                    [SamplerN],reloop_exit
 
+    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
+
     :range: binary
     :feedback: Loop range in waveform activates or deactivates.
-
-    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
@@ -2539,10 +2539,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],jog
                    [SamplerN],jog
 
+    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+
     :range: -3.0..3.0
     :feedback: waveform
-
-    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0)
 
     .. deprecated:: ??
        Use the JavaScript ``engine.scratch`` functions instead.
@@ -2552,10 +2552,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
+    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative).
+
     :range: -3.0..3.0
     :feedback: Waveform
-
-    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative)
 
     .. deprecated:: ??
        Use the JavaScript ``engine.scratch`` functions instead.
@@ -2565,10 +2565,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filter
                    [SamplerN],filter
 
+    Toggles the filter effect.
+
     :range: binary
     :feedback: Filter button
-
-    Toggles the filter effect
 
     .. versionadded:: 2.0.0
     .. deprecated:: 2.0.0
@@ -2579,10 +2579,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterDepth
                    [SamplerN],filterDepth
 
+    Adjusts the intensity of the filter effect.
+
     :range: default
     :feedback: Filter depth knob
-
-    Adjusts the intensity of the filter effect
 
     .. versionadded:: 2.0.0
     .. deprecated:: 2.0.0
@@ -2593,10 +2593,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterLow
                    [SamplerN],filterLow
 
-    :range: 0.0..1.0..4.0
-    :feedback: LOW knob
+    Adjusts the gain of the low :term:`EQ` filter.
 
-    Adjusts the gain of the low EQ filter
+    :range: 0.0..1.0..4.0
+    :feedback: Low EQ knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
@@ -2606,10 +2606,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterLowKill
                    [SamplerN],filterLowKill
 
-    :range: binary
-    :feedback: LOW kill knob
+    Holds the gain of the low :term:`EQ` to -inf while active
 
-    Holds the gain of the low EQ to -inf while active
+    :range: binary
+    :feedback: Low EQ :term:`kill switch`
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
@@ -2619,10 +2619,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterMid
                    [SamplerN],filterMid
 
-    :range: 0.0..1.0..4.0
-    :feedback: MID knob
+    Adjusts the gain of the mid :term:`EQ` filter..
 
-    Adjusts the gain of the mid EQ filter
+    :range: 0.0..1.0..4.0
+    :feedback: Mid EQ knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
@@ -2632,10 +2632,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterMidKill
                    [SamplerN],filterMidKill
 
-    :range: binary
-    :feedback: MID kill knob
+    Holds the gain of the mid :term:`EQ` to -inf while active.
 
-    Holds the gain of the mid EQ to -inf while active
+    :range: binary
+    :feedback: Mid EQ :term:`kill switch`
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
@@ -2645,10 +2645,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterHigh
                    [SamplerN],filterHigh
 
-    :range: 0.0..1.0..4.0
-    :feedback: HIGH knob
+    Adjusts the gain of the high :term:`EQ` filter.
 
-    Adjusts the gain of the high EQ filter
+    :range: 0.0..1.0..4.0
+    :feedback: High EQ knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
@@ -2658,10 +2658,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],filterHighKill
                    [SamplerN],filterHighKill
 
-    :range: binary
-    :feedback: HIGH kill knob
+    Holds the gain of the high :term:`EQ` to -inf while active.
 
-    Holds the gain of the high EQ to -inf while active
+    :range: binary
+    :feedback: High EQ :term:`kill switch`
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
@@ -2671,10 +2671,10 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],beatloop_X
                    [SamplerN],beatloop_X
 
+    Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+
     :range: toggle
     :feedback: A loop is shown over X beats.
-
-    Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
 
     .. versionadded:: 1.10.0
     .. deprecated:: 2.0.0
@@ -3457,7 +3457,7 @@ Inverse       1              Linked in an inverse relation.
 EQs and Filters
 +++++++++++++++
 
-Equalizers and filters are special effects units.
+:term:`Equalizers <EQ>` and filters are special effects units.
 The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`.
 Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
 
