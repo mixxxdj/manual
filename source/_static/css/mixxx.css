@@ -175,6 +175,7 @@ a:hover {
     margin: auto 2px;
     text-transform: uppercase;
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 /* Allow wrapping in tables */
