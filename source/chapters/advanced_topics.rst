@@ -383,7 +383,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],headSplit
 
-   Splits headphone cueing into right = master mono and left = pfl mono.
+   Splits headphone stereo cueing into right (master mono) and left (:term:`PFL` mono).
 
    :range: binary
    :feedback: Split Cue button
@@ -1749,7 +1749,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pfl
                    [SamplerN],pfl
 
-   Toggles headphone cueing
+   Toggles :term:`headphone cueing (PFL) <PFL>`.
 
    :range: binary
    :feedback: Headphone button
@@ -2822,7 +2822,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 .. mixxx:control:: [MicrophoneN],pfl
                    [AuxiliaryN],pfl
 
-   Toggles headphone cueing
+   Toggles :term:`headphone cueing (PFL) <PFL>`.
 
    :range: binary
    :feedback: Headphone button
