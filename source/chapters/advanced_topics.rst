@@ -1060,7 +1060,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],end_of_track
                    [SamplerN],end_of_track
 
-   Switches to "1" if the play osition is within the 'end' range defined in Preferences > Waveforms > "End of track warning"
+   Switches to 1 if the play position is within the end range defined in :menuselection:`Preferences --> Waveforms --> End of track warning`.
 
    :range: binary, read-only
    :feedback: Waveform and Overview widgets show a flashing border
