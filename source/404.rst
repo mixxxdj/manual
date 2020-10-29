@@ -1,0 +1,11 @@
+:orphan:
+
+Page not found
+**************
+
+Sorry, we can't find the page you're looking for.
+Go back to the :ref:`start page of the manual <index>`.
+
+.. note::
+   Mixxx is all about collaboration.
+   If you think this is a mistake on our side, let us know on our `issue tracker on GitHub <https://github.com/mixxxdj/manual/issues>`_!
