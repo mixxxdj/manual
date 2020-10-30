@@ -164,15 +164,15 @@ CoreAudio is the only Sound API on macOS.
 Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
-  :term:`audio interfaces` at a time, each with its own clock. When multiple
+  :term:`audio interface <audio interface>` at a time, each with its own clock. When multiple
   audio interfaces are in use, the Mixxx engine is driven by the Master
   audio interface. Here you can select the synchronization used for the other
   audio interfaces to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
-  for independent tempo and pitch changes (e.g. :term:`keylock`). Use
+  for independent tempo and pitch changes (e.g. :term:`key lock`). Use
   :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
-  you experience buffer underflows while using :term:`keylock`.
+  you experience buffer underflows while using :term:`key lock`.
 
 * **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
   you do not use the Master output, recording or live broadcasting.
