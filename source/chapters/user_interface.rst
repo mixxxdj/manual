@@ -746,6 +746,7 @@ If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`M
 * :ref:`interface-mic`
 
 You can also use the specific :ref:`appendix-shortcuts`.
+
 .. _interface-head-master:
 
 Headphone and Master Mix Controls
