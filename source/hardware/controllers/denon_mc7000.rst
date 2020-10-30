@@ -30,7 +30,7 @@ Compatibility
 Mapping
 ~~~~~~~
 
-.. figure:: ../../_static/controllers/denon_mc7000_layout.png
+.. figure:: ../../_static/controllers/denon_mc7000.svg
    :align: center
    :width: 100%
    :figwidth: 100%
