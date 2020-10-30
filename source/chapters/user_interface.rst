@@ -60,14 +60,13 @@ Track Information Display
 
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
-  is the same as the title listed under the :guilabel:`Title` column heading in
-  the Mixxx library. This information is initially loaded from the track's
+  is the same as the title listed under the :guilabel:`Title` column heading in the :ref:`Mixxx library <library-tracks>`. This information is initially loaded from the track's
   :term:`metadata`. If the metadata is missing, the title and artist are guessed
   from the filename.
 
 **Track Artist**
   The artist of the track is listed below. It is the same as listed under the
-  :guilabel:`Artist` column heading in the Mixxx library.
+  :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
@@ -97,14 +96,14 @@ Track Information Display
 
     The Key options.
 
-The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the Mixxx library. If it is hidden, you can drag the horizontal scroll bar at the bottom of the Mixxx library section, to the right, and the column will show.
+The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the :ref:`Mixxx library <library-tracks>`.
 Clicking the key will expand it to reveal more options:
 
   * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
   * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key.
 
 **Cover Art**
-  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the Mixxx library.
+  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the :ref:`Mixxx library <library-tracks>`.
   In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
   The cover art is also shown in the Vinyl Widget next to the :ref:`parallel waveforms <interface-waveform>`.
 
@@ -430,7 +429,6 @@ Vinyl Control Mode and Cueing controls
 
 .. figure:: ../_static/2.2/vinyl-control-mode.png
    :align: center
-   :width: 25%
    :figwidth: 60%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
@@ -517,13 +515,8 @@ control rate changes also from your computer's keyboard, see the chapter
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
 
-**Pitch/Rate buttons**
-  The plus and minus buttons increase or decrease the tempo in steps at which a
-  song is played, same as pulling the pitch slider slightly. By right-clicking
-  the buttons you get even finer adjustments.
-
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the left and right arrow buttons is like nudging the metal edge of
+  Pushing the minus and plus buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
@@ -1150,9 +1143,8 @@ logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4`
 The features in detail:
 
 * **Track Artist/Title**:
-  The artist and title of the track is displayed here. This is the same
-  listed under the :guilabel:`Track` and :guilabel:`Title` column in the Mixxx
-  library. This information is initially loaded from the track's :term:`metadata`.
+  The artist and title of the track is displayed here. This is the same as that
+  listed under the :guilabel:`Track` and :guilabel:`Title` column heading in the :ref:`Mixxx library <library-tracks>`. This information is initially loaded from the track's :term:`metadata`.
 
 * **Eject Track button**:
   Clicking this button ejects the track from the deck.
