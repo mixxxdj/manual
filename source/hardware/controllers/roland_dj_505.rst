@@ -315,7 +315,7 @@ No.       Control                                                          Funct
 1-8       Pad (lit)                                                        Set a beatloop at the position of the hotcue and jump to it.
 1-8       Pad (unlit)                                                      Save the current position as hot cue and set a beatloop.
 9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
-9         :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
+10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
 9-10      :hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons              *Currently not mapped*.
 ========  ===============================================================  ==========================================
 
@@ -374,7 +374,7 @@ No.       Control                                                          Funct
 7         Pad (press)                                                      Increase beatjump size.
 8         Pad (press)                                                      Beatjump right.
 9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
-9         :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
+10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
 9-10      :hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons              *Currently not mapped*.
 ========  ===============================================================  ==========================================
 
