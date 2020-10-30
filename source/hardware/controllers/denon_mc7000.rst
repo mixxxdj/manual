@@ -3,17 +3,6 @@ Denon MC7000
 
 The Denon MC7000 is a professional DJ controller which has got 4-channel capability and dual USB connections. These two USB audio interfaces enable two DJs to play together. This controller includes Denon’s high build quality and superior 24-bit audio reproduction, makes this suited to both mobile and club DJs.
 
-The dual 6" platters have a touch-capacitive design with rotational LED displays. The MC7000 has exclusive and dedicated Key Matching and Changing controls that deliver an unprecedented ability to instantly and harmonically match musical keys. The unit’s comprehensive, multi-input mixer also provides access to line/phono inputs from both authentic analogue (vinyl) and digital sources.
-
--  4-channel DJ controller with digital mixer
--  Dual USB audio interfaces - connect 2 computers at once
--  16 velocity-sensitive performance pads
--  New dedicated key-matching and changing controls
--  Solid 6-inch touch-capacitive platters with tracking LED
--  2 mic inputs with dedicated controls
--  XLR Booth and Master connections
-
-
 -  `Denon MC7000 Mapping thread <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 -  `Manufacturer’s product page <https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus>`__
 -  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
