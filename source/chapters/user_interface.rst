@@ -1056,7 +1056,7 @@ Sample Deck Controls
 The Effects Section
 ===================
 
-.. figure:: ../_static/2.2/effect-unit-collapsed.png
+.. figure:: ../_static/effect-unit-collapsed.png
    :align: center
    :figwidth: 100%
    :alt: An effect unit
