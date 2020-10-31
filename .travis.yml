@@ -6,7 +6,7 @@ dist: xenial
 cache:
   pip: true
 
-if: type != pull_request AND branch =~ /^(manual-)/
+if: type != pull_request AND branch =~ /^(main|manual-.*)$/
 
 install:
 - pip install -r requirements.txt
@@ -14,10 +14,7 @@ install:
 before_script:
 - git clone https://github.com/mixxxdj/manual.git manual
 - cd manual
-- git branch -r
-- export LATEST_BRANCH="$(git branch -r | grep -Po 'origin/manual-\d+\.\d+\.x' | sort | tail -n 1)"
-- echo "Building from branch ${LATEST_BRANCH}"
-- git checkout "${LATEST_BRANCH}"
+- git checkout main
 
 jobs:
   include:

@@ -27,6 +27,9 @@ is appropriate for the present moment and that will mix well into the
 currently playing track(s). To use headphone cueing, you need at least 2
 separate audio outputs, typically provided by a USB audio interface (also known
 as a “sound card”, although most of them are not shaped like cards anymore).
+
+The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for Deck 2 the shortcut is :kbd:`Y`.
+
 Mixxx can be used in two different ways for headphone cueing:
 
 **Internal Mixing**
@@ -70,4 +73,3 @@ Mixxx can be used in two different ways for headphone cueing:
 
      Using Mixxx together with a USB audio interface, external mixer, and
      timecode vinyl for external mixing
-
