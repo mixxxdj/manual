@@ -85,8 +85,8 @@ No.  Control                                                Function
 4    :hwlabel:`HEADPHONE CUE 2` button                      Toggle headphone pre-fader listening of right deck.
 4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`   Load selected track to left deck.
 4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`   Load selected track to right deck.
-4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 1`  Toggle between left deck between 1 / 3 in 4-deck mode (if LED is lit, deck 3 is active).
-4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 2`  Toggle between right deck between 2 / 4 in 4-deck mode (if LED is lit, deck 4 is active).
+4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 1`  Toggle between left deck between 1 / 3 in 4-deck mode (if LED is lit, deck 3 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`.
+4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 2`  Toggle between right deck between 2 / 4 in 4-deck mode (if LED is lit, deck 4 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`.
 5    Channel faders                                         Adjust the output level for each channel
 6    Transition FX Button                                   Turns on :ref:`AutoDJ <djing-auto-dj>`
 7    Cross fader                                            Fade between left and right deck
