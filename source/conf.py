@@ -32,6 +32,7 @@ import sphinx_rtd_theme
 extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.graphviz",
+    "sphinx.ext.imgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
@@ -284,6 +285,7 @@ latex_elements = {
     "classoptions": ",openany,oneside",
     "babel": "\\usepackage[english]{babel}",
 }
+latex_use_xindy = False
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,

@@ -37,8 +37,11 @@ jobs:
       addons:
         apt:
           packages:
+            - fonts-freefont-otf
             - texlive
+            - texlive-generic-recommended
             - texlive-xetex
             - texlive-latex-extra
+            - texlive-lang-all
             - latexmk
             - xindy
