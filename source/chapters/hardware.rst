@@ -51,7 +51,7 @@ controllers that Mixxx does not yet support, you can `search the forum
 <https://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
 started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation
-<https://mixxx.org/wiki/doku.php/start#controller_mapping_documentation>`_
+<https://github.com/mixxxdj/mixxx/wiki#user-content-controller-mapping-documentation>`_
 on the wiki.
 
 .. seealso:: :ref:`control-midi` describes how to configure Mixxx to use
