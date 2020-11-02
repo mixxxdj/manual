@@ -11,11 +11,6 @@ if: type != pull_request AND branch =~ /^(main|manual-.*)$/
 install:
 - pip install -r requirements.txt
 
-before_script:
-- git clone https://github.com/mixxxdj/manual.git manual
-- cd manual
-- git checkout main
-
 env:
   global:
     # DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY_PASSWORD for deploys.
@@ -25,6 +20,9 @@ jobs:
   include:
     - name: HTML
       script:
+      - git clone https://github.com/mixxxdj/manual.git manual
+      - cd manual
+      - git checkout main
       - sh ../build_html.sh
       before_deploy:
       - npm install -g netlify-cli
@@ -38,7 +36,7 @@ jobs:
 
     - name: PDF
       script:
-      - sh ../build_pdf.sh
+      - sh build_pdf.sh
       addons:
         apt:
           packages:
