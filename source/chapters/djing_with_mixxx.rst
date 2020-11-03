@@ -439,15 +439,14 @@ AutoDJ picks the time of the shorter section as the crossfade time.
 
 If the outro is shorter than the intro, AutoDJ will align the start of the outro with the start of the intro in both modes.
 
+   .. note:: The two modes work differently when the outro is longer than the intro.
+
 .. figure:: ../_static/autodj-align-starts.png
    :align: center
    :alt: Intro and outro start markers aligned by AutoDJ
    :figclass: pretty-figures
 
    Intro and outro start markers aligned by AutoDJ
-
-   .. note:: The two modes work differently when the outro is longer than the intro.
-
 
 **Full Intro + Outro Mode**
   In the "Full Intro + Outro" mode, AutoDJ aligns the end of the intro and outro by starting the next track during the outro of the
