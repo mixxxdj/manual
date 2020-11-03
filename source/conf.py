@@ -32,6 +32,7 @@ import sphinx_rtd_theme
 extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.graphviz",
+    "sphinx.ext.imgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
@@ -103,7 +104,7 @@ supported_languages = {
 }
 
 smv_tag_whitelist = r"^$"
-smv_branch_whitelist = r"^manual-(\d+)\.(\d+|x)\.(\d+|x)$"
+smv_branch_whitelist = r"^(main|manual-(\d+)\.(\d+|x)\.(\d+|x))$"
 smv_remote_whitelist = r"^origin$"
 smv_released_pattern = r"^.*/manual-(?!2\.3\.x)(\d+)\.(\d+|x)\.(\d+|x)$"
 smv_latest_version = r"manual-2.2.x"
@@ -284,6 +285,7 @@ latex_elements = {
     "classoptions": ",openany,oneside",
     "babel": "\\usepackage[english]{babel}",
 }
+latex_use_xindy = False
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
