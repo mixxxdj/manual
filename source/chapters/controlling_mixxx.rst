@@ -151,7 +151,7 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              up-to-date information about which controllers work with Mixxx and
              the details of each.
 
-.. _Hardware Compatibility wiki page: https://mixxx.org/wiki/doku.php/hardware_compatibility
+.. _Hardware Compatibility wiki page: https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility
 .. _Bug Tracker: https://bugs.launchpad.net/mixxx
 .. _Controller presets forum: https://mixxx.org/forums/viewforum.php?f=7
 
