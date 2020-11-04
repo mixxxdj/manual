@@ -57,7 +57,7 @@ An audio buffer between 23-64 ms is acceptable if you are using Mixxx with a
 keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
-The `Adjusting Audio Latency <https://mixxx.org/wiki/doku.php/adjusting_audio_latency>`_
+The `Adjusting Audio Latency <https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_
 page on the Mixxx Wiki has tips for different operating systems
 that may help you use a smaller audio buffer reliably.
 
