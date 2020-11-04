@@ -1128,6 +1128,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.4.0
 
 
+.. mixxx:control:: [ChannelN],hotcue_X_cueloop
+                   [PreviewDeckN],hotcue_X_cueloop
+                   [SamplerN],hotcue_X_cueloop
+
+   Enables or disables a loop from the position of :term:`hotcue` X.
+   If X is a saved loop, that loop will be used, otherwise it will set a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` from the cue position.
+   In case the hotcue is not set, this control will set a regular cue point at the current position and start a beatloop.
+
+   This control can be used to map the primary action of the "Cue Loop" performance pad mode on Serato-style controllers.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],hotcue_X_clear
                    [PreviewDeckN],hotcue_X_clear
                    [SamplerN],hotcue_X_clear
@@ -1203,7 +1216,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    If :term:`hotcue` X is set, seeks the player to hotcue X's position, starts playback and looping.
    If the hotcue is a saved loop, the loop is enabled, otherwise a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is set from the hotcue's position.
 
-   This control can be used to implement the cue loop mode on controllers with such a pad mode.
+   This control can be used to map the secondary action of the "Cue Loop" performance pad mode on Serato-style controllers.
 
    :range: binary
    :feedback: Player may change position and looping is enabled.
