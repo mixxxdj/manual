@@ -14,7 +14,7 @@ configure Mixxx to work with them.
              * :ref:`microphones`: details for configuring Mixxx to work with
                microphones.
              * `DJ Hardware Guide
-               <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+               <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_
                lists specific devices with information about their prices,
                features, and compatibility with Mixxx.
 

@@ -24,7 +24,7 @@ with Mixxx, each with their own pros and cons:
              headphone jack. Also, they can be difficult to configure at the
              same time as a different audio interface for music output.
 
-.. seealso:: The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+.. seealso:: The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_
              lists specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 
@@ -384,7 +384,7 @@ problem with latency that happens with
 :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do
 not digitize the signal to make it available to the computer. Refer to the
 controller's page on the `Mixxx wiki
-<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or the manual from
+<https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ or the manual from
 the controller manufacturer for details about your particular controller.
 
 If the controller does not digitize the microphone input, you cannot use
