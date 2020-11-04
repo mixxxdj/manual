@@ -23,9 +23,10 @@
   for = "/*"
   [headers.values]
     # Only allow resources to be loaded from the current origin. Styles make
-    # also specified inline, and specific inline JS script blocks are allowed
-    # because it's needed for RTD theme navigation and the search function.
-    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-aKkL5uJIn8IT6NRaVnTqZYwpUdS1WHm+y1JpAnirHI4=' 'sha256-MRjxq7P7h/pRR7k4ag0x+Mkgk/z0aZB09O9tWlLJTnQ=' 'sha256-y0EKQ9gzIp+kDKFfCLYdFrUJS1PBJDfja6W7z4RaJic='"
+    # also specified inline, and unsafe inline JS script blocks are allowed
+    # because it's needed for RTD theme navigation and the search function:
+    # https://github.com/readthedocs/sphinx_rtd_theme/issues/817
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'"
 
     # Disable all browser features that we don't need. Unfortunately
     # there is no way to specify a default for all directives yet, so
