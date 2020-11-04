@@ -14,7 +14,7 @@ Pioneer DDJ-200
 
    Pioneer DDJ-200 (schematic view)
 
-The Pioneer DDJ-200 is a simple 2 deck USB and Bluetooth DJ controller designed for WeDJ, djay, edjing Mix and Rekordbox.
+The Pioneer DDJ-200 is a 2 deck USB and Bluetooth DJ controller designed for WeDJ, djay, edjing Mix and Rekordbox.
 
 -  `Manufacturer's Product Page <https://www.pioneerdj.com/en-gb/product/controller/ddj-200/black/overview/>`__
 -  `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596B_manual/>`__
@@ -40,22 +40,23 @@ Deck section (p. 8)
    :alt: Pioneer DDJ-200 (deck section)
    :figclass: pretty-figures
 
-   Pioneer DDJ-200 (deck section)
+   Deck section (p. 8)
 
 ===  =================================================  ============================================================================================
 No.  Control                                            Function
 ===  =================================================  ============================================================================================
-1    :hwlabel:`JOG WHEEL` (top)                         Scratches the track
-1    :hwlabel:`JOG WHEEL` (outer)                       Pitch bend
-1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Move Play position with higher speed in the direction the Wheel is turned
-2    :hwlabel:`SHIFT` button                            Change the function of another control
-3    :hwlabel:`PAD 1 - 8`                               Set (if empty) or play Hot cue point / loop
-3    :hwlabel:`SHIFT` + Pad 1 - 8                       Unset/Delete hot cue point / loop
-4    :hwlabel:`CUE` button                              Depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences
-4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to beginning of the cue point or track if not set
-5    :hwlabel:`PLAY/PAUSE` button                       Plays/pauses a track in the respective Deck
-6    :hwlabel:`BEAT SYNC` button                        Match tempo and phase of other deck. Long press to enable Master Sync.
-7    :hwlabel:`TEMPO` slider                            Adjust the track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
+1    Jog Wheel (top)                                    Scratch (move play position)
+1    Jog Wheel (outer)                                  Pitch bend (nudge)
+1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Scratch (move play position) faster
+1    :hwlabel:`SHIFT (left)` + Jog Wheel (outer)        Move track selection in library
+2    :hwlabel:`SHIFT` button                            Switch function of controls
+3    Pad 1 - 8                                          Set (if empty) or play (if set) hot cue point / loop 1 - 8
+3    :hwlabel:`SHIFT` + Pad 1 - 8                       Unset / delete hot cue 1 - 8
+4    :hwlabel:`CUE` button                              Set or play cue point, change cue point with JOG WHEEL (top) + cue point
+4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop
+5    :hwlabel:`PLAY/PAUSE` button                       Play / pause
+6    :hwlabel:`BEAT SYNC` button                        Match tempo and phase of other deck, long press to enable master sync
+7    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
 ===  =================================================  ============================================================================================
 
 
@@ -71,16 +72,22 @@ Mixer section (p. 10)
    :alt: Pioneer DDJ-200 (mixer section)
    :figclass: pretty-figures
 
-   Pioneer DDJ-200 (mixer section)
+   Mixer section (p. 10)
 
-===  =================================================  ============================================================================================
-No.  Control                                            Function
-===  =================================================  ============================================================================================
-1    :hwlabel:`MASTER CUE` button                       Activates Master output on Headphones
-2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs  Adjust the high/mid/low-frequency regions of the song.
-3    :hwlabel:`CFX` knobs                               Turns on the selected effects
-4    :hwlabel:`HEADPHONE CUE` button                    Toggle PFL for the Channel
-5    Channel faders                                     Adjust the output level for each channel.
-6    Transition FX Button                               Turns on :ref:`AutoDJ <djing-auto-dj>`.
-7    Cross fader                                        Fades between left and right deck.
-===  =================================================  ============================================================================================
+===  =====================================================  ============================================================================================
+No.  Control                                                Function
+===  =====================================================  ============================================================================================
+1    :hwlabel:`MASTER` button                               Toggle Master/Cue knob of headphones between left and right
+1    :hwlabel:`SHIFT` + :hwlabel:`MASTER` button            Toggle between 2- and 4-deck mode
+2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs      Adjust high/mid/low-frequencies
+3    :hwlabel:`CFX` knobs                                   Turns on the selected effects
+4    :hwlabel:`HEADPHONE CUE 1` button                      Toggle headphone pre-fader listening of left deck.
+4    :hwlabel:`HEADPHONE CUE 2` button                      Toggle headphone pre-fader listening of right deck.
+4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`   Load selected track to left deck.
+4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`   Load selected track to right deck.
+4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 1`  Toggle between left deck between 1 / 3 in 4-deck mode (if LED is lit, deck 3 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`.
+4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 2`  Toggle between right deck between 2 / 4 in 4-deck mode (if LED is lit, deck 4 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`.
+5    Channel faders                                         Adjust the output level for each channel
+6    Transition FX Button                                   Turns on :ref:`AutoDJ <djing-auto-dj>`
+7    Cross fader                                            Fade between left and right deck
+===  =====================================================  ============================================================================================
