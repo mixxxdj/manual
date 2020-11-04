@@ -1,4 +1,4 @@
-# This htaccess file is used to do verison and language redirects for the manual.
+# This htaccess file is used to do version and language redirects for the manual.
 RewriteBase /manual
 
 # Redirect people from /manual/ to /manual/latest/.

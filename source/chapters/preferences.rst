@@ -57,7 +57,7 @@ An audio buffer between 23-64 ms is acceptable if you are using Mixxx with a
 keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
-The `Adjusting Audio Latency <https://mixxx.org/wiki/doku.php/adjusting_audio_latency>`_
+The `Adjusting Audio Latency <https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_
 page on the Mixxx Wiki has tips for different operating systems
 that may help you use a smaller audio buffer reliably.
 
@@ -164,15 +164,15 @@ CoreAudio is the only Sound API on macOS.
 Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
-  :term:`audio interfaces` at a time, each with its own clock. When multiple
+  :term:`audio interface <audio interface>` at a time, each with its own clock. When multiple
   audio interfaces are in use, the Mixxx engine is driven by the Master
   audio interface. Here you can select the synchronization used for the other
   audio interfaces to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
-  for independent tempo and pitch changes (e.g. :term:`keylock`). Use
+  for independent tempo and pitch changes (e.g. :term:`key lock`). Use
   :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
-  you experience buffer underflows while using :term:`keylock`.
+  you experience buffer underflows while using :term:`key lock`.
 
 * **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
   you do not use the Master output, recording or live broadcasting.

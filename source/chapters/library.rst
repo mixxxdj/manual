@@ -114,7 +114,7 @@ Tracks - View and edit your whole collection
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
-  to the waveform display or use the context menu. Go to the chapter
+  to the waveform display, use the context menu or use :term:`keyboard shortcuts <shortcut>`. Go to the chapter
   :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
@@ -312,17 +312,20 @@ Tracks can be loaded into a deck in several ways:
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
-  table.
+  table. Use keyboard :kbd:`Up` and :kbd:`Down` arrow button to select a track, :kbd:`Shift` + :kbd:`Left`
+  to load into Deck 1 and :kbd:`Shift` + :kbd:`Right` to load into Deck 2.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
-  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  or preview deck, click on the :ref:`track title <interface-track-info>`, :ref:`track artist <interface-track-info>` or cover art and
   drag it to another deck or sampler.
+  Note that you can also drop tracks onto Playlists and Crates in the sidebar, as well as into track tables of active Playlists or Crates.
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
   that track. This function also works with some other applications. For
   example, on macOS, dragging-and-dropping a track from iTunes onto one of
   Mixxx's waveform displays will load it into that deck.
+
 
 .. _library-finding-tracks:
 
@@ -879,11 +882,11 @@ Using the Serato library
 Mixxx supports reading your Serato library and crates both from your local hard drive as well as portable USB drives. Smart crates are currently not supported.
 
 Serato stores information such as hot cues, track color and beatgrid in the file tags.
-Regardless of whether a track is loaded into deck from the libray or directly from the file browser, Mixxx will import that information automatically if present.
+Regardless of whether a track is loaded into deck from the library or directly from the file browser, Mixxx will import that information automatically if present.
 
 Saved loops are imported as well, but since Mixxx is lacking support for multiple saved loops, only the first loop is usable in Mixxx.
 All other saved loops can be used like regular hotcues for now.
-   
+
 Waveforms, Gain values and "Flips" are not imported from Serato.
 
 .. note:: Due to differences in the metadata format, importing Serato information from Ogg Vorbis files is currently not supported.
@@ -905,7 +908,7 @@ To reimport metadata from files:
 * Select :menuselection:`Metadata --> Import From File Tags`.
 
 .. hint:: Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
-          This problem may cause your cues to be shifted up by a few milliseconds. 
+          This problem may cause your cues to be shifted up by a few milliseconds.
           Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
 
 .. _library-removing-tracks:
@@ -968,7 +971,7 @@ is required for Windows Vista.
 
 On Linux, :file:`AAC` playback is disabled by default due to licensing restrictions.
 To enable the playback of :file:`AAC` files,
-`build Mixxx from source with m4a/AAC files support <https://mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
+`build Mixxx from source with m4a/AAC files support <https://github.com/mixxxdj/mixxx/wiki/Compiling-On-Linux#user-content-optional-build-with-m4aaac-file-support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
              iTunes Store in 2009 or earlier, are not supported.
