@@ -233,7 +233,7 @@ You can manually add, relink, and remove Mixxx music directories in
 
           * Windows: :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\`
           * macOS: :file:`Library/Application Support/Mixxx`
-          * Linux: The confuguration files are found in the ``.mixxx`` folder in your home directory.
+          * Linux: The configuration files are found in the ``.mixxx`` folder in your home directory.
 
 **Remove a music directory**
   Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and
