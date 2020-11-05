@@ -157,6 +157,8 @@ a:hover {
 }
 .rst-content .guilabel {
     background: #faf2e7;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .rst-content .kbd {
@@ -171,6 +173,7 @@ a:hover {
     line-height: 1;
     padding: 2px 4px;
     white-space: nowrap;
+    vertical-align: bottom;
 }
 
 .btn-link:visited {

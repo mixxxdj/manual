@@ -19,6 +19,12 @@ There are a variety of other resources where you can find out more:
   documentation on making controller mappings, and other tips and tricks, go to:
   `<https://mixxx.org/wiki/>`_
 
+* **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts.
+  Please note that these shortcuts are for keyboards configured in English
+  layout and default shortcuts may be different if your language setting
+  is not English.
+  :ref:`default keyboard mappings<appendix-keyboard>`
+
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
 
@@ -35,7 +41,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
-  read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
+  read the `Translation FAQ <https://github.com/mixxxdj/mixxx/wiki/internationalization>`_
   first.
 
 * **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
@@ -71,9 +77,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Playback**                                                                                                                                             |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Load selected track to deck            | :kbd:`Shift` + :kbd:`left`              | :kbd:`Shift` + :kbd:`right`              |                            |
+| Load selected track to deck            | :kbd:`Shift` + :kbd:`←`                 | :kbd:`Shift` + :kbd:`→`                  |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`left` | :kbd:`Alt` + :kbd:`Shift` + :kbd:`right` |                            |
+| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`←`    | :kbd:`Alt` + :kbd:`Shift` + :kbd:`→`     |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Playback                               | :kbd:`D`                                | :kbd:`L`                                 |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -159,9 +165,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Start/Stop                             |                                         |                                          | :kbd:`Return`              |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`🠔`   |
+| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`←`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`🠖`  |
+| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`→`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Vinyl Control**                                                                                                                                        |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
