@@ -10,18 +10,18 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/Mixxx-200-Latenight.png
+.. figure:: ../_static/2.2/overview.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: The Mixxx interface - Latenight skin
+   :alt: The Mixxx interface - Deere skin
    :figclass: pretty-figures
 
-   The Mixxx interface - Latenight skin
+   The Mixxx interface - Deere skin
 
-This is the Latenight skin. It is the default skin supplied with Mixxx. There
+This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Latenight only.
+to figure out which one you prefer. This section will focus on Deere only.
 
 .. _interface-decks:
 
@@ -32,7 +32,7 @@ The Deck Sections
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck.png
+.. figure:: ../_static/2.2/interface-decks.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -49,7 +49,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Track-Info.png
+.. figure:: ../_static/2.2/track-information.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -60,14 +60,21 @@ Track Information Display
 
 **Track Title**
   The title of the track that was loaded into a deck is displayed on top. This
-  is the same as the title listed under the :guilabel:`Title` column heading in
-  the Mixxx library. This information is initially loaded from the track's
+  is the same as the title listed under the :guilabel:`Title` column heading in the :ref:`Mixxx library <library-tracks>`. This information is initially loaded from the track's
   :term:`metadata`. If the metadata is missing, the title and artist are guessed
   from the filename.
 
 **Track Artist**
   The artist of the track is listed below. It is the same as listed under the
-  :guilabel:`Artist` column heading in the Mixxx library.
+  :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
+
+**Time Elapsed/Remaining/Both**
+  By default it displays the total elapsed time in the track up to the
+  millisecond. Clicking on the display switches to the *Time Remaining* view,
+  which indicates how much time is left before the track reaches the end.
+  Clicking the display again, both the elapsed and remaining time are shown
+  simultaneously in the format *elapsed time / remaining time*.
+  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
 
 **BPM (Tempo)**
   The number at the top right is the effective :term:`BPM` of the track. This is
@@ -79,13 +86,26 @@ Track Information Display
             to the speed you are tapping, go to :ref:`control-keyboard` for more
             information.
 
-**Time Elapsed/Remaining/Both**
-  By default it displays the total elapsed time in the track up to the
-  millisecond. Clicking on the display switches to the *Time Remaining* view,
-  which indicates how much time is left before the track reaches the end.
-  Clicking the display again, both the elapsed and remaining time are shown
-  simultaneously in the format *elapsed time / remaining time*.
-  You can change the default in :menuselection:`Preferences --> Decks --> Deck options`.
+**Key**
+  .. figure:: ../_static/2.2/key-options.png
+    :align: center
+    :width: 42%
+    :figwidth: 90%
+    :alt: The options displayed when you click on the Key
+    :figclass: pretty-figures
+
+    The Key options.
+
+The key displays the current musical key of the loaded track after pitch shifting. The key is displayed below the BPM (Tempo). This is the same as the key that is shown under the :guilabel:`Key` column heading in the :ref:`Mixxx library <library-tracks>`.
+Clicking the key will expand it to reveal more options:
+
+  * **Pitch Control**: This changes the track pitch independent of the tempo. Left-clicking the :guilabel:`-` button decreases the pitch by one semitone. Right-clicking it decreases the pitch by 10 cents. Left-clicking the :guilabel:`+` button increases the pitch by one semitone. Right-clicking it increases the pitch by 10 cents.
+  * **Sync and Reset Key**: Left-clicking the :guilabel:`MATCH` button sets the key to a pitch that allows harmonic transition from the other track. It requires a detected key on both involved decks. Right-clicking it resets the key to the original track key.
+
+**Cover Art**
+  The cover art of the track loaded into the deck is displayed on the left side of the track. This is the same as the cover art that is shown under the :guilabel:`Cover Art` column heading in the :ref:`Mixxx library <library-tracks>`.
+  In Deere skin you can choose to enable or disable the cover art by clicking the gear icon in the upper right corner, then toggling the :menuselection:`Decks --> Cover Art` option. Clicking on the cover art will expand it into a full blown image.
+  The cover art is also shown in the Vinyl Widget next to the :ref:`parallel waveforms <interface-waveform>`.
 
 .. _interface-waveform:
 
@@ -103,14 +123,14 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/Mixxx-200-Latenight-parallel-waveform.png
+.. figure:: ../_static/2.2/deere-parallel-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx default skin (Latenight) - Parallel waveforms
+   :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Latenight) - Parallel waveforms
+   Mixxx default skin (Deere) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
@@ -118,15 +138,14 @@ Shade skin provides only separate waveforms.
 In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
 
-
-.. figure:: ../_static/Mixxx-200-Deere-separate-waveform.png
+.. figure:: ../_static/2.2/deere-separate-waveforms.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx alternative skin (Deere) - Separate waveforms
+   :alt: Mixxx alternative skin (Latenight) - parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx alternative skin (Deere) - Separate waveforms
+   Mixxx default skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
@@ -198,7 +217,7 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Button-Grid.png
+.. figure:: ../_static/2.2/options-button-grid.png
    :align: center
    :width: 79px
    :figwidth: 100%
@@ -211,23 +230,24 @@ The six buttons at the bottom right below the waveform allow you to configure
 the deck. Starting from the top-left and moving clockwise the buttons are as
 follows:
 
-**Show/Hide Vinyl Widget**
-  Toggles the visibility of the Vinyl Widget in the :ref:`interface-waveform`.
+**Slip Mode Toggle**
+  When active, the playback continues muted in the background during a loop, reverse, scratch, etc.
+  Once disabled, the audible playback will resume where the track would have been.
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
-
-**Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
 
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
   is marked as a beat. This is useful if Mixxx was able to accurately detect the
   track's :term:`BPM` but failed to align the beat markers on the beats. For
   more information, go to the chapter :ref:`configuration-bpm-detection`.
+
+**Eject Track Button**
+  Clicking this button ejects the track from the deck. Alternatively you can use
+  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
+  information.
 
 **Quantize Mode Toggle**
   If enabled, all cues, hotcues, loops, and beatloops will be automatically
@@ -244,7 +264,7 @@ follows:
 Playback/Cue Controls
 ---------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Playback.png
+.. figure:: ../_static/2.2/cue-controls.png
   :align: center
   :width: 54px
   :figwidth: 100%
@@ -261,8 +281,6 @@ Playback/Cue Controls
   .. seealso:: The actual behavior of the Play/Pause button depends on the
                selected :ref:`Cue mode <interface-cue-modes>`.
 
-.. hint :: To return to the beginning of the track, right-click on the deck's
-           :ref:`Fast-Rewind Button <interface-transport>`.
 
 .. _interface-cue:
 
@@ -381,31 +399,25 @@ Transport Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Transport.png
+.. figure:: ../_static/2.2/transport-controls.png
   :align: center
-  :width: 55px
+  :width: 80px
   :figwidth: 100%
   :alt: The transport controls of the deck
   :figclass: pretty-figures
 
   The transport controls of the deck
 
-**Fast-Rewind button**
- As long as the button is pressed, the track will play in reverse with
- increased speed. Right-clicking on the button will seek the play position to
- the beginning of the track.
+**Beatjump/ Loop Move Size**
+  You can type, use the arrow keys or scroll vertically in the input box to select the number of beats to jump or move, with the Beatjump Forward/ Backward buttons.
 
-**Fast-Forward button**
- As long as the button is pressed, the track will play with increased speed.
- Right-clicking on the button will seek the play position to the end of the
- track.
+**Beatjump Backward button**
+  Clicking this while the loop is inactive will make the track jump backward by the set number of beats (left click) or by one beat (right click).
+  Clicking this while the loop is active will move the loop backward by the set number of beats (left click) or by one beat (right click).
 
-**Reverse button**
- As the name suggests, this button plays a track backwards.
- Right-clicking on the button puts a track into reverse while being held,
- resumes the track and disables Slip mode when released. Useful to censor
- expletives on the fly, or simply as part of your mix.
-
+**Beatjump Forward button**
+  Clicking this while the loop is inactive will make the track jump forward by the set number of beats (left click) or by one beat (right click).
+  Clicking this while the loop is active will move the loop forward by the set number of beats (left click) or by one beat (right click).
 
 .. _interface-vc-mode:
 
@@ -415,10 +427,9 @@ Vinyl Control Mode and Cueing controls
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Deck-Vinyl-Mode.png
+.. figure:: ../_static/2.2/vinyl-control-mode.png
    :align: center
-   :width: 70%
-   :figwidth: 100%
+   :figwidth: 60%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -426,9 +437,7 @@ Vinyl Control Mode and Cueing controls
 
 The control above the waveforms relate to the :term:`vinyl control` feature in
 Mixxx and is **hidden** in the default
-:ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`VINYL section expansion button <interface-expansion-buttons>` in the mixer
-section, or use the specific :ref:`appendix-shortcuts` to show or hide the
+:ref:`Mixxx user interface <interface-overview>`. Click the gear icon in the upper right corner, then toggle :menuselection:`Skin Settings --> Vinyl Control Options`, or use the specific :ref:`appendix-shortcuts` to show or hide the
 section.
 
 **Abs/Rel/Const button**
@@ -439,15 +448,15 @@ section.
 * **Constant mode**: The track speed equals last known-steady speed regardless
   of needle input.
 
-**Off/One/Hot button**
+**Cue/Hot button**
 
 This button determines how :term:`cue points <cue>` are treated in vinyl
 control relative mode:
 
 * **Off**: Cue points are ignored.
-* **One Cue**: If the needle is dropped after the cue point, the track will seek
+* **Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
-* **Hot Cue**: The track will seek to the nearest previous :term:`hotcue` point.
+* **Hot**: The track will seek to the nearest previous :term:`hotcue` point.
 
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
@@ -461,7 +470,7 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Rate-Control.png
+.. figure:: ../_static/2.2/sync-and-rate-controls.png
    :align: right
    :width: 68px
    :figwidth: 100px
@@ -476,25 +485,24 @@ control rate changes also from your computer's keyboard, see the chapter
 :ref:`control-keyboard` for more information.
 
 **SYNC button**
+  * **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
+    and :term:`phase` of the track matches the other deck.
+  * **Right-Click**: Only changes the :term:`rate` of the track to match the other
+    deck but does not adjust the :term:`phase`.
 
-* **Left-Click**: Changes the :term:`rate` of the track so that the :term:`BPM`
-  and :term:`phase` of the track matches the other deck.
-* **Right-Click**: Only changes the :term:`rate` of the track to match the other
-  deck but does not adjust the :term:`phase`.
+  Decks and samplers now pick which sync target to sync to on the fly. Decks can't
+  sync to samplers and samplers can only sync to decks. The sync target for
+  samplers is:
 
-Decks and samplers now pick which sync target to sync to on the fly. Decks can't
-sync to samplers and samplers can only sync to decks. The sync target for
-samplers is:
+  * The first deck (in numerical order) that is playing a track with a detected
+    beatgrid, and has a rate different than zero.
+  * The first deck (in numerical order) that has a track loaded with a detected
+    beatgrid, no matter if it is playing or stopped.
 
-* The first deck (in numerical order) that is playing a track with a detected
-  beatgrid, and has a rate different than zero.
-* The first deck (in numerical order) that has a track loaded with a detected
-  beatgrid, no matter if it is playing or stopped.
-
-So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
-track with a beatgrid then deck 1 will win since numerically it is first. The
-sync targets for decks are chosen with the new master sync feature, see
-:ref:`master-sync` for more information.
+  So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
+  track with a beatgrid then deck 1 will win since numerically it is first. The
+  sync targets for decks are chosen with the new master sync feature, see
+  :ref:`master-sync` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -507,13 +515,8 @@ sync targets for decks are chosen with the new master sync feature, see
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
 
-**Pitch/Rate buttons**
-  The plus and minus buttons increase or decrease the tempo in steps at which a
-  song is played, same as pulling the pitch slider slightly. By right-clicking
-  the buttons you get even finer adjustments.
-
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the left and right arrow buttons is like nudging the metal edge of
+  Pushing the minus and plus buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
@@ -538,7 +541,7 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Loops.png
+.. figure:: ../_static/2.2/loop-controls.png
    :align: center
    :width: 205px
    :figwidth: 100%
@@ -549,42 +552,40 @@ Loop Controls
 
 In this section of the Mixxx interface you can control (beat-)loops and set the
 loop points of a track.
+You can also shift loops using the :ref:`beatjump / loop move controls <interface-transport>` shown at the right side of the looping controls.
 
-**Beatlooping Buttons**
-
-* **Instant loop**: The numbered buttons represents a different :term:`bar`
-  length. Clicking on any of that buttons will set a loop of the defined
-  number of beats from the beat immediately following the current playback
-  position. If a loop is set, a loop overlay will be drawn on the
+**Beatloop size**
+  The input box allows you to set the size of the loop in beats to set with the Beatloop button. Changing this resizes the loop if the loop already matches the size.
+  If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
-* **Loop roll**:
-  Right-click on any of the numbered loop buttons to temporarily setup a rolling
-  loop over the defined number of beats. Playback will resume where the track
-  would have been if it had not entered the loop.
-* **Double loop**: Clicking on the plus button will double the current loop's
+**Beatloop**
+  Left-clicking the Beatloop button starts a loop over the set number of beats. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
+  the beatlooping buttons. Depending on the current status of the loop, the
+  loop overlay on the waveforms changes color. Right-clicking the Beatloop button temporarily enables a rolling loop over the set number of beats. Playback will resume where the track would have been if it had not entered the loop.
+**Double loop**
+  Clicking on the arrow pointing up will double the current loop's
   length up to 64 bars. The length of the loop overlay in the waveform will
   increase accordingly.
-* **Halve loop**: Clicking on the minus button will halve the current loop's
+**Halve loop**
+  Clicking on the arrow pointing down will halve the current loop's
   length down to 1/32 bars. The length of the loop overlay in the waveform will
   decrease accordingly.
-
-**Loop Buttons**
-
-* **Loop-In**: This button allows you to manually set the start point of a loop.
+**Loop-In**
+  This button allows you to manually set the start point of a loop.
   A loop-in marker is placed on the waveform indicating the position.
   If clicked when a loop was already set, it moves the start point of a loop
   to a new position.
-* **Loop-Out**: This button allows you to manually set the end point of a loop.
+**Loop-Out**
+  This button allows you to manually set the end point of a loop.
   A loop-out marker is placed on the waveform indicating the position. If
   clicked when a loop was already set, it moves the end point of a loop to a new
   position.
-* **Loop**: Also dubbed Reloop, this button toggles whether the loop is active
-  or not. This works for manually placed loops as well as automatic loops set by
-  the beatlooping buttons. Depending on the current status of the loop, the
-  loop overlay on the waveforms changes color.
+**Reloop**
+  Left-clicking this button toggles the current loop on or off. If the loop is ahead of the current position, looping will start when the loop is reached. This works only if the Loop-in and Loop-Out marker are set.
+  Right-clicking this button enables the loop, jumps to Loop-in marker and stops playback.
 
 .. hint:: If you are playing inside a loop and want to move the end point
-          beyond its current position in the track, click on the *Loop* button
+          beyond its current position in the track, click on the *Beatloop* button
           first and when the play position reaches the desired position, click
           on the Loop-Out button.
 
@@ -602,9 +603,9 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-Hotcues.png
+.. figure:: ../_static/2.2/hot-cue-controls.png
    :align: center
-   :width: 54px
+   :width: 125px
    :figwidth: 100%
    :alt: The hotcue controls of the deck
    :figclass: pretty-figures
@@ -671,9 +672,9 @@ The Mixer Section
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer.png
+.. figure:: ../_static/2.2/mixer-section.png
    :align: center
-   :width: 442px
+   :width: 430px
    :figwidth: 100%
    :alt: The mixer section
    :figclass: pretty-figures
@@ -711,32 +712,31 @@ Channel Faders and Level Meters
 Section Expansion Buttons
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Top-Expansion-Buttons.png
+  .. figure:: ../_static/2.2/expansion-buttons-top.png
    :align: center
-   :width: 448px
-   :figwidth: 100%
+   :width: 430px
+   :figwidth: 90%
    :alt: The section expansion buttons
    :figclass: pretty-figures
 
    The section expansion buttons on top
 
-   .. figure:: ../_static/Mixxx-200-Latenight-Bottom-Expansion-Buttons.png
-      :align: center
-      :width: 448px
-      :figwidth: 100%
-      :alt: The section expansion buttons
-      :figclass: pretty-figures
+  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+    :align: center
+    :width: 245px
+    :figwidth: 90%
+    :alt: The section expansion buttons
+    :figclass: pretty-figures
 
-      The section expansion buttons on the bottom
+    The section expansion options under the Skin settings on the right.
 
-On top, and on the button of the user interface are the section expansion buttons.
+On top, and on the right side of the user interface are the section expansion buttons and options.
 
-If you click on either :guilabel:`MIC`, :guilabel:`SAMPLER`, or
-:guilabel:`VINYL` then you will enable control sections for interacting with:
+If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
 
-* :ref:`interface-mic`
+* :ref:`interface-effects`
 * :ref:`interface-sampler`
-* :ref:`interface-vc-mode`
+* :ref:`interface-mic`
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
@@ -825,12 +825,14 @@ Headphone and Master Mix Controls
   and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
   to control the volume of your headphones without affecting your main output.
 
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+
 .. _interface-pfl:
 
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/Mixxx-111-Deere-Mixer-PFL.png
+.. figure:: ../_static/2.2/headphone-button.png
    :align: center
    :width: 321px
    :figwidth: 100%
@@ -863,10 +865,10 @@ volume fader all the way down.
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-EQ.png
-   :align: right
-   :width: 77px
-   :figwidth: 100px
+.. figure:: ../_static/2.2/gain-knob.png
+   :align: center
+   :width: 300px
+   :figwidth: 150px
    :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
 
@@ -918,7 +920,7 @@ Equalizers and Gain Knobs
 Crossfader
 ----------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Crossfader.png
+.. figure:: ../_static/2.2/crossfader.png
    :align: center
    :width: 318px
    :figwidth: 100%
@@ -948,9 +950,9 @@ on the left end of the crossfader and vice versa. This is also known as
 The Sampler Section
 ===================
 
-.. figure:: ../_static/Mixxx-200-Latenight-Sampler-Deck.png
+.. figure:: ../_static/2.2/sampler-section.png
    :align: center
-   :width: 355px
+   :width: 170px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures
@@ -964,7 +966,7 @@ decks, see :ref:`interface-decks`.
 
 The Sampler section can be **hidden** in the
 :ref:`Mixxx user interface <interface-overview>`. Click the
-:ref:`SAMPLER <interface-expansion-buttons>` button, or use the specific
+:guilabel:`SAMPLERS` button at the top of the user interface, or use the specific
 :ref:`appendix-shortcuts` to show or hide the section.
 
 Waveform Display
@@ -1004,15 +1006,15 @@ are as follows:
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
 
-**Eject Track Button**
-  Clicking this button ejects the track from the deck.
+  **Keylock Toggle**
+  :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
+  tempo via the rate slider do not affect its pitch.
 
 **Mix Orientation Toggle**
   This control determines the sampler input's mix orientation.
 
-**Keylock Toggle**
-  :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
-  tempo via the rate slider do not affect its pitch.
+**Eject Track Button**
+  Clicking this button ejects the track from the deck.
 
 Sample Deck Controls
 --------------------
@@ -1078,7 +1080,7 @@ The Microphone Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Deere-Microphone.png
+.. figure:: ../_static/2.2/microphone-section.png
    :align: center
    :width: 286px
    :figwidth: 100%
@@ -1088,8 +1090,7 @@ The Microphone Section
    The Microphone section
 
 The microphone section is **hidden** in the default :ref:`Mixxx user interface
-<interface-overview>`. Click the :ref:`MIC <interface-expansion-buttons>`
-button in the mixer section, or use the specific :ref:`appendix-shortcuts` to
+<interface-overview>`. Click the :guilabel:`MICS & AUX` button at the top of your user interface, or use the specific :ref:`appendix-shortcuts` to
 show or hide the section.
 
 .. seealso:: The :ref:`microphones` chapter has detailed instructions for
@@ -1124,7 +1125,7 @@ Preview Deck Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Preview-Deck.png
+.. figure:: ../_static/2.2/preview-deck-section.png
    :align: center
    :width: 50%
    :figwidth: 100%
@@ -1134,17 +1135,16 @@ Preview Deck Section
    The Preview Deck with a track loaded
 
 The Preview Deck is a special deck that allows you to pre-listen to tracks in the
-headphones before using them in your mix. Pre-listening a track does not change
-the tracks's :guilabel:`Played` state as well as the play counter and is not
+headphones before using them in your mix. Pre-listening to a track does not change
+its :guilabel:`Played` state as well as the play counter and is not
 logged in the :ref:`History <library-history>`. Press :kbd:`CTRL` + :kbd:`4`
 (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac) to display the Preview Deck.
 
 The features in detail:
 
 * **Track Artist/Title**:
-  The artist and title of the track is displayed here. This is the same
-  listed under the :guilabel:`Track` and :guilabel:`Title` column in the Mixxx
-  library. This information is initially loaded from the track's :term:`metadata`.
+  The artist and title of the track is displayed here. This is the same as that
+  listed under the :guilabel:`Track` and :guilabel:`Title` column heading in the :ref:`Mixxx library <library-tracks>`. This information is initially loaded from the track's :term:`metadata`.
 
 * **Eject Track button**:
   Clicking this button ejects the track from the deck.

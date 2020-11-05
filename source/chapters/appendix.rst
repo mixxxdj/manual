@@ -17,7 +17,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
-  `<https://mixxx.org/wiki/>`_
+  `<https://github.com/mixxxdj/mixxx/wiki>`_
 
 * **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts.
   Please note that these shortcuts are for keyboards configured in English
@@ -41,7 +41,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
-  read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
+  read the `Translation FAQ <https://github.com/mixxxdj/mixxx/wiki/internationalization>`_
   first.
 
 * **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
@@ -443,7 +443,7 @@ Version History
   * Disable track metadata export for .ogg files and TagLib 1.11.1. `lp:1833190 <https://bugs.launchpad.net/mixxx/+bug/1833190>`__
   * Fix interaction of hot cue buttons and looping. `lp:1778246 <https://bugs.launchpad.net/mixxx/+bug/1778246>`__
   * Fix detection of moved tracks. `#2197 <https://github.com/mixxxdj/mixxx/pull/2197>`__
-  * Fix playlist import. `lp:16878282 <https://bugs.launchpad.net/mixxx/+bug/16878282>`__
+  * Fix playlist import. `lp:1687828 <https://bugs.launchpad.net/mixxx/+bug/1687828>`__
   * Fix updating playlist labels. `lp:1837315 <https://bugs.launchpad.net/mixxx/+bug/1837315>`__
   * Fix potential segfault on exit. `lp:1828360 <https://bugs.launchpad.net/mixxx/+bug/1828360>`__
   * Fix parsing of invalid bpm values in MP3 files. `lp:1832325 <https://bugs.launchpad.net/mixxx/+bug/1832325>`__
