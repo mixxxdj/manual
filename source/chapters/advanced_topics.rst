@@ -1206,6 +1206,24 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       Replaces the deprecated :mixxx:coref:`[ChannelN],hotcue_X_enabled`.
 
 
+.. mixxx:control:: [ChannelN],hotcue_X_type
+                   [PreviewDeckN],hotcue_X_type
+                   [SamplerN],hotcue_X_type
+
+   Indicates the type of the :term:`hotcue` in hotcue slot X.
+
+   :range: read-only
+      ===== ===================================
+      Value Type
+      ===== ===================================
+      0     Invalid/Not Set
+      1     Hotcue
+      4     Saved Loop
+      ===== ===================================
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],hotcue_X_goto
                    [PreviewDeckN],hotcue_X_goto
                    [SamplerN],hotcue_X_goto
