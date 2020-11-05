@@ -1090,10 +1090,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    If :term:`hotcue` X is not set, this sets a hotcue at the current play position and saves it to hotcue slot X.
    In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved to the hotcue slot instead.
 
-   If hotcue X is a regular cue point, the player seeks to hotcue X's position.
+   If hotcue X has been set as a regular cue point, the player seeks to the saved play position.
 
-   If the hotcue is a saved loop, looping will be enabled and the loop controls (e.g. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, `:mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` and beatloop_size <[ChannelN],beatloop_size>`) will be set accordingly.
-   The player to does *not* seek to the start position of the loop.
+   If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is "Loop", looping will be enabled and the loop controls (e.g. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, `:mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` and beatloop_size <[ChannelN],beatloop_size>`) will be set accordingly.
+   Just like :mixxx:coref:`reloop_toogle <[ChannelN],reloop_toogle>`, the player seeks back to the loop start when the current play position is behind the loop, and enabled without a seek when it is in front of or inside the loop.
+   This allows a loop catching behavior on one hand and a jump back when the loop has been exit by just triggering this control.
 
    Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
    After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position.
@@ -1122,7 +1123,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],hotcue_X_activateloop
 
    Identical to :mixxx:coref:`hotcue_X_activate <[ChannelN],hotcue_X_activate>`, but this always sets a saved loop, regardless of whether a loop is enabled or not.
-   If no loop is available, this does nothing.
+   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
@@ -1291,8 +1292,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_set
                    [SamplerN],hotcue_X_set
 
-   Set a :term:`hotcue` at the current play position and saves it to hotcue slot X.
-   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved to the hotcue slot instead.
+   Set a :term:`hotcue` at the current play position and saves it hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Hotcue".
+   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved as hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Loop".
 
    :range: binary
    :feedback: Hotcue X marker changes on waveform.
@@ -1305,7 +1306,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setcue
                    [SamplerN],hotcue_X_setcue
 
-   Identical to :mixxx:coref:`hotcue_X_setcue <[ChannelN],hotcue_X_setcue>`, but this always sets a regular cue point, regardless of whether a loop is enabled or not.
+   Identical to :mixxx:coref:`hotcue_X_setcue <[ChannelN],hotcue_X_setcue>`, but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Hotcue"), regardless of whether a loop is enabled or not.
+
+
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
@@ -1315,8 +1318,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setloop
                    [SamplerN],hotcue_X_setloop
 
-   Identical to :mixxx:coref:`hotcue_X_setloop <[ChannelN],hotcue_X_setloop>`, but this always sets a saved loop, regardless of whether a loop is enabled or not.
-   If no loop is available, this does nothing.
+   Identical to :mixxx:coref:`hotcue_X_setloop <[ChannelN],hotcue_X_setloop>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
+   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
