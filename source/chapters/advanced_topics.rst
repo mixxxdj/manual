@@ -1169,7 +1169,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_enabled
                    [SamplerN],hotcue_X_enabled
 
-   Indicates if :term:`hotcue` slot X is set or active.
+   Indicates if :term:`hotcue` slot X is set, active or empty.
 
    :range: read-only
       ===== ===================================
@@ -1177,12 +1177,33 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       ===== ===================================
       0     Hotcue X is not set
       1     Hotcue X is set
-      1     Hotcue X is active (saved loop is enabled or hotcue is previewing)
+      2     Hotcue X is active (saved loop is enabled or hotcue is previewing)
       ===== ===================================
 
    .. versionadded:: 1.8.0
    .. versionchanged:: 2.4.0
       Added support for "active" state.
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],hotcue_X_status` instead.
+
+
+.. mixxx:control:: [ChannelN],hotcue_X_status
+                   [PreviewDeckN],hotcue_X_status
+                   [SamplerN],hotcue_X_status
+
+   Indicates if :term:`hotcue` slot X is set, active or empty.
+
+   :range: read-only
+      ===== ===================================
+      Value Meaning
+      ===== ===================================
+      0     Hotcue X is not set
+      1     Hotcue X is set
+      2     Hotcue X is active (saved loop is enabled or hotcue is previewing)
+      ===== ===================================
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],hotcue_X_enabled`.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_goto
