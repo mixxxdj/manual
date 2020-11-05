@@ -431,7 +431,7 @@ Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
 
    * :guilabel:`Off`: When you speak through the microphone, the music  volume does not reduce.
    * :guilabel:`Auto`: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob.
-   * :guilabel:`Manual`: In this mode, you have to remember to manually adjust the Strength knob to a desired level each time you speak. Otherwise, the music will play at the volume set by the Strength knob, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you.
+   * :guilabel:`Manual`:In this mode, the music will play at the volume set by the Strength knob whenever the microphone Talk button is active, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you. When you disable Talk mode, the music will return to the regular volume
 
 .. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.
 
