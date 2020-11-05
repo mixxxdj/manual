@@ -1087,8 +1087,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_activate
                    [SamplerN],hotcue_X_activate
 
-   If :term:`hotcue` X is not set, this sets a hotcue at the current play position and saves it to hotcue slot X.
-   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved to the hotcue slot instead.
+   If :term:`hotcue` X is not set, this sets a hotcue at the current play position and saves it as hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Hotcue".
+   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved as hotcue X instead and :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` will be set to "Loop".
 
    If hotcue X has been set as a regular cue point, the player seeks to the saved play position.
 
@@ -1292,8 +1292,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_set
                    [SamplerN],hotcue_X_set
 
-   Set a :term:`hotcue` at the current play position and saves it hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Hotcue".
-   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved as hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Loop".
+   Set a :term:`hotcue` at the current play position and saves it as hotcue X of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` "Hotcue".
+   In case a loop is currently enabled (i.e. if `[ChannelN],loop_enabled` is set to 1), the loop will be saved as hotcue X instead and :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` will be set to "Loop".
 
    :range: binary
    :feedback: Hotcue X marker changes on waveform.
