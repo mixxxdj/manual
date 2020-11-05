@@ -23,6 +23,39 @@ This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
 are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Deere only.
 
+.. _interface-skin-settings:
+
+Section Skin Settings
+=========================
+
+  .. figure:: ../_static/2.2/expansion-buttons-top.png
+   :align: center
+   :width: 430px
+   :figwidth: 90%
+   :alt: The section expansion buttons
+   :figclass: pretty-figures
+
+   The GUI section quick toggles buttons in the top tool bar
+
+If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+
+* :ref:`interface-effects`
+* :ref:`interface-sampler`
+* :ref:`interface-mic`
+
+You can also use the specific :ref:`appendix-shortcuts`.
+
+  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+    :align: center
+    :width: 245px
+    :figwidth: 90%
+    :alt: The section expansion buttons
+    :figclass: pretty-figures
+
+    The Skin Settings menu on the right
+
+On top, and on the right side of the user interface are the section expansion buttons and options.
+
 .. _interface-decks:
 
 The Deck Sections
@@ -707,38 +740,139 @@ Channel Faders and Level Meters
   .. hint:: Some DJ's prefer to use the line faders over the crossfader for
             fading between tracks. Try it, you may like it.
 
-.. _interface-expansion-buttons:
+.. _interface-eq-gain:
 
-Section Expansion Buttons
+Equalizers and Gain Knobs
 -------------------------
 
-  .. figure:: ../_static/2.2/expansion-buttons-top.png
+.. figure:: ../_static/2.2/eq-gain-quickeffect-knobs.png
    :align: center
-   :width: 430px
-   :figwidth: 90%
-   :alt: The section expansion buttons
+   :width: 300px
+   :figwidth: 150px
+   :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
 
-   The section expansion buttons on top
+   EQ Controls
 
-  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
-    :align: center
-    :width: 245px
-    :figwidth: 90%
-    :alt: The section expansion buttons
-    :figclass: pretty-figures
+**Gain Knob**
+  The gain knob allows you to adjust the gain applied to the deck.
+  Use this to compensate for the differences in recording levels between tracks.
+  In general, you should adjust this knob so that the track's :term:`level meter`
+  stays around the top of the green region with the loudest parts of the track
+  (the transients) briefly going into the yellow region. **Do NOT turn the
+  Gain Knob up so much that the level meter is in the red region. At this point
+  the track is clipping, which sounds bad and could damage equipment.**
 
-    The section expansion options under the Skin settings on the right.
+  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
+            tracks have approximately equal loudness at unity gain. Your tracks
+            must be :ref:`analyzed <getting-started-analyze-library>` to take
+            advantage of this feature. When an unanalyzed track is
+            loaded, Mixxx calculates its ReplayGain value, but will not apply a
+            newly calculated ReplayGain value to a track after it has
+            already started playing (to avoid a sudden change in the gain of a
+            playing track).
 
-On top, and on the right side of the user interface are the section expansion buttons and options.
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
-If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+**EQ Knobs**
+  The low, mid, and high EQ knobs allow you to change the filters of the audio.
+  This allows you to selectively reduce or boost certain frequency ranges of
+  the audio.
 
-* :ref:`interface-effects`
-* :ref:`interface-sampler`
-* :ref:`interface-mic`
+  .. warning:: Be careful not to raise the EQs so much that the signal clips,
+               indicated by a :term:`level meter` being in the red region. See
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+               for a more detailed explanation.
 
-You can also use the specific :ref:`appendix-shortcuts`.
+**Kill Switches**
+  The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
+  Hold these buttons to fully remove that frequency range. Short click on the
+  buttons for latching. When in Latch mode, click again to restore the frequency
+  range. If the Kill switches do not work as expected, check the high/low shelf
+  EQ settings in the preferences.
+
+  **Quick Effect knob**
+  This knob let's you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
+  Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
+  filter effects only (Filter, Moog Ladder 4 Filter).
+  The button next to the knob toggles the effect. It provides the same latching capabilities
+  like the EQ Kill switches.
+
+.. seealso:: You can customize the EQ settings in
+             :menuselection:`Preferences --> Equalizer`.
+
+.. _interface-pfl:
+
+PFL/Headphone Button
+--------------------
+
+.. figure:: ../_static/2.2/headphone-button.png
+   :align: center
+   :width: 321px
+   :figwidth: 100%
+   :alt: The headphone buttons of both decks in the mixer
+   :figclass: pretty-figures
+
+   The headphone buttons of both decks in the mixer
+
+The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>`
+button and allows you to use headphone cueing. That is, it allows you to hear
+the track you will play next in your headphones before your audience hears it.
+This helps you plan when to start the next track and manipulate it to
+make it blend better with the currently playing track (for example, by
+synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button
+plays the track on the headphone output at full volume regardless of the
+position of the crossfader or the deck’s line fader. To play a track in your
+headphones but not have the audience hear it, press the PFL button and move the
+crossfader all the way to the opposite side of the deck or turn the deck’s
+volume fader all the way down.
+
+.. note:: Headphone cueing is only available if you have configured a
+          Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
+
+.. note:: If you use an external hardware mixer, plug your headphones into that
+          rather than your sound card. Use the headphone buttons on the mixer
+          rather than the buttons in Mixxx.
+
+.. _interface-crossfader:
+
+Crossfader
+----------
+
+.. figure:: ../_static/2.2/crossfader.png
+   :align: center
+   :width: 318px
+   :figwidth: 100%
+   :alt: The crossfader section of the mixer
+   :figclass: pretty-figures
+
+   The crossfader section of the mixer
+
+The :term:`crossfader` determines the actual volume of each deck when moving
+the slider from left to right. If both decks are playing and the crossfader is
+in its default center position, then you will hear both decks. Right-clicking on
+the crossfader will reset the slider to its default position.
+
+To move the crossfader left or right, you can use the :term:`keyboard shortcut <shortcut>` :kbd:`G` and :kbd:`H`.
+To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively.
+
+You can reverse the configuration of the crossfader, so that the right deck is
+on the left end of the crossfader and vice versa. This is also known as
+*Hamster Style*. To adjust the crossfader to your style of mixing, go to
+:menuselection:`Preferences --> Crossfader`.
+
+.. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
+           automate the crossfade between the decks.
+
+.. figure:: ../_static/2.2/master-head-controls.png
+   :align: center
+   :width: 117px
+   :figwidth: 100%
+   :alt: The headphone and master mix knobs
+   :figclass: pretty-figures
+
+   The headphone and master mix knobs
 
 .. _interface-head-master:
 
@@ -826,124 +960,6 @@ Headphone and Master Mix Controls
   to control the volume of your headphones without affecting your main output.
 
  .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
-
-.. _interface-pfl:
-
-PFL/Headphone Button
---------------------
-
-.. figure:: ../_static/2.2/headphone-button.png
-   :align: center
-   :width: 321px
-   :figwidth: 100%
-   :alt: The headphone buttons of both decks in the mixer
-   :figclass: pretty-figures
-
-   The headphone buttons of both decks in the mixer
-
-The headphone button is also known as the :term:`pre-fader listen or PFL <PFL>`
-button and allows you to use headphone cueing. That is, it allows you to hear
-the track you will play next in your headphones before your audience hears it.
-This helps you plan when to start the next track and manipulate it to
-make it blend better with the currently playing track (for example, by
-synchronizing the beats, setting a loop, or using EQs). Pressing the PFL button
-plays the track on the headphone output at full volume regardless of the
-position of the crossfader or the deck’s line fader. To play a track in your
-headphones but not have the audience hear it, press the PFL button and move the
-crossfader all the way to the opposite side of the deck or turn the deck’s
-volume fader all the way down.
-
-.. note:: Headphone cueing is only available if you have configured a
-          Headphone Output in :menuselection:`Preferences --> Sound Hardware`.
-
-.. note:: If you use an external hardware mixer, plug your headphones into that
-          rather than your sound card. Use the headphone buttons on the mixer
-          rather than the buttons in Mixxx.
-
-.. _interface-eq-gain:
-
-Equalizers and Gain Knobs
--------------------------
-
-.. figure:: ../_static/2.2/gain-knob.png
-   :align: center
-   :width: 300px
-   :figwidth: 150px
-   :alt: The EQ Controls of a deck in the mixer
-   :figclass: pretty-figures
-
-   EQ Controls
-
-**Gain Knob**
-  The gain knob allows you to adjust the gain applied to the deck.
-  Use this to compensate for the differences in recording levels between tracks.
-  In general, you should adjust this knob so that the track's :term:`level meter`
-  stays around the top of the green region with the loudest parts of the track
-  (the transients) briefly going into the yellow region. **Do NOT turn the
-  Gain Knob up so much that the level meter is in the red region. At this point
-  the track is clipping, which sounds bad and could damage equipment.**
-
-  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
-            tracks have approximately equal loudness at unity gain. Your tracks
-            must be :ref:`analyzed <getting-started-analyze-library>` to take
-            advantage of this feature. When an unanalyzed track is
-            loaded, Mixxx calculates its ReplayGain value, but will not apply a
-            newly calculated ReplayGain value to a track after it has
-            already started playing (to avoid a sudden change in the gain of a
-            playing track).
-
-  .. seealso:: For an explanation of why you should set your gains this way, see
-               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
-
-**EQ Knobs**
-  The low, mid, and high EQ knobs allow you to change the filters of the audio.
-  This allows you to selectively reduce or boost certain frequency ranges of
-  the audio.
-
-  .. warning:: Be careful not to raise the EQs so much that the signal clips,
-               indicated by a :term:`level meter` being in the red region. See
-               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
-               for a more detailed explanation.
-
-**Kill Switches**
-  The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
-  Hold these buttons to fully remove that frequency range. Short click on the
-  buttons for latching. When in Latch mode, click again to restore the frequency
-  range. If the Kill switches do not work as expected, check the high/low shelf
-  EQ settings in the preferences.
-
-.. seealso:: You can customize the EQ settings in
-             :menuselection:`Preferences --> Equalizer`.
-
-.. _interface-crossfader:
-
-Crossfader
-----------
-
-.. figure:: ../_static/2.2/crossfader.png
-   :align: center
-   :width: 318px
-   :figwidth: 100%
-   :alt: The crossfader section of the mixer
-   :figclass: pretty-figures
-
-   The crossfader section of the mixer
-
-The :term:`crossfader` determines the actual volume of each deck when moving
-the slider from left to right. If both decks are playing and the crossfader is
-in its default center position, then you will hear both decks. Right-clicking on
-the crossfader will reset the slider to its default position.
-
-To move the crossfader left or right, you can use the :term:`keyboard shortcut <shortcut>` :kbd:`G` and :kbd:`H`.
-To apply small crossfade left and small crossfade right, the :term:`shortcuts <shortcut>` are :kbd:`Shift` + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively.
-
-You can reverse the configuration of the crossfader, so that the right deck is
-on the left end of the crossfader and vice versa. This is also known as
-*Hamster Style*. To adjust the crossfader to your style of mixing, go to
-:menuselection:`Preferences --> Crossfader`.
-
-.. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
-           automate the crossfade between the decks.
 
 .. _interface-sampler:
 
