@@ -6,8 +6,8 @@ Quickstart
 If you're new to DJing, this is the section for you. We've got some tutorials
 for you that cover the basics of DJing with Mixxx. If you already you already
 know how to DJ and are just looking for an overview of how to get your groove on
-with Mixxx, you can skip to the `Table of Contents`_.
-   
+with Mixxx, you can skip to the :ref:`main page <index>`.
+
 
 .. note:: Example of a note
 
