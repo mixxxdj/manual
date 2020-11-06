@@ -1,4 +1,4 @@
-#Ignore binary message catalog files (*.mo) compiled from textual translation descriptions (*.po)
+# Ignore binary message catalog files (*.mo) compiled from textual translation descriptions (*.po)
 *.mo
 *.pyc
 

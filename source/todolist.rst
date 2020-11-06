@@ -1,3 +1,5 @@
+:orphan:
+
 .. include:: /shortcuts.rstext
 
 .. _todo-list:
