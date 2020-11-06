@@ -1,3 +1,5 @@
+:orphan:
+
 **For documentation writers**
 
 .. toctree::
