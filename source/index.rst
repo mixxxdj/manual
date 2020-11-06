@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. _index:
+
 Mixxx |version| User Manual
 ***************************
 
@@ -41,7 +43,6 @@ Table of Contents
    chapters/getting_involved
    chapters/appendix
    glossary
-
 
 .. [#f1] Yes, free with a capital F free. Free as in beer and free as in speech.
          For more information about what this means, see
