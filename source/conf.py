@@ -100,10 +100,10 @@ supported_languages = {
 }
 
 smv_tag_whitelist = r"^$"
-smv_branch_whitelist = r"^manual-(\d+)\.(\d+|x)\.(\d+|x)$"
+smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
 smv_remote_whitelist = r"^origin$"
-smv_released_pattern = r"^.*/manual-(?!2\.3\.x)(\d+)\.(\d+|x)\.(\d+|x)$"
-smv_latest_version = r"manual-2.2.x"
+smv_released_pattern = r"^.*/(?!2\.3)(\d+)\.(\d+)$"
+smv_latest_version = r"2.2"
 smv_outputdir_format = "{config.version}/{config.language}"
 
 # Directories in which to search for additional message catalogs (see language),
