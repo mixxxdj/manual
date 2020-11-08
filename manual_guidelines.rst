@@ -1,3 +1,7 @@
+:orphan:
+
+.. include:: /shortcuts.rstext
+
 Guidelines for Mixxx Manual writers
 ***********************************
 

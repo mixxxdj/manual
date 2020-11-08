@@ -5,6 +5,8 @@
 
 .. include:: /shortcuts.rstext
 
+.. _index:
+
 Mixxx |version| User Manual
 ***************************
 
