@@ -216,6 +216,7 @@ You can manually add, relink, and remove Mixxx music directories in
   If an existing music directory is moved or renamed, Mixxx doesn't know where to
   find the audio files in it. The tracks will still show in library but they can't
   be loaded on decks and the tracks will become missing after the library is rescanned.
+
   To relink the music directory, go to :menuselection:`Preferences --> Library`,
   click :guilabel:`Relink` to select the music directory in its new location. This will
   re-establish the links to the audio files in the Mixxx library.
@@ -224,11 +225,12 @@ You can manually add, relink, and remove Mixxx music directories in
   cause them to show up again in the library, check the location column in the library
   and you should see that it now points to the new music directory.
 
-  The playlists, crates, history and cue points are preserved after relinking the library, the tracks are also not
-  re-analyzed as the cached analysis is reused, you can confirm this by checking the
-  :term:`Key <key>` and :term:`BPM <BPM>` columns to see if there is a key and BPM for every track.
+  The playlists, crates, history and all track data like cue points, rating, comments etc.
+  are preserved after relinking the library, the tracks are also not re-analyzed as the cached
+  analysis is reused. You can confirm this by checking the :term:`Key <key>` and :term:`BPM <BPM>`
+  columns to see if there is a key and BPM for every track.
 
-.. note:: It is recommended to take a backup of your Mixxx configuration files when moving or renaming your Mixxx directory.
+.. note:: It is recommended to take a backup of your Mixxx configuration files before moving or renaming music directories used in Mixxx.
           The location of Mixxx configuration files vary based on the :term:`operating system`:
 
           * Windows: :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\`
