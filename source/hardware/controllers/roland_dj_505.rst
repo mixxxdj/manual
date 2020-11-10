@@ -114,36 +114,37 @@ Deck Section (p. 5-6)
 
    Roland DJ-505 (deck section)
 
-========  ===============================================================  ==========================================
-No.       Control                                                          Function
-========  ===============================================================  ==========================================
-1         Jog Wheel (top surface)                                          Perform scratch operation.
-1         Jog Wheel (outer edge)                                           Rotate to lower/raise playback speed and pitch if key lock is off).
-1         :hwlabel:`SHIFT` + Jog Wheel (top surface)                       Search fast through the track location.
-2         :hwlabel:`SLIP` button                                           Hold to turn on slip mode temporarily or double press to turn it on permanently.
-2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                        Toggle vinyl control mode.
-3         :hwlabel:`SHIFT` button                                          Hold down to access other functions.
-4         :hwlabel:`SYNC` button                                           Match tempo and phase of other deck. Long press to set Deck as Sync Leader.
-4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                        Disables Sync mode.
-5         :hwlabel:`CUE` button                                            Specifies, plays or recalls temporary cue point.
-5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                         Returns to the beginning of the song.
-6         :hwlabel:`PLAY/PAUSE` button                                     Plays or pause the song.
-6         :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button                  Hold to play backwards.
-7         Pad Mode Select                                                  See :ref:`Performance Pads <roland-dj-505-performancepads>`.
-8         Performance Pads                                                 See :ref:`Performance Pads <roland-dj-505-performancepads>`.
-9         :hwlabel:`PARAMETER` area                                        See :ref:`Performance Pads <roland-dj-505-performancepads>`.
-10        :hwlabel:`LOOP` area: :hwlabel:`AUTO  LOOP` button               Turns auto loop on/off.
-10        :hwlabel:`LOOP` area: :hwlabel:`1/2X`/:hwlabel:`2X` buttons      Set the loop playback length to half/double.
-10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`1/2X` button  Move the loop by it’s length toward the left.
-10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`2X` button    Move the loop by it’s length toward theright.
-10        :hwlabel:`LOOP` area: :hwlabel:`IN`/:hwlabel:`OUT` button        Specify loop-in/loop-out points.
-10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`IN` button    Toggle beats quantization.
-10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`OUT` button   Cancels loop playback, go to loop-in point and resume playback.
-11        :hwlabel:`DECK 3`/:hwlabel:`DECK  4` buttons                     Switches the deck (left: decks 1 and 3, right: decks 2 and 4)
-12        :hwlabel:`KEY LOCK`                                              Toggle key lock.
-12        :hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`                           Cycles through tempo slider range (8%, 16%, 50%).
-13        Tempo slider                                                     Adjust song playback speed (and pitch if key lock if off).
-========  ===============================================================  ==========================================
+========  =====================================================================  ==========================================
+No.       Control                                                                Function
+========  =====================================================================  ==========================================
+1         Jog Wheel (top surface)                                                Perform scratch operation.
+1         Jog Wheel (outer edge)                                                 Rotate to lower/raise playback speed and pitch if key lock is off).
+1         :hwlabel:`SHIFT` + Jog Wheel (top surface)                             Search fast through the track location.
+2         :hwlabel:`SLIP` button                                                 Hold to turn on slip mode temporarily or double press to turn it on permanently.
+2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                              Toggle vinyl control mode.
+3         :hwlabel:`SHIFT` button                                                Hold down to access other functions.
+4         :hwlabel:`SYNC` button                                                 Match tempo and phase of other deck. Long press to set Deck as Sync Leader.
+4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Disables Sync mode.
+5         :hwlabel:`CUE` button                                                  Specifies, plays or recalls temporary cue point.
+5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                               Returns to the beginning of the song.
+6         :hwlabel:`PLAY/PAUSE` button                                           Plays or pause the song.
+6         :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button                        Hold to play backwards.
+7         Pad Mode Select                                                        See :ref:`Performance Pads <roland-dj-505-performancepads>`.
+8         Performance Pads                                                       See :ref:`Performance Pads <roland-dj-505-performancepads>`.
+9         :hwlabel:`PARAMETER` area                                              See :ref:`Performance Pads <roland-dj-505-performancepads>`.
+10        :hwlabel:`LOOP` area: :hwlabel:`AUTO  LOOP` button                     Set a beatloop at the current play position.
+10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`AUTO  LOOP` button  Toggle looping.
+10        :hwlabel:`LOOP` area: :hwlabel:`1/2X`/:hwlabel:`2X` buttons            Set the loop playback length to half/double.
+10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`1/2X` button        Move the loop by it’s length toward the left.
+10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`2X` button          Move the loop by it’s length toward theright.
+10        :hwlabel:`LOOP` area: :hwlabel:`IN`/:hwlabel:`OUT` button              Specify loop-in/loop-out points.
+10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`IN` button          Toggle beats quantization.
+10        :hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`OUT` button         Toggle looping, go to loop-in point and resume playback.
+11        :hwlabel:`DECK 3`/:hwlabel:`DECK  4` buttons                           Switches the deck (left: decks 1 and 3, right: decks 2 and 4)
+12        :hwlabel:`KEY LOCK`                                                    Toggle key lock.
+12        :hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`                                 Cycles through tempo slider range (8%, 16%, 50%).
+13        Tempo slider                                                           Adjust song playback speed (and pitch if key lock if off).
+========  =====================================================================  ==========================================
 
 
 Mixer Section (p. 7)
@@ -315,7 +316,7 @@ No.       Control                                                          Funct
 1-8       Pad (lit)                                                        Set a beatloop at the position of the hotcue and jump to it.
 1-8       Pad (unlit)                                                      Save the current position as hot cue and set a beatloop.
 9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
-9         :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
+10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
 9-10      :hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons              *Currently not mapped*.
 ========  ===============================================================  ==========================================
 
@@ -374,7 +375,7 @@ No.       Control                                                          Funct
 7         Pad (press)                                                      Increase beatjump size.
 8         Pad (press)                                                      Beatjump right.
 9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
-9         :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
+10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
 9-10      :hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons              *Currently not mapped*.
 ========  ===============================================================  ==========================================
 

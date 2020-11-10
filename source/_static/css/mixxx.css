@@ -157,6 +157,8 @@ a:hover {
 }
 .rst-content .guilabel {
     background: #faf2e7;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .btn-link:visited {
@@ -174,4 +176,11 @@ a:hover {
     padding: 2.4px 6px;
     margin: auto 2px;
     text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+/* Allow wrapping in tables */
+.wy-table-responsive table td {
+    white-space: normal;
 }
