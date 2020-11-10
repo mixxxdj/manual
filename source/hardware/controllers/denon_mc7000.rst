@@ -16,7 +16,7 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 .. versionchanged:: 2.3.0
 
 -  Bugfix: fix Vinylmode for Deck 4
-
+-  Feature: add mapping to sort library for BPM, Key, Artist and Title
 -  Feature: add Softtakeover for Pitch Faders
 -  Feature: add to eject track from Deck with Library Select knob
 -  Feature: add to search through track using Jog Wheel
