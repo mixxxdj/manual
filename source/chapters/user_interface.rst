@@ -466,7 +466,9 @@ on the Mixxx deck is controlled by the external vinyl control.
 **Pass button**
 
 This button enables passthrough. When enabled, audio from an external vinyl
-can be played on the Mixxx deck.
+can be played on the Mixxx deck. To be able to enable this button, you have
+to select an input device for the passthrough control in
+:menuselection:`Preferences --> Sound Hardware`.
 
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
