@@ -458,6 +458,16 @@ control relative mode:
   to that cue point.
 * **Hot**: The track will seek to the nearest previous :term:`hotcue` point.
 
+**Vinyl button**
+
+This button enables :term:`vinyl control`. When enabled in Mixxx, the track
+on the Mixxx deck is controlled by the external vinyl control.
+
+**Pass button**
+
+This button enables passthrough. When enabled, audio from an external vinyl
+can be played on the Mixxx deck.
+
 .. seealso :: For more information on how to use Vinyl control in your setup, go
               to the chapter :ref:`vinyl-control`.
 
