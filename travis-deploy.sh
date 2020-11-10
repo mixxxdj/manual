@@ -6,7 +6,7 @@ set -eu -o pipefail
 
 USER=mixxx
 HOSTNAME=downloads-hostgator.mixxx.org
-TRAVIS_DESTDIR=public_html/downloads/builds/manual
+TRAVIS_DESTDIR=public_html/downloads/manual
 SSH_KEY=certificates/downloads-hostgator.mixxx.org.key
 SSH="ssh -i ${SSH_KEY} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 DEST_PATH=${TRAVIS_DESTDIR}/${TRAVIS_BRANCH}
