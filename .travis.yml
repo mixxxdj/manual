@@ -18,22 +18,6 @@ env:
 
 jobs:
   include:
-    - name: HTML
-      script:
-      - git clone https://github.com/mixxxdj/manual.git manual
-      - cd manual
-      - git checkout main
-      - sh ../build_html.sh
-      before_deploy:
-      - npm install -g netlify-cli
-      - export PATH="$(npm prefix -g)/bin:$PATH"
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script: netlify deploy --prod --dir build/html
-        on:
-          all_branches: true
-
     - name: PDF
       script:
       - sh build_pdf.sh
