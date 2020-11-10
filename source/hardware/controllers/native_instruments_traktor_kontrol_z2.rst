@@ -6,8 +6,8 @@ Native Instruments Traktor Kontrol Z2
 
 
 The Native Instruments Traktor Kontrol Z2 is a 2+2 channel USB :term:`HID` mixer/controller with an integrated audio interface.
-It has two full channels and two further channels with limited controls. 
-The Traktor Z2 is intended for a DVS systems and is provided with Traktor Scratch MK2 :term:`timecode` Vinyls and CDs. 
+It has two full channels and two further channels with limited controls.
+The Traktor Z2 is intended for a DVS systems and is provided with Traktor Scratch MK2 :term:`timecode` Vinyls and CDs.
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-mixer/traktor-kontrol-z2/>`__
 -  `Virtual DJ Hardware Page <https://www.virtualdj.com/manuals/hardware/ni/z2.html>`__
@@ -24,9 +24,9 @@ Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the 
 
 .. warning::
    If you have a parallel installation of Traktor on Windows, there will be a :file:`NIHardwareService.exe` process that takes control of the Traktor Kontrol Z2's LEDs.
-   To make the them work reliable with Mixxx, you either need to uninstall the Traktor software or stop the process by opening the task manager and killing the :file:`NIHardwareService.exe` process. 
+   To make the them work reliable with Mixxx, you either need to uninstall the Traktor software or stop the process by opening the task manager and killing the :file:`NIHardwareService.exe` process.
 
-Audio Setup
+   Audio Setup
 -----------
 
 The mapping relies on the following channel assignments:
