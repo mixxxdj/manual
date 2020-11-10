@@ -90,3 +90,4 @@ Known Issues
 ------------
 
 - The two Traktor buttons on top are overruling the software. This can result in a state, where one channel of the hardware mixer is in external mixing mode, but Mixxx is expecting internal mixing mode.
+
