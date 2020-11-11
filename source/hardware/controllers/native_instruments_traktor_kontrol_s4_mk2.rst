@@ -30,15 +30,16 @@ the HID device on the left side of Mixxx’s Preferences.
 Timecode vinyl
 ~~~~~~~~~~~~~~
 
-The phono inputs on the S4 can be used with turntables for timecode vinyl control of Mixxx. Unlike Traktor, there is no additional software to install to use timecode with the S4; the free version of
-Mixxx is the full version. However, note that Mixxx is not compatible with Traktor Scratch Mk2 timecode; refer to the `Mixxx
-manual <http://mixxx.org/manual/latest/chapters/vinyl_control.html#supported-timecode-media>`__ for a list of supported types of timecode.
+The phono inputs on the S4 can be used with turntables for timecode vinyl control of Mixxx.
+
+.. seealso::
+   Read the :ref:`Vinyl Control section <vinyl-control>` for details.
 
 Mapping Description
 -------------------
 
-Note that Mixxx doesn’t have the concept of a single “master” deck for sync. Instead, push and hold the sync button to “lock” sync on for all decks you want to remain in sync. Or you can push Shift +
-Sync to lock sync on. Refer to `the Mixxx manual <http://www.mixxx.org/manual/2.0/chapters/djing_with_mixxx.html#master-sync>`__ for details.
+Note that Mixxx doesn’t have the concept of a single “master” deck for sync. Instead, push and hold the sync button to “lock” sync on for all decks you want to remain in sync.
+Push Shift + Sync to enable :ref:`Sync Lock <master-sync>` for details.
 
 Mixxx does not have remix decks, so the four remix slot buttons control the samplers. There are some more bonus actions that can be accessed by holding shift and pressing certain buttons.
 

@@ -22,22 +22,12 @@ Mapping description
 Much of the Compact’s behavior is hard-coded into its firmware,
 including shift button messages and button mode selections.
 
-The play/pause buttons, EQ knobs, volume knobs, and crossfader all
-behave as labeled. If you would like to change the mapping of the EQ
-knobs (for example to change the volume knob to control the high EQ and
-use the crossfader for volume), use the `MIDI Mapping
-Wizard <http://mixxx.org/manual/latest/chapters/advanced_topics.html#controller-wizard>`__
-or edit the XML file.
-
 Shift + Play jumps to the beginning of the track and stops playback.
 
-The cue button behaves differently depending on the `cue mode set in
-Mixxx’s
-Preferences <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-cue-modes>`__.
+The cue button behaves differently depending on the :ref:`cue mode set in Mixxx’s Preferences <interface-cue-modes>`.
 
-The sync button synchronizes the tempo to the other deck. Press and hold
-sync to engage `Master
-Sync <http://mixxx.org/manual/latest/chapters/djing_with_mixxx.html#master-sync>`__.
+The sync button synchronizes the tempo to the other deck.
+Press and hold sync to engage :ref:`Sync Lock <master-sync>`.
 
 There is only one each of the Mode, Shift, and Scratch buttons, so they
 affect both decks.

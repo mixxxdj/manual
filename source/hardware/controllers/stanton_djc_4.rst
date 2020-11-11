@@ -10,9 +10,8 @@ Stanton DJC.4
 Compatibility
 -------------
 
-This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, if you wish to use the `ASIO sound
-API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__ under Windows, please install the latest driver package available from the `Product
-page <http://www.stantondj.com/stanton-controllers-systems/djc4.html//>`__.
+This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows.
+However, if you wish to use the :ref:`ASIO sound API <preferences-sound-api>` under Windows, please install the latest driver package available from the `Product page <http://www.stantondj.com/stanton-controllers-systems/djc4.html//>`__.
 
 Sound card setup
 ----------------
@@ -42,21 +41,20 @@ Input 1 routing
 On the rear side is a small switch to select if Input 1 is routed to the PC or directly to the master output (through). It is therefore possible to include the microphone into a recording/stream or to
 exclude it.
 
-Please refer to `the user manual <https://mixxx.org/manual/latest/en/chapters/example_setups.html#laptop-and-external-usb-audio-interface>`__ for more details about the audio configuration in Mixxx.
+
+.. seealso::
+   The :ref:`example setups section <setup-laptop-and-external-card>` provides more details about the audio configuration in Mixxx.
 
 Hardware controls
 ^^^^^^^^^^^^^^^^^
 
 The **Master** and **Mic Level** are hardware controls and interact directly with the integrated sound card and are not mapped to Mixxx.
 
-Please refer to `the user manual <https://mixxx.org/manual/latest/en/chapters/djing_with_mixxx.html#djing-gain-staging>`__ in order to learn how to set your levels properly when using Mixxx.
+.. seealso::
+   The :ref:`gain staging documentation <djing-gain-staging>` explains how to set your levels properly when using Mixxx.
 
 Mapping description
 -------------------
-
-The mapping is included in Mixxx 2.2.4 and newer.
-
-Load the preset as described in `the user manual <https://mixxx.org/manual/latest/en/chapters/controlling_mixxx.html#using-midi-hid-controllers>`__
 
 Controls not included in this mapping
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

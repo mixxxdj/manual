@@ -1,3 +1,5 @@
+.. _stanton-scs-3m:
+
 Stanton SCS.3m “DaMix”
 ======================
 

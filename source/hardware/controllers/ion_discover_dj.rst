@@ -55,4 +55,4 @@ CUE        Attached to the cue control in mixxx                               fo
 play/pause Play/pause the deck                                                follows play button on screen
 ========== ================================================================== ================================
 
-The behavior of the cue and play buttons can be configured `in Mixxx’s preferences <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-cue-modes>`__.
+The behavior of the cue and play buttons can be configured `in Mixxx’s preferences <interface-cue-modes>`.

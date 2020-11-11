@@ -132,7 +132,7 @@ the fader on the controller. This can be reversed in Mixxx’s preferences under
 | **Long Press:** Enable master sync. Press again to disable.
 | **Shift + Sync:** Toggle quantize mode.
 
-| 30. **Cue (Transport Control):** Behavior depends on the `cue mode <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-cue-modes>`__ set in the Mixxx preferences.
+| 30. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
 | **Shift + Cue:** return the play head to the start of the track and stop the deck.
 
 | 31. **Play/Pause:** Starts and stops playback.

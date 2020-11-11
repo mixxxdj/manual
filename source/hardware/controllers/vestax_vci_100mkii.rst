@@ -123,7 +123,7 @@ Mapping for Mixxx 2.0
     3. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
        size: LED28 & 29
     4. see `the article <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6038&start=20#p25804>`__
-       or use `Controller Wizard <http://www.mixxx.org/manual/2.0/chapters/advanced_topics.html>`__
+       or use :ref:`Controller Wizard <advanced-controller-wizard>`
        (choose “Quick Effect Super Knob”) for low-high pass
     5. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
        size: LED28 & 29
