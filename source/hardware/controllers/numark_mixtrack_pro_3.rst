@@ -67,7 +67,7 @@ the values below at the very top of the JavaScript file
 Mapping Description
 -------------------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_pro_3.gif
+.. figure:: ../../_static/controllers/numark_mixtrack_pro_3.svg
    :align: center
    :width: 100%
    :figwidth: 100%
