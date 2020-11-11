@@ -6,9 +6,8 @@ Hercules DJControl Compact
 
 The Hercules DJControl Compact is a simple controller for basic
 two-channel mixing. This device does not have a built in sound card, so
-it would require a `splitter
-cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound
-card <hardware%20compatibility#usb%20sound%20cards>`__ to be able to
+it would require a :ref:`splitter cable <hardware-splitter-cables>` or
+:ref:`separate audio interface <hardware-audio-interfaces>` to be able to
 preview tracks in headphones. It also does not have buttons for routing
 decks to headphones.
 
@@ -28,7 +27,7 @@ behave as labeled. If you would like to change the mapping of the EQ
 knobs (for example to change the volume knob to control the high EQ and
 use the crossfader for volume), use the `MIDI Mapping
 Wizard <http://mixxx.org/manual/latest/chapters/advanced_topics.html#controller-wizard>`__
-or `edit the XML file <MIDI%20controller%20mapping%20file%20format>`__.
+or edit the XML file.
 
 Shift + Play jumps to the beginning of the track and stops playback.
 

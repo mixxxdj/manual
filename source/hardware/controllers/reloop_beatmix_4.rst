@@ -52,10 +52,12 @@ Mixer Section
 8.  **BACK** push back button to switch Trax action between playlists (sidebar),
     tracks and Preview Deck. See `below <#Trax-selector-and-Back-button>`__ for
     more explanation.
-9.  **SAMPLER VOLUME** Controls the volume of all samplers. *Tip*: you can
-    replace the fader cap of this fader with a `custom colored fader
-    cap <custom%20caps>`__ to make it visually stand out from the channel volume
-    faders.
+9.  **SAMPLER VOLUME** Controls the volume of all samplers.
+
+    .. hint::
+       You can replace the fader cap of this fader with a custom colored fader
+       cap to make it visually stand out from the channel volume faders.
+
 10. **LINE FADERS** Controls your channel volume.
 11. **CROSSFADER** Enables you to fade between your decks.
 12. **GAIN** Adjust the gain for each deck.
