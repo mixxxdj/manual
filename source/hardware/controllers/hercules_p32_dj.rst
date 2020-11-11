@@ -39,8 +39,7 @@ Mapping description
 User configurable options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a few user configurable options available for you to customize. You can change these by opening the Hercules-P32-scripts.js file in your `controller mapping file locations#user controller
-mapping folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__ with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
+There are a few user configurable options available for you to customize. You can change these by opening the :file:`Hercules-P32-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
 the very top of the file.
 
 -  **loopEnabledDot**: whether to use the dot on the loop size LED display to indicate that a loop is active. This restricts loop sizes to 2-32 beats and may be helpful if you never use loops less

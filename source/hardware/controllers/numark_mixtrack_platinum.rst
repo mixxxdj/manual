@@ -20,7 +20,7 @@ is not suitable for broadcasting or recording the inputs. If you want to use the
 Configuration Options
 ---------------------
 
-Configuration options can be set in the mapping. You will need to edit the values below at the very top of the JavaScript file ``Numark-Mixtrack-Platinum-scripts.js`` and save changes. Allowed values
+Configuration options can be set in the mapping. You will need to edit the values below at the very top of the JavaScript file :file:`Numark-Mixtrack-Platinum-scripts.js` and save changes. Allowed values
 are “true” or “false” unless specified.
 
 -  **EnableWheel:** if true, wheel/vinyl mode will be enabled by default (defaults to true)
