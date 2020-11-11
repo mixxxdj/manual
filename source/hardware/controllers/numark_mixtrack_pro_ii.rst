@@ -1,8 +1,8 @@
 Numark Mixtrack Pro II
 ======================
 
-The Numark Mixtrack Pro II is the successor of `Numark Mixtrack
-Pro <numark_mixtrack_pro>`__ and features the same hardware with some
+The Numark Mixtrack Pro II is the successor of :ref:`Numark Mixtrack
+Pro <numark-mixtrack-pro>` and features the same hardware with some
 minor design changes.
 
 -  `Manufacturer’s product

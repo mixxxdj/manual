@@ -21,7 +21,7 @@ Compatibility
 -------------
 
 This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, it recommended to install `the
-driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the `ASIO sound API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__.
+driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
 
 Sound card setup
 ----------------
@@ -29,9 +29,9 @@ Sound card setup
 This device has a built in 4 channel output sound card. There are 2 RCA outputs for the main output and a 1/4" TRS stereo headphone jack. There are buttons in the center of the controller that adjust
 the sound card’s headphone output volume in hardware. These do not adjust the headphone gain in Mixxx.
 
-There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%. So, for
-the best `gain staging <http://mixxx.org/manual/latest/chapters/djing_with_mixxx.html#setting-your-levels-properly-gain-staging>`__, **turn the volume of the main output all the way up in
-your**\ `operating system mixer <operating%20system%20mixer>`__\ **program**.
+.. warning::
+   There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%.
+   So, for the best :ref:`gain staging <djing-gain-staging>`, turn the volume of the main output all the way up in your  operating system mixer.
 
 Mapping description
 -------------------
