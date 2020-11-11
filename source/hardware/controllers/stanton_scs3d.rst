@@ -231,7 +231,7 @@ light when a cue point is set on that button. (Changeable with the
 Vinyl Modes
 -----------
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
@@ -442,7 +442,7 @@ held.
 LOOP mode
 ~~~~~~~~~
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
@@ -479,7 +479,7 @@ three, for cue points 11 to 15 (purple light).
 VINYL mode
 ~~~~~~~~~~
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
