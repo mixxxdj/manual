@@ -3749,7 +3749,7 @@ Controls
                    [QuickEffectRack1_[ChannelI]_Effect1],parameterK
 
    The scaled value of the Kth parameter.
-   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#parameter-values>`__ section for more information.
+   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#user-content-parameter-values>`__ section for more information.
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
