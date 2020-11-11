@@ -496,7 +496,7 @@ As soon as loop slice mode is deactivated (by pressing [**SLICER**] mode button 
 Effect Functions
 ----------------
 
-This controller mapping uses the `standard Mixxx mapping for effects sections on controllers <standard_effects_mapping>`__.
+This controller mapping uses the `standard Mixxx mapping for effects sections on controllers <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
 
 +-------------+----------------+--------------+------------------+---------------------------------------------------------------------------------------------------------------------------------+
 | Group       | Figure         | [**SHIFT**]? | Button Name      | Description                                                                                                                     |

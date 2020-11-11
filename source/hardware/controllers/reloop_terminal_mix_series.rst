@@ -87,10 +87,10 @@ controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
 FX Controls
 ~~~~~~~~~~~
 
-| This mapping uses the `Standard Effects
-  Mapping <Standard%20Effects%20Mapping>`__ via components-js to control the FX
-  units.
-| Note: these knobs & buttons don’t switch to decks 3 and 4.
+This mapping uses the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ to control the FX units.
+
+.. note::
+   These knobs and buttons don’t switch to decks 3 and 4.
 
 -  **FX1/2/3** knobs
 -  control the Meta knob of each effect
