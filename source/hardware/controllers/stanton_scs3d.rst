@@ -17,7 +17,7 @@ Default Mapping
    :alt: Stanton SCS.3d (layout)
    :figclass: pretty-figures
 
-   Stanton SCS.3d (layout)
+   Stanton SCS.3d (layout). *Images courtesy of Stanton Magnetics, Inc.*
 
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
@@ -538,5 +538,3 @@ The controller keeps its mode per deck. So when changing deck, the mode will
 switch to the mode previously used on that deck.
 
 Note that the active deck is synced with the :ref:`Stanton SCS.3m <stanton-scs-3m>`, so when switching between decks 1 and 3, or 2 and 4 the other device changes as well.
-
-*Images courtesy of Stanton Magnetics, Inc.*
