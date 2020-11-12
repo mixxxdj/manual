@@ -25,7 +25,7 @@ Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the 
 .. warning::
    **Parallel installation of Traktor software on Windows**
    If you have a parallel installation of Traktor on Windows, there will be a :file:`NIHardwareService.exe` process that takes control of the Traktor Kontrol Z2's LEDs.
-   To make the them work reliable with Mixxx, you either need to uninstall the Traktor software, or stop the process by opening the task manager, selecting :guilabel:`Show processes from all users` and kill the :file:`NIHardwareService.exe` process. 
+   To make the them work reliable with Mixxx, you either need to uninstall the Traktor software, or stop the process by opening the task manager, selecting :guilabel:`Show processes from all users` and kill the :file:`NIHardwareService.exe` process.
 
    Audio Setup
 -----------
