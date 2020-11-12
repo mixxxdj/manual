@@ -166,18 +166,18 @@ Tweakables
 
 At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few customizable options to change the default mapping.
 
-================= ========================================================================================== =======
-Variable          Function                                                                                   Default
-================= ========================================================================================== =======
-autoShowFourDecks If a track gets loaded into deck 3 or 4, should automatically four decks be shown in Mixxx false
-showMasterVu      If set to false, show channel VU meter instead of Master L/R                               true
-dryWetAdjustValue Amount the dryWetKnob changes the value for each increment                                 0.05
-================= ========================================================================================== =======
+=====================  ==========================================================================================  =========
+Variable               Function                                                                                    Default
+=====================  ==========================================================================================  =========
+``autoShowFourDecks``  If a track gets loaded into deck 3 or 4, automatically show four decks in Mixxx             ``false``
+``showMasterVu``       If set to false, show channel VU meter instead of Master L/R                                ``true``
+``dryWetAdjustValue``  Amount the dryWetKnob changes the value for each increment                                  0.05
+=====================  ==========================================================================================  =========
 
 Known Issues
 ^^^^^^^^^^^^
 
-The following controls not mapped in this mapping:
+The following controls are currently not mapped:
 
 -  Loop Delete button (no matching function in Mixxx)
 -  X-Fader Link button
