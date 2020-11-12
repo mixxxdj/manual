@@ -9,8 +9,8 @@ Mixxx |version| User Manual
 ***************************
 
 Mixxx is a `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for
-Windows, macOS and Linux. Even if you've never had experience being a DJ before, 
-it's very easy to use. Mixxx offers a variety of features and to help beginners 
+Windows, macOS, and Linux. Even if you've never had experience being a DJ before, 
+it's very easy to use. Mixxx offers a variety of features to help beginners 
 get started and experienced DJs become more creative:
 
   * beat, tempo, and musical key detection
