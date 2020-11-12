@@ -1093,7 +1093,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    If hotcue X has been set as a regular cue point, the player seeks to the saved play position.
 
    If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is "Loop", looping will be enabled and the loop controls (e.g. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, `:mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` and beatloop_size <[ChannelN],beatloop_size>`) will be set accordingly.
-   Just like :mixxx:coref:`reloop_toogle <[ChannelN],reloop_toogle>`, the player seeks back to the loop start when the current play position is behind the loop, and enabled without a seek when it is in front of or inside the loop.
+   Just like :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>`, the player seeks back to the loop start when the current play position is behind the loop, and enabled without a seek when it is in front of or inside the loop.
    This allows a loop catching behavior on one hand and a jump back when the loop has been exit by just triggering this control.
 
    Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
