@@ -440,6 +440,9 @@ Mixxx and is **hidden** in the default
 :ref:`Mixxx user interface <interface-overview>`. Click the gear icon in the upper right corner, then toggle :menuselection:`Skin Settings --> Vinyl Control Options`, or use the specific :ref:`appendix-shortcuts` to show or hide the
 section.
 
+.. seealso :: For more information on how to use Vinyl control in your setup, go
+              to the chapter :ref:`vinyl-control`.
+
 **Vinyl button**
 
 This button enables :term:`vinyl control`. When enabled in Mixxx, the track
@@ -448,9 +451,7 @@ on the Mixxx deck is controlled by the external vinyl control.
 **Pass button**
 
 This button enables passthrough. When enabled, audio from an external vinyl
-can be played on the Mixxx deck. To be able to enable this button, you have
-to select an input device for the passthrough control in
-:menuselection:`Preferences --> Sound Hardware`.
+can be played on the Mixxx deck.
 
 **Abs/Rel/Const button**
 
@@ -469,9 +470,6 @@ control relative mode:
 * **Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
 * **Hot**: The track will seek to the nearest previous :term:`hotcue` point.
-
-.. seealso :: For more information on how to use Vinyl control in your setup, go
-              to the chapter :ref:`vinyl-control`.
 
 .. _interface-rate:
 
