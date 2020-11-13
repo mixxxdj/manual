@@ -17,7 +17,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
-  `<https://mixxx.org/wiki/>`_
+  `<https://github.com/mixxxdj/mixxx/wiki>`_
 
 * **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts.
   Please note that these shortcuts are for keyboards configured in English
