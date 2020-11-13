@@ -40,6 +40,7 @@ jobs:
       addons:
         apt:
           packages:
+            - librsvg2-bin
             - fonts-freefont-otf
             - texlive
             - texlive-generic-recommended

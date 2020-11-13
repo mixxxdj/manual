@@ -32,7 +32,7 @@ import sphinx_rtd_theme
 extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.graphviz",
-    "sphinx.ext.imgconverter",
+    "sphinxcontrib.rsvgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",

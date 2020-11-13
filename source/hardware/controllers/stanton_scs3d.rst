@@ -1,3 +1,5 @@
+.. _stanton-scs-3d:
+
 Stanton SCS.3d “DaScratch”
 ==========================
 
@@ -15,7 +17,7 @@ Default Mapping
    :alt: Stanton SCS.3d (layout)
    :figclass: pretty-figures
 
-   Stanton SCS.3d (layout)
+   Stanton SCS.3d (layout). *Images courtesy of Stanton Magnetics, Inc.*
 
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
@@ -103,8 +105,7 @@ Common to all modes:
 -  Pitch slider (S2) finely adjusts pitch control
 -  B11 resets pre-fader gain to center
 -  B12 resets pitch to center 0%
--  SYNC toggles the
-   `Quantize <http://mixxx.org/manual/2.0/glossary.html#term-quantization>`__
+-  SYNC toggles the :term:`Quantize <quantization>`
    function (where Cue and Loop points snap to the nearest beat and triggering
    them happens in time with the beat.)
 
@@ -231,7 +232,7 @@ light when a cue point is set on that button. (Changeable with the
 Vinyl Modes
 -----------
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
@@ -442,7 +443,7 @@ held.
 LOOP mode
 ~~~~~~~~~
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
@@ -479,7 +480,7 @@ three, for cue points 11 to 15 (purple light).
 VINYL mode
 ~~~~~~~~~~
 
-.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.gif
+.. figure:: ../../_static/controllers/stanton_scs3d_circlemode.jpg
    :align: center
    :figwidth: 100%
    :alt: Stanton SCS.3d (circle mode)
@@ -536,8 +537,4 @@ all modes except FX.
 The controller keeps its mode per deck. So when changing deck, the mode will
 switch to the mode previously used on that deck.
 
-Note that the active deck is synced with the `Stanton
-SCS.3m <Stanton%20SCS.3m>`__, so when switching between decks 1 and 3, or 2 and
-4 the other device changes as well.
-
-*Images courtesy of Stanton Magnetics, Inc.*
+Note that the active deck is synced with the :ref:`Stanton SCS.3m <stanton-scs-3m>`, so when switching between decks 1 and 3, or 2 and 4 the other device changes as well.
