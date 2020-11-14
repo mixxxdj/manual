@@ -312,8 +312,8 @@ Tracks can be loaded into a deck in several ways:
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
-  table. Use keyboard :kbd:`Up` and :kbd:`Down` arrow button to select a track, :kbd:`Shift` + :kbd:`Left`
-  to load into Deck 1 and :kbd:`Shift` + :kbd:`Right` to load into Deck 2.
+  table. Use keyboard :kbd:`↑` and :kbd:`↓` arrow button to select a track, :kbd:`Shift` + :kbd:`←`
+  to load into Deck 1 and :kbd:`Shift` + :kbd:`→` to load into Deck 2.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
@@ -347,7 +347,7 @@ a crate, or even the whole library) for tracks that match your search query.
 * To clear the search string hit :kbd:`ESC` or click the clear button right next
   to the input field.
 * Hit :kbd:`TAB` to cycle between the search and the list of results in the
-  library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
+  library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
   list of results.
 
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
@@ -589,7 +589,7 @@ The Auto DJ features in detail:
 * **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
 * **Selection Info label**: Displays the duration and number of selected tracks.
-  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.
+  Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
