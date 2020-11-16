@@ -114,9 +114,9 @@ Without loading the correct preset, your controller does not work with Mixxx.
 #. Go to :menuselection:`Preferences --> Controllers`
 #. Select your device from the list of available devices on the left, and the
    right pane will change
-#. Activate the :guilabel:`Enabled` checkbox
 #. Select the mapping for your controller from the :guilabel:`Load Preset`
    drop-down menu
+#. Activate the :guilabel:`Enabled` checkbox
 #. Click :guilabel:`Apply` and Mixxx can now be controlled by your controller(s).
 #. Repeat step 4-7 for any of the controllers you want to use
 
