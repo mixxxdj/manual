@@ -47,6 +47,10 @@ sync on. Refer to `the Mixxx
 manual <../../chapters/djing_with_mixxx.html#master-sync>`__
 for details.
 
+.. hint:: There are two :hwlabel:`SHIFT` buttons, one for each side of the
+          controller. Make sure you press the :hwlabel:`SHIFT` button on the
+          same side as the control you want to modify.
+
 Mixer
 ~~~~~
 
