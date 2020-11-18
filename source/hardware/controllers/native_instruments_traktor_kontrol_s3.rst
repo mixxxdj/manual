@@ -23,7 +23,7 @@ Compatibility
 Controller
 ~~~~~~~~~~
 
-The Kontrol S3 is a USB class compliant audio and HID device,
+The Kontrol S3 is a USB class compliant audio and :term:`HID` device,
 so it is compatible with Mixxx without any proprietary drivers on
 GNU/Linux and Mac OS X. On Windows, it is recommended to install the
 `driver from Native
@@ -146,10 +146,7 @@ There are two user-friendly customizations possible on the S3:
   1. Toggle between Absolute and Relative pitch slider mode.
   2. Customize the colors for decks A, B, C, and D.
 
-Making these changes is still a little awkward and we will be making
-controller preferences easier to change in the future. For now you'll
-have to make a small change to the mapping script file. Don't worry, the
-actual edit only involves replacing a single word in a text file.
+To make these changes, you need to edit to the mapping script file.
 
 1.  Open Mixxx Preferences and select the Kontrol S3 in the side list.
 2.  There will be a box labeled Preset Info, and that box will have a section
