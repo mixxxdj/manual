@@ -14,6 +14,9 @@ The Kontrol S3 can run from USB bus power. Using the separate power
 supply increases the brightness of the LEDs, which is helpful for using
 it in daylight, and increases the volume of the headphone output.
 
+  - `Manufacturer's product
+    page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__
+
 Compatibility
 -------------
 
@@ -38,10 +41,10 @@ Mapping description
 -------------------
 
 Note that Mixxx doesn't have the concept of a single "master" deck for
-sync. Instead, push and hold the sync button to "lock" sync on for all
-decks you want to remain in sync. Or you can push Shift + Sync to lock
+sync. Instead, push and hold the :hwlabel:`SYNC` button to "lock" sync on for all
+decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to lock
 sync on. Refer to `the Mixxx
-manual <http://www.mixxx.org/manual/2.0/chapters/djing_with_mixxx.html#master-sync>`__
+manual <../../chapters/djing_with_mixxx.html#master-sync>`__
 for details.
 
 Mixer
@@ -49,21 +52,21 @@ Mixer
 
   - Gain, equalizer high/mid/low, and cue (headphones)
     behave as labelled.
-  - FX Enable buttons: See Effect section below.
+  - :hwlabel:`FX Enable` buttons: See Effect section below.
   - Filter: controls QuickEffect superknob. This controls the Filter
     effect by default, but a different effect can be chosen in the
     Equalizer section of Mixxs's Preferences.
-  - EXT: The EXT button changes the fourth channel pregain (knob), pfl, and volume (slider) adjustments to operate with the Microphone input.  The microphone does not respond to EQ or effects.
-  - Shift + EXT: Switches input from Mic to Line and back again.
+  - :hwlabel:`EXT`: The :hwlabel:`EXT` button changes the fourth channel pregain (knob), pfl, and volume (slider) adjustments to operate with the Microphone input.  The microphone does not respond to EQ or effects.
+  - :hwlabel:`SHIFT` + :hwlabel:`EXT`: Switches input from Mic to Line and back again.
 
 The Master Volume knob on the S3 controls the volume of the S3's master
 output in hardware, so it does not affect the software master gain knob
-in Mixxx by default. You can hold shift and turn the knob to adjust Mixxx's
+in Mixxx by default. You can hold :hwlabel:`SHIFT` and turn the knob to adjust Mixxx's
 master gain.  Note that this will still also adjust the hardware gain, so
-after you release shift you'll need to adjust the knob again.
+after you release :hwlabel:`SHIFT` you'll need to adjust the knob again.
 
 Peak display is only generated from software. So if
-you see clipping indicated, lower the gain of the playing decks or use Shift + Master Volume.
+you see clipping indicated, lower the gain of the playing decks or use :hwlabel:`SHIFT` + Master Volume.
 
 Decks
 ~~~~~
@@ -73,7 +76,7 @@ Control
 ==========================================  ===========================================================================================================================================================================
 Library knob press                          Load track selected in library to the deck.
 :hwlabel:`SHIFT` + Library knob press       Eject track.
-Small play button                           While held, plays the current track in the preview deck.  If you rotate the library knob while you hold the play button, Mixxx will scan through the track being previewed.
+Small play button                           While held, plays the current track in the preview deck.  If you rotate the library knob while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
 Star button                                 This button is not used.
 List-plus button                            Adds the current track to the Auto DJ list.
 :hwlabel:`VIEW` button                      Move focus of library control between left-hand tree and main list.
@@ -114,24 +117,24 @@ There are two ways the rate sliders can be mapped: Absolute, and Relative.  Abso
 
   - Absolute Mode:
 
-     - Keylock: Press to toggle keylock mode.
-     - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
+     - :hwlabel:`KEYLOCK`: Press to toggle keylock mode.
+     - :hwlabel:`SYNC`: Press to beatsync, or press and hold to activate Sync Lock Mode.
      - Pitch slider: Adjusts playback speed.
-     - Shift + Pitch slider: Adjusts musical key
+     - :hwlabel:`SHIFT` + Pitch slider: Adjusts musical key
   - Relative Mode:
 
-     - Keylock: Press to toggle keylock mode.
-     - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
+     - :hwlabel:`KEYLOCK`: Press to toggle keylock mode.
+     - :hwlabel:`SYNC`: Press to beatsync, or press and hold to activate Sync Lock Mode.
      - Pitch slider: Adjusts playback speed.
      - Keylock + Pitch Slider: adjusts musical key
-     - Shift + Pitch Slider: Allows the user to move the slider without any effect.
+     - :hwlabel:`SHIFT` + Pitch Slider: Allows the user to move the slider without any effect.
 
 Effects
 ~~~~~~~
 
 The FX setup is unusual on this controller.  Each deck has a single toggle button for effects, and on the right-hand side of the mixer there are five buttons that determine which effects are applied to every channel that has effects on.  This means it is not possible to use the controller to select one effect for one deck, and another effect for another.  You can still make these choices in the Mixxx UI, however.
 
-When the Filter Enable button is off, the knob still controls the default QuickEffect, even if that button is not lit in the FX section. When the Filter Enable button is on, the QuickEffect is only enabled if the Filter FX Select button is on.  This means the QuickEffect is available on channels that don't have any other effects active.
+When the :hwlabel:`Filter Enable` button is off, the knob still controls the default QuickEffect, even if that button is not lit in the FX section. When the :hwlabel:`Filter Enable` button is on, the QuickEffect is only enabled if the Filter :hwlabel:`FX Select` button is on.  This means the QuickEffect is available on channels that don't have any other effects active.
 
 When turning Filter Enable off, Mixxx will use soft takeover so the QuickEffect doesn't suddenly activate.
 
@@ -150,8 +153,8 @@ actual edit only involves replacing a single word in a text file.
 
 1.  Open Mixxx Preferences and select the Kontrol S3 in the side list.
 2.  There will be a box labeled Preset Info, and that box will have a section
-    labeled "Script Files".
-3.  Select "Traktor-Kontrol-S3-hid-scripts.js".
+    labeled :guilabel:`Script Files`.
+3.  Select :guilabel:`Traktor-Kontrol-S3-hid-scripts.js`.
 4.  Either the file should open in an editor, or you should see a file
     browser window with that file selected. If you see a file browser,
     right click the file and select an option to edit it.
@@ -159,9 +162,3 @@ actual edit only involves replacing a single word in a text file.
     the file.
 
 Changes you make will take effect as soon as you save the file.
-
-References
-----------
-
-  - `Manufacturer's product
-    page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__
