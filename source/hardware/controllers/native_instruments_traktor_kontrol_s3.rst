@@ -6,15 +6,6 @@ Native Instruments Traktor Kontrol S3
 
 .. versionadded:: 2.3.0
 
-.. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_s3.jpg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Native Instruments Traktor Kontrol S3 (top view)
-   :figclass: pretty-figures
-
-   Native Instruments Traktor Kontrol S3 (top view)
-
 The Kontrol S3 is an introductory 4 deck controller with good build
 quality and integrated sound card. This is the first controller released
 with the "S3" name.
