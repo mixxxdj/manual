@@ -155,7 +155,7 @@ To make these changes, you need to edit to the mapping script file.
 1.  Open Mixxx Preferences and select the Kontrol S3 in the side list.
 2.  There will be a box labeled Preset Info, and that box will have a section
     labeled :guilabel:`Script Files`.
-3.  Select :guilabel:`Traktor-Kontrol-S3-hid-scripts.js`.
+3.  Select :file:`Traktor-Kontrol-S3-hid-scripts.js`.
 4.  Either the file should open in an editor, or you should see a file
     browser window with that file selected. If you see a file browser,
     right click the file and select an option to edit it.
