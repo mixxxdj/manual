@@ -1,6 +1,9 @@
 Native Instruments Traktor Kontrol S3
 =====================================
 
+.. sectionauthor::
+  Owen Williams <owilliams at mixxx.org>
+
 .. versionadded:: 2.3.0
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_s3.jpg
@@ -11,15 +14,6 @@ Native Instruments Traktor Kontrol S3
    :figclass: pretty-figures
 
    Native Instruments Traktor Kontrol S3 (top view)
-
-References:
-
-  - `Manufacturer's product
-    page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__
-  - `DJTechTools
-    review <https://djtechtools.com/2019/10/16/traktor-kontrol-s3-the-middle-child-for-the-mk3-traktor-generation/>`__
-  - `DJWORX
-    overview <https://djworx.com/the-traktor-kontrol-s3-we-have-it-but-not-the-software/>`__
 
 The Kontrol S3 is an introductory 4 deck controller with good build
 quality and integrated sound card. This is the first controller released
@@ -83,32 +77,44 @@ you see clipping indicated, lower the gain of the playing decks or use Shift + M
 Decks
 ~~~~~
 
-  - Pressing the library knob: Load track selected in library to the deck.
-  - Shift + pressing knob: Eject track.
-  - Small play button: While held, plays the current track in the preview deck.  If you rotate the library knob while you hold the play button, Mixxx will scan through the track being previewed.
-  - Star button: This button is not used (yet).
-  - List-plus button: Adds the current track to the Auto DJ list.
-  - View button: move focus of library control between left-hand tree and main list.
+==========================================  ===========================================================================================================================================================================
+Control
+==========================================  ===========================================================================================================================================================================
+Library knob press                          Load track selected in library to the deck.
+:hwlabel:`SHIFT` + Library knob press       Eject track.
+Small play button                           While held, plays the current track in the preview deck.  If you rotate the library knob while you hold the play button, Mixxx will scan through the track being previewed.
+Star button                                 This button is not used.
+List-plus button                            Adds the current track to the Auto DJ list.
+:hwlabel:`VIEW` button                      Move focus of library control between left-hand tree and main list.
+==========================================  ===========================================================================================================================================================================
 
 Transport Mode Buttons
 ~~~~~~~~~~~~~~~~~~~~~~
 
-  - REV: Activates a reverse-roll (aka "censor") effect.
-  - Shift + REV: Turns on reverse playback mode.
-  - GRID: Turns on Quantize mode.
-  - FLUX: Turns on Slip mode.
-  - JOG: Hold to use the wheels to quickly scroll through the track
+=================================  ==========================================================
+Control
+=================================  ==========================================================
+:hwlabel:`REV`                     Activates a reverse-roll (aka "censor") effect.
+:hwlabel:`SHIFT` + :hwlabel:`REV`  Turns on reverse playback mode.
+:hwlabel:`GRID`                    Turns on Quantize mode.
+:hwlabel:`FLUX`                    Turns on Slip mode.
+:hwlabel:`JOG`                     Hold to use the wheels to quickly scroll through the track
+=================================  ==========================================================
 
 Looping
 ~~~~~~~
 
-  - Right Encoder Turn: double/halve loop size.
-  - Right Encoder Press: activate loop of set size from current position.
-  - Shift + Right Encoder Press: Toggles the existing loop on and off.
-  - Left Encoder Turn: Beatjump forward/backward.
-  - Shift + Left Encoder Turn: Adjust beatjump size.
-  - Left Encoder Press: Activates beatloop roll.
-  - Shift + Left Encoder Press: Activates a loop and then stops.
+======================================   ================================================
+Control
+======================================   ================================================
+Right Encoder Turn                       Double/halve loop size.
+Right Encoder Press                      Activate loop of set size from current position.
+:hwlabel:`SHIFT` + Right Encoder Press   Toggles the existing loop on and off.
+Left Encoder Turn                        Beatjump forward/backward.
+:hwlabel:`SHIFT` + Left Encoder Turn     Adjust beatjump size.
+Left Encoder Press                       Activates beatloop roll.
+:hwlabel:`SHIFT` + Left Encoder Press    Activates a loop and then stops.
+======================================   ================================================
 
 Rate / Keylock
 ~~~~~~~~~~~~~~
@@ -116,16 +122,18 @@ Rate / Keylock
 There are two ways the rate sliders can be mapped: Absolute, and Relative.  Absolute mode is the default. In this mode, the position of the pitch slider matches the on-screen pitch slider position.  If the sliders are misaligned, Mixxx engages "soft takeover mode" -- Mixxx won't update the value of the slider until the controller matches the GUI. In Relative mode, moving the slider always adjusts the value of the pitch slider, even if they don't match.
 
   - Absolute Mode:
-    - Keylock: Press to toggle keylock mode.
-    - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
-    - Pitch slider: Adjusts playback speed.
-    - Shift + Pitch slider: Adjusts musical key
+
+     - Keylock: Press to toggle keylock mode.
+     - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
+     - Pitch slider: Adjusts playback speed.
+     - Shift + Pitch slider: Adjusts musical key
   - Relative Mode:
-    - Keylock: Press to toggle keylock mode.
-    - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
-    - Pitch slider: Adjusts playback speed.
-    - Keylock + Pitch Slider: adjusts musical key
-    - Shift + Pitch Slider: Allows the user to move the slider without any effect.
+
+     - Keylock: Press to toggle keylock mode.
+     - Sync: Press to beatsync, or press and hold to activate Sync Lock Mode.
+     - Pitch slider: Adjusts playback speed.
+     - Keylock + Pitch Slider: adjusts musical key
+     - Shift + Pitch Slider: Allows the user to move the slider without any effect.
 
 Effects
 ~~~~~~~
@@ -150,12 +158,19 @@ have to make a small change to the mapping script file. Don't worry, the
 actual edit only involves replacing a single word in a text file.
 
 1.  Open Mixxx Preferences and select the Kontrol S3 in the side list.
-2.  You should see a series of tabs at the top of the preferences
-    window, one of which is "Scripts". Select that tab.
+2.  There will be a box labeled Preset Info, and that box will have a section
+    labeled "Script Files".
 3.  Select "Traktor-Kontrol-S3-hid-scripts.js".
-4.  Click "Open Selected File."
 5.  Either the file should open in an editor, or you should see a file
     browser window with that file selected. If you see a file browser,
     right click the file and select an option to edit it.
-6.  At the top of the file will be short instructions explaining what to
-    do.
+6.  At the top of the file will be short instructions explaining how to edit
+    the file.
+
+Changes you make will take effect as soon as you save the file.
+
+References
+----------
+
+  - `Manufacturer's product
+    page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__
