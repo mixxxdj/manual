@@ -153,7 +153,7 @@ actual edit only involves replacing a single word in a text file.
 2.  You should see a series of tabs at the top of the preferences
     window, one of which is "Scripts". Select that tab.
 3.  Select "Traktor-Kontrol-S3-hid-scripts.js".
-4.  Click "Open Selected File."
+4.  Click :guilabel:`Open Selected File.`
 5.  Either the file should open in an editor, or you should see a file
     browser window with that file selected. If you see a file browser,
     right click the file and select an option to edit it.
