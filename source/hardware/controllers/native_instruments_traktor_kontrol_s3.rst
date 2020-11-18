@@ -152,10 +152,10 @@ actual edit only involves replacing a single word in a text file.
 2.  There will be a box labeled Preset Info, and that box will have a section
     labeled "Script Files".
 3.  Select "Traktor-Kontrol-S3-hid-scripts.js".
-5.  Either the file should open in an editor, or you should see a file
+4.  Either the file should open in an editor, or you should see a file
     browser window with that file selected. If you see a file browser,
     right click the file and select an option to edit it.
-6.  At the top of the file will be short instructions explaining how to edit
+5.  At the top of the file will be short instructions explaining how to edit
     the file.
 
 Changes you make will take effect as soon as you save the file.
