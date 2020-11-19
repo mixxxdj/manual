@@ -19,7 +19,7 @@ Compatibility
 -------------
 
 This controller is a class compliant USB MIDI and audio device, so it can be used without any
-special drivers on GNU/Linux, Mac OS X, and Windows. 
+special drivers on GNU/Linux, Mac OS X, and Windows.
 
 Setup
 -----
@@ -78,13 +78,13 @@ The default mapping covers 2 effect units and loop, reverse & pitch controls for
 .. figure:: behringer_bcr2000.svg
   :width: 600
 
-The Shift buttons change the behaviour of the effect units (see 
+The Shift buttons change the behaviour of the effect units (see
 `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_
 in the Wiki) and the buttons with side labels.
 
 **Note:** Both Shift buttons have the same effect,
 they are not deck-specific. The design decision was to keep the layout symmetric so that you don't
-have to press a button on deck 1 when you're currently working on deck 2. 
+have to press a button on deck 1 when you're currently working on deck 2.
 
 Overlay
 ~~~~~~~
