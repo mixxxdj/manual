@@ -54,6 +54,7 @@ Control                                             Description
 :hwlabel:`FILTER` knob                              Controls QuickEffect superknob. This controls the Filter effect by default, but a different effect can be chosen in the Equalizer section of Mixxs’s Preferences.
 :hwlabel:`SNAP`                                     Toggles library fullscreen
 :hwlabel:`LOOP RECORD`                              Toggles recording
+:hwlabel:`PLAY`                                     Hold down to use as a modifier.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
 ==================================================  =========================================================================
 
@@ -71,11 +72,14 @@ Control                                             Description
 ==================================================  =========================================================================
 :hwlabel:`LOAD`                                     Load track selected in library to the deck.
 :hwlabel:`SHIFT` + :hwlabel:`LOAD`                  Eject track
-Small buttons with play icons                       Play a sampler from its cue point. If no track is loaded in the sampler, the track selected in the library will be loaded.
-:hwlabel:`SHIFT` + small buttons with play icons    If sampler is playing, stop it. If sampler is not playing, the loaded eject track from the sampler.
+Small buttons with preview icons                       Play a sampler from its cue point. If no track is loaded in the sampler, the track selected in the library will be loaded.
+:hwlabel:`SHIFT` + small buttons with preview icons If sampler is playing, stop it. If sampler is not playing, the loaded eject track from the sampler.
 :hwlabel:`1-4` numbered buttons                     Set/activate :term:`hotcue`
 :hwlabel:`SHIFT` + :hwlabel:`1-4` numbered buttons  Clear hotcue
 :hwlabel:`SHIFT` + Wheel nudge                      Fast search through track when not playing
+:hwlabel:`FLUX` button                              Enable slip mode (if shift is held down this decreases the range of the BPM slider, is play button is held down enter autoslip mode)
+:hwlabel:`RESET` button                             Reset key (if shift is held down increase the range of the BPM slider
+
 ==================================================  =========================================================================
 
 Looping
