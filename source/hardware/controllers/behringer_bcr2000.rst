@@ -5,7 +5,7 @@ Behringer B-Control BCR2000
   :width: 600
 
 - `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0245>`_
-- `Forum thread <https://mixxx.org/forums/viewtopic.php?f=7&t=6123&p=21304>`_
+- `Forum thread <https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287>`_
 
 The B-CONTROL BCR2000 is a general-purpose USB/MIDI controller containing 20 Buttons, 24 rotary
 encoders and 8 push encoders. Every control is backed by LEDs that show the current value. As a
