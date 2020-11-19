@@ -56,6 +56,7 @@ Control                                             Description
 :hwlabel:`LOOP RECORD`                              Toggles recording
 :hwlabel:`PLAY`                                     Hold down to use as a modifier.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
+:hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Clicking in acts like a double click on the mouse.
 ==================================================  =========================================================================
 
 :hwlabel:`GAIN`, effects routing, equalizer high/mid/low, and :hwlabel:`CUE` (headphones) behave as labeled.
