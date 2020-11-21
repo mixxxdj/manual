@@ -136,7 +136,7 @@ The FX setup is unusual on this controller.  Each deck has a single toggle butto
 
 When the :hwlabel:`FILTER ENABLE` button is off, the knob still controls the default Quick Effect, even if that button is not lit in the FX section. When the :hwlabel:`FILTER ENABLE` button is on, the Quick Effect is only enabled if the Filter :hwlabel:`FX SELECT` button is on.  This means the Quick Effect is available on channels that don't have any other effects active.
 
-When turning Filter Enable off, Mixxx will use soft takeover so the QuickEffect doesn't suddenly activate.
+When turning :hwlabrl:`FILTER ENABLE` off, Mixxx will use soft takeover so the Quick Effect doesn't suddenly activate.
 
 Mapping options
 ~~~~~~~~~~~~~~~
