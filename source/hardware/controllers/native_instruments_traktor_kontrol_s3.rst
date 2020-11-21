@@ -27,7 +27,7 @@ The Kontrol S3 is a USB class compliant audio and :term:`HID` device,
 so it is compatible with Mixxx without any proprietary drivers on
 GNU/Linux and Mac OS X. On Windows, it is recommended to install the
 `driver from Native
-Instruments <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__
+Instruments <https://www.native-instruments.com/en/support/downloads/drivers-other-files/#traktorkontrols3>`__
 and select the ASIO sound API in the Sound Hardware section of Mixxx's
 Preferences.
 
