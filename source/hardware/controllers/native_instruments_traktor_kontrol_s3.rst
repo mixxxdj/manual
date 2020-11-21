@@ -134,7 +134,7 @@ Effects
 
 The FX setup is unusual on this controller.  Each deck has a single toggle button for effects, and on the right-hand side of the mixer there are five buttons that determine which effects are applied to every channel that has effects on.  This means it is not possible to use the controller to select one effect for one deck, and another effect for another.  You can still make these choices in the Mixxx UI, however.
 
-When the :hwlabel:`Filter Enable` button is off, the knob still controls the default QuickEffect, even if that button is not lit in the FX section. When the :hwlabel:`Filter Enable` button is on, the QuickEffect is only enabled if the Filter :hwlabel:`FX Select` button is on.  This means the QuickEffect is available on channels that don't have any other effects active.
+When the :hwlabel:`FILTER ENABLE` button is off, the knob still controls the default Quick Effect, even if that button is not lit in the FX section. When the :hwlabel:`FILTER ENABLE` button is on, the Quick Effect is only enabled if the Filter :hwlabel:`FX SELECT` button is on.  This means the Quick Effect is available on channels that don't have any other effects active.
 
 When turning Filter Enable off, Mixxx will use soft takeover so the QuickEffect doesn't suddenly activate.
 
