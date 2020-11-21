@@ -56,9 +56,7 @@ Mixer
 
   - The :hwlabel:`GAIN` and equalizer :hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW` knobs and the :hwlabel:`CUE` (headphones) button behave as labelled.
   - :hwlabel:`FX Enable` buttons: See Effect section below.
-  - Filter: controls QuickEffect superknob. This controls the Filter
-    effect by default, but a different effect can be chosen in the
-    Equalizer section of Mixxs's Preferences.
+  - The :hwlabel:`FILTER` knob controls the Quick Effect superknob. By default, this uses a high-/low-pass filter, but a different effect can be chosen in the :ref:`Equalizer section of Mixxx' Preferences <preferences-equalizers>`.
   - :hwlabel:`EXT`: The :hwlabel:`EXT` button changes the fourth channel pregain (knob), pfl, and volume (slider) adjustments to operate with the Microphone input.  The microphone does not respond to EQ or effects.
   - :hwlabel:`SHIFT` + :hwlabel:`EXT`: Switches input from Mic to Line and back again.
 
