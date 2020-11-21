@@ -31,7 +31,7 @@ Instruments <https://www.native-instruments.com/en/support/downloads/drivers-oth
 and select the ASIO sound API in the Sound Hardware section of Mixxx's
 Preferences.
 
-With the S3 plugged in, a MIDI device is listed as an available
+With the S3 plugged in, the device is listed as an available
 controller in Mixxx's Preferences. The controller uses
 HID for the knobs, buttons, and other components on the device, so the
 mapping can only be loaded when you select the HID device on the left
