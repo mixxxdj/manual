@@ -67,7 +67,7 @@ main output gain.  Note that this will still also adjust the hardware gain, so
 after you release :hwlabel:`SHIFT` you'll need to adjust the knob again.
 
 Peak display is only generated from software. So if
-you see clipping indicated, lower the gain of the playing decks or use :hwlabel:`SHIFT` + Master Volume.
+you see clipping indicated, lower the gain of the playing decks or use :hwlabel:`SHIFT` + Main Volume knob.
 
 Decks
 ~~~~~
