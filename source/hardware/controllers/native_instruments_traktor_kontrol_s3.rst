@@ -28,8 +28,7 @@ so it is compatible with Mixxx without any proprietary drivers on
 GNU/Linux and Mac OS X. On Windows, it is recommended to install the
 `driver from Native
 Instruments <https://www.native-instruments.com/en/support/downloads/drivers-other-files/#traktorkontrols3>`__
-and select the ASIO sound API in the Sound Hardware section of Mixxx's
-Preferences.
+and select the ASIO :ref:`sound API <preferences-sound-api>` in the :ref:`Sound Hardware section of Mixxx's Preferences <preferences-sound-hardware>`.
 
 With the S3 plugged in, the device is listed as an available
 controller in Mixxx's Preferences. The controller uses
