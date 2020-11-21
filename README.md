@@ -19,7 +19,8 @@ Next, install the dependencies using [pip]. From within the repository root
 
 If you do not wish to use pip:
 * [Install Sphinx], the documentation generator.
-* [Install Graphviz], graph visualization software (used to draw some diagrams)
+
+[Install Graphviz], graph visualization software (used to draw some diagrams)
 
 To upgrade dependencies using pip:
 
@@ -51,9 +52,10 @@ conventions.
 
 * Clone the repository `git clone https://github.com/mixxxdj/manual.git`
 * Install requirements `pip install -r requirements.txt` (see above)
-* [Install pre-commit](https://pre-commit.com/#install), then run `pre-commit install` to enable automatic commit checks.
+* Install [Graphviz] as requirement to build the manual locally
+* [Install pre-commit](https://pre-commit.com/#install), then run `pre-commit install` to enable automatic commit checks
 * Perform changes
-* Check changes `pre-commit run --files /path/to/your/file`
+* Build the HTML manual locally using `sphinx-build -W -b html source build/html` and check the output in the `build/html` directory in your browser
 * Commit changes `git commit -m "Insert short summary of your changes here"`
 * Push changes `git push`
 * Submit a [pull request]
