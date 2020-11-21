@@ -60,10 +60,10 @@ Mixer
   - :hwlabel:`EXT`: The :hwlabel:`EXT` button changes the fourth channel pregain (knob), pfl, and volume (slider) adjustments to operate with the Microphone input.  The microphone does not respond to EQ or effects.
   - :hwlabel:`SHIFT` + :hwlabel:`EXT`: Switches input from Mic to Line and back again.
 
-The Master Volume knob on the S3 controls the volume of the S3's master
-output in hardware, so it does not affect the software master gain knob
-in Mixxx by default. You can hold :hwlabel:`SHIFT` and turn the knob to adjust Mixxx's
-master gain.  Note that this will still also adjust the hardware gain, so
+The Main Volume knob on the S3 controls the volume of the S3's main
+output in hardware, so it does not affect the software main output gain knob
+in Mixxx by default. You can hold :hwlabel:`SHIFT` and turn the knob to adjust Mixxx'
+main output gain.  Note that this will still also adjust the hardware gain, so
 after you release :hwlabel:`SHIFT` you'll need to adjust the knob again.
 
 Peak display is only generated from software. So if
