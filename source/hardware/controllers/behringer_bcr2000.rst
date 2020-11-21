@@ -11,7 +11,8 @@ The B-CONTROL BCR2000 is a general-purpose USB/MIDI controller containing 20 But
 encoders and 8 push encoders. Every control is backed by LEDs that show the current value. As a
 pure MIDI controller it contains no interfaces for audio or microphones.
 
-The controller can be be configured extensively. It offers 32 presets that may be programmed by the user.
+The controller can be be configured extensively.
+It offers 32 presets that may be programmed by the user.
 
 .. versionadded:: 2.3
 
@@ -56,7 +57,7 @@ Mapping Description
 -------------------
 The BCR2000 is a general purpose controller that allows different mappings.
 
-The file ``Behringer-BCR2000-configuration-scripts.js`` contains a default mapping which works
+The file ``generic-midi-controller-configuration-scripts.js`` contains a default mapping which works
 out-of-the-box for a factory-reset controller, but may be customized freely according to your needs.
 
 The mapping is split into several files:
@@ -64,11 +65,11 @@ The mapping is split into several files:
 ============================================== =================== ===========
 File                                           When to edit?       Description
 ============================================== =================== ===========
-``Behringer-BCR2000-configuration-scripts.js`` Mapping changes     Mapping configuration. You can assign Mixxx controls to hardware controls here and change which controls are bound to the shift layer.
+``generic-midi-controller-configuration.js``   Mapping changes     Mapping configuration. You can assign Mixxx controls to hardware controls here and change which controls are bound to the shift layer.
 ``Behringer-BCR2000-preset-scripts.js``        Preset changes      Contains the mapping of MIDI messages to hardware controls. If for some reason you'd like to use a different preset than the factory settings of preset #1, you can change the MIDI addresses according to your controller's preset within this file.
-``Behinger BCR 2000.midi.xml``                 Preset changes      Entry point that contains the MIDI addresses for all input controls and includes all other files. The mapping of MIDI messages to Mixxx controls is purely done in Javascript and based on `Components JS <https://github.com/mixxxdj/mixxx/wiki/Components%20JS>`_, so that the XML file does not contain any information about the Mixxx controls (e.g. `key` and `group`).
+``Behinger BCR2000.midi.xml``                  Preset changes      Entry point that contains the MIDI addresses for all input controls and includes all other files. The mapping of MIDI messages to Mixxx controls is purely done in Javascript and based on `Components JS <https://github.com/mixxxdj/mixxx/wiki/Components%20JS>`_, so that the XML file does not contain any information about the Mixxx controls (e.g. `key` and `group`).
 ``midi-components-extension.js``               Usually never       Contains required Javascript components for the mapping.
-``Behringer-BCR2000-core-scripts.js``          Usually never       Contains the main logic to setup the mapping including the functions ``init()`` and ``shutdown()``.
+``generic-midi-controller-scripts.js``         Usually never       Contains the main logic to setup the mapping including the functions ``init()`` and ``shutdown()``.
 ============================================== =================== ===========
 
 Default Mapping
@@ -96,14 +97,14 @@ Overlay to print on cardboard or paper for lamination:
 
 Custom Mapping
 ^^^^^^^^^^^^^^
-The mapping configuration (file ``Behringer-BCR2000-configuration-scripts.js``) may be customized
-by changing the ``BCR2000.userConfig`` object. It is structured as follows: ::
+The mapping configuration (file ``generic-midi-controller-configuration-scripts.js``) may be
+customized by changing the ``GenericMidiController.userConfig`` object. It is structured as
+follows: ::
 
    userConfig
    |
-   +- presets
-   |  +- onInit: Number of the BCR2000 preset that is activated when Mixxx is started
-   |  +- onShutdown: Number of the BCR2000 preset that is activated when Mixxx is shutting down
+   +- init: a function that is called when Mixxx is started
+   +- shutdown: a function that is called when Mixxx is shutting down
    |
    +- decks: an array of deck definitions
    |  +- deck:
