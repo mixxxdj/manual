@@ -40,7 +40,7 @@ side of Mixxx's Preferences.
 Mapping description
 -------------------
 
-Note that Mixxx doesn't have the concept of a single "master" deck for
+Note that Mixxx doesn't have the concept of a single "leader" deck for
 sync. Instead, push and hold the :hwlabel:`SYNC` button to "lock" sync on for all
 decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to lock
 sync on. Refer to `the Mixxx
