@@ -54,8 +54,7 @@ for details.
 Mixer
 ~~~~~
 
-  - Gain, equalizer high/mid/low, and cue (headphones)
-    behave as labelled.
+  - The :hwlabel:`GAIN` and equalizer :hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW` knobs and the :hwlabel:`CUE` (headphones) button behave as labelled.
   - :hwlabel:`FX Enable` buttons: See Effect section below.
   - Filter: controls QuickEffect superknob. This controls the Filter
     effect by default, but a different effect can be chosen in the
