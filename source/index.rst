@@ -10,20 +10,27 @@
 Mixxx |version| User Manual
 ***************************
 
-Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for
-Windows, macOS and Linux. It's easy to use, even if you've never DJed.
-Mixxx offers a variety of features to help beginners get started and help
-experienced DJs get creative:
+Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for 
+Windows, macOS and Linux. You can use Mixxx to perform with :term:`MIDI` 
+and :term:`HID` controllers, CD players, vinyl turntables or even just your 
+computer's keyboard and mouse. We have an extensive manual and a 
+`discourse <https://mixxx.discourse.group/>`_  support group to ease your 
+transition to Mixxx. Even if you've never had experience being a DJ before, 
+you will find that our software is quite beginner-friendly. Mixxx offers a 
+variety of features to help beginners get started and provides the freedom that 
+more seasoned DJ's crave to boost their creativity.
 
-  * beat, tempo, and musical key detection
-  * master sync
-  * hotcues
-  * looping
-  * 4 decks
-  * effects
-
-You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers,
-CD players, vinyl turntables or even just your computer's keyboard and mouse.
+================================== =============================================================
+Features                           Description
+================================== =============================================================
+:term:`BPM` and beat detector      Our ultra-precise BPM and beat detector makes manual adjustments redundant in many cases because Mixxx knows where the beats are!
+Musical key detector               Helps you make smooth mixes by ensuring that your tracks are musically compatible.
+Master sync                        It is an intelligent assistant that allows you to leave the beatmatching to Mixxx so you can focus on track selection, effects manipulation, looping, four deck mixing, and other advanced DJing techniques.
+:term:`Hotcue`                     Allows you to move swiftly between different positions in the track.
+Looping                            Lets you to select a small section of your track, and tell the software to play it over and over again.
+Four deck mixer                    Helps you to effortlessly control all 4 decks.
+Effects                            Mixxx has 4 effect units and each of those effect units can load up to 3 effects in a chain. Understanding how our powerful sound effects system works can open you up to a wide variety of exciting mixing techniques!
+================================== =============================================================
 
 Table of Contents
 -----------------
