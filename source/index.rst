@@ -26,7 +26,7 @@ Features                           Description
 :term:`BPM` and beat detector      Our ultra-precise BPM and beat detector makes manual adjustments redundant in many cases because Mixxx knows where the beats are!
 Musical key detector               Helps you make smooth mixes by ensuring that your tracks are musically compatible.
 Master sync                        It is an intelligent assistant that allows you to leave the beatmatching to Mixxx so you can focus on track selection, effects manipulation, looping, four deck mixing, and other advanced DJing techniques.
-:term:`Hotcue`                     Allows you to move swiftly between different positions in the track.
+:term:`hotcue`                     Allows you to move swiftly between different positions in the track.
 Looping                            Lets you to select a small section of your track, and tell the software to play it over and over again.
 Four deck mixer                    Helps you to effortlessly control all 4 decks.
 Effects                            Mixxx has 4 effect units and each of those effect units can load up to 3 effects in a chain. Understanding how our powerful sound effects system works can open you up to a wide variety of exciting mixing techniques!
