@@ -1,3 +1,5 @@
+.. _stanton-scs-3m:
+
 Stanton SCS.3m “DaMix”
 ======================
 
@@ -14,7 +16,7 @@ Mapping Description
    :alt: Stanton SCS.3m "DaMix" (top view)
    :figclass: pretty-figures
 
-   Stanton SCS.3m "DaMix" (top view)
+   Stanton SCS.3m "DaMix" (top view). *Images courtesy of Stanton Magnetics, Inc.*
 
 
 The left side of the controller controls deck 1. The right side is for deck 2.
@@ -159,5 +161,3 @@ channel, while the right side controls the master channel.
 -  Left slider: head gain
 -  Right slider: master gain
 -  Buttons: The buttons assign effects to head and master
-
-*Images courtesy of Stanton Magnetics, Inc.*

@@ -6,42 +6,38 @@ dist: xenial
 cache:
   pip: true
 
-if: type != pull_request AND branch =~ /^(manual-)/
+if: type != pull_request AND branch =~ /^(main|manual-.*)$/
 
 install:
 - pip install -r requirements.txt
 
-before_script:
-- git clone https://github.com/mixxxdj/manual.git manual
-- cd manual
-- git branch -r
-- export LATEST_BRANCH="$(git branch -r | grep -Po 'origin/manual-\d+\.\d+\.x' | sort | tail -n 1)"
-- echo "Building from branch ${LATEST_BRANCH}"
-- git checkout "${LATEST_BRANCH}"
+env:
+  global:
+    # DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY_PASSWORD for deploys.
+    secure: Grb831jjrNEbaPC8z+CdLySVVaHcpsqcq2HaRSOi0ZuZEEECVs8Xoe/RNZZq7zXiHBNMrlpEW8aAQhUaEpg9x/0zNsv2jsDm/vFi8NkmsHjZmIm7x9LtJrltlrmorbexqe5AU0oaT91hifCrIdan+CWMavvLJKQW87O1TLSZAKE=
 
 jobs:
   include:
-    - name: HTML
-      script:
-      - sh ../build_html.sh
-      before_deploy:
-      - npm install -g netlify-cli
-      - export PATH="$(npm prefix -g)/bin:$PATH"
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script: netlify deploy --prod --dir build/html
-        on:
-          all_branches: true
-
     - name: PDF
       script:
-      - sh ../build_pdf.sh
+      - sh build_pdf.sh
       addons:
         apt:
           packages:
+            - librsvg2-bin
+            - fonts-freefont-otf
             - texlive
+            - texlive-generic-recommended
             - texlive-xetex
             - texlive-latex-extra
+            - texlive-lang-all
             - latexmk
             - xindy
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: bash travis-deploy.sh
+  on:
+    all_branches: true
+    condition: "\"${TRAVIS_JOB_NAME}\" =~ PDF"

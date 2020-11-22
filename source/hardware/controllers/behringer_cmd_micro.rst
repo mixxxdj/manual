@@ -12,7 +12,7 @@ Behringer CMD Micro
 
 The *Behringer CMD Micro* is a simple controller for basic two-channel
 mixing. This device does not have a built in sound card, so it would
-require a `splitter cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound card <hardware%20compatibility#usb%20sound%20cards>`__ to be able to preview tracks in headphones.
+require a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio interface <hardware-audio-interfaces>` to be able to preview tracks in headphones.
 
 -  `Manufacturer’s product
    page <https://www.music-group.com/Categories/Behringer/Computer-Audio/DJ-Controllers/CMD-MICRO/p/P0AJR/>`__

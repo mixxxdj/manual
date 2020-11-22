@@ -114,9 +114,9 @@ Without loading the correct preset, your controller does not work with Mixxx.
 #. Go to :menuselection:`Preferences --> Controllers`
 #. Select your device from the list of available devices on the left, and the
    right pane will change
-#. Activate the :guilabel:`Enabled` checkbox
 #. Select the mapping for your controller from the :guilabel:`Load Preset`
    drop-down menu
+#. Make sure that the :guilabel:`Enabled` checkbox is ticked
 #. Click :guilabel:`Apply` and Mixxx can now be controlled by your controller(s).
 #. Repeat step 4-7 for any of the controllers you want to use
 
@@ -151,7 +151,7 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              up-to-date information about which controllers work with Mixxx and
              the details of each.
 
-.. _Hardware Compatibility wiki page: https://mixxx.org/wiki/doku.php/hardware_compatibility
+.. _Hardware Compatibility wiki page: https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility
 .. _Bug Tracker: https://bugs.launchpad.net/mixxx
 .. _Controller presets forum: https://mixxx.org/forums/viewforum.php?f=7
 
