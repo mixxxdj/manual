@@ -57,7 +57,7 @@ Mapping Description
 -------------------
 The BCR2000 is a general purpose controller that allows different mappings.
 
-The file ``generic-midi-controller-configuration-scripts.js`` contains a default mapping which works
+The file ``Behringer-BCR2000-scripts.js`` contains a default mapping which works
 out-of-the-box for a factory-reset controller, but may be customized freely according to your needs.
 
 The mapping is split into several files:
@@ -65,11 +65,10 @@ The mapping is split into several files:
 ============================================== =================== ===========
 File                                           When to edit?       Description
 ============================================== =================== ===========
-``generic-midi-controller-configuration.js``   Mapping changes     Mapping configuration. You can assign Mixxx controls to hardware controls here and change which controls are bound to the shift layer.
+``Behringer-BCR2000-scripts.js``               Mapping changes     Mapping configuration. You can assign Mixxx controls to hardware controls here, and change which controls are bound to the Shift layer.
 ``Behringer-BCR2000-preset-scripts.js``        Preset changes      Contains the mapping of MIDI messages to hardware controls. If for some reason you'd like to use a different preset than the factory settings of preset #1, you can change the MIDI addresses according to your controller's preset within this file.
 ``Behinger BCR2000.midi.xml``                  Preset changes      Entry point that contains the MIDI addresses for all input controls and includes all other files. The mapping of MIDI messages to Mixxx controls is purely done in Javascript and based on `Components JS <https://github.com/mixxxdj/mixxx/wiki/Components%20JS>`_, so that the XML file does not contain any information about the Mixxx controls (e.g. `key` and `group`).
 ``midi-components-extension.js``               Usually never       Contains required Javascript components for the mapping.
-``generic-midi-controller-scripts.js``         Usually never       Contains the main logic to setup the mapping including the functions ``init()`` and ``shutdown()``.
 ============================================== =================== ===========
 
 Default Mapping
@@ -97,36 +96,35 @@ Overlay to print on cardboard or paper for lamination:
 
 Custom Mapping
 ^^^^^^^^^^^^^^
-The mapping configuration (file ``generic-midi-controller-configuration-scripts.js``) may be
-customized by changing the ``GenericMidiController.userConfig`` object. It is structured as
-follows: ::
+The mapping configuration (file ``Behringer-BCR2000-scripts.js``) may be customized by changing the
+``configurationProvider`` object. It is structured as follows: ::
 
-   userConfig
-   |
-   +- init: a function that is called when Mixxx is started
-   +- shutdown: a function that is called when Mixxx is shutting down
-   |
-   +- decks: an array of deck definitions
-   |  +- deck:
-   |     +- deckNumbers: as defined by `components.Deck`
-   |     +- components: an array of component definitions for the deck
-   |        +- component:
-   |           +- type:    Component type (constructor function, required)
-   |           |           Example: components.Button
-   |           +- midi:    MIDI address of the component (number array, required)
-   |           |           Example: [0xB0, 0x43]
-   |           +- shift:   Active only when a Shift button is pressed? (boolean, optional)
-   |           |           Example: true
-   |           +- options: Additional options for the component (object, required)
-   |                       Example: {key: "reverse"}
-   |
-   +-effectUnits: an array of effect unit definitions
-     +- effectUnit
-        +- unitNumbers: as defined by `components.EffectUnit`
-        +- components:  an object of component definitions for the effect unit. Each definition is
-                        a key-value pair for a component of `components.EffectUnit` where key is the
-                        name of the component and value is the MIDI address. Example:
-                        `effectFocusButton: [0xB0, 0x15]`
+     object root
+     |
+     +- init: (optional) function that is called when Mixxx is started
+     +- shutdown: (optional) function that is called when Mixxx is shutting down
+     |
+     +- decks: an array of deck definitions (may be empty or omitted)
+     |  +- deck:
+     |     +- deckNumbers: as defined by `components.Deck`
+     |     +- components: an array of component definitions for the deck
+     |        +- component:
+     |           +- type:    Component type (constructor function, required)
+     |           |           Example: components.Button
+     |           +- midi:    MIDI address of the component (number array, required)
+     |           |           Example: [0xB0, 0x43]
+     |           +- shift:   Active only when a Shift button is pressed? (boolean, optional)
+     |           |           Example: true
+     |           +- options: Additional options for the component (object, required)
+     |                       Example: {key: "reverse"}
+     |
+     +-effectUnits: an array of effect unit definitions (may be empty or omitted)
+       +- effectUnit
+          +- unitNumbers: as defined by `components.EffectUnit`
+          +- components: an object of component definitions for the effect unit. Each definition
+                         is a key-value pair for a component of `components.EffectUnit` where key
+                         is the name of the component and value is the MIDI address. Example:
+                         `effectFocusButton: [0xB0, 0x15]`
 
 Overlay
 ~~~~~~~
