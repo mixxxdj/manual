@@ -118,13 +118,18 @@ The mapping configuration (file ``Behringer-BCR2000-scripts.js``) may be customi
      |           +- options: Additional options for the component (object, required)
      |                       Example: {key: "reverse"}
      |
-     +-effectUnits: an array of effect unit definitions (may be empty or omitted)
-       +- effectUnit
-          +- unitNumbers: as defined by `components.EffectUnit`
-          +- components: an object of component definitions for the effect unit. Each definition
-                         is a key-value pair for a component of `components.EffectUnit` where key
-                         is the name of the component and value is the MIDI address. Example:
-                         `effectFocusButton: [0xB0, 0x15]`
+     +- effectUnits: an array of effect unit definitions (may be empty or omitted)
+     |  +- effectUnit
+     |     +- unitNumbers: as defined by `components.EffectUnit`
+     |     +- components: an object of component definitions for the effect unit. Each definition
+     |                    is a key-value pair for a component of `components.EffectUnit` where key
+     |                    is the name of the component and value is the MIDI address. Example:
+     |                    `effectFocusButton: [0xB0, 0x15]`
+     |
+     +- containers: an array of component container definitions (may be empty or omitted)
+        +- componentContainer
+           +- components: an object of component definitions for the component container.
+              +- component: a component definition in the same format as described for decks
 
 Overlay
 ~~~~~~~
