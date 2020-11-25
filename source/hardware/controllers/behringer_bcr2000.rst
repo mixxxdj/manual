@@ -1,13 +1,10 @@
 Behringer B-Control BCR2000
 ===========================
 
-.. figure:: https://mediadl.musictribe.com/media/PLM/data/images/products/P0245/2000Wx2000H/BCR2000_P0245_Top_XL.png
-  :width: 600
-
 - `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0245>`_
 - `Forum thread <https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287>`_
 
-The B-CONTROL BCR2000 is a general-purpose USB/MIDI controller containing 20 Buttons, 24 rotary
+The B-CONTROL BCR2000 is a general-purpose :term:`USB` :term:`MIDI` controller containing 20 buttons, 24 rotary
 encoders and 8 push encoders. Every control is backed by LEDs that show the current value. As a
 pure MIDI controller it contains no interfaces for audio or microphones.
 
@@ -26,8 +23,7 @@ Setup
 -----
 Controller Preset
 ^^^^^^^^^^^^^^^^^
-The default mapping works out-of-the-box for the factory settings of controller preset #1
-(i.e. Channel 1, MIDI control values ``0x01`` to ``0x6C``).
+The default mapping works out-of-the-box for the factory settings of controller preset 1.
 
 If you don't want to use this preset, you can choose one of the
 following options:
@@ -36,7 +32,6 @@ following options:
    The dump file and instructions how to install it in the controller is available on the
    manufacturer's webpage.
 #. Factory reset the controller.
-#. Customize the preset mapping (see section *Mapping Description* for details).
 
 Button Behaviour
 ^^^^^^^^^^^^^^^^
@@ -45,13 +40,11 @@ to *Toggle Off*. Both behaviours send an ``On`` message on button press, but the
 send an ``Off`` message is different: *Toggle Off* responds to a button release while *Toggle On*
 ignores the release and requires a second press. To change the behaviour:
 
-#. Hold *Edit*, press a button, then release both
-#. Turn the 6th push encoder (labelled *MODE*) until the display shows ``toFF``
-#. Press *Exit*
+#. Hold :hwlabel:`EDIT`, press a button, then release both
+#. Turn the :hwlabel:`MODE` encoder until the display shows ``toFF``
+#. Press the :hwlabel:`EXIT` button
 
 To make the change persistent, press *Store* twice. See the manual for details.
-
-.. _mapping-description:
 
 Mapping Description
 -------------------
@@ -71,9 +64,7 @@ File                                           When to edit?       Description
 ``midi-components-extension.js``               Usually never       Contains required Javascript components for the mapping.
 ============================================== =================== ===========
 
-Default Mapping
-^^^^^^^^^^^^^^^
-The default mapping covers 2 effect units and loop, reverse & pitch controls for 2 decks:
+The mapping covers 2 effect units and loop, reverse & pitch controls for 2 decks:
 
 .. figure:: behringer_bcr2000.svg
   :width: 600
@@ -82,9 +73,9 @@ The Shift buttons change the behaviour of the effect units (see
 `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_
 in the Wiki) and the buttons with side labels.
 
-**Note:** Both Shift buttons have the same effect,
-they are not deck-specific. The design decision was to keep the layout symmetric so that you don't
-have to press a button on deck 1 when you're currently working on deck 2.
+.. note:
+   Both Shift buttons have the same effect, they are not deck-specific.
+   The design decision was to keep the layout symmetric so that you don't have to press a button on deck 1 when you're currently working on deck 2.
 
 Overlay
 ~~~~~~~
