@@ -55,7 +55,7 @@ out-of-the-box for a factory-reset controller, but may be customized freely acco
 
 The mapping covers 2 effect units and loop, reverse & pitch controls for 2 decks:
 
-.. figure:: behringer_bcr2000.svg
+.. figure:: ../../_static/controllers/behringer_bcr2000.svg
   :width: 600
 
 The controls are segmented into five parts:
@@ -170,6 +170,6 @@ Overlay
 ^^^^^^^
 Overlay to print on cardboard or paper for lamination:
 
-- `PDF, DIN A4 <behringer_bcr2000-a4.pdf>`_
-- `PDF, DIN A3 <behringer_bcr2000-a3.pdf>`_
-- `ODG <behringer_bcr2000.odg>`_ (LibreOffice)
+- `PDF, DIN A4 <../../_static/controllers/behringer_bcr2000-a4.pdf>`_
+- `PDF, DIN A3 <../../_static/controllers/behringer_bcr2000-a3.pdf>`_
+- `ODG <../../_static/controllers/behringer_bcr2000.odg>`_ (LibreOffice)
