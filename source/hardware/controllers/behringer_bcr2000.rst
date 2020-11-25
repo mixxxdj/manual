@@ -126,6 +126,15 @@ The mapping configuration (file ``Behringer-BCR2000-scripts.js``) may be customi
      |                    is the name of the component and value is the MIDI address. Example:
      |                    `effectFocusButton: [0xB0, 0x15]`
      |
+     +- equalizerUnits: an array of equalizer unit definitions (may be empty or omitted)
+     |  +- equalizerUnit
+     |     +- channel: as defined by `components.extensions.EqualizerUnit`
+     |     +- components: an object of component definitions for the equalizer unit. Each definition
+     |                    is a key-value pair for a component of
+     |                    `components.extensions.EqualizerUnit` where key is the name of the
+     |                    component and value is the MIDI address. Example:
+     |                    `enabled: [0xB0, 0x29]`
+     |
      +- containers: an array of component container definitions (may be empty or omitted)
         +- componentContainer
            +- components: an object of component definitions for the component container.
