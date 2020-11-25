@@ -167,7 +167,7 @@ in the Wiki) and the buttons with side labels.
    The design decision was to keep the layout symmetric so that you don't have to press a button on deck 1 when you're currently working on deck 2.
 
 Overlay
-~~~~~~~
+^^^^^^^
 Overlay to print on cardboard or paper for lamination:
 
 - `PDF, DIN A4 <behringer_bcr2000-a4.pdf>`_
