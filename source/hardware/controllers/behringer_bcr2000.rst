@@ -50,7 +50,7 @@ Mapping Description
 -------------------
 The BCR2000 is a general purpose controller that allows different mappings.
 
-The file ``Behringer-BCR2000-scripts.js`` contains a default mapping which works
+The file `:file:`Behringer-BCR2000-scripts.js` contains a default mapping which works
 out-of-the-box for a factory-reset controller, but may be customized freely according to your needs.
 
 The mapping covers 2 effect units and loop, reverse & pitch controls for 2 decks:
