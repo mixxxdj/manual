@@ -128,7 +128,7 @@ The controls are divided into five parts:
 | - Effect Unit 2: Button 8              |                                                                             |
 +----------------------------------------+-----------------------------------------------------------------------------+
 | Encoder Row 1, 1st Encoder             | Adjust the mixing of the dry (input) signal with the wet (output) signal    |
-|                                        |   of the effect unit.                                                       |
+|                                        | of the effect unit.                                                         |
 | - Effect Unit 1: Encoder 1             |                                                                             |
 | - Effect Unit 2: Encoder 5             |                                                                             |
 +----------------------------------------+-----------------------------------------------------------------------------+
