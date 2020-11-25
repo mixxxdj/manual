@@ -97,48 +97,8 @@ Overlay to print on cardboard or paper for lamination:
 Custom Mapping
 ^^^^^^^^^^^^^^
 The mapping configuration (file ``Behringer-BCR2000-scripts.js``) may be customized by changing the
-``configurationProvider`` object. It is structured as follows: ::
-
-     object root
-     |
-     +- init: (optional) function that is called when Mixxx is started
-     +- shutdown: (optional) function that is called when Mixxx is shutting down
-     |
-     +- decks: an array of deck definitions (may be empty or omitted)
-     |  +- deck:
-     |     +- deckNumbers: as defined by `components.Deck`
-     |     +- components: an array of component definitions for the deck
-     |        +- component:
-     |           +- type:    Component type (constructor function, required)
-     |           |           Example: components.Button
-     |           +- midi:    MIDI address of the component (number array, required)
-     |           |           Example: [0xB0, 0x43]
-     |           +- shift:   Active only when a Shift button is pressed? (boolean, optional)
-     |           |           Example: true
-     |           +- options: Additional options for the component (object, required)
-     |                       Example: {key: "reverse"}
-     |
-     +- effectUnits: an array of effect unit definitions (may be empty or omitted)
-     |  +- effectUnit
-     |     +- unitNumbers: as defined by `components.EffectUnit`
-     |     +- components: an object of component definitions for the effect unit. Each definition
-     |                    is a key-value pair for a component of `components.EffectUnit` where key
-     |                    is the name of the component and value is the MIDI address. Example:
-     |                    `effectFocusButton: [0xB0, 0x15]`
-     |
-     +- equalizerUnits: an array of equalizer unit definitions (may be empty or omitted)
-     |  +- equalizerUnit
-     |     +- channel: as defined by `components.extensions.EqualizerUnit`
-     |     +- components: an object of component definitions for the equalizer unit. Each definition
-     |                    is a key-value pair for a component of
-     |                    `components.extensions.EqualizerUnit` where key is the name of the
-     |                    component and value is the MIDI address. Example:
-     |                    `enabled: [0xB0, 0x29]`
-     |
-     +- containers: an array of component container definitions (may be empty or omitted)
-        +- componentContainer
-           +- components: an object of component definitions for the component container.
-              +- component: a component definition in the same format as described for decks
+``configurationProvider`` object. Please see the documentation of the component
+``GenericMidiController`` (file ``midi-components-extension.js``) for details.
 
 Overlay
 ~~~~~~~
