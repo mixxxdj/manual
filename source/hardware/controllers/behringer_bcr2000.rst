@@ -102,18 +102,15 @@ The controls are divided into five parts:
 | - Deck 1: Button 3                     | - Shift + Press: Toggles rolling reverse playback. Playback continues       |
 | - Deck 2: Button 7                     |   where the track would have been if it had not been temporarily reversed.  |
 +----------------------------------------+--------+--------------------------------------------------------------------+
-| Button Row 1, 4th Button               | Toggles shift.                                                              |
-|                                        |                                                                             |
-| - Deck 1: Button 3                     | The Shift buttons change the controls as described in this table and the    |
-| - Deck 2: Button 7                     | behaviour of the effect units (see                                          |
-|                                        | `Standard Effects Mapping                                                   |
-|                                        | <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_      |
-|                                        | in the Wiki) .                                                              |
+| Button Row 1, 4th Button               | Toggles shift. The Shift buttons change the controls as described in this   |
+|                                        | table and the behaviour of the effect units (see `Standard Effects Mapping  |
+| - Button 3                             | <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_      |
+| - Button 7                             | in the Wiki).                                                               |
 |                                        |                                                                             |
 |                                        | .. note:: Both Shift buttons have the same effect, they are not             |
 |                                        |   deck-specific. The design decision was to keep the layout symmetric so    |
-|                                        |   that you don't have to press a button on deck 1 when you're currently     |
-|                                        |   working on deck 2.                                                        |
+|                                        |   that you don't have to press a button on the left side when you're        |
+|                                        |   working on the right side.                                                |
 +----------------------------------------+-----------------------------------------------------------------------------+
 | Button Row 2, 1st Button               |                                                                             |
 |                                        |                                                                             |
