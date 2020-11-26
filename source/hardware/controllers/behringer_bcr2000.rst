@@ -104,8 +104,16 @@ The controls are divided into five parts:
 +----------------------------------------+--------+--------------------------------------------------------------------+
 | Button Row 1, 4th Button               | Toggles shift.                                                              |
 |                                        |                                                                             |
-| - Deck 1: Button 3                     |                                                                             |
-| - Deck 2: Button 7                     |                                                                             |
+| - Deck 1: Button 3                     | The Shift buttons change the controls as described in this table and the    |
+| - Deck 2: Button 7                     | behaviour of the effect units (see                                          |
+|                                        | `Standard Effects Mapping                                                   |
+|                                        | <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_      |
+|                                        | in the Wiki) .                                                              |
+|                                        |                                                                             |
+|                                        | .. note:: Both Shift buttons have the same effect, they are not             |
+|                                        |   deck-specific. The design decision was to keep the layout symmetric so    |
+|                                        |   that you don't have to press a button on deck 1 when you're currently     |
+|                                        |   working on deck 2.                                                        |
 +----------------------------------------+-----------------------------------------------------------------------------+
 | Button Row 2, 1st Button               |                                                                             |
 |                                        |                                                                             |
@@ -155,14 +163,6 @@ The controls are divided into five parts:
 +----------------------------------------+-----------------------------------------------------------------------------+
 | Button Box, Bottom Right Button        | Toggles assignment of Effect Unit 2 to Deck 2.                              |
 +----------------------------------------+-----------------------------------------------------------------------------+
-
-The Shift buttons change the behaviour of the effect units (see
-`Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_
-in the Wiki) and the buttons with side labels.
-
-.. note:
-   Both Shift buttons have the same effect, they are not deck-specific.
-   The design decision was to keep the layout symmetric so that you don't have to press a button on deck 1 when you're currently working on deck 2.
 
 Overlay
 ^^^^^^^
