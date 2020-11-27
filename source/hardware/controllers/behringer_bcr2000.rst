@@ -76,7 +76,7 @@ The controls are divided into five parts:
 |                  | Deck 1        | Encoder 2          | Increases or decreases the size of the current loop in beats.               |
 |                  |               | (:hwlabel:`CH`)    |                                                                             |
 |                  +---------------+--------------------+                                                                             |
-|                  | Deck 2        | Encoder 5          |                                                                             |
+|                  | Deck 2        | Encoder 6          |                                                                             |
 |                  |               | (:hwlabel:`VAL 2`) |                                                                             |
 +                  +---------------+--------------------+-----------------------------------------------------------------------------+
 |                  | Deck 1        | Encoder 3          | Moves the current loop left or right.                                       |
