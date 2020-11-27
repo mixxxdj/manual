@@ -108,8 +108,8 @@ The controls are divided into five parts:
 |                  |               |                    |                                                                             |
 |                  |               |                    | .. note:: Both Shift buttons have the same effect, they are not             |
 |                  |               |                    |   deck-specific. The design decision was to keep the layout symmetric so    |
-|                  |               |                    |   that you don't have to press a button on deck 1 when you're currently     |
-|                  |               |                    |   working on deck 2.                                                        |
+|                  |               |                    |   that you don't have to press a button on the left side when you're        |
+|                  |               |                    |   currently working on the right side.                                      |
 +------------------+---------------+--------------------+-----------------------------------------------------------------------------+
 | Button Row 2     | Effect Unit 1 | Button 1           | - Press: Toggles effect focus mode.                                         |
 |                  +---------------+--------------------+ - Shift + Press: Toggles effect unit.                                       |
