@@ -64,102 +64,88 @@ The controls are divided into five parts:
 .. figure:: ../../_static/controllers/behringer_bcr2000.svg
   :width: 600
 
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Control                                | Description                                                                 |
-+========================================+=============================================================================+
-| 1st Push Encoder                       | - Rotate: Manipulates the key of the track in semitones.                    |
-|                                        | - Push: Resets the key to the original track key.                           |
-| - Deck 1: Encoder 1 (:hwlabel:`TYPE`)  |                                                                             |
-| - Deck 2: Encoder 5 (:hwlabel:`VAL 2`) |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| 2nd Push Encoder                       | Increases or decreases the size of the current loop in beats.               |
-|                                        |                                                                             |
-| - Deck 1: Encoder 2 (:hwlabel:`CH`)    |                                                                             |
-| - Deck 2: Encoder 6 (:hwlabel:`MODE`)  |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| 3rd Push Encoder                       | Moves the current loop left or right.                                       |
-|                                        |                                                                             |
-| - Deck 1: Encoder 3 (:hwlabel:`PAR`)   |                                                                             |
-| - Deck 2: Encoder 7                    |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| 4th Push Encoder                       | Increases or decreases the number of beats to move the loop.                |
-|                                        |                                                                             |
-| - Deck 1: Encoder 4 (:hwlabel:`VAL 1`) |                                                                             |
-| - Deck 2: Encoder 8                    |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 1, 1st Button               |                                                                             |
-|                                        |                                                                             |
-| - Deck 1: Button 1                     | - Press: Toggles keylock.                                                   |
-| - Deck 2: Button 5                     | - Shift + Press: Toggles vinyl control mode.                                |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 1, 2nd Button               |                                                                             |
-|                                        | - Press: Toggles a loop that ends at the current play position.             |
-| - Deck 1: Button 2                     | - Shift + Press: Toggles a rolling loop. Playback will resume where         |
-| - Deck 2: Button 6                     |   the track would have been if it had not entered the loop.                 |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 1, 3rd Button               |                                                                             |
-|                                        | - Press: Toggles reverse playback.                                          |
-| - Deck 1: Button 3                     | - Shift + Press: Toggles rolling reverse playback. Playback continues       |
-| - Deck 2: Button 7                     |   where the track would have been if it had not been temporarily reversed.  |
-+----------------------------------------+--------+--------------------------------------------------------------------+
-| Button Row 1, 4th Button               | Toggles shift. The Shift buttons change the controls as described in this   |
-|                                        | table and the behaviour of the effect units (see `Standard Effects Mapping  |
-| - Button 3                             | <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_      |
-| - Button 7                             | in the Wiki).                                                               |
-|                                        |                                                                             |
-|                                        | .. note:: Both Shift buttons have the same effect, they are not             |
-|                                        |   deck-specific. The design decision was to keep the layout symmetric so    |
-|                                        |   that you don't have to press a button on the left side when you're        |
-|                                        |   working on the right side.                                                |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 2, 1st Button               |                                                                             |
-|                                        |                                                                             |
-| - Effect Unit 1: Button 1              | - Press: Toggles effect focus mode.                                         |
-| - Effect Unit 2: Button 5              | - Shift + Press: Toggles effect unit.                                       |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 2, 2nd Button               | Toggles parameter button 1.                                                 |
-|                                        |                                                                             |
-| - Effect Unit 1: Button 2              |                                                                             |
-| - Effect Unit 2: Button 6              |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 2, 3rd Button               | Toggles parameter button 2.                                                 |
-|                                        |                                                                             |
-| - Effect Unit 1: Button 3              |                                                                             |
-| - Effect Unit 2: Button 7              |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Row 2, 4th Button               | Toggles parameter button 3.                                                 |
-|                                        |                                                                             |
-| - Effect Unit 1: Button 4              |                                                                             |
-| - Effect Unit 2: Button 8              |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Encoder Row 1, 1st Encoder             | Adjust the mixing of the dry (input) signal with the wet (output) signal    |
-|                                        | of the effect unit.                                                         |
-| - Effect Unit 1: Encoder 1             |                                                                             |
-| - Effect Unit 2: Encoder 5             |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Encoder Row 1, 2nd Encoder             | Controls parameter of effect 1.                                             |
-|                                        |                                                                             |
-| - Effect Unit 1: Encoder 2             |                                                                             |
-| - Effect Unit 2: Encoder 6             |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Encoder Row 1, 3rd Encoder             | Controls parameter of effect 2.                                             |
-|                                        |                                                                             |
-| - Effect Unit 1: Encoder 3             |                                                                             |
-| - Effect Unit 2: Encoder 7             |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Encoder Row 1, 4th Encoder             | Controls parameter of effect 3.                                             |
-|                                        |                                                                             |
-| - Effect Unit 1: Encoder 4             |                                                                             |
-| - Effect Unit 2: Encoder 8             |                                                                             |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Box, Top Left Button            | Toggles assignment of Effect Unit 1 to Deck 1.                              |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Box, Top Right Button           | Toggles assignment of Effect Unit 1 to Deck 2.                              |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Box, Bottom Left Button         | Toggles assignment of Effect Unit 2 to Deck 1.                              |
-+----------------------------------------+-----------------------------------------------------------------------------+
-| Button Box, Bottom Right Button        | Toggles assignment of Effect Unit 2 to Deck 2.                              |
-+----------------------------------------+-----------------------------------------------------------------------------+
++-------------------------------------------------------+-----------------------------------------------------------------------------+
+| Control                                               | Description                                                                 |
++==================+===============+====================+=============================================================================+
+| 1st Push Encoder | Deck 1        | Encoder 1          | - Rotate: Manipulates the key of the track in semitones.                    |
+|                  |               | (:hwlabel:`TYPE`)  | - Push: Resets the key to the original track key.                           |
+|                  +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Encoder 5          |                                                                             |
+|                  |               | (:hwlabel:`VAL 2`) |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| 2nd Push Encoder | Deck 1        | Encoder 2          | Increases or decreases the size of the current loop in beats.               |
+|                  |               | (:hwlabel:`CH`)    |                                                                             |
+|                  +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Encoder 5          |                                                                             |
+|                  |               | (:hwlabel:`VAL 2`) |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| 3rd Push Encoder | Deck 1        | Encoder 3          | Moves the current loop left or right.                                       |
+|                  |               | (:hwlabel:`PAR`)   |                                                                             |
+|                  +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Encoder 7          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| 4th Push Encoder | Deck 1        | Encoder 4          | Increases or decreases the number of beats to move the loop.                |
+|                  |               | (:hwlabel:`VAL 1`) |                                                                             |
+|                  +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Encoder 8          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 1,    | Deck 1        | Button 1           | - Press: Toggles keylock.                                                   |
+| 1st Button       +---------------+--------------------+ - Shift + Press: Toggles vinyl control mode.                                |
+|                  | Deck 2        | Button 5           |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 1,    | Deck 1        | Button 2           | - Press: Toggles a loop that ends at the current play position.             |
+| 2nd Button       +---------------+--------------------+ - Shift + Press: Toggles a rolling loop. Playback will resume where         |
+|                  | Deck 2        | Button 6           |   the track would have been if it had not entered the loop.                 |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 1,    | Deck 1        | Button 3           | - Press: Toggles reverse playback.                                          |
+| 3rd Button       +---------------+--------------------+ - Shift + Press: Toggles rolling reverse playback. Playback continues       |
+|                  | Deck 2        | Button 7           |   where the track would have been if it had not been temporarily reversed.  |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 1,    | Deck 1        | Button 4           | Toggles shift. The Shift buttons change the controls as described in this   |
+| 4th Button       +---------------+--------------------+ table and the behaviour of the effect units (see `Standard Effects Mapping  |
+|                  | Deck 2        | Button 8           | <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_      |
+|                  |               |                    | in the Wiki).                                                               |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 2,    | Effect Unit 1 | Button 1           | - Press: Toggles effect focus mode.                                         |
+| 1st Button       +---------------+--------------------+ - Shift + Press: Toggles effect unit.                                       |
+|                  | Effect Unit 2 | Button 5           |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 2,    | Effect Unit 1 | Button 2           | Toggles parameter button 1.                                                 |
+| 2nd Button       +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Button 6           |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 2,    | Effect Unit 1 | Button 3           | Toggles parameter button 2.                                                 |
+| 3rd Button       +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Button 7           |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Row 2,    | Effect Unit 1 | Button 4           | Toggles parameter button 3.                                                 |
+| 4th Button       +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Button 8           |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Encoder Row 1,   | Effect Unit 1 | Encoder 1          | Adjust the mixing of the dry (input) signal with the wet (output) signal    |
+| 1st Encoder      +---------------+--------------------+ of the effect unit.                                                         |
+|                  | Effect Unit 2 | Encoder 5          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Encoder Row 1,   | Effect Unit 1 | Encoder 2          | Controls the parameter of effect 1.                                         |
+| 2nd Encoder      +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Encoder 6          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Encoder Row 1,   | Effect Unit 1 | Encoder 3          | Controls the parameter of effect 2.                                         |
+| 3rd Encoder      +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Encoder 7          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Encoder Row 1,   | Effect Unit 1 | Encoder 4          | Controls the parameter of effect 3.                                         |
+| 4th Encoder      +---------------+--------------------+                                                                             |
+|                  | Effect Unit 2 | Encoder 8          |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Box,      | Deck 1        | Left Button        | Toggles assignment of Effect Unit 1.                                        |
+| 1st row          +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Right Button       |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
+| Button Box,      | Deck 1        | Left Button        | Toggles assignment of Effect Unit 2.                                        |
+| 2nd row          +---------------+--------------------+                                                                             |
+|                  | Deck 2        | Right Button       |                                                                             |
++------------------+---------------+--------------------+-----------------------------------------------------------------------------+
 
 Overlay
 ^^^^^^^
