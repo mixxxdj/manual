@@ -66,6 +66,8 @@ The controls are divided into five parts:
 
 +-------------------------------------------------------+-----------------------------------------------------------------------------+
 | Control                                               | Description                                                                 |
++------------------+---------------+--------------------+                                                                             |
+| Location         | Affects       | Hardware control   |                                                                             |
 +==================+===============+====================+=============================================================================+
 | Push Encoder Row | Deck 1        | Encoder 1          | - Rotate: Manipulates the key of the track in semitones.                    |
 |                  |               | (:hwlabel:`TYPE`)  | - Push: Resets the key to the original track key.                           |
@@ -101,9 +103,9 @@ The controls are divided into five parts:
 |                  +---------------+--------------------+ - Shift + Press: Toggles rolling reverse playback. Playback continues       |
 |                  | Deck 2        | Button 7           |   where the track would have been if it had not been temporarily reversed.  |
 +                  +---------------+--------------------+-----------------------------------------------------------------------------+
-|                  | Deck 1        | Button 4           | - Press: Toggles shift.                                                     |
+|                  | All controls  | Button 4           | - Press: Toggles shift.                                                     |
 |                  +---------------+--------------------+   Shift changes the behaviour of controls as described in this table, and   |
-|                  | Deck 2        | Button 8           |   additionally the behaviour of the effect units. See                       |
+|                  | All controls  | Button 8           |   additionally the behaviour of the effect units. See                       |
 |                  |               |                    |   `Standard Effects Mapping                                                 |
 |                  |               |                    |   <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_    |
 |                  |               |                    |   for details.                                                              |
