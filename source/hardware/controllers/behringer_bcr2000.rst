@@ -65,9 +65,9 @@ The controls are divided into five parts:
   :width: 600
 
 +-------------------------------------------------------+-----------------------------------------------------------------------------+
-| Control                                               | Description                                                                 |
+| Control                                               | .. class:: center                                                           |
 +------------------+---------------+--------------------+                                                                             |
-| Location         | Affects       | Hardware control   |                                                                             |
+| Location         | Affects       | Hardware control   | Description                                                                 |
 +==================+===============+====================+=============================================================================+
 | Push Encoder Row | Deck 1        | Encoder 1          | - Rotate: Manipulates the key of the track in semitones.                    |
 |                  |               | (:hwlabel:`TYPE`)  | - Push: Resets the key to the original track key.                           |
