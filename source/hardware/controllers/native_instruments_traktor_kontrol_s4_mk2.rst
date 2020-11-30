@@ -54,7 +54,7 @@ Control                                             Description
 :hwlabel:`FILTER` knob                              Controls QuickEffect superknob. This controls the Filter effect by default, but a different effect can be chosen in the Equalizer section of Mixxs’s Preferences.
 :hwlabel:`SNAP`                                     Toggles library fullscreen
 :hwlabel:`LOOP RECORD`                              Toggles recording
-:hwlabel:`PLAY`                                     Hold down to use as a modifier.
+:hwlabel: `LOOP RECORDER PLAY`                      Hold down to use as a modifier.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
 :hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Clicking in acts like a double click on the mouse.
 ==================================================  =========================================================================
@@ -78,7 +78,7 @@ Small buttons with preview icons                     Play a sampler from its cue
 :hwlabel:`1-4` numbered buttons                      Set/activate :term:`hotcue`
 :hwlabel:`SHIFT` + :hwlabel:`1-4` numbered buttons   Clear hotcue
 :hwlabel:`SHIFT` + Wheel nudge                       Fast search through track when not playing
-:hwlabel:`FLUX` button                               Enable slip mode (if shift is held down this decreases the range of the BPM slider, is play button is held down enter autoslip mode)
+:hwlabel:`FLUX` button                               Enable slip mode (if shift is held down this decreases the range of the BPM slider, if :hwlabel:`LOOP RECORDER PLAY` is held down enter autoslip mode)
 :hwlabel:`RESET` button                              Reset key (if shift is held down increase the range of the BPM slider
 
 ===================================================  =========================================================================
