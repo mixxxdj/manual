@@ -54,7 +54,7 @@ Control                                             Description
 :hwlabel:`FILTER` knob                              Controls QuickEffect superknob. This controls the Filter effect by default, but a different effect can be chosen in the Equalizer section of Mixxs’s Preferences.
 :hwlabel:`SNAP`                                     Toggles library fullscreen
 :hwlabel:`LOOP RECORD`                              Toggles recording
-:hwlabel: `LOOP RECORDER PLAY`                      Hold down to use as a modifier.
+:hwlabel:`LOOP RECORDER PLAY`                       Hold down to use as a modifier.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
 :hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Clicking in acts like a double click on the mouse.
 ==================================================  =========================================================================
