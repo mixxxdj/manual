@@ -4,9 +4,9 @@ Behringer B-Control BCR2000
 - `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0245>`_
 - `Forum thread <https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287>`_
 
-The B-CONTROL BCR2000 is a general-purpose :term:`USB` :term:`MIDI` controller containing 20 buttons, 24 rotary
-encoders and 8 push encoders. Every control is backed by LEDs that show the current value. As a
-pure MIDI controller it contains no interfaces for audio or microphones.
+The B-CONTROL BCR2000 is a general-purpose :term:`USB` :term:`MIDI` controller containing 20
+buttons, 24 rotary encoders and 8 push encoders. Every control is backed by LEDs that show the
+current value. As a pure MIDI controller it contains no interfaces for audio or microphones.
 
 The controller can be be configured extensively.
 It offers 32 presets that may be programmed by the user.
@@ -25,10 +25,10 @@ Controller Preset
 ^^^^^^^^^^^^^^^^^
 The default mapping works out-of-the-box for the factory settings of controller preset 1.
 
-If you don't want to use this preset, you can choose one of the
-following options:
+If you don't want to use this preset, you can choose one of the following options:
 
-#. Load the dump file ``bcr_Only_Controllers.syx`` via Sysex to any other preset slot.
+#. Load the dump file ``bcr_Only_Controllers.syx`` via Sysex to any other preset slot and update
+   the preset number in the ``init`` function in the file ``Behringer-BCR2000-scripts.js``.
    The dump file and instructions how to install it in the controller is available on the
    manufacturer's webpage.
 #. Factory reset the controller.
