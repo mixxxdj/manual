@@ -123,7 +123,7 @@ Making these changes is still a little awkward and we will be making controller 
 For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
 
 1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
-3. Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`.
-4. Click :guilabel:`Open Selected File`.
-5. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
-6. At the top of the file will be short instructions explaining what to do.
+2. Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`.
+3. Click :guilabel:`Open Selected File`.
+4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
+5. At the top of the file will be short instructions explaining what to do.
