@@ -294,7 +294,7 @@ easier. Command line options are case-sensitive.
 In addition to these options, it is possible to specify one or more music
 file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
-types, go to :ref:`configuration-import`.
+types, go to :ref:`file-format-compatibility`.
 
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
