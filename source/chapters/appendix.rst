@@ -296,6 +296,12 @@ file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
 types, go to :ref:`configuration-import`.
 
+To launch Mixxx using the command line:
+For Windows OS, open the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and clicking 'Properties'. The path will usually look like ``C:\Program Files\Mixxx`` or ``C:\Program Files (x86)\Mixxx``. Change directory to this path in the command line by typing ``cd C:\Program Files\Mixxx``. Once the command prompt is at this location, type ``mixxx`` and press Enter.
+
+To launch Mixxx with any of the options below; type ``mixxx`` and append the option. For example, to enable developer mode, you will type the command ``mixxx --developer``.
+
+
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
                         overriding the default installation location.
