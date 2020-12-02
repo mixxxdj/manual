@@ -75,7 +75,7 @@ Setup
        and button area.
 
 10. Click the Enable checkbox in the right pane
-11. Click the drop-down and choose the “American Audio VMS4” preset
+11. Click the drop-down and choose the :guilabel:`American Audio VMS4` preset
 12. Click OK and the controller should light up. (In 1.9.x, the
     controller will light up when you load a track to a deck.)
 13. Continue reading below to know how everything is mapped
