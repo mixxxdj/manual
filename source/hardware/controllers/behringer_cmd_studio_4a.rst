@@ -16,7 +16,6 @@ stereo headphones) USB sound card built in.
 
 -  `Manufacturer’s product page <https://www.behringer.com/product.html?modelCode=P0809>`__
 -  `Mixxx Forum Thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7868>`__
--  `Manufacturer’s manual <https://media.music-group.com/media/PLM/data/docs/P0809/CMD-STUDIO-4A_QSG_WW.pdf>`__
 
 .. versionadded:: 2.1
 

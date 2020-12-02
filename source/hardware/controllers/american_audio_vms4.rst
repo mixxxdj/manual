@@ -7,9 +7,8 @@ controller, except that those hardware issues have been fixed. The
 Traktor edition has different labels on some buttons & knobs, but it’s
 otherwise the same hardware as the VMS4.1.
 
--  `Original VMS4 <http://www.adj.com/vms4>`__
+-  `VMS4 <http://www.adj.com/vms4>`__
 -  `VMS4.1 <http://www.adj.com/vms4-1>`__
--  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
 -  `VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__
 
 .. versionadded:: 1.9

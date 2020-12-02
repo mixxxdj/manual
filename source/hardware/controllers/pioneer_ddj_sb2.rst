@@ -3,8 +3,8 @@ Pioneer DDJ-SB2
 
 The Pioneer DDJ-SB2 is an all-in-one USB :term:`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
 
--  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb2/black/overview/>`__
--  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26#p26782>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sb2/black/overview/>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26>`__
 
 .. versionadded:: 2.0
 
@@ -20,7 +20,7 @@ be noise added to the main RCA outputs.
 Windows
 ~~~~~~~
 
-Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/#drivers>`__ for Windows versions 7 and newer. Select the ASIO sound :term:`API` in Mixxx’s Sound Hardware Preferences.
+Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/>`__ for Windows versions 7 and newer. Select the ASIO sound :term:`API` in Mixxx’s Sound Hardware Preferences.
 
 Mac OS X & Linux
 ~~~~~~~~~~~~~~~~

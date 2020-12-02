@@ -16,8 +16,7 @@ Compatibility
 This controller is a class compliant USB MIDI and audio device, so it
 can be used without any special drivers on GNU/Linux, Mac OS X, and
 Windows. For Windows, please install the latest driver package available from
-the `Support
-page <https://support.hercules.com/es/product/djcontroljogvision-es/>`__.
+the manufacturer's product page.
 
 Sound card setup
 ----------------
