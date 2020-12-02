@@ -294,25 +294,10 @@ To launch Mixxx using the command line:
 
     "C:\Program Files\Mixxx\mixxx"
 
-  You could also choose to first ::
+**macOS**
+  Similarly, for macOS, the command will be ::
 
-    cd "C:\Program Files\Mixxx"
-
-  and then enter ::
-
-    mixxx
-
-
-**Mac OSX**
-  Similarly, for MacOSX, the command will be ::
-
-    %PROGRAMFILES%\Mixxx\mixxx.exe
-
-  or ::
-
-    %PROGRAMFILES(x86)%\Mixxx\mixxx.exe
-
-  depending on the path in which you have Mixxx installed.
+    /Applications/Mixxx.app/Contents/MacOS/mixxx
 
 **GNU/ Linux**
   The command is ::
