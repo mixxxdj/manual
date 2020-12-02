@@ -7,6 +7,8 @@ Stanton SCS.3d “DaScratch”
 -  `Walk-through video! <http://www.youtube.com/watch?v=8DUpTikA8u0>`__
 
 .. versionadded:: 1.7
+.. versionadded:: 2.0
+   Alternate mapping with many more visual effects (flashing lights) and different behavior.
 
 Default Mapping
 ---------------
@@ -289,15 +291,6 @@ You are in this mode only **while holding down the Deck button**, unless the con
 -  Hold the Deck button down and touch any slider to reset it to its default
    value
 -  Press Deck + Play together to change the active deck
-
-Alternate mapping
------------------
-
-An alternate preset was provided by a member of the community for Mixxx 2.0. It
-has many more visual effects (flashing lights) and behaves somewhat differently
-from the official preset above. To use this alternate preset in Mixxx 2.0,
-select the preset labeled **Stanton SCS.3d (alternate)** from the drop down menu
-in the controller preferences.
 
 General controls
 ~~~~~~~~~~~~~~~~
