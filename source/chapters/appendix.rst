@@ -300,7 +300,7 @@ To launch Mixxx using the command line:
     /Applications/Mixxx.app/Contents/MacOS/mixxx
 
 **GNU/ Linux**
-  If Mixxx is in our system's search path (``$PATH``), you can just type ::
+  If Mixxx is in your system's search path (``$PATH``), you can just type ::
 
    mixxx
 
