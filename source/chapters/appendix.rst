@@ -284,22 +284,59 @@ Debugger Enabled                          :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`
 
 .. _appendix-command-line-options:
 
+Launching Mixxx from the Command Line
+=====================================
+To launch Mixxx using the command line:
+
+**Windows**
+  Locate the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and then choosing 'Properties'.
+  Copy the path and paste it in terminal and add ``\mixxx`` at the end - everything should be inside quotes. Press Enter. The entire command will look like this ::
+
+    "C:\Program Files\Mixxx\mixxx"
+
+  You could also choose to first ::
+
+    cd "C:\Program Files\Mixxx"
+
+  and then enter ::
+
+    mixxx
+
+
+**Mac OSX**
+  Similarly, for MacOSX, the command will be ::
+
+    %PROGRAMFILES%\Mixxx\mixxx.exe
+
+  or ::
+
+    %PROGRAMFILES(x86)%\Mixxx\mixxx.exe
+
+  depending on the path in which you have Mixxx installed.
+
+**GNU/ Linux**
+  The command is ::
+
+   mixxx
+
+  (assuming the mixxx executable is in $PATH). Press Enter.
+
 Command line options
-====================
+--------------------
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
+
+To launch Mixxx with any of these command line options, simply append the option to the base command for your operating system. For example, to launch Mixxx in developer mode on Windows, type this in terminal ::
+
+  "C:\Program Files\Mixxx\mixxx" --developer
 
 In addition to these options, it is possible to specify one or more music
 file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
 types, go to :ref:`configuration-import`.
 
-To launch Mixxx using the command line:
-For Windows OS, open the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and clicking 'Properties'. The path will usually look like ``C:\Program Files\Mixxx`` or ``C:\Program Files (x86)\Mixxx``. Change directory to this path in the command line by typing ``cd C:\Program Files\Mixxx``. Once the command prompt is at this location, type ``mixxx`` and press Enter.
-
-To launch Mixxx with any of the options below; type ``mixxx`` and append the option. For example, to enable developer mode, you will type the command ``mixxx --developer``.
 
 
 --resourcePath PATH     Top-level directory where Mixxx will look for
