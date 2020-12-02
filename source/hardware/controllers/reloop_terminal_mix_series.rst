@@ -65,7 +65,7 @@ you can set to your liking:
 
 Just open the :file:`Reloop Terminal Mix 2-4.js` file in your favorite
 text editor and you’ll see these variables right near the top. Edit and save and
-Mixxx will automatically reload the preset.
+Mixxx will automatically reload the mapping.
 
 
 Deck controls

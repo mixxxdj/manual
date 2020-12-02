@@ -11,11 +11,11 @@ Adding support for your MIDI/HID Controller
 With several dozens of DJ controllers supported out-of-the-box, Mixxx gives you
 comprehensive hardware control for your DJ mixes, see :ref:`control-midi`.
 
-Support for additional devices can be added to Mixxx by creating a new preset
+Support for additional devices can be added to Mixxx by creating a new mapping
 file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
-You can download and share custom controller presets in the
+You can download and share custom controller mappings in the
 `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 
@@ -33,7 +33,7 @@ Controller Wizard
 
    Mixxx Controller Wizard -  Mapping a control
 
-By far, the easiest way to create a new MIDI preset is by using the Controller
+By far, the easiest way to create a new MIDI mapping is by using the Controller
 Wizard.
 
 #. Connect your controller(s) to your computer
@@ -71,14 +71,14 @@ There are also some advanced options in the Midi Wizard you may need to use:
 * Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or an
   end, but spin continuously.
 
-The Controller wizard saves the new preset to the following file paths:
+The Controller wizard saves the new mapping to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
 * macOS: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
-ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
+ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more
 information, go to
 `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_.
 
