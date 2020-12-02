@@ -408,6 +408,8 @@ Mixxx supports the following filters:
 +--------------------------------------+---------------------------------------+---------------------------------------+
 | genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
 +--------------------------------------+---------------------------------------+---------------------------------------+
+| genre:"electro "                     |                                       |                                       |
++--------------------------------------+---------------------------------------+---------------------------------------+
 | Note it doesn't matter if you have   | Note that you can put a space after   | Note that you can put a space after   |
 | space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
 | argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
