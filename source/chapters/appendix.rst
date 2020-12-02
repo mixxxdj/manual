@@ -315,11 +315,9 @@ To launch Mixxx using the command line:
   depending on the path in which you have Mixxx installed.
 
 **GNU/ Linux**
-  The command is ::
+  If Mixxx is in our system's search path (``$PATH``), you can just type ::
 
    mixxx
-
-  (assuming the mixxx executable is in $PATH). Press Enter.
 
 Command line options
 --------------------
