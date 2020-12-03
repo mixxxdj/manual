@@ -85,7 +85,7 @@ Transport Mode Buttons
 ~~~~~~~~~~~~~~~~~~~~~~
 
 =================================  ==========================================================
-Control
+Control                            Description
 =================================  ==========================================================
 :hwlabel:`REV`                     Activates a reverse-roll (aka "censor") effect.
 :hwlabel:`SHIFT` + :hwlabel:`REV`  Turns on reverse playback mode.
