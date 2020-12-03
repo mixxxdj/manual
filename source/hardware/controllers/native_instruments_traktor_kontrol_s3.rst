@@ -4,8 +4,6 @@ Native Instruments Traktor Kontrol S3
 .. sectionauthor::
   Owen Williams <owilliams at mixxx.org>
 
-.. versionadded:: 2.3.0
-
 The Kontrol S3 is an introductory 4 deck controller with good build
 quality and integrated sound card. This is the first controller released
 with the "S3" name.
@@ -16,6 +14,8 @@ it in daylight, and increases the volume of the headphone output.
 
   - `Manufacturer's product
     page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__
+
+.. versionadded:: 2.3.0
 
 Compatibility
 -------------
