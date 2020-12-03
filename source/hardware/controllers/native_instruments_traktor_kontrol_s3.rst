@@ -98,7 +98,7 @@ Looping
 ~~~~~~~
 
 ======================================   ================================================
-Control
+Control                                  Description
 ======================================   ================================================
 Right Encoder Turn                       Double/halve loop size.
 Right Encoder Press                      Activate loop of set size from current position.
