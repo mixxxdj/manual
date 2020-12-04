@@ -364,7 +364,38 @@ Mixxx supports the following filters:
 * **Text filtering**: album_artist, album, artist, comment, composer, crate,
   genre, grouping, location, title
 
+  Examples
+    ::
+
+      artist: “com truise”
+      album:Danger
+      genre: Trance
+      title: foo
+      composer: foo
+      comment: foo
+      genre:hip-hop -genre:gangsta
+
+  .. note::
+     It doesn't matter if you have space between the colon and the argument
+     or not. Quotes must be used for multi-word text arguments.
+
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
+
+  Examples
+    ::
+
+      bpm:140
+      bpm: >140
+      year: <2010
+      bpm: >=140
+      rating: <=4
+      bpm: 140-150
+      played: >10
+
+  .. note::
+     You can put a space after the colon but currently there must be no space
+     between the operator and the number.
+
 
 * **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
@@ -391,28 +422,17 @@ Mixxx supports the following filters:
        genre:hip-hop -year:1990
 
 
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| Examples for text filtering          | Examples for numeric filtering        | Examples for duration filtering       |
-+======================================+=======================================+=======================================+
-| artist: “com truise”                 | bpm:140                               | duration:2m10                         |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| album:Danger                         | bpm: >140                             | duration:<2:10                        |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| genre: Trance                        | year: <2010                           | duration:>1m35s                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| title: foo                           | bpm: >=140                            | duration:>62                          |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| composer: foo                        | rating: <=4                           |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| comment: foo                         | bpm: 140-150                          |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| Note it doesn't matter if you have   | Note that you can put a space after   | Note that you can put a space after   |
-| space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
-| argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
-| for multi-word text arguments.       | number.                               | number.                               |
-+--------------------------------------+---------------------------------------+---------------------------------------+
+  Examples
+    ::
+
+      duration:2m10
+      duration:<2:10
+      duration:>1m35s
+      duration:>62
+
+  .. note::
+     You can put a space after the colon but currently there must be no space
+     between the operator and the number.
 
 .. _library-previewing-tracks:
 
