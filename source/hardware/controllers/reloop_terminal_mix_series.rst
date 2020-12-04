@@ -63,9 +63,9 @@ you can set to your liking:
 
 - ``pitchRanges``: Set the pitch slider range each time you toggle it.
 
-Just open the ``controllers/Reloop Terminal Mix 2-4.js`` file in your favorite
+Just open the :file:`Reloop Terminal Mix 2-4.js` file in your favorite
 text editor and you’ll see these variables right near the top. Edit and save and
-Mixxx will automatically reload the preset.
+Mixxx will automatically reload the mapping.
 
 
 Deck controls
