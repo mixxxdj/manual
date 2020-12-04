@@ -179,3 +179,8 @@ a:hover {
 .btn-link:visited {
     color: #b69b59;
 }
+
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal;
+}
