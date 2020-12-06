@@ -397,8 +397,7 @@ Grounding problem
 ~~~~~~~~~~~~~~~~~
 
 If your controller randomly freezes or your iPad or Android tablet acts weirdly
-(screen flashing, bad sound), `make a home made, grounded power
-cable <http://support.reloopdj.com/beatpad/otg-cable-missing-in-my-box-any-otg/>`__.
+(screen flashing, bad sound), make a home made, grounded power cable.
 
 Controller not detected by Windows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

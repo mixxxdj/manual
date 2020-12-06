@@ -55,7 +55,7 @@ Mapping description
    :figclass: pretty-figures
 
    Vestax VCI-300 (schematic view)
-   Image (c) `Vestax <http://www.vestax.com>`__
+   Image (c) Vestax
 
 
 Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely resemble the original to make the transition easy.
