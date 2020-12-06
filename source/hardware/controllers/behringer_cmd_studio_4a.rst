@@ -15,7 +15,7 @@ virtual decks and has a built in 4 channel (one stereo master, one
 stereo headphones) USB sound card built in.
 
 -  `Manufacturer’s product page <https://www.behringer.com/product.html?modelCode=P0809>`__
--  `Mixxx Forum Thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7868>`__
+-  `Mixxx Forum Thread <https://mixxx.discourse.group/t/new-behringer-cmd-studio-4a-mapping/15604>`__
 
 .. versionadded:: 2.1
 
