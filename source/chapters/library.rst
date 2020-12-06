@@ -888,7 +888,7 @@ hotcues and the beatgrids), and removes links to playlists or crates.
 .. hint:: If you later decide to add some of the deleted tracks back, import
           them to the Mixxx library again, see :ref:`configuration-import`.
 
-.. _getting-started-file-format-compatibility:
+.. _file-format-compatibility:
 
 Compatible file formats
 =======================
