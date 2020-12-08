@@ -906,7 +906,7 @@ Regardless of whether a track is loaded into deck from the libray or directly fr
 
 Saved loops are imported as well, but since Mixxx is lacking support for multiple saved loops, only the first loop is usable in Mixxx.
 All other saved loops can be used like regular hotcues for now.
-   
+
 Waveforms, Gain values and "Flips" are not imported from Serato.
 
 .. note:: Due to differences in the metadata format, importing Serato information from Ogg Vorbis files is currently not supported.
@@ -928,7 +928,7 @@ To reimport metadata from files:
 * Select :menuselection:`Metadata --> Import From File Tags`.
 
 .. hint:: Decoders may slightly detect different track start and end times for files from different sources, this could possibly be because of the presence of countless encoders and decoders for MP3 and M4A/AAC.
-          This problem may cause your cues to be shifted up by a few milliseconds. 
+          This problem may cause your cues to be shifted up by a few milliseconds.
           Mixxx might not always be able to mitigate this problem, but it's possible to shift all cues for a track at once as a workaround.
 
 .. _library-removing-tracks:
