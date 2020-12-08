@@ -36,6 +36,19 @@ HID for the knobs, buttons, and other components on the device, so the
 mapping can only be loaded when you select the HID device on the left
 side of Mixxx's Preferences.
 
+Audio Hardware setup
+--------------------
+
+The S3 has a standard 4 channel sound card.  You should configure the channels
+as follows:
+
+============  =====================
+Audio Output  Channel Configuration
+============  =====================
+Master        Channel 1-2
+Headphones    Channel 3-4
+============  =====================
+
 Mapping description
 -------------------
 
