@@ -17,7 +17,13 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Wiki**: For up-to-date information about supported DJ hardware,
   documentation on making controller mappings, and other tips and tricks, go to:
-  `<https://mixxx.org/wiki/>`_
+  `<https://github.com/mixxxdj/mixxx/wiki>`_
+
+* **Keyboard Shortcuts**: This a list for all default Mixxx keyboard shortcuts.
+  Please note that these shortcuts are for keyboards configured in English
+  layout and default shortcuts may be different if your language setting
+  is not English.
+  :ref:`default keyboard mappings<appendix-keyboard>`
 
 * **Mixxx Community Forums**: To search for answers, post your question or
   answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
@@ -35,7 +41,7 @@ There are a variety of other resources where you can find out more:
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
-  read the `Translation FAQ <https://mixxx.org/wiki/doku.php/internationalization>`_
+  read the `Translation FAQ <https://github.com/mixxxdj/mixxx/wiki/internationalization>`_
   first.
 
 * **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
@@ -71,9 +77,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Playback**                                                                                                                                             |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Load selected track to deck            | :kbd:`Shift` + :kbd:`left`              | :kbd:`Shift` + :kbd:`right`              |                            |
+| Load selected track to deck            | :kbd:`Shift` + :kbd:`←`                 | :kbd:`Shift` + :kbd:`→`                  |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`left` | :kbd:`Alt` + :kbd:`Shift` + :kbd:`right` |                            |
+| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`←`    | :kbd:`Alt` + :kbd:`Shift` + :kbd:`→`     |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Playback                               | :kbd:`D`                                | :kbd:`L`                                 |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -101,7 +107,7 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Tempo (BPM) Sync                       | :kbd:`1`                                | :kbd:`6`                                 |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| BPM Tap Tempo Adjust                   | :kbd:`Shift` + :kbd:`!`                 | :kbd:`Shift` + :kbd:`^`                  |                            |
+| BPM Tap Tempo Adjust                   | :kbd:`Shift` + :kbd:`!`                 | :kbd:`Shift` + :kbd:`⌃`                  |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Cue and Loop**                                                                                                                                         |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -159,9 +165,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Start/Stop                             |                                         |                                          | :kbd:`Return`              |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`Left`   |
+| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`←`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`Right`  |
+| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`→`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Vinyl Control**                                                                                                                                        |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -278,17 +284,43 @@ Debugger Enabled                          :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`
 
 .. _appendix-command-line-options:
 
+Launching Mixxx from the Command Line
+=====================================
+To launch Mixxx using the command line:
+
+**Windows**
+  Locate the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and then choosing 'Properties'.
+  Copy the path and paste it in terminal and add ``\mixxx`` at the end - everything should be inside quotes. Press Enter. The entire command will look like this ::
+
+    "C:\Program Files\Mixxx\mixxx"
+
+**macOS**
+  Similarly, for macOS, the command will be ::
+
+    /Applications/Mixxx.app/Contents/MacOS/mixxx
+
+**GNU/ Linux**
+  If Mixxx is in your system's search path (``$PATH``), you can just type ::
+
+   mixxx
+
 Command line options
-====================
+--------------------
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
+To launch Mixxx with any of these command line options, simply append the option to the base command for your operating system. For example, to launch Mixxx in developer mode on Windows, type this in terminal ::
+
+  "C:\Program Files\Mixxx\mixxx" --developer
+
 In addition to these options, it is possible to specify one or more music
 file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
-types, go to :ref:`configuration-import`.
+types, go to :ref:`file-format-compatibility`.
+
+
 
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
@@ -520,7 +552,7 @@ Version History
   * Disable track metadata export for .ogg files and TagLib 1.11.1. `lp:1833190 <https://bugs.launchpad.net/mixxx/+bug/1833190>`__
   * Fix interaction of hot cue buttons and looping. `lp:1778246 <https://bugs.launchpad.net/mixxx/+bug/1778246>`__
   * Fix detection of moved tracks. `#2197 <https://github.com/mixxxdj/mixxx/pull/2197>`__
-  * Fix playlist import. `lp:16878282 <https://bugs.launchpad.net/mixxx/+bug/16878282>`__
+  * Fix playlist import. `lp:1687828 <https://bugs.launchpad.net/mixxx/+bug/1687828>`__
   * Fix updating playlist labels. `lp:1837315 <https://bugs.launchpad.net/mixxx/+bug/1837315>`__
   * Fix potential segfault on exit. `lp:1828360 <https://bugs.launchpad.net/mixxx/+bug/1828360>`__
   * Fix parsing of invalid bpm values in MP3 files. `lp:1832325 <https://bugs.launchpad.net/mixxx/+bug/1832325>`__

@@ -1,3 +1,4 @@
+{%- if current_version %}
 <span class="rst-widget-header">
   <span class="fa fa-download rst-widget-header-left"> {{ _('Download') }}</span>
   <span class="fa fa-caret-down"></span>
@@ -6,9 +7,10 @@
   <dl>
     <dt>{{ _('Offline versions of this manual') }}</dt>
     <dd>
-      <a href="{{ pathto('Mixxx-Manual.pdf', 1) }}">
+      <a href="https://downloads.mixxx.org/builds/manual/{{ current_version.name|e }}/mixxx-manual-{{ current_version.version|e }}-{{ language|e }}.pdf">
         <span class="fa fa-file-pdf-o"></span> {{ _('PDF') }}
       </a>
     </dd>
   </dl>
 </div>
+{%- endif %}

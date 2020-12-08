@@ -57,7 +57,7 @@ An audio buffer between 23-64 ms is acceptable if you are using Mixxx with a
 keyboard/mouse or a controller. An audio buffer below 10 ms is recommended
 when vinyl control is used because Mixxx will feel unresponsive otherwise.
 
-The `Adjusting Audio Latency <https://mixxx.org/wiki/doku.php/adjusting_audio_latency>`_
+The `Adjusting Audio Latency <https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_
 page on the Mixxx Wiki has tips for different operating systems
 that may help you use a smaller audio buffer reliably.
 
@@ -164,15 +164,15 @@ CoreAudio is the only Sound API on macOS.
 Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
-  :term:`audio interfaces` at a time, each with its own clock. When multiple
+  :term:`audio interface <audio interface>` at a time, each with its own clock. When multiple
   audio interfaces are in use, the Mixxx engine is driven by the Master
   audio interface. Here you can select the synchronization used for the other
   audio interfaces to avoid buffer overflows or underflows.
 
 * **Keylock/Pitch-Bending Engine**: This allows you to select the engine used
-  for independent tempo and pitch changes (e.g. :term:`keylock`). Use
+  for independent tempo and pitch changes (e.g. :term:`key lock`). Use
   :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
-  you experience buffer underflows while using :term:`keylock`.
+  you experience buffer underflows while using :term:`key lock`.
 
 * **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
   you do not use the Master output, recording or live broadcasting.
@@ -213,10 +213,29 @@ You can manually add, relink, and remove Mixxx music directories in
   sidebar item inside the library.
 
 **Relink a existing music directory**
-  If an existing music directory is moved, Mixxx doesn't know where to find the
-  audio files in it. Click :guilabel:`Relink` to select the music directory
-  in its new location. This will re-establish the links to the audio files in
-  the Mixxx library.
+  If an existing music directory is moved or renamed, Mixxx doesn't know where to
+  find the audio files in it. The tracks will still show in library but they can't
+  be loaded on decks and the tracks will become missing after the library is rescanned.
+
+  To relink the music directory, go to :menuselection:`Preferences --> Library`,
+  click :guilabel:`Relink` to select the music directory in its new location. This will
+  re-establish the links to the audio files in the Mixxx library.
+
+  Click :menuselection:`Library --> Rescan Library`, this will update the tracks and
+  cause them to show up again in the library, check the location column in the library
+  and you should see that it now points to the new music directory.
+
+  The playlists, crates, history and all track data like cue points, rating, comments etc.
+  are preserved after relinking the library, the tracks are also not re-analyzed as the cached
+  analysis is reused. You can confirm this by checking the :term:`Key <key>` and :term:`BPM <BPM>`
+  columns to see if there is a key and BPM for every track.
+
+.. note:: It is recommended to take a backup of your Mixxx configuration files before moving or renaming music directories used in Mixxx.
+          The location of Mixxx configuration files vary based on the :term:`operating system`:
+
+          * Windows: :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\`
+          * macOS: :file:`Library/Application Support/Mixxx`
+          * Linux: The configuration files are found in the ``.mixxx`` folder in your home directory.
 
 **Remove a music directory**
   Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and

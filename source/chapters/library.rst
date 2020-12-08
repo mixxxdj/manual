@@ -114,7 +114,7 @@ Tracks - View and edit your whole collection
 
 **Loading tracks**
   To load a track into a :ref:`deck <interface-decks>`, you can either drag it
-  to the waveform display or use the context menu. Go to the chapter
+  to the waveform display, use the context menu or use :term:`keyboard shortcuts <shortcut>`. Go to the chapter
   :ref:`library-loading-tracks` for detailed information.
 
 **Importing tracks**
@@ -312,17 +312,20 @@ Tracks can be loaded into a deck in several ways:
   and :guilabel:`Load in Deck 2`, among others. Making either selection will
   load a track into a deck.
 * By :ref:`control-keyboard` to load the selected track in the library track
-  table.
+  table. Use keyboard :kbd:`↑` and :kbd:`↓` arrow button to select a track, :kbd:`Shift` + :kbd:`←`
+  to load into Deck 1 and :kbd:`Shift` + :kbd:`→` to load into Deck 2.
 * Drag-and-drop from library track table: Dragging-and-dropping a track from the
   track table onto a waveform display will load the track into that deck.
 * Drag-and-drop from deck to deck: Once you've loaded a track to deck, sampler,
-  or preview deck, click on the :ref:`track title <interface-track-info>` and
+  or preview deck, click on the :ref:`track title <interface-track-info>`, :ref:`track artist <interface-track-info>` or cover art and
   drag it to another deck or sampler.
+  Note that you can also drop tracks onto Playlists and Crates in the sidebar, as well as into track tables of active Playlists or Crates.
 * Drag-and-drop from external file browser: Dragging-and-dropping a track from
   an external file browser directly onto a waveform display in Mixxx will load
   that track. This function also works with some other applications. For
   example, on macOS, dragging-and-dropping a track from iTunes onto one of
   Mixxx's waveform displays will load it into that deck.
+
 
 .. _library-finding-tracks:
 
@@ -344,7 +347,7 @@ a crate, or even the whole library) for tracks that match your search query.
 * To clear the search string hit :kbd:`ESC` or click the clear button right next
   to the input field.
 * Hit :kbd:`TAB` to cycle between the search and the list of results in the
-  library. Use the :kbd:`ARROW UP` and :kbd:`ARROW DOWN` keys to scroll in the
+  library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
   list of results.
 
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
@@ -361,7 +364,38 @@ Mixxx supports the following filters:
 * **Text filtering**: album_artist, album, artist, comment, composer, crate,
   genre, grouping, location, title
 
+  Examples
+    ::
+
+      artist: “com truise”
+      album:Danger
+      genre: Trance
+      title: foo
+      composer: foo
+      comment: foo
+      genre:hip-hop -genre:gangsta
+
+  .. note::
+     It doesn't matter if you have space between the colon and the argument
+     or not. Quotes must be used for multi-word text arguments.
+
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
+
+  Examples
+    ::
+
+      bpm:140
+      bpm: >140
+      year: <2010
+      bpm: >=140
+      rating: <=4
+      bpm: 140-150
+      played: >10
+
+  .. note::
+     You can put a space after the colon but currently there must be no space
+     between the operator and the number.
+
 
 * **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
 
@@ -395,28 +429,17 @@ Mixxx supports the following filters:
        genre:""
 
 
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| Examples for text filtering          | Examples for numeric filtering        | Examples for duration filtering       |
-+======================================+=======================================+=======================================+
-| artist: “com truise”                 | bpm:140                               | duration:2m10                         |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| album:Danger                         | bpm: >140                             | duration:<2:10                        |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| genre: Trance                        | year: <2010                           | duration:>1m35s                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| title: foo                           | bpm: >=140                            | duration:>62                          |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| composer: foo                        | rating: <=4                           |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| comment: foo                         | bpm: 140-150                          |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| genre:hip-hop -genre:gangsta         | played: >10                           |                                       |
-+--------------------------------------+---------------------------------------+---------------------------------------+
-| Note it doesn't matter if you have   | Note that you can put a space after   | Note that you can put a space after   |
-| space between the colon and the      | the colon but currently there must be | the colon but currently there must be |
-| argument or not. Quotes must be used | no space between the operator and the | no space between the operator and the |
-| for multi-word text arguments.       | number.                               | number.                               |
-+--------------------------------------+---------------------------------------+---------------------------------------+
+  Examples
+    ::
+
+      duration:2m10
+      duration:<2:10
+      duration:>1m35s
+      duration:>62
+
+  .. note::
+     You can put a space after the colon but currently there must be no space
+     between the operator and the number.
 
 .. _library-previewing-tracks:
 
@@ -586,7 +609,7 @@ The Auto DJ features in detail:
 * **Transition time spin-box**: Determines the duration of the transition. A
   negative value will add a pause between tracks.
 * **Selection Info label**: Displays the duration and number of selected tracks.
-  Press :kbd:`Ctrl + A` to get the total duration of the AutoDJ queue.
+  Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
 * **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
@@ -931,7 +954,7 @@ hotcues and the beatgrids), and removes links to playlists or crates.
 .. hint:: If you later decide to add some of the deleted tracks back, import
           them to the Mixxx library again, see :ref:`configuration-import`.
 
-.. _getting-started-file-format-compatibility:
+.. _file-format-compatibility:
 
 Compatible file formats
 =======================
@@ -968,7 +991,7 @@ is required for Windows Vista.
 
 On Linux, :file:`AAC` playback is disabled by default due to licensing restrictions.
 To enable the playback of :file:`AAC` files,
-`build Mixxx from source with m4a/AAC files support <https://mixxx.org/wiki/doku.php/compiling_on_linux#optionalbuild_with_m4a_aac_file_support>`_.
+`build Mixxx from source with m4a/AAC files support <https://github.com/mixxxdj/mixxx/wiki/Compiling-On-Linux#user-content-optional-build-with-m4aaac-file-support>`_.
 
 .. warning:: :term:`DRM` protected files, such as m4p files purchased in the
              iTunes Store in 2009 or earlier, are not supported.
