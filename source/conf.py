@@ -32,6 +32,7 @@ import sphinx_rtd_theme
 extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.graphviz",
+    "sphinxcontrib.rsvgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
@@ -284,6 +285,7 @@ latex_elements = {
     "classoptions": ",openany,oneside",
     "babel": "\\usepackage[english]{babel}",
 }
+latex_use_xindy = False
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -442,4 +444,4 @@ epub_copyright = u"2011-2020, The Mixxx Development Team"
 linkcheck_ignore = [r"^https://github.com/mixxxdj/mixxx/pull/\d+$"]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 5
+linkcheck_timeout = 10

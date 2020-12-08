@@ -884,6 +884,11 @@ locations on your hard drive.
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
 
+.. _library-itunes:
+
+Using the iTunes/Traktor/Rhythmbox//Bashee  library
+------------------------
+
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
 different location. Select :guilabel:`Use Default Library` to reset.
@@ -893,6 +898,26 @@ different location. Select :guilabel:`Use Default Library` to reset.
 * If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists as well.
+
+.. _library-rekordbox:
+
+Using the Serato library
+------------------------
+To read Rekordbox databases for CDJ/XDJ players on USB or SD devices,
+the database has to be exported to a USB or SD device with a FAT or HFS
+file system using the Rekordbox Export mode.
+Databases that have been moved to an external device via Preferences > Advanced > Database management are not supported.
+
+The following data is read:
+* Folders
+* Playlists
+* Beatgrids
+* Hot cues
+* Memory cues
+* Loops (not yet supported in Mixxx 2.3)
+
+Check for attached Rekordbox USB / SD devices and refresh.
+
 
 .. _library-serato:
 
