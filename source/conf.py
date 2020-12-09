@@ -444,4 +444,4 @@ epub_copyright = u"2011-2020, The Mixxx Development Team"
 linkcheck_ignore = [r"^https://github.com/mixxxdj/mixxx/pull/\d+$"]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 5
+linkcheck_timeout = 10
