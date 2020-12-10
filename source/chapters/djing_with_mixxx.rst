@@ -246,13 +246,12 @@ Alternatively:
 .. hint:: You can instantly play your recording as a track in Mixxx. Simply
           drag-and-drop the track to a deck.
 
-.. _intro-and-outro-markers:
+.. _djing-intro-outro-cues:
 
-Intro and Outro Markers
-=======================
+Intro and Outro Cues
+====================
 
-Intro/Outro markers are used to mix in and out of tracks, and they can also be used with
-AutoDJ to mix in and out at those points. Unlike :term:`hotcues<hotcue>`, they do not mark only one point.
+Intro/Outro cues are used to mix in and out of tracks and they can also be :ref:`used with AutoDJ <djing-auto-dj-intro-outro>` to mix in and out at those points. Unlike :term:`hotcues<hotcue>`, they do not mark only one point.
 The into and outro are sections and each section is defined by two points.
 
 Mixxx detcts where the first and last sounds are when analyzing a track making it easy to stop playing
@@ -266,12 +265,12 @@ last time it goes below -60 dBFS.
    :alt: intro start marker placed at the first sound and outro end marker placed at the last sound
    :figclass: pretty-figures
 
-   Intro start and outro end markers placed at the first and last sound of a track respectively by the analyzer
+   Intro start and outro end cues placed at the first and last sound of a track respectively by the analyzer
 
 You can decide where to place the intro end and the outro start points.
 Marking the whole intro and outro allows Mixxx to calculate how long each section is and
 show it on the overview waveform. This information can help you know when to press play on the next track.
-AutoDJ can also use this information to line up tracks and determine how long to crossfade.
+:ref:`AutoDJ can also use this information <djing-auto-dj-intro-outro>` to line up tracks and determine how long to crossfade.
 
 .. figure:: ../_static/intro-outro-full.png
    :align: center
@@ -279,6 +278,8 @@ AutoDJ can also use this information to line up tracks and determine how long to
    :figclass: pretty-figures
 
    Intro end and outro start markers placed on the track alongside the intro start and the outro end markers to make sections
+
+.. _djing-intro-outro-mixing:
 
 Mixing With Intro & Outro Cues
 ------------------------------
@@ -308,7 +309,7 @@ adjusted tempo.
 Alternatively, you can line up the start of the intro & outro. In this case, watch the scrolling waveform when the
 outro start point is coming up on the old track. Then, press play on the new track when the old track reaches the outro start.
 
-   .. note:: There are no rules on which method should be used. The method anyone decides to use is an artistic judgement based
+   .. note:: There are no rules on which method should be used. The method you decide to use is an artistic judgement based
              on the musical content of each track, what the vibe of the crowd is at that moment, and what you want to do with the mix.
 
 If you do not have the intro end and outro start points marked when loading a track, you can find and
@@ -329,8 +330,8 @@ compare it to the length of the intro of the next track.
 
 .. _djing-auto-dj:
 
-Using Auto DJ For Automatic Mixing
-==================================
+Auto DJ
+=======
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
@@ -347,6 +348,8 @@ Using Auto DJ For Automatic Mixing
 Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
 the current track is nearly finished, and crossfade into it.  See
 :ref:`library-auto-dj`.
+
+AutoDJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
 
 Loading tracks into Auto DJ
 ---------------------------
@@ -375,8 +378,8 @@ There are several ways to load tracks into the Auto DJ playlist:
 
 .. _djing-auto-dj-crates:
 
-Using Auto DJ crates
---------------------
+Automatically adding tracks from crates
+---------------------------------------
 
 Instead of inserting the contents of the crates directly into the Auto DJ
 playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated
@@ -434,16 +437,26 @@ DJ as follows:
           played instead of removing it. Set :menuselection:`Preferences -->
           Auto DJ --> Re-queue tracks after playback --> On`.
 
-Intro and Outro Cues With AutoDJ
---------------------------------
+.. _djing-auto-dj-modes:
 
-Intro & outro section cues can be used to tell AutoDJ how long to crossfade and how to align the tracks in time. AutoDJ uses
-the intro & outro cues in the "Full Intro + Outro" and "Fade At Outro Start" modes. In both modes, instead of crossfading
-over an arbitrary number of seconds, AutoDJ compares the duration of the outro of the old track and the intro of the new track.
-AutoDJ picks the time of the shorter section as the crossfade time.
+AutoDJ Mix Modes
+----------------
+AutoDJ has several modes it can use to mix tracks:
 
-If the outro is shorter than the intro, AutoDJ will align the start of the outro with the start of the intro in both modes.
-The two modes work differently when the outro is longer than the intro.
+* Full Intro + Outro
+* Fade At Outro Start
+* Full Track
+* Skip Silence
+
+The Full Intro + Outro and Fade At Outro Start modes both use the intro and outro cues but the Full Track and Skip Silence cues do not.
+
+.. _djing-auto-dj-intro-outro:
+
+Full Intro + Outro and Fade At Outro Start
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Full Intro + Outro and Fade At Outro start AutoDJ modes use the :ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to crossfade and how to align the tracks in time. In both modes, AutoDJ compares the duration of the outro of the old track and the intro of the new track. AutoDJ picks the time of the shorter section as the crossfade time.
+
+In both modes, if the outro is shorter than the intro, AutoDJ will align the start of the outro with the start of the intro.
 
 .. figure:: ../_static/autodj-align-starts.png
    :align: center
@@ -452,34 +465,30 @@ The two modes work differently when the outro is longer than the intro.
 
    Intro and outro start markers aligned by AutoDJ
 
+The two modes work differently when the outro is longer than the intro.
+
 **Full Intro + Outro Mode**
-  In the "Full Intro + Outro" mode, AutoDJ aligns the end of the intro and outro by starting the next track during the outro of the
-  previous track. This way, the full length of both the intro and the outro are played. This mode is the most likely to sound good with
-  the widest variety of tracks. Therefore, it is the default mode.
+   The full length of both the intro and the outro are always played. When the outro is longer than the intro, AutoDJ aligns the end of the intro and outro by starting the next track during the outro of the previous track. This mode is the most likely to sound good with the widest variety of tracks. Therefore, it is the default mode.
 
 .. figure:: ../_static/autodj-align-ends.png
    :align: center
-   :alt: Intro and outro end markers aligned by AutoDJ
+   :alt: Intro and outro end cues aligned by AutoDJ
    :figclass: pretty-figures
 
-   Intro and outro start markers aligned by AutoDJ in Full Intro + Outro mode
+   Intro and outro start cues aligned by AutoDJ in Full Intro + Outro mode
 
 **Fade At Outro Start**
-  The "Fade At Outro Start" mode always aligns the start of the intro and outro. When the outro is longer than the intro,
-  AutoDJ cuts off the end of the outro. This can be helpful if you want to prevent the energy of the mix from declining
-  during a long outro. However, the transition may sound abrupt if the intro is short.
+  AutoDJ always aligns the start of the intro and outro. When the outro is longer than the intro, AutoDJ cuts off the end of the outro. This can be helpful if you want to prevent the energy of the mix from declining during a long outro. However, the transition may sound abrupt if the intro is short.
 
 .. figure:: ../_static/autodj-fade-at-outro-start.png
    :align: center
    :alt: AutoDJ fade at outro start
    :figclass: pretty-figures
 
-   Intro and outro start markers aligned by AutoDJ in Fade At Outro mode
+   Intro and outro start cues aligned by AutoDJ in Fade At Outro mode
 
-Both modes were designed so that AutoDJ sounds good fading between any pair of tracks if the intro and outro sections
-have been marked reasonably. AutoDJ does not take into account the volume of each track, nor the frequency content,
-nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human
-DJ a break without a major disruption to the mix.
+Full Track and Skip Silence
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Full Track and Skip Silence AutoDJ modes do not use the intro and outro cues. They crossfade tracks over a number of seconds that you specify in the box next to the mode selection menu. The Full Track mode plays the entire length of every file. The Skip Silence mode works the same way but automatically cuts out silence at the beginning and ends of tracks (defined as when the signal first goes above or below -60 dBFS).
 
-.. hint:: If you still want the old behavior of AutoDJ using a fixed number of seconds to crossfade, that is still available with
-          the "Full Track" mode. The new "Skip Silence" mode behaves the same way, but cuts out the silence at the beginning and end of tracks.
+.. hint:: If you still want to use AutoDJ like a normal music player application, use one of these modes with a transition time of 0 seconds.
