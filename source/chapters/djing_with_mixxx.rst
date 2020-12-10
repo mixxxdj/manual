@@ -300,6 +300,11 @@ until that point. When that time equals the length of the intro, press play to p
 intro. If you have changed the tempo of the track, the time remaining scales to show the real time remaining at the
 adjusted tempo.
 
+.. figure:: ../_static/ends-aligned-decks.png
+   :align: center
+   :alt: Two tracks with the ends of the outro and intro aligned
+   :figclass: pretty-figures
+
 Alternatively, you can line up the start of the intro & outro. In this case, watch the scrolling waveform when the
 outro start point is coming up on the old track. Then, press play on the new track when the old track reaches the outro start.
 
