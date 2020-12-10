@@ -906,7 +906,7 @@ Using the Rekordbox library
 To read Rekordbox databases for CDJ/XDJ players on USB or SD devices,
 the database has to be exported to a USB or SD device with a FAT or HFS
 file system using the Rekordbox Export mode. Instructions on how to do this can be found in this `article by Pioneer DJ <https://forums.pioneerdj.com/hc/en-us/articles/205021549-Moving-your-rekordbox-database-Video->`__ .
-Databases that have been moved to an external device via Preferences > Advanced > Database management are not supported.
+Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
 
 The following data is read:
 
