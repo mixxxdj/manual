@@ -917,7 +917,7 @@ The following data is read:
 * Memory cues
 * Loops (not yet supported in Mixxx 2.3)
 
-1. Plug your USB or SD device in while Mixxx is running.
+1. Plug your USB or SD drive in while Mixxx is running.
 2. Click on Rekordbox in the library and all USB drives prepared with Rekordbox will be visible. If this does not happen right away, then you can click on 'Check for attached Rekordbox devices (refresh)'.
 3. Click on the desired removable device, and all your folders and playlists will be revealed for you to play from.
 
