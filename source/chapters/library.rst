@@ -921,7 +921,7 @@ The following data is read:
 2. Click on Rekordbox in the library and all USB drives prepared with Rekordbox will be visible. If this does not happen right away, then you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
-** How Rekordbox hotcues, memory cues, and loops are imported **
+**How Rekordbox hotcues, memory cues, and loops are imported**
   Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
 
   *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
