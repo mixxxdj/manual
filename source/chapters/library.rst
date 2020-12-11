@@ -923,7 +923,8 @@ The following data is read:
 
 ** How Rekordbox hotcues, memory cues, and loops are imported **
   Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
-  * All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
+
+  *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
   * The first chronological Rekordbox loop is also mapped to the Mixxx loop.
   * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
   * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
