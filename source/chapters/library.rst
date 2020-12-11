@@ -908,20 +908,22 @@ the database has to be exported to a USB or SD device with a FAT or HFS
 file system using the Rekordbox Export mode. Instructions on how to do this can be found in this `article by Pioneer DJ <https://forums.pioneerdj.com/hc/en-us/articles/205021549-Moving-your-rekordbox-database-Video->`__ .
 Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
 
-The following data is read:
-
-* Folders
-* Playlists
-* Beatgrids
-* Hot cues
-* Memory cues
-* Loops (not yet supported in Mixxx 2.3)
-
 1. Plug your USB or SD drive in while Mixxx is running.
-2. Click on Rekordbox in the library and all USB drives prepared with Rekordbox will be visible. If this does not happen right away, then you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
+2. Click on Rekordbox in the library and all Rekordbox prepared USB drives will be visible. If this does not happen right away, then you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
-**How Rekordbox hotcues, memory cues, and loops are imported**
+How Rekordbox hotcues, memory cues, and loops are imported
+==========================================================
+
+  The following data is read:
+
+  * Folders
+  * Playlists
+  * Beatgrids
+  * Hot cues
+  * Memory cues
+  * Loops
+
   Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
 
   *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
