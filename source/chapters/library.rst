@@ -913,8 +913,7 @@ Databases that have been moved to an external device via :guilabel:`Preferences 
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
 How Rekordbox hotcues, memory cues, and loops are imported
-==========================================================
-
+----------------------------------------------------------
   The following data is read:
 
   * Folders
