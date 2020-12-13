@@ -1,16 +1,17 @@
 Hercules DJControl MP3 e2 / MP3 LE / Glow
 =========================================
 
-The Hercules DJ Control MP3 e2, MP3 LE, and Glow are USB controllers that have identical controls and share the same mapping. These controllers do not have a built in sound card, so a `splitter
-cable <hardware%20compatibility#splitter%20cables>`__ or `separate sound card <hardware%20compatibility#USB%20sound%20cards>`__ is recommended for use with it. They are not class compliant MIDI
-devices. `Older versions of Mixxx <Hercules%20DJ%20Control%20MP3%20e2%20old>`__ required using `Hercules’ MIDI driver <hercules_linux_kernel_module>`__, but this driver can be a hassle to set up and
-maintain on Linux, so it is recommended only for Windows and Mac OS X. Another alternative is to use the `user mode driver <hercules_linux_usermode_driver>`__, or also upgrade to the `latest version
-of Mixxx <http://mixxx.org/download>`__ if you have not already. Support for using the MP3 LE and Glow as USB Bulk controllers without the driver on Linux is available in development versions of Mixxx
-and will be included in Mixxx 2.1, but the MP3 e2 was already supported in Mixxx 2.0.
-
+The Hercules DJ Control MP3 e2, MP3 LE, and Glow are USB controllers that have identical controls and share the same mapping.
+These controllers do not have a built in sound card, so a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio interface <hardware-audio-interfaces>` is recommended for use with it.
 The mapping is included in Mixxx and allows you to manipulate 4 decks, 2 at a time, switching Deck A (left) between Channel 1 and 3 and Deck B (right) between Channel 2 and 4.
 
 .. versionadded:: 1.11
+
+.. note::
+   These controllers are not class compliant :term:`MIDI` devices.
+   On Linux, older versions of Mixxx required using a custom Hercules kernel module.
+   This is neither necessary not recommended anymore.
+
 
 Mapping description (by function)
 ---------------------------------

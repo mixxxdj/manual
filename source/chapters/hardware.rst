@@ -68,13 +68,13 @@ devices can be used as both a controller and :ref:`hardware mixer
 
 Mixxx can work with any :term:`MIDI` or :term:`HID` :term:`controller` as long
 as there is a mapping file to tell Mixxx how to understand the controller's
-signals. Mixxx comes bundled with a number of MIDI and HID mapping presets,
+signals. Mixxx comes bundled with a number of MIDI and HID mappings,
 which are listed in the :ref:`Hardware Manuals <hardware-manuals>` section.
 For controllers that Mixxx does not yet support, you can `search the forum
 <https://mixxx.discourse.group/c/controller-mappings/10>`_ to see if anyone has
 started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation
-<https://github.com/mixxxdj/mixxx/wiki#controller-mapping-documentation>`_
+<https://github.com/mixxxdj/mixxx/wiki#user-content-controller-mapping-documentation>`_
 on the wiki.
 
 .. seealso:: :ref:`control-midi` describes how to configure Mixxx to use

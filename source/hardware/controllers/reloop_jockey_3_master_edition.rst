@@ -11,7 +11,6 @@ Mixxx. This device requires a power adapter in addition to the USB cable.
 -  `Mixxx Forum Thread <https://mixxx.discourse.group/t/create-a-mapping-for-reloop-jockey-3-me/13703>`__
 -  `Manufacturer’s product page <https://www.reloop.com/reloop-jockey-3-me-1114>`__
 -  `Manufacturer’s manual <http://www.reloop.com/media/catalog/product/pdf/2/2/4/224649_Reloop_IM.pdf>`__
--  `Review from Digitaldjtips.com <http://www.digitaldjtips.com/2011/05/review-video-reloop-jockey-iii-me-controller/2/>`__
 
 .. versionadded:: 2.1
 
@@ -52,15 +51,12 @@ Mixer Section
    the left; select between controlling deck 2/4 or analog input 2 on the right.
    Note that the analog inputs are only affected by the mixer controls but not
    the other deck controls.
--  **Gain**: set `deck
-   gain <http://mixxx.org/manual/latest/chapters/user_interface.html#equalizers-and-gain-knobs>`__
+-  **Gain**: set :ref:`deck gain <interface-gain-knob>`
 -  **High/mid/low**: adjust EQ for high/mid/low frequencies
 -  **Master/booth/phones**: control the Jockey 3 ME’s sound card. These knobs do
    not send MIDI messages or adjust values in Mixxx, so turning them will not
-   change anything on screen. Use these but not the software knobs on screen in
-   Mixxx (see `the Mixxx
-   manual <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-gain-knob>`__
-   for an explanation).
+   change anything on screen. Use these but :ref:`don't change the software knobs on screen in
+   Mixxx <interface-gain-knob>`.
 -  **Headphones**: play deck on headphone output
 -  **Cuemix**: Fade between PFL and master output on headphones
 -  **Vertical faders**: deck volume
@@ -73,8 +69,7 @@ Transport Section
 ~~~~~~~~~~~~~~~~~
 
 -  **Play/pause**: play/pause or, with shift, toggle keylock
--  **Cue**: behavior depends on `cue mode set in Mixxx
-   preferences <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-cue-modes>`__.
+-  **Cue**: behavior depends on :ref:`cue mode set in Mixxx preferences <interface-cue-modes>`.
    With shift, it does not work as labeled; it toggles quantize.
 -  **Cup**: Like Cue, but it plays only after releasing the button.
 -  **Sync**: toggle master sync. With shift, it does not work as labeled; it

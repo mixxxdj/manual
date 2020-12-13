@@ -21,7 +21,7 @@ Compatibility
 -------------
 
 This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, it recommended to install `the
-driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the `ASIO sound API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__.
+driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
 
 Sound card setup
 ----------------
@@ -29,9 +29,9 @@ Sound card setup
 This device has a built in 4 channel output sound card. There are 2 RCA outputs for the main output and a 1/4" TRS stereo headphone jack. There are buttons in the center of the controller that adjust
 the sound card’s headphone output volume in hardware. These do not adjust the headphone gain in Mixxx.
 
-There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%. So, for
-the best `gain staging <http://mixxx.org/manual/latest/chapters/djing_with_mixxx.html#setting-your-levels-properly-gain-staging>`__, **turn the volume of the main output all the way up in
-your**\ `operating system mixer <operating%20system%20mixer>`__\ **program**.
+.. warning::
+   There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%.
+   So, for the best :ref:`gain staging <djing-gain-staging>`, turn the volume of the main output all the way up in your  operating system mixer.
 
 Mapping description
 -------------------
@@ -39,8 +39,7 @@ Mapping description
 User configurable options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a few user configurable options available for you to customize. You can change these by opening the Hercules-P32-scripts.js file in your `controller mapping file locations#user controller
-mapping folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__ with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
+There are a few user configurable options available for you to customize. You can change these by opening the :file:`Hercules-P32-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
 the very top of the file.
 
 -  **loopEnabledDot**: whether to use the dot on the loop size LED display to indicate that a loop is active. This restricts loop sizes to 2-32 beats and may be helpful if you never use loops less
@@ -69,7 +68,7 @@ The mapping of the encoders does not match their labels. They are labeled on the
 Effects
 ~~~~~~~
 
-Refer to the `Standard Effects Mapping <Standard%20Effects%20Mapping>`__ page for details on how to use the effects sections.
+Refer to the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ page for details on how to use the effects sections.
 
 When the pad grid is in Slicer mode, the pads in the top left of the grid assign the deck to Effect Units 1-4.
 

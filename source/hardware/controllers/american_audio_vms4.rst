@@ -7,9 +7,8 @@ controller, except that those hardware issues have been fixed. The
 Traktor edition has different labels on some buttons & knobs, but it’s
 otherwise the same hardware as the VMS4.1.
 
--  `Original VMS4 <http://www.adj.com/vms4>`__
+-  `VMS4 <http://www.adj.com/vms4>`__
 -  `VMS4.1 <http://www.adj.com/vms4-1>`__
--  `VMS4.1 (International site) <http://vms4.adjfocus.com/vms-41-digital-work-station.html>`__
 -  `VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__
 
 .. versionadded:: 1.9
@@ -75,7 +74,7 @@ Setup
        and button area.
 
 10. Click the Enable checkbox in the right pane
-11. Click the drop-down and choose the “American Audio VMS4” preset
+11. Click the drop-down and choose the :guilabel:`American Audio VMS4` preset
 12. Click OK and the controller should light up. (In 1.9.x, the
     controller will light up when you load a track to a deck.)
 13. Continue reading below to know how everything is mapped

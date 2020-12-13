@@ -32,6 +32,7 @@ import sphinx_rtd_theme
 extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.graphviz",
+    "sphinxcontrib.rsvgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
@@ -103,10 +104,10 @@ supported_languages = {
 }
 
 smv_tag_whitelist = r"^$"
-smv_branch_whitelist = r"^(main|manual-(\d+)\.(\d+|x)\.(\d+|x))$"
+smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
 smv_remote_whitelist = r"^origin$"
-smv_released_pattern = r"^.*/manual-(?!2\.3\.x)(\d+)\.(\d+|x)\.(\d+|x)$"
-smv_latest_version = r"manual-2.2.x"
+smv_released_pattern = r"^.*/(?!2\.3)(\d+)\.(\d+)$"
+smv_latest_version = r"2.2"
 smv_outputdir_format = "{config.version}/{config.language}"
 
 # Directories in which to search for additional message catalogs (see language),
@@ -284,6 +285,7 @@ latex_elements = {
     "classoptions": ",openany,oneside",
     "babel": "\\usepackage[english]{babel}",
 }
+latex_use_xindy = False
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -436,3 +438,10 @@ epub_copyright = u"2011-2020, The Mixxx Development Team"
 
 # If false, no index is generated.
 # epub_use_index = True
+
+# Ignore links to GitHub Pull Requests to avoid "429 Client Error" due to
+# GitHub's rate limiting
+linkcheck_ignore = [r"^https://github.com/mixxxdj/mixxx/pull/\d+$"]
+
+# Avoid freezing during linkcheck
+linkcheck_timeout = 10
