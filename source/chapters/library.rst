@@ -905,7 +905,7 @@ Using the Rekordbox library
 ---------------------------
 To read Rekordbox databases for CDJ/XDJ players on USB or SD devices,
 the database has to be exported to a USB or SD device with a FAT or HFS
-file system using the Rekordbox Export mode. Instructions on how to do this can be found in this `article by Pioneer DJ <https://forums.pioneerdj.com/hc/en-us/articles/205021549-Moving-your-rekordbox-database-Video->`__ .
+file system using the Rekordbox Export mode.
 Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
 
 1. Plug your USB or SD drive in while Mixxx is running.
@@ -913,7 +913,7 @@ Databases that have been moved to an external device via :guilabel:`Preferences 
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
 How Rekordbox hotcues, memory cues, and loops are imported
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   The following data is read:
 
   * Folders
@@ -930,7 +930,7 @@ How Rekordbox hotcues, memory cues, and loops are imported
   * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
   * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
 
-Whilst the additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop details are preserved, ready for the multiple loop feature proposed for Mixxx 2.4!
+Whilst the additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop details are preserved, ready for the multiple loop feature proposed for Mixxx 2.4.
 
 .. _library-serato:
 
