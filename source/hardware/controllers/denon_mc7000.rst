@@ -12,7 +12,6 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 .. versionchanged:: 2.3.0
    Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, added waveform zoom, changed Parameter and Censor/Reverse/Spinback button mapping.
 
-
 Compatibility
 ~~~~~~~~~~~~~
 
@@ -94,7 +93,7 @@ Mixer Section
    "20", ":hwlabel:`PHONES LEVEL`",    "Turn to adjust the volume level of the headphones."
    "21", ":hwlabel:`PHONES MIX`",      "Adjusts the software’s audio output to the headphones, mixing between the cue output and the master mix output."
    "22", ":hwlabel:`SPLIT`",           "Press to switch Headphone 'split' mode. When this switch is lit, the headphone audio will be 'split' such that all channels sent to cue channel are summed to mono and sent to the left headphone channel and the master mix is summed to mono and sent to the right channel. When the switch is unlit, the cue channel and master mix will be 'blended' together."
-   "  ", ":hwlabel:`X FADER CONTOUR`", "Turn to adjust the slope of the crossfader curve, to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching."
+   "59", ":hwlabel:`X FADER CONTOUR`", "Turn to adjust the slope of the crossfader curve, to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching."
 
 .. note::
    The Input source selection, Master Level Meters, :hwlabel:`USB1 / USB2`, :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES LEVEL`, :hwlabel:`PHONES MIX` and :hwlabel:`SPLIT` are handled by the controller.
@@ -246,7 +245,7 @@ Hot Cue Mode
 
 .. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
    :align: left
-   :scale: 60 %
+   :scale: 35 %
    :figwidth: 100%
    :alt: Denon MC7000 CUE Mode
    :figclass: pretty-figures
@@ -260,7 +259,7 @@ Roll Mode
 
 .. figure:: ../../_static/controllers/denon_mc7000_roll_mode.svg
    :align: left
-   :scale: 60 %
+   :scale: 35 %
    :figwidth: 100%
    :alt: Denon MC7000 ROLL Mode
    :figclass: pretty-figures
@@ -273,9 +272,9 @@ This mode lets you jump a number of beats while pushing a Pad once.
 
 .. figure:: ../../_static/controllers/denon_mc7000_beatjump_mode.svg
    :align: left
-   :scale: 60 %
+   :scale: 35 %
    :figwidth: 100%
-   :alt: Denon MC7000 ROLL Mode
+   :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
 
@@ -292,9 +291,9 @@ Use :hwlabel:`SHIFT` + Pad button to stop a sampler while playing or eject a sam
 
 .. figure:: ../../_static/controllers/denon_mc7000_sampler_mode.svg
    :align: left
-   :scale: 60 %
+   :scale: 35 %
    :figwidth: 100%
-   :alt: Denon MC7000 ROLL Mode
+   :alt: Denon MC7000 SAMPLER Mode
    :figclass: pretty-figures
 
 
