@@ -1831,6 +1831,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],play_latched
+                   [PreviewDeckN],play_latched
+                   [SamplerN],play_latched
+
+   This is set to 1 when the track is playing, but not when previewing (see :mixxx:coref:`play <[ChannelN],play>`).
+
+   :range: binary, read-only
+   :feedback: Play/pause button
+
+   .. versionadded:: 2.3.0
+
+
 .. mixxx:control:: [ChannelN],play_stutter
                    [PreviewDeckN],play_stutter
                    [SamplerN],play_stutter
