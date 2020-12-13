@@ -1,0 +1,43 @@
+name: Sphinx
+
+on:
+  pull_request:
+
+jobs:
+  linkcheck:
+    name: Link Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone repository
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7'
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+    - name: Check for broken links
+      run: sphinx-build -q --color -b linkcheck source build
+
+  build:
+    name: Build Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone repository
+      uses: actions/checkout@v2
+    - name: Set up Graphviz
+      run: sudo apt update && sudo apt install -y graphviz
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7'
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+    - name: Load problem matcher
+      uses: ammaraskar/sphinx-problem-matcher@master
+    - name: Check for build issues
+      run: sphinx-build -W --keep-going -b dummy source build

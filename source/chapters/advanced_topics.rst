@@ -11,11 +11,11 @@ Adding support for your MIDI/HID Controller
 With several dozens of DJ controllers supported out-of-the-box, Mixxx gives you
 comprehensive hardware control for your DJ mixes, see :ref:`control-midi`.
 
-Support for additional devices can be added to Mixxx by creating a new preset
+Support for additional devices can be added to Mixxx by creating a new mapping
 file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
-You can download and share custom controller presets in the
+You can download and share custom controller mappings in the
 `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 
@@ -33,7 +33,7 @@ Controller Wizard
 
    Mixxx Controller Wizard -  Mapping a control
 
-By far, the easiest way to create a new MIDI preset is by using the Controller
+By far, the easiest way to create a new MIDI mapping is by using the Controller
 Wizard.
 
 #. Connect your controller(s) to your computer
@@ -71,16 +71,16 @@ There are also some advanced options in the Midi Wizard you may need to use:
 * Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or an
   end, but spin continuously.
 
-The Controller wizard saves the new preset to the following file paths:
+The Controller wizard saves the new mapping to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
 * macOS: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
-ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
+ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more
 information, go to
-`<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_.
+`<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_.
 
 The Controller Wizard works only for :term:`MIDI` devices. Currently you can't
 map modifier (shift) keys and platter rotations. Use :ref:`MIDI Scripting
@@ -103,8 +103,8 @@ two or more Mixxx properties (“controls”), adjust incoming control values to
 work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
-For more information, go to `<https://mixxx.org/wiki/doku.php/midi_scripting>`_
-and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_.
+For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_
+and `<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_.
 
 
 .. _advanced-mixxxcontrols:
@@ -3224,34 +3224,36 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
      ===== ================== ============ ======== ===== ======
      Value Description        Library      Playlist Crate Browse
      ===== ================== ============ ======== ===== ======
-     0     Artist             X            X        X     X
-     1     Title              X            X        X     X
-     2     Album              X            X        X     X
-     3     Albumartist        X            X        X     X
-     4     Year               X            X        X     X
-     5     Genre              X            X        X     X
-     6     Composer           X            X        X     X
-     7     Grouping           X            X        X     X
-     8     Tracknumber        X            X        X     X
-     9     Filetype           X            X        X     X
-     10    Native Location    X            X        X     X
-     11    Comment            X            X        X     X
-     12    Duration           X            X        X     X
-     13    Bitrate            X            X        X     X
-     14    :term:`BPM`        X            X        X     X
-     15    ReplayGain         X            X        X     X
-     16    Datetime Added     X            X        X     X
-     17    Times Played       X            X        X     X
-     18    Rating             X            X        X     X
-     19    Key                X            X        X     X
-     20    Preview            X            X        X     X
-     21    Coverart           X            X        X
-     22    Position                        X
-     23    Playlist ID                     X
-     24    Location                        X
-     25    Filename                                       X
-     26    File Modified Time                             X
-     27    File Creation Time                             X
+     1     Artist             X            X        X     X
+     2     Title              X            X        X     X
+     3     Album              X            X        X     X
+     4     Albumartist        X            X        X     X
+     5     Year               X            X        X     X
+     6     Genre              X            X        X     X
+     7     Composer           X            X        X     X
+     8     Grouping           X            X        X     X
+     9     Tracknumber        X            X        X     X
+     10    Filetype           X            X        X     X
+     11    Native Location    X            X        X     X
+     12    Comment            X            X        X     X
+     13    Duration           X            X        X     X
+     14    Bitrate            X            X        X     X
+     15    BPM                X            X        X     X
+     16    ReplayGain         X            X        X     X
+     17    Datetime Added     X            X        X     X
+     18    Times Played       X            X        X     X
+     19    Rating             X            X        X     X
+     20    Key                X            X        X     X
+     21    Preview            X            X        X     X
+     22    Coverart           X            X        X
+     23    Position                        X
+     24    Playlist ID                     X
+     25    Location                        X
+     26    Filename                                       X
+     27    File Modified Time                             X
+     28    File Creation Time                             X
+     29    Sample Rate
+     30    Track Color        X            X        X
      ===== ================== ============ ======== ===== ======
 
    :feedback: Sorting indicator in the column headers of the track table
@@ -3263,7 +3265,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    Equivalent to clicking on column headers. A new value sets :mixxx:coref:`[Library],sort_column` to that value and :mixxx:coref:`[Library],sort_order` to 0, setting the same value again will toggle :mixxx:coref:`[Library],sort_order`.
 
-   :range: Same as for :mixxx:coref:`[Library],sort_column`
+   :range: Same as for :mixxx:coref:`[Library],sort_column` or value 0 for sorting according the current column with the cursor on it
    :feedback: Sorting indicator in the column headers of the track table
 
    .. versionadded:: 2.3.0
@@ -3747,7 +3749,7 @@ Controls
                    [QuickEffectRack1_[ChannelI]_Effect1],parameterK
 
    The scaled value of the Kth parameter.
-   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#parameter-values>`__ section for more information.
+   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#user-content-parameter-values>`__ section for more information.
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
@@ -3931,7 +3933,7 @@ mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
 
 For a list of controls that can be used in a keyboard mapping, see
-`<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_.
+`<https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_.
 
 You can download and share custom keyboard mappings in the
 `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.

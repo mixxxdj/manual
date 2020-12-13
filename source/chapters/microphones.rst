@@ -24,7 +24,7 @@ with Mixxx, each with their own pros and cons:
              headphone jack. Also, they can be difficult to configure at the
              same time as a different audio interface for music output.
 
-.. seealso:: The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_
+.. seealso:: The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_
              lists specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 
@@ -384,7 +384,7 @@ problem with latency that happens with
 :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do
 not digitize the signal to make it available to the computer. Refer to the
 controller's page on the `Mixxx wiki
-<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or the manual from
+<https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ or the manual from
 the controller manufacturer for details about your particular controller.
 
 If the controller does not digitize the microphone input, you cannot use
@@ -411,3 +411,26 @@ input.
 
 DJ controllers typically do not supply phantom power required for condenser
 microphones. Stand-alone audio interfaces typically do supply phantom power.
+
+Microphone Ducking
+------------------
+Microphone ducking is a technique to improve the audibility of speech by reducing the volume of background music while a voice signal is recorded by the microphone and allows listeners to hear the voice more clearly and consistently.
+While using Mixxx with a microphone, you might want the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.  The music will 'duck' out of the way of the microphone audio.
+
+.. figure:: ../_static/2.2/microphone-ducking.png
+   :align: center
+   :width: 40%
+   :figwidth: 90%
+   :alt: The microphone ducking section
+   :figclass: pretty-figures
+
+   The microphone ducking controls
+
+The :guilabel:`Strength` knob adjusts the microphone talkover ducking strength and its behaviour depends on any of the Microphone talkover modes described below.
+Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
+
+   * :guilabel:`Off`: When you speak through the microphone, the music  volume does not reduce.
+   * :guilabel:`Auto`: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob.
+   * :guilabel:`Manual`:In this mode, the music will play at the volume set by the Strength knob whenever the microphone Talk button is active, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you. When you disable Talk mode, the music will return to the regular volume
+
+.. hint:: To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy.

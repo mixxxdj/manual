@@ -21,8 +21,7 @@ Audio Setup
 
 No driver needs to be installed on GNU/Linux or Mac OS X. However, on
 Windows, it is recommended to install the driver from the manufacturer
-to be able to use the `ASIO sound
-API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__.
+to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
 
 Unlike most controllers with built in sound cards, which rely on Mixxx
 to do all mixing in software, the VMS2 mixes signals from the sound card

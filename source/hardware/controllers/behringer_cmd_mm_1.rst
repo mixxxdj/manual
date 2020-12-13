@@ -1,3 +1,5 @@
+.. _behringer-cmd-mm-1:
+
 Behringer CMD MM-1
 ==================
 
@@ -28,16 +30,13 @@ this document.
 Mapping options
 ~~~~~~~~~~~~~~~
 
-There are a few user configurable options available for you to
-customize. You can change these by opening the
-``Behringer-CMD-MM-1-scripts.js`` file in your `controller mapping file
-locations#user controller mapping
-folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__
-with your text editor of choice (such as Notepad, TextEdit, Kate, or
-gEdit) and editing the lines at the very top of the file.
+There are a few user configurable options available for you to customize. You
+can change these by opening the :file:`Behringer-CMD-MM-1-scripts.js` file with
+your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and
+editing the lines at the very top of the file.
 
--  channelNumber: change this if your `#controller does not light
-   up <#controller%20does%20not%20light%20up>`__
+-  channelNumber: change this if your :ref:`controller LEDs do not light
+   up <behringer-cmd-mm1-1-troubleshooting-led>`.
 -  invertColor: Swaps the colors which suits certain skins more
 -  defaultChannelSequence: Defines how the channels are mapped when
    Mixxx starts
@@ -188,6 +187,8 @@ the assignment first).
 Troubleshooting
 ---------------
 
+.. _behringer-cmd-mm1-1-troubleshooting-led:
+
 Controller does not light up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -195,29 +196,13 @@ The issue is probably the MIDI channel of your MM-1. Behringer had a
 tool that can set the controller to a different MIDI channel, however
 this is no longer available for download from Behringer’s website. So
 you will have to modify the controller mapping to use the MIDI channel
-that your controller is set to. Refer to `MIDI Crash
-Course <midi_crash_course#sniffing_your_controller_with_mixxx>`__ for
-how to see incoming MIDI messages from your controller.
-
-**NOTE:** The Behringer Website is currently (07.04.2018) undergoing
-some maintenance which is why the productpage and the channelswitcher
-utility is currently unavailable. After Emailing the support, they
-provided a link to the
-`Channelswitcher <https://music--c.ap7.content.force.com/servlet/servlet.EmailAttachmentDownload?q=%2FwSnKlUyyB%2BzbQSKctPoiJvsTfYczcfDzIqBxz2ocDse1VdWx4S8NXjyHKhbFfsBbxCe3uhNzEnFic%2FsTkPPxg%3D%3D>`__
-(`Mirror <https://mega.nz/#!4zhjxQKQ!A_HJjx40YzyHdoV1nPdPmWL83nmUGspssKNdxyf00Tc>`__)
-and a
-`manual <https://music--c.ap7.content.force.com/servlet/servlet.EmailAttachmentDownload?q=%2FwSnKlUyyB%2BzbQSKctPoiBsPNgXKYtUs%2FOnHuE8nfl3EFaYPHCHQaat%2B50yN3fR%2FIe3k9mnNj%2FSe5xTcwwM23g%3D%3D>`__
-(`Mirror <https://mega.nz/#!JzITlC4a!GOeJb-wVjwp6gYnhSXvWeTZ02QcYlSo2tqTPSHZWeds>`__)
-for the whole CMD line up.
+that your controller is set to.
 
 Once you know the MIDI channel of your controller, open the file
-``Behringer-CMD-MM-1-scripts.js`` file in your `controller mapping file
-locations#user controller mapping
-folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__
-with your text editor of choice (such as Notepad, TextEdit, Kate, or
+:file:`Behringer-CMD-MM-1-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or
 gEdit) and replace the number ``5`` in the line where it says
 ``var CHANNELNUMBER = 5;``. Then, open the file
-``Behringer CMD-MM-1.midi.xml`` in the same folder and replace the 4 at
-the end of 0x94, 0x84 and 0xB4 with your CHANNEL-NUMBER MINUS 1. Restart
+:file:`Behringer CMD-MM-1.midi.xml` in the same folder and replace the 4 at
+the end of 0x94, 0x84 and 0xB4 with your channel number - 1. Restart
 Mixxx, reload the mapping in Mixxx’s preferences, and then it should
 work.

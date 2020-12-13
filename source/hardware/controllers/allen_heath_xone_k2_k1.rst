@@ -236,7 +236,8 @@ Effects
 -------
 
 The top part of the column uses the `Standard Effects
-Mapping <Standard%20Effects%20Mapping>`__. Pressing the top encoder acts
+Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_.
+Pressing the top encoder acts
 as the effect focus button. When no effect is focused, the buttons are
 red. When holding the top encoder to choose an effect to focus, the
 buttons are green. When an effect is focused, the buttons are amber.
@@ -259,7 +260,7 @@ Effect unit focusing
 ~~~~~~~~~~~~~~~~~~~~
 
 In addition to focusing one effect in a unit at a time with the
-`Standard Effects Mapping <Standard%20Effects%20Mapping>`__, the Xone
+`Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_, the Xone
 K2/K1 has another mode for focusing a whole effect unit. This allows for
 controlling the parameters of all 3 effects in the unit at a time. This
 mode is only available on the 4 effect unit layouts. To access it, press

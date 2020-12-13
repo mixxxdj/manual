@@ -18,12 +18,12 @@ As a non-developer
 
 * `Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help
   support and enhance development.
-* `Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_
+* `Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_
 * `Make MIDI mappings
-  <https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for
+  <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_ for
   your controller
 * `Report bugs <https://bugs.launchpad.net/mixxx>`_
-* Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the
+* Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the
   information on it is up to date.
 * Translate Mixxx using `Transifex
   <https://www.transifex.com/mixxx-dj-software/public/>`_
@@ -47,7 +47,7 @@ As a software developer
   :term:`bugs <bug report>`, or post on the forums.
 * Register an account on our development platform `Github
   <https://github.com/mixxxdj>`_ and fork our code.
-  See `Using Git for Mixxx Development <https://mixxx.org/wiki/doku.php/using_git>`_
+  See `Using Git for Mixxx Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_
 * Join the
   `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_
   on Launchpad.
