@@ -569,7 +569,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Fast rewind (REW)
 
    :range: binary
-   :feedback: < button
+   :feedback: << button
 
 
 .. mixxx:control:: [ChannelN],beat_active
@@ -577,6 +577,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beat_active
 
    Indicates whether the player is currently positioned within 50 milliseconds of a beat or not.
+   This can be used to make controller LEDs blink on every beat.
 
    :range: binary
    :feedback: None
@@ -588,9 +589,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
 
-   Jump forward by X beats (positive) or backward by X beats (negative). If a loop is active, the loop is moved by X beats.
+   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
 
-   :range: real number
+   :range: real number, -1, 0, 1
    :feedback: Player jumps forward or backward by X beats.
 
    .. versionadded:: 2.0.0
@@ -1092,7 +1093,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    If hotcue X is set, the player seeks to hotcue X's position.
    Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
    After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position.
-   If :mixxx:coref:`play <[ChannelN],play>` is to 1 while previewing is active, the playback will continue and no seek occurs.
+   If :mixxx:coref:`play <[ChannelN],play>` is set to 1 while previewing is active, the playback will continue and no seek occurs.
 
    :range: binary
    :feedback: Player may change position. Hotcue X marker may change on waveform.
@@ -1815,7 +1816,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Toggles playing or pausing the track.
 
-   :range: binary, 1.0 if track is playing or play command is adopted and track will be played after loading
+   The value is set to 1 when the track is playing or when previewing from cue points and when the play command is adopted and track will be played after loading.
+
+   :range: binary
    :feedback: Play/pause button
 
 
@@ -1825,7 +1828,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Provides information to be bound with the a Play/Pause button e.g blinking when play is possible
 
-   :range: binary
+   :range: binary, read-only
    :feedback: Play/pause button
 
    .. versionadded:: 2.0.0
@@ -1859,11 +1862,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],playposition
                    [SamplerN],playposition
 
-   Sets the absolute position in the track. The Range is -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
+   Sets the absolute position in the track.
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
-   :range: default
+   :range: -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
    :feedback: Waveform
 
 
