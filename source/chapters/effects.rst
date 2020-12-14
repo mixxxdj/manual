@@ -168,7 +168,7 @@ This section describes how to use the standard Mixxx mapping for effects section
 
 By default, 3 knobs are used for controlling effect metaknobs and the buttons under them toggle each effect on/off. To temporarily toggle an effect on/off, press and hold an effect enable button. The 4th knob is used for the mix (dry/wet) knob of the whole chain. On controllers designed for Serato, the :guilabel:`Beats` encoder is used as the mix knob.
 
-The button next to the mix knob is used for focusing effects. On controllers designed for Serato, this button is labeled :guilabel:`Tap`. While holding this button pressed, the enable buttons for each effect switch to choosing which effect is focused. When an effect is focused;
+The button next to the mix knob is used for focusing effects. On controllers designed for Serato, this button is labeled :guilabel:`Tap`. While holding this button pressed, the enable buttons for each effect switch to choosing which effect is focused. When an effect is focused:
 
    * the knobs switch to controlling the first 3 parameters of that effect instead of the metaknobs of each effect in the chain;
    * the buttons switch to controlling the first 3 button parameters of the effect; and
