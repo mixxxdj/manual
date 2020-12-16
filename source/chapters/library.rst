@@ -909,7 +909,7 @@ file system using the Rekordbox Export mode.
 Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
 
 1. Plug your USB or SD drive in while Mixxx is running.
-2. Click on Rekordbox in the library and all Rekordbox prepared USB drives will be visible. If this does not happen right away, then you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
+2. Click on the :guilabel:`Rekordbox` item in the library sidebar to scan for  Rekordbox prepared USB drives. If no Rekordbox devices show up, you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
 How Rekordbox hotcues, memory cues, and loops are imported
