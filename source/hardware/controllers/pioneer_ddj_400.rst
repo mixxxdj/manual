@@ -105,3 +105,32 @@ No.   Control                                                  Function
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track
 15    :hwlabel:`CUE`                                           Sets cue point if paused. Return to cue point and stop if playing. Play while held on the set cue point.
 ====  =======================================================  ======================================================================
+
+Mixer section (p. 8)
+~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_mixer.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (mixer section)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (mixer section)
+
+====  =======================================================  ======================================================================
+No.   Control                                                  Function
+====  =======================================================  ======================================================================
+1     :hwlabel:`TRIM`                                          Adjusts channel output gain
+2     :hwlabel:`MASTER`                                        Adjusts master output level
+3     Headphone :hwlabel:`CUE` (Master)                        Sends master output to headphones (adjust with headphone mixing knob)
+4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
+5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
+6     :hwlabel:`HEADPHONES` :hwlabel:`MIXING`                  Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent to headphones
+7     :hwlabel:`FILTER`                                        Turn left to apply low pass filter to channel, right to apply high pass filter
+8     :hwlabel:`HEADPHONES` :hwlabel:`LEVEL`                   Adjusts output level from :hwlabel:`PHONES` terminal
+9     Headphone :hwlabel:`CUE` (Channel)                       Turn on to output channel to headphones
+9     :hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`              Toggles quantize for the current channel
+10    Channel fader                                            Adjusts channel levels output to master
+11    Crossfader                                               Fade between left and right channels
+====  =======================================================  ======================================================================
