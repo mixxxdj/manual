@@ -134,3 +134,52 @@ No.   Control                                                  Function
 10    Channel fader                                            Adjusts channel levels output to master
 11    Crossfader                                               Fade between left and right channels
 ====  =======================================================  ======================================================================
+
+Effect section (p. 9)
+~~~~~~~~~~~~~~~~~~~~~
+
+Mixxx's `standard FX mappings <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__
+are implemented as much as is possible using Pioneer's :hwlabel:`BEAT FX` controls.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_effects.svg
+   :align: center
+   :width: 20%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (effect section)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (effect section)
+
+====  =======================================================  ======================================================================
+No.   Control                                                  Function
+====  =======================================================  ======================================================================
+1     :hwlabel:`BEAT` :hwlabel:`<`                             Focus on effect slot 1. Press again to unfocus (in order to use wet/dry mix as described below)
+1     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Select previous effect (on currently focused effect slot)
+2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus on effect slot 2. Press again to unfocus (in order to use wet/dry mix as described below)
+2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Select next effect (on currently focused effect slot)
+3     :hwlabel:`FX SELECT`                                     Focus on effect slot 3. Press again to unfocus (in order to use wet/dry mix as described below)
+4     Channel select switch                                    Send effect chain mix to channel 1, 2 or master
+5     :hwlabel:`LEVEL/DEPTH`                                   Controls the metaknob of the currently focused effect *if the effect is enabled*.
+
+                                                               Controls the wet/dry mix knob if *no effect is in focus*
+6     :hwlabel:`ON/OFF`                                        Enable/disable the currently focused effect
+6     :hwlabel:`SHIFT` + :hwlabel:`ON/OFF`                     Disables all enabled effects in a chain
+====  =======================================================  ======================================================================
+
+Example Effect Workflow
+^^^^^^^^^^^^^^^^^^^^^^^
+
+A simple effect workflow might look as follows:
+
+- Select and enable one or more effects (consider setting their parameters in advance).
+- Return focus to the wet/dry mix
+- Mix the effect chain as desired
+- Disable the effects
+
+.. note:: It is possible to change effects assigned to one of the three slots,
+          but note that your parameter will be reset. In Mixxx 2.4 this will
+          change with the introduction of chain presets.
+
+          Also note that soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
+          knob to prevent sudden changes to the wet/dry mix or effect metaknob
+          when changing between the two.
