@@ -49,6 +49,7 @@ Table of Contents
    chapters/djing_with_mixxx
    chapters/preferences
    chapters/advanced_topics
+   chapters/cookbook
    chapters/getting_involved
    chapters/appendix
    hardware/manuals
