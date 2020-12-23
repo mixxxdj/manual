@@ -37,3 +37,29 @@ drivers, attach your device and run the installer.
 .. note:: It is highlty recommended that you update your controller's firmware.
           This will fix a bug in the release drivers which causes the tempo
           sliders to send signals without being touched!
+
+Controller Mapping
+------------------
+
+The schematic drawings used here can be referenced in the
+`original manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
+on the given page number.
+
+Browser section (p. 6)
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_browser.svg
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (browser section)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (browser section)
+
+========  ==================================================  ==========================================
+No.       Control                                             Function
+========  ==================================================  ==========================================
+1         :hwlabel:`LOAD` buttons                             Load song into deck.
+2         Rotary Selector                                     Press to toggle focus between the library sidebar and associated panels. Turn to move focus up or down.
+========  ==================================================  ==========================================
