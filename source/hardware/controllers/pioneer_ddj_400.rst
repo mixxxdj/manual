@@ -63,3 +63,45 @@ No.       Control                                             Function
 1         :hwlabel:`LOAD` buttons                             Load song into deck.
 2         Rotary Selector                                     Press to toggle focus between the library sidebar and associated panels. Turn to move focus up or down.
 ========  ==================================================  ==========================================
+
+Deck sections (p. 6)
+~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_deck.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (deck section)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (deck section)
+
+====  =======================================================  ======================================================================
+No.   Control                                                  Function
+====  =======================================================  ======================================================================
+1     :hwlabel:`BEAT SYNC`                                     Tap to sync tempo to the other playing track. Hold to enable sync lock.
+1     :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`                  Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%
+2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the currently active loop.
+2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps a phrase forwards
+3     :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`                     Halves the currently active loop.
+3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps a phrase backwards
+4     :hwlabel:`RELOOP/EXIT`                                   Activates/deactivates currently set loop
+4     :hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`                Activates current loop and stop playback
+5     :hwlabel:`OUT`                                           Sets end of loop to the current playback position.
+                                                               If quantize is enabled, it is set to the closest beat.
+                                                               If held during an active loop, sets the new end point when released.
+5     :hwlabel:`shift` + :hwlabel:`OUT`                        Toggle :hwlabel:`OUT ADJUST` mode on active loop. Adjust the loop's end position using the jog wheel.
+6     :hwlabel:`IN/-4BEAT`                                     Sets start of loop to the current playback position. If quantize is enabled, it is set to the closest beat.
+                                                               If held during an active loop, sets the new start point when released.
+6     :hwlabel:`shift` + :hwlabel:`IN/-4BEAT`                  Toggle :hwlabel:`IN ADJUST` mode on active loop. Adjust the loop's start position using the jog wheel.
+7     Jog Wheel (top)                                          Scratch (move play position)
+7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily
+8     :hwlabel:`HOT CUE` mode                                  Sets pads to hot cue mode. *TODO: See using hotcues*
+9     :hwlabel:`BEAT LOOP` mode                                Sets pads to beat loop mode. *TODO: See using beat loop*
+10    :hwlabel:`BEAT JUMP` mode                                Sets pads to beat jump mode. *TODO: See using beat jump*
+11    :hwlabel:`SAMPLER` mode                                  Sets pads to sampler mode. *TODO: See using sampler*
+12    :hwlabel:`TEMPO` slider                                  Adjust playback speed
+13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11 *See pad mode descriptions*
+14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track
+15    :hwlabel:`CUE`                                           Sets cue point if paused. Return to cue point and stop if playing. Play while held on the set cue point.
+====  =======================================================  ======================================================================
