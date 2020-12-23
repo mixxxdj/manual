@@ -23,3 +23,17 @@ The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface d
 - `Mapping Forum Thread <https://mixxx.org/forums/viewtopic.php?f=7&t=12113>`__
 
 .. versionadded:: 2.3.0
+
+Drivers
+-------
+
+You can download the latest firmware from
+`the manufacturer's website <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__.
+
+Unfortunately Pioneer offers no Linux support, so to update your controller's
+firmware you will need access to a Windows or Mac machine. Simply download the
+drivers, attach your device and run the installer.
+
+.. note:: It is highlty recommended that you update your controller's firmware.
+          This will fix a bug in the release drivers which causes the tempo
+          sliders to send signals without being touched!
