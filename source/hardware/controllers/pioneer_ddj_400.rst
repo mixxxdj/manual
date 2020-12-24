@@ -13,7 +13,7 @@ Pioneer DDJ-400
 
    Pioneer DDJ-400 (schematic view)
 
-The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface
+The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio interface
 designed for rekordbox.
 
 - `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-400/black/overview/>`__
@@ -42,8 +42,28 @@ Unfortunately Pioneer only offers a Windows and Mac firmware installer, so to
 update your controller you will need access to such a machine. Simply download
 the appropriate file for that OS, attach your device and run the installer.
 
-Apart from that, the device is USB audio and MIDI class compliant and works well
-with most modern operating systems.
+Compatibility
+-----------------
+
+The Pioneer DDJ-400 is USB audio and MIDI class compliant and works
+with Linux, Windows, and macOS without needing to install any drivers.
+However, updating the firmware is recommended as described above.
+
+Audio Setup
+-----------
+
+Configure Mixxx's :ref:`sound hardware settings <preferences-sound-hardware>` as follows:
+
+============ ========
+Output       Channel
+============ ========
+Master       1-2
+Headphones   3-4
+============ ========
+
+.. note:: It is not possible to record or broadcast input sent from the 1/4" unbalanced
+          TS microphone jack on the controller, as it is not routed back to the computer
+          and cannot be configured as an input device.
 
 Controller Mapping
 ------------------
@@ -86,7 +106,7 @@ Deck sections (p. 6)
 ====  =======================================================  ======================================================================
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
-1     :hwlabel:`BEAT SYNC`                                     Tap to sync tempo to the other playing track. Hold to enable sync lock.
+1     :hwlabel:`BEAT SYNC`                                     Press to sync tempo to the other playing track. Hold to enable sync lock.
 1     :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`                  Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%
 2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the current loop size.
 2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps  32 beats forwards
@@ -130,7 +150,8 @@ No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 1     :hwlabel:`TRIM`                                          Adjusts deck prefader gain
 2     :hwlabel:`MASTER`                                        Adjusts master output level
-3     Headphone :hwlabel:`CUE` (Master)                        Sends master output to headphones (adjust with headphone mixing knob)
+3     :hwlabel:`MASTER` :hwlabel:`CUE`                         Sends master output to headphones (this is hardware implemented and
+                                                               not visible in the Mixxx interface).
 4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
 5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
 6     :hwlabel:`HEADPHONES` :hwlabel:`MIXING`                  Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent to headphones
@@ -160,28 +181,18 @@ follows:
 ====  =======================================================  ======================================================================
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
-1     :hwlabel:`BEAT` :hwlabel:`<`                             Select effect 1
+1     :hwlabel:`BEAT` :hwlabel:`<`                             Focus effect 1
 1     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Load previous effect
-2     :hwlabel:`BEAT` :hwlabel:`>`                             Select effect 2
+2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus effect 2
 2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
-3     :hwlabel:`FX SELECT`                                     Select effect 3
+3     :hwlabel:`FX SELECT`                                     Focus effect 3
 4     Channel select switch                                    Send effect chain mix to channel 1, 2 or master
-5     :hwlabel:`LEVEL/DEPTH`                                   Controls the metaknob of the currently focused effect *if the effect is enabled*.
+5     :hwlabel:`LEVEL/DEPTH`                                   Controls the metaknob of the currently focused effect *if the effect is disabled*.
 
-                                                               Controls the wet/dry mix knob if *no effect is in focus*
+                                                               Controls the wet/dry mix knob *if an effect is enabled*
 6     :hwlabel:`ON/OFF`                                        Enable/disable the currently focused effect
-6     :hwlabel:`SHIFT` + :hwlabel:`ON/OFF`                     Disables all enabled effects in a chain
+6     :hwlabel:`SHIFT` + :hwlabel:`ON/OFF`                     Disables all effects in the chain and kills the wet/dry mix
 ====  =======================================================  ======================================================================
-
-Example Effect Workflow
-^^^^^^^^^^^^^^^^^^^^^^^
-
-A simple effect workflow might look as follows:
-
-- Select and enable one or more effects
-- Return focus to the wet/dry mix
-- Mix the effect chain as desired
-- Disable the effects
 
 .. note:: Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
           knob to prevent sudden changes to the wet/dry mix or effect metaknob
