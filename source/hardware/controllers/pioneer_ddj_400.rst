@@ -20,7 +20,7 @@ The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface d
 - `Manufacturer's Firmware <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__
 - `Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__
 - `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf?la=en-us>`__
-- `Mapping Forum Thread <https://mixxx.org/forums/viewtopic.php?f=7&t=12113>`__
+- `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-400/17476>`__
 
 .. versionadded:: 2.3.0
 
@@ -34,7 +34,7 @@ Unfortunately Pioneer offers no Linux support, so to update your controller's
 firmware you will need access to a Windows or Mac machine. Simply download the
 drivers, attach your device and run the installer.
 
-.. note:: It is highlty recommended that you update your controller's firmware.
+.. note:: It is highly recommended that you update your controller's firmware.
           This will fix a bug in the release drivers which causes the tempo
           sliders to send signals without being touched!
 
@@ -42,7 +42,7 @@ Controller Mapping
 ------------------
 
 The schematic drawings used here can be referenced in the
-`original manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
+`manufacturer's manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
 on the given page number.
 
 Browser section (p. 6)
@@ -60,7 +60,7 @@ Browser section (p. 6)
 ========  ==================================================  ==========================================
 No.       Control                                             Function
 ========  ==================================================  ==========================================
-1         :hwlabel:`LOAD` buttons                             Load song into deck.
+1         :hwlabel:`LOAD` buttons                             Load track selected in library into deck.
 2         Rotary Selector                                     Press to toggle focus between the library sidebar and associated panels. Turn to move focus up or down.
 ========  ==================================================  ==========================================
 
@@ -81,19 +81,19 @@ No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 1     :hwlabel:`BEAT SYNC`                                     Tap to sync tempo to the other playing track. Hold to enable sync lock.
 1     :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`                  Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%
-2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the currently active loop.
-2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps a phrase forwards
-3     :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`                     Halves the currently active loop.
-3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps a phrase backwards
-4     :hwlabel:`RELOOP/EXIT`                                   Activates/deactivates currently set loop
-4     :hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`                Activates current loop and stop playback
+2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the current loop size.
+2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps a 32 beats forwards
+3     :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`                     Halves the current loop size.
+3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps 32 beats backwards
+4     :hwlabel:`RELOOP/EXIT`                                   Enables/disables currently set loop
+4     :hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`                Jump to loop start, enable loop, and stop playback
 5     :hwlabel:`OUT`                                           Sets end of loop to the current playback position.
                                                                If quantize is enabled, it is set to the closest beat.
                                                                If held during an active loop, sets the new end point when released.
-5     :hwlabel:`shift` + :hwlabel:`OUT`                        Toggle :hwlabel:`OUT ADJUST` mode on active loop. Adjust the loop's end position using the jog wheel.
+5     :hwlabel:`shift` + :hwlabel:`OUT`                        When a loop is enabled, press to adjust the loop's end position with the jog wheel.
 6     :hwlabel:`IN/-4BEAT`                                     Sets start of loop to the current playback position. If quantize is enabled, it is set to the closest beat.
                                                                If held during an active loop, sets the new start point when released.
-6     :hwlabel:`shift` + :hwlabel:`IN/-4BEAT`                  Toggle :hwlabel:`IN ADJUST` mode on active loop. Adjust the loop's start position using the jog wheel.
+6     :hwlabel:`shift` + :hwlabel:`IN/-4BEAT`                  When a loop is enabled, press to adjust the loop's start position with the jog wheel.
 7     Jog Wheel (top)                                          Scratch (move play position)
 7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily
 8     :hwlabel:`HOT CUE` mode                                  Sets pads to hot cue mode. *TODO: See using hotcues*
@@ -103,7 +103,7 @@ No.   Control                                                  Function
 12    :hwlabel:`TEMPO` slider                                  Adjust playback speed
 13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11 *See pad mode descriptions*
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track
-15    :hwlabel:`CUE`                                           Sets cue point if paused. Return to cue point and stop if playing. Play while held on the set cue point.
+15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`
 ====  =======================================================  ======================================================================
 
 Mixer section (p. 8)
@@ -121,14 +121,14 @@ Mixer section (p. 8)
 ====  =======================================================  ======================================================================
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
-1     :hwlabel:`TRIM`                                          Adjusts channel output gain
+1     :hwlabel:`TRIM`                                          Adjusts deck prefader gain
 2     :hwlabel:`MASTER`                                        Adjusts master output level
 3     Headphone :hwlabel:`CUE` (Master)                        Sends master output to headphones (adjust with headphone mixing knob)
 4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
 5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
 6     :hwlabel:`HEADPHONES` :hwlabel:`MIXING`                  Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent to headphones
-7     :hwlabel:`FILTER`                                        Turn left to apply low pass filter to channel, right to apply high pass filter
-8     :hwlabel:`HEADPHONES` :hwlabel:`LEVEL`                   Adjusts output level from :hwlabel:`PHONES` terminal
+7     :hwlabel:`FILTER`                                        QuickEffect superknob (by default controls a Filter, but this can be changed in the :ref:`preferences <preferences-equalizers>`)
+8     :hwlabel:`HEADPHONES` :hwlabel:`LEVEL`                   Adjusts output level from :hwlabel:`PHONES` jack
 9     Headphone :hwlabel:`CUE` (Channel)                       Turn on to output channel to headphones
 9     :hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`              Toggles quantize for the current channel
 10    Channel fader                                            Adjusts channel levels output to master
