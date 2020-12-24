@@ -13,7 +13,8 @@ Pioneer DDJ-400
 
    Pioneer DDJ-400 (schematic view)
 
-The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface designed for rekordbox.
+The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface
+designed for rekordbox.
 
 - `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-400/black/overview/>`__
 - `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
@@ -24,19 +25,25 @@ The Pioneer DDJ-400 is a 2 deck USB controller with integrated audio interface d
 
 .. versionadded:: 2.3.0
 
-Drivers
--------
+Firmware
+--------
+
+.. note:: The release version of the firmware contains a bug which causes
+          signals from the tempo sliders to be sent without the sliders being
+          touched.
+
+          It is therefore highly recommended that you update your controller's
+          firmware.
 
 You can download the latest firmware from
 `the manufacturer's website <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__.
 
-Unfortunately Pioneer offers no Linux support, so to update your controller's
-firmware you will need access to a Windows or Mac machine. Simply download the
-drivers, attach your device and run the installer.
+Unfortunately Pioneer only offers a Windows and Mac firmware installer, so to
+update your controller you will need access to such a machine. Simply download
+the appropriate file for that OS, attach your device and run the installer.
 
-.. note:: It is highly recommended that you update your controller's firmware.
-          This will fix a bug in the release drivers which causes the tempo
-          sliders to send signals without being touched!
+Apart from that, the device is USB audio and MIDI class compliant and works well
+with most modern operating systems.
 
 Controller Mapping
 ------------------
@@ -82,7 +89,7 @@ No.   Control                                                  Function
 1     :hwlabel:`BEAT SYNC`                                     Tap to sync tempo to the other playing track. Hold to enable sync lock.
 1     :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`                  Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%
 2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the current loop size.
-2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps a 32 beats forwards
+2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps  32 beats forwards
 3     :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`                     Halves the current loop size.
 3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps 32 beats backwards
 4     :hwlabel:`RELOOP/EXIT`                                   Enables/disables currently set loop
@@ -138,9 +145,6 @@ No.   Control                                                  Function
 Effect section (p. 9)
 ~~~~~~~~~~~~~~~~~~~~~
 
-Mixxx's `standard FX mappings <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__
-are implemented as much as is possible using Pioneer's :hwlabel:`BEAT FX` controls.
-
 .. figure:: ../../_static/controllers/pioneer_ddj_400_effects.svg
    :align: center
    :width: 20%
@@ -150,14 +154,17 @@ are implemented as much as is possible using Pioneer's :hwlabel:`BEAT FX` contro
 
    Pioneer DDJ-400 (effect section)
 
+The :hwlabel:`BEAT FX` controls above are mapped to Mixxx's first effect unit as
+follows:
+
 ====  =======================================================  ======================================================================
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
-1     :hwlabel:`BEAT` :hwlabel:`<`                             Focus on effect slot 1. Press again to unfocus (in order to use wet/dry mix as described below)
-1     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Select previous effect (on currently focused effect slot)
-2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus on effect slot 2. Press again to unfocus (in order to use wet/dry mix as described below)
-2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Select next effect (on currently focused effect slot)
-3     :hwlabel:`FX SELECT`                                     Focus on effect slot 3. Press again to unfocus (in order to use wet/dry mix as described below)
+1     :hwlabel:`BEAT` :hwlabel:`<`                             Select effect 1
+1     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Load previous effect
+2     :hwlabel:`BEAT` :hwlabel:`>`                             Select effect 2
+2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
+3     :hwlabel:`FX SELECT`                                     Select effect 3
 4     Channel select switch                                    Send effect chain mix to channel 1, 2 or master
 5     :hwlabel:`LEVEL/DEPTH`                                   Controls the metaknob of the currently focused effect *if the effect is enabled*.
 
@@ -171,15 +178,11 @@ Example Effect Workflow
 
 A simple effect workflow might look as follows:
 
-- Select and enable one or more effects (consider setting their parameters in advance).
+- Select and enable one or more effects
 - Return focus to the wet/dry mix
 - Mix the effect chain as desired
 - Disable the effects
 
-.. note:: It is possible to change effects assigned to one of the three slots,
-          but note that your parameter will be reset. In Mixxx 2.4 this will
-          change with the introduction of chain presets.
-
-          Also note that soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
+.. note:: Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
           knob to prevent sudden changes to the wet/dry mix or effect metaknob
           when changing between the two.
