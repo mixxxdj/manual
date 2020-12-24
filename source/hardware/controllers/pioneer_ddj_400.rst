@@ -93,6 +93,7 @@ No.       Control                                             Function
 
 Deck sections (p. 6)
 ~~~~~~~~~~~~~~~~~~~~
+.. _pioneer-ddj-400-deck-sections:
 
 .. figure:: ../../_static/controllers/pioneer_ddj_400_deck.svg
    :align: center
@@ -109,11 +110,11 @@ No.   Control                                                  Function
 1     :hwlabel:`BEAT SYNC`                                     Press to sync tempo to the other playing track. Hold to enable sync lock.
 1     :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`                  Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%
 2     :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`                     Doubles the current loop size.
-2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps  32 beats forwards
+2     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`  Jumps 32 beats forwards.
 3     :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`                     Halves the current loop size.
-3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps 32 beats backwards
-4     :hwlabel:`RELOOP/EXIT`                                   Enables/disables currently set loop
-4     :hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`                Jump to loop start, enable loop, and stop playback
+3     :hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`  Jumps 32 beats backwards.
+4     :hwlabel:`RELOOP/EXIT`                                   Enables/disables currently set loop.
+4     :hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`                Jump to loop start, enable loop, and stop playback.
 5     :hwlabel:`OUT`                                           Sets end of loop to the current playback position.
                                                                If quantize is enabled, it is set to the closest beat.
                                                                If held during an active loop, sets the new end point when released.
@@ -121,16 +122,16 @@ No.   Control                                                  Function
 6     :hwlabel:`IN/-4BEAT`                                     Sets start of loop to the current playback position. If quantize is enabled, it is set to the closest beat.
                                                                If held during an active loop, sets the new start point when released.
 6     :hwlabel:`shift` + :hwlabel:`IN/-4BEAT`                  When a loop is enabled, press to adjust the loop's start position with the jog wheel.
-7     Jog Wheel (top)                                          Scratch (move play position)
-7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily
-8     :hwlabel:`HOT CUE` mode                                  Sets pads to hot cue mode. *TODO: See using hotcues*
-9     :hwlabel:`BEAT LOOP` mode                                Sets pads to beat loop mode. *TODO: See using beat loop*
-10    :hwlabel:`BEAT JUMP` mode                                Sets pads to beat jump mode. *TODO: See using beat jump*
-11    :hwlabel:`SAMPLER` mode                                  Sets pads to sampler mode. *TODO: See using sampler*
-12    :hwlabel:`TEMPO` slider                                  Adjust playback speed
-13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11 *See pad mode descriptions*
-14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track
-15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`
+7     Jog Wheel (top)                                          Scratch (move play position).
+7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily.
+8     :hwlabel:`HOT CUE` mode                                  Sets pads to :ref:`hot cue mode <pioneer-ddj-400-hot-cue-mode>`.
+9     :hwlabel:`BEAT LOOP` mode                                Sets pads to :ref:`beat loop mode <pioneer-ddj-400-beat-loop-mode>`.
+10    :hwlabel:`BEAT JUMP` mode                                Sets pads to :ref:`beat jump mode <pioneer-ddj-400-beat-jump-mode>`.
+11    :hwlabel:`SAMPLER` mode                                  Sets pads to :ref:`sampler mode <pioneer-ddj-400-sampler-mode>`.
+12    :hwlabel:`TEMPO` slider                                  Adjust playback speed.
+13    Performance pads                                         Functionality differs depending on the :ref:`pad mode <pioneer-ddj-400-pad-modes>` selected by 8-11.
+14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track).
+15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`.
 ====  =======================================================  ======================================================================
 
 Mixer section (p. 8)
@@ -197,3 +198,33 @@ No.   Control                                                  Function
 .. note:: Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
           knob to prevent sudden changes to the wet/dry mix or effect metaknob
           when changing between the two.
+
+Pad Modes
+---------
+.. _pioneer-ddj-400-pad-modes:
+
+The pad mode buttons (see 8-9 in the :ref:`deck sections <pioneer-ddj-400-deck-sections>`) select
+between the different pad modes.
+
+The main pad modes described below are similar to those found when used with
+rekordbox.
+
+.. note:: The secondary pad modes described in the manufacturer's manual, but not described below
+          (:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and :hwlabel:`KEYSHIFT`)
+          are currently not implemented by this mapping.
+
+Hot Cue Mode
+~~~~~~~~~~~~
+.. _pioneer-ddj-400-hot-cue-mode:
+
+Beat Loop Mode
+~~~~~~~~~~~~~~
+.. _pioneer-ddj-400-beat-loop-mode:
+
+Beat Jump Mode
+~~~~~~~~~~~~~~
+.. _pioneer-ddj-400-beat-jump-mode:
+
+Sampler Mode
+~~~~~~~~~~~~
+.. _pioneer-ddj-400-sampler-mode:
