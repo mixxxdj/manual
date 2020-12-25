@@ -222,7 +222,7 @@ Bookmark positions in the track and jump to them.
    :align: center
    :width: 40%
    :figwidth: 100%
-   :alt: Pioneer DDJ-400 (performance pad)
+   :alt: Pioneer DDJ-400 (hot cue pads)
    :figclass: pretty-figures
 
    Pioneer DDJ-400 (hot cue pads)
@@ -296,3 +296,27 @@ increase the jump values by a factor of 16.
 Sampler Mode
 ~~~~~~~~~~~~
 .. _pioneer-ddj-400-sampler-mode:
+
+Load and play samples from the library. The pads on decks 1 and 2 correspond to
+the first and second sampler rows in Mixxx respectively.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (sampler pad)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (sampler pads)
+
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1-8       Pad (unlit)                                                      Load sample selected in library.
+1-8       Pad (lit)                                                        Play a loaded sample. If the sample is
+                                                                           already playing, playback starts from the
+                                                                           beginning.
+1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Stop a loaded sample from playing. If the
+                                                                           sample is already stopped, unload it.
+========  ===============================================================  ==========================================
