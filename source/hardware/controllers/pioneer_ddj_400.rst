@@ -264,6 +264,35 @@ Beat Jump Mode
 ~~~~~~~~~~~~~~
 .. _pioneer-ddj-400-beat-jump-mode:
 
+Press a pad to jump forwards or backwards by the number of beats assigned to the
+pads below.
+
+Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to
+increase the jump values by a factor of 16.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (beat jump pads)
+   :figclass: pretty-figures
+
+.. table:: Pioneer DDJ-400 (beat jump defaults)
+   :align: center
+
+   ====  =======  =========
+   No.   Jump     Direction
+   ====  =======  =========
+   1     1 beat   Back
+   2     1 beat   Forward
+   3     2 beats  Back
+   4     2 beats  Forward
+   5     4 beats  Back
+   6     4 beats  Forward
+   7     8 beats  Back
+   8     8 beats  Forward
+   ====  =======  =========
+
 Sampler Mode
 ~~~~~~~~~~~~
 .. _pioneer-ddj-400-sampler-mode:
