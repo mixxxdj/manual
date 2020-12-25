@@ -199,23 +199,44 @@ No.   Control                                                  Function
           knob to prevent sudden changes to the wet/dry mix or effect metaknob
           when changing between the two.
 
-Pad Modes
----------
+Performance Pads
+----------------
 .. _pioneer-ddj-400-pad-modes:
 
-The pad mode buttons (see 8-9 in the :ref:`deck sections <pioneer-ddj-400-deck-sections>`) select
-between the different pad modes.
+The pad mode buttons (see 8-9 in the :ref:`deck section <pioneer-ddj-400-deck-sections>`)
+change between different modes in which the performance pads operate. The main
+pad modes described below are similar to those found in rekordbox.
 
-The main pad modes described below are similar to those found when used with
-rekordbox.
-
-.. note:: The secondary pad modes described in the manufacturer's manual, but not described below
-          (:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and :hwlabel:`KEYSHIFT`)
-          are currently not implemented by this mapping.
+.. note:: The secondary pad modes described in the manufacturer's manual
+          (:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and
+          :hwlabel:`KEYSHIFT`) are not currently implemented by this
+          mapping.
 
 Hot Cue Mode
 ~~~~~~~~~~~~
 .. _pioneer-ddj-400-hot-cue-mode:
+
+Bookmark positions in the track and jump to them.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (performance pad)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (hot cue pads)
+
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1-8       Pad (unlit)                                                      Save current position as hot cue.
+1-8       Pad (lit)                                                        Jump to hot cue. If the track is stopped,
+                                                                           holding the pad will preview the hot cue
+                                                                           until the pad is released.
+1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
+========  ===============================================================  ==========================================
 
 Beat Loop Mode
 ~~~~~~~~~~~~~~
