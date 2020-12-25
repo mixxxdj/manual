@@ -242,6 +242,24 @@ Beat Loop Mode
 ~~~~~~~~~~~~~~
 .. _pioneer-ddj-400-beat-loop-mode:
 
+Press a pad to enable a loop from the current position. Press the pad again to
+disable the loop. The size of the loop is assigned to the pads as follows:
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (beat loop pads)
+   :figclass: pretty-figures
+
+.. table:: Pioneer DDJ-400 (beat loop sizes)
+   :align: center
+
+   ============  ============  ============  ============
+   1/4 beat      1/2 beat      1 beat        2 beats
+   4 beats       8 beats       16 beats      32 beats
+   ============  ============  ============  ============
+
 Beat Jump Mode
 ~~~~~~~~~~~~~~
 .. _pioneer-ddj-400-beat-jump-mode:
