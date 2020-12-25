@@ -1,7 +1,7 @@
 Kontrol DJ KDJ500
 =================
 
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=1609>`__
+-  `Forum thread <https://mixxx.discourse.group/t/kontrol-dj-500-kdj-500-mapping/10748>`__
 
 .. versionadded:: 1.10
 

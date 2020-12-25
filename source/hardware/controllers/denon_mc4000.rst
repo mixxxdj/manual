@@ -9,7 +9,7 @@ on-the-fly remixes.
 
 -  `Manufacturer’s product page <http://denondj.com/products/view/mc4000>`__
 -  `Manual / Midi commands <http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1444/documents/MC4000%20-%20User%20Guide%20-%20v1.2_00.pdf>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=7443>`__
+-  `Forum thread <https://mixxx.discourse.group/t/denon-mc4000-mapping/15311>`__
 
 The microphone and auxiliary inputs are mixed with the master output in
 hardware. They are not available to the computer through the MC4000’s

@@ -5,7 +5,7 @@ This controller has been discontinued as Vestax went out of business in 2014.
 
 -  `Product page in archive.org <http://web.archive.org/web/20140809134938/http://www.vestax.com/v/products/detail.php?cate_id=118&parent_id=8>`__
 -  `ASIO driver for Windows in serato.com <https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6038>`__
+-  `Forum thread <https://mixxx.discourse.group/t/vestax-vci-100mkii/14084>`__
 
 .. versionadded:: 2.0
 
@@ -122,7 +122,7 @@ Mapping for Mixxx 2.0
        size: LED28 & 29
     3. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
        size: LED28 & 29
-    4. see `the article <http://www.mixxx.org/forums/viewtopic.php?f=7&t=6038&start=20#p25804>`__
+    4. see `the article <https://mixxx.discourse.group/t/vestax-vci-100mkii/14084/21>`__
        or use :ref:`Controller Wizard <advanced-controller-wizard>`
        (choose “Quick Effect Super Knob”) for low-high pass
     5. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <

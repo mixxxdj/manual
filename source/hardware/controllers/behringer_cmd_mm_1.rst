@@ -11,7 +11,7 @@ CMD MM-1, but the CMD MM-1 can be used alone or with other controllers
 (especially the :ref:`Novation Launchpad <novation-launchpad-mk2>`).
 
 -  `Manufacturer's product page <https://www.behringer.com/product.html?modelCode=P0AJE>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=9276>`__
+-  `Forum thread <https://mixxx.discourse.group/t/advanced-behringer-cmd-mm-1-mapping/16753>`__
 
 .. versionadded:: 2.1
 
