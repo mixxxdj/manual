@@ -129,10 +129,128 @@ No.   Control                                                  Function
 10    :hwlabel:`BEAT JUMP` mode                                Sets pads to :ref:`beat jump mode <pioneer-ddj-400-beat-jump-mode>`.
 11    :hwlabel:`SAMPLER` mode                                  Sets pads to :ref:`sampler mode <pioneer-ddj-400-sampler-mode>`.
 12    :hwlabel:`TEMPO` slider                                  Adjust playback speed.
-13    Performance pads                                         Functionality differs depending on the :ref:`pad mode <pioneer-ddj-400-pad-modes>` selected by 8-11.
+13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11.
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track).
 15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`.
 ====  =======================================================  ======================================================================
+
+Pad Modes
+^^^^^^^^^
+
+The pad mode buttons change between different modes in which the performance pads operate. The main
+pad modes described below are similar to those found in rekordbox.
+
+.. note:: The secondary pad modes described in the manufacturer's manual
+          (:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and
+          :hwlabel:`KEYSHIFT`) are not currently implemented by this
+          mapping.
+
+Hot Cue Mode
+^^^^^^^^^^^^
+.. _pioneer-ddj-400-hot-cue-mode:
+
+Bookmark positions in the track and jump to them.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (hot cue pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (hot cue pads)
+
+
+========  ===============================  ========================================================
+No.       Control                          Function
+========  ===============================  ========================================================
+1-8       Pad (unlit)                      Save current position as hot cue.
+1-8       Pad (lit)                        Jump to hot cue. If the track is stopped, holding the
+                                           pad will preview the hot cue until the pad is released.
+1-8       :hwlabel:`SHIFT` + Pad (lit)     Clear hot cue.
+========  ===============================  ========================================================
+
+Beat Loop Mode
+^^^^^^^^^^^^^^
+.. _pioneer-ddj-400-beat-loop-mode:
+
+Press a pad to enable a loop from the current position. Press the pad again to
+disable the loop. The size of the loop is assigned to the pads as follows:
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (beat loop pads)
+   :figclass: pretty-figures
+
+.. table:: Pioneer DDJ-400 (beat loop sizes)
+   :align: center
+
+   ============  ============  ============  ============
+   1/4 beat      1/2 beat      1 beat        2 beats
+   4 beats       8 beats       16 beats      32 beats
+   ============  ============  ============  ============
+
+Beat Jump Mode
+^^^^^^^^^^^^^^
+.. _pioneer-ddj-400-beat-jump-mode:
+
+Press a pad to jump forwards or backwards by the number of beats assigned to the
+pads below.
+
+Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to
+increase the jump values by a factor of 16.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (beat jump pads)
+   :figclass: pretty-figures
+
+.. table:: Pioneer DDJ-400 (beat jump defaults)
+   :align: center
+
+   ====  =======  =========
+   No.   Jump     Direction
+   ====  =======  =========
+   1     1 beat   Back
+   2     1 beat   Forward
+   3     2 beats  Back
+   4     2 beats  Forward
+   5     4 beats  Back
+   6     4 beats  Forward
+   7     8 beats  Back
+   8     8 beats  Forward
+   ====  =======  =========
+
+Sampler Mode
+^^^^^^^^^^^^
+.. _pioneer-ddj-400-sampler-mode:
+
+Load and play samples from the library. The pads on decks 1 and 2 correspond to
+the first and second sampler rows in Mixxx respectively.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-400 (sampler pad)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-400 (sampler pads)
+
+
+========  ===============================  ========================================================
+No.       Control                                                          Function
+========  ===============================  ========================================================
+1-8       Pad (unlit)                      Load sample selected in library.
+1-8       Pad (lit)                        Play a loaded sample. If the sample is already playing,
+                                           playback starts from the beginning.
+1-8       :hwlabel:`SHIFT` + Pad (lit)     Stop a loaded sample from playing. If the sample is
+                                           already stopped, unload it.
+========  ===============================  ========================================================
 
 Mixer section (p. 8)
 ~~~~~~~~~~~~~~~~~~~~
@@ -199,125 +317,3 @@ No.   Control                                                  Function
 .. note:: Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH`
           knob to prevent sudden changes to the wet/dry mix or effect metaknob
           when changing between the two.
-
-Performance Pads
-----------------
-.. _pioneer-ddj-400-pad-modes:
-
-The pad mode buttons (see 8-9 in the :ref:`deck section <pioneer-ddj-400-deck-sections>`)
-change between different modes in which the performance pads operate. The main
-pad modes described below are similar to those found in rekordbox.
-
-.. note:: The secondary pad modes described in the manufacturer's manual
-          (:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and
-          :hwlabel:`KEYSHIFT`) are not currently implemented by this
-          mapping.
-
-Hot Cue Mode
-~~~~~~~~~~~~
-.. _pioneer-ddj-400-hot-cue-mode:
-
-Bookmark positions in the track and jump to them.
-
-.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
-   :align: center
-   :width: 40%
-   :figwidth: 100%
-   :alt: Pioneer DDJ-400 (hot cue pads)
-   :figclass: pretty-figures
-
-   Pioneer DDJ-400 (hot cue pads)
-
-
-========  ===============================================================  ==========================================
-No.       Control                                                          Function
-========  ===============================================================  ==========================================
-1-8       Pad (unlit)                                                      Save current position as hot cue.
-1-8       Pad (lit)                                                        Jump to hot cue. If the track is stopped,
-                                                                           holding the pad will preview the hot cue
-                                                                           until the pad is released.
-1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
-========  ===============================================================  ==========================================
-
-Beat Loop Mode
-~~~~~~~~~~~~~~
-.. _pioneer-ddj-400-beat-loop-mode:
-
-Press a pad to enable a loop from the current position. Press the pad again to
-disable the loop. The size of the loop is assigned to the pads as follows:
-
-.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
-   :align: center
-   :width: 40%
-   :figwidth: 100%
-   :alt: Pioneer DDJ-400 (beat loop pads)
-   :figclass: pretty-figures
-
-.. table:: Pioneer DDJ-400 (beat loop sizes)
-   :align: center
-
-   ============  ============  ============  ============
-   1/4 beat      1/2 beat      1 beat        2 beats
-   4 beats       8 beats       16 beats      32 beats
-   ============  ============  ============  ============
-
-Beat Jump Mode
-~~~~~~~~~~~~~~
-.. _pioneer-ddj-400-beat-jump-mode:
-
-Press a pad to jump forwards or backwards by the number of beats assigned to the
-pads below.
-
-Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to
-increase the jump values by a factor of 16.
-
-.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
-   :align: center
-   :width: 40%
-   :figwidth: 100%
-   :alt: Pioneer DDJ-400 (beat jump pads)
-   :figclass: pretty-figures
-
-.. table:: Pioneer DDJ-400 (beat jump defaults)
-   :align: center
-
-   ====  =======  =========
-   No.   Jump     Direction
-   ====  =======  =========
-   1     1 beat   Back
-   2     1 beat   Forward
-   3     2 beats  Back
-   4     2 beats  Forward
-   5     4 beats  Back
-   6     4 beats  Forward
-   7     8 beats  Back
-   8     8 beats  Forward
-   ====  =======  =========
-
-Sampler Mode
-~~~~~~~~~~~~
-.. _pioneer-ddj-400-sampler-mode:
-
-Load and play samples from the library. The pads on decks 1 and 2 correspond to
-the first and second sampler rows in Mixxx respectively.
-
-.. figure:: ../../_static/controllers/pioneer_ddj_400_performancepads.svg
-   :align: center
-   :width: 40%
-   :figwidth: 100%
-   :alt: Pioneer DDJ-400 (sampler pad)
-   :figclass: pretty-figures
-
-   Pioneer DDJ-400 (sampler pads)
-
-
-========  ===============================================================  ==========================================
-No.       Control                                                          Function
-========  ===============================================================  ==========================================
-1-8       Pad (unlit)                                                      Load sample selected in library.
-1-8       Pad (lit)                                                        Play a loaded sample. If the sample is
-                                                                           already playing, playback starts from the
-                                                                           beginning.
-1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Stop a loaded sample from playing. If the
-                                                                           sample is already stopped, unload it.
-========  ===============================================================  ==========================================
