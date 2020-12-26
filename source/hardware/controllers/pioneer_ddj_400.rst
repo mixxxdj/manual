@@ -150,8 +150,9 @@ Mixer section (p. 8)
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 1     :hwlabel:`TRIM`                                          Adjusts deck prefader gain
-2     :hwlabel:`MASTER`                                        Adjusts master output level
-3     :hwlabel:`MASTER` :hwlabel:`CUE`                         Sends master output to headphones (this is hardware implemented and
+2     :hwlabel:`MASTER`                                        Adjusts master output (this is hardware implemented and is not mapped
+                                                               to the software gain in Mixxx).
+3     :hwlabel:`MASTER` :hwlabel:`CUE`                         Sends master output to headphones (this is hardware implemented and is
                                                                not visible in the Mixxx interface).
 4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
 5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
