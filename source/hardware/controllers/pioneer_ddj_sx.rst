@@ -5,7 +5,7 @@ The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive con
 DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954/22>`__, but it does not use the new features of the DDJ-SX2 hardware.
 
 -  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sx/black/overview/>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8310>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954>`__
 -  `User Manual <https://www.pioneerdj.com/en/support/documents/archive/ddj-sx/#manual>`__
 
 .. versionadded:: 2.1
