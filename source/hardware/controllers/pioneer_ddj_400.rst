@@ -212,18 +212,10 @@ increase the jump values by a factor of 16.
 .. table:: Pioneer DDJ-400 (beat jump defaults)
    :align: center
 
-   ====  =======  =========
-   No.   Jump     Direction
-   ====  =======  =========
-   1     1 beat   Back
-   2     1 beat   Forward
-   3     2 beats  Back
-   4     2 beats  Forward
-   5     4 beats  Back
-   6     4 beats  Forward
-   7     8 beats  Back
-   8     8 beats  Forward
-   ====  =======  =========
+   =============  ===============  =============  ================
+   1 beat back    1 beat forward   2 beats back   2 beats forward
+   4 beats back   4 beats forward  8 beats back   8 beats forward
+   =============  ===============  =============  ================
 
 Sampler Mode
 ^^^^^^^^^^^^
