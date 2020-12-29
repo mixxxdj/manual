@@ -48,7 +48,7 @@ signals. Mixxx comes bundled with a number of MIDI and HID mapping presets,
 which are listed in the `Mixxx DJ Hardware Guide
 <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ on the wiki. For
 controllers that Mixxx does not yet support, you can `search the forum
-<https://mixxx.org/forums/search.php?fid[]=7>`_ to see if anyone has
+<https://mixxx.discourse.group/c/controller-mappings/10>`_ to see if anyone has
 started a mapping. You can also start one yourself using the information in the
 `Controller Mapping Documentation
 <https://github.com/mixxxdj/mixxx/wiki#user-content-controller-mapping-documentation>`_
