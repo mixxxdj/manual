@@ -8,7 +8,7 @@ It offers an ergonomically designed 4-channel mixer layout, optimized for the cl
 Dedicated equalizer and gain dials, high-quality line-faders, an extremely smooth-running crossfader, 16 multi-colour drum pads, as well as two extensive FX units are the foundation for your creativity.
 
 -  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428>`__
+-  `Forum thread <https://mixxx.discourse.group/t/reloop-beatmix-2-4-mapping/16049>`__
 
 .. versionadded:: 2.1
 

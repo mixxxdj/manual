@@ -7,7 +7,7 @@ the Android platform, but can also be used with Mixxx by sending MIDI signals to
 a computer with a USB cable.
 
 -  `Manufacturer’s product page <http://www.reloop.com/reloop-beatpad>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7581>`__
+-  `Forum thread <https://mixxx.discourse.group/t/reloop-beatpad-ready-for-1-12/15408>`__
 
 .. versionadded:: 2.0
 
