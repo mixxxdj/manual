@@ -298,7 +298,7 @@ No.   Control                                                  Function
 2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus effect 2
 2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
 3     :hwlabel:`FX SELECT`                                     Focus effect 3
-4     Channel select switch                                    Send effect chain mix to channel 1, 2 or master
+4     Channel select switch                                    Route deck 1, deck 2 or master mix to effect unit 1
 5     :hwlabel:`LEVEL/DEPTH`                                   Controls the metaknob of the currently focused effect *if the effect is disabled*.
 
                                                                Controls the wet/dry mix knob *if an effect is enabled*
