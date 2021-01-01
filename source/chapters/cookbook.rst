@@ -13,6 +13,9 @@ Deck Cloning
 
 When deck cloning (also called "instant doubles" in some other DJ software) is activated, the currently loaded song, playback state, pitch adjustment, and any playing loop will be cloned from one deck to another. This opens up a number of creative mixing possibilities, some of which we will explore below.
 
+.. image:: ../_static/deckclone.gif
+    :align: center
+
 How to use deck cloning
 -----------------------
 Deck cloning can be triggered several different ways:
@@ -47,3 +50,6 @@ In this technique, the same track is played on two decks, but on the second deck
 Preview current track
 ~~~~~~~~~~~~~~~~~~~~~
 While playing a track, sometimes it can be useful to preview an upcoming section of the song. This can be done by cloning the track that is playing to the another deck, seeking ahead, and listening via the cue output in your headphones.
+
+.. warning:: If the crossfader currently allows hearing decks from both sides, cloning a playing deck
+            will raise the main volume considerably, which may not be expected or desired.
