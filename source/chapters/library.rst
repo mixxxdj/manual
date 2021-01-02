@@ -930,7 +930,7 @@ How Rekordbox hotcues, memory cues, and loops are imported
   * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
   * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
 
-Although additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop information is stored in the Mixxx library will become usable in Mixxx 2.4.
+Although additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop information is stored in the Mixxx library and will become usable in Mixxx 2.4.
 
 .. _library-serato:
 
