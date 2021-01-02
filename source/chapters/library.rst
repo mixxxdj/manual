@@ -914,7 +914,7 @@ Databases that have been moved to an external device via :guilabel:`Preferences 
 
 How Rekordbox hotcues, memory cues, and loops are imported
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  The following data is read:
+The following data is read:
 
   * Folders
   * Playlists
