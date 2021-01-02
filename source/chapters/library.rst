@@ -923,7 +923,7 @@ The following data is read:
   * Memory cues
   * Loops
 
-  Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
+Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
 
   *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
   * The first chronological Rekordbox loop is also mapped to the Mixxx loop.
