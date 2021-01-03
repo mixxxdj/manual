@@ -787,8 +787,7 @@ Equalizers and Gain Knobs
 
 **EQ Knobs**
    The low, mid, and high EQ knobs (purple ring) allow you to change the filters of the audio.
-  This allows you to selectively reduce or boost certain frequency ranges of
-  the audio.
+   This allows you to selectively reduce or boost certain frequency ranges of the audio.
 
   .. warning:: Be careful not to raise the EQs so much that the signal clips,
                indicated by a :term:`level meter` being in the red region. See
