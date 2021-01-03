@@ -755,7 +755,7 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  The gain knob allows you to adjust the gain applied to the deck.
+  The gain knob (green ring) above the volume fader allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
@@ -776,7 +776,7 @@ Equalizers and Gain Knobs
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
-  The low, mid, and high EQ knobs allow you to change the filters of the audio.
+   The low, mid, and high EQ knobs (purple ring) allow you to change the filters of the audio.
   This allows you to selectively reduce or boost certain frequency ranges of
   the audio.
 
@@ -793,7 +793,7 @@ Equalizers and Gain Knobs
   EQ settings in the preferences.
 
   **Quick Effect knob**
-  This knob let's you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
+  This knob (blue ring) lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
   Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
@@ -865,23 +865,13 @@ on the left end of the crossfader and vice versa. This is also known as
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. figure:: ../_static/2.2/master-head-controls.png
-   :align: center
-   :width: 117px
-   :figwidth: 100%
-   :alt: The headphone and master mix knobs
-   :figclass: pretty-figures
-
-   The headphone and master mix knobs
-
 .. _interface-head-master:
 
 Headphone and Master Mix Controls
 ---------------------------------
 
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Master.png
+.. figure:: ../_static/2.2/master-head-controls.png
    :align: center
-   :width: 117px
    :figwidth: 100%
    :alt: The headphone and master mix knobs
    :figclass: pretty-figures
