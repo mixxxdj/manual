@@ -7,6 +7,7 @@ jobs:
   linkcheck:
     name: Link Check
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
     - name: Clone repository
       uses: actions/checkout@v2
