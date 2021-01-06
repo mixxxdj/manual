@@ -3,8 +3,8 @@
 Reloop Terminal Mix 2/4
 =======================
 
-- `Terminal Mix 2 product page <http://www.reloop.com/reloop-terminal-mix-2>`__
-- `Terminal Mix 4 product page <http://www.reloop.com/reloop-terminal-mix-4>`__
+- `Terminal Mix 2 product page <http://web.archive.org/web/20190916160609/http://www.reloop.com/reloop-terminal-mix-2>`__
+- `Terminal Mix 4 product page <https://web.archive.org/web/20190916134709/http://www.reloop.com/reloop-terminal-mix-4>`__
 
 The Reloop Terminal Mix 2 and Terminal Mix 4 use the same mapping in Mixxx.
 
