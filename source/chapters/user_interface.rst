@@ -733,9 +733,9 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  In the center of the mixer section are 4 :term:`level meters <level meter>`. The
-  two outer-most level meters are for each deck, while the 2 inner-most level
-  meters are the left and right level meters for the master output. These should
+  In the center of the mixer section are 6 :term:`level meters <level meter>` grouped in three pairs. The
+  two outer-most level meters on each side are for each deck, while the 2 inner-most level
+  meters are the left and right level meters for the master output. In each pairing, the left meter shows the volume level for the left channel, while the right meter shows the volume level for the right channel. These should
   stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
