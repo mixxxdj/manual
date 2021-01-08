@@ -17,7 +17,8 @@ Thanks to Hercules for supporting the development of this mapping by providing a
 
 .. versionadded:: 2.1
 .. versionchanged:: 2.3.0
-   Pitch controls added in loop mode.
+   - pitch controls added in loop mode
+   - dry/wet knobs can be replaced by pregain (optional)
 
 Compatibility
 -------------
@@ -97,4 +98,4 @@ Other controls
 -  **Shift + cue**: jump to beginning of track and stop
 -  **Shift + play**: toggle reverse playback
 -  **Shift + load**: ejects a track from the deck
--  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled.
+-  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled. Dry/wet knob can optionally be used as pregain (see dryWetKnobAsPregain variable)
