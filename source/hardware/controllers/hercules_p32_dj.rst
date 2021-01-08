@@ -17,7 +17,7 @@ Thanks to Hercules for supporting the development of this mapping by providing a
 
 .. versionadded:: 2.1
 .. versionchanged:: 2.3.0
-   Pitch controls added in loop mode.
+   Add pitch controls in loop mode and increased head mix knob precision.
 
 Compatibility
 -------------
