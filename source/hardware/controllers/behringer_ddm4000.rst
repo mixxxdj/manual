@@ -8,7 +8,7 @@ The DDM4000 is a 5-Channel Digital DJ Mixer with Sampler, 4 FX Sections, BPM Cou
 support. Each of the following sections can be configured separately to be used either for audio
 or as MIDI controller:
 
-- Channel 1-4 
+- Channel 1-4
 - Microphone Channel
 - Crossfader
 - Sampler
