@@ -41,6 +41,7 @@ Mapping Description
 Most controls behave just as you would expect from audio mode:
 
 Channel 1-4
+~~~~~~~~~~~
 - Volume
 - Crossfader Assign
 - PFL
@@ -48,16 +49,21 @@ Channel 1-4
 - EQ Buttons: Kill Switches
 
 Microphone
+~~~~~~~~~~
 - Talkover
 
 Crossfader
+~~~~~~~~~~
 - Crossfader
 - Crossfader On/Off Switch (Off disables and hides the crossfader in Mixxx)
 - Crossfader Curve
 - Reverse Tap
 - Reverse Hold
 
-Sampler Bank 1
+Sampler
+~~~~~~~
+Bank 1
+^^^^^^
 - Play
 - Volume
 - PFL
@@ -65,6 +71,7 @@ Sampler Bank 1
 - FX: Toggles Effect Unit 1
 - Crossfader Assign
 
-Sampler Bank 2
+Bank 2
+^^^^^^
 - Play/Out
 - Mode Button to toggle Loop & Reverse
