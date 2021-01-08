@@ -38,7 +38,7 @@ Configure at least 1 mixer section as MIDI controller:
 Mapping Description
 -------------------
 
-Most controls behave just as you would expect:
+Most controls behave just as you would expect from audio mode:
 
 Channel 1-4
 - Volume
@@ -48,15 +48,23 @@ Channel 1-4
 - EQ Buttons: Kill Switches
 
 Microphone
-- On/Off
 - Talkover
 
 Crossfader
 - Crossfader
+- Crossfader On/Off Switch (Off disables and hides the crossfader in Mixxx)
+- Crossfader Curve
+- Reverse Tap
+- Reverse Hold
 
-Sampler
+Sampler Bank 1
+- Play
 - Volume
 - PFL
-- Play
-- Mode: Toggles Loop
+- Mode Button to toggle Loop & Reverse
+- FX: Toggles Effect Unit 1
 - Crossfader Assign
+
+Sampler Bank 2
+- Play/Out
+- Mode Button to toggle Loop & Reverse
