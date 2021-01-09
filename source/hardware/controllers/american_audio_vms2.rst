@@ -11,7 +11,7 @@ computer by setting the USB/Analog switches on the front of the device
 to “Analog”.
 
 -  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
+-  `Forum thread <https://mixxx.discourse.group/t/american-audio-vms2/12000>`__, for discussion of mapping options.
 -  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 
 .. versionadded:: 1.11

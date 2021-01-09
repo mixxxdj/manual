@@ -284,17 +284,43 @@ Debugger Enabled                          :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`
 
 .. _appendix-command-line-options:
 
+Launching Mixxx from the Command Line
+=====================================
+To launch Mixxx using the command line:
+
+**Windows**
+  Locate the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and then choosing 'Properties'.
+  Copy the path and paste it in terminal and add ``\mixxx`` at the end - everything should be inside quotes. Press Enter. The entire command will look like this ::
+
+    "C:\Program Files\Mixxx\mixxx"
+
+**macOS**
+  Similarly, for macOS, the command will be ::
+
+    /Applications/Mixxx.app/Contents/MacOS/mixxx
+
+**GNU/ Linux**
+  If Mixxx is in your system's search path (``$PATH``), you can just type ::
+
+   mixxx
+
 Command line options
-====================
+--------------------
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
+To launch Mixxx with any of these command line options, simply append the option to the base command for your operating system. For example, to launch Mixxx in developer mode on Windows, type this in terminal ::
+
+  "C:\Program Files\Mixxx\mixxx" --developer
+
 In addition to these options, it is possible to specify one or more music
 file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
-types, go to :ref:`configuration-import`.
+types, go to :ref:`file-format-compatibility`.
+
+
 
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,

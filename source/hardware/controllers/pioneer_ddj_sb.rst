@@ -3,7 +3,7 @@ Pioneer DDJ-SB
 
 The Pioneer DDJ-SB is an all-in-one 2 deck USB :term:`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks.
 
--  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb/>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sb/black/overview/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/midi-mapping-for-pioneer-ddj-sb/14806>`__
 -  `GitHub pull request <https://github.com/mixxxdj/mixxx/pull/663>`__
 

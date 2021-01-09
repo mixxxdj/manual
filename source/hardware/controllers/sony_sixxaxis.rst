@@ -3,7 +3,7 @@ Sony Sixxaxis
 
 The Sony Sixaxis is a motion-sensitive wireless game console controller.
 
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3940>`__
+-  `Forum thread <https://mixxx.discourse.group/t/sony-sixxaxis-game-controller-hid-mapping/12650>`__
 
 .. versionadded:: 1.11
 
