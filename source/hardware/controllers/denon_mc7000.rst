@@ -10,8 +10,7 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3.0
-   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, added waveform zoom, changed Parameter and Censor/Reverse/Spinback button mapping
-
+   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, added waveform zoom, changed Parameter and Censor/Reverse/Spinback button mapping.
 
 Compatibility
 ~~~~~~~~~~~~~
@@ -94,7 +93,7 @@ Mixer Section
    "20", ":hwlabel:`PHONES LEVEL`",    "Turn to adjust the volume level of the headphones."
    "21", ":hwlabel:`PHONES MIX`",      "Adjusts the software’s audio output to the headphones, mixing between the cue output and the master mix output."
    "22", ":hwlabel:`SPLIT`",           "Press to switch Headphone 'split' mode. When this switch is lit, the headphone audio will be 'split' such that all channels sent to cue channel are summed to mono and sent to the left headphone channel and the master mix is summed to mono and sent to the right channel. When the switch is unlit, the cue channel and master mix will be 'blended' together."
-   "  ", ":hwlabel:`X FADER CONTOUR`", "Turn to adjust the slope of the crossfader curve, to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching."
+   "59", ":hwlabel:`X FADER CONTOUR`", "Turn to adjust the slope of the crossfader curve, to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching."
 
 .. note::
    The Input source selection, Master Level Meters, :hwlabel:`USB1 / USB2`, :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES LEVEL`, :hwlabel:`PHONES MIX` and :hwlabel:`SPLIT` are handled by the controller.
@@ -120,6 +119,46 @@ Microphone Section
 .. note::
    All functions are handled by the controller in hardware.
    The status of Mixxx will not be changed.
+
+
+FX Section
+~~~~~~~~~~
+
+.. csv-table::
+   :header: "No.", "Control", "Function"
+   :widths: 10 90 250
+
+   "11", ":hwlabel:`FX ASSIGN`",                              "Press assign :hwlabel:`FX 1` and/or :hwlabel:`FX 2` to the corresponding channel."
+   "55", ":hwlabel:`FX ON`",                                  "Press to turn the corresponding effect on or off."
+   "55", ":hwlabel:`SHIFT` + :hwlabel:`FX ON`",               "Press to select an effect from the list that was enabled in the Mixxx Preferences FX section."
+   "56", ":hwlabel:`FX 1`, :hwlabel:`FX 2`, :hwlabel:`FX 3`", "Turn to adjust the level of the corresponding effect. The :hwlabel:`FX ON` button under the knob must be lit for this knob to function."
+   "57", ":hwlabel:`FX BEATS`",                               "Turn to adjust the Wet/Dry rate of the effects."
+   "58", ":hwlabel:`FX TAP`",                                 "Press to activate effects for the Master output. This can be overlapped with Channel Effects."
+   "58", ":hwlabel:`SHIFT` + :hwlabel:`FX TAP`",              "Press to activate effects for headphones cue."
+
+
+Library Section
+~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "No.", "Control", "Function"
+   :widths: 10 90 250
+
+   "48", ":hwlabel:`SELECT/LOAD`",                    "Turn to navigate through lists. Press the left side button to load a track into the active Deck (1 or 3), press the right side button to load a track into the active Deck (2 or 4).
+
+   When you keep the knob pressed down longer than 0,5 sec an actual loaded track will be ejected from the deck upon release of the knob."
+   "48", ":hwlabel:`SHIFT` + :hwlabel:`SELECT/LOAD`", "Turn to browse quickly through the tracks in the library or push the knob to open folders on the left side of the library."
+   "49", ":hwlabel:`SORT`",                           "Press and hold to activate sort functions."
+   "50", ":hwlabel:`BACK`",                           "Press to switch between right and left side of the library."
+   "50", ":hwlabel:`SHIFT` + :hwlabel:`BACK`",        "Press to move through frames inside the GUI."
+   "50", ":hwlabel:`SORT` + :hwlabel:`BACK`",         "Press to sort the tracks by Beats Per Minute."
+   "51", ":hwlabel:`L.PREP`",                         "Press to load the currently selected track to the Preview Deck."
+   "51", ":hwlabel:`SHIFT` + :hwlabel:`L.PREP`",      "Press to start and stop playing the track in Preview Deck."
+   "51", ":hwlabel:`SORT` + :hwlabel:`L.PREP`",       "Press to sort the tracks by their Key."
+   "52", ":hwlabel:`FILES`",                          "Press to maximise the library. Press this button again to exit maximised library."
+   "52", ":hwlabel:`SORT` + :hwlabel:`FILES`",        "Press to sort the tracks by Artist."
+   "53", ":hwlabel:`PANEL`",                          "Press to open and close the FX panel inside the GUI."
+   "53", ":hwlabel:`SORT` + :hwlabel:`PANEL`",        "Press to sort the tracks by Title."
 
 
 Deck Section
@@ -177,33 +216,10 @@ Deck Section
    "54", ":hwlabel:`SHIFT` + :hwlabel:`NEEDLE DROP`",      "Press to jump to a position while a track is currently playing."
 
 
-Library Section
-~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :header: "No.", "Control", "Function"
-   :widths: 10 90 250
-
-   "48", ":hwlabel:`SELECT/LOAD`",                    "Turn to navigate through lists. Press the left side button to load a track into the active Deck (1 or 3), press the right side button to load a track into the active Deck (2 or 4).
-
-   When you keep the knob pressed down longer than 0,5 sec an actual loaded track will be ejected from the deck upon release of the knob."
-   "48", ":hwlabel:`SHIFT` + :hwlabel:`SELECT/LOAD`", "Turn to browse quickly through the tracks in the library or push the knob to open folders on the left side of the library."
-   "49", ":hwlabel:`SORT`",                           "Press and hold to activate sort functions."
-   "50", ":hwlabel:`BACK`",                           "Press to switch between right and left side of the library."
-   "50", ":hwlabel:`SHIFT` + :hwlabel:`BACK`",        "Press to move through frames inside the GUI."
-   "50", ":hwlabel:`SORT` + :hwlabel:`BACK`",         "Press to sort the tracks by Beats Per Minute."
-   "51", ":hwlabel:`L.PREP`",                         "Press to load the currently selected track to the Preview Deck."
-   "51", ":hwlabel:`SHIFT` + :hwlabel:`L.PREP`",      "Press to start and stop playing the track in Preview Deck."
-   "51", ":hwlabel:`SORT` + :hwlabel:`L.PREP`",       "Press to sort the tracks by their Key."
-   "52", ":hwlabel:`FILES`",                          "Press to maximise the library. Press this button again to exit maximised library."
-   "52", ":hwlabel:`SORT` + :hwlabel:`FILES`",        "Press to sort the tracks by Artist."
-   "53", ":hwlabel:`PANEL`",                          "Press to open and close the FX panel inside the GUI."
-   "53", ":hwlabel:`SORT` + :hwlabel:`PANEL`",        "Press to sort the tracks by Title."
-
 .. _PADs:
 
 Performance Pads
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Mode Selection
 --------------
@@ -227,28 +243,26 @@ Hot Cue Mode
 | Press one of the Pad buttons to set or play a Hot Cue.
 | Use :hwlabel:`SHIFT` + Pad button to delete an existing Hot Cue.
 
-Hot Cue Numbers
+.. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 CUE Mode
+   :figclass: pretty-figures
 
-+-----+-----+-----+-----+
-|  1  |  2  |  3  |  4  |
-+-----+-----+-----+-----+
-|  5  |  6  |  7  |  8  |
-+-----+-----+-----+-----+
 
-
-Roll  Mode
+Roll Mode
 ----------
 
 | This mode lets you repeat a number of beats while keep pushing a Pad button down.
 | The :hwlabel:`SLIP` function remains active so that the track continues at the position where it had been playing forward the whole time.
 
-Beat size per Pad button
-
-+-----+-----+-----+-----+
-| 1/16| 1/8 | 1/4 | 1/2 |
-+-----+-----+-----+-----+
-|  1  |  2  |  4  |  8  |
-+-----+-----+-----+-----+
+.. figure:: ../../_static/controllers/denon_mc7000_roll_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 ROLL Mode
+   :figclass: pretty-figures
 
 
 Beatjump Mode
@@ -256,13 +270,12 @@ Beatjump Mode
 
 This mode lets you jump a number of beats while pushing a Pad once.
 
-Beat jump per Pad button
-
-+-----+-----+-----+-----+
-| +1  | +2  | +4  | +8  |
-+-----+-----+-----+-----+
-| -1  | -2  | -4  | -8  |
-+-----+-----+-----+-----+
+.. figure:: ../../_static/controllers/denon_mc7000_beatjump_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 BEATJUMP Mode
+   :figclass: pretty-figures
 
 
 Sampler Mode
@@ -276,29 +289,12 @@ Sampler Mode
 
 Use :hwlabel:`SHIFT` + Pad button to stop a sampler while playing or eject a sampler when stopped.
 
-Sampler per Pad button
-
-+-----+-----+-----+-----+
-|  1  |  2  |  3  |  4  |
-+-----+-----+-----+-----+
-|  5  |  6  |  7  |  8  |
-+-----+-----+-----+-----+
-
-
-FX Section
-~~~~~~~~~~
-
-.. csv-table::
-   :header: "No.", "Control", "Function"
-   :widths: 10 90 250
-
-   "11", ":hwlabel:`FX ASSIGN`",                              "Press assign :hwlabel:`FX 1` and/or :hwlabel:`FX 2` to the corresponding channel."
-   "55", ":hwlabel:`FX ON`",                                  "Press to turn the corresponding effect on or off."
-   "55", ":hwlabel:`SHIFT` + :hwlabel:`FX ON`",               "Press to select an effect from the list that was enabled in the Mixxx Preferences FX section."
-   "56", ":hwlabel:`FX 1`, :hwlabel:`FX 2`, :hwlabel:`FX 3`", "Turn to adjust the level of the corresponding effect. The :hwlabel:`FX ON` button under the knob must be lit for this knob to function."
-   "57", ":hwlabel:`FX BEATS`",                               "Turn to adjust the Wet/Dry rate of the effects."
-   "58", ":hwlabel:`FX TAP`",                                 "Press to activate effects for the Master output. This can be overlapped with Channel Effects."
-   "58", ":hwlabel:`SHIFT` + :hwlabel:`FX TAP`",              "Press to activate effects for headphones cue."
+.. figure:: ../../_static/controllers/denon_mc7000_sampler_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 SAMPLER Mode
+   :figclass: pretty-figures
 
 
 LEDs

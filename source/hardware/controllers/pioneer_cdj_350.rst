@@ -8,7 +8,7 @@ Mixxx by playing timecode from a CD or USB drive and running that signal
 into Mixxx through a sound card.
 
 -  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/player/archive/cdj-350/black/overview/>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=1917>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pioneer-cdj350-midi-mapping/11011>`__
 
 .. versionadded:: 1.8.2
    Support for :term:`MIDI` mode.

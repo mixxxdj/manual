@@ -2,11 +2,11 @@ Pioneer DDJ-SX
 ==============
 
 The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive control of all of Mixxx’s features. The DDJ-SX mapping `reportedly works with the
-DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954/22#p37884>`__, but it does not use the new features of the DDJ-SX2 hardware.
+DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954/22>`__, but it does not use the new features of the DDJ-SX2 hardware.
 
--  `Manufacturer’s product page <https://www.pioneerdj.com/en-us/product/controller/ddj-sx/black/overview/>`__
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=8310>`__
--  `Manual (multi-language) <http://docs.pioneerdj.com/Manuals/DDJ_SX_DRH1193_manual/>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sx/black/overview/>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954>`__
+-  `User Manual <https://www.pioneerdj.com/en/support/documents/archive/ddj-sx/#manual>`__
 
 .. versionadded:: 2.1
 
@@ -206,8 +206,8 @@ Figure           Control                                        Description
 SLICER Mode
 ~~~~~~~~~~~
 
-For a detailed explanation of the slicer mode, take a look at the controller’s `manual <http://docs.pioneerdj.com/Manuals/DDJ_SX_DRH1193_manual/>`__. A limited slicer functionality is implemented into
-the controller mapping as described below.
+For a detailed explanation of the slicer mode, take a look at the controller’s manual.
+A limited slicer functionality is implemented into the controller mapping as described below.
 
 There are two slicer modes, continuous slice and loop slice, which can be selected by pressing the :hwlabel:`SLICER` mode button. If none or only one pad (beat) is lit, continuous slice mode is active. If
 you press :hwlabel:`SLICER` mode button again, loop slice mode will be activated and all pads, except one for the beat, will light up.

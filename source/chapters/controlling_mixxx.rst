@@ -94,27 +94,27 @@ hardware devices used to control audio applications. Many DJs prefer the
 hands-on feel of a controller with Mixxx because it can feel similar to using a
 real mixer and turntables or :term:`CDJ`.
 
-.. _control-load-preset:
+.. _control-load-mapping:
 
-Loading a controller preset
----------------------------
+Loading a controller mapping
+----------------------------
 .. figure:: ../_static/Mixxx-200-Preferences-Controllers.png
    :align: center
    :width: 75%
    :figwidth: 100%
-   :alt: Mixxx Preferences - Loading a controller preset
+   :alt: Mixxx Preferences - Loading a controller mapping
    :figclass: pretty-figures
 
-   Mixxx Preferences - Loading a controller preset
+   Mixxx Preferences - Loading a controller mapping
 
-Without loading the correct preset, your controller does not work with Mixxx.
+Without loading the correct mapping, your controller does not work with Mixxx.
 
 #. Connect your controller(s) to your computer
 #. Start Mixxx
 #. Go to :menuselection:`Preferences --> Controllers`
 #. Select your device from the list of available devices on the left, and the
    right pane will change
-#. Select the mapping for your controller from the :guilabel:`Load Preset`
+#. Select the mapping for your controller from the :guilabel:`Load Mapping`
    drop-down menu
 #. Make sure that the :guilabel:`Enabled` checkbox is ticked
 #. Click :guilabel:`Apply` and Mixxx can now be controlled by your controller(s).
@@ -144,7 +144,7 @@ report` on our `Bug Tracker`_ or tell us about it on our mailing list, forums,
 or :term:`IRC` channel. Device support varies for each supported :term:`OS
 <operating system>`, so make sure to consult the documentation of the device.
 
-.. hint::  Additional mappings are available in the `Controller presets forum`_.
+.. hint::  Additional mappings are available in the `Controller mapping forum`_.
 
 .. seealso:: Before purchasing a controller to use with Mixxx, consult our
              `Hardware Compatibility wiki page`_. It contains the most
@@ -153,15 +153,15 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
 
 .. _Hardware Compatibility wiki page: https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility
 .. _Bug Tracker: https://bugs.launchpad.net/mixxx
-.. _Controller presets forum: https://mixxx.org/forums/viewforum.php?f=7
+.. _Controller mapping forum: https://mixxx.org/forums/viewforum.php?f=7
 
-Installing a preset from the forum
-----------------------------------
+Installing a mapping from the forum
+-----------------------------------
 To use a controller mapping that did not come bundled with Mixxx, place the
-controller mapping in your User Presets folder. This is the folder called
-"controllers" inside your User Preferences folder. To open your User Presets
+controller mapping in your User Mappings folder. This is the folder called
+"controllers" inside your User Preferences folder. To open your User Mappings
 folder, go to :menuselection:`Preferences --> Controllers` and click the
-:guilabel:`Open User Preset Folder` button. Alternatively, navigate to the
+:guilabel:`Open User Mapping Folder` button. Alternatively, navigate to the
 folder in your :term:`OS <operating system>` file browser:
 
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
@@ -176,8 +176,8 @@ do this varies with each version of Windows).
 If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for
 extracting an archive or compressed folder. Copy the :file:`.xml` file into your
-User Preset folder. If there is a :file:`.js` file, also copy that to your
-User Preset folder. Restart Mixxx and :ref:`load the preset <control-load-preset>`.
+User Mapping folder. If there is a :file:`.js` file, also copy that to your
+User Mapping folder. Restart Mixxx and :ref:`load the mapping <control-load-mapping>`.
 
 Map your own controller
 -----------------------

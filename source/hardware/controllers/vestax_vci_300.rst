@@ -16,8 +16,8 @@ Differences between VCI-300 and VCI-300 MKII
 
 In 2010 Vestax made changes to the original VCI-300 that improved the controller. There were *no* changes in the MIDI mapping.
 
-Volume Boost (Gain Boost)*\*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Volume Boost (Gain Boost)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Higher output gain level and headphone volume level when supplying power with the optional power adaptor.
 -  *Important Note:* Optional power supply DC-7 must be used in order to get the boost on the headphones and Master output. Without the power supply the MKII will perform just like the original
@@ -55,7 +55,7 @@ Mapping description
    :figclass: pretty-figures
 
    Vestax VCI-300 (schematic view)
-   Image (c) `Vestax <http://www.vestax.com>`__
+   Image (c) Vestax
 
 
 Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely resemble the original to make the transition easy.
