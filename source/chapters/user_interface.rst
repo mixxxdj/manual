@@ -887,7 +887,7 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
-**Pre/Main Knob**
+**Head Mix knob**
   Allows you to control how much of the master output you hear in the
   :guilabel:`Headphones` output. It works like a crossfader between the stereo
   Master and stereo :term:`PFL` signal. If the knob is set to the left, you
@@ -907,11 +907,24 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head-Split Button**
+**Head knob**
+  This knob controls the gain applied to the headphone output signal that Mixxx
+  sends to your sound card. Generally, this knob should not be adjusted. To
+  adjust the volume in your headphones, adjust your sound card's gain on the
+  headphone output. Most external sound cards have a gain knob specifically for
+  the headphone jack. If you use an onboard sound card for your headphones,
+  adjust the gain control in your :term:`OS <operating system>` mixer program.
+  If your sound card only has one gain knob that controls both the main output
+  and the headphone output, then adjust the :guilabel:`Head` knob in Mixxx
+  to control the volume of your headphones without affecting your main output.
+
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+
+**Split Cue button**
   If activated, two mono signals are sent to the headphone output instead of one
   stereo signal. The master signal plays in the right channel, while the cueing
   signal plays in the left channel. You can still adjust the
-  :guilabel:`Pre/Main Knob` to control the mix of the master and cue signals in
+  :guilabel:`Head Mix` knob to control the mix of the master and cue signals in
   the left channel.
 
 **Balance Knob**
@@ -946,19 +959,6 @@ Headphone and Master Mix Controls
 
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
-
-**Head Gain Knob**
-  This knob controls the gain applied to the headphone output signal that Mixxx
-  sends to your sound card. Generally, this knob should not be adjusted. To
-  adjust the volume in your headphones, adjust your sound card's gain on the
-  headphone output. Most external sound cards have a gain knob specifically for
-  the headphone jack. If you use an onboard sound card for your headphones,
-  adjust the gain control in your :term:`OS <operating system>` mixer program.
-  If your sound card only has one gain knob that controls both the main output
-  and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
-  to control the volume of your headphones without affecting your main output.
-
- .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
 
 .. _interface-sampler:
 
