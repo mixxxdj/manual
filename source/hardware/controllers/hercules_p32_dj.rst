@@ -16,6 +16,8 @@ switched between 4 different layers to perform a variety of functions.
 Thanks to Hercules for supporting the development of this mapping by providing a controller.
 
 .. versionadded:: 2.1
+.. versionchanged:: 2.3.0
+   Pitch controls added in loop mode.
 
 Compatibility
 -------------
@@ -85,6 +87,7 @@ Other controls
 -  **Loop mode**: Control manual loops and other miscellaneous functions. On the top row, from left to right, the pads set the loop in point, loop out point, and toggle the loop (without changing its
    size). Hold the loop in or loop out button while moving the waveform with the mouse to adjust the loop in/out point (new in Mixxx 2.1). On the bottom row, the two purple buttons temporarily
    decrease/increase the playback speed while they are held down for beatmatching. The button to the right of those shifts the beat grid to the current position.
+   The right column is for pitch management, from top to bottom: match the key with the other track, pitch up, pitch down, and reset to the default key of the track.
 -  **Slicer mode**: refer to Effects section above
 -  **Sampler mode**: Press an unlit pad to load the track selected in the library to that sampler. Pads are blue when the sampler is loaded but not playing and red when playing. Press a blue pad to
    play the sample from its cue point. Press a red pad to jump back to the sample’s cue point. Press a red pad with shift to stop a playing sample. Press a blue pad with shift to eject a sample. Note
