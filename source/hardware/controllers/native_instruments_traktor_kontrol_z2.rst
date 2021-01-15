@@ -65,6 +65,16 @@ Controller Mapping
 The control numbering in the schematic drawings matches the those found on the
 specified page in the Manual.
 
+Shift button states
+~~~~~~~~~~~~~~~~~~~
+
+==============================  ================  ====================================================
+Shift button state              Shift button LED  Action
+==============================  ================  ====================================================
+unshifted                       Off
+:hwlabel:`SHIFT` hold           Bright            Press and hold :hwlabel:`SHIFT`
+:hwlabel:`SHIFT` locked         Dimmed            Short click on :hwlabel:`SHIFT` to toggle lock state
+==============================  ================  ====================================================
 
 Browse Section
 ~~~~~~~~~~~~~~
