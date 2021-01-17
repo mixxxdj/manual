@@ -4,6 +4,6 @@ graphviz
 markupsafe
 transifex-client
 sphinxcontrib-svg2pdfconverter
-sphinx-rtd-theme==0.5.0
+sphinx-rtd-theme==0.5.1
 sphinx-multiversion==0.2.1
 ./sphinx-mixxx
