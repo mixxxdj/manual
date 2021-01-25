@@ -54,10 +54,10 @@ Control                                             Description
 :hwlabel:`FILTER` knob                              Controls QuickEffect superknob. This controls the Filter effect by default, but a different effect can be chosen in the Equalizer section of Mixxs’s Preferences.
 :hwlabel:`SNAP`                                     Toggles library fullscreen
 :hwlabel:`LOOP RECORD`                              Toggles recording
-:hwlabel:`LOOP RECORDER PLAY`                       Hold down to use as a modifier.
+:hwlabel:`LOOP RECORDER PLAY`                       Hold down and press :hwlabel:`FLUX` button on a deck to enable autoslip mode on that deck.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
 :hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN      Increase / decrease the BPM of the track by 0.5 - click in the knob to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
-:hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Clicking in acts like a double click on the mouse.
+:hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Pressing acts like a double click on the mouse.
 ==================================================  =========================================================================
 
 :hwlabel:`GAIN`, effects routing, equalizer high/mid/low, and :hwlabel:`CUE` (headphones) behave as labeled.
