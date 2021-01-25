@@ -56,6 +56,7 @@ Control                                             Description
 :hwlabel:`LOOP RECORD`                              Toggles recording
 :hwlabel:`LOOP RECORDER PLAY`                       Hold down to use as a modifier.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
+:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN      Increase / decrease the BPM of the track by 0.5 - click in the knob to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
 :hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Clicking in acts like a double click on the mouse.
 ==================================================  =========================================================================
 
@@ -112,6 +113,11 @@ The button below the mix knob toggles whether the effect parameters are showing 
 This will be expanded in a future update to implement the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
 
 The buttons at the top of each mixer column control which decks are routed to which effects units.
+
+Mapping extras
+~~~~~~~~~~~~~~~
+Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the :hwlabel:`FLUX` on a deck will enable autoslip mode on that deck. Turns on slip mode before doing certain actions and turns it off after the actions is finished to attempt to automatically engage slip mode. Works for beat loops, hot cues, and scratching (warning, can have weird effects when scratching).
+
 
 Mapping options
 ~~~~~~~~~~~~~~~
