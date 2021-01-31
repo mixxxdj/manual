@@ -104,7 +104,8 @@ Control                            Description
 :hwlabel:`SHIFT` + :hwlabel:`REV`  Turns on reverse playback mode.
 :hwlabel:`GRID`                    Turns on Quantize mode.
 :hwlabel:`FLUX`                    Turns on Slip mode.
-:hwlabel:`JOG`                     Hold to use the wheels to quickly scroll through the track
+:hwlabel:`JOG`                     Turns on Scratch mode.
+:hwlabel:`SHIFT` + Wheels          Hold to use the wheels to quickly scroll through the track.
 =================================  ==========================================================
 
 Looping
