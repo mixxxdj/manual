@@ -141,22 +141,92 @@ There are two ways the rate sliders can be mapped: Absolute, and Relative.  Abso
      - Keylock + Pitch Slider: adjusts musical key
      - :hwlabel:`SHIFT` + Pitch Slider: Allows the user to move the slider without any effect.
 
+Button Pads
+~~~~~~~~~~~
+
+The grid of 8 buttons have two possible trigger modes: Hotcues, and Samplers.
+
+In Hotcues mode, pressing the number button will set the hotcue if none exists, and activate it if one does.
+If you hold :hwlabel:`SHIFT` and press a button, it will clear that hotcue.
+
+In Samplers mode, the buttons on the left side of the controller correspond to Samplers 1-8.
+The buttons on the right side of the controller correspond to Samplers 9-16.
+By default, pressing a number button will activate a sample.
+Pressing the button again will stop sample playback.
+
+You can change this behavior by editing the javascript file to set `TraktorS3.SamplerModePressAndHold = true;`.
+In this mode, the sample will play while the button is held, and stop when you let go.
+
+In both modes, holding :hwlabel:`SHIFT` and pressing a button will eject the sample if it is not playing, and will rewind the sample back to the beginning if it was playing.
+
 Effects
-~~~~~~~
+-------
 
-The FX setup is unusual on this controller.  Each deck has a single toggle button for effects, and on the right-hand side of the mixer there are five buttons that determine which effects are applied to every channel that has effects on.  This means it is not possible to use the controller to select one effect for one deck, and another effect for another.  You can still make these choices in the Mixxx UI, however.
+Because the S3 is an entry-level controller, the FX setup is unusual and a little complex.
+Each deck has a single effect toggle button and one knob, and on the right-hand side of the mixer there are five buttons, one for each effect chain and one for the QuickEffect.
+These buttons and knobs are used in different ways depending on how they are pushed, and together allow the DJ to customize all of the effects.
 
-When the :hwlabel:`FILTER ENABLE` button is off, the knob still controls the default Quick Effect, even if that button is not lit in the FX section. When the :hwlabel:`FILTER ENABLE` button is on, the Quick Effect is only enabled if the Filter :hwlabel:`FX SELECT` button is on.  This means the Quick Effect is available on channels that don't have any other effects active.
+There are three modes that the effect controls can be in:
+1.  The initial mode is Filter Mode.
+    This mode is indicated when the :hwlabel:`FILTER ENABLE` buttons have the same colors as the individual decks.
+    This mode is used for adjusting QuickEffects.
+1.  The next mode is Effect Chain mode.
+    This mode is indicated when the :hwlabel:`FILTER ENABLE` buttons are all the same color as one of the effect buttons.
+    This mode is used for turning individual effects in a chain on and off, and adjusting each effect's meta knob.
+1.  The last mode is Effect Focus mode.
+    This mode is indicated when :hwlabel:`FILTER ENABLE` buttons are all the same color as one of the effects, and one of the :hwlabel:`FX SELECT` buttons is blinking.
+    This mode is used for tuning individual parameters in an effect.
 
-When turning :hwlabel:`FILTER ENABLE` off, Mixxx will use soft takeover so the Quick Effect doesn't suddenly activate.
+Switching Effect Modes
+~~~~~~~~~~~~~~~~~~~~~~
+
+At any time, you can push the :hwlabel:`FILTER` :hwlabel:`FX SELECT` button to return to Filter Mode.
+If you get lost, try pusing the :hwlabel:`FILTER` button to start over.
+
+Press any :hwlabel:`FX SELECT` button to enter Effect Chain mode for that number chain.
+If you press the same :hwlabel:`FX SELECT` button again, you'll return to Filter Mode.
+Press a different :hwlabel:`FX SELECT` button to enter Effect Chain mode for that other chain.
+
+Press and hold an :hwlabel:`FX SELECT` button, then press a :hwlabel:`FILTER ENABLE` button to enter Effect Focus mode.
+The :hwlabel:`FX SELECT` button will start blinking.
+From left to right, the :hwlabel:`FILTER ENABLE` buttons will focus on the first through fourth effects in the chain.
+If you press any :hwlabel:`FX SELECT` button, you'll return to Effect Chain mode.
+
+Soft Takeover
+~~~~~~~~~~~~~
+
+The knobs have Soft Takeover mode enabled, which means you need to turn the physical knob to match the current position of the UI knob before the value will change.
+If you are wondering why it seems like the values aren't changing, you may need to rotate the knob more.
+
+Assigning Effects
+~~~~~~~~~~~~~~~~~
+
+You can assign effects to individual decks in Filter Mode.
+Press and hold :hwlabel:`FILTER ENABLE`, then press the desired :hwlabel:`FX SELECT` button or buttons.
+The :hwlabel:`FX SELECT` buttons that are bright are selected for that deck.
+
+Effect Chain Mode
+~~~~~~~~~~~~~~~~~
+
+In Effect Chain Mode, the :hwlabel:`FILTER ENABLE` buttons change color to match the selected FX button.
+The lights will be dim if the effect is disabled, and bright if it is enabled.
+Tap the :hwlabel:`FILTER ENABLE` button to enable or disable the effect.
+Turn the filter knobs to adjust the meta knob for each effect.
+This is to prevent sudden changes in sound when navigating between modes.
+
+Effect Focus Mode
+~~~~~~~~~~~~~~~~~
+
+In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent Effect checkboxes, while the four knobs adjust the first four parameters of the selected effect.
 
 Mapping options
-~~~~~~~~~~~~~~~
+---------------
 
 There are two user-friendly customizations possible on the S3:
 
   1. Toggle between Absolute and Relative pitch slider mode.
   2. Customize the colors for decks A, B, C, and D.
+  3. Change the Sampler playback mode.
 
 To make these changes, you need to edit to the mapping script file.
 
