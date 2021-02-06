@@ -47,7 +47,7 @@ The mapping is included with the QuNeo installer, make sure to click the
 “Mixxx” check box when prompted during the installation. Alternatively
 download the Installer from
 `www.keithmcmillen.com <http://www.keithmcmillen.com/QuNeo/downloads/>`__.
-The MIDI mapping preset goes with QuNeo’s factory preset number 12. To
+The MIDI mapping goes with QuNeo’s factory preset number 12. To
 change the factory preset, select the blue MODE button on the device and
 press tab #12. Also see `Youtube - Setting up Mixxx with
 QuNeo <https://www.youtube.com/watch?v=sw4Cnko-nOU>`__.

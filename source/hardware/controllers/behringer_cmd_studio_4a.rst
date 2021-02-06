@@ -1,22 +1,12 @@
 Behringer CMD STUDIO 4a
 =======================
 
-.. figure:: ../../_static/controllers/behringer_cmd_studio_4a_top.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Behringer CMD STUDIO 4a (top view)
-   :figclass: pretty-figures
-
-   Behringer CMD STUDIO 4a (top view)
-
 The Behringer CMD STUDIO 4a is a 2 deck controller that supports 4
 virtual decks and has a built in 4 channel (one stereo master, one
 stereo headphones) USB sound card built in.
 
 -  `Manufacturer’s product page <https://www.behringer.com/product.html?modelCode=P0809>`__
--  `Mixxx Forum Thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=7868>`__
--  `Manufacturer’s manual <https://media.music-group.com/media/PLM/data/docs/P0809/CMD-STUDIO-4A_QSG_WW.pdf>`__
+-  `Mixxx Forum Thread <https://mixxx.discourse.group/t/new-behringer-cmd-studio-4a-mapping/15604>`__
 
 .. versionadded:: 2.1
 
@@ -32,14 +22,14 @@ Mapping description
 Most of the buttons and knobs on the controller behave as they are
 labelled:
 
-.. figure:: ../../_static/controllers/behringer_cmd_studio_4a_layout.png
+.. figure:: ../../_static/controllers/behringer_cmd_studio_4a_top.svg
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Behringer CMD STUDIO 4a Layout
    :figclass: pretty-figures
 
-   Behringer CMD STUDIO 4a Layout
+   Behringer CMD STUDIO 4a (top view)
 
 The only major departure from the above are the 4 “FX Control” knobs and
 buttons at the top of each deck.
