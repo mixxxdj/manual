@@ -115,7 +115,8 @@ Looping
 Control                                  Description
 ======================================   ================================================
 Right Encoder Turn                       Double/halve loop size.
-Right Encoder Press                      Activate loop of set size from current position.
+:hwlabel:`SHIFT` + Right Encoder Turn    Move loop forward/backward by the beatjump size.
+Right Encoder Press                      Activate loop of set size from current position, or disable active loop
 :hwlabel:`SHIFT` + Right Encoder Press   Toggles the existing loop on and off.
 Left Encoder Turn                        Beatjump forward/backward.
 :hwlabel:`SHIFT` + Left Encoder Turn     Adjust beatjump size.
@@ -229,6 +230,7 @@ There are two user-friendly customizations possible on the S3:
   1. Toggle between Absolute and Relative pitch slider mode.
   2. Customize the colors for decks A, B, C, and D.
   3. Change the Sampler playback mode.
+  4. Enable wheel touch scratching.
 
 To make these changes, you need to edit to the mapping script file.
 
