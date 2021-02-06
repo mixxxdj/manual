@@ -59,11 +59,28 @@ Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you
 .. note::
    You should assign the :guilabel:`Vinyl Control` input channels even if you do not intend to use timecode vinyl.
 
-Controller Mapping
-------------------
+Controls
+--------
 
-The control numbering in the schematic drawings matches the those found on the
-specified page in the Manual.
+Mixer mode (Computer Internal vs. Direct mixer hardware)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Traktor Z2 allows not only mixing using the mixer hardware directly, but also mixing internal in the software of the connected computer.
+
+Unique to the Traktor Z2 is, that the mixer mode can be switched per channel. This allows the user to connect another computer and starting Mixxx, while playing a track from an analog source in direct mode, and than blend over seamless to another channel in Internal mixing mode controlled by Mixxx.
+
+The mixing mode of ChA and ChB is controlled by the two Traktor buttons on top:
+
+======================================  ==================  ======================================  ====================================================
+Traktor button state                    Traktor button LED  Action                                  Behavior
+
+======================================  ==================  ======================================  ====================================================
+Direct hardware mixing                  Off                 Press button to toggle                  Only Gain, EQ, Filter and Fader of channel operation (works without computer)
+Computer Internal mixing (Passthrough)  Dimmed              :hwlabel:`SHIFT` hold + Traktor button  Mixxx mixes the signal, but the channel is set to Passthrough <vinyl-control-mode-and-cueing-controls>. Similar to direct mode, but allows the use of features like software effects.
+Computer Internal mixing                Bright              Press button to toggle                  Mixxx plays the track and mixes the signal internally.
+======================================  ==================  ======================================  ====================================================
+
+.. note::
+   Note, the selection of the mixing mode is a hardware function overruling the software. Only if all channels are switched to computer Internal mixing, you've all features of Mixxx available!
 
 Shift button states
 ~~~~~~~~~~~~~~~~~~~
@@ -71,9 +88,9 @@ Shift button states
 ==============================  ================  ====================================================
 Shift button state              Shift button LED  Action
 ==============================  ================  ====================================================
-unshifted                       Off
-:hwlabel:`SHIFT` hold           Bright            Press and hold :hwlabel:`SHIFT`
-:hwlabel:`SHIFT` locked         Dimmed            Short click on :hwlabel:`SHIFT` to toggle lock state
+Unshifted                       Off
+Shift hold                      Bright            Press and hold :hwlabel:`SHIFT`
+Shift locked                    Dimmed            Short click on :hwlabel:`SHIFT` to toggle lock state
 ==============================  ================  ====================================================
 
 Browse Section
@@ -91,9 +108,3 @@ No.       Control                                                        Functio
 5         Rotary Selector                                                Turn to move tracklist cursor up/down. Press to toggle the selected item.
 6         :hwlabel:`SHIFT` + Rotary Selector                             Turn to move sidebar cursor left right/down.
 ========  =============================================================  ==========================================
-
-
-Known Issues
-------------
-
-- The two Traktor buttons on top are overruling the software. This can result in a state, where one channel of the hardware mixer is in external mixing mode, but Mixxx is expecting internal mixing mode.
