@@ -75,7 +75,7 @@ Traktor button state                    Traktor button LED  Action              
 
 ======================================  ==================  ======================================  ====================================================
 Direct hardware mixing                  Off                 Press button to toggle                  Only Gain, EQ, Filter and Fader of channel operation (works without computer)
-Computer Internal mixing (Passthrough)  Dimmed              :hwlabel:`SHIFT` hold + Traktor button  Mixxx mixes the signal, but the channel is set to :ref:`Passthrough<vinyl-control-mode-and-cueing-controls>'. Similar to direct mode, but allows the use of features like software effects.
+Computer Internal mixing (Passthrough)  Dimmed              :hwlabel:`SHIFT` hold + Traktor button  Mixxx mixes the signal, but the channel is set to :ref:`Passthrough <vinyl-control-mode-and-cueing-controls>`. Similar to direct mode, but allows the use of features like software effects.
 Computer Internal mixing                Bright              Press button to toggle                  Mixxx plays the track and mixes the signal internally.
 ======================================  ==================  ======================================  ====================================================
 
