@@ -513,6 +513,8 @@ section.
 This button enables :term:`vinyl control`. When enabled in Mixxx, the track
 on the Mixxx deck is controlled by the external vinyl control.
 
+.. _interface-passthrough:
+
 **Pass button**
 
 This button enables passthrough. When enabled, audio from an external vinyl

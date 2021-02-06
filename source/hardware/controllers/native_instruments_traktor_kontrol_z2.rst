@@ -68,16 +68,16 @@ The Traktor Z2 allows not only mixing using the mixer hardware directly, but als
 
 Unique to the Traktor Z2 is, that the mixer mode can be switched per channel. This allows the user to connect another computer and starting Mixxx, while playing a track from an analog source in direct mode, and than blend over seamless to another channel in Internal mixing mode controlled by Mixxx.
 
-The mixing mode of channel A and B is controlled by the two Traktor buttons on top:
+The mixing mode of channel A and B is controlled by the two buttons with the Traktor symbol on top:
 
-======================================  ==================  ======================================  ====================================================
-Traktor button state                    Traktor button LED  Action                                  Behavior
+======================================  ==================  ==========================================  ====================================================
+Traktor button state                    Traktor button LED  Action                                      Behavior
 
-======================================  ==================  ======================================  ====================================================
-Direct hardware mixing                  Off                 Press button to toggle                  Only Gain, EQ, Filter and Fader of channel operation (works without computer)
-Computer Internal mixing (Passthrough)  Dimmed              :hwlabel:`SHIFT` hold + Traktor button  Mixxx mixes the signal, but the channel is set to :ref:`Passthrough <vinyl-control-mode-and-cueing-controls>`. Similar to direct mode, but allows the use of features like software effects.
-Computer Internal mixing                Bright              Press button to toggle                  Mixxx plays the track and mixes the signal internally.
-======================================  ==================  ======================================  ====================================================
+======================================  ==================  ==========================================  ====================================================
+Direct hardware mixing                  Off                 Press :hwlabel:`Traktor` to toggle          Only Gain, EQ, Filter and Fader of channel operation (works without computer)
+Computer Internal mixing (Passthrough)  Dimmed              :hwlabel:`SHIFT` hold + :hwlabel:`Traktor`  Mixxx mixes the signal, but the channel is set to :ref:`Passthrough <interface-passthrough>`. Similar to direct mode, but allows the use of features like software effects.
+Computer Internal mixing                Bright              Press :hwlabel:`Traktor` to toggle          Mixxx plays the track and mixes the signal internally.
+======================================  ==================  ==========================================  ====================================================
 
 .. note::
    The selection of the mixing mode is a hardware function overruling the software. Only if all channels are switched to computer Internal mixing, you've all features of Mixxx available!
