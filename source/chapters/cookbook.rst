@@ -51,5 +51,5 @@ Preview current track
 ~~~~~~~~~~~~~~~~~~~~~
 While playing a track, sometimes it can be useful to preview an upcoming section of the song. This can be done by cloning the track that is playing to the another deck, seeking ahead, and listening via the cue output in your headphones.
 
-.. warning:: If the crossfader currently allows hearing decks from both sides, cloning a playing deck
+.. warning:: If the crossfader or deck fader currently allows hearing decks from both sides, cloning a playing deck
             will raise the main volume considerably, which may not be expected or desired.
