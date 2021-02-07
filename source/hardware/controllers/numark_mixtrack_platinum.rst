@@ -2,7 +2,7 @@ Numark Mixtrack Platinum
 ========================
 
 -  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-platinum>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8863>`__
+-  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-mapping/16442>`__
 
 The Numark Mixtrack Platinum is a 2 channel (with 4 channel layering) entry level DJ controller with an integrated audio interface. The stand out feature of the Mixtrack Platinum is the LCD displays
 integrated into the jog wheels. It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.

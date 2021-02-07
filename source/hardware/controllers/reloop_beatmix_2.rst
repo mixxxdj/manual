@@ -22,6 +22,6 @@ description.
 -  `Forum thread <forum_url_>`_
 
 .. _productpage_url: https://www.reloop.com/reloop-beatmix-2
-.. _forum_url: http://www.mixxx.org/forums/viewtopic.php?f=7&t=8428
+.. _forum_url: https://mixxx.discourse.group/t/reloop-beatmix-2-4-mapping/16049
 
 .. versionadded:: 2.1

@@ -5,7 +5,7 @@ Behringer B-Control Deejay BCD 2000
 
 This controller has been discontinued. The :ref:`Behringer B-Control Deejay BCD 3000<behringer-bcd3000>` is its successor.
 
-  - `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3563>`__
+  - `Forum thread <https://mixxx.discourse.group/t/behringer-bcd-2000-controller-mapping/12310>`__
 
 .. versionadded:: 1.11
 

@@ -3,7 +3,7 @@ Hercules DJControl Jogvision
 
 -  `Manufacturer's product page <https://www.hercules.com/en-us/product/djcontroljogvision-2old/>`__
 -  `Manufacturer's support and downloads page <https://support.hercules.com/en/product/djcontroljogvision-en/>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=12580>`__
+-  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-jogvision/17839>`__
 
 Whether you’re just getting started DJing or you’ve already refined your skills, you can let your creativity run wild.
 Enjoy excellent precision and comfort to create your mixes using the circular displays on the jog wheels to guide your movements and perfect your scratches,
