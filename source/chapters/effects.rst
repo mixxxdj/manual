@@ -52,7 +52,7 @@ chained together. This allows you to chain more than 3 effects at a time.
 
 To route deck 1 to effect unit 1, click the :guilabel:`FX1` button on deck 1 to turn it on.
 To route deck 2 to effect unit 2, click the :guilabel:`FX2` button on deck 2, and so on.
-When routing decks to effect units, careful consideration should be given to which decks the effect units are being routed to.
+It's also possible to route a single deck to multiple effect units, or multiple decks to a single effect unit.
 
 The mix knob adjusts the mix between the dry signal (input to the unit) and the
 wet signal (output of the last effect in the unit). It changes the level of
