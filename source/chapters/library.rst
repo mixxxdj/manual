@@ -872,6 +872,7 @@ Supported libraries:
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
 * |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
 * |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
+* |ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -886,8 +887,8 @@ locations on your hard drive.
 
 .. _library-itunes:
 
-Using the iTunes/Traktor/Rhythmbox/Bashee library
--------------------------------------------------
+Using the iTunes/Traktor/Rhythmbox/Bashee/Rekordbox library
+-----------------------------------------------------------
 
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
