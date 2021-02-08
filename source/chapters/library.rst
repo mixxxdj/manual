@@ -910,12 +910,12 @@ file system using the Rekordbox Export mode.
 Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
 
 1. Plug your USB or SD drive in while Mixxx is running.
-2. Click on Rekordbox in the library and all Rekordbox prepared USB drives will be visible. If this does not happen right away, then you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
+2. Click on the :guilabel:`Rekordbox` item in the library sidebar to scan for  Rekordbox prepared USB drives. If no Rekordbox devices show up, you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
 3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
 
 How Rekordbox hotcues, memory cues, and loops are imported
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  The following data is read:
+The following data is read:
 
   * Folders
   * Playlists
@@ -924,14 +924,14 @@ How Rekordbox hotcues, memory cues, and loops are imported
   * Memory cues
   * Loops
 
-  Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
+Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
 
   *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
   * The first chronological Rekordbox loop is also mapped to the Mixxx loop.
   * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
   * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
 
-Whilst the additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop details are preserved, ready for the multiple loop feature proposed for Mixxx 2.4.
+Although additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop information is stored in the Mixxx library and will become usable in Mixxx 2.4.
 
 .. _library-serato:
 
