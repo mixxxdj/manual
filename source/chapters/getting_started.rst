@@ -74,19 +74,31 @@ Analyze your library
    S.Brandt <s.brandt@mixxx.org>
 
 |ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
-them in a deck, nevertheless it is recommended that you analyze them before
-playing live to ensure the beatgrids are correct. Furthermore, track
+them in a deck. This allows you to run :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in advance. It also prepares the waveform overviews, detects file corruption, and calculates the BPM values.
+
+.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
+
+Why you should analyze your audio files
+---------------------------------------
+
+If the tracks have never been played with Mixxx before, the library columns :guilabel:`BPM`,
+:guilabel:`Duration` and :guilabel:`Key` will be empty.
+It is recommended that you analyze your audio files before
+playing live to ensure the beatgrids are correct and these fields show. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
-Once you have
-:ref:`imported your music library<getting-started-import-audio-files>`, press
-:guilabel:`OK` on the Preferences window. Go to the Analyze view on the left
-side panel of the library. This allows you to run :term:`beatgrid`,
-:term:`key`, and :term:`ReplayGain` detection on tracks in advance. While
-analyzing, the progress in percentage and total queue length are shown.
+How to analyze your audio files
+-------------------------------
+Once you have :ref:`imported your music library<getting-started-import-audio-files>`, press
+:guilabel:`OK` on the Preferences window.
 
-.. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
+* Go to the :guilabel:`Analyze` view on the left side panel of the library.
+* To analyze a few specific tracks, hold down the :kbd:`Ctrl` button, and select the tracks that you want to analyze. Once they've been highlighted, click the :guilabel:`Analyze` button on the top right of th library section.
+* To analyze the newly added tracks, toggle the :guilabel:`New` label and then click :guilabel:`Analyze`.
+* To analyze the entire library, toggle the :guilabel:`All` label and then click :guilabel:`Analyze`.
+
+While analyzing, the progress in percentage and total queue length are shown.
 
 .. _getting-started-sound-io:
 
