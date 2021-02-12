@@ -837,7 +837,6 @@ view, then right-click on a session's name/date to access the different features
 * **Export playlist**: Export a session in various file formats. This allows you
   to use the data in other applications.
 
-
 .. _library-analyze:
 
 Analyze - Prepare your tracks
