@@ -82,7 +82,7 @@ Why you should analyze your audio files
 ---------------------------------------
 
 If the tracks have never been played with Mixxx before, the library columns :guilabel:`BPM`,
-:guilabel:`Duration` and :guilabel:`Key` will be empty.
+:guilabel:`Duration` and :guilabel:`Key` will be empty or unreliable (because the values are just read from the file's tags if present and might be wrong). 
 It is recommended that you analyze your audio files before
 playing live to ensure the beatgrids are correct and these fields show. Furthermore, track
 analysis takes considerable CPU power and might cause skips in the audio ---
