@@ -74,7 +74,7 @@ Analyze your library
    S.Brandt <s.brandt@mixxx.org>
 
 |ic_lib_prepare| Mixxx automatically analyzes tracks the first time you load
-them in a deck. This allows you to run :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in advance. It also prepares the waveform overviews, detects file corruption, and calculates the BPM values.
+them in a deck. This allows you to run :term:`beatgrid`, :term:`key`, and :term:`ReplayGain` detection on tracks in advance. It also prepares the waveform overviews, detects file corruption, and calculates the :term:`BPM` values.
 
 .. seealso:: For more information, go to :ref:`configuration-bpm-detection`.
 
