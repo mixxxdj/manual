@@ -835,8 +835,7 @@ view, then right-click on a session's name/date to access the different features
 * **Join with previous**: Append the selected history session to the end of the
   previous one.
 * **Export playlist**: Export a session in various file formats. This allows you
-  to use the data in other applic
-
+  to use the data in other applications.
 
 .. _library-analyze:
 
