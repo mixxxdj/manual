@@ -25,7 +25,7 @@ Controller
 
 The Kontrol S3 is a USB class compliant audio and :term:`HID` device,
 so it is compatible with Mixxx without any proprietary drivers on
-GNU/Linux and Mac OS X. On Windows, it is recommended to install the
+GNU/Linux and macOS. On Windows, it is recommended to install the
 `driver from Native
 Instruments <https://www.native-instruments.com/en/support/downloads/drivers-other-files/#traktorkontrols3>`__
 and select the ASIO :ref:`sound API <preferences-sound-api>` in the :ref:`Sound Hardware section of Mixxx's Preferences <preferences-sound-hardware>`.
@@ -49,6 +49,13 @@ Master        Channel 1-2
 Headphones    Channel 3-4
 ============  =====================
 
+Audio Inputs
+~~~~~~~~~~~~
+The S3 has two sets of inputs, but only one can be active at a time. There is
+a set of line-level RCA inputs on the back of the controller, and a combo
+XLR / 1¼" mic jack on the front.  Use :hwlabel:`SHIFT` + :hwlabel:`EXT` to switch
+between these inputs.
+
 Mapping description
 -------------------
 
@@ -69,7 +76,7 @@ Mixer
   - :hwlabel:`FX Enable` buttons: See Effect section below.
   - The :hwlabel:`FILTER` knob controls the Quick Effect superknob. By default, this uses a high-/low-pass filter, but a different effect can be chosen in the :ref:`Equalizer section of Mixxx' Preferences <preferences-equalizers>`.
   - :hwlabel:`EXT`: The :hwlabel:`EXT` button changes the fourth channel pregain (knob), pfl, and volume (slider) adjustments to operate with the Microphone input.  The microphone does not respond to EQ or effects.
-  - :hwlabel:`SHIFT` + :hwlabel:`EXT`: Switches input from Mic to Line and back again.
+  - :hwlabel:`SHIFT` + :hwlabel:`EXT`: Switches input sensitivity for the input connectors from Mic to Line and back again.
 
 The Main Volume knob on the S3 controls the volume of the S3's main
 output in hardware, so it does not affect the software main output gain knob
@@ -86,9 +93,9 @@ Decks
 ==========================================  ===========================================================================================================================================================================
 Control                                     Description
 ==========================================  ===========================================================================================================================================================================
-Library knob press                          Load track selected in library to the deck.
-:hwlabel:`SHIFT` + Library knob press       Eject track.
-Small play button                           While held, plays the current track in the preview deck.  If you rotate the library knob while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
+Library encoder press                       Load track selected in library to the deck.
+:hwlabel:`SHIFT` + Library encoder press    Eject track.
+Small play button                           While held, plays the current track in the preview deck.  If you rotate the library encoder while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
 Star button                                 This button is not used.
 List-plus button                            Adds the current track to the Auto DJ list.
 :hwlabel:`VIEW` button                      Move focus of library control between left-hand tree and main list.
@@ -137,7 +144,7 @@ There are two ways the rate sliders can be mapped: Absolute, and Relative.  Abso
      - :hwlabel:`SHIFT` + Pitch slider: Adjusts musical key
   - Relative Mode:
 
-     - :hwlabel:`KEYLOCK`: Press to toggle keylock mode.
+     - :hwlabel:`KEYLOCK`: Press to toggle keylock mode (toggles when releasing the button).
      - :hwlabel:`SYNC`: Press to beatsync, or press and hold to activate Sync Lock Mode.
      - Pitch slider: Adjusts playback speed.
      - Keylock + Pitch Slider: adjusts musical key
