@@ -56,7 +56,7 @@ Control                                             Description
 :hwlabel:`LOOP RECORD`                              Toggles recording
 :hwlabel:`LOOP RECORDER PLAY`                       Hold down and press :hwlabel:`FLUX` button on a deck to enable autoslip mode on that deck.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
-:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN      Increase / decrease the BPM of the track by 0.5 - press in the knob to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
+:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN`      Increase / decrease the BPM of the track by 0.5. Press the encoder to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
 :hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Pressing acts like a double click on the mouse.
 ==================================================  =========================================================================
 
@@ -116,7 +116,7 @@ The buttons at the top of each mixer column control which decks are routed to wh
 
 Mapping extras
 ~~~~~~~~~~~~~~~
-Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the :hwlabel:`FLUX` on a deck will enable autoslip mode on that deck. Turns on slip mode before doing certain actions and turns it off after the actions is finished to attempt to automatically engage slip mode. Works for beat loops, hot cues, and scratching (warning, can have weird effects when scratching).
+Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the :hwlabel:`FLUX` on a deck will enable autoslip mode on that deck. Autoslip turns on slip mode automatically before doing certain actions and turns it off after the actions is finished. It works for beat loops, hot cues, and scratching (warning, can have weird effects when scratching).
 
 
 Mapping options
