@@ -104,7 +104,7 @@ Control                            Description
 :hwlabel:`SHIFT` + :hwlabel:`REV`  Turns on reverse playback mode.
 :hwlabel:`GRID`                    Turns on Quantize mode.
 :hwlabel:`FLUX`                    Turns on Slip mode.
-:hwlabel:`JOG`                     Turns on Scratch mode.
+:hwlabel:`JOG`                     When on, touching the jog wheels enables Scratch mode.
 :hwlabel:`SHIFT` + Wheels          Hold to use the wheels to quickly scroll through the track.
 =================================  ==========================================================
 
@@ -230,7 +230,7 @@ There are two user-friendly customizations possible on the S3:
   1. Toggle between Absolute and Relative pitch slider mode.
   2. Customize the colors for decks A, B, C, and D.
   3. Change the Sampler playback mode.
-  4. Enable wheel touch scratching.
+  4. Whether wheel touch scratching is on by default.
 
 To make these changes, you need to edit to the mapping script file.
 
