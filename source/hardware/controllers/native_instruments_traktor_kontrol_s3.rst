@@ -171,7 +171,7 @@ In both modes, holding :hwlabel:`SHIFT` and pressing a button will eject the sam
 Effects
 -------
 
-Because the S3 is an entry-level controller, the FX setup is unusual and a little complex.
+Because the S3 has limited effects controls, the FX setup is unusual and a little complex.
 Each deck has a single effect toggle button and one knob, and on the right-hand side of the mixer there are five buttons, one for each effect chain and one for the QuickEffect.
 These buttons and knobs are used in different ways depending on how they are pushed, and together allow the DJ to customize all of the effects.
 
