@@ -220,7 +220,7 @@ Effect Chain Mode
 In Effect Chain Mode, the :hwlabel:`FILTER ENABLE` buttons change color to match the selected FX button.
 The lights will be dim if the effect is disabled, and bright if it is enabled.
 Tap the :hwlabel:`FILTER ENABLE` button to enable or disable the effect.
-Turn the first three filter knobs to adjust the meta knob for each effect.
+Turn the first three knobs to adjust the meta knob for each effect.
 The last filter knob adjusts the meta knob for the whole chain.
 This is to prevent sudden changes in sound when navigating between modes.
 
