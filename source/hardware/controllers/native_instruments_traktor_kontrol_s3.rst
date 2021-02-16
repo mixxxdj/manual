@@ -215,7 +215,7 @@ Press and hold :hwlabel:`FILTER ENABLE`, then press the desired :hwlabel:`FX SEL
 The :hwlabel:`FX SELECT` buttons that are bright are the effect chains that are selected for that deck.
 
 Effect Chain Edit Mode
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 In Effect Chain Edit Mode, the :hwlabel:`FILTER ENABLE` buttons change color to match the selected FX button.
 The lights will be dim if the effect is disabled, and bright if it is enabled.
