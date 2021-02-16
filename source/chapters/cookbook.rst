@@ -18,7 +18,7 @@ When deck cloning (also called "instant doubles" in some other DJ software) is a
 
 How to use deck cloning
 -----------------------
-Deck cloning can be triggered several different ways:
+Deck cloning can be triggered in several different ways:
 
 * Double press the :guilabel:`Load` button on your controller, mixer, or keyboard (this can be disabled in the Decks page of the preferences)
 * Invoke the :guilabel:`CloneFromDeck` control in a controller mapping (see the complete :ref:`Mixxx controls table <advanced-mixxxcontrols>`)
@@ -31,7 +31,19 @@ What you can do with deck cloning
 
 Playing with a single turntable
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In a typical DJ setup, you have two decks and a mixer, but with the deck clone feature, it's possible to play with a single deck. You can :term:`cue point <cue>`, beatmatch, and mix in the next track on a single deck. Once the track is mixed in, swap it to another channel using the deck clone feature, freeing up your single deck for the next track. This is useful if you are building out a DVS setup, but you only have one turntable so far or if you need to play with a minimal setup. For example, you may not have enough space for two decks or you might want to reduce the amount of gear you have to lug around. Finally, this method can be used as a backup way to keep playing if one of your turntables malfunctions.
+In a typical DJ setup, you have two decks and a mixer, but with the deck clone feature, it's possible to play with a single deck. You can :term:`cue point <cue>`, beatmatch, and mix in the next track on a single deck.
+Once the track is mixed in, swap it to another channel using the deck clone feature, freeing up your single deck for the next track.
+This is useful if you are building out a DVS setup, but you only have one turntable so far or if you need to play with a minimal setup.
+For example, you may not have enough space for two decks or you might want to reduce the amount of gear you have to lug around.
+Finally, this method can be used as a backup way to keep playing if one of your turntables malfunctions.
+
+How to do it.
+^^^^^^^^^^^^^
+- Load a track of your choice to deck 1 on your Mixxx interface. Play the track and apply DJing effects as desired.
+- Assuming deck 2 is empty, drag the track that is on deck 1 onto deck 2, without pausing it. At this point, both decks will play the same track in perfect sync. If you slide the crossfader in either direction, it will sound like you're playing just the one track.
+- To mix in a different track, slide the crossfader all the way to deck 2 (the cloned deck) and turn the volume of deck 1 down.
+- Load another track onto deck 1 and press play. Slowly turn the volume control of deck 1 higher to increase its volume and slide the crossfader  to a desired position that will incorporate the music from deck 1.
+
 
 Beat juggling
 ~~~~~~~~~~~~~
