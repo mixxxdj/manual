@@ -171,7 +171,7 @@ In both modes, holding :hwlabel:`SHIFT` and pressing a button will eject the sam
 Effects
 -------
 
-Because the S3 is an entry-level controller, the FX setup is unusual and a little complex.
+Because the S3 has limited effects controls, the FX setup is unusual and a little complex.
 Each deck has a single effect toggle button and one knob, and on the right-hand side of the mixer there are five buttons, one for each effect chain and one for the QuickEffect.
 These buttons and knobs are used in different ways depending on how they are pushed, and together allow the DJ to customize all of the effects.
 
@@ -220,14 +220,14 @@ Effect Chain Edit Mode
 In Effect Chain Edit Mode, the :hwlabel:`FILTER ENABLE` buttons change color to match the selected FX button.
 The lights will be dim if the effect is disabled, and bright if it is enabled.
 Tap the :hwlabel:`FILTER ENABLE` button to enable or disable the effect.
-Turn the first three filter knobs to adjust the meta knob for each effect.
+Turn the first three knobs to adjust the meta knob for each effect.
 The last filter knob adjusts the mix knob for the whole chain.
 This is to prevent sudden changes in sound when navigating between modes.
 
 Effect Focus Mode
 ~~~~~~~~~~~~~~~~~
 
-In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent Effect checkboxes, while the four knobs adjust the first four parameters of the selected effect.
+In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent effect button parameters, while the four knobs adjust the first four parameters of the selected effect.
 
 Mapping options
 ---------------
