@@ -38,12 +38,13 @@ For example, you may not have enough space for two decks or you might want to re
 Finally, this method can be used as a backup way to keep playing if one of your turntables malfunctions.
 
 How to do it.
-^^^^^^^^^^^^^
+"""""""""""""
 - Load a track of your choice to deck 1 on your Mixxx interface. Play the track and apply DJing effects as desired.
-- Assuming deck 2 is empty, drag the track that is on deck 1 onto deck 2, without pausing it. At this point, both decks will play the same track in perfect sync. If you slide the crossfader in either direction, it will sound like you're playing just the one track.
+- If deck 2 is empty, drag the track that is on deck 1 onto deck 2. At this point, both decks will play the same track in perfect sync. If you slide the crossfader in either direction, it will sound like you're playing just the one track.
 - To mix in a different track, slide the crossfader all the way to deck 2 (the cloned deck) and turn the volume of deck 1 down.
 - Load another track onto deck 1 and press play. Slowly turn the volume control of deck 1 higher to increase its volume and slide the crossfader  to a desired position that will incorporate the music from deck 1.
 
+For a visual step by step tutorial, check out this video by DJ Tech Tools - `Digital DJing With One Deck/CDJ/Turntable <https://www.youtube.com/watch?v=qLwsFQK4J6c>`_
 
 Beat juggling
 ~~~~~~~~~~~~~
