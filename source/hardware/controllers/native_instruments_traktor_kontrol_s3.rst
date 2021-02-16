@@ -227,7 +227,7 @@ This is to prevent sudden changes in sound when navigating between modes.
 Effect Focus Mode
 ~~~~~~~~~~~~~~~~~
 
-In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent Effect checkboxes, while the four knobs adjust the first four parameters of the selected effect.
+In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent effect button parameters, while the four knobs adjust the first four parameters of the selected effect.
 
 Mapping options
 ---------------
