@@ -1489,7 +1489,35 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Current key of the track
 
-   :range: real-valued
+   :range:
+     =====  =======  ========  ===========
+     Value  OpenKey  Lancelot  Traditional
+     =====  =======  ========  ===========
+     1      1d       8b        C
+     2      8d       3b        D♭
+     3      3d       10b       D
+     4      10d      5b        E♭
+     5      5d       12b       E
+     6      12d      7b        F
+     7      7d       2b        F♯/G♭
+     8      2d       9b        G
+     9      9d       4b        A♭
+     10     4d       11b       A
+     11     11d      6b        B♭
+     12     6d       1b        B
+     13     10m      5a        Cm
+     14     5m       12a       C♯m
+     15     12m      7a        Dm
+     16     7m       2a        D♯m/E♭m
+     17     2m       9a        Em
+     18     9m       4a        Fm
+     19     4m       11a       F♯m
+     20     11m      6a        Gm
+     21     6m       1a        G♯m
+     22     1m       8a        Am
+     23     8m       3a        B♭m
+     24     3m       10a       Bm
+     =====  =======  ========  ===========
 
    .. versionadded:: 2.0.0
 
