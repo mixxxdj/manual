@@ -5,9 +5,13 @@ The Kontrol S2 MK3 is a two-channel controller with an integrated sound card. It
 inputs (1/4" / 6.3 mm TRS). The MK3 uses the standard HID protocol to send and receive signals from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from USB bus power,
 and using a separate power supply has no impact on the output level or LED brightness (`as opposed to the MK2 <https://support.native-instruments.com/hc/en-us/articles/360001108518>`__).
 
--  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
+- `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
+- `Mapping forum thread <https://mixxx.discourse.group/t/native-instruments-traktor-kontrol-s2-mk3/18147>`__
 
 .. versionadded:: 2.2.4
+.. versionadded:: 2.3
+   Unbind Master knob from Mixxx's Main Gain, because it controls the hardware volume (see `NI's support thread <https://support.native-instruments.com/hc/en-us/community/posts/360005413857-The-Traktor-S2MK3-Low-output-issue-en-us-?page=1#community_comment_360000742537>`__).
+   
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -17,10 +21,6 @@ Mixxx Sound Hardware Preferences
 
 Mixxx mapping
 ~~~~~~~~~~~~~
-
-Since v2.3 the Master knob is intentionally not linked to Mixxx's Main Gain,
-`following NI's suggestions <https://support.native-instruments.com/hc/en-us/community/posts/360005413857-The-Traktor-S2MK3-Low-output-issue-en-us-?page=1#community_comment_360000742537>`__.
-Indeed this knob also sets the hardware gain, and mosts sets require a high setting.
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_s2_mk3.png
    :align: center
@@ -97,7 +97,7 @@ Indeed this knob also sets the hardware gain, and mosts sets require a high sett
 | (19) Quantize    | Toggles quantization for both decks                                                                                         |                                                     |
 | button           |                                                                                                                             |                                                     |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| (20) Gain knob   | Adjusts the hardware gain - it is unlinked to the software main gain since v2.3                                             |                                                     |
+| (20) Gain knob   | Adjusts the hardware gain                                                                                                   |                                                     |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | (21) Microphone  | Toggles microphone talkover, long press for permanent activation                                                            |                                                     |
 | button           |                                                                                                                             |                                                     |
