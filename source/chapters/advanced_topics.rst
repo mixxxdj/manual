@@ -11,11 +11,11 @@ Adding support for your MIDI/HID Controller
 With several dozens of DJ controllers supported out-of-the-box, Mixxx gives you
 comprehensive hardware control for your DJ mixes, see :ref:`control-midi`.
 
-Support for additional devices can be added to Mixxx by creating a new preset
+Support for additional devices can be added to Mixxx by creating a new mapping
 file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
-You can download and share custom controller presets in the
+You can download and share custom controller mappings in the
 `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
 
 
@@ -33,7 +33,7 @@ Controller Wizard
 
    Mixxx Controller Wizard -  Mapping a control
 
-By far, the easiest way to create a new MIDI preset is by using the Controller
+By far, the easiest way to create a new MIDI mapping is by using the Controller
 Wizard.
 
 #. Connect your controller(s) to your computer
@@ -71,14 +71,14 @@ There are also some advanced options in the Midi Wizard you may need to use:
 * Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or an
   end, but spin continuously.
 
-The Controller wizard saves the new preset to the following file paths:
+The Controller wizard saves the new mapping to the following file paths:
 
 * Linux: :file:`/home/<username>/.mixxx/controllers`
 * macOS: :file:`/Users/<username>/Library/Application\\ Support/Mixxx/controllers`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
-ship with Mixxx) if you'd like to fine-tune it or add more presets. For more
+ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more
 information, go to
 `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_.
 
@@ -569,14 +569,14 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Fast rewind (REW)
 
    :range: binary
-   :feedback: < button
+   :feedback: << button
 
 
 .. mixxx:control:: [ChannelN],beat_active
                    [PreviewDeckN],beat_active
                    [SamplerN],beat_active
 
-   Indicates, depending on the play direction, how the player is currently positioned to the closest beat. 
+   Indicates, depending on the play direction, how the player is currently positioned to the closest beat.
 
    An LED controlled by beat_active can be used for beat matching or for finding a beat using jog or control vinyl.
 
@@ -598,9 +598,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
 
-   Jump forward by X beats (positive) or backward by X beats (negative). If a loop is active, the loop is moved by X beats.
+   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
 
-   :range: real number
+   :range: real number, -1, 0, 1
    :feedback: Player jumps forward or backward by X beats.
 
    .. versionadded:: 2.0.0
@@ -1108,7 +1108,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
    After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position.
-   If :mixxx:coref:`play <[ChannelN],play>` is to 1 while previewing is active, the playback will continue and no seek occurs.
+   If :mixxx:coref:`play <[ChannelN],play>` is set to 1 while previewing is active, the playback will continue and no seek occurs.
 
    :range: binary
    :feedback: Player may change position. Hotcue X marker may change on waveform.
@@ -1498,7 +1498,35 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Current key of the track
 
-   :range: real-valued
+   :range:
+     =====  =======  ========  ===========
+     Value  OpenKey  Lancelot  Traditional
+     =====  =======  ========  ===========
+     1      1d       8b        C
+     2      8d       3b        D♭
+     3      3d       10b       D
+     4      10d      5b        E♭
+     5      5d       12b       E
+     6      12d      7b        F
+     7      7d       2b        F♯/G♭
+     8      2d       9b        G
+     9      9d       4b        A♭
+     10     4d       11b       A
+     11     11d      6b        B♭
+     12     6d       1b        B
+     13     10m      5a        Cm
+     14     5m       12a       C♯m
+     15     12m      7a        Dm
+     16     7m       2a        D♯m/E♭m
+     17     2m       9a        Em
+     18     9m       4a        Fm
+     19     4m       11a       F♯m
+     20     11m      6a        Gm
+     21     6m       1a        G♯m
+     22     1m       8a        Am
+     23     8m       3a        B♭m
+     24     3m       10a       Bm
+     =====  =======  ========  ===========
 
    .. versionadded:: 2.0.0
 
@@ -1982,7 +2010,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Toggles playing or pausing the track.
 
-   :range: binary, 1.0 if track is playing or play command is adopted and track will be played after loading
+   The value is set to 1 when the track is playing or when previewing from cue points and when the play command is adopted and track will be played after loading.
+
+   :range: binary
    :feedback: Play/pause button
 
 
@@ -1992,10 +2022,22 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Provides information to be bound with the a Play/Pause button e.g blinking when play is possible
 
-   :range: binary
+   :range: binary, read-only
    :feedback: Play/pause button
 
    .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],play_latched
+                   [PreviewDeckN],play_latched
+                   [SamplerN],play_latched
+
+   This is set to 1 when the track is playing, but not when previewing (see :mixxx:coref:`play <[ChannelN],play>`).
+
+   :range: binary, read-only
+   :feedback: Play/pause button
+
+   .. versionadded:: 2.3.0
 
 
 .. mixxx:control:: [ChannelN],play_stutter
@@ -2014,11 +2056,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],playposition
                    [SamplerN],playposition
 
-   Sets the absolute position in the track. The Range is -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
+   Sets the absolute position in the track.
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
-   :range: default
+   :range: -0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)
    :feedback: Waveform
 
 
@@ -3926,7 +3968,7 @@ Controls
                    [QuickEffectRack1_[ChannelI]_Effect1],parameterK
 
    The scaled value of the Kth parameter.
-   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#parameter-values>`__ section for more information.
+   See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#user-content-parameter-values>`__ section for more information.
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 

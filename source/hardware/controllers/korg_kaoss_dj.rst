@@ -4,7 +4,7 @@ Korg Kaoss DJ controller
 2-deck controller with touch controlled jogwheels, built-in 4-channel soundcard and a Korg Kaoss Pad as built-in effect section (can be switched off for using software effects).
 
 -  `Manufacturer’s product page <http://www.korg.com/uk/products/dj/kaoss_dj/>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8479>`__
+-  `Forum thread <https://mixxx.discourse.group/t/korg-kaoss-dj-midi-mapping-help/16093>`__
 -  `Pull request on Github <https://github.com/mixxxdj/mixxx/pull/1509>`__
 
 .. versionadded:: 2.1

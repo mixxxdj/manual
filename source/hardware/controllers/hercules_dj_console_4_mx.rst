@@ -45,7 +45,7 @@ The drivers for Windows and OS X install an application that can be used to conf
 Options
 -------
 
-There are several options that can be configured for this mapping. You can edit these by opening the JavaScript file in your `user controller mapping folder <controller-mapping-file-locations>`__ in a
+There are several options that can be configured for this mapping. You can edit these by opening the JavaScript file in a
 text editor like Notepad, TextEdit, or gEdit and editing the values at the top of the file.
 
 -  **autoHeadMix**: Indicates if the Headphone/Master mix should automatically be set to master when none of the headphone cue buttons are activated.

@@ -2,7 +2,7 @@ Numark Mixtrack Platinum
 ========================
 
 -  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-platinum>`__
--  `Forum thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=8863>`__
+-  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-mapping/16442>`__
 
 The Numark Mixtrack Platinum is a 2 channel (with 4 channel layering) entry level DJ controller with an integrated audio interface. The stand out feature of the Mixtrack Platinum is the LCD displays
 integrated into the jog wheels. It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
@@ -15,13 +15,12 @@ Audio interface
 Configure Mixxx’s Master output for channels 1-2 and Headphones output for Channels 3-4.
 
 The microphone input on this controller is not available to the computer through the controller’s audio interface. It is mixed with the master output in hardware, so this controller’s audio interface
-is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate `USB audio
-interface <Hardware%20Compatibility#USB%20Audio%20Interfaces>`__ with a microphone input is suggested.
+is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate :ref:`audio interface <hardware-audio-interfaces>` with a microphone input is suggested.
 
 Configuration Options
 ---------------------
 
-Configuration options can be set in the mapping. You will need to edit the values below at the very top of the JavaScript file ``Numark-Mixtrack-Platinum-scripts.js`` and save changes. Allowed values
+Configuration options can be set in the mapping. You will need to edit the values below at the very top of the JavaScript file :file:`Numark-Mixtrack-Platinum-scripts.js` and save changes. Allowed values
 are “true” or “false” unless specified.
 
 -  **EnableWheel:** if true, wheel/vinyl mode will be enabled by default (defaults to true)
@@ -133,7 +132,7 @@ the fader on the controller. This can be reversed in Mixxx’s preferences under
 | **Long Press:** Enable master sync. Press again to disable.
 | **Shift + Sync:** Toggle quantize mode.
 
-| 30. **Cue (Transport Control):** Behavior depends on the `cue mode <http://mixxx.org/manual/latest/chapters/user_interface.html#interface-cue-modes>`__ set in the Mixxx preferences.
+| 30. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
 | **Shift + Cue:** return the play head to the start of the track and stop the deck.
 
 | 31. **Play/Pause:** Starts and stops playback.

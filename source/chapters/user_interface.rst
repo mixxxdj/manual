@@ -23,6 +23,39 @@ This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
 are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Deere only.
 
+.. _interface-skin-settings:
+
+Section Skin Settings
+=========================
+
+  .. figure:: ../_static/2.2/expansion-buttons-top.png
+   :align: center
+   :width: 430px
+   :figwidth: 90%
+   :alt: The section expansion buttons
+   :figclass: pretty-figures
+
+   The GUI section quick toggles buttons in the top tool bar
+
+If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+
+* :ref:`interface-effects`
+* :ref:`interface-sampler`
+* :ref:`interface-mic`
+
+You can also use the specific :ref:`appendix-shortcuts`.
+
+  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+    :align: center
+    :width: 245px
+    :figwidth: 90%
+    :alt: The section expansion buttons
+    :figclass: pretty-figures
+
+    The Skin Settings menu on the right
+
+On top, and on the right side of the user interface are the section expansion buttons and options.
+
 .. _interface-decks:
 
 The Deck Sections
@@ -390,6 +423,38 @@ buttons depends on the selected Cue mode. To change the Cue mode, go to
 .. seealso:: You can also use keyboard shortcuts for Cueing. Go to
              :ref:`control-keyboard` for more information.
 
+.. _interface-intro-outro:
+
+Intro/Outro Markers
+-------------------
+
+.. sectionauthor::
+   Goodness Chris-Ugari <goodnesschrisugari@yahoo.com>
+
+.. figure:: ../_static/Mixxx-200-Latenight-Deck-intro-outro.png
+  :align: center
+  :width: 55px
+  :figwidth: 100%
+  :alt: The Intro/Outro End and Start Markers
+  :figclass: pretty-figures
+
+  The Intro/Outro End and Start Markers
+
+You can use the Intro/Outro Markers with Auto DJ to mix in and out of points but unlike hotcues, they do not mark only one point.
+The intro and outro are sections and each section is defined by two points. See :ref:`library-auto-dj`.
+
+**Intro Start/End Markers**
+ The analyzer places the intro start point at the first sound of a track and you can decide where to place the intro end point.
+ Left-clicking on the marker when it is set jumps to the marker. When it is not set, clicking sets the marker to the current play position.
+ Right-clicking on the marker when it is set clears the marker.
+
+**Outro Start/End Markers**
+ The analyzer places the outro end point at the last sound of a track and you can decide where to place the outro start point.
+ Left-clicking on the marker when it is set jumps to the marker. When it is not set, clicking sets the marker to the current play position.
+ Right-clicking on the marker when it is set clears the marker.
+
+.. note:: If :term:`quantization` is enabled, left-clicking on any of the markers snaps to the nearest beat.
+
 .. _interface-transport:
 
 Transport Controls
@@ -440,6 +505,19 @@ Mixxx and is **hidden** in the default
 :ref:`Mixxx user interface <interface-overview>`. Click the gear icon in the upper right corner, then toggle :menuselection:`Skin Settings --> Vinyl Control Options`, or use the specific :ref:`appendix-shortcuts` to show or hide the
 section.
 
+.. seealso :: For more information on how to use Vinyl control in your setup, go
+              to the chapter :ref:`vinyl-control`.
+
+**Vinyl button**
+
+This button enables :term:`vinyl control`. When enabled in Mixxx, the track
+on the Mixxx deck is controlled by the external vinyl control.
+
+**Pass button**
+
+This button enables passthrough. When enabled, audio from an external vinyl
+can be played on the Mixxx deck.
+
 **Abs/Rel/Const button**
 
 * **Absolute mode**: The track position equals needle position and speed.
@@ -457,9 +535,6 @@ control relative mode:
 * **Cue**: If the needle is dropped after the cue point, the track will seek
   to that cue point.
 * **Hot**: The track will seek to the nearest previous :term:`hotcue` point.
-
-.. seealso :: For more information on how to use Vinyl control in your setup, go
-              to the chapter :ref:`vinyl-control`.
 
 .. _interface-rate:
 
@@ -692,9 +767,9 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  In the center of the mixer section are 4 :term:`level meters <level meter>`. The
-  two outer-most level meters are for each deck, while the 2 inner-most level
-  meters are the left and right level meters for the master output. These should
+  In the center of the mixer section are 6 :term:`level meters <level meter>` grouped in three pairs. The
+  two outer-most level meters on each side are for each deck, while the 2 inner-most level
+  meters are the left and right level meters for the master output. In each pairing, the left meter shows the volume level for the left channel, while the right meter shows the volume level for the right channel. These should
   stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
@@ -709,125 +784,66 @@ Channel Faders and Level Meters
   .. hint:: Some DJ's prefer to use the line faders over the crossfader for
             fading between tracks. Try it, you may like it.
 
-.. _interface-expansion-buttons:
+.. _interface-eq-gain:
 
-Section Expansion Buttons
+Equalizers and Gain Knobs
 -------------------------
 
-  .. figure:: ../_static/2.2/expansion-buttons-top.png
+.. figure:: ../_static/2.2/eq-gain-quickeffect-knobs.png
    :align: center
-   :width: 430px
-   :figwidth: 90%
-   :alt: The section expansion buttons
+   :width: 300px
+   :figwidth: 150px
+   :alt: The EQ Controls of a deck in the mixer
    :figclass: pretty-figures
 
-   The section expansion buttons on top
+   EQ Controls
 
-  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
-    :align: center
-    :width: 245px
-    :figwidth: 90%
-    :alt: The section expansion buttons
-    :figclass: pretty-figures
+**Gain Knob**
+  The gain knob (green ring) above the volume fader allows you to adjust the gain applied to the deck.
+  Use this to compensate for the differences in recording levels between tracks.
+  In general, you should adjust this knob so that the track's :term:`level meter`
+  stays around the top of the green region with the loudest parts of the track
+  (the transients) briefly going into the yellow region. **Do NOT turn the
+  Gain Knob up so much that the level meter is in the red region. At this point
+  the track is clipping, which sounds bad and could damage equipment.**
 
-    The section expansion options under the Skin settings on the right.
-
-On top, and on the right side of the user interface are the section expansion buttons and options.
-
-If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
-
-* :ref:`interface-effects`
-* :ref:`interface-sampler`
-* :ref:`interface-mic`
-
-You can also use the specific :ref:`appendix-shortcuts`.
-
-.. _interface-head-master:
-
-Headphone and Master Mix Controls
----------------------------------
-
-.. figure:: ../_static/Mixxx-200-Latenight-Mixer-Master.png
-   :align: center
-   :width: 117px
-   :figwidth: 100%
-   :alt: The headphone and master mix knobs
-   :figclass: pretty-figures
-
-   The headphone and master mix knobs
-
-**Pre/Main Knob**
-  Allows you to control how much of the master output you hear in the
-  :guilabel:`Headphones` output. It works like a crossfader between the stereo
-  Master and stereo :term:`PFL` signal. If the knob is set to the left, you
-  only hear the PFL signal, which is the usual position for prelistening tracks.
-
-  This can be used to practice DJing with only one stereo output and a set
-  of either speakers or headphones.
-
-  Additionally, this can be used to mix in headphones when you cannot hear the
-  speakers connected to the :guilabel:`Master` output and there are no booth
-  monitor speakers. Some DJs prefer to use this knob to mix in headphones all
-  the time, but many find it to be a difficult way to play. If there is only one
-  set of speakers and no booth monitors, you can avoid the need to mix in
-  headphones by setting up the speakers behind you so both you and your
-  audience can hear them.
-
-  .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
-            want to listen to in your headphones.
-
-**Head-Split Button**
-  If activated, two mono signals are sent to the headphone output instead of one
-  stereo signal. The master signal plays in the right channel, while the cueing
-  signal plays in the left channel. You can still adjust the
-  :guilabel:`Pre/Main Knob` to control the mix of the master and cue signals in
-  the left channel.
-
-**Balance Knob**
-  This knob allows you to adjust the :term:`balance` (left/right orientation) of
-  the master output.
-
-.. _interface-gain-knob:
-
-**Master Knob**
-  The Master Gain Knob controls the gain applied to the Master output signal that
-  Mixxx sends to your sound card, Internet broadcasting servers, and recorded
-  mixes. Generally, this knob should not be adjusted. To change the output
-  volume, a gain control should be adjusted as close to the speakers as possible
-  for the best signal-to-noise ratio throughout your signal chain. Ideally, the
-  volume would only be adjusted by adjusting the gain on the power amplifier.
-  On active speakers, including computer speakers, studio monitors, and PA
-  systems that do not require a separate amplifier, this means adjusting the
-  gain on the speakers (which may be labeled "Volume").
-
-  As a DJ, you may not have access to the power amplifier. In that case,
-  adjust the volume by adjusting the gain on the equipment closest to the power
-  amplifier that you have access to. Typically, this is a DJ mixer. If you are
-  not going through a mixer, adjust the gain of your sound card. If your sound
-  card does not have any controls on it (for example, for sound cards built into
-  computers), adjust the sound card settings with your :term:`OS <operating system>`
-  mixer program. The Master Gain Knob in Mixxx should be a last resort for
-  adjusting volume.
-
-  .. warning:: **In no case should any part of the signal chain be clipping,
-               indicated by a level meter going into its red region
-               or an LED labeled "clipping" turning on.**
+  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
+            tracks have approximately equal loudness at unity gain. Your tracks
+            must be :ref:`analyzed <getting-started-analyze-library>` to take
+            advantage of this feature. When an unanalyzed track is
+            loaded, Mixxx calculates its ReplayGain value, but will not apply a
+            newly calculated ReplayGain value to a track after it has
+            already started playing (to avoid a sudden change in the gain of a
+            playing track).
 
   .. seealso:: For an explanation of why you should set your gains this way, see
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
-**Head Gain Knob**
-  This knob controls the gain applied to the headphone output signal that Mixxx
-  sends to your sound card. Generally, this knob should not be adjusted. To
-  adjust the volume in your headphones, adjust your sound card's gain on the
-  headphone output. Most external sound cards have a gain knob specifically for
-  the headphone jack. If you use an onboard sound card for your headphones,
-  adjust the gain control in your :term:`OS <operating system>` mixer program.
-  If your sound card only has one gain knob that controls both the main output
-  and the headphone output, then adjust the :guilabel:`Head Gain` knob in Mixxx
-  to control the volume of your headphones without affecting your main output.
+**EQ Knobs**
+   The low, mid, and high EQ knobs (purple ring) allow you to change the filters of the audio.
+   This allows you to selectively reduce or boost certain frequency ranges of the audio.
 
- .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+  .. warning:: Be careful not to raise the EQs so much that the signal clips,
+               indicated by a :term:`level meter` being in the red region. See
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
+               for a more detailed explanation.
+
+**Kill Switches**
+  The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
+  Hold these buttons to fully remove that frequency range. Short click on the
+  buttons for latching. When in Latch mode, click again to restore the frequency
+  range. If the Kill switches do not work as expected, check the high/low shelf
+  EQ settings in the preferences.
+
+  **Quick Effect knob**
+  This knob (blue ring) lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
+  Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
+  filter effects only (Filter, Moog Ladder 4 Filter).
+  The button next to the knob toggles the effect. It provides the same latching capabilities
+  like the EQ Kill switches.
+
+.. seealso:: You can customize the EQ settings in
+             :menuselection:`Preferences --> Equalizer`.
 
 .. _interface-pfl:
 
@@ -862,61 +878,6 @@ volume fader all the way down.
           rather than your sound card. Use the headphone buttons on the mixer
           rather than the buttons in Mixxx.
 
-.. _interface-eq-gain:
-
-Equalizers and Gain Knobs
--------------------------
-
-.. figure:: ../_static/2.2/gain-knob.png
-   :align: center
-   :width: 300px
-   :figwidth: 150px
-   :alt: The EQ Controls of a deck in the mixer
-   :figclass: pretty-figures
-
-   EQ Controls
-
-**Gain Knob**
-  The gain knob allows you to adjust the gain applied to the deck.
-  Use this to compensate for the differences in recording levels between tracks.
-  In general, you should adjust this knob so that the track's :term:`level meter`
-  stays around the top of the green region with the loudest parts of the track
-  (the transients) briefly going into the yellow region. **Do NOT turn the
-  Gain Knob up so much that the level meter is in the red region. At this point
-  the track is clipping, which sounds bad and could damage equipment.**
-
-  .. note:: By default, Mixxx automatically applies an additional ReplayGain so
-            tracks have approximately equal loudness at unity gain. Your tracks
-            must be :ref:`analyzed <getting-started-analyze-library>` to take
-            advantage of this feature. When an unanalyzed track is
-            loaded, Mixxx calculates its ReplayGain value, but will not apply a
-            newly calculated ReplayGain value to a track after it has
-            already started playing (to avoid a sudden change in the gain of a
-            playing track).
-
-  .. seealso:: For an explanation of why you should set your gains this way, see
-               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
-
-**EQ Knobs**
-  The low, mid, and high EQ knobs allow you to change the filters of the audio.
-  This allows you to selectively reduce or boost certain frequency ranges of
-  the audio.
-
-  .. warning:: Be careful not to raise the EQs so much that the signal clips,
-               indicated by a :term:`level meter` being in the red region. See
-               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
-               for a more detailed explanation.
-
-**Kill Switches**
-  The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
-  Hold these buttons to fully remove that frequency range. Short click on the
-  buttons for latching. When in Latch mode, click again to restore the frequency
-  range. If the Kill switches do not work as expected, check the high/low shelf
-  EQ settings in the preferences.
-
-.. seealso:: You can customize the EQ settings in
-             :menuselection:`Preferences --> Equalizer`.
-
 .. _interface-crossfader:
 
 Crossfader
@@ -946,6 +907,92 @@ on the left end of the crossfader and vice versa. This is also known as
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
+
+.. _interface-head-master:
+
+Headphone and Master Mix Controls
+---------------------------------
+
+.. figure:: ../_static/2.2/master-head-controls.png
+   :align: center
+   :figwidth: 100%
+   :alt: The headphone and master mix knobs
+   :figclass: pretty-figures
+
+   The headphone and master mix knobs
+
+**Head Mix knob**
+  Allows you to control how much of the master output you hear in the
+  :guilabel:`Headphones` output. It works like a crossfader between the stereo
+  Master and stereo :term:`PFL` signal. If the knob is set to the left, you
+  only hear the PFL signal, which is the usual position for prelistening tracks.
+
+  This can be used to practice DJing with only one stereo output and a set
+  of either speakers or headphones.
+
+  Additionally, this can be used to mix in headphones when you cannot hear the
+  speakers connected to the :guilabel:`Master` output and there are no booth
+  monitor speakers. Some DJs prefer to use this knob to mix in headphones all
+  the time, but many find it to be a difficult way to play. If there is only one
+  set of speakers and no booth monitors, you can avoid the need to mix in
+  headphones by setting up the speakers behind you so both you and your
+  audience can hear them.
+
+  .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
+            want to listen to in your headphones.
+
+**Head knob**
+  This knob controls the gain applied to the headphone output signal that Mixxx
+  sends to your sound card. Generally, this knob should not be adjusted. To
+  adjust the volume in your headphones, adjust your sound card's gain on the
+  headphone output. Most external sound cards have a gain knob specifically for
+  the headphone jack. If you use an onboard sound card for your headphones,
+  adjust the gain control in your :term:`OS <operating system>` mixer program.
+  If your sound card only has one gain knob that controls both the main output
+  and the headphone output, then adjust the :guilabel:`Head` knob in Mixxx
+  to control the volume of your headphones without affecting your main output.
+
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+
+**Split Cue button**
+  If activated, two mono signals are sent to the headphone output instead of one
+  stereo signal. The master signal plays in the right channel, while the cueing
+  signal plays in the left channel. You can still adjust the
+  :guilabel:`Head Mix` knob to control the mix of the master and cue signals in
+  the left channel.
+
+**Balance Knob**
+  This knob allows you to adjust the :term:`balance` (left/right orientation) of
+  the master output.
+
+.. _interface-gain-knob:
+
+**Master Knob**
+  The Master Gain Knob controls the gain applied to the Master output signal that
+  Mixxx sends to your sound card, Internet broadcasting servers, and recorded
+  mixes. Generally, this knob should not be adjusted. To change the output
+  volume, a gain control should be adjusted as close to the speakers as possible
+  for the best signal-to-noise ratio throughout your signal chain. Ideally, the
+  volume would only be adjusted by adjusting the gain on the power amplifier.
+  On active speakers, including computer speakers, studio monitors, and PA
+  systems that do not require a separate amplifier, this means adjusting the
+  gain on the speakers (which may be labeled "Volume").
+
+  As a DJ, you may not have access to the power amplifier. In that case,
+  adjust the volume by adjusting the gain on the equipment closest to the power
+  amplifier that you have access to. Typically, this is a DJ mixer. If you are
+  not going through a mixer, adjust the gain of your sound card. If your sound
+  card does not have any controls on it (for example, for sound cards built into
+  computers), adjust the sound card settings with your :term:`OS <operating system>`
+  mixer program. The Master Gain Knob in Mixxx should be a last resort for
+  adjusting volume.
+
+  .. warning:: **In no case should any part of the signal chain be clipping,
+               indicated by a level meter going into its red region
+               or an LED labeled "clipping" turning on.**
+
+  .. seealso:: For an explanation of why you should set your gains this way, see
+               :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 .. _interface-sampler:
 

@@ -40,8 +40,19 @@ are located in the deck, microphone, and auxiliary sections of the skin. The
 buttons for routing other inputs to effect units are in different locations
 depending on the skin.
 
+.. figure:: ../_static/effect_unit_buttons.png
+   :align: center
+   :alt: Effect unit buttons located in the deck
+   :figclass: pretty-figures
+
+   The effect unit buttons located in the deck.
+
 If a channel is assigned to multiple effect units, those effect units are
 chained together. This allows you to chain more than 3 effects at a time.
+
+To route deck 1 to effect unit 1, click the :guilabel:`FX1` button on deck 1 to turn it on.
+To route deck 2 to effect unit 2, click the :guilabel:`FX2` button on deck 2, and so on.
+It's also possible to route a single deck to multiple effect units, or multiple decks to a single effect unit.
 
 The mix knob adjusts the mix between the dry signal (input to the unit) and the
 wet signal (output of the last effect in the unit). It changes the level of
@@ -161,3 +172,24 @@ audience, but this requires a few more steps:
   #. Turn the mix knob right so the effects are heard in the master output
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
+
+Controller Effects Mapping
+==========================
+This section describes how to use the standard Mixxx mapping for effects sections on controllers with the typical layout of 4 knobs (or 3 knobs + 1 encoder) and 4 buttons for effects. It allows you to switch between controlling all 3 effects of a chain or controlling each parameter of one effect.
+
+By default, 3 knobs are used for controlling effect metaknobs and the buttons under them toggle each effect on/off. To temporarily toggle an effect on/off, press and hold an effect enable button. The 4th knob is used for the mix (dry/wet) knob of the whole chain. On controllers designed for Serato, the :guilabel:`Beats` encoder is used as the mix knob.
+
+The button next to the mix knob is used for focusing effects. On controllers designed for Serato, this button is labeled :guilabel:`Tap`. While holding this button pressed, the enable buttons for each effect switch to choosing which effect is focused. When an effect is focused:
+
+   * the knobs switch to controlling the first 3 parameters of that effect instead of the metaknobs of each effect in the chain;
+   * the buttons switch to controlling the first 3 button parameters of the effect; and
+
+The LED of the focus button indicates whether any effect is focused. When its LED is on, you can hold the button down to see which effect is focused without having to look at the computer screen. To unfocus the effect, you can short press the focus button. The focused effect is remembered, so when you short press the focus button again, the previously focused effect will be refocused (it is not remembered when you shut down Mixxx though).
+
+Alternatively, if you want to keep all the parameters showing on screen, you can press and hold the focus button, then press the button of the focused effect to unfocus it. Showing all the parameters without having an effect focused is helpful for experimenting with different ways of linking parameters to the metaknob.
+
+When the focus button is pressed with shift, it toggles the Effect Unit between controlling different :ref:`Effect Units <effects-effect-unit>` in Mixxx. Typically this is used to toggle between :ref:`Effect Units <effects-effect-unit>` 1 & 3 or 2 & 4, like deck toggle buttons.
+
+To load different effects, hold shift and turn the knob for an effect.
+
+To load chain presets 1-4, press the buttons with shift (new in Mixxx 2.4).

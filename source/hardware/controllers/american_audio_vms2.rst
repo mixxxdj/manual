@@ -11,7 +11,7 @@ computer by setting the USB/Analog switches on the front of the device
 to “Analog”.
 
 -  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
--  `Forum thread <http://www.mixxx.org/forums/viewtopic.php?f=7&t=3202>`__, for discussion of mapping options.
+-  `Forum thread <https://mixxx.discourse.group/t/american-audio-vms2/12000>`__, for discussion of mapping options.
 -  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 
 .. versionadded:: 1.11
@@ -21,8 +21,7 @@ Audio Setup
 
 No driver needs to be installed on GNU/Linux or Mac OS X. However, on
 Windows, it is recommended to install the driver from the manufacturer
-to be able to use the `ASIO sound
-API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__.
+to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
 
 Unlike most controllers with built in sound cards, which rely on Mixxx
 to do all mixing in software, the VMS2 mixes signals from the sound card

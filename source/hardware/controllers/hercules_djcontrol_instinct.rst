@@ -17,7 +17,7 @@ The controller is a class compliant MIDI controller, so you should be
 able to just plug it in and it should be recognized in Mixxx. No need
 for drivers.
 
-Make sure to select the correct preset for the controller and enable it.
+Make sure to select the correct mapping for the controller and enable it.
 
 Audio Channels
 ~~~~~~~~~~~~~~

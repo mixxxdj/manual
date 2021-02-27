@@ -77,9 +77,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Playback**                                                                                                                                             |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Load selected track to deck            | :kbd:`Shift` + :kbd:`left`              | :kbd:`Shift` + :kbd:`right`              |                            |
+| Load selected track to deck            | :kbd:`Shift` + :kbd:`←`                 | :kbd:`Shift` + :kbd:`→`                  |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`left` | :kbd:`Alt` + :kbd:`Shift` + :kbd:`right` |                            |
+| Unload track from deck                 | :kbd:`Alt` + :kbd:`Shift` + :kbd:`←`    | :kbd:`Alt` + :kbd:`Shift` + :kbd:`→`     |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Playback                               | :kbd:`D`                                | :kbd:`L`                                 |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -107,7 +107,7 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Tempo (BPM) Sync                       | :kbd:`1`                                | :kbd:`6`                                 |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| BPM Tap Tempo Adjust                   | :kbd:`Shift` + :kbd:`!`                 | :kbd:`Shift` + :kbd:`^`                  |                            |
+| BPM Tap Tempo Adjust                   | :kbd:`Shift` + :kbd:`!`                 | :kbd:`Shift` + :kbd:`⌃`                  |                            |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Cue and Loop**                                                                                                                                         |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -165,9 +165,9 @@ language settings the defaults may be different.
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | Start/Stop                             |                                         |                                          | :kbd:`Return`              |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`Left`   |
+| Seek Backwards                         |                                         |                                          | :kbd:`Alt` + :kbd:`←`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
-| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`Right`  |
+| Seek Forwards                          |                                         |                                          | :kbd:`Alt` + :kbd:`→`      |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
 | **Vinyl Control**                                                                                                                                        |
 +----------------------------------------+-----------------------------------------+------------------------------------------+----------------------------+
@@ -284,17 +284,43 @@ Debugger Enabled                          :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`
 
 .. _appendix-command-line-options:
 
+Launching Mixxx from the Command Line
+=====================================
+To launch Mixxx using the command line:
+
+**Windows**
+  Locate the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and then choosing 'Properties'.
+  Copy the path and paste it in terminal and add ``\mixxx`` at the end - everything should be inside quotes. Press Enter. The entire command will look like this ::
+
+    "C:\Program Files\Mixxx\mixxx"
+
+**macOS**
+  Similarly, for macOS, the command will be ::
+
+    /Applications/Mixxx.app/Contents/MacOS/mixxx
+
+**GNU/ Linux**
+  If Mixxx is in your system's search path (``$PATH``), you can just type ::
+
+   mixxx
+
 Command line options
-====================
+--------------------
 
 Mixxx is designed to be as user-friendly as possible. As such, its command line
 options are only useful for development or debugging, as they make these tasks
 easier. Command line options are case-sensitive.
 
+To launch Mixxx with any of these command line options, simply append the option to the base command for your operating system. For example, to launch Mixxx in developer mode on Windows, type this in terminal ::
+
+  "C:\Program Files\Mixxx\mixxx" --developer
+
 In addition to these options, it is possible to specify one or more music
 file(s) on the command line. These will be loaded at start-up.  Each file you
 specify will be loaded into the next virtual deck. For a list of supported file
-types, go to :ref:`configuration-import`.
+types, go to :ref:`file-format-compatibility`.
+
+
 
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
@@ -384,7 +410,8 @@ the log on exit.
 Version History
 ===============
 
-**2.3.0** (Unreleased)
+2.3.0 (Unreleased)
+------------------
 
 *Hotcues*
 
@@ -467,7 +494,8 @@ Version History
   * Note: The old SCons build system is still supported for 2.3. We will be removing it for Mixxx 2.4.
   * Make Mixxx compile even though ``QT_NO_OPENGL`` or ``QT_OPENGL_ES_2`` is defined (fixes build on Raspberry Pi) `lp:1863440 <https://bugs.launchpad.net/mixxx/+bug/1863440>`__ `#2504 <https://github.com/mixxxdj/mixxx/pull/2504>`__
 
-**2.2.5** (Unreleased)
+2.2.5 (Unreleased)
+------------------
 
   * Add controller mapping for Hercules DJControl Inpulse 200 `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
   * Add controller mapping for Hercules DJControl Jogvision `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
@@ -476,7 +504,8 @@ Version History
   * Fix loss of precision when dealing with floating-point sample positions while setting loop out position and seeking using vinyl control `#3126 <https://github.com/mixxxdj/mixxx/pull/3126>`__ `#3127 <https://github.com/mixxxdj/mixxx/pull/3127>`__
 
 
-**2.2.4** (2020-06-27)
+2.2.4 (2020-06-27)
+------------------
 
   * Store default recording format after "Restore Defaults" `lp:1857806 <https://bugs.launchpad.net/mixxx/+bug/1857806>`__ `#2414 <https://github.com/mixxxdj/mixxx/pull/2414>`__
   * Prevent infinite loop when decoding corrupt MP3 files `#2417 <https://github.com/mixxxdj/mixxx/pull/2417>`__
@@ -499,7 +528,8 @@ Version History
   * Ignore MIDI Clock Messages (0xF8) because they are not usable in Mixxx and inhibited the screensaver `#2786 <https://github.com/mixxxdj/mixxx/pull/2786>`__
 
 
-**2.2.3** (2019-11-24)
+2.2.3 (2019-11-24)
+------------------
 
   * Don’t make users reconfigure sound hardware when it has not changed `#2253 <https://github.com/mixxxdj/mixxx/pull/2253>`__
   * Fix MusicBrainz metadata lookup `lp:1848887 <https://bugs.launchpad.net/mixxx/+bug/1848887>`__ `#2328 <https://github.com/mixxxdj/mixxx/pull/2328>`__
@@ -519,7 +549,8 @@ Version History
   * Reloop Terminal Mix: Fix mapping of sampler buttons 5-8 `lp:1846966 <https://bugs.launchpad.net/mixxx/+bug/1846966>`__ `#2330 <https://github.com/mixxxdj/mixxx/pull/2330>`__
 
 
-**2.2.2** (2019-08-10)
+2.2.2 (2019-08-10)
+------------------
 
   * Fix battery widget with upower <= 0.99.7. `#2221 <https://github.com/mixxxdj/mixxx/pull/2221>`__
   * Fix BPM adjust in BpmControl. `lp:1836480 <https://bugs.launchpad.net/mixxx/+bug/1836480>`__
@@ -540,7 +571,8 @@ Version History
   * Replace Flanger with QuickEffect in keyboard mapping. `#2233 <https://github.com/mixxxdj/mixxx/pull/2233>`__
 
 
-**2.2.1** (2019-04-22)
+2.2.1 (2019-04-22)
+------------------
 
   * Include all fixes from Mixxx 2.1.7 and 2.1.8
   * Fix high CPU usage on MAC due to preview column `lp:1812763 <https://bugs.launchpad.net/mixxx/+bug/1812763>`__
@@ -552,7 +584,8 @@ Version History
   * Fix Numark Mixtrack 3 mapping. `#2057 <https://github.com/mixxxdj/mixxx/pull/2057>`__
 
 
-**2.2.0** (2018-12-17)
+2.2.0 (2018-12-17)
+------------------
 
 *General*
 
@@ -585,7 +618,8 @@ Version History
   * Support IRC/AIM/ICQ broadcast metadata.
 
 
-**2.1.8** (2019-04-07)
+2.1.8 (2019-04-07)
+------------------
 
   * Fix a rare chance for a corrupt track file while writing metadata in out of disk situations. `lp:1815305 <https://bugs.launchpad.net/mixxx/+bug/1815305>`__
   * Fix export of BPM track file metadata. `lp:1816490 <https://bugs.launchpad.net/mixxx/+bug/1816490>`__
@@ -594,7 +628,8 @@ Version History
   * Fix dropping track from OSX Finder. `lp:1822424 <https://bugs.launchpad.net/mixxx/+bug/1822424>`__
 
 
-**2.1.7** (2019-01-15)
+2.1.7 (2019-01-15)
+------------------
 
   * Fix syncing to doublespeed `lp:1808697 <https://bugs.launchpad.net/mixxx/+bug/1808697>`__
   * Fix issues when changing beats of a synced track `lp:1808698 <https://bugs.launchpad.net/mixxx/+bug/1808698>`__
@@ -603,7 +638,8 @@ Version History
   * Encode file names correctly on macOS `lp:1776949 <https://bugs.launchpad.net/mixxx/+bug/1776949>`__
 
 
-**2.1.6** (2018-12-23)
+2.1.6 (2018-12-23)
+------------------
 
   * Fix crash when loading a Qt5 Soundsource / Vamp Plug-In. `lp:1774639 <https://bugs.launchpad.net/mixxx/+bug/1774639>`__
   * Validate effect parameter range. `lp:1795234 <https://bugs.launchpad.net/mixxx/+bug/1795234>`__
@@ -625,7 +661,8 @@ Version History
   * Fix cue button blinking after pressing eject on an empty deck. `lp:1808222 <https://bugs.launchpad.net/mixxx/+bug/1808222>`__
 
 
-**2.1.5** (2018-10-28)
+2.1.5 (2018-10-28)
+------------------
 
   * Code signing for Windows builds. `lp:1517823 <https://bugs.launchpad.net/mixxx/+bug/1517823>`__
   * Fix crash on exit when preferences is open. `lp:1793185 <https://bugs.launchpad.net/mixxx/+bug/1793185>`__
@@ -638,17 +675,20 @@ Version History
   * Add 2 deck mapping for DJTechTools MIDI Fighter Twister.
 
 
-**2.1.4** (2018-08-29)
+2.1.4 (2018-08-29)
+------------------
 
   * Fix track selection not getting shown in the track table on Windows. There are no changes to the source code, but the Jenkins build configuration was changed to delete the Jenkins workspace before each build. `lp:1751482 <https://bugs.launchpad.net/mixxx/+bug/1751482>`__
 
 
-**2.1.3** (2018-08-20)
+2.1.3 (2018-08-20)
+------------------
 
   * Fix a severe `performance regression on Windows <https://mixxx.discourse.group/t/mixxx-2-1-2-running-much-slower-than-2-1-1/17447>`__
 
 
-**2.1.2** (2018-08-10)
+2.1.2 (2018-08-10)
+------------------
 
   * Allow maximum deck speed of 4x normal.
   * Don’t always quantize hotcues, a 2.1.1 regression. `lp:1777429 <https://bugs.launchpad.net/mixxx/+bug/1777429>`__
@@ -664,7 +704,8 @@ Version History
   * ITunes: Don’t stop import in case of duplicated Playlists. `lp:1783493 <https://bugs.launchpad.net/mixxx/+bug/1783493>`__
 
 
-**2.1.1** (2018-06-13)
+2.1.1 (2018-06-13)
+------------------
 
   * Require Soundtouch 2.0 to avoid segfault. `lp:1577042 <https://bugs.launchpad.net/mixxx/+bug/1577042>`__
   * Improved skins including library view fix. `lp:1773709 <https://bugs.launchpad.net/mixxx/+bug/1773709>`__ `lp:1772202 <https://bugs.launchpad.net/mixxx/+bug/1772202>`__
@@ -684,7 +725,8 @@ Version History
   * Swap default values for temp/perm rate changes. `lp:1764254 <https://bugs.launchpad.net/mixxx/+bug/1764254>`__
 
 
-**v2.1.0** (2018-04-15)
+2.1.0 (2018-04-15)
+------------------
 
   * Graphical interface scales for high resolution screens
   * Overhauled Deere and LateNight skins
@@ -718,7 +760,8 @@ For a full list of new features and bugfixes, go to:
 `https://launchpad.net/mixxx/2.1 <https://launchpad.net/mixxx/+milestone/2.1.0>`_.
 
 
-**v2.0.0** (2015-12-31)
+2.0.0 (2015-12-31)
+------------------
 
   * 4 Decks with Master Sync
   * New Effects Framework with 4 Effect Units and 5 Built-in Effects:

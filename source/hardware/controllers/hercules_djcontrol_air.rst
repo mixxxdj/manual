@@ -17,7 +17,7 @@ sensor (IR) located above EQ potentiometers and between top horizontal
 vu-meter.
 
 -  `Manufacturer’s product page <https://support.hercules.com/en/product/djcontrolair-en/>`__
--  `Forum Thread <https://www.mixxx.org/forums/viewtopic.php?f=7&t=3263&p=25704&hilit=air#p25704>`__
+-  `Forum Thread <https://mixxx.discourse.group/t/hercules-dj-control-air/12042>`__
 
 .. versionadded:: 1.11
 
