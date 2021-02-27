@@ -576,19 +576,17 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_active
                    [SamplerN],beat_active
 
-   Indicates how the player is currently positioned to the closest beat.
+   Indicates, depending on the play direction, how the player is currently positioned to the closest beat. 
 
    An LED controlled by beat_active can be used for beat matching or for finding a beat using jog or control vinyl.
 
-   ===== ================== ====================================================================
+   ===== ================== =============================================================================================
    Value Play direction     Position
-   ===== ================== ====================================================================
-   -1    Reverse            Between the closest beat and -20% of the period to the previous beat
-   -0.5  Changed while -1   Between the closest beat and -20% of the period to the previous beat
-    0                       All other positions
-   +0.5  Changed while +1   Between the closest beat and +20% of the period to the next beat
-   +1    Forward            Between the closest beat and +20% of the period to the next beat
-   ===== ================== ====================================================================
+   ===== ================== =============================================================================================
+   +1    Forward            Set at a beat
+   -1    Reverse            Set at a beat
+    0                       Set when play direction changes or +-20% of the distance to the previous/next beat is reached
+   ===== ================== =============================================================================================
 
    :range: real number, read-only
    :feedback: None
