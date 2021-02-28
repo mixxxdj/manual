@@ -98,4 +98,4 @@ Other controls
 -  **Shift + cue**: jump to beginning of track and stop
 -  **Shift + play**: toggle reverse playback
 -  **Shift + load**: ejects a track from the deck
--  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled. Dry/wet knob can optionally be used as pregain (see dryWetKnobAsPregain variable)
+-  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled. Dry/wet knob can optionally be used as pregain (see `dryWetKnobAsPregain` variable)
