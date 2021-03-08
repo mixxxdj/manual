@@ -9,7 +9,7 @@ Gemini G4V
    :figclass: pretty-figures
 
 The Gemini G4V is a 2 deck controller that supports 4 virtual decks, a 4 way mixer and has a built-in 4 channel USB soundcard.
-It includes a Microphone input line, an Aux input line and an Booth output line. This lines are not going thorugh the soundcard but mixed directly at the controller.
+It includes a Microphone input line, an Aux input line and an Booth output line. This lines are not going through the soundcard but mixed directly at the controller.
 They are not accessible nor controlled by Mixx so they will not appear in any recording nor is possible to control them via the Mixxx screen interface.
 
 
@@ -59,7 +59,7 @@ Most of the board's controls work as described in the G4V's manual, with a few e
 Shift
 -----
 
-On each of the physical decks is a :hwlabel:`SHIFT` button. 
+On each of the physical decks is a :hwlabel:`SHIFT` button.
 
 This button, when held, changes the behavior of various buttons on that deck, labeled under the respective button.
 
@@ -125,7 +125,7 @@ Turning the jog wheel while pressing shift will change the track play head fast,
 
 When the jog wheel top is released, the jog wheel will stay in scratching mode until it stops moving, for spin backs or similar actions
 
-If the deck was in slip mode before entering in scratching mode, the play head will move to the position it will have been if no manipulation happened, useful for scratching without loosing the beat
+If the deck was in slip mode before entering in scratching mode, the play head will move to the position it will have been if no manipulation happened, useful for scratching without losing the beat
 
 Turning the jog wheel without pressing the top will temporarily change the tempo, for nudging.
 
@@ -141,7 +141,7 @@ You can can change the mode by using the mode buttons as indicated.
 Hot Cue Mode
 ^^^^^^^^^^^^
 
-To enable Hot Cue mode, press the :hwlabel:`Hot Cue` button. 
+To enable Hot Cue mode, press the :hwlabel:`Hot Cue` button.
 When the performance pads are in Hot Cue mode, the Hot Cue button will be lit up.
 
 Pressing a performance pad when in Hot Cue mode will control the corresponding numbered Hot Cue (Performance Pad 1 controls Hot Cue 1, etc) on the virtual deck.
