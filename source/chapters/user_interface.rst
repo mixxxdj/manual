@@ -10,25 +10,25 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/2.2/overview.png
+.. figure:: ../_static/2.3/mixxx-interface.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: The Mixxx interface - Deere skin
+   :alt: The Mixxx interface - Latenight skin
    :figclass: pretty-figures
 
-   The Mixxx interface - Deere skin
+   The Mixxx interface - Latenight skin
 
-This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
+This is the Latenight skin. It is the default skin supplied with Mixxx 2.3. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Deere only.
+to figure out which one you prefer. This section will focus on Latenight only.
 
 .. _interface-skin-settings:
 
 Section Skin Settings
 =========================
 
-  .. figure:: ../_static/2.2/expansion-buttons-top.png
+  .. figure:: ../_static/2.3/skin-settings-top.png
    :align: center
    :width: 430px
    :figwidth: 90%
@@ -45,7 +45,7 @@ If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`M
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
-  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+  .. figure:: ../_static/2.3/skin-settings-right.png
     :align: center
     :width: 245px
     :figwidth: 90%
@@ -65,7 +65,7 @@ The Deck Sections
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/interface-decks.png
+.. figure:: ../_static/2.3/deck-sections.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -82,7 +82,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/2.2/track-information.png
+.. figure:: ../_static/2.3/track-info.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -120,10 +120,10 @@ Track Information Display
             information.
 
 **Key**
-  .. figure:: ../_static/2.2/key-options.png
+  .. figure:: ../_static/2.3/key.png
     :align: center
     :width: 42%
-    :figwidth: 90%
+    :figwidth: 80%
     :alt: The options displayed when you click on the Key
     :figclass: pretty-figures
 
@@ -156,29 +156,20 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/2.2/deere-parallel-waveforms.png
+.. figure:: ../_static/2.3/latenight-parallel-waveform.png
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Deere) - Parallel waveforms
+   Mixxx default skin (Latenight) - Parallel waveforms
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
 Shade skin provides only separate waveforms.
 In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
-
-.. figure:: ../_static/2.2/deere-separate-waveforms.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Mixxx alternative skin (Latenight) - parallel waveforms
-   :figclass: pretty-figures
-
-   Mixxx default skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
@@ -250,7 +241,7 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/options-button-grid.png
+.. figure:: ../_static/2.3/deck-options-grid.png
    :align: center
    :width: 79px
    :figwidth: 100%
@@ -297,7 +288,7 @@ follows:
 Playback/Cue Controls
 ---------------------
 
-.. figure:: ../_static/2.2/cue-controls.png
+.. figure:: ../_static/2.3/playback-control.png
   :align: center
   :width: 54px
   :figwidth: 100%
@@ -431,7 +422,7 @@ Intro/Outro Markers
 .. sectionauthor::
    Goodness Chris-Ugari <goodnesschrisugari@yahoo.com>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-intro-outro.png
+.. figure:: ../_static/2.3/intro-outro.png
   :align: center
   :width: 55px
   :figwidth: 100%
@@ -464,7 +455,7 @@ Transport Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/transport-controls.png
+.. figure:: ../_static/2.3/transport-controls.png
   :align: center
   :width: 80px
   :figwidth: 100%
@@ -492,9 +483,9 @@ Vinyl Control Mode and Cueing controls
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/vinyl-control-mode.png
+.. figure:: ../_static/2.3/vinyl-control.png
    :align: center
-   :figwidth: 60%
+   :figwidth: 40%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -545,9 +536,9 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/sync-and-rate-controls.png
+.. figure:: ../_static/2.3/sync-and-rate.png
    :align: right
-   :width: 68px
+   :width: 70px
    :figwidth: 100px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
@@ -616,7 +607,7 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/loop-controls.png
+.. figure:: ../_static/2.3/loop-controls.png
    :align: center
    :width: 205px
    :figwidth: 100%
@@ -678,7 +669,7 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/hot-cue-controls.png
+.. figure:: ../_static/2.3/hotcue-controls.png
    :align: center
    :width: 125px
    :figwidth: 100%
@@ -749,7 +740,7 @@ The Mixer Section
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/mixer-section.png
+.. figure:: ../_static/2.3/mixer-section.png
    :align: center
    :width: 430px
    :figwidth: 100%
@@ -789,7 +780,7 @@ Channel Faders and Level Meters
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/2.2/eq-gain-quickeffect-knobs.png
+.. figure:: ../_static/2.3/equalizers-and-gain-knob.png
    :align: center
    :width: 300px
    :figwidth: 150px
@@ -850,9 +841,9 @@ Equalizers and Gain Knobs
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/2.2/headphone-button.png
+.. figure:: ../_static/2.3/PFL.png
    :align: center
-   :width: 321px
+   :width: 270px
    :figwidth: 100%
    :alt: The headphone buttons of both decks in the mixer
    :figclass: pretty-figures
@@ -883,7 +874,7 @@ volume fader all the way down.
 Crossfader
 ----------
 
-.. figure:: ../_static/2.2/crossfader.png
+.. figure:: ../_static/2.3/crossfader.png
    :align: center
    :width: 318px
    :figwidth: 100%
@@ -913,9 +904,9 @@ on the left end of the crossfader and vice versa. This is also known as
 Headphone and Master Mix Controls
 ---------------------------------
 
-.. figure:: ../_static/2.2/master-head-controls.png
+.. figure:: ../_static/2.3/headphone-and-master-mix.png
    :align: center
-   :figwidth: 100%
+   :figwidth: 18%
    :alt: The headphone and master mix knobs
    :figclass: pretty-figures
 
@@ -999,14 +990,23 @@ Headphone and Master Mix Controls
 The Sampler Section
 ===================
 
-.. figure:: ../_static/2.2/sampler-section.png
+.. figure:: ../_static/2.3/sample-decks.png
    :align: center
-   :width: 170px
+   :width: 700px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures
 
-   A sample deck
+   Sample decks
+
+.. figure:: ../_static/2.3/sample-decks-expanded.png
+   :align: center
+   :width: 700px
+   :figwidth: 100%
+   :alt: A sample deck
+   :figclass: pretty-figures
+
+   Sample decks expanded
 
 Samplers are miniature decks. They allow you to play short samples and jingles
 but also additional tracks in your mix. They come with a small overview waveform
@@ -1105,13 +1105,21 @@ Sample Deck Controls
 The Effects Section
 ===================
 
-.. figure:: ../_static/effect-unit-collapsed.png
+.. figure:: ../_static/2.3/effects-section.png
    :align: center
    :figwidth: 100%
    :alt: An effect unit
    :figclass: pretty-figures
 
    An effect unit
+
+.. figure:: ../_static/2.3/effects-section-expanded.png
+   :align: center
+   :figwidth: 100%
+   :alt: An effect unit
+   :figclass: pretty-figures
+
+   Effects section expanded
 
 Mixxx comes with some built in sound effects that can be chained together in
 effect units. Effect units can be freely assigned to different decks as well
@@ -1129,9 +1137,9 @@ The Microphone Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/microphone-section.png
+.. figure:: ../_static/2.3/microphone-section.png
    :align: center
-   :width: 286px
+   :width: 360px
    :figwidth: 100%
    :alt: The Microphone section
    :figclass: pretty-figures
@@ -1174,7 +1182,7 @@ Preview Deck Section
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/preview-deck-section.png
+.. figure:: ../_static/2.3/preview-deck.png
    :align: center
    :width: 50%
    :figwidth: 100%
