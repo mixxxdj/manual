@@ -30,15 +30,18 @@ Section Skin Settings
 
   .. figure:: ../_static/2.3/skin-settings-top.png
    :align: center
-   :width: 430px
+   :width: 500px
    :figwidth: 90%
    :alt: The section expansion buttons
    :figclass: pretty-figures
 
    The GUI section quick toggles buttons in the top tool bar
 
-If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+If you click on either :guilabel:`WAVEFORMS`, :guilabel:`4 DECKS`, :guilabel:`MIXER`, :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
 
+* :ref:`interface-waveform`
+* :ref:`interface-decks`
+* :ref:`interface-mixer`
 * :ref:`interface-effects`
 * :ref:`interface-sampler`
 * :ref:`interface-mic`
@@ -243,7 +246,7 @@ Deck Options Button Grid
 
 .. figure:: ../_static/2.3/deck-options-grid.png
    :align: center
-   :width: 79px
+   :width: 100px
    :figwidth: 100%
    :alt: The Options Button Grid of the deck
    :figclass: pretty-figures
@@ -290,7 +293,7 @@ Playback/Cue Controls
 
 .. figure:: ../_static/2.3/playback-control.png
   :align: center
-  :width: 54px
+  :width: 90px
   :figwidth: 100%
   :alt: The playback and cueing controls of the deck
   :figclass: pretty-figures
@@ -320,6 +323,11 @@ Playback/Cue Controls
 
   .. seealso:: The actual behavior of the Cue button depends on the
                selected :ref:`Cue mode <interface-cue-modes>`.
+
+**Reverse button**
+  This button reverses the track playback during regular playback. You can hold down
+  this button to reverse a track until the desired position and then release. Playback will
+  then continue where the track would have been if the track had not been temporarily reversed.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
@@ -485,7 +493,7 @@ Vinyl Control Mode and Cueing controls
 
 .. figure:: ../_static/2.3/vinyl-control.png
    :align: center
-   :figwidth: 40%
+   :figwidth: 39%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -538,7 +546,7 @@ Sync and Rate Controls
 
 .. figure:: ../_static/2.3/sync-and-rate.png
    :align: right
-   :width: 70px
+   :width: 76px
    :figwidth: 100px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
@@ -582,11 +590,16 @@ control rate changes also from your computer's keyboard, see the chapter
   +0.0%, which indicates no change.
 
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the minus and plus buttons is like nudging the metal edge of
+  Pushing the diagonal arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
   :term:`ramping pitch bend`.
+
+**Pitch/Rate buttons**
+  The minus button will set the pitch/rate lower while the plus button will set the pitch/rate higher.
+  These buttons, unlike the temporary pitch/rate buttons do not need to be held down. Clicking
+  on them sets the pitch/rate higher or lower for as long as the track keeps playing.
 
 .. seealso:: To customize the amount by which the buttons alter the pitch of
              the track, the slider range as well as the direction, go to
@@ -758,10 +771,12 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  In the center of the mixer section are 6 :term:`level meters <level meter>` grouped in three pairs. The
-  two outer-most level meters on each side are for each deck, while the 2 inner-most level
-  meters are the left and right level meters for the master output. In each pairing, the left meter shows the volume level for the left channel, while the right meter shows the volume level for the right channel. These should
-  stay at the top of the green region, with the loudest parts of the music
+  The left meter shows the volume level for the left channel,
+  while the right meter shows the volume level for the right channel.
+  The thicker volume meter at the center is the master volume meter. The left half
+  shows the current master volume for the left channel whereas the the right half shows the
+  current master volume for the right channel.
+  These should stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
   :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
@@ -790,7 +805,7 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  The gain knob (green ring) above the volume fader allows you to adjust the gain applied to the deck.
+  The gain knob (orange) above the volume fader allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
@@ -811,7 +826,7 @@ Equalizers and Gain Knobs
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
-   The low, mid, and high EQ knobs (purple ring) allow you to change the filters of the audio.
+   The low, mid, and high EQ knobs allow you to change the filters of the audio.
    This allows you to selectively reduce or boost certain frequency ranges of the audio.
 
   .. warning:: Be careful not to raise the EQs so much that the signal clips,
@@ -826,8 +841,8 @@ Equalizers and Gain Knobs
   range. If the Kill switches do not work as expected, check the high/low shelf
   EQ settings in the preferences.
 
-  **Quick Effect knob**
-  This knob (blue ring) lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
+**Quick Effect Super knob**
+  This knob lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
   Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
@@ -896,6 +911,9 @@ on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
 :menuselection:`Preferences --> Crossfader`.
 
+The crossfader orientation sets the channel's crossfader orientation.
+It can be set to the left-side, right-side or center of the crossfader and it is unaffected by the :term:`crossfader`.
+
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
@@ -912,7 +930,7 @@ Headphone and Master Mix Controls
 
    The headphone and master mix knobs
 
-**Head Mix knob**
+**Headphone Mix knob**
   Allows you to control how much of the master output you hear in the
   :guilabel:`Headphones` output. It works like a crossfader between the stereo
   Master and stereo :term:`PFL` signal. If the knob is set to the left, you
@@ -932,7 +950,7 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head knob**
+**Head knob (Headphone gain)**
   This knob controls the gain applied to the headphone output signal that Mixxx
   sends to your sound card. Generally, this knob should not be adjusted. To
   adjust the volume in your headphones, adjust your sound card's gain on the
@@ -945,7 +963,7 @@ Headphone and Master Mix Controls
 
  .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
 
-**Split Cue button**
+**Headphone Split Cue button**
   If activated, two mono signals are sent to the headphone output instead of one
   stereo signal. The master signal plays in the right channel, while the cueing
   signal plays in the left channel. You can still adjust the
