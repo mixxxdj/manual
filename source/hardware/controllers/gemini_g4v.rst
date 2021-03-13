@@ -182,7 +182,7 @@ When the performance pads are in Loop Roll mode, the Loop Roll button will be li
 Pressing a pad start a loop of the length indicated in the pad, the pad will lit up.
 Releasing the pad will end the loop and the track position will move to the position it will have been if the loop never happened.
 
-The:hwlabel:`Loop Move` knob shifts the loop position in the virtual deck.
+The :hwlabel:`LOOP MOVE` knob shifts the loop position in the virtual deck.
 
 Manual Loop Mode
 ^^^^^^^^^^^^^^^^
