@@ -3,8 +3,8 @@ Pioneer DDJ-SB2
 
 The Pioneer DDJ-SB2 is an all-in-one USB :term:`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
 
--  `Manufacturer’s product page <http://www.pioneerdj.com/en/product/controller/ddj-sb2/black/overview/>`__
--  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26#p26782>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sb2/black/overview/>`__
+-  `Forum thread <https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26>`__
 
 .. versionadded:: 2.0
 
@@ -20,7 +20,7 @@ be noise added to the main RCA outputs.
 Windows
 ~~~~~~~
 
-Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/#drivers>`__ for Windows versions 7 and newer. Select the ASIO sound :term:`API` in Mixxx’s Sound Hardware Preferences.
+Pioneer has a `driver <https://www.pioneerdj.com/en/support/software/ddj-sb2/>`__ for Windows versions 7 and newer. Select the ASIO sound :term:`API` in Mixxx’s Sound Hardware Preferences.
 
 Mac OS X & Linux
 ~~~~~~~~~~~~~~~~
@@ -110,8 +110,7 @@ loop. When you press shift + slip again, Mixxx will jump back to that point.
 Pads - lower row
 ~~~~~~~~~~~~~~~~
 
-The play and cue pads should be self-explaining. The sync pad toggles master sync for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the
-tempo of one deck is changed. Refer to the Mixxx manual for how to use master sync.
+The play and cue pads should be self-explaining. The sync pad toggles master sync for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed.
 
 Additional functions can be accessed by holding shift
 
@@ -218,9 +217,9 @@ whether an effect is on. All effects are off when Mixxx starts.
 
 Use shift and the mixer knobs to control the parameters of the focused effect. The trim knob controls parameter 1, the equalizer knobs control parameters 2-4, and the filter knob controls parameter 5.
 
-The DDJ-SB2 does not have enough buttons to control assigning effect units to different decks. You may want to set up a `custom keyboard
-mapping <https://mixxx.org/manual/latest/chapters/advanced_topics.html#making-a-custom-keyboard-mapping>`__ to have easy access to those switches. Otherwise, you can use your mouse to click the
-buttons on screen.
+The DDJ-SB2 does not have enough buttons to control assigning effect units to different decks.
+You may want to set up a :ref:`custom keyboard mapping <advanced-keyboard>` to have easy access to those switches.
+Otherwise, you can use your mouse to click the buttons on screen.
 
 Auto DJ
 ~~~~~~~

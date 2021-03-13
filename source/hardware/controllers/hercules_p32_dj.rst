@@ -16,12 +16,14 @@ switched between 4 different layers to perform a variety of functions.
 Thanks to Hercules for supporting the development of this mapping by providing a controller.
 
 .. versionadded:: 2.1
+.. versionchanged:: 2.3.0
+   Add pitch controls in loop mode and increased head mix knob precision.
 
 Compatibility
 -------------
 
 This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, it recommended to install `the
-driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the `ASIO sound API <http://mixxx.org/manual/latest/chapters/configuration.html#audio-api>`__.
+driver <https://support.hercules.com/en/product/p32dj-en/>`__ on Windows to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
 
 Sound card setup
 ----------------
@@ -29,9 +31,9 @@ Sound card setup
 This device has a built in 4 channel output sound card. There are 2 RCA outputs for the main output and a 1/4" TRS stereo headphone jack. There are buttons in the center of the controller that adjust
 the sound card’s headphone output volume in hardware. These do not adjust the headphone gain in Mixxx.
 
-There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%. So, for
-the best `gain staging <http://mixxx.org/manual/latest/chapters/djing_with_mixxx.html#setting-your-levels-properly-gain-staging>`__, **turn the volume of the main output all the way up in
-your**\ `operating system mixer <operating%20system%20mixer>`__\ **program**.
+.. warning::
+   There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%.
+   So, for the best :ref:`gain staging <djing-gain-staging>`, turn the volume of the main output all the way up in your  operating system mixer.
 
 Mapping description
 -------------------
@@ -39,8 +41,7 @@ Mapping description
 User configurable options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a few user configurable options available for you to customize. You can change these by opening the Hercules-P32-scripts.js file in your `controller mapping file locations#user controller
-mapping folder <controller%20mapping%20file%20locations#user%20controller%20mapping%20folder>`__ with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
+There are a few user configurable options available for you to customize. You can change these by opening the :file:`Hercules-P32-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and editing the lines at
 the very top of the file.
 
 -  **loopEnabledDot**: whether to use the dot on the loop size LED display to indicate that a loop is active. This restricts loop sizes to 2-32 beats and may be helpful if you never use loops less
@@ -69,7 +70,7 @@ The mapping of the encoders does not match their labels. They are labeled on the
 Effects
 ~~~~~~~
 
-Refer to the `Standard Effects Mapping <Standard%20Effects%20Mapping>`__ page for details on how to use the effects sections.
+Refer to the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ page for details on how to use the effects sections.
 
 When the pad grid is in Slicer mode, the pads in the top left of the grid assign the deck to Effect Units 1-4.
 
@@ -86,6 +87,7 @@ Other controls
 -  **Loop mode**: Control manual loops and other miscellaneous functions. On the top row, from left to right, the pads set the loop in point, loop out point, and toggle the loop (without changing its
    size). Hold the loop in or loop out button while moving the waveform with the mouse to adjust the loop in/out point (new in Mixxx 2.1). On the bottom row, the two purple buttons temporarily
    decrease/increase the playback speed while they are held down for beatmatching. The button to the right of those shifts the beat grid to the current position.
+   The right column is for pitch management, from top to bottom: match the key with the other track, pitch up, pitch down, and reset to the default key of the track.
 -  **Slicer mode**: refer to Effects section above
 -  **Sampler mode**: Press an unlit pad to load the track selected in the library to that sampler. Pads are blue when the sampler is loaded but not playing and red when playing. Press a blue pad to
    play the sample from its cue point. Press a red pad to jump back to the sample’s cue point. Press a red pad with shift to stop a playing sample. Press a blue pad with shift to eject a sample. Note
