@@ -192,11 +192,11 @@ When the performance pads are in Manual Loop mode, the :hwlabel:`Loop Roll` butt
 
 When a manual loop is set, all 8 performance pads are lit.
 
-Performance pad 1 sets the loop IN point.
+Performance pad 1 sets the loop in point.
 
-Performance pad 2 sets the loop OUT point.
+Performance pad 2 sets the loop out point.
 
-Performance pads 3 enables and disables the loop once the IN and OUT points are set.
+Performance pads 3 enables and disables the loop once the in and out points are set.
 
 Performance pad 5 doubles the length of the loop.
 
