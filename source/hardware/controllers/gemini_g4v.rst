@@ -141,7 +141,7 @@ You can can change the mode by using the mode buttons as indicated.
 Hot Cue Mode
 ^^^^^^^^^^^^
 
-To enable Hot Cue mode, press the :hwlabel:`Hot Cue` button.
+To enable Hot Cue mode, press the :hwlabel:`HOT CUE` button.
 When the performance pads are in Hot Cue mode, the Hot Cue button will be lit up.
 
 Pressing a performance pad when in Hot Cue mode will control the corresponding numbered Hot Cue (Performance Pad 1 controls Hot Cue 1, etc) on the virtual deck.
