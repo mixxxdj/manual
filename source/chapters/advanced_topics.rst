@@ -579,19 +579,20 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Indicates, depending on the play direction, how the player is currently positioned to the closest beat. 
 
    An LED controlled by beat_active can be used for beat matching or for finding a beat using jog or control vinyl.
+   .. note:: The rate of beat events can be very high, in case of fractional loops (e.g. 1/32). You should test if your controller is capable to process this update rate. If not inhibt the beat indication for short loops depending on the value of `[ChannelN],beatloop_size`.
 
    ===== ================== =============================================================================================
    Value Play direction     Position
    ===== ================== =============================================================================================
-   +1    Forward            Set at a beat
-   -1    Reverse            Set at a beat
     0                       Set when play direction changes or +-20% of the distance to the previous/next beat is reached
+    1    Forward            Set at a beat
+    2    Reverse            Set at a beat
    ===== ================== =============================================================================================
 
    :range: real number, read-only
    :feedback: None
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 1.10.0 (Reverse indication added in 2.4.0)
 
 
 .. mixxx:control:: [ChannelN],beatjump
