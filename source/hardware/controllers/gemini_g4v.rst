@@ -238,7 +238,7 @@ The :hwlabel:`SLIP` button enables/disables slip mode on the virtual deck, the b
 Misc Controls
 -------------
 
-    The :hwlabel:`Keylock` button enables/disables keylock on the virtual deck.
+The :hwlabel:`KEYLOCK` button enables/disables keylock on the virtual deck.
 
 Unused controls
 ---------------
