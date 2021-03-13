@@ -214,7 +214,7 @@ When the performance pads are in Beat Jump mode, the :hwlabel:`SAMPLE` button wi
 
 Pressing a pad jumps forward the number of beats indicated in the pad.
 
-Pressing a pad while holding the :hwlabel:`Shift` button jumps backward the number of beats indicated in the pad.
+Pressing a pad while holding the :hwlabel:`SHIFT` button jumps backward the number of beats indicated in the pad.
 
 FX and Effects
 --------------
