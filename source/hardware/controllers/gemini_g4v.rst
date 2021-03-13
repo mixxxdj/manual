@@ -209,7 +209,7 @@ Performance pad 8 moves the loop 1 beat forward.
 Beat Jump Mode
 ^^^^^^^^^^^^^^
 
-To enable Beat Jump mode, press the :hwlabel:`Sample`  button while holding the :hwlabel:`Shift` button.
+To enable Beat Jump mode, press the :hwlabel:`SAMPLE`  button while holding the :hwlabel:`SHIFT` button.
 When the performance pads are in Beat Jump mode, the :hwlabel:`Sample` button will flash
 
 Pressing a pad jumps forward the number of beats indicated in the pad.
