@@ -171,7 +171,7 @@ Pressing a pad starts a loop of the length indicated in the pad, the pad will li
 Pressing the lit pad stop the loop.
 Pressing a different pad will stop the first pad and will Cstart a new loop.
 
-The :hwlabel:`Loop Move` knob shifts the loop position in the track.
+The :hwlabel:`LOOP MOVE` knob shifts the loop position in the track.
 
 Loop Roll Mode
 ^^^^^^^^^^^^^^
