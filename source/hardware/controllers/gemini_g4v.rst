@@ -187,8 +187,8 @@ The:hwlabel:`Loop Move` knob shifts the loop position in the virtual deck.
 Manual Loop Mode
 ^^^^^^^^^^^^^^^^
 
-To enable Manual Loop mode, press the :hwlabel:`Loop Roll` button while holding the Shift button.
-When the performance pads are in Manual Loop mode, the :hwlabel:`Loop Roll` button will flash.
+To enable Manual Loop mode, press the :hwlabel:`LOOP ROLL` button while holding the Shift button.
+When the performance pads are in Manual Loop mode, the :hwlabel:`LOOP ROLL` button will flash.
 
 When a manual loop is set, all 8 performance pads are lit.
 
