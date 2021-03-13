@@ -152,7 +152,7 @@ If a hot cue is set and it's corresponding performance pad is pressed while the 
 Sample Mode
 ^^^^^^^^^^^
 
-To enable Sample mode, press the :hwlabel:`Sample` button.
+To enable Sample mode, press the :hwlabel:`SAMPLE` button.
 When the performance pads are in Sample mode, the Sample button will be lit up.
 It will show the sample decks if the skin has support for them.
 
