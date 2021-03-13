@@ -225,7 +225,7 @@ Pressing the deck's :hwlabel:`FX ON/OFF` button will enable/disable the Effect U
 
 The :hwlabel:`FX ON/OFF` button is lit when the virtual deck's corresponding Effect Unit is enabled.
 
-Holding :hwlabel:`Shift` and pressing the :hwlabel:`FX Select` button will scroll through the Effect Unit's effect chains.
+Holding :hwlabel:`SHIFT` and pressing the :hwlabel:`FX SEL` button will scroll through the Effect Unit's effect chains.
 
 The :hwlabel:`Par 1` and :hwlabel:`Par 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
 
