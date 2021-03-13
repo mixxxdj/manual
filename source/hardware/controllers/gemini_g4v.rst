@@ -169,7 +169,7 @@ When the performance pads are in Auto Loop mode, the Auto Loop button will be li
 
 Pressing a pad starts a loop of the length indicated in the pad, the pad will lit up.
 Pressing the lit pad stop the loop.
-Pressing a different pad will stop the first pad and will Cstart a new loop.
+Pressing a different pad will stop the current loop and start a new one.
 
 The :hwlabel:`LOOP MOVE` knob shifts the loop position in the track.
 
