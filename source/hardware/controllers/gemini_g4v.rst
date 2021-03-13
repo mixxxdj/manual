@@ -240,11 +240,8 @@ Misc Controls
 
 The :hwlabel:`KEYLOCK` button enables/disables keylock on the virtual deck.
 
-Unused controls
----------------
+Known Issues
+------------
 
-Below is a list of controls on the board that currently do not have any functionality.
-
-The :hwlabel:`Bank Up/Bank Down` button.
-
-The :hwlabel:`Scratch` button.
+- The :hwlabel:`BANK UP`/:hwlabel:`BANK DOWN` buttons are not mapped.
+- The :hwlabel:`SCRATCH` button is not mapped.
