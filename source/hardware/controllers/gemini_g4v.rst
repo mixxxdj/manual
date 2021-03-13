@@ -164,7 +164,7 @@ The :hwlabel:`Sample Volume` knobs control the volume for all the samples.
 Auto Loop Mode
 ^^^^^^^^^^^^^^
 
-To enable looping mode, press the :hwlabel:`Auto Loop` button.
+To enable looping mode, press the :hwlabel:`AUTO LOOP` button.
 When the performance pads are in Auto Loop mode, the Auto Loop button will be lit up.
 
 Pressing a pad starts a loop of the length indicated in the pad, the pad will lit up.
