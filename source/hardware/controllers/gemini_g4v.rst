@@ -75,7 +75,7 @@ The :hwlabel:`BOOTH` knob controls the gain of the booth audio output. This outp
 Crossfader
 ----------
 
-The :hwlabel:`CROSSFADER` works as usual.
+The Crossfader works as usual.
 
 The numbered buttons on the sides of the crossfader change the orientation of the virtual decks with respect to the crossfader.
 
