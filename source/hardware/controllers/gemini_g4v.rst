@@ -232,7 +232,7 @@ The :hwlabel:`PAR 1` and :hwlabel:`PAR 2` knobs control the meta knob and the ef
 Slip Mode
 ---------
 
-The :hwlabel:`Slip` button enables/disables slip mode on the virtual deck, the button will be lit up if Slip mode is on.
+The :hwlabel:`SLIP` button enables/disables slip mode on the virtual deck, the button will be lit up if Slip mode is on.
 
 
 Misc Controls
