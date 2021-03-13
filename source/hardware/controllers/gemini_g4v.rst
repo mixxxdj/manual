@@ -227,7 +227,7 @@ The :hwlabel:`FX ON/OFF` button is lit when the virtual deck's corresponding Eff
 
 Holding :hwlabel:`SHIFT` and pressing the :hwlabel:`FX SEL` button will scroll through the Effect Unit's effect chains.
 
-The :hwlabel:`Par 1` and :hwlabel:`Par 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
+The :hwlabel:`PAR 1` and :hwlabel:`PAR 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
 
 Slip Mode
 ---------
