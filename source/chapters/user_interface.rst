@@ -21,7 +21,7 @@ Mixxx and describe its elements, knobs and faders.
 
 This is the LateNight skin, PaleMoon color theme. It is the default skin supplied with Mixxx 2.3. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Latenight only.
+to figure out which one you prefer. This section will focus on LateNight only, though all Mixxx skins provide most of the controls described here.
 
 .. _interface-skin-settings:
 
