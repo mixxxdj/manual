@@ -2,7 +2,7 @@
 
 .. _interface-overview:
 
-An Overview of the Mixxx Interface
+The Mixxx User Interface
 **********************************
 
 Welcome to the Mixxx interface. This is where the magic happens.
@@ -27,6 +27,7 @@ to figure out which one you prefer. This section will focus on Latenight only.
 
 Section Skin Settings
 =========================
+On top, and on the right side of the user interface are the section expansion buttons and options.
 
   .. figure:: ../_static/2.3/skin-settings-top.png
    :align: center
@@ -57,7 +58,7 @@ You can also use the specific :ref:`appendix-shortcuts`.
 
     The Skin Settings menu on the right
 
-On top, and on the right side of the user interface are the section expansion buttons and options.
+You can find common basic controls as well as some skin-specific options in the skin settings menu. Click the :guilabel:`SETTINGS` button or gear icon (depending on the Skin) to open it.
 
 .. _interface-decks:
 
@@ -76,6 +77,16 @@ The Deck Sections
    :figclass: pretty-figures
 
    A deck with a track loaded
+
+The deck section comes in three sizes: Full, Compact and Mini.
+You can switch between any of the three sizes by clicking on the :guilabel:`Settings` button or the gear icon.  Under the :guilabel:`Decks` section, click on "hide mixer to select".
+This will automatically select the Compact deck (underlined and bolded). If you wish to change to a different deck size, you can choose FULL or Mini.
+
+The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-mode` and Key controls at the top of the deck section and then the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` at the bottom.
+The Compact deck will shrink the :ref:`interface-playback` and shift the :ref:`interface-vc-mode` to the bottom of deck. The :ref:`interface-hotcues`, rate adjust buttons, :ref:`interface-intro-outro` :ref:`interface-looping` are not shown in the compact deck.
+The mini deck is of a much smaller size which shows only the waveform and the :ref:`interface-track-info`.
+
+.. hint:: Hiding/deselecting the mixer will by default switch the deck to FULL.
 
 The deck section allows you to control everything relating to a virtual
 turntable :term:`deck`. We are going to break this down into sections.
@@ -773,9 +784,9 @@ Channel Faders and Level Meters
 **Level meters**
   The left meter shows the volume level for the left channel,
   while the right meter shows the volume level for the right channel.
-  The thicker volume meter at the center is the master volume meter. The left half
-  shows the current master volume for the left channel whereas the the right half shows the
-  current master volume for the right channel.
+  The thicker volume meter at the center is the main volume meter. The left half
+  shows the current Main volume for the left channel whereas the the right half shows the
+  current Main volume for the right channel.
   These should stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
@@ -917,30 +928,30 @@ It can be set to the left-side, right-side or center of the crossfader and it is
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. _interface-head-master:
+.. _interface-head-main:
 
-Headphone and Master Mix Controls
+Headphone and main Mix Controls
 ---------------------------------
 
-.. figure:: ../_static/2.3/headphone-and-master-mix.png
+.. figure:: ../_static/2.3/headphone-and-main-mix.png
    :align: center
    :figwidth: 18%
-   :alt: The headphone and master mix knobs
+   :alt: The headphone and Main mix knobs
    :figclass: pretty-figures
 
-   The headphone and master mix knobs
+   The headphone and main mix knobs
 
 **Headphone Mix knob**
-  Allows you to control how much of the master output you hear in the
+  Allows you to control how much of the Main output you hear in the
   :guilabel:`Headphones` output. It works like a crossfader between the stereo
-  Master and stereo :term:`PFL` signal. If the knob is set to the left, you
+  Main and stereo :term:`PFL` signal. If the knob is set to the left, you
   only hear the PFL signal, which is the usual position for prelistening tracks.
 
   This can be used to practice DJing with only one stereo output and a set
   of either speakers or headphones.
 
   Additionally, this can be used to mix in headphones when you cannot hear the
-  speakers connected to the :guilabel:`Master` output and there are no booth
+  speakers connected to the :guilabel:`main` output and there are no booth
   monitor speakers. Some DJs prefer to use this knob to mix in headphones all
   the time, but many find it to be a difficult way to play. If there is only one
   set of speakers and no booth monitors, you can avoid the need to mix in
@@ -957,27 +968,27 @@ Headphone and Master Mix Controls
   headphone output. Most external sound cards have a gain knob specifically for
   the headphone jack. If you use an onboard sound card for your headphones,
   adjust the gain control in your :term:`OS <operating system>` mixer program.
-  If your sound card only has one gain knob that controls both the main output
+  If your sound card only has one gain knob that controls both the Main output
   and the headphone output, then adjust the :guilabel:`Head` knob in Mixxx
-  to control the volume of your headphones without affecting your main output.
+  to control the volume of your headphones without affecting your Main output.
 
  .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
 
 **Headphone Split Cue button**
   If activated, two mono signals are sent to the headphone output instead of one
-  stereo signal. The master signal plays in the right channel, while the cueing
+  stereo signal. The main signal plays in the right channel, while the cueing
   signal plays in the left channel. You can still adjust the
-  :guilabel:`Head Mix` knob to control the mix of the master and cue signals in
+  :guilabel:`Head Mix` knob to control the mix of the Main and cue signals in
   the left channel.
 
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
-  the master output.
+  the Main output.
 
 .. _interface-gain-knob:
 
-**Master Knob**
-  The Master Gain Knob controls the gain applied to the Master output signal that
+**Main Knob**
+  The Main Gain Knob controls the gain applied to the Main output signal that
   Mixxx sends to your sound card, Internet broadcasting servers, and recorded
   mixes. Generally, this knob should not be adjusted. To change the output
   volume, a gain control should be adjusted as close to the speakers as possible
@@ -993,7 +1004,7 @@ Headphone and Master Mix Controls
   not going through a mixer, adjust the gain of your sound card. If your sound
   card does not have any controls on it (for example, for sound cards built into
   computers), adjust the sound card settings with your :term:`OS <operating system>`
-  mixer program. The Master Gain Knob in Mixxx should be a last resort for
+  mixer program. The Main Gain Knob in Mixxx should be a last resort for
   adjusting volume.
 
   .. warning:: **In no case should any part of the signal chain be clipping,
@@ -1175,7 +1186,7 @@ Microphone Controls
 -------------------
 
 **Talk Button**
-  Hold this button and talk to mix the microphone input into the Mixxx master
+  Hold this button and talk to mix the microphone input into the Mixxx Main
   output. Short click on the button for latching. This is handy for talking for
   an extended period, for example when :ref:`streaming <live-broadcasting>` a
   radio show. When in Latch mode, click again to mute the microphone input.
