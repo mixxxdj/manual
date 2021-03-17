@@ -927,9 +927,9 @@ It can be set to the left or right side, or to the center where it is unaffected
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. _interface-head-main:
+.. _interface-head-master:
 
-Headphone and main Mix Controls
+Headphone and Main Mix Controls
 ---------------------------------
 
 .. figure:: ../_static/2.3/headphone-and-main-mix.png
