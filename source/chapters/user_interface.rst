@@ -910,8 +910,8 @@ on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
 :menuselection:`Preferences --> Crossfader`.
 
-The crossfader orientation sets the channel's crossfader orientation.
-It can be set to the left-side, right-side or center of the crossfader and it is unaffected by the :term:`crossfader`.
+The :term:`crossfader` orientation determines to which side of the crossfader the deck is assigned.
+It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
