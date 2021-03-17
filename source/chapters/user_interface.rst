@@ -19,9 +19,9 @@ Mixxx and describe its elements, knobs and faders.
 
    The Mixxx interface - Latenight skin
 
-This is the Latenight skin. It is the default skin supplied with Mixxx 2.3. There
+This is the LateNight skin, PaleMoon color theme. It is the default skin supplied with Mixxx 2.3. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Latenight only.
+to figure out which one you prefer. This section will focus on LateNight only, though all Mixxx skins provide most of the controls described here.
 
 .. _interface-skin-settings:
 
@@ -177,7 +177,7 @@ visually by aligning the beats that appear in each waveform.
    :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Latenight) - Parallel waveforms
+   Parallel waveforms in the default Mixxx skin (LateNight, PaleMoon theme)
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
@@ -336,9 +336,10 @@ Playback/Cue Controls
                selected :ref:`Cue mode <interface-cue-modes>`.
 
 **Reverse button**
-  This button reverses the track playback during regular playback. You can hold down
-  this button to reverse a track until the desired position and then release. Playback will
-  then continue where the track would have been if the track had not been temporarily reversed.
+  Press and hold this button to temporarily play the track backwards during regular playback.
+  Right-click and hold for 'Censor' mode. This reverses the track while the playback continues
+  muted in the background. On release playback is resumed where the track would have been
+  if it had not been reversed.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
@@ -782,11 +783,9 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  The left meter shows the volume level for the left channel,
-  while the right meter shows the volume level for the right channel.
-  The thicker volume meter at the center is the main volume meter. The left half
-  shows the current Main volume for the left channel whereas the the right half shows the
-  current Main volume for the right channel.
+  The left meter shows the volume level for the left deck,
+  while the right meter shows the volume level for the right deck.
+  The double meter at the center shows the current volume of the main output's left and right channel separately.
   These should stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
@@ -922,8 +921,8 @@ on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
 :menuselection:`Preferences --> Crossfader`.
 
-The crossfader orientation sets the channel's crossfader orientation.
-It can be set to the left-side, right-side or center of the crossfader and it is unaffected by the :term:`crossfader`.
+The :term:`crossfader` orientation determines to which side of the crossfader the deck is assigned.
+It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
