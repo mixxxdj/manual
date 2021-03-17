@@ -772,11 +772,9 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  The left meter shows the volume level for the left channel,
-  while the right meter shows the volume level for the right channel.
-  The thicker volume meter at the center is the master volume meter. The left half
-  shows the current master volume for the left channel whereas the the right half shows the
-  current master volume for the right channel.
+  The left meter shows the volume level for the left deck,
+  while the right meter shows the volume level for the right deck.
+  The double meter at the center shows the current volume of the main output's left and right channel separately.
   These should stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
