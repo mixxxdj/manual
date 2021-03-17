@@ -325,9 +325,10 @@ Playback/Cue Controls
                selected :ref:`Cue mode <interface-cue-modes>`.
 
 **Reverse button**
-  This button reverses the track playback during regular playback. You can hold down
-  this button to reverse a track until the desired position and then release. Playback will
-  then continue where the track would have been if the track had not been temporarily reversed.
+  Press and hold this button to temporarily play the track backwards during regular playback.
+  Right-click and hold for 'Censor' mode. This reverses the track while the playback continues
+  muted in the background. On release playback is resumed where the track would have been
+  if it had not been reversed.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
