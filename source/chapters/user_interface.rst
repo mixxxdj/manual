@@ -19,7 +19,7 @@ Mixxx and describe its elements, knobs and faders.
 
    The Mixxx interface - Latenight skin
 
-This is the Latenight skin. It is the default skin supplied with Mixxx 2.3. There
+This is the LateNight skin, PaleMoon color theme. It is the default skin supplied with Mixxx 2.3. There
 are a variety of other skins included with Mixxx. You should explore them all
 to figure out which one you prefer. This section will focus on Latenight only.
 
