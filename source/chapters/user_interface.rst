@@ -609,9 +609,7 @@ control rate changes also from your computer's keyboard, see the chapter
   :term:`ramping pitch bend`.
 
 **Pitch/Rate buttons**
-  The minus button will set the pitch/rate lower while the plus button will set the pitch/rate higher.
-  These buttons, unlike the temporary pitch/rate buttons do not need to be held down. Clicking
-  on them sets the pitch/rate higher or lower for as long as the track keeps playing.
+  Clicking the :guilabel:`-` button will set the pitch/rate lower while the :guilabel:`+` button will set the pitch/rate higher. This is like moving the pitch slider up or down by a fixed amount. Unlike using the temporary pitch/rate buttons, the change is permanent so these button s don't need to be held down.
 
 .. seealso:: To customize the amount by which the buttons alter the pitch of
              the track, the slider range as well as the direction, go to
