@@ -10,7 +10,7 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3.0
-   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, added waveform zoom, changed Parameter and Censor/Reverse/Spinback button mapping.
+   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, waveform zoom, Fixed Loops, changed Parameter and Censor/Reverse/Spinback button mapping.
 
 Compatibility
 ~~~~~~~~~~~~~
@@ -54,6 +54,7 @@ User Variables
 
 Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables to:
 
+-  activate :ref:`experimental features <experimental>` (default: false)
 -  activate NeedleDrop sensor while a track is playing (default: false)
 -  set the Pitch Fader ranges in % to toggle between them
    (default: 4, 6, 8, 10, 16, 24)
@@ -61,8 +62,8 @@ Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables
    toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
 -  Vinyl Mode on or off at Mixxx start which also triggers the Platter
    Ring LED function (default: 1)
--  Scratch Parameters (default: 33.3, 1/10, 1/10/32)
--  Jog Parameters (default: 1, 3)
+-  Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
+-  Jog Sensitivity (default: 1)
 
 
 Mixer Section
@@ -169,7 +170,7 @@ Deck Section
    :widths: 10 90 250
 
    "23", ":hwlabel:`DECK`",                                "Selects which deck in the software is controlled by that hardware deck. The left deck can control Deck 1 or 3; the right deck can control Deck 1 or 4."
-   "23", ":hwlabel:`SHIFT` + :hwlabel:`DECK`",             "Press to switch Platter Ring LED Mode. See Chapter 'LEDs' below for details."
+   "23", ":hwlabel:`SHIFT` + :hwlabel:`DECK`",             "Press to switch Platter Ring LED Mode. :ref:`See below for details.<LEDs>`"
    "24", ":hwlabel:`SHIFT`",                               "Press and hold this button to access secondary functions of other controls."
    "25", ":hwlabel:`SYNC`",                                "Press to automatically match the corresponding deck’s :term:`tempo` with the tempo and phase of the opposite deck. Press again to deactivate Sync. Hold this button down for one sec to permanently match the tempo."
    "26", ":hwlabel:`CUE`",                                 "If a cue point is not set then press this button to set it at the current track position.
@@ -228,15 +229,16 @@ Mode Selection
    :header: "No.", "Control", "Function"
    :widths: 10 90 250
 
-   "35", "Performance Pads",   "Press to perform action with one of those buttons."
-   "36", ":hwlabel:`CUE`",     "Press to switch to 'Hot Cue' mode."
-   "37", ":hwlabel:`ROLL`",    "Press to switch to 'Roll' mode."
-   "38", ":hwlabel:`SLICER`",  "Press to switch to 'Beatjump' mode."
-   "39", ":hwlabel:`SAMPLER`", "Press to switch to 'Sampler' mode."
+   "35", "Performance Pads",      "Press to perform action with one of those buttons."
+   "36", ":hwlabel:`CUE`",        "Press to switch to 'Hot Cue' mode."
+   "37", ":hwlabel:`ROLL`",       "Press to switch to 'Roll' mode."
+   "37", ":hwlabel:`SAVED LOOP`", "Press to switch to 'Fixed Loop' mode."
+   "38", ":hwlabel:`SLICER`",     "Press to switch to 'Beatjump' mode."
+   "39", ":hwlabel:`SAMPLER`",    "Press to switch to 'Sampler' mode."
 
 
-Hot Cue Mode
-------------
+Hot Cue Mode (blue LED)
+-----------------------
 
 8 Hot Cue positions can be defined in this mode.
 
@@ -251,8 +253,8 @@ Hot Cue Mode
    :figclass: pretty-figures
 
 
-Roll Mode
-----------
+Roll Mode (turquoise LED)
+-------------------------
 
 | This mode lets you repeat a number of beats while keep pushing a Pad button down.
 | The :hwlabel:`SLIP` function remains active so that the track continues at the position where it had been playing forward the whole time.
@@ -265,8 +267,23 @@ Roll Mode
    :figclass: pretty-figures
 
 
-Beatjump Mode
--------------
+Fixed Loop Mode (yellow LED)
+----------------------------
+
+| This mode lets you set a dedicated loop from current position.
+| Another push on the Pad button will turn the loop off.
+
+.. figure:: ../../_static/controllers/denon_mc7000_fixed_loop_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 FIXED LOOP Mode
+   :figclass: pretty-figures
+
+.. _experimental:
+
+Beatjump Mode (red LED)
+-----------------------
 
 This mode lets you jump a number of beats while pushing a Pad once.
 
@@ -277,9 +294,12 @@ This mode lets you jump a number of beats while pushing a Pad once.
    :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
+.. note::
+   If experimental features were set to `true` in `Denon-MC7000-scripts.js` then the PAD LEDs counting the beat AFTER the main CUE point.
+   This only works for tracks with constant beats. The beat grid and CUE point must be set.
 
-Sampler Mode
-------------
+Sampler Mode (pink LED)
+-----------------------
 
 8 samplers can be triggered from either Deck.
 
@@ -296,6 +316,7 @@ Use :hwlabel:`SHIFT` + Pad button to stop a sampler while playing or eject a sam
    :alt: Denon MC7000 SAMPLER Mode
    :figclass: pretty-figures
 
+.. _LEDs:
 
 LEDs
 ~~~~
@@ -306,19 +327,22 @@ The Master Volume Meter is not correlated to Mixxx GUI as the controller handles
 
 Button LEDs are fully mapped for the first function. As you press and hold :hwlabel:`SHIFT` then the secondary functions have only got some flashing LEDs mapped, e.g. TAP and KEY SYNC, when activated.
 
+Press :hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
+
+  - Mode 0 - Single 'off' LED chase (all other LEDs are 'on')
+  - Mode 1 - Single 'on' LED chase (all other LEDs are 'off')
+
 Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
 
   - If vinyl mode is enabled, the LED imitates a turntable platter spinning at 33.3 rpm.
   - If vinyl mode is disabled, the current track position is indicated by the Platter LEDs starting at the top.
 
-:hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
-
-  - Mode 0 - Single 'off' LED chase (all other LEDs are 'on')
-  - Mode 1 - Single 'on' LED chase (all other LEDs are 'off')
+.. note::
+  The Platter Ring LEDs are not moving while the track position is 'negative'. That means if the position is before the track starts then the position LED keeps staying at most up position.
 
 
 Known Issues
 ~~~~~~~~~~~~
 
-- Some Performance Pad modes are not available (Cue Loop, Flip, Saved Loop, Slicer Loop, Velocity Sampler, Pitch).
+- Some Performance Pad modes are not available (Cue Loop, Flip, Slicer Loop, Velocity Sampler, Pitch).
 - The Effect Units don't use Mixxx' Standard Effects Mapping
