@@ -3464,6 +3464,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
      28    File Creation Time                             X
      29    Sample Rate
      30    Track Color        X            X        X
+     31    Last Played        X            X        X
      ===== ================== ============ ======== ===== ======
 
    :feedback: Sorting indicator in the column headers of the track table
