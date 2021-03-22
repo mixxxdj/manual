@@ -1,13 +1,6 @@
 Gemini G4V
 =====================
 
-.. figure:: ../../_static/controllers/gemini_g4v_topview.jpg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Behringer CMD Micro
-   :figclass: pretty-figures
-
 The Gemini G4V is a 2 deck controller that supports 4 virtual decks, a 4 way mixer and has a built-in 4 channel USB soundcard.
 It includes a Microphone input line, an Aux input line and an Booth output line. This lines are not going through the soundcard but mixed directly at the controller.
 They are not accessible nor controlled by Mixx so they will not appear in any recording nor is possible to control them via the Mixxx screen interface.
