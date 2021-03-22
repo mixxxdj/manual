@@ -86,7 +86,7 @@ The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-m
 The Compact deck will shrink the :ref:`interface-playback` and shift the :ref:`interface-vc-mode` to the bottom of deck. The :ref:`interface-hotcues`, rate adjust buttons, :ref:`interface-intro-outro` :ref:`interface-looping` are not shown in the compact deck.
 The mini deck is of a much smaller size and shows only the waveform and the :ref:`interface-track-info`. You can also use minimal decks with the maximized library.
 
-.. hint:: Hiding/deselecting the mixer will by default switch the deck to FULL.
+.. hint:: Hiding the mixer will by default switch to the compact decks.
 
 The deck section allows you to control everything relating to a virtual
 turntable :term:`deck`. We are going to break this down into sections.
