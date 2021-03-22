@@ -84,7 +84,7 @@ This will automatically select the Compact deck (underlined and bolded). If you 
 
 The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-mode` and Key controls at the top of the deck section and then the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` at the bottom.
 The Compact deck will shrink the :ref:`interface-playback` and shift the :ref:`interface-vc-mode` to the bottom of deck. The :ref:`interface-hotcues`, rate adjust buttons, :ref:`interface-intro-outro` :ref:`interface-looping` are not shown in the compact deck.
-The mini deck is of a much smaller size which shows only the waveform and the :ref:`interface-track-info`.
+The mini deck is of a much smaller size and shows only the waveform and the :ref:`interface-track-info`. You can also use minimal decks with the maximized library.
 
 .. hint:: Hiding/deselecting the mixer will by default switch the deck to FULL.
 
