@@ -82,7 +82,7 @@ The deck section comes in three sizes: Full, Compact and Mini.
 You can switch between any of the three sizes by clicking on the :guilabel:`Settings` button or the gear icon.  Under the :guilabel:`Decks` section, click on "hide mixer to select".
 This will automatically select the Compact deck (underlined and bolded). If you wish to change to a different deck size, you can choose FULL or Mini.
 
-The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-mode` and Key controls at the top of the deck section and then the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` at the bottom.
+The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-mode` and Key controls at the top of the deck section and then the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` at the bottom.  
 The Compact deck has a reduced set of controls for when you don't need all of them on screen, for example when they're also accessible from your controller. Reverse is removed from the :ref:`interface-playback`, and the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` and rate adjust buttons are not shown.
 The mini deck is of a much smaller size and shows only the waveform and the :ref:`interface-track-info`. You can also use minimal decks with the maximized library.
 
