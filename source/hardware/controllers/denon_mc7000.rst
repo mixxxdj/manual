@@ -294,9 +294,12 @@ This mode lets you jump a number of beats while pushing a Pad once.
    :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
+| Press and hold ":hwlabel:`SHIFT`" and then push a PAD button to jump even more beats.
+| 16, 32, 64 and 128 forward on the upper row and backwards on the lower row.
+
 .. note::
    If experimental features were set to `true` in `Denon-MC7000-scripts.js` then the PAD LEDs counting the beat AFTER the main CUE point.
-   This only works for tracks with constant beats. The beat grid and CUE point must be set.
+   This currently only works for tracks with constant beats. The beat grid and CUE point must be set.
 
 Sampler Mode (pink LED)
 -----------------------
