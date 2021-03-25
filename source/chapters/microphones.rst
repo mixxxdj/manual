@@ -417,10 +417,10 @@ Microphone Ducking
 Microphone ducking is a technique to improve the audibility of speech by reducing the volume of background music while a voice signal is recorded by the microphone and allows listeners to hear the voice more clearly and consistently.
 While using Mixxx with a microphone, you might want the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.  The music will 'duck' out of the way of the microphone audio.
 
-.. figure:: ../_static/2.2/microphone-ducking.png
+.. figure:: ../_static/2.3/microphone-ducking.png
    :align: center
-   :width: 40%
-   :figwidth: 90%
+   :width: 55%
+   :figwidth: 100%
    :alt: The microphone ducking section
    :figclass: pretty-figures
 
