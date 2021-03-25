@@ -1145,7 +1145,7 @@ The Effects Section
    :alt: An effect unit
    :figclass: pretty-figures
 
-   Effects section expanded
+   Expanded effect unit
 
 Mixxx comes with some built in sound effects that can be chained together in
 effect units. Effect units can be freely assigned to different decks as well
