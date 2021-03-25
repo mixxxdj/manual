@@ -1137,7 +1137,7 @@ The Effects Section
    :alt: An effect unit
    :figclass: pretty-figures
 
-   Three effect units
+   Collapsed effect unit
 
 .. figure:: ../_static/2.3/effects-section-expanded.png
    :align: center
