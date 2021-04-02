@@ -1,12 +1,14 @@
 name: Build Manual
 
 on:
+  pull_request:
   push:
 
 jobs:
   build-html:
     name: HTML
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -30,3 +32,32 @@ jobs:
       env:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+
+  build-pdf:
+    name: PDF
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup PDF Build Dependencies
+      run: >
+        sudo apt-get update && sudo apt-get install -y
+        graphviz
+        librsvg2-bin
+        fonts-freefont-otf
+        texlive
+        texlive-xetex
+        texlive-latex-extra
+        texlive-latex-recommended
+        texlive-lang-all
+        latexmk
+        xindy
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7'
+    - name: Install Python dependencies
+      run: pip install --upgrade -r requirements.txt
+    - name: Build PDF manual
+      run: |
+        sphinx-build -b latex -q -j $(nproc) -Dlatex_engine=xelatex source build
+        make -C build LATEXMKOPTS="-f -interaction=nonstopmode -pdf -xelatex" all-pdf
