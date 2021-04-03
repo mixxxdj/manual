@@ -57,7 +57,23 @@ jobs:
         python-version: '3.7'
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
+    - name: Set up SSH Agent
+      if: github.event_name == 'push' && env.SSH_PRIVATE_KEY != null
+      env:
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        SSH_PRIVATE_KEY: ${{ secrets.DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY }}
+      run: |
+        ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+        ssh-add - <<< "${SSH_PRIVATE_KEY}"
+        echo "SSH_AUTH_SOCK=${SSH_AUTH_SOCK}" >> "${GITHUB_ENV}"
     - name: Build PDF manual
+      if: github.event_name != 'push' || env.SSH_AUTH_SOCK == null
       run: |
         sphinx-build -b latex -q -j $(nproc) -Dlatex_engine=xelatex source build
         make -C build LATEXMKOPTS="-f -interaction=nonstopmode -pdf -xelatex" all-pdf
+    - name: Build PDF manual in all languages
+      if: github.event_name == 'push' && env.SSH_AUTH_SOCK != null
+      run: sh build_pdf.sh
+    - name: Deploy PDF manuals to download server
+      if: github.event_name == 'push' && env.SSH_AUTH_SOCK != null
+      run: rsync -e ssh --partial-dir="${DESTDIR}/.tmp/${GITHUB_RUN_ID}" "$@" "mixxx@downloads-hostgator.mixxx.org:${DESTDIR}/$(git rev-parse --abbrev-ref HEAD)"
