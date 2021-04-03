@@ -3,6 +3,9 @@ name: Build Manual
 on:
   pull_request:
   push:
+    branches:
+    - "main"
+    - "[0-9]+.[0-9]+"
 
 jobs:
   build-html:
@@ -76,4 +79,8 @@ jobs:
       run: sh build_pdf.sh
     - name: Deploy PDF manuals to download server
       if: github.event_name == 'push' && env.SSH_AUTH_SOCK != null
-      run: rsync -e ssh --partial-dir="${DESTDIR}/.tmp/${GITHUB_RUN_ID}" "$@" "mixxx@downloads-hostgator.mixxx.org:${DESTDIR}/$(git rev-parse --abbrev-ref HEAD)"
+      run: rsync --verbose --recursive --checksum --times --delay-updates "build/pdf/" "${SSH_USER}@${SSH_HOST}:${DESTDIR}/"
+      env:
+        DESTDIR: public_html/downloads/manual
+        SSH_HOST: downloads-hostgator.mixxx.org
+        SSH_USER: mixxx
