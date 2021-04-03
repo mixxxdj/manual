@@ -869,7 +869,7 @@ Supported libraries:
 * |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
-* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_banshee| `Banshee <https://www.banshee-project.org/>`_ (Windows, macOS, GNU/Linux)
 * |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
