@@ -3,14 +3,18 @@ Denon MC7000
 
 The Denon MC7000 is a professional DJ controller which has got 4-channel capability and dual USB connections. These two USB audio interfaces enable two DJs to play together. This controller includes Denon’s high build quality and superior 24-bit audio reproduction, makes this suited to both mobile and club DJs.
 
+.. versionadded:: 2.2.4
+.. versionchanged:: 2.3.0
+   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, waveform zoom, Fixed Loops, changed Parameter and Censor/Reverse/Spinback button mapping. Added an experimental beat counter (slicer-like).
+
+Useful links
+~~~~~~~~~~~~
+
 -  `Denon MC7000 Mapping thread <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 -  `Manufacturer’s product page <https://www.denondj.com/professional-dj-controller-for-serato-mc7000xus>`__
 -  `User Guide <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-UserGuide-v1.1.pdf>`__
 -  `Hardware Setting Specification <http://cdn.inmusicbrands.com/denondj/MC7000/MC7000-Hardware-Settings-Mode-Specification-v1_4.pdf>`__
-
-.. versionadded:: 2.2.4
-.. versionchanged:: 2.3.0
-   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, added waveform zoom, changed Parameter and Censor/Reverse/Spinback button mapping.
+-  `Mixxx showcase on YouTube <https://youtu.be/KRtgSBXFGqI>`__
 
 Compatibility
 ~~~~~~~~~~~~~
@@ -49,11 +53,14 @@ improve the mapping, then please discuss it in the `Denon MC7000
 Mapping <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 thread.
 
+.. _denon_mc7000_uservariables:
+
 User Variables
 ~~~~~~~~~~~~~~
 
 Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables to:
 
+-  activate :ref:`experimental features <denon_mc7000_experimental>` (default: false)
 -  activate NeedleDrop sensor while a track is playing (default: false)
 -  set the Pitch Fader ranges in % to toggle between them
    (default: 4, 6, 8, 10, 16, 24)
@@ -61,8 +68,8 @@ Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables
    toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
 -  Vinyl Mode on or off at Mixxx start which also triggers the Platter
    Ring LED function (default: 1)
--  Scratch Parameters (default: 33.3, 1/10, 1/10/32)
--  Jog Parameters (default: 1, 3)
+-  Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
+-  Jog Sensitivity (default: 1)
 
 
 Mixer Section
@@ -169,7 +176,7 @@ Deck Section
    :widths: 10 90 250
 
    "23", ":hwlabel:`DECK`",                                "Selects which deck in the software is controlled by that hardware deck. The left deck can control Deck 1 or 3; the right deck can control Deck 1 or 4."
-   "23", ":hwlabel:`SHIFT` + :hwlabel:`DECK`",             "Press to switch Platter Ring LED Mode. See Chapter 'LEDs' below for details."
+   "23", ":hwlabel:`SHIFT` + :hwlabel:`DECK`",             "Press to switch Platter Ring LED Mode. Refer to the :ref:`LEDs section<denon_mc7000_led>` for details."
    "24", ":hwlabel:`SHIFT`",                               "Press and hold this button to access secondary functions of other controls."
    "25", ":hwlabel:`SYNC`",                                "Press to automatically match the corresponding deck’s :term:`tempo` with the tempo and phase of the opposite deck. Press again to deactivate Sync. Hold this button down for one sec to permanently match the tempo."
    "26", ":hwlabel:`CUE`",                                 "If a cue point is not set then press this button to set it at the current track position.
@@ -195,7 +202,7 @@ Deck Section
    "33", ":hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`",         "Press to automatically match the corresponding deck’s key with the key of the opposite deck."
    "34", ":hwlabel:`KEY SELECT/RESET`",                    "Turn to raise or lower the key of the track. Press to reset the track’s key to its original key."
    "34", ":hwlabel:`SHIFT` + :hwlabel:`KEY SELECT/RESET`", "Turn to zoom in and out the waveform or push the knob to reset the Waveform zoom to the level set in preferences."
-   "35", "Performance Pads",                               ":ref:`see below for details.<PADs>`"
+   "35", "Performance Pads",                               "refer to the :ref:`Performance Pads section<denon_mc7000_pad>` for details."
    "40", ":hwlabel:`AUTO LOOP`",                           "Press to create an auto-loop with the length set with loop length. You may change the length of beats by using the :hwlabel:`X1/2` or :hwlabel:`X2` buttons."
    "40", ":hwlabel:`SHIFT` + :hwlabel:`AUTO LOOP`",        "Press to toggle the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop."
    "41", ":hwlabel:`X1/2`",                                "Press to halve the length of the current loop."
@@ -215,8 +222,10 @@ Deck Section
    "54", ":hwlabel:`NEEDLE DROP`",                         "Place your finger on a point along this sensor to jump to that point in the track (strip represents entire track)."
    "54", ":hwlabel:`SHIFT` + :hwlabel:`NEEDLE DROP`",      "Press to jump to a position while a track is currently playing."
 
+.. hint::
+  The jog sensitivity and scratch parameters (28), the default Vinyl mode (30), the Pitch Fader ranges (32) as well as the Needle Drop activity (54) can be set by modifying the variables inside the :ref:`Midiscript file<denon_mc7000_uservariables>` accordingly.
 
-.. _PADs:
+.. _denon_mc7000_pad:
 
 Performance Pads
 ~~~~~~~~~~~~~~~~
@@ -228,15 +237,16 @@ Mode Selection
    :header: "No.", "Control", "Function"
    :widths: 10 90 250
 
-   "35", "Performance Pads",   "Press to perform action with one of those buttons."
-   "36", ":hwlabel:`CUE`",     "Press to switch to 'Hot Cue' mode."
-   "37", ":hwlabel:`ROLL`",    "Press to switch to 'Roll' mode."
-   "38", ":hwlabel:`SLICER`",  "Press to switch to 'Beatjump' mode."
-   "39", ":hwlabel:`SAMPLER`", "Press to switch to 'Sampler' mode."
+   "35", "Performance Pads",      "Press to perform action with one of those buttons."
+   "36", ":hwlabel:`CUE`",        "Press to switch to **'Hot Cue'** mode."
+   "37", ":hwlabel:`ROLL`",       "Press to switch to **'Roll'** mode."
+   "37", ":hwlabel:`SAVED LOOP`", "Press :hwlabel:`ROLL` one more time to get into **'Fixed Loop'** mode."
+   "38", ":hwlabel:`SLICER`",     "Press to switch to **'Beatjump'** mode."
+   "39", ":hwlabel:`SAMPLER`",    "Press to switch to **'Sampler'** mode."
 
 
-Hot Cue Mode
-------------
+Hot Cue Mode (blue LED)
+-----------------------
 
 8 Hot Cue positions can be defined in this mode.
 
@@ -251,8 +261,8 @@ Hot Cue Mode
    :figclass: pretty-figures
 
 
-Roll Mode
-----------
+Roll Mode (turquoise LED)
+-------------------------
 
 | This mode lets you repeat a number of beats while keep pushing a Pad button down.
 | The :hwlabel:`SLIP` function remains active so that the track continues at the position where it had been playing forward the whole time.
@@ -265,8 +275,23 @@ Roll Mode
    :figclass: pretty-figures
 
 
-Beatjump Mode
--------------
+Fixed Loop Mode (yellow LED)
+----------------------------
+
+| This mode lets you set a dedicated loop from current position.
+| Another push on the Pad button will turn the loop off.
+
+.. figure:: ../../_static/controllers/denon_mc7000_fixed_loop_mode.svg
+   :align: left
+   :scale: 35 %
+   :figwidth: 100%
+   :alt: Denon MC7000 FIXED LOOP Mode
+   :figclass: pretty-figures
+
+.. _denon_mc7000_experimental:
+
+Beatjump Mode (red LED)
+-----------------------
 
 This mode lets you jump a number of beats while pushing a Pad once.
 
@@ -277,9 +302,15 @@ This mode lets you jump a number of beats while pushing a Pad once.
    :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
+| Press and hold ":hwlabel:`SHIFT`" and then push a PAD button to jump even more beats.
+| 16, 32, 64 and 128 forward on the upper row and backwards on the lower row.
 
-Sampler Mode
-------------
+.. note::
+   If experimental features were set to `true` in the :ref:`Midiscript file<denon_mc7000_uservariables>` then the PAD LEDs counting the beat AFTER the main CUE point.
+   This currently only works for tracks with constant beats. The beat grid and CUE point must be set.
+
+Sampler Mode (pink LED)
+-----------------------
 
 8 samplers can be triggered from either Deck.
 
@@ -296,6 +327,7 @@ Use :hwlabel:`SHIFT` + Pad button to stop a sampler while playing or eject a sam
    :alt: Denon MC7000 SAMPLER Mode
    :figclass: pretty-figures
 
+.. _denon_mc7000_led:
 
 LEDs
 ~~~~
@@ -306,19 +338,26 @@ The Master Volume Meter is not correlated to Mixxx GUI as the controller handles
 
 Button LEDs are fully mapped for the first function. As you press and hold :hwlabel:`SHIFT` then the secondary functions have only got some flashing LEDs mapped, e.g. TAP and KEY SYNC, when activated.
 
+Press :hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
+
+  - Mode 0 - Single 'off' LED chase (all other LEDs are 'on')
+  - Mode 1 - Single 'on' LED chase (all other LEDs are 'off')
+
+.. hint::
+  The default mode can be set to `0` or `1` inside the :ref:`Midiscript file<denon_mc7000_uservariables>`.
+
+
 Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
 
   - If vinyl mode is enabled, the LED imitates a turntable platter spinning at 33.3 rpm.
   - If vinyl mode is disabled, the current track position is indicated by the Platter LEDs starting at the top.
 
-:hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
-
-  - Mode 0 - Single 'off' LED chase (all other LEDs are 'on')
-  - Mode 1 - Single 'on' LED chase (all other LEDs are 'off')
+.. note::
+  The Platter Ring LEDs are not moving while the track position is 'negative'. That means if the position is before the track starts then the position LED keeps staying at most up position.
 
 
 Known Issues
 ~~~~~~~~~~~~
 
-- Some Performance Pad modes are not available (Cue Loop, Flip, Saved Loop, Slicer Loop, Velocity Sampler, Pitch).
+- Some Performance Pad modes are not available (Cue Loop, Flip, Slicer Loop, Velocity Sampler, Pitch).
 - The Effect Units don't use Mixxx' Standard Effects Mapping
