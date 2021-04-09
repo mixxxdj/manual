@@ -5,7 +5,7 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3.0
-   Fixed a bug for Vinylmode on Deck 4 and added new features, like library sorting, search through track with Jog Wheel, eject track from Deck, waveform zoom, Fixed Loops, changed Parameter and Censor/Reverse/Spinback button mapping. Added an experimental beat counter (slicer-like).
+   Fixed a vinyl mode bug on deck 4 and added new features, like library sorting, searching through track with jog wheel, ejecting track from deck, waveform zoom, fixed loops and an experimental beat counter (slicer-like) and improved parameter and censor/reverse/spinback button mappings.
 
 Useful links
 ~~~~~~~~~~~~
@@ -27,9 +27,9 @@ Compatibility
    **5.4.21**. All kernel versions **5.6.x** and following are supporting the device.
    All recent Linux distributions are shipped with Audio support for the MC7000, like
 
-  - Ubuntu 20.04 and 20.10
+  - Ubuntu 20.04 & 20.10
   - Ubuntu based like Linux Mint and KDE Neon
-  - Manjaro Linux 19.x & 20.x
+  - Arch based like Manjaro Linux 20.x & 21.x and EndeavourOS
   - OpenSUSE Tumbleweed
   - Gentoo stable
 
@@ -60,8 +60,8 @@ User Variables
 
 Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables to:
 
--  activate :ref:`experimental features <denon_mc7000_experimental>` (default: false)
--  activate NeedleDrop sensor while a track is playing (default: false)
+-  activate :ref:`experimental features <denon_mc7000_experimental>` (default: ``false``)
+-  activate NeedleDrop sensor while a track is playing (default: ``false``)
 -  set the Pitch Fader ranges in % to toggle between them
    (default: 4, 6, 8, 10, 16, 24)
 -  Platter Ring LED mode: single LED on or off (default: 1). Can be
@@ -223,7 +223,7 @@ Deck Section
    "54", ":hwlabel:`SHIFT` + :hwlabel:`NEEDLE DROP`",      "Press to jump to a position while a track is currently playing."
 
 .. hint::
-  The jog sensitivity and scratch parameters (28), the default Vinyl mode (30), the Pitch Fader ranges (32) as well as the Needle Drop activity (54) can be set by modifying the variables inside the :ref:`Midiscript file<denon_mc7000_uservariables>` accordingly.
+   The jog sensitivity and scratch parameters (28), the default vinyl mode (30), the pitch fader ranges (32) as well as the needle drop activity (54) can be set by modifying the variables inside the :ref:`JavaScript file<denon_mc7000_uservariables>` accordingly.
 
 .. _denon_mc7000_pad:
 
@@ -250,8 +250,8 @@ Hot Cue Mode (blue LED)
 
 8 Hot Cue positions can be defined in this mode.
 
-| Press one of the Pad buttons to set or play a Hot Cue.
-| Use :hwlabel:`SHIFT` + Pad button to delete an existing Hot Cue.
+| Press one of the pad buttons to set or play a Hot Cue.
+| Use :hwlabel:`SHIFT` + pad button to delete an existing Hot Cue.
 
 .. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
    :align: left
@@ -264,7 +264,7 @@ Hot Cue Mode (blue LED)
 Roll Mode (turquoise LED)
 -------------------------
 
-| This mode lets you repeat a number of beats while keep pushing a Pad button down.
+| This mode lets you repeat a number of beats while keep pushing a pad button down.
 | The :hwlabel:`SLIP` function remains active so that the track continues at the position where it had been playing forward the whole time.
 
 .. figure:: ../../_static/controllers/denon_mc7000_roll_mode.svg
@@ -279,7 +279,7 @@ Fixed Loop Mode (yellow LED)
 ----------------------------
 
 | This mode lets you set a dedicated loop from current position.
-| Another push on the Pad button will turn the loop off.
+| Another push on the pad button will turn the loop off.
 
 .. figure:: ../../_static/controllers/denon_mc7000_fixed_loop_mode.svg
    :align: left
@@ -293,7 +293,7 @@ Fixed Loop Mode (yellow LED)
 Beatjump Mode (red LED)
 -----------------------
 
-This mode lets you jump a number of beats while pushing a Pad once.
+This mode lets you jump a number of beats while pushing a pad button once.
 
 .. figure:: ../../_static/controllers/denon_mc7000_beatjump_mode.svg
    :align: left
@@ -302,23 +302,22 @@ This mode lets you jump a number of beats while pushing a Pad once.
    :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
-| Press and hold ":hwlabel:`SHIFT`" and then push a PAD button to jump even more beats.
+| Press and hold ":hwlabel:`SHIFT`" and then push a pad button to jump even more beats.
 | 16, 32, 64 and 128 forward on the upper row and backwards on the lower row.
 
 .. note::
-   If experimental features were set to `true` in the :ref:`Midiscript file<denon_mc7000_uservariables>` then the PAD LEDs counting the beat AFTER the main CUE point.
-   This currently only works for tracks with constant beats. The beat grid and CUE point must be set.
+   If experimental features were set to `true` in the :ref:`JavaScript file<denon_mc7000_uservariables>` then the pad LEDs counting the beat *after* the main CUE point.
 
 Sampler Mode (pink LED)
 -----------------------
 
 8 samplers can be triggered from either Deck.
 
-| Add samplers to the sampler bank pushing a Pad button.
-| If a sampler is loaded, then another push on the Pad will play the sampler from its Cue point.
-| Push the Pad button again while playing will replay the sampler from Cue point.
+| Add samplers to the sampler bank pushing a pad button.
+| If a sampler is loaded, then another push on the pad button will play the sampler from its Cue point.
+| Push the pad button again while playing will replay the sampler from Cue point.
 
-Use :hwlabel:`SHIFT` + Pad button to stop a sampler while playing or eject a sampler when stopped.
+Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sampler when stopped.
 
 .. figure:: ../../_static/controllers/denon_mc7000_sampler_mode.svg
    :align: left
@@ -344,7 +343,7 @@ Press :hwlabel:`SHIFT` + :hwlabel:`Deck` to switch Platter Ring LED Mode.
   - Mode 1 - Single 'on' LED chase (all other LEDs are 'off')
 
 .. hint::
-  The default mode can be set to `0` or `1` inside the :ref:`Midiscript file<denon_mc7000_uservariables>`.
+   The default mode can be set to ``0`` or ``1`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>`.
 
 
 Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
