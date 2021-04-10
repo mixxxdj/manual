@@ -21,17 +21,7 @@ Compatibility
 
 -  **Mac** users should be just fine connecting the MC7000 and go.
 -  **Windows** users need to install the latest Windows Driver from `Denon Download Site <https://www.denondj.com/downloads>`__.
--  **Linux** users need to know that the MC7000 internal audio interface
-   is not available out-of-the-box for older Linux Kernels. You have to
-   upgrade your **Kernel** to minimum versions LTS: **4.19.105** or
-   **5.4.21**. All kernel versions **5.6.x** and following are supporting the device.
-   All recent Linux distributions are shipped with Audio support for the MC7000, like
-
-  - Ubuntu 20.04 & 20.10
-  - Ubuntu based like Linux Mint and KDE Neon
-  - Arch based like Manjaro Linux 20.x & 21.x and EndeavourOS
-  - OpenSUSE Tumbleweed
-  - Gentoo stable
+-  **Linux** users need a minimum LTS Kernel version **4.19.105** or **5.4.21**. All Kernels **5.6.x** and following are supporting the device out-of-the-box.
 
 Mapping
 ~~~~~~~
@@ -306,7 +296,7 @@ This mode lets you jump a number of beats while pushing a pad button once.
 | 16, 32, 64 and 128 forward on the upper row and backwards on the lower row.
 
 .. note::
-   If experimental features were set to `true` in the :ref:`JavaScript file<denon_mc7000_uservariables>` then the pad LEDs counting the beat *after* the main CUE point.
+   If experimental features were set to `true` in the :ref:`JavaScript file<denon_mc7000_uservariables>` then the pad LEDs counting the beat **after** the main CUE point.
 
 Sampler Mode (pink LED)
 -----------------------
