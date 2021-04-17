@@ -217,37 +217,35 @@ direction
 18. FX 1 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 1 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
+| Turns FX1 on and off
 | **Shift + FX 1:** Select from the list of available effects for the
   respective effect.
-| **Padmode + FX 1:** Activates Brake effect
-| **Tap + FX 1:** Assign / unassign FX 1 to Instant FX. When assigned to
-  Instant FX, the FX is instantly activated by touching the Strip and
-  stopped when finger is lifted.
+| **Padmode + FX 1:** Assign / unassign FX 1 to Instant FX. When assigned to
+Instant FX, the FX is instantly activated by touching the Strip and
+stopped when finger is lifted.Activates Brake effect
+| **Tap + FX 1:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 19. FX 2 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 2 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
+| Turns FX2 on and off
 | **Shift + FX 2:** Select from the list of available effects for the
   respective effect.
-| **Padmode + FX 2:** Activates Spinback effect
-| **Tap + FX 2:** Assign / unassign FX 1 to Instant FX. When assigned to
-  Instant FX, the FX is instantly activated by touching the Strip and
-  stopped when finger is lifted.
+| **Padmode + FX 2:** Assign / unassign FX 1 to Instant FX. When assigned to
+Instant FX, the FX is instantly activated by touching the Strip and
+stopped when finger is lifted.
+| **Tap + FX 2:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 20. FX 3 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 3 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
+| Turns FX3 on and off
 | **Shift + FX 3:** Select from the list of available effects for the
   respective effect.
-| **Tap + FX 3:** Assign / unassign FX 1 to Instant FX. When assigned to
-  Instant FX, the FX is instantly activated by touching the Strip and
-  stopped when finger is lifted.
+  | **Padmode + FX 3:** Assign / unassign FX 1 to Instant FX. When assigned to
+Instant FX, the FX is instantly activated by touching the Strip and
+stopped when finger is lifted.
+| **Tap + FX 3:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 21. Tap BPM
 ~~~~~~~~~~~
@@ -258,6 +256,8 @@ direction
 | **Shift + Tap:** Toggles deck between deck 1-3 (left side) or deck 2-4
   (right side). TAP LED will be RED when deck 3 is active (Left Tap) or
   deck 4 is active (Right Tap)
+| **Tap + Hotcue 2:** Activates Brake effect
+| **Tap + Hotcue 2:** Activates Spinback effect
 
 22. Wheel button
 ~~~~~~~~~~~~~~~~
@@ -438,8 +438,8 @@ Displays the audio level going to the Master Output.
 Effects
 ^^^^^^^
 
--  Focus effect with **FX button**
--  Toggle effect with **Tap + FX button**
+-  Toggle effect with **FX button**
+-  Focus effect with **Tap + FX button**
 -  Move mapping of InstantFX to **Padmode + FX button**
 -  **Shift + High** controls parameter 1 of focused effect
 -  **Shift + Mid** controls parameter 2 of focused effect
