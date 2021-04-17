@@ -123,34 +123,19 @@ Adjusts the volume for headphone cueing in the software.
 ~~~~~~~~~~~~~~~~
 
 | Adjust High frequencies of the deck
-| **Shift + High :** Adjust FX 1, parameter 1 of the Effect Unit
-  assigned to the deck
-| **Padmode + high :** Adjust FX 2, parameter 1 of the Effect Unit
-  assigned to the deck
-| **Tap + high :** Adjust FX 2, parameter 1 of the Effect Unit assigned
-  to the deck
+| **Shift + High :** Adjust parameter 1 of the currently focused effect on this deck.
 
 7. Mid EQ Knobs
 ~~~~~~~~~~~~~~~
 
 | Adjust Mid frequencies of the deck
-| **Shift + Mid:** Adjust FX 1, parameter 2 of the Effect Unit assigned
-  to the deck
-| **Padmode + Mid:** Adjust FX 2, parameter 2 of the Effect Unit
-  assigned to the deck
-| **Tap + Mid:** Adjust FX 3, parameter 2 of the Effect Unit assigned to
-  the deck
+| **Shift + Mid:** Adjust parameter 2 of the currently focused effect on this deck.
 
 8 Low EQ Knobs
 ~~~~~~~~~~~~~~
 
 | Adjust Low frequencies of the deck
-| **Shift + Mid:** Adjust FX 1, parameter 3 of the Effect Unit assigned
-  to the deck
-| **Padmode + Mid:** Adjust FX 2, parameter 3 of the Effect Unit
-  assigned to the deck
-| **Tap + Mid:** Adjust FX 3 parameter 3 of the Effect Unit assigned to
-  the deck
+| **Shift + Mid:** Adjust parameter 3 of the currently focused effect on this deck.
 
 9. Filter
 ~~~~~~~~~
@@ -158,12 +143,7 @@ Adjusts the volume for headphone cueing in the software.
 | Adjusts the amount of the filter effect. Turning the knob left
   controls the low pass filter; turning it right controls the high pass
   filter.
-| **Shift + Filter:** Adjust FX 1, parameter 4 of the Effect Unit
-  assigned to the deck
-| **Padmode + Filter:** Adjust FX 2, parameter 4 of the Effect Unit
-  assigned to the deck
-| **Tap + Filter:** Adjust FX 3, parameter 4 of the Effect Unit assigned
-  to the deck
+| **Shift + Filter:** Adjust parameter 4 of the currently focused effect on this deck.
 
 10. Cue/PFL/Headphones
 ~~~~~~~~~~~~~~~~~~~~~~
