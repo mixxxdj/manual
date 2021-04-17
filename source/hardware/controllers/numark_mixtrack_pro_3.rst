@@ -221,7 +221,7 @@ direction
 | **Shift + FX 1:** Select from the list of available effects for the respective effect.
 | **Padmode + FX 1:** Assign / unassign FX 1 to Instant FX. When assigned to
   Instant FX, the FX is instantly activated by touching the Strip and
-  stopped when finger is lifted.Activates Brake effect
+  stopped when finger is lifted.
 | **Tap + FX 1:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 19. FX 2 On/Off
