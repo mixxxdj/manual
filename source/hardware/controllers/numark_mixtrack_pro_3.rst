@@ -235,7 +235,7 @@ direction
 | **Shift + Tap:** Toggles deck between deck 1-3 (left side) or deck 2-4
   (right side). TAP LED will be RED when deck 3 is active (Left Tap) or
   deck 4 is active (Right Tap)
-| **Tap + Hotcue 2:** Activates Brake effect
+| **Tap + Hotcue 1:** Activates Brake effect
 | **Tap + Hotcue 2:** Activates Spinback effect
 
 22. Wheel button
