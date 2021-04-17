@@ -144,6 +144,8 @@ Adjusts the volume for headphone cueing in the software.
   controls the low pass filter; turning it right controls the high pass
   filter.
 | **Shift + Filter:** Adjust parameter 4 of the currently focused effect on this deck.
+| If effect is unfocused then;
+| **Shift + Filter:** Adjust the gain of the deck.
 
 10. Cue/PFL/Headphones
 ~~~~~~~~~~~~~~~~~~~~~~
