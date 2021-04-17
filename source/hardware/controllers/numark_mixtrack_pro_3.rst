@@ -123,34 +123,19 @@ Adjusts the volume for headphone cueing in the software.
 ~~~~~~~~~~~~~~~~
 
 | Adjust High frequencies of the deck
-| **Shift + High :** Adjust FX 1, parameter 1 of the Effect Unit
-  assigned to the deck
-| **Padmode + high :** Adjust FX 2, parameter 1 of the Effect Unit
-  assigned to the deck
-| **Tap + high :** Adjust FX 2, parameter 1 of the Effect Unit assigned
-  to the deck
+| **Shift + High :** Adjust parameter 1 of the currently focused effect on this deck.
 
 7. Mid EQ Knobs
 ~~~~~~~~~~~~~~~
 
 | Adjust Mid frequencies of the deck
-| **Shift + Mid:** Adjust FX 1, parameter 2 of the Effect Unit assigned
-  to the deck
-| **Padmode + Mid:** Adjust FX 2, parameter 2 of the Effect Unit
-  assigned to the deck
-| **Tap + Mid:** Adjust FX 3, parameter 2 of the Effect Unit assigned to
-  the deck
+| **Shift + Mid:** Adjust parameter 2 of the currently focused effect on this deck.
 
 8 Low EQ Knobs
 ~~~~~~~~~~~~~~
 
 | Adjust Low frequencies of the deck
-| **Shift + Mid:** Adjust FX 1, parameter 3 of the Effect Unit assigned
-  to the deck
-| **Padmode + Mid:** Adjust FX 2, parameter 3 of the Effect Unit
-  assigned to the deck
-| **Tap + Mid:** Adjust FX 3 parameter 3 of the Effect Unit assigned to
-  the deck
+| **Shift + Mid:** Adjust parameter 3 of the currently focused effect on this deck.
 
 9. Filter
 ~~~~~~~~~
@@ -158,12 +143,9 @@ Adjusts the volume for headphone cueing in the software.
 | Adjusts the amount of the filter effect. Turning the knob left
   controls the low pass filter; turning it right controls the high pass
   filter.
-| **Shift + Filter:** Adjust FX 1, parameter 4 of the Effect Unit
-  assigned to the deck
-| **Padmode + Filter:** Adjust FX 2, parameter 4 of the Effect Unit
-  assigned to the deck
-| **Tap + Filter:** Adjust FX 3, parameter 4 of the Effect Unit assigned
-  to the deck
+| **Shift + Filter:** Adjust parameter 4 of the currently focused effect on this deck.
+| If effect is unfocused then;
+| **Shift + Filter:** Adjust the gain of the deck.
 
 10. Cue/PFL/Headphones
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -217,37 +199,32 @@ direction
 18. FX 1 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 1 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
-| **Shift + FX 1:** Select from the list of available effects for the
-  respective effect.
-| **Padmode + FX 1:** Activates Brake effect
-| **Tap + FX 1:** Assign / unassign FX 1 to Instant FX. When assigned to
+| Turns FX1 on and off
+| **Shift + FX 1:** Select from the list of available effects for the respective effect.
+| **Padmode + FX 1:** Assign / unassign FX 1 to Instant FX. When assigned to
   Instant FX, the FX is instantly activated by touching the Strip and
   stopped when finger is lifted.
+| **Tap + FX 1:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 19. FX 2 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 2 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
-| **Shift + FX 2:** Select from the list of available effects for the
-  respective effect.
-| **Padmode + FX 2:** Activates Spinback effect
-| **Tap + FX 2:** Assign / unassign FX 1 to Instant FX. When assigned to
+| Turns FX2 on and off
+| **Shift + FX 2:** Select from the list of available effects for the respective effect.
+| **Padmode + FX 2:** Assign / unassign FX 1 to Instant FX. When assigned to
   Instant FX, the FX is instantly activated by touching the Strip and
   stopped when finger is lifted.
+| **Tap + FX 2:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 20. FX 3 On/Off
 ~~~~~~~~~~~~~~~
 
-| Enables FX 3 of the deck’s Effect Unit (Deck 1 = Unit 1, Deck 2 = Unit
-  2, Deck 3 = Unit 3, Deck 4 = Unit 4)
-| **Shift + FX 3:** Select from the list of available effects for the
-  respective effect.
-| **Tap + FX 3:** Assign / unassign FX 1 to Instant FX. When assigned to
+| Turns FX3 on and off
+| **Shift + FX 3:** Select from the list of available effects for the respective effect.
+| **Padmode + FX 3:** Assign / unassign FX 1 to Instant FX. When assigned to
   Instant FX, the FX is instantly activated by touching the Strip and
   stopped when finger is lifted.
+| **Tap + FX 3:** Focus this effect to allow adjusting its metaknob with the touch strip.
 
 21. Tap BPM
 ~~~~~~~~~~~
@@ -258,6 +235,8 @@ direction
 | **Shift + Tap:** Toggles deck between deck 1-3 (left side) or deck 2-4
   (right side). TAP LED will be RED when deck 3 is active (Left Tap) or
   deck 4 is active (Right Tap)
+| **Tap + Hotcue 1:** Activates Brake effect
+| **Tap + Hotcue 2:** Activates Spinback effect
 
 22. Wheel button
 ~~~~~~~~~~~~~~~~
@@ -438,8 +417,8 @@ Displays the audio level going to the Master Output.
 Effects
 ^^^^^^^
 
--  Focus effect with **FX button**
--  Toggle effect with **Tap + FX button**
+-  Toggle effect with **FX button**
+-  Focus effect with **Tap + FX button**
 -  Move mapping of InstantFX to **Padmode + FX button**
 -  **Shift + High** controls parameter 1 of focused effect
 -  **Shift + Mid** controls parameter 2 of focused effect
