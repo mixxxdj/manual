@@ -589,7 +589,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_closest
                    [SamplerN],beat_closest
 
-                 
+
    Its value is set to the position of the closest beat of the active beat and is used for updating the beat leds
    :range: -1, 0.0, real-valued
    :feedback: None
@@ -597,7 +597,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],beat_distance
                    [PreviewDeckN],beat_distance
                    [SamplerN],beat_distance
-                 
+
    Outputs the distance to the nearest beat of the active beat.
    :range: 0.0, real-valued
    :feedback: None
@@ -935,7 +935,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],cue_clear
 
    Releases the already set cue point and sets cue value to 0.
-   
+
    :range: binary
    :feedback: None
 
@@ -945,7 +945,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],cue_goto
 
    If the cue point is set, recalls the cue point.
-   
+
    :range: binary
    :feedback: Player may change position
 
@@ -1000,7 +1000,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],cue_mode
 
    Decides which cue mode to call based on the user preference and compatible hardware.
-   
+
    :range:
       ===== =============================
       Value compatible hardware
@@ -1009,11 +1009,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       1.0   Pioneer mode
       2.0   Denon mode
       3.0   Numark mode
-      4.0   Mixxx mode (no blinking)  
+      4.0   Mixxx mode (no blinking)
       5.0   CUP (Cue + Play) mode
       ===== =============================
 
-   
+
 
    :feedback: None
 
@@ -1462,7 +1462,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],local_bpm
 
    Reflects the average bpm around the current play position of the loaded file.
-   
+
    :range: positive value
    :feedback: None
 
@@ -3390,8 +3390,8 @@ The ``[Broadcast]`` controls
 
 .. mixxx:control:: [Shoutcast],enabled
 
-   This control shows if live Internet broadcasting is enabled with Shoutcast server connection. :term:`Shoutcast <shoutcast>` feeds to and from the stream. 
-   
+   This control shows if live Internet broadcasting is enabled with Shoutcast server connection. :term:`Shoutcast <shoutcast>` feeds to and from the stream.
+
    :range: ?
    :feedback: shoutcast only supports mp3 format as field
 
@@ -3399,9 +3399,9 @@ The ``[Broadcast]`` controls
 .. mixxx:control:: [Shoutcast],status
 
    This control displays whether broadcasting connection to Shoutcast server was successfully established.
-   
+
    :range: binary
-   :feedback: None  
+   :feedback: None
 
 
 The ``[Playlist]`` controls
@@ -3521,7 +3521,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
 .. mixxx:control:: [Controls],ShowDurationRemaining
 
    Yields the current state of the remaining time duration of the loaded track.
-   
+
    :range:
       ===== ===========================================================================
       Value Meaning
