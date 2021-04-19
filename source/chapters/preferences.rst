@@ -308,6 +308,10 @@ assigned the third color. The colors will repeat when setting a hotcue with a
 number greater than those used in the palette. In the example above, hotcue 3
 will use the first color and hotcue 4 the second color, and so on.
 
+You can also assign the same color to more than one hotcue. For example by
+separating the hotcue numbers with a comma (“2, 4, 7”), expressing a range
+of numbers (“1 - 3”) or any combination of that (“6, 1 - 3, 7”).
+
 If no color in the palette has a hotcue number assigned to it, new hotcues will
 use the color at the same index from the palette (i.e. hotcue 1 will be
 assigned the first color in the palette, hotcue 2 uses the second color in the
