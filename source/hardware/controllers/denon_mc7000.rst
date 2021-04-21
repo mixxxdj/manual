@@ -244,9 +244,6 @@ Hot Cue Mode (blue LED)
 | Use :hwlabel:`SHIFT` + pad button to delete an existing Hot Cue.
 
 .. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
-   :align: left
-   :scale: 35 %
-   :figwidth: 100%
    :alt: Denon MC7000 CUE Mode
    :figclass: pretty-figures
 
@@ -258,9 +255,6 @@ Roll Mode (turquoise LED)
 | The :hwlabel:`SLIP` function remains active so that the track continues at the position where it had been playing forward the whole time.
 
 .. figure:: ../../_static/controllers/denon_mc7000_roll_mode.svg
-   :align: left
-   :scale: 35 %
-   :figwidth: 100%
    :alt: Denon MC7000 ROLL Mode
    :figclass: pretty-figures
 
@@ -272,9 +266,6 @@ Fixed Loop Mode (yellow LED)
 | Another push on the pad button will turn the loop off.
 
 .. figure:: ../../_static/controllers/denon_mc7000_fixed_loop_mode.svg
-   :align: left
-   :scale: 35 %
-   :figwidth: 100%
    :alt: Denon MC7000 FIXED LOOP Mode
    :figclass: pretty-figures
 
@@ -286,9 +277,6 @@ Beatjump Mode (red LED)
 This mode lets you jump a number of beats while pushing a pad button once.
 
 .. figure:: ../../_static/controllers/denon_mc7000_beatjump_mode.svg
-   :align: left
-   :scale: 35 %
-   :figwidth: 100%
    :alt: Denon MC7000 BEATJUMP Mode
    :figclass: pretty-figures
 
@@ -310,9 +298,6 @@ Sampler Mode (pink LED)
 Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sampler when stopped.
 
 .. figure:: ../../_static/controllers/denon_mc7000_sampler_mode.svg
-   :align: left
-   :scale: 35 %
-   :figwidth: 100%
    :alt: Denon MC7000 SAMPLER Mode
    :figclass: pretty-figures
 
