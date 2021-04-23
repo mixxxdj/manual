@@ -30,27 +30,8 @@ Most of the board's controls work as described in the G4V's manual, with a few e
 Snapshots of the board's labeling from the Manual are included below:
 
 
-Deck and mixer view
-^^^^^^^^^^^^^^^^^^^
-.. figure:: ../../_static/controllers/gemini_g4v_top.svg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Gemini G4V
-   :figclass: pretty-figures
-
-
-Front view
-^^^^^^^^^^
-.. figure:: ../../_static/controllers/gemini_g4v_front.svg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Gemini G4V
-   :figclass: pretty-figures
-
-Rear view
-^^^^^^^^^
+Rear
+^^^^
 .. figure:: ../../_static/controllers/gemini_g4v_rear.svg
    :align: center
    :width: 100%
@@ -58,133 +39,95 @@ Rear view
    :alt: Gemini G4V
    :figclass: pretty-figures
 
-Control list
-^^^^^^^^^^^^
-.. hlist::
-   :columns: 2
+===  ====================================================  ============================================================================================
+No.  Control                                               Function
+===  ====================================================  ============================================================================================
+1    :hwlabel:`POWER` button                               Press to switch controller on/off.
+A    :hwlabel:`XLR BALANCED` jacks                         Main output XLR jacks
+B    :hwlabel:`MASTER` jacks                               Main output RCA jacks
+C    :hwlabel:`BOOTH` jacks                                Booth output RCA jacks
+D    :hwlabel:`INPUT AUX.` jacks                           Auxiliary input RCA jacks
+E    :hwlabel:`TO PC` port                                 USB port for connecting to the computer
+F    :hwlabel:`DC IN` port                                 Power Input
+===  ====================================================  ============================================================================================
 
-   * 1 - Power Button
-   * 2 - Sync
-   * 3 - Play/pause
-   * 4 - CUP
-   * 5 - Cue
-   * 6 - Jog Wheel
-   * 7 - Deck Select
-   * 8 - Performance pads mode select
-   * 9 - Performance pads
-   * 10 - Pith fader
-   * 11 - Loop Move
-   * 12 - Keylock/Range
-   * 13 - Sample Volume
-   * 14 - Bank up/Bank down
-   * 15 - Parameter 1
-   * 16 - Slip/FX
-   * 17 - Parameter 2
-   * 18 - FX ON/OFF
-   * 19 - Shift
-   * 20 - Scratch/Search
-   * 21 - Load
-   * 22 - Browse/Back
-   * 23 - Master Volume
-   * 24 - Booth Volume
-   * 25 - Cue Mix
-   * 26 - PFL
-   * 27 - Track Fadder
-   * 28 - Cross Fadder
-   * 29 - Cross Fadder assign
-   * 30 - Gain
-   * 31 - Equalizer
-   * 32 - Filter
-   * 33 - Headphone Volume
-   * 34 - Mic Volume
-   * 35 - Aux Volume
+Deck and Mixer
+^^^^^^^^^^^^^^
+.. figure:: ../../_static/controllers/gemini_g4v_top.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Gemini G4V
+   :figclass: pretty-figures
 
-Inputs and Outputs
-^^^^^^^^^^^^^^^^^^
-.. hlist::
-   :columns: 2
+===  ====================================================  ============================================================================================
+No.  Control                                               Function
+===  ====================================================  ============================================================================================
+2    :hwlabel:`SYNC` button                                Match tempo and phase of other deck. Long press to set Deck as Sync Leader.
+2    :hwlabel:`SHIFT` + :hwlabel:`SYNC` button             Disables Sync mode.
+3    :hwlabel:`PLAY/PAUSE` button                          Plays or pause the song.
+4    :hwlabel:`CUP` button                                 Starts playback from the beginning of the track.
+5    :hwlabel:`CUE` button                                 Specifies, plays or recalls main :term:`cue point`.
+6    Jog Wheel (top surface)                               Perform scratch operation.
+6    Jog Wheel (outer edge)                                Rotate to lower/raise playback speed and pitch if key lock is off).
+6    :hwlabel:`SHIFT` + Jog Wheel (top surface)            Search fast through the track location.
+6    :hwlabel:`SHIFT` + Jog Wheel (top surface)            Search fast through the track location.
+7    :hwlabel:`DECK SEL` buttons                           Switches the deck (left: decks 1 and 3, right: decks 2 and 4). If lit, deck 1/2 is active, deck 3/4 otherwise.
+8    Performance Pad mode buttons                          See :ref:`Performance Pads <gemini-g4v-performancepads>`.
+9    Performance Pads                                      See :ref:`Performance Pads <gemini-g4v-performancepads>`.
+10   :hwlabel:`TEMPO` fader                                Adjust song playback speed (and pitch if key lock if off).
+11   :hwlabel:`LOOP MOVE` knob                             Turn to move the loop in the track back and forth.
+12   :hwlabel:`KEYLOCK` button                             Toggle key lock.
+12   :hwlabel:`SHIFT` + :hwlabel:`KEYLOCK` button          Cycle through tempo slider range (8%, 16%, 50%).
+13   :hwlabel:`SAMPLE VOL` knob                            Adjust the output level for all samplers.
+14   :hwlabel:`BANK UP` button                             *Currently not mapped*
+14   :hwlabel:`SHIFT` + :hwlabel:`BANK UP` button          *Currently not mapped*
+15   :hwlabel:`PAR1` knob                                  Turn to control the effect chain's metaknob level.
+16   :hwlabel:`SLIP` button                                Press to toggle slip mode (lit if enabled).
+16   :hwlabel:`SHIFT` + :hwlabel:`SLIP` button             Scroll through effect unit's available effect chains.
+17   :hwlabel:`PAR2` knob                                  Turn to control the effect chain's mix level.
+18   :hwlabel:`FX ON/OFF` button                           Press to toggle effect unit (lit if enabled).
+19   :hwlabel:`SHIFT` button                               Hold to change the behavior of various controls (labeled under the respective button).
+20   :hwlabel:`SCRATCH` button                             *Currently not mapped.*
+20   :hwlabel:`SHIFT` + :hwlabel:`SCRATCH` button          *Currently not mapped.*
+21   :hwlabel:`LOAD` buttons                               Load track onto deck.
+21   :hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons            Unload song from deck.
+22   :hwlabel:`BROWSE` encoder                             Scrolls though the library (or moves the play position of the preview deck if a track is loaded).
+22   :hwlabel:`BROWSE` encoder (press)                     Load and play track in the preview deck (or unload the preview deck if a track is already loaded).
+22   :hwlabel:`SHIFT` + :hwlabel:`BROWSE` encoder (press)  Expand or collapse currently selected library sidebar item.
+22   :hwlabel:`BACK` button                                Moves focus through the different library windows (equivalent to pressing :kbd:`Tab` on the keyboard).
+23   :hwlabel:`MASTER` knob                                Adjusts the output level of the :hwlabel:`XLR BALANCED` and :hwlabel:`MASTER` jacks.
+24   :hwlabel:`BOOTH` knob                                 Adjusts the output level of the :hwlabel:`BOOTH` jacks.
+25   :hwlabel:`MIX` knob                                   Fades between PFL and main output in headphones.
+26   Headphone button                                      Press to toggle PFL for each channel.
+27   Channel faders                                        Adjust the output level for each channel.
+28   Crossfader                                            Fades between left and right deck.
+29   Crossfader Assignment buttons                         Change the crossfader orientation of the decks.
+30   :hwlabel:`GAIN` knob                                  Adjust the deck gain (prefader).
+31   Equalizer knobs                                       Adjust the high/mid/low-frequency regions of the channel.
+32   :hwlabel:`FILTER` knob                                QuickEffect superknob (filter by default, can be changed to a different effect in Mixxx preferences).
+===  ====================================================  ============================================================================================
 
-   * A - Master Out XLR
-   * B - Master Out RCA
-   * C - Booth Out RCA
-   * D - Aux Input
-   * E - USB Output
-   * F - Power Input
-   * G - Headphone Output
-   * H - Mic Input
+Front
+^^^^^
+.. figure:: ../../_static/controllers/gemini_g4v_front.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Gemini G4V
+   :figclass: pretty-figures
 
-Shift
------
+===  ====================================================  ============================================================================================
+No.  Control                                               Function
+===  ====================================================  ============================================================================================
+33   :hwlabel:`CUE VOL` knob                               Turn to modify headphone output volume.
+34   :hwlabel:`MIC VOL` knob                               Turn to modify microphone input volume.
+35   :hwlabel:`AUX VOL` knob                               Turn to modify auxiliary input volume.
+G    :hwlabel:`HEADPHONES` jack                            6.35mm Headphones port
+H    :hwlabel:`MIC` jack                                   6.35mm Microphone port
+===  ====================================================  ============================================================================================
 
-On each of the physical decks is a :hwlabel:`SHIFT` button.
-
-This button, when held, changes the behavior of various buttons on that deck, labeled under the respective button.
-
-Mixer
------
-
-In the middle of board, there are :hwlabel:`HIGH`, :hwlabel:`MID`, and :hwlabel:`LOW` equalizer knobs, :hwlabel:`GAIN`, and :hwlabel:`FILTER` knobs for the individual virtual decks that work as normal.
-
-The :hwlabel:`MASTER` and :hwlabel:`CUE MIX` knobs works as usual.
-
-The :hwlabel:`BOOTH` knob controls the gain of the booth audio output. This output is managed internally by the controller.
-
-Crossfader
-----------
-
-The Crossfader works as usual.
-
-The numbered buttons on the sides of the crossfader change the orientation of the virtual decks with respect to the crossfader.
-
-Deck Select Buttons
--------------------
-
-Just below the Tempo slider on either side of the board is a :hwlabel:`Deck Sel` button (1|3 on the left and 2|4 on the right).
-
-These buttons toggle the controls on the board between the virtual decks.
-When the button is not lit, the first deck (1 on the left or 2 on the right) is the active virtual deck.
-When the button is lit up, the second deck (3 on the left or 4 on the right) is the active virtual deck.
-
-Library controls
-----------------
-
-Pressing the :hwlabel:`BACK` button is equivalent to pressing the tab key, it moves the focus through the different library windows.
-
-Pressing the :hwlabel:`BROWSE` knob while the track list is active will load the selected track in the preview deck and start playing in the headphone,
-if the preview deck is already loaded it will unload it
-
-The :hwlabel:`BROWSE` knob scrolls up and down through the active list in the library display,
-if there is a track loaded in the preview deck it will move the play position back and forward.
-
-:hwlabel:`SHIFT` + :hwlabel:`Browse` knob while the left panel is active expand and collapses the different folders.
-
-Pressing :hwlabel:`1`, :hwlabel:`2`, :hwlabel:`3` or :hwlabel:`4` buttons at the top of the mixer section,
-loads the selected track from the library into the respective deck.
-
-Pressing :hwlabel:`SHIFT` + :hwlabel:`1`, :hwlabel:`SHIFT` + :hwlabel:`2`, :hwlabel:`SHIFT` + :hwlabel:`3` or :hwlabel:`SHIFT` + :hwlabel:`4`
-buttons at the top of the mixer section, unloads the respective deck.
-
-Transport Controls
-------------------
-
-The deck's :hwlabel:`Play/Pause`, :hwlabel:`CUE`, and :hwlabel:`SYNC` buttons work as usual on the active virtual deck.
-
-The deck's :hwlabel:`CUP` buttons will start playback from the beginning of the track.
-
-Jog Wheels
-----------
-
-Pressing the top of the Jog Wheel will activate scratching mode mode. It will stop playing.
-
-Turning the jog wheel will move the track play head, for scratching or fine placement.
-
-Turning the jog wheel while pressing shift will change the track play head fast, for fast search.
-
-When the jog wheel top is released, the jog wheel will stay in scratching mode until it stops moving, for spin backs or similar actions
-
-If the deck was in slip mode before entering in scratching mode, the play head will move to the position it will have been if no manipulation happened, useful for scratching without losing the beat
-
-Turning the jog wheel without pressing the top will temporarily change the tempo, for nudging.
+.. _gemini-g4v-performancepads:
 
 Performance Pads
 ----------------
@@ -216,7 +159,7 @@ It will show the sample decks if the skin has support for them.
 Pads will be lit up if they have a track loaded.
 Each deck control 8 samples, deck 1 controls samples 1 to 8, deck 2 controls samples 9 to 16, an so on.
 
-The :hwlabel:`Sample Volume` knobs control the volume for all the samples.
+The :hwlabel:`SAMPLE VOL` knobs control the volume for all the samples.
 
 Auto Loop Mode
 ^^^^^^^^^^^^^^
@@ -233,7 +176,7 @@ The :hwlabel:`LOOP MOVE` knob shifts the loop position in the track.
 Loop Roll Mode
 ^^^^^^^^^^^^^^
 
-To enable loop roll mode, press the :hwlabel:`Loop Roll` button.
+To enable loop roll mode, press the :hwlabel:`LOOP ROLL` button.
 When the performance pads are in Loop Roll mode, the Loop Roll button will be lit up
 
 Pressing a pad start a loop of the length indicated in the pad, the pad will lit up.
@@ -273,32 +216,8 @@ Pressing a pad jumps forward the number of beats indicated in the pad.
 
 Pressing a pad while holding the :hwlabel:`SHIFT` button jumps backward the number of beats indicated in the pad.
 
-FX and Effects
---------------
-
-Each virtual deck has assigned 1 Effect Unit, with the deck number being the same as the Effect Unit number.
-
-Pressing the deck's :hwlabel:`FX ON/OFF` button will enable/disable the Effect Unit corresponding to the virtual deck number.
-
-The :hwlabel:`FX ON/OFF` button is lit when the virtual deck's corresponding Effect Unit is enabled.
-
-Holding :hwlabel:`SHIFT` and pressing the :hwlabel:`FX SEL` button will scroll through the Effect Unit's effect chains.
-
-The :hwlabel:`PAR 1` and :hwlabel:`PAR 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
-
-Slip Mode
----------
-
-The :hwlabel:`SLIP` button enables/disables slip mode on the virtual deck, the button will be lit up if Slip mode is on.
-
-
-Misc Controls
--------------
-
-The :hwlabel:`KEYLOCK` button enables/disables keylock on the virtual deck.
-
 Known Issues
 ------------
 
-- The :hwlabel:`BANK UP`/:hwlabel:`BANK DOWN` buttons are not mapped.
+- The :hwlabel:`BANK UP`,:hwlabel:`BANK DOWN` buttons are not mapped.
 - The :hwlabel:`SCRATCH` button is not mapped.
