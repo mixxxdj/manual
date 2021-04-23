@@ -1,13 +1,6 @@
 Gemini G4V
 =====================
 
-.. figure:: ../../_static/controllers/gemini_g4v_topview.jpg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Behringer CMD Micro
-   :figclass: pretty-figures
-
 The Gemini G4V is a 2 deck controller that supports 4 virtual decks, a 4 way mixer and has a built-in 4 channel USB soundcard.
 It includes a Microphone input line, an Aux input line and an Booth output line. This lines are not going through the soundcard but mixed directly at the controller.
 They are not accessible nor controlled by Mixx so they will not appear in any recording nor is possible to control them via the Mixxx screen interface.
@@ -32,29 +25,93 @@ Headphones Channel 3 - 4
 Mapping Description
 -------------------
 
-Most of the board's controls work as described in the G4V's manual, with a few exceptions. Snapshots of the board's labeling from the Manual are included below:
+Most of the board's controls work as described in the G4V's manual, with a few exceptions.
+
+Snapshots of the board's labeling from the Manual are included below:
 
 
-.. figure:: ../../_static/controllers/gemini_g4v_controls.png
+Deck and mixer view
+^^^^^^^^^^^^^^^^^^^
+.. figure:: ../../_static/controllers/gemini_g4v_top.svg
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Behringer CMD Micro
+   :alt: Gemini G4V
    :figclass: pretty-figures
 
-.. figure:: ../../_static/controllers/gemini_g4v_frontview.jpg
+
+Front view
+^^^^^^^^^^
+.. figure:: ../../_static/controllers/gemini_g4v_front.svg
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Behringer CMD Micro
+   :alt: Gemini G4V
    :figclass: pretty-figures
 
-.. figure:: ../../_static/controllers/gemini_g4v_controllist.jpg
+Rear view
+^^^^^^^^^
+.. figure:: ../../_static/controllers/gemini_g4v_rear.svg
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Behringer CMD Micro
+   :alt: Gemini G4V
    :figclass: pretty-figures
+
+Control list
+^^^^^^^^^^^^
+.. hlist::
+   :columns: 2
+
+   * 1 - Power Button
+   * 2 - Sync
+   * 3 - Play/pause
+   * 4 - CUP
+   * 5 - Cue
+   * 6 - Jog Wheel
+   * 7 - Deck Select
+   * 8 - Performance pads mode select
+   * 9 - Performance pads
+   * 10 - Pith fader
+   * 11 - Loop Move
+   * 12 - Keylock/Range
+   * 13 - Sample Volume
+   * 14 - Bank up/Bank down
+   * 15 - Parameter 1
+   * 16 - Slip/FX
+   * 17 - Parameter 2
+   * 18 - FX ON/OFF
+   * 19 - Shift
+   * 20 - Scratch/Search
+   * 21 - Load
+   * 22 - Browse/Back
+   * 23 - Master Volume
+   * 24 - Booth Volume
+   * 25 - Cue Mix
+   * 26 - PFL
+   * 27 - Track Fadder
+   * 28 - Cross Fadder
+   * 29 - Cross Fadder assign
+   * 30 - Gain
+   * 31 - Equalizer
+   * 32 - Filter
+   * 33 - Headphone Volume
+   * 34 - Mic Volume
+   * 35 - Aux Volume
+
+Inputs and Outputs
+^^^^^^^^^^^^^^^^^^
+.. hlist::
+   :columns: 2
+
+   * A - Master Out XLR
+   * B - Master Out RCA
+   * C - Booth Out RCA
+   * D - Aux Input
+   * E - USB Output
+   * F - Power Input
+   * G - Headphone Output
+   * H - Mic Input
 
 Shift
 -----
