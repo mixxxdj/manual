@@ -219,5 +219,5 @@ Pressing a pad while holding the :hwlabel:`SHIFT` button jumps backward the numb
 Known Issues
 ------------
 
-- The :hwlabel:`BANK UP`,:hwlabel:`BANK DOWN` buttons are not mapped.
+- The :hwlabel:`BANK UP`/:hwlabel:`BANK DOWN` buttons are not mapped.
 - The :hwlabel:`SCRATCH` button is not mapped.
