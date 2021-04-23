@@ -132,7 +132,7 @@ The :hwlabel:`BOOTH` knob controls the gain of the booth audio output. This outp
 Crossfader
 ----------
 
-The :hwlabel:`CROSSFADER` works as usual.
+The Crossfader works as usual.
 
 The numbered buttons on the sides of the crossfader change the orientation of the virtual decks with respect to the crossfader.
 
@@ -198,7 +198,7 @@ You can can change the mode by using the mode buttons as indicated.
 Hot Cue Mode
 ^^^^^^^^^^^^
 
-To enable Hot Cue mode, press the :hwlabel:`Hot Cue` button.
+To enable Hot Cue mode, press the :hwlabel:`HOT CUE` button.
 When the performance pads are in Hot Cue mode, the Hot Cue button will be lit up.
 
 Pressing a performance pad when in Hot Cue mode will control the corresponding numbered Hot Cue (Performance Pad 1 controls Hot Cue 1, etc) on the virtual deck.
@@ -209,7 +209,7 @@ If a hot cue is set and it's corresponding performance pad is pressed while the 
 Sample Mode
 ^^^^^^^^^^^
 
-To enable Sample mode, press the :hwlabel:`Sample` button.
+To enable Sample mode, press the :hwlabel:`SAMPLE` button.
 When the performance pads are in Sample mode, the Sample button will be lit up.
 It will show the sample decks if the skin has support for them.
 
@@ -221,14 +221,14 @@ The :hwlabel:`Sample Volume` knobs control the volume for all the samples.
 Auto Loop Mode
 ^^^^^^^^^^^^^^
 
-To enable looping mode, press the :hwlabel:`Auto Loop` button.
+To enable looping mode, press the :hwlabel:`AUTO LOOP` button.
 When the performance pads are in Auto Loop mode, the Auto Loop button will be lit up.
 
 Pressing a pad starts a loop of the length indicated in the pad, the pad will lit up.
 Pressing the lit pad stop the loop.
-Pressing a different pad will stop the first pad and will Cstart a new loop.
+Pressing a different pad will stop the current loop and start a new one.
 
-The :hwlabel:`Loop Move` knob shifts the loop position in the track.
+The :hwlabel:`LOOP MOVE` knob shifts the loop position in the track.
 
 Loop Roll Mode
 ^^^^^^^^^^^^^^
@@ -239,21 +239,21 @@ When the performance pads are in Loop Roll mode, the Loop Roll button will be li
 Pressing a pad start a loop of the length indicated in the pad, the pad will lit up.
 Releasing the pad will end the loop and the track position will move to the position it will have been if the loop never happened.
 
-The:hwlabel:`Loop Move` knob shifts the loop position in the virtual deck.
+The :hwlabel:`LOOP MOVE` knob shifts the loop position in the virtual deck.
 
 Manual Loop Mode
 ^^^^^^^^^^^^^^^^
 
-To enable Manual Loop mode, press the :hwlabel:`Loop Roll` button while holding the Shift button.
-When the performance pads are in Manual Loop mode, the :hwlabel:`Loop Roll` button will flash.
+To enable Manual Loop mode, press the :hwlabel:`LOOP ROLL` button while holding the Shift button.
+When the performance pads are in Manual Loop mode, the :hwlabel:`LOOP ROLL` button will flash.
 
 When a manual loop is set, all 8 performance pads are lit.
 
-Performance pad 1 sets the loop IN point.
+Performance pad 1 sets the loop in point.
 
-Performance pad 2 sets the loop OUT point.
+Performance pad 2 sets the loop out point.
 
-Performance pads 3 enables and disables the loop once the IN and OUT points are set.
+Performance pads 3 enables and disables the loop once the in and out points are set.
 
 Performance pad 5 doubles the length of the loop.
 
@@ -266,12 +266,12 @@ Performance pad 8 moves the loop 1 beat forward.
 Beat Jump Mode
 ^^^^^^^^^^^^^^
 
-To enable Beat Jump mode, press the :hwlabel:`Sample`  button while holding the :hwlabel:`Shift` button.
-When the performance pads are in Beat Jump mode, the :hwlabel:`Sample` button will flash
+To enable Beat Jump mode, press the :hwlabel:`SAMPLE`  button while holding the :hwlabel:`SHIFT` button.
+When the performance pads are in Beat Jump mode, the :hwlabel:`SAMPLE` button will flash
 
 Pressing a pad jumps forward the number of beats indicated in the pad.
 
-Pressing a pad while holding the :hwlabel:`Shift` button jumps backward the number of beats indicated in the pad.
+Pressing a pad while holding the :hwlabel:`SHIFT` button jumps backward the number of beats indicated in the pad.
 
 FX and Effects
 --------------
@@ -282,26 +282,23 @@ Pressing the deck's :hwlabel:`FX ON/OFF` button will enable/disable the Effect U
 
 The :hwlabel:`FX ON/OFF` button is lit when the virtual deck's corresponding Effect Unit is enabled.
 
-Holding :hwlabel:`Shift` and pressing the :hwlabel:`FX Select` button will scroll through the Effect Unit's effect chains.
+Holding :hwlabel:`SHIFT` and pressing the :hwlabel:`FX SEL` button will scroll through the Effect Unit's effect chains.
 
-The :hwlabel:`Par 1` and :hwlabel:`Par 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
+The :hwlabel:`PAR 1` and :hwlabel:`PAR 2` knobs control the meta knob and the effect mix level, respectively, for the Effect Chain.
 
 Slip Mode
 ---------
 
-The :hwlabel:`Slip` button enables/disables slip mode on the virtual deck, the button will be lit up if Slip mode is on.
+The :hwlabel:`SLIP` button enables/disables slip mode on the virtual deck, the button will be lit up if Slip mode is on.
 
 
 Misc Controls
 -------------
 
-    The :hwlabel:`Keylock` button enables/disables keylock on the virtual deck.
+The :hwlabel:`KEYLOCK` button enables/disables keylock on the virtual deck.
 
-Unused controls
----------------
+Known Issues
+------------
 
-Below is a list of controls on the board that currently do not have any functionality.
-
-The :hwlabel:`Bank Up/Bank Down` button.
-
-The :hwlabel:`Scratch` button.
+- The :hwlabel:`BANK UP`/:hwlabel:`BANK DOWN` buttons are not mapped.
+- The :hwlabel:`SCRATCH` button is not mapped.
