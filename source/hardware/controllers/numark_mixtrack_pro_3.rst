@@ -305,7 +305,7 @@ to turn off Play on Sync Double Press.
 27. Cue (Transport Control)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
+| Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
 | :hwlabel:`SHIFT` + :hwlabel:`CUE`: Return the play head to the start of the track.
 
 28. Play/Pause
