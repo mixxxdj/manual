@@ -144,7 +144,7 @@ Hot Cue Mode
 To enable Hot Cue mode, press the :hwlabel:`HOT CUE` button.
 When the performance pads are in Hot Cue mode, the Hot Cue button will be lit up.
 
-Pressing a performance pad when in Hot Cue mode will control the corresponding numbered Hot Cue (Performance Pad 1 controls Hot Cue 1, etc) on the virtual deck.
+Pressing a performance pad when in Hot Cue mode will control the corresponding numbered Hot Cue (:hwlabel:`Pad 1` controls Hot Cue 1, etc) on the virtual deck.
 If the corresponding Hot Cue isn't set, pressing the performance pad will set a hot cue at that point.
 If the corresponding Hot Cue is set, pressing the performance pad will move playback to that hot cue.
 If a hot cue is set and it's corresponding performance pad is pressed while the deck's Shift button is being held, the hot cue will be deleted.
@@ -192,19 +192,23 @@ When the performance pads are in Manual Loop mode, the :hwlabel:`LOOP ROLL` butt
 
 When a manual loop is set, all 8 performance pads are lit.
 
-Performance pad 1 sets the loop in point.
+================ ===========================================================================
+Pad                Function
+================ ===========================================================================
+:hwlabel:`pad 1` Sets the loop in point.
 
-Performance pad 2 sets the loop out point.
+:hwlabel:`pad 2` Sets the loop out point.
 
-Performance pads 3 enables and disables the loop once the in and out points are set.
+:hwlabel:`pad 3` Enables and disables the loop once the in and out points are set.
 
-Performance pad 5 doubles the length of the loop.
+:hwlabel:`pad 5` Doubles the length of the loop.
 
-Performance pad 6 halves the length of the loop.
+:hwlabel:`pad 6` Halves the length of the loop.
 
-Performance pad 7 moves the loop 1 beat backward.
+:hwlabel:`pad 7` Moves the loop 1 beat backward.
 
-Performance pad 8 moves the loop 1 beat forward.
+:hwlabel:`pad 8` Moves the loop 1 beat forward.
+================ ===========================================================================
 
 Beat Jump Mode
 ^^^^^^^^^^^^^^
