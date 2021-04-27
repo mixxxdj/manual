@@ -9,7 +9,8 @@ NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
 
 i=1
 
-mkdir -p build/pdf
+OUTPUT_DIR="build/pdf/${VERSION}"
+mkdir -p "${OUTPUT_DIR}"
 for lang in $LANGUAGES
 do
     printf -- '----- Building language "%s"... [%d/%d] -----\n' "$lang" "$i" "$NUM_LANGUAGES"
@@ -31,6 +32,7 @@ do
 
     sphinx-build -b latex source "${BUILDDIR}" ${SPHINXOPTS}
     make -C "${BUILDDIR}" LATEXMKOPTS="${LATEXMKOPTS}" all-pdf >/dev/null
-    [ -e "${BUILDDIR}/Mixxx-Manual.pdf" ] && cp "${BUILDDIR}/Mixxx-Manual.pdf" "build/pdf/mixxx-manual-${VERSION}-${lang}.pdf"
+
+    [ -e "${BUILDDIR}/Mixxx-Manual.pdf" ] && cp "${BUILDDIR}/Mixxx-Manual.pdf" "${OUTPUT_DIR}/mixxx-manual-${VERSION}-${lang}.pdf"
     i=$((i + 1))
 done
