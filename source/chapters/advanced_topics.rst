@@ -165,7 +165,7 @@ The following extensions add some features to ``ControlPotMeter`` controls
 ``[SamplerN]``, ``[Master]``, ... groups.
 
 ================== ============================================================
-Control Suffix     Description
+Control Suffix     Description, example
 ================== ============================================================
 ``_up``            Increases the value, e.g. :mixxx:coref:`[ChannelN],rate_perm_up` sets the speed one step higher (4 % default)
 ``_down``          Decreases the value, sets the speed one step lower (4 % default)
@@ -173,7 +173,8 @@ Control Suffix     Description
 ``_down_small``    Decreases the value by smaller step, sets the speed one small step lower (1 % default)
 ``_set_one``       Sets the value to 1.0, sets the channel volume to full
 ``_set_minus_one`` Sets the value to -1.0, sets the channel volume to zero
-``_set_default``   Sets the control to its default, return to default waveform zoom level
+``_set_default``   Input: sets the control to its default, return to default waveform zoom level
+``_set_default``   Output: set to 1.0 if the control is at its default, light up the pitch fader center indicator
 ``_set_zero``      Sets the value to 0.0, put the crossfader in the middle again
 ``_toggle``        Sets the value to 0.0 if the value was > 0.0, and to 1.0 if the value was 0.0, will cut off/on a track while you're playing
 ``_minus_toggle``  Sets the value to -1.0 if the value was > -1.0, and to 1.0 if the value was -1.0, can tilt the crossfader from left to right
