@@ -194,7 +194,7 @@ direction
 | Adjusts the Dry/Wet mix of the deck’s Effect Unit
 | :hwlabel:`TAP` + :hwlabel:`BEATS`: Moves the beat grid left (turn counterclockwise) or
   right (turn clockwise)
-| :hwlabel:`SHIFT` + :hwlabel:`BEATS`: Adjust beatjup amount
+| :hwlabel:`SHIFT` + :hwlabel:`BEATS`: Adjust beatjump amount
 | :hwlabel:`PADMODE` + :hwlabel:`BEATS`: Adjust Sampler Volume.
   Left beat knob will adjust Samplers 1-4; Right knob will adjust Samplers 5-8
 
