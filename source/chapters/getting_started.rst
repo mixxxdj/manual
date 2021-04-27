@@ -188,7 +188,7 @@ interface, use these outputs.
 
 * *Decks 1-4*: the individual unmixed decks to send to an external mixer
 * *Bus Left/Center/Right*: all decks, samplers, and auxiliary inputs
-  assigned to each side of Mixxx's crossfader
+  assigned to each side of Mixxx's :term:`crossfader`
 
 Input Options
 -------------
