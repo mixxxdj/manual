@@ -576,13 +576,24 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_active
                    [SamplerN],beat_active
 
-   Indicates whether the player is currently positioned within 50 milliseconds of a beat or not.
-   This can be used to make controller LEDs blink on every beat.
+   Indicates, depending on the play direction, how the player is currently positioned to the closest beat.
 
-   :range: binary
+   An LED controlled by beat_active can be used for beat matching or for finding a beat using jog or control vinyl.
+
+   .. note:: In case of fractional loops (e.g. 1/32), the rate of beat events can be very high. You should test if your controller is capable to process this update rate. If not, inhibt the beat indication for short loops, depending on the value of `[ChannelN],beatloop_size`.
+
+   ===== ================== =============================================================================================
+   Value Play direction     Position
+   ===== ================== =============================================================================================
+    0                       Set when play direction changes or +-20% of the distance to the previous/next beat is reached
+    1    Forward            Set at a beat
+    2    Reverse            Set at a beat
+   ===== ================== =============================================================================================
+
+   :range: real number, read-only
    :feedback: None
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 1.10.0 (Reverse indication added in 2.4.0)
 
 
 .. mixxx:control:: [ChannelN],beatjump
