@@ -165,7 +165,7 @@ The following extensions add some features to ``ControlPotMeter`` controls
 ``[SamplerN]``, ``[Master]``, ... groups.
 
 ================== ============================================================
-Control Suffix     Description
+Control Suffix     Description, example
 ================== ============================================================
 ``_up``            Increases the value, e.g. :mixxx:coref:`[ChannelN],rate_perm_up` sets the speed one step higher (4 % default)
 ``_down``          Decreases the value, sets the speed one step lower (4 % default)
@@ -173,7 +173,8 @@ Control Suffix     Description
 ``_down_small``    Decreases the value by smaller step, sets the speed one small step lower (1 % default)
 ``_set_one``       Sets the value to 1.0, sets the channel volume to full
 ``_set_minus_one`` Sets the value to -1.0, sets the channel volume to zero
-``_set_default``   Sets the control to its default, return to default waveform zoom level
+``_set_default``   Input: sets the control to its default, return to default waveform zoom level
+``_set_default``   Output: set to 1.0 if the control is at its default, light up the pitch fader center indicator
 ``_set_zero``      Sets the value to 0.0, put the crossfader in the middle again
 ``_toggle``        Sets the value to 0.0 if the value was > 0.0, and to 1.0 if the value was 0.0, will cut off/on a track while you're playing
 ``_minus_toggle``  Sets the value to -1.0 if the value was > -1.0, and to 1.0 if the value was -1.0, can tilt the crossfader from left to right
@@ -596,6 +597,24 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0 (Reverse indication added in 2.4.0)
 
 
+.. mixxx:control:: [ChannelN],beat_closest
+                   [PreviewDeckN],beat_closest
+                   [SamplerN],beat_closest
+
+
+   Its value is set to the sample position of the closest beat of the active beat and is used for updating the beat LEDs.
+   :range: -1, 0.0, real-valued
+   :feedback: None
+
+.. mixxx:control:: [ChannelN],beat_distance
+                   [PreviewDeckN],beat_distance
+                   [SamplerN],beat_distance
+
+   Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+   :range: 0.0 - 1.0, real-valued
+   :feedback: None
+
+
 .. mixxx:control:: [ChannelN],beatjump
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
@@ -911,6 +930,38 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],cue_cdj
+                   [PreviewDeckN],cue_cdj
+                   [SamplerN],cue_cdj
+
+   Represents a :guilabel:`Cue` button that is always in :term:`CDJ` mode.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],cue_clear
+                   [PreviewDeckN],cue_clear
+                   [SamplerN],cue_clear
+
+   Deletes the already set cue point and sets :mixxx:coref:`[ChannelN],cue_point` to -1.
+
+   :range: binary
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],cue_goto
+                   [PreviewDeckN],cue_goto
+                   [SamplerN],cue_goto
+
+   If the cue point is set, recalls the cue point.
+
+   :range: binary
+   :feedback: Player may change position
+
+
 .. mixxx:control:: [ChannelN],cue_default
                    [PreviewDeckN],cue_default
                    [SamplerN],cue_default
@@ -949,24 +1000,34 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_indicator
                    [SamplerN],cue_indicator
 
-   Provides information to be bound to the :guilabel:`Cue` Button e.g. blinking when next press will move the :term:`cue point`
+   Indicates the blinking pattern of the :guilabel:`CUE` button (i.e. 1.0 if the button is illuminated, 0.0 otherwise), depending on the chosen :mixxx:coref:`cue mode <[ChannelN],cue_mode>`.
 
    :range: binary
    :feedback: :guilabel:`Cue` button
 
    .. versionadded:: 2.0.0
 
+.. mixxx:control:: [ChannelN],cue_mode
+                   [PreviewDeckN],cue_mode
+                   [SamplerN],cue_mode
 
-.. mixxx:control:: [ChannelN],cue_cdj
-                   [PreviewDeckN],cue_cdj
-                   [SamplerN],cue_cdj
+   Represents the currently chosen :ref:`cue mode <interface-cue-modes>`.
 
-   Represents a :guilabel:`Cue` button that is always in :term:`CDJ` mode.
+   :range:
+      ===== =============================
+      Value compatible hardware
+      ===== =============================
+      0.0   Mixxx mode (default)
+      1.0   Pioneer mode
+      2.0   Denon mode
+      3.0   Numark mode
+      4.0   Mixxx mode (no blinking)
+      5.0   CUP (Cue + Play) mode
+      ===== =============================
 
-   :range: binary
+
+
    :feedback: None
-
-   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],cue_play
@@ -985,7 +1046,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_point
                    [SamplerN],cue_point
 
-   The current position of the :term:`cue point` in samples
+   The current position of the :term:`cue point` in samples.
 
    :range: absolute value
    :feedback: Cue point marker
@@ -995,7 +1056,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_preview
                    [SamplerN],cue_preview
 
-   Plays from the current :term:`cue point`
+   Plays from the current :term:`cue point`.
 
    :range: binary
    :feedback: :guilabel:`Cue` button lights and waveform moves
@@ -1005,7 +1066,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_set
                    [SamplerN],cue_set
 
-   Sets a :term:`cue point` at the current location
+   Sets a :term:`cue point` at the current location.
 
    :range: binary
    :feedback: :term:`Cue <cue>` mark appears on the waveform
@@ -1565,6 +1626,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Track name & waveform change & Play/pause button
 
    .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ChannelN],local_bpm
+                   [PreviewDeckN],local_bpm
+                   [SamplerN],local_bpm
+
+   Reflects the average bpm around the current play position of the loaded file.
+
+   :range: positive value
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],loop_double
@@ -3522,6 +3593,24 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.3.0
 
+The ``[Shoutcast]`` controls
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:control:: [Shoutcast],enabled
+
+   Shows if live Internet broadcasting is enabled.
+
+   :range: ?
+   :feedback: shoutcast only supports mp3 format as field
+
+
+.. mixxx:control:: [Shoutcast],status
+
+   This control displays whether broadcasting connection to Shoutcast server was successfully established.
+
+   :range: binary
+   :feedback: None
+
 
 The ``[Playlist]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3571,10 +3660,11 @@ This group is going to be deprecated at some point, with its controls added to `
 
 
 .. mixxx:control:: [Playlist],SelectPrevPlaylist
+
     :range: binary
     :feedback: Library sidebar
 
-    Switches to the previous view (Library, Queue, etc.)
+   Switches to the previous view (Library, Queue, etc.)
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[Library],MoveUp` instead.
@@ -3636,6 +3726,19 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
 
    .. versionadded:: 2.3.0
 
+.. mixxx:control:: [Controls],ShowDurationRemaining
+
+   Represents the current state of the remaining time duration display of the loaded track.
+
+   :range:
+      ===== ===========================================================================
+      Value Meaning
+      ===== ===========================================================================
+      0     currently showing elapsed time, sets to remaining time
+      1     currently showing remaining time , sets to elapsed time
+      2     currently showing both (that means we are showing remaining, set to elapsed
+      ===== ===========================================================================
+   :feedback: None
 
 .. _advanced-mixxxcontrols-effects:
 
