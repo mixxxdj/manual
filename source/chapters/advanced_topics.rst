@@ -3385,7 +3385,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.3.0
 
-The ``[Broadcast]`` controls
+The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. mixxx:control:: [Shoutcast],enabled
