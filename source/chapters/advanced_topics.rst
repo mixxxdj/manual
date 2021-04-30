@@ -999,7 +999,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_mode
                    [SamplerN],cue_mode
 
-   Decides which cue mode to call based on the user preference and compatible hardware.
+   Represents the currently chosen :ref:`cue mode <interface-cue-modes>`.
 
    :range:
       ===== =============================
