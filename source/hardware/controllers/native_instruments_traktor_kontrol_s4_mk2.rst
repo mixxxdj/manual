@@ -56,7 +56,7 @@ Control                                             Description
 :hwlabel:`LOOP RECORD`                              Toggles recording
 :hwlabel:`LOOP RECORDER PLAY`                       Hold down and press :hwlabel:`FLUX` button on a deck to enable autoslip mode on that deck.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
-:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN`      Increase / decrease the BPM of the track by 0.5. Press the encoder to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
+:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN`     Increase / decrease the BPM of the track by 0.5. Press the encoder to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
 :hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Pressing acts like a double click on the mouse.
 ==================================================  =========================================================================
 
