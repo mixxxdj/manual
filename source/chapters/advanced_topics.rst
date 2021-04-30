@@ -934,7 +934,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_clear
                    [SamplerN],cue_clear
 
-   Deletes the already set cue point and sets :mixxx:coref:`[ChannelN],cue` to 0.
+   Deletes the already set cue point and sets :mixxx:coref:`[ChannelN],cue_point` to -1.
 
    :range: binary
    :feedback: None
