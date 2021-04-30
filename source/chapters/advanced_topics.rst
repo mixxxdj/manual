@@ -3390,7 +3390,7 @@ The ``[Shoutcast]`` controls
 
 .. mixxx:control:: [Shoutcast],enabled
 
-   This control shows if live Internet broadcasting is enabled with Shoutcast server connection. :term:`Shoutcast <shoutcast>` feeds to and from the stream.
+   Shows if live Internet broadcasting is enabled.
 
    :range: ?
    :feedback: shoutcast only supports mp3 format as field
