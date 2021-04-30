@@ -598,8 +598,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_distance
                    [SamplerN],beat_distance
 
-   Outputs the distance to the nearest beat of the active beat.
-   :range: 0.0, real-valued
+   Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+   :range: 0.0 - 1.0, real-valued
    :feedback: None
 
 
