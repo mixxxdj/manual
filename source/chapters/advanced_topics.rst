@@ -988,7 +988,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],cue_indicator
                    [SamplerN],cue_indicator
 
-   Provides information to be bound to the :guilabel:`Cue` Button e.g. blinking when next press will move the :term:`cue point`.
+   Indicates the blinking pattern of the :guilabel:`CUE` button (i.e. 1.0 if the button is illuminated, 0.0 otherwise), depending on the chosen :mixxx:coref:`cue mode <[ChannelN],cue_mode>`.
 
    :range: binary
    :feedback: :guilabel:`Cue` button
