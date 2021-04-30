@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"POT-Creation-Date: 2021-04-30 14:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgid "With several dozens of DJ controllers supported out-of-the-box, Mixxx giv
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:14
-msgid "Support for additional devices can be added to Mixxx by creating a new preset file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx understands."
+msgid "Support for additional devices can be added to Mixxx by creating a new mapping file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx understands."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:18
-msgid "You can download and share custom controller presets in the `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
+msgid "You can download and share custom controller mappings in the `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:25
@@ -45,7 +45,7 @@ msgid "Mixxx Controller Wizard -  Mapping a control"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:36
-msgid "By far, the easiest way to create a new MIDI preset is by using the Controller Wizard."
+msgid "By far, the easiest way to create a new MIDI mapping is by using the Controller Wizard."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:39
@@ -117,7 +117,7 @@ msgid "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning 
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:74
-msgid "The Controller wizard saves the new preset to the following file paths:"
+msgid "The Controller wizard saves the new mapping to the following file paths:"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:76
@@ -133,7 +133,7 @@ msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\controllers`"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:80
-msgid "You can then modify the XML file it creates (or any of the ones that ship with Mixxx) if you'd like to fine-tune it or add more presets. For more information, go to `<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
+msgid "You can then modify the XML file it creates (or any of the ones that ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:85
@@ -153,209 +153,4717 @@ msgid "It enables MIDI controls to be mapped to `QtScript <https://en.wikipedia.
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:106
-msgid "For more information, go to `<https://mixxx.org/wiki/doku.php/midi_scripting>`_ and `<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
+msgid "For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_ and `<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:112
-msgid "Making a Custom Keyboard Mapping"
+#: ../../chapters/advanced_topics.rst:113
+msgid "Mixxx Controls"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:114
-msgid "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text file which can be found at the following location:"
+#: ../../chapters/advanced_topics.rst:115
+msgid "Nearly every knob, button, or fader you see in Mixxx's interface is controllable via Mixxx's \"control\" system. The control system allows skins, :term:`MIDI` controllers, :term:`HID` controllers and keyboards to control Mixxx via a single interface."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:117
-msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:120
+msgid "A control is identified by a \"group\" (which is used for grouping associated controls) and a \"key\" (the name of the individual control)."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:118
-msgid "macOS: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:123
+msgid "For example, the volume fader for Deck 1 is identified by the group :mixxx:cogroupref:`[Channel1] <[ChannelN]>` and key :mixxx:coref:`volume <[Channel1],volume>`. Similarly, the volume fader for Sampler 1 is identified by the group :mixxx:cogroupref:`[Sampler1] <[SamplerN]>` and key :mixxx:coref:`volume <[Sampler1],volume>`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:119
-msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:121
-msgid "Depending on your system's language settings, Mixxx might use a different file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg` for Spanish."
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:125
-msgid "It is not recommended that you modify the system-wide keyboard mapping file because all your changes may be lost if you uninstall or upgrade Mixxx. Instead, copy the default mapping file to the following location:"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:129
-msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:130
-msgid "macOS: :file:`~/Library/Application\\\\ Support/Mixxx/Custom.kbd.cfg`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:131
-msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:128
+msgid "The group is used to collect all the controls that affect one component of Mixxx into one collection. Some groups have a high overlap of controls in common (e.g. samplers, decks, and the preview deck all share the same control keys)."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:133
-msgid "Then edit this file and save the changes. On the next startup, Mixxx will check if :file:`Custom.kbd.cfg` is present and load that file instead of the default mapping file. This has the advantage that you can always revert back to the default mapping by deleting :file:`Custom.kbd.cfg`."
+msgid "In addition to controlling Mixxx, the control system can be used to inspect Mixxx's state. For example, the sample rate of the track loaded in Deck 1 can be accessed via the :mixxx:coref:`[Channel1],track_samplerate` control. You can read the :mixxx:coref:`[Channel3],play` control to determine whether Deck 3 is playing."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:138
-msgid "For a list of controls that can be used in a keyboard mapping, see `<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_."
+#: ../../chapters/advanced_topics.rst:139
+msgid "The default value range is 0.0 to 1.0, unless otherwise noted. Binary means that it is either 'ON' (non-zero) or 'OFF' (zero)."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:141
-msgid "You can download and share custom keyboard mappings in the `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
+#: ../../chapters/advanced_topics.rst:142
+msgid "Discovering Controls used in Skins"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:147
-msgid "Additional Effects via external Mixer Mode"
+#: ../../chapters/advanced_topics.rst:144
+msgid "You can view the control connected to any part of a skin by running Mixxx with the ``--developer`` command line option and hovering your mouse cursor over part of the skin. If no tooltip appears, enable tooltips for the Library and Skin in :menuselection:`Options --> Preferences --> Interface`."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:149
-msgid "Mixxx comes with a set of :ref:`native effects <effects>`. Additionally, using the :ref:`external mixer mode <intro-how-mixxx-works>` you can route each deck directly to 3rd party effect hosts."
+msgid "Changing any control from the GUI in Developer Mode"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:153
-msgid "The following examples are only intended to encourage experimentation, they are not definitive guidance."
+#: ../../chapters/advanced_topics.rst:151
+msgid "When running Mixxx in Developer Mode (with the ``--developer`` command line option), you can view and manually set the state of any control in Mixxx by going to :menuselection:`Developer --> Developer Tools`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:157
-msgid "Effects via AU Lab on macOS"
+#: ../../chapters/advanced_topics.rst:155
+msgid "See :ref:`controlindex` for a full list."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:166
-msgid "The Au Lab routing for external effects on macOS"
+#: ../../chapters/advanced_topics.rst:161
+msgid "ControlPotMeter controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:163
+msgid "The following extensions add some features to ``ControlPotMeter`` controls (volume, :term:`crossfader`, ...). Use in conjunction with ``[ChannelN]``, ``[SamplerN]``, ``[Master]``, ... groups."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:168
-msgid "On macOS there is a simple and free way to give Mixxx access to the collection of AU/VST/MAS plugins that are installed on your system."
+msgid "Control Suffix"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:168
+msgid "Description, example"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:170
+msgid "``_up``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:170
+msgid "Increases the value, e.g. :mixxx:coref:`[ChannelN],rate_perm_up` sets the speed one step higher (4 % default)"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:171
-msgid "Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_, a system extension for inter-application audio routing."
+msgid "``_down``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:171
+msgid "Decreases the value, sets the speed one step lower (4 % default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:172
+msgid "``_up_small``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:172
+msgid "Increases the value by smaller step, sets the speed one small step higher (1 % default)"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:173
-msgid "Install the free digital audio mixing application `AU Lab <https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_."
+msgid "``_down_small``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:173
+msgid "Decreases the value by smaller step, sets the speed one small step lower (1 % default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:174
+msgid "``_set_one``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:174
+msgid "Sets the value to 1.0, sets the channel volume to full"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:175
+msgid "``_set_minus_one``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:175
+msgid "Sets the value to -1.0, sets the channel volume to zero"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:176
-msgid "macOS 10.15 (Catalina) introduces additional restrictions on running non-Apple software. Make sure to grant permission in `System Preferences --> Security & Privacy --> Microphone --> AU Lab`."
+#: ../../chapters/advanced_topics.rst:177
+msgid "``_set_default``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:176
+msgid "Input: sets the control to its default, return to default waveform zoom level"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:177
+msgid "Output: set to 1.0 if the control is at its default, light up the pitch fader center indicator"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:178
+msgid "``_set_zero``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:178
+msgid "Sets the value to 0.0, put the crossfader in the middle again"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:179
+msgid "``_toggle``"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:179
+msgid "Sets the value to 0.0 if the value was > 0.0, and to 1.0 if the value was 0.0, will cut off/on a track while you're playing"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:180
-msgid "Alternatively, try `Blackhole <https://github.com/ExistentialAudio/BlackHole>`_, a modern virtual audio driver that allows applications to pass audio to other applications with zero additional latency, and `Hosting AU <http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that hosts Audio Unit instruments and effect plugins."
+msgid "``_minus_toggle``"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:186
-msgid "**In Mixxx**"
+#: ../../chapters/advanced_topics.rst:180
+msgid "Sets the value to -1.0 if the value was > -1.0, and to 1.0 if the value was -1.0, can tilt the crossfader from left to right"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:188
-msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:189
-msgid "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 1-2`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:191
-msgid "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 3-4`"
+#: ../../chapters/advanced_topics.rst:183
+msgid "These controls can be used in JavaScript files like this:"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:193
-msgid "Click the :guilabel:`Apply` button"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:195
-msgid "**In AU Lab**"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:197
-msgid "Click on the :guilabel:`+` button to create a new configuration"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:198
-msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:199
-msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:200
-msgid "Click :guilabel:`OK`"
+msgid "To use ``*_toggle`` the respective shortcut for scripts is:"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:201
-msgid "Change the audio input device to :guilabel:`Soundflower 16`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:202
-msgid "Change the audio output device for example to :guilabel:`Built-in Output`"
+msgid "The ``[Master]`` group"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:203
-msgid "Click :guilabel:`Create document`"
+msgid "The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine. This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.)."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:204
-msgid "In the :guilabel:`Output 1` channel, select an effect from the drop-down menu, for example :guilabel:`Apple > AUCompressor`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:207
-msgid "The effect should now react if you play a track in Mixxx."
+#: ../../chapters/advanced_topics.rst:208
+msgid "Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:210
-msgid "Effects via JACK Rack on GNU/Linux"
+#: ../../chapters/advanced_topics.rst:222
+#: ../../chapters/advanced_topics.rst:244
+#: ../../chapters/advanced_topics.rst:264
+#: ../../chapters/advanced_topics.rst:276
+#: ../../chapters/advanced_topics.rst:322
+#: ../../chapters/advanced_topics.rst:344
+#: ../../chapters/advanced_topics.rst:367
+#: ../../chapters/advanced_topics.rst:379
+#: ../../chapters/advanced_topics.rst:457
+#: ../../chapters/advanced_topics.rst:467
+#: ../../chapters/advanced_topics.rst:477
+#: ../../chapters/advanced_topics.rst:505
+#: ../../chapters/advanced_topics.rst:515
+#: ../../chapters/advanced_topics.rst:525
+#: ../../chapters/advanced_topics.rst:878
+#: ../../chapters/advanced_topics.rst:1816
+#: ../../chapters/advanced_topics.rst:1827
+#: ../../chapters/advanced_topics.rst:1841
+#: ../../chapters/advanced_topics.rst:1866
+#: ../../chapters/advanced_topics.rst:1904
+#: ../../chapters/advanced_topics.rst:1966
+#: ../../chapters/advanced_topics.rst:1978
+#: ../../chapters/advanced_topics.rst:2002
+#: ../../chapters/advanced_topics.rst:2103
+#: ../../chapters/advanced_topics.rst:2115
+#: ../../chapters/advanced_topics.rst:2407
+#: ../../chapters/advanced_topics.rst:2519
+#: ../../chapters/advanced_topics.rst:2533
+#: ../../chapters/advanced_topics.rst:2545
+#: ../../chapters/advanced_topics.rst:2557
+#: ../../chapters/advanced_topics.rst:2903
+#: ../../chapters/advanced_topics.rst:2916
+#: ../../chapters/advanced_topics.rst:2929
+#: ../../chapters/advanced_topics.rst:2960
+#: ../../chapters/advanced_topics.rst:2973
+#: ../../chapters/advanced_topics.rst:2995
+#: ../../chapters/advanced_topics.rst:3008
+#: ../../chapters/advanced_topics.rst:3021
+#: ../../chapters/advanced_topics.rst:3722
+#: ../../chapters/advanced_topics.rst:3787
+#: ../../chapters/advanced_topics.rst:3879
+#: ../../chapters/advanced_topics.rst:3900
+msgid "This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:219
-msgid "The Jack routing for external effects on GNU/Linux"
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+msgid "range"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:221
-msgid "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_ effect racks, or for more control you can use Ardour (or another :term:`DAW`) using sends for effects. This gives Mixxx access to the extensive collection of :term:`LADSPA` plugins."
+#: ../../chapters/advanced_topics.rst:212
+msgid "0 .. 25 %"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:227
-msgid "Make sure the correct multichannel audio interface has been selected in Jack (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack ports as :guilabel:`Portaudio`."
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+#: ../../chapters/advanced_topics.rst:0
+msgid "feedback"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:213
+msgid "latency meter"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:220
+msgid "Indicates a buffer under or over-flow. Resets after 500 ms"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:224
+#: ../../chapters/advanced_topics.rst:254
+#: ../../chapters/advanced_topics.rst:286
+#: ../../chapters/advanced_topics.rst:294
+#: ../../chapters/advanced_topics.rst:304
+#: ../../chapters/advanced_topics.rst:312
+#: ../../chapters/advanced_topics.rst:334
+#: ../../chapters/advanced_topics.rst:357
+#: ../../chapters/advanced_topics.rst:389
+#: ../../chapters/advanced_topics.rst:407
+#: ../../chapters/advanced_topics.rst:459
+#: ../../chapters/advanced_topics.rst:469
+#: ../../chapters/advanced_topics.rst:479
+#: ../../chapters/advanced_topics.rst:572
+#: ../../chapters/advanced_topics.rst:583
+#: ../../chapters/advanced_topics.rst:637
+#: ../../chapters/advanced_topics.rst:649
+#: ../../chapters/advanced_topics.rst:661
+#: ../../chapters/advanced_topics.rst:673
+#: ../../chapters/advanced_topics.rst:685
+#: ../../chapters/advanced_topics.rst:697
+#: ../../chapters/advanced_topics.rst:722
+#: ../../chapters/advanced_topics.rst:734
+#: ../../chapters/advanced_topics.rst:746
+#: ../../chapters/advanced_topics.rst:758
+#: ../../chapters/advanced_topics.rst:770
+#: ../../chapters/advanced_topics.rst:782
+#: ../../chapters/advanced_topics.rst:794
+#: ../../chapters/advanced_topics.rst:806
+#: ../../chapters/advanced_topics.rst:818
+#: ../../chapters/advanced_topics.rst:830
+#: ../../chapters/advanced_topics.rst:842
+#: ../../chapters/advanced_topics.rst:854
+#: ../../chapters/advanced_topics.rst:866
+#: ../../chapters/advanced_topics.rst:892
+#: ../../chapters/advanced_topics.rst:928
+#: ../../chapters/advanced_topics.rst:940
+#: ../../chapters/advanced_topics.rst:950
+#: ../../chapters/advanced_topics.rst:960
+#: ../../chapters/advanced_topics.rst:970
+#: ../../chapters/advanced_topics.rst:982
+#: ../../chapters/advanced_topics.rst:994
+#: ../../chapters/advanced_topics.rst:1028
+#: ../../chapters/advanced_topics.rst:1050
+#: ../../chapters/advanced_topics.rst:1060
+#: ../../chapters/advanced_topics.rst:1070
+#: ../../chapters/advanced_topics.rst:1090
+#: ../../chapters/advanced_topics.rst:1102
+#: ../../chapters/advanced_topics.rst:1144
+#: ../../chapters/advanced_topics.rst:1159
+#: ../../chapters/advanced_topics.rst:1171
+#: ../../chapters/advanced_topics.rst:1206
+#: ../../chapters/advanced_topics.rst:1218
+#: ../../chapters/advanced_topics.rst:1230
+#: ../../chapters/advanced_topics.rst:1254
+#: ../../chapters/advanced_topics.rst:1278
+#: ../../chapters/advanced_topics.rst:1290
+#: ../../chapters/advanced_topics.rst:1302
+#: ../../chapters/advanced_topics.rst:1314
+#: ../../chapters/advanced_topics.rst:1350
+#: ../../chapters/advanced_topics.rst:1362
+#: ../../chapters/advanced_topics.rst:1374
+#: ../../chapters/advanced_topics.rst:1410
+#: ../../chapters/advanced_topics.rst:1461
+#: ../../chapters/advanced_topics.rst:1473
+#: ../../chapters/advanced_topics.rst:1483
+#: ../../chapters/advanced_topics.rst:1505
+#: ../../chapters/advanced_topics.rst:1542
+#: ../../chapters/advanced_topics.rst:1555
+#: ../../chapters/advanced_topics.rst:1568
+#: ../../chapters/advanced_topics.rst:1580
+#: ../../chapters/advanced_topics.rst:1593
+#: ../../chapters/advanced_topics.rst:1617
+#: ../../chapters/advanced_topics.rst:1629
+#: ../../chapters/advanced_topics.rst:1684
+#: ../../chapters/advanced_topics.rst:1696
+#: ../../chapters/advanced_topics.rst:1732
+#: ../../chapters/advanced_topics.rst:1744
+#: ../../chapters/advanced_topics.rst:1756
+#: ../../chapters/advanced_topics.rst:1792
+#: ../../chapters/advanced_topics.rst:1804
+#: ../../chapters/advanced_topics.rst:1818
+#: ../../chapters/advanced_topics.rst:1829
+#: ../../chapters/advanced_topics.rst:1843
+#: ../../chapters/advanced_topics.rst:1854
+#: ../../chapters/advanced_topics.rst:1880
+#: ../../chapters/advanced_topics.rst:1892
+#: ../../chapters/advanced_topics.rst:1920
+#: ../../chapters/advanced_topics.rst:1954
+#: ../../chapters/advanced_topics.rst:1990
+#: ../../chapters/advanced_topics.rst:2023
+#: ../../chapters/advanced_topics.rst:2033
+#: ../../chapters/advanced_topics.rst:2043
+#: ../../chapters/advanced_topics.rst:2053
+#: ../../chapters/advanced_topics.rst:2063
+#: ../../chapters/advanced_topics.rst:2073
+#: ../../chapters/advanced_topics.rst:2083
+#: ../../chapters/advanced_topics.rst:2093
+#: ../../chapters/advanced_topics.rst:2134
+#: ../../chapters/advanced_topics.rst:2145
+#: ../../chapters/advanced_topics.rst:2157
+#: ../../chapters/advanced_topics.rst:2169
+#: ../../chapters/advanced_topics.rst:2180
+#: ../../chapters/advanced_topics.rst:2190
+#: ../../chapters/advanced_topics.rst:2214
+#: ../../chapters/advanced_topics.rst:2226
+#: ../../chapters/advanced_topics.rst:2238
+#: ../../chapters/advanced_topics.rst:2250
+#: ../../chapters/advanced_topics.rst:2262
+#: ../../chapters/advanced_topics.rst:2272
+#: ../../chapters/advanced_topics.rst:2284
+#: ../../chapters/advanced_topics.rst:2296
+#: ../../chapters/advanced_topics.rst:2308
+#: ../../chapters/advanced_topics.rst:2320
+#: ../../chapters/advanced_topics.rst:2419
+#: ../../chapters/advanced_topics.rst:2431
+#: ../../chapters/advanced_topics.rst:2645
+#: ../../chapters/advanced_topics.rst:2684
+#: ../../chapters/advanced_topics.rst:2725
+#: ../../chapters/advanced_topics.rst:2751
+#: ../../chapters/advanced_topics.rst:2777
+#: ../../chapters/advanced_topics.rst:2806
+#: ../../chapters/advanced_topics.rst:2813
+#: ../../chapters/advanced_topics.rst:2823
+#: ../../chapters/advanced_topics.rst:2845
+#: ../../chapters/advanced_topics.rst:2869
+#: ../../chapters/advanced_topics.rst:2905
+#: ../../chapters/advanced_topics.rst:2918
+#: ../../chapters/advanced_topics.rst:2931
+#: ../../chapters/advanced_topics.rst:2941
+#: ../../chapters/advanced_topics.rst:2949
+#: ../../chapters/advanced_topics.rst:2984
+#: ../../chapters/advanced_topics.rst:3038
+#: ../../chapters/advanced_topics.rst:3048
+#: ../../chapters/advanced_topics.rst:3059
+#: ../../chapters/advanced_topics.rst:3073
+#: ../../chapters/advanced_topics.rst:3101
+#: ../../chapters/advanced_topics.rst:3111
+#: ../../chapters/advanced_topics.rst:3121
+#: ../../chapters/advanced_topics.rst:3131
+#: ../../chapters/advanced_topics.rst:3432
+#: ../../chapters/advanced_topics.rst:3485
+#: ../../chapters/advanced_topics.rst:3535
+#: ../../chapters/advanced_topics.rst:3545
+#: ../../chapters/advanced_topics.rst:3620
+#: ../../chapters/advanced_topics.rst:3638
+#: ../../chapters/advanced_topics.rst:3656
+#: ../../chapters/advanced_topics.rst:3683
+#: ../../chapters/advanced_topics.rst:3690
+#: ../../chapters/advanced_topics.rst:3697
+#: ../../chapters/advanced_topics.rst:3704
+#: ../../chapters/advanced_topics.rst:3733
+#: ../../chapters/advanced_topics.rst:3760
+#: ../../chapters/advanced_topics.rst:3769
+#: ../../chapters/advanced_topics.rst:3776
+#: ../../chapters/advanced_topics.rst:3798
+#: ../../chapters/advanced_topics.rst:3834
+#: ../../chapters/advanced_topics.rst:3890
+msgid "binary"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:225
+msgid "Overload indicator"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:232
-msgid "Deleting Your Library"
+msgid "Counts buffer over and under-flows. Max one per 500 ms"
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:234
+msgid "0 .. n"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:235
+msgid "Counter in hardware preferences"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:242
+msgid "Adjusts the left/right channel balance on the Master output."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:246
+#: ../../chapters/advanced_topics.rst:278
+#: ../../chapters/advanced_topics.rst:2004
+msgid "-1.0..1.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:247
+msgid "Center Balance knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:252
+msgid "Indicates whether a Booth output is configured in the :ref:`Sound Hardware Preferences <preferences-sound-hardware>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:255
+msgid "Booth gain knob shown or hidden"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:262
+msgid "Adjusts the gain of the Booth output."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:266
+msgid "0.0...1.0...5.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:267
+msgid "Booth gain knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:274
+msgid "Adjusts the :term:`crossfader` between players/decks (-1.0 is all the way left)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:279
+#: ../../chapters/advanced_topics.rst:287
+#: ../../chapters/advanced_topics.rst:295
+#: ../../chapters/advanced_topics.rst:305
+#: ../../chapters/advanced_topics.rst:313
+msgid "Crossfader slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:284
+msgid "Moves the :term:`crossfader` left by 1/10th."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:292
+msgid "Moves the :term:`crossfader` left by 1/100th."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:302
+msgid "Moves the :term:`crossfader` right by 1/10th."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:310
+msgid "Moves the :term:`crossfader` right by 1/100th."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:320
+msgid "Microphone ducking strength"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:324
+#: ../../chapters/advanced_topics.rst:3724
+#: ../../chapters/advanced_topics.rst:3789
+msgid "0.0..1.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:325
+msgid "Strength knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:332
+msgid "Indicator that the master mix is processed."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:335
+#: ../../chapters/advanced_topics.rst:358
+#: ../../chapters/advanced_topics.rst:418
+#: ../../chapters/advanced_topics.rst:428
+#: ../../chapters/advanced_topics.rst:438
+#: ../../chapters/advanced_topics.rst:448
+#: ../../chapters/advanced_topics.rst:488
+#: ../../chapters/advanced_topics.rst:584
+#: ../../chapters/advanced_topics.rst:929
+#: ../../chapters/advanced_topics.rst:941
+#: ../../chapters/advanced_topics.rst:1019
+#: ../../chapters/advanced_topics.rst:1029
+#: ../../chapters/advanced_topics.rst:1081
+#: ../../chapters/advanced_topics.rst:1123
+#: ../../chapters/advanced_topics.rst:1133
+#: ../../chapters/advanced_topics.rst:1267
+#: ../../chapters/advanced_topics.rst:1496
+#: ../../chapters/advanced_topics.rst:1673
+#: ../../chapters/advanced_topics.rst:2385
+#: ../../chapters/advanced_topics.rst:2397
+#: ../../chapters/advanced_topics.rst:2886
+#: ../../chapters/advanced_topics.rst:3433
+#: ../../chapters/advanced_topics.rst:3546
+#: ../../chapters/advanced_topics.rst:3562
+#: ../../chapters/advanced_topics.rst:3590
+msgid "None"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:342
+msgid "Adjusts the gain for the master output as well as recording and broadcasting signal."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:346
+#: ../../chapters/advanced_topics.rst:369
+#: ../../chapters/advanced_topics.rst:535
+#: ../../chapters/advanced_topics.rst:546
+msgid "0.0..1.0..5.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:347
+msgid "Master volume knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:355
+msgid "Indicator that the headphone mix is processed."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:365
+msgid "Adjusts the headphone output gain."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:370
+msgid "Headphone volume knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:377
+msgid "Adjusts the cue/main mix in the headphone output."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:381
+#: ../../chapters/advanced_topics.rst:507
+#: ../../chapters/advanced_topics.rst:517
+#: ../../chapters/advanced_topics.rst:527
+#: ../../chapters/advanced_topics.rst:2409
+#: ../../chapters/advanced_topics.rst:2535
+#: ../../chapters/advanced_topics.rst:2547
+#: ../../chapters/advanced_topics.rst:2559
+#: ../../chapters/advanced_topics.rst:2698
+#: ../../chapters/advanced_topics.rst:2962
+#: ../../chapters/advanced_topics.rst:2997
+#: ../../chapters/advanced_topics.rst:3010
+#: ../../chapters/advanced_topics.rst:3023
+msgid "default"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:382
+msgid "Pre/Main knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:387
+msgid "Splits headphone stereo cueing into right (master mono) and left (:term:`PFL` mono)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:390
+msgid "Split Cue button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:397
+msgid ":term:`Latency <latency>` setting (sound buffer size) in milliseconds (default 64)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:399
+msgid ">=0 (absolute value)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:400
+msgid "Latency slider in the prefs"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:405
+msgid "Toggle maximized view of library."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:408
+msgid "Toggle maximized view of library"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:415
+msgid "The number of decks currently enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:417
+#: ../../chapters/advanced_topics.rst:437
+#: ../../chapters/advanced_topics.rst:447
+msgid "integer"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:425
+msgid "The number of available effects that can be selected in an effect slot."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:427
+#: ../../chapters/advanced_topics.rst:3629
+#: ../../chapters/advanced_topics.rst:3742
+#: ../../chapters/advanced_topics.rst:3751
+#: ../../chapters/advanced_topics.rst:3852
+#: ../../chapters/advanced_topics.rst:3870
+#: ../../chapters/advanced_topics.rst:3938
+#: ../../chapters/advanced_topics.rst:3965
+msgid "integer, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:435
+msgid "The number of samplers currently enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:445
+msgid "The number of preview decks currently enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:455
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:460
+msgid "Clip light (mono)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:465
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:470
+#: ../../chapters/advanced_topics.rst:1830
+#: ../../chapters/advanced_topics.rst:2919
+msgid "Clip light (left)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:475
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:480
+#: ../../chapters/advanced_topics.rst:1844
+#: ../../chapters/advanced_topics.rst:2932
+msgid "Clip light (right)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:485
+msgid "The current output sample rate (default: 44100 Hz)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:487
+msgid "absolute value (in Hz)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:493
+msgid "Toggle microphone ducking mode (OFF, AUTO, MANUAL)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:495
+msgid "FIXME"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:496
+msgid "Ducking mode button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:503
+msgid "Outputs the current instantaneous master volume (composite)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:508
+msgid "Master meter (mono)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:513
+msgid "Outputs the current instantaneous master volume for the left channel."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:518
+msgid "Master meter L"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:523
+msgid "Outputs the current instantaneous master volume for the right channel."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:528
+msgid "Master meter R"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:533
+msgid "Adjust headphone volume."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:536
+msgid "Headphone Gain knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:538
+msgid "Use :mixxx:coref:`[Master],headGain` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:544
+msgid "Adjust master volume."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:547
+msgid "Master Gain knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:549
+msgid "Use :mixxx:coref:`[Master],gain` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:555
+msgid "Decks, Preview Decks and Samplers"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:557
+msgid "Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group. Whenever you see :mixxx:cogroupref:`[ChannelN]`, think \"Deck N\". N can range from 1 to the number of active decks in Mixxx."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:561
+msgid "Preview decks and Sample decks (\"samplers\") in Mixxx are identical to regular decks, they simply have a different purpose (previewing tracks or playing samples, respectively). Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:564
+msgid "There are some :ref:`additional global controls for samplers <advanced-mixxxcontrols-samplers>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:570
+msgid "Fast rewind (REW)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:573
+msgid "<< button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:580
+msgid "Indicates whether the player is currently positioned within 50 milliseconds of a beat or not. This can be used to make controller LEDs blink on every beat."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:594
+msgid "Its value is set to the sample position of the closest beat of the active beat and is used for updating the beat LEDs. :range: -1, 0.0, real-valued :feedback: None"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:602
+msgid "Outputs the relative position of the play marker in the section between the the previous and next beat marker. :range: 0.0 - 1.0, real-valued :feedback: None"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:611
+msgid "Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:613
+msgid "real number, -1, 0, 1"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:614
+msgid "Player jumps forward or backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:623
+msgid "Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`/:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:625
+#: ../../chapters/advanced_topics.rst:710
+#: ../../chapters/advanced_topics.rst:2632
+msgid "positive real number"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:626
+msgid "Beatjump size spinbox"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:635
+msgid "Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved forward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:638
+msgid "Player jumps forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:647
+msgid "Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:650
+msgid "Player jumps backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:659
+msgid "Jump forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved forward by X betas."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:662
+msgid "Player jumps forward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:671
+msgid "Jump backward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:674
+msgid "Player jumps backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:683
+msgid "Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:686
+msgid "A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:695
+msgid "Activates a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:698
+#: ../../chapters/advanced_topics.rst:723
+#: ../../chapters/advanced_topics.rst:2791
+msgid "A loop is shown over X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:707
+msgid "Set the length of the loop in beats that will get set with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`. Changing this will resize an existing loop if the length of the loop matches :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:711
+msgid "Beatloop size spinbox and possibly loop section on waveform"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:720
+msgid "Toggles a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:732
+msgid "1 if beatloop X is enabled, 0 if not."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:735
+msgid "Beatloop X button in skin is lit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:744
+msgid "Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats. Once disabled, playback will resume where the track would have been if it had not entered the loop."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:747
+msgid "A loop overlay is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:756
+msgid "Activates a rolling loop over X beats. Once disabled, playback will resume where the track would have been if it had not entered the loop. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:759
+msgid "Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:768
+msgid "Adjust the average :term:`BPM` up by +0.01"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:771
+msgid "The :term:`beatgrid` lines move closer to each other."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:780
+msgid "Adjust the average :term:`BPM` down by -0.01."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:783
+msgid "The :term:`beatgrid` lines move further apart from each other."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:792
+msgid "Adjust :term:`beatgrid` so closest beat is aligned with the current playposition."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:795
+msgid "The beatgrid moves to align with current playposition."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:804
+msgid "Adjust :term:`beatgrid` to match another playing deck."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:807
+msgid "Instead of :term:`syncing <sync>` the beatgrid to the current playposition, sync the beatgrid so the nearest beat lines up with the other track's nearest beat."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:816
+msgid "Move :term:`beatgrid` to an earlier position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:819
+msgid "The beatgrid moves left by a small amount."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:828
+msgid "Move :term:`beatgrid` to a later position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:831
+msgid "The beatgrid moves right by a small amount."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:840
+msgid ":term:`Syncs <sync>` the :term:`tempo` and phase (depending on quantize) to that of the other track (if :term:`BPM` is detected on both)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:843
+#: ../../chapters/advanced_topics.rst:867
+msgid "The :guilabel:`Sync` button flashes and the :term:`tempo` slider snaps to the appropriate value."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:852
+msgid ":term:`Syncs <sync>` the :term:`phase` to that of the other track (if :term:`BPM` is detected on both)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:855
+msgid "The :guilabel:`Sync` button flashes and the :term:`tempo` slider snap to the appropriate value."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:864
+msgid ":term:`Syncs <sync>` the :term:`tempo` to that of the other track (if :term:`BPM` is detected on both)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:876
+msgid "Reflects the perceived (rate-adjusted) :term:`BPM` of the loaded file."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:880
+msgid "real-valued"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:881
+msgid ":term:`BPM` value display"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:890
+msgid "When tapped repeatedly, adjusts the :term:`tempo` of the channel to match the tapped :term:`BPM`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:893
+msgid ":term:`BPM` value display (playback speed doesn't change)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:902
+msgid "Clone the given deck number, copying the play state, position, rate, and key. If 0 or a negative number is given, Mixxx will attempt to select the first playing deck as the source for the clone."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:904
+msgid "integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:905
+#: ../../chapters/advanced_topics.rst:917
+msgid "The channel will start playing at the rate and position of the source deck."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:914
+msgid "Clone the given sampler number, copying the play state, position, rate, and key."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:916
+msgid "integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:926
+msgid "Represents a :guilabel:`Cue` button that is always in :term:`CDJ` mode."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:938
+msgid "Deletes the already set cue point and sets :mixxx:coref:`[ChannelN],cue_point` to -1."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:948
+msgid "If the cue point is set, recalls the cue point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:951
+msgid "Player may change position"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:958
+msgid "In :term:`CDJ` mode, when playing, returns to the :term:`cue point` and pauses. If stopped, sets a cue point at the current location. If stopped and at a cue point, plays from that point until released (set to 0.)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:961
+#: ../../chapters/advanced_topics.rst:995
+#: ../../chapters/advanced_topics.rst:1071
+msgid ":guilabel:`Cue` button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:968
+msgid "If the :term:`cue point` is set, seeks the player to it and starts playback."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:971
+msgid "Player may change position and start playing."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:980
+msgid "If the :term:`cue point` is set, seeks the player to it and stops."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:983
+#: ../../chapters/advanced_topics.rst:1207
+#: ../../chapters/advanced_topics.rst:1219
+#: ../../chapters/advanced_topics.rst:1231
+msgid "Player may change position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:992
+msgid "Indicates the blinking pattern of the :guilabel:`CUE` button (i.e. 1.0 if the button is illuminated, 0.0 otherwise), depending on the chosen :mixxx:coref:`cue mode <[ChannelN],cue_mode>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1003
+msgid "Represents the currently chosen :ref:`cue mode <interface-cue-modes>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1007
+#: ../../chapters/advanced_topics.rst:1424
+#: ../../chapters/advanced_topics.rst:1667
+#: ../../chapters/advanced_topics.rst:2336
+#: ../../chapters/advanced_topics.rst:2445
+#: ../../chapters/advanced_topics.rst:2463
+#: ../../chapters/advanced_topics.rst:2880
+#: ../../chapters/advanced_topics.rst:3083
+#: ../../chapters/advanced_topics.rst:3339
+#: ../../chapters/advanced_topics.rst:3556
+msgid "Value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1007
+msgid "compatible hardware"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1009
+msgid "0.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1009
+msgid "Mixxx mode (default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1010
+msgid "1.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1010
+msgid "Pioneer mode"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1011
+msgid "2.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1011
+msgid "Denon mode"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1012
+msgid "3.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1012
+msgid "Numark mode"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1013
+msgid "4.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1013
+msgid "Mixxx mode (no blinking)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1014
+msgid "5.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1014
+msgid "CUP (Cue + Play) mode"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1026
+msgid "Go to :term:`cue point` and play after release (CUP button behavior). If stopped, sets a cue point at the current location."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1038
+msgid "The current position of the :term:`cue point` in samples."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1040
+#: ../../chapters/advanced_topics.rst:1080
+msgid "absolute value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1041
+msgid "Cue point marker"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1048
+msgid "Plays from the current :term:`cue point`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1051
+msgid ":guilabel:`Cue` button lights and waveform moves"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1058
+msgid "Sets a :term:`cue point` at the current location."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1061
+msgid ":term:`Cue <cue>` mark appears on the waveform"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1068
+msgid "If the player is not playing, set the :term:`cue point` at the current location otherwise seek to the cue point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1078
+msgid "Outputs the length of the current song in seconds"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1088
+msgid "Eject currently loaded track"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1091
+msgid "Eject button is lit. Be sure to set back to 0 with scripts so the button does not stay lit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1100
+msgid "Jump to end of track"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1103
+msgid "Track jumps to end"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1110
+msgid "Switches to 1 if the play position is within the end range defined in :menuselection:`Preferences --> Waveforms --> End of track warning`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1112
+#: ../../chapters/advanced_topics.rst:1195
+#: ../../chapters/advanced_topics.rst:1326
+#: ../../chapters/advanced_topics.rst:1386
+#: ../../chapters/advanced_topics.rst:1518
+#: ../../chapters/advanced_topics.rst:1708
+#: ../../chapters/advanced_topics.rst:1768
+#: ../../chapters/advanced_topics.rst:1930
+#: ../../chapters/advanced_topics.rst:1942
+#: ../../chapters/advanced_topics.rst:2372
+#: ../../chapters/advanced_topics.rst:2858
+#: ../../chapters/advanced_topics.rst:3713
+#: ../../chapters/advanced_topics.rst:3825
+#: ../../chapters/advanced_topics.rst:3929
+#: ../../chapters/advanced_topics.rst:3956
+msgid "binary, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1113
+msgid "Waveform and Overview widgets show a flashing border"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1120
+msgid "The detected :term:`BPM` of the loaded track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1122
+msgid "positive value, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1130
+msgid "The detected key of the loaded track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1132
+msgid "?, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1142
+msgid "Fast forward (FF)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1145
+msgid "> button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1152
+msgid "If :term:`hotcue` X is not set, this sets a hotcue at the current play position and saves it to hotcue slot X."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1154
+msgid "If hotcue X is set, the player seeks to hotcue X's position. Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing. After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position. If :mixxx:coref:`play <[ChannelN],play>` is set to 1 while previewing is active, the playback will continue and no seek occurs."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1160
+msgid "Player may change position. Hotcue X marker may change on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1169
+msgid "If :term:`hotcue` X is set, clears its hotcue status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1172
+#: ../../chapters/advanced_topics.rst:1243
+#: ../../chapters/advanced_topics.rst:1255
+msgid "Hotcue X marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1181
+msgid "Color of :term:`hotcue` X or -1 if the hotcue is not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1183
+#: ../../chapters/advanced_topics.rst:2360
+msgid "3-Byte :term:`RGB` color code (or -1)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1184
+msgid "Color of Hotcue X button and waveform marker changes."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1193
+msgid "Indicates if :term:`hotcue` slot X is set. The value is 1 if the hotcue is set (position is not -1), 0 otherwise."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1204
+msgid "If :term:`hotcue` X is set, seeks the player to hotcue X's position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1216
+msgid "If :term:`hotcue` X is set, seeks the player to hotcue X's position and starts playback."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1228
+msgid "If :term:`hotcue` X is set, seeks the player to hotcue X's position and stops."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1240
+msgid "The position of :term:`hotcue` X in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1242
+#: ../../chapters/advanced_topics.rst:1338
+#: ../../chapters/advanced_topics.rst:1398
+#: ../../chapters/advanced_topics.rst:1530
+#: ../../chapters/advanced_topics.rst:1653
+#: ../../chapters/advanced_topics.rst:1720
+#: ../../chapters/advanced_topics.rst:1780
+msgid "positive integer"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1252
+msgid "Set :term:`hotcue` X to the current play position. If hotcue X was previously set, clears its hotcue status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1264
+msgid "Contains the number of the most recently used :term:`hotcue` (or -1 if no hotcue was used)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1266
+msgid "positive integer (or -1)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1276
+msgid "If there is a focused :term:`hotcue`, sets its color to the previous color in the palette."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1279
+#: ../../chapters/advanced_topics.rst:1291
+msgid "Color of focused hotcue button and waveform marker changes."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1288
+msgid "If there is a focused :term:`hotcue`, sets its color to the next color in the palette."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1300
+msgid "If the intro end cue is set, seeks the player to the intro end position. If the intro end is not set, sets the intro end to the current play position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1303
+msgid "Player may change position. Intro end marker may change on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1312
+msgid "If the intro end cue is set, clears its status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1315
+#: ../../chapters/advanced_topics.rst:1339
+#: ../../chapters/advanced_topics.rst:1351
+msgid "Intro end marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1324
+msgid "1 if intro end cue is set, (position is not -1), 0 otherwise."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1327
+msgid "Intro end button lights up."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1336
+msgid "The position of the intro end in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1348
+msgid "Set intro end to the current play position. If intro end was previously set, it is moved to the new position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1360
+msgid "If the intro start cue is set, seeks the player to the intro start position. If the intro start is not set, sets the intro start to the current play position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1363
+msgid "Player may change position. Intro start marker may change on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1372
+msgid "If the intro start cue is set, clears its status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1375
+#: ../../chapters/advanced_topics.rst:1399
+#: ../../chapters/advanced_topics.rst:1411
+msgid "Intro start marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1384
+msgid "1 if intro start cue is set, (position is not -1), 0 otherwise."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1387
+msgid "Intro start button lights up."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1396
+msgid "The position of the intro start in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1408
+msgid "Set intro start to the current play position. If intro start was previously set, it is moved to the new position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1420
+msgid "Current key of the track"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1424
+msgid "OpenKey"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1424
+msgid "Lancelot"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1424
+msgid "Traditional"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1426
+#: ../../chapters/advanced_topics.rst:1670
+#: ../../chapters/advanced_topics.rst:2339
+#: ../../chapters/advanced_topics.rst:2340
+#: ../../chapters/advanced_topics.rst:2448
+#: ../../chapters/advanced_topics.rst:2466
+#: ../../chapters/advanced_topics.rst:2883
+#: ../../chapters/advanced_topics.rst:3086
+#: ../../chapters/advanced_topics.rst:3341
+#: ../../chapters/advanced_topics.rst:3559
+#: ../../chapters/advanced_topics.rst:3591
+#: ../../chapters/advanced_topics.rst:3601
+msgid "1"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1426
+msgid "1d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1426
+msgid "8b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1426
+msgid "C"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1427
+#: ../../chapters/advanced_topics.rst:1671
+#: ../../chapters/advanced_topics.rst:2449
+#: ../../chapters/advanced_topics.rst:2467
+#: ../../chapters/advanced_topics.rst:2884
+#: ../../chapters/advanced_topics.rst:3087
+#: ../../chapters/advanced_topics.rst:3342
+#: ../../chapters/advanced_topics.rst:3560
+#: ../../chapters/advanced_topics.rst:3592
+msgid "2"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1427
+msgid "8d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1427
+msgid "3b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1427
+msgid "D♭"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1428
+#: ../../chapters/advanced_topics.rst:3343
+#: ../../chapters/advanced_topics.rst:3593
+msgid "3"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1428
+msgid "3d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1428
+msgid "10b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1428
+msgid "D"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1429
+#: ../../chapters/advanced_topics.rst:3344
+#: ../../chapters/advanced_topics.rst:3594
+msgid "4"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1429
+msgid "10d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1429
+msgid "5b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1429
+msgid "E♭"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1430
+#: ../../chapters/advanced_topics.rst:3345
+msgid "5"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1430
+msgid "5d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1430
+msgid "12b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1430
+msgid "E"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1431
+#: ../../chapters/advanced_topics.rst:3346
+msgid "6"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1431
+msgid "12d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1431
+msgid "7b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1431
+msgid "F"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1432
+#: ../../chapters/advanced_topics.rst:3347
+msgid "7"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1432
+msgid "7d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1432
+msgid "2b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1432
+msgid "F♯/G♭"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1433
+#: ../../chapters/advanced_topics.rst:3348
+msgid "8"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1433
+msgid "2d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1433
+msgid "9b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1433
+msgid "G"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1434
+#: ../../chapters/advanced_topics.rst:3349
+msgid "9"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1434
+msgid "9d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1434
+msgid "4b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1434
+msgid "A♭"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1435
+#: ../../chapters/advanced_topics.rst:3350
+msgid "10"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1435
+msgid "4d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1435
+msgid "11b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1435
+msgid "A"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1436
+#: ../../chapters/advanced_topics.rst:3351
+msgid "11"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1436
+msgid "11d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1436
+msgid "6b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1436
+msgid "B♭"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1437
+#: ../../chapters/advanced_topics.rst:3352
+msgid "12"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1437
+msgid "6d"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1437
+msgid "1b"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1437
+msgid "B"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1438
+#: ../../chapters/advanced_topics.rst:3353
+msgid "13"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1438
+msgid "10m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1438
+msgid "5a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1438
+msgid "Cm"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1439
+#: ../../chapters/advanced_topics.rst:3354
+msgid "14"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1439
+msgid "5m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1439
+msgid "12a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1439
+msgid "C♯m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1440
+#: ../../chapters/advanced_topics.rst:3355
+msgid "15"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1440
+msgid "12m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1440
+msgid "7a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1440
+msgid "Dm"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1441
+#: ../../chapters/advanced_topics.rst:3356
+msgid "16"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1441
+msgid "7m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1441
+msgid "2a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1441
+msgid "D♯m/E♭m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1442
+#: ../../chapters/advanced_topics.rst:3357
+msgid "17"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1442
+msgid "2m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1442
+msgid "9a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1442
+msgid "Em"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1443
+#: ../../chapters/advanced_topics.rst:3358
+msgid "18"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1443
+msgid "9m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1443
+msgid "4a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1443
+msgid "Fm"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1444
+#: ../../chapters/advanced_topics.rst:3359
+msgid "19"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1444
+msgid "4m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1444
+msgid "11a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1444
+msgid "F♯m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1445
+#: ../../chapters/advanced_topics.rst:3360
+msgid "20"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1445
+msgid "11m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1445
+msgid "6a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1445
+msgid "Gm"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1446
+#: ../../chapters/advanced_topics.rst:3361
+msgid "21"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1446
+msgid "6m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1446
+msgid "1a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1446
+msgid "G♯m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1447
+#: ../../chapters/advanced_topics.rst:3362
+msgid "22"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1447
+msgid "1m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1447
+msgid "8a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1447
+msgid "Am"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1448
+#: ../../chapters/advanced_topics.rst:3363
+msgid "23"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1448
+msgid "8m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1448
+msgid "3a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1448
+msgid "B♭m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1449
+#: ../../chapters/advanced_topics.rst:3364
+msgid "24"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1449
+msgid "3m"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1449
+msgid "10a"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1449
+msgid "Bm"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1459
+msgid "Enable key-lock for the specified deck (rate changes only affect tempo, not key)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1462
+msgid "key-lock button activates"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1471
+msgid "Loads the currently highlighted track into the deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1474
+msgid "Track name & waveform change"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1481
+msgid "Loads the currently highlighted track into the deck and starts playing"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1484
+msgid "Track name & waveform change & Play/pause button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1493
+msgid "Reflects the average bpm around the current play position of the loaded file."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1495
+msgid "positive value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1503
+msgid "Doubles :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of the loop, the loop is resized."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1506
+#: ../../chapters/advanced_topics.rst:1543
+msgid "Beatloop size spinbox changes"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1516
+msgid "Indicates whether or not a loop is enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1519
+msgid "Loop in waveform is active."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1528
+msgid "The player loop-out position in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1531
+msgid "Loop-out marker shows on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1540
+msgid "Halves :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of the loop, the loop is resized."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1553
+msgid "If loop is disabled, sets the player loop in position to the current play position. If loop is enabled, press and hold to move loop in position to the current play position. If quantize is enabled, :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1556
+#: ../../chapters/advanced_topics.rst:1654
+msgid "Loop-in marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1566
+msgid "Seek to the loop in point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1569
+#: ../../chapters/advanced_topics.rst:1594
+msgid "Waveform position jumps"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1578
+msgid "If loop is disabled, sets the player loop out position to the current play position. If loop is enabled, press and hold to move loop out position to the current play position. If quantize is enabled, :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` will be updated to reflect the new loop size."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1581
+msgid "Loop-out marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1591
+msgid "Seek to the loop out point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1603
+msgid "Move loop forward by X beats (positive) or backward by X beats (negative)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1605
+msgid "real number"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1606
+msgid "Loop moves forward or backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1615
+msgid "Moves the loop in and out points forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1618
+msgid "Loop moves forward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1627
+msgid "Loop moves by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1630
+msgid "Loop moves backward by X beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1639
+msgid "Scale the loop length by the value scale is set to by moving the end marker. :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1641
+msgid "0.0 - infinity"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1642
+msgid "Loop length is scaled by given amount on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1651
+msgid "The player loop-in position in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1663
+#: ../../chapters/advanced_topics.rst:2876
+msgid "Set channel orientation for the :term:`crossfader`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1667
+#: ../../chapters/advanced_topics.rst:2336
+#: ../../chapters/advanced_topics.rst:2445
+#: ../../chapters/advanced_topics.rst:2463
+#: ../../chapters/advanced_topics.rst:2880
+#: ../../chapters/advanced_topics.rst:3083
+#: ../../chapters/advanced_topics.rst:3556
+msgid "Meaning"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1669
+#: ../../chapters/advanced_topics.rst:2338
+#: ../../chapters/advanced_topics.rst:2447
+#: ../../chapters/advanced_topics.rst:2465
+#: ../../chapters/advanced_topics.rst:2882
+#: ../../chapters/advanced_topics.rst:3085
+#: ../../chapters/advanced_topics.rst:3558
+#: ../../chapters/advanced_topics.rst:3590
+#: ../../chapters/advanced_topics.rst:3600
+msgid "0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1669
+#: ../../chapters/advanced_topics.rst:2882
+msgid "Left side of crossfader"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1670
+#: ../../chapters/advanced_topics.rst:2883
+msgid "Center (not affected by crossfader)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1671
+#: ../../chapters/advanced_topics.rst:2884
+msgid "Right side of crossfader"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1682
+msgid "If the outro end cue is set, seeks the player to the outro end position. If the outro end is not set, sets the outro end to the current play position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1685
+msgid "Player may change position. Outro end marker may change on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1694
+msgid "If the outro end cue is set, clears its status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1697
+#: ../../chapters/advanced_topics.rst:1721
+#: ../../chapters/advanced_topics.rst:1733
+msgid "Outro end marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1706
+msgid "1 if outro end cue is set, (position is not -1), 0 otherwise."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1709
+msgid "Outro end button lights up."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1718
+msgid "The position of the outro end in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1730
+msgid "Set outro end to the current play position. If outro end was previously set, it is moved to the new position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1742
+msgid "If the outro start cue is set, seeks the player to the outro start position. If the outro start is not set, sets the outro start to the current play position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1745
+msgid "Player may change position. Outro start marker may change on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1754
+msgid "If the outro start cue is set, clears its status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1757
+#: ../../chapters/advanced_topics.rst:1781
+#: ../../chapters/advanced_topics.rst:1793
+msgid "Outro start marker changes on waveform."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1766
+msgid "1 if outro start cue is set, (position is not -1), 0 otherwise."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1769
+msgid "Outro start button lights up."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1778
+msgid "The position of the outro start in samples, -1 if not set."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1790
+msgid "Set outro start to the current play position. If outro start was previously set, it is moved to the new position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1802
+msgid "Connects the vinyl control input for vinyl control on that deck to the channel output. Allows to mix external media into DJ sets."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1805
+msgid "Passthrough label in the :term:`waveform overview` and passthrough button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1814
+#: ../../chapters/advanced_topics.rst:2901
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1819
+msgid "Clip light"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1825
+#: ../../chapters/advanced_topics.rst:2914
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1839
+#: ../../chapters/advanced_topics.rst:2927
+msgid "Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1852
+#: ../../chapters/advanced_topics.rst:2939
+msgid "Toggles :term:`headphone cueing (PFL) <PFL>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1855
+#: ../../chapters/advanced_topics.rst:2942
+msgid "Headphone button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1862
+msgid "The total adjustment to the track's pitch, including changes from the rate slider if keylock is off as well as :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1864
+msgid "Do not map this to knobs or sliders on controllers; map :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1868
+msgid "-6.0..6.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1869
+#: ../../chapters/advanced_topics.rst:1881
+#: ../../chapters/advanced_topics.rst:1893
+#: ../../chapters/advanced_topics.rst:1907
+msgid "Key display"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1878
+msgid "Changes the track pitch up one half step, independent of the tempo."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1890
+msgid "Changes the track pitch down one half step, independent of the tempo."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1902
+msgid "Adjust the pitch in addition to the :term:`tempo` slider pitch."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1906
+#: ../../chapters/advanced_topics.rst:2202
+#: ../../chapters/advanced_topics.rst:2617
+#: ../../chapters/advanced_topics.rst:2658
+#: ../../chapters/advanced_topics.rst:2671
+msgid "-3.0..3.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1916
+msgid "Toggles playing or pausing the track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1918
+msgid "The value is set to 1 when the track is playing or when previewing from cue points and when the play command is adopted and track will be played after loading."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1921
+#: ../../chapters/advanced_topics.rst:1931
+#: ../../chapters/advanced_topics.rst:1943
+msgid "Play/pause button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1928
+msgid "Provides information to be bound with the a Play/Pause button e.g blinking when play is possible"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1940
+msgid "This is set to 1 when the track is playing, but not when previewing (see :mixxx:coref:`play <[ChannelN],play>`)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1952
+msgid "A play button without pause. Pushing while playing, starts play at :term:`cue point` again (Stutter)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1955
+msgid "Play/Stutter button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1964
+msgid "Sets the absolute position in the track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1968
+msgid "-0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1969
+#: ../../chapters/advanced_topics.rst:2203
+#: ../../chapters/advanced_topics.rst:2215
+#: ../../chapters/advanced_topics.rst:2618
+#: ../../chapters/advanced_topics.rst:2672
+msgid "Waveform"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1976
+msgid "Adjusts the pre-fader gain of the track (to avoid clipping)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1980
+#: ../../chapters/advanced_topics.rst:2712
+#: ../../chapters/advanced_topics.rst:2738
+#: ../../chapters/advanced_topics.rst:2764
+#: ../../chapters/advanced_topics.rst:2975
+msgid "0.0..1.0..4.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1981
+msgid "GAIN knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1988
+msgid "Aligns Hot-cues and Loop In & Out to the next beat from the current position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:1991
+msgid "Hot-cues or Loop In/Out markers"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2000
+msgid "Speed control"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2005
+msgid "Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2012
+msgid "Indicates orientation of speed slider."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2014
+msgid "-1 or 1"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2021
+msgid "Sets the speed one step lower (4 % default) lower"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2024
+#: ../../chapters/advanced_topics.rst:2034
+msgid "Perm down button & Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2031
+msgid "Sets the speed one small step lower (1 % default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2041
+msgid "Sets the speed one step higher (4 % default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2044
+#: ../../chapters/advanced_topics.rst:2054
+msgid "Perm up button & Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2051
+msgid "Sets the speed one small step higher (1 % default)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2061
+msgid "Holds the speed one step lower while active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2064
+#: ../../chapters/advanced_topics.rst:2074
+msgid "Temp down button & Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2071
+msgid "Holds the speed one small step lower while active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2081
+msgid "Holds the speed one step higher while active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2084
+#: ../../chapters/advanced_topics.rst:2094
+msgid "Temp up button & Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2091
+msgid "Holds the speed one small step higher while active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2101
+msgid "Sets the range of the Speed slider (0.08 = 8%)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2105
+msgid "0.0..3.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2106
+msgid "none, until you move the Speed slider"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2113
+msgid "Seeks forward (positive values) or backward (negative values) at a speed determined by the value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2117
+msgid "-300..300"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2118
+msgid "Deck seeks"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2125
+msgid "Actual rate (used in visuals, not for control)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2132
+msgid "Activate current loop, jump to its loop in point, and stop playback."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2135
+msgid "Loop range in waveform activates or deactivates and play position moves to loop in point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2143
+#: ../../chapters/advanced_topics.rst:2643
+msgid "Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2146
+#: ../../chapters/advanced_topics.rst:2646
+msgid "Loop range in waveform activates or deactivates."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2155
+msgid "Enable repeat-mode for the specified deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2158
+msgid "when track finishes, song loops to beginning"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2167
+msgid "Resets the key to the original track key."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2178
+msgid "Toggles playing the track backwards"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2181
+#: ../../chapters/advanced_topics.rst:2191
+msgid "REV button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2188
+msgid "Enables reverse and slip mode while held (Censor)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2200
+msgid "Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2212
+msgid "Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2224
+msgid "Toggles slip mode. When active, the playback continues muted in the background during a loop, scratch etc. Once disabled, the audible playback will resume where the track would have been."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2227
+msgid "Slip mode button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2236
+msgid "Increase the rating of the currently loaded track (if the skin has star widgets in the decks section)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2239
+msgid "Star count is increased in the deck's star widget and in the library table."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2248
+msgid "Decrease the rating of the currently loaded track (if the skin has star widgets in the decks section)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2251
+msgid "Star count is decreased in the deck's star widget and in the library table."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2260
+msgid "Jump to start of track"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2263
+msgid "Track jumps to start"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2270
+msgid "Start playback from the beginning of the deck."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2273
+msgid "Deck plays from beginning"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2282
+msgid "Seeks a player to the start and then stops it."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2285
+msgid "Deck stops at the beginning."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2294
+msgid "Stops a player."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2297
+msgid "Pause Button. Deck pauses at the current position."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2306
+msgid "Syncs the :term:`tempo` and :term:`phase` (depending on quantize) to that of the other track (if :term:`BPM` is detected on both). Click and hold for at least one second activates sync lock on that deck."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2309
+#: ../../chapters/advanced_topics.rst:2321
+msgid "If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider snap to the appropriate value. Slider adjustments are linked on all decks that have :term:`sync lock` enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2318
+msgid "Sets deck as leader clock."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2324
+msgid "This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2338
+msgid ":term:`Sync lock <sync lock>` disabled for that deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2339
+msgid "Deck is sync follower"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2340
+msgid "Deck is sync leader"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2347
+#: ../../chapters/advanced_topics.rst:2508
+#: ../../chapters/advanced_topics.rst:2522
+msgid "Key value widget"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2349
+msgid "Match musical key."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2358
+msgid "Color of the currently loaded track or -1 if no track is loaded or the track has no color."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2361
+#: ../../chapters/advanced_topics.rst:3403
+#: ../../chapters/advanced_topics.rst:3413
+msgid "Track color changes in the library view."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2370
+msgid "Whether a track is loaded in the specified deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2373
+msgid "Waveform and track metadata shown in deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2382
+msgid "Sample rate of the track loaded on the specified deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2384
+#: ../../chapters/advanced_topics.rst:2396
+msgid "absolute value, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2394
+msgid "Number of sound samples in the track loaded on the specified deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2405
+#: ../../chapters/advanced_topics.rst:2958
+msgid "Adjusts the channel volume fader"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2410
+msgid "Deck volume fader"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2417
+#: ../../chapters/advanced_topics.rst:2982
+msgid "Mutes the channel"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2420
+#: ../../chapters/advanced_topics.rst:2985
+msgid "Mute button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2429
+msgid "Toggles whether a deck is being controlled by digital vinyl."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2432
+msgid "When enabled, a vinyl indication should appear onscreen indicating green for enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2441
+msgid "Determines how :term:`cue points <cue point>` are treated in vinyl control relative mode."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2447
+msgid "Cue points ignored"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2448
+msgid "One Cue - If needle is dropped after the :term:`cue point`, track will seek to that cue point"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2449
+msgid "Hot Cue - Track will seek to nearest previous :term:`hotcue`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2459
+msgid "Determines how vinyl control interprets needle information."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2465
+msgid "Absolute Mode (track position equals needle position and speed)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2466
+msgid "Relative Mode (track :term:`tempo` equals needle speed regardless of needle position)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2467
+msgid "Constant Mode (track :term:`tempo` equals last known-steady tempo regardless of needle input"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2470
+msgid "See :ref:`Control Mode <vinyl-control-modes>` for details."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2472
+msgid "3-way button indicates status"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2481
+msgid "Provides visual feedback with regards to vinyl control status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2483
+msgid "0.0-3.0, read-only"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2484
+msgid "Off for control disabled, green for control enabled, blinking yellow for when the needle reaches the end of the record, and red for needle skip detected"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2493
+msgid ":term:`BPM` to display in the :term:`GUI` (updated more slowly than the actual BPM)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2495
+#: ../../chapters/advanced_topics.rst:2507
+#: ../../chapters/advanced_topics.rst:2581
+#: ../../chapters/advanced_topics.rst:2593
+#: ../../chapters/advanced_topics.rst:2605
+#: ../../chapters/advanced_topics.rst:3424
+msgid "?"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2496
+msgid ":term:`BPM` value widget"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2505
+msgid "Current musical key after pitch shifting to display in the :term:`GUI` using the notation selected in the preferences"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2517
+msgid "The distance to the nearest key measured in cents"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2521
+msgid "-0.5..0.5"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2531
+msgid "Outputs the current instantaneous deck volume"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2536
+msgid "Deck VU meter"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2543
+#: ../../chapters/advanced_topics.rst:3006
+msgid "Outputs the current instantaneous deck volume for the left channel"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2548
+#: ../../chapters/advanced_topics.rst:3011
+msgid "Deck VU meter L"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2555
+#: ../../chapters/advanced_topics.rst:3019
+msgid "Outputs the current instantaneous deck volume for the right channel"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2560
+#: ../../chapters/advanced_topics.rst:3024
+msgid "Deck VU meter R"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2567
+msgid "Zooms the waveform to look ahead or back as needed."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2569
+msgid "1.0 - 10.0"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2570
+#: ../../chapters/advanced_topics.rst:2582
+#: ../../chapters/advanced_topics.rst:2594
+#: ../../chapters/advanced_topics.rst:2606
+msgid "Waveform zoom buttons"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2579
+msgid "Waveform Zoom Out"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2591
+msgid "Waveform Zoom In"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2603
+msgid "Return to default waveform zoom level"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2615
+msgid "Affects relative playback speed and direction persistently (additive offset & must manually be undone)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2622
+msgid "Deprecated controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2624
+msgid "These controls have been deprecated, new controller mappings should use the alternatives."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2630
+msgid "Setup a loop over the set number of beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2633
+msgid "A loop is shown over the set number of beats."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2635
+msgid "Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2648
+msgid "Use :mixxx:coref:`[ChannelN],reloop_toggle` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2656
+msgid "Affects relative playback speed and direction for short instances (additive & is automatically reset to 0)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2659
+msgid "waveform"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2661
+#: ../../chapters/advanced_topics.rst:2674
+msgid "Use the JavaScript ``engine.scratch`` functions instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2669
+msgid "Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2682
+msgid "Toggles the filter effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2685
+msgid "Filter button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2688
+msgid "Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2696
+msgid "Adjusts the intensity of the filter effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2699
+msgid "Filter depth knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2702
+msgid "Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 <[QuickEffectRack1_[ChannelI]],super1>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2710
+msgid "Adjusts the gain of the low :term:`EQ` filter."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2713
+msgid "Low EQ knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2715
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2723
+msgid "Holds the gain of the low :term:`EQ` to -inf while active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2726
+msgid "Low EQ :term:`kill switch`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2728
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2736
+msgid "Adjusts the gain of the mid :term:`EQ` filter.."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2739
+msgid "Mid EQ knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2741
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2749
+msgid "Holds the gain of the mid :term:`EQ` to -inf while active."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2752
+msgid "Mid EQ :term:`kill switch`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2754
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2762
+msgid "Adjusts the gain of the high :term:`EQ` filter."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2765
+msgid "High EQ knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2767
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2775
+msgid "Holds the gain of the high :term:`EQ` to -inf while active."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2778
+msgid "High EQ :term:`kill switch`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2780
+msgid "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2788
+msgid "Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2790
+msgid "toggle"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2794
+msgid "Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2800
+msgid "Global Sampler controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2802
+msgid "These controls can be used to control all samplers."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2807
+msgid "Shows Sampler bank(s)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2811
+msgid "Save sampler configuration. Make currently loaded tracks in samplers instantly available at a later point."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2814
+msgid "Opens file dialog. Configuration file can be named and saved."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2821
+msgid "Load saved sampler configuration file and add tracks to the available samplers."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2824
+msgid "Opens file dialog. Select configuration file."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2832
+msgid "Microphones and Auxiliary Channels"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2834
+msgid "In contrast to :ref:`decks, preview decks and samplers <advanced-mixxxcontrols-decks>`, microphones and auxiliary channels are input channels. You can map audio interface's inputs to mixxx's auxiliary input channels and connect external audio source to it (cellphone, mp3 player). Then you can use your :term:`MIDI` controller to control its volume and some other parameters (orientation, gain, :term:`volume`), apply effects and use the prelisten function."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2838
+msgid "Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2843
+msgid "1 if a channel input is enabled, 0 if not."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2846
+msgid "Microphone is enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2849
+msgid "Use :mixxx:coref:`[MicrophoneN],input_configured` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2856
+msgid "1 if there is input is configured for this channel, 0 if not."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2859
+msgid "Configured channel in the sound preferences."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2865
+msgid "Hold value at 1 to mix channel input into the master output. For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead. Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2870
+msgid "Auxiliary: Play button Microphone: N/A"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2895
+msgid "The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2906
+msgid "Microphone Clip light"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2947
+msgid "Hold value at 1 to mix channel input into the master output."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2950
+msgid "Talk button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2963
+msgid "Microphone volume fader changes"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2971
+msgid "Adjusts the gain of the input"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2976
+msgid "Microphone gain knob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2993
+msgid "Outputs the current instantaneous channel volume"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:2998
+msgid "Microphone VU meter changes"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3030
+msgid "The ``[VinylControl]`` group"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3032
+msgid "The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3036
+msgid "Moves control by a vinyl control signal from one deck to another if using the single deck vinyl control (VC) feature."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3039
+msgid "If VC isn't enabled on any decks, enable it on the first one we're receiving samples for. If VC is enabled on a single (exclusive) deck, and another deck is setup to receive samples, disable it on the former deck and enable it on the next eligible deck (ordered by deck number). If VC is enabled on multiple decks, don't do anything."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3046
+msgid "Toggle the vinyl control section in skins."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3049
+msgid "Vinyl controls are shown"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3056
+msgid "Allows to amplify the \"phono\" level of attached turntables to \"line\" level. This is equivalent to setting the :ref:`turntable boost <vinyl-control-config-gain>` in :menuselection:`Options --> Preferences --> Vinyl Control`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3060
+msgid "position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3065
+msgid "The ``[Recording]`` controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3067
+msgid "The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3071
+msgid "Turns recording on or off."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3074
+#: ../../chapters/advanced_topics.rst:3089
+msgid "Recording icon"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3079
+msgid "Indicates whether Mixxx is currently recording."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3085
+msgid "Recording Stopped"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3086
+msgid "Initialize Recording"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3087
+msgid "Recording Active"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3093
+msgid "AutoDJ controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3095
+msgid "The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3099
+msgid "Turns Auto DJ on or off."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3102
+msgid "AutoDJ button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3109
+msgid "Shuffles the content of the Auto DJ playlist."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3112
+msgid "Order of tracks in the AutoDJ playlist changes."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3119
+msgid "Skips the next track in the Auto DJ playlist."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3122
+msgid "Skipped track is removed from the AutoDJ playlist."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3129
+msgid "Triggers the transition to the next track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3132
+msgid "Crossfader slider moves to the other side."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3138
+msgid "The ``[Library]`` controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3140
+msgid "The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`. Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3145
+msgid "Equivalent to pressing the :kbd:`Up` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3147
+#: ../../chapters/advanced_topics.rst:3157
+#: ../../chapters/advanced_topics.rst:3177
+#: ../../chapters/advanced_topics.rst:3187
+#: ../../chapters/advanced_topics.rst:3207
+#: ../../chapters/advanced_topics.rst:3217
+#: ../../chapters/advanced_topics.rst:3237
+#: ../../chapters/advanced_topics.rst:3247
+#: ../../chapters/advanced_topics.rst:3267
+#: ../../chapters/advanced_topics.rst:3278
+#: ../../chapters/advanced_topics.rst:3289
+#: ../../chapters/advanced_topics.rst:3299
+#: ../../chapters/advanced_topics.rst:3306
+#: ../../chapters/advanced_topics.rst:3318
+#: ../../chapters/advanced_topics.rst:3402
+#: ../../chapters/advanced_topics.rst:3412
+msgid "Binary"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3148
+#: ../../chapters/advanced_topics.rst:3158
+#: ../../chapters/advanced_topics.rst:3168
+#: ../../chapters/advanced_topics.rst:3178
+#: ../../chapters/advanced_topics.rst:3188
+#: ../../chapters/advanced_topics.rst:3198
+#: ../../chapters/advanced_topics.rst:3208
+#: ../../chapters/advanced_topics.rst:3218
+#: ../../chapters/advanced_topics.rst:3228
+msgid "Currently selected item changes"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3155
+msgid "Equivalent to pressing the :kbd:`Down` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3165
+msgid "Move the specified number of locations up or down. Intended to be mapped to an encoder knob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3167
+#: ../../chapters/advanced_topics.rst:3197
+msgid "Relative (positive values move down, negative values move up)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3175
+msgid "Equivalent to pressing the :kbd:`PageUp` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3185
+msgid "Equivalent to pressing the :kbd:`PageDown` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3195
+msgid "Scroll the specified number of pages up or down. Intended to be mapped to an encoder knob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3205
+msgid "Equivalent to pressing the :kbd:`Left` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3215
+msgid "Equivalent to pressing the :kbd:`Right` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3225
+msgid "Move the specified number of locations left or right. Intended to be mapped to an encoder knob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3227
+msgid "Relative (positive values move right, negative values move left)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3235
+msgid "Equivalent to pressing the :kbd:`Tab` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3238
+#: ../../chapters/advanced_topics.rst:3248
+#: ../../chapters/advanced_topics.rst:3258
+msgid "Currently focused pane changes"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3245
+msgid "Equivalent to pressing the :kbd:`Shift` + :kbd:`Tab` key on the keyboard"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3255
+msgid "Move focus the specified number of panes forward or backwards. Intended to be mapped to an encoder knob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3257
+msgid "Relative (positive values move forward, negative values move backward)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3265
+msgid "Equivalent to double clicking the currently selected item"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3268
+msgid "Context dependent"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3276
+msgid "Add selected track(s) to Auto DJ Queue (bottom)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3279
+msgid "Append track(s) to Auto DJ playlist"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3287
+msgid "Add selected track(s) to Auto DJ Queue (top)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3290
+msgid "Prepend track(s) to Auto DJ playlist"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3297
+msgid "Toggle the Cover Art in Library"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3304
+msgid "Increase the size of the library font. If the row height is smaller than the font-size the larger of the two is used."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3307
+#: ../../chapters/advanced_topics.rst:3319
+#: ../../chapters/advanced_topics.rst:3329
+msgid "Library view"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3314
+msgid "Decrease the size of the library font"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3324
+msgid "Increase or decrease the size of the library font"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3328
+msgid "Relative"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3335
+msgid "Indicates the sorting column the track table"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3339
+msgid "Description"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3339
+msgid "Library"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3339
+msgid "Playlist"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3339
+msgid "Crate"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3339
+msgid "Browse"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3341
+msgid "Artist"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3341
+#: ../../chapters/advanced_topics.rst:3341
+#: ../../chapters/advanced_topics.rst:3341
+#: ../../chapters/advanced_topics.rst:3341
+#: ../../chapters/advanced_topics.rst:3342
+#: ../../chapters/advanced_topics.rst:3342
+#: ../../chapters/advanced_topics.rst:3342
+#: ../../chapters/advanced_topics.rst:3342
+#: ../../chapters/advanced_topics.rst:3343
+#: ../../chapters/advanced_topics.rst:3343
+#: ../../chapters/advanced_topics.rst:3343
+#: ../../chapters/advanced_topics.rst:3343
+#: ../../chapters/advanced_topics.rst:3344
+#: ../../chapters/advanced_topics.rst:3344
+#: ../../chapters/advanced_topics.rst:3344
+#: ../../chapters/advanced_topics.rst:3344
+#: ../../chapters/advanced_topics.rst:3345
+#: ../../chapters/advanced_topics.rst:3345
+#: ../../chapters/advanced_topics.rst:3345
+#: ../../chapters/advanced_topics.rst:3345
+#: ../../chapters/advanced_topics.rst:3346
+#: ../../chapters/advanced_topics.rst:3346
+#: ../../chapters/advanced_topics.rst:3346
+#: ../../chapters/advanced_topics.rst:3346
+#: ../../chapters/advanced_topics.rst:3347
+#: ../../chapters/advanced_topics.rst:3347
+#: ../../chapters/advanced_topics.rst:3347
+#: ../../chapters/advanced_topics.rst:3347
+#: ../../chapters/advanced_topics.rst:3348
+#: ../../chapters/advanced_topics.rst:3348
+#: ../../chapters/advanced_topics.rst:3348
+#: ../../chapters/advanced_topics.rst:3348
+#: ../../chapters/advanced_topics.rst:3349
+#: ../../chapters/advanced_topics.rst:3349
+#: ../../chapters/advanced_topics.rst:3349
+#: ../../chapters/advanced_topics.rst:3349
+#: ../../chapters/advanced_topics.rst:3350
+#: ../../chapters/advanced_topics.rst:3350
+#: ../../chapters/advanced_topics.rst:3350
+#: ../../chapters/advanced_topics.rst:3350
+#: ../../chapters/advanced_topics.rst:3351
+#: ../../chapters/advanced_topics.rst:3351
+#: ../../chapters/advanced_topics.rst:3351
+#: ../../chapters/advanced_topics.rst:3351
+#: ../../chapters/advanced_topics.rst:3352
+#: ../../chapters/advanced_topics.rst:3352
+#: ../../chapters/advanced_topics.rst:3352
+#: ../../chapters/advanced_topics.rst:3352
+#: ../../chapters/advanced_topics.rst:3353
+#: ../../chapters/advanced_topics.rst:3353
+#: ../../chapters/advanced_topics.rst:3353
+#: ../../chapters/advanced_topics.rst:3353
+#: ../../chapters/advanced_topics.rst:3354
+#: ../../chapters/advanced_topics.rst:3354
+#: ../../chapters/advanced_topics.rst:3354
+#: ../../chapters/advanced_topics.rst:3354
+#: ../../chapters/advanced_topics.rst:3355
+#: ../../chapters/advanced_topics.rst:3355
+#: ../../chapters/advanced_topics.rst:3355
+#: ../../chapters/advanced_topics.rst:3355
+#: ../../chapters/advanced_topics.rst:3356
+#: ../../chapters/advanced_topics.rst:3356
+#: ../../chapters/advanced_topics.rst:3356
+#: ../../chapters/advanced_topics.rst:3356
+#: ../../chapters/advanced_topics.rst:3357
+#: ../../chapters/advanced_topics.rst:3357
+#: ../../chapters/advanced_topics.rst:3357
+#: ../../chapters/advanced_topics.rst:3357
+#: ../../chapters/advanced_topics.rst:3358
+#: ../../chapters/advanced_topics.rst:3358
+#: ../../chapters/advanced_topics.rst:3358
+#: ../../chapters/advanced_topics.rst:3358
+#: ../../chapters/advanced_topics.rst:3359
+#: ../../chapters/advanced_topics.rst:3359
+#: ../../chapters/advanced_topics.rst:3359
+#: ../../chapters/advanced_topics.rst:3359
+#: ../../chapters/advanced_topics.rst:3360
+#: ../../chapters/advanced_topics.rst:3360
+#: ../../chapters/advanced_topics.rst:3360
+#: ../../chapters/advanced_topics.rst:3360
+#: ../../chapters/advanced_topics.rst:3361
+#: ../../chapters/advanced_topics.rst:3361
+#: ../../chapters/advanced_topics.rst:3361
+#: ../../chapters/advanced_topics.rst:3361
+#: ../../chapters/advanced_topics.rst:3362
+#: ../../chapters/advanced_topics.rst:3362
+#: ../../chapters/advanced_topics.rst:3362
+#: ../../chapters/advanced_topics.rst:3363
+#: ../../chapters/advanced_topics.rst:3364
+#: ../../chapters/advanced_topics.rst:3365
+#: ../../chapters/advanced_topics.rst:3366
+#: ../../chapters/advanced_topics.rst:3367
+#: ../../chapters/advanced_topics.rst:3368
+#: ../../chapters/advanced_topics.rst:3370
+#: ../../chapters/advanced_topics.rst:3370
+#: ../../chapters/advanced_topics.rst:3370
+msgid "X"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3342
+msgid "Title"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3343
+msgid "Album"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3344
+msgid "Albumartist"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3345
+msgid "Year"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3346
+msgid "Genre"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3347
+msgid "Composer"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3348
+msgid "Grouping"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3349
+msgid "Tracknumber"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3350
+msgid "Filetype"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3351
+msgid "Native Location"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3352
+msgid "Comment"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3353
+msgid "Duration"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3354
+msgid "Bitrate"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3355
+msgid "BPM"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3356
+msgid "ReplayGain"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3357
+msgid "Datetime Added"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3358
+msgid "Times Played"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3359
+msgid "Rating"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3360
+msgid "Key"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3361
+msgid "Preview"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3362
+msgid "Coverart"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3363
+msgid "Position"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3364
+msgid "Playlist ID"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3365
+msgid "25"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3365
+msgid "Location"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3366
+msgid "26"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3366
+msgid "Filename"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3367
+msgid "27"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3367
+msgid "File Modified Time"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3368
+msgid "28"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3368
+msgid "File Creation Time"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3369
+msgid "29"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3369
+msgid "Sample Rate"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3370
+msgid "30"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3370
+msgid "Track Color"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3373
+#: ../../chapters/advanced_topics.rst:3383
+#: ../../chapters/advanced_topics.rst:3393
+msgid "Sorting indicator in the column headers of the track table"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3380
+msgid "Equivalent to clicking on column headers. A new value sets :mixxx:coref:`[Library],sort_column` to that value and :mixxx:coref:`[Library],sort_order` to 0, setting the same value again will toggle :mixxx:coref:`[Library],sort_order`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3382
+msgid "Same as for :mixxx:coref:`[Library],sort_column` or value 0 for sorting according the current column with the cursor on it"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3390
+msgid "Indicate the sort order of the track tables."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3392
+msgid "Binary (0 for ascending, 1 for descending)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3400
+msgid "Set color of selected track to previous color in palette."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3410
+msgid "Set color of selected track to next color in palette."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3418
+msgid "The ``[Shoutcast]`` controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3422
+msgid "Shows if live Internet broadcasting is enabled."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3425
+msgid "shoutcast only supports mp3 format as field"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3430
+msgid "This control displays whether broadcasting connection to Shoutcast server was successfully established."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3437
+msgid "The ``[Playlist]`` controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3439
+msgid ":mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering the currently focused widget. This is helpful when another application's window is focused. This group is going to be deprecated at some point, with its controls added to ``[Library]`` above."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3444
+msgid "See `bug \\#1772184 <https://bugs.launchpad.net/mixxx/+bug/1772184>`__ for the current status."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3449
+msgid "Scrolls the given number of items (view, playlist, crate, etc.) in the side pane (can be negative for reverse direction)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3451
+#: ../../chapters/advanced_topics.rst:3459
+msgid "relative value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3452
+msgid "Library sidebar highlight"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3457
+msgid "Scrolls the given number of tracks in the track table (can be negative for reverse direction)."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3460
+msgid "Library track table highlight"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3467
+msgid "Loads the currently highlighted song into the first stopped deck"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3469
+#: ../../chapters/advanced_topics.rst:3501
+msgid "Use :mixxx:coref:`[Library],GoToItem` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3477
+msgid "Switches to the next view (Library, Queue, etc.)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3479
+#: ../../chapters/advanced_topics.rst:3511
+msgid "Use :mixxx:coref:`[Library],MoveDown` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3486
+msgid "Library sidebar"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3488
+msgid "Switches to the previous view (Library, Queue, etc.)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3490
+#: ../../chapters/advanced_topics.rst:3521
+msgid "Use :mixxx:coref:`[Library],MoveUp` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3498
+msgid "Toggles (expands/collapses) the currently selected sidebar item."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3509
+msgid "Scrolls to the next track in the track table."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3519
+msgid "Scrolls to the previous track in the track table."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3527
+msgid "The ``[Controls]`` controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3529
+msgid "The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3533
+msgid "Once enabled, all touch tab events are interpreted as right click. This control has been added to provide touchscreen compatibility in 2.0 and might be replaced by a general modifier solution in the future."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3536
+msgid "All Widgets"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3543
+msgid "If enabled, colors will be assigned to newly created :term:`hotcues <hotcue>` automatically."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3552
+msgid "Represents the current state of the remaining time duration display of the loaded track."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3558
+msgid "currently showing elapsed time, sets to remaining time"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3559
+msgid "currently showing remaining time , sets to elapsed time"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3560
+msgid "currently showing both (that means we are showing remaining, set to elapsed"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3567
+msgid "The Effects Framework"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3569
+msgid "In the list below,"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3571
+msgid "EffectRack1 leaves room for future expansion to multiple EffectRacks."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3572
+msgid "N ranges from 1 to ``[EffectRack1],num_effectunits``, inclusive."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3573
+msgid "M ranges from 1 to ``[EffectRack1_EffectUnitN],num_effectslots``, inclusive. (For a given value of N)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3574
+msgid "K ranges from 1 to ``[EffectRack1_EffectUnitN_EffectM],num_parameters``, inclusive.  (For given values of N and M)"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3575
+msgid "I ranges from 1 to ``[Master],num_decks``, inclusive."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3576
+msgid "J ranges from 1 to ``[Master],num_samplers``, inclusive."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3581
+msgid "Linking Values"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3583
+msgid "Effect parameters can be linked to the effect's metaknob. This linkage can be user-controlled by changing the ``link_type`` and the ``link_inverse`` control of the parameter. The default link type is loaded from the effect parameter's manifest's ``linkHint`` property."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3588
+msgid "Link Type"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3588
+#: ../../chapters/advanced_topics.rst:3598
+msgid "Integer Value"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3588
+#: ../../chapters/advanced_topics.rst:3598
+msgid "Interpretation"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3590
+msgid "Not controlled by the metaknob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3591
+msgid "Linked"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3591
+msgid "Controlled by the metaknob as it is"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3592
+msgid "Linked Left"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3592
+msgid "Controlled by the left side of the metaknob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3593
+msgid "Linked Right"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3593
+msgid "Controlled by the right side of the metaknob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3594
+msgid "Linked Left Right"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3594
+msgid "Controlled by both sides of the metaknob"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3598
+msgid "Link Inverse"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3600
+msgid "Normal"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3600
+msgid "Linked in equal relation"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3601
+msgid "Inverse"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3601
+msgid "Linked in an inverse relation."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3606
+msgid "EQs and Filters"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3608
+msgid ":term:`Equalizers <EQ>` and filters are special effects units. The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`. Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3614
+msgid "Controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3618
+msgid "Show the Effect Rack"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3627
+msgid "The number of EffectUnits in this rack"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3636
+msgid "Clear the Effect Rack"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3645
+msgid "Select EffectChain preset. \\> 0 goes one forward; \\< 0 goes one backward."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3647
+#: ../../chapters/advanced_topics.rst:3807
+msgid "+1/-1"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3654
+msgid "Clear the currently loaded EffectChain in this EffectUnit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3663
+msgid "If true, the EffectChain in this EffectUnit will be processed. Meant to allow the user a quick toggle for the effect unit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3665
+#: ../../chapters/advanced_topics.rst:3816
+msgid "binary, default true"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3672
+msgid "0 indicates no effect is focused; \\> 0 indicates the index of the focused effect. Focusing an effect only does something if a controller mapping changes how it behaves when an effect is focused."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3674
+msgid "0..num_effects"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3681
+msgid "Whether or not this EffectChain applies to Deck I"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3688
+msgid "Whether or not this EffectChain applies to the Headphone output"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3695
+msgid "Whether or not this EffectChain applies to the Master output"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3702
+msgid "Whether or not this EffectChain applies to Sampler J"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3711
+msgid "Whether an EffectChain is loaded into the EffectUnit"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3720
+msgid "The dry/wet mixing ratio for this EffectChain with the EngineChannels it is mixed with"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3731
+msgid "Cycle to the next EffectChain preset after the currently loaded preset."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3740
+msgid "The number of Effects that this EffectChain has"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3749
+msgid "The number of effect slots available in this EffectUnit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3758
+msgid "Cycle to the previous EffectChain preset before the currently loaded preset."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3767
+msgid "Whether to show focus buttons and draw a border around the focused effect in skins. This should not be manipulated by skins; it should only be changed by controller mappings."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3778
+msgid "Whether to show all the parameters of each effect in skins or only show metaknobs."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3785
+msgid "The EffectChain superknob. Moves the metaknobs for each effect in the chain."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3796
+msgid "Clear the currently loaded Effect in this Effect slot from the EffectUnit."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3805
+msgid "Select Effect -- \\>0 goes one forward, \\<0 goes one backward."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3814
+msgid "If true, the effect in this slot will be processed. Meant to allow the user a quick toggle for this effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3823
+msgid "Whether an Effect is loaded into this EffectSlot"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3832
+msgid "Cycle to the next effect after the currently loaded effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3841
+msgid "The number of parameters the currently loaded effect has."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3843
+msgid "integer, read-only,  0 if no effect is loaded"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3850
+msgid "The number of parameter slots available."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3859
+msgid "The number of button parameters the currently loaded effect has."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3861
+msgid "integer, read-only, 0 if no effect is loaded"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3868
+msgid "The number of button parameter slots available."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3877
+msgid "Controls the parameters that are linked to the metaknob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3881
+msgid "0..1"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3888
+msgid "Cycle to the previous effect before the currently loaded effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3897
+msgid "The scaled value of the Kth parameter. See the `Parameter Values <https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#user-content-parameter-values>`__ section for more information."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3902
+#: ../../chapters/advanced_topics.rst:3947
+msgid "double"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3909
+msgid "The link direction of the Kth parameter to the effect's metaknob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3911
+msgid "bool"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3918
+msgid "The link type of the Kth parameter to the effects's metaknob."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3920
+msgid "enum"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3927
+#: ../../chapters/advanced_topics.rst:3954
+msgid "Whether or not the Kth parameter slot has an effect parameter loaded into it."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3936
+#: ../../chapters/advanced_topics.rst:3963
+msgid "The type of the Kth parameter value. See the Parameter Value Types table."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3945
+msgid "The value of the Kth parameter. See the Parameter Values section for more information."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3969
+msgid "Removed controls"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3971
+msgid "These controls have been removed from Mixxx. Skins and controller mappings that attempt to use them will not work correctly."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3977
+msgid "Toggles the flanger effect."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3979
+#: ../../chapters/advanced_topics.rst:4028
+#: ../../chapters/advanced_topics.rst:4038
+#: ../../chapters/advanced_topics.rst:4048
+msgid "This control has been **removed** without a direct replacement. Use the :ref:`effects framework <advanced-mixxxcontrols-effects>` instead."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:3988
+#: ../../chapters/advanced_topics.rst:3994
+#: ../../chapters/advanced_topics.rst:4000
+#: ../../chapters/advanced_topics.rst:4006
+#: ../../chapters/advanced_topics.rst:4012
+#: ../../chapters/advanced_topics.rst:4018
+msgid "This control has been **removed**."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4026
+msgid "Adjusts the intensity of the flange effect"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4036
+msgid "Adjusts the phase delay of the flange effect in microseconds"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4046
+msgid "Adjusts the wavelength of the flange effect in microseconds"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4055
+msgid "Making a Custom Keyboard Mapping"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4057
+msgid "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text file which can be found at the following location:"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4060
+msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4061
+msgid "macOS: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4062
+msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4064
+msgid "Depending on your system's language settings, Mixxx might use a different file as default, e.g. :file:`de_DE.kbd.cfg` for German or :file:`es_ES.kbd.cfg` for Spanish."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4068
+msgid "It is not recommended that you modify the system-wide keyboard mapping file because all your changes may be lost if you uninstall or upgrade Mixxx. Instead, copy the default mapping file to the following location:"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4072
+msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4073
+msgid "macOS: :file:`~/Library/Application\\\\ Support/Mixxx/Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4074
+msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4076
+msgid "Then edit this file and save the changes. On the next startup, Mixxx will check if :file:`Custom.kbd.cfg` is present and load that file instead of the default mapping file. This has the advantage that you can always revert back to the default mapping by deleting :file:`Custom.kbd.cfg`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4081
+msgid "For a list of controls that can be used in a keyboard mapping, see `<https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4084
+msgid "You can download and share custom keyboard mappings in the `Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4090
+msgid "Additional Effects via external Mixer Mode"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4092
+msgid "Mixxx comes with a set of :ref:`native effects <effects>`. Additionally, using the :ref:`external mixer mode <intro-how-mixxx-works>` you can route each deck directly to 3rd party effect hosts."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4096
+msgid "The following examples are only intended to encourage experimentation, they are not definitive guidance."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4100
+msgid "Effects via AU Lab on macOS"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4109
+msgid "The Au Lab routing for external effects on macOS"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4111
+msgid "On macOS there is a simple and free way to give Mixxx access to the collection of AU/VST/MAS plugins that are installed on your system."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4114
+msgid "Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-Original/releases/>`_, a system extension for inter-application audio routing."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4116
+msgid "Install the free digital audio mixing application `AU Lab <https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4119
+msgid "macOS 10.15 (Catalina) introduces additional restrictions on running non-Apple software. Make sure to grant permission in `System Preferences --> Security & Privacy --> Microphone --> AU Lab`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4123
+msgid "Alternatively, try `Blackhole <https://github.com/ExistentialAudio/BlackHole>`_, a modern virtual audio driver that allows applications to pass audio to other applications with zero additional :term:`latency`, and `Hosting AU <http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that hosts Audio Unit instruments and effect plugins."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4129
+msgid "**In Mixxx**"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4131
+msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4132
+msgid "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 1-2`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4134
+msgid "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with :guilabel:`Channel 3-4`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4136
+msgid "Click the :guilabel:`Apply` button"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4138
+msgid "**In AU Lab**"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4140
+msgid "Click on the :guilabel:`+` button to create a new configuration"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4141
+msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4142
+msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4143
+msgid "Click :guilabel:`OK`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4144
+msgid "Change the audio input device to :guilabel:`Soundflower 16`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4145
+msgid "Change the audio output device for example to :guilabel:`Built-in Output`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4146
+msgid "Click :guilabel:`Create document`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4147
+msgid "In the :guilabel:`Output 1` channel, select an effect from the drop-down menu, for example :menuselection:`Apple --> AUCompressor`"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4150
+msgid "The effect should now react if you play a track in Mixxx."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4153
+msgid "Effects via JACK Rack on GNU/Linux"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4162
+msgid "The Jack routing for external effects on GNU/Linux"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4164
+msgid "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_ effect racks, or for more control you can use Ardour (or another :term:`DAW`) using sends for effects. This gives Mixxx access to the extensive collection of :term:`LADSPA` plugins."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4170
+msgid "Make sure the correct multichannel audio interface has been selected in Jack (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack ports as :guilabel:`Portaudio`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4175
+msgid "Deleting Your Library"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:4177
 msgid "The library file is stored in the following places depending on your :term:`operating system`:"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:241
+#: ../../chapters/advanced_topics.rst:4184
 msgid "**Windows**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:238
+#: ../../chapters/advanced_topics.rst:4181
 msgid "The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:248
+#: ../../chapters/advanced_topics.rst:4191
 msgid "**macOS**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:244
+#: ../../chapters/advanced_topics.rst:4187
 msgid "The Mixxx library is stored in the :file:`Library/Application Support/Mixxx` folder in your home directory. To delete your library on macOS type the following command into a terminal: ::"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:254
+#: ../../chapters/advanced_topics.rst:4197
 msgid "**GNU/Linux**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:251
+#: ../../chapters/advanced_topics.rst:4194
 msgid "The Mixxx library is stored in the ``.mixxx`` folder in your home directory. To delete your library on GNU/Linux type the following command into a terminal: ::"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:256
+#: ../../chapters/advanced_topics.rst:4199
 msgid "Deleting your library will lose all of your :term:`metadata`. This includes saved hotcues, loops, comments, ratings, and other library related metadata. Only delete your library if you are fine with losing these."
 msgstr ""
