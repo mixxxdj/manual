@@ -3520,7 +3520,7 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
 
 .. mixxx:control:: [Controls],ShowDurationRemaining
 
-   Yields the current state of the remaining time duration of the loaded track.
+   Represents the current state of the remaining time duration display of the loaded track.
 
    :range:
       ===== ===========================================================================
