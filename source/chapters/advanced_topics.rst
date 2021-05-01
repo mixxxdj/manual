@@ -1675,6 +1675,30 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.9.0
 
 
+.. mixxx:control:: [ChannelN],orientation_center
+                   [PreviewDeckN],orientation_center
+                   [SamplerN],orientation_center
+                   [AuxiliaryN],orientation_center
+
+   Assign channel to the center of the :term:`crossfader`.
+
+
+.. mixxx:control:: [ChannelN],orientation_left
+                   [PreviewDeckN],orientation_left
+                   [SamplerN],orientation_left
+                   [AuxiliaryN],orientation_left
+
+   Assign channel to the left side of the :term:`crossfader`.
+
+
+.. mixxx:control:: [ChannelN],orientation_right
+                   [PreviewDeckN],orientation_right
+                   [SamplerN],orientation_right
+                   [AuxiliaryN],orientation_right
+
+   Assign channel to the right side of the :term:`crossfader`.
+
+
 .. mixxx:control:: [ChannelN],outro_end_activate
                    [PreviewDeckN],outro_end_activate
                    [SamplerN],outro_end_activate
