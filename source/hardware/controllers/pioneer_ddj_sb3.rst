@@ -102,6 +102,6 @@ No.  Control                                                Function
 5    Channel faders                                         Adjust the output level for each channel
 6    Cross fader                                            Fade between left and right deck
 7    :hwlabel:`MASTER` knob                                 Adjust master output level
-8    :hwlabel:`MASTER` knob                                 Adjust headphones output level
+8    :hwlabel:`HEADPHONES` knob                             Adjust headphones output level
 9    :hwlabel:`MASTER` button                               Output master to headphones
 ===  =====================================================  ============================================================================================
