@@ -39,23 +39,41 @@ Deck section (p. 6)
    :alt: Pioneer DDJ-SB3 (deck section)
    :figclass: pretty-figures
 
-   Deck section (p. 8)
+   Deck section (p. 6)
 
 ===  =================================================  ============================================================================================
 No.  Control                                            Function
 ===  =================================================  ============================================================================================
-1    Jog Wheel (top)                                    Scratch (move play position)
-1    Jog Wheel (outer)                                  Pitch bend (nudge)
-1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Scratch (move play position) faster
-1    :hwlabel:`SHIFT (left)` + Jog Wheel (outer)        Move track selection in library
-2    :hwlabel:`SHIFT` button                            Switch function of controls
-3    Pad 1 - 8                                          Set (if empty) or play (if set) hot cue point / loop 1 - 8
-3    :hwlabel:`SHIFT` + Pad 1 - 8                       Unset / delete hot cue 1 - 8
-4    :hwlabel:`CUE` button                              Set or play cue point, change cue point with JOG WHEEL (top) + cue point
-4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop
-5    :hwlabel:`PLAY/PAUSE` button                       Play / pause
-6    :hwlabel:`BEAT SYNC` button                        Match tempo and phase of other deck, long press to enable master sync
-7    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
+1    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
+2    Jog Wheel (top)                                    Pitch bend (nudge)
+2    :hwlabel:`VINYL` + Jog Wheel (top)                 Scratch (move play position)
+2    Jog Wheel (outer)                                  Pitch bend (nudge)
+2    :hwlabel:`SHIFT` + Jog Wheel (top)                 Fast-forward or fast reverse track
+3    :hwlabel:`HOT CUE`                                 Set hot cue mode
+3    :hwlabel:`SHIFT` + :hwlabel:`HOT CUE`              Set BEAT JUMP mode
+4    :hwlabel:`FX FADE`                                 Set FX fade mode
+4    :hwlabel:`SHIFT` + :hwlabel:`FX FADE`              Set roll mode
+5    :hwlabel:`PAD SCRATCH`                             Set pad scratch mode
+5    :hwlabel:`SHIFT` + :hwlabel:`PAD SCRATCH`          Set slicer mode
+6    :hwlabel:`SAMPLER`                                 Set sampler mode
+6    :hwlabel:`SHIFT` + :hwlabel:`SAMPLER`              Set trans mode
+7    :hwlabel:`VINYL`                                   Toggle vinyl mode
+7    :hwlabel:`SHIFT` + :hwlabel:`VINYL`                Toggle slip mode
+8    :hwlabel:`AUTO LOOP`                               Toggle auto loop
+8    :hwlabel:`SHIFT` + :hwlabel:`AUTO LOOP`            Cancel loop or reloop
+9    :hwlabel:`2X`                                      Double loop length
+10   :hwlabel:`1/2X`                                    Halve loop length
+11   Pad 1 - 8                                          Perform different functions depending on current mode
+12   :hwlabel:`PLAY/PAUSE` button                       Play / pause
+12   :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button    Return to temporary cue point
+13   :hwlabel:`CUE` button                              Set, play and call out cue points
+13   :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop or load previous track
+14   :hwlabel:`SYNC` button                             Match tempo and phase of adjacent deck
+14   :hwlabel:`SHIFT` + :hwlabel:`SYNC` button          Turn off sync mode
+15   :hwlabel:`SHIFT` + button                          Switch function of controls
+16   :hwlabel:`DECK X`                                  Switch deck
+17   :hwlabel:`KEY LOCK`                                Toggle key lock
+17   :hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`             Toggle tempo slider range
 ===  =================================================  ============================================================================================
 
 
