@@ -89,22 +89,19 @@ Mixer section (p. 8)
    :alt: Pioneer DDJ-SB3 (mixer section)
    :figclass: pretty-figures
 
-   Mixer section (p. 10)
+   Mixer section (p. 8)
 
 ===  =====================================================  ============================================================================================
 No.  Control                                                Function
 ===  =====================================================  ============================================================================================
-1    :hwlabel:`MASTER` button                               Toggle Master/Cue knob of headphones between left and right
-1    :hwlabel:`SHIFT` + :hwlabel:`MASTER` button            Toggle between 2- and 4-deck mode
+1    :hwlabel:`TRIM` knob                                   Adjust inidvidual channel output gain
 2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs      Adjust high/mid/low-frequencies
-3    :hwlabel:`CFX` knobs                                   Turns on the selected effects
+3    :hwlabel:`FILTER` knob                                 Low pass / high pass filter for each channel
 4    :hwlabel:`HEADPHONE CUE 1` button                      Toggle headphone pre-fader listening of left deck.
 4    :hwlabel:`HEADPHONE CUE 2` button                      Toggle headphone pre-fader listening of right deck.
-4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`   Load selected track to left deck.
-4    :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`   Load selected track to right deck.
-4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 1`  Toggle between left deck between 1 / 3 in 4-deck mode (if LED is lit, deck 3 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 1`.
-4    :hwlabel:`SHIFT (right)` + :hwlabel:`HEADPHONE CUE 2`  Toggle between right deck between 2 / 4 in 4-deck mode (if LED is lit, deck 4 is active). If 4-deck mode is disabled, this behaves the same as :hwlabel:`SHIFT (left)` + :hwlabel:`HEADPHONE CUE 2`.
 5    Channel faders                                         Adjust the output level for each channel
-6    Transition FX Button                                   Turns on :ref:`AutoDJ <djing-auto-dj>`
-7    Cross fader                                            Fade between left and right deck
+6    Cross fader                                            Fade between left and right deck
+7    :hwlabel:`MASTER` knob                                 Adjust master output level
+8    :hwlabel:`MASTER` knob                                 Adjust headphones output level
+9    :hwlabel:`MASTER` button                               Output master to headphones
 ===  =====================================================  ============================================================================================
