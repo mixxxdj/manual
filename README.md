@@ -48,6 +48,9 @@ The Mixxx manual is based on sound learning principles, and is supposed to be
 user-friendly & motivational. Please refer to the [guidelines](manual_guidelines.rst) for style
 conventions.
 
+**Note** When updating the keyboard mapping sheet apply the changes to the source file in
+mixxxdj/mixxx first, then create a cropped version of that for the manual.
+
 ## Editing the manual using git (recommended)
 
 * Clone the repository `git clone https://github.com/mixxxdj/manual.git`

@@ -19,7 +19,7 @@ repos:
     args: ["--ignore-words", ".codespellignore"]
     exclude: ^(.*\.svg|source/locale/.*)$
 - repo: https://github.com/psf/black
-  rev: stable
+  rev: 20.8b1
   hooks:
   - id: black
     name: "Reformat Python code"

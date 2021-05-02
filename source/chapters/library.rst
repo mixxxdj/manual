@@ -844,7 +844,6 @@ view, then right-click on a session's name/date to access the different features
 * **Export playlist**: Export a session in various file formats. This allows you
   to use the data in other applications.
 
-
 .. _library-analyze:
 
 Analyze - Prepare your tracks
@@ -870,8 +869,9 @@ Supported libraries:
 * |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
-* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_banshee| `Banshee <https://www.banshee-project.org/>`_ (Windows, macOS, GNU/Linux)
 * |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
+* |ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -884,6 +884,11 @@ locations on your hard drive.
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
 
+.. _library-itunes:
+
+Using the iTunes/Traktor/Rhythmbox/Bashee/Rekordbox library
+-----------------------------------------------------------
+
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
 different location. Select :guilabel:`Use Default Library` to reset.
@@ -893,6 +898,39 @@ different location. Select :guilabel:`Use Default Library` to reset.
 * If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists as well.
+
+.. _library-rekordbox:
+
+Using the Rekordbox library
+---------------------------
+To read Rekordbox databases for CDJ/XDJ players on USB or SD devices,
+the database has to be exported to a USB or SD device with a FAT or HFS
+file system using the Rekordbox Export mode.
+Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
+
+1. Plug your USB or SD drive in while Mixxx is running.
+2. Click on the :guilabel:`Rekordbox` item in the library sidebar to scan for  Rekordbox prepared USB drives. If no Rekordbox devices show up, you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
+3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
+
+How Rekordbox hotcues, memory cues, and loops are imported
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The following data is read:
+
+  * Folders
+  * Playlists
+  * Beatgrids
+  * Hot cues
+  * Memory cues
+  * Loops
+
+Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
+
+  *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
+  * The first chronological Rekordbox loop is also mapped to the Mixxx loop.
+  * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
+  * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
+
+Although additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop information is stored in the Mixxx library and will become usable in Mixxx 2.4.
 
 .. _library-serato:
 
