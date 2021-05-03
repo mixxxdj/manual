@@ -10,7 +10,7 @@ and using a separate power supply has no impact on the output level or LED brigh
 
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3
-   Unbind Master knob from Mixxx's Main Gain, because it `controls the hardware volume <https://support.native-instruments.com/hc/en-us/community/posts/360005413857-The-Traktor-S2MK3-Low-output-issue-en-us-?page=1#community_comment_360000742537>`__.
+   Unbind Master knob from Mixxx's Main Gain, because it controls the hardware volume.
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
