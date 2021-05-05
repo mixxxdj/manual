@@ -22,6 +22,20 @@ The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
 
 .. versionadded:: 2.3.0
 
+Audio Setup
+-----------
+
+The mapping relies on the following channel assignments:
+
+===================== ================
+Output Channels       Assigned to
+===================== ================
+1-2                   Master
+3-4                   Headphones
+===================== ================
+
+This controller mapping does not support any inputs. The controller itself has a microphone input, but that cannot be controlled via MIDI.
+
 Controller Mapping
 ------------------
 
@@ -82,7 +96,7 @@ No.  Control                                            Function
 Mixer section (p. 8)
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ../../_static/controllers/pioneer_ddj_200_mixer.svg
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_mixer.svg
    :align: center
    :width: 50%
    :figwidth: 100%
@@ -105,3 +119,35 @@ No.  Control                                                Function
 8    :hwlabel:`HEADPHONES` knob                             Adjust headphones output level
 9    :hwlabel:`MASTER` button                               Output master to headphones
 ===  =====================================================  ============================================================================================
+
+Performance Pads
+~~~~~~~~~~~~~~~~
+
+You can use the Pad Mode Select buttons to select a mode for the
+performance pads. Performance pads are numbered from top left to bottom right. First row is 1-4 and the second row is 5-8.
+
+Hot Cue Mode
+^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_hotcue.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+Bookmark positions in the track and jump to them.
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1-4       Pad (unlit)                                                      Save current position as hot cue.
+1-4       Pad (lit)                                                        Jump to hot cue.
+1-4       :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
+5         Pad                                                              Previous track
+6         Pad                                                              Search left
+7         Pad                                                              Search right
+8         Pad                                                              Censor
+========  ===============================================================  ==========================================
