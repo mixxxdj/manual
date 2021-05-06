@@ -969,7 +969,7 @@ Headphone and Main Mix Controls
   and the headphone output, then adjust the :guilabel:`Head` knob in Mixxx
   to control the volume of your headphones without affecting your Main output.
 
- .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See :ref:`appendix-mixxxcontrols` for detailed information.
 
 **Headphone Split Cue button**
   If activated, two mono signals are sent to the headphone output instead of one
