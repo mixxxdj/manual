@@ -2126,7 +2126,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    This is a :ref:`ControlPotMeter control <advanced-mixxxcontrols-controlpotmeter>`.
 
-   :range: 0.0..3.0
+   :range: 0.0..4.0
    :feedback: none, until you move the Speed slider
 
 
