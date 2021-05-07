@@ -1,7 +1,7 @@
 Gemini CDMP-7000
 ================
 
--  `Manufacturer’s product page <https://geminisound.com/products/cdmp-7000>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20210127092245/https://geminisound.com/products/cdmp-7000>`__
 
 .. versionadded:: 2.0
 
