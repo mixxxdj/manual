@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
+"POT-Creation-Date: 2021-05-08 12:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "USB microphones are not recommended. These devices have their own audio i
 msgstr ""
 
 #: ../../chapters/microphones.rst:27
-msgid "The `Mixxx DJ Hardware Guide <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific audio interfaces with information about their prices, features, and suitability for use with microphones."
+msgid "The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ lists specific audio interfaces with information about their prices, features, and suitability for use with microphones."
 msgstr ""
 
 #: ../../chapters/microphones.rst:34
@@ -154,7 +154,7 @@ msgid "Latency Compensation"
 msgstr ""
 
 #: ../../chapters/microphones.rst:145
-msgid "When using :ref:`microphones-direct-monitoring`, you will hear the microphone mixed with the music from Mixxx without any noticable latency. However, it still takes time for Mixxx to receive the microphone signal and process it. Without compensating for this latency or using a :ref:`microphones-loopback-input`, the microphone inputs will be out of time relative to the music in your recorded and broadcasted mixes."
+msgid "When using :ref:`microphones-direct-monitoring`, you will hear the microphone mixed with the music from Mixxx without any noticeable latency. However, it still takes time for Mixxx to receive the microphone signal and process it. Without compensating for this latency or using a :ref:`microphones-loopback-input`, the microphone inputs will be out of time relative to the music in your recorded and broadcasted mixes."
 msgstr ""
 
 #: ../../chapters/microphones.rst:162
@@ -318,7 +318,7 @@ msgid "DJ Controllers With Microphone Inputs"
 msgstr ""
 
 #: ../../chapters/microphones.rst:381
-msgid "DJ controllers with microphone inputs typically mix the microphone input with the master output without sending it to the computer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do not digitize the signal to make it available to the computer. Refer to the controller's page on the `Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or the manual from the controller manufacturer for details about your particular controller."
+msgid "DJ controllers with microphone inputs typically mix the microphone input with the master output without sending it to the computer. This does not have the problem with latency that happens with :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do not digitize the signal to make it available to the computer. Refer to the controller's page on the `Mixxx wiki <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ or the manual from the controller manufacturer for details about your particular controller."
 msgstr ""
 
 #: ../../chapters/microphones.rst:390
@@ -327,4 +327,36 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:412
 msgid "DJ controllers typically do not supply phantom power required for condenser microphones. Stand-alone audio interfaces typically do supply phantom power."
+msgstr ""
+
+#: ../../chapters/microphones.rst:416
+msgid "Microphone Ducking"
+msgstr ""
+
+#: ../../chapters/microphones.rst:417
+msgid "Microphone ducking is a technique to improve the audibility of speech by reducing the volume of background music while a voice signal is recorded by the microphone and allows listeners to hear the voice more clearly and consistently. While using Mixxx with a microphone, you might want the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.  The music will 'duck' out of the way of the microphone audio."
+msgstr ""
+
+#: ../../chapters/microphones.rst:427
+msgid "The microphone ducking controls"
+msgstr ""
+
+#: ../../chapters/microphones.rst:429
+msgid "The :guilabel:`Strength` knob adjusts the microphone talkover ducking strength and its behaviour depends on any of the Microphone talkover modes described below. Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:"
+msgstr ""
+
+#: ../../chapters/microphones.rst:432
+msgid ":guilabel:`Off`: When you speak through the microphone, the music  volume does not reduce."
+msgstr ""
+
+#: ../../chapters/microphones.rst:433
+msgid ":guilabel:`Auto`: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob."
+msgstr ""
+
+#: ../../chapters/microphones.rst:434
+msgid ":guilabel:`Manual`:In this mode, the music will play at the volume set by the Strength knob whenever the microphone Talk button is active, regardless of the volume coming through the microphone input. When you speak through your microphone, set the volume to which the music should reduce by turning the Strength knob to a level that suits you. When you disable Talk mode, the music will return to the regular volume"
+msgstr ""
+
+#: ../../chapters/microphones.rst:436
+msgid "To set the Ducking volume correctly, you can use manual mode to adjust the knob to your taste and then set to auto when happy."
 msgstr ""

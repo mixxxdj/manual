@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-08 12:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/manuals.rst:6
+msgid "Hardware Manuals"
+msgstr ""
+
+#: ../../hardware/manuals.rst:9
+msgid "Controllers"
+msgstr ""
+
+#: ../../hardware/manuals.rst:11
+msgid "Mixxx supports the following :ref:`controllers <hardware-controllers>` out of the box. Additional third-party controller mappings that were contributed by the community (but are not yet included in Mixxx) can be found at Mixxx' `Controller Mapping Forum <https://mixxx.discourse.group/c/controller-mappings/10>`__."
+msgstr ""
+
+#: ../../hardware/manuals.rst:14
+msgid ":ref:`control-midi` describes how to configure Mixxx to use controllers."
+msgstr ""
