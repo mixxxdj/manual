@@ -896,4 +896,3 @@ file_filter = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_4
 source_file = source/locale/pot/hardware/controllers/vestax_vci_400.pot
 source_lang = en
 type = PO
-
