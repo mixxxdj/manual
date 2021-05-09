@@ -183,7 +183,8 @@ No.       Control                                                          Funct
 
 FX Fade Mode
 ^^^^^^^^^^^^
-
+FX Fade mode is enabled by pressing the :hwlabel:`FX FADE` button. The button will light up when selected. FX fade is 
+a function built-in to the controller.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_fade.svg
    :align: center
@@ -197,14 +198,17 @@ FX Fade Mode
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
 ========  ===============================================================  ==========================================
-1         Pad (unlit)                                                      Save current position as hot cue.
-2         Pad (lit)                                                        Jump to hot cue.
-3         :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
-4         Pad                                                              Previous track
-5         Pad                                                              Search left
-6         Pad                                                              Search right
-7         Pad                                                              Search right
-8         Pad                                                              Censor
+1         Pad (unlit)                                                      Applies a high-pass filter from off to max
+1         Pad (blinking)                                                   Turn off filter
+2         Pad (unlit)                                                      Applies a low-pass filter from off to max
+2         Pad (blinking)                                                   Turn off filter
+3         Pad (unlit)                                                      Apply 1 beat auto-loop and lower volume
+3         Pad (blinking)                                                   Turn off loop and restore volume
+4         Pad                                                              Perform a back-spin and resume
+5         Pad                                                              Same as pad 1 but over more time 
+6         Pad                                                              Same as pad 2 but over more time
+7         Pad                                                              Auto-loop with exponential size reduction
+8         Pad                                                              Same as 4 but with a longer back-spin
 ========  ===============================================================  ==========================================
 
 Loop Roll Mode
