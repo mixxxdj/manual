@@ -8,6 +8,7 @@ Behringer Digital Pro Mixer DDM4000
    :alt: Behringer DDM4000 (schematic view)
    :figclass: pretty-figures
 
+   Behringer DDM4000 (schematic view)
 
 The DDM4000 is a 5-Channel Digital DJ Mixer with Sampler, 4 FX Sections, BPM Counters and MIDI
 support. Each of the following sections can be configured separately to be used either for audio
