@@ -34,7 +34,7 @@ on GNU/Linux, Mac OS X, and Windows.
 
 Setup
 -----
-Configure at least 1 mixer section as MIDI controller:
+Configure at least one mixer section as MIDI controller:
 
 #. Long press the :hwlabel:`CONSOLE SETUP` knob
 #. Select ``MIDI SETTINGS`` by turning and pressing the :hwlabel:`CONSOLE SETUP` knob
@@ -90,7 +90,7 @@ Microphone (p. 6)
 ===  =======================================================  ============================================================================================
 No.  Control                                                  Function
 ===  =======================================================  ============================================================================================
-4    :hwlabel:`TALK ON`                                       Switch the Talkover function.
+19   :hwlabel:`TALK ON`                                       Switch the Talkover function.
 ===  =======================================================  ============================================================================================
 
 
