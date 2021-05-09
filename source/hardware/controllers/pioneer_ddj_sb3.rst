@@ -184,7 +184,7 @@ No.       Control                                                          Funct
 FX Fade Mode
 ^^^^^^^^^^^^
 FX Fade mode is enabled by pressing the :hwlabel:`FX FADE` button. The button will light up when selected. FX fade is 
-a function built-in to the controller.
+a set of functions built-in to the controller.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_fade.svg
    :align: center
@@ -213,15 +213,18 @@ No.       Control                                                          Funct
 
 Loop Roll Mode
 ^^^^^^^^^^^^^^
+Loop roll mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`FX FADE` button. The button will 
+blink when selected. Press one of the pads to trigger a momentary loop roll. Once the pad is released, the track will
+resume playing.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_roll.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in loop roll mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in loop roll mode)
 
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
