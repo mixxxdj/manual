@@ -13,9 +13,7 @@ OPTIONS = scour.parse_args(
         "--enable-viewboxing",
         "--indent=none",
         "--no-line-breaks",
-        "--remove-descriptions",
-        "--remove-metadata",
-        "--remove-titles",
+        "--remove-descriptive-elements",
     ]
 )
 
