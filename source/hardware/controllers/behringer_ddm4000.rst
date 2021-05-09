@@ -3,25 +3,26 @@ Behringer Digital Pro Mixer DDM4000
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page1_mixer.svg
    :align: center
-   :width: 100%
+   :width: 90%
    :figwidth: 100%
    :alt: Behringer DDM4000 (schematic view)
    :figclass: pretty-figures
+
 
 The DDM4000 is a 5-Channel Digital DJ Mixer with Sampler, 4 FX Sections, BPM Counters and MIDI
 support. Each of the following sections can be configured separately to be used either for audio
 or as MIDI controller:
 
-- Channel 1-4
-- Microphone Channel
-- Crossfader
-- Sampler
+* Channel 1-4
+* Microphone Channel
+* Crossfader
+* Sampler
 
 The mixer contains no digital interfaces for audio or microphones.
 
-- `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0167>`_
-- `User Manual <https://mediadl.musictribe.com/media/sys_master/h1f/h4d/8849404887070.pdf>`_
-- `Forum thread <https://mixxx.discourse.group/t/ddm4000-controller-mapping/20045>`_
+* `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0167>`_
+* `User Manual <https://mediadl.musictribe.com/media/sys_master/h1f/h4d/8849404887070.pdf>`_
+* `Forum thread <https://mixxx.discourse.group/t/ddm4000-controller-mapping/20045>`_
 
 .. versionadded:: 2.3
 
@@ -55,7 +56,7 @@ Stereo channels 1 – 4 (p. 6)
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page6_stereo_channels.svg
    :align: center
-   :width: 65%
+   :width: 50%
    :figwidth: 100%
    :alt: Behringer DDM4000 (stereo channels section)
    :figclass: pretty-figures
@@ -80,7 +81,7 @@ Microphone (p. 6)
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page6_microphone_channel.svg
    :align: center
-   :width: 65%
+   :width: 35%
    :figwidth: 100%
    :alt: Behringer DDM4000 (microphone channel section)
    :figclass: pretty-figures
@@ -101,7 +102,7 @@ Crossfader section (p. 7)
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page7_crossfader.svg
    :align: center
-   :width: 65%
+   :width: 90%
    :figwidth: 100%
    :alt: Behringer DDM4000 (crossfader section)
    :figclass: pretty-figures
@@ -126,7 +127,7 @@ Sampler (p. 8)
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page8_sampler.svg
    :align: center
-   :width: 65%
+   :width: 35%
    :figwidth: 100%
    :alt: Behringer DDM4000 (sampler)
    :figclass: pretty-figures
