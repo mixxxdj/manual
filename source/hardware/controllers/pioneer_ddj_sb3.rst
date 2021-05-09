@@ -41,7 +41,7 @@ Controller Mapping
 
 A schematic drawing with the control numbers that are used here can be found on the specified page in the User Manual in the Links section.
 
-.. _pioneer-ddj-SB3-decks:
+.. _pioneer-ddj-sb3-decks:
 
 Deck section (p. 6)
 ~~~~~~~~~~~~~~~~~~~
@@ -151,3 +151,149 @@ No.       Control                                                          Funct
 7         Pad                                                              Search right
 8         Pad                                                              Censor
 ========  ===============================================================  ==========================================
+
+Beatjump Mode
+^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_beatjump.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1         Pad                                                              Decrease beatjump
+2         Pad                                                              Increase beatjump
+3         Pad                                                              Jump left
+4         Pad                                                              Jump right
+5         Pad                                                              Go back to beginning of track
+6         Pad                                                              Search left
+7         Pad                                                              Search right
+8         Pad                                                              Censor
+========  ===============================================================  ==========================================
+
+FX Fade Mode
+^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_fade.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (Fade mode performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (Fade mode performance pads)
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1         Pad (unlit)                                                      Save current position as hot cue.
+2         Pad (lit)                                                        Jump to hot cue.
+3         :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
+4         Pad                                                              Previous track
+5         Pad                                                              Search left
+6         Pad                                                              Search right
+7         Pad                                                              Search right
+8         Pad                                                              Censor
+========  ===============================================================  ==========================================
+
+Loop Roll Mode
+^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_roll.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1         Pad                                                              1/16 beat loop roll
+2         Pad                                                              1/8 beat loop roll
+3         Pad                                                              1/4 beat loop roll
+4         Pad                                                              1/2 beat loop roll
+5         Pad                                                              1 beat loop roll
+6         Pad                                                              2 beat loop roll
+7         Pad                                                              4 beat loop roll
+8         Pad                                                              8 beat loop roll
+========  ===============================================================  ==========================================
+
+
+Pad Scratch Mode
+^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_scratch.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+Slicer Mode
+^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_slicer.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+Sampler Mode
+^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_sampler.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1         Pad                                                              Play sample 1
+1         :hwlabel:`SHIFT` + Pad                                           Stop sample 1
+2         Pad                                                              Play sample 2
+2         :hwlabel:`SHIFT` + Pad                                           Stop sample 2
+3         Pad                                                              Play sample 3
+3         :hwlabel:`SHIFT` + Pad                                           Stop sample 3
+4         Pad                                                              Play sample 4
+4         :hwlabel:`SHIFT` + Pad                                           Stop sample 4
+5         Pad                                                              Load sample 1
+5         :hwlabel:`SHIFT` + Pad                                           Unload sample 1
+6         Pad                                                              Load sample 2
+6         :hwlabel:`SHIFT` + Pad                                           Unload sample 2
+7         Pad                                                              Load sample 3
+7         :hwlabel:`SHIFT` + Pad                                           Unload sample 3
+8         Pad                                                              Load sample 4
+8         :hwlabel:`SHIFT` + Pad                                           Unload sample 4
+========  ===============================================================  ==========================================
+
+
+Trans Mode
+^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_trans.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (performance pads)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-SB3 (performance pads)
