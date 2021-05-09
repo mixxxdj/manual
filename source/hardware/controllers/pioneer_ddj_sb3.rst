@@ -125,18 +125,20 @@ Performance Pads
 
 You can use the Pad Mode Select buttons to select a mode for the
 performance pads. Performance pads are numbered from top left to bottom right. First row is 1-4 and the second row is 5-8.
+Press shift and the pad mode select button to access other pad modes.
 
 Hot Cue Mode
 ^^^^^^^^^^^^
+Hot Cue mode is enabled by pressing the :hwlabel:`HOT CUE` button. The button will light up when selected.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_hotcue.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in hot cue mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in hot cue mode)
 
 Bookmark positions in the track and jump to them.
 
@@ -154,21 +156,23 @@ No.       Control                                                          Funct
 
 Beatjump Mode
 ^^^^^^^^^^^^^
+Beatjump mode is enabled by holding :hwlabel:`SHIFT` down and pressing the :hwlabel:`HOT CUE` button. The 
+button will flash when selected. Use beatjump mode to jump back or forward on the track by a certain number of beats.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_beatjump.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in beatjump mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in beatjump mode)
 
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
 ========  ===============================================================  ==========================================
-1         Pad                                                              Decrease beatjump
-2         Pad                                                              Increase beatjump
+1         Pad                                                              Decrease beatjump size
+2         Pad                                                              Increase beatjump size
 3         Pad                                                              Jump left
 4         Pad                                                              Jump right
 5         Pad                                                              Go back to beginning of track
@@ -179,6 +183,7 @@ No.       Control                                                          Funct
 
 FX Fade Mode
 ^^^^^^^^^^^^
+
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_fade.svg
    :align: center
