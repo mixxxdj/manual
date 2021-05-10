@@ -1,4418 +1,972 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.2"
-   width="319.97mm"
-   height="270.10001mm"
-   viewBox="0 0 31997 27010.001"
-   preserveAspectRatio="xMidYMid"
-   fill-rule="evenodd"
-   stroke-width="28.222"
-   stroke-linejoin="round"
-   xml:space="preserve"
-   id="svg3500"
-   sodipodi:docname="behringer_bcr2000.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
-   id="metadata3504"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1366"
-   inkscape:window-height="705"
-   id="namedview3502"
-   showgrid="false"
-   fit-margin-top="0"
-   fit-margin-left="0"
-   fit-margin-right="0"
-   fit-margin-bottom="0"
-   inkscape:zoom="0.31632407"
-   inkscape:cx="604.61102"
-   inkscape:cy="505.04091"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="svg3500" />
- <defs
-   class="ClipPathGroup"
-   id="defs1764"><clipPath
-     id="presentation_clip_path"
-     clipPathUnits="userSpaceOnUse">
-   <rect
-   x="0"
-   y="0"
-   width="32000"
-   height="45000"
-   id="rect1758" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="319.97mm" height="270.1mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 31997 27010" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <defs class="ClipPathGroup"><clipPath id="a">
+   <rect width="32000" height="45000"/>
   </clipPath></defs>
- <defs
-   id="defs1843" />
- <defs
-   class="TextShapeIndex"
-   id="defs1847" />
- <defs
-   class="EmbeddedBulletChars"
-   id="defs1879" />
- <defs
-   class="TextEmbeddedBitmaps"
-   id="defs1881" />
- <g
-   id="g1886"
-   transform="translate(-3,-9)">
-  <g
-   id="id2"
-   class="Master_Slide">
-   <g
-   id="bg-id2"
-   class="Background" />
-   <g
-   id="bo-id2"
-   class="BackgroundObjects" />
-  </g>
- </g>
- <g
-   class="SlideGroup"
-   id="g3498"
-   transform="translate(-3,-9)">
-  <g
-   id="g3496">
-   <g
-   id="container-id1">
-    <g
-   id="id1"
-   class="Slide"
-   clip-path="url(#presentation_clip_path)">
-     <g
-   class="Page"
-   id="g3492">
-      <g
-   class="Group"
-   id="g2032">
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g1893">
-        <g
-   id="id3">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12730"
-   y="7000"
-   width="11451"
-   height="1951"
-   id="rect1888" />
-         <path
-   fill="#008080"
-   stroke="none"
-   d="M 18455,8950 H 12730 V 7000 h 11450 v 1950 z"
-   id="path1890" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1906">
-        <g
-   id="id4">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16132"
-   y="8316"
-   width="1798"
-   height="498"
-   id="rect1895" />
-         <text
-   class="TextShape"
-   id="text1903"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1901"><tspan
-       class="TextPosition"
-       x="16897"
-       y="8710"
-       id="tspan1899"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1897">1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1919">
-        <g
-   id="id5">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18981"
-   y="8311"
-   width="1798"
-   height="498"
-   id="rect1908" />
-         <text
-   class="TextShape"
-   id="text1916"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1914"><tspan
-       class="TextPosition"
-       x="19746"
-       y="8705"
-       id="tspan1912"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1910">2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1932">
-        <g
-   id="id6">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21857"
-   y="8311"
-   width="1798"
-   height="498"
-   id="rect1921" />
-         <text
-   class="TextShape"
-   id="text1929"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1927"><tspan
-       class="TextPosition"
-       x="22622"
-       y="8705"
-       id="tspan1925"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1923">3</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1945">
-        <g
-   id="id7">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13253"
-   y="8311"
-   width="1798"
-   height="498"
-   id="rect1934" />
-         <text
-   class="TextShape"
-   id="text1942"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1940"><tspan
-       class="TextPosition"
-       x="13430"
-       y="8705"
-       id="tspan1938"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1936">FOCUS</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g1952">
-        <g
-   id="id8">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12730"
-   y="8920"
-   width="11451"
-   height="6891"
-   id="rect1947" />
-         <path
-   fill="#008080"
-   stroke="none"
-   d="M 18455,15810 H 12730 V 8920 h 11450 v 6890 z"
-   id="path1949" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1965">
-        <g
-   id="id9">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16157"
-   y="14093"
-   width="1798"
-   height="498"
-   id="rect1954" />
-         <text
-   class="TextShape"
-   id="text1962"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1960"><tspan
-       class="TextPosition"
-       x="16922"
-       y="14487"
-       id="tspan1958"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1956">1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1978">
-        <g
-   id="id10">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="19010"
-   y="14094"
-   width="1798"
-   height="498"
-   id="rect1967" />
-         <text
-   class="TextShape"
-   id="text1975"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1973"><tspan
-       class="TextPosition"
-       x="19775"
-       y="14488"
-       id="tspan1971"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1969">2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g1991">
-        <g
-   id="id11">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21882"
-   y="14094"
-   width="1798"
-   height="498"
-   id="rect1980" />
-         <text
-   class="TextShape"
-   id="text1988"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1986"><tspan
-       class="TextPosition"
-       x="22647"
-       y="14488"
-       id="tspan1984"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1982">3</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2004">
-        <g
-   id="id12">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13132"
-   y="14095"
-   width="2271"
-   height="498"
-   id="rect1993" />
-         <text
-   class="TextShape"
-   id="text2001"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan1999"><tspan
-       class="TextPosition"
-       x="13156"
-       y="14489"
-       id="tspan1997"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan1995">DRY / WET</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2017">
-        <g
-   id="id13">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="17605"
-   y="15275"
-   width="1582"
-   height="375"
-   id="rect2006" />
-         <text
-   class="TextShape"
-   id="text2014"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2012"><tspan
-       class="TextPosition"
-       x="17606"
-       y="15571"
-       id="tspan2010"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2008">FX UNIT 2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2030">
-        <g
-   id="id14">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="17606"
-   y="9275"
-   width="1582"
-   height="375"
-   id="rect2019" />
-         <text
-   class="TextShape"
-   id="text2027"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2025"><tspan
-       class="TextPosition"
-       x="17607"
-       y="9571"
-       id="tspan2023"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2021">FX UNIT 2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-      </g>
-      <g
-   class="Group"
-   id="g2178">
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2039">
-        <g
-   id="id15">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1240"
-   y="6995"
-   width="11441"
-   height="1951"
-   id="rect2034" />
-         <path
-   fill="#004586"
-   stroke="none"
-   d="M 6960,8945 H 1240 V 6995 h 11440 v 1950 z"
-   id="path2036" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2052">
-        <g
-   id="id16">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4636"
-   y="8322"
-   width="1798"
-   height="498"
-   id="rect2041" />
-         <text
-   class="TextShape"
-   id="text2049"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2047"><tspan
-       class="TextPosition"
-       x="5401"
-       y="8716"
-       id="tspan2045"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2043">1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2065">
-        <g
-   id="id17">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7485"
-   y="8317"
-   width="1798"
-   height="498"
-   id="rect2054" />
-         <text
-   class="TextShape"
-   id="text2062"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2060"><tspan
-       class="TextPosition"
-       x="8250"
-       y="8711"
-       id="tspan2058"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2056">2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2078">
-        <g
-   id="id18">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="10361"
-   y="8317"
-   width="1798"
-   height="498"
-   id="rect2067" />
-         <text
-   class="TextShape"
-   id="text2075"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2073"><tspan
-       class="TextPosition"
-       x="11126"
-       y="8711"
-       id="tspan2071"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2069">3</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2091">
-        <g
-   id="id19">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1757"
-   y="8317"
-   width="1798"
-   height="498"
-   id="rect2080" />
-         <text
-   class="TextShape"
-   id="text2088"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2086"><tspan
-       class="TextPosition"
-       x="1934"
-       y="8711"
-       id="tspan2084"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2082">FOCUS</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2098">
-        <g
-   id="id20">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1240"
-   y="8870"
-   width="11441"
-   height="6931"
-   id="rect2093" />
-         <path
-   fill="#004586"
-   stroke="none"
-   d="M 6960,15800 H 1240 V 8870 h 11440 v 6930 z"
-   id="path2095" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2111">
-        <g
-   id="id21">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4636"
-   y="14098"
-   width="1798"
-   height="498"
-   id="rect2100" />
-         <text
-   class="TextShape"
-   id="text2108"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2106"><tspan
-       class="TextPosition"
-       x="5401"
-       y="14492"
-       id="tspan2104"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2102">1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2124">
-        <g
-   id="id22">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7489"
-   y="14099"
-   width="1798"
-   height="498"
-   id="rect2113" />
-         <text
-   class="TextShape"
-   id="text2121"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2119"><tspan
-       class="TextPosition"
-       x="8254"
-       y="14493"
-       id="tspan2117"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2115">2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2137">
-        <g
-   id="id23">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="10361"
-   y="14099"
-   width="1798"
-   height="498"
-   id="rect2126" />
-         <text
-   class="TextShape"
-   id="text2134"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2132"><tspan
-       class="TextPosition"
-       x="11126"
-       y="14493"
-       id="tspan2130"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2128">3</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2150">
-        <g
-   id="id24">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1611"
-   y="14100"
-   width="2271"
-   height="498"
-   id="rect2139" />
-         <text
-   class="TextShape"
-   id="text2147"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="423px"
-     font-weight="700"
-     id="tspan2145"><tspan
-       class="TextPosition"
-       x="1635"
-       y="14494"
-       id="tspan2143"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2141">DRY / WET</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2163">
-        <g
-   id="id25">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="6184"
-   y="15275"
-   width="1582"
-   height="375"
-   id="rect2152" />
-         <text
-   class="TextShape"
-   id="text2160"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2158"><tspan
-       class="TextPosition"
-       x="6185"
-       y="15571"
-       id="tspan2156"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2154">FX UNIT 1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2176">
-        <g
-   id="id26">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="6185"
-   y="9175"
-   width="1582"
-   height="375"
-   id="rect2165" />
-         <text
-   class="TextShape"
-   id="text2173"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2171"><tspan
-       class="TextPosition"
-       x="6186"
-       y="9471"
-       id="tspan2169"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2167">FX UNIT 1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2191">
-       <g
-   id="id27">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="26920"
-   y="18856"
-   width="1222"
-   height="375"
-   id="rect2180" />
-        <text
-   class="TextShape"
-   id="text2188"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2186"><tspan
-       class="TextPosition"
-       x="26920"
-       y="19152"
-       id="tspan2184"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2182">PRESET</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2204">
-       <g
-   id="id28">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25970"
-   y="18856"
-   width="318"
-   height="375"
-   id="rect2193" />
-        <text
-   class="TextShape"
-   id="text2201"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2199"><tspan
-       class="TextPosition"
-       x="25970"
-       y="19152"
-       id="tspan2197"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2195">&lt;</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2217">
-       <g
-   id="id29">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28820"
-   y="18874"
-   width="318"
-   height="375"
-   id="rect2206" />
-        <text
-   class="TextShape"
-   id="text2214"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2212"><tspan
-       class="TextPosition"
-       x="28820"
-       y="19170"
-       id="tspan2210"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2208">&gt;</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2230">
-       <g
-   id="id30">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25559"
-   y="14056"
-   width="1061"
-   height="375"
-   id="rect2219" />
-        <text
-   class="TextShape"
-   id="text2227"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2225"><tspan
-       class="TextPosition"
-       x="25559"
-       y="14352"
-       id="tspan2223"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2221">STORE</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2243">
-       <g
-   id="id31">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28384"
-   y="14056"
-   width="1057"
-   height="375"
-   id="rect2232" />
-        <text
-   class="TextShape"
-   id="text2240"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2238"><tspan
-       class="TextPosition"
-       x="28384"
-       y="14352"
-       id="tspan2236"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2234">LEARN</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2256">
-       <g
-   id="id32">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25698"
-   y="16069"
-   width="735"
-   height="375"
-   id="rect2245" />
-        <text
-   class="TextShape"
-   id="text2253"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2251"><tspan
-       class="TextPosition"
-       x="25698"
-       y="16365"
-       id="tspan2249"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2247">EDIT</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2269">
-       <g
-   id="id33">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28558"
-   y="16069"
-   width="718"
-   height="375"
-   id="rect2258" />
-        <text
-   class="TextShape"
-   id="text2266"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2264"><tspan
-       class="TextPosition"
-       x="28558"
-       y="16365"
-       id="tspan2262"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2260">EXIT</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2276">
-       <g
-   id="id34">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25049"
-   y="12550"
-   width="4860"
-   height="4059"
-   id="rect2271" />
-        <path
-   fill="none"
-   stroke="#ffffff"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29903,16526 c 0,43 -22,78 -49,78 h -4752 c -27,0 -49,-35 -49,-78 v -3894 c 0,-43 22,-78 49,-78 h 4752 c 27,0 49,35 49,78 z"
-   id="path2273" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2283">
-       <g
-   id="id35">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25049"
-   y="17300"
-   width="4860"
-   height="2209"
-   id="rect2278" />
-        <path
-   fill="none"
-   stroke="#ffffff"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29903,19462 c 0,23 -22,42 -49,42 h -4752 c -27,0 -49,-19 -49,-42 v -2115 c 0,-24 22,-43 49,-43 h 4752 c 27,0 49,19 49,43 z"
-   id="path2280" />
-       </g>
-      </g>
-      <g
-   class="Group"
-   id="g2504">
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2290">
-        <g
-   id="id36">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1240"
-   y="1000"
-   width="8576"
-   height="5951"
-   id="rect2285" />
-         <path
-   fill="#008000"
-   stroke="none"
-   d="M 5528,6950 H 1240 V 1000 h 8575 v 5950 z"
-   id="path2287" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2315">
-        <g
-   id="id37">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="6347"
-   y="1450"
-   width="4156"
-   height="531"
-   id="rect2292" />
-         <text
-   class="TextShape"
-   id="text2312"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2310"><tspan
-       class="TextPosition"
-       x="7549"
-       y="1873"
-       id="tspan2298"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2294">←</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2296"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="7989"
-       y="1841"
-       id="tspan2302"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2300">LOOP</tspan></tspan><tspan
-       class="TextPosition"
-       y="1873"
-       id="tspan2308"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2304"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2306">→</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2340">
-        <g
-   id="id38">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4695"
-   y="1450"
-   width="1755"
-   height="531"
-   id="rect2317" />
-         <text
-   class="TextShape"
-   id="text2337"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2335"><tspan
-       class="TextPosition"
-       x="4696"
-       y="1873"
-       id="tspan2323"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2319">⇤</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2321"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="5136"
-       y="1841"
-       id="tspan2327"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2325">LOOP</tspan></tspan><tspan
-       class="TextPosition"
-       y="1873"
-       id="tspan2333"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2329"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2331">⇥</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2365">
-        <g
-   id="id39">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1954"
-   y="1451"
-   width="1505"
-   height="531"
-   id="rect2342" />
-         <text
-   class="TextShape"
-   id="text2362"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2360"><tspan
-       class="TextPosition"
-       x="1955"
-       y="1874"
-       id="tspan2348"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2344">↓</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2346"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="2395"
-       y="1842"
-       id="tspan2352"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2350">KEY</tspan></tspan><tspan
-       class="TextPosition"
-       y="1874"
-       id="tspan2358"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2354"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2356">↑</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2378">
-        <g
-   id="id40">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1892"
-   y="6258"
-   width="1584"
-   height="375"
-   id="rect2367" />
-         <text
-   class="TextShape"
-   id="text2375"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2373"><tspan
-       class="TextPosition"
-       x="1945"
-       y="6554"
-       id="tspan2371"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2369">KEYLOCK</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2391">
-        <g
-   id="id41">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7460"
-   y="6258"
-   width="1898"
-   height="375"
-   id="rect2380" />
-         <text
-   class="TextShape"
-   id="text2388"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2386"><tspan
-       class="TextPosition"
-       x="7683"
-       y="6554"
-       id="tspan2384"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2382">REVERSE</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2406">
-        <g
-   id="id42">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4731"
-   y="6258"
-   width="1584"
-   height="375"
-   id="rect2393" />
-         <text
-   class="TextShape"
-   id="text2403"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2401"><tspan
-       class="TextPosition"
-       x="5038"
-       y="6554"
-       id="tspan2399"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2395"> </tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2397">LOOP</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2419">
-        <g
-   id="id43">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="6372"
-   y="1075"
-   width="1165"
-   height="375"
-   id="rect2408" />
-         <text
-   class="TextShape"
-   id="text2416"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2414"><tspan
-       class="TextPosition"
-       x="6374"
-       y="1371"
-       id="tspan2412"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2410">DECK 1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2426">
-        <g
-   id="id44">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9755"
-   y="1000"
-   width="2926"
-   height="3801"
-   id="rect2421" />
-         <path
-   fill="#008000"
-   stroke="none"
-   d="M 11218,4800 H 9755 V 1000 h 2925 v 3800 z"
-   id="path2423" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2443">
-        <g
-   id="id45">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9929"
-   y="1451"
-   width="2683"
-   height="531"
-   id="rect2428" />
-         <text
-   class="TextShape"
-   id="text2440"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2438"><tspan
-       class="TextPosition"
-       x="9930"
-       y="1874"
-       id="tspan2436"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2430">⇤ </tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2432">BEAT JUMP </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2434">⇥</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2450">
-        <g
-   id="id46">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9854"
-   y="4836"
-   width="2826"
-   height="2121"
-   id="rect2445" />
-         <path
-   fill="#808080"
-   stroke="none"
-   d="M 11267,6956 H 9854 V 4836 h 2825 v 2120 z"
-   id="path2447" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2463">
-        <g
-   id="id47">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="10513"
-   y="6258"
-   width="1581"
-   height="375"
-   id="rect2452" />
-         <text
-   class="TextShape"
-   id="text2460"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2458"><tspan
-       class="TextPosition"
-       x="10833"
-       y="6554"
-       id="tspan2456"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2454">SHIFT</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2476">
-        <g
-   id="id48">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="6336"
-   y="4920"
-   width="375"
-   height="1584"
-   id="rect2465" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,6414,5299)"
-   id="text2473"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2471"><tspan
-       class="TextPosition"
-       x="6414"
-       y="5299"
-       id="tspan2469"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2467">ROLL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2489">
-        <g
-   id="id49">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9169"
-   y="4921"
-   width="375"
-   height="1584"
-   id="rect2478" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,9247,5300)"
-   id="text2486"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2484"><tspan
-       class="TextPosition"
-       x="9247"
-       y="5300"
-       id="tspan2482"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2480">ROLL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2502">
-        <g
-   id="id50">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3536"
-   y="4921"
-   width="376"
-   height="1584"
-   id="rect2491" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,3614,5236)"
-   id="text2499"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2497"><tspan
-       class="TextPosition"
-       x="3614"
-       y="5236"
-       id="tspan2495"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2493">VINYL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-      </g>
-      <g
-   class="Group"
-   id="g2646">
-       <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2513">
-        <g
-   id="id51">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="24901"
-   y="22207"
-   width="5151"
-   height="2053"
-   id="rect2506" />
-         <path
-   fill="#008080"
-   stroke="none"
-   d="m 30001,24171 c 0,22 -23,38 -51,38 h -4948 c -28,0 -51,-16 -51,-38 v -1876 c 0,-22 23,-38 51,-38 h 4948 c 28,0 51,16 51,38 z"
-   id="path2508" />
-         <path
-   fill="none"
-   stroke="#008080"
-   stroke-width="100"
-   stroke-linejoin="miter"
-   d="m 30001,24171 c 0,22 -23,38 -51,38 h -4948 c -28,0 -51,-16 -51,-38 v -1876 c 0,-22 23,-38 51,-38 h 4948 c 28,0 51,16 51,38 z"
-   id="path2510" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2522">
-        <g
-   id="id52">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="24901"
-   y="20099"
-   width="5151"
-   height="2071"
-   id="rect2515" />
-         <path
-   fill="#004586"
-   stroke="none"
-   d="m 30001,22081 c 0,21 -23,38 -51,38 h -4948 c -28,0 -51,-17 -51,-38 v -1893 c 0,-21 23,-38 51,-38 h 4948 c 28,0 51,17 51,38 z"
-   id="path2517" />
-         <path
-   fill="none"
-   stroke="#004586"
-   stroke-width="100"
-   stroke-linejoin="miter"
-   d="m 30001,22081 c 0,21 -23,38 -51,38 h -4948 c -28,0 -51,-17 -51,-38 v -1893 c 0,-21 23,-38 51,-38 h 4948 c 28,0 51,17 51,38 z"
-   id="path2519" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g2529">
-        <g
-   id="id53">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="27960"
-   y="22322"
-   width="1903"
-   height="1632"
-   id="rect2524" />
-         <path
-   fill="#ff0000"
-   stroke="none"
-   d="m 28232,22322 c -136,0 -271,135 -271,271 v 1088 c 0,136 135,272 271,272 h 1358 c 136,0 272,-136 272,-272 v -1088 c 0,-136 -136,-271 -272,-271 z"
-   id="path2526" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g2536">
-        <g
-   id="id54">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25102"
-   y="22349"
-   width="1902"
-   height="1633"
-   id="rect2531" />
-         <path
-   fill="#008000"
-   stroke="none"
-   d="m 25373,22350 c -136,0 -271,135 -271,271 v 1088 c 0,136 135,272 271,272 h 1358 c 136,0 272,-136 272,-272 v -1088 c 0,-136 -136,-271 -272,-271 z"
-   id="path2533" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g2543">
-        <g
-   id="id55">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="27960"
-   y="20321"
-   width="1902"
-   height="1632"
-   id="rect2538" />
-         <path
-   fill="#ff0000"
-   stroke="none"
-   d="m 28231,20321 c -136,0 -271,135 -271,271 v 1088 c 0,136 135,272 271,272 h 1358 c 136,0 272,-136 272,-272 v -1088 c 0,-136 -136,-271 -272,-271 z"
-   id="path2540" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g2550">
-        <g
-   id="id56">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25104"
-   y="20320"
-   width="1902"
-   height="1632"
-   id="rect2545" />
-         <path
-   fill="#008000"
-   stroke="none"
-   d="m 25375,20320 c -136,0 -271,135 -271,271 v 1088 c 0,136 135,272 271,272 h 1358 c 136,0 272,-136 272,-272 v -1088 c 0,-136 -136,-271 -272,-271 z"
-   id="path2547" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2563">
-        <g
-   id="id57">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25473"
-   y="21452"
-   width="1213"
-   height="425"
-   id="rect2552" />
-         <text
-   class="TextShape"
-   id="text2560"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2558"><tspan
-       class="TextPosition"
-       x="25498"
-       y="21773"
-       id="tspan2556"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2554">DECK 1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2584">
-        <g
-   id="id58">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="27063"
-   y="20604"
-   width="876"
-   height="1147"
-   id="rect2565" />
-         <text
-   class="TextShape"
-   id="text2581"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2579"><tspan
-       class="TextPosition"
-       x="27266"
-       y="20925"
-       id="tspan2569"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2567">FX </tspan></tspan><tspan
-       class="TextPosition"
-       x="27088"
-       y="21298"
-       id="tspan2573"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2571">UNIT </tspan></tspan><tspan
-       class="TextPosition"
-       x="27374"
-       y="21671"
-       id="tspan2577"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2575">1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2597">
-        <g
-   id="id59">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25473"
-   y="23491"
-   width="1213"
-   height="425"
-   id="rect2586" />
-         <text
-   class="TextShape"
-   id="text2594"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2592"><tspan
-       class="TextPosition"
-       x="25498"
-       y="23812"
-       id="tspan2590"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2588">DECK 1</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2610">
-        <g
-   id="id60">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28299"
-   y="21452"
-   width="1213"
-   height="425"
-   id="rect2599" />
-         <text
-   class="TextShape"
-   id="text2607"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2605"><tspan
-       class="TextPosition"
-       x="28324"
-       y="21773"
-       id="tspan2603"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2601">DECK 2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2631">
-        <g
-   id="id61">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="27064"
-   y="22604"
-   width="876"
-   height="1147"
-   id="rect2612" />
-         <text
-   class="TextShape"
-   id="text2628"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2626"><tspan
-       class="TextPosition"
-       x="27267"
-       y="22925"
-       id="tspan2616"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2614">FX </tspan></tspan><tspan
-       class="TextPosition"
-       x="27089"
-       y="23298"
-       id="tspan2620"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2618">UNIT </tspan></tspan><tspan
-       class="TextPosition"
-       x="27375"
-       y="23671"
-       id="tspan2624"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2622">2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2644">
-        <g
-   id="id62">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28299"
-   y="23491"
-   width="1213"
-   height="425"
-   id="rect2633" />
-         <text
-   class="TextShape"
-   id="text2641"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2639"><tspan
-       class="TextPosition"
-       x="28324"
-       y="23812"
-       id="tspan2637"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2635">DECK 2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-      </g>
-      <g
-   class="Group"
-   id="g2867">
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2653">
-        <g
-   id="id63">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21341"
-   y="4840"
-   width="2841"
-   height="2121"
-   id="rect2648" />
-         <path
-   fill="#808080"
-   stroke="none"
-   d="M 22761,6960 H 21341 V 4840 h 2840 v 2120 z"
-   id="path2650" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2660">
-        <g
-   id="id64">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12725"
-   y="1000"
-   width="8576"
-   height="5951"
-   id="rect2655" />
-         <path
-   fill="#ff0000"
-   stroke="none"
-   d="M 17013,6950 H 12725 V 1000 h 8575 v 5950 z"
-   id="path2657" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2685">
-        <g
-   id="id65">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="17777"
-   y="1450"
-   width="4156"
-   height="531"
-   id="rect2662" />
-         <text
-   class="TextShape"
-   id="text2682"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2680"><tspan
-       class="TextPosition"
-       x="18979"
-       y="1873"
-       id="tspan2668"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2664">←</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2666"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="19419"
-       y="1841"
-       id="tspan2672"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2670">LOOP</tspan></tspan><tspan
-       class="TextPosition"
-       y="1873"
-       id="tspan2678"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2674"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2676">→</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2710">
-        <g
-   id="id66">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16125"
-   y="1450"
-   width="1755"
-   height="531"
-   id="rect2687" />
-         <text
-   class="TextShape"
-   id="text2707"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2705"><tspan
-       class="TextPosition"
-       x="16126"
-       y="1873"
-       id="tspan2693"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2689">⇤</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2691"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="16566"
-       y="1841"
-       id="tspan2697"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2695">LOOP</tspan></tspan><tspan
-       class="TextPosition"
-       y="1873"
-       id="tspan2703"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2699"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2701">⇥</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2735">
-        <g
-   id="id67">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13384"
-   y="1451"
-   width="1505"
-   height="531"
-   id="rect2712" />
-         <text
-   class="TextShape"
-   id="text2732"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2730"><tspan
-       class="TextPosition"
-       x="13385"
-       y="1874"
-       id="tspan2718"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2714">↓</tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2716"> </tspan></tspan><tspan
-       class="TextPosition"
-       x="13825"
-       y="1842"
-       id="tspan2722"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2720">KEY</tspan></tspan><tspan
-       class="TextPosition"
-       y="1874"
-       id="tspan2728"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2724"> </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2726">↑</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2748">
-        <g
-   id="id68">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13322"
-   y="6258"
-   width="1584"
-   height="375"
-   id="rect2737" />
-         <text
-   class="TextShape"
-   id="text2745"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2743"><tspan
-       class="TextPosition"
-       x="13375"
-       y="6554"
-       id="tspan2741"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2739">KEYLOCK</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2761">
-        <g
-   id="id69">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18890"
-   y="6258"
-   width="1898"
-   height="375"
-   id="rect2750" />
-         <text
-   class="TextShape"
-   id="text2758"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2756"><tspan
-       class="TextPosition"
-       x="19113"
-       y="6554"
-       id="tspan2754"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2752">REVERSE</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2776">
-        <g
-   id="id70">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16161"
-   y="6258"
-   width="1584"
-   height="375"
-   id="rect2763" />
-         <text
-   class="TextShape"
-   id="text2773"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2771"><tspan
-       class="TextPosition"
-       x="16468"
-       y="6554"
-       id="tspan2769"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2765"> </tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2767">LOOP</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2789">
-        <g
-   id="id71">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="17802"
-   y="1075"
-   width="1165"
-   height="375"
-   id="rect2778" />
-         <text
-   class="TextShape"
-   id="text2786"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2784"><tspan
-       class="TextPosition"
-       x="17804"
-       y="1371"
-       id="tspan2782"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2780">DECK 2</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.RectangleShape"
-   id="g2796">
-        <g
-   id="id72">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21255"
-   y="1000"
-   width="2926"
-   height="3801"
-   id="rect2791" />
-         <path
-   fill="#ff0000"
-   stroke="none"
-   d="M 22718,4800 H 21255 V 1000 h 2925 v 3800 z"
-   id="path2793" />
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2813">
-        <g
-   id="id73">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21359"
-   y="1451"
-   width="2683"
-   height="531"
-   id="rect2798" />
-         <text
-   class="TextShape"
-   id="text2810"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2808"><tspan
-       class="TextPosition"
-       x="21360"
-       y="1874"
-       id="tspan2806"><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2800">⇤ </tspan><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2802">BEAT JUMP </tspan><tspan
-         font-size="459px"
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2804">⇥</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2826">
-        <g
-   id="id74">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21943"
-   y="6258"
-   width="1581"
-   height="375"
-   id="rect2815" />
-         <text
-   class="TextShape"
-   id="text2823"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2821"><tspan
-       class="TextPosition"
-       x="22263"
-       y="6554"
-       id="tspan2819"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2817">SHIFT</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2839">
-        <g
-   id="id75">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="17771"
-   y="4920"
-   width="375"
-   height="1584"
-   id="rect2828" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,17849,5299)"
-   id="text2836"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2834"><tspan
-       class="TextPosition"
-       x="17849"
-       y="5299"
-       id="tspan2832"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2830">ROLL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2852">
-        <g
-   id="id76">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="20604"
-   y="4921"
-   width="375"
-   height="1584"
-   id="rect2841" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,20682,5300)"
-   id="text2849"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2847"><tspan
-       class="TextPosition"
-       x="20682"
-       y="5300"
-       id="tspan2845"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2843">ROLL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-       <g
-   class="com.sun.star.drawing.TextShape"
-   id="g2865">
-        <g
-   id="id77">
-         <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="14938"
-   y="4921"
-   width="375"
-   height="1584"
-   id="rect2854" />
-         <text
-   class="TextShape"
-   transform="rotate(89.9,15016,5236)"
-   id="text2862"><tspan
-     class="TextParagraph"
-     font-family="'DejaVu Sans Condensed', sans-serif"
-     font-size="318px"
-     font-weight="700"
-     id="tspan2860"><tspan
-       class="TextPosition"
-       x="15016"
-       y="5236"
-       id="tspan2858"><tspan
-         fill="#ffffff"
-         stroke="none"
-         id="tspan2856">VINYL</tspan></tspan></tspan></text>
-        </g>
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2876">
-       <g
-   id="id78">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4256"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2869" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6861,3267 c 0,719 -583,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 718,0 1301,582 1301,1300 z"
-   id="path2871" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6861,3267 c 0,719 -583,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 718,0 1301,582 1301,1300 z"
-   id="path2873" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2885">
-       <g
-   id="id79">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7113"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2878" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9718,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2880" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9718,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2882" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2894">
-       <g
-   id="id80">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9970"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2887" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 12575,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2889" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 12575,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2891" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2903">
-       <g
-   id="id81">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12827"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2896" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 15432,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2898" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 15432,3267 c 0,719 -582,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 719,0 1301,582 1301,1300 z"
-   id="path2900" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2912">
-       <g
-   id="id82">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="15684"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2905" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 18289,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2907" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 18289,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2909" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2921">
-       <g
-   id="id83">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18541"
-   y="1963"
-   width="2611"
-   height="2610"
-   id="rect2914" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 21146,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2916" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 21146,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2918" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2930">
-       <g
-   id="id84">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21399"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2923" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 24004,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2925" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 24004,3267 c 0,719 -582,1301 -1300,1301 -719,0 -1301,-582 -1301,-1301 0,-718 582,-1300 1301,-1300 718,0 1300,582 1300,1300 z"
-   id="path2927" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2939">
-       <g
-   id="id85">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1399"
-   y="1963"
-   width="2610"
-   height="2610"
-   id="rect2932" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 4004,3267 c 0,719 -584,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 717,0 1301,582 1301,1300 z"
-   id="path2934" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 4004,3267 c 0,719 -584,1301 -1301,1301 -718,0 -1300,-582 -1300,-1301 0,-718 582,-1300 1300,-1300 717,0 1301,582 1301,1300 z"
-   id="path2936" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2948">
-       <g
-   id="id86">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25323"
-   y="2456"
-   width="4310"
-   height="1610"
-   id="rect2941" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29473,4061 c 28,0 55,-22 60,-49 0,0 95,-473 95,-752 0,-280 -95,-751 -95,-751 -5,-27 -32,-49 -60,-49 h -3990 c -28,0 -55,22 -60,49 0,0 -96,471 -96,751 0,279 96,752 96,752 5,26 32,49 60,49 z"
-   id="path2943" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29473,4061 c 28,0 55,-22 60,-49 0,0 95,-473 95,-752 0,-280 -95,-751 -95,-751 -5,-27 -32,-49 -60,-49 h -3990 c -28,0 -55,22 -60,49 0,0 -96,471 -96,751 0,279 96,752 96,752 5,26 32,49 60,49 z"
-   id="path2945" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2957">
-       <g
-   id="id87">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2950" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-465 0,-188 88,-466 88,-466 8,-26 38,-48 65,-48 z"
-   id="path2952" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-465 0,-188 88,-466 88,-466 8,-26 38,-48 65,-48 z"
-   id="path2954" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2966">
-       <g
-   id="id88">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2959" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,5158 c 27,0 58,22 66,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path2961" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,5158 c 27,0 58,22 66,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path2963" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2975">
-       <g
-   id="id89">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21935"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2968" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 23313,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path2970" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 23313,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path2972" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2984">
-       <g
-   id="id90">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="19078"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2977" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 20455,5158 c 27,0 56,22 65,48 0,0 88,278 88,466 0,187 -88,465 -88,465 -9,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2979" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 20455,5158 c 27,0 56,22 65,48 0,0 88,278 88,466 0,187 -88,465 -88,465 -9,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2981" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g2993">
-       <g
-   id="id91">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16221"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2986" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 17599,5158 c 27,0 56,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2988" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 17599,5158 c 27,0 56,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2990" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3002">
-       <g
-   id="id92">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13364"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect2995" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 14742,5158 c 27,0 56,22 64,48 0,0 88,278 88,466 0,187 -87,465 -87,465 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2997" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 14742,5158 c 27,0 56,22 64,48 0,0 88,278 88,466 0,187 -87,465 -87,465 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 37,-48 65,-48 z"
-   id="path2999" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3011">
-       <g
-   id="id93">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="10506"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect3004" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 11884,5158 c 28,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 h -1222 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 88,-466 88,-466 8,-26 37,-48 64,-48 z"
-   id="path3006" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 11884,5158 c 28,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 h -1222 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 88,-466 88,-466 8,-26 37,-48 64,-48 z"
-   id="path3008" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3020">
-       <g
-   id="id94">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7649"
-   y="5155"
-   width="1535"
-   height="1034"
-   id="rect3013" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9027,5159 c 28,0 57,21 65,47 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 H 7805 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 9,-26 38,-47 65,-47 z"
-   id="path3015" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9027,5159 c 28,0 57,21 65,47 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 H 7805 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 9,-26 38,-47 65,-47 z"
-   id="path3017" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3029">
-       <g
-   id="id95">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4792"
-   y="5155"
-   width="1535"
-   height="1034"
-   id="rect3022" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6170,5159 c 28,0 57,21 65,47 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 H 4948 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-47 65,-47 z"
-   id="path3024" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6170,5159 c 28,0 57,21 65,47 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -37,47 -65,47 H 4948 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-47 65,-47 z"
-   id="path3026" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3038">
-       <g
-   id="id96">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1935"
-   y="5154"
-   width="1535"
-   height="1035"
-   id="rect3031" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 3313,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 H 2091 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path3033" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 3313,5158 c 27,0 57,22 65,48 0,0 87,278 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 H 2091 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-188 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path3035" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3047">
-       <g
-   id="id97">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3040" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3042" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3044" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3056">
-       <g
-   id="id98">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3049" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,7158 c 27,0 58,22 66,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3051" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,7158 c 27,0 58,22 66,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3053" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3065">
-       <g
-   id="id99">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21935"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3058" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 23313,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3060" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 23313,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3062" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3074">
-       <g
-   id="id100">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="19078"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3067" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 20455,7158 c 27,0 56,22 65,48 0,0 88,278 88,465 0,188 -88,466 -88,466 -9,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3069" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 20455,7158 c 27,0 56,22 65,48 0,0 88,278 88,465 0,188 -88,466 -88,466 -9,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3071" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3083">
-       <g
-   id="id101">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="16221"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3076" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 17599,7158 c 27,0 56,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3078" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 17599,7158 c 27,0 56,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3080" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3092">
-       <g
-   id="id102">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="13364"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3085" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 14742,7158 c 27,0 56,22 64,48 0,0 88,278 88,465 0,188 -87,466 -87,466 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3087" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 14742,7158 c 27,0 56,22 64,48 0,0 88,278 88,465 0,188 -87,466 -87,466 -9,26 -38,47 -65,47 h -1222 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 37,-48 65,-48 z"
-   id="path3089" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3101">
-       <g
-   id="id103">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="10506"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3094" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 11884,7158 c 28,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 h -1222 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 88,-465 88,-465 8,-26 37,-48 64,-48 z"
-   id="path3096" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 11884,7158 c 28,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 h -1222 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 88,-465 88,-465 8,-26 37,-48 64,-48 z"
-   id="path3098" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3110">
-       <g
-   id="id104">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7649"
-   y="7155"
-   width="1535"
-   height="1034"
-   id="rect3103" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9027,7159 c 28,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 H 7805 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 9,-26 38,-47 65,-47 z"
-   id="path3105" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9027,7159 c 28,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 H 7805 c -27,0 -56,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 9,-26 38,-47 65,-47 z"
-   id="path3107" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3119">
-       <g
-   id="id105">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4792"
-   y="7155"
-   width="1535"
-   height="1034"
-   id="rect3112" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6170,7159 c 28,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 H 4948 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-47 65,-47 z"
-   id="path3114" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6170,7159 c 28,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -37,47 -65,47 H 4948 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-47 65,-47 z"
-   id="path3116" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3128">
-       <g
-   id="id106">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1935"
-   y="7153"
-   width="1535"
-   height="1036"
-   id="rect3121" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 3313,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 H 2091 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3123" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 3313,7158 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 H 2091 c -27,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3125" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3137">
-       <g
-   id="id107">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="22454"
-   width="1535"
-   height="1035"
-   id="rect3130" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,22459 c 27,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3132" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,22459 c 27,0 57,21 65,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3134" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3146">
-       <g
-   id="id108">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="22454"
-   width="1535"
-   height="1035"
-   id="rect3139" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,22459 c 27,0 58,21 66,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3141" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,22459 c 27,0 58,21 66,47 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3143" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3155">
-       <g
-   id="id109">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="20404"
-   width="1535"
-   height="1035"
-   id="rect3148" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,20408 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3150" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,20408 c 27,0 57,22 65,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3152" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3164">
-       <g
-   id="id110">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="20404"
-   width="1535"
-   height="1035"
-   id="rect3157" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,20408 c 27,0 58,22 66,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3159" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,20408 c 27,0 58,22 66,48 0,0 87,278 87,465 0,188 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3161" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3173">
-       <g
-   id="id111">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="17704"
-   width="1535"
-   height="1035"
-   id="rect3166" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,17708 c 27,0 57,22 65,48 0,0 87,279 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-465 0,-187 88,-466 88,-466 8,-26 38,-48 65,-48 z"
-   id="path3168" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,17708 c 27,0 57,22 65,48 0,0 87,279 87,466 0,187 -87,465 -87,465 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-278 -88,-465 0,-187 88,-466 88,-466 8,-26 38,-48 65,-48 z"
-   id="path3170" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3182">
-       <g
-   id="id112">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="17704"
-   width="1535"
-   height="1035"
-   id="rect3175" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,17708 c 27,0 58,22 66,48 0,0 87,279 87,466 0,187 -87,465 -87,465 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-187 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path3177" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,17708 c 27,0 58,22 66,48 0,0 87,279 87,466 0,187 -87,465 -87,465 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-278 -87,-465 0,-187 87,-466 87,-466 8,-26 38,-48 65,-48 z"
-   id="path3179" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3191">
-       <g
-   id="id113">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="14953"
-   width="1535"
-   height="1036"
-   id="rect3184" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,14958 c 27,0 57,22 65,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-279 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3186" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,14958 c 27,0 57,22 65,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-279 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3188" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3200">
-       <g
-   id="id114">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="14953"
-   width="1535"
-   height="1036"
-   id="rect3193" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,14958 c 27,0 58,22 66,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-279 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3195" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,14958 c 27,0 58,22 66,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-279 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3197" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3209">
-       <g
-   id="id115">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="28135"
-   y="12903"
-   width="1535"
-   height="1036"
-   id="rect3202" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 29513,12908 c 27,0 57,22 65,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-279 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3204" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 29513,12908 c 27,0 57,22 65,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -38,47 -65,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -88,-279 -88,-466 0,-187 88,-465 88,-465 8,-26 38,-48 65,-48 z"
-   id="path3206" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3218">
-       <g
-   id="id116">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="25285"
-   y="12903"
-   width="1535"
-   height="1036"
-   id="rect3211" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 26662,12908 c 27,0 58,22 66,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-279 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3213" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 26662,12908 c 27,0 58,22 66,48 0,0 87,278 87,465 0,187 -87,466 -87,466 -8,26 -39,47 -66,47 h -1221 c -28,0 -57,-21 -65,-47 0,0 -87,-279 -87,-466 0,-187 87,-465 87,-465 8,-26 38,-48 65,-48 z"
-   id="path3215" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3227">
-       <g
-   id="id117">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4256"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3220" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6861,12414 c 0,716 -583,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 718,0 1301,582 1301,1297 z"
-   id="path3222" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6861,12414 c 0,716 -583,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 718,0 1301,582 1301,1297 z"
-   id="path3224" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3236">
-       <g
-   id="id118">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7113"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3229" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9718,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3231" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9718,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3233" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3245">
-       <g
-   id="id119">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9970"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3238" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 12575,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3240" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 12575,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3242" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3254">
-       <g
-   id="id120">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12827"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3247" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 15432,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3249" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 15432,12414 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 719,0 1301,582 1301,1297 z"
-   id="path3251" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3263">
-       <g
-   id="id121">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="15684"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3256" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 18289,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3258" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 18289,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3260" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3272">
-       <g
-   id="id122">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18541"
-   y="11113"
-   width="2611"
-   height="2602"
-   id="rect3265" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 21146,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3267" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 21146,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3269" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3281">
-       <g
-   id="id123">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21399"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3274" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 24004,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3276" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 24004,12414 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-715 582,-1297 1301,-1297 718,0 1300,582 1300,1297 z"
-   id="path3278" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3290">
-       <g
-   id="id124">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1399"
-   y="11113"
-   width="2610"
-   height="2602"
-   id="rect3283" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 4004,12414 c 0,716 -584,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 717,0 1301,582 1301,1297 z"
-   id="path3285" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 4004,12414 c 0,716 -584,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-715 582,-1297 1300,-1297 717,0 1301,582 1301,1297 z"
-   id="path3287" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3299">
-       <g
-   id="id125">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4256"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3292" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6861,17513 c 0,716 -583,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 718,0 1301,581 1301,1297 z"
-   id="path3294" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6861,17513 c 0,716 -583,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 718,0 1301,581 1301,1297 z"
-   id="path3296" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3308">
-       <g
-   id="id126">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7113"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3301" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9718,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3303" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9718,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3305" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3317">
-       <g
-   id="id127">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9970"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3310" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 12575,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3312" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 12575,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3314" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3326">
-       <g
-   id="id128">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12827"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3319" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 15432,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3321" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 15432,17513 c 0,716 -582,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3323" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3335">
-       <g
-   id="id129">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="15684"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3328" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 18289,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3330" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 18289,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3332" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3344">
-       <g
-   id="id130">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18541"
-   y="16212"
-   width="2611"
-   height="2603"
-   id="rect3337" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 21146,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3339" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 21146,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3341" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3353">
-       <g
-   id="id131">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21399"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3346" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 24004,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3348" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 24004,17513 c 0,716 -582,1297 -1300,1297 -719,0 -1301,-581 -1301,-1297 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3350" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3362">
-       <g
-   id="id132">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1399"
-   y="16212"
-   width="2610"
-   height="2603"
-   id="rect3355" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 4004,17513 c 0,716 -584,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 717,0 1301,581 1301,1297 z"
-   id="path3357" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 4004,17513 c 0,716 -584,1297 -1301,1297 -718,0 -1300,-581 -1300,-1297 0,-716 582,-1297 1300,-1297 717,0 1301,581 1301,1297 z"
-   id="path3359" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3371">
-       <g
-   id="id133">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="4256"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3364" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 6861,22614 c 0,716 -583,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 718,0 1301,581 1301,1297 z"
-   id="path3366" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 6861,22614 c 0,716 -583,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 718,0 1301,581 1301,1297 z"
-   id="path3368" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3380">
-       <g
-   id="id134">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="7113"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3373" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 9718,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3375" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 9718,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3377" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3389">
-       <g
-   id="id135">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="9970"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3382" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 12575,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3384" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 12575,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3386" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3398">
-       <g
-   id="id136">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="12827"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3391" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 15432,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3393" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 15432,22614 c 0,716 -582,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 719,0 1301,581 1301,1297 z"
-   id="path3395" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3407">
-       <g
-   id="id137">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="15684"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3400" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 18289,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3402" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 18289,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3404" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3416">
-       <g
-   id="id138">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="18541"
-   y="21313"
-   width="2611"
-   height="2602"
-   id="rect3409" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 21146,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3411" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 21146,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3413" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3425">
-       <g
-   id="id139">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="21399"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3418" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 24004,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3420" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 24004,22614 c 0,716 -582,1296 -1300,1296 -719,0 -1301,-580 -1301,-1296 0,-716 582,-1297 1301,-1297 718,0 1300,581 1300,1297 z"
-   id="path3422" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.ClosedBezierShape"
-   id="g3434">
-       <g
-   id="id140">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="1399"
-   y="21313"
-   width="2610"
-   height="2602"
-   id="rect3427" />
-        <path
-   fill="#ffffff"
-   stroke="none"
-   d="m 4004,22614 c 0,716 -584,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 717,0 1301,581 1301,1297 z"
-   id="path3429" />
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="8"
-   stroke-linejoin="miter"
-   d="m 4004,22614 c 0,716 -584,1296 -1301,1296 -718,0 -1300,-580 -1300,-1296 0,-716 582,-1297 1300,-1297 717,0 1301,581 1301,1297 z"
-   id="path3431" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3441">
-       <g
-   id="id141">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="993"
-   y="9"
-   width="19"
-   height="27001"
-   id="rect3436" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 1002,27009 V 9"
-   id="path3438" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3448">
-       <g
-   id="id142">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="494"
-   y="9"
-   width="19"
-   height="27001"
-   id="rect3443" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 503,27009 V 9"
-   id="path3445" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3455">
-       <g
-   id="id143">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3"
-   y="26499"
-   width="32000"
-   height="19"
-   id="rect3450" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 3,26508 H 32002"
-   id="path3452" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3462">
-       <g
-   id="id144">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="30644"
-   y="9"
-   width="19"
-   height="27001"
-   id="rect3457" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 30653,27009 V 9"
-   id="path3459" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3469">
-       <g
-   id="id145">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3"
-   y="27000"
-   width="32000"
-   height="19"
-   id="rect3464" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 3,27009 H 32002"
-   id="path3466" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3476">
-       <g
-   id="id146">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3"
-   y="500"
-   width="32000"
-   height="19"
-   id="rect3471" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 3,509 H 32002"
-   id="path3473" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3483">
-       <g
-   id="id147">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3"
-   y="1000"
-   width="32000"
-   height="19"
-   id="rect3478" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 3,1009 H 32002"
-   id="path3480" />
-       </g>
-      </g>
-      <g
-   class="com.sun.star.drawing.LineShape"
-   id="g3490">
-       <g
-   id="id148">
-        <rect
-   class="BoundingBox"
-   stroke="none"
-   fill="none"
-   x="3"
-   y="10501"
-   width="32000"
-   height="19"
-   id="rect3485" />
-        <path
-   fill="none"
-   stroke="#231f20"
-   stroke-width="17"
-   stroke-linejoin="miter"
-   d="M 3,10510 H 32002"
-   id="path3487" />
-       </g>
+
+
+
+
+
+ <g class="SlideGroup" transform="translate(-3,-9)">
+
+
+    <g class="Slide" clip-path="url(#a)">
+     <g class="Page">
+      <g class="Group">
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="12730" y="7e3" width="11451" height="1951" fill="none"/>
+         <path d="m18455 8950h-5725v-1950h11450v1950z" fill="#008080"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="16132" y="8316" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="16897" y="8710"><tspan fill="#ffffff">1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="18981" y="8311" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="19746" y="8705"><tspan fill="#ffffff">2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="21857" y="8311" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="22622" y="8705"><tspan fill="#ffffff">3</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="13253" y="8311" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="13430" y="8705"><tspan fill="#ffffff">FOCUS</tspan></tspan></tspan></text>
+
+       </g>
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="12730" y="8920" width="11451" height="6891" fill="none"/>
+         <path d="m18455 15810h-5725v-6890h11450v6890z" fill="#008080"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="16157" y="14093" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="16922" y="14487"><tspan fill="#ffffff">1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="19010" y="14094" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="19775" y="14488"><tspan fill="#ffffff">2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="21882" y="14094" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="22647" y="14488"><tspan fill="#ffffff">3</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="13132" y="14095" width="2271" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="13156" y="14489"><tspan fill="#ffffff">DRY / WET</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="17605" y="15275" width="1582" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="17606" y="15571"><tspan fill="#ffffff">FX UNIT 2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="17606" y="9275" width="1582" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="17607" y="9571"><tspan fill="#ffffff">FX UNIT 2</tspan></tspan></tspan></text>
+
+       </g>
+
+
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="1240" y="6995" width="11441" height="1951" fill="none"/>
+         <path d="m6960 8945h-5720v-1950h11440v1950z" fill="#004586"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="4636" y="8322" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="5401" y="8716"><tspan fill="#ffffff">1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="7485" y="8317" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="8250" y="8711"><tspan fill="#ffffff">2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="10361" y="8317" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="11126" y="8711"><tspan fill="#ffffff">3</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="1757" y="8317" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="1934" y="8711"><tspan fill="#ffffff">FOCUS</tspan></tspan></tspan></text>
+
+       </g>
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="1240" y="8870" width="11441" height="6931" fill="none"/>
+         <path d="m6960 15800h-5720v-6930h11440v6930z" fill="#004586"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="4636" y="14098" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="5401" y="14492"><tspan fill="#ffffff">1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="7489" y="14099" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="8254" y="14493"><tspan fill="#ffffff">2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="10361" y="14099" width="1798" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="11126" y="14493"><tspan fill="#ffffff">3</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="1611" y="14100" width="2271" height="498" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="423px" font-weight="700"><tspan class="TextPosition" x="1635" y="14494"><tspan fill="#ffffff">DRY / WET</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="6184" y="15275" width="1582" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="6185" y="15571"><tspan fill="#ffffff">FX UNIT 1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="6185" y="9175" width="1582" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="6186" y="9471"><tspan fill="#ffffff">FX UNIT 1</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="26920" y="18856" width="1222" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="26920" y="19152"><tspan fill="#ffffff">PRESET</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="25970" y="18856" width="318" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="25970" y="19152"><tspan fill="#ffffff">&lt;</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="28820" y="18874" width="318" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="28820" y="19170"><tspan fill="#ffffff">&gt;</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="25559" y="14056" width="1061" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="25559" y="14352"><tspan fill="#ffffff">STORE</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="28384" y="14056" width="1057" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="28384" y="14352"><tspan fill="#ffffff">LEARN</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="25698" y="16069" width="735" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="25698" y="16365"><tspan fill="#ffffff">EDIT</tspan></tspan></tspan></text>
+
+
+
+
+        <rect class="BoundingBox" x="28558" y="16069" width="718" height="375" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="28558" y="16365"><tspan fill="#ffffff">EXIT</tspan></tspan></tspan></text>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape" fill="none">
+
+        <rect class="BoundingBox" x="25049" y="12550" width="4860" height="4059"/>
+        <path d="m29903 16526c0 43-22 78-49 78h-4752c-27 0-49-35-49-78v-3894c0-43 22-78 49-78h4752c27 0 49 35 49 78z" stroke="#fff" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25049" y="17300" width="4860" height="2209"/>
+        <path d="m29903 19462c0 23-22 42-49 42h-4752c-27 0-49-19-49-42v-2115c0-24 22-43 49-43h4752c27 0 49 19 49 43z" stroke="#fff" stroke-linejoin="miter" stroke-width="8"/>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="1240" y="1e3" width="8576" height="5951" fill="none"/>
+         <path d="m5528 6950h-4288v-5950h8575v5950z" fill="#008000"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="6347" y="1450" width="4156" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="7549" y="1873" fill="#ffffff"><tspan font-size="459px">←</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="7989" y="1841"><tspan fill="#ffffff">LOOP</tspan></tspan><tspan class="TextPosition" y="1873" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">→</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="4695" y="1450" width="1755" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="4696" y="1873" fill="#ffffff"><tspan font-size="459px">⇤</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="5136" y="1841"><tspan fill="#ffffff">LOOP</tspan></tspan><tspan class="TextPosition" y="1873" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">⇥</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="1954" y="1451" width="1505" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="1955" y="1874" fill="#ffffff"><tspan font-size="459px">↓</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="2395" y="1842"><tspan fill="#ffffff">KEY</tspan></tspan><tspan class="TextPosition" y="1874" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">↑</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="1892" y="6258" width="1584" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="1945" y="6554"><tspan fill="#ffffff">KEYLOCK</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="7460" y="6258" width="1898" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="7683" y="6554"><tspan fill="#ffffff">REVERSE</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="4731" y="6258" width="1584" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="5038" y="6554" fill="#ffffff"><tspan> </tspan><tspan>LOOP</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="6372" y="1075" width="1165" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="6374" y="1371"><tspan fill="#ffffff">DECK 1</tspan></tspan></tspan></text>
+
+       </g>
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="9755" y="1e3" width="2926" height="3801" fill="none"/>
+         <path d="m11218 4800h-1463v-3800h2925v3800z" fill="#008000"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="9929" y="1451" width="2683" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="9930" y="1874" fill="#ffffff"><tspan font-size="459px">⇤ </tspan><tspan>BEAT JUMP </tspan><tspan font-size="459px">⇥</tspan></tspan></tspan></text>
+
+       </g>
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="9854" y="4836" width="2826" height="2121" fill="none"/>
+         <path d="m11267 6956h-1413v-2120h2825v2120z" fill="#808080"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="10513" y="6258" width="1581" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="10833" y="6554"><tspan fill="#ffffff">SHIFT</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="6336" y="4920" width="375" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,6414,5299)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="6414" y="5299"><tspan fill="#ffffff">ROLL</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="9169" y="4921" width="375" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,9247,5300)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="9247" y="5300"><tspan fill="#ffffff">ROLL</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="3536" y="4921" width="376" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,3614,5236)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="3614" y="5236"><tspan fill="#ffffff">VINYL</tspan></tspan></tspan></text>
+
+       </g>
+
+
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="24901" y="22207" width="5151" height="2053" fill="none"/>
+         <path d="m30001 24171c0 22-23 38-51 38h-4948c-28 0-51-16-51-38v-1876c0-22 23-38 51-38h4948c28 0 51 16 51 38z" fill="#008080"/>
+         <path d="m30001 24171c0 22-23 38-51 38h-4948c-28 0-51-16-51-38v-1876c0-22 23-38 51-38h4948c28 0 51 16 51 38z" fill="none" stroke="#008080" stroke-linejoin="miter" stroke-width="100"/>
+
+
+
+
+         <rect class="BoundingBox" x="24901" y="20099" width="5151" height="2071" fill="none"/>
+         <path d="m30001 22081c0 21-23 38-51 38h-4948c-28 0-51-17-51-38v-1893c0-21 23-38 51-38h4948c28 0 51 17 51 38z" fill="#004586"/>
+         <path d="m30001 22081c0 21-23 38-51 38h-4948c-28 0-51-17-51-38v-1893c0-21 23-38 51-38h4948c28 0 51 17 51 38z" fill="none" stroke="#004586" stroke-linejoin="miter" stroke-width="100"/>
+
+       </g>
+       <g class="com.sun.star.drawing.CustomShape">
+
+         <rect class="BoundingBox" x="27960" y="22322" width="1903" height="1632" fill="none"/>
+         <path d="m28232 22322c-136 0-271 135-271 271v1088c0 136 135 272 271 272h1358c136 0 272-136 272-272v-1088c0-136-136-271-272-271z" fill="#f00"/>
+
+
+
+
+         <rect class="BoundingBox" x="25102" y="22349" width="1902" height="1633" fill="none"/>
+         <path d="m25373 22350c-136 0-271 135-271 271v1088c0 136 135 272 271 272h1358c136 0 272-136 272-272v-1088c0-136-136-271-272-271z" fill="#008000"/>
+
+
+
+
+         <rect class="BoundingBox" x="27960" y="20321" width="1902" height="1632" fill="none"/>
+         <path d="m28231 20321c-136 0-271 135-271 271v1088c0 136 135 272 271 272h1358c136 0 272-136 272-272v-1088c0-136-136-271-272-271z" fill="#f00"/>
+
+
+
+
+         <rect class="BoundingBox" x="25104" y="20320" width="1902" height="1632" fill="none"/>
+         <path d="m25375 20320c-136 0-271 135-271 271v1088c0 136 135 272 271 272h1358c136 0 272-136 272-272v-1088c0-136-136-271-272-271z" fill="#008000"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="25473" y="21452" width="1213" height="425" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="25498" y="21773"><tspan fill="#ffffff">DECK 1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="27063" y="20604" width="876" height="1147" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="27266" y="20925"><tspan fill="#ffffff">FX </tspan></tspan><tspan class="TextPosition" x="27088" y="21298"><tspan fill="#ffffff">UNIT </tspan></tspan><tspan class="TextPosition" x="27374" y="21671"><tspan fill="#ffffff">1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="25473" y="23491" width="1213" height="425" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="25498" y="23812"><tspan fill="#ffffff">DECK 1</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="28299" y="21452" width="1213" height="425" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="28324" y="21773"><tspan fill="#ffffff">DECK 2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="27064" y="22604" width="876" height="1147" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="27267" y="22925"><tspan fill="#ffffff">FX </tspan></tspan><tspan class="TextPosition" x="27089" y="23298"><tspan fill="#ffffff">UNIT </tspan></tspan><tspan class="TextPosition" x="27375" y="23671"><tspan fill="#ffffff">2</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="28299" y="23491" width="1213" height="425" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="28324" y="23812"><tspan fill="#ffffff">DECK 2</tspan></tspan></tspan></text>
+
+       </g>
+
+
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="21341" y="4840" width="2841" height="2121" fill="none"/>
+         <path d="m22761 6960h-1420v-2120h2840v2120z" fill="#808080"/>
+
+
+
+
+         <rect class="BoundingBox" x="12725" y="1e3" width="8576" height="5951" fill="none"/>
+         <path d="m17013 6950h-4288v-5950h8575v5950z" fill="#f00"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="17777" y="1450" width="4156" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="18979" y="1873" fill="#ffffff"><tspan font-size="459px">←</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="19419" y="1841"><tspan fill="#ffffff">LOOP</tspan></tspan><tspan class="TextPosition" y="1873" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">→</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="16125" y="1450" width="1755" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="16126" y="1873" fill="#ffffff"><tspan font-size="459px">⇤</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="16566" y="1841"><tspan fill="#ffffff">LOOP</tspan></tspan><tspan class="TextPosition" y="1873" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">⇥</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="13384" y="1451" width="1505" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="13385" y="1874" fill="#ffffff"><tspan font-size="459px">↓</tspan><tspan> </tspan></tspan><tspan class="TextPosition" x="13825" y="1842"><tspan fill="#ffffff">KEY</tspan></tspan><tspan class="TextPosition" y="1874" fill="#ffffff"><tspan> </tspan><tspan font-size="459px">↑</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="13322" y="6258" width="1584" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="13375" y="6554"><tspan fill="#ffffff">KEYLOCK</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="18890" y="6258" width="1898" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="19113" y="6554"><tspan fill="#ffffff">REVERSE</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="16161" y="6258" width="1584" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="16468" y="6554" fill="#ffffff"><tspan> </tspan><tspan>LOOP</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="17802" y="1075" width="1165" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="17804" y="1371"><tspan fill="#ffffff">DECK 2</tspan></tspan></tspan></text>
+
+       </g>
+       <g class="com.sun.star.drawing.RectangleShape">
+
+         <rect class="BoundingBox" x="21255" y="1e3" width="2926" height="3801" fill="none"/>
+         <path d="m22718 4800h-1463v-3800h2925v3800z" fill="#f00"/>
+
+       </g>
+       <g class="com.sun.star.drawing.TextShape">
+
+         <rect class="BoundingBox" x="21359" y="1451" width="2683" height="531" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="21360" y="1874" fill="#ffffff"><tspan font-size="459px">⇤ </tspan><tspan>BEAT JUMP </tspan><tspan font-size="459px">⇥</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="21943" y="6258" width="1581" height="375" fill="none"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="22263" y="6554"><tspan fill="#ffffff">SHIFT</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="17771" y="4920" width="375" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,17849,5299)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="17849" y="5299"><tspan fill="#ffffff">ROLL</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="20604" y="4921" width="375" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,20682,5300)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="20682" y="5300"><tspan fill="#ffffff">ROLL</tspan></tspan></tspan></text>
+
+
+
+
+         <rect class="BoundingBox" x="14938" y="4921" width="375" height="1584" fill="none"/>
+         <text class="TextShape" transform="rotate(89.9,15016,5236)"><tspan class="TextParagraph" font-family="'DejaVu Sans Condensed', sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="15016" y="5236"><tspan fill="#ffffff">VINYL</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="4256" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m6861 3267c0 719-583 1301-1301 1301s-1300-582-1300-1301c0-718 582-1300 1300-1300s1301 582 1301 1300z" fill="#fff"/>
+        <path d="m6861 3267c0 719-583 1301-1301 1301s-1300-582-1300-1301c0-718 582-1300 1300-1300s1301 582 1301 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7113" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m9718 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="#fff"/>
+        <path d="m9718 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="9970" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m12575 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="#fff"/>
+        <path d="m12575 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="12827" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m15432 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="#fff"/>
+        <path d="m15432 3267c0 719-582 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 719 0 1301 582 1301 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="15684" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m18289 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="#fff"/>
+        <path d="m18289 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="18541" y="1963" width="2611" height="2610" fill="none"/>
+        <path d="m21146 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="#fff"/>
+        <path d="m21146 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21399" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m24004 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="#fff"/>
+        <path d="m24004 3267c0 719-582 1301-1300 1301-719 0-1301-582-1301-1301 0-718 582-1300 1301-1300 718 0 1300 582 1300 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1399" y="1963" width="2610" height="2610" fill="none"/>
+        <path d="m4004 3267c0 719-584 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 717 0 1301 582 1301 1300z" fill="#fff"/>
+        <path d="m4004 3267c0 719-584 1301-1301 1301-718 0-1300-582-1300-1301 0-718 582-1300 1300-1300 717 0 1301 582 1301 1300z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25323" y="2456" width="4310" height="1610" fill="none"/>
+        <path d="m29473 4061c28 0 55-22 60-49 0 0 95-473 95-752 0-280-95-751-95-751-5-27-32-49-60-49h-3990c-28 0-55 22-60 49 0 0-96 471-96 751 0 279 96 752 96 752 5 26 32 49 60 49z" fill="#fff"/>
+        <path d="m29473 4061c28 0 55-22 60-49 0 0 95-473 95-752 0-280-95-751-95-751-5-27-32-49-60-49h-3990c-28 0-55 22-60 49 0 0-96 471-96 751 0 279 96 752 96 752 5 26 32 49 60 49z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m29513 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-465 0-188 88-466 88-466 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-465 0-188 88-466 88-466 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m26662 5158c27 0 58 22 66 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 5158c27 0 58 22 66 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21935" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m23313 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m23313 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="19078" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m20455 5158c27 0 56 22 65 48 0 0 88 278 88 466 0 187-88 465-88 465-9 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m20455 5158c27 0 56 22 65 48 0 0 88 278 88 466 0 187-88 465-88 465-9 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="16221" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m17599 5158c27 0 56 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m17599 5158c27 0 56 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="13364" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m14742 5158c27 0 56 22 64 48 0 0 88 278 88 466 0 187-87 465-87 465-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m14742 5158c27 0 56 22 64 48 0 0 88 278 88 466 0 187-87 465-87 465-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="10506" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m11884 5158c28 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-465 0-188 88-466 88-466 8-26 37-48 64-48z" fill="#fff"/>
+        <path d="m11884 5158c28 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-465 0-188 88-466 88-466 8-26 37-48 64-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7649" y="5155" width="1535" height="1034" fill="none"/>
+        <path d="m9027 5159c28 0 57 21 65 47 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 9-26 38-47 65-47z" fill="#fff"/>
+        <path d="m9027 5159c28 0 57 21 65 47 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 9-26 38-47 65-47z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="4792" y="5155" width="1535" height="1034" fill="none"/>
+        <path d="m6170 5159c28 0 57 21 65 47 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-47 65-47z" fill="#fff"/>
+        <path d="m6170 5159c28 0 57 21 65 47 0 0 87 278 87 466 0 187-87 465-87 465-8 26-37 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-47 65-47z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1935" y="5154" width="1535" height="1035" fill="none"/>
+        <path d="m3313 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-38 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m3313 5158c27 0 57 22 65 48 0 0 87 278 87 466 0 187-87 465-87 465-8 26-38 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-465 0-188 87-466 87-466 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m29513 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m26662 7158c27 0 58 22 66 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 7158c27 0 58 22 66 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21935" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m23313 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m23313 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="19078" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m20455 7158c27 0 56 22 65 48 0 0 88 278 88 465 0 188-88 466-88 466-9 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m20455 7158c27 0 56 22 65 48 0 0 88 278 88 465 0 188-88 466-88 466-9 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="16221" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m17599 7158c27 0 56 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m17599 7158c27 0 56 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="13364" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m14742 7158c27 0 56 22 64 48 0 0 88 278 88 465 0 188-87 466-87 466-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="#fff"/>
+        <path d="m14742 7158c27 0 56 22 64 48 0 0 88 278 88 465 0 188-87 466-87 466-9 26-38 47-65 47h-1222c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 37-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="10506" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m11884 7158c28 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-466 0-187 88-465 88-465 8-26 37-48 64-48z" fill="#fff"/>
+        <path d="m11884 7158c28 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-466 0-187 88-465 88-465 8-26 37-48 64-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7649" y="7155" width="1535" height="1034" fill="none"/>
+        <path d="m9027 7159c28 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 9-26 38-47 65-47z" fill="#fff"/>
+        <path d="m9027 7159c28 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-56-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 9-26 38-47 65-47z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="4792" y="7155" width="1535" height="1034" fill="none"/>
+        <path d="m6170 7159c28 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-47 65-47z" fill="#fff"/>
+        <path d="m6170 7159c28 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-37 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-47 65-47z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1935" y="7153" width="1535" height="1036" fill="none"/>
+        <path d="m3313 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m3313 7158c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1222c-27 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="22454" width="1535" height="1035" fill="none"/>
+        <path d="m29513 22459c27 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 22459c27 0 57 21 65 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="22454" width="1535" height="1035" fill="none"/>
+        <path d="m26662 22459c27 0 58 21 66 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 22459c27 0 58 21 66 47 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="20404" width="1535" height="1035" fill="none"/>
+        <path d="m29513 20408c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 20408c27 0 57 22 65 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-466 0-187 88-465 88-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="20404" width="1535" height="1035" fill="none"/>
+        <path d="m26662 20408c27 0 58 22 66 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 20408c27 0 58 22 66 48 0 0 87 278 87 465 0 188-87 466-87 466-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-466 0-187 87-465 87-465 8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="17704" width="1535" height="1035" fill="none"/>
+        <path d="m29513 17708c27 0 57 22 65 48 0 0 87 279 87 466s-87 465-87 465c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-465s88-466 88-466c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 17708c27 0 57 22 65 48 0 0 87 279 87 466s-87 465-87 465c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-278-88-465s88-466 88-466c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="17704" width="1535" height="1035" fill="none"/>
+        <path d="m26662 17708c27 0 58 22 66 48 0 0 87 279 87 466s-87 465-87 465c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465s87-466 87-466c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 17708c27 0 58 22 66 48 0 0 87 279 87 466s-87 465-87 465c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-278-87-465s87-466 87-466c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="14953" width="1535" height="1036" fill="none"/>
+        <path d="m29513 14958c27 0 57 22 65 48 0 0 87 278 87 465s-87 466-87 466c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-279-88-466s88-465 88-465c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 14958c27 0 57 22 65 48 0 0 87 278 87 465s-87 466-87 466c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-279-88-466s88-465 88-465c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="14953" width="1535" height="1036" fill="none"/>
+        <path d="m26662 14958c27 0 58 22 66 48 0 0 87 278 87 465s-87 466-87 466c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-279-87-466s87-465 87-465c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 14958c27 0 58 22 66 48 0 0 87 278 87 465s-87 466-87 466c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-279-87-466s87-465 87-465c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="28135" y="12903" width="1535" height="1036" fill="none"/>
+        <path d="m29513 12908c27 0 57 22 65 48 0 0 87 278 87 465s-87 466-87 466c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-279-88-466s88-465 88-465c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m29513 12908c27 0 57 22 65 48 0 0 87 278 87 465s-87 466-87 466c-8 26-38 47-65 47h-1221c-28 0-57-21-65-47 0 0-88-279-88-466s88-465 88-465c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="25285" y="12903" width="1535" height="1036" fill="none"/>
+        <path d="m26662 12908c27 0 58 22 66 48 0 0 87 278 87 465s-87 466-87 466c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-279-87-466s87-465 87-465c8-26 38-48 65-48z" fill="#fff"/>
+        <path d="m26662 12908c27 0 58 22 66 48 0 0 87 278 87 465s-87 466-87 466c-8 26-39 47-66 47h-1221c-28 0-57-21-65-47 0 0-87-279-87-466s87-465 87-465c8-26 38-48 65-48z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="4256" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m6861 12414c0 716-583 1296-1301 1296s-1300-580-1300-1296c0-715 582-1297 1300-1297s1301 582 1301 1297z" fill="#fff"/>
+        <path d="m6861 12414c0 716-583 1296-1301 1296s-1300-580-1300-1296c0-715 582-1297 1300-1297s1301 582 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7113" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m9718 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="#fff"/>
+        <path d="m9718 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="9970" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m12575 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="#fff"/>
+        <path d="m12575 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="12827" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m15432 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="#fff"/>
+        <path d="m15432 12414c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 719 0 1301 582 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="15684" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m18289 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="#fff"/>
+        <path d="m18289 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="18541" y="11113" width="2611" height="2602" fill="none"/>
+        <path d="m21146 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="#fff"/>
+        <path d="m21146 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21399" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m24004 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="#fff"/>
+        <path d="m24004 12414c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296 0-715 582-1297 1301-1297 718 0 1300 582 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1399" y="11113" width="2610" height="2602" fill="none"/>
+        <path d="m4004 12414c0 716-584 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 717 0 1301 582 1301 1297z" fill="#fff"/>
+        <path d="m4004 12414c0 716-584 1296-1301 1296-718 0-1300-580-1300-1296 0-715 582-1297 1300-1297 717 0 1301 582 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="4256" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m6861 17513c0 716-583 1297-1301 1297s-1300-581-1300-1297 582-1297 1300-1297 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m6861 17513c0 716-583 1297-1301 1297s-1300-581-1300-1297 582-1297 1300-1297 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7113" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m9718 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m9718 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="9970" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m12575 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m12575 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="12827" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m15432 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m15432 17513c0 716-582 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="15684" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m18289 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m18289 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="18541" y="16212" width="2611" height="2603" fill="none"/>
+        <path d="m21146 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m21146 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21399" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m24004 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m24004 17513c0 716-582 1297-1300 1297-719 0-1301-581-1301-1297s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1399" y="16212" width="2610" height="2603" fill="none"/>
+        <path d="m4004 17513c0 716-584 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c717 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m4004 17513c0 716-584 1297-1301 1297-718 0-1300-581-1300-1297s582-1297 1300-1297c717 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="4256" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m6861 22614c0 716-583 1296-1301 1296s-1300-580-1300-1296 582-1297 1300-1297 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m6861 22614c0 716-583 1296-1301 1296s-1300-580-1300-1296 582-1297 1300-1297 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="7113" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m9718 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m9718 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="9970" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m12575 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m12575 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="12827" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m15432 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m15432 22614c0 716-582 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c719 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="15684" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m18289 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m18289 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="18541" y="21313" width="2611" height="2602" fill="none"/>
+        <path d="m21146 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m21146 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="21399" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m24004 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="#fff"/>
+        <path d="m24004 22614c0 716-582 1296-1300 1296-719 0-1301-580-1301-1296s582-1297 1301-1297c718 0 1300 581 1300 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+
+
+
+        <rect class="BoundingBox" x="1399" y="21313" width="2610" height="2602" fill="none"/>
+        <path d="m4004 22614c0 716-584 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c717 0 1301 581 1301 1297z" fill="#fff"/>
+        <path d="m4004 22614c0 716-584 1296-1301 1296-718 0-1300-580-1300-1296s582-1297 1300-1297c717 0 1301 581 1301 1297z" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="8"/>
+
+      </g>
+      <g class="com.sun.star.drawing.LineShape" fill="none">
+
+        <rect class="BoundingBox" x="993" y="9" width="19" height="27001"/>
+        <path d="M 1002,27009 V 9" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="494" y="9" width="19" height="27001"/>
+        <path d="M 503,27009 V 9" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="3" y="26499" width="32000" height="19"/>
+        <path d="m3 26508h31999" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="30644" y="9" width="19" height="27001"/>
+        <path d="M 30653,27009 V 9" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="3" y="27000" width="32000" height="19"/>
+        <path d="m3 27009h31999" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="3" y="500" width="32000" height="19"/>
+        <path d="m3 509h31999" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="3" y="1e3" width="32000" height="19"/>
+        <path d="m3 1009h31999" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="3" y="10501" width="32000" height="19"/>
+        <path d="m3 10510h31999" stroke="#231f20" stroke-linejoin="miter" stroke-width="17"/>
+
       </g>
      </g>
     </g>
-   </g>
-  </g>
+
+
  </g>
 </svg>
