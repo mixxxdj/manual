@@ -242,39 +242,46 @@ No.       Control                                                          Funct
 
 Pad Scratch Mode
 ^^^^^^^^^^^^^^^^
+Pad scratch mode is enabled by pressing the :hwlabel:`PAD SCRATCH` button. The button will 
+light up when selected. Press one of the pads to trigger one of the built in scratches.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_scratch.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in pad scratch mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in pad scratch mode)
 
 Slicer Mode
 ^^^^^^^^^^^
+Slicer mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`PAD SCRATCH` button. The button will 
+blink when selected. In this mode every pad repesents a marker in the beat grid. Each pad will light up
+as each slice is played. Press a pad to repeat the slice and hold the pad down to loop it.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_slicer.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in slicer mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in slicer mode)
 
 Sampler Mode
 ^^^^^^^^^^^^
+Sampler mode is enabled by pressing the :hwlabel:`SAMPLER` button. The button will 
+light up when selected.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_sampler.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads in sampler mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in sampler mode)
 
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
@@ -297,15 +304,30 @@ No.       Control                                                          Funct
 8         :hwlabel:`SHIFT` + Pad                                           Unload sample 4
 ========  ===============================================================  ==========================================
 
-
 Trans Mode
 ^^^^^^^^^^
+Trans mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`SAMPLER` button. The button will 
+blink when selected. Press one of the pads to trigger one of the built in cut effects.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_trans.svg
    :align: center
    :width: 65%
    :figwidth: 100%
-   :alt: Pioneer DDJ-SB3 (performance pads)
+   :alt: Pioneer DDJ-SB3 (performance pads trans mode)
    :figclass: pretty-figures
 
-   Pioneer DDJ-SB3 (performance pads)
+   Pioneer DDJ-SB3 (performance pads in trans mode)
+
+   ========  ===============================================================  ==========================================
+   No.       Control                                                          Function
+   ========  ===============================================================  ==========================================
+   1         Pad                                                              1/16 beat cut effect
+   2         Pad                                                              1/8 beat cut effect
+   3         Pad                                                              1/4 beat cut effect
+   4         Pad                                                              1/2 beat cut effect
+   5         Pad                                                              1 beat cut effect
+   6         Pad                                                              2 beat cut effect
+   7         Pad                                                              1/3 beat cut effect
+   8         Pad                                                              Manual cut effect
+   ========  ===============================================================  ==========================================
+   
