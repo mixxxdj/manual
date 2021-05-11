@@ -6,4 +6,5 @@ transifex-client
 sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme==0.5.0
 sphinx-multiversion==0.2.1
+git+git://github.com/Holzhaus/sphinxcontrib-qthelp.git@a51efc8e4c2324d58ab9e52880726ea3cce879dc
 ./sphinx-mixxx
