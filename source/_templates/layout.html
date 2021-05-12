@@ -1,4 +1,12 @@
 {% extends "!layout.html" %}
+
+{% block extrahead %}
+{% if qthelp %}
+<link rel="stylesheet" href="{{ pathto('_static/css/qthelp.css', 1) }}" type="text/css" />
+{% endif %}
+{{ super() }}
+{% endblock %}%
+
 {% block content %}
 {% if current_version and latest_version and current_version != latest_version %}
 <div class="rst-content">

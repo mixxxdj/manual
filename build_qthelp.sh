@@ -6,7 +6,7 @@ cd ..
 for language in ${LANGUAGES};
 do
   mkdir -p "build/qthelp/lang/${language}"
-  sphinx-build -b qthelp -d "build/qthelp/.doctrees" -a -j auto "-Dqthelp_basename=manual-${language}" "-Dlanguage=${language}" "-Dqthelp_language_suffix=True" source "build/qthelp/lang/${language}"
+  sphinx-build -b qthelp -d "build/qthelp/.doctrees" -a -j auto "-Dqthelp_basename=manual-${language}" "-Dlanguage=${language}" "-Dqthelp_language_suffix=True" "-Dqthelp_theme=sphinx_rtd_theme" -Aqthelp=1 source "build/qthelp/lang/${language}"
 done
 mkdir -p "build/qthelp/multilang"
 tools/qthelp.py "build/qthelp/lang" "build/qthelp/multilang"
