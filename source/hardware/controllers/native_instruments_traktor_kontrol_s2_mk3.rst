@@ -1,3 +1,5 @@
+.. _native-instruments-traktor-kontrol-s2-mk3:
+
 Native Instruments Traktor Kontrol S2 MK3
 =========================================
 

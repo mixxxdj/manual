@@ -1,3 +1,5 @@
+.. _native-instruments-traktor-kontrol-s3:
+
 Native Instruments Traktor Kontrol S3
 =====================================
 

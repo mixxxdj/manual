@@ -1,3 +1,5 @@
+.. _behringer-b-control-bcr2000:
+
 Behringer B-Control BCR2000
 ===========================
 

@@ -1,3 +1,5 @@
+.. _pioneer-ddj-sb2:
+
 Pioneer DDJ-SB2
 ===============
 

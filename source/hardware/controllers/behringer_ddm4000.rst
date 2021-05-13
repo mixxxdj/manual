@@ -1,3 +1,5 @@
+.. _behringer-ddm4000:
+
 Behringer Digital Pro Mixer DDM4000
 ===================================
 
