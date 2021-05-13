@@ -22,10 +22,13 @@ Version History
 *Importing From Other DJ Software*
 
   * Import cue points, track colors, and playlists from Serato file tags & database `#2480 <https://github.com/mixxxdj/mixxx/pull/2480>`__ `#2526 <https://github.com/mixxxdj/mixxx/pull/2526>`__ `#2499 <https://github.com/mixxxdj/mixxx/pull/2499>`__ `#2495 <https://github.com/mixxxdj/mixxx/pull/2495>`__ `#2673 <https://github.com/mixxxdj/mixxx/pull/2673>`__
-  * Note: Mixxx does not yet support multiple loops per track. We are `working on this for Mixxx 2.4 <https://github.com/mixxxdj/mixxx/pull/2194>`__. In Mixxx 2.3, if you import a track with multiple loops from Serato, Mixxx will use the first loop cue as the single loop Mixxx currently supports. The imported loops are still stored in Mixxx's database and are treated as hotcues in Mixxx 2.3. If you do not delete these hotcues, they will be usable as loops in Mixxx 2.4. Serato keeps loops and hotcues in separate lists, but Mixxx does not, so loops from Serato are imported starting as hotcue 9.
+
+    * Note: Mixxx does not yet support multiple loops per track. We are `working on this for Mixxx 2.4 <https://github.com/mixxxdj/mixxx/pull/2194>`__. In Mixxx 2.3, if you import a track with multiple loops from Serato, Mixxx will use the first loop cue as the single loop Mixxx currently supports. The imported loops are still stored in Mixxx's database and are treated as hotcues in Mixxx 2.3. If you do not delete these hotcues, they will be usable as loops in Mixxx 2.4. Serato keeps loops and hotcues in separate lists, but Mixxx does not, so loops from Serato are imported starting as hotcue 9.
+
   * Import cue points, track colors, and playlists from Rekordbox USB drives `#2119 <https://github.com/mixxxdj/mixxx/pull/2119>`__ `#2555 <https://github.com/mixxxdj/mixxx/pull/2555>`__ `#2543 <https://github.com/mixxxdj/mixxx/pull/2543>`__ `#2779 <https://github.com/mixxxdj/mixxx/pull/2779>`__
-  * Note: The first Rekordbox memory cue is imported for the main cue button in Mixxx and the remaining Rekordbox memory cues are imported as Mixxx hotcues, starting with the next hotcue number after the last hotcue from Rekordbox.
-  * Note: Mixxx does not yet support multiple loops per track. Imported loops from Rekordbox are treated like imported loops from Serato, so refer to the note above for details.
+
+    * Note: The first Rekordbox memory cue is imported for the main cue button in Mixxx and the remaining Rekordbox memory cues are imported as Mixxx hotcues, starting with the next hotcue number after the last hotcue from Rekordbox.
+    * Note: Mixxx does not yet support multiple loops per track. Imported loops from Rekordbox are treated like imported loops from Serato, so refer to the note above for details.
 
 *Intro & Outro Cues*
 
@@ -46,13 +49,22 @@ Version History
   * Add laptop battery widget to skins `#2283 <https://github.com/mixxxdj/mixxx/pull/2283>`__ `#2277 <https://github.com/mixxxdj/mixxx/pull/2277>`__ `#2250 <https://github.com/mixxxdj/mixxx/pull/2250>`__ `#2228 <https://github.com/mixxxdj/mixxx/pull/2228>`__ `#2221 <https://github.com/mixxxdj/mixxx/pull/2221>`__ `#2163 <https://github.com/mixxxdj/mixxx/pull/2163>`__ `#2160 <https://github.com/mixxxdj/mixxx/pull/2160>`__ `#2147 <https://github.com/mixxxdj/mixxx/pull/2147>`__ `#2281 <https://github.com/mixxxdj/mixxx/pull/2281>`__ `#2319 <https://github.com/mixxxdj/mixxx/pull/2319>`__ `#2287 <https://github.com/mixxxdj/mixxx/pull/2287>`__
   * Show when passthrough mode is active on overview waveforms `#2575 <https://github.com/mixxxdj/mixxx/pull/2575>`__ `#2616 <https://github.com/mixxxdj/mixxx/pull/2616>`__
   * Changed format of currently playing track in window title from "artist, title" to "artist - title" `#2807 <https://github.com/mixxxdj/mixxx/pull/2807>`__
+  * Workaround Linux skin change crash `#3144 <https://github.com/mixxxdj/mixxx/pull/3144>`__ `lp:1885009 <https://bugs.launchpad.net/mixxx/+bug/1885009>`__
+  * Fix touch control `lp:1895431 <https://bugs.launchpad.net/mixxx/+bug/1895431>`__
+  * Fix broken knob interaction on touchscreens `#3512 <https://github.com/mixxxdj/mixxx/pull/3512>`__
+  * AutoDJ: Make "enable" shortcut work after startup `#3242 <https://github.com/mixxxdj/mixxx/pull/3242>`__
+  * Add rate range indicator `#3693 <https://github.com/mixxxdj/mixxx/pull/3693>`__
+  * Allow menubar to be styled `#3372 <https://github.com/mixxxdj/mixxx/pull/3372>`__ `#3788 <https://github.com/mixxxdj/mixxx/pull/3788>`__
 
 *Music Feature Analysis*
 
   * Multithreaded analysis for much faster batch analysis on multicore CPUs `#1624 <https://github.com/mixxxdj/mixxx/pull/1624>`__ `#2142 <https://github.com/mixxxdj/mixxx/pull/2142>`__ `lp:1641153 <https://bugs.launchpad.net/mixxx/+bug/1641153>`__
   * Fix bugs affecting key detection accuracy `#2137 <https://github.com/mixxxdj/mixxx/pull/2137>`__ `#2152 <https://github.com/mixxxdj/mixxx/pull/2152>`__ `#2112 <https://github.com/mixxxdj/mixxx/pull/2112>`__ `#2136 <https://github.com/mixxxdj/mixxx/pull/2136>`__
-  * Note: Users who have not manually corrected keys are advised to clear all keys in their library by pressing Ctrl + A in the library, right clicking, going to Reset -> Key, then reanalyzing their library. This will freeze the GUI while Mixxx clears the keys; this is a known problem that we will not be able to fix for 2.3. Wait until it is finished and you will be able to reanalyze tracks for better key detection results.
+
+    * Note: Users who have not manually corrected keys are advised to clear all keys in their library by pressing Ctrl + A in the library, right clicking, going to Reset -> Key, then reanalyzing their library. This will freeze the GUI while Mixxx clears the keys; this is a known problem that we will not be able to fix for 2.3. Wait until it is finished and you will be able to reanalyze tracks for better key detection results.
+
   * Remove VAMP plugin support and use Queen Mary DSP library directly. vamp-plugin-sdk and vamp-hostsdk are no longer required dependencies. `#926 <https://github.com/mixxxdj/mixxx/pull/926>`__
+  * Improvements BPM detection on non-const beatgrids `#3626 <https://github.com/mixxxdj/mixxx/pull/3626>`__
 
 *Music Library*
 
@@ -63,6 +75,9 @@ Version History
   * MusicBrainz: Handle 301 status response `#2510 <https://github.com/mixxxdj/mixxx/pull/2510>`__
   * MusicBrainz: Add extended metadata support `lp:1581256 <https://bugs.launchpad.net/mixxx/+bug/1581256>`__ `#2522 <https://github.com/mixxxdj/mixxx/pull/2522>`__
   * TagLib: Fix detection of empty or missing file tags `lp:1865957 <https://bugs.launchpad.net/mixxx/+bug/1865957>`__ `#2535 <https://github.com/mixxxdj/mixxx/pull/2535>`__
+  * Fix caching of duplicate tracks that reference the same file `#3027 <https://github.com/mixxxdj/mixxx/pull/3027>`__
+  * Use 6 instead of only 4 compatible musical keys (major/minor) `#3205 <https://github.com/mixxxdj/mixxx/pull/3205>`__
+  * Fix possible crash when trying to refocus the tracks table while another Mixxx window has focus `#3201 <https://github.com/mixxxdj/mixxx/pull/3201>`__
 
 *Audio Codecs*
 
@@ -71,33 +86,49 @@ Version History
   * Add Opus streaming and recording support. `lp:1338413 <https://bugs.launchpad.net/mixxx/+bug/1338413>`__
   * Remove support for SoundSource plugins because the code was not well-maintained and could lead to crashes `lp:1792747 <https://bugs.launchpad.net/mixxx/+bug/1792747>`__
 
+*Audio Engine*
+
+  * Fix loss of precision when dealing with floating-point sample positions while setting loop out position and seeking using vinyl control `#3126 <https://github.com/mixxxdj/mixxx/pull/3126>`__ `#3127 <https://github.com/mixxxdj/mixxx/pull/3127>`__
+  * Prevent moving a loop beyond track end `#3117 <https://github.com/mixxxdj/mixxx/pull/3117>`__ `lp:1799574 <https://bugs.launchpad.net/mixxx/+bug/1799574>`__
+  * Fix possible memory corruption using JACK on Linux `#3160 <https://github.com/mixxxdj/mixxx/pull/3160>`__
+  * Fix changing of vinyl lead-in time `lp:1915483 <https://bugs.launchpad.net/mixxx/+bug/1915483>`__ `#3781 <https://github.com/mixxxdj/mixxx/pull/3781>`__
+  * Fix tempo change of non-const beatgrid track on audible deck when cueing another track `#3772 <https://github.com/mixxxdj/mixxx/pull/3772>`__
+
 *Controllers*
 
-  * Improve workflow for configuring controller mappings and editing mappings `#2569 <https://github.com/mixxxdj/mixxx/pull/2569>`__
+  * Improve workflow for configuring controller mappings and editing mappings `#2569 <https://github.com/mixxxdj/mixxx/pull/2569>`__ `#3278 <https://github.com/mixxxdj/mixxx/pull/3278>`__ `#3667 <https://github.com/mixxxdj/mixxx/pull/3667>`__
   * Improve error reporting from controller scripts `#2588 <https://github.com/mixxxdj/mixxx/pull/2588>`__
   * Make hotcue and track colors mappable on controllers `#2030 <https://github.com/mixxxdj/mixxx/pull/2030>`__ `#2541 <https://github.com/mixxxdj/mixxx/pull/2541>`__ `#2665 <https://github.com/mixxxdj/mixxx/pull/2665>`__ `#2520 <https://github.com/mixxxdj/mixxx/pull/2520>`__
   * Add way to change library table sorting from controllers `#2118 <https://github.com/mixxxdj/mixxx/pull/2118>`__
   * Add support for velocity sensitive sampler buttons in Components JS library `#2032 <https://github.com/mixxxdj/mixxx/pull/2032>`__
   * Add logging when script ControlObject callback is disconnected successfully `#2054 <https://github.com/mixxxdj/mixxx/pull/2054>`__
-  * Add controller mapping for Roland DJ-505 `#2111 <https://github.com/mixxxdj/mixxx/pull/2111>`__
-  * Update controller mapping for Allen & Heath Xone K2 to add intro/outro cues `#2236 <https://github.com/mixxxdj/mixxx/pull/2236>`__
-  * Add controller mapping for Numark iDJ Live II `#2818 <https://github.com/mixxxdj/mixxx/pull/2818>`__
+  * Add controller mapping for :ref:`Roland DJ-505 <roland-dj-505>` `#2111 <https://github.com/mixxxdj/mixxx/pull/2111>`__
+  * Add controller mapping for :ref:`Numark iDJ Live II <numark-idj-live-ii>` `#2818 <https://github.com/mixxxdj/mixxx/pull/2818>`__
+  * Add controller mapping for Hercules DJControl Inpulse 200 `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
+  * Add controller mapping for :ref:`Hercules DJControl Jogvision <hercules-djcontrol-jogvision>` `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
+  * Add controller mapping for :ref:`Pioneer DDJ-200 <pioneer-ddj-200>` `#3185 <https://github.com/mixxxdj/mixxx/pull/3185>`__ `#3193 <https://github.com/mixxxdj/mixxx/pull/3193>`__ `#3479 <https://github.com/mixxxdj/mixxx/pull/3742>`__
+  * Add controller mapping for :ref:`Pioneer DDJ-400 <pioneer-ddj-400>` `#3479 <https://github.com/mixxxdj/mixxx/pull/3479>`__
+  * Add controller mapping for :ref:`ION Discover DJ Pro <ion-discover-dj-pro>` `#2893 <https://github.com/mixxxdj/mixxx/pull/2893>`__
+  * Add controller mapping for :ref:`Native Instrument Traktor Kontrol S3 <native-instruments-traktor-kontrol-s3>` `#3031 <https://github.com/mixxxdj/mixxx/pull/3031>`__
+  * Add controller mapping for :ref:`Behringer B-Control BCR2000 <behringer-b-control-bcr2000>` `#3342 <https://github.com/mixxxdj/mixxx/pull/3342>`__
+  * Add controller mapping for :ref:`Behringer DDM4000 <behringer-ddm4000>` `#3542 <https://github.com/mixxxdj/mixxx/pull/3542>`__
+  * Update controller mapping for :ref:`Allen & Heath Xone K2 <allen-heath-xone-k2>` to add intro/outro cues `#2236 <https://github.com/mixxxdj/mixxx/pull/2236>`__
+  * Update controller mapping for :ref:`Hercules P32 DJ <hercules-p32-dj>` for more accurate headmix control `#3537 <https://github.com/mixxxdj/mixxx/pull/3537>`__
+  * Update controller mapping for :ref:`Native Instruments Traktor Kontrol S4MK2 <native-instruments-traktor-kontrol-s2-mk3>` to add auto-slip mode and pitch fader range `#3331 <https://github.com/mixxxdj/mixxx/pull/3331>`__
+  * Fix :ref:`Pioneer DDJ-SB2 <pioneer-ddj-sb2>` controller mapping auto tempo going to infinity bug `#2559 <https://github.com/mixxxdj/mixxx/pull/2559>`__ `lp:1846403 <https://bugs.launchpad.net/mixxx/+bug/1846403>`__
+  * Fix :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>` controller mapping inverted FX on/off control `#3758 <https://github.com/mixxxdj/mixxx/pull/3758>`__
+  * Gracefully handle MIDI overflow `#825 <https://github.com/mixxxdj/mixxx/pull/825>`__
 
 *Development*
 
-  * Add CMake build system with Ccache support for faster compilation time `#2280 <https://github.com/mixxxdj/mixxx/pull/2280>`__
-  * Note: The old SCons build system is still supported for 2.3. We will be removing it for Mixxx 2.4.
+  * Add CMake build system with ``ccache`` and ``sccache`` support for faster compilation times and remove SCons `#2280 <https://github.com/mixxxdj/mixxx/pull/2280>`__ `#3618 <https://github.com/mixxxdj/mixxx/pull/3618>`__
   * Make Mixxx compile even though ``QT_NO_OPENGL`` or ``QT_OPENGL_ES_2`` is defined (fixes build on Raspberry Pi) `lp:1863440 <https://bugs.launchpad.net/mixxx/+bug/1863440>`__ `#2504 <https://github.com/mixxxdj/mixxx/pull/2504>`__
-
-2.2.5 (Unreleased)
-------------------
-
-  * Add controller mapping for Hercules DJControl Inpulse 200 `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
-  * Add controller mapping for Hercules DJControl Jogvision `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
-  * Fix missing manual in deb package `lp:1889776 <https://bugs.launchpad.net/mixxx/+bug/1889776>`__
-  * Fix caching of duplicate tracks that reference the same file `#3027 <https://github.com/mixxxdj/mixxx/pull/3027>`__
-  * Fix loss of precision when dealing with floating-point sample positions while setting loop out position and seeking using vinyl control `#3126 <https://github.com/mixxxdj/mixxx/pull/3126>`__ `#3127 <https://github.com/mixxxdj/mixxx/pull/3127>`__
-
+  * Fix ARM build issues `#3602 <https://github.com/mixxxdj/mixxx/pull/3602>`__
+  * Fix missing manual in DEB package `lp:1889776 <https://bugs.launchpad.net/mixxx/+bug/1889776>`__ `#2985 <https://github.com/mixxxdj/mixxx/pull/2985>`__
+  * Add macOS codesigning and notarization to fix startup warnings `#3281 <https://github.com/mixxxdj/mixxx/pull/3281>`__
+  * Don't trash user configuration if an error occurs when writing `#3192 <https://github.com/mixxxdj/mixxx/pull/3192>`__
+  * Enable CUE sheet recording by default `#3374 <https://github.com/mixxxdj/mixxx/pull/3374>`__
+  * And countless other small fixes and improvements (too many to list them all!)
 
 2.2.4 (2020-06-27)
 ------------------

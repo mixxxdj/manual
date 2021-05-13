@@ -1,3 +1,5 @@
+.. _pioneer-ddj-400:
+
 Pioneer DDJ-400
 ===============
 

@@ -1,3 +1,5 @@
+.. _ion-discover-dj-pro:
+
 ION Discover DJ Pro
 ===================
 
