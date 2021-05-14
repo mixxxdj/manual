@@ -15,7 +15,7 @@ This new version is intended to work in a more intuitive way. Once you click on 
    This is neither necessary not recommended anymore.
 
 
-.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_mapping.png
+.. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_mapping.svg
    :align: center
    :width: 100%
    :figwidth: 100%
