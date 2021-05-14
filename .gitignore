@@ -3,5 +3,5 @@
 *.pyc
 
 # Generated during a regular build
-build
+_build
 source/locale/pot/.doctrees
