@@ -3,5 +3,8 @@
 *.pyc
 
 # Generated during a regular build
-_build
+html
 source/locale/pot/.doctrees
+
+# VSCode generated files
+.vscode
