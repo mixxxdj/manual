@@ -4,7 +4,10 @@ Hercules DJControl MP3 e2 / MP3 LE / Glow
 The Hercules DJ Control MP3 e2, MP3 LE, and Glow are USB controllers that have identical controls and share the same mapping.
 These controllers do not have a built in sound card, so a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio interface <hardware-audio-interfaces>` is recommended for use with it.
 
-.. versionadded:: 2.3
+.. versionadded:: 1.11
+.. versionchanged:: 2.3.0
+
+This new version is intended to work in a more intuitive way. Once you click on a button, it does its original function.
 
 .. note::
    These controllers are not class compliant :term:`MIDI` devices.
