@@ -20,7 +20,6 @@ This new version is intended to work in a more intuitive way. Once you click on 
    :width: 100%
    :figwidth: 100%
    :alt: Hercules DJControl MP3 e2 (schematic view)
-   :figclass: pretty-figures
 
    Hercules DJControl MP3 e2 (schematic view)
 
@@ -31,31 +30,26 @@ Mapping description (by function)
 Library
 ^^^^^^^
 
-+----------------------------------------------------------------------------+------------+--------+
-| Function                                                                   | Control    | Number |
-+============================================================================+============+========+
-| Toggle playlist selection                                                  | Folder     | 6      |
-+----------------------------------------------------------------------------+------------+--------+
-| Toggle track selection                                                     | Files      | 10     |
-+----------------------------------------------------------------------------+------------+--------+
-| Go one playlst/track up                                                    | Up arrow   | 8      |
-+----------------------------------------------------------------------------+------------+--------+
-| Go one playlst/track down                                                  | Down arrow | 8      |
-+----------------------------------------------------------------------------+------------+--------+
-| Loads the currently highlighted track into the corresponding deck (A or B) | Load A/B   | 18     |
-+----------------------------------------------------------------------------+------------+--------+
+======== ============================================== ============================================================================ 
+ Number   Control                                        Function                                                                    
+======== ============================================== ============================================================================ 
+ 6        Folder                                         Toggle playlist selection                                                   
+ 10       :hwlabel:`Files`                               Toggle track selection                                                      
+ 8        Up arrow                                       Go one playlst/track up                                                     
+ 8        Down arrow                                     Go one playlst/track down                                                   
+ 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)  
+======== ============================================== ============================================================================ 
 
 
 Master/Headphones
 ^^^^^^^^^^^^^^^^^
 
-+---------------------------------------------------------------------+-------------------+--------+
-| Function                                                            | Control           | Number |
-+=====================================================================+===================+========+
-| Fades between left (channel 1) and right (channel 2) deck           | Crossfader        | 19     |
-+---------------------------------------------------------------------+-------------------+--------+
-| Toggles deck output to the headphones monitor on/off                | Headphone monitor | 20     |
-+---------------------------------------------------------------------+-------------------+--------+
+======== ============================================== ===================================================================== 
+ Number   Control                                        Function                                                             
+======== ============================================== ===================================================================== 
+ 19       Crossfader                                     Fades between left (channel 1) and right (channel 2) deck            
+ 20       Headphone monitor                              Toggles deck output to the headphones monitor on/off                 
+======== ============================================== ===================================================================== 
 
 Decks / Channels
 ^^^^^^^^^^^^^^^^
@@ -63,66 +57,52 @@ Decks / Channels
 Playing
 '''''''
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Function                                                                                                                                                                                                                              | Control            | Number |
-+=======================================================================================================================================================================================================================================+====================+========+
-| Loads the currently highlighted track into the corresponding deck (A or B)                                                                                                                                                            | Load A/B           | 18     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Starts or stop a loaded track                                                                                                                                                                                                         | Play               | 14     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Sets the cue point if a track is stopped and not at the current cue point. Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it’s held down | Cue                | 15     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Move Forward/Backward in track                                                                                                                                                                                                        | Forward / Backward | 12     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Enable or disable the scratch mode on all two decks                                                                                                                                                                                   | Scratch            | 7      |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
-| Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks.  Absolute sync of the track speed to the jog wheel if scratch mode enabled                                                | Jog wheel          | 16     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+--------+
+======== ==============================================  ======================================================================================================================================================================================================================================= 
+ Number   Control                                        Function                                                                                                                                                                                                                               
+======== ==============================================  ======================================================================================================================================================================================================================================= 
+ 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)                                                                                                                                                             
+ 14       Play                                           Starts or stop a loaded track                                                                                                                                                                                                          
+ 15       :hwlabel:`Cue`                                 Sets the cue point if a track is stopped and not at the current cue point. Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it’s held down  
+ 12       Forward / Backward                             Move Forward/Backward in track                                                                                                                                                                                                         
+ 7        Scratch                                        Enable or disable the scratch mode on all two decks                                                                                                                                                                                    
+ 16       Jog wheel                                      Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks.  Absolute sync of the track speed to the jog wheel if scratch mode enabled                                                 
+======== ==============================================  ======================================================================================================================================================================================================================================= 
 
 Volume / Equalizer / Effects
 ''''''''''''''''''''''''''''
 
-+-----------------------------------------------------------------------------+--------------------+--------+
-| Function                                                                    | Control            | Number |
-+=============================================================================+====================+========+
-| Controls the deck output volume, with soft takeover on deck switch.         | Deck volume slider | 17     |
-+-----------------------------------------------------------------------------+--------------------+--------+
-| Adjusts the gain of the low/medium/high equalizer filter. No soft takeover. | Equalizer knobs    | 5      |
-+-----------------------------------------------------------------------------+--------------------+--------+
-| Toggle Effects Selection                                                    | Shift              |  4     |
-+-----------------------------------------------------------------------------+--------------------+--------+
-| Toggle Effect 1/2/3 for corresponding deck (with shift activated)           | Button 1/2/3       | 11     |
-+-----------------------------------------------------------------------------+--------------------+--------+
+======== ============================================== ============================================================================= 
+ Number   Control                                       Function                                                                     
+======== ============================================== ============================================================================= 
+ 17       Deck volume slider                            Controls the deck output volume, with soft takeover on deck switch.          
+ 5        Equalizer knobs                               Adjusts the gain of the low/medium/high equalizer filter. No soft takeover.  
+ 4        Shift                                         Toggle Effects Selection                                                     
+ 11       Button :hwlabel:`1`/:hwlabel:`2`/:hwlabel:`3` Toggle Effect 1/2/3 for corresponding deck (with shift activated)            
+======== ============================================== ============================================================================= 
 
 Loops
 '''''
 
-+----------+----------+--------+
-| Function | Control  | Number |
-+==========+==========+========+
-| Loop 1   | Button 1 | 11     |
-+----------+----------+--------+
-| Loop 2   | Button 2 | 11     |
-+----------+----------+--------+
-| Loop 4   | Button 3 | 11     |
-+----------+----------+--------+
-| Loop 8   | Button 4 | 11     |
-+----------+----------+--------+
+======== ============================================== ==========
+ Number   Control                                       Function 
+======== ============================================== ==========
+ 11       Button :hwlabel:`1`                            Loop 1   
+ 11       Button :hwlabel:`2`                            Loop 2   
+ 11       Button :hwlabel:`3`                            Loop 4   
+ 11       Button :hwlabel:`4`                            Loop 8   
+======== ============================================== ==========
 
 Pitch / Syncing
 '''''''''''''''
 
-+------------------------------------------------------------------+---------------+--------+
-| Function                                                         | Control       | Number |
-+==================================================================+===============+========+
-| Temporary Holds the pitch 4% higher while pressed                | Pitchbend +/- | 1      |
-+------------------------------------------------------------------+---------------+--------+
-| Adjust playback pitch / speed                                    | Pitch knobs   | 3      |
-+------------------------------------------------------------------+---------------+--------+
-| Automatically sets pitch so the BPM of the other deck is matched | Sync          | 13     |
-+------------------------------------------------------------------+---------------+--------+
-| Enable and lock Sync Mode                                        | Master Tempo  | 2      |
-+------------------------------------------------------------------+---------------+--------+
+======== ============================================== ==================================================================
+ Number   Control                                        Function                                                         
+======== ============================================== ==================================================================
+ 1        Pitchbend :hwlabel:`-`/:hwlabel:`+`            Temporary Holds the pitch 4% lower or higher while pressed                
+ 3        Pitch knobs                                    Adjust playback pitch / speed                                    
+ 13       :hwlabel:`Sync`                                Automatically sets pitch so the BPM of the other deck is matched 
+ 2        Master Tempo                                   Enable and lock Sync Mode                                        
+======== ============================================== ==================================================================
 
 Troubleshooting
 ---------------
@@ -141,7 +121,7 @@ and maybe a third one: Jog wheel sensitivity
 With factory default settings, the jog wheels are enabled and the MIDI channel used is channel 1. The mapping is made for channel 1 only. If your controller is configured for another channel, nothing
 will work and if you launch Mixxx with :literal:`-``-controllerDebug` parameter, you will have lines like this one showing in the logs when you press a button on the controller :
 
-::
+.. code-block::
 
    Debug [Controller]: "DJ Control MP3 e2 : 3 bytes: B3 38 38 "
 
