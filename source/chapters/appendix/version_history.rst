@@ -104,7 +104,7 @@ Version History
   * Add logging when script ControlObject callback is disconnected successfully `#2054 <https://github.com/mixxxdj/mixxx/pull/2054>`__
   * Add controller mapping for :ref:`Roland DJ-505 <roland-dj-505>` `#2111 <https://github.com/mixxxdj/mixxx/pull/2111>`__
   * Add controller mapping for :ref:`Numark iDJ Live II <numark-idj-live-ii>` `#2818 <https://github.com/mixxxdj/mixxx/pull/2818>`__
-  * Add controller mapping for Hercules DJControl Inpulse 200 `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
+  * Add controller mapping for :ref:`Hercules DJControl Inpulse 200 <hercules-djcontrol-inpulse-200>` `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
   * Add controller mapping for :ref:`Hercules DJControl Jogvision <hercules-djcontrol-jogvision>` `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
   * Add controller mapping for :ref:`Pioneer DDJ-200 <pioneer-ddj-200>` `#3185 <https://github.com/mixxxdj/mixxx/pull/3185>`__ `#3193 <https://github.com/mixxxdj/mixxx/pull/3193>`__ `#3479 <https://github.com/mixxxdj/mixxx/pull/3742>`__
   * Add controller mapping for :ref:`Pioneer DDJ-400 <pioneer-ddj-400>` `#3479 <https://github.com/mixxxdj/mixxx/pull/3479>`__
