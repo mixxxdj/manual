@@ -59,7 +59,7 @@ Configure Mixxx's :ref:`sound hardware settings <preferences-sound-hardware>` as
 ============ ========
 Output       Channel
 ============ ========
-Master       1-2
+Main         1-2
 Headphones   3-4
 ============ ========
 
@@ -262,9 +262,9 @@ Mixer section (p. 8)
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 1     :hwlabel:`TRIM`                                          Adjusts deck prefader gain
-2     :hwlabel:`MASTER`                                        Adjusts master output (this is hardware implemented and is not mapped
+2     :hwlabel:`MASTER`                                        Adjusts main output (this is hardware implemented and is not mapped
                                                                to the software gain in Mixxx).
-3     :hwlabel:`MASTER` :hwlabel:`CUE`                         Sends master output to headphones (this is hardware implemented and is
+3     :hwlabel:`MASTER` :hwlabel:`CUE`                         Sends main output to headphones (this is hardware implemented and is
                                                                not visible in the Mixxx interface).
 4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
 5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
@@ -273,7 +273,7 @@ No.   Control                                                  Function
 8     :hwlabel:`HEADPHONES` :hwlabel:`LEVEL`                   Adjusts output level from :hwlabel:`PHONES` jack
 9     Headphone :hwlabel:`CUE` (Channel)                       Turn on to output channel to headphones
 9     :hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`              Toggles quantize for the current channel
-10    Channel fader                                            Adjusts channel levels output to master
+10    Channel fader                                            Adjusts channel levels output to main
 11    Crossfader                                               Fade between left and right channels
 ====  =======================================================  ======================================================================
 
@@ -300,7 +300,7 @@ No.   Control                                                  Function
 2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus effect 2
 2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
 3     :hwlabel:`FX SELECT`                                     Focus effect 3
-4     Channel select switch                                    Route deck 1, deck 2 or master mix to effect unit 1
+4     Channel select switch                                    Route deck 1, deck 2 or main mix to effect unit 1
 5     :hwlabel:`LEVEL/DEPTH`                                   Controls the wet/dry mix knob
 5     :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`                Controls the metaknob of the currently focused effect
 6     :hwlabel:`ON/OFF`                                        Enable/disable the currently focused effect

@@ -34,7 +34,7 @@ This device has a built in 4 channel output sound card. There are 2 RCA outputs 
 the sound card’s headphone output volume in hardware. These do not adjust the headphone gain in Mixxx.
 
 .. warning::
-   There is no master output volume control on the device, but the master output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%.
+   There is no main output volume control on the device, but the main output volume of the sound card can be controlled from the OS mixer. The device comes with the main output set to 45%.
    So, for the best :ref:`gain staging <djing-gain-staging>`, turn the volume of the main output all the way up in your  operating system mixer.
 
 Mapping description
@@ -94,7 +94,7 @@ Other controls
 -  **Sampler mode**: Press an unlit pad to load the track selected in the library to that sampler. Pads are blue when the sampler is loaded but not playing and red when playing. Press a blue pad to
    play the sample from its cue point. Press a red pad to jump back to the sample’s cue point. Press a red pad with shift to stop a playing sample. Press a blue pad with shift to eject a sample. Note
    that samplers are independent from decks; the left grid controls samplers 1-16 and the right grid controls samplers 17-32.
--  **Sync**: Short press to sync to other deck. Press and hold to enable master sync.
+-  **Sync**: Short press to sync to other deck. Press and hold to enable sync lock.
 -  **Shift + sync**: toggle quantize
 -  **Shift + cue**: jump to beginning of track and stop
 -  **Shift + play**: toggle reverse playback

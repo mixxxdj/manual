@@ -191,7 +191,7 @@ Adjusts the volume of the deck.
 25. Master Gain
 ~~~~~~~~~~~~~~~
 
-| Adjusts the volume of the master mix coming from the software.
+| Adjusts the volume of the main mix coming from the software.
 | **Note:** This does not affect the microphone volume. Use the Mic Gain
   knob to control the microphone volume.
 
@@ -224,7 +224,7 @@ Adjusts the volume for headphone cueing in the software.
 ~~~~~~~~~~~
 
 Adjusts the software’s audio output to the headphones, mixing between
-the cue output and the master mix output.
+the cue output and the main mix output.
 
 32. Stutter
 ~~~~~~~~~~~

@@ -25,19 +25,19 @@ The Xone:K2 is setup in Mixxx > Preferences > Sound Hardware > Output
 ========== ======= =============
 Output     Device  Channel
 ========== ======= =============
-Master     XONE:K2 Channel 3 - 4
+Main       XONE:K2 Channel 3 - 4
 Headphones XONE:K2 Channel 1 - 2
 ========== ======= =============
 
 Note: This Channel setup is the opposite of what most DJ controllers
 with an integrated audio interface use. The design choice to not use
-Channel 1 - 2 for Master Output is known to cause problems, when users
+Channel 1 - 2 for main output is known to cause problems, when users
 want to use the Xone:K2 as default system audio output as the operating
 system will always use Channel 1 - 2. Thus system audio will go to the
 headphones.
 
 There are no hardware controls for the volume so they are always at max
-volume. Adjusting the volume of master and headphone outputs is done by
+volume. Adjusting the volume of main and headphone outputs is done by
 adjusting the gain for those outputs in Mixxx using the controller
 mapping.
 
@@ -81,7 +81,7 @@ effect unit layout.
 
 -  Bottom left encoder:
 -  adjust tempo of all decks with sync enabled
--  press and turn: PFL/master mix in headphones
+-  press and turn: PFL/main mix in headphones
 -  shift: headphone gain
 -  press with shift: toggle split cue mode
 -  Bottom right encoder
@@ -89,7 +89,7 @@ effect unit layout.
 -  press and release: load selected track into first stopped deck
 -  press and hold: load selected track into a deck by pressing the play
    button of the deck
--  shift: master gain
+-  shift: main gain
 
 Decks
 -----
@@ -171,7 +171,7 @@ Mixxx 2.3
 
 -  Top encoder press: reset gain
 
-   -  shift: master sync
+   -  shift: sync lock
    -  supershift: reset key
 
 -  Knobs: high/mid/low equalizer knobs
@@ -248,12 +248,12 @@ The fader acts as the mix knob.
 
 The bottom buttons assign the effect unit to different input channels
 and light up red. On the two deck layouts, from top to bottom, they
-assign the effect unit to deck 1, deck 2, master mix, and headphones. On
+assign the effect unit to deck 1, deck 2, main mix, and headphones. On
 the four effect unit layouts, they assign the effect unit to decks 1-4
 going down the column. You can look down a column to see which decks an
 effect unit is assigned. You can look across a row to see which effect
 units are assigned to a deck. When shift is pressed, the bottom two
-buttons switch to controlling the routing buttons for the master and
+buttons switch to controlling the routing buttons for the main and
 headphones channels and light up amber.
 
 The bottom encoders are not mapped in the 4 effect unit layout.

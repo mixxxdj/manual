@@ -12,12 +12,12 @@ and using a separate power supply has no impact on the output level or LED brigh
 
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3
-   Unbind Master knob from Mixxx's Main Gain, because it controls the hardware volume.
+   Unbind Main knob from Mixxx's Main Gain, because it controls the hardware volume.
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Master output: channels 1-2
+-  Main output: channels 1-2
 -  Headphone output: channels 3-4
 
 Mixxx mapping
@@ -51,7 +51,7 @@ Mixxx mapping
 | (5) List view    | Toggles maximizing the library                                                                                              |                                                     |
 | button           |                                                                                                                             |                                                     |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| (6) Sync button  | Syncs the BPM and phase (depending on quantize). Press longer to activate master sync on that deck.                         | Syncs the phase to that of the other track          |
+| (6) Sync button  | Syncs the BPM and phase (depending on quantize). Press longer to activate sync lock on that deck.                           | Syncs the phase to that of the other track          |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | (7) Keylock      | Enable keylock for the deck                                                                                                 |                                                     |
 | button           |                                                                                                                             |                                                     |

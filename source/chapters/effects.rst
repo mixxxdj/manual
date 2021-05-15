@@ -31,7 +31,7 @@ Effect units can process sound from:
   * decks
   * microphones
   * auxiliary inputs
-  * the master mix
+  * the main mix
   * the :term:`PFL` (headphone) mix
   * left/middle/right crossfader buses
 
@@ -63,7 +63,7 @@ Effects are processed after the deck faders and crossfader. This allows effects
 like Echo and Reverb to continue outputting sound after their input has been
 cut off by lowering the fader. Unlike other DJ software and hardware, effects
 can also be heard in headphones even though they are processed after the faders
-for the master output. Refer to the :ref:`effects-in-headphones` section below
+for the :term:`main output`. Refer to the :ref:`effects-in-headphones` section below
 for details.
 
 Note that equalizer and filter effects create a phase shift. If the mix knob is
@@ -156,8 +156,8 @@ To preview how a track will sound with effects before you mix in the track,
 simply assign the deck to an effect unit and enable the headphone button for
 the deck. Note that this will increase CPU compared to assigning an effect
 unit to a deck without the headphone button enabled. This is because effects
-are processed in parallel for the headphone output (prefader) and master output
-(postfader).
+are processed in parallel for the :term:`headphone output` (prefader) and
+:term:`main output` (postfader).
 
 Effects can also be previewed in headphones on decks that are playing to the
 audience, but this requires a few more steps:
@@ -169,7 +169,7 @@ audience, but this requires a few more steps:
      the effects to sound.
   #. When you are ready to mix in the effect, turn the mix knob fully left (dry)
   #. Enable the effect unit for the deck
-  #. Turn the mix knob right so the effects are heard in the master output
+  #. Turn the mix knob right so the effects are heard in the main output
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
 

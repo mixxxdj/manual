@@ -46,7 +46,7 @@ input support, applying effects to the TR-S output, etc.):
 ===================== ================
 Output Channels       Assigned to
 ===================== ================
-1-2                   Master
+1-2                   Main
 3-4                   Headphones
 ===================== ================
 
@@ -65,8 +65,8 @@ together in input channels 5-6, so Mixxx can record and broadcast them.
 The knobs for :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES VOLUME`, :hwlabel:`MIC LEVEL`, :hwlabel:`TR/SAMPLER LEVEL` and :hwlabel:`CUE/MASTER MIXING` are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller:
 
-- Set the master/booth/headphones/microphone/aux channel levels to 100% (knob center position)
-- Set cue/master mixing to cue-only (leftmost position)
+- Set the main/booth/headphones/microphone/aux channel levels to 100% (knob center position)
+- Set cue/main mixing to cue-only (leftmost position)
 
 .. note::
    You should assign the :guilabel:`Vinyl Control` input channels even if you do not intend to use timecode vinyl.
@@ -127,8 +127,8 @@ No.       Control                                                               
 2         :hwlabel:`SLIP` button                                                 Hold to turn on slip mode temporarily or double press to turn it on permanently.
 2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                              Toggle vinyl control mode.
 3         :hwlabel:`SHIFT` button                                                Hold down to access other functions.
-4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <master-sync>`.
-4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <master-sync>`. Long press to toggle :term:`quantization`.
+4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <sync-lock>`.
+4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <sync-lock>`. Long press to toggle :term:`quantization`.
 5         :hwlabel:`CUE` button                                                  Specifies, plays or recalls temporary cue point.
 5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                               Returns to the beginning of the song.
 6         :hwlabel:`PLAY/PAUSE` button                                           Plays or pause the song.
@@ -175,12 +175,12 @@ No.       Control                                                          Funct
 4         :hwlabel:`SHIFT` + :hwlabel:`CUE` buttons (tap repeatedly)       Set tempo by tapping on each beat.
 5         Channel faders                                                   Adjust the output level for each channel.
 6         Cross fader                                                      Fades between left and right deck.
-7         :hwlabel:`MASTER LEVEL` knob                                     Adjusts the master output level.
+7         :hwlabel:`MASTER LEVEL` knob                                     Adjusts the main output level.
 8         :hwlabel:`BOOTH LEVEL` knob                                      Adjusts the output level of the :hwlabel:`BOOTH OUT` jacks.
-9         :hwlabel:`MIXING` knob                                           Fades between PFL and master output in headphones
+9         :hwlabel:`MIXING` knob                                           Fades between PFL and main output in headphones
 10        :hwlabel:`TR/SAMPLER LEVEL` knob                                 Adjusts output of the TR-S (Aux 3) and Samplers 1-16.
 11        :hwlabel:`TR/SAMPLER CUE` button                                 Toggle PFL of the TR-S (Aux 3) and Samplers 1-16.
-12        Level indicator                                                  Indicate the output level of each channel and master.
+12        Level indicator                                                  Indicate the output level of each channel and main.
 ========  ===============================================================  ==========================================
 
 

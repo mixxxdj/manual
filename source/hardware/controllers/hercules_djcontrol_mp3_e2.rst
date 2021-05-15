@@ -90,17 +90,17 @@ Loads the currently highlighted track into the corresponding deck (A or B)  Load
 Loads the current highlighted track into the corresponding sampler (1 or 2) Shift + Load A/B              18
 =========================================================================== ============================= ======
 
-Master/Headphones/Microphone
+Main/Headphones/Microphone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_masterheadmicro.jpg
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Hercules DJControl MP3 e2 (master/headphones/microphone)
+   :alt: Hercules DJControl MP3 e2 (main/headphones/microphone)
    :figclass: pretty-figures
 
-   Hercules DJControl MP3 e2 (master/headphones/microphone)
+   Hercules DJControl MP3 e2 (main/headphones/microphone)
 
 
 ================================================================= ========================= ======
@@ -305,9 +305,9 @@ Pitch / Syncing
 | pitch 4% higher while |                       |                       |
 | pressed               |                       |                       |
 +-----------------------+-----------------------+-----------------------+
-| Set deck as master    | Master tempo (MP3 e2) | 2                     |
+| Set deck as leader    | Master tempo (MP3 e2) | 2                     |
 | clock.                | / Pitch reset (MP3 LE |                       |
-| Led blink: master     | & Glow)               |                       |
+| Led blink: leader     | & Glow)               |                       |
 | Fixed led: Follower   |                       |                       |
 | Led off: none         |                       |                       |
 +-----------------------+-----------------------+-----------------------+
@@ -401,7 +401,7 @@ Global controls
 |              |              | right (channel 2 &  |               |               |
 |              |              | 4) deck             |               |               |
 +--------------+--------------+---------------------+---------------+---------------+
-| 9            | Automix      | Used as a master    |               |               |
+| 9            | Automix      | Used as a main      |               |               |
 |              |              | shift button to     |               |               |
 |              |              | obtain more         |               |               |
 |              |              | controls than those |               |               |
@@ -413,7 +413,7 @@ Global controls
 |              |              | shifted behavior.   |               |               |
 +--------------+--------------+---------------------+---------------+---------------+
 | 7            | Scratch      | Enable or disable   | Used as a     |               |
-|              |              | the scratch mode on | master        |               |
+|              |              | the scratch mode on | main          |               |
 |              |              | both decks          | supershift    |               |
 |              |              |                     | button to     |               |
 |              |              |                     | obtain a      |               |
@@ -450,7 +450,7 @@ Deck / Channel specific controls
 |              |              | BPM is detected  | deck (rate   |              |
 |              |              | on both).        | changes only |              |
 |              |              | Led blink:       | affect       |              |
-|              |              | master           | tempo, not   |              |
+|              |              | leader           | tempo, not   |              |
 |              |              | Fixed led:       | key)         |              |
 |              |              | follower         |              |              |
 |              |              | Led off: none    |              |              |

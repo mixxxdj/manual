@@ -132,7 +132,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],balance
 
-   Adjusts the left/right channel balance on the Master output.
+   Adjusts the left/right channel balance on the Main output.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
@@ -222,7 +222,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],enabled
 
-   Indicator that the master mix is processed.
+   Indicator that the main mix is processed.
 
    :range: binary
    :feedback: None
@@ -232,12 +232,12 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],gain
 
-   Adjusts the gain for the master output as well as recording and broadcasting signal.
+   Adjusts the gain for the main output as well as recording and broadcasting signal.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: 0.0..1.0..5.0
-   :feedback: Master volume knob
+   :feedback: Main volume knob
 
    .. versionadded:: 2.0.0
 
@@ -277,7 +277,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],headSplit
 
-   Splits headphone stereo cueing into right (master mono) and left (:term:`PFL` mono).
+   Splits headphone stereo cueing into right (main mono) and left (:term:`PFL` mono).
 
    :range: binary
    :feedback: Split Cue button
@@ -393,32 +393,32 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],VuMeter
 
-   Outputs the current instantaneous master volume (composite).
+   Outputs the current instantaneous main volume (composite).
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
-   :feedback: Master meter (mono)
+   :feedback: Main meter (mono)
 
 
 .. mixxx:control:: [Master],VuMeterL
 
-   Outputs the current instantaneous master volume for the left channel.
+   Outputs the current instantaneous main volume for the left channel.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
-   :feedback: Master meter L
+   :feedback: Main meter L
 
 
 .. mixxx:control:: [Master],VuMeterR
 
-   Outputs the current instantaneous master volume for the right channel.
+   Outputs the current instantaneous main volume for the right channel.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
-   :feedback: Master meter R
+   :feedback: Main meter R
 
 
 .. mixxx:control:: [Master],headVolume
@@ -434,10 +434,10 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],volume
 
-    Adjust master volume.
+    Adjust main volume.
 
     :range: 0.0..1.0..5.0
-    :feedback: Master Gain knob
+    :feedback: Main Gain knob
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[Master],gain` instead.
@@ -2947,7 +2947,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 .. mixxx:control:: [MicrophoneN],master
                    [AuxiliaryN],master
 
-   Hold value at 1 to mix channel input into the master output.
+   Hold value at 1 to mix channel input into the main output.
    For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
    Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
@@ -3030,7 +3030,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 .. mixxx:control:: [MicrophoneN],talkover
                    [AuxiliaryN],talkover
 
-   Hold value at 1 to mix channel input into the master output.
+   Hold value at 1 to mix channel input into the main output.
    For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],master` instead.
    Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
@@ -3792,7 +3792,7 @@ Controls
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],group_[Master]_enable
 
-   Whether or not this EffectChain applies to the Master output
+   Whether or not this EffectChain applies to the Main output
 
    :range: binary
 

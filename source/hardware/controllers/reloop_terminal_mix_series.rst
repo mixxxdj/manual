@@ -15,7 +15,7 @@ Sound hardware
 
 The Reloop Terminal Mix 2 and Terminal Mix 4 have integrated multichannel sound cards.
 Usually, the TerminalMix runs very well with USB power only.
-If you experience issues especially when powering both Master and Booth outputs at high levels you should use the additional power supply (6v/1.5A).
+If you experience issues especially when powering both main and booth outputs at high levels you should use the additional power supply (6v/1.5A).
 The official manual from Reloop states not to operate the unit at temperatures below 5°C/41°F as it might damage A/D converters and other components.
 However, the audio output may already start crackling if the temperature drops below 10°C.
 
@@ -24,7 +24,7 @@ Inputs
 
 Both TerminalMix 2 and 4 have a microphone and a switchable line/phono input that can be routed into Mixxx.
 The Microphone jack is at the front side of the controller, the RCA line jacks are at the back next to the line/phono switch.
-For both inputs there is a gain knob and a switch on the controller’s front side that toggles between routing the signal to the computer (:hwlabel:`SW`) or mixing it directly with the master output (:hwlabel:`MST`).
+For both inputs there is a gain knob and a switch on the controller’s front side that toggles between routing the signal to the computer (:hwlabel:`SW`) or mixing it directly with the main output (:hwlabel:`MST`).
 :hwlabel:`MST` allows to play music from external sources without any software, for example while setting up Mixxx software.
 Switch to :hwlabel:`SW` if you want to use the line signal for vinyl control or AUX input, or if you want to record the microphone input with Mixxx, broadcast it, or put on effects.
 
@@ -32,8 +32,8 @@ Outputs
 ~~~~~~~
 
 At the front, there are two headphone jacks (1/8" and 1/4“), both affected by the hard-wired :hwlabel:`TONE` knob.
-At the back, there are unbalanced outputs for booth and master (RCA), as well as a balanced master output (1/4”).
-The output level of both master outputs, booth and headphone outputs are all controlled by respective hard-wired knobs in the center column which can’t be mapped to software.
+At the back, there are unbalanced outputs for booth and main (RCA), as well as a balanced main output (1/4”).
+The output level of both main outputs, booth and headphone outputs are all controlled by respective hard-wired knobs in the center column which can’t be mapped to software.
 
 
 .. _reloop-terminal-mix-series-maintenance:
@@ -213,10 +213,10 @@ deck.*
 
 *The below controls are not deck-specific.*
 
-- :hwlabel:`MASTER` knob - Adjust the master output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
+- :hwlabel:`MASTER` knob - Adjust the main output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`BOOTH` knob - Adjust the booth output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`PHONES` knob - Adjust the headphone output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
-- :hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the master output you hear in the headphones.
+- :hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the main output you hear in the headphones.
 - :hwlabel:`SAMPLER VOLUME` knob - Adjusts the volume of all of the samplers at once.
 - :hwlabel:`CRATES` button - Does nothing at the moment. (Mixxx’s library doesn’t yet support direct panel selection.) Use the MIDI Learning Wizard to assign an action.*
 - :hwlabel:`VIEW` button - Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.* - :hwlabel:`PREP` button - *Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.*
@@ -234,8 +234,8 @@ deck.*
 
 - :hwlabel:`Volume Level Meter`
 
-  - LEDs display the hardware (!) volume of the Master output (2 blue LEDs at the top indicate clipping)
-  - *Attention:* the Master volume might already clip in Mixxx before the hardware LEDs light up. You can adjust the hardware Master volume knob and target loudness in :menuselection:`Preferences --> Normalization --> ReplayGain` to keep enough headroom for the Master volume in Mixxx and make the lower blue LEDs light up when the Master volume clips in Mixxx
+  - LEDs display the hardware (!) volume of the main output (2 blue LEDs at the top indicate clipping)
+  - *Attention:* the main volume might already clip in Mixxx before the hardware LEDs light up. You can adjust the hardware main volume knob and target loudness in :menuselection:`Preferences --> Normalization --> ReplayGain` to keep enough headroom for the main volume in Mixxx and make the lower blue LEDs light up when the main volume clips in Mixxx
 
 - :hwlabel:`POWER` LED (red)
 - :hwlabel:`MIDI` LED (blue)
