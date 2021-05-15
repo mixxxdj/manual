@@ -1,3 +1,5 @@
+.. _allen-heath-xone-k2:
+
 Allen & Heath Xone:K2
 =====================
 

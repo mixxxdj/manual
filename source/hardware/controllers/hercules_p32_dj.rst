@@ -1,3 +1,5 @@
+.. _hercules-p32-dj:
+
 Hercules P32 DJ
 ===============
 

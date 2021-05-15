@@ -1,3 +1,5 @@
+.. _roland-dj-505:
+
 Roland DJ-505
 =============
 
@@ -125,8 +127,8 @@ No.       Control                                                               
 2         :hwlabel:`SLIP` button                                                 Hold to turn on slip mode temporarily or double press to turn it on permanently.
 2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                              Toggle vinyl control mode.
 3         :hwlabel:`SHIFT` button                                                Hold down to access other functions.
-4         :hwlabel:`SYNC` button                                                 Match tempo and phase of other deck. Long press to set Deck as Sync Leader.
-4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Disables Sync mode.
+4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <master-sync>`.
+4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <master-sync>`. Long press to toggle :term:`quantization`.
 5         :hwlabel:`CUE` button                                                  Specifies, plays or recalls temporary cue point.
 5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                               Returns to the beginning of the song.
 6         :hwlabel:`PLAY/PAUSE` button                                           Plays or pause the song.

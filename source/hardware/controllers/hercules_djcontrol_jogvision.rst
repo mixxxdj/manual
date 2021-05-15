@@ -1,3 +1,5 @@
+.. _hercules-djcontrol-jogvision:
+
 Hercules DJControl Jogvision
 ============================
 
