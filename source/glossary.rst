@@ -20,10 +20,11 @@ Glossary of Terms
 
    crossfader
      The crossfader is a slider that determines how much each deck of audio
-     contributes to the :term:`master output`.
+     contributes to the :term:`main output`.
 
+   main output
    master output
-     The master output is the main audio output. It is what your audience hears.
+     The main output is sent to the big speakers. It's what your audience hears.
 
    headphone output
      The headphone output is what you hear in your headphones.
@@ -63,7 +64,7 @@ Glossary of Terms
      Explorer on Windows, Finder on macOS and Nautilus on GNU/Linux.
 
    head/mix button
-     The head/mix button is used to control how much you mix the :term:`master
+     The head/mix button is used to control how much you mix the :term:`main
      output` into your :term:`headphone output`. This can be very useful when
      :term:`cueing` a track, because you can test out how it sounds when mixed
      with the main mix in your headphones, before letting the audience hear the
