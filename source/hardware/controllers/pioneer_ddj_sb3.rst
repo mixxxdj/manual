@@ -108,7 +108,7 @@ Mixer section (p. 8)
 ===  =====================================================  ============================================================================================
 No.  Control                                                Function
 ===  =====================================================  ============================================================================================
-1    :hwlabel:`TRIM` knob                                   Adjust inidvidual channel output gain
+1    :hwlabel:`TRIM` knob                                   Adjust individual channel output gain
 2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs      Adjust high/mid/low-frequencies
 3    :hwlabel:`FILTER` knob                                 Low pass / high pass filter for each channel
 4    :hwlabel:`HEADPHONE CUE 1` button                      Toggle headphone pre-fader listening of left deck.
@@ -156,7 +156,7 @@ No.       Control                                                          Funct
 
 Beatjump Mode
 ^^^^^^^^^^^^^
-Beatjump mode is enabled by holding :hwlabel:`SHIFT` down and pressing the :hwlabel:`HOT CUE` button. The 
+Beatjump mode is enabled by holding :hwlabel:`SHIFT` down and pressing the :hwlabel:`HOT CUE` button. The
 button will flash when selected. Use beatjump mode to jump back or forward on the track by a certain number of beats.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_beatjump.svg
@@ -183,7 +183,7 @@ No.       Control                                                          Funct
 
 FX Fade Mode
 ^^^^^^^^^^^^
-FX Fade mode is enabled by pressing the :hwlabel:`FX FADE` button. The button will light up when selected. FX fade is 
+FX Fade mode is enabled by pressing the :hwlabel:`FX FADE` button. The button will light up when selected. FX fade is
 a set of functions built-in to the controller.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_fade.svg
@@ -205,7 +205,7 @@ No.       Control                                                          Funct
 3         Pad (unlit)                                                      Apply 1 beat auto-loop and lower volume
 3         Pad (blinking)                                                   Turn off loop and restore volume
 4         Pad                                                              Perform a back-spin and resume
-5         Pad                                                              Same as pad 1 but over more time 
+5         Pad                                                              Same as pad 1 but over more time
 6         Pad                                                              Same as pad 2 but over more time
 7         Pad                                                              Auto-loop with exponential size reduction
 8         Pad                                                              Same as 4 but with a longer back-spin
@@ -213,7 +213,7 @@ No.       Control                                                          Funct
 
 Loop Roll Mode
 ^^^^^^^^^^^^^^
-Loop roll mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`FX FADE` button. The button will 
+Loop roll mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`FX FADE` button. The button will
 blink when selected. Press one of the pads to trigger a momentary loop roll. Once the pad is released, the track will
 resume playing.
 
@@ -242,7 +242,7 @@ No.       Control                                                          Funct
 
 Pad Scratch Mode
 ^^^^^^^^^^^^^^^^
-Pad scratch mode is enabled by pressing the :hwlabel:`PAD SCRATCH` button. The button will 
+Pad scratch mode is enabled by pressing the :hwlabel:`PAD SCRATCH` button. The button will
 light up when selected. Press one of the pads to trigger one of the built in scratches.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_scratch.svg
@@ -256,8 +256,8 @@ light up when selected. Press one of the pads to trigger one of the built in scr
 
 Slicer Mode
 ^^^^^^^^^^^
-Slicer mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`PAD SCRATCH` button. The button will 
-blink when selected. In this mode every pad repesents a marker in the beat grid. Each pad will light up
+Slicer mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`PAD SCRATCH` button. The button will
+blink when selected. In this mode every pad represents a marker in the beat grid. Each pad will light up
 as each slice is played. Press a pad to repeat the slice and hold the pad down to loop it.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_slicer.svg
@@ -271,7 +271,7 @@ as each slice is played. Press a pad to repeat the slice and hold the pad down t
 
 Sampler Mode
 ^^^^^^^^^^^^
-Sampler mode is enabled by pressing the :hwlabel:`SAMPLER` button. The button will 
+Sampler mode is enabled by pressing the :hwlabel:`SAMPLER` button. The button will
 light up when selected.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_sampler.svg
@@ -306,7 +306,7 @@ No.       Control                                                          Funct
 
 Trans Mode
 ^^^^^^^^^^
-Trans mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`SAMPLER` button. The button will 
+Trans mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`SAMPLER` button. The button will
 blink when selected. Press one of the pads to trigger one of the built in cut effects.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_trans.svg
@@ -330,4 +330,3 @@ blink when selected. Press one of the pads to trigger one of the built in cut ef
    7         Pad                                                              1/3 beat cut effect
    8         Pad                                                              Manual cut effect
    ========  ===============================================================  ==========================================
-   
