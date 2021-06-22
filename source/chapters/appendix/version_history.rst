@@ -131,7 +131,7 @@ Version History
   * Fix :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>` controller mapping inverted FX on/off control `#3758 <https://github.com/mixxxdj/mixxx/pull/3758>`__
   * Gracefully handle MIDI overflow `#825 <https://github.com/mixxxdj/mixxx/pull/825>`__
 
-*Development*
+*Other*
 
   * Add CMake build system with ``ccache`` and ``sccache`` support for faster compilation times and remove SCons `#2280 <https://github.com/mixxxdj/mixxx/pull/2280>`__ `#3618 <https://github.com/mixxxdj/mixxx/pull/3618>`__
   * Make Mixxx compile even though ``QT_NO_OPENGL`` or ``QT_OPENGL_ES_2`` is defined (fixes build on Raspberry Pi) `lp:1863440 <https://bugs.launchpad.net/mixxx/+bug/1863440>`__ `#2504 <https://github.com/mixxxdj/mixxx/pull/2504>`__
