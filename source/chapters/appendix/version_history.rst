@@ -21,7 +21,7 @@ Version History
 
 *Importing From Other DJ Software*
 
-  * Import cue points, track colors, and playlists from Serato file tags & database `#2480 <https://github.com/mixxxdj/mixxx/pull/2480>`__ `#2526 <https://github.com/mixxxdj/mixxx/pull/2526>`__ `#2499 <https://github.com/mixxxdj/mixxx/pull/2499>`__ `#2495 <https://github.com/mixxxdj/mixxx/pull/2495>`__ `#2673 <https://github.com/mixxxdj/mixxx/pull/2673>`__
+  * Import cue points, track colors, and playlists from Serato file tags & database `#2480 <https://github.com/mixxxdj/mixxx/pull/2480>`__ `#2526 <https://github.com/mixxxdj/mixxx/pull/2526>`__ `#2499 <https://github.com/mixxxdj/mixxx/pull/2499>`__ `#2495 <https://github.com/mixxxdj/mixxx/pull/2495>`__ `#2673 <https://github.com/mixxxdj/mixxx/pull/2673>`__ `#3885 <https://github.com/mixxxdj/mixxx/pull/3885>`__
 
     * Note: Mixxx does not yet support multiple loops per track. We are `working on this for Mixxx 2.4 <https://github.com/mixxxdj/mixxx/pull/2194>`__. In Mixxx 2.3, if you import a track with multiple loops from Serato, Mixxx will use the first loop cue as the single loop Mixxx currently supports. The imported loops are still stored in Mixxx's database and are treated as hotcues in Mixxx 2.3. If you do not delete these hotcues, they will be usable as loops in Mixxx 2.4. Serato keeps loops and hotcues in separate lists, but Mixxx does not, so loops from Serato are imported starting as hotcue 9.
 
@@ -38,13 +38,14 @@ Version History
 
 *Deck cloning*
 
-  * Add deck cloning (also known as "instant doubles" in other DJ software) by dragging and dropping between decks `#1892 <https://github.com/mixxxdj/mixxx/pull/1892>`__
+  * Add deck cloning (also known as "instant doubles" in other DJ software) by dragging and dropping between decks `#1892 <https://github.com/mixxxdj/mixxx/pull/1892>`__ and samplers `#3200 <https://github.com/mixxxdj/mixxx/pull/3200>`__
   * Clone decks by double pressing the load button on a controller (with option to disable this) `#2024 <https://github.com/mixxxdj/mixxx/pull/2024>`__ `#2042 <https://github.com/mixxxdj/mixxx/pull/2042>`__
 
 *Skins & GUI*
 
   * Aesthetically revamped LateNight skin `#2298 <https://github.com/mixxxdj/mixxx/pull/2298>`__ `#2342 <https://github.com/mixxxdj/mixxx/pull/2342>`__
   * Right click overview waveform to show time remaining until that point `#2238 <https://github.com/mixxxdj/mixxx/pull/2238>`__
+  * Show track info dialog when double clicking track labels in decks `#2990 <https://github.com/mixxxdj/mixxx/pull/2990>`__
   * Show track context menu when right clicking text in decks `#2612 <https://github.com/mixxxdj/mixxx/pull/2612>`__ `#2675 <https://github.com/mixxxdj/mixxx/pull/2675>`__ `#2684 <https://github.com/mixxxdj/mixxx/pull/2684>`__ `#2696 <https://github.com/mixxxdj/mixxx/pull/2696>`__
   * Add laptop battery widget to skins `#2283 <https://github.com/mixxxdj/mixxx/pull/2283>`__ `#2277 <https://github.com/mixxxdj/mixxx/pull/2277>`__ `#2250 <https://github.com/mixxxdj/mixxx/pull/2250>`__ `#2228 <https://github.com/mixxxdj/mixxx/pull/2228>`__ `#2221 <https://github.com/mixxxdj/mixxx/pull/2221>`__ `#2163 <https://github.com/mixxxdj/mixxx/pull/2163>`__ `#2160 <https://github.com/mixxxdj/mixxx/pull/2160>`__ `#2147 <https://github.com/mixxxdj/mixxx/pull/2147>`__ `#2281 <https://github.com/mixxxdj/mixxx/pull/2281>`__ `#2319 <https://github.com/mixxxdj/mixxx/pull/2319>`__ `#2287 <https://github.com/mixxxdj/mixxx/pull/2287>`__
   * Show when passthrough mode is active on overview waveforms `#2575 <https://github.com/mixxxdj/mixxx/pull/2575>`__ `#2616 <https://github.com/mixxxdj/mixxx/pull/2616>`__
@@ -55,6 +56,9 @@ Version History
   * AutoDJ: Make "enable" shortcut work after startup `#3242 <https://github.com/mixxxdj/mixxx/pull/3242>`__
   * Add rate range indicator `#3693 <https://github.com/mixxxdj/mixxx/pull/3693>`__
   * Allow menubar to be styled `#3372 <https://github.com/mixxxdj/mixxx/pull/3372>`__ `#3788 <https://github.com/mixxxdj/mixxx/pull/3788>`__
+  * Add Donate button to About dialog `#3838 <https://github.com/mixxxdj/mixxx/pull/3838>`__ `#3846 <https://github.com/mixxxdj/mixxx/pull/3846>`__
+  * Add Scrollable Skin Widget `#3890 <https://github.com/mixxxdj/mixxx/pull/3890>`__
+  * Fix minor visual issues in Skins `#3958 <https://github.com/mixxxdj/mixxx/pull/3958/>`__ `#3954 <https://github.com/mixxxdj/mixxx/pull/3954/>`__ `#3941 <https://github.com/mixxxdj/mixxx/pull/3941/>`__ `#3938 <https://github.com/mixxxdj/mixxx/pull/3938/>`__ `#3936 <https://github.com/mixxxdj/mixxx/pull/3936/>`__ `#3886 <https://github.com/mixxxdj/mixxx/pull/3886/>`__ `#3927 <https://github.com/mixxxdj/mixxx/pull/3927/>`__ `#3844 <https://github.com/mixxxdj/mixxx/pull/3844/>`__ `#3933 <https://github.com/mixxxdj/mixxx/pull/3933/>`__ `#3835 <https://github.com/mixxxdj/mixxx/pull/3835/>`__ `#3902 <https://github.com/mixxxdj/mixxx/pull/3902>`__ `#3931 <https://github.com/mixxxdj/mixxx/pull/3931>`__
 
 *Music Feature Analysis*
 
@@ -65,6 +69,7 @@ Version History
 
   * Remove VAMP plugin support and use Queen Mary DSP library directly. vamp-plugin-sdk and vamp-hostsdk are no longer required dependencies. `#926 <https://github.com/mixxxdj/mixxx/pull/926>`__
   * Improvements BPM detection on non-const beatgrids `#3626 <https://github.com/mixxxdj/mixxx/pull/3626>`__
+  * Fix const beatgrid placement `#3965 <https://github.com/mixxxdj/mixxx/pull/3965>`__ `#3973 <https://github.com/mixxxdj/mixxx/pull/3973>`__
 
 *Music Library*
 
@@ -78,6 +83,10 @@ Version History
   * Fix caching of duplicate tracks that reference the same file `#3027 <https://github.com/mixxxdj/mixxx/pull/3027>`__
   * Use 6 instead of only 4 compatible musical keys (major/minor) `#3205 <https://github.com/mixxxdj/mixxx/pull/3205>`__
   * Fix possible crash when trying to refocus the tracks table while another Mixxx window has focus `#3201 <https://github.com/mixxxdj/mixxx/pull/3201>`__
+  * Don't create new tags in file when exporting metadata to it `#3898 <https://github.com/mixxxdj/mixxx/pull/3898>`__
+  * Fix playlist files beginning with non-english characters not being loaded `#3916 <https://github.com/mixxxdj/mixxx/pull/3916>`__
+  * Enable sorting in "Hidden Tracks" and "Missing Tracks" views `#3828 <https://github.com/mixxxdj/mixxx/pull/3828>`__ `lp:1828555 <https://bugs.launchpad.net/mixxx/+bug/1828555/>`__ `lp:1924616 <https://bugs.launchpad.net/mixxx/+bug/1924616/>`__
+  * Fix track table being empty after start `#3935 <https://github.com/mixxxdj/mixxx/pull/3935/>`__ `lp:1930546 <https://bugs.launchpad.net/mixxx/+bug/1930546/>`__ `lp:1924843 <https://bugs.launchpad.net/mixxx/+bug/1924843/>`__
 
 *Audio Codecs*
 
@@ -85,6 +94,7 @@ Version History
   * Include LAME MP3 encoder with Mixxx now that the MP3 patent has expired `lp:1294128 <https://bugs.launchpad.net/mixxx/+bug/1294128>`__ `buildserver:#37 <https://github.com/mixxxdj/buildserver/pull/37>`__ `buildserver:9e8bcee <https://github.com/mixxxdj/buildserver/commit/9e8bcee771731920ae82f3e076d43f0fb51e5027>`__
   * Add Opus streaming and recording support. `lp:1338413 <https://bugs.launchpad.net/mixxx/+bug/1338413>`__
   * Remove support for SoundSource plugins because the code was not well-maintained and could lead to crashes `lp:1792747 <https://bugs.launchpad.net/mixxx/+bug/1792747>`__
+  * Add HE-AAC encoding capabilities for recording and broadcasting `#3615 <https://github.com/mixxxdj/mixxx/pull/3615>`__
 
 *Audio Engine*
 
@@ -93,6 +103,8 @@ Version History
   * Fix possible memory corruption using JACK on Linux `#3160 <https://github.com/mixxxdj/mixxx/pull/3160>`__
   * Fix changing of vinyl lead-in time `lp:1915483 <https://bugs.launchpad.net/mixxx/+bug/1915483>`__ `#3781 <https://github.com/mixxxdj/mixxx/pull/3781>`__
   * Fix tempo change of non-const beatgrid track on audible deck when cueing another track `#3772 <https://github.com/mixxxdj/mixxx/pull/3772>`__
+  * Fix crash when changing effect unit routing `#3882 <https://github.com/mixxxdj/mixxx/pull/3882>`__ `lp:1775497 <https://bugs.launchpad.net/mixxx/+bug/1775497>`__
+  * Make microphone ducking use strength knob the same way in automatic & manual mode `#2750 <https://github.com/mixxxdj/mixxx/pull/2750>`__
 
 *Controllers*
 
@@ -106,11 +118,11 @@ Version History
   * Add controller mapping for :ref:`Numark iDJ Live II <numark-idj-live-ii>` `#2818 <https://github.com/mixxxdj/mixxx/pull/2818>`__
   * Add controller mapping for :ref:`Hercules DJControl Inpulse 200 <hercules-djcontrol-inpulse-200>` `#2542 <https://github.com/mixxxdj/mixxx/pull/2542>`__
   * Add controller mapping for :ref:`Hercules DJControl Jogvision <hercules-djcontrol-jogvision>` `#2370 <https://github.com/mixxxdj/mixxx/pull/2370>`__
-  * Add controller mapping for :ref:`Pioneer DDJ-200 <pioneer-ddj-200>` `#3185 <https://github.com/mixxxdj/mixxx/pull/3185>`__ `#3193 <https://github.com/mixxxdj/mixxx/pull/3193>`__ `#3479 <https://github.com/mixxxdj/mixxx/pull/3742>`__
+  * Add controller mapping for :ref:`Pioneer DDJ-200 <pioneer-ddj-200>` `#3185 <https://github.com/mixxxdj/mixxx/pull/3185>`__ `#3193 <https://github.com/mixxxdj/mixxx/pull/3193>`__ `#3479 <https://github.com/mixxxdj/mixxx/pull/3742>`__ `#3793 <https://github.com/mixxxdj/mixxx/pull/3793>`__ `#3949 <https://github.com/mixxxdj/mixxx/pull/3949>`__
   * Add controller mapping for :ref:`Pioneer DDJ-400 <pioneer-ddj-400>` `#3479 <https://github.com/mixxxdj/mixxx/pull/3479>`__
   * Add controller mapping for :ref:`ION Discover DJ Pro <ion-discover-dj-pro>` `#2893 <https://github.com/mixxxdj/mixxx/pull/2893>`__
   * Add controller mapping for :ref:`Native Instrument Traktor Kontrol S3 <native-instruments-traktor-kontrol-s3>` `#3031 <https://github.com/mixxxdj/mixxx/pull/3031>`__
-  * Add controller mapping for :ref:`Behringer B-Control BCR2000 <behringer-b-control-bcr2000>` `#3342 <https://github.com/mixxxdj/mixxx/pull/3342>`__
+  * Add controller mapping for :ref:`Behringer B-Control BCR2000 <behringer-b-control-bcr2000>` `#3342 <https://github.com/mixxxdj/mixxx/pull/3342>`__ `#3943 <https://github.com/mixxxdj/mixxx/pull/3943>`__
   * Add controller mapping for :ref:`Behringer DDM4000 <behringer-ddm4000>` `#3542 <https://github.com/mixxxdj/mixxx/pull/3542>`__
   * Update controller mapping for :ref:`Allen & Heath Xone K2 <allen-heath-xone-k2>` to add intro/outro cues `#2236 <https://github.com/mixxxdj/mixxx/pull/2236>`__
   * Update controller mapping for :ref:`Hercules P32 DJ <hercules-p32-dj>` for more accurate headmix control `#3537 <https://github.com/mixxxdj/mixxx/pull/3537>`__
@@ -128,6 +140,9 @@ Version History
   * Add macOS codesigning and notarization to fix startup warnings `#3281 <https://github.com/mixxxdj/mixxx/pull/3281>`__
   * Don't trash user configuration if an error occurs when writing `#3192 <https://github.com/mixxxdj/mixxx/pull/3192>`__
   * Enable CUE sheet recording by default `#3374 <https://github.com/mixxxdj/mixxx/pull/3374>`__
+  * Fix crash when double clicking GLSL waveforms with right mouse button `#3904 <https://github.com/mixxxdj/mixxx/pull/3904>`__
+  * Derive Mixxx version from `git describe` `#3824 <https://github.com/mixxxdj/mixxx/pull/3824>`__ `#3841 <https://github.com/mixxxdj/mixxx/pull/3841>`__ `#3848 <https://github.com/mixxxdj/mixxx/pull/3848>`__
+  * Improve tapping the bpm of a deck `#3790 <https://github.com/mixxxdj/mixxx/pull/3790>`__ `lp:1882776 <https://bugs.launchpad.net/mixxx/+bug/1882776>`__
   * And countless other small fixes and improvements (too many to list them all!)
 
 2.2.4 (2020-06-27)
