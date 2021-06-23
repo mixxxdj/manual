@@ -11,7 +11,7 @@ NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
 # Write _redirects file
 mkdir -p build/html
 printf '/           /latest/               302\n' > build/html/_redirects
-printf '/latest/*   /2.2/:splat            301\n' >> build/html/_redirects
+printf '/latest/*   /2.3/:splat            301\n' >> build/html/_redirects
 
 i=1
 for lang in $LANGUAGES
