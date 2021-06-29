@@ -56,7 +56,7 @@ Using a Keyboard
 
    Mixxx Keyboard shortcuts (for en-us keyboard layout)
 
-   :download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`
+   :download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`
 
 Controlling Mixxx with a keyboard is handy. Unlike mouse control, the keyboard
 allows you to manage things simultaneously. For example, you can start playing
