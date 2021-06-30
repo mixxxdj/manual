@@ -3,7 +3,7 @@
 Numark Mixtrack (Pro) 3
 =======================
 
--  `Manufacturer’s product page <http://www.numark.com/product/mixtrack-pro-3>`__
+-  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-pro-3>`__
 -  `Manufacturer's User Manual <https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf>`__
 -  `Forum thread <https://mixxx.discourse.group/t/mixtrack-pro-3/15165>`__
 
