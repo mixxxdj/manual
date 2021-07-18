@@ -25,3 +25,10 @@ Everything in this mapping is standard except:
   * it can be used to preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track,
   
   * clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
+
+The pad mode is changed using the "Pad Mode" button.
+
+* The "Cues" mode can be used to set cue points, and trigger them by clicking.
+* The "Auto" mode is used to enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and 16 bar loops respectively.
+* The "Manual" mode can be used to a set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, and pad 3 enables / disables the loop.
+* The "Sampler" mode can be used to load / trigger sample tracks.
