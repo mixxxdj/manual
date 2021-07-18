@@ -23,4 +23,4 @@ Everything in this mapping is standard except from the Level knobs, which have b
 Known Issues
 ------------
 
-- Browse encoder stops functioning after clicking a track.
+- No known issues.
