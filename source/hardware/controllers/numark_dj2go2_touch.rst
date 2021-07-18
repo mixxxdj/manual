@@ -20,7 +20,11 @@ Controller Mapping
 
 Everything in this mapping is standard except:
  - the Level knobs have been remapped to a filter effect,
- - the browse encoder can be used to preview tracks, with an added seek functionality.
+ - the browse encoder has two added features:
+    - it can be used to preview tracks when clicking on a track in a tracklist,
+    - scrolling the encoder allows seeking the previewed track,
+    - clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
+
 
 Known Issues
 ------------
