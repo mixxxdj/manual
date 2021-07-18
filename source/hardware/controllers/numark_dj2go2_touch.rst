@@ -13,7 +13,7 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 -  `Serato DJ Hardware Page <https://serato.com/dj/hardware/numark-dj2go2-touch>`__
 -  `Mapping Forum Thread <https://mixxx.discourse.group/t/a-complete-numark-dj2go2-touch-mapping/22616>`__
 
-.. versionadded:: 2.3.0
+.. versionadded:: 2.3.1
 
 Controller Mapping
 ------------------
