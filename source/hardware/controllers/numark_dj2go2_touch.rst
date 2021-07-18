@@ -18,7 +18,7 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 Controller Mapping
 ------------------
 
-Everything in this mapping is standard except:
+Everything in this mapping works as labeled on the controller except:
  - the Level knobs have been remapped to a filter effect,
  - the browse encoder has two added features:
     - it can be used to preview tracks when clicking on a track in a tracklist,
