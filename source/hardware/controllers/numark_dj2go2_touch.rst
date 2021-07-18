@@ -24,9 +24,3 @@ Everything in this mapping is standard except:
     - it can be used to preview tracks when clicking on a track in a tracklist,
     - scrolling the encoder allows seeking the previewed track,
     - clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
-
-
-Known Issues
-------------
-
-- No known issues.
