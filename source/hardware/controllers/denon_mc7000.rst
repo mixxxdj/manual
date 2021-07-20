@@ -6,6 +6,8 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 .. versionadded:: 2.2.4
 .. versionchanged:: 2.3.0
    Fixed a vinyl mode bug on deck 4 and added new features, like library sorting, searching through track with jog wheel, ejecting track from deck, waveform zoom, fixed loops and an experimental beat counter (slicer-like) and improved parameter and censor/reverse/spinback button mappings.
+.. versionchanged:: 2.3.1
+   Some minor improvements for slip mode, samplers and rate range toggle.
 
 Useful links
 ~~~~~~~~~~~~
@@ -52,12 +54,9 @@ Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables
 
 -  activate :ref:`experimental features <denon_mc7000_experimental>` (default: ``false``)
 -  activate NeedleDrop sensor while a track is playing (default: ``false``)
--  set the Pitch Fader ranges in % to toggle between them
-   (default: 4, 6, 8, 10, 16, 24)
--  Platter Ring LED mode: single LED on or off (default: 1). Can be
-   toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
--  Vinyl Mode on or off at Mixxx start which also triggers the Platter
-   Ring LED function (default: 1)
+-  set the Pitch Fader ranges in % to toggle between them (default: 4, 6, 8, 10, 16, 24, 50, 90)
+-  Platter Ring LED mode: single LED on or off (default: 1). Can be toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
+-  Vinyl Mode on or off at Mixxx start which also triggers the Platter Ring LED function (default: 1)
 -  Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
 -  Jog Sensitivity (default: 1)
 
@@ -187,7 +186,7 @@ Deck Section
    "30", ":hwlabel:`VINYL`",                               "Press to activate/deactivate a 'vinyl mode' for the platter. When activated, you can use the platter to 'scratch' the track as you would with a vinyl record."
    "31", "Pitch Fader",                                    "Move to adjust the speed (pitch) of the track."
    "32", ":hwlabel:`PITCH BEND –/+`",                      "Press to momentarily reduce or increase the speed of the track."
-   "32", ":hwlabel:`SHIFT` + :hwlabel:`PITCH BEND –/+`",   "Press to set the range of the Pitch Fader to values of 4%, 6%, 8%, 10%, 16% and 24%."
+   "32", ":hwlabel:`SHIFT` + :hwlabel:`PITCH BEND –/+`",   "Press to set the Pitch Fader range. You may adjust the steps in :ref:`JavaScript file<denon_mc7000_uservariables>`"
    "33", ":hwlabel:`KEY LOCK`",                            "Press to activate/deactivate Key Lock. When Key Lock is activated, the track’s key will remain the same even if you adjust its speed."
    "33", ":hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`",         "Press to automatically match the corresponding deck’s key with the key of the opposite deck."
    "34", ":hwlabel:`KEY SELECT/RESET`",                    "Turn to raise or lower the key of the track. Press to reset the track’s key to its original key."
@@ -201,10 +200,12 @@ Deck Section
    "42", ":hwlabel:`SHIFT` + :hwlabel:`X2`",               "Press to create a loop out point at the current Location."
    "43", ":hwlabel:`</> PARAM 1 2`",                       "Press to add/remove rating stars to the loaded track."
    "43", ":hwlabel:`SHIFT` + :hwlabel:`</> PARAM 1 2`",    "Press to change the track color in the library."
-   "44", ":hwlabel:`SLIP`",                                "Press to enable or disable Slip Mode. In Slip Mode, you can jump to cue points, trigger loops or use the platters, while the track’s timeline continues. In other words, when you deactivate Slip Mode, the track will resume normal playback from where it would have been if you had never done anything (i.e., as if the track had been playing forward the whole time)."
+   "44", ":hwlabel:`SLIP`",                                "Press to enable or disable Slip Mode. In Slip Mode, you can jump to cue points, trigger loops or use the platters, while the track’s timeline continues. In other words, when you deactivate Slip Mode, the track will resume normal playback from where it would have been if you had never done anything (i.e., as if the track had been playing forward the whole time).
+
+   After scratch, hot cue play and reverse play the slip mode releases itself so the timeline of the track jumps back to original position after the action is done. Slip mode reactivates itself after 250ms so you can continue with more actions in slip mode almost immediately after."
    "45", ":hwlabel:`CENSOR`",                              "Press and hold this button to play the track in :hwlabel:`REVERSE`. When releasing the button, the track immediately starts playing from it's momentary position.
 
-   If :hwlabel:`SLIP` was active then after releasing the button the track continues as it had been playing forward the whole time (:hwlabel:`CENSOR`). If you want to use the Censor function a 2nd time, make sure to enable :hwlabel:`SLIP` again."
+   If :hwlabel:`SLIP` was active then after releasing the :hwlabel:`CENSOR` button the track continues as it had been playing forward the whole time (:hwlabel:`CENSOR`). Slip mode stays enabled so you can continue with more actions in slip mode."
    "45", ":hwlabel:`SHIFT` + :hwlabel:`CENSOR`",           "Press to activate a backspin with the length set by the :hwlabel:`STOP TIME` knob."
    "46", ":hwlabel:`BEAT GRID ADJUST`",                    "Press to adjust the Beat Grid to the current play position."
    "46", ":hwlabel:`SHIFT` + :hwlabel:`BEAT GRID ADJUST`", "Press to activate Quantize mode."
@@ -242,6 +243,7 @@ Hot Cue Mode (blue LED)
 
 | Press one of the pad buttons to set or play a Hot Cue.
 | Use :hwlabel:`SHIFT` + pad button to delete an existing Hot Cue.
+| If :hwlabel:`SLIP` was active then after releasing the Hot Cue button the track continues as it had been playing forward the whole time. Slip mode stays enabled so you can continue with more actions in slip mode.
 
 .. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
    :align: left
@@ -306,6 +308,7 @@ Sampler Mode (pink LED)
 | Add samplers to the sampler bank pushing a pad button.
 | If a sampler is loaded, then another push on the pad button will play the sampler from its Cue point.
 | Push the pad button again while playing will replay the sampler from Cue point.
+| When a sampler is started while another one is still playing, then the initial sampler stops and only the newly triggered sampler plays.
 
 Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sampler when stopped.
 
