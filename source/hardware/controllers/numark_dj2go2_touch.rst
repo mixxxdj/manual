@@ -66,5 +66,5 @@ Control                                                          Function
 ===============================================================  ==================================
 :hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
 :hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
-Cross fader                                                      Fades between left and right deck.
+Crossfader                                                       Fades between left and right deck.
 ===============================================================  ==================================
