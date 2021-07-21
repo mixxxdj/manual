@@ -26,9 +26,45 @@ Everything in this mapping is standard except:
   
   * clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
 
-The pad mode is changed using the "Pad Mode" button.
 
-* The "Cues" mode can be used to set cue points, and trigger them by clicking.
-* The "Auto" mode is used to enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and 16 bar loops respectively.
-* The "Manual" mode can be used to a set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, and pad 3 enables / disables the loop.
-* The "Sampler" mode can be used to load / trigger sample tracks.
+Decks
+~~~~~
+
+===============================================================  ======================================================
+Control                                                          Function
+===============================================================  ======================================================
+Jog Wheel (top surface)                                          Perform scratch operation.
+Jog Wheel (outer edge)                                           Rotate to lower/raise playback speed and pitch.
+:hwlabel:`SYNC`                                                  Match tempo and phase of other deck.
+:hwlabel:`CUE`                                                   Specifies, plays or recalls temporary cue point.
+:hwlabel:`PLAY/PAUSE`                                            Plays or pause the song.
+:hwlabel:`HEADPHONES`                                            Switches audio output between headphones and speakers.
+:hwlabel:`LOAD`                                                  Loads a track into the deck.
+Tempo slider                                                     Adjust song playback speed.
+:hwlabel:`LEVEL`                                                 Hi / low pass filter effect.
+===============================================================  ======================================================
+
+Pads
+~~~~
+
+The pad mode is changed using the :hwlabel:`PAD MODE` button.
+
+===============================================================  ======================================================================================================================
+Control                                                          Function
+===============================================================  ======================================================================================================================
+:hwlabel:`CUES` mode                                             Set cue points, and trigger them by clicking.
+:hwlabel:`AUTO` mode                                             Enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and 16 bar loops respectively.
+:hwlabel:`MANUAL` mode                                           Set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, and pad 3 enables / disables the loop.
+:hwlabel:`SAMPLER` mode                                          Load / trigger sample tracks.
+===============================================================  ======================================================================================================================
+
+Mixer
+~~~~~
+
+===============================================================  ==================================
+Control                                                          Function
+===============================================================  ==================================
+:hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
+:hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
+Cross fader                                                      Fades between left and right deck.
+===============================================================  ==================================
