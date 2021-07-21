@@ -50,12 +50,12 @@ Pads
 The pad mode is changed using the :hwlabel:`PAD MODE` button.
 
 ===============================================================  ======================================================================================================================
-Control                                                          Function
+Pad Mode                                                         Function
 ===============================================================  ======================================================================================================================
-:hwlabel:`CUES` mode                                             Set cue points, and trigger them by clicking.
-:hwlabel:`AUTO` mode                                             Enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and 16 bar loops respectively.
-:hwlabel:`MANUAL` mode                                           Set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, and pad 3 enables / disables the loop.
-:hwlabel:`SAMPLER` mode                                          Load / trigger sample tracks.
+:hwlabel:`CUES`                                                  Set cue points, and trigger them by clicking.
+:hwlabel:`AUTO`                                                  Enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and 16 bar loops respectively.
+:hwlabel:`MANUAL`                                                Set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, and pad 3 enables / disables the loop.
+:hwlabel:`SAMPLER`                                               Load / trigger sample tracks.
 ===============================================================  ======================================================================================================================
 
 Mixer
