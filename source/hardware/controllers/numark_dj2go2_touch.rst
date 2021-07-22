@@ -28,7 +28,7 @@ Jog Wheel (outer edge)                                           Rotate to lower
 :hwlabel:`SYNC`                                                  Match tempo and phase of other deck.
 :hwlabel:`CUE`                                                   Specifies, plays or recalls temporary cue point.
 :hwlabel:`PLAY/PAUSE`                                            Plays or pause the song.
-:hwlabel:`HEADPHONES`                                            Switches audio output between headphones and speakers.
+:hwlabel:`HEADPHONES`                                            Routes deck to headphones output
 :hwlabel:`LOAD`                                                  Loads a track into the deck.
 Tempo slider                                                     Adjust song playback speed.
 :hwlabel:`LEVEL`                                                 Hi / low pass filter effect.
