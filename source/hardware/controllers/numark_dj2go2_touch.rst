@@ -54,7 +54,7 @@ Mixer / Library
 ===============================================================  ==================================
 Control                                                          Function
 ===============================================================  ==================================
-Browse encoder                                                   Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
+Browse encoder                                                   Scroll in the track list. Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
 :hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
 :hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
 Crossfader                                                       Fades between left and right deck.
