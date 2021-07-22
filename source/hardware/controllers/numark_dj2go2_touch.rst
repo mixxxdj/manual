@@ -28,7 +28,7 @@ Jog Wheel (outer edge)                                           Rotate to lower
 :hwlabel:`SYNC`                                                  Match tempo and phase of other deck.
 :hwlabel:`CUE`                                                   Specifies, plays or recalls temporary cue point.
 :hwlabel:`PLAY/PAUSE`                                            Plays or pause the song.
-:hwlabel:`HEADPHONES`                                            Switches audio output between headphones and speakers.
+:hwlabel:`HEADPHONES`                                            Routes deck to headphones output
 :hwlabel:`LOAD`                                                  Loads a track into the deck.
 Tempo slider                                                     Adjust song playback speed.
 :hwlabel:`LEVEL`                                                 Hi / low pass filter effect.
@@ -54,7 +54,7 @@ Mixer / Library
 ===============================================================  ==================================
 Control                                                          Function
 ===============================================================  ==================================
-Browse encoder                                                   Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
+Browse encoder                                                   Scroll in the track list. Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
 :hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
 :hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
 Crossfader                                                       Fades between left and right deck.
