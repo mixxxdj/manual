@@ -206,7 +206,9 @@ Deck Section
    "45", ":hwlabel:`CENSOR`",                              "Press and hold this button to play the track in :hwlabel:`REVERSE`. When releasing the button, the track immediately starts playing from it's momentary position.
 
    If :hwlabel:`SLIP` was active then after releasing the :hwlabel:`CENSOR` button the track continues as it had been playing forward the whole time (:hwlabel:`CENSOR`). Slip mode stays enabled so you can continue with more actions in slip mode."
-   "45", ":hwlabel:`SHIFT` + :hwlabel:`CENSOR`",           "Press to activate a backspin with the length set by the :hwlabel:`STOP TIME` knob."
+   "45", ":hwlabel:`SHIFT` + :hwlabel:`CENSOR`",           "Press to activate a backspin with the length set by the :hwlabel:`STOP TIME` knob.
+
+   If :hwlabel:`SLIP` was active then after releasing the :hwlabel:`CENSOR` button the track continues as it had been playing forward the whole time. Slip mode stays enabled so you can continue with more actions in slip mode."
    "46", ":hwlabel:`BEAT GRID ADJUST`",                    "Press to adjust the Beat Grid to the current play position."
    "46", ":hwlabel:`SHIFT` + :hwlabel:`BEAT GRID ADJUST`", "Press to activate Quantize mode."
    "47", ":hwlabel:`BEAT GRID SLIDE`",                     "Press to adjust the Beat Grid to another playing track."
