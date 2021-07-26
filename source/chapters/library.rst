@@ -494,9 +494,13 @@ Manual Edit
 -----------
 
 **Track Inline editing**:
-  Double-click on a field in the :ref:`library <library-tracks>`. If the field is
-  editable, it will become an editable text box. Enter a value and hit
-  :kbd:`Enter` when you are done.
+  To enable inline editing in the :ref:`library <library-tracks>` go to
+  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  "Edit metadata after clicking selected track".
+
+  Select any track in the :ref:`library <library-tracks>` and click on the
+  field you want to edit. If the field is editable, it will become an editable
+  text box. Enter a value and hit :kbd:`Enter` when you are done.
 
   .. figure:: ../_static/Mixxx-200-Library-Inline-edit.png
      :align: center
@@ -508,8 +512,12 @@ Manual Edit
      Mixxx library - Inline editing
 
 **Properties editor**:
-  Click on a **single track** in the library and select :guilabel:`Properties`
-  to open the editor. Add or change values in the editable fields, and save your
+  To open the editor right-click on a **single track** in the library or any track
+  label in decks or samplers, then select :guilabel:`Properties` in the track menu.
+  You can also double-click any track label in the decks or samplers to open the
+  editor directly.
+
+  Add or change values in the editable fields, and save your
   changes as explained below.
 
   .. figure:: ../_static/Mixxx-200-Library-Properties-Editor.png
