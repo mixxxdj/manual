@@ -242,7 +242,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 * **Update ReplayGain from Deck Gain**: Applies the deck pregain knob value to
   the detected ReplayGain value for the current track. This is a way to update
   the ReplayGain value of a track if it has been detected incorrectly. When this
-  option is selected, the pregain value for the deck will be adjusted so that
+  option is selected, the pregain value for the deck will be centered so that
   there is no audible difference in track volume, so this operation is safe to
   use during performance.
 * **Hide from Library**: Temporarily hides selected tracks from the track list.

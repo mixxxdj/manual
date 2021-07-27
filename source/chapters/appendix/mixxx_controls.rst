@@ -2512,12 +2512,12 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
   Applies the deck pregain knob value to the detected ReplayGain value for the
   current track. This is a way to update the ReplayGain value of a track if it
-  has been detected incorrectly. When this option is selected, the pregain value
-  for the deck will be adjusted so that there is no audible difference in track
-  volume, so this operation is safe to use during performance.
+  has been detected incorrectly. When this control is triggered, the pregain
+  value for the deck will be centered so that there is no audible difference in
+  track volume, so this operation is safe to use during performance.
 
    :range: binary
-   :feedback: ReplayGain value is updated in library, deck pregain is adjusted.
+   :feedback: ReplayGain value is updated in library, deck pregain is reset to 1.0.
 
 
 .. mixxx:control:: [ChannelN],vinylcontrol_enabled
