@@ -14,25 +14,36 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 
 .. versionadded:: 2.3.1
 
+.. figure:: ../../_static/controllers/numark_dj2go2_touch.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark DJ2GO2 Touch (schematic view)
+   :figclass: pretty-figures
+
+   Numark DJ2GO2 Touch (schematic view)
+
 Controller Mapping
 ------------------
 
 Decks
 ~~~~~
 
-===============================================================  ======================================================
-Control                                                          Function
-===============================================================  ======================================================
-Jog Wheel (top surface)                                          Perform scratch operation.
-Jog Wheel (outer edge)                                           Rotate to lower/raise playback speed and pitch.
-:hwlabel:`SYNC`                                                  Match tempo and phase of other deck.
-:hwlabel:`CUE`                                                   Specifies, plays or recalls temporary cue point.
-:hwlabel:`PLAY/PAUSE`                                            Plays or pause the song.
-:hwlabel:`HEADPHONES`                                            Routes deck to headphones output
-:hwlabel:`LOAD`                                                  Loads a track into the deck.
-Tempo slider                                                     Adjust song playback speed.
-:hwlabel:`LEVEL`                                                 Hi / low pass filter effect.
-===============================================================  ======================================================
+===  ===============================================================  ======================================================
+No.  Control                                                          Function
+===  ===============================================================  ======================================================
+2    :hwlabel:`HEADPHONES`                                            Routes deck to headphones output
+6    :hwlabel:`LOAD`                                                  Loads a track into the deck.
+7    :hwlabel:`LEVEL`                                                 Hi / low pass filter effect.
+9    :hwlabel:`PAD MODE`                                              Switches between modes of operation for pad buttons on both decks.
+10   Jog Wheel (top surface)                                          Perform scratch operation.
+10   Jog Wheel (outer edge)                                           Rotate to lower/raise playback speed and pitch.
+11   :hwlabel:`PLAY/PAUSE`                                            Plays or pause the song.
+12   Pads                                                             4 buttons which can be used to control various features.
+13   :hwlabel:`CUE`                                                   Specifies, plays or recalls temporary cue point.
+14   :hwlabel:`SYNC`                                                  Match tempo and phase of other deck.
+15   Tempo slider                                                     Adjust song playback speed.
+===  ===============================================================  ======================================================
 
 Pads
 ~~~~
@@ -51,11 +62,11 @@ Pad Mode                                                         Function
 Mixer / Library
 ~~~~~~~~~~~~~~~
 
-===============================================================  ==================================
-Control                                                          Function
-===============================================================  ==================================
-Browse encoder                                                   Scroll in the track list. Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
-:hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
-:hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
-Crossfader                                                       Fades between left and right deck.
-===============================================================  ==================================
+===  ===============================================================  ==================================
+No.  Control                                                          Function
+===  ===============================================================  ==================================
+3    :hwlabel:`CUE LEVEL`                                             Adjusts the cue output level.
+4    :hwlabel:`MASTER LEVEL`                                          Adjusts the master output level.
+5    Browse encoder                                                   Scroll in the track list. Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
+8    Crossfader                                                       Fades between left and right deck.
+===  ===============================================================  ==================================
