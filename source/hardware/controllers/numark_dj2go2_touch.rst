@@ -70,3 +70,15 @@ No.  Control                                                          Function
 5    Browse encoder                                                   Scroll in the track list. Preview tracks when clicking on a track in a tracklist, scrolling the encoder allows seeking the previewed track. Clicking when a track is being previewed will stop the preview, allowing you to scroll the tracklist again.
 8    Crossfader                                                       Fades between left and right deck.
 ===  ===============================================================  ==================================
+
+
+Inputs / outputs
+~~~~~~~~~~~~~~~~
+
+===  ===============================================================  ==================================
+No.  IO                                                               Function
+===  ===============================================================  ==================================
+1    USB                                                              Micro USB slot for data / power connection to the Mixxx host device.
+16   Main (3.5mm)                                                     Master audio output for the onboard interface.
+17   Headphones (3.5mm)                                               Cue audio output for the onboard interface.
+===  ===============================================================  ==================================
