@@ -23,6 +23,18 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 
    Numark DJ2GO2 Touch (schematic view)
 
+Audio Setup
+-----------
+
+The mapping relies on the following channel assignments:
+
+===================== ================
+Output Channels       Assigned to
+===================== ================
+1-2                   Master
+3-4                   Headphones
+===================== ================
+
 Controller Mapping
 ------------------
 
@@ -80,5 +92,5 @@ No.  IO                                                               Function
 ===  ===============================================================  ==================================
 1    USB                                                              Micro USB slot for data / power connection to the Mixxx host device.
 16   Main (3.5mm)                                                     Master audio output for the onboard interface.
-17   Headphones (3.5mm)                                               Cue audio output for the onboard interface.
+17   Headphones (3.5mm)                                               Headphones audio output for the onboard interface.
 ===  ===============================================================  ==================================
