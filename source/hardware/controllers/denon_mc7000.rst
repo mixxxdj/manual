@@ -308,7 +308,7 @@ LEDs
 
 The Channel Volume Meters matches to the ones shown in Mixxx GUI. Only when clipping the red LED illuminates.
 
-The Main Volume Meter is not correlated to Mixxx GUI as the controller handles that in Hardware.
+The :hwlabel:`MASTER LEVEL` meter is not correlated to Mixxx GUI as the controller handles that in Hardware.
 
 Button LEDs are fully mapped for the first function. As you press and hold :hwlabel:`SHIFT` then the secondary functions have only got some flashing LEDs mapped, e.g. TAP and KEY SYNC, when activated.
 
