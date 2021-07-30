@@ -24,7 +24,10 @@ Glossary of Terms
 
    main output
    master output
-     The main output is sent to the big speakers. It's what your audience hears.
+     The main output is sent to the big speakers. It's what your audience
+     hears. Please note that the term "master output" has been used
+     historically but is in the process of being phased out. Prefer using "main
+     output".
 
    headphone output
      The headphone output is what you hear in your headphones.
