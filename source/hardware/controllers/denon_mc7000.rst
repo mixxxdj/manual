@@ -84,16 +84,16 @@ Mixer Section
    "9",  "Crossfader Assign",          "Routes the audio playing on the corresponding channel to either side of the crossfader (:hwlabel:`A` or :hwlabel:`B`), or bypasses the crossfader and sends the audio directly to the program mix (:hwlabel:`THRU`)."
    "10", "Crossfader",                 "Use this crossfader to mix between the left and right decks."
    "12", ":hwlabel:`SAMPLER LEVEL`",   "Turn this knob to adjust the volume level of the software’s sampler. If the volume is set to 0 then the Sampler banks are hidden, otherwise shown."
-   "13", "Master Level Meters",        "These LEDs show the Master Audio signal."
-   "14", ":hwlabel:`MASTER LEVEL`",    "Turn to adjust the volume level of the master outputs."
+   "13", "Main Level Meters",        "These LEDs show the Main Audio signal."
+   "14", ":hwlabel:`MASTER LEVEL`",    "Turn to adjust the volume level of the main outputs."
    "15", ":hwlabel:`BOOTH LEVEL`",     "Turn to adjust the volume level of the booth outputs."
    "20", ":hwlabel:`PHONES LEVEL`",    "Turn to adjust the volume level of the headphones."
-   "21", ":hwlabel:`PHONES MIX`",      "Adjusts the software’s audio output to the headphones, mixing between the cue output and the master mix output."
-   "22", ":hwlabel:`SPLIT`",           "Press to switch Headphone 'split' mode. When this switch is lit, the headphone audio will be 'split' such that all channels sent to cue channel are summed to mono and sent to the left headphone channel and the master mix is summed to mono and sent to the right channel. When the switch is unlit, the cue channel and master mix will be 'blended' together."
+   "21", ":hwlabel:`PHONES MIX`",      "Adjusts the software’s audio output to the headphones, mixing between the cue output and the main mix output."
+   "22", ":hwlabel:`SPLIT`",           "Press to switch Headphone 'split' mode. When this switch is lit, the headphone audio will be 'split' such that all channels sent to cue channel are summed to mono and sent to the left headphone channel and the main mix is summed to mono and sent to the right channel. When the switch is unlit, the cue channel and main mix will be 'blended' together."
    "59", ":hwlabel:`X FADER CONTOUR`", "Turn to adjust the slope of the crossfader curve, to the left for a smooth fade (mixing) or to the right for a sharp cut (scratching."
 
 .. note::
-   The Input source selection, Master Level Meters, :hwlabel:`USB1 / USB2`, :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES LEVEL`, :hwlabel:`PHONES MIX` and :hwlabel:`SPLIT` are handled by the controller.
+   The Input source selection, Main Level Meters, :hwlabel:`USB1 / USB2`, :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES LEVEL`, :hwlabel:`PHONES MIX` and :hwlabel:`SPLIT` are handled by the controller.
    The status of Mixxx will not be changed.
 
 
@@ -109,7 +109,7 @@ Microphone Section
    "18", ":hwlabel:`MIC 1 HI`/:hwlabel:`MIC 1 LOW` (left deck)",       "Turn to boost or cut the high or low frequencies for Microphone 1."
    "18", ":hwlabel:`MIC 2 TONE` (right deck)",                         "Turn to adjust the tone (high-low) for Microphone 2."
    "18", ":hwlabel:`ECHO MIC 1&2` (right deck)",                       "Turn to adjust the amount of the echo effect for both Microphones."
-   "19", ":hwlabel:`TALKOVER MIC 1&2` (left deck)",                    "Press to use the 'talkover' feature, which automatically reduces the volume level of the master mix when you speak into the microphones."
+   "19", ":hwlabel:`TALKOVER MIC 1&2` (left deck)",                    "Press to use the 'talkover' feature, which automatically reduces the volume level of the main mix when you speak into the microphones."
    "19", ":hwlabel:`SHIFT` + :hwlabel:`TALKOVER MIC 1&2` (left deck)", "Press to activate/deactivate the 'Post' feature. When on, the microphones signal will be sent to the Booth Outputs. When off, the microphones signal will not be routed to the Booth Outputs."
    "19", ":hwlabel:`ECHO MIC 1&2` (right deck)",                       "Press this button to activate or deactivate the echo effect on the microphones’ audio signal."
 
@@ -130,7 +130,7 @@ FX Section
    "55", ":hwlabel:`SHIFT` + :hwlabel:`FX ON`",               "Press to select an effect from the list that was enabled in the Mixxx Preferences FX section."
    "56", ":hwlabel:`FX 1`, :hwlabel:`FX 2`, :hwlabel:`FX 3`", "Turn to adjust the level of the corresponding effect. The :hwlabel:`FX ON` button under the knob must be lit for this knob to function."
    "57", ":hwlabel:`FX BEATS`",                               "Turn to adjust the Wet/Dry rate of the effects."
-   "58", ":hwlabel:`FX TAP`",                                 "Press to activate effects for the Master output. This can be overlapped with Channel Effects."
+   "58", ":hwlabel:`FX TAP`",                                 "Press to activate effects for the Main output. This can be overlapped with Channel Effects."
    "58", ":hwlabel:`SHIFT` + :hwlabel:`FX TAP`",              "Press to activate effects for headphones cue."
 
 
@@ -308,7 +308,7 @@ LEDs
 
 The Channel Volume Meters matches to the ones shown in Mixxx GUI. Only when clipping the red LED illuminates.
 
-The Master Volume Meter is not correlated to Mixxx GUI as the controller handles that in Hardware.
+The :hwlabel:`MASTER LEVEL` meter is not correlated to Mixxx GUI as the controller handles that in Hardware.
 
 Button LEDs are fully mapped for the first function. As you press and hold :hwlabel:`SHIFT` then the secondary functions have only got some flashing LEDs mapped, e.g. TAP and KEY SYNC, when activated.
 

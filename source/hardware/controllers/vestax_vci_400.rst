@@ -88,7 +88,7 @@ Some of the buttons have special functions in Mixxx:
     twisting this knob will move the loop left or right by 1 beat per
     click. Pushing this knob will enable or disable looping.
 5.  The Master FX button enables the 1st FX bank to be applied to the
-    master output.
+    main output.
 6.  The FX Mode button toggles which effect is in the first FX bank.
 7.  Controls FX1 Parameter 1
 8.  Controls FX1 Parameter 2
@@ -121,6 +121,6 @@ Note about VU Meters
 There’s a bug in the way that the VCI400 firmware works – although Mixxx
 can control the VU meters, the VCI’s internal soundcard always *also*
 controls the VU Meters. This can result in an odd flickering effect that
-looks strange. For this reason, the Master VU meters are disabled by
+looks strange. For this reason, the main VU meters are disabled by
 default. If you’ve installed the firmware that allows decks C and D to
 act as pass-through mixer channels, you may see flickering there too.

@@ -25,7 +25,7 @@ output (RCA) and HEADPHONE output (3.5mm jack).
 
 -  Open **Preferences > Sound Hardware**
 -  Select the **Output** tab
--  From the **Master** drop-down menu, select the audio interface, then
+-  From the **Main** drop-down menu, select the audio interface, then
    **Channels 1-2**
 -  From the **Headphones** drop-down menu, select the audio interface,
    then **Channels 3-4**
@@ -71,7 +71,7 @@ Controls not included in this mapping
 
 **Decks:**
 
-Sync = Sync lock SHIFT + SYNC = Sync master.
+Sync = Sync lock SHIFT + SYNC = Sync leader.
 
 Cue = Cue point SHIFT + CUE = Return to beginning of loaded song.
 

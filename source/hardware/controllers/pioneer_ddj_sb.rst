@@ -58,7 +58,7 @@ Volume, equalizers & filters
 
 Between the decks the usual faders, crossfader and EQ knobs can be found. A filter knob is also available.
 
-Knobs are available for the master and headphones level. These are functional but are not reflected in Mixxx, as they control the controller’s soundcard directly.
+Knobs are available for the main and headphones level. These are functional but are not reflected in Mixxx, as they control the controller’s soundcard directly.
 
 The filter fade button allows to use the crossfader in an innovative way that fades across songs through filtering instead of fading.
 
@@ -86,7 +86,7 @@ loop. This allows to return to the original pace of the track.
 Pads - lower row
 ~~~~~~~~~~~~~~~~
 
-The play and cue pads should be self-explaining. The sync pad toggles master sync for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the
+The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the
 tempo of one deck is changed.
 
 Additional functions can be accessed by holding shift

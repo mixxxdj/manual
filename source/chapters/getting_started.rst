@@ -178,11 +178,11 @@ Use these outputs if you are not using an :ref:`external hardware mixer
 <hardware-mixers>`. If you are using a controller with a built-in audio
 interface, use these outputs.
 
-* *Master*: all decks, samplers, microphones, and auxiliary inputs mixed
+* *Main*: all decks, samplers, microphones, and auxiliary inputs mixed
   together. This output is sent to the speakers for the audience.
 * *Headphones*: all decks, samplers, microphones, and auxiliary inputs
   assigned to :term:`pre-fader listening <PFL>`
-* *Booth*: same as Master output, but has a separate gain control
+* *Booth*: same as main output, but has a separate gain control
 
 **External mixing**:
 
@@ -203,7 +203,7 @@ using a controller with a built-in audio interface, use these inputs.
 **External mixing**:
 
 * *Record/Broadcast*: When this is configured, Mixxx will record and
-  broadcast from this audio interface input instead of the internal master
+  broadcast from this audio interface input instead of the internal main output
   mix. If you have a microphone plugged into the mixer, do not configure the
   Microphone 1-4 inputs.
 

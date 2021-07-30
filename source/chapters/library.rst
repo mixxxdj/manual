@@ -454,7 +454,7 @@ To pre-listen to a track, activate the :guilabel:`Preview` column in a library
 view. Clicking the |ic_lib_preview_play| icon in the library's
 :guilabel:`Preview` column loads the selected track into a special :ref:`Preview
 Deck <interface-preview-deck>` that will only output sound in the
-:ref:`headphones <interface-head-master>` channel. Click the
+:ref:`headphones <interface-head-main>` channel. Click the
 |ic_lib_preview_pause| icon to stop the playback.
 
 Alternatively, select a track from the track list of the Mixxx library, drag the

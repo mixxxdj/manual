@@ -111,7 +111,7 @@ Sync
 | Default: Momentary BPM Sync
 | \* Short Press: Momentary BPM & Phase Sync
 
--  Long Press: Toggle Master Sync (Sync Lock)
+-  Long Press: Toggle Sync Lock
 
 Shifted: Toggles magnet (quantize)
 

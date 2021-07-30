@@ -11,7 +11,7 @@ on-the-fly remixes.
 -  `Manual / Midi commands <http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1444/documents/MC4000%20-%20User%20Guide%20-%20v1.2_00.pdf>`__
 -  `Forum thread <https://mixxx.discourse.group/t/denon-mc4000-mapping/15311>`__
 
-The microphone and auxiliary inputs are mixed with the master output in
+The microphone and auxiliary inputs are mixed with the main output in
 hardware. They are not available to the computer through the MC4000’s
 sound card, so this controller’s sound card is not suitable for
 broadcasting or recording the inputs. You could use the controller with
@@ -102,11 +102,11 @@ where a specific functionality that exists in Serato is not (yet) implemented in
     The meters are not affected by the position of the Master Knob.
 33. **Mic Volume:** Adjust the input gain of the microphone.
     This adjusts the hardware microphone preamplifier, not Mixxx’s mic gain.
-    The microphone input is not available to the computer through the MC4000’s sound card; it is mixed with the master output in hardware.
+    The microphone input is not available to the computer through the MC4000’s sound card; it is mixed with the main output in hardware.
 34. **Mic Echo:** Toggle an echo effect on the microphone input. This effect is done in hardware, not in Mixxx.
 35. **Mic Talk Over / Post:** Toggle microphone talkover, which automatically reduces the volume of the music when using the microphone.
     Hold shift and press to toggle whether the microphone input is routed to the booth output.
     These controls are done by the MC4000 in hardware and do not affect Mixxx.
-36. **Master:** Adjust the master output level of the sound card. This does not affect the master gain in Mixxx.
+36. **Master:** Adjust the main output level of the sound card. This does not affect the main gain in Mixxx.
 37. **Booth:** Adjust the booth output level of the sound card. This does not affect anything in Mixxx.
 38. **Aux:** Adjust the auxiliary output level of the sound card. This does not affect anything in Mixxx.

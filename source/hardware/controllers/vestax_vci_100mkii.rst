@@ -59,7 +59,7 @@ pressed.** Changes after the previous version are in bold.
 33. **Enable #6 to control wet/dry mix of [Set next effect chain to] the
     EffectUnit**
 34. Slip mode (affect scratch, brake, pause, reverse, loop and hotcue)
-35. PFL [PFL solo] (if headphone mix is cue or master only then switch it)
+35. PFL [PFL solo] (if headphone mix is cue or main only then switch it)
 36. Enable EffectUnit1 [EffectUnit3] for the channel
 37. Enable EffectUnit2 [EffectUnit4] for the channel
 38. Up: previous **item** and scroll, Down: next **item** and scroll, Left:
@@ -109,7 +109,7 @@ Mapping for Mixxx 2.0
 32. Activate [Clear] hotcue3
 33. Activate [Clear] hotcue4
 34. Slip mode (affect scratch, loop and hotcue)
-35. PFL [PFL solo] (if headphone mix is cue or master only then switch it)
+35. PFL [PFL solo] (if headphone mix is cue or main only then switch it)
 36. Enable EffectUnit1 [EffectUnit3] for the channel
 37. Enable EffectUnit2 [EffectUnit4] for the channel
 38. Up: previous track and scroll, Down: next track and scroll, Left: load to
