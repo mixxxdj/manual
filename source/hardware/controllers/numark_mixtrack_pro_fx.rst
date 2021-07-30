@@ -220,7 +220,6 @@ There are more values to configure further in code:
 
 * **Auto-loop sizes** - see ``modeAutoloop``. Available values can be found on the :doc:`../../chapters/appendix/mixxx_controls` page (beatloop_X_toggle)
 * **Beatjump sizes** - see ``modeBeatjump``. Available values can be found on the :doc:`../../chapters/appendix/mixxx_controls` page (beatjump_X_forward)
-* **Jogwheel logic** - there were `reports <https://mixxx.discourse.group/t/numark-mixtrack-pro-fx/19561/30>`_ of unresponsive scratching (comparing with the original code from bad1dea5's mapping). At the end of the script there are two alternate versions of jogwheel logic - choose the one which works best for you. Default mapping is "A". Slightly modified jogwheel logic from bad1dea5's mapping is mapping "B". Do not enable both mappings at once.
 
 Notes
 -----
