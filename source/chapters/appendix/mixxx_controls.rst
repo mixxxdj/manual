@@ -284,6 +284,35 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    .. versionadded:: 2.0.0
 
+.. mixxx:control:: [Master],indicator_250millis
+
+   Alternates between 0.0 and 1.0 every 250 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [Master],indicator_500millis
+
+   Alternates between 0.0 and 1.0 every 500 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
 
 .. mixxx:control:: [Master],latency
 
