@@ -46,7 +46,6 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
 
    "6",  "Master level meter", "Displays the audio level going to the master output"
    "7", ":hwlabel:`LOAD`", "Load selected track"
-   "7", ":hwlabel:`SHIFT` + :hwlabel:`LOAD`", "Load selected track to the preview deck"
    "7", ":hwlabel:`·· INSTANT DOUBLES` (2x :hwlabel:`LOAD`)", "Load track from the opposite deck and seek to the same position. Deck cloning must be enabled in Mixxx settings (Settings -> Preferences -> Decks -> Double-press Load button to clone playing track)."
    "8",  ":hwlabel:`LEVEL`", "Adjust the pre-fader, pre-EQ audio level"
    "9",  ":hwlabel:`TREBLE`", "Adjust high frequencies"
