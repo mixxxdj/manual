@@ -156,39 +156,39 @@ Pads support secondary (shift) actions in most pad modes. 4 bottom pads with "sp
 
    "30", ":hwlabel:`CUE`", "Change pad mode to :term:`hotcues<hotcue>`.
 
-   Pad press: set hotcue if not set. If set, go to hotcue position and start playback
+   **Pad press**: set hotcue if not set. If set, go to hotcue position and start playback
 
-   :hwlabel:`SHIFT` + pad press: remove hotcue (if set)
+   :hwlabel:`SHIFT` **+ pad press**: remove hotcue (if set)
 
    Pad lights indicate if a particular hotcue is set or not."
    "30", ":hwlabel:`SHIFT` + :hwlabel:`CUE`", "Change pad mode to beatjump.
 
-   Pad press: beatjump forwards
+   **Pad press**: beatjump forwards
 
-   :hwlabel:`SHIFT` + pad press: beatjump backwards
+   :hwlabel:`SHIFT` **+ pad press**: beatjump backwards
 
    If loop is active, loop is moved forwards/backwards instead.
 
    Default beatjump values are: 1/16, 1/8, 1/4, 1/2, 1, 2, value set in Mixxx (4 by default), 8"
    "31", ":hwlabel:`AUTO LOOP`", "Change pad mode to auto-loop.
 
-   Pad press: activate auto-loop
+   **Pad press**: activate auto-loop
 
-   :hwlabel:`SHIFT` + pad press (hold): activate beatlooproll. When released, playback will resume where the track would have been if it had not entered the loop.
+   :hwlabel:`SHIFT` **+ pad press (hold)**: activate beatlooproll. When released, playback will resume where the track would have been if it had not entered the loop.
 
    Default auto-loop values are: 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8"
    "32", ":hwlabel:`FADER CUTS`", "Change pad mode to fader cuts
 
    This pad mode emulates rapid crossfader movements.
 
-   Pad press (hold): activate a fader cut. The crossfader will rapidly move in one of the 8 available patterns. The crossfader will return to the position of hardware crossfader after the pad is released.
+   **Pad press (hold)**: activate a fader cut. The crossfader will rapidly move in one of the 8 available patterns. The crossfader will return to the position of hardware crossfader after the pad is released.
 
    Note: this function is controlled by the hardware or firmware"
    "33", ":hwlabel:`SAMPLE`", "Change pad mode to sampler 1 (samples 1-8)
 
-   Pad press: play a sample
+   **Pad press**: play a sample
 
-   :hwlabel:`SHIFT` + pad press: stop sample playback"
+   :hwlabel:`SHIFT` **+ pad press**: stop sample playback"
    "33", ":hwlabel:`SHIFT` + :hwlabel:`SAMPLE`", "Change pad mode to sampler 2 (samples 9-16)"
    "34", "Performance pads", "Various functions, depending on selected pad mode"
    "34", ":hwlabel:`SHIFT` + Performance pads", "Various functions, depending on selected pad mode"
