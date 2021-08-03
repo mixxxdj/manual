@@ -179,9 +179,11 @@ Pads support secondary (shift) actions in most pad modes. 4 bottom pads with "sp
    Default auto-loop values are: 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8"
    "32", ":hwlabel:`FADER CUTS`", "Change pad mode to fader cuts
 
-   Pad press (hold): activate fader cut
+   This pad mode emulates rapid crossfader movements.
 
-   Note: this function is controlled by the hardware"
+   Pad press (hold): activate a fader cut. The crossfader will rapidly move in one of the 8 available patterns. The crossfader will return to the position of hardware crossfader after the pad is released.
+
+   Note: this function is controlled by the hardware or firmware"
    "33", ":hwlabel:`SAMPLE`", "Change pad mode to sampler 1 (samples 1-8)
 
    Pad press: play a sample
