@@ -20,6 +20,9 @@ See the tables below for controls descriptions.
 Misc
 ----
 
+..
+   TODO change "master output" to "main output"
+
 .. csv-table::
    :header: "#", "Name", "Function"
    :widths: 5 25 70
@@ -30,7 +33,7 @@ Misc
    "1", ":hwlabel:`SHIFT` + :hwlabel:`BROWSE` (press)", "Select item (collapse/extend tree branch or load track)"
    "2",  ":hwlabel:`MASTER`", "Adjust the volume level of :term:`master output`. Does not affect the microphone volume (adjusted separately with the :hwlabel:`MIC` knob)"
    "3",  ":hwlabel:`MIC`", "Adjust the volume level of microphone input. Note that the microphone input is mixed in hardware, so the corresponding :term:`GUI` knob does not reflect the hardware knob state."
-   "4",  ":hwlabel:`CUE MIX`", ":term:`Head/mix knob<Head/mix button>`. Adjust the audio output to the headphones, mixing between the cue output and the master mix output"
+   "4",  ":hwlabel:`CUE MIX`", ":term:`Head/mix knob<Head/mix button>`. Adjust the audio output to the headphones, mixing between the cue output and the main mix output"
    "5",  ":hwlabel:`CUE GAIN`", "Adjust the headphone volume"
    "15", "Crossfader", "Controls the mix between the two decks"
    "23", ":hwlabel:`BPM`", "Tap repeatedly to enter a new :term:`BPM` on both decks"
@@ -44,7 +47,7 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
    :header: "#", "Name", "Function"
    :widths: 5 25 70
 
-   "6",  "Master level meter", "Displays the audio level going to the master output"
+   "6",  "Main level meter", "Displays the audio level going to the main output"
    "7", ":hwlabel:`LOAD`", "Load selected track"
    "7", ":hwlabel:`·· INSTANT DOUBLES` (2x :hwlabel:`LOAD`)", "Load track from the opposite deck and seek to the same position. Deck cloning must be enabled in Mixxx settings (Settings -> Preferences -> Decks -> Double-press Load button to clone playing track)."
    "8",  ":hwlabel:`LEVEL`", "Adjust the pre-fader, pre-EQ audio level"
