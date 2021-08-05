@@ -1,9 +1,7 @@
 sphinx
 sphinx-intl
 graphviz
-m2r2
 markupsafe
-requests
 transifex-client
 sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme==0.5.2
