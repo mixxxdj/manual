@@ -3,7 +3,7 @@ Numark Mixtrack Pro FX
 
 `Manufacturer's product page <https://www.numark.com/product/mixtrack-pro-fx>`_ · `Manufacturer's user manual <https://cdn.inmusicbrands.com/Numark/vAC9uYWEnT/mtprfx/MixTrackProFX-UserGuide-v1.2.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-pro-fx/19561>`_
 
-.. versionadded:: 2.3
+.. versionadded:: 2.3.1
 
 Overview
 --------
