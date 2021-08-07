@@ -50,15 +50,16 @@ thread.
 User Variables
 ~~~~~~~~~~~~~~
 
-Please check the :file:`Denon-MC7000-scripts.js` mapping file for user variables to:
+User variables can be set to suit individual needs inside the :file:`Denon-MC7000-scripts.js` mapping file:
 
--  activate :ref:`experimental features <denon_mc7000_experimental>` (default: ``false``)
--  activate NeedleDrop sensor while a track is playing (default: ``false``)
--  set the Pitch Fader ranges in % to toggle between them (default: 4, 6, 8, 10, 16, 24, 50, 90)
--  Platter Ring LED mode: single LED on or off (default: 1). Can be toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
--  Vinyl Mode on or off at Mixxx start which also triggers the Platter Ring LED function (default: 1)
--  Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
--  Jog Sensitivity (default: 1)
+-  ``MC7000.experimental`` activate :ref:`experimental beat count feature <denon_mc7000_experimental>` (default: ``false``)
+-  ``MC7000.needleSearchPlay`` activate :hwlabel:`NEEDLE DROP` sensor while a track is playing (default: ``false``)
+-  ``MC7000.prevSamplerStop`` set to single play samplers (default: ``true``)
+-  ``MC7000.rateRanges`` set the available Pitch Fader ranges (default: 4, 6, 8, 10, 16, 24, 50, 90)
+-  ``MC7000.modeSingleLED`` set single LED on or off (default: 1). Can be toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
+-  ``MC7000.VinylModeOn`` set the Vinyl Mode on or off at Mixxx start which also triggers the Platter Ring LED function (default: 1)
+-  ``MC7000.scratchParams`` set Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
+-  ``MC7000.jogSensitivity`` set the Jog Sensitivity (default: 1)
 
 
 Mixer Section
@@ -245,7 +246,7 @@ Hot Cue Mode (blue LED)
 
 | Press one of the pad buttons to set or play a Hot Cue.
 | Use :hwlabel:`SHIFT` + pad button to delete an existing Hot Cue.
-| If :hwlabel:`SLIP` was active then after releasing the Hot Cue button the track continues as it had been playing forward the whole time. Slip mode stays enabled so you can continue with more actions in slip mode.
+| If :hwlabel:`SLIP` is active then press and hold a pad button to play from the Hot Cue position. After releasing the Hot Cue button the track continues as it had been playing forward the whole time. Slip mode stays enabled so you can continue with more actions in slip mode.
 
 .. figure:: ../../_static/controllers/denon_mc7000_cue_mode.svg
    :align: left
@@ -299,7 +300,7 @@ This mode lets you jump a number of beats while pushing a pad button once.
 | Press and hold ":hwlabel:`SHIFT`" and then push a pad button to jump even more beats.
 | 16, 32, 64 and 128 forward on the upper row and backwards on the lower row.
 
-.. note::
+.. hint::
    If experimental features were set to `true` in the :ref:`JavaScript file<denon_mc7000_uservariables>` then the pad LEDs counting the beat **after** the main CUE point.
 
 Sampler Mode (pink LED)
@@ -310,7 +311,7 @@ Sampler Mode (pink LED)
 | Add samplers to the sampler bank pushing a pad button.
 | If a sampler is loaded, then another push on the pad button will play the sampler from its Cue point.
 | Push the pad button again while playing will replay the sampler from Cue point.
-| When a sampler is started while another one is still playing, then the initial sampler stops and only the newly triggered sampler plays.
+| When a sampler is started while another one is still playing, then the initial sampler stops and only the newly triggered sampler plays (single play).
 
 Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sampler when stopped.
 
@@ -320,6 +321,9 @@ Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sam
    :figwidth: 100%
    :alt: Denon MC7000 SAMPLER Mode
    :figclass: pretty-figures
+
+.. hint::
+   To multi play triggered samplers at the same time you can set the user variable ``MC7000.prevSamplerStop`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>` to ``false``.
 
 .. _denon_mc7000_led:
 
