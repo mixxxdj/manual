@@ -203,7 +203,7 @@ Deck Section
    "43", ":hwlabel:`SHIFT` + :hwlabel:`</> PARAM 1 2`",    "Press to change the track color in the library."
    "44", ":hwlabel:`SLIP`",                                "Press to enable or disable Slip Mode. In Slip Mode, you can jump to cue points, trigger loops or use the platters, while the track’s timeline continues. In other words, when you deactivate Slip Mode, the track will resume normal playback from where it would have been if you had never done anything (i.e., as if the track had been playing forward the whole time).
 
-   After scratch, hot cue play and reverse play the slip mode releases itself so the timeline of the track jumps back to original position after the action is done. Slip mode reactivates itself after 250ms so you can continue with more actions in slip mode almost immediately after."
+   After scratch, hot cue play, reverse play and backspin the slip mode releases itself so the timeline of the track jumps back to original position after the action is done. Slip mode reactivates itself after 20ms so you can continue with more actions in slip mode almost immediately after."
    "45", ":hwlabel:`CENSOR`",                              "Press and hold this button to play the track in :hwlabel:`REVERSE`. When releasing the button, the track immediately starts playing from it's momentary position.
 
    If :hwlabel:`SLIP` was active then after releasing the :hwlabel:`CENSOR` button the track continues as it had been playing forward the whole time (:hwlabel:`CENSOR`). Slip mode stays enabled so you can continue with more actions in slip mode."
