@@ -7,6 +7,15 @@ on:
 jobs:
   update-changelog:
     name: Update Changelog
+    # This job fetches the `CHANGELOG.md` from the corresponding branch in the
+    # mixxxdj/mixxx repository and uses it to update the `version_history.rst`
+    # file. If the file was changed, the change is committed and a
+    # rebuild/redeployment of the manual is triggered.
+    #
+    # This job is not run on changes to the manual repo. Instead, it's
+    # triggered by a repository dispatch hook that gets triggered by a
+    # corresponding workflow in the mixxxdj/mixxx repository whenever the
+    # CHANGELOG.md is changed.
     runs-on: ubuntu-latest
     steps:
     - name: Event Information
