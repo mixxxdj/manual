@@ -23,6 +23,7 @@ TEMPLATE = """
 
 
 def fetch_changelog(branch):
+    """ Fetch CHANGELOG.md from branch of mixxxdj/mixxx repository. """
     r = requests.get(
         "https://raw.githubusercontent.com/mixxxdj/mixxx/"
         f"{branch}/CHANGELOG.md"
@@ -32,6 +33,7 @@ def fetch_changelog(branch):
 
 
 def changelog_to_rst(changelog):
+    """ Convert changelog to RST format used by sphinx. """
     # Replace headline with "Version History"
     changelog = re.sub(
         "^# Changelog$",
@@ -62,9 +64,11 @@ def main(argv=None):
     parser.add_argument("-b", "--branch", required=True)
     args = parser.parse_args(argv)
 
+    # Fetch changelog and convert to RST
     changelog = fetch_changelog(args.branch)
     changelog = changelog_to_rst(changelog)
 
+    # Write changelog to version_history.rst file
     path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
         "../source/chapters/appendix/version_history.rst",
