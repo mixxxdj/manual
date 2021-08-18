@@ -49,7 +49,9 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
 
    "6",  "Main level meter", "Displays the audio level going to the main output"
    "7", ":hwlabel:`LOAD`", "Load selected track"
-   "7", ":hwlabel:`·· INSTANT DOUBLES` (2x :hwlabel:`LOAD`)", "Load track from the opposite deck and seek to the same position. Deck cloning must be enabled in Mixxx settings (Settings -> Preferences -> Decks -> Double-press Load button to clone playing track)."
+   "7", ":hwlabel:`·· INSTANT DOUBLES`
+
+   (2x :hwlabel:`LOAD`)", "Load track from the opposite deck and seek to the same position. Deck cloning must be enabled in Mixxx settings (Settings -> Preferences -> Decks -> Double-press Load button to clone playing track)."
    "8",  ":hwlabel:`LEVEL`", "Adjust the pre-fader, pre-EQ audio level"
    "9",  ":hwlabel:`TREBLE`", "Adjust high frequencies"
    "10", ":hwlabel:`MID`", "Adjust middle frequencies"
@@ -82,7 +84,9 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
 
    If sync lock is enabled: disable sync lock"
    "27", ":hwlabel:`SYNC` (hold, then release)", "Enable :term:`sync lock`"
-   "27", ":hwlabel:`SYNC OFF` (:hwlabel:`SHIFT` + :hwlabel:`SYNC`)", "Toggle :term:`quantization`"
+   "27", ":hwlabel:`SYNC OFF`
+
+   (:hwlabel:`SHIFT` + :hwlabel:`SYNC`)", "Toggle :term:`quantization`"
    "28", ":hwlabel:`CUE`", "If track is playing: stops the track and resets position to the main cue point
 
    If playback is stopped: sets the main cue point"
@@ -95,17 +99,15 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
    If loop is enabled: disable loop"
    "35", ":hwlabel:`RELOOP`
 
-   (:hwlabel:`SHIFT` + :hwlabel:`LOOP`)", "If loop is disabled: enable loop, starting at old loop position. Jumps to loop start if current position is outside the loop.
-
-   If loop is enabled: disable loop"
+   (:hwlabel:`SHIFT` + :hwlabel:`LOOP`)", "Jump to loop IN point"
    "36", ":hwlabel:`1/2`", "Decrease loop size by half"
    "36", ":hwlabel:`IN`
 
-   (:hwlabel:`SHIFT` + :hwlabel:`1/2`)", "Set the loop in point"
+   (:hwlabel:`SHIFT` + :hwlabel:`1/2`)", "Set the loop IN point"
    "37", ":hwlabel:`x2`", "Double the loop size"
    "37", ":hwlabel:`OUT`
 
-   (:hwlabel:`SHIFT` + :hwlabel:`x2`)", "Set the loop out point"
+   (:hwlabel:`SHIFT` + :hwlabel:`x2`)", "Set the loop OUT point"
 
 .. hint::
    The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings. See :doc:`../../chapters/user_interface` for more info.
