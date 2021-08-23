@@ -8,7 +8,7 @@ Numark Mixtrack Pro FX
 Overview
 --------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_pro_fx.png
+.. figure:: ../../_static/controllers/numark_mixtrack_pro_fx.svg
    :align: center
    :width: 100%
    :figwidth: 100%
