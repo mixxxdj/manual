@@ -49,8 +49,6 @@ types, go to :ref:`file-format-compatibility`.
 --settingsPath PATH     Top-level directory where Mixxx will look for
                         user settings files such as the library database
                         and preferences configuration file.
---controllerDebug       Log all controller data Mixxx sends and receives
-                        as well as scripts it loads.
 --developer             Enable developer mode. Includes extra logs, stats
                         on performance and the Developer tools menu as
                         well as tooltips and logs useful for skin
@@ -88,18 +86,29 @@ types, go to :ref:`file-format-compatibility`.
                         full rebuild.
 -h, --help              Display this help message and exit
 
-Developer tools
-===============
+Categorized logging
+===================
 
-To start Mixxx in Developer mode from a custom resource directory with
-:term:`MIDI` and :term:`HID` logging enabled, type the following line into the
-terminal and hit return: ::
+Mixxx separates logging messages into categories which allows for filtering
+the messages logged to the console. Only some parts of Mixxx make use of this
+currently and more will move to this over time. Refer to the
+`Qt categorized
+logging <https://doc.qt.io/qt-5/qloggingcategory.html#logging-rules>`_
+documentation for details about how to set filter rules.
 
-  ./mixxx --controllerDebug --developer --resourcePath res
+For example, to show all debugging messages except those for controllers, run::
 
+  QT_LOGGING_RULES="controller.*.debug=false" ./mixxx --log-level debug
+
+To show debugging messages except for the incoming data from controllers, run::
+
+  QT_LOGGING_RULES="*.input.debug=false" ./mixxx --log-level debug
+
+This can be useful for controllers that continually send input data regardless
+of whether you are manipulating anything on the controller.
 
 Experiment modes for rapid development and testing
----------------------------------------------------
+==================================================
 
   * Adds a static Experiment class with a tri-state mode flag that indicates
     whether the experiment mode is OFF, BASE, or EXPERIMENT.
