@@ -254,7 +254,7 @@ Intro and Outro Cues
 Intro/Outro cues are used to mix in and out of tracks and they can also be :ref:`used with Auto DJ <djing-auto-dj-intro-outro>` to mix in and out at those points. Unlike :term:`hotcues<hotcue>`, they do not mark only one point.
 The into and outro are sections and each section is defined by two points.
 
-Mixxx detcts where the first and last sounds are when analyzing a track making it easy to stop playing
+Mixxx detects where the first and last sounds are when analyzing a track making it easy to stop playing
 silent parts at the beginning and at the end of the track. The analyzer places the intro start
 point at the first sound and the outro end point at the last sound.
 The first and last sounds are determined by the first time the signal rises above -60 dBFS and the

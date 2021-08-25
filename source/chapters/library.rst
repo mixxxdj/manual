@@ -185,6 +185,10 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   much easier categorization of tracks without going through the menu from
   scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
 
+* **Select Color**
+  Assign a color to all selected tracks to indicate mood, energy etc.
+  Select the black button at the top left to remove the color.
+
 * **Metadata**:
     * **Import from File Tags**: If the track's :term:`metadata` changes,
       (e.g. if you used iTunes to edit it,) this option lets you save the new

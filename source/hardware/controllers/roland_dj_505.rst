@@ -97,8 +97,8 @@ No.       Control                                             Function
 1         :hwlabel:`LOAD` buttons                             Load song into deck.
 1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (left)    Sort library by BPM (press repeatedly to toggle ascending/descending order).
 1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (right)   Sort library by key (press repeatedly to toggle ascending/descending order).
-2         Rotary Selector                                     Turn to move tracklist cursor up/down. Press to toggle the selected item.
-2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to move sidebar cursor up/down.
+2         Rotary Selector                                     Turn to move tracklist cursor up/down. Press to load and play/pause currently selected track on preview deck. Hold and turn to seek in track on preview deck.
+2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to move sidebar cursor up/down. Hold and turn to change track color of currently selected track.
 3         :hwlabel:`BACK` button                              *Not yet mapped.*
 3         :hwlabel:`SHIFT` + :hwlabel:`BACK` button           Sort library by title (press repeatedly  to toggle ascending/descending order).
 4         :hwlabel:`ADD PREPARE` button                       (Un-)Maximizes the library view.
