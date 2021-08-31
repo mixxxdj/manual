@@ -43,17 +43,7 @@ output (RCA) and HEADPHONE output (3.5mm jack).
    both the gain on the controller’s sound card and in Mixxx.
 
 Mapping description
-~~~~~~~~~~~~~~~~~~~
-
-Controls not included in this mapping
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  Master knob (Hardware control)
--  Headphone knob (Hardware control)
--  Master buttons (Hardware control)
--  Beatmatch guide (Hardware control)
--  PADS: Slicer/Slicer Loop
--  PADS: Toneplay
+-------------------
 
 Decks
 ~~~~~
@@ -146,9 +136,12 @@ Pad 8                                                            Toggle Effect U
 ===============================================================  ==========================================
 
 .. note::
+   Firmware update is required for pads to work correctly in FX Mode.
+
    When using **Firmware v1.68** and earlier, each FX pad will
-   send multiple and different Note and CC messages. It is recommended to apply **Firmware
-   v1.72** update, that will patch each FX pad to send a simple Note On/Note Off (as is the case
+   send multiple and different Note and CC messages.
+   This issue was fixed in **Firmware v1.72** update,
+   that will patch each FX pad to send a simple Note On/Note Off.
 
    For more details about `updating the
    Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
@@ -174,3 +167,16 @@ Pad 3 - 4                                                        Jump backward/f
 Pad 5 - 6                                                        Jump backward/forward by 4 beats.
 Pad 7 - 8                                                        Jump backward/forward by 8 beats.
 ===============================================================  ==========================================
+
+Known issues
+------------
+
+Controls not included in this mapping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Master knob (Hardware control)
+-  Headphone knob (Hardware control)
+-  Master buttons (Hardware control)
+-  Beatmatch guide (Hardware control)
+-  PADS: Slicer/Slicer Loop
+-  PADS: Toneplay
