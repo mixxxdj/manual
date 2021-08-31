@@ -993,6 +993,10 @@ hotcues and the beatgrids), and removes links to playlists or crates.
 #. To confirm you want to permanently remove these tracks from the library,
    click :guilabel:`Purge`.
 
+.. hint:: If you want to hide or purge only tracks from a specific folder you may use
+          the ``location:`` :ref:`search operator <library-finding-tracks>`, or
+          :ref:`sort the table <library-tracks>` by "Location".
+
 .. hint:: If you later decide to add some of the deleted tracks back, import
           them to the Mixxx library again, see :ref:`configuration-import`.
 
