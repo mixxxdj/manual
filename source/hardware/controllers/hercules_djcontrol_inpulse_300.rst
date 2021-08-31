@@ -136,10 +136,13 @@ FX Mode
 Control                                                          Function
 ===============================================================  ==========================================
 Pad 1 - 3                                                        Toggle Effect 1 - 3.
-Pad 4 (deck A)                                                   Toggle Effect Rack 1 for Deck A.
-Pad 4 (deck B)                                                   Toggle Effect Rack 2 for Deck B.
-Shift + Pad 4 (deck A)                                           Toggle Effect Rack 1 for Deck B.
-Shift + Pad 4 (deck B)                                           Toggle Effect Rack 1 for Deck A.
+Pad 5 - 7                                                        Cycle to the next effect for Effect 1 - 3.
+Pad 4                                                            Toggle Effect Unit 1.
+Pad 8                                                            Toggle Effect Unit 2.
+:hwlabel:`Shift` + Pad 1 - 3                                     Toggle Effect 1 - 3. (Effect Unit 3 / 4 for deck A / B)
+:hwlabel:`Shift` + Pad 5 - 7                                     Cycle to the next effect for Effect 1 - 3 (Effect Unit 3 / 4 for deck A / B).
+:hwlabel:`Shift` + Pad 4                                         Toggle Effect Unit 3.
+:hwlabel:`Shift` + Pad 8                                         Toggle Effect Unit 4.
 ===============================================================  ==========================================
 
 .. note::
