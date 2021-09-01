@@ -11,4 +11,4 @@ Appendix
    appendix/commandline_dev_tools
    appendix/mixxx_controls
    appendix/additional_resources
-   appendix/version_history
+   appendix/changelog

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import argparse
 import os
-import re
 
 import m2r2
 import requests
@@ -13,7 +12,7 @@ TEMPLATE = """
 
 .. include:: /shortcuts.rstext
 
-.. _appendix-version-history:
+.. _appendix-changelog:
 
 {content}
 
@@ -34,14 +33,6 @@ def fetch_changelog(branch):
 
 def changelog_to_rst(changelog):
     """ Convert changelog to RST format used by sphinx. """
-    # Replace headline with "Version History"
-    changelog = re.sub(
-        "^# Changelog$",
-        "# Version History",
-        changelog,
-        flags=re.MULTILINE | re.IGNORECASE,
-    )
-
     return TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
 
 
@@ -54,10 +45,10 @@ def main(argv=None):
     changelog = fetch_changelog(args.branch)
     changelog = changelog_to_rst(changelog)
 
-    # Write changelog to version_history.rst file
+    # Write changelog to changelog.rst file
     path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
-        "../source/chapters/appendix/version_history.rst",
+        "../source/chapters/appendix/changelog.rst",
     )
     with open(path, mode="w") as fp:
         fp.write(changelog)
