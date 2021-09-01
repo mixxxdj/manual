@@ -17,6 +17,14 @@ under Windows, please install the latest driver package available from
 the `Support
 page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__.
 
+.. note::
+   Firmware upgrade (v1.72) is required for pads to work correctly in **FX Mode**.
+
+   When using **Firmware v1.68** and earlier, pads in FX Mode will not work as expected.
+
+   For more details about `upgrading the
+   Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
+
 Sound card setup
 ----------------
 
@@ -134,17 +142,6 @@ Pad 8                                                            Toggle Effect U
 :hwlabel:`Shift` + Pad 4                                         Toggle Effect Unit 3.
 :hwlabel:`Shift` + Pad 8                                         Toggle Effect Unit 4.
 ===============================================================  ==========================================
-
-.. note::
-   Firmware update is required for pads to work correctly in FX Mode.
-
-   When using **Firmware v1.68** and earlier, each FX pad will
-   send multiple and different Note and CC messages.
-   This issue was fixed in **Firmware v1.72** update,
-   that will patch each FX pad to send a simple Note On/Note Off.
-
-   For more details about `updating the
-   Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
 
 Sampler Mode
 ^^^^^^^^^^^^
