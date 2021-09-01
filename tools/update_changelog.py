@@ -42,20 +42,6 @@ def changelog_to_rst(changelog):
         flags=re.MULTILINE | re.IGNORECASE,
     )
 
-    # Ensure that all launchpad issues are hyperlinks
-    changelog = re.sub(
-        r"(?!\[)\blp:?(?P<lpid>\d+)\b(?!\])",
-        r"[lp:\g<lpid>](https://bugs.launchpad.net/mixxx/+bug/\g<lpid>)",
-        changelog,
-    )
-
-    # Ensure that all GitHub PRs are hyperlinks
-    changelog = re.sub(
-        r"(?!\[)#\b(?P<ghid>\d+)\b(?!\])",
-        r"[#\g<ghid>](https://github.com/mixxxdj/mixxx/pull/\g<ghid>)",
-        changelog,
-    )
-
     return TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
 
 
