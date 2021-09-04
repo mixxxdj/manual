@@ -99,7 +99,9 @@ Each of those controls exists in both :term:`decks<deck>` and affects only the c
    If loop is enabled: disable loop"
    "35", ":hwlabel:`RELOOP`
 
-   (:hwlabel:`SHIFT` + :hwlabel:`LOOP`)", "Jump to loop IN point"
+   (:hwlabel:`SHIFT` + :hwlabel:`LOOP`)", "If loop is enabled: jump to loop IN point and stop playback
+
+   If loop is disabled: enable loop, without moving it"
    "36", ":hwlabel:`1/2`", "Decrease loop size by half"
    "36", ":hwlabel:`IN`
 
