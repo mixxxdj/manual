@@ -232,10 +232,9 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
     * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
       200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
-      the tracks. If many of the detected BPM values are incorrect, you might
-      want to adjust the :guilabel:`BPM Range` in the
-      :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
-      analysis.
+      the tracks. If many of the detected BPM values are incorrect, you may try
+      other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
+      and re-run the analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
@@ -498,9 +497,13 @@ Manual Edit
 -----------
 
 **Track Inline editing**:
-  Double-click on a field in the :ref:`library <library-tracks>`. If the field is
-  editable, it will become an editable text box. Enter a value and hit
-  :kbd:`Enter` when you are done.
+  To enable inline editing in the :ref:`library <library-tracks>` go to
+  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  "Edit metadata after clicking selected track".
+
+  Select any track in the :ref:`library <library-tracks>` and click on the
+  field you want to edit. If the field is editable, it will become an editable
+  text box. Enter a value and hit :kbd:`Enter` when you are done.
 
   .. figure:: ../_static/Mixxx-200-Library-Inline-edit.png
      :align: center
@@ -512,8 +515,12 @@ Manual Edit
      Mixxx library - Inline editing
 
 **Properties editor**:
-  Click on a **single track** in the library and select :guilabel:`Properties`
-  to open the editor. Add or change values in the editable fields, and save your
+  To open the editor right-click on a **single track** in the library or any track
+  label in decks or samplers, then select :guilabel:`Properties` in the track menu.
+  You can also double-click any track label in the decks or samplers to open the
+  editor directly.
+
+  Add or change values in the editable fields, and save your
   changes as explained below.
 
   .. figure:: ../_static/Mixxx-200-Library-Properties-Editor.png
@@ -992,6 +999,10 @@ hotcues and the beatgrids), and removes links to playlists or crates.
    button.
 #. To confirm you want to permanently remove these tracks from the library,
    click :guilabel:`Purge`.
+
+.. hint:: If you want to hide or purge only tracks from a specific folder you may use
+          the ``location:`` :ref:`search operator <library-finding-tracks>`, or
+          :ref:`sort the table <library-tracks>` by "Location".
 
 .. hint:: If you later decide to add some of the deleted tracks back, import
           them to the Mixxx library again, see :ref:`configuration-import`.

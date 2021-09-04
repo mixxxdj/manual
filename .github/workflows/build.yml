@@ -6,12 +6,14 @@ on:
     branches:
     - "main"
     - "[0-9]+.[0-9]+"
+  repository_dispatch:
+    types: rebuild
 
 jobs:
   build-html:
     name: HTML
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -62,7 +64,7 @@ jobs:
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
     - name: Set up SSH Agent
-      if: github.event_name == 'push' && env.SSH_PRIVATE_KEY != null
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_PRIVATE_KEY != null
       env:
         SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         SSH_PRIVATE_KEY: ${{ secrets.DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY }}
@@ -74,15 +76,15 @@ jobs:
         ssh-keyscan "${SSH_HOST}" >> "${HOME}/.ssh/known_hosts"
         echo "SSH_AUTH_SOCK=${SSH_AUTH_SOCK}" >> "${GITHUB_ENV}"
     - name: Build PDF manual
-      if: github.event_name != 'push' || env.SSH_AUTH_SOCK == null
+      if: (github.event_name != 'push' || github.event_name != 'repository_dispatch') && env.SSH_AUTH_SOCK == null
       run: |
         sphinx-build -b latex -q -j $(nproc) -Dlatex_engine=xelatex source build
         make -C build LATEXMKOPTS="-f -interaction=nonstopmode -pdf -xelatex" all-pdf
     - name: Build PDF manual in all languages
-      if: github.event_name == 'push' && env.SSH_AUTH_SOCK != null
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_AUTH_SOCK != null
       run: sh build_pdf.sh
     - name: Deploy PDF manuals to download server
-      if: github.event_name == 'push' && env.SSH_AUTH_SOCK != null
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_AUTH_SOCK != null
       run: rsync --verbose --recursive --checksum --times --delay-updates "build/pdf/" "${SSH_USER}@${SSH_HOST}:${DESTDIR}/"
       env:
         DESTDIR: public_html/downloads/manual

@@ -1,0 +1,55 @@
+name: Changelog
+
+on:
+  repository_dispatch:
+    types: update-changelog
+
+jobs:
+  update-changelog:
+    name: Update Changelog
+    # This job fetches the `CHANGELOG.md` from the corresponding branch in the
+    # mixxxdj/mixxx repository and uses it to update the `version_history.rst`
+    # file. If the file was changed, the change is committed and a
+    # rebuild/redeployment of the manual is triggered.
+    #
+    # This job is not run on changes to the manual repo. Instead, it's
+    # triggered by a repository dispatch hook that gets triggered by a
+    # corresponding workflow in the mixxxdj/mixxx repository whenever the
+    # CHANGELOG.md is changed.
+    runs-on: ubuntu-latest
+    steps:
+    - name: Event Information
+      run: echo "Event '${{ github.event.action }}' received from '${{ github.event.client_payload.repository }}'"
+    - name: Check out repository
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.client_payload.branch }}
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install Python dependencies
+      run: pip install -r requirements-changelog.txt
+    - name: Update Changelog
+      run: tools/update_changelog.py -b "${{ github.event.client_payload.branch }}"
+    - name: Check if changes any changes were made
+      run: echo "GIT_DIRTY=$(git diff --quiet ; printf "%d" "$?")" >> "${GITHUB_ENV}"
+    - uses: EndBug/add-and-commit@v7
+      if: env.GIT_DIRTY != null && env.GIT_DIRTY != '0'
+      with:
+        branch: ${{ github.event.client_payload.branch }}
+        add: "source/chapters/appendix/version_history.rst"
+        message: "appendix/version_history: Update changelog for ${{ github.event.client_payload.branch }} branch"
+        author_name: mixxxbot
+        author_email: bot@mixxx.org
+        push: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Trigger Rebuild
+      uses: peter-evans/repository-dispatch@v1
+      if: env.GIT_DIRTY != null && env.GIT_DIRTY != '0' && env.MIXXXBOT_TOKEN != null
+      with:
+        token: ${{ env.MIXXXBOT_TOKEN }}
+        event-type: rebuild
+      env:
+        MIXXXBOT_TOKEN: ${{ secrets.MIXXXBOT_CHANGELOG_AUTOUPDATER_PAT }}
