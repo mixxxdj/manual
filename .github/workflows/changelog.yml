@@ -8,7 +8,7 @@ jobs:
   update-changelog:
     name: Update Changelog
     # This job fetches the `CHANGELOG.md` from the corresponding branch in the
-    # mixxxdj/mixxx repository and uses it to update the `version_history.rst`
+    # mixxxdj/mixxx repository and uses it to update the `changelog.rst`
     # file. If the file was changed, the change is committed and a
     # rebuild/redeployment of the manual is triggered.
     #
@@ -38,8 +38,8 @@ jobs:
       if: env.GIT_DIRTY != null && env.GIT_DIRTY != '0'
       with:
         branch: ${{ github.event.client_payload.branch }}
-        add: "source/chapters/appendix/version_history.rst"
-        message: "appendix/version_history: Update changelog for ${{ github.event.client_payload.branch }} branch"
+        add: "source/chapters/appendix/changelog.rst"
+        message: "appendix/changelog: Update changelog for ${{ github.event.client_payload.branch }} branch"
         author_name: mixxxbot
         author_email: bot@mixxx.org
         push: true
