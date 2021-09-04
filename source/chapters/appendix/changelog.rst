@@ -1,9 +1,9 @@
 .. include:: /shortcuts.rstext
 
-.. _appendix-version-history:
+.. _appendix-changelog:
 
-Version History
-===============
+Changelog
+=========
 
 2.3.0
 -----
