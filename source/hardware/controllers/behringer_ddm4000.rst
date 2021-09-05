@@ -42,12 +42,11 @@ Configure the affected mixer sections as MIDI controller:
 
 #. Long press the :hwlabel:`CONSOLE SETUP` knob
 #. Select ``MIDI SETTINGS`` by turning and pressing the :hwlabel:`CONSOLE SETUP` knob
-#. Enable MIDI for the following sections:
-   * Microphone
-   * Crossfader
-   * Sampler
-   * Channel 1
-   * Channel 4
+#. Enable MIDI for all sections:
+    * Microphone
+    * Crossfader
+    * Sampler
+    * Channel 1 - 4
 #. Press the :hwlabel:`ESC` button to exit MIDI Setup
 #. To make the change persistent, save the settings in a user preset.
    See the controller manual for details.
