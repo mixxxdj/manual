@@ -152,7 +152,9 @@ Library Section
    "51", ":hwlabel:`L.PREP`",                         "Press to load the currently selected track to the Preview Deck."
    "51", ":hwlabel:`SHIFT` + :hwlabel:`L.PREP`",      "Press to start and stop playing the track in Preview Deck."
    "51", ":hwlabel:`SORT` + :hwlabel:`L.PREP`",       "Press to sort the tracks by their Key."
-   "52", ":hwlabel:`FILES`",                          "Press to maximise the library. Press this button again to exit maximised library."
+   "52", ":hwlabel:`FILES`",                          "Press to maximise the library. Press this button again to exit maximised library.
+
+   While the library is maximized you can use the jog wheel to navigate quickly through lists."
    "52", ":hwlabel:`SORT` + :hwlabel:`FILES`",        "Press to sort the tracks by Artist."
    "53", ":hwlabel:`PANEL`",                          "Press to open and close the FX panel inside the GUI."
    "53", ":hwlabel:`SORT` + :hwlabel:`PANEL`",        "Press to sort the tracks by Title."
@@ -181,7 +183,9 @@ Deck Section
 
    When the :hwlabel:`VINYL` button is lit, move the platter to 'scratch' the track as you would with a vinyl record.
 
-   When the :hwlabel:`VINYL` button is unlit (or if you are touching only the side of the platter), move the platter to temporarily adjust the track’s speed."
+   When the :hwlabel:`VINYL` button is unlit (or if you are touching only the side of the platter), move the platter to temporarily adjust the track’s speed.
+
+   If the library is maximized (use :hwlabel:`FILES` button) then turning the jog wheel will quickly navigate through the actual playlist or crate. No interaction is done with the current playing track. Be careful though, after exit the maximized library view the jog wheel will immediately return to jog or scratch mode."
    "28", ":hwlabel:`SHIFT` + Jog Wheel",                   "Navigates quickly through the track. This only applies if touching the side of the platter or with :hwlabel:`VINYL` deactivated."
    "29", ":hwlabel:`STOP TIME`",                           "Controls the rate at which the track slows to a complete stop ('brake time') during backspin. This also affects how quickly the track starts after a backspin ('Soft Start')."
    "30", ":hwlabel:`VINYL`",                               "Press to activate/deactivate a 'vinyl mode' for the platter. When activated, you can use the platter to 'scratch' the track as you would with a vinyl record."
@@ -218,6 +222,9 @@ Deck Section
 
 .. hint::
    The jog sensitivity and scratch parameters (28), the default vinyl mode (30), the pitch fader ranges (32) as well as the needle drop activity (54) can be set by modifying the variables inside the :ref:`JavaScript file<denon_mc7000_uservariables>` accordingly.
+
+.. note::
+   Use :hwlabel:`SHIFT` + :hwlabel:`CENSOR` or :hwlabel:`SHIFT` + jog wheel side for a backspin while :hwlabel:`SLIP` is active. Backspin using the platter is only possible while :hwlabel:`SLIP` is disabled.
 
 .. _denon_mc7000_pad:
 
