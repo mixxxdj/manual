@@ -7,7 +7,7 @@ The Denon MC7000 is a professional DJ controller which has got 4-channel capabil
 .. versionchanged:: 2.3.0
    Fixed a vinyl mode bug on deck 4 and added new features, like library sorting, searching through track with jog wheel, ejecting track from deck, waveform zoom, fixed loops and an experimental beat counter (slicer-like) and improved parameter and censor/reverse/spinback button mappings.
 .. versionchanged:: 2.3.1
-   Some minor improvements for slip mode, samplers and rate range toggle.
+   Some improvements for slip mode, sampler play and rate range toggle. Added browsing through library using jog wheel.
 
 Useful links
 ~~~~~~~~~~~~
@@ -152,7 +152,7 @@ Library Section
    "51", ":hwlabel:`L.PREP`",                         "Press to load the currently selected track to the Preview Deck."
    "51", ":hwlabel:`SHIFT` + :hwlabel:`L.PREP`",      "Press to start and stop playing the track in Preview Deck."
    "51", ":hwlabel:`SORT` + :hwlabel:`L.PREP`",       "Press to sort the tracks by their Key."
-   "52", ":hwlabel:`FILES`",                          "Press to maximise the library. Press this button again to exit maximised library.
+   "52", ":hwlabel:`FILES`",                          "Press to maximize the library. Press this button again to exit maximized library.
 
    While the library is maximized you can use the jog wheel to navigate quickly through lists."
    "52", ":hwlabel:`SORT` + :hwlabel:`FILES`",        "Press to sort the tracks by Artist."
@@ -185,7 +185,7 @@ Deck Section
 
    When the :hwlabel:`VINYL` button is unlit (or if you are touching only the side of the platter), move the platter to temporarily adjust the track’s speed.
 
-   If the library is maximized (use :hwlabel:`FILES` button) then turning the jog wheel will quickly navigate through the actual playlist or crate. No interaction is done with the current playing track. Be careful though, after exit the maximized library view the jog wheel will immediately return to jog or scratch mode."
+   If the library is maximized (use :hwlabel:`FILES` button) turning the jog wheel will scroll the current table view (currently playing track is not affected). Be careful though: after exiting the maximized library view the jog wheel will immediately return to jog or scratch mode."
    "28", ":hwlabel:`SHIFT` + Jog Wheel",                   "Navigates quickly through the track. This only applies if touching the side of the platter or with :hwlabel:`VINYL` deactivated."
    "29", ":hwlabel:`STOP TIME`",                           "Controls the rate at which the track slows to a complete stop ('brake time') during backspin. This also affects how quickly the track starts after a backspin ('Soft Start')."
    "30", ":hwlabel:`VINYL`",                               "Press to activate/deactivate a 'vinyl mode' for the platter. When activated, you can use the platter to 'scratch' the track as you would with a vinyl record."
@@ -207,7 +207,7 @@ Deck Section
    "43", ":hwlabel:`SHIFT` + :hwlabel:`</> PARAM 1 2`",    "Press to change the track color in the library."
    "44", ":hwlabel:`SLIP`",                                "Press to enable or disable Slip Mode. In Slip Mode, you can jump to cue points, trigger loops or use the platters, while the track’s timeline continues. In other words, when you deactivate Slip Mode, the track will resume normal playback from where it would have been if you had never done anything (i.e., as if the track had been playing forward the whole time).
 
-   After scratch, hot cue play, reverse play and backspin the slip mode releases itself so the timeline of the track jumps back to original position after the action is done. Slip mode reactivates itself after 20ms so you can continue with more actions in slip mode almost immediately after."
+   After scratch, hot cue play, reverse play and backspin the slip mode releases itself so the timeline of the track jumps back to original position after the action is done. Slip mode reactivates itself after 50ms so you can continue with more actions in slip mode almost immediately after."
    "45", ":hwlabel:`CENSOR`",                              "Press and hold this button to play the track in :hwlabel:`REVERSE`. When releasing the button, the track immediately starts playing from it's momentary position.
 
    If :hwlabel:`SLIP` was active then after releasing the :hwlabel:`CENSOR` button the track continues as it had been playing forward the whole time (:hwlabel:`CENSOR`). Slip mode stays enabled so you can continue with more actions in slip mode."
@@ -224,7 +224,7 @@ Deck Section
    The jog sensitivity and scratch parameters (28), the default vinyl mode (30), the pitch fader ranges (32) as well as the needle drop activity (54) can be set by modifying the variables inside the :ref:`JavaScript file<denon_mc7000_uservariables>` accordingly.
 
 .. note::
-   Use :hwlabel:`SHIFT` + :hwlabel:`CENSOR` or :hwlabel:`SHIFT` + jog wheel side for a backspin while :hwlabel:`SLIP` is active. Backspin using the platter is only possible while :hwlabel:`SLIP` is disabled.
+   Use :hwlabel:`SHIFT` + :hwlabel:`CENSOR` for a backspin while :hwlabel:`SLIP` is active. Backspin using the platter is only possible while :hwlabel:`SLIP` is disabled.
 
 .. _denon_mc7000_pad:
 
