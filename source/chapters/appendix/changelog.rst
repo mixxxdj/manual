@@ -44,6 +44,7 @@ Music Library
   `#3181 <https://github.com/mixxxdj/mixxx/pull/3181>`_
   `#3213 <https://github.com/mixxxdj/mixxx/pull/3213>`_
   `#2796 <https://github.com/mixxxdj/mixxx/pull/2796>`_
+  `#4207 <https://github.com/mixxxdj/mixxx/pull/4207>`_
 * Add recent searches to a drop down menu of the search box
   `#3171 <https://github.com/mixxxdj/mixxx/pull/3171>`_
   `#3262 <https://github.com/mixxxdj/mixxx/pull/3262>`_
@@ -69,6 +70,7 @@ Music Library
 * Update library schema to 37 for synchronizing file modified time with track source on metadata import/export
   `#3978 <https://github.com/mixxxdj/mixxx/pull/3978>`_
   `#4012 <https://github.com/mixxxdj/mixxx/pull/4012>`_
+* Logging: Suppress expected and harmless schema migration errors `#4248 <https://github.com/mixxxdj/mixxx/pull/4248>`_
 * Only show the date in Date Added / Last Played columns. Move the time of day to tooltips `#3945 <https://github.com/mixxxdj/mixxx/pull/3945>`_
 * Fix handling of undefined BPM values
   `#4062 <https://github.com/mixxxdj/mixxx/pull/4062>`_
@@ -79,6 +81,8 @@ Music Library
   `#4168 <https://github.com/mixxxdj/mixxx/pull/4168>`_
 * Add support for m4v files `#4088 <https://github.com/mixxxdj/mixxx/pull/4088>`_
 * Adjust ReplayGain: Allow user to update the replaygain value based on a deck pregain value `#4031 <https://github.com/mixxxdj/mixxx/pull/4031>`_
+* Automatic analyze and optimize database `#4199 <https://github.com/mixxxdj/mixxx/pull/4199>`_
+* Fix playlists sidebar navigation/activation `#4193 <https://github.com/mixxxdj/mixxx/pull/4193>`_ `lp:1939082 <https://bugs.launchpad.net/mixxx/+bug/1939082>`_
 * Refactoring of library code
   `#2756 <https://github.com/mixxxdj/mixxx/pull/2756>`_
   `#2717 <https://github.com/mixxxdj/mixxx/pull/2717>`_
@@ -92,6 +96,8 @@ Music Library
   `#4164 <https://github.com/mixxxdj/mixxx/pull/4164>`_
   `#4152 <https://github.com/mixxxdj/mixxx/pull/4152>`_
   `#4162 <https://github.com/mixxxdj/mixxx/pull/4162>`_
+  `#4101 <https://github.com/mixxxdj/mixxx/pull/4101>`_
+  `#4214 <https://github.com/mixxxdj/mixxx/pull/4214>`_
 
 Sync
 ^^^^
@@ -146,6 +152,12 @@ Audio Engine
   `#4099 <https://github.com/mixxxdj/mixxx/pull/4099>`_
   `#4071 <https://github.com/mixxxdj/mixxx/pull/4071>`_
   `#4184 <https://github.com/mixxxdj/mixxx/pull/4184>`_
+  `#4234 <https://github.com/mixxxdj/mixxx/pull/4234>`_
+  `#4233 <https://github.com/mixxxdj/mixxx/pull/4233>`_
+  `#4258 <https://github.com/mixxxdj/mixxx/pull/4258>`_
+  `#4259 <https://github.com/mixxxdj/mixxx/pull/4259>`_
+  `#4263 <https://github.com/mixxxdj/mixxx/pull/4263>`_
+  `#4272 <https://github.com/mixxxdj/mixxx/pull/4272>`_
 * Refactoring of audio engine code
   `#2762 <https://github.com/mixxxdj/mixxx/pull/2762>`_
   `#2801 <https://github.com/mixxxdj/mixxx/pull/2801>`_
@@ -175,6 +187,17 @@ Audio Engine
   `#4105 <https://github.com/mixxxdj/mixxx/pull/4105>`_
   `#4183 <https://github.com/mixxxdj/mixxx/pull/4183>`_
   `#4186 <https://github.com/mixxxdj/mixxx/pull/4186>`_
+  `#4189 <https://github.com/mixxxdj/mixxx/pull/4189>`_
+  `#4216 <https://github.com/mixxxdj/mixxx/pull/4216>`_
+  `#4221 <https://github.com/mixxxdj/mixxx/pull/4221>`_
+  `#4219 <https://github.com/mixxxdj/mixxx/pull/4219>`_
+  `#4191 <https://github.com/mixxxdj/mixxx/pull/4191>`_
+  `#4232 <https://github.com/mixxxdj/mixxx/pull/4232>`_
+  `#4231 <https://github.com/mixxxdj/mixxx/pull/4231>`_
+  `#4229 <https://github.com/mixxxdj/mixxx/pull/4229>`_
+  `#4257 <https://github.com/mixxxdj/mixxx/pull/4257>`_
+  `#4266 <https://github.com/mixxxdj/mixxx/pull/4266>`_
+  `#4217 <https://github.com/mixxxdj/mixxx/pull/4217>`_
 
 Controllers
 ^^^^^^^^^^^
@@ -187,6 +210,7 @@ Controllers
 * Use hidapi's hidraw backend instead of libusb on Linux `#4054 <https://github.com/mixxxdj/mixxx/pull/4054>`_
 * Consistently use "mapping" instead of "preset" to refer to controller mappings `#3472 <https://github.com/mixxxdj/mixxx/pull/3472>`_
 * Introduce new control objects ``[Master],indicator_250millis`` and ``[Master],indicator_500millis`` `#4157 <https://github.com/mixxxdj/mixxx/pull/4157>`_
+* Don't automatically enable controller if it was disabled before `#4244 <https://github.com/mixxxdj/mixxx/pull/4244>`_ `lp:1941042 <https://bugs.launchpad.net/mixxx/+bug/1941042>`_
 * Roland DJ-505: Use new ControlIndicator COs for blinking lights `#4159 <https://github.com/mixxxdj/mixxx/pull/4159>`_
 * Prepare code for upcoming ES6 based controller mapping system with module support
   `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`_
@@ -257,6 +281,7 @@ Skins
   `#3918 <https://github.com/mixxxdj/mixxx/pull/3918>`_
   `#3939 <https://github.com/mixxxdj/mixxx/pull/3939>`_
 * Inverted scroll wheel waveform zoom direction to mach other applications `#4195 <https://github.com/mixxxdj/mixxx/pull/4195>`_
+* Fix leaked controls `#4213 <https://github.com/mixxxdj/mixxx/pull/4213>`_ `lp:1912129 <https://bugs.launchpad.net/mixxx/+bug/1912129>`_
 
 Other
 ^^^^^
@@ -290,6 +315,11 @@ Other
   `#4166 <https://github.com/mixxxdj/mixxx/pull/4166>`_
   `#4185 <https://github.com/mixxxdj/mixxx/pull/4185>`_
   `#4187 <https://github.com/mixxxdj/mixxx/pull/4187>`_
+  `#4192 <https://github.com/mixxxdj/mixxx/pull/4192>`_
+  `#4226 <https://github.com/mixxxdj/mixxx/pull/4226>`_
+  `#4203 <https://github.com/mixxxdj/mixxx/pull/4203>`_
+  `#4250 <https://github.com/mixxxdj/mixxx/pull/4250>`_
+  `#4274 <https://github.com/mixxxdj/mixxx/pull/4274>`_
 * Drop Ubuntu Bionic support, require Qt 5.12
   `#3687 <https://github.com/mixxxdj/mixxx/pull/3687>`_
   `#3735 <https://github.com/mixxxdj/mixxx/pull/3735>`_
@@ -305,7 +335,10 @@ Other
   `#3113 <https://github.com/mixxxdj/mixxx/pull/3113>`_
   `#3089 <https://github.com/mixxxdj/mixxx/pull/3089>`_
   `#3545 <https://github.com/mixxxdj/mixxx/pull/3545>`_
-* Add support for saving loops as hotcues `#2194 <https://github.com/mixxxdj/mixxx/pull/2194>`_ `lp:1367159 <https://bugs.launchpad.net/mixxx/+bug/1367159>`_
+* Add support for saving loops as hotcues
+  `#2194 <https://github.com/mixxxdj/mixxx/pull/2194>`_
+  `#4265 <https://github.com/mixxxdj/mixxx/pull/4265>`_
+  `lp:1367159 <https://bugs.launchpad.net/mixxx/+bug/1367159>`_
 * Make use of inclusive language
   `#2894 <https://github.com/mixxxdj/mixxx/pull/2894>`_
   `#3868 <https://github.com/mixxxdj/mixxx/pull/3868>`_
@@ -328,6 +361,18 @@ Other
   `#4057 <https://github.com/mixxxdj/mixxx/pull/4057>`_
 * Improve message when dealing with macOS sandbox `#4018 <https://github.com/mixxxdj/mixxx/pull/4018>`_ `lp:1921541 <https://bugs.launchpad.net/mixxx/+bug/1921541>`_
 * Move contribution guidelines into our git repository `#2699 <https://github.com/mixxxdj/mixxx/pull/2699>`_
+* Automize deployment of CHANGELOG to the manual
+  `#4180 <https://github.com/mixxxdj/mixxx/pull/4180>`_
+  `#4256 <https://github.com/mixxxdj/mixxx/pull/4256>`_
+  `#4208 <https://github.com/mixxxdj/mixxx/pull/4208>`_
+  `#4228 <https://github.com/mixxxdj/mixxx/pull/4228>`_
+  `#4222 <https://github.com/mixxxdj/mixxx/pull/4222>`_
+* Always show tooltips in preferences `#4198 <https://github.com/mixxxdj/mixxx/pull/4198>`_ `lp:1840493 <https://bugs.launchpad.net/mixxx/+bug/1840493>`_
+* Allow to build Mixxx on Linux without ALSA, working around a Pipewire bug `#4242 <https://github.com/mixxxdj/mixxx/pull/4242>`_
+* Fix possible crash with opus files with embedded cover arts and require TagLib 1.11 or newer
+  `#4251 <https://github.com/mixxxdj/mixxx/pull/4251>`_
+  `#4252 <https://github.com/mixxxdj/mixxx/pull/4252>`_
+  `lp:1940777 <https://bugs.launchpad.net/mixxx/+bug/1940777>`_
 * Misc. refactorings
   `#3154 <https://github.com/mixxxdj/mixxx/pull/3154>`_
   `#2870 <https://github.com/mixxxdj/mixxx/pull/2870>`_
@@ -377,6 +422,10 @@ Other
   `#4194 <https://github.com/mixxxdj/mixxx/pull/4194>`_
   `#4197 <https://github.com/mixxxdj/mixxx/pull/4197>`_
   `#4190 <https://github.com/mixxxdj/mixxx/pull/4190>`_
+  `#4212 <https://github.com/mixxxdj/mixxx/pull/4212>`_
+  `#4223 <https://github.com/mixxxdj/mixxx/pull/4223>`_
+  `#4238 <https://github.com/mixxxdj/mixxx/pull/4238>`_
+  `#4236 <https://github.com/mixxxdj/mixxx/pull/4236>`_
 
 `2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (Unreleased)
 ------------------------------------------------------------------------
