@@ -330,7 +330,7 @@ Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sam
    :figclass: pretty-figures
 
 .. hint::
-   To multi play triggered samplers at the same time you can set the user variable ``MC7000.prevSamplerStop`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>` to ``false``.
+   To use default Mixxx behaviour and allow playing multiple samplers at the same time you can set the user variable ``MC7000.prevSamplerStop`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>` to ``false``.
 
 .. _denon_mc7000_led:
 
