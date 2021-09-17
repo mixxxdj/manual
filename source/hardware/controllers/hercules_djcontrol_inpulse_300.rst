@@ -17,6 +17,14 @@ under Windows, please install the latest driver package available from
 the `Support
 page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__.
 
+.. note::
+   Firmware upgrade (v1.72) is required for pads to work correctly in **FX Mode**.
+
+   When using **Firmware v1.68** and earlier, pads in FX Mode will not work as expected.
+
+   For more details about `upgrading the
+   Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
+
 Sound card setup
 ----------------
 
@@ -43,10 +51,125 @@ output (RCA) and HEADPHONE output (3.5mm jack).
    both the gain on the controller’s sound card and in Mixxx.
 
 Mapping description
-~~~~~~~~~~~~~~~~~~~
+-------------------
+
+Decks
+~~~~~
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+:hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <master-sync>`.
+:hwlabel:`SHIFT` + :hwlabel:`SYNC` button                        Set deck as Sync leader.
+:hwlabel:`CUE` button                                            Specifies, plays or recalls temporary cue point.
+:hwlabel:`SHIFT` + :hwlabel:`CUE` button                         Return to the beginning of the track.
+Play button                                                      Play/Pause the current track.
+:hwlabel:`SHIFT` + Play button                                   Cue Stutter.
+:hwlabel:`VINYL` button                                          Toggle scratch mode (default: on)
+Loop :hwlabel:`IN` button                                        Enable Beatloop 4 beats.
+:hwlabel:`SHIFT` + Loop :hwlabel:`IN` button                     Halve the current loop size.
+Loop :hwlabel:`OUT` button                                       Disable Beatloop.
+:hwlabel:`SHIFT` + Loop :hwlabel:`OUT` button                    Double the current loop size.
+Beat Align LED                                                   Track end warning (make sure :hwlabel:`BEATMATCH GUIDE` is on for this to work).
+:hwlabel:`SLIP`                                                  Toggles splip mode.
+:hwlabel:`Q`                                                     Toggles quantize.
+:hwlabel:`SHIFT` + :hwlabel:`Q`                                  Adjusts beatgrid so closest beat is aligned with the current playposition.
+===============================================================  ==========================================
+
+Browser
+~~~~~~~
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+:hwlabel:`BROWSER` encoder (turn)                                Move up/down list.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (turn)             Move left/right (fold/unfold) list.
+:hwlabel:`BROWSER` encoder (press)                               Switch focus between list and file view.
+:hwlabel:`SHIFT` + Encoder (press)                               Maximize/Minimize library view.
+:hwlabel:`ASSISTANT` button                                      Toggle AutoDJ (be sure a playlist was created for AutoDJ before activating this function).
+===============================================================  ==========================================
+
+FX
+~~
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+:hwlabel:`ON` pad                                                Toggle FX 3 on/off.
+:hwlabel:`SHIFT` + :hwlabel:`ON` pad (select)                    Cycle to the next effect after the currently loaded effect.
+===============================================================  ==========================================
+
+Performance Pads
+~~~~~~~~~~~~~~~~
+
+Hot Cue Mode
+^^^^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1 - 8                                                        Set and trigger :term:`hotcue` 1 - 8
+:hwlabel:`SHIFT` + Pad 1 - 8                                     Delete :term:`hotcue` 1 - 8.
+===============================================================  ==========================================
+
+Roll Mode
+^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1                                                            Activate Beatloop of 1/8 beat size.
+Pad 2                                                            Activate Beatloop of 1/4 beat size.
+Pad 3                                                            Activate Beatloop of 1/2 beat size.
+Pad 4                                                            Activate Beatloop of 1 beat size.
+Pad 5                                                            Activate Beatloop of 2 beat size.
+Pad 6                                                            Activate Beatloop of 4 beat size.
+Pad 7                                                            Activate Beatloop of 8 beat size.
+Pad 8                                                            Activate Beatloop of 16 beat size.
+===============================================================  ==========================================
+
+FX Mode
+^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1 - 3                                                        Toggle Effect 1 - 3.
+Pad 5 - 7                                                        Cycle to the next effect for Effect 1 - 3.
+Pad 4                                                            Toggle Effect Unit 1.
+Pad 8                                                            Toggle Effect Unit 2.
+:hwlabel:`Shift` + Pad 1 - 3                                     Toggle Effect 1 - 3. (Effect Unit 3 / 4 for deck A / B)
+:hwlabel:`Shift` + Pad 5 - 7                                     Cycle to the next effect for Effect 1 - 3 (Effect Unit 3 / 4 for deck A / B).
+:hwlabel:`Shift` + Pad 4                                         Toggle Effect Unit 3.
+:hwlabel:`Shift` + Pad 8                                         Toggle Effect Unit 4.
+===============================================================  ==========================================
+
+Sampler Mode
+^^^^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1 - 8 (deck A)                                               Trigger Sampler 1 - 8.
+Pad 1 - 8 (deck B)                                               Trigger Sampler 9 - 16.
+===============================================================  ==========================================
+
+Beatjump Mode
+^^^^^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1 - 2                                                        Jump backward/forward by 1 beat.
+Pad 3 - 4                                                        Jump backward/forward by 2 beats.
+Pad 5 - 6                                                        Jump backward/forward by 4 beats.
+Pad 7 - 8                                                        Jump backward/forward by 8 beats.
+===============================================================  ==========================================
+
+Known issues
+------------
 
 Controls not included in this mapping
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Master knob (Hardware control)
 -  Headphone knob (Hardware control)
@@ -54,58 +177,3 @@ Controls not included in this mapping
 -  Beatmatch guide (Hardware control)
 -  PADS: Slicer/Slicer Loop
 -  PADS: Toneplay
--  PADS: FX
-
-.. note::
-   When using **Firmware v1.68** and earlier, each FX pad will
-   send multiple and different Note and CC messages. As these could not all
-   be used properly with Mixxx current effect framework, the pads have not
-   been assigned in this mapping. \* However, after applying **Firmware
-   v1.72**, each FX pad now sends a simple Note On/Note Off (as is the case
-   in every other Pad mode). This would make it easier to use the pads to
-   control effect and the mapping might be modified eventually to take
-   advantage of this possibility.
-
-   For more details about `updating the
-   Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
-
-**Decks:**
-
-Sync = Sync lock SHIFT + SYNC = Sync master.
-
-Cue = Cue point SHIFT + CUE = Return to beginning of loaded song.
-
-Play = Play/Pause SHIFT + Play = Cue Stutter.
-
-Vinyl = Scratch On/Off (Default: ON) Q = Keylock Beat Align LED = Track
-end warning (Make sure **Beatmatch Guide** is **On** for this to work)
-Loop In = Beatloop 4 beats SHIFT + Loop In = Loop Halve. Loop Out =
-Beatloop Off SHIFT + Loop Out = Loop Double.
-
-**Browser:**
-
-Encoder = Move up/down list Encoder button = Switch focus between List
-and file view SHIFT + Encoder button = Maximize/Minimize browser view
-Assistant = AutoDJ On/Off
-
-**FX:**
-
-FX On = FX 3 On/off SHIFT + FX On = FX 3 Select (next effect)
-
-**PADS - Hot Cue:**
-
-Set and trigger Hot Cue 1-4 SHIFT + Pad = Delete Hot Cue 1-4.
-
-**PADS - Roll:**
-
-Pad 1-4 = Beatloop 1 / 2 / 4 / 8 beats
-
-**PADS - Sample:**
-
-Trigger Sampler 1-4 (Deck A) Trigger Sampler 5-8 (Deck B)
-
-**PADS - Beatjump:**
-
-Pad 1-2: Beatjump Backward/Forward 1 beat Pad 3-4: Beatjump
-Backward/Forward 2 beat Pad 5-6: Beatjump Backward/Forward 4 beat Pad
-7-8: Beatjump Backward/Forward 8 beat
