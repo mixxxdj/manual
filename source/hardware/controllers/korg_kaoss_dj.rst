@@ -32,7 +32,7 @@ Mapping
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 3                                              | Master knob                                    | Adjust the master volume level                 |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| 4                                              | Browse knob                                    | Selects a song from the library                | Moves between levels (TODO)                    |
+| 4                                              | Browse knob                                    | Selects a song from the library                | Moves between levels                           |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 5                                              | Display                                        | Indicates the effect number or parameter       | Indicates the key or scale                     |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
@@ -42,15 +42,15 @@ Mapping
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 7                                              | Program/Value Knob                             | Selects an effect                              | Selects a key, selects a scale                 |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| 8                                              | Tap Button                                     | Sets the tempo                                 | Key setting mode                               |
-|                                                |                                                | Long-press this button to access the auto BPM  |                                                |
-|                                                |                                                | function                                       |                                                |
+| 8                                              | Tap Button                                     | tap to open a folder in the file-browser       | use left / right shift to set the tempo        |
+|                                                |                                                | (double-tap to close an open folder)           | of left / right track                          |
+|                                                |                                                |                                                |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 9                                              | Hold Button                                    | Enables/disables the touchpad’s hold function  | Scale setting mode                             |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| 10                                             | Touchpad (controller mode)                     | Controls the effects of the DJ software. The   | Adjusts the Beats Multiplier (TODO)            |
-|                                                |                                                | vertical axis controls the mix (dry/wet) knob  |                                                |
-|                                                |                                                | and the horizontal axis controls the super     |                                                |
+| 10                                             | Touchpad (controller mode)                     | Controls the effects of the DJ software. The   | Controls Quick-Effect super knobs              |
+|                                                |                                                | vertical axis controls the mix (dry/wet) knob  | the horizontal-axis controls deck 1            |
+|                                                |                                                | and the horizontal axis controls the super     | the vertical-axis controls deck 2              |
 |                                                |                                                | knob.                                          |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 |                                                | Touchpad (Kaoss Effect mode)                   | Controls the KAOSS effect                      | Adjusts the depth of the KAOSS Effect          |
@@ -84,7 +84,8 @@ Mapping
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 15                                             | Gain knob                                      | Adjusts the gain                               |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| 16                                             | Load button                                    | Loads the song into the selected deck          |                                                |
+| 16                                             | Load button                                    | Loads the song into the selected deck          | A : close selected folder in the file-browser  |
+|                                                |                                                |                                                | B : open selected folder in the file-browser   |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 17                                             | Fx button                                      | Left - FX1 rack mix knob can be manipulated    |                                                |
 |                                                |                                                | when enabled                                   |                                                |
