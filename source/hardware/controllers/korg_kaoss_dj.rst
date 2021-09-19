@@ -62,21 +62,21 @@ Mapping
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 12                                             | Touch Slider mode button                       | Switches between the three touch slider mode   |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-| 13                                             | Touch Slider (Normal mode)                     | Left Side - Nudges (pitch -)                   | Moves to the specified position in the song    |
+| 13                                             | Touch Slider (Normal mode)                     | Left - Nudges (pitch -)                        | Moves to the specified position in the song    |
 |                                                |                                                | Center - Enables the touch wheel's Scratch     | (slider)                                       |
 |                                                |                                                | mode                                           |                                                |
-|                                                |                                                | Right Side - Nudges (pitch +)                  |                                                |
+|                                                |                                                | Right - Nudges (pitch +)                       |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-|                                                | Touch Slider (Hot Cue mode)                    | Left Side - Sets Hot Cue 1, and moves to Hot   | Deletes Hot Cue 1                              |
-|                                                |                                                | Cue 1                                          | Deletes Hot Cue 2                              |
-|                                                |                                                | Center - Sets Hot Cue 2, and moves to Hot Cue  | Deletes Hot Cue 3                              |
+|                                                | Touch Slider (Hot Cue mode)                    | Left - Sets Hot Cue 1, and moves to Hot        | Left - Deletes Hot Cue 1                       |
+|                                                |                                                | Cue 1                                          | Center - Deletes Hot Cue 2                     |
+|                                                |                                                | Center - Sets Hot Cue 2, and moves to Hot Cue  | Right - Deletes Hot Cue 3                      |
 |                                                |                                                | 2                                              |                                                |
-|                                                |                                                | Right Side - Sets Hot Cue 3, and moves to Hot  |                                                |
+|                                                |                                                | Right - Sets Hot Cue 3, and moves to Hot       |                                                |
 |                                                |                                                | Cue 3                                          |                                                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
-|                                                | Touch Slider (Loop mode)                       | Left Side - Auto Loop × 1/2                    | Sets the Loop In point                         |
-|                                                |                                                | Center - Loop on/off                           | Auto Loop × 1                                  |
-|                                                |                                                | Right Side - Auto Loop × 2                     | Sets the Loop Out point                        |
+|                                                | Touch Slider (Loop mode)                       | Left - Auto Loop × 1/2                         | Left - Sets the Loop In point                  |
+|                                                |                                                | Center - New beatloop at playback position     | Center - Re-loop                               |
+|                                                |                                                | Right - Auto Loop × 2                          | Right - Sets the Loop Out point                |
 +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
 | 14                                             | EQ                                             | Boosts or Cuts the Hi EQ                       |                                                |
 |                                                |                                                | Boosts or Cuts the Mid EQ                      |                                                |
