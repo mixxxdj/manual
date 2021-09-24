@@ -190,6 +190,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   Select the black button at the top left to remove the color.
 
 * **Metadata**:
+
     * **Import from File Tags**: If the track's :term:`metadata` changes,
       (e.g. if you used iTunes to edit it,) this option lets you save the new
       values for the selected tracks to the Mixxx library. See
@@ -211,6 +212,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
         not supply any.
 
 * **Reset**:
+
     * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
       from the selected tracks in the Mixxx library. After doing this, we
       recommend :ref:`analyzing <library-analyze>` the tracks again.
