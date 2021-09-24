@@ -210,7 +210,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
         :term:`tags <metadata>` or a picture in the track folder if the tags do
         not supply any.
 
-* **Clear**:
+* **Reset**:
     * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
       from the selected tracks in the Mixxx library. After doing this, we
       recommend :ref:`analyzing <library-analyze>` the tracks again.
@@ -228,7 +228,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     * **All**: Clears all of the data above from the Mixxx library database at
       once.
 
-* **Change BPM**:
+* **Adjust BPM**:
 
     * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
       200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
@@ -242,6 +242,12 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       will set the status to "locked", and the icon changes to
       |ic_lib_bpm_locked|.
 
+* **Update ReplayGain from Deck Gain**: Applies the deck pregain knob value to
+  the detected ReplayGain value for the current track. This is a way to update
+  the ReplayGain value of a track if it has been detected incorrectly. When this
+  option is selected, the pregain value for the deck will be centered so that
+  there is no audible difference in track volume, so this operation is safe to
+  use during performance.
 * **Hide from Library**: Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
