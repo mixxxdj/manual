@@ -76,12 +76,18 @@ No.  Control                                                  Function
 10   :hwlabel:`CF ASSIGN` button                              Assign the channel to either side of the crossfader.
 ===  =======================================================  ============================================================================================
 
-.. note:: On some units of this mixer, the :hwlabel:`P1` / :hwlabel:`P2` / :hwlabel:`P3` buttons
+.. note::
+  On some units of this mixer, the LEDs of the buttons :hwlabel:`P1` / :hwlabel:`P2` / :hwlabel:`P3`
   show an unexpected behavior in MIDI mode. When such a LED is turned on via MIDI, it flashes
-  shortly but does not stay lit. Firmware version 1.02 (Dec 14 2007) is known to show this behavior,
+  shortly but does not stay lit. The problem occurs only when at least 1 channel is in audio
+  (non-MIDI) mode. It does not occur when all channels are in MIDI mode.
+  Firmware version 1.02 (Dec 14 2007) is known to show this behavior,
   and there's no fix available according to a reply from the technical support:
 
-    "I see the issue, but sorry, the code is 15 years old and getting the 15 year old tools (plus license, plus old windows version) needed to compile it, together with finding the bug in a very complex code base (without access to the developer) makes fixing this nearly impossible."
+    "I see the issue, but sorry, the code is 15 years old and getting the 15 year old tools
+    (plus license, plus old windows version) needed to compile it,
+    together with finding the bug in a very complex code base (without access to the developer)
+    makes fixing this nearly impossible."
 
     -- [MUSIC Tribe Care] Behringer - Technical Support (08 Sep 2021)
 
