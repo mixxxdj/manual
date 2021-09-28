@@ -3586,6 +3586,16 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.4.0
 
+
+.. mixxx:control:: [Library],clear_search
+
+   Clear the search.
+
+   :range: Binary
+   :feedback: Searchbox query is cleared
+
+   .. versionadded:: 2.4.0
+
 The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
