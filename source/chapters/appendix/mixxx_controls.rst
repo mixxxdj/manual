@@ -3556,6 +3556,36 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.3.0
 
+
+.. mixxx:control:: [Library],search_history_next
+
+   Select the next saved search query. Wraps around at the last item to the empty search.
+
+   :range: Binary
+   :feedback: Searchbox query changes
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Library],search_history_prev
+
+   Select the previous saved search query. Wraps around at the top to the last item.
+
+   :range: Binary
+   :feedback: Searchbox query changes
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Library],search_history_selector
+
+   Select another saved search query. < 0 goes up the list, > 0 goes down. Wraps around at the top and bottom.
+
+   :range: -N / +N
+   :feedback: Searchbox query changes
+
+   .. versionadded:: 2.4.0
+
 The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
