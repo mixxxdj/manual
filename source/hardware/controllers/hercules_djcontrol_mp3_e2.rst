@@ -30,26 +30,26 @@ Mapping description (by function)
 Library
 ^^^^^^^
 
-======== ============================================== ============================================================================ 
- Number   Control                                        Function                                                                    
-======== ============================================== ============================================================================ 
- 6        Folder                                         Toggle playlist selection                                                   
- 10       :hwlabel:`Files`                               Toggle track selection                                                      
- 8        Up arrow                                       Go one playlst/track up                                                     
- 8        Down arrow                                     Go one playlst/track down                                                   
- 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)  
-======== ============================================== ============================================================================ 
+======== ============================================== ============================================================================
+ Number   Control                                        Function
+======== ============================================== ============================================================================
+ 6        Folder                                         Toggle playlist selection
+ 10       :hwlabel:`Files`                               Toggle track selection
+ 8        Up arrow                                       Go one playlst/track up
+ 8        Down arrow                                     Go one playlst/track down
+ 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)
+======== ============================================== ============================================================================
 
 
 Master/Headphones
 ^^^^^^^^^^^^^^^^^
 
-======== ============================================== ===================================================================== 
- Number   Control                                        Function                                                             
-======== ============================================== ===================================================================== 
- 19       Crossfader                                     Fades between left (channel 1) and right (channel 2) deck            
- 20       Headphone monitor                              Toggles deck output to the headphones monitor on/off                 
-======== ============================================== ===================================================================== 
+======== ============================================== =====================================================================
+ Number   Control                                        Function
+======== ============================================== =====================================================================
+ 19       Crossfader                                     Fades between left (channel 1) and right (channel 2) deck
+ 20       Headphone monitor                              Toggles deck output to the headphones monitor on/off
+======== ============================================== =====================================================================
 
 Decks / Channels
 ^^^^^^^^^^^^^^^^
@@ -57,51 +57,51 @@ Decks / Channels
 Playing
 '''''''
 
-======== ==============================================  ======================================================================================================================================================================================================================================= 
- Number   Control                                        Function                                                                                                                                                                                                                               
-======== ==============================================  ======================================================================================================================================================================================================================================= 
- 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)                                                                                                                                                             
- 14       Play                                           Starts or stop a loaded track                                                                                                                                                                                                          
- 15       :hwlabel:`Cue`                                 Sets the cue point if a track is stopped and not at the current cue point. Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it’s held down  
- 12       Forward / Backward                             Move Forward/Backward in track                                                                                                                                                                                                         
- 7        Scratch                                        Enable or disable the scratch mode on all two decks                                                                                                                                                                                    
- 16       Jog wheel                                      Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks.  Absolute sync of the track speed to the jog wheel if scratch mode enabled                                                 
-======== ==============================================  ======================================================================================================================================================================================================================================= 
+======== ==============================================  =======================================================================================================================================================================================================================================
+ Number   Control                                        Function
+======== ==============================================  =======================================================================================================================================================================================================================================
+ 18       :hwlabel:`Load A`/:hwlabel:`Load B`            Loads the currently highlighted track into the corresponding deck (A or B)
+ 14       Play                                           Starts or stop a loaded track
+ 15       :hwlabel:`Cue`                                 Sets the cue point if a track is stopped and not at the current cue point. Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it’s held down
+ 12       Forward / Backward                             Move Forward/Backward in track
+ 7        Scratch                                        Enable or disable the scratch mode on all two decks
+ 16       Jog wheel                                      Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks.  Absolute sync of the track speed to the jog wheel if scratch mode enabled
+======== ==============================================  =======================================================================================================================================================================================================================================
 
 Volume / Equalizer / Effects
 ''''''''''''''''''''''''''''
 
-======== ============================================== ============================================================================= 
- Number   Control                                       Function                                                                     
-======== ============================================== ============================================================================= 
- 17       Deck volume slider                            Controls the deck output volume, with soft takeover on deck switch.          
- 5        Equalizer knobs                               Adjusts the gain of the low/medium/high equalizer filter. No soft takeover.  
- 4        Shift                                         Toggle Effects Selection                                                     
- 11       Button :hwlabel:`1`/:hwlabel:`2`/:hwlabel:`3` Toggle Effect 1/2/3 for corresponding deck (with shift activated)            
-======== ============================================== ============================================================================= 
+======== ============================================== =============================================================================
+ Number   Control                                       Function
+======== ============================================== =============================================================================
+ 17       Deck volume slider                            Controls the deck output volume, with soft takeover on deck switch.
+ 5        Equalizer knobs                               Adjusts the gain of the low/medium/high equalizer filter. No soft takeover.
+ 4        Shift                                         Toggle Effects Selection
+ 11       Button :hwlabel:`1`/:hwlabel:`2`/:hwlabel:`3` Toggle Effect 1/2/3 for corresponding deck (with shift activated)
+======== ============================================== =============================================================================
 
 Loops
 '''''
 
 ======== ============================================== ==========
- Number   Control                                       Function 
+ Number   Control                                       Function
 ======== ============================================== ==========
- 11       Button :hwlabel:`1`                            Loop 1   
- 11       Button :hwlabel:`2`                            Loop 2   
- 11       Button :hwlabel:`3`                            Loop 4   
- 11       Button :hwlabel:`4`                            Loop 8   
+ 11       Button :hwlabel:`1`                            Loop 1
+ 11       Button :hwlabel:`2`                            Loop 2
+ 11       Button :hwlabel:`3`                            Loop 4
+ 11       Button :hwlabel:`4`                            Loop 8
 ======== ============================================== ==========
 
 Pitch / Syncing
 '''''''''''''''
 
 ======== ============================================== ==================================================================
- Number   Control                                        Function                                                         
+ Number   Control                                        Function
 ======== ============================================== ==================================================================
- 1        Pitchbend :hwlabel:`-`/:hwlabel:`+`            Temporary Holds the pitch 4% lower or higher while pressed                
- 3        Pitch knobs                                    Adjust playback pitch / speed                                    
- 13       :hwlabel:`Sync`                                Automatically sets pitch so the BPM of the other deck is matched 
- 2        Master Tempo                                   Enable and lock Sync Mode                                        
+ 1        Pitchbend :hwlabel:`-`/:hwlabel:`+`            Temporary Holds the pitch 4% lower or higher while pressed
+ 3        Pitch knobs                                    Adjust playback pitch / speed
+ 13       :hwlabel:`Sync`                                Automatically sets pitch so the BPM of the other deck is matched
+ 2        Master Tempo                                   Enable and lock Sync Mode
 ======== ============================================== ==================================================================
 
 Troubleshooting
