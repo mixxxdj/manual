@@ -1,7 +1,7 @@
 .. _behringer-ddm4000:
 
-Behringer Digital Pro Mixer DDM4000
-===================================
+Behringer DDM4000
+=================
 
 .. figure:: ../../_static/controllers/behringer_ddm4000_page1_mixer.svg
    :align: center
