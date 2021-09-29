@@ -171,7 +171,7 @@ Overlay
 ^^^^^^^
 Overlay to print on cardboard or paper for lamination:
 
-- `PDF, DIN A4 <../../_static/controllers/behringer_bcr2000_overlay_a4.pdf>`_
-- `PDF, DIN A3 <../../_static/controllers/behringer_bcr2000_overlay_a3.pdf>`_
-- `ODG <../../_static/controllers/behringer_bcr2000_overlay.odg>`_ (LibreOffice)
-- `SVG <../../_static/controllers/behringer_bcr2000_overlay_a3_unlabeled.svg>`_ (without labels)
+- :download:`PDF, DIN A4<../../_static/controllers/behringer_bcr2000_overlay_a4.pdf>`
+- :download:`PDF, DIN A3<../../_static/controllers/behringer_bcr2000_overlay_a3.pdf>`
+- :download:`ODG<../../_static/controllers/behringer_bcr2000_overlay.odg>` (LibreOffice)
+- :download:`SVG<../../_static/controllers/behringer_bcr2000_overlay_a3_unlabeled.svg>` (without labels)
