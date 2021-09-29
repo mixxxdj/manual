@@ -9,7 +9,7 @@
 Changelog
 =========
 
-`2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (Unreleased)
+`2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (2021-09-29)
 ------------------------------------------------------------------------
 
 
