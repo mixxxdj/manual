@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import os
+import re
 
 import m2r2
 import requests
@@ -33,6 +34,14 @@ def fetch_changelog(branch):
 
 def changelog_to_rst(changelog):
     """ Convert changelog to RST format used by sphinx. """
+
+    changelog = re.sub(
+        r"^## \[?(\d+)\.(\d+)\.(\d+)(?:\]\([^\)]+\))?(?: \([^\)]+\))?$",
+        r".. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
+        changelog,
+        flags=re.MULTILINE,
+    )
+
     return TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
 
 
