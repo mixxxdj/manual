@@ -99,9 +99,6 @@ toggles the bottom button grid between a loop layer (amber) and a hotcue
 layer (red). Holding shift then holding the bottom left layer button at
 the same time activates supershift mode.
 
-Mixxx 2.3
-~~~~~~~~~
-
 -  Top encoder: gain
 
    -  shift: jog
