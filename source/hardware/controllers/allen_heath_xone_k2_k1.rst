@@ -232,10 +232,10 @@ Known Issues
 
 There are a few known issues with the Xone K2/K1 firmware:
 
-- Since there is no way for Mixxx to ask the controller about the
+-  Since there is no way for Mixxx to ask the controller about the
 positions of all the knobs and faders when Mixxx starts, they are
 out of sync with the state of Mixxx until they are first moved.
-- When the USB connection is interrupted and the controller stays
+-  When the USB connection is interrupted and the controller stays
 powered on, such as leaving the controller plugged into a powered
 USB hub and disconnecting the hub from the computer, the controller
 will not send MIDI input until it is powered down (unplugged) and plugged back in.
