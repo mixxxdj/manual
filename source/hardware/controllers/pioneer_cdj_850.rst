@@ -5,7 +5,7 @@ This is a CD and USB media player that can control Mixxx via USB with
 MIDI or HID. It can also control Mixxx by playing timecode from a CD or
 USB drive and running that signal into Mixxx through a sound card.
 
--  `Manufacturer’s product page <https://www.pioneerdj.com/product/player/cdj-850/black/overview/>`__
+-  `Manufacturer’s product page <https://www.pioneerdj.com/product/player/archive/cdj-850/black/overview/>`__
 
 .. versionadded:: 1.10
    Support for :term:`MIDI` mode.
