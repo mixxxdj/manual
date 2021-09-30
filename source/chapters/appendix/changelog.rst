@@ -427,14 +427,16 @@ Other
   `#4238 <https://github.com/mixxxdj/mixxx/pull/4238>`_
   `#4236 <https://github.com/mixxxdj/mixxx/pull/4236>`_
 
-`2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (Unreleased)
+`2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (2021-09-29)
 ------------------------------------------------------------------------
 
 
-* Added mapping for the Numark DJ2GO2 Touch controller `#4108 <https://github.com/mixxxdj/mixxx/pull/4108>`_
+* Added mapping for the Numark DJ2GO2 Touch controller `#4108 <https://github.com/mixxxdj/mixxx/pull/4108>`_ `#4287 <https://github.com/mixxxdj/mixxx/pull/4287>`_
 * Added mapping for the Numark Mixtrack Pro FX controller `#4160 <https://github.com/mixxxdj/mixxx/pull/4160>`_
 * Updated mapping for Behringer DDM4000 mixer `#4262 <https://github.com/mixxxdj/mixxx/pull/4262>`_
 * Updated mapping for Denon MC7000 controller `#4021 <https://github.com/mixxxdj/mixxx/pull/4021>`_
+* Hercules Inpulse 300: Add better FX controls and other minor improvements `#4246 <https://github.com/mixxxdj/mixxx/pull/4246>`_
+* Denon MC7000: Improve slip mode and jog wheel handling `#4021 <https://github.com/mixxxdj/mixxx/pull/4021>`_ `#4324 <https://github.com/mixxxdj/mixxx/pull/4324>`_
 * Disabled detection of keyboards and mice as HID controllers `#4243 <https://github.com/mixxxdj/mixxx/pull/4243>`_
 * Disabled detection of all HID controllers with Apple's vendor ID. Apple doesn't build actual controllers. `#4260 <https://github.com/mixxxdj/mixxx/pull/4260>`_ `#4273 <https://github.com/mixxxdj/mixxx/pull/4273>`_
 * Add support for HiDPI scale factors of 125% and 175% (only with Qt 5.14+) `lp1938102 <https://bugs.launchpad.net/mixxx/+bug/1938102>`_ `#4161 <https://github.com/mixxxdj/mixxx/pull/4161>`_
@@ -444,7 +446,7 @@ Other
 * Fix bad phase seek when a channel's audible status changes `#4156 <https://github.com/mixxxdj/mixxx/pull/4156>`_
 * Tango skin: Show crossfader assign buttons by default `#4046 <https://github.com/mixxxdj/mixxx/pull/4046>`_
 * Fix keyfinder library in arm64 builds `#4047 <https://github.com/mixxxdj/mixxx/pull/4047>`_
-* Fix wrong track being recorded in History `lp1933991 <https://bugs.launchpad.net/mixxx/+bug/1933991>`_ `#4041 <https://github.com/mixxxdj/mixxx/pull/4041>`_ `#4059 <https://github.com/mixxxdj/mixxx/pull/4059>`_ `#4107 <https://github.com/mixxxdj/mixxx/pull/4107>`_
+* Fix wrong track being recorded in History `lp1933991 <https://bugs.launchpad.net/mixxx/+bug/1933991>`_ `#4041 <https://github.com/mixxxdj/mixxx/pull/4041>`_ `#4059 <https://github.com/mixxxdj/mixxx/pull/4059>`_ `#4107 <https://github.com/mixxxdj/mixxx/pull/4107>`_ `#4296 <https://github.com/mixxxdj/mixxx/pull/4296>`_
 * Fix support for relative paths in the skin system which caused missing images in third-party skins `#4151 <https://github.com/mixxxdj/mixxx/pull/4151>`_
 * Fix relocation of directories with special/reserved characters in path name `#4146 <https://github.com/mixxxdj/mixxx/pull/4146>`_
 * Update keyboard shortcuts sheet `#4042 <https://github.com/mixxxdj/mixxx/pull/4042>`_
@@ -460,6 +462,9 @@ Other
 * Library sidebar: Also activate items on PageUp/Down events. `#4237 <https://github.com/mixxxdj/mixxx/pull/4237>`_
 * Fix handling of preview button cell events in developer mode. `#4264 <https://github.com/mixxxdj/mixxx/pull/4264>`_ `lp:1929141 <https://bugs.launchpad.net/mixxx/+bug/1929141>`_
 * Auto DJ: Fix bug which could make an empty track stop Auto DJ. `#4267 <https://github.com/mixxxdj/mixxx/pull/4267>`_ `lp:1941743 <https://bugs.launchpad.net/mixxx/+bug/1941743>`_
+* Fix Auto DJ skipping tracks randomly `#4319 <https://github.com/mixxxdj/mixxx/pull/4319>`_ `lp1941989 <https://bugs.launchpad.net/mixxx/+bug/1941989>`_
+* Fix high CPU load due to extremely high internal sync clock values `#4312 <https://github.com/mixxxdj/mixxx/pull/4312>`_ `lp1943320 <https://bugs.launchpad.net/mixxx/+bug/1943320>`_
+* Fix preference option for re-analyzing beatgrids imported from other software `#4288 <https://github.com/mixxxdj/mixxx/pull/4288>`_
 
 Packaging
 ^^^^^^^^^
