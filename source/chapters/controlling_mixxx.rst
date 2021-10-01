@@ -166,7 +166,7 @@ folder in your :term:`OS <operating system>` file browser:
 
   * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
   * macOS: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`
-  * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
+  * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Local\\Mixxx\\controllers`
   * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
 
 On Windows, the :file:`AppData` folder is hidden, so if you have not already,
