@@ -114,6 +114,7 @@ No.  Control                                                Function
 4    :hwlabel:`HEADPHONE CUE 1` button                      Toggle headphone pre-fader listening of left deck.
 4    :hwlabel:`HEADPHONE CUE 2` button                      Toggle headphone pre-fader listening of right deck.
 5    Channel faders                                         Adjust the output level for each channel
+5    :hwlabel:`SHIFT` Channel faders                        Fader start and adjust the output level for each channel
 6    Cross fader                                            Fade between left and right deck
 7    :hwlabel:`MASTER` knob                                 Adjust master output level
 8    :hwlabel:`HEADPHONES` knob                             Adjust headphones output level
