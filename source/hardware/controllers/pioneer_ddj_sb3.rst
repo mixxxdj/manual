@@ -147,6 +147,28 @@ No.  Control                                                Function
 4    :hwlabel:`LEVEL` knob                                  Adjusts the mix of the dry and wet signal of the effect unit
 ===  =====================================================  ============================================================================================
 
+.. _pioneer-ddj-sb3-browser:
+
+Browser section (p. 13)
+~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_browser.svg
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (browser section)
+   :figclass: pretty-figures
+
+   Browser section (p. 13)
+
+===  =====================================================  ============================================================================================
+No.  Control                                                Function
+===  =====================================================  ============================================================================================
+1    :hwlabel:`1` button                                    Loads track highlighted in the library to the left or right deck
+2    :hwlabel:`BROWSE` knob (rotate)                        Rotate the knob left or right highlights the previous or next track in the library
+2    :hwlabel:`BROWSE` knob (press)                         Starts / stops track preview of highlighted track
+===  =====================================================  ============================================================================================
+
 Performance Pads
 ~~~~~~~~~~~~~~~~
 
