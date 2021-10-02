@@ -121,6 +121,32 @@ No.  Control                                                Function
 9    :hwlabel:`MASTER` button                               Output master to headphones
 ===  =====================================================  ============================================================================================
 
+.. _pioneer-ddj-sb3-effects:
+
+Effect section (p. 8)
+~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/pioneer_ddj_sb3_effects.svg
+   :align: center
+   :width: 50%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-SB3 (effects section)
+   :figclass: pretty-figures
+
+   Effects section (p. 8)
+
+===  =====================================================  ============================================================================================
+No.  Control                                                Function
+===  =====================================================  ============================================================================================
+1    :hwlabel:`1` button                                    Turns the effect on/off
+1    :hwlabel:`SHIFT`:hwlabel:`1` button                    Focuses the effect
+2    :hwlabel:`2` button                                    Turns the effect on/off
+2    :hwlabel:`SHIFT`:hwlabel:`2` button                    Focuses the effect
+3    :hwlabel:`3` button                                    Turns the effect on/off
+3    :hwlabel:`SHIFT`:hwlabel:`2` button                    Focuses the effect
+4    :hwlabel:`LEVEL` knob                                  Adjusts the mix of the dry and wet signal of the effect unit
+===  =====================================================  ============================================================================================
+
 Performance Pads
 ~~~~~~~~~~~~~~~~
 
