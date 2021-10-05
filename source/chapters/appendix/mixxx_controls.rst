@@ -561,6 +561,30 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [ChannelN],beatjump_size_halve
+                   [PreviewDeckN],beatjump_size_halve
+                   [SamplerN],beatjump_size_halve
+
+   Halve the value of :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+
+   :range: binary
+   :feedback: Beatjump size spinbox
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],beatjump_size_double
+                   [PreviewDeckN],beatjump_size_double
+                   [SamplerN],beatjump_size_double
+
+   Double the value of :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+
+   :range: binary
+   :feedback: Beatjump size spinbox
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],beatjump_forward
                    [PreviewDeckN],beatjump_forward
                    [SamplerN],beatjump_forward
