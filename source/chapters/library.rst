@@ -958,11 +958,8 @@ Using the Serato library
 
 Mixxx supports reading your Serato library and crates both from your local hard drive as well as portable USB drives. Smart crates are currently not supported.
 
-Serato stores information such as hot cues, track color and beatgrid in the file tags.
+Serato stores information such as hot cues, saved loops, track color and beatgrid in the file tags.
 Regardless of whether a track is loaded into deck from the library or directly from the file browser, Mixxx will import that information automatically if present.
-
-Saved loops are imported as well, but since Mixxx is lacking support for multiple saved loops, only the first loop is usable in Mixxx.
-All other saved loops can be used like regular hotcues for now.
 
 Waveforms, Gain values and "Flips" are not imported from Serato.
 
