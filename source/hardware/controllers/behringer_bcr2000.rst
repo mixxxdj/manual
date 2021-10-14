@@ -1,7 +1,16 @@
 .. _behringer-b-control-bcr2000:
 
-Behringer B-Control BCR2000
-===========================
+Behringer BCR2000
+=================
+
+.. figure:: ../../_static/controllers/behringer_bcr2000.svg
+   :align: center
+   :width: 90%
+   :figwidth: 100%
+   :alt: Behringer BCR2000 (schematic view)
+   :figclass: pretty-figures
+
+   Behringer BCR2000 (schematic view)
 
 - `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0245>`_
 - `Forum thread <https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287>`_
@@ -63,7 +72,7 @@ The controls are divided into five parts:
 - Middle right area (4 buttons + 4 encoders): controls for Effect Unit 2
 - Bottom right area (4 buttons): controls for assignment of effect units to decks
 
-.. figure:: ../../_static/controllers/behringer_bcr2000.svg
+.. figure:: ../../_static/controllers/behringer_bcr2000_overlay.svg
   :width: 600
 
 +-------------------------------------------------------+-----------------------------------------------------------------------------+
@@ -162,6 +171,7 @@ Overlay
 ^^^^^^^
 Overlay to print on cardboard or paper for lamination:
 
-- `PDF, DIN A4 <../../_static/controllers/behringer_bcr2000-a4.pdf>`_
-- `PDF, DIN A3 <../../_static/controllers/behringer_bcr2000-a3.pdf>`_
-- `ODG <../../_static/controllers/behringer_bcr2000.odg>`_ (LibreOffice)
+- :download:`PDF, DIN A4<../../_static/controllers/behringer_bcr2000_overlay_a4.pdf>`
+- :download:`PDF, DIN A3<../../_static/controllers/behringer_bcr2000_overlay_a3.pdf>`
+- :download:`ODG<../../_static/controllers/behringer_bcr2000_overlay.odg>` (LibreOffice)
+- :download:`SVG<../../_static/controllers/behringer_bcr2000_overlay_a3_unlabeled.svg>` (without labels)

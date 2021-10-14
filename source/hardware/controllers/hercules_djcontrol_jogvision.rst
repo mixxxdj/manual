@@ -3,7 +3,7 @@
 Hercules DJControl Jogvision
 ============================
 
--  `Manufacturer's product page <https://www.hercules.com/en-us/product/djcontroljogvision-2old/>`__
+-  `Manufacturer's product page <https://www.hercules.com/en/product/djcontroljogvision/>`__
 -  `Manufacturer's support and downloads page <https://support.hercules.com/en/product/djcontroljogvision-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-jogvision/17839>`__
 

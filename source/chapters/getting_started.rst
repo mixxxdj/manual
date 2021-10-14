@@ -47,8 +47,10 @@ make a backup of your existing settings just in case.
   **GNU/Linux**
     Mixxx settings are in :file:`/home/<username>/.mixxx`
 
-Copy this folder to a backup drive or somewhere else on your system to make a
+Copy this directory to a backup drive or somewhere else on your system to make a
 backup of your settings.
+
+.. seealso:: For detailed descriptions of the settings files, go to :ref:`appendix-settings-files`.
 
 Opening Mixxx
 =============

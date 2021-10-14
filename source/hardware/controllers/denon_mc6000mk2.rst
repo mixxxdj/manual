@@ -60,11 +60,11 @@ The number in the first column refers to the corresponding label in the *Ownerâ€
 \                                   NONE     Deck is playing   Pitch bend down
 \                                   SHIFT    Deck is playing   Pitch bend down (small)
 20            VINYL                                            Enable/disable vinyl mode (scratching)
+23            X-F LINK                                         *Not yet mapped*
 21            PANEL                                            *Not yet mapped*
 22            VIEW                                             *Not yet mapped*
-23            X-F LINK                                         *Not yet mapped*
 24            AREA                                             *Not yet mapped*
-25            LIST                                             *Not yet mapped*
+25            LIST                                             Toggle maximized library view
 26            BACK                  NONE                       Scroll up
 \                                   SHIFT                      Move focus backward to previous panel
 26            FWD                   NONE                       Scroll down
