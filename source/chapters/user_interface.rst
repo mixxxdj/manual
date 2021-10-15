@@ -25,7 +25,7 @@ to figure out which one you prefer. This section will focus on LateNight only, t
 
 .. _interface-skin-settings:
 
-Section Skin Settings
+Skin Settings Section
 =========================
 On top, and on the right side of the user interface are the section expansion buttons and options.
 
@@ -49,6 +49,8 @@ If you click on either :guilabel:`WAVEFORMS`, :guilabel:`4 DECKS`, :guilabel:`MI
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
+Click the :guilabel:`SETTINGS` button or gear icon (depending on the skin) to open the skin settings menu. This provides common basic controls as well as some skin-specific options.
+
   .. figure:: ../_static/2.3/skin-settings-right.png
     :align: center
     :width: 245px
@@ -57,8 +59,6 @@ You can also use the specific :ref:`appendix-shortcuts`.
     :figclass: pretty-figures
 
     The Skin Settings menu on the right
-
-You can find common basic controls as well as some skin-specific options in the skin settings menu. Click the :guilabel:`SETTINGS` button or gear icon (depending on the Skin) to open it.
 
 .. _interface-decks:
 
