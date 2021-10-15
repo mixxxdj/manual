@@ -25,8 +25,8 @@ to figure out which one you prefer. This section will focus on LateNight only, t
 
 .. _interface-skin-settings:
 
-Section Skin Settings
-=========================
+Skin Settings
+=============
 On top, and on the right side of the user interface are the section expansion buttons and options.
 
   .. figure:: ../_static/2.3/skin-settings-top.png
@@ -49,6 +49,8 @@ If you click on either :guilabel:`WAVEFORMS`, :guilabel:`4 DECKS`, :guilabel:`MI
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
+Click the :guilabel:`SETTINGS` button or gear icon (depending on the skin) to open the skin settings menu. This provides common basic controls as well as some skin-specific options.
+
   .. figure:: ../_static/2.3/skin-settings-right.png
     :align: center
     :width: 245px
@@ -58,12 +60,10 @@ You can also use the specific :ref:`appendix-shortcuts`.
 
     The Skin Settings menu on the right
 
-You can find common basic controls as well as some skin-specific options in the skin settings menu. Click the :guilabel:`SETTINGS` button or gear icon (depending on the Skin) to open it.
-
 .. _interface-decks:
 
-The Deck Sections
-=================
+Decks
+=====
 
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
@@ -756,8 +756,8 @@ the overview waveform to open the context menu, then click the trash icon.
 
 .. _interface-mixer:
 
-The Mixer Section
-=================
+Mixer
+=====
 
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
@@ -1013,8 +1013,8 @@ Headphone and Main Mix Controls
 
 .. _interface-sampler:
 
-The Sampler Section
-===================
+Samplers
+========
 
 .. figure:: ../_static/2.3/sample-decks.png
    :align: center
@@ -1128,8 +1128,8 @@ Sample Deck Controls
 
 .. _interface-effects:
 
-The Effects Section
-===================
+Effects
+=======
 
 .. figure:: ../_static/2.3/effects-section.png
    :align: center
@@ -1157,8 +1157,8 @@ as other inputs. The buttons for routing decks to effect units are in the
 
 .. _interface-mic:
 
-The Microphone Section
-======================
+Microphones & Auxiliary Inputs
+==============================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
@@ -1202,8 +1202,8 @@ Microphone Controls
 
 .. _interface-preview-deck:
 
-Preview Deck Section
-====================
+Preview Deck
+============
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
