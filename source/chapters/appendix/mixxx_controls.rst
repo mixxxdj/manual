@@ -3427,7 +3427,25 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
 .. mixxx:control:: [Library],GoToItem
 
-   Equivalent to double clicking the currently selected item
+   Triggers different actions, depending on which interface element currently has keyboard focus:
+
+   ========================  =============================================================================================================
+   **Search bar**
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   text box                  moves focus to tracks table
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   Clear button              clears search text
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   **Sidebar**
+   ---------------------------------------------------------------------------------------------------------------------------------------
+   collapsed node            expands the item (except Tracks and Auto DJ)
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   leaf node                 moves focus to tracks table
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   **Tracks table**          loads selected track. See "Playing track protection" in Preferences ‣ Decks
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   **Dialogs / popups**      presses :kbd:`Enter`. Note: the :mixxx:coref:`Move.. <[Library],MoveUp>` controls allow to move button focus.
+   ========================  =============================================================================================================
 
    :range: Binary
    :feedback: Context dependent
