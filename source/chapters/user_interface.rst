@@ -265,16 +265,16 @@ Deck Options Button Grid
    The Options Button Grid of the deck
 
 The six buttons at the bottom right below the waveform allow you to configure
-the deck. Starting from the top-left and moving clockwise the buttons are as
+the deck. Starting from the top row (left to right) and the bottom row (left to right), the buttons are as
 follows:
 
 **Slip Mode Toggle**
   When active, the playback continues muted in the background during a loop, reverse, scratch, etc.
   Once disabled, the audible playback will resume where the track would have been.
 
-**Repeat Mode Toggle**
-  If enabled, the repeat mode will jump back to the beginning and continue
-  playing when the track finishes.
+**Quantize Mode Toggle**
+  If enabled, all cues, hotcues, loops, and beatloops will be automatically
+  :term:`quantized <quantization>` so that they begin on a beat.
 
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
@@ -282,14 +282,15 @@ follows:
   track's :term:`BPM` but failed to align the beat markers on the beats. For
   more information, go to the chapter :ref:`configuration-bpm-detection`.
 
+
 **Eject Track Button**
   Clicking this button ejects the track from the deck. Alternatively you can use
   a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
   information.
 
-**Quantize Mode Toggle**
-  If enabled, all cues, hotcues, loops, and beatloops will be automatically
-  :term:`quantized <quantization>` so that they begin on a beat.
+**Repeat Mode Toggle**
+  If enabled, the repeat mode will jump back to the beginning and continue
+  playing when the track finishes.
 
 **Keylock Toggle**
   :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
