@@ -1072,25 +1072,26 @@ Track Information Display
   The number at the top right is the effective :term:`BPM` of the track. Tap the
   BPM to set the BPM to the speed you are tapping.
 
-Deck Options Button Grid
-------------------------
+Sample Deck Options Button Grid
+-------------------------------
 The buttons grid next to the waveform overview allow you to configure the
-sampler deck. Starting from the top-left and moving counterclockwise the buttons
-are as follows:
+sampler deck. Starting from the top row (left to right) and the bottom row (left to right), the buttons are as
+follows:
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
 
-  **Keylock Toggle**
+**Eject Track Button**
+  Clicking this button ejects the track from the deck.
+
+**Keylock Toggle**
   :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch.
 
-**Mix Orientation Toggle**
-  This control determines the sampler input's mix orientation.
-
-**Eject Track Button**
-  Clicking this button ejects the track from the deck.
+**Crossfader Orientation Toggle**
+  The :term:`crossfader` orientation determines to which side of the crossfader the sampler is assigned.
+  It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 
 Sample Deck Controls
 --------------------
