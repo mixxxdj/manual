@@ -2254,7 +2254,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       ===== =============================
       0     :term:`Sync lock <sync lock>` disabled for that deck
       1     Deck is sync follower
-      1     Deck is sync leader
+      2     Deck is sync leader
       ===== =============================
 
 .. mixxx:control:: [ChannelN],sync_key
