@@ -62,6 +62,13 @@ Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you
 Controls
 --------
 
+.. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_z2.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Native Instruments Traktor Z2 (schematic view)
+   :figclass: pretty-figures
+
 Mixer mode (Computer Internal vs. Direct mixer hardware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Traktor Z2 allows not only mixing using the mixer hardware directly, but also mixing internal in the software of the connected computer.
