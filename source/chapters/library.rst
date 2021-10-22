@@ -613,7 +613,7 @@ the context menu, and then choose :menuselection:`Metadata --> Import From File 
 
 .. hint:: Rescanning the library with :menuselection:`Library --> Rescan Library`
           in the menu on top of the application window will only detect newly
-          added or removed tracks but no modifications of existing tracks! This
+          added or removed tracks but no modifications of existing tracks. This
           is a known limitation.
 
 Popular software to edit metadata of audio files include:
