@@ -607,10 +607,14 @@ Fetching track metadata from MusicBrainz can fail:
 Using third-party software
 --------------------------
 
-If you have modified file metadata in third-party software, select
-:menuselection:`Library --> Rescan Library` in the menu on top of the
-application window. This prompts Mixxx to re-read the metadata from **all**
-tracks in the library.
+If you have edited file metadata in third-party software you need to re-import
+the modified metadata into Mixxx manually by selecting the affected tracks, open
+the context menu, and then choose :menuselection:`Metadata --> Import From File Tags`.
+
+.. hint:: Rescanning the library with :menuselection:`Library --> Rescan Library`
+          in the menu on top of the application window will only detect newly
+          added or removed tracks but no modifications of existing tracks! This
+          is a known limitation.
 
 Popular software to edit metadata of audio files include:
   * `Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)
