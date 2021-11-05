@@ -30,6 +30,13 @@ Since the Traktor Kontrol Z2 is a USB class compliant HID and audio device, the 
 Audio Setup
 -----------
 
+.. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_z2_audio_routing.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Native Instruments Traktor Z2 (schematic view)
+   :figclass: pretty-figures
+
 The mapping relies on the following channel assignments:
 
 ===================== ================
@@ -42,13 +49,13 @@ Output Channels       Assigned to
 ===================== ================
 Input Channels        Assigned to
 ===================== ================
-1-2 (Mic/Aux)         Microphone 1
+1-2 (Mic/Aux)         Auxiliary 1
 3-4 (CH 1 Line/Phono) Vinyl Control 1
 5-6 (CH 2 Line/Phono) Vinyl Control 2
 7-8 (Recording)       Record/Broadcast
 ===================== ================
 
-The microphone and auxiliary inputs are mixed with each other in the hardware together in input channels 1-2, so Mixxx can record and broadcast them.
+The mono microphone input and the stereo auxiliary input are mixed with each other in the hardware together in input channels 1-2, so Mixxx can record and broadcast them.
 
 The knobs for :hwlabel:`MASTER`, :hwlabel:`BOOTH`, :hwlabel:`HP VOLUME` are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller:
