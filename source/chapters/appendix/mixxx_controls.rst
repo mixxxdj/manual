@@ -3425,6 +3425,33 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Library],focused_widget
+
+   Read this control to know which library widget is currently focused, or write in order to focus a specific library widget.
+
+   This control can be used in controller scripts to trigger context-specific actions. For example, if the
+   tracks table has focus, pressing a button loads the selected track to a specific deck, while the same
+   button would clear the search if the search bar is focused.
+
+   Note: This control is useful only if the Mixxx main window has keyboard focus, otherwise it always returns 0.
+
+   :range:
+     ========  ================================
+     Value     Widget
+     ========  ================================
+     0         none (not writeable)
+     --------  --------------------------------
+     1         Search bar
+     --------  --------------------------------
+     2         Tree view
+     --------  --------------------------------
+     3         Tracks table
+     ========  ================================
+   :feedback: Currently focused pane changes
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Library],GoToItem
 
    Triggers different actions, depending on which interface element currently has keyboard focus:
