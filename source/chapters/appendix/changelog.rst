@@ -438,6 +438,13 @@ Other
 
 * Improve robustness of file type detection by considering the actual MIME type of the content. `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`_ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`_
 
+Packaging
+^^^^^^^^^
+
+
+* Downloads of external dependencies are placed in build/downloads
+* The sources for libkeyfinder are now expected in build/downloads/libkeyfinder-2.2.5.zip instead of build/download/libkeyfinder/v2.2.5.zip
+
 .. _v2-3-1:
 
 `2.3.1 <https://launchpad.net/mixxx/+milestone/2.3.1>`_ (2021-09-29)
