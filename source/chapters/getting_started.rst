@@ -42,7 +42,7 @@ make a backup of your existing settings just in case.
    <https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/>`_.
 
   **macOS**
-    Mixxx settings are in :file:`/Users/<username>/Library/Application\\ Support/Mixxx`
+    Mixxx settings are in :file:`/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx`
 
   **GNU/Linux**
     Mixxx settings are in :file:`/home/<username>/.mixxx`
