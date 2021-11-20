@@ -80,7 +80,7 @@ No.  Control                                               Function
 12   :hwlabel:`KEYLOCK` button                             Toggle key lock.
 12   :hwlabel:`SHIFT` + :hwlabel:`KEYLOCK` button          Cycle through tempo slider range (8%, 16%, 50%).
 13   :hwlabel:`SAMPLE VOL` knob                            Adjust the output level for all samplers.
-14   :hwlabel:`BANK UP` button                             *Currently not mapped*
+14   :hwlabel:`BANK UP` button                             Toggle quantize mode.
 14   :hwlabel:`SHIFT` + :hwlabel:`BANK UP` button          *Currently not mapped*
 15   :hwlabel:`PAR1` knob                                  Turn to control the effect chain's metaknob level.
 16   :hwlabel:`SLIP` button                                Press to toggle slip mode (lit if enabled).
@@ -223,5 +223,5 @@ Pressing a pad while holding the :hwlabel:`SHIFT` button jumps backward the numb
 Known Issues
 ------------
 
-- The :hwlabel:`BANK UP`/:hwlabel:`BANK DOWN` buttons are not mapped.
+- The :hwlabel:`BANK DOWN` button is not mapped.
 - The :hwlabel:`SCRATCH` button is not mapped.
