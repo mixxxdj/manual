@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2021-11-20 21:40-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,11 @@ msgid "`Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help sup
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:21
-msgid "`Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
+msgid "`Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:22
-msgid "`Make MIDI mappings <https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for your controller"
+msgid "`Make MIDI mappings <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_ for your controller"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:25
@@ -49,7 +49,7 @@ msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:26
-msgid "Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the information on it is up to date."
+msgid "Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the information on it is up to date."
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:28
@@ -89,7 +89,7 @@ msgid "Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist :term:
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:48
-msgid "Register an account on our development platform `Github <https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx Development <https://mixxx.org/wiki/doku.php/using_git>`_"
+msgid "Register an account on our development platform `Github <https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:51
