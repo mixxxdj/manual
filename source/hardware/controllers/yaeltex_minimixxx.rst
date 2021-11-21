@@ -124,6 +124,10 @@ default actions for each button.  Some buttons activate other layers.  When a
 layer is selected, pushing another layer button will enable that layer instead.
 Or, press the currently-activated layer button to disable it.
 
+In the Default Layer, the encoders above the Pitch sliders will have an animated
+spinning indicator, and the encoders above the Level sliders will show an
+animated VU meter for each deck.
+
 ===============================  ========  =====================================
 Button                           Category  Function
 ===============================  ========  =====================================
@@ -174,7 +178,8 @@ Loop Layers
 
    ":hwlabel:`LOOP 1`", ":hwlabel:`BEATJUMP 1`", ":hwlabel:`LOOP 2`", ":hwlabel:`BEATJUMP 2`"
 
-The :hwlabel:`LOOP` layer can be activated separately per-deck.
+The :hwlabel:`LOOP` layer can be activated separately per-deck. When active, the
+two encoders for the activated deck will turn green.
 
 In the table below, the Left encoder for Deck 1 is above its pitch slider, Deck
 2's is above its level slider. The Left encoders control loops, and the Right
@@ -238,7 +243,7 @@ FX Layer
 When FX layer is activated, the four encoders control Effect Unit 1. The left
 three encoders adjust the :hwlabel:`META` knobs for the three effects in the
 unit, and the rightmost encoder controls the :hwlabel:`SUPER` knob for the whole
-unit.
+unit. In FX mode, the encoders turn blue.
 
 Pressing an encoder enables or disables the effect. Pressing the rightmost
 encoder toggles the whole unit.
@@ -254,7 +259,8 @@ Library Layer
    ":hwlabel:`VERTICAL FOCUS`", ":hwlabel:`SELECT 1`", ":hwlabel:`SELECT 2`", ":hwlabel:`HORIZONTAL FOCUS`"
 
 
-When the Library layer is activated, the four encoders enable browsing of the library.
+When the Library layer is activated, the four encoders enable browsing of the
+library. In Library mode, the encoders turn purple.
 
 ==================  ================  ========================  ========================================
 Encoder             Category          Action                    Function
@@ -283,6 +289,7 @@ Main Gain Layer
 
 
 The main gain layer is useful for adjusting main and headphone output levels.
+When active, the encoders turn light green and light yellow.
 
 ==================  ================  ========================  ========================================
 Encoder             Category          Action                    Function
