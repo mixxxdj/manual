@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 12:16-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:6
+msgid "Launching Mixxx from the Command Line"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:7
+msgid "To launch Mixxx using the command line:"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:13
+msgid "**Windows**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:10
+msgid "Locate the folder where Mixxx is installed and copy the file path. You can also obtain the file path by right clicking on the Mixxx icon and then choosing 'Properties'. Copy the path and paste it in terminal and add ``\\mixxx`` at the end - everything should be inside quotes. Press Enter. The entire command will look like this ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:18
+msgid "**macOS**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:16
+msgid "Similarly, for macOS, the command will be ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:23
+msgid "**GNU/ Linux**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:21
+msgid "If Mixxx is in your system's search path (``$PATH``), you can just type ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:26
+msgid "Command line options"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:28
+msgid "Mixxx is designed to be as user-friendly as possible. As such, its command line options are only useful for development or debugging, as they make these tasks easier. Command line options are case-sensitive."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:32
+msgid "To launch Mixxx with any of these command line options, simply append the option to the base command for your operating system. For example, to launch Mixxx in developer mode on Windows, type this in terminal ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:36
+msgid "In addition to these options, it is possible to specify one or more music file(s) on the command line. These will be loaded at start-up.  Each file you specify will be loaded into the next virtual deck. For a list of supported file types, go to :ref:`file-format-compatibility`."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:43
+msgid "Top-level directory where Mixxx will look for its resource files such as MIDI mappings, overriding the default installation location."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:46
+msgid "Top-level directory where Mixxx will look for sound source plugins in addition to default locations."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:49
+msgid "Top-level directory where Mixxx will look for user settings files such as the library database and preferences configuration file."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:52
+msgid "Log all controller data Mixxx sends and receives as well as scripts it loads."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:54
+msgid "Enable developer mode. Includes extra logs, stats on performance and the Developer tools menu as well as tooltips and logs useful for skin developers."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:58
+msgid "Disable OpenGL widgets (scrolling waveforms, spinnies) to work around GPU driver bugs. If Mixxx is crashing on startup, try using this."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:62
+msgid "Automatically loads empty waveforms"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:63
+msgid "Disables spinning vinyl widgets"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:64
+msgid "Disables synchronization polling"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:65
+msgid "Doesn't open controllers by default"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:66
+msgid "Use a custom locale for loading translations (e.g ``fr``)"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:68
+msgid "Start Mixxx in full-screen mode."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:69
+msgid "Set the verbosity of command line logging."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:72
+msgid "Value"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:72
+msgid "Meaning"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:74
+msgid "``critical``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:74
+msgid "Critical/Fatal only"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
+msgid "``warning``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
+msgid "Above + Warnings"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:76
+msgid "``info``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:76
+msgid "Above + Informational messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:77
+msgid "``debug``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:77
+msgid "Above + Debug/Developer messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:78
+msgid "``trace``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:78
+msgid "Above + Profiling messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:80
+msgid "Set the logging level at which the log buffer is flushed to ``mixxx.log``. ``LEVEL`` is one of the values defined at ``--logLevel`` above."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:84
+msgid "Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates to false. A debugger can then be used to continue. This disables the ``MIXXX_DEBUG_ASSERTIONS_FATAL`` flag which can otherwise lead to a time consuming full rebuild."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:89
+msgid "Display this help message and exit"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:92
+msgid "Developer tools"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:94
+msgid "To start Mixxx in Developer mode from a custom resource directory with :term:`MIDI` and :term:`HID` logging enabled, type the following line into the terminal and hit return: ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:102
+msgid "Experiment modes for rapid development and testing"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:104
+msgid "Adds a static Experiment class with a tri-state mode flag that indicates whether the experiment mode is OFF, BASE, or EXPERIMENT."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:107
+msgid "Adds :menuselection:`Developer --> Stats:Experiment Bucket` and :menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would like to collect in your base and experiment buckets."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:112
+msgid "Updates StatsManager to segment collected stats into a base and experiment bucket. This allows you to quickly measure the difference a code change has on relevant counters / timers within the same execution of Mixxx."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:116
+msgid "This is useful for quickly enabling and disabling a code change without a re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as well as a quantified sense of how it differs in terms of stats Mixxx collects."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:121
+msgid "All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are segmented into a BASE STATS and EXPERIMENT STATS section printed to the log on exit."
+msgstr ""
