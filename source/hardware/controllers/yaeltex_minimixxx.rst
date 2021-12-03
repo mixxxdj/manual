@@ -29,7 +29,12 @@ Controller
 ~~~~~~~~~~
 
 The MiniMixxx is a USB class compliant MIDI device.  To work correctly with this
-mapping, you should load blah blah blah custom layout.
+mapping, you need to load the custom Yaeltex layout file onto your controller:
+
+- Download the :download:`MiniMixxx Layout Configuration<../../_static/controllers/MiniMixxx.ytx>`.
+- Go to `Yaeltex Kilowhat <https://kilowhat.yaeltex.com/>`_ configuration site.
+- Select your controller and click "Load From Desktop"
+- Select the downloaded layout file.
 
 Mapping description
 -------------------
