@@ -1,3 +1,5 @@
+.. _pioneer-ddj-200:
+
 Pioneer DDJ-200
 ===============
 
@@ -77,7 +79,7 @@ Mixer section (p. 10)
 ===  =====================================================  ============================================================================================
 No.  Control                                                Function
 ===  =====================================================  ============================================================================================
-1    :hwlabel:`MASTER` button                               Toggle Master/Cue knob of headphones between left and right
+1    :hwlabel:`MASTER` button                               Toggle main/cue knob of headphones between left and right
 1    :hwlabel:`SHIFT` + :hwlabel:`MASTER` button            Toggle between 2- and 4-deck mode
 2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs      Adjust high/mid/low-frequencies
 3    :hwlabel:`CFX` knobs                                   Turns on the selected effects

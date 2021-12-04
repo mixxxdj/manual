@@ -140,11 +140,13 @@ class MixxxControlIndex(Index):
             (name, dispname, typ, docname, anchor)
             for name, dispname, typ, docname, anchor, prio in self.domain.get_objects()
         )
-        items = sorted(items, key=lambda item: item[0])
         for name, dispname, typ, docname, anchor in items:
             lis = content.setdefault(typ, set())
             lis.add((dispname, 0, docname, anchor, docname, "", typ))
-        re = [(k, v) for k, v in sorted(content.items())]
+        re = [
+            (k, list(sorted(v, key=lambda x: x[0].lower())))
+            for k, v in sorted(content.items(), key=lambda x: x[0])
+        ]
 
         return (re, True)
 

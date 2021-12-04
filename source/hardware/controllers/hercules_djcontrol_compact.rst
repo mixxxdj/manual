@@ -27,7 +27,7 @@ Shift + Play jumps to the beginning of the track and stops playback.
 The cue button behaves differently depending on the :ref:`cue mode set in Mixxx’s Preferences <interface-cue-modes>`.
 
 The sync button synchronizes the tempo to the other deck.
-Press and hold sync to engage :ref:`Sync Lock <master-sync>`.
+Press and hold sync to engage :ref:`Sync Lock <sync-lock>`.
 
 There is only one each of the Mode, Shift, and Scratch buttons, so they
 affect both decks.

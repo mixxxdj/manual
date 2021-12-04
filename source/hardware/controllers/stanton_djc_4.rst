@@ -21,7 +21,7 @@ This controller has a built-in 4 channel sound card, with MASTER output (RCA and
 =============== ========================
 Output Channels Assign to
 =============== ========================
-1-2             Master
+1-2             Main
 3-4             Headphones
 =============== ========================
 
@@ -38,7 +38,7 @@ TRS on front) or Line/Phono 3/4 (RCA).
 Input 1 routing
 ^^^^^^^^^^^^^^^
 
-On the rear side is a small switch to select if Input 1 is routed to the PC or directly to the master output (through). It is therefore possible to include the microphone into a recording/stream or to
+On the rear side is a small switch to select if Input 1 is routed to the PC or directly to the main output (through). It is therefore possible to include the microphone into a recording/stream or to
 exclude it.
 
 .. seealso::
@@ -86,7 +86,7 @@ No.                       Control                                               
 4                         Channel :hwlabel:`CUE` buttons                          Toggle PFL for each channel.
 5                         Channel faders                                          Adjust the output level for each channel.
 6                         Cross fader                                             Fades between left and right deck.
-7                         Level indicator                                         Indicate the output level of master.
+7                         Level indicator                                         Indicate the output level of main.
 8                         :hwlabel:`CROSSFADER CURVE` (front side of controller)  Adjust crossfader curve between fade and cut.
 9                         :hwlabel:`HEADPHONES MIX` (front side of controller)    Adjusts the cue/main mix in the headphone output.
 10                        :hwlabel:`HEADPHONES LEVEL` (front side of controller)  Adjusts the headphone output gain.
@@ -170,7 +170,7 @@ At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few customiza
 Variable               Function                                                                                    Default
 =====================  ==========================================================================================  =========
 ``autoShowFourDecks``  If a track gets loaded into deck 3 or 4, automatically show four decks in Mixxx             ``false``
-``showMasterVu``       If set to false, show channel VU meter instead of Master L/R                                ``true``
+``showMasterVu``       If set to false, show channel VU meter instead of Main L/R                                  ``true``
 ``dryWetAdjustValue``  Amount the dryWetKnob changes the value for each increment                                  0.05
 =====================  ==========================================================================================  =========
 

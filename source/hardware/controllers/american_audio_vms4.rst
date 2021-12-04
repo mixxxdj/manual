@@ -42,7 +42,7 @@ Setup
 6.  Click Sound Hardware. In the right pane:
 
     1. Set the sample rate to **44100Hz**
-    2. Set the Master output to **None**
+    2. Set the Main output to **None**
     3. Set the Headphone output to **None**
     4. Set the Deck 1 output to the **VMS4** device and **Channel 3-4**
        (may show as “USB Audio Device” on Windows)
@@ -84,7 +84,7 @@ Direct deck output implications
 
 This setup uses direct deck outputs because mixing takes place in the
 VMS4 hardware. The down side to this is that you won’t be able to use
-Mixxx features that play to Master or Cue buses like the Preview Deck or
+Mixxx features that play to Main or Cue buses like the Preview Deck or
 Samplers. Using these features with a hardware + MIDI mixer like the
 VMS4 is not really feasible unless you used a separate sound interface
 or controlled Mixxx’s internal mixer another way.
@@ -154,7 +154,7 @@ side controls Deck 1 and the right side controls Deck 2.*
 -  **CUE** - Operates according to the Cue mode set in Mixxx's preferences
    Hold Shift and press to play immediately from the cue point (known as Cue+Play or CUP.)
 -  **Play** - Press to toggle deck playback
-   Hold Shift and press to set this deck as the master for syncing with another
+   Hold Shift and press to set this deck as the leader for syncing with another
 -  **Pause** - Stops the deck playback
 
 Effects section

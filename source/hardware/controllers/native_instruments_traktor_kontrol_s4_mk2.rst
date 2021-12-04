@@ -40,7 +40,7 @@ Mapping Description
 -------------------
 
 Push and hold the :hwlabel:`SYNC` button to “lock” sync on for all decks you want to remain in sync.
-Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable :ref:`Sync Lock <master-sync>` for details.
+Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable :ref:`Sync Lock <sync-lock>` for details.
 
 Mixxx does not have remix decks, so the four remix slot buttons control the samplers.
 There are some more bonus actions that can be accessed by holding :hwlabel:`SHIFT` and pressing certain buttons.
@@ -54,29 +54,35 @@ Control                                             Description
 :hwlabel:`FILTER` knob                              Controls QuickEffect superknob. This controls the Filter effect by default, but a different effect can be chosen in the Equalizer section of Mixxs’s Preferences.
 :hwlabel:`SNAP`                                     Toggles library fullscreen
 :hwlabel:`LOOP RECORD`                              Toggles recording
+:hwlabel:`LOOP RECORDER PLAY`                       Hold down and press :hwlabel:`FLUX` button on a deck to enable autoslip mode on that deck.
 :hwlabel:`SHIFT` + :hwlabel:`Gain`                  Up/down will move the beatgrid
+:hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN`     Increase / decrease the BPM of the track by 0.5. Press the encoder to round the track the nearest whole BPM. Best done to fix tracks with the wrong BPM with the pitch fader at 0.
+:hwlabel:`BROWSE` encoder                           Up/down will browse in the focused library pane. Pressing acts like a double click on the mouse.
 ==================================================  =========================================================================
 
 :hwlabel:`GAIN`, effects routing, equalizer high/mid/low, and :hwlabel:`CUE` (headphones) behave as labeled.
 
-The Master Volume knob on the S4 controls the volume of the S4’s master output in hardware, so it does not affect the software master gain knob in Mixxx.
+The Master Volume knob on the S4 controls the volume of the S4’s main output in hardware, so it does not affect the software main gain knob in Mixxx.
 Peak display is only generated from software, however.
-So if you see or hear clipping, lower the gain of the playing decks; adjusting the master volume knob on the S4 will not help.
+So if you see or hear clipping, lower the gain of the playing decks; adjusting the main volume knob on the S4 will not help.
 
 Decks
 ~~~~~
 
-==================================================  =========================================================================
-Control                                             Description
-==================================================  =========================================================================
-:hwlabel:`LOAD`                                     Load track selected in library to the deck.
-:hwlabel:`SHIFT` + :hwlabel:`LOAD`                  Eject track
-Small buttons with play icons                       Play a sampler from its cue point. If no track is loaded in the sampler, the track selected in the library will be loaded.
-:hwlabel:`SHIFT` + small buttons with play icons    If sampler is playing, stop it. If sampler is not playing, the loaded eject track from the sampler.
-:hwlabel:`1-4` numbered buttons                     Set/activate :term:`hotcue`
-:hwlabel:`SHIFT` + :hwlabel:`1-4` numbered buttons  Clear hotcue
-:hwlabel:`SHIFT` + Wheel nudge                      Fast search through track when not playing
-==================================================  =========================================================================
+===================================================  =========================================================================
+Control                                              Description
+===================================================  =========================================================================
+:hwlabel:`LOAD`                                      Load track selected in library to the deck.
+:hwlabel:`SHIFT` + :hwlabel:`LOAD`                   Eject track
+Small buttons with preview icons                     Play a sampler from its cue point. If no track is loaded in the sampler, the track selected in the library will be loaded.
+:hwlabel:`SHIFT` + small buttons with preview icons  If sampler is playing, stop it. If sampler is not playing, the loaded track is ejected from the sampler.
+:hwlabel:`1-4` numbered buttons                      Set/activate :term:`hotcue`
+:hwlabel:`SHIFT` + :hwlabel:`1-4` numbered buttons   Clear hotcue
+:hwlabel:`SHIFT` + Wheel nudge                       Fast search through track when not playing
+:hwlabel:`FLUX` button                               Enable slip mode (if shift is held down this decreases the range of the BPM slider, if :hwlabel:`LOOP RECORDER PLAY` is held down enter autoslip mode)
+:hwlabel:`RESET` button                              Reset key (if shift is held down increase the range of the BPM slider
+
+===================================================  =========================================================================
 
 Looping
 ^^^^^^^
@@ -108,6 +114,11 @@ This will be expanded in a future update to implement the `Standard Effects Mapp
 
 The buttons at the top of each mixer column control which decks are routed to which effects units.
 
+Mapping extras
+~~~~~~~~~~~~~~~
+Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the :hwlabel:`FLUX` on a deck will enable autoslip mode on that deck. Autoslip turns on slip mode automatically before doing certain actions and turns it off after the actions is finished. It works for beat loops, hot cues, and scratching (warning, can have weird effects when scratching).
+
+
 Mapping options
 ~~~~~~~~~~~~~~~
 
@@ -118,7 +129,7 @@ Making these changes is still a little awkward and we will be making controller 
 For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
 
 1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
-3. Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`.
-4. Click :guilabel:`Open Selected File`.
-5. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
-6. At the top of the file will be short instructions explaining what to do.
+2. Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`.
+3. Click :guilabel:`Open Selected File`.
+4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
+5. At the top of the file will be short instructions explaining what to do.

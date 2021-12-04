@@ -3,7 +3,7 @@
 Korg nanoKONTROL2
 =================
 
-There are two mappings for this controller included in Mixxx. The one labeled “Korg Nanokontrol 2 (alternative)” takes advantage of features introduced in Mixxx 2.0 such as master sync and cue modes.
+There are two mappings for this controller included in Mixxx. The one labeled “Korg Nanokontrol 2 (alternative)” takes advantage of features introduced in Mixxx 2.0 such as sync lock and cue modes.
 
 -  `Manufacturer’s product page <http://www.korg.com/us/products/controllers/nanokontrol2/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/korg-nanokontrol2-8-decks-cueloops-save-loops-v2-2/13246>`__

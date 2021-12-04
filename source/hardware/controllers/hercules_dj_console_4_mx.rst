@@ -28,8 +28,8 @@ The drivers for Windows and OS X install an application that can be used to conf
 
 -  **Volume/Pan/Mute**: Sets the volume output for channels 1-2 and channels 3-4. Note that the volume of the channels 3-4 refers to the line output from behind. In other words. It does not affect the
    volume of the headphones.
--  **Line in mode**: Sets the line level of the inputs. In case of line 1-2, it also allows to redirect the microphone to the line 1-2. Else, it is mixed in hardware to the master out.
--  **Talkover attenuation**: Sets how much to attenuate the master output when activating the hardware mixed microphone.
+-  **Line in mode**: Sets the line level of the inputs. In case of line 1-2, it also allows to redirect the microphone to the line 1-2. Else, it is mixed in hardware to the main out.
+-  **Talkover attenuation**: Sets how much to attenuate the main output when activating the hardware mixed microphone.
 -  **Enable/Disable jog wheels**: Allows to disable the jog wheels, in case the user desires not to use them.
 -  **Sensitivity**: Alters the sensitivity of the jog wheels. If you change this, change also the sensitivity option in the script, as described below.
 -  **Audio Mode**: Enables the WDM drivers (non-asio) or the specific ASIO-only driver.
@@ -48,10 +48,10 @@ Options
 There are several options that can be configured for this mapping. You can edit these by opening the JavaScript file in a
 text editor like Notepad, TextEdit, or gEdit and editing the values at the top of the file.
 
--  **autoHeadMix**: Indicates if the Headphone/Master mix should automatically be set to master when none of the headphone cue buttons are activated.
+-  **autoHeadMix**: Indicates if the headphone/main mix should automatically be set to main when none of the headphone cue buttons are activated.
 -  **autoHeadcueOnLoad**: Automatically enable the headphone cue select (PFL) of the deck when a song is loaded. (Like in virtual-dj)
 -  **beatFlashLed**: set which LED, if any, blinks with the beat
--  **useVuMeters**: Simulate vuMeters using the kill and source buttons’ LEDs. If enabled, shows master VUs, or deck VU depending if prefader listen button is enabled or not.
+-  **useVuMeters**: Simulate vuMeters using the kill and source buttons’ LEDs. If enabled, shows main VUs, or deck VU depending if prefader listen button is enabled or not.
 -  **naviScrollSpeed**: KeyRepeat speed for navigating up/down, in milliseconds. 100 is a good value. Lower values make it scroll faster.
 -  **crossfaderScratchCurve**: The controller has two modes to report the crossfader position. The default/beatmix curve, and the scratch curve. The default curve reports the real position of the
    control. The scratch curve just crossfades on the edges. Setting this setting to true, the curve will change to scratch curve when the scratch mode is on (scratch button). Setting it to false will
@@ -64,7 +64,7 @@ text editor like Notepad, TextEdit, or gEdit and editing the values at the top o
 -  **FXbuttonsSetup**: This indicates which mapping for the FX buttons should Mixxx use. The possible values are: mixxx21, mixxx20, and original (Hercules Manual and the default setup in Virtual DJ 7
    LE)
 
-Master / Global controls
+Main / Global controls
 ------------------------
 
 +--------------------------------------------------------------------------------------------------------+----------------------------------+---------------------------------------------------------+
@@ -72,7 +72,7 @@ Master / Global controls
 +========================================================================================================+==================================+=========================================================+
 | Cross-Fader                                                                                            |                                  | Fades between left and right decks                      |
 +--------------------------------------------------------------------------------------------------------+----------------------------------+---------------------------------------------------------+
-| Vol. Main                                                                                              |                                  | Controls the Master volume knob of Mixxx.               |
+| Vol. Main                                                                                              |                                  | Controls the main volume knob of Mixxx.                 |
 +--------------------------------------------------------------------------------------------------------+----------------------------------+---------------------------------------------------------+
 | Scratch                                                                                                |                                  | Toggles scratch mode. When scratch mode is enabled,     |
 |                                                                                                        |                                  | pressing a jog wheel controls scratching                |
@@ -93,7 +93,7 @@ Master / Global controls
 |                                                                                                        |                                  | wheel takes over the cursor movement until the up/down  |
 |                                                                                                        |                                  | button is released                                      |
 +--------------------------------------------------------------------------------------------------------+----------------------------------+---------------------------------------------------------+
-| Cue/Mix                                                                                                |                                  | Control mix of master and PFL (cue) output in           |
+| Cue/Mix                                                                                                |                                  | Control mix of main and PFL (cue) output in             |
 |                                                                                                        |                                  | headphones                                              |
 +--------------------------------------------------------------------------------------------------------+----------------------------------+---------------------------------------------------------+
 | Mic On/Off                                                                                             |                                  | Enables or disables the microphone. The microphone is   |
@@ -154,7 +154,7 @@ Deck / Channel specific controls
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Sync      | LED            | If the beatflash led has been set to Sync in the JavaScript file, the light of this button will be flashing following the beats of the song.                            |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Sync      | Pressed for    | Activates master sync for this deck.                                                                                                                                    |
+| Sync      | Pressed for    | Activates sync lock for this deck.                                                                                                                                      |
 |           | 500ms          |                                                                                                                                                                         |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Sync      | Shift          | Activates the beatgrid edit mode                                                                                                                                        |
@@ -228,7 +228,7 @@ Deck / Channel specific controls
 | Medium/   |                |                                                                                                                                                                         |
 | Treble)   |                |                                                                                                                                                                         |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Kill      | LED            | If the useVuMeters option is activated in the JavaScript file, these LEDs will simulate a VU meter of the master or the deck (if prefader-listen is on). They will      |
+| Kill      | LED            | If the useVuMeters option is activated in the JavaScript file, these LEDs will simulate a VU meter of the main or the deck (if prefader-listen is on). They will        |
 | (Bass/    |                | flicker if the sound clips. If EQ kill is enabled, the vumeter is temporarily disabled                                                                                  |
 | Medium/   |                |                                                                                                                                                                         |
 | Treble)   |                |                                                                                                                                                                         |
@@ -236,7 +236,7 @@ Deck / Channel specific controls
 | Source    |                | Toggles the deck to use the input channel 1/2 as its audio source instead of Mixxx’s deck. Concretely, it activates vinyl passthrough mode.                             |
 | 1/2       |                |                                                                                                                                                                         |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Source    | LED            | If the vumeter is activated in the JavaScript file, they will show a vumeter of the master or the deck (if prefader-listen is on). If kill is enabled, the vumeter is   |
+| Source    | LED            | If the vumeter is activated in the JavaScript file, they will show a vumeter of the main or the deck (if prefader-listen is on). If kill is enabled, the vumeter is     |
 | 1/2       |                | temporarily disabled                                                                                                                                                    |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Keypad 1  |                | Set/Unset a beatloop of 0.5, 1, 2 or 4 beats. They act like the corresponding buttons in Mixxx. When a loop is set that isn’t one of these four main cases, buttons 3   |

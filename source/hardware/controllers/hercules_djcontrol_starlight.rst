@@ -26,11 +26,11 @@ However, if you wish to use the ASIO sound :term:`API` under Windows, please ins
 Sound card setup
 ----------------
 
-This controller has built-in 4 channel output sound card, with master and headphone output (both 3.5mm jack).
+This controller has built-in 4 channel output sound card, with main and headphone output (both 3.5mm jack).
 
 -  Open **Preferences > Sound Hardware**
 -  Select the **Output** tab
--  From the **Master** drop-down menu, select the audio interface, then **Channels 1-2**
+-  From the **Main** drop-down menu, select the audio interface, then **Channels 1-2**
 -  From the **Headphones** drop-down menu, select the audio interface, then **Channels 3-4**
 -  Click **Apply** to save the changes.
 
@@ -38,7 +38,7 @@ This controller has built-in 4 channel output sound card, with master and headph
    More details about audio configuration can be found in the :ref:`here <setup-laptop-and-external-card>`.
 
 .. note::
-   The **Master** and **Headphone** knobs are hardware controls and interact directly with the integrated sound card’s output.
+   The **Main** and **Headphone** knobs are hardware controls and interact directly with the integrated sound card’s output.
    Although they also send :term:`MIDI` messages, they have NOT been mapped in Mixxx, so do not expect an on-screen reaction when using them.
    This was done to prevent the knobs to adjust both the gain on the controller’s sound card and in Mixxx.
 

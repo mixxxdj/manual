@@ -1,7 +1,9 @@
+.. _hercules-djcontrol-jogvision:
+
 Hercules DJControl Jogvision
 ============================
 
--  `Manufacturer's product page <https://www.hercules.com/en-us/product/djcontroljogvision-2old/>`__
+-  `Manufacturer's product page <https://www.hercules.com/en/product/djcontroljogvision/>`__
 -  `Manufacturer's support and downloads page <https://support.hercules.com/en/product/djcontroljogvision-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-jogvision/17839>`__
 
@@ -26,7 +28,7 @@ This controller has built-in 4 channel output sound card, with:
 ================  ===================
 Channel           Port
 ================  ===================
-Master Output     RCA and 3.5mm jack
+Main Output       RCA and 3.5mm jack
 Booth Output      RCA and 3.5mm jack
 Headphone Output  6.35mm and 3.5mm jack
 Microphone Input  6.35mm jack
@@ -35,7 +37,7 @@ Auxiliary Input   3.5mm jack
 
 - Open :menuselection:`Preferences --> Sound Hardware`
 - Select the :guilabel:`Output` tab
-- From the :guilabel:`Master` drop-down menu, select the audio interface, then :guilabel:`Channels 1-2`
+- From the :guilabel:`Main` drop-down menu, select the audio interface, then :guilabel:`Channels 1-2`
 - From the :guilabel:`Headphones` drop-down menu, select the audio interface, then :guilabel:`Channels 3-4`
 - Click :guilabel:`Apply` to save the changes.
 

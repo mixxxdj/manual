@@ -35,10 +35,10 @@ Software Monitoring
 Software monitoring can be used with the built-in microphone on a laptop or
 with a headset plugged into the built-in audio interface on a computer.
 However, there is a delay between the time you make sound into the microphone
-and hear it in the Master output. Due to the nature of digital audio, it takes
-time for input from the audio interface to be available for Mixxx to process,
-time for Mixxx to process the audio, and more time to send the audio back out
-the audio interface. This time is referred to as "latency".
+and hear it in the :term:`main output`. Due to the nature of digital audio, it
+takes time for input from the audio interface to be available for Mixxx to
+process, time for Mixxx to process the audio, and more time to send the audio
+back out the audio interface. This time is referred to as "latency".
 
 .. TODO: Uncomment when this diagram is added.
   .. figure:: ../_static/software-monitor-signal-path.png
@@ -73,7 +73,7 @@ To use software monitoring:
           :guilabel:`Microphone Monitor Mode` option to :guilabel:`Direct
           monitor (recording and broadcasting only)`. This will still mix the
           microphone input with your recorded and broadcasted mixes, but it
-          will not mix the microphone with the Master output. Don't forget to
+          will not mix the microphone with the main output. Don't forget to
           press the :guilabel:`Talk` button when using the microphone if you
           use this option.
 
@@ -185,7 +185,7 @@ measure the round trip latency. These programs are recommended on each
 :term:`OS <operating system>`:
 
 * **GNU/Linux**:
-  `jack_iodelay <https://www.linuxmusicians.com/viewtopic.php?t=8022>`_
+  `jack_iodelay <https://linuxmusicians.com/viewtopic.php?t=8022>`_
 * **Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_
 * **macOS**: `Audacity <https://manual.audacityteam.org/man/latency_test.html>`_
 
@@ -379,7 +379,7 @@ microphones. Stand-alone audio interfaces typically do supply phantom power.
 DJ Controllers With Microphone Inputs
 --------------------------------------
 DJ controllers with microphone inputs typically mix the microphone input with
-the master output without sending it to the computer. This does not have the
+the :term:`main output` without sending it to the computer. This does not have the
 problem with latency that happens with
 :ref:`microphones-software-monitoring`. However, many cheap DJ controllers do
 not digitize the signal to make it available to the computer. Refer to the
@@ -417,10 +417,10 @@ Microphone Ducking
 Microphone ducking is a technique to improve the audibility of speech by reducing the volume of background music while a voice signal is recorded by the microphone and allows listeners to hear the voice more clearly and consistently.
 While using Mixxx with a microphone, you might want the music to automatically fade into the background each time you speak, or you might prefer lowering the volume of the music to a specific level. Microphone ducking helps you achieve this.  The music will 'duck' out of the way of the microphone audio.
 
-.. figure:: ../_static/2.2/microphone-ducking.png
+.. figure:: ../_static/2.3/microphone-ducking.png
    :align: center
-   :width: 40%
-   :figwidth: 90%
+   :width: 55%
+   :figwidth: 100%
    :alt: The microphone ducking section
    :figclass: pretty-figures
 

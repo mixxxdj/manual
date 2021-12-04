@@ -45,7 +45,7 @@ These adjust the pitch control.
 When the Master button is held down:
 
 -  The left slider adjusts the Pre/Main headphone mix
--  The right slider adjusts Master Balance
+-  The right slider adjusts main balance
 -  Also hold the current mode button and touch the slider on that side to reset
    it to center
 
@@ -78,8 +78,8 @@ These adjust the channel volume as on a traditional mixer.
 
 When the Master button is held down:
 
--  The left slider adjusts the Headphone volume
--  The right slider adjusts Master volume
+-  The left slider adjusts the headphone volume
+-  The right slider adjusts main volume
 
 Soft buttons
 ~~~~~~~~~~~~
@@ -105,7 +105,7 @@ Level Meters
 ~~~~~~~~~~~~
 
 These normally show the pre-fader signal for the respective deck. When holding
-down the Master button, they show the stereo master output meters: left side for
+down the Master button, they show the stereo main output meters: left side for
 the left channel, right side for the right channel.
 
 **NOTE:** The LEDs are calibrated to the VU meters on-screen. If you see a red
@@ -154,10 +154,10 @@ MASTER mode
 ~~~~~~~~~~~
 
 When holding the central MASTER button, the left side controls the headphone
-channel, while the right side controls the master channel.
+channel, while the right side controls the main channel.
 
 -  Left top slider: Pre/main mix on headphone
 -  Right top slider: main balance
 -  Left slider: head gain
--  Right slider: master gain
--  Buttons: The buttons assign effects to head and master
+-  Right slider: main gain
+-  Buttons: The buttons assign effects to head and main output

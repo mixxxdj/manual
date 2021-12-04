@@ -5,7 +5,7 @@ Hercules DJ Console RMX2
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-dj-console-rmx-2-mapping-overhaul/17278>`__
 -  `Previous forum thread <https://mixxx.discourse.group/t/custom-midi-mapping-hercules-rmx-2-0-1-3/13102>`__
 
-This all-in-one DJ controller features a built in 4 channel sound card with balanced XLR master outputs and a balanced microphone input. It is a USB class compliant MIDI and audio device (unlike older
+This all-in-one DJ controller features a built in 4 channel sound card with balanced XLR main outputs and a balanced microphone input. It is a USB class compliant MIDI and audio device (unlike older
 Hercules controllers).
 
 .. versionadded:: 1.11
@@ -19,7 +19,7 @@ To change the mapping’s user options, you have to open the script file (*.js).
 -  **DJCRMX2.jogwheelShiftMultiplier**: Sets how much more sensitive the jogwheels get when holding [**SHIFT**]. Set it to 1 to disable jogwheel sensitivity increase when holding [**SHIFT**].
 -  **DJCRMX2.twinkleVumeterAutodjOn**: If true, level-meter twinkles if *AutoDJ* is enabled.
 -  **DJCRMX2.autoPFL**: If true, PFL / Cue (headphone) is being activated by loading a track into certain deck.
--  **DJCRMX2.vuMeterOutputMaster**: If true, deck vu meters show master output (L = Deck A, R = Deck B). If false, deck vu meter shows deck output (mono).
+-  **DJCRMX2.vuMeterOutputMaster**: If true, deck vu meters show main output (L = Deck A, R = Deck B). If false, deck vu meter shows deck output (mono).
 -  **DJCRMX2.showHideSamplersEffectsOnPadMode**: If true, *Samplers* and *EffectRack* get shown or hidden depending on the Pad-Mode.
 
 General Functions
@@ -31,11 +31,11 @@ Managed by Mixxx
 ========== ============ =========== ================= ========================================================
 Figure     [**SHIFT**]? Long-press? Control Name      Description
 ========== ============ =========== ================= ========================================================
-11         ✘            ✘           [**MAIN VOLUME**] Controls *Master* volume
+11         ✘            ✘           [**MAIN VOLUME**] Controls *Main* volume
 13         ✘            ✘           [**VINYL**]       Split headcue
 13         ✔            ✘           [**VINYL**]       Maximize library
 20         ✘            ✘           [**CROSS FADER**] Controls crossfader
-21         ✘            ✘           [**CUE TO MIX**]  Controls mix in headphones between PFL and master signal
+21         ✘            ✘           [**CUE TO MIX**]  Controls mix in headphones between PFL and main signal
 7          ✘            ✘           [**MIC ON/OFF**]  Toggle microphone on/off and talkover on/off
 15 (Right) ✘            ✘           [**FILES**]       Go To Item in Library
 15 (Right) ✔            ✘           [**FILES**]       Add to bottom of Auto DJ playlist

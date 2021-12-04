@@ -2,7 +2,7 @@
 
 .. _interface-overview:
 
-An Overview of the Mixxx Interface
+The Mixxx User Interface
 **********************************
 
 Welcome to the Mixxx interface. This is where the magic happens.
@@ -10,42 +10,48 @@ You are going to want to get very familiar with this interface because it is
 the main way to use Mixxx. In this chapter, we present the default interface of
 Mixxx and describe its elements, knobs and faders.
 
-.. figure:: ../_static/2.2/overview.png
+.. figure:: ../_static/2.3/mixxx-interface.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: The Mixxx interface - Deere skin
+   :alt: The Mixxx interface - Latenight skin
    :figclass: pretty-figures
 
-   The Mixxx interface - Deere skin
+   The Mixxx interface - Latenight skin
 
-This is the Deere skin. It is the default skin supplied with Mixxx 2.2. There
+This is the LateNight skin, PaleMoon color theme. It is the default skin supplied with Mixxx 2.3. There
 are a variety of other skins included with Mixxx. You should explore them all
-to figure out which one you prefer. This section will focus on Deere only.
+to figure out which one you prefer. This section will focus on LateNight only, though all Mixxx skins provide most of the controls described here.
 
 .. _interface-skin-settings:
 
-Section Skin Settings
-=========================
+Skin Settings
+=============
+On top, and on the right side of the user interface are the section expansion buttons and options.
 
-  .. figure:: ../_static/2.2/expansion-buttons-top.png
+  .. figure:: ../_static/2.3/skin-settings-top.png
    :align: center
-   :width: 430px
+   :width: 500px
    :figwidth: 90%
    :alt: The section expansion buttons
    :figclass: pretty-figures
 
    The GUI section quick toggles buttons in the top tool bar
 
-If you click on either :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
+If you click on either :guilabel:`WAVEFORMS`, :guilabel:`4 DECKS`, :guilabel:`MIXER`, :guilabel:`EFFECTS`, :guilabel:`SAMPLERS` or :guilabel:`MICS & AUX` then you will enable control sections for interacting with:
 
+* :ref:`interface-waveform`
+* :ref:`interface-decks`
+* :ref:`interface-mixer`
 * :ref:`interface-effects`
 * :ref:`interface-sampler`
 * :ref:`interface-mic`
 
 You can also use the specific :ref:`appendix-shortcuts`.
 
-  .. figure:: ../_static/2.2/expansion-buttons-skin-settings.png
+Click the :guilabel:`SETTINGS` button or gear icon (depending on the skin) to open the skin settings menu. This provides common basic controls as well as some skin-specific options.
+
+  .. figure:: ../_static/2.3/skin-settings-right.png
     :align: center
     :width: 245px
     :figwidth: 90%
@@ -54,18 +60,16 @@ You can also use the specific :ref:`appendix-shortcuts`.
 
     The Skin Settings menu on the right
 
-On top, and on the right side of the user interface are the section expansion buttons and options.
-
 .. _interface-decks:
 
-The Deck Sections
-=================
+Decks
+=====
 
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/interface-decks.png
+.. figure:: ../_static/2.3/deck-sections.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -73,6 +77,16 @@ The Deck Sections
    :figclass: pretty-figures
 
    A deck with a track loaded
+
+The deck section comes in three sizes: Full, Compact and Mini.
+You can switch between any of the three sizes by clicking on the :guilabel:`Settings` button or the gear icon.  Under the :guilabel:`Decks` section, click on "hide mixer to select".
+This will automatically select the Compact deck (underlined and bolded). If you wish to change to a different deck size, you can choose FULL or Mini.
+
+  | The FULL deck (which is similar in all skins) will show the :ref:`interface-vc-mode` and Key controls at the top of the deck section and then the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` at the bottom.
+  | The Compact deck has a reduced set of controls for when you don't need all of them on screen, for example when they're also accessible from your controller. Reverse is removed from the :ref:`interface-playback`, and the :ref:`interface-hotcues`, :ref:`interface-intro-outro`, :ref:`interface-looping` and rate adjust buttons are not shown.
+  | The mini deck is of a much smaller size and shows only the waveform and the :ref:`interface-track-info`. You can also use minimal decks with the maximized library.
+
+.. hint:: Hiding the mixer will by default switch to the compact decks.
 
 The deck section allows you to control everything relating to a virtual
 turntable :term:`deck`. We are going to break this down into sections.
@@ -82,7 +96,7 @@ turntable :term:`deck`. We are going to break this down into sections.
 Track Information Display
 -------------------------
 
-.. figure:: ../_static/2.2/track-information.png
+.. figure:: ../_static/2.3/track-info.png
    :align: center
    :width: 60%
    :figwidth: 100%
@@ -120,10 +134,10 @@ Track Information Display
             information.
 
 **Key**
-  .. figure:: ../_static/2.2/key-options.png
+  .. figure:: ../_static/2.3/key.png
     :align: center
     :width: 42%
-    :figwidth: 90%
+    :figwidth: 80%
     :alt: The options displayed when you click on the Key
     :figclass: pretty-figures
 
@@ -156,29 +170,20 @@ By default the waveform displays are aligned parallel to each other in
 order to make :term:`beatmatching` easier, as it is possible to beatmatch
 visually by aligning the beats that appear in each waveform.
 
-.. figure:: ../_static/2.2/deere-parallel-waveforms.png
+.. figure:: ../_static/2.3/latenight-parallel-waveform.png
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Mixxx default skin (Deere) - Parallel waveforms
    :figclass: pretty-figures
 
-   Mixxx default skin (Deere) - Parallel waveforms
+   Parallel waveforms in the default Mixxx skin (LateNight, PaleMoon theme)
 
 Depending on the skin, Mixxx displays either parallel waveforms (default) or
 separate waveforms. LateNight and Tango skins only have resizable parallel waveforms while
 Shade skin provides only separate waveforms.
 In Deere skin you can select your preferred appearance by clicking the gear icon in the upper right corner,
 then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
-
-.. figure:: ../_static/2.2/deere-separate-waveforms.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Mixxx alternative skin (Latenight) - parallel waveforms
-   :figclass: pretty-figures
-
-   Mixxx default skin (Deere) - Separate waveforms
 
 .. warning :: If you have a slower computer and notice performance issues with
               Mixxx, try lowering the frame rate or changing the waveform type
@@ -250,9 +255,9 @@ Deck Options Button Grid
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/options-button-grid.png
+.. figure:: ../_static/2.3/deck-options-grid.png
    :align: center
-   :width: 79px
+   :width: 100px
    :figwidth: 100%
    :alt: The Options Button Grid of the deck
    :figclass: pretty-figures
@@ -260,16 +265,16 @@ Deck Options Button Grid
    The Options Button Grid of the deck
 
 The six buttons at the bottom right below the waveform allow you to configure
-the deck. Starting from the top-left and moving clockwise the buttons are as
+the deck. Starting from the top row (left to right) and the bottom row (left to right), the buttons are as
 follows:
 
 **Slip Mode Toggle**
   When active, the playback continues muted in the background during a loop, reverse, scratch, etc.
   Once disabled, the audible playback will resume where the track would have been.
 
-**Repeat Mode Toggle**
-  If enabled, the repeat mode will jump back to the beginning and continue
-  playing when the track finishes.
+**Quantize Mode Toggle**
+  If enabled, all cues, hotcues, loops, and beatloops will be automatically
+  :term:`quantized <quantization>` so that they begin on a beat.
 
 **Beat-grid Adjust Button**
   Clicking this button adjusts the track beat-grid so that the current position
@@ -277,14 +282,15 @@ follows:
   track's :term:`BPM` but failed to align the beat markers on the beats. For
   more information, go to the chapter :ref:`configuration-bpm-detection`.
 
+
 **Eject Track Button**
   Clicking this button ejects the track from the deck. Alternatively you can use
   a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
   information.
 
-**Quantize Mode Toggle**
-  If enabled, all cues, hotcues, loops, and beatloops will be automatically
-  :term:`quantized <quantization>` so that they begin on a beat.
+**Repeat Mode Toggle**
+  If enabled, the repeat mode will jump back to the beginning and continue
+  playing when the track finishes.
 
 **Keylock Toggle**
   :term:`Key lock <key lock>` locks the track's pitch so that adjustments to its
@@ -297,9 +303,9 @@ follows:
 Playback/Cue Controls
 ---------------------
 
-.. figure:: ../_static/2.2/cue-controls.png
+.. figure:: ../_static/2.3/playback-control.png
   :align: center
-  :width: 54px
+  :width: 90px
   :figwidth: 100%
   :alt: The playback and cueing controls of the deck
   :figclass: pretty-figures
@@ -329,6 +335,12 @@ Playback/Cue Controls
 
   .. seealso:: The actual behavior of the Cue button depends on the
                selected :ref:`Cue mode <interface-cue-modes>`.
+
+**Reverse button**
+  Press and hold this button to temporarily play the track backwards during regular playback.
+  Right-click and hold for 'Censor' mode. This reverses the track while the playback continues
+  muted in the background. On release playback is resumed where the track would have been
+  if it had not been reversed.
 
 Setting Cue points
 ^^^^^^^^^^^^^^^^^^
@@ -431,7 +443,7 @@ Intro/Outro Markers
 .. sectionauthor::
    Goodness Chris-Ugari <goodnesschrisugari@yahoo.com>
 
-.. figure:: ../_static/Mixxx-200-Latenight-Deck-intro-outro.png
+.. figure:: ../_static/2.3/intro-outro.png
   :align: center
   :width: 55px
   :figwidth: 100%
@@ -464,7 +476,7 @@ Transport Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/transport-controls.png
+.. figure:: ../_static/2.3/transport-controls.png
   :align: center
   :width: 80px
   :figwidth: 100%
@@ -492,9 +504,9 @@ Vinyl Control Mode and Cueing controls
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/vinyl-control-mode.png
+.. figure:: ../_static/2.3/vinyl-control.png
    :align: center
-   :figwidth: 60%
+   :figwidth: 39%
    :alt: The Vinyl Control Mode and Cueing controls of a deck
    :figclass: pretty-figures
 
@@ -547,9 +559,9 @@ Sync and Rate Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/sync-and-rate-controls.png
+.. figure:: ../_static/2.3/sync-and-rate.png
    :align: right
-   :width: 68px
+   :width: 76px
    :figwidth: 100px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
@@ -578,8 +590,8 @@ control rate changes also from your computer's keyboard, see the chapter
 
   So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
   track with a beatgrid then deck 1 will win since numerically it is first. The
-  sync targets for decks are chosen with the new master sync feature, see
-  :ref:`master-sync` for more information.
+  sync targets for decks are chosen with the new sync lock feature, see
+  :ref:`sync-lock` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -593,11 +605,14 @@ control rate changes also from your computer's keyboard, see the chapter
   +0.0%, which indicates no change.
 
 **Temporary Pitch/Rate buttons (Nudge)**
-  Pushing the minus and plus buttons is like nudging the metal edge of
+  Pushing the diagonal arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
   or pull forwards or backwards. If the buttons are released the previous tempo
   is restored. The buttons can act as either a fixed :term:`pitch bend` or a
   :term:`ramping pitch bend`.
+
+**Pitch/Rate buttons**
+  Clicking the :guilabel:`-` button will set the pitch/rate lower while the :guilabel:`+` button will set the pitch/rate higher. This is like moving the pitch slider up or down by a fixed amount. Unlike using the temporary pitch/rate buttons, the change is permanent so these button s don't need to be held down.
 
 .. seealso:: To customize the amount by which the buttons alter the pitch of
              the track, the slider range as well as the direction, go to
@@ -618,7 +633,7 @@ Loop Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/loop-controls.png
+.. figure:: ../_static/2.3/loop-controls.png
    :align: center
    :width: 205px
    :figwidth: 100%
@@ -680,7 +695,7 @@ Hotcue Controls
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/hot-cue-controls.png
+.. figure:: ../_static/2.3/hotcue-controls.png
    :align: center
    :width: 125px
    :figwidth: 100%
@@ -744,14 +759,14 @@ the overview waveform to open the context menu, then click the trash icon.
 
 .. _interface-mixer:
 
-The Mixer Section
-=================
+Mixer
+=====
 
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/mixer-section.png
+.. figure:: ../_static/2.3/mixer-section.png
    :align: center
    :width: 430px
    :figwidth: 100%
@@ -769,10 +784,10 @@ Channel Faders and Level Meters
 -------------------------------
 
 **Level meters**
-  In the center of the mixer section are 6 :term:`level meters <level meter>` grouped in three pairs. The
-  two outer-most level meters on each side are for each deck, while the 2 inner-most level
-  meters are the left and right level meters for the master output. In each pairing, the left meter shows the volume level for the left channel, while the right meter shows the volume level for the right channel. These should
-  stay at the top of the green region, with the loudest parts of the music
+  The left meter shows the volume level for the left deck,
+  while the right meter shows the volume level for the right deck.
+  The double meter at the center shows the current volume of the main output's left and right channel separately.
+  These should stay at the top of the green region, with the loudest parts of the music
   (transients) briefly going into the yellow region. They should never be in
   the red region. Refer to
   :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
@@ -791,7 +806,7 @@ Channel Faders and Level Meters
 Equalizers and Gain Knobs
 -------------------------
 
-.. figure:: ../_static/2.2/eq-gain-quickeffect-knobs.png
+.. figure:: ../_static/2.3/equalizers-and-gain-knob.png
    :align: center
    :width: 300px
    :figwidth: 150px
@@ -801,7 +816,7 @@ Equalizers and Gain Knobs
    EQ Controls
 
 **Gain Knob**
-  The gain knob (green ring) above the volume fader allows you to adjust the gain applied to the deck.
+  The gain knob (orange) above the volume fader allows you to adjust the gain applied to the deck.
   Use this to compensate for the differences in recording levels between tracks.
   In general, you should adjust this knob so that the track's :term:`level meter`
   stays around the top of the green region with the loudest parts of the track
@@ -822,7 +837,7 @@ Equalizers and Gain Knobs
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`.
 
 **EQ Knobs**
-   The low, mid, and high EQ knobs (purple ring) allow you to change the filters of the audio.
+   The low, mid, and high EQ knobs allow you to change the filters of the audio.
    This allows you to selectively reduce or boost certain frequency ranges of the audio.
 
   .. warning:: Be careful not to raise the EQs so much that the signal clips,
@@ -837,8 +852,8 @@ Equalizers and Gain Knobs
   range. If the Kill switches do not work as expected, check the high/low shelf
   EQ settings in the preferences.
 
-  **Quick Effect knob**
-  This knob (blue ring) lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
+**Quick Effect Super knob**
+  This knob lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
   Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
@@ -852,9 +867,9 @@ Equalizers and Gain Knobs
 PFL/Headphone Button
 --------------------
 
-.. figure:: ../_static/2.2/headphone-button.png
+.. figure:: ../_static/2.3/PFL.png
    :align: center
-   :width: 321px
+   :width: 270px
    :figwidth: 100%
    :alt: The headphone buttons of both decks in the mixer
    :figclass: pretty-figures
@@ -885,7 +900,7 @@ volume fader all the way down.
 Crossfader
 ----------
 
-.. figure:: ../_static/2.2/crossfader.png
+.. figure:: ../_static/2.3/crossfader.png
    :align: center
    :width: 318px
    :figwidth: 100%
@@ -907,33 +922,36 @@ on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
 :menuselection:`Preferences --> Crossfader`.
 
+The :term:`crossfader` orientation determines to which side of the crossfader the deck is assigned.
+It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
+
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. _interface-head-master:
+.. _interface-head-main:
 
-Headphone and Master Mix Controls
+Headphone and Main Mix Controls
 ---------------------------------
 
-.. figure:: ../_static/2.2/master-head-controls.png
+.. figure:: ../_static/2.3/headphone-and-main-mix.png
    :align: center
-   :figwidth: 100%
-   :alt: The headphone and master mix knobs
+   :figwidth: 18%
+   :alt: The headphone and Main mix knobs
    :figclass: pretty-figures
 
-   The headphone and master mix knobs
+   The headphone and main mix knobs
 
-**Head Mix knob**
-  Allows you to control how much of the master output you hear in the
+**Headphone Mix knob**
+  Allows you to control how much of the Main output you hear in the
   :guilabel:`Headphones` output. It works like a crossfader between the stereo
-  Master and stereo :term:`PFL` signal. If the knob is set to the left, you
+  Main and stereo :term:`PFL` signal. If the knob is set to the left, you
   only hear the PFL signal, which is the usual position for prelistening tracks.
 
   This can be used to practice DJing with only one stereo output and a set
   of either speakers or headphones.
 
   Additionally, this can be used to mix in headphones when you cannot hear the
-  speakers connected to the :guilabel:`Master` output and there are no booth
+  speakers connected to the :guilabel:`main` output and there are no booth
   monitor speakers. Some DJs prefer to use this knob to mix in headphones all
   the time, but many find it to be a difficult way to play. If there is only one
   set of speakers and no booth monitors, you can avoid the need to mix in
@@ -943,34 +961,34 @@ Headphone and Master Mix Controls
   .. note:: Don't forget to activate the :guilabel:`PFL` button on the deck you
             want to listen to in your headphones.
 
-**Head knob**
+**Head knob (Headphone gain)**
   This knob controls the gain applied to the headphone output signal that Mixxx
   sends to your sound card. Generally, this knob should not be adjusted. To
   adjust the volume in your headphones, adjust your sound card's gain on the
   headphone output. Most external sound cards have a gain knob specifically for
   the headphone jack. If you use an onboard sound card for your headphones,
   adjust the gain control in your :term:`OS <operating system>` mixer program.
-  If your sound card only has one gain knob that controls both the main output
+  If your sound card only has one gain knob that controls both the Main output
   and the headphone output, then adjust the :guilabel:`Head` knob in Mixxx
-  to control the volume of your headphones without affecting your main output.
+  to control the volume of your headphones without affecting your Main output.
 
- .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See this `guide. <https://github.com/mixxxdj/mixxx/wiki/mixxxcontrols>`_
+ .. note:: Not all controls may be present in all skins anymore. However, these controls can be mapped to keyboards and MIDI controllers. See :ref:`appendix-mixxxcontrols` for detailed information.
 
-**Split Cue button**
+**Headphone Split Cue button**
   If activated, two mono signals are sent to the headphone output instead of one
-  stereo signal. The master signal plays in the right channel, while the cueing
+  stereo signal. The main signal plays in the right channel, while the cueing
   signal plays in the left channel. You can still adjust the
-  :guilabel:`Head Mix` knob to control the mix of the master and cue signals in
+  :guilabel:`Head Mix` knob to control the mix of the Main and cue signals in
   the left channel.
 
 **Balance Knob**
   This knob allows you to adjust the :term:`balance` (left/right orientation) of
-  the master output.
+  the Main output.
 
 .. _interface-gain-knob:
 
-**Master Knob**
-  The Master Gain Knob controls the gain applied to the Master output signal that
+**Main Knob**
+  The Main Gain Knob controls the gain applied to the Main output signal that
   Mixxx sends to your sound card, Internet broadcasting servers, and recorded
   mixes. Generally, this knob should not be adjusted. To change the output
   volume, a gain control should be adjusted as close to the speakers as possible
@@ -986,7 +1004,7 @@ Headphone and Master Mix Controls
   not going through a mixer, adjust the gain of your sound card. If your sound
   card does not have any controls on it (for example, for sound cards built into
   computers), adjust the sound card settings with your :term:`OS <operating system>`
-  mixer program. The Master Gain Knob in Mixxx should be a last resort for
+  mixer program. The Main Gain Knob in Mixxx should be a last resort for
   adjusting volume.
 
   .. warning:: **In no case should any part of the signal chain be clipping,
@@ -998,17 +1016,26 @@ Headphone and Master Mix Controls
 
 .. _interface-sampler:
 
-The Sampler Section
-===================
+Samplers
+========
 
-.. figure:: ../_static/2.2/sampler-section.png
+.. figure:: ../_static/2.3/sample-decks.png
    :align: center
-   :width: 170px
+   :width: 700px
    :figwidth: 100%
    :alt: A sample deck
    :figclass: pretty-figures
 
-   A sample deck
+   Sample decks
+
+.. figure:: ../_static/2.3/sample-decks-expanded.png
+   :align: center
+   :width: 700px
+   :figwidth: 100%
+   :alt: A sample deck
+   :figclass: pretty-figures
+
+   Sample decks expanded
 
 Samplers are miniature decks. They allow you to play short samples and jingles
 but also additional tracks in your mix. They come with a small overview waveform
@@ -1047,25 +1074,26 @@ Track Information Display
   The number at the top right is the effective :term:`BPM` of the track. Tap the
   BPM to set the BPM to the speed you are tapping.
 
-Deck Options Button Grid
-------------------------
+Sample Deck Options Button Grid
+-------------------------------
 The buttons grid next to the waveform overview allow you to configure the
-sampler deck. Starting from the top-left and moving counterclockwise the buttons
-are as follows:
+sampler deck. Starting from the top row (left to right) and the bottom row (left to right), the buttons are as
+follows:
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
   playing when the track finishes.
 
-  **Keylock Toggle**
+**Eject Track Button**
+  Clicking this button ejects the track from the deck.
+
+**Keylock Toggle**
   :term:`Keylock <key lock>` locks the track's pitch so that adjustments to its
   tempo via the rate slider do not affect its pitch.
 
-**Mix Orientation Toggle**
-  This control determines the sampler input's mix orientation.
-
-**Eject Track Button**
-  Clicking this button ejects the track from the deck.
+**Crossfader Orientation Toggle**
+  The :term:`crossfader` orientation determines to which side of the crossfader the sampler is assigned.
+  It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 
 Sample Deck Controls
 --------------------
@@ -1104,16 +1132,24 @@ Sample Deck Controls
 
 .. _interface-effects:
 
-The Effects Section
-===================
+Effects
+=======
 
-.. figure:: ../_static/effect-unit-collapsed.png
+.. figure:: ../_static/2.3/effects-section.png
    :align: center
    :figwidth: 100%
    :alt: An effect unit
    :figclass: pretty-figures
 
-   An effect unit
+   Collapsed effect unit
+
+.. figure:: ../_static/2.3/effects-section-expanded.png
+   :align: center
+   :figwidth: 100%
+   :alt: An effect unit
+   :figclass: pretty-figures
+
+   Expanded effect unit
 
 Mixxx comes with some built in sound effects that can be chained together in
 effect units. Effect units can be freely assigned to different decks as well
@@ -1125,15 +1161,15 @@ as other inputs. The buttons for routing decks to effect units are in the
 
 .. _interface-mic:
 
-The Microphone Section
-======================
+Microphones & Auxiliary Inputs
+==============================
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/microphone-section.png
+.. figure:: ../_static/2.3/microphone-section.png
    :align: center
-   :width: 286px
+   :width: 360px
    :figwidth: 100%
    :alt: The Microphone section
    :figclass: pretty-figures
@@ -1151,7 +1187,7 @@ Microphone Controls
 -------------------
 
 **Talk Button**
-  Hold this button and talk to mix the microphone input into the Mixxx master
+  Hold this button and talk to mix the microphone input into the Mixxx Main
   output. Short click on the button for latching. This is handy for talking for
   an extended period, for example when :ref:`streaming <live-broadcasting>` a
   radio show. When in Latch mode, click again to mute the microphone input.
@@ -1170,13 +1206,13 @@ Microphone Controls
 
 .. _interface-preview-deck:
 
-Preview Deck Section
-====================
+Preview Deck
+============
 
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/2.2/preview-deck-section.png
+.. figure:: ../_static/2.3/preview-deck.png
    :align: center
    :width: 50%
    :figwidth: 100%

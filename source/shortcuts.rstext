@@ -13,6 +13,12 @@
     :height: 32px
     :alt: Library - Icon Banshee
 
+.. |ic_lib_rekordbox| image:: /_static/icons/ic_library_rekordbox.png
+    :width: 32px
+    :align: middle
+    :height: 32px
+    :alt: Library - Icon Recordbox
+
 .. |ic_lib_browse| image:: /_static/icons/ic_library_browse.png
     :width: 32px
     :align: middle

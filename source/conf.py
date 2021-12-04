@@ -56,7 +56,7 @@ master_doc = "index"
 
 # General information about the project.
 project = u"Mixxx"
-copyright = u"2011-2020, The Mixxx Development Team"
+copyright = u"2011-2021, The Mixxx Development Team"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -106,8 +106,9 @@ supported_languages = {
 smv_tag_whitelist = r"^$"
 smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
 smv_remote_whitelist = r"^origin$"
-smv_released_pattern = r"^.*/(?!2\.3)(\d+)\.(\d+)$"
-smv_latest_version = r"2.2"
+# Mark all branches in the form "N.M" as released except "2.4"
+smv_released_pattern = r"^.*/(?!2\.4)(\d+)\.(\d+)$"
+smv_latest_version = r"2.3"
 smv_outputdir_format = "{config.version}/{config.language}"
 
 # Directories in which to search for additional message catalogs (see language),
@@ -174,7 +175,7 @@ html_context = {
     "display_github": True,
     "github_user": "mixxxdj",
     "github_repo": "manual",
-    "github_version": "manual-2.2.x",
+    "github_version": "2.3",
     "conf_py_path": "/source/",
     "language": language,
     "supported_languages": list(
@@ -376,7 +377,7 @@ texinfo_documents = [
 epub_title = u"Mixxx User Manual"
 epub_author = u"The Mixxx Development Team"
 epub_publisher = u"The Mixxx Development Team"
-epub_copyright = u"2011-2020, The Mixxx Development Team"
+epub_copyright = u"2011-2021, The Mixxx Development Team"
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'Mixxx'

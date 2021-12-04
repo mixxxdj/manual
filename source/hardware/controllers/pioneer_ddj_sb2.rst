@@ -1,3 +1,5 @@
+.. _pioneer-ddj-sb2:
+
 Pioneer DDJ-SB2
 ===============
 
@@ -37,7 +39,7 @@ There are some user configurable options for this mapping. To change the options
 -  **jogwheelSensivity**: Sets the jogwheels sensitivity. 1 is default, 2 is twice as sensitive, 0.5 is half as sensitive.
 -  **jogwheelShiftMultiplier**: Sets how much more sensitive the jogwheels get when holding shift. Set to 1 to disable jogwheel sensitivity increase when holding shift.
 -  **speedRateToNormalTime**: Time per step (in ms) for pitch speed fade to normal
--  **showVumeterMaster**: If true Level-Meter shows VU-Master left & right. If false shows level of channel: 1/3 2/4 (depending active deck)
+-  **showVumeterMaster**: If true Level-Meter shows VU-Main left & right. If false shows level of channel: 1/3 2/4 (depending active deck)
 -  **cutVumeter**: Cut’s Level-Meter low and expand upper. Fore example, at 0.5 only signals greater 50% show on the meter, expanded to full range
 -  **twinkleVumeterAutodjOn**: If true VU-Level twinkle if AutoDJ is ON.
 -  **jumpPreviewEnabled**: If true, when releasing the browser knob, the preview deck jumps forward to “position”.
@@ -80,7 +82,7 @@ Volume, equalizers & filters
 
 Between the decks the usual faders, crossfader and EQ knobs can be found. A filter knob is also available.
 
-Knobs are available for the master and headphones level. These control the controller’s built in sound card; they do not control the software gains in Mixxx, so moving them does not move the master
+Knobs are available for the main and headphones level. These control the controller’s built in sound card; they do not control the software gains in Mixxx, so moving them does not move the main
 and headphone gain knobs on screen.
 
 The filter fade button changes the crossfader from fading the volumes between decks to using filters to fade between decks.
@@ -110,7 +112,7 @@ loop. When you press shift + slip again, Mixxx will jump back to that point.
 Pads - lower row
 ~~~~~~~~~~~~~~~~
 
-The play and cue pads should be self-explaining. The sync pad toggles master sync for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed.
+The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed.
 
 Additional functions can be accessed by holding shift
 
