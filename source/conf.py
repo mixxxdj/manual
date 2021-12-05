@@ -447,7 +447,15 @@ linkcheck_ignore = [
     # Ignore Twitter links because for some reason valid links sometimes fail
     # with "400 Bad Request"
     r"^https://twitter.com/\w+$",
+    # Ignore support links because we get 403 Client Errors (bad User Agent?)
+    r"^https://support.native-instruments.com/",
+    r"^https://support.serato.com/",
+    # Unknown why this anchor doesn't appear to work -- could be js-generated.
+    r"^https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#",
 ]
 
 # Avoid freezing during linkcheck
 linkcheck_timeout = 10
+
+# Don't verify TLS
+tls_verify = False
