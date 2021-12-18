@@ -780,7 +780,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],bpm_tap
                    [SamplerN],bpm_tap
 
-   When tapped repeatedly, adjusts the :term:`tempo` of the channel to match the tapped :term:`BPM`.
+   When tapped repeatedly, adjusts the :term:`BPM` of the track on the deck (not the tempo slider!) to match the taps.
+
+   .. note:: If you want to change the :term:`rate` of the deck use `script.bpm.tapButton(deck) <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#Helper-functions>`_ in your controller mapping instead.
 
    :range: binary
    :feedback: :term:`BPM` value display (playback speed doesn't change)
