@@ -20,7 +20,7 @@ The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
 -  `Manufacturer's Firmware Update <https://www.pioneerdj.com/en-us/product/controller/ddj-sb3/black/support/>`__
 -  `Mixxx User Forum <https://mixxx.discourse.group/t/ddj-sb3/18346>`__
 
-.. versionadded:: 2.3.0
+.. versionadded:: 2.3.2
 
 Audio Setup
 -----------
@@ -58,9 +58,8 @@ Deck section (p. 6)
 ===  =================================================  ============================================================================================
 No.  Control                                            Function
 ===  =================================================  ============================================================================================
-1    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
-2    Jog Wheel (top)                                    Pitch bend (nudge)
-2    :hwlabel:`VINYL` + Jog Wheel (top)                 Scratch (move play position)
+1    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SYNC`)
+2    Jog Wheel (top)                                    Pitch bend (nudge) or scratch when vinyl mode is enabled
 2    Jog Wheel (outer)                                  Pitch bend (nudge)
 2    :hwlabel:`SHIFT` + Jog Wheel (top)                 Fast-forward or fast reverse track
 3    :hwlabel:`HOT CUE`                                 Set hot cue mode
@@ -81,9 +80,8 @@ No.  Control                                            Function
 12   :hwlabel:`PLAY/PAUSE` button                       Play / pause
 12   :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button    Return to temporary cue point
 13   :hwlabel:`CUE` button                              Set, play and call out cue points
-13   :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop or load previous track
-14   :hwlabel:`SYNC` button                             Match tempo and phase of adjacent deck
-14   :hwlabel:`SHIFT` + :hwlabel:`SYNC` button          Turn off sync mode
+13   :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to the beginning of the song
+14   :hwlabel:`SYNC` button                             Match tempo and phase to currently playing deck
 15   :hwlabel:`SHIFT` + button                          Switch function of controls
 16   :hwlabel:`DECK X`                                  Switch deck
 17   :hwlabel:`KEY LOCK`                                Toggle key lock
@@ -150,7 +148,7 @@ No.  Control                                                Function
 .. _pioneer-ddj-sb3-browser:
 
 Browser section (p. 13)
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_browser.svg
    :align: center
@@ -164,7 +162,7 @@ Browser section (p. 13)
 ===  =====================================================  ============================================================================================
 No.  Control                                                Function
 ===  =====================================================  ============================================================================================
-1    :hwlabel:`1` button                                    Loads track highlighted in the library to the left or right deck
+1    :hwlabel:`LOAD` button                                    Loads track highlighted in the library to the left or right deck
 2    :hwlabel:`BROWSE` knob (rotate)                        Rotate the knob left or right highlights the previous or next track in the library
 2    :hwlabel:`BROWSE` knob (press)                         Starts / stops track preview of highlighted track
 ===  =====================================================  ============================================================================================
@@ -194,13 +192,9 @@ Bookmark positions in the track and jump to them.
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
 ========  ===============================================================  ==========================================
-1-4       Pad (unlit)                                                      Save current position as hot cue.
-1-4       Pad (lit)                                                        Jump to hot cue.
-1-4       :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
-5         Pad                                                              Previous track
-6         Pad                                                              Search left
-7         Pad                                                              Search right
-8         Pad                                                              Censor
+1-8       Pad (unlit)                                                      Save current position as hot cue.
+1-8       Pad (lit)                                                        Jump to hot cue.
+1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Clear hot cue.
 ========  ===============================================================  ==========================================
 
 Beatjump Mode
