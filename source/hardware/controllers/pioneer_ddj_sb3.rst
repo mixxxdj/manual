@@ -350,7 +350,10 @@ No.       Control                                                          Funct
 Trans Mode
 ^^^^^^^^^^
 Trans mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the :hwlabel:`SAMPLER` button. The button will
-blink when selected. Press one of the pads to trigger one of the built in cut effects.
+blink when selected. Press one of the pads to trigger one of the built in cut effects. This mode is driven entirely
+by the controller's firmware, so there is no equivalent in the Mixxx UI. In this mode, pressing and holding a pad
+triggers a Cut Effect, where the deck's fader volume is toggle from 0 to max at the rate described in the table below.
+For example, pressing and holding pad 5 will cause the volume to toggle from max to min every one beat.
 
 .. figure:: ../../_static/controllers/pioneer_ddj_sb3_trans.svg
    :align: center
