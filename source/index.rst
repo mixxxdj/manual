@@ -50,6 +50,7 @@ Table of Contents
    chapters/preferences
    chapters/advanced_topics
    chapters/getting_involved
+   chapters/supported_controllers
+   chapters/how_to_map_controllers
    chapters/appendix
-   hardware/manuals
    glossary

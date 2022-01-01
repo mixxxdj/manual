@@ -2,8 +2,8 @@
 
 .. _hardware:
 
-DJ Hardware
-***********
+Introduction to DJ Hardware
+***************************
 
 .. sectionauthor::
    T.Rafreider <trafreider@mixxx.org>
