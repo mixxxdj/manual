@@ -679,8 +679,12 @@ Other
 ------------------------------------------------------------------------
 
 
-* Improve robustness of file type detection by considering the actual MIME type of the content. `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`_ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`_
 * Playlist: Enable sorting by color `#4352 <https://github.com/mixxxdj/mixxx/pull/4352>`_ `lp:1945976 <https://bugs.launchpad.net/mixxx/+bug/1945976>`_
+* Fix crash when using Doubling/Halving/etc. BPM from track's Properties window on tracks without BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`_ `lp:1955853 <https://bugs.launchpad.net/mixxx/+bug/1955853>`_
+* Fix writing metadata on Windows for files that have never been played `#4586 <https://github.com/mixxxdj/mixxx/pull/4586>`_ `lp:1955331 <https://bugs.launchpad.net/mixxx/+bug/1955331>`_
+* Preserve file creation time when writing metadata on Windows `#4586 <https://github.com/mixxxdj/mixxx/pull/4586>`_ `lp1955314 <https://bugs.launchpad.net/mixxx/+bug/1955314>`_
+* Fix handling of file extension when importing and exporting sampler settings `#4539 <https://github.com/mixxxdj/mixxx/pull/4539>`_
+* Fix crash when using an empty directory as resource path using the ``--resource-path`` command line option `#4575 <https://github.com/mixxxdj/mixxx/pull/4575>`_ `lp1934560 <https://bugs.launchpad.net/mixxx/+bug/1934560>`_
 
 Packaging
 ^^^^^^^^^
