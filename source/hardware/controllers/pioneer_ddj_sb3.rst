@@ -34,7 +34,7 @@ Output Channels       Assigned to
 3-4                   Headphones
 ===================== ================
 
-This controller mapping does not support any inputs. The controller itself has a microphone input, but that cannot be controlled via MIDI.
+This controller mapping does not support any inputs. The controller itself has a microphone input, but that cannot be controlled via MIDI or routed to the computer.
 
 Controller Mapping
 ------------------
