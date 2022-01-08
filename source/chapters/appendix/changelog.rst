@@ -15,7 +15,12 @@ Changelog
 ------------------------------------------------------------------------
 
 
-* Improve robustness of file type detection by considering the actual MIME type of the content. `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`_ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`_
+* Playlist: Enable sorting by color `#4352 <https://github.com/mixxxdj/mixxx/pull/4352>`_ `lp:1945976 <https://bugs.launchpad.net/mixxx/+bug/1945976>`_
+* Fix crash when using Doubling/Halving/etc. BPM from track's Properties window on tracks without BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`_ `lp:1955853 <https://bugs.launchpad.net/mixxx/+bug/1955853>`_
+* Fix writing metadata on Windows for files that have never been played `#4586 <https://github.com/mixxxdj/mixxx/pull/4586>`_ `lp:1955331 <https://bugs.launchpad.net/mixxx/+bug/1955331>`_
+* Preserve file creation time when writing metadata on Windows `#4586 <https://github.com/mixxxdj/mixxx/pull/4586>`_ `lp1955314 <https://bugs.launchpad.net/mixxx/+bug/1955314>`_
+* Fix handling of file extension when importing and exporting sampler settings `#4539 <https://github.com/mixxxdj/mixxx/pull/4539>`_
+* Fix crash when using an empty directory as resource path using the ``--resource-path`` command line option `#4575 <https://github.com/mixxxdj/mixxx/pull/4575>`_ `lp1934560 <https://bugs.launchpad.net/mixxx/+bug/1934560>`_
 
 Packaging
 ^^^^^^^^^
@@ -23,6 +28,11 @@ Packaging
 
 * Downloads of external dependencies are placed in build/downloads
 * The sources for libkeyfinder are now expected in build/downloads/libkeyfinder-2.2.5.zip instead of build/download/libkeyfinder/v2.2.5.zip
+* CMake: Adjust the download directory and name of external dependencies `#4511 <https://github.com/mixxxdj/mixxx/pull/4511>`_
+* Fix/Improve Appstream metainfo
+  `#4344 <https://github.com/mixxxdj/mixxx/pull/4344>`_
+  `#4346 <https://github.com/mixxxdj/mixxx/pull/4346>`_
+  `#4349 <https://github.com/mixxxdj/mixxx/pull/4349>`_
 
 .. _v2-3-1:
 
@@ -64,6 +74,7 @@ Packaging
 * Fix Auto DJ skipping tracks randomly `#4319 <https://github.com/mixxxdj/mixxx/pull/4319>`_ `lp1941989 <https://bugs.launchpad.net/mixxx/+bug/1941989>`_
 * Fix high CPU load due to extremely high internal sync clock values `#4312 <https://github.com/mixxxdj/mixxx/pull/4312>`_ `lp1943320 <https://bugs.launchpad.net/mixxx/+bug/1943320>`_
 * Fix preference option for re-analyzing beatgrids imported from other software `#4288 <https://github.com/mixxxdj/mixxx/pull/4288>`_
+* Fix wrong base tag used for deployment and displayed in About dialog `#4070 <https://github.com/mixxxdj/mixxx/pull/4070>`_
 
 Packaging
 ^^^^^^^^^
@@ -74,7 +85,7 @@ Packaging
 * .desktop file has be renamed to org.mixxx.Mixxx.desktop according to Freedesktop standards `#4206 <https://github.com/mixxxdj/mixxx/pull/4206>`_
 * Uses system provided hidapi library if version >= 0.10.1 `#4215 <https://github.com/mixxxdj/mixxx/pull/4215>`_
 * Please update PortAudio to `19.7 <https://github.com/PortAudio/portaudio/releases/tag/v19.7.0>`_ if you have not done so already. This is required for Mixxx to work with PipeWire via the JACK API for many devices.
-* Install multiple sizes of rasterized icons `#4204 <https://github.com/mixxxdj/mixxx/pull/4204>`_ `#4315 <https://github.com/mixxxdj/mixxx/pull/4315>`_
+* Install multiple sizes of rasterized icons `#4204 <https://github.com/mixxxdj/mixxx/pull/4204>`_ `#4315 <https://github.com/mixxxdj/mixxx/pull/4315>`_ `#4254 <https://github.com/mixxxdj/mixxx/pull/4254>`_
 * CMake: Fixed detection of SoundTouch pkgconfig file and version `#4209 <https://github.com/mixxxdj/mixxx/pull/4209>`_
 * Fix AppStream metainfo `#4205 <https://github.com/mixxxdj/mixxx/pull/4205>`_ `#4317 <https://github.com/mixxxdj/mixxx/pull/4317>`_
 
@@ -241,7 +252,7 @@ Other
 * Enable CUE sheet recording by default `#3374 <https://github.com/mixxxdj/mixxx/pull/3374>`_
 * Fix crash when double clicking GLSL waveforms with right mouse button `#3904 <https://github.com/mixxxdj/mixxx/pull/3904>`_
 * Derive Mixxx version from ``git describe`` `#3824 <https://github.com/mixxxdj/mixxx/pull/3824>`_ `#3841 <https://github.com/mixxxdj/mixxx/pull/3841>`_ `#3848 <https://github.com/mixxxdj/mixxx/pull/3848>`_
-* Improve tapping the bpm of a deck `#3790 <https://github.com/mixxxdj/mixxx/pull/3790>`_ `lp:1882776 <https://bugs.launchpad.net/mixxx/+bug/1882776>`_
+* Improve tapping the BPM of a deck `#3790 <https://github.com/mixxxdj/mixxx/pull/3790>`_ `lp:1882776 <https://bugs.launchpad.net/mixxx/+bug/1882776>`_
 * And countless other small fixes and improvements (too many to list them all!)
 
 .. _v2-2-4:
@@ -307,7 +318,7 @@ Other
 * Fix playlist import. `#2200 <https://github.com/mixxxdj/mixxx/pull/2200>`_ `lp:1687828 <https://bugs.launchpad.net/mixxx/+bug/1687828>`_
 * Fix updating playlist labels. `lp:1837315 <https://bugs.launchpad.net/mixxx/+bug/1837315>`_
 * Fix potential segfault on exit. `lp:1828360 <https://bugs.launchpad.net/mixxx/+bug/1828360>`_
-* Fix parsing of invalid bpm values in MP3 files. `lp:1832325 <https://bugs.launchpad.net/mixxx/+bug/1832325>`_
+* Fix parsing of invalid BPM values in MP3 files. `lp:1832325 <https://bugs.launchpad.net/mixxx/+bug/1832325>`_
 * Fix crash when removing rows from empty model. `#2128 <https://github.com/mixxxdj/mixxx/pull/2128>`_
 * Fix high DPI scaling of RGB overview waveforms. `#2090 <https://github.com/mixxxdj/mixxx/pull/2090>`_
 * Fix for OpenGL SL detection on macOS. `lp:1828019 <https://bugs.launchpad.net/mixxx/+bug/1828019>`_
