@@ -22,7 +22,7 @@ Mixxx Sound Hardware Preferences
 
 .. table::
     :widths: 100 100
-    
+
     ========================  =======================
     Output                    Channels
     ========================  =======================
