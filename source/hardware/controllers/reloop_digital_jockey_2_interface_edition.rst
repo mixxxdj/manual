@@ -39,6 +39,11 @@ Decks
 
 Although the mapping provided to Traktor users by the manufacturer has a feature of extending the controller to handle 4 decks using a :hwlabel:`SHIFT` button, this particular mapping handles the basic 2 decks setup. :hwlabel:`SHIFT` button has been mapped, however it handles the rest of the functionality.
 
+FX Controls
+~~~~~~~~~~~
+
+This mapping uses the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ to control the FX units.
+
 Jog Wheels
 ^^^^^^^^^^
 
@@ -51,7 +56,8 @@ Jog modes work as described in the following table:
     Jog mode           Description
     ================== =============
     *Pitch bending*    Turn the wheel to temporarily increase or decrease the speed. This is the default mode while :hwlabel:`SEARCH` and :hwlabel:`SCRATCH` buttons are disabled.
-    *Scratch*          Touch the top of the wheel and turn to scratch. This mode is enabled by pressing :hwlabel:`SCRATCH`
-    *Search*           Turn the wheel to quickly move through the track. This mode is enabled by pressing :hwlabel:`SEARCH`
+    *Scratch*          Touch the top of the wheel and turn to scratch. This mode is enabled by pressing :hwlabel:`SCRATCH`.
+    *Search*           Turn the wheel to quickly move through the track. This mode is enabled by pressing :hwlabel:`SEARCH`.
+    *FX dry/wet*       Turn the wheel for smooth control of the FX unit's dry/wet parameter. This mode is enabled by pressing :hwlabel:`FX DRY/WET`.
     *Library search*   Turn the wheel to quickly browse the tracks table. This **extra mode** is enabled by pressing **any of the two** :hwlabel:`SHIFT` buttons and is indicated by flashing all jog wheel mode LEDs.
     ================== =============
