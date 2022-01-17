@@ -13,9 +13,8 @@ The *Reloop Digital Jockey 2 Interface Edition* is a 2 deck USB MIDI controller 
 Compatibility
 -------------
 
-The mapping for *Reloop Digital Jockey 2 Interface Edition* has originally been developed under Debian 8 Jessie with *Mixxx v2.1*. Lately the mapping has been moved to *Mixxx v2.3* and tested under Kubuntu 20.04. No special device drivers are required for GNU/Linux systems.
-
-Windows build has not been tested.
+The device should work out of the box on Windows, macOS and GNU/Linux.
+For Windows, Reloop offers an ASIO driver on the product page linked above.
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
