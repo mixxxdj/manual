@@ -50,8 +50,8 @@ Jog modes work as described in the following table:
     ================== =============
     Jog mode           Description
     ================== =============
-    *Pitch bending*    By default the jogs work in this mode. In contrast to the manufacturer mapping, you do not have to press :hwlabel:`SEARCH` and :hwlabel:`SCRATCH` buttons to enable this mode. This is more convenient.
-    *Scratch*          The mode is enabled by pressing :hwlabel:`SCRATCH`
-    *Search*           The mode is enabled by pressing :hwlabel:`SEARCH`
-    *Library search*   This is an **extra mode** that has been introduced by this mapping. This mode is enabled by pressing **any of the two** :hwlabel:`SHIFT` buttons and is indicated by flashing all jog wheel mode LEDs. While in this mode, turn **any** jog to browse the library. This is also an enhancement to the manufacturer's mapping.
+    *Pitch bending*    Turn the wheel to temporarily increase or decrease the speed. This is the default mode while :hwlabel:`SEARCH` and :hwlabel:`SCRATCH` buttons are disabled.
+    *Scratch*          Touch the top of the wheel and turn to scratch. This mode is enabled by pressing :hwlabel:`SCRATCH`
+    *Search*           Turn the wheel to quickly move through the track. This mode is enabled by pressing :hwlabel:`SEARCH`
+    *Library search*   Turn the wheel to quickly browse the tracks table. This **extra mode** is enabled by pressing **any of the two** :hwlabel:`SHIFT` buttons and is indicated by flashing all jog wheel mode LEDs.
     ================== =============
