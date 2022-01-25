@@ -171,6 +171,7 @@ Audio Codecs
 * SoundSourceMP3: Log recoverable errors as info instead of warning `#4365 <https://github.com/mixxxdj/mixxx/pull/4365>`_
 * Fix type detection of AIFF files `#4364 <https://github.com/mixxxdj/mixxx/pull/4364>`_
 * AAC encoder: Fixed a memory leak `#4386 <https://github.com/mixxxdj/mixxx/pull/4386>`_ `#4408 <https://github.com/mixxxdj/mixxx/pull/4408>`_
+* Improve robustness of file type detection by considering the actual MIME type of the content. `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`_ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`_
 
 Audio Engine
 ^^^^^^^^^^^^
