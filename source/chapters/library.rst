@@ -26,6 +26,8 @@ tracks you want to play and load them into a :ref:`deck <interface-decks>` or
 imports your music library automatically when it is run for the first time, see
 :ref:`configuration-import` for more information.
 
+If you want to backup (or delete) your library refer to :ref:`appendix-settings-files` and look for ``mixxxdb.sqlite``.
+
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
 
