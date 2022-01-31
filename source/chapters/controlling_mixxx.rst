@@ -158,20 +158,8 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
 Installing a mapping from the forum
 -----------------------------------
 To use a controller mapping that did not come bundled with Mixxx, place the
-controller mapping in your User Mappings folder. This is the folder called
-"controllers" inside your User Preferences folder. To open your User Mappings
-folder, go to :menuselection:`Preferences --> Controllers` and click the
-:guilabel:`Open User Mapping Folder` button. Alternatively, navigate to the
-folder in your :term:`OS <operating system>` file browser:
-
-  * GNU/Linux: :file:`/home/<username>/.mixxx/controllers`
-  * macOS: :file:`/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx/controllers`
-  * Windows Vista and newer: :file:`C:\\Users\\<username>\\AppData\\Mixxx\\controllers`
-  * Windows XP: :file:`C:\\Documents and Settings\\<username>\\AppData\\controllers`
-
-On Windows, the :file:`AppData` folder is hidden, so if you have not already,
-you will need to set Windows Explorer to show hidden files and folders (how to
-do this varies with each version of Windows).
+controller mapping in your User Mappings folder. To open it , go to :menuselection:`Preferences --> Controllers` and click the
+:guilabel:`Open User Mapping Folder` button. Alternatively, use your :term:`OS <operating system>` file browser to navigate there. The locations and more details can be found in :ref:`appendix-settings-files`.
 
 If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for
