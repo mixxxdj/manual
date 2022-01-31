@@ -18,16 +18,19 @@ Location
           you will need to set your file manager to show hidden files and folders.
 
 **Windows**
- | Vista and up: ``%LOCALAPPDATA%\Mixxx``
- | XP and below: ``%USERPROFILE%\Local Settings\Application Data\Mixxx``
- | Type either of those into the location bar of a Computer or Folder window.
+ | ``%LOCALAPPDATA%\Mixxx``
+ | Copy this and paste it into the location bar of a Computer or Folder window.
+ | ``%LOCALAPPDATA%`` is then resolved to ``C:\Users\<your-username>\AppData\Local``
+ |
+ | Use ``%USERPROFILE%\Local Settings\Application Data\Mixxx`` if you want to migrate your settings from XP or earlier.
 
 **macOS**
  | Mixxx 2.3: ``~/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx``
  | Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``
 
 **Linux**
- | ``~/.mixxx/`` This resolves to ``/home/<your-username>/.mixxx``
+ | ``~/.mixxx/``
+ | This resolves to ``/home/<your-username>/.mixxx``
 
 Content
 -------
