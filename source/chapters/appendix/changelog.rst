@@ -676,7 +676,7 @@ Other
 
 .. _v2-3-2:
 
-`2.3.2 <https://launchpad.net/mixxx/+milestone/2.3.2>`_ (Unreleased)
+`2.3.2 <https://launchpad.net/mixxx/+milestone/2.3.2>`_ (2022-01-31)
 ------------------------------------------------------------------------
 
 
