@@ -7,25 +7,25 @@
 
 .. _index:
 
-Mixxx |version| User Manual
+Mixxx |version| руководство пользователя
 ***************************
 
-Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for
-Windows, macOS and Linux. It's easy to use, even if you've never DJed.
-Mixxx offers a variety of features to help beginners get started and help
-experienced DJs get creative:
+Mixxx - это `свободное <https://www.gnu.org/philosophy/free-sw.html>`_ программное обеспечение для диджеев
+под Windows, macOS and Linux. Он прост в использовании, даже если вы никогда не занимались диджеингом.
+Mixxx предлагает множество функций, которые помогут новичкам начать работу, а опытным диджеям помогут проявить творческий подход:
 
-  * beat, tempo, and musical key detection
-  * master sync
-  * hotcues
-  * looping
-  * 4 decks
-  * effects
+  * Определение темпа в автоматическом и ручном режимах
+  * Синхронизация темпа
+  * Горячие точки
+  * Петли
+  * 4 деки
+  * Семплер
+  * Встроенные эффекты
 
-You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers,
-CD players, vinyl turntables or even just your computer's keyboard and mouse.
+Вы можете использовать Mixxx для работы с :term:`MIDI` и :term:`HID` контроллерами,
+CD проигрывателями, проигрывателями виниловых пластинок или даже просто с клавиатурой и мышью вашего компьютера.
 
-Table of Contents
+Оглавление
 -----------------
 
 .. Temporarily disable quickstart since it won't be ready for 1.11.0
