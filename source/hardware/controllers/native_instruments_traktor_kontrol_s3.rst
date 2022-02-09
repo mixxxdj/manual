@@ -117,6 +117,13 @@ Control                            Description
 :hwlabel:`SHIFT` + Wheels          Hold to use the wheels to quickly scroll through the track.
 =================================  ==========================================================
 
+Deck Select Buttons
+~~~~~~~~~~~~~~~~~~~~~~
+
+Pressing a Deck Select button will activate that deck.
+
+Press and hold one Deck Select button, then tap a second Deck Select button to clone the track loaded in the first deck to the second.
+
 Looping
 ~~~~~~~
 
