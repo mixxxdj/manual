@@ -844,7 +844,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],bpm_tap
                    [SamplerN],bpm_tap
 
-   When tapped repeatedly, adjusts the :term:`tempo` of the channel to match the tapped :term:`BPM`.
+   When tapped repeatedly, adjusts the :term:`BPM` of the track on the deck (not the tempo slider!) to match the taps.
+
+   .. note:: If you want to change the :term:`rate` of the deck use `script.bpm.tapButton(deck) <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#Helper-functions>`_ in your controller mapping instead.
 
    :range: binary
    :feedback: :term:`BPM` value display (playback speed doesn't change)
@@ -3469,7 +3471,7 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    ------------------------  -------------------------------------------------------------------------------------------------------------
    leaf node                 moves focus to tracks table
    ------------------------  -------------------------------------------------------------------------------------------------------------
-   **Tracks table**          loads selected track. See "Playing track protection" in Preferences ‣ Decks
+   **Tracks table**          Performs the action selected in :menuselection:`Preferences --> Library --> Track Double-Click Action` (default is "Load selected track"). Also see :menuselection:`Preferences --> Decks --> Playing track protection`
    ------------------------  -------------------------------------------------------------------------------------------------------------
    **Dialogs / popups**      presses :kbd:`Enter`. Note: the :mixxx:coref:`Move.. <[Library],MoveUp>` controls allow to move button focus.
    ========================  =============================================================================================================
