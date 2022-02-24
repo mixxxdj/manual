@@ -25,22 +25,22 @@ the brightness of the LEDs. The MiniMixxx does not have a built-in sound card.
 Compatibility
 -------------
 
-Controller
+Setup
 ~~~~~~~~~~
 
 The MiniMixxx is a USB class compliant MIDI device.  To work correctly with this
 mapping, you need to load the custom Yaeltex layout file onto your controller:
 
-- Download the :download:`MiniMixxx Layout Configuration<../../_static/controllers/MiniMixxx.ytx>`.
-- Go to `Yaeltex Kilowhat <https://kilowhat.yaeltex.com/>`_ configuration site.
-- Select your controller and click "Load From Desktop"
-- Select the downloaded layout file.
+1. Download the :download:`MiniMixxx Layout Configuration<../../_static/controllers/MiniMixxx.ytx>`.
+1. Go to `Yaeltex Kilowhat <https://kilowhat.yaeltex.com/>`_ configuration site.
+1. Select your controller and click "Load From Desktop"
+1. Select the downloaded layout file.
+1. Click Send to Device.
+
+Inside Mixxx, open the preferences and select the Yaeltex Minimixxx from the list of controller presets.
 
 Mapping description
 -------------------
-
-Because the MiniMixxx is so compact, most controls have more than one function
-depending on what Layer is selected.
 
 Mixer
 ~~~~~
@@ -58,10 +58,11 @@ No.       Control                                             Function
 6         :hwlabel:`Pitch`                                    Slide to adjust deck speed. When :hwlabel:`SHIFT` is held, has no effect. When :hwlabel:`KEYLOCK` is held, adjusts musical pitch.
 ========  ==================================================  ==========================================
 
-Almost all the other controls on the MiniMixxx have more than one function.
-
 Buttons Overview
 ~~~~~~~~~~~~~~~~
+
+Almost all the other controls on the MiniMixxx have more than one function. It
+helps to understand how the buttons are divided
 
 .. csv-table::
    :header: "Deck 1", "", "", "Deck 2", "", "", "Layer Buttons", ""
@@ -107,6 +108,10 @@ Constant buttons:
 
 Default Layer
 ~~~~~~~~~~~~~
+
+Because the MiniMixxx is so compact, most controls have more than one function
+depending on what Layer is selected. The Default Layer will be active when the
+controller starts up.
 
 .. csv-table::
    :header: "Encoder 1", "Encoder 2", "Encoder 3", "Encoder 4"
