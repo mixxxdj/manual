@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"POT-Creation-Date: 2021-05-08 12:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,42 +16,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:9
+#: ../../index.rst:11
 msgid "Mixxx |version| User Manual"
 msgstr ""
 
-#: ../../index.rst:11
+#: ../../index.rst:13
 msgid "Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for Windows, macOS and Linux. It's easy to use, even if you've never DJed. Mixxx offers a variety of features to help beginners get started and help experienced DJs get creative:"
 msgstr ""
 
-#: ../../index.rst:16
+#: ../../index.rst:18
 msgid "beat, tempo, and musical key detection"
 msgstr ""
 
-#: ../../index.rst:17
+#: ../../index.rst:19
 msgid "master sync"
 msgstr ""
 
-#: ../../index.rst:18
+#: ../../index.rst:20
 msgid "hotcues"
 msgstr ""
 
-#: ../../index.rst:19
+#: ../../index.rst:21
 msgid "looping"
 msgstr ""
 
-#: ../../index.rst:20
+#: ../../index.rst:22
 msgid "4 decks"
 msgstr ""
 
-#: ../../index.rst:21
+#: ../../index.rst:23
 msgid "effects"
 msgstr ""
 
-#: ../../index.rst:23
+#: ../../index.rst:25
 msgid "You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, CD players, vinyl turntables or even just your computer's keyboard and mouse."
 msgstr ""
 
-#: ../../index.rst:27
+#: ../../index.rst:29
 msgid "Table of Contents"
 msgstr ""

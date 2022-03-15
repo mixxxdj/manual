@@ -1,0 +1,1036 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-08 12:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:2
+msgid "Hercules DJControl MP3 e2 / MP3 LE / Glow"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:4
+msgid "The Hercules DJ Control MP3 e2, MP3 LE, and Glow are USB controllers that have identical controls and share the same mapping. These controllers do not have a built in sound card, so a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio interface <hardware-audio-interfaces>` is recommended for use with it. The mapping is included in Mixxx and allows you to manipulate 4 decks, 2 at a time, switching Deck A (left) between Channel 1 and 3 and Deck B (right) between Channel 2 and 4."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:11
+msgid "These controllers are not class compliant :term:`MIDI` devices. On Linux, older versions of Mixxx required using a custom Hercules kernel module. This is neither necessary not recommended anymore."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:17
+msgid "Mapping description (by function)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:20
+msgid "Shift / Supershift"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:29
+msgid "Hercules DJControl MP3 e2 (shift/supershift)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:32
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:82
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:107
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:131
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:157
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:219
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:248
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:270
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:302
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:371
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:32
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:82
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:107
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:131
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:157
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:219
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:248
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:270
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:302
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:371
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:438
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:32
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:82
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:107
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:131
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:157
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:219
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:248
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:270
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:302
+msgid "number"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:34
+msgid "Shift button to obtain more controls than those provided by Hercules. Press & Hold automix, then press corresponding button to obtain shifted behavior."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:34
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:404
+msgid "Automix"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:34
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:404
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:44
+msgid "Supershift button to obtain a third level of controls. Press & Hold Automix, then press & Hold Scratch, then press corresponding button to obtain supershifted behavior."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:44
+msgid "Shift-Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:44
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:189
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:338
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:415
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:55
+msgid "Switch deck A (left) between Channel1 and Channel3 (also apply to Sampler1 and Sampler3)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:55
+msgid "Supershift + Load A"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:55
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:90
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:133
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:159
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:390
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:61
+msgid "Switch deck B (right) between Channel2 and Channel4 (also apply to Sampler2 and Sampler4)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:61
+msgid "Supershift + Load B"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:69
+msgid "Library"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:78
+msgid "Hercules DJControl MP3 e2 (library)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:84
+msgid "Select prev/next playlist"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:84
+msgid "Supershift + Deck A Jog Wheel"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:84
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:88
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:193
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:342
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:541
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:85
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:378
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:384
+msgid "Toggles (expands/collapses) the currently selected library sidebar item"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:85
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:378
+msgid "Folder"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:85
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:134
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:135
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:378
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:86
+msgid "Go one track down"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:86
+msgid "Up arrow"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:86
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:109
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:373
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:87
+msgid "Go one track up"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:87
+msgid "Shift + Up arrow"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:88
+msgid "Select prev/next track"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:88
+msgid "Supershift + Deck B Jog Wheel"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:159
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:390
+msgid "Loads the currently highlighted track into the corresponding deck (A or B)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:159
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:390
+msgid "Load A/B"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:90
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:133
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:390
+msgid "Loads the current highlighted track into the corresponding sampler (1 or 2)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:90
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:133
+msgid "Shift + Load A/B"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:94
+msgid "Master/Headphones/Microphone"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:103
+msgid "Hercules DJControl MP3 e2 (master/headphones/microphone)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:109
+msgid "Microphone TalkOver"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:109
+msgid "Down Arrow"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:110
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:399
+msgid "Fades between left (channel 1 & 3) and right (channel 2 & 4) deck"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:110
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:399
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:110
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:399
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:111
+msgid "Headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:111
+msgid "Shift + Deck A pitch knob"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:111
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:112
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:227
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:314
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:458
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:112
+msgid "Adjust the cue/main mix in the headphone output"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:112
+msgid "Shift + Deck B pitch knob"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:113
+msgid "Toggles deck output to the headphones monitor on/off"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:113
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:584
+msgid "Headphone monitor"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:113
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:584
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:117
+msgid "Sampler"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:126
+msgid "Hercules DJControl MP3 e2 (sampler)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:134
+msgid "Goto start & Play sampler 1/3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:134
+msgid "Shift + Folder"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:135
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:378
+msgid "Stop sampler 1/3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:135
+msgid "Supershift + Folder"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:136
+msgid "Goto start & Play sampler 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:136
+msgid "Shift + Files"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:136
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:137
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:384
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:137
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:384
+msgid "Stop sampler 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:137
+msgid "Supershift + Files"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:141
+msgid "Decks / Channels"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:144
+msgid "Playing"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:153
+msgid "Hercules DJControl MP3 e2 (deck playing)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:165
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:520
+msgid "Starts or stop a loaded track"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:165
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:520
+msgid "Play"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:165
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:168
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:170
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:520
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:168
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:520
+msgid "Backward Play"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:168
+msgid "Shift + Play"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:170
+msgid "Toggle Repeat"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:170
+msgid "Supershift + Play"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:172
+msgid "Sets the cue point if a track is stopped and not at the current cue point. Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it's held down"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:172
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:523
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:172
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:523
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:186
+msgid "Move Forward/Backward in track"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:186
+msgid "Forward / Backward"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:186
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:226
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:228
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:229
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:505
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:189
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:338
+msgid "Enable or disable the scratch mode on all four decks"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:189
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:415
+msgid "Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:193
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:342
+msgid "Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks. Absolute sync of the track speed to the jog wheel if scratch mode enabled"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:193
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:342
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:541
+msgid "Jog wheel"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:206
+msgid "Volume / Equalizer / Effects"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:215
+msgid "Hercules DJControl MP3 e2 (deck volume/EQ/FX)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:221
+msgid "Controls the deck output volume, with soft takeover on deck switch."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:221
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:555
+msgid "Deck volume slider"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:221
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:555
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:222
+msgid "Adjusts the gain of the low/medium/high equalizer filter. No soft takeover."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:222
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:482
+msgid "Equalizer knobs"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:222
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:482
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:223
+msgid "Filter Low Kill"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:223
+msgid "Supershift + Pitchbend -"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:223
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:225
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:284
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:285
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:304
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:441
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:224
+msgid "Filter Mid Kill"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:224
+msgid "Supershift + Sync"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:224
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:317
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:336
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:514
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:225
+msgid "Filter High Kill"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:225
+msgid "Supershift + Pitchbend +"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:226
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:505
+msgid "Adjust pregain"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:226
+msgid "Shift + Forward / Backward"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:227
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:458
+msgid "Quick Filter knob"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:227
+msgid "Supershift + Pitch knobs"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:228
+msgid "Brake Effect"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:228
+msgid "Supershift + Forward (stops on release)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:229
+msgid "Spinback Effect"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:229
+msgid "Supershift + Backward (stops on release)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:233
+msgid "Hotcues"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:242
+msgid "Hercules DJControl MP3 e2 (hotcues)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:245
+msgid "*Need to be in Hotcue mode (button Loop/Fx (4) lit up). If not, press Loop/Fx button to switch to hotcue mode.*"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:250
+msgid "If hotcue X is set, seeks the player to hotcue X’s position. If hotcue X is not set, sets hotcue X to the current play position."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:250
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:487
+msgid "1/2/3/4 buttons"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:250
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:251
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:272
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:273
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:274
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:275
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:276
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:277
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:278
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:279
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:280
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:281
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:282
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:283
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:487
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:251
+msgid "If hotcue X is set, clears its hotcue status."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:251
+msgid "Shift + 1/2/3/4 buttons"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:255
+msgid "Loops"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:264
+msgid "Hercules DJControl MP3 e2 (loops)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:267
+msgid "*Need to be in Loop mode (button Loop/Fx (4) turned off). If not, press Loop/Fx button to switch to Loop mode.*"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:272
+msgid "loop-in"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:272
+msgid "Button 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:273
+msgid "loop-out"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:273
+msgid "Button 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:274
+msgid "Toggles current loop On or Off"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:274
+msgid "Button 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:275
+msgid "Clear Loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:275
+msgid "Supershift + Button 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:276
+msgid "loop 1/8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:276
+msgid "Supershift + Button 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:277
+msgid "loop 1/4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:277
+msgid "Shift + Button 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:278
+msgid "loop 1/2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:278
+msgid "Shift + Button 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:279
+msgid "loop 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:279
+msgid "Shift + Button 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:280
+msgid "loop 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:280
+msgid "Shift + Button 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:281
+msgid "loop 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:281
+msgid "Button 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:282
+msgid "loop 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:282
+msgid "Supershift + Button 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:283
+msgid "loop 16"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:283
+msgid "Supershift + Button 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:284
+msgid "Double loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:284
+msgid "Shift + Pitchbend +"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:285
+msgid "Half loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:285
+msgid "Shift + Pitchbend -"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:289
+msgid "Pitch / Syncing"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:298
+msgid "Hercules DJControl MP3 e2 (pitch / sync)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:304
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:441
+msgid "Temporary Holds the pitch 4% higher while pressed"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:304
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:441
+msgid "Pitchbend +/-"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:308
+msgid "Set deck as master clock. Led blink: master Fixed led: Follower Led off: none"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:308
+msgid "Master tempo (MP3 e2) / Pitch reset (MP3 LE & Glow)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:308
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:322
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:328
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:446
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:314
+msgid "Adjust playback pitch / speed"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:314
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:458
+msgid "Pitch knobs"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:317
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:514
+msgid "Automatically sets pitch so the BPM of the other deck is matched"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:317
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:514
+msgid "Sync"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:322
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:446
+msgid "Enable key-lock for the specified deck (rate changes only affect tempo, not key)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:322
+msgid "Shift + Master tempo"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:328
+msgid "Magnet (all cues, hotcues, loops, and beatloops will be automatically quantized so that they begin on a beat.)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:328
+msgid "Supershift + Master tempo"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:336
+msgid "Adjust beatgrid"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:336
+msgid "Shift + Sync"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:338
+msgid "scratch"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:355
+msgid "Mapping description (by knob/button)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:364
+msgid "Hercules DJControl MP3 e2 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:368
+msgid "Global controls"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:371
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:438
+msgid "Number"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:371
+msgid "shifted"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:371
+msgid "Supershifted"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:373
+msgid "Arrow up/down"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:373
+msgid "Up : goes one track down Down : Microphone TalkOver"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:373
+msgid "Up : Goes one track up Down : Nothing"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:373
+msgid "Nothing"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:378
+msgid "Play/Stutter sampler 1/3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:384
+msgid "Files"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:384
+msgid "Play/Stutter sampler 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:390
+msgid "Switch deckA between Channel 1 & 3 and deckB between 2 &4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:404
+msgid "Used as a master shift button to obtain more controls than those provided by Hercules. Press & Hold automix, then press corresponding button to obtain shifted behavior."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:415
+msgid "Enable or disable the scratch mode on both decks"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:415
+msgid "Used as a master supershift button to obtain a third level of controls. Press & Hold Automix, then press & Hold Scratch, then press corresponding button to obtain supershifted behavior"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:435
+msgid "Deck / Channel specific controls"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:438
+msgid "Simple function"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:438
+msgid "Shifted function"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:438
+msgid "Supershifted function"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:441
+msgid "\\+ double loop \\- half loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:441
+msgid "\\+ Filter High Kill \\- Filter Low Kill"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:446
+msgid "Master Tempo"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:446
+msgid "Syncs the BPM and phase to that of the other track (if BPM is detected on both). Led blink: master Fixed led: follower Led off: none"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:446
+msgid "Quantize (Magnet)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:458
+msgid "Adjusts playback pitch/speed"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:458
+msgid "Deck A: adjust the headphone volume Deck B: adjust the cue/main mix in the headphone output"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:469
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:469
+msgid "Loop/Fx"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:469
+msgid "Toggle the Loop/Hotcue mode for the keys buttons. When the button is not lit up the loop buttons are enabled, when the button is lit up the hotcue's buttons are enabled"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:482
+msgid "Adjusts the gain of the low/medium/high equalizer filter"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:487
+msgid "Loop mode: 1 - loop-in 2 - loop-out 3 - Toggles current loop On or Off 4 - Loop 4 Hotcue mode: 1, 2, 3 and 4: If hotcue X is set, seeks the player to hotcue X's position. If hotcue X is not set, sets hotcue X to the current play position."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:487
+msgid "Loop mode: 1 - Loop 1/4 2 - Loop 1/2 3 - Loop 1 4 - Loop 2 Hotcue mode: If hotcue X is set, clears its hotcue status."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:487
+msgid "Loop mode: 1 - Clear loop 2 - Loop 1/8 3 - Loop 8 4 - Loop 16 Hotcue mode: Nothing"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:505
+msgid "Forward \\\\ Backward"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:505
+msgid "Fast forward/backward"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:505
+msgid "Forward: brake effect (stay pushed) Backward: spinback effect (stay pushed)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:514
+msgid "Adjust BeatGrid"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:514
+msgid "Kill Mid"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:520
+msgid "Repeat"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:523
+msgid "Sets the cue point if a track is stopped and not at the current cue point Stops track and returns to the current cue point if a track is playing. Plays preview if a track is stopped at the cue point for as long as it's held down"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:541
+msgid "Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks Absolute sync of the track speed to the jog wheel if the scratch mode is enabled"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:541
+msgid "Deck A: Select prev/next playlist Deck B: select prev/next track"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:555
+msgid "Controls the deck output volume. There is soft takeover after deck switch (1/3 or 2/4) to prevent wide parameter changes when the on-screen control diverges from the hardware control. Manipulating the control on the hardware will have no effect until the position of the hardware control is close to that of the software, at which point it will take over and operate as usual."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:584
+msgid "Toggles this deck output to the headphones monitor on/off"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:591
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:594
+msgid "Jog wheels not working or controller not responding"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:596
+msgid "If your jog wheels doesn’t work, or nothing works on the controller even when you have carefully read all other resources, you should be aware that this controller stores at least two configuration options in the controller:"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:599
+msgid "Enable/disable Jog Wheels"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:600
+msgid "MIDI channel to use"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:602
+msgid "and maybe a third one: Jog wheel sensitivity"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:604
+msgid "With factory default settings, the jog wheels are enabled and the MIDI channel used is channel 1. The mapping is made for channel 1 only. If your controller is configured for another channel, nothing will work and if you launch Mixxx with :literal:`-``-controllerDebug` parameter, you will have lines like this one showing in the logs when you press a button on the controller :"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:611
+msgid "note the B3 here. it’s B<MIDI Channel # - 1>. So this controller is configured on channel 4. controller configured on channel 1 will show B0, which is correct."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:613
+msgid "To change these parameters, you have to use the configuration tool that comes with the Hercules driver on on `the Hercules support page <http://ts.hercules.com/eng/index.php?pg=view_files&gid=17&fid=61&pid=241&cid=1>`__. Unfortunately, the configuration tool is only available for Windows and Mac OS X. We are not aware of any solution for Linux. So if you normally use Linux, you will have to find a computer with Windows or Mac OS X, install the Hercules driver, plug-in the controller and change configuration. You will only need to do this once, then the controller should work with Linux."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:619
+msgid "Controller not recognized as bulk controller"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_mp3_e2.rst:621
+msgid "It has been reported that when the Hercules drivers are installed on a Windows, the driver takes over the bulk communication with the controller so it cannot be recognized by Mixxx as a bulk controller. Uninstall the Hercules driver and use it as a USB bulk controller."
+msgstr ""
