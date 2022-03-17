@@ -3435,21 +3435,27 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    tracks table has focus, pressing a button loads the selected track to a specific deck, while the same
    button would clear the search if the search bar is focused.
 
-   Note: This control is useful only if the Mixxx main window has keyboard focus, otherwise it always returns 0.
+   Note: This control is useful only if a Mixxx window has keyboard focus, otherwise it always returns 0.
 
    :range:
-     ========  ================================
-     Value     Widget
-     ========  ================================
-     0         none (not writeable)
-     --------  --------------------------------
-     1         Search bar
-     --------  --------------------------------
-     2         Tree view
-     --------  --------------------------------
-     3         Tracks table
-     ========  ================================
-   :feedback: Currently focused pane changes
+     ========  ==========  ================================================================================================
+     Value     writeable   Widget
+     ========  ==========  ================================================================================================
+     0                     none
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     1         X           Search bar
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     2         X           Tree view
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     3         X           Tracks table or root views of library features
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     4                     Context menu (menus of library widgets or other editable widgets, or main menu bar)
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     5                     Dialog (any confirmation or error popup, preferences, track properties or cover art window)
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     6                     Unknown (widgets that don't fit into any of the above categories)
+     ========  ==========  ================================================================================================
+   :feedback: Currently focused widget changes
 
    .. versionadded:: 2.4.0
 
