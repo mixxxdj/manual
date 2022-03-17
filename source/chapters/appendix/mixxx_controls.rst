@@ -3479,6 +3479,8 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    ------------------------  -------------------------------------------------------------------------------------------------------------
    **Tracks table**          Performs the action selected in :menuselection:`Preferences --> Library --> Track Double-Click Action` (default is "Load selected track"). Also see :menuselection:`Preferences --> Decks --> Playing track protection`
    ------------------------  -------------------------------------------------------------------------------------------------------------
+   **Context menus**         presses :kbd:`Enter`
+   ------------------------  -------------------------------------------------------------------------------------------------------------
    **Dialogs / popups**      presses :kbd:`Enter`. Note: the :mixxx:coref:`Move.. <[Library],MoveUp>` controls allow to move button focus.
    ========================  =============================================================================================================
 
