@@ -3482,6 +3482,20 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Library],show_track_menu
+
+   Toggle the track context menu for all tracks selected in the current library view.
+   The control value is `1` if there is already a menu shown for the current view.
+   Note that the control is not aware of other track menus, for example those opened
+   by right-clicking track text labels in decks. Only the most recent menu can be
+   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls.
+
+   :range: Binary
+   :feedback: Tracks table context menu is shown or hidden.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Library],AutoDjAddBottom
                    [Playlist],AutoDjAddBottom
 
