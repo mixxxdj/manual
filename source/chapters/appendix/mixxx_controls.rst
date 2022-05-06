@@ -1784,7 +1784,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
-   :range: -6.0..6.0
+   :range: -6.0..6.0 semitones
    :feedback: Key display
 
    .. versionadded:: 2.0.0
