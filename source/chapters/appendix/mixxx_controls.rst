@@ -2005,7 +2005,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
-   :range: -6.0..6.0
+   :range: -6.0..6.0 semitones
    :feedback: Key display
 
    .. versionadded:: 2.0.0
@@ -2039,11 +2039,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch_adjust
                    [SamplerN],pitch_adjust
 
-   Adjust the pitch in addition to the :term:`tempo` slider pitch.
+   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock. It is reset after loading a new track.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
-   :range: -3.0..3.0
+   :range: -3.0..3.0 semitones
    :feedback: Key display
 
    .. versionadded:: 2.0.0

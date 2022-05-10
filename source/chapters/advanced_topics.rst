@@ -74,11 +74,9 @@ There are also some advanced options in the Midi Wizard you may need to use:
 * Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or an
   end, but spin continuously.
 
-The Controller wizard saves the new mapping to the following file paths:
+The Controller wizard saves the new mapping to the ``controllers`` directory in
+the user settings directory, see :ref:`appendix-settings-files`.
 
-* Linux: :file:`/home/<username>/.mixxx/controllers`
-* macOS: :file:`/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx/controllers`
-* Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
 ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more
@@ -230,33 +228,3 @@ using sends for effects. This gives Mixxx access to the extensive collection of
 Make sure the correct multichannel audio interface has been selected in Jack
 (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
 ports as :guilabel:`Portaudio`.
-
-Deleting Your Library
-=====================
-
-The library file is stored in the following places depending on your
-:term:`operating system`:
-
-**Windows**
-  The Mixxx library is stored in the
-  :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\` folder.
-  To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in
-  this folder.
-
-**macOS**
-  The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`
-  folder in your home directory. To delete your library on macOS type the
-  following command into a terminal: ::
-
-       rm ~/Library/Application\ Support/Mixxx/mixxxdb.sqlite
-
-**GNU/Linux**
-  The Mixxx library is stored in the ``.mixxx`` folder in your home directory.
-  To delete your library on GNU/Linux type the following command into a terminal: ::
-
-       rm ~/.mixxx/mixxxdb.sqlite
-
-.. warning:: Deleting your library will lose all of your :term:`metadata`. This
-             includes saved hotcues, loops, comments, ratings, and other library
-             related metadata. Only delete your library if you are fine with
-             losing these.

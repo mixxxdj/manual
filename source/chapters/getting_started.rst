@@ -10,16 +10,16 @@ Installing Mixxx
 After `downloading Mixxx from our Website <https://mixxx.org/download/>`_, you need
 to install it on your computer.
 
- **Windows**
-   Double-click the Mixxx installation file and go through the installation wizard.
+**Windows**
+ Double-click the Mixxx installation file and go through the installation wizard.
 
- **macOS**
-   Double-click the Mixxx .dmg file and drag the Mixxx icon to your Applications
-   folder.
+**macOS**
+ Double-click the Mixxx .dmg file and drag the Mixxx icon to your Applications
+ folder.
 
- **GNU/Linux**
-   No steps are necessary after you follow the instructions on the download
-   page.
+**Linux**
+ No steps are necessary after you followed the instructions on the download
+ page.
 
 Upgrading Mixxx
 ===============
@@ -35,22 +35,7 @@ when you launch the new version of Mixxx. Note that we do not guarantee that new
 configurations will work on older versions of Mixxx, therefore you may want to
 make a backup of your existing settings just in case.
 
- **Windows**
-   Mixxx settings are in :file:`%LOCALAPPDATA%\\Mixxx`, which is usually
-   something like :file:`c:\\Users\\<username>\\AppData\\Local\\Mixxx`. If you have
-   trouble finding this folder, see `these instructions
-   <https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/>`_.
-
-  **macOS**
-    Mixxx settings are in :file:`/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx`
-
-  **GNU/Linux**
-    Mixxx settings are in :file:`/home/<username>/.mixxx`
-
-Copy this directory to a backup drive or somewhere else on your system to make a
-backup of your settings.
-
-.. seealso:: For detailed descriptions of the settings files, go to :ref:`appendix-settings-files`.
+For locations in each supported :term:`OS <operating system>` as well as detailed descriptions of the settings files, go to :ref:`appendix-settings-files`.
 
 Opening Mixxx
 =============

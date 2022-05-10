@@ -231,11 +231,7 @@ You can manually add, relink, and remove Mixxx music directories in
   columns to see if there is a key and BPM for every track.
 
 .. note:: It is recommended to take a backup of your Mixxx configuration files before moving or renaming music directories used in Mixxx.
-          The location of Mixxx configuration files vary based on the :term:`operating system`:
-
-          * Windows: :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\`
-          * macOS: :file:`Library/Application Support/Mixxx`
-          * Linux: The configuration files are found in the ``.mixxx`` folder in your home directory.
+          For locations in each supported :term:`OS <operating system>` as well as detailed descriptions of all settings files, go to :ref:`appendix-settings-files`.
 
 **Remove a music directory**
   Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and
