@@ -3631,6 +3631,18 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [Library],sort_focused_column
+
+   Sort the column of the table cell that is currently focused, which is equivalent to
+   setting :mixxx:coref:`[Library],sort_column_toggle` to 0. Though unlike that, it can
+   be mapped to pushbuttons directly.
+
+   :range: Binary
+   :feedback: Sorting indicator in the column headers of the track table
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Library],track_color_prev
 
    Set color of selected track to previous color in palette.
