@@ -14,11 +14,10 @@ def main(argv=None):
     parser.add_argument("input_file", nargs="+")
     args = parser.parse_args(argv)
     for filepath in args.input_file:
-        file_content = ""
         with open(filepath, "r") as file:
             file_content = file.read()
+        subbed = re.sub(URL_REGEX, URL_SUB, file_content)
         with open(filepath, "w") as file:
-            subbed = re.sub(URL_REGEX, URL_SUB, file_content)
             file.write(subbed)
 
 
