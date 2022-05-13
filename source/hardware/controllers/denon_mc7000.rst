@@ -60,6 +60,7 @@ User variables can be set to suit individual needs inside the :file:`Denon-MC700
 -  ``MC7000.VinylModeOn`` set the Vinyl Mode on or off at Mixxx start which also triggers the Platter Ring LED function (default: 1)
 -  ``MC7000.scratchParams`` set Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
 -  ``MC7000.jogSensitivity`` set the Jog Sensitivity (default: 1)
+-  ``MC7000.SamplerQty`` set the sampler quantity (values 16 or 32, default: 16)
 
 
 Mixer Section
@@ -177,7 +178,7 @@ Deck Section
 
    If the deck is paused, press and hold this button to play the track from the cue point. Release the button to return the track to the cue point and pause it. To continue playback without returning to the cue point, press and hold this button and then press the :hwlabel:`PLAY` button, afterwards release cue button."
    "26", ":hwlabel:`SHIFT` + :hwlabel:`CUE`",              "Press to return to the start of the track."
-   "27", ":hwlabel:`PLAY / PAUSE`",                        "Press to pause or resume playback."
+   "27", ":hwlabel:`PLAY / PAUSE`",                        "Press to pause or resume playback. Start/Stop time can be adjusted with stop time knob."
    "27", ":hwlabel:`SHIFT` + :hwlabel:`PLAY / PAUSE`",     "Press to stutter play the track from the last set cue point."
    "28", "Jog Wheel",                                      "Controls the audio playhead when the wheel is touched and moved.
 
@@ -244,6 +245,8 @@ Mode Selection
    "37", ":hwlabel:`SAVED LOOP`", "Press :hwlabel:`ROLL` one more time to get into **'Fixed Loop'** mode."
    "38", ":hwlabel:`SLICER`",     "Press to switch to **'Beatjump'** mode."
    "39", ":hwlabel:`SAMPLER`",    "Press to switch to **'Sampler'** mode."
+   "39", ":hwlabel:`VELSAMPLER`",    "Press to switch to **'VelocitySampler'** mode."
+   "39", ":hwlabel:`PITCHPLAY`",    "Press with shift to switch to **'Pitch Play'** mode."
 
 
 Hot Cue Mode (blue LED)
@@ -301,7 +304,8 @@ This mode lets you jump a number of beats while pushing a pad button once.
 Sampler Mode (pink LED)
 -----------------------
 
-8 samplers can be triggered from either Deck.
+As default 16 samplers can be used.
+8 samplers can be triggered from Deck 1 and Deck 3 and 8 samplers can be triggered from Deck 2 and Deck 4. Deck 1 will play sampler 1 to 8, Deck 2 will play sampler 9 to 16, Deck 3 will play sampler 1 to 8 and Deck 4 will play sampler 9 to 16.
 
 | Add samplers to the sampler bank pushing a pad button.
 | If a sampler is loaded, then another push on the pad button will play the sampler from its Cue point.
@@ -316,6 +320,50 @@ Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sam
 
 .. hint::
    To use default Mixxx behaviour and allow playing multiple samplers at the same time you can set the user variable ``MC7000.prevSamplerStop`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>` to ``false``.
+
+Velocity Sampler Mode (purple LED)
+----------------------------------
+
+Velocity Sampler Mode is a mode where the velocity of the push on the pad determines the volume of the sampler played.
+A gentle push results in low volume and a powerful push restults in high volume.
+Apart from that the behavior is equal to Sampler Mode.
+
+As default 16 samplers can be used.
+8 samplers can be triggered from Deck 1 and Deck 3 and 8 samplers can be triggered from Deck 2 and Deck 4. Deck 1 will play sampler 1 to 8, Deck 2 will play sampler 9 to 16, Deck 3 will play sampler 1 to 8 and Deck 4 will play sampler 9 to 16.
+
+| Add samplers to the sampler bank pushing a pad button.
+| If a sampler is loaded, then another push on the pad button will play the sampler from its Cue point.
+| Push the pad button again while playing will replay the sampler from Cue point.
+| When a sampler is started while another one is still playing, then the initial sampler stops and only the newly triggered sampler plays (single play).
+
+Use :hwlabel:`SHIFT` + pad button to stop a sampler while playing or eject a sampler when stopped.
+
+.. figure:: ../../_static/controllers/denon_mc7000_velocity_sampler_mode.svg
+   :alt: Denon MC7000 VELOCITY SAMPLER Mode
+   :figclass: pretty-figures
+
+.. hint::
+   To use default Mixxx behaviour and allow playing multiple samplers at the same time you can set the user variable ``MC7000.prevSamplerStop`` inside the :ref:`JavaScript file<denon_mc7000_uservariables>` to ``false``.
+
+Pitch Play Mode (green LED)
+---------------------------
+
+Pitch Play Mode is a mode where the pad position determines the pitch of the deck played.
+After activating the Pitch, the pads light up in hotcue colors, waiting for a selection of existing hotcue for Pitch Play or creating a new hotcue at the current position.
+When a hotcue has been selected or created, this hotcue is used for Pitch Play.
+
+During Pitch Play the range of pitch can be changed up or down using the param buttons.
+
+| start Pitch Play pushing a pad button after hotcue selection.
+| If the deck is playing, then another push on the pad button will start to play the deck with the assigned pitch from its Cue point.
+| To reset pitch press shift and pad button.
+
+
+
+.. figure:: ../../_static/controllers/denon_mc7000_pitch_play_mode.svg
+   :alt: Denon MC7000 PITCH PLAY Mode
+   :figclass: pretty-figures
+
 
 .. _denon_mc7000_led:
 
@@ -349,5 +397,5 @@ Platter Ring LEDs are correlated with the :hwlabel:`VINYL` button.
 Known Issues
 ~~~~~~~~~~~~
 
-- Some Performance Pad modes are not available (Cue Loop, Flip, Slicer Loop, Velocity Sampler, Pitch).
+- Some Performance Pad modes are not available (Cue Loop, Flip, Slicer Loop).
 - The Effect Units don't use Mixxx' Standard Effects Mapping
