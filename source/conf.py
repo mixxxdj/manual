@@ -447,6 +447,12 @@ linkcheck_ignore = [
     # Ignore Twitter links because for some reason valid links sometimes fail
     # with "400 Bad Request"
     r"^https://twitter.com/\w+$",
+    "https://support.native-instruments.com/hc/en-us/articles/360001108518",
+    "https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware",
+    "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
+    "https://www.numark.com/product/*",
+    "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://www.roland.com/global/products/dj-505/downloads",
 ]
 
 # Avoid freezing during linkcheck
