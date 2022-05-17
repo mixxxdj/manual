@@ -193,7 +193,7 @@ There are three modes that the effect controls can be in:
 At any time, you can push the :hwlabel:`FILTER` or :hwlabel:`FX SELECT` button to return to Filter Mode.
 If you get lost, try pusing the :hwlabel:`FILTER` button to start over.
 
-The knobs have :term:`soft takeover` mode enabled, which means you need to turn the physical knob to match the current position of the UI knob before the value will change. If you are wondering why it seems like the values aren't changing, you may need to rotate the knob more.
+The knobs have soft takeover mode enabled, which means you need to turn the physical knob to match the current position of the UI knob before the value will change. If you are wondering why it seems like the values aren't changing, you may need to rotate the knob more.
 
 Filter Mode
 ~~~~~~~~~~~
