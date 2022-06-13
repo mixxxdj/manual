@@ -17,7 +17,7 @@ Changelog
 
 * Pioneer-DDJ-SB3: Fix controller breaking when releasing the shift button `#4659 <https://github.com/mixxxdj/mixxx/pull/4659>`_
 * Traktor S3: Push two deck switches to explicitly clone decks `#4665 <https://github.com/mixxxdj/mixxx/pull/4665>`_ `#4671 <https://github.com/mixxxdj/mixxx/pull/4671>`_ `lp:1960680 <https://bugs.launchpad.net/mixxx/+bug/1960680>`_
-* Behringer DDM4000: Improve stability and add soft-takeover for encoder knobs `#4318 <https://github.com/mixxxdj/mixxx/pull/4318>`_
+* Behringer DDM4000: Improve stability and add soft-takeover for encoder knobs `#4318 <https://github.com/mixxxdj/mixxx/pull/4318>`_ `#4799 <https://github.com/mixxxdj/mixxx/pull/4799>`_
 * MC7000: Fix 'inverted shift' bug in the controller mapping `#4755 <https://github.com/mixxxdj/mixxx/pull/4755>`_
 * Fix spinback and break effect in the controller engine `#4708 <https://github.com/mixxxdj/mixxx/pull/4708>`_
 * Fix scratch on first wheel touch `#4761 <https://github.com/mixxxdj/mixxx/pull/4761>`_ `lp:1800343 <https://bugs.launchpad.net/mixxx/+bug/1800343>`_
@@ -35,6 +35,7 @@ Changelog
 * Restore keylock from configuration and fix pitch ratio rounding issue `#4756 <https://github.com/mixxxdj/mixxx/pull/4756>`_ `lp:1943180 <https://bugs.launchpad.net/mixxx/+bug/1943180>`_
 * Improve CSV export of playlists and crates and fix empty rating column `#4762 <https://github.com/mixxxdj/mixxx/pull/4762>`_
 * Fix passthrough-related crash in waveform code `#4789 <https://github.com/mixxxdj/mixxx/pull/4789>`_ `#4791 <https://github.com/mixxxdj/mixxx/pull/4791>`_ `lp:1959489 <https://bugs.launchpad.net/mixxx/+bug/1959489>`_ `lp:1977662 <https://bugs.launchpad.net/mixxx/+bug/1977662>`_
+* Passthrough: stop rendering waveforms and disable Cue/Play indicators `4793 <https://github.com/mixxxdj/mixxx/pull/4793>`_
 
 .. _v2-3-2:
 
