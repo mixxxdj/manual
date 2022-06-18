@@ -31,7 +31,7 @@ Audio Buffer
 
 The audio buffer is the amount of audio in milliseconds that Mixxx processes at
 a time. This is a major factor that determines the latency between changing
-controls in Mixxx such as moving the crossfader or pressing the play button and
+controls in Mixxx such as moving the :term:`crossfader` or pressing the play button and
 hearing the audio change. For example, with an audio buffer of 23 ms, it will
 take approximately 23 milliseconds for Mixxx to stop the audio after you toggle
 the play button. The actual latency will be longer depending on a variety of
@@ -183,3 +183,59 @@ Other Sound Hardware options
   latency settings. If the counter increases, then increase your audio buffer
   size, decrease the sample rate setting or change the sound API setting if
   available.
+
+Output and Input Devices
+------------------------
+
+In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-card`
+or :ref:`setup-laptop-and-external-card`) all that needs to be configured are
+the Master and Headphones outputs. Though, there are many more output and
+input channels available for more complex setups, for example with external
+mixers, vinyl control or for broadcasting.
+
+All outputs are usually sent to a channel pair (stereo), though they can
+also be sent to one channel only (mono mixdown), for exampleif you're short
+on output channels, like when you need to use one stereo output for both master
+and headphones (see :ref:`setup-laptop-with-splitter`).
+
+Inputs can be mono or stereo (matching plugged sources, of course), except vinyl
+control inputs which require stereo to capture the entire control signal.
+
+Outputs
+^^^^^^^
+
+* **Master** (Main): The mix of all audible channels, e.g. main decks, all
+  samplers, enabled microphones and auxiliary inputs.
+
+* **Headphones**: All channels for which :term:`pfl` is enabled, as well as the
+  preview deck.
+
+* **Booth**: Basically the same output as Main to be routed to a separate output,
+  for example for the speakers in the DJ booth, external recording device,
+  loopback device for video recordings etc.
+
+* **Left Bus**: All decks, samplers and auxiliaries that are assigned to the left
+  side of the :term:`crossfader`.
+
+* **Center Bus**: All decks, samplers and auxiliaries that are assigned to the
+  center of the :term:`crossfader`.
+
+* **Right Bus**: All decks, samplers and auxiliaries that are assigned to the right
+  side of the :term:`crossfader`.
+
+* **Deck 1-4**: Separate outputs for each of the main decks.
+
+Inputs
+^^^^^^
+
+* **Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and passthrough <vinyl-control>`.
+  Note that one input can be selected for multiple decks.
+
+* **Microphone 1-4**: ref:`Microphone <microphones>` inputs.
+
+* **Auxiliary 1-4**: Auxiliary inputs.
+  .. TODO: link to Aux chapter when it's been added.
+
+* **Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording <djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`.
+  Note that when setting this input your recording and broadcast stream will
+  not be identical to the main output.
