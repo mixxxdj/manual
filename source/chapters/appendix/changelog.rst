@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-3-3:
 
-`2.3.3 <https://launchpad.net/mixxx/+milestone/2.3.3>`_ (unreleased)
+`2.3.3 <https://launchpad.net/mixxx/+milestone/2.3.3>`_ (2022-06-21)
 ------------------------------------------------------------------------
 
 
