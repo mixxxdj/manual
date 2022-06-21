@@ -1193,7 +1193,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates if :term:`hotcue` slot X is set, active or empty.
 
-   :range: read-only
+   :range (read-only):
       ===== ===================================
       Value Meaning
       ===== ===================================
@@ -1215,7 +1215,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates if :term:`hotcue` slot X is set, active or empty.
 
-   :range: read-only
+   :range (read-only):
+
       ===== ===================================
       Value Meaning
       ===== ===================================
@@ -1234,7 +1235,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates the type of the :term:`hotcue` in hotcue slot X.
 
-   :range: read-only
+   :range (read-only):
       ===== ===================================
       Value Type
       ===== ===================================
