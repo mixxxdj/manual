@@ -1618,6 +1618,20 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       Control is not longer read-only and can be used to enable/disable looping.
 
 
+.. mixxx:control:: [ChannelN],loop_remove
+                   [PreviewDeckN],loop_remove
+                   [SamplerN],loop_remove
+
+   Clears the last active loop, i.e. deactivates and removes loop, detaches :mixxx:coref:`loop_in <[ChannelN],loop_in>`,
+   :mixxx:coref:`loop_out <[ChannelN],loop_out>`, :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>` and related
+   controls. It does not affect saved loops.
+
+   :range: binary
+   :feedback: Last active loop is disabled and removed from waveform and overview.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],loop_end_position
                    [PreviewDeckN],loop_end_position
                    [SamplerN],loop_end_position
