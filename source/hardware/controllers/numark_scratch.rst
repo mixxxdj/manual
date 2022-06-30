@@ -3,9 +3,6 @@
 Numark Scratch
 ==============
 
-.. sectionauthor::
-   Al Hadebe <jholthuis@mixxx.org>
-
 The Numark Scratch is a 24-bit 2 channel mixer designed for the scratch DJ.
 It's equipped with an InnoFader crossfader and 8 performance pads across 3 modes, and
 6 dedicated software FX selectors with dual toggle triggers. The Scratch is DVS ready under Mixxx
@@ -81,7 +78,7 @@ No.       Control                                             Function
 4         :hwlabel:`LINE/PHONO` & :hwlabel:`PC`               Toggle between LINE / PHONO or PC per channel
 5         CUE :hwlabel:`MIX`                                  Adjust monitoring between CUE and PGM
 6         CUE :hwlabel:`GAIN`                                 Adjust CUE level
-7         FX :hwlabel:`DRY / WET`                             Adjust FX wet/dry depth 
+7         FX :hwlabel:`DRY / WET`                             Adjust FX wet/dry depth
 8         FX SELECT                                           Toggle single FX
 8         :hwlabel:`SHIFT` + FX SELECT                        Toggle multiple FX selections at the same time
 9         FX :hwlabel:`HOLD / ON` paddle                      Push up to toggle FX on or push down to toggle FX momentarily
@@ -93,7 +90,7 @@ No.       Control                                             Function
 15        PERFORMANCE PADS                                    SEE PERFORMANCE PADS SECTION FOR MORE INFO
 16        :hwlabel:`LOOP -/+`                                 Turn right/left to increase/decrease loop size, press in to toggle loop on/off
 16        :hwlabel:`SHIFT` + :hwlabel:`LOOP -/+`              Turn for Library scroll, press in to load selected track to deck, double press to load instant double
-17        :hwlabel:`FILTER`                                   Adjust hardware Filter per channel 
+17        :hwlabel:`FILTER`                                   Adjust hardware Filter per channel
 18        MIC :hwlabel:`TONE` & :hwlabel:`MIC` level          Adjust microphone tone & level
 ========  ==================================================  ==========================================
 
@@ -101,7 +98,7 @@ Performance Pads
 ~~~~~~~~~~~~~~~~
 
 Pad modes are similar to those found when used with Serato.
-To change modes, press the PAD MODE button repeatedly, which 
+To change modes, press the PAD MODE button repeatedly, which
 will cycle through the available pade modes, which are as follows:
 
 .. figure:: ../../_static/controllers/numark_scratch_performancepads.svg
@@ -113,18 +110,18 @@ will cycle through the available pade modes, which are as follows:
 
    Numark Scratch (performance pads)
 
-==========================  ===================== 
-Control                     Mode                 
+==========================  =====================
+Control                     Mode
 ==========================  =====================
 :hwlabel:`PAD MODE` CUE     Hot Cue Mode
 :hwlabel:`PAD MODE` SAMPLE  Sampler Mode
 :hwlabel:`PAD MODE` ROLL    Loop Roll Mode
 ==========================  =====================
 
-CUE mode: Pads 1-4 trigger Hotcue Cues, and if no Cue point is present on that pad/slot, will set a Cue point 
+CUE mode: Pads 1-4 trigger Hotcue Cues, and if no Cue point is present on that pad/slot, will set a Cue point
 in the respective pad/slot. Holding SHIFT while pressing a pad will clear the Cue point from that pad/slot.
 
-SAMPLER mode: Press pads 1-4 to trigger samples loaded into the sample slot. Hold SHIFT while pressing a pad to 
+SAMPLER mode: Press pads 1-4 to trigger samples loaded into the sample slot. Hold SHIFT while pressing a pad to
 stop the sample playback once triggered.
 
 ROLL mode: In this mode holding pads 1-4 activates a loop roll of varying sizes. Release the pad to exit the loop roll.
