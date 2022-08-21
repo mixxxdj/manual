@@ -36,6 +36,9 @@ Output Channels       Assigned to
 
 This controller mapping does not support any inputs. The controller itself has a microphone input, but that cannot be controlled via MIDI or routed to the computer.
 
+.. note:: Decks 3 and 4 you will not work unless you map at least one of Mixxx's outputs to use the DDJ-SB3 sound card. This is a limitation of the
+            controller's firmware.
+
 Controller Mapping
 ------------------
 
