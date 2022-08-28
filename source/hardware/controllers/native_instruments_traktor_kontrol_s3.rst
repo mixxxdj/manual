@@ -168,7 +168,8 @@ In Hotcues mode, pressing the number button will set the hotcue if none exists, 
 If you hold :hwlabel:`SHIFT` and press a button, it will clear that hotcue.
 
 In Samplers mode, the buttons on the left side of the controller correspond to Samplers 1-8.
-The buttons on the right side of the controller correspond to Samplers 9-16.
+By default, the buttons on the right side of the controller also correspond to Samplers 1-8.
+If you edit the javascript file and set `TraktorS3.SixteenSamplers = true;`, the samplers on the right-hand deck correspond to Samplers 9-16.
 By default, pressing a number button will activate a sample.
 Pressing the button again will stop sample playback.
 

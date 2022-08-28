@@ -452,6 +452,10 @@ linkcheck_ignore = [
     r"^https://support.serato.com/",
     # Unknown why this anchor doesn't appear to work -- could be js-generated.
     r"^https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#",
+    "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
+    "https://www.numark.com/product/*",
+    "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://www.roland.com/global/products/dj-505/downloads",
 ]
 
 # Avoid freezing during linkcheck
