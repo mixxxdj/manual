@@ -148,7 +148,7 @@ To pull newly completed translation (.po) files from Transifex, run:
 
 Commit the changes to the repository with:
 
-    git add source/translations
+    git add source/locale
     git commit -m "Pull latest translations from Transifex."
 
 #### Compile the translations from Transifex and verify there are no errors.
