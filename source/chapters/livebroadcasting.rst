@@ -22,10 +22,7 @@ Streaming Servers
   :term:`Shoutcast <shoutcast>` and :term:`Icecast <icecast>` streaming servers.
   Depending on the number of listeners, streaming audio requires a significant
   amount of bandwidth. Streaming servers provide the required bandwidth and
-  broadcast the stream to your listeners. A popular free streaming service is
-  `Caster.fm <http://www.caster.fm>`_. A review of several free and paid stream
-  hosts is available at
-  `broadcastingworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>`_.
+  broadcast the stream to your listeners.
 
   .. digraph:: remote_streaming
      :caption: Mixxx as client-side streaming source broadcasting to an
