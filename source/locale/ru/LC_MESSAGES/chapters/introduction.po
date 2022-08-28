@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Misha Soundactive, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:17+0000\n"
+"Last-Translator: Misha Soundactive, 2022\n"
 "Language-Team: Russian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
-msgstr ""
+msgstr "Введение в Mixxx"
 
 #: ../../chapters/introduction.rst:8
 msgid ""
@@ -30,11 +31,11 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr ""
+msgstr "Mixxx позволяет вам исполнять живые диджейские миксы с вашей цифровой музыкальной коллекцией. Это поможет вам раскачать вечеринку с помощью DJ-контроллеров, виниловых проигрывателей или даже просто клавиатуры. Он разработан международной командой добровольцев, которые хотят принести радость диджеинга всем желающим. Проект является некоммерческим, с открытым исходным кодом и ориентирован на сообщество. Вместе мы стремимся создать лучшее программное обеспечение для диджеев, когда-либо созданное. Мы надеемся, что вы :ref:`присоединитесь к нам<contributing>`!:"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
-msgstr ""
+msgstr "Как работает Mixxx"
 
 #: ../../chapters/introduction.rst:19
 msgid ""
@@ -42,7 +43,7 @@ msgid ""
 "multiple audio files at the same time and has many features to manipulate "
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
-msgstr ""
+msgstr "Mixxx отличается от обычных приложений для воспроизведения музыки тем, что он воспроизводит несколько аудиофайлов одновременно и имеет множество функций для управления воспроизведением аудиофайлов. Это позволяет вам творчески смешивать различные треки на лету."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -53,11 +54,11 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore). Mixxx can be used in two different ways for headphone cueing:"
-msgstr ""
+msgstr "Вы можете использовать Mixxx для предварительного прослушивания следующего трека в наушниках, до того, как его услышит аудитория, функция также известна как \"headphone cueing\". Это поможет вам выбрать трек, подходящий для текущего момента и который будет хорошо сочетаться с воспроизводимыми в данный момент треками. Для использования подключения наушников вам необходимо как минимум 2 отдельных аудиовыхода, обычно предоставляемых аудиоинтерфейсом USB (также известным как “звуковая карта”, хотя большинство из них больше не имеют формы карт). Mixxx можно использовать двумя различными способами для подключения наушников:"
 
 #: ../../chapters/introduction.rst:32
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "**Внутреннее микширование**"
 
 #: ../../chapters/introduction.rst:34
 msgid ""
@@ -66,18 +67,18 @@ msgid ""
 "separate signal is sent to another audio interface output for headphone "
 "cueing. Often a DJ controller is used with internal mixing to provide easier"
 " control over Mixxx than a mouse and keyboard."
-msgstr ""
+msgstr "Mixxx воспроизводит несколько аудиофайлов на компьютере одновременно, смешивает их вместе и отправляет смешанный сигнал на один выход аудиоинтерфейса. Отдельный сигнал отправляется на другой выход аудиоинтерфейса для подключения наушников. Для упрощения работы с Mixxx при внутреннем микшировании, удобнее использовать DJ-контроллер, чем мышь и клавиатуру."
 
 #: ../../chapters/introduction.rst:48
 msgid ""
 "Using Mixxx together with a DJ controller for internal mixing. The DJ "
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
-msgstr ""
+msgstr "Использование Mixxx вместе с DJ-контроллером для внутреннего микширования. DJ-контроллер имеет встроенный аудиоинтерфейс, который обеспечивает два отдельных стереовыхода."
 
 #: ../../chapters/introduction.rst:52
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Внешнее микширование**"
 
 #: ../../chapters/introduction.rst:54
 msgid ""
@@ -90,10 +91,10 @@ msgid ""
 "typically used with turntables and :ref:`special vinyl records<vinyl-"
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
-msgstr ""
+msgstr "При такой настройке Mixxx воспроизводит несколько аудиофайлов на компьютере одновременно и отправляет каждую дорожку на отдельный выход аудиоинтерфейса. Выходы аудиоинтерфейса подключены к внешнему аппаратному микшеру. Аппаратный микшер выполняет фактическое смешивание аудиосигналов. На аппаратном микшере есть отдельные выходы для воспроизведения смешанного сигнала для аудитории и для предварительного прослушивания диджеем в наушниках (headphone cueing). Внешнее микширование обычно используется с вертушками и :ref:`специальными виниловыми пластинками<vinyl-control>` для управления цифровыми музыкальными файлами, как если бы музыка была на виниловых пластинках."
 
 #: ../../chapters/introduction.rst:71
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
-msgstr ""
+msgstr "Использование Mixxx вместе с аудиоинтерфейсом USB, внешним микшером и винилом с временным кодом для внешнего микширования"

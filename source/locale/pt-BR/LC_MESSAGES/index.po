@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
-"Last-Translator: Fer22f <Fer22f@gmail.com>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>, 2015\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../index.rst:9
 msgid "Mixxx |version| User Manual"
@@ -53,7 +53,7 @@ msgstr "4 decks"
 
 #: ../../index.rst:21
 msgid "effects"
-msgstr ""
+msgstr "effects"
 
 #: ../../index.rst:23
 msgid ""

@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Ferran Pujol Camins <ferranpujolcamins@gmail.com>, 2014
+# Josep Maria Antolin <josepma@gmail.com>, 2020
 # Josep Maria Antolin <josepma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:17+0000\n"
+"Last-Translator: Josep Maria Antolin <josepma@gmail.com>, 2020\n"
 "Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,11 +33,11 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr ""
+msgstr "El Mixxx et permet fer mescles en viu com un DJ amb la teva col·lecció digital de música. Et permet muntar una festa utilitzant controladors de DJ, plats de vinil o simplement amb el teclat de l'ordinador. El desenvolupa un equip internacional de discjòqueis voluntaris que tenen la missió d'oferir el plaer de punxar a tothom. El Mixxx és un projecte sense ànim de lucre, de codi obert i liderat per la comunitat. Juntament amb la vostra ajuda aspirem a desenvolupar el millor programa de DJ. Esperem que :ref:`t'apuntis amb nosaltres <contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
-msgstr ""
+msgstr "Com funciona el Mixxx"
 
 #: ../../chapters/introduction.rst:19
 msgid ""
@@ -44,7 +45,7 @@ msgid ""
 "multiple audio files at the same time and has many features to manipulate "
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
-msgstr ""
+msgstr "Mixxx és diferent respecte als reproductors de música comuns ja que pot reproduir múltiples fixers d'àudio al mateix temps i té moltes característiques per manipular la reproducció de dites pistes d'àudio. Això et permet mesclar diferents pistes a la vegada de forma creativa i en viu."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -55,11 +56,11 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore). Mixxx can be used in two different ways for headphone cueing:"
-msgstr ""
+msgstr "Pots utilitzar el Mixxx per preescoltar la següent pista pels auriculars abans que el públic la escolti, també anomenat monitorització d'auriculars. Et permet triar una pista que sigui adequada per al moment actual i que es mescli bé amb la(les) que està reproduint. Per a utilitzar la monitorització d'auriculars, es necessita com a mínim 2 sortides d'audio separades, habitualment amb un dispositiu d'àudio USB (també anomenat “targeta de so”, encara que actualment ja no tenen la forma d'una targeta). Es pot monitoritzar l'audio amb el Mixxx de dues maneres diferents:"
 
 #: ../../chapters/introduction.rst:32
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "**Mesclador intern**"
 
 #: ../../chapters/introduction.rst:34
 msgid ""
@@ -68,18 +69,18 @@ msgid ""
 "separate signal is sent to another audio interface output for headphone "
 "cueing. Often a DJ controller is used with internal mixing to provide easier"
 " control over Mixxx than a mouse and keyboard."
-msgstr ""
+msgstr "Mixxx reprodueix múltiples fitxers d'àudio a l'ordinador al mateix temps, les mescla, i envia la senyal mesclada cap a una interfície d'àudio de sortida. També s'envia una senyal separada a una interfície d'àudio de sortida diferent per a la monitorització dels auriculars. Sovint, s'utilitza mescla interna conjuntament amb un controlador de DJ, ja que permeten un control més senzill que no amb el teclat i el ratolí."
 
 #: ../../chapters/introduction.rst:48
 msgid ""
 "Using Mixxx together with a DJ controller for internal mixing. The DJ "
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
-msgstr ""
+msgstr "Utilitzant el Mixxx amb un controlador de DJ per a la mescla interna. El controlador de DJ disposa d'una interfície d'àudio integrada que proporciona dues sortides estèreo separades."
 
 #: ../../chapters/introduction.rst:52
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Mesclador extern**"
 
 #: ../../chapters/introduction.rst:54
 msgid ""

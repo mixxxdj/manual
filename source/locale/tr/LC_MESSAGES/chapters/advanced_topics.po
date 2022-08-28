@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Onur Tuna <onurtuna.lj@gmail.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:20+0000\n"
+"Last-Translator: Onur Tuna <onurtuna.lj@gmail.com>, 2021\n"
 "Language-Team: Turkish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "İleri Düzey Konular"
 
 #: ../../chapters/advanced_topics.rst:9
 msgid "Adding support for your MIDI/HID Controller"
@@ -66,7 +67,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:40
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Mixxx'i başlat"
 
 #: ../../chapters/advanced_topics.rst:41
 msgid "Go to :menuselection:`Preferences --> Controllers`"

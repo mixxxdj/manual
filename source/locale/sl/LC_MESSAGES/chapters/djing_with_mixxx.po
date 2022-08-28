@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 11:01+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2019-2021\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,7 +109,7 @@ msgid ""
 "signal-to-noise ratio, the gain should be adjusted as close to the speakers "
 "as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
 " details."
-msgstr ""
+msgstr "Da bi ohranili veliko razmerje med signalom in šumom, hkrati pa dvignili glasnost, je potrebno prilagoditi glasnost kolikor je le mogoče blizu zvočnikom. Za podrobnosti glej razdelek <interface-gain-knob>:ref:`Gain Knob `."
 
 #: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:205
 msgid "Mixxx library - Recordings view"
-msgstr "Mixxx knjižnica - Ogled posnetkov"
+msgstr "Mixxx zbirka - Ogled posnetkov"
 
 #: ../../chapters/djing_with_mixxx.rst:207
 msgid ""
@@ -252,7 +252,7 @@ msgid ""
 "the track table to the right displays the content of your recordings "
 "directory. New recordings are automatically saved to this directory as well "
 "as CUE files if you choose to create them in the preferences."
-msgstr "Če kliknete na ikono \"Posnetki\" na stranskem panoju v Mixxx knjižnici, pano na desni prikaže vsebino našega direktorija s posnetki. Novi posnetki se bodo shranili v ta direktorij, kot tudi CUE datoteke, če jih potrdite v možnostih."
+msgstr "Če kliknete na ikono \"Posnetki\" na stranskem panoju v Mixxx zbirki, pano na desni prikaže vsebino našega direktorija s posnetki. Novi posnetki se bodo shranili v ta direktorij, kot tudi CUE datoteke, če jih potrdite v možnostih."
 
 #: ../../chapters/djing_with_mixxx.rst:220
 msgid ""
@@ -321,14 +321,14 @@ msgstr "Raba Auto Dj za samodejno miksanje"
 
 #: ../../chapters/djing_with_mixxx.rst:264
 msgid "Mixxx library - Auto DJ view"
-msgstr "Mixxx knjižnica - Auto DJ pogled"
+msgstr "Mixxx zbirka - Samodejni DJ pogled"
 
 #: ../../chapters/djing_with_mixxx.rst:266
 msgid ""
 "Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
-"when the current track is nearly finished, and crossfade into it.  See :ref"
-":`library-auto-dj`."
-msgstr "Auto DJ omogoča samodejno nalaganje skladb iz Auto Dj seznama predvajanja , ko je trenutna skladba skoraj končana in navzkrižni prehod na njo. Glej :ref:`library-auto-dj`."
+"when the current track is nearly finished, and crossfade into it.  See "
+":ref:`library-auto-dj`."
+msgstr "Samodejni DJ omogoča samodejno nalaganje skladb iz seznama predvajanja samodejnega didžeja, ko se trenutna skladba že skoraj konča in navzkrižni prehod na njo. Glej :ref:`library-auto-dj`."
 
 #: ../../chapters/djing_with_mixxx.rst:271
 msgid "Loading tracks into Auto DJ"
@@ -342,7 +342,7 @@ msgstr "Za samodejno predvajanje skladb, morajo biti te najprej naložene v Auto
 
 #: ../../chapters/djing_with_mixxx.rst:283
 msgid "Mixxx library - Adding a playlist to Auto DJ"
-msgstr "Mixxx knjižnica - Dodajanje seznama predvajanja v Auto DJ"
+msgstr "Mixxx zbirka - Dodajanje seznama predvajanja v Samodejni DJ"
 
 #: ../../chapters/djing_with_mixxx.rst:285
 msgid "There are several ways to load tracks into the Auto DJ playlist:"
@@ -352,7 +352,7 @@ msgstr "Obstaja več načinov za nalaganje skladb v Auto Dj seznam predvajanja."
 msgid ""
 "Select single or multiple tracks from the library, a regular playlist or "
 "crate and drag them to the Auto DJ icon on the left."
-msgstr "Izberite sno ali več skladb iz knjižnice, normalen seznam predvajanja ali zaboj in ga potegnite na Auto Dj ikon na levi strani."
+msgstr "Izberite eno ali več skladb iz zbirke, seznama predvajanja ali zaboja in ga povlecite na ikono Samodejni DJ na levi strani."
 
 #: ../../chapters/djing_with_mixxx.rst:289
 msgid ""
@@ -366,7 +366,7 @@ msgid ""
 "While in the Auto DJ view of the library, drag tracks from external file "
 "managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
 " the right."
-msgstr "Medtem, ko ste v Auto Dj prikazu knjižnice, povlecite skladbe iz zunanjega upravljalika datotek na Auto DJ ikono v stranskem panoju ali na Auto Dj tabelo skladb na desni."
+msgstr "Medtem, ko ste v Samodejni DJ prikazu zbirke, povlecite skladbe iz zunanjega upravljalnika datotek na ikono Samodejni DJ v stranskem panoju ali na Samodejni Dj seznam skladb na desni."
 
 #: ../../chapters/djing_with_mixxx.rst:298
 msgid "Using Auto DJ crates"
@@ -450,7 +450,7 @@ msgstr "Sedaj, ko ste naložili skladbe v Auto DJ seznam predvajanja, lahko akti
 msgid ""
 "Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
 "DJ` view of the library."
-msgstr "Kliknite na 'Auto DJ ' ikono v stranskem panoju, da preklopite na :guilabel:`Auto DJ` prikaz knjižnice."
+msgstr "Kliknite na ikono 'Samodejni DJ ' v stranskem panoju, da preklopite na :guilabel:`Samodejni DJ` prikaz zbirke."
 
 #: ../../chapters/djing_with_mixxx.rst:346
 msgid "Click the :guilabel:`Enable Auto DJ` button."

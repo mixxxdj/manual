@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,144 +20,144 @@ msgstr ""
 
 #: ../../chapters/getting_involved.rst:6
 msgid "Contributing to the Project"
-msgstr ""
+msgstr "Bijdragen aan het project"
 
 #: ../../chapters/getting_involved.rst:8
 msgid ""
 "Mixxx is a community-driven project involving many DJs worldwide. Without "
 "the contributions from these DJs, Mixxx would not exist, and we're "
 "constantly looking for more contributors."
-msgstr ""
+msgstr "Mixxx is een community-gedreven project waarbij vele DJ's wereldwijd betrokken zijn. Zonder de bijdragen van deze DJ's zou Mixxx niet bestaan, en we zijn voortdurend op zoek naar meer mensen die willen bijdragen."
 
 #: ../../chapters/getting_involved.rst:12
 msgid ""
 "We want to make it as easy as possible for people to get involved in Mixxx "
 "development.  First off, to be clear **you don't have to be a programmer to "
 "contribute**."
-msgstr ""
+msgstr "We willen het zo gemakkelijk mogelijk maken om betrokken te raken bij de ontwikkeling van Mixxx. Ten eerste, en om zeer duidelijk te zijn ** hoef je geen programmeur te zijn om bij te dragen**."
 
 #: ../../chapters/getting_involved.rst:17
 msgid "As a non-developer"
-msgstr ""
+msgstr "Als een niet-ontwikkelaar"
 
 #: ../../chapters/getting_involved.rst:19
 msgid ""
 "`Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help "
 "support and enhance development."
-msgstr ""
+msgstr "Doneer <https://mixxx.org/download/>`_ aan Mixxx met behulp van Paypal om de ontwikkeling te ondersteunen en te verbeteren."
 
 #: ../../chapters/getting_involved.rst:21
 msgid "`Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
-msgstr ""
+msgstr "`Maak skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
 
 #: ../../chapters/getting_involved.rst:22
 msgid ""
 "`Make MIDI mappings "
 "<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for "
 "your controller"
-msgstr ""
+msgstr "`Maak MIDI mappings <https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ voor jouw controller"
 
 #: ../../chapters/getting_involved.rst:25
 msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
-msgstr ""
+msgstr "`Raporteer bugs en fouten <https://bugs.launchpad.net/mixxx>`_"
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
 "Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the "
 "information on it is up to date."
-msgstr ""
+msgstr "Update onze `Wiki <https://mixxx.org/wiki/doku.php>`_ om er er voor te zorgen dat de informatie op de site up-to-date is."
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
 "Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
 "software/public/>`_"
-msgstr ""
+msgstr "Vertaal Mixxx met `Transifex <https://www.transifex.com/mixxx-dj-software/public/>`_"
 
 #: ../../chapters/getting_involved.rst:30
 msgid ""
 "Answer questions on the `Troubleshooting Forum "
 "<https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
 "page <https://answers.launchpad.net/mixxx>`_"
-msgstr ""
+msgstr "Beantwoord vragen op het `Troubleshooting Forum <https://mixxx.org/forums/viewforum.php?f=3>`_ en de `Launchpad Answers page <https://answers.launchpad.net/mixxx>`_."
 
 #: ../../chapters/getting_involved.rst:33
 msgid ""
 "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
 " about our new releases when they come out. Any exposure on the web and in "
 "print helps our project grow, and is much appreciated."
-msgstr ""
+msgstr "Help Mixxx te promoten: Als je een blog hebt, schrijf dan een artikel over Mixxx. Blog over onze nieuwe releases als ze uitkomen. Elke vermelding op het web en in print helpt ons project groeien, en wordt zeer gewaardeerd."
 
 #: ../../chapters/getting_involved.rst:36
 msgid "Send us some photos of you using Mixxx at a gig!"
-msgstr ""
+msgstr "Stuur ons wat foto's van jezelf terwijl je Mixxx gebruikt tijdens een optreden!"
 
 #: ../../chapters/getting_involved.rst:39
 msgid "As a software developer"
-msgstr ""
+msgstr "Als een software ontwikkelaar"
 
 #: ../../chapters/getting_involved.rst:41
 msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
-msgstr ""
+msgstr "Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die tijdens het leerproces van C++ in de Mixxx-ontwikkeling zijn gestapt."
 
 #: ../../chapters/getting_involved.rst:43
 msgid ""
 "Join our mailing list: `mixxx-devel "
 "<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
-msgstr ""
+msgstr "Word lid van onze mailinglijst: `mixxx-devel <https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
 
 #: ../../chapters/getting_involved.rst:45
 msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
-msgstr ""
+msgstr "Doe mee met onze `Zulip chat <https://mixxx.zulipchat.com/>`_."
 
 #: ../../chapters/getting_involved.rst:46
 msgid ""
 "Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist "
 ":term:`bugs <bug report>`, or post on the forums."
-msgstr ""
+msgstr "Vertel ons uw ideeën! Email ons, praat op :term:`Zulip`, dien een verlanglijst voor :term:`bugs <bug report>` in, of post op één van de forums."
 
 #: ../../chapters/getting_involved.rst:48
 msgid ""
 "Register an account on our development platform `Github "
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://mixxx.org/wiki/doku.php/using_git>`_"
-msgstr ""
+msgstr "Registreer een account op ons ontwikkellingsplatform `Github <https://github.com/mixxxdj>`_ en kloon onze code. Zie `Git gebruiken voor Mixxx Ontwikkeling <https://mixxx.org/wiki/doku.php/using_git>`_"
 
 #: ../../chapters/getting_involved.rst:51
 msgid ""
 "Join the `Mixxx Development Team "
 "<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
-msgstr ""
+msgstr "Word lid van het `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_ op Launchpad."
 
 #: ../../chapters/getting_involved.rst:54
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
-msgstr ""
+msgstr "Maak je vertrouwd met de code. Kies een bug uit de `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>``_"
 
 #: ../../chapters/getting_involved.rst:56
 msgid ""
 "Get help fixing the bug on :term:`Zulip`, talk to us about the best way to "
 "do it."
-msgstr ""
+msgstr "Krijg hulp bij het oplossen van de bug op: term: `Zulip`, praat met ons over de beste manier om dit te doen."
 
 #: ../../chapters/getting_involved.rst:59
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
-msgstr ""
+msgstr "**Bijdragen tot Mixxx in 3 Eenvoudige Stappen:**"
 
 #: ../../chapters/getting_involved.rst:61
 msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
-msgstr ""
+msgstr " Kies een bug uit de `Easy Bug List <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
 #: ../../chapters/getting_involved.rst:63
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."
-msgstr ""
+msgstr "Praat met ons op :term:`Zulip` voor hulp bij het oplossen."
 
 #: ../../chapters/getting_involved.rst:64
 msgid ""
 "Fix it! *Done!* Your name will now be on the `Mixxx contributor list "
 "<https://mixxx.org/contact/>`_."
-msgstr ""
+msgstr "Herstel het! *Klaar! *Je naam komt nu op de `Mixxx contributielijst <https://mixxx.org/contact/>`_."

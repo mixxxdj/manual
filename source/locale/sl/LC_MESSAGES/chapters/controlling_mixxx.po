@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Arnold Marko <arnold.marko@gmail.com>, 2019
+# Yoyo62003 <zigatovornik354@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Yoyo62003 <zigatovornik354@gmail.com>, 2020\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +28,7 @@ msgid ""
 "Mixxx can be controlled with a keyboard, a mouse, :term:`MIDI`/:term:`HID` "
 "controllers, time-code records/CDs, or a combination of these. The choice "
 "usually depends on your budget or style of DJing."
-msgstr "Mixxx je mogoče upravljati s tipkovnico, miško, :term:`MIDI`/:term:`HID` kontrolerjem, ploščami/CDj s časovnimi kodami ali kombinacijo teh. Izbira je ponavadi odvisna od proračuna ali stila didžejanja."
+msgstr "Z Mixxx-om lahko upravljate s tipkovnico, miško, :term:`MIDI`/:term:`HID` krmilniki, zapise CD/-jev, časovne kode, ali kombinacijo teh. Izbira je ponavadi odvisna od vašega dohodka in tipa DJ-janja."
 
 #: ../../chapters/controlling_mixxx.rst:15
 msgid "Using a Mouse and Touchpad"
@@ -46,7 +47,7 @@ msgid ""
 " default action for that control. Moreover if you click on a value in the "
 "track list of the Mixxx :ref:`library <library-interface>`, you can change "
 "the value. For example the year of a track."
-msgstr ""
+msgstr "**Single Left Click**: Z levim klikom miške na gumbe sprožite privzeto dejanje za ta nadzor. Če kliknete vrednost na seznamu skladb Mixxx: :ref:`library <library-interface>` , jo lahko spremenite. Na primer leto skladbe. "
 
 #: ../../chapters/controlling_mixxx.rst:25
 msgid ""
@@ -73,7 +74,7 @@ msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the left- and right-click action "
 "respectively."
-msgstr ""
+msgstr "Če v uporabniškem vmesniku Mixxx miškin kazalec premaknete nad kontrolnik (npr. navzkrižno geslo), bo v opisu orodja navaden levi in desni klik. "
 
 #: ../../chapters/controlling_mixxx.rst:38
 msgid ""
@@ -98,7 +99,7 @@ msgstr "Mixxx bližnjice na tipkovnici (za neangleške tipkovnice)"
 #: ../../chapters/controlling_mixxx.rst:59
 msgid ""
 ":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
-msgstr ""
+msgstr ":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
 
 #: ../../chapters/controlling_mixxx.rst:61
 msgid ""
@@ -121,7 +122,7 @@ msgid ""
 ":term:`vinyl control`, it might be useful to enable/disable the keyboard "
 "mappings at runtime. You can do so by clicking :menuselection:`Options --> "
 "Enable Keyboard Shortcuts`."
-msgstr ""
+msgstr "Za nekatere uporabniške skupine, na primer tiste, ki uporabljajo :term:`controllers <controller>` ali :term:`vinyl control`, bi bilo koristno omogočiti/onemogočiti preslikave tipkovnice med izvajanjem. "
 
 #: ../../chapters/controlling_mixxx.rst:74
 msgid ""
@@ -158,7 +159,7 @@ msgid ""
 "external hardware devices used to control audio applications. Many DJs "
 "prefer the hands-on feel of a controller with Mixxx because it can feel "
 "similar to using a real mixer and turntables or :term:`CDJ`."
-msgstr ""
+msgstr "Mixxx podpira MIDI in HID :term:`controllers <controller>` ,ki sta zunanji strojni napravi, ki se uporabljata za nadzor zvočnih aplikacij."
 
 #: ../../chapters/controlling_mixxx.rst:100
 msgid "Loading a controller preset"
@@ -200,13 +201,13 @@ msgstr "Potrdi polje :guilabel:`Omogočeno`"
 msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Preset` "
 "drop-down menu"
-msgstr ""
+msgstr "V spustnem meniju :guilabel:`Load Preset` izberite preslikavo za krmilnik."
 
 #: ../../chapters/controlling_mixxx.rst:120
 msgid ""
 "Click :guilabel:`Apply` and Mixxx can now be controlled by your "
 "controller(s)."
-msgstr ""
+msgstr "Kliknite :guilabel:`Apply` in Mixxx lahko sedaj nadzirate preko vašega krmilnika(ov). "
 
 #: ../../chapters/controlling_mixxx.rst:121
 msgid "Repeat step 4-7 for any of the controllers you want to use"
@@ -267,7 +268,7 @@ msgstr "Pred nakupom kontrolerja, ki ga želite uporabljati s programom Mixxx, p
 
 #: ../../chapters/controlling_mixxx.rst:159
 msgid "Installing a preset from the forum"
-msgstr ""
+msgstr "Namestitev prednastavitve s foruma"
 
 #: ../../chapters/controlling_mixxx.rst:160
 msgid ""
@@ -277,36 +278,36 @@ msgid ""
 "Presets folder, go to :menuselection:`Preferences --> Controllers` and click"
 " the :guilabel:`Open User Preset Folder` button. Alternatively, navigate to "
 "the folder in your :term:`OS <operating system>` file browser:"
-msgstr ""
+msgstr "Če želite uporabiti preslikavo krmilnika, ki ni bila priložena z Mixxx, postavite preslikavo krmilnika v mapo Uporabniške prednastavitve. To je mapa, imenovana \"krmilniki\" v mapi Uporabniške nastavitve. Č želite odpreti mapo Uporabniške prednastavitve, pojdite na :menuselection:`PreferencesControllers` in kliknite gumb :guilabel:`Open User Preset Folder`. Lahko pa se pomaknete do mape :term:`<operating system>` v vašem datotečnem brskalniku. "
 
 #: ../../chapters/controlling_mixxx.rst:167
 msgid "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
-msgstr ""
+msgstr "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:168
 msgid ""
 "macOS: :file:`/Users/<username>/Library/Application "
 "Support/Mixxx/controllers`"
-msgstr ""
+msgstr "macOS: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:169
 msgid ""
 "Windows Vista and newer: "
 ":file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
-msgstr ""
+msgstr "Windows Vista in novejši: :file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:170
 msgid ""
 "Windows XP: :file:`C:\\\\Documents and "
 "Settings\\\\<username>\\\\AppData\\\\controllers`"
-msgstr ""
+msgstr "Windows XP: :file:`C:\\\\Documents and Settings\\\\<username>\\\\AppData\\\\controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:172
 msgid ""
 "On Windows, the :file:`AppData` folder is hidden, so if you have not "
 "already, you will need to set Windows Explorer to show hidden files and "
 "folders (how to do this varies with each version of Windows)."
-msgstr ""
+msgstr "Na Windows, je mapa :file:`AppData` skrita, zato morate, če tega še niste storili, nastaviti Windows Explorer, da prikažete skrite datoteke in mape (Kako to storiti, se razlikuje glede na različico sistema Windows)."
 
 #: ../../chapters/controlling_mixxx.rst:176
 msgid ""
@@ -316,7 +317,7 @@ msgid ""
 ":file:`.xml` file into your User Preset folder. If there is a :file:`.js` "
 "file, also copy that to your User Preset folder. Restart Mixxx and "
 ":ref:`load the preset <control-load-preset>`."
-msgstr ""
+msgstr "Če je bilo preslikavanje objavljeno kot mapa :file:`.zip` , najprej ekstrahirajte mapo :file:`.zip` z desnim klikom nanjo v brskalniku datotek in izbiro možnosti za ekstrahiranje arhiva ali stisnjene mape. Kopirajte mapo :file:`.xml` v mapo Uporabniške prednastavitve. Če tam obstaja datoteka :file:`.js`, jo tudi kopirajte v mapo Uporabniške prednastavitve. Znova zaženite Mixxx in :ref:`:ref:` naložite prednastavitev <control-load-preset>`."
 
 #: ../../chapters/controlling_mixxx.rst:183
 msgid "Map your own your controller"

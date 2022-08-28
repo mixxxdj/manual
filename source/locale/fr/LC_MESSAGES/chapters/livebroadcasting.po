@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 10:14+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
+"PO-Revision-Date: 2014-08-03 11:16+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2020\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/livebroadcasting.rst:6
 msgid "Live Broadcasting - Start your own Internet radio"
@@ -33,7 +33,7 @@ msgstr "La diffusion en direct dans Mixxx vous permet de diffuser votre mix sur 
 msgid ""
 "The :ref:`microphones` chapter has detailed instructions for including input"
 " from microphones in your broadcasted mixes."
-msgstr "Le chapitre :ref:`microphones` contient des instructions détaillées pour inclure l'entrée des microphones dans vos mixes diffusés."
+msgstr "Le chapitre :ref:`microphones` contient des instructions détaillées pour inclure l'entrée des microphones dans vos mixs diffusés."
 
 #: ../../chapters/livebroadcasting.rst:18
 msgid "Streaming Servers"
@@ -53,13 +53,13 @@ msgid ""
 " <http://www.caster.fm>`_. A review of several free and paid stream hosts is"
 " available at `broadcastingworld.net "
 "<http://www.broadcastingworld.com/reviews/category-stream-hosting>`_."
-msgstr "Mixxx vous permet d'alimenter votre flux audio directement vers les serveurs de streaming :term:`Shoutcast <shoutcast>` et :term:`Icecast <icecast>`. Selon le nombre d'auditeurs, le streaming audio nécessite une quantité importante de bande passante. Les serveurs de streaming fournissent la bande passante requise et diffusent le flux à vos auditeurs. Un service de streaming gratuit populaire est `Caster.fm <http://www.caster.fm>` _. Une revue de plusieurs hébergeurs de flux gratuits et payants est disponible sur `broadcastworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>` _."
+msgstr "Mixxx vous permet d'alimenter votre flux audio directement vers les serveurs de streaming :term:`Shoutcast <shoutcast>` et :term:`Icecast <icecast>`. Selon le nombre d'auditeurs, le streaming audio nécessite une quantité importante de bande passante. Les serveurs de streaming fournissent la bande passante requise et diffusent le flux à vos auditeurs. Un service de streaming gratuit populaire est `Caster.fm <http://www.caster.fm>`_. Une revue de plusieurs hébergeurs de flux gratuits et payants est disponible sur `broadcastworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>`_."
 
 #: ../../chapters/livebroadcasting.rst:30
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an remote streaming "
 "server"
-msgstr "Mixxx comme source de diffusion côté client diffusant sur un serveur de diffusion distant"
+msgstr "Mixxx comme source de diffusion côté client diffusant sur un serveur distant de diffusion"
 
 #: ../../chapters/livebroadcasting.rst:76
 msgid "**Local streaming server**"
@@ -78,13 +78,13 @@ msgid ""
 "<http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_ or `Icecast "
 "documentation <http://www.icecast.org/docs/>`_ for server setup "
 "instructions."
-msgstr "Pour les utilisateurs expérimentés, il peut être intéressant de configurer votre propre serveur de diffusion local. Cela transforme votre ordinateur personnel en une station de radio et les auditeurs se connectent directement à votre serveur. Mixxx en tant que source de diffusion n'a pas besoin de s'exécuter sur le même ordinateur que votre serveur de diffusion. Cependant, les stations professionnelles exécutent souvent la source de diffusion sur le même ordinateur que le serveur de diffusion pour des raisons de stabilité et de fiabilité. Gardez à l'esprit que si vous souhaitez diffuser de l'audio vers un nombre important d'auditeurs, vous aurez besoin d'une bande passante suffisante. Lisez la `documentation Shoutcast <http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>` _ ou `la documentation Icecast <http://www.icecast.org/docs/>`_ pour les instructions de configuration du serveur."
+msgstr "Pour les utilisateurs expérimentés, il peut être intéressant de configurer votre propre serveur de diffusion local. Cela transforme votre ordinateur personnel en une station de radio et les auditeurs se connectent directement à votre serveur. Mixxx en tant que source de diffusion n'a pas besoin de s'exécuter sur le même ordinateur que votre serveur de diffusion. Cependant, les stations professionnelles exécutent souvent la source de diffusion sur le même ordinateur que le serveur de diffusion pour des raisons de stabilité et de fiabilité. Garder à l'esprit que si vous souhaitez diffuser de l'audio vers un nombre important d'auditeurs, vous aurez besoin d'une bande passante suffisante. Lisez la `documentation Shoutcast <http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_ ou `la documentation Icecast <http://www.icecast.org/docs/>`_ pour les instructions de configuration du serveur."
 
 #: ../../chapters/livebroadcasting.rst:61
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an local streaming "
 "server"
-msgstr "Mixxx comme source de diffusion côté client diffusant sur un serveur de diffusion local"
+msgstr "Mixxx comme source de diffusion côté client diffusant sur un serveur local de diffusion"
 
 #: ../../chapters/livebroadcasting.rst:79
 msgid "Configuring Mixxx"
@@ -94,27 +94,27 @@ msgstr "Configurer Mixxx"
 msgid ""
 "Start by supplying Mixxx with all information needed to establish a "
 "connection to the streaming server:"
-msgstr "Commencez par fournir à Mixxx toutes les informations nécessaires pour établir une connexion avec le serveur de diffusion:"
+msgstr "Commencer par fournir à Mixxx toutes les informations nécessaires pour établir une connexion avec le serveur de diffusion:"
 
 #: ../../chapters/livebroadcasting.rst:84
 msgid "Open :menuselection:`Preferences --> Live Broadcasting`."
-msgstr "Ouvrir :menuselection:`Préférences -> Diffusion en direct`."
+msgstr "Ouvrir :menuselection:`Préférences --> Diffusion en direct`."
 
 #: ../../chapters/livebroadcasting.rst:85
 msgid ""
 "Insert the settings following the descriptions in the :ref:`live-"
 "broadcasting-preferences`"
-msgstr "Insérez les paramètres en suivant les descriptions dans :ref:`live-broadcast-preferences`"
+msgstr "Insérer les paramètres en suivant les descriptions dans :ref:`live-broadcasting-preferences`"
 
 #: ../../chapters/livebroadcasting.rst:87
 msgid "Click :guilabel:`OK`"
-msgstr "Cliquer :guilabel:`OK`"
+msgstr "Cliquer sur :guilabel:`OK`"
 
 #: ../../chapters/livebroadcasting.rst:88
 msgid ""
-"Go to :menuselection:`Options --> Enable Live Broadcasting` or use the :ref"
-":`appendix-shortcuts` to start broadcasting."
-msgstr "Allez dans :menuselection:`Options -> Activer la Diffusion en Direct (Broadcast)` ou utilisez : ref:`appendix-shortcuts` pour démarrer la diffusion."
+"Go to :menuselection:`Options --> Enable Live Broadcasting` or use the "
+":ref:`appendix-shortcuts` to start broadcasting."
+msgstr "Allez dans :menuselection:`Options --> Activer la Diffusion en Direct (Broadcast)` ou utiliser :ref:`appendix-shortcuts` pour démarrer la diffusion."
 
 #: ../../chapters/livebroadcasting.rst:94
 msgid "Live Broadcasting Preferences"
@@ -133,7 +133,7 @@ msgid ""
 "**Type**: Select the type of streaming server you want to connect with. "
 ":term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and "
 ":term:`Icecast 2<icecast>` servers are supported."
-msgstr "**Type**: sélectionner le type de serveur de diffusion auquel vous souhaitez vous connecter. Serveurs pris en charge: :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, et :term:`Icecast 2<icecast>`."
+msgstr "**Type**: Sélectionner le type de serveur de diffusion auquel vous souhaitez vous connecter. Serveurs pris en charge: :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>` et :term:`Icecast 2<icecast>`."
 
 #: ../../chapters/livebroadcasting.rst:111
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 " stream name in :menuselection:`Preferences --> Live Broadcasting --> Stream"
 " Settings`. If you don't provide a stream name, Shoutcast 2 rejects the "
 "connection (where Shoutcast 1 would accept this case)."
-msgstr "Mixxx fonctionne avec Shoutcast 2 en utilisant le protocole Shoutcast 1 si vous fournissez un nom de flux dans :menuselection:`Préférences -> Diffusion en direct -> Paramètre du flux`. Si vous ne fournissez pas de nom de flux, Shoutcast 2 rejette la connexion (alors que Shoutcast 1 accepterait ce cas)."
+msgstr "Mixxx fonctionne avec Shoutcast 2 en utilisant le protocole Shoutcast 1 si vous fournissez un nom de flux dans :menuselection:`Préférences --> Diffusion en direct --> Paramètre du flux`. Si vous ne fournissez pas de nom de flux, Shoutcast 2 rejette la connexion (alors que Shoutcast 1 accepterait ce cas)."
 
 #: ../../chapters/livebroadcasting.rst:115
 msgid ""
@@ -153,7 +153,7 @@ msgid ""
 "**Login**: As provided by your streaming server provider. Without this, you "
 "will not connect successfully to the server. The default login for *Icecast*"
 " is ``source`` while the default login for Shoutcast is ``admin``."
-msgstr "**Identifiant**: tel que fourni par votre fournisseur de serveur de diffusion. Sans cela, vous ne pourrez pas vous connecter correctement au serveur. La connexion par défaut pour *Icecast* est ``source`` tandis que la connexion par défaut pour Shoutcast est ``admin``."
+msgstr "**Identifiant**: Tel que fourni par votre fournisseur de serveur de diffusion. Sans cela, vous ne pourrez pas vous connecter correctement au serveur. La connexion par défaut pour *Icecast* est ``source`` tandis que la connexion par défaut pour Shoutcast est ``admin``."
 
 #: ../../chapters/livebroadcasting.rst:119
 msgid ""
@@ -163,27 +163,27 @@ msgid ""
 "``/live``. If you haven't been given a specific mount point you can usually "
 "make one up. It always begins with a ``/`` (slash) followed by a text "
 "without any special characters in it."
-msgstr "**Montage**: Un point de montage est un nom unique identifiant un flux particulier. Pour *Shoutcast*, il n'est pas nécessaire de spécifier un point de montage. Le paramètre ne doit pas être vide si vous utilisez *Icecast*. Essayez la valeur par défaut ``/mount`` ou ``/live``. Si vous n'avez pas reçu de point de montage spécifique, vous pouvez généralement en créer un. Il commence toujours par un ``/`` (barre oblique) suivi d'un texte sans aucun caractère spécial."
+msgstr "**Montage**: Un point de montage est un nom unique identifiant un flux particulier. Pour *Shoutcast*, il n'est pas nécessaire de spécifier un point de montage. Le paramètre ne doit pas être vide si vous utilisez *Icecast*. Essayer la valeur par défaut ``/mount`` ou ``/live``. Si vous n'avez pas reçu de point de montage spécifique, vous pouvez généralement en créer un. Il commence toujours par un ``/`` (barre oblique) suivi d'un texte sans aucun caractère spécial."
 
 #: ../../chapters/livebroadcasting.rst:125
 msgid ""
 "**Port**: As provided by your streaming server provider. Most servers use "
 "the default port 8000."
-msgstr "**Port**: tel que fourni par votre fournisseur de serveur de diffusion. La plupart des serveurs utilisent le port par défaut 8000."
+msgstr "**Port**: Tel que fourni par votre fournisseur de serveur de diffusion. La plupart des serveurs utilisent le port par défaut 8000."
 
 #: ../../chapters/livebroadcasting.rst:127
 msgid ""
 "**Password**: As provided by your streaming server provider, unless you run "
 "your own radio server. It is required to establish the connection to the "
 "server and to start the broadcast."
-msgstr "**Mot de passe** : tel que fourni par votre fournisseur de serveur de diffusion, sauf si vous exécutez votre propre serveur radio. Il est nécessaire d'établir la connexion au serveur et de démarrer la diffusion."
+msgstr "**Mot de passe** : Tel que fourni par votre fournisseur de serveur de diffusion, sauf si vous exécutez votre propre serveur radio. Il est nécessaire d'établir la connexion au serveur et de démarrer la diffusion."
 
 #: ../../chapters/livebroadcasting.rst:131
 msgid ""
 "Do not enter a :term:`URL` as the host! ``http://example.com:8000`` does not"
 " work. Use ``example.com`` in the :guilabel:`Host` field and ``8000`` in the"
 " :guilabel:`Port` field instead."
-msgstr "N'entrez pas un :term:`URL` comme hôte ! `` http: //example.com: 8000 '' ne fonctionne pas. Utiliser `` example.com`` dans le champ :guilabel:`Host` et ``8000`` dans le champ :guilabel:`Port` à la place."
+msgstr "N'entrez pas un :term:`URL` comme hôte ! ``http://example.com:8000`` ne fonctionne pas. Utiliser ``example.com`` dans le champ :guilabel:`Host` et ``8000`` dans le champ :guilabel:`Port` à la place."
 
 #: ../../chapters/livebroadcasting.rst:135
 msgid "**Stream Setting**"
@@ -200,7 +200,7 @@ msgid ""
 "**Enable UTF-8 metadata**: If enabled, this option fixes broken accented and"
 " foreign language symbols in :term:`metadata`, assuming the streaming "
 "provider has configured the server to support UTF-8 metadata."
-msgstr "**Utiliser l'encodage UTF-8 pour les métadonnées**: si elle est activée, cette option corrige les symboles de langue accentuée et étrangère rompus dans :term:`métadonnée`, en supposant que le fournisseur de diffusion a configuré le serveur pour prendre en charge les métadonnées UTF-8."
+msgstr "**Utiliser l'encodage UTF-8 pour les métadonnées**: Si elle est activée, cette option corrige les symboles de langue accentuée et étrangère rompus dans les :term:`métadonnée`, en supposant que le fournisseur de diffusion a configuré le serveur pour prendre en charge les métadonnées UTF-8."
 
 #: ../../chapters/livebroadcasting.rst:142
 msgid ""
@@ -214,7 +214,7 @@ msgstr "**Mettre à jour dynamiquement les métadonnées Ogg Vorbis**: En raison
 
 #: ../../chapters/livebroadcasting.rst:148
 msgid "**Stream name**: So, what's the name of your show?"
-msgstr "**Nom du flux** : Alors, quel est le nom de votre émission?"
+msgstr "**Nom du flux** : Alors, quel est le nom de votre émission ?"
 
 #: ../../chapters/livebroadcasting.rst:149
 msgid "**Website**: The website you would like your listeners to visit."
@@ -228,7 +228,7 @@ msgstr "**Description** : Entrez votre nom de DJ et un court slogan."
 msgid ""
 "**Genre**: List the main genres you play. This attracts search hits on "
 "stream directories. Genre must not be blank."
-msgstr "**Genre** : Répertorier les principaux genres que vous jouez. Cela attire les résultats de recherche sur les répertoires de flux. Le genre ne doit pas être vierge."
+msgstr "**Genre** : Répertorier les principaux genres que vous jouez. Cela attire les résultats de recherche sur les répertoires de flux. Le genre ne doit pas être vide."
 
 #: ../../chapters/livebroadcasting.rst:154
 msgid "**Encoding**"
@@ -247,7 +247,7 @@ msgid ""
 "**Format**: Mixxx supports streaming to Icecast servers either in "
 ":term:`MP3` or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is "
 "supported in :term:`MP3` format."
-msgstr "**Format** : Mixxx prend en charge la diffusion vers les serveurs Icecast soit en format :terme:`MP3` ou :terme:`Ogg Vorbis`, la diffusion vers les serveurs Shoutcast prend en charge le format :terme:`MP3`."
+msgstr "**Format** : Mixxx prend en charge la diffusion vers les serveurs Icecast soit en format :term:`MP3` ou :term:`Ogg Vorbis`, la diffusion vers les serveurs Shoutcast prend en charge le format :term:`MP3`."
 
 #: ../../chapters/livebroadcasting.rst:164
 msgid "**Shoutcast metadata format**"
@@ -262,7 +262,7 @@ msgid ""
 "were doing a live mix with several artists, you could have: ``Live mix by "
 "MyName - currently playing: $artist``. Or even if you wanted a very unusual "
 "format: ``Hey, I like $artist, here is $title by $artist``."
-msgstr "Cela permet de définir des formats de métadonnées personnalisés pour le champ de titre Shoutcast. Auparavant, seul ``artiste - titre'' était autorisé. Par exemple, si vous diffusiez dans le cadre d'une station, vous pouvez ajouter le nom de la station ou le nom du présentateur dans le titre: `` MyStation | $ artiste - $ titre``. Ou si vous faite un mix live avec plusieurs artistes, vous pourriez avoir: ``Mix live de MyName - en cours de lecture: $ artist``. Ou même si vous vouliez un format très inhabituel: `` Hé, j'aime $ artist, voici $ title par $ artist``."
+msgstr "Cela permet de définir des formats de métadonnées personnalisés pour le champ de titre Shoutcast. Auparavant, seul ``artiste - titre`` était autorisé. Par exemple, si vous diffusiez dans le cadre d'une station, vous pouvez ajouter le nom de la station ou le nom du présentateur dans le titre: ``MaStation | $artist - $title``. Ou si vous faite un mix live avec plusieurs artistes, vous pourriez avoir: ``Mix live par MonNom - en cours de lecture: $artist``. Ou même si vous vouliez un format très inhabituel: `` Hé, j'aime $artist, voici $title par $artist``."
 
 #: ../../chapters/livebroadcasting.rst:174
 msgid ""
@@ -282,7 +282,7 @@ msgstr "Par défaut, Mixxx diffuse des informations sur l'artiste et le titre de
 
 #: ../../chapters/livebroadcasting.rst:182
 msgid "**Enable custom metadata**: Toggles custom metadata on and off."
-msgstr "**Activer les métadonnées personnalisées**: active ou désactive les métadonnées personnalisées."
+msgstr "**Activer les métadonnées personnalisées**: Active ou désactive les métadonnées personnalisées."
 
 #: ../../chapters/livebroadcasting.rst:183
 msgid ""
@@ -324,7 +324,7 @@ msgid ""
 "Shoutcast/Icecast directory, if you enable the :guilabel:`Public Stream` "
 "option in :menuselection:`Preferences --> Live Broadcasting --> Stream "
 "Settings`."
-msgstr "Généralement, votre hôte de serveur de diffusion en direct ajoute votre station de radio au répertoire Shoutcast/Icecast, si vous activez l'option :guilabel:`Flux public` dans :menuselection:`Préférences -> Diffusion en direct -> Info stream`."
+msgstr "Généralement, votre hôte de serveur de diffusion en direct ajoute votre station de radio au répertoire Shoutcast/Icecast, si vous activez l'option :guilabel:`Flux public` dans :menuselection:`Préférences --> Diffusion en direct --> Info stream`."
 
 #: ../../chapters/livebroadcasting.rst:206
 msgid ""
@@ -342,8 +342,9 @@ msgid ""
 "to find out. If you want to promote your streaming radio station even more, "
 "register at services like `streamfinder.com "
 "<https://www.streamfinder.com/>`_. An overview of different internet radio "
-"directories is available at `shoutcheap.com <https://www.shoutcheap.com"
-"/internet-radio-directories-submitting-and-promoting/>`_"
+"directories is available at `shoutcheap.com "
+"<https://www.shoutcheap.com/internet-radio-directories-submitting-and-"
+"promoting/>`_"
 msgstr "Les hôtes de diffusion exécutent souvent leurs propres répertoires. Consultez la FAQ de votre hôte pour le savoir. Si vous souhaitez promouvoir davantage votre station de radio en diffusion, inscrivez-vous sur des services comme `streamfinder.com <https://www.streamfinder.com/>`_. Un aperçu des différents répertoires de radio Internet est disponible sur `shoutcheap.com <https://www.shoutcheap.com/internet-radio-directories-submitting-and-promoting/>`_"
 
 #: ../../chapters/livebroadcasting.rst:216
@@ -354,7 +355,7 @@ msgstr "Dépannage"
 msgid ""
 "If you have trouble connecting to your streaming server, check the "
 "configuration in the :ref:`live-broadcasting-preferences`."
-msgstr "Si vous ne parvenez pas à vous connecter à votre serveur de diffusion, vérifiez la configuration dans :ref:`live-broadcast-preferences`."
+msgstr "Si vous ne parvenez pas à vous connecter à votre serveur de diffusion, vérifiez la configuration dans  :ref:`live-broadcasting-preferences`."
 
 #: ../../chapters/livebroadcasting.rst:220
 msgid ""
@@ -379,7 +380,7 @@ msgstr "Vous devrez peut-être vérifier les paramètres de votre pare-feu. Icec
 msgid ""
 "You may need to configure port forwarding if you are behind a router or your"
 " router will block requests to your streaming port (for example, port 8000)"
-msgstr "Vous devrez peut-être configurer la redirection de port si vous êtes derrière un routeur ou votre routeur bloquera les demandes à votre port de diffusion (par exemple, le port 8000)"
+msgstr "Vous devrez peut-être configurer la redirection de port si vous êtes derrière un routeur ou bien votre routeur bloquera les demandes à votre port de diffusion (par exemple, le port 8000)"
 
 #: ../../chapters/livebroadcasting.rst:233
 msgid "Activate MP3 streaming support"
@@ -391,14 +392,14 @@ msgid ""
 "default. In order to enable MP3 streaming you must install the :term:`LAME` "
 "MP3 :term:`codec` yourself. The following section explains how you can do "
 "that."
-msgstr "En raison de restrictions de licence, la diffusion :term: `MP3` n'est pas activée par défaut. Pour activer la diffusion MP3, vous devez installer le :term:`codec` :term:`LAME` MP3  vous-même. La section suivante explique comment procéder."
+msgstr "En raison de restrictions de licence, la diffusion :term:`MP3` n'est pas activée par défaut. Pour activer la diffusion MP3, vous devez installer le :term:`codec` :term:`LAME` MP3  vous-même. La section suivante explique comment procéder."
 
 #: ../../chapters/livebroadcasting.rst:239
 msgid ""
 "If you have activated MP3 streaming support, you'll be also able to record "
 "your mixes in MP3 format. Go to the chapter :ref:`djing-recording-your-mix` "
 "for more information."
-msgstr "Si vous avez activé la prise en charge de la diffusion MP3, vous pourrez également enregistrer vos mixages au format MP3. Allez au chapitre :ref: `djing-Recording-your-mix` pour plus d'informations."
+msgstr "Si vous avez activé la prise en charge de la diffusion MP3, vous pourrez également enregistrer vos mixages au format MP3. Allez au chapitre :ref:`djing-Recording-your-mix` pour plus d'informations."
 
 #: ../../chapters/livebroadcasting.rst:244
 msgid "Activate MP3 streaming support on Windows"
@@ -406,13 +407,13 @@ msgstr "Activer la prise en charge de diffusion MP3 sur Windows"
 
 #: ../../chapters/livebroadcasting.rst:251
 msgid "To activate MP3 streaming on Windows, follow these steps:"
-msgstr "Pour activer la diffusion MP3 sur Windows, procédez comme suit :"
+msgstr "Pour activer la diffusion MP3 sur Windows, procéder comme suit :"
 
 #: ../../chapters/livebroadcasting.rst:253
 msgid ""
-"Download LAME 3.98.4 :term:`binaries` from https://www.rarewares.org/mp3"
-"-lame-libraries.php."
-msgstr "Télécharger LAME 3.98.4 :term:`binaries` à partir de https://www.rarewares.org/mp3-lame-libraries.php."
+"Download LAME 3.98.4 :term:`binaries` from "
+"https://www.rarewares.org/mp3-lame-libraries.php."
+msgstr "Télécharger LAME 3.98.4 :term:`binaires` à partir de https://www.rarewares.org/mp3-lame-libraries.php."
 
 #: ../../chapters/livebroadcasting.rst:256
 msgid ""
@@ -426,13 +427,13 @@ msgstr "La page de téléchargement comprend des versions 32 bits et 64 bits. As
 msgid ""
 "Unpack the downloaded archive. You need a utility for manipulating archives "
 "like the free `7zip <https://www.7-zip.org/>`_."
-msgstr "Décompressez l'archive téléchargée. Vous avez besoin d'un utilitaire pour manipuler les archives comme le libre `7zip <https://www.7-zip.org/>`_."
+msgstr "Décompresser l'archive téléchargée. Vous avez besoin d'un utilitaire pour manipuler les archives comme le libre `7zip <https://www.7-zip.org/>`_."
 
 #: ../../chapters/livebroadcasting.rst:264
 msgid ""
 "Copy :file:`libmp3lame.dll` to the location you have installed Mixxx, "
 "probably :file:`C:\\\\Program Files\\\\Mixxx\\\\`."
-msgstr "Copier :fichier:`libmp3lame.dll` dans l'emplacement où vous avez installé Mixxx, probablement :fichier:`C:\\\\Program Files\\\\Mixxx\\\\`."
+msgstr "Copier :file:`libmp3lame.dll` dans l'emplacement où vous avez installé Mixxx, probablement :file:`C:\\\\Program Files\\\\Mixxx\\\\`."
 
 #: ../../chapters/livebroadcasting.rst:266
 msgid ""
@@ -440,7 +441,7 @@ msgid ""
 ":file:`libmp3lame.dll` to :file:`lame_enc.dll` in the folder where you have "
 "installed Mixxx. Select :menuselection:`Help --> About` to find out your "
 "version of Mixxx."
-msgstr "**Uniquement** si vous exécutez Mixxx 1.11 ou une version antérieure, **vous devez** également renommer :file:`libmp3lame.dll` en :file:`lame_enc.dll` dans le dossier où vous avez installé Mixxx. Sélectionner :menuselection:`Aide -> A propos` pour connaître votre version de Mixxx."
+msgstr "**Uniquement** si vous exécutez Mixxx 1.11 ou une version antérieure, **vous devez** également renommer :file:`libmp3lame.dll` en :file:`lame_enc.dll` dans le dossier où vous avez installé Mixxx. Sélectionner :menuselection:`Aide --> A propos` pour connaître votre version de Mixxx."
 
 #: ../../chapters/livebroadcasting.rst:271
 #: ../../chapters/livebroadcasting.rst:302
@@ -464,7 +465,7 @@ msgstr "Vérifier que la version de LAME que vous utilisez («x86» = 32 bits co
 msgid ""
 "If you are running Mixxx 1.11 or earlier, did you rename the "
 ":file:`libmp3lame.dll` to :file:`lame_enc.dll`?"
-msgstr "Si vous exécutez Mixxx 1.11 ou une version antérieure, avez-vous renommé le :fichier:`libmp3lame.dll` en :fichier:`lame_enc.dll` ?"
+msgstr "Si vous exécutez Mixxx 1.11 ou une version antérieure, avez-vous renommé le :file:`libmp3lame.dll` en :file:`lame_enc.dll` ?"
 
 #: ../../chapters/livebroadcasting.rst:280
 msgid ""
@@ -477,7 +478,7 @@ msgid ""
 "Some websites like `Audacity <https://www.audacityteam.org/>`_ provide lame "
 ":term:`binaries` too. Do not use these versions or Mixxx will show an error "
 "when activating live broadcasting and your stream will fail."
-msgstr "Certains sites Web comme `Audacity <https://audacityteam.org/>`_ fournissent également des :term:`binaries` LAME. N'utilisez pas ces versions ou Mixxx affichera une erreur lors de l'activation de la diffusion en direct et votre flux échouera."
+msgstr "Certains sites Web comme `Audacity <https://audacityteam.org/>`_ fournissent également des :term:`binaires` LAME. N'utilisez pas ces versions ou Mixxx affichera une erreur lors de l'activation de la diffusion en direct et votre flux échouera."
 
 #: ../../chapters/livebroadcasting.rst:289
 msgid "Activate MP3 streaming support on macOS"
@@ -502,7 +503,7 @@ msgstr "Télécharger `LAME 3.98.4 <https://mega.nz/#!WdwHHTzA!UkdJwUQiihwHb0Shd
 msgid ""
 "Double-click on the downloaded zip file to unpack the file and you'll get an"
 " installer package file"
-msgstr "Double-cliquez sur le fichier zip téléchargé pour décompresser le fichier et vous obtiendrez un fichier de paquet d'installation"
+msgstr "Double-cliquer sur le fichier zip téléchargé pour décompresser le fichier et vous obtiendrez un fichier de paquet d'installation"
 
 #: ../../chapters/livebroadcasting.rst:300
 msgid ""
@@ -523,7 +524,7 @@ msgid ""
 "Linux. They provide a convenient way to install many Open Source packages. "
 "Once Homebrew or Macports is installed, adding MP3 support to Mixxx is "
 "rather simple."
-msgstr "Un autre moyen simple d'activer la diffusion MP3 consiste à utiliser `Homebrew <https://brew.sh/>`_ ou `MacPorts <https://www.macports.org/>`_, qui sont des gestionnaires de paquets comme `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ sur Debian/Ubuntu Linux. Ils fournissent un moyen pratique d'installer de nombreux paquets Open Source. Une fois Homebrew ou Macports installé, l'ajout du support MP3 à Mixxx est plutôt simple."
+msgstr "Un autre moyen simple d'activer la diffusion MP3 consiste à utiliser `Homebrew <https://brew.sh/>`_ ou `MacPorts <https://www.macports.org/>`_, qui sont des gestionnaires de paquets comme `apt <https://en.wikipedia.org/wiki/Advanced_Packaging_Tool>`_ sur Linux Debian/Ubuntu. Ils fournissent un moyen pratique d'installer de nombreux paquets Open Source. Une fois Homebrew ou Macports installé, l'ajout du support MP3 à Mixxx est plutôt simple."
 
 #: ../../chapters/livebroadcasting.rst:313
 msgid "**Homebrew**:"
@@ -533,7 +534,7 @@ msgstr "**Homebrew** :"
 #: ../../chapters/livebroadcasting.rst:323
 #: ../../chapters/livebroadcasting.rst:336
 msgid "Open a terminal and type the following commands::"
-msgstr "Ouvrez un terminal et entrez les commandes suivantes ::"
+msgstr "Ouvrer un terminal et entrer les commandes suivantes ::"
 
 #: ../../chapters/livebroadcasting.rst:321
 msgid "**Macports**:"

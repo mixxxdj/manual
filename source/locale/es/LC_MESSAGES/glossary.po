@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../glossary.rst:2
 msgid "Glossary of Terms"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../glossary.rst:231
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../../glossary.rst:233
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../glossary.rst:338
 msgid "audio interface"
-msgstr ""
+msgstr "audio interface"
 
 #: ../../glossary.rst:339
 msgid "audio interfaces"
@@ -517,7 +517,7 @@ msgstr ""
 
 #: ../../glossary.rst:71
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: ../../glossary.rst:73
 msgid ""
@@ -769,7 +769,7 @@ msgstr ""
 
 #: ../../glossary.rst:263
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: ../../glossary.rst:265
 msgid ""

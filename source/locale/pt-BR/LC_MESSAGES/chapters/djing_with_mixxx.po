@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Fer22f <Fer22f@gmail.com>, 2015\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
@@ -327,8 +327,8 @@ msgstr "Biblioteca do Mixxx - Visualização do Auto DJ"
 #: ../../chapters/djing_with_mixxx.rst:266
 msgid ""
 "Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
-"when the current track is nearly finished, and crossfade into it.  See :ref"
-":`library-auto-dj`."
+"when the current track is nearly finished, and crossfade into it.  See "
+":ref:`library-auto-dj`."
 msgstr "O Auto DJ permite que você carregue automaticamente faixas da lista de reprodução do Auto DJ quando a faixa atual estiver quase acabando, e faz a transição para ela. Veja :ref:`library-auto-dj`."
 
 #: ../../chapters/djing_with_mixxx.rst:271

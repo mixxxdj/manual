@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# DARIO BONFANTI <dario275@gmail.com>, 2020
+# Marco Bertorello <marco.bertorello@gmail.com>, 2021
 # Roberto Ekesi <r_ekesi@yahoo.com>, 2017
 # Damtux, 2015
 msgid ""
@@ -10,14 +12,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Marco Bertorello <marco.bertorello@gmail.com>, 2021\n"
 "Language-Team: Italian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../index.rst:9
 msgid "Mixxx |version| User Manual"
@@ -29,38 +31,38 @@ msgid ""
 "for Windows, macOS and Linux. It's easy to use, even if you've never DJed. "
 "Mixxx offers a variety of features to help beginners get started and help "
 "experienced DJs get creative:"
-msgstr ""
+msgstr "Mixxx è `un software DJ gratuito <https://www.gnu.org/philosophy/free-sw.html>` _ per Windows, macOS e Linux. È facile da usare, anche se non hai mai fatto il DJ. Mixxx offre una varietà di funzioni per aiutare i principianti a iniziare e aiutare i DJ esperti a diventare creativi:"
 
 #: ../../index.rst:16
 msgid "beat, tempo, and musical key detection"
-msgstr ""
+msgstr "rilevamento di battute, tempo e chiave musicale"
 
 #: ../../index.rst:17
 msgid "master sync"
-msgstr ""
+msgstr "sincronizzazione principale"
 
 #: ../../index.rst:18
 msgid "hotcues"
-msgstr ""
+msgstr "hotcues"
 
 #: ../../index.rst:19
 msgid "looping"
-msgstr ""
+msgstr "looping"
 
 #: ../../index.rst:20
 msgid "4 decks"
-msgstr ""
+msgstr "4 deck"
 
 #: ../../index.rst:21
 msgid "effects"
-msgstr ""
+msgstr "effetti"
 
 #: ../../index.rst:23
 msgid ""
 "You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, "
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
-msgstr ""
+msgstr "Puoi usare Mixxx per esibirti con: term: `MIDI` e: term: controller` HID`, lettori CD, giradischi in vinile o anche solo tastiera e mouse del tuo computer."
 
 #: ../../index.rst:27
 msgid "Table of Contents"

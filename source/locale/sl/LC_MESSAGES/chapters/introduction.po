@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2021
+# Yoyo62003 <zigatovornik354@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 13:08+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>\n"
+"PO-Revision-Date: 2014-08-03 11:17+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2019-2021\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +32,11 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr "Mixx omogoča didžejanja v živo s pomočjo digitalnih zbirk glasbe. Omogoča obvladovanje žurk preko DJ kontrolerjev, gramofonov ali zgolj preko tipkovnice. Razvija ga mednarodna ekipa prostovoljcev, ki bi radi veselje didžejanja delili z vsemi. Projekt je neprofiten, odprtokoden in skupnosten. Skupaj ustvarjamo najboljši Dj program, ki je kdaj obstajal. Upamo, da se nam boste :ref::`pridružili <contributing>`!"
+msgstr "Mixxx vam omogoča, da z vašo digitalno glasbeno zbirko izvajate DJ mikse v živo. Pomaga vam obvladati zabavo z DJ krmilniki, vinilnimi gramofoni, ali samo z vašo tipkovnico. Razvila ga je mednarodna skupina prostovoljcev, ki želijo vsem prikazati veselje do mešanja glasbe. Projekt je neprofiten, odprtokoden in namenjen skupnosti. Skupaj si prizadevamo ustvariti najboljšo programsko opremo za mešalce plošč. Upamo, da se nam boste :ref:`join us<contributing>! "
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
-msgstr "Delovanje Mixxx-a"
+msgstr "Kako deluje"
 
 #: ../../chapters/introduction.rst:19
 msgid ""
@@ -43,7 +44,7 @@ msgid ""
 "multiple audio files at the same time and has many features to manipulate "
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
-msgstr "Mixxx je drugačen od tipičnih programov za predvajanje glasbe, saj predvaja več zvočnih datotek hkrati in ima mnogo možnosti za manipuliranje predvajanja zvočnih datotek. To omogoča kreativno miksanje različnih skladb v živo."
+msgstr "Mixxx se razlikuje od običajnih predvajalnikov glasbe, ker predvaja več zvočnih datotek hkrati in ima veliko funkcij za upravljanje predvajanja zvočnih datotek. To vam omogoča sprotno mešanje skladb. "
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -54,11 +55,11 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore). Mixxx can be used in two different ways for headphone cueing:"
-msgstr ""
+msgstr "Mixxx lahko uporabite za predogled naslednje skladbe z naglavnimi slušalkami, preden jo občinstvo sliši, znano tudi kot predposlušanje. To vam pomaga izbrati skladbo, ki ustreza trenutku in se bo dobro ujemala s predvajano skladbo/(ami). Če želite uporabiti nastavitev slušalk, potrebujete vsaj 2 ločena izhoda, ki jih običajno zagotavlja zvočni vmesnik USB (znan tudi kot “zvočna kartica”, čeprav večina od njih ni več v obliki kartice). Za predposlušanje je Mixxx mogoče uporabiti na dva različna načina:"
 
 #: ../../chapters/introduction.rst:32
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "Notranje mešanje"
 
 #: ../../chapters/introduction.rst:34
 msgid ""
@@ -67,14 +68,14 @@ msgid ""
 "separate signal is sent to another audio interface output for headphone "
 "cueing. Often a DJ controller is used with internal mixing to provide easier"
 " control over Mixxx than a mouse and keyboard."
-msgstr ""
+msgstr "Mixxx predvaja več zvočnih datotek na računalniku hkrati, jih premeša in pošlje mešan signal na en izhod zvočnega vmesnika. Ločen signal se pošlje na drug izhod zvočnega vmesnika za usmerjanja slušalk. Pogosto se DJ krmilnik uporablja z notranjim mešanjem za lažji nadzor nad Mixxx-om kot miška in tipkovnica."
 
 #: ../../chapters/introduction.rst:48
 msgid ""
 "Using Mixxx together with a DJ controller for internal mixing. The DJ "
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
-msgstr ""
+msgstr "Uporaba Mixxx skupaj z DJ krmilnikom za notranje mešanje. DJ krmilnik ima vgrajen zvočni vmesnik, ki zagotavlja dva ločena stereo izhoda. "
 
 #: ../../chapters/introduction.rst:52
 msgid "**External Mixing**"
@@ -91,10 +92,10 @@ msgid ""
 "typically used with turntables and :ref:`special vinyl records<vinyl-"
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
-msgstr ""
+msgstr "V tej vrsti postavitve bo Mixxx na računalniku predvajal več zvočnih datotek hkrati in vsako skladbo pošiljal na ločen zvočni izhod. Izhodi so vklopljeni v zunanjo zvočno mešalko, kjer se izvaja dejansko miksanje zvočnih signalov. Strojna mešalka ima ločene izhode za predvajanje zmiksanega signala občinstvu in za didžejevo predposlušanje. Zunanje miksanje je ponavadi uporabljeno za gramofone in  :ref:`special vinyl records`<vinyl-control>, ki omogočijo rabo glasbe iz digitalnih datotek, kot da bi bile predvajane z gramofonskih plošč.."
 
 #: ../../chapters/introduction.rst:71
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
-msgstr ""
+msgstr "Raba programa Mixxx z USB zvočnim vmesnikom, zunanjo zvočno mešalko in gramofonsko ploščo s časovno kodo za zunanje miksanje."
