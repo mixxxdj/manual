@@ -9,6 +9,24 @@
 Changelog
 =========
 
+.. _v2-3-4:
+
+`2.3.4 <https://launchpad.net/mixxx/+milestone/2.3.4>`_ (unreleased)
+------------------------------------------------------------------------
+
+
+* Track Properties: show 'date added' as local time `#4838 <https://github.com/mixxxdj/mixxx/pull/4838>`_ `lp:1980658 <https://bugs.launchpad.net/mixxx/+bug/1980658>`_
+* Numark DJ2GO2 Touch: Fix  sliders and knobs `#4835 <https://github.com/mixxxdj/mixxx/pull/4835>`_ `lp:1948596 <https://bugs.launchpad.net/mixxx/+bug/1948596>`_
+* Potmeters: Add support for arbitrary maximums in 7-/14-bit handlers from controller scripts `#4495 <https://github.com/mixxxdj/mixxx/pull/4495>`_
+* Shade: Fix library sidebar splitter glitch `#4828 <https://github.com/mixxxdj/mixxx/pull/4828>`_ `lp:1979823 <https://bugs.launchpad.net/mixxx/+bug/1979823>`_
+* MacOS builds: Perform ad-hoc signing of macOS bundle in Pull request and personal repositories `#4774 <https://github.com/mixxxdj/mixxx/pull/4774>`_
+* Waveform: Avoid visual glitch with ranges < 1 px `#4804 <https://github.com/mixxxdj/mixxx/pull/4804>`_
+* Traktor S3: Fix issues with sampler and hotcue buttons `#4676 <https://github.com/mixxxdj/mixxx/pull/4676>`_
+* Build Mixxx on MacOS 11, replacing deprecated MacOS 10.15 `#4863 <https://github.com/mixxxdj/mixxx/pull/4863>`_
+* EQ preferences: properly restore 'One EQ for all decks' setting `#4886 <https://github.com/mixxxdj/mixxx/pull/4886>`_
+* MC7000: Fix off-by-one indexing in the controller script `#4902 <https://github.com/mixxxdj/mixxx/pull/4902>`_
+* Cover Art: Fix picking wrong cover file, when track file name contains extra dots `#4909 <https://github.com/mixxxdj/mixxx/pull/4909>`_
+
 .. _v2-3-3:
 
 `2.3.3 <https://launchpad.net/mixxx/+milestone/2.3.3>`_ (2022-06-21)
