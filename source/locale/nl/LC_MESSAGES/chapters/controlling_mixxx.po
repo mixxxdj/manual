@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,25 +20,25 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:6
 msgid "Controlling Mixxx"
-msgstr ""
+msgstr "Bedienen van Mixxx"
 
 #: ../../chapters/controlling_mixxx.rst:8
 msgid ""
 "Mixxx can be controlled with a keyboard, a mouse, :term:`MIDI`/:term:`HID` "
 "controllers, time-code records/CDs, or a combination of these. The choice "
 "usually depends on your budget or style of DJing."
-msgstr ""
+msgstr "Mixxx kan worden bediend met een toetsenbord, een muis, :term:`MIDI`/:term:`HID` controllers, tijdcode-records/CD's, of een combinatie hiervan. De keuze is meestal afhankelijk van uw budget of stijl van DJ-en."
 
 #: ../../chapters/controlling_mixxx.rst:15
 msgid "Using a Mouse and Touchpad"
-msgstr ""
+msgstr "Gebruik van Muis en Touchpad"
 
 #: ../../chapters/controlling_mixxx.rst:17
 msgid ""
 "Use your mouse to interact with the controls in the :ref:`Mixxx User "
 "Interface <interface-overview>` on your computer screen. You can perform "
 "actions by pointing and clicking with your mouse."
-msgstr ""
+msgstr "Gebruik uw muis voor interactie met de besturingselementen in de :ref:`Mixxx Gebruikers-Interface <interface-overview>` op uw computerscherm. U kunt acties uitvoeren door met uw muis te wijzen en te klikken."
 
 #: ../../chapters/controlling_mixxx.rst:21
 msgid ""
@@ -45,66 +46,66 @@ msgid ""
 " default action for that control. Moreover if you click on a value in the "
 "track list of the Mixxx :ref:`library <library-interface>`, you can change "
 "the value. For example the year of a track."
-msgstr ""
+msgstr "**Eenmalige Linker Muisklik**: Het uitvoeren van een linker muisklik op knoppen activeert de standaard actie voor die controle. Als u bovendien op een waarde in de tracklist van de Mixxx :ref:`bibliotheek <library-interface>` klikt, kunt u de waarde wijzigen. Bijvoorbeeld het jaartal van een track."
 
 #: ../../chapters/controlling_mixxx.rst:25
 msgid ""
 "**Single Right Click**: On most buttons, performing a right click triggers a"
 " different action than a left click. You can return any knob or fader to its"
 " default value by right-clicking that control."
-msgstr ""
+msgstr "**Eenmalige Rechter Muisklik**: Bij de meeste knoppen wordt door het uitvoeren van een rechter muisklik een andere actie uitgevoerd dan bij een linker muisklik. U kunt elke knop of fader terugzetten op de standaardwaarde door met de rechtermuisknop op die knop te klikken."
 
 #: ../../chapters/controlling_mixxx.rst:28
 msgid ""
 "**Mouse Drag**: Click on a knob or fader, hold the left mouse button and "
 "move your cursor to change the value of the control. Use mouse drag to drop "
 "tracks from the file list to the decks, crates, playlists, etc."
-msgstr ""
+msgstr "**Muis Slepen**: Klik op een knop of fader, houd de linkermuisknop ingedrukt en beweeg de cursor om de waarde van de besturing te wijzigen. Gebruik de muis om tracks te slepen van de bestandslijst naar de decks, kratten, afspeellijsten, enz."
 
 #: ../../chapters/controlling_mixxx.rst:31
 msgid ""
 "**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values "
 "by placing the cursor over the control and moving the mouse wheel."
-msgstr ""
+msgstr "**Muiswiel**: Net als bij Muis Slepen, kunt u de waarden van de knoppen en faders wijzigen door de cursor op de besturing te plaatsen en aan het muiswiel te draaien."
 
 #: ../../chapters/controlling_mixxx.rst:34
 msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the left- and right-click action "
 "respectively."
-msgstr ""
+msgstr "Als u met de muis over een besturingselement (bijvoorbeeld de crossfader) in de Mixxx-gebruikersinterface hovert , geeft de tooltip de actie met links- en rechtsklikken weer."
 
 #: ../../chapters/controlling_mixxx.rst:38
 msgid ""
 "On a Macbook or a computer with a touchpad that lacks mouse buttons, a two-"
 "finger click gesture is often treated as a right click."
-msgstr ""
+msgstr "Op een Macbook of een computer met een touchpad zonder muisknoppen wordt een klikbeweging met twee vingers vaak behandeld als een klik met de rechtermuisknop."
 
 #: ../../chapters/controlling_mixxx.rst:41
 msgid ""
 "Using the Mouse drag/wheel on the waveforms you can adjust zoom and playback"
 " rate of the tracks. For more information, go to :ref:`interface-waveform`."
-msgstr ""
+msgstr "Met behulp van de Muis sleep/wiel op de waveforms kunt u de zoom en de afspeelsnelheid van de tracks aanpassen. Voor meer informatie, ga naar :ref:`interface-waveform`."
 
 #: ../../chapters/controlling_mixxx.rst:48
 msgid "Using a Keyboard"
-msgstr ""
+msgstr "Gebruik van een Keyboard/Toetsenbord"
 
 #: ../../chapters/controlling_mixxx.rst:57
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
-msgstr ""
+msgstr "Mixxx Toetsenbord snelkoppelingen (voor en-us toetsenbordindeling)"
 
 #: ../../chapters/controlling_mixxx.rst:59
 msgid ""
 ":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
-msgstr ""
+msgstr ":download:`Download de afbeelding <../_static/Mixxx-220-Keyboard-Mapping.png>`"
 
 #: ../../chapters/controlling_mixxx.rst:61
 msgid ""
 "Controlling Mixxx with a keyboard is handy. Unlike mouse control, the "
 "keyboard allows you to manage things simultaneously. For example, you can "
 "start playing a track on deck 1 whilst stopping deck 2 at the same time."
-msgstr ""
+msgstr "Mixxx bedienen met een toetsenbord is handig. In tegenstelling tot muisbesturing kunt u met het toetsenbord dingen tegelijkertijd beheren. U kunt bijvoorbeeld een track op deck 1 afspelen terwijl u tegelijkertijd deck 2 stopt."
 
 #: ../../chapters/controlling_mixxx.rst:65
 msgid ""
@@ -112,7 +113,7 @@ msgid ""
 "It is divided into a left-hand side for deck 1 and right-hand side for deck "
 "2. Please note that you can also access the functions through Mixxx's "
 "interface."
-msgstr ""
+msgstr "De standaard mapping voor Engelse toetsenborden wordt weergegeven in de bovenstaande afbeelding. Het is verdeeld in een linkerkant voor deck 1 en een rechterkant voor deck 2. Merk op dat je ook toegang hebt tot de functies via de Mixxx-interface."
 
 #: ../../chapters/controlling_mixxx.rst:69
 msgid ""
@@ -120,36 +121,36 @@ msgid ""
 ":term:`vinyl control`, it might be useful to enable/disable the keyboard "
 "mappings at runtime. You can do so by clicking :menuselection:`Options --> "
 "Enable Keyboard Shortcuts`."
-msgstr ""
+msgstr "Voor sommige gebruikersgroepen, zoals degenen die: term: `controllers <controller>` of: term: `vinyl control` gebruiken, kan het handig zijn om de toetsenbord mappings tijdens runtime in/uit te schakelen. U kunt dit doen door te klikken op :menuselection: `Options -> Enable Keyboard Shortcuts`."
 
 #: ../../chapters/controlling_mixxx.rst:74
 msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the keyboard shortcuts of the "
 "control among a description of the control."
-msgstr ""
+msgstr "Als u met de muis over een besturingselement (bijv. de crossfader) in de Mixxx-gebruikersinterface beweegt, worden in de tooltip de sneltoetsen van het besturingselement onder een beschrijving van het besturingselement weergegeven."
 
 #: ../../chapters/controlling_mixxx.rst:78
 msgid "For a list of default shortcuts, go to :ref:`appendix-keyboard`."
-msgstr ""
+msgstr "Voor een lijst met standaard snelkoppelingen, ga naar :ref:`appendix-keyboard`."
 
 #: ../../chapters/controlling_mixxx.rst:81
 msgid "Customizing the keyboard mapping"
-msgstr ""
+msgstr "Personaliseren van de keyboard mapping"
 
 #: ../../chapters/controlling_mixxx.rst:83
 msgid ""
 "Mixxx allows you to customize the keyboard control. For more information, go"
 " to:"
-msgstr ""
+msgstr "Met Mixxx kunt u de bediening van het toetsenbord aanpassen. Ga voor meer informatie naar:"
 
 #: ../../chapters/controlling_mixxx.rst:85
 msgid ":ref:`advanced-keyboard`"
-msgstr ""
+msgstr ":ref:`advanced-keyboard`"
 
 #: ../../chapters/controlling_mixxx.rst:90
 msgid "Using MIDI/HID Controllers"
-msgstr ""
+msgstr "Gebruik van MIDI/HID Controllers"
 
 #: ../../chapters/controlling_mixxx.rst:92
 msgid ""
@@ -157,69 +158,69 @@ msgid ""
 "external hardware devices used to control audio applications. Many DJs "
 "prefer the hands-on feel of a controller with Mixxx because it can feel "
 "similar to using a real mixer and turntables or :term:`CDJ`."
-msgstr ""
+msgstr "Mixxx ondersteunt MIDI en HID: term: `controllers <controller>', hetgeen externe hardwareapparaten zijn die worden gebruikt om audiotoepassingen te besturen. Veel DJ's geven de voorkeur aan het hands-on gevoel van een controller met Mixxx omdat dit hetzelfde kan aanvoelen als het gebruik van een echte mixer en draaitafels of :term: `CDJ`."
 
 #: ../../chapters/controlling_mixxx.rst:100
 msgid "Loading a controller preset"
-msgstr ""
+msgstr "Een controller preset laden"
 
 #: ../../chapters/controlling_mixxx.rst:108
 msgid "Mixxx Preferences - Loading a controller preset"
-msgstr ""
+msgstr "Mixxx Voorkeuren - een controller preset laden"
 
 #: ../../chapters/controlling_mixxx.rst:110
 msgid ""
 "Without loading the correct preset, your controller does not work with "
 "Mixxx."
-msgstr ""
+msgstr "Zonder de juiste preset te laden, werkt uw controller niet met Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:112
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "Connecteer uw controller(s) met uw computer"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Start Mixxx"
 
 #: ../../chapters/controlling_mixxx.rst:114
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr "Ga naar :menuselectie:`Voorkeuren --> Besturingen` of controllers"
 
 #: ../../chapters/controlling_mixxx.rst:115
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
-msgstr ""
+msgstr "Selecteer uw apparaat in de lijst met beschikbare apparaten aan de linkerkant en het rechter deelvenster zal aangepast worden."
 
 #: ../../chapters/controlling_mixxx.rst:117
 msgid "Activate the :guilabel:`Enabled` checkbox"
-msgstr ""
+msgstr "Activeer het selectievakje :guilabel:`Inschakelen`."
 
 #: ../../chapters/controlling_mixxx.rst:118
 msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Preset` "
 "drop-down menu"
-msgstr ""
+msgstr "Selecteer de mapping voor uw controller in het :guilabel:`Laad Preset` drop-down menu."
 
 #: ../../chapters/controlling_mixxx.rst:120
 msgid ""
 "Click :guilabel:`Apply` and Mixxx can now be controlled by your "
 "controller(s)."
-msgstr ""
+msgstr "Klik :guilabel: `Toepassen` en Mixxx kan nu worden bestuurd door uw controller(s)."
 
 #: ../../chapters/controlling_mixxx.rst:121
 msgid "Repeat step 4-7 for any of the controllers you want to use"
-msgstr ""
+msgstr "Herhaal stappen 4-7 voor elke controller die je wenst te gebruiken"
 
 #: ../../chapters/controlling_mixxx.rst:123
 msgid ""
 "If you do not find a connected device in the list, make sure to install any "
 "necessary drivers for that device."
-msgstr ""
+msgstr "Als u geen aangesloten apparaat in de lijst vindt, zorg er dan voor dat u de nodige stuurprogramma's voor dat apparaat installeert."
 
 #: ../../chapters/controlling_mixxx.rst:127
 msgid "Supported controllers"
-msgstr ""
+msgstr "Ondersteunde controllers"
 
 #: ../../chapters/controlling_mixxx.rst:129
 msgid ""
@@ -228,13 +229,13 @@ msgid ""
 "there is a MIDI/HID mapping file to tell Mixxx how to understand it. Mixxx "
 "comes bundled with a number of mappings for various devices. There are two "
 "levels of controller mappings:"
-msgstr ""
+msgstr "Mixxx kan elke :term: `MIDI`/:term:`HID`-controller gebruiken die wordt herkend door je :term:`OS <operating system>` (sommige vereisen mogelijk stuurprogramma's), zolang er een MIDI/HID-mappingsbestand is om Mixxx te vertellen hoe ze het moet interpreteren. Mixxx wordt geleverd met een aantal mappings voor verschillende apparaten. Er zijn twee niveaus van controller mappings:"
 
 #: ../../chapters/controlling_mixxx.rst:135
 msgid ""
 "**Mixxx Certified Mappings**: These mappings are verified by the Mixxx "
 "Development Team."
-msgstr ""
+msgstr "**Mixxx Gecertificeerde Mappings **: Deze mappings worden geverifieerd door het Mixxx Development Team."
 
 #: ../../chapters/controlling_mixxx.rst:137
 msgid ""
@@ -242,7 +243,7 @@ msgid ""
 "verified as working by the Mixxx community, but the Mixxx Development Team "
 "is unable to verify their quality because we don't have the devices "
 "ourselves. They might have bugs or rough edges."
-msgstr ""
+msgstr "**Community Ondersteunde Mappings**: Deze mappings worden geleverd en zijn geverifieerd als werkend door de Mixxx-community, maar het Mixxx-ontwikkelingsteam kan de kwaliteit ervan niet verifiëren omdat we de apparaten zelf niet hebben. Ze kunnen bugs of scherpe kantjes hebben."
 
 #: ../../chapters/controlling_mixxx.rst:142
 msgid ""
@@ -251,22 +252,22 @@ msgid ""
 "forums, or :term:`IRC` channel. Device support varies for each supported "
 ":term:`OS <operating system>`, so make sure to consult the documentation of "
 "the device."
-msgstr ""
+msgstr "Als u problemen ondervindt met een van deze mappings, gelieve een :term:`bug report` in te dienen op onze `Bug Tracker`_ of ons hierover te vertellen op onze mailinglijst, forums, of :term:`IRC` kanaal. De ondersteuning van het apparaat varieert voor elke ondersteunde :term:`OS <operating system>`, dus zorg ervoor dat u de documentatie van het apparaat raadpleegt."
 
 #: ../../chapters/controlling_mixxx.rst:147
 msgid "Additional mappings are available in the `Controller presets forum`_."
-msgstr ""
+msgstr "Extra mappings zijn beschikbaar in het `Controller presets forum`_."
 
 #: ../../chapters/controlling_mixxx.rst:149
 msgid ""
 "Before purchasing a controller to use with Mixxx, consult our `Hardware "
 "Compatibility wiki page`_. It contains the most up-to-date information about"
 " which controllers work with Mixxx and the details of each."
-msgstr ""
+msgstr "Voordat u een controller aanschaft voor gebruik met Mixxx, raadpleeg dan onze `Hardware Compatibiliteit wiki-pagina`_. Deze bevat de meest actuele informatie over welke controllers met Mixxx werken en de details van elke controller."
 
 #: ../../chapters/controlling_mixxx.rst:159
 msgid "Installing a preset from the forum"
-msgstr ""
+msgstr "Installeren van een preset van het forum"
 
 #: ../../chapters/controlling_mixxx.rst:160
 msgid ""
@@ -276,36 +277,36 @@ msgid ""
 "Presets folder, go to :menuselection:`Preferences --> Controllers` and click"
 " the :guilabel:`Open User Preset Folder` button. Alternatively, navigate to "
 "the folder in your :term:`OS <operating system>` file browser:"
-msgstr ""
+msgstr "Om een controller mapping te gebruiken die niet gebundeld is met Mixxx, plaatst u de controller mapping in uw User Presets-map. Dit is de map \"Controllers\" in de map User Preferences. Om de map User Presets te openen, ga naar :menuselection:`Preferences --> Controllers` en klik op de knop :guilabel:`Open User Preset Folder`. U kunt ook naar de map navigeren in uw :term:`OS <operating system>` bestandsbrowser:"
 
 #: ../../chapters/controlling_mixxx.rst:167
 msgid "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
-msgstr ""
+msgstr "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:168
 msgid ""
 "macOS: :file:`/Users/<username>/Library/Application "
 "Support/Mixxx/controllers`"
-msgstr ""
+msgstr "macOS: :file:`/Users/<username>/Library/Application Support/Mixxx/controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:169
 msgid ""
 "Windows Vista and newer: "
 ":file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
-msgstr ""
+msgstr "Windows Vista and newer: :file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:170
 msgid ""
 "Windows XP: :file:`C:\\\\Documents and "
 "Settings\\\\<username>\\\\AppData\\\\controllers`"
-msgstr ""
+msgstr "Windows XP: :file:`C:\\\\Documents and Settings\\\\<username>\\\\AppData\\\\controllers`"
 
 #: ../../chapters/controlling_mixxx.rst:172
 msgid ""
 "On Windows, the :file:`AppData` folder is hidden, so if you have not "
 "already, you will need to set Windows Explorer to show hidden files and "
 "folders (how to do this varies with each version of Windows)."
-msgstr ""
+msgstr "In Windows is de map :file:`AppData` verborgen, dus als u dat nog niet heeft gedaan, moet u Windows Explorer zo instellen dat deze verborgen bestanden en mappen laat zien (hoe u dit doet verschilt per versie van Windows)."
 
 #: ../../chapters/controlling_mixxx.rst:176
 msgid ""
@@ -315,26 +316,26 @@ msgid ""
 ":file:`.xml` file into your User Preset folder. If there is a :file:`.js` "
 "file, also copy that to your User Preset folder. Restart Mixxx and "
 ":ref:`load the preset <control-load-preset>`."
-msgstr ""
+msgstr "Als de mapping werd gepost als een :file:`.zip`-bestand, pak dan eerst het :file:`.zip`-bestand uit door er met de rechtermuisknop op te klikken in uw bestandsbrowser en de optie voor het uitpakken van een archief of gecomprimeerde map te selecteren. Kopieer het :file:`.xml`-bestand naar uw User Preset-map. Als er een :file:`.js`-bestand is, kopieer dat dan ook naar uw User Preset-map. Herstart Mixxx en :ref:`laad de preset <control-load-preset>`."
 
 #: ../../chapters/controlling_mixxx.rst:183
 msgid "Map your own your controller"
-msgstr ""
+msgstr "Je eigen controller mappen"
 
 #: ../../chapters/controlling_mixxx.rst:185
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
-msgstr ""
+msgstr "Is er geen mapping beschikbaar voor uw controller of wilt u een bestaande mapping wijzigen? U kunt uw controller mappen met behulp van de Controller Wizard of de volledige controle overnemen met de MIDI Scripting ondersteuning in Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:189
 msgid "Go to :ref:`advanced-controller` for detailed information."
-msgstr ""
+msgstr "Ga naar :ref:`geavanceerde-controller` voor meer gedetailleerde informatie."
 
 #: ../../chapters/controlling_mixxx.rst:194
 msgid "Using Timecode Vinyl Records and CDs"
-msgstr ""
+msgstr "Gebruik Tijdgecodeerde Vinyl Records en CD´s"
 
 #: ../../chapters/controlling_mixxx.rst:196
 msgid ""
@@ -344,8 +345,8 @@ msgid ""
 "vinyl. Many DJs prefer the tactile feel of vinyl, and vinyl control allows "
 "that feel to be preserved while retaining the benefits of using digital "
 "audio."
-msgstr ""
+msgstr ":term:`Vinyl controle` stelt een gebruiker in staat om een track af te spelen in Mixxx met behulp van een draaitafel of :term:`CDJ` als interface. Als gevolg hiervan simuleert het het geluid en gevoel van uw digitale muziekcollectie op vinyl. Veel DJ's geven de voorkeur aan het tastbare gevoel van vinyl, en dankzij vinylcontrole blijft dat gevoel behouden terwijl de voordelen van het gebruik van digitale audio kan behouden blijven."
 
 #: ../../chapters/controlling_mixxx.rst:202
 msgid "Go to :ref:`vinyl-control` for detailed information."
-msgstr ""
+msgstr "Ga naar :ref:`vinyl-controle` voor gedetailleerde informatie."

@@ -5,7 +5,8 @@
 # 
 # Translators:
 # S.Brandt <s.brandt@mixxx.org>, 2020
-# Raf Van De Meirssche <raf@rafke.be>, 2020
+# Raf Van De Meirssche, 2020
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:25+0000\n"
-"Last-Translator: Raf Van De Meirssche <raf@rafke.be>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7715/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,6 +32,8 @@ msgid ""
 "Mixxx has many options to customize in :menuselection:`Options --> "
 "Preferences`."
 msgstr ""
+"Mixxx heeft vele opties om aan te passen in :menuselection:`Opties --> "
+"Voorkeuren`."
 
 #: ../../chapters/preferences.rst:12
 msgid "Sound Hardware"
@@ -38,7 +41,7 @@ msgstr "Geluidsapparatuur"
 
 #: ../../chapters/preferences.rst:21
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Voorkeuren Mixxx Geluidsapparatuur "
 
 #: ../../chapters/preferences.rst:23
 msgid ""
@@ -47,15 +50,25 @@ msgid ""
 " determine Mixxx's responsiveness and reliability. The optimal settings will"
 " vary based on your computer and hardware quality."
 msgstr ""
+"Om de beste prestaties te bereiken met Mixxx, is het essentieel om uw "
+"*audiobuffer*, *samplefrequentie* en *audio-API* te configureren. Deze drie "
+"factoren bepalen grotendeels het reactievermogen en de betrouwbaarheid van "
+"Mixxx. De optimale instellingen zijn afhankelijk van uw computer- en "
+"hardwarekwaliteit."
 
 #: ../../chapters/preferences.rst:28
 msgid ""
-"For information about the different input and output options, refer to :ref"
-":`getting-started-sound-io`. The :ref:`hardware` chapter explains different "
-"types of DJ hardware and how to set them up with the input and output "
-"options. If you are using a microphone, refer to the :ref:`microphones` "
-"chapter."
+"For information about the different input and output options, refer to "
+":ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains "
+"different types of DJ hardware and how to set them up with the input and "
+"output options. If you are using a microphone, refer to the "
+":ref:`microphones` chapter."
 msgstr ""
+"Voor informatie over de verschillende in- en uitvoeropties, zie "
+":ref:`getting-started-sound-io`. In het hoofdstuk :ref:`hardware` worden "
+"verschillende soorten DJ-hardware uitgelegd en hoe deze kunnen worden "
+"ingesteld met de in- en uitvoeropties. Indien u een microfoon gebruikt, "
+"raadpleeg dan het hoofdstuk :ref:`microfoons`."
 
 #: ../../chapters/preferences.rst:36
 msgid "Audio Buffer"
@@ -71,6 +84,14 @@ msgid ""
 "audio after you toggle the play button. The actual latency will be longer "
 "depending on a variety of factors."
 msgstr ""
+"De audiobuffer is de hoeveelheid audio in milliseconden die Mixxx "
+"tegelijkertijd verwerkt. Dit is een belangrijke factor die de latentie "
+"bepaalt tussen het wijzigen van bedieningselementen in Mixxx, zoals het "
+"verplaatsen van de crossfader of het indrukken van de afspeelknop en het "
+"horen van de audiowijziging. Met een audiobuffer van 23 ms duurt het "
+"bijvoorbeeld ongeveer 23 milliseconden voordat Mixxx de audio stopt nadat je"
+" op de afspeelknop hebt gedrukt. De feitelijke latentie zal langer zijn, "
+"afhankelijk van verschillende factoren."
 
 #: ../../chapters/preferences.rst:46
 msgid ""
@@ -85,6 +106,17 @@ msgid ""
 "glitches. Experiment with different audio buffer sizes to find what works "
 "for your system."
 msgstr ""
+"De instelling van de audiobuffer bepaalt hoe snel uw "
+":term:`Besturingssysteem` verwacht dat Mixxx reageert. Een kleinere "
+"audiobuffer betekent dat Mixxx sneller zal reageren, maar vereist een "
+"snellere CPU en een kwalitatief hoogstaande audio-interface. Uw audiobuffer "
+"te klein instellen kan te zwaar zijn voor uw computer en audio-interface. In"
+" deze situatie zal het afspelen van Mixxx ruw en zeer duidelijk vervormd "
+"zijn, omdat uw systeem niet in staat zal zijn om bij te houden hoe vaak "
+"Mixxx probeert om audio te verwerken. Het is aan te raden om uw audiobuffer "
+"zo klein als mogelijk in te stellen zolang uw systeem de verwerking "
+"betrouwbaar kan uitvoeren zonder storingen. Experimenteer met verschillende "
+"audiobuffergroottes om uit te zoeken wat werkt voor uw systeem."
 
 #: ../../chapters/preferences.rst:56
 msgid ""
@@ -92,6 +124,10 @@ msgid ""
 " keyboard/mouse or a controller. An audio buffer below 10 ms is recommended "
 "when vinyl control is used because Mixxx will feel unresponsive otherwise."
 msgstr ""
+"Een audiobuffer tussen 23-64 ms is acceptabel als je Mixxx gebruikt met een "
+"toetsenbord/muis of een controller. Een audiobuffer van minder dan 10 ms "
+"wordt aanbevolen wanneer vinylbesturing wordt gebruikt, omdat Mixxx anders "
+"niet reageert."
 
 #: ../../chapters/preferences.rst:60
 msgid ""
@@ -100,6 +136,10 @@ msgid ""
 "Mixxx Wiki has tips for different operating systems that may help you use a "
 "smaller audio buffer reliably."
 msgstr ""
+"De `Adjusting Audio Latency "
+"<https://mixxx.org/wiki/doku.php/adjusting_audio_latency>`_ pagina op de "
+"Mixxx Wiki heeft tips voor verschillende besturingssystemen, die je kunnen "
+"helpen om een kleinere audiobuffer betrouwbaar te gebruiken."
 
 #: ../../chapters/preferences.rst:64
 msgid ""
@@ -109,10 +149,16 @@ msgid ""
 " think you have found a good buffer size for your system, play with Mixxx "
 "for at least a half hour before performing to ensure no glitches happen."
 msgstr ""
+"Uw systeem kan af en toe een storing vertonen als uw audiobuffer een beetje "
+"te laag is ingesteld. Dit gebeurt op onvoorspelbare tijden en je merkt er "
+"misschien niets van als je slechts korte tests van elke audiobuffergrootte "
+"uitvoert. Als je denkt dat je een goede buffergrootte voor je systeem hebt "
+"gevonden, speel dan minstens een half uur met Mixxx voordat je gaat optreden"
+" om er zeker van te zijn dat er geen problemen of storingen optreden."
 
 #: ../../chapters/preferences.rst:74
 msgid "Sample Rate"
-msgstr "Bemonsteringsfrequentie"
+msgstr "Samplefrequentie"
 
 #: ../../chapters/preferences.rst:76
 msgid ""
@@ -124,6 +170,15 @@ msgid ""
 "rate, and playing music in a different sample rate than the audio file "
 "slightly reduces sound quality."
 msgstr ""
+"De instelling voor samplefrequentie in Mixxx bepaalt hoeveel samples "
+"(stukjes audio) per seconde door Mixxx worden geproduceerd. Dit bepaalt de "
+"maximale frequentie in het signaal van Mixxx, hetgeen de helft van de "
+"samplefrequentie is. Mensen kunnen slechts tot 20 kHz horen, dus is het in "
+"het algemeen niet nodig om een samplefrequentie van meer dan 44,1 kHz (44100"
+" Hz) te gebruiken voor weergave. De meeste muziek wordt gepubliceerd met een"
+" samplefrequentie van 44100 Hz en het afspelen van muziek in een andere "
+"samplefrequentie dan het audiobestand vermindert de geluidskwaliteit "
+"enigszins."
 
 #: ../../chapters/preferences.rst:84
 msgid ""
@@ -131,6 +186,10 @@ msgid ""
 " do the same processing. Increasing the sample rate will increase CPU usage "
 "and likely raise the minimum audio buffer size you can use reliably."
 msgstr ""
+"Een samplefrequentie van 96 kHz geeft uw computer minder dan de helft van de"
+" tijd om dezelfde verwerking uit te voeren. Het verhogen van de "
+"samplefrequentie verhoogt het CPU-gebruik en verhoogt waarschijnlijk de "
+"minimale audiobuffergrootte die je betrouwbaar kunt gebruiken."
 
 #: ../../chapters/preferences.rst:93
 msgid "Sound API"
@@ -144,34 +203,39 @@ msgid ""
 "performance on your computer. **Therefore it is important to take care to "
 "choose the best Sound API available to you.**"
 msgstr ""
+"De Sound: term: `API` die Mixxx gebruikt, is de methode waarmee Mixxx met "
+"uw: term:` Operating Systeem` praat om audio naar uw audio-interface te "
+"sturen. Uw keuze voor Sound API kan de prestaties van Mixxx op uw computer "
+"drastisch beïnvloeden. **Daarom is het belangrijk om ervoor te zorgen dat u "
+"de beste Sound API kiest die voor u beschikbaar is.**"
 
 #: ../../chapters/preferences.rst:102
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../chapters/preferences.rst:103
 msgid "The following Sound APIs are available on Windows:"
-msgstr ""
+msgstr "De volgende Sound API's zijn beschikbaar op Windows:"
 
 #: ../../chapters/preferences.rst:105
 msgid "**ASIO**: Good"
-msgstr ""
+msgstr "**ASIO**: Goed"
 
 #: ../../chapters/preferences.rst:106
 msgid "**WDM-KS**: Good"
-msgstr ""
+msgstr "**WDM-KS**: Goed"
 
 #: ../../chapters/preferences.rst:107
 msgid "**WASAPI**: Acceptable"
-msgstr ""
+msgstr "**WASAPI**: Aanvaardbaar"
 
 #: ../../chapters/preferences.rst:108
 msgid "**DirectSound**: Poor"
-msgstr ""
+msgstr "**DirectSound**: Slecht"
 
 #: ../../chapters/preferences.rst:109
 msgid "**MME**: Poor"
-msgstr ""
+msgstr "**MME**: Slecht"
 
 #: ../../chapters/preferences.rst:111
 msgid ""
@@ -185,32 +249,46 @@ msgid ""
 "is generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a "
 "wrapper around the WDM-KS API."
 msgstr ""
+"Het is beter om de ASIO Sound API te gebruiken die de geluidsverwerking van "
+"de Windows-kernel omzeilt. Voor het gebruik van ASIO is een stuurprogramma "
+"voor uw audio-interface van de fabrikant vereist. Controleer de website van "
+"de fabrikant om te zien of er een download van het stuurprogramma "
+"beschikbaar is. Geluidskaarten ontworpen voor muzikanten hebben bijna altijd"
+" een ASIO-stuurprogramma beschikbaar, maar audio-interfaces ingebouwd in "
+"computers en zeer goedkope audio-interfaces hebben meestal geen ASIO-"
+"stuurprogramma. Als er geen ASIO-stuurprogramma beschikbaar is voor uw "
+"audio-interface, gebruik dan de WDM-KS API. Het gebruik van `ASIO4ALL "
+"<http://www.asio4all.org>`_,  een wrapper rond de WDM-KS API heeft over het "
+"algemeen geen voordelen."
 
 #: ../../chapters/preferences.rst:122
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: ../../chapters/preferences.rst:123
 msgid "The following Sound APIs are available on GNU/Linux:"
-msgstr ""
+msgstr "De volgende Sound API's zijn beschikbaar op GNU/Linux:"
 
 #: ../../chapters/preferences.rst:125
 msgid "**ALSA**: Good"
-msgstr ""
+msgstr "**ALSA**: Goed"
 
 #: ../../chapters/preferences.rst:126
 msgid "**JACK**: Good"
-msgstr ""
+msgstr "**JACK**: Goed"
 
 #: ../../chapters/preferences.rst:127
 msgid "**OSS**: Acceptable"
-msgstr ""
+msgstr "**OSS**: Aanvaardbaar"
 
 #: ../../chapters/preferences.rst:129
 msgid ""
 "ALSA is the simplest sound API to configure. Using ALSA will prevent any "
 "other programs from using the audio interface(s) that Mixxx is using."
 msgstr ""
+"ALSA is de eenvoudigste geluids-API om te configureren. Als u ALSA gebruikt,"
+" voorkomt u dat andere programma's de audio-interface (s) gebruiken die "
+"Mixxx gebruikt."
 
 #: ../../chapters/preferences.rst:132
 msgid ""
@@ -221,6 +299,13 @@ msgid ""
 "ALSA. To use JACK, start the JACK daemon *before* running Mixxx. Otherwise "
 "JACK will not appear as a Sound API in the preferences."
 msgstr ""
+"Met JACK kunt u audio op flexibele wijze tussen JACK-compatibele "
+"toepassingen routeren en tegelijkertijd geluid van meerdere programma's "
+"uitvoeren. JACK kan echter ingewikkeld zijn om in te stellen. Tenzij je "
+"Mixxx gaat verbinden met andere JACK-compatibele applicaties, biedt JACK "
+"geen voordelen ten opzichte van ALSA. Om JACK te gebruiken, start u de JACK-"
+"daemon *voordat* Mixxx draait. Anders verschijnt JACK niet als Sound API in "
+"de voorkeuren."
 
 #: ../../chapters/preferences.rst:139
 msgid ""
@@ -235,6 +320,18 @@ msgid ""
 " you already use JACK, it is easiest to let Mixxx suspend PulseAudio and use"
 " ALSA."
 msgstr ""
+"De meeste moderne GNU/Linux-distributies gebruiken standaard PulseAudio. "
+"Wanneer deze wordt gestart vanuit een GUI-menu of -pictogram, schorst Mixxx "
+"PulseAudio terwijl deze actief is, zodat Mixxx direct gebruik kan maken van "
+"ALSA. Net als JACK geeft PulseAudio meerdere programma's toegang tot één "
+"audio-interface, maar PulseAudio en JACK hebben tegengestelde ontwerpdoelen."
+" PulseAudio is ontworpen om gewoon computergebruik, zoals het online "
+"bekijken van video's en het luisteren naar muziek, eenvoudig te maken, "
+"terwijl JACK is ontworpen voor veeleisende audioprogramma's met een lage "
+"latentie, zoals Mixxx. Het kan moeilijk zijn om JACK en PulseAudio zo in te "
+"stellen dat ze goed samenwerken. Dus, tenzij u JACK al gebruikt, is het het "
+"eenvoudigst om Mixxx PulseAudio te laten onderbreken en ALSA te laten "
+"gebruiken."
 
 #: ../../chapters/preferences.rst:149
 msgid ""
@@ -247,24 +344,34 @@ msgid ""
 " and back to ALSA, this adds an additional latency of ~2 x the selected "
 "audio buffer size."
 msgstr ""
+"Als de PulseAudio plugin voor alsalibs is geïnstalleerd op GNU/Linux, kunt u"
+" kiezen voor het virtuele apparaat ``pulse``. Hierdoor kan Mixxx de "
+"standaard systeemaudio-interface delen met andere mediaspelers. Dit werkt "
+"alleen als u Mixxx start zonder pasuspender, wat u kunt doen door "
+":command:`mixxx` uit te voeren vanaf een console in plaats van te klikken op"
+" het launcher-icoontje in een menu of op uw bureaublad. Aangezien de "
+"geluidsstroom wordt gerouteerd van ALSA naar Pulse en terug naar ALSA, voegt"
+" dit een extra latentie van ~2 x de geselecteerde audiobuffergrootte toe."
 
 #: ../../chapters/preferences.rst:157
 msgid ""
 "OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS"
 " drivers."
 msgstr ""
+"OSS is een Sound API die dateert van vóór ALSA. Weinig moderne audio-"
+"interfaces hebben OSS-stuurprogramma's."
 
 #: ../../chapters/preferences.rst:161
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../chapters/preferences.rst:162
 msgid "CoreAudio is the only Sound API on macOS."
-msgstr ""
+msgstr "CoreAudio is de enige Sound API op macOS."
 
 #: ../../chapters/preferences.rst:165
 msgid "Other Sound Hardware options"
-msgstr ""
+msgstr "Andere opties voor geluidshardware"
 
 #: ../../chapters/preferences.rst:166
 msgid ""
@@ -274,6 +381,12 @@ msgid ""
 "interface. Here you can select the synchronization used for the other audio "
 "interfaces to avoid buffer overflows or underflows."
 msgstr ""
+"**Multi-Soundcard Synchronisatie**: Mixxx kan twee of meer :term:`audio "
+"interfaces` tegelijk gebruiken, elk met een eigen klok. Wanneer er meerdere "
+"audio-interfaces in gebruik zijn, wordt de Mixxx-engine aangedreven door de "
+"Master-audio-interface. Hier kunt u de synchronisatie selecteren die wordt "
+"gebruikt voor de andere audio-interfaces om buffer overflows of underflows "
+"te voorkomen."
 
 #: ../../chapters/preferences.rst:172
 msgid ""
@@ -282,12 +395,20 @@ msgid ""
 ":menuselection:`Soundtouch` on lower power machines (such as netbooks) or if"
 " you experience buffer underflows while using :term:`keylock`."
 msgstr ""
+"**Keylock/Pitch-Bending Engine**: Hiermee kunt u de motor selecteren die "
+"wordt gebruikt voor onafhankelijke tempo- en toonhoogteveranderingen (bijv. "
+":term:`keylock`). Gebruik :menuselection:`Soundtouch` op machines met een "
+"lager vermogen (zoals netbooks) of als u buffer underflows ondervindt bij "
+"het gebruik van :term:`keylock`."
 
 #: ../../chapters/preferences.rst:177
 msgid ""
 "**Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage "
 "if you do not use the Master output, recording or live broadcasting."
 msgstr ""
+"**Mastermix**: U kunt de mastermix uitschakelen om het CPU-gebruik van Mixxx"
+" te verminderen als u de Master-uitvoer, opname of live-uitzending niet "
+"gebruikt."
 
 #: ../../chapters/preferences.rst:180
 msgid ""
@@ -297,6 +418,11 @@ msgid ""
 "your mix in stereo because of speaker placement or playing in a space with "
 "lots of reverberation."
 msgstr ""
+"**Masteruitgangsmodus**: In de monomodus worden het linker- en rechterkanaal"
+" gecombineerd tot een monosignaal dat wordt doorgegeven aan beide kanalen "
+"van uw masteraudio-interface. Dit is handig voor opstellingen waarbij het "
+"publiek uw mix in stereo niet kan horen vanwege de plaatsing van de "
+"luidsprekers of het spelen in een ruimte met veel nagalm."
 
 #: ../../chapters/preferences.rst:186
 msgid ""
@@ -307,6 +433,13 @@ msgid ""
 "buffer size, decrease the sample rate setting or change the sound API "
 "setting if available."
 msgstr ""
+"**Buffer Underflow Count**: Underflows (gegevens zijn niet beschikbaar "
+"wanneer dat nodig is) geven aan dat sommige subsystemen in Mixxx niet kunnen"
+" voldoen aan de real-time deadlines die worden opgelegd door de huidige "
+"omvang van de audiobuffer. Dit is nuttig om de latentie-instellingen af te "
+"stemmen. Als de teller stijgt, verhoog dan de grootte van uw audiobuffer, "
+"verlaag de instelling van de samplefrequentie of verander de instelling van "
+"de geluids-API als die beschikbaar is."
 
 #: ../../chapters/preferences.rst:194
 msgid "Library"
@@ -314,17 +447,19 @@ msgstr "Bibliotheek"
 
 #: ../../chapters/preferences.rst:199
 msgid "Changing music directories"
-msgstr ""
+msgstr "Muziekmappen wijzigen"
 
 #: ../../chapters/preferences.rst:201
 msgid ""
 "You can manually add, relink, and remove Mixxx music directories in "
 ":menuselection:`Preferences --> Library`."
 msgstr ""
+"U kunt handmatig Mixxx-muziekmappen toevoegen, herlinken en verwijderen in "
+":menuselection:`Voorkeuren --> Bibliotheek`."
 
 #: ../../chapters/preferences.rst:213
 msgid "**Add a new music directory**"
-msgstr ""
+msgstr "**Voeg een nieuwe muziekmap toe**"
 
 #: ../../chapters/preferences.rst:205
 msgid ""
@@ -332,22 +467,30 @@ msgid ""
 "browse to a directory where your music is stored. Mixxx will watch this "
 "directory and its subdirectories for new tracks."
 msgstr ""
+"Mixxx behandelt meerdere muziekbibliotheek mappen. Klik op "
+":guilabel:`Toevoegen` om naar een map te bladeren waar uw muziek is "
+"opgeslagen. Mixxx zal deze map en zijn submappen monitoren op nieuwe tracks."
 
 #: ../../chapters/preferences.rst:209
 msgid ""
 "If you add a directory that is already in your library, or you are currently"
 " :ref:`rescanning your library <library-tracks>`, the operation is canceled."
 msgstr ""
+"Als u een map toevoegt die al in uw bibliotheek aanwezig is, of mocht u "
+":ref:`uw bibliotheek opnieuw scannen <library-tracks>` momenteel, wordt de "
+"bewerking geannuleerd."
 
 #: ../../chapters/preferences.rst:212
 msgid ""
 "Directories can also be added from the :ref:`Computer <library-computer>` "
 "sidebar item inside the library."
 msgstr ""
+"Mappen kunnen ook worden toegevoegd vanuit een keuzelijst in de "
+":ref:`Computer <library-computer>` zijbalk in de bibliotheek."
 
 #: ../../chapters/preferences.rst:219
 msgid "**Relink a existing music directory**"
-msgstr ""
+msgstr "**Een bestaande muziekmap opnieuw koppelen**"
 
 #: ../../chapters/preferences.rst:216
 msgid ""
@@ -356,10 +499,14 @@ msgid ""
 "directory in its new location. This will re-establish the links to the audio"
 " files in the Mixxx library."
 msgstr ""
+"Als een bestaande muziekdirectory wordt verplaatst, weet Mixxx niet waar hij"
+" de audiobestanden kan vinden. Klik op :guilabel:`Opnieuw koppelen` om de "
+"muziekdirectory op de nieuwe locatie te selecteren. Hierdoor worden de links"
+" naar de audiobestanden in de Mixxx-bibliotheek hersteld."
 
 #: ../../chapters/preferences.rst:237
 msgid "**Remove a music directory**"
-msgstr ""
+msgstr "**Verwijder een muziekmap**"
 
 #: ../../chapters/preferences.rst:222
 msgid ""
@@ -367,29 +514,40 @@ msgid ""
 " subdirectories for new tracks, and asks what would you like to do with the "
 "tracks from these directories."
 msgstr ""
+"Klik op :guilabel:`Verwijder`, en Mixxx kijkt niet langer naar deze map en "
+"zijn submappen voor nieuwe tracks, en vraagt wat je wilt doen met de tracks "
+"uit deze mappen."
 
 #: ../../chapters/preferences.rst:226
 msgid ""
 "Select :guilabel:`Hide Tracks` to hide all tracks from this directory and "
 "subdirectories."
 msgstr ""
+"Selecteer :guilabel:`Verberg Tracks` om alle tracks uit deze map en "
+"submappen te verbergen."
 
 #: ../../chapters/preferences.rst:228
 msgid ""
 "Select :guilabel:`Delete Track Metadata` to delete all metadata for these "
 "tracks from Mixxx permanently"
 msgstr ""
+"Selecteer :guilabel:`Track Metadata Wissen` om alle metadata voor deze "
+"tracks permanent uit Mixxx te verwijderen."
 
 #: ../../chapters/preferences.rst:230
 msgid ""
 "Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in "
 "your library."
 msgstr ""
+"Selecteer: guilabel: `Laat Tracks Ongewijzigd` om de tracks ongewijzigd te "
+"laten in uw bibliotheek."
 
 #: ../../chapters/preferences.rst:233
 msgid ""
 "Hiding tracks saves their metadata in case you re-add them in the future."
 msgstr ""
+"Door tracks te verbergen, worden hun metadata opgeslagen voor het geval je "
+"ze in de toekomst opnieuw toevoegt."
 
 #: ../../chapters/preferences.rst:235
 msgid ""
@@ -407,6 +565,9 @@ msgid ""
 "When changing music directories, you might want to run a library rescan "
 "afterwards. Select :menuselection:`Library --> Rescan Library` in the menu."
 msgstr ""
+"Wanneer u muziekmappen wijzigt, aanpast of verplaatst, wil je misschien "
+"achteraf opnieuw een bibliotheek terug inscannen. Selecteer "
+":menuselection:`Bibliotheek --> Bibliotheek opnieuw Scannen` in het menu."
 
 #: ../../chapters/preferences.rst:246
 msgid "Beat Detection"
@@ -417,6 +578,9 @@ msgid ""
 "Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments are "
 "redundant in many cases because Mixxx knows where the beats are."
 msgstr ""
+"Mixxx maakt gebruik van een uiterst nauwkeurige BPM- en beatdetector. "
+"Handmatige aanpassingen zijn in veel gevallen overbodig omdat Mixxx weet "
+"waar de beats zitten."
 
 #: ../../chapters/preferences.rst:259
 msgid ""
@@ -428,18 +592,26 @@ msgid ""
 " not affect the beat detection negatively because most of today's dance "
 "music is written in a 4/4 signature with a fixed tempo."
 msgstr ""
+"BPM en beatdetectie is een complexe operatie. Afhankelijk van uw computer en"
+" de bitsnelheid en duur van de track kan dit enige tijd duren. Standaard "
+"analyseert Mixxx de volledige track. Om de beatdetectie op tragere computers"
+" te versnellen is een “Fast Analysis” optie beschikbaar. Indien ingeschakeld"
+" wordt de BPM berekend door de eerste minuut van de track te analyseren. In "
+"de meeste gevallen heeft dit geen negatieve invloed op de beatdetectie omdat"
+" het grootste deel van de hedendaagse dansmuziek in een 4/4 maat met een "
+"vast tempo wordt geschreven."
 
 #: ../../chapters/preferences.rst:274
 msgid "Mixxx preferences - BPM settings"
-msgstr ""
+msgstr "Mixxx voorkeuren - BPM instellingen"
 
 #: ../../chapters/preferences.rst:276
 msgid "The table below summarizes the beat detection settings:"
-msgstr ""
+msgstr "De onderstaande tabel vat de instellingen voor de beatdetectie samen:"
 
 #: ../../chapters/preferences.rst:279 ../../chapters/preferences.rst:353
 msgid "Option"
-msgstr ""
+msgstr "Optie"
 
 #: ../../chapters/preferences.rst:279 ../../chapters/preferences.rst:353
 msgid "Description"
@@ -447,12 +619,14 @@ msgstr "Omschrijving"
 
 #: ../../chapters/preferences.rst:281 ../../chapters/preferences.rst:355
 msgid "Enable Fast Analysis"
-msgstr ""
+msgstr "Fast Analysis inschakelen"
 
 #: ../../chapters/preferences.rst:281
 msgid ""
 "If enabled, BPM will be detected by only using the first minute of audio."
 msgstr ""
+"Indien ingeschakeld, zal de BPM gedetecteerd worden door enkel gebruik te "
+"maken van de eerste minuut van de muziek."
 
 #: ../../chapters/preferences.rst:284
 msgid "Assume constant tempo"
@@ -464,14 +638,18 @@ msgid ""
 " If disabled, the raw beat grid obtained by the analyzer is presented. The "
 "latter is appropriate for tracks with variable tempo."
 msgstr ""
+"Indien ingeschakeld, gaat Mixxx ervan uit dat de afstanden tussen de beats "
+"constant zijn. Indien uitgeschakeld, wordt het onbewerkte beatpatroon "
+"weergegeven dat door de analysator verkregen  werd. Dit laatstgenoemde is "
+"geschikt voor tracks met een variabel tempo."
 
 #: ../../chapters/preferences.rst:291
 msgid "Enable Offset Correction"
-msgstr ""
+msgstr "Offset correctie inschakelen"
 
 #: ../../chapters/preferences.rst:291
 msgid "Prevents beat markers from being placed incorrectly."
-msgstr ""
+msgstr "Voorkomt dat beatmarkeringen verkeerd geplaatst worden."
 
 #: ../../chapters/preferences.rst:294
 msgid ""
@@ -486,25 +664,37 @@ msgid ""
 "it will re-analyze the BPM if your beat detection preferences change or BPM "
 "data from 3rd party programs are present."
 msgstr ""
+"Indien ingeschakeld, dan zal Mixxx oude beatrasters van eerdere versies "
+"overschrijven. Bovendien zal het de BPM opnieuw analyseren als uw voorkeuren"
+" voor beatdetectie gewijzigd zijn of als er BPM-data uit programma's van "
+"derden aanwezig zijn."
 
 #: ../../chapters/preferences.rst:303
 msgid "Correcting Beat Grids"
-msgstr ""
+msgstr "Beat Grids corrigeren"
 
 #: ../../chapters/preferences.rst:305
 msgid ""
 "There may be situations where BPM and beat detection do not result in a "
 "proper beat grid."
 msgstr ""
+"Er kunnen zich situaties voordoen waarin BPM en beatdetectie niet resulteren"
+" in een goed beatpatroon."
 
 #: ../../chapters/preferences.rst:308
 msgid ""
 "Typically, the detected BPM is correct but the analyzer has failed to detect"
 " the location of the first beat. Consequently, the beat markers are shifted,"
 " i.e. the beat markers are a fixed distance from the true beat. To adjust "
-"the beat grid, cue the track before a real beat and click the :guilabel"
-":`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
+"the beat grid, cue the track before a real beat and click the "
+":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
 msgstr ""
+"Meestal is de gedetecteerde BPM correct, maar de analysator heeft de locatie"
+" van de eerste beat niet gedetecteerd. Als gevolg hiervan worden de beat-"
+"markers verschoven, d.w.z. dat de beat-markers op een vaste afstand liggen "
+"van de echte beat. Om het beatraster aan te passen, zet de track met een cue"
+" vast vóór een echte beat en klik op de knop :guilabel:`Beat-grid Aanpassen`"
+" in de :ref:`interface-knop-grid`."
 
 #: ../../chapters/preferences.rst:314
 msgid ""
@@ -515,22 +705,35 @@ msgid ""
 "notice a slight drift as the song goes on. Finding the correct BPM is easy "
 "in many cases - just follow the note below."
 msgstr ""
+"Als de gedetecteerde BPM niet nauwkeurig is, zal het bijbehorende beatraster"
+" ook niet nauwkeurig zijn. Een afwijking van 0,02 BPM van de correcte BPM "
+"zal op lange tracks (bijv. een clubmix) problemen veroorzaken met de "
+"uitlijning van het beatraster. Als dit gebeurt, zal je beatraster er voor "
+"een paar minuten uitgelijnd uitzien, maar je zult een lichte afwijking "
+"opmerken naarmate het nummer verder gaat. Het vinden van de juiste BPM is in"
+" veel gevallen eenvoudig - volg gewoon de notitie hieronder."
 
 #: ../../chapters/preferences.rst:321
 msgid ""
 "If the detected BPM value is not sufficiently accurate but very close to an "
 "integer value, try to set the BPM value manually to the integer."
 msgstr ""
+"Als de gedetecteerde BPM-waarde niet nauwkeurig genoeg is, maar zeer dicht "
+"bij een geheel getal ligt, probeer dan de BPM-waarde handmatig in te stellen"
+" op het geheel getal."
 
 #: ../../chapters/preferences.rst:327
 msgid "Key Detection"
-msgstr "Detectie toonaard"
+msgstr "Toonaard detectie"
 
 #: ../../chapters/preferences.rst:329
 msgid ""
 "Mixxx comes with a high precision musical key detector to help you make "
 "smooth mixes by ensuring that your tracks are musically compatible."
 msgstr ""
+"Mixxx wordt geleverd met een zeer nauwkeurige muzikale toonaard detector om "
+"u te helpen soepele mixen te maken, door ervoor te zorgen dat uw nummers "
+"muzikaal compatibel zijn."
 
 #: ../../chapters/preferences.rst:333
 msgid "Analyzer Settings"
@@ -544,30 +747,44 @@ msgid ""
 "computers, a “Fast Analysis” option is available. If enabled, the key is "
 "computed by analyzing the first minute of the track."
 msgstr ""
+"Toonaard detectie is een complexe operatie. Afhankelijk van uw computer en "
+"de bitrate en duur van de track kan dit enige tijd in beslag nemen. "
+"Standaard analyseert Mixxx het volledige nummer. Om toonaard detectie op "
+"langzamere computers te versnellen, is er een optie “Snelle analyse” "
+"beschikbaar. Indien ingeschakeld, wordt de toonaard berekend door de eerste "
+"minuut van de track te analyseren."
 
 #: ../../chapters/preferences.rst:348
 msgid "Mixxx preferences - Key settings"
-msgstr ""
+msgstr "Mixxx voorkeuren - Toonaard instellingen"
 
 #: ../../chapters/preferences.rst:350
 msgid "The table below summarizes the Key detection settings:"
 msgstr ""
+"De onderstaande tabel vat de instellingen voor toonaard detectie samen:"
 
 #: ../../chapters/preferences.rst:355
 msgid ""
 "If enabled, the key will be detected by using only the first minute of "
 "audio."
 msgstr ""
+"Indien ingeschakeld, zal de toonaard worden gedetecteerd door alleen de "
+"eerste minuut van de muziek te gebruiken."
 
 #: ../../chapters/preferences.rst:359
 msgid "Re-analyze key when settings change or Key detection data is outdated"
 msgstr ""
+"Analyseer de toonaard opnieuw wanneer de instellingen veranderen of de "
+"gegevens van de toonaard detectie verouderd zijn"
 
 #: ../../chapters/preferences.rst:359
 msgid ""
 "If enabled, Mixxx will re-analyse tracks if you select a different key "
 "detection plugin or the key was generated by a program other than Mixxx."
 msgstr ""
+"Indien ingeschakeld, zal Mixxx tracks opnieuw analyseren als u een andere "
+"toonaard detectie-plugin selecteert of als de toonaard is gegenereerd door "
+"een ander programma dan Mixxx."
 
 #: ../../chapters/preferences.rst:365
 msgid "Key Notation"
@@ -576,6 +793,7 @@ msgstr "Toonaardnotatie"
 #: ../../chapters/preferences.rst:365
 msgid "Change the way keys are displayed in the library."
 msgstr ""
+"Wijzig de manier waarop de toonaarden in de bibliotheek worden weergegeven."
 
 #: ../../chapters/preferences.rst:372
 msgid "Equalizers"
@@ -590,18 +808,24 @@ msgid ""
 ":menuselection:`Preferences --> Equalizer` allows you to setup the "
 "equalizers."
 msgstr ""
+":menuselectie:`Voorkeuren --> Equalizer` laat u toe de equalizers in te "
+"stellen."
 
 #: ../../chapters/preferences.rst:388
 msgid ""
 "**Equalizer Rack**: The Equalizer Rack is a special effect rack that is "
 "connected to the deck's equalizer and filter controls."
 msgstr ""
+"**Equalizer Rack**: Het Equalizer Rack is een speciaal effect-rack dat is "
+"aangesloten op de equalizer- en filterregelaars van het deck."
 
 #: ../../chapters/preferences.rst:391
 msgid ""
 "In this section you can select the equalizers and quick effects that are "
 "used with the decks."
 msgstr ""
+"In deze sectie kunt u de equalizers en quick effects selecteren die met de "
+"decks worden gebruikt."
 
 #: ../../chapters/preferences.rst:394
 msgid ""
@@ -610,6 +834,11 @@ msgid ""
 "Unchecking :menuselection:`Only allow EQ knobs to control EQ specific "
 "effects` allows you to select any other effect."
 msgstr ""
+"**Equalizer-plug-in**: hier kunt u het effect selecteren dat wordt gebruikt "
+"als de mixing-EQ in elk deck. Standaard worden alleen ingebouwde equalizers "
+"weergegeven. Het uitvinken van :menuselection: `Sta alleen EQ-knoppen toe om"
+" EQ-specifieke effecten te besturen` geeft de mogelijkheid om elk ander "
+"effect te kunnen selecteren."
 
 #: ../../chapters/preferences.rst:399
 msgid ""
@@ -617,6 +846,10 @@ msgid ""
 "dedicated filter knob in each deck. By default only built-in filter effects "
 "are selected for all decks, but that can be changed as above."
 msgstr ""
+"**Quick Effect**: Hier kunt u het effect selecteren dat wordt geregeld door "
+"de toegewezen filterknop in elk deck. Standaard zijn alleen ingebouwde "
+"filtereffecten geselecteerd voor alle decks, maar dat kan aangepast worden "
+"zoals hierboven beschreven."
 
 #: ../../chapters/preferences.rst:403
 msgid ""
@@ -626,16 +859,24 @@ msgid ""
 " bass range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz."
 " The remaining treble range is controlled by the high knob."
 msgstr ""
+"**High/Low Shelf EQ**: Deze schuifregelaar stelt de crossover-frequenties "
+"van de mixing EQ in. Hij regelt welk frequentiebereik wordt beïnvloed door "
+"de EQ-knoppen voor het lage, het midden en het hoge kanaal. Standaard regelt"
+" de lagetonen knop het bas- en sub-basbereik tot 246 Hz. De middentonen knop"
+" regelt het middenbereik tot 2,5 kHz. Het resterende hogetonen-bereik wordt "
+"geregeld door de hoge knop."
 
 #: ../../chapters/preferences.rst:409
 msgid ""
 "**Master EQ**: This section allows you to setup an EQ that affects the "
 "master output."
 msgstr ""
+"**Master EQ**: Deze sectie laat u toe om een EQ instellen die van invloed is"
+" op de masteruitgang."
 
 #: ../../chapters/preferences.rst:414
 msgid "Mixing Equalizers"
-msgstr ""
+msgstr "Mixing Equalizers"
 
 #: ../../chapters/preferences.rst:416
 msgid ""
@@ -645,6 +886,11 @@ msgid ""
 "shelf filter. Each EQ type has a unique sound, so try them out to find out "
 "which one you prefer."
 msgstr ""
+"Mixxx biedt drie soorten mixing equalizers met een volledige kill optie. "
+"Deze equalizers zijn \"isolatoren\", aangepast aan analoge cross-over "
+"netwerken. Elke EQ is een combinatie van een high shelf filter, een band "
+"pass filter en een low shelf filter. Elk EQ-type heeft een uniek geluid, dus"
+" probeer ze uit om erachter te komen welke je voorkeur heeft."
 
 #: ../../chapters/preferences.rst:422
 msgid ""
@@ -652,6 +898,9 @@ msgid ""
 "sound or take any processing time when their knobs are in the center "
 "position. They activate once you adjust an EQ knob."
 msgstr ""
+"De Bessel EQ's met Lipshitz en Vanderkooy Mix (LV-Mix) veranderen het geluid"
+" niet of nemen geen verwerkingstijd in beslag wanneer hun knoppen in de "
+"middenstand staan. Ze worden geactiveerd zodra u een EQ-knop aanpast."
 
 #: ../../chapters/preferences.rst:426
 msgid ""
@@ -659,10 +908,13 @@ msgid ""
 "sounding phase shift to the sound. Their processing time does not change "
 "when you adjust the EQ knobs."
 msgstr ""
+"De Linkwitz-Riley EQ daarentegen past altijd een minimale, natuurlijk "
+"klinkende faseverschuiving toe op het geluid. Hun verwerkingstijd verandert "
+"niet wanneer u de EQ-knoppen aanpast."
 
 #: ../../chapters/preferences.rst:430
 msgid "The following table compares some technical parameters:"
-msgstr ""
+msgstr "De volgende tabel vergelijkt enkele technische parameters:"
 
 #: ../../chapters/preferences.rst:433
 msgid "Type"
@@ -670,106 +922,113 @@ msgstr "Type"
 
 #: ../../chapters/preferences.rst:433
 msgid "cut"
-msgstr ""
+msgstr "cut"
 
 #: ../../chapters/preferences.rst:433
 msgid "roll-off"
-msgstr ""
+msgstr "roll-off"
 
 #: ../../chapters/preferences.rst:433
 msgid "phase shift"
-msgstr ""
+msgstr "phase shift"
 
 #: ../../chapters/preferences.rst:433
 msgid "bit perfect"
-msgstr ""
+msgstr "bit perfect"
 
 #: ../../chapters/preferences.rst:433
 msgid "CPU usage"
-msgstr ""
+msgstr "CPU verbruik"
 
 #: ../../chapters/preferences.rst:435
 msgid "Bessel4 LV-Mix"
-msgstr ""
+msgstr "Bessel4 LV-Mix"
 
 #: ../../chapters/preferences.rst:435
 msgid "soft"
-msgstr ""
+msgstr "zacht"
 
 #: ../../chapters/preferences.rst:435
 msgid "-24 db/Oct"
-msgstr ""
+msgstr "-24 db/Oct"
 
 #: ../../chapters/preferences.rst:435 ../../chapters/preferences.rst:437
 msgid "linear"
-msgstr ""
+msgstr "lineair"
 
 #: ../../chapters/preferences.rst:435 ../../chapters/preferences.rst:437
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 #: ../../chapters/preferences.rst:435
 msgid "low"
-msgstr ""
+msgstr "laag"
 
 #: ../../chapters/preferences.rst:437
 msgid "Bessel8 LV-Mix"
-msgstr ""
+msgstr "Bessel8 LV-Mix"
 
 #: ../../chapters/preferences.rst:437 ../../chapters/preferences.rst:437
 msgid "medium"
-msgstr ""
+msgstr "medium"
 
 #: ../../chapters/preferences.rst:437 ../../chapters/preferences.rst:439
 msgid "-48 db/Oct"
-msgstr ""
+msgstr "-48 db/Oct"
 
 #: ../../chapters/preferences.rst:439
 msgid "Linkwitz-Riley"
-msgstr ""
+msgstr "Linkwitz-Riley"
 
 #: ../../chapters/preferences.rst:439
 msgid "sharp"
-msgstr ""
+msgstr "scherp"
 
 #: ../../chapters/preferences.rst:439
 msgid "minimum"
-msgstr ""
+msgstr "minimum"
 
 #: ../../chapters/preferences.rst:439
 msgid "no"
-msgstr ""
+msgstr "nee"
 
 #: ../../chapters/preferences.rst:439
 msgid "high"
-msgstr ""
+msgstr "hoog"
 
 #: ../../chapters/preferences.rst:442
 msgid "cut: the frequency response (curve form) at the cross over frequency."
-msgstr ""
+msgstr "cut: de frequentierespons (curvevorm) bij de cross-over-frequentie."
 
 #: ../../chapters/preferences.rst:443
 msgid "roll-off: The steepness of the EQ bands."
-msgstr ""
+msgstr "roll-off: De steilheid van de EQ-banden."
 
 #: ../../chapters/preferences.rst:444
 msgid ""
 "linear phase: No phase distortion, all frequencies are processed with the "
 "same group delay."
 msgstr ""
+"lineaire fase: Geen fasevervorming, alle frequenties worden met dezelfde "
+"groepsvertraging verwerkt."
 
 #: ../../chapters/preferences.rst:446
 msgid ""
 "minimum phase: A natural phase distortion, the group delay changes by the "
 "frequency."
 msgstr ""
+"minimum fase: Een natuurlijke fase vervorming, de groepsvertraging verandert"
+" met de frequentie."
 
 #: ../../chapters/preferences.rst:448
 msgid ""
 "bit perfect: Whether the EQ leaves the original samples untouched when the "
 "EQ is at unity."
 msgstr ""
+"bit perfect: Of de EQ de originele samples onaangeroerd laat als de EQ in "
+"eenheid is."
 
 #: ../../chapters/preferences.rst:450
 msgid "CPU usage: Processing time needed to calculate the EQ output."
 msgstr ""
+"CPU-gebruik: Verwerkingstijd die nodig is om de EQ-uitvoer te berekenen."

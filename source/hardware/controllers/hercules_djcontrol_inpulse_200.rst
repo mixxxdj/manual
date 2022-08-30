@@ -12,7 +12,7 @@ Hercules DJControl Inpulse 200
 Compatibility
 -------------
 
-This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, if you wish to use the `ASIO sound API <https://mixxx.org/manual/latest/en/chapters/preferences.html?highlight=asio#windows>`__ under Windows, please install the latest driver package available from the `Support page <https://support.hercules.com/en/product/djcontrolinpulse200-en//>`__.
+This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, if you wish to use the `ASIO sound API <https://mixxx.org/manual/latest/chapters/preferences/sound_hardware.html?highlight=asio#windows>`__ under Windows, please install the latest driver package available from the `Support page <https://support.hercules.com/en/product/djcontrolinpulse200-en//>`__.
 
 Sound Card Setup
 ----------------

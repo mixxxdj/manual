@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:23+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../index.rst:9
 msgid "Mixxx |version| User Manual"
-msgstr ""
+msgstr "Mixxx |version| Gebruikershandleiding"
 
 #: ../../index.rst:11
 msgid ""
@@ -27,39 +28,39 @@ msgid ""
 "for Windows, macOS and Linux. It's easy to use, even if you've never DJed. "
 "Mixxx offers a variety of features to help beginners get started and help "
 "experienced DJs get creative:"
-msgstr ""
+msgstr "Mixxx is `gratis <https://www.gnu.org/philosophy/free-sw.html>`_ DJ-software voor Windows, macOS en Linux. Het is eenvoudig te gebruiken, zelfs als je nog nooit aan DJ'n gedaan hebt. Mixxx biedt een verscheidenheid aan functies om beginners op weg te helpen en ervaren DJ's te helpen creatief te worden:"
 
 #: ../../index.rst:16
 msgid "beat, tempo, and musical key detection"
-msgstr ""
+msgstr "beat, tempo, en muzikale toonaard detectie"
 
 #: ../../index.rst:17
 msgid "master sync"
-msgstr ""
+msgstr "master synchronisatie"
 
 #: ../../index.rst:18
 msgid "hotcues"
-msgstr ""
+msgstr "hotcues"
 
 #: ../../index.rst:19
 msgid "looping"
-msgstr ""
+msgstr "looping"
 
 #: ../../index.rst:20
 msgid "4 decks"
-msgstr ""
+msgstr "4 decks"
 
 #: ../../index.rst:21
 msgid "effects"
-msgstr ""
+msgstr "effecten"
 
 #: ../../index.rst:23
 msgid ""
 "You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, "
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
-msgstr ""
+msgstr "U kunt Mixxx gebruiken om uit te voeren met :term:`MIDI` en :term:`HID` controllers, CD-spelers, vinyldraaitafels of zelfs alleen het toetsenbord en de muis van uw computer."
 
 #: ../../index.rst:27
 msgid "Table of Contents"
-msgstr ""
+msgstr "Inhoudsopgave"

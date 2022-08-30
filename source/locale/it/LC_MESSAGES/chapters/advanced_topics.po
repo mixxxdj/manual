@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:20+0000\n"
+"Last-Translator: Erasmo Grezzani, 2018\n"
 "Language-Team: Italian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
@@ -63,25 +63,25 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:39
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "Collegate il vostro controller al vostro computer"
 
 #: ../../chapters/advanced_topics.rst:40
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Avviare Mixxx"
 
 #: ../../chapters/advanced_topics.rst:41
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr "Andate in  :menuselection:`Preferences --> Controllers`"
 
 #: ../../chapters/advanced_topics.rst:42
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
-msgstr ""
+msgstr "Selezionate il vostro dispositivo dall'elenco dei dispositivi disponibili sulla sinistra ed il pannello di destra cambierà"
 
 #: ../../chapters/advanced_topics.rst:44
 msgid "Activate the :guilabel:`Enabled` checkbox"
-msgstr ""
+msgstr "Attivate il :guilabel:`Enabled` checkbox"
 
 #: ../../chapters/advanced_topics.rst:45
 msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"

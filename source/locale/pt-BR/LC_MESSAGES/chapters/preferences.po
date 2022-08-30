@@ -18,12 +18,12 @@ msgstr ""
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:25+0000\n"
 "Last-Translator: Seila Oxe <wymeg@getnada.com>, 2020\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7715/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/preferences.rst:6
 msgid "Preferences"
@@ -53,11 +53,11 @@ msgstr ""
 
 #: ../../chapters/preferences.rst:28
 msgid ""
-"For information about the different input and output options, refer to :ref"
-":`getting-started-sound-io`. The :ref:`hardware` chapter explains different "
-"types of DJ hardware and how to set them up with the input and output "
-"options. If you are using a microphone, refer to the :ref:`microphones` "
-"chapter."
+"For information about the different input and output options, refer to "
+":ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains "
+"different types of DJ hardware and how to set them up with the input and "
+"output options. If you are using a microphone, refer to the "
+":ref:`microphones` chapter."
 msgstr ""
 
 #: ../../chapters/preferences.rst:36
@@ -545,8 +545,8 @@ msgid ""
 "Typically, the detected BPM is correct but the analyzer has failed to detect"
 " the location of the first beat. Consequently, the beat markers are shifted,"
 " i.e. the beat markers are a fixed distance from the true beat. To adjust "
-"the beat grid, cue the track before a real beat and click the :guilabel"
-":`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
+"the beat grid, cue the track before a real beat and click the "
+":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
 msgstr ""
 
 #: ../../chapters/preferences.rst:314

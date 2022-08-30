@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:19+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2019-2021\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,33 +24,33 @@ msgstr "Dodatek"
 
 #: ../../chapters/appendix.rst:7
 msgid "Additional Resources"
-msgstr ""
+msgstr "Dodatni viri"
 
 #: ../../chapters/appendix.rst:12
 msgid ""
 "Got questions? Need more information? Want to :ref:`contribute "
 "<contributing>`? There are a variety of other resources where you can find "
 "out more:"
-msgstr ""
+msgstr "Imate vprašanja? Potrebujete več podatkov? Ali bi radi :ref: prispevali <contributing>`? Obstaja mnogo virov, kjer lahko izveste več:"
 
 #: ../../chapters/appendix.rst:15
 msgid ""
 "**Mixxx Website**: For general information and updates, as well as the "
 "latest news on Mixxx, go to: `<https://mixxx.org>`_"
-msgstr ""
+msgstr "**Mixxx spletna stran**: Za splošne informacije in nadgradnje, kot tudi zadnje novice o Mixxx, pojdite na: `<https://mixxx.org>`_"
 
 #: ../../chapters/appendix.rst:18
 msgid ""
 "**Mixxx Wiki**: For up-to-date information about supported DJ hardware, "
 "documentation on making controller mappings, and other tips and tricks, go "
 "to: `<https://mixxx.org/wiki/>`_"
-msgstr ""
+msgstr "**Mixxx Wiki**: Za ažurne informacije o podprti strojni opremi, dokumentaciji o izdelavi mapiranj za kontrolerje ter drugih trikih, pojdite na: `<https://mixxx.org/wiki/>`_"
 
 #: ../../chapters/appendix.rst:22
 msgid ""
 "**Mixxx Community Forums**: To search for answers, post your question or "
 "answer other DJ's questions, go to: `<https://mixxx.org/forums>`_"
-msgstr ""
+msgstr "**Mixxx forumi skupnosti**: Za iskanje odgovorov, posredovanje vprašanja ali odgovorov na vprašanja drugih didžejev, se pdoajte na: `<https://mixxx.org/forums>`_"
 
 #: ../../chapters/appendix.rst:25
 msgid ""
@@ -58,19 +58,19 @@ msgid ""
 " chat <https://mixxx.zulipchat.com/>`_. Stand-alone `apps for Zulip "
 "<https://zulipchat.com/apps/>`_ can be configured to use the server "
 "``mixxx.zulipchat.com``."
-msgstr ""
+msgstr "**Mixxx Zulip klepet**: Podružite se z drugimi razvijalci in uporabniki Mixxx na v `Zulip klepetalnici <https://mixxx.zulipchat.com/>`_. Samostojne aplikacije za Zulip <https://zulipchat.com/apps/>`_ je mogoče nastaviti za rabo s strežnikom ``mixxx.zulipchat.com``."
 
 #: ../../chapters/appendix.rst:30
 msgid ""
 "**Mixxx Source Code**: To download the source code for Mixxx, go to: "
 "`<https://github.com/mixxxdj/mixxx>`_"
-msgstr ""
+msgstr "**Mixxx izvorna koda**: Za prenos izvorne kode za Mixxx pojdite na: `<https://github.com/mixxxdj/mixxx>`_"
 
 #: ../../chapters/appendix.rst:33
 msgid ""
 "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
 "`<https://bugs.launchpad.net/mixxx>`_"
-msgstr ""
+msgstr "**Mixxx sledilnik hroščem**: Za prijavo hrošča ali predlog funkcije obiščite: `<https://bugs.launchpad.net/mixxx>`_"
 
 #: ../../chapters/appendix.rst:36
 msgid ""
@@ -78,13 +78,13 @@ msgid ""
 "go to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please read"
 " the `Translation FAQ "
 "<https://mixxx.org/wiki/doku.php/internationalization>`_ first."
-msgstr ""
+msgstr "**Mixxx prevodi**: Za prevajanje Mixxxa in promocijo maternega jezika obiščite: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Pogosta vprašanja glede prevajanja najdete na : <https://mixxx.org/wiki/doku.php/internationalization>`."
 
 #: ../../chapters/appendix.rst:41
 msgid ""
 "**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and"
 " `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
-msgstr ""
+msgstr "**Družbena omrežja**: Sledite nam na `Twitterju <https://twitter.com/mixxxdj>`_, in `Facebooku <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
 
 #: ../../chapters/appendix.rst:47
 msgid "Keyboard mapping table"
@@ -744,7 +744,7 @@ msgstr "ESC"
 
 #: ../../chapters/appendix.rst:184
 msgid "**Library**"
-msgstr "**Knjižnica**"
+msgstr "**Zbirka**"
 
 #: ../../chapters/appendix.rst:186
 msgid "Select all files in current list"
@@ -804,7 +804,7 @@ msgstr "Ctrl + Shift + O"
 
 #: ../../chapters/appendix.rst:212
 msgid "**Library menu**"
-msgstr "**Knjižnica menu**"
+msgstr "**Zbirka meni\n**"
 
 #: ../../chapters/appendix.rst:214
 msgid "Add new Playlist"
@@ -868,7 +868,7 @@ msgstr "Ctrl + 6"
 
 #: ../../chapters/appendix.rst:230
 msgid "Maximize Library"
-msgstr "Povečaj knjižnico"
+msgstr "Povečaj zbirko"
 
 #: ../../chapters/appendix.rst:230
 msgid "Space"
@@ -884,7 +884,7 @@ msgstr "F11"
 
 #: ../../chapters/appendix.rst:234
 msgid "Full Screen (macOS)"
-msgstr ""
+msgstr "Cel zaslon (MacOS)"
 
 #: ../../chapters/appendix.rst:234
 msgid "Shift + Command + F"
@@ -956,7 +956,7 @@ msgstr "Ctrl + P"
 
 #: ../../chapters/appendix.rst:254
 msgid "Open Preferences (macOS)"
-msgstr ""
+msgstr "Odpri nastavitve (MacOS)"
 
 #: ../../chapters/appendix.rst:254
 msgid "Ctrl + ,"
@@ -1019,12 +1019,12 @@ msgid ""
 "The :kbd:`Ctrl` key on Windows & Linux is equivalent to the :kbd:`Command` "
 "key on macOS. The :kbd:`Alt` key on Windows & Linux is equivalent to the "
 ":kbd:`Option` key on macOS. Application shortcuts are not customizable."
-msgstr ""
+msgstr "Tipka :kbd:`Ctrl` v Windowsih & Linuxu je enaka tipki :kbd:`Command` na Mac OS X. Ttipka :kbd:`Alt` v Windowsih & Linuxu je enaka tipki :kbd:`Option` na Mac OS X. Bližnjic za aplikacije ni mogoče prilagajati."
 
 #: ../../chapters/appendix.rst:276
 msgid ""
-"The Developer menu is available if Mixxx is started using the :ref"
-":`appendix-command-line-options`."
+"The Developer menu is available if Mixxx is started using the "
+":ref:`appendix-command-line-options`."
 msgstr "Menu Razvijalec je na voljo, kadar je Mixxx zagnan z :ref:`appendix-command-line-options`."
 
 #: ../../chapters/appendix.rst:282
@@ -1055,7 +1055,7 @@ msgid ""
 "Load the specified music file(s) at start-up. Each file you specify will be "
 "loaded into the next virtual deck. For a list of supported file types, go to"
 " :ref:`configuration-import`"
-msgstr ""
+msgstr "Ob zagonu naloži vnaprej določene glasbene datoteke (datoteko). Vsaka skladba bo naložena v naslednji virtualni predvajalnik. Za seznam podprtih datotek pojdite na :ref:`configuration-import`"
 
 #: ../../chapters/appendix.rst:296
 msgid "--resourcePath PATH"
@@ -1085,7 +1085,7 @@ msgstr "--settingsPath PATH"
 msgid ""
 "Top-level directory where Mixxx should look for user settings files such as "
 "the library database and preferences configuration file."
-msgstr "Vrnji direktorij v katrem Mixxx išče uporabniške nastavitve, kot denimo podatkovno bazo knjižnice ali konfiguracijsko datoteko z nastavitvami."
+msgstr "Vrhnji direktorij v katerem Mixxx išče uporabniške nastavitve, kot denimo podatkovno bazo zbirke ali konfiguracijsko datoteko z nastavitvami."
 
 #: ../../chapters/appendix.rst:308
 msgid "--controllerDebug"
@@ -1095,7 +1095,7 @@ msgstr "--controllerDebug"
 msgid ""
 "Causes Mixxx to display/log all controller data it sends and receives, and "
 "script functions it loads."
-msgstr ""
+msgstr "Povzroči, da Mixxx prikaže/ beleži vse podatke kontrolerja, ki jih prejme in vse funkcije skript, ki jih naloži."
 
 #: ../../chapters/appendix.rst:312
 msgid "--developer"
@@ -1140,7 +1140,7 @@ msgstr "--locale LOCALE"
 
 #: ../../chapters/appendix.rst:327
 msgid "Use a custom locale for loading translations (e.g ``fr``)"
-msgstr ""
+msgstr "Uporabi lastne krajevne nastavitve za nalaganje prevodov (npr. 'fr')"
 
 #: ../../chapters/appendix.rst:330
 msgid "-f, --fullScreen"
@@ -1152,45 +1152,45 @@ msgstr "Zaženi Mixxx preko celega zaslona"
 
 #: ../../chapters/appendix.rst:332
 msgid "--logLevel LEVEL"
-msgstr ""
+msgstr "--logLevel NIVO"
 
 #: ../../chapters/appendix.rst:332
 msgid "Sets the verbosity of command line logging"
-msgstr ""
+msgstr "Določi količino izpisa za beležko v ukazni vrstici"
 
 #: ../../chapters/appendix.rst:334
 msgid "``critical`` - Critical/Fatal only"
-msgstr ""
+msgstr "``critical`` - zgolj kritične/fatalne"
 
 #: ../../chapters/appendix.rst:335
 msgid "``warning``  - Above + Warnings"
-msgstr ""
+msgstr "``warning``  - gornje + opozorila"
 
 #: ../../chapters/appendix.rst:336
 msgid "``info``     - Above + Informational messages"
-msgstr ""
+msgstr "``info``     - gornje + informativna sporočila"
 
 #: ../../chapters/appendix.rst:337
 msgid "``debug``    - Above + Debug/Developer messages"
-msgstr ""
+msgstr "``debug``    - Above + razvojna/razhroščevalna sporočila"
 
 #: ../../chapters/appendix.rst:338
 msgid "``trace``    - Above + Profiling messages"
-msgstr ""
+msgstr "``trace``    - Above + profilirna sporočila"
 
 #: ../../chapters/appendix.rst:340
 msgid "--logFlushLevel LEVEL"
-msgstr ""
+msgstr "--logFlushLevel NIVO"
 
 #: ../../chapters/appendix.rst:340
 msgid ""
 "Sets the logging level at which the log buffer is flushed to ``mixxx.log``. "
 "LEVEL is one of the values defined at ``--logLevel`` above."
-msgstr ""
+msgstr "Določi nivo beleženja na katerem bo medpomnilnik dnevnika prenešen v mixxx.log. LEVEL je ena od vrednosti definirana v --logLevel zgoraj."
 
 #: ../../chapters/appendix.rst:345
 msgid "--debugAssertBreak"
-msgstr ""
+msgstr "--debugAssertBreak"
 
 #: ../../chapters/appendix.rst:345
 msgid ""
@@ -1199,7 +1199,7 @@ msgid ""
 "MIXXX_DEBUG_ASSERTIONS_FATAL flag which leads to a time consuming full "
 "rebuild. Now the MIXXX_DEBUG_ASSERTIONS_FATAL is only respected if "
 "``--debugAssertBreak`` is not passed."
-msgstr ""
+msgstr "Prekine (SIGINT) Mixxx, če ima DEBUG_ASSERT vrednost napačno. V razhroščevalniku je potem mogoče nadaljevati. To prepreči preklop zastavice MIXXX_DEBUG_ASSERTIONS_FATAL, ki zahteva izgradnjo na novo. Sedaj se MIXXX_DEBUG_ASSERTIONS_FATAL postavi le, če ``--debugAssertBreak`` ni bil dosežen."
 
 #: ../../chapters/appendix.rst:353
 msgid "-h, --help"
@@ -1236,7 +1236,7 @@ msgid ""
 ":menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between "
 "OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would "
 "like to collect in your base and experiment buckets."
-msgstr ""
+msgstr "Doda :menuselection:`Razvijalec-->Stat.: Eksperimentalno vedro` in :menuselection:`Developer-->Stat.: Osnovno vedro`. S temi preklapljamo med stanji OFF in BASE/EXPERIMENT, tako da lahko točno določite, katere časovne razpone bi radi zbirali v osnovnih in eksperimentalnih vedrih."
 
 #: ../../chapters/appendix.rst:377
 msgid ""
@@ -1266,143 +1266,143 @@ msgstr "Zgodovina različice"
 
 #: ../../chapters/appendix.rst:395
 msgid "**v2.1.0** (2018-04-15)"
-msgstr ""
+msgstr "**v2.1.0** (2018-04-15)"
 
 #: ../../chapters/appendix.rst:397
 msgid "Graphical interface scales for high resolution screens"
-msgstr ""
+msgstr "Grafični vmesnik sprilagodi velikost za visokoločljivostne zaslone"
 
 #: ../../chapters/appendix.rst:398
 msgid "Overhauled Deere and LateNight skins"
-msgstr ""
+msgstr "Prenovljene Deere in LateNight preobleke"
 
 #: ../../chapters/appendix.rst:399
 msgid "New Tango skin"
-msgstr ""
+msgstr "Nova Tanko preobleka"
 
 #: ../../chapters/appendix.rst:400
 msgid "Resizable waveforms"
-msgstr ""
+msgstr "Valovne oblike s spremenljivo velikostjo"
 
 #: ../../chapters/appendix.rst:401
 msgid "Effects are synchronized to the tempo"
-msgstr ""
+msgstr "Učinki so sinhronizirani s tempom"
 
 #: ../../chapters/appendix.rst:402
 msgid ""
 "Effects are processed post-fader and post-crossfader and can be previewed in"
 " headphones"
-msgstr ""
+msgstr "Učinki do procesirani po drsniku in po navzkrižnem drsniku in jih je mogoče predposlušati v slušalkah"
 
 #: ../../chapters/appendix.rst:403
 msgid ""
 "One metaknob per effect with customizable parameter control for intuitive "
 "use of effect chains"
-msgstr ""
+msgstr "En meta-regulator po učinku s prilagodljivim nadzorom parametra za intuitivno rabo verig učinkov"
 
 #: ../../chapters/appendix.rst:404
 msgid ""
 "Nine new effects: Autopan, Biquad Equalizer, Biquad Full Kill Equalizer, "
 "Loudness Contour, Metronome, Parametric Equalizer, Phaser, Stereo Balance, "
 "Tremolo"
-msgstr ""
+msgstr "Devet novih učinkov: Samodejna panorama, Biquad izravnalnik, Biquad Full Kill izravnalnik, Oblikovalec glasnosti, metronom, parametrični izravnalnik, fazer, stereo ravnovesje, tremolo"
 
 #: ../../chapters/appendix.rst:405
 msgid ""
 "Loaded effects and their parameters are saved and restored when Mixxx "
 "restarts"
-msgstr ""
+msgstr "Naloženi učinki in njihovi parametri so shranjeni in ponovno naloženi ob zagonu Mixxxa"
 
 #: ../../chapters/appendix.rst:406
 msgid ""
 "More transparent sounding equalizers (Biquad Equalizer and Biquad Full Kill "
 "Equalizer)"
-msgstr ""
+msgstr "Bolj jasno zveneči izravnalniki (Biquad in Biquad Full Kill)"
 
 #: ../../chapters/appendix.rst:407
 msgid ""
 "Improved scratching sounds with jog wheels, vinyl control, and dragging "
 "waveforms with the mouse"
-msgstr ""
+msgstr "Izboljšano drgnjenje zvoka z jog vrtiljaki, gramofonskim upravljanjem in vlecenjem valovne oblike z miško"
 
 #: ../../chapters/appendix.rst:408
 msgid "Simplified looping and beatjump controls"
-msgstr ""
+msgstr "Poenostavljen nadzor nad zankami in ritmičnimi skoki"
 
 #: ../../chapters/appendix.rst:409
 msgid ""
 "Configurable rows of 8 samplers with up to 8 rows available for a total of "
 "64 samplers"
-msgstr ""
+msgstr "Nastavljive vrste 8 vzorčevalnikov z do 8 vrst za do največ 64 vzorčevalnikov"
 
 #: ../../chapters/appendix.rst:410
 msgid "Files loaded to samplers are reloaded when Mixxx restarts"
-msgstr ""
+msgstr "Datoteke, ki so bile naložene v vzorčevalnikih, se ponovno naložijo ob zagonu Mixxxa"
 
 #: ../../chapters/appendix.rst:411
 msgid "Improved volume normalization algorithm (EBU-R 128)"
-msgstr ""
+msgstr "Izboljšan algoritem za normalizacijo glasnosti (EBU-R 128)"
 
 #: ../../chapters/appendix.rst:412
 msgid "Filter library table by crates"
-msgstr ""
+msgstr "Filtriranje tabel knjižnic po zabojih"
 
 #: ../../chapters/appendix.rst:413
 msgid "Sort musical keys in library table by circle of fifths"
-msgstr ""
+msgstr "Sortiranje glasbene tonalitete v tabeli knjižnice po kvintnem krogu"
 
 #: ../../chapters/appendix.rst:414
 msgid "Write metadata tags back to audio files"
-msgstr ""
+msgstr "Zapiši mataoznake nazaj v zvočno datoteko"
 
 #: ../../chapters/appendix.rst:415
 msgid "New JavaScript library for controller mapping"
-msgstr ""
+msgstr "Nova JavaScript knjižnica za mapiranje kontrolerjev"
 
 #: ../../chapters/appendix.rst:416
 msgid ""
 "Configure multiple Internet broadcasting stations and use multiple stations "
 "at the same time"
-msgstr ""
+msgstr "Nastavite več spletnih radijskih postaj in uporabite več postaj naenkrat"
 
 #: ../../chapters/appendix.rst:417
 msgid ""
 "Broadcast and record microphones with direct monitoring and latency "
 "compensation"
-msgstr ""
+msgstr "Spletno oddajanje in snemanje mikrofonov z neposrednim monitoringom in kompenzacijo latence"
 
 #: ../../chapters/appendix.rst:418
 msgid "Broadcast and record from an external mixer"
-msgstr ""
+msgstr "Spletno oddjanje in snemanje iz zunanje mešalke"
 
 #: ../../chapters/appendix.rst:419
 msgid ""
 "Booth output with independent gain knob for using sound cards with 6 output "
 "channels without an external mixer"
-msgstr ""
+msgstr "Ojačajte izhod s samostojnimi regulatorji za rabo z zvočnimi karticami s šestimi izhodnimi kanali brez zunanje mešalke"
 
 #: ../../chapters/appendix.rst:420
 msgid "Prevent screensaver from starting while Mixxx is running"
-msgstr ""
+msgstr "Preprečite ohranjevalniku zaslona, da bi se zagnal, medtem ko je Mixxx aktiven"
 
 #: ../../chapters/appendix.rst:421
 msgid "CUP (Cue And Play) cue button mode"
-msgstr ""
+msgstr "CUP (Cue And Play) način delovanja gumba"
 
 #: ../../chapters/appendix.rst:422
 msgid "Time remaining and time elapsed now take into account the tempo fader"
-msgstr ""
+msgstr "Preostali čas in izmerjeni čas sedaj upoštevata preliv tempa"
 
 #: ../../chapters/appendix.rst:423
 msgid "Clicking cover art now shows it full size in a separate window"
-msgstr ""
+msgstr "S klikom na naslovnico se ta v polni velikosti prikaže v ločenem oknu"
 
 #: ../../chapters/appendix.rst:425
 msgid ""
 "For a full list of new features and bugfixes, go to: "
 "`https://launchpad.net/mixxx/2.1 "
 "<https://launchpad.net/mixxx/+milestone/2.1.0>`_."
-msgstr ""
+msgstr "Ves seznam novosti in popravkov je na voljo na: `https://launchpad.net/mixxx/2.1 <https://launchpad.net/mixxx/+milestone/2.1.0>`_."
 
 #: ../../chapters/appendix.rst:429
 msgid "**v2.0.0** (2015-12-31)"
@@ -1444,7 +1444,7 @@ msgstr "GUI za MIDI mapiranje in izboljšani čarovnik za učenje"
 
 #: ../../chapters/appendix.rst:441
 msgid "MusicBrainz metadata fetching"
-msgstr ""
+msgstr "Raba MusicBrainz metapodatkov"
 
 #: ../../chapters/appendix.rst:442
 msgid "RGB Musical Waveforms"

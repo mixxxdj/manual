@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:20+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2019-2020\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -442,13 +442,13 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:232
 msgid "Deleting Your Library"
-msgstr "Brisanje vasših knjižnic"
+msgstr "Brisanje vaših zbirk"
 
 #: ../../chapters/advanced_topics.rst:234
 msgid ""
 "The library file is stored in the following places depending on your "
 ":term:`operating system`:"
-msgstr "Knjižnična datoteka je shranjena na naslednjih mestih, odvisno od tega, kateri je vaš :term:`operacijski sistem`:"
+msgstr "Datoteka z zbirko je shranjena na naslednjih mestih, odvisno od tega, kateri je vaš :term:`operacijski sistem`:"
 
 #: ../../chapters/advanced_topics.rst:241
 msgid "**Windows**"
@@ -459,7 +459,7 @@ msgid ""
 "The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local "
 "Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on"
 " Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
-msgstr "Mixxx knjižnica je shranjena v imeniku :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\`. Da bi jo izbrisali v Windowsih, pobrišite :file:`mixxxdb.sqlite` datoteko v tem imeniku."
+msgstr "Mixxx zbirka je shranjena v imeniku :file:`%USERPROFILE%\\\\Local Settings\\\\Application Data\\\\Mixxx\\\\`. Da bi jo izbrisali v Windowsih, pobrišite :file:`mixxxdb.sqlite` datoteko v tem imeniku."
 
 #: ../../chapters/advanced_topics.rst:248
 msgid "**macOS**"
@@ -481,11 +481,11 @@ msgid ""
 "The Mixxx library is stored in the ``.mixxx`` folder in your home directory."
 " To delete your library on GNU/Linux type the following command into a "
 "terminal: ::"
-msgstr "Mixxx knjižnica je shranjena v ``.mixxx`` imeniku v domačem direktoriju. Za izbris na GNU/Linux vtipkajte naslednji ukaz v terminal: ::"
+msgstr "Mixxx zbirka je shranjena v ``.mixxx`` imeniku v domačem direktoriju. Za brisanje v GNU/Linux vtipkajte naslednji ukaz v terminal: ::"
 
 #: ../../chapters/advanced_topics.rst:256
 msgid ""
 "Deleting your library will lose all of your :term:`metadata`. This includes "
 "saved hotcues, loops, comments, ratings, and other library related metadata."
 " Only delete your library if you are fine with losing these."
-msgstr "Z izbrisom knjižnice se izgubijo vsi :term:`metapodatki`, vključno s shranjenimi hotcue izočnicami, zankami, komentarji, ocenami in drugimi metapodatki, ki so povezani s knjižnico. Izbrišite knjižnico le v primeru, da teh podatkov ne boste pogrešali."
+msgstr "Ob brisanju zbirke se izgubijo vsi :term:`metapodatki`, vključno s shranjenimi hotcue izočnicami, zankami, komentarji, ocenami in drugimi metapodatki, ki so povezani z zbirko. Izbrišite zbirko le v primeru, da teh podatkov ne boste pogrešali."

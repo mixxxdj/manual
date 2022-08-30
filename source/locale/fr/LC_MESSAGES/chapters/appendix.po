@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 10:09+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>\n"
+"PO-Revision-Date: 2014-08-03 11:19+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2018-2020\n"
 "Language-Team: French (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/appendix.rst:4
 msgid "Appendix"
@@ -48,7 +48,7 @@ msgid ""
 "**Mixxx Wiki**: For up-to-date information about supported DJ hardware, "
 "documentation on making controller mappings, and other tips and tricks, go "
 "to: `<https://mixxx.org/wiki/>`_"
-msgstr "** Mixxx Wiki **: pour des informations à jour sur le matériel DJ pris en charge, la documentation sur la création de mappages de contrôleurs et d'autres conseils et astuces, rendez-vous sur: `<https://mixxx.org/wiki/>` _"
+msgstr "**Mixxx Wiki** : pour des informations à jour sur le matériel DJ pris en charge, la documentation sur la création de mappages de contrôleurs et d'autres conseils et astuces, rendez-vous sur : `<https://mixxx.org/wiki/>`_"
 
 #: ../../chapters/appendix.rst:22
 msgid ""
@@ -62,19 +62,19 @@ msgid ""
 " chat <https://mixxx.zulipchat.com/>`_. Stand-alone `apps for Zulip "
 "<https://zulipchat.com/apps/>`_ can be configured to use the server "
 "``mixxx.zulipchat.com``."
-msgstr "**Mixxx Zulip Chat**: Passer du temps avec les développeurs et les utilisateurs de Mixxx sur notre `Zulip chat <https://mixxx.zulipchat.com/>`_. Les `applications autonomes pour Zulip <https://zulipchat.com/apps/>`_ peuvent être configurées pour utiliser le serveur ``mixxx.zulipchat.com``."
+msgstr "**Mixxx Zulip Chat** : Passer du temps avec les développeurs et les utilisateurs de Mixxx sur notre `Zulip chat <https://mixxx.zulipchat.com/>`_. Les `applications autonomes pour Zulip <https://zulipchat.com/apps/>`_ peuvent être configurées pour utiliser le serveur ``mixxx.zulipchat.com``."
 
 #: ../../chapters/appendix.rst:30
 msgid ""
 "**Mixxx Source Code**: To download the source code for Mixxx, go to: "
 "`<https://github.com/mixxxdj/mixxx>`_"
-msgstr "**Code source de Mixxx**: Pour télécharger le code source de Mixxx, visitez : `<https://github.com/mixxxdj/mixxx>`_"
+msgstr "**Code source de Mixxx** : Pour télécharger le code source de Mixxx, visiter : `<https://github.com/mixxxdj/mixxx>`_"
 
 #: ../../chapters/appendix.rst:33
 msgid ""
 "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
 "`<https://bugs.launchpad.net/mixxx>`_"
-msgstr "**Mixxx Bug Tracker**: Pour rapporter un bug ou demander une fonctionnalité, consultez : `<https://bugs.launchpad.net/mixxx>`_"
+msgstr "**Mixxx Bug Tracker** : Pour rapporter un bug ou demander une fonctionnalité, consulter : `<https://bugs.launchpad.net/mixxx>`_"
 
 #: ../../chapters/appendix.rst:36
 msgid ""
@@ -167,7 +167,7 @@ msgstr "0"
 
 #: ../../chapters/appendix.rst:68
 msgid "Headphone Cue (Pre-fader listen)"
-msgstr "Repère de Casque (écoute pré-atténué)"
+msgstr "Repère au Casque (écoute avant-curseur)"
 
 #: ../../chapters/appendix.rst:68
 msgid "T"
@@ -774,7 +774,7 @@ msgstr "Mixxx vous permet de personnaliser les raccourcis clavier. Pour plus d'i
 
 #: ../../chapters/appendix.rst:198
 msgid "Application shortcuts"
-msgstr "Raccourcis d'application"
+msgstr "Raccourcis de l'application"
 
 #: ../../chapters/appendix.rst:200
 msgid ""
@@ -832,7 +832,7 @@ msgstr "**Menu Affichage**"
 
 #: ../../chapters/appendix.rst:220
 msgid "Show Skin Settings Menu"
-msgstr "Affiche le menu de réglage du thème"
+msgstr "Afficher le menu de réglage du thème"
 
 #: ../../chapters/appendix.rst:220
 msgid "Ctrl + 1"
@@ -888,7 +888,7 @@ msgstr "F11"
 
 #: ../../chapters/appendix.rst:234
 msgid "Full Screen (macOS)"
-msgstr "Plein Écran (macOS)"
+msgstr "Plein écran (macOS)"
 
 #: ../../chapters/appendix.rst:234
 msgid "Shift + Command + F"
@@ -996,7 +996,7 @@ msgstr "Ctrl + Majuscule + T"
 
 #: ../../chapters/appendix.rst:264
 msgid "Stats: Base Bucket"
-msgstr "Statistiques : Paquet de Base"
+msgstr "Statistiques : paquet de base"
 
 #: ../../chapters/appendix.rst:264
 msgid "Ctrl + Shift + B"
@@ -1004,7 +1004,7 @@ msgstr "Ctrl + Majuscule + B"
 
 #: ../../chapters/appendix.rst:266
 msgid "Stats: Experiment Bucket"
-msgstr "Statistiques : Paquet Expérimental"
+msgstr "Statistiques : paquet expérimental"
 
 #: ../../chapters/appendix.rst:266
 msgid "Ctrl + Shift + E"
@@ -1027,8 +1027,8 @@ msgstr "La touche :kbd:`CTRL` sous Windows & Linux est équivalente à la touche
 
 #: ../../chapters/appendix.rst:276
 msgid ""
-"The Developer menu is available if Mixxx is started using the :ref"
-":`appendix-command-line-options`."
+"The Developer menu is available if Mixxx is started using the "
+":ref:`appendix-command-line-options`."
 msgstr "Le menu développeur est disponible si Mixxx est démarré à l’aide de la touche :ref:`appendix-command-line-options`."
 
 #: ../../chapters/appendix.rst:282
@@ -1059,7 +1059,7 @@ msgid ""
 "Load the specified music file(s) at start-up. Each file you specify will be "
 "loaded into the next virtual deck. For a list of supported file types, go to"
 " :ref:`configuration-import`"
-msgstr "Chargez le ou les fichiers de musique spécifiés au démarrage. Chaque fichier que vous spécifiez sera chargé sur la prochain platine virtuel. Pour une liste des types de fichiers pris en charge, accédez à :ref:`configuration-import`"
+msgstr "Charger le ou les fichiers de musique spécifiés au démarrage. Chaque fichier que vous spécifiez sera chargé sur la prochain platine virtuel. Pour une liste des types de fichiers pris en charge, accédez à :ref:`configuration-import`"
 
 #: ../../chapters/appendix.rst:296
 msgid "--resourcePath PATH"
@@ -1099,7 +1099,7 @@ msgstr "--controllerDebug"
 msgid ""
 "Causes Mixxx to display/log all controller data it sends and receives, and "
 "script functions it loads."
-msgstr "Force Mixxx à afficher/consigner toutes les données de contrôleur qu'il envoi et reçoit, et les fonctions de script qu’il charge."
+msgstr "Force Mixxx à afficher/journaliser toutes les données de contrôleur qu'il envoi et reçoit, et les fonctions de script qu’il charge."
 
 #: ../../chapters/appendix.rst:312
 msgid "--developer"
@@ -1110,7 +1110,7 @@ msgid ""
 "Enables developer-mode. Includes extra log info, stats on performance, a "
 "Developer tools menu, extra developer skins, and provides useful information"
 " for skin writers in widget tooltips and logs ."
-msgstr "Active le mode développeur. Inclut des informations de journal supplémentaires, des statistiques de performances, un menu Outils de développement, des thèmes de développeur supplémentaires et fournit des informations utiles aux rédacteurs de thèmes dans les info-bulles et les journaux de widgets."
+msgstr "Active le mode développeur. Inclut des informations de journal supplémentaires, des statistiques de performances, un menu Outils de développement, des thèmes de développeur supplémentaires et fournit des informations utiles aux créateurs de thèmes dans les info-bulles et les journaux de widgets."
 
 #: ../../chapters/appendix.rst:318
 msgid "--safeMode"
@@ -1136,7 +1136,7 @@ msgstr "Désactive la scrutation de synchronisation"
 
 #: ../../chapters/appendix.rst:325
 msgid "Doesn't open controllers by default"
-msgstr "Ne pas ouvrir les contrôleurs par défaut"
+msgstr "N'ouvre pas les contrôleurs par défaut"
 
 #: ../../chapters/appendix.rst:327
 msgid "--locale LOCALE"
@@ -1222,7 +1222,7 @@ msgid ""
 "To start Mixxx in Developer mode from a custom resource directory with "
 ":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
 "the terminal and hit return: ::"
-msgstr "Démarrer Mixxx en mode développeur à partir d'un répertoire de ressources personnalisé avec :term:`MIDI` et :term:`HID` activé, tapez la ligne suivante dans le terminal et cliquez sur Entrée: ::"
+msgstr "Pour démarrer Mixxx en mode développeur à partir d'un répertoire de ressources personnalisé avec :term:`MIDI` et :term:`HID` activé, taper la ligne suivante dans le terminal et cliquer sur Entrée: ::"
 
 #: ../../chapters/appendix.rst:367
 msgid "Experiment modes for rapid development and testing"
@@ -1473,4 +1473,4 @@ msgstr "Pour une liste complète des nouvelles fonctionnalités et corrections d
 msgid ""
 "For an overview of previous versions, `take a look "
 "<https://launchpad.net/mixxx/+series>`_ at the timeline."
-msgstr "Pour un aperçu des versions précédentes, `take a look <https://launchpad.net/mixxx/+series>`_ à la chronologie."
+msgstr "Pour un aperçu des versions précédentes, `jeter un coups d’œil <https://launchpad.net/mixxx/+series>`_ à la chronologie."

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:56+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,24 +20,24 @@ msgstr ""
 
 #: ../../_templates/download.html:2
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: ../../_templates/download.html:7
 msgid "Offline versions of this manual"
-msgstr ""
+msgstr "Offline versies van deze handleiding"
 
 #: ../../_templates/download.html:10
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: ../../_templates/languages.html:2
 msgid "Languages"
-msgstr ""
+msgstr "Talen"
 
 #: ../../_templates/languages.html:8
 msgid "Read this page in another language"
-msgstr ""
+msgstr "Lees deze pagina in een andere taal"
 
 #: ../../_templates/versioning.html:25
 msgid "Versions"
-msgstr ""
+msgstr "Versies"

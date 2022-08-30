@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:19+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:58
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../../chapters/appendix.rst:60
 msgid "Crossfade Right"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:66
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../chapters/appendix.rst:68
 msgid "Headphone Cue (Pre-fader listen)"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:70
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: ../../chapters/appendix.rst:70
 msgid "N"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:78
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../chapters/appendix.rst:78
 msgid "L"
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:80
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../chapters/appendix.rst:80
 msgid "J"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:102
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../chapters/appendix.rst:102
 msgid "6"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:110
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../chapters/appendix.rst:110
 msgid ";"
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:114
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../../chapters/appendix.rst:114
 msgid "U"
@@ -450,7 +450,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:118
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../../chapters/appendix.rst:118
 msgid "O"
@@ -462,7 +462,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:120
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../chapters/appendix.rst:120
 msgid "7"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:122
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../chapters/appendix.rst:124
 msgid "Toggle Loop On/Off"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:124
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../chapters/appendix.rst:124
 msgid "9"
@@ -522,7 +522,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:130
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../chapters/appendix.rst:130
 msgid "."
@@ -739,7 +739,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:182
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #: ../../chapters/appendix.rst:184
 msgid "**Library**"
@@ -779,7 +779,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:204
 msgid "Key"
-msgstr ""
+msgstr "Ключ"
 
 #: ../../chapters/appendix.rst:206
 msgid "**File menu**"
@@ -827,7 +827,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:220
 msgid "Show Skin Settings Menu"
-msgstr ""
+msgstr "Показать меню настроек скина"
 
 #: ../../chapters/appendix.rst:220
 msgid "Ctrl + 1"
@@ -871,7 +871,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:230
 msgid "Space"
-msgstr ""
+msgstr "Пространство"
 
 #: ../../chapters/appendix.rst:232
 msgid "Full Screen (Windows & Linux)"
@@ -879,7 +879,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:232
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #: ../../chapters/appendix.rst:234
 msgid "Full Screen (macOS)"
@@ -983,7 +983,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:262
 msgid "Developer Tools"
-msgstr ""
+msgstr "Инструменты разработчика"
 
 #: ../../chapters/appendix.rst:262
 msgid "Ctrl + Shift + T"
@@ -1022,8 +1022,8 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:276
 msgid ""
-"The Developer menu is available if Mixxx is started using the :ref"
-":`appendix-command-line-options`."
+"The Developer menu is available if Mixxx is started using the "
+":ref:`appendix-command-line-options`."
 msgstr ""
 
 #: ../../chapters/appendix.rst:282
@@ -1043,7 +1043,7 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:289
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../../chapters/appendix.rst:291
 msgid "[FILE]"

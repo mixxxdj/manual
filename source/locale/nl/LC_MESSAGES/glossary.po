@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../glossary.rst:2
 msgid "Glossary of Terms"
-msgstr ""
+msgstr "Verklarende woordenlijst"
 
 #: ../../glossary.rst:231
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../../glossary.rst:233
 msgid ""
@@ -32,11 +33,11 @@ msgid ""
 "to :term:`MP3`, AAC generally achieves better sound quality at similar bit "
 "rates. While the .aac extension is sometimes used for AAC-encoded files, "
 "they are typically saved with an .m4a file extension."
-msgstr ""
+msgstr "Advanced Audio Coding (AAC) is een gepatenteerd audiocompressie-algoritme dat gebruik maakt van een vorm van :term:`lossy` datacompressie. Ontworpen als opvolger van :term:`MP3`, bereikt AAC over het algemeen een betere geluidskwaliteit bij vergelijkbare bitsnelheden. Terwijl de .aac-extensie soms wordt gebruikt voor AAC-gecodeerde bestanden, worden deze meestal opgeslagen met een .m4a-bestandsextensie."
 
 #: ../../glossary.rst:456
 msgid "AcoustID"
-msgstr ""
+msgstr "AcoustID"
 
 #: ../../glossary.rst:458
 msgid ""
@@ -45,11 +46,11 @@ msgid ""
 "fingerprints with mapping to the :term:`MusicBrainz` :term:`metadata` "
 "database and provide a web service for audio file identification using this "
 "database. For more information, see`<https://acoustid.org/>`_."
-msgstr ""
+msgstr "Een akoestisch vingerafdruksysteem dat volledig is gebaseerd op :term:`open-source` technologie. Het doel is om een gratis database te creëren, die voorzien wordt van de door de gebruiker aangeleverde audio vingerafdrukken met mapping naar de :term:`MusicBrainz` :term:`metadata` database en een webservice aan te bieden voor de identificatie van audiobestanden met behulp van deze database. Voor meer informatie, zie`<https://acoustid.org/>`_."
 
 #: ../../glossary.rst:250
 msgid "AIFF"
-msgstr ""
+msgstr "AIFF"
 
 #: ../../glossary.rst:252
 msgid ""
@@ -57,11 +58,11 @@ msgid ""
 "format, similar to .wav files. Contains CD-quality audio stored in a non-"
 "compressed, :term:`lossless` format. AIFF files generally end with a .aiff "
 "or .aif extension."
-msgstr ""
+msgstr "Afkorting voor Audio Interchange File Format. Hoogwaardig digitaal audiobestandsformaat, vergelijkbaar met .wav-bestanden. Bevat audio van cd-kwaliteit opgeslagen in een niet-gecomprimeerde,: term: `lossless` formaat. AIFF-bestanden eindigen over het algemeen met de extensie .aiff of .aif."
 
 #: ../../glossary.rst:243
 msgid "ALAC"
-msgstr ""
+msgstr "ALAC"
 
 #: ../../glossary.rst:245
 msgid ""
@@ -70,11 +71,11 @@ msgid ""
 "container format as AAC and use the same file extensions (m4a, mp4). Mixxx "
 "and many other programs are not compatible with ALAC. It is recommended to "
 "convert ALAC files to :term:`FLAC` for use in Mixxx."
-msgstr ""
+msgstr "Apple Lossless Audio Codec (ALAC) is een term: `lossless` audiobestandsformaat dat door iTunes en andere Apple-producten wordt gebruikt. ALAC-bestanden gebruiken hetzelfde MP4-containerformaat als AAC en gebruiken dezelfde bestandsextensies (m4a, mp4). Mixxx en vele andere programma's zijn niet compatibel met ALAC. We raden dan ook aan om ALAC-bestanden te converteren naar :term:`FLAC` voor gebruik in Mixxx."
 
 #: ../../glossary.rst:463
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../glossary.rst:465
 msgid ""
@@ -83,15 +84,15 @@ msgid ""
 "this is the Sound API that Mixxx uses to communicate with the "
 ":term:`Operating System` to make use of the :term:`soundcards` connected to "
 "the computer."
-msgstr ""
+msgstr "Een Application Program Interface (API) is een specificatie en reeks regels voor hoe softwareprogramma's met elkaar omgaan. Een voorbeeld hiervan in Mixxx is de Sound API die Mixxx gebruikt om te communiceren met het: term: `Besturingsysteem` om gebruik te maken van de: term:` geluidskaarten` die op de computer zijn aangesloten."
 
 #: ../../glossary.rst:338
 msgid "audio interface"
-msgstr ""
+msgstr "audio-interface"
 
 #: ../../glossary.rst:339
 msgid "audio interfaces"
-msgstr ""
+msgstr "audio-interfaces"
 
 #: ../../glossary.rst:341
 msgid ""
@@ -99,33 +100,33 @@ msgid ""
 "audio signals to and from a computer, typically connected by USB. Almost all"
 " computers come with a basic audio interface built in, but a higher quality "
 "audio interface with at least 4 output channels is recommended for Mixxx."
-msgstr ""
+msgstr "Een audio-interface is een apparaat dat de invoer en uitvoer van audiosignalen van en naar een computer mogelijk maakt, doorgaans aangesloten via USB. Bijna alle computers hebben een ingebouwde audio-interface, maar voor Mixxx wordt een audio-interface van hogere kwaliteit met ten minste 4 uitvoerkanalen aanbevolen."
 
 #: ../../glossary.rst:196
 msgid "balance"
-msgstr ""
+msgstr "balans"
 
 #: ../../glossary.rst:198
 msgid ""
 "A balance control on a mixer allows you to adjust the balance between the "
 "left and right channel. The balance refers to the relative volume of the "
 "corresponding channel in a stereo audio signal."
-msgstr ""
+msgstr "Met een balansregelaar op een mixer kunt u de balans tussen het linker- en rechterkanaal aanpassen. De balans verwijst naar het relatieve volume van het corresponderende kanaal in een stereo audiosignaal."
 
 #: ../../glossary.rst:369
 msgid "bar"
-msgstr ""
+msgstr "balk"
 
 #: ../../glossary.rst:371
 msgid ""
 "In musical notation, a bar (or measure) is a segment of time defined by a "
 "given number of beats. Typically, a piece consists of several bars of the "
 "same length."
-msgstr ""
+msgstr "In de muzieknotatie is een balk (of maat) een tijdsegment dat wordt gedefinieerd door een bepaald aantal beats. Meestal bestaat een stuk uit meerdere maten van dezelfde lengte."
 
 #: ../../glossary.rst:92
 msgid "beatgrid"
-msgstr ""
+msgstr "beatgrid"
 
 #: ../../glossary.rst:94
 msgid ""
@@ -133,21 +134,21 @@ msgid ""
 "Beatgrids are used for advanced mixing functions such as track :term:`sync`,"
 " precise effects synchronization, looping and accurate :term:`BPM` "
 "representation."
-msgstr ""
+msgstr "Een reeks markeringen die wijzen op de locatie van de beats binnen de track. Beatgrids worden gebruikt voor geavanceerde mengfuncties zoals track:`sync`, nauwkeurige effectsynchronisatie, looping en nauwkeurige :term:`BPM` representatie."
 
 #: ../../glossary.rst:88
 msgid "beatmatching"
-msgstr ""
+msgstr "beatmatching"
 
 #: ../../glossary.rst:90
 msgid ""
 "A mixing technique used to establish a similar tempo with two or more "
 "tracks, making them sound like just one track."
-msgstr ""
+msgstr "Een mengtechniek die wordt gebruikt om een vergelijkbaar en zelfde tempo vast te stellen met twee of meer tracks, waardoor je ze laat klinken als één track."
 
 #: ../../glossary.rst:331
 msgid "binaries"
-msgstr ""
+msgstr "binaries"
 
 #: ../../glossary.rst:333
 msgid ""
@@ -156,11 +157,11 @@ msgid ""
 " a program called a compiler. The compiler then generates a binary, which is"
 " something like an an .exe or a .dll file. By using binaries you are "
 "relieved of the task of having to compile the code by yourself."
-msgstr ""
+msgstr "Bestanden die samengestelde of gecompileerde computercode bevatten, die is gecompileerd uit de broncode. De broncode, die meestal een hoop tekstbestanden is, wordt verwerkt met een programma dat een compiler wordt genoemd. De compiler genereert dan een binair bestand, wat zoiets is als een .exe of een .dll bestand. Door gebruik te maken van binaire bestanden bent u verlost van de taak om de code zelf te moeten compileren."
 
 #: ../../glossary.rst:276
 msgid "bitrate"
-msgstr ""
+msgstr "bitsnelheid"
 
 #: ../../glossary.rst:278
 msgid ""
@@ -168,7 +169,7 @@ msgid ""
 "is commonly measured in :term:`Kbps`. For example, an MP3 audio file that is"
 " compressed at 192 Kbps will have a greater dynamic range and may sound "
 "slightly more clear than the same audio file compressed at 128 Kbps."
-msgstr ""
+msgstr "Beschrijft de kwaliteit van een audio- of videobestand. Voor audiogegevens wordt de bitsnelheid meestal gemeten in :term:`Kbps`. Bijvoorbeeld, een MP3-audiobestand dat gecomprimeerd is met 192 Kbps zal een groter dynamisch bereik hebben en zal meestal iets duidelijker klinken dan hetzelfde audiobestand dat gecomprimeerd is met 128 Kbps."
 
 #: ../../glossary.rst:83
 msgid "BPM"
@@ -179,22 +180,22 @@ msgid ""
 "Beats per minute (BPM) is used as a measure of tempo in music. If you tap "
 "your foot to music you are following the “beat”. If you count how many taps "
 "you do in a minute you have calculated the BPM."
-msgstr ""
+msgstr "Beats per minuut (BPM) wordt gebruikt als maat voor het tempo in de muziek. Als je je voet op muziek tikt, volg je de “beat”. Als je telt hoeveel tikken of taps je doet in een minuut, dan heb je de BPM berekend."
 
 #: ../../glossary.rst:326
 msgid "bug report"
-msgstr ""
+msgstr "bug report"
 
 #: ../../glossary.rst:328
 msgid ""
 "Every software has bugs. When you come across a bug in this software, you "
 "should submit a report about it to the developers. They can use this to "
 "identify, replicate and fix the issue."
-msgstr ""
+msgstr "Elke software heeft bugs. Wanneer u een bug in deze software tegenkomt, dan zou u hierover een rapport moeten indienen bij de ontwikkelaars. Zij kunnen dit gebruiken om het probleem te identificeren, te repliceren en te verhelpen."
 
 #: ../../glossary.rst:315
 msgid "CDJ"
-msgstr ""
+msgstr "CDJ"
 
 #: ../../glossary.rst:317
 msgid ""
@@ -202,22 +203,22 @@ msgid ""
 "Electronics. Today CDJ generally refers to DJ CD players that work like a "
 "record player. They allow analog control of music using CDs, usually using a"
 " touch sensitive emulated vinyl control surface."
-msgstr ""
+msgstr "CDJ is een term die oorspronkelijk werd gebruikt om een lijn van CD-spelers van Pioneer Electronics te beschrijven. Vandaag de dag verwijst CDJ over het algemeen naar DJ CD-spelers die werken als een platenspeler. Ze maken analoge bediening van muziek mogelijk met behulp van CD's, meestal met behulp van een aanraakgevoelig geëmuleerd vinyloppervlak."
 
 #: ../../glossary.rst:267
 msgid "codec"
-msgstr ""
+msgstr "codec"
 
 #: ../../glossary.rst:269
 msgid ""
 "Short for compressor/decompressor, a codec is any technology for compressing"
 " and decompressing audio and video data. Some popular codecs for computer "
 "audio include :term:`MP3` and :term:`Ogg Vorbis`."
-msgstr ""
+msgstr "Afkorting voor compressor/decompressor, een codec is elke technologie voor het comprimeren en decomprimeren van audio- en videogegevens. Enkele populaire codecs voor computer audio zijn :term:`MP3` en :term:`Ogg Vorbis`."
 
 #: ../../glossary.rst:111
 msgid "controller"
-msgstr ""
+msgstr "controller"
 
 #: ../../glossary.rst:113
 msgid ""
@@ -228,32 +229,32 @@ msgid ""
 " but some controllers use :term:`HID` signals. Many DJs prefer to control DJ"
 " software using physical knobs, faders, and wheels on controllers instead of"
 " using a computer keyboard and mouse."
-msgstr ""
+msgstr "Een extern hardware-apparaat dat signalen genereert en doorgeeft aan een computer, meestal via USB, om software te besturen met andere fysieke besturingselementen dan enkel een muis en toetsenbord. Controllers hebben veel toepassingen voor muziek, zoals het aansturen van DJ-programma's zoals Mixxx. Ze sturen meestal :term:`MIDI` signalen, maar sommige controllers gebruiken :term:`HID` signalen. Veel DJ's geven er de voorkeur aan om DJ-software te bedienen met behulp van fysieke knoppen, faders en jog-wielen op controllers in plaats van met een computertoetsenbord en muis."
 
 #: ../../glossary.rst:11
 msgid "crossfader"
-msgstr ""
+msgstr "crossfader"
 
 #: ../../glossary.rst:13
 msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
-msgstr ""
+msgstr "De crossfader is een schuifregelaar die bepaalt hoeveel audio elk deck bijdraagt aan de :term:`master output`."
 
 #: ../../glossary.rst:359
 msgid "cue"
-msgstr ""
+msgstr "cue"
 
 #: ../../glossary.rst:361
 msgid ""
 "A Cue or Cue point is a reference point in the track usually placed on the "
 "position the DJ wants the track to start at by default. This is useful to "
 "instantly jump to that point without seeking through the track."
-msgstr ""
+msgstr "Een Cue of Cue-punt is een referentiepunt in de track dat doorgaans op die positie wordt geplaatst waar de DJ de track standaard wil laten beginnen. Dit is handig om direct naar dat punt te springen zonder de track te hoeven doorzoeken."
 
 #: ../../glossary.rst:300
 msgid "cue sheet"
-msgstr ""
+msgstr "cue sheet"
 
 #: ../../glossary.rst:302
 msgid ""
@@ -261,32 +262,32 @@ msgid ""
 "which is used to provide index information for a large audio file. For "
 "example, it can be used to tell software extra details about the layout of a"
 " CD to burn."
-msgstr ""
+msgstr "Een cue sheet (of CUE-bestand, CUE-sheet, enz.) is een geformatteerd tekstbestand dat wordt gebruikt om indexinformatie te verstrekken voor een groot audiobestand. Het kan bijvoorbeeld worden gebruikt om software extra details te geven over de lay-out van een te branden CD."
 
 #: ../../glossary.rst:6
 msgid "cueing"
-msgstr ""
+msgstr "cueing"
 
 #: ../../glossary.rst:8
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
 "like to mix in your headphones. The audience will not hear what you are "
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
-msgstr ""
+msgstr "Hoofdtelefoon cueing, of gewoon cueing, is het beluisteren van het volgende nummer in je hoofdtelefoon dat je wilt mixen. Het publiek zal niet horen wat je in je hoofdtelefoon cuet. In staat zijn om te cueën is een cruciaal aspect van het DJ'en."
 
 #: ../../glossary.rst:488
 msgid "DAW"
-msgstr ""
+msgstr "DAW"
 
 #: ../../glossary.rst:490
 msgid ""
 "A digital audio workstation (DAW) is an electronic device or application "
 "software used for recording, editing and producing audio files."
-msgstr ""
+msgstr "Een digitaal audiowerkstation (DAW) is een elektronisch apparaat of toepassingssoftware die wordt gebruikt voor het opnemen, bewerken en produceren van audiobestanden."
 
 #: ../../glossary.rst:294
 msgid "db"
-msgstr ""
+msgstr "db"
 
 #: ../../glossary.rst:296
 msgid ""
@@ -294,22 +295,22 @@ msgid ""
 "Whispering is around 25 dB while unbearable sound such as a jet engine is "
 "around 160 db. Rule of thumb: A volume increase of 10 dB is perceived as "
 "twice as loud."
-msgstr ""
+msgstr "Afkorting voor decibel. Een decibel is een logaritmische meting van het geluidsniveau. Fluisteren is ongeveer 25 dB, terwijl ondraaglijk geluid zoals een straalmotor ongeveer 160 dB is. Vuistregel: een volumetoename van 10 dB wordt als dubbel zo luid ervaren."
 
 #: ../../glossary.rst:66
 msgid "deck"
-msgstr ""
+msgstr "deck"
 
 #: ../../glossary.rst:68
 msgid ""
 "A deck is like a virtual vinyl turntable. You can load a :term:`track` into "
 "it and play the track, just like you would put a record on turntable and "
 "play it."
-msgstr ""
+msgstr "Een deck is als een virtuele vinyldraaitafel. Je kunt er een :term:`track` in laden en de track afspelen, net zoals je een plaat op een platenspeler zou zetten en afspelen."
 
 #: ../../glossary.rst:351
 msgid "direct monitoring"
-msgstr ""
+msgstr "direct monitoring"
 
 #: ../../glossary.rst:353
 msgid ""
@@ -319,11 +320,11 @@ msgid ""
 "in hardware with the output signal from Mixxx. This bypasses the latency of "
 "sending the signal into the computer for Mixxx to process and sending it "
 "back out to the soundcard."
-msgstr ""
+msgstr "Een kenmerk van velen: term: `geluidskaarten` waarmee microfoons en andere ingangssignalen kunnen worden gehoord via de geluidskaartuitgangen zonder waarneembare latentie. Bij directe monitoring mengt de audio-interface het ingangssignaal in hardware met het uitgangssignaal van Mixxx. Dit omzeilt de latentie van het verzenden van het signaal naar de computer zodat Mixxx het kan verwerken en terugsturen naar de geluidskaart."
 
 #: ../../glossary.rst:386
 msgid "DRM"
-msgstr ""
+msgstr "DRM"
 
 #: ../../glossary.rst:388
 msgid ""
@@ -334,27 +335,27 @@ msgid ""
 " similar method so that the content can not be freely distributed. For "
 "information about how you can get involved in activism against DRM, see "
 "`Defective by Design <https://www.defectivebydesign.org>`_."
-msgstr ""
+msgstr "Digital Rights Management (DRM) technologieën probeert te controleren wat u wel en niet kunt doen met de media en hardware die u hebt aangeschaft. Doorgaans versleutelt een DRM-systeem de gegevens, zodat deze alleen toegankelijk zijn op een manier die door de houders van auteursrechten is toegestaan, of markeert het de inhoud met een digitaal watermerk of een soortgelijke methode, zodat de inhoud niet vrij kan worden gedistribueerd. Voor informatie over hoe je betrokken kunt raken bij activisme tegen DRM, zie `Defective by Design <https://www.defectivebydesign.org>`_."
 
 #: ../../glossary.rst:475
 msgid "EQ"
-msgstr ""
+msgstr "EQ"
 
 #: ../../glossary.rst:476
 msgid "Equalizer"
-msgstr ""
+msgstr "Equalizer"
 
 #: ../../glossary.rst:478
 msgid ""
 "An equalizer allows the sound in specified frequency bands to be amplified "
 "or reduced, in order to adjust the quality and character of the sound."
-msgstr ""
+msgstr "Met een equalizer kan het geluid in bepaalde frequentiebanden worden versterkt of gereduceerd, om zodoende de kwaliteit en het karakter van het geluid aan te passen."
 
 #: ../../glossary.rst:481
 msgid ""
 "A simple graphic equalizer consists of multiple controls for boosting or "
 "cutting bands or frequencies of sound."
-msgstr ""
+msgstr "Een eenvoudige grafische equalizer bestaat uit meerdere bedieningselementen voor het versterken of af te sluiten van banden of geluidsfrequenties."
 
 #: ../../glossary.rst:484
 msgid ""
@@ -362,11 +363,11 @@ msgid ""
 "equalizer. It can control three aspects of each frequency: level (boost or "
 "cut), the center or primary frequency, and the bandwidth or range of each "
 "frequency."
-msgstr ""
+msgstr "Een parametrische equalizer regelt meer parameters van het geluid dan een grafische equalizer. Hij kan drie aspecten van elke frequentie regelen: het niveau (boost of cut), de centrale of primaire frequentie en de bandbreedte of het bereik van elke frequentie."
 
 #: ../../glossary.rst:148
 msgid "fast-forward"
-msgstr ""
+msgstr "fast-forward"
 
 #: ../../glossary.rst:150
 msgid ""
@@ -374,22 +375,22 @@ msgid ""
 "audio software that means if you press the fast-forward button the audio "
 "will play with increased speed as long as the button is pressed. This is "
 "useful to seek through a track."
-msgstr ""
+msgstr "Om ervoor te zorgen dat iets sneller vooruitgaat dan de normale snelheid. In termen van audiosoftware betekent dit dat als u op de vooruitspoeltoets drukt, ook wel de fast-forward toets genoemd, de audio met hogere snelheid wordt afgespeeld zolang deze toets wordt ingedrukt. Dit is handig om door een track te zoeken."
 
 #: ../../glossary.rst:154
 msgid "fast-rewind"
-msgstr ""
+msgstr "fast-rewind"
 
 #: ../../glossary.rst:156
 msgid ""
 "The opposite of :term:`fast-forward`. If you press the fast-rewind button "
 "the audio will play in reverse with increased speed as long as the button is"
 " pressed."
-msgstr ""
+msgstr "Het tegenovergestelde van :term:`fast-forward`. Als u op de terugspoelknop drukt, wordt het geluid in omgekeerde richting afgespeeld met een hogere snelheid zolang de knop wordt ingedrukt."
 
 #: ../../glossary.rst:50
 msgid "file manager"
-msgstr ""
+msgstr "file manager"
 
 #: ../../glossary.rst:52
 msgid ""
@@ -397,22 +398,22 @@ msgid ""
 " they are when you need to find them again. Popular file managers for the "
 ":term:`operating systems <operating system>` Mixxx supports are Explorer on "
 "Windows, Finder on macOS and Nautilus on GNU/Linux."
-msgstr ""
+msgstr "Een computerprogramma dat de gegevensbestanden in groepen ordent en u laat zien waar ze zich bevinden wanneer u ze weer moet vinden. Populaire bestandsbeheerders voor de term:`besturingssystemen <operating system>` Mixxx-ondersteuning zijn Explorer op Windows, Finder op macOS en Nautilus op GNU/Linux."
 
 #: ../../glossary.rst:238
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../glossary.rst:240
 msgid ""
 "Free Lossless Audio Compression (FLAC), a patent-free audio compression "
 "similar to :term:`MP3` but :term:`lossless` (i.e. there is no loss in audio "
 "quality when used). FLAC files generally end with a .flac extension."
-msgstr ""
+msgstr "Free Lossless Audio Compression (FLAC), een patentvrije audiocompressie vergelijkbaar met :term:`MP3` maar :term:`lossless` (d.w.z. er is geen verlies in audiokwaliteit bij gebruik). FLAC-bestanden eindigen meestal met een .flac-extensie."
 
 #: ../../glossary.rst:374
 msgid "flanger"
-msgstr ""
+msgstr "flanger"
 
 #: ../../glossary.rst:376
 msgid ""
@@ -420,11 +421,11 @@ msgid ""
 "itself which leads to interferences in the signal and creates a comb-filter "
 "effect. By routing the output of the effect back into the input (feedback), "
 "the effect is enhanced."
-msgstr ""
+msgstr "Een flanger is een effect dat het ingangssignaal vermengt met een vertraagde kopie van zichzelf, wat leidt tot interferenties in het signaal en een kamfiltereffect creëert. Door de uitvoer van het effect terug te leiden naar de invoer (feedback), wordt het effect versterkt."
 
 #: ../../glossary.rst:442
 msgid "GUI"
-msgstr ""
+msgstr "GUI"
 
 #: ../../glossary.rst:444
 msgid ""
@@ -432,11 +433,11 @@ msgid ""
 " a user interface based on graphics (icons, pictures and menus) instead of "
 "text. In Mixxx, it uses a mouse, keyboard, or :term:`MIDI` / :term:`HID` "
 ":term:`controllers <controller>` as input devices."
-msgstr ""
+msgstr "Afkorting van “Graphical User Interface” en wordt uitgesproken als \"goewi\". Het verwijst naar een gebruikersinterface op basis van afbeeldingen (pictogrammen, illustraties en menu's) in plaats van tekst. In Mixxx gebruikt het een muis, toetsenbord of: term: `MIDI` /: term:` HID`: term: `controllers <controller>` als invoerapparaten."
 
 #: ../../glossary.rst:56
 msgid "head/mix button"
-msgstr ""
+msgstr "head/mix button"
 
 #: ../../glossary.rst:58
 msgid ""
@@ -445,29 +446,29 @@ msgid ""
 ":term:`cueing` a track, because you can test out how it sounds when mixed "
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
-msgstr ""
+msgstr "De head/mix-knop wordt gebruikt om te bepalen hoeveel u de :term:`master output` in uw :term:`hoofdtelefoonuitgang` mengt. Dit kan zeer nuttig zijn bij het :term:`cueen` van een track, omdat je dan kunt testen hoe het klinkt als je het mixt met de hoofdmix in je koptelefoon, alvorens je het publiek de track laat horen."
 
 #: ../../glossary.rst:41
 msgid "headphone button"
-msgstr ""
+msgstr "headphone button"
 
 #: ../../glossary.rst:43
 msgid ""
 "The headphone button is used to indicate whether or not you are pre-"
 "listening to a deck or sampler in your headphones."
-msgstr ""
+msgstr "De headphone button of hoofdtelefoonknop wordt gebruikt om aan te geven of je al dan niet een deck of sampler voorbeluistert in je hoofdtelefoon."
 
 #: ../../glossary.rst:18
 msgid "headphone output"
-msgstr ""
+msgstr "headphone output"
 
 #: ../../glossary.rst:20
 msgid "The headphone output is what you hear in your headphones."
-msgstr ""
+msgstr "De headphone output of  hoofdtelefoon uitvoer is wat je hoort in je hoofdtelefoon."
 
 #: ../../glossary.rst:105
 msgid "HID"
-msgstr ""
+msgstr "HID"
 
 #: ../../glossary.rst:107
 msgid ""
@@ -475,22 +476,22 @@ msgid ""
 "specifies a device class (a type of computer hardware) for human interface "
 "devices such as keyboards, mice, game controllers, and some DJ "
 ":term:`controllers <controller>`."
-msgstr ""
+msgstr "Afkorting voor Human Interface Device, een onderdeel van de USB-specificatie. Het specificeert een apparaat-klasse (een type computer hardware) voor menselijke interface apparaten zoals toetsenborden, muizen, game controllers, en sommige DJ :term:`controllers <controller>`."
 
 #: ../../glossary.rst:364
 msgid "hotcue"
-msgstr ""
+msgstr "hotcue"
 
 #: ../../glossary.rst:366
 msgid ""
 "Similar to the main :term:`cue` point, a hotcue is a reference point in the "
 "track. DJs usually place hotcues at distinctive positions within a track "
 "such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues."
-msgstr ""
+msgstr "Vergelijkbaar met de belangrijkste :term: `cue` point, een hotcue is een referentiepunt in de track. DJ's plaatsen hotcues meestal op kenmerkende posities binnen een nummer, zoals drops, breaks of kicks en snares. Mixxx ondersteunt tot 36 hotcues."
 
 #: ../../glossary.rst:428
 msgid "HSV"
-msgstr "KVW"
+msgstr "HSV"
 
 #: ../../glossary.rst:430
 msgid ""
@@ -500,11 +501,11 @@ msgid ""
 "than”, “darker than”, and “the opposite of” are easily expressed in HSV. In "
 "contrast, the representation of the hardware-oriented :term:`RGB` model is "
 "close to what most monitors show."
-msgstr ""
+msgstr "HSV, de afkorting in de Engelse taal, staat voor Hue, Saturation en Value, in het Nederlands wordt dit dus TVW hetgeen tint, verzadiging en waarde betekenen, wordt ook vaak HSB (B voor brightness) genoemd, vertaald in het Nederlands wordt dit dan TVH, tint, verzadiing en herlderheid genoemd. Het HSV kleurenmodel vertegenwoordigt kleur op een manier die meer geschikt is voor de menselijke waarneming van kleur. Bijvoorbeeld, de relaties “sterker dan”, “donkerder dan”, en “het tegenovergestelde van” worden gemakkelijk uitgedrukt in HSV. De weergave van het hardware-georiënteerde :term:`RGB` model komt daarentegen dicht in de buurt van wat de meeste monitoren laten zien."
 
 #: ../../glossary.rst:400
 msgid "icecast"
-msgstr ""
+msgstr "icecast"
 
 #: ../../glossary.rst:402
 msgid ""
@@ -513,7 +514,7 @@ msgid ""
 "creation of Internet radio stations. Unlike :term:`Shoutcast <shoutcast>`, "
 "the software provides the ability to stream in free file formats like "
 ":term:`Ogg Vorbis` and run your own directory server."
-msgstr ""
+msgstr "Icecast is gratis en :term:`open-source` software die het mogelijk maakt om digitale audio-inhoud uit te zenden van en naar mediaspelersoftware, waardoor het mogelijk wordt om internetradiostations te creëren. In tegenstelling tot :term:`Shoutcast <shoutcast>` biedt de software de mogelijkheid om in gratis bestandsformaten zoals :term:`Ogg Vorbis` te streamen en een eigen mapserver te draaien."
 
 #: ../../glossary.rst:71
 msgid "IRC"
@@ -525,75 +526,75 @@ msgid ""
 "was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx`` "
 "channel. The channel was replaced in 2018 by the :term:`Mixxx Zulip Chat "
 "<Zulip>`."
-msgstr ""
+msgstr "Internet Relay Chat (IRC) is een online chat netwerk. Het Mixxx IRC kanaal bevond zich op het `FreeNode IRC Network <https://freenode.net>`_ in het ``#mixxx`` kanaal. Het kanaal werd in 2018 vervangen door de term: `Mixxx Zulip Chat <Zulip>`."
 
 #: ../../glossary.rst:282
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 #: ../../glossary.rst:284
 msgid ""
 "Short for kilobits per second. Here used to measure the quality of audio "
 "data. See :term:`bitrate`"
-msgstr ""
+msgstr "Afkorting voor kilobits per seconde. Hier gebruikt om de kwaliteit van audiogegevens te meten. Zie :term:`bitrate`"
 
 #: ../../glossary.rst:448
 msgid "key"
-msgstr ""
+msgstr "toonaard"
 
 #: ../../glossary.rst:450
 msgid "Short for \"musical key\" (i.e. C major)."
-msgstr ""
+msgstr "afkorting voor \"musikale toonaard\" (bv: C majeur)."
 
 #: ../../glossary.rst:35
 msgid "key lock"
-msgstr ""
+msgstr "key lock"
 
 #: ../../glossary.rst:36
 msgid "keylock"
-msgstr ""
+msgstr "keylock"
 
 #: ../../glossary.rst:38
 msgid ""
 "With key lock enabled, the tempo of the track will change but the pitch "
 "remains consistent.  When unlocked, the pitch slider will speed up (or slow "
 "down) the track and the pitch will increase (or decrease) along with it."
-msgstr ""
+msgstr "Wanneer key lock is ingeschakeld, zal het tempo van de track veranderen, maar de toonhoogte blijft consistent. Bij ontgrendeling zal de pitch slider de track versnellen (of vertragen) en de pitch zal mee toenemen (of afnemen)."
 
 #: ../../glossary.rst:184
 msgid "kill switch"
-msgstr ""
+msgstr "kill switch"
 
 #: ../../glossary.rst:186
 msgid ""
 "A button to turn on and off individual frequency ranges within a channel, "
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
-msgstr ""
+msgstr "Een knop voor het in- en uitschakelen van individuele frequentie-bereiken binnen een kanaal, bv. de hoge tonen, de midden tonen en de lage tonen. Handig voor effecten waarbij de DJ een track voor een periode wat meer gedempt speelt of ruimte creëert voor een overgang."
 
 #: ../../glossary.rst:492
 msgid "LADSPA"
-msgstr ""
+msgstr "LADSPA"
 
 #: ../../glossary.rst:494
 msgid ""
 "Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is a standard for"
 " handling audio filters and audio signal processing effects."
-msgstr ""
+msgstr "Linux Audio Developer's Simple Plugin :term:`API` (LADSPA) is een standaard voor het verwerken van audiofilters en het verwerken van audiosignaaleffecten."
 
 #: ../../glossary.rst:272
 msgid "LAME"
-msgstr ""
+msgstr "LAME"
 
 #: ../../glossary.rst:274
 msgid ""
 "LAME is a free software :term:`codec` used to encode/compress audio into the"
 " :term:`lossy` :term:`MP3` file format."
-msgstr ""
+msgstr "LAME is een gratis software :term:`codec` die gebruikt wordt om audio te coderen/comprimeren in het :term:`lossy` :term:`MP3`-bestandsformaat."
 
 #: ../../glossary.rst:178
 msgid "latency"
-msgstr ""
+msgstr "latency"
 
 #: ../../glossary.rst:180
 msgid ""
@@ -601,11 +602,11 @@ msgid ""
 " between when an audio signal enters and when it emerges from a system. "
 "Being able to lower the latency as much as possible makes a huge difference "
 "in responsiveness."
-msgstr ""
+msgstr "Latency ofwel in het nederlands latentie genoemd, verwijst naar een korte periode van vertraging (meestal gemeten in milliseconden) tussen het moment dat een audiosignaal binnenkomt en het moment dat het uit een systeem komt. De mogelijkheid om de latentie zoveel mogelijk te verlagen maakt een groot verschil in reactiesnelheid."
 
 #: ../../glossary.rst:189
 msgid "level meter"
-msgstr ""
+msgstr "geluidsniveaumeter"
 
 #: ../../glossary.rst:191
 msgid ""
@@ -614,51 +615,51 @@ msgid ""
 "parts of the music (the transients) briefly going into the yellow region. If"
 " the level meter is in the red, the signal is clipping and the gain should "
 "be turned down."
-msgstr ""
+msgstr "De geluidsniveaumeter, ook de geluidsmeter,  wordt gebruikt om het gemiddelde niveau van de audiosignalen weer te geven. Het gemiddelde niveau ligt ongeveer aan de bovenzijde van het groene gebied, waarbij de luidste delen van de muziek (de transiënten) kortstondig naar het gele gebied overgaan. Als de niveaumeter in het rood staat, wordt het signaal verknipt weergegeven en moet het volume naar beneden worden gedraaid."
 
 #: ../../glossary.rst:218
 msgid "lossless"
-msgstr ""
+msgstr "lossless"
 
 #: ../../glossary.rst:220
 msgid ""
 "Used when describing audio compression algorithms, a lossless algorithm is "
 "one which results in no loss in audio quality when used."
-msgstr ""
+msgstr "Wordt beschreven als audiocompressie-algoritmen, een lossless algoritme is er één dat resulteert in geen enkel verlies aan audiokwaliteit wanneer het gebruikt wordt."
 
 #: ../../glossary.rst:222
 msgid "lossy"
-msgstr ""
+msgstr "lossy"
 
 #: ../../glossary.rst:224
 msgid ""
 "Used when describing audio compression algorithms, a lossy algorithm is one "
 "which results in a loss in audio quality when used."
-msgstr ""
+msgstr "Wordt beschreven als audiocompressie-algoritmen, een lossy algoritme is er één dat resulteert in verlies aan audiokwaliteit wanneer het gebruikt wordt."
 
 #: ../../glossary.rst:470
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../glossary.rst:472
 msgid ""
 "macOS (originally named \"Mac OS X\" until 2012 and then \"OS X\" until "
 "2016) is the current Mac operating system that officially succeeded the "
 "classic Mac OS in 2001."
-msgstr ""
+msgstr "macOS (oorspronkelijk \"Mac OS X\" genoemd tot 2012 en daarna \"OS X\" tot 2016) is het huidige Mac-besturingssysteem dat in 2001 officieel het klassieke Mac OS heeft opgevolgd."
 
 #: ../../glossary.rst:15
 msgid "master output"
-msgstr ""
+msgstr "master output"
 
 #: ../../glossary.rst:17
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
-msgstr ""
+msgstr "De master output is de belangrijkste audio-uitgang. Het is wat je publiek hoort."
 
 #: ../../glossary.rst:136
 msgid "master sync"
-msgstr ""
+msgstr "master sync"
 
 #: ../../glossary.rst:138
 msgid ""
@@ -769,7 +770,7 @@ msgstr ""
 
 #: ../../glossary.rst:263
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: ../../glossary.rst:265
 msgid ""
