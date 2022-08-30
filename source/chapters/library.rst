@@ -60,7 +60,7 @@ Tracks - View and edit your whole collection
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_library| A sortable list of all the tracks in your music library.
+|ic_lib_tracks| A sortable list of all the tracks in your music library.
 
 **Customizing the view**
   Move columns by clicking a column header and dragging it to another
@@ -811,14 +811,14 @@ Computer - Loading tracks from anywhere on your computer
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_browse| This mode works like a file manager and allows you to load
+|ic_lib_computer| This mode works like a file manager and allows you to load
 tracks from anywhere on your computer and connected devices, that are not
 necessarily already in your Mixxx library.
 
 Click the :guilabel:`Computer` sidebar item to navigate the computer and find
 your music. Depending on your :term:`operating system`, your music will usually
 be found in the “My Music” or “Music” folder. Drag the files you want to import
-to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
+to the |ic_lib_tracks| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
 .. note:: Currently you can only drag files (not folders) to the Mixxx library.
@@ -886,7 +886,7 @@ view, then right-click on a session's name/date to access the different features
 Analyze - Prepare your tracks
 =============================
 
-This section allows you to analyze your tracks in advance of loading them into
+|ic_lib_analyze| This section allows you to analyze your tracks in advance of loading them into
 a deck. Analyzing tracks requires considerable CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`getting-started-analyze-library` for details.
