@@ -55,10 +55,13 @@ Music Library
   `#4458 <https://github.com/mixxxdj/mixxx/pull/4458>`_
   `lp:1943084 <https://bugs.launchpad.net/mixxx/+bug/1943084>`_
   `lp:1947479 <https://bugs.launchpad.net/mixxx/+bug/1947479>`_
+  `#4571 <https://github.com/mixxxdj/mixxx/pull/4571>`_
 * Browse/Recording: Disable the non-working search box `#4382 <https://github.com/mixxxdj/mixxx/pull/4382>`_
 * Search: Update Clear button when search is disabled `#4447 <https://github.com/mixxxdj/mixxx/pull/4447>`_
 * Fix reset to default of search timeout in preferences `#4504 <https://github.com/mixxxdj/mixxx/pull/4504>`_ `lp:1948690 <https://bugs.launchpad.net/mixxx/+bug/1948690>`_
 * Search: Ctrl+F in focused search box selects the entire search string `#4515 <https://github.com/mixxxdj/mixxx/pull/4515>`_
+* Search: Improve keypress handling, fix glitch in popup, strip whitespaces `#4658 <https://github.com/mixxxdj/mixxx/pull/4658>`_
+* Search: Enter jumps to track table if search query was transmitted `#4844 <https://github.com/mixxxdj/mixxx/pull/4844>`_
 * Add new "[AutoDJ],add_random_track" to make this feature accessible from controllers `#3076 <https://github.com/mixxxdj/mixxx/pull/3076>`_
 * Add new library column that shows the last time a track was played
   `#3140 <https://github.com/mixxxdj/mixxx/pull/3140>`_
@@ -84,6 +87,10 @@ Music Library
 * Update library schema to 37 for synchronizing file modified time with track source on metadata import/export
   `#3978 <https://github.com/mixxxdj/mixxx/pull/3978>`_
   `#4012 <https://github.com/mixxxdj/mixxx/pull/4012>`_
+* Track Metadata: Fix synchronization (import/export) of file tags
+  `#4628 <https://github.com/mixxxdj/mixxx/pull/4628>`_
+  `#4631 <https://github.com/mixxxdj/mixxx/pull/4631>`_
+  `#4847 <https://github.com/mixxxdj/mixxx/pull/4847>`_ `lp:1981106 <https://bugs.launchpad.net/bugs/1981106>`_
 * Logging: Suppress expected and harmless schema migration errors `#4248 <https://github.com/mixxxdj/mixxx/pull/4248>`_
 * Only show the date in Date Added / Last Played columns. Move the time of day to tooltips `#3945 <https://github.com/mixxxdj/mixxx/pull/3945>`_
 * Fix handling of undefined BPM values
@@ -100,7 +107,8 @@ Music Library
 * Fix playlists sidebar navigation/activation `#4193 <https://github.com/mixxxdj/mixxx/pull/4193>`_ `lp:1939082 <https://bugs.launchpad.net/mixxx/+bug/1939082>`_
 * Sidebar: Map Left Arrow Key to jump to parent node and activates it `#4253 <https://github.com/mixxxdj/mixxx/pull/4253>`_
 * Fix assertion when navigating history playlists `#4297 <https://github.com/mixxxdj/mixxx/pull/4297>`_ `lp:1943643 <https://bugs.launchpad.net/mixxx/+bug/1943643>`_
-* Library: Add keyboard shortcut Ctrl+Enter to open track properties `#4347 <https://github.com/mixxxdj/mixxx/pull/4347>`_
+* Track table: Add keyboard shortcut Ctrl+Enter to open track properties `#4347 <https://github.com/mixxxdj/mixxx/pull/4347>`_
+* Track table: Home/End keys jump to first/last row `#4850 <https://github.com/mixxxdj/mixxx/pull/4850>`_
 * Re-enable shortcuts after editing controls
   `#4360 <https://github.com/mixxxdj/mixxx/pull/4360>`_
   `lp:1902125 <https://bugs.launchpad.net/mixxx/+bug/1902125>`_
@@ -112,8 +120,22 @@ Music Library
   `lp:1851457 <https://bugs.launchpad.net/mixxx/+bug/1851457>`_
   `lp:1856402 <https://bugs.launchpad.net/mixxx/+bug/1856402>`_
   `lp:1944565 <https://bugs.launchpad.net/mixxx/+bug/1944565>`_
-* Remember track selection when switching library features, save model state `#4177 <https://github.com/mixxxdj/mixxx/pull/4177>`_
-* Allow to remove a track form the disk `#3212 <https://github.com/mixxxdj/mixxx/pull/3212>`_
+* Remember track selection when switching library features, save model state `#4177 <https://github.com/mixxxdj/mixxx/pull/4177>`_ `#4536 <https://github.com/mixxxdj/mixxx/pull/4536>`_
+* Allow to remove a track form the disk `#3212 <https://github.com/mixxxdj/mixxx/pull/3212>`_ `#4639 <https://github.com/mixxxdj/mixxx/pull/4639>`_
+* Fix accasional resetting of played counter in database `#4578 <https://github.com/mixxxdj/mixxx/pull/4578>`_ `lp:1955159 <https://bugs.launchpad.net/mixxx/+bug/1955159>`_
+* Recording: Fix table refresh issues `#4648 <https://github.com/mixxxdj/mixxx/pull/4648>`_
+* Add popup before deletion playlist and crates `#4697 <https://github.com/mixxxdj/mixxx/pull/4697>`_ `#4700 <https://github.com/mixxxdj/mixxx/pull/4700>`_ `lp:1912475 <https://bugs.launchpad.net/mixxx/+bug/1912475>`_
+* Experimental: Fix writing of undefined MusicBrainz Recording ID `#4694 <https://github.com/mixxxdj/mixxx/pull/4694>`_
+* Traktor library: fix importing track key `#4701 <https://github.com/mixxxdj/mixxx/pull/4701>`_
+* Add History cleanup options `#4726 <https://github.com/mixxxdj/mixxx/pull/4726>`_ `lp:1766163 <https://bugs.launchpad.net/mixxx/+bug/1766163>`_ `lp:1969217 <https://bugs.launchpad.net/mixxx/+bug/1969217>`_
+* Track Menu: Add action to select loaded track in library `#4740 <https://github.com/mixxxdj/mixxx/pull/4740>`_
+* Track Menu: Add menu for Analyze and Reanlyze `#4806 <https://github.com/mixxxdj/mixxx/pull/4806>`_
+* Track Menu: Add menu for looking up track metadata at Discogs, Soundcoud and LastFM `#4772 <https://github.com/mixxxdj/mixxx/pull/4772>`_ `#4836 <https://github.com/mixxxdj/mixxx/pull/4836>`_
+* Track Menu: Add Remove from disk and fix undeleted message and progress dialog  `#4560 <https://github.com/mixxxdj/mixxx/pull/4560>`_ `#4831 <https://github.com/mixxxdj/mixxx/pull/4831>`_ `lp:1980091 <https://bugs.launchpad.net/mixxx/+bug/1980091>`_
+* Track Menu: Allow to clear the comment field `#4722 <https://github.com/mixxxdj/mixxx/pull/4722>`_ `lp:1954589 <https://bugs.launchpad.net/mixxx/+bug/1954589>`_
+* Track Menu: Allow to reset loops and also via "[ChannelN], loop_remove" control object `#4802 <https://github.com/mixxxdj/mixxx/pull/4802>`_ `lp:1978507 <https://bugs.launchpad.net/mixxx/+bug/1978507>`_
+* Track Menu: Show 'Update ReplayGain' only in decks' menus `#4719 <https://github.com/mixxxdj/mixxx/pull/4719>`_
+* Fix exporting m3u files with tracks and special characters by using the URL format `#4752 <https://github.com/mixxxdj/mixxx/pull/4752>`_
 * Refactoring of library code
   `#2756 <https://github.com/mixxxdj/mixxx/pull/2756>`_
   `#2717 <https://github.com/mixxxdj/mixxx/pull/2717>`_
@@ -134,6 +156,8 @@ Music Library
   `#4477 <https://github.com/mixxxdj/mixxx/pull/4477>`_
   `#4475 <https://github.com/mixxxdj/mixxx/pull/4475>`_
   `#4480 <https://github.com/mixxxdj/mixxx/pull/4480>`_
+  `#4633 <https://github.com/mixxxdj/mixxx/pull/4633>`_
+  `#4837 <https://github.com/mixxxdj/mixxx/pull/4837>`_
 
 Sync
 ^^^^
@@ -162,6 +186,7 @@ Sync
   `#4389 <https://github.com/mixxxdj/mixxx/pull/4389>`_
 * Re-sync to leader after scratching `#4005 <https://github.com/mixxxdj/mixxx/pull/4005>`_
 * Fix audio artifacts when fading from or to zero `#4363 <https://github.com/mixxxdj/mixxx/pull/4363>`_
+* EngineBuffer: Fix assert when new track is loaded during playback with sync `#4682 <https://github.com/mixxxdj/mixxx/pull/4682>`_
 
 Audio Codecs
 ^^^^^^^^^^^^
@@ -172,6 +197,15 @@ Audio Codecs
 * Fix type detection of AIFF files `#4364 <https://github.com/mixxxdj/mixxx/pull/4364>`_
 * AAC encoder: Fixed a memory leak `#4386 <https://github.com/mixxxdj/mixxx/pull/4386>`_ `#4408 <https://github.com/mixxxdj/mixxx/pull/4408>`_
 * Improve robustness of file type detection by considering the actual MIME type of the content. `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`_ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`_
+* Fix file type detection when file has wrong file extension by determining the MIME type from content `#4602 <https://github.com/mixxxdj/mixxx/pull/4602>`_ `#4600 <https://github.com/mixxxdj/mixxx/pull/4600>`_
+* Fix handling of files with wrong suffix
+  `#4615 <https://github.com/mixxxdj/mixxx/pull/4615>`_
+  `lp:1445885 <https://bugs.launchpad.net/mixxx/+bug/1445885>`_
+  `lp:1955840 <https://bugs.launchpad.net/mixxx/+bug/1955840>`_
+  `#4683 <https://github.com/mixxxdj/mixxx/pull/4683>`_
+  `lp:1961623 <https://bugs.launchpad.net/mixxx/+bug/1961623>`_
+* Fix synchronization time stamps of ModPlug files `#4826 <https://github.com/mixxxdj/mixxx/pull/4826>`_ `lp:1979864 <https://bugs.launchpad.net/mixxx/+bug/1979864>`_
+* ID3v2 parsing: Improve log warnings `#4610 <https://github.com/mixxxdj/mixxx/pull/4610>`_
 
 Audio Engine
 ^^^^^^^^^^^^
@@ -226,6 +260,7 @@ Audio Engine
   `#4500 <https://github.com/mixxxdj/mixxx/pull/4500>`_
   `#4499 <https://github.com/mixxxdj/mixxx/pull/4499>`_
   `#4510 <https://github.com/mixxxdj/mixxx/pull/4510>`_
+  `#4607 <https://github.com/mixxxdj/mixxx/pull/4607>`_
 * Refactoring of audio engine code
   `#2762 <https://github.com/mixxxdj/mixxx/pull/2762>`_
   `#2801 <https://github.com/mixxxdj/mixxx/pull/2801>`_
@@ -268,6 +303,9 @@ Audio Engine
   `#4217 <https://github.com/mixxxdj/mixxx/pull/4217>`_
   `#1966 <https://github.com/mixxxdj/mixxx/pull/1966>`_
   `#4535 <https://github.com/mixxxdj/mixxx/pull/4535>`_
+  `#4770 <https://github.com/mixxxdj/mixxx/pull/4770>`_
+  `#4771 <https://github.com/mixxxdj/mixxx/pull/4771>`_
+  `#4589 <https://github.com/mixxxdj/mixxx/pull/4589>`_
 
 Controllers
 ^^^^^^^^^^^
@@ -279,18 +317,25 @@ Controllers
 * Add support for reading the status of an HID controller (like MIDI SYSEX) `#3317 <https://github.com/mixxxdj/mixxx/pull/3317>`_
 * Use hidapi's hidraw backend instead of libusb on Linux `#4054 <https://github.com/mixxxdj/mixxx/pull/4054>`_
 * Consistently use "mapping" instead of "preset" to refer to controller mappings `#3472 <https://github.com/mixxxdj/mixxx/pull/3472>`_
+* Library: Add control object ``[Library],show_track_menu`` to open/close the track menu `#4465 <https://github.com/mixxxdj/mixxx/pull/4465>`_
+* Library: Add control object ``[Library],sort_focused_column`` `#4749 <https://github.com/mixxxdj/mixxx/pull/4749>`_ `#4763 <https://github.com/mixxxdj/mixxx/pull/4763>`_ `lp:1969634 <https://bugs.launchpad.net/mixxx/+bug/1969634>`_
 * Introduce new control objects ``[Master],indicator_250millis`` and ``[Master],indicator_500millis`` `#4157 <https://github.com/mixxxdj/mixxx/pull/4157>`_
 * Introduce new control object ``[Library],clear_search`` `#4331 <https://github.com/mixxxdj/mixxx/pull/4331>`_
 * Introduce new control object ``[Library],focused_widget`` to focus library directly `#4369 <https://github.com/mixxxdj/mixxx/pull/4369>`_ `#4490 <https://github.com/mixxxdj/mixxx/pull/4490>`_
+* Serch bar: Remove ESC shortcut in favour of new ``[Library],focused_widget`` `#4571 <https://github.com/mixxxdj/mixxx/pull/4571>`_
+* Beat spinBox/AutoDJ spinbox: Enter & Esc also move focus to library `#4617 <https://github.com/mixxxdj/mixxx/pull/4617>`_ `#4845 <https://github.com/mixxxdj/mixxx/pull/4845>`_
 * Don't automatically enable controller if it was disabled before `#4244 <https://github.com/mixxxdj/mixxx/pull/4244>`_ `lp:1941042 <https://bugs.launchpad.net/mixxx/+bug/1941042>`_
 * Enable Qt logging categories for controller logging `#4523 <https://github.com/mixxxdj/mixxx/pull/4523>`_
 * Fix segfault during Mixxx shutdown due to a stale controller connection `#4476 <https://github.com/mixxxdj/mixxx/pull/4476>`_ `lp:1946581 <https://bugs.launchpad.net/mixxx/+bug/1946581>`_
 * Components JS: Fix syncbutton `#4329 <https://github.com/mixxxdj/mixxx/pull/4329>`_
 * Roland DJ-505: Make blinking lights blink in sync and other improvements `#4159 <https://github.com/mixxxdj/mixxx/pull/4159>`_ `#4517 <https://github.com/mixxxdj/mixxx/pull/4517>`_
-* Behringer DDM4000 mixer: Update controller mapping `#4262 <https://github.com/mixxxdj/mixxx/pull/4262>`_
+* Behringer DDM4000 mixer: Update controller mapping `#4262 <https://github.com/mixxxdj/mixxx/pull/4262>`_ `#4799 <https://github.com/mixxxdj/mixxx/pull/4799>`_
 * Numark DJ2GO2 Touch: Fix sampler, hotcue, beatloop buttons `#4287 <https://github.com/mixxxdj/mixxx/pull/4287>`_
 * Denon MC6000MK2: Improve mapping code `#4385 <https://github.com/mixxxdj/mixxx/pull/4385>`_
 * Yaeltex MiniMixxx: Add controller mapping `#4350 <https://github.com/mixxxdj/mixxx/pull/4350>`_
+* Added Trace for the mapping connections, to allow JS profiling `#4766 <https://github.com/mixxxdj/mixxx/pull/4766>`_
+* Fix crash when using ``midi.sendShortMsg`` and platform vnc `#4635 <https://github.com/mixxxdj/mixxx/pull/4635>`_
+* Traktor S3: Fix timedelta calculation bugs `#4646 <https://github.com/mixxxdj/mixxx/pull/4646>`_ `lp:1958925 <https://bugs.launchpad.net/mixxx/+bug/1958925>`_
 * Prepare code for upcoming ES6 based controller mapping system with module support
   `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`_
   `#2868 <https://github.com/mixxxdj/mixxx/pull/2868>`_
@@ -310,6 +355,13 @@ Controllers
   `#4524 <https://github.com/mixxxdj/mixxx/pull/4524>`_
   `#4533 <https://github.com/mixxxdj/mixxx/pull/4533>`_
   `#4521 <https://github.com/mixxxdj/mixxx/pull/4521>`_
+  `#4585 <https://github.com/mixxxdj/mixxx/pull/4585>`_
+  `#4692 <https://github.com/mixxxdj/mixxx/pull/4692>`_
+  `#4566 <https://github.com/mixxxdj/mixxx/pull/4566>`_
+  `#4599 <https://github.com/mixxxdj/mixxx/pull/4599>`_
+  `#4624 <https://github.com/mixxxdj/mixxx/pull/4624>`_
+  `#4627 <https://github.com/mixxxdj/mixxx/pull/4627>`_
+  `#4738 <https://github.com/mixxxdj/mixxx/pull/4738>`_
 
 Skins
 ^^^^^
@@ -356,6 +408,19 @@ Skins
   `#4117 <https://github.com/mixxxdj/mixxx/pull/4117>`_
   `#4327 <https://github.com/mixxxdj/mixxx/pull/4327>`_
   `#4339 <https://github.com/mixxxdj/mixxx/pull/4339>`_
+  `#4568 <https://github.com/mixxxdj/mixxx/pull/4568>`_
+  `#4576 <https://github.com/mixxxdj/mixxx/pull/4576>`_
+  `#4591 <https://github.com/mixxxdj/mixxx/pull/4591>`_
+  `#4616 <https://github.com/mixxxdj/mixxx/pull/4616>`_
+  `#4567 <https://github.com/mixxxdj/mixxx/pull/4567>`_
+  `#4629 <https://github.com/mixxxdj/mixxx/pull/4629>`_
+  `#4643 <https://github.com/mixxxdj/mixxx/pull/4643>`_
+  `#4650 <https://github.com/mixxxdj/mixxx/pull/4650>`_
+  `#4654 <https://github.com/mixxxdj/mixxx/pull/4654>`_
+  `#4673 <https://github.com/mixxxdj/mixxx/pull/4673>`_
+  `#4680 <https://github.com/mixxxdj/mixxx/pull/4680>`_
+  `#4681 <https://github.com/mixxxdj/mixxx/pull/4681>`_
+  `#4736 <https://github.com/mixxxdj/mixxx/pull/4736>`_
 * Add new "RGB Stacked" waveform `#3153 <https://github.com/mixxxdj/mixxx/pull/3153>`_
 * Add harmonic keywheel window
   `#1695 <https://github.com/mixxxdj/mixxx/pull/1695>`_
@@ -368,17 +433,27 @@ Skins
   `#3918 <https://github.com/mixxxdj/mixxx/pull/3918>`_
   `#3939 <https://github.com/mixxxdj/mixxx/pull/3939>`_
 * Fix leaked controls `#4213 <https://github.com/mixxxdj/mixxx/pull/4213>`_ `lp:1912129 <https://bugs.launchpad.net/mixxx/+bug/1912129>`_
-* Shade: remove initial setting of now accessible effect controls `#4398 <https://github.com/mixxxdj/mixxx/pull/4398>`_ `lp:1946811 <https://bugs.launchpad.net/mixxx/+bug/1946811>`_
+* Shade: Remove initial setting of now accessible effect controls `#4398 <https://github.com/mixxxdj/mixxx/pull/4398>`_ `lp:1946811 <https://bugs.launchpad.net/mixxx/+bug/1946811>`_
 * Fix switching from Shade to other skins `#4421 <https://github.com/mixxxdj/mixxx/pull/4421>`_ `lp:1946812 <https://bugs.launchpad.net/mixxx/+bug/1946812>`_
 * Use double click to reset knobs and sliders `#4509 <https://github.com/mixxxdj/mixxx/pull/4509>`_ `lp:1875999 <https://bugs.launchpad.net/mixxx/+bug/1875999>`_
 * Use info not warning for skin COs `#4525 <https://github.com/mixxxdj/mixxx/pull/4525>`_
+* LateNight: Move logo to the right `#4677 <https://github.com/mixxxdj/mixxx/pull/4677>`_
+* Spinny: Allow to toggle cover art at runtime `#4565 <https://github.com/mixxxdj/mixxx/pull/4565>`_ `lp:1883362 <https://bugs.launchpad.net/mixxx/+bug/1883362>`_
+* Add new searchbox styles `#4505 <https://github.com/mixxxdj/mixxx/pull/4505>`_
+* Add new Quick Effect selector and effect chain buttons `#4501 <https://github.com/mixxxdj/mixxx/pull/4501>`_ `#4502 <https://github.com/mixxxdj/mixxx/pull/4502>`_ `#4503 <https://github.com/mixxxdj/mixxx/pull/4503>`_ `#4590 <https://github.com/mixxxdj/mixxx/pull/4590>`_  `#4593 <https://github.com/mixxxdj/mixxx/pull/4593>`_
+* Fix crash when starting without a valid skin directory `#4575 <https://github.com/mixxxdj/mixxx/pull/4575>`_ `lp:1934560 <https://bugs.launchpad.net/mixxx/+bug/1934560>`_
+* LateNight: Use correct tooltip for key control toggle `#4696 <https://github.com/mixxxdj/mixxx/pull/4696>`_
+* LateNight: Add toggles to show loop and beatjump controls `#4713 <https://github.com/mixxxdj/mixxx/pull/[#4713](https://github.com/mixxxdj/mixxx/pull/4713>`_\ )
+* LateNight: Remove blinking play indicator from mini samplers `#4807 <https://github.com/mixxxdj/mixxx/pull/4807>`_
 
 Effects
 ^^^^^^^
 
 
 * Add a Noise effect `#2921 <https://github.com/mixxxdj/mixxx/pull/2921>`_
+* Add a pitch shift effect `#4775 <https://github.com/mixxxdj/mixxx/pull/4775>`_ `lp:1299035 <https://bugs.launchpad.net/mixxx/+bug/1299035>`_
 * Use '---' instead of 'None' for empty slots to spot them easier `#4469 <https://github.com/mixxxdj/mixxx/pull/4469>`_
+* EngineFilterDelay: clamp wrong delay values `#4869 <https://github.com/mixxxdj/mixxx/pull/4869>`_
 * Effect refactoring: Effect chain saving/loading, parameter hiding/rearrangement, effect preferences overhaul
   `#4467 <https://github.com/mixxxdj/mixxx/pull/4467>`_
   `#4431 <https://github.com/mixxxdj/mixxx/pull/4431>`_
@@ -403,6 +478,11 @@ Effects
   `#4461 <https://github.com/mixxxdj/mixxx/pull/4461>`_
   `#4548 <https://github.com/mixxxdj/mixxx/pull/4548>`_
   `#4503 <https://github.com/mixxxdj/mixxx/pull/4503>`_
+  `#4686 <https://github.com/mixxxdj/mixxx/pull/4686>`_
+  `#4691 <https://github.com/mixxxdj/mixxx/pull/4691>`_
+  `#4704 <https://github.com/mixxxdj/mixxx/pull/4704>`_
+  `#4748 <https://github.com/mixxxdj/mixxx/pull/4748>`_
+  `#4833 <https://github.com/mixxxdj/mixxx/pull/4833>`_ `lp:1980078 <https://bugs.launchpad.net/mixxx/+bug/1980078>`_
 
 Other
 ^^^^^
@@ -438,6 +518,19 @@ Other
   `#4313 <https://github.com/mixxxdj/mixxx/pull/4313>`_
   `#4226 <https://github.com/mixxxdj/mixxx/pull/4226>`_
   `#4452 <https://github.com/mixxxdj/mixxx/pull/4452>`_
+  `#4742 <https://github.com/mixxxdj/mixxx/pull/4742>`_
+  `#4741 <https://github.com/mixxxdj/mixxx/pull/4741>`_
+  `#4795 <https://github.com/mixxxdj/mixxx/pull/4795>`_
+  `#4798 <https://github.com/mixxxdj/mixxx/pull/4798>`_
+  `#4792 <https://github.com/mixxxdj/mixxx/pull/4792>`_
+  `#4829 <https://github.com/mixxxdj/mixxx/pull/4829>`_
+  `#4822 <https://github.com/mixxxdj/mixxx/pull/4822>`_
+  `#4820 <https://github.com/mixxxdj/mixxx/pull/4820>`_
+  `#4821 <https://github.com/mixxxdj/mixxx/pull/4821>`_
+  `#4818 <https://github.com/mixxxdj/mixxx/pull/4818>`_
+  `#4819 <https://github.com/mixxxdj/mixxx/pull/4819>`_
+  `#4817 <https://github.com/mixxxdj/mixxx/pull/4817>`_
+  `#4815 <https://github.com/mixxxdj/mixxx/pull/4815>`_
 * Improve pre-commit hook
   `#2796 <https://github.com/mixxxdj/mixxx/pull/2796>`_
   `#3923 <https://github.com/mixxxdj/mixxx/pull/3923>`_
@@ -452,6 +545,8 @@ Other
   `#4494 <https://github.com/mixxxdj/mixxx/pull/4494>`_
   `#4512 <https://github.com/mixxxdj/mixxx/pull/4512>`_
   `#4558 <https://github.com/mixxxdj/mixxx/pull/4558>`_
+  `#4580 <https://github.com/mixxxdj/mixxx/pull/4580>`_
+  `#4743 <https://github.com/mixxxdj/mixxx/pull/4743>`_
 * Improve Lauchpad PPA builds
   `#4277 <https://github.com/mixxxdj/mixxx/pull/4277>`_
   `#4285 <https://github.com/mixxxdj/mixxx/pull/4285>`_
@@ -461,8 +556,10 @@ Other
   `#3735 <https://github.com/mixxxdj/mixxx/pull/3735>`_
   `#3736 <https://github.com/mixxxdj/mixxx/pull/3736>`_
   `#3985 <https://github.com/mixxxdj/mixxx/pull/3985>`_
-* Drop Ubuntu Groovy support because of EOL
-  `#4283 <https://github.com/mixxxdj/mixxx/pull/4283>`_
+* Drop Ubuntu Groovy and Impish support because of EOL
+  `#4283 <https://github.com/mixxxdj/mixxx/pull/4283>`_ `#4849 <https://github.com/mixxxdj/mixxx/pull/4849>`_
+* Support Ubuntu Kinetic Kudo `#4780 <https://github.com/mixxxdj/mixxx/pull/4780>`_
+* Provide Ubuntu Jammy CI builds `#4857 <https://github.com/mixxxdj/mixxx/pull/4857>`_
 * Add NixOS support
   `#2820 <https://github.com/mixxxdj/mixxx/pull/2820>`_
   `#2828 <https://github.com/mixxxdj/mixxx/pull/2828>`_
@@ -477,10 +574,15 @@ Other
   `#4163 <https://github.com/mixxxdj/mixxx/pull/4163>`_
   `#4225 <https://github.com/mixxxdj/mixxx/pull/4225>`_
   `#4338 <https://github.com/mixxxdj/mixxx/pull/4338>`_
+  `#4709 <https://github.com/mixxxdj/mixxx/pull/4709>`_
+  `#4717 <https://github.com/mixxxdj/mixxx/pull/4717>`_
 * Devendor libraries from the mixxx lib directory
   `#4201 <https://github.com/mixxxdj/mixxx/pull/4201>`_
   `#4202 <https://github.com/mixxxdj/mixxx/pull/4202>`_
 * Update Google Benchmark library to v1.6.0 `#4540 <https://github.com/mixxxdj/mixxx/pull/4540>`_
+* Update hidapi to 0.11.2 `#4783 <https://github.com/mixxxdj/mixxx/pull/4783>`_
+* Update xwax to Version 1.8 `#4597 <https://github.com/mixxxdj/mixxx/pull/4597>`_ `lp:1956018 <https://bugs.launchpad.net/mixxx/+bug/1956018>`_
+* Update rigtorp/SPSCQueue `#4678 <https://github.com/mixxxdj/mixxx/pull/4678>`_
 * Migration to Qt6 (work in progress)
   `#4052 <https://github.com/mixxxdj/mixxx/pull/4052>`_
   `#4295 <https://github.com/mixxxdj/mixxx/pull/4295>`_
@@ -533,6 +635,7 @@ Other
   `#4419 <https://github.com/mixxxdj/mixxx/pull/4419>`_
   `#4416 <https://github.com/mixxxdj/mixxx/pull/4416>`_
   `#4418 <https://github.com/mixxxdj/mixxx/pull/4418>`_
+  `#4547 <https://github.com/mixxxdj/mixxx/pull/4547>`_
   `#4433 <https://github.com/mixxxdj/mixxx/pull/4433>`_
   `#4434 <https://github.com/mixxxdj/mixxx/pull/4434>`_
   `#4441 <https://github.com/mixxxdj/mixxx/pull/4441>`_
@@ -559,6 +662,11 @@ Other
   `#4555 <https://github.com/mixxxdj/mixxx/pull/4555>`_
   `#4552 <https://github.com/mixxxdj/mixxx/pull/4552>`_
   `#4549 <https://github.com/mixxxdj/mixxx/pull/4549>`_
+  `#4788 <https://github.com/mixxxdj/mixxx/pull/4788>`_
+  `#4620 <https://github.com/mixxxdj/mixxx/pull/4620>`_
+  `#4641 <https://github.com/mixxxdj/mixxx/pull/4641>`_
+  `#4649 <https://github.com/mixxxdj/mixxx/pull/4649>`_
+  `#4679 <https://github.com/mixxxdj/mixxx/pull/4679>`_
 * Disable QWidget based library with Qt6, support only QML skins
   `#4393 <https://github.com/mixxxdj/mixxx/pull/4393>`_
 * Made use of inclusive language
@@ -597,6 +705,16 @@ Other
 * DlgTrackInfo: Fixed a SIGSEGV after a debug assertion `#4316 <https://github.com/mixxxdj/mixxx/pull/4316>`_
 * Library Preferences: Added link to settings files info in the manual `#4367 <https://github.com/mixxxdj/mixxx/pull/4367>`_
 * Use rounded Mixxx Icon for MacOS to follow Apples style guide `#4545 <https://github.com/mixxxdj/mixxx/pull/4545>`_
+* Show native path separators in command line argument --help `#4657 <https://github.com/mixxxdj/mixxx/pull/4657>`_
+* Add 13 new translation languages `#4785 <https://github.com/mixxxdj/mixxx/pull/4785>`_ `lp:1837663 <https://bugs.launchpad.net/mixxx/+bug/1837663>`_
+* Improve Vinyl control quality indicator `#3279 <https://github.com/mixxxdj/mixxx/pull/3279>`_
+* Track info dialog: Apply pending changes also when saving via hotkey `#4562 <https://github.com/mixxxdj/mixxx/pull/4562>`_ `lp:1954346 <https://bugs.launchpad.net/mixxx/+bug/1954346>`_
+* Track info dialog: Fix crash when trying to scale 0.0 BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`_ `1955853 <https://bugs.launchpad.net/mixxx/+bug/1955853>`_
+* Tweak remove/hide track confirm message to match confirm exit message `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`_ `1947992 <https://bugs.launchpad.net/mixxx/+bug/1947992>`_
+* Implement Un-eject by pressing eject again `#4668 <https://github.com/mixxxdj/mixxx/pull/4668>`_
+* Preferences > Effects: Fix Tab key navigation / UX `#4702 <https://github.com/mixxxdj/mixxx/pull/4702>`_ `lp:1948535 <https://bugs.launchpad.net/mixxx/+bug/1948535>`_
+* Switch to C++20 `#4832 <https://github.com/mixxxdj/mixxx/pull/4832>`_ `#4803 <https://github.com/mixxxdj/mixxx/pull/4803>`_
+* Windows builds: Sign binary and installer with timestamp and sha256 `#4824 <https://github.com/mixxxdj/mixxx/pull/4824>`_ `#4825 <https://github.com/mixxxdj/mixxx/pull/4825>`_
 * Misc. refactorings
   `#3154 <https://github.com/mixxxdj/mixxx/pull/3154>`_
   `#2870 <https://github.com/mixxxdj/mixxx/pull/2870>`_
@@ -668,11 +786,73 @@ Other
   `#4527 <https://github.com/mixxxdj/mixxx/pull/4527>`_
   `#4534 <https://github.com/mixxxdj/mixxx/pull/4534>`_
   `#4537 <https://github.com/mixxxdj/mixxx/pull/4537>`_
+  `#4539 <https://github.com/mixxxdj/mixxx/pull/4539>`_
   `#4541 <https://github.com/mixxxdj/mixxx/pull/4541>`_
   `#4543 <https://github.com/mixxxdj/mixxx/pull/4543>`_
   `#4546 <https://github.com/mixxxdj/mixxx/pull/4546>`_
   `#4542 <https://github.com/mixxxdj/mixxx/pull/4542>`_
   `#4559 <https://github.com/mixxxdj/mixxx/pull/4559>`_
+  `#4574 <https://github.com/mixxxdj/mixxx/pull/4574>`_
+  `#4581 <https://github.com/mixxxdj/mixxx/pull/4581>`_
+  `#4582 <https://github.com/mixxxdj/mixxx/pull/4582>`_
+  `#4598 <https://github.com/mixxxdj/mixxx/pull/4598>`_
+  `#4596 <https://github.com/mixxxdj/mixxx/pull/4596>`_
+  `#4592 <https://github.com/mixxxdj/mixxx/pull/4592>`_
+  `#4784 <https://github.com/mixxxdj/mixxx/pull/4784>`_
+  `#4604 <https://github.com/mixxxdj/mixxx/pull/4604>`_
+  `#4603 <https://github.com/mixxxdj/mixxx/pull/4603>`_
+  `#4611 <https://github.com/mixxxdj/mixxx/pull/4611>`_
+  `#4605 <https://github.com/mixxxdj/mixxx/pull/4605>`_
+  `#4583 <https://github.com/mixxxdj/mixxx/pull/4583>`_
+  `#4636 <https://github.com/mixxxdj/mixxx/pull/4636>`_
+  `#4644 <https://github.com/mixxxdj/mixxx/pull/4644>`_
+  `#4653 <https://github.com/mixxxdj/mixxx/pull/4653>`_
+  `#4655 <https://github.com/mixxxdj/mixxx/pull/4655>`_
+  `#4609 <https://github.com/mixxxdj/mixxx/pull/4609>`_
+  `#4647 <https://github.com/mixxxdj/mixxx/pull/4647>`_
+  `#4660 <https://github.com/mixxxdj/mixxx/pull/4660>`_
+  `#4663 <https://github.com/mixxxdj/mixxx/pull/4663>`_
+  `#4661 <https://github.com/mixxxdj/mixxx/pull/4661>`_
+  `#4670 <https://github.com/mixxxdj/mixxx/pull/4670>`_
+  `#4672 <https://github.com/mixxxdj/mixxx/pull/4672>`_
+  `#4674 <https://github.com/mixxxdj/mixxx/pull/4674>`_
+  `#4618 <https://github.com/mixxxdj/mixxx/pull/4618>`_
+  `#4690 <https://github.com/mixxxdj/mixxx/pull/4690>`_
+  `#4724 <https://github.com/mixxxdj/mixxx/pull/4724>`_
+  `#4730 <https://github.com/mixxxdj/mixxx/pull/4730>`_
+  `#4731 <https://github.com/mixxxdj/mixxx/pull/4731>`_
+  `#4732 <https://github.com/mixxxdj/mixxx/pull/4732>`_
+  `#4728 <https://github.com/mixxxdj/mixxx/pull/4728>`_
+  `#4737 <https://github.com/mixxxdj/mixxx/pull/4737>`_
+  `#4739 <https://github.com/mixxxdj/mixxx/pull/4739>`_
+  `#4745 <https://github.com/mixxxdj/mixxx/pull/4745>`_
+  `#4765 <https://github.com/mixxxdj/mixxx/pull/4765>`_
+  `#4767 <https://github.com/mixxxdj/mixxx/pull/4767>`_
+  `#4797 <https://github.com/mixxxdj/mixxx/pull/4797>`_
+  `#4782 <https://github.com/mixxxdj/mixxx/pull/4782>`_
+  `#4780 <https://github.com/mixxxdj/mixxx/pull/4800>`_
+  `#4791 <https://github.com/mixxxdj/mixxx/pull/4791>`_
+  `#4848 <https://github.com/mixxxdj/mixxx/pull/4848>`_
+  `#4856 <https://github.com/mixxxdj/mixxx/pull/4856>`_
+  `#4860 <https://github.com/mixxxdj/mixxx/pull/4860>`_
+
+.. _v2-3-4:
+
+`2.3.4 <https://launchpad.net/mixxx/+milestone/2.3.4>`_ (unreleased)
+------------------------------------------------------------------------
+
+
+* Track Properties: show 'date added' as local time `#4838 <https://github.com/mixxxdj/mixxx/pull/4838>`_ `lp:1980658 <https://bugs.launchpad.net/mixxx/+bug/1980658>`_
+* Numark DJ2GO2 Touch: Fix  sliders and knobs `#4835 <https://github.com/mixxxdj/mixxx/pull/4835>`_ `lp:1948596 <https://bugs.launchpad.net/mixxx/+bug/1948596>`_
+* Potmeters: Add support for arbitrary maximums in 7-/14-bit handlers from controller scripts `#4495 <https://github.com/mixxxdj/mixxx/pull/4495>`_
+* Shade: Fix library sidebar splitter glitch `#4828 <https://github.com/mixxxdj/mixxx/pull/4828>`_ `lp:1979823 <https://bugs.launchpad.net/mixxx/+bug/1979823>`_
+* MacOS builds: Perform ad-hoc signing of macOS bundle in Pull request and personal repositories `#4774 <https://github.com/mixxxdj/mixxx/pull/4774>`_
+* Waveform: Avoid visual glitch with ranges < 1 px `#4804 <https://github.com/mixxxdj/mixxx/pull/4804>`_
+* Traktor S3: Fix issues with sampler and hotcue buttons `#4676 <https://github.com/mixxxdj/mixxx/pull/4676>`_
+* Build Mixxx on MacOS 11, replacing deprecated MacOS 10.15 `#4863 <https://github.com/mixxxdj/mixxx/pull/4863>`_
+* EQ preferences: properly restore 'One EQ for all decks' setting `#4886 <https://github.com/mixxxdj/mixxx/pull/4886>`_
+* MC7000: Fix off-by-one indexing in the controller script `#4902 <https://github.com/mixxxdj/mixxx/pull/4902>`_
+* Cover Art: Fix picking wrong cover file, when track file name contains extra dots `#4909 <https://github.com/mixxxdj/mixxx/pull/4909>`_
 
 .. _v2-3-3:
 
