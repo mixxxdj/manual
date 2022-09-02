@@ -36,6 +36,7 @@ extensions = [
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
+    "notfound.extension",
 ]
 
 todo_include_todos = True
