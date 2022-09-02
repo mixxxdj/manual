@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:18+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2021\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,22 +20,22 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
-msgstr ""
+msgstr "DJ'en met Mixxx"
 
 #: ../../chapters/djing_with_mixxx.rst:6
 msgid ""
 "Mixxx was designed to be easy to learn for both novice and experienced DJs."
-msgstr ""
+msgstr "Mixxx is ontworpen om gemakkelijk aan te leren voor zowel beginnende als ervaren DJ's."
 
 #: ../../chapters/djing_with_mixxx.rst:8
 msgid ""
 "This part of the manual provides you with directions for using Mixxx's "
 "features to create your own mixes."
-msgstr ""
+msgstr "In dit deel van de handleiding vindt u aanwijzingen voor het gebruik van de functies van Mixxx om uw eigen mixen te maken."
 
 #: ../../chapters/djing_with_mixxx.rst:14
 msgid "Setting Your Levels Properly (Gain Staging)"
-msgstr ""
+msgstr "Uw niveaus juist instellen (Gain Staging)"
 
 #: ../../chapters/djing_with_mixxx.rst:24
 msgid ""
@@ -49,7 +50,7 @@ msgid ""
 "yellow region. Use the yellow region to leave headroom, or available level "
 "above the average before the signal clips. The loudest parts of the music "
 "(the transients) should briefly go into the yellow region."
-msgstr ""
+msgstr "De juiste instelling van uw niveaus, ook gain staging genoemd, is essentieel om de beste geluidskwaliteit te krijgen uit de apparatuur die u gebruikt. Bij elke schakel in de signaalketen, van de kanaalversterkers van de Mixxx tot de eindversterker, moet het niveau ruim boven de ruisvloer liggen, maar lager dan het maximale niveau voordat het signaal vastloopt. De :term:`niveaumeters <level meter>` moeten meestal rond de top van hun groene gebied zijn. De links afgebeelde niveaumeter laat zien waar de niveaumeters van Mixxx gemiddeld moeten zijn op de luidste delen van tracks. Het gemiddelde niveau mag niet in het gele gebied liggen. Gebruik het gele gebied om speelruimte toe te laten, of beschikbaar niveau boven het gemiddelde voordat het signaal begint te verknippen. De luidste delen van de muziek (de transiënten) moeten kort in het gele gebied komen."
 
 #: ../../chapters/djing_with_mixxx.rst:41
 msgid ""
@@ -57,7 +58,7 @@ msgid ""
 "were made by adjusting the visual gain of the waveform display in Mixxx to "
 "illustrate the concepts. Adjusting the visual gain of the waveform display "
 "does not change the level of the audio."
-msgstr ""
+msgstr "Een waveform op een goed niveau. Opmerking: de waveforms voorbeelden in dit gedeelte zijn gemaakt door de visual gain van de waveform-weergave in Mixxx aan te passen om de concepten te illustreren. Het aanpassen van de visual gain van de waveform-weergave verandert het niveau van de audio niet."
 
 #: ../../chapters/djing_with_mixxx.rst:52
 msgid ""
@@ -73,11 +74,11 @@ msgid ""
 "its maximum without clipping, use more speakers or use speakers that are "
 "more sensitive and convert electrical energy into acoustic energy more "
 "efficiently."
-msgstr ""
+msgstr "**Als een niveaumeter in het rode gebied komt, is het signaal aan het clippen en moet de versterking worden verlaagd.** Sommige apparatuur heeft geen niveaumeter en heeft alleen een LED die gaat branden als het signaal clipt. Clippen betekent dat de pieken van de waveform afgevlakt worden omdat de apparatuur het maximale niveau heeft bereikt waarop het het signaal kan versterken. Dit vervormt het geluid op een onaangename manier en kan apparatuur beschadigen doordat het met meer vermogen wordt aangestuurd dan waarvoor het ontworpen is. Het verhogen van de versterking tot voorbij het punt waar clipping begint (verder in het rood op een meter) zal het signaal meer vervormen. Als u het geluid luider wilt maken wanneer elk onderdeel van de signaalketen op zijn maximum is zonder te clippen, gebruik dan meer luidsprekers of gebruik luidsprekers die gevoeliger zijn en elektrische energie efficiënter omzetten in akoestische energie."
 
 #: ../../chapters/djing_with_mixxx.rst:69
 msgid "A clipping waveform"
-msgstr ""
+msgstr "Een afgekapte of geclipte waveform"
 
 #: ../../chapters/djing_with_mixxx.rst:76
 msgid ""
@@ -96,11 +97,11 @@ msgid ""
 "have more noise than if the output of the sound card was turned up before "
 "the signal reached the mixer and the mixer's gain did not have to be turned "
 "up."
-msgstr ""
+msgstr "Anderzijds mag het signaal niet te laag zijn. Dit komt omdat elk audio-apparaat een beetje ruis produceert op een niveau dat wordt aangeduid als de ruisvloer. Bovendien nemen analoge signalen ruis op wanneer zij door draden worden geleid. Het signaal dat door de meter links wordt gemeten, ligt relatief dicht bij de ruisondergrens. Wanneer een apparaat harder wordt gezet, gaat de ruisvloer niet omhoog; alleen het signaal gaat omhoog. Telkens wanneer het signaal echter wordt versterkt door de versterking van een ander apparaat, worden zowel de ruis als het signaal van eerdere apparaten in de signaalketen versterkt. Als bijvoorbeeld uw geluidskaart zachter staat en u ter compensatie de versterking van uw mengpaneel hoger zet, zal de signaal/ruisverhouding (SNR) van de uitgang van de geluidskaart laag zijn en zal de versterking van het mengpaneel het signaal en de ruis van de geluidskaart versterken, plus de ruis die langs de kabel wordt opgepikt. Het eindresultaat zal meer ruis hebben dan wanneer de uitgang van de geluidskaart harder was gezet voordat het signaal de mixer bereikte en de versterking van de mixer niet hoger hoefde te worden gezet."
 
 #: ../../chapters/djing_with_mixxx.rst:96
 msgid "A waveform that is too close to the noise floor"
-msgstr ""
+msgstr "Een waveform die te dicht bij de ruisvloer ligt"
 
 #: ../../chapters/djing_with_mixxx.rst:98
 msgid ""
@@ -108,11 +109,11 @@ msgid ""
 "signal-to-noise ratio, the gain should be adjusted as close to the speakers "
 "as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
 " details."
-msgstr ""
+msgstr "Om het uitgangsvolume van een geluidssysteem aan te passen en toch een hoge signaal/ruisverhouding te behouden, moet de versterking zo dicht mogelijk bij de luidsprekers worden ingesteld. Raadpleeg het gedeelte :ref:`Gain Knob <interface-gain-knob>` voor meer informatie."
 
 #: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
-msgstr ""
+msgstr "Beatmatching en Mixen"
 
 #: ../../chapters/djing_with_mixxx.rst:108
 msgid ""
@@ -121,7 +122,7 @@ msgid ""
 "involves adjusting the :term:`phase` of the beats in a track so that they "
 "are aligned with the beats in the other track. Matching the :term:`tempo` "
 "and aligning the beats are the two things a DJ must do to beatmatch."
-msgstr ""
+msgstr ":term:`Beatmatching` is het proces van het aanpassen van de afspeelsnelheid van een track, zodat deze overeenkomt met het tempo van een andere track. Beatmatching omvat ook het aanpassen van de :term:`phase` van de beats in een track, zodat ze worden uitgelijnd met de beats in de andere track. Het afstemmen van het :term:`tempo` en het uitlijnen van de beats zijn de twee dingen die een DJ moet doen om te beatmatchen."
 
 #: ../../chapters/djing_with_mixxx.rst:114
 msgid ""
@@ -135,7 +136,7 @@ msgid ""
 " can also be used to momentarily adjust the playback rate, allowing you to "
 "“shuffle” the beats in a track forwards or backwards, so they can be aligned"
 " with another track. See the chapter :ref:`interface-rate`."
-msgstr ""
+msgstr "Mixxx kan het tempo aanpassen en de beats voor u uitlijnen, maar dit vereist een nauwkeurig gedetecteerde BPM-waarde en een correct beat-raster voor beide sporen. Om deze functie in te schakelen, tikt u op de :guilabel:`SYNC` knop. Om handmatig te beatmatchen, moet het tempo van de twee sporen worden gesynchroniseerd door de afspeelsnelheidschuifregelaars aan te passen. U kunt de fase van de beats aanpassen door met de rechtermuisknop te klikken en te slepen op een van de golfvormdisplays om tijdelijk een van de tracks te versnellen of te vertragen totdat de beats op één lijn liggen. De tijdelijke pitch bend knoppen kunnen ook worden gebruikt om tijdelijk de afspeelsnelheid aan te passen, zodat u de beats in een track naar voren of naar achteren kunt “shuiven”, zodat ze kunnen worden uitgelijnd met een andere track. Zie het hoofdstuk :ref:`interface-rate`."
 
 #: ../../chapters/djing_with_mixxx.rst:125
 msgid ""
@@ -147,18 +148,18 @@ msgid ""
 "weakening in intensity as the two kicks drift out of phase. When this "
 "happens, the beats can be realigned by simply tapping one of the temporary "
 "pitch bend buttons a few times in the appropriate direction."
-msgstr ""
+msgstr "Twee tracks hebben een beatmatch als hun tempo's gelijk zijn afgestemd en hun beats op elkaar zijn gealigneerd. Een \"perfecte\" beatmatch is bijna onmogelijk - er zal altijd een klein verschil zijn in de afspeelsnelheden. Een goede DJ zal zijn of haar oren openhouden en luisteren of de beats niet uit de pas lopen. Dit heeft een duidelijk “double bass kick”-geluid dat vaak wordt voorafgegaan door een verzwakking van de intensiteit van de kick naarmate de twee kicks uit fase raken. Als dit gebeurt, kunnen de beats opnieuw worden uitgelijnd door eenvoudig een paar keer op een van de tijdelijke pitchbend-knoppen in de juiste richting te tikken."
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr ""
+msgstr "Master Sync"
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
 ":term:`Master Sync` is an intelligent assistant that allows you to leave the"
 " beatmatching to Mixxx so you can focus on track selection, effects "
 "manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
-msgstr ""
+msgstr ":term:`Master Sync` is een intelligente assistent waarmee je het beatmatchen aan Mixxx kunt overlaten, zodat je je kunt concentreren op trackselectie, effectmanipulatie, looping, 4-decks mixen en andere geavanceerde dj-technieken."
 
 #: ../../chapters/djing_with_mixxx.rst:143
 msgid ""
@@ -170,7 +171,7 @@ msgid ""
 "can play, stop, eject, load, and queue any track with master sync and it "
 "won't interrupt the playback of the other decks.  However, changing the rate"
 " of a stopped deck will change the rate of playing decks."
-msgstr ""
+msgstr "Om Master Sync op een deck te activeren, druk en houd (of klik en houd) de :guilabel:`SYNC` knop ingedrukt. U weet dat Master Sync is ingeschakeld omdat de Sync-knop blijft branden. Als u de snelheid wijzigt van een deck waarvan de Sync-knop brandt, wijzigt de snelheid van alle andere decks waarvan de Sync-knop ook brandt. Het is niet nodig specifieke decks als master of volgers in te stellen. Je kunt elke track met master sync afspelen, stoppen, uitwerpen, laden en in de wachtrij zetten zonder dat het afspelen van de andere decks wordt onderbroken. Het veranderen van de snelheid van een gestopt deck zal echter wel de snelheid van de spelende decks veranderen."
 
 #: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
@@ -178,7 +179,7 @@ msgid ""
 "another track and match them correctly.  So if you want to mix a 140 BPM "
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
-msgstr ""
+msgstr "Master Sync zal ook opmerken als een van je tracks dubbel zo snel is als een andere track en ze correct op elkaar afstemmen. Dus als je een 140 BPM drum & bass track wilt mixen met een 70 BPM dubstep track, zal Master Sync ervoor zorgen dat ze op de juiste manier worden uitgelijnd."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -186,18 +187,18 @@ msgid ""
 "  If you also want to make sure your beats are perfectly in sync, turn on "
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
-msgstr ""
+msgstr "Normaal gesproken zal Master Sync er alleen voor zorgen dat de maatsnelheidsregelaars juist zijn ingesteld. Als je er ook zeker van wilt zijn dat je beats perfect synchroon lopen, schakel je de :guilabel:`QUANTIZE` knop in. Wanneer deze is geactiveerd, zorgt Quantize ervoor dat de beats ook perfect op elkaar zijn afgestemd."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"
-msgstr ""
+msgstr "Harmonisch Mixen"
 
 #: ../../chapters/djing_with_mixxx.rst:167
 msgid ""
 "Harmonic mixing is a technique to mix songs with matching melodies and "
 "harmonies. To learn more about harmonic mixing you might want to check out "
 "`the mixshare archive`_."
-msgstr ""
+msgstr "Harmonisch mixen is een techniek om liedjes met bij elkaar passende melodieën en harmonieën te mixen. Om meer te leren over harmonisch mixen zou je `the mixshare archive`_ kunnen bekijken."
 
 #: ../../chapters/djing_with_mixxx.rst:173
 msgid ""
@@ -208,18 +209,18 @@ msgid ""
 "automatically detect the key of a track and will display it in the library "
 "and the decks. The notation which is used to display a key can be changed in"
 " :ref:`Key Detection Preferences <configuration-key-detection>`."
-msgstr ""
+msgstr "Mixxx heeft twee functies om u te helpen bij het harmonisch mixen. De eerste is een: term: `key lock`. Als het actief is, heeft het veranderen van de snelheid van een track geen invloed op de toonsoort. Om: term: `key lock` in te schakelen, klik op de: guilabel:` key lock` knop in: ref: `interface-button-grid`. De tweede is dat Mixxx automatisch de toonsoort van een track kan detecteren en deze in de bibliotheek en de decks zal weergeven. De notatie die wordt gebruikt om een sleutel weer te geven, kan worden gewijzigd in: ref: `Key Detection Preferences <configuration-key-detection>`."
 
 #: ../../chapters/djing_with_mixxx.rst:184
 msgid "Recording Your Mix"
-msgstr ""
+msgstr "Je mix opnemen"
 
 #: ../../chapters/djing_with_mixxx.rst:189
 msgid ""
 "With the integrated recording feature you can record your mix as an audio "
 "file and listen to it later, distribute it as a :term:`Podcast` or burn it "
 "to CD."
-msgstr ""
+msgstr "Met de geïntegreerde opnamefunctie kunt u uw mix als audiobestand opnemen en later beluisteren, verspreiden als :term:`Podcast` of op CD branden."
 
 #: ../../chapters/djing_with_mixxx.rst:192
 msgid ""
@@ -228,11 +229,11 @@ msgid ""
 "for the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences "
 "--> Sound Hardware`. Refer to :ref:`microphones-record-broadcast-external-"
 "mixer` for details."
-msgstr ""
+msgstr "Standaard neemt Mixxx de masteruitgang op. Mixxx kan ook de uitvoer van een extern mengpaneel opnemen als u een audio-interface hebt geconfigureerd voor de :guilabel:`Record/Broadcast`-ingang in :menuselection:`Voorkeuren --> Sound Hardware`. Zie :ref:`microfoons-record-broadcast-externe-mixer` voor meer informatie."
 
 #: ../../chapters/djing_with_mixxx.rst:205
 msgid "Mixxx library - Recordings view"
-msgstr ""
+msgstr "Mixxx-bibliotheek - weergave Opnamen"
 
 #: ../../chapters/djing_with_mixxx.rst:207
 msgid ""
@@ -243,7 +244,7 @@ msgid ""
 ":file:`Mixxx/Recordings` sub-folder in the Mixxx music directory. Before you"
 " start recording, we recommend that you adjust the settings in "
 ":menuselection:`Preferences --> Recording`."
-msgstr ""
+msgstr "Mixxx kan je mix in verschillende audio formaten en kwaliteitsinstellingen opnemen. Je kunt je opnames splitsen, :term:`cue files <cue sheet>` genereren, een aangepaste opnamedirectory kiezen en zelfs je eigen :term:`metadata` instellen. Standaard slaat Mixxx uw opnamen op als loseless :term:`wav`-bestanden in een :file:`Mixxx/Opnamen`-submap in de Mixxx-muziekmap. Voordat u begint met opnemen, raden wij u aan de instellingen aan te passen in :menuselection:`Voorkeuren --> Opnamen`."
 
 #: ../../chapters/djing_with_mixxx.rst:215
 msgid ""
@@ -251,132 +252,132 @@ msgid ""
 "the track table to the right displays the content of your recordings "
 "directory. New recordings are automatically saved to this directory as well "
 "as CUE files if you choose to create them in the preferences."
-msgstr ""
+msgstr "Als u op het *Opnamen* pictogram in de zijbalk van de Mixxx-bibliotheek klikt, toont de tracktabel rechts de inhoud van uw opnamenmap. Nieuwe opnames worden automatisch opgeslagen in deze map, evenals CUE-bestanden als u ervoor kiest om ze te maken in de voorkeuren."
 
 #: ../../chapters/djing_with_mixxx.rst:220
 msgid ""
 "Recording your mixes and listening to them later to critique yourself is a "
 "great tool for improving your DJing skills. Sending your mixes to other DJs "
 "for feedback can also be helpful."
-msgstr ""
+msgstr "Het opnemen van je mixen en ze later beluisteren om jezelf te bekritiseren is een geweldig hulpmiddel om je DJ-vaardigheden te verbeteren. Je mixen doorsturen naar andere DJ's voor feedback kan ook nuttig zijn."
 
 #: ../../chapters/djing_with_mixxx.rst:225
 msgid "Record your mix to disk"
-msgstr ""
+msgstr "Uw mix opnemen op schijf"
 
 #: ../../chapters/djing_with_mixxx.rst:227
 msgid ""
 "Click on the recording icon on top of the application window to start, and "
 "stop the recording session. The duration of the running recording is "
 "displayed next to the icon."
-msgstr ""
+msgstr "Klik op het opname icoon bovenaan het applicatie venster om de opname sessie te starten en te stoppen. De duur van de lopende opname wordt naast het pictogram weergegeven."
 
 #: ../../chapters/djing_with_mixxx.rst:231
 msgid "The recording widget might not be available in some skins."
-msgstr ""
+msgstr "De opname widget is mogelijks niet beschikbaar in sommige skins."
 
 #: ../../chapters/djing_with_mixxx.rst:233
 msgid "Alternatively:"
-msgstr ""
+msgstr "Een alternatief:"
 
 #: ../../chapters/djing_with_mixxx.rst:235
 msgid ""
 "Click on the *Recordings* icon in the sidebar to switch to the "
 ":guilabel:`Recordings` view"
-msgstr ""
+msgstr "Klik op het *Opnamen* icoon in de zijbalk om naar de :guilabel:`Opnames` weergave te gaan"
 
 #: ../../chapters/djing_with_mixxx.rst:237
 msgid ""
 "Click the :guilabel:`Start Recording` button or click "
 ":menuselection:`Options --> Record Mix` in the menu on top of the Mixxx "
 "application window."
-msgstr ""
+msgstr "Klik op de :guilabel:`Start opname` knop of klik op :menuselection:`Opties --> Mix Opnemen` in het menu bovenin het Mixxx applicatie venster."
 
 #: ../../chapters/djing_with_mixxx.rst:240
 msgid ""
 "The display above the track table shows how much data has already been "
 "recorded, as well as the duration of the recording."
-msgstr ""
+msgstr "Het display boven de track-tabel laat zien hoeveel gegevens reeds zijn opgenomen, alsmede de duur van de opname."
 
 #: ../../chapters/djing_with_mixxx.rst:242
 msgid "Perform your mix"
-msgstr ""
+msgstr "Voer je mix uit"
 
 #: ../../chapters/djing_with_mixxx.rst:243
 msgid ""
 "Click the :guilabel:`Stop Recording` button to stop the recording when the "
 "mix has finished."
-msgstr ""
+msgstr "Klik op de :guilabel:`Stop Opname` knop om de opname te stoppen als de mix klaar is."
 
 #: ../../chapters/djing_with_mixxx.rst:246
 msgid ""
 "You can instantly play your recording as a track in Mixxx. Simply drag-and-"
 "drop the track to a deck."
-msgstr ""
+msgstr "Je kunt je opname direct als een track in Mixxx afspelen. Sleep de track gewoon naar een deck."
 
 #: ../../chapters/djing_with_mixxx.rst:252
 msgid "Using Auto DJ For Automatic Mixing"
-msgstr ""
+msgstr "Auto DJ gebruiken voor automatisch mixen"
 
 #: ../../chapters/djing_with_mixxx.rst:264
 msgid "Mixxx library - Auto DJ view"
-msgstr ""
+msgstr "Mixxx-bibliotheek - Auto DJ-weergave"
 
 #: ../../chapters/djing_with_mixxx.rst:266
 msgid ""
 "Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
-"when the current track is nearly finished, and crossfade into it.  See :ref"
-":`library-auto-dj`."
-msgstr ""
+"when the current track is nearly finished, and crossfade into it.  See "
+":ref:`library-auto-dj`."
+msgstr "Auto DJ maakt het mogelijk om automatisch tracks uit de Auto DJ afspeellijst te laden als de huidige track bijna afgelopen is, en er een naadloze overgang via crossfade in te maken. Zie :ref: `auto-dj-bibliotheek`"
 
 #: ../../chapters/djing_with_mixxx.rst:271
 msgid "Loading tracks into Auto DJ"
-msgstr ""
+msgstr "Tracks laden in Auto DJ"
 
 #: ../../chapters/djing_with_mixxx.rst:273
 msgid ""
 "To play tracks automatically, they must first be loaded into the Auto DJ "
 "playlist. The Auto DJ playlist is empty by default."
-msgstr ""
+msgstr "Auto DJ maakt het mogelijk om automatisch tracks uit de Auto DJ afspeellijst te laden als de huidige track bijna afgelopen is, en er crossfade in te maken. Zie :ref:`auto-dj-bibliotheek`."
 
 #: ../../chapters/djing_with_mixxx.rst:283
 msgid "Mixxx library - Adding a playlist to Auto DJ"
-msgstr ""
+msgstr "Mixxx-bibliotheek - Een afspeellijst toevoegen aan Auto DJ"
 
 #: ../../chapters/djing_with_mixxx.rst:285
 msgid "There are several ways to load tracks into the Auto DJ playlist:"
-msgstr ""
+msgstr "Er zijn verschillende manieren om tracks in de Auto DJ afspeellijst te laden:"
 
 #: ../../chapters/djing_with_mixxx.rst:287
 msgid ""
 "Select single or multiple tracks from the library, a regular playlist or "
 "crate and drag them to the Auto DJ icon on the left."
-msgstr ""
+msgstr "Selecteer een of meerdere tracks uit de bibliotheek, een gewone afspeellijst of krat en sleep ze naar het Auto DJ icoon aan de linkerkant."
 
 #: ../../chapters/djing_with_mixxx.rst:289
 msgid ""
 "Select a regular playlist or crate, right-click with the mouse and select "
 ":guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto"
 " DJ."
-msgstr ""
+msgstr "Selecteer een reguliere playlist of krat, klik met de rechtermuisknop en selecteer :guilabel:`Aan Auto DJ toevoegen` in het muismenu. Dit voegt alle tracks toe aan Auto DJ."
 
 #: ../../chapters/djing_with_mixxx.rst:291
 msgid ""
 "While in the Auto DJ view of the library, drag tracks from external file "
 "managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
 " the right."
-msgstr ""
+msgstr "In de Auto DJ-weergave van de bibliotheek kan je tracks van externe bestandsmanagers slepen naar het Auto DJ-pictogram in de zijbalk of naar de Auto DJ-tracktabel aan de rechterkant."
 
 #: ../../chapters/djing_with_mixxx.rst:298
 msgid "Using Auto DJ crates"
-msgstr ""
+msgstr "Gebruik van Auto DJ kratten"
 
 #: ../../chapters/djing_with_mixxx.rst:300
 msgid ""
 "Instead of inserting the contents of the crates directly into the Auto DJ "
 "playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
 "crates that become a source of random track selections."
-msgstr ""
+msgstr "In plaats van de inhoud van de kratten rechtstreeks in de Auto DJ-afspeellijst in te voegen, zijn :ref:`Auto DJ kratten <library-auto-dj-crates>` geassocieerde kratten die een bron van willekeurige nummerselecties worden."
 
 #: ../../chapters/djing_with_mixxx.rst:304
 msgid ""
@@ -386,13 +387,13 @@ msgid ""
 "the crate available for random selection into the :ref:`Auto DJ <library-"
 "auto-dj>` queue for automatic mixing. The name of the crate is now listed as"
 " sub-item below."
-msgstr ""
+msgstr "**Voeg een crate toe aan de Auto DJ track bronnen**: Vouw het :guilabel:`Auto DJ` item in de zijbalk open, en klik met de rechtermuisknop op het :guilabel: `Kratten` sub-item. Selecteer een van de bestaande kratten uit de lijst. Dit maakt de inhoud van de krat beschikbaar voor willekeurige selectie in de :ref:`Auto DJ <library-auto-dj>` wachtrij voor automatisch mixen. De naam van de krat wordt nu weergegeven als sub-item hieronder."
 
 #: ../../chapters/djing_with_mixxx.rst:311
 msgid ""
 "If you do not have any crates available for selection in the list, go and "
 "create a crate first and add some tracks, see :ref:`library-crates`."
-msgstr ""
+msgstr "Als er geen kratten beschikbaar zijn voor selectie in de lijst, maak dan eerst een krat aan en voeg een aantal tracks toe, zie :ref:`library-kratten`."
 
 #: ../../chapters/djing_with_mixxx.rst:314
 msgid ""
@@ -400,14 +401,14 @@ msgid ""
 ":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
 "the library. Click the :guilabel:`Add random` button to add one track at the"
 " time from Auto DJ track sources to the bottom of the Auto DJ playlist."
-msgstr ""
+msgstr "**Handmatig tracks toevoegen van trackbronnen aan Auto DJ**: Klik op het :guilabel:`Auto DJ` item in de zijbalk en schakel over naar de Auto DJ weergave van de bibliotheek. Klik op de :guilabel:`Voeg willekeurig toe` knop om één track tegelijk uit Auto DJ trackbronnen toe te voegen aan het einde van de Auto DJ afspeellijst."
 
 #: ../../chapters/djing_with_mixxx.rst:319
 msgid ""
 "If you did not set any crates as an Auto DJ track source, clicking the "
 ":guilabel:`Add Random` button will add a randomly selected track from the "
 "whole library instead."
-msgstr ""
+msgstr "Als u geen kratten hebt ingesteld als Auto DJ track bron, zal klikken op de :guilabel:`Voeg willekeurig toe` knop in plaats daarvan een willekeurig gekozen track uit de hele bibliotheek toevoegen."
 
 #: ../../chapters/djing_with_mixxx.rst:323
 msgid ""
@@ -418,13 +419,13 @@ msgid ""
 "queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` "
 "to change the minimum number of tracks after which random tracks may be "
 "added."
-msgstr ""
+msgstr "**Automatisch tracks toevoegen van trackbronnen aan Auto DJ**: Mixxx kan willekeurig tracks aan de Auto DJ-afspeellijst toevoegen vanaf trackbronnen zodra een opgegeven minimumaantal tracks overblijft. Selecteer :menuselectie:`Voorkeuren --> Auto DJ --> Willekeurige toevoeging van tracks aan wachtrij inschakelen --> Aan`. Stel :menuselection:`Minimaal toegestane tracks voor toevoeging` in om het minimum aantal tracks te wijzigen waarna willekeurige tracks mogen worden toegevoegd."
 
 #: ../../chapters/djing_with_mixxx.rst:330
 msgid ""
 "If you did not set any crates as an Auto DJ track source, tracks are "
 "selected from the whole library instead."
-msgstr ""
+msgstr "Als u geen kratten als Auto DJ-trackbron hebt ingesteld, worden in plaats daarvan tracks uit de hele bibliotheek geselecteerd."
 
 #: ../../chapters/djing_with_mixxx.rst:333
 msgid ""
@@ -433,48 +434,48 @@ msgid ""
 "crates listed below the :guilabel:`Crates` sub-item. Select "
 ":guilabel:`Remove Crate as Track Source` to remove the crate from the Auto "
 "DJ track sources."
-msgstr ""
+msgstr "**Verwijder een krat uit de Auto DJ track bronnen**: Vouw het :guilabel:`Auto DJ` item in de zijbalk uit, en klik met de rechtermuisknop op een van de kratten die onder het :guilabel: `Kratten` sub-item staan. Selecteer :guilabel:`Verwijder Krat als Trackbron` om de krat te verwijderen uit de Auto DJ trackbronnen."
 
 #: ../../chapters/djing_with_mixxx.rst:339
 msgid "Playing tracks in Auto DJ"
-msgstr ""
+msgstr "Nummers afspelen in Auto DJ"
 
 #: ../../chapters/djing_with_mixxx.rst:341
 msgid ""
 "Now that you have loaded tracks into the Auto DJ playlist, you can activate "
 "Auto DJ as follows:"
-msgstr ""
+msgstr "Nu dat je tracks in de Auto DJ-afspeellijst hebt geladen, kun je Auto DJ als volgt activeren:"
 
 #: ../../chapters/djing_with_mixxx.rst:344
 msgid ""
 "Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
 "DJ` view of the library."
-msgstr ""
+msgstr "Klik op het *Auto DJ* icoon in de zijbalk om over te schakelen naar de :guilabel:`Auto DJ` weergave van de bibliotheek."
 
 #: ../../chapters/djing_with_mixxx.rst:346
 msgid "Click the :guilabel:`Enable Auto DJ` button."
-msgstr ""
+msgstr "Klik op de :guilabel: `Schakel Auto DJ in` knop."
 
 #: ../../chapters/djing_with_mixxx.rst:347
 msgid ""
 "The first tracks from your list are loaded into the decks and the playback "
 "starts."
-msgstr ""
+msgstr "De eerste tracks van uw lijst worden in de decks geladen en het begint het afspelen."
 
 #: ../../chapters/djing_with_mixxx.rst:349
 msgid ""
 "Mixxx will continue to automatically mix until the Auto DJ playlist is "
 "empty."
-msgstr ""
+msgstr "Mixxx zal automatisch blijven mixen totdat de Auto DJ-afspeellijst leeg is."
 
 #: ../../chapters/djing_with_mixxx.rst:350
 msgid ""
 "Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing"
-msgstr ""
+msgstr "Klik op de :guilabel: `Schakel Auto DJ uit` knop om het automatisch mixen te stoppen"
 
 #: ../../chapters/djing_with_mixxx.rst:352
 msgid ""
 "You can add a track to the end of the Auto DJ playlist once it is played "
 "instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
 "queue tracks after playback --> On`."
-msgstr ""
+msgstr "U kunt een track toevoegen aan het einde van de Auto DJ afspeellijst zodra deze is afgespeeld in plaats van deze te verwijderen. Stel :menuselectie:`Voorkeuren --> Auto DJ --> Nummers opnieuw in wachtrij plaatsen na afspelen --> Aan` in."

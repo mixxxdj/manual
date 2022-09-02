@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7715/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,29 +23,38 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"
-msgstr ""
+msgstr "Voorbeeldopstellingen"
 
 #: ../../chapters/example_setups.rst:7
 msgid ""
 "This chapter presents some example hardware setups with instructions for how"
 " to configure Mixxx to work with them."
 msgstr ""
+"Dit hoofdstuk bevat enkele voorbeelden van hardware-opstellingen met "
+"instructies voor het configureren van Mixxx om met deze opstellingen te "
+"werken."
 
 #: ../../chapters/example_setups.rst:10
 msgid ""
 ":ref:`hardware`: background information about different types of equipment."
 msgstr ""
+": ref: `hardware`: achtergrondinformatie over verschillende soorten "
+"apparatuur."
 
 #: ../../chapters/example_setups.rst:12
 msgid ""
 ":ref:`getting-started-sound-io`: details about each available input and "
 "output option."
 msgstr ""
+": ref: `aan de slag-met-geluid-io`: details over elke beschikbare invoer- en"
+" uitvoeroptie."
 
 #: ../../chapters/example_setups.rst:14
 msgid ""
 ":ref:`microphones`: details for configuring Mixxx to work with microphones."
 msgstr ""
+": ref: `microfoons`: details om Mixxx te configureren om met microfoons te "
+"werken."
 
 #: ../../chapters/example_setups.rst:16
 msgid ""
@@ -50,20 +63,26 @@ msgid ""
 "devices with information about their prices, features, and compatibility "
 "with Mixxx."
 msgstr ""
+"`DJ Hardware Gids <https://mixxx.org/wiki/doku.php/hardware_compatibility>` "
+"_ geeft specifieke apparaten weer met informatie over hun prijzen, functies "
+"en compatibiliteit met Mixxx."
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
-msgstr ""
+msgstr "Enkel Computer"
 
 #: ../../chapters/example_setups.rst:25
 msgid ""
 "The built-in audio interface on most computers comes with a single stereo "
 "line-out and a microphone input. This can be set up with Mixxx in two ways:"
 msgstr ""
+"De ingebouwde audio-interface op de meeste computers wordt geleverd met een "
+"enkele stereo line-out en een microfooningang. Dit kan op twee manieren "
+"worden ingesteld met Mixxx:"
 
 #: ../../chapters/example_setups.rst:29
 msgid "Practicing Mixing / Broadcasting"
-msgstr ""
+msgstr "Oefenen op Mixen / Uitzenden"
 
 #: ../../chapters/example_setups.rst:30
 msgid ""
@@ -76,20 +95,29 @@ msgid ""
 "interface output. However, it can be used by radio DJs who only need to send"
 " the Master mix to a broadcast audience."
 msgstr ""
+"Deze opstelling kan worden gebruikt met een enkele audio-uitgang voor "
+"luidsprekers of koptelefoons om het DJ'en te oefenen zonder te investeren in"
+" andere apparatuur dan een computer en een set luidsprekers of koptelefoons."
+" Gebruik bij deze configuratie de: ref: `Pre/Main Knob <interface-head-"
+"master>` om heen en weer te schakelen tussen de Master mix en: term:` PFL` "
+"signaal. Deze opstelling kan niet worden gebruikt om voor een live publiek "
+"te spelen omdat de mastermix niet naar een audio-interface-uitgang wordt "
+"gestuurd. Het kan echter worden gebruikt door radio-dj's die de mastermix "
+"alleen willen uitzenden naar een thuispubliek."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
 #: ../../chapters/example_setups.rst:156 ../../chapters/example_setups.rst:190
 #: ../../chapters/example_setups.rst:215
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
-msgstr ""
+msgstr "Open:menuselectie:`Voorkeuren --> Geluidshardware`"
 
 #: ../../chapters/example_setups.rst:40 ../../chapters/example_setups.rst:70
 #: ../../chapters/example_setups.rst:113 ../../chapters/example_setups.rst:148
 #: ../../chapters/example_setups.rst:157 ../../chapters/example_setups.rst:191
 #: ../../chapters/example_setups.rst:216
 msgid "Select the :guilabel:`Output` tab"
-msgstr ""
+msgstr "Selecteer het tabblad :guilabel:`Output`."
 
 #: ../../chapters/example_setups.rst:41
 msgid ""
@@ -98,67 +126,84 @@ msgid ""
 ":guilabel:`Headphones`, you can also plug speakers into the output jack of "
 "your computer."
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` uw ingebouwde "
+"audio-interface en vervolgens: guilabel:` Kanalen 1-2`. Hoewel dit het label"
+" heeft: guilabel: `Hoofdtelefoons`, kunt u ook luidsprekers aansluiten op de"
+" uitgang van uw computer."
 
 #: ../../chapters/example_setups.rst:45
 msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<microphones>`"
 msgstr ""
+"Afhankelijk van uw audio-interface kunt u een: ref: `microfoon "
+"<microphones>` specificeren"
 
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
+"Gebruik je ingebouwde microfoon of sluit een microfoon aan op je computer"
 
 #: ../../chapters/example_setups.rst:49 ../../chapters/example_setups.rst:77
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
+"Controleer of uw microfoon wordt gedetecteerd door uw: term: `OS<operating "
+"system>`"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
-msgstr ""
+msgstr "Open het tabblad: guilabel: `Input`"
 
 #: ../../chapters/example_setups.rst:52 ../../chapters/example_setups.rst:80
 msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Microfoon` de ingang waarop je "
+"microfoon is aangesloten"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr ""
+msgstr "Klik: guilabel: `Toepassen` om de wijzigingen op te slaan."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
-msgstr ""
+msgstr "Spelen voor een publiek"
 
 #: ../../chapters/example_setups.rst:58
 msgid ""
 "This setup allows for playing to an audience without headphone "
 ":term:`cueing`."
 msgstr ""
+"Deze opstelling maakt het mogelijk om voor een publiek te spelen zonder "
+"hoofdtelefoon: term: `cueing`."
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
-msgstr ""
+msgstr "Mixxx gebruiken met je ingebouwde geluidskaart"
 
 #: ../../chapters/example_setups.rst:71
 msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het :guilabel:`Master` drop-down menu uw ingebouwde audio-"
+"interface en vervolgens :guilabel:`Kanalen 1-2`."
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<interface-mic>`"
 msgstr ""
+"Afhankelijk van uw audio-interface kunt u een: ref: `microfoon <interface-"
+"mic>` specificeren"
 
 #: ../../chapters/example_setups.rst:88
 msgid "Laptop and Splitter Cable"
-msgstr ""
+msgstr "Laptop- en splitterkabel"
 
 #: ../../chapters/example_setups.rst:98
 msgid ""
@@ -167,6 +212,11 @@ msgid ""
 "jack of a laptop or other computer. This cable divides the stereo output "
 "from a single jack into two separate mono signals."
 msgstr ""
+"De goedkoopste manier om te DJ'en: term: `cue` met hoofdtelefoon gebruikt "
+"een stereo-naar-mono DJ-splitterkabel (ook bekend als een “Y-kabel”) die is "
+"aangesloten op de hoofdtelefoonaansluiting van een laptop of andere "
+"computer. Deze kabel verdeelt de stereo-uitvoer van een enkele aansluiting "
+"in twee afzonderlijke mono-signalen."
 
 #: ../../chapters/example_setups.rst:103
 msgid ""
@@ -177,10 +227,19 @@ msgid ""
 " interfaces built into computers are usually low quality and often pick up "
 "interference from other components of the computer."
 msgstr ""
+"Met deze opstelling kun je beginnen met DJ'en zonder te hoeven investeren in"
+" dure apparatuur. Omdat de signalen echter in mono zijn, zullen jij en je "
+"publiek niet kunnen genieten van de door muziekproducenten audio-opbouw "
+"(hoewel veel PA-systemen van clubs sowieso in mono zijn bedraad). Bovendien "
+"zijn audio-interfaces die in computers zijn ingebouwd meestal van lage "
+"kwaliteit en vangen ze vaak interferentie op van andere componenten van de "
+"computer."
 
 #: ../../chapters/example_setups.rst:110
 msgid "**Using a built-in audio interface and a stereo-to-mono splitter**"
 msgstr ""
+"**Gebruik van een ingebouwde audio-interface en een stereo-naar-mono-"
+"splitter**."
 
 #: ../../chapters/example_setups.rst:114
 msgid ""
@@ -188,18 +247,25 @@ msgid ""
 "headphones symbol and that the speakers are plugged into the side of the "
 "cable with a speaker symbol."
 msgstr ""
+"Controleer of uw hoofdtelefoon is aangesloten aan de zijde van de kabel met "
+"een hoofdtelefoonsymbool en dat de luidsprekers zijn aangesloten aan de "
+"zijde van de kabel met een luidsprekersymbool."
 
 #: ../../chapters/example_setups.rst:117
 msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Master` uw ingebouwde audio-"
+"interface en vervolgens: guilabel:` Kanaal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` uw ingebouwde "
+"audio-interface en vervolgens: guilabel:` Kanaal 1`"
 
 #: ../../chapters/example_setups.rst:123
 msgid ""
@@ -210,18 +276,25 @@ msgid ""
 "headphones. DJ splitter cables allow you to hear the same mono signal on "
 "both sides of your headphones and speakers."
 msgstr ""
+"De meeste splitterkabels, met name die welke op de markt worden gebracht als"
+" hoofdtelefoon splitterkabels, geven hetzelfde stereosignaal af aan twee "
+"hoofdtelefoonaansluitingen en werken niet voor deze DJ-setup. Als je een "
+"algemene stereo-naar-mono-splitseradapter gebruikt, kan het zijn dat je maar"
+" aan één kant van je luidsprekers en koptelefoon kunt horen. Met DJ-"
+"splitsingskabels kunt u hetzelfde monosignaal aan beide zijden van uw "
+"koptelefoon en luidsprekers horen."
 
 #: ../../chapters/example_setups.rst:134
 msgid "Laptop and External USB Audio Interface"
-msgstr ""
+msgstr "Laptop en externe USB-audio-interface"
 
 #: ../../chapters/example_setups.rst:143
 msgid "Using Mixxx together with an external audio interface"
-msgstr ""
+msgstr "Mixxx gebruiken in combinatie met een externe audio-interface"
 
 #: ../../chapters/example_setups.rst:145
 msgid "**Using two audio interfaces (built-in + external)**"
-msgstr ""
+msgstr "**Gebruik van twee audio-interfaces (ingebouwd + extern)**"
 
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
@@ -229,90 +302,114 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Master` de externe audio-"
+"interface en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select the built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` de externe "
+"audio-interface en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:154
 msgid "**Using an external multi-channel audio interface**"
-msgstr ""
+msgstr "**Gebruik van een externe multi-kanaals audio-interface**"
 
 #: ../../chapters/example_setups.rst:160
 msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 3-4`"
 msgstr ""
+"Selecteer in het drop-down menu :guilabel:`Hoofdtelefoons` de externe audio-"
+"interface en vervolgens :guilabel:`Kanalen 3-4`"
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
-msgstr ""
+msgstr "Laptop en MIDI of HID-controller"
 
 #: ../../chapters/example_setups.rst:169
 msgid ""
 "The :ref:`hardware-controllers` section of the :ref:`hardware` chapter has "
 "background information about controllers."
 msgstr ""
+"Het gedeelte: ref: `hardware-controllers` van het hoofdstuk: ref:` hardware`"
+" bevat achtergrondinformatie over controllers."
 
 #: ../../chapters/example_setups.rst:173
 msgid "Controllers with an integrated audio interface"
-msgstr ""
+msgstr "Controllers met een geïntegreerde audio-interface"
 
 #: ../../chapters/example_setups.rst:175
 msgid ""
 "Many DJ controllers include an integrated *multi-channel* audio interface. A"
 " setup with this kind of controller may look like the diagram below:"
 msgstr ""
+"Veel DJ-controllers hebben een geïntegreerde *multi-channel* audio-"
+"interface. Een opstelling met dit soort controllers kan er uitzien als het "
+"onderstaand weergegeven schema:"
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
 msgstr ""
+"Mixxx gebruiken in combinatie met een DJ-controller en een geïntegreerde "
+"audio-interface"
 
 #: ../../chapters/example_setups.rst:188
 msgid ""
 "**Using a controller with an integrated multi-channel audio interface**"
 msgstr ""
+"**Gebruik van een controller met een geïntegreerde multi-kanaals audio-"
+"interface**"
 
 #: ../../chapters/example_setups.rst:192
 msgid ""
 "From the :guilabel:`Master` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Master` de audio-interface van "
+"je controller en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select your controller's "
 "audio interface, then :guilabel:`Channels 3-4`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` de audio-"
+"interface van je controller en vervolgens: guilabel:` Kanalen 3-4`"
 
 #: ../../chapters/example_setups.rst:199
 msgid "Controllers without an integrated audio interface"
-msgstr ""
+msgstr "Controllers zonder geïntegreerde audio-interface"
 
 #: ../../chapters/example_setups.rst:201
 msgid ""
 "Controllers without an integrated audio interface can be used together with "
 "a USB audio interface as depicted in the diagram below:"
 msgstr ""
+"Controllers zonder geïntegreerde audio-interface kunnen worden gebruikt in "
+"combinatie met een USB-audio-interface zoals weergegeven in het onderstaande"
+" diagram:"
 
 #: ../../chapters/example_setups.rst:211
 msgid "Using Mixxx together with a DJ controller and external audio interface"
 msgstr ""
+"Mixxx gebruiken in combinatie met een DJ-controller en een externe audio-"
+"interface"
 
 #: ../../chapters/example_setups.rst:213
 msgid "**Using a controller without an integrated audio interface**"
-msgstr ""
+msgstr "**Gebruik van een controller zonder geïntegreerde audio-interface**"
 
 #: ../../chapters/example_setups.rst:230
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
-msgstr ""
+msgstr "Laptop, externe hardwaremixer en vinylbesturing"
 
 #: ../../chapters/example_setups.rst:239
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr ""
+msgstr "Gebruik van Mixxx  in combinatie met draaitafels en externe mixer"
 
 #: ../../chapters/example_setups.rst:241
 msgid ""
@@ -323,7 +420,15 @@ msgid ""
 "headphones, this setup requires an audio interface with at least two pairs "
 "of stereo inputs and outputs as well as a pair of :term:`timecode` records."
 msgstr ""
+"Deze opstelling stelt DJ's in staat om de technieken van het DJ'en te "
+"gebruiken samen met vinyl platenspelers gecombineerd met de draagbaarheid en"
+" flexibiliteit van een laptopcomputer. In plaats van kratten met platen of "
+"cd's te dragen, kunnen dj's hun hele muziekcollectie op hun laptop dragen. "
+"Naast een laptop en hoofdtelefoon vereist deze opstelling een audio-"
+"interface met ten minste twee paar stereo-ingangen en -uitgangen en een "
+"paar: term: `timecode`-records."
 
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
 msgstr ""
+"Ga naar het hoofdstuk :ref:`vinyl-control` voor gedetailleerde informatie."

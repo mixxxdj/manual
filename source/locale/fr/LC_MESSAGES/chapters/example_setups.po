@@ -16,12 +16,12 @@ msgstr ""
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2020\n"
-"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7715/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"
@@ -145,32 +145,32 @@ msgstr ""
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
-"Utilisez le microphone intégré ou connectez un microphone à votre ordinateur"
+"Utiliser le microphone intégré ou connecter un microphone à votre ordinateur"
 
 #: ../../chapters/example_setups.rst:49 ../../chapters/example_setups.rst:77
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
-"Vérifiez que le microphone est détecté par votre :term:`OS <operating "
+"Vérifier que le microphone est détecté par votre :term:`OS <operating "
 "system>`"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
-msgstr "Ouvrez l'onglet :guilabel:`Entrée`"
+msgstr "Ouvrer l'onglet :guilabel:`Entrée`"
 
 #: ../../chapters/example_setups.rst:52 ../../chapters/example_setups.rst:80
 msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
-"Dans le menu déroulant :guilabel:`Microphone` , sélectionnez l'entrée à "
+"Dans le menu déroulant :guilabel:`Microphone`, sélectionner l'entrée à "
 "laquelle votre micro est connecté"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr "Cliquez sur :guilabel:`Appliquer` pour enregistrer les modifications."
+msgstr "Cliquer sur :guilabel:`Appliquer` pour enregistrer les modifications."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
@@ -181,8 +181,8 @@ msgid ""
 "This setup allows for playing to an audience without headphone "
 ":term:`cueing`."
 msgstr ""
-"Cette configuration permet de jouer pour un public sans :term:`cueing` au "
-"casque."
+"Cette configuration permet de jouer pour un public sans :term:`pré-écoute` "
+"au casque."
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
@@ -193,7 +193,7 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionnez votre interface"
+"Depuis le menu déroulant :guilabel:`Principal`, sélectionner votre interface"
 " audio interne puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:73
@@ -250,7 +250,7 @@ msgid ""
 "headphones symbol and that the speakers are plugged into the side of the "
 "cable with a speaker symbol."
 msgstr ""
-"Vérifiez que votre casque est branché dans le côté du câble avec un symbole "
+"Vérifier que votre casque est branché dans le côté du câble avec un symbole "
 "de casque et que les enceintes sont branchées dans le côté du câble avec un "
 "symbole d'enceintes."
 
@@ -283,9 +283,9 @@ msgstr ""
 "séparateurs pour casques, retranscrivent le même signal stéréo aux deux "
 "prises casque et ne fonctionneront pas pour cette configuration DJ. De même,"
 " si vous utilisez un câble séparateur stéréo vers mono générique, vous "
-"pourriez n'entendre que d'un côté dans vos enceintes ou votre casque. Les "
-"câbles séparateurs pour DJs vous permettent d'entendre le même signal mono "
-"dans les deux côtés de votre casque et de vos enceintes."
+"pourriez n'entendre que d'un côté de vos haut-parleurs et de vos écouteurs. "
+"Les câbles séparateurs pour DJs vous permettent d'entendre le même signal "
+"mono dans les deux côtés de votre casque et de vos enceintes."
 
 #: ../../chapters/example_setups.rst:134
 msgid "Laptop and External USB Audio Interface"
@@ -297,7 +297,7 @@ msgstr "Utilisation de Mixxx avec une interface audio externe"
 
 #: ../../chapters/example_setups.rst:145
 msgid "**Using two audio interfaces (built-in + external)**"
-msgstr "**Utiliser deux interfaces audio (intégrée + externe)**"
+msgstr "**Utilisation de deux interfaces audio (intégrée + externe)**"
 
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
@@ -305,7 +305,7 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Dans le menu déroulant :guilabel:`Principal`, sélectionnez l'interface audio"
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner l'interface audio"
 " externe, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
@@ -326,11 +326,11 @@ msgid ""
 "interface, then :guilabel:`Channels 3-4`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner votre interface "
-"audio externe puis :guilabel:`Canaux 1-2`"
+"audio externe puis :guilabel:`Canaux 3-4`"
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
-msgstr "Ordinateur et Contrôleur MIDI ou HID"
+msgstr "Ordinateur et contrôleur MIDI ou HID"
 
 #: ../../chapters/example_setups.rst:169
 msgid ""
@@ -356,7 +356,8 @@ msgstr ""
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
-msgstr "Utiliser Mixxx avec un contrôleur DJ et une interface audio intégrée"
+msgstr ""
+"Utilisation de Mixxx avec un contrôleur DJ et une interface audio intégrée"
 
 #: ../../chapters/example_setups.rst:188
 msgid ""
@@ -395,7 +396,8 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:211
 msgid "Using Mixxx together with a DJ controller and external audio interface"
-msgstr "Utiliser Mixxx avec un contrôleur DJ et une interface audio externe"
+msgstr ""
+"Utilisation de Mixxx avec un contrôleur DJ et une interface audio externe"
 
 #: ../../chapters/example_setups.rst:213
 msgid "**Using a controller without an integrated audio interface**"
@@ -404,11 +406,11 @@ msgstr "**Utilisation d'un contrôleur sans interface audio intégrée**"
 #: ../../chapters/example_setups.rst:230
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
 msgstr ""
-"Ordinateur Portable, Table de Mixage Matérielle Externe et Contrôleur Vinyl"
+"Ordinateur portable, table de mixage matérielle externe et contrôleur vinyle"
 
 #: ../../chapters/example_setups.rst:239
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr "Utiliser Mixxx avec des platines et une table de mixage externe"
+msgstr "Utilisation de Mixxx avec des platines et une table de mixage externe"
 
 #: ../../chapters/example_setups.rst:241
 msgid ""

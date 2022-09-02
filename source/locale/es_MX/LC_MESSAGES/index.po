@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2020, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# 
+# Translators:
+# Jay Dudson <jossaenz2@outlook.com>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx DJ manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-20 21:13-0800\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Jay Dudson <jossaenz2@outlook.com>, 2021\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../index.rst:9
+msgid "Mixxx |version| User Manual"
+msgstr "Mixxx |version| User Manual"
+
+#: ../../index.rst:11
+msgid ""
+"Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software "
+"for Windows, macOS and Linux. It's easy to use, even if you've never DJed. "
+"Mixxx offers a variety of features to help beginners get started and help "
+"experienced DJs get creative:"
+msgstr "Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software for Windows, macOS and Linux. It's easy to use, even if you've never DJed. Mixxx offers a variety of features to help beginners get started and help experienced DJs get creative:"
+
+#: ../../index.rst:16
+msgid "beat, tempo, and musical key detection"
+msgstr "beat, tempo, and musical key detection"
+
+#: ../../index.rst:17
+msgid "master sync"
+msgstr "master sync"
+
+#: ../../index.rst:18
+msgid "hotcues"
+msgstr "hotcues"
+
+#: ../../index.rst:19
+msgid "looping"
+msgstr "looping"
+
+#: ../../index.rst:20
+msgid "4 decks"
+msgstr "4 decks"
+
+#: ../../index.rst:21
+msgid "effects"
+msgstr "effects"
+
+#: ../../index.rst:23
+msgid ""
+"You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, "
+"CD players, vinyl turntables or even just your computer's keyboard and "
+"mouse."
+msgstr "You can use Mixxx to perform with :term:`MIDI` and :term:`HID` controllers, CD players, vinyl turntables or even just your computer's keyboard and mouse."
+
+#: ../../index.rst:27
+msgid "Table of Contents"
+msgstr "Table of Contents"

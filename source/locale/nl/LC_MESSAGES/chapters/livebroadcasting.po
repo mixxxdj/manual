@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:48+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:16+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2021\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,27 +20,27 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:6
 msgid "Live Broadcasting - Start your own Internet radio"
-msgstr ""
+msgstr "Live uitzenden - Begin uw eigen internetradio"
 
 #: ../../chapters/livebroadcasting.rst:11
 msgid ""
 "Live Broadcasting in Mixxx allow you to stream your mix over the Internet to"
 " listeners around the world."
-msgstr ""
+msgstr "Met live uitzending in Mixxx kun je je mix via het internet naar luisteraars over de hele wereld streamen."
 
 #: ../../chapters/livebroadcasting.rst:14
 msgid ""
 "The :ref:`microphones` chapter has detailed instructions for including input"
 " from microphones in your broadcasted mixes."
-msgstr ""
+msgstr "Het :ref:`microfoons` hoofdstuk bevat gedetailleerde instructies voor het opnemen van input van microfoons in uw uitgezonden mixen."
 
 #: ../../chapters/livebroadcasting.rst:18
 msgid "Streaming Servers"
-msgstr ""
+msgstr "Streaming-servers"
 
 #: ../../chapters/livebroadcasting.rst:45
 msgid "**Remote streaming server**"
-msgstr ""
+msgstr "**Remote streaming-server**"
 
 #: ../../chapters/livebroadcasting.rst:21
 msgid ""
@@ -51,17 +52,17 @@ msgid ""
 " <http://www.caster.fm>`_. A review of several free and paid stream hosts is"
 " available at `broadcastingworld.net "
 "<http://www.broadcastingworld.com/reviews/category-stream-hosting>`_."
-msgstr ""
+msgstr "Met Mixxx kunt u uw audiostream rechtstreeks naar: term: `Shoutcast <shoutcast>` en: term: `Icecast <icecast>` streaming servers sturen. Afhankelijk van het aantal luisteraars vereist streaming audio een aanzienlijke hoeveelheid bandbreedte. Streamingservers bieden de vereiste bandbreedte en zenden de stream uit naar uw luisteraars. Een populaire gratis streamingdienst is `Caster.fm <http://www.caster.fm>` _. Een recensie van verschillende gratis en betaalde streamhosts is beschikbaar op `broadcastingworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>` _."
 
 #: ../../chapters/livebroadcasting.rst:30
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an remote streaming "
 "server"
-msgstr ""
+msgstr "Mixxx als client-side streaming bron die uitzendt naar een externe streamingserver"
 
 #: ../../chapters/livebroadcasting.rst:76
 msgid "**Local streaming server**"
-msgstr ""
+msgstr "**Lokale streaming server**"
 
 #: ../../chapters/livebroadcasting.rst:48
 msgid ""
@@ -76,62 +77,62 @@ msgid ""
 "<http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_ or `Icecast "
 "documentation <http://www.icecast.org/docs/>`_ for server setup "
 "instructions."
-msgstr ""
+msgstr "Voor ervaren gebruikers kan het interessant zijn om een eigen lokale streamingserver op te zetten. Dit verandert je eigen computer in een radiostation en luisteraars maken rechtstreeks verbinding met je server. Mixxx als streaming bron hoeft niet op dezelfde computer te draaien als je streamingserver. Professionele stations draaien de streaming bron echter vaak op dezelfde computer als de streaming server om redenen van stabiliteit en betrouwbaarheid. Houd in gedachten dat als je audio wilt streamen naar een aanzienlijk aantal luisteraars, je voldoende bandbreedte nodig hebt. Lees de `Shoutcast documentatie <http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_ of `Icecast documentatie <http://www.icecast.org/docs/>`_ voor server setup instructies."
 
 #: ../../chapters/livebroadcasting.rst:61
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an local streaming "
 "server"
-msgstr ""
+msgstr "Mixxx als client-side streaming bron die uitzendt naar een lokale streamingserver"
 
 #: ../../chapters/livebroadcasting.rst:79
 msgid "Configuring Mixxx"
-msgstr ""
+msgstr "Mixxx configureren"
 
 #: ../../chapters/livebroadcasting.rst:81
 msgid ""
 "Start by supplying Mixxx with all information needed to establish a "
 "connection to the streaming server:"
-msgstr ""
+msgstr "Begin met Mixxx te voorzien van alle informatie die nodig is om een verbinding met de streamingserver tot stand te brengen:"
 
 #: ../../chapters/livebroadcasting.rst:84
 msgid "Open :menuselection:`Preferences --> Live Broadcasting`."
-msgstr ""
+msgstr "Open :menuselection:`Voorkeuren --> Live Uitzending`."
 
 #: ../../chapters/livebroadcasting.rst:85
 msgid ""
 "Insert the settings following the descriptions in the :ref:`live-"
 "broadcasting-preferences`"
-msgstr ""
+msgstr "Voeg de instellingen in volgens de beschrijvingen in de :ref:`voorkeuren-live-uitzenden`"
 
 #: ../../chapters/livebroadcasting.rst:87
 msgid "Click :guilabel:`OK`"
-msgstr ""
+msgstr "Klik :guilabel:`OK`"
 
 #: ../../chapters/livebroadcasting.rst:88
 msgid ""
-"Go to :menuselection:`Options --> Enable Live Broadcasting` or use the :ref"
-":`appendix-shortcuts` to start broadcasting."
-msgstr ""
+"Go to :menuselection:`Options --> Enable Live Broadcasting` or use the "
+":ref:`appendix-shortcuts` to start broadcasting."
+msgstr "Ga naar :menuselection: `Opties --> Live Uitzending Inschakelen` of gebruik de :ref:`appendix-shortcuts` om het uitzenden te starten."
 
 #: ../../chapters/livebroadcasting.rst:94
 msgid "Live Broadcasting Preferences"
-msgstr "Voorkeuren live uitzending"
+msgstr "Voorkeuren voor live uitzending"
 
 #: ../../chapters/livebroadcasting.rst:103
 msgid "Mixxx preferences - Setting up live broadcasting"
-msgstr ""
+msgstr "Mixxx-voorkeuren - Live-uitzendingen instellen"
 
 #: ../../chapters/livebroadcasting.rst:105
 msgid "**Server Connection**"
-msgstr ""
+msgstr "**Server Connectie**"
 
 #: ../../chapters/livebroadcasting.rst:107
 msgid ""
 "**Type**: Select the type of streaming server you want to connect with. "
 ":term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and "
 ":term:`Icecast 2<icecast>` servers are supported."
-msgstr ""
+msgstr "**Type**: Selecteer het type streamingserver waarmee u verbinding wilt maken. :term:`Shoutcast 1 <shoutcast>`, :term:`Icecast 1 <icecast>`, en :term:`Icecast 2 <icecast>` servers worden ondersteund."
 
 #: ../../chapters/livebroadcasting.rst:111
 msgid ""
@@ -340,8 +341,9 @@ msgid ""
 "to find out. If you want to promote your streaming radio station even more, "
 "register at services like `streamfinder.com "
 "<https://www.streamfinder.com/>`_. An overview of different internet radio "
-"directories is available at `shoutcheap.com <https://www.shoutcheap.com"
-"/internet-radio-directories-submitting-and-promoting/>`_"
+"directories is available at `shoutcheap.com "
+"<https://www.shoutcheap.com/internet-radio-directories-submitting-and-"
+"promoting/>`_"
 msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:216
@@ -408,8 +410,8 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:253
 msgid ""
-"Download LAME 3.98.4 :term:`binaries` from https://www.rarewares.org/mp3"
-"-lame-libraries.php."
+"Download LAME 3.98.4 :term:`binaries` from "
+"https://www.rarewares.org/mp3-lame-libraries.php."
 msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:256

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Arnold Marko <arnold.marko@gmail.com>, 2020
+# Yoyo62003 <zigatovornik354@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2020\n"
-"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"Last-Translator: Yoyo62003 <zigatovornik354@gmail.com>, 2020\n"
+"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7715/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,20 +31,25 @@ msgid ""
 "Mixxx has a powerful sound effects system. Understanding how it works can "
 "open you up to a wide variety of mixing techniques."
 msgstr ""
+"Mixxx ima zmogljiv sistem zvočnih učinkov. Razumevanje, kako deluje, vam "
+"lahko odpre široko paleto tehnik mešanja."
 
 #: ../../chapters/effects.rst:14
 msgid "Effect Units"
-msgstr ""
+msgstr "Enote učinkov"
 
 #: ../../chapters/effects.rst:15
 msgid ""
 "Mixxx has 4 effect units. By default, only 2 of them are shown. The other 2 "
 "effect units can be shown by toggling the setting in the skin settings menu."
 msgstr ""
+"Mixxx ima 4 enote učinka. Privzeto sta prikazani samo 2 od njih. Preostali "
+"dve enoti učinkov lahko prikažete tako da preklopite nastavitev v meniju "
+"nastavitev kože."
 
 #: ../../chapters/effects.rst:23
 msgid "An effect unit"
-msgstr ""
+msgstr "Enota učinka"
 
 #: ../../chapters/effects.rst:25
 msgid ""
@@ -52,34 +58,37 @@ msgid ""
 "depending on the order of effects within the chain. Each effect in the chain"
 " has its own button to toggle it on and off."
 msgstr ""
+"Vsaka enota učinkov lahko v verigo naloži do 3 učinke. Ti učinki se "
+"obdelujejo zaporedno. Slišali boste različne zvoke, odvisno od vrstnega reda"
+" učinkov v verigi. Vsak učinek v verigi ima svoj gumb za vklop in izklop."
 
 #: ../../chapters/effects.rst:36
 msgid "Effect units can process sound from:"
-msgstr ""
+msgstr "Efektne enote lahko obdelujejo zvok iz:"
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "predvajalnikov"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
-msgstr ""
+msgstr "mikrofonov"
 
 #: ../../chapters/effects.rst:33
 msgid "auxiliary inputs"
-msgstr ""
+msgstr "pomožnih vhodov"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "glavnih mešanic"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
-msgstr ""
+msgstr ":term:`PFL`  (slušalke) mešanica"
 
 #: ../../chapters/effects.rst:36
 msgid "left/middle/right crossfader buses"
-msgstr ""
+msgstr "levi/srednji/desni crossfader buses"
 
 #: ../../chapters/effects.rst:38
 msgid ""
@@ -88,12 +97,18 @@ msgid ""
 "skin. The buttons for routing other inputs to effect units are in different "
 "locations depending on the skin."
 msgstr ""
+"Gumbi za usmerjanje enote učinka v predvajalnike, mikrofone in pomožne vhode"
+" se nahajajo v predvajalniku, mikrofonu in pomožnih odsekih kože. Gumni za "
+"usmerjanje drugih vhodov v efektne enote so na različnih lokacijah, odvisno "
+"od kože. "
 
 #: ../../chapters/effects.rst:43
 msgid ""
 "If a channel is assigned to multiple effect units, those effect units are "
 "chained together. This allows you to chain more than 3 effects at a time."
 msgstr ""
+"Če je kanal dodeljen več enotam učinkov, so te enote učinkov povezane v "
+"verigo. To vam omogoča, da naenkrat povežete več kot 3 učinke."
 
 #: ../../chapters/effects.rst:46
 msgid ""
@@ -102,6 +117,10 @@ msgid ""
 " of all 3 effects in the unit together. Refer to the :ref:`effects-mix-mode`"
 " section below for details."
 msgstr ""
+"Mešalni gumb prilagodi mešanico med suhim signalom (vhod v enoto) in mokrim "
+"signalom (izhod zadnjega učinka v enoti). Skupaj spremeni raven vseh 3 "
+"učinkov v enoti. Za podrobnosti glejte :ref:`effects-mix-mode` v spodnjem "
+"razdelku."
 
 #: ../../chapters/effects.rst:51
 msgid ""
@@ -109,9 +128,15 @@ msgid ""
 "effects like Echo and Reverb to continue outputting sound after their input "
 "has been cut off by lowering the fader. Unlike other DJ software and "
 "hardware, effects can also be heard in headphones even though they are "
-"processed after the faders for the master output. Refer to the :ref"
-":`effects-in-headphones` section below for details."
+"processed after the faders for the master output. Refer to the "
+":ref:`effects-in-headphones` section below for details."
 msgstr ""
+"Učinki se obdelajo po krovnih faderjih in crossfaderjih. To omogoča, da "
+"učinki, kot sta Echo im Reverb, še naprej oddajajo zvok, potem, ko je njihov"
+" vhod prekinjen s spuščanjem faderja. Za razliko od druge DJ-jeve programske"
+" in strojne opreme lahko učinke slišimo tudi v slušalkah, čeprav se obdelajo"
+" po faderjih za glavni izhod. Za podrobnosti glejte :ref:`effects-in-"
+"headphones` spodnji razdelek."
 
 #: ../../chapters/effects.rst:58
 msgid ""
@@ -121,10 +146,15 @@ msgid ""
 "desired. For more background information, read `Equalizers and Phase Shift "
 "<http://ethanwiner.com/EQPhase.html>`_."
 msgstr ""
+"Upoštevajte, da učinki izenačevalnika in filtra ustvarjajo fazni premik. Če "
+"je gumb za mešanje kjer koli na sredini med suhim in mokrim in je v noti "
+"omogočen kateri koli od teh učinkov, bo filtriranje glavnika verjetno "
+"zaželeno. Za več informacij v ozadju preberite `Equalizers and Phase Shift "
+"<http://ethanwiner.com/EQPhase.html>`_."
 
 #: ../../chapters/effects.rst:65
 msgid "Effect Parameters & Metaknobs"
-msgstr ""
+msgstr "Parametri učinka in metaknobi"
 
 #: ../../chapters/effects.rst:66
 msgid ""
@@ -134,16 +164,23 @@ msgid ""
 "parameters. The metaknob allows you to easily control the effects in a unit "
 "without having to manipulate every parameter individually."
 msgstr ""
+"Vsak učinek znotraj an :ref:`Effect Unit <effects-effect-unit>` ima svoj "
+"nabor parametrov. Privzeto so te skrite. Namesto tega obstaja gumb, imenovan"
+" \"metaknob\" za učinek, ki je povezan z različnimi parametri. Metaknob vam "
+"omogoča enostavno upravljanje učinkov v enoti, ne da bi vam bilo treba "
+"posebej manipulirati z vsemi parametri."
 
 #: ../../chapters/effects.rst:72
 msgid ""
 "If you want more detailed control of effects, press the expansion button on "
 "the effect unit to reveal the effect parameters:"
 msgstr ""
+"Če želite podrobnejši nadzor učinkov, pritisnite gumb za razširitev na enoti"
+" z učinki, da odkrijete parametre učinka: "
 
 #: ../../chapters/effects.rst:80
 msgid "An effect unit with parameters showing"
-msgstr ""
+msgstr "Enota učinka s prikazanimi parametri "
 
 #: ../../chapters/effects.rst:82
 msgid ""
@@ -151,6 +188,9 @@ msgid ""
 "the buttons below the parameter knobs. The button under the parameter name "
 "controls the metaknob link mode:"
 msgstr ""
+"Kako lahko gumb metaknob povežete s parametri, lahko prilagodite s klikom na"
+" gumbe pod gumbi parametrov. Gumb pod imenom parametra nadzoruje način "
+"povezave metaknob:"
 
 #: ../../chapters/effects.rst:86
 msgid "Inactive: parameter not linked"
@@ -158,27 +198,35 @@ msgstr "Nekativno: parameter ni povezan"
 
 #: ../../chapters/effects.rst:87
 msgid "Active: parameter moves with metaknob"
-msgstr ""
+msgstr "Aktivno: parameter se premika z metaknob"
 
 #: ../../chapters/effects.rst:88
 msgid "Left side active: parameter moves with left half of metaknob turn"
 msgstr ""
+"Leva stran aktivna: parameter se premakne z levo polovico do obrata "
+"metaknoba"
 
 #: ../../chapters/effects.rst:89
 msgid "Right side active: parameter moves with right half of metaknob turn"
 msgstr ""
+"Desna stran aktivna: parameter se premakne z desno polovico do obrata "
+"metaknoba"
 
 #: ../../chapters/effects.rst:90
 msgid ""
 "Left and right side active: parameter moves across range with half of "
 "metaknob turn and back with the other half"
 msgstr ""
+"Leva in desna stran aktivna: parameter se premika po dosegu s polovico "
+"obrata metaknoba in nazaj z drugo polovico"
 
 #: ../../chapters/effects.rst:93
 msgid ""
 "The button below the metaknob link button inverts the parameter's "
 "relationship to the metaknob."
 msgstr ""
+"Gumb pod gumbom za povezavo metaknoba spremeni razmerje parametra do "
+"metaknoba."
 
 #: ../../chapters/effects.rst:96
 msgid ""
@@ -187,16 +235,22 @@ msgid ""
 "you have them enabled for the skin in :menuselection:`Preferences --> "
 "Interface`."
 msgstr ""
+"Če želite informacije o določenem učinku in njihovih parametrih, premaknite "
+"miškin kazalec nad njimi, da se prikaže namig. Če ne vidite nasvetov, "
+"preverite ali ste jih omogočili za kožo v :menuselection:`Preferences --> "
+"Interface`"
 
 #: ../../chapters/effects.rst:100
 msgid ""
 "Effects (except for Reverb) that have a length of time as a parameter are "
 "synchronized to the tempo of decks."
 msgstr ""
+"Učinki (razen Reverb), ki imajo časovno obdobje, saj se parameter "
+"sinhronizira s tempom krovov. "
 
 #: ../../chapters/effects.rst:106
 msgid "Effect Unit Mix Modes"
-msgstr ""
+msgstr "Način mešanja efektne enote"
 
 #: ../../chapters/effects.rst:107
 msgid ""
@@ -204,10 +258,13 @@ msgid ""
 "together. It can be toggled between two different modes with the mix mode "
 "button adjacent to it."
 msgstr ""
+"Gumb za mešanje efektne enote skupaj nadzoruje raven vseh 3 učnikov v enoti."
+" Preklapljate ga lahko med dvema različnima načinoma s tipko za način "
+"mešanja ob njem."
 
 #: ../../chapters/effects.rst:116
 msgid "An effect unit in Dry/Wet mode"
-msgstr ""
+msgstr "Efektna enota v načinu suho/mokro"
 
 #: ../../chapters/effects.rst:118
 msgid ""
@@ -217,10 +274,15 @@ msgid ""
 "heard from the effect unit. When the knob is fully right, only the output of"
 " the effect unit will be heard without any of the dry input signal."
 msgstr ""
+"V privzetem načinu Dry/Wet mešalni gumbi navzkrižno slabijo med suhimi "
+"signali (vhod v prvi učinek v enoti) in mokrim signalom (izhod zadnjega "
+"učinka v enoti). Ko je gumb popolnoma lev, iz enote za učinke ne bo slišati "
+"zvoka. Ko je gumb popolnoma desni, se sliši samo izhod iz enote z učinki, ne"
+" da bi prišlo do suhega vhodnega signala. "
 
 #: ../../chapters/effects.rst:129
 msgid "An effect unit in Dry+Wet mode"
-msgstr ""
+msgstr "Enota za učinke v načinu Dry + Wet"
 
 #: ../../chapters/effects.rst:131
 msgid ""
@@ -233,10 +295,18 @@ msgid ""
 " in the same order, the bass frequencies will be taken out of the echoed "
 "signal, but they will also be removed from the unechoed signal."
 msgstr ""
+"V načinu Dry + Wet je suhi signal vedno poln. Mešalni gumb nadzoruje, koliko"
+" mokrega signala se doda suhemu signalu. Koristni primer za način suhega in "
+"mokrega signala je nalaganje učinka filtra ali izenačevalnika pred učinkom "
+"Echo. S to nastavitvijo lahko filter ali izenačevalnik odstrani nizke "
+"frekvence iz odmevnega signala, ne da bi jih odstranili iz neizzvočenega "
+"signala. Če enoto z učinki preklopite v način suhega / mokrega z enakimi "
+"učinki v istem vrstnem redu, bodo nizkofrekvenčne frekvence odstranjene iz "
+"odmevnega signala, vendar bodo odstranjene tudi iz neizbranega signala. "
 
 #: ../../chapters/effects.rst:143
 msgid "Effects In Headphones"
-msgstr ""
+msgstr "Učinki v slušalkah"
 
 #: ../../chapters/effects.rst:144
 msgid ""
@@ -247,46 +317,61 @@ msgid ""
 " are processed in parallel for the headphone output (prefader) and master "
 "output (postfader)."
 msgstr ""
+"Če si želite predogledati, kako se bo skladba slišala z učinki, preden "
+"mešate skladbo, preprosto dodelite ploščo enoti z učinki in omogočite gumb "
+"za slušalke na plošči. Upoštevajte, da bo to povečalo CPE v primerjavi z "
+"dodeljevanjem enote učinka v krov brez gumba za slušalke. To je zato, ker se"
+" učinki obdelujejo vzporedno za izhod za slušalke (prefader) in glavni izhod"
+" (postfader). "
 
 #: ../../chapters/effects.rst:151
 msgid ""
 "Effects can also be previewed in headphones on decks that are playing to the"
 " audience, but this requires a few more steps:"
 msgstr ""
+"Učinke si je mogoče predogledati tudi v slušalkah na ploščah, ki se "
+"predvajajo občinstvu, vendar je zato potrebno še nekaj korakov:"
 
 #: ../../chapters/effects.rst:154
 msgid "Disable the effect unit for the deck"
-msgstr ""
+msgstr "Onemogočite enoto učinkov za krov"
 
 #: ../../chapters/effects.rst:155
 msgid "Enable the headphone button for the deck"
-msgstr ""
+msgstr "Omogočite gumb za slušalke na krovu "
 
 #: ../../chapters/effects.rst:156
 msgid "Enable the headphone button for the effect unit"
-msgstr ""
+msgstr "Omogočite gumb za slušalke za enoto z učinki"
 
 #: ../../chapters/effects.rst:157
 msgid ""
 "Enable effects and adjust their metaknobs and parameters for how you want "
 "the effects to sound."
 msgstr ""
+"Omogočite učinke in prilagodite njihove gumbe in parametre glede na to, kako"
+" želite, da učinki zvenijo."
 
 #: ../../chapters/effects.rst:159
 msgid ""
 "When you are ready to mix in the effect, turn the mix knob fully left (dry)"
 msgstr ""
+"Ko ste pripravljeni na mešanje učinka, vrtite gumb za mešanje do konca v "
+"levo (suho)"
 
 #: ../../chapters/effects.rst:160
 msgid "Enable the effect unit for the deck"
-msgstr ""
+msgstr "Omogočite enoto efektov za krov"
 
 #: ../../chapters/effects.rst:161
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
+"Obrnite gumb za mešanje v desno, da se učinki slišijo v glavnem izhodu"
 
 #: ../../chapters/effects.rst:162
 msgid ""
 "Disable the headphone button for the effect unit so you do not forget to "
 "turn it off later"
 msgstr ""
+"Onemogočite gumb za slušalke za enoto z učinki, da ga pozneje ne pozabite "
+"izklopiti"

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:48+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:14+0000\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2021\n"
 "Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:6
 msgid "An Overview of the Mixxx Interface"
-msgstr ""
+msgstr "Een overzicht van de Mixxx-interface"
 
 #: ../../chapters/user_interface.rst:8
 msgid ""
@@ -27,11 +28,11 @@ msgid ""
 "going to want to get very familiar with this interface because it is the "
 "main way to use Mixxx. In this chapter, we present the default interface of "
 "Mixxx and describe its elements, knobs and faders."
-msgstr ""
+msgstr "Welkom bij de Mixxx-interface. Hier gebeurt de magie. U zult zeer vertrouwd willen raken met deze interface omdat het de meest voorkomende manier is om Mixxx te gebruiken. In dit hoofdstuk leggen we de standaardinterface van Mixxx uit en beschrijven we de elementen, knoppen en faders."
 
 #: ../../chapters/user_interface.rst:20
 msgid "The Mixxx interface - Latenight skin"
-msgstr ""
+msgstr "De Mixxx-interface - Latenight-skin"
 
 #: ../../chapters/user_interface.rst:22
 msgid ""
@@ -39,33 +40,33 @@ msgid ""
 "There are a variety of other skins included with Mixxx. You should explore "
 "them all to figure out which one you prefer. This section will focus on "
 "Latenight only."
-msgstr ""
+msgstr "Dit is de Latenight-skin. Het is de standaard skin die bij Mixxx wordt geleverd. Er zijn verschillende andere skins die met Mixxx worden meegeleverd. U moet ze allemaal verkennen om erachter te komen welke u verkiest. Dit gedeelte zal zich enkel richten op Latenight."
 
 #: ../../chapters/user_interface.rst:29
 msgid "The Deck Sections"
-msgstr ""
+msgstr "De Spelers of Decks Secties"
 
 #: ../../chapters/user_interface.rst:42
 msgid "A deck with a track loaded"
-msgstr ""
+msgstr "Een speler of een deck met een track ingeladen"
 
 #: ../../chapters/user_interface.rst:44
 msgid ""
 "The deck section allows you to control everything relating to a virtual "
 "turntable :term:`deck`. We are going to break this down into sections."
-msgstr ""
+msgstr "Het deck gedeelte maakt het mogelijk om alles te regelen met betrekking tot een virtuele draaitafel :term:`deck`. We gaan dit opdelen in secties."
 
 #: ../../chapters/user_interface.rst:50 ../../chapters/user_interface.rst:999
 msgid "Track Information Display"
-msgstr ""
+msgstr "Track Informatie Weergave"
 
 #: ../../chapters/user_interface.rst:59
 msgid "The track information section of the deck"
-msgstr ""
+msgstr "De track info sectie van het deck"
 
 #: ../../chapters/user_interface.rst:66
 msgid "**Track Title**"
-msgstr ""
+msgstr "**Track Titel**"
 
 #: ../../chapters/user_interface.rst:62
 msgid ""
@@ -74,21 +75,21 @@ msgid ""
 "in the Mixxx library. This information is initially loaded from the track's "
 ":term:`metadata`. If the metadata is missing, the title and artist are "
 "guessed from the filename."
-msgstr ""
+msgstr "De titel van het nummer dat in een deck is geladen, wordt bovenaan weergegeven. Dit is dezelfde titel als de titel onder de kolomkop :guilabel:`Titel` in de Mixxx bibliotheek. Deze informatie wordt in eerste instantie geladen uit de :term:`metadata` van de track. Als de metadata ontbreekt, worden de titel en artiest geraden uit de bestandsnaam."
 
 #: ../../chapters/user_interface.rst:70
 msgid "**Track Artist**"
-msgstr ""
+msgstr "**Track Artiest**"
 
 #: ../../chapters/user_interface.rst:69
 msgid ""
 "The artist of the track is listed below. It is the same as listed under the "
 ":guilabel:`Artist` column heading in the Mixxx library."
-msgstr ""
+msgstr "De artiest van het nummer staat hieronder vermeld. Het is dezelfde als vermeld onder de kolomkop :guilabel:`Artiest` in de Mixxx bibliotheek."
 
 #: ../../chapters/user_interface.rst:80 ../../chapters/user_interface.rst:1007
 msgid "**BPM (Tempo)**"
-msgstr ""
+msgstr "**BPM (Tempo)**"
 
 #: ../../chapters/user_interface.rst:73
 msgid ""
@@ -96,17 +97,17 @@ msgid ""
 "is the detected :term:`BPM` of the track, adjusted for the playback rate of "
 "the track. For example, if the track is normally 100 BPM, and it is playing "
 "at +5%, then the effective BPM will read 105 BPM."
-msgstr ""
+msgstr "Het getal rechtsboven is de effectieve :term:`BPM` van het muziekstuk. Dit is de gedetecteerde :term:`BPM` van de track, aangepast voor de afspeelsnelheid van de track. Bijvoorbeeld, als de track normaal 100 BPM is, en het wordt afgespeeld op +5%, dan zal de effectieve BPM 105 BPM zijn."
 
 #: ../../chapters/user_interface.rst:78
 msgid ""
 "You can use a keyboard shortcut and tap with the beat to set the BPM to the "
 "speed you are tapping, go to :ref:`control-keyboard` for more information."
-msgstr ""
+msgstr "U kunt een sneltoets gebruiken en met de maat mee tikken om de BPM in te stellen op de snelheid waarmee u tikt, ga naar :ref:`control-keyboard` voor meer informatie."
 
 #: ../../chapters/user_interface.rst:89
 msgid "**Time Elapsed/Remaining/Both**"
-msgstr ""
+msgstr "**Tijd Verlopen/Resterend/Beide**"
 
 #: ../../chapters/user_interface.rst:83
 msgid ""
@@ -117,50 +118,50 @@ msgid ""
 "simultaneously in the format *elapsed time / remaining time*. You can change"
 " the default in :menuselection:`Preferences --> Interface --> Track Time "
 "Display`."
-msgstr ""
+msgstr "Standaard toont het de totale verstreken tijd in de track tot op de milliseconde nauwkeurig. Door op het display te klikken schakelt u over naar de *Resterende Tijd* weergave, die aangeeft hoeveel tijd er nog rest voordat de track het einde bereikt. Als u nogmaals op het display klikt, worden zowel de verstreken als de resterende tijd tegelijkertijd getoond in het formaat *verstreken tijd / resterende tijd*. U kunt de standaardinstelling wijzigen in :menuselection:`Voorkeuren --> Interface --> Tracktijdweergave`."
 
 #: ../../chapters/user_interface.rst:94
 msgid "Waveform Displays"
-msgstr ""
+msgstr "Waveform Weergaven"
 
 #: ../../chapters/user_interface.rst:100
 msgid ""
 "The waveform section of a deck allows you to visualize the audio changes "
 "that occur throughout the track, you can basically “see” your music."
-msgstr ""
+msgstr "Met het waveform-gedeelte van een deck kun je de geluidsveranderingen visualiseren die in de loop van het nummer optreden, je kunt je muziek in feite “zien”."
 
 #: ../../chapters/user_interface.rst:103
 msgid ""
 "By default the waveform displays are aligned parallel to each other in order"
 " to make :term:`beatmatching` easier, as it is possible to beatmatch "
 "visually by aligning the beats that appear in each waveform."
-msgstr ""
+msgstr "Standaard worden de waveform-weergaven parallel aan elkaar uitgelijnd om :term:`beatmatching` te vergemakkelijken, aangezien het mogelijk is om visueel te beatmatchen door de beats die in elke waveform verschijnen uit te lijnen."
 
 #: ../../chapters/user_interface.rst:114
 msgid "Mixxx default skin (Latenight) - Parallel waveforms"
-msgstr ""
+msgstr "Mixxx standaard skin (Latenight) - Parallelle waveforms"
 
 #: ../../chapters/user_interface.rst:116
 msgid ""
 "Depending on the skin, Mixxx displays either parallel waveforms (default) or"
 " separate waveforms. Select your preferred appearance in "
 ":menuselection:`Preferences --> Interface --> Skin`."
-msgstr ""
+msgstr "Afhankelijk van de skin geeft Mixxx parallelle waveforms (standaard) of afzonderlijke waveforms weer. Selecteer het gewenste uiterlijk in :menuselection:`Voorkeuren --> Interface --> Skin`."
 
 #: ../../chapters/user_interface.rst:127
 msgid "Mixxx alternative skin (Deere) - Separate waveforms"
-msgstr ""
+msgstr "Mixxx alternatieve skin (Deere) - afzonderlijke waveforms"
 
 #: ../../chapters/user_interface.rst:129
 msgid ""
 "If you have a slower computer and notice performance issues with Mixxx, try "
 "lowering the frame rate or changing the waveform type in "
 ":menuselection:`Preferences --> Interface --> Waveforms`."
-msgstr ""
+msgstr "Als u een langzamere computer hebt en prestatieproblemen met Mixxx opmerkt, probeer dan de framesnelheid te verlagen of verander het waveformtype in :menuselection:`Voorkeuren --> Interface --> Waveforms`."
 
 #: ../../chapters/user_interface.rst:143
 msgid "**Waveform summary**"
-msgstr ""
+msgstr "**Waveform samenvatting**"
 
 #: ../../chapters/user_interface.rst:134
 msgid ""
@@ -169,18 +170,18 @@ msgid ""
 " on the waveform to pause, scratch, spin-back or throw the tracks. Right-"
 "clicking on the waveforms allows you to drag with the mouse to make "
 "temporary pitch adjustments."
-msgstr ""
+msgstr "Het grote waveform overzicht toont de waveform envelope van de track in de buurt van de huidige afspeelpositie en wordt in real time bijgewerkt. De muis kan op de waveform worden gebruikt om de tracks te pauzeren, scratchen, terug te draaien of ze in te gooien. Door met de rechtermuisknop op de waveforms te klikken kunt u met de muis slepen om tijdelijke aanpassingen in de toonhoogte te maken."
 
 #: ../../chapters/user_interface.rst:140
 msgid ""
 "You can select from different types of displays for the waveform, which "
 "differ primarily in the level of detail shown in the waveform, in "
 ":menuselection:`Preferences --> Interface --> Waveforms --> Summary type`."
-msgstr ""
+msgstr "U kunt kiezen uit verschillende soorten weergaven voor de waveform, die vooral verschillen in de mate van detail die in de waveform wordt getoond, in :menuselection:`Voorkeuren --> Interface --> Waveforms --> Samenvattingstype`."
 
 #: ../../chapters/user_interface.rst:154 ../../chapters/user_interface.rst:988
 msgid "**Waveform overview**"
-msgstr ""
+msgstr "**Waveform overzicht**"
 
 #: ../../chapters/user_interface.rst:146
 msgid ""
@@ -188,7 +189,7 @@ msgid ""
 "within the track as well as the waveform envelope of the entire track. This "
 "is useful because they allow DJs to see breakdowns far in advance. As visual"
 " aid, the part of the track that has already been played is darkened."
-msgstr ""
+msgstr "De kleinere, uitgezoomde versie van de waveform toont de verschillende markers binnen de track, alsmede de waveform's envelop van de gehele track. Dit is nuttig omdat DJ's hiermee breakdowns ver van tevoren kunnen zien. Als visueel hulpmiddel wordt het gedeelte van de track dat al is afgespeeld donker gemaakt."
 
 #: ../../chapters/user_interface.rst:151
 msgid ""
@@ -196,11 +197,11 @@ msgid ""
 "position in the track. Like with the Waveform summary, you can select from "
 "different types of displays for the overview in :menuselection:`Preferences "
 "--> Interface --> Waveforms --> Overview type`."
-msgstr ""
+msgstr "Door ergens op de golfvorm te klikken kunt u naar een willekeurige positie in de track springen. Net als bij het waveform-overzicht, kunt u kiezen uit verschillende soorten weergaven voor het overzicht in :menuselection:`Voorkeuren --> Interface --> Waveforms --> Overzichtstype`."
 
 #: ../../chapters/user_interface.rst:167
 msgid "**Vinyl Widget**"
-msgstr ""
+msgstr "**Vinyl Widget**"
 
 #: ../../chapters/user_interface.rst:157
 msgid ""
@@ -211,7 +212,7 @@ msgid ""
 "clicking on the vinyl during playback, a “ghost” marker hints where the "
 "playback will continue. The Vinyl Widget is hidden by default and can be "
 "enabled in the :ref:`interface-button-grid`."
-msgstr ""
+msgstr "De lijn op de vinyl widget draait als de track beweegt. Het is vergelijkbaar met de positiemarkering op scratchplaten. Gebruik de muis op de vinyl widget om te pauzeren, te scratchen, nummers terug te draaien of in te gooien - net als een echte plaat. Bij het uitvoeren van :ref:`Loop rolls <interface-looping>` of rechtsklikken op het vinyl tijdens het afspelen, geeft een “ghost” marker aan waar het afspelen zal doorgaan. De Vinyl Widget is standaard verborgen en kan worden ingeschakeld in de :ref:`interface-knop-grid`."
 
 #: ../../chapters/user_interface.rst:165
 msgid ""
@@ -219,11 +220,11 @@ msgid ""
 "coded vinyl signal quality. Activate the option in "
 ":menuselection:`Preferences --> Vinyl Control --> Show Signal Quality in "
 "Skin`."
-msgstr ""
+msgstr "Als :term:`Vinyl Control` is ingeschakeld, kan optioneel de tijdgecodeerde vinyl signaalkwaliteit worden getoond. Activeer de optie in :menuselection:`Voorkeuren --> Vinyl controle --> Toon signaalkwaliteit in skin`."
 
 #: ../../chapters/user_interface.rst:172
 msgid "**Waveform Zoom**"
-msgstr ""
+msgstr "**Waveform Zoom**"
 
 #: ../../chapters/user_interface.rst:170
 msgid ""
@@ -231,38 +232,38 @@ msgid ""
 "waveform in or out. You can choose whether to synchronize the zoom level "
 "between the decks in :menuselection:`Preferences --> Interface --> "
 "Waveforms`."
-msgstr ""
+msgstr "Door het muiswieltje overal in het waveform-overzicht te gebruiken, zoomt u de waveform in of uit. U kunt kiezen of het zoom niveau gesynchroniseerd moet worden tussen de decks in :menuselection: `Voorkeuren --> Interface --> Waveforms`."
 
 #: ../../chapters/user_interface.rst:175 ../../chapters/user_interface.rst:991
 msgid "**Waveform Marker**"
-msgstr ""
+msgstr "**Waveform Marker**"
 
 #: ../../chapters/user_interface.rst:175
 msgid "While mixing, various additional markers can appear on the waveforms:"
-msgstr ""
+msgstr "Tijdens het mixen kunnen diverse extra markers op de waveforms verschijnen:"
 
 #: ../../chapters/user_interface.rst:177
 msgid ""
 "**Position marker**: The static vertical line in the center of the waveform "
 "summary indicates the playback point of the deck. The waveform overview "
 "includes a vertical line to show the current position within the track."
-msgstr ""
+msgstr "**Positiemarkering**: De statische verticale lijn in het midden van het waveform-overzicht geeft het afspeelpunt van het deck aan. Het waveform-overzicht bevat een verticale lijn om de huidige positie binnen de track aan te geven."
 
 #: ../../chapters/user_interface.rst:180
 msgid ""
 "**Beat marker**: The regular white lines on the waveform summary indicate "
 "the locations of beats in the audio, also called the :term:`beatgrid`."
-msgstr ""
+msgstr "**Beat markering**: De gelijkmatige witte lijnen op het waveform-overzicht geven de locaties van de beats in de audio aan, ook wel het :term:`beatgrid` genoemd."
 
 #: ../../chapters/user_interface.rst:182
 msgid "**Cue marker**: Indicates the position of the :term:`cue point <cue>`."
-msgstr ""
+msgstr "**Cue markering**: Geeft de positie van het :term:`cue punt <cue>` aan."
 
 #: ../../chapters/user_interface.rst:183 ../../chapters/user_interface.rst:995
 msgid ""
 "**Hotcue marker**: Indicate the position and number of a :term:`hotcue` "
 "point if set."
-msgstr ""
+msgstr "**Hotcue marker**: Aanduiding van de positie en het nummer van een :term:`hotcue` punt indien ingesteld."
 
 #: ../../chapters/user_interface.rst:185
 msgid "**Loop-in/Out marker**: Indicate the beginning and the end of a loop."
@@ -389,8 +390,8 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:263
 msgid ""
-"To return to the beginning of the track, right-click on the deck's :ref"
-":`Fast-Rewind Button <interface-transport>`."
+"To return to the beginning of the track, right-click on the deck's "
+":ref:`Fast-Rewind Button <interface-transport>`."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:279
@@ -1563,7 +1564,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1075
 msgid "An effect unit"
-msgstr ""
+msgstr "Een effect-eenheid"
 
 #: ../../chapters/user_interface.rst:1077
 msgid ""
@@ -1663,7 +1664,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1154
 msgid "The features in detail:"
-msgstr ""
+msgstr "De kenmerken in detail:"
 
 #: ../../chapters/user_interface.rst:1156
 msgid ""

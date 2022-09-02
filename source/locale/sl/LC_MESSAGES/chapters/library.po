@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2019-2020
+# Arnold Marko <arnold.marko@gmail.com>, 2019-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:48+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 11:16+0000\n"
+"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2019-2021\n"
 "Language-Team: Slovenian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../chapters/library.rst:6 ../../chapters/library.rst:21
 msgid "The Mixxx Library"
-msgstr "Mixxx knjižnica"
+msgstr "Mixxx zbirka"
 
 #: ../../chapters/library.rst:9
 msgid "Overview of the Library features"
-msgstr "Pregled funkciji knjižnice"
+msgstr "Pregled funkciji zbirke"
 
 #: ../../chapters/library.rst:23
 msgid ""
@@ -33,7 +33,7 @@ msgid ""
 "or :ref:`sampler <interface-sampler>`; see :ref:`library-loading-tracks`. "
 "Mixxx imports your music library automatically when it is run for the first "
 "time, see :ref:`configuration-import` for more information."
-msgstr ""
+msgstr "Knjižnica je namenjena upravljanju z vsemi glasbenimi datotekami. Tukaj najdemo skladbe, ki jih želimo predvajati in jih naložimo v  :ref:`deck <interface-decks>` ali :ref:`sampler`; glej :ref:`library-loading-tracks`. Mixxx samodejno naloži vašo glasbeno kjnižnico ob prvem zagonu. Za več informacij glej :ref:`configuration-import`"
 
 #: ../../chapters/library.rst:29
 msgid ""
@@ -47,7 +47,7 @@ msgstr "**Stranski pano**"
 
 #: ../../chapters/library.rst:34
 msgid "**Search**: Search for tracks in your Mixxx library."
-msgstr "**Iskanje**: Išče skladbe v vaši Mixxx knjižnici."
+msgstr "**Iskanje**: Išče skladbe v Mixxx zbirki."
 
 #: ../../chapters/library.rst:35
 msgid "**Tracks**: View and edit your whole collection."
@@ -224,8 +224,8 @@ msgstr "**Nalaganje skladb**"
 #: ../../chapters/library.rst:116
 msgid ""
 "To load a track into a :ref:`deck <interface-decks>`, you can either drag it"
-" to the waveform display or use the context menu. Go to the chapter :ref"
-":`library-loading-tracks` for detailed information."
+" to the waveform display or use the context menu. Go to the chapter "
+":ref:`library-loading-tracks` for detailed information."
 msgstr ""
 
 #: ../../chapters/library.rst:122
@@ -237,7 +237,7 @@ msgid ""
 "Mixxx imports your music library automatically when it is run for the first "
 "time. Go to the chapter :ref:`configuration-import` for detailed "
 "information."
-msgstr ""
+msgstr "Mixxx samodejno uvozi vašo glasbeno zbirko ob prvem zagonu. Pojdite na poglavje  :ref:`configuration-import` za podrobnejše informacije."
 
 #: ../../chapters/library.rst:127
 msgid "**Previewing Tracks**"
@@ -304,7 +304,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:161
 msgid "**Rescan Library**"
-msgstr ""
+msgstr "**Preglej zbirko**"
 
 #: ../../chapters/library.rst:148
 msgid ""
@@ -1384,7 +1384,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:763
 msgid "For more informations, go to :ref:`configuration-import`."
-msgstr ""
+msgstr "Za več informaciji glej :ref:` :ref:`configuration-import` ."
 
 #: ../../chapters/library.rst:766
 msgid "Quick Links - Bookmark your favorite folders"
@@ -1608,7 +1608,7 @@ msgstr ""
 msgid ""
 "If you later decide to add some of the deleted tracks back, import them to "
 "the Mixxx library again, see :ref:`configuration-import`."
-msgstr ""
+msgstr "Če se nakndano odločite, da bi radi povrnili del izbrisanih skladb, jih ponovno uvozite v Mixxx knjižnico. Glej: :ref:`configuration-import`."
 
 #: ../../chapters/library.rst:891
 msgid "Compatible file formats"

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Arnold Marko <arnold.marko@gmail.com>, 2020
+# Jure Repinc <jlp@holodeck1.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2020\n"
-"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"Last-Translator: Jure Repinc <jlp@holodeck1.com>, 2022\n"
+"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7715/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:6
 msgid "DJ Hardware"
-msgstr ""
+msgstr "Strojna oprema za DJ-anje"
 
 #: ../../chapters/hardware.rst:13
 msgid ""
@@ -33,6 +34,11 @@ msgid ""
 "may vary. This chapter provides general background information about various"
 " types of DJ hardware."
 msgstr ""
+"Čeprav lahko Mixxx uporabljate samo s prenosnim ali namiznim računalnikom, "
+"boste za polno izkoriščanje Mixxx-ovih zmožnosti potrebovali posebno strojno"
+" opremo za DJ-anje. Glede na vaš proračun in uporabo so lahko vaša "
+"postavitev in zahteve različne. To poglavje vsebuje informacije o različnih "
+"vrstah strojne opreme za DJ-anje."
 
 #: ../../chapters/hardware.rst:19
 msgid ""
@@ -41,6 +47,10 @@ msgid ""
 "devices with information about their prices, features, and compatibility "
 "with Mixxx."
 msgstr ""
+"Vodnik po strojni opremi za DJ-anje (`Mixxx DJ Hardware Guide "
+"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_) vsebuje seznam "
+"posameznih naprav s podatki o njihovih cenah, zmožnostih in združljivostjo s"
+" programom Mixxx."
 
 #: ../../chapters/hardware.rst:26
 msgid "Controllers"
@@ -57,6 +67,15 @@ msgid ""
 "also allow using two hands to manipulate two different controls at the same "
 "time, which is required for many mixing techniques."
 msgstr ""
+"Kontrolerji za DJ-anje so naprave z regulatorji, drsniki, gumbi in jog "
+"vrtiljaki za upravljanje s programi za DJ-anje, kakršen je Mixxx. Omogočajo "
+"hiter dostop do različnih upravljalnikov in ponujajo otipno in vizualno "
+"povratno informacijo o stanju posameznih upravljalnikov. Na primer položaj "
+"regulatorja in ali je stikalo vklopljeno ali izklopljeno. To vam omogoča, da"
+" se posvetite upravljanju glasbe, brez da bi ves čas morali gledati na "
+"računalniški zaslon. Kontrolerji prav tako omogočajo istočasno uporabo dveh "
+"rok za spreminjanje upravljalnikov, kar je potrebno za mnoge tehnike "
+"mešanja."
 
 #: ../../chapters/hardware.rst:36
 msgid ""
@@ -69,6 +88,14 @@ msgid ""
 " devices can be used as both a controller and :ref:`hardware mixer "
 "<hardware-mixers>`."
 msgstr ""
+"Kontrolerji za DJ-anje običajno ne izvajajo dejanske obdelave zvoka. Namesto"
+" tega računalniku pošiljajo signale (največkrat :term:`MIDI` ali :term:`HID`"
+" prek kabla USB) z navodili programu za DJ-anje, kako naj obdeluje zvok. "
+"Mnogi kontrolerji imajo vgrajen :ref:`zvočni vmesnik <hardware-audio-"
+"interfaces>` z dvema ločenima stereo izhodoma. To DJ-em omogoča, da poleg "
+"prenosnega računalnika s sabo nosijo in postavljajo le eno dodatno napravo. "
+"Nekatere naprave lahko delujejo kot kontroler in tudi kot :ref:`strojna "
+"mešalka <hardware-mixers>`."
 
 #: ../../chapters/hardware.rst:45
 msgid ""
@@ -150,9 +177,9 @@ msgstr ""
 msgid ""
 "Bit depth determines the possible dynamic range of the signal. 16 bits is "
 "more than enough for playing back music. While 24 bits is helpful for "
-"recording, `it is useless for playback <https://sonicscoop.com/2013/08/29"
-"/why-almost-everything-you-thought-you- knew-about-bit-depth-is-probably-"
-"wrong/>`_."
+"recording, `it is useless for playback "
+"<https://sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you- "
+"knew-about-bit-depth-is-probably-wrong/>`_."
 msgstr ""
 
 #: ../../chapters/hardware.rst:103
@@ -211,9 +238,9 @@ msgid ""
 "TRS stereo inputs. Most live sound mixers have balanced 1/4\" TRS mono "
 "inputs. If you need to interconnect balanced and unbalanced gear, refer to "
 "this `guide from Presonus (deleted, via archive.org) "
-"<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn"
-"/technical-articles/Balanced-Unbalanced>`_ and this `guide from Rane "
-"(deleted, via archive.org) "
+"<https://web.archive.org/web/20171011070552/https://www.presonus.com/learn/technical-"
+"articles/Balanced-Unbalanced>`_ and this `guide from Rane (deleted, via "
+"archive.org) "
 "<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 msgstr ""
 
@@ -360,4 +387,4 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:235
 msgid ":ref:`microphones`"
-msgstr ""
+msgstr ":ref:`microphones`"

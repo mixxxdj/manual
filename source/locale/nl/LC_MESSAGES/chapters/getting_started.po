@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mario Moens <marimo.it4u@gmail.com>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
 "PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
+"Last-Translator: Mario Moens <marimo.it4u@gmail.com>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7715/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,21 +23,24 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:6
 msgid "Getting Started"
-msgstr ""
+msgstr "Aan de slag"
 
 #: ../../chapters/getting_started.rst:9
 msgid "Opening Mixxx"
-msgstr ""
+msgstr "Mixxx openen"
 
 #: ../../chapters/getting_started.rst:10
 msgid ""
 "|logo| Once you've `installed Mixxx <https://mixxx.org/download/>`_, start "
 "by opening Mixxx and importing your music to the Mixxx library."
 msgstr ""
+"|logo| Als u eenmaal 'Mixxx <https://mixxx.org/download/>' hebt "
+"geïnstalleerd, begint u met het openen van Mixxx en het importeren van uw "
+"muziek in de Mixxx-bibliotheek."
 
 #: ../../chapters/getting_started.rst:16
 msgid "**Windows**"
-msgstr ""
+msgstr "**Windows**"
 
 #: ../../chapters/getting_started.rst:14
 msgid ""
@@ -41,10 +48,13 @@ msgid ""
 "Windows start menu and click the Mixxx icon, or perform a search for "
 ":file:`Mixxx.exe`."
 msgstr ""
+"Dubbelklik op het Mixxx-icoon op het bureaublad. U kunt ook door het "
+"startmenu van Windows bladeren en op het pictogram Mixxx klikken, of zoeken "
+"naar :file:`Mixxx.exe`."
 
 #: ../../chapters/getting_started.rst:21
 msgid "**Mac OSX**"
-msgstr ""
+msgstr "**Mac OSX**"
 
 #: ../../chapters/getting_started.rst:19
 msgid ""
@@ -52,10 +62,13 @@ msgid ""
 "Alternatively, drag the Mixxx icon to the dock and double-click it there or "
 "search for :command:`mixxx` in Spotlight."
 msgstr ""
+"Dubbelklik op het pictogram Mixxx in de map :file:`Applications`. U kunt ook"
+" het Mixxx-icoontje naar het dock slepen en daar dubbelklikken of in "
+"Spotlight zoeken naar :command:`mixxx`."
 
 #: ../../chapters/getting_started.rst:30
 msgid "**GNU/Linux**"
-msgstr ""
+msgstr "**GNU/Linux**"
 
 #: ../../chapters/getting_started.rst:24
 msgid ""
@@ -67,14 +80,23 @@ msgid ""
 ":command:`pasuspender mixxx`. See :ref:`appendix-command-line-options` for "
 "an overview of Mixxx's command line options."
 msgstr ""
+"Klik op het Mixxx-icoontje in het applicatiemenu of op de launcher van uw "
+"bureaubladomgeving of zoek naar :file:`mixxx`. U kunt ook :command:`mixxx` "
+"in de terminal typen en dan op :kbd:`Return` drukken. Als uw :term:`audio "
+"interface` niet toegankelijk is vanuit Mixxx omdat deze door andere "
+"toepassingen via PulseAudio wordt gebruikt, kunt u Mixxx sluiten en "
+"herstarten met :command:`pasuspender mixxx`. Zie :ref:`appendix-command-"
+"line-opties` voor een overzicht van de opdrachtregelopties van Mixxx."
 
 #: ../../chapters/getting_started.rst:35
 msgid "Importing your audio files"
-msgstr ""
+msgstr "Je audiobestanden importeren"
 
 #: ../../chapters/getting_started.rst:47
 msgid "Mixxx running on Windows 10 - Choose music library directory dialog"
 msgstr ""
+"Mixxx draait op Windows 10 - Kies het dialoogvenster van de "
+"muziekbibliotheek"
 
 #: ../../chapters/getting_started.rst:49
 msgid ""
@@ -82,6 +104,10 @@ msgid ""
 " music is stored. By default, the dialog points to a location where music "
 "files are typically held, but you can select any location on your computer."
 msgstr ""
+"De eerste keer dat u Mixxx start, wordt u gevraagd een directory te "
+"selecteren waarin uw muziek is opgeslagen. Standaard verwijst het "
+"dialoogvenster naar een locatie waar doorgaans muziekbestanden worden "
+"bewaard, maar u kunt elke locatie op uw computer selecteren."
 
 #: ../../chapters/getting_started.rst:53
 msgid ""
@@ -90,6 +116,10 @@ msgid ""
 "supported music files Mixxx detects will be listed in the :ref:`library-"
 "tracks`."
 msgstr ""
+"Klik op :guilabel:`Select Folder` en Mixxx zal uw muziekbibliotheek scannen."
+" Afhankelijk van de grootte van uw bibliotheek kan dit enige tijd duren. "
+"Alle ondersteunde muziekbestanden die Mixxx detecteert worden in de "
+":ref:`library-tracks` vermeld."
 
 #: ../../chapters/getting_started.rst:57
 msgid ""
@@ -98,6 +128,11 @@ msgid ""
 "the menu. If you want to rescan at every launch, select "
 ":menuselection:`Preferences --> Library --> Rescan on startup`."
 msgstr ""
+"Als u uw bibliotheek wilt bijwerken (bijvoorbeeld omdat u bestanden hebt "
+"toegevoegd of verplaatst), kunt u dit doen met :menuselectie:`Bibliotheek "
+"--> Scan Bibliotheek Opnieuw` in het menu. Als u bij elke start opnieuw wilt"
+" scannen, selecteert u :menuselectie:`Voorkeuren --> Bibliotheek --> Opnieuw"
+" Scannen bij opstarten`."
 
 #: ../../chapters/getting_started.rst:62
 msgid ""
@@ -106,10 +141,14 @@ msgid ""
 "folders. Select a regular folder instead, usually “My Music“, like pictured "
 "above."
 msgstr ""
+"In Windows 7 en 8 wijst het importdialoogvenster naar uw Windows "
+"“Muziek”-bibliotheek, een speciale virtuele map. U kunt deze virtuele mappen"
+" **niet** gebruiken. Selecteer in plaats daarvan een gewone map, meestal "
+"\"Mijn Muziek\", zoals hierboven afgebeeld."
 
 #: ../../chapters/getting_started.rst:70
 msgid "Analyze your library"
-msgstr ""
+msgstr "Analyseer je bibliotheek"
 
 #: ../../chapters/getting_started.rst:76
 msgid ""
@@ -119,6 +158,12 @@ msgid ""
 "analysis takes considerable CPU power and might cause skips in the audio ---"
 " things you surely don't need while performing."
 msgstr ""
+"|ic_lib_prepare| Mixxx analyseert automatisch tracks wanneer je ze voor het "
+"eerst in een deck laadt, maar het wordt aanbevolen om ze te analyseren "
+"voordat je live gaat spelen om er zeker van te zijn dat de beatrasters "
+"correct zijn. Bovendien kost trackanalyse een aanzienlijk CPU-vermogen en "
+"kan het geluid overslaan - dingen die je zeker niet nodig hebt tijdens het "
+"performen."
 
 #: ../../chapters/getting_started.rst:82
 msgid ""
@@ -129,14 +174,20 @@ msgid ""
 " advance. While analyzing, the progress in percentage and total queue length"
 " are shown."
 msgstr ""
+"Zodra u: ref: `uw muziekbibliotheek hebt geïmporteerd<getting-started-"
+"import-audio-files>`, drukt u op: guilabel:` OK` in het venster Voorkeuren. "
+"Ga naar de analyseweergave in het linker zijpaneel van de bibliotheek. "
+"Hiermee kunt u vooraf: term: `beatraster`,: term:` key` en: term: "
+"`ReplayGain` -detectie op tracks uitvoeren. Tijdens het analyseren wordt de "
+"voortgang in percentage en totale wachtrijlengte weergegeven."
 
 #: ../../chapters/getting_started.rst:89
 msgid "For more information, go to :ref:`configuration-bpm-detection`."
-msgstr ""
+msgstr "Voor meer informatie, ga naar :ref:`configuratie-bpm-detectie`."
 
 #: ../../chapters/getting_started.rst:94
 msgid "Configuring sound input and output"
-msgstr ""
+msgstr "Configuratie van de geluidsingang en -uitgang"
 
 #: ../../chapters/getting_started.rst:96
 msgid ""
@@ -144,6 +195,9 @@ msgid ""
 "sound hardware in :menuselection:`Preferences --> Sound Hardware`. You do "
 "not need to configure all inputs and outputs."
 msgstr ""
+"Vooraleer u Mixxx kunt gaan gebruiken, moet u Mixxx configureren om uw "
+"geluidshardware te gebruiken in: menuselectie: `Voorkeuren -> "
+"Geluidsapparatuur`. U hoeft niet alle in- en uitgangen te configureren."
 
 #: ../../chapters/getting_started.rst:100
 msgid ""
@@ -152,19 +206,23 @@ msgid ""
 "best it can on your system, configure the other :ref:`preferences-sound-"
 "hardware` preferences in addition to the inputs and outputs."
 msgstr ""
+"Het hoofdstuk: ref: `hardware` legt verschillende soorten DJ-hardware uit en"
+" hoe u deze kunt instellen met de in- en uitgangopties. Om Mixxx optimaal te"
+" laten presteren op uw systeem, configureert u de andere: ref: `voorkeuren-"
+"geluid-hardware` voorkeuren naast de in- en uitgangen."
 
 #: ../../chapters/getting_started.rst:112
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Voorkeuren Mixxx Geluidsapparatuur "
 
 #: ../../chapters/getting_started.rst:115
 msgid "Output Options"
-msgstr ""
+msgstr "Uitgang opties"
 
 #: ../../chapters/getting_started.rst:117
 #: ../../chapters/getting_started.rst:137
 msgid "**Internal mixing**:"
-msgstr ""
+msgstr "**Intern mixen**:"
 
 #: ../../chapters/getting_started.rst:119
 msgid ""
@@ -172,55 +230,70 @@ msgid ""
 "<hardware-mixers>`. If you are using a controller with a built-in audio "
 "interface, use these outputs."
 msgstr ""
+"Gebruik deze uitgangen als u geen :ref:`externe mengtafel <hardware-mixers> "
+"` gebruikt. Als u een controller met een ingebouwde audio-interface "
+"gebruikt, gebruik dan deze uitgangen."
 
 #: ../../chapters/getting_started.rst:123
 msgid ""
 "*Master*: all decks, samplers, microphones, and auxiliary inputs mixed "
 "together. This output is sent to the speakers for the audience."
 msgstr ""
+"*Master*: alle decks, samplers, microfoons en aux-ingangen samen gemengd. "
+"Deze output wordt naar de sprekers gestuurd voor het publiek."
 
 #: ../../chapters/getting_started.rst:125
 msgid ""
 "*Headphones*: all decks, samplers, microphones, and auxiliary inputs "
 "assigned to :term:`pre-fader listening <PFL>`"
 msgstr ""
+"*Hoofdtelefoon*: alle decks, samplers, microfoons en aux-ingangen toegewezen"
+" aan: term: `pre-fader beluistering <PFL>`"
 
 #: ../../chapters/getting_started.rst:127
 msgid "*Booth*: same as Master output, but has a separate gain control"
 msgstr ""
+"*Booth*: zelfde als output, maar heeft een aparte versterkingsregeling"
 
 #: ../../chapters/getting_started.rst:129
 #: ../../chapters/getting_started.rst:145
 msgid "**External mixing**:"
-msgstr ""
+msgstr "**Extern mixen**:"
 
 #: ../../chapters/getting_started.rst:131
 msgid "*Decks 1-4*: the individual unmixed decks to send to an external mixer"
 msgstr ""
+"*Decks 1-4*: de afzonderlijke ongemengde decks die naar een extern "
+"mengpaneel worden gestuurd."
 
 #: ../../chapters/getting_started.rst:132
 msgid ""
 "*Bus Left/Center/Right*: all decks, samplers, and auxiliary inputs assigned "
 "to each side of Mixxx's crossfader"
 msgstr ""
+"* Bus links/midden/rechts *: alle decks, samplers en aux-ingangen toegewezen"
+" aan elke zijde van de Mixxx crossfader"
 
 #: ../../chapters/getting_started.rst:136
 msgid "Input Options"
-msgstr ""
+msgstr "Input Opties"
 
 #: ../../chapters/getting_started.rst:139
 msgid ""
 "Use these inputs if you are not using an external hardware mixer. If you are"
 " using a controller with a built-in audio interface, use these inputs."
 msgstr ""
+"Gebruik deze ingangen als u geen extern me,gpaneel gebruikt. Als u een "
+"controller met een ingebouwde audio-interface gebruikt, gebruik dan deze "
+"ingangen."
 
 #: ../../chapters/getting_started.rst:142
 msgid "*Microphone 1-4*: live microphone or musical instrument inputs"
-msgstr ""
+msgstr "*Microfoon 1-4*: live microfoon- of ingangen voor muziekinstrumenten"
 
 #: ../../chapters/getting_started.rst:143
 msgid "*Auxiliary 1-4*: other sound sources"
-msgstr ""
+msgstr "*Auxiliary 1-4*: andere geluidsbronnen"
 
 #: ../../chapters/getting_started.rst:147
 msgid ""
@@ -229,17 +302,23 @@ msgid ""
 "have a microphone plugged into the mixer, do not configure the Microphone "
 "1-4 inputs."
 msgstr ""
+"*Record/Broadcast*: Wanneer dit is geconfigureerd, zal Mixxx opnemen en "
+"uitzenden vanaf deze audio-interface-ingang in plaats van de interne master-"
+"mix. Als u een microfoon op de mixer hebt aangesloten, configureer dan niet "
+"de microfoon 1-4 ingangen."
 
 #: ../../chapters/getting_started.rst:152
 msgid "**Either internal or external mixing**:"
-msgstr ""
+msgstr "**Intern of extern mixen**:"
 
 #: ../../chapters/getting_started.rst:154
 msgid ""
 "*Vinyl Control 1-4*: timecode input from turntables or CDJs for manipulating"
 " decks 1-4"
 msgstr ""
+"*Vinyl Control 1-4*: tijdcode-invoer van draaitafels of CDJ's voor het "
+"manipuleren van decks 1-4"
 
 #: ../../chapters/getting_started.rst:157
 msgid ":ref:`microphones`"
-msgstr ""
+msgstr ":ref:`microfoons`"

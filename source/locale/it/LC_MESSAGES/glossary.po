@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Mixxx DJ manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
+"PO-Revision-Date: 2014-08-03 10:57+0000\n"
+"Last-Translator: Damtux, 2015\n"
 "Language-Team: Italian (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../glossary.rst:2
 msgid "Glossary of Terms"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../glossary.rst:83
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../glossary.rst:85
 msgid ""
@@ -659,7 +659,7 @@ msgstr ""
 
 #: ../../glossary.rst:136
 msgid "master sync"
-msgstr ""
+msgstr "sincronizzazione principale"
 
 #: ../../glossary.rst:138
 msgid ""
