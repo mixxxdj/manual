@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../index.rst:11
 msgid "Mixxx |version| User Manual"
-msgstr "version"
+msgstr "Manual de usuario de Mixxx |version|"
 
 #: ../../index.rst:13
 msgid ""
@@ -228,14 +228,18 @@ msgid ""
 "Mixxx offers a variety of features to help beginners get started and help "
 "experienced DJs get creative:"
 msgstr ""
+"Mixxx es `software libre <https://www.gnu.org/philosophy/free-sw.es.html>de "
+"DJ para Windows, macOS y Linux. Es fácil de usar, incluso si nunca has sido "
+"DJ. Mixxx ofrece una variedad de características para ayudar a los "
+"principiantes a comenzar y ayudar a los DJ experimentados a ser creativos:"
 
 #: ../../index.rst:18
 msgid "beat, tempo, and musical key detection"
-msgstr ""
+msgstr "ritmo, tempo y detección de teclas musicales"
 
 #: ../../index.rst:19
 msgid "master sync"
-msgstr ""
+msgstr "sincronización maestra"
 
 #: ../../index.rst:20
 msgid "hotcues"
@@ -243,15 +247,15 @@ msgstr ""
 
 #: ../../index.rst:21
 msgid "looping"
-msgstr ""
+msgstr "bucle"
 
 #: ../../index.rst:22
 msgid "4 decks"
-msgstr ""
+msgstr "4 pistas"
 
 #: ../../index.rst:23
 msgid "effects"
-msgstr "effects"
+msgstr "efectos"
 
 #: ../../index.rst:25
 msgid ""
@@ -259,7 +263,10 @@ msgid ""
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
 msgstr ""
+"Puede usar Mixxx con: term: `MIDI` y: term: controladores` HID`, "
+"reproductores de CD, tocadiscos de vinilo o incluso solo el teclado y el "
+"mouse de su computadora."
 
 #: ../../index.rst:29
 msgid "Table of Contents"
-msgstr ""
+msgstr "Tabla de contenido"

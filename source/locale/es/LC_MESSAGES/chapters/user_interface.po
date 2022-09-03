@@ -1903,7 +1903,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1049
 msgid "Waveform Display"
-msgstr "Visor de forma de onda"
+msgstr "Visualización de las ondas"
 
 #: ../../chapters/user_interface.rst:1052
 msgid ""

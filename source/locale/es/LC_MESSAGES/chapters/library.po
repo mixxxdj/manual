@@ -754,7 +754,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:280
 msgid "Missing Tracks"
-msgstr "Pistas Perdidas"
+msgstr "Faltan pistas"
 
 #: ../../chapters/library.rst:286
 msgid ""
@@ -783,7 +783,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:301
 msgid "Hidden Tracks"
-msgstr ""
+msgstr "Pistas ocultas"
 
 #: ../../chapters/library.rst:307
 msgid ""
@@ -1598,7 +1598,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:842
 msgid "Recordings"
-msgstr ""
+msgstr "Grabaciones"
 
 #: ../../chapters/library.rst:844
 msgid ""

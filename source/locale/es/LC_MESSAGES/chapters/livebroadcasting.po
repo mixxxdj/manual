@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -302,7 +305,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:87
 msgid "Click :guilabel:`OK`"
-msgstr ""
+msgstr "Haga clic en :guilabel:`OK`"
 
 #: ../../chapters/livebroadcasting.rst:88
 msgid ""
@@ -536,7 +539,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:217
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solución de problemas"
 
 #: ../../chapters/livebroadcasting.rst:219
 msgid ""

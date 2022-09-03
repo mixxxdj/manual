@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,7 +218,7 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
-msgstr ""
+msgstr "Introducción a Mixxx"
 
 #: ../../chapters/introduction.rst:8
 msgid ""

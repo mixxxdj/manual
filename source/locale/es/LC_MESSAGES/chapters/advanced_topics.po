@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,11 +218,11 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Opciones Avanzadas"
 
 #: ../../chapters/advanced_topics.rst:9
 msgid "Adding support for your MIDI/HID Controller"
-msgstr ""
+msgstr "Mapeo de Mixx para controladoras MIDI/HID"
 
 #: ../../chapters/advanced_topics.rst:11
 msgid ""
@@ -250,11 +253,12 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:28
 msgid "Controller Wizard"
-msgstr ""
+msgstr "Asistente para la configuración de la controladora"
 
 #: ../../chapters/advanced_topics.rst:37
 msgid "Mixxx Controller Wizard -  Mapping a control"
 msgstr ""
+"Asistente para el aprendizaje de la controladora - Mapeo de una acción."
 
 #: ../../chapters/advanced_topics.rst:39
 msgid ""
@@ -264,39 +268,44 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "Conecte su controladora(s) al ordenador"
 
 #: ../../chapters/advanced_topics.rst:43
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Active Mixxx"
 
 #: ../../chapters/advanced_topics.rst:44
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr "Vaya a:menuselection:`Preferences-->controladora`"
 
 #: ../../chapters/advanced_topics.rst:45
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
 msgstr ""
+"Seleccione su controladora de la lista de dispositivos disponibles izquierda"
+" y el panel de la derecha cambiará."
 
 #: ../../chapters/advanced_topics.rst:47
 msgid "Activate the :guilabel:`Enabled` checkbox"
-msgstr ""
+msgstr "Active el :guilabel:'enabled'checkbox"
 
 #: ../../chapters/advanced_topics.rst:48
 msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"
 msgstr ""
+"Haga clic en :guilabel:'Learning Wizard' para abrir el menú de selección."
 
 #: ../../chapters/advanced_topics.rst:49
 msgid "Click any control in the Mixxx :term:`GUI`"
-msgstr ""
+msgstr "Haga clic en cualquier opción de Mixxx :term:'GUI'"
 
 #: ../../chapters/advanced_topics.rst:50
 msgid ""
 "Alternatively, click the :guilabel:`Choose Control` button and choose one "
 "from the selection list"
 msgstr ""
+"Por otra parte, haga clic en el :guilabel:'Elija Control' botón y elija una "
+"opción del menú de selección."
 
 #: ../../chapters/advanced_topics.rst:52
 msgid ""
@@ -304,12 +313,18 @@ msgid ""
 "controller to map it.  You can also move a control without pushing the "
 ":guilabel:`Learn` button if you are learning many controls."
 msgstr ""
+"Haga clic en configurar y luego utilice el control seleccionado o aprete un "
+"botón en su controladora para mapearlo. También se puede mover un control "
+"sin apretar el :guilabel:'learn' botón si está configurando muchas "
+"secciones."
 
 #: ../../chapters/advanced_topics.rst:55
 msgid ""
 "If you are learning a button, just push it once.  If you are learning a knob"
 " or a slider, try to move it throughout its range."
 msgstr ""
+"Si está configurando una acción, aprételo únicamente una vez. Si está "
+"configurando una perilla o un fader muévalo en todo su rango o trayectoria."
 
 #: ../../chapters/advanced_topics.rst:57
 msgid ""
@@ -321,11 +336,15 @@ msgstr ""
 #: ../../chapters/advanced_topics.rst:60
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
 msgstr ""
+"Cuando termine el mapeo de controles, haga clic en :guilabel:'Proceso "
+"Terminado'"
 
 #: ../../chapters/advanced_topics.rst:62
 msgid ""
 "There are also some advanced options in the Midi Wizard you may need to use:"
 msgstr ""
+"También existen opciones avanzadas en el Asistente que quizá necesitará "
+"utilizar:"
 
 #: ../../chapters/advanced_topics.rst:64
 msgid ""
@@ -348,12 +367,19 @@ msgid ""
 "the next press. (Think an actual hardware toggle switch, or a button that "
 "lights up on the first press and turns off on the second press)."
 msgstr ""
+"Modo de Activación: Utilice esta opción en controladoras que tengan "
+"controles que actúen como interruptores y emiten un valor la primera vez que"
+" pulsa, y uno diferente en la segunda pulsación. (Piense en un hardware o "
+"flip-flop de conmutación, o en un botón que se ilumina en la primera "
+"pulsación y se apaga en la segunda pulsación)."
 
 #: ../../chapters/advanced_topics.rst:74
 msgid ""
 "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or "
 "an end, but spin continuously."
 msgstr ""
+"Plato / Perilla de selección: Use esta opción para perillas que no tienen un"
+" inicio o un fin, pero que giran de contínuo."
 
 #: ../../chapters/advanced_topics.rst:77
 msgid ""
@@ -375,16 +401,23 @@ msgid ""
 "can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI "
 "Scripting <advanced-controller-midiscript>` instead."
 msgstr ""
+"El sistema de configuración de controladoras sólo funciona con sistemas "
+":term:`MIDI`. No se pueden mapear los botones de funciones (shift) y "
+"rotación de platos. En lugar de intentar esto use :ref:`MIDI "
+"Scripting<advanced-controller-midiscript>`"
 
 #: ../../chapters/advanced_topics.rst:93
 msgid "MIDI Scripting"
-msgstr ""
+msgstr "Configuración de la Secuencia de Comandos MIDI."
 
 #: ../../chapters/advanced_topics.rst:95
 msgid ""
 "In order to support the advanced features of many :term:`MIDI`/:term:`HID` "
 "controllers, Mixxx offers what we call MIDI Scripting."
 msgstr ""
+"Para poder se compatible con características avanzadas de muchas "
+"controladoras :term:`MIDI`/:term:`HID`, Mixxx ofrece lo que se conoce como "
+"Encriptación MIDI."
 
 #: ../../chapters/advanced_topics.rst:98
 msgid ""
@@ -408,17 +441,20 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:113
 msgid "Making a Custom Keyboard Mapping"
-msgstr ""
+msgstr "Cómo realizar un mapeo de teclado personalizado."
 
 #: ../../chapters/advanced_topics.rst:115
 msgid ""
 "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a "
 "text file which can be found at the following location:"
 msgstr ""
+"El :ref:`<appendix-keyboard>` mapeo por defecto del teclado se encuentra "
+"definido en un archivo de texto que se puede encontrar en la siguiente "
+"dirección:"
 
 #: ../../chapters/advanced_topics.rst:118
 msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
-msgstr ""
+msgstr "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
 
 #: ../../chapters/advanced_topics.rst:119
 msgid ""
@@ -428,7 +464,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:120
 msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
-msgstr ""
+msgstr "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
 
 #: ../../chapters/advanced_topics.rst:122
 msgid ""
@@ -446,7 +482,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:130
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
-msgstr ""
+msgstr "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
 
 #: ../../chapters/advanced_topics.rst:131
 msgid ""
@@ -480,7 +516,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:148
 msgid "Additional Effects via external Mixer Mode"
-msgstr ""
+msgstr "Efectos Adicionales mediante Mezclador externo"
 
 #: ../../chapters/advanced_topics.rst:150
 msgid ""
@@ -545,35 +581,41 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:187
 msgid "**In Mixxx**"
-msgstr ""
+msgstr "**En Mixxx**"
 
 #: ../../chapters/advanced_topics.rst:189
 msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
 msgstr ""
+"Vaya a :menuselection:`Configuración -->  Hardware de Sonido--> Output`"
 
 #: ../../chapters/advanced_topics.rst:190
 msgid ""
 "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 1-2`"
 msgstr ""
+"Seleccione para :guilabel:`Deck 1` the :guilabel:`Soundflower 16` hardware  "
+"con :guilabel:`Canales 1-2`"
 
 #: ../../chapters/advanced_topics.rst:192
 msgid ""
 "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 3-4`"
 msgstr ""
+"Seleccione para :guilabel:`Deck 2` the :guilabel:`Soundflower 16` hardware "
+"con :guilabel:`Canales 3-4`"
 
 #: ../../chapters/advanced_topics.rst:194
 msgid "Click the :guilabel:`Apply` button"
-msgstr ""
+msgstr "Haga clic en el botón :guilabel:`Apply`"
 
 #: ../../chapters/advanced_topics.rst:196
 msgid "**In AU Lab**"
-msgstr ""
+msgstr "**En AU Lab**"
 
 #: ../../chapters/advanced_topics.rst:198
 msgid "Click on the :guilabel:`+` button to create a new configuration"
 msgstr ""
+"Haga clic en el botón :guilabel:`+` para crear una nueva configuración."
 
 #: ../../chapters/advanced_topics.rst:199
 msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
@@ -582,23 +624,24 @@ msgstr ""
 #: ../../chapters/advanced_topics.rst:200
 msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
 msgstr ""
+"Añada 2 canciones entrantes en el :guilabel:`apartado de Audio Input`."
 
 #: ../../chapters/advanced_topics.rst:201
 msgid "Click :guilabel:`OK`"
-msgstr ""
+msgstr "Haga clic en :guilabel:`OK`"
 
 #: ../../chapters/advanced_topics.rst:202
 msgid "Change the audio input device to :guilabel:`Soundflower 16`"
-msgstr ""
+msgstr "Cambie la entrada de audio a :guilabel:`Soundflower 16`"
 
 #: ../../chapters/advanced_topics.rst:203
 msgid ""
 "Change the audio output device for example to :guilabel:`Built-in Output`"
-msgstr ""
+msgstr "Cambie la salida de audio, por ejemplo a :guilabel:`Built-in Output`"
 
 #: ../../chapters/advanced_topics.rst:204
 msgid "Click :guilabel:`Create document`"
-msgstr ""
+msgstr "Haga clic en :guilabel:`Crear documento`"
 
 #: ../../chapters/advanced_topics.rst:205
 msgid ""
@@ -608,11 +651,11 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:208
 msgid "The effect should now react if you play a track in Mixxx."
-msgstr ""
+msgstr "El efecto debería funcionar si usted hace sonar una canción en Mixxx."
 
 #: ../../chapters/advanced_topics.rst:211
 msgid "Effects via JACK Rack on GNU/Linux"
-msgstr ""
+msgstr "Efectos via JACK en GNU/Linux"
 
 #: ../../chapters/advanced_topics.rst:220
 msgid "The Jack routing for external effects"
@@ -620,7 +663,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:220
 msgid "The Jack routing for external effects on GNU/Linux"
-msgstr ""
+msgstr "El enrutamiento para efectos externos en GNU/Linux"
 
 #: ../../chapters/advanced_topics.rst:222
 msgid ""

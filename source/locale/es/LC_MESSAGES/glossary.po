@@ -545,7 +545,7 @@ msgstr ""
 
 #: ../../glossary.rst:444
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: ../../glossary.rst:446
 msgid ""
@@ -587,7 +587,7 @@ msgstr ""
 
 #: ../../glossary.rst:297
 msgid "kbps"
-msgstr ""
+msgstr "Kbps"
 
 #: ../../glossary.rst:299
 msgid ""
@@ -747,7 +747,7 @@ msgstr ""
 
 #: ../../glossary.rst:238
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../../glossary.rst:240
 msgid ""
@@ -758,7 +758,7 @@ msgstr ""
 
 #: ../../glossary.rst:468
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../../glossary.rst:470
 msgid ""
@@ -769,7 +769,7 @@ msgstr ""
 
 #: ../../glossary.rst:224
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg Vorbis"
 
 #: ../../glossary.rst:226
 msgid ""
@@ -914,7 +914,7 @@ msgstr ""
 
 #: ../../glossary.rst:301
 msgid "ReplayGain"
-msgstr "Ganancia de repetición"
+msgstr "ReplayGain"
 
 #: ../../glossary.rst:303
 msgid ""
@@ -994,7 +994,7 @@ msgstr ""
 
 #: ../../glossary.rst:148
 msgid "master sync"
-msgstr ""
+msgstr "sincronización maestra"
 
 #: ../../glossary.rst:150
 msgid ""

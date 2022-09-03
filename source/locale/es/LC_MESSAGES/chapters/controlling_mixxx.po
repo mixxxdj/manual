@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -375,21 +378,23 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:112
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "Conecte su controladora al ordenador"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Active Mixxx"
 
 #: ../../chapters/controlling_mixxx.rst:114
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr "Vaya a:menuselection:`Preferences-->controladora`"
 
 #: ../../chapters/controlling_mixxx.rst:115
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
 msgstr ""
+"Seleccione su controladora de la lista de dispositivos disponibles izquierda"
+" y el panel de la derecha cambiará."
 
 #: ../../chapters/controlling_mixxx.rst:117
 msgid ""
