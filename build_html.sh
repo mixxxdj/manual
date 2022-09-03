@@ -26,6 +26,8 @@ do
         printf '/:version/%s/* /:version/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
         printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "${lang/_/-}" >> build/html/_redirects
     fi
+    # and finally a catch all redirect for urls like https://manual.mixxx.org/2.7/
+    printf '/* /latest/404.html  404\n' >> build/html/_redirects
     make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"
     i=$((i + 1))
 done

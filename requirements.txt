@@ -1,5 +1,6 @@
 sphinx
 sphinx-intl
+sphinx-notfound-page
 graphviz
 markupsafe
 transifex-client
