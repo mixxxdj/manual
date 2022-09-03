@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,11 +218,11 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "上級者向けトピック"
 
 #: ../../chapters/advanced_topics.rst:9
 msgid "Adding support for your MIDI/HID Controller"
-msgstr ""
+msgstr "MIDI/HID コントローラー対応サポートの追加"
 
 #: ../../chapters/advanced_topics.rst:11
 msgid ""
@@ -250,11 +253,11 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:28
 msgid "Controller Wizard"
-msgstr ""
+msgstr "コントローラーウィザード"
 
 #: ../../chapters/advanced_topics.rst:37
 msgid "Mixxx Controller Wizard -  Mapping a control"
-msgstr ""
+msgstr "Mixxxコントローラーウィザード - コントロールをマップする"
 
 #: ../../chapters/advanced_topics.rst:39
 msgid ""
@@ -264,39 +267,39 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "コントローラーをコンピュータに接続してください。"
 
 #: ../../chapters/advanced_topics.rst:43
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Mixxxを起動してください。"
 
 #: ../../chapters/advanced_topics.rst:44
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr ":menuselection:`Preferences --> Controllers` に移動してください。"
 
 #: ../../chapters/advanced_topics.rst:45
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
-msgstr ""
+msgstr "左の利用できるデバイスリストから選択すると、右の表示が変わります。"
 
 #: ../../chapters/advanced_topics.rst:47
 msgid "Activate the :guilabel:`Enabled` checkbox"
-msgstr ""
+msgstr ":guilabel:`Enabled` チェックボックスを有効にしてください。"
 
 #: ../../chapters/advanced_topics.rst:48
 msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"
-msgstr ""
+msgstr "選択ダイアログを表示するために、 :guilabel:`Learning Wizard` をクリックしてください。"
 
 #: ../../chapters/advanced_topics.rst:49
 msgid "Click any control in the Mixxx :term:`GUI`"
-msgstr ""
+msgstr "Mixxxの:term:`GUI`のどれかのコントロールをクリックしてください。"
 
 #: ../../chapters/advanced_topics.rst:50
 msgid ""
 "Alternatively, click the :guilabel:`Choose Control` button and choose one "
 "from the selection list"
-msgstr ""
+msgstr "あるいは、 :guilabel:`Choose Control` ボタンをクリックして、リストから選択してください。"
 
 #: ../../chapters/advanced_topics.rst:52
 msgid ""
@@ -309,7 +312,7 @@ msgstr ""
 msgid ""
 "If you are learning a button, just push it once.  If you are learning a knob"
 " or a slider, try to move it throughout its range."
-msgstr ""
+msgstr "ボタンを覚えさせるには、1回だけ押してください。ノブやスライダーを覚えさせるには、その幅いっぱいに動かしてください。"
 
 #: ../../chapters/advanced_topics.rst:57
 msgid ""
@@ -320,12 +323,12 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:60
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
-msgstr ""
+msgstr "コントロールのマッピングが終わったら :guilabel:`Done` をクリックしてください。"
 
 #: ../../chapters/advanced_topics.rst:62
 msgid ""
 "There are also some advanced options in the Midi Wizard you may need to use:"
-msgstr ""
+msgstr "他にもMIDIウィザードには便利な機能があります。"
 
 #: ../../chapters/advanced_topics.rst:64
 msgid ""

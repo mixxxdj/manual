@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,7 +218,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:6
 msgid "Controlling Mixxx"
-msgstr ""
+msgstr "Mixxxの制御"
 
 #: ../../chapters/controlling_mixxx.rst:8
 msgid ""
@@ -223,10 +226,11 @@ msgid ""
 "controllers, time-code records/CDs, or a combination of these. The choice "
 "usually depends on your budget or style of DJing."
 msgstr ""
+"Mixxxは、キーボード、マウス、MIDIコントローラ、HIDコントローラ、タイムコードレコードやCD、またはこれらの組み合わせによって制御できます。どれを選ぶかは予算やDJのスタイルによります。"
 
 #: ../../chapters/controlling_mixxx.rst:15
 msgid "Using a Mouse and Touchpad"
-msgstr ""
+msgstr "マウスとタッチパッドを使う"
 
 #: ../../chapters/controlling_mixxx.rst:17
 msgid ""
@@ -234,6 +238,7 @@ msgid ""
 "Interface <interface-overview>` on your computer screen. You can perform "
 "actions by pointing and clicking with your mouse."
 msgstr ""
+"コンピュータ画面上のMixxxユーザインタフェースのコントロール類はマウスによって操作します。マウスでポイント、クリックすることで操作できます。"
 
 #: ../../chapters/controlling_mixxx.rst:21
 msgid ""
@@ -242,6 +247,7 @@ msgid ""
 "track list of the Mixxx :ref:`library <library-interface>`, you can change "
 "the value. For example the year of a track."
 msgstr ""
+"左クリック：ボタン上で1回左クリックするとデフォルトの機能が発動します。さらにトラックリストのライブラリの値をクリックすると、値を変えることができます。例えば、トラックの年など。"
 
 #: ../../chapters/controlling_mixxx.rst:25
 msgid ""
@@ -249,6 +255,7 @@ msgid ""
 " different action than a left click. You can return any knob or fader to its"
 " default value by right-clicking that control."
 msgstr ""
+"右クリック：多くの場合、右クリックすると左クリックとは異なる効果を生じます。どのつまみやフェーダーも右クリックすることでデフォルト値に戻すことができます。"
 
 #: ../../chapters/controlling_mixxx.rst:28
 msgid ""
@@ -256,12 +263,13 @@ msgid ""
 "move your cursor to change the value of the control. Use mouse drag to drop "
 "tracks from the file list to the decks, crates, playlists, etc."
 msgstr ""
+"マウスドラッグ：つまみやフェーダーを左クリックしたままドラッグし値を変えます。ファイルリストからトラックをデッキやプレイリストにドラッグ・ドロップできます。"
 
 #: ../../chapters/controlling_mixxx.rst:31
 msgid ""
 "**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values "
 "by placing the cursor over the control and moving the mouse wheel."
-msgstr ""
+msgstr "マウスホイール：ドラッグと同じように、つまみやフェーダーの値をカーソルをその上に置き、ホイールを動かし、変化させることができます。"
 
 #: ../../chapters/controlling_mixxx.rst:34
 msgid ""
@@ -375,21 +383,21 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:112
 msgid "Connect your controller(s) to your computer"
-msgstr ""
+msgstr "コントローラーをコンピュータに接続してください。"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid "Start Mixxx"
-msgstr ""
+msgstr "Mixxxを起動してください。"
 
 #: ../../chapters/controlling_mixxx.rst:114
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr ""
+msgstr ":menuselection:`Preferences --> Controllers` に移動してください。"
 
 #: ../../chapters/controlling_mixxx.rst:115
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
-msgstr ""
+msgstr "左の利用できるデバイスリストから選択すると、右の表示が変わります。"
 
 #: ../../chapters/controlling_mixxx.rst:117
 msgid ""
