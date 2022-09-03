@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:6
 msgid "Live Broadcasting - Start your own Internet radio"
-msgstr ""
+msgstr "Live-Übertragung - Starten Sie Ihre eigenen Internet-Radio"
 
 #: ../../chapters/livebroadcasting.rst:11
 msgid ""

@@ -223,7 +223,7 @@ msgstr "Die Mixxx-Bibliothek"
 
 #: ../../chapters/library.rst:9
 msgid "Overview of the Library features"
-msgstr "Überblick über die Funktionen der Bibliothek"
+msgstr "Übersicht über die Bibliotheksfunktionen."
 
 #: ../../chapters/library.rst:23
 msgid ""

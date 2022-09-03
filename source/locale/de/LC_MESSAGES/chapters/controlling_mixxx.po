@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:15
 msgid "Using a Mouse and Touchpad"
-msgstr "Mittels einer Maus und Touchpad"
+msgstr "Bedienung mit Maus oder Touchpad"
 
 #: ../../chapters/controlling_mixxx.rst:17
 msgid ""
@@ -297,7 +297,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:48
 msgid "Using a Keyboard"
-msgstr "Mittels einer Tastatur"
+msgstr "Bedienung mit einer Tastatur"
 
 #: ../../chapters/controlling_mixxx.rst-1
 msgid "Keyboard shortcuts"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:112
 msgid "Connect your controller(s) to your computer"
-msgstr "Schliessen Sie die Controller an Ihren Computer an"
+msgstr "Schliessen Sie einen oder mehrere Controller an Ihren Computer an"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid "Start Mixxx"

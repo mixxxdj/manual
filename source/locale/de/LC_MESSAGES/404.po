@@ -19,13 +19,15 @@ msgstr ""
 
 #: ../../404.rst:4
 msgid "Page not found"
-msgstr ""
+msgstr "Seite nicht gefunden"
 
 #: ../../404.rst:6
 msgid ""
 "Sorry, we can't find the page you're looking for. Go back to the :ref:`start"
 " page of the manual <index>`."
 msgstr ""
+"Es tut uns leid, wir können die gesuchte Seite nicht finden. Gehen Sie zurück zur :ref:`start"
+" Seite des Handbuchs <index>`."
 
 #: ../../404.rst:10
 msgid ""
@@ -33,3 +35,6 @@ msgid ""
 "side, let us know on our `issue tracker on GitHub "
 "<https://github.com/mixxxdj/manual/issues>`_!"
 msgstr ""
+"Mixxx basiert auf Zusammenarbeit. Wenn Sie denken, dass dies ein Fehler auf unserer "
+"Seite ist, lass es uns auf unserem `issue tracker auf GitHub "
+"<https://github.com/mixxxdj/manual/issues>` wissen_!"

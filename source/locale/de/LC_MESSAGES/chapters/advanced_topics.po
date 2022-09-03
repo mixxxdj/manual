@@ -219,11 +219,11 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
-msgstr "Fortgeschrittene Themen"
+msgstr "Erweiterte Themen"
 
 #: ../../chapters/advanced_topics.rst:9
 msgid "Adding support for your MIDI/HID Controller"
-msgstr "Unterstützung für ihren MIDI/HID-Controller hinzufügen"
+msgstr "Unterstützung für Ihren Midi/HID-Controller hinzufügen"
 
 #: ../../chapters/advanced_topics.rst:11
 msgid ""

@@ -19,4 +19,4 @@ msgstr ""
 
 #: ../../index_developer.rst:1
 msgid "**For documentation writers**"
-msgstr ""
+msgstr "**Für Verfasser von Dokumentationen**"
