@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/mixxx-dj-software/teams/7734/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/behringer_bcd3000.rst:4
+msgid "Behringer BCD3000"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcd3000.rst:6
+msgid ""
+"`Manufacturer's page "
+"<https://www.behringer.com/product.html?modelCode=P0758>`__"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcd3000.rst:8
+msgid ""
+"The B-Control Deejay BCD3000 controller is a 4-channel audio interface. It "
+"offers a fully fitted controller console with 24-bit A/D und D/A converters,"
+" a USB audio interface with a microphone preamplifier, a 3-band kill EQ for "
+"each channel, faders, a crossfader and talkover function."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcd3000.rst:13
+msgid ""
+"By default, the input channels 1-2 use the RCA phono inputs for the source "
+"signal. On Windows, this can be switched to the microphone in the ASIO "
+"driver control panel. On GNU/Linux and Mac OS X, `a particular MIDI message "
+"must be sent <https://mixxx.discourse.group/t/mixxx-bcd3000-mic-port-is-not-"
+"work/16008>`__ to switch channels 1-2 to the microphone input."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcd3000.rst:22
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

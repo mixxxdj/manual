@@ -1,0 +1,912 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:2
+msgid "Stanton DJC.4"
+msgstr "Stanton DJC.4"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:4
+msgid ""
+"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
+"systems/djc4.html>`__"
+msgstr ""
+"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
+"systems/djc4.html>`__"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:5
+msgid ""
+"`Manual / Midi commands "
+"<http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
+msgstr ""
+"`Manual / Midi commands "
+"<http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:6
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/mapping-for-stanton-"
+"djc-4/14074>`__"
+msgstr ""
+"`Forum thread <https://mixxx.discourse.group/t/mapping-for-stanton-"
+"djc-4/14074>`__"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:11
+msgid "Compatibility"
+msgstr "Compatibility"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:13
+msgid ""
+"This controller is a class compliant USB MIDI and audio device, so it can be"
+" used without any special drivers on GNU/Linux, Mac OS X, and Windows. "
+"However, if you wish to use the :ref:`ASIO sound API <preferences-sound-"
+"api>` under Windows, please install the latest driver package available from"
+" the `Product page <http://www.stantondj.com/stanton-controllers-"
+"systems/djc4.html>`__."
+msgstr ""
+"This controller is a class compliant USB MIDI and audio device, so it can be"
+" used without any special drivers on GNU/Linux, Mac OS X, and Windows. "
+"However, if you wish to use the :ref:`ASIO sound API <preferences-sound-"
+"api>` under Windows, please install the latest driver package available from"
+" the `Product page <http://www.stantondj.com/stanton-controllers-"
+"systems/djc4.html>`__."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:17
+msgid "Sound card setup"
+msgstr "Sound card setup"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:19
+msgid ""
+"This controller has a built-in 4 channel sound card, with MASTER output (RCA"
+" and balanced 6.3 mm TRS) and HEADPHONE output (6.3 and 3.5mm jack)."
+msgstr ""
+"This controller has a built-in 4 channel sound card, with MASTER output (RCA"
+" and balanced 6.3 mm TRS) and HEADPHONE output (6.3 and 3.5mm jack)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:22
+msgid "Output Channels"
+msgstr "Output Channels"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:22
+#: ../../hardware/controllers/stanton_djc_4.rst:29
+msgid "Assign to"
+msgstr "Assign to"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:24
+msgid "1-2"
+msgstr "1-2"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:24
+msgid "Master"
+msgstr "Master"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:25
+msgid "3-4"
+msgstr "3-4"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:25
+msgid "Headphones"
+msgstr "Headphones"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:29
+msgid "Input Channels"
+msgstr "Input Channels"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:31
+msgid "1-2 (Input 1)"
+msgstr "1-2 (Input 1)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:31
+msgid "Vinyl Control 1 or Aux 1"
+msgstr "Vinyl Control 1 or Aux 1"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:32
+msgid "3-4 (Input 2)"
+msgstr "3-4 (Input 2)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:32
+msgid "Vinyl Control 2 or Aux 2"
+msgstr "Vinyl Control 2 or Aux 2"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:35
+msgid ""
+"Above the **Gain** knobs are switches to select which input should be sent "
+"to the PC. For input 1 this can be Aux (3.5 mm TRS) or Line/Phono 1/2 (RCA) "
+"and for input 2 this can be microphone (6.3 mm TRS on front) or Line/Phono "
+"3/4 (RCA)."
+msgstr ""
+"Above the **Gain** knobs are switches to select which input should be sent "
+"to the PC. For input 1 this can be Aux (3.5 mm TRS) or Line/Phono 1/2 (RCA) "
+"and for input 2 this can be microphone (6.3 mm TRS on front) or Line/Phono "
+"3/4 (RCA)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:39
+msgid "Input 1 routing"
+msgstr "Input 1 routing"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:41
+msgid ""
+"On the rear side is a small switch to select if Input 1 is routed to the PC "
+"or directly to the master output (through). It is therefore possible to "
+"include the microphone into a recording/stream or to exclude it."
+msgstr ""
+"On the rear side is a small switch to select if Input 1 is routed to the PC "
+"or directly to the master output (through). It is therefore possible to "
+"include the microphone into a recording/stream or to exclude it."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:45
+msgid ""
+"The :ref:`example setups section <setup-laptop-and-external-card>` provides "
+"more details about the audio configuration in Mixxx."
+msgstr ""
+"The :ref:`example setups section <setup-laptop-and-external-card>` provides "
+"more details about the audio configuration in Mixxx."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:48
+msgid "Hardware controls"
+msgstr "Hardware controls"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:50
+msgid ""
+"The **Master** and **Mic Level** are hardware controls and interact directly"
+" with the integrated sound card and are not mapped to Mixxx."
+msgstr ""
+"The **Master** and **Mic Level** are hardware controls and interact directly"
+" with the integrated sound card and are not mapped to Mixxx."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:53
+msgid ""
+"The :ref:`gain staging documentation <djing-gain-staging>` explains how to "
+"set your levels properly when using Mixxx."
+msgstr ""
+"The :ref:`gain staging documentation <djing-gain-staging>` explains how to "
+"set your levels properly when using Mixxx."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:56
+msgid "Mapping description"
+msgstr "Mapping description"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:58
+msgid ""
+"The knobs for :hwlabel:`MASTER LEVEL`, :hwlabel:`MIC LEVEL` and the "
+":hwlabel:`MIC ON/OFF` switch are controlling the hardware mixer of the "
+"built-in audio interface. Hence, turning the knobs will not change values in"
+" the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their "
+"default values when using the controller."
+msgstr ""
+"The knobs for :hwlabel:`MASTER LEVEL`, :hwlabel:`MIC LEVEL` and the "
+":hwlabel:`MIC ON/OFF` switch are controlling the hardware mixer of the "
+"built-in audio interface. Hence, turning the knobs will not change values in"
+" the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their "
+"default values when using the controller."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:62
+msgid "Controls"
+msgstr "Controls"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:65
+msgid "Center section"
+msgstr "Center section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:68
+#: ../../hardware/controllers/stanton_djc_4.rst:81
+#: ../../hardware/controllers/stanton_djc_4.rst:99
+#: ../../hardware/controllers/stanton_djc_4.rst:127
+#: ../../hardware/controllers/stanton_djc_4.rst:147
+#: ../../hardware/controllers/stanton_djc_4.rst:158
+msgid "No."
+msgstr "No."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:68
+#: ../../hardware/controllers/stanton_djc_4.rst:81
+#: ../../hardware/controllers/stanton_djc_4.rst:99
+#: ../../hardware/controllers/stanton_djc_4.rst:127
+#: ../../hardware/controllers/stanton_djc_4.rst:147
+#: ../../hardware/controllers/stanton_djc_4.rst:158
+msgid "Control"
+msgstr "Control"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:68
+#: ../../hardware/controllers/stanton_djc_4.rst:81
+#: ../../hardware/controllers/stanton_djc_4.rst:99
+#: ../../hardware/controllers/stanton_djc_4.rst:127
+#: ../../hardware/controllers/stanton_djc_4.rst:147
+#: ../../hardware/controllers/stanton_djc_4.rst:158
+#: ../../hardware/controllers/stanton_djc_4.rst:170
+msgid "Function"
+msgstr "Function"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:70
+#: ../../hardware/controllers/stanton_djc_4.rst:83
+#: ../../hardware/controllers/stanton_djc_4.rst:101
+#: ../../hardware/controllers/stanton_djc_4.rst:102
+#: ../../hardware/controllers/stanton_djc_4.rst:103
+#: ../../hardware/controllers/stanton_djc_4.rst:129
+#: ../../hardware/controllers/stanton_djc_4.rst:130
+#: ../../hardware/controllers/stanton_djc_4.rst:149
+#: ../../hardware/controllers/stanton_djc_4.rst:160
+msgid "1"
+msgstr "1"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:70
+msgid ":hwlabel:`SAMPLER VOLUME` knob"
+msgstr ":hwlabel:`SAMPLER VOLUME` knob"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:70
+msgid ""
+"Change the volume of all eight samplers at the same time. If the SAMPLER "
+"VOLUME is at zero hide the sampler bank."
+msgstr ""
+"Change the volume of all eight samplers at the same time. If the SAMPLER "
+"VOLUME is at zero hide the sampler bank."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:71
+#: ../../hardware/controllers/stanton_djc_4.rst:72
+#: ../../hardware/controllers/stanton_djc_4.rst:84
+#: ../../hardware/controllers/stanton_djc_4.rst:104
+#: ../../hardware/controllers/stanton_djc_4.rst:131
+#: ../../hardware/controllers/stanton_djc_4.rst:132
+#: ../../hardware/controllers/stanton_djc_4.rst:150
+msgid "2"
+msgstr "2"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:71
+msgid ":hwlabel:`BROWSER` Rotary encoder"
+msgstr ":hwlabel:`BROWSER` Rotary encoder"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:71
+msgid ""
+"Turn to move tracklist/sidebar cursor up/down. Press to toggle between "
+"sidebar and tracklist."
+msgstr ""
+"Turn to move tracklist/sidebar cursor up/down. Press to toggle between "
+"sidebar and tracklist."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:72
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSER` Rotary encoder"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`BROWSER` Rotary encoder"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:72
+msgid ""
+"Turn to move tracklist/sidebar cursor page wise up/down. Press to "
+"(Un-)Maximizes the library view."
+msgstr ""
+"Turn to move tracklist/sidebar cursor page wise up/down. Press to "
+"(Un-)Maximizes the library view."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:73
+#: ../../hardware/controllers/stanton_djc_4.rst:74
+#: ../../hardware/controllers/stanton_djc_4.rst:85
+#: ../../hardware/controllers/stanton_djc_4.rst:105
+#: ../../hardware/controllers/stanton_djc_4.rst:133
+#: ../../hardware/controllers/stanton_djc_4.rst:134
+msgid "3"
+msgstr "3"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:73
+msgid ":hwlabel:`LOAD` buttons"
+msgstr ":hwlabel:`LOAD` buttons"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:73
+msgid "Load song into active deck (Depending on Deck select)."
+msgstr "Load song into active deck (Depending on Deck select)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:74
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:74
+msgid ""
+"Open/close a tree view. Equivalent to pressing the LEFT/RIGHT key on the "
+"keyboard"
+msgstr ""
+"Open/close a tree view. Equivalent to pressing the LEFT/RIGHT key on the "
+"keyboard"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:78
+msgid "Mixer section"
+msgstr "Mixer section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:83
+msgid ":hwlabel:`GAIN` knobs"
+msgstr ":hwlabel:`GAIN` knobs"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:83
+msgid "Adjust the deck gain (prefader)"
+msgstr "Adjust the deck gain (prefader)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:84
+msgid ":hwlabel:`HI`, :hwlabel:`MID`, :hwlabel:`LOW` knobs"
+msgstr ":hwlabel:`HI`, :hwlabel:`MID`, :hwlabel:`LOW` knobs"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:84
+msgid ""
+"Adjust the high/mid/low-frequency regions of the song. Press to kill this "
+"frequency region."
+msgstr ""
+"Adjust the high/mid/low-frequency regions of the song. Press to kill this "
+"frequency region."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:85
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOW` knob"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`LOW` knob"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:85
+msgid ""
+"QuickEffect superknob (filter by default). Press to (de-)activate "
+"QuickEffect."
+msgstr ""
+"QuickEffect superknob (filter by default). Press to (de-)activate "
+"QuickEffect."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:86
+#: ../../hardware/controllers/stanton_djc_4.rst:106
+#: ../../hardware/controllers/stanton_djc_4.rst:107
+#: ../../hardware/controllers/stanton_djc_4.rst:108
+#: ../../hardware/controllers/stanton_djc_4.rst:135
+msgid "4"
+msgstr "4"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:86
+msgid "Channel :hwlabel:`CUE` buttons"
+msgstr "Channel :hwlabel:`CUE` buttons"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:86
+msgid "Toggle PFL for each channel."
+msgstr "Toggle PFL for each channel."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:87
+#: ../../hardware/controllers/stanton_djc_4.rst:109
+#: ../../hardware/controllers/stanton_djc_4.rst:110
+#: ../../hardware/controllers/stanton_djc_4.rst:136
+msgid "5"
+msgstr "5"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:87
+msgid "Channel faders"
+msgstr "Channel faders"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:87
+msgid "Adjust the output level for each channel."
+msgstr "Adjust the output level for each channel."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:88
+#: ../../hardware/controllers/stanton_djc_4.rst:111
+#: ../../hardware/controllers/stanton_djc_4.rst:137
+msgid "6"
+msgstr "6"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:88
+msgid "Cross fader"
+msgstr "Cross fader"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:88
+msgid "Fades between left and right deck."
+msgstr "Fades between left and right deck."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:89
+#: ../../hardware/controllers/stanton_djc_4.rst:138
+#: ../../hardware/controllers/stanton_djc_4.rst:139
+#: ../../hardware/controllers/stanton_djc_4.rst:140
+msgid "7"
+msgstr "7"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:89
+msgid "Level indicator"
+msgstr "Level indicator"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:89
+msgid "Indicate the output level of master."
+msgstr "Indicate the output level of master."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:90
+msgid "8"
+msgstr "8"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:90
+msgid ":hwlabel:`CROSSFADER CURVE` (front side of controller)"
+msgstr ":hwlabel:`CROSSFADER CURVE` (front side of controller)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:90
+msgid "Adjust crossfader curve between fade and cut."
+msgstr "Adjust crossfader curve between fade and cut."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:91
+msgid "9"
+msgstr "9"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:91
+msgid ":hwlabel:`HEADPHONES MIX` (front side of controller)"
+msgstr ":hwlabel:`HEADPHONES MIX` (front side of controller)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:91
+msgid "Adjusts the cue/main mix in the headphone output."
+msgstr "Adjusts the cue/main mix in the headphone output."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:92
+msgid "10"
+msgstr "10"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:92
+msgid ":hwlabel:`HEADPHONES LEVEL` (front side of controller)"
+msgstr ":hwlabel:`HEADPHONES LEVEL` (front side of controller)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:92
+msgid "Adjusts the headphone output gain."
+msgstr "Adjusts the headphone output gain."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:96
+msgid "Deck section"
+msgstr "Deck section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:101
+msgid "Jog dial (top surface)"
+msgstr "Jog dial (top surface)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:101
+msgid "Perform scratch operation if Scratch is enabled."
+msgstr "Perform scratch operation if Scratch is enabled."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:102
+msgid "Jog dial (outer edge)"
+msgstr "Jog dial (outer edge)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:102
+msgid ""
+"Rotate to lower/raise playback speed if Scratch is enabled (and pitch if key"
+" lock is off)."
+msgstr ""
+"Rotate to lower/raise playback speed if Scratch is enabled (and pitch if key"
+" lock is off)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:103
+msgid ":hwlabel:`SHIFT` + Jog dial (top surface)"
+msgstr ":hwlabel:`SHIFT` + Jog dial (top surface)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:103
+msgid "Search fast through the playback location."
+msgstr "Search fast through the playback location."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:104
+msgid ":hwlabel:`SCRATCH` button"
+msgstr ":hwlabel:`SCRATCH` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:104
+msgid "En-/Disable scratch function"
+msgstr "En-/Disable scratch function"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:105
+msgid ":hwlabel:`SHIFT` button"
+msgstr ":hwlabel:`SHIFT` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:105
+msgid "Hold down to access other functions."
+msgstr "Hold down to access other functions."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:106
+msgid ":hwlabel:`SYNC` button"
+msgstr ":hwlabel:`SYNC` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:106
+msgid "Match tempo and phase of other deck."
+msgstr "Match tempo and phase of other deck."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:107
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SYNC` button"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`SYNC` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:107
+msgid "Plays the track reverse as long as pressed."
+msgstr "Plays the track reverse as long as pressed."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:108
+msgid ":hwlabel:`TAP` button (tap repeatedly)"
+msgstr ":hwlabel:`TAP` button (tap repeatedly)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:108
+msgid "Set tempo by tapping on each beat."
+msgstr "Set tempo by tapping on each beat."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:109
+msgid ":hwlabel:`CUE` button"
+msgstr ":hwlabel:`CUE` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:109
+msgid "Specifies, plays or recalls temporary cue point."
+msgstr "Specifies, plays or recalls temporary cue point."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:110
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` button"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`CUE` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:110
+msgid "Jumps to the cue point and stops."
+msgstr "Jumps to the cue point and stops."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:111
+msgid ":hwlabel:`PLAY/PAUSE` button"
+msgstr ":hwlabel:`PLAY/PAUSE` button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:111
+msgid "Plays or pause the song."
+msgstr "Plays or pause the song."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:112
+msgid "11"
+msgstr "11"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:112
+msgid ":hwlabel:`DECK` select buttons"
+msgstr ":hwlabel:`DECK` select buttons"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:112
+msgid "Switches the deck (left: decks 1 and 3, right: decks 2 and 4)"
+msgstr "Switches the deck (left: decks 1 and 3, right: decks 2 and 4)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:113
+#: ../../hardware/controllers/stanton_djc_4.rst:114
+msgid "12"
+msgstr "12"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:113
+msgid ":hwlabel:`KEY` LOCK"
+msgstr ":hwlabel:`KEY` LOCK"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:113
+msgid "Toggle key lock."
+msgstr "Toggle key lock."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:114
+msgid ":hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:114
+msgid "Toggle beats quantization."
+msgstr "Toggle beats quantization."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:115
+msgid "13"
+msgstr "13"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:115
+msgid "Tempo slider"
+msgstr "Tempo slider"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:115
+msgid "Adjust song playback speed (and pitch if key lock if off)."
+msgstr "Adjust song playback speed (and pitch if key lock if off)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:116
+msgid "14"
+msgstr "14"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:116
+msgid ":hwlabel:`PITCH BEND +`"
+msgstr ":hwlabel:`PITCH BEND +`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:116
+msgid "Holds the speed one step (4 % default) higher while pushed."
+msgstr "Holds the speed one step (4 % default) higher while pushed."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:117
+msgid "15"
+msgstr "15"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:117
+msgid ":hwlabel:`PITCH BEND -`"
+msgstr ":hwlabel:`PITCH BEND -`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:117
+msgid "Holds the speed one step (4 % default) lower while pushed."
+msgstr "Holds the speed one step (4 % default) lower while pushed."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:118
+msgid "14, 15"
+msgstr "14, 15"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:118
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PITCH BEND`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`PITCH BEND`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:118
+msgid "*Not mapped.*"
+msgstr "*Not mapped.*"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:119
+#: ../../hardware/controllers/stanton_djc_4.rst:120
+msgid "16"
+msgstr "16"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:119
+msgid ":hwlabel:`HOT CUE`"
+msgstr ":hwlabel:`HOT CUE`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:119
+msgid "Set (if empty) or Play Hot Cue Point."
+msgstr "Set (if empty) or Play Hot Cue Point."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:120
+msgid ":hwlabel:`SHIFT` + :hwlabel:`HOT CUE`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`HOT CUE`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:120
+msgid "Unset/Delete Hot Cue Point"
+msgstr "Unset/Delete Hot Cue Point"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:124
+msgid "Loop section"
+msgstr "Loop section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:129
+msgid ":hwlabel:`IN`"
+msgstr ":hwlabel:`IN`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:129
+msgid ""
+"If loop is disabled, sets the player loop in position to the current play "
+"position. If loop is enabled, press and hold to move loop in position to the"
+" current play position."
+msgstr ""
+"If loop is disabled, sets the player loop in position to the current play "
+"position. If loop is enabled, press and hold to move loop in position to the"
+" current play position."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:130
+msgid "SHIFT + IN"
+msgstr "SHIFT + IN"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:130
+msgid "Seek to the loop in point."
+msgstr "Seek to the loop in point."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:131
+msgid ":hwlabel:`OUT`"
+msgstr ":hwlabel:`OUT`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:131
+msgid ""
+"If loop is disabled, sets the player loop out position to the current play "
+"position. If loop is enabled, press and hold to move loop out position to "
+"the current play position."
+msgstr ""
+"If loop is disabled, sets the player loop out position to the current play "
+"position. If loop is enabled, press and hold to move loop out position to "
+"the current play position."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:132
+msgid "SHIFT + OUT"
+msgstr "SHIFT + OUT"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:132
+msgid "Seek to the loop out point."
+msgstr "Seek to the loop out point."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:133
+#: ../../hardware/controllers/stanton_djc_4.rst:160
+msgid ":hwlabel:`ON`"
+msgstr ":hwlabel:`ON`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:133
+msgid ""
+"Toggles the current loop on or off. If the loop is ahead of the current play"
+" position, the track will keep playing normally until it reaches the loop."
+msgstr ""
+"Toggles the current loop on or off. If the loop is ahead of the current play"
+" position, the track will keep playing normally until it reaches the loop."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:134
+msgid "SHIFT + ON"
+msgstr "SHIFT + ON"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:134
+msgid "Activate current loop, jump to its loop in point, and stop playback."
+msgstr "Activate current loop, jump to its loop in point, and stop playback."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:135
+msgid ":hwlabel:`DELETE`"
+msgstr ":hwlabel:`DELETE`"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:135
+msgid "Not mapped."
+msgstr "Not mapped."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:136
+msgid "LOOP LENGTH /"
+msgstr "LOOP LENGTH /"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:136
+msgid "Halves beatloop size."
+msgstr "Halves beatloop size."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:137
+msgid "LOOP LENGTH X"
+msgstr "LOOP LENGTH X"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:137
+msgid "Doubles beatloop size."
+msgstr "Doubles beatloop size."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:138
+msgid "BEAT MULTIPLIER encoder"
+msgstr "BEAT MULTIPLIER encoder"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:138
+msgid "Turn to move the loop left or right by 1 beat per click."
+msgstr "Turn to move the loop left or right by 1 beat per click."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:139
+msgid "BEAT MULTIPLIER button"
+msgstr "BEAT MULTIPLIER button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:139
+msgid "Sets a loop using the current beatloop size long and enable the loop."
+msgstr "Sets a loop using the current beatloop size long and enable the loop."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:140
+msgid "SHIFT + BEAT MULTIPLIER button"
+msgstr "SHIFT + BEAT MULTIPLIER button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:140
+msgid "Activates a rolling loop using the current beatloop size."
+msgstr "Activates a rolling loop using the current beatloop size."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:144
+msgid "Sampler section"
+msgstr "Sampler section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:149
+msgid ":hwlabel:`SAMPLER 1-4` (left deck)"
+msgstr ":hwlabel:`SAMPLER 1-4` (left deck)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:149
+msgid "Controls Samplers 1-4 (independent of deck selection)"
+msgstr "Controls Samplers 1-4 (independent of deck selection)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:150
+msgid ":hwlabel:`SAMPLER 1-4` (right deck)"
+msgstr ":hwlabel:`SAMPLER 1-4` (right deck)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:150
+msgid "Controls Samplers 5-8 (independent of deck selection)"
+msgstr "Controls Samplers 5-8 (independent of deck selection)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:155
+msgid "Effect section"
+msgstr "Effect section"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:160
+msgid ""
+"Toggle FX 1 for decks 1/3 (both on the left) and FX 2 for decks 2/4 (both on"
+" the right)."
+msgstr ""
+"Toggle FX 1 for decks 1/3 (both on the left) and FX 2 for decks 2/4 (both on"
+" the right)."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:161
+msgid "2-5"
+msgstr "2-5"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:161
+msgid "*Various*"
+msgstr "*Various*"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:161
+msgid ""
+"See `Standard effects mapping "
+"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+msgstr ""
+"See `Standard effects mapping "
+"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:165
+msgid "Tweakables"
+msgstr "Tweakables"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:167
+msgid ""
+"At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few "
+"customizable options to change the default mapping."
+msgstr ""
+"At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few "
+"customizable options to change the default mapping."
+
+#: ../../hardware/controllers/stanton_djc_4.rst:170
+msgid "Variable"
+msgstr "Variable"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:170
+msgid "Default"
+msgstr "Default"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:172
+msgid "``autoShowFourDecks``"
+msgstr "``autoShowFourDecks``"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:172
+msgid ""
+"If a track gets loaded into deck 3 or 4, automatically show four decks in "
+"Mixxx"
+msgstr ""
+"If a track gets loaded into deck 3 or 4, automatically show four decks in "
+"Mixxx"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:172
+msgid "``false``"
+msgstr "``false``"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:173
+msgid "``showMasterVu``"
+msgstr "``showMasterVu``"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:173
+msgid "If set to false, show channel VU meter instead of Master L/R"
+msgstr "If set to false, show channel VU meter instead of Master L/R"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:173
+msgid "``true``"
+msgstr "``true``"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:174
+msgid "``dryWetAdjustValue``"
+msgstr "``dryWetAdjustValue``"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:174
+msgid "Amount the dryWetKnob changes the value for each increment"
+msgstr "Amount the dryWetKnob changes the value for each increment"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:174
+msgid "0.05"
+msgstr "0.05"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:178
+msgid "Known Issues"
+msgstr "Known Issues"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:180
+msgid "The following controls are currently not mapped:"
+msgstr "The following controls are currently not mapped:"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:182
+msgid "Loop Delete button (no matching function in Mixxx)"
+msgstr "Loop Delete button (no matching function in Mixxx)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:183
+msgid "X-Fader Link button"
+msgstr "X-Fader Link button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:184
+msgid "Smart Fade button"
+msgstr "Smart Fade button"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:185
+msgid "Smart button (Shift + Scratch)"
+msgstr "Smart button (Shift + Scratch)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:186
+msgid "Video button (Shift + Smart Fade)"
+msgstr "Video button (Shift + Smart Fade)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:187
+msgid "FX Ctrl 1/2 fader (Shift + Channel fader)"
+msgstr "FX Ctrl 1/2 fader (Shift + Channel fader)"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:188
+msgid "TX/FX Select rotary encoder"
+msgstr "TX/FX Select rotary encoder"
+
+#: ../../hardware/controllers/stanton_djc_4.rst:189
+msgid "TX/FX Action rotary encoder button"
+msgstr "TX/FX Action rotary encoder button"

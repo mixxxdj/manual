@@ -1,21 +1,217 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2014-08-03 11:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish (Peru) (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/es_PE/)\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: Spanish (Peru) (https://www.transifex.com/mixxx-dj-software/teams/7734/es_PE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_PE\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/advanced_topics.rst:4
 msgid "Advanced Topics"
@@ -35,97 +231,103 @@ msgstr ""
 #: ../../chapters/advanced_topics.rst:14
 msgid ""
 "Support for additional devices can be added to Mixxx by creating a new "
-"preset file. This file tells Mixxx how to translate, or map, "
+"mapping file. This file tells Mixxx how to translate, or map, "
 ":term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx"
 " understands."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:18
 msgid ""
-"You can download and share custom controller presets in the `Mixxx User "
+"You can download and share custom controller mappings in the `Mixxx User "
 "customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:25
+#: ../../chapters/advanced_topics.rst:21
+msgid ""
+"For a list of controls that can be used in a controller mapping, see "
+":ref:`appendix-mixxxcontrols`."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:28
 msgid "Controller Wizard"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:34
+#: ../../chapters/advanced_topics.rst:37
 msgid "Mixxx Controller Wizard -  Mapping a control"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:36
+#: ../../chapters/advanced_topics.rst:39
 msgid ""
-"By far, the easiest way to create a new MIDI preset is by using the "
+"By far, the easiest way to create a new MIDI mapping is by using the "
 "Controller Wizard."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:39
+#: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:40
+#: ../../chapters/advanced_topics.rst:43
 msgid "Start Mixxx"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:41
+#: ../../chapters/advanced_topics.rst:44
 msgid "Go to :menuselection:`Preferences --> Controllers`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:42
+#: ../../chapters/advanced_topics.rst:45
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:44
+#: ../../chapters/advanced_topics.rst:47
 msgid "Activate the :guilabel:`Enabled` checkbox"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:45
+#: ../../chapters/advanced_topics.rst:48
 msgid "Click on :guilabel:`Learning Wizard` to open the selection dialog"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:46
+#: ../../chapters/advanced_topics.rst:49
 msgid "Click any control in the Mixxx :term:`GUI`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:47
+#: ../../chapters/advanced_topics.rst:50
 msgid ""
 "Alternatively, click the :guilabel:`Choose Control` button and choose one "
 "from the selection list"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:49
+#: ../../chapters/advanced_topics.rst:52
 msgid ""
 "Push :guilabel:`Learn` and then move a control or push a button on your "
 "controller to map it.  You can also move a control without pushing the "
 ":guilabel:`Learn` button if you are learning many controls."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:52
+#: ../../chapters/advanced_topics.rst:55
 msgid ""
 "If you are learning a button, just push it once.  If you are learning a knob"
 " or a slider, try to move it throughout its range."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:54
+#: ../../chapters/advanced_topics.rst:57
 msgid ""
 "After Mixxx detects the control, you may click :guilabel:`Learn Another` or "
 "you can click on another button in the Mixxx :term:`GUI` to learn another "
 "control."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:57
+#: ../../chapters/advanced_topics.rst:60
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:59
+#: ../../chapters/advanced_topics.rst:62
 msgid ""
 "There are also some advanced options in the Midi Wizard you may need to use:"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:61
+#: ../../chapters/advanced_topics.rst:64
 msgid ""
 "Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in"
 " when the knob in the :term:`GUI` doesn't match the physical knob. If you "
@@ -133,13 +335,13 @@ msgid ""
 "easily. (Recommended off)"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:65
+#: ../../chapters/advanced_topics.rst:68
 msgid ""
 "Invert: Use this option for controls that you want to work backwards from "
 "how they were detected."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:67
+#: ../../chapters/advanced_topics.rst:70
 msgid ""
 "Switch Mode: Use this option on controllers that have controls that act like"
 " switches and emit one value on the first press, and a different value on "
@@ -147,57 +349,44 @@ msgid ""
 "lights up on the first press and turns off on the second press)."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:71
+#: ../../chapters/advanced_topics.rst:74
 msgid ""
 "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or "
 "an end, but spin continuously."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:74
-msgid ""
-"The Controller wizard saves the new preset to the following file paths:"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:76
-msgid "Linux: :file:`/home/<username>/.mixxx/controllers`"
-msgstr ""
-
 #: ../../chapters/advanced_topics.rst:77
 msgid ""
-"macOS: :file:`/Users/<username>/Library/Application\\\\ "
-"Support/Mixxx/controllers`"
+"The Controller wizard saves the new mapping to the ``controllers`` directory"
+" in the user settings directory, see :ref:`appendix-settings-files`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:78
-msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\controllers`"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:80
+#: ../../chapters/advanced_topics.rst:81
 msgid ""
 "You can then modify the XML file it creates (or any of the ones that ship "
-"with Mixxx) if you'd like to fine-tune it or add more presets. For more "
-"information, go to "
-"`<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_."
+"with Mixxx) if you'd like to fine-tune it or add more mappings. For more "
+"information, go to `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
+"Mapping-File-Format>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:85
+#: ../../chapters/advanced_topics.rst:86
 msgid ""
 "The Controller Wizard works only for :term:`MIDI` devices. Currently you "
 "can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI "
 "Scripting <advanced-controller-midiscript>` instead."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:92
+#: ../../chapters/advanced_topics.rst:93
 msgid "MIDI Scripting"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:94
+#: ../../chapters/advanced_topics.rst:95
 msgid ""
 "In order to support the advanced features of many :term:`MIDI`/:term:`HID` "
 "controllers, Mixxx offers what we call MIDI Scripting."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:97
+#: ../../chapters/advanced_topics.rst:98
 msgid ""
 "It enables MIDI controls to be mapped to `QtScript "
 "<https://en.wikipedia.org/wiki/QtScript>`_ (aka Javascript/EMCAScript) "
@@ -210,64 +399,66 @@ msgid ""
 "controller."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:106
+#: ../../chapters/advanced_topics.rst:107
 msgid ""
-"For more information, go to "
-"`<https://mixxx.org/wiki/doku.php/midi_scripting>`_ and "
-"`<https://mixxx.org/wiki/doku.php/hid_mapping_format>`_."
+"For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-"
+"Scripting>`_ and "
+"`<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:112
+#: ../../chapters/advanced_topics.rst:113
 msgid "Making a Custom Keyboard Mapping"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:114
+#: ../../chapters/advanced_topics.rst:115
 msgid ""
 "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a "
 "text file which can be found at the following location:"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:117
+#: ../../chapters/advanced_topics.rst:118
 msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:118
+#: ../../chapters/advanced_topics.rst:119
 msgid ""
 "macOS: "
 ":file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:119
+#: ../../chapters/advanced_topics.rst:120
 msgid "Windows: :file:`<Mixxx installation directory>\\\\keyboard\\\\en_US.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:121
+#: ../../chapters/advanced_topics.rst:122
 msgid ""
 "Depending on your system's language settings, Mixxx might use a different "
 "file as default, e.g. :file:`de_DE.kbd.cfg` for German or "
 ":file:`es_ES.kbd.cfg` for Spanish."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:125
+#: ../../chapters/advanced_topics.rst:126
 msgid ""
 "It is not recommended that you modify the system-wide keyboard mapping file "
 "because all your changes may be lost if you uninstall or upgrade Mixxx. "
 "Instead, copy the default mapping file to the following location:"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:129
+#: ../../chapters/advanced_topics.rst:130
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:130
-msgid "macOS: :file:`~/Library/Application\\\\ Support/Mixxx/Custom.kbd.cfg`"
+#: ../../chapters/advanced_topics.rst:131
+msgid ""
+"macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
+"Support/Mixxx/Custom.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:131
+#: ../../chapters/advanced_topics.rst:132
 msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:133
+#: ../../chapters/advanced_topics.rst:134
 msgid ""
 "Then edit this file and save the changes. On the next startup, Mixxx will "
 "check if :file:`Custom.kbd.cfg` is present and load that file instead of the"
@@ -275,155 +466,163 @@ msgid ""
 "back to the default mapping by deleting :file:`Custom.kbd.cfg`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:138
+#: ../../chapters/advanced_topics.rst:139
 msgid ""
 "For a list of controls that can be used in a keyboard mapping, see "
-"`<https://mixxx.org/wiki/doku.php/mixxxcontrols>`_."
+":ref:`appendix-mixxxcontrols`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:141
+#: ../../chapters/advanced_topics.rst:142
 msgid ""
 "You can download and share custom keyboard mappings in the `Mixxx User "
 "customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:147
+#: ../../chapters/advanced_topics.rst:148
 msgid "Additional Effects via external Mixer Mode"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:149
+#: ../../chapters/advanced_topics.rst:150
 msgid ""
 "Mixxx comes with a set of :ref:`native effects <effects>`. Additionally, "
 "using the :ref:`external mixer mode <intro-how-mixxx-works>` you can route "
 "each deck directly to 3rd party effect hosts."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:153
+#: ../../chapters/advanced_topics.rst:154
 msgid ""
 "The following examples are only intended to encourage experimentation, they "
 "are not definitive guidance."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:157
+#: ../../chapters/advanced_topics.rst:158
 msgid "Effects via AU Lab on macOS"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:166
+#: ../../chapters/advanced_topics.rst:167
+msgid "The Au Lab routing for external effects"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:167
 msgid "The Au Lab routing for external effects on macOS"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:168
+#: ../../chapters/advanced_topics.rst:169
 msgid ""
 "On macOS there is a simple and free way to give Mixxx access to the "
 "collection of AU/VST/MAS plugins that are installed on your system."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:171
+#: ../../chapters/advanced_topics.rst:172
 msgid ""
-"Install the free `Soundflower <https://github.com/RogueAmoeba/Soundflower-"
-"Original/releases/>`_, a system extension for inter-application audio "
-"routing."
+"Install the free `SoundflowerBed "
+"<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, a system "
+"extension for inter-application audio routing."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:173
+#: ../../chapters/advanced_topics.rst:174
 msgid ""
 "Install the free digital audio mixing application `AU Lab "
-"<https://www.apple.com/itunes/mastered-for-itunes/docs/au_lab.zip>`_."
+"<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:176
+#: ../../chapters/advanced_topics.rst:177
 msgid ""
 "macOS 10.15 (Catalina) introduces additional restrictions on running non-"
 "Apple software. Make sure to grant permission in `System Preferences --> "
 "Security & Privacy --> Microphone --> AU Lab`."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:180
+#: ../../chapters/advanced_topics.rst:181
 msgid ""
 "Alternatively, try `Blackhole "
 "<https://github.com/ExistentialAudio/BlackHole>`_, a modern virtual audio "
 "driver that allows applications to pass audio to other applications with "
-"zero additional latency, and `Hosting AU <http://ju-x.com/hostingau.html>`_,"
-" a free micro-sized :term:`DAW` that hosts Audio Unit instruments and effect"
-" plugins."
+"zero additional :term:`latency`, and `Hosting AU "
+"<http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that "
+"hosts Audio Unit instruments and effect plugins."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:186
+#: ../../chapters/advanced_topics.rst:187
 msgid "**In Mixxx**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:188
+#: ../../chapters/advanced_topics.rst:189
 msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:189
+#: ../../chapters/advanced_topics.rst:190
 msgid ""
 "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 1-2`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:191
+#: ../../chapters/advanced_topics.rst:192
 msgid ""
 "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 3-4`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:193
+#: ../../chapters/advanced_topics.rst:194
 msgid "Click the :guilabel:`Apply` button"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:195
+#: ../../chapters/advanced_topics.rst:196
 msgid "**In AU Lab**"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:197
+#: ../../chapters/advanced_topics.rst:198
 msgid "Click on the :guilabel:`+` button to create a new configuration"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:198
+#: ../../chapters/advanced_topics.rst:199
 msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:199
+#: ../../chapters/advanced_topics.rst:200
 msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:200
+#: ../../chapters/advanced_topics.rst:201
 msgid "Click :guilabel:`OK`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:201
+#: ../../chapters/advanced_topics.rst:202
 msgid "Change the audio input device to :guilabel:`Soundflower 16`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:202
+#: ../../chapters/advanced_topics.rst:203
 msgid ""
 "Change the audio output device for example to :guilabel:`Built-in Output`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:203
+#: ../../chapters/advanced_topics.rst:204
 msgid "Click :guilabel:`Create document`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:204
+#: ../../chapters/advanced_topics.rst:205
 msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
-"menu, for example :guilabel:`Apple > AUCompressor`"
+"menu, for example :menuselection:`Apple --> AUCompressor`"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:207
+#: ../../chapters/advanced_topics.rst:208
 msgid "The effect should now react if you play a track in Mixxx."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:210
+#: ../../chapters/advanced_topics.rst:211
 msgid "Effects via JACK Rack on GNU/Linux"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:219
+#: ../../chapters/advanced_topics.rst:220
+msgid "The Jack routing for external effects"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:220
 msgid "The Jack routing for external effects on GNU/Linux"
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:221
+#: ../../chapters/advanced_topics.rst:222
 msgid ""
 "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to "
 "route each deck directly through `JACK Rack <http://jack-"
@@ -432,59 +631,9 @@ msgid ""
 "access to the extensive collection of :term:`LADSPA` plugins."
 msgstr ""
 
-#: ../../chapters/advanced_topics.rst:227
+#: ../../chapters/advanced_topics.rst:228
 msgid ""
 "Make sure the correct multichannel audio interface has been selected in Jack"
 " (Jack settings visible bottom left). Note that Mixxx possibly labels its "
 "Jack ports as :guilabel:`Portaudio`."
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:232
-msgid "Deleting Your Library"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:234
-msgid ""
-"The library file is stored in the following places depending on your "
-":term:`operating system`:"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:241
-msgid "**Windows**"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:238
-msgid ""
-"The Mixxx library is stored in the :file:`%USERPROFILE%\\\\Local "
-"Settings\\\\Application Data\\\\Mixxx\\\\` folder. To delete your library on"
-" Windows, delete the :file:`mixxxdb.sqlite` file in this folder."
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:248
-msgid "**macOS**"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:244
-msgid ""
-"The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`"
-" folder in your home directory. To delete your library on macOS type the "
-"following command into a terminal: ::"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:254
-msgid "**GNU/Linux**"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:251
-msgid ""
-"The Mixxx library is stored in the ``.mixxx`` folder in your home directory."
-" To delete your library on GNU/Linux type the following command into a "
-"terminal: ::"
-msgstr ""
-
-#: ../../chapters/advanced_topics.rst:256
-msgid ""
-"Deleting your library will lose all of your :term:`metadata`. This includes "
-"saved hotcues, loops, comments, ratings, and other library related metadata."
-" Only delete your library if you are fine with losing these."
 msgstr ""

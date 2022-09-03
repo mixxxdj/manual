@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: Greek (Cyprus) (https://www.transifex.com/mixxx-dj-software/teams/7734/el_CY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_CY\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/akai_mpd24.rst:2
+msgid "Akai MPD24"
+msgstr ""
+
+#: ../../hardware/controllers/akai_mpd24.rst:4
+msgid "`Manufacturer’s product page <https://www.akaipro.com/mpd24>`__"
+msgstr ""
+
+#: ../../hardware/controllers/akai_mpd24.rst:5
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/akai-mpd24-midi-"
+"setup/9020>`__"
+msgstr ""
+
+#: ../../hardware/controllers/akai_mpd24.rst:10
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

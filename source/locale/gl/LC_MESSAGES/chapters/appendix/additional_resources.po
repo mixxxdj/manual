@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Galician (https://www.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:4
+msgid "Additional Resources"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:9
+msgid ""
+"Got questions? Need more information? Want to :ref:`contribute "
+"<contributing>`? There are a variety of other resources where you can find "
+"out more:"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:12
+msgid ""
+"**Mixxx Website**: For general information and updates, as well as the "
+"latest news on Mixxx, go to: `<https://mixxx.org>`_"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:15
+msgid ""
+"**Mixxx Wiki**: For up-to-date information about supported DJ hardware, "
+"documentation on making controller mappings, and other tips and tricks, go "
+"to: `<https://github.com/mixxxdj/mixxx/wiki>`_"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:19
+msgid ""
+"**Keyboard Shortcuts**: This a list for all default Mixxx keyboard "
+"shortcuts. Please note that these shortcuts are for keyboards configured in "
+"English layout and default shortcuts may be different if your language "
+"setting is not English. :ref:`default keyboard mappings<appendix-keyboard>`"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:25
+msgid ""
+"**Mixxx Community Forums**: To search for answers, post your question or "
+"answer other DJ's questions, go to: `<https://mixxx.org/forums>`_"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:28
+msgid ""
+"**Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our `Zulip"
+" chat <https://mixxx.zulipchat.com/>`_. Stand-alone `apps for Zulip "
+"<https://zulipchat.com/apps/>`_ can be configured to use the server "
+"``mixxx.zulipchat.com``."
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:33
+msgid ""
+"**Mixxx Source Code**: To download the source code for Mixxx, go to: "
+"`<https://github.com/mixxxdj/mixxx>`_"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:36
+msgid ""
+"**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
+"`<https://bugs.launchpad.net/mixxx>`_"
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:39
+msgid ""
+"**Mixxx Translations**: To translate Mixxx and promote your mother tongue, "
+"go to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please read"
+" the `Translation FAQ "
+"<https://github.com/mixxxdj/mixxx/wiki/internationalization>`_ first."
+msgstr ""
+
+#: ../../chapters/appendix/additional_resources.rst:44
+msgid ""
+"**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and"
+" `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
+msgstr ""

@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:2
+msgid "Stanton SCS.1m"
+msgstr "Stanton SCS.1m"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:11
+msgid "Stanton SCS.1m (top/schematic view)"
+msgstr "Stanton SCS.1m (top/schematic view)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:11
+msgid ""
+"Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, "
+"Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo."
+msgstr ""
+"Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, "
+"Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:13
+msgid ""
+"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
+"systems/scs1m.html>`__"
+msgstr ""
+"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
+"systems/scs1m.html>`__"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:17
+msgid ""
+"**Easy customization:** We have provided the following customization "
+"variables at the top of the script you can set to your liking:"
+msgstr ""
+"**Easy customization:** We have provided the following customization "
+"variables at the top of the script you can set to your liking:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:20
+msgid ""
+"**faderStart**: If set to *true*, it allows decks to start when their "
+"channel or the cross-fader is opened. (This is also toggleable with the "
+"topmost button on the controller. See below.)"
+msgstr ""
+"**faderStart**: If set to *true*, it allows decks to start when their "
+"channel or the cross-fader is opened. (This is also toggleable with the "
+"topmost button on the controller. See below.)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:23
+msgid ""
+"**scratchFactor**: Adjusts the speed of scratching with the select knob. "
+"(Defaults to **2**.)"
+msgstr ""
+"**scratchFactor**: Adjusts the speed of scratching with the select knob. "
+"(Defaults to **2**.)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:26
+msgid ""
+"Just open the ``controllers/Stanton-SCS1m-scripts.js`` file in your favorite"
+" text editor (Wordpad works too) and you’ll see these variables right near "
+"the top. Edit & save."
+msgstr ""
+"Just open the ``controllers/Stanton-SCS1m-scripts.js`` file in your favorite"
+" text editor (Wordpad works too) and you’ll see these variables right near "
+"the top. Edit & save."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:31
+msgid "Deck controls"
+msgstr "Deck controls"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:33
+#: ../../hardware/controllers/stanton_scs1m.rst:71
+msgid "*Refer to the image above, top to bottom*"
+msgstr "*Refer to the image above, top to bottom*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:35
+msgid ""
+"**a** buttons: Sync function: change the pitch of the deck so that its BPM "
+"matches that of the other deck (assuming the pitch range is sufficient)"
+msgstr ""
+"**a** buttons: Sync function: change the pitch of the deck so that its BPM "
+"matches that of the other deck (assuming the pitch range is sufficient)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:37
+msgid "**b** buttons: Toggle headphone cue"
+msgstr "**b** buttons: Toggle headphone cue"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:38
+msgid "**Gain, High, Mid, Low** knobs: as labeled"
+msgstr "**Gain, High, Mid, Low** knobs: as labeled"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:39
+msgid "**Pan**\\ *knob: unused*"
+msgstr "**Pan**\\ *knob: unused*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:40
+msgid "**c** encoders"
+msgstr "**c** encoders"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:41
+msgid "Rotate to increase or decrease the pitch range in 1% steps"
+msgstr "Rotate to increase or decrease the pitch range in 1% steps"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:42
+msgid "Press to toggle the flange effect"
+msgstr "Press to toggle the flange effect"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:43
+msgid ""
+"**c** displays: Show the current pitch adjustment percentage. The back light"
+" color changes with the pitch range:"
+msgstr ""
+"**c** displays: Show the current pitch adjustment percentage. The back light"
+" color changes with the pitch range:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:45
+msgid "Green = 1%-25%"
+msgstr "Green = 1%-25%"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:46
+msgid "Orange = 25%-50%"
+msgstr "Orange = 25%-50%"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:47
+msgid "Red = 50% and above"
+msgstr "Red = 50% and above"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:48
+msgid "**c** A buttons: Permanently lower the pitch by 1%"
+msgstr "**c** A buttons: Permanently lower the pitch by 1%"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:49
+msgid "**c** B buttons: Permanently raise the pitch by 1%"
+msgstr "**c** B buttons: Permanently raise the pitch by 1%"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:50
+msgid "**e** sliders: Pitch adjust"
+msgstr "**e** sliders: Pitch adjust"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:51
+msgid ""
+"**e** buttons: Temporarily raise the pitch by 4% for as long as held (pitch "
+"bend up.)"
+msgstr ""
+"**e** buttons: Temporarily raise the pitch by 4% for as long as held (pitch "
+"bend up.)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:53
+msgid ""
+"**g** buttons: Temporarily lower the pitch by 4% for as long as held (pitch "
+"bend down.)"
+msgstr ""
+"**g** buttons: Temporarily lower the pitch by 4% for as long as held (pitch "
+"bend down.)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:55
+msgid "**d** encoders"
+msgstr "**d** encoders"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:56
+msgid ""
+"Rotate to nudge the track either direction (akin to twisting a record "
+"spindle)"
+msgstr ""
+"Rotate to nudge the track either direction (akin to twisting a record "
+"spindle)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:58
+msgid "Press to toggle reverse playback"
+msgstr "Press to toggle reverse playback"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:59
+msgid "LEDs show current track position"
+msgstr "LEDs show current track position"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:60
+msgid ""
+"**d** displays: Show the current track time remaining. They will flash "
+"slowly when less than 30 seconds remain, quickly when less than 15 seconds "
+"remain."
+msgstr ""
+"**d** displays: Show the current track time remaining. They will flash "
+"slowly when less than 30 seconds remain, quickly when less than 15 seconds "
+"remain."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:62
+msgid "**d** A buttons: Rewind"
+msgstr "**d** A buttons: Rewind"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:63
+msgid "**d** B buttons: Fast-forward"
+msgstr "**d** B buttons: Fast-forward"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:64
+msgid "**f** sliders: Volume adjust"
+msgstr "**f** sliders: Volume adjust"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:65
+msgid "**f** buttons: Play/pause"
+msgstr "**f** buttons: Play/pause"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:66
+msgid "**h** buttons: Cue"
+msgstr "**h** buttons: Cue"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:69
+msgid "Global controls"
+msgstr "Global controls"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:73
+msgid "**z** button: Toggle fader start/cue"
+msgstr "**z** button: Toggle fader start/cue"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:74
+msgid "**Master, Headphones, Cue Mix** knobs: as labeled"
+msgstr "**Master, Headphones, Cue Mix** knobs: as labeled"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:75
+msgid "**Zone**\\ *knob: unused*"
+msgstr "**Zone**\\ *knob: unused*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:76
+msgid "**Gain**\\ *knob: unused*"
+msgstr "**Gain**\\ *knob: unused*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:77
+msgid "**i** knob: Adjust flange effect depth"
+msgstr "**i** knob: Adjust flange effect depth"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:78
+msgid "**j** knob: Adjust flange effect delay"
+msgstr "**j** knob: Adjust flange effect delay"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:79
+msgid "**k** knob: Adjust flange effect period (Low Frequency Oscillator)"
+msgstr "**k** knob: Adjust flange effect period (Low Frequency Oscillator)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:80
+msgid "**l** knob: Adjust master pan (balance)"
+msgstr "**l** knob: Adjust master pan (balance)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:81
+msgid "**p**\\ *button: unused*"
+msgstr "**p**\\ *button: unused*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:82
+msgid "**m** button: BPM tap for Deck 1"
+msgstr "**m** button: BPM tap for Deck 1"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:83
+msgid "**n**\\ *button: unused*"
+msgstr "**n**\\ *button: unused*"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:84
+msgid "**o** button: BPM tap for Deck 2"
+msgstr "**o** button: BPM tap for Deck 2"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:85
+msgid ""
+"**Preset** buttons: Hot cue points for the selected deck (**q** button)"
+msgstr ""
+"**Preset** buttons: Hot cue points for the selected deck (**q** button)"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:86
+msgid ""
+"**Bank Down** button: select backward between Library, Playlist, and Browse "
+"views"
+msgstr ""
+"**Bank Down** button: select backward between Library, Playlist, and Browse "
+"views"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:88
+msgid ""
+"**Bank Up** button: select forward between Library, Playlist, and Browse "
+"views"
+msgstr ""
+"**Bank Up** button: select forward between Library, Playlist, and Browse "
+"views"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:90
+msgid ""
+"**q** button: Change which deck’s hot cues are active (**Preset** buttons.) "
+"Off is Deck 1, On (red) is Deck 2."
+msgstr ""
+"**q** button: Change which deck’s hot cues are active (**Preset** buttons.) "
+"Off is Deck 1, On (red) is Deck 2."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:92
+msgid "**r** jog wheel:"
+msgstr "**r** jog wheel:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:93
+msgid "**Browse mode**:"
+msgstr "**Browse mode**:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:95
+msgid "Rotate to move the track select highlight"
+msgstr "Rotate to move the track select highlight"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:96
+msgid ""
+"Press to load the selected track into the first stopped deck, if any. "
+"//(This is [[https://bugs.launchpad.net/mixxx/+bug/734713|not working]] in "
+"1.9.x for some reason.)//"
+msgstr ""
+"Press to load the selected track into the first stopped deck, if any. "
+"//(This is [[https://bugs.launchpad.net/mixxx/+bug/734713|not working]] in "
+"1.9.x for some reason.)//"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:100
+msgid "**Control mode**:"
+msgstr "**Control mode**:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:102
+msgid "Rotate to scratch the song on the selected deck"
+msgstr "Rotate to scratch the song on the selected deck"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:103
+msgid "//Pressing does nothing//"
+msgstr "//Pressing does nothing//"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:105
+msgid "**Cancel** button:"
+msgstr "**Cancel** button:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:106
+msgid ""
+"**Browse mode**: Press to load the highlighted song onto deck 1, if it’s not"
+" currently playing."
+msgstr ""
+"**Browse mode**: Press to load the highlighted song onto deck 1, if it’s not"
+" currently playing."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:108
+msgid "**Control mode**: hold down to enable scratching on deck 1"
+msgstr "**Control mode**: hold down to enable scratching on deck 1"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:109
+msgid "**Enter** button:"
+msgstr "**Enter** button:"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:110
+msgid ""
+"**Browse mode**: Press to load the highlighted song onto deck 2, if it’s not"
+" currently playing."
+msgstr ""
+"**Browse mode**: Press to load the highlighted song onto deck 2, if it’s not"
+" currently playing."
+
+#: ../../hardware/controllers/stanton_scs1m.rst:112
+msgid "**Control mode**: hold down to enable scratching on deck 2"
+msgstr "**Control mode**: hold down to enable scratching on deck 2"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:113
+msgid ""
+"//**Setup** button: unused by Mixxx but will enter the mixer’s internal "
+"setup menu//"
+msgstr ""
+"//**Setup** button: unused by Mixxx but will enter the mixer’s internal "
+"setup menu//"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:115
+msgid "**Control** button: Selects scratching mode for the jog wheel"
+msgstr "**Control** button: Selects scratching mode for the jog wheel"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:116
+msgid "**Browse** button: Selects track browse mode for the jog wheel"
+msgstr "**Browse** button: Selects track browse mode for the jog wheel"
+
+#: ../../hardware/controllers/stanton_scs1m.rst:118
+msgid "*(Any unlabeled controls are not currently used.)*"
+msgstr "*(Any unlabeled controls are not currently used.)*"

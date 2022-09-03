@@ -1,21 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2014-08-03 11:18+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Turkish (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/tr/)\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/mixxx-dj-software/teams/7734/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:6
 msgid "Controlling Mixxx"
@@ -90,13 +290,17 @@ msgstr ""
 msgid "Using a Keyboard"
 msgstr ""
 
+#: ../../chapters/controlling_mixxx.rst-1
+msgid "Keyboard shortcuts"
+msgstr ""
+
 #: ../../chapters/controlling_mixxx.rst:57
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:59
 msgid ""
-":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
+":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:61
@@ -160,16 +364,16 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:100
-msgid "Loading a controller preset"
+msgid "Loading a controller mapping"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:108
-msgid "Mixxx Preferences - Loading a controller preset"
+msgid "Mixxx Preferences - Loading a controller mapping"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:110
 msgid ""
-"Without loading the correct preset, your controller does not work with "
+"Without loading the correct mapping, your controller does not work with "
 "Mixxx."
 msgstr ""
 
@@ -192,13 +396,13 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:117
-msgid "Activate the :guilabel:`Enabled` checkbox"
+msgid ""
+"Select the mapping for your controller from the :guilabel:`Load Mapping` "
+"drop-down menu"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:118
-msgid ""
-"Select the mapping for your controller from the :guilabel:`Load Preset` "
-"drop-down menu"
+#: ../../chapters/controlling_mixxx.rst:119
+msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:120
@@ -254,7 +458,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:147
-msgid "Additional mappings are available in the `Controller presets forum`_."
+msgid "Additional mappings are available in the `Controller mapping forum`_."
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:149
@@ -265,87 +469,58 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:159
-msgid "Installing a preset from the forum"
+msgid "Installing a mapping from the forum"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:160
 msgid ""
 "To use a controller mapping that did not come bundled with Mixxx, place the "
-"controller mapping in your User Presets folder. This is the folder called "
-"\"controllers\" inside your User Preferences folder. To open your User "
-"Presets folder, go to :menuselection:`Preferences --> Controllers` and click"
-" the :guilabel:`Open User Preset Folder` button. Alternatively, navigate to "
-"the folder in your :term:`OS <operating system>` file browser:"
+"controller mapping in your User Mappings folder. To open it , go to "
+":menuselection:`Preferences --> Controllers` and click the :guilabel:`Open "
+"User Mapping Folder` button. Alternatively, use your :term:`OS <operating "
+"system>` file browser to navigate there. The locations and more details can "
+"be found in :ref:`appendix-settings-files`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:167
-msgid "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:168
-msgid ""
-"macOS: :file:`/Users/<username>/Library/Application "
-"Support/Mixxx/controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:169
-msgid ""
-"Windows Vista and newer: "
-":file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:170
-msgid ""
-"Windows XP: :file:`C:\\\\Documents and "
-"Settings\\\\<username>\\\\AppData\\\\controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:172
-msgid ""
-"On Windows, the :file:`AppData` folder is hidden, so if you have not "
-"already, you will need to set Windows Explorer to show hidden files and "
-"folders (how to do this varies with each version of Windows)."
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:176
+#: ../../chapters/controlling_mixxx.rst:164
 msgid ""
 "If the mapping was posted as a :file:`.zip` file, first extract the "
 ":file:`.zip` file by right clicking on it in your file browser and selecting"
 " the option for extracting an archive or compressed folder. Copy the "
-":file:`.xml` file into your User Preset folder. If there is a :file:`.js` "
-"file, also copy that to your User Preset folder. Restart Mixxx and "
-":ref:`load the preset <control-load-preset>`."
+":file:`.xml` file into your User Mapping folder. If there is a :file:`.js` "
+"file, also copy that to your User Mapping folder. Restart Mixxx and "
+":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:183
-msgid "Map your own your controller"
+#: ../../chapters/controlling_mixxx.rst:171
+msgid "Map your own controller"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:185
+#: ../../chapters/controlling_mixxx.rst:173
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:189
+#: ../../chapters/controlling_mixxx.rst:177
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:194
+#: ../../chapters/controlling_mixxx.rst:182
 msgid "Using Timecode Vinyl Records and CDs"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:196
+#: ../../chapters/controlling_mixxx.rst:184
 msgid ""
-":term:`Vinyl control` allows a user to manipulate the playback of a track in"
-" Mixxx using a turntable or :term:`CDJ` as an interface. In effect, it "
-"simulates the sound and feel of having your digital music collection on "
-"vinyl. Many DJs prefer the tactile feel of vinyl, and vinyl control allows "
-"that feel to be preserved while retaining the benefits of using digital "
-"audio."
+":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
+"playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
+"interface. In effect, it simulates the sound and feel of having your digital"
+" music collection on vinyl. Many DJs prefer the tactile feel of vinyl, and "
+"vinyl control allows that feel to be preserved while retaining the benefits "
+"of using digital audio."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:202
+#: ../../chapters/controlling_mixxx.rst:190
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr ""

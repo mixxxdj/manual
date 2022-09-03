@@ -1,31 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2014-08-03 10:56+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Kannada (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/kn/)\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: Kannada (https://www.transifex.com/mixxx-dj-software/teams/7734/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../_templates/download.html:2
+#: ../../_templates/download.html:3
 msgid "Download"
 msgstr ""
 
-#: ../../_templates/download.html:7
+#: ../../_templates/download.html:8
 msgid "Offline versions of this manual"
 msgstr ""
 
-#: ../../_templates/download.html:10
+#: ../../_templates/download.html:11
 msgid "PDF"
 msgstr ""
 
@@ -37,6 +37,6 @@ msgstr ""
 msgid "Read this page in another language"
 msgstr ""
 
-#: ../../_templates/versioning.html:25
+#: ../../_templates/versioning.html:39
 msgid "Versions"
 msgstr ""

@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:2
+msgid "ION Discover DJ"
+msgstr "ION Discover DJ"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:4
+msgid ""
+"The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-"
+"ing” for people with a potential interest. It does not have a built in sound"
+" card, so a :ref:`splitter cable <hardware-splitter-cables>` or "
+":ref:`separate audio interface <hardware-audio-interfaces>` is required to "
+"use headphones with it."
+msgstr ""
+"The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-"
+"ing” for people with a potential interest. It does not have a built in sound"
+" card, so a :ref:`splitter cable <hardware-splitter-cables>` or "
+":ref:`separate audio interface <hardware-audio-interfaces>` is required to "
+"use headphones with it."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:6
+msgid ""
+"`Manufacturer’s product page <https://www.ionaudio.com/discover%20dj-"
+"bicue3>`__"
+msgstr ""
+"`Manufacturer’s product page <https://www.ionaudio.com/discover%20dj-"
+"bicue3>`__"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:7
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/ion-discover-dj-controller-"
+"possible-future-support/10284>`__"
+msgstr ""
+"`Forum thread <https://mixxx.discourse.group/t/ion-discover-dj-controller-"
+"possible-future-support/10284>`__"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:12
+msgid "Compatibility"
+msgstr "Compatibility"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:14
+msgid ""
+"This controller is USB MIDI class compliant, so it is plug-and-play on all "
+"platforms without having to install any special drivers. The manufacturer’s "
+"page only mentions Windows and Mac but it’s confirmed working on Linux as "
+"well."
+msgstr ""
+"This controller is USB MIDI class compliant, so it is plug-and-play on all "
+"platforms without having to install any special drivers. The manufacturer’s "
+"page only mentions Windows and Mac but it’s confirmed working on Linux as "
+"well."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:18
+msgid "Library browsing"
+msgstr "Library browsing"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:20
+msgid "The controls for library browsing are in the center of the controller."
+msgstr ""
+"The controls for library browsing are in the center of the controller."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:23
+msgid "Control"
+msgstr "Control"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:23
+#: ../../hardware/controllers/ion_discover_dj.rst:50
+msgid "Function"
+msgstr "Function"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:25
+msgid "Rotary encoder"
+msgstr "Rotary encoder"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:25
+msgid "Track selection"
+msgstr "Track selection"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:26
+msgid "Load buttons"
+msgstr "Load buttons"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:26
+msgid ""
+"Loads currently highlighted track to the corresponding deck (only if no "
+"audio is playing)"
+msgstr ""
+"Loads currently highlighted track to the corresponding deck (only if no "
+"audio is playing)"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:27
+msgid "Pushing rotary encoder"
+msgstr "Pushing rotary encoder"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:27
+msgid "Maximizes/minimizes the library"
+msgstr "Maximizes/minimizes the library"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:31
+msgid "Jog wheels"
+msgstr "Jog wheels"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:33
+msgid ""
+"The button in the center can be used to switch the jog wheels between search"
+" and scratch mode. In search mode, the jog wheels can be used to seek to "
+"different parts of a song when paused. When that deck is playing, the jog "
+"wheels can be pushed/pulled to speed up/slow down the playback. This is "
+"useful for beatmatching."
+msgstr ""
+"The button in the center can be used to switch the jog wheels between search"
+" and scratch mode. In search mode, the jog wheels can be used to seek to "
+"different parts of a song when paused. When that deck is playing, the jog "
+"wheels can be pushed/pulled to speed up/slow down the playback. This is "
+"useful for beatmatching."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:36
+msgid ""
+"Pressing the center button will put the jog wheels in scratch mode, which "
+"means that the deck in Mixxx will follow the absolute movement of the jog "
+"wheels. In this mode the Scratch button is lit."
+msgstr ""
+"Pressing the center button will put the jog wheels in scratch mode, which "
+"means that the deck in Mixxx will follow the absolute movement of the jog "
+"wheels. In this mode the Scratch button is lit."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:39
+msgid "Equalizers"
+msgstr "Equalizers"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:41
+msgid ""
+"This controller only has a 2-band equalizer but Mixxx uses a 3-band EQ. "
+"Therefore, the volume knob has been mapped to the low EQ, the bass knob has "
+"been mapped to the mid EQ, and the treble knob has been mapped to the high "
+"EQ. For controlling the volume of the decks, use the crossfader."
+msgstr ""
+"This controller only has a 2-band equalizer but Mixxx uses a 3-band EQ. "
+"Therefore, the volume knob has been mapped to the low EQ, the bass knob has "
+"been mapped to the mid EQ, and the treble knob has been mapped to the high "
+"EQ. For controlling the volume of the decks, use the crossfader."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:45
+msgid "Other buttons"
+msgstr "Other buttons"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:47
+msgid ""
+"The pitch buttons will control the tempo which also controls the pitch, "
+"except when keylock is on (padlock icon on screen)."
+msgstr ""
+"The pitch buttons will control the tempo which also controls the pitch, "
+"except when keylock is on (padlock icon on screen)."
+
+#: ../../hardware/controllers/ion_discover_dj.rst:50
+msgid "Button"
+msgstr "Button"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:50
+msgid "Light"
+msgstr "Light"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "Sync"
+msgstr "Sync"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "Matches the BPM of that deck to the song playing in the other deck"
+msgstr "Matches the BPM of that deck to the song playing in the other deck"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "Blinks according to the beatgrid"
+msgstr "Blinks according to the beatgrid"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "Rev"
+msgstr "Rev"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "While held the deck plays in reverse"
+msgstr "While held the deck plays in reverse"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "only lights when pressed"
+msgstr "only lights when pressed"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "CUE"
+msgstr "CUE"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "Attached to the cue control in mixxx"
+msgstr "Attached to the cue control in mixxx"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "follows cue button on screen"
+msgstr "follows cue button on screen"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:55
+msgid "play/pause"
+msgstr "play/pause"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:55
+msgid "Play/pause the deck"
+msgstr "Play/pause the deck"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:55
+msgid "follows play button on screen"
+msgstr "follows play button on screen"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:58
+msgid ""
+"The behavior of the cue and play buttons can be configured `in Mixxx’s "
+"preferences <interface-cue-modes>`."
+msgstr ""
+"The behavior of the cue and play buttons can be configured `in Mixxx’s "
+"preferences <interface-cue-modes>`."

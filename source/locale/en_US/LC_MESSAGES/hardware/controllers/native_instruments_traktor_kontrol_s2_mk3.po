@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:4
+msgid "Native Instruments Traktor Kontrol S2 MK3"
+msgstr "Native Instruments Traktor Kontrol S2 MK3"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:6
+msgid ""
+"The Kontrol S2 MK3 is a two-channel controller with an integrated sound "
+"card. It has two integrated stereo outputs (line and 1/8\" / 3.5 mm TRS), "
+"headphone outputs (1/8\" / 3.5 mm TRS) and microphone inputs (1/4\" / 6.3 mm"
+" TRS). The MK3 uses the standard HID protocol to send and receive signals "
+"from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from "
+"USB bus power, and using a separate power supply has no impact on the output"
+" level or LED brightness (`as opposed to the MK2 <https://support.native-"
+"instruments.com/hc/en-us/articles/360001108518>`__)."
+msgstr ""
+"The Kontrol S2 MK3 is a two-channel controller with an integrated sound "
+"card. It has two integrated stereo outputs (line and 1/8\" / 3.5 mm TRS), "
+"headphone outputs (1/8\" / 3.5 mm TRS) and microphone inputs (1/4\" / 6.3 mm"
+" TRS). The MK3 uses the standard HID protocol to send and receive signals "
+"from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from "
+"USB bus power, and using a separate power supply has no impact on the output"
+" level or LED brightness (`as opposed to the MK2 <https://support.native-"
+"instruments.com/hc/en-us/articles/360001108518>`__)."
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:10
+msgid ""
+"`Manufacturer’s product page <https://www.native-"
+"instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__"
+msgstr ""
+"`Manufacturer’s product page <https://www.native-"
+"instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:11
+msgid ""
+"`Mapping forum thread <https://mixxx.discourse.group/t/native-instruments-"
+"traktor-kontrol-s2-mk3/18147>`__"
+msgstr ""
+"`Mapping forum thread <https://mixxx.discourse.group/t/native-instruments-"
+"traktor-kontrol-s2-mk3/18147>`__"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:14
+msgid ""
+"Unbind Master knob from Mixxx's Main Gain, because it controls the hardware "
+"volume."
+msgstr ""
+"Unbind Master knob from Mixxx's Main Gain, because it controls the hardware "
+"volume."
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:18
+msgid "Mixxx Sound Hardware Preferences"
+msgstr "Mixxx Sound Hardware Preferences"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:20
+msgid "Master output: channels 1-2"
+msgstr "Master output: channels 1-2"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:21
+msgid "Headphone output: channels 3-4"
+msgstr "Headphone output: channels 3-4"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:24
+msgid "Mixxx mapping"
+msgstr "Mixxx mapping"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:33
+msgid "Native Instruments Traktor Kontrol S2 MK3 (schematic view)"
+msgstr "Native Instruments Traktor Kontrol S2 MK3 (schematic view)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:36
+msgid "Element"
+msgstr "Element"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:36
+msgid "Primary function"
+msgstr "Primary function"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:36
+msgid "Secondary function (+ SHIFT)"
+msgstr "Secondary function (+ SHIFT)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:38
+msgid "REV Button"
+msgstr "REV Button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:38
+msgid "Reverse play while held"
+msgstr "Reverse play while held"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:38
+msgid "Reverse play + slip mode while held"
+msgstr "Reverse play + slip mode while held"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:40
+msgid "FLX Button"
+msgstr "FLX Button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:40
+msgid "Enable and disable slip mode"
+msgstr "Enable and disable slip mode"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:42
+msgid "(3) Browse knob (turn)"
+msgstr "(3) Browse knob (turn)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:42
+msgid "Scroll vertically in library"
+msgstr "Scroll vertically in library"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:42
+msgid "Scroll horizontally in library"
+msgstr "Scroll horizontally in library"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:45
+msgid "(3) Browse knob (press)"
+msgstr "(3) Browse knob (press)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:45
+msgid "Load selected track into deck"
+msgstr "Load selected track into deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:45
+msgid "Eject current track"
+msgstr "Eject current track"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:48
+msgid "(4) Preparation button"
+msgstr "(4) Preparation button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:48
+msgid "Add selected track to AutoDJ queue (bottom)"
+msgstr "Add selected track to AutoDJ queue (bottom)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:48
+msgid "Add selected track to AutoDJ queue (top)"
+msgstr "Add selected track to AutoDJ queue (top)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:51
+msgid "(5) List view button"
+msgstr "(5) List view button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:51
+msgid "Toggles maximizing the library"
+msgstr "Toggles maximizing the library"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
+msgid "Sync button"
+msgstr "Sync button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
+msgid ""
+"Syncs the BPM and phase (depending on quantize). Press longer to activate "
+"master sync on that deck."
+msgstr ""
+"Syncs the BPM and phase (depending on quantize). Press longer to activate "
+"master sync on that deck."
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
+msgid "Syncs the phase to that of the other track"
+msgstr "Syncs the phase to that of the other track"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:56
+msgid "(7) Keylock button"
+msgstr "(7) Keylock button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:56
+msgid "Enable keylock for the deck"
+msgstr "Enable keylock for the deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:59
+msgid "(8) Loop knob (turn)"
+msgstr "(8) Loop knob (turn)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:59
+msgid "Halve or double loop size"
+msgstr "Halve or double loop size"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:62
+msgid "(8) Loop knob (press)"
+msgstr "(8) Loop knob (press)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:62
+msgid "Set a loop of the defined number of beats and enables the loop"
+msgstr "Set a loop of the defined number of beats and enables the loop"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:62
+msgid "Toggles the current loop on or off"
+msgstr "Toggles the current loop on or off"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:65
+msgid "(9) Samples button"
+msgstr "(9) Samples button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:65
+msgid "Active sampler mode (for the number buttons)"
+msgstr "Active sampler mode (for the number buttons)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:68
+msgid "(10) Hotcues button"
+msgstr "(10) Hotcues button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:68
+msgid "Activate hotcue mode (for the number buttons)"
+msgstr "Activate hotcue mode (for the number buttons)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:71
+msgid "(11) Move knob (turn)"
+msgstr "(11) Move knob (turn)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:71
+msgid "Beatjump backwards/forwards"
+msgstr "Beatjump backwards/forwards"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:71
+msgid "Halve or double beatjump size"
+msgstr "Halve or double beatjump size"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:74
+msgid "(11) Move knob (press)"
+msgstr "(11) Move knob (press)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:74
+msgid ""
+"Activates a rolling loop of the defined number of beats. Once disabled, "
+"playback will resume where the track would have been if it had not entered "
+"the loop"
+msgstr ""
+"Activates a rolling loop of the defined number of beats. Once disabled, "
+"playback will resume where the track would have been if it had not entered "
+"the loop"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:74
+msgid "Activate current loop, jump to its loop in point, and stop playback"
+msgstr "Activate current loop, jump to its loop in point, and stop playback"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:77
+msgid "Jog wheels"
+msgstr "Jog wheels"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:77
+msgid ""
+"Control scratching when touched from the top *(Missing: temporarily bend the"
+" pitch when touched from the side)*"
+msgstr ""
+"Control scratching when touched from the top *(Missing: temporarily bend the"
+" pitch when touched from the side)*"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:79
+msgid "Grid button"
+msgstr "Grid button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:79
+msgid ""
+"Adjust beatgrid so closest beat is aligned with the current play position"
+msgstr ""
+"Adjust beatgrid so closest beat is aligned with the current play position"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:79
+msgid "Adjust beatgrid to match another playing deck"
+msgstr "Adjust beatgrid to match another playing deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:81
+msgid "(14) Shift button"
+msgstr "(14) Shift button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:81
+msgid "Activates secondary functions when pressed"
+msgstr "Activates secondary functions when pressed"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:84
+msgid "CUE button"
+msgstr "CUE button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:84
+msgid "CUE default"
+msgstr "CUE default"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:84
+msgid "If the CUE point is set, jump to it and stops"
+msgstr "If the CUE point is set, jump to it and stops"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:86
+msgid "Play button"
+msgstr "Play button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:86
+msgid "Toggles playing"
+msgstr "Toggles playing"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:86
+msgid "Seeks a player to the start and then stops it"
+msgstr "Seeks a player to the start and then stops it"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:88
+msgid "(17) Number buttons"
+msgstr "(17) Number buttons"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:88
+msgid "Function depends on current mode"
+msgstr "Function depends on current mode"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:91
+msgid "Hotcue mode"
+msgstr "Hotcue mode"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:91
+msgid ""
+"If hotcue is set, seeks the player to hotcue position. Otherwise set hotcue "
+"at current position"
+msgstr ""
+"If hotcue is set, seeks the player to hotcue position. Otherwise set hotcue "
+"at current position"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:91
+msgid "Clear the hotcue"
+msgstr "Clear the hotcue"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:93
+msgid "Samples mode"
+msgstr "Samples mode"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:93
+msgid "If track is loaded into corresponding slot, go to CUE point and play"
+msgstr "If track is loaded into corresponding slot, go to CUE point and play"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:93
+msgid "If track is playing, CUE default behaviour. Otherwise eject track"
+msgstr "If track is playing, CUE default behaviour. Otherwise eject track"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:96
+msgid "Tempo fader"
+msgstr "Tempo fader"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:96
+msgid "Speed control"
+msgstr "Speed control"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:98
+msgid "(19) Quantize button"
+msgstr "(19) Quantize button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:98
+msgid "Toggles quantization for both decks"
+msgstr "Toggles quantization for both decks"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:101
+msgid "Gain knob"
+msgstr "Gain knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:101
+msgid "*Unmapped* (adjusts the hardware gain)"
+msgstr "*Unmapped* (adjusts the hardware gain)"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:103
+msgid "(21) Microphone button"
+msgstr "(21) Microphone button"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:103
+msgid "Toggles microphone talkover, long press for permanent activation"
+msgstr "Toggles microphone talkover, long press for permanent activation"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:106
+msgid "(22) Pre-Gain knob"
+msgstr "(22) Pre-Gain knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:106
+msgid "Adjusts the pre-fader gain of the deck"
+msgstr "Adjusts the pre-fader gain of the deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:109
+msgid "HI knob"
+msgstr "HI knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:109
+msgid "High frequency filter"
+msgstr "High frequency filter"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:111
+msgid "MID knob"
+msgstr "MID knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:111
+msgid "Middle frequency filter"
+msgstr "Middle frequency filter"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:113
+msgid "LOW knob"
+msgstr "LOW knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:113
+msgid "Low frequency filter"
+msgstr "Low frequency filter"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:115
+msgid "(26) Effect Superknob"
+msgstr "(26) Effect Superknob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:115
+msgid "Quick effect superknob for the corresponding deck"
+msgstr "Quick effect superknob for the corresponding deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:118
+msgid "Sample knob"
+msgstr "Sample knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:118
+msgid "Adjusts the pregain for all the sample decks combined"
+msgstr "Adjusts the pregain for all the sample decks combined"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:120
+msgid "(28) Headphone mix knob"
+msgstr "(28) Headphone mix knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:120
+msgid "Adjusts the cue/main mix in the headphone output"
+msgstr "Adjusts the cue/main mix in the headphone output"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:123
+msgid "(29) Headphone gain knob"
+msgstr "(29) Headphone gain knob"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:123
+msgid "Adjusts the headphone output gain"
+msgstr "Adjusts the headphone output gain"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:126
+msgid "(30) Effect buttons"
+msgstr "(30) Effect buttons"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:126
+msgid "Enable or disable effect units for both decks"
+msgstr "Enable or disable effect units for both decks"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:129
+msgid "(31) Headphone buttons"
+msgstr "(31) Headphone buttons"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:129
+msgid "Toggles headphone cueing"
+msgstr "Toggles headphone cueing"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:132
+msgid "(32) Volume fader"
+msgstr "(32) Volume fader"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:132
+msgid "Adjusts the channel volume fader for the corresponding deck"
+msgstr "Adjusts the channel volume fader for the corresponding deck"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:135
+msgid "(33) VuMeter LEDs"
+msgstr "(33) VuMeter LEDs"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:135
+msgid "Show the current instantaneous deck volume"
+msgstr "Show the current instantaneous deck volume"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:138
+msgid "Crossfader"
+msgstr "Crossfader"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:138
+msgid "Adjusts the crossfader between both decks"
+msgstr "Adjusts the crossfader between both decks"

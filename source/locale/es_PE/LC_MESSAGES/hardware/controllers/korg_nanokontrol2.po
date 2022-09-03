@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Spanish (Peru) (https://www.transifex.com/mixxx-dj-software/teams/7734/es_PE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_PE\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/korg_nanokontrol2.rst:4
+msgid "Korg nanoKONTROL2"
+msgstr ""
+
+#: ../../hardware/controllers/korg_nanokontrol2.rst:6
+msgid ""
+"There are two mappings for this controller included in Mixxx. The one "
+"labeled “Korg Nanokontrol 2 (alternative)” takes advantage of features "
+"introduced in Mixxx 2.0 such as master sync and cue modes."
+msgstr ""
+
+#: ../../hardware/controllers/korg_nanokontrol2.rst:8
+msgid ""
+"`Manufacturer’s product page "
+"<http://www.korg.com/us/products/controllers/nanokontrol2/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/korg_nanokontrol2.rst:9
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/korg-nanokontrol2-8-decks-"
+"cueloops-save-loops-v2-2/13246>`__"
+msgstr ""
+
+#: ../../hardware/controllers/korg_nanokontrol2.rst:14
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

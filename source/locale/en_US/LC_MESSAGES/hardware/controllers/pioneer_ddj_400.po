@@ -1,0 +1,1005 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:4
+msgid "Pioneer DDJ-400"
+msgstr "Pioneer DDJ-400"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:16
+msgid "Pioneer DDJ-400 (schematic view)"
+msgstr "Pioneer DDJ-400 (schematic view)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:18
+msgid ""
+"The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio "
+"interface designed for rekordbox."
+msgstr ""
+"The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio "
+"interface designed for rekordbox."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:21
+msgid ""
+"`Manufacturer's Product Page <https://www.pioneerdj.com/en-"
+"us/product/controller/ddj-400/black/overview/>`__"
+msgstr ""
+"`Manufacturer's Product Page <https://www.pioneerdj.com/en-"
+"us/product/controller/ddj-400/black/overview/>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:22
+msgid ""
+"`Manufacturer's User Manual "
+"<http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__"
+msgstr ""
+"`Manufacturer's User Manual "
+"<http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:23
+msgid ""
+"`Manufacturer's Firmware "
+"<https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__"
+msgstr ""
+"`Manufacturer's Firmware "
+"<https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:24
+msgid ""
+"`Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-"
+"info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__"
+msgstr ""
+"`Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-"
+"info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:25
+msgid ""
+"`Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-"
+"info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf?la=en-"
+"us>`__"
+msgstr ""
+"`Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-"
+"info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf?la=en-"
+"us>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:26
+msgid ""
+"`Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-"
+"ddj-400/17476>`__"
+msgstr ""
+"`Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-"
+"ddj-400/17476>`__"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:31
+msgid "Firmware"
+msgstr "Firmware"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:33
+msgid ""
+"The release version of the firmware contains a bug which causes signals from"
+" the tempo sliders to be sent without the sliders being touched."
+msgstr ""
+"The release version of the firmware contains a bug which causes signals from"
+" the tempo sliders to be sent without the sliders being touched."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:37
+msgid ""
+"It is therefore highly recommended that you update your controller's "
+"firmware."
+msgstr ""
+"It is therefore highly recommended that you update your controller's "
+"firmware."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:40
+msgid ""
+"You can download the latest firmware from `the manufacturer's website "
+"<https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__."
+msgstr ""
+"You can download the latest firmware from `the manufacturer's website "
+"<https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:43
+msgid ""
+"Unfortunately Pioneer only offers a Windows and Mac firmware installer, so "
+"to update your controller you will need access to such a machine. Simply "
+"download the appropriate file for that OS, attach your device and run the "
+"installer."
+msgstr ""
+"Unfortunately Pioneer only offers a Windows and Mac firmware installer, so "
+"to update your controller you will need access to such a machine. Simply "
+"download the appropriate file for that OS, attach your device and run the "
+"installer."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:48
+msgid "Compatibility"
+msgstr "Compatibility"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:50
+msgid ""
+"The Pioneer DDJ-400 is USB audio and MIDI class compliant and works with "
+"Linux, Windows, and macOS without needing to install any drivers. However, "
+"updating the firmware is recommended as described above."
+msgstr ""
+"The Pioneer DDJ-400 is USB audio and MIDI class compliant and works with "
+"Linux, Windows, and macOS without needing to install any drivers. However, "
+"updating the firmware is recommended as described above."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:55
+msgid "Audio Setup"
+msgstr "Audio Setup"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:57
+msgid ""
+"Configure Mixxx's :ref:`sound hardware settings <preferences-sound-"
+"hardware>` as follows:"
+msgstr ""
+"Configure Mixxx's :ref:`sound hardware settings <preferences-sound-"
+"hardware>` as follows:"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:60
+msgid "Output"
+msgstr "Output"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:60
+msgid "Channel"
+msgstr "Channel"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:62
+msgid "Master"
+msgstr "Master"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:62
+msgid "1-2"
+msgstr "1-2"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:63
+msgid "Headphones"
+msgstr "Headphones"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:63
+msgid "3-4"
+msgstr "3-4"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:66
+msgid ""
+"It is not possible to record or broadcast input sent from the 1/4\" "
+"unbalanced TS microphone jack on the controller, as it is not routed back to"
+" the computer and cannot be configured as an input device."
+msgstr ""
+"It is not possible to record or broadcast input sent from the 1/4\" "
+"unbalanced TS microphone jack on the controller, as it is not routed back to"
+" the computer and cannot be configured as an input device."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:71
+msgid "Controller Mapping"
+msgstr "Controller Mapping"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:73
+msgid ""
+"The schematic drawings used here can be referenced in the `manufacturer's "
+"manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__ on "
+"the given page number."
+msgstr ""
+"The schematic drawings used here can be referenced in the `manufacturer's "
+"manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__ on "
+"the given page number."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:78
+msgid "Browser section (p. 6)"
+msgstr "Browser section (p. 6)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:87
+msgid "Pioneer DDJ-400 (browser section)"
+msgstr "Pioneer DDJ-400 (browser section)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:90
+#: ../../hardware/controllers/pioneer_ddj_400.rst:110
+#: ../../hardware/controllers/pioneer_ddj_400.rst:167
+#: ../../hardware/controllers/pioneer_ddj_400.rst:240
+#: ../../hardware/controllers/pioneer_ddj_400.rst:262
+#: ../../hardware/controllers/pioneer_ddj_400.rst:296
+msgid "No."
+msgstr "No."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:90
+#: ../../hardware/controllers/pioneer_ddj_400.rst:110
+#: ../../hardware/controllers/pioneer_ddj_400.rst:167
+#: ../../hardware/controllers/pioneer_ddj_400.rst:240
+#: ../../hardware/controllers/pioneer_ddj_400.rst:262
+#: ../../hardware/controllers/pioneer_ddj_400.rst:296
+msgid "Control"
+msgstr "Control"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:90
+#: ../../hardware/controllers/pioneer_ddj_400.rst:110
+#: ../../hardware/controllers/pioneer_ddj_400.rst:167
+#: ../../hardware/controllers/pioneer_ddj_400.rst:240
+#: ../../hardware/controllers/pioneer_ddj_400.rst:262
+#: ../../hardware/controllers/pioneer_ddj_400.rst:296
+msgid "Function"
+msgstr "Function"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:92
+#: ../../hardware/controllers/pioneer_ddj_400.rst:112
+#: ../../hardware/controllers/pioneer_ddj_400.rst:113
+#: ../../hardware/controllers/pioneer_ddj_400.rst:264
+#: ../../hardware/controllers/pioneer_ddj_400.rst:298
+#: ../../hardware/controllers/pioneer_ddj_400.rst:299
+msgid "1"
+msgstr "1"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:92
+msgid ":hwlabel:`LOAD` buttons"
+msgstr ":hwlabel:`LOAD` buttons"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:92
+msgid "Load track selected in library into deck."
+msgstr "Load track selected in library into deck."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:93
+#: ../../hardware/controllers/pioneer_ddj_400.rst:114
+#: ../../hardware/controllers/pioneer_ddj_400.rst:115
+#: ../../hardware/controllers/pioneer_ddj_400.rst:265
+#: ../../hardware/controllers/pioneer_ddj_400.rst:300
+#: ../../hardware/controllers/pioneer_ddj_400.rst:301
+msgid "2"
+msgstr "2"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:93
+msgid "Rotary Selector"
+msgstr "Rotary Selector"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:93
+msgid ""
+"Press to toggle focus between the library sidebar and associated panels. "
+"Turn to move focus up or down."
+msgstr ""
+"Press to toggle focus between the library sidebar and associated panels. "
+"Turn to move focus up or down."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:97
+msgid "Deck sections (p. 6)"
+msgstr "Deck sections (p. 6)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:107
+msgid "Pioneer DDJ-400 (deck section)"
+msgstr "Pioneer DDJ-400 (deck section)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:112
+msgid ":hwlabel:`BEAT SYNC`"
+msgstr ":hwlabel:`BEAT SYNC`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:112
+msgid ""
+"Press to sync tempo to the other playing track. Hold to enable sync lock."
+msgstr ""
+"Press to sync tempo to the other playing track. Hold to enable sync lock."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:113
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:113
+msgid "Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%"
+msgstr "Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:114
+msgid ":hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+msgstr ":hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:114
+msgid "Doubles the current loop size."
+msgstr "Doubles the current loop size."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:115
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:115
+msgid "Jumps 32 beats forwards."
+msgstr "Jumps 32 beats forwards."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:116
+#: ../../hardware/controllers/pioneer_ddj_400.rst:117
+#: ../../hardware/controllers/pioneer_ddj_400.rst:267
+#: ../../hardware/controllers/pioneer_ddj_400.rst:302
+msgid "3"
+msgstr "3"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:116
+msgid ":hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+msgstr ":hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:116
+msgid "Halves the current loop size."
+msgstr "Halves the current loop size."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:117
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:117
+msgid "Jumps 32 beats backwards."
+msgstr "Jumps 32 beats backwards."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:118
+#: ../../hardware/controllers/pioneer_ddj_400.rst:119
+#: ../../hardware/controllers/pioneer_ddj_400.rst:269
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+msgid "4"
+msgstr "4"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:118
+msgid ":hwlabel:`RELOOP/EXIT`"
+msgstr ":hwlabel:`RELOOP/EXIT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:118
+msgid "Enables/disables currently set loop."
+msgstr "Enables/disables currently set loop."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:119
+msgid ":hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`"
+msgstr ":hwlabel:`shift` + :hwlabel:`RELOOP/EXIT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:119
+msgid "Jump to loop start, enable loop, and stop playback."
+msgstr "Jump to loop start, enable loop, and stop playback."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:120
+#: ../../hardware/controllers/pioneer_ddj_400.rst:123
+#: ../../hardware/controllers/pioneer_ddj_400.rst:270
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+msgid "5"
+msgstr "5"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:120
+msgid ":hwlabel:`OUT`"
+msgstr ":hwlabel:`OUT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:120
+msgid ""
+"Sets end of loop to the current playback position. If quantize is enabled, "
+"it is set to the closest beat. If held during an active loop, sets the new "
+"end point when released."
+msgstr ""
+"Sets end of loop to the current playback position. If quantize is enabled, "
+"it is set to the closest beat. If held during an active loop, sets the new "
+"end point when released."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:123
+msgid ":hwlabel:`shift` + :hwlabel:`OUT`"
+msgstr ":hwlabel:`shift` + :hwlabel:`OUT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:123
+msgid ""
+"When a loop is enabled, press to adjust the loop's end position with the jog"
+" wheel."
+msgstr ""
+"When a loop is enabled, press to adjust the loop's end position with the jog"
+" wheel."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:124
+#: ../../hardware/controllers/pioneer_ddj_400.rst:126
+#: ../../hardware/controllers/pioneer_ddj_400.rst:271
+#: ../../hardware/controllers/pioneer_ddj_400.rst:306
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
+msgid "6"
+msgstr "6"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:124
+msgid ":hwlabel:`IN/-4BEAT`"
+msgstr ":hwlabel:`IN/-4BEAT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:124
+msgid ""
+"Sets start of loop to the current playback position. If quantize is enabled,"
+" it is set to the closest beat. If held during an active loop, sets the new "
+"start point when released."
+msgstr ""
+"Sets start of loop to the current playback position. If quantize is enabled,"
+" it is set to the closest beat. If held during an active loop, sets the new "
+"start point when released."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:126
+msgid ":hwlabel:`shift` + :hwlabel:`IN/-4BEAT`"
+msgstr ":hwlabel:`shift` + :hwlabel:`IN/-4BEAT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:126
+msgid ""
+"When a loop is enabled, press to adjust the loop's start position with the "
+"jog wheel."
+msgstr ""
+"When a loop is enabled, press to adjust the loop's start position with the "
+"jog wheel."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:127
+#: ../../hardware/controllers/pioneer_ddj_400.rst:128
+#: ../../hardware/controllers/pioneer_ddj_400.rst:272
+msgid "7"
+msgstr "7"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:127
+msgid "Jog Wheel (top)"
+msgstr "Jog Wheel (top)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:127
+msgid "Scratch (move play position)."
+msgstr "Scratch (move play position)."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:128
+msgid "Jog Wheel (outer)"
+msgstr "Jog Wheel (outer)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:128
+msgid "Nudge tempo up or down temporarily."
+msgstr "Nudge tempo up or down temporarily."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:129
+#: ../../hardware/controllers/pioneer_ddj_400.rst:273
+msgid "8"
+msgstr "8"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:129
+msgid ":hwlabel:`HOT CUE` mode"
+msgstr ":hwlabel:`HOT CUE` mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:129
+msgid "Sets pads to :ref:`hot cue mode <pioneer-ddj-400-hot-cue-mode>`."
+msgstr "Sets pads to :ref:`hot cue mode <pioneer-ddj-400-hot-cue-mode>`."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:130
+#: ../../hardware/controllers/pioneer_ddj_400.rst:274
+#: ../../hardware/controllers/pioneer_ddj_400.rst:275
+msgid "9"
+msgstr "9"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:130
+msgid ":hwlabel:`BEAT LOOP` mode"
+msgstr ":hwlabel:`BEAT LOOP` mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:130
+msgid "Sets pads to :ref:`beat loop mode <pioneer-ddj-400-beat-loop-mode>`."
+msgstr "Sets pads to :ref:`beat loop mode <pioneer-ddj-400-beat-loop-mode>`."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:131
+#: ../../hardware/controllers/pioneer_ddj_400.rst:276
+msgid "10"
+msgstr "10"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:131
+msgid ":hwlabel:`BEAT JUMP` mode"
+msgstr ":hwlabel:`BEAT JUMP` mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:131
+msgid "Sets pads to :ref:`beat jump mode <pioneer-ddj-400-beat-jump-mode>`."
+msgstr "Sets pads to :ref:`beat jump mode <pioneer-ddj-400-beat-jump-mode>`."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:132
+#: ../../hardware/controllers/pioneer_ddj_400.rst:277
+msgid "11"
+msgstr "11"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:132
+msgid ":hwlabel:`SAMPLER` mode"
+msgstr ":hwlabel:`SAMPLER` mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:132
+msgid "Sets pads to :ref:`sampler mode <pioneer-ddj-400-sampler-mode>`."
+msgstr "Sets pads to :ref:`sampler mode <pioneer-ddj-400-sampler-mode>`."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:133
+msgid "12"
+msgstr "12"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:133
+msgid ":hwlabel:`TEMPO` slider"
+msgstr ":hwlabel:`TEMPO` slider"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:133
+msgid "Adjust playback speed."
+msgstr "Adjust playback speed."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:134
+msgid "13"
+msgstr "13"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:134
+msgid "Performance pads"
+msgstr "Performance pads"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:134
+msgid "Functionality differs depending on the pad mode selected by 8-11."
+msgstr "Functionality differs depending on the pad mode selected by 8-11."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:135
+msgid "14"
+msgstr "14"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:135
+msgid ":hwlabel:`PLAY/PAUSE`"
+msgstr ":hwlabel:`PLAY/PAUSE`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:135
+msgid "Play/pauses a track)."
+msgstr "Play/pauses a track)."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:136
+msgid "15"
+msgstr "15"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:136
+msgid ":hwlabel:`CUE`"
+msgstr ":hwlabel:`CUE`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:136
+msgid "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+msgstr "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:140
+msgid "Pad Modes"
+msgstr "Pad Modes"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:142
+msgid ""
+"The pad mode buttons change between different modes in which the performance"
+" pads operate. The main pad modes described below are similar to those found"
+" in rekordbox."
+msgstr ""
+"The pad mode buttons change between different modes in which the performance"
+" pads operate. The main pad modes described below are similar to those found"
+" in rekordbox."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:145
+msgid ""
+"The secondary pad modes described in the manufacturer's manual "
+"(:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and "
+":hwlabel:`KEYSHIFT`) are not currently implemented by this mapping."
+msgstr ""
+"The secondary pad modes described in the manufacturer's manual "
+"(:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and "
+":hwlabel:`KEYSHIFT`) are not currently implemented by this mapping."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:151
+msgid "Hot Cue Mode"
+msgstr "Hot Cue Mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:154
+msgid "Bookmark positions in the track and jump to them."
+msgstr "Bookmark positions in the track and jump to them."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:163
+msgid "Pioneer DDJ-400 (hot cue pads)"
+msgstr "Pioneer DDJ-400 (hot cue pads)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:169
+#: ../../hardware/controllers/pioneer_ddj_400.rst:170
+#: ../../hardware/controllers/pioneer_ddj_400.rst:172
+#: ../../hardware/controllers/pioneer_ddj_400.rst:242
+#: ../../hardware/controllers/pioneer_ddj_400.rst:243
+#: ../../hardware/controllers/pioneer_ddj_400.rst:245
+msgid "1-8"
+msgstr "1-8"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:169
+#: ../../hardware/controllers/pioneer_ddj_400.rst:242
+msgid "Pad (unlit)"
+msgstr "Pad (unlit)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:169
+msgid "Save current position as hot cue."
+msgstr "Save current position as hot cue."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:170
+#: ../../hardware/controllers/pioneer_ddj_400.rst:243
+msgid "Pad (lit)"
+msgstr "Pad (lit)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:170
+msgid ""
+"Jump to hot cue. If the track is stopped, holding the pad will preview the "
+"hot cue until the pad is released."
+msgstr ""
+"Jump to hot cue. If the track is stopped, holding the pad will preview the "
+"hot cue until the pad is released."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:172
+#: ../../hardware/controllers/pioneer_ddj_400.rst:245
+msgid ":hwlabel:`SHIFT` + Pad (lit)"
+msgstr ":hwlabel:`SHIFT` + Pad (lit)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:172
+msgid "Clear hot cue."
+msgstr "Clear hot cue."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:176
+msgid "Beat Loop Mode"
+msgstr "Beat Loop Mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:179
+msgid ""
+"Press a pad to enable a loop from the current position. Press the pad again "
+"to disable the loop. The size of the loop is assigned to the pads as "
+"follows:"
+msgstr ""
+"Press a pad to enable a loop from the current position. Press the pad again "
+"to disable the loop. The size of the loop is assigned to the pads as "
+"follows:"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst-1
+msgid "Pioneer DDJ-400 (beat loop pads)"
+msgstr "Pioneer DDJ-400 (beat loop pads)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:189
+msgid "Pioneer DDJ-400 (beat loop sizes)"
+msgstr "Pioneer DDJ-400 (beat loop sizes)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:193
+msgid "1/4 beat"
+msgstr "1/4 beat"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:193
+msgid "1/2 beat"
+msgstr "1/2 beat"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:193
+msgid "1 beat"
+msgstr "1 beat"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:193
+msgid "2 beats"
+msgstr "2 beats"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:194
+msgid "4 beats"
+msgstr "4 beats"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:194
+msgid "8 beats"
+msgstr "8 beats"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:194
+msgid "16 beats"
+msgstr "16 beats"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:194
+msgid "32 beats"
+msgstr "32 beats"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:198
+msgid "Beat Jump Mode"
+msgstr "Beat Jump Mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:201
+msgid ""
+"Press a pad to jump forwards or backwards by the number of beats assigned to"
+" the pads below."
+msgstr ""
+"Press a pad to jump forwards or backwards by the number of beats assigned to"
+" the pads below."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:204
+msgid ""
+"Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to "
+"increase the jump values by a factor of 16."
+msgstr ""
+"Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to "
+"increase the jump values by a factor of 16."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst-1
+msgid "Pioneer DDJ-400 (beat jump pads)"
+msgstr "Pioneer DDJ-400 (beat jump pads)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:214
+msgid "Pioneer DDJ-400 (beat jump defaults)"
+msgstr "Pioneer DDJ-400 (beat jump defaults)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:218
+msgid "1 beat back"
+msgstr "1 beat back"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:218
+msgid "1 beat forward"
+msgstr "1 beat forward"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:218
+msgid "2 beats back"
+msgstr "2 beats back"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:218
+msgid "2 beats forward"
+msgstr "2 beats forward"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:219
+msgid "4 beats back"
+msgstr "4 beats back"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:219
+msgid "4 beats forward"
+msgstr "4 beats forward"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:219
+msgid "8 beats back"
+msgstr "8 beats back"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:219
+msgid "8 beats forward"
+msgstr "8 beats forward"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:223
+msgid "Sampler Mode"
+msgstr "Sampler Mode"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:226
+msgid ""
+"Load and play samples from the library. The pads on decks 1 and 2 correspond"
+" to the first and second sampler rows in Mixxx respectively."
+msgstr ""
+"Load and play samples from the library. The pads on decks 1 and 2 correspond"
+" to the first and second sampler rows in Mixxx respectively."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:236
+msgid "Pioneer DDJ-400 (sampler pad)"
+msgstr "Pioneer DDJ-400 (sampler pad)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:236
+msgid "Pioneer DDJ-400 (sampler pads)"
+msgstr "Pioneer DDJ-400 (sampler pads)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:242
+msgid "Load sample selected in library."
+msgstr "Load sample selected in library."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:243
+msgid ""
+"Play a loaded sample. If the sample is already playing, playback starts from"
+" the beginning."
+msgstr ""
+"Play a loaded sample. If the sample is already playing, playback starts from"
+" the beginning."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:245
+msgid ""
+"Stop a loaded sample from playing. If the sample is already stopped, unload "
+"it."
+msgstr ""
+"Stop a loaded sample from playing. If the sample is already stopped, unload "
+"it."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:250
+msgid "Mixer section (p. 8)"
+msgstr "Mixer section (p. 8)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:259
+msgid "Pioneer DDJ-400 (mixer section)"
+msgstr "Pioneer DDJ-400 (mixer section)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:264
+msgid ":hwlabel:`TRIM`"
+msgstr ":hwlabel:`TRIM`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:264
+msgid "Adjusts deck prefader gain"
+msgstr "Adjusts deck prefader gain"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:265
+msgid ":hwlabel:`MASTER`"
+msgstr ":hwlabel:`MASTER`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:265
+msgid ""
+"Adjusts master output (this is hardware implemented and is not mapped to the"
+" software gain in Mixxx)."
+msgstr ""
+"Adjusts master output (this is hardware implemented and is not mapped to the"
+" software gain in Mixxx)."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:267
+msgid ":hwlabel:`MASTER` :hwlabel:`CUE`"
+msgstr ":hwlabel:`MASTER` :hwlabel:`CUE`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:267
+msgid ""
+"Sends master output to headphones (this is hardware implemented and is not "
+"visible in the Mixxx interface)."
+msgstr ""
+"Sends master output to headphones (this is hardware implemented and is not "
+"visible in the Mixxx interface)."
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:269
+msgid "EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)"
+msgstr "EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:269
+msgid "Boosts or cuts channel frequencies"
+msgstr "Boosts or cuts channel frequencies"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:270
+msgid "Channel level indicators"
+msgstr "Channel level indicators"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:270
+msgid "Displays channel levels (before being sent through channel faders)"
+msgstr "Displays channel levels (before being sent through channel faders)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:271
+msgid ":hwlabel:`HEADPHONES` :hwlabel:`MIXING`"
+msgstr ":hwlabel:`HEADPHONES` :hwlabel:`MIXING`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:271
+msgid ""
+"Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent "
+"to headphones"
+msgstr ""
+"Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent "
+"to headphones"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:272
+msgid ":hwlabel:`FILTER`"
+msgstr ":hwlabel:`FILTER`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:272
+msgid ""
+"QuickEffect superknob (by default controls a Filter, but this can be changed"
+" in the :ref:`preferences <preferences-equalizers>`)"
+msgstr ""
+"QuickEffect superknob (by default controls a Filter, but this can be changed"
+" in the :ref:`preferences <preferences-equalizers>`)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:273
+msgid ":hwlabel:`HEADPHONES` :hwlabel:`LEVEL`"
+msgstr ":hwlabel:`HEADPHONES` :hwlabel:`LEVEL`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:273
+msgid "Adjusts output level from :hwlabel:`PHONES` jack"
+msgstr "Adjusts output level from :hwlabel:`PHONES` jack"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:274
+msgid "Headphone :hwlabel:`CUE` (Channel)"
+msgstr "Headphone :hwlabel:`CUE` (Channel)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:274
+msgid "Turn on to output channel to headphones"
+msgstr "Turn on to output channel to headphones"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:275
+msgid ":hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`"
+msgstr ":hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:275
+msgid "Toggles quantize for the current channel"
+msgstr "Toggles quantize for the current channel"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:276
+msgid "Channel fader"
+msgstr "Channel fader"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:276
+msgid "Adjusts channel levels output to master"
+msgstr "Adjusts channel levels output to master"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:277
+msgid "Crossfader"
+msgstr "Crossfader"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:277
+msgid "Fade between left and right channels"
+msgstr "Fade between left and right channels"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:281
+msgid "Effect section (p. 9)"
+msgstr "Effect section (p. 9)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:290
+msgid "Pioneer DDJ-400 (effect section)"
+msgstr "Pioneer DDJ-400 (effect section)"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:292
+msgid ""
+"The :hwlabel:`BEAT FX` controls above are mapped to Mixxx's first effect "
+"unit as follows:"
+msgstr ""
+"The :hwlabel:`BEAT FX` controls above are mapped to Mixxx's first effect "
+"unit as follows:"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:298
+msgid ":hwlabel:`BEAT` :hwlabel:`<`"
+msgstr ":hwlabel:`BEAT` :hwlabel:`<`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:298
+msgid "Focus effect 1"
+msgstr "Focus effect 1"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:299
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:299
+msgid "Load previous effect"
+msgstr "Load previous effect"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:300
+msgid ":hwlabel:`BEAT` :hwlabel:`>`"
+msgstr ":hwlabel:`BEAT` :hwlabel:`>`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:300
+msgid "Focus effect 2"
+msgstr "Focus effect 2"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:301
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:301
+msgid "Load next effect"
+msgstr "Load next effect"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:302
+msgid ":hwlabel:`FX SELECT`"
+msgstr ":hwlabel:`FX SELECT`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:302
+msgid "Focus effect 3"
+msgstr "Focus effect 3"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+msgid "Channel select switch"
+msgstr "Channel select switch"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+msgid "Route deck 1, deck 2 or master mix to effect unit 1"
+msgstr "Route deck 1, deck 2 or master mix to effect unit 1"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
+msgid ":hwlabel:`LEVEL/DEPTH`"
+msgstr ":hwlabel:`LEVEL/DEPTH`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
+msgid "Controls the wet/dry mix knob"
+msgstr "Controls the wet/dry mix knob"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+msgid "Controls the metaknob of the currently focused effect"
+msgstr "Controls the metaknob of the currently focused effect"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:306
+msgid ":hwlabel:`ON/OFF`"
+msgstr ":hwlabel:`ON/OFF`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:306
+msgid "Enable/disable the currently focused effect"
+msgstr "Enable/disable the currently focused effect"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
+msgid ":hwlabel:`SHIFT` + :hwlabel:`ON/OFF`"
+msgstr ":hwlabel:`SHIFT` + :hwlabel:`ON/OFF`"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
+msgid "Disables all effects in the chain and kills the wet/dry mix"
+msgstr "Disables all effects in the chain and kills the wet/dry mix"
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:310
+msgid ""
+"Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH` knob to prevent "
+"sudden changes to the wet/dry mix or effect metaknob when changing between "
+"the two."
+msgstr ""
+"Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH` knob to prevent "
+"sudden changes to the wet/dry mix or effect metaknob when changing between "
+"the two."

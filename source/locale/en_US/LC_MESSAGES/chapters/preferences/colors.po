@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr "Library - Icon AutoDJ"
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr "Library - Icon Banshee"
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr "Library - Icon Recordbox"
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr "Library - Icon Browse"
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr "Library - Icon  Crates"
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr "Library - Icon Drag and Drop"
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr "Library - Icon History current session"
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr "Library - Icon History"
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr "Library - Icon iTunes"
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr "Library - Icon Library"
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr "Library - Icon Locked"
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr "Library - Icon Missing Tracks"
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr "Library - Icon Playlist"
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr "Library - Icon Analyze"
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr "Library - Icon Recordings"
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr "Library - Icon Rhythmbox"
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr "Library - Icon Serato"
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr "Library - Icon Traktor"
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr "Library - Preview Pause"
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr "Library - Preview Play"
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr "Library - BPM Locked"
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr "Library - BPM Unlocked"
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr "Preferences - Icon BPM Detection"
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr "Preferences - Icon Live Broadcasting"
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr "Preferences - Icon Controllers"
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr "Preferences - Icon Crossfader"
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr "Preferences - Icon Effects"
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr "Preferences - Icon Equalizers"
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr "Preferences - Icon Interface"
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr "Preferences - Icon Key Detection"
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr "Preferences - Icon Library"
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr "Preferences - Icon MIDI Controllers"
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr "Preferences - Icon Modplug Decoder"
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr "Preferences - Icon Recording"
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr "Preferences - Icon ReplayGain"
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr "Preferences - Icon Sampler"
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr "Preferences - Icon Sound Hardware"
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr "Preferences - Icon Vinyl Control"
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr "Vinyl Control - Receives good signal"
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr "Vinyl Control - Signal goes in wrong direction"
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr "Vinyl Control - Receives no signal"
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr "Vinyl Control - Receives bad signal"
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr "Vinyl Control - No input configured"
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr "Vinyl Control - Receives no timecode signal"
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr "Vinyl Control - Receives signal from wrong vinyl type"
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr "Vinyl Control - Receives mono signal"
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr "Vinyl Control - Receives too loud input signal"
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr "Vinyl Control - Receives too quiet signal"
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr "logo"
+
+#: ../../chapters/preferences/colors.rst:6
+msgid "Colors"
+msgstr "Colors"
+
+#: ../../chapters/preferences/colors.rst:11
+msgid "Selecting Palettes and Default Colors"
+msgstr "Selecting Palettes and Default Colors"
+
+#: ../../chapters/preferences/colors.rst:19
+msgid "**Track/Hotcue Palette**"
+msgstr "**Track/Hotcue Palette**"
+
+#: ../../chapters/preferences/colors.rst:14
+msgid ""
+"It is possible to assign colors to tracks and :ref:`hotcues <interface-"
+"hotcues>` to highlight them. Mixxx offers a selection of different palettes "
+"that you can choose colors from."
+msgstr ""
+"It is possible to assign colors to tracks and :ref:`hotcues <interface-"
+"hotcues>` to highlight them. Mixxx offers a selection of different palettes "
+"that you can choose colors from."
+
+#: ../../chapters/preferences/colors.rst:18
+msgid ""
+"You can also make your own palette by clicking the :guilabel:`Edit` button "
+"next to the palette name. This will open a the :ref:`palette editor "
+"<configuration-colors-editor>`."
+msgstr ""
+"You can also make your own palette by clicking the :guilabel:`Edit` button "
+"next to the palette name. This will open a the :ref:`palette editor "
+"<configuration-colors-editor>`."
+
+#: ../../chapters/preferences/colors.rst:25
+msgid "**Default Hotcue Color**"
+msgstr "**Default Hotcue Color**"
+
+#: ../../chapters/preferences/colors.rst:22
+msgid ""
+"It is possible to either select a single color from the current hotcue "
+"palette that will be assigned to all newly created hotcue colors, or select "
+"the :guilabel:`By hotcue number` option. The latter will automatically "
+"assign a color from the palette to new hotcues based on the hotcue number."
+msgstr ""
+"It is possible to either select a single color from the current hotcue "
+"palette that will be assigned to all newly created hotcue colors, or select "
+"the :guilabel:`By hotcue number` option. The latter will automatically "
+"assign a color from the palette to new hotcues based on the hotcue number."
+
+#: ../../chapters/preferences/colors.rst:30
+msgid "Editing Palettes"
+msgstr "Editing Palettes"
+
+#: ../../chapters/preferences/colors.rst:32
+msgid ""
+"The palette editor allows you add, modify, reorder and remove colors in a "
+"color palette and save it under a new name. You can also delete custom "
+"palettes."
+msgstr ""
+"The palette editor allows you add, modify, reorder and remove colors in a "
+"color palette and save it under a new name. You can also delete custom "
+"palettes."
+
+#: ../../chapters/preferences/colors.rst:35
+msgid "To modify a color, double-click it to open the color picker window."
+msgstr "To modify a color, double-click it to open the color picker window."
+
+#: ../../chapters/preferences/colors.rst:37
+msgid ""
+"When editing the hotcue palette, the palette editor also allows assigning a "
+"specific default color to a hotcue number. This setting is honored when "
+":guilabel:`Hotcue default color` is set to `By hotcue number`."
+msgstr ""
+"When editing the hotcue palette, the palette editor also allows assigning a "
+"specific default color to a hotcue number. This setting is honored when "
+":guilabel:`Hotcue default color` is set to `By hotcue number`."
+
+#: ../../chapters/preferences/colors.rst:41
+msgid ""
+"That makes it possible to assign just a few distinct colors to your hotcues "
+"automatically, but still have more colors available in the palette in case "
+"you want to override the color manually."
+msgstr ""
+"That makes it possible to assign just a few distinct colors to your hotcues "
+"automatically, but still have more colors available in the palette in case "
+"you want to override the color manually."
+
+#: ../../chapters/preferences/colors.rst:45
+msgid ""
+"For example, if you have a color palette consisting of 4 colors, and you "
+"configure the palette to assign the first color to hotcue 1 and the third "
+"color to hotcue 2, then hotcue 1 will use the first color and hotcue 2 will "
+"be assigned the third color. The colors will repeat when setting a hotcue "
+"with a number greater than those used in the palette. In the example above, "
+"hotcue 3 will use the first color and hotcue 4 the second color, and so on."
+msgstr ""
+"For example, if you have a color palette consisting of 4 colors, and you "
+"configure the palette to assign the first color to hotcue 1 and the third "
+"color to hotcue 2, then hotcue 1 will use the first color and hotcue 2 will "
+"be assigned the third color. The colors will repeat when setting a hotcue "
+"with a number greater than those used in the palette. In the example above, "
+"hotcue 3 will use the first color and hotcue 4 the second color, and so on."
+
+#: ../../chapters/preferences/colors.rst:52
+msgid ""
+"You can also assign the same color to more than one hotcue. For example by "
+"separating the hotcue numbers with a comma (“2, 4, 7”), expressing a range "
+"of numbers (“1 - 3”) or any combination of that (“6, 1 - 3, 7”)."
+msgstr ""
+"You can also assign the same color to more than one hotcue. For example by "
+"separating the hotcue numbers with a comma (“2, 4, 7”), expressing a range "
+"of numbers (“1 - 3”) or any combination of that (“6, 1 - 3, 7”)."
+
+#: ../../chapters/preferences/colors.rst:56
+msgid ""
+"If no color in the palette has a hotcue number assigned to it, new hotcues "
+"will use the color at the same index from the palette (i.e. hotcue 1 will be"
+" assigned the first color in the palette, hotcue 2 uses the second color in "
+"the palette, etc.)."
+msgstr ""
+"If no color in the palette has a hotcue number assigned to it, new hotcues "
+"will use the color at the same index from the palette (i.e. hotcue 1 will be"
+" assigned the first color in the palette, hotcue 2 uses the second color in "
+"the palette, etc.)."
+
+#: ../../chapters/preferences/colors.rst:64
+msgid "Replacing Hotcue Colors"
+msgstr "Replacing Hotcue Colors"
+
+#: ../../chapters/preferences/colors.rst:66
+msgid ""
+"Sometimes it's necessary to bulk replace colors of existing hotcues in your "
+"library. Instead of changing the color of every single hotcue manually, you "
+"can :guilabel:`Replace` to open the cue color replace dialog."
+msgstr ""
+"Sometimes it's necessary to bulk replace colors of existing hotcues in your "
+"library. Instead of changing the color of every single hotcue manually, you "
+"can :guilabel:`Replace` to open the cue color replace dialog."
+
+#: ../../chapters/preferences/colors.rst:70
+msgid ""
+"In addition to selecting the new color, you may set conditions that "
+"determine which hotcues the new color will be assigned to. If you tick both "
+"checkboxes, the new color will only applied if both conditions match."
+msgstr ""
+"In addition to selecting the new color, you may set conditions that "
+"determine which hotcues the new color will be assigned to. If you tick both "
+"checkboxes, the new color will only applied if both conditions match."

@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Italian (https://www.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:6
+msgid "Beat Detection"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:16
+msgid ""
+"Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments are "
+"redundant in many cases because Mixxx knows where the beats are."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:19
+msgid ""
+"BPM and beat detection is a complex operation. Depending on your computer "
+"and the track's bitrate and duration this may take some time. By default "
+"Mixxx analyzes the complete track. To accelerate beat detection on slower "
+"computers, a “Fast Analysis” option is available. If enabled, the BPM is "
+"computed by analyzing the first minute of the track. In most cases this does"
+" not affect the beat detection negatively because most of today's dance "
+"music is written in a 4/4 signature with a fixed tempo."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:34
+msgid "Mixxx preferences - BPM settings"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:36
+msgid "The table below summarizes the beat detection settings:"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:39
+msgid "Option"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:39
+msgid "Description"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:41
+msgid "Enable Fast Analysis"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:41
+msgid ""
+"If enabled, BPM will be detected by only using the first minute of audio."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:44
+msgid "Assume constant tempo"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:44
+msgid ""
+"If enabled, Mixxx assumes that the distances between the beats are constant."
+" If disabled, the raw beat grid obtained by the analyzer is presented. The "
+"latter is appropriate for tracks with variable tempo."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:51
+msgid "Enable Offset Correction"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:51
+msgid "Prevents beat markers from being placed incorrectly."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:54
+msgid ""
+"Re-analyze beats when settings change or beat detection data is outdated"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:54
+msgid ""
+"If enabled, Mixxx over-writes old beat grids from prior versions. Moreover, "
+"it will re-analyze the BPM if your beat detection preferences change or BPM "
+"data from 3rd party programs are present."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:63
+msgid "Correcting Beat Grids"
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:65
+msgid ""
+"There may be situations where BPM and beat detection do not result in a "
+"proper beat grid."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:68
+msgid ""
+"Typically, the detected BPM is correct but the analyzer has failed to detect"
+" the location of the first beat. Consequently, the beat markers are shifted,"
+" i.e. the beat markers are a fixed distance from the true beat. To adjust "
+"the beat grid, cue the track before a real beat and click the "
+":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:74
+msgid ""
+"If the detected BPM is not accurate, the corresponding beat grid will also "
+"be inaccurate. A deviation of 0.02 BPM units from the correct BPM will cause"
+" beatgrid alignment issues on long tracks (e.g. a club mix). If this "
+"happens, your beatgrid may look aligned for the few minutes but you will "
+"notice a slight drift as the song goes on. Finding the correct BPM is easy "
+"in many cases - just follow the note below."
+msgstr ""
+
+#: ../../chapters/preferences/beat_detection.rst:81
+msgid ""
+"If the detected BPM value is not sufficiently accurate but very close to an "
+"integer value, try to set the BPM value manually to the integer."
+msgstr ""

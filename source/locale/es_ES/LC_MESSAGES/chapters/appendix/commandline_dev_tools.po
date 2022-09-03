@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/mixxx-dj-software/teams/7734/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:6
+msgid "Launching Mixxx from the Command Line"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:7
+msgid "To launch Mixxx using the command line:"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:13
+msgid "**Windows**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:10
+msgid ""
+"Locate the folder where Mixxx is installed and copy the file path. You can "
+"also obtain the file path by right clicking on the Mixxx icon and then "
+"choosing 'Properties'. Copy the path and paste it in terminal and add "
+"``\\mixxx`` at the end - everything should be inside quotes. Press Enter. "
+"The entire command will look like this ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:18
+msgid "**macOS**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:16
+msgid "Similarly, for macOS, the command will be ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:23
+msgid "**GNU/ Linux**"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:21
+msgid ""
+"If Mixxx is in your system's search path (``$PATH``), you can just type ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:26
+msgid "Command line options"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:28
+msgid ""
+"Mixxx is designed to be as user-friendly as possible. As such, its command "
+"line options are only useful for development or debugging, as they make "
+"these tasks easier. Command line options are case-sensitive."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:32
+msgid ""
+"To launch Mixxx with any of these command line options, simply append the "
+"option to the base command for your operating system. For example, to launch"
+" Mixxx in developer mode on Windows, type this in terminal ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:36
+msgid ""
+"In addition to these options, it is possible to specify one or more music "
+"file(s) on the command line. These will be loaded at start-up.  Each file "
+"you specify will be loaded into the next virtual deck. For a list of "
+"supported file types, go to :ref:`file-format-compatibility`."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:43
+msgid ""
+"Top-level directory where Mixxx will look for its resource files such as "
+"MIDI mappings, overriding the default installation location."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:46
+msgid ""
+"Top-level directory where Mixxx will look for user settings files such as "
+"the library database and preferences configuration file."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:49
+msgid ""
+"Log all controller data Mixxx sends and receives as well as scripts it "
+"loads."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:51
+msgid ""
+"Enable developer mode. Includes extra logs, stats on performance and the "
+"Developer tools menu as well as tooltips and logs useful for skin "
+"developers."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:55
+msgid ""
+"Disable OpenGL widgets (scrolling waveforms, spinnies) to work around GPU "
+"driver bugs. If Mixxx is crashing on startup, try using this."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:59
+msgid "Automatically loads empty waveforms"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:60
+msgid "Disables spinning vinyl widgets"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:61
+msgid "Disables synchronization polling"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:62
+msgid "Doesn't open controllers by default"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:63
+msgid "Use a custom locale for loading translations (e.g ``fr``)"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:65
+msgid "Start Mixxx in full-screen mode."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:66
+msgid "Set the verbosity of command line logging."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:69
+msgid "Value"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:69
+msgid "Meaning"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:71
+msgid "``critical``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:71
+msgid "Critical/Fatal only"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:72
+msgid "``warning``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:72
+msgid "Above + Warnings"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:73
+msgid "``info``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:73
+msgid "Above + Informational messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:74
+msgid "``debug``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:74
+msgid "Above + Debug/Developer messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
+msgid "``trace``"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
+msgid "Above + Profiling messages"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:77
+msgid ""
+"Set the logging level at which the log buffer is flushed to ``mixxx.log``. "
+"``LEVEL`` is one of the values defined at ``--logLevel`` above."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:81
+msgid ""
+"Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates to false. A "
+"debugger can then be used to continue. This disables the "
+"``MIXXX_DEBUG_ASSERTIONS_FATAL`` flag which can otherwise lead to a time "
+"consuming full rebuild."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:86
+msgid "Display this help message and exit"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:89
+msgid "Developer tools"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:91
+msgid ""
+"To start Mixxx in Developer mode with a custom resource directory with "
+":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
+"the terminal and hit return: ::"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:99
+msgid "Experiment modes for rapid development and testing"
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:101
+msgid ""
+"Adds a static Experiment class with a tri-state mode flag that indicates "
+"whether the experiment mode is OFF, BASE, or EXPERIMENT."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:104
+msgid ""
+"Adds :menuselection:`Developer --> Stats:Experiment Bucket` and "
+":menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between "
+"OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would "
+"like to collect in your base and experiment buckets."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:109
+msgid ""
+"Updates StatsManager to segment collected stats into a base and experiment "
+"bucket. This allows you to quickly measure the difference a code change has "
+"on relevant counters / timers within the same execution of Mixxx."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:113
+msgid ""
+"This is useful for quickly enabling and disabling a code change without a "
+"re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as "
+"well as a quantified sense of how it differs in terms of stats Mixxx "
+"collects."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:118
+msgid ""
+"All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are "
+"segmented into a BASE STATS and EXPERIMENT STATS section printed to the log "
+"on exit."
+msgstr ""

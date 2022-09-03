@@ -1,0 +1,518 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: Asturian (Spain) (https://www.transifex.com/mixxx-dj-software/teams/7734/ast_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:4
+msgid "Allen & Heath Xone:K2"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:6
+msgid ""
+"The Allen & Heath Xone:K2 is a flexible controller that is mapped to control"
+" Mixxx’s decks, effects, or both. It has an integrated 4 channel audio "
+"interface with 2 RCA jacks and an 1/8\" stereo headphone jack. The Xone K1 "
+"is the same as the Xone K2 but without the built in audio interface and does"
+" not come with the EVA travel case that the K2 comes with."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:13
+msgid ""
+"`Manufacturer’s product page <http://www.allen-"
+"heath.com/ahproducts/xonek2/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:14
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:15
+msgid ""
+"`Manufacturer’s User Guide <http://www.allen-"
+"heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:16
+msgid ""
+"`Blank template diagrams <http://www.allen-"
+"heath.com/media/Xone+K2+Blank+Overlays.zip>`__"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:21
+msgid "Audio Setup"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:23
+msgid "The Xone:K2 is setup in Mixxx > Preferences > Sound Hardware > Output"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:26
+msgid "Output"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:26
+msgid "Device"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:26
+msgid "Channel"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
+msgid "Master"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:29
+msgid "XONE:K2"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
+msgid "Channel 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:29
+msgid "Headphones"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:29
+msgid "Channel 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:32
+msgid ""
+"Note: This Channel setup is the opposite of what most DJ controllers with an"
+" integrated audio interface use. The design choice to not use Channel 1 - 2 "
+"for Master Output is known to cause problems, when users want to use the "
+"Xone:K2 as default system audio output as the operating system will always "
+"use Channel 1 - 2. Thus system audio will go to the headphones."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:39
+msgid ""
+"There are no hardware controls for the volume so they are always at max "
+"volume. Adjusting the volume of master and headphone outputs is done by "
+"adjusting the gain for those outputs in Mixxx using the controller mapping."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:45
+msgid "Setup"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:47
+msgid ""
+"**Requirement**: The Xone K2 must have Latching Layers turned off, which is "
+"the default. Refer to the `Xone K2 manual <https://allen-"
+"heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page 12 for details. The K1 does"
+" not have Latching Layers."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:52
+msgid ""
+"This mapping can used with one or multiple Xone K2s/K1s. Multiple Xone "
+"K2s/K1s can be connected to each other via X-Link with one of them connected"
+" to the computer via USB. Alternatively, when using 2 K2s/K1s, they can both"
+" be connected with their own USB cable and this same mapping can be loaded "
+"for each."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:58
+msgid ""
+"The layout of the mapping depends on the configured MIDI channel of the "
+"controller. Change the MIDI channel of the controller by pressing the bottom"
+" right encoder (labeled “Power On Setup/Scroll/Set”) while plugging in the "
+"controller. Scroll with the encoder to select a MIDI channel. The letter in "
+"parentheses corresponds to the last lit button when selecting the channel:"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:65
+msgid ""
+"Channel 15 (O, default out of the box): two decks + two effect units with "
+"decks in the middle"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:67
+msgid ""
+"Channel 14 (N): two decks + two effect units with effect units in the middle"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:69
+msgid "Channel 13 (M): two decks + two effect units with decks on left"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:70
+msgid "Channel 12 (L): two decks + two effect units with decks on right"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:71
+msgid "Channel 11 (K): four decks ordered 3 1 2 4"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:72
+msgid "Channel 10 (J): four decks ordered 1 2 3 4"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:73
+msgid "Channel 9 (I): four effect units ordered 3 1 2 4"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:74
+msgid "Channel 8 (H): four effect units ordered 1 2 3 4"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:77
+msgid "Global Controls"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:79
+msgid ""
+"These are available on any configuration with decks, but not the 4 effect "
+"unit layout."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:82
+msgid "Bottom left encoder:"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:83
+msgid "adjust tempo of all decks with sync enabled"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:84
+msgid "press and turn: PFL/master mix in headphones"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:85
+msgid "shift: headphone gain"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:86
+msgid "press with shift: toggle split cue mode"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:87
+msgid "Bottom right encoder"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:88
+msgid "scroll through tracks in library"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:89
+msgid "press and release: load selected track into first stopped deck"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:90
+msgid ""
+"press and hold: load selected track into a deck by pressing the play button "
+"of the deck"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:92
+msgid "shift: master gain"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:95
+msgid "Decks"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:97
+msgid ""
+"The bottom right button is the shift button. The bottom left button toggles "
+"the bottom button grid between a loop layer (amber) and a hotcue layer "
+"(red). Holding shift then holding the bottom left layer button at the same "
+"time activates supershift mode."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:102
+msgid "Top encoder: jog"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:104
+msgid "shift: gain"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:105
+msgid "supershift: adjust key"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:107
+msgid "Top encoder press: reset gain"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:109
+msgid "shift: master sync"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:110
+msgid "supershift: reset key"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:112
+msgid "Knobs: high/mid/low equalizer knobs"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:113
+msgid "Top button 1: headphones/PFL"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:115
+msgid "shift: reset tempo"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:116
+msgid "supershift: set beatgrid to current position"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:118
+msgid "Top button 2: cue"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:120
+msgid "shift: go to beginning of track and stop"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:121
+msgid "supershift: keylock"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:123
+msgid "Top button 3: play"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:125
+msgid "shift: reverse"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:126
+msgid "supershift: quantize"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:128
+msgid "Fader: volume"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:129
+msgid ""
+"Bottom buttons (intro/outro cue layer, amber): Intro/outro cues from top to "
+"bottom are ordered: - Intro start - Intro end - Outro start - Outro end"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:133
+msgid "press: jump to that cue or sets it if it is not set"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:134
+msgid ""
+"shift: seek forward/back. The top two (intro) buttons seek quickly; the "
+"bottom two (outro) seek slowly"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:136
+msgid "supershift: delete cue"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:138
+msgid ""
+"Bottom buttons (hotcue layer, red): Hotcues are ordered 1-4 from top to "
+"bottom"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:141
+msgid "press: jump to that hotcue or sets it if it is not set"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:142
+msgid ""
+"shift: seek forward/back. The top two buttons seek quickly; the bottom two "
+"seek slowly"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:144
+msgid "supershift: delete hotcue"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:146
+msgid "Bottom buttons (loop layer, green):"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:147
+msgid "Bottom button 1 (red): reloop/disable loop"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:149
+msgid "shift: jump to to beginning of loop, stop playback, and activate loop"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:151
+msgid ""
+"supershift: set loop in point. Hold to move loop in point with play "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:154
+msgid "Bottom button 2 (green): activate loop of selected size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:156
+msgid "shift: activate rolling loop of selected size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:157
+msgid ""
+"supershift: set loop out point. Hold to move loop out point with play "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:160
+msgid "Bottom button 3 (amber): double loop size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:162
+msgid ""
+"shift: beatjump forward by selected size if no loop is enabled. If loop is "
+"enabled, move the loop forward by the beatjump size."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:164
+msgid "supershift: double beatjump size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:166
+msgid "Bottom button 4 (amber): halve loop size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:168
+msgid ""
+"shift: beatjump backward by selected size if no loop is enabled. If loop is "
+"enabled, move the loop backward by the beatjump size."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:170
+msgid "supershift: halve beatjump size"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:173
+msgid "Effects"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:175
+msgid ""
+"The top part of the column uses the `Standard Effects Mapping "
+"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_. Pressing"
+" the top encoder acts as the effect focus button. When no effect is focused,"
+" the buttons are red. When holding the top encoder to choose an effect to "
+"focus, the buttons are green. When an effect is focused, the buttons are "
+"amber."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:182
+msgid "The fader acts as the mix knob."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:184
+msgid ""
+"The bottom buttons assign the effect unit to different input channels and "
+"light up red. On the two deck layouts, from top to bottom, they assign the "
+"effect unit to deck 1, deck 2, master mix, and headphones. On the four "
+"effect unit layouts, they assign the effect unit to decks 1-4 going down the"
+" column. You can look down a column to see which decks an effect unit is "
+"assigned. You can look across a row to see which effect units are assigned "
+"to a deck. When shift is pressed, the bottom two buttons switch to "
+"controlling the routing buttons for the master and headphones channels and "
+"light up amber."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:194
+msgid "The bottom encoders are not mapped in the 4 effect unit layout."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:197
+msgid "Effect unit focusing"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:199
+msgid ""
+"In addition to focusing one effect in a unit at a time with the `Standard "
+"Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-"
+"Mapping>`_, the Xone K2/K1 has another mode for focusing a whole effect "
+"unit. This allows for controlling the parameters of all 3 effects in the "
+"unit at a time. This mode is only available on the 4 effect unit layouts. To"
+" access it, press the Layer button in the bottom left. Press one of the top "
+"encoders to choose which effect unit to focus."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:207
+msgid ""
+"In this mode, each horizontal row of knobs and buttons controls one effect. "
+"The knobs control the parameters of the effects. Turning any of the knobs "
+"with shift loads different effects. The button in the leftmost column "
+"controls the enable button of the effect and turns amber when it is on. The "
+"rest of the buttons control the button parameters of the effect and turn "
+"green when active (not all effects have button parameters). The faders still"
+" control the dry/wet knobs and the bottom button grid still controls the "
+"routing buttons."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:216
+msgid ""
+"To get back to controlling all 4 effect units, press the Layer button again."
+" The next time Layer is pressed, the effect unit that was focused before "
+"will be remembered (but it will not be remembered after restarting Mixxx)."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:222
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:224
+msgid ""
+"If general functionality or supershift are not working, double check that "
+"Latch Layers is turned off and MIDI CH is selected. Refer to the `Xone K2 "
+"manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page 12 "
+"for details."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:231
+msgid "Known Issues"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:233
+msgid "There are a few known issues with the Xone K2/K1 firmware:"
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:235
+msgid ""
+"Since there is no way for Mixxx to ask the controller about the positions of"
+" all the knobs and faders when Mixxx starts, they are out of sync with the "
+"state of Mixxx until they are first moved."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:238
+msgid ""
+"When the USB connection is interrupted and the controller stays powered on, "
+"such as leaving the controller plugged into a powered USB hub and "
+"disconnecting the hub from the computer, the controller will not send MIDI "
+"input until it is powered down (unplugged) and plugged back in."
+msgstr ""
+
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:243
+msgid ""
+"If you would like these issues to be fixed, please let `Allen & Heath "
+"Support <https://www.allen-heath.com/support/>`__ know."
+msgstr ""

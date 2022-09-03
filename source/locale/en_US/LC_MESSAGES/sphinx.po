@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_templates/download.html:3
+msgid "Download"
+msgstr "Download"
+
+#: ../../_templates/download.html:8
+msgid "Offline versions of this manual"
+msgstr "Offline versions of this manual"
+
+#: ../../_templates/download.html:11
+msgid "PDF"
+msgstr "PDF"
+
+#: ../../_templates/languages.html:2
+msgid "Languages"
+msgstr "Languages"
+
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
+msgstr "Read this page in another language"
+
+#: ../../_templates/versioning.html:39
+msgid "Versions"
+msgstr "Versions"
