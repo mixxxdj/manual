@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "decks"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
@@ -366,7 +366,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:97
 msgid "Inactive: parameter not linked"
-msgstr ""
+msgstr "Inactive: parameter not linked"
 
 #: ../../chapters/effects.rst:98
 msgid "Active: parameter moves with metaknob"

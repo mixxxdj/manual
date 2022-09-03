@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -224,6 +227,10 @@ msgid ""
 "main way to use Mixxx. In this chapter, we present the default interface of "
 "Mixxx and describe its elements, knobs and faders."
 msgstr ""
+"Bem-vindo à interface do Mixxx. Aqui é onde a mágica acontece. Se vai querer"
+" ficar bem familiar com essa interface porque é o principal caminho de usar "
+"o Mixxx. Nesse capítulo, nós te apresentamos a interface padrão do Mixxx e "
+"descrevemos os seus elementos, botões e deslizantes."
 
 #: ../../chapters/user_interface.rst:20
 msgid "The Mixxx interface - Latenight skin"
@@ -282,15 +289,15 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:47
 msgid ":ref:`interface-sampler`"
-msgstr ""
+msgstr ":ref:`interface-sampler`"
 
 #: ../../chapters/user_interface.rst:48
 msgid ":ref:`interface-mic`"
-msgstr ""
+msgstr ":ref:`interface-mic`"
 
 #: ../../chapters/user_interface.rst:50
 msgid "You can also use the specific :ref:`appendix-shortcuts`."
-msgstr ""
+msgstr "Você também pode usar os específicos :ref:`appendix-shortcuts`."
 
 #: ../../chapters/user_interface.rst:52
 msgid ""
@@ -313,7 +320,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:79
 msgid "A deck with a track loaded"
-msgstr ""
+msgstr "Um deck com uma faixa carregada"
 
 #: ../../chapters/user_interface.rst:81
 msgid ""
@@ -358,18 +365,20 @@ msgid ""
 "The deck section allows you to control everything relating to a virtual "
 "turntable :term:`deck`. We are going to break this down into sections."
 msgstr ""
+"A seção do deck permite que você controle tudo que é relacionada ao toca-"
+"discos virtual  :term:`deck`. Nós vamos quebrar isso em seções."
 
 #: ../../chapters/user_interface.rst:97 ../../chapters/user_interface.rst:1065
 msgid "Track Information Display"
-msgstr ""
+msgstr "Mostrador de Informações da Faixa"
 
 #: ../../chapters/user_interface.rst:106
 msgid "The track information section of the deck"
-msgstr ""
+msgstr "A seção das informações da faixa no deck"
 
 #: ../../chapters/user_interface.rst:112
 msgid "**Track Title**"
-msgstr ""
+msgstr "**Título da Faixa**"
 
 #: ../../chapters/user_interface.rst:109
 msgid ""
@@ -382,7 +391,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:116
 msgid "**Track Artist**"
-msgstr ""
+msgstr "**Artista da Faixa**"
 
 #: ../../chapters/user_interface.rst:115
 msgid ""
@@ -408,7 +417,7 @@ msgstr ""
 #: ../../chapters/user_interface.rst:134
 #: ../../chapters/user_interface.rst:1073
 msgid "**BPM (Tempo)**"
-msgstr ""
+msgstr "**BPM (Tempo)**"
 
 #: ../../chapters/user_interface.rst:127
 msgid ""
@@ -417,6 +426,10 @@ msgid ""
 "the track. For example, if the track is normally 100 BPM, and it is playing "
 "at +5%, then the effective BPM will read 105 BPM."
 msgstr ""
+"O número no topo direito é o :term:`BPM` efetivo da faixa. Esse é o "
+":term:`BPM` detectado da faixa, ajustado para a velocidade de reprodução da "
+"faixa. Por exemplo, se a faixa é normalmente 100 BPM, e ela está tocando em "
+"+5%, então o BPM efetivo vai ser 105 BPM."
 
 #: ../../chapters/user_interface.rst:132
 msgid ""
@@ -480,13 +493,15 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:160
 msgid "Waveform Displays"
-msgstr ""
+msgstr "Mostradores de Onda"
 
 #: ../../chapters/user_interface.rst:166
 msgid ""
 "The waveform section of a deck allows you to visualize the audio changes "
 "that occur throughout the track, you can basically “see” your music."
 msgstr ""
+"A seção das ondas do deck permite que você visualize as mudanças de áudio "
+"que ocorre pela faixa, você basicamente “vê” a sua música."
 
 #: ../../chapters/user_interface.rst:169
 msgid ""
@@ -523,7 +538,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:201
 msgid "**Waveform summary**"
-msgstr ""
+msgstr "**Resumo das Ondas**"
 
 #: ../../chapters/user_interface.rst:193
 msgid ""
@@ -533,6 +548,11 @@ msgid ""
 "clicking on the waveforms allows you to drag with the mouse to make "
 "temporary pitch adjustments."
 msgstr ""
+"O grande resumo das ondas mostra as ondas da faixa perto de onde a faixa "
+"está tocando e é atualizada em tempo real. O mouse pode ser usado nas ondas "
+"para pausar, fazer scratch, ir para trás ou para jogar as faixas. Ao clicar "
+"com o botão direito nas ondas você pode arrastar o mouse para fazer ajustes "
+"de pitch temporários."
 
 #: ../../chapters/user_interface.rst:199
 msgid ""
@@ -544,7 +564,7 @@ msgstr ""
 #: ../../chapters/user_interface.rst:212
 #: ../../chapters/user_interface.rst:1054
 msgid "**Waveform overview**"
-msgstr ""
+msgstr "**Visão Geral das Ondas**"
 
 #: ../../chapters/user_interface.rst:204
 msgid ""
@@ -564,7 +584,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:225
 msgid "**Vinyl Widget**"
-msgstr ""
+msgstr "**Janela do Vinil**"
 
 #: ../../chapters/user_interface.rst:215
 msgid ""
@@ -576,6 +596,14 @@ msgid ""
 "playback will continue. The Vinyl Widget is hidden by default and can be "
 "enabled in the :ref:`interface-button-grid`."
 msgstr ""
+"A linha na janela do vinil roda se a faixa se mover. Ela é similar ao "
+"marcador de posição encontrado nos vinils de stratch. Use o mouse na janela "
+"do vinil para pausar, fazer stratch, rodar para trás ou jogar faixas - como "
+"em um disco real. Quando você fizer :ref:`Loops temporários <interface-"
+"looping>` ou clicar com o lado direito no vinil enquanto a música toca, um "
+"marcador *fantasma* mostra onde a reprodução vai continuar. A Janela do "
+"Vinil é escondida por padrão e pode ser ativado no :ref:`interface-button-"
+"grid`."
 
 #: ../../chapters/user_interface.rst:223
 msgid ""
@@ -587,7 +615,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:230
 msgid "**Waveform Zoom**"
-msgstr ""
+msgstr "**Aproximação das Ondas**"
 
 #: ../../chapters/user_interface.rst:228
 msgid ""
@@ -599,11 +627,12 @@ msgstr ""
 #: ../../chapters/user_interface.rst:233
 #: ../../chapters/user_interface.rst:1057
 msgid "**Waveform Marker**"
-msgstr ""
+msgstr "**Marcadores nas Ondas**"
 
 #: ../../chapters/user_interface.rst:233
 msgid "While mixing, various additional markers can appear on the waveforms:"
 msgstr ""
+"Enquanto mixando, vários marcadores adicionais podem aparecer nas ondas:"
 
 #: ../../chapters/user_interface.rst:235
 msgid ""
@@ -617,10 +646,13 @@ msgid ""
 "**Beat marker**: The regular white lines on the waveform summary indicate "
 "the locations of beats in the audio, also called the :term:`beatgrid`."
 msgstr ""
+"**Marcador de Batidas**: As linhas regulares brancas na visão geral das "
+"ondas mostra a localização das batidas no áudio, também chamado de "
+":term:`grade de batidas`."
 
 #: ../../chapters/user_interface.rst:240
 msgid "**Cue marker**: Indicates the position of the :term:`cue point <cue>`."
-msgstr ""
+msgstr "**Marcador Cue**: Indica a posição do :term:`ponto cue <cue>`."
 
 #: ../../chapters/user_interface.rst:241
 #: ../../chapters/user_interface.rst:1061
@@ -628,30 +660,37 @@ msgid ""
 "**Hotcue marker**: Indicate the position and number of a :term:`hotcue` "
 "point if set."
 msgstr ""
+"**Marcador Hotcue**: Indica a posição e o número de um ponto :term:`hotcue` "
+"se definido."
 
 #: ../../chapters/user_interface.rst:243
 msgid "**Loop-in/Out marker**: Indicate the beginning and the end of a loop."
 msgstr ""
+"**Marcador de Entrada/Saída do Loop**: Indica o começo e o fim de um loop."
 
 #: ../../chapters/user_interface.rst:244
 msgid ""
 "**Loop overlay**: Is drawn between the Loop-in/Out markers and changes color"
 " depending on whether a loop is activated or not."
 msgstr ""
+"**Sobreposição do loop**: Ela é desenhada entre os marcadores de "
+"Entrada/Saída do Loop e muda a cor se o loop estiver ativado ou não."
 
 #: ../../chapters/user_interface.rst:246
 msgid ""
 "**Track ending notification**: If the waveform overview flashes red, only 30"
 " seconds are left before the track reaches the end."
 msgstr ""
+"**Notificação de faixa terminando**: Se o resumo das ondas pisca vermelho, "
+"apenas 30 segundos faltam antes da faixa acabar."
 
 #: ../../chapters/user_interface.rst:252
 msgid "Deck Options Button Grid"
-msgstr ""
+msgstr "Grade de Botões de Opções do Deck"
 
 #: ../../chapters/user_interface.rst:265
 msgid "The Options Button Grid of the deck"
-msgstr ""
+msgstr "A Grade de Botões de Opções do deck"
 
 #: ../../chapters/user_interface.rst:267
 msgid ""
@@ -673,17 +712,20 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:277
 msgid "**Quantize Mode Toggle**"
-msgstr ""
+msgstr "**Ligar/Desligar Modo de Quantização**"
 
 #: ../../chapters/user_interface.rst:276
 msgid ""
 "If enabled, all cues, hotcues, loops, and beatloops will be automatically "
 ":term:`quantized <quantization>` so that they begin on a beat."
 msgstr ""
+"Se ativado, todos os cues, hotcues, loops, e loops de batida vão ser "
+"automaticamente :term:`quantizados <quantization>` para que eles começem "
+"sempre em uma batida."
 
 #: ../../chapters/user_interface.rst:284
 msgid "**Beat-grid Adjust Button**"
-msgstr ""
+msgstr "**Botão de Ajuste da Grade de Batidas**"
 
 #: ../../chapters/user_interface.rst:280
 msgid ""
@@ -697,7 +739,7 @@ msgstr ""
 #: ../../chapters/user_interface.rst:289
 #: ../../chapters/user_interface.rst:1086
 msgid "**Eject Track Button**"
-msgstr ""
+msgstr "**Botão Ejetar Faixa**"
 
 #: ../../chapters/user_interface.rst:287
 msgid ""
@@ -705,11 +747,14 @@ msgid ""
 "use a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more "
 "information."
 msgstr ""
+"Clicar nesse botão ejeta a faixa do deck. Alternativamente, você pode usar "
+"um atalho de teclado, vá para o capítulo :ref:`control-keyboard` para mais "
+"informação"
 
 #: ../../chapters/user_interface.rst:293
 #: ../../chapters/user_interface.rst:1083
 msgid "**Repeat Mode Toggle**"
-msgstr ""
+msgstr "**Ligar/Desligar o Modo de Repetição**"
 
 #: ../../chapters/user_interface.rst:292
 #: ../../chapters/user_interface.rst:1082
@@ -717,11 +762,13 @@ msgid ""
 "If enabled, the repeat mode will jump back to the beginning and continue "
 "playing when the track finishes."
 msgstr ""
+"Se ativado, o modo de repetição vai pular para o começo e continuar tocando "
+"quando a faixa terminar."
 
 #: ../../chapters/user_interface.rst:299
 #: ../../chapters/user_interface.rst:1090
 msgid "**Keylock Toggle**"
-msgstr ""
+msgstr "**Ligar/Desligar Trava de Tom**"
 
 #: ../../chapters/user_interface.rst:296
 msgid ""
@@ -745,13 +792,15 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:318
 msgid "Clicking the Play/Pause button starts and pauses the playback."
-msgstr ""
+msgstr "Clicar no botão Tocar/Pausar começa e pausa a reprodução"
 
 #: ../../chapters/user_interface.rst:320
 msgid ""
 "The actual behavior of the Play/Pause button depends on the selected "
 ":ref:`Cue mode <interface-cue-modes>`."
 msgstr ""
+"O comportamento real do botão Tocar/Pausar depende do :ref:`modo de Cue "
+"<interface-cue-modes>` selecionado."
 
 #: ../../chapters/user_interface.rst:337
 msgid "**Cue Button**"
@@ -765,16 +814,23 @@ msgid ""
 "Button. If you have not moved the Cue point yet, the default point is at the"
 " track's beginning."
 msgstr ""
+"Se o botão é pressionado enquanto a faixa estiver tocando, a posição de "
+"reprodução pula para o :term:`ponto Cue <cue>` da faixa e a faixa é pausada."
+" Se a faixa estiver pausada no ponto Cue, você pode pré-escutar ao segurar o"
+" Botão Cue. Se você não moveu o seu ponto Cue, o ponto padrão é no começo da"
+" faixa."
 
 #: ../../chapters/user_interface.rst:336
 msgid ""
 "The actual behavior of the Cue button depends on the selected :ref:`Cue mode"
 " <interface-cue-modes>`."
 msgstr ""
+"O comportamento real do botão Cue depende do :ref:`modo de Cue <interface-"
+"cue-modes>` selecionado."
 
 #: ../../chapters/user_interface.rst:343
 msgid "**Reverse button**"
-msgstr ""
+msgstr "**Botão Inverter**"
 
 #: ../../chapters/user_interface.rst:340
 msgid ""
@@ -787,7 +843,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:346
 msgid "Setting Cue points"
-msgstr ""
+msgstr "Definindo pontos Cue"
 
 #: ../../chapters/user_interface.rst:348
 msgid ""
@@ -795,12 +851,17 @@ msgid ""
 ":ref:`Hotcues <interface-hotcues>`, you can't delete, but only move Cue "
 "points."
 msgstr ""
+"Toda faixa tem um ponto Cue, por padrão no começo. Ao contrário dos "
+":ref:`Hotcues <interface-hotcues>`, você não pode deletar, mas apenas mover "
+"pontos Cue."
 
 #: ../../chapters/user_interface.rst:351
 msgid ""
 "The Cue point is moved according to the selected Cue mode, as explained "
 "below."
 msgstr ""
+"O ponto Cue é movido de acordo com o modo de Cue selecionado, como explicado"
+" abaixo."
 
 #: ../../chapters/user_interface.rst:354
 msgid "Auto Cue"
@@ -820,7 +881,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:364
 msgid "Using Cue Modes"
-msgstr ""
+msgstr "Usando Modos de Cue"
 
 #: ../../chapters/user_interface.rst:366
 msgid ""
@@ -832,11 +893,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:371
 msgid "**Mixxx mode (default)**"
-msgstr ""
+msgstr "**Modo Mixxx (padrão)**"
 
 #: ../../chapters/user_interface.rst:373
 msgid "**While paused at Cue point (Cue button lit):**"
-msgstr ""
+msgstr "**Enquanto pausado no ponto Cue (Botão Cue aceso):**"
 
 #: ../../chapters/user_interface.rst:375
 msgid ""
@@ -853,7 +914,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:380
 msgid "**While paused not at Cue point (Cue button flashing)**:"
-msgstr ""
+msgstr "**Enquanto pausado fora do ponto Cue (Botão Cue piscando)**:"
 
 #: ../../chapters/user_interface.rst:382
 msgid ""
@@ -863,7 +924,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:384
 msgid "**While playing:**"
-msgstr ""
+msgstr "**Enquanto tocando:**"
 
 #: ../../chapters/user_interface.rst:386 ../../chapters/user_interface.rst:416
 msgid ""
@@ -881,7 +942,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:392
 msgid "**Pioneer mode**"
-msgstr ""
+msgstr "**Modo Pioneer**"
 
 #: ../../chapters/user_interface.rst:394
 msgid ""
@@ -892,6 +953,7 @@ msgstr ""
 #: ../../chapters/user_interface.rst:396
 msgid "The Play/Pause button flashes once per second when a track is paused."
 msgstr ""
+"O botão Tocar/Pausar pisca uma vez por segundo quando a faixa é pausada."
 
 #: ../../chapters/user_interface.rst:397
 msgid ""
@@ -901,7 +963,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:399
 msgid "**Denon mode**"
-msgstr ""
+msgstr "**Modo Denon**"
 
 #: ../../chapters/user_interface.rst:401
 msgid "**While paused at Cue point (Cue button lit) - same as Mixxx mode**:"
@@ -916,7 +978,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:408
 msgid "**While paused not at Cue point (Play button flashing)**:"
-msgstr ""
+msgstr "**Enquanto pausado fora do ponto Cue (Botão tocar piscando)**:"
 
 #: ../../chapters/user_interface.rst:410
 msgid "Tap the Cue button to move the track back to :term:`Cue point <cue>`."
@@ -934,7 +996,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:418
 msgid "**Numark mode**"
-msgstr ""
+msgstr "**Modo Numark**"
 
 #: ../../chapters/user_interface.rst:420
 msgid "Same as Denon mode, but without a flashing Play/Pause button."
@@ -946,6 +1008,9 @@ msgid ""
 "decks, featuring a Cue button, a dedicated Pause button, and a Play/Stutter "
 "button."
 msgstr ""
+"Esse modo é útil se você quiser implementar uma skin customizada com decks "
+"de 3 botões, com um botão Cuue, um botão de Pausa dedicado, e um botão "
+"Tocar/Stutter."
 
 #: ../../chapters/user_interface.rst:424
 msgid "**CUP (Cue + Play) mode**"
@@ -968,12 +1033,16 @@ msgstr ""
 msgid ""
 "Use the :ref:`interface-hotcues` to place more reference points on a track."
 msgstr ""
+"Use os :ref:`interface-hotcues` para colocar mais pontos de referência na "
+"faixa."
 
 #: ../../chapters/user_interface.rst:435
 msgid ""
 "You can also use keyboard shortcuts for Cueing. Go to :ref:`control-"
 "keyboard` for more information."
 msgstr ""
+"Você também pode usar atalhos do teclado para Cueing. Vá para :ref:`control-"
+"keyboard` para mais informação"
 
 #: ../../chapters/user_interface.rst:441
 msgid "Intro/Outro Markers"
@@ -1025,11 +1094,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:473
 msgid "Transport Controls"
-msgstr ""
+msgstr "Controles de Transporte"
 
 #: ../../chapters/user_interface.rst:486
 msgid "The transport controls of the deck"
-msgstr ""
+msgstr "Os controles de transporte do deck"
 
 #: ../../chapters/user_interface.rst:489
 msgid "**Beatjump/ Loop Move Size**"
@@ -1068,11 +1137,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:502
 msgid "Vinyl Control Mode and Cueing controls"
-msgstr ""
+msgstr "Modo de Controle por Vinil e controles de Cueing"
 
 #: ../../chapters/user_interface.rst:513
 msgid "The Vinyl Control Mode and Cueing controls of a deck"
-msgstr ""
+msgstr "O Modo de Controle por Vinil e controles de Cueing de um deck."
 
 #: ../../chapters/user_interface.rst:515
 msgid ""
@@ -1088,6 +1157,8 @@ msgid ""
 "For more information on how to use Vinyl control in your setup, go to the "
 "chapter :ref:`vinyl-control`."
 msgstr ""
+"Para mais informações em como usar o Controle por Vinil em sua configuração,"
+" vá para o capítulo :ref:`vinyl-control`."
 
 #: ../../chapters/user_interface.rst:523
 msgid "**Vinyl button**"
@@ -1111,24 +1182,30 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:533
 msgid "**Abs/Rel/Const button**"
-msgstr ""
+msgstr "**Botão Abs/Rel/Const**"
 
 #: ../../chapters/user_interface.rst:535
 msgid ""
 "**Absolute mode**: The track position equals needle position and speed."
 msgstr ""
+"**Modo absoluto**: A posição da faixa é igual a posição e a velocidade da "
+"agulha."
 
 #: ../../chapters/user_interface.rst:536
 msgid ""
 "**Relative mode**: The track speed equals needle speed regardless of needle "
 "position."
 msgstr ""
+"**Modo relativo**: A velocidade da faixa é igual à da agulha, independente "
+"da posição."
 
 #: ../../chapters/user_interface.rst:538
 msgid ""
 "**Constant mode**: The track speed equals last known-steady speed regardless"
 " of needle input."
 msgstr ""
+"**Modo constante**: A velocidade da faixa é igual à última velocidade "
+"conhecida, independente da agulha."
 
 #: ../../chapters/user_interface.rst:541
 msgid "**Cue/Hot button**"
@@ -1139,10 +1216,12 @@ msgid ""
 "This button determines how :term:`cue points <cue>` are treated in vinyl "
 "control relative mode:"
 msgstr ""
+"Esse botão determina como os :term:`pontos cue <cue>` são tratados no modo "
+"de controle por vinil relativo:"
 
 #: ../../chapters/user_interface.rst:546
 msgid "**Off**: Cue points are ignored."
-msgstr ""
+msgstr "**Desligado**: Pontos cue são ignorados."
 
 #: ../../chapters/user_interface.rst:547
 msgid ""
@@ -1157,7 +1236,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:554
 msgid "Sync and Rate Controls"
-msgstr ""
+msgstr "Controles de Sincronização e Pitch"
 
 #: ../../chapters/user_interface.rst:567
 msgid "The rate control section of the deck"
@@ -1165,7 +1244,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:567
 msgid "Rate controls"
-msgstr ""
+msgstr "Controles de taxa"
 
 #: ../../chapters/user_interface.rst:569
 msgid ""
@@ -1174,22 +1253,31 @@ msgid ""
 "You can control rate changes also from your computer's keyboard, see the "
 "chapter :ref:`control-keyboard` for more information."
 msgstr ""
+"Os controles de taxa permitem que você mude a taxa com que as faixas são "
+"tocadas. Isso é muito útil para fazer :term:`beatmatching` que põe as duas "
+"faixas juntas em uma só mixagem. Você pode fazer mudanças na taxa também do "
+"seu teclado de computador, veja o capítulo :ref:`control-keyboard` para mais"
+" informação."
 
 #: ../../chapters/user_interface.rst:592
 msgid "**SYNC button**"
-msgstr ""
+msgstr "**Botão SINCRONIZAR**"
 
 #: ../../chapters/user_interface.rst:575
 msgid ""
 "**Left-Click**: Changes the :term:`rate` of the track so that the "
 ":term:`BPM` and :term:`phase` of the track matches the other deck."
 msgstr ""
+"**Clique com o lado esquerdo**: Muda a :term:`taxa` da faixa para que o "
+":term:`BPM` e a :term:`fase` da outra faixa se iguale com a do outro deck."
 
 #: ../../chapters/user_interface.rst:577
 msgid ""
 "**Right-Click**: Only changes the :term:`rate` of the track to match the "
 "other deck but does not adjust the :term:`phase`."
 msgstr ""
+"**Clique com o lado direito**: Apenas afeta a :term:`taxa` da faixa para "
+"igualar com a do outro deck mas não ajusta a :term:`fase`."
 
 #: ../../chapters/user_interface.rst:580
 msgid ""
@@ -1197,6 +1285,9 @@ msgid ""
 "can't sync to samplers and samplers can only sync to decks. The sync target "
 "for samplers is:"
 msgstr ""
+"Decks e samplers agora escolhem o alvo de sincronização para sincronizar na "
+"hora. Decks não podem sincronizar com sampler e samplers só podem "
+"sincronizar com decks. O alvo de sincronização para samplers é:"
 
 #: ../../chapters/user_interface.rst:584
 msgid ""
@@ -1217,11 +1308,16 @@ msgid ""
 "The sync targets for decks are chosen with the new master sync feature, see "
 ":ref:`master-sync` for more information."
 msgstr ""
+"Então basicamente, se você sincronizar um sampler e ambos deck 1 e deck 2 "
+"estiverem tocando uma faixa com uma grade de batidas então o deck 1 vai "
+"ganhar porque é numericamente o primeiro. O alvo de sincronização para decks"
+" são escolhidos com a nova funcionalidade de sincronização mestre, veja "
+":ref:`master-sync` para mais informação."
 
 #: ../../chapters/user_interface.rst:598
 #: ../../chapters/user_interface.rst:1129
 msgid "**Pitch/Rate slider**"
-msgstr ""
+msgstr "**Deslizante de Pitch/Taxa**"
 
 #: ../../chapters/user_interface.rst:595
 msgid ""
@@ -1230,10 +1326,15 @@ msgid ""
 "slider up, opposite to the behavior found on DJ turntables and :term:`CDJ`. "
 "Right-clicking on the slider will reset the tempo to its original value."
 msgstr ""
+"Esse deslizante permite que você mude a velocidade da música, por padrão até"
+" 10% do tempo original da faixa. A velocidade vai aumentar quando você mover"
+" o deslizante para cima, se opondo ao comportamento encontrado em toca-"
+"discos de DJ e :term:`CDJs <CDJ>`. Clicar com o lado direito no deslizante "
+"vai resetar o tempo para o valor original."
 
 #: ../../chapters/user_interface.rst:603
 msgid "**Pitch Rate Display**"
-msgstr ""
+msgstr "**Mostrador d Taxa de Pitch**"
 
 #: ../../chapters/user_interface.rst:601
 msgid ""
@@ -1241,10 +1342,13 @@ msgid ""
 "Is the Pitch/Rate slider positioned at the center, the pitch rate display is"
 " at +0.0%, which indicates no change."
 msgstr ""
+"A porcentagem de quanto a taxa da faixa está acelerada ou desacelerada está "
+"mostrada aqui. Se o deslizante de pitch/taxa está posicionado no centro, o "
+"mostrador da taxa de pitch vai estar em +0.0%, o que indica nenhuma mudança."
 
 #: ../../chapters/user_interface.rst:610
 msgid "**Temporary Pitch/Rate buttons (Nudge)**"
-msgstr ""
+msgstr "**Botões de Pitch/Rate Temporários (Nudge)**"
 
 #: ../../chapters/user_interface.rst:606
 msgid ""
@@ -1257,7 +1361,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:613
 msgid "**Pitch/Rate buttons**"
-msgstr ""
+msgstr "**Botões de Pitch/Taxa**"
 
 #: ../../chapters/user_interface.rst:613
 msgid ""
@@ -1282,14 +1386,18 @@ msgid ""
 " can enable the :ref:`Keylock <interface-button-grid>` feature to maintain a"
 " constant tone."
 msgstr ""
+"Se o tempo da faixa mudar, você vai perceber que o tom muda baseado no pitch"
+" usado (por exemplo, tocar em um pitch rápido dá um som de esquilo). Você "
+"pode ativar a funcionalidade de :ref:`Trava de Tom <interface-button-grid>` "
+"para manter um tom constante."
 
 #: ../../chapters/user_interface.rst:628
 msgid "Loop Controls"
-msgstr ""
+msgstr "Controles de Loop"
 
 #: ../../chapters/user_interface.rst:641
 msgid "The beatloop and looping controls of the deck"
-msgstr ""
+msgstr "Os controles de loop e loop de batida do deck"
 
 #: ../../chapters/user_interface.rst:643
 msgid ""
@@ -1396,14 +1504,18 @@ msgid ""
 "automatically snap to the nearest beat. This is disabled by default, click "
 "on the :ref:`Quantize Mode Toggle <interface-button-grid>` to enable it."
 msgstr ""
+"Se o modo de :term:`Quantização <quantization>` estiver ativado, os loops "
+"vão sempre entrar na batida mais próxima. Isso é desativado por padrão, "
+"clique no :ref:`Ligar/Desligar Modo de Quantização <interface-button-grid>` "
+"para ativá-lo."
 
 #: ../../chapters/user_interface.rst:690
 msgid "Hotcue Controls"
-msgstr ""
+msgstr "Controles de Hotcue"
 
 #: ../../chapters/user_interface.rst:703
 msgid "The hotcue controls of the deck"
-msgstr ""
+msgstr "Os controles de hotcue do deck"
 
 #: ../../chapters/user_interface.rst:705
 msgid ""
@@ -1411,10 +1523,13 @@ msgid ""
 "buttons. You can also use keyboard shortcuts, go to :ref:`control-keyboard` "
 "for more information."
 msgstr ""
+"Para pular entre diferentes partes da faixa, você pode usar esses botões "
+"numerados. Você também pode usar atalhos do teclado, vá para :ref:`control-"
+"keyboard` para mais informação."
 
 #: ../../chapters/user_interface.rst:710
 msgid "Setting Hotcues"
-msgstr ""
+msgstr "Definindo Hotcues"
 
 #: ../../chapters/user_interface.rst:712
 msgid ""
@@ -1423,10 +1538,13 @@ msgid ""
 " the waveform and the button will light up to indicate that the hotcue is "
 "set."
 msgstr ""
+"Clicar em um botão numerado vai definir um :term:`hotcue` na posição atual "
+"de reprodução na faixa. Um marcador com o número correspondente vai aparecer"
+" nas ondas e o botão vai acender para indicar que o hotcue foi definido."
 
 #: ../../chapters/user_interface.rst:717
 msgid "Playing Hotcues"
-msgstr ""
+msgstr "Tocando Hotcues"
 
 #: ../../chapters/user_interface.rst:719
 msgid ""
@@ -1436,6 +1554,11 @@ msgid ""
 "the track still instantly jumps to the hotcue but the loop will be "
 "deactivated."
 msgstr ""
+"**Enquanto tocando**: Clique em um botão de hotcue para que a faixa pule "
+"instantâneamente para o local do hotcue e continue tocando. Se você estiver "
+"tocando dentro de um loop e clicar em um hotcue que está fora do loop, então"
+" a faixa ainda vai pular instantâneamente para o hotcue mas o loop vai ser "
+"desativado."
 
 #: ../../chapters/user_interface.rst:724
 msgid ""
@@ -1445,6 +1568,11 @@ msgid ""
 "the hotcue button is pressed to continue playback, then release the hotcue "
 "button."
 msgstr ""
+"**Enquanto parado**: Clique em um botão de hotcue para que a faixa pule "
+"instantâneamente para o hotcue e comece a tocar enquanto o botão for "
+"pressionado. Pressione o atalho de teclado :ref:`Tocar <control-keyboard>` "
+"enquanto o botão de hotcue for pressionado para continuar a reprodução, e "
+"então solte o botão de hotcue."
 
 #: ../../chapters/user_interface.rst:730
 msgid "Highlighting Hotcues"
@@ -1472,7 +1600,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:742
 msgid "Deleting Hotcues"
-msgstr ""
+msgstr "Deletando Hotcues"
 
 #: ../../chapters/user_interface.rst:744
 msgid ""
@@ -1488,6 +1616,10 @@ msgid ""
 "<advanced-keyboard>` or :ref:`controller <advanced-controller>` mappings to "
 "use all of them."
 msgstr ""
+"O Mixxx suporta até 36 hotcues por deck. Por padrão, apenas alguns deles são"
+" visíveis na interface do usuário. Você pode personalizar o seu mapeamento "
+"de :ref:`teclado <advanced-keyboard>` ou :ref:`controlador <advanced-"
+"controller>` para usar todos."
 
 #: ../../chapters/user_interface.rst:752
 msgid ""
@@ -1496,6 +1628,10 @@ msgid ""
 "This is disabled by default, click on the :ref:`Quantize Mode Toggle "
 "<interface-button-grid>` to enable it."
 msgstr ""
+"Como os loops (veja acima), se o modo de :term:`quantização <<quantization>`"
+" estiver ativado, os hotcues vão sempre entrar na batida mais próxima. Isso "
+"é desativado por padrão, clique no :ref:`Ligar/Desligar Modo de Quantização "
+"<interface-button-grid>` para ativá-lo."
 
 #: ../../chapters/user_interface.rst:761
 msgid "Mixer"
@@ -1503,7 +1639,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:774
 msgid "The mixer section"
-msgstr ""
+msgstr "A seção do mixer"
 
 #: ../../chapters/user_interface.rst:776
 msgid ""
@@ -1511,6 +1647,9 @@ msgid ""
 "allows you to control how the different decks and samplers are mixed "
 "together."
 msgstr ""
+"A seção do mixer da :ref:`interface do usuário do Mixxx <interface-"
+"overview>` permite que você controle como os diferentes decks e samplers são"
+" mixados."
 
 #: ../../chapters/user_interface.rst:782
 msgid "Channel Faders and Level Meters"
@@ -1533,7 +1672,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:800
 msgid "**Line faders**"
-msgstr ""
+msgstr "**Deslizantes de linha**"
 
 #: ../../chapters/user_interface.rst:795
 msgid ""
@@ -1547,10 +1686,12 @@ msgid ""
 "Some DJ's prefer to use the line faders over the crossfader for fading "
 "between tracks. Try it, you may like it."
 msgstr ""
+"Alguns DJs preferem usar os deslizantes de linha ao invés do crossfader para"
+" fazer transições entre faixas. Tente isso, você pode gostar."
 
 #: ../../chapters/user_interface.rst:805
 msgid "Equalizers and Gain Knobs"
-msgstr ""
+msgstr "Equalizadores e Botões de Ganho"
 
 #: ../../chapters/user_interface.rst:814
 msgid "The EQ Controls of a deck in the mixer"
@@ -1558,12 +1699,12 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:814
 msgid "EQ Controls"
-msgstr ""
+msgstr "Controles de EQ"
 
 #: ../../chapters/user_interface.rst:835
 #: ../../chapters/user_interface.rst:1122
 msgid "**Gain Knob**"
-msgstr ""
+msgstr "**Botão de Ganho**"
 
 #: ../../chapters/user_interface.rst:817
 msgid ""
@@ -1597,7 +1738,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:844
 msgid "**EQ Knobs**"
-msgstr ""
+msgstr "**Botões de EQ**"
 
 #: ../../chapters/user_interface.rst:838
 msgid ""
@@ -1616,7 +1757,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:851
 msgid "**Kill Switches**"
-msgstr ""
+msgstr "**Botões Matar**"
 
 #: ../../chapters/user_interface.rst:847
 msgid ""
@@ -1626,6 +1767,12 @@ msgid ""
 "frequency range. If the Kill switches do not work as expected, check the "
 "high/low shelf EQ settings in the preferences."
 msgstr ""
+"As caixas pequenas ao lado de cada botão de EQ são chamadas de :term:`botões"
+" de matar <kill switch>`. Segure esses botões para remover totalmente essa "
+"extensão de frequência. Clique rapidamente nos botões para manter. Quando "
+"ele estiver nesse modo mantendo, clique de novo para restaurar a extensão de"
+" frequência. Se os botões matar não funcionam como esperado, verifique as "
+"configurações da faixa de EQ nas preferências."
 
 #: ../../chapters/user_interface.rst:858
 msgid "**Quick Effect Super knob**"
@@ -1646,14 +1793,16 @@ msgid ""
 "You can customize the EQ settings in :menuselection:`Preferences --> "
 "Equalizer`."
 msgstr ""
+"Você pode personalizar as configurações de EQ em "
+":menuselection:`Preferências --> Equalizador`."
 
 #: ../../chapters/user_interface.rst:866
 msgid "PFL/Headphone Button"
-msgstr ""
+msgstr "Botão PFL/Fone"
 
 #: ../../chapters/user_interface.rst:875
 msgid "The headphone buttons of both decks in the mixer"
-msgstr ""
+msgstr "Os botões de fone dos decks no mixer"
 
 #: ../../chapters/user_interface.rst:877
 msgid ""
@@ -1675,6 +1824,8 @@ msgid ""
 "Headphone cueing is only available if you have configured a Headphone Output"
 " in :menuselection:`Preferences --> Sound Hardware`."
 msgstr ""
+"Cueing no fone só é disponível se você configurou uma Saída de Fone em "
+":menuselection:`Preferências --> Hardware de Som`."
 
 #: ../../chapters/user_interface.rst:892
 msgid ""
@@ -1685,7 +1836,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:899
 msgid "Crossfader"
-msgstr ""
+msgstr "Crossfader"
 
 #: ../../chapters/user_interface.rst:908
 msgid "The crossfader section of the mixer"
@@ -1698,6 +1849,11 @@ msgid ""
 " is in its default center position, then you will hear both decks. Right-"
 "clicking on the crossfader will reset the slider to its default position."
 msgstr ""
+"O :term:`crossfader` determina o volume real de cada deck ao mover o "
+"deslizante da esquerda para a direita. Se ambos os decks estiverem tocando e"
+" o crossfader estiver na sua posição padrão central, então você vai ouvir "
+"ambas os decks. Clicar com o lado direito no crossfader vai resetar o "
+"deslizante para a sua posição padrão"
 
 #: ../../chapters/user_interface.rst:915
 msgid ""
@@ -1714,6 +1870,10 @@ msgid ""
 "*Hamster Style*. To adjust the crossfader to your style of mixing, go to "
 ":menuselection:`Preferences --> Crossfader`."
 msgstr ""
+"Você pode inverter a configuração do crossfader, para que o deck da direita "
+"seja no final da esquerda do crossfader e vice-versa. Isso também é "
+"conhecido como *Estilo Hamster*. Para ajustar o crossfader para o seu estilo"
+" de mixagem, vá para :menuselection:`Preferências --> Crossfader`."
 
 #: ../../chapters/user_interface.rst:923
 msgid ""
@@ -1727,6 +1887,8 @@ msgid ""
 "Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can automate "
 "the crossfade between the decks."
 msgstr ""
+"Usando a funcionalidade de :ref:`AutoDJ <djing-auto-dj>` do Mixxx, você pode"
+" automatizar a transição entre faixas."
 
 #: ../../chapters/user_interface.rst:932
 msgid "Headphone and Main Mix Controls"
@@ -1775,6 +1937,8 @@ msgid ""
 "Don't forget to activate the :guilabel:`PFL` button on the deck you want to "
 "listen to in your headphones."
 msgstr ""
+"Não esqueça de ativar o botão :guilabel:`PFL` no deck que você quer escutar "
+"nos seus fones."
 
 #: ../../chapters/user_interface.rst:973
 msgid "**Head knob (Headphone gain)**"
@@ -1816,7 +1980,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:984
 msgid "**Balance Knob**"
-msgstr ""
+msgstr "**Botão de Balanceamento**"
 
 #: ../../chapters/user_interface.rst:983
 msgid ""
@@ -1867,7 +2031,7 @@ msgstr ""
 #: ../../chapters/user_interface.rst:1027
 #: ../../chapters/user_interface.rst:1036
 msgid "A sample deck"
-msgstr ""
+msgstr "Um deck de samples"
 
 #: ../../chapters/user_interface.rst:1027
 msgid "Sample decks"
@@ -1884,6 +2048,11 @@ msgid ""
 "overview waveform and a limited number of controls. All controls work just "
 "like on the regular decks, see :ref:`interface-decks`."
 msgstr ""
+"Samplers são decks em miniatura. Eles permitem que você toque amostras "
+"curtas e jingles mas também faixas adicionais em sua mixagem. Eles vem com "
+"uma visão global das ondas e um número de controles limitados. Todos os "
+"controles funcionam como se eles fossem decks normais, veja :ref:`interface-"
+"decks`."
 
 #: ../../chapters/user_interface.rst:1043
 msgid ""
@@ -1895,7 +2064,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1049
 msgid "Waveform Display"
-msgstr ""
+msgstr "Mostrador de Ondas"
 
 #: ../../chapters/user_interface.rst:1052
 msgid ""
@@ -1903,32 +2072,42 @@ msgid ""
 "waveform envelope of the entire track. Clicking somewhere on the waveform "
 "allows you to jump to an arbitrary position in the track."
 msgstr ""
+"O mostrador de ondas mostra vários marcadores na faixa e também as ondas de "
+"toda a faixa. Clicar em algum lugar das ondas permite que você pule para uma"
+" posição arbitrária na faixa."
 
 #: ../../chapters/user_interface.rst:1057
 msgid "While mixing, some additional markers can appear on the waveforms:"
 msgstr ""
+"Enquanto mixando, alguns marcadores adicionais podem aparecer nas ondas:"
 
 #: ../../chapters/user_interface.rst:1059
 msgid ""
 "**Position marker**: A vertical line indicates the playback point of the "
 "sample deck."
 msgstr ""
+"**Marcador de Posição**: Uma linha vertical indica o ponto de reprodução do "
+"deck de samples."
 
 #: ../../chapters/user_interface.rst:1069
 msgid "**Track Artist/Title**"
-msgstr ""
+msgstr "**Artista/Título da Faixa**"
 
 #: ../../chapters/user_interface.rst:1068
 msgid ""
 "The artist and title of the track that was loaded into a sampler deck is "
 "displayed here."
 msgstr ""
+"O artista e o título da faixa que foi carregado em um deck do sampler é "
+"mostrado aqui."
 
 #: ../../chapters/user_interface.rst:1072
 msgid ""
 "The number at the top right is the effective :term:`BPM` of the track. Tap "
 "the BPM to set the BPM to the speed you are tapping."
 msgstr ""
+"O número no topo direito é o :term:`BPM` efetivo da faixa. Toque o BPM para "
+"definir o BPM para a velocidade que você estiver tocando"
 
 #: ../../chapters/user_interface.rst:1076
 msgid "Sample Deck Options Button Grid"
@@ -1943,13 +2122,15 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1086
 msgid "Clicking this button ejects the track from the deck."
-msgstr ""
+msgstr "Clicar nesse botão ejeta a faixa do deck"
 
 #: ../../chapters/user_interface.rst:1089
 msgid ""
 ":term:`Keylock <key lock>` locks the track's pitch so that adjustments to "
 "its tempo via the rate slider do not affect its pitch."
 msgstr ""
+"A :term:`Trava de Tom <key lock>` trava o pitch da faixa fazendo com que "
+"ajustamentos no tempo usando o deslizante do pitch não afetem o pitch. "
 
 #: ../../chapters/user_interface.rst:1094
 msgid "**Crossfader Orientation Toggle**"
@@ -1964,11 +2145,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1097
 msgid "Sample Deck Controls"
-msgstr ""
+msgstr "Controles do Deck de Samples"
 
 #: ../../chapters/user_interface.rst:1103
 msgid "**Play/Pause button**"
-msgstr ""
+msgstr "**Botão Tocar/Pausar**"
 
 #: ../../chapters/user_interface.rst:1100
 msgid ""
@@ -1977,48 +2158,62 @@ msgid ""
 ":term:`cue point <cue>`. Right-clicking on the button will stop playback and"
 " seek the play position to the beginning of the sample."
 msgstr ""
+"O clique no botão começa sempre a reprodução do :term:`ponto cue <cue>`. Se "
+"a reprodução já está ativada, a posição de reprodução vai pular de volta "
+"para o :term:`ponto cue <cue>`. Um clique com o lado direito vai parar a "
+"reprodução e vai colocar a posição de reprodução no começo da sample."
 
 #: ../../chapters/user_interface.rst:1106
 msgid "**Sync Button**"
-msgstr ""
+msgstr "**Botão Sincronizar**"
 
 #: ../../chapters/user_interface.rst:1106
 msgid ""
 "Syncs the Sampler deck to a regular deck, as described in :ref:`interface-"
 "rate`."
 msgstr ""
+"Sincroniza o deck de samples com um deck normal, como descrito em "
+":ref:`interface-rate`."
 
 #: ../../chapters/user_interface.rst:1108
 msgid ""
 "**Left-Click**: Changes the :term:`rate` of the track so that the "
 ":term:`BPM` and :term:`phase` of the track matches the sync target."
 msgstr ""
+"**Clique com o lado esquerdo**: Muda a :term:`taxa` da faixa para que o "
+":term:`BPM` e a :term:`fase` da faixa igualem o alvo de sincronização."
 
 #: ../../chapters/user_interface.rst:1110
 msgid ""
 "**Right-Click**: Only changes the :term:`rate` of the track to match the "
 "sync target but does not adjust the :term:`phase`."
 msgstr ""
+"**Clique com o lado direito**: Apenas muda a :term:`taxa` da faixa para "
+"igualar ao do alvo de sincronização mas naõ ajusta a :term:`fase`."
 
 #: ../../chapters/user_interface.rst:1115
 msgid "**Hotcue Controls**"
-msgstr ""
+msgstr "**Controles de Hotcue**"
 
 #: ../../chapters/user_interface.rst:1114
 msgid ""
 "To jump in between different parts of a sample, you can use these numbered "
 "hotcue buttons."
 msgstr ""
+"Para pular entre diferentes partes da sample, você pode usar estes botões de"
+" hotcues numeradas."
 
 #: ../../chapters/user_interface.rst:1119
 msgid "**PFL/Headphone Button**"
-msgstr ""
+msgstr "**Botão PFL/Fone**"
 
 #: ../../chapters/user_interface.rst:1118
 msgid ""
 "If active, the :term:`pre-fader listen or PFL <PFL>` button allows you to "
 "listen to the track in your headphones."
 msgstr ""
+"Se ativo, o botão :term:`pre-fader listen ou PFL <PFL>` permite que você "
+"escute à faixa nos seus fones."
 
 #: ../../chapters/user_interface.rst:1122
 msgid "Allows you to adjust the gain applied to the track."
@@ -2030,13 +2225,15 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1125
 msgid "Shows the level of the signal and can be adjusted with the Gain knob."
-msgstr ""
+msgstr "Mostra o nivel do sinal e mode ser ajustado com o botão de Ganho"
 
 #: ../../chapters/user_interface.rst:1128
 msgid ""
 "The slider allows you to change the speed of the sample. Right-clicking on "
 "the slider will reset the tempo to its original value."
 msgstr ""
+"Esse deslizante permite que você mude a velocidade da sample. Clicar com o "
+"lado direito no deslizante vai resetar o tempo para o valor original"
 
 #: ../../chapters/user_interface.rst:1134
 msgid "Effects"
@@ -2075,7 +2272,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1175
 msgid "The Microphone section"
-msgstr ""
+msgstr "A seção Microfone"
 
 #: ../../chapters/user_interface.rst:1177
 msgid ""
@@ -2093,11 +2290,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1185
 msgid "Microphone Controls"
-msgstr ""
+msgstr "Controles de Microfone"
 
 #: ../../chapters/user_interface.rst:1191
 msgid "**Talk Button**"
-msgstr ""
+msgstr "**Botão Falar**"
 
 #: ../../chapters/user_interface.rst:1188
 msgid ""
@@ -2110,7 +2307,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1196
 msgid "**Mix Orientation Toggle**"
-msgstr ""
+msgstr "**Alternar Orientação da Mixagem**"
 
 #: ../../chapters/user_interface.rst:1194
 msgid ""
@@ -2118,24 +2315,29 @@ msgid ""
 "the left side of crossfader, to the right side or to the center (default). "
 "Clicking cycles through all the options."
 msgstr ""
+"Esse controle determina a orientação da mixagem da entrada do microfone. "
+"Para o lado esquerda do crossfader, para o lado direito ou para o centro "
+"(padrão). Clicar alterna entre todas as opções."
 
 #: ../../chapters/user_interface.rst:1199
 msgid "**Microphone Volume Meter**"
-msgstr ""
+msgstr "**Medidor do Volume do Microfone**"
 
 #: ../../chapters/user_interface.rst:1199
 msgid "This displays the microphone volume input signal strength."
-msgstr ""
+msgstr "Isso mostra o volume da potência do sinal de entrada do microfone."
 
 #: ../../chapters/user_interface.rst:1203
 msgid "**Microphone Gain Knob**"
-msgstr ""
+msgstr "**Botão de Ganho do Microfone**"
 
 #: ../../chapters/user_interface.rst:1202
 msgid ""
 "Use this knob to adjust the gain of the microphone output. Try to keep the "
 "volume at a reasonable level to avoid signal clipping."
 msgstr ""
+"Use este botão para ajustar o ganho da entrada do microfone. Tente manter o "
+"volume em um nível razoável para evitar clipagem."
 
 #: ../../chapters/user_interface.rst:1208
 msgid "Preview Deck"
@@ -2143,7 +2345,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1220
 msgid "The Preview Deck with a track loaded"
-msgstr ""
+msgstr "O Deck de Pré-escuta com uma faixa carregada"
 
 #: ../../chapters/user_interface.rst:1222
 msgid ""
@@ -2157,7 +2359,7 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:1228
 msgid "The features in detail:"
-msgstr ""
+msgstr "As funcionalidades em detalhe:"
 
 #: ../../chapters/user_interface.rst:1230
 msgid ""
@@ -2187,6 +2389,9 @@ msgid ""
 "somewhere on the waveform allows you to jump to an arbitrary position in the"
 " track."
 msgstr ""
+"**Visão geral das ondas**: Mostra os vários marcadores (Cues, Hotcues) na "
+"faixa e tamabém o contorno das ondas de toda a faixa. Clicar em qualquer "
+"lugar das ondas permite que você pule para uma posição arbitrária na faixa."
 
 #: ../../chapters/user_interface.rst:1247
 msgid "**Gain slider**: Move the slider to adjust the gain of the track."

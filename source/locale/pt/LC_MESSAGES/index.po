@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,7 +218,7 @@ msgstr ""
 
 #: ../../index.rst:11
 msgid "Mixxx |version| User Manual"
-msgstr ""
+msgstr "Manual do Usuário do Mixxx |version|"
 
 #: ../../index.rst:13
 msgid ""
@@ -243,11 +246,11 @@ msgstr ""
 
 #: ../../index.rst:22
 msgid "4 decks"
-msgstr ""
+msgstr "4 decks"
 
 #: ../../index.rst:23
 msgid "effects"
-msgstr ""
+msgstr "effects"
 
 #: ../../index.rst:25
 msgid ""
@@ -258,4 +261,4 @@ msgstr ""
 
 #: ../../index.rst:29
 msgid "Table of Contents"
-msgstr ""
+msgstr "Índice"

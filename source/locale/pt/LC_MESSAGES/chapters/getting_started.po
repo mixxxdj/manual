@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -229,7 +232,7 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:14 ../../chapters/getting_started.rst:48
 msgid "**Windows**"
-msgstr ""
+msgstr "**Windows**"
 
 #: ../../chapters/getting_started.rst:14
 msgid ""
@@ -285,7 +288,7 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:41
 msgid "Opening Mixxx"
-msgstr ""
+msgstr "Abrindo o Mixx"
 
 #: ../../chapters/getting_started.rst:42
 msgid ""
@@ -299,6 +302,9 @@ msgid ""
 "Windows start menu and click the Mixxx icon, or perform a search for "
 ":file:`Mixxx.exe`."
 msgstr ""
+"Clique duas vezes no ícone do Mixxx na Área de Trabalho. Alternativamente, "
+"navegue pelo seu menu Iniciar e clique no ícone do Mixxx, ou procue por "
+":file:`Mixxx.exe`."
 
 #: ../../chapters/getting_started.rst:51
 msgid ""
@@ -309,7 +315,7 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:62
 msgid "**GNU/Linux**"
-msgstr ""
+msgstr "**GNU/Linux**"
 
 #: ../../chapters/getting_started.rst:56
 msgid ""
@@ -324,7 +330,7 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:67
 msgid "Importing your audio files"
-msgstr ""
+msgstr "Importando seus arquivos de áudio"
 
 #: ../../chapters/getting_started.rst:79
 msgid "Mixxx 1st run - Choose music library directory dialog"
@@ -340,6 +346,10 @@ msgid ""
 " music is stored. By default, the dialog points to a location where music "
 "files are typically held, but you can select any location on your computer."
 msgstr ""
+"A primeira vez que você rodar o Mixxx, será questionado para selecionar uma "
+"pasta onde suas músicas estão guardadas. Por padrão, a caixa de diálogo "
+"aponta para onde normalmente as músicas ficam, mas você pode selecionar "
+"qualquer outra localização no seu computador."
 
 #: ../../chapters/getting_started.rst:85
 msgid ""
@@ -356,6 +366,11 @@ msgid ""
 "the menu. If you want to rescan at every launch, select "
 ":menuselection:`Preferences --> Library --> Rescan on startup`."
 msgstr ""
+"Se você quer atualizar a sua biblioteca (por exemplo porque você adicionou "
+"ou moveu arquivos), você pode fazer isso com o menu "
+":menuselection:`Biblioteca --> Reexaminar Biblioteca`. Se você quiser "
+"reexaminar em toda a inicialização, selecione menuselection:`Preferências "
+"--> Biblioteca --> Reexaminar na Inicialização`."
 
 #: ../../chapters/getting_started.rst:94
 msgid ""
@@ -364,10 +379,14 @@ msgid ""
 "folders. Select a regular folder instead, usually “My Music“, like pictured "
 "above."
 msgstr ""
+"No Windows 7 e 8 a caixa de diálogo de importação vai apontar para a sua "
+"Bilbioteca do Windows de “Música“, uma pasta de uso especial virtual. Você "
+"**não** pode usar estas pastas virtuais. Selecione uma pasta normal, "
+"usualmente “Minhas Músicas“, como mostrado acima."
 
 #: ../../chapters/getting_started.rst:102
 msgid "Analyze your library"
-msgstr ""
+msgstr "Analise sua biblioteca"
 
 #: ../../chapters/getting_started.rst:108
 msgid ""
@@ -467,7 +486,7 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:157
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Preferências de Hardware de Som do Mixxx"
 
 #: ../../chapters/getting_started.rst:160
 msgid "Output Options"

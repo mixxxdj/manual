@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -277,14 +280,14 @@ msgstr ""
 #: ../../chapters/example_setups.rst:156 ../../chapters/example_setups.rst:190
 #: ../../chapters/example_setups.rst:215
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
-msgstr ""
+msgstr "Abra :menuselection:`Preferências--> Hardware do Som`"
 
 #: ../../chapters/example_setups.rst:40 ../../chapters/example_setups.rst:70
 #: ../../chapters/example_setups.rst:113 ../../chapters/example_setups.rst:148
 #: ../../chapters/example_setups.rst:157 ../../chapters/example_setups.rst:191
 #: ../../chapters/example_setups.rst:216
 msgid "Select the :guilabel:`Output` tab"
-msgstr ""
+msgstr "Selecione a aba :guilabel:`Saída`"
 
 #: ../../chapters/example_setups.rst:41
 msgid ""
@@ -303,27 +306,32 @@ msgstr ""
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
+"Use o seu microfone embutido ou conecte um microfone no seu computador"
 
 #: ../../chapters/example_setups.rst:49 ../../chapters/example_setups.rst:77
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
+"Verifique se o microfone foi detectado pelo seu :term:`SO <operating "
+"system>`"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
-msgstr ""
+msgstr "Abra a aba :guilabel:`Entrada`"
 
 #: ../../chapters/example_setups.rst:52 ../../chapters/example_setups.rst:80
 msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
+"Do menu drop-down :guilabel:`Microfone`, selecione a entrada que o seu "
+"microfone está conectad"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr ""
+msgstr "Clique em :guilabel:`Aplicar` para salvar as mudanças."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
@@ -337,7 +345,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
-msgstr ""
+msgstr "Usando o Mixxx apenas com a placa de som embutida."
 
 #: ../../chapters/example_setups.rst:71
 msgid ""
@@ -353,7 +361,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:88
 msgid "Laptop and Splitter Cable"
-msgstr ""
+msgstr "Laptop e Cabo Divisor"
 
 #: ../../chapters/example_setups.rst:98
 msgid ""
@@ -383,6 +391,9 @@ msgid ""
 "headphones symbol and that the speakers are plugged into the side of the "
 "cable with a speaker symbol."
 msgstr ""
+"Verifique os fones de ouvido estejam plugados no lado do cabo com o símbolo "
+"dos fones e que os auto-falantes estejam plagados no lado do cabo com um "
+"símbolo de auto-falante."
 
 #: ../../chapters/example_setups.rst:117
 msgid ""
@@ -443,7 +454,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
-msgstr ""
+msgstr "Laptop e Controlador MIDI ou HID"
 
 #: ../../chapters/example_setups.rst:169
 msgid ""
@@ -509,11 +520,11 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:230
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
-msgstr ""
+msgstr "Laptop, Mixer Hardware Externo e Controle por Vinil"
 
 #: ../../chapters/example_setups.rst:239
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr ""
+msgstr "Usando o Mixxx junto com toca-discos e um mixer externo"
 
 #: ../../chapters/example_setups.rst:241
 msgid ""
@@ -528,3 +539,4 @@ msgstr ""
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
 msgstr ""
+"Vá para o capítulo :ref:`vinyl-control` para mais informações detalhadas."

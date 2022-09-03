@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -215,4 +218,4 @@ msgstr ""
 
 #: ../../chapters/appendix.rst:4
 msgid "Appendix"
-msgstr ""
+msgstr "Anexo"

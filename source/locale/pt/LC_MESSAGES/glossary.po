@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../glossary.rst:2
 msgid "Glossary of Terms"
-msgstr ""
+msgstr "Glossário"
 
 #: ../../glossary.rst:243
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../../glossary.rst:244
 msgid "Advanced Audio Coding"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../glossary.rst:473
 msgid "AcoustID"
-msgstr ""
+msgstr "AcoustID"
 
 #: ../../glossary.rst:475
 msgid ""
@@ -54,10 +54,16 @@ msgid ""
 "database and provide a web service for audio file identification using this "
 "database. For more information, see`<https://acoustid.org/>`_."
 msgstr ""
+"Um sistema de impressão digital acústica construído inteiramente em "
+"tecnologia de :term:`código aberto`. Tem como objetivo criar um banco de "
+"dados gratuito de impressões digitais de áudio mandados por usuários com "
+"mapeamento com os :term:`metadados` da base de dados do :term:`MusicBrainz` "
+"e fornecer um serviço web para a identificação do arquivo de áudio usando "
+"este banco de dados. Para mais informações veja `<https://acoustid.org/>`_."
 
 #: ../../glossary.rst:265
 msgid "AIFF"
-msgstr ""
+msgstr "AIFF"
 
 #: ../../glossary.rst:266
 msgid "Audio Interchange File Format"
@@ -119,7 +125,7 @@ msgstr ""
 
 #: ../../glossary.rst:354
 msgid "audio interface"
-msgstr ""
+msgstr "audio interface"
 
 #: ../../glossary.rst:356
 msgid ""
@@ -132,7 +138,7 @@ msgstr ""
 
 #: ../../glossary.rst:208
 msgid "balance"
-msgstr ""
+msgstr "balanceamento"
 
 #: ../../glossary.rst:210
 msgid ""
@@ -140,10 +146,13 @@ msgid ""
 "left and right channel. The balance refers to the relative volume of the "
 "corresponding channel in a stereo audio signal."
 msgstr ""
+"Um controle de balanceamento em um mixer permite que você ajuste o balanço "
+"entre os canais esquerdo e direito. O balanceamento se refere ao volume "
+"relativo do respectivo canal em um sinal de áudio estéreo."
 
 #: ../../glossary.rst:384
 msgid "bar"
-msgstr ""
+msgstr "compasso"
 
 #: ../../glossary.rst:386
 msgid ""
@@ -151,10 +160,13 @@ msgid ""
 "given number of beats. Typically, a piece consists of several bars of the "
 "same length."
 msgstr ""
+"Na notação musical, um compasso é um segmento de tempo definido por um "
+"número definido de batidas. Tipicamente, uma peça consiste de vários "
+"compassos do mesmo tamanho."
 
 #: ../../glossary.rst:102
 msgid "beatgrid"
-msgstr ""
+msgstr "grade de batidas"
 
 #: ../../glossary.rst:104
 msgid ""
@@ -163,20 +175,26 @@ msgid ""
 " precise effects synchronization, looping and accurate :term:`BPM` "
 "representation."
 msgstr ""
+"Uma série de marcadores que apontam para a localização das batidas na faixa."
+" Grades de Batida são usados para funções avançadas de mixagem como a "
+":term:`sincronização` de faixas, sincronização de efeitos precisos, looping "
+"e representação precisa do :term:`BPM`."
 
 #: ../../glossary.rst:98
 msgid "beatmatching"
-msgstr ""
+msgstr "beatmatching"
 
 #: ../../glossary.rst:100
 msgid ""
 "A mixing technique used to establish a similar tempo with two or more "
 "tracks, making them sound like just one track."
 msgstr ""
+"Uma técnica de mixagem para estabelecer um tempo similar entre duas ou mais "
+"faixas, fazendo elas parecerem apenas uma faixa."
 
 #: ../../glossary.rst:347
 msgid "binaries"
-msgstr ""
+msgstr "binários"
 
 #: ../../glossary.rst:349
 msgid ""
@@ -186,10 +204,15 @@ msgid ""
 " something like an an .exe or a .dll file. By using binaries you are "
 "relieved of the task of having to compile the code by yourself."
 msgstr ""
+"Arquivos que contém código de computador compilado, que foi compilado do "
+"código-fonte. O código-fonte, que geralmente é um monte de arquivos de "
+"texto, é processado em um programa chamado compilador. Esse compilador gera "
+"um binário, o que é alguma coisa .exe ou .dll. Usando os binários, você se "
+"livra da tarefa de compilar o código."
 
 #: ../../glossary.rst:291
 msgid "bitrate"
-msgstr ""
+msgstr "taxa de bits"
 
 #: ../../glossary.rst:293
 msgid ""
@@ -201,7 +224,7 @@ msgstr ""
 
 #: ../../glossary.rst:92
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../glossary.rst:93
 msgid "Beats per minute"
@@ -216,7 +239,7 @@ msgstr ""
 
 #: ../../glossary.rst:342
 msgid "bug report"
-msgstr ""
+msgstr "relatar um bug"
 
 #: ../../glossary.rst:344
 msgid ""
@@ -224,10 +247,14 @@ msgid ""
 "should submit a report about it to the developers. They can use this to "
 "identify, replicate and fix the issue."
 msgstr ""
+"Bugs são problemas encontrados no software e todo software tem bugs. Quando "
+"você encontrar um bug, você precisa relatar este bug para os "
+"desenvolvedores. Esse relato poderá ser usado para identificar, reproduzir e"
+" corrigir esse problema."
 
 #: ../../glossary.rst:331
 msgid "CDJ"
-msgstr ""
+msgstr "CDJ"
 
 #: ../../glossary.rst:333
 msgid ""
@@ -236,10 +263,15 @@ msgid ""
 "record player. They allow analog control of music using CDs, usually using a"
 " touch sensitive emulated vinyl control surface."
 msgstr ""
+"CDJ é um termo originalmente usado para descreve a linha de tocadores de "
+"disco da Pioneeer. Hoje em dia CDJ geralmente significa tocadores de disco "
+"de DJ que funcionam como um tocador de disco. Eles permitem um controle "
+"analógico da música usando CDs, geralmente usando uma superfície que simula "
+"o vinil."
 
 #: ../../glossary.rst:282
 msgid "codec"
-msgstr ""
+msgstr "codec"
 
 #: ../../glossary.rst:284
 msgid ""
@@ -247,10 +279,13 @@ msgid ""
 " and decompressing audio and video data. Some popular codecs for computer "
 "audio include :term:`MP3` and :term:`Ogg Vorbis`."
 msgstr ""
+"Versão curta de compressor/descompressor, um codec é qualquer tecnologia de "
+"compressão ou descompressão de áudio e de vídeo. Alguns codecs populares "
+"para computador incluem o :term:`MP3` e o:term:`Ogg Vorbis`."
 
 #: ../../glossary.rst:122
 msgid "controller"
-msgstr ""
+msgstr "controlador"
 
 #: ../../glossary.rst:124
 msgid ""
@@ -265,17 +300,21 @@ msgstr ""
 
 #: ../../glossary.rst:20
 msgid "crossfader"
-msgstr ""
+msgstr "crossfader"
 
 #: ../../glossary.rst:22
 msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
 msgstr ""
+"Um crossfader é um deslizante que determinado o quanto de cada deck de áudio"
+" sai para a :term:`saída mestre`. Assim se o crossfader estiver para "
+"direita, o áudio dos decks da direita vai aparecer mais do que o áudio dos "
+"decks da esquerda e vice-versa."
 
 #: ../../glossary.rst:373
 msgid "cue"
-msgstr ""
+msgstr "cue"
 
 #: ../../glossary.rst:374
 msgid "cue point"
@@ -290,7 +329,7 @@ msgstr ""
 
 #: ../../glossary.rst:316
 msgid "cue sheet"
-msgstr ""
+msgstr "folha de cues"
 
 #: ../../glossary.rst:318
 msgid ""
@@ -299,10 +338,14 @@ msgid ""
 "example, it can be used to tell software extra details about the layout of a"
 " CD to burn."
 msgstr ""
+"Uma folha de cues (ou arquivo CUE, folha CUE, etc.) é um arquivo de texto "
+"formatado que dá o índice para um arquivo de áudio grande. Por exemplo, ele "
+"pode ser usado para informar ao software detalhes extras sobre como o CD "
+"deve ser gravado."
 
 #: ../../glossary.rst:10
 msgid "cueing"
-msgstr ""
+msgstr "cueing"
 
 #: ../../glossary.rst:12
 msgid ""
@@ -327,7 +370,7 @@ msgstr ""
 
 #: ../../glossary.rst:309
 msgid "db"
-msgstr ""
+msgstr "db"
 
 #: ../../glossary.rst:310
 msgid "decibel"
@@ -342,7 +385,7 @@ msgstr ""
 
 #: ../../glossary.rst:74
 msgid "deck"
-msgstr ""
+msgstr "deck"
 
 #: ../../glossary.rst:76
 msgid ""
@@ -350,6 +393,9 @@ msgid ""
 "it and play the track, just like you would put a record on turntable and "
 "play it."
 msgstr ""
+"Um deck é como um toca-discos virtual. Você pode carregar uma :term:`faixa` "
+"nele e tocar a faixa do mesmo jeito que você coloca um disco de vinil no "
+"toca-discos e coloca ele para tocar."
 
 #: ../../glossary.rst:365
 msgid "direct monitoring"
@@ -367,7 +413,7 @@ msgstr ""
 
 #: ../../glossary.rst:401
 msgid "DRM"
-msgstr ""
+msgstr "DRM"
 
 #: ../../glossary.rst:403
 msgid ""
@@ -410,7 +456,7 @@ msgstr ""
 
 #: ../../glossary.rst:160
 msgid "fast-forward"
-msgstr ""
+msgstr "avanço rápido"
 
 #: ../../glossary.rst:162
 msgid ""
@@ -419,10 +465,15 @@ msgid ""
 "will play with increased speed as long as the button is pressed. This is "
 "useful to seek through a track."
 msgstr ""
+"Em inglês fast-foward, significa avançar alguma coisa mais rápido do que na "
+"velocidade normal. Nos termos de software de áudio, isso significa que se "
+"você pressionar o botão de avanço rápido, o áudio vai ser tocado com uma "
+"velocidade maior enquanto você segurar o botão. Isso é útil para buscar pela"
+" faixa."
 
 #: ../../glossary.rst:166
 msgid "fast-rewind"
-msgstr ""
+msgstr "rebobinamento rapido"
 
 #: ../../glossary.rst:168
 msgid ""
@@ -430,10 +481,13 @@ msgid ""
 "the audio will play in reverse with increased speed as long as the button is"
 " pressed."
 msgstr ""
+"O oposto do :term:`avanço rápido`. Se você pressionar o botão de "
+"rebobinamento rápido, o áudio vai tocar em reverso rapidamente enquanto você"
+" segurar o botão."
 
 #: ../../glossary.rst:58
 msgid "file manager"
-msgstr ""
+msgstr "navegador de arquivos"
 
 #: ../../glossary.rst:60
 msgid ""
@@ -445,7 +499,7 @@ msgstr ""
 
 #: ../../glossary.rst:251
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../glossary.rst:252
 msgid "Free Lossless Audio Compression"
@@ -460,7 +514,7 @@ msgstr ""
 
 #: ../../glossary.rst:389
 msgid "flanger"
-msgstr ""
+msgstr "flanger"
 
 #: ../../glossary.rst:391
 msgid ""
@@ -469,10 +523,14 @@ msgid ""
 "effect. By routing the output of the effect back into the input (feedback), "
 "the effect is enhanced."
 msgstr ""
+"O  flanger é um efeito que mixa o sinal da entrada com uma cópia dele mesmo "
+"atrasado que leva a interferências no sinal e cria o efeito de Filtro Comb. "
+"O efeito é aprimorado ao direcionar o áudio da saída para o efeito novamente"
+" na entrada (feedback)."
 
 #: ../../glossary.rst:458
 msgid "GUI"
-msgstr ""
+msgstr "GUI"
 
 #: ../../glossary.rst:459
 msgid "Graphical User Interface"
@@ -488,7 +546,7 @@ msgstr ""
 
 #: ../../glossary.rst:64
 msgid "head/mix button"
-msgstr ""
+msgstr "botão mixagem do fone"
 
 #: ../../glossary.rst:66
 msgid ""
@@ -498,28 +556,34 @@ msgid ""
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
 msgstr ""
+"O botão mixagem do fone é usado para controlar o quando da mixagem da "
+":term:`saída mestre`  você quer na :term:`saída do fone`.  Isso pode ser "
+"útil quando você realizar o :term:`cueing` da faixa, porque você pode testar"
+" quão bom ela vai ficar para o público antes de colocar em prática."
 
 #: ../../glossary.rst:49
 msgid "headphone button"
-msgstr ""
+msgstr "botão do fone"
 
 #: ../../glossary.rst:51
 msgid ""
 "The headphone button is used to indicate whether or not you are pre-"
 "listening to a deck or sampler in your headphones."
 msgstr ""
+"O botão do fone é usado para selecionar se você quer pré-escutar o seu deck "
+"ou sampler nos seus fones de ouvido."
 
 #: ../../glossary.rst:27
 msgid "headphone output"
-msgstr ""
+msgstr "saída do fone"
 
 #: ../../glossary.rst:29
 msgid "The headphone output is what you hear in your headphones."
-msgstr ""
+msgstr "A saída do fone é o que você ouve nos seus fones de ouvido."
 
 #: ../../glossary.rst:115
 msgid "HID"
-msgstr ""
+msgstr "HID"
 
 #: ../../glossary.rst:116
 msgid "Human Interface Device"
@@ -534,7 +598,7 @@ msgstr ""
 
 #: ../../glossary.rst:379
 msgid "hotcue"
-msgstr ""
+msgstr "hotcue"
 
 #: ../../glossary.rst:381
 msgid ""
@@ -542,10 +606,14 @@ msgid ""
 "track. DJs usually place hotcues at distinctive positions within a track "
 "such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues."
 msgstr ""
+"Similar ao ponto :term:`cue`, um hotcue é um ponto de referência em uma "
+"faixa. DJs usualmente colocam hotcues em posições distintas em uma faixa "
+"como as caídas, quebradas ou bumbos e caixas. O Mixxx suporta até 36 "
+"hotcues."
 
 #: ../../glossary.rst:444
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: ../../glossary.rst:446
 msgid ""
@@ -556,10 +624,17 @@ msgid ""
 "contrast, the representation of the hardware-oriented :term:`RGB` model is "
 "close to what most monitors show."
 msgstr ""
+"HSV é uma abreviatura para hue (matiz), saturation (saturação) e value "
+"(valor) e é muitas vezes chamado de HSB (B para brilho). O Modelo de Cor HSV"
+" representa a cor de uma maneira muito mais adequada à percepção humana da "
+"cor. Por exemplo, relações de \"mais forte que\", \"mais escuro que\", e o "
+"\"oposto  de\" são facilmente expressados em HSV. Porém, a representação do "
+"modelo orientado à hardware :term:`RGB` é mais próximo do que os monitores "
+"mostram."
 
 #: ../../glossary.rst:415
 msgid "icecast"
-msgstr ""
+msgstr "icecast"
 
 #: ../../glossary.rst:417
 msgid ""
@@ -569,10 +644,17 @@ msgid ""
 "the software provides the ability to stream in free file formats like "
 ":term:`Ogg Vorbis` and run your own directory server."
 msgstr ""
+"O Icecast é um software livre e de :term:`código aberto` que permite que "
+"conteúdo digital de áudio seja transmitido para softwares de reprodução de "
+"mídia e de softwares de reprodução de mídia, permitindo a criação de "
+"estações de radio na Internet. Ao contrário do :term:`Shoutcast "
+"<shoutcast>`, o software dá a habilidade de transmitir em formatos de "
+"arquivo livres como o :term:`Ogg Vorbis` e rodar o seu próprio servidor de "
+"diretórios."
 
 #: ../../glossary.rst:79
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: ../../glossary.rst:80
 msgid "Internet Relay Chat"
@@ -587,13 +669,15 @@ msgstr ""
 
 #: ../../glossary.rst:297
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 #: ../../glossary.rst:299
 msgid ""
 "Short for kilobits per second. Here used to measure the quality of audio "
 "data. See :term:`bitrate`"
 msgstr ""
+"Termo curto para kilobits por segundo. Uasdo para medir a qualidade dos "
+"dados de áudio. Veja :term:`taxa de bits`"
 
 #: ../../glossary.rst:465
 msgid "key"
@@ -605,7 +689,7 @@ msgstr ""
 
 #: ../../glossary.rst:44
 msgid "key lock"
-msgstr ""
+msgstr "trava de tom"
 
 #: ../../glossary.rst:46
 msgid ""
@@ -613,10 +697,13 @@ msgid ""
 "remains consistent.  When unlocked, the pitch slider will speed up (or slow "
 "down) the track and the pitch will increase (or decrease) along with it."
 msgstr ""
+"Com a trava de tom ativada, o tempo da faixa vai mudar porém o pitch vai "
+"continuar consistente. Quando destravado, o deslizante do pitch vai acelerar"
+" (ou desacelerar) a faixa e o tom vai aumentar (ou diminuir) com ele."
 
 #: ../../glossary.rst:196
 msgid "kill switch"
-msgstr ""
+msgstr "botão matar"
 
 #: ../../glossary.rst:198
 msgid ""
@@ -624,6 +711,9 @@ msgid ""
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
 " for a period or creates room for a transition."
 msgstr ""
+"Um botão para ligar ou desligar uma extensão de frequências individuais em "
+"um canal como os agudos, o médio e os graves. Útil para efeitos onde o DJ "
+"joga a faixa por um tempo e cria espaço para uma transição."
 
 #: ../../glossary.rst:511
 msgid "LADSPA"
@@ -641,17 +731,19 @@ msgstr ""
 
 #: ../../glossary.rst:287
 msgid "LAME"
-msgstr ""
+msgstr "LAME"
 
 #: ../../glossary.rst:289
 msgid ""
 "LAME is a free software :term:`codec` used to encode/compress audio into the"
 " :term:`lossy` :term:`MP3` file format."
 msgstr ""
+"O LAME é software de :term:`codec` livre usado para codificar/comprimir "
+"áudio para o formato de arquivo MP3 :term:`com perdas`."
 
 #: ../../glossary.rst:190
 msgid "latency"
-msgstr ""
+msgstr "latência"
 
 #: ../../glossary.rst:192
 msgid ""
@@ -660,10 +752,14 @@ msgid ""
 "Being able to lower the latency as much as possible makes a huge difference "
 "in responsiveness."
 msgstr ""
+"A Latência se refere ao curto período de atraso (geralmente medido em "
+"milisegundos) entre quando um sinal de áudio entra e quando emerge sistema. "
+"Diminuir a latência ao máximo faz uma diferência enorme na capacidade de "
+"resposta."
 
 #: ../../glossary.rst:201
 msgid "level meter"
-msgstr ""
+msgstr "medidor de nível"
 
 #: ../../glossary.rst:203
 msgid ""
@@ -676,23 +772,27 @@ msgstr ""
 
 #: ../../glossary.rst:230
 msgid "lossless"
-msgstr ""
+msgstr "sem perdas"
 
 #: ../../glossary.rst:232
 msgid ""
 "Used when describing audio compression algorithms, a lossless algorithm is "
 "one which results in no loss in audio quality when used."
 msgstr ""
+"Usado quando descrevendo algorítimos de compressão de áudio, um algorítimo "
+"sem perdas é aquele que não há perdas na qualidade do áudio quando usado."
 
 #: ../../glossary.rst:234
 msgid "lossy"
-msgstr ""
+msgstr "com perdas"
 
 #: ../../glossary.rst:236
 msgid ""
 "Used when describing audio compression algorithms, a lossy algorithm is one "
 "which results in a loss in audio quality when used."
 msgstr ""
+"Usado quando descrevendo algorítimos de compressão de áudio, um algorítimo "
+"com perdas é aquele que há perdas na qualidade do áudio quando usado."
 
 #: ../../glossary.rst:488
 msgid "macOS"
@@ -707,16 +807,17 @@ msgstr ""
 
 #: ../../glossary.rst:24
 msgid "master output"
-msgstr ""
+msgstr "saída mestre"
 
 #: ../../glossary.rst:26
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
+"A saída mestre é a saída principal de audio. É a que o seu público escuta."
 
 #: ../../glossary.rst:322
 msgid "metadata"
-msgstr ""
+msgstr "metadados"
 
 #: ../../glossary.rst:324
 msgid ""
@@ -728,10 +829,19 @@ msgid ""
 "about music files in its database, like :term:`beatgrid`, waveform data, "
 ":term:`hotcues <hotcue>`, playlists, crates, number of plays, etc."
 msgstr ""
+"Em geral, qualquer peça de informação sobre o arquivo de música que o Mixxx "
+"usa (como o título, artista, álbum, localização das hotcues, loops, etc.). "
+"Muitos formatos de metadados de arquivos permitem que informações como o "
+"título, artista, álbum e número da faixa possam ser guardadas dentro do "
+"próprio arquivo de áudio, veja `<https://pt.wikipedia.org/wiki/ID3>`_ . O "
+"Mixxx guarda metadados adicionais sobre os arquivos de música na sua própria"
+" base de dados, como a :term:`grade de batidas`, dados das ondas, "
+":term:`hotcues <hotcue>`, listas de reprodução, caixas, número de "
+"reproduções, etc."
 
 #: ../../glossary.rst:108
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: ../../glossary.rst:109
 msgid "Musical Instrument Digital Interface"
@@ -747,7 +857,7 @@ msgstr ""
 
 #: ../../glossary.rst:238
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../../glossary.rst:240
 msgid ""
@@ -758,7 +868,7 @@ msgstr ""
 
 #: ../../glossary.rst:468
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: ../../glossary.rst:470
 msgid ""
@@ -769,7 +879,7 @@ msgstr ""
 
 #: ../../glossary.rst:224
 msgid "Ogg Vorbis"
-msgstr ""
+msgstr "Ogg Vorbis"
 
 #: ../../glossary.rst:226
 msgid ""
@@ -781,7 +891,7 @@ msgstr ""
 
 #: ../../glossary.rst:422
 msgid "open-source"
-msgstr ""
+msgstr "código aberto"
 
 #: ../../glossary.rst:424
 msgid ""
@@ -794,10 +904,18 @@ msgid ""
 "information, see `Wikipedia <https://en.wikipedia.org/wiki/Open-"
 "source_software>`_."
 msgstr ""
+"Genericamente, código aberto refere-se a um programa onde o código fonte "
+"está disponível para o público usar e/ou modificar do seu estado original "
+"livre de custos. Código fonte aberto é tipicamente criado com um esforço "
+"coletivo onde programadores melhoram o código e compartilham as mudanças com"
+" a comunidade. Código aberto brotou na comunidade tecnológica como uma "
+"responsa a software patentado possuído pelas corporações. Para mais "
+"informação, veja `Wikipedia "
+"<https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto>`_."
 
 #: ../../glossary.rst:337
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: ../../glossary.rst:339
 msgid ""
@@ -805,10 +923,13 @@ msgid ""
 "graphics. Mixxx uses OpenGL to draw the waveform displays and spinning vinyl"
 " widgets."
 msgstr ""
+"Um recurso do :term:`sistema operacional  <operating system>` usado para "
+"desenhar gráficos acelerados por hardware. O Mixxx usa o OpenGL para "
+"desenhar os mostradores de onda e janelas de vinil giratório."
 
 #: ../../glossary.rst:53
 msgid "operating system"
-msgstr ""
+msgstr "sistema operacional"
 
 #: ../../glossary.rst:55
 msgid ""
@@ -819,7 +940,7 @@ msgstr ""
 
 #: ../../glossary.rst:278
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: ../../glossary.rst:280
 msgid ""
@@ -829,7 +950,7 @@ msgstr ""
 
 #: ../../glossary.rst:30
 msgid "PFL"
-msgstr ""
+msgstr "PFL"
 
 #: ../../glossary.rst:32
 msgid ""
@@ -841,7 +962,7 @@ msgstr ""
 
 #: ../../glossary.rst:171
 msgid "phase"
-msgstr ""
+msgstr "fase"
 
 #: ../../glossary.rst:173
 msgid ""
@@ -849,10 +970,13 @@ msgid ""
 "tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they "
 "should be playing so that their beats are aligned."
 msgstr ""
+"A fase de uma faixa é a sua posição relativa ao de outra faixa. Se duas "
+"faixas estão :term:`sincronizadas <sync>' para o mesmo tempo e dentro da "
+"fase então elas estão sendo tocadas com suas batidas alinhadas."
 
 #: ../../glossary.rst:176
 msgid "pitch bend"
-msgstr ""
+msgstr "pitch bend"
 
 #: ../../glossary.rst:178
 msgid ""
@@ -863,10 +987,16 @@ msgid ""
 "alongside the turntable to slow it down or by twisting the record spindle to"
 " speed it up."
 msgstr ""
+"Uma técnica usada por DJs que temporariamente muda a velocidade da faixa "
+"para mais rápido ou mais devagar, geralmente enquanto o botão é segurado. "
+"Essa técnica é geralmente usada para fazer ajustamentos finos na "
+"sincronização das faixas enquanto você iguala as batidas. Antes das mixagens"
+" digitais, isso era realizado arrastando um dedo no lado do toca-discos para"
+" desacelerar ou dando um empurrãozinho no disco para acelerar."
 
 #: ../../glossary.rst:395
 msgid "podcast"
-msgstr ""
+msgstr "podcast"
 
 #: ../../glossary.rst:397
 msgid ""
@@ -875,10 +1005,15 @@ msgid ""
 "to subscribe to the feed and automatically download content to their "
 "portable audio players as it becomes available."
 msgstr ""
+"Um podcast é um feed de arquivos de áudio ou de vídeo disponível "
+"gratuitamente ou para comprar na internet. Clientes de podcast como o iTunes"
+" permitem aos ouvintes se inscrever no feed e baixar o conteúdo "
+"automaticamente para os reprodutores de áudio portáteis quando um novo "
+"podcast se torna disponível."
 
 #: ../../glossary.rst:439
 msgid "quantization"
-msgstr ""
+msgstr "quantização"
 
 #: ../../glossary.rst:441
 msgid ""
@@ -886,10 +1021,13 @@ msgid ""
 " cuepoints so that they start or finish exactly on beats or fractions of "
 "beats."
 msgstr ""
+"Quantização é o processo de alinhar notas e outros eventos como loops e "
+"pontos cue para que eles comecem ou terminem exatamente dentro das batidas "
+"ou frações de batidas."
 
 #: ../../glossary.rst:184
 msgid "ramping pitch bend"
-msgstr ""
+msgstr "pitch bend em rampa"
 
 #: ../../glossary.rst:186
 msgid ""
@@ -898,10 +1036,14 @@ msgid ""
 "temporary pitch changes. It simulates the effect of touching a turntable to "
 "temporarily slow down or speed up a record."
 msgstr ""
+"Basicamente idêntico ao :term:`pitch bend` só´que com a diferença que o "
+"pitch muda gradualmente ao invés de uma vez só. Muitas vezes usa mudanças "
+"temporárias no pitch. Ele simula o efeito de tocar um toca-discos para "
+"diminuir ou aumentar a velocidade de um disco de vinil."
 
 #: ../../glossary.rst:153
 msgid "rate"
-msgstr ""
+msgstr "taxa"
 
 #: ../../glossary.rst:155
 msgid ""
@@ -911,10 +1053,15 @@ msgid ""
 "tempo as other tracks. This allows DJs to :term:`beatmix <beatmatching>`, "
 "and is an essential part of DJing."
 msgstr ""
+"A velocidade na qual a faixa é reproduzida, geralmente expressa em "
+"porcentagem relativa à velocidade normal da faixa. Muitas vezes quando "
+"mixando, DJs ajustam as taxas das faixas para que elas toquem no mesmo tempo"
+" que as outras faixas. Isso permite aos DJs fazer :term:`beatmatching` que é"
+" essencial para ser um DJ."
 
 #: ../../glossary.rst:301
 msgid "ReplayGain"
-msgstr ""
+msgstr "ReplayGain"
 
 #: ../../glossary.rst:303
 msgid ""
@@ -925,18 +1072,24 @@ msgid ""
 "audio file in order for the sound to be correctly played at the right level "
 "of loudness."
 msgstr ""
+"O ReplayGain normaliza os dados de áudio de uma maneira não destrutitva, "
+"para que as faixas da sua biblioteca de música não toquem em diferentes "
+"volumes. Os arquivos de áudio são examinados por um algorítimo "
+"físicoacústico para determinar o volume dos dados de áudio. A informação do "
+"ReplayGain é guardada como :term:`metadados` em arquivo de áudio digital "
+"para que o som seja reproduzido com o nível correto de volume."
 
 #: ../../glossary.rst:221
 msgid "reverse"
-msgstr ""
+msgstr "inverter reprodução"
 
 #: ../../glossary.rst:223
 msgid "Reverse plays a track backwards."
-msgstr ""
+msgstr "Toca a faixa de trás para frente."
 
 #: ../../glossary.rst:452
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../../glossary.rst:454
 msgid ""
@@ -945,6 +1098,10 @@ msgid ""
 "colors. The name of the model comes from the initials of the three additive "
 "primary colors, red, green, and blue."
 msgstr ""
+"O modelo de cor RGB é um modelo de cor aditiva no qual a luz vermelha, verde"
+" e azul são adicionadas de várias maneiras para reproduzir um conjunto amplo"
+" de cores. O nome do modelo vem das iniciais das cores aditivas primárias em"
+" inglês: red, green e blue."
 
 #: ../../glossary.rst:15
 msgid "shortcut"
@@ -959,7 +1116,7 @@ msgstr ""
 
 #: ../../glossary.rst:410
 msgid "shoutcast"
-msgstr ""
+msgstr "shoutcast"
 
 #: ../../glossary.rst:412
 msgid ""
@@ -967,10 +1124,13 @@ msgid ""
 "broadcast to and from media player software, enabling the creation of "
 "Internet radio stations."
 msgstr ""
+"O Shoutcast é um software patenteado que permite que conteúdo de áudio "
+"digital seja transmitido para e de um software de reprodução de mídia, "
+"possibilitando a criação de estações de rádio na Internet."
 
 #: ../../glossary.rst:361
 msgid "soundcard"
-msgstr ""
+msgstr "placa de som"
 
 #: ../../glossary.rst:363
 msgid ""
@@ -980,13 +1140,15 @@ msgstr ""
 
 #: ../../glossary.rst:143
 msgid "sync"
-msgstr ""
+msgstr "sincronização"
 
 #: ../../glossary.rst:145
 msgid ""
 "Sync allows you to automatically adjust a track's :term:`tempo` and "
 ":term:`phase` to be in sync with another deck that is playing."
 msgstr ""
+"A sincronização ajusta automaticamente o :term:`tempo` e a :term:`fase` da "
+"faixa para que ela fique em sincronia com o outro deck que está tocando."
 
 #: ../../glossary.rst:147
 msgid "sync lock"
@@ -1005,7 +1167,7 @@ msgstr ""
 
 #: ../../glossary.rst:213
 msgid "tempo"
-msgstr ""
+msgstr "tempo"
 
 #: ../../glossary.rst:215
 msgid "The speed of a track measured in :term:`BPM`."
@@ -1013,7 +1175,7 @@ msgstr ""
 
 #: ../../glossary.rst:137
 msgid "timecode"
-msgstr ""
+msgstr "timecode"
 
 #: ../../glossary.rst:139
 msgid ""
@@ -1021,14 +1183,18 @@ msgid ""
 "on a control vinyl or control CD (timecode media) that a computer can listen"
 " to in order to determine speed, direction and position of the playback."
 msgstr ""
+"Usado em conjunto com o :term:`controle por vinil`. É um sinal de áudio "
+"especial em um vinil ou em CD de controle (mídia de timecode) que um "
+"computador pode escutar para determinar a velocidade, direção e posição da "
+"reprodução."
 
 #: ../../glossary.rst:71
 msgid "track"
-msgstr ""
+msgstr "faixa"
 
 #: ../../glossary.rst:73
 msgid "A track is another word for a song."
-msgstr ""
+msgstr "Faixa é um outro nome para música."
 
 #: ../../glossary.rst:432
 msgid "URL"
@@ -1065,7 +1231,7 @@ msgstr ""
 
 #: ../../glossary.rst:131
 msgid "vinyl control"
-msgstr ""
+msgstr "controle por vinil"
 
 #: ../../glossary.rst:133
 msgid ""
@@ -1074,10 +1240,14 @@ msgid ""
 "DJ application analyzes the timecode signal and simulates the sound and feel"
 " of having your music collection on vinyl."
 msgstr ""
+"Um método de controlar aplicações de DJ que simula o paradigma tradicional "
+"de dois toca-discos. Usando mídia especial de :term:`timecode`, uma "
+"aplicação de DJ analisa o sinal de timecode e simula o som e o sentimento de"
+" ter sua coleção de música no vinil."
 
 #: ../../glossary.rst:216
 msgid "volume"
-msgstr ""
+msgstr "volume"
 
 #: ../../glossary.rst:218
 msgid ""
@@ -1088,7 +1258,7 @@ msgstr ""
 
 #: ../../glossary.rst:271
 msgid "WAV"
-msgstr ""
+msgstr "WAV"
 
 #: ../../glossary.rst:273
 msgid ""
@@ -1101,23 +1271,27 @@ msgstr ""
 
 #: ../../glossary.rst:40
 msgid "waveform overview"
-msgstr ""
+msgstr "visão geral da onda"
 
 #: ../../glossary.rst:42
 msgid ""
 "The waveform overview shows the waveform envelope of the entire track, and "
 "is useful because they allow DJs to see breakdowns far in advance."
 msgstr ""
+"A visão geral da onda mostra a onda de toda a faixa, e é útil porque permite"
+" aos DJs ver caídas e outros efeitos na música antes de acontecerem."
 
 #: ../../glossary.rst:36
 msgid "waveform summary"
-msgstr ""
+msgstr "sumário da onda"
 
 #: ../../glossary.rst:38
 msgid ""
 "The waveform summary shows the waveform envelope of the track near the "
 "current playback position."
 msgstr ""
+"O sumário da onda mostra a onda perto de onde a faixa está atualmente "
+"tocando."
 
 #: ../../glossary.rst:86
 msgid "Zulip"

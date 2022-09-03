@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -19,7 +22,7 @@ msgstr ""
 
 #: ../../chapters/quickstart.rst:4
 msgid "Quickstart"
-msgstr ""
+msgstr "Início Rápid"
 
 #: ../../chapters/quickstart.rst:6
 msgid ""
@@ -28,55 +31,60 @@ msgid ""
 "you already know how to DJ and are just looking for an overview of how to "
 "get your groove on with Mixxx, you can skip to the `Table of Contents`_."
 msgstr ""
+"Se você novo na área de DJ, essa seção é para você. Nós temos alguns "
+"tutoriais para você que cobrem os básicos de um DJ com o Mixxx. Se você já "
+"sabe como ser um DJ e só está procurando por uma visão global de como entrar"
+" entrar no rítimo com o Mixxxx, você pode pular para a `Tabela de Conteúdos "
+"<Table of Contents>`_."
 
 #: ../../chapters/quickstart.rst:12
 msgid "Example of a note"
-msgstr ""
+msgstr "Exemplo de uma nota"
 
 #: ../../chapters/quickstart.rst:14
 msgid "Example of a warning"
-msgstr ""
+msgstr "Exemplo de um aviso"
 
 #: ../../chapters/quickstart.rst:16
 msgid "Todo"
-msgstr ""
+msgstr "Para fazer"
 
 #: ../../chapters/quickstart.rst:16
 msgid "Example of a todo"
-msgstr ""
+msgstr "Exemplo de um para fazer"
 
 #: ../../chapters/quickstart.rst:19
 msgid "Loading a Track"
-msgstr ""
+msgstr "Carregando uma faixa"
 
 #: ../../chapters/quickstart.rst:21
 msgid "Lesson about how to load a track."
-msgstr ""
+msgstr "Lição de como carregar uma faixa."
 
 #: ../../chapters/quickstart.rst:25
 msgid "Using the Mixer Section"
-msgstr ""
+msgstr "Usando a Seção Mixer"
 
 #: ../../chapters/quickstart.rst:27
 msgid "Lesson about how to use the mixer."
-msgstr ""
+msgstr "Lição sobre como usar o mixer."
 
 #: ../../chapters/quickstart.rst:30
 msgid "The Beatmatching Basics"
-msgstr ""
+msgstr "Básicos de Beatmatching"
 
 #: ../../chapters/quickstart.rst:32
 msgid "Lesson about how to beatmatch."
-msgstr ""
+msgstr "Lição sobre beatmatching."
 
 #: ../../chapters/quickstart.rst:36
 msgid "Getting Funky with Effects"
-msgstr ""
+msgstr "Entrando no Rítimo com Efeitos"
 
 #: ../../chapters/quickstart.rst:38
 msgid "Effects overview tutorial."
-msgstr ""
+msgstr "Tutorial com uma visão geral dos efeitos."
 
 #: ../../chapters/quickstart.rst:42
 msgid "Mixxxing it Up with Hotcues and Loops"
-msgstr ""
+msgstr "Mixxxando com Hotcues e Loops"
