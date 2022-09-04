@@ -20,14 +20,12 @@ do
 
     if [ "$lang" = "en" ]
     then
-        printf '/:version/en/* /:version/en/404.html  404\n' >> build/html/_redirects
+        printf '/:version/en/* /2.3/en/404.html  404\n' >> build/html/_redirects
         printf '/:version/*    /:version/en/:splat    301\n' >> build/html/_redirects
     else
-        printf '/:version/%s/* /:version/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
+        printf '/:version/%s/* /2.3/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
         printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "$(printf "%s" "$lang"  | sed 's/_/-/g')" >> build/html/_redirects
     fi
-    # and finally a catch all redirect for urls like https://manual.mixxx.org/2.7/
-    printf '/* /latest/404.html  404\n' >> build/html/_redirects
     make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"
     i=$((i + 1))
 done

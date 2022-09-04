@@ -76,26 +76,21 @@ supported_languages = {
     "ca": "Català",
     "cs": "Čeština",
     "de": "Deutsch",
-    "de_DE": "Deutsch (Deutschland)",
     "en": "English",
     "en_GB": "English (UK)",
     "es": "Español",
-    "es_ES": "Español (España)",
-    "es_MX": "Español (Mexico)",
     "fi": "Suomi",
     "fr": "Français",
     "gl": "Galego",
     "id": "Bahasa Indonesia",
     "it": "Italiano",
-    "ja_JP": "日本語",
-    "kn": "ಕನ್ನಡ",
+    "ja": "日本語",
     "nl": "Nederlands",
     "pl": "Polszczyzna",
     "pt": "Português",
     "pt_BR": "Português (Brasil)",
     "ro": "Română",
     "ru": "Русский",
-    "ru_RU": "Русский (Росси́я)",
     "sl": "Slovenščina",
     "sq": "Shqip",
     "sr": "Српски Језик",
@@ -111,6 +106,7 @@ smv_remote_whitelist = r"^origin$"
 smv_released_pattern = r"^.*/(?!2\.4)(\d+)\.(\d+)$"
 smv_latest_version = r"2.3"
 smv_outputdir_format = "{config.version}/{config.language}"
+notfound_urls_prefix = "/{config.smv_outputdir_format}/"
 
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched

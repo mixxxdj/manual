@@ -1,0 +1,686 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/vestax_vci_300.rst:2
+msgid "Vestax VCI-300"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:4
+msgid ""
+"The VCI-300 is a dedicated USB MIDI controller. It also comes with a built "
+"in audio interface with standard 4-in/4-out and headphone connection, which "
+"means all you need for DJing is the VCI-300, a laptop and a set of "
+"headphones."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:7
+msgid ""
+"This controller has been discontinued as Vestax went out of business in "
+"2014."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:9
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/vestax-vci-300mk-ii/11496>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:15
+msgid "Differences between VCI-300 and VCI-300 MKII"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:17
+msgid ""
+"In 2010 Vestax made changes to the original VCI-300 that improved the "
+"controller. There were *no* changes in the MIDI mapping."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:20
+msgid "Volume Boost (Gain Boost)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:22
+msgid ""
+"Higher output gain level and headphone volume level when supplying power "
+"with the optional power adaptor."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:23
+msgid ""
+"*Important Note:* Optional power supply DC-7 must be used in order to get "
+"the boost on the headphones and Master output. Without the power supply the "
+"MKII will perform just like the original VCI-300. Also, using the DC-7 on "
+"the original VCI-300 will do nothing."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:27
+msgid "Optional Vestax Digital Fader (not included)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:29
+msgid ""
+"The VCI-300MKII Cross fader can be upgraded to Vestax’s new magnetic sensor "
+"system digital fader CF-X2."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:32
+msgid "New Direct Audio Thru"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:34
+msgid ""
+"Audio fed to the MIC/AUX input can now be directly sent to the Master "
+"outputs with the THRU switch turned ON, minimizing latency of when fed "
+"through ITCH."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:37
+msgid "New adjust knobs for the JOG sensor control"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:39
+msgid ""
+"New JOG sensor adjust knobs for speedy and accurate adjustments.the "
+"VCI-300MKII’s JOG wheels have excellent tracking ability,and flexibility for"
+" various play styles.You can control songs with analog precision."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:43
+msgid "New Mini Head-Phone Jack"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:45
+msgid ""
+"The MKII features a 1/8 inch headphone connection along with standard 1/4 "
+"inch connection."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:48
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:57
+msgid "Vestax VCI-300 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:57
+msgid "Vestax VCI-300 (schematic view) Image (c) Vestax"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:61
+msgid ""
+"Mixxx supports the VCI-300 out of the box. The mapping for Mixxx closely "
+"resemble the original to make the transition easy."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:64
+msgid "#"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:64
+msgid "KEY"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:64
+msgid "FUNCTION"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:65
+msgid "01"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:65
+msgid "Pitch Slider"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:65
+msgid "Adjusts playback speed."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:66
+msgid "02"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:66
+msgid "Auto Tempo"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:66
+msgid "Toggle quantize (1.11.0: Trigger beatsync)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:67
+#: ../../hardware/controllers/vestax_vci_300.rst:68
+#: ../../hardware/controllers/vestax_vci_300.rst:70
+#: ../../hardware/controllers/vestax_vci_300.rst:72
+#: ../../hardware/controllers/vestax_vci_300.rst:74
+#: ../../hardware/controllers/vestax_vci_300.rst:77
+#: ../../hardware/controllers/vestax_vci_300.rst:78
+#: ../../hardware/controllers/vestax_vci_300.rst:79
+#: ../../hardware/controllers/vestax_vci_300.rst:80
+#: ../../hardware/controllers/vestax_vci_300.rst:84
+#: ../../hardware/controllers/vestax_vci_300.rst:85
+#: ../../hardware/controllers/vestax_vci_300.rst:87
+#: ../../hardware/controllers/vestax_vci_300.rst:88
+#: ../../hardware/controllers/vestax_vci_300.rst:91
+#: ../../hardware/controllers/vestax_vci_300.rst:92
+#: ../../hardware/controllers/vestax_vci_300.rst:93
+#: ../../hardware/controllers/vestax_vci_300.rst:94
+#: ../../hardware/controllers/vestax_vci_300.rst:95
+#: ../../hardware/controllers/vestax_vci_300.rst:100
+#: ../../hardware/controllers/vestax_vci_300.rst:102
+#: ../../hardware/controllers/vestax_vci_300.rst:106
+#: ../../hardware/controllers/vestax_vci_300.rst:109
+#: ../../hardware/controllers/vestax_vci_300.rst:110
+#: ../../hardware/controllers/vestax_vci_300.rst:112
+#: ../../hardware/controllers/vestax_vci_300.rst:113
+#: ../../hardware/controllers/vestax_vci_300.rst:114
+#: ../../hardware/controllers/vestax_vci_300.rst:115
+#: ../../hardware/controllers/vestax_vci_300.rst:116
+msgid "\\"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:67
+msgid "Shift + Auto Tempo"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:67
+msgid "Trigger beatsync (1.11.0: Toggle quantize)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:68
+msgid "Scroll + Auto Tempo"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:68
+msgid ""
+"Tap BPM. When taped repeatedly, adjust the tracks BPM to the tapped BPM."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:69
+msgid "03"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:69
+msgid "Keylock"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:69
+msgid "Trigger beatsync"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:70
+msgid "Shift + Keylock"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:70
+msgid "Reset pitch to 0.00% (quartz)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:71
+msgid "04"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:71
+msgid "Pitch Shift"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:71
+msgid "Pitch bend"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:72
+msgid "Shift + Pitch Shift"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:72
+msgid "Fine tune playback speed +/-0.01"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:73
+msgid "05"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:73
+msgid "Cue [1-3]/In"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:73
+msgid "Set/Activate Hotcue"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:74
+msgid "Shift + Cue [1-3]/In"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:74
+msgid "Delete Hotcue"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:75
+msgid "06"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:75
+msgid "Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:75
+msgid "Toggle scratching on jogwheel"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:76
+msgid "07"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:76
+msgid "Out 1/Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:76
+msgid "Set manual loop in point"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:77
+msgid "Shift + Out 1/Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:77
+#: ../../hardware/controllers/vestax_vci_300.rst:79
+msgid "Clear loop point"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:78
+msgid "Out 2/Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:78
+msgid "Set manual loop out point"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:79
+msgid "Shift + Out 2/Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:80
+msgid "Out 3/Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:80
+msgid "Enable/disable loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:81
+msgid "08"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:81
+msgid "Shift"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:81
+msgid ""
+"Holding shift engages shift functions of many of the buttons, secondary "
+"functions are printed inside a grey box."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:82
+msgid "09"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:82
+msgid "Trim"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:82
+msgid ""
+"This controls the volume of the track before it goes to the EQ and fader."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:83
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:83
+msgid "Censor"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:83
+msgid ""
+"Temporary play backwards while pressed, resumes from where the playhead "
+"would have been if the button was not pressed"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:84
+msgid "Shift + Censor"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:84
+msgid ""
+"1.11: Toggle reverse playback. Pressing Censor again during reverse "
+"playback, will return to normal playback."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:85
+msgid ""
+"1.12 (work in progress): Enable/disable effect unit with preselected "
+"*Filter* effect. The filter parameter is controlled with the Mid EQ knob "
+"next to the button."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:86
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:86
+msgid "Auto Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:86
+msgid ""
+"Enable beatloop of the current beatloop value (default: 4 beats) for tracks "
+"that have BPM calculated"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:87
+msgid "Shift + Auto Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:87
+msgid "Enter/Exit beatloop roll"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:88
+msgid "Scroll + Auto Loop"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:88
+msgid "Reset number of beats to 4 if beatloop not active"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:89
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:89
+msgid "Equalizers"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:89
+msgid "Adjust the gain of the high/mid/low EQ filter."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:90
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:90
+msgid "Half"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:90
+msgid "Halve loop length"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:91
+msgid "Shift + Half"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:91
+msgid "Jump to start of track (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:92
+msgid "Scroll + Half"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:92
+msgid "Seek backward (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:93
+msgid "Double"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:93
+msgid "Double loop length"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:94
+msgid "Shift + Double"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:94
+msgid "Jump to end of track (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:95
+msgid "Scroll + Double"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:95
+msgid "Seek forward (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:96
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:96
+msgid "Master Level"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:96
+msgid ""
+"This knob controls the overall output of the VCI-300, ensure this is right "
+"down before running the software."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:97
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:97
+msgid "Monitor Select"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:97
+msgid ""
+"Controls the balance in the headphones between the mix output and the PFL "
+"headphone cue"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:98
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:98
+msgid "Monitor Volume"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:98
+msgid "Controls the volume of the headphones."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:99
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:99
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:99
+msgid "If a cue point is set, jumps to the cue point when pressed."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:100
+msgid "Shift + Cue"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:100
+msgid ""
+"Set the cue point (while playing), clear the cue point (while paused), jump "
+"to beginning of track (if no cue point is set)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:101
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:101
+msgid "Play"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:101
+msgid "Start/Pause playback"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:102
+msgid "Shift + Play"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:102
+msgid "Stutter Play"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:103
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:103
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:103
+msgid "Fades between the left and right channels."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:104
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:104
+msgid "Input faders"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:104
+msgid "Control the volume of their respective tracks."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:105
+msgid "21/23"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:105
+msgid "PFL A/B"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:105
+msgid "Sends the left/right deck to the headphone mix."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:106
+msgid "Shift + PFL A/B"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:106
+msgid ""
+"Load selected track into the deck (while paused) and switch PFL to this deck"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:107
+msgid "22"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:107
+msgid "Scroll + Jogwheel"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:107
+#: ../../hardware/controllers/vestax_vci_300.rst:116
+msgid "Scroll playlist (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:108
+msgid "24"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:108
+msgid "Cursor Up/Down"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:108
+msgid "Scrolls to the next/previous track in the track table."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:109
+msgid "Cursor Left/Right"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:109
+msgid "Switches to the next view (Library, Queue, etc.)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:110
+msgid "Tab"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:110
+msgid "Toggles (expands/collapses) the currently selected sidebar item."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:111
+msgid "25"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:111
+msgid "Jog (platter touched)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:111
+msgid "Track search (while paused when scratching is disabled)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:112
+msgid "Pitch bend / nudge (while playing when scratching is disabled)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:113
+msgid "Scratch (when scratching is enabled)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:114
+msgid "Jog (outer rim)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:114
+msgid "Pitch bend / nudge"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:115
+msgid "Shift + Jog"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:115
+msgid "Fast track search (while paused)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_300.rst:116
+msgid "Scroll + Jog"
+msgstr ""
