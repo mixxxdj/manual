@@ -376,7 +376,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr ""
+msgstr "Master Sync"
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""

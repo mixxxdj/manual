@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-05 01:02+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Streaming Servers"
 msgstr "Servidors d'emissió"
 
-#: ../../chapters/livebroadcasting.rst:45
+#: ../../chapters/livebroadcasting.rst:42
 msgid "**Remote streaming server**"
 msgstr "**Servidor d'emissió remot**"
 
@@ -250,23 +250,20 @@ msgid ""
 "<shoutcast>` and :term:`Icecast <icecast>` streaming servers. Depending on "
 "the number of listeners, streaming audio requires a significant amount of "
 "bandwidth. Streaming servers provide the required bandwidth and broadcast "
-"the stream to your listeners. A popular free streaming service is `Caster.fm"
-" <http://www.caster.fm>`_. A review of several free and paid stream hosts is"
-" available at `broadcastingworld.net "
-"<http://www.broadcastingworld.com/reviews/category-stream-hosting>`_."
+"the stream to your listeners."
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:30
+#: ../../chapters/livebroadcasting.rst:27
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an remote streaming "
 "server"
 msgstr "El Mixxx com a font d'emissió utilitzant un servidor d'emissió remot"
 
-#: ../../chapters/livebroadcasting.rst:76
+#: ../../chapters/livebroadcasting.rst:73
 msgid "**Local streaming server**"
 msgstr "**Servidor d'emissió local**"
 
-#: ../../chapters/livebroadcasting.rst:48
+#: ../../chapters/livebroadcasting.rst:45
 msgid ""
 "For experienced users, it may be interesting to set up your own local "
 "streaming server. This turns your personal computer into a radio station and"
@@ -293,17 +290,17 @@ msgstr ""
 "`Documentació Icecast <http://www.icecast.org/docs/>`_  per a informació de "
 "com configurar un servidor."
 
-#: ../../chapters/livebroadcasting.rst:61
+#: ../../chapters/livebroadcasting.rst:58
 msgid ""
 "Mixxx as client-side streaming source broadcasting to an local streaming "
 "server"
 msgstr "El Mixxx com a font d'emissió, utilitzant un servidor d'emissió local"
 
-#: ../../chapters/livebroadcasting.rst:79
+#: ../../chapters/livebroadcasting.rst:76
 msgid "Configuring Mixxx"
 msgstr "Configurant el Mix"
 
-#: ../../chapters/livebroadcasting.rst:81
+#: ../../chapters/livebroadcasting.rst:78
 msgid ""
 "Start by supplying Mixxx with all information needed to establish a "
 "connection to the streaming server:"
@@ -311,11 +308,11 @@ msgstr ""
 "Comenceu indicant al Mixxx la informació necessària per a connectar-se al "
 "servidor d'emissió:"
 
-#: ../../chapters/livebroadcasting.rst:84
+#: ../../chapters/livebroadcasting.rst:81
 msgid "Open :menuselection:`Preferences --> Live Broadcasting`."
 msgstr "Obriu :menuselection:`Preferències --> Emissió en viu`."
 
-#: ../../chapters/livebroadcasting.rst:85
+#: ../../chapters/livebroadcasting.rst:82
 msgid ""
 "Insert the settings following the descriptions in the :ref:`live-"
 "broadcasting-preferences`"
@@ -323,11 +320,11 @@ msgstr ""
 "Introduïu la informacio segons s'indica en :ref:`live-broadcasting-"
 "preferences`"
 
-#: ../../chapters/livebroadcasting.rst:87
+#: ../../chapters/livebroadcasting.rst:84
 msgid "Click :guilabel:`OK`"
 msgstr "Feu clic a :guilabel:`Acceptar`"
 
-#: ../../chapters/livebroadcasting.rst:88
+#: ../../chapters/livebroadcasting.rst:85
 msgid ""
 "Go to :menuselection:`Options --> Enable Live Broadcasting` or use the "
 ":ref:`appendix-shortcuts` to start broadcasting."
@@ -335,15 +332,15 @@ msgstr ""
 "Aneu a :menuselection:`Opcions --> Activa la emissió en viu` o utilitzen les"
 " :ref:`appendix-shortcuts` per a començar la emissió."
 
-#: ../../chapters/livebroadcasting.rst:100
+#: ../../chapters/livebroadcasting.rst:97
 msgid "Mixxx preferences - Setting up live broadcasting"
 msgstr "Preferències del Mixxx - Configurant una emissió en viu"
 
-#: ../../chapters/livebroadcasting.rst:103
+#: ../../chapters/livebroadcasting.rst:100
 msgid "Server Connection"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:105
+#: ../../chapters/livebroadcasting.rst:102
 msgid ""
 "**Type**: Select the type of streaming server you want to connect with. "
 ":term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and "
@@ -353,7 +350,7 @@ msgstr ""
 "El Mixxx és compatible amb :term:`Shoutcast 1 <shoutcast>`, :term:`Icecast 1"
 " <icecast>` i :term:`Icecast 2 <icecast>`."
 
-#: ../../chapters/livebroadcasting.rst:109
+#: ../../chapters/livebroadcasting.rst:106
 msgid ""
 "Mixxx works with Shoutcast 2 using the Shoutcast 1 protocol if you provide a"
 " stream name in :menuselection:`Preferences --> Live Broadcasting --> Stream"
@@ -361,14 +358,14 @@ msgid ""
 "connection (where Shoutcast 1 would accept this case)."
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:113
+#: ../../chapters/livebroadcasting.rst:110
 msgid ""
 "**Host**: You can enter the host as either a host name or an IP address."
 msgstr ""
 "**Màquina**: Podeu indicar la màquina ja sigui utilitzant el nom DNS, o "
 "l'adreca IP."
 
-#: ../../chapters/livebroadcasting.rst:114
+#: ../../chapters/livebroadcasting.rst:111
 msgid ""
 "**Login**: As provided by your streaming server provider. Without this, you "
 "will not connect successfully to the server. The default login for *Icecast*"
@@ -378,7 +375,7 @@ msgstr ""
 " connectar-vos al servidor amb èxit. L'usuari per defecte per a *Icecast* és"
 " ``source`` mentre que per a Shoutcast és ``admin``."
 
-#: ../../chapters/livebroadcasting.rst:117
+#: ../../chapters/livebroadcasting.rst:114
 msgid ""
 "**Mount**: A mount point is a unique name identifying a particular stream. "
 "For *Shoutcast* it is not necessary to specify a mount point. The setting "
@@ -394,7 +391,7 @@ msgstr ""
 "podeu posar el que us sembli. Cal que comenci amb ``/`` (barra) i continuï "
 "amb un text sense caràcters especials."
 
-#: ../../chapters/livebroadcasting.rst:123
+#: ../../chapters/livebroadcasting.rst:120
 msgid ""
 "**Port**: As provided by your streaming server provider. Most servers use "
 "the default port 8000."
@@ -402,7 +399,7 @@ msgstr ""
 "**Port**: El que us proporcioni el vostre proveïdor d'emissió. Molts "
 "servidors utilitzen el port 8000."
 
-#: ../../chapters/livebroadcasting.rst:125
+#: ../../chapters/livebroadcasting.rst:122
 msgid ""
 "**Password**: As provided by your streaming server provider, unless you run "
 "your own radio server. It is required to establish the connection to the "
@@ -412,7 +409,7 @@ msgstr ""
 "ser que tingueu el vostre propi servidor. Es necessita per a realitzar la "
 "connexió al servidor i iniciar la transmissió."
 
-#: ../../chapters/livebroadcasting.rst:129
+#: ../../chapters/livebroadcasting.rst:126
 msgid ""
 "Do not enter a :term:`URL` as the host! ``http://example.com:8000`` does not"
 " work. Use ``example.com`` in the :guilabel:`Host` field and ``8000`` in the"
@@ -422,11 +419,11 @@ msgstr ""
 "``http://exemple.com:8000`` no us funcionarà. Heu de posar ``exemple.com`` a"
 " :guilabel:`Màquina` i ``8000`` a :guilabel:`Port`."
 
-#: ../../chapters/livebroadcasting.rst:134
+#: ../../chapters/livebroadcasting.rst:131
 msgid "Stream Settings"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:136
+#: ../../chapters/livebroadcasting.rst:133
 msgid ""
 "**Public stream**: If enabled, this option adds your radio station to the "
 "Shoutcast/Icecast directory."
@@ -434,7 +431,7 @@ msgstr ""
 "**Transmissió pública**: Si s'activa, aquesta opció afegeix la vostra "
 "emissora de ràdio a l'índex d'emissores de Shoutcast/Icecast."
 
-#: ../../chapters/livebroadcasting.rst:138
+#: ../../chapters/livebroadcasting.rst:135
 msgid ""
 "**Enable UTF-8 metadata**: If enabled, this option fixes broken accented and"
 " foreign language symbols in :term:`metadata`, assuming the streaming "
@@ -445,7 +442,7 @@ msgstr ""
 "<metadata>`, sempre i quan el servidor estigui configurat per a permetre "
 "metadades UTF-8."
 
-#: ../../chapters/livebroadcasting.rst:141
+#: ../../chapters/livebroadcasting.rst:138
 msgid ""
 "**Dynamically update Ogg Vorbis metadata**: Due to flaws in some streaming "
 "clients, updating Ogg Vorbis metadata dynamically can cause listener "
@@ -455,19 +452,19 @@ msgid ""
 "this is not a problem, you can enable this checkbox."
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:147
+#: ../../chapters/livebroadcasting.rst:144
 msgid "**Stream name**: So, what's the name of your show?"
 msgstr "**Nom de la emissió**: I doncs, quin és el nom del vostre xou?"
 
-#: ../../chapters/livebroadcasting.rst:148
+#: ../../chapters/livebroadcasting.rst:145
 msgid "**Website**: The website you would like your listeners to visit."
 msgstr "**Pàgina web**: La pàgina web que poden visitar els vostres oients."
 
-#: ../../chapters/livebroadcasting.rst:149
+#: ../../chapters/livebroadcasting.rst:146
 msgid "**Description**: Enter your DJ name and a short tagline."
 msgstr "**Descripció**: Introduïu el vostre nom de DJ i algun comentari."
 
-#: ../../chapters/livebroadcasting.rst:150
+#: ../../chapters/livebroadcasting.rst:147
 msgid ""
 "**Genre**: List the main genres you play. This attracts search hits on "
 "stream directories. Genre must not be blank."
@@ -475,11 +472,11 @@ msgstr ""
 "**Gènere**: Indiqueu els estils musicals que posareu. Això atreu més oients "
 "que cerquin als índex d'emissores. El Gènere no pot estar en blanc."
 
-#: ../../chapters/livebroadcasting.rst:154
+#: ../../chapters/livebroadcasting.rst:151
 msgid "Encoding"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:156
+#: ../../chapters/livebroadcasting.rst:153
 msgid ""
 "**Bitrate**: Selecting a :term:`bitrate` of 128 or 160 :term:`kbps` is "
 "common and provides sufficient quality to your listeners. Higher bitrates "
@@ -491,7 +488,7 @@ msgstr ""
 "vostres oients. Taxes de bits majors utilitzaran més ample de banda de la "
 "vostra connexió a internet, i per als oients per a rebre la emissió."
 
-#: ../../chapters/livebroadcasting.rst:160
+#: ../../chapters/livebroadcasting.rst:157
 msgid ""
 "**Format**: Mixxx supports streaming to Icecast servers either in "
 ":term:`MP3` or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is "
@@ -501,15 +498,15 @@ msgstr ""
 ":term:`MP3` com en :term:`Ogg Vorbis`, mentre que per a servidors Shoutcast,"
 " només es pot utilitzar el format :term:`MP3`."
 
-#: ../../chapters/livebroadcasting.rst:165
+#: ../../chapters/livebroadcasting.rst:162
 msgid "Metadata"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:168
+#: ../../chapters/livebroadcasting.rst:165
 msgid "Shoutcast metadata format"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:170
+#: ../../chapters/livebroadcasting.rst:167
 msgid ""
 "This allows to set custom metadata formats for the Shoutcast title field. "
 "Previously only ``artist - title`` was allowed. For example if you were "
@@ -520,16 +517,16 @@ msgid ""
 "format: ``Hey, I like $artist, here is $title by $artist``."
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:178
+#: ../../chapters/livebroadcasting.rst:175
 msgid ""
 "The changes **do not** affect the case for the combination of OGG/Icecast2."
 msgstr "Aquestes opcions **no** s'apliquen si s'emet amb Ogg i Icecast2."
 
-#: ../../chapters/livebroadcasting.rst:181
+#: ../../chapters/livebroadcasting.rst:178
 msgid "Custom metadata"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:183
+#: ../../chapters/livebroadcasting.rst:180
 msgid ""
 "By default, Mixxx broadcasts artist and title information of the files that "
 "you play to your listeners. You can disable this feature and use your own "
@@ -539,13 +536,13 @@ msgstr ""
 "reproduïu als vostres oients. Podeu desactivar aquesta característica i "
 "utilitzar metadades personalitzades."
 
-#: ../../chapters/livebroadcasting.rst:187
+#: ../../chapters/livebroadcasting.rst:184
 msgid "**Enable custom metadata**: Toggles custom metadata on and off."
 msgstr ""
 "**Activa les metadades personalitzades**: Activa o desactiva les metadades "
 "personalitzades."
 
-#: ../../chapters/livebroadcasting.rst:188
+#: ../../chapters/livebroadcasting.rst:185
 msgid ""
 "**Artist**: Insert your custom artist metadata here, your DJ name for "
 "example."
@@ -553,15 +550,15 @@ msgstr ""
 "**Artista**: Indica el valor que voleu enviar enlloc de l'artista, per "
 "exemple el vostre nom de DJ."
 
-#: ../../chapters/livebroadcasting.rst:189
+#: ../../chapters/livebroadcasting.rst:186
 msgid "**Title**: Insert your custom title metadata here."
 msgstr "**Títol**: Indiqueu les metadades que voleu enviar enlloc del títol."
 
-#: ../../chapters/livebroadcasting.rst:192
+#: ../../chapters/livebroadcasting.rst:189
 msgid "Icecast vs. Shoutcast"
 msgstr "Icecast contra Shoutcast"
 
-#: ../../chapters/livebroadcasting.rst:194
+#: ../../chapters/livebroadcasting.rst:191
 msgid ""
 "Both essentially serve the same purpose. An Icecast server can stream either"
 " :term:`MP3` or :term:`Ogg Vorbis`. However, although Ogg is more efficient "
@@ -577,11 +574,11 @@ msgstr ""
 "sapigueu que els vostres oients poden escoltar emissions en Ogg sense "
 "problemes."
 
-#: ../../chapters/livebroadcasting.rst:201
+#: ../../chapters/livebroadcasting.rst:198
 msgid "Broadcast directories"
 msgstr "Índex d'emissores"
 
-#: ../../chapters/livebroadcasting.rst:203
+#: ../../chapters/livebroadcasting.rst:200
 msgid ""
 "Generally your streaming server host adds your radio station to the "
 "Shoutcast/Icecast directory, if you enable the :guilabel:`Public Stream` "
@@ -593,19 +590,19 @@ msgstr ""
 ":guilabel:`Transmissió pública` a les :menuselection:`Preferències --> "
 "Emissió en viu --> Configuració de la emissió`."
 
-#: ../../chapters/livebroadcasting.rst:207
+#: ../../chapters/livebroadcasting.rst:204
 msgid ""
 "**Shoutcast radio directory**: `www.shoutcast.com "
 "<https://www.shoutcast.com/>`_"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:208
+#: ../../chapters/livebroadcasting.rst:205
 msgid "**Icecast radio directory**: `dir.xiph.org <http://dir.xiph.org/>`_"
 msgstr ""
 "**Índex d'emissores de ràdio Icecast**: `dir.xiph.org "
 "<http://dir.xiph.org/>`_"
 
-#: ../../chapters/livebroadcasting.rst:210
+#: ../../chapters/livebroadcasting.rst:207
 msgid ""
 "Often streaming hosts will run their own directories. Check your host's FAQ "
 "to find out. If you want to promote your streaming radio station even more, "
@@ -616,11 +613,11 @@ msgid ""
 "promoting/>`_"
 msgstr ""
 
-#: ../../chapters/livebroadcasting.rst:217
+#: ../../chapters/livebroadcasting.rst:214
 msgid "Troubleshooting"
 msgstr "Solució de problemes"
 
-#: ../../chapters/livebroadcasting.rst:219
+#: ../../chapters/livebroadcasting.rst:216
 msgid ""
 "If you have trouble connecting to your streaming server, check the "
 "configuration in the :ref:`live-broadcasting-preferences`."
@@ -628,7 +625,7 @@ msgstr ""
 "Si teniu problemes connectant-vos al servidor d'emissió, comproveu la "
 "configuració a :ref:`live-broadcasting-preferences`."
 
-#: ../../chapters/livebroadcasting.rst:221
+#: ../../chapters/livebroadcasting.rst:218
 msgid ""
 "You may have selected the :term:`Ogg Vorbis` format that is unsupported by "
 "Shoutcast servers."
@@ -636,7 +633,7 @@ msgstr ""
 "Potser heu seleccionat el format :term:`Ogg Vorbis` que no es compatible amb"
 " servidors Shoutcast."
 
-#: ../../chapters/livebroadcasting.rst:223
+#: ../../chapters/livebroadcasting.rst:220
 msgid ""
 "You may need to check your firewall settings. Both Icecast and Shoutcast use"
 " two ports. If you are streaming on a port (for example, port 8000) then you"
@@ -646,7 +643,7 @@ msgstr ""
 "Shoutcast utilitzen dos ports. Si emeteu pel un port (per exemple, el 8000),"
 " aleshores també heu d'obrir el port següent, (8001)."
 
-#: ../../chapters/livebroadcasting.rst:226
+#: ../../chapters/livebroadcasting.rst:223
 msgid ""
 "You may need to configure port forwarding if you are behind a router or your"
 " router will block requests to your streaming port (for example, port 8000)"
