@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Parse languages and ensure that "en" is built last
 # This is necessary because we generate the redirect rules in the same loop
 # and want to use "en" as a fallback.
@@ -24,7 +24,7 @@ do
         printf '/:version/*    /:version/en/:splat    301\n' >> build/html/_redirects
     else
         printf '/:version/%s/* /:version/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
-        printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "${lang/_/-}" >> build/html/_redirects
+        printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "$(printf "%s" "$lang"  | sed 's/_/-/g')" >> build/html/_redirects
     fi
     # and finally a catch all redirect for urls like https://manual.mixxx.org/2.7/
     printf '/* /latest/404.html  404\n' >> build/html/_redirects
