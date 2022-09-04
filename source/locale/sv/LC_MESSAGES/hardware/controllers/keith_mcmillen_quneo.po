@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:2
+msgid "Keith McMillen QuNeo"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:4
+msgid ""
+"`Manufacturer’s product page "
+"<http://www.keithmcmillen.com/products/quneo/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:6
+msgid ""
+"Keith McMillen QuNeo is a USB multi purpose pad controller and features "
+"tactile pads, sliders, rotary sensors and switches. Works with USB, MIDI or "
+"OSC and will communicate most music software environments right out of the "
+"box."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:11
+msgid "**Features**"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:13
+msgid ""
+"27 pads, sliders and rotary sensors are pressure, velocity, and location "
+"sensitive. Even the 17 switches respond to how hard you press."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:16
+msgid ""
+"LED Light Feedback - variably diffusive elastomers with 251 multi-color "
+"LEDs, 16 square pads provide 127 levels of Velocity response, X-Y location "
+"and continuous pressure."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:19
+msgid ""
+"2 rotary sensors allow you to scrub, trigger, stretch, pinch and play "
+"phrases and sound files, manipulate continuous controllers and more ."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:21
+msgid ""
+"Each rotary sensor measures angle, pressure and distance from the center."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:23
+msgid ""
+"9 touch sensitive sliders can thomann be mapped to fader and effects "
+"controls."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:25
+msgid "LEDs within each slider act as VU meters."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:26
+msgid ""
+"QuNeo is the size of an iPad (V1) and can fit in iPad accessories such as "
+"mic clips, stands and more."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:28
+msgid ""
+"Advanced users and programmers can use the development kit and API to create"
+" their own code to respond to QuNeo’s sensor data. Hack away to control your"
+" world in ways never before possible!"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:35
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:44
+msgid "Keith McMillen Quneo (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:46
+msgid ""
+"The mapping is included with the QuNeo installer, make sure to click the "
+"“Mixxx” check box when prompted during the installation. Alternatively "
+"download the Installer from `www.keithmcmillen.com "
+"<http://www.keithmcmillen.com/QuNeo/downloads/>`__. The MIDI mapping goes "
+"with QuNeo’s factory preset number 12. To change the factory preset, select "
+"the blue MODE button on the device and press tab #12. Also see `Youtube - "
+"Setting up Mixxx with QuNeo <https://www.youtube.com/watch?v=sw4Cnko-"
+"nOU>`__."
+msgstr ""
+
+#: ../../hardware/controllers/keith_mcmillen_quneo.rst:55
+msgid ""
+"It turns QuNeo into a full fledged DJ controller using Mixxx. It includes "
+"controls for 2 players: play, sync, cue, tempo controls, crossfading, "
+"scratching, and various volume controls accessible from QuNeo."
+msgstr ""

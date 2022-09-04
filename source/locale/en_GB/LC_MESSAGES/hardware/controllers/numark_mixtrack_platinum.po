@@ -1,0 +1,672 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: English (United Kingdom) (https://www.transifex.com/mixxx-dj-software/teams/7734/en_GB/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:2
+msgid "Numark Mixtrack Platinum"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:4
+msgid ""
+"`Manufacturer’s product page <https://www.numark.com/product/mixtrack-"
+"platinum>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:5
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-"
+"mapping/16442>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:7
+msgid ""
+"The Numark Mixtrack Platinum is a 2 channel (with 4 channel layering) entry "
+"level DJ controller with an integrated audio interface. The stand out "
+"feature of the Mixtrack Platinum is the LCD displays integrated into the jog"
+" wheels. It is a USB Audio and MIDI Class compliant device and works with "
+"Linux, macOS, and Windows."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:13
+msgid "Audio interface"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:15
+msgid ""
+"Configure Mixxx’s Master output for channels 1-2 and Headphones output for "
+"Channels 3-4."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:17
+msgid ""
+"The microphone input on this controller is not available to the computer "
+"through the controller’s audio interface. It is mixed with the master output"
+" in hardware, so this controller’s audio interface is not suitable for "
+"broadcasting or recording the inputs. If you want to use the controller for "
+"broadcasting or recording, a separate :ref:`audio interface <hardware-audio-"
+"interfaces>` with a microphone input is suggested."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:21
+msgid "Configuration Options"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:23
+msgid ""
+"Configuration options can be set in the mapping. You will need to edit the "
+"values below at the very top of the JavaScript file :file:`Numark-Mixtrack-"
+"Platinum-scripts.js` and save changes. Allowed values are “true” or “false” "
+"unless specified."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:26
+msgid ""
+"**EnableWheel:** if true, wheel/vinyl mode will be enabled by default "
+"(defaults to true)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:27
+msgid ""
+"**ShowTimeElapsed:** if true, time elapsed will be show by default on the "
+"displays, otherwise time remaining will be displayed (defaults to true)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:28
+msgid ""
+"**UseManualLoopAsCue:** if true, the manual loop controls will behave as "
+"hotcues 5-8. When enabled, the normal loop control behavior can be activated"
+" using shift+pad mode+mode button and pad mode+mode to use the hotcue "
+"behavior (defaults to false)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:30
+msgid ""
+"**UseAutoLoopAsCue:** if true, the auto loop controls will behave as hotcues"
+" 5-8. When enabled, the normal loop control behavior can be activated using "
+"shift+pad mode+mode button and pad mode+mode to use the hotcue behavior "
+"(defaults to false)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:32
+msgid ""
+"**UseCueAsSampler:** if true, the hotcues will control sampler slots 5-8 "
+"when sampler mode is active. When enabled, the normal hotcue control "
+"behavior can be activated using shift+pad mode+sampler while pad "
+"mode+sampler will activate the special behavior (defaults to false)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:34
+msgid ""
+"**ShiftLoadEjects:** if true, pressing shift + load will eject a track "
+"(defaults to false)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:37
+msgid "Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:46
+msgid "Numark Mixtrack Platinum (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:49
+msgid ""
+"1. **Browse Knob:** Rotate this knob clockwise to scroll down, counter "
+"clockwise to scroll up. Press the Knob to load tracks into the inactive "
+"deck, expand entries in the library view, and select playlists and crates."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:50
+msgid ""
+"**Shift + Turn:** Page down/page up, allows you to scroll by page instead of"
+" by item."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:51
+msgid ""
+"**Shift + Push:** Focus next library pane, allows you to toggle between the "
+"left and right panes."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:53
+msgid "2. **Master Gain:** Adjusts the master volume in the software."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:54
+msgid ""
+"**Note:** This control does not affect the microphone volume which is summed"
+" with the final output of the Master Gain to the Master Output. Use the Mic "
+"Gain knob to control the microphone volume."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:56
+msgid ""
+"**Cue Mix:** Adjusts the software’s audio output to the headphones, mixing "
+"between the cue (PFL) output and the master mix output."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:58
+msgid ""
+"4. **Cue Gain:** Adjusts the volume for headphone cueing in the software."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:59
+msgid "**Shift+Cue Gain:** adjust the volume of the first 8 sampler banks"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:61
+msgid ""
+"5. **VU Meter:** Monitor the volume levels of the master output and each "
+"channel. When cue/pfl is active on ANY channel, the meter shows the mono "
+"levels each channel (left meter shows the deck on the left, right meter for "
+"the deck on the right). Otherwise the meter shows the stereo levels of the "
+"master output."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:64
+msgid ""
+"6. **Load:** Press one of these buttons while a track is selected in the "
+"library window to assign it to Deck 1 and 2 (or 3 and 4), respectively, in "
+"the software."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:65
+msgid ""
+"**Shift + Load:** Load the track and play (or if the ShiftLoadEjects option "
+"is set, eject the track)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:67
+msgid "7. **Gain Knobs:** Adjust the gain of the deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:68
+msgid ""
+"**Shift + Gain:** Adjust parameter 2 of the currently focused effect on this"
+" deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:70
+msgid ""
+"8. **High EQ Knobs:** Adjust the volume of the high frequencies of the deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:71
+msgid ""
+"**Shift + High:** Adjust parameter 3 of the currently focused effect on this"
+" deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:73
+msgid ""
+"9. **Mid EQ Knobs:** Adjust the volume of the mid frequencies of the deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:74
+msgid ""
+"**Shift + Mid:** Adjust parameter 4 of the currently focused effect on this "
+"deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:76
+msgid ""
+"10. **Low EQ Knobs:** Adjust the volume of the low frequencies of the deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:77
+msgid ""
+"**Shift + Low:** Adjust parameter 5 of the currently focused effect on this "
+"deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:80
+msgid ""
+"11. **Filter:** Adjusts the amount of the filter effect. Turning the knob "
+"left controls the low pass filter; turning it right controls the high pass "
+"filter. The effect applied here can be configured (the Quick Effect option "
+"in the Equalizer preferences)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:81
+msgid ""
+"**Shift + Filter:** With no effect focused, this controls the Superknob of "
+"the effects unit. With an effect focused, this adjusts parameter 1 of the "
+"currently focused effect on this deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:83
+msgid ""
+"12. **Cue/PFL/Headphones:** Sends pre-fader audio to the headphone output. "
+"If any channels have the cue button active, the VU meter will show channel "
+"output levels instead of master output levels on all decks."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:86
+msgid "**Volume fader:** Adjusts the volume of the deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:88
+msgid "**Crossfader:** Controls the blend between the two decks."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:90
+msgid ""
+"15-16. **Pitch Bend Down/Up:** Press and hold to momentarily reduce the "
+"speed of the track."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:91
+msgid ""
+"**Shift + Pitch Bend:** adjust the key of the playing track up or down. "
+"Press both buttons to reset the key."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:92
+msgid "**Pitch Bend Up + Pitch Bend Down:** toggle keylock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:94
+msgid ""
+"17. **Pitch Fader:** Adjust the speed of the music (activate keylock to "
+"adjust tempo without affecting pitch). Note that moving the fader down "
+"*increases* speed, as marked by the “+” at the bottom of the fader on the "
+"controller. This can be reversed in Mixxx’s preferences under Interface > "
+"Speed slider direction."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:97
+msgid ""
+"18. **Touch Strip:** Use the Touch Strip to adjust the deck’s Effect Unit "
+"Superknob. When an effect is focused, the touch strip controls that effect’s"
+" meta knob."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:98
+msgid "**Shift + Touch Strip:** search through a track’s timeline"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:100
+msgid "**Beats Knob:** Adjusts the Dry/Wet mix of the deck’s Effect Unit."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:102
+msgid "20. **FX 1 On/Off:** Toggle FX 1 of the deck’s Effect Unit"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:103
+msgid "**Shift + FX 1:** Cycle to the next effect."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:104
+msgid ""
+"**Hold + FX 1:** Enable this effect in instant mode, after the button is "
+"released the effect will be disabled again."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:105
+msgid ""
+"**Tap + FX 1:** Focus this effect to allow adjusting its metaknob with the "
+"touch strip."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:107
+msgid "21. **FX 2 On/Off:** Toggle FX 2 of the deck’s Effect Unit"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:108
+msgid "**Shift + FX 2:** Cycle to the next effect."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:109
+msgid ""
+"**Hold + FX 2:** Enable this effect in instant mode, after the button is "
+"released the effect will be disabled again."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:110
+msgid ""
+"**Tap + FX 2:** Focus this effect to allow adjusting its metaknob with the "
+"touch strip."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:112
+msgid "22. **FX 3 On/Off:** Toggle FX 3 of the deck’s Effect Unit"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:113
+msgid "**Shift + FX 3:** Cycle to the next effect."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:114
+msgid ""
+"**Hold + FX 3:** Enable this effect in instant mode, after the button is "
+"released the effect will be disabled again."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:115
+msgid ""
+"**Tap + FX 3:** Focus this effect to allow adjusting its metaknob with the "
+"touch strip."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:117
+msgid ""
+"23. **Tap BPM:** Press this button several times on beat to manually enter a"
+" new BPM. The software will ignore the track’s BPM and follow your manually "
+"entered tempo."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:118
+msgid ""
+"24. **Wheel button:** If active you can use the platter/jog wheel to grab "
+"and move the audio, scratching the track like a vinyl record."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:119
+msgid ""
+"**Shift + Wheel:** Toggle elapsed time or time remaining on the deck’s "
+"display."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:121
+msgid ""
+"25. **Platter/Jog Wheel:** If Wheel is enabled, touching the platter will "
+"result in vinyl scratching, when disabled, nothing will happen and the "
+"entire jog wheel behaves as if the side was touched."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:122
+msgid "**Touch side:** Pitch bend (nudging) if track is playing"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:123
+msgid "**Shift + Touch platter:** Quickly scroll through the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:124
+msgid "**Shift + Touch side:** Beat jump"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:125
+msgid ""
+"26. **Jog Wheel Display:** The display is fully functional with this "
+"mapping. It will display the position of the spinner, play position, bpm, "
+"and keylock status."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:127
+msgid "**Deck Switch:** Allows switching between decks 1/3 and 2/4."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:129
+msgid ""
+"**Shift:** Allows alternate options to be activated for various controls."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:131
+msgid ""
+"29. **Sync:** Set the BPM of this deck to match the opposite deck. "
+"**Press:** Press once to synchronize the tempo (BPM) to that of to that of "
+"the other track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:132
+msgid "**Long Press:** Enable master sync. Press again to disable."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:133
+msgid "**Shift + Sync:** Toggle quantize mode."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:135
+msgid ""
+"30. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode "
+"<interface-cue-modes>` set in the Mixxx preferences."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:136
+msgid ""
+"**Shift + Cue:** return the play head to the start of the track and stop the"
+" deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:138
+msgid "31. **Play/Pause:** Starts and stops playback."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:139
+msgid ""
+"**Shift + Play/Pause:** stutter the track from the last set cue point. If a "
+"cue point has not been set, the play head will return to the start of the "
+"track."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:143
+msgid ""
+"32. **Pad Mode:** Hold this button to see the currently selected pad mode, "
+"while holding select between Manual Loop, Auto Loop, and Sampler modes. "
+"Additionally control of hotcues 5-8 can be activated using shift+pad "
+"mode+loop mode (either manual or auto loop). Setting either of the "
+"**UseManualLoopAsCue** or **UseAutoLoopAsCue** options will reverse the "
+"selection of hotcue vs loop mode when shift is held."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:144
+msgid ""
+"**Pad Mode+Manual Loop:** set the top row of pads to manual loop control "
+"mode (see below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:145
+msgid ""
+"**Pad Mode+Auto Loop:** set the top row of pads to auto loop/loop roll "
+"control mode (see below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:146
+msgid ""
+"**Pad Mode+Sampler:** set the top row of pads to sampler control mode (see "
+"below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:147
+msgid ""
+"**Shift+Pad Mode+Manual Loop:** set the top row of pads to control hotcues "
+"5-8 (see below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:148
+msgid ""
+"**Shift+Pad Mode+Auto Loop:** set the top row of pads to control hotcues 5-8"
+" (see below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:149
+msgid ""
+"**Shift+Pad Mode+Sampler:** set the bottom row of pads to control sampler "
+"banks 5-8 (see below)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:151
+msgid "**Performance Pads:**"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:153
+msgid ""
+"The top row of pads is for controlling loops and samples. To select a mode, "
+"hold down the Pad Mode button and press one of the upper pads. An LED under "
+"the pad section indicates the currently selected mode. See the subsections "
+"below for details about each mode."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:157
+msgid ""
+"The bottom row of pads is used to trigger hotcue points. If a hotcue point "
+"has not already been set for the loaded track, this control will mark the "
+"hotcue point. If a hotcue point has already been set, this control will jump"
+" to it."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:158
+msgid "**Shift + Hot Cue**: Deletes the assigned hotcue point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:160
+msgid ""
+"Note: the top row can be made to control hotcues 5-8 using shift+pad "
+"mode+loop mode (being Auto Loop or Manual Loop). This can also be made the "
+"default using a config option (see documentation above and below)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:164
+msgid "Manual Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:166
+msgid ""
+"Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the "
+"pad) to assign the upper 4 pads to the functions listed below:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:168
+msgid ""
+"**Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will "
+"light blue"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:169
+msgid ""
+"**Loop Out** – Sets the end point for the loop: When assigned, the Pad LED "
+"will light blue"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:170
+msgid ""
+"**On/Off** – (De)activate the loop. If a loop has not been set, this button "
+"will have no effect.: When assigned, the Pad LED will light blue"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:171
+msgid ""
+"**Loop x1/2** – Halve the length of the loop. Press Shift + Loop x1/2 to "
+"double the length of the loop. Note that this does not update the beatloop "
+"size shown on screen."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:173
+msgid ""
+"If Manual Loop is selected with Shift and Pad Mode held down this will "
+"activate control of hotcues 5-8 on the upper row instead of the looping "
+"controls. Select Manual Loop again while holding Pad Mode to restore the "
+"default behavior. There will be no indication of which mode is selected "
+"(beyond the LEDs on the keys themselves, which will vary depending on loop "
+"and hotcue status). The **UseManualLoopAsCue** config option can be set in "
+"the mapping file (see above) to swap the default “shadow” mode of the "
+"looping controls such that hotcue control will be the default and manual "
+"loop control with be selected when Shift is used."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:179
+msgid "Auto Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:181
+msgid ""
+"Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads "
+"to the functions listed below:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:182
+msgid "\\* **Auto 1:** – Sets and starts playback of a 1-beat autoloop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:184
+msgid "**Auto 2:** – Sets and starts playback of a 2-beat autoloop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:185
+msgid "**Auto 3:** – Sets and starts playback of a 4-beat autoloop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:186
+msgid ""
+"**Auto 4:** – Sets and starts playback of a 8-beat autoloop. \\* **Shift + "
+"Auto 1:** – When held, starts a 1/16-beat loop roll."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:188
+msgid "**Shift + Auto 2:** – When held, starts a 1/8-beat loop roll."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:189
+msgid "**Shift + Auto 3:** – When held, starts a 1/4-beat loop roll."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:190
+msgid "**Shift + Auto 4:** – When held, starts a 1/2-beat loop roll."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:192
+msgid ""
+"Note: loop rolls activate slip mode so the play position continues to "
+"advance normally, such that when the loop is released, play continues from "
+"the place it would have been if no loop had been activated."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:195
+msgid ""
+"If Auto Loop is selected with Shift and Pad Mode held down this will "
+"activate control of hotcues 5-8 on the upper row instead of the looping "
+"controls. Select Auto Loop again while holding Pad Mode to restore the "
+"default behavior. There will be no indication of which mode is selected "
+"(beyond the LEDs on the keys themselves, which will vary depending on loop "
+"and hotcue status). The **UseAutoLoopAsCue** config option can be set in the"
+" mapping file (see above) to swap the default “shadow” mode of the looping "
+"controls such that hotcue control will be the default and auto loop control "
+"with be selected when Shift is used."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:201
+msgid "Sample Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:203
+msgid ""
+"Hold Pad Mode and press the pad marked Sampler to enter sampler mode (hold "
+"down shift as well to control slots 5-8 using the hotcue buttons). A press "
+"of any of the sample buttons will load a sample if the sampler is not "
+"loaded. Shift + sample pad will unload a sample if it is not playing. "
+"Pressing a pad when a sample is loaded will play the sample, pressing shift "
+"+ sample pad while a sample is playing will stop it."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:207
+msgid ""
+"Use **shift+cue gain** to adjust the volume of the sampler. When switching "
+"to the pad mode to sampler, hold down shift to control slots 5-8 using the "
+"hotcue buttons."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_platinum.rst:209
+msgid ""
+"Note: the 8 sample slots on each deck all control the same 8 slots in Mixxx "
+"no matter which deck the sampler is active on. This is because the "
+"controller sends the same MIDI codes for button presses on each side, so "
+"there is no way for Mixxx to tell whether a sampler button was pressed on "
+"the left or right side of the controller."
+msgstr ""
