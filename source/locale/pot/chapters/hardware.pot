@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-05 01:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -325,7 +325,7 @@ msgid "Most music is published with a bit depth of 16 bits at a sample rate of 4
 msgstr ""
 
 #: ../../chapters/hardware.rst:120
-msgid "Bit depth determines the possible dynamic range of the signal. 16 bits is more than enough for playing back music. While 24 bits is helpful for recording, `it is useless for playback <https://sonicscoop.com/2013/08/29/why-almost-everything-you-thought-you- knew-about-bit-depth-is-probably-wrong/>`_."
+msgid "Bit depth determines the possible dynamic range of the signal. 16 bits is more than enough for playing back music. While 24 bits is helpful for recording, `it is useless for playback <https://sonicscoop.com/why-almost-everything-you-thought-you- knew-about-bit-depth-is-probably-wrong/>`_."
 msgstr ""
 
 #: ../../chapters/hardware.rst:126
