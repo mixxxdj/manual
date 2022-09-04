@@ -36,6 +36,7 @@ extensions = [
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
+    "notfound.extension",
 ]
 
 todo_include_todos = True
@@ -459,7 +460,8 @@ linkcheck_ignore = [
 ]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 10
+linkcheck_timeout = 20
+linkcheck_retries = 2
 
 # Don't verify TLS
 tls_verify = False
