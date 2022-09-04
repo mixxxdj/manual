@@ -456,4 +456,5 @@ linkcheck_ignore = [
 ]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 10
+linkcheck_timeout = 20
+linkcheck_retries = 2
