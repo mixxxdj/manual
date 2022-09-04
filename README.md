@@ -128,7 +128,7 @@ pages) the Transifex configuration file (stored in `.tx/config`) needs updating:
 
 Commit the new source translations and Transifex configuration with:
 
-    git add source/translations/pot .tx
+    git add source/locale/pot .tx
     git commit -m "Update source translations and Transifex configuration."
 
 #### Push source translations to Transifex

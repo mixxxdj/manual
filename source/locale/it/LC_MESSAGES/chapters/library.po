@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-05 01:02+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Language-Team: Italian (https://www.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
 "MIME-Version: 1.0\n"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:63
 msgid ""
-"|ic_lib_library| A sortable list of all the tracks in your music library."
+"|ic_lib_tracks| A sortable list of all the tracks in your music library."
 msgstr ""
 
 #: ../../chapters/library.rst:69
@@ -1549,8 +1549,8 @@ msgstr ""
 
 #: ../../chapters/library.rst:814
 msgid ""
-"|ic_lib_browse| This mode works like a file manager and allows you to load "
-"tracks from anywhere on your computer and connected devices, that are not "
+"|ic_lib_computer| This mode works like a file manager and allows you to load"
+" tracks from anywhere on your computer and connected devices, that are not "
 "necessarily already in your Mixxx library."
 msgstr ""
 
@@ -1559,8 +1559,8 @@ msgid ""
 "Click the :guilabel:`Computer` sidebar item to navigate the computer and "
 "find your music. Depending on your :term:`operating system`, your music will"
 " usually be found in the “My Music” or “Music” folder. Drag the files you "
-"want to import to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon "
-"or directly to the :ref:`interface-waveform`."
+"want to import to the |ic_lib_tracks| :ref:`Tracks <library-tracks>` icon or"
+" directly to the :ref:`interface-waveform`."
 msgstr ""
 
 #: ../../chapters/library.rst:824
@@ -1679,11 +1679,11 @@ msgstr ""
 
 #: ../../chapters/library.rst:889
 msgid ""
-"This section allows you to analyze your tracks in advance of loading them "
-"into a deck. Analyzing tracks requires considerable CPU power and may cause "
-"skips in the audio while performing, so it helps to have your tracks "
-"analyzed before you play. See :ref:`getting-started-analyze-library` for "
-"details."
+"|ic_lib_analyze| This section allows you to analyze your tracks in advance "
+"of loading them into a deck. Analyzing tracks requires considerable CPU "
+"power and may cause skips in the audio while performing, so it helps to have"
+" your tracks analyzed before you play. See :ref:`getting-started-analyze-"
+"library` for details."
 msgstr ""
 
 #: ../../chapters/library.rst:898
