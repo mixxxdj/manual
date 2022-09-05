@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "Set the sample rate to **44100Hz**"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:45
-msgid "Set the Master output to **None**"
+msgid "Set the Main output to **None**"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:46
@@ -161,7 +161,7 @@ msgid "Direct deck output implications"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:85
-msgid "This setup uses direct deck outputs because mixing takes place in the VMS4 hardware. The down side to this is that you won’t be able to use Mixxx features that play to Master or Cue buses like the Preview Deck or Samplers. Using these features with a hardware + MIDI mixer like the VMS4 is not really feasible unless you used a separate sound interface or controlled Mixxx’s internal mixer another way."
+msgid "This setup uses direct deck outputs because mixing takes place in the VMS4 hardware. The down side to this is that you won’t be able to use Mixxx features that play to Main or Cue buses like the Preview Deck or Samplers. Using these features with a hardware + MIDI mixer like the VMS4 is not really feasible unless you used a separate sound interface or controlled Mixxx’s internal mixer another way."
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:93
@@ -257,7 +257,7 @@ msgid "**CUE** - Operates according to the Cue mode set in Mixxx's preferences H
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:156
-msgid "**Play** - Press to toggle deck playback Hold Shift and press to set this deck as the master for syncing with another"
+msgid "**Play** - Press to toggle deck playback Hold Shift and press to set this deck as the leader for syncing with another"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:158

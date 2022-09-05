@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -472,7 +472,7 @@ msgid ":hwlabel:`MASTER LEVEL`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:56
-msgid "Controls the master output volume"
+msgid "Controls the main output volume"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:57
@@ -487,7 +487,7 @@ msgid ":hwlabel:`MASTER CUE`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:57
-msgid "Toggles master cue"
+msgid "Toggles main cue"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:58
@@ -531,7 +531,7 @@ msgid ":hwlabel:`HEADPHONES MIX`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:60
-msgid "Controls headphone’s audio source (cue, master)"
+msgid "Controls headphone’s audio source (cue, main)"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:61
