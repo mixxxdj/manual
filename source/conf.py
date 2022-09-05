@@ -172,7 +172,7 @@ html_context = {
     "display_github": True,
     "github_user": "mixxxdj",
     "github_repo": "manual",
-    "github_version": "2.3",
+    "github_version": "2.4",
     "conf_py_path": "/source/",
     "language": language,
     "supported_languages": list(
