@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "`Mapping forum thread <https://mixxx.discourse.group/t/native-instruments
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:14
-msgid "Unbind Master knob from Mixxx's Main Gain, because it controls the hardware volume."
+msgid "Unbind Main knob from Mixxx's Main Gain, because it controls the hardware volume."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:18
@@ -41,7 +41,7 @@ msgid "Mixxx Sound Hardware Preferences"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:20
-msgid "Master output: channels 1-2"
+msgid "Main output: channels 1-2"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:21
@@ -137,7 +137,7 @@ msgid "Sync button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
-msgid "Syncs the BPM and phase (depending on quantize). Press longer to activate master sync on that deck."
+msgid "Syncs the BPM and phase (depending on quantize). Press longer to activate sync lock on that deck."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54

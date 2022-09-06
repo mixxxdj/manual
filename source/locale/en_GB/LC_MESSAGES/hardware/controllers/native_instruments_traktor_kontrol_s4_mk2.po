@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: English (United Kingdom) (https://www.transifex.com/mixxx-dj-software/teams/7734/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr ""
 msgid ""
 "Push and hold the :hwlabel:`SYNC` button to “lock” sync on for all decks you"
 " want to remain in sync. Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable "
-":ref:`Sync Lock <master-sync>` for details."
+":ref:`Sync Lock <sync-lock>` for details."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:45
@@ -198,11 +198,11 @@ msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:65
 msgid ""
-"The Master Volume knob on the S4 controls the volume of the S4’s master "
-"output in hardware, so it does not affect the software master gain knob in "
-"Mixxx. Peak display is only generated from software, however. So if you see "
-"or hear clipping, lower the gain of the playing decks; adjusting the master "
-"volume knob on the S4 will not help."
+"The Master Volume knob on the S4 controls the volume of the S4’s main output"
+" in hardware, so it does not affect the software main gain knob in Mixxx. "
+"Peak display is only generated from software, however. So if you see or hear"
+" clipping, lower the gain of the playing decks; adjusting the main volume "
+"knob on the S4 will not help."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:70

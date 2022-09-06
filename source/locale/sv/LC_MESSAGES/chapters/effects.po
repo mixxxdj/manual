@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Language-Team: Swedish (https://www.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -262,7 +262,7 @@ msgid "auxiliary inputs"
 msgstr ""
 
 #: ../../chapters/effects.rst:34
-msgid "the master mix"
+msgid "the main mix"
 msgstr ""
 
 #: ../../chapters/effects.rst:35
@@ -317,7 +317,7 @@ msgid ""
 "effects like Echo and Reverb to continue outputting sound after their input "
 "has been cut off by lowering the fader. Unlike other DJ software and "
 "hardware, effects can also be heard in headphones even though they are "
-"processed after the faders for the master output. Refer to the "
+"processed after the faders for the :term:`main output`. Refer to the "
 ":ref:`effects-in-headphones` section below for details."
 msgstr ""
 
@@ -452,8 +452,8 @@ msgid ""
 "simply assign the deck to an effect unit and enable the headphone button for"
 " the deck. Note that this will increase CPU compared to assigning an effect "
 "unit to a deck without the headphone button enabled. This is because effects"
-" are processed in parallel for the headphone output (prefader) and master "
-"output (postfader)."
+" are processed in parallel for the :term:`headphone output` (prefader) and "
+":term:`main output` (postfader)."
 msgstr ""
 
 #: ../../chapters/effects.rst:162
@@ -490,7 +490,7 @@ msgid "Enable the effect unit for the deck"
 msgstr ""
 
 #: ../../chapters/effects.rst:172
-msgid "Turn the mix knob right so the effects are heard in the master output"
+msgid "Turn the mix knob right so the effects are heard in the main output"
 msgstr ""
 
 #: ../../chapters/effects.rst:173

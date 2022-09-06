@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "Channel Configuration"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
-msgid "Master"
+msgid "Main"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
@@ -93,7 +93,7 @@ msgid "Mapping description"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:64
-msgid "Note that Mixxx doesn't have the concept of a single \"leader\" deck for sync. Instead, push and hold the :hwlabel:`SYNC` button to \"lock\" sync on for all decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to lock sync on. Refer to :ref:`Sync Lock documentation <master-sync>` for details."
+msgid "Note that Mixxx doesn't have the concept of a single \"leader\" deck for sync. Instead, push and hold the :hwlabel:`SYNC` button to \"lock\" sync on for all decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to lock sync on. Refer to :ref:`Sync Lock documentation <sync-lock>` for details."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:70

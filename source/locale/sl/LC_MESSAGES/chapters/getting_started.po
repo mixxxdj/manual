@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 01:02+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
@@ -527,11 +527,9 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:168
 msgid ""
-"*Master*: all decks, samplers, microphones, and auxiliary inputs mixed "
+"*Main*: all decks, samplers, microphones, and auxiliary inputs mixed "
 "together. This output is sent to the speakers for the audience."
 msgstr ""
-"*Glavni*: vsi predvajalniki, vzorčevalniki, mikrofoni in pomožni vhodi so "
-"združeni skupaj. Ta izhod je povezan na zvočnike za občinstvo."
 
 #: ../../chapters/getting_started.rst:170
 msgid ""
@@ -542,9 +540,8 @@ msgstr ""
 "dodeljeni :term:`poslušanju pred drsnikom <PFL>`"
 
 #: ../../chapters/getting_started.rst:172
-msgid "*Booth*: same as Master output, but has a separate gain control"
+msgid "*Booth*: same as main output, but has a separate gain control"
 msgstr ""
-"*DJ-ev prostor*: enako kot glavni izhod, vendar z ločenim nadzorom jakosti"
 
 #: ../../chapters/getting_started.rst:174
 #: ../../chapters/getting_started.rst:190
@@ -586,13 +583,10 @@ msgstr "*Pomožni 1–4*: drugi zvočni viri"
 #: ../../chapters/getting_started.rst:192
 msgid ""
 "*Record/Broadcast*: When this is configured, Mixxx will record and broadcast"
-" from this audio interface input instead of the internal master mix. If you "
-"have a microphone plugged into the mixer, do not configure the Microphone "
-"1-4 inputs."
+" from this audio interface input instead of the internal main output mix. If"
+" you have a microphone plugged into the mixer, do not configure the "
+"Microphone 1-4 inputs."
 msgstr ""
-"*Snemanje/prenos*: Če je to nastavljeno, bo Mixxx snemal in prenašal iz tega"
-" vhoda zvočnega vmesnika in ne iz notranjega glavnega mešanja. Če imate na "
-"mešalko priključen mikrofon, ne nastavite vhodov Mikrofon 1–4."
 
 #: ../../chapters/getting_started.rst:197
 msgid "**Either internal or external mixing**:"

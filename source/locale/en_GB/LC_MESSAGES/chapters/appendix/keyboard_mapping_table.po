@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Language-Team: English (United Kingdom) (https://www.transifex.com/mixxx-dj-software/teams/7734/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -360,7 +360,7 @@ msgid ":kbd:`L`"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:43
-#: ../../chapters/appendix/keyboard_mapping_table.rst:145
+#: ../../chapters/appendix/keyboard_mapping_table.rst:149
 msgid "Seek Backwards"
 msgstr ""
 
@@ -385,7 +385,7 @@ msgid ":kbd:`Shift` + :kbd:`J`"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:47
-#: ../../chapters/appendix/keyboard_mapping_table.rst:147
+#: ../../chapters/appendix/keyboard_mapping_table.rst:151
 msgid "Seek Forwards"
 msgstr ""
 
@@ -826,78 +826,94 @@ msgid ":kbd:`Ctrl` + :kbd:`Back`"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
-msgid "Exit search and leave focus"
+msgid "Focus tracks table"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
-msgid ":kbd:`ESC`"
+msgid ":kbd:`Escape`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:137
+msgid "Open track properties dialog"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:137
+msgid ":kbd:`Ctrl` + :kbd:`Return`"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:139
+msgid "Remove or hide selected tracks"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:139
+msgid "Windows/Linux: :kbd:`Delete`  macOS: :kbd:`Command` + :kbd:`Backspace`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:143
 msgid "**Preview Deck**"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+#: ../../chapters/appendix/keyboard_mapping_table.rst:145
 msgid "Load Selected Track And Play"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+#: ../../chapters/appendix/keyboard_mapping_table.rst:145
 msgid ":kbd:`Alt` + :kbd:`Return`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:143
+#: ../../chapters/appendix/keyboard_mapping_table.rst:147
 msgid "Start/Stop"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:143
+#: ../../chapters/appendix/keyboard_mapping_table.rst:147
 msgid ":kbd:`Return`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:145
+#: ../../chapters/appendix/keyboard_mapping_table.rst:149
 msgid ":kbd:`Alt` + :kbd:`←`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:147
+#: ../../chapters/appendix/keyboard_mapping_table.rst:151
 msgid ":kbd:`Alt` + :kbd:`→`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:151
+#: ../../chapters/appendix/keyboard_mapping_table.rst:155
 msgid "**Auto DJ**"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:153
+#: ../../chapters/appendix/keyboard_mapping_table.rst:157
 msgid "Shuffle Auto DJ playlist"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:153
+#: ../../chapters/appendix/keyboard_mapping_table.rst:157
 msgid ":kbd:`Shift` + :kbd:`F9`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:155
+#: ../../chapters/appendix/keyboard_mapping_table.rst:159
 msgid "Skip next track in Auto DJ"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:155
+#: ../../chapters/appendix/keyboard_mapping_table.rst:159
 msgid ":kbd:`Shift` + :kbd:`F10`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:157
+#: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid "Fade to next track in Auto DJ"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:157
+#: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid ":kbd:`Shift` + :kbd:`F11`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+#: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid "Toggle Auto DJ on/Off"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+#: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid ":kbd:`Shift` + :kbd:`F12`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:162
+#: ../../chapters/appendix/keyboard_mapping_table.rst:166
 msgid ""
 "Mixxx allows you to customize the keyboard shortcuts. For more information, "
 "and to download a keyboard mapping image, go to :ref:`control-keyboard`."

@@ -1,0 +1,453 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:41+0000\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/mixxx-dj-software/teams/7664/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/american_audio_vms4.rst:2
+msgid "American Audio VMS4/4.1"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:4
+msgid ""
+"The original VMS4 has problems with sound quality. The microphone input "
+"impedance is off and the output volume is low. The VMS4.1 is the same "
+"controller, except that those hardware issues have been fixed. The Traktor "
+"edition has different labels on some buttons & knobs, but it’s otherwise the"
+" same hardware as the VMS4.1."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:10
+msgid "`VMS4 <http://www.adj.com/vms4>`__"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:11
+msgid "`VMS4.1 <http://www.adj.com/vms4-1>`__"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:12
+msgid "`VMS4.1 Traktor edition <http://www.adj.com/vms4-1-traktor>`__"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:17
+msgid "Setup"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:20
+msgid ""
+"Mixxx expects the VMS4 to be set to “Post EQ” mode for best sound quality. "
+"Do this by holding down the Headphone Cue button on Midilog 4 while powering"
+" on the unit. You only need to do this once. (Each time you do, it changes "
+"the mode back and forth.) Consult the `user manual "
+"<http://intranet.americandj.com/ItemRelatedFiles/8347/vms4.pdf>`__ for more "
+"information."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:27
+msgid ""
+"To check the status of this in Linux, at a console, issue the command "
+"``lsusb -v|grep 'iSerial\\|iProduct'`` and look at the serial number under "
+"the VMS4 device per the instructions in the user manual. As of this writing,"
+" the leading digit should be **1**."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:32
+msgid "Make sure the VMS4 is off"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:33
+msgid "Slide the switch on the front of the VMS4 to “8 OUT”"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:35
+msgid ""
+"If you’re using vinyl control or aux devices (or Mixxx 1.11 & below) set the"
+" switch to “4 OUT” for 2-deck output and 2-deck input"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:39
+msgid "Turn on the unit (and plug in the USB cable if you haven’t yet)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:40
+msgid "Start Mixxx"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:41
+msgid "Open Preferences"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:42
+msgid "Click Sound Hardware. In the right pane:"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:44
+msgid "Set the sample rate to **44100Hz**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:45
+msgid "Set the Main output to **None**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:46
+msgid "Set the Headphone output to **None**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:47
+msgid ""
+"Set the Deck 1 output to the **VMS4** device and **Channel 3-4** (may show "
+"as “USB Audio Device” on Windows)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:49
+msgid "Set the Deck 2 output to the **VMS4** device and **Channel 5-6**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:50
+msgid "Set the Deck 3 output to the **VMS4** device and **Channel 1-2**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:51
+msgid "Set the Deck 4 output to the **VMS4** device and **Channel 7-8**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:53
+msgid ""
+"If you’re using 4 OUT mode, (for vinyl control/aux input or Mixxx 1.11 & "
+"below):"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:56
+msgid "Set the Deck 1 output to the **VMS4** device and **Channel 1-2**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:58
+msgid "Set the Deck 2 output to the **VMS4** device and **Channel 3-4**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:60
+msgid ""
+"For vinyl control, set the Vinyl Control 1 input to the **VMS4** device and "
+"**Channel 1-2**, connect a turntable to Midilog 1, and set it to Analog."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:63
+msgid ""
+"For vinyl control, set the Vinyl Control 2 input to the **VMS4** device and "
+"**Channel 3-4**, connect a turntable to Midilog 4, and set it to Analog."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:67
+msgid ""
+"Plug your headphones into the VMS4’s jack on the front. You will use the "
+"VMS4’s CUE buttons and knobs for headphone control."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:69
+msgid "Still in the Preferences, expand “Controllers” on the left"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:70
+msgid ""
+"Select the “VMS4 MIDI” device (may show as “USB Audio Device” on Windows)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:73
+msgid ""
+"Do not choose the the HID one. That’s for the little mouse pad and button "
+"area."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:76
+msgid "Click the Enable checkbox in the right pane"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:77
+msgid ""
+"Click the drop-down and choose the :guilabel:`American Audio VMS4` preset"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:78
+msgid ""
+"Click OK and the controller should light up. (In 1.9.x, the controller will "
+"light up when you load a track to a deck.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:80
+msgid "Continue reading below to know how everything is mapped"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:83
+msgid "Direct deck output implications"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:85
+msgid ""
+"This setup uses direct deck outputs because mixing takes place in the VMS4 "
+"hardware. The down side to this is that you won’t be able to use Mixxx "
+"features that play to Main or Cue buses like the Preview Deck or Samplers. "
+"Using these features with a hardware + MIDI mixer like the VMS4 is not "
+"really feasible unless you used a separate sound interface or controlled "
+"Mixxx’s internal mixer another way."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:93
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:95
+msgid "This guide explains how the VMS4 is mapped by default in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:97
+msgid ""
+"**Easy customization:** We have provided the following customization "
+"variables at the top of the script you can set to your liking:"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:100
+msgid ""
+"**RateRanges**: Set the pitch slider range each time you toggle it with "
+"Shift+Sync."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:103
+msgid ""
+"Just open the ``midi/American-Audio-VMS4-scripts.js`` file in your favorite "
+"text editor (Wordpad works too) and you’ll see these variables right near "
+"the top. Edit & save, then restart Mixxx and enjoy."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:108
+msgid "Deck controls"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:111
+msgid ""
+"There are a number of different face plates in the wild so these images and "
+"control descriptions may not exactly match yours. The locations of the "
+"controls are the key things to pay attention to."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:115
+msgid ""
+"*The controls are the same on both sides of the controller. The left side "
+"controls Deck 1 and the right side controls Deck 2.*"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:118
+msgid ""
+"**Sync/Range** button - Changes the BPM of this deck to match that of the "
+"other. When shifted, toggles the pitch slider range. (See top of page to "
+"customize.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:121
+msgid ""
+"**Hot cue buttons** - Press to set or recall a hot cue. The buttons light up"
+" red when one is set. Hold Shift and press to access hot cues 5-8. (The "
+"buttons light up blue for these.) Hold Vinyl and press to delete the cue. "
+"(Note: there is a bug in some firmware versions that causes hot cues 5 and 6"
+" to be deleted simultaneously.) the cue."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:128
+msgid "**Pitch Bend +/-**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:129
+msgid ""
+"Momentarily speeds up or slows down the deck while the button is held down."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:131
+msgid ""
+"Hold Shift and press to adjust the key (pitch) of the song (independent of "
+"the tempo.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:132
+msgid "**Loop In** - Set the in point of a loop"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:133
+msgid "**Loop Out** - Set the out point of a loop"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:134
+msgid ""
+"**Reloop** - Toggle a previously-set loop. Lights red when a loop is active."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:136
+msgid ""
+"**Loop/Smart** Start a 4-beat loop. Hold Shift and press to toggle "
+"quantization (locking to the nearest beat.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:138
+msgid ""
+"**Vinyl/Keylock** - *(Does nothing on its own when un-shifted at the "
+"moment.)* When shifted, toggles key lock."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:140
+msgid ""
+"**<< Search/ /2** - Fast-rewind Hold Shift and press to halve the current "
+"loop length"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:142
+msgid ""
+"**Search >>/ \\*2** - Fast-forward Hold Shift and press to double the "
+"current loop length"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:144
+msgid ""
+"**Touch strip** Scroll through the respective Library panes. (Left for the "
+"folders/crates list, right for the track list.) Hold Shift and touch: -  to "
+"affect the Dry/Wet knob on the respective effect unit while the deck is "
+"playing -  for Needle drop - search through the track while the deck is "
+"stopped"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:151
+msgid ""
+"**Wheel** Move the wheel while touching the top to scratch the current track"
+" like a vinyl record Move the wheel without touching the top (so on the "
+"sides) to perform a temporary pitch bend"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:154
+msgid ""
+"**CUE** - Operates according to the Cue mode set in Mixxx's preferences Hold"
+" Shift and press to play immediately from the cue point (known as Cue+Play "
+"or CUP.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:156
+msgid ""
+"**Play** - Press to toggle deck playback Hold Shift and press to set this "
+"deck as the leader for syncing with another"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:158
+msgid "**Pause** - Stops the deck playback"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:161
+msgid "Effects section"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:163
+msgid ""
+"The left side controls effect unit 1 and the right side controls effect unit"
+" 2."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:166
+msgid "**Select knob**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:168
+msgid "Rotate to choose the effect chain preset"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:169
+msgid "Press to toggle whether the effect unit is on or not"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:171
+msgid "**Control knob**"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:173
+msgid "Adjusts the wet/dry ratio"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:174
+msgid ""
+"When Parameter is on, this becomes the Wonder Knob, adjusting all effect "
+"parameters at once"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:177
+msgid ""
+"**On/Off** - Toggles the effect for the deck matching the effect unit number"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:179
+msgid "**Parameter** - Toggles what the above Control knob adjusts"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:182
+msgid "Sample section"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:184
+msgid ""
+"The left side of the controller controls Sampler 1, and the right, Sampler "
+"2."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:187
+msgid ""
+"**Select knob** Rotate to move the highlight in the library. Press to load "
+"the currently highlighted track into the sampler. Hold Shift and press to "
+"eject the current track from the sampler (when the sampler is not playing.)"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:192
+msgid "**Volume knob** - Adjusts the volume of the sampler"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:193
+msgid ""
+"**Play** Press to play the sample from the beginning. Press while playing "
+"for a stutter-play effect (play again from the beginning.) Hold Shift and "
+"press to stop playing."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:197
+msgid "**Rec** - *Currently does nothing*"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:200
+msgid "Mixer controls"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:202
+msgid ""
+"The volume sliders don’t control the ones in Mixxx because direct Deck "
+"outputs are affected by Mixxx’s internal ones."
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:205
+msgid "**Midilog 1:** This strip controls Deck 3/C"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:206
+msgid "**Midilog 2:** This strip controls Deck 1/A"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:207
+msgid "**Midilog 3:** This strip controls Deck 2/B"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms4.rst:208
+msgid "**Midilog 4:** This strip controls Deck 4/D"
+msgstr ""

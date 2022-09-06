@@ -1,0 +1,464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/mixxx-dj-software/teams/7664/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:2
+msgid "Native Instruments Traktor Kontrol S4 MK2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:4
+msgid ""
+"The Kontrol S4 MK2 is a 4 deck all-in-one controller with a sturdy build "
+"quality and integrated sound card. The MK2 has substantial improvements over"
+" the S4 MK1, including large multicolor buttons. The MK1 is not supported "
+"and cannot be supported because it uses a proprietary communication protocol"
+" exclusive to Traktor. The MK2 uses the standard :term:`HID` protocol (also "
+"used by keyboards & mice) to send and receive signals from a computer, so it"
+" can work with Mixxx. The easiest way to tell the MK1 apart from the MK2 is "
+"the appearance of the jog wheel. On the MK1, the top of the jog wheel is "
+"black plastic; on the MK2, the top of the jog wheel is shiny aluminum."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:11
+msgid ""
+"The Kontrol S4 Mk2 can run from :term:`USB` power. Using the separate power "
+"supply increases the brightness of the LEDs, which is helpful for using it "
+"in daylight, and increases the volume of the headphone output."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:14
+msgid ""
+"`Manufacturer’s product page <https://www.native-"
+"instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:19
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:22
+msgid "Controller"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:24
+msgid ""
+"The Kontrol S4 MK2 is a USB class compliant audio, :term:`HID` and "
+":term:`MIDI` device, so it is compatible with Mixxx without any proprietary "
+"drivers on GNU/Linux and MacOS. On Windows, it is recommended to install the"
+" `driver from Native Instruments <https://www.native-"
+"instruments.com/en/support/downloads/drivers-other-files/>`__ and select the"
+" :ref:`ASIO sound API in the preferences <preferences-sound-api>`."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:27
+msgid ""
+"With the S4 plugged in, a MIDI device is listed as an available controller "
+"in Mixxx’s Preferences. That is the MIDI input/output ports on the back of "
+"the S4 for connecting external MIDI gear; no mapping for the S4 will appear "
+"in the menu for the MIDI device. The controller uses HID for the knobs, "
+"buttons, and other components on the device, so the mapping can only be "
+"loaded when you select the HID device on the left side of Mixxx’s "
+"Preferences."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:32
+msgid "Timecode vinyl"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:34
+msgid ""
+"The phono inputs on the S4 can be used with turntables for timecode vinyl "
+"control of Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:37
+msgid "Read the :ref:`Vinyl Control section <vinyl-control>` for details."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:40
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:42
+msgid ""
+"Push and hold the :hwlabel:`SYNC` button to “lock” sync on for all decks you"
+" want to remain in sync. Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable "
+":ref:`Sync Lock <sync-lock>` for details."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:45
+msgid ""
+"Mixxx does not have remix decks, so the four remix slot buttons control the "
+"samplers. There are some more bonus actions that can be accessed by holding "
+":hwlabel:`SHIFT` and pressing certain buttons."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:49
+msgid "Mixer"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:52
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:73
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:91
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:52
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:73
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:91
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:54
+msgid ":hwlabel:`FILTER` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:54
+msgid ""
+"Controls QuickEffect superknob. This controls the Filter effect by default, "
+"but a different effect can be chosen in the Equalizer section of Mixxs’s "
+"Preferences."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:55
+msgid ":hwlabel:`SNAP`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:55
+msgid "Toggles library fullscreen"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:56
+msgid ":hwlabel:`LOOP RECORD`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:56
+msgid "Toggles recording"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:57
+msgid ":hwlabel:`LOOP RECORDER PLAY`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:57
+msgid ""
+"Hold down and press :hwlabel:`FLUX` button on a deck to enable autoslip mode"
+" on that deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:58
+msgid ":hwlabel:`SHIFT` + :hwlabel:`Gain`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:58
+msgid "Up/down will move the beatgrid"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:59
+msgid ":hwlabel:`LOOP RECORDER PLAY` + :hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:59
+msgid ""
+"Increase / decrease the BPM of the track by 0.5. Press the encoder to round "
+"the track the nearest whole BPM. Best done to fix tracks with the wrong BPM "
+"with the pitch fader at 0."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:60
+msgid ":hwlabel:`BROWSE` encoder"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:60
+msgid ""
+"Up/down will browse in the focused library pane. Pressing acts like a double"
+" click on the mouse."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:63
+msgid ""
+":hwlabel:`GAIN`, effects routing, equalizer high/mid/low, and :hwlabel:`CUE`"
+" (headphones) behave as labeled."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:65
+msgid ""
+"The Master Volume knob on the S4 controls the volume of the S4’s main output"
+" in hardware, so it does not affect the software main gain knob in Mixxx. "
+"Peak display is only generated from software, however. So if you see or hear"
+" clipping, lower the gain of the playing decks; adjusting the main volume "
+"knob on the S4 will not help."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:70
+msgid "Decks"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:75
+msgid ":hwlabel:`LOAD`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:75
+msgid "Load track selected in library to the deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:76
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOAD`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:76
+msgid "Eject track"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:77
+msgid "Small buttons with preview icons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:77
+msgid ""
+"Play a sampler from its cue point. If no track is loaded in the sampler, the"
+" track selected in the library will be loaded."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:78
+msgid ":hwlabel:`SHIFT` + small buttons with preview icons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:78
+msgid ""
+"If sampler is playing, stop it. If sampler is not playing, the loaded track "
+"is ejected from the sampler."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:79
+msgid ":hwlabel:`1-4` numbered buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:79
+msgid "Set/activate :term:`hotcue`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:80
+msgid ":hwlabel:`SHIFT` + :hwlabel:`1-4` numbered buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:80
+msgid "Clear hotcue"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:81
+msgid ":hwlabel:`SHIFT` + Wheel nudge"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:81
+msgid "Fast search through track when not playing"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:82
+msgid ":hwlabel:`FLUX` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:82
+msgid ""
+"Enable slip mode (if shift is held down this decreases the range of the BPM "
+"slider, if :hwlabel:`LOOP RECORDER PLAY` is held down enter autoslip mode)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:83
+msgid ":hwlabel:`RESET` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:83
+msgid "Reset key (if shift is held down increase the range of the BPM slider"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:88
+msgid "Looping"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:93
+msgid "Right Encoder (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:93
+msgid ""
+"Double/halve loop size. The loop size is shown on the controller. A dot on "
+"the right indicates a fractional loop size. Two dots indicates a loop size "
+"larger than 99 beats."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:94
+msgid "Right Encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:94
+msgid "Activate loop of set size from current position"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:95
+msgid ":hwlabel:`SHIFT` + Right Encoder (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:95
+msgid "Adjust key"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:96
+msgid ":hwlabel:`SHIFT` + Right Encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:96
+msgid "Reset key"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:97
+msgid "Left Encoder (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:97
+msgid ""
+"Beatjump forward/backward by beatjump size (shown on screen but not on "
+"controller), or move the loop by beatjump size if there is a loop enabled"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:98
+msgid "Left Encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:98
+msgid ""
+"Re-enable a loop that has been set previously. Pressing this before a loop "
+"will keep playing until the loop is entered."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:99
+msgid ":hwlabel:`SHIFT` + Left Encoder (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:99
+msgid "Adjust beatjump size"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:100
+msgid ":hwlabel:`SHIFT` + Left Encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:100
+msgid ""
+"Jump to loop in point, activate loop, and stop playback. This is helpful for"
+" preparing to mix a track in with a loop."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:101
+msgid ":hwlabel:`IN` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:101
+msgid ""
+"Set loop in point manually. Hold pressed while moving the jog wheel to "
+"finely adjust the loop in point."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:102
+msgid ":hwlabel:`OUT` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:102
+msgid ""
+"Set loop out point manually. Hold pressed while moving the jog wheel to "
+"finely adjust the loop out point."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:106
+msgid "Effects"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:108
+msgid ""
+"The knob on the left of each effect unit controls the mix (dry/wet) knob for"
+" all 3 effects in the unit. The other knobs control the metaknobs of the "
+"effects. The buttons below the metaknobs control the effect enable buttons. "
+"When pressed with shift, they cycle through the available effects. The "
+"button below the mix knob toggles whether the effect parameters are showing "
+"on screen. This will be expanded in a future update to implement the "
+"`Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-"
+"Effects-Mapping>`__."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:115
+msgid ""
+"The buttons at the top of each mixer column control which decks are routed "
+"to which effects units."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:118
+msgid "Mapping extras"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:119
+msgid ""
+"Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the "
+":hwlabel:`FLUX` on a deck will enable autoslip mode on that deck. Autoslip "
+"turns on slip mode automatically before doing certain actions and turns it "
+"off after the actions is finished. It works for beat loops, hot cues, and "
+"scratching (warning, can have weird effects when scratching)."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:123
+msgid "Mapping options"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:125
+msgid ""
+"If you choose, you can edit the controller script and change the Remix Slot "
+"buttons to perform loop rolls instead. Also by default, :hwlabel:`SHIFT` + "
+":hwlabel:`CUE` rewinds the track to the beginning but you can change this to"
+" a Reverse Roll (or “Censor”) effect instead."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:128
+msgid ""
+"Making these changes is still a little awkward and we will be making "
+"controller preferences easier to change in the future. For now you’ll have "
+"to make a small change to the mapping script file. Don’t worry, the actual "
+"edit only involves replacing a single word in a text file."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:131
+msgid "Open Mixxx Preferences and select the Kontrol S4 in the side list."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:132
+msgid "Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:133
+msgid "Click :guilabel:`Open Selected File`."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:134
+msgid ""
+"Either the file should open in an editor, or you should see a file browser "
+"window with that file selected. If you see a file browser, right click the "
+"file and select an option to edit it."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:135
+msgid ""
+"At the top of the file will be short instructions explaining what to do."
+msgstr ""

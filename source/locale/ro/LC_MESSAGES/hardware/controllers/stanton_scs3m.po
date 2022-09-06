@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Romanian (https://www.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgid "The left slider adjusts the Pre/Main headphone mix"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:48
-msgid "The right slider adjusts Master Balance"
+msgid "The right slider adjusts main balance"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:49
@@ -158,11 +158,11 @@ msgid "Holding Deck causes these to adjust the pre-fader gain for the deck"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:81
-msgid "The left slider adjusts the Headphone volume"
+msgid "The left slider adjusts the headphone volume"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:82
-msgid "The right slider adjusts Master volume"
+msgid "The right slider adjusts main volume"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:85
@@ -214,7 +214,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_scs3m.rst:107
 msgid ""
 "These normally show the pre-fader signal for the respective deck. When "
-"holding down the Master button, they show the stereo master output meters: "
+"holding down the Master button, they show the stereo main output meters: "
 "left side for the left channel, right side for the right channel."
 msgstr ""
 
@@ -294,7 +294,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_scs3m.rst:156
 msgid ""
 "When holding the central MASTER button, the left side controls the headphone"
-" channel, while the right side controls the master channel."
+" channel, while the right side controls the main channel."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:159
@@ -310,9 +310,9 @@ msgid "Left slider: head gain"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:162
-msgid "Right slider: master gain"
+msgid "Right slider: main gain"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3m.rst:163
-msgid "Buttons: The buttons assign effects to head and master"
+msgid "Buttons: The buttons assign effects to head and main output"
 msgstr ""

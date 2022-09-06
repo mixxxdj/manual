@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "`Forum thread <https://mixxx.discourse.group/t/denon-mc4000-mapping/15311
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:14
-msgid "The microphone and auxiliary inputs are mixed with the master output in hardware. They are not available to the computer through the MC4000’s sound card, so this controller’s sound card is not suitable for broadcasting or recording the inputs. You could use the controller with a separate USB sound card that has a microphone input for that purpose."
+msgid "The microphone and auxiliary inputs are mixed with the main output in hardware. They are not available to the computer through the MC4000’s sound card, so this controller’s sound card is not suitable for broadcasting or recording the inputs. You could use the controller with a separate USB sound card that has a microphone input for that purpose."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:23
@@ -181,7 +181,7 @@ msgid "**Level Meters:** These LEDs display the level of the audio signal depend
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:103
-msgid "**Mic Volume:** Adjust the input gain of the microphone. This adjusts the hardware microphone preamplifier, not Mixxx’s mic gain. The microphone input is not available to the computer through the MC4000’s sound card; it is mixed with the master output in hardware."
+msgid "**Mic Volume:** Adjust the input gain of the microphone. This adjusts the hardware microphone preamplifier, not Mixxx’s mic gain. The microphone input is not available to the computer through the MC4000’s sound card; it is mixed with the main output in hardware."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:106
@@ -193,7 +193,7 @@ msgid "**Mic Talk Over / Post:** Toggle microphone talkover, which automatically
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:110
-msgid "**Master:** Adjust the master output level of the sound card. This does not affect the master gain in Mixxx."
+msgid "**Master:** Adjust the main output level of the sound card. This does not affect the main gain in Mixxx."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:111
