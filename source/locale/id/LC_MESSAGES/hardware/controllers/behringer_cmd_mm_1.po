@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/mixxx-dj-software/teams/7734/id/)\n"
 "MIME-Version: 1.0\n"
@@ -117,8 +117,8 @@ msgstr ""
 
 #: ../../hardware/controllers/behringer_cmd_mm_1.rst:63
 msgid ""
-"The top left knobs control the Master balance and Master gain. The top right"
-" knobs control the headphone gain and cue mix (PFL/master mix in Headphones "
+"The top left knobs control the main balance and main gain. The top right "
+"knobs control the headphone gain and cue mix (PFL/main mix in Headphones "
 "output)."
 msgstr ""
 

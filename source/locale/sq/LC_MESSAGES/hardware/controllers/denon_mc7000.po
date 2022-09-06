@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: Albanian (https://www.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -352,11 +352,11 @@ msgid "13"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
-msgid "Master Level Meters"
+msgid "Main Level Meters"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
-msgid "These LEDs show the Master Audio signal."
+msgid "These LEDs show the Main Audio signal."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -368,7 +368,7 @@ msgid ":hwlabel:`MASTER LEVEL`"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
-msgid "Turn to adjust the volume level of the master outputs."
+msgid "Turn to adjust the volume level of the main outputs."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -406,7 +406,7 @@ msgstr ""
 #: ../../hardware/controllers/denon_mc7000.rst:1
 msgid ""
 "Adjusts the software’s audio output to the headphones, mixing between the "
-"cue output and the master mix output."
+"cue output and the main mix output."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -421,9 +421,9 @@ msgstr ""
 msgid ""
 "Press to switch Headphone 'split' mode. When this switch is lit, the "
 "headphone audio will be 'split' such that all channels sent to cue channel "
-"are summed to mono and sent to the left headphone channel and the master mix"
-" is summed to mono and sent to the right channel. When the switch is unlit, "
-"the cue channel and master mix will be 'blended' together."
+"are summed to mono and sent to the left headphone channel and the main mix "
+"is summed to mono and sent to the right channel. When the switch is unlit, "
+"the cue channel and main mix will be 'blended' together."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -442,7 +442,7 @@ msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:96
 msgid ""
-"The Input source selection, Master Level Meters, :hwlabel:`USB1 / USB2`, "
+"The Input source selection, Main Level Meters, :hwlabel:`USB1 / USB2`, "
 ":hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES LEVEL`, "
 ":hwlabel:`PHONES MIX` and :hwlabel:`SPLIT` are handled by the controller. "
 "The status of Mixxx will not be changed."
@@ -516,7 +516,7 @@ msgstr ""
 #: ../../hardware/controllers/denon_mc7000.rst:1
 msgid ""
 "Press to use the 'talkover' feature, which automatically reduces the volume "
-"level of the master mix when you speak into the microphones."
+"level of the main mix when you speak into the microphones."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -618,8 +618,8 @@ msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
 msgid ""
-"Press to activate effects for the Master output. This can be overlapped with"
-" Channel Effects."
+"Press to activate effects for the Main output. This can be overlapped with "
+"Channel Effects."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:1
@@ -1493,8 +1493,8 @@ msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:327
 msgid ""
-"The Master Volume Meter is not correlated to Mixxx GUI as the controller "
-"handles that in Hardware."
+"The :hwlabel:`MASTER LEVEL` meter is not correlated to Mixxx GUI as the "
+"controller handles that in Hardware."
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc7000.rst:329
