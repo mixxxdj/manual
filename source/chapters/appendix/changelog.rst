@@ -17,7 +17,9 @@ Changelog
 
 * Controller Preferences: Fix some usability issues `#10821 <https://github.com/mixxxdj/mixxx/pull/10821>`_
 * Track Properties: show 'date added' as local time `#4838 <https://github.com/mixxxdj/mixxx/pull/4838>`_ `lp:1980658 <https://bugs.launchpad.net/mixxx/+bug/1980658>`_
-* Numark DJ2GO2 Touch: Fix  sliders and knobs `#4835 <https://github.com/mixxxdj/mixxx/pull/4835>`_ `lp:1948596 <https://bugs.launchpad.net/mixxx/+bug/1948596>`_
+* Numark DJ2GO2: Fix  sliders and knobs `#4835 <https://github.com/mixxxdj/mixxx/pull/4835>`_ `lp:1948596 <https://bugs.launchpad.net/mixxx/+bug/1948596>`_
+* Numark DJ2Go2: support HotCue clear with pad `#10841 <https://github.com/mixxxdj/mixxx/pull/10841>`_
+* Numark DJ2Go2: Fix inverted tempo fader `#10852 <https://github.com/mixxxdj/mixxx/pull/10852>`_ `#10586 <https://github.com/mixxxdj/mixxx/issues/10586>`_
 * Potmeters: Add support for arbitrary maximums in 7-/14-bit handlers from controller scripts `#4495 <https://github.com/mixxxdj/mixxx/pull/4495>`_
 * Shade: Fix library sidebar splitter glitch `#4828 <https://github.com/mixxxdj/mixxx/pull/4828>`_ `lp:1979823 <https://bugs.launchpad.net/mixxx/+bug/1979823>`_
 * MacOS builds: Perform ad-hoc signing of macOS bundle in Pull request and personal repositories `#4774 <https://github.com/mixxxdj/mixxx/pull/4774>`_
@@ -27,6 +29,15 @@ Changelog
 * EQ preferences: properly restore 'One EQ for all decks' setting `#4886 <https://github.com/mixxxdj/mixxx/pull/4886>`_
 * MC7000: Fix off-by-one indexing in the controller script `#4902 <https://github.com/mixxxdj/mixxx/pull/4902>`_
 * Cover Art: Fix picking wrong cover file, when track file name contains extra dots `#4909 <https://github.com/mixxxdj/mixxx/pull/4909>`_
+* Respect MusicBrainz rate limits `#10874 <https://github.com/mixxxdj/mixxx/pull/10874>`_ `#10795 <https://github.com/mixxxdj/mixxx/issues/10795>`_
+
+Packaging
+^^^^^^^^^
+
+
+* Fix compatibility with FFmpeg 5.1 and require FFmpeg v4.1.9 `#10862 <https://github.com/mixxxdj/mixxx/pull/10862>`_ `#10866 <https://github.com/mixxxdj/mixxx/pull/10866>`_
+* Fix GCC 12.2.0 compatibility `#10863 <https://github.com/mixxxdj/mixxx/pull/10863>`_
+* Improve CMake 3.24 compatibility `#10864 <https://github.com/mixxxdj/mixxx/pull/10864>`_
 
 .. _v2-3-3:
 
