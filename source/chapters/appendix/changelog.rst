@@ -161,6 +161,8 @@ Music Library
   `#4837 <https://github.com/mixxxdj/mixxx/pull/4837>`_
   `#4864 <https://github.com/mixxxdj/mixxx/pull/4864>`_
   `#4893 <https://github.com/mixxxdj/mixxx/pull/4893>`_
+  `#10861 <https://github.com/mixxxdj/mixxx/pull/10861>`_
+  `#10871 <https://github.com/mixxxdj/mixxx/pull/10871>`_
 
 Sync
 ^^^^
@@ -315,6 +317,8 @@ Audio Engine
   `#4589 <https://github.com/mixxxdj/mixxx/pull/4589>`_
   `#1717 <https://github.com/mixxxdj/mixxx/pull/1717>`_
   `#4852 <https://github.com/mixxxdj/mixxx/pull/4852>`_
+  `#10835 <https://github.com/mixxxdj/mixxx/pull/10835>`_
+  `#10843 <https://github.com/mixxxdj/mixxx/pull/10843>`_
 
 Controllers
 ^^^^^^^^^^^
@@ -466,6 +470,7 @@ Effects
   `lp:1299035 <https://bugs.launchpad.net/mixxx/+bug/1299035>`_
   `#4810 <https://github.com/mixxxdj/mixxx/pull/4810>`_
   `#4901 <https://github.com/mixxxdj/mixxx/pull/4901>`_
+  `#10858 <https://github.com/mixxxdj/mixxx/pull/10858>`_
 * Use '---' instead of 'None' for empty slots to spot them easier `#4469 <https://github.com/mixxxdj/mixxx/pull/4469>`_
 * EngineFilterDelay: clamp wrong delay values `#4869 <https://github.com/mixxxdj/mixxx/pull/4869>`_
 * Effect refactoring: Effect chain saving/loading, parameter hiding/rearrangement, effect preferences overhaul
@@ -500,6 +505,7 @@ Effects
   `#4884 <https://github.com/mixxxdj/mixxx/pull/4884>`_ `lp:1983789 <https://bugs.launchpad.net/mixxx/+bug/1983789>`_ `lp1983764 <https://bugs.launchpad.net/mixxx/+bug/1983764>`_
   `#4899 <https://github.com/mixxxdj/mixxx/pull/4899>`_
   `#8817 <https://github.com/mixxxdj/mixxx/pull/8817>`_
+  `#10868 <https://github.com/mixxxdj/mixxx/pull/10868>`_
 
 Other
 ^^^^^
@@ -525,6 +531,7 @@ Other
   `#4514 <https://github.com/mixxxdj/mixxx/pull/4514>`_
   `#3550 <https://github.com/mixxxdj/mixxx/pull/3550>`_
   `#4861 <https://github.com/mixxxdj/mixxx/pull/4861>`_
+  `#10855 <https://github.com/mixxxdj/mixxx/pull/10855>`_
 * Improve GitHub workflow continuous integration
   `#2937 <https://github.com/mixxxdj/mixxx/pull/2937>`_
   `#3041 <https://github.com/mixxxdj/mixxx/pull/3041>`_
@@ -597,6 +604,7 @@ Other
   `#4338 <https://github.com/mixxxdj/mixxx/pull/4338>`_
   `#4709 <https://github.com/mixxxdj/mixxx/pull/4709>`_
   `#4717 <https://github.com/mixxxdj/mixxx/pull/4717>`_
+  `#10872 <https://github.com/mixxxdj/mixxx/pull/10872>`_
 * Devendor libraries from the mixxx lib directory
   `#4201 <https://github.com/mixxxdj/mixxx/pull/4201>`_
   `#4202 <https://github.com/mixxxdj/mixxx/pull/4202>`_
@@ -737,6 +745,9 @@ Other
 * Preferences > Effects: Fix Tab key navigation / UX `#4702 <https://github.com/mixxxdj/mixxx/pull/4702>`_ `lp:1948535 <https://bugs.launchpad.net/mixxx/+bug/1948535>`_
 * Switch to C++20 `#4832 <https://github.com/mixxxdj/mixxx/pull/4832>`_ `#4803 <https://github.com/mixxxdj/mixxx/pull/4803>`_
 * Windows builds: Sign binary and installer with timestamp and sha256 `#4824 <https://github.com/mixxxdj/mixxx/pull/4824>`_ `#4825 <https://github.com/mixxxdj/mixxx/pull/4825>`_
+* Replace Launchpad bugs by GitHub issues
+  `#10850 <https://github.com/mixxxdj/mixxx/pull/10850>`_
+  `#10865 <https://github.com/mixxxdj/mixxx/pull/10865>`_
 * Misc. refactorings
   `#3154 <https://github.com/mixxxdj/mixxx/pull/3154>`_
   `#2870 <https://github.com/mixxxdj/mixxx/pull/2870>`_
@@ -852,7 +863,7 @@ Other
   `#4767 <https://github.com/mixxxdj/mixxx/pull/4767>`_
   `#4797 <https://github.com/mixxxdj/mixxx/pull/4797>`_
   `#4782 <https://github.com/mixxxdj/mixxx/pull/4782>`_
-  `#4780 <https://github.com/mixxxdj/mixxx/pull/4800>`_
+  `#4800 <https://github.com/mixxxdj/mixxx/pull/4800>`_
   `#4791 <https://github.com/mixxxdj/mixxx/pull/4791>`_
   `#4848 <https://github.com/mixxxdj/mixxx/pull/4848>`_
   `#4856 <https://github.com/mixxxdj/mixxx/pull/4856>`_
@@ -862,6 +873,7 @@ Other
   `#4908 <https://github.com/mixxxdj/mixxx/pull/4908>`_
   `#4903 <https://github.com/mixxxdj/mixxx/pull/4903>`_
   `#8818 <https://github.com/mixxxdj/mixxx/pull/8818>`_
+  `#4907 <https://github.com/mixxxdj/mixxx/pull/4907>`_
 
 .. _v2-3-4:
 
