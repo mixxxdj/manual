@@ -22,14 +22,13 @@ As a non-developer
 * `Make MIDI mappings
   <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_ for
   your controller
-* `Report bugs <https://bugs.launchpad.net/mixxx>`_
+* `Report bugs <https://github.com/mixxxdj/mixxx/issues/new/choose>`_
 * Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the
   information on it is up to date.
 * Translate Mixxx using `Transifex
   <https://www.transifex.com/mixxx-dj-software/public/>`_
 * Answer questions on the `Troubleshooting Forum
-  <https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers page
-  <https://answers.launchpad.net/mixxx>`_
+  <https://mixxx.org/forums/viewforum.php?f=3>`_
 * Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog
   about our new releases when they come out. Any exposure on the web and in
   print helps our project grow, and is much appreciated.
@@ -48,18 +47,15 @@ As a software developer
 * Register an account on our development platform `Github
   <https://github.com/mixxxdj>`_ and fork our code.
   See `Using Git for Mixxx Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_
-* Join the
-  `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_
-  on Launchpad.
 * Get familiar with the code. Pick a bug off of the `Easy Bug List
-  <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_
+  <https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_
 * Get help fixing the bug on :term:`Zulip`, talk to us about the best way to do
   it.
 
 **Contributing to Mixxx in 3 Easy Steps:**
 
 #. Pick a bug off of the `Easy Bug List
-   <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_
+   <https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_
 #. Talk to us on :term:`Zulip` for help on how to fix it.
 #. Fix it! *Done!* Your name will now be on the `Mixxx contributor list
    <https://mixxx.org/contact/>`_.
