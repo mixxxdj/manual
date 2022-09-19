@@ -456,7 +456,7 @@ Skins
 * Fix crash when starting without a valid skin directory `#4575 <https://github.com/mixxxdj/mixxx/pull/4575>`_ `lp:1934560 <https://bugs.launchpad.net/mixxx/+bug/1934560>`_
 * LateNight: Move logo to the right `#4677 <https://github.com/mixxxdj/mixxx/pull/4677>`_
 * LateNight: Use correct tooltip for key control toggle `#4696 <https://github.com/mixxxdj/mixxx/pull/4696>`_
-* LateNight: Add toggles to show loop and beatjump controls `#4713 <https://github.com/mixxxdj/mixxx/pull/[#4713](https://github.com/mixxxdj/mixxx/pull/4713>`_\ )
+* LateNight: Add toggles to show loop and beatjump controls `#4713 <https://github.com/mixxxdj/mixxx/pull/4713>`_
 * LateNight: Remove blinking play indicator from mini samplers `#4807 <https://github.com/mixxxdj/mixxx/pull/4807>`_
 * LateNight: add buffer underflow indicator `#4906 <https://github.com/mixxxdj/mixxx/pull/4906>`_
 
