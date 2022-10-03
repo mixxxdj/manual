@@ -848,10 +848,10 @@ Equalizers and Gain Knobs
   :menuselection:`Preferences --> Equalizer --> EQ Buttons Mode` setting.
 
   When :guilabel:`Kill` is selected (the default value) the buttons act like :term:`kills <kill switch>`.
-  When the buttons are on that frequency range will be fully attenuated.
+  When the buttons are ON that frequency range will be fully attenuated.
 
   When :guilabel:`Bypass` is selected the buttons disable the EQ on that frequency range.
-  When the buttons are on, that frequency range won't be altered, regardless of the position of the corresponding EQ knob.
+  When the buttons are ON that frequency range won't be altered, regardless of the position of the corresponding EQ knob.
 
   Hold the EQ buttons to temporarily engage them. When you release them they will automatically return to their previous state.
   Short click on the buttons to toggle to their other state.
