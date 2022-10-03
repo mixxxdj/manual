@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-01 12:49+0200\n"
+"POT-Creation-Date: 2022-10-03 23:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1207,11 +1207,11 @@ msgid "The small boxes next to each EQ knob are the EQ buttons. Their function d
 msgstr ""
 
 #: ../../chapters/user_interface.rst:850
-msgid "When :guilabel:`Kill` is selected (the default value) the buttons act like :term:`kills <kill switch>`. When the buttons are on that frequency range will be fully attenuated."
+msgid "When :guilabel:`Kill` is selected (the default value) the buttons act like :term:`kills <kill switch>`. When the buttons are ON that frequency range will be fully attenuated."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:853
-msgid "When :guilabel:`Bypass` is selected the buttons disable the EQ on that frequency range. When the buttons are on, that frequency range won't be altered, regardless of the position of the corresponding EQ knob."
+msgid "When :guilabel:`Bypass` is selected the buttons disable the EQ on that frequency range. When the buttons are ON that frequency range won't be altered, regardless of the position of the corresponding EQ knob."
 msgstr ""
 
 #: ../../chapters/user_interface.rst:856
