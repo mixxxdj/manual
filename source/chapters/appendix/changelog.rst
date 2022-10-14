@@ -886,16 +886,22 @@ Other
 * Numark DJ2GO2: Fix  sliders and knobs `#4835 <https://github.com/mixxxdj/mixxx/pull/4835>`_ `lp:1948596 <https://bugs.launchpad.net/mixxx/+bug/1948596>`_
 * Numark DJ2Go2: support HotCue clear with pad `#10841 <https://github.com/mixxxdj/mixxx/pull/10841>`_
 * Numark DJ2Go2: Fix inverted tempo fader `#10852 <https://github.com/mixxxdj/mixxx/pull/10852>`_ `#10586 <https://github.com/mixxxdj/mixxx/issues/10586>`_
+* Ableton Push: Show as one device `#10905 <https://github.com/mixxxdj/mixxx/pull/10905>`_
 * Potmeters: Add support for arbitrary maximums in 7-/14-bit handlers from controller scripts `#4495 <https://github.com/mixxxdj/mixxx/pull/4495>`_
 * Shade: Fix library sidebar splitter glitch `#4828 <https://github.com/mixxxdj/mixxx/pull/4828>`_ `lp:1979823 <https://bugs.launchpad.net/mixxx/+bug/1979823>`_
-* MacOS builds: Perform ad-hoc signing of macOS bundle in Pull request and personal repositories `#4774 <https://github.com/mixxxdj/mixxx/pull/4774>`_
+* macOS builds: Perform ad-hoc signing of macOS bundle in Pull request and personal repositories `#4774 <https://github.com/mixxxdj/mixxx/pull/4774>`_
 * Waveform: Avoid visual glitch with ranges < 1 px `#4804 <https://github.com/mixxxdj/mixxx/pull/4804>`_
 * Traktor S3: Fix issues with sampler and hotcue buttons `#4676 <https://github.com/mixxxdj/mixxx/pull/4676>`_
-* Build Mixxx on MacOS 11, replacing deprecated MacOS 10.15 `#4863 <https://github.com/mixxxdj/mixxx/pull/4863>`_
+* Build Mixxx on macOS 11, replacing deprecated macOS 10.15 `#4863 <https://github.com/mixxxdj/mixxx/pull/4863>`_
 * EQ preferences: properly restore 'One EQ for all decks' setting `#4886 <https://github.com/mixxxdj/mixxx/pull/4886>`_
 * MC7000: Fix off-by-one indexing in the controller script `#4902 <https://github.com/mixxxdj/mixxx/pull/4902>`_
 * Cover Art: Fix picking wrong cover file, when track file name contains extra dots `#4909 <https://github.com/mixxxdj/mixxx/pull/4909>`_
-* Respect MusicBrainz rate limits `#10874 <https://github.com/mixxxdj/mixxx/pull/10874>`_ `#10795 <https://github.com/mixxxdj/mixxx/issues/10795>`_
+* MusicBrainz: Respect rate limits `#10874 <https://github.com/mixxxdj/mixxx/pull/10874>`_ `#10795 <https://github.com/mixxxdj/mixxx/issues/10795>`_
+* MusicBrainz: Stop fetching after closing the dialog `#10878 <https://github.com/mixxxdj/mixxx/pull/10878>`_ `#10877 <https://github.com/mixxxdj/mixxx/issues/10877>`_
+* macOs: Fix frozen skin control after Ctrl-Click `#10869 <https://github.com/mixxxdj/mixxx/pull/10869>`_ `10831 <https://github.com/mixxxdj/mixxx/issues/10831>`_
+* Avoid redundant messages boxes after track loading fails `#10889 <https://github.com/mixxxdj/mixxx/pull/10889>`_
+* Use OpenGL VU meter widgets. This aims to improve performaces with macOS. `#10893 <https://github.com/mixxxdj/mixxx/pull/10893>`_
+* Prevent wild numbers from appearing during scratching under vinyl control. `#10916 <https://github.com/mixxxdj/mixxx/pull/10916>`_
 
 Packaging
 ^^^^^^^^^
@@ -904,6 +910,8 @@ Packaging
 * Fix compatibility with FFmpeg 5.1 and require FFmpeg v4.1.9 `#10862 <https://github.com/mixxxdj/mixxx/pull/10862>`_ `#10866 <https://github.com/mixxxdj/mixxx/pull/10866>`_
 * Fix GCC 12.2.0 compatibility `#10863 <https://github.com/mixxxdj/mixxx/pull/10863>`_
 * Improve CMake 3.24 compatibility `#10864 <https://github.com/mixxxdj/mixxx/pull/10864>`_
+* Use MIXXX_VCPKG_ROOT cmake and environment variable to find the vcpkg environment `#10904 <https://github.com/mixxxdj/mixxx/pull/10904>`_
+* Fix ``-Wswitch`` when building with FLAC >= 1.4.0 `#10921 <https://github.com/mixxxdj/mixxx/pull/10921>`_
 
 .. _v2-3-3:
 
