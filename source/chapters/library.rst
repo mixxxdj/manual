@@ -384,6 +384,9 @@ a crate, or even the whole library) for tracks that match your search query.
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
+.. note:: The :guilabel:`Computer` and :guilabel:`Recording` views currently only
+          support simple case-insensitive filtering.
+
 Using search operators
 ----------------------
 
