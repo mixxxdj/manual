@@ -842,7 +842,7 @@ Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
-access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
+access. Click the :guilabel:`Computer` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
 The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that
 folder, right-click and choose :guilabel:`Remove from Quick Links`.
