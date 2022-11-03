@@ -19,7 +19,7 @@ The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio interfac
 designed for rekordbox.
 
 - `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-400/black/overview/>`__
-- `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
+- `Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-us/articles/4404919716761>`__
 - `Manufacturer's Firmware <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__
 - `Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__
 - `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf?la=en-us>`__
@@ -71,7 +71,7 @@ Controller Mapping
 ------------------
 
 The schematic drawings used here can be referenced in the
-`manufacturer's manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
+`manufacturer's manual <https://support.pioneerdj.com/hc/en-us/articles/4404919716761>`__
 on the given page number.
 
 Browser section (p. 6)
