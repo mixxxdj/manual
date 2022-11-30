@@ -34,5 +34,7 @@ On volume knob, shift changes control from Headphone to Master.
 .. note::
    This mapping is a work in progress.
    You can try it in the current release of Mixxx but it is not yet released.
-   To test it, copy the 2 files Ableton-Push.midi.xml and Ableton-Push-scripts.js from `Mixxx source <https://github.com/mixxxdj/mixxx/tree/2.3/res/controllers>`__ in your Mixxx installation directory, inside controllers, and share your comments in the forum.
+   To test it, copy the 2 files Ableton-Push.midi.xml and Ableton-Push-scripts.js
+   from `Mixxx source <https://github.com/mixxxdj/mixxx/tree/2.3/res/controllers>`__ in your Mixxx installation directory,
+   inside controllers, and share your comments in `the forum <https://mixxx.discourse.group/t/ableton-push-mapping/>`__.
    
