@@ -25,6 +25,10 @@ Center pads of the controller are split in 2 sections, Left and Right.
 At startup, left half controls Channel 1, and right half controls Channel 2.
 You can switch between deck 1&2 and deck 3&4 control using play/record buttons.
 
+The 2 first lines on the screen shows knobs actions and positions.
+The 3rd line on the screen shows which decks are controlled, track time and position.
+4th line shows values controlled by the 2 buttons below the screen (BeatLoop size, BeatJump size, BPM and Key).
+
 For top knobs, touching knobs while Shift button is pressed resets the value by default.
 On volume knob, shift changes control from Headphone to Master.
 
