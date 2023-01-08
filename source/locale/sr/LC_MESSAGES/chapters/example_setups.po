@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Language-Team: Serbian (https://www.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -265,11 +265,11 @@ msgid ""
 "This setup can be used with a single audio output for speakers or headphones"
 " to practice DJing without investing in any equipment other than a computer "
 "and a set of speakers or headphones. With this configuration, use the "
-":ref:`Pre/Main Knob <interface-head-master>` to switch back and forth "
-"between the Master mix and :term:`PFL` signal. This setup cannot be used to "
-"play for a live audience because the Master mix is not sent to an audio "
-"interface output. However, it can be used by radio DJs who only need to send"
-" the Master mix to a broadcast audience."
+":ref:`Pre/Main Knob <interface-head-main>` to switch back and forth between "
+"the main mix and :term:`PFL` signal. This setup cannot be used to play for a"
+" live audience because the main mix is not sent to an audio interface "
+"output. However, it can be used by radio DJs who only need to send the main "
+"mix to a broadcast audience."
 msgstr ""
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
@@ -341,7 +341,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:71
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 
@@ -386,7 +386,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:117
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
 
@@ -421,7 +421,7 @@ msgstr ""
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select the external audio "
+"From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 
@@ -479,7 +479,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:192
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your controller's audio "
+"From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 

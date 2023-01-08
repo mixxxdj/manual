@@ -77,7 +77,7 @@ Global controls
 -  **i** knob: Adjust flange effect depth
 -  **j** knob: Adjust flange effect delay
 -  **k** knob: Adjust flange effect period (Low Frequency Oscillator)
--  **l** knob: Adjust master pan (balance)
+-  **l** knob: Adjust main pan (balance)
 -  **p**\ *button: unused*
 -  **m** button: BPM tap for Deck 1
 -  **n**\ *button: unused*

@@ -1,0 +1,386 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Slovak (https://www.transifex.com/mixxx-dj-software/teams/7664/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:2
+msgid "Vestax VCI-100 MKII"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:4
+msgid ""
+"This controller has been discontinued as Vestax went out of business in "
+"2014."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:6
+msgid ""
+"`Product page in archive.org "
+"<http://web.archive.org/web/20140809134938/http://www.vestax.com/v/products/detail.php?cate_id=118&parent_id=8>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:7
+msgid ""
+"`ASIO driver for Windows in serato.com <https://support.serato.com/hc/en-"
+"us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:8
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/vestax-vci-100mkii/14084>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:13
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:15
+msgid ""
+"[Functions] in brackets are executed if a shift button of the deck is "
+"pressed. **{Functions} in braces are executed if a shift button of the other"
+" deck is pressed.** Changes after the previous version are in bold."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:19
+msgid "**Unfocus EffectSlot of the EffectUnit** [Select EffectUnit1/2]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:20
+msgid "**Focus next EffectSlot of the EffectUnit** [Select EffectUnit3/4]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:21
+msgid ""
+"**Meta knob of the EffectSlot1, or if EffectSlotN is focused Parameter1 of "
+"it [Set the link to meta knob]\\ [1]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:23
+msgid ""
+"**Meta knob of the EffectSlot2, or if EffectSlotN is focused Parameter2 of "
+"it [Set the link to meta knob]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:25
+msgid ""
+"**Meta knob of the EffectSlot3, or if EffectSlotN is focused Parameter3 of "
+"it [Set the link to meta knob]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:27
+msgid ""
+"**Super knob, or if EffectSlotN is focused Parameter4 of it [Set the link to"
+" meta knob], or if enabled by #33 Wet/dry mix of the EffectUnit**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:29
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:81
+msgid "EQ high"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:30
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:82
+msgid "EQ mid"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:31
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:83
+msgid "EQ low"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:32
+msgid ""
+"**Pitch (up and down to 3 semitones continuously, or in keylock mode "
+"discretely)**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:34
+msgid "Filter **(super knob of Quick Effect)**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:35
+msgid "**Gain**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:36
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:87
+msgid "Rate [Rate by quantized BPM]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:37
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:88
+msgid "Channel fader"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:38
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:89
+msgid "Cross fader"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:39
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:90
+msgid "Headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:40
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:91
+msgid "Headphone mix"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:41
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:92
+msgid "Master volume"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:42
+msgid "Scratch **[Brake (if released before full stop, playback resumes)]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:43
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:94
+msgid "Jog (locked in slip mode)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:44
+msgid "Play **[Reverse]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:45
+msgid "Cue **[Cue and Play]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:46
+msgid "**Activate [Clear] hotcue1**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:47
+msgid "**Activate [Clear] hotcue2**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:48
+msgid "**Sync mode [Adjust beatgrid to the current playposition]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:49
+msgid "Keylock mode **[Quantize mode]**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:50
+msgid ""
+"Loop by default loop size[2] [Reloop], or in loop *Exit the loop [Set loop "
+"out position]*"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:52
+msgid ""
+"Halve default loop size **[Jump backward]**, or in loop *Halve the loop*\\ "
+"**[Jump it backward]** **{Halve jump size[3] of the other deck}**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:54
+msgid ""
+"Double default loop size **[Jump forward]**, or in loop *Double the loop*\\ "
+"**[Jump it forward]** **{Double jump size of the other deck}**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:56
+msgid "**Enable [Set next effect to] EffectSlot1 of the EffectUnit**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:57
+msgid "**Enable [Set next effect to] EffectSlot2 of the EffectUnit**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:58
+msgid "**Enable [Set next effect to] EffectSlot3 of the EffectUnit**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:59
+msgid ""
+"**Enable #6 to control wet/dry mix of [Set next effect chain to] the "
+"EffectUnit**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:61
+msgid "Slip mode (affect scratch, brake, pause, reverse, loop and hotcue)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:62
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:112
+msgid "PFL [PFL solo] (if headphone mix is cue or main only then switch it)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:63
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:113
+msgid "Enable EffectUnit1 [EffectUnit3] for the channel"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:64
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:114
+msgid "Enable EffectUnit2 [EffectUnit4] for the channel"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:65
+msgid ""
+"Up: previous **item** and scroll, Down: next **item** and scroll, Left: "
+"**previous pane [load to left]**, Right: **next pane [load to right]**, "
+"Push: **choose item**"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:68
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:117
+msgid "Channel select"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:71
+msgid "Mapping for Mixxx 2.0"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:73
+msgid ""
+"[Functions] in brackets are executed if a shift button of the deck is "
+"pressed."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:75
+msgid "Set previous effect chain to the EffectUnit [Select EffectUnit1/2]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:76
+msgid "Set next effect chain to the EffectUnit [Select EffectUnit3/4]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:77
+msgid "Parameter1 of Effect1 of the EffectUnit"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:78
+msgid "Parameter2 of Effect1 of the EffectUnit"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:79
+msgid "Parameter3 of Effect1 of the EffectUnit"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:80
+msgid "Wet/dry mix of the EffectUnit"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:84
+msgid "Gain"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:85
+msgid "Filter (high pass only)[4]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:86
+msgid "Pitch (semitones only)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:93
+msgid "Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:95
+msgid "Play [Adjust beatgrid to the current playposition]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:96
+msgid "Cue [Adjust beatgrid to match another playing deck]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:97
+msgid "Cue and Play [Move beatgrid earlier]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:98
+msgid "Sync mode [Move beatgrid later]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:99
+msgid "Quantize mode [Zoom in waveform]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:100
+msgid "Keylock mode [Zoom out waveform]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:101
+msgid ""
+"Loop by default loop size[5] [Reloop], or in loop *Exit the loop [Set loop "
+"out position]*"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:103
+msgid ""
+"Halve default loop size, or in loop *Halve the loop* [Move the loop backward"
+" by 1/2 beat]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:105
+msgid ""
+"Double default loop size, or in loop *Double the loop* [Move the loop "
+"forward by 1/2 beat]"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:107
+msgid "Activate [Clear] hotcue1"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:108
+msgid "Activate [Clear] hotcue2"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:109
+msgid "Activate [Clear] hotcue3"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:110
+msgid "Activate [Clear] hotcue4"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:111
+msgid "Slip mode (affect scratch, loop and hotcue)"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:115
+msgid ""
+"Up: previous track and scroll, Down: next track and scroll, Left: load to "
+"left, Right: load to right, Push: load to first stopped"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:119
+msgid ""
+"left-right inverse -> right inverse -> left inverse -> full inverse -> none "
+"-> full -> left -> right -> left-right"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:121
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:123
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:128
+msgid ""
+"size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 < "
+"size: LED28 & 29"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_vci_100mkii.rst:125
+msgid ""
+"see `the article <https://mixxx.discourse.group/t/vestax-"
+"vci-100mkii/14084/21>`__ or use :ref:`Controller Wizard <advanced-"
+"controller-wizard>` (choose “Quick Effect Super Knob”) for low-high pass"
+msgstr ""

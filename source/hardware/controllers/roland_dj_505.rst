@@ -28,6 +28,8 @@ It also features a TR-S step sequencer with sounds from the TR-808 and the TR-90
 -  `Mapping Forum Thread <https://mixxx.discourse.group/t/roland-dj-505/17916>`__
 
 .. versionadded:: 2.3.0
+.. versionchanged:: 2.4.0
+   Added Saved Loop mode and improved Cue Loop Mode.
 
 Drivers
 -------
@@ -44,7 +46,7 @@ input support, applying effects to the TR-S output, etc.):
 ===================== ================
 Output Channels       Assigned to
 ===================== ================
-1-2                   Master
+1-2                   Main
 3-4                   Headphones
 ===================== ================
 
@@ -63,8 +65,8 @@ together in input channels 5-6, so Mixxx can record and broadcast them.
 The knobs for :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, :hwlabel:`PHONES VOLUME`, :hwlabel:`MIC LEVEL`, :hwlabel:`TR/SAMPLER LEVEL` and :hwlabel:`CUE/MASTER MIXING` are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller:
 
-- Set the master/booth/headphones/microphone/aux channel levels to 100% (knob center position)
-- Set cue/master mixing to cue-only (leftmost position)
+- Set the main/booth/headphones/microphone/aux channel levels to 100% (knob center position)
+- Set cue/main mixing to cue-only (leftmost position)
 
 .. note::
    You should assign the :guilabel:`Vinyl Control` input channels even if you do not intend to use timecode vinyl.
@@ -125,8 +127,8 @@ No.       Control                                                               
 2         :hwlabel:`SLIP` button                                                 Hold to turn on slip mode temporarily or double press to turn it on permanently.
 2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                              Toggle vinyl control mode.
 3         :hwlabel:`SHIFT` button                                                Hold down to access other functions.
-4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <master-sync>`.
-4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <master-sync>`. Long press to toggle :term:`quantization`.
+4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <sync-lock>`.
+4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <sync-lock>`. Long press to toggle :term:`quantization`.
 5         :hwlabel:`CUE` button                                                  Specifies, plays or recalls temporary cue point.
 5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                               Returns to the beginning of the song.
 6         :hwlabel:`PLAY/PAUSE` button                                           Plays or pause the song.
@@ -173,12 +175,12 @@ No.       Control                                                          Funct
 4         :hwlabel:`SHIFT` + :hwlabel:`CUE` buttons (tap repeatedly)       Set tempo by tapping on each beat.
 5         Channel faders                                                   Adjust the output level for each channel.
 6         Cross fader                                                      Fades between left and right deck.
-7         :hwlabel:`MASTER LEVEL` knob                                     Adjusts the master output level.
+7         :hwlabel:`MASTER LEVEL` knob                                     Adjusts the main output level.
 8         :hwlabel:`BOOTH LEVEL` knob                                      Adjusts the output level of the :hwlabel:`BOOTH OUT` jacks.
-9         :hwlabel:`MIXING` knob                                           Fades between PFL and master output in headphones
+9         :hwlabel:`MIXING` knob                                           Fades between PFL and main output in headphones
 10        :hwlabel:`TR/SAMPLER LEVEL` knob                                 Adjusts output of the TR-S (Aux 3) and Samplers 1-16.
 11        :hwlabel:`TR/SAMPLER CUE` button                                 Toggle PFL of the TR-S (Aux 3) and Samplers 1-16.
-12        Level indicator                                                  Indicate the output level of each channel and master.
+12        Level indicator                                                  Indicate the output level of each channel and main.
 ========  ===============================================================  ==========================================
 
 
@@ -255,7 +257,7 @@ Control                                                     Mode                
 :hwlabel:`SHIFT` + :hwlabel:`HOT CUE` button                Cue Loop Mode          Blue
 :hwlabel:`SHIFT` + :hwlabel:`HOT CUE` button (press twice)  Prepare Mode           Red
 :hwlabel:`ROLL` button                                      Roll Mode              Light blue
-:hwlabel:`ROLL` button (press twice)                        Loop Mode              Green
+:hwlabel:`ROLL` button (press twice)                        Saved Loop Mode        Green
 :hwlabel:`TR` button                                        TR Mode                Red
 :hwlabel:`SHIFT` + :hwlabel:`TR` button                     Pattern Mode           Green
 :hwlabel:`TR` button (press twice)                          TR Velocity Mode       Orange
@@ -264,13 +266,9 @@ Control                                                     Mode                
 :hwlabel:`SAMPLER` button (press twice)                     Pitch Play Mode        Green
 ==========================================================  =====================  ==========
 
-Most pad modes are similar to those found when used with Serato. A
-notable exception is the Loop Mode, which replaces the Serato’s Saved
-Loop Mode. In this mapping, the Loop Mode is similar to the Roll mode,
-but sets a non-rolling beatloop instead.
-
+Most pad modes are similar to those found when used with Serato.
 Modes that are described in the owner’s manual (Slicer, Slicer
-Loop, Saved Loop, Flip) but not listed below are currently not mapped.
+Loop, Flip) but not listed below are currently not mapped.
 
 Hot Cue Mode
 ^^^^^^^^^^^^
@@ -315,7 +313,8 @@ Set beatloop from a hot cue point.
 ========  ===============================================================  ==========================================
 No.       Control                                                          Function
 ========  ===============================================================  ==========================================
-1-8       Pad (lit)                                                        Set a beatloop at the position of the hotcue and jump to it.
+1-8       Pad (lit)                                                        Set a beatloop at the position of the hotcue.
+1-8       :hwlabel:`SHIFT` + Pad (lit)                                     Set a beatloop at the position of the hotcue and jump to it.
 1-8       Pad (unlit)                                                      Save the current position as hot cue and set a beatloop.
 9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
 10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
@@ -381,6 +380,34 @@ No.       Control                                                          Funct
 9-10      :hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons              *Currently not mapped*.
 ========  ===============================================================  ==========================================
 
+Saved Loop Mode
+^^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/roland_dj_505_performancepads.svg
+   :align: center
+   :width: 65%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (performance pads)
+   :figclass: pretty-figures
+
+   Roland DJ-505 (performance pads)
+
+Save and restore saved loops.
+
+========  ===============================================================  ==========================================
+No.       Control                                                          Function
+========  ===============================================================  ==========================================
+1-8       Pad (unlit)                                                      If a loop is enabled, save that loop into the hotcue slot. If no loop is enabled, set a beatloop from the current position and save it.
+1-8       Pad (lit)                                                        Enable saved loop.
+1-8       Pad (blinking)                                                   Disable saved loop.
+1-8       :hwlabel:`SHIFT` + Pad (lit/blinking)                            Enable saved loop and jump to the loop start position.
+1-8       :hwlabel:`SHIFT` + Pad (lit/blinking, long press)                Delete saved loop from hotcue slot.
+9         :hwlabel:`PARAMETER -` button                                    Change color of last used hotcue to the previous color in the palette.
+10        :hwlabel:`PARAMETER +` button                                    Change color of last used hotcue to the next color in the palette.
+9         :hwlabel:`PARAMETER -` button                                    Halve the size of the current loop.
+10        :hwlabel:`PARAMETER +` button                                    Double the size of the current loop.
+========  ===============================================================  ==========================================
+
 TR/Pattern/TR Velocity Modes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -444,7 +471,6 @@ Known Issues
 -  Some performance pad modes are missing
    (Slicer [`Launchpad Bug #1828886 <https://bugs.launchpad.net/mixxx/+bug/1828886>`__],
    Slicer Loop,
-   Saved Loop [`Launchpad Bug #1367159 <https://bugs.launchpad.net/mixxx/+bug/1367159>`__, `PR #2194 <https://github.com/mixxxdj/mixxx/pull/2194>`__ ],
    Flip [`Launchpad Bug #1768113 <https://bugs.launchpad.net/mixxx/+bug/1768113>`__])
 -  Some buttons are not mapped yet (e.g. :hwlabel:`BACK`)
 -  LEDs on :hwlabel:`BACK`/:hwlabel:`ADD PREPARE` do not work

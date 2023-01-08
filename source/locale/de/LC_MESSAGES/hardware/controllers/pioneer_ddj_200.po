@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: German (https://www.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
@@ -248,7 +248,7 @@ msgid ":hwlabel:`MASTER` button"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:82
-msgid "Toggle Master/Cue knob of headphones between left and right"
+msgid "Toggle main/cue knob of headphones between left and right"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:83

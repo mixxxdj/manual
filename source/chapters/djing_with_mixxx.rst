@@ -131,30 +131,30 @@ the two kicks drift out of phase. When this happens, the beats can be realigned
 by simply tapping one of the temporary pitch bend buttons a few times in the
 appropriate direction.
 
-.. _master-sync:
+.. _sync-lock:
 
-Master Sync
-===========
+Sync Lock
+=========
 
-:term:`Master Sync<master sync>` is an intelligent assistant that allows you to leave the
-beatmatching to Mixxx so you can focus on track selection, effects manipulation,
-looping, 4 deck mixing, and other advanced DJing techniques.
+:term:`Sync Lock<sync lock>` is an intelligent assistant that allows you to
+leave the beatmatching to Mixxx so you can focus on track selection, effects
+manipulation, looping, 4 deck mixing, and other advanced DJing techniques.
 
-To activate Master Sync on a deck, push and hold (or click and hold) the
-:guilabel:`SYNC` button. You'll know Master Sync is on because the sync button
+To activate Sync Lock on a deck, push and hold (or click and hold) the
+:guilabel:`SYNC` button. You'll know Sync Lock is on because the sync button
 will remain lit.  Changing the rate of any deck that has Sync lit will change
 the rates of all other decks that also have the Sync button lit.  There is no
-need to set specific decks to be a master or followers.  You can play, stop,
-eject, load, and queue any track with master sync and it won't interrupt the
+need to set specific decks to be a leader or followers.  You can play, stop,
+eject, load, and queue any track with sync lock and it won't interrupt the
 playback of the other decks.  However, changing the rate of a stopped deck will
 change the rate of playing decks.
 
-Master Sync will also notice if one of your tracks is double the BPM of another
+Syn Lock will also notice if one of your tracks is double the BPM of another
 track and match them correctly.  So if you want to mix a 140 BPM drum & bass
-track with a 70 bpm dubstep track, Master Sync will make sure they are lined up
+track with a 70 bpm dubstep track, Sync Lock will make sure they are lined up
 properly.
 
-.. hint:: Usually, Master Sync will only make sure the rate sliders are set
+.. hint:: Usually, Sync Lock will only make sure the rate sliders are set
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
@@ -189,7 +189,7 @@ Recording Your Mix
 With the integrated recording feature you can record your mix as an audio file
 and listen to it later, distribute it as a :term:`Podcast<podcast>` or burn it to CD.
 
-By default, Mixxx records the Master output. Alternatively, Mixxx can record
+By default, Mixxx records the :term:`main output`. Alternatively, Mixxx can record
 the output of an external mixer if you have an audio interface configured for
 the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound
 Hardware`. Refer to :ref:`microphones-record-broadcast-external-mixer` for

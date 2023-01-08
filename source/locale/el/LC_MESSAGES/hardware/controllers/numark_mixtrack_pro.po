@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: Greek (https://www.transifex.com/mixxx-dj-software/teams/7734/el/)\n"
 "MIME-Version: 1.0\n"
@@ -249,9 +249,9 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro.rst:88
 msgid ""
-"**OUTPUT 1** (RCA): This stereo RCA connection will output the Master Mix "
-"from your computer. Please use a stereo RCA cable to connect this output to "
-"a powered speaker or amplifier system."
+"**OUTPUT 1** (RCA): This stereo RCA connection will output the main mix from"
+" your computer. Please use a stereo RCA cable to connect this output to a "
+"powered speaker or amplifier system."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro.rst:89
@@ -269,14 +269,14 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro.rst:92
 msgid ""
-"**MIC GAIN:** This knob controls the microphone level being sent to the "
-"Master Mix."
+"**MIC GAIN:** This knob controls the microphone level being sent to the main"
+" mix."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro.rst:93
 msgid ""
 "**MIC THROUGH:** This is a 1/4\" microphone input. The signal from this "
-"input will be sent directly to the Master Mix."
+"input will be sent directly to the main mix."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro.rst:96

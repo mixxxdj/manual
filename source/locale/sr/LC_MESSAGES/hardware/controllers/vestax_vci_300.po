@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Serbian (https://www.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr ""
 #: ../../hardware/controllers/vestax_vci_300.rst:23
 msgid ""
 "*Important Note:* Optional power supply DC-7 must be used in order to get "
-"the boost on the headphones and Master output. Without the power supply the "
+"the boost on the headphones and main output. Without the power supply the "
 "MKII will perform just like the original VCI-300. Also, using the DC-7 on "
 "the original VCI-300 will do nothing."
 msgstr ""
@@ -84,9 +84,8 @@ msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_300.rst:34
 msgid ""
-"Audio fed to the MIC/AUX input can now be directly sent to the Master "
-"outputs with the THRU switch turned ON, minimizing latency of when fed "
-"through ITCH."
+"Audio fed to the MIC/AUX input can now be directly sent to the main outputs "
+"with the THRU switch turned ON, minimizing latency of when fed through ITCH."
 msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_300.rst:37

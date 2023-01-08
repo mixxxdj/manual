@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Czech (https://www.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -48,15 +48,15 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:15
 msgid ""
-"Configure Mixxx’s Master output for channels 1-2 and Headphones output for "
+"Configure Mixxx’s main output for channels 1-2 and Headphones output for "
 "Channels 3-4."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:17
 msgid ""
 "The microphone input on this controller is not available to the computer "
-"through the controller’s audio interface. It is mixed with the master output"
-" in hardware, so this controller’s audio interface is not suitable for "
+"through the controller’s audio interface. It is mixed with the main output "
+"in hardware, so this controller’s audio interface is not suitable for "
 "broadcasting or recording the inputs. If you want to use the controller for "
 "broadcasting or recording, a separate :ref:`audio interface <hardware-audio-"
 "interfaces>` with a microphone input is suggested."
@@ -144,20 +144,20 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:53
-msgid "2. **Master Gain:** Adjusts the master volume in the software."
+msgid "2. **Master Gain:** Adjusts the main volume in the software."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:54
 msgid ""
 "**Note:** This control does not affect the microphone volume which is summed"
-" with the final output of the Master Gain to the Master Output. Use the Mic "
-"Gain knob to control the microphone volume."
+" with the final output of the Main Gain to the Main Output. Use the Mic Gain"
+" knob to control the microphone volume."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:56
 msgid ""
 "**Cue Mix:** Adjusts the software’s audio output to the headphones, mixing "
-"between the cue (PFL) output and the master mix output."
+"between the cue (PFL) output and the main mix output."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:58
@@ -171,11 +171,11 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:61
 msgid ""
-"5. **VU Meter:** Monitor the volume levels of the master output and each "
+"5. **VU Meter:** Monitor the volume levels of the main output and each "
 "channel. When cue/pfl is active on ANY channel, the meter shows the mono "
 "levels each channel (left meter shows the deck on the left, right meter for "
 "the deck on the right). Otherwise the meter shows the stereo levels of the "
-"master output."
+"main output."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:64
@@ -253,7 +253,7 @@ msgstr ""
 msgid ""
 "12. **Cue/PFL/Headphones:** Sends pre-fader audio to the headphone output. "
 "If any channels have the cue button active, the VU meter will show channel "
-"output levels instead of master output levels on all decks."
+"output levels instead of main output levels on all decks."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:86
@@ -426,7 +426,8 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:132
-msgid "**Long Press:** Enable master sync. Press again to disable."
+msgid ""
+"**Long Press:** Enable :ref:`Sync Lock <sync-lock>`. Press again to disable."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_platinum.rst:133

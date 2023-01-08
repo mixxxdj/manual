@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "The cue button behaves differently depending on the :ref:`cue mode set in
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_compact.rst:29
-msgid "The sync button synchronizes the tempo to the other deck. Press and hold sync to engage :ref:`Sync Lock <master-sync>`."
+msgid "The sync button synchronizes the tempo to the other deck. Press and hold sync to engage :ref:`Sync Lock <sync-lock>`."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_compact.rst:32

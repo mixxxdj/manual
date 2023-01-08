@@ -47,7 +47,7 @@ as follows:
 ============  =====================
 Audio Output  Channel Configuration
 ============  =====================
-Master        Channel 1-2
+Main          Channel 1-2
 Headphones    Channel 3-4
 ============  =====================
 
@@ -64,7 +64,7 @@ Mapping description
 Note that Mixxx doesn't have the concept of a single "leader" deck for
 sync. Instead, push and hold the :hwlabel:`SYNC` button to "lock" sync on for all
 decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to lock
-sync on. Refer to :ref:`Sync Lock documentation <master-sync>`
+sync on. Refer to :ref:`Sync Lock documentation <sync-lock>`
 for details.
 
 .. hint:: There are two :hwlabel:`SHIFT` buttons, one for each side of the

@@ -27,9 +27,9 @@ Mixer Section
 =============================================  =========================================================================
 Control                                        Description
 =============================================  =========================================================================
-:hwlabel:`MASTER`                              Controls the master volume to your main sound system. This controls the built in sound card and has no effect on the master gain knob in Mixxx.
+:hwlabel:`MASTER`                              Controls the main volume to your main sound system. This controls the built in sound card and has no effect on the main gain knob in Mixxx.
 :hwlabel:`PHONES`                              Controls your headphones volume. This controls the built in sound card and has no effect on the headphone gain knob in Mixxx.
-:hwlabel:`CUE MIX`                             Mixes the headphones CUE signal between your selected channel and the master output.
+:hwlabel:`CUE MIX`                             Mixes the headphones CUE signal between your selected channel and the main output.
 :hwlabel:`TRAX SELECT`                         Use the :ref:`Trax selector <reloop-beatmix-4-traxselector>` to navigate through your song library.
 :hwlabel:`TRACK LOAD` (short press)            Load tracks on either channel. These buttons are lit when a track is loaded into the associated deck.
 :hwlabel:`TRACK LOAD` (long press)             Eject the selected deck.
@@ -78,7 +78,7 @@ Control                                        Description
 :hwlabel:`CUP`                                 Takes you directly to your cue point and starts playback instantly. If no cue point is set, it will jump to the beginning of the track.
 :hwlabel:`SHIFT` + :hwlabel:`CUP`              Changes the pitch range, cycling through 8%, 10%, 12% and 16%
 :hwlabel:`SYNC`                                Syncs the BPM and phase to that of the other track (if :term:`BPM` is detected on both).
-:hwlabel:`SHIFT` + :hwlabel:`SYNC`             Turn on master sync, keeping sync enabled
+:hwlabel:`SHIFT` + :hwlabel:`SYNC`             Turn on sync lock, keeping sync enabled
 =============================================  =========================================================================
 
 

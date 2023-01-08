@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 01:02+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -400,7 +400,7 @@ msgid "Use these outputs if you are not using an :ref:`external hardware mixer <
 msgstr ""
 
 #: ../../chapters/getting_started.rst:168
-msgid "*Master*: all decks, samplers, microphones, and auxiliary inputs mixed together. This output is sent to the speakers for the audience."
+msgid "*Main*: all decks, samplers, microphones, and auxiliary inputs mixed together. This output is sent to the speakers for the audience."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:170
@@ -408,7 +408,7 @@ msgid "*Headphones*: all decks, samplers, microphones, and auxiliary inputs assi
 msgstr ""
 
 #: ../../chapters/getting_started.rst:172
-msgid "*Booth*: same as Master output, but has a separate gain control"
+msgid "*Booth*: same as main output, but has a separate gain control"
 msgstr ""
 
 #: ../../chapters/getting_started.rst:174
@@ -441,7 +441,7 @@ msgid "*Auxiliary 1-4*: other sound sources"
 msgstr ""
 
 #: ../../chapters/getting_started.rst:192
-msgid "*Record/Broadcast*: When this is configured, Mixxx will record and broadcast from this audio interface input instead of the internal master mix. If you have a microphone plugged into the mixer, do not configure the Microphone 1-4 inputs."
+msgid "*Record/Broadcast*: When this is configured, Mixxx will record and broadcast from this audio interface input instead of the internal main output mix. If you have a microphone plugged into the mixer, do not configure the Microphone 1-4 inputs."
 msgstr ""
 
 #: ../../chapters/getting_started.rst:197

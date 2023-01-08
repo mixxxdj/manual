@@ -28,12 +28,12 @@ page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__.
 Sound card setup
 ----------------
 
-This controller has built-in 4 channel output sound card, with MASTER
+This controller has built-in 4 channel output sound card, with MAIN
 output (RCA) and HEADPHONE output (3.5mm jack).
 
 -  Open **Preferences > Sound Hardware**
 -  Select the **Output** tab
--  From the **Master** drop-down menu, select the audio interface, then
+-  From the **Main** drop-down menu, select the audio interface, then
    **Channels 1-2**
 -  From the **Headphones** drop-down menu, select the audio interface,
    then **Channels 3-4**
@@ -59,7 +59,7 @@ Decks
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <master-sync>`.
+:hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <sync-lock>`.
 :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                        Set deck as Sync leader.
 :hwlabel:`CUE` button                                            Specifies, plays or recalls temporary cue point.
 :hwlabel:`SHIFT` + :hwlabel:`CUE` button                         Return to the beginning of the track.

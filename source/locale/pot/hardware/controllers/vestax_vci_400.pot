@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "Auto Loop knob. Twisting this will change the size of the current loop, e
 msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_400.rst:90
-msgid "The Master FX button enables the 1st FX bank to be applied to the master output."
+msgid "The Master FX button enables the 1st FX bank to be applied to the main output."
 msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_400.rst:92
@@ -169,5 +169,5 @@ msgid "Note about VU Meters"
 msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_400.rst:121
-msgid "There’s a bug in the way that the VCI400 firmware works – although Mixxx can control the VU meters, the VCI’s internal soundcard always *also* controls the VU Meters. This can result in an odd flickering effect that looks strange. For this reason, the Master VU meters are disabled by default. If you’ve installed the firmware that allows decks C and D to act as pass-through mixer channels, you may see flickering there too."
+msgid "There’s a bug in the way that the VCI400 firmware works – although Mixxx can control the VU meters, the VCI’s internal soundcard always *also* controls the VU Meters. This can result in an odd flickering effect that looks strange. For this reason, the main VU meters are disabled by default. If you’ve installed the firmware that allows decks C and D to act as pass-through mixer channels, you may see flickering there too."
 msgstr ""

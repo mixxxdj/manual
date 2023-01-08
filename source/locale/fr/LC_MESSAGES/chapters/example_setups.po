@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -281,21 +281,12 @@ msgid ""
 "This setup can be used with a single audio output for speakers or headphones"
 " to practice DJing without investing in any equipment other than a computer "
 "and a set of speakers or headphones. With this configuration, use the "
-":ref:`Pre/Main Knob <interface-head-master>` to switch back and forth "
-"between the Master mix and :term:`PFL` signal. This setup cannot be used to "
-"play for a live audience because the Master mix is not sent to an audio "
-"interface output. However, it can be used by radio DJs who only need to send"
-" the Master mix to a broadcast audience."
+":ref:`Pre/Main Knob <interface-head-main>` to switch back and forth between "
+"the main mix and :term:`PFL` signal. This setup cannot be used to play for a"
+" live audience because the main mix is not sent to an audio interface "
+"output. However, it can be used by radio DJs who only need to send the main "
+"mix to a broadcast audience."
 msgstr ""
-"Cette configuration peut être utilisée avec une seule sortie audio pour les "
-"haut-parleurs ou le casque pour pratiquer le DJ sans investir dans un "
-"équipement autre qu'un ordinateur et un ensemble de haut-parleurs ou un "
-"casque. Avec cette configuration, utilisez le :ref:`Pre/Main Knob "
-"<interface-head-master>` pour basculer entre le mix principal et le signal "
-":term:`PFL`. Cette configuration ne peut pas être utilisée pour jouer pour "
-"un public en direct car le mix principal n'est pas envoyé à une sortie "
-"d'interface audio. Cependant, il peut être utilisé par des DJ radio qui "
-"n'ont besoin d'envoyer le mixage principal qu'à un public de diffusion."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -379,11 +370,9 @@ msgstr "Utilisation de Mixxx avec votre carte son intégrée"
 
 #: ../../chapters/example_setups.rst:71
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionner votre interface"
-" audio interne puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -445,11 +434,9 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:117
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionner votre interface"
-" audio interne puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -491,11 +478,9 @@ msgstr "**Utilisation de deux interfaces audio (intégrée + externe)**"
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select the external audio "
+"From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Dans le menu déroulant :guilabel:`Principal`, sélectionner l'interface audio"
-" externe, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -563,11 +548,9 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:192
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your controller's audio "
+"From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionner l'interface "
-"audio du contrôleur puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""

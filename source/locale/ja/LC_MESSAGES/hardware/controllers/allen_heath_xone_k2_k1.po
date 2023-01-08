@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/mixxx-dj-software/teams/7734/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgid "Channel"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
-msgid "Master"
+msgid "Main"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
@@ -98,7 +98,7 @@ msgstr ""
 msgid ""
 "Note: This Channel setup is the opposite of what most DJ controllers with an"
 " integrated audio interface use. The design choice to not use Channel 1 - 2 "
-"for Master Output is known to cause problems, when users want to use the "
+"for main output is known to cause problems, when users want to use the "
 "Xone:K2 as default system audio output as the operating system will always "
 "use Channel 1 - 2. Thus system audio will go to the headphones."
 msgstr ""
@@ -106,7 +106,7 @@ msgstr ""
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:39
 msgid ""
 "There are no hardware controls for the volume so they are always at max "
-"volume. Adjusting the volume of master and headphone outputs is done by "
+"volume. Adjusting the volume of main and headphone outputs is done by "
 "adjusting the gain for those outputs in Mixxx using the controller mapping."
 msgstr ""
 
@@ -194,7 +194,7 @@ msgid "adjust tempo of all decks with sync enabled"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:84
-msgid "press and turn: PFL/master mix in headphones"
+msgid "press and turn: PFL/main mix in headphones"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:85
@@ -224,7 +224,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:92
-msgid "shift: master gain"
+msgid "shift: main gain"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:95
@@ -256,7 +256,7 @@ msgid "Top encoder press: reset gain"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:109
-msgid "shift: master sync"
+msgid "shift: sync lock"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:110
@@ -429,12 +429,12 @@ msgstr ""
 msgid ""
 "The bottom buttons assign the effect unit to different input channels and "
 "light up red. On the two deck layouts, from top to bottom, they assign the "
-"effect unit to deck 1, deck 2, master mix, and headphones. On the four "
-"effect unit layouts, they assign the effect unit to decks 1-4 going down the"
-" column. You can look down a column to see which decks an effect unit is "
+"effect unit to deck 1, deck 2, main mix, and headphones. On the four effect "
+"unit layouts, they assign the effect unit to decks 1-4 going down the "
+"column. You can look down a column to see which decks an effect unit is "
 "assigned. You can look across a row to see which effect units are assigned "
 "to a deck. When shift is pressed, the bottom two buttons switch to "
-"controlling the routing buttons for the master and headphones channels and "
+"controlling the routing buttons for the main and headphones channels and "
 "light up amber."
 msgstr ""
 

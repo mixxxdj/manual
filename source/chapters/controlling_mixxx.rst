@@ -22,6 +22,9 @@ can perform actions by pointing and clicking with your mouse.
   default action for that control. Moreover if you click on a value in the track
   list of the Mixxx :ref:`library <library-interface>`, you can change the
   value. For example the year of a track.
+* **Double Left Click**: Double-click on any knob or fader to reset it to its
+  default value. This is especially useful on touchscreens as executing a
+  right-click on them is usually tedious.
 * **Single Right Click**: On most buttons, performing a right click triggers a
   different action than a left click. You can return any knob or fader to its
   default value by right-clicking that control.

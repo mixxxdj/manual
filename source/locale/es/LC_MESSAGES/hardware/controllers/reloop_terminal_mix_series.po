@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
@@ -48,12 +48,12 @@ msgstr ""
 msgid ""
 "The Reloop Terminal Mix 2 and Terminal Mix 4 have integrated multichannel "
 "sound cards. Usually, the TerminalMix runs very well with USB power only. If"
-" you experience issues especially when powering both Master and Booth "
-"outputs at high levels you should use the additional power supply (6v/1.5A)."
-" The official manual from Reloop states not to operate the unit at "
-"temperatures below 5°C/41°F as it might damage A/D converters and other "
-"components. However, the audio output may already start crackling if the "
-"temperature drops below 10°C."
+" you experience issues especially when powering both main and booth outputs "
+"at high levels you should use the additional power supply (6v/1.5A). The "
+"official manual from Reloop states not to operate the unit at temperatures "
+"below 5°C/41°F as it might damage A/D converters and other components. "
+"However, the audio output may already start crackling if the temperature "
+"drops below 10°C."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:23
@@ -67,7 +67,7 @@ msgid ""
 "the controller, the RCA line jacks are at the back next to the line/phono "
 "switch. For both inputs there is a gain knob and a switch on the "
 "controller’s front side that toggles between routing the signal to the "
-"computer (:hwlabel:`SW`) or mixing it directly with the master output "
+"computer (:hwlabel:`SW`) or mixing it directly with the main output "
 "(:hwlabel:`MST`). :hwlabel:`MST` allows to play music from external sources "
 "without any software, for example while setting up Mixxx software. Switch to"
 " :hwlabel:`SW` if you want to use the line signal for vinyl control or AUX "
@@ -83,10 +83,10 @@ msgstr ""
 msgid ""
 "At the front, there are two headphone jacks (1/8\" and 1/4“), both affected "
 "by the hard-wired :hwlabel:`TONE` knob. At the back, there are unbalanced "
-"outputs for booth and master (RCA), as well as a balanced master output "
-"(1/4”). The output level of both master outputs, booth and headphone outputs"
-" are all controlled by respective hard-wired knobs in the center column "
-"which can’t be mapped to software."
+"outputs for booth and main (RCA), as well as a balanced main output (1/4”). "
+"The output level of both main outputs, booth and headphone outputs are all "
+"controlled by respective hard-wired knobs in the center column which can’t "
+"be mapped to software."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:42
@@ -557,8 +557,8 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:216
 msgid ""
-":hwlabel:`MASTER` knob - Adjust the master output volume of the internal "
-"sound card. *(Hard-wired knob, does not send MIDI messages)*"
+":hwlabel:`MASTER` knob - Adjust the main output volume of the internal sound"
+" card. *(Hard-wired knob, does not send MIDI messages)*"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:217
@@ -575,8 +575,8 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:219
 msgid ""
-":hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the master"
-" output you hear in the headphones."
+":hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the main "
+"output you hear in the headphones."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:220
@@ -643,17 +643,17 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:237
 msgid ""
-"LEDs display the hardware (!) volume of the Master output (2 blue LEDs at "
-"the top indicate clipping)"
+"LEDs display the hardware (!) volume of the main output (2 blue LEDs at the "
+"top indicate clipping)"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:238
 msgid ""
-"*Attention:* the Master volume might already clip in Mixxx before the "
-"hardware LEDs light up. You can adjust the hardware Master volume knob and "
-"target loudness in :menuselection:`Preferences --> Normalization --> "
-"ReplayGain` to keep enough headroom for the Master volume in Mixxx and make "
-"the lower blue LEDs light up when the Master volume clips in Mixxx"
+"*Attention:* the main volume might already clip in Mixxx before the hardware"
+" LEDs light up. You can adjust the hardware main volume knob and target "
+"loudness in :menuselection:`Preferences --> Normalization --> ReplayGain` to"
+" keep enough headroom for the main volume in Mixxx and make the lower blue "
+"LEDs light up when the main volume clips in Mixxx"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:240

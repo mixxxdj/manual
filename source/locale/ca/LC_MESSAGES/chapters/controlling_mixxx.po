@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
@@ -255,6 +255,13 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:25
 msgid ""
+"**Double Left Click**: Double-click on any knob or fader to reset it to its "
+"default value. This is especially useful on touchscreens as executing a "
+"right-click on them is usually tedious."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:28
+msgid ""
 "**Single Right Click**: On most buttons, performing a right click triggers a"
 " different action than a left click. You can return any knob or fader to its"
 " default value by right-clicking that control."
@@ -264,7 +271,7 @@ msgstr ""
 "que una rodeta o control lliscant tornin al valor per defecte si hi feu clic"
 " amb el botó dret."
 
-#: ../../chapters/controlling_mixxx.rst:28
+#: ../../chapters/controlling_mixxx.rst:31
 msgid ""
 "**Mouse Drag**: Click on a knob or fader, hold the left mouse button and "
 "move your cursor to change the value of the control. Use mouse drag to drop "
@@ -275,7 +282,7 @@ msgstr ""
 "arrossegar les pistes des de la llista de fitxers cap als plats, les caixes,"
 " llistes de reproducció i altres."
 
-#: ../../chapters/controlling_mixxx.rst:31
+#: ../../chapters/controlling_mixxx.rst:34
 msgid ""
 "**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values "
 "by placing the cursor over the control and moving the mouse wheel."
@@ -284,14 +291,14 @@ msgstr ""
 "el valor de les rodetes i els controls lliscants posant el ratolí sobre d'un"
 " control, i movent la rodeta del ratolí."
 
-#: ../../chapters/controlling_mixxx.rst:34
+#: ../../chapters/controlling_mixxx.rst:37
 msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the left- and right-click action "
 "respectively."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:38
+#: ../../chapters/controlling_mixxx.rst:41
 msgid ""
 "On a Macbook or a computer with a touchpad that lacks mouse buttons, a two-"
 "finger click gesture is often treated as a right click."
@@ -299,7 +306,7 @@ msgstr ""
 "En un Macbook, o un ordinador amb un ratolí tàctil que no tingui botons, el "
 "gest de clic amb dos dits fa habitualment d'acció de botó dret."
 
-#: ../../chapters/controlling_mixxx.rst:41
+#: ../../chapters/controlling_mixxx.rst:44
 msgid ""
 "Using the Mouse drag/wheel on the waveforms you can adjust zoom and playback"
 " rate of the tracks. For more information, go to :ref:`interface-waveform`."
@@ -308,7 +315,7 @@ msgstr ""
 "podeu ajustar el zoom i la velocitat de reproducció de les pistes. Per a més"
 " informació aneu a :ref:`interface-waveform`"
 
-#: ../../chapters/controlling_mixxx.rst:48
+#: ../../chapters/controlling_mixxx.rst:51
 msgid "Using a Keyboard"
 msgstr "Amb un teclat d'ordinador"
 
@@ -316,17 +323,17 @@ msgstr "Amb un teclat d'ordinador"
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:57
+#: ../../chapters/controlling_mixxx.rst:60
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
 msgstr ""
 "Dreceres de teclat del Mixxx (per a la disposició de teclat anglesa en-us)"
 
-#: ../../chapters/controlling_mixxx.rst:59
+#: ../../chapters/controlling_mixxx.rst:62
 msgid ""
 ":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:61
+#: ../../chapters/controlling_mixxx.rst:64
 msgid ""
 "Controlling Mixxx with a keyboard is handy. Unlike mouse control, the "
 "keyboard allows you to manage things simultaneously. For example, you can "
@@ -336,7 +343,7 @@ msgstr ""
 " permet fer accions simultàniament. Per exemple, podeu iniciar la "
 "reproducció d'una pista al plat 1 i parar el plat 2 al mateix temps."
 
-#: ../../chapters/controlling_mixxx.rst:65
+#: ../../chapters/controlling_mixxx.rst:68
 msgid ""
 "The default mapping for English keyboards is depicted in the figure above. "
 "It is divided into a left-hand side for deck 1 and right-hand side for deck "
@@ -348,7 +355,7 @@ msgstr ""
 "plat 2. Tingueu en compte que també podeu accedir a aquestes funcions amb la"
 " interfície del Mixxx."
 
-#: ../../chapters/controlling_mixxx.rst:69
+#: ../../chapters/controlling_mixxx.rst:72
 msgid ""
 "For some user groups, like those using :term:`controllers <controller>` or "
 ":term:`vinyl control`, it might be useful to enable/disable the keyboard "
@@ -356,7 +363,7 @@ msgid ""
 "Enable Keyboard Shortcuts`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:74
+#: ../../chapters/controlling_mixxx.rst:77
 msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the keyboard shortcuts of the "
@@ -366,17 +373,17 @@ msgstr ""
 "del Mixxx, es mostrarà una nota informativa amb les dreceres de teclat per "
 "al control, juntament amb la descripció del control."
 
-#: ../../chapters/controlling_mixxx.rst:78
+#: ../../chapters/controlling_mixxx.rst:81
 msgid "For a list of default shortcuts, go to :ref:`appendix-keyboard`."
 msgstr ""
 "Per a veure una llista de les dreceres per defecte, aneu a :ref:`appendix-"
 "keyboard`."
 
-#: ../../chapters/controlling_mixxx.rst:81
+#: ../../chapters/controlling_mixxx.rst:84
 msgid "Customizing the keyboard mapping"
 msgstr "Personalització les dreceres de teclat"
 
-#: ../../chapters/controlling_mixxx.rst:83
+#: ../../chapters/controlling_mixxx.rst:86
 msgid ""
 "Mixxx allows you to customize the keyboard control. For more information, go"
 " to:"
@@ -384,15 +391,15 @@ msgstr ""
 "El Mixxx permet personalitzar les dreceres de teclat. Per a més informació "
 "aneu a:"
 
-#: ../../chapters/controlling_mixxx.rst:85
+#: ../../chapters/controlling_mixxx.rst:88
 msgid ":ref:`advanced-keyboard`"
 msgstr ":ref:`advanced-keyboard`"
 
-#: ../../chapters/controlling_mixxx.rst:90
+#: ../../chapters/controlling_mixxx.rst:93
 msgid "Using MIDI/HID Controllers"
 msgstr "Amb controladores MIDI/HID"
 
-#: ../../chapters/controlling_mixxx.rst:92
+#: ../../chapters/controlling_mixxx.rst:95
 msgid ""
 "Mixxx supports MIDI and HID :term:`controllers <controller>` which are "
 "external hardware devices used to control audio applications. Many DJs "
@@ -400,33 +407,33 @@ msgid ""
 "similar to using a real mixer and turntables or :term:`CDJ`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:100
+#: ../../chapters/controlling_mixxx.rst:103
 msgid "Loading a controller mapping"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:108
+#: ../../chapters/controlling_mixxx.rst:111
 msgid "Mixxx Preferences - Loading a controller mapping"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:110
+#: ../../chapters/controlling_mixxx.rst:113
 msgid ""
 "Without loading the correct mapping, your controller does not work with "
 "Mixxx."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:112
+#: ../../chapters/controlling_mixxx.rst:115
 msgid "Connect your controller(s) to your computer"
 msgstr "Connecteu la(es) controladora(es) a l'ordinador"
 
-#: ../../chapters/controlling_mixxx.rst:113
+#: ../../chapters/controlling_mixxx.rst:116
 msgid "Start Mixxx"
 msgstr "Inicieu el Mixxx"
 
-#: ../../chapters/controlling_mixxx.rst:114
+#: ../../chapters/controlling_mixxx.rst:117
 msgid "Go to :menuselection:`Preferences --> Controllers`"
 msgstr "Aneu a :menuselection:`Preferències --> Controladores`"
 
-#: ../../chapters/controlling_mixxx.rst:115
+#: ../../chapters/controlling_mixxx.rst:118
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
@@ -434,28 +441,28 @@ msgstr ""
 "Seleccioneu el dispositiu de la llista de dispositius disponibles de "
 "l'esquerra, i canviarà la informació al panell dret"
 
-#: ../../chapters/controlling_mixxx.rst:117
+#: ../../chapters/controlling_mixxx.rst:120
 msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Mapping` "
 "drop-down menu"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:119
+#: ../../chapters/controlling_mixxx.rst:122
 msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:120
+#: ../../chapters/controlling_mixxx.rst:123
 msgid ""
 "Click :guilabel:`Apply` and Mixxx can now be controlled by your "
 "controller(s)."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:121
+#: ../../chapters/controlling_mixxx.rst:124
 msgid "Repeat step 4-7 for any of the controllers you want to use"
 msgstr ""
 "Repetiu els passos 4-7 per a cada una de les controladores que utilitzeu"
 
-#: ../../chapters/controlling_mixxx.rst:123
+#: ../../chapters/controlling_mixxx.rst:126
 msgid ""
 "If you do not find a connected device in the list, make sure to install any "
 "necessary drivers for that device."
@@ -463,11 +470,11 @@ msgstr ""
 "Si la controladora no apareix a la llista de dispositius connectats, "
 "assegureu-vos d'instal·lar els controladors del dispositiu."
 
-#: ../../chapters/controlling_mixxx.rst:127
+#: ../../chapters/controlling_mixxx.rst:130
 msgid "Supported controllers"
 msgstr "Controladores compatibles"
 
-#: ../../chapters/controlling_mixxx.rst:129
+#: ../../chapters/controlling_mixxx.rst:132
 msgid ""
 "Mixxx can use any :term:`MIDI`/:term:`HID` controller that is recognized by "
 "your :term:`OS <operating system>` (some may require drivers), as long as "
@@ -482,7 +489,7 @@ msgstr ""
 "El Mixxx incorpora un conjunt d'assignacions MIDI i HID per a diferents "
 "dispositius. Hi ha dues categories de fitxers de configuració:"
 
-#: ../../chapters/controlling_mixxx.rst:135
+#: ../../chapters/controlling_mixxx.rst:138
 msgid ""
 "**Mixxx Certified Mappings**: These mappings are verified by the Mixxx "
 "Development Team."
@@ -490,7 +497,7 @@ msgstr ""
 "**Configuracions certificades pel Mixxx**: Aquestes assignacions de controls"
 " s'han verificat per l'equip de desenvolupadors del Mixxx."
 
-#: ../../chapters/controlling_mixxx.rst:137
+#: ../../chapters/controlling_mixxx.rst:140
 msgid ""
 "**Community Supported Mappings**: These mappings are provided and have been "
 "verified as working by the Mixxx community, but the Mixxx Development Team "
@@ -503,7 +510,7 @@ msgstr ""
 "tenim accés als dispositius. Hi ha la possibilitat que tinguin errors o "
 "estiguin incomplertes."
 
-#: ../../chapters/controlling_mixxx.rst:142
+#: ../../chapters/controlling_mixxx.rst:145
 msgid ""
 "If you run into issues with any of these mappings, please file a :term:`bug "
 "report` on our `Bug Tracker`_ or tell us about it on our mailing list, "
@@ -517,11 +524,11 @@ msgstr ""
 "dels dispositius varia per a cada :term:`sistema operatiu <operating "
 "system>`, així que consulteu la documentació del dispositiu."
 
-#: ../../chapters/controlling_mixxx.rst:147
+#: ../../chapters/controlling_mixxx.rst:150
 msgid "Additional mappings are available in the `Controller mapping forum`_."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:149
+#: ../../chapters/controlling_mixxx.rst:152
 msgid ""
 "Before purchasing a controller to use with Mixxx, consult our `Hardware "
 "Compatibility wiki page`_. It contains the most up-to-date information about"
@@ -532,11 +539,11 @@ msgstr ""
 "actualitzada sobre quines controladores funcionen amb el Mixxx i detalls de "
 "cada una."
 
-#: ../../chapters/controlling_mixxx.rst:159
+#: ../../chapters/controlling_mixxx.rst:162
 msgid "Installing a mapping from the forum"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:160
+#: ../../chapters/controlling_mixxx.rst:163
 msgid ""
 "To use a controller mapping that did not come bundled with Mixxx, place the "
 "controller mapping in your User Mappings folder. To open it , go to "
@@ -546,7 +553,7 @@ msgid ""
 "be found in :ref:`appendix-settings-files`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:164
+#: ../../chapters/controlling_mixxx.rst:167
 msgid ""
 "If the mapping was posted as a :file:`.zip` file, first extract the "
 ":file:`.zip` file by right clicking on it in your file browser and selecting"
@@ -556,11 +563,11 @@ msgid ""
 ":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:171
+#: ../../chapters/controlling_mixxx.rst:174
 msgid "Map your own controller"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:173
+#: ../../chapters/controlling_mixxx.rst:176
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
@@ -571,15 +578,15 @@ msgstr ""
 "controladora utilitzant l'assistent d'aprenentatge o si voleu control total,"
 " utilitzeu el suport de scripts de MIDI del Mixxx."
 
-#: ../../chapters/controlling_mixxx.rst:177
+#: ../../chapters/controlling_mixxx.rst:180
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr "Aneu a :ref:`advanced-controller` per a més informació."
 
-#: ../../chapters/controlling_mixxx.rst:182
+#: ../../chapters/controlling_mixxx.rst:185
 msgid "Using Timecode Vinyl Records and CDs"
 msgstr "Amb CDs i disc de vinil amb codis de temps"
 
-#: ../../chapters/controlling_mixxx.rst:184
+#: ../../chapters/controlling_mixxx.rst:187
 msgid ""
 ":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
 "playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
@@ -589,6 +596,6 @@ msgid ""
 "of using digital audio."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:190
+#: ../../chapters/controlling_mixxx.rst:193
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr "Aneu a :ref:`vinyl-control` per a més informació."

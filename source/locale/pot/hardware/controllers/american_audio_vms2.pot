@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,11 +85,11 @@ msgid "The analog inputs are captured by the built-in soundcard as input signals
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:56
-msgid "The microphone input is mixed directly into the master output signal of the VMS2 in hardware and cannot be captured through software. If you want to record voice over using the Mixxx software, you will need a different solution. You can use a separate microphone attached to the computer, but that signal will not be routed to the VMS2 and therefore not be on the VMS2 master output (but in the Mixxx recording from the software master/record output)."
+msgid "The microphone input is mixed directly into the main output signal of the VMS2 in hardware and cannot be captured through software. If you want to record voice over using the Mixxx software, you will need a different solution. You can use a separate microphone attached to the computer, but that signal will not be routed to the VMS2 and therefore not be on the VMS2 main output (but in the Mixxx recording from the software main/record output)."
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:64
-msgid "Mixxx’s Deck 1/2 outputs are affected by the Mixxx software EQs. However, the VMS2’s volume faders and crossfader (as well as the headphone buttons) control the VMS2’s hardware mixer and do not affect Mixxx’s Deck 1 and Deck 2 output signals. Therefore, a recording using the Mixxx software will sound different from what is played through the VMS2 master output, as the crossfader curve and signal mixing are not the same in hardware and software. If you require a recording that captures exactly what the audience will hear, use a separate soundcard and recording software to record from the VMS2 booth output."
+msgid "Mixxx’s Deck 1/2 outputs are affected by the Mixxx software EQs. However, the VMS2’s volume faders and crossfader (as well as the headphone buttons) control the VMS2’s hardware mixer and do not affect Mixxx’s Deck 1 and Deck 2 output signals. Therefore, a recording using the Mixxx software will sound different from what is played through the VMS2 main output, as the crossfader curve and signal mixing are not the same in hardware and software. If you require a recording that captures exactly what the audience will hear, use a separate soundcard and recording software to record from the VMS2 booth output."
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:75
@@ -141,7 +141,7 @@ msgid "Cue Mix"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:88
-msgid "Cue Mix (PFL / Master)"
+msgid "Cue Mix (PFL / Main)"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:89
@@ -154,6 +154,10 @@ msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:91
 msgid "Master Gain"
+msgstr ""
+
+#: ../../hardware/controllers/american_audio_vms2.rst:91
+msgid "Main Gain"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:94

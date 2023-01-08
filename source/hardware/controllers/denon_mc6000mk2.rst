@@ -86,10 +86,10 @@ The number in the first column refers to the corresponding label in the *Ownerâ€
 36            VU METER DISP. SWITCH                            Select channel(s) for display
 37            CHANNEL FADER                                    Control channel output volume
 38            CROSS FADER                                      Control balance between assigned channels
-39            VU METER                                         Display channel/master output volume
+39            VU METER                                         Display channel/main output volume
 40            BOOTH ASSIGN                                     Select source for booth output
 41            BOOTH LEVEL                                      Control booth output volume
-42            MASTER LEVEL                                     Control master output volume
+42            MASTER LEVEL                                     Control main output volume
 43            HI KNOB                                          Control channel EQ (high freq.)
 43            MID KNOB                                         Control channel EQ (mid. freq.)
 43            LOW KNOB                                         Control channel EQ (low freq.)

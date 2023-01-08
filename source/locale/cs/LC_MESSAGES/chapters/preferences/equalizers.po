@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Czech (https://www.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -266,7 +266,7 @@ msgstr ""
 #: ../../chapters/preferences/equalizers.rst:43
 msgid ""
 "**Master EQ**: This section allows you to setup an EQ that affects the "
-"master output."
+"term:`main output`."
 msgstr ""
 
 #: ../../chapters/preferences/equalizers.rst:48

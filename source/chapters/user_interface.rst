@@ -588,8 +588,8 @@ control rate changes also from your computer's keyboard, see the chapter
 
   So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
   track with a beatgrid then deck 1 will win since numerically it is first. The
-  sync targets for decks are chosen with the new master sync feature, see
-  :ref:`master-sync` for more information.
+  sync targets for decks are chosen with the new sync lock feature, see
+  :ref:`sync-lock` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -926,7 +926,7 @@ It can be set to the left or right side, or to the center where it is unaffected
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. _interface-head-master:
+.. _interface-head-main:
 
 Headphone and Main Mix Controls
 ---------------------------------

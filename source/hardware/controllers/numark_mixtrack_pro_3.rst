@@ -15,7 +15,7 @@ a :ref:`splitter cable <hardware-splitter-cables>` or
 to preview tracks in headphones.
 
 The microphone input on the Pro version is not available to the computer
-through the controller’s sound card. It is mixed with the master output
+through the controller’s sound card. It is mixed with the main output
 in hardware, so this controller’s sound card is not suitable for
 broadcasting or recording the inputs. If you want to use the controller
 for broadcasting or recording, getting the non-Pro version with a
@@ -88,16 +88,16 @@ Mapping Description
 2. Master Gain
 ~~~~~~~~~~~~~~
 
-| Adjusts the master volume in the software.
+| Adjusts the main volume in the software.
 | **Note**: This control does not affect the microphone volume which is
-  summed with the final output of the Master Gain to the Master Output.
+  summed with the final output of the main gain to the main output.
   Use the Mic Gain knob to control the microphone volume.
 
 3. Cue Mix
 ~~~~~~~~~~
 
 Adjusts the software’s audio output to the headphones, mixing between
-the cue (PFL) output and the master mix output.
+the cue (PFL) output and the main mix output.
 
 4. Cue Gain
 ~~~~~~~~~~~
@@ -408,4 +408,4 @@ behave as a normal button (ON on first press, OFF on second press)
 30. Master Output LEDs
 ~~~~~~~~~~~~~~~~~~~~~~
 
-| Displays the audio level going to the Master Output.
+| Displays the audio level going to the main output.

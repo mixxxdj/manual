@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-06 07:18+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Greek (https://www.transifex.com/mixxx-dj-software/teams/7734/el/)\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgid "1-2"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:24
-msgid "Master"
+msgid "Main"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:25
@@ -123,7 +123,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_djc_4.rst:41
 msgid ""
 "On the rear side is a small switch to select if Input 1 is routed to the PC "
-"or directly to the master output (through). It is therefore possible to "
+"or directly to the main output (through). It is therefore possible to "
 "include the microphone into a recording/stream or to exclude it."
 msgstr ""
 
@@ -366,7 +366,7 @@ msgid "Level indicator"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:89
-msgid "Indicate the output level of master."
+msgid "Indicate the output level of main."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:90
@@ -791,7 +791,7 @@ msgid "``showMasterVu``"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:173
-msgid "If set to false, show channel VU meter instead of Master L/R"
+msgid "If set to false, show channel VU meter instead of Main L/R"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:173
