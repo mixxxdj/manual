@@ -602,6 +602,10 @@ control rate changes also from your computer's keyboard, see the chapter
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
 
+.. hint:: To make the rate and/or pitch automatically reset whenever a new
+          track is loaded go to :menuselection:`Preferences --> Decks -->
+          Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
+
 **Temporary Pitch/Rate buttons (Nudge)**
   Pushing the diagonal arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
