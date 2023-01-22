@@ -15,7 +15,7 @@ The top of the jog wheels on the Mk1 are black; The top of the jog wheels
 on the MK2 are shiny aluminum; The Kontrol S2 Mk3 does not have
 effects knobs at the top.
 
-.. versionadded:: 2.3.1
+.. versionadded:: 2.3.4
 
 Compatibility
 -------------
@@ -114,14 +114,8 @@ The transport controls work mostly as labelled on the controller:
 :hwlabel:`TEMPO` fader
     Adjusts the :term:`tempo`.
 :hwlabel:`RESET` button
-    Mixxx `does not yet have a very useful flux/slip
-    mode <https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this
-    button toggles the top pad row to the intro/outro cues. Press the button
+    This button toggles the top pad row to the intro/outro cues. Press the button
     when it is lit to return the top pad row to hotcue mode.
-
-    When slip mode is implemented in Mixxx in the future, this could be
-    changed so :hwlabel:`SHIFT` + :hwlabel:`RESET` button activates intro & outro mode for the
-    pads.
 
 Mixer
 ~~~~~
@@ -171,8 +165,8 @@ Crossfader
 Effects
 ~~~~~~~
 
-The Kontrol S2 MK1 uses the `standard Mixxx effects
-mapping <https://github.com/mixxxdj/mixxx/wiki/standard-effects-mapping>`__.
+The Kontrol S2 MK1 uses the :ref:`standard Mixxx effects
+mapping <controller-effects-mapping>`.
 
 Front panel
 ~~~~~~~~~~~
