@@ -11,9 +11,9 @@ bus power and an optional power supply can be connected to make the LEDs
 brighter and the headphone output louder.
 
 The Kontrol S2 MK1 can be distinguished from the Mk2 by the jog wheels.
-The top of the jog wheels on the Mk1 are black; The top of the jog wheels
-on the MK2 are shiny aluminum; The Kontrol S2 Mk3 does not have
-effects knobs at the top.
+The S2 MK1 has pressure sensitive jog wheels made of black plastic,
+while the S2 MK2 has touch sensitive jog wheels made of shiny aluminium;
+The Kontrol S2 MK3 does not have effects knobs at the top.
 
 .. versionadded:: 2.3.4
 
@@ -47,8 +47,8 @@ Decks
 Jog Wheels
 ^^^^^^^^^^
 
-Touch the top of the jog wheel and turn it to scratch. Move the jog
-wheel from the edge without touching the top to nudge the track. Hold
+Press the top of the jog wheel and turn it to scratch. Move the jog
+wheel from the edge without pressing the top to nudge the track. Hold
 :hwlabel:`SHIFT` and spin the jog wheel to seek quickly.
 
 Loop Section
@@ -156,7 +156,7 @@ Center Column
     Turn with :hwlabel:`SHIFT` to scroll 5 rows at a time.
 :hwlabel:`LOAD A`/:hwlabel:`LOAD B` buttons
     Load the track selected in the library to the corresponding deck.
-    Press with :hwlabel:`SHIFT` to unload a track.
+    Press with :hwlabel:`SHIFT` to clone the other deck.
 :hwlabel:`LEVEL` meters
     The meters show the levels for each deck.
 Crossfader
