@@ -50,6 +50,10 @@ Jog Wheels
 Press the top of the jog wheel and turn it to scratch. Move the jog
 wheel from the edge without pressing the top to nudge the track. Hold
 :hwlabel:`SHIFT` and spin the jog wheel to seek quickly.
+The threshold for the press of the jog wheels can be adjusted with the
+``JogWheelTouchThreshold`` variable in the
+:file:`Traktor-Kontrol-S2-MK1-hid-script.js` file in the controller mapping
+folder. This is necessary if it always or never scratches.
 
 Loop Section
 ^^^^^^^^^^^^
