@@ -80,6 +80,7 @@ Hotcues
 
 The four lower buttons of the topContainer are hotcues. They can be changed by using the corresponding Encoder [HOTCUE PAGE]. The current assignment will then be shown for one second in the upper row.
 Currently up to 4 Pages are supported (with 4 hotcues each).
+
 Controls
 ~~~~~~~~
 
