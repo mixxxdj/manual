@@ -384,6 +384,9 @@ a crate, or even the whole library) for tracks that match your search query.
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
+.. note:: The :guilabel:`Computer` and :guilabel:`Recording` views currently only
+          support simple case-insensitive filtering.
+
 Using search operators
 ----------------------
 
@@ -839,7 +842,7 @@ Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
-access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
+access. Click the :guilabel:`Computer` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
 The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that
 folder, right-click and choose :guilabel:`Remove from Quick Links`.

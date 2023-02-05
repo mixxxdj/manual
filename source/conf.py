@@ -452,11 +452,12 @@ linkcheck_ignore = [
     "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
     "https://www.numark.com/product/*",
     "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://support.pioneerdj.com/hc/sections/*",
     "https://www.roland.com/global/products/dj-505/*",
 ]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 20
+linkcheck_timeout = 60
 linkcheck_retries = 2
 
 # Don't verify TLS
