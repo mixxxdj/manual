@@ -847,19 +847,27 @@ Equalizers and Gain Knobs
                :ref:`Setting your levels properly (gain staging) <djing-gain-staging>`
                for a more detailed explanation.
 
-**Kill Switches**
-  The small boxes next to each EQ knob are called :term:`kills <kill switch>`.
-  Hold these buttons to fully remove that frequency range. Short click on the
-  buttons for latching. When in Latch mode, click again to restore the frequency
-  range. If the Kill switches do not work as expected, check the high/low shelf
-  EQ settings in the preferences.
+**EQ Buttons**
+  The small boxes next to each EQ knob are the EQ buttons. Their function depends on the
+  :menuselection:`Preferences --> Equalizer --> EQ Buttons Mode` setting.
+
+  When :guilabel:`Kill` is selected (the default value) the buttons act like :term:`kills <kill switch>`.
+  When the buttons are ON that frequency range will be fully attenuated.
+
+  When :guilabel:`Bypass` is selected the buttons disable the EQ on that frequency range.
+  When the buttons are ON that frequency range won't be altered, regardless of the position of the corresponding EQ knob.
+
+  Hold the EQ buttons to temporarily engage them. When you release them they will automatically return to their previous state.
+  Short click on the buttons to toggle to their other state.
+
+  .. hint :: If the EQ Buttons do not work as expected, check the high/low shelf EQ settings in the preferences.
 
 **Quick Effect Super knob**
   This knob lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
   Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
-  like the EQ Kill switches.
+  like the EQ Buttons.
 
 .. seealso:: You can customize the EQ settings in
              :menuselection:`Preferences --> Equalizer`.

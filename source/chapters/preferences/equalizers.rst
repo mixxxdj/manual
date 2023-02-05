@@ -17,28 +17,34 @@ Equalizers
 
     Equalizer Preferences
 
-:menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
+:menuselection:`Preferences --> Equalizers` allows you to setup the equalizers.
 
-* **Equalizer Rack**: The Equalizer Rack is a special effect rack that is
-  connected to the deck's equalizer and filter controls.
-
+* **Deck Equalizers**:
   In this section you can select the equalizers and quick effects that are used
   with the decks.
 
-* **Equalizer Plugin**: Here you can select the effect that is used as the
-  mixing EQ in each deck. By default only built-in equalizers are
-  displayed. Unchecking :menuselection:`Only allow EQ knobs to control EQ
-  specific effects` allows you to select any other effect.
+  * **Equalizer Plugin**: Here you can select the effect that is used as the
+    mixing EQ in each deck. By default only built-in equalizers are
+    displayed. Unchecking :menuselection:`Only allow EQ knobs to control EQ
+    specific effects` allows you to select any other effect.
 
-* **Quick Effect**: Here you can select the effect that is controlled by the
-  dedicated filter knob in each deck. By default only built-in filter effects
-  are selected for all decks, but that can be changed as above.
+  * **Quick Effect**: Here you can select the effect that is controlled by the
+    dedicated filter knob in each deck. By default only built-in filter effects
+    are selected for all decks, but that can be changed as above.
 
 * **High/Low Shelf EQ**: This slider sets the crossover frequencies of the
   mixing EQ. It controls which frequency range is affected by the low, mid, and
   high channel EQ knobs. By default the low knob controls the bass and sub bass
   range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
   The remaining treble range is controlled by the high knob.
+
+* **EQ Buttons Mode**: Here you can select the behaviour of the buttons that are next to each EQ knob.
+
+  When :guilabel:`Kill` is selected (the default value) the buttons act like :term:`kills <kill switch>`.
+  When the buttons are ON that frequency range will be fully attenuated.
+
+  When :guilabel:`Bypass` is selected the buttons disable the EQ on that frequency range.
+  When the buttons are ON that frequency range won't be altered, regardless of the position of the corresponding EQ knob.
 
 * **Master EQ**: This section allows you to setup an EQ that affects the master
   output.
