@@ -1208,13 +1208,6 @@ msgid ""
 "the :ref:`headphones <interface-head-master>` channel. Click the "
 "|ic_lib_preview_pause| icon to stop the playback."
 msgstr ""
-"Pour pré-écouter une piste, activer la colonne :guilabel:`Aperçu` dans la "
-"vue bibliothèque. Cliquer sur |'icône |ic_lib_preview_play| dans la colonne "
-":guilabel:`Aperçu` de la bibliothèque charge la piste sélectionnée sur une "
-":ref:`platine de prévisualisation <interface-preview-deck>` spéciale qui "
-"produira du son uniquement sur le canal :ref:`casque <interface-head-"
-"master>`. Cliquer sur l'icone |ic_lib_preview_pause| pour arrêter la "
-"lecture."
 
 #: ../../chapters/library.rst:485
 msgid ""

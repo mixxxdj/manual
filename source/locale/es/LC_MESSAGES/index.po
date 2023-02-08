@@ -239,7 +239,7 @@ msgstr "ritmo, tempo y detección de teclas musicales"
 
 #: ../../index.rst:19
 msgid "master sync"
-msgstr "sincronización maestra"
+msgstr ""
 
 #: ../../index.rst:20
 msgid "hotcues"

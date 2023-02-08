@@ -239,7 +239,7 @@ msgstr "beat, tempo, en muzikale toonaard detectie"
 
 #: ../../index.rst:19
 msgid "master sync"
-msgstr "master synchronisatie"
+msgstr ""
 
 #: ../../index.rst:20
 msgid "hotcues"

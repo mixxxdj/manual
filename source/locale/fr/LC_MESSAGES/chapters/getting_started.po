@@ -539,9 +539,6 @@ msgid ""
 "*Master*: all decks, samplers, microphones, and auxiliary inputs mixed "
 "together. This output is sent to the speakers for the audience."
 msgstr ""
-"*Master*: toutes les platines, échantillonneurs, microphones et entrées "
-"auxiliaires mélangés ensemble. Cette sortie est envoyée aux haut-parleurs "
-"pour le public."
 
 #: ../../chapters/getting_started.rst:170
 msgid ""
@@ -554,8 +551,6 @@ msgstr ""
 #: ../../chapters/getting_started.rst:172
 msgid "*Booth*: same as Master output, but has a separate gain control"
 msgstr ""
-"*Cabine*: identique à la sortie principale, mais avec un contrôle de gain "
-"séparé"
 
 #: ../../chapters/getting_started.rst:174
 #: ../../chapters/getting_started.rst:190
@@ -602,10 +597,6 @@ msgid ""
 "have a microphone plugged into the mixer, do not configure the Microphone "
 "1-4 inputs."
 msgstr ""
-"*Enregistrer/Diffuser*: Lorsque ceci est configuré, Mixxx enregistrera et "
-"diffusera à partir de cette entrée d'interface audio au lieu du mixage "
-"interne principal. Si un microphone est branché sur la table de mixage, ne "
-"configurer pas les entrées Microphone 1-4."
 
 #: ../../chapters/getting_started.rst:197
 msgid "**Either internal or external mixing**:"

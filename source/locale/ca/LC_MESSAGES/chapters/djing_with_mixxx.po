@@ -435,7 +435,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr "Sincronització mestra"
+msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -464,10 +464,6 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
 msgstr ""
-"La Sincronització mestra es capaç de determinar que una pista té el doble de"
-" BPM que una altra pista, i igualar-les correctament. Així doncs, si mescleu"
-" una pista drum & bass de 140 BPM amb una de 70BPM de dubstep, la "
-"Sincronització mestra les igualarà adequadament."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -476,10 +472,6 @@ msgid ""
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
 msgstr ""
-"Habitualment, la Sincronització mestra només s'encarrega del control de "
-"velocitat. Si voleu que també s'encarregui d'alinear els tocs, heu "
-"d'habilitar el botó :guilabel:`Quantitza`. Si està activat, la "
-"sincronització també farà que els tocs estiguin perfectament alineats."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"

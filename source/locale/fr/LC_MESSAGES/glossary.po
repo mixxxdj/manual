@@ -311,8 +311,6 @@ msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
 msgstr ""
-"Un curseur qui détermine à quel niveau chaque platine contribue à la "
-":term:`sortie principale`."
 
 #: ../../glossary.rst:373
 msgid "cue"
@@ -584,11 +582,6 @@ msgid ""
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
 msgstr ""
-"Le  bouton casque/mix est utilisé pour contrôler le mixage de la "
-":term:`sortie principale` dans votre :term:` sortie casque`. Cela peut être "
-"très utile lors de la :term:`pré-écoute` d'une piste, car vous pouvez tester"
-" ce que cela donne lorsqu'il est mélangé avec le mixage principal, dans "
-"votre casque, avant de laisser le public entendre la piste."
 
 #: ../../glossary.rst:49
 msgid "headphone button"
@@ -850,8 +843,6 @@ msgstr "sortie principale"
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
-"La sortie principale est la sortie audio maître. Il s'agit de ce que votre "
-"auditoire entend."
 
 #: ../../glossary.rst:322
 msgid "metadata"

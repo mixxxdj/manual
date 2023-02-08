@@ -307,8 +307,6 @@ msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
 msgstr ""
-"The crossfader és un control lliscant que determina en quina quantitat "
-"contribueix cada plat a la :term:`sortida mestra <master output>`."
 
 #: ../../glossary.rst:373
 msgid "cue"
@@ -552,11 +550,6 @@ msgid ""
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
 msgstr ""
-"La mescla d'auriculars s'utilitza per a poder mesclar la :term:`sortida "
-"mestra <master output>` cap a la :term:`sortida d'auriculars`. Això és molt "
-"útil quan es :term:`pre-escoltar <cueing>` una pista, donat que podeu "
-"escoltar amb els auriculars com sona quan es mescla amb la sortida mestra, "
-"abans de que el public senti la pista. "
 
 #: ../../glossary.rst:49
 msgid "headphone button"
@@ -814,8 +807,6 @@ msgstr "sortida mestra"
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
-"La sortida mestra, o Master, és la sortida d'audio principal. És el que "
-"escolta el públic."
 
 #: ../../glossary.rst:322
 msgid "metadata"

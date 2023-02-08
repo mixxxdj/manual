@@ -282,14 +282,6 @@ msgid ""
 "interface output. However, it can be used by radio DJs who only need to send"
 " the Master mix to a broadcast audience."
 msgstr ""
-"Ta postavitev se lahko uporablja z le enim zvočnim izhodom za zvočnike ali "
-"slušalke za vadbo didžejanja brez investiranja v dodatno opremo poleg "
-"računalnika, para zvo.čnikov in slušalk. V tej postavitvi uporabljate gumb  "
-":ref:`Pred/glavni <interface-head-master>`, s katerim preklapljate med "
-"glavnim miksom in :term:`PFL` signalom za predpolušanje. Postavitev ni "
-"primerna za predvajanje občinstvu, ker glavnik miks ni poslan na izhod "
-"zvočnega vmesnika. Lahko pa se uproablja za radijsko didžejanje, ko se "
-"glavni miks pretaka poslušalcem."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -373,8 +365,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"V padajočem meniju :guilabel:`Glavni master` izberite vgrajeni zovčni "
-"vmesnik in nato :guilabel:`Kanala 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -434,8 +424,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
-"V padajočem meniju :guilabel:`Glavni master` izberite vgrajeni zvočni "
-"vmesnik in nato :guilabel:`Kanal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -479,8 +467,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"V padajočem meniju :guilabel:`Glavni master`, izberite zunanji zvočni "
-"vmesnik in nato :guilabel:`Kanala 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -548,8 +534,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"V padajočem meniju :guilabel:`Glavni master`, izberite zvočni vmesnik "
-"kontrolerja in nato :guilabel:`Kanala 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""

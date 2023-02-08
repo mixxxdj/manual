@@ -536,8 +536,6 @@ msgid ""
 "*Master*: all decks, samplers, microphones, and auxiliary inputs mixed "
 "together. This output is sent to the speakers for the audience."
 msgstr ""
-"*Master*: alle decks, samplers, microfoons en aux-ingangen samen gemengd. "
-"Deze output wordt naar de sprekers gestuurd voor het publiek."
 
 #: ../../chapters/getting_started.rst:170
 msgid ""
@@ -550,7 +548,6 @@ msgstr ""
 #: ../../chapters/getting_started.rst:172
 msgid "*Booth*: same as Master output, but has a separate gain control"
 msgstr ""
-"*Booth*: zelfde als output, maar heeft een aparte versterkingsregeling"
 
 #: ../../chapters/getting_started.rst:174
 #: ../../chapters/getting_started.rst:190
@@ -597,10 +594,6 @@ msgid ""
 "have a microphone plugged into the mixer, do not configure the Microphone "
 "1-4 inputs."
 msgstr ""
-"*Record/Broadcast*: Wanneer dit is geconfigureerd, zal Mixxx opnemen en "
-"uitzenden vanaf deze audio-interface-ingang in plaats van de interne master-"
-"mix. Als u een microfoon op de mixer hebt aangesloten, configureer dan niet "
-"de microfoon 1-4 ingangen."
 
 #: ../../chapters/getting_started.rst:197
 msgid "**Either internal or external mixing**:"

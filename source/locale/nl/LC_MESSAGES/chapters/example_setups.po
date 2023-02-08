@@ -287,15 +287,6 @@ msgid ""
 "interface output. However, it can be used by radio DJs who only need to send"
 " the Master mix to a broadcast audience."
 msgstr ""
-"Deze opstelling kan worden gebruikt met een enkele audio-uitgang voor "
-"luidsprekers of koptelefoons om het DJ'en te oefenen zonder te investeren in"
-" andere apparatuur dan een computer en een set luidsprekers of koptelefoons."
-" Gebruik bij deze configuratie de: ref: `Pre/Main Knob <interface-head-"
-"master>` om heen en weer te schakelen tussen de Master mix en: term:` PFL` "
-"signaal. Deze opstelling kan niet worden gebruikt om voor een live publiek "
-"te spelen omdat de mastermix niet naar een audio-interface-uitgang wordt "
-"gestuurd. Het kan echter worden gebruikt door radio-dj's die de mastermix "
-"alleen willen uitzenden naar een thuispubliek."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -382,8 +373,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Selecteer in het :guilabel:`Master` drop-down menu uw ingebouwde audio-"
-"interface en vervolgens :guilabel:`Kanalen 1-2`."
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -448,8 +437,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Master` uw ingebouwde audio-"
-"interface en vervolgens: guilabel:` Kanaal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -494,8 +481,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Master` de externe audio-"
-"interface en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -567,8 +552,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Master` de audio-interface van "
-"je controller en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""

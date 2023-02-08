@@ -716,7 +716,6 @@ msgstr "ieșire master"
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
-"Ieșirea master este ieșirea audio principală. Este ceea ce publicul aude."
 
 #: ../../glossary.rst:322
 msgid "metadata"

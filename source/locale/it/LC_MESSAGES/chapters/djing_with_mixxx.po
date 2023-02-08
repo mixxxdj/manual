@@ -448,7 +448,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr " Master Sync"
+msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -477,8 +477,6 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
 msgstr ""
-"Master Sync noterà anche se una delle tue tracce è il doppio del BPM di un'altra traccia e le abbina correttamente. Quindi, se vuoi mixare una traccia drum & bass da 140 BPM con una\n"
-"traccia dubstep da 70 bpm, Master Sync si assicurerà che siano allineati correttamente."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -487,10 +485,6 @@ msgid ""
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
 msgstr ""
-"Solitamente, Master Sync si limita ad assicurarsi che i cursori rate siano "
-"impostati correttamente. Se vuoi anche assicurarti che i tuoi battiti siano "
-"perfettamente sincronizzati, attiva il pulsante :guilabel:`QUANTIZE`. Quando"
-" attivato, Quantize assicurerà che i battiti siano perfettamente allineati."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"

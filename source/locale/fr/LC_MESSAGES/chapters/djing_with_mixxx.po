@@ -452,7 +452,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr "Synchronisation principale"
+msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -473,17 +473,6 @@ msgid ""
 "won't interrupt the playback of the other decks.  However, changing the rate"
 " of a stopped deck will change the rate of playing decks."
 msgstr ""
-"Pour activer la synchronisation principale sur une platine, maintenir appuyé"
-" (ou maintenir cliqué à la souris) le bouton :guilabel:`SYNC`. Vous saurez "
-"que la synchronisation principale est activée lorsque le bouton sync restera"
-" allumé en permanence. La modification de vitesse sur n'importe quelle "
-"platine qui a le bouton sync allumé changera la vitesse de toutes les autres"
-" platines qui ont le bouton sync allumé. Il n'y a pas besoin de spécifier "
-"une platine comme maître ou suiveuse. Vous pouvez lire, arrêter, éjecter et "
-"mettre en file d'attente une piste avec la synchronisation principale et "
-"cela n'arrêtera pas la lecture des autres platines. Cependant, le changement"
-" de vitesse d'une platine arrêtée changera la vitesse des platines en "
-"lecture."
 
 #: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
@@ -492,11 +481,6 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
 msgstr ""
-"La synchronisation principale va aussi remarquer si le BPM d'une de vos "
-"pistes est le double de celui d'une autre piste et les faire correspondre "
-"correctement. Donc si vous voulez mixer une piste batterie & basse à 140 BPM"
-" et une piste dubstep à 70 BPM, la synchronisation principale assurera "
-"qu'elles soient alignées."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -505,11 +489,6 @@ msgid ""
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
 msgstr ""
-"Habituellement, la synchronisation principale va seulement assurer que les "
-"curseurs de vitesse sont réglés correctement. Si vous voulez aussi être sûrs"
-" que les battements sont parfaitement synchronisés, enclencher le bouton "
-":guilabel:`Quantification`. Quand elle est activée, la quantification "
-"assurera que les battements sont aussi parfaitement alignés."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"
@@ -564,11 +543,6 @@ msgid ""
 "--> Sound Hardware`. Refer to :ref:`microphones-record-broadcast-external-"
 "mixer` for details."
 msgstr ""
-"Par défaut, Mixxx enregistre la sortie principale. Alternativement, Mixxx "
-"peut enregistrer la sortie d'une table de mixage externe si vous avez une "
-"interface audio configurée pour l'entrée :guilabel:`Enregistrer/Diffuser` "
-"dans :menuselection:`Préférences --> Matériel sonore`. Voir "
-":ref:`microphones-record-broadcast-external-mixer` pour plus de détails."
 
 #: ../../chapters/djing_with_mixxx.rst:205
 msgid "Mixxx library - Recordings view"

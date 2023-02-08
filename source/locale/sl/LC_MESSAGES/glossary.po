@@ -292,8 +292,6 @@ msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
 msgstr ""
-"Navzkrižni drsnik je drsnik, ki določa, koliko zvoka prispeva posamičen "
-"predvajalnik v  :term:`master output`."
 
 #: ../../glossary.rst:373
 msgid "cue"
@@ -748,8 +746,6 @@ msgstr "glavni master izhod"
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
-"Glavni master Izhod je glavni zvočni izhod. Je tisto, kar slišijo "
-"poslušalci."
 
 #: ../../glossary.rst:322
 msgid "metadata"

@@ -309,8 +309,6 @@ msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`master output`."
 msgstr ""
-"De crossfader is een schuifregelaar die bepaalt hoeveel audio elk deck "
-"bijdraagt aan de :term:`master output`."
 
 #: ../../glossary.rst:373
 msgid "cue"
@@ -582,11 +580,6 @@ msgid ""
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
 msgstr ""
-"De head/mix-knop wordt gebruikt om te bepalen hoeveel u de :term:`master "
-"output` in uw :term:`hoofdtelefoonuitgang` mengt. Dit kan zeer nuttig zijn "
-"bij het :term:`cueen` van een track, omdat je dan kunt testen hoe het klinkt"
-" als je het mixt met de hoofdmix in je koptelefoon, alvorens je het publiek "
-"de track laat horen."
 
 #: ../../glossary.rst:49
 msgid "headphone button"
@@ -857,8 +850,6 @@ msgstr "master output"
 msgid ""
 "The master output is the main audio output. It is what your audience hears."
 msgstr ""
-"De master output is de belangrijkste audio-uitgang. Het is wat je publiek "
-"hoort."
 
 #: ../../glossary.rst:322
 msgid "metadata"

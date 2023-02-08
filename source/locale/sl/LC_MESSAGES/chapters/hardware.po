@@ -610,11 +610,6 @@ msgid ""
 "Alternatively, a sound card with at least 6 output channels can be used with"
 " Mixxx's :guilabel:`Booth` output."
 msgstr ""
-"Raba zunanje mešalke z notranjim miksanjem ni poterebno in zmanjšuje "
-"kakovost zvoka. Vsaka komponenta, skozi katero gre zvočni signal, zmanjšuje "
-"kakovost zvoka, zato se je dobro izogibati nepotrebnim zvočnim komponentam. "
-"Veliko DJ kontrolerjev ponuja ločene glavne in dodatne :guilabel:`booth` "
-"izhode z ločenim nadzorom glasnosti. "
 
 #: ../../chapters/hardware.rst:247
 msgid ""

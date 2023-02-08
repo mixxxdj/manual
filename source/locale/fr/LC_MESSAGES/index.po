@@ -240,7 +240,7 @@ msgstr "battement, tempo et détection de tonalité musicale"
 
 #: ../../index.rst:19
 msgid "master sync"
-msgstr "synchronisation principale"
+msgstr ""
 
 #: ../../index.rst:20
 msgid "hotcues"

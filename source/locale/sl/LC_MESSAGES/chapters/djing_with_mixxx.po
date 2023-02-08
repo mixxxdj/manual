@@ -439,7 +439,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr "Master sinhronizacije"
+msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -468,10 +468,6 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
 msgstr ""
-"Master sinhronizacije bo tudi opazil, če je BPM neke skladbe dvakratnik "
-"druge in jih pravilno izenačil. Če denimo miksaate 140 BPM drum&bass skladbo"
-" z 70 BPM dubstepom, bo Master sinhronizacije poskrbel, da bosta skladbi "
-"pravilno poravnani."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -480,10 +476,6 @@ msgid ""
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
 msgstr ""
-"Ponavadi bo Master sinhronizacije poskrbel le za to, da bodo drsniki za "
-"hitrost pravilno nastavljeni. Če želite tudi, da sta ritma popolnoma "
-"sinhronizirana, vklopite gumb :guilabel:`KVANTIZACIJA` button.Ko je "
-"aktiviran, bo poskrbel, da so dobe tudi prefektno poravnani."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"

@@ -239,7 +239,7 @@ msgstr "Ritem, tempo in zaznavanje glasbenih ključev"
 
 #: ../../index.rst:19
 msgid "master sync"
-msgstr "Glavna sinhronizacija"
+msgstr ""
 
 #: ../../index.rst:20
 msgid "hotcues"
