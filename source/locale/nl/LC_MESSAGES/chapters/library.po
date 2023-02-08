@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-02-08 20:41+0100\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
@@ -416,7 +416,7 @@ msgstr ""
 msgid "**Random sorting**"
 msgstr "**Willekeurig sorteren**"
 
-#: ../../chapters/library.rst:94 ../../chapters/library.rst:498
+#: ../../chapters/library.rst:94 ../../chapters/library.rst:501
 msgid ""
 "Click on the :guilabel:`Preview` column header to randomly sort tracks."
 msgstr ""
@@ -1098,11 +1098,17 @@ msgstr ""
 "Als het invoerveld voor zoeken de focus heeft, zijn de Mixxx-sneltoetsen "
 "uitgeschakeld, zie :ref: `control-keyboard`."
 
-#: ../../chapters/library.rst:388
+#: ../../chapters/library.rst:387
+msgid ""
+"The :guilabel:`Computer` and :guilabel:`Recording` views currently only "
+"support simple case-insensitive filtering."
+msgstr ""
+
+#: ../../chapters/library.rst:391
 msgid "Using search operators"
 msgstr "Gebruik van zoekoperatoren"
 
-#: ../../chapters/library.rst:390
+#: ../../chapters/library.rst:393
 msgid ""
 "Search operators allow you to form more complex search queries. They allow "
 "you to limit certain search terms to particular properties of your tracks."
@@ -1111,11 +1117,11 @@ msgstr ""
 "laten u toe om bepaalde zoektermen te beperken tot bepaalde eigenschappen "
 "van uw tracks."
 
-#: ../../chapters/library.rst:393
+#: ../../chapters/library.rst:396
 msgid "Mixxx supports the following filters:"
 msgstr "Mixxx ondersteunt de volgende filters:"
 
-#: ../../chapters/library.rst:395
+#: ../../chapters/library.rst:398
 msgid ""
 "**Text filtering**: album_artist, album, artist, comment, composer, crate, "
 "genre, grouping, location, title"
@@ -1123,30 +1129,30 @@ msgstr ""
 "**Tekstfiltering**: album_artiest, album, artiest, opmerking, componist, "
 "krat, genre, groepering, locatie, titel"
 
-#: ../../chapters/library.rst:407 ../../chapters/library.rst:424
-#: ../../chapters/library.rst:469
+#: ../../chapters/library.rst:410 ../../chapters/library.rst:427
+#: ../../chapters/library.rst:472
 msgid "Examples"
 msgstr ""
 
-#: ../../chapters/library.rst:410
+#: ../../chapters/library.rst:413
 msgid ""
 "It doesn't matter if you have space between the colon and the argument or "
 "not. Quotes must be used for multi-word text arguments."
 msgstr ""
 
-#: ../../chapters/library.rst:413
+#: ../../chapters/library.rst:416
 msgid "**Numeric filtering**: bitrate, bpm, played, rating, track, year"
 msgstr ""
 "**Numerieke filtering**: bitrate, bpm, afgespeeld, beoordeling, nummer, "
 "jaartal"
 
-#: ../../chapters/library.rst:427 ../../chapters/library.rst:472
+#: ../../chapters/library.rst:430 ../../chapters/library.rst:475
 msgid ""
 "You can put a space after the colon but currently there must be no space "
 "between the operator and the number."
 msgstr ""
 
-#: ../../chapters/library.rst:431
+#: ../../chapters/library.rst:434
 msgid ""
 "**Special filtering**: key, duration, added, dateadded, datetime_added, "
 "date_added"
@@ -1154,7 +1160,7 @@ msgstr ""
 "**Speciale filtering**: key, duur, toegevoegd, datum toegevoegd, "
 "datumtijd_toegevoegd, datum_toegevoegd"
 
-#: ../../chapters/library.rst:433
+#: ../../chapters/library.rst:436
 msgid ""
 "Supports fuzzy matching of key searches. The following example lists tracks "
 "with harmonically compatible keys to C# minor."
@@ -1163,7 +1169,7 @@ msgstr ""
 "belangrijke zoekopdrachten. Het volgende voorbeeld geeft een lijst van "
 "sporen met harmonisch compatibele toetsen tot C# minor."
 
-#: ../../chapters/library.rst:440
+#: ../../chapters/library.rst:443
 msgid ""
 "You can combine operators but there's no way to do an “OR” search right now."
 " The following example lists all tracks by “Danger” over 3 minutes long that"
@@ -1174,7 +1180,7 @@ msgstr ""
 "tracks van “Danger” van meer dan 3 minuten weergegeven, die 4 of 5 minuten "
 "lang zijn."
 
-#: ../../chapters/library.rst:448
+#: ../../chapters/library.rst:451
 msgid ""
 "Negative search filters. Use the ``-`` prefix as negation operator. The "
 "following example would find “hip-hop“ from any year but 1990."
@@ -1183,17 +1189,17 @@ msgstr ""
 "ontkenningsoperator. Het volgende voorbeeld zou “hip-hop“ vinden van elk "
 "jaar behalve voor het jaar 1990."
 
-#: ../../chapters/library.rst:455
+#: ../../chapters/library.rst:458
 msgid ""
 "Search for empty fields. The following example lists all tracks without a "
 "genre. It works for all text fields, including crates."
 msgstr ""
 
-#: ../../chapters/library.rst:478
+#: ../../chapters/library.rst:481
 msgid "Previewing Tracks"
 msgstr "Tracks voorbeluisteren"
 
-#: ../../chapters/library.rst:484
+#: ../../chapters/library.rst:487
 msgid ""
 "To pre-listen to a track, activate the :guilabel:`Preview` column in a "
 "library view. Clicking the |ic_lib_preview_play| icon in the library's "
@@ -1203,7 +1209,7 @@ msgid ""
 "|ic_lib_preview_pause| icon to stop the playback."
 msgstr ""
 
-#: ../../chapters/library.rst:491
+#: ../../chapters/library.rst:494
 msgid ""
 "Alternatively, select a track from the track list of the Mixxx library, drag"
 " the track to the waveform view of the :ref:`Preview Deck <interface-"
@@ -1214,7 +1220,7 @@ msgstr ""
 ":ref:`Preview Deck <interface-preview-deck>` en klikt u op de "
 ":guilabel:`Play`-knop naast de waveform."
 
-#: ../../chapters/library.rst:495
+#: ../../chapters/library.rst:498
 msgid ""
 "To display the :ref:`Preview Deck <interface-preview-deck>`, press "
 ":kbd:`CTRL` + :kbd:`4` (Windows/Linux) or :kbd:`CMD` + :kbd:`4` (Mac)."
@@ -1222,11 +1228,11 @@ msgstr ""
 "Om de :ref:`Preview Deck <interface-preview-deck>` te tonen, druk op "
 ":kbd:`CTRL` + :kbd:`4` (Windows/Linux) of :kbd:`CMD` + :kbd:`4` (Mac)."
 
-#: ../../chapters/library.rst:503
+#: ../../chapters/library.rst:506
 msgid "Edit metadata of audio files"
 msgstr "Bewerk metadata van audiobestanden"
 
-#: ../../chapters/library.rst:508
+#: ../../chapters/library.rst:511
 msgid ""
 "Mixxx reads relevant :term:`metadata` from the tracks and displays them in "
 "the library columns. You are free to edit most metadata, and Mixxx offers a "
@@ -1239,7 +1245,7 @@ msgstr ""
 "sommige informatie niet kan worden bewerkt, zoals bitrate, grootte, lengte, "
 "type, bestandsnaam en locatie."
 
-#: ../../chapters/library.rst:513
+#: ../../chapters/library.rst:516
 msgid ""
 "Mixxx does not support editing the metadata of many tracks at a time (bulk "
 "editing)."
@@ -1247,7 +1253,7 @@ msgstr ""
 "Mixxx ondersteunt geen verwerking van de metadata op meerdere tracks "
 "gelijktijdig (bulkverwerking)."
 
-#: ../../chapters/library.rst:516
+#: ../../chapters/library.rst:519
 msgid ""
 "Mixxx won't touch your audio files by default. Changes to a track's metadata"
 " will be saved to the Mixxx library, but **not** to the track itself."
@@ -1256,7 +1262,7 @@ msgstr ""
 "metagegevens van een track worden opgeslagen in de Mixxx-bibliotheek, maar "
 "**niet** in de track zelf."
 
-#: ../../chapters/library.rst:520
+#: ../../chapters/library.rst:523
 msgid ""
 "If you wish to write modified track metadata from the library into file "
 "tags, check the box in :menuselection:`Preferences --> Library --> Track "
@@ -1266,37 +1272,37 @@ msgstr ""
 " schrijven, vink dan het vakje aan in :menuselection:`Voorkeuren --> "
 "Bibliotheek --> Track Metadata Synchronisatie`."
 
-#: ../../chapters/library.rst:525
+#: ../../chapters/library.rst:528
 msgid "Manual Edit"
 msgstr "Handmatig bewerken"
 
-#: ../../chapters/library.rst:543
+#: ../../chapters/library.rst:546
 msgid "**Track Inline editing**:"
 msgstr "**Track Inline bewerken**"
 
-#: ../../chapters/library.rst:528
+#: ../../chapters/library.rst:531
 msgid ""
 "To enable inline editing in the :ref:`library <library-tracks>` go to "
 ":menuselection:`Preferences --> Library --> Miscellaneous` and check the box"
 " \"Edit metadata after clicking selected track\"."
 msgstr ""
 
-#: ../../chapters/library.rst:532
+#: ../../chapters/library.rst:535
 msgid ""
 "Select any track in the :ref:`library <library-tracks>` and click on the "
 "field you want to edit. If the field is editable, it will become an editable"
 " text box. Enter a value and hit :kbd:`Enter` when you are done."
 msgstr ""
 
-#: ../../chapters/library.rst:0 ../../chapters/library.rst:543
+#: ../../chapters/library.rst:0 ../../chapters/library.rst:546
 msgid "Mixxx library - Inline editing"
 msgstr "Mixxx-bibliotheek - Inline bewerken"
 
-#: ../../chapters/library.rst:573
+#: ../../chapters/library.rst:576
 msgid "**Properties editor**:"
 msgstr "**Eigenschappen editor**:"
 
-#: ../../chapters/library.rst:546
+#: ../../chapters/library.rst:549
 msgid ""
 "To open the editor right-click on a **single track** in the library or any "
 "track label in decks or samplers, then select :guilabel:`Properties` in the "
@@ -1304,29 +1310,29 @@ msgid ""
 "samplers to open the editor directly."
 msgstr ""
 
-#: ../../chapters/library.rst:551
+#: ../../chapters/library.rst:554
 msgid ""
 "Add or change values in the editable fields, and save your changes as "
 "explained below."
 msgstr ""
 
-#: ../../chapters/library.rst:0 ../../chapters/library.rst:561
+#: ../../chapters/library.rst:0 ../../chapters/library.rst:564
 msgid "Mixxx library - Properties editor"
 msgstr "Mixxx bibliotheek - Eigenschappen editor"
 
-#: ../../chapters/library.rst:563
+#: ../../chapters/library.rst:566
 msgid "**OK**: Accept the changes and close the editor."
 msgstr "**OK**: Accepteer de wijzigingen en sluit de editor."
 
-#: ../../chapters/library.rst:564
+#: ../../chapters/library.rst:567
 msgid "**Apply**: Accept the changes and leave the editor open."
 msgstr "**Toepassen**: Accepteer de wijzigingen en laat de editor open."
 
-#: ../../chapters/library.rst:565
+#: ../../chapters/library.rst:568
 msgid "**Cancel**: Discard the changes and close the editor."
 msgstr "**Annuleren**: negeer de wijzigingen en sluit de editor."
 
-#: ../../chapters/library.rst:566
+#: ../../chapters/library.rst:569
 msgid ""
 "**Previous/Next**: Load the previous or next track in the current library "
 "view."
@@ -1334,7 +1340,7 @@ msgstr ""
 "**vorige/Volgende**: Laadt de vorige of volgende track in de huidige "
 "bibliotheekweergave"
 
-#: ../../chapters/library.rst:568
+#: ../../chapters/library.rst:571
 msgid ""
 "**Import Metadata from File**: Prompts Mixxx to re-read the metadata of the "
 "selected track (such as when you have modified it externally with another "
@@ -1344,7 +1350,7 @@ msgstr ""
 "metagegevens van de geselecteerde track opnieuw in te lezen (bijvoorbeeld "
 "wanneer u deze extern met een andere toepassing hebt gewijzigd)."
 
-#: ../../chapters/library.rst:571
+#: ../../chapters/library.rst:574
 msgid ""
 "**Import Metadata from MusicBrainz**: Look up metadata on-line by searching "
 "the :term:`MusicBrainz` database. See below."
@@ -1352,11 +1358,11 @@ msgstr ""
 "**Importeer metadata van MusicBrainz**: Zoek on-line metadata door te zoeken"
 " in de :term:`MusicBrainz` database. Zie hieronder."
 
-#: ../../chapters/library.rst:576
+#: ../../chapters/library.rst:579
 msgid "Using the MusicBrainz online database"
 msgstr "Gebruik maken van de MusicBrainz online database"
 
-#: ../../chapters/library.rst:578
+#: ../../chapters/library.rst:581
 msgid ""
 "`MusicBrainz <https://musicbrainz.org/>`_ is an :term:`open-source` music "
 "encyclopedia that collects music :term:`metadata` and makes it available to "
@@ -1366,11 +1372,11 @@ msgstr ""
 "muziekencyclopedie die muziek :term:`metadata` verzamelt en beschikbaar "
 "stelt aan het publiek."
 
-#: ../../chapters/library.rst:0 ../../chapters/library.rst:589
+#: ../../chapters/library.rst:0 ../../chapters/library.rst:592
 msgid "Mixxx library - MusicBrainz Wizard"
 msgstr "Mixxx bibliotheek - MusicBrainz Wizard"
 
-#: ../../chapters/library.rst:591
+#: ../../chapters/library.rst:594
 msgid ""
 "The MusicBrainz wizard in Mixxx allows searching the MusicBrainz database "
 "and applying the results to your tracks."
@@ -1378,7 +1384,7 @@ msgstr ""
 "Met de MusicBrainz wizard in Mixxx kun je zoeken in de MusicBrainz database "
 "en de resultaten toepassen op je tracks."
 
-#: ../../chapters/library.rst:594
+#: ../../chapters/library.rst:597
 msgid ""
 "Click on a **single track** in the library and select :guilabel:`Get "
 "Metadata from MusicBrainz`. Mixxx fetches track data from the MusicBrainz "
@@ -1388,23 +1394,23 @@ msgstr ""
 " from MusicBrainz`. Mixxx haalt de trackgegevens uit de MusicBrainz-database"
 " en geeft de zoekresultaten weer."
 
-#: ../../chapters/library.rst:598
+#: ../../chapters/library.rst:601
 msgid ""
 "Select the best match from the search results by clicking on it in the list."
 msgstr ""
 "Selecteer de beste overeenkomst uit de zoekresultaten door erop te klikken "
 "in de lijst."
 
-#: ../../chapters/library.rst:600
+#: ../../chapters/library.rst:603
 msgid "**Apply**: Apply the selected MusicBrainz metadata to the track."
 msgstr ""
 "**Toepassen**: Pas de geselecteerde MusicBrainz metadata toe op de track."
 
-#: ../../chapters/library.rst:601
+#: ../../chapters/library.rst:604
 msgid "**Close**: Close the wizard."
 msgstr "**Sluiten**: Sluit de wizard."
 
-#: ../../chapters/library.rst:602
+#: ../../chapters/library.rst:605
 msgid ""
 "**Previous/Next**: Load the previous or next track in the current library "
 "view and perform a MusicBrainz lookup on it as well."
@@ -1412,27 +1418,27 @@ msgstr ""
 "**Vorige/Volgende**: Laadt het vorige of volgende nummer in de huidige "
 "bibliotheekweergave en voer er ook een MusicBrainz-zoekopdracht op uit."
 
-#: ../../chapters/library.rst:608
+#: ../../chapters/library.rst:611
 msgid "Fetching track metadata from MusicBrainz can fail:"
 msgstr "Het ophalen van track metadata uit MusicBrainz kan mislukken:"
 
-#: ../../chapters/library.rst:606
+#: ../../chapters/library.rst:609
 msgid ""
 "if Mixxx is unable to find the specified track in the MusicBrainz database,"
 msgstr ""
 "als Mixxx de opgegeven track niet kan vinden in de MusicBrainz-database,"
 
-#: ../../chapters/library.rst:607
+#: ../../chapters/library.rst:610
 msgid "if Mixxx cannot reach the MusicBrainz servers (if they are down),"
 msgstr ""
 "als Mixxx de MusicBrainz-servers niet kan bereiken (als ze niet beschikbaar "
 "zijn),"
 
-#: ../../chapters/library.rst:608
+#: ../../chapters/library.rst:611
 msgid "or if you are not connected to the Internet."
 msgstr "of als u geen verbinding met internet heeft."
 
-#: ../../chapters/library.rst:610
+#: ../../chapters/library.rst:613
 msgid ""
 "The MusicBrainz service has been designed for identifying full audio files. "
 "If a track is less than 2 minutes long, identifying the file will likely "
@@ -1445,11 +1451,11 @@ msgstr ""
 "van een gelaagde mix-track of mash-up kan valse positieven in de "
 "resultatenlijst opleveren."
 
-#: ../../chapters/library.rst:616
+#: ../../chapters/library.rst:619
 msgid "Using third-party software"
 msgstr "Gebruik van third-party software"
 
-#: ../../chapters/library.rst:618
+#: ../../chapters/library.rst:621
 msgid ""
 "If you have edited file metadata in third-party software you need to re-"
 "import the modified metadata into Mixxx manually by selecting the affected "
@@ -1457,7 +1463,7 @@ msgid ""
 "Import From File Tags`."
 msgstr ""
 
-#: ../../chapters/library.rst:622
+#: ../../chapters/library.rst:625
 msgid ""
 "Rescanning the library with :menuselection:`Library --> Rescan Library` in "
 "the menu on top of the application window will only detect newly added or "
@@ -1465,29 +1471,29 @@ msgid ""
 "limitation."
 msgstr ""
 
-#: ../../chapters/library.rst:630
+#: ../../chapters/library.rst:633
 msgid "Popular software to edit metadata of audio files include:"
 msgstr ""
 "Populaire software om metadata van audiobestanden te bewerken zijn onder "
 "andere:"
 
-#: ../../chapters/library.rst:628
+#: ../../chapters/library.rst:631
 msgid "`Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)"
 msgstr "`Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)"
 
-#: ../../chapters/library.rst:629
+#: ../../chapters/library.rst:632
 msgid "`Kid3 <https://kid3.sourceforge.io/>`_ (Mac, Windows, Linux)"
 msgstr "`Kid3 <https://kid3.sourceforge.io/>`_ (Mac, Windows, Linux)"
 
-#: ../../chapters/library.rst:630
+#: ../../chapters/library.rst:633
 msgid "`Picard <https://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)"
 msgstr "`Picard <https://picard.musicbrainz.org/>`_ (Mac, Windows, Linux)"
 
-#: ../../chapters/library.rst:635
+#: ../../chapters/library.rst:638
 msgid "Auto DJ - Automate your mix"
 msgstr "Auto DJ - automatiseer uw mix"
 
-#: ../../chapters/library.rst:640
+#: ../../chapters/library.rst:643
 msgid ""
 "|ic_lib_autodj| The Auto DJ queue is a special playlist that contains extra "
 "controls for automatic mixing. This is useful when taking a break from live "
@@ -1498,18 +1504,18 @@ msgstr ""
 "een pauze neemt van live mixen of voor het gebruik van Mixxx als "
 "mediaspeler."
 
-#: ../../chapters/library.rst:644
+#: ../../chapters/library.rst:647
 msgid "The Auto DJ features in detail:"
 msgstr "De Auto DJ-functies in detail:"
 
-#: ../../chapters/library.rst:646
+#: ../../chapters/library.rst:649
 msgid ""
 "**Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist."
 msgstr ""
 "**Shuffle-knop**: Wijzigt de volgorde van de tracks in de Auto DJ-"
 "afspeellijst in willekeurige volgorde."
 
-#: ../../chapters/library.rst:647
+#: ../../chapters/library.rst:650
 msgid ""
 "**Add Random button**: Adds a random track from track sources (crates) to "
 "the Auto DJ queue. If no track sources are configured, the track is added "
@@ -1520,18 +1526,18 @@ msgstr ""
 " zijn geconfigureerd, wordt de track in plaats daarvan toegevoegd uit de "
 "bibliotheek."
 
-#: ../../chapters/library.rst:650
+#: ../../chapters/library.rst:653
 msgid "**Skip track button**: Skips the next track in the Auto DJ playlist."
 msgstr ""
 "**Knop Track Overslaan**: Hiermee slaat u het volgende nummer in de Auto DJ-"
 "afspeellijst over."
 
-#: ../../chapters/library.rst:651
+#: ../../chapters/library.rst:654
 msgid "**Fade now button**: Triggers the transition to the next track."
 msgstr ""
 "**Knop Nu Faden**: Brengt de overgang naar het volgende nummer tot stand."
 
-#: ../../chapters/library.rst:652
+#: ../../chapters/library.rst:655
 msgid ""
 "**Transition time spin-box**: Determines the duration of the transition. A "
 "negative value will add a pause between tracks."
@@ -1539,18 +1545,18 @@ msgstr ""
 "**Overgangstijd spin-box**: Bepaalt de duur van de overgang. Een negatieve "
 "waarde voegt een pauze toe tussen de tracks."
 
-#: ../../chapters/library.rst:654
+#: ../../chapters/library.rst:657
 msgid ""
 "**Selection Info label**: Displays the duration and number of selected "
 "tracks. Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ"
 " queue."
 msgstr ""
 
-#: ../../chapters/library.rst:656
+#: ../../chapters/library.rst:659
 msgid "**Enable Auto DJ button**: Toggles the Auto DJ mode on or off."
 msgstr "**Schakelaar Auto DJ-knop**: Schakelt de Auto DJ-modus in of uit."
 
-#: ../../chapters/library.rst:658
+#: ../../chapters/library.rst:661
 msgid ""
 "The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now` "
 "buttons are only accessible if the Auto DJ mode is enabled. The Search field"
@@ -1568,11 +1574,11 @@ msgstr ""
 "DJ Requeue` optie activeren in :menuselection:`Voorkeuren --> Auto DJ --> "
 "Tracks herhalen na afspelen`."
 
-#: ../../chapters/library.rst:667
+#: ../../chapters/library.rst:670
 msgid "**Auto DJ Crates**"
 msgstr "**Auto DJ Kratten**"
 
-#: ../../chapters/library.rst:669
+#: ../../chapters/library.rst:672
 msgid ""
 "It is possible to add random tracks to the bottom of the Auto DJ playlist. "
 "The tracks are chosen from a set of crates that you have set as a source for"
@@ -1591,15 +1597,15 @@ msgstr ""
 ":menuselection:`Voorkeuren --> Auto DJ --> Minimaal beschikbare tracks in "
 "Track Source`."
 
-#: ../../chapters/library.rst:676
+#: ../../chapters/library.rst:679
 msgid "For more information, go to the chapter :ref:`djing-auto-dj`."
 msgstr "Voor meer informatie, ga naar het hoofdstuk :ref:`djing-auto-dj`."
 
-#: ../../chapters/library.rst:681
+#: ../../chapters/library.rst:684
 msgid "Playlists - Arranging tracks in a set order"
 msgstr "Afspeellijsten - tracks rangschikken in een vaste volgorde"
 
-#: ../../chapters/library.rst:686
+#: ../../chapters/library.rst:689
 msgid ""
 "|ic_lib_playlist| Playlists are ordered lists of tracks that allow you to "
 "plan your DJ sets. Some DJs construct playlists before they perform live; "
@@ -1610,7 +1616,7 @@ msgstr ""
 " ze live optreden; anderen geven er de voorkeur aan ze ter plekke on-the-fly"
 " samen te stellen."
 
-#: ../../chapters/library.rst:690
+#: ../../chapters/library.rst:693
 msgid ""
 "Playlists are not directly loadable into decks as Mixxx is primarily "
 "intended for live, attended performance use. However, you can right-click a "
@@ -1623,7 +1629,7 @@ msgstr ""
 "wachtrij van :ref:`Auto DJ <library-auto-dj>` te zetten, dus in zekere zin "
 "kunt u deze \"afspelen\"."
 
-#: ../../chapters/library.rst:695
+#: ../../chapters/library.rst:698
 msgid ""
 "**Create a playlist**:  Right-click on the :guilabel:`Playlists` sidebar "
 "item and select :guilabel:`Create New Playlist`. Name the playlist and click"
@@ -1635,7 +1641,7 @@ msgstr ""
 "Afspeellijst`. Geef de afspeellijst een naam en klik op :guilabel:`OK`. Het "
 "totaal aantal tracks en de totale duur worden naast de naam getoond."
 
-#: ../../chapters/library.rst:699
+#: ../../chapters/library.rst:702
 msgid ""
 "**Import playlists**: Right-click on the :guilabel:`Playlists` sidebar item "
 "and select :guilabel:`Import Playlist`. Select one or more playlists and "
@@ -1648,7 +1654,7 @@ msgstr ""
 ":guilabel:`OK`. Mixxx maakt een import van deze bestaande externe "
 "afspeellijsten als nieuwe Mixxx-afspeellijsten."
 
-#: ../../chapters/library.rst:704
+#: ../../chapters/library.rst:707
 msgid ""
 "**Add Tracks**: Add tracks to a previously created playlist by dragging-and-"
 "dropping a selection of tracks from the library or playlists onto the name "
@@ -1661,7 +1667,7 @@ msgstr ""
 "het contextmenu met de rechtermuisknop gebruiken in de :ref:`tracklijst "
 "<library-tracks>` van de bibliotheek."
 
-#: ../../chapters/library.rst:709
+#: ../../chapters/library.rst:712
 msgid ""
 "If you have a track selected in the library, all of the visible playlist and"
 " crates that it is in are shown in bold."
@@ -1669,7 +1675,7 @@ msgstr ""
 "Als u een track in de bibliotheek hebt geselecteerd, worden alle zichtbare "
 "afspeellijsten en kratten waarin het voorkomt vetgedrukt weergegeven."
 
-#: ../../chapters/library.rst:712
+#: ../../chapters/library.rst:715
 msgid ""
 "Right-click on an existing playlist name to access the different features in"
 " the context menu:"
@@ -1677,7 +1683,7 @@ msgstr ""
 "Klik met de rechtermuisknop op een bestaande afspeellijstnaam om toegang te "
 "krijgen tot de verschillende functies in het contextmenu:"
 
-#: ../../chapters/library.rst:715
+#: ../../chapters/library.rst:718
 msgid ""
 "**Add to Auto DJ**: Adds the content of the playlist to the :ref:`Auto DJ "
 "<library-auto-dj>` queue for automatic mixing."
@@ -1685,7 +1691,7 @@ msgstr ""
 "**Toevoegen aan Auto DJ**: Voegt de inhoud van de afspeellijst toe aan de "
 ":ref:`Auto DJ <library-auto-dj>` wachtrij voor automatisch mixen."
 
-#: ../../chapters/library.rst:717
+#: ../../chapters/library.rst:720
 msgid ""
 "**Rename**: To rename a playlist, just enter a new playlist name and click "
 ":guilabel:`OK`."
@@ -1693,7 +1699,7 @@ msgstr ""
 "**Hernoemen**: Om de naam van een afspeellijst te wijzigen, voert u een "
 "nieuwe naam in en klikt u op :guilabel:`OK`."
 
-#: ../../chapters/library.rst:719
+#: ../../chapters/library.rst:722
 msgid ""
 "**Duplicate**: Sometimes you want to build a playlist based on an existing "
 "one. Select the playlist you would like to duplicate, choose "
@@ -1705,7 +1711,7 @@ msgstr ""
 "kies :guilabel:`Dupliceer Afspeellijst`, geef de nieuwe afspeellijst een "
 "naam en klik op :guilabel:`OK`."
 
-#: ../../chapters/library.rst:722
+#: ../../chapters/library.rst:725
 msgid ""
 "**Remove**: Removes an unlocked playlist. Tracks that were in the playlist "
 "remain in the library for later use."
@@ -1713,7 +1719,7 @@ msgstr ""
 "**Verwijderen**: Verwijdert een ontgrendelde afspeellijst. Tracks die in de "
 "afspeellijst stonden, blijven in de bibliotheek staan voor later gebruik."
 
-#: ../../chapters/library.rst:724
+#: ../../chapters/library.rst:727
 msgid ""
 "**Lock**: |ic_lib_locked| This icon indicates a locked playlist. If a "
 "playlist is locked, you cannot add tracks, rename or delete the playlist. "
@@ -1724,7 +1730,7 @@ msgstr ""
 "naam wijzigen of de afspeellijst verwijderen. Kies :guilabel:`Ontgrendel` "
 "uit het context menu om de playlist te ontgrendelen."
 
-#: ../../chapters/library.rst:727
+#: ../../chapters/library.rst:730
 msgid ""
 "**Analyze entire playlist**: Forces the analysis of the tracks in the "
 "playlist in the :ref:`Analyze <library-analyze>` view."
@@ -1732,7 +1738,7 @@ msgstr ""
 "**Analyseer gehele afspeellijst**: Forceert de analyse van de tracks in de "
 "afspeellijst in de :ref:`Analyseer <library-analyze>` weergave."
 
-#: ../../chapters/library.rst:729
+#: ../../chapters/library.rst:732
 msgid ""
 "**Import playlist**: Import tracks from external playlists in various file "
 "formats to the selected playlist. For more information, go to :ref:`library-"
@@ -1742,7 +1748,7 @@ msgstr ""
 "verschillende bestandsformaten naar de geselecteerde afspeellijst. Voor meer"
 " informatie, ga naar :ref:`library-third-party`."
 
-#: ../../chapters/library.rst:732
+#: ../../chapters/library.rst:735
 msgid ""
 "**Export playlist**: Export a playlist to various file formats such as "
 ":file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This "
@@ -1752,7 +1758,7 @@ msgstr ""
 "bestandsformaten zoals :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, "
 "of :file:`csv`. Hiermee kunt u de gegevens in andere toepassingen gebruiken."
 
-#: ../../chapters/library.rst:735
+#: ../../chapters/library.rst:738
 msgid ""
 "**Export Track files**: This copies all of the tracks in a playlist into a "
 "folder such as an external USB stick. Only files are copied, not Mixxx-"
@@ -1765,11 +1771,11 @@ msgstr ""
 "metagegevens zoals waveforms of covers die niet in het bestand zijn "
 "opgenomen."
 
-#: ../../chapters/library.rst:743
+#: ../../chapters/library.rst:746
 msgid "Crates - Organizing tracks into collections"
 msgstr "Kratten - tracks organiseren in collecties"
 
-#: ../../chapters/library.rst:748
+#: ../../chapters/library.rst:751
 msgid ""
 "|ic_lib_crates|  Crates are unordered collections of tracks, just like DJ "
 "cases holding your favorite records."
@@ -1777,7 +1783,7 @@ msgstr ""
 "|ic_lib_crates| Kratten zijn ongeordende verzamelingen van tracks, net als "
 "DJ koffers die je favoriete platen bevatten."
 
-#: ../../chapters/library.rst:751
+#: ../../chapters/library.rst:754
 msgid ""
 "**Create a crate**: Right-click on the :guilabel:`Crates` sidebar item and "
 "select :guilabel:`Create New Crate`. Name the crate and click "
@@ -1789,7 +1795,7 @@ msgstr ""
 "naam en klik op :guilabel:`OK`. Het totaal aantal tracks en de totale duur "
 "worden naast de naam getoond."
 
-#: ../../chapters/library.rst:754
+#: ../../chapters/library.rst:757
 msgid ""
 "**Import crates**: Right-click on the :guilabel:`Crates` sidebar item and "
 "select :guilabel:`Import Crate`. Select one or more playlists and click "
@@ -1801,7 +1807,7 @@ msgstr ""
 "een of meer afspeellijsten en klik op :guilabel:`OK`. Mixxx maakt een import"
 " van deze bestaande externe afspeellijsten als nieuwe Mixxx-kratten."
 
-#: ../../chapters/library.rst:759
+#: ../../chapters/library.rst:762
 msgid ""
 "**Add Tracks**: Add tracks to a previously created crate by dragging-and-"
 "dropping a selection of tracks from the library or playlists onto the name "
@@ -1813,7 +1819,7 @@ msgstr ""
 "een krat in de zijbalk te slepen. U kunt ook het contextmenu in de "
 ":ref:`tracklijst <library-tracks>` van de bibliotheek gebruiken."
 
-#: ../../chapters/library.rst:764
+#: ../../chapters/library.rst:767
 msgid ""
 "Right-click on an existing crate's name to access the different features in "
 "the context menu:"
@@ -1821,7 +1827,7 @@ msgstr ""
 "Klik met de rechtermuisknop op de naam van een bestaande krat om de "
 "verschillende functies in het contextmenu te openen:"
 
-#: ../../chapters/library.rst:767
+#: ../../chapters/library.rst:770
 msgid ""
 "**Rename**: To rename a crate, enter the new crate name and click "
 ":guilabel:`OK`."
@@ -1829,7 +1835,7 @@ msgstr ""
 "**Hernoemen**: Om een krat te hernoemen, voert u de nieuwe kratnaam in en "
 "klikt u op :guilabel:`OK`."
 
-#: ../../chapters/library.rst:769
+#: ../../chapters/library.rst:772
 msgid ""
 "**Duplicate**: Just like playlists you can duplicate an existing crate. "
 "Select the crate you would like to duplicate, choose :guilabel:`Duplicate "
@@ -1839,7 +1845,7 @@ msgstr ""
 " Selecteer de krat die u wilt dupliceren, kies :guilabel:`Dupliceer Krat`, "
 "geef de nieuwe krat een naam en klik :guilabel:`OK`."
 
-#: ../../chapters/library.rst:772
+#: ../../chapters/library.rst:775
 msgid ""
 "**Remove**: Removes an unlocked crate. Tracks in the crate are still "
 "available in the library for later use."
@@ -1847,7 +1853,7 @@ msgstr ""
 "**Verwijderen**: Verwijdert een ontgrendelde krat. Tracks in de krat zijn "
 "nog steeds beschikbaar in de bibliotheek voor later gebruik."
 
-#: ../../chapters/library.rst:774
+#: ../../chapters/library.rst:777
 msgid ""
 "**Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is "
 "locked, you cannot add tracks, rename or delete the crate. Choose "
@@ -1858,7 +1864,7 @@ msgstr ""
 "krat verwijderen. Kies :guilabel:`Ontgrendel` uit het context menu om de "
 "krat te deblokkeren."
 
-#: ../../chapters/library.rst:777
+#: ../../chapters/library.rst:780
 msgid ""
 "**Auto DJ Track Source**: Use this crate as a source for random tracks in "
 "Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` ."
@@ -1866,7 +1872,7 @@ msgstr ""
 "**Auto DJ Track Bron**: Gebruik deze krat als een bron voor willekeurige "
 "tracks in Auto DJ, zie :ref:`Auto DJ kratten <djing-auto-dj-crates>` ."
 
-#: ../../chapters/library.rst:779
+#: ../../chapters/library.rst:782
 msgid ""
 "**Analyze entire crate**: Forces the analysis of the crate in the "
 ":ref:`Analyze <library-analyze>` view."
@@ -1874,7 +1880,7 @@ msgstr ""
 "**Analyseer gehele krat**: Forceert de analyse van de krat in de "
 ":ref:`Analyse <library-analyze>` weergave."
 
-#: ../../chapters/library.rst:781
+#: ../../chapters/library.rst:784
 msgid ""
 "**Import crate**: Import tracks from external playlists in various file "
 "formats to the selected crate."
@@ -1882,7 +1888,7 @@ msgstr ""
 "**Importeer krat**: Importeer tracks uit externe afspeellijsten in "
 "verschillende bestandsformaten naar het geselecteerde krat."
 
-#: ../../chapters/library.rst:783
+#: ../../chapters/library.rst:786
 msgid ""
 "**Export crate**: Export a crate to various file formats, such as "
 ":file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This "
@@ -1892,7 +1898,7 @@ msgstr ""
 "zoals :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, of :file:`csv`. "
 "Hierdoor kunt u de gegevens in andere toepassingen gebruiken."
 
-#: ../../chapters/library.rst:786
+#: ../../chapters/library.rst:789
 msgid ""
 "**Export Track files**: This copies all of the tracks in a crate into a "
 "folder such as an external USB stick. Only files are copied, not Mixxx-"
@@ -1904,11 +1910,11 @@ msgstr ""
 "worden gekopieerd, niet de Mixxx-specifieke metagegevens zoals waveforms of "
 "cover art die niet in het bestand zijn ingesloten."
 
-#: ../../chapters/library.rst:791
+#: ../../chapters/library.rst:794
 msgid "Crates vs. Playlists"
 msgstr "Kratten vs. Afspeellijsten"
 
-#: ../../chapters/library.rst:798
+#: ../../chapters/library.rst:801
 msgid ""
 "Crates are unordered collections of tracks. Unlike playlists, they cannot "
 "contain duplicate entries and do not support arranging tracks within them."
@@ -1917,7 +1923,7 @@ msgstr ""
 "afspeellijsten, kunnen ze geen dubbele items bevatten en ondersteunen ze het"
 " rangschikken van tracks niet."
 
-#: ../../chapters/library.rst:801
+#: ../../chapters/library.rst:804
 msgid ""
 "Often DJs group tracks by genre, keep lists of favorite tracks, and/or "
 "prepare lists of tracks they want to play at a particular party. In these "
@@ -1934,7 +1940,7 @@ msgstr ""
 "Dat is het doel van kratten. Je kan ze zien als labels in GMail of Web 2.0 "
 "tags voor je muziek."
 
-#: ../../chapters/library.rst:808
+#: ../../chapters/library.rst:811
 msgid ""
 "If however you want to plan out a specific set and practice the transitions,"
 " you will want an ordered list of tracks. Playlists serve this purpose."
@@ -1942,18 +1948,18 @@ msgstr ""
 "Als je echter een specifieke set wilt plannen en de overgangen wilt oefenen,"
 " wil je een geordende lijst van nummers. Dat is het doel van afspeellijsten."
 
-#: ../../chapters/library.rst:815
+#: ../../chapters/library.rst:818
 msgid "Computer - Loading tracks from anywhere on your computer"
 msgstr "Computer - Tracks laden vanaf elke locatie op uw computer"
 
-#: ../../chapters/library.rst:820
+#: ../../chapters/library.rst:823
 msgid ""
 "|ic_lib_computer| This mode works like a file manager and allows you to load"
 " tracks from anywhere on your computer and connected devices, that are not "
 "necessarily already in your Mixxx library."
 msgstr ""
 
-#: ../../chapters/library.rst:824
+#: ../../chapters/library.rst:827
 msgid ""
 "Click the :guilabel:`Computer` sidebar item to navigate the computer and "
 "find your music. Depending on your :term:`operating system`, your music will"
@@ -1962,13 +1968,13 @@ msgid ""
 " directly to the :ref:`interface-waveform`."
 msgstr ""
 
-#: ../../chapters/library.rst:830
+#: ../../chapters/library.rst:833
 msgid "Currently you can only drag files (not folders) to the Mixxx library."
 msgstr ""
 "Momenteel kunt u alleen bestanden (geen mappen) naar de Mixxx-bibliotheek "
 "slepen."
 
-#: ../../chapters/library.rst:832
+#: ../../chapters/library.rst:835
 msgid ""
 "Right-click on a folder and choose :guilabel:`Add to Library` to add the "
 "folder as an additional music directory. Mixxx will watch this directory and"
@@ -1978,36 +1984,29 @@ msgstr ""
 "bibliotheek` om de map toe te voegen als een extra muziekdirectory. Mixxx "
 "zal deze map en de submappen ervan in de gaten houden op nieuwe nummers."
 
-#: ../../chapters/library.rst:836
+#: ../../chapters/library.rst:839
 msgid "For more information, go to :ref:`configuration-import`."
 msgstr ""
 
-#: ../../chapters/library.rst:839
+#: ../../chapters/library.rst:842
 msgid "Quick Links - Bookmark your favorite folders"
 msgstr "Quick Links - Maak een bladwijzer van uw favoriete mappen"
 
-#: ../../chapters/library.rst:841
+#: ../../chapters/library.rst:844
 msgid ""
 "Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for "
-"direct access. Click the :guilabel:`Browse` sidebar item and navigate to the"
-" folder you would like to bookmark. Right-click and choose :guilabel:`Add to"
-" Quick Links`. The folder is now pinned below the :guilabel:`Quick Links`. "
-"To un-pin that folder, right-click and choose :guilabel:`Remove from Quick "
-"Links`."
+"direct access. Click the :guilabel:`Computer` sidebar item and navigate to "
+"the folder you would like to bookmark. Right-click and choose :guilabel:`Add"
+" to Quick Links`. The folder is now pinned below the :guilabel:`Quick "
+"Links`. To un-pin that folder, right-click and choose :guilabel:`Remove from"
+" Quick Links`."
 msgstr ""
-"Met behulp van het :guilabel:`Quick Links` submenu kunt u mappen als "
-"bladwijzer instellen voor directe toegang. Klik in de zijbalk op het  "
-":guilabel:`Browse`  menu-item en navigeer naar de map die u wilt bookmarken."
-" Klik met de rechtermuisknop en kies :guilabel:`Aan Quick Links`. De map "
-"wordt nu vastgepind onder de :guilabel:`Quick Links`. Om het vastpinnen van "
-"de map ongedaan te maken, klikt u met de rechtermuisknop en kiest u "
-":guilabel:`Verwijderen uit Quick Links`."
 
-#: ../../chapters/library.rst:848
+#: ../../chapters/library.rst:851
 msgid "Recordings"
 msgstr "Opnamen"
 
-#: ../../chapters/library.rst:850
+#: ../../chapters/library.rst:853
 msgid ""
 "|ic_lib_recordings| In this section of the library you can start and stop "
 "recording your session as well as view previous recordings and the dates "
@@ -2017,15 +2016,15 @@ msgstr ""
 "uw sessie starten en stoppen, maar ook eerdere opnames bekijken en de data "
 "waarop ze zijn gemaakt."
 
-#: ../../chapters/library.rst:854
+#: ../../chapters/library.rst:857
 msgid "For more information, go to :ref:`djing-recording-your-mix`."
 msgstr "Voor meer informatie, ga naar :ref:`djing-recording-your-mix`."
 
-#: ../../chapters/library.rst:859
+#: ../../chapters/library.rst:862
 msgid "History - Keep track of your sessions"
 msgstr "Geschiedenis - Houd uw sessies bij"
 
-#: ../../chapters/library.rst:864
+#: ../../chapters/library.rst:867
 msgid ""
 "|ic_lib_history| The history section automatically keeps a list of tracks "
 "you play in your DJ sets. This is handy for remembering what worked in your "
@@ -2040,11 +2039,11 @@ msgstr ""
 "een nieuwe geschiedenissectie gemaakt. Als u geen tracks speelt tijdens de "
 "sessie, wordt deze verwijderd."
 
-#: ../../chapters/library.rst:870
+#: ../../chapters/library.rst:873
 msgid "|ic_lib_history_current| This icon indicates the current session."
 msgstr "|ic_lib_history_current| Dit icoon geeft de huidige sessie aan."
 
-#: ../../chapters/library.rst:872
+#: ../../chapters/library.rst:875
 msgid ""
 "Click on the *History* icon in the sidebar to switch to the "
 ":guilabel:`History` view, then right-click on a session's name/date to "
@@ -2055,7 +2054,7 @@ msgstr ""
 "naam/datum van een sessie om toegang te krijgen tot de verschillende "
 "functies:"
 
-#: ../../chapters/library.rst:875
+#: ../../chapters/library.rst:878
 msgid ""
 "**Add to Auto DJ**: Adds the content of the session to the :ref:`Auto DJ "
 "<djing-auto-dj>` queue for automatic mixing."
@@ -2063,14 +2062,14 @@ msgstr ""
 "**Toevoegen aan Auto DJ**: Voegt de inhoud van de sessie toe aan de "
 ":ref:`Auto DJ <djing-auto-dj>` wachtrij voor automatisch mixen."
 
-#: ../../chapters/library.rst:877
+#: ../../chapters/library.rst:880
 msgid ""
 "**Rename**: Rename a session. The default is the calendar date (YYYY-MM-DD)."
 msgstr ""
 "**Hernoem**: Hernoem een sessie. De standaard is de kalenderdatum (JJJJ-MM-"
 "DD)."
 
-#: ../../chapters/library.rst:878
+#: ../../chapters/library.rst:881
 msgid ""
 "**Remove**: Remove a previous (unlocked) session. (You cannot remove the "
 "current session.)"
@@ -2078,7 +2077,7 @@ msgstr ""
 "**Verwijderen**: Verwijder een vorige (niet vergrendelde) sessie. (U kunt de"
 " huidige sessie niet verwijderen)."
 
-#: ../../chapters/library.rst:880
+#: ../../chapters/library.rst:883
 msgid ""
 "**Lock**: Protect a previous session against accidental merge or deletion. "
 "An |ic_lib_locked| icon indicates a locked session."
@@ -2086,7 +2085,7 @@ msgstr ""
 "**Slot**: Bescherm een vorige sessie tegen het ongewenst samenvoegen of "
 "verwijderen. Een |ic_lib_locked| icoon geeft een vergrendelde sessie aan."
 
-#: ../../chapters/library.rst:882
+#: ../../chapters/library.rst:885
 msgid ""
 "**Create new history playlist**: Split off the current history session and "
 "add a new session without having to restart Mixxx. The current history must "
@@ -2097,7 +2096,7 @@ msgstr ""
 "hoeven starten. De huidige geschiedenis moet ten minste één track bevatten "
 "om deze optie beschikbaar te maken."
 
-#: ../../chapters/library.rst:885
+#: ../../chapters/library.rst:888
 msgid ""
 "**Join with previous**: Append the selected history session to the end of "
 "the previous one."
@@ -2105,7 +2104,7 @@ msgstr ""
 "**Voeg samen met vorige**: Voegt de geselecteerde historische sessie toe aan"
 " het einde van de vorige."
 
-#: ../../chapters/library.rst:887
+#: ../../chapters/library.rst:890
 msgid ""
 "**Export playlist**: Export a session in various file formats. This allows "
 "you to use the data in other applications."
@@ -2114,11 +2113,11 @@ msgstr ""
 "bestandsformaten. Hierdoor kunt u de gegevens in andere toepassingen "
 "gebruiken."
 
-#: ../../chapters/library.rst:893
+#: ../../chapters/library.rst:896
 msgid "Analyze - Prepare your tracks"
 msgstr "Analyseren - Bereid uw tracks voor"
 
-#: ../../chapters/library.rst:895
+#: ../../chapters/library.rst:898
 msgid ""
 "|ic_lib_analyze| This section allows you to analyze your tracks in advance "
 "of loading them into a deck. Analyzing tracks requires considerable CPU "
@@ -2127,52 +2126,52 @@ msgid ""
 "library` for details."
 msgstr ""
 
-#: ../../chapters/library.rst:904
+#: ../../chapters/library.rst:907
 msgid "Using libraries from other software"
 msgstr ""
 
-#: ../../chapters/library.rst:910
+#: ../../chapters/library.rst:913
 msgid "Supported libraries:"
 msgstr "Ondersteunde bibliotheken:"
 
-#: ../../chapters/library.rst:912
-msgid ""
-"|ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)"
-msgstr ""
-"|ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)"
-
-#: ../../chapters/library.rst:913
-msgid ""
-"|ic_lib_traktor| `Traktor <https://www.native-"
-"instruments.com/en/catalog/traktor/>`_ (Windows, macOS)"
-msgstr ""
-"|ic_lib_traktor| `Traktor <https://www.native-"
-"instruments.com/en/catalog/traktor/>`_ (Windows, macOS)"
-
-#: ../../chapters/library.rst:914
-msgid ""
-"|ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ "
-"(GNU/Linux)"
-msgstr ""
-"|ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ "
-"(GNU/Linux)"
-
 #: ../../chapters/library.rst:915
+msgid ""
+"|ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)"
+msgstr ""
+"|ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)"
+
+#: ../../chapters/library.rst:916
+msgid ""
+"|ic_lib_traktor| `Traktor <https://www.native-"
+"instruments.com/en/catalog/traktor/>`_ (Windows, macOS)"
+msgstr ""
+"|ic_lib_traktor| `Traktor <https://www.native-"
+"instruments.com/en/catalog/traktor/>`_ (Windows, macOS)"
+
+#: ../../chapters/library.rst:917
+msgid ""
+"|ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ "
+"(GNU/Linux)"
+msgstr ""
+"|ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ "
+"(GNU/Linux)"
+
+#: ../../chapters/library.rst:918
 msgid ""
 "|ic_lib_banshee| `Banshee <https://bansheemediaplayer.github.io/>`_ "
 "(Windows, macOS, GNU/Linux)"
 msgstr ""
 
-#: ../../chapters/library.rst:916
+#: ../../chapters/library.rst:919
 msgid "|ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)"
 msgstr ""
 
-#: ../../chapters/library.rst:917
+#: ../../chapters/library.rst:920
 msgid ""
 "|ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)"
 msgstr ""
 
-#: ../../chapters/library.rst:919
+#: ../../chapters/library.rst:922
 msgid ""
 "The external library views allow you to use music libraries you have created"
 " in these third-party applications. You can access music as well as "
@@ -2184,14 +2183,14 @@ msgstr ""
 "muziek als afspeellijsten. Indien beschikbaar, laadt Mixxx automatisch de "
 "externe bibliotheken vanaf hun standaardlocaties op uw harde schijf."
 
-#: ../../chapters/library.rst:924
+#: ../../chapters/library.rst:927
 msgid ""
 "Playing a track from an external library will add it to your Mixxx library."
 msgstr ""
 "Als u een nummer uit een externe bibliotheek afspeelt, wordt het aan uw "
 "Mixxx-bibliotheek toegevoegd."
 
-#: ../../chapters/library.rst:927
+#: ../../chapters/library.rst:930
 msgid ""
 "External libraries can be disabled under :menuselection:`Preferences --> "
 "Library`."
@@ -2199,11 +2198,11 @@ msgstr ""
 "Externe bibliotheken kunnen worden uitgeschakeld onder "
 ":menuselection:`Voorkeuren --> Bibliotheek`."
 
-#: ../../chapters/library.rst:933
+#: ../../chapters/library.rst:936
 msgid "Using the iTunes/Traktor/Rhythmbox/Bashee/Rekordbox library"
 msgstr ""
 
-#: ../../chapters/library.rst:935
+#: ../../chapters/library.rst:938
 msgid ""
 "Right-click on the iTunes icon in the Library tree and select "
 ":guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from"
@@ -2214,7 +2213,7 @@ msgstr ""
 "Library.xml` van een andere locatie te laden. Selecteer :guilabel:`Gebruik "
 "standaardbibliotheek` om te resetten."
 
-#: ../../chapters/library.rst:939
+#: ../../chapters/library.rst:942
 msgid ""
 "Right-click on a iTunes/Traktor/Rhythmbox/Banshee playlist and choose "
 ":guilabel:`Import Playlist` to import it into a new Mixxx playlist."
@@ -2223,7 +2222,7 @@ msgstr ""
 "afspeellijst en kies :guilabel:`Importeer Afspeellijst` om deze te "
 "importeren in een nieuwe Mixxx afspeellijst."
 
-#: ../../chapters/library.rst:941
+#: ../../chapters/library.rst:944
 msgid ""
 "If you have an iTunes configuration file (:file:`\\*.xml`) from a Windows or"
 " Mac partition mounted in Linux, you can load it and use your iTunes tracks "
@@ -2233,11 +2232,11 @@ msgstr ""
 " of Mac partitie, dan kunt u dat in Linux laden en uw iTunes tracks en "
 "afspeellijsten ook gebruiken."
 
-#: ../../chapters/library.rst:948
+#: ../../chapters/library.rst:951
 msgid "Using the Rekordbox library"
 msgstr ""
 
-#: ../../chapters/library.rst:949
+#: ../../chapters/library.rst:952
 msgid ""
 "To read Rekordbox databases for CDJ/XDJ players on USB or SD devices, the "
 "database has to be exported to a USB or SD device with a FAT or HFS file "
@@ -2246,104 +2245,104 @@ msgid ""
 "management` in Rekordbox are not supported."
 msgstr ""
 
-#: ../../chapters/library.rst:954
+#: ../../chapters/library.rst:957
 msgid "Plug your USB or SD drive in while Mixxx is running."
 msgstr ""
 
-#: ../../chapters/library.rst:955
+#: ../../chapters/library.rst:958
 msgid ""
 "Click on the :guilabel:`Rekordbox` item in the library sidebar to scan for  "
 "Rekordbox prepared USB drives. If no Rekordbox devices show up, you can "
 "click on :guilabel:`Check for attached Rekordbox devices (refresh)`."
 msgstr ""
 
-#: ../../chapters/library.rst:956
+#: ../../chapters/library.rst:959
 msgid ""
 "Click on the desired removable device. All your folders and playlists will "
 "be revealed for you to play from."
 msgstr ""
 
-#: ../../chapters/library.rst:959
+#: ../../chapters/library.rst:962
 msgid "How Rekordbox hotcues, memory cues, and loops are imported"
 msgstr ""
 
-#: ../../chapters/library.rst:960
+#: ../../chapters/library.rst:963
 msgid "The following data is read:"
 msgstr ""
 
-#: ../../chapters/library.rst:962
+#: ../../chapters/library.rst:965
 msgid "Folders"
 msgstr ""
 
-#: ../../chapters/library.rst:963
+#: ../../chapters/library.rst:966
 msgid "Playlists"
 msgstr ""
 
-#: ../../chapters/library.rst:964
+#: ../../chapters/library.rst:967
 msgid "Beatgrids"
 msgstr ""
 
-#: ../../chapters/library.rst:965
+#: ../../chapters/library.rst:968
 msgid "Hot cues"
 msgstr ""
 
-#: ../../chapters/library.rst:966
+#: ../../chapters/library.rst:969
 msgid "Memory cues"
 msgstr ""
 
-#: ../../chapters/library.rst:967
+#: ../../chapters/library.rst:970
 msgid "Loops"
 msgstr ""
 
-#: ../../chapters/library.rst:969
+#: ../../chapters/library.rst:972
 msgid ""
 "Mixxx currently has one main cue point, one loop, and thirty eight hotcues. "
 "As such:"
 msgstr ""
 
-#: ../../chapters/library.rst:971
+#: ../../chapters/library.rst:974
 msgid ""
 "All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first "
 "chronological Rekordbox memory cue is mapped to the Mixxx main cue."
 msgstr ""
 
-#: ../../chapters/library.rst:972
+#: ../../chapters/library.rst:975
 msgid ""
 "The first chronological Rekordbox loop is also mapped to the Mixxx loop."
 msgstr ""
 
-#: ../../chapters/library.rst:973
+#: ../../chapters/library.rst:976
 msgid ""
 "All loops (including the first loop), and all subsequent Rekordbox memory "
 "cues are appended as Mixxx hotcues following the previously imported "
 "Rekordbox hotcues."
 msgstr ""
 
-#: ../../chapters/library.rst:974
+#: ../../chapters/library.rst:977
 msgid ""
 "The hotcue and memory cue colors you assigned in Rekordbox are also "
 "imported, assisting in distinguishing between them."
 msgstr ""
 
-#: ../../chapters/library.rst:976
+#: ../../chapters/library.rst:979
 msgid ""
 "Although additional imported Rekordbox loops only appear in Mixxx 2.3 as "
 "hotcues, their loop information is stored in the Mixxx library and will "
 "become usable in Mixxx 2.4."
 msgstr ""
 
-#: ../../chapters/library.rst:981
+#: ../../chapters/library.rst:984
 msgid "Using the Serato library"
 msgstr ""
 
-#: ../../chapters/library.rst:983
+#: ../../chapters/library.rst:986
 msgid ""
 "Mixxx supports reading your Serato library and crates both from your local "
 "hard drive as well as portable USB drives. Smart crates are currently not "
 "supported."
 msgstr ""
 
-#: ../../chapters/library.rst:985
+#: ../../chapters/library.rst:988
 msgid ""
 "Serato stores information such as hot cues, saved loops, track color and "
 "beatgrid in the file tags. Regardless of whether a track is loaded into deck"
@@ -2351,66 +2350,66 @@ msgid ""
 "information automatically if present."
 msgstr ""
 
-#: ../../chapters/library.rst:988
+#: ../../chapters/library.rst:991
 msgid "Waveforms, Gain values and \"Flips\" are not imported from Serato."
 msgstr ""
 
-#: ../../chapters/library.rst:990
+#: ../../chapters/library.rst:993
 msgid ""
 "Due to differences in the metadata format, importing Serato information from"
 " Ogg Vorbis files is currently not supported."
 msgstr ""
 
-#: ../../chapters/library.rst:992
+#: ../../chapters/library.rst:995
 msgid "To import Serato libraries from external USB drives:"
 msgstr ""
 
-#: ../../chapters/library.rst:994
+#: ../../chapters/library.rst:997
 msgid "Copy music library from Serato into external USB drive"
 msgstr ""
 
-#: ../../chapters/library.rst:995
+#: ../../chapters/library.rst:998
 msgid "Plug in USB drive while Mixxx is running"
 msgstr ""
 
-#: ../../chapters/library.rst:996
+#: ../../chapters/library.rst:999
 msgid ""
 "Click on :guilabel:`Serato` in the library. All USB drives containing a "
 "Serato library will be detected automatically."
 msgstr ""
 
-#: ../../chapters/library.rst:997
+#: ../../chapters/library.rst:1000
 msgid ""
 "For each removable device, the library and all crates from Serato will "
 "accessible."
 msgstr ""
 
-#: ../../chapters/library.rst:999
+#: ../../chapters/library.rst:1002
 msgid ""
 "If you have already added a track containing Serato Metadata to your Mixxx "
 "library in a Mixxx version that didn't support reading that data, you can "
 "reimport it from the file's tags via the track context menu."
 msgstr ""
 
-#: ../../chapters/library.rst:1001
+#: ../../chapters/library.rst:1004
 msgid ""
 "This action will clear your existing cuepoints in Mixxx if the file contains"
 " Serato Metadata"
 msgstr ""
 
-#: ../../chapters/library.rst:1003
+#: ../../chapters/library.rst:1006
 msgid "To reimport metadata from files:"
 msgstr ""
 
-#: ../../chapters/library.rst:1005
+#: ../../chapters/library.rst:1008
 msgid "Right click on the track to show the context menu"
 msgstr ""
 
-#: ../../chapters/library.rst:1006
+#: ../../chapters/library.rst:1009
 msgid "Select :menuselection:`Metadata --> Import From File Tags`."
 msgstr ""
 
-#: ../../chapters/library.rst:1008
+#: ../../chapters/library.rst:1011
 msgid ""
 "Decoders may slightly detect different track start and end times for files "
 "from different sources, this could possibly be because of the presence of "
@@ -2420,11 +2419,11 @@ msgid ""
 "track at once as a workaround."
 msgstr ""
 
-#: ../../chapters/library.rst:1015
+#: ../../chapters/library.rst:1018
 msgid "Removing tracks from the library"
 msgstr "Tracks uit de bibliotheek verwijderen"
 
-#: ../../chapters/library.rst:1017
+#: ../../chapters/library.rst:1020
 msgid ""
 "Removing tracks from the Mixxx library will **not** physically delete them "
 "from your drive. However it does delete extra metadata Mixxx might have "
@@ -2436,11 +2435,11 @@ msgstr ""
 " zou kunnen hebben (zoals hotcues en de beatgrids), en verwijdert links naar"
 " afspeellijsten of kratten."
 
-#: ../../chapters/library.rst:1021
+#: ../../chapters/library.rst:1024
 msgid "Click the :guilabel:`Library` item in the sidebar."
 msgstr "Klik op het menu-item :guilabel:`Bibliotheek` in de zijbalk."
 
-#: ../../chapters/library.rst:1022
+#: ../../chapters/library.rst:1025
 msgid ""
 "Find and select the tracks you want to remove, perform a right-click on them"
 " and select :guilabel:`Hide from Library` from the context menu."
@@ -2449,7 +2448,7 @@ msgstr ""
 "rechtermuisknop op en selecteer :guilabel:`Verberg in Bibliotheek` uit het "
 "contextmenu."
 
-#: ../../chapters/library.rst:1024
+#: ../../chapters/library.rst:1027
 msgid ""
 "Expand the :guilabel:`Library` item in the sidebar and click on the "
 ":guilabel:`Hidden tracks` sub-item. All tracks that were set to be hidden "
@@ -2459,7 +2458,7 @@ msgstr ""
 ":guilabel:`Verborgen tracks` sub-item. Alle tracks die waren ingesteld om te"
 " worden verborgen uit de bibliotheek zullen hier verschijnen."
 
-#: ../../chapters/library.rst:1027
+#: ../../chapters/library.rst:1030
 msgid ""
 "Select the tracks you want to remove, or use the :guilabel:`Select All` "
 "button."
@@ -2467,7 +2466,7 @@ msgstr ""
 "Selecteer de ytracks die u wilt verwijderen, of gebruik de "
 ":guilabel:`Selecteer Alles` knop."
 
-#: ../../chapters/library.rst:1029
+#: ../../chapters/library.rst:1032
 msgid ""
 "To confirm you want to permanently remove these tracks from the library, "
 "click :guilabel:`Purge`."
@@ -2475,14 +2474,14 @@ msgstr ""
 "Om te bevestigen dat u deze tracks definitief uit de bibliotheek wilt "
 "verwijderen, klikt u op :guilabel:`Purge`."
 
-#: ../../chapters/library.rst:1032
+#: ../../chapters/library.rst:1035
 msgid ""
 "If you want to hide or purge only tracks from a specific folder you may use "
 "the ``location:`` :ref:`search operator <library-finding-tracks>`, or "
 ":ref:`sort the table <library-tracks>` by \"Location\"."
 msgstr ""
 
-#: ../../chapters/library.rst:1036
+#: ../../chapters/library.rst:1039
 msgid ""
 "If you later decide to add some of the deleted tracks back, import them to "
 "the Mixxx library again, see :ref:`configuration-import`."
@@ -2491,51 +2490,51 @@ msgstr ""
 " importeert u ze opnieuw in de Mixxx-bibliotheek, zie :ref:`configuratie-"
 "import`."
 
-#: ../../chapters/library.rst:1042
+#: ../../chapters/library.rst:1045
 msgid "Compatible file formats"
 msgstr "Compatibele bestandsformaten"
 
-#: ../../chapters/library.rst:1043
+#: ../../chapters/library.rst:1046
 msgid "Mixxx supports a variety of audio file formats:"
 msgstr "Mixxx ondersteunt verschillende audiobestandsformaten:"
 
-#: ../../chapters/library.rst:1046
+#: ../../chapters/library.rst:1049
 msgid "Lossless"
 msgstr "Lossless"
 
-#: ../../chapters/library.rst:1046
+#: ../../chapters/library.rst:1049
 msgid "Lossy"
 msgstr "Lossy"
 
-#: ../../chapters/library.rst:1048
+#: ../../chapters/library.rst:1051
 msgid ":term:`FLAC` (flac)"
 msgstr ":term:`FLAC` (flac)"
 
-#: ../../chapters/library.rst:1048
+#: ../../chapters/library.rst:1051
 msgid ":term:`MP3` (mp3)"
 msgstr ":term:`MP3` (mp3)"
 
-#: ../../chapters/library.rst:1050
+#: ../../chapters/library.rst:1053
 msgid ":term:`Wave <WAV>` (wav)"
 msgstr ":term:`Wave <WAV>` (wav)"
 
-#: ../../chapters/library.rst:1050
+#: ../../chapters/library.rst:1053
 msgid ":term:`Ogg Vorbis` (ogg)"
 msgstr ":term:`Ogg Vorbis` (ogg)"
 
-#: ../../chapters/library.rst:1052
+#: ../../chapters/library.rst:1055
 msgid ":term:`Aiff <AIFF>` (aiff, aif)"
 msgstr ":term:`Aiff <AIFF>` (aiff, aif)"
 
-#: ../../chapters/library.rst:1052
+#: ../../chapters/library.rst:1055
 msgid ":term:`AAC` (aac, m4a, mp4)"
 msgstr ":term:`AAC` (aac, m4a, mp4)"
 
-#: ../../chapters/library.rst:1054
+#: ../../chapters/library.rst:1057
 msgid ":term:`Opus` (opus)"
 msgstr ":term:`Opus` (opus)"
 
-#: ../../chapters/library.rst:1057
+#: ../../chapters/library.rst:1060
 msgid ""
 "Lossless formats preserve every detail of the original recording and are "
 "recommended for the best sound quality. The :file:`FLAC` format compresses "
@@ -2550,7 +2549,7 @@ msgstr ""
 ":file:`AIFF` bestanden zijn niet gecomprimeerd en nemen veel meer ruimte in "
 "beslag."
 
-#: ../../chapters/library.rst:1062
+#: ../../chapters/library.rst:1065
 msgid ""
 "Lossy formats take up less storage space on your computer than lossless "
 "formats at the expense of reducing sound quality. Assuming an average track "
@@ -2564,7 +2563,7 @@ msgstr ""
 " solid state drive ongeveer 42000 :file:`FLAC` bestanden opslaan of ongeveer"
 " 115000 :file:`MP3` bestanden bij 320 kbps."
 
-#: ../../chapters/library.rst:1067
+#: ../../chapters/library.rst:1070
 msgid ""
 "There is no benefit to converting lossy file to lossless formats. The detail"
 " lost when making the lossy file cannot be recovered."
@@ -2573,7 +2572,7 @@ msgstr ""
 "formaten. De details die verloren gaan bij het maken van het lossy bestand "
 "kunnen niet worden herwonnen."
 
-#: ../../chapters/library.rst:1070
+#: ../../chapters/library.rst:1073
 msgid ""
 ":file:`AAC (M4A)` is supported on Windows Vista and macOS 10.8 onwards. The "
 "`Platform Update Supplement <https://support.microsoft.com/en-"
@@ -2585,7 +2584,7 @@ msgstr ""
 "us/help/2117917/platform-update-supplement-for-windows-vista-and-for-"
 "windows-server-20>`_ is vereist voor Windows Vista."
 
-#: ../../chapters/library.rst:1074
+#: ../../chapters/library.rst:1077
 msgid ""
 "On Linux, :file:`AAC` playback is disabled by default due to licensing "
 "restrictions. To enable the playback of :file:`AAC` files, `build Mixxx from"
@@ -2594,7 +2593,7 @@ msgid ""
 "optional-build-with-m4aaac-file-support>`_."
 msgstr ""
 
-#: ../../chapters/library.rst:1078
+#: ../../chapters/library.rst:1081
 msgid ""
 ":term:`DRM` protected files, such as m4p files purchased in the iTunes Store"
 " in 2009 or earlier, are not supported."
@@ -2602,7 +2601,7 @@ msgstr ""
 ":term:`DRM` beveiligde bestanden, zoals m4p bestanden gekocht in de iTunes "
 "Store in 2009 of eerder, worden niet ondersteund."
 
-#: ../../chapters/library.rst:1081
+#: ../../chapters/library.rst:1084
 msgid ""
 ":term:`ALAC` files use the same container MP4 container format and file "
 "extensions (m4a, mp4) as AAC files, but Mixxx cannot play ALAC files. It is "
@@ -2615,11 +2614,11 @@ msgstr ""
 "naar FLAC voor gebruik in Mixxx. Dit zal de geluidskwaliteit van de "
 "bestanden niet verminderen."
 
-#: ../../chapters/library.rst:1088
+#: ../../chapters/library.rst:1091
 msgid "Music from audio CDs"
 msgstr "Muziek van audio-CD's"
 
-#: ../../chapters/library.rst:1089
+#: ../../chapters/library.rst:1092
 msgid ""
 "Mixxx can not play music directly from audio CDs. Use a CD ripping program "
 "to copy the audio from the CD to files on your computer. It is recommended "

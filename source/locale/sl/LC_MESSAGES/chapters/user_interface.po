@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-02-08 20:41+0100\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
@@ -370,7 +370,7 @@ msgstr ""
 "virtualnim gramofonskim :term:`predvajalnik`om. Opise funkciji in dela z "
 "njimi bomo razdelili v sekcije."
 
-#: ../../chapters/user_interface.rst:97 ../../chapters/user_interface.rst:1065
+#: ../../chapters/user_interface.rst:97 ../../chapters/user_interface.rst:1069
 msgid "Track Information Display"
 msgstr "Prikaz informaciji o skladbi"
 
@@ -417,7 +417,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/user_interface.rst:134
-#: ../../chapters/user_interface.rst:1073
+#: ../../chapters/user_interface.rst:1077
 msgid "**BPM (Tempo)**"
 msgstr "**BPM (Tempo)**"
 
@@ -566,7 +566,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/user_interface.rst:212
-#: ../../chapters/user_interface.rst:1054
+#: ../../chapters/user_interface.rst:1058
 msgid "**Waveform overview**"
 msgstr "**Pregled valovne oblike**"
 
@@ -628,7 +628,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/user_interface.rst:233
-#: ../../chapters/user_interface.rst:1057
+#: ../../chapters/user_interface.rst:1061
 msgid "**Waveform Marker**"
 msgstr "**Oznake na prikazu valovne oblike**"
 
@@ -658,7 +658,7 @@ msgstr ""
 "**Oznaka cue iztočnice**: Prikazuje pozicijo :term:`cue iztočnice<cue>`."
 
 #: ../../chapters/user_interface.rst:241
-#: ../../chapters/user_interface.rst:1061
+#: ../../chapters/user_interface.rst:1065
 msgid ""
 "**Hotcue marker**: Indicate the position and number of a :term:`hotcue` "
 "point if set."
@@ -740,7 +740,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/user_interface.rst:289
-#: ../../chapters/user_interface.rst:1086
+#: ../../chapters/user_interface.rst:1090
 msgid "**Eject Track Button**"
 msgstr "**Izvrzi skladbo**"
 
@@ -755,12 +755,12 @@ msgstr ""
 "keyboard` za več informacij."
 
 #: ../../chapters/user_interface.rst:293
-#: ../../chapters/user_interface.rst:1083
+#: ../../chapters/user_interface.rst:1087
 msgid "**Repeat Mode Toggle**"
 msgstr "**Preklopi ponavljanje**"
 
 #: ../../chapters/user_interface.rst:292
-#: ../../chapters/user_interface.rst:1082
+#: ../../chapters/user_interface.rst:1086
 msgid ""
 "If enabled, the repeat mode will jump back to the beginning and continue "
 "playing when the track finishes."
@@ -769,7 +769,7 @@ msgstr ""
 "ponovno od začetka."
 
 #: ../../chapters/user_interface.rst:299
-#: ../../chapters/user_interface.rst:1090
+#: ../../chapters/user_interface.rst:1094
 msgid "**Keylock Toggle**"
 msgstr "**Zakleni/odkleni tonaliteto**"
 
@@ -1294,7 +1294,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/user_interface.rst:598
-#: ../../chapters/user_interface.rst:1129
+#: ../../chapters/user_interface.rst:1133
 msgid "**Pitch/Rate slider**"
 msgstr "**Višina/hitrost drsnik**"
 
@@ -1310,7 +1310,7 @@ msgstr ""
 "drsnika navzgor, kar je nasprotno od tega, kar najdemo pri DJ gramofonih in"
 "  :term:`CDJ` enotah. Desni klik bo povrnil tempo na orignialno vrednost."
 
-#: ../../chapters/user_interface.rst:603
+#: ../../chapters/user_interface.rst:607
 msgid "**Pitch Rate Display**"
 msgstr "**Prikaz višine in hitrosti**"
 
@@ -1324,11 +1324,18 @@ msgstr ""
 "Višina/hitrost na sredini, prikazuje +0.0%, kar pomeni, da ni sprememb v "
 "hitrosti."
 
-#: ../../chapters/user_interface.rst:610
+#: ../../chapters/user_interface.rst:605
+msgid ""
+"To make the rate and/or pitch automatically reset whenever a new track is "
+"loaded go to :menuselection:`Preferences --> Decks --> Speed (Tempo) and Key"
+" (Pitch) options --> Reset on track load`."
+msgstr ""
+
+#: ../../chapters/user_interface.rst:614
 msgid "**Temporary Pitch/Rate buttons (Nudge)**"
 msgstr "**Začasna spremeba višine/hitrosti (sunek)**"
 
-#: ../../chapters/user_interface.rst:606
+#: ../../chapters/user_interface.rst:610
 msgid ""
 "Pushing the diagonal arrow buttons is like nudging the metal edge of a "
 "turntable, or the outer edge of a CD player. It will give the track a push "
@@ -1337,11 +1344,11 @@ msgid ""
 "or a :term:`ramping pitch bend`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:613
+#: ../../chapters/user_interface.rst:617
 msgid "**Pitch/Rate buttons**"
 msgstr "**Višina/hitrost gumbi**"
 
-#: ../../chapters/user_interface.rst:613
+#: ../../chapters/user_interface.rst:617
 msgid ""
 "Clicking the :guilabel:`-` button will set the pitch/rate lower while the "
 ":guilabel:`+` button will set the pitch/rate higher. This is like moving the"
@@ -1350,14 +1357,14 @@ msgid ""
 "be held down."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:615
+#: ../../chapters/user_interface.rst:619
 msgid ""
 "To customize the amount by which the buttons alter the pitch of the track, "
 "the slider range as well as the direction, go to :menuselection:`Preferences"
 " --> Interface --> Adjustment buttons --> Permanent / Temporary`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:620
+#: ../../chapters/user_interface.rst:624
 msgid ""
 "If the tempo of a track changes, you'll notice that the tone changes based "
 "on the pitch used (e.g. playing at faster pitch gives a chipmunk sound). You"
@@ -1368,15 +1375,15 @@ msgstr ""
 "uporabljeno hitrost (hitrejše predvajanje daje opičij zvok). Lahko vklopite "
 ":ref:`Keylock <interface-button-grid>`, da obdržite konstanten ton."
 
-#: ../../chapters/user_interface.rst:628
+#: ../../chapters/user_interface.rst:632
 msgid "Loop Controls"
 msgstr "Kontrola zank"
 
-#: ../../chapters/user_interface.rst:641
+#: ../../chapters/user_interface.rst:645
 msgid "The beatloop and looping controls of the deck"
 msgstr "Kontrole predvajalnika za ritmične zanke in zanke "
 
-#: ../../chapters/user_interface.rst:643
+#: ../../chapters/user_interface.rst:647
 msgid ""
 "In this section of the Mixxx interface you can control (beat-)loops and set "
 "the loop points of a track. You can also shift loops using the "
@@ -1384,11 +1391,11 @@ msgid ""
 "right side of the looping controls."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:649
+#: ../../chapters/user_interface.rst:653
 msgid "**Beatloop size**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:648
+#: ../../chapters/user_interface.rst:652
 msgid ""
 "The input box allows you to set the size of the loop in beats to set with "
 "the Beatloop button. Changing this resizes the loop if the loop already "
@@ -1396,11 +1403,11 @@ msgid ""
 ":ref:`waveforms <interface-waveform>`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:653
+#: ../../chapters/user_interface.rst:657
 msgid "**Beatloop**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:652
+#: ../../chapters/user_interface.rst:656
 msgid ""
 "Left-clicking the Beatloop button starts a loop over the set number of "
 "beats. If quantize is enabled, it snaps to the nearest beat. This works for "
@@ -1411,55 +1418,55 @@ msgid ""
 "where the track would have been if it had not entered the loop."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:657
+#: ../../chapters/user_interface.rst:661
 msgid "**Double loop**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:656
+#: ../../chapters/user_interface.rst:660
 msgid ""
 "Clicking on the arrow pointing up will double the current loop's length up "
 "to 64 bars. The length of the loop overlay in the waveform will increase "
 "accordingly."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:661
+#: ../../chapters/user_interface.rst:665
 msgid "**Halve loop**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:660
+#: ../../chapters/user_interface.rst:664
 msgid ""
 "Clicking on the arrow pointing down will halve the current loop's length "
 "down to 1/32 bars. The length of the loop overlay in the waveform will "
 "decrease accordingly."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:666
+#: ../../chapters/user_interface.rst:670
 msgid "**Loop-In**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:664
+#: ../../chapters/user_interface.rst:668
 msgid ""
 "This button allows you to manually set the start point of a loop. A loop-in "
 "marker is placed on the waveform indicating the position. If clicked when a "
 "loop was already set, it moves the start point of a loop to a new position."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:671
+#: ../../chapters/user_interface.rst:675
 msgid "**Loop-Out**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:669
+#: ../../chapters/user_interface.rst:673
 msgid ""
 "This button allows you to manually set the end point of a loop. A loop-out "
 "marker is placed on the waveform indicating the position. If clicked when a "
 "loop was already set, it moves the end point of a loop to a new position."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:675
+#: ../../chapters/user_interface.rst:679
 msgid "**Reloop**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:674
+#: ../../chapters/user_interface.rst:678
 msgid ""
 "Left-clicking this button toggles the current loop on or off. If the loop is"
 " ahead of the current position, looping will start when the loop is reached."
@@ -1467,7 +1474,7 @@ msgid ""
 "this button enables the loop, jumps to Loop-in marker and stops playback."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:677
+#: ../../chapters/user_interface.rst:681
 msgid ""
 "If you are playing inside a loop and want to move the end point beyond its "
 "current position in the track, click on the *Beatloop* button first and when"
@@ -1475,7 +1482,7 @@ msgid ""
 "button."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:682
+#: ../../chapters/user_interface.rst:686
 msgid ""
 "If the :term:`Quantize <quantization>` mode is enabled, the loops will "
 "automatically snap to the nearest beat. This is disabled by default, click "
@@ -1486,26 +1493,26 @@ msgstr ""
 " vključi s klikom na :ref:`Vklop/izklop kvantizacije <interface-button-"
 "grid>`."
 
-#: ../../chapters/user_interface.rst:690
+#: ../../chapters/user_interface.rst:694
 msgid "Hotcue Controls"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:703
+#: ../../chapters/user_interface.rst:707
 msgid "The hotcue controls of the deck"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:705
+#: ../../chapters/user_interface.rst:709
 msgid ""
 "To jump in between different parts of a track, you can use these numbered "
 "buttons. You can also use keyboard shortcuts, go to :ref:`control-keyboard` "
 "for more information."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:710
+#: ../../chapters/user_interface.rst:714
 msgid "Setting Hotcues"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:712
+#: ../../chapters/user_interface.rst:716
 msgid ""
 "Clicking on a numbered button will set a :term:`hotcue` at the current play "
 "position on the track. A marker with the corresponding number will appear in"
@@ -1513,11 +1520,11 @@ msgid ""
 "set."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:717
+#: ../../chapters/user_interface.rst:721
 msgid "Playing Hotcues"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:719
+#: ../../chapters/user_interface.rst:723
 msgid ""
 "**While playing**: Tap a hotcue button to cause the track to instantly jump "
 "to the location of the hotcue and continue playing. If you are playing "
@@ -1530,7 +1537,7 @@ msgstr ""
 "tapnete na hotcue iztočnico, katere pozicija je izven zanke, bo skladba "
 "kljub temu takoj skočila na to mesto in zanka bo deaktivirana."
 
-#: ../../chapters/user_interface.rst:724
+#: ../../chapters/user_interface.rst:728
 msgid ""
 "**While stopped**: Tap a hotcue button to cause the track to instantly jump "
 "to the location of the hotcue and start playing as long as the button is "
@@ -1539,42 +1546,42 @@ msgid ""
 "button."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:730
+#: ../../chapters/user_interface.rst:734
 msgid "Highlighting Hotcues"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:732
+#: ../../chapters/user_interface.rst:736
 msgid ""
 "It's possible to add labels or colors to your hotcues to make them easier to"
 " distinguish and make it possible to get their \"meaning\" at first glance."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:735
+#: ../../chapters/user_interface.rst:739
 msgid ""
 "Labels and colors can be assigned from the Hotcue context menu, which can be"
 " opened by right-clicking either the hotcue button or the hotcue marker in "
 "the waveform overview."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:739
+#: ../../chapters/user_interface.rst:743
 msgid ""
 "Mixxx allows :ref:`customizing the color palette <configuration-colors-"
 "palette>` and :ref:`bulk replacing hotcue colors <configuration-colors-"
 "replace>`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:742
+#: ../../chapters/user_interface.rst:746
 msgid "Deleting Hotcues"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:744
+#: ../../chapters/user_interface.rst:748
 msgid ""
 "To delete a hotcue, right-click on the hotcue button or the waveform marker "
 "in the overview waveform to open the context menu, then click the trash "
 "icon."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:747
+#: ../../chapters/user_interface.rst:751
 msgid ""
 "Mixxx supports up to 36 hotcues per deck. By default, only some of them are "
 "visible in the user interface. You can customize your :ref:`keyboard "
@@ -1582,7 +1589,7 @@ msgid ""
 "use all of them."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:752
+#: ../../chapters/user_interface.rst:756
 msgid ""
 "Just as with the loops (see above), if the :term:`quantize <quantization>` "
 "mode is enabled, the hotcues will automatically snap to the nearest beat. "
@@ -1594,30 +1601,30 @@ msgstr ""
 "<quantization>`  Ta način v izhodišču ni vključenn in se vključi s klikom na"
 " :ref:`Vklop/izklop kvantizacije <interface-button-grid>`."
 
-#: ../../chapters/user_interface.rst:761
+#: ../../chapters/user_interface.rst:765
 msgid "Mixer"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:774
+#: ../../chapters/user_interface.rst:778
 msgid "The mixer section"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:776
+#: ../../chapters/user_interface.rst:780
 msgid ""
 "The mixer section of the :ref:`Mixxx user interface <interface-overview>` "
 "allows you to control how the different decks and samplers are mixed "
 "together."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:782
+#: ../../chapters/user_interface.rst:786
 msgid "Channel Faders and Level Meters"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:792
+#: ../../chapters/user_interface.rst:796
 msgid "**Level meters**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:785
+#: ../../chapters/user_interface.rst:789
 msgid ""
 "The left meter shows the volume level for the left deck, while the right "
 "meter shows the volume level for the right deck. The double meter at the "
@@ -1628,41 +1635,41 @@ msgid ""
 "levels properly (gain staging) <djing-gain-staging>` for more details."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:800
+#: ../../chapters/user_interface.rst:804
 msgid "**Line faders**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:795
+#: ../../chapters/user_interface.rst:799
 msgid ""
 "The two large faders on either side of the level meters are the deck volume "
 "faders, also known as Channel- or Line-faders. Adjusting these controls the "
 "volume of each deck."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:799
+#: ../../chapters/user_interface.rst:803
 msgid ""
 "Some DJ's prefer to use the line faders over the crossfader for fading "
 "between tracks. Try it, you may like it."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:805
+#: ../../chapters/user_interface.rst:809
 msgid "Equalizers and Gain Knobs"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:814
+#: ../../chapters/user_interface.rst:818
 msgid "The EQ Controls of a deck in the mixer"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:814
+#: ../../chapters/user_interface.rst:818
 msgid "EQ Controls"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:835
-#: ../../chapters/user_interface.rst:1122
+#: ../../chapters/user_interface.rst:839
+#: ../../chapters/user_interface.rst:1126
 msgid "**Gain Knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:817
+#: ../../chapters/user_interface.rst:821
 msgid ""
 "The gain knob (orange) above the volume fader allows you to adjust the gain "
 "applied to the deck. Use this to compensate for the differences in recording"
@@ -1674,7 +1681,7 @@ msgid ""
 "and could damage equipment.**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:825
+#: ../../chapters/user_interface.rst:829
 msgid ""
 "By default, Mixxx automatically applies an additional ReplayGain so tracks "
 "have approximately equal loudness at unity gain. Your tracks must be "
@@ -1685,25 +1692,25 @@ msgid ""
 "of a playing track)."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:834
-#: ../../chapters/user_interface.rst:1012
+#: ../../chapters/user_interface.rst:838
+#: ../../chapters/user_interface.rst:1016
 msgid ""
 "For an explanation of why you should set your gains this way, see "
 ":ref:`Setting your levels properly (gain staging) <djing-gain-staging>`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:844
+#: ../../chapters/user_interface.rst:848
 msgid "**EQ Knobs**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:838
+#: ../../chapters/user_interface.rst:842
 msgid ""
 "The low, mid, and high EQ knobs allow you to change the filters of the "
 "audio. This allows you to selectively reduce or boost certain frequency "
 "ranges of the audio."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:841
+#: ../../chapters/user_interface.rst:845
 msgid ""
 "Be careful not to raise the EQs so much that the signal clips, indicated by "
 "a :term:`level meter` being in the red region. See :ref:`Setting your levels"
@@ -1711,11 +1718,11 @@ msgid ""
 "explanation."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:851
+#: ../../chapters/user_interface.rst:855
 msgid "**Kill Switches**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:847
+#: ../../chapters/user_interface.rst:851
 msgid ""
 "The small boxes next to each EQ knob are called :term:`kills <kill switch>`."
 " Hold these buttons to fully remove that frequency range. Short click on the"
@@ -1724,11 +1731,11 @@ msgid ""
 "high/low shelf EQ settings in the preferences."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:858
+#: ../../chapters/user_interface.rst:862
 msgid "**Quick Effect Super knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:854
+#: ../../chapters/user_interface.rst:858
 msgid ""
 "This knob lets you control the Meta knob of the deck's Quick Effect. "
 "'Filter' is the default. Right-click this knob to center it. This is "
@@ -1738,21 +1745,21 @@ msgid ""
 "switches."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:860
+#: ../../chapters/user_interface.rst:864
 msgid ""
 "You can customize the EQ settings in :menuselection:`Preferences --> "
 "Equalizer`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:866
+#: ../../chapters/user_interface.rst:870
 msgid "PFL/Headphone Button"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:875
+#: ../../chapters/user_interface.rst:879
 msgid "The headphone buttons of both decks in the mixer"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:877
+#: ../../chapters/user_interface.rst:881
 msgid ""
 "The headphone button is also known as the :term:`pre-fader listen or PFL "
 "<PFL>` button and allows you to use headphone cueing. That is, it allows you"
@@ -1767,28 +1774,28 @@ msgid ""
 "deck or turn the deck’s volume fader all the way down."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:889
+#: ../../chapters/user_interface.rst:893
 msgid ""
 "Headphone cueing is only available if you have configured a Headphone Output"
 " in :menuselection:`Preferences --> Sound Hardware`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:892
+#: ../../chapters/user_interface.rst:896
 msgid ""
 "If you use an external hardware mixer, plug your headphones into that rather"
 " than your sound card. Use the headphone buttons on the mixer rather than "
 "the buttons in Mixxx."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:899
+#: ../../chapters/user_interface.rst:903
 msgid "Crossfader"
 msgstr "Navzkrižni drsnik"
 
-#: ../../chapters/user_interface.rst:908
+#: ../../chapters/user_interface.rst:912
 msgid "The crossfader section of the mixer"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:910
+#: ../../chapters/user_interface.rst:914
 msgid ""
 "The :term:`crossfader` determines the actual volume of each deck when moving"
 " the slider from left to right. If both decks are playing and the crossfader"
@@ -1796,7 +1803,7 @@ msgid ""
 "clicking on the crossfader will reset the slider to its default position."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:915
+#: ../../chapters/user_interface.rst:919
 msgid ""
 "To move the crossfader left or right, you can use the :term:`keyboard "
 "shortcut <shortcut>` :kbd:`G` and :kbd:`H`. To apply small crossfade left "
@@ -1804,7 +1811,7 @@ msgid ""
 " + :kbd:`G` and :kbd:`Shift` + :kbd:`H` respectively."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:918
+#: ../../chapters/user_interface.rst:922
 msgid ""
 "You can reverse the configuration of the crossfader, so that the right deck "
 "is on the left end of the crossfader and vice versa. This is also known as "
@@ -1812,36 +1819,36 @@ msgid ""
 ":menuselection:`Preferences --> Crossfader`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:923
+#: ../../chapters/user_interface.rst:927
 msgid ""
 "The :term:`crossfader` orientation switches determine to which side of the "
 "crossfader the deck is assigned. It can be set to the left or right side, or"
 " to the center where it is unaffected by the crossfader knob."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:926
+#: ../../chapters/user_interface.rst:930
 msgid ""
 "Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can automate "
 "the crossfade between the decks."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:932
+#: ../../chapters/user_interface.rst:936
 msgid "Headphone and Main Mix Controls"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:940
+#: ../../chapters/user_interface.rst:944
 msgid "The headphone and Main mix knobs"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:940
+#: ../../chapters/user_interface.rst:944
 msgid "The headphone and main mix knobs"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:960
+#: ../../chapters/user_interface.rst:964
 msgid "**Headphone Mix knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:943
+#: ../../chapters/user_interface.rst:947
 msgid ""
 "Allows you to control how much of the Main output you hear in the "
 ":guilabel:`Headphones` output. It works like a crossfader between the stereo"
@@ -1850,13 +1857,13 @@ msgid ""
 "tracks."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:948
+#: ../../chapters/user_interface.rst:952
 msgid ""
 "This can be used to practice DJing with only one stereo output and a set of "
 "either speakers or headphones."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:951
+#: ../../chapters/user_interface.rst:955
 msgid ""
 "Additionally, this can be used to mix in headphones when you cannot hear the"
 " speakers connected to the :guilabel:`main` output and there are no booth "
@@ -1867,17 +1874,17 @@ msgid ""
 "audience can hear them."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:959
+#: ../../chapters/user_interface.rst:963
 msgid ""
 "Don't forget to activate the :guilabel:`PFL` button on the deck you want to "
 "listen to in your headphones."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:973
+#: ../../chapters/user_interface.rst:977
 msgid "**Head knob (Headphone gain)**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:963
+#: ../../chapters/user_interface.rst:967
 msgid ""
 "This knob controls the gain applied to the headphone output signal that "
 "Mixxx sends to your sound card. Generally, this knob should not be adjusted."
@@ -1891,18 +1898,18 @@ msgid ""
 "without affecting your Main output."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:973
+#: ../../chapters/user_interface.rst:977
 msgid ""
 "Not all controls may be present in all skins anymore. However, these "
 "controls can be mapped to keyboards and MIDI controllers. See "
 ":ref:`appendix-mixxxcontrols` for detailed information."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:980
+#: ../../chapters/user_interface.rst:984
 msgid "**Headphone Split Cue button**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:976
+#: ../../chapters/user_interface.rst:980
 msgid ""
 "If activated, two mono signals are sent to the headphone output instead of "
 "one stereo signal. The main signal plays in the right channel, while the "
@@ -1911,21 +1918,21 @@ msgid ""
 "the left channel."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:984
+#: ../../chapters/user_interface.rst:988
 msgid "**Balance Knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:983
+#: ../../chapters/user_interface.rst:987
 msgid ""
 "This knob allows you to adjust the :term:`balance` (left/right orientation) "
 "of the Main output."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1013
+#: ../../chapters/user_interface.rst:1017
 msgid "**Main Knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:989
+#: ../../chapters/user_interface.rst:993
 msgid ""
 "The Main Gain Knob controls the gain applied to the Main output signal that "
 "Mixxx sends to your sound card, Internet broadcasting servers, and recorded "
@@ -1938,7 +1945,7 @@ msgid ""
 "means adjusting the gain on the speakers (which may be labeled \"Volume\")."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:999
+#: ../../chapters/user_interface.rst:1003
 msgid ""
 "As a DJ, you may not have access to the power amplifier. In that case, "
 "adjust the volume by adjusting the gain on the equipment closest to the "
@@ -1950,31 +1957,31 @@ msgid ""
 "should be a last resort for adjusting volume."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1008
+#: ../../chapters/user_interface.rst:1012
 msgid ""
 "**In no case should any part of the signal chain be clipping, indicated by a"
 " level meter going into its red region or an LED labeled \"clipping\" "
 "turning on.**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1018
+#: ../../chapters/user_interface.rst:1022
 msgid "Samplers"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1027
-#: ../../chapters/user_interface.rst:1036
+#: ../../chapters/user_interface.rst:1031
+#: ../../chapters/user_interface.rst:1040
 msgid "A sample deck"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1027
+#: ../../chapters/user_interface.rst:1031
 msgid "Sample decks"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1036
+#: ../../chapters/user_interface.rst:1040
 msgid "Sample decks expanded"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1038
+#: ../../chapters/user_interface.rst:1042
 msgid ""
 "Samplers are miniature decks. They allow you to play short samples and "
 "jingles but also additional tracks in your mix. They come with a small "
@@ -1982,7 +1989,7 @@ msgid ""
 "like on the regular decks, see :ref:`interface-decks`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1043
+#: ../../chapters/user_interface.rst:1047
 msgid ""
 "The Sampler section can be **hidden** in the :ref:`Mixxx user interface "
 "<interface-overview>`. Click the :guilabel:`SAMPLERS` button at the top of "
@@ -1990,38 +1997,38 @@ msgid ""
 " hide the section."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1049
+#: ../../chapters/user_interface.rst:1053
 msgid "Waveform Display"
 msgstr "Prikaz valovne oblike"
 
-#: ../../chapters/user_interface.rst:1052
+#: ../../chapters/user_interface.rst:1056
 msgid ""
 "The waveform shows the various markers within the track as well as the "
 "waveform envelope of the entire track. Clicking somewhere on the waveform "
 "allows you to jump to an arbitrary position in the track."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1057
+#: ../../chapters/user_interface.rst:1061
 msgid "While mixing, some additional markers can appear on the waveforms:"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1059
+#: ../../chapters/user_interface.rst:1063
 msgid ""
 "**Position marker**: A vertical line indicates the playback point of the "
 "sample deck."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1069
+#: ../../chapters/user_interface.rst:1073
 msgid "**Track Artist/Title**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1068
+#: ../../chapters/user_interface.rst:1072
 msgid ""
 "The artist and title of the track that was loaded into a sampler deck is "
 "displayed here."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1072
+#: ../../chapters/user_interface.rst:1076
 msgid ""
 "The number at the top right is the effective :term:`BPM` of the track. Tap "
 "the BPM to set the BPM to the speed you are tapping."
@@ -2029,22 +2036,22 @@ msgstr ""
 "Številka zgoraj desno je efektivni :term:`BPM` skladbe. Tapnite BPM, da "
 "določite BPM na hitrost s katero tapkate."
 
-#: ../../chapters/user_interface.rst:1076
+#: ../../chapters/user_interface.rst:1080
 msgid "Sample Deck Options Button Grid"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1077
+#: ../../chapters/user_interface.rst:1081
 msgid ""
 "The buttons grid next to the waveform overview allow you to configure the "
 "sampler deck. Starting from the top row (left to right) and the bottom row "
 "(left to right), the buttons are as follows:"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1086
+#: ../../chapters/user_interface.rst:1090
 msgid "Clicking this button ejects the track from the deck."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1089
+#: ../../chapters/user_interface.rst:1093
 msgid ""
 ":term:`Keylock <key lock>` locks the track's pitch so that adjustments to "
 "its tempo via the rate slider do not affect its pitch."
@@ -2052,26 +2059,26 @@ msgstr ""
 ":term:`Keylock <key lock>` zaklene višino skladbe, tako da spreminjanje "
 "tempa s pomočjo drsnika ne vpliva na višino predvajanja skladbe. "
 
-#: ../../chapters/user_interface.rst:1094
+#: ../../chapters/user_interface.rst:1098
 msgid "**Crossfader Orientation Toggle**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1093
+#: ../../chapters/user_interface.rst:1097
 msgid ""
 "The :term:`crossfader` orientation determines to which side of the "
 "crossfader the sampler is assigned. It can be set to the left or right side,"
 " or to the center where it is unaffected by the crossfader knob."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1097
+#: ../../chapters/user_interface.rst:1101
 msgid "Sample Deck Controls"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1103
+#: ../../chapters/user_interface.rst:1107
 msgid "**Play/Pause button**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1100
+#: ../../chapters/user_interface.rst:1104
 msgid ""
 "Clicking the button always starts playback from the :term:`cue point <cue>`."
 " If playback is already enabled the play position will jump back to the "
@@ -2079,84 +2086,84 @@ msgid ""
 " seek the play position to the beginning of the sample."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1106
+#: ../../chapters/user_interface.rst:1110
 msgid "**Sync Button**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1106
+#: ../../chapters/user_interface.rst:1110
 msgid ""
 "Syncs the Sampler deck to a regular deck, as described in :ref:`interface-"
 "rate`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1108
+#: ../../chapters/user_interface.rst:1112
 msgid ""
 "**Left-Click**: Changes the :term:`rate` of the track so that the "
 ":term:`BPM` and :term:`phase` of the track matches the sync target."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1110
+#: ../../chapters/user_interface.rst:1114
 msgid ""
 "**Right-Click**: Only changes the :term:`rate` of the track to match the "
 "sync target but does not adjust the :term:`phase`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1115
+#: ../../chapters/user_interface.rst:1119
 msgid "**Hotcue Controls**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1114
+#: ../../chapters/user_interface.rst:1118
 msgid ""
 "To jump in between different parts of a sample, you can use these numbered "
 "hotcue buttons."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1119
+#: ../../chapters/user_interface.rst:1123
 msgid "**PFL/Headphone Button**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1118
+#: ../../chapters/user_interface.rst:1122
 msgid ""
 "If active, the :term:`pre-fader listen or PFL <PFL>` button allows you to "
 "listen to the track in your headphones."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1122
+#: ../../chapters/user_interface.rst:1126
 msgid "Allows you to adjust the gain applied to the track."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1125
+#: ../../chapters/user_interface.rst:1129
 msgid "**Level Meter**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1125
+#: ../../chapters/user_interface.rst:1129
 msgid "Shows the level of the signal and can be adjusted with the Gain knob."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1128
+#: ../../chapters/user_interface.rst:1132
 msgid ""
 "The slider allows you to change the speed of the sample. Right-clicking on "
 "the slider will reset the tempo to its original value."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1134
+#: ../../chapters/user_interface.rst:1138
 msgid "Effects"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1142
-#: ../../chapters/user_interface.rst:1150
+#: ../../chapters/user_interface.rst:1146
+#: ../../chapters/user_interface.rst:1154
 msgid "An effect unit"
 msgstr "Enota učinka"
 
-#: ../../chapters/user_interface.rst:1142
+#: ../../chapters/user_interface.rst:1146
 msgid "Collapsed effect unit"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1150
+#: ../../chapters/user_interface.rst:1154
 msgid "Expanded effect unit"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1152
+#: ../../chapters/user_interface.rst:1156
 msgid ""
 "Mixxx comes with some built in sound effects that can be chained together in"
 " effect units. Effect units can be freely assigned to different decks as "
@@ -2164,21 +2171,21 @@ msgid ""
 "the :ref:`interface-decks`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1157
+#: ../../chapters/user_interface.rst:1161
 msgid ""
 "The :ref:`effects` chapter has a more detailed explanation of the effects "
 "system."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1163
+#: ../../chapters/user_interface.rst:1167
 msgid "Microphones & Auxiliary Inputs"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1175
+#: ../../chapters/user_interface.rst:1179
 msgid "The Microphone section"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1177
+#: ../../chapters/user_interface.rst:1181
 msgid ""
 "The microphone section is **hidden** in the default :ref:`Mixxx user "
 "interface <interface-overview>`. Click the :guilabel:`MICS & AUX` button at "
@@ -2186,21 +2193,21 @@ msgid ""
 "shortcuts` to show or hide the section."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1181
+#: ../../chapters/user_interface.rst:1185
 msgid ""
 "The :ref:`microphones` chapter has detailed instructions for setting up "
 "microphones with various hardware."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1185
+#: ../../chapters/user_interface.rst:1189
 msgid "Microphone Controls"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1191
+#: ../../chapters/user_interface.rst:1195
 msgid "**Talk Button**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1188
+#: ../../chapters/user_interface.rst:1192
 msgid ""
 "Hold this button and talk to mix the microphone input into the Mixxx Main "
 "output. Short click on the button for latching. This is handy for talking "
@@ -2209,44 +2216,44 @@ msgid ""
 "microphone input."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1196
+#: ../../chapters/user_interface.rst:1200
 msgid "**Mix Orientation Toggle**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1194
+#: ../../chapters/user_interface.rst:1198
 msgid ""
 "This control determines the microphone input's mix orientation. Either to "
 "the left side of crossfader, to the right side or to the center (default). "
 "Clicking cycles through all the options."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1199
+#: ../../chapters/user_interface.rst:1203
 msgid "**Microphone Volume Meter**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1199
+#: ../../chapters/user_interface.rst:1203
 msgid "This displays the microphone volume input signal strength."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1203
+#: ../../chapters/user_interface.rst:1207
 msgid "**Microphone Gain Knob**"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1202
+#: ../../chapters/user_interface.rst:1206
 msgid ""
 "Use this knob to adjust the gain of the microphone output. Try to keep the "
 "volume at a reasonable level to avoid signal clipping."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1208
+#: ../../chapters/user_interface.rst:1212
 msgid "Preview Deck"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1220
+#: ../../chapters/user_interface.rst:1224
 msgid "The Preview Deck with a track loaded"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1222
+#: ../../chapters/user_interface.rst:1226
 msgid ""
 "The Preview Deck is a special deck that allows you to pre-listen to tracks "
 "in the headphones before using them in your mix. Pre-listening to a track "
@@ -2256,11 +2263,11 @@ msgid ""
 "Preview Deck."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1228
+#: ../../chapters/user_interface.rst:1232
 msgid "The features in detail:"
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1230
+#: ../../chapters/user_interface.rst:1234
 msgid ""
 "**Track Artist/Title**: The artist and title of the track is displayed here."
 " This is the same as that listed under the :guilabel:`Track` and "
@@ -2269,19 +2276,19 @@ msgid ""
 ":term:`metadata`."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1234
+#: ../../chapters/user_interface.rst:1238
 msgid ""
 "**Eject Track button**: Clicking this button ejects the track from the deck."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1237
+#: ../../chapters/user_interface.rst:1241
 msgid ""
 "**Play/Pause button**: Clicking the button starts and pauses the playback. "
 "Right-clicking on the button will stop playback and seek the play position "
 "to the beginning of the tracks."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1242
+#: ../../chapters/user_interface.rst:1246
 msgid ""
 "**Waveform overview**: Shows the various markers (Cues, Hotcues) within the "
 "track as well as the waveform envelope of the entire track. Clicking "
@@ -2289,17 +2296,17 @@ msgid ""
 " track."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1247
+#: ../../chapters/user_interface.rst:1251
 msgid "**Gain slider**: Move the slider to adjust the gain of the track."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1250
+#: ../../chapters/user_interface.rst:1254
 msgid ""
 "**Volume Meter**: Shows the current volume of the track. If it's too loud "
 "and distorted, a peak indicator flashes red."
 msgstr ""
 
-#: ../../chapters/user_interface.rst:1254
+#: ../../chapters/user_interface.rst:1258
 msgid ""
 "For more information, go to the chapter :ref:`library-previewing-tracks`."
 msgstr ""
