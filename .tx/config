@@ -2057,3 +2057,15 @@ file_filter = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djc
 source_file = source/locale/pot/hardware/controllers/hercules_djcontrol_inpulse_300.pot
 source_lang = en
 type = PO
+
+[mixxx-dj-manual-24.hardware--controllers--numark_party_mix]
+file_filter = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_party_mix.po
+source_file = source/locale/pot/hardware/controllers/numark_party_mix.pot
+source_lang = en
+type = PO
+
+[mixxx-dj-manual-24.hardware--controllers--native_instruments_traktor_kontrol_s2_mk1]
+file_filter = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s2_mk1.po
+source_file = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s2_mk1.pot
+source_lang = en
+type = PO
