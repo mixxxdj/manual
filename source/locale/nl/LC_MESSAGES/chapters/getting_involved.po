@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
-"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"POT-Creation-Date: 2023-02-08 21:49+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -264,8 +264,8 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:25
-msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
-msgstr "`Raporteer bugs en fouten <https://bugs.launchpad.net/mixxx>`_"
+msgid "`Report bugs <https://github.com/mixxxdj/mixxx/issues/new/choose>`_"
+msgstr ""
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
@@ -284,14 +284,10 @@ msgstr ""
 #: ../../chapters/getting_involved.rst:30
 msgid ""
 "Answer questions on the `Troubleshooting Forum "
-"<https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
-"page <https://answers.launchpad.net/mixxx>`_"
+"<https://mixxx.org/forums/viewforum.php?f=3>`_"
 msgstr ""
-"Beantwoord vragen op het `Troubleshooting Forum "
-"<https://mixxx.org/forums/viewforum.php?f=3>`_ en de `Launchpad Answers page"
-" <https://answers.launchpad.net/mixxx>`_."
 
-#: ../../chapters/getting_involved.rst:33
+#: ../../chapters/getting_involved.rst:32
 msgid ""
 "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
 " about our new releases when they come out. Any exposure on the web and in "
@@ -301,17 +297,17 @@ msgstr ""
 "Mixxx. Blog over onze nieuwe releases als ze uitkomen. Elke vermelding op "
 "het web en in print helpt ons project groeien, en wordt zeer gewaardeerd."
 
-#: ../../chapters/getting_involved.rst:36
+#: ../../chapters/getting_involved.rst:35
 msgid "Send us some photos of you using Mixxx at a gig!"
 msgstr ""
 "Stuur ons wat foto's van jezelf terwijl je Mixxx gebruikt tijdens een "
 "optreden!"
 
-#: ../../chapters/getting_involved.rst:39
+#: ../../chapters/getting_involved.rst:38
 msgid "As a software developer"
 msgstr "Als een software ontwikkelaar"
 
-#: ../../chapters/getting_involved.rst:41
+#: ../../chapters/getting_involved.rst:40
 msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
@@ -319,7 +315,7 @@ msgstr ""
 "Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die tijdens het "
 "leerproces van C++ in de Mixxx-ontwikkeling zijn gestapt."
 
-#: ../../chapters/getting_involved.rst:43
+#: ../../chapters/getting_involved.rst:42
 msgid ""
 "Join our mailing list: `mixxx-devel "
 "<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
@@ -327,11 +323,11 @@ msgstr ""
 "Word lid van onze mailinglijst: `mixxx-devel "
 "<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
 
-#: ../../chapters/getting_involved.rst:45
+#: ../../chapters/getting_involved.rst:44
 msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
 msgstr "Doe mee met onze `Zulip chat <https://mixxx.zulipchat.com/>`_."
 
-#: ../../chapters/getting_involved.rst:46
+#: ../../chapters/getting_involved.rst:45
 msgid ""
 "Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist "
 ":term:`bugs <bug report>`, or post on the forums."
@@ -340,30 +336,20 @@ msgstr ""
 "verlanglijst voor :term:`bugs <bug report>` in, of post op één van de "
 "forums."
 
-#: ../../chapters/getting_involved.rst:48
+#: ../../chapters/getting_involved.rst:47
 msgid ""
 "Register an account on our development platform `Github "
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:51
-msgid ""
-"Join the `Mixxx Development Team "
-"<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
-msgstr ""
-"Word lid van het `Mixxx Development Team "
-"<https://launchpad.net/~mixxxcontributors/+join>`_ op Launchpad."
-
-#: ../../chapters/getting_involved.rst:54
+#: ../../chapters/getting_involved.rst:50
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
-"Maak je vertrouwd met de code. Kies een bug uit de `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>``_"
 
-#: ../../chapters/getting_involved.rst:56
+#: ../../chapters/getting_involved.rst:52
 msgid ""
 "Get help fixing the bug on :term:`Zulip`, talk to us about the best way to "
 "do it."
@@ -371,23 +357,21 @@ msgstr ""
 "Krijg hulp bij het oplossen van de bug op: term: `Zulip`, praat met ons over"
 " de beste manier om dit te doen."
 
-#: ../../chapters/getting_involved.rst:59
+#: ../../chapters/getting_involved.rst:55
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
 msgstr "**Bijdragen tot Mixxx in 3 Eenvoudige Stappen:**"
 
-#: ../../chapters/getting_involved.rst:61
+#: ../../chapters/getting_involved.rst:57
 msgid ""
 "Pick a bug off of the `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
-" Kies een bug uit de `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
-#: ../../chapters/getting_involved.rst:63
+#: ../../chapters/getting_involved.rst:59
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."
 msgstr "Praat met ons op :term:`Zulip` voor hulp bij het oplossen."
 
-#: ../../chapters/getting_involved.rst:64
+#: ../../chapters/getting_involved.rst:60
 msgid ""
 "Fix it! *Done!* Your name will now be on the `Mixxx contributor list "
 "<https://mixxx.org/contact/>`_."
