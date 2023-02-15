@@ -25,7 +25,7 @@
     <g class="Slide" clip-path="url(#a)">
      <g class="Page">
       <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
-
+        <rect x="70.376" y="70.376" width="29538" height="20827" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-width="26.458px"/>
         <rect class="BoundingBox" x="18709" y="978" width="97" height="27"/>
         <path d="m18803 980c-30 4-62 10-92 22" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 

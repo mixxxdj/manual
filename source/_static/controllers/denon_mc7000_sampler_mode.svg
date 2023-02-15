@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg width="297mm" height="210mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 29700 21000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
  <defs class="ClipPathGroup">
   <clipPath id="a">
@@ -25,7 +24,7 @@
     <g class="Slide" clip-path="url(#a)">
      <g class="Page">
       <g class="com.sun.star.drawing.ClosedBezierShape">
-
+        <rect x="70.376" y="70.376" width="29539" height="20842" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-width="26.458px"/>
         <rect class="BoundingBox" x="1329" y="2206" width="5227" height="1523" fill="none"/>
         <path d="m4904 3267h-531v-623h522v99h-395v159h382v94h-382v176h404v95zm-650-266c0 104-4 284-299 284-294 0-294-180-294-284v-357h127v352c0 86 0 190 167 190s172-104 172-190v-352h127v357zm-1015 185c132 0 176-90 185-154h136c-17 122-97 253-342 253-220 0-325-153-325-329 0-172 101-325 338-325 211 0 316 112 329 243h-136c-13-90-88-149-193-149-119 0-207 82-207 244 0 131 88 217 215 217zm3198-980h-4985c-70 0-123 54-123 117v1279c0 67 53 126 123 126h4985c66 0 118-59 118-126v-1279c0-63-52-117-118-117z" fill="#d3d2d2"/>
 
@@ -1857,4 +1856,4 @@
 
 
  </g>
-</svg>
+<rect x="2640.9" y="4472.3" width="810.21" height="616.96" fill="#d3d2d2" stroke-width="746.71"/></svg>
