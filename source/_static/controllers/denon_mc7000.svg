@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-<svg width="297mm" height="210mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 29700 21000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<svg width="250mm" height="210mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 25000 21000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
  <defs class="ClipPathGroup">
   <clipPath id="a">
-   <rect width="29700" height="21000"/>
+   <rect width="25000" height="21000"/>
   </clipPath>
 
  </defs>
@@ -25,7 +25,7 @@
     <g class="Slide" clip-path="url(#a)">
      <g class="Page">
       <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
-        <rect x="70.376" y="70.376" width="29538" height="20827" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-width="26.458px"/>
+        <rect x="70.376" y="70.376" width="24750" height="20827" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-width="26.458px"/>
         <rect class="BoundingBox" x="18709" y="978" width="97" height="27"/>
         <path d="m18803 980c-30 4-62 10-92 22" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 
