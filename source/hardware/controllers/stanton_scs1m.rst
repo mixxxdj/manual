@@ -10,7 +10,7 @@ Stanton SCS.1m
 
    Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo.
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20220903093704/https://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
 
 .. versionadded:: 1.7
 

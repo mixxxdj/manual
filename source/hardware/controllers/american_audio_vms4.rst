@@ -21,7 +21,7 @@ Setup
    sound quality. Do this by holding down the Headphone Cue button on
    Midilog 4 while powering on the unit. You only need to do this once.
    (Each time you do, it changes the mode back and forth.) Consult the
-   `user manual <http://intranet.americandj.com/ItemRelatedFiles/8347/vms4.pdf>`__
+   `user manual <https://web.archive.org/web/20220727170646/intranet.americandj.com/ItemRelatedFiles/8347/vms4.pdf>`__
    for more information.
 
    To check the status of this in Linux, at a
