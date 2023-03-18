@@ -57,7 +57,7 @@ Changelog
 * Allow search in external libraries `#11221 <https://github.com/mixxxdj/mixxx/pull/11221>`_ `#11216 <https://github.com/mixxxdj/mixxx/issues/11216>`_
 * JACK buffer size fix `#11121 <https://github.com/mixxxdj/mixxx/pull/11121>`_
 * Don't discard file tags with tuning information like "A#m +50" `#10992 <https://github.com/mixxxdj/mixxx/pull/10992>`_
-* Year search: Find also full date entries `#11251 <https://github.com/mixxxdj/mixxx/pull/11251>`_ `#11251 <https://github.com/mixxxdj/mixxx/issues/11113>`_
+* Year search: Find also full date entries `#11251 <https://github.com/mixxxdj/mixxx/pull/11251>`_ `#11113 <https://github.com/mixxxdj/mixxx/issues/11113>`_
 * Fix visual alignment of beats and waveform in case of decoding issues `#11162 <https://github.com/mixxxdj/mixxx/pull/11162>`_
 * Avoid "active key-value observers" messages during skin parsing on macOS `#11265 <https://github.com/mixxxdj/mixxx/pull/11265>`_
 * Fullscreen on Linux: Fix issues caused by Ubuntu Unity workaround `#11295 <https://github.com/mixxxdj/mixxx/pull/11295>`_ `#11281 <https://github.com/mixxxdj/mixxx/issues/11281>`_ `#11294 <https://github.com/mixxxdj/mixxx/issues/11294>`_
