@@ -1,8 +1,8 @@
 Stanton DJC.4
 =============
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/djc4.html>`__
--  `Manual / Midi commands <http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-controllers-systems/djc4.html>`__
+-  `Manual / Midi commands <https://web.archive.org/web/20211008132713/https://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__
 -  `Forum thread <https://mixxx.discourse.group/t/mapping-for-stanton-djc-4/14074>`__
 
 .. versionadded:: 2.2.4
@@ -11,7 +11,7 @@ Compatibility
 -------------
 
 This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows.
-However, if you wish to use the :ref:`ASIO sound API <preferences-sound-api>` under Windows, please install the latest driver package available from the `Product page <http://www.stantondj.com/stanton-controllers-systems/djc4.html>`__.
+However, if you wish to use the :ref:`ASIO sound API <preferences-sound-api>` under Windows, please install the latest driver package available from the `Product page <https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-controllers-systems/djc4.html>`__.
 
 Sound card setup
 ----------------
