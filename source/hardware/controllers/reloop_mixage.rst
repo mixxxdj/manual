@@ -45,7 +45,7 @@ Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio 
 :hwlabel:`⏯` / :hwlabel:`CUE 4`                          Play / pause deck                                                                                                                      If hot cue 4 is set, go to hot cue 4, else set hot cue 4
 =======================================================  =====================================================================================================================================  =========================================================================
 
-The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2.
+The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2. The scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting "Mixage.scratchByWheelTouch" to "true" inside the controller script "Reloop-Mixage.scripts.js". Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
 
 Trax selector
 -------------
