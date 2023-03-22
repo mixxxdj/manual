@@ -22,7 +22,7 @@ The microphone :hwlabel:`🎤` input can be set to different modes. To make it u
 Mixer Section
 -------------
 
-Most functions on this controller are self-explanatory and mapped in that way. The others are explained here:
+All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way. The others are explained here:
 
 =======================================================  =====================================================================================================================================  =========================================================================
 Control                                                  Function                                                                                                                               Shift function
@@ -30,13 +30,13 @@ Control                                                  Function               
 :hwlabel:`-` / :hwlabel:`+`                              Nudge deck while playing (slower / faster)                                                                                             -
 :hwlabel:`LOOP` / :hwlabel:`IN`                          Set beatloop start at current play position and turn beatloop on                                                                       Set loop in point
 :hwlabel:`RELOOP` / :hwlabel:`OUT`                       Toggle relooping on / off                                                                                                              Set loop out point
-:hwlabel:`FX SEL` / :hwlabel:`MASTER`                    Toggle which effect racks are applied to deck N (effect rack 1 ➝ 2 ➝ 1+2 ⮌)                                                            Toggle if effect rack N is enabled for master
+:hwlabel:`FX SEL` / :hwlabel:`MASTER`                    Toggle which effect racks are applied to deck N (effect rack 1 ➝ 2 ➝ 1+2 ⮌)                                                            Toggle if deck N is sync master
 :hwlabel:`FX ON` / :hwlabel:`KEYLOCK`                    Toggle effect racks on / off for deck N                                                                                                Toggle keylock (keep pitch on speed change) on / off
 :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`                Halve / double loop length (push knob to adjust move length instead)                                                                   Shift loop by move length beats left / right
 :hwlabel:`-DRY/WET+` / :hwlabel:`PAN`                    Control dry / wet for effect rack N                                                                                                    Control super knob for effect rack N
 :hwlabel:`AMOUNT` / :hwlabel:`FILTER`                    Control quick effect (can be changed in settings) super knob                                                                           -
-Loupe icon :hwlabel:`🔍`                                 Hold to use jog wheel to scroll through library                                                                                        -
-Disc icon :hwlabel:`💿`                                  Hold to use jog wheel to scratch deck                                                                                                  -
+Loupe icon :hwlabel:`🔍`                                 Toggle to use jog wheel to scroll through deck                                                                                          -
+Disc icon :hwlabel:`💿`                                  Toggle to use jog wheel to scratch deck                                                                                                 -
 Left headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⯈`    Route deck 1 audio to headphone output                                                                                                 Play / stop preview deck
 Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio to headphone output                                                                                                 Stop preview deck
 :hwlabel:`⯈⯇` / :hwlabel:`CUE 1`                         Beat-sync deck as follower (hold to sync lock)                                                                                         If hot cue 1 is set, go to hot cue 1, else set hot cue 1
@@ -45,7 +45,16 @@ Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio 
 :hwlabel:`⏯` / :hwlabel:`CUE 4`                          Play / pause deck                                                                                                                      If hot cue 4 is set, go to hot cue 4, else set hot cue 4
 =======================================================  =====================================================================================================================================  =========================================================================
 
-The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2. The scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting "Mixage.scratchByWheelTouch" to "true" inside the controller script "Reloop-Mixage.scripts.js". Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
+The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2.
+
+User-adjustable script settings
+-------------------------------
+
+The `Reloop-Mixage.scripts.js` controller script provides the following settings:
+
+-  The scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting `scratchByWheelTouch` to `true`. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
+-  To automatically resize the library and hide the decks for better browsing set `autoMaximizeLibrary` to `true`. The decks will be shown again after `libraryHideTimeout`, or when selecting a song into a deck after `libraryReducedHideTimeout`.
+
 
 Trax selector
 -------------
@@ -58,13 +67,12 @@ Control                           Function                                      
 :hwlabel:`LOAD` / :hwlabel:`⯈`    Load selected track from library into deck 2                 Load selected track from library into deck 2 and play
 ================================  ===========================================================  =========================================================================
 
-Scrolling the library will resize it and hide the decks for better browsing. The decks will be shown again after 4s, or when selecting a song into a deck.
-
 Jog wheel and pitch slider
 --------------------------
 
-Touch and move the jog wheel while pressing the Loupe icon :hwlabel:`🔍` to scratch (either deck playing or not).
-Touch and move the jog wheel while pressing the Disc icon :hwlabel:`💿` to scroll through the library (either deck playing or not).
+Touch and move the jog wheel while the loupe icon :hwlabel:`🔍` is active to scratch (either deck playing or not).
+Touch and move the jog wheel while the disc icon :hwlabel:`💿` is active to scroll through the track (either deck playing or not).
+Touch and move the jog wheel while none of the above are active to nudge the deck (deck playing).
 
 The pitch sliders let you adjust pitch. The :hwlabel:`-` / :hwlabel:`+` buttons let you temporarily adjust the the speed one step higher / lower (aka nudge the deck).
 
