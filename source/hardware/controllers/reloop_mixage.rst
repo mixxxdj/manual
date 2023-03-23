@@ -32,8 +32,8 @@ Control                                                  Function               
 :hwlabel:`RELOOP` / :hwlabel:`OUT`                       Toggle relooping on / off                                                                                                              Set loop out point
 :hwlabel:`FX SEL` / :hwlabel:`MASTER`                    Toggle which effect racks are applied to deck N (effect rack 1 ➝ 2 ➝ 1+2 ⮌)                                                            Toggle if deck N is sync master
 :hwlabel:`FX ON` / :hwlabel:`KEYLOCK`                    Toggle effect racks on / off for deck N                                                                                                Toggle keylock (keep pitch on speed change) on / off
-:hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`                Halve / double loop length (push knob to adjust move length instead)                                                                   Shift loop by move length beats left / right
-:hwlabel:`-DRY/WET+` / :hwlabel:`PAN`                    Control dry / wet for effect rack N                                                                                                    Control super knob for effect rack N
+:hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`                Halve / double loop length (push down to adjust move length instead)                                                                   Shift loop by move length beats left / right
+:hwlabel:`-DRY/WET+` / :hwlabel:`PAN`                    Control dry / wet for effect rack N (push down to control super knob for effect rack N)                                                Set master balance
 :hwlabel:`AMOUNT` / :hwlabel:`FILTER`                    Control quick effect (can be changed in settings) super knob                                                                           -
 Loupe icon :hwlabel:`🔍`                                 Toggle to use jog wheel to scroll through deck                                                                                          -
 Disc icon :hwlabel:`💿`                                  Toggle to use jog wheel to scratch deck                                                                                                 -
@@ -52,9 +52,10 @@ User-adjustable script settings
 
 The `Reloop-Mixage.scripts.js` controller script provides the following settings:
 
--  The scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting `scratchByWheelTouch` to `true`. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
+-  Scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting `scratchByWheelTouch` to `true`. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
+-  Scratch speed can be adjusted by by changing the setting `scratchTicksPerRevolution`. Smaller values "scratch more" of the track, larger values "scratch less".
+-  Jog wheel scroll speed can be adjusted by by changing the setting `jogWheelScrollSpeed`. The higher, the faster.
 -  To automatically resize the library and hide the decks for better browsing set `autoMaximizeLibrary` to `true`. The decks will be shown again after `libraryHideTimeout`, or when selecting a song into a deck after `libraryReducedHideTimeout`.
-
 
 Trax selector
 -------------
@@ -66,6 +67,8 @@ Control                           Function                                      
 :hwlabel:`TRAX`                   Turn to browse library. Press to play / pause track preview  Turn to browse side pane. Press to open / close folder
 :hwlabel:`LOAD` / :hwlabel:`⯈`    Load selected track from library into deck 2                 Load selected track from library into deck 2 and play
 ================================  ===========================================================  =========================================================================
+
+As a warning the `LOAD` LEDs will be on if that deck is currently playing.
 
 Jog wheel and pitch slider
 --------------------------
