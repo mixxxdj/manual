@@ -24,9 +24,9 @@ Mixer Section
 
 All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way (you might want to check the official manual). The others are explained here:
 
-=======================================================  =====================================================================================================================================  ===============================================================================
+=======================================================  =====================================================================================================================================  ====================================================================
 Control                                                  Function                                                                                                                               Shift function
-=======================================================  =====================================================================================================================================  ===============================================================================
+=======================================================  =====================================================================================================================================  ====================================================================
 :hwlabel:`-` / :hwlabel:`+`                              Nudge deck while playing (slower / faster)                                                                                             -
 :hwlabel:`LOOP` / :hwlabel:`IN`                          Set beatloop start at current play position and turn beatloop on                                                                       Set loop in point
 :hwlabel:`RELOOP` / :hwlabel:`OUT`                       Toggle relooping on / off                                                                                                              Set loop out point
@@ -43,7 +43,7 @@ Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio 
 :hwlabel:`CUP` / :hwlabel:`CUE 2`                        If at cue point, play when released. If not at cue point, sets a cue point                                                             If hot cue 2 is set, go to hot cue 2, else set hot cue 2
 :hwlabel:`CUE` / :hwlabel:`CUE 3`                        If at cue point, plays until released. If not at cue point: If playing, goes to cue point and stops. If not playing, sets a cue point  If hot cue 3 is set, go to hot cue 3, else set hot cue 3
 :hwlabel:`⏯` / :hwlabel:`CUE 4`                          Play / pause deck                                                                                                                      If hot cue 4 is set, go to hot cue 4, else set hot cue 4
-=======================================================  =====================================================================================================================================  ================================================================================
+=======================================================  =====================================================================================================================================  ====================================================================
 
 The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2.
 
