@@ -24,13 +24,13 @@ Mixer Section
 
 All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way. The others are explained here:
 
-=======================================================  =====================================================================================================================================  =========================================================================
+=======================================================  =====================================================================================================================================  ===============================================================================
 Control                                                  Function                                                                                                                               Shift function
-=======================================================  =====================================================================================================================================  =========================================================================
+=======================================================  =====================================================================================================================================  ===============================================================================
 :hwlabel:`-` / :hwlabel:`+`                              Nudge deck while playing (slower / faster)                                                                                             -
 :hwlabel:`LOOP` / :hwlabel:`IN`                          Set beatloop start at current play position and turn beatloop on                                                                       Set loop in point
 :hwlabel:`RELOOP` / :hwlabel:`OUT`                       Toggle relooping on / off                                                                                                              Set loop out point
-:hwlabel:`FX SEL` / :hwlabel:`MASTER`                    Toggle which effect racks are applied to deck N (effect rack 1 ➝ 2 ➝ 1+2 ⮌)                                                            Toggle if deck N is sync master
+:hwlabel:`FX SEL` / :hwlabel:`MASTER`                    Toggle which effect racks are applied to deck N (effect rack 1 ➝ 2 ➝ 1+2 ⮌)                                                            Toggle if deck N is sync master (as of 2.3.3 not working in Mixxx)
 :hwlabel:`FX ON` / :hwlabel:`KEYLOCK`                    Toggle effect racks on / off for deck N                                                                                                Toggle keylock (keep pitch on speed change) on / off
 :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`                Halve / double loop length (push down to adjust move length instead)                                                                   Shift loop by move length beats left / right
 :hwlabel:`-DRY/WET+` / :hwlabel:`PAN`                    Control dry / wet for effect rack N (push down to control super knob for effect rack N)                                                Set master balance
@@ -43,7 +43,7 @@ Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio 
 :hwlabel:`CUP` / :hwlabel:`CUE 2`                        If at cue point, play when released. If not at cue point, sets a cue point                                                             If hot cue 2 is set, go to hot cue 2, else set hot cue 2
 :hwlabel:`CUE` / :hwlabel:`CUE 3`                        If at cue point, plays until released. If not at cue point: If playing, goes to cue point and stops. If not playing, sets a cue point  If hot cue 3 is set, go to hot cue 3, else set hot cue 3
 :hwlabel:`⏯` / :hwlabel:`CUE 4`                          Play / pause deck                                                                                                                      If hot cue 4 is set, go to hot cue 4, else set hot cue 4
-=======================================================  =====================================================================================================================================  =========================================================================
+=======================================================  =====================================================================================================================================  ================================================================================
 
 The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2.
 
@@ -53,8 +53,8 @@ User-adjustable script settings
 The `Reloop-Mixage.scripts.js` controller script provides the following settings:
 
 -  Scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting `scratchByWheelTouch` to `true`. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller).
--  Scratch speed can be adjusted by by changing the setting `scratchTicksPerRevolution`. Smaller values "scratch more" of the track, larger values "scratch less".
--  Jog wheel scroll speed can be adjusted by by changing the setting `jogWheelScrollSpeed`. The higher, the faster.
+-  Scratch speed can be adjusted by changing the setting `scratchTicksPerRevolution`. Smaller values "scratch more" of the track, larger values "scratch less".
+-  Jog wheel scroll speed can be adjusted by changing the setting `jogWheelScrollSpeed`. The higher, the faster.
 -  To automatically resize the library and hide the decks for better browsing set `autoMaximizeLibrary` to `true`. The decks will be shown again after `libraryHideTimeout`, or when selecting a song into a deck after `libraryReducedHideTimeout`.
 
 Trax selector
