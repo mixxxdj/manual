@@ -63,7 +63,7 @@ Trax selector
 Control                           Function                                                     Shift function
 ================================  ===========================================================  =========================================================================
 :hwlabel:`LOAD` / :hwlabel:`⯇`    Load selected track from library into deck 1                 Load selected track from library into deck 1 and play
-:hwlabel:`TRAX`                   Turn to browse library. Press to play / pause track preview  -
+:hwlabel:`TRAX`                   Turn to browse library. Press to play / pause track preview  Turn to browse side pane. Press to open / close folder
 :hwlabel:`LOAD` / :hwlabel:`⯈`    Load selected track from library into deck 2                 Load selected track from library into deck 2 and play
 ================================  ===========================================================  =========================================================================
 
