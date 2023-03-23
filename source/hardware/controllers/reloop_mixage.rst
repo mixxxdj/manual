@@ -22,7 +22,7 @@ The microphone :hwlabel:`🎤` input can be set to different modes. To make it u
 Mixer Section
 -------------
 
-All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way. The others are explained here:
+All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way (you might want to check the official manual). The others are explained here:
 
 =======================================================  =====================================================================================================================================  ===============================================================================
 Control                                                  Function                                                                                                                               Shift function
@@ -68,7 +68,7 @@ Control                           Function                                      
 :hwlabel:`LOAD` / :hwlabel:`⯈`    Load selected track from library into deck 2                 Load selected track from library into deck 2 and play
 ================================  ===========================================================  =========================================================================
 
-As a warning the `LOAD` LEDs will be on if that deck is currently playing.
+As a warning the :hwlabel:`LOAD` LEDs will be on if that deck is currently playing.
 
 Jog wheel and pitch slider
 --------------------------
