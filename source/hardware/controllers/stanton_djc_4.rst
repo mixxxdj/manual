@@ -158,7 +158,7 @@ Effect section
 No.                       Control                                                 Function
 ========================  ======================================================  ===========================================================================================
 1                         :hwlabel:`ON`                                           Toggle FX 1 for decks 1/3 (both on the left) and FX 2 for decks 2/4 (both on the right).
-2-5                       *Various*                                               See `Standard effects mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
+2-5                       *Various*                                               See :ref:`Standard Effects Mapping <controller-effects-mapping>`.
 ========================  ======================================================  ===========================================================================================
 
 Tweakables

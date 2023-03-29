@@ -16,7 +16,7 @@ file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
 You can download and share custom controller mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Controller Mapping forums <https://mixxx.discourse.group/c/controller-mappings/10>`_.
 
 For a list of controls that can be used in a controller mapping, see
 :ref:`appendix-mixxxcontrols`.
@@ -140,7 +140,7 @@ For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
 
 You can download and share custom keyboard mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-mappings/12>`_.
 
 .. _advanced-external-fx:
 

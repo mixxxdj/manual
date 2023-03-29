@@ -72,7 +72,7 @@ The mapping of the encoders does not match their labels. They are labeled on the
 Effects
 ~~~~~~~
 
-Refer to the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ page for details on how to use the effects sections.
+Refer to the :ref:`Standard Effects Mapping <controller-effects-mapping>` page for details on how to use the effects sections.
 
 When the pad grid is in Slicer mode, the pads in the top left of the grid assign the deck to Effect Units 1-4.
 
