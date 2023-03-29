@@ -152,8 +152,8 @@ or :term:`IRC` channel. Device support varies for each supported :term:`OS
              the details of each.
 
 .. _Hardware Compatibility wiki page: https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility
-.. _Bug Tracker: https://bugs.launchpad.net/mixxx
-.. _Controller mapping forum: https://mixxx.org/forums/viewforum.php?f=7
+.. _Bug Tracker: https://github.com/mixxxdj/mixxx/issues
+.. _Controller mapping forum: https://mixxx.discourse.group/c/controller-mappings/10
 
 Installing a mapping from the forum
 -----------------------------------

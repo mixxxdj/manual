@@ -110,7 +110,7 @@ The other knobs control the metaknobs of the effects.
 The buttons below the metaknobs control the effect enable buttons.
 When pressed with shift, they cycle through the available effects.
 The button below the mix knob toggles whether the effect parameters are showing on screen.
-This will be expanded in a future update to implement the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
+This will be expanded in a future update to implement the :ref:`Standard Effects Mapping <controller-effects-mapping>`.
 
 The buttons at the top of each mixer column control which decks are routed to which effects units.
 

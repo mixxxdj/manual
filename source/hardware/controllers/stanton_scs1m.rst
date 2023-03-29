@@ -94,7 +94,7 @@ Global controls
 
    -  Rotate to move the track select highlight
    -  Press to load the selected track into the first stopped deck, if any.
-      //(This is [[https://bugs.launchpad.net/mixxx/+bug/734713|not working]] in
+      //(This is `not working <https://github.com/mixxxdj/mixxx/issues/5815>` in
       1.9.x for some reason.)//
 
 -  **Control mode**:
