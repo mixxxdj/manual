@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: German (https://www.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../404.rst:4
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: ../../404.rst:6
+msgid ""
+"Sorry, we can't find the page you're looking for. Go back to the :ref:`start"
+" page of the manual <index>`."
+msgstr ""
+"Es tut uns leid, wir können die gesuchte Seite nicht finden. Gehen Sie "
+"zurück zur :ref:`start Seite des Handbuchs <index>`."
+
+#: ../../404.rst:10
+msgid ""
+"Mixxx is all about collaboration. If you think this is a mistake on our "
+"side, let us know on our `issue tracker on GitHub "
+"<https://github.com/mixxxdj/manual/issues>`_!"
+msgstr ""
+"Mixxx basiert auf Zusammenarbeit. Wenn Sie denken, dass dies ein Fehler auf "
+"unserer Seite ist, lassen Sie es uns in unserem `Issue-Tracker auf GitHub "
+"<https://github.com/mixxxdj/manual/issues>`_ wissen!"

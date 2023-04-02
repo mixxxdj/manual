@@ -43,9 +43,6 @@ types, go to :ref:`file-format-compatibility`.
 --resourcePath PATH     Top-level directory where Mixxx will look for
                         its resource files such as MIDI mappings,
                         overriding the default installation location.
---pluginPath PATH       Top-level directory where Mixxx will look for
-                        sound source plugins in addition to default
-                        locations.
 --settingsPath PATH     Top-level directory where Mixxx will look for
                         user settings files such as the library database
                         and preferences configuration file.
@@ -91,7 +88,7 @@ types, go to :ref:`file-format-compatibility`.
 Developer tools
 ===============
 
-To start Mixxx in Developer mode from a custom resource directory with
+To start Mixxx in Developer mode with a custom resource directory with
 :term:`MIDI` and :term:`HID` logging enabled, type the following line into the
 terminal and hit return: ::
 

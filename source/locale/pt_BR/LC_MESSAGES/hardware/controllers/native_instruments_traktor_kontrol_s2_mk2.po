@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:45+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:2
+msgid "Native Instruments Traktor Kontrol S2 MK2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:4
+msgid ""
+"The Native Instruments Traktor Kontrol S2 MK2 is a 2 deck all-in-one "
+"controller with an integrated audio interface. It has a pair of balanced "
+"1/4\" TRS outputs and a pair of unbalanced RCA outputs which both output the"
+" main mix, a 1/4\" TRS headphone jack, and a 1/4\" TRS microphone input. The"
+" microphone input is digitized and available to the computer for recording "
+"and broadcasting. The Kontrol S2 MK2 can run with only USB bus power and an "
+"optional power supply can be connected to make the LEDs brighter and the "
+"headphone output louder."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:13
+msgid ""
+"The Kontrol S2 MK2 can be distinguished from the Mk1 by the jog wheels. The "
+"top of the jog wheels on the MK2 are shiny aluminum; the top of the jog "
+"wheels on the Mk1 are black. The Kontrol S2 Mk3 does not have effects knobs "
+"at the top."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:21
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:23
+msgid ""
+"The Kontrol S2 MK2 is a USB audio and HID class compliant device. It is "
+"fully compatible with Linux, Windows, and macOS. No proprietary driver is "
+"required on Linux or macOS. For Windows, download and install the latest "
+"driver from `Native Instruments’ website <https://www.native-"
+"instruments.com/en/support/downloads/drivers-other-files/>`__."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:30
+msgid "Audio routing"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:33
+msgid "Output"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:33
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:40
+msgid "Channels"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:35
+msgid ":guilabel:`Master`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:35
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:42
+msgid "Channel 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:36
+msgid ":guilabel:`Headphones`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:36
+msgid "Channel 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:40
+msgid "Input"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:42
+msgid ":guilabel:`Microphone 1`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:45
+msgid "Do *not* configure the :guilabel:`Record/Broadcast` input in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:48
+msgid "Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:51
+msgid "Decks"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:54
+msgid "Jog Wheels"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:56
+msgid ""
+"Touch the top of the jog wheel and turn it to scratch. Move the jog wheel "
+"from the edge without touching the top to nudge the track. Hold "
+":hwlabel:`SHIFT` and spin the jog wheel to seek quickly."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:61
+msgid "Loop Section"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:63
+msgid "The encoders work differently in Mixxx than in Traktor:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:69
+msgid "Left encoder"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:66
+msgid ""
+"Turning jumps forward/backwards by the beatjump size. If a loop is enabled, "
+"turning moves the loop by the beatjump size. Push and turn to adjust the "
+"beatjump size. Turning with :hwlabel:`SHIFT` adjusts the musical key. "
+"Pushing with :hwlabel:`SHIFT` resets the key to the track’s default."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:73
+msgid "Right encoder"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:72
+msgid ""
+"Turning halves/doubles the loop size. Turning with :hwlabel:`SHIFT` "
+"beatjumps by 1 beat forward/backward, or if a loop is enabled, moves the "
+"loop 1 beat forward/backward. Pushing (de)activates a loop. Pushing with "
+":hwlabel:`SHIFT` reactivates a disabled loop, or if a loop is enabled, jumps"
+" to the loop in point and stops the deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:77
+msgid ":hwlabel:`LOOP IN`/:hwlabel:`LOOP OUT` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:76
+msgid ""
+"Manually set the loop in and out points. Press and hold while moving the jog"
+" wheel to adjust the loop in or out point."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:80
+msgid "Top Pad Row"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:82
+msgid "The top pad row has 3 different modes."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:88
+msgid "Hotcue mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:85
+msgid ""
+"This is the default mode when Mixxx starts. The pads control hotcues 1-4. "
+"The color of the hotcues is shown on the pads. Press an unlit button to set "
+"a new :term:`hotcue`. Press a lit pad to seek to the hotcue. Press a lit pad"
+" with :hwlabel:`SHIFT` to delete the hotcue."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:92
+msgid "Intro & Outro cue mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:91
+msgid ""
+"This mode is activated by pressing the :hwlabel:`FLUX` button above the "
+"tempo fader. Pads 1 & 2 are used for the intro start & end cues and light up"
+" green. Pads 3 & 4 are used for the outro start & end cues and light up red."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:101
+msgid "Sampler mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:95
+msgid ""
+"This mode is activated by the button under the Remix knob in the center of "
+"the mixer. Press an unlit pad to load the selected track in the library to "
+"the sampler. Loaded and stopped sampler pads are lit white. Press a white "
+"pad to play a sampler. A playing sampler is lit magenta. Press a lit pad "
+"with :hwlabel:`SHIFT` to stop a sampler, or if it is already stopped, unload"
+" the sample."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:104
+msgid "Transport Controls"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:106
+msgid "The transport controls work mostly as labelled on the controller:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:111
+msgid ":hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:109
+msgid ""
+"Press to :term:`sync` :term:`tempo`. Press and hold to enable sync lock. "
+"Press again to disable sync lock. Press with :hwlabel:`SHIFT` to enable sync"
+" lock without needing to hold."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:114
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:146
+msgid ":hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:114
+msgid ""
+"Behavior depends on the :ref:`cue mode set in the Mixxx preferences "
+"<interface-cue-modes>`. Press with :hwlabel:`SHIFT` to seek the beginning of"
+" the track and stop."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:116
+msgid ":hwlabel:`PLAY` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:117
+msgid ""
+"Play or pause the deck. Press with :hwlabel:`SHIFT` to toggle key lock."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:118
+msgid ":hwlabel:`TEMPO` fader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:119
+msgid "Adjusts the :term:`tempo`."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:128
+msgid ":hwlabel:`FLUX` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:121
+msgid ""
+"Mixxx `does not yet have a very useful flux/slip mode "
+"<https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this button "
+"toggles the top pad row to the intro/outro cues. Press the button when it is"
+" lit to return the top pad row to hotcue mode."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:126
+msgid ""
+"When slip mode is implemented in Mixxx in the future, this could be changed "
+"so :hwlabel:`SHIFT` + :hwlabel:`FLUX` button activates intro & outro mode "
+"for the pads."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:131
+msgid "Mixer"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:134
+msgid "Deck Columns"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:139
+msgid ":hwlabel:`GAIN|FILTER` encoder"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:137
+msgid ""
+"Controls the Quick Effect superknob for the deck. With :hwlabel:`SHIFT`, "
+"controls gain. Press to reset the Quick Effect superknob. Press with "
+":hwlabel:`SHIFT` to reset gain."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:141
+msgid ":hwlabel:`FX 1`/:hwlabel:`FX 2` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:142
+msgid "Assign the deck to effect units 1 and 2."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:143
+msgid ":hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:144
+msgid "Adjust the high, middle, and low frequencies."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:146
+msgid ""
+"Toggle whether the deck is routed to the :term:`prefader headphone output "
+"<PFL>`. With :hwlabel:`SHIFT`, toggle quantize for the deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:149
+msgid "Fader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:149
+msgid "Control the deck volume."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:152
+msgid "Center Column"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:155
+msgid ":hwlabel:`MAIN LEVEL` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:155
+msgid ""
+"Adjust the volume of the main output. This acts on the controller’s audio "
+"interface output in hardware, so it is not mapped to the main mix gain knob "
+"in Mixxx (otherwise the gain would be applied twice)."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:157
+msgid ":hwlabel:`REMIX` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:158
+msgid "Adjusts the gain of samplers 1-8."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:160
+msgid ":hwlabel:`REMIX ON A`/:hwlabel:`REMIX ON B` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:160
+msgid ""
+"Toggles the top pad row of the corresponding deck to control samplers. Press"
+" when lit to return the pads to controlling :term:`hotcues <hotcue>`."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:164
+msgid ":hwlabel:`BROWSE` encoder"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:163
+msgid ""
+"Scroll through the music library. Push to maximize the library browser on "
+"screen. Turn with :hwlabel:`SHIFT` to scroll 5 rows at a time."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:167
+msgid ":hwlabel:`LOAD A`/:hwlabel:`LOAD B` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:167
+msgid ""
+"Load the track selected in the library to the corresponding deck. Press with"
+" :hwlabel:`SHIFT` to unload a track."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:169
+msgid ":hwlabel:`LEVEL` meters"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:170
+msgid "The meters show the levels for each deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:172
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:172
+msgid "Crossfade between the decks."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:175
+msgid "Effects"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:177
+msgid ""
+"The Kontrol S2 MK2 uses the `standard Mixxx effects mapping "
+"<https://github.com/mixxxdj/mixxx/wiki/standard-effects-mapping>`__."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:181
+msgid "Front panel"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:183
+msgid ""
+"The cue volume knob adjusts the volume of the controller’s audio interface "
+"in hardware, so it is not mapped to Mixxx (otherwise the gain would be "
+"applied twice). The cue mix knob is mapped to Mixxx. The Mic Engage button "
+"toggles talkover for Microphone Input 1 in Mixxx."
+msgstr ""

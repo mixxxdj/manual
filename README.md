@@ -124,11 +124,11 @@ translation and can be regenerated with:
 Additionally, for every new source file added (i.e. new chapters or manual
 pages) the Transifex configuration file (stored in `.tx/config`) needs updating:
 
-    sphinx-intl update-txconfig-resources --pot-dir source/locale/pot --transifex-project-name mixxxdj-manual --locale-dir source/locale
+    sphinx-intl update-txconfig-resources --pot-dir source/locale/pot --transifex-project-name mixxx-dj-manual-23 --locale-dir source/locale
 
 Commit the new source translations and Transifex configuration with:
 
-    git add source/translations/pot .tx
+    git add source/locale/pot .tx
     git commit -m "Update source translations and Transifex configuration."
 
 #### Push source translations to Transifex
@@ -138,17 +138,17 @@ configuration, you must push the new source files to Transifex to be translated.
 
 To do this, run:
 
-    tx push -s
+    tx push -s --parallel
 
 #### Pull completed translations from Transifex
 
 To pull newly completed translation (.po) files from Transifex, run:
 
-    tx pull -a -f
+    tx pull -a -f --parallel
 
 Commit the changes to the repository with:
 
-    git add source/translations
+    git add source/locale
     git commit -m "Pull latest translations from Transifex."
 
 #### Compile the translations from Transifex and verify there are no errors.

@@ -15,26 +15,24 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: main
         fetch-depth: 0
     - name: Setup Graphviz
       run: sudo apt update && sudo apt install -y graphviz
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.7'
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
     - name: Build versioned HTML manual
       run: sh build_html.sh
-    - name: Publish
-      uses: netlify/actions/cli@master
-      with:
-        # Increase timeout to 30 minutes because deploying the manual may take
-        # a while.
-        args: deploy --prod --dir=build/html --timeout 1800
+    - name: Deploy to Netlify
+      # Increase timeout to 30 minutes because deploying the manual may take
+      # a while.
+      run: npx netlify deploy --prod --dir=build/html --timeout 1800
       env:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
@@ -43,7 +41,7 @@ jobs:
     name: PDF
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Setup PDF Build Dependencies
       run: >
         sudo apt-get update && sudo apt-get install -y
@@ -58,7 +56,7 @@ jobs:
         latexmk
         xindy
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.7'
     - name: Install Python dependencies

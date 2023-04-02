@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:45+0000\n"
+"Language-Team: Russian (https://www.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:4
+msgid "ION Discover DJ Pro"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:6
+msgid ""
+"Ion Discover DJ Pro is a 2-deck controller with integrated audio interface "
+"and iPhone dock."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:15
+msgid "ION Discover DJ Pro (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:17
+msgid ""
+"`Mixxx User Forum <https://mixxx.discourse.group/t/ion-discover-dj-pro-"
+"mapping-script/12120>`__"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:22
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:24
+msgid ""
+"This controller is USB MIDI class compliant, so it is plug-and-play on all "
+"platforms without having to install any special drivers. The manufacturer’s "
+"page only mentions Windows and Mac but it’s confirmed working on Linux as "
+"well."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:29
+msgid "Controller Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:32
+msgid "Deck section"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:41
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:68
+msgid "ION Discover DJ Pro (deck section)"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:44
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:71
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:44
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:71
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:44
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:71
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:46
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:73
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:46
+msgid ":hwlabel:`JOG WHEEL`"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:46
+msgid "Scratches the track"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:47
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:74
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:47
+msgid ":hwlabel:`PLAY/PAUSE` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:47
+msgid "Plays/pauses a track in the respective Deck"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:48
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:75
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:48
+msgid ":hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:48
+msgid "While playing: go to cue point, while stopped: set cue point"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:49
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:76
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:49
+msgid ":hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:49
+msgid "Sync the tempo to other playing track"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:50
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:77
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:50
+msgid ":hwlabel:`SCRATCH` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:50
+msgid "Toggle the scratch mode"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:51
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:78
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:51
+msgid ":hwlabel:`TEMPO` slider"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:51
+msgid "Adjust the track playing speed"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:52
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:79
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:52
+msgid ":hwlabel:`PITCH BEND` buttons -/+"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:52
+msgid "Lower (-) or Raise (+) the pitch temporarily"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:53
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:53
+msgid ":hwlabel:`REVERSE PLAY` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:53
+msgid "Hold for reverse play"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:54
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:54
+msgid ":hwlabel:`BASS`/:hwlabel:`MID`/:hwlabel:`TREBLE` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:54
+msgid "Adjust the low/mid/high-frequency regions of the song"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:55
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:55
+msgid ":hwlabel:`MUTE` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:55
+msgid "Mute low/mid/high-frequency regions"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:59
+msgid "Mixer section"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:68
+msgid "ION Discover DJ Pro (mixer section)"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:73
+msgid "Channel faders"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:73
+msgid "Adjust the output level for each channel"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:74
+msgid "Cross fader"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:74
+msgid "Fades between left and right deck."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:75
+msgid ":hwlabel:`A CUE` / :hwlabel:`B CUE` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:75
+msgid "Sends the selected channel's audio to the headphone output"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:76
+msgid ":hwlabel:`LOAD A` / :hwlabel:`LOAD B` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:76
+msgid "Load the selected library track to deck A / B"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:77
+msgid ":hwlabel:`CUE VOLUME` knob"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:77
+msgid "Control the output volume of the headphones output"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:78
+msgid ":hwlabel:`BROWSE` knob"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:78
+msgid "Browse the library"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:79
+msgid ":hwlabel:`MASTER VOLUME` knob"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:79
+msgid "Control the output volume of the master output"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:83
+msgid "Known Issues"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:85
+msgid "Controls not yet working:"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:87
+msgid ":hwlabel:`STUTTER` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:88
+msgid ":hwlabel:`ALL MUTE` button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:89
+msgid ":hwlabel:`AUTOLOOP` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj_pro.rst:90
+msgid "iPod dock"
+msgstr ""

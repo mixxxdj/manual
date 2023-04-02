@@ -1,0 +1,538 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-08 20:41+0100\n"
+"PO-Revision-Date: 2023-02-08 20:03+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7664/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/numark_party_mix.rst-1
+#: ../../hardware/controllers/numark_party_mix.rst:2
+msgid "Numark Party Mix"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:4
+msgid ""
+"`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · "
+"`Manufacturer's user manual "
+"<https://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-"
+"_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-"
+"mix-midi-mapping/16712>`_"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:9
+msgid "Overview"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:18
+msgid "See the tables below for controls descriptions."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:21
+msgid "Center"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "#"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`BROWSE` (rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Browse library"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`BROWSE` (press+rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "switch between Library and Sidebar"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`BROWSE` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"Equivalent to double clicking the currently selected item in Library (see "
+":mixxx:coref:`GoToItem<[Library],GoToItem>` control)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`LOAD` 1 and 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "load currently selected track to Deck 1 or 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`MASTER GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust the volume level of :term:`master output`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`CUE MIX`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+":term:`Head/mix knob<Head/mix button>`. Adjust the cue/main mix in the "
+"headphone output."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`CUE GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`Crossfader`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"Controls the mix between the two decks. See :ref:`interface-crossfader`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:39
+msgid "Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:41
+msgid ""
+"Each of those controls exists in both :term:`decks<deck>` and affects only "
+"the corresponding deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust the pre-fader, pre-EQ audio level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`TREBLE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust high frequencies"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`BASS`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust low frequencies"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`Channel fader`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust volume level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+":term:`Headphone button`. Toggle sending channel to the cue (headphone) "
+"channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`Jog wheel`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"If scratch mode is enabled (see the :hwlabel:`SCRATCH` button below): "
+"scratch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid "If scratch mode is disabled: pitch bend"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:5
+msgid ""
+"The behavior of the jog wheel can be fine-tuned, see the :ref:`Adjustable "
+"values<numark_party_mix_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`SCRATCH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Toggle scratch mode. Disabled by default."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`Pitch fader`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Adjust the speed of the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`SYNC`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "If sync lock is disabled: set BPM to the other deck's BPM"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid "If sync lock is enabled: disable sync lock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`SYNC` (hold, then release)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Enable :term:`sync lock`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"If track is playing: stops the track and resets position to the main cue "
+"point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid "If playback is stopped: sets the main cue point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`CUE` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"Play the track from main cue point, release to stop playback and return to "
+"the main cue point. Playback must be initially stopped on the main cue "
+"point."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`Play/Pause`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Play/pause playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`PADS 1-4`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Pads 1-4 function depends on selected mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`PAD MODE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Select mode of :hwlabel:`PADS 1-4`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`MODE LEDs`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"The 4 pads in each deck have multiple functions, depending on the selected "
+"*pad mode*. Default pad mode is *hotcues*. Current mode is selected by "
+"pressing :hwlabel:`PAD MODE`. The LED for currently active pad mode is lit "
+"up (or all 3 LEDs for effect mode)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:73
+msgid ""
+"The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
+" See :ref:`interface-cue-modes` for more info."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:77
+msgid "Pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`CUE Mode`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"set hotcue if not set. If set, go to hotcue position and start playback."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid "Pad lights indicate if a particular hotcue is set or not."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`LOOP Mode`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "activate auto-loop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid ""
+"Default auto-loop sizes are: 4, 8, 16, 32. Loop sizes can be adjusted, see "
+"the :ref:`Adjustable values<numark_party_mix_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`SAMPLER Mode`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"button for 4 Samples for each Deck 1-4 and 5-8 (toggle play from start and "
+"stop)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ":hwlabel:`EFFECT Mode`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"Pad 1-3 activates effect during press Deck1 of EffectUnit1, Deck2 of "
+"EffectUnit2."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:3
+msgid ""
+"Pad 4 switches mix mode. Pad light on indicates Dry/Wet mode. Pad Light off "
+"indicates Dry+Wet mode."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:97
+msgid "Adjustable values"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:99
+msgid ""
+"There are a few configurable values at the top of the script (:file:`Numark-"
+"Party-Mix.scripts.js`)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Variable"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Default value"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``jogScratchSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "340"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Scratching sensitivity"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``jogScratchAlpha``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "1/8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "For controlling the alpha-beta filter used in scratching"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``jogScratchBeta``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "1/8/32"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``jogPitchSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Jog wheel (pitch bend) sensitivity during play"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``jogSearchSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "1/2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "Jog wheel (scrub) sensitivity during pause"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "``autoLoopSizes``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid "[ \"4\", \"8\", \"16\", \"32\"]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:1
+msgid ""
+"Loop sizes for the auto-loop pad mode, each value corresponds to one of the "
+"pads."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:114
+msgid ""
+"See `here <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#user-"
+"content-scratching-and-jog-wheels>`_ for more info about constants used in "
+"scratching."
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:117
+msgid "Alternative Mappings"
+msgstr ""
+
+#: ../../hardware/controllers/numark_party_mix.rst:118
+msgid ""
+"I am working on alternative mappings for this controller here: `Numark Party"
+" Mix Mappings <https://github.com/olafklingt/mixxx_numark_partymix>`_"
+msgstr ""

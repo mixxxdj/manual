@@ -173,6 +173,8 @@ audience, but this requires a few more steps:
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
 
+.. _controller-effects-mapping:
+
 Controller Effects Mapping
 ==========================
 This section describes how to use the standard Mixxx mapping for effects sections on controllers with the typical layout of 4 knobs (or 3 knobs + 1 encoder) and 4 buttons for effects. It allows you to switch between controlling all 3 effects of a chain or controlling each parameter of one effect.

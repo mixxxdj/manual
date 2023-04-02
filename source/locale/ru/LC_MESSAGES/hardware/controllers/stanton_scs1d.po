@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:45+0000\n"
+"Language-Team: Russian (https://www.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../hardware/controllers/stanton_scs1d.rst:2
+msgid "Stanton SCS.1d"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:4
+msgid ""
+"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
+"systems/scs1d.html>`__"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:9
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:11
+msgid ""
+"**Easy customization:** We have provided the following customization "
+"variables at the top of the script you can set to your liking:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:14
+msgid ""
+"**pitchRanges** - The pitch ranges selectable with the Range button. You can"
+" add more as you like but they must be in ascending order."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:16
+msgid ""
+"**fastDeckChange** - If set to true, changes decks instantly by skipping the"
+" flashing lights. Useful for beat juggling on one unit."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:18
+msgid ""
+"**globalMode** - If true, the unit will stay in the current section modes on"
+" virtual deck changes (instead of switching to the modes you were in the "
+"last time you controlled that virtual deck.) The trigger pad section always "
+"stays in the current mode regardless of this setting."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:22
+msgid ""
+"**platterSpeed** - The speed of the platter at 0% pitch: 0=33 RPM, 1=45 RPM"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:23
+msgid ""
+"**deckChangeWait** - Time in milliseconds to hold the Deck Select button "
+"down to avoid changing decks"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:25
+msgid ""
+"**padVelocity** - If set to true, uses the velocity values when recalling "
+"cues on the trigger pads (this is toggle-able with a button on the unit as "
+"well.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:28
+msgid ""
+"**crossFader** - If true, uses the pitch slider to adjust the cross-fader "
+"while the Pitch Range button is held down"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:30
+msgid ""
+"**browseDamp** - Number of platter ticks to move the highlight one item when"
+" browsing the library. Set higher for slower movement. (Defaults to 3.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:32
+msgid ""
+"**looseLoops** - If true (default,) causes the loop buttons to set new loop "
+"points each time you press them (good for loop rolls.) If set to false, you "
+"must explicitly delete one before you can set another."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:36
+msgid ""
+"Just open the ``midi/Stanton-SCS1d-scripts.js`` file in your favorite text "
+"editor (Wordpad works too) and you’ll see these variables right near the "
+"top. Edit & save, then restart Mixxx and enjoy."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:40
+msgid ""
+"Now let’s take a look at how the controls operate, starting in the upper "
+"left and moving counter-clockwise:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:44
+msgid "Mode switch buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:46
+msgid ""
+"**Setup**\\ *: unused by Mixxx but will enter the deck’s internal setup "
+"menu*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:47
+msgid "**Control**\\ *: unused*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:48
+msgid ""
+"**Browse**: Allows browsing the library with the platter. Press additional "
+"times to change the category (Library, Playlists, Crates, etc.) To go "
+"backwards, press another mode button (Vinyl or Control) then Browse again."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:51
+msgid "**Vinyl**: Take a guess! :-)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:52
+msgid ""
+"**⇒/Enter**: Loads the currently selected track into the currently selected "
+"virtual deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:54
+msgid "**Deck Select**: Switches to the other virtual deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:55
+msgid "**⇐/Cancel**\\ *: unused*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:58
+msgid "Transport section"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:60
+msgid "**circle button**: Toggles headphone cue"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:61
+msgid "**«**: Fast rewind"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:62
+msgid "**»**: Fast forward"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:63
+msgid "**\\|«**\\ *: unused*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:64
+msgid "**»\\|**\\ *: unused*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:65
+msgid "**Cue, Sync, Play/Pause**: as labeled"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:66
+msgid "**BPM**: BPM tap"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:69
+msgid "Trigger Pad section"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:71
+msgid ""
+"The trigger pads are used to set and recall hot cues. You can use them as "
+"you would a sampler if the target deck is stopped (where it will only play "
+"as long as you are pressing the pad) or as hot cues (if the target deck is "
+"playing.) You set a cue simply by pressing an unlit pad at the desired "
+"point. It lights green when there’s a cue set and the corresponding display "
+"shows the cue point in ``minutes:seconds.centiseconds`` format."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:78
+msgid "**circle buttons**\\ *above the displays: unused*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:79
+msgid "**circle button** at the top right of the section:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:80
+msgid ""
+"Velocity toggle: When lit red, the target deck’s volume will be adjusted by "
+"how hard you strike the pads. Press this button to toggle the feature."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:82
+msgid ""
+"Delete cues: Hold this button down and press a pad to delete the cue stored "
+"there"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:84
+msgid ""
+"**circle buttons** at the bottom right of the section: These select the cue "
+"bank for each deck. The top button chooses the bank for deck one and the "
+"bottom for deck two. There are three banks for each deck denoted by the "
+"button color: green (1), red (2), and amber (3). In this way you can recall "
+"cues/play samples on either deck at any time regardless of what the rest of "
+"the controller is doing."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:92
+msgid "Pitch slider section"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:94
+msgid "**Pitch slider**:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:95
+msgid ""
+"Pitch adjust: directly corresponds to the slider on screen for the currently"
+" selected virtual deck. Since the slider is motorized, it will move on its "
+"own if you change decks or adjust the slider on the screen."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:98
+msgid ""
+"Cross-fader adjust: will move to and allow adjustment of the on-screen "
+"cross-fader while the Range button is held down."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:100
+msgid "**Range button**:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:101
+msgid ""
+"Toggles between the pitch range values specified in the **pitchRanges** "
+"global variable mentioned at the top of this page"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:103
+msgid ""
+"When held, allows the pitch slider to be used to adjust the cross-fader (if "
+"the **crossFader** variable is set to true.) If you do this, the pitch range"
+" will not be changed when you release the button."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:106
+msgid ""
+"**Reset button**: Resets the slider to the center position when adjusting "
+"pitch or the cross-fader."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:110
+msgid "Preset section"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:112
+msgid ""
+"This section has three banks, selected by the three circle buttons at the "
+"bottom of the section."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:116
+msgid "Loop mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:118
+msgid ""
+"Press the top circle button (Bank 1) at the bottom of the section to get "
+"into this mode. The 12 preset buttons are grouped in pairs with the left one"
+" adjusting the loop in point and the right one adjusting the loop out point."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:122
+msgid ""
+"There are two modes of operation selectable by the **looseLoops** global "
+"variable described at the top of this page:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:125
+msgid ""
+"**Loose Loops mode** - Works just like a CDJ and the on-screen loop "
+"controls. Use this for loop rolls."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:128
+msgid "**Left loop button** - Sets loop in point any time you press it"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:129
+msgid "**Right loop button** - Sets loop out point any time you press it"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:130
+msgid ""
+"Reloop/Exit: Hold the **Bank 1** button and press either Left or Right loop "
+"buttons to toggle the loop on and off"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:133
+msgid ""
+"**Protected Loops mode** - Works like the hot cue section in that you must "
+"first delete a loop point before you can set another. Use this when you want"
+" to return to a pre-set loop and not worry about accidentally losing it."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:137
+msgid ""
+"**Left loop button** - Sets loop in point only when none is already set"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:138
+msgid ""
+"**Right loop button** - Sets loop out point only when none is already set"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:139
+msgid ""
+"Reloop/Exit: **Both loop buttons together** - Toggles the loop on and off"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:140
+msgid ""
+"Delete: Hold the **Bank 1** button and press a Left or Right loop button to "
+"delete that loop point."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:144
+msgid "Instant pitch changes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:146
+msgid ""
+"The bottom two banks are used for instant pitch changes for the current "
+"virtual deck. These are useful when using the pads as samplers to further "
+"vary the sounds."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:150
+msgid ""
+"They offer the following arrangements, increasing from left to right, top to"
+" bottom:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:153
+msgid "**circle buttons** at the bottom:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:154
+msgid ""
+"**Middle: Key change** - Center row buttons are one semitone away from their"
+" vertical neighbors and the outside ones are three semitones away (for "
+"harmonic key changes.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:157
+msgid ""
+"**Bottom: Notes** - Buttons correspond to major scale notes (ala Vestax "
+"Controller One.) This is most useful with a constant-pitch sound or chord. "
+"(You can generate one in Audacity, or use the time code sound. :-) )"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:161
+msgid ""
+"Remember you can return to the original pitch (tonic) by pressing Reset just"
+" above the pitch slider."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:164
+msgid ""
+"Note that when you use one of these buttons, the pitch range is "
+"automatically set to 100% in order for the values to be set correctly."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:167
+msgid ""
+"*Key change and Note modes were tuned with respect to 440Hz A (above middle "
+"C.)*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:170
+msgid "Encoder section"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:172
+msgid ""
+"Pressing any of the encoders returns the parameter to the default value."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:174
+msgid ""
+"**circle button** to the left of the section: changes the parameter bank the"
+" encoders adjust:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:176
+msgid "**Green**:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:178
+msgid "**1st encoder** (from the left): adjusts low frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:179
+msgid "**2nd encoder**: adjusts mid frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:180
+msgid "**3rd encoder**: adjusts high frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:181
+msgid "**4th encoder**: adjusts deck volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:182
+msgid ""
+"**circle buttons** under each display: momentary kill buttons for the "
+"corresponding parameter"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:185
+msgid "**Red**:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:187
+msgid "**1st encoder** (from the left): adjusts flanger depth"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:188
+msgid "**2nd encoder**: adjusts flanger delay"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:189
+msgid "**3rd encoder**: adjusts flanger period (Low Frequency Oscillator)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:190
+msgid "**4th encoder**: adjusts pre-fader track gain"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:191
+msgid ""
+"**circle button** under the 1st display: toggles the flange effect for the "
+"current deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:193
+msgid "//**circle button** under the 2nd display: unused//"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:194
+msgid "//**circle button** under the 3rd display: unused//"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:195
+msgid ""
+"**circle button** under the 4th display: toggles key lock for the current "
+"deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:198
+msgid "When holding down the **Deck Select** button:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:200
+msgid "**1st encoder** (from the left): adjusts the cue/main headphone mix"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:201
+msgid "**2nd encoder**: adjusts the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:202
+msgid "**3rd encoder**: adjusts the main balance (pan)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs1d.rst:203
+msgid "**4th encoder**: adjusts the main volume"
+msgstr ""

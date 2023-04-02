@@ -604,6 +604,10 @@ control rate changes also from your computer's keyboard, see the chapter
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
 
+  .. hint:: To make the rate and/or pitch automatically reset whenever a new
+            track is loaded go to :menuselection:`Preferences --> Decks -->
+            Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
+
 **Temporary Pitch/Rate buttons (Nudge)**
   Pushing the diagonal arrow buttons is like nudging the metal edge of
   a turntable, or the outer edge of a CD player. It will give the track a push
@@ -922,7 +926,7 @@ on the left end of the crossfader and vice versa. This is also known as
 *Hamster Style*. To adjust the crossfader to your style of mixing, go to
 :menuselection:`Preferences --> Crossfader`.
 
-The :term:`crossfader` orientation determines to which side of the crossfader the deck is assigned.
+The :term:`crossfader` orientation switches determine to which side of the crossfader the deck is assigned.
 It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can

@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:4
+msgid "Library"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:9
+msgid "Changing music directories"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:11
+msgid ""
+"You can manually add, relink, and remove Mixxx music directories in "
+":menuselection:`Preferences --> Library`."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:23
+msgid "**Add a new music directory**"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:15
+msgid ""
+"Mixxx handles multiple music library folders. Click :guilabel:`Add` to "
+"browse to a directory where your music is stored. Mixxx will watch this "
+"directory and its subdirectories for new tracks."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:19
+msgid ""
+"If you add a directory that is already in your library, or you are currently"
+" :ref:`rescanning your library <library-tracks>`, the operation is canceled."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:22
+msgid ""
+"Directories can also be added from the :ref:`Computer <library-computer>` "
+"sidebar item inside the library."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:41
+msgid "**Relink a existing music directory**"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:26
+msgid ""
+"If an existing music directory is moved or renamed, Mixxx doesn't know where"
+" to find the audio files in it. The tracks will still show in library but "
+"they can't be loaded on decks and the tracks will become missing after the "
+"library is rescanned."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:30
+msgid ""
+"To relink the music directory, go to :menuselection:`Preferences --> "
+"Library`, click :guilabel:`Relink` to select the music directory in its new "
+"location. This will re-establish the links to the audio files in the Mixxx "
+"library."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:34
+msgid ""
+"Click :menuselection:`Library --> Rescan Library`, this will update the "
+"tracks and cause them to show up again in the library, check the location "
+"column in the library and you should see that it now points to the new music"
+" directory."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:38
+msgid ""
+"The playlists, crates, history and all track data like cue points, rating, "
+"comments etc. are preserved after relinking the library, the tracks are also"
+" not re-analyzed as the cached analysis is reused. You can confirm this by "
+"checking the :term:`Key <key>` and :term:`BPM <BPM>` columns to see if there"
+" is a key and BPM for every track."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:43
+msgid ""
+"It is recommended to take a backup of your Mixxx configuration files before "
+"moving or renaming music directories used in Mixxx. For locations in each "
+"supported :term:`OS <operating system>` as well as detailed descriptions of "
+"all settings files, go to :ref:`appendix-settings-files`."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:62
+msgid "**Remove a music directory**"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:47
+msgid ""
+"Click :guilabel:`Remove`, and Mixxx will no longer watch a directory and its"
+" subdirectories for new tracks, and asks what would you like to do with the "
+"tracks from these directories."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:51
+msgid ""
+"Select :guilabel:`Hide Tracks` to hide all tracks from this directory and "
+"subdirectories."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:53
+msgid ""
+"Select :guilabel:`Delete Track Metadata` to delete all metadata for these "
+"tracks from Mixxx permanently"
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:55
+msgid ""
+"Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in "
+"your library."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:58
+msgid ""
+"Hiding tracks saves their metadata in case you re-add them in the future."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:60
+msgid ""
+"Metadata means all track details (artist, title, playcount, etc.) as well as"
+" beatgrids, hotcues, and loops. This choice only affects the Mixxx library. "
+"No files on disk will be changed or deleted."
+msgstr ""
+
+#: ../../chapters/preferences/library.rst:64
+msgid ""
+"When changing music directories, you might want to run a library rescan "
+"afterwards. Select :menuselection:`Library --> Rescan Library` in the menu."
+msgstr ""

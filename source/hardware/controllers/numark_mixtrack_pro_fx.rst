@@ -233,7 +233,7 @@ There are a few configurable values at the top of the script (:file:`Numark-Mixt
    '``beatJumpValues``', '["0.0625\_", "0.125\_", "0.25\_", "0.5\_", "1\_", "2\_", "", "8\_"]', 'Beatjump values for the beatjump pad mode, each value corresponds to one of the pads. The empty value ("") means the value set in Mixxx (4 by default). Underscores (_) are needed because of that control, which has one underscore in the name, as opposed to beatjump controls with predetermined values which have two underscores.'
 
 .. hint::
-   See `here <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#scratching-and-jog-wheels>`_ for more info about constants used in scratching.
+   See `here <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#user-content-scratching-and-jog-wheels>`_ for more info about constants used in scratching.
 
 Notes
 -----

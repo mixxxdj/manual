@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:6
+msgid "Application shortcuts"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:8
+msgid ""
+"Use these shortcuts to access features available in the menu on top of the "
+"application window."
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:12
+msgid "Function"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:12
+msgid "Key"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:14
+msgid "**File menu**"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:16
+msgid "Load Track to Deck 1"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:16
+msgid ":kbd:`Ctrl` + :kbd:`O`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:18
+msgid "Load Track to Deck 2"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:18
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`O`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:20
+msgid "**Library menu**"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:22
+msgid "Add new Playlist"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:22
+msgid ":kbd:`Ctrl` + :kbd:`N`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:24
+msgid "Add new Crate"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:24
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`N`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:26
+msgid "**View menu**"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:28
+msgid "Show Skin Settings Menu"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:28
+msgid ":kbd:`Ctrl` + :kbd:`1`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:30
+msgid "Show Microphone Section"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:30
+msgid ":kbd:`Ctrl` + :kbd:`2`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:32
+msgid "Show Vinyl Control Section"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:32
+msgid ":kbd:`Ctrl` + :kbd:`3`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:34
+msgid "Show Preview Deck"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:34
+msgid ":kbd:`Ctrl` + :kbd:`4`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:36
+msgid "Show Cover Art"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:36
+msgid ":kbd:`Ctrl` + :kbd:`6`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:38
+msgid "Maximize Library"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:38
+msgid ":kbd:`Space`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:40
+msgid "Full Screen (Windows & Linux)"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:40
+msgid ":kbd:`F11`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:42
+msgid "Full Screen (macOS)"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:42
+msgid ":kbd:`Shift` + :kbd:`Command` + :kbd:`F`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:44
+msgid "**Options menu**"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:46
+msgid "Enable Vinyl Control 1"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:46
+msgid ":kbd:`Ctrl` + :kbd:`T`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:48
+msgid "Enable Vinyl Control 2"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:48
+msgid ":kbd:`Ctrl` + :kbd:`Y`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:50
+msgid "Enable Vinyl Control 3"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:50
+msgid ":kbd:`Ctrl` + :kbd:`U`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:52
+msgid "Enable Vinyl Control 4"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:52
+msgid ":kbd:`Ctrl` + :kbd:`I`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:54
+msgid "Enable Live Broadcasting"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:54
+msgid ":kbd:`Ctrl` + :kbd:`L`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:56
+msgid "Record Mix"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:56
+msgid ":kbd:`Ctrl` + :kbd:`R`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:58
+msgid "Enable Keyboard Shortcuts"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:58
+msgid ":kbd:`Ctrl` + :kbd:`\\``"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:60
+msgid "Open Preferences (Windows & Linux)"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:60
+msgid ":kbd:`Ctrl` + :kbd:`P`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:62
+msgid "Open Preferences (macOS)"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:62
+msgid ":kbd:`Ctrl` + :kbd:`,`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:64
+msgid "Exit Mixxx"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:64
+msgid ":kbd:`Ctrl` + :kbd:`Q`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:66
+msgid "**Developer menu**"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:68
+msgid "Reload skin"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:68
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`R`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:70
+msgid "Developer Tools"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:70
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:72
+msgid "Stats: Base Bucket"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:72
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`B`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:74
+msgid "Stats: Experiment Bucket"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:74
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`E`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:76
+msgid "Debugger Enabled"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:76
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`"
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:79
+msgid ""
+"The :kbd:`Ctrl` key on Windows & Linux is equivalent to the :kbd:`Command` "
+"key on macOS. The :kbd:`Alt` key on Windows & Linux is equivalent to the "
+":kbd:`Option` key on macOS. Application shortcuts are not customizable."
+msgstr ""
+
+#: ../../chapters/appendix/application_shortcuts.rst:84
+msgid ""
+"The Developer menu is available if Mixxx is started using the "
+":ref:`appendix-command-line-options`."
+msgstr ""

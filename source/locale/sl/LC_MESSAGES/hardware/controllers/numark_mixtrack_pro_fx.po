@@ -1,0 +1,1128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:2
+msgid "Numark Mixtrack Pro FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:4
+msgid ""
+"`Manufacturer's product page <https://www.numark.com/product/mixtrack-pro-"
+"fx>`_ · `Manufacturer's user manual "
+"<https://cdn.inmusicbrands.com/Numark/vAC9uYWEnT/mtprfx/MixTrackProFX-"
+"UserGuide-v1.2.pdf>`_ · `Forum thread "
+"<https://mixxx.discourse.group/t/numark-mixtrack-pro-fx/19561>`_"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:9
+msgid "Overview"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst-1
+msgid "Numark Mixtrack Pro FX (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:18
+msgid "See the tables below for controls descriptions."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:21
+msgid "Misc"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "#"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BROWSE` (rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Browse library"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSE` (rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Zoom in/out :term:`waveform summary`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BROWSE` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Switch between tree and track list"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSE` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Select item (collapse/extend tree branch or load track)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`MASTER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Adjust the volume level of :term:`master output`. Does not affect the "
+"microphone volume (adjusted separately with the :hwlabel:`MIC` knob)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`MIC`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Adjust the volume level of microphone input. Note that the microphone input "
+"is mixed in hardware, so the corresponding :term:`GUI` knob does not reflect"
+" the hardware knob state."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`CUE MIX`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+":term:`Head/mix knob<Head/mix button>`. Adjust the audio output to the "
+"headphones, mixing between the cue output and the main mix output"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`CUE GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Controls the mix between the two decks"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "23"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BPM`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Tap repeatedly to enter a new :term:`BPM` on both decks"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:42
+msgid "Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:44
+msgid ""
+"Each of those controls exists in both :term:`decks<deck>` and affects only "
+"the corresponding deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Main level meter"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Displays the audio level going to the main output"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`LOAD`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Load selected track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`·· INSTANT DOUBLES`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(2x :hwlabel:`LOAD`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Load track from the opposite deck and seek to the same position. Deck "
+"cloning must be enabled in Mixxx settings (Settings -> Preferences -> Decks "
+"-> Double-press Load button to clone playing track)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`LEVEL`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust the pre-fader, pre-EQ audio level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`TREBLE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust high frequencies"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`MID`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust middle frequencies"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BASS`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust low frequencies"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`FILTER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust the filter effect"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+":term:`Headphone button`. Toggle sending channel to the cue (headphone) "
+"channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Channel fader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust volume level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`PITCH BEND -` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Temporarily reduce the speed of the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`PITCH RANGE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`PITCH BEND -`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Change pitch range. Ranges are configurable in the script file, see "
+":ref:`Adjustable values<numark_mixtrack_pro_fx_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`PITCH BEND +` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Temporarily increase the speed of the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`KEYLOCK`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`PITCH BEND +`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Toggle :term:`key lock`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Pitch fader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust the speed of the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "24"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Jog wheel (top)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"If scratch mode is enabled (see the :hwlabel:`SCRATCH` button below): "
+"scratch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "If scratch mode is disabled: pitch bend"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ""
+"The behavior of jogwheel can be fine-tuned, see the :ref:`Adjustable "
+"values<numark_mixtrack_pro_fx_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Jog wheel (edge)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":term:`Pitch bend`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + jog wheel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Seek track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "25"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SCRATCH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Toggle scratch mode. Enabled by default."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BLEEP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`SCRATCH`) (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Play the track in reverse, then release to continue playback from a point "
+"where the track would have been if it had not been reversed"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "26"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Hold and then manipulate other controls to activate their secondary "
+"functions"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "27"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SYNC`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "If sync lock is disabled: set BPM to the other deck's BPM"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "If sync lock is enabled: disable sync lock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SYNC` (hold, then release)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Enable :term:`sync lock`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SYNC OFF`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`SYNC`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Toggle :term:`quantization`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "28"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"If track is playing: stops the track and resets position to the main cue "
+"point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "If playback is stopped: sets the main cue point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`CUE` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Play the track from main cue point, release to stop playback and return to "
+"the main cue point. Playback must be initially stopped on main cue point."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Stop the playback and return to the beginning of the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "29"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Play/Pause"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Play/pause playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + Play/Pause"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Toggle reverse playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "35"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`LOOP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "If loop is disabled: enable loop, starting at current position"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "If loop is enabled: disable loop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`RELOOP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`LOOP`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "If loop is enabled: jump to loop IN point and stop playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "If loop is disabled: enable loop, without moving it"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "36"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`1/2`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Decrease loop size by half"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`IN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`1/2`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Set the loop IN point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "37"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`x2`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Double the loop size"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`OUT`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "(:hwlabel:`SHIFT` + :hwlabel:`x2`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Set the loop OUT point"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:115
+msgid ""
+"The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
+" See :doc:`../../chapters/user_interface` for more info."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:118
+msgid "FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`BEATS`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust FX param 1 of Effect 1 on Effect Unit 1 and 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BEATS`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust FX param 2 of Effect 1 on Effect Unit 1 and 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Dry/Wet knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust the Dry/Wet rate of Effect Unit 1 and 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "21"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "FX select buttons"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "See below"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "22"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "FX toggle switches"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Toggle Effect 1 on Effect Unit corresponding to deck number"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:130
+msgid ""
+"FX select buttons have different functions than what is printed on them. "
+"Below is the original layout (not used), and two tables presenting button "
+"functions (and :hwlabel:`SHIFT` + buttons functions)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:132
+msgid "Original layout of FX select buttons (**not used**)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`HPF`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`LPF`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`FLANGER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`ECHO`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`REVERB`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`PHASER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:140
+msgid "FX select/bonus functions buttons"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Effect Unit 1 Effect 1 previous FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust :term:`beatgrid` on deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Effect Unit 2 Effect 1 previous FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Effect Unit 1 Effect 1 next FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Adjust beatgrid on deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Effect Unit 2 Effect 1 next FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:148
+msgid "FX select/bonus functions buttons (:hwlabel:`SHIFT`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Pitch up on deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "--"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Pitch up on deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Pitch down on deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Pitch down on deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:156
+msgid "Pitch up/down buttons change pitch by one semitone."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:159
+msgid "For more info about Effect Units see :doc:`../../chapters/effects`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:162
+msgid "Pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:164
+msgid ""
+"The 8 pads in each deck have multiple functions, depending on the selected "
+"*pad mode*. Default pad mode is *hotcues*. Current mode is selected by "
+"pressing one of the buttons above the pads. The button for currently active "
+"pad mode is lit up (or blinking, when secondary pad mode is selected - "
+"secondary pad modes are: beatjump and sampler 2)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:166
+msgid ""
+"Pads support secondary (shift) actions in most pad modes. 4 bottom pads with"
+" \"special\" functions printed on them (:hwlabel:`STUTTER`, etc.) act the "
+"same as the top 4 pads, i.e. don't perform any special functions."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "30"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to :term:`hotcues<hotcue>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid ""
+"**Pad press**: set hotcue if not set. If set, go to hotcue position and "
+"start playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ":hwlabel:`SHIFT` **+ pad press**: remove hotcue (if set)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:7
+msgid "Pad lights indicate if a particular hotcue is set or not."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to beatjump."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "**Pad press**: beatjump forwards"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ":hwlabel:`SHIFT` **+ pad press**: beatjump backwards"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:7
+msgid "If loop is active, loop is moved forwards/backwards instead."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:9
+msgid ""
+"Default beatjump values are: 1/16, 1/8, 1/4, 1/2, 1, 2, value set in Mixxx "
+"GUI (4 by default), 8. Values can be adjusted, see the :ref:`Adjustable "
+"values<numark_mixtrack_pro_fx_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "31"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`AUTO LOOP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to auto-loop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "**Pad press**: activate auto-loop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ""
+":hwlabel:`SHIFT` **+ pad press (hold)**: activate beatlooproll. When "
+"released, playback will resume where the track would have been if it had not"
+" entered the loop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:7
+msgid ""
+"Default auto-loop sizes are: 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8. Loop sizes can"
+" be adjusted, see the :ref:`Adjustable "
+"values<numark_mixtrack_pro_fx_adjustable>` section."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "32"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`FADER CUTS`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to fader cuts"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "This pad mode emulates rapid crossfader movements."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ""
+"**Pad press (hold)**: activate a fader cut. The crossfader will rapidly move"
+" in one of the 8 available patterns. The crossfader will return to the "
+"position of hardware crossfader after the pad is released."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:7
+msgid "Note: this function is controlled by the hardware or firmware"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "33"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SAMPLE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to sampler 1 (samples 1-8)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:3
+msgid "**Pad press**: play a sample"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:5
+msgid ":hwlabel:`SHIFT` **+ pad press**: stop sample playback"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SAMPLE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Change pad mode to sampler 2 (samples 9-16)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "34"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Performance pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Various functions, depending on selected pad mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ":hwlabel:`SHIFT` + Performance pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:214
+msgid "Adjustable values"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:216
+msgid ""
+"There are a few configurable values at the top of the script (:file:`Numark-"
+"Mixtrack-Pro-FX-scripts.js`)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Variable"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Default value"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``pitchRanges``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "[0.08, 0.16, 1]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"For adjusting the range of pitch fader. Pressing :hwlabel:`PITCH RANGE` "
+"(:hwlabel:`SHIFT` + :hwlabel:`PITCH BEND -`) cycles through available "
+"values. Number of values in the array can be changed without further script "
+"modifications. Note that the default (first) pitch range must be also "
+"selected independently in Mixxx settings (Settings -> Preferences -> Decks "
+"-> Slider range)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``waveformsSynced``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "true"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"This variable should reflect the corresponding Mixxx option (Settings -> "
+"Preferences -> Waveforms -> Synchronize zoom level across all waveforms). "
+"This affects waveform summary zooming."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``jogScratchSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "1024"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Scratching sensitivity"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``jogScratchAlpha``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "For controlling the alpha-beta filter used in scratching"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``jogScratchBeta``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "1/32"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``jogPitchSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Jogwheel pitch bend sensitivity"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``jogSeekSensitivity``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "10000"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Jogwheel seek sensitivity"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``enableBlink``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Enable blinking of pad mode buttons when in secondary mode (beatjump or "
+"sampler 2)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``blinkDelay``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "700"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "Blinking frequency of pad mode buttons when in secondary mode (in ms)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``autoLoopSizes``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "[\"0.0625\", \"0.125\", \"0.25\", \"0.5\", \"1\", \"2\", \"4\", \"8\"]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Loop sizes for the auto-loop pad mode, each value corresponds to one of the "
+"pads."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "``beatJumpValues``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid "[\"0.0625\\_\", \"0.125\\_\", \"0.25\\_\", \"0.5\\_\", \"1\\_\", \"2\\_\", \"\", \"8\\_\"]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:1
+msgid ""
+"Beatjump values for the beatjump pad mode, each value corresponds to one of "
+"the pads. The empty value (\"\") means the value set in Mixxx (4 by "
+"default). Underscores (_) are needed because of that control, which has one "
+"underscore in the name, as opposed to beatjump controls with predetermined "
+"values which have two underscores."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:236
+msgid ""
+"See `here <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#user-"
+"content-scratching-and-jog-wheels>`_ for more info about constants used in "
+"scratching."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:239
+msgid "Notes"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:241
+msgid ""
+"Pressing either :hwlabel:`SHIFT` button will cause both decks to shift (e.g."
+" when pressing :hwlabel:`SHIFT` on deck 1 and then some control on deck 2, "
+"the secondary function will be executed). This approach was chosen to be "
+"consistent with the behavior of hardware - i.e. pressing either "
+":hwlabel:`SHIFT` changes midi codes of some controls on *both* decks."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro_fx.rst:242
+msgid ""
+":hwlabel:`SHIFT` + :hwlabel:`TAP` does not trigger BPM rescan, as there is "
+"no Mixxx control for this action."
+msgstr ""

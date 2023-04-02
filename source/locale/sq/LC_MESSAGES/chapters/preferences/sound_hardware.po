@@ -1,0 +1,593 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: Albanian (https://www.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:6
+msgid "Sound Hardware"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:15
+msgid "Mixxx Sound Hardware Preferences"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:17
+msgid ""
+"To achieve the best performance with Mixxx it is essential to configure your"
+" *audio buffer*, *sample rate*, and *audio API*. These three factors largely"
+" determine Mixxx's responsiveness and reliability. The optimal settings will"
+" vary based on your computer and hardware quality."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:22
+msgid ""
+"For information about the different input and output options, refer to "
+":ref:`getting-started-sound-io`. The :ref:`hardware` chapter explains "
+"different types of DJ hardware and how to set them up with the input and "
+"output options. If you are using a microphone, refer to the "
+":ref:`microphones` chapter."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:30
+msgid "Audio Buffer"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:32
+msgid ""
+"The audio buffer is the amount of audio in milliseconds that Mixxx processes"
+" at a time. This is a major factor that determines the latency between "
+"changing controls in Mixxx such as moving the :term:`crossfader` or pressing"
+" the play button and hearing the audio change. For example, with an audio "
+"buffer of 23 ms, it will take approximately 23 milliseconds for Mixxx to "
+"stop the audio after you toggle the play button. The actual latency will be "
+"longer depending on a variety of factors."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:40
+msgid ""
+"The audio buffer setting determines how quickly your :term:`operating "
+"system` expects Mixxx to react. A smaller audio buffer means Mixxx will be "
+"more responsive, but requires a faster CPU and quality audio interface. "
+"Setting your audio buffer too small may be too much for your computer and "
+"audio interface to handle. In this situation, Mixxx playback will be choppy "
+"and very clearly distorted as your system will not be able to keep up with "
+"how frequently Mixxx is trying to process audio. It is recommended to set "
+"your audio buffer as small as your system can handle reliably without "
+"glitches. Experiment with different audio buffer sizes to find what works "
+"for your system."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:50
+msgid ""
+"An audio buffer between 23-64 ms is acceptable if you are using Mixxx with a"
+" keyboard/mouse or a controller. An audio buffer below 10 ms is recommended "
+"when vinyl control is used because Mixxx will feel unresponsive otherwise."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:54
+msgid ""
+"The `Adjusting Audio Latency "
+"<https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_ page on "
+"the Mixxx Wiki has tips for different operating systems that may help you "
+"use a smaller audio buffer reliably."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:58
+msgid ""
+"Your system may glitch only occasionally if you have your audio buffer set a"
+" little too low. This will happen at unpredictable times and you may not "
+"notice if you are only doing brief tests of each audio buffer size. When you"
+" think you have found a good buffer size for your system, play with Mixxx "
+"for at least a half hour before performing to ensure no glitches happen."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:68
+msgid "Sample Rate"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:70
+msgid ""
+"The sample rate setting in Mixxx controls how many samples (chunks of audio)"
+" per second are produced by Mixxx. This determines the maximum frequency in "
+"Mixxx's signal, which is half the sample rate. Humans can only hear up to 20"
+" kHz, so there is generally no need to use more than a 44.1 kHz (44100 Hz) "
+"sample rate for playback. Most music is published with a 44100 Hz sample "
+"rate, and playing music in a different sample rate than the audio file "
+"slightly reduces sound quality."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:78
+msgid ""
+"A sample rate of 96 kHz gives your computer less than half the time to as to"
+" do the same processing. Increasing the sample rate will increase CPU usage "
+"and likely raise the minimum audio buffer size you can use reliably."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:87
+msgid "Sound API"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:89
+msgid ""
+"The Sound :term:`API` that Mixxx uses is the method by which Mixxx talks to "
+"your :term:`operating system` in order to deliver audio to your audio "
+"interface. Your choice of Sound API can drastically affect Mixxx's "
+"performance on your computer. **Therefore it is important to take care to "
+"choose the best Sound API available to you.**"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:96
+msgid "Windows"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:97
+msgid "The following Sound APIs are available on Windows:"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:99
+msgid "**ASIO**: Good"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:100
+msgid "**WDM-KS**: Good"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:101
+msgid "**WASAPI**: Acceptable"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:102
+msgid "**DirectSound**: Poor"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:103
+msgid "**MME**: Poor"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:105
+msgid ""
+"It is best to use the ASIO Sound API that bypassses the sound processing of "
+"the Windows kernel. Using ASIO requires a driver for your audio interface "
+"from the manufacturer. Check the manufacturer's website to see if a driver "
+"download is available. Soundcards designed for musicians almost always have "
+"an ASIO driver available, but audio interfaces built into computers and very"
+" cheap audio interfaces typically do not have an ASIO driver. If there is no"
+" ASIO driver available for your audio interface, use the WDM-KS API. There "
+"is generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a "
+"wrapper around the WDM-KS API."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:116
+msgid "GNU/Linux"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:117
+msgid "The following Sound APIs are available on GNU/Linux:"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:119
+msgid "**ALSA**: Good"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:120
+msgid "**JACK**: Good"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:121
+msgid "**OSS**: Acceptable"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:123
+msgid ""
+"ALSA is the simplest sound API to configure. Using ALSA will prevent any "
+"other programs from using the audio interface(s) that Mixxx is using."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:126
+msgid ""
+"JACK allows you to route audio between JACK-compatible applications in "
+"flexible ways and output sound from multiple programs at the same time. "
+"However, JACK can be complicated to set up. Unless you will be connecting "
+"Mixxx to other JACK-compatible applications, JACK offers no advantages over "
+"ALSA. To use JACK, start the JACK daemon *before* running Mixxx. Otherwise "
+"JACK will not appear as a Sound API in the preferences."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:133
+msgid ""
+"Most modern GNU/Linux distributions use PulseAudio by default. When launched"
+" from a GUI menu entry or icon, Mixxx suspends PulseAudio while it is "
+"running so that Mixxx can use ALSA directly. Like JACK, PulseAudio allows "
+"multiple programs to access one audio interface, but PulseAudio and JACK "
+"have opposite design goals. PulseAudio is designed to make ordinary computer"
+" usage such as watching videos online and listening to music easy whereas "
+"JACK is designed for demanding low latency audio programs like Mixxx. It can"
+" be difficult to setup JACK and PulseAudio to work well together. So, unless"
+" you already use JACK, it is easiest to let Mixxx suspend PulseAudio and use"
+" ALSA."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:143
+msgid ""
+"If the PulseAudio plugin for alsalibs is installed on GNU/Linux, you can "
+"choose the virtual device ``pulse``. This allows Mixxx to share the default "
+"system audio interface with other media players. This only works if you "
+"start Mixxx without pasuspender, which you can do by running "
+":command:`mixxx` from a console rather than clicking the launcher icon in a "
+"menu or on your desktop. Since the sound stream is routed from ALSA to Pulse"
+" and back to ALSA, this adds an additional latency of ~2 x the selected "
+"audio buffer size."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:151
+msgid ""
+"OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS"
+" drivers."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:155
+msgid "macOS"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:156
+msgid "CoreAudio is the only Sound API on macOS."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:159
+msgid "Other Sound Hardware options"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:160
+msgid ""
+"**Multi-Soundcard Synchronization**: Mixxx is able to use two or more "
+":term:`audio interface <audio interface>` at a time, each with its own "
+"clock. When multiple audio interfaces are in use, the Mixxx engine is driven"
+" by the main output audio interface. Here you can select the synchronization"
+" used for the other audio interfaces to avoid buffer overflows or "
+"underflows."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:166
+msgid ""
+"**Keylock/Pitch-Bending Engine**: This allows you to select the engine used "
+"for independent tempo and pitch changes (e.g. :term:`key lock`). Use "
+":menuselection:`Soundtouch` on lower power machines (such as netbooks) or if"
+" you experience buffer underflows while using :term:`key lock`."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:171
+msgid ""
+"**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
+"you do not use the :term:`main output`, recording or live broadcasting."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:174
+msgid ""
+"**Main Output Mode**: In Mono mode, the left and right channel are combined "
+"into a mono signal which is passed to both channels of your main audio "
+"interface. This is useful for setups where the audience cannot hear your mix"
+" in stereo because of speaker placement or playing in a space with lots of "
+"reverberation."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:180
+msgid ""
+"**Buffer Underflow Count**: Underflows (data is not available when needed) "
+"indicate that some of the subsystems in Mixxx can't keep up with real-time "
+"deadlines imposed by the current audio buffer size. This is useful to tune "
+"the latency settings. If the counter increases, then increase your audio "
+"buffer size, decrease the sample rate setting or change the sound API "
+"setting if available."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:188
+msgid "Output and Input Devices"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:190
+msgid ""
+"In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-"
+"card` or :ref:`setup-laptop-and-external-card`) all that needs to be "
+"configured are the Master and Headphones outputs. Though, there are many "
+"more output and input channels available for more complex setups, for "
+"example with external mixers, vinyl control or for broadcasting."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:196
+msgid ""
+"All outputs are usually sent to a channel pair (stereo), though they can "
+"also be sent to one channel only (mono mixdown), for exampleif you're short "
+"on output channels, like when you need to use one stereo output for both "
+"master and headphones (see :ref:`setup-laptop-with-splitter`)."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:201
+msgid ""
+"Inputs can be mono or stereo (matching plugged sources, of course), except "
+"vinyl control inputs which require stereo to capture the entire control "
+"signal."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:205
+msgid "Outputs"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:207
+msgid ""
+"**Master** (Main): The mix of all audible channels, e.g. main decks, all "
+"samplers, enabled microphones and auxiliary inputs."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:210
+msgid ""
+"**Headphones**: All channels for which :term:`pfl` is enabled, as well as "
+"the preview deck."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:213
+msgid ""
+"**Booth**: Basically the same output as Main to be routed to a separate "
+"output, for example for the speakers in the DJ booth, external recording "
+"device, loopback device for video recordings etc."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:217
+msgid ""
+"**Left Bus**: All decks, samplers and auxiliaries that are assigned to the "
+"left side of the :term:`crossfader`."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:220
+msgid ""
+"**Center Bus**: All decks, samplers and auxiliaries that are assigned to the"
+" center of the :term:`crossfader`."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:223
+msgid ""
+"**Right Bus**: All decks, samplers and auxiliaries that are assigned to the "
+"right side of the :term:`crossfader`."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:226
+msgid "**Deck 1-4**: Separate outputs for each of the main decks."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:229
+msgid "Inputs"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:231
+msgid ""
+"**Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and "
+"passthrough <vinyl-control>`. Note that one input can be selected for "
+"multiple decks."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:234
+msgid "**Microphone 1-4**: ref:`Microphone <microphones>` inputs."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:236
+msgid ""
+"**Auxiliary 1-4**: Auxiliary inputs. .. TODO: link to Aux chapter when it's "
+"been added."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:239
+msgid ""
+"**Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording "
+"<djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`. "
+"Note that when setting this input your recording and broadcast stream will "
+"not be identical to the main output."
+msgstr ""

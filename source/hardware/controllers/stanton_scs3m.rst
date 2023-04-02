@@ -3,7 +3,7 @@
 Stanton SCS.3m “DaMix”
 ======================
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3m.html>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20221127080207/http://www.stantondj.com/stanton-controllers-systems/scs3m.html>`__
 
 .. versionadded:: 1.7
 

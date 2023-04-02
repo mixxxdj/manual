@@ -844,7 +844,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],bpm_tap
                    [SamplerN],bpm_tap
 
-   When tapped repeatedly, adjusts the :term:`tempo` of the channel to match the tapped :term:`BPM`.
+   When tapped repeatedly, adjusts the :term:`BPM` of the track on the deck (not the tempo slider!) to match the taps.
+
+   .. note:: If you want to change the :term:`rate` of the deck use `script.bpm.tapButton(deck) <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-helper-functions>`_ in your controller mapping instead.
 
    :range: binary
    :feedback: :term:`BPM` value display (playback speed doesn't change)
@@ -874,6 +876,30 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: The channel will start playing at the rate and position of the source deck.
 
    .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],LoadTrackFromDeck
+                   [PreviewDeckN],LoadTrackFromDeck
+                   [SamplerN],LoadTrackFromDeck
+
+   Load the track currently loaded to the given deck number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],LoadTrackFromSampler
+                   [PreviewDeckN],LoadTrackFromSampler
+                   [SamplerN],LoadTrackFromSampler
+
+   Load the track currently loaded to the given sampler number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [ChannelN],cue_cdj
@@ -1111,7 +1137,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    If hotcue X has been set as a regular cue point, the player seeks to the saved play position.
 
-   If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is "Loop", looping will be enabled and the loop controls (e.g. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, `:mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` and beatloop_size <[ChannelN],beatloop_size>`) will be set accordingly.
+   If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is "Loop", looping will be enabled and the loop controls (e.g. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, :mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` and :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`) will be set accordingly.
    Just like :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>`, the player seeks back to the loop start when the current play position is behind the loop, and enabled without a seek when it is in front of or inside the loop.
    This allows a loop catching behavior on one hand and a jump back when the loop has been exit by just triggering this control.
 
@@ -1191,7 +1217,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates if :term:`hotcue` slot X is set, active or empty.
 
-   :range: read-only
+   :range (read-only):
       ===== ===================================
       Value Meaning
       ===== ===================================
@@ -1213,7 +1239,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates if :term:`hotcue` slot X is set, active or empty.
 
-   :range: read-only
+   :range (read-only):
+
       ===== ===================================
       Value Meaning
       ===== ===================================
@@ -1232,7 +1259,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates the type of the :term:`hotcue` in hotcue slot X.
 
-   :range: read-only
+   :range (read-only):
       ===== ===================================
       Value Type
       ===== ===================================
@@ -1613,6 +1640,20 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
    .. versionchanged:: 2.4.0
       Control is not longer read-only and can be used to enable/disable looping.
+
+
+.. mixxx:control:: [ChannelN],loop_remove
+                   [PreviewDeckN],loop_remove
+                   [SamplerN],loop_remove
+
+   Clears the last active loop, i.e. deactivates and removes loop, detaches :mixxx:coref:`loop_in <[ChannelN],loop_in>`,
+   :mixxx:coref:`loop_out <[ChannelN],loop_out>`, :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>` and related
+   controls. It does not affect saved loops.
+
+   :range: binary
+   :feedback: Last active loop is disabled and removed from waveform and overview.
+
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [ChannelN],loop_end_position
@@ -2003,7 +2044,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
-   :range: -6.0..6.0
+   :range: -6.0..6.0 semitones
    :feedback: Key display
 
    .. versionadded:: 2.0.0
@@ -2037,11 +2078,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch_adjust
                    [SamplerN],pitch_adjust
 
-   Adjust the pitch in addition to the :term:`tempo` slider pitch.
+   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock. It is reset after loading a new track.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
-   :range: -3.0..3.0
+   :range: -3.0..3.0 semitones
    :feedback: Key display
 
    .. versionadded:: 2.0.0
@@ -2817,7 +2858,7 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative).
+    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
@@ -3433,21 +3474,27 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    tracks table has focus, pressing a button loads the selected track to a specific deck, while the same
    button would clear the search if the search bar is focused.
 
-   Note: This control is useful only if the Mixxx main window has keyboard focus, otherwise it always returns 0.
+   Note: This control is useful only if a Mixxx window has keyboard focus, otherwise it always returns 0.
 
    :range:
-     ========  ================================
-     Value     Widget
-     ========  ================================
-     0         none (not writeable)
-     --------  --------------------------------
-     1         Search bar
-     --------  --------------------------------
-     2         Tree view
-     --------  --------------------------------
-     3         Tracks table
-     ========  ================================
-   :feedback: Currently focused pane changes
+     ========  ==========  ================================================================================================
+     Value     writeable   Widget
+     ========  ==========  ================================================================================================
+     0                     none
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     1         X           Search bar
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     2         X           Tree view
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     3         X           Tracks table or root views of library features
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     4                     Context menu (menus of library widgets or other editable widgets, or main menu bar)
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     5                     Dialog (any confirmation or error popup, preferences, track properties or cover art window)
+     --------  ----------  ------------------------------------------------------------------------------------------------
+     6                     Unknown (widgets that don't fit into any of the above categories)
+     ========  ==========  ================================================================================================
+   :feedback: Currently focused widget changes
 
    .. versionadded:: 2.4.0
 
@@ -3469,7 +3516,9 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    ------------------------  -------------------------------------------------------------------------------------------------------------
    leaf node                 moves focus to tracks table
    ------------------------  -------------------------------------------------------------------------------------------------------------
-   **Tracks table**          loads selected track. See "Playing track protection" in Preferences ‣ Decks
+   **Tracks table**          Performs the action selected in :menuselection:`Preferences --> Library --> Track Double-Click Action` (default is "Load selected track"). Also see :menuselection:`Preferences --> Decks --> Playing track protection`
+   ------------------------  -------------------------------------------------------------------------------------------------------------
+   **Context menus**         presses :kbd:`Enter`
    ------------------------  -------------------------------------------------------------------------------------------------------------
    **Dialogs / popups**      presses :kbd:`Enter`. Note: the :mixxx:coref:`Move.. <[Library],MoveUp>` controls allow to move button focus.
    ========================  =============================================================================================================
@@ -3478,6 +3527,20 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :feedback: Context dependent
 
    .. versionadded:: 2.1.0
+
+
+.. mixxx:control:: [Library],show_track_menu
+
+   Toggle the track context menu for all tracks selected in the current library view.
+   The control value is `1` if there is already a menu shown for the current view.
+   Note that the control is not aware of other track menus, for example those opened
+   by right-clicking track text labels in decks. Only the most recent menu can be
+   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls.
+
+   :range: Binary
+   :feedback: Tracks table context menu is shown or hidden.
+
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [Library],AutoDjAddBottom
@@ -3606,6 +3669,18 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [Library],sort_focused_column
+
+   Sort the column of the table cell that is currently focused, which is equivalent to
+   setting :mixxx:coref:`[Library],sort_column_toggle` to 0. Though unlike that, it can
+   be mapped to pushbuttons directly.
+
+   :range: Binary
+   :feedback: Sorting indicator in the column headers of the track table
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Library],track_color_prev
 
    Set color of selected track to previous color in palette.
@@ -3692,7 +3767,7 @@ the currently focused widget. This is helpful when another application's window 
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
-   See `bug \#1772184 <https://bugs.launchpad.net/mixxx/+bug/1772184>`__ for the current status.
+   See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
 
 
 .. mixxx:control:: [Playlist],SelectPlaylist

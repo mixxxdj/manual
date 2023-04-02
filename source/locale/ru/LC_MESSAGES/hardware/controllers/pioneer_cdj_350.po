@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: Russian (https://www.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:2
+msgid "Pioneer CDJ-350"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:4
+msgid ""
+"This is a CD and USB media player that can control Mixxx via USB with MIDI. "
+"The device can also send HID signals to computers, but no Mixxx mapping has "
+"been made for this device’s HID signals. It can also control Mixxx by "
+"playing timecode from a CD or USB drive and running that signal into Mixxx "
+"through a sound card."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:10
+msgid ""
+"`Manufacturer’s product page <https://www.pioneerdj.com/en-"
+"us/product/player/archive/cdj-350/black/overview/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:11
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/pioneer-cdj350-midi-"
+"mapping/11011>`__"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:13
+msgid "Support for :term:`MIDI` mode."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_cdj_350.rst:17
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

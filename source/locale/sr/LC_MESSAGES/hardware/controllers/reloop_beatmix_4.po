@@ -1,0 +1,663 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:46+0000\n"
+"Language-Team: Serbian (https://www.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:4
+msgid "Reloop Beatmix 4"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:6
+msgid ""
+"The Reloop Beatmix 4 is a performance-oriented 4-channel pad controller with"
+" integrated soundcard. It offers an ergonomically designed 4-channel mixer "
+"layout, optimized for the club allowing you to work intuitively: Dedicated "
+"equalizer and gain dials, high-quality line-faders, an extremely smooth-"
+"running crossfader, 16 multi-colour drum pads, as well as two extensive FX "
+"units are the foundation for your creativity."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:10
+msgid ""
+"`Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:11
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/reloop-"
+"beatmix-2-4-mapping/16049>`__"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:16
+msgid "Audio"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:18
+msgid ""
+"This controller is a MIDI and audio class compliant device so it is "
+"compatible as-is with Linux, MacOS and Windows. On windows, the manufacturer"
+" ships an :term:`ASIO` low-latency driver that can be found on the "
+"`Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:21
+msgid ""
+"The :hwlabel:`MIC` input is hardware-mixed and is not digitized so Mixxx can"
+" not have any control on the mic and you can not use ducking in Mixxx. The "
+":hwlabel:`MASTER` volume and :hwlabel:`PHONES` volume knobs directly control"
+" hardware and don’t change Mixxx controls."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:25
+msgid "Mixer Section"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:28
+#: ../../hardware/controllers/reloop_beatmix_4.rst:72
+#: ../../hardware/controllers/reloop_beatmix_4.rst:118
+#: ../../hardware/controllers/reloop_beatmix_4.rst:144
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:28
+#: ../../hardware/controllers/reloop_beatmix_4.rst:72
+#: ../../hardware/controllers/reloop_beatmix_4.rst:144
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:30
+msgid ":hwlabel:`MASTER`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:30
+msgid ""
+"Controls the main volume to your main sound system. This controls the built "
+"in sound card and has no effect on the main gain knob in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:31
+msgid ":hwlabel:`PHONES`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:31
+msgid ""
+"Controls your headphones volume. This controls the built in sound card and "
+"has no effect on the headphone gain knob in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:32
+msgid ":hwlabel:`CUE MIX`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:32
+msgid ""
+"Mixes the headphones CUE signal between your selected channel and the main "
+"output."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:33
+msgid ":hwlabel:`TRAX SELECT`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:33
+msgid ""
+"Use the :ref:`Trax selector <reloop-beatmix-4-traxselector>` to navigate "
+"through your song library."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:34
+msgid ":hwlabel:`TRACK LOAD` (short press)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:34
+msgid ""
+"Load tracks on either channel. These buttons are lit when a track is loaded "
+"into the associated deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:35
+msgid ":hwlabel:`TRACK LOAD` (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:35
+msgid "Eject the selected deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:36
+msgid ":hwlabel:`SHIFT`:hwlabel:`TRACK LOAD`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:36
+msgid ""
+"Enable and launch a track using your linefader (:hwlabel:`FADER-START`, "
+"hardware function)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:37
+#: ../../hardware/controllers/reloop_beatmix_4.rst:76
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:37
+msgid ""
+"Pre-listen the selected channel in your headphones. This buttons lights-up "
+"when activated"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:38
+msgid ":hwlabel:`BACK`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:38
+msgid ""
+"Switch :ref:`Trax action <reloop-beatmix-4-traxselector>` between playlists "
+"(sidebar), tracks and Preview Deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:39
+msgid ":hwlabel:`SAMPLER VOLUME`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:39
+msgid "Controls the volume of all samplers."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:40
+msgid ":hwlabel:`LINE FADERS`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:40
+msgid "Controls your channel volume."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:41
+msgid ":hwlabel:`CROSSFADER`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:41
+msgid "Enables you to fade between your decks."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:42
+msgid ":hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:42
+msgid "Adjust the gain for each deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:43
+msgid ":hwlabel:`EQ`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:43
+msgid "Tweak the high, mid or low frequencies when mixing your track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:44
+msgid ":hwlabel:`DECK`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:44
+msgid ""
+"Press the deck button to swap between decks 1 & 3 on the left and 2 & 4 on "
+"the right."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:48
+msgid ""
+"You can replace the fader cap of the :hwlabel:`SAMPLER VOLUME` fader with a "
+"custom colored fader cap to make it visually stand out from the channel "
+"volume faders."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:53
+msgid "Trax selector and Back button"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:55
+msgid ""
+"The trax selector let you navigate through your library (playlist and "
+"tracks) as well as preview tracks."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:57
+msgid "The trax selector has three modes:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:60
+msgid "Track mode (default)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:60
+msgid ""
+"Turning the trax selector will select tracks (one by one), turning with "
+"shift will select tracks faster (10 by 10). Pressing the :hwlabel:`Back` "
+"button will switch to Playlist mode and pushing the trax selector will load "
+"the selected track into the preview deck, start playing and switch to "
+"Preview mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:63
+msgid "Playlist mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:63
+msgid ""
+"Turning the trax selector will select sidebar item (one by one), turning "
+"with shift will select sidebar item faster (10 by 10). Pressing the trax "
+"selector will expand/collapse the selected sidebar item and pressing the "
+":hwlabel:`Back` button will return to Track mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:66
+msgid "Preview mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:66
+msgid ""
+"Turning the trax selector let you navigate through the track loaded in the "
+"PreviewDeck (faster with shift), pushing the trax selector will play/pause "
+"the preview deck and pushing the :hwlabel:`back` button return to Track "
+"mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:69
+msgid "Transport Section"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:74
+msgid ":hwlabel:`PLAY/PAUSE`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:74
+msgid "Press to launch and pause your track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:75
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:75
+msgid "Reverses the direction of the track playing."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:76
+msgid ""
+"Sets a temporary :term:`cue point`. It is set by pausing the track and "
+"pressing the :hwlabel:`CUE` button. While the track is playing, press the "
+"button to return to that point, where it will pause."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:77
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:77
+msgid "Takes you back to the start of your track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:78
+msgid ":hwlabel:`CUP`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:78
+msgid ""
+"Takes you directly to your cue point and starts playback instantly. If no "
+"cue point is set, it will jump to the beginning of the track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:79
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUP`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:79
+msgid "Changes the pitch range, cycling through 8%, 10%, 12% and 16%"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:80
+msgid ":hwlabel:`SYNC`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:80
+msgid ""
+"Syncs the BPM and phase to that of the other track (if :term:`BPM` is "
+"detected on both)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:81
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SYNC`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:81
+msgid "Turn on sync lock, keeping sync enabled"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:86
+msgid "Jog wheel and pitch slider"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:88
+msgid "Touch and move the jog wheel to scratch (either deck playing or not)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:90
+msgid ""
+"When playing, use the side of the wheel, without touching the metallic "
+"platter, to temporarily bend the pitch (speed up/slow down playback). When "
+"the deck is not playing, using the side of the wheel let you quick search "
+"through your track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:93
+msgid ""
+"Hold :hwlabel:`SHIFT` and turn the jog wheel to quick search through your "
+"track. :hwlabel:`SHIFT` ignores touch sensitive platter so holding it and "
+"turning jogwheel is the same as using the side of the jog wheel."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:96
+msgid ""
+"When a deck is playing, jog led will turn around at 33.3 RPM. When track "
+"time left is below 30 seconds, jog leds will blink slowly, and when track "
+"time remaining is below 15 seconds, jog leds will blink quickly. These "
+"delays can be changed by editing the two variables at the beginning of the "
+"JavaScript file and eventually set to -1 to disable jog led blink."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:100
+msgid "The pitch slider let you adjust pitch."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:102
+msgid ""
+":hwlabel:`PITCH +/-` buttons let you temporarily adjust the the speed one "
+"step higher/lower. These buttons, when used with shift, let you "
+":ref:`control effects <reloop-beatmix-4-effects>`."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:109
+msgid "Effects Section"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:111
+msgid ""
+"The effect section let you control the first two EffectUnits. There are two "
+"different effect modes mapped:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:114
+msgid ""
+"Multi Effect mode (the default), where you can load up to three effects in "
+"each EffectUnit and control then with the super knob"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:115
+msgid ""
+"Single Effect mode, where you can load a single effect in the Effect Unit "
+"and control the first 6 parameters"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:118
+msgid "Multi Effect mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:118
+msgid "Single Effect mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:120
+msgid ":hwlabel:`FX1`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:120
+msgid "Turn left to disable effect 1"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:120
+msgid "Effect parameter 1"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:121
+msgid ":hwlabel:`FX2`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:121
+msgid "Turn left to disable effect 2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:121
+msgid "Effect parameter 2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:122
+msgid ":hwlabel:`FX3`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:122
+msgid "Turn left to disable effect 3"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:122
+msgid "Effect parameter 3"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:123
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX1`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:123
+msgid "select effect 1"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:123
+msgid "Effect parameter 4"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:124
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:124
+msgid "select effect 2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:124
+msgid "Effect parameter 5"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:125
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX3`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:125
+msgid "select effect 3"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:125
+msgid "Effect parameter 6"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:126
+msgid ":hwlabel:`BEATS` (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:126
+msgid "SuperKnob"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:126
+msgid "dry/wet knob"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:127
+msgid ":hwlabel:`BEATS` (push)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:127
+msgid "Toggle Effect Unit"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:128
+msgid ":hwlabel:`SHIFT` + :hwlabel:`Beats` (turn)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:128
+msgid "Dry/Wet knob"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:128
+msgid "Select Effect Chain"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:129
+msgid ":hwlabel:`SHIFT` + :hwlabel:`Beats` (push)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:129
+msgid "Eject Effect Chain"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:132
+msgid ""
+"You can choose which deck you want to apply EffectUnit 1 and 2 by pressing "
+":hwlabel:`SHIFT` + :hwlabel:`PITCHBEND -` / :hwlabel:`SHIFT` + "
+":hwlabel:`PITCHBEND +` on that deck (short press)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:134
+msgid ""
+"To switch from Single Effect mode to Multi Effect mode, hold down "
+":hwlabel:`SHIFT` and press :hwlabel:`PITCHBEND -` for more than a second to "
+"switch to “Single Effect mode” or :hwlabel:`PITCHBEND +` for more than a "
+"second to switch to “Multi Effect mode”. The corresponding led will blink "
+"three times, indicating which mode you switched to."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:138
+msgid "Pad Section"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:141
+msgid "Mode A - Cue points and Loops"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:146
+msgid "Pads 1-4 (top row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:146
+msgid ""
+"Press an unlit pad to set a new :term:`cue point`. If it is already set, "
+"jump to this cue point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:147
+msgid ":hwlabel:`SHIFT` + Pads 1-4 (top row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:147
+msgid "Deletes cue points."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:148
+msgid "Pads 5-8 (bottom row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:148
+msgid ""
+"Press the pad to activate a loop. Loop length (in beats) is respectively 1, "
+"2, 4 and 8 beats."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:149
+msgid ":hwlabel:`SHIFT` + Pads 5 (bottom row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:149
+msgid ""
+"Sets a loop length. Push to define loop start, release to define loop end."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:150
+msgid ":hwlabel:`SHIFT` + Pads 6 (bottom row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:150
+msgid "Shortens (half) the loop."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:151
+msgid ":hwlabel:`SHIFT` + Pads 7 (bottom row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:151
+msgid "Lengthens (double) the loop."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:152
+msgid ":hwlabel:`SHIFT` + Pads 8 (bottom row)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:152
+msgid "Replays the loop."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:156
+msgid "Mode B - Samplers"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:158
+msgid ""
+"Mode B let you control 8 samplers. Top row is for sampler 1-4 and bottom row"
+" is for sampler 5-8, each sampler controlled by a pad button."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:161
+msgid ""
+"Press an unlit pad to load the track selected in the library to that "
+"sampler. Pads are red when the sampler is loaded but not playing and purple "
+"when playing."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:164
+msgid ""
+"Press a red pad to play the sample from its cue point. Press a purple pad to"
+" jump back to the sample’s cue point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:167
+msgid ""
+"Press a purple pad with shift to stop a playing sample. Press a red pad with"
+" shift to eject a sample."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:171
+msgid "Split mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:173
+msgid ""
+"Split mode is activated by pressing mode A and mode B buttons "
+"simultaneously. The two leds A and B are lit together. In this mode, to top "
+"row is configured in mode A, and the bottom row if configured as the top row"
+" of mode B."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_beatmix_4.rst:176
+msgid "So in this mode, you can control 4 cue points and 4 samplers."
+msgstr ""

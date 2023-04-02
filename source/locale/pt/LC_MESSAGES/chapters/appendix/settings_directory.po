@@ -1,0 +1,388 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: Portuguese (https://www.transifex.com/mixxx-dj-software/teams/7734/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:6
+msgid "The Mixxx Settings Directory"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:11
+msgid ""
+"The Mixxx settings directory contains all user data and settings of your "
+"Mixxx installation. If you want to make a backup of your library and all "
+"preferences copy the entire directory to a safe place."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:14
+msgid "Location"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:16
+msgid ""
+"On Windows, the :file:`AppData` folder is hidden, as well as all files and "
+"directories beginning with a dot '.' on Linux. So if you have not already, "
+"you will need to set your file manager to show hidden files and folders."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:25
+msgid "**Windows**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "``%LOCALAPPDATA%\\Mixxx``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid ""
+"Copy this and paste it into the location bar of a Computer or Folder window."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid ""
+"``%LOCALAPPDATA%`` is then resolved to ``C:\\Users\\<your-"
+"username>\\AppData\\Local``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid ""
+"Use ``%USERPROFILE%\\Local Settings\\Application Data\\Mixxx`` if you want "
+"to migrate your settings from XP or earlier."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:29
+msgid "**macOS**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid ""
+"Mixxx 2.3: ``~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
+"Support/Mixxx``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:33
+msgid "**Linux**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "``~/.mixxx/``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "This resolves to ``/home/<your-username>/.mixxx``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:36
+msgid "Content"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:42
+msgid "**analysis**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:39
+msgid ""
+"This contains all waveform analysis data. This is used to compose a track's "
+"scrolling waveform and track overview. If not existent, this data will be "
+"recreated each time a track is loaded into a Mixxx deck. Thus it does not "
+"belong to the essential data that needs to be backed up."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:45
+msgid "**broadcast_profiles**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:45
+msgid "All broadcast profiles you have configured."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:51
+msgid "**controllers**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:48
+msgid ""
+"All controller mappings you stored. This can be downloaded and :ref:`self-"
+"built mappings <advanced-controller>`, as well as built-in mappings that you"
+" modified in :guilabel:`Preferences` > :guilabel:`Controllers` > "
+":guilabel:`YourController` manually or with the MIDI Wizard."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:54
+msgid "**effects.xml**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:54
+msgid ""
+"The current configuration of the 4 effect units, incl. the state of all "
+"controls."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:58
+msgid "**mixxx.cfg**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:57
+msgid ""
+"Everything you configured in the Preferences, deck settings, skin settings, "
+"AutoDJ configuration, effect routing etc."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:62
+msgid "**mixxx.log[.NN]**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:61
+msgid ""
+"Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
+"recent one, followed by ``mixxx.log.1`` etc."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:66
+msgid "**mixxxdb.sqlite**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:65
+msgid ""
+"The Mixxx library database. All track locations, all track metadata, saved "
+"cues, loops, colors, playlists, crates, ..."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:69
+msgid "**samplers.xml**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:69
+msgid "Stores tracks currently loaded to sample decks."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:72
+msgid "**sandbox.cfg**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:72
+msgid ""
+"This is used under macOS to track which files Mixxx will have access to"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:74
+msgid "**soundconfig.xml**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:75
+msgid "Sound device configuration from Preferences > Sound Hardware"
+msgstr ""

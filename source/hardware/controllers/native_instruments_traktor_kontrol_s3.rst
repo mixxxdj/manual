@@ -117,6 +117,13 @@ Control                            Description
 :hwlabel:`SHIFT` + Wheels          Hold to use the wheels to quickly scroll through the track.
 =================================  ==========================================================
 
+Deck Select Buttons
+~~~~~~~~~~~~~~~~~~~~~~
+
+Pressing a Deck Select button will activate that deck.
+
+Press and hold one Deck Select button, then tap a second Deck Select button to clone the track loaded in the first deck to the second.
+
 Looping
 ~~~~~~~
 
@@ -161,7 +168,8 @@ In Hotcues mode, pressing the number button will set the hotcue if none exists, 
 If you hold :hwlabel:`SHIFT` and press a button, it will clear that hotcue.
 
 In Samplers mode, the buttons on the left side of the controller correspond to Samplers 1-8.
-The buttons on the right side of the controller correspond to Samplers 9-16.
+By default, the buttons on the right side of the controller also correspond to Samplers 1-8.
+If you edit the javascript file and set `TraktorS3.SixteenSamplers = true;`, the samplers on the right-hand deck correspond to Samplers 9-16.
 By default, pressing a number button will activate a sample.
 Pressing the button again will stop sample playback.
 
