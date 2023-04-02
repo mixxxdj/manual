@@ -22,13 +22,13 @@ As a non-developer
 * `Make MIDI mappings
   <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-Format>`_ for
   your controller
-* `Report bugs <https://github.com/mixxxdj/mixxx/issues/new/choose>`_
+* `Report bugs <https://github.com/mixxxdj/mixxx/issues>`_
 * Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the
   information on it is up to date.
 * Translate Mixxx using `Transifex
   <https://www.transifex.com/mixxx-dj-software/public/>`_
-* Answer questions on the `Troubleshooting Forum
-  <https://mixxx.org/forums/viewforum.php?f=3>`_
+* Answer questions on the `Help & Support Forum
+  <https://mixxx.discourse.group/c/support/6>`_
 * Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog
   about our new releases when they come out. Any exposure on the web and in
   print helps our project grow, and is much appreciated.
@@ -39,8 +39,6 @@ As a software developer
 
 * You don't have to know C++. There are developers who got into Mixxx
   development while learning C++ along the way.
-* Join our mailing list: `mixxx-devel
-  <https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_
 * Join our `Zulip chat <https://mixxx.zulipchat.com/>`_.
 * Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist
   :term:`bugs <bug report>`, or post on the forums.

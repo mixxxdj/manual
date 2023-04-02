@@ -878,6 +878,30 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],LoadTrackFromDeck
+                   [PreviewDeckN],LoadTrackFromDeck
+                   [SamplerN],LoadTrackFromDeck
+
+   Load the track currently loaded to the given deck number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],LoadTrackFromSampler
+                   [PreviewDeckN],LoadTrackFromSampler
+                   [SamplerN],LoadTrackFromSampler
+
+   Load the track currently loaded to the given sampler number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],cue_cdj
                    [PreviewDeckN],cue_cdj
                    [SamplerN],cue_cdj
@@ -2834,7 +2858,7 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative).
+    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
@@ -3743,7 +3767,7 @@ the currently focused widget. This is helpful when another application's window 
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
-   See `bug \#1772184 <https://bugs.launchpad.net/mixxx/+bug/1772184>`__ for the current status.
+   See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
 
 
 .. mixxx:control:: [Playlist],SelectPlaylist
