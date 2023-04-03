@@ -1,3 +1,5 @@
+.. _roland-dj-505:
+
 Roland DJ-505
 =============
 
@@ -93,8 +95,8 @@ No.       Control                                             Function
 1         :hwlabel:`LOAD` buttons                             Load song into deck.
 1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (left)    Sort library by BPM (press repeatedly to toggle ascending/descending order).
 1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (right)   Sort library by key (press repeatedly to toggle ascending/descending order).
-2         Rotary Selector                                     Turn to move tracklist cursor up/down. Press to toggle the selected item.
-2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to move sidebar cursor up/down.
+2         Rotary Selector                                     Turn to move tracklist cursor up/down. Press to load and play/pause currently selected track on preview deck. Hold and turn to seek in track on preview deck.
+2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to move sidebar cursor up/down. Hold and turn to change track color of currently selected track.
 3         :hwlabel:`BACK` button                              *Not yet mapped.*
 3         :hwlabel:`SHIFT` + :hwlabel:`BACK` button           Sort library by title (press repeatedly  to toggle ascending/descending order).
 4         :hwlabel:`ADD PREPARE` button                       (Un-)Maximizes the library view.
@@ -123,8 +125,8 @@ No.       Control                                                               
 2         :hwlabel:`SLIP` button                                                 Hold to turn on slip mode temporarily or double press to turn it on permanently.
 2         :hwlabel:`SHIFT` + :hwlabel:`SLIP` button                              Toggle vinyl control mode.
 3         :hwlabel:`SHIFT` button                                                Hold down to access other functions.
-4         :hwlabel:`SYNC` button                                                 Match tempo and phase of other deck. Long press to set Deck as Sync Leader.
-4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Disables Sync mode.
+4         :hwlabel:`SYNC` button                                                 Short press to match tempo and phase of other deck once. Long press to enable :ref:`Sync Lock <master-sync>`.
+4         :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                              Short press to disable :ref:`Sync Lock <master-sync>`. Long press to toggle :term:`quantization`.
 5         :hwlabel:`CUE` button                                                  Specifies, plays or recalls temporary cue point.
 5         :hwlabel:`SHIFT` + :hwlabel:`CUE` button                               Returns to the beginning of the song.
 6         :hwlabel:`PLAY/PAUSE` button                                           Plays or pause the song.
@@ -196,7 +198,7 @@ Effects Section (p. 7)
 No.       Control                                                          Function
 ========  ===============================================================  ==========================================
 1         :hwlabel:`CH ASSIGN` area                                        Toggle effect units 1/2 for decks 1/2 (3/4 if :hwlabel:`SHIFT` is pressed) or the TR-S (Aux 3) and Samplers 1-16.
-2-5       *Various*                                                        See `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
+2-5       *Various*                                                        See :ref:`Standard Effects Mapping <controller-effects-mapping>`.
 ========  ===============================================================  ==========================================
 
 
@@ -438,12 +440,12 @@ Known Issues
 
 -  TR-S Syncing currently works at the :term:`BPM` level, but phase syncing is not implemented yet.
    As a workaround, the :hwlabel:`NUDGE` button can be used to adjust the phase.
-   This depends on :term:`MIDI` clock I/O (`Launchpad Bug #682221 <https://bugs.launchpad.net/mixxx/+bug/682221>`__).
+   This depends on :term:`MIDI` clock I/O (`Bug #5682 <https://github.com/mixxxdj/mixxx/issues/5682>`__).
 -  Some performance pad modes are missing
-   (Slicer [`Launchpad Bug #1828886 <https://bugs.launchpad.net/mixxx/+bug/1828886>`__],
+   (Slicer [`Launchpad Bug #9660 <https://github.com/mixxxdj/mixxx/issues/9660>`__],
    Slicer Loop,
-   Saved Loop [`Launchpad Bug #1367159 <https://bugs.launchpad.net/mixxx/+bug/1367159>`__, `PR #2194 <https://github.com/mixxxdj/mixxx/pull/2194>`__ ],
-   Flip [`Launchpad Bug #1768113 <https://bugs.launchpad.net/mixxx/+bug/1768113>`__])
+   Saved Loop [`Launchpad Bug #7574 <https://github.com/mixxxdj/mixxx/issues/7574>`__, `PR #2194 <https://github.com/mixxxdj/mixxx/pull/2194>`__ ],
+   Flip [`Launchpad Bug #9271 <https://github.com/mixxxdj/mixxx/issues/9271>`__])
 -  Some buttons are not mapped yet (e.g. :hwlabel:`BACK`)
 -  LEDs on :hwlabel:`BACK`/:hwlabel:`ADD PREPARE` do not work
    (this seems to be a hardware/firmware bug and does not work in Serato either)

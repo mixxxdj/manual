@@ -1,22 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Josep Maria Antolin <josepma@gmail.com>, 2015
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/getting_involved.rst:6
 msgid "Contributing to the Project"
@@ -27,14 +226,20 @@ msgid ""
 "Mixxx is a community-driven project involving many DJs worldwide. Without "
 "the contributions from these DJs, Mixxx would not exist, and we're "
 "constantly looking for more contributors."
-msgstr "El Mixxx és un projecte impulsat per la comunitat i que involucra molts DJs arreu del món. Sense les contribucions d'aquests DJs, el Mixxx no existiria, i estem agraïts de rebre nous voluntaris en tot moment."
+msgstr ""
+"El Mixxx és un projecte impulsat per la comunitat i que involucra molts DJs "
+"arreu del món. Sense les contribucions d'aquests DJs, el Mixxx no existiria,"
+" i estem agraïts de rebre nous voluntaris en tot moment."
 
 #: ../../chapters/getting_involved.rst:12
 msgid ""
 "We want to make it as easy as possible for people to get involved in Mixxx "
 "development.  First off, to be clear **you don't have to be a programmer to "
 "contribute**."
-msgstr "Volem que us sigui tan fàcil com sigui possible el fet d'involucrar-vos amb el desenvolupament del Mixxx. Ho volem deixar clar **no us cal ser programador per a ajudar-nos**."
+msgstr ""
+"Volem que us sigui tan fàcil com sigui possible el fet d'involucrar-vos amb "
+"el desenvolupament del Mixxx. Ho volem deixar clar **no us cal ser "
+"programador per a ajudar-nos**."
 
 #: ../../chapters/getting_involved.rst:17
 msgid "As a non-developer"
@@ -47,14 +252,13 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:21
-msgid "`Make skins <https://mixxx.org/wiki/doku.php/creating_skins>`_"
+msgid "`Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:22
 msgid ""
-"`Make MIDI mappings "
-"<https://mixxx.org/wiki/doku.php/midi_controller_mapping_file_format>`_ for "
-"your controller"
+"`Make MIDI mappings <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
+"Mapping-File-Format>`_ for your controller"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:25
@@ -63,7 +267,7 @@ msgstr "`Aviseu-nos dels errors <https://bugs.launchpad.net/mixxx>`_"
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
-"Update our `Wiki <https://mixxx.org/wiki/doku.php>`_ to make sure the "
+"Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the "
 "information on it is up to date."
 msgstr ""
 
@@ -71,7 +275,9 @@ msgstr ""
 msgid ""
 "Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
 "software/public/>`_"
-msgstr "Traduïu el Mixxx utilitzant `Transifex <https://www.transifex.com/mixxx-dj-software/public/>`_ (en anglès)"
+msgstr ""
+"Traduïu el Mixxx utilitzant `Transifex <https://www.transifex.com/mixxx-dj-"
+"software/public/>`_ (en anglès)"
 
 #: ../../chapters/getting_involved.rst:30
 msgid ""
@@ -85,11 +291,15 @@ msgid ""
 "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
 " about our new releases when they come out. Any exposure on the web and in "
 "print helps our project grow, and is much appreciated."
-msgstr "Ajudeu a promocionar el Mixxx: Si teniu un bloc, escriviu un article sobre el Mixxx. Escriviu sobre les noves versions quan surtin. Tota exposició a la web i en mitjans impressos ajuda al nostre projecte a crèixer, i ho agraïm."
+msgstr ""
+"Ajudeu a promocionar el Mixxx: Si teniu un bloc, escriviu un article sobre "
+"el Mixxx. Escriviu sobre les noves versions quan surtin. Tota exposició a la"
+" web i en mitjans impressos ajuda al nostre projecte a crèixer, i ho agraïm."
 
 #: ../../chapters/getting_involved.rst:36
 msgid "Send us some photos of you using Mixxx at a gig!"
-msgstr "Envieu-nos fotografies de com feu servir el Mixxx en els vostres events!"
+msgstr ""
+"Envieu-nos fotografies de com feu servir el Mixxx en els vostres events!"
 
 #: ../../chapters/getting_involved.rst:39
 msgid "As a software developer"
@@ -99,7 +309,9 @@ msgstr "Si sou programador"
 msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
-msgstr "No cal que sapigueu C++. Hi ha desenvolupadors que s'han unit al desenvolupament del Mixxx al mateix temps que aprenien C++."
+msgstr ""
+"No cal que sapigueu C++. Hi ha desenvolupadors que s'han unit al "
+"desenvolupament del Mixxx al mateix temps que aprenien C++."
 
 #: ../../chapters/getting_involved.rst:43
 msgid ""
@@ -121,20 +333,24 @@ msgstr ""
 msgid ""
 "Register an account on our development platform `Github "
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
-"Development <https://mixxx.org/wiki/doku.php/using_git>`_"
+"Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:51
 msgid ""
 "Join the `Mixxx Development Team "
 "<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
-msgstr "Uniu-vos al `Mixxx Development Team <https://launchpad.net/~mixxxcontributors/+join>`_ a Launchpad."
+msgstr ""
+"Uniu-vos al `Mixxx Development Team "
+"<https://launchpad.net/~mixxxcontributors/+join>`_ a Launchpad."
 
 #: ../../chapters/getting_involved.rst:54
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
-msgstr "Familiaritzeu-vos amb el codi. Agafeu un error de la `lista de bugs senzills <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr ""
+"Familiaritzeu-vos amb el codi. Agafeu un error de la `lista de bugs senzills"
+" <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
 #: ../../chapters/getting_involved.rst:56
 msgid ""
@@ -150,7 +366,9 @@ msgstr "**Com contribuir al Mixxx amb 3 passos senzills:**"
 msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
-msgstr "Agafeu un error de la `lista de bugs senzills <https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+msgstr ""
+"Agafeu un error de la `lista de bugs senzills "
+"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
 
 #: ../../chapters/getting_involved.rst:63
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."

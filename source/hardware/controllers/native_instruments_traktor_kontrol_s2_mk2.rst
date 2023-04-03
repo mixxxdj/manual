@@ -119,7 +119,7 @@ The transport controls work mostly as labelled on the controller:
     Adjusts the :term:`tempo`.
 :hwlabel:`FLUX` button
     Mixxx `does not yet have a very useful flux/slip
-    mode <https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this
+    mode <https://github.com/mixxxdj/mixxx/issues/8155>`__, so instead this
     button toggles the top pad row to the intro/outro cues. Press the button
     when it is lit to return the top pad row to hotcue mode.
 
@@ -174,8 +174,8 @@ Crossfader
 Effects
 ~~~~~~~
 
-The Kontrol S2 MK2 uses the `standard Mixxx effects
-mapping <https://github.com/mixxxdj/mixxx/wiki/standard-effects-mapping>`__.
+The Kontrol S2 MK2 uses the :ref:`standard Mixxx effects
+mapping <controller-effects-mapping>`.
 
 Front panel
 ~~~~~~~~~~~

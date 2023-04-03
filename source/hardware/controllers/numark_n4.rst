@@ -79,8 +79,7 @@ Hotcues
 ^^^^^^^
 
 The four lower buttons of the topContainer are hotcues. They can be changed by using the corresponding Encoder [HOTCUE PAGE]. The current assignment will then be shown for one second in the upper row.
-Currently up to 4 Pages are supported (with 4 hotcues each). A demo of how this looks can be seen on `JsFiddle <https://jsfiddle.net/Swiftb0y/q9zbgvxj/1/>`__ (not done yet) (the slider represents the
-Encoder).
+Currently up to 4 Pages are supported (with 4 hotcues each).
 
 Controls
 ~~~~~~~~

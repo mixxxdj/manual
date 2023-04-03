@@ -26,6 +26,8 @@ tracks you want to play and load them into a :ref:`deck <interface-decks>` or
 imports your music library automatically when it is run for the first time, see
 :ref:`configuration-import` for more information.
 
+If you want to backup (or delete) your library refer to :ref:`appendix-settings-files` and look for ``mixxxdb.sqlite``.
+
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
 
@@ -58,7 +60,7 @@ Tracks - View and edit your whole collection
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_library| A sortable list of all the tracks in your music library.
+|ic_lib_tracks| A sortable list of all the tracks in your music library.
 
 **Customizing the view**
   Move columns by clicking a column header and dragging it to another
@@ -127,7 +129,6 @@ Tracks - View and edit your whole collection
   Go to the chapter :ref:`library-previewing-tracks` for detailed information.
 
 **Cover/Album Art**
-
   Mixxx can display cover art it finds for a track in the library.
   It will search for available cover art in the following places in order and
   will use the first one it finds:
@@ -165,27 +166,43 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
-* **Add to Auto DJ**: Adds the content of the selection to either the
+* **Add to Auto DJ**
+
+  Adds the content of the selection to either the
   :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
   playlist for automatic mixing. The :guilabel:`replace` option deletes the
   Auto DJ queue first, and then fills it with the selected tracks.
 
-* **Load to**:
+* **Load to**
+
   Loads a selected file to one of the available
   :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
   :ref:`Preview Deck <interface-preview-deck>`. Alternatively
   simply drag it to the :ref:`interface-waveform`. The number of available decks
   and samplers might differ, depending on the selected skin. Note that you
   can't load multiple files at once.
-* **Add to Playlist**: Add selected tracks to an existing playlist, or drag the
+
+* **Add to Playlist**
+
+  Add selected tracks to an existing playlist, or drag the
   selection to a playlist crate in the sidebar. Choose :guilabel:`Create new
   playlist` to put them into a new playlist.
-* **Crates:** The checkbox shows in which existing crates the selection is in.
+
+* **Crates**
+
+  The checkbox shows in which existing crates the selection is in.
   Changing the crates selection does not collapse the menu, which allows
   much easier categorization of tracks without going through the menu from
   scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
 
-* **Metadata**:
+* **Select Color**
+
+  Assign a color to all selected tracks to indicate mood, energy etc.
+  Select the black button at the top left to remove the color.
+
+
+* **Metadata**
+
     * **Import from File Tags**: If the track's :term:`metadata` changes,
       (e.g. if you used iTunes to edit it,) this option lets you save the new
       values for the selected tracks to the Mixxx library. See
@@ -198,7 +215,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       do not see changed metadata in other programs immediately, eject the track
       from all decks and samplers or shutdown Mixxx.
 
-    * **Cover Art**:
+    * **Cover Art**
 
       * **Choose New Cover**: Select an image from the file browser as the cover.
       * **Clear Cover**: Delete any cover information saved for this track.
@@ -206,7 +223,8 @@ Right-clicking on selected tracks in the track list reveals the context menu:
         :term:`tags <metadata>` or a picture in the track folder if the tags do
         not supply any.
 
-* **Clear**:
+* **Clear**
+
     * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
       from the selected tracks in the Mixxx library. After doing this, we
       recommend :ref:`analyzing <library-analyze>` the tracks again.
@@ -224,14 +242,13 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     * **All**: Clears all of the data above from the Mixxx library database at
       once.
 
-* **Change BPM**:
+* **Change BPM**
 
     * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
       200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
-      the tracks. If many of the detected BPM values are incorrect, you might
-      want to adjust the :guilabel:`BPM Range` in the
-      :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the
-      analysis.
+      the tracks. If many of the detected BPM values are incorrect, you may try
+      other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
+      and re-run the analysis.
 
     * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
       you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
@@ -239,11 +256,19 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       will set the status to "locked", and the icon changes to
       |ic_lib_bpm_locked|.
 
-* **Hide from Library**: Temporarily hides selected tracks from the track list.
+* **Hide from Library**
+
+  Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
-* **Open in File Browser**: Brings up the selected files in your file manager.
-* **Properties**: Similar to inline editing explained above, the properties
+
+* **Open in File Browser**
+
+  Brings up the selected files in your file manager.
+
+* **Properties**
+
+  Similar to inline editing explained above, the properties
   dialog allows you to view and edit metadata such as title, artist, album, and
   view the full file name and path. Note that you can not edit multiple files at
   once.
@@ -494,9 +519,13 @@ Manual Edit
 -----------
 
 **Track Inline editing**:
-  Double-click on a field in the :ref:`library <library-tracks>`. If the field is
-  editable, it will become an editable text box. Enter a value and hit
-  :kbd:`Enter` when you are done.
+  To enable inline editing in the :ref:`library <library-tracks>` go to
+  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  "Edit metadata after clicking selected track".
+
+  Select any track in the :ref:`library <library-tracks>` and click on the
+  field you want to edit. If the field is editable, it will become an editable
+  text box. Enter a value and hit :kbd:`Enter` when you are done.
 
   .. figure:: ../_static/Mixxx-200-Library-Inline-edit.png
      :align: center
@@ -508,8 +537,12 @@ Manual Edit
      Mixxx library - Inline editing
 
 **Properties editor**:
-  Click on a **single track** in the library and select :guilabel:`Properties`
-  to open the editor. Add or change values in the editable fields, and save your
+  To open the editor right-click on a **single track** in the library or any track
+  label in decks or samplers, then select :guilabel:`Properties` in the track menu.
+  You can also double-click any track label in the decks or samplers to open the
+  editor directly.
+
+  Add or change values in the editable fields, and save your
   changes as explained below.
 
   .. figure:: ../_static/Mixxx-200-Library-Properties-Editor.png
@@ -576,10 +609,14 @@ Fetching track metadata from MusicBrainz can fail:
 Using third-party software
 --------------------------
 
-If you have modified file metadata in third-party software, select
-:menuselection:`Library --> Rescan Library` in the menu on top of the
-application window. This prompts Mixxx to re-read the metadata from **all**
-tracks in the library.
+If you have edited file metadata in third-party software you need to re-import
+the modified metadata into Mixxx manually by selecting the affected tracks, open
+the context menu, and then choose :menuselection:`Metadata --> Import From File Tags`.
+
+.. hint:: Rescanning the library with :menuselection:`Library --> Rescan Library`
+          in the menu on top of the application window will only detect newly
+          added or removed tracks but no modifications of existing tracks. This
+          is a known limitation.
 
 Popular software to edit metadata of audio files include:
   * `Mp3tag <https://www.mp3tag.de/en/index.html>`_ (Windows)
@@ -774,14 +811,14 @@ Computer - Loading tracks from anywhere on your computer
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_browse| This mode works like a file manager and allows you to load
+|ic_lib_computer| This mode works like a file manager and allows you to load
 tracks from anywhere on your computer and connected devices, that are not
 necessarily already in your Mixxx library.
 
 Click the :guilabel:`Computer` sidebar item to navigate the computer and find
 your music. Depending on your :term:`operating system`, your music will usually
 be found in the “My Music” or “Music” folder. Drag the files you want to import
-to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
+to the |ic_lib_tracks| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
 .. note:: Currently you can only drag files (not folders) to the Mixxx library.
@@ -844,13 +881,12 @@ view, then right-click on a session's name/date to access the different features
 * **Export playlist**: Export a session in various file formats. This allows you
   to use the data in other applications.
 
-
 .. _library-analyze:
 
 Analyze - Prepare your tracks
 =============================
 
-This section allows you to analyze your tracks in advance of loading them into
+|ic_lib_analyze| This section allows you to analyze your tracks in advance of loading them into
 a deck. Analyzing tracks requires considerable CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`getting-started-analyze-library` for details.
@@ -870,8 +906,9 @@ Supported libraries:
 * |ic_lib_itunes| `iTunes <https://www.apple.com/itunes/>`_ (Windows, macOS)
 * |ic_lib_traktor| `Traktor <https://www.native-instruments.com/en/catalog/traktor/>`_ (Windows, macOS)
 * |ic_lib_rhythmbox| `Rhythmbox <https://wiki.gnome.org/Apps/Rhythmbox>`_ (GNU/Linux)
-* |ic_lib_banshee| `Banshee <http://banshee.fm/>`_ (Windows, macOS, GNU/Linux)
+* |ic_lib_banshee| `Banshee <https://bansheemediaplayer.github.io/>`_ (Windows, macOS, GNU/Linux)
 * |ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)
+* |ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)
 
 The external library views allow you to use music libraries you have created
 in these third-party applications. You can access music as well as playlists. If
@@ -884,6 +921,11 @@ locations on your hard drive.
 .. seealso:: External libraries can be disabled under
              :menuselection:`Preferences --> Library`.
 
+.. _library-itunes:
+
+Using the iTunes/Traktor/Rhythmbox/Bashee/Rekordbox library
+-----------------------------------------------------------
+
 Right-click on the iTunes icon in the Library tree and select
 :guilabel:`Choose Library` to load the :file:`iTunes Music Library.xml` from a
 different location. Select :guilabel:`Use Default Library` to reset.
@@ -893,6 +935,39 @@ different location. Select :guilabel:`Use Default Library` to reset.
 * If you have an iTunes configuration file (:file:`\*.xml`) from a Windows or
   Mac partition mounted in Linux, you can load it and use your iTunes tracks and
   playlists as well.
+
+.. _library-rekordbox:
+
+Using the Rekordbox library
+---------------------------
+To read Rekordbox databases for CDJ/XDJ players on USB or SD devices,
+the database has to be exported to a USB or SD device with a FAT or HFS
+file system using the Rekordbox Export mode.
+Databases that have been moved to an external device via :guilabel:`Preferences > Advanced > Database management` in Rekordbox are not supported.
+
+1. Plug your USB or SD drive in while Mixxx is running.
+2. Click on the :guilabel:`Rekordbox` item in the library sidebar to scan for  Rekordbox prepared USB drives. If no Rekordbox devices show up, you can click on :guilabel:`Check for attached Rekordbox devices (refresh)`.
+3. Click on the desired removable device. All your folders and playlists will be revealed for you to play from.
+
+How Rekordbox hotcues, memory cues, and loops are imported
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The following data is read:
+
+  * Folders
+  * Playlists
+  * Beatgrids
+  * Hot cues
+  * Memory cues
+  * Loops
+
+Mixxx currently has one main cue point, one loop, and thirty eight hotcues. As such:
+
+  *  All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first chronological Rekordbox memory cue is mapped to the Mixxx main cue.
+  * The first chronological Rekordbox loop is also mapped to the Mixxx loop.
+  * All loops (including the first loop), and all subsequent Rekordbox memory cues are appended as Mixxx hotcues following the previously imported Rekordbox hotcues.
+  * The hotcue and memory cue colors you assigned in Rekordbox are also imported, assisting in distinguishing between them.
+
+Although additional imported Rekordbox loops only appear in Mixxx 2.3 as hotcues, their loop information is stored in the Mixxx library and will become usable in Mixxx 2.4.
 
 .. _library-serato:
 
@@ -950,6 +1025,10 @@ hotcues and the beatgrids), and removes links to playlists or crates.
    button.
 #. To confirm you want to permanently remove these tracks from the library,
    click :guilabel:`Purge`.
+
+.. hint:: If you want to hide or purge only tracks from a specific folder you may use
+          the ``location:`` :ref:`search operator <library-finding-tracks>`, or
+          :ref:`sort the table <library-tracks>` by "Location".
 
 .. hint:: If you later decide to add some of the deleted tracks back, import
           them to the Mixxx library again, see :ref:`configuration-import`.

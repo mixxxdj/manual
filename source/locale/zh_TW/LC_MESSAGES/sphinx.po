@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/mixxx-dj-software/teams/7734/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../_templates/download.html:3
+msgid "Download"
+msgstr ""
+
+#: ../../_templates/download.html:8
+msgid "Offline versions of this manual"
+msgstr ""
+
+#: ../../_templates/download.html:11
+msgid "PDF"
+msgstr ""
+
+#: ../../_templates/languages.html:2
+msgid "Languages"
+msgstr ""
+
+#: ../../_templates/languages.html:8
+msgid "Read this page in another language"
+msgstr ""
+
+#: ../../_templates/versioning.html:39
+msgid "Versions"
+msgstr ""

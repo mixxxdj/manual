@@ -1,16 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011-2020, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2014-08-09 13:30+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>\n"
-"Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../chapters/quickstart.rst:4
 msgid "Quickstart"
-msgstr ""
+msgstr "Snelle Start"
 
 #: ../../chapters/quickstart.rst:6
 msgid ""
@@ -28,55 +32,59 @@ msgid ""
 "you already know how to DJ and are just looking for an overview of how to "
 "get your groove on with Mixxx, you can skip to the `Table of Contents`_."
 msgstr ""
+"Als je nieuw bent in het DJen, is dit de sectie voor jou. We hebben een "
+"aantal tutorials voor je die de basis van DJ'en met Mixxx behandelen. Als je"
+" al weet hoe je moet DJ'en en gewoon op zoek bent naar een overzicht van hoe"
+" je je groove vind met Mixxx, kun je doorgaan naar de `Inhoudsopgave`_."
 
 #: ../../chapters/quickstart.rst:12
 msgid "Example of a note"
-msgstr ""
+msgstr "Voorbeeld van een notitie"
 
 #: ../../chapters/quickstart.rst:14
 msgid "Example of a warning"
-msgstr ""
+msgstr "Voorbeeld van een waarschuwing"
 
 #: ../../chapters/quickstart.rst:16
 msgid "Todo"
-msgstr ""
+msgstr "Taak"
 
 #: ../../chapters/quickstart.rst:16
 msgid "Example of a todo"
-msgstr ""
+msgstr "Voorbeeld van een taak"
 
 #: ../../chapters/quickstart.rst:19
 msgid "Loading a Track"
-msgstr ""
+msgstr "Een track laden"
 
 #: ../../chapters/quickstart.rst:21
 msgid "Lesson about how to load a track."
-msgstr ""
+msgstr "Les over hoe een track laden."
 
 #: ../../chapters/quickstart.rst:25
 msgid "Using the Mixer Section"
-msgstr ""
+msgstr "De Mixer sectie gebruiken"
 
 #: ../../chapters/quickstart.rst:27
 msgid "Lesson about how to use the mixer."
-msgstr ""
+msgstr "Les over hoe de mixer te gebruiken."
 
 #: ../../chapters/quickstart.rst:30
 msgid "The Beatmatching Basics"
-msgstr ""
+msgstr "De basis over Beatmatching"
 
 #: ../../chapters/quickstart.rst:32
 msgid "Lesson about how to beatmatch."
-msgstr ""
+msgstr "Les over hoe te beatmatchen."
 
 #: ../../chapters/quickstart.rst:36
 msgid "Getting Funky with Effects"
-msgstr ""
+msgstr "Funky worden met effecten"
 
 #: ../../chapters/quickstart.rst:38
 msgid "Effects overview tutorial."
-msgstr ""
+msgstr "Effectenoverzicht tutorial."
 
 #: ../../chapters/quickstart.rst:42
 msgid "Mixxxing it Up with Hotcues and Loops"
-msgstr ""
+msgstr "Het Mixxxen met Hotcues en Loops"

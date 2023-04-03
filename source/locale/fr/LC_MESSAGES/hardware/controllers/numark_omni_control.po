@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: 2022-08-28 09:44+0000\n"
+"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/numark_omni_control.rst:2
+msgid "Numark Omni Control"
+msgstr ""
+
+#: ../../hardware/controllers/numark_omni_control.rst:4
+msgid ""
+"`Manfacturer’s product page <http://www.numark.com/product/omnicontrol>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_omni_control.rst:9
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

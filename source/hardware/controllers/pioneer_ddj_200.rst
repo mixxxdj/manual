@@ -1,3 +1,5 @@
+.. _pioneer-ddj-200:
+
 Pioneer DDJ-200
 ===============
 

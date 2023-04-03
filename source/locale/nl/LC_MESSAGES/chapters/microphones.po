@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# daschuer2 <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,9 +21,205 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
 #: ../../chapters/microphones.rst:6
 msgid "Using Microphones"
-msgstr ""
+msgstr "Gebruik van Microfoons"
 
 #: ../../chapters/microphones.rst:7
 msgid ""
@@ -27,6 +227,9 @@ msgid ""
 " interface <hardware-audio-interfaces>`. There are three ways to use "
 "microphones with Mixxx, each with their own pros and cons:"
 msgstr ""
+"Mixxx kan werken met elke microfoon die kan worden aangesloten op uw: ref: "
+"`audio-interface <hardware-audio-interfaces>`. Er zijn drie manieren om "
+"microfoons te gebruiken met Mixxx, elk met hun eigen voor- en nadelen:"
 
 #: ../../chapters/microphones.rst:11
 msgid ""
@@ -34,6 +237,9 @@ msgid ""
 " you cannot hear yourself without a disorienting delay, referred to as "
 "\"latency\"."
 msgstr ""
+":ref: `microfoons-software-monitoring`: Goedkoopst en eenvoudigst in te "
+"stellen, maar je kunt jezelf niet horen zonder een desoriënterende "
+"vertraging, ook wel \"latentie\"genoemd."
 
 #: ../../chapters/microphones.rst:14
 msgid ""
@@ -41,12 +247,17 @@ msgid ""
 "the cheapest to set up with good sound quality and without the latency of "
 "software monitoring."
 msgstr ""
+":ref:`microfoon-direct-monitoring`: Aanbevolen voor de meeste gebruikers. "
+"Dit is het goedkoopst in te stellen met een goede geluidskwaliteit en zonder"
+" de latentie van softwarebewaking."
 
 #: ../../chapters/microphones.rst:17
 msgid ""
 ":ref:`microphones-hardware-mixers`: Most expensive option to set up with "
 "high sound quality. This does not have the latency of software monitoring."
 msgstr ""
+":ref:`microfoon-hardware-mixers`: De duurste optie om in te stellen met een "
+"hoge geluidskwaliteit. Dit heeft niet de latentie van software monitoring."
 
 #: ../../chapters/microphones.rst:20
 msgid ""
@@ -56,18 +267,24 @@ msgid ""
 "Mixxx cannot be heard in this headphone jack. Also, they can be difficult to"
 " configure at the same time as a different audio interface for music output."
 msgstr ""
+"USB-microfoons worden niet aanbevolen. Deze apparaten hebben hun eigen "
+"audio-interface ingebouwd en kunnen alleen worden gebruikt met software "
+"monitoring. Sommige USB-microfoons hebben een hoofdtelefoonaansluiting voor "
+"directe monitoring, maar de muziek van Mixxx is niet te horen in deze "
+"hoofdtelefoonaansluiting. Ook kunnen ze moeilijk te configureren zijn op "
+"hetzelfde moment als een andere audio-interface voor muziekuitvoer."
 
 #: ../../chapters/microphones.rst:27
 msgid ""
 "The `Mixxx DJ Hardware Guide "
-"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific "
-"audio interfaces with information about their prices, features, and "
-"suitability for use with microphones."
+"<https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ lists "
+"specific audio interfaces with information about their prices, features, and"
+" suitability for use with microphones."
 msgstr ""
 
 #: ../../chapters/microphones.rst:34
 msgid "Software Monitoring"
-msgstr ""
+msgstr "Software Monitoring"
 
 #: ../../chapters/microphones.rst:35
 msgid ""
@@ -83,52 +300,62 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:53
 msgid ""
-"Mixxx can be configured to run at low latencies by choosing a smaller :ref"
-":`preferences-audio-buffer`, but there is no way to completely eliminate "
-"latency. Although latency is measured in milliseconds, even a few "
+"Mixxx can be configured to run at low latencies by choosing a smaller "
+":ref:`preferences-audio-buffer`, but there is no way to completely eliminate"
+" latency. Although latency is measured in milliseconds, even a few "
 "milliseconds of latency can be disorienting and distracting to hear, whether"
 " you are using the microphone for spoken announcements, vocals, or playing a"
 " musical instrument."
 msgstr ""
+"Mixxx kan worden geconfigureerd om met lage latenties te werken door een "
+"kleinere te kiezen: ref: `voorkeuren-audiobuffer`, maar er is geen manier om"
+" latentie volledig te elimineren. Hoewel latentie wordt gemeten in "
+"milliseconden, kan zelfs een paar milliseconden latentie desoriënterend en "
+"storend zijn om te horen, of je de microfoon nu gebruikt voor gesproken "
+"aankondigingen, zang of een muziekinstrument bespeelt."
 
 #: ../../chapters/microphones.rst:60
 msgid "To use software monitoring:"
-msgstr ""
+msgstr "Om software monitoring te gebruiken:"
 
 #: ../../chapters/microphones.rst:62 ../../chapters/microphones.rst:127
 #: ../../chapters/microphones.rst:220 ../../chapters/microphones.rst:356
 msgid "Open :menuselection:`Preferences --> Sound Hardware`."
-msgstr ""
+msgstr "Open :menuselection: `Voorkeuren -> Geluidshardware`."
 
 #: ../../chapters/microphones.rst:63
 msgid "Select the :guilabel:`Input` tab."
-msgstr ""
+msgstr "Selecteer de :guilabel:`Input` tab."
 
 #: ../../chapters/microphones.rst:64
 msgid ""
 "For :guilabel:`Microphone 1`, select the audio interface that your "
 "microphone is plugged into."
 msgstr ""
+"Voor :guilabel: `Microfoon 1`, selecteer de audio-interface waarop je "
+"microfoon is aangesloten."
 
 #: ../../chapters/microphones.rst:66 ../../chapters/microphones.rst:131
 #: ../../chapters/microphones.rst:229 ../../chapters/microphones.rst:367
 msgid "Click the :guilabel:`Apply` button."
-msgstr ""
+msgstr "Klik op de knop :guilabel: `Toepassen`."
 
 #: ../../chapters/microphones.rst:67 ../../chapters/microphones.rst:132
 #: ../../chapters/microphones.rst:230 ../../chapters/microphones.rst:368
 msgid "Click the :guilabel:`OK` button."
-msgstr ""
+msgstr "Klik op de :guilabel: `OK` knop."
 
 #: ../../chapters/microphones.rst:68 ../../chapters/microphones.rst:233
 msgid ""
 "Click the :guilabel:`Mics` button in the main Mixxx window to show the "
 "microphone controls."
 msgstr ""
+"Klik op de knop :guilabel:`Mics` in het Mixxx hoofdvenster om de bediening "
+"van de microfoon weer te geven."
 
 #: ../../chapters/microphones.rst:70 ../../chapters/microphones.rst:235
 msgid "Click the :guilabel:`Talk` button when you are using the microphone."
-msgstr ""
+msgstr "Klik op de knop :guilabel:`Talk` als u de microfoon gebruikt."
 
 #: ../../chapters/microphones.rst:72
 msgid ""
@@ -142,7 +369,7 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:83
 msgid "Direct Monitoring"
-msgstr ""
+msgstr "Directe Monitoring"
 
 #: ../../chapters/microphones.rst:84
 msgid ""
@@ -152,6 +379,12 @@ msgid ""
 " microphone inputs support direct monitoring. However, not all audio "
 "interfaces that support direct monitoring also have a loopback input."
 msgstr ""
+"Een audio-interface met directe monitoring en een :ref:`microfoons-loopback-"
+"input` is de aanbevolen manier om microfoons met Mixxx te gebruiken voor de "
+"meeste gebruikers. Met uitzondering van audio-interfaces die in computers "
+"zijn ingebouwd, ondersteunen de meeste audio-interfaces met "
+"microfooningangen directe monitoring. Echter, niet alle audio-interfaces die"
+" directe monitoring ondersteunen hebben ook een loopback ingang."
 
 #: ../../chapters/microphones.rst:90
 msgid ""
@@ -161,10 +394,15 @@ msgid ""
 "same time, the audio interface sends the input into the computer so Mixxx "
 "can record and broadcast it."
 msgstr ""
+"Directe monitoring geleidt de audio van de ingangen van de audio-interfaces "
+"rechtstreeks naar de uitgangen. Dit vermijdt de latentie van het verzenden "
+"naar de computer en weer terug met ref: `microfoons-software-monitoring`. "
+"Tegelijkertijd stuurt de audio-interface de invoer naar de computer zodat "
+"Mixxx deze kan opnemen en uitzenden."
 
 #: ../../chapters/microphones.rst:109
 msgid "Loopback Input"
-msgstr ""
+msgstr "Loopback Ingang"
 
 #: ../../chapters/microphones.rst:110
 msgid ""
@@ -173,52 +411,66 @@ msgid ""
 "before sending it to the computer. This makes it easier to set up Mixxx with"
 " direct monitoring than configuring :ref:`microphones-latency-compensation`."
 msgstr ""
+"Sommige audio-interfaces die ondersteuning bieden voor :ref: `microfoons-"
+"direct-monitoring` hebben een loopback-ingangsfunctie. Ze voegen de uitgang "
+"van Mixxx toe aan het microfoonsignaal voordat deze naar de computer "
+"gestuurd wordt. Dit maakt het makkelijker om Mixxx in te stellen met directe"
+" monitoring dan het configureren van :ref: `microfoons-latency-compensatie`."
 
 #: ../../chapters/microphones.rst:125
 msgid "To configure Mixxx with a loopback input:"
-msgstr ""
+msgstr "Mixxx configureren met een loopback-ingang:"
 
 #: ../../chapters/microphones.rst:128 ../../chapters/microphones.rst:221
 #: ../../chapters/microphones.rst:360
 msgid "Click the :guilabel:`Input` tab."
-msgstr ""
+msgstr "Klik op het tabblad :guilabel: `Input`."
 
 #: ../../chapters/microphones.rst:129
 msgid ""
 "Select the audio interface for the :guilabel:`Record/Broadcast` input. Do "
 "not configure anything for the :guilabel:`Microphone 1-4` inputs."
 msgstr ""
+"Selecteer de audio-interface voor de :guilabel:`Opname/Uitzenden` ingang. "
+"Configureer niets voor de :guilabel:`Microfoon 1-4` ingangen."
 
 #: ../../chapters/microphones.rst:133
 msgid ""
 ":ref:`Activate direct monitoring and loopback on your audio interface. "
 "<microphones-activate-direct-monitoring>`"
 msgstr ""
+":ref:`Activeer directe monitoring en loopback op uw audio-interface. "
+"<microphones-activate-direct-monitoring>`"
 
 #: ../../chapters/microphones.rst:135
 msgid ""
 "Adjust the microphone volume with the input gain knob on your audio "
 "interface."
 msgstr ""
+"Stel het microfoonvolume in met de ingangsversterkingsknop op uw audio-"
+"interface."
 
 #: ../../chapters/microphones.rst:138
 msgid ""
 "The microphone controls in Mixxx will not affect your microphones because "
 "they are mixed by the audio interface and not sent directly to Mixxx."
 msgstr ""
+"De bediening van de microfoon in Mixxx heeft geen invloed op uw microfoons, "
+"omdat ze worden gemixt door de audio-interface en niet rechtstreeks "
+"verzonden naar Mixxx."
 
 #: ../../chapters/microphones.rst:144
 msgid "Latency Compensation"
-msgstr ""
+msgstr "Latentie Compensatie"
 
 #: ../../chapters/microphones.rst:145
 msgid ""
 "When using :ref:`microphones-direct-monitoring`, you will hear the "
-"microphone mixed with the music from Mixxx without any noticable latency. "
+"microphone mixed with the music from Mixxx without any noticeable latency. "
 "However, it still takes time for Mixxx to receive the microphone signal and "
-"process it. Without compensating for this latency or using a :ref"
-":`microphones-loopback-input`, the microphone inputs will be out of time "
-"relative to the music in your recorded and broadcasted mixes."
+"process it. Without compensating for this latency or using a "
+":ref:`microphones-loopback-input`, the microphone inputs will be out of time"
+" relative to the music in your recorded and broadcasted mixes."
 msgstr ""
 
 #: ../../chapters/microphones.rst:162
@@ -229,10 +481,14 @@ msgid ""
 "<microphones-activate-direct-monitoring>` without configuring latency "
 "compensation."
 msgstr ""
+"Mixxx kan deze tijdsafwijking compenseren, maar het is moeilijk in te "
+"stellen. Als u uw microfoon niet in uw mix of uitzending wilt opnemen, kunt "
+"u :ref:`directe monitoring op uw audio-interface activeren <microphones-"
+"activate-direct-monitoring>` zonder de latentie-compensatie te configureren."
 
 #: ../../chapters/microphones.rst:171
 msgid "Measuring Round Trip Latency"
-msgstr ""
+msgstr "Round Trip Latentie meten"
 
 #: ../../chapters/microphones.rst:172
 msgid ""
@@ -243,6 +499,13 @@ msgid ""
 "audio to make a complete trip from your audio interface's input, through "
 "your computer, and back out the audio interface."
 msgstr ""
+"Om Mixxx te configureren om de invoer-latentie te compenseren bij gebruik "
+"van directe monitoring, moet u eerst de Round Trip Latentie van uw "
+"opstelling meten. De Round Trip Latentie verschilt van de grootte van de "
+":ref: `voorkeuren-audiobuffer` geconfigureerd in Mixxx. Het is de "
+"hoeveelheid tijd die audio nodig heeft om een volledige trip te maken vanaf "
+"de invoer van uw audio-interface, via uw computer en de audio-interface "
+"terug te halen."
 
 #: ../../chapters/microphones.rst:179
 msgid ""
@@ -254,23 +517,35 @@ msgid ""
 "third party program to measure the round trip latency. These programs are "
 "recommended on each :term:`OS <operating system>`:"
 msgstr ""
+"Mixxx kan de Round Trip Latentie niet berekenen omdat dit afhangt van de "
+"details van de hardware van uw audio-interface, uw besturingssysteem, het "
+"stuurprogramma van uw audio-interface en andere factoren in de hardware van "
+"uw computer. De Round Trip Latentie kan alleen worden gevonden door deze te "
+"meten. Gebruik hiervoor een fysieke kabel om de uitgang van de audio-"
+"interface op de ingang aan te sluiten. Gebruik vervolgens een programma van "
+"een derde partij om de latentie van de Round Trip Latentie te meten. Deze "
+"programma's worden op elk aanbevolen: term :`OS <operating system>:"
 
 #: ../../chapters/microphones.rst:187
 msgid ""
 "**GNU/Linux**: `jack_iodelay "
-"<https://www.linuxmusicians.com/viewtopic.php?t=8022>`_"
+"<https://linuxmusicians.com/viewtopic.php?t=8022>`_"
 msgstr ""
 
 #: ../../chapters/microphones.rst:189
 msgid ""
 "**Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_"
 msgstr ""
+"**Windows**: `RTL Hulpprogramma  <https://oblique-audio.com/rtl-"
+"utility.php>`_"
 
 #: ../../chapters/microphones.rst:190
 msgid ""
 "**macOS**: `Audacity "
 "<https://manual.audacityteam.org/man/latency_test.html>`_"
 msgstr ""
+"**macOS**: `Audacity "
+"<https://manual.audacityteam.org/man/latency_test.html>`_"
 
 #: ../../chapters/microphones.rst:202
 msgid ""
@@ -280,6 +555,11 @@ msgid ""
 "to remeasure your round trip latency to have your microphone inputs aligned "
 "in your recorded and broadcasted mixes."
 msgstr ""
+"U moet in het hulpprogramma dezelfde samplefrequentie en audiobuffergrootte "
+"gebruiken als in Mixxx om de meting nauwkeurig te laten zijn. Als u besluit "
+"om de samplefrequentie of buffergrootte die u gebruikt met Mixxx te "
+"wijzigen, moet u de latentie van uw Round Trip opnieuw meten om uw "
+"microfooningangen uit te lijnen in uw opgenomen en uitgezonden mixen."
 
 #: ../../chapters/microphones.rst:208
 msgid ""
@@ -287,20 +567,25 @@ msgid ""
 " <microphones-activate-direct-monitoring>` while you are measuring the round"
 " trip latency or you will not get an accurate measurement."
 msgstr ""
+"Zorg ervoor dat directe monitoring *niet* is :ref: `geactiveerd op uw audio-"
+"interface <microphones-activate-direct-monitoring>' terwijl u de Round Trip "
+"Latentie meet, anders krijgt u geen nauwkeurige meting."
 
 #: ../../chapters/microphones.rst:216
 msgid "Configuring Latency Compensation"
-msgstr ""
+msgstr "Latentie-compensatie configureren"
 
 #: ../../chapters/microphones.rst:217
 msgid ""
 "Before opening Mixxx, :ref:`measure the round trip latency <microphones-"
 "measure-round-trip-latency>`."
 msgstr ""
+"Voordat u Mixxx opent, :ref: `meet de Round Trip Latentie <microphones-"
+"measure-round-trip-latency>'."
 
 #: ../../chapters/microphones.rst:219
 msgid "Open Mixxx."
-msgstr ""
+msgstr "Open Mixxx."
 
 #: ../../chapters/microphones.rst:222
 msgid ""
@@ -308,24 +593,33 @@ msgid ""
 "inputs. Select a single mono channel for each Microphone input unless you "
 "are using stereo microphones."
 msgstr ""
+"Selecteer de audio-interface-ingang (en) voor de :guilabel: `Microphone "
+"1-4`-ingangen. Selecteer een enkel monokanaal voor elke microfooningang, "
+"tenzij u stereomicrofoons gebruikt."
 
 #: ../../chapters/microphones.rst:225
 msgid ""
 "For the :guilabel:`Microphone Monitor Mode` option, select :guilabel:`Direct"
 " monitor (recording and broadcasting only)`."
 msgstr ""
+"Voor de optie :guilabel:`Microfoon Monitor modus` selecteert u "
+":guilabel:`Directe monitor (alleen opname en uitzending)`."
 
 #: ../../chapters/microphones.rst:227
 msgid ""
 "Enter the measured round trip latency in milliseconds for the "
 ":guilabel:`Microphone Latency Compensation` option."
 msgstr ""
+"Voer de gemeten Round Trip Latentie in milliseconden in voor de optie "
+":guilabel: `Microfooe Latentie Compensatie`."
 
 #: ../../chapters/microphones.rst:231
 msgid ""
 ":ref:`Activate direct monitoring on your audio interface. <microphones-"
 "activate-direct-monitoring>`"
 msgstr ""
+":ref:`Activeer directe monitoring op uw audio-interface. <microphones-"
+"activate-direct-monitoring>`"
 
 #: ../../chapters/microphones.rst:236
 msgid ""
@@ -334,6 +628,10 @@ msgid ""
 "relative volume of the mics and music will be different in your recorded and"
 " broadcasted mixes compared to what you hear out of your audio interface."
 msgstr ""
+"Pas het microfoonvolume aan met de ingangsversterkingsknop op uw audio-"
+"interface. Pas de microfoonversterking niet aan in Mixxx. Als u dat doet, "
+"zal het relatieve volume van de microfoons en muziek in uw opgenomen en "
+"uitgezonden mixen anders zijn dan wat u uit uw audio-interface hoort."
 
 #: ../../chapters/microphones.rst:241
 msgid ""
@@ -348,10 +646,20 @@ msgid ""
 "Alternatively, you can adjust the input gain on your audio interface "
 "throughout your mix."
 msgstr ""
+"Mixxx zal uw microfoon niet opnemen of uitzenden als de :guilabel:`Talk` "
+"knop niet actief is. U zult echter nog steeds de microfoon in uw "
+"hoofduitgang horen omdat de microfoon wordt gemixt door uw audio-interface, "
+"niet door Mixxx. U kunt de :guilabel:`Talk` knop aan laten staan om te "
+"zorgen dat u deze niet vergeet, maar deze zal wel achtergrondgeluiden "
+"opnemen en uitzenden als u de microfoon niet actief gebruikt. Als uw "
+"microfoon een aan/uit-schakelaar heeft, kunt u de :guilabel:`Talk` knop aan "
+"laten staan in Mixxx en de schakelaar op de microfoon gebruiken om te "
+"voorkomen dat u achtergrondgeluiden toevoegt aan uw mix. U kunt ook de "
+"ingangsversterking op uw audio-interface in de gehele mix aanpassen."
 
 #: ../../chapters/microphones.rst:254
 msgid "Activating Direct Monitoring And Loopback On The Audio Interface"
-msgstr ""
+msgstr "Directe Monitoring En Loopback Activeren Op De Audio-Interface"
 
 #: ../../chapters/microphones.rst:255
 msgid ""
@@ -359,6 +667,9 @@ msgid ""
 "below. However, every audio interface is different, so refer to the audio "
 "interface manual from the manufacturer for more details."
 msgstr ""
+"Algemene tips voor het activeren van directe monitoring en loopback worden "
+"hieronder beschreven. Elke audio-interface is echter anders, dus raadpleeg "
+"de handleiding van de audio-interface van de fabrikant voor meer details."
 
 #: ../../chapters/microphones.rst:259
 msgid ""
@@ -369,18 +680,30 @@ msgid ""
 "center. Alternatively, some audio interfaces have a switch to toggle direct "
 "monitoring instead of a knob."
 msgstr ""
+"Op stand-alone audio-interfaces is er vaak een knop op het apparaat die "
+"directe monitoring regelt. Deze knop zal de output van de audio-interface "
+"tussen het signaal van de computer en de direct gecontroleerde inputs "
+"crossfaden. Als uw audio-interface zo'n knop heeft, stelt u de knop zo in "
+"dat deze in het midden staat. Als alternatief hebben sommige audio-"
+"interfaces een schakelaar om directe monitoring in of uit te schakelen in "
+"plaats van een knop."
 
 #: ../../chapters/microphones.rst:266
 msgid ""
 "To hear mono microphone inputs on both sides of the stereo output with "
 "direct monitoring, you typically need to toggle a switch on the device."
 msgstr ""
+"Om het mono-geluid van microfooningangen aan beide zijden van de stereo-"
+"uitgang met directe monitoring te horen, moet u meestal een schakelaar in of"
+" uitschakelen op het apparaat."
 
 #: ../../chapters/microphones.rst:269
 msgid ""
 "If the audio interface supports :ref:`microphones-loopback-input`, that may "
 "be activated by a switch on the device."
 msgstr ""
+"Als de audio-interface :ref: `microfoons-loopback-input`  ondersteunt, dan "
+"kan dat worden geactiveerd door een schakelaar op het apparaat."
 
 #: ../../chapters/microphones.rst:272
 msgid ""
@@ -391,27 +714,44 @@ msgid ""
 "audio interface features. On GNU/Linux, you might be able to access these "
 "controls with :command:`alsamixer`."
 msgstr ""
+"Audio-interfaces met veel in- en uitgangen hebben vaak een door de fabrikant"
+" geleverd bedieningspaneelprogramma dat automatisch met de stuurprogramma's "
+"wordt geïnstalleerd. Dit kan worden gebruikt in plaats van knoppen en "
+"schakelaars op de hardware om directe monitoring, loopback, stereo/mono-"
+"schakelaars en andere audio-interfacefuncties te bedienen. Op GNU/Linux is "
+"het mogelijk om deze bedieningselementen te benaderen met "
+":command:`alsamixer`."
 
 #: ../../chapters/microphones.rst:279
 msgid ""
 "Refer to the section below for details about :ref:`microphones-dj-"
 "controllers`."
 msgstr ""
+"Raadpleeg het onderstaande gedeelte voor meer informatie over :ref: "
+"`microfoons-dj-controllers`."
 
 #: ../../chapters/microphones.rst:284
 msgid "Hardware Mixers"
-msgstr ""
+msgstr "Hardware Mixers"
 
 #: ../../chapters/microphones.rst:285
 msgid ""
 "Mixxx can be used with a microphone plugged into an external hardware mixer."
-" This does not have the problem with latency that happens with :ref"
-":`microphones-software-monitoring`. However, it is generally recommended to "
-"use an audio interface that supports :ref:`microphones-direct-monitoring` "
-"and a :ref:`microphones-loopback-input` instead of an external mixer. If you"
-" are using :ref:`vinyl-control` and a microphone, you may need an external "
-"mixer."
+" This does not have the problem with latency that happens with "
+":ref:`microphones-software-monitoring`. However, it is generally recommended"
+" to use an audio interface that supports :ref:`microphones-direct-"
+"monitoring` and a :ref:`microphones-loopback-input` instead of an external "
+"mixer. If you are using :ref:`vinyl-control` and a microphone, you may need "
+"an external mixer."
 msgstr ""
+"Mixxx kan worden gebruikt met een microfoon die op een externe hardwaremixer"
+" is aangesloten. Hierdoor heeft het geen probleem met de latentie die "
+"optreedt bij :ref:`microfoon-software-monitoring`. Het is echter over het "
+"algemeen aan te raden om een audio-interface te gebruiken die "
+":ref:`microfoons-direct-monitoring` en een :ref:`microfoons-loopback-input` "
+"ondersteunt in plaats van een extern mengpaneel. Als u gebruik maakt van "
+":ref:`vinyl-control` en een microfoon, kan het zijn dat u een extern "
+"mengpaneel nodig heeft."
 
 #: ../../chapters/microphones.rst:293
 msgid ""
@@ -424,6 +764,14 @@ msgid ""
 ":ref:`microphones-direct-monitoring`, so there is no need for the external "
 "mixer."
 msgstr ""
+"Mixxx kan elk deck naar afzonderlijke stereokanalen op een externe mixer "
+"sturen door gebruik te maken van de :guilabel:`Deck 1-4` uitgangen. Dit "
+"vereist een audio-interface met minstens 4 uitgangskanalen (2 stereoparen). "
+"Audio-interfaces die in computers zijn ingebouwd hebben slechts één stereo-"
+"uitgang en hebben geen hoge geluidskwaliteit. Daarom wordt een andere audio-"
+"interface aanbevolen. Audio-interfaces met ten minste 4 uitgangskanalen "
+"hebben meestal microfooningangen en ondersteunen :ref:`microfoon-direct-"
+"monitoring`, dus er is geen behoefte aan een extern mengpaneel."
 
 #: ../../chapters/microphones.rst:302
 msgid ""
@@ -431,6 +779,10 @@ msgid ""
 "do not have microphone inputs. If you want to use vinyl control with a "
 "microphone, it is recommended to plug the microphone into a DJ mixer."
 msgstr ""
+"Audio-interfaces met phono-voorversterkers voor :ref:`vinyl-control` hebben "
+"echter geen microfooningangen. Als u gebruik wilt maken van vinyl-control "
+"met een microfoon, is het aan te raden om de microfoon aan te sluiten op een"
+" DJ-mixer."
 
 #: ../../chapters/microphones.rst:306
 msgid ""
@@ -438,10 +790,14 @@ msgid ""
 "interface. However, the audio interfaces in these mixers typically send only"
 " 2 channels (one stereo pair) to the mixer, so they are not recommended."
 msgstr ""
+"Sommige mixers die niet zijn ontworpen om te DJ'en, hebben een ingebouwde "
+"USB-audio-interface. De audio-interfaces in deze mixers sturen meestal "
+"slechts 2 kanalen naar de mixer (één stereopaar) , dus worden ze niet "
+"aanbevolen."
 
 #: ../../chapters/microphones.rst:314
 msgid "Recording And Broadcasting With An External Hardware Mixer"
-msgstr ""
+msgstr "Opnemen En Uitzenden Met Een Externe Hardware Mixer"
 
 #: ../../chapters/microphones.rst:315
 msgid ""
@@ -454,6 +810,15 @@ msgid ""
 "the audio interface built into your computer, but these do not have high "
 "sound quality."
 msgstr ""
+"Om op te nemen of uit te zenden met een externe hardwaremixer, moet de "
+"uitgang van de mixer worden aangesloten op de ingang van een audio-"
+"interface. De meeste DJ-mixers hebben hiervoor een extra uitgang die "
+"aangeduid wordt met \"record\", \"sessie\", \"auxiliary\" of \"booth\". "
+"Sommige audio-interfaces voor vinyl control hebben voldoende ingangskanalen "
+"om de uitgang van het mengpaneel en de tijdcodering van twee draaitafels te "
+"ontvangen. Als dat bij u niet het geval is, kunt u gebruik maken van de "
+"input van de audio-interface die in uw computer is ingebouwd, maar deze "
+"hebben geen hoge geluidskwaliteit."
 
 #: ../../chapters/microphones.rst:334
 msgid ""
@@ -465,12 +830,22 @@ msgid ""
 "results in higher sound quality for your recorded and broadcasted mixes "
 "compared to using a separate audio interface with an external mixer."
 msgstr ""
+"Als alternatief hebben sommige DJ-mixers een ingebouwde USB-audio-interface."
+" Deze hebben ingangen met phono-voorversterkers voor vinyl control en kunnen"
+" meestal het geluid van de plaat terugsturen naar de computer zonder een "
+"aparte audio-interface. Veel (maar niet alle) van deze mixers zijn digitale "
+"mixers, zodat ze signalen heen en weer kunnen sturen naar Mixxx zonder ze om"
+" te zetten naar analoog. Dit resulteert in een hogere geluidskwaliteit voor "
+"uw opgenomen en uitgezonden mixen in vergelijking met het gebruik van een "
+"aparte audio-interface met een externe mixer."
 
 #: ../../chapters/microphones.rst:354
 msgid ""
 "To configure Mixxx for using a hardware mixer for recording and/or "
 "broadcasting:"
 msgstr ""
+"Mixxx configureren voor het gebruik van een hardware mixer voor opnemen "
+"en/of uitzenden:"
 
 #: ../../chapters/microphones.rst:357
 msgid ""
@@ -478,6 +853,9 @@ msgid ""
 ":guilabel:`Deck 1-2` outputs (and :guilabel:`Deck 3-4` outputs if your audio"
 " interface and mixer support 4 decks)."
 msgstr ""
+"In het :guilabel:`Output` tabblad selecteert u de audio-interface voor de "
+":guilabel:`Deck 1-2` uitgangen (en :guilabel:`Deck 3-4` uitgangen als uw "
+"audio-interface en mixer 4 decks ondersteunen)."
 
 #: ../../chapters/microphones.rst:361
 msgid ""
@@ -486,12 +864,20 @@ msgid ""
 "interface, refer to the mixer manufacturer's manual to find which channels "
 "of the mixer's audio interface send the record output."
 msgstr ""
+"Voor de :guilabel:`Opname/Uitzenden` ingang selecteert u de audio-interface "
+"die is aangesloten op de uitgang van de mixer. Voor mixers met een "
+"ingebouwde USB-audio-interface, raadpleeg de handleiding van de fabrikant "
+"van de mixer om te zien welke kanalen van de audio-interface van de mixer de"
+" opname-uitgang sturen."
 
 #: ../../chapters/microphones.rst:365
 msgid ""
 "If you are using vinyl control, select the audio interface connected to the "
 "turntables for the :guilabel:`Vinyl Control 1-4` inputs."
 msgstr ""
+"Als u gebruik maakt van vinyl control, selecteer dan de audio-interface die "
+"is aangesloten op de draaitafels voor de ingangen :guilabel:`Vinyl Control "
+"1-4`."
 
 #: ../../chapters/microphones.rst:370
 msgid ""
@@ -499,16 +885,23 @@ msgid ""
 "using an external mixer. The microphone controls in Mixxx will not affect "
 "your microphones because the microphone is mixed by the external mixer."
 msgstr ""
+"Configureer niets voor de :guilabel:`Microfoon 1-4` ingangen bij gebruik van"
+" een externe mixer. De bedieningen van de microfoons in Mixxx hebben geen "
+"invloed op uw microfoons, omdat de microfoon wordt gemengd door het externe "
+"mengpaneel."
 
 #: ../../chapters/microphones.rst:374
 msgid ""
 "DJ mixers typically do not supply phantom power required for condenser "
 "microphones. Stand-alone audio interfaces typically do supply phantom power."
 msgstr ""
+"DJ-mixers leveren doorgaans geen fantoomvoeding die nodig is voor "
+"condensatormicrofoons. Stand-alone audio-interfaces leveren meestal wel "
+"fantoomvoeding."
 
 #: ../../chapters/microphones.rst:380
 msgid "DJ Controllers With Microphone Inputs"
-msgstr ""
+msgstr "DJ-controllers met microfooningangen"
 
 #: ../../chapters/microphones.rst:381
 msgid ""
@@ -517,8 +910,8 @@ msgid ""
 "have the problem with latency that happens with :ref:`microphones-software-"
 "monitoring`. However, many cheap DJ controllers do not digitize the signal "
 "to make it available to the computer. Refer to the controller's page on the "
-"`Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or "
-"the manual from the controller manufacturer for details about your "
+"`Mixxx wiki <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_"
+" or the manual from the controller manufacturer for details about your "
 "particular controller."
 msgstr ""
 
@@ -534,9 +927,83 @@ msgid ""
 "output to connect the main output to both the speakers and to another audio "
 "interface's input."
 msgstr ""
+"Als de controller de microfooningang niet digitaliseert, kunt u de "
+"microfooningang van Mixxx niet gebruiken om met de microfoon op te nemen of "
+"uit te zenden met behulp van de Mixxx :guilabel:`Microphone 1-4` ingangen. "
+"Het is nog steeds mogelijk om met de microfoon op te nemen en uit te zenden "
+"door de boothout-uitgang van de controller aan te sluiten op een audio-"
+"interface-ingang en deze te configureren voor de Mixxx "
+":guilabel:`Opname/Uitzenden`-ingang. Als de controller geen booth-uitgang "
+"heeft, kan een Y-splitsingskabel aan beide zijden van de stereo-hoofduitgang"
+" worden gebruikt om de hoofduitgang aan te sluiten op zowel de luidsprekers "
+"als op de ingang van een andere audio-interface."
 
 #: ../../chapters/microphones.rst:412
 msgid ""
 "DJ controllers typically do not supply phantom power required for condenser "
 "microphones. Stand-alone audio interfaces typically do supply phantom power."
+msgstr ""
+"DJ-controllers leveren doorgaans geen fantoomvoeding die nodig is voor "
+"condensatormicrofoons. Stand-alone audio-interfaces leveren meestal wel "
+"fantoomvoeding."
+
+#: ../../chapters/microphones.rst:416
+msgid "Microphone Ducking"
+msgstr ""
+
+#: ../../chapters/microphones.rst:417
+msgid ""
+"Microphone ducking is a technique to improve the audibility of speech by "
+"reducing the volume of background music while a voice signal is recorded by "
+"the microphone and allows listeners to hear the voice more clearly and "
+"consistently. While using Mixxx with a microphone, you might want the music "
+"to automatically fade into the background each time you speak, or you might "
+"prefer lowering the volume of the music to a specific level. Microphone "
+"ducking helps you achieve this.  The music will 'duck' out of the way of the"
+" microphone audio."
+msgstr ""
+
+#: ../../chapters/microphones.rst:427
+msgid "The microphone ducking section"
+msgstr ""
+
+#: ../../chapters/microphones.rst:427
+msgid "The microphone ducking controls"
+msgstr ""
+
+#: ../../chapters/microphones.rst:429
+msgid ""
+"The :guilabel:`Strength` knob adjusts the microphone talkover ducking "
+"strength and its behaviour depends on any of the Microphone talkover modes "
+"described below. Clicking  on the :guilabel:`Auto` button will switch it to "
+"any of three modes:"
+msgstr ""
+
+#: ../../chapters/microphones.rst:432
+msgid ""
+":guilabel:`Off`: When you speak through the microphone, the music  volume "
+"does not reduce."
+msgstr ""
+
+#: ../../chapters/microphones.rst:433
+msgid ""
+":guilabel:`Auto`: When you speak through the microphone, the music volume "
+"will be reduced when Mixxx detects your voice. You can adjust the amount by "
+"which the volume is automatically reduced with the Strength knob."
+msgstr ""
+
+#: ../../chapters/microphones.rst:434
+msgid ""
+":guilabel:`Manual`:In this mode, the music will play at the volume set by "
+"the Strength knob whenever the microphone Talk button is active, regardless "
+"of the volume coming through the microphone input. When you speak through "
+"your microphone, set the volume to which the music should reduce by turning "
+"the Strength knob to a level that suits you. When you disable Talk mode, the"
+" music will return to the regular volume"
+msgstr ""
+
+#: ../../chapters/microphones.rst:436
+msgid ""
+"To set the Ducking volume correctly, you can use manual mode to adjust the "
+"knob to your taste and then set to auto when happy."
 msgstr ""

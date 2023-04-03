@@ -1,6 +1,20 @@
 default_language_version:
   python: python3
 repos:
+- repo: local
+  hooks:
+  - id: scour
+    name: "Optimize SVG files"
+    files: ^.*\.svg$
+    entry: python tools/optimize_svg.py
+    language: python
+    additional_dependencies:
+    - scour==0.38.2
+  - id: gh-wiki-anchors
+    name: "Fix GitHub Wiki Anchors for Linkcheck"
+    types: [rst]
+    entry: python tools/fixup_gh_wiki_anchors.py
+    language: python
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v3.1.0
   hooks:
@@ -19,11 +33,11 @@ repos:
     args: ["--ignore-words", ".codespellignore"]
     exclude: ^(.*\.svg|source/locale/.*)$
 - repo: https://github.com/psf/black
-  rev: stable
+  rev: 22.3.0
   hooks:
   - id: black
     name: "Reformat Python code"
-- repo: https://gitlab.com/pycqa/flake8
+- repo: https://github.com/pycqa/flake8
   rev: '3.8.3'
   hooks:
   - id: flake8

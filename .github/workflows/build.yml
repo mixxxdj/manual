@@ -1,32 +1,90 @@
 name: Build Manual
 
 on:
+  pull_request:
   push:
+    branches:
+    - "main"
+    - "[0-9]+.[0-9]+"
+  repository_dispatch:
+    types: rebuild
 
 jobs:
   build-html:
     name: HTML
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: main
         fetch-depth: 0
     - name: Setup Graphviz
       run: sudo apt update && sudo apt install -y graphviz
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.7'
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
     - name: Build versioned HTML manual
       run: sh build_html.sh
-    - name: Publish
-      uses: netlify/actions/cli@master
-      timeout-minutes: 15
-      with:
-        args: deploy --prod --dir=build/html
+    - name: Deploy to Netlify
+      # Increase timeout to 30 minutes because deploying the manual may take
+      # a while.
+      run: npx netlify deploy --prod --dir=build/html --timeout 1800
       env:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+
+  build-pdf:
+    name: PDF
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup PDF Build Dependencies
+      run: >
+        sudo apt-get update && sudo apt-get install -y
+        graphviz
+        librsvg2-bin
+        fonts-freefont-otf
+        texlive
+        texlive-xetex
+        texlive-latex-extra
+        texlive-latex-recommended
+        texlive-lang-all
+        latexmk
+        xindy
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.7'
+    - name: Install Python dependencies
+      run: pip install --upgrade -r requirements.txt
+    - name: Set up SSH Agent
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_PRIVATE_KEY != null
+      env:
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        SSH_PRIVATE_KEY: ${{ secrets.DOWNLOADS_HOSTGATOR_DOT_MIXXX_DOT_ORG_KEY }}
+        SSH_HOST: downloads-hostgator.mixxx.org
+      run: |
+        ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+        ssh-add - <<< "${SSH_PRIVATE_KEY}"
+        mkdir -p "${HOME}/.ssh"
+        ssh-keyscan "${SSH_HOST}" >> "${HOME}/.ssh/known_hosts"
+        echo "SSH_AUTH_SOCK=${SSH_AUTH_SOCK}" >> "${GITHUB_ENV}"
+    - name: Build PDF manual
+      if: (github.event_name != 'push' || github.event_name != 'repository_dispatch') && env.SSH_AUTH_SOCK == null
+      run: |
+        sphinx-build -b latex -q -j $(nproc) -Dlatex_engine=xelatex source build
+        make -C build LATEXMKOPTS="-f -interaction=nonstopmode -pdf -xelatex" all-pdf
+    - name: Build PDF manual in all languages
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_AUTH_SOCK != null
+      run: sh build_pdf.sh
+    - name: Deploy PDF manuals to download server
+      if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_AUTH_SOCK != null
+      run: rsync --verbose --recursive --checksum --times --delay-updates "build/pdf/" "${SSH_USER}@${SSH_HOST}:${DESTDIR}/"
+      env:
+        DESTDIR: public_html/downloads/manual
+        SSH_HOST: downloads-hostgator.mixxx.org
+        SSH_USER: mixxx

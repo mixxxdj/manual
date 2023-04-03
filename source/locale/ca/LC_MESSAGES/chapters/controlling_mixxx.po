@@ -1,23 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ferran Pujol Camins <ferranpujolcamins@gmail.com>, 2015
-# Josep Maria Antolin <josepma@gmail.com>, 2015
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-03-08 04:47+0000\n"
-"Last-Translator: RJ Skerry-Ryan <rryan@mixxx.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/ca/)\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:6
 msgid "Controlling Mixxx"
@@ -28,7 +226,10 @@ msgid ""
 "Mixxx can be controlled with a keyboard, a mouse, :term:`MIDI`/:term:`HID` "
 "controllers, time-code records/CDs, or a combination of these. The choice "
 "usually depends on your budget or style of DJing."
-msgstr "El Mixxx es pot controlar amb el teclat, el ratolí, controladores :term:`MIDI`/:term:`HID` i CDs/vinils amb codis de temps o una combinació d'aquests. La opció a triar depèn del vostre pressupost o l'estil de punxar."
+msgstr ""
+"El Mixxx es pot controlar amb el teclat, el ratolí, controladores "
+":term:`MIDI`/:term:`HID` i CDs/vinils amb codis de temps o una combinació "
+"d'aquests. La opció a triar depèn del vostre pressupost o l'estil de punxar."
 
 #: ../../chapters/controlling_mixxx.rst:15
 msgid "Using a Mouse and Touchpad"
@@ -39,7 +240,10 @@ msgid ""
 "Use your mouse to interact with the controls in the :ref:`Mixxx User "
 "Interface <interface-overview>` on your computer screen. You can perform "
 "actions by pointing and clicking with your mouse."
-msgstr "Feu anar el ratolí per a interactuar amb els controls de la :ref:`Interfície del Mixxx <interface-overview>` a la pantalla de l'ordinador. Podeu realitzar diferents accions movent i fent clic amb el ratolí."
+msgstr ""
+"Feu anar el ratolí per a interactuar amb els controls de la :ref:`Interfície"
+" del Mixxx <interface-overview>` a la pantalla de l'ordinador. Podeu "
+"realitzar diferents accions movent i fent clic amb el ratolí."
 
 #: ../../chapters/controlling_mixxx.rst:21
 msgid ""
@@ -54,20 +258,31 @@ msgid ""
 "**Single Right Click**: On most buttons, performing a right click triggers a"
 " different action than a left click. You can return any knob or fader to its"
 " default value by right-clicking that control."
-msgstr "**Clic amb el botó dret**: A la majoria do botons, si es fa un clic amb el botó dret, es realitza una acció diferent a la del botó esquerra. Podeu fer que una rodeta o control lliscant tornin al valor per defecte si hi feu clic amb el botó dret."
+msgstr ""
+"**Clic amb el botó dret**: A la majoria do botons, si es fa un clic amb el "
+"botó dret, es realitza una acció diferent a la del botó esquerra. Podeu fer "
+"que una rodeta o control lliscant tornin al valor per defecte si hi feu clic"
+" amb el botó dret."
 
 #: ../../chapters/controlling_mixxx.rst:28
 msgid ""
 "**Mouse Drag**: Click on a knob or fader, hold the left mouse button and "
 "move your cursor to change the value of the control. Use mouse drag to drop "
 "tracks from the file list to the decks, crates, playlists, etc."
-msgstr "**Arrossegar**: Feu clic en una rodeta o control lliscant, manteniu el botó esquerra premut, i moveu el ratoli per canviar el valor. També podeu arrossegar les pistes des de la llista de fitxers cap als plats, les caixes, llistes de reproducció i altres."
+msgstr ""
+"**Arrossegar**: Feu clic en una rodeta o control lliscant, manteniu el botó "
+"esquerra premut, i moveu el ratoli per canviar el valor. També podeu "
+"arrossegar les pistes des de la llista de fitxers cap als plats, les caixes,"
+" llistes de reproducció i altres."
 
 #: ../../chapters/controlling_mixxx.rst:31
 msgid ""
 "**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values "
 "by placing the cursor over the control and moving the mouse wheel."
-msgstr "**Rodeta del ratolí**: A part d'arrossegant el control, també podeu canviar el valor de les rodetes i els controls lliscants posant el ratolí sobre d'un control, i movent la rodeta del ratolí."
+msgstr ""
+"**Rodeta del ratolí**: A part d'arrossegant el control, també podeu canviar "
+"el valor de les rodetes i els controls lliscants posant el ratolí sobre d'un"
+" control, i movent la rodeta del ratolí."
 
 #: ../../chapters/controlling_mixxx.rst:34
 msgid ""
@@ -80,25 +295,35 @@ msgstr ""
 msgid ""
 "On a Macbook or a computer with a touchpad that lacks mouse buttons, a two-"
 "finger click gesture is often treated as a right click."
-msgstr "En un Macbook, o un ordinador amb un ratolí tàctil que no tingui botons, el gest de clic amb dos dits fa habitualment d'acció de botó dret."
+msgstr ""
+"En un Macbook, o un ordinador amb un ratolí tàctil que no tingui botons, el "
+"gest de clic amb dos dits fa habitualment d'acció de botó dret."
 
 #: ../../chapters/controlling_mixxx.rst:41
 msgid ""
 "Using the Mouse drag/wheel on the waveforms you can adjust zoom and playback"
 " rate of the tracks. For more information, go to :ref:`interface-waveform`."
-msgstr "Si feu anar l'arrossegament o la rodeta del ratolí amb els gràfics d'ona, podeu ajustar el zoom i la velocitat de reproducció de les pistes. Per a més informació aneu a :ref:`interface-waveform`"
+msgstr ""
+"Si feu anar l'arrossegament o la rodeta del ratolí amb els gràfics d'ona, "
+"podeu ajustar el zoom i la velocitat de reproducció de les pistes. Per a més"
+" informació aneu a :ref:`interface-waveform`"
 
 #: ../../chapters/controlling_mixxx.rst:48
 msgid "Using a Keyboard"
 msgstr "Amb un teclat d'ordinador"
 
+#: ../../chapters/controlling_mixxx.rst-1
+msgid "Keyboard shortcuts"
+msgstr ""
+
 #: ../../chapters/controlling_mixxx.rst:57
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
-msgstr "Dreceres de teclat del Mixxx (per a la disposició de teclat anglesa en-us)"
+msgstr ""
+"Dreceres de teclat del Mixxx (per a la disposició de teclat anglesa en-us)"
 
 #: ../../chapters/controlling_mixxx.rst:59
 msgid ""
-":download:`Download the image <../_static/Mixxx-220-Keyboard-Mapping.png>`"
+":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:61
@@ -106,7 +331,10 @@ msgid ""
 "Controlling Mixxx with a keyboard is handy. Unlike mouse control, the "
 "keyboard allows you to manage things simultaneously. For example, you can "
 "start playing a track on deck 1 whilst stopping deck 2 at the same time."
-msgstr "Controlar el Mixxx amb el teclat és útil. A diferència del ratolí, el teclat permet fer accions simultàniament. Per exemple, podeu iniciar la reproducció d'una pista al plat 1 i parar el plat 2 al mateix temps."
+msgstr ""
+"Controlar el Mixxx amb el teclat és útil. A diferència del ratolí, el teclat"
+" permet fer accions simultàniament. Per exemple, podeu iniciar la "
+"reproducció d'una pista al plat 1 i parar el plat 2 al mateix temps."
 
 #: ../../chapters/controlling_mixxx.rst:65
 msgid ""
@@ -114,7 +342,11 @@ msgid ""
 "It is divided into a left-hand side for deck 1 and right-hand side for deck "
 "2. Please note that you can also access the functions through Mixxx's "
 "interface."
-msgstr "La disposició per defecte del teclat Anglès es mostra a la imatge superior. Està dividida en una part esquerra per al plat 1 i una part dreta per al plat 2. Tingueu en compte que també podeu accedir a aquestes funcions amb la interfície del Mixxx."
+msgstr ""
+"La disposició per defecte del teclat Anglès es mostra a la imatge superior. "
+"Està dividida en una part esquerra per al plat 1 i una part dreta per al "
+"plat 2. Tingueu en compte que també podeu accedir a aquestes funcions amb la"
+" interfície del Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:69
 msgid ""
@@ -129,11 +361,16 @@ msgid ""
 "If you hover with the mouse over a control (e.g. the crossfader) in the "
 "Mixxx user interface, the tooltip lists the keyboard shortcuts of the "
 "control among a description of the control."
-msgstr "Si poseu el ratolí sobre un control (p. ex. el crossfader) de la interfície del Mixxx, es mostrarà una nota informativa amb les dreceres de teclat per al control, juntament amb la descripció del control."
+msgstr ""
+"Si poseu el ratolí sobre un control (p. ex. el crossfader) de la interfície "
+"del Mixxx, es mostrarà una nota informativa amb les dreceres de teclat per "
+"al control, juntament amb la descripció del control."
 
 #: ../../chapters/controlling_mixxx.rst:78
 msgid "For a list of default shortcuts, go to :ref:`appendix-keyboard`."
-msgstr "Per a veure una llista de les dreceres per defecte, aneu a :ref:`appendix-keyboard`."
+msgstr ""
+"Per a veure una llista de les dreceres per defecte, aneu a :ref:`appendix-"
+"keyboard`."
 
 #: ../../chapters/controlling_mixxx.rst:81
 msgid "Customizing the keyboard mapping"
@@ -143,7 +380,9 @@ msgstr "Personalització les dreceres de teclat"
 msgid ""
 "Mixxx allows you to customize the keyboard control. For more information, go"
 " to:"
-msgstr "El Mixxx permet personalitzar les dreceres de teclat. Per a més informació aneu a:"
+msgstr ""
+"El Mixxx permet personalitzar les dreceres de teclat. Per a més informació "
+"aneu a:"
 
 #: ../../chapters/controlling_mixxx.rst:85
 msgid ":ref:`advanced-keyboard`"
@@ -162,18 +401,18 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:100
-msgid "Loading a controller preset"
-msgstr "Càrrega d'una configuració de controladora"
+msgid "Loading a controller mapping"
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:108
-msgid "Mixxx Preferences - Loading a controller preset"
-msgstr "Preferències del Mixxx - Carregant una configuració de controladora"
+msgid "Mixxx Preferences - Loading a controller mapping"
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:110
 msgid ""
-"Without loading the correct preset, your controller does not work with "
+"Without loading the correct mapping, your controller does not work with "
 "Mixxx."
-msgstr "Si no es carrega la configuració correcta, la vostra controladora no funcionarà bé amb el Mixxx."
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:112
 msgid "Connect your controller(s) to your computer"
@@ -191,16 +430,18 @@ msgstr "Aneu a :menuselection:`Preferències --> Controladores`"
 msgid ""
 "Select your device from the list of available devices on the left, and the "
 "right pane will change"
-msgstr "Seleccioneu el dispositiu de la llista de dispositius disponibles de l'esquerra, i canviarà la informació al panell dret"
+msgstr ""
+"Seleccioneu el dispositiu de la llista de dispositius disponibles de "
+"l'esquerra, i canviarà la informació al panell dret"
 
 #: ../../chapters/controlling_mixxx.rst:117
-msgid "Activate the :guilabel:`Enabled` checkbox"
-msgstr "Marqueu la opció :guilabel:`Activat`"
-
-#: ../../chapters/controlling_mixxx.rst:118
 msgid ""
-"Select the mapping for your controller from the :guilabel:`Load Preset` "
+"Select the mapping for your controller from the :guilabel:`Load Mapping` "
 "drop-down menu"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:119
+msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:120
@@ -211,13 +452,16 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:121
 msgid "Repeat step 4-7 for any of the controllers you want to use"
-msgstr "Repetiu els passos 4-7 per a cada una de les controladores que utilitzeu"
+msgstr ""
+"Repetiu els passos 4-7 per a cada una de les controladores que utilitzeu"
 
 #: ../../chapters/controlling_mixxx.rst:123
 msgid ""
 "If you do not find a connected device in the list, make sure to install any "
 "necessary drivers for that device."
-msgstr "Si la controladora no apareix a la llista de dispositius connectats, assegureu-vos d'instal·lar els controladors del dispositiu."
+msgstr ""
+"Si la controladora no apareix a la llista de dispositius connectats, "
+"assegureu-vos d'instal·lar els controladors del dispositiu."
 
 #: ../../chapters/controlling_mixxx.rst:127
 msgid "Supported controllers"
@@ -230,13 +474,21 @@ msgid ""
 "there is a MIDI/HID mapping file to tell Mixxx how to understand it. Mixxx "
 "comes bundled with a number of mappings for various devices. There are two "
 "levels of controller mappings:"
-msgstr "El Mixxx pot utilitzar qualsevol controladora :term:`MIDI`/:term:`HID` que reconegui el vostre :term:`sistema operatiu <operating system>` (pot ser que necessiteu instal·lar els controladors), sempre que hi hagi una configuració preestablerta MIDI/HID per a que el Mixxx entengui les ordres. El Mixxx incorpora un conjunt d'assignacions MIDI i HID per a diferents dispositius. Hi ha dues categories de fitxers de configuració:"
+msgstr ""
+"El Mixxx pot utilitzar qualsevol controladora :term:`MIDI`/:term:`HID` que "
+"reconegui el vostre :term:`sistema operatiu <operating system>` (pot ser que"
+" necessiteu instal·lar els controladors), sempre que hi hagi una "
+"configuració preestablerta MIDI/HID per a que el Mixxx entengui les ordres. "
+"El Mixxx incorpora un conjunt d'assignacions MIDI i HID per a diferents "
+"dispositius. Hi ha dues categories de fitxers de configuració:"
 
 #: ../../chapters/controlling_mixxx.rst:135
 msgid ""
 "**Mixxx Certified Mappings**: These mappings are verified by the Mixxx "
 "Development Team."
-msgstr "**Configuracions certificades pel Mixxx**: Aquestes assignacions de controls s'han verificat per l'equip de desenvolupadors del Mixxx."
+msgstr ""
+"**Configuracions certificades pel Mixxx**: Aquestes assignacions de controls"
+" s'han verificat per l'equip de desenvolupadors del Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:137
 msgid ""
@@ -244,7 +496,12 @@ msgid ""
 "verified as working by the Mixxx community, but the Mixxx Development Team "
 "is unable to verify their quality because we don't have the devices "
 "ourselves. They might have bugs or rough edges."
-msgstr "**Configuracions proporcionades per la comunitat**: Aquestes assignacions les han realitzat i verificat la comunitat del Mixxx, però l'equip de desenvolupadors del Mixxx no ha pogut verificar la seva qualitat, perquè no tenim accés als dispositius. Hi ha la possibilitat que tinguin errors o estiguin incomplertes."
+msgstr ""
+"**Configuracions proporcionades per la comunitat**: Aquestes assignacions "
+"les han realitzat i verificat la comunitat del Mixxx, però l'equip de "
+"desenvolupadors del Mixxx no ha pogut verificar la seva qualitat, perquè no "
+"tenim accés als dispositius. Hi ha la possibilitat que tinguin errors o "
+"estiguin incomplertes."
 
 #: ../../chapters/controlling_mixxx.rst:142
 msgid ""
@@ -253,101 +510,85 @@ msgid ""
 "forums, or :term:`IRC` channel. Device support varies for each supported "
 ":term:`OS <operating system>`, so make sure to consult the documentation of "
 "the device."
-msgstr "Si teniu algun problema amb aquestes configuracions, :term:`informeu-nos de l'error <bug report>` al `Bug Tracker`_ o contacteu utilitzant la llista de distribució de correu, els fòrums o el canal :term:`IRC`. La compatibilitat dels dispositius varia per a cada :term:`sistema operatiu <operating system>`, així que consulteu la documentació del dispositiu."
+msgstr ""
+"Si teniu algun problema amb aquestes configuracions, :term:`informeu-nos de "
+"l'error <bug report>` al `Bug Tracker`_ o contacteu utilitzant la llista de "
+"distribució de correu, els fòrums o el canal :term:`IRC`. La compatibilitat "
+"dels dispositius varia per a cada :term:`sistema operatiu <operating "
+"system>`, així que consulteu la documentació del dispositiu."
 
 #: ../../chapters/controlling_mixxx.rst:147
-msgid "Additional mappings are available in the `Controller presets forum`_."
-msgstr "Podeu trobar configuracions addicionals al fòrum de `Controller Presets`_ (en anglès)"
+msgid "Additional mappings are available in the `Controller mapping forum`_."
+msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:149
 msgid ""
 "Before purchasing a controller to use with Mixxx, consult our `Hardware "
 "Compatibility wiki page`_. It contains the most up-to-date information about"
 " which controllers work with Mixxx and the details of each."
-msgstr "Abans de comprar una controladora per utilitzar-la amb el Mixxx, consulteu la `Hardware compatibility`_ a la nostra vikipèdia. Hi ha la informació més actualitzada sobre quines controladores funcionen amb el Mixxx i detalls de cada una."
+msgstr ""
+"Abans de comprar una controladora per utilitzar-la amb el Mixxx, consulteu "
+"la `Hardware compatibility`_ a la nostra vikipèdia. Hi ha la informació més "
+"actualitzada sobre quines controladores funcionen amb el Mixxx i detalls de "
+"cada una."
 
 #: ../../chapters/controlling_mixxx.rst:159
-msgid "Installing a preset from the forum"
+msgid "Installing a mapping from the forum"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:160
 msgid ""
 "To use a controller mapping that did not come bundled with Mixxx, place the "
-"controller mapping in your User Presets folder. This is the folder called "
-"\"controllers\" inside your User Preferences folder. To open your User "
-"Presets folder, go to :menuselection:`Preferences --> Controllers` and click"
-" the :guilabel:`Open User Preset Folder` button. Alternatively, navigate to "
-"the folder in your :term:`OS <operating system>` file browser:"
+"controller mapping in your User Mappings folder. To open it , go to "
+":menuselection:`Preferences --> Controllers` and click the :guilabel:`Open "
+"User Mapping Folder` button. Alternatively, use your :term:`OS <operating "
+"system>` file browser to navigate there. The locations and more details can "
+"be found in :ref:`appendix-settings-files`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:167
-msgid "GNU/Linux: :file:`/home/<username>/.mixxx/controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:168
-msgid ""
-"macOS: :file:`/Users/<username>/Library/Application "
-"Support/Mixxx/controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:169
-msgid ""
-"Windows Vista and newer: "
-":file:`C:\\\\Users\\\\<username>\\\\AppData\\\\Mixxx\\\\controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:170
-msgid ""
-"Windows XP: :file:`C:\\\\Documents and "
-"Settings\\\\<username>\\\\AppData\\\\controllers`"
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:172
-msgid ""
-"On Windows, the :file:`AppData` folder is hidden, so if you have not "
-"already, you will need to set Windows Explorer to show hidden files and "
-"folders (how to do this varies with each version of Windows)."
-msgstr ""
-
-#: ../../chapters/controlling_mixxx.rst:176
+#: ../../chapters/controlling_mixxx.rst:164
 msgid ""
 "If the mapping was posted as a :file:`.zip` file, first extract the "
 ":file:`.zip` file by right clicking on it in your file browser and selecting"
 " the option for extracting an archive or compressed folder. Copy the "
-":file:`.xml` file into your User Preset folder. If there is a :file:`.js` "
-"file, also copy that to your User Preset folder. Restart Mixxx and "
-":ref:`load the preset <control-load-preset>`."
+":file:`.xml` file into your User Mapping folder. If there is a :file:`.js` "
+"file, also copy that to your User Mapping folder. Restart Mixxx and "
+":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:183
-msgid "Map your own your controller"
-msgstr "Feu la configuració per a la vostra controladora"
+#: ../../chapters/controlling_mixxx.rst:171
+msgid "Map your own controller"
+msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:185
+#: ../../chapters/controlling_mixxx.rst:173
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
-msgstr "No hi ha una configuració disponible per a la vostra controladora, o voleu canviar-ne una d'existent? Podeu fer les assignacions de la vostra controladora utilitzant l'assistent d'aprenentatge o si voleu control total, utilitzeu el suport de scripts de MIDI del Mixxx."
+msgstr ""
+"No hi ha una configuració disponible per a la vostra controladora, o voleu "
+"canviar-ne una d'existent? Podeu fer les assignacions de la vostra "
+"controladora utilitzant l'assistent d'aprenentatge o si voleu control total,"
+" utilitzeu el suport de scripts de MIDI del Mixxx."
 
-#: ../../chapters/controlling_mixxx.rst:189
+#: ../../chapters/controlling_mixxx.rst:177
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr "Aneu a :ref:`advanced-controller` per a més informació."
 
-#: ../../chapters/controlling_mixxx.rst:194
+#: ../../chapters/controlling_mixxx.rst:182
 msgid "Using Timecode Vinyl Records and CDs"
 msgstr "Amb CDs i disc de vinil amb codis de temps"
 
-#: ../../chapters/controlling_mixxx.rst:196
+#: ../../chapters/controlling_mixxx.rst:184
 msgid ""
-":term:`Vinyl control` allows a user to manipulate the playback of a track in"
-" Mixxx using a turntable or :term:`CDJ` as an interface. In effect, it "
-"simulates the sound and feel of having your digital music collection on "
-"vinyl. Many DJs prefer the tactile feel of vinyl, and vinyl control allows "
-"that feel to be preserved while retaining the benefits of using digital "
-"audio."
-msgstr "El :term:`Control de vinil <Vinyl control>` permet a l'usuari manipular la reproducció de pistes amb el Mixxx utilitzant un tocadiscs o un :term:`CDJ` com a controladora. Simula el so i la sensació de tenir la col·lecció de musica en discs de vinil. Molts DJs prefereixen el tacte d'un vinil i el control de vinil permet mantenir aquesta sensació, però amb els beneficis d'utilitzar l'àudio en format digital."
+":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
+"playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
+"interface. In effect, it simulates the sound and feel of having your digital"
+" music collection on vinyl. Many DJs prefer the tactile feel of vinyl, and "
+"vinyl control allows that feel to be preserved while retaining the benefits "
+"of using digital audio."
+msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:202
+#: ../../chapters/controlling_mixxx.rst:190
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr "Aneu a :ref:`vinyl-control` per a més informació."

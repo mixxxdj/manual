@@ -13,7 +13,13 @@
     :height: 32px
     :alt: Library - Icon Banshee
 
-.. |ic_lib_browse| image:: /_static/icons/ic_library_browse.png
+.. |ic_lib_rekordbox| image:: /_static/icons/ic_library_rekordbox.png
+    :width: 32px
+    :align: middle
+    :height: 32px
+    :alt: Library - Icon Recordbox
+
+.. |ic_lib_computer| image:: /_static/icons/ic_library_computer.png
     :width: 32px
     :align: middle
     :height: 32px
@@ -49,7 +55,7 @@
     :height: 32px
     :alt: Library - Icon iTunes
 
-.. |ic_lib_library| image:: /_static/icons/ic_library_library.png
+.. |ic_lib_tracks| image:: /_static/icons/ic_library_tracks.png
     :width: 32px
     :align: middle
     :height: 32px
@@ -73,7 +79,7 @@
     :height: 32px
     :alt: Library - Icon Playlist
 
-.. |ic_lib_prepare| image:: /_static/icons/ic_library_prepare.png
+.. |ic_lib_analyze| image:: /_static/icons/ic_library_analyze.png
     :width: 32px
     :align: middle
     :height: 32px

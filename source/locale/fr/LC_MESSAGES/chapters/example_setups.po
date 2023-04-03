@@ -1,27 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sebastien BLAISOT <sebastien@blaisot.org>, 2020
-# Damien <damien.bernard@openmailbox.org>, 2020
-# Rafael French <rafael.venan@free.fr>, 2020
+# daschuer2 <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2020\n"
+"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"
@@ -60,15 +254,10 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:16
 msgid ""
-"`DJ Hardware Guide "
-"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific "
-"devices with information about their prices, features, and compatibility "
-"with Mixxx."
+"`DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ lists specific devices with information about their prices,"
+" features, and compatibility with Mixxx."
 msgstr ""
-"`Guide du matériel DJ "
-"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ répertorie des "
-"appareils spécifiques avec des informations sur leurs prix, leurs "
-"fonctionnalités et leur compatibilité avec Mixxx."
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
@@ -98,15 +287,6 @@ msgid ""
 "interface output. However, it can be used by radio DJs who only need to send"
 " the Master mix to a broadcast audience."
 msgstr ""
-"Cette configuration peut être utilisée avec une seule sortie audio pour les "
-"haut-parleurs ou le casque pour pratiquer le DJ sans investir dans un "
-"équipement autre qu'un ordinateur et un ensemble de haut-parleurs ou un "
-"casque. Avec cette configuration, utilisez le :ref:`Pre/Main Knob "
-"<interface-head-master>` pour basculer entre le mix principal et le signal "
-":term:`PFL`. Cette configuration ne peut pas être utilisée pour jouer pour "
-"un public en direct car le mix principal n'est pas envoyé à une sortie "
-"d'interface audio. Cependant, il peut être utilisé par des DJ radio qui "
-"n'ont besoin d'envoyer le mixage principal qu'à un public de diffusion."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -145,32 +325,32 @@ msgstr ""
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
-"Utilisez le microphone intégré ou connectez un microphone à votre ordinateur"
+"Utiliser le microphone intégré ou connecter un microphone à votre ordinateur"
 
 #: ../../chapters/example_setups.rst:49 ../../chapters/example_setups.rst:77
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
-"Vérifiez que le microphone est détecté par votre :term:`OS <operating "
+"Vérifier que le microphone est détecté par votre :term:`OS <operating "
 "system>`"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
-msgstr "Ouvrez l'onglet :guilabel:`Entrée`"
+msgstr "Ouvrer l'onglet :guilabel:`Entrée`"
 
 #: ../../chapters/example_setups.rst:52 ../../chapters/example_setups.rst:80
 msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
-"Dans le menu déroulant :guilabel:`Microphone` , sélectionnez l'entrée à "
+"Dans le menu déroulant :guilabel:`Microphone`, sélectionner l'entrée à "
 "laquelle votre micro est connecté"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr "Cliquez sur :guilabel:`Appliquer` pour enregistrer les modifications."
+msgstr "Cliquer sur :guilabel:`Appliquer` pour enregistrer les modifications."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
@@ -181,8 +361,8 @@ msgid ""
 "This setup allows for playing to an audience without headphone "
 ":term:`cueing`."
 msgstr ""
-"Cette configuration permet de jouer pour un public sans :term:`cueing` au "
-"casque."
+"Cette configuration permet de jouer pour un public sans :term:`pré-écoute` "
+"au casque."
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
@@ -193,8 +373,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionnez votre interface"
-" audio interne puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -250,7 +428,7 @@ msgid ""
 "headphones symbol and that the speakers are plugged into the side of the "
 "cable with a speaker symbol."
 msgstr ""
-"Vérifiez que votre casque est branché dans le côté du câble avec un symbole "
+"Vérifier que votre casque est branché dans le côté du câble avec un symbole "
 "de casque et que les enceintes sont branchées dans le côté du câble avec un "
 "symbole d'enceintes."
 
@@ -259,8 +437,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionner votre interface"
-" audio interne puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -283,9 +459,9 @@ msgstr ""
 "séparateurs pour casques, retranscrivent le même signal stéréo aux deux "
 "prises casque et ne fonctionneront pas pour cette configuration DJ. De même,"
 " si vous utilisez un câble séparateur stéréo vers mono générique, vous "
-"pourriez n'entendre que d'un côté dans vos enceintes ou votre casque. Les "
-"câbles séparateurs pour DJs vous permettent d'entendre le même signal mono "
-"dans les deux côtés de votre casque et de vos enceintes."
+"pourriez n'entendre que d'un côté de vos haut-parleurs et de vos écouteurs. "
+"Les câbles séparateurs pour DJs vous permettent d'entendre le même signal "
+"mono dans les deux côtés de votre casque et de vos enceintes."
 
 #: ../../chapters/example_setups.rst:134
 msgid "Laptop and External USB Audio Interface"
@@ -297,7 +473,7 @@ msgstr "Utilisation de Mixxx avec une interface audio externe"
 
 #: ../../chapters/example_setups.rst:145
 msgid "**Using two audio interfaces (built-in + external)**"
-msgstr "**Utiliser deux interfaces audio (intégrée + externe)**"
+msgstr "**Utilisation de deux interfaces audio (intégrée + externe)**"
 
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
@@ -305,8 +481,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Dans le menu déroulant :guilabel:`Principal`, sélectionnez l'interface audio"
-" externe, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -326,11 +500,11 @@ msgid ""
 "interface, then :guilabel:`Channels 3-4`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner votre interface "
-"audio externe puis :guilabel:`Canaux 1-2`"
+"audio externe puis :guilabel:`Canaux 3-4`"
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
-msgstr "Ordinateur et Contrôleur MIDI ou HID"
+msgstr "Ordinateur et contrôleur MIDI ou HID"
 
 #: ../../chapters/example_setups.rst:169
 msgid ""
@@ -355,8 +529,15 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
+"Using Mixxx together with a DJ controller and integrated audio\n"
+"interface"
+msgstr ""
+
+#: ../../chapters/example_setups.rst:186
+msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
-msgstr "Utiliser Mixxx avec un contrôleur DJ et une interface audio intégrée"
+msgstr ""
+"Utilisation de Mixxx avec un contrôleur DJ et une interface audio intégrée"
 
 #: ../../chapters/example_setups.rst:188
 msgid ""
@@ -370,8 +551,6 @@ msgid ""
 "From the :guilabel:`Master` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
-"Depuis le menu déroulant :guilabel:`Principal`, sélectionner l'interface "
-"audio du contrôleur puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""
@@ -395,7 +574,8 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:211
 msgid "Using Mixxx together with a DJ controller and external audio interface"
-msgstr "Utiliser Mixxx avec un contrôleur DJ et une interface audio externe"
+msgstr ""
+"Utilisation de Mixxx avec un contrôleur DJ et une interface audio externe"
 
 #: ../../chapters/example_setups.rst:213
 msgid "**Using a controller without an integrated audio interface**"
@@ -404,11 +584,11 @@ msgstr "**Utilisation d'un contrôleur sans interface audio intégrée**"
 #: ../../chapters/example_setups.rst:230
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
 msgstr ""
-"Ordinateur Portable, Table de Mixage Matérielle Externe et Contrôleur Vinyl"
+"Ordinateur portable, table de mixage matérielle externe et contrôleur vinyle"
 
 #: ../../chapters/example_setups.rst:239
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr "Utiliser Mixxx avec des platines et une table de mixage externe"
+msgstr "Utilisation de Mixxx avec des platines et une table de mixage externe"
 
 #: ../../chapters/example_setups.rst:241
 msgid ""

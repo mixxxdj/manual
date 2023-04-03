@@ -40,8 +40,19 @@ are located in the deck, microphone, and auxiliary sections of the skin. The
 buttons for routing other inputs to effect units are in different locations
 depending on the skin.
 
+.. figure:: ../_static/effect_unit_buttons.png
+   :align: center
+   :alt: Effect unit buttons located in the deck
+   :figclass: pretty-figures
+
+   The effect unit buttons located in the deck.
+
 If a channel is assigned to multiple effect units, those effect units are
 chained together. This allows you to chain more than 3 effects at a time.
+
+To route deck 1 to effect unit 1, click the :guilabel:`FX1` button on deck 1 to turn it on.
+To route deck 2 to effect unit 2, click the :guilabel:`FX2` button on deck 2, and so on.
+It's also possible to route a single deck to multiple effect units, or multiple decks to a single effect unit.
 
 The mix knob adjusts the mix between the dry signal (input to the unit) and the
 wet signal (output of the last effect in the unit). It changes the level of
@@ -161,6 +172,8 @@ audience, but this requires a few more steps:
   #. Turn the mix knob right so the effects are heard in the master output
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
+
+.. _controller-effects-mapping:
 
 Controller Effects Mapping
 ==========================

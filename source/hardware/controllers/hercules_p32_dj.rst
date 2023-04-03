@@ -1,3 +1,5 @@
+.. _hercules-p32-dj:
+
 Hercules P32 DJ
 ===============
 
@@ -17,7 +19,9 @@ Thanks to Hercules for supporting the development of this mapping by providing a
 
 .. versionadded:: 2.1
 .. versionchanged:: 2.3.0
-   - pitch controls added in loop mode
+   Add pitch controls in loop mode and increased head mix knob precision.
+.. versionchanged:: 2.3.5
+   - pitch controls added in loop mode  
    - dry/wet knobs can be replaced by pregain (optional)
 
 Compatibility
@@ -71,7 +75,7 @@ The mapping of the encoders does not match their labels. They are labeled on the
 Effects
 ~~~~~~~
 
-Refer to the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ page for details on how to use the effects sections.
+Refer to the :ref:`Standard Effects Mapping <controller-effects-mapping>` page for details on how to use the effects sections.
 
 When the pad grid is in Slicer mode, the pads in the top left of the grid assign the deck to Effect Units 1-4.
 

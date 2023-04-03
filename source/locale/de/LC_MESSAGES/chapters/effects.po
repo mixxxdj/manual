@@ -1,25 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# S.Brandt <s.brandt@mixxx.org>, 2020
+# daschuer2 <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: S.Brandt <s.brandt@mixxx.org>, 2020\n"
+"POT-Creation-Date: 2023-02-08 20:02+0100\n"
+"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/effects.rst:6
 msgid "Effects"
@@ -59,7 +255,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:31
 msgid "decks"
-msgstr ""
+msgstr "Decks"
 
 #: ../../chapters/effects.rst:32
 msgid "microphones"
@@ -89,13 +285,29 @@ msgid ""
 "locations depending on the skin."
 msgstr ""
 
-#: ../../chapters/effects.rst:43
+#: ../../chapters/effects.rst:48
+msgid "Effect unit buttons located in the deck"
+msgstr ""
+
+#: ../../chapters/effects.rst:48
+msgid "The effect unit buttons located in the deck."
+msgstr ""
+
+#: ../../chapters/effects.rst:50
 msgid ""
 "If a channel is assigned to multiple effect units, those effect units are "
 "chained together. This allows you to chain more than 3 effects at a time."
 msgstr ""
 
-#: ../../chapters/effects.rst:46
+#: ../../chapters/effects.rst:53
+msgid ""
+"To route deck 1 to effect unit 1, click the :guilabel:`FX1` button on deck 1"
+" to turn it on. To route deck 2 to effect unit 2, click the :guilabel:`FX2` "
+"button on deck 2, and so on. It's also possible to route a single deck to "
+"multiple effect units, or multiple decks to a single effect unit."
+msgstr ""
+
+#: ../../chapters/effects.rst:57
 msgid ""
 "The mix knob adjusts the mix between the dry signal (input to the unit) and "
 "the wet signal (output of the last effect in the unit). It changes the level"
@@ -103,17 +315,17 @@ msgid ""
 " section below for details."
 msgstr ""
 
-#: ../../chapters/effects.rst:51
+#: ../../chapters/effects.rst:62
 msgid ""
 "Effects are processed after the deck faders and crossfader. This allows "
 "effects like Echo and Reverb to continue outputting sound after their input "
 "has been cut off by lowering the fader. Unlike other DJ software and "
 "hardware, effects can also be heard in headphones even though they are "
-"processed after the faders for the master output. Refer to the :ref"
-":`effects-in-headphones` section below for details."
+"processed after the faders for the master output. Refer to the "
+":ref:`effects-in-headphones` section below for details."
 msgstr ""
 
-#: ../../chapters/effects.rst:58
+#: ../../chapters/effects.rst:69
 msgid ""
 "Note that equalizer and filter effects create a phase shift. If the mix knob"
 " is anywhere in the middle between dry and wet and any of these effects are "
@@ -122,11 +334,11 @@ msgid ""
 "<http://ethanwiner.com/EQPhase.html>`_."
 msgstr ""
 
-#: ../../chapters/effects.rst:65
+#: ../../chapters/effects.rst:76
 msgid "Effect Parameters & Metaknobs"
 msgstr ""
 
-#: ../../chapters/effects.rst:66
+#: ../../chapters/effects.rst:77
 msgid ""
 "Every effect within an :ref:`Effect Unit <effects-effect-unit>` has its own "
 "set of parameters. By default, these are hidden. Instead, there is a single "
@@ -135,52 +347,52 @@ msgid ""
 "without having to manipulate every parameter individually."
 msgstr ""
 
-#: ../../chapters/effects.rst:72
+#: ../../chapters/effects.rst:83
 msgid ""
 "If you want more detailed control of effects, press the expansion button on "
 "the effect unit to reveal the effect parameters:"
 msgstr ""
 
-#: ../../chapters/effects.rst:80
+#: ../../chapters/effects.rst:91
 msgid "An effect unit with parameters showing"
 msgstr ""
 
-#: ../../chapters/effects.rst:82
+#: ../../chapters/effects.rst:93
 msgid ""
 "You can customize how the metaknob is linked to the parameters by clicking "
 "the buttons below the parameter knobs. The button under the parameter name "
 "controls the metaknob link mode:"
 msgstr ""
 
-#: ../../chapters/effects.rst:86
+#: ../../chapters/effects.rst:97
 msgid "Inactive: parameter not linked"
 msgstr "Inaktiv: Parameter nicht verknüpft"
 
-#: ../../chapters/effects.rst:87
+#: ../../chapters/effects.rst:98
 msgid "Active: parameter moves with metaknob"
 msgstr ""
 
-#: ../../chapters/effects.rst:88
+#: ../../chapters/effects.rst:99
 msgid "Left side active: parameter moves with left half of metaknob turn"
 msgstr ""
 
-#: ../../chapters/effects.rst:89
+#: ../../chapters/effects.rst:100
 msgid "Right side active: parameter moves with right half of metaknob turn"
 msgstr ""
 
-#: ../../chapters/effects.rst:90
+#: ../../chapters/effects.rst:101
 msgid ""
 "Left and right side active: parameter moves across range with half of "
 "metaknob turn and back with the other half"
 msgstr ""
 
-#: ../../chapters/effects.rst:93
+#: ../../chapters/effects.rst:104
 msgid ""
 "The button below the metaknob link button inverts the parameter's "
 "relationship to the metaknob."
 msgstr ""
 
-#: ../../chapters/effects.rst:96
+#: ../../chapters/effects.rst:107
 msgid ""
 "For information about specific effects and their parameters, hover your "
 "mouse over them to show the tooltip. If you do not see tooltips, check that "
@@ -188,28 +400,28 @@ msgid ""
 "Interface`."
 msgstr ""
 
-#: ../../chapters/effects.rst:100
+#: ../../chapters/effects.rst:111
 msgid ""
 "Effects (except for Reverb) that have a length of time as a parameter are "
 "synchronized to the tempo of decks."
 msgstr ""
 
-#: ../../chapters/effects.rst:106
+#: ../../chapters/effects.rst:117
 msgid "Effect Unit Mix Modes"
 msgstr ""
 
-#: ../../chapters/effects.rst:107
+#: ../../chapters/effects.rst:118
 msgid ""
 "The effect unit mix knob controls the level of all 3 effects in the unit "
 "together. It can be toggled between two different modes with the mix mode "
 "button adjacent to it."
 msgstr ""
 
-#: ../../chapters/effects.rst:116
+#: ../../chapters/effects.rst:127
 msgid "An effect unit in Dry/Wet mode"
 msgstr ""
 
-#: ../../chapters/effects.rst:118
+#: ../../chapters/effects.rst:129
 msgid ""
 "In the default Dry/Wet mode, the mix knob crossfades between the dry signal "
 "(input to the first effect in the unit) and the wet signal (output of the "
@@ -218,11 +430,11 @@ msgid ""
 " the effect unit will be heard without any of the dry input signal."
 msgstr ""
 
-#: ../../chapters/effects.rst:129
+#: ../../chapters/effects.rst:140
 msgid "An effect unit in Dry+Wet mode"
 msgstr ""
 
-#: ../../chapters/effects.rst:131
+#: ../../chapters/effects.rst:142
 msgid ""
 "In Dry+Wet mode, the dry signal is always at full volume. The mix knob "
 "controls how much of the wet signal is added to the dry signal. A useful "
@@ -234,11 +446,11 @@ msgid ""
 "signal, but they will also be removed from the unechoed signal."
 msgstr ""
 
-#: ../../chapters/effects.rst:143
+#: ../../chapters/effects.rst:154
 msgid "Effects In Headphones"
 msgstr ""
 
-#: ../../chapters/effects.rst:144
+#: ../../chapters/effects.rst:155
 msgid ""
 "To preview how a track will sound with effects before you mix in the track, "
 "simply assign the deck to an effect unit and enable the headphone button for"
@@ -248,45 +460,123 @@ msgid ""
 "output (postfader)."
 msgstr ""
 
-#: ../../chapters/effects.rst:151
+#: ../../chapters/effects.rst:162
 msgid ""
 "Effects can also be previewed in headphones on decks that are playing to the"
 " audience, but this requires a few more steps:"
 msgstr ""
 
-#: ../../chapters/effects.rst:154
+#: ../../chapters/effects.rst:165
 msgid "Disable the effect unit for the deck"
 msgstr ""
 
-#: ../../chapters/effects.rst:155
+#: ../../chapters/effects.rst:166
 msgid "Enable the headphone button for the deck"
 msgstr ""
 
-#: ../../chapters/effects.rst:156
+#: ../../chapters/effects.rst:167
 msgid "Enable the headphone button for the effect unit"
 msgstr ""
 
-#: ../../chapters/effects.rst:157
+#: ../../chapters/effects.rst:168
 msgid ""
 "Enable effects and adjust their metaknobs and parameters for how you want "
 "the effects to sound."
 msgstr ""
 
-#: ../../chapters/effects.rst:159
+#: ../../chapters/effects.rst:170
 msgid ""
 "When you are ready to mix in the effect, turn the mix knob fully left (dry)"
 msgstr ""
 
-#: ../../chapters/effects.rst:160
+#: ../../chapters/effects.rst:171
 msgid "Enable the effect unit for the deck"
 msgstr ""
 
-#: ../../chapters/effects.rst:161
+#: ../../chapters/effects.rst:172
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
 
-#: ../../chapters/effects.rst:162
+#: ../../chapters/effects.rst:173
 msgid ""
 "Disable the headphone button for the effect unit so you do not forget to "
 "turn it off later"
+msgstr ""
+
+#: ../../chapters/effects.rst:179
+msgid "Controller Effects Mapping"
+msgstr ""
+
+#: ../../chapters/effects.rst:180
+msgid ""
+"This section describes how to use the standard Mixxx mapping for effects "
+"sections on controllers with the typical layout of 4 knobs (or 3 knobs + 1 "
+"encoder) and 4 buttons for effects. It allows you to switch between "
+"controlling all 3 effects of a chain or controlling each parameter of one "
+"effect."
+msgstr ""
+
+#: ../../chapters/effects.rst:182
+msgid ""
+"By default, 3 knobs are used for controlling effect metaknobs and the "
+"buttons under them toggle each effect on/off. To temporarily toggle an "
+"effect on/off, press and hold an effect enable button. The 4th knob is used "
+"for the mix (dry/wet) knob of the whole chain. On controllers designed for "
+"Serato, the :guilabel:`Beats` encoder is used as the mix knob."
+msgstr ""
+
+#: ../../chapters/effects.rst:184
+msgid ""
+"The button next to the mix knob is used for focusing effects. On controllers"
+" designed for Serato, this button is labeled :guilabel:`Tap`. While holding "
+"this button pressed, the enable buttons for each effect switch to choosing "
+"which effect is focused. When an effect is focused:"
+msgstr ""
+
+#: ../../chapters/effects.rst:186
+msgid ""
+"the knobs switch to controlling the first 3 parameters of that effect "
+"instead of the metaknobs of each effect in the chain;"
+msgstr ""
+
+#: ../../chapters/effects.rst:187
+msgid ""
+"the buttons switch to controlling the first 3 button parameters of the "
+"effect; and"
+msgstr ""
+
+#: ../../chapters/effects.rst:189
+msgid ""
+"The LED of the focus button indicates whether any effect is focused. When "
+"its LED is on, you can hold the button down to see which effect is focused "
+"without having to look at the computer screen. To unfocus the effect, you "
+"can short press the focus button. The focused effect is remembered, so when "
+"you short press the focus button again, the previously focused effect will "
+"be refocused (it is not remembered when you shut down Mixxx though)."
+msgstr ""
+
+#: ../../chapters/effects.rst:191
+msgid ""
+"Alternatively, if you want to keep all the parameters showing on screen, you"
+" can press and hold the focus button, then press the button of the focused "
+"effect to unfocus it. Showing all the parameters without having an effect "
+"focused is helpful for experimenting with different ways of linking "
+"parameters to the metaknob."
+msgstr ""
+
+#: ../../chapters/effects.rst:193
+msgid ""
+"When the focus button is pressed with shift, it toggles the Effect Unit "
+"between controlling different :ref:`Effect Units <effects-effect-unit>` in "
+"Mixxx. Typically this is used to toggle between :ref:`Effect Units <effects-"
+"effect-unit>` 1 & 3 or 2 & 4, like deck toggle buttons."
+msgstr ""
+
+#: ../../chapters/effects.rst:195
+msgid "To load different effects, hold shift and turn the knob for an effect."
+msgstr ""
+
+#: ../../chapters/effects.rst:197
+msgid ""
+"To load chain presets 1-4, press the buttons with shift (new in Mixxx 2.4)."
 msgstr ""

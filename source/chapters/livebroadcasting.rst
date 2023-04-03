@@ -22,10 +22,7 @@ Streaming Servers
   :term:`Shoutcast <shoutcast>` and :term:`Icecast <icecast>` streaming servers.
   Depending on the number of listeners, streaming audio requires a significant
   amount of bandwidth. Streaming servers provide the required bandwidth and
-  broadcast the stream to your listeners. A popular free streaming service is
-  `Caster.fm <http://www.caster.fm>`_. A review of several free and paid stream
-  hosts is available at
-  `broadcastingworld.net <http://www.broadcastingworld.com/reviews/category-stream-hosting>`_.
+  broadcast the stream to your listeners.
 
   .. digraph:: remote_streaming
      :caption: Mixxx as client-side streaming source broadcasting to an
@@ -90,9 +87,6 @@ to the streaming server:
 
 .. _live-broadcasting-preferences:
 
-Live Broadcasting Preferences
-=============================
-
 .. figure:: ../_static/Mixxx-200-Preferences-Livebroadcasting.png
    :align: center
    :width: 75%
@@ -102,7 +96,8 @@ Live Broadcasting Preferences
 
    Mixxx preferences - Setting up live broadcasting
 
-**Server Connection**
+Server Connection
+-----------------
 
 * **Type**: Select the type of streaming server you want to connect with.
   :term:`Shoutcast 1<shoutcast>`, :term:`Icecast 1 <icecast>`, and
@@ -132,7 +127,8 @@ Live Broadcasting Preferences
              does not work. Use ``example.com`` in the :guilabel:`Host` field
              and ``8000`` in the :guilabel:`Port` field instead.
 
-**Stream Setting**
+Stream Settings
+---------------
 
 * **Public stream**: If enabled, this option adds your radio station to the
   Shoutcast/Icecast directory.
@@ -151,7 +147,8 @@ Live Broadcasting Preferences
 * **Genre**: List the main genres you play. This attracts search hits on stream
   directories. Genre must not be blank.
 
-**Encoding**
+Encoding
+--------
 
 * **Bitrate**: Selecting a :term:`bitrate` of 128 or 160 :term:`kbps` is common
   and provides sufficient quality to your listeners. Higher bitrates will use a
@@ -161,7 +158,11 @@ Live Broadcasting Preferences
   or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is supported in
   :term:`MP3` format.
 
-**Shoutcast metadata format**
+Metadata
+--------
+
+Shoutcast metadata format
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
   This allows to set custom metadata formats for the Shoutcast title field.
   Previously only ``artist - title`` was allowed. For example if you were
@@ -173,7 +174,8 @@ Live Broadcasting Preferences
 
   The changes **do not** affect the case for the combination of OGG/Icecast2.
 
-**Custom metadata**
+Custom metadata
+^^^^^^^^^^^^^^^
 
  By default, Mixxx broadcasts artist and title information of the files that you
  play to your listeners. You can disable this feature and use your own custom

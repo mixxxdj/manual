@@ -5,3 +5,4 @@
 # Generated during a regular build
 build
 source/locale/pot/.doctrees
+/source/locale/en_US

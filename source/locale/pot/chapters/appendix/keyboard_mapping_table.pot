@@ -1,0 +1,898 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:6
+msgid "Keyboard mapping table"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:8
+msgid "Shortcuts let you work more efficiently. This table lists the default keyboard shortcuts for accessing Mixxx with an English keyboard layout. Depending on your language settings the defaults may be different."
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:13
+msgid "**Mixer**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:15
+msgid "Crossfade Left"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:15
+msgid ":kbd:`G`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:17
+msgid "Crossfade Right"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:17
+msgid ":kbd:`H`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:19
+msgid "Small Crossfade Left"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:19
+msgid ":kbd:`Shift` + :kbd:`G`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:21
+msgid "Small Crossfade Right"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:21
+msgid ":kbd:`Shift` + :kbd:`H`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:23
+msgid "Microphone Talkover"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:23
+msgid ":kbd:`\\``"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:25
+#: ../../chapters/appendix/keyboard_mapping_table.rst:35
+#: ../../chapters/appendix/keyboard_mapping_table.rst:71
+#: ../../chapters/appendix/keyboard_mapping_table.rst:109
+msgid "**Deck 1**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:25
+#: ../../chapters/appendix/keyboard_mapping_table.rst:35
+#: ../../chapters/appendix/keyboard_mapping_table.rst:71
+#: ../../chapters/appendix/keyboard_mapping_table.rst:109
+msgid "**Deck 2**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:27
+msgid "Activate/Disable Effects Unit"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:27
+msgid ":kbd:`5`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:27
+msgid ":kbd:`0`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+msgid "Headphone Cue (Pre-fader listen)"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+msgid ":kbd:`T`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+msgid ":kbd:`Y`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+msgid "Bass Kill"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+msgid ":kbd:`B`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+msgid ":kbd:`N`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:35
+msgid "**Playback**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:37
+#: ../../chapters/appendix/keyboard_mapping_table.rst:125
+msgid "Load selected track to deck"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:37
+msgid ":kbd:`Shift` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:37
+msgid ":kbd:`Shift` + :kbd:`→`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+msgid "Unload track from deck"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`→`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid "Playback"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid ":kbd:`D`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid ":kbd:`L`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
+#: ../../chapters/appendix/keyboard_mapping_table.rst:145
+msgid "Seek Backwards"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
+msgid ":kbd:`A`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
+msgid ":kbd:`J`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+msgid "Reverse Playback"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+msgid ":kbd:`Shift` + :kbd:`A`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+msgid ":kbd:`Shift` + :kbd:`J`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
+#: ../../chapters/appendix/keyboard_mapping_table.rst:147
+msgid "Seek Forwards"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
+msgid ":kbd:`S`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
+msgid ":kbd:`K`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+msgid "Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+msgid ":kbd:`F1`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+msgid ":kbd:`F5`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+msgid "Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+msgid ":kbd:`F2`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+msgid ":kbd:`F6`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+msgid "Small Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+msgid ":kbd:`Shift` + :kbd:`F1`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+msgid ":kbd:`Shift` + :kbd:`F5`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+msgid "Small Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+msgid ":kbd:`Shift` + :kbd:`F2`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+msgid ":kbd:`Shift` + :kbd:`F6`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+msgid "Temporary Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+msgid ":kbd:`F3`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+msgid ":kbd:`F7`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+msgid "Temporary Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+msgid ":kbd:`F4`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+msgid ":kbd:`F8`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+msgid "Small Temporary Tempo Adjust Down"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+msgid ":kbd:`Shift` + :kbd:`F3`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+msgid ":kbd:`Shift` + :kbd:`F7`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+msgid "Small Temporary Tempo Adjust Up"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+msgid ":kbd:`Shift` + :kbd:`F4`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+msgid ":kbd:`Shift` + :kbd:`F8`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+msgid "Tempo (BPM) Sync"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+msgid ":kbd:`1`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+msgid ":kbd:`6`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+msgid "BPM Tap Tempo Adjust"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+msgid ":kbd:`Shift` + :kbd:`!`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+msgid ":kbd:`Shift` + :kbd:`⌃`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:71
+msgid "**Cue and Loop**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+msgid "Set Cuepoint"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+msgid ":kbd:`Shift` + :kbd:`D`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+msgid ":kbd:`Shift` + :kbd:`L`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+msgid "Cue"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+msgid ":kbd:`F`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+msgid ":kbd:`;`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+msgid "Cue Go-to-and-stop"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+msgid ":kbd:`Shift` + :kbd:`F`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+msgid ":kbd:`Shift` + :kbd:`:`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+msgid "Activate 4 Beat Loop"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+msgid ":kbd:`Q`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+msgid ":kbd:`U`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+msgid "Halve Beat Loop Size"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+msgid ":kbd:`W`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+msgid ":kbd:`I`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+msgid "Double Beat Loop Size"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+msgid ":kbd:`E`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+msgid ":kbd:`O`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+msgid "Set Loop In Point"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+msgid ":kbd:`2`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+msgid ":kbd:`7`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+msgid "Set Loop Out Point (Activates Loop)"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+msgid ":kbd:`3`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+msgid ":kbd:`8`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+msgid "Toggle Loop On/Off"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+msgid ":kbd:`4`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+msgid ":kbd:`9`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+msgid "Set Hot cue 1"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+msgid ":kbd:`Z`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+msgid ":kbd:`M`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+msgid "Set Hot cue 2"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+msgid ":kbd:`X`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+msgid ":kbd:`,`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+msgid "Set Hot cue 3"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+msgid ":kbd:`C`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+msgid ":kbd:`.`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+msgid "Set Hot cue 4"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+msgid ":kbd:`V`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+msgid ":kbd:`/`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+msgid "Clear Hot cue 1"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+msgid ":kbd:`Shift` + :kbd:`Z`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+msgid ":kbd:`Shift` + :kbd:`M`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+msgid "Clear Hot cue 2"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+msgid ":kbd:`Shift` + :kbd:`X`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+msgid ":kbd:`Shift` + :kbd:`<`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+msgid "Clear Hot cue 3"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+msgid ":kbd:`Shift` + :kbd:`C`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+msgid ":kbd:`Shift` + :kbd:`>`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+msgid "Clear Hot cue 4"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+msgid ":kbd:`Shift` + :kbd:`V`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+msgid ":kbd:`Shift` + :kbd:`?`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:109
+msgid "**Vinyl Control**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+msgid "Passthrough"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+msgid ":kbd:`Ctrl` + :kbd:`J`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+msgid ":kbd:`Ctrl` + :kbd:`K`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+msgid "Vinylcontrol Mode"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Y`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`U`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+msgid "Vinylcontrol Cueing"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+msgid ":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`Y`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+msgid ":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`U`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:117
+msgid "Single Deck Toggle / Swap Decks"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:117
+msgid ":kbd:`Ctrl` + :kbd:`T`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:121
+msgid "**Library**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:123
+msgid "Maximize the library view"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:123
+msgid ":kbd:`Space`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:125
+msgid ":kbd:`Shift` + :kbd:`←` (Deck 1)"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:125
+msgid ":kbd:`Shift` + :kbd:`→` (Deck 2)"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:127
+msgid "Select all files in current list"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:127
+msgid ":kbd:`Ctrl` + :kbd:`A`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:129
+msgid "Select group of files in current list"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:129
+msgid "Click first item, hold :kbd:`Shift` key, click last item"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:131
+msgid "Focus search bar"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:131
+msgid ":kbd:`Ctrl` + :kbd:`F`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:133
+msgid "Clear search input"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:133
+msgid ":kbd:`Ctrl` + :kbd:`Back`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:135
+msgid "Exit search and leave focus"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:135
+msgid ":kbd:`ESC`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:139
+msgid "**Preview Deck**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+msgid "Load Selected Track And Play"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+msgid ":kbd:`Alt` + :kbd:`Return`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:143
+msgid "Start/Stop"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:143
+msgid ":kbd:`Return`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:145
+msgid ":kbd:`Alt` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:147
+msgid ":kbd:`Alt` + :kbd:`→`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:151
+msgid "**Auto DJ**"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:153
+msgid "Shuffle Auto DJ playlist"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:153
+msgid ":kbd:`Shift` + :kbd:`F9`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:155
+msgid "Skip next track in Auto DJ"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:155
+msgid ":kbd:`Shift` + :kbd:`F10`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:157
+msgid "Fade to next track in Auto DJ"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:157
+msgid ":kbd:`Shift` + :kbd:`F11`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+msgid "Toggle Auto DJ on/Off"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+msgid ":kbd:`Shift` + :kbd:`F12`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:162
+msgid "Mixxx allows you to customize the keyboard shortcuts. For more information, and to download a keyboard mapping image, go to :ref:`control-keyboard`."
+msgstr ""

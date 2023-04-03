@@ -1,13 +1,18 @@
+.. _native-instruments-traktor-kontrol-s2-mk3:
+
 Native Instruments Traktor Kontrol S2 MK3
 =========================================
 
 The Kontrol S2 MK3 is a two-channel controller with an integrated sound card. It has two integrated stereo outputs (line and 1/8" / 3.5 mm TRS), headphone outputs (1/8" / 3.5 mm TRS) and microphone
-inputs (1/4" / 6.3 mm TRS). The MK3 uses the standard HID protocol to send and receive signals from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from USB bus power, but using the
-separate power supply increases the brightness of the LEDs, which is helpful for using it in daylight, and increases the volume of the headphone output.
+inputs (1/4" / 6.3 mm TRS). The MK3 uses the standard HID protocol to send and receive signals from a computer, so it can work with Mixxx. The Kontrol S2 MK3 can run from USB bus power,
+and using a separate power supply has no impact on the output level or LED brightness (`as opposed to the MK2 <https://support.native-instruments.com/hc/en-us/articles/360001108518>`__).
 
--  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
+- `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s2/>`__
+- `Mapping forum thread <https://mixxx.discourse.group/t/native-instruments-traktor-kontrol-s2-mk3/18147>`__
 
 .. versionadded:: 2.2.4
+.. versionchanged:: 2.3
+   Unbind Master knob from Mixxx's Main Gain, because it controls the hardware volume.
 
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +98,7 @@ Mixxx mapping
 | (19) Quantize    | Toggles quantization for both decks                                                                                         |                                                     |
 | button           |                                                                                                                             |                                                     |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| (20) Gain knob   | Adjusts the gain for the master output                                                                                      |                                                     |
+| (20) Gain knob   | *Unmapped* (adjusts the hardware gain)                                                                                      |                                                     |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | (21) Microphone  | Toggles microphone talkover, long press for permanent activation                                                            |                                                     |
 | button           |                                                                                                                             |                                                     |
