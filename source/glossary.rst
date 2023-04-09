@@ -375,6 +375,9 @@ Glossary of Terms
      bypasses the latency of sending the signal into the computer for Mixxx to
      process and sending it back out to the soundcard.
 
+   test
+     This is a test that checks if the deploy preview is triggered.
+
    cue
    cue point
      A reference point in the track usually placed on the
