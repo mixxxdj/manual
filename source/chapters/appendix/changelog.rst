@@ -875,6 +875,46 @@ Other
   `#8818 <https://github.com/mixxxdj/mixxx/pull/8818>`_
   `#4907 <https://github.com/mixxxdj/mixxx/pull/4907>`_
 
+.. _v2-3-5:
+
+`2.3.5 <https://github.com/mixxxdj/mixxx/milestone/39>`_ (unreleased)
+-------------------------------------------------------------------------
+
+
+* Fix empty waveform overview after loading a track (Mixxx 2.3.4 regression)
+  Fixed by `#11333 <https://github.com/mixxxdj/mixxx/pull/11333>`_
+  `#11359 <https://github.com/mixxxdj/mixxx/pull/11359>`_
+  `#11344 <https://github.com/mixxxdj/mixxx/issues/11344>`_
+* Fullscreen: Fix a crash that occurs on Linux after enabling fullsceen and using menu
+  shortcuts e.g. Alt-F.
+  `#11328 <https://github.com/mixxxdj/mixxx/pull/11328>`_
+  `#11320 <https://github.com/mixxxdj/mixxx/issues/11320>`_
+* Fullscreen: Rebuild & reconnect menu only on desktops with global menu
+  `#11350 <https://github.com/mixxxdj/mixxx/pull/11350>`_
+* macOS: Request Microphone and line-in access permission.
+  `#11367 <https://github.com/mixxxdj/mixxx/pull/11367>`_
+  `#11365 <https://github.com/mixxxdj/mixxx/issues/11365>`_
+* JACK API: Allow to explicit select buffers of 2048 and 4096 frames/period. They are not
+  supported by the automatic buffer setting of the used PortAudio library.
+  `#11366 <https://github.com/mixxxdj/mixxx/pull/11366>`_
+  `#11341 <https://github.com/mixxxdj/mixxx/issues/11341>`_
+* Pioneer DDJ-400: Make Beat FX section more intuitive
+  `#10912 <https://github.com/mixxxdj/mixxx/pull/10912>`_
+* Playlist export: Adopt new extension after changing the playlist type
+  `#11332 <https://github.com/mixxxdj/mixxx/pull/11332>`_
+  `#11327 <https://github.com/mixxxdj/mixxx/issues/11327>`_
+* LateNight: brighter fx parameter buttons
+  `#11397 <https://github.com/mixxxdj/mixxx/pull/11397>`_
+* Fix drift in analyzis data after exporting metadata to MP3 files with ID3v1.1 tags
+  `#11168 <https://github.com/mixxxdj/mixxx/pull/11168>`_
+  `#11159 <https://github.com/mixxxdj/mixxx/issues/11159>`_
+* Fix broadcasting using Opus encoding
+  `#11349 <https://github.com/mixxxdj/mixxx/pull/11349>`_
+  `#10666 <https://github.com/mixxxdj/mixxx/issues/10666>`_
+* Tango: Remove VU peak indicators from stacked layout. This fixes a visual regression in Mixxx 2.3.4.
+  `#11430 <https://github.com/mixxxdj/mixxx/pull/11430>`_
+  `#11362 <https://github.com/mixxxdj/mixxx/issues/11362>`_
+
 .. _v2-3-4:
 
 `2.3.4 <https://launchpad.net/mixxx/+milestone/2.3.4>`_ (2023-03-03)
