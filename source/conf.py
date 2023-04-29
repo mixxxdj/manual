@@ -268,6 +268,8 @@ html_sidebars = {
 # Output file base name for HTML help builder.
 htmlhelp_basename = "Mixxxdoc"
 
+# Set URL prefix for 404 page to the URL this version in English
+notfound_urls_prefix = "/" + version + "/en/"
 
 # -- Options for LaTeX output ---------------------------------------------
 
