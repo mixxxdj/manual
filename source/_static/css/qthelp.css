@@ -1,0 +1,31 @@
+/* Hide the navbar */
+.wy-nav-side {
+    display: none;
+}
+
+.wy-nav-top {
+    display: none !important;
+}
+
+.wy-nav-content-wrap {
+    margin: 0;
+}
+
+.rst-widget-sidebar {
+    display:none;
+}
+
+/* Make content use the full width */
+.wy-nav-content {
+    max-width: none;
+}
+
+/* Hide "Edit on GitHub" link  */
+.wy-breadcrumbs li.wy-breadcrumbs-aside {
+    display: none;
+}
+
+/* Hide "Hosted on Netlify" link in footer */
+footer .hostinginfo {
+    display: none;
+}
