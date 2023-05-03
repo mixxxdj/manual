@@ -167,10 +167,10 @@ them (they are ignored by our `.gitignore`).
 
     make clean
 
-For example, to build an HTML manual for `de-DE` (Germany/Germany):
+For example, to build an HTML manual for `de` (Germany):
 
     sphinx-intl build
-    make -e SPHINXOPTS="-Dlanguage=de-DE" html
+    make -e SPHINXOPTS="-Dlanguage=de" html
 
 Unless an error occurred, your translated HTML manual is in the `build/html`
 directory.
@@ -178,7 +178,7 @@ directory.
 To build a PDF manual:
 
     sphinx-intl build
-    make -e SPHINXOPTS="-Dlanguage=de-DE" pdf
+    make -e SPHINXOPTS="-Dlanguage=de" pdf
 
 Your translated PDF manual is located at `build/latex/Mixxx-Manual.pdf`.
 
