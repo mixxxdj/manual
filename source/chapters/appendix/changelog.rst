@@ -914,6 +914,60 @@ Other
 * Tango: Remove VU peak indicators from stacked layout. This fixes a visual regression in Mixxx 2.3.4.
   `#11430 <https://github.com/mixxxdj/mixxx/pull/11430>`_
   `#11362 <https://github.com/mixxxdj/mixxx/issues/11362>`_
+* Hercules P32: Allow optional using pregain instead of dry/wet knob
+  `#3538 <https://github.com/mixxxdj/mixxx/pull/3538>`_
+* Improve Color Picker dialog
+  `#11439 <https://github.com/mixxxdj/mixxx/pull/11439>`_
+* Fix blank Waveform overview after changing Skin with a track loaded
+  `#11453 <https://github.com/mixxxdj/mixxx/pull/11453>`_
+* Linux: Log a warning when the audio thread is not scheduled with real-time policy
+  `#11472 <https://github.com/mixxxdj/mixxx/pull/11472>`_
+  `#11465 <https://github.com/mixxxdj/mixxx/issues/11465>`_
+* Auto DJ: Fixes stop due to tracks with changed length
+  `#11479 <https://github.com/mixxxdj/mixxx/pull/11479>`_
+  `#11492 <https://github.com/mixxxdj/mixxx/pull/11492>`_
+  `#11448 <https://github.com/mixxxdj/mixxx/issues/11448>`_
+
+  * Auto DJ: Fix Auto DJ indicator state when controlling it via  shortcut (SHIFT+F12)
+    `#11494 <https://github.com/mixxxdj/mixxx/issues/11494>`_
+    `#11495 <https://github.com/mixxxdj/mixxx/pull/11495>`_
+
+* Fix building with Clang 15/16
+  `#11490 <https://github.com/mixxxdj/mixxx/pull/11490>`_
+  `#11485 <https://github.com/mixxxdj/mixxx/pull/11485>`_
+* Fix EQ and waveforms analysis when compiling with GCC 13
+  `#11501 <https://github.com/mixxxdj/mixxx/pull/11501>`_
+  `#11483 <https://github.com/mixxxdj/mixxx/issues/11483>`_
+  `#11502 <https://github.com/mixxxdj/mixxx/pull/11502>`_
+  `#11480 <https://github.com/mixxxdj/mixxx/pull/11480>`_
+  `#11488 <https://github.com/mixxxdj/mixxx/pull/11488>`_
+* Numark Mixtrack Pro FX: Fix sound output via WDM-KS on Windows
+  `#11393 <https://github.com/mixxxdj/mixxx/issues/11393>`_
+* Fix crash on startup caused by faulty ASIO driver like FlexASIO 1.4 or Music Maker
+  `#11426 <https://github.com/mixxxdj/mixxx/issues/11426>`_
+  `#10081 <https://github.com/mixxxdj/mixxx/issues/10081>`_
+* Windows: Show a loopback device that allows to mix in system sound
+  `#11427 <https://github.com/mixxxdj/mixxx/issues/11427>`_
+  `#11451 <https://github.com/mixxxdj/mixxx/issues/11451>`_
+* Fix sorting via column header in external library features
+  `#11491 <https://github.com/mixxxdj/mixxx/issues/11491>`_
+  `#11499 <https://github.com/mixxxdj/mixxx/pull/11499>`_
+* Fix wrong waveform background color on recent Linux distributions like Fedora 37
+  `#11164 <https://github.com/mixxxdj/mixxx/issues/11164>`_
+  `#11523 <https://github.com/mixxxdj/mixxx/pull/11523>`_
+* Serato Metadata: Don't import empty (black) cue points
+  `#11534 <https://github.com/mixxxdj/mixxx/pull/11534>`_
+  `#11530 <https://github.com/mixxxdj/mixxx/issues/11530>`_
+  `#11467 <https://github.com/mixxxdj/mixxx/pull/11467>`_
+  `#11466 <https://github.com/mixxxdj/mixxx/pull/11466>`_
+  `#11283 <https://github.com/mixxxdj/mixxx/issues/11283>`_
+* Track context menu: Immediately adopt new position when resetting cues
+  `#11482 <https://github.com/mixxxdj/mixxx/pull/11482>`_
+* Windows: Fix possible crash with faulty mp3 files
+  `#11535 <https://github.com/mixxxdj/mixxx/pull/11535>`_
+  `#11531 <https://github.com/mixxxdj/mixxx/issues/11531>`_
+  `#11528 <https://github.com/mixxxdj/mixxx/pull/11528>`_
+  `#11521 <https://github.com/mixxxdj/mixxx/issues/11521>`_
 
 .. _v2-3-4:
 
