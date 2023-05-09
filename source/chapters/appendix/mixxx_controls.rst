@@ -45,6 +45,15 @@ that it is either 'ON' (non-zero) or 'OFF' (zero).
    line option), you can view and manually set the state of any control in
    Mixxx by going to :menuselection:`Developer --> Developer Tools`.
 
+.. hint:: Simplify mapping of more complex behaviour
+
+   While simple mappings with just a few buttons, knobs and LEDs can easily
+   be created with the MIDI Wizard and some basic scripting, implementing more
+   complex behaviour like switching deck layers or pad grid modes can be tedious
+   and error-prone. For these cases you can use Mixxx' `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+   which provides building blocks for single controls as well as entire
+   containers like decks and effect units.
+
 .. seealso:: See :ref:`controlindex` for a full list.
 
 
