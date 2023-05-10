@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-3-5:
 
-`2.3.5 <https://github.com/mixxxdj/mixxx/milestone/39>`_ (unreleased)
+`2.3.5 <https://github.com/mixxxdj/mixxx/milestone/39>`_ (2023-05-10)
 -------------------------------------------------------------------------
 
 
