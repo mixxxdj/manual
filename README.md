@@ -138,13 +138,13 @@ configuration, you must push the new source files to Transifex to be translated.
 
 To do this, run:
 
-    tx push -s --parallel
+    tx push -s
 
 #### Pull completed translations from Transifex
 
 To pull newly completed translation (.po) files from Transifex, run:
 
-    tx pull -a -f --parallel
+    tx pull -a -f
 
 Commit the changes to the repository with:
 
