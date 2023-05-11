@@ -1030,9 +1030,17 @@ Other
   `#11434 <https://github.com/mixxxdj/mixxx/pull/11434>`_
   `#11301 <https://github.com/mixxxdj/mixxx/pull/11301>`_
 
+.. _v2-3-6:
+
+`2.3.6 <https://github.com/mixxxdj/mixxx/milestone/40>`_ (unreleased)
+-------------------------------------------------------------------------
+
+
+* TODO
+
 .. _v2-3-5:
 
-`2.3.5 <https://github.com/mixxxdj/mixxx/milestone/39>`_ (unreleased)
+`2.3.5 <https://github.com/mixxxdj/mixxx/milestone/39>`_ (2023-05-10)
 -------------------------------------------------------------------------
 
 
