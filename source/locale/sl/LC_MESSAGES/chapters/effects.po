@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-08 20:02+0100\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -275,7 +275,7 @@ msgstr "pomožnih vhodov"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "glavnih mešanic"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
@@ -342,6 +342,12 @@ msgid ""
 "processed after the faders for the master output. Refer to the "
 ":ref:`effects-in-headphones` section below for details."
 msgstr ""
+"Učinki se obdelajo po krovnih faderjih in crossfaderjih. To omogoča, da "
+"učinki, kot sta Echo im Reverb, še naprej oddajajo zvok, potem, ko je njihov"
+" vhod prekinjen s spuščanjem faderja. Za razliko od druge DJ-jeve programske"
+" in strojne opreme lahko učinke slišimo tudi v slušalkah, čeprav se obdelajo"
+" po faderjih za glavni izhod. Za podrobnosti glejte :ref:`effects-in-"
+"headphones` spodnji razdelek."
 
 #: ../../chapters/effects.rst:69
 msgid ""
@@ -522,6 +528,12 @@ msgid ""
 " are processed in parallel for the headphone output (prefader) and master "
 "output (postfader)."
 msgstr ""
+"Če si želite predogledati, kako se bo skladba slišala z učinki, preden "
+"mešate skladbo, preprosto dodelite ploščo enoti z učinki in omogočite gumb "
+"za slušalke na plošči. Upoštevajte, da bo to povečalo CPE v primerjavi z "
+"dodeljevanjem enote učinka v krov brez gumba za slušalke. To je zato, ker se"
+" učinki obdelujejo vzporedno za izhod za slušalke (prefader) in glavni izhod"
+" (postfader). "
 
 #: ../../chapters/effects.rst:162
 msgid ""
@@ -565,6 +577,7 @@ msgstr "Omogočite enoto efektov za krov"
 #: ../../chapters/effects.rst:172
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
+"Obrnite gumb za mešanje v desno, da se učinki slišijo v glavnem izhodu"
 
 #: ../../chapters/effects.rst:173
 msgid ""

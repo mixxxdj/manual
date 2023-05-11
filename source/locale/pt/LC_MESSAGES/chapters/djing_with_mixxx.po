@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2022-08-28 11:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: Portuguese (https://www.transifex.com/mixxx-dj-software/teams/7734/pt/)\n"
+"Language-Team: Portuguese (https://app.transifex.com/mixxx-dj-software/teams/7734/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Master Sync"
-msgstr ""
+msgstr "Sincronização Mestre"
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -428,6 +428,11 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Master Sync will make sure "
 "they are lined up properly."
 msgstr ""
+"A Sincronização Mestre também vai perceber se uma de suas faixas é o dobro "
+"do BPM de outra faixa e vai igualar elas corretametne. Se você quiser mixar "
+"uma faixa de 140 BPM de drum & bass com uma faixa de 70 BPM de dubstep, a "
+"Sincronização Mestre irá certificar que as duas fiquem alinhadas "
+"corretamente."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -436,6 +441,11 @@ msgid ""
 "the :guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that "
 "the beats are perfectly lined up as well."
 msgstr ""
+"Geralmente, a Sincronização Mestre vai certificar apenas que os deslizantes "
+"de taxa fiquem posicionados corretamente. Se você também quiser que as "
+"batidas fiquem sincronizadas, ativar o botão :guilabel:`QUANTIZAR`. Quando "
+"ativado, o botão Quantizar vai certificar que as batidas estão perfeitamente"
+" alinhadas também."
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid "Harmonic Mixing"

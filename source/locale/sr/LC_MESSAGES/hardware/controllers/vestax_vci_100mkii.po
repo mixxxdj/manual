@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
-"Language-Team: Serbian (https://www.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
+"Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_100mkii.rst:62
 #: ../../hardware/controllers/vestax_vci_100mkii.rst:112
-msgid "PFL [PFL solo] (if headphone mix is cue or master only then switch it)"
+msgid "PFL [PFL solo] (if headphone mix is cue or main only then switch it)"
 msgstr ""
 
 #: ../../hardware/controllers/vestax_vci_100mkii.rst:63

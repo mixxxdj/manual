@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
-"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -176,9 +176,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb.rst:61
 msgid ""
-"Knobs are available for the master and headphones level. These are "
-"functional but are not reflected in Mixxx, as they control the controller’s "
-"soundcard directly."
+"Knobs are available for the main and headphones level. These are functional "
+"but are not reflected in Mixxx, as they control the controller’s soundcard "
+"directly."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb.rst:63
@@ -245,10 +245,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb.rst:89
 msgid ""
-"The play and cue pads should be self-explaining. The sync pad toggles master"
-" sync for a deck, which tries to beatmatch the deck with the others, and "
-"also syncs the tempo between them, even when the tempo of one deck is "
-"changed."
+"The play and cue pads should be self-explaining. The sync pad toggles sync "
+"lock for a deck, which tries to beatmatch the deck with the others, and also"
+" syncs the tempo between them, even when the tempo of one deck is changed."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb.rst:92

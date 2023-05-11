@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-08 20:02+0100\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -276,7 +276,7 @@ msgstr "entrées auxiliaires"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "le mix principal"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
@@ -345,6 +345,13 @@ msgid ""
 "processed after the faders for the master output. Refer to the "
 ":ref:`effects-in-headphones` section below for details."
 msgstr ""
+"Les effets sont traités après les curseurs de platine et le curseur de "
+"mixage. Cela permet à des effets comme Echo et Reverb de continuer à émettre"
+" du son après que leur entrée ait été coupée en baissant le curseur. "
+"Contrairement aux autres logiciels et matériels DJ, les effets peuvent "
+"également être entendus dans le casque même s'ils sont traités après les "
+"curseurs pour la sortie principale. Reportez-vous à la section "
+":ref:`effects-in-headphones` ci-dessous pour plus de détails."
 
 #: ../../chapters/effects.rst:69
 msgid ""
@@ -531,6 +538,12 @@ msgid ""
 " are processed in parallel for the headphone output (prefader) and master "
 "output (postfader)."
 msgstr ""
+"Pour prévisualiser le rendu sonore d'une piste avec des effets avant de "
+"mixer dans la piste, affecter simplement la platine à une unité d'effets et "
+"activer le bouton casque de la platine. Noter que cela augmentera le CPU par"
+" rapport à l'affectation d'une unité d'effet à une platine sans que le "
+"bouton du casque soit activé. En effet, les effets sont traités en parallèle"
+" pour la sortie casque (prefader) et la sortie principale (postfader)."
 
 #: ../../chapters/effects.rst:162
 msgid ""
@@ -575,6 +588,8 @@ msgstr "Activer l'unité d'effet de la platine"
 #: ../../chapters/effects.rst:172
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
+"Tourner le potentiomètre de mixage vers la droite pour que les effets soient"
+" entendus sur la sortie principale"
 
 #: ../../chapters/effects.rst:173
 msgid ""

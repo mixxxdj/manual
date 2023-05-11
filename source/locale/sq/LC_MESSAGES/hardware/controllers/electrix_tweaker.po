@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
-"Language-Team: Albanian (https://www.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
+"Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:87
 msgid ""
-"Headphone cue/master mix in headphones. Press to toggle split cue mode. The "
+"Headphone cue/main mix in headphones. Press to toggle split cue mode. The "
 "blue LED below encoder is lit when split cue mode is enabled."
 msgstr ""
 
@@ -186,11 +186,11 @@ msgid "Channel gain for active deck on left side"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:89
-msgid "Master output gain"
+msgid "Main output gain"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:90
-msgid "Master output balance"
+msgid "Main output balance"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:91

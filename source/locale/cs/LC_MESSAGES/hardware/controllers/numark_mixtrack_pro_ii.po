@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
-"Language-Team: Czech (https://www.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
+"Language-Team: Czech (https://app.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -384,7 +384,7 @@ msgid "25. Master Gain"
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:194
-msgid "Adjusts the volume of the master mix coming from the software."
+msgid "Adjusts the volume of the main mix coming from the software."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:196
@@ -440,7 +440,7 @@ msgstr ""
 #: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:226
 msgid ""
 "Adjusts the software’s audio output to the headphones, mixing between the "
-"cue output and the master mix output."
+"cue output and the main mix output."
 msgstr ""
 
 #: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:230

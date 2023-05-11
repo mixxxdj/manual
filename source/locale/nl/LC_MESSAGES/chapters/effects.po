@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-08 20:02+0100\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
+"Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -276,7 +276,7 @@ msgstr "AUX ingangen"
 
 #: ../../chapters/effects.rst:34
 msgid "the master mix"
-msgstr ""
+msgstr "de master mix"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
@@ -345,6 +345,12 @@ msgid ""
 "processed after the faders for the master output. Refer to the "
 ":ref:`effects-in-headphones` section below for details."
 msgstr ""
+"Effecten worden verwerkt na de deckfaders en crossfader. Hierdoor kunnen "
+"effecten zoals Echo en Reverb doorgaan met het uitvoeren van geluid nadat "
+"hun invoer wordt afgesneden door de fader te verlagen. In tegenstelling tot "
+"andere DJ-software en hardware, zijn effecten ook hoorbaar in koptelefoons, "
+"ook al worden ze verwerkt na de faders voor de master-output. Raadpleeg het "
+"gedeelte: ref: `effecten-in-hoofdtelefoons 'hieronder voor meer informatie."
 
 #: ../../chapters/effects.rst:69
 msgid ""
@@ -528,6 +534,13 @@ msgid ""
 " are processed in parallel for the headphone output (prefader) and master "
 "output (postfader)."
 msgstr ""
+"Om een voorbeeld te horen van hoe een track met effecten zal klinken voordat"
+" u de track mengt, wijst u eenvoudig het deck toe aan een effecteenheid en "
+"schakelt u de hoofdtelefoonknop voor het deck in. Merk op dat dit de CPU "
+"verhoogt in vergelijking met het toewijzen van een effecteenheid aan een "
+"deck zonder dat de hoofdtelefoonknop is ingeschakeld. Dit komt omdat "
+"effecten parallel worden verwerkt voor de hoofdtelefoonuitgang (prefader) en"
+" masteruitgang (postfader)."
 
 #: ../../chapters/effects.rst:162
 msgid ""
@@ -571,6 +584,8 @@ msgstr "Schakel de effecteenheid voor het deck in"
 #: ../../chapters/effects.rst:172
 msgid "Turn the mix knob right so the effects are heard in the master output"
 msgstr ""
+"Draai de mengknop naar rechts zodat de effecten in de masteruitgang te horen"
+" zijn"
 
 #: ../../chapters/effects.rst:173
 msgid ""
