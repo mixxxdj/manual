@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgid "**Mixxx Source Code**: To download the source code for Mixxx, go to: `<ht
 msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:36
-msgid "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: `<https://bugs.launchpad.net/mixxx>`_"
+msgid "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: `<https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:39
@@ -253,5 +253,5 @@ msgid "**Mixxx Translations**: To translate Mixxx and promote your mother tongue
 msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:44
-msgid "**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
+msgid "**Social Media**: Follow us on `Mastodon <https://floss.social/@mixxx>`_, `Twitter <https://twitter.com/mixxxdj>`_, and `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgid "Stanton DJC.4"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:4
-msgid "`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/djc4.html>`__"
+msgid "`Manufacturer’s product page <https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-controllers-systems/djc4.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:5
-msgid "`Manual / Midi commands <http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
+msgid "`Manual / Midi commands <https://web.archive.org/web/20211008132713/https://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:6
@@ -37,7 +37,7 @@ msgid "Compatibility"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:13
-msgid "This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, if you wish to use the :ref:`ASIO sound API <preferences-sound-api>` under Windows, please install the latest driver package available from the `Product page <http://www.stantondj.com/stanton-controllers-systems/djc4.html>`__."
+msgid "This controller is a class compliant USB MIDI and audio device, so it can be used without any special drivers on GNU/Linux, Mac OS X, and Windows. However, if you wish to use the :ref:`ASIO sound API <preferences-sound-api>` under Windows, please install the latest driver package available from the `Product page <https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-controllers-systems/djc4.html>`__."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:17
@@ -692,7 +692,7 @@ msgid "*Various*"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:161
-msgid "See `Standard effects mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+msgid "See :ref:`Standard Effects Mapping <controller-effects-mapping>`."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:165

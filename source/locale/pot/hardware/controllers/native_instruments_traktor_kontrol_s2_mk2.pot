@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,7 +204,7 @@ msgid ":hwlabel:`FLUX` button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:121
-msgid "Mixxx `does not yet have a very useful flux/slip mode <https://bugs.launchpad.net/mixxx/+bug/1475303>`__, so instead this button toggles the top pad row to the intro/outro cues. Press the button when it is lit to return the top pad row to hotcue mode."
+msgid "Mixxx `does not yet have a very useful flux/slip mode <https://github.com/mixxxdj/mixxx/issues/8155>`__, so instead this button toggles the top pad row to the intro/outro cues. Press the button when it is lit to return the top pad row to hotcue mode."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:126
@@ -320,7 +320,7 @@ msgid "Effects"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:177
-msgid "The Kontrol S2 MK2 uses the `standard Mixxx effects mapping <https://github.com/mixxxdj/mixxx/wiki/standard-effects-mapping>`__."
+msgid "The Kontrol S2 MK2 uses the :ref:`standard Mixxx effects mapping <controller-effects-mapping>`."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.rst:181

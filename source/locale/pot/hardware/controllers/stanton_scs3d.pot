@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Stanton SCS.3d “DaScratch”"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3d.rst:6
-msgid "`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__"
+msgid "`Manufacturer’s product page <https://web.archive.org/web/20220613230840/http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3d.rst:7
