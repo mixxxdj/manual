@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgid "FX Controls"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:83
-msgid "This mapping uses the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ to control the FX units."
+msgid "This mapping uses the :ref:`Standard Effects Mapping <controller-effects-mapping>` to control the FX units."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:86

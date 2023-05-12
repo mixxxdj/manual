@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -317,7 +317,7 @@ msgid "Effects"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:108
-msgid "The knob on the left of each effect unit controls the mix (dry/wet) knob for all 3 effects in the unit. The other knobs control the metaknobs of the effects. The buttons below the metaknobs control the effect enable buttons. When pressed with shift, they cycle through the available effects. The button below the mix knob toggles whether the effect parameters are showing on screen. This will be expanded in a future update to implement the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+msgid "The knob on the left of each effect unit controls the mix (dry/wet) knob for all 3 effects in the unit. The other knobs control the metaknobs of the effects. The buttons below the metaknobs control the effect enable buttons. When pressed with shift, they cycle through the available effects. The button below the mix knob toggles whether the effect parameters are showing on screen. This will be expanded in a future update to implement the :ref:`Standard Effects Mapping <controller-effects-mapping>`."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:115
