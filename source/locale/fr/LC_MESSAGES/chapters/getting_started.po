@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-05 23:45+0200\n"
-"PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -539,9 +539,6 @@ msgid ""
 "*Main*: all decks, samplers, microphones, and auxiliary inputs mixed "
 "together. This output is sent to the speakers for the audience."
 msgstr ""
-"*Master*: toutes les platines, échantillonneurs, microphones et entrées "
-"auxiliaires mélangés ensemble. Cette sortie est envoyée aux haut-parleurs "
-"pour le public."
 
 #: ../../chapters/getting_started.rst:170
 msgid ""
@@ -554,8 +551,6 @@ msgstr ""
 #: ../../chapters/getting_started.rst:172
 msgid "*Booth*: same as main output, but has a separate gain control"
 msgstr ""
-"*Cabine*: identique à la sortie principale, mais avec un contrôle de gain "
-"séparé"
 
 #: ../../chapters/getting_started.rst:174
 #: ../../chapters/getting_started.rst:190
@@ -602,10 +597,6 @@ msgid ""
 " you have a microphone plugged into the mixer, do not configure the "
 "Microphone 1-4 inputs."
 msgstr ""
-"*Enregistrer/Diffuser*: Lorsque ceci est configuré, Mixxx enregistrera et "
-"diffusera à partir de cette entrée d'interface audio au lieu du mixage "
-"interne principal. Si un microphone est branché sur la table de mixage, ne "
-"configurer pas les entrées Microphone 1-4."
 
 #: ../../chapters/getting_started.rst:197
 msgid "**Either internal or external mixing**:"
