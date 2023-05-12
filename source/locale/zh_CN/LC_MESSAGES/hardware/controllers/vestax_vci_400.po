@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: 2022-09-05 06:00+0000\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,39 +57,38 @@ msgstr ""
 msgid ""
 "Note that the VCI-400 and VCI-400 Ean Golden Edition are incompatible. Their"
 " firmwares use different MIDI messages to communicate with the computer. "
-"Unfortunately, `it is not possible to switch between the VCI-400 and VCI-400"
-" Ean Golden Edition firmware "
-"<http://forum.djtechtools.com/showthread.php?t=64071&p=572022&viewfull=1#post572022>`__."
+"Unfortunately, it is not possible to switch between the VCI-400 and VCI-400 "
+"Ean Golden Edition firmware."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:35
+#: ../../hardware/controllers/vestax_vci_400.rst:36
 msgid "Mapping"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:44
+#: ../../hardware/controllers/vestax_vci_400.rst:45
 msgid "Vestax VCI-400 (top view with annotations)"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:47
+#: ../../hardware/controllers/vestax_vci_400.rst:48
 msgid ""
 "The VCI-400 mapping for Mixxx is based on the Serato Limited Edition "
 "overlay."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:50
+#: ../../hardware/controllers/vestax_vci_400.rst:51
 msgid ""
 "**For regular use, make sure the “mixer select” switches are all the way to "
 "the left.** If you move them to the right, the Play / Cue buttons will be "
 "used to select vinyl control modes instead."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:54
+#: ../../hardware/controllers/vestax_vci_400.rst:55
 msgid ""
 "Most of the functions are exactly as they appear on the overlay, and the "
 "overlay is very nicely labeled so that’s the best place to start."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:57
+#: ../../hardware/controllers/vestax_vci_400.rst:58
 msgid ""
 "The four small buttons below the grouping of 8 buttons selects which mode "
 "the 8 buttons are in, either Hot Cues, Loops, Rolls, or Samples. Mixxx "
@@ -98,39 +97,39 @@ msgid ""
 "the current mode will be lit so you know what mode you’re in."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:64
+#: ../../hardware/controllers/vestax_vci_400.rst:65
 msgid "Button Modes:"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:66
+#: ../../hardware/controllers/vestax_vci_400.rst:67
 msgid ""
 "In Hot Cue mode, the 8 buttons will move Mixxx to the designated hotcue. If "
 "you hold the shift button, the hotcue will be cleared."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:68
+#: ../../hardware/controllers/vestax_vci_400.rst:69
 msgid ""
 "In Loop mode, the 8 buttons will create a new loop at the current position "
 "from size 32nd note to 16 beats."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:70
+#: ../../hardware/controllers/vestax_vci_400.rst:71
 msgid ""
 "In Roll mode, holding any of the buttons will temporarily create a loop "
 "anywhere from 32nd note to 16 beats."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:72
+#: ../../hardware/controllers/vestax_vci_400.rst:73
 msgid ""
 "In Sampler mode, both sides of the controller launch the same set of 8 "
 "samplers. Holding shift will eject a sample."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:75
+#: ../../hardware/controllers/vestax_vci_400.rst:76
 msgid "Some of the buttons have special functions in Mixxx:"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:77
+#: ../../hardware/controllers/vestax_vci_400.rst:78
 msgid ""
 "The Vinyl / Slip button. While pushed, the jog wheel is in scratching mode "
 "(similar to if you push down on the platter). If you hold this button while "
@@ -138,7 +137,7 @@ msgid ""
 "in scratch mode. Great for backspins."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:81
+#: ../../hardware/controllers/vestax_vci_400.rst:82
 msgid ""
 "The Param knob can be used to adjust the musical key of the current track. "
 "Twist to make the tone higher or lower. If you hold the shift button (3), "
@@ -146,11 +145,11 @@ msgid ""
 "reset the key."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:85
+#: ../../hardware/controllers/vestax_vci_400.rst:86
 msgid "Shift button"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:86
+#: ../../hardware/controllers/vestax_vci_400.rst:87
 msgid ""
 "Auto Loop knob. Twisting this will change the size of the current loop, "
 "either doubling or halving the size. If you hold shift (3), twisting this "
@@ -158,67 +157,67 @@ msgid ""
 " will enable or disable looping."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:90
+#: ../../hardware/controllers/vestax_vci_400.rst:91
 msgid ""
 "The Master FX button enables the 1st FX bank to be applied to the main "
 "output."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:92
+#: ../../hardware/controllers/vestax_vci_400.rst:93
 msgid "The FX Mode button toggles which effect is in the first FX bank."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:93
+#: ../../hardware/controllers/vestax_vci_400.rst:94
 msgid "Controls FX1 Parameter 1"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:94
+#: ../../hardware/controllers/vestax_vci_400.rst:95
 msgid "Controls FX1 Parameter 2"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:95
+#: ../../hardware/controllers/vestax_vci_400.rst:96
 msgid "Controls FX1 Parameter 3"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:96
+#: ../../hardware/controllers/vestax_vci_400.rst:97
 msgid "Controls FX1 Dry / Wet"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:97
+#: ../../hardware/controllers/vestax_vci_400.rst:98
 msgid "Enable/Disable Quantize Mode."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:98
+#: ../../hardware/controllers/vestax_vci_400.rst:99
 msgid "Enable/Disable Keylock"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:100
+#: ../../hardware/controllers/vestax_vci_400.rst:101
 msgid ""
 "The four small buttons in the center, Area, Panel, Back, and Prepare, don’t "
 "do anything. Neither does the sampler volume slider."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:103
+#: ../../hardware/controllers/vestax_vci_400.rst:104
 msgid "Some additional functions are accessible with the shift button:"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:105
+#: ../../hardware/controllers/vestax_vci_400.rst:106
 msgid "Shift + Load to eject a track."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:106
+#: ../../hardware/controllers/vestax_vci_400.rst:107
 msgid "Shift + Play while the deck is playing does a breaking stop."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:107
+#: ../../hardware/controllers/vestax_vci_400.rst:108
 msgid "Shift + Censor does a spinback stop."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:110
+#: ../../hardware/controllers/vestax_vci_400.rst:111
 msgid "Vinyl Control Mode"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:112
+#: ../../hardware/controllers/vestax_vci_400.rst:113
 msgid ""
 "If you want to use vinyl control instead of the jog wheels, you can move the"
 " mixer selection switches all the way to the right. In this mode, the Play "
@@ -227,11 +226,11 @@ msgid ""
 "Constant. The cue button lights up when Absolute is selected."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:119
+#: ../../hardware/controllers/vestax_vci_400.rst:120
 msgid "Note about VU Meters"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_vci_400.rst:121
+#: ../../hardware/controllers/vestax_vci_400.rst:122
 msgid ""
 "There’s a bug in the way that the VCI400 firmware works – although Mixxx can"
 " control the VU meters, the VCI’s internal soundcard always *also* controls "

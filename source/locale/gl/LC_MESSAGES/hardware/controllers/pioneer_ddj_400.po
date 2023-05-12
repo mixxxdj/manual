@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-08 21:49+0100\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
-"Language-Team: Galician (https://www.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
+"Language-Team: Galician (https://app.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -191,7 +191,6 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:115
 #: ../../hardware/controllers/pioneer_ddj_400.rst:266
 #: ../../hardware/controllers/pioneer_ddj_400.rst:300
-#: ../../hardware/controllers/pioneer_ddj_400.rst:301
 msgid "1"
 msgstr ""
 
@@ -207,8 +206,7 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:116
 #: ../../hardware/controllers/pioneer_ddj_400.rst:117
 #: ../../hardware/controllers/pioneer_ddj_400.rst:267
-#: ../../hardware/controllers/pioneer_ddj_400.rst:302
-#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+#: ../../hardware/controllers/pioneer_ddj_400.rst:301
 msgid "2"
 msgstr ""
 
@@ -266,7 +264,8 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:118
 #: ../../hardware/controllers/pioneer_ddj_400.rst:119
 #: ../../hardware/controllers/pioneer_ddj_400.rst:269
-#: ../../hardware/controllers/pioneer_ddj_400.rst:304
+#: ../../hardware/controllers/pioneer_ddj_400.rst:302
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
 msgid "3"
 msgstr ""
 
@@ -289,7 +288,7 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:120
 #: ../../hardware/controllers/pioneer_ddj_400.rst:121
 #: ../../hardware/controllers/pioneer_ddj_400.rst:271
-#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
 msgid "4"
 msgstr ""
 
@@ -312,8 +311,8 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:122
 #: ../../hardware/controllers/pioneer_ddj_400.rst:125
 #: ../../hardware/controllers/pioneer_ddj_400.rst:272
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
 #: ../../hardware/controllers/pioneer_ddj_400.rst:306
-#: ../../hardware/controllers/pioneer_ddj_400.rst:307
 msgid "5"
 msgstr ""
 
@@ -341,8 +340,8 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:126
 #: ../../hardware/controllers/pioneer_ddj_400.rst:128
 #: ../../hardware/controllers/pioneer_ddj_400.rst:273
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
 #: ../../hardware/controllers/pioneer_ddj_400.rst:308
-#: ../../hardware/controllers/pioneer_ddj_400.rst:309
 msgid "6"
 msgstr ""
 
@@ -830,82 +829,74 @@ msgid ":hwlabel:`BEAT` :hwlabel:`<`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:300
-msgid "Focus effect 1"
+msgid "Cycle effect focus leftward"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:301
-msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_400.rst:301
-msgid "Load previous effect"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_400.rst:302
 msgid ":hwlabel:`BEAT` :hwlabel:`>`"
 msgstr ""
 
+#: ../../hardware/controllers/pioneer_ddj_400.rst:301
+msgid "Cycle effect focus rightward"
+msgstr ""
+
 #: ../../hardware/controllers/pioneer_ddj_400.rst:302
-msgid "Focus effect 2"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_400.rst:303
-msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_400.rst:303
-msgid "Load next effect"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_400.rst:304
 msgid ":hwlabel:`FX SELECT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:304
-msgid "Focus effect 3"
+#: ../../hardware/controllers/pioneer_ddj_400.rst:302
+msgid "Load next effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX SELECT`"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:303
+msgid "Load previous effect"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
 msgid "Channel select switch"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:305
+#: ../../hardware/controllers/pioneer_ddj_400.rst:304
 msgid "Route deck 1, deck 2 or main mix to effect unit 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:306
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
 msgid ":hwlabel:`LEVEL/DEPTH`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:306
+#: ../../hardware/controllers/pioneer_ddj_400.rst:305
 msgid "Controls the wet/dry mix knob"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:307
+#: ../../hardware/controllers/pioneer_ddj_400.rst:306
 msgid ":hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:307
+#: ../../hardware/controllers/pioneer_ddj_400.rst:306
 msgid "Controls the metaknob of the currently focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:308
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
 msgid ":hwlabel:`ON/OFF`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:308
+#: ../../hardware/controllers/pioneer_ddj_400.rst:307
 msgid "Enable/disable the currently focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:309
+#: ../../hardware/controllers/pioneer_ddj_400.rst:308
 msgid ":hwlabel:`SHIFT` + :hwlabel:`ON/OFF`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:309
+#: ../../hardware/controllers/pioneer_ddj_400.rst:308
 msgid "Disables all effects in the chain and kills the wet/dry mix"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_400.rst:312
+#: ../../hardware/controllers/pioneer_ddj_400.rst:311
 msgid ""
 "Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH` knob to prevent "
 "sudden changes to the wet/dry mix or effect metaknob when changing between "

@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-08 21:49+0100\n"
+"POT-Creation-Date: 2023-05-12 08:43+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -507,7 +507,11 @@ msgstr ""
 msgid "Controller Effects Mapping"
 msgstr ""
 
-#: ../../chapters/effects.rst:180
+#: ../../chapters/effects.rst:184
+msgid "Usage"
+msgstr ""
+
+#: ../../chapters/effects.rst:186
 msgid ""
 "This section describes how to use the standard Mixxx mapping for effects "
 "sections on controllers with the typical layout of 4 knobs (or 3 knobs + 1 "
@@ -516,7 +520,7 @@ msgid ""
 "effect."
 msgstr ""
 
-#: ../../chapters/effects.rst:182
+#: ../../chapters/effects.rst:188
 msgid ""
 "By default, 3 knobs are used for controlling effect metaknobs and the "
 "buttons under them toggle each effect on/off. To temporarily toggle an "
@@ -525,7 +529,7 @@ msgid ""
 "Serato, the :guilabel:`Beats` encoder is used as the mix knob."
 msgstr ""
 
-#: ../../chapters/effects.rst:184
+#: ../../chapters/effects.rst:190
 msgid ""
 "The button next to the mix knob is used for focusing effects. On controllers"
 " designed for Serato, this button is labeled :guilabel:`Tap`. While holding "
@@ -533,19 +537,19 @@ msgid ""
 "which effect is focused. When an effect is focused:"
 msgstr ""
 
-#: ../../chapters/effects.rst:186
+#: ../../chapters/effects.rst:192
 msgid ""
 "the knobs switch to controlling the first 3 parameters of that effect "
 "instead of the metaknobs of each effect in the chain;"
 msgstr ""
 
-#: ../../chapters/effects.rst:187
+#: ../../chapters/effects.rst:193
 msgid ""
 "the buttons switch to controlling the first 3 button parameters of the "
 "effect; and"
 msgstr ""
 
-#: ../../chapters/effects.rst:189
+#: ../../chapters/effects.rst:195
 msgid ""
 "The LED of the focus button indicates whether any effect is focused. When "
 "its LED is on, you can hold the button down to see which effect is focused "
@@ -555,7 +559,7 @@ msgid ""
 "be refocused (it is not remembered when you shut down Mixxx though)."
 msgstr ""
 
-#: ../../chapters/effects.rst:191
+#: ../../chapters/effects.rst:197
 msgid ""
 "Alternatively, if you want to keep all the parameters showing on screen, you"
 " can press and hold the focus button, then press the button of the focused "
@@ -564,7 +568,7 @@ msgid ""
 "parameters to the metaknob."
 msgstr ""
 
-#: ../../chapters/effects.rst:193
+#: ../../chapters/effects.rst:199
 msgid ""
 "When the focus button is pressed with shift, it toggles the Effect Unit "
 "between controlling different :ref:`Effect Units <effects-effect-unit>` in "
@@ -572,11 +576,26 @@ msgid ""
 "effect-unit>` 1 & 3 or 2 & 4, like deck toggle buttons."
 msgstr ""
 
-#: ../../chapters/effects.rst:195
+#: ../../chapters/effects.rst:201
 msgid "To load different effects, hold shift and turn the knob for an effect."
 msgstr ""
 
-#: ../../chapters/effects.rst:197
+#: ../../chapters/effects.rst:203
 msgid ""
 "To load chain presets 1-4, press the buttons with shift (new in Mixxx 2.4)."
+msgstr ""
+
+#: ../../chapters/effects.rst:208
+msgid "Implementation"
+msgstr ""
+
+#: ../../chapters/effects.rst:210
+msgid ""
+"The described behaviour is implemented with the effect components of the "
+"`Components-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-"
+"JS>`_ . If you want to create or update a mapping take a look at "
+"`Components-JS > Effect Unit "
+"<https://github.com/mixxxdj/mixxx/wiki/Components-JS#user-content-"
+"effectunit>`_ . It provides building blocks for entire units (effect units, "
+"decks) or just single controls."
 msgstr ""
