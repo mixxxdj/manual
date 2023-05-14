@@ -105,7 +105,7 @@ work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
 For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_
-and `<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_
+and `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_
 , as well as the `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
 which greatly simplifies mapping, for example effect units and complex behaviour
 like switching deck layers or pad grid modes. Note that this is the preferred way
