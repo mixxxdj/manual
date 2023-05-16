@@ -284,6 +284,8 @@ msgid ""
 "On a Macbook or a computer with a touchpad that lacks mouse buttons, a two-"
 "finger click gesture is often treated as a right click."
 msgstr ""
+"Macbookもしくは、クリックボタンが無いタッチパッドのコンピュータの場合、"
+"2本指クリック操作が、マウスの右クリック操作として処理されることが多いです。"
 
 #: ../../chapters/controlling_mixxx.rst:41
 msgid ""
@@ -293,15 +295,15 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:48
 msgid "Using a Keyboard"
-msgstr ""
+msgstr "キーボードを使う"
 
 #: ../../chapters/controlling_mixxx.rst-1
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "キーボードのショートカット"
 
 #: ../../chapters/controlling_mixxx.rst:57
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
-msgstr ""
+msgstr "Mixxxのキーボードショートカット（en-usキーボードレイアウト用）"
 
 #: ../../chapters/controlling_mixxx.rst:59
 msgid ""
