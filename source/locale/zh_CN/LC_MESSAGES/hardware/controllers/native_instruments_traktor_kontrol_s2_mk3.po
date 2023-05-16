@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:14
 msgid ""
-"Unbind Main knob from Mixxx's Main Gain, because it controls the hardware "
+"Unbind Master knob from Mixxx's Main Gain, because it controls the hardware "
 "volume."
 msgstr ""
 
@@ -56,7 +56,7 @@ msgid "Mixxx Sound Hardware Preferences"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:20
-msgid "Main output: channels 1-2"
+msgid "Master output: channels 1-2"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:21
@@ -154,7 +154,7 @@ msgstr ""
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
 msgid ""
 "Syncs the BPM and phase (depending on quantize). Press longer to activate "
-"sync lock on that deck."
+"master sync on that deck."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54

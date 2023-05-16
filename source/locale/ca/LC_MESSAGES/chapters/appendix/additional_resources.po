@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -268,7 +268,7 @@ msgstr ""
 #: ../../chapters/appendix/additional_resources.rst:36
 msgid ""
 "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
-"`<https://bugs.launchpad.net/mixxx>`_"
+"`<https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:39
@@ -281,6 +281,7 @@ msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:44
 msgid ""
-"**Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and"
-" `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
+"**Social Media**: Follow us on `Mastodon <https://floss.social/@mixxx>`_, "
+"`Twitter <https://twitter.com/mixxxdj>`_, and `Facebook "
+"<https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
 msgstr ""

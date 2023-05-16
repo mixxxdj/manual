@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Finnish (https://app.transifex.com/mixxx-dj-software/teams/7734/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid ""
 "There are two mappings for this controller included in Mixxx. The one "
 "labeled “Korg Nanokontrol 2 (alternative)” takes advantage of features "
-"introduced in Mixxx 2.0 such as sync lock and cue modes."
+"introduced in Mixxx 2.0 such as master sync and cue modes."
 msgstr ""
 
 #: ../../hardware/controllers/korg_nanokontrol2.rst:8

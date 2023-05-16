@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgid "Channel Configuration"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
-msgid "Main"
+msgid "Master"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
@@ -125,7 +125,7 @@ msgid ""
 "sync. Instead, push and hold the :hwlabel:`SYNC` button to \"lock\" sync on "
 "for all decks you want to remain in sync. Or you can push :hwlabel:`SHIFT` +"
 " :hwlabel:`SYNC` to lock sync on. Refer to :ref:`Sync Lock documentation "
-"<sync-lock>` for details."
+"<master-sync>` for details."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:70

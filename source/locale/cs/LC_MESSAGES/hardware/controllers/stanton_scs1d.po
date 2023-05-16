@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: Czech (https://app.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,9 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1d.rst:4
 msgid ""
-"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
-"systems/scs1d.html>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220124175727/http://www.stantondj.com/stanton-"
+"controllers-systems/scs1d.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1d.rst:9
@@ -488,9 +489,9 @@ msgid "**2nd encoder**: adjusts the headphone volume"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1d.rst:202
-msgid "**3rd encoder**: adjusts the main balance (pan)"
+msgid "**3rd encoder**: adjusts the master balance (pan)"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1d.rst:203
-msgid "**4th encoder**: adjusts the main volume"
+msgid "**4th encoder**: adjusts the master volume"
 msgstr ""

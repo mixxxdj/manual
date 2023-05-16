@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2022-08-28 09:59+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -452,9 +452,8 @@ msgid ""
 "**Multi-Soundcard Synchronization**: Mixxx is able to use two or more "
 ":term:`audio interface <audio interface>` at a time, each with its own "
 "clock. When multiple audio interfaces are in use, the Mixxx engine is driven"
-" by the main output audio interface. Here you can select the synchronization"
-" used for the other audio interfaces to avoid buffer overflows or "
-"underflows."
+" by the Master audio interface. Here you can select the synchronization used"
+" for the other audio interfaces to avoid buffer overflows or underflows."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:166
@@ -467,17 +466,17 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:171
 msgid ""
-"**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
-"you do not use the :term:`main output`, recording or live broadcasting."
+"**Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage "
+"if you do not use the Master output, recording or live broadcasting."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:174
 msgid ""
-"**Main Output Mode**: In Mono mode, the left and right channel are combined "
-"into a mono signal which is passed to both channels of your main audio "
-"interface. This is useful for setups where the audience cannot hear your mix"
-" in stereo because of speaker placement or playing in a space with lots of "
-"reverberation."
+"**Master Output Mode**: In Mono mode, the left and right channel are "
+"combined into a mono signal which is passed to both channels of your master "
+"audio interface. This is useful for setups where the audience cannot hear "
+"your mix in stereo because of speaker placement or playing in a space with "
+"lots of reverberation."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:180

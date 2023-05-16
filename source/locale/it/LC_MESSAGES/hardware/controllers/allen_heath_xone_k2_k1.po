@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgid "Channel"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
-msgid "Main"
+msgid "Master"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:28
@@ -98,7 +98,7 @@ msgstr ""
 msgid ""
 "Note: This Channel setup is the opposite of what most DJ controllers with an"
 " integrated audio interface use. The design choice to not use Channel 1 - 2 "
-"for main output is known to cause problems, when users want to use the "
+"for Master Output is known to cause problems, when users want to use the "
 "Xone:K2 as default system audio output as the operating system will always "
 "use Channel 1 - 2. Thus system audio will go to the headphones."
 msgstr ""
@@ -106,7 +106,7 @@ msgstr ""
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:39
 msgid ""
 "There are no hardware controls for the volume so they are always at max "
-"volume. Adjusting the volume of main and headphone outputs is done by "
+"volume. Adjusting the volume of master and headphone outputs is done by "
 "adjusting the gain for those outputs in Mixxx using the controller mapping."
 msgstr ""
 
@@ -194,7 +194,7 @@ msgid "adjust tempo of all decks with sync enabled"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:84
-msgid "press and turn: PFL/main mix in headphones"
+msgid "press and turn: PFL/master mix in headphones"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:85
@@ -224,7 +224,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:92
-msgid "shift: main gain"
+msgid "shift: master gain"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:95
@@ -256,7 +256,7 @@ msgid "Top encoder press: reset gain"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:109
-msgid "shift: sync lock"
+msgid "shift: master sync"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:110
@@ -413,12 +413,11 @@ msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:175
 msgid ""
-"The top part of the column uses the `Standard Effects Mapping "
-"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_. Pressing"
-" the top encoder acts as the effect focus button. When no effect is focused,"
-" the buttons are red. When holding the top encoder to choose an effect to "
-"focus, the buttons are green. When an effect is focused, the buttons are "
-"amber."
+"The top part of the column uses the :ref:`Standard Effects Mapping "
+"<controller-effects-mapping>`. Pressing the top encoder acts as the effect "
+"focus button. When no effect is focused, the buttons are red. When holding "
+"the top encoder to choose an effect to focus, the buttons are green. When an"
+" effect is focused, the buttons are amber."
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:182
@@ -429,12 +428,12 @@ msgstr ""
 msgid ""
 "The bottom buttons assign the effect unit to different input channels and "
 "light up red. On the two deck layouts, from top to bottom, they assign the "
-"effect unit to deck 1, deck 2, main mix, and headphones. On the four effect "
-"unit layouts, they assign the effect unit to decks 1-4 going down the "
-"column. You can look down a column to see which decks an effect unit is "
+"effect unit to deck 1, deck 2, master mix, and headphones. On the four "
+"effect unit layouts, they assign the effect unit to decks 1-4 going down the"
+" column. You can look down a column to see which decks an effect unit is "
 "assigned. You can look across a row to see which effect units are assigned "
 "to a deck. When shift is pressed, the bottom two buttons switch to "
-"controlling the routing buttons for the main and headphones channels and "
+"controlling the routing buttons for the master and headphones channels and "
 "light up amber."
 msgstr ""
 
@@ -448,13 +447,13 @@ msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:199
 msgid ""
-"In addition to focusing one effect in a unit at a time with the `Standard "
-"Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-"
-"Mapping>`_, the Xone K2/K1 has another mode for focusing a whole effect "
-"unit. This allows for controlling the parameters of all 3 effects in the "
-"unit at a time. This mode is only available on the 4 effect unit layouts. To"
-" access it, press the Layer button in the bottom left. Press one of the top "
-"encoders to choose which effect unit to focus."
+"In addition to focusing one effect in a unit at a time with the "
+":ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone K2/K1"
+" has another mode for focusing a whole effect unit. This allows for "
+"controlling the parameters of all 3 effects in the unit at a time. This mode"
+" is only available on the 4 effect unit layouts. To access it, press the "
+"Layer button in the bottom left. Press one of the top encoders to choose "
+"which effect unit to focus."
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:207

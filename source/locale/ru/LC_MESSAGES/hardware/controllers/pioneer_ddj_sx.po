@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -526,7 +526,7 @@ msgid ":hwlabel:`MASTER LEVEL`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:56
-msgid "Controls the main output volume"
+msgid "Controls the master output volume"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:57
@@ -541,7 +541,7 @@ msgid ":hwlabel:`MASTER CUE`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:57
-msgid "Toggles main cue"
+msgid "Toggles master cue"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:58
@@ -587,7 +587,7 @@ msgid ":hwlabel:`HEADPHONES MIX`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:60
-msgid "Controls headphone’s audio source (cue, main)"
+msgid "Controls headphone’s audio source (cue, master)"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:61
@@ -1888,10 +1888,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:344
 msgid ""
-"This controller mapping uses the `standard Mixxx mapping for effects "
-"sections on controllers <https://github.com/mixxxdj/mixxx/wiki/Standard-"
-"Effects-Mapping>`__. The controls listed here are documented in Section 2 "
-"(\"Effects\") of the owner's manual."
+"This controller mapping uses the :ref:`standard Mixxx mapping for effects "
+"sections on controllers <controller-effects-mapping>`. The controls listed "
+"here are documented in Section 2 (\"Effects\") of the owner's manual."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:350

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
@@ -23,14 +23,15 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:4
 msgid ""
-"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
-"systems/djc4.html>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-"
+"controllers-systems/djc4.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:5
 msgid ""
 "`Manual / Midi commands "
-"<http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
+"<https://web.archive.org/web/20211008132713/https://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:6
@@ -49,8 +50,9 @@ msgid ""
 " used without any special drivers on GNU/Linux, Mac OS X, and Windows. "
 "However, if you wish to use the :ref:`ASIO sound API <preferences-sound-"
 "api>` under Windows, please install the latest driver package available from"
-" the `Product page <http://www.stantondj.com/stanton-controllers-"
-"systems/djc4.html>`__."
+" the `Product page "
+"<https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-"
+"controllers-systems/djc4.html>`__."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:17
@@ -77,7 +79,7 @@ msgid "1-2"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:24
-msgid "Main"
+msgid "Master"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:25
@@ -123,7 +125,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_djc_4.rst:41
 msgid ""
 "On the rear side is a small switch to select if Input 1 is routed to the PC "
-"or directly to the main output (through). It is therefore possible to "
+"or directly to the master output (through). It is therefore possible to "
 "include the microphone into a recording/stream or to exclude it."
 msgstr ""
 
@@ -366,7 +368,7 @@ msgid "Level indicator"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:89
-msgid "Indicate the output level of main."
+msgid "Indicate the output level of master."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:90
@@ -749,9 +751,7 @@ msgid "*Various*"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:161
-msgid ""
-"See `Standard effects mapping "
-"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+msgid "See :ref:`Standard Effects Mapping <controller-effects-mapping>`."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:165
@@ -791,7 +791,7 @@ msgid "``showMasterVu``"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:173
-msgid "If set to false, show channel VU meter instead of Main L/R"
+msgid "If set to false, show channel VU meter instead of Master L/R"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:173
