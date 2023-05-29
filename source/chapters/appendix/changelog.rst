@@ -292,6 +292,7 @@ Audio Engine
 * Verify the "first sound" of as an analysis sanity check `#4773 <https://github.com/mixxxdj/mixxx/pull/4773>`_
 * Fix a possible crash when ejecting a track `#11334 <https://github.com/mixxxdj/mixxx/pull/11334>`_ `#11257 <https://github.com/mixxxdj/mixxx/issues/11257>`_
 * Add a range limits for beatjump_size of 512 `#11248 <https://github.com/mixxxdj/mixxx/pull/11248>`_ `#11203 <https://github.com/mixxxdj/mixxx/issues/11203>`_
+* Slip Mode: Preserve active (regular) loop when leaving Slip Mode `#11435 <https://github.com/mixxxdj/mixxx/pull/11435>`_ `#6993 <https://github.com/mixxxdj/mixxx/issues/6993>`_
 * Refactoring of beatgrid/beatmap code
   `#4044 <https://github.com/mixxxdj/mixxx/pull/4044>`_
   `#4048 <https://github.com/mixxxdj/mixxx/pull/4048>`_
@@ -401,6 +402,7 @@ Controller Backend
 * Exclude HID device: ELAN touch screen `#11324 <https://github.com/mixxxdj/mixxx/pull/11324>`_ `#11323 <https://github.com/mixxxdj/mixxx/issues/11323>`_
 * Show otherwise hidden HID devices in developer mode  `#11317 <https://github.com/mixxxdj/mixxx/pull/11317>`_
 * Use hidapi's hidraw backend instead of libusb on Linux `#4054 <https://github.com/mixxxdj/mixxx/pull/4054>`_
+* Fix broken HID controller mappings Traktor Kontrol S2 MK3 and others `#11470 <https://github.com/mixxxdj/mixxx/pull/11470>`_ `#11461 <https://github.com/mixxxdj/mixxx/issues/11461>`_
 * Consistently use "mapping" instead of "preset" to refer to controller mappings `#3472 <https://github.com/mixxxdj/mixxx/pull/3472>`_
 * Library: Add control object ``[Library],show_track_menu`` to open/close the track menu `#4465 <https://github.com/mixxxdj/mixxx/pull/4465>`_
 * Library: Add control object ``[Library],sort_focused_column`` `#4749 <https://github.com/mixxxdj/mixxx/pull/4749>`_ `#4763 <https://github.com/mixxxdj/mixxx/pull/4763>`_ `#10719 <https://github.com/mixxxdj/mixxx/issues/10719>`_
@@ -423,6 +425,7 @@ Controller Backend
   `#10540 <https://github.com/mixxxdj/mixxx/issues/10540>`_
   `#10539 <https://github.com/mixxxdj/mixxx/issues/10539>`_
 * Controller preferences: add search bars to mapping tables `#11165 <https://github.com/mixxxdj/mixxx/pull/11165>`_
+* Added TypeScript declarations for engine and controller scripting API to improve IDE code completion during mapping developent `#4759 <https://github.com/mixxxdj/mixxx/pull/4759>`_
 * Retire Mixco Scripts `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`_
 * Prepare code for upcoming ES6 based controller mapping system with module support
   `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`_
@@ -608,6 +611,37 @@ Effects
   `#11424 <https://github.com/mixxxdj/mixxx/pull/11424>`_ `#11376 <https://github.com/mixxxdj/mixxx/pull/11376>`_
   `#11456 <https://github.com/mixxxdj/mixxx/pull/11456>`_ `#11454 <https://github.com/mixxxdj/mixxx/issues/11454>`_
 
+Target Support
+^^^^^^^^^^^^^^
+
+
+* Added support for macOS ARM builds on M1/M2 Apple silicon `#11398 <https://github.com/mixxxdj/mixxx/pull/11398>`_
+* Require C++20 but keep Ubuntu Focal support
+  `#4889 <https://github.com/mixxxdj/mixxx/pull/4889>`_
+  `#4895 <https://github.com/mixxxdj/mixxx/pull/4895>`_
+  `#11204 <https://github.com/mixxxdj/mixxx/pull/11204>`_
+  `#4832 <https://github.com/mixxxdj/mixxx/pull/4832>`_
+  `#4803 <https://github.com/mixxxdj/mixxx/pull/4803>`_
+  `#11551 <https://github.com/mixxxdj/mixxx/issues/11551>`_
+* Drop Ubuntu Bionic support, require Qt 5.12
+  `#3687 <https://github.com/mixxxdj/mixxx/pull/3687>`_
+  `#3735 <https://github.com/mixxxdj/mixxx/pull/3735>`_
+  `#3736 <https://github.com/mixxxdj/mixxx/pull/3736>`_
+  `#3985 <https://github.com/mixxxdj/mixxx/pull/3985>`_
+* Drop Ubuntu Groovy and Impish support because of EOL
+  `#4283 <https://github.com/mixxxdj/mixxx/pull/4283>`_ `#4849 <https://github.com/mixxxdj/mixxx/pull/4849>`_
+* Support Ubuntu Kinetic and Jammy `#4780 <https://github.com/mixxxdj/mixxx/pull/4780>`_ `#4857 <https://github.com/mixxxdj/mixxx/pull/4857>`_
+* Add NixOS support
+  `#2820 <https://github.com/mixxxdj/mixxx/pull/2820>`_
+  `#2828 <https://github.com/mixxxdj/mixxx/pull/2828>`_
+  `#2836 <https://github.com/mixxxdj/mixxx/pull/2836>`_
+  `#2827 <https://github.com/mixxxdj/mixxx/pull/2827>`_
+  `#2827 <https://github.com/mixxxdj/mixxx/pull/2827>`_
+  `#2828 <https://github.com/mixxxdj/mixxx/pull/2828>`_
+  `#3113 <https://github.com/mixxxdj/mixxx/pull/3113>`_
+  `#3089 <https://github.com/mixxxdj/mixxx/pull/3089>`_
+  `#3545 <https://github.com/mixxxdj/mixxx/pull/3545>`_
+
 Other
 ^^^^^
 
@@ -695,29 +729,6 @@ Other
   `#4277 <https://github.com/mixxxdj/mixxx/pull/4277>`_
   `#4285 <https://github.com/mixxxdj/mixxx/pull/4285>`_
   `#4425 <https://github.com/mixxxdj/mixxx/pull/4425>`_
-* Drop Ubuntu Bionic support, require Qt 5.12
-  `#3687 <https://github.com/mixxxdj/mixxx/pull/3687>`_
-  `#3735 <https://github.com/mixxxdj/mixxx/pull/3735>`_
-  `#3736 <https://github.com/mixxxdj/mixxx/pull/3736>`_
-  `#3985 <https://github.com/mixxxdj/mixxx/pull/3985>`_
-* Require C++20 but keep Ubuntu Focal support
-  `#4889 <https://github.com/mixxxdj/mixxx/pull/4889>`_
-  `#4895 <https://github.com/mixxxdj/mixxx/pull/4895>`_
-  `#11204 <https://github.com/mixxxdj/mixxx/pull/11204>`_
-* Drop Ubuntu Groovy and Impish support because of EOL
-  `#4283 <https://github.com/mixxxdj/mixxx/pull/4283>`_ `#4849 <https://github.com/mixxxdj/mixxx/pull/4849>`_
-* Support Ubuntu Kinetic Kudo `#4780 <https://github.com/mixxxdj/mixxx/pull/4780>`_
-* Provide Ubuntu Jammy CI builds `#4857 <https://github.com/mixxxdj/mixxx/pull/4857>`_
-* Add NixOS support
-  `#2820 <https://github.com/mixxxdj/mixxx/pull/2820>`_
-  `#2828 <https://github.com/mixxxdj/mixxx/pull/2828>`_
-  `#2836 <https://github.com/mixxxdj/mixxx/pull/2836>`_
-  `#2827 <https://github.com/mixxxdj/mixxx/pull/2827>`_
-  `#2827 <https://github.com/mixxxdj/mixxx/pull/2827>`_
-  `#2828 <https://github.com/mixxxdj/mixxx/pull/2828>`_
-  `#3113 <https://github.com/mixxxdj/mixxx/pull/3113>`_
-  `#3089 <https://github.com/mixxxdj/mixxx/pull/3089>`_
-  `#3545 <https://github.com/mixxxdj/mixxx/pull/3545>`_
 * Update vcpkg build environment for Windows and macOS
   `#4163 <https://github.com/mixxxdj/mixxx/pull/4163>`_
   `#4225 <https://github.com/mixxxdj/mixxx/pull/4225>`_
@@ -730,6 +741,8 @@ Other
   `#11074 <https://github.com/mixxxdj/mixxx/pull/11074>`_
   `#11238 <https://github.com/mixxxdj/mixxx/pull/11238>`_
   `#11457 <https://github.com/mixxxdj/mixxx/pull/11457>`_
+  `#11562 <https://github.com/mixxxdj/mixxx/pull/11562>`_
+* Windows: Fix extraction of build environment archive when using 7-Zip `#11510 <https://github.com/mixxxdj/mixxx/pull/11510>`_
 * Devendor libraries from the mixxx lib directory
   `#4201 <https://github.com/mixxxdj/mixxx/pull/4201>`_
   `#4202 <https://github.com/mixxxdj/mixxx/pull/4202>`_
@@ -872,6 +885,7 @@ Other
 * Use rounded Mixxx Icon for MacOS to follow Apples style guide `#4545 <https://github.com/mixxxdj/mixxx/pull/4545>`_
 * Show native path separators in command line argument --help `#4657 <https://github.com/mixxxdj/mixxx/pull/4657>`_
 * Add 13 new translation languages `#4785 <https://github.com/mixxxdj/mixxx/pull/4785>`_ `#9702 <https://github.com/mixxxdj/mixxx/issues/9702>`_
+* Fix translation related warnings `#11539 <https://github.com/mixxxdj/mixxx/pull/11539>`_
 * Improve Vinyl control quality indicator `#3279 <https://github.com/mixxxdj/mixxx/pull/3279>`_
 * Track info dialog: Apply pending changes also when saving via hotkey `#4562 <https://github.com/mixxxdj/mixxx/pull/4562>`_ `#10612 <https://github.com/mixxxdj/mixxx/issues/10612>`_
 * Track info dialog: Fix crash when trying to scale 0.0 BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`_ `1955853 <https://github.com/mixxxdj/mixxx/issues/10625>`_
@@ -879,13 +893,13 @@ Other
 * Tweak remove/hide track confirm message to match confirm exit message `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`_ `1947992 <https://github.com/mixxxdj/mixxx/issues/10577>`_
 * Implement Un-eject by pressing eject again `#4668 <https://github.com/mixxxdj/mixxx/pull/4668>`_
 * Preferences > Effects: Fix Tab key navigation / UX `#4702 <https://github.com/mixxxdj/mixxx/pull/4702>`_ `#10579 <https://github.com/mixxxdj/mixxx/issues/10579>`_
-* Switch to C++20 `#4832 <https://github.com/mixxxdj/mixxx/pull/4832>`_ `#4803 <https://github.com/mixxxdj/mixxx/pull/4803>`_
 * Windows builds: Sign binary and installer with timestamp and sha256 `#4824 <https://github.com/mixxxdj/mixxx/pull/4824>`_ `#4825 <https://github.com/mixxxdj/mixxx/pull/4825>`_
 * Preferences: Added option to keep deck playing on track load `#10944 <https://github.com/mixxxdj/mixxx/pull/10944>`_ `#10548 <https://github.com/mixxxdj/mixxx/issues/10548>`_
 * Preferences: always enable Alt shortcut keys `#11145 <https://github.com/mixxxdj/mixxx/pull/11145>`_ `#10413 <https://github.com/mixxxdj/mixxx/issues/10413>`_
 * macOS: Add better rasterization of program icon `#10958 <https://github.com/mixxxdj/mixxx/pull/10958>`_
 * Allow building Mixxx on OpenBSD `#11083 <https://github.com/mixxxdj/mixxx/pull/11083>`_
 * Fix autogenerated metainfo `#11383 <https://github.com/mixxxdj/mixxx/pull/11383>`_
+* Fix setting the wrong default cue color `#11554 <https://github.com/mixxxdj/mixxx/pull/11554>`_ `#11260 <https://github.com/mixxxdj/mixxx/issues/11260>`_
 * Replace Launchpad bugs by GitHub issues
   `#10850 <https://github.com/mixxxdj/mixxx/pull/10850>`_
   `#10865 <https://github.com/mixxxdj/mixxx/pull/10865>`_
@@ -1120,6 +1134,7 @@ Other
 * Fix sorting via column header in external library features
   `#11491 <https://github.com/mixxxdj/mixxx/issues/11491>`_
   `#11499 <https://github.com/mixxxdj/mixxx/pull/11499>`_
+  `#11498 <https://github.com/mixxxdj/mixxx/pull/11498>`_
 * Fix wrong waveform background color on recent Linux distributions like Fedora 37
   `#11164 <https://github.com/mixxxdj/mixxx/issues/11164>`_
   `#11523 <https://github.com/mixxxdj/mixxx/pull/11523>`_
