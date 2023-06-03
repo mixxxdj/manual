@@ -4006,7 +4006,7 @@ Controls
 
    0 indicates no effect is focused; \> 0 indicates the index of the focused effect. Focusing an effect only does something if a controller mapping changes how it behaves when an effect is focused.
 
-   :range: 0..num_effects
+   :range: 0..num_effectslots
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],group_[ChannelI]_enable
@@ -4066,15 +4066,6 @@ Controls
    Cycle to the next EffectChain preset after the currently loaded preset.
 
    :range: binary
-
-
-.. mixxx:control:: [EffectRack1_EffectUnitN],num_effects
-                   [EqualizerRack1_[ChannelI]],num_effects
-                   [QuickEffectRack1_[ChannelI]],num_effects
-
-   The number of Effects that this EffectChain has
-
-   :range: integer, read-only
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effectslots
