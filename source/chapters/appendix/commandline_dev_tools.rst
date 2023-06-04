@@ -40,50 +40,58 @@ types, go to :ref:`file-format-compatibility`.
 
 
 
---resource-path PATH      Top-level directory where Mixxx will look for
-                          its resource files such as MIDI mappings,
-                          overriding the default installation location.
---settings-path PATH      Top-level directory where Mixxx will look for
-                          user settings files such as the library database
-                          and preferences configuration file.
---controller-debug        Log all controller data Mixxx sends and receives
-                          as well as scripts it loads.
---developer               Enable developer mode. Includes extra logs, stats
-                          on performance and the Developer tools menu as
-                          well as tooltips and logs useful for skin
-                          developers.
---safe-mode               Disable OpenGL widgets (scrolling waveforms,
-                          spinnies) to work around GPU driver bugs.
-                          If Mixxx is crashing on startup, try using this.
+--resource-path PATH            Top-level directory where Mixxx will look for
+                                its resource files such as MIDI mappings,
+                                overriding the default installation location.
+--settings-path PATH            Top-level directory where Mixxx will look for
+                                user settings files such as the library database
+                                and preferences configuration file.
+--disable-vumetergl             Do not use OpenGL vu meter
+--controller-debug              Log all controller data Mixxx sends and receives
+                                as well as scripts it loads.
+--controller-abort-on-warning   The controller mapping will issue more
+                                aggressive warnings and errors when detecting
+                                misuse of controller APIs. New Controller
+                                Mappings should be developed with this option
+                                enabled!
+--developer                     Enable developer mode. Includes extra logs, stats
+                                on performance and the Developer tools menu as
+                                well as tooltips and logs useful for skin
+                                developers.
+--safe-mode                     Disable OpenGL widgets (scrolling waveforms,
+                                spinnies) to work around GPU driver bugs.
+                                If Mixxx is crashing on startup, try using this.
 
-                          * Automatically loads empty waveforms
-                          * Disables spinning vinyl widgets
-                          * Disables synchronization polling
-                          * Doesn't open controllers by default
---locale LOCALE           Use a custom locale for loading translations
-                          (e.g ``fr``)
--f, --full-screen         Start Mixxx in full-screen mode.
---log-level LEVEL         Set the verbosity of command line logging.
+                                * Automatically loads empty waveforms
+                                * Disables spinning vinyl widgets
+                                * Disables synchronization polling
+                                * Doesn't open controllers by default
+--color <color>               [auto|always|never] Use colors on the console
+                                output.
+--locale LOCALE                 Use a custom locale for loading translations
+                                (e.g ``fr``)
+-f, --full-screen               Start Mixxx in full-screen mode.
+--log-level LEVEL               Set the verbosity of command line logging.
 
-                          ============  ==========================
-                          Value         Meaning
-                          ============  ==========================
-                          ``critical``  Critical/Fatal only
-                          ``warning``   Above + Warnings
-                          ``info``      Above + Informational messages
-                          ``debug``     Above + Debug/Developer messages
-                          ``trace``     Above + Profiling messages
-                          ============  ==========================
---log-flush-level LEVEL   Set the logging level at which the log buffer
-                          is flushed to ``mixxx.log``.
-                          ``LEVEL`` is one of the values defined at ``--logLevel``
-                          above.
---debug-assert-break      Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates
-                          to false. A debugger can then be used to continue.
-                          This disables the ``MIXXX_DEBUG_ASSERTIONS_FATAL``
-                          flag which can otherwise lead to a time consuming
-                          full rebuild.
--h, --help                Display this help message and exit
+                                ============  ==========================
+                                Value         Meaning
+                                ============  ==========================
+                                ``critical``  Critical/Fatal only
+                                ``warning``   Above + Warnings
+                                ``info``      Above + Informational messages
+                                ``debug``     Above + Debug/Developer messages
+                                ``trace``     Above + Profiling messages
+                                ============  ==========================
+--log-flush-level LEVEL         Set the logging level at which the log buffer
+                                is flushed to ``mixxx.log``.
+                                ``LEVEL`` is one of the values defined at ``--logLevel``
+                                above.
+--debug-assert-break            Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates
+                                to false. A debugger can then be used to continue.
+                                This disables the ``MIXXX_DEBUG_ASSERTIONS_FATAL``
+                                flag which can otherwise lead to a time consuming
+                                full rebuild.
+-h, --help                      Display this help message and exit
 
 Developer tools
 ===============
