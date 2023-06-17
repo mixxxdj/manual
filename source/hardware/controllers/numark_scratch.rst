@@ -79,6 +79,7 @@ No.       Control                                             Function
 5         CUE :hwlabel:`MIX`                                  Adjust monitoring between CUE and PGM
 6         CUE :hwlabel:`GAIN`                                 Adjust CUE level
 7         FX :hwlabel:`DRY / WET`                             Adjust FX wet/dry depth
+7         :hwlabel:`SHIFT` :hwlabel:`DRY / WET`               Adjust the metaknob for all effects in the chain.
 8         FX SELECT                                           Toggle single FX
 8         :hwlabel:`SHIFT` + FX SELECT                        Toggle multiple FX selections at the same time
 9         FX :hwlabel:`HOLD / ON` paddle                      Push up to toggle FX on or push down to toggle FX momentarily
