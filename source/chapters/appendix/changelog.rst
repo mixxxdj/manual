@@ -552,8 +552,7 @@ Skins
   `#10416 <https://github.com/mixxxdj/mixxx/issues/10416>`_
   `#11460 <https://github.com/mixxxdj/mixxx/issues/11460>`_
   `#11556 <https://github.com/mixxxdj/mixxx/issues/11556>`_
-  `#11460 <https://github.com/mixxxdj/mixxx/issues/11460>`_
-  `#11460 <https://github.com/mixxxdj/mixxx/issues/11450>`_
+  `#11450 <https://github.com/mixxxdj/mixxx/issues/11450>`_
   `#10416 <https://github.com/mixxxdj/mixxx/issues/10416>`_
 
 Effects
@@ -1068,6 +1067,19 @@ Other
 
 
 * TODO
+* Numark DJ2GO2 Touch: Add missing loop_out mapping for the right deck
+  `#11595 <https://github.com/mixxxdj/mixxx/pull/11595>`__
+* No longer stop a track with an active loop at the very end.
+  `#11558 <https://github.com/mixxxdj/mixxx/pull/11558>`__
+  `#11557 <https://github.com/mixxxdj/mixxx/issues/11557>`__
+* Shade: Fixed VU-Meter and other minor issues
+  `#11598 <https://github.com/mixxxdj/mixxx/pull/11598>`__
+* Fixed possible crash when closing Mixxx while browsing the file system
+  `#11593 <https://github.com/mixxxdj/mixxx/pull/11593>`__
+  `#11589 <https://github.com/mixxxdj/mixxx/issues/11589>`__
+* Fixed resyncing when moving an active loop
+  `#11152 <https://github.com/mixxxdj/mixxx/pull/11152>`__
+  `#11381 <https://github.com/mixxxdj/mixxx/issues/11381>`__
 
 .. _v2-3-5:
 
@@ -1509,6 +1521,7 @@ Controllers
 * Add controller mapping for Native Instrument Traktor Kontrol S3 `#3031 <https://github.com/mixxxdj/mixxx/pull/3031>`_
 * Add controller mapping for Behringer BCR2000 `#3342 <https://github.com/mixxxdj/mixxx/pull/3342>`_ `#3943 <https://github.com/mixxxdj/mixxx/pull/3943>`_
 * Add controller mapping for Behringer DDM4000 `#3542 <https://github.com/mixxxdj/mixxx/pull/3542>`_
+* Add controller mapping for Native Instruments Traktor Kontrol S4MK3 `#11284 <https://github.com/mixxxdj/mixxx/pull/11284>`_
 * Update controller mapping for Allen & Heath Xone K2 to add intro/outro cues `#2236 <https://github.com/mixxxdj/mixxx/pull/2236>`_
 * Update controller mapping for Hercules P32 for more accurate headmix control `#3537 <https://github.com/mixxxdj/mixxx/pull/3537>`_
 * Update controller mapping for Native Instruments Traktor Kontrol S4MK2 to add auto-slip mode and pitch fader range `#3331 <https://github.com/mixxxdj/mixxx/pull/3331>`_
