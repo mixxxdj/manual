@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1m.rst:13
-msgid "`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__"
+msgid "`Manufacturer’s product page <https://web.archive.org/web/20220903093704/https://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1m.rst:17
@@ -242,7 +242,7 @@ msgid "Rotate to move the track select highlight"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1m.rst:96
-msgid "Press to load the selected track into the first stopped deck, if any. //(This is [[https://bugs.launchpad.net/mixxx/+bug/734713|not working]] in 1.9.x for some reason.)//"
+msgid "Press to load the selected track into the first stopped deck, if any. //(This is `not working <https://github.com/mixxxdj/mixxx/issues/5815>` in 1.9.x for some reason.)//"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs1m.rst:100

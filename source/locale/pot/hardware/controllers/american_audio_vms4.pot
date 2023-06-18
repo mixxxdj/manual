@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Setup"
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:20
-msgid "Mixxx expects the VMS4 to be set to “Post EQ” mode for best sound quality. Do this by holding down the Headphone Cue button on Midilog 4 while powering on the unit. You only need to do this once. (Each time you do, it changes the mode back and forth.) Consult the `user manual <http://intranet.americandj.com/ItemRelatedFiles/8347/vms4.pdf>`__ for more information."
+msgid "Mixxx expects the VMS4 to be set to “Post EQ” mode for best sound quality. Do this by holding down the Headphone Cue button on Midilog 4 while powering on the unit. You only need to do this once. (Each time you do, it changes the mode back and forth.) Consult the `user manual <https://web.archive.org/web/20220727170646/intranet.americandj.com/ItemRelatedFiles/8347/vms4.pdf>`__ for more information."
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms4.rst:27
