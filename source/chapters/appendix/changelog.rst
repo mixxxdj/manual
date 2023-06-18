@@ -552,8 +552,7 @@ Skins
   `#10416 <https://github.com/mixxxdj/mixxx/issues/10416>`_
   `#11460 <https://github.com/mixxxdj/mixxx/issues/11460>`_
   `#11556 <https://github.com/mixxxdj/mixxx/issues/11556>`_
-  `#11460 <https://github.com/mixxxdj/mixxx/issues/11460>`_
-  `#11460 <https://github.com/mixxxdj/mixxx/issues/11450>`_
+  `#11450 <https://github.com/mixxxdj/mixxx/issues/11450>`_
   `#10416 <https://github.com/mixxxdj/mixxx/issues/10416>`_
 
 Effects
