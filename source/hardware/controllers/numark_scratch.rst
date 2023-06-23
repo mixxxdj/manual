@@ -51,8 +51,8 @@ Hence, turning the knobs will not change values in the Mixxx :term:`GUI` and you
 - Set the master/booth/headphones/microphone levels to 100% (knob center position)
 
 .. note::
-   You should assign the :guilabel:`Vinyl Control` input channels even if you do not intend to use timecode vinyl.
-   These channel assignments are also needed to make the :hwlabel:`CH 1/2 PC/LINE/PHONO` switches work (i. e. passing through line or phono input to the left/right deck).
+   The :hwlabel:`PC / LINE/PHONO` switches work only if the :guilabel:`Vinyl Control` input channels are assigned to software inputs.
+   So even if you do not intend to use timecode vinyl but want to pass through line or phono inputs directly to the left/right deck, you need assign these channels in the Sound Hardware preferences.
 
 Controller Mapping
 ------------------
