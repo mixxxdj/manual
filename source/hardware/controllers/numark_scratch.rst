@@ -98,10 +98,6 @@ No.       Control                                             Function
 Performance Pads
 ~~~~~~~~~~~~~~~~
 
-Pad modes are similar to those found when used with Serato.
-To change modes, press the PAD MODE button repeatedly, which
-will cycle through the available pade modes, which are as follows:
-
 .. figure:: ../../_static/controllers/numark_scratch_performancepads.svg
    :align: center
    :width: 65%
@@ -109,20 +105,13 @@ will cycle through the available pade modes, which are as follows:
    :alt: Numark Scratch (performance pads)
    :figclass: pretty-figures
 
-   Numark Scratch (performance pads)
+To change modes, press the PAD MODE button repeatedly, which
+will cycle through the available pade modes, which are as follows:
 
-==========================  =====================
-Control                     Mode
-==========================  =====================
-:hwlabel:`PAD MODE` CUE     Hot Cue Mode
-:hwlabel:`PAD MODE` SAMPLE  Sampler Mode
-:hwlabel:`PAD MODE` ROLL    Loop Roll Mode
-==========================  =====================
+**CUE** mode: Pads 1-4 trigger the respective hotcues, and if no hotcue point is set on that pad, will set a Cue point
+in the respective pad/slot. Holding SHIFT while pressing a pad will clear the Cue point from that pad.
 
-CUE mode: Pads 1-4 trigger Hotcue Cues, and if no Cue point is present on that pad/slot, will set a Cue point
-in the respective pad/slot. Holding SHIFT while pressing a pad will clear the Cue point from that pad/slot.
-
-SAMPLER mode: Press pads 1-4 to trigger samples loaded into the sample slot. Hold SHIFT while pressing a pad to
+**SAMPLER** mode: Press pads 1-4 to trigger samples loaded into the sample slot. Hold SHIFT while pressing a pad to
 stop the sample playback once triggered.
 
-ROLL mode: In this mode holding pads 1-4 activates a loop roll of varying sizes. Release the pad to exit the loop roll.
+**ROLL** mode: In this mode holding pads 1-4 activates a loop roll of varying sizes. Release the pad to exit the loop roll.
