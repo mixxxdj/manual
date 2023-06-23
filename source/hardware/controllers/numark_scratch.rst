@@ -19,7 +19,7 @@ Drivers
 -------
 
 You can download the latest Windows driver from the `manufacturer’s website <https://www.numark.com/product/scratch>`__.
-The Scratch is class complaint on Mac.
+The Scratch is class complaint on Mac and Linux.
 
 Audio Setup
 -----------
