@@ -13,7 +13,7 @@ It's equipped with an InnoFader crossfader and 8 performance pads across 3 modes
 -  `Driver Download Page <https://www.numark.com/product/scratch>`__
 -  `Mapping Forum Thread <https://mixxx.discourse.group/t/numark-scratch-mapping/25186>`__
 
-.. versionadded:: 2.3.0
+.. versionadded:: 2.4.0
 
 Drivers
 -------
