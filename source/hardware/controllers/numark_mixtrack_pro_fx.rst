@@ -222,6 +222,7 @@ There are a few configurable values at the top of the script (:file:`Numark-Mixt
 
    '``pitchRanges``', '[0.08, 0.16, 1]', 'For adjusting the range of pitch fader. Pressing :hwlabel:`PITCH RANGE` (:hwlabel:`SHIFT` + :hwlabel:`PITCH BEND -`) cycles through available values. Number of values in the array can be changed without further script modifications. Note that the default (first) pitch range must be also selected independently in Mixxx settings (Settings -> Preferences -> Decks -> Slider range).'
    '``waveformsSynced``', 'true', 'This variable should reflect the corresponding Mixxx option (Settings -> Preferences -> Waveforms -> Synchronize zoom level across all waveforms). This affects waveform summary zooming.'
+   '``fxControlsMeta``', 'false', 'Changes the FX encoder to control the FX 1 Effect 1 meta knob and, when shifted, the FX 2 Effect 1 meta knob.'
    '``jogScratchSensitivity``', '1024', 'Scratching sensitivity'
    '``jogScratchAlpha``', '1', 'For controlling the alpha-beta filter used in scratching'
    '``jogScratchBeta``', '1/32', 'For controlling the alpha-beta filter used in scratching'
