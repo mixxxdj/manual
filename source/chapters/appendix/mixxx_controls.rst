@@ -1077,7 +1077,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],eject
                    [SamplerN],eject
 
-   Eject currently loaded track
+   Eject currently loaded track. If no track is loaded the last-ejected track
+   (of any deck) is reloaded.
+
+   Double-press to reload the last replaced track. If no track is loaded the second-last ejected track is reloaded.
 
    :range: binary
    :feedback: Eject button is lit. Be sure to set back to 0 with scripts so the button does not stay lit.
