@@ -407,7 +407,7 @@ Mixxx supports the following filters:
       title: foo
       composer: foo
       comment: foo
-      genre:hip-hop -genre:gangsta
+      genre:hip-hop -genre:country
 
   .. note::
      It doesn't matter if you have space between the colon and the argument
