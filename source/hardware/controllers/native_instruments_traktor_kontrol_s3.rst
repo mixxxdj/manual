@@ -211,17 +211,29 @@ Setup
 To make optimal use of this mode, you may want to change the following
 preferences:
 
-- The '*Keep superknob position*' option in :menuselection:`Options --> Effects`
-  page should be enabled. Otherwise changing the quick effect chain while the
-  knob is not exactly at the center position may cause the quick effect
-  superknob to become stuck in soft takeover mode until you move the physical
-  knob to the superknob's new position.
-- The very first quick effect preset in the quick effect presets list on the
-  same :menuselection:`Options --> Effects` page should be set to the Moog
+..
+   This relies on https://github.com/mixxxdj/mixxx/pull/11198 or a similar PR
+   being merged. Since the behavior without it can be a bit confusing, a bullet
+   explaining the soft takeover behavior was added instead:
+
+   - The '*Keep superknob position*' option in :menuselection:`Options --> Effects`
+     page should be enabled. Otherwise changing the quick effect chain while the
+     knob is not exactly at the center position may cause the quick effect
+     superknob to become stuck in soft takeover mode until you move the physical
+     knob to the superknob's new position.
+
+- The very first quick effect chain preset in the quick effect presets list on
+  the same :menuselection:`Options --> Effects` page should be set to the Moog
   Filter preset or another filter preset.
-- The next four quick effect presets should contain that exact same filter
+- The next four quick effect chain presets should contain that exact same filter
   effect, plus another effect. Delays, reverbs, flangers, trance gates, and
   white noise are some examples of effects that would work well here.
+- Switching to a new quick effect chain preset using the :hwlabel:`Filter` and
+  :hwlabel:`FX 1-4` buttons will load that preset's default values. If the FX
+  knob is not already in the neutral position for the preset, then the FX knob
+  will be put in soft takeover mode and you will need to turn it to match the
+  super knob's new position before you can start using it. This behavior differs
+  from similar setups in other DJ hardware and software.
 
 Controls
 ^^^^^^^^
