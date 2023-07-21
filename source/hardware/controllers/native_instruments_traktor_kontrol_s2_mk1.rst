@@ -93,8 +93,8 @@ Intro & Outro cue mode
 Sampler mode
     This mode is activated by the button under the Sampler knob in the center of the mixer.
     Press an unlit pad to load the selected track in the library to the sampler.
-    Loaded and stopped sampler pads are lit dimm green.
-    Press a dimm green pad to play a sampler.
+    Loaded and stopped sampler pads are lit dim green.
+    Press a dim green pad to play a sampler.
     A playing sampler is lit green.
     Press a lit pad with :hwlabel:`SHIFT` to stop a sampler, or if it is already stopped, unload the
     sample.
@@ -103,7 +103,7 @@ Sampler mode
 Transport Controls
 ^^^^^^^^^^^^^^^^^^
 
-The transport controls work mostly as labelled on the controller:
+The transport controls work mostly as labeled on the controller:
 
 :hwlabel:`SYNC` button
     Press to :term:`sync` :term:`tempo`.
