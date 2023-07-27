@@ -115,6 +115,9 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
+.. hint:: Double-click any track text label to open the :ref:`Properties editor <library-properties-editor>`
+          where you can edit all track metadata.
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
