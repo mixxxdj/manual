@@ -536,6 +536,8 @@ Manual Edit
 
      Mixxx library - Inline editing
 
+.. _library-properties-editor:
+
 **Properties editor**:
   To open the editor right-click on a **single track** in the library or any track
   label in decks or samplers, then select :guilabel:`Properties` in the track menu.
