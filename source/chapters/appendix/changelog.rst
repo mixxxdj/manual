@@ -1071,19 +1071,34 @@ Other
 -------------------------------------------------------------------------
 
 
-* Numark DJ2GO2 Touch: Add missing loop_out mapping for the right deck
-  `#11595 <https://github.com/mixxxdj/mixxx/pull/11595>`__
-* No longer stop a track with an active loop at the very end.
-  `#11558 <https://github.com/mixxxdj/mixxx/pull/11558>`__
-  `#11557 <https://github.com/mixxxdj/mixxx/issues/11557>`__
-* Shade: Fixed VU-Meter and other minor issues
-  `#11598 <https://github.com/mixxxdj/mixxx/pull/11598>`__
 * Fixed possible crash when closing Mixxx while browsing the file system
   `#11593 <https://github.com/mixxxdj/mixxx/pull/11593>`__
   `#11589 <https://github.com/mixxxdj/mixxx/issues/11589>`__
+* No longer stop a track with an active loop at the very end
+  `#11558 <https://github.com/mixxxdj/mixxx/pull/11558>`__
+  `#11557 <https://github.com/mixxxdj/mixxx/issues/11557>`__
 * Fixed resyncing when moving an active loop
   `#11152 <https://github.com/mixxxdj/mixxx/pull/11152>`__
   `#11381 <https://github.com/mixxxdj/mixxx/issues/11381>`__
+* Allow true gapless playback when repeating full tracks
+  `#11532 <https://github.com/mixxxdj/mixxx/pull/11532>`__
+  `#9842 <https://github.com/mixxxdj/mixxx/issues/9842>`__
+  `#11704 <https://github.com/mixxxdj/mixxx/pull/11704>`__
+* Rhythmbox: Fixed bulk track imports from playlists
+  `#11661 <https://github.com/mixxxdj/mixxx/pull/11661>`__
+* Console log spam reduced
+  `#11690 <https://github.com/mixxxdj/mixxx/pull/11690>`__
+  `#11691 <https://github.com/mixxxdj/mixxx/issues/11691>`__
+* Numark DJ2GO2 Touch: Add missing loop_out mapping for the right deck
+  `#11595 <https://github.com/mixxxdj/mixxx/pull/11595>`__
+  `#11659 <https://github.com/mixxxdj/mixxx/pull/11659>`__
+* Shade: Fixed VU-Meter and other minor issues
+  `#11598 <https://github.com/mixxxdj/mixxx/pull/11598>`__
+* Fixed a rare crash when disabling quantize form a controller
+  `#11744 <https://github.com/mixxxdj/mixxx/pull/11744>`__
+  `#11709 <https://github.com/mixxxdj/mixxx/issues/11709>`__
+* Controller Preferences: Avoid scrollbars in I/O tabs if Info tab exceeds page height
+  `#11756 <https://github.com/mixxxdj/mixxx/pull/11756>`__
 
 .. _v2-3-5:
 
