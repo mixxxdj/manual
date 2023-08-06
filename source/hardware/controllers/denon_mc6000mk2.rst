@@ -89,7 +89,7 @@ The number in the first column refers to the corresponding label in the *Ownerâ€
 39            VU METER                                         Display channel/master output volume
 40            BOOTH ASSIGN                                     Select source for booth output
 41            BOOTH LEVEL                                      Control booth output volume
-42            MASTER LEVEL                                     Control master output volume
+42            MASTER LEVEL                                     Control master output volume (hardware only)
 43            HI KNOB                                          Control channel EQ (high freq.)
 43            MID KNOB                                         Control channel EQ (mid. freq.)
 43            LOW KNOB                                         Control channel EQ (low freq.)
