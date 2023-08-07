@@ -43,6 +43,26 @@ Changelog
   `#11709 <https://github.com/mixxxdj/mixxx/issues/11709>`__
 * Controller Preferences: Avoid scrollbars in I/O tabs if Info tab exceeds page height
   `#11756 <https://github.com/mixxxdj/mixxx/pull/11756>`__
+* Broadcast: Improved error message in case of timeout
+  `#11775 <https://github.com/mixxxdj/mixxx/pull/11775>`__
+* Handle setting ``loop_in`` and ``loop_out`` to the same position
+  `#11771 <https://github.com/mixxxdj/mixxx/pull/11771>`__
+  `#10600 <https://github.com/mixxxdj/mixxx/issues/10600>`__
+* Fix build issues with Protobuf v23.4 and with clang 32
+  `#11751 <https://github.com/mixxxdj/mixxx/pull/11751>`__
+  `#11765 <https://github.com/mixxxdj/mixxx/pull/11765>`__
+  `#11762 <https://github.com/mixxxdj/mixxx/issues/11762>`__
+* Disable GL VU-Meters on Windows by default. They can be re-enabled via the command line option ``--enableVuMeterGL``.
+  `#11787 <https://github.com/mixxxdj/mixxx/pull/11787>`__
+  `#11785 <https://github.com/mixxxdj/mixxx/issues/11785>`__
+  `#11789 <https://github.com/mixxxdj/mixxx/issues/11789>`__
+* Library preferences: Uncheck Serato metadata export when file metadata export is unchecked
+  `#11782 <https://github.com/mixxxdj/mixxx/pull/11782>`__
+  `#11226 <https://github.com/mixxxdj/mixxx/issues/11226>`__
+* Denon MC6000MK2: Delete mapping for master gain
+  `#11792 <https://github.com/mixxxdj/mixxx/pull/11792>`__
+* Improve output in case of some failed file system operations
+  `#11783 <https://github.com/mixxxdj/mixxx/pull/11783>`__
 
 .. _v2-3-5:
 
