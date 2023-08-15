@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-3-6:
 
-`2.3.6 <https://github.com/mixxxdj/mixxx/milestone/40>`__ (unreleased)
+`2.3.6 <https://github.com/mixxxdj/mixxx/milestone/40>`__ (2023-08-15)
 -------------------------------------------------------------------------
 
 
