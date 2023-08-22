@@ -284,9 +284,15 @@ follows:
 
 
 **Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
+  Clicking this button ejects the track from the deck. If no track is loaded the
+  last-ejected track (of any deck) is reloaded.
+
+  Double-click to reload the last
+  replaced track. In empty decks the second-last ejected track is reloaded.
+
+  Alternatively you can use a keyboard shortcut, go to the chapter
+  :ref:`control-keyboard` for more information.
+
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
