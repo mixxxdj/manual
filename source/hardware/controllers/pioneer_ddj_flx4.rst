@@ -287,11 +287,10 @@ follows:
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 1     Channel select switch                                    Route deck 1, deck 2 or both to effect unit 1
-2     :hwlabel:`FX SELECT`                                     Focus effect 1
-3     :hwlabel:`BEAT` :hwlabel:`<`                             Focus effect 2
-3     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Load previous effect
-4     :hwlabel:`BEAT` :hwlabel:`>`                             Focus effect 4
-4     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
+2     :hwlabel:`FX SELECT`                                     Load next effect
+2     :hwlabel:`SHIFT` + :hwlabel:`FX SELECT`                  Load previous effect
+3     :hwlabel:`BEAT` :hwlabel:`<`                             Cycle effect focus leftward
+4     :hwlabel:`BEAT` :hwlabel:`>`                             Cycle effect focus rightward
 5     :hwlabel:`LEVEL/DEPTH`                                   Controls the wet/dry mix knob
 5     :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`                Controls the metaknob of the currently focused effect
 6     :hwlabel:`ON/OFF`                                        Enable/disable the currently focused effect
