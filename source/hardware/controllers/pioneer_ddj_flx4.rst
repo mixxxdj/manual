@@ -59,7 +59,7 @@ The schematic drawings used here can be referenced in the
 `manufacturer's manual <http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__
 on the given page number.
 
-Browser section (p. 6)
+Browser section (p. 12)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_browser.svg
@@ -78,7 +78,7 @@ No.       Control                                             Function
 2         Rotary Selector                                     Press to toggle focus between the library sidebar and associated panels. Turn to move focus up or down.
 ========  ==================================================  ==========================================
 
-Deck sections (p. 6)
+Deck sections (p. 15)
 ~~~~~~~~~~~~~~~~~~~~
 .. _pioneer-ddj-flx4-deck-sections:
 
@@ -233,7 +233,7 @@ No.       Control                                                          Funct
                                            already stopped, unload it.
 ========  ===============================  ========================================================
 
-Mixer section (p. 8)
+Mixer section (p. 25)
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_mixer.svg
@@ -268,7 +268,7 @@ No.   Control                                                  Function
 14    Crossfader                                               Fade between left and right channels
 ====  =======================================================  ======================================================================
 
-Effect section (p. 9)
+Effect section (p. 31)
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_effects.svg
