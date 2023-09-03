@@ -60,7 +60,7 @@ The schematic drawings used here can be referenced in the
 on the given page number.
 
 Browser section (p. 12)
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_browser.svg
    :align: center
@@ -79,7 +79,7 @@ No.       Control                                             Function
 ========  ==================================================  ==========================================
 
 Deck sections (p. 15)
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 .. _pioneer-ddj-flx4-deck-sections:
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_deck.svg
@@ -234,7 +234,7 @@ No.       Control                                                          Funct
 ========  ===============================  ========================================================
 
 Mixer section (p. 25)
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_mixer.svg
    :align: center
@@ -269,7 +269,7 @@ No.   Control                                                  Function
 ====  =======================================================  ======================================================================
 
 Effect section (p. 31)
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_effects.svg
    :align: center
