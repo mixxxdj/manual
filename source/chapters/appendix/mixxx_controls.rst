@@ -2520,6 +2520,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
    .. versionchanged:: 2.3.0
       This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
+
     .. deprecated:: 2.4.0
        Use :mixxx:coref:`[ChannelN],sync_leader`, :mixxx:coref:`[PreviewDeckN],sync_leader` and :mixxx:coref:`[SamplerN],sync_leader` instead.
 
