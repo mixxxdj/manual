@@ -2502,19 +2502,27 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],sync_master
-                   [PreviewDeckN],sync_master
-                   [SamplerN],sync_master
+.. mixxx:control:: [ChannelN],sync_leader
+                   [PreviewDeckN],sync_leader
+                   [SamplerN],sync_leader
 
    Sets deck as leader clock.
 
    :range: binary
    :feedback: If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider snap to the appropriate value. Slider adjustments are linked on all decks that have :term:`sync lock` enabled.
 
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [ChannelN],sync_master
+                   [PreviewDeckN],sync_master
+                   [SamplerN],sync_master
+
    .. versionadded:: 2.0.0
    .. versionchanged:: 2.3.0
       This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
 
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[ChannelN],sync_leader`, :mixxx:coref:`[PreviewDeckN],sync_leader` and :mixxx:coref:`[SamplerN],sync_leader` instead.
 
 .. mixxx:control:: [ChannelN],sync_mode
                    [PreviewDeckN],sync_mode
@@ -3063,8 +3071,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Configured channel in the sound preferences.
 
 
-.. mixxx:control:: [MicrophoneN],master
-                   [AuxiliaryN],master
+.. mixxx:control:: [MicrophoneN],main_mix
+                   [AuxiliaryN],main_mix
 
    Hold value at 1 to mix channel input into the main output.
    For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
@@ -3074,6 +3082,11 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Auxiliary: Play button
               Microphone: N/A
 
+.. mixxx:control:: [MicrophoneN],master
+                   [AuxiliaryN],master
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],main_mix` instead.
 
 .. mixxx:control:: [AuxiliaryN],orientation
 
@@ -3150,7 +3163,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
                    [AuxiliaryN],talkover
 
    Hold value at 1 to mix channel input into the main output.
-   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],master` instead.
+   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],main_mix` instead.
    Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
