@@ -1115,7 +1115,7 @@ Other
 * Library preferences: Uncheck Serato metadata export when file metadata export is unchecked
   `#11782 <https://github.com/mixxxdj/mixxx/pull/11782>`__
   `#11226 <https://github.com/mixxxdj/mixxx/issues/11226>`__
-* Denon MC6000MK2: Delete mapping for master gain
+* Denon MC6000MK2: Delete mapping for main gain
   `#11792 <https://github.com/mixxxdj/mixxx/pull/11792>`__
 * Improve output in case of some failed file system operations
   `#11783 <https://github.com/mixxxdj/mixxx/pull/11783>`__
