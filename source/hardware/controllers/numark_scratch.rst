@@ -24,8 +24,7 @@ The Scratch is class complaint on Mac and Linux.
 Audio Setup
 -----------
 
-The mapping relies on the following channel assignments (for line/phono
-input support, applying effects to the TR-S output, etc.):
+The mapping relies on the following channel assignments:
 
 ===================== ================
 Output Channels       Assigned to
