@@ -99,6 +99,92 @@ To use ``*_toggle`` the respective shortcut for scripts is:
    script.toggleControl(group, "keylock_toggle", 100);
 
 
+The ``[App]`` group
+~~~~~~~~~~~~~~~~~~~
+
+The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
+
+.. mixxx:control:: [App],indicator_250ms
+
+   Alternates between 0.0 and 1.0 every 250 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],indicator_500ms
+
+   Alternates between 0.0 and 1.0 every 500 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [App],num_decks
+
+   The number of decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [App],num_samplers
+
+   The number of samplers currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [App],num_preview_decks
+
+   The number of preview decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],num_microphones
+
+   The number of microphone inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [App],num_auxiliaries
+
+   The number of auxiliary inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+
 The ``[Master]`` group
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -293,35 +379,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    .. versionadded:: 2.0.0
 
-.. mixxx:control:: [Master],indicator_250millis
-
-   Alternates between 0.0 and 1.0 every 250 milliseconds.
-
-   This control may be used to implement a blinking LED in JavaScript and is
-   guaranteed to light up at the same time as
-   :mixxx:coref:`[ChannelN],cue_indicator` and
-   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
-   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
-
-   :range: binary, read-only
-   :feedback: None
-
-   .. versionadded:: 2.4.0
-
-.. mixxx:control:: [Master],indicator_500millis
-
-   Alternates between 0.0 and 1.0 every 500 milliseconds.
-
-   This control may be used to implement a blinking LED in JavaScript and is
-   guaranteed to light up at the same time as
-   :mixxx:coref:`[ChannelN],cue_indicator` and
-   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
-   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
-
-   :range: binary, read-only
-   :feedback: None
-
-   .. versionadded:: 2.4.0
 
 .. mixxx:control:: [Master],latency
 
@@ -343,12 +400,9 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],num_decks
 
-   The number of decks currently enabled.
-
-   :range: integer
-   :feedback: None
-
    .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_decks` instead.
 
 
 .. mixxx:control:: [Master],num_effectsavailable
@@ -363,22 +417,30 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],num_samplers
 
-   The number of samplers currently enabled.
-
-   :range: integer
-   :feedback: None
-
    .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_samplers` instead.
 
 
 .. mixxx:control:: [Master],num_preview_decks
 
-   The number of preview decks currently enabled.
+   .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_preview_decks` instead.
 
-   :range: integer
-   :feedback: None
 
-   .. versionadded:: 1.11.0
+.. mixxx:control:: [Master],num_microphones
+
+   .. versionadded:: 2.2.4
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_microphones` instead.
+
+
+.. mixxx:control:: [Master],num_auxiliaries
+
+   .. versionadded:: 2.2.4
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_auxiliaries` instead.
 
 
 .. mixxx:control:: [Master],PeakIndicator
@@ -881,7 +943,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Clone the given sampler number, copying the play state, position, rate, and key.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_samplers` (inclusive)
    :feedback: The channel will start playing at the rate and position of the source deck.
 
    .. versionadded:: 2.3.0
@@ -893,7 +955,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Load the track currently loaded to the given deck number.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_decks` (inclusive)
    :feedback: Track name & waveform change
 
    .. versionadded:: 2.4.0
@@ -905,7 +967,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Load the track currently loaded to the given sampler number.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_samplers` (inclusive)
    :feedback: Track name & waveform change
 
    .. versionadded:: 2.4.0
@@ -3923,8 +3985,8 @@ In the list below,
  *  N ranges from 1 to ``[EffectRack1],num_effectunits``, inclusive.
  *  M ranges from 1 to ``[EffectRack1_EffectUnitN],num_effectslots``, inclusive. (For a given value of N)
  *  K ranges from 1 to ``[EffectRack1_EffectUnitN_EffectM],num_parameters``, inclusive.  (For given values of N and M)
- *  I ranges from 1 to ``[Master],num_decks``, inclusive.
- *  J ranges from 1 to ``[Master],num_samplers``, inclusive.
+ *  I ranges from 1 to ``[App],num_decks``, inclusive.
+ *  J ranges from 1 to ``[App],num_samplers``, inclusive.
 
 .. versionadded:: 2.0.0
 
