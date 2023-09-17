@@ -184,6 +184,16 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    .. versionadded:: 2.4.0
 
 
+.. mixxx:control:: [App],samplerate
+
+   The current output sample rate (default: 44100 Hz).
+
+   :range: absolute value (in Hz)
+   :feedback: None
+
+    .. versionadded:: 2.4.0
+
+
 
 The ``[Master]`` group
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -475,10 +485,8 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
 .. mixxx:control:: [Master],samplerate
 
-   The current output sample rate (default: 44100 Hz).
-
-   :range: absolute value (in Hz)
-   :feedback: None
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],samplerate` instead.
 
 
 .. mixxx:control:: [Master],talkoverDucking
