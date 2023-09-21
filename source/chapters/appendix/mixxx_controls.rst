@@ -143,6 +143,7 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :feedback: None
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_decks` control.
 
 
 .. mixxx:control:: [App],num_samplers
@@ -153,6 +154,7 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :feedback: None
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_samplers` control.
 
 
 .. mixxx:control:: [App],num_preview_decks
@@ -163,6 +165,7 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :feedback: None
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_preview_decks` control.
 
 .. mixxx:control:: [App],num_microphones
 
@@ -172,6 +175,7 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :feedback: None
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_microphones` control.
 
 
 .. mixxx:control:: [App],num_auxiliaries
@@ -182,6 +186,7 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :feedback: None
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_auxiliaries` control.
 
 
 .. mixxx:control:: [App],samplerate
@@ -191,7 +196,8 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
    :range: absolute value (in Hz)
    :feedback: None
 
-    .. versionadded:: 2.4.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],samplerate` control.
 
 
 
@@ -4015,6 +4021,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :feedback: Effect rack is shown/hidden.
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[EffectRack1],show` control.
 
 
 .. mixxx:control:: [Skin],show_library_coverart
@@ -4025,6 +4032,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :feedback: Cover art in the library is shown/hidden.
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Library],show_coverart` control.
 
 
 .. mixxx:control:: [Skin],show_maximized_library
@@ -4035,6 +4043,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :feedback: The library section of the user interface is enlarged/shrunk.
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],maximize_library` control.
 
 
 .. mixxx:control:: [Skin],show_samplers
@@ -4045,6 +4054,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :feedback: Sampler banks are shown/hidden.
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Samplers],show_samplers` control.
 
 
 .. mixxx:control:: [Skin],show_vinylcontrol
@@ -4055,6 +4065,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :feedback: Vinyl controls are shown/hidden.
 
    .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
 
 
 Deprecated controls
