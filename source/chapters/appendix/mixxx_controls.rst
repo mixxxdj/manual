@@ -398,16 +398,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
    :feedback: Latency slider in the prefs
 
 
-.. mixxx:control:: [Master],maximize_library
-
-   Toggle maximized view of library.
-
-   :range: binary
-   :feedback: Toggle maximized view of library
-
-   .. versionadded:: 2.0.0
-
-
 .. mixxx:control:: [Master],num_effectsavailable
 
    The number of available effects that can be selected in an effect slot.
@@ -2813,11 +2803,6 @@ Global Sampler controls
 
 These controls can be used to control all samplers.
 
-.. mixxx:control:: [Samplers],show_samplers
-
-   :range: binary
-   :feedback: Shows Sampler bank(s)
-
 .. mixxx:control:: [Sampler],SaveSamplerBank
 
    Save sampler configuration. Make currently loaded tracks in samplers instantly available at a later point.
@@ -2836,6 +2821,10 @@ These controls can be used to control all samplers.
    :feedback: Opens file dialog. Select configuration file.
 
    .. versionadded:: 2.0.0
+
+
+.. seealso::
+   The :mixxx:coref:`[Skin],show_samplers` control can be used to show and hide sampler banks in the GUI.
 
 
 .. _appendix-mixxxcontrols-aux:
@@ -3035,16 +3024,6 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    .. versionadded:: 1.10.0
 
 
-.. mixxx:control:: [VinylControl],show_vinylcontrol
-
-   Toggle the vinyl control section in skins.
-
-   :range: binary
-   :feedback: Vinyl controls are shown
-
-   .. versionadded:: 1.10.0
-
-
 .. mixxx:control:: [VinylControl],gain
 
    Allows to amplify the "phono" level of attached turntables to "line" level.
@@ -3054,6 +3033,11 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
    :feedback: position of Boost slider in :menuselection:`Options --> Preferences --> Vinyl Control` (is not updated while viewing this Preferences page)
 
    .. versionadded:: 1.10.0
+
+
+.. seealso::
+   The :mixxx:coref:`[Skin],show_vinylcontrol` control can be used to show and hide :ref:`vinyl control<vinyl-control>` related elements in the GUI.
+
 
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3363,13 +3347,6 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [Library],show_coverart
-
-   Toggle the Cover Art in Library
-
-   :range: Binary
-
-
 .. mixxx:control:: [Library],font_size_increment
 
    Increase the size of the library font. If the row height is smaller than the font-size the larger of the two is used.
@@ -3538,6 +3515,13 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.4.0
 
+
+.. seealso::
+   The library section in the GUI can be enlarged by using the :mixxx:coref:`[Skin],show_maximized_library` control.
+
+   The :mixxx:coref:`[Skin],show_library_coverart` control can be used to toggle the display of library coverart.
+
+
 The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3673,13 +3657,6 @@ Users can choose between several options for the effects loaded in these racks i
 
 Controls
 ++++++++
-
-.. mixxx:control:: [EffectRack1],show
-
-   Show the Effect Rack
-
-   :range: binary
-
 
 .. mixxx:control:: [EffectRack1],num_effectunits
                    [EqualizerRack1],num_effectunits
@@ -4016,6 +3993,70 @@ Controls
 
    :range: integer, read-only
 
+
+.. seealso::
+   The :mixxx:coref:`[EffectRack1],show` control can be used to show and hide the effect section in the GUI.
+
+
+The ``[Skin]`` group
+~~~~~~~~~~~~~~~~~~~~
+
+The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selective show and hide parts of the :term:`graphical user interface <GUI>` of Mixxx to suit your needs.
+
+.. note::
+   Some skins may not support some or all of these controls.
+   In this case, triggering the unsupported control will do nothing.
+
+.. mixxx:control:: [Skin],show_effectrack
+
+   Toggle the display of the effect rack in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Effect rack is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_library_coverart
+
+   Toggle the display of cover art in the library section of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Cover art in the library is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_maximized_library
+
+   Toggle maximized view of library section of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: The library section of the user interface is enlarged/shrunk.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_samplers
+
+   Toggle the display of sampler banks in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Sampler banks are shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_vinylcontrol
+
+   Toggle the :ref:`vinyl control <vinyl-control>` section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Vinyl controls are shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
 
@@ -4114,6 +4155,60 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[Master],gain` instead.
+
+
+.. mixxx:control:: [Master],maximize_library
+
+   Toggle maximized view of library.
+
+   :range: binary
+   :feedback: Toggle maximized view of library
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_maximized_library` instead.
+
+
+.. mixxx:control:: [Samplers],show_samplers
+
+   :range: binary
+   :feedback: Shows Sampler bank(s)
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_samplers` instead.
+
+
+.. mixxx:control:: [VinylControl],show_vinylcontrol
+
+   Toggle the vinyl control section in skins.
+
+   :range: binary
+   :feedback: Vinyl controls are shown
+
+   .. versionadded:: 1.10.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_vinylcontrol` instead.
+
+
+.. mixxx:control:: [Library],show_coverart
+
+   Toggle the Cover Art in Library
+
+   :range: Binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_library_coverart` instead.
+
+
+.. mixxx:control:: [EffectRack1],show
+
+   Show the Effect Rack
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_effectrack` instead.
+
 
 .. mixxx:control:: [ChannelN],hotcue_X_enabled
                    [PreviewDeckN],hotcue_X_enabled
