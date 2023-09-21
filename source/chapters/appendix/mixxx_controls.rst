@@ -2825,7 +2825,7 @@ These controls can be used to control all samplers.
    :range: binary
    :feedback: Opens file dialog. Configuration file can be named and saved.
 
-   .. versionadded: 2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Sampler],LoadSamplerBank
@@ -2835,7 +2835,7 @@ These controls can be used to control all samplers.
    :range: binary
    :feedback: Opens file dialog. Select configuration file.
 
-   .. versionadded: 2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. _appendix-mixxxcontrols-aux:
