@@ -80,16 +80,18 @@ These are available on any configuration with decks, but not the 4
 effect unit layout.
 
 -  Bottom left encoder:
--  adjust tempo of all decks with sync enabled
--  press and turn: PFL/master mix in headphones
--  shift: headphone gain
--  press with shift: toggle split cue mode
--  Bottom right encoder
--  scroll through tracks in library
--  press and release: load selected track into first stopped deck
--  press and hold: load selected track into a deck by pressing the play
-   button of the deck
--  shift: master gain
+
+   -  adjust tempo of all decks with sync enabled
+   -  press and turn: PFL/main mix in headphones
+   -  shift: headphone gain
+   -  press with shift: toggle split cue mode
+
+-  Bottom right encoder:
+
+   -  scroll through tracks in library
+   -  press and release: load selected track into first stopped deck
+   -  press and hold: load selected track into a deck by pressing the play button of the deck
+   -  shift: main gain
 
 Decks
 -----
