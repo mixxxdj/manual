@@ -99,9 +99,10 @@ Control                                                          Function
 ===============================================================  ==========================================
 
 .. note::
-The effects can be applied in two ways:
-- Permanent = Press pad to turn effect On, press again to turn Off.
-- Momentary = Press and Hold. The effect will be On until the pad is released.
+   The effects can be applied in two ways:
+
+   * Permanent = Press pad to turn effect on, press again to turn off.
+   * Momentary = Press and Hold. The effect will be on until the pad is released.
 
 
 Sampler Mode
