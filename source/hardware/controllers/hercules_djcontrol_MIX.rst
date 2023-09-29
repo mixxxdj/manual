@@ -53,7 +53,7 @@ Control                                                          Function
 :hwlabel:`MASTER` 				                             	 Controls the master output volume
 :hwlabel:`HEADPHONE` knob				                         Controls the headphone output volume
 :hwlabel:`Headphone` buttons				                     Toggles PFL/Cue (headphones) for specific deck
-:hwlabel:`SHIFT` + :hwlabel:`CUE MASTER`						 Toggles between headphone’s audio source (Cue / Master)
+:hwlabel:`SHIFT` + :hwlabel:`CUE MASTER`						 Toggles between headphone’s audio source (Cue / Main)
 :hwlabel:`SHIFT` + :hwlabel:`SPLIT ON/OFF` 						 Toggles split cue (headphones)
 :hwlabel:`Volume` 				                             	 Controls deck volume
 :hwlabel:`Filter/Bass` knob				                         Controls deck’s filter/ equalizer low frequencies
