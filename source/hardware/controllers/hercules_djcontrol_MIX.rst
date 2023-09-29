@@ -70,8 +70,8 @@ Hot Cue Mode
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`Pad 1 - 4`                                             Set and trigger :term:`hotcue` 1 - 4
-:hwlabel:`SHIFT` + :hwlabel: `Pad 1 - 4`                         Delete :term:`hotcue` 1 - 4.
+Pad :hwlabel:`1` - :hwlabel:`4`                                  Set and trigger :term:`hotcue` 1 - 4
+:hwlabel:`SHIFT` + Pad :hwlabel:`1` - :hwlabel:`4`               Delete :term:`hotcue` 1 - 4.
 ===============================================================  ==========================================
 
 Loop Mode
