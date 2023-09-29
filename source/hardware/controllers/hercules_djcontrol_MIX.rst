@@ -80,10 +80,10 @@ Loop Mode
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`Pad 1`                                                 Activate Beatloop of 1/2 beat size.
-:hwlabel:`Pad 2`                                                 Activate Beatloop of 1 beat size.
-:hwlabel:`Pad 3`                                                 Activate Beatloop of 2 beat size.
-:hwlabel:`Pad 4`                                                 Activate Beatloop of 4 beat size.
+Pad :hwlabel:`1`                                                 Activate beatloop of 1/2 beat size.
+Pad :hwlabel:`2`                                                 Activate beatloop of 1 beat size.
+Pad :hwlabel:`3`                                                 Activate beatloop of 2 beats size.
+Pad :hwlabel:`4`                                                 Activate beatloop of 4 beats size.
 
 ===============================================================  ==========================================
 
