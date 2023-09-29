@@ -16,7 +16,7 @@ Windows.
 .. note::
 In order to use this mapping, the DJControl MIX must be physically connected to the computer through USB. It was not conceived to use the controller connected via Bluetooth.
 
-Sound card setup
+Sound Card Setup
 ----------------
 
 This device does not have a built in audio interface.
