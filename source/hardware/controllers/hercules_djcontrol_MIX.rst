@@ -51,7 +51,7 @@ Control                                                          Function
 ===============================================================  ==========================================
 :hwlabel:`Crossfader` 				                             Fades between deck 1 and 2
 :hwlabel:`MASTER` 				                             	 Controls the master output volume
-:hwlabel:`HEADPHONE` knob				                         Controls the Headphone output volume
+:hwlabel:`HEADPHONE` knob				                         Controls the headphone output volume
 :hwlabel:`Headphone` buttons				                     Toggles PFL/Cue (headphones) for specific deck
 :hwlabel:`SHIFT` + :hwlabel:`CUE MASTER`						 Toggles between headphone’s audio source (Cue / Master)
 :hwlabel:`SHIFT` + :hwlabel:`SPLIT ON/OFF` 						 Toggles split cue (headphones)
