@@ -14,7 +14,7 @@ This controller is a class compliant USB MIDI, so it can be used without any spe
 Windows.
 
 .. note::
-In order to use this mapping, the DJControl MIX must be physically connected to the computer through USB. It was not conceived to use the controller connected via Bluetooth.
+   In order to use this mapping, the DJControl MIX must be physically connected to the computer through USB. It was not conceived to use the controller connected via Bluetooth.
 
 Sound Card Setup
 ----------------
