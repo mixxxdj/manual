@@ -5,7 +5,7 @@ Hercules DJControl MIX
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolmix-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-contrl-mix-mapping/26581>`__
 
-.. versionadded:: 2.3
+.. versionadded:: 2.4.0
 
 Compatibility
 -------------
