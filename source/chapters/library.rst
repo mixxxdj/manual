@@ -440,7 +440,6 @@ Mixxx supports the following filters:
 
        ~key:c#m
 
-    You can combine operators but there's no way to do an “OR” search right now.
     The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
 
@@ -474,6 +473,28 @@ Mixxx supports the following filters:
   .. note::
      You can put a space after the colon but currently there must be no space
      between the operator and the number.
+
+In addition to combining filters directly (effectively an "AND"), you can also combine queries using the "OR" operator, spelled ``|``.
+
+Examples
+  ::
+
+    genre:house | genre:techno
+
+  The "OR" operator has a lower precedence than regular filters, so you can create larger queries too. The following query, for example, would match all tracks that are Pop or 5-star Hip-Hop:
+
+  ::
+
+    genre:pop | rating:5 genre:hip-hop
+
+  Similar to popular search engines, the "OR" operator also supports the alternative spelling ``OR``, so the previous query could equivalently be written as:
+
+  ::
+
+    genre:pop OR rating:5 genre:hip-hop
+
+.. note::
+  The spelled-out form is case-sensitive: While uppercase ``OR`` refers to the operator, lowercase ``or`` refers to the literal string ``or``. Using the quoted form ``"OR"`` will also search for the literal string.
 
 .. _library-previewing-tracks:
 
