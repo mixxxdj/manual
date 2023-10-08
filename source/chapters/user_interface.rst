@@ -565,11 +565,12 @@ Sync and Rate Controls
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../_static/2.3/sync-and-rate.png
+.. figure:: ../_static/2.4/sync-and-rate.png
    :align: right
-   :width: 76px
-   :figwidth: 100px
+   :width: 81px
+   :figwidth: 120px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
 
@@ -590,6 +591,7 @@ control rate changes also from your computer's keyboard, see the chapter
   sync to samplers and samplers can only sync to decks. The sync target for
   samplers is:
 
+  * The sync leader, identified by the lit sync-lock button and the crown symbol.
   * The first deck (in numerical order) that is playing a track with a detected
     beatgrid, and has a rate different than zero.
   * The first deck (in numerical order) that has a track loaded with a detected
