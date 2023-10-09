@@ -1,7 +1,7 @@
 Numark Party Mix
 ================
 
-`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · `Manufacturer's user manual <https://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-mix-midi-mapping/16712>`_
+`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · `Manufacturer's user manual <http://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-mix-midi-mapping/16712>`_
 
 .. versionadded:: 2.3.4
 
