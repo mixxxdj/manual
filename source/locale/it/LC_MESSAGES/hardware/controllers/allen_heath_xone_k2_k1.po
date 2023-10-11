@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"POT-Creation-Date: 2023-10-11 21:36+0200\n"
 "PO-Revision-Date: 2022-09-05 05:41+0000\n"
 "Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7664/it/)\n"
 "MIME-Version: 1.0\n"
@@ -189,49 +189,49 @@ msgstr ""
 msgid "Bottom left encoder:"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:83
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:84
 msgid "adjust tempo of all decks with sync enabled"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:84
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:85
 msgid "press and turn: PFL/main mix in headphones"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:85
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:86
 msgid "shift: headphone gain"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:86
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:87
 msgid "press with shift: toggle split cue mode"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:87
-msgid "Bottom right encoder"
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:89
+msgid "Bottom right encoder:"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:88
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:91
 msgid "scroll through tracks in library"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:89
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:92
 msgid "press and release: load selected track into first stopped deck"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:90
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:93
 msgid ""
 "press and hold: load selected track into a deck by pressing the play button "
 "of the deck"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:92
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:94
 msgid "shift: main gain"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:95
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:97
 msgid "Decks"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:97
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:99
 msgid ""
 "The bottom right button is the shift button. The bottom left button toggles "
 "the bottom button grid between a loop layer (amber) and a hotcue layer "
@@ -239,179 +239,179 @@ msgid ""
 "time activates supershift mode."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:102
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:104
 msgid "Top encoder: jog"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:104
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:106
 msgid "shift: gain"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:105
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:107
 msgid "supershift: adjust key"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:107
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:109
 msgid "Top encoder press: reset gain"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:109
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:111
 msgid "shift: sync lock"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:110
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:112
 msgid "supershift: reset key"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:112
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:114
 msgid "Knobs: high/mid/low equalizer knobs"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:113
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:115
 msgid "Top button 1: headphones/PFL"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:115
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:117
 msgid "shift: reset tempo"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:116
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:118
 msgid "supershift: set beatgrid to current position"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:118
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:120
 msgid "Top button 2: cue"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:120
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:122
 msgid "shift: go to beginning of track and stop"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:121
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:123
 msgid "supershift: keylock"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:123
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:125
 msgid "Top button 3: play"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:125
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:127
 msgid "shift: reverse"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:126
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:128
 msgid "supershift: quantize"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:128
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:130
 msgid "Fader: volume"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:129
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:131
 msgid ""
 "Bottom buttons (intro/outro cue layer, amber): Intro/outro cues from top to "
 "bottom are ordered: - Intro start - Intro end - Outro start - Outro end"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:133
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:135
 msgid "press: jump to that cue or sets it if it is not set"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:134
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:136
 msgid ""
 "shift: seek forward/back. The top two (intro) buttons seek quickly; the "
 "bottom two (outro) seek slowly"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:136
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:138
 msgid "supershift: delete cue"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:138
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:140
 msgid ""
 "Bottom buttons (hotcue layer, red): Hotcues are ordered 1-4 from top to "
 "bottom"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:141
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:143
 msgid "press: jump to that hotcue or sets it if it is not set"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:142
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:144
 msgid ""
 "shift: seek forward/back. The top two buttons seek quickly; the bottom two "
 "seek slowly"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:144
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:146
 msgid "supershift: delete hotcue"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:146
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:148
 msgid "Bottom buttons (loop layer, green):"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:147
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:149
 msgid "Bottom button 1 (red): reloop/disable loop"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:149
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:151
 msgid "shift: jump to to beginning of loop, stop playback, and activate loop"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:151
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:153
 msgid ""
 "supershift: set loop in point. Hold to move loop in point with play "
 "position."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:154
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:156
 msgid "Bottom button 2 (green): activate loop of selected size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:156
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:158
 msgid "shift: activate rolling loop of selected size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:157
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:159
 msgid ""
 "supershift: set loop out point. Hold to move loop out point with play "
 "position."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:160
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:162
 msgid "Bottom button 3 (amber): double loop size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:162
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:164
 msgid ""
 "shift: beatjump forward by selected size if no loop is enabled. If loop is "
 "enabled, move the loop forward by the beatjump size."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:164
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:166
 msgid "supershift: double beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:166
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:168
 msgid "Bottom button 4 (amber): halve loop size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:168
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:170
 msgid ""
 "shift: beatjump backward by selected size if no loop is enabled. If loop is "
 "enabled, move the loop backward by the beatjump size."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:170
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:172
 msgid "supershift: halve beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:173
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:175
 msgid "Effects"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:175
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:177
 msgid ""
 "The top part of the column uses the :ref:`Standard Effects Mapping "
 "<controller-effects-mapping>`. Pressing the top encoder acts as the effect "
@@ -420,11 +420,11 @@ msgid ""
 " effect is focused, the buttons are amber."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:182
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:184
 msgid "The fader acts as the mix knob."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:184
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:186
 msgid ""
 "The bottom buttons assign the effect unit to different input channels and "
 "light up red. On the two deck layouts, from top to bottom, they assign the "
@@ -437,15 +437,15 @@ msgid ""
 "light up amber."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:194
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:196
 msgid "The bottom encoders are not mapped in the 4 effect unit layout."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:197
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:199
 msgid "Effect unit focusing"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:199
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:201
 msgid ""
 "In addition to focusing one effect in a unit at a time with the "
 ":ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone K2/K1"
@@ -456,7 +456,7 @@ msgid ""
 "which effect unit to focus."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:207
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:209
 msgid ""
 "In this mode, each horizontal row of knobs and buttons controls one effect. "
 "The knobs control the parameters of the effects. Turning any of the knobs "
@@ -468,18 +468,18 @@ msgid ""
 "routing buttons."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:216
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:218
 msgid ""
 "To get back to controlling all 4 effect units, press the Layer button again."
 " The next time Layer is pressed, the effect unit that was focused before "
 "will be remembered (but it will not be remembered after restarting Mixxx)."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:222
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:224
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:224
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:226
 msgid ""
 "If general functionality or supershift are not working, double check that "
 "Latch Layers is turned off and MIDI CH is selected. Refer to the `Xone K2 "
@@ -487,22 +487,22 @@ msgid ""
 "for details."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:231
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:233
 msgid "Known Issues"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:233
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:235
 msgid "There are a few known issues with the Xone K2/K1 firmware:"
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:235
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:237
 msgid ""
 "Since there is no way for Mixxx to ask the controller about the positions of"
 " all the knobs and faders when Mixxx starts, they are out of sync with the "
 "state of Mixxx until they are first moved."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:238
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:240
 msgid ""
 "When the USB connection is interrupted and the controller stays powered on, "
 "such as leaving the controller plugged into a powered USB hub and "
@@ -510,7 +510,7 @@ msgid ""
 "input until it is powered down (unplugged) and plugged back in."
 msgstr ""
 
-#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:243
+#: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:245
 msgid ""
 "If you would like these issues to be fixed, please let `Allen & Heath "
 "Support <https://www.allen-heath.com/support/>`__ know."

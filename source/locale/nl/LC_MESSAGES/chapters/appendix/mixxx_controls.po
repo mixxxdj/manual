@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"POT-Creation-Date: 2023-10-11 21:36+0200\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -466,33 +466,33 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:446
 #: ../../chapters/appendix/mixxx_controls.rst:456
 #: ../../chapters/appendix/mixxx_controls.rst:844
-#: ../../chapters/appendix/mixxx_controls.rst:2004
-#: ../../chapters/appendix/mixxx_controls.rst:2015
-#: ../../chapters/appendix/mixxx_controls.rst:2029
-#: ../../chapters/appendix/mixxx_controls.rst:2054
-#: ../../chapters/appendix/mixxx_controls.rst:2092
-#: ../../chapters/appendix/mixxx_controls.rst:2154
-#: ../../chapters/appendix/mixxx_controls.rst:2166
-#: ../../chapters/appendix/mixxx_controls.rst:2190
-#: ../../chapters/appendix/mixxx_controls.rst:2291
-#: ../../chapters/appendix/mixxx_controls.rst:2303
-#: ../../chapters/appendix/mixxx_controls.rst:2595
-#: ../../chapters/appendix/mixxx_controls.rst:2720
-#: ../../chapters/appendix/mixxx_controls.rst:2734
-#: ../../chapters/appendix/mixxx_controls.rst:2746
-#: ../../chapters/appendix/mixxx_controls.rst:2758
-#: ../../chapters/appendix/mixxx_controls.rst:3104
-#: ../../chapters/appendix/mixxx_controls.rst:3117
-#: ../../chapters/appendix/mixxx_controls.rst:3130
-#: ../../chapters/appendix/mixxx_controls.rst:3165
-#: ../../chapters/appendix/mixxx_controls.rst:3178
-#: ../../chapters/appendix/mixxx_controls.rst:3200
-#: ../../chapters/appendix/mixxx_controls.rst:3213
-#: ../../chapters/appendix/mixxx_controls.rst:3226
-#: ../../chapters/appendix/mixxx_controls.rst:4057
-#: ../../chapters/appendix/mixxx_controls.rst:4122
-#: ../../chapters/appendix/mixxx_controls.rst:4214
-#: ../../chapters/appendix/mixxx_controls.rst:4235
+#: ../../chapters/appendix/mixxx_controls.rst:2007
+#: ../../chapters/appendix/mixxx_controls.rst:2018
+#: ../../chapters/appendix/mixxx_controls.rst:2032
+#: ../../chapters/appendix/mixxx_controls.rst:2057
+#: ../../chapters/appendix/mixxx_controls.rst:2095
+#: ../../chapters/appendix/mixxx_controls.rst:2157
+#: ../../chapters/appendix/mixxx_controls.rst:2169
+#: ../../chapters/appendix/mixxx_controls.rst:2193
+#: ../../chapters/appendix/mixxx_controls.rst:2294
+#: ../../chapters/appendix/mixxx_controls.rst:2306
+#: ../../chapters/appendix/mixxx_controls.rst:2606
+#: ../../chapters/appendix/mixxx_controls.rst:2731
+#: ../../chapters/appendix/mixxx_controls.rst:2745
+#: ../../chapters/appendix/mixxx_controls.rst:2757
+#: ../../chapters/appendix/mixxx_controls.rst:2769
+#: ../../chapters/appendix/mixxx_controls.rst:3120
+#: ../../chapters/appendix/mixxx_controls.rst:3133
+#: ../../chapters/appendix/mixxx_controls.rst:3146
+#: ../../chapters/appendix/mixxx_controls.rst:3181
+#: ../../chapters/appendix/mixxx_controls.rst:3194
+#: ../../chapters/appendix/mixxx_controls.rst:3216
+#: ../../chapters/appendix/mixxx_controls.rst:3229
+#: ../../chapters/appendix/mixxx_controls.rst:3242
+#: ../../chapters/appendix/mixxx_controls.rst:4073
+#: ../../chapters/appendix/mixxx_controls.rst:4129
+#: ../../chapters/appendix/mixxx_controls.rst:4221
+#: ../../chapters/appendix/mixxx_controls.rst:4242
 msgid ""
 "This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-"
 "controlpotmeter>`."
@@ -565,123 +565,123 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:1042
 #: ../../chapters/appendix/mixxx_controls.rst:1052
 #: ../../chapters/appendix/mixxx_controls.rst:1062
-#: ../../chapters/appendix/mixxx_controls.rst:1082
-#: ../../chapters/appendix/mixxx_controls.rst:1094
-#: ../../chapters/appendix/mixxx_controls.rst:1136
-#: ../../chapters/appendix/mixxx_controls.rst:1157
-#: ../../chapters/appendix/mixxx_controls.rst:1205
-#: ../../chapters/appendix/mixxx_controls.rst:1289
-#: ../../chapters/appendix/mixxx_controls.rst:1301
-#: ../../chapters/appendix/mixxx_controls.rst:1316
-#: ../../chapters/appendix/mixxx_controls.rst:1328
-#: ../../chapters/appendix/mixxx_controls.rst:1353
-#: ../../chapters/appendix/mixxx_controls.rst:1402
-#: ../../chapters/appendix/mixxx_controls.rst:1414
-#: ../../chapters/appendix/mixxx_controls.rst:1426
-#: ../../chapters/appendix/mixxx_controls.rst:1438
-#: ../../chapters/appendix/mixxx_controls.rst:1474
-#: ../../chapters/appendix/mixxx_controls.rst:1486
-#: ../../chapters/appendix/mixxx_controls.rst:1498
-#: ../../chapters/appendix/mixxx_controls.rst:1534
-#: ../../chapters/appendix/mixxx_controls.rst:1585
-#: ../../chapters/appendix/mixxx_controls.rst:1597
-#: ../../chapters/appendix/mixxx_controls.rst:1607
-#: ../../chapters/appendix/mixxx_controls.rst:1631
-#: ../../chapters/appendix/mixxx_controls.rst:1646
-#: ../../chapters/appendix/mixxx_controls.rst:1662
-#: ../../chapters/appendix/mixxx_controls.rst:1688
-#: ../../chapters/appendix/mixxx_controls.rst:1703
-#: ../../chapters/appendix/mixxx_controls.rst:1716
-#: ../../chapters/appendix/mixxx_controls.rst:1728
-#: ../../chapters/appendix/mixxx_controls.rst:1741
-#: ../../chapters/appendix/mixxx_controls.rst:1769
-#: ../../chapters/appendix/mixxx_controls.rst:1787
-#: ../../chapters/appendix/mixxx_controls.rst:1872
-#: ../../chapters/appendix/mixxx_controls.rst:1884
-#: ../../chapters/appendix/mixxx_controls.rst:1920
-#: ../../chapters/appendix/mixxx_controls.rst:1932
-#: ../../chapters/appendix/mixxx_controls.rst:1944
-#: ../../chapters/appendix/mixxx_controls.rst:1980
-#: ../../chapters/appendix/mixxx_controls.rst:1992
-#: ../../chapters/appendix/mixxx_controls.rst:2006
-#: ../../chapters/appendix/mixxx_controls.rst:2017
-#: ../../chapters/appendix/mixxx_controls.rst:2031
-#: ../../chapters/appendix/mixxx_controls.rst:2042
-#: ../../chapters/appendix/mixxx_controls.rst:2068
-#: ../../chapters/appendix/mixxx_controls.rst:2080
-#: ../../chapters/appendix/mixxx_controls.rst:2108
-#: ../../chapters/appendix/mixxx_controls.rst:2142
-#: ../../chapters/appendix/mixxx_controls.rst:2178
-#: ../../chapters/appendix/mixxx_controls.rst:2211
-#: ../../chapters/appendix/mixxx_controls.rst:2221
-#: ../../chapters/appendix/mixxx_controls.rst:2231
-#: ../../chapters/appendix/mixxx_controls.rst:2241
-#: ../../chapters/appendix/mixxx_controls.rst:2251
-#: ../../chapters/appendix/mixxx_controls.rst:2261
-#: ../../chapters/appendix/mixxx_controls.rst:2271
-#: ../../chapters/appendix/mixxx_controls.rst:2281
-#: ../../chapters/appendix/mixxx_controls.rst:2322
-#: ../../chapters/appendix/mixxx_controls.rst:2333
-#: ../../chapters/appendix/mixxx_controls.rst:2345
-#: ../../chapters/appendix/mixxx_controls.rst:2357
-#: ../../chapters/appendix/mixxx_controls.rst:2368
-#: ../../chapters/appendix/mixxx_controls.rst:2378
-#: ../../chapters/appendix/mixxx_controls.rst:2402
-#: ../../chapters/appendix/mixxx_controls.rst:2414
-#: ../../chapters/appendix/mixxx_controls.rst:2426
-#: ../../chapters/appendix/mixxx_controls.rst:2438
-#: ../../chapters/appendix/mixxx_controls.rst:2450
-#: ../../chapters/appendix/mixxx_controls.rst:2460
-#: ../../chapters/appendix/mixxx_controls.rst:2472
-#: ../../chapters/appendix/mixxx_controls.rst:2484
-#: ../../chapters/appendix/mixxx_controls.rst:2496
-#: ../../chapters/appendix/mixxx_controls.rst:2508
-#: ../../chapters/appendix/mixxx_controls.rst:2607
-#: ../../chapters/appendix/mixxx_controls.rst:2622
-#: ../../chapters/appendix/mixxx_controls.rst:2632
-#: ../../chapters/appendix/mixxx_controls.rst:2846
-#: ../../chapters/appendix/mixxx_controls.rst:2885
-#: ../../chapters/appendix/mixxx_controls.rst:2926
-#: ../../chapters/appendix/mixxx_controls.rst:2952
-#: ../../chapters/appendix/mixxx_controls.rst:2978
-#: ../../chapters/appendix/mixxx_controls.rst:3007
-#: ../../chapters/appendix/mixxx_controls.rst:3014
-#: ../../chapters/appendix/mixxx_controls.rst:3024
-#: ../../chapters/appendix/mixxx_controls.rst:3046
-#: ../../chapters/appendix/mixxx_controls.rst:3070
-#: ../../chapters/appendix/mixxx_controls.rst:3106
-#: ../../chapters/appendix/mixxx_controls.rst:3119
-#: ../../chapters/appendix/mixxx_controls.rst:3132
-#: ../../chapters/appendix/mixxx_controls.rst:3142
-#: ../../chapters/appendix/mixxx_controls.rst:3153
-#: ../../chapters/appendix/mixxx_controls.rst:3189
-#: ../../chapters/appendix/mixxx_controls.rst:3243
-#: ../../chapters/appendix/mixxx_controls.rst:3253
-#: ../../chapters/appendix/mixxx_controls.rst:3264
-#: ../../chapters/appendix/mixxx_controls.rst:3278
-#: ../../chapters/appendix/mixxx_controls.rst:3306
-#: ../../chapters/appendix/mixxx_controls.rst:3316
-#: ../../chapters/appendix/mixxx_controls.rst:3326
-#: ../../chapters/appendix/mixxx_controls.rst:3336
-#: ../../chapters/appendix/mixxx_controls.rst:3346
-#: ../../chapters/appendix/mixxx_controls.rst:3767
-#: ../../chapters/appendix/mixxx_controls.rst:3820
-#: ../../chapters/appendix/mixxx_controls.rst:3870
-#: ../../chapters/appendix/mixxx_controls.rst:3880
-#: ../../chapters/appendix/mixxx_controls.rst:3955
-#: ../../chapters/appendix/mixxx_controls.rst:3973
-#: ../../chapters/appendix/mixxx_controls.rst:3991
-#: ../../chapters/appendix/mixxx_controls.rst:4018
-#: ../../chapters/appendix/mixxx_controls.rst:4025
-#: ../../chapters/appendix/mixxx_controls.rst:4032
-#: ../../chapters/appendix/mixxx_controls.rst:4039
-#: ../../chapters/appendix/mixxx_controls.rst:4068
-#: ../../chapters/appendix/mixxx_controls.rst:4095
-#: ../../chapters/appendix/mixxx_controls.rst:4104
+#: ../../chapters/appendix/mixxx_controls.rst:1085
+#: ../../chapters/appendix/mixxx_controls.rst:1097
+#: ../../chapters/appendix/mixxx_controls.rst:1139
+#: ../../chapters/appendix/mixxx_controls.rst:1160
+#: ../../chapters/appendix/mixxx_controls.rst:1208
+#: ../../chapters/appendix/mixxx_controls.rst:1292
+#: ../../chapters/appendix/mixxx_controls.rst:1304
+#: ../../chapters/appendix/mixxx_controls.rst:1319
+#: ../../chapters/appendix/mixxx_controls.rst:1331
+#: ../../chapters/appendix/mixxx_controls.rst:1356
+#: ../../chapters/appendix/mixxx_controls.rst:1405
+#: ../../chapters/appendix/mixxx_controls.rst:1417
+#: ../../chapters/appendix/mixxx_controls.rst:1429
+#: ../../chapters/appendix/mixxx_controls.rst:1441
+#: ../../chapters/appendix/mixxx_controls.rst:1477
+#: ../../chapters/appendix/mixxx_controls.rst:1489
+#: ../../chapters/appendix/mixxx_controls.rst:1501
+#: ../../chapters/appendix/mixxx_controls.rst:1537
+#: ../../chapters/appendix/mixxx_controls.rst:1588
+#: ../../chapters/appendix/mixxx_controls.rst:1600
+#: ../../chapters/appendix/mixxx_controls.rst:1610
+#: ../../chapters/appendix/mixxx_controls.rst:1634
+#: ../../chapters/appendix/mixxx_controls.rst:1649
+#: ../../chapters/appendix/mixxx_controls.rst:1665
+#: ../../chapters/appendix/mixxx_controls.rst:1691
+#: ../../chapters/appendix/mixxx_controls.rst:1706
+#: ../../chapters/appendix/mixxx_controls.rst:1719
+#: ../../chapters/appendix/mixxx_controls.rst:1731
+#: ../../chapters/appendix/mixxx_controls.rst:1744
+#: ../../chapters/appendix/mixxx_controls.rst:1772
+#: ../../chapters/appendix/mixxx_controls.rst:1790
+#: ../../chapters/appendix/mixxx_controls.rst:1875
+#: ../../chapters/appendix/mixxx_controls.rst:1887
+#: ../../chapters/appendix/mixxx_controls.rst:1923
+#: ../../chapters/appendix/mixxx_controls.rst:1935
+#: ../../chapters/appendix/mixxx_controls.rst:1947
+#: ../../chapters/appendix/mixxx_controls.rst:1983
+#: ../../chapters/appendix/mixxx_controls.rst:1995
+#: ../../chapters/appendix/mixxx_controls.rst:2009
+#: ../../chapters/appendix/mixxx_controls.rst:2020
+#: ../../chapters/appendix/mixxx_controls.rst:2034
+#: ../../chapters/appendix/mixxx_controls.rst:2045
+#: ../../chapters/appendix/mixxx_controls.rst:2071
+#: ../../chapters/appendix/mixxx_controls.rst:2083
+#: ../../chapters/appendix/mixxx_controls.rst:2111
+#: ../../chapters/appendix/mixxx_controls.rst:2145
+#: ../../chapters/appendix/mixxx_controls.rst:2181
+#: ../../chapters/appendix/mixxx_controls.rst:2214
+#: ../../chapters/appendix/mixxx_controls.rst:2224
+#: ../../chapters/appendix/mixxx_controls.rst:2234
+#: ../../chapters/appendix/mixxx_controls.rst:2244
+#: ../../chapters/appendix/mixxx_controls.rst:2254
+#: ../../chapters/appendix/mixxx_controls.rst:2264
+#: ../../chapters/appendix/mixxx_controls.rst:2274
+#: ../../chapters/appendix/mixxx_controls.rst:2284
+#: ../../chapters/appendix/mixxx_controls.rst:2325
+#: ../../chapters/appendix/mixxx_controls.rst:2336
+#: ../../chapters/appendix/mixxx_controls.rst:2348
+#: ../../chapters/appendix/mixxx_controls.rst:2360
+#: ../../chapters/appendix/mixxx_controls.rst:2371
+#: ../../chapters/appendix/mixxx_controls.rst:2381
+#: ../../chapters/appendix/mixxx_controls.rst:2405
+#: ../../chapters/appendix/mixxx_controls.rst:2417
+#: ../../chapters/appendix/mixxx_controls.rst:2429
+#: ../../chapters/appendix/mixxx_controls.rst:2441
+#: ../../chapters/appendix/mixxx_controls.rst:2453
+#: ../../chapters/appendix/mixxx_controls.rst:2463
+#: ../../chapters/appendix/mixxx_controls.rst:2475
+#: ../../chapters/appendix/mixxx_controls.rst:2487
+#: ../../chapters/appendix/mixxx_controls.rst:2499
+#: ../../chapters/appendix/mixxx_controls.rst:2511
+#: ../../chapters/appendix/mixxx_controls.rst:2618
+#: ../../chapters/appendix/mixxx_controls.rst:2633
+#: ../../chapters/appendix/mixxx_controls.rst:2643
+#: ../../chapters/appendix/mixxx_controls.rst:2857
+#: ../../chapters/appendix/mixxx_controls.rst:2896
+#: ../../chapters/appendix/mixxx_controls.rst:2937
+#: ../../chapters/appendix/mixxx_controls.rst:2963
+#: ../../chapters/appendix/mixxx_controls.rst:2989
+#: ../../chapters/appendix/mixxx_controls.rst:3018
+#: ../../chapters/appendix/mixxx_controls.rst:3025
+#: ../../chapters/appendix/mixxx_controls.rst:3035
+#: ../../chapters/appendix/mixxx_controls.rst:3057
+#: ../../chapters/appendix/mixxx_controls.rst:3081
+#: ../../chapters/appendix/mixxx_controls.rst:3122
+#: ../../chapters/appendix/mixxx_controls.rst:3135
+#: ../../chapters/appendix/mixxx_controls.rst:3148
+#: ../../chapters/appendix/mixxx_controls.rst:3158
+#: ../../chapters/appendix/mixxx_controls.rst:3169
+#: ../../chapters/appendix/mixxx_controls.rst:3205
+#: ../../chapters/appendix/mixxx_controls.rst:3259
+#: ../../chapters/appendix/mixxx_controls.rst:3269
+#: ../../chapters/appendix/mixxx_controls.rst:3280
+#: ../../chapters/appendix/mixxx_controls.rst:3294
+#: ../../chapters/appendix/mixxx_controls.rst:3322
+#: ../../chapters/appendix/mixxx_controls.rst:3332
+#: ../../chapters/appendix/mixxx_controls.rst:3342
+#: ../../chapters/appendix/mixxx_controls.rst:3352
+#: ../../chapters/appendix/mixxx_controls.rst:3362
+#: ../../chapters/appendix/mixxx_controls.rst:3783
+#: ../../chapters/appendix/mixxx_controls.rst:3836
+#: ../../chapters/appendix/mixxx_controls.rst:3886
+#: ../../chapters/appendix/mixxx_controls.rst:3896
+#: ../../chapters/appendix/mixxx_controls.rst:3971
+#: ../../chapters/appendix/mixxx_controls.rst:3989
+#: ../../chapters/appendix/mixxx_controls.rst:4007
+#: ../../chapters/appendix/mixxx_controls.rst:4034
+#: ../../chapters/appendix/mixxx_controls.rst:4041
+#: ../../chapters/appendix/mixxx_controls.rst:4048
+#: ../../chapters/appendix/mixxx_controls.rst:4055
+#: ../../chapters/appendix/mixxx_controls.rst:4084
+#: ../../chapters/appendix/mixxx_controls.rst:4102
 #: ../../chapters/appendix/mixxx_controls.rst:4111
-#: ../../chapters/appendix/mixxx_controls.rst:4133
-#: ../../chapters/appendix/mixxx_controls.rst:4169
-#: ../../chapters/appendix/mixxx_controls.rst:4225
+#: ../../chapters/appendix/mixxx_controls.rst:4118
+#: ../../chapters/appendix/mixxx_controls.rst:4140
+#: ../../chapters/appendix/mixxx_controls.rst:4176
+#: ../../chapters/appendix/mixxx_controls.rst:4232
 msgid "binary"
 msgstr ""
 
@@ -707,7 +707,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:148
 #: ../../chapters/appendix/mixxx_controls.rst:180
-#: ../../chapters/appendix/mixxx_controls.rst:2192
+#: ../../chapters/appendix/mixxx_controls.rst:2195
 msgid "-1.0..1.0"
 msgstr ""
 
@@ -772,8 +772,8 @@ msgid "Microphone ducking strength"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:226
-#: ../../chapters/appendix/mixxx_controls.rst:4059
-#: ../../chapters/appendix/mixxx_controls.rst:4124
+#: ../../chapters/appendix/mixxx_controls.rst:4075
+#: ../../chapters/appendix/mixxx_controls.rst:4131
 msgid "0.0..1.0"
 msgstr ""
 
@@ -800,18 +800,18 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:1011
 #: ../../chapters/appendix/mixxx_controls.rst:1021
 #: ../../chapters/appendix/mixxx_controls.rst:1073
-#: ../../chapters/appendix/mixxx_controls.rst:1115
-#: ../../chapters/appendix/mixxx_controls.rst:1125
-#: ../../chapters/appendix/mixxx_controls.rst:1391
-#: ../../chapters/appendix/mixxx_controls.rst:1620
-#: ../../chapters/appendix/mixxx_controls.rst:1837
-#: ../../chapters/appendix/mixxx_controls.rst:2573
-#: ../../chapters/appendix/mixxx_controls.rst:2585
-#: ../../chapters/appendix/mixxx_controls.rst:3087
-#: ../../chapters/appendix/mixxx_controls.rst:3768
-#: ../../chapters/appendix/mixxx_controls.rst:3881
+#: ../../chapters/appendix/mixxx_controls.rst:1118
+#: ../../chapters/appendix/mixxx_controls.rst:1128
+#: ../../chapters/appendix/mixxx_controls.rst:1394
+#: ../../chapters/appendix/mixxx_controls.rst:1623
+#: ../../chapters/appendix/mixxx_controls.rst:1840
+#: ../../chapters/appendix/mixxx_controls.rst:2584
+#: ../../chapters/appendix/mixxx_controls.rst:2596
+#: ../../chapters/appendix/mixxx_controls.rst:3103
+#: ../../chapters/appendix/mixxx_controls.rst:3784
 #: ../../chapters/appendix/mixxx_controls.rst:3897
-#: ../../chapters/appendix/mixxx_controls.rst:3925
+#: ../../chapters/appendix/mixxx_controls.rst:3913
+#: ../../chapters/appendix/mixxx_controls.rst:3941
 msgid "None"
 msgstr ""
 
@@ -852,15 +852,15 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:438
 #: ../../chapters/appendix/mixxx_controls.rst:448
 #: ../../chapters/appendix/mixxx_controls.rst:458
-#: ../../chapters/appendix/mixxx_controls.rst:2597
-#: ../../chapters/appendix/mixxx_controls.rst:2736
-#: ../../chapters/appendix/mixxx_controls.rst:2748
-#: ../../chapters/appendix/mixxx_controls.rst:2760
-#: ../../chapters/appendix/mixxx_controls.rst:2899
-#: ../../chapters/appendix/mixxx_controls.rst:3167
-#: ../../chapters/appendix/mixxx_controls.rst:3202
-#: ../../chapters/appendix/mixxx_controls.rst:3215
-#: ../../chapters/appendix/mixxx_controls.rst:3228
+#: ../../chapters/appendix/mixxx_controls.rst:2608
+#: ../../chapters/appendix/mixxx_controls.rst:2747
+#: ../../chapters/appendix/mixxx_controls.rst:2759
+#: ../../chapters/appendix/mixxx_controls.rst:2771
+#: ../../chapters/appendix/mixxx_controls.rst:2910
+#: ../../chapters/appendix/mixxx_controls.rst:3183
+#: ../../chapters/appendix/mixxx_controls.rst:3218
+#: ../../chapters/appendix/mixxx_controls.rst:3231
+#: ../../chapters/appendix/mixxx_controls.rst:3244
 msgid "default"
 msgstr ""
 
@@ -894,19 +894,19 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:306
 #: ../../chapters/appendix/mixxx_controls.rst:321
-#: ../../chapters/appendix/mixxx_controls.rst:1104
-#: ../../chapters/appendix/mixxx_controls.rst:1450
-#: ../../chapters/appendix/mixxx_controls.rst:1510
-#: ../../chapters/appendix/mixxx_controls.rst:1896
-#: ../../chapters/appendix/mixxx_controls.rst:1956
-#: ../../chapters/appendix/mixxx_controls.rst:2118
-#: ../../chapters/appendix/mixxx_controls.rst:2130
-#: ../../chapters/appendix/mixxx_controls.rst:2560
-#: ../../chapters/appendix/mixxx_controls.rst:3059
-#: ../../chapters/appendix/mixxx_controls.rst:4048
-#: ../../chapters/appendix/mixxx_controls.rst:4160
-#: ../../chapters/appendix/mixxx_controls.rst:4264
-#: ../../chapters/appendix/mixxx_controls.rst:4291
+#: ../../chapters/appendix/mixxx_controls.rst:1107
+#: ../../chapters/appendix/mixxx_controls.rst:1453
+#: ../../chapters/appendix/mixxx_controls.rst:1513
+#: ../../chapters/appendix/mixxx_controls.rst:1899
+#: ../../chapters/appendix/mixxx_controls.rst:1959
+#: ../../chapters/appendix/mixxx_controls.rst:2121
+#: ../../chapters/appendix/mixxx_controls.rst:2133
+#: ../../chapters/appendix/mixxx_controls.rst:2571
+#: ../../chapters/appendix/mixxx_controls.rst:3070
+#: ../../chapters/appendix/mixxx_controls.rst:4064
+#: ../../chapters/appendix/mixxx_controls.rst:4167
+#: ../../chapters/appendix/mixxx_controls.rst:4271
+#: ../../chapters/appendix/mixxx_controls.rst:4298
 msgid "binary, read-only"
 msgstr ""
 
@@ -952,13 +952,12 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:358
-#: ../../chapters/appendix/mixxx_controls.rst:3964
-#: ../../chapters/appendix/mixxx_controls.rst:4077
-#: ../../chapters/appendix/mixxx_controls.rst:4086
-#: ../../chapters/appendix/mixxx_controls.rst:4187
-#: ../../chapters/appendix/mixxx_controls.rst:4205
-#: ../../chapters/appendix/mixxx_controls.rst:4273
-#: ../../chapters/appendix/mixxx_controls.rst:4300
+#: ../../chapters/appendix/mixxx_controls.rst:3980
+#: ../../chapters/appendix/mixxx_controls.rst:4093
+#: ../../chapters/appendix/mixxx_controls.rst:4194
+#: ../../chapters/appendix/mixxx_controls.rst:4212
+#: ../../chapters/appendix/mixxx_controls.rst:4280
+#: ../../chapters/appendix/mixxx_controls.rst:4307
 msgid "integer, read-only"
 msgstr ""
 
@@ -987,8 +986,8 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:401
-#: ../../chapters/appendix/mixxx_controls.rst:2018
-#: ../../chapters/appendix/mixxx_controls.rst:3120
+#: ../../chapters/appendix/mixxx_controls.rst:2021
+#: ../../chapters/appendix/mixxx_controls.rst:3136
 msgid "Clip light (left)"
 msgstr ""
 
@@ -999,8 +998,8 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:411
-#: ../../chapters/appendix/mixxx_controls.rst:2032
-#: ../../chapters/appendix/mixxx_controls.rst:3133
+#: ../../chapters/appendix/mixxx_controls.rst:2035
+#: ../../chapters/appendix/mixxx_controls.rst:3149
 msgid "Clip light (right)"
 msgstr ""
 
@@ -1129,19 +1128,19 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:518
 #: ../../chapters/appendix/mixxx_controls.rst:999
-#: ../../chapters/appendix/mixxx_controls.rst:1231
-#: ../../chapters/appendix/mixxx_controls.rst:1254
-#: ../../chapters/appendix/mixxx_controls.rst:1273
-#: ../../chapters/appendix/mixxx_controls.rst:1548
-#: ../../chapters/appendix/mixxx_controls.rst:1831
-#: ../../chapters/appendix/mixxx_controls.rst:2524
-#: ../../chapters/appendix/mixxx_controls.rst:2646
-#: ../../chapters/appendix/mixxx_controls.rst:2664
-#: ../../chapters/appendix/mixxx_controls.rst:3081
-#: ../../chapters/appendix/mixxx_controls.rst:3288
-#: ../../chapters/appendix/mixxx_controls.rst:3490
-#: ../../chapters/appendix/mixxx_controls.rst:3621
-#: ../../chapters/appendix/mixxx_controls.rst:3891
+#: ../../chapters/appendix/mixxx_controls.rst:1234
+#: ../../chapters/appendix/mixxx_controls.rst:1257
+#: ../../chapters/appendix/mixxx_controls.rst:1276
+#: ../../chapters/appendix/mixxx_controls.rst:1551
+#: ../../chapters/appendix/mixxx_controls.rst:1834
+#: ../../chapters/appendix/mixxx_controls.rst:2535
+#: ../../chapters/appendix/mixxx_controls.rst:2657
+#: ../../chapters/appendix/mixxx_controls.rst:2675
+#: ../../chapters/appendix/mixxx_controls.rst:3097
+#: ../../chapters/appendix/mixxx_controls.rst:3304
+#: ../../chapters/appendix/mixxx_controls.rst:3506
+#: ../../chapters/appendix/mixxx_controls.rst:3637
+#: ../../chapters/appendix/mixxx_controls.rst:3907
 msgid "Value"
 msgstr ""
 
@@ -1150,24 +1149,24 @@ msgid "Play direction"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:518
-#: ../../chapters/appendix/mixxx_controls.rst:3645
+#: ../../chapters/appendix/mixxx_controls.rst:3661
 msgid "Position"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:520
-#: ../../chapters/appendix/mixxx_controls.rst:1233
-#: ../../chapters/appendix/mixxx_controls.rst:1256
-#: ../../chapters/appendix/mixxx_controls.rst:1275
-#: ../../chapters/appendix/mixxx_controls.rst:1833
-#: ../../chapters/appendix/mixxx_controls.rst:2526
-#: ../../chapters/appendix/mixxx_controls.rst:2648
-#: ../../chapters/appendix/mixxx_controls.rst:2666
-#: ../../chapters/appendix/mixxx_controls.rst:3083
-#: ../../chapters/appendix/mixxx_controls.rst:3290
-#: ../../chapters/appendix/mixxx_controls.rst:3492
-#: ../../chapters/appendix/mixxx_controls.rst:3893
-#: ../../chapters/appendix/mixxx_controls.rst:3925
-#: ../../chapters/appendix/mixxx_controls.rst:3935
+#: ../../chapters/appendix/mixxx_controls.rst:1236
+#: ../../chapters/appendix/mixxx_controls.rst:1259
+#: ../../chapters/appendix/mixxx_controls.rst:1278
+#: ../../chapters/appendix/mixxx_controls.rst:1836
+#: ../../chapters/appendix/mixxx_controls.rst:2537
+#: ../../chapters/appendix/mixxx_controls.rst:2659
+#: ../../chapters/appendix/mixxx_controls.rst:2677
+#: ../../chapters/appendix/mixxx_controls.rst:3099
+#: ../../chapters/appendix/mixxx_controls.rst:3306
+#: ../../chapters/appendix/mixxx_controls.rst:3508
+#: ../../chapters/appendix/mixxx_controls.rst:3909
+#: ../../chapters/appendix/mixxx_controls.rst:3941
+#: ../../chapters/appendix/mixxx_controls.rst:3951
 msgid "0"
 msgstr ""
 
@@ -1178,21 +1177,21 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:521
-#: ../../chapters/appendix/mixxx_controls.rst:1234
-#: ../../chapters/appendix/mixxx_controls.rst:1257
-#: ../../chapters/appendix/mixxx_controls.rst:1276
-#: ../../chapters/appendix/mixxx_controls.rst:1550
-#: ../../chapters/appendix/mixxx_controls.rst:1834
-#: ../../chapters/appendix/mixxx_controls.rst:2527
-#: ../../chapters/appendix/mixxx_controls.rst:2649
-#: ../../chapters/appendix/mixxx_controls.rst:2667
-#: ../../chapters/appendix/mixxx_controls.rst:3084
-#: ../../chapters/appendix/mixxx_controls.rst:3291
-#: ../../chapters/appendix/mixxx_controls.rst:3494
-#: ../../chapters/appendix/mixxx_controls.rst:3623
-#: ../../chapters/appendix/mixxx_controls.rst:3894
-#: ../../chapters/appendix/mixxx_controls.rst:3926
-#: ../../chapters/appendix/mixxx_controls.rst:3936
+#: ../../chapters/appendix/mixxx_controls.rst:1237
+#: ../../chapters/appendix/mixxx_controls.rst:1260
+#: ../../chapters/appendix/mixxx_controls.rst:1279
+#: ../../chapters/appendix/mixxx_controls.rst:1553
+#: ../../chapters/appendix/mixxx_controls.rst:1837
+#: ../../chapters/appendix/mixxx_controls.rst:2538
+#: ../../chapters/appendix/mixxx_controls.rst:2660
+#: ../../chapters/appendix/mixxx_controls.rst:2678
+#: ../../chapters/appendix/mixxx_controls.rst:3100
+#: ../../chapters/appendix/mixxx_controls.rst:3307
+#: ../../chapters/appendix/mixxx_controls.rst:3510
+#: ../../chapters/appendix/mixxx_controls.rst:3639
+#: ../../chapters/appendix/mixxx_controls.rst:3910
+#: ../../chapters/appendix/mixxx_controls.rst:3942
+#: ../../chapters/appendix/mixxx_controls.rst:3952
 msgid "1"
 msgstr ""
 
@@ -1206,19 +1205,19 @@ msgid "Set at a beat"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:522
-#: ../../chapters/appendix/mixxx_controls.rst:1235
-#: ../../chapters/appendix/mixxx_controls.rst:1258
-#: ../../chapters/appendix/mixxx_controls.rst:1551
-#: ../../chapters/appendix/mixxx_controls.rst:1835
-#: ../../chapters/appendix/mixxx_controls.rst:2528
-#: ../../chapters/appendix/mixxx_controls.rst:2650
-#: ../../chapters/appendix/mixxx_controls.rst:2668
-#: ../../chapters/appendix/mixxx_controls.rst:3085
-#: ../../chapters/appendix/mixxx_controls.rst:3292
-#: ../../chapters/appendix/mixxx_controls.rst:3496
-#: ../../chapters/appendix/mixxx_controls.rst:3624
-#: ../../chapters/appendix/mixxx_controls.rst:3895
-#: ../../chapters/appendix/mixxx_controls.rst:3927
+#: ../../chapters/appendix/mixxx_controls.rst:1238
+#: ../../chapters/appendix/mixxx_controls.rst:1261
+#: ../../chapters/appendix/mixxx_controls.rst:1554
+#: ../../chapters/appendix/mixxx_controls.rst:1838
+#: ../../chapters/appendix/mixxx_controls.rst:2539
+#: ../../chapters/appendix/mixxx_controls.rst:2661
+#: ../../chapters/appendix/mixxx_controls.rst:2679
+#: ../../chapters/appendix/mixxx_controls.rst:3101
+#: ../../chapters/appendix/mixxx_controls.rst:3308
+#: ../../chapters/appendix/mixxx_controls.rst:3512
+#: ../../chapters/appendix/mixxx_controls.rst:3640
+#: ../../chapters/appendix/mixxx_controls.rst:3911
+#: ../../chapters/appendix/mixxx_controls.rst:3943
 msgid "2"
 msgstr ""
 
@@ -1273,7 +1272,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:567
 #: ../../chapters/appendix/mixxx_controls.rst:676
-#: ../../chapters/appendix/mixxx_controls.rst:2833
+#: ../../chapters/appendix/mixxx_controls.rst:2844
 msgid "positive real number"
 msgstr ""
 
@@ -1359,7 +1358,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:664
 #: ../../chapters/appendix/mixxx_controls.rst:689
-#: ../../chapters/appendix/mixxx_controls.rst:2992
+#: ../../chapters/appendix/mixxx_controls.rst:3003
 msgid "A loop is shown over X beats."
 msgstr ""
 
@@ -1565,7 +1564,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:897
 #: ../../chapters/appendix/mixxx_controls.rst:909
-#: ../../chapters/appendix/mixxx_controls.rst:1598
+#: ../../chapters/appendix/mixxx_controls.rst:1601
 msgid "Track name & waveform change"
 msgstr ""
 
@@ -1619,9 +1618,9 @@ msgid "If the :term:`cue point` is set, seeks the player to it and stops."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:975
-#: ../../chapters/appendix/mixxx_controls.rst:1290
-#: ../../chapters/appendix/mixxx_controls.rst:1302
-#: ../../chapters/appendix/mixxx_controls.rst:1329
+#: ../../chapters/appendix/mixxx_controls.rst:1293
+#: ../../chapters/appendix/mixxx_controls.rst:1305
+#: ../../chapters/appendix/mixxx_controls.rst:1332
 msgid "Player may change position."
 msgstr ""
 
@@ -1734,58 +1733,66 @@ msgid "Outputs the length of the current song in seconds"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:1080
-msgid "Eject currently loaded track"
+msgid ""
+"Eject currently loaded track. If no track is loaded the last-ejected track "
+"(of any deck) is reloaded."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:1083
+msgid ""
+"Double-press to reload the last replaced track. If no track is loaded the "
+"second-last ejected track is reloaded."
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:1086
 msgid ""
 "Eject button is lit. Be sure to set back to 0 with scripts so the button "
 "does not stay lit."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1092
+#: ../../chapters/appendix/mixxx_controls.rst:1095
 msgid "Jump to end of track"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1095
+#: ../../chapters/appendix/mixxx_controls.rst:1098
 msgid "Track jumps to end"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1102
+#: ../../chapters/appendix/mixxx_controls.rst:1105
 msgid ""
 "Switches to 1 if the play position is within the end range defined in "
 ":menuselection:`Preferences --> Waveforms --> End of track warning`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1105
+#: ../../chapters/appendix/mixxx_controls.rst:1108
 msgid "Waveform and Overview widgets show a flashing border"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1112
+#: ../../chapters/appendix/mixxx_controls.rst:1115
 msgid "The detected :term:`BPM` of the loaded track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1114
+#: ../../chapters/appendix/mixxx_controls.rst:1117
 msgid "positive value, read-only"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1122
+#: ../../chapters/appendix/mixxx_controls.rst:1125
 msgid "The detected key of the loaded track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1124
+#: ../../chapters/appendix/mixxx_controls.rst:1127
 msgid "?, read-only"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1134
+#: ../../chapters/appendix/mixxx_controls.rst:1137
 msgid "Fast forward (FF)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1137
+#: ../../chapters/appendix/mixxx_controls.rst:1140
 msgid "> button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1144
+#: ../../chapters/appendix/mixxx_controls.rst:1147
 msgid ""
 "If :term:`hotcue` X is not set, this sets a hotcue at the current play "
 "position and saves it as hotcue X of :mixxx:coref:`type "
@@ -1795,13 +1802,13 @@ msgid ""
 " will be set to \"Loop\"."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1147
+#: ../../chapters/appendix/mixxx_controls.rst:1150
 msgid ""
 "If hotcue X has been set as a regular cue point, the player seeks to the "
 "saved play position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1149
+#: ../../chapters/appendix/mixxx_controls.rst:1152
 msgid ""
 "If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is \"Loop\", "
 "looping will be enabled and the loop controls (e.g. "
@@ -1816,7 +1823,7 @@ msgid ""
 "triggering this control."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1153
+#: ../../chapters/appendix/mixxx_controls.rst:1156
 msgid ""
 "Setting the control to 1 when the track is currently not playing (i.e. "
 ":mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue "
@@ -1826,21 +1833,21 @@ msgid ""
 "active, the playback will continue and no seek occurs."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1158
+#: ../../chapters/appendix/mixxx_controls.rst:1161
 msgid "Player may change position. Hotcue X marker may change on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1161
-#: ../../chapters/appendix/mixxx_controls.rst:1636
-#: ../../chapters/appendix/mixxx_controls.rst:1693
-#: ../../chapters/appendix/mixxx_controls.rst:1759
-#: ../../chapters/appendix/mixxx_controls.rst:1775
-#: ../../chapters/appendix/mixxx_controls.rst:1791
-#: ../../chapters/appendix/mixxx_controls.rst:1807
+#: ../../chapters/appendix/mixxx_controls.rst:1164
+#: ../../chapters/appendix/mixxx_controls.rst:1639
+#: ../../chapters/appendix/mixxx_controls.rst:1696
+#: ../../chapters/appendix/mixxx_controls.rst:1762
+#: ../../chapters/appendix/mixxx_controls.rst:1778
+#: ../../chapters/appendix/mixxx_controls.rst:1794
+#: ../../chapters/appendix/mixxx_controls.rst:1810
 msgid "Added support for saved loops."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1169
+#: ../../chapters/appendix/mixxx_controls.rst:1172
 msgid ""
 "Identical to :mixxx:coref:`hotcue_X_activate "
 "<[ChannelN],hotcue_X_activate>`, but this always sets a regular cue point, "
@@ -1848,7 +1855,7 @@ msgid ""
 " controllers that have dedicated :term:`hotcue`/saved loop pad modes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1179
+#: ../../chapters/appendix/mixxx_controls.rst:1182
 msgid ""
 "Identical to :mixxx:coref:`hotcue_X_activate "
 "<[ChannelN],hotcue_X_activate>`, but this always sets a saved loop, "
@@ -1858,7 +1865,7 @@ msgid ""
 "have dedicated :term:`hotcue`/saved loop pad modes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1190
+#: ../../chapters/appendix/mixxx_controls.rst:1193
 msgid ""
 "Enables or disables a loop from the position of :term:`hotcue` X. If X is a "
 "saved loop, that loop will be used, otherwise it will set a beatloop of "
@@ -1867,37 +1874,37 @@ msgid ""
 " point at the current position and start a beatloop."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1194
+#: ../../chapters/appendix/mixxx_controls.rst:1197
 msgid ""
 "This control can be used to map the primary action of the \"Cue Loop\" "
 "performance pad mode on Serato-style controllers."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1203
+#: ../../chapters/appendix/mixxx_controls.rst:1206
 msgid "If :term:`hotcue` X is set, clears its hotcue status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1206
-#: ../../chapters/appendix/mixxx_controls.rst:1341
-#: ../../chapters/appendix/mixxx_controls.rst:1354
+#: ../../chapters/appendix/mixxx_controls.rst:1209
+#: ../../chapters/appendix/mixxx_controls.rst:1344
+#: ../../chapters/appendix/mixxx_controls.rst:1357
 msgid "Hotcue X marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1215
+#: ../../chapters/appendix/mixxx_controls.rst:1218
 msgid "Color of :term:`hotcue` X or -1 if the hotcue is not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1217
-#: ../../chapters/appendix/mixxx_controls.rst:2548
+#: ../../chapters/appendix/mixxx_controls.rst:1220
+#: ../../chapters/appendix/mixxx_controls.rst:2559
 msgid "3-Byte :term:`RGB` color code (or -1)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1218
+#: ../../chapters/appendix/mixxx_controls.rst:1221
 msgid "Color of Hotcue X button and waveform marker changes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1227
-#: ../../chapters/appendix/mixxx_controls.rst:1249
+#: ../../chapters/appendix/mixxx_controls.rst:1230
+#: ../../chapters/appendix/mixxx_controls.rst:1252
 msgid "Indicates if :term:`hotcue` slot X is set, active or empty."
 msgstr ""
 
@@ -1905,84 +1912,84 @@ msgstr ""
 msgid "range (read-only)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1231
-#: ../../chapters/appendix/mixxx_controls.rst:1254
-#: ../../chapters/appendix/mixxx_controls.rst:1831
-#: ../../chapters/appendix/mixxx_controls.rst:2524
-#: ../../chapters/appendix/mixxx_controls.rst:2646
-#: ../../chapters/appendix/mixxx_controls.rst:2664
-#: ../../chapters/appendix/mixxx_controls.rst:3081
-#: ../../chapters/appendix/mixxx_controls.rst:3288
-#: ../../chapters/appendix/mixxx_controls.rst:3891
+#: ../../chapters/appendix/mixxx_controls.rst:1234
+#: ../../chapters/appendix/mixxx_controls.rst:1257
+#: ../../chapters/appendix/mixxx_controls.rst:1834
+#: ../../chapters/appendix/mixxx_controls.rst:2535
+#: ../../chapters/appendix/mixxx_controls.rst:2657
+#: ../../chapters/appendix/mixxx_controls.rst:2675
+#: ../../chapters/appendix/mixxx_controls.rst:3097
+#: ../../chapters/appendix/mixxx_controls.rst:3304
+#: ../../chapters/appendix/mixxx_controls.rst:3907
 msgid "Meaning"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1233
-#: ../../chapters/appendix/mixxx_controls.rst:1256
+#: ../../chapters/appendix/mixxx_controls.rst:1236
+#: ../../chapters/appendix/mixxx_controls.rst:1259
 msgid "Hotcue X is not set"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1234
-#: ../../chapters/appendix/mixxx_controls.rst:1257
+#: ../../chapters/appendix/mixxx_controls.rst:1237
+#: ../../chapters/appendix/mixxx_controls.rst:1260
 msgid "Hotcue X is set"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1235
-#: ../../chapters/appendix/mixxx_controls.rst:1258
+#: ../../chapters/appendix/mixxx_controls.rst:1238
+#: ../../chapters/appendix/mixxx_controls.rst:1261
 msgid "Hotcue X is active (saved loop is enabled or hotcue is previewing)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1239
+#: ../../chapters/appendix/mixxx_controls.rst:1242
 msgid "Added support for \"active\" state."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1241
+#: ../../chapters/appendix/mixxx_controls.rst:1244
 msgid "Use :mixxx:coref:`[ChannelN],hotcue_X_status` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1261
+#: ../../chapters/appendix/mixxx_controls.rst:1264
 msgid "Replaces the deprecated :mixxx:coref:`[ChannelN],hotcue_X_enabled`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1269
+#: ../../chapters/appendix/mixxx_controls.rst:1272
 msgid "Indicates the type of the :term:`hotcue` in hotcue slot X."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1273
+#: ../../chapters/appendix/mixxx_controls.rst:1276
 msgid "Type"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1275
+#: ../../chapters/appendix/mixxx_controls.rst:1278
 msgid "Invalid/Not Set"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1276
+#: ../../chapters/appendix/mixxx_controls.rst:1279
 msgid "Hotcue"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1277
-#: ../../chapters/appendix/mixxx_controls.rst:1553
-#: ../../chapters/appendix/mixxx_controls.rst:3500
-#: ../../chapters/appendix/mixxx_controls.rst:3626
-#: ../../chapters/appendix/mixxx_controls.rst:3929
+#: ../../chapters/appendix/mixxx_controls.rst:1280
+#: ../../chapters/appendix/mixxx_controls.rst:1556
+#: ../../chapters/appendix/mixxx_controls.rst:3516
+#: ../../chapters/appendix/mixxx_controls.rst:3642
+#: ../../chapters/appendix/mixxx_controls.rst:3945
 msgid "4"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1277
+#: ../../chapters/appendix/mixxx_controls.rst:1280
 msgid "Saved Loop"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1287
+#: ../../chapters/appendix/mixxx_controls.rst:1290
 msgid "If :term:`hotcue` X is set, seeks the player to hotcue X's position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1299
+#: ../../chapters/appendix/mixxx_controls.rst:1302
 msgid ""
 "If :term:`hotcue` X is set, seeks the player to hotcue X's position and "
 "starts playback."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1311
+#: ../../chapters/appendix/mixxx_controls.rst:1314
 msgid ""
 "If :term:`hotcue` X is set, seeks the player to hotcue X's position, starts "
 "playback and looping. If the hotcue is a saved loop, the loop is enabled, "
@@ -1990,37 +1997,37 @@ msgid ""
 "<[ChannelN],beatloop_size>` is set from the hotcue's position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1314
+#: ../../chapters/appendix/mixxx_controls.rst:1317
 msgid ""
 "This control can be used to map the secondary action of the \"Cue Loop\" "
 "performance pad mode on Serato-style controllers."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1317
+#: ../../chapters/appendix/mixxx_controls.rst:1320
 msgid "Player may change position and looping is enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1326
+#: ../../chapters/appendix/mixxx_controls.rst:1329
 msgid ""
 "If :term:`hotcue` X is set, seeks the player to hotcue X's position and "
 "stops."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1338
+#: ../../chapters/appendix/mixxx_controls.rst:1341
 msgid "The position of :term:`hotcue` X in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1340
-#: ../../chapters/appendix/mixxx_controls.rst:1462
-#: ../../chapters/appendix/mixxx_controls.rst:1522
-#: ../../chapters/appendix/mixxx_controls.rst:1674
-#: ../../chapters/appendix/mixxx_controls.rst:1817
-#: ../../chapters/appendix/mixxx_controls.rst:1908
-#: ../../chapters/appendix/mixxx_controls.rst:1968
+#: ../../chapters/appendix/mixxx_controls.rst:1343
+#: ../../chapters/appendix/mixxx_controls.rst:1465
+#: ../../chapters/appendix/mixxx_controls.rst:1525
+#: ../../chapters/appendix/mixxx_controls.rst:1677
+#: ../../chapters/appendix/mixxx_controls.rst:1820
+#: ../../chapters/appendix/mixxx_controls.rst:1911
+#: ../../chapters/appendix/mixxx_controls.rst:1971
 msgid "positive integer"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1350
+#: ../../chapters/appendix/mixxx_controls.rst:1353
 msgid ""
 "Set a :term:`hotcue` at the current play position and saves it as hotcue X "
 "of :mixxx:coref:`type <[ChannelN],hotcue_X_type>` \"Hotcue\". In case a loop"
@@ -2029,7 +2036,7 @@ msgid ""
 "<[ChannelN],hotcue_X_type>` will be set to \"Loop\"."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1364
+#: ../../chapters/appendix/mixxx_controls.rst:1367
 msgid ""
 "Identical to :mixxx:coref:`hotcue_X_setcue <[ChannelN],hotcue_X_setcue>`, "
 "but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type "
@@ -2037,13 +2044,13 @@ msgid ""
 "enabled or not."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1367
+#: ../../chapters/appendix/mixxx_controls.rst:1370
 msgid ""
 "This control can be used for controllers that have dedicated "
 ":term:`hotcue`/saved loop pad modes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1376
+#: ../../chapters/appendix/mixxx_controls.rst:1379
 msgid ""
 "Identical to :mixxx:coref:`hotcue_X_setloop <[ChannelN],hotcue_X_setloop>`, "
 "but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type "
@@ -2054,592 +2061,592 @@ msgid ""
 "pad modes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1388
+#: ../../chapters/appendix/mixxx_controls.rst:1391
 msgid ""
 "Contains the number of the most recently used :term:`hotcue` (or -1 if no "
 "hotcue was used)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1390
+#: ../../chapters/appendix/mixxx_controls.rst:1393
 msgid "positive integer (or -1)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1400
+#: ../../chapters/appendix/mixxx_controls.rst:1403
 msgid ""
 "If there is a focused :term:`hotcue`, sets its color to the previous color "
 "in the palette."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1403
-#: ../../chapters/appendix/mixxx_controls.rst:1415
+#: ../../chapters/appendix/mixxx_controls.rst:1406
+#: ../../chapters/appendix/mixxx_controls.rst:1418
 msgid "Color of focused hotcue button and waveform marker changes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1412
+#: ../../chapters/appendix/mixxx_controls.rst:1415
 msgid ""
 "If there is a focused :term:`hotcue`, sets its color to the next color in "
 "the palette."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1424
+#: ../../chapters/appendix/mixxx_controls.rst:1427
 msgid ""
 "If the intro end cue is set, seeks the player to the intro end position. If "
 "the intro end is not set, sets the intro end to the current play position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1427
+#: ../../chapters/appendix/mixxx_controls.rst:1430
 msgid "Player may change position. Intro end marker may change on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1436
+#: ../../chapters/appendix/mixxx_controls.rst:1439
 msgid "If the intro end cue is set, clears its status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1439
-#: ../../chapters/appendix/mixxx_controls.rst:1463
-#: ../../chapters/appendix/mixxx_controls.rst:1475
+#: ../../chapters/appendix/mixxx_controls.rst:1442
+#: ../../chapters/appendix/mixxx_controls.rst:1466
+#: ../../chapters/appendix/mixxx_controls.rst:1478
 msgid "Intro end marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1448
+#: ../../chapters/appendix/mixxx_controls.rst:1451
 msgid "1 if intro end cue is set, (position is not -1), 0 otherwise."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1451
+#: ../../chapters/appendix/mixxx_controls.rst:1454
 msgid "Intro end button lights up."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1460
+#: ../../chapters/appendix/mixxx_controls.rst:1463
 msgid "The position of the intro end in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1472
+#: ../../chapters/appendix/mixxx_controls.rst:1475
 msgid ""
 "Set intro end to the current play position. If intro end was previously set,"
 " it is moved to the new position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1484
+#: ../../chapters/appendix/mixxx_controls.rst:1487
 msgid ""
 "If the intro start cue is set, seeks the player to the intro start position."
 " If the intro start is not set, sets the intro start to the current play "
 "position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1487
+#: ../../chapters/appendix/mixxx_controls.rst:1490
 msgid "Player may change position. Intro start marker may change on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1496
+#: ../../chapters/appendix/mixxx_controls.rst:1499
 msgid "If the intro start cue is set, clears its status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1499
-#: ../../chapters/appendix/mixxx_controls.rst:1523
-#: ../../chapters/appendix/mixxx_controls.rst:1535
+#: ../../chapters/appendix/mixxx_controls.rst:1502
+#: ../../chapters/appendix/mixxx_controls.rst:1526
+#: ../../chapters/appendix/mixxx_controls.rst:1538
 msgid "Intro start marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1508
+#: ../../chapters/appendix/mixxx_controls.rst:1511
 msgid "1 if intro start cue is set, (position is not -1), 0 otherwise."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1511
+#: ../../chapters/appendix/mixxx_controls.rst:1514
 msgid "Intro start button lights up."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1520
+#: ../../chapters/appendix/mixxx_controls.rst:1523
 msgid "The position of the intro start in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1532
+#: ../../chapters/appendix/mixxx_controls.rst:1535
 msgid ""
 "Set intro start to the current play position. If intro start was previously "
 "set, it is moved to the new position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1544
+#: ../../chapters/appendix/mixxx_controls.rst:1547
 msgid "Current key of the track"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1548
+#: ../../chapters/appendix/mixxx_controls.rst:1551
 msgid "OpenKey"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1548
+#: ../../chapters/appendix/mixxx_controls.rst:1551
 msgid "Lancelot"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1548
+#: ../../chapters/appendix/mixxx_controls.rst:1551
 msgid "Traditional"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1550
+#: ../../chapters/appendix/mixxx_controls.rst:1553
 msgid "1d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1550
+#: ../../chapters/appendix/mixxx_controls.rst:1553
 msgid "8b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1550
+#: ../../chapters/appendix/mixxx_controls.rst:1553
 msgid "C"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1551
+#: ../../chapters/appendix/mixxx_controls.rst:1554
 msgid "8d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1551
+#: ../../chapters/appendix/mixxx_controls.rst:1554
 msgid "3b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1551
+#: ../../chapters/appendix/mixxx_controls.rst:1554
 msgid "D♭"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1552
-#: ../../chapters/appendix/mixxx_controls.rst:3498
-#: ../../chapters/appendix/mixxx_controls.rst:3625
-#: ../../chapters/appendix/mixxx_controls.rst:3928
+#: ../../chapters/appendix/mixxx_controls.rst:1555
+#: ../../chapters/appendix/mixxx_controls.rst:3514
+#: ../../chapters/appendix/mixxx_controls.rst:3641
+#: ../../chapters/appendix/mixxx_controls.rst:3944
 msgid "3"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1552
+#: ../../chapters/appendix/mixxx_controls.rst:1555
 msgid "3d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1552
+#: ../../chapters/appendix/mixxx_controls.rst:1555
 msgid "10b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1552
+#: ../../chapters/appendix/mixxx_controls.rst:1555
 msgid "D"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1553
+#: ../../chapters/appendix/mixxx_controls.rst:1556
 msgid "10d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1553
+#: ../../chapters/appendix/mixxx_controls.rst:1556
 msgid "5b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1553
+#: ../../chapters/appendix/mixxx_controls.rst:1556
 msgid "E♭"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1554
-#: ../../chapters/appendix/mixxx_controls.rst:3502
-#: ../../chapters/appendix/mixxx_controls.rst:3627
+#: ../../chapters/appendix/mixxx_controls.rst:1557
+#: ../../chapters/appendix/mixxx_controls.rst:3518
+#: ../../chapters/appendix/mixxx_controls.rst:3643
 msgid "5"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1554
+#: ../../chapters/appendix/mixxx_controls.rst:1557
 msgid "5d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1554
+#: ../../chapters/appendix/mixxx_controls.rst:1557
 msgid "12b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1554
+#: ../../chapters/appendix/mixxx_controls.rst:1557
 msgid "E"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1555
-#: ../../chapters/appendix/mixxx_controls.rst:3504
-#: ../../chapters/appendix/mixxx_controls.rst:3628
+#: ../../chapters/appendix/mixxx_controls.rst:1558
+#: ../../chapters/appendix/mixxx_controls.rst:3520
+#: ../../chapters/appendix/mixxx_controls.rst:3644
 msgid "6"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1555
+#: ../../chapters/appendix/mixxx_controls.rst:1558
 msgid "12d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1555
+#: ../../chapters/appendix/mixxx_controls.rst:1558
 msgid "7b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1555
+#: ../../chapters/appendix/mixxx_controls.rst:1558
 msgid "F"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1556
-#: ../../chapters/appendix/mixxx_controls.rst:3629
+#: ../../chapters/appendix/mixxx_controls.rst:1559
+#: ../../chapters/appendix/mixxx_controls.rst:3645
 msgid "7"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1556
+#: ../../chapters/appendix/mixxx_controls.rst:1559
 msgid "7d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1556
+#: ../../chapters/appendix/mixxx_controls.rst:1559
 msgid "2b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1556
+#: ../../chapters/appendix/mixxx_controls.rst:1559
 msgid "F♯/G♭"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1557
-#: ../../chapters/appendix/mixxx_controls.rst:3630
+#: ../../chapters/appendix/mixxx_controls.rst:1560
+#: ../../chapters/appendix/mixxx_controls.rst:3646
 msgid "8"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1557
+#: ../../chapters/appendix/mixxx_controls.rst:1560
 msgid "2d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1557
+#: ../../chapters/appendix/mixxx_controls.rst:1560
 msgid "9b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1557
+#: ../../chapters/appendix/mixxx_controls.rst:1560
 msgid "G"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1558
-#: ../../chapters/appendix/mixxx_controls.rst:3631
+#: ../../chapters/appendix/mixxx_controls.rst:1561
+#: ../../chapters/appendix/mixxx_controls.rst:3647
 msgid "9"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1558
+#: ../../chapters/appendix/mixxx_controls.rst:1561
 msgid "9d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1558
+#: ../../chapters/appendix/mixxx_controls.rst:1561
 msgid "4b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1558
+#: ../../chapters/appendix/mixxx_controls.rst:1561
 msgid "A♭"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1559
-#: ../../chapters/appendix/mixxx_controls.rst:3632
+#: ../../chapters/appendix/mixxx_controls.rst:1562
+#: ../../chapters/appendix/mixxx_controls.rst:3648
 msgid "10"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1559
+#: ../../chapters/appendix/mixxx_controls.rst:1562
 msgid "4d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1559
+#: ../../chapters/appendix/mixxx_controls.rst:1562
 msgid "11b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1559
+#: ../../chapters/appendix/mixxx_controls.rst:1562
 msgid "A"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1560
-#: ../../chapters/appendix/mixxx_controls.rst:3633
+#: ../../chapters/appendix/mixxx_controls.rst:1563
+#: ../../chapters/appendix/mixxx_controls.rst:3649
 msgid "11"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1560
+#: ../../chapters/appendix/mixxx_controls.rst:1563
 msgid "11d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1560
+#: ../../chapters/appendix/mixxx_controls.rst:1563
 msgid "6b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1560
+#: ../../chapters/appendix/mixxx_controls.rst:1563
 msgid "B♭"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1561
-#: ../../chapters/appendix/mixxx_controls.rst:3634
+#: ../../chapters/appendix/mixxx_controls.rst:1564
+#: ../../chapters/appendix/mixxx_controls.rst:3650
 msgid "12"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1561
+#: ../../chapters/appendix/mixxx_controls.rst:1564
 msgid "6d"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1561
+#: ../../chapters/appendix/mixxx_controls.rst:1564
 msgid "1b"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1561
+#: ../../chapters/appendix/mixxx_controls.rst:1564
 msgid "B"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1562
-#: ../../chapters/appendix/mixxx_controls.rst:3635
+#: ../../chapters/appendix/mixxx_controls.rst:1565
+#: ../../chapters/appendix/mixxx_controls.rst:3651
 msgid "13"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1562
+#: ../../chapters/appendix/mixxx_controls.rst:1565
 msgid "10m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1562
+#: ../../chapters/appendix/mixxx_controls.rst:1565
 msgid "5a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1562
+#: ../../chapters/appendix/mixxx_controls.rst:1565
 msgid "Cm"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1563
-#: ../../chapters/appendix/mixxx_controls.rst:3636
+#: ../../chapters/appendix/mixxx_controls.rst:1566
+#: ../../chapters/appendix/mixxx_controls.rst:3652
 msgid "14"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1563
+#: ../../chapters/appendix/mixxx_controls.rst:1566
 msgid "5m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1563
+#: ../../chapters/appendix/mixxx_controls.rst:1566
 msgid "12a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1563
+#: ../../chapters/appendix/mixxx_controls.rst:1566
 msgid "C♯m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1564
-#: ../../chapters/appendix/mixxx_controls.rst:3637
+#: ../../chapters/appendix/mixxx_controls.rst:1567
+#: ../../chapters/appendix/mixxx_controls.rst:3653
 msgid "15"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1564
+#: ../../chapters/appendix/mixxx_controls.rst:1567
 msgid "12m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1564
+#: ../../chapters/appendix/mixxx_controls.rst:1567
 msgid "7a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1564
+#: ../../chapters/appendix/mixxx_controls.rst:1567
 msgid "Dm"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1565
-#: ../../chapters/appendix/mixxx_controls.rst:3638
+#: ../../chapters/appendix/mixxx_controls.rst:1568
+#: ../../chapters/appendix/mixxx_controls.rst:3654
 msgid "16"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1565
+#: ../../chapters/appendix/mixxx_controls.rst:1568
 msgid "7m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1565
+#: ../../chapters/appendix/mixxx_controls.rst:1568
 msgid "2a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1565
+#: ../../chapters/appendix/mixxx_controls.rst:1568
 msgid "D♯m/E♭m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1566
-#: ../../chapters/appendix/mixxx_controls.rst:3639
+#: ../../chapters/appendix/mixxx_controls.rst:1569
+#: ../../chapters/appendix/mixxx_controls.rst:3655
 msgid "17"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1566
+#: ../../chapters/appendix/mixxx_controls.rst:1569
 msgid "2m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1566
+#: ../../chapters/appendix/mixxx_controls.rst:1569
 msgid "9a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1566
+#: ../../chapters/appendix/mixxx_controls.rst:1569
 msgid "Em"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1567
-#: ../../chapters/appendix/mixxx_controls.rst:3640
+#: ../../chapters/appendix/mixxx_controls.rst:1570
+#: ../../chapters/appendix/mixxx_controls.rst:3656
 msgid "18"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1567
+#: ../../chapters/appendix/mixxx_controls.rst:1570
 msgid "9m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1567
+#: ../../chapters/appendix/mixxx_controls.rst:1570
 msgid "4a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1567
+#: ../../chapters/appendix/mixxx_controls.rst:1570
 msgid "Fm"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1568
-#: ../../chapters/appendix/mixxx_controls.rst:3641
+#: ../../chapters/appendix/mixxx_controls.rst:1571
+#: ../../chapters/appendix/mixxx_controls.rst:3657
 msgid "19"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1568
+#: ../../chapters/appendix/mixxx_controls.rst:1571
 msgid "4m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1568
+#: ../../chapters/appendix/mixxx_controls.rst:1571
 msgid "11a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1568
+#: ../../chapters/appendix/mixxx_controls.rst:1571
 msgid "F♯m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1569
-#: ../../chapters/appendix/mixxx_controls.rst:3642
+#: ../../chapters/appendix/mixxx_controls.rst:1572
+#: ../../chapters/appendix/mixxx_controls.rst:3658
 msgid "20"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1569
+#: ../../chapters/appendix/mixxx_controls.rst:1572
 msgid "11m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1569
+#: ../../chapters/appendix/mixxx_controls.rst:1572
 msgid "6a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1569
+#: ../../chapters/appendix/mixxx_controls.rst:1572
 msgid "Gm"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1570
-#: ../../chapters/appendix/mixxx_controls.rst:3643
+#: ../../chapters/appendix/mixxx_controls.rst:1573
+#: ../../chapters/appendix/mixxx_controls.rst:3659
 msgid "21"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1570
+#: ../../chapters/appendix/mixxx_controls.rst:1573
 msgid "6m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1570
+#: ../../chapters/appendix/mixxx_controls.rst:1573
 msgid "1a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1570
+#: ../../chapters/appendix/mixxx_controls.rst:1573
 msgid "G♯m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1571
-#: ../../chapters/appendix/mixxx_controls.rst:3644
+#: ../../chapters/appendix/mixxx_controls.rst:1574
+#: ../../chapters/appendix/mixxx_controls.rst:3660
 msgid "22"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1571
+#: ../../chapters/appendix/mixxx_controls.rst:1574
 msgid "1m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1571
+#: ../../chapters/appendix/mixxx_controls.rst:1574
 msgid "8a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1571
+#: ../../chapters/appendix/mixxx_controls.rst:1574
 msgid "Am"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1572
-#: ../../chapters/appendix/mixxx_controls.rst:3645
+#: ../../chapters/appendix/mixxx_controls.rst:1575
+#: ../../chapters/appendix/mixxx_controls.rst:3661
 msgid "23"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1572
+#: ../../chapters/appendix/mixxx_controls.rst:1575
 msgid "8m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1572
+#: ../../chapters/appendix/mixxx_controls.rst:1575
 msgid "3a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1572
+#: ../../chapters/appendix/mixxx_controls.rst:1575
 msgid "B♭m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1573
-#: ../../chapters/appendix/mixxx_controls.rst:3646
+#: ../../chapters/appendix/mixxx_controls.rst:1576
+#: ../../chapters/appendix/mixxx_controls.rst:3662
 msgid "24"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1573
+#: ../../chapters/appendix/mixxx_controls.rst:1576
 msgid "3m"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1573
+#: ../../chapters/appendix/mixxx_controls.rst:1576
 msgid "10a"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1573
+#: ../../chapters/appendix/mixxx_controls.rst:1576
 msgid "Bm"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1583
+#: ../../chapters/appendix/mixxx_controls.rst:1586
 msgid ""
 "Enable key-lock for the specified deck (rate changes only affect tempo, not "
 "key)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1586
+#: ../../chapters/appendix/mixxx_controls.rst:1589
 msgid "key-lock button activates"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1595
+#: ../../chapters/appendix/mixxx_controls.rst:1598
 msgid "Loads the currently highlighted track into the deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1605
+#: ../../chapters/appendix/mixxx_controls.rst:1608
 msgid "Loads the currently highlighted track into the deck and starts playing"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1608
+#: ../../chapters/appendix/mixxx_controls.rst:1611
 msgid "Track name & waveform change & Play/pause button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1617
+#: ../../chapters/appendix/mixxx_controls.rst:1620
 msgid ""
 "Reflects the average bpm around the current play position of the loaded "
 "file."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1619
+#: ../../chapters/appendix/mixxx_controls.rst:1622
 msgid "positive value"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1627
+#: ../../chapters/appendix/mixxx_controls.rst:1630
 msgid ""
 "Doubles :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If "
 ":mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of "
 "the loop, the loop is resized."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1629
-#: ../../chapters/appendix/mixxx_controls.rst:1686
-#: ../../chapters/appendix/mixxx_controls.rst:1753
-#: ../../chapters/appendix/mixxx_controls.rst:1772
-#: ../../chapters/appendix/mixxx_controls.rst:1785
-#: ../../chapters/appendix/mixxx_controls.rst:1801
+#: ../../chapters/appendix/mixxx_controls.rst:1632
+#: ../../chapters/appendix/mixxx_controls.rst:1689
+#: ../../chapters/appendix/mixxx_controls.rst:1756
+#: ../../chapters/appendix/mixxx_controls.rst:1775
+#: ../../chapters/appendix/mixxx_controls.rst:1788
+#: ../../chapters/appendix/mixxx_controls.rst:1804
 msgid ""
 "If a saved loop is currently enabled, the modification is saved to the "
 "hotcue slot immediately."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1632
-#: ../../chapters/appendix/mixxx_controls.rst:1689
+#: ../../chapters/appendix/mixxx_controls.rst:1635
+#: ../../chapters/appendix/mixxx_controls.rst:1692
 msgid "Beatloop size spinbox changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1644
+#: ../../chapters/appendix/mixxx_controls.rst:1647
 msgid "Indicates whether or not a loop is enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1647
+#: ../../chapters/appendix/mixxx_controls.rst:1650
 msgid "Loop in waveform is active."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1650
+#: ../../chapters/appendix/mixxx_controls.rst:1653
 msgid ""
 "Control is not longer read-only and can be used to enable/disable looping."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1658
+#: ../../chapters/appendix/mixxx_controls.rst:1661
 msgid ""
 "Clears the last active loop, i.e. deactivates and removes loop, detaches "
 ":mixxx:coref:`loop_in <[ChannelN],loop_in>`, :mixxx:coref:`loop_out "
@@ -2648,26 +2655,26 @@ msgid ""
 "loops."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1663
+#: ../../chapters/appendix/mixxx_controls.rst:1666
 msgid "Last active loop is disabled and removed from waveform and overview."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1672
+#: ../../chapters/appendix/mixxx_controls.rst:1675
 msgid "The player loop-out position in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1675
+#: ../../chapters/appendix/mixxx_controls.rst:1678
 msgid "Loop-out marker shows on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1684
+#: ../../chapters/appendix/mixxx_controls.rst:1687
 msgid ""
 "Halves :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If "
 ":mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` equals the size of "
 "the loop, the loop is resized."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1701
+#: ../../chapters/appendix/mixxx_controls.rst:1704
 msgid ""
 "If loop is disabled, sets the player loop in position to the current play "
 "position. If loop is enabled, press and hold to move loop in position to the"
@@ -2675,21 +2682,21 @@ msgid ""
 "<[ChannelN],beatloop_size>` will be updated to reflect the new loop size."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1704
-#: ../../chapters/appendix/mixxx_controls.rst:1818
+#: ../../chapters/appendix/mixxx_controls.rst:1707
+#: ../../chapters/appendix/mixxx_controls.rst:1821
 msgid "Loop-in marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1714
+#: ../../chapters/appendix/mixxx_controls.rst:1717
 msgid "Seek to the loop in point."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1717
-#: ../../chapters/appendix/mixxx_controls.rst:1742
+#: ../../chapters/appendix/mixxx_controls.rst:1720
+#: ../../chapters/appendix/mixxx_controls.rst:1745
 msgid "Waveform position jumps"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1726
+#: ../../chapters/appendix/mixxx_controls.rst:1729
 msgid ""
 "If loop is disabled, sets the player loop out position to the current play "
 "position. If loop is enabled, press and hold to move loop out position to "
@@ -2698,675 +2705,682 @@ msgid ""
 "reflect the new loop size."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1729
+#: ../../chapters/appendix/mixxx_controls.rst:1732
 msgid "Loop-out marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1739
+#: ../../chapters/appendix/mixxx_controls.rst:1742
 msgid "Seek to the loop out point."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1751
+#: ../../chapters/appendix/mixxx_controls.rst:1754
 msgid ""
 "Move loop forward by X beats (positive) or backward by X beats (negative)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1755
+#: ../../chapters/appendix/mixxx_controls.rst:1758
 msgid "real number"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1756
+#: ../../chapters/appendix/mixxx_controls.rst:1759
 msgid "Loop moves forward or backward by X beats."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1767
+#: ../../chapters/appendix/mixxx_controls.rst:1770
 msgid ""
 "Moves the loop in and out points forward by X beats. A control exists for X "
 "= 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1770
+#: ../../chapters/appendix/mixxx_controls.rst:1773
 msgid "Loop moves forward by X beats."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1783
+#: ../../chapters/appendix/mixxx_controls.rst:1786
 msgid ""
 "Loop moves by X beats. A control exists for X = 0.03125, 0.0625, 0.125, "
 "0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1788
+#: ../../chapters/appendix/mixxx_controls.rst:1791
 msgid "Loop moves backward by X beats."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1799
+#: ../../chapters/appendix/mixxx_controls.rst:1802
 msgid ""
 "Scale the loop length by the value scale is set to by moving the end marker."
 " :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to "
 "reflect the change."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1803
+#: ../../chapters/appendix/mixxx_controls.rst:1806
 msgid "0.0 - infinity"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1804
+#: ../../chapters/appendix/mixxx_controls.rst:1807
 msgid "Loop length is scaled by given amount on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1815
+#: ../../chapters/appendix/mixxx_controls.rst:1818
 msgid "The player loop-in position in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1827
-#: ../../chapters/appendix/mixxx_controls.rst:3077
+#: ../../chapters/appendix/mixxx_controls.rst:1830
+#: ../../chapters/appendix/mixxx_controls.rst:3093
 msgid "Set channel orientation for the :term:`crossfader`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1833
-#: ../../chapters/appendix/mixxx_controls.rst:3083
+#: ../../chapters/appendix/mixxx_controls.rst:1836
+#: ../../chapters/appendix/mixxx_controls.rst:3099
 msgid "Left side of crossfader"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1834
-#: ../../chapters/appendix/mixxx_controls.rst:3084
+#: ../../chapters/appendix/mixxx_controls.rst:1837
+#: ../../chapters/appendix/mixxx_controls.rst:3100
 msgid "Center (not affected by crossfader)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1835
-#: ../../chapters/appendix/mixxx_controls.rst:3085
+#: ../../chapters/appendix/mixxx_controls.rst:1838
+#: ../../chapters/appendix/mixxx_controls.rst:3101
 msgid "Right side of crossfader"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1847
+#: ../../chapters/appendix/mixxx_controls.rst:1850
 msgid "Assign channel to the center of the :term:`crossfader`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1855
+#: ../../chapters/appendix/mixxx_controls.rst:1858
 msgid "Assign channel to the left side of the :term:`crossfader`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1863
+#: ../../chapters/appendix/mixxx_controls.rst:1866
 msgid "Assign channel to the right side of the :term:`crossfader`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1870
+#: ../../chapters/appendix/mixxx_controls.rst:1873
 msgid ""
 "If the outro end cue is set, seeks the player to the outro end position. If "
 "the outro end is not set, sets the outro end to the current play position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1873
+#: ../../chapters/appendix/mixxx_controls.rst:1876
 msgid "Player may change position. Outro end marker may change on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1882
+#: ../../chapters/appendix/mixxx_controls.rst:1885
 msgid "If the outro end cue is set, clears its status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1885
-#: ../../chapters/appendix/mixxx_controls.rst:1909
-#: ../../chapters/appendix/mixxx_controls.rst:1921
+#: ../../chapters/appendix/mixxx_controls.rst:1888
+#: ../../chapters/appendix/mixxx_controls.rst:1912
+#: ../../chapters/appendix/mixxx_controls.rst:1924
 msgid "Outro end marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1894
+#: ../../chapters/appendix/mixxx_controls.rst:1897
 msgid "1 if outro end cue is set, (position is not -1), 0 otherwise."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1897
+#: ../../chapters/appendix/mixxx_controls.rst:1900
 msgid "Outro end button lights up."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1906
+#: ../../chapters/appendix/mixxx_controls.rst:1909
 msgid "The position of the outro end in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1918
+#: ../../chapters/appendix/mixxx_controls.rst:1921
 msgid ""
 "Set outro end to the current play position. If outro end was previously set,"
 " it is moved to the new position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1930
+#: ../../chapters/appendix/mixxx_controls.rst:1933
 msgid ""
 "If the outro start cue is set, seeks the player to the outro start position."
 " If the outro start is not set, sets the outro start to the current play "
 "position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1933
+#: ../../chapters/appendix/mixxx_controls.rst:1936
 msgid "Player may change position. Outro start marker may change on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1942
+#: ../../chapters/appendix/mixxx_controls.rst:1945
 msgid "If the outro start cue is set, clears its status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1945
-#: ../../chapters/appendix/mixxx_controls.rst:1969
-#: ../../chapters/appendix/mixxx_controls.rst:1981
+#: ../../chapters/appendix/mixxx_controls.rst:1948
+#: ../../chapters/appendix/mixxx_controls.rst:1972
+#: ../../chapters/appendix/mixxx_controls.rst:1984
 msgid "Outro start marker changes on waveform."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1954
+#: ../../chapters/appendix/mixxx_controls.rst:1957
 msgid "1 if outro start cue is set, (position is not -1), 0 otherwise."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1957
+#: ../../chapters/appendix/mixxx_controls.rst:1960
 msgid "Outro start button lights up."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1966
+#: ../../chapters/appendix/mixxx_controls.rst:1969
 msgid "The position of the outro start in samples, -1 if not set."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1978
+#: ../../chapters/appendix/mixxx_controls.rst:1981
 msgid ""
 "Set outro start to the current play position. If outro start was previously "
 "set, it is moved to the new position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1990
+#: ../../chapters/appendix/mixxx_controls.rst:1993
 msgid ""
 "Connects the vinyl control input for vinyl control on that deck to the "
 "channel output. Allows to mix external media into DJ sets."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:1993
+#: ../../chapters/appendix/mixxx_controls.rst:1996
 msgid ""
 "Passthrough label in the :term:`waveform overview` and passthrough button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2002
-#: ../../chapters/appendix/mixxx_controls.rst:3102
+#: ../../chapters/appendix/mixxx_controls.rst:2005
+#: ../../chapters/appendix/mixxx_controls.rst:3118
 msgid ""
 "Indicates when the signal is clipping (too loud for the hardware and is "
 "being distorted)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2007
+#: ../../chapters/appendix/mixxx_controls.rst:2010
 msgid "Clip light"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2013
-#: ../../chapters/appendix/mixxx_controls.rst:3115
+#: ../../chapters/appendix/mixxx_controls.rst:2016
+#: ../../chapters/appendix/mixxx_controls.rst:3131
 msgid ""
 "Indicates when the signal is clipping (too loud for the hardware and is "
 "being distorted) for the left channel"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2027
-#: ../../chapters/appendix/mixxx_controls.rst:3128
+#: ../../chapters/appendix/mixxx_controls.rst:2030
+#: ../../chapters/appendix/mixxx_controls.rst:3144
 msgid ""
 "Indicates when the signal is clipping (too loud for the hardware and is "
 "being distorted) for the right channel"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2040
-#: ../../chapters/appendix/mixxx_controls.rst:3140
+#: ../../chapters/appendix/mixxx_controls.rst:2043
+#: ../../chapters/appendix/mixxx_controls.rst:3156
 msgid "Toggles :term:`headphone cueing (PFL) <PFL>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2043
-#: ../../chapters/appendix/mixxx_controls.rst:3143
+#: ../../chapters/appendix/mixxx_controls.rst:2046
+#: ../../chapters/appendix/mixxx_controls.rst:3159
 msgid "Headphone button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2050
+#: ../../chapters/appendix/mixxx_controls.rst:2053
 msgid ""
 "The total adjustment to the track's pitch, including changes from the rate "
 "slider if keylock is off as well as :mixxx:coref:`pitch_adjust "
 "<[ChannelN],pitch_adjust>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2052
+#: ../../chapters/appendix/mixxx_controls.rst:2055
 msgid ""
 "Do not map this to knobs or sliders on controllers; map "
 ":mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2056
+#: ../../chapters/appendix/mixxx_controls.rst:2059
 msgid "-6.0..6.0 semitones"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2057
-#: ../../chapters/appendix/mixxx_controls.rst:2069
-#: ../../chapters/appendix/mixxx_controls.rst:2081
-#: ../../chapters/appendix/mixxx_controls.rst:2095
+#: ../../chapters/appendix/mixxx_controls.rst:2060
+#: ../../chapters/appendix/mixxx_controls.rst:2072
+#: ../../chapters/appendix/mixxx_controls.rst:2084
+#: ../../chapters/appendix/mixxx_controls.rst:2098
 msgid "Key display"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2066
+#: ../../chapters/appendix/mixxx_controls.rst:2069
 msgid "Changes the track pitch up one half step, independent of the tempo."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2078
+#: ../../chapters/appendix/mixxx_controls.rst:2081
 msgid "Changes the track pitch down one half step, independent of the tempo."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2090
+#: ../../chapters/appendix/mixxx_controls.rst:2093
 msgid ""
 "Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock."
 " It is reset after loading a new track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2094
+#: ../../chapters/appendix/mixxx_controls.rst:2097
 msgid "-3.0..3.0 semitones"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2104
+#: ../../chapters/appendix/mixxx_controls.rst:2107
 msgid "Toggles playing or pausing the track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2106
+#: ../../chapters/appendix/mixxx_controls.rst:2109
 msgid ""
 "The value is set to 1 when the track is playing or when previewing from cue "
 "points and when the play command is adopted and track will be played after "
 "loading."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2109
-#: ../../chapters/appendix/mixxx_controls.rst:2119
-#: ../../chapters/appendix/mixxx_controls.rst:2131
+#: ../../chapters/appendix/mixxx_controls.rst:2112
+#: ../../chapters/appendix/mixxx_controls.rst:2122
+#: ../../chapters/appendix/mixxx_controls.rst:2134
 msgid "Play/pause button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2116
+#: ../../chapters/appendix/mixxx_controls.rst:2119
 msgid ""
 "Provides information to be bound with the a Play/Pause button e.g blinking "
 "when play is possible"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2128
+#: ../../chapters/appendix/mixxx_controls.rst:2131
 msgid ""
 "This is set to 1 when the track is playing, but not when previewing (see "
 ":mixxx:coref:`play <[ChannelN],play>`)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2140
+#: ../../chapters/appendix/mixxx_controls.rst:2143
 msgid ""
 "A play button without pause. Pushing while playing, starts play at "
 ":term:`cue point` again (Stutter)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2143
+#: ../../chapters/appendix/mixxx_controls.rst:2146
 msgid "Play/Stutter button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2152
+#: ../../chapters/appendix/mixxx_controls.rst:2155
 msgid "Sets the absolute position in the track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2156
+#: ../../chapters/appendix/mixxx_controls.rst:2159
 msgid "-0.14 to 1.14 (0 = beginning -> Midi 14, 1 = end -> Midi 114)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2157
-#: ../../chapters/appendix/mixxx_controls.rst:2391
-#: ../../chapters/appendix/mixxx_controls.rst:2403
-#: ../../chapters/appendix/mixxx_controls.rst:2819
-#: ../../chapters/appendix/mixxx_controls.rst:2873
+#: ../../chapters/appendix/mixxx_controls.rst:2160
+#: ../../chapters/appendix/mixxx_controls.rst:2394
+#: ../../chapters/appendix/mixxx_controls.rst:2406
+#: ../../chapters/appendix/mixxx_controls.rst:2830
+#: ../../chapters/appendix/mixxx_controls.rst:2884
 msgid "Waveform"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2164
+#: ../../chapters/appendix/mixxx_controls.rst:2167
 msgid "Adjusts the pre-fader gain of the track (to avoid clipping)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2168
-#: ../../chapters/appendix/mixxx_controls.rst:2913
-#: ../../chapters/appendix/mixxx_controls.rst:2939
-#: ../../chapters/appendix/mixxx_controls.rst:2965
-#: ../../chapters/appendix/mixxx_controls.rst:3180
+#: ../../chapters/appendix/mixxx_controls.rst:2171
+#: ../../chapters/appendix/mixxx_controls.rst:2924
+#: ../../chapters/appendix/mixxx_controls.rst:2950
+#: ../../chapters/appendix/mixxx_controls.rst:2976
+#: ../../chapters/appendix/mixxx_controls.rst:3196
 msgid "0.0..1.0..4.0"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2169
+#: ../../chapters/appendix/mixxx_controls.rst:2172
 msgid "GAIN knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2176
+#: ../../chapters/appendix/mixxx_controls.rst:2179
 msgid ""
 "Aligns Hot-cues and Loop In & Out to the next beat from the current "
 "position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2179
+#: ../../chapters/appendix/mixxx_controls.rst:2182
 msgid "Hot-cues or Loop In/Out markers"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2188
+#: ../../chapters/appendix/mixxx_controls.rst:2191
 msgid "Speed control"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2193
+#: ../../chapters/appendix/mixxx_controls.rst:2196
 msgid "Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2200
+#: ../../chapters/appendix/mixxx_controls.rst:2203
 msgid "Indicates orientation of speed slider."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2202
+#: ../../chapters/appendix/mixxx_controls.rst:2205
 msgid "-1 or 1"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2209
+#: ../../chapters/appendix/mixxx_controls.rst:2212
 msgid "Sets the speed one step lower (4 % default) lower"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2212
-#: ../../chapters/appendix/mixxx_controls.rst:2222
+#: ../../chapters/appendix/mixxx_controls.rst:2215
+#: ../../chapters/appendix/mixxx_controls.rst:2225
 msgid "Perm down button & Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2219
+#: ../../chapters/appendix/mixxx_controls.rst:2222
 msgid "Sets the speed one small step lower (1 % default)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2229
+#: ../../chapters/appendix/mixxx_controls.rst:2232
 msgid "Sets the speed one step higher (4 % default)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2232
-#: ../../chapters/appendix/mixxx_controls.rst:2242
+#: ../../chapters/appendix/mixxx_controls.rst:2235
+#: ../../chapters/appendix/mixxx_controls.rst:2245
 msgid "Perm up button & Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2239
+#: ../../chapters/appendix/mixxx_controls.rst:2242
 msgid "Sets the speed one small step higher (1 % default)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2249
+#: ../../chapters/appendix/mixxx_controls.rst:2252
 msgid "Holds the speed one step lower while active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2252
-#: ../../chapters/appendix/mixxx_controls.rst:2262
+#: ../../chapters/appendix/mixxx_controls.rst:2255
+#: ../../chapters/appendix/mixxx_controls.rst:2265
 msgid "Temp down button & Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2259
+#: ../../chapters/appendix/mixxx_controls.rst:2262
 msgid "Holds the speed one small step lower while active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2269
+#: ../../chapters/appendix/mixxx_controls.rst:2272
 msgid "Holds the speed one step higher while active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2272
-#: ../../chapters/appendix/mixxx_controls.rst:2282
+#: ../../chapters/appendix/mixxx_controls.rst:2275
+#: ../../chapters/appendix/mixxx_controls.rst:2285
 msgid "Temp up button & Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2279
+#: ../../chapters/appendix/mixxx_controls.rst:2282
 msgid "Holds the speed one small step higher while active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2289
+#: ../../chapters/appendix/mixxx_controls.rst:2292
 msgid "Sets the range of the Speed slider (0.08 = 8%)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2293
+#: ../../chapters/appendix/mixxx_controls.rst:2296
 msgid "0.0..4.0"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2294
+#: ../../chapters/appendix/mixxx_controls.rst:2297
 msgid "none, until you move the Speed slider"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2301
+#: ../../chapters/appendix/mixxx_controls.rst:2304
 msgid ""
 "Seeks forward (positive values) or backward (negative values) at a speed "
 "determined by the value"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2305
+#: ../../chapters/appendix/mixxx_controls.rst:2308
 msgid "-300..300"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2306
+#: ../../chapters/appendix/mixxx_controls.rst:2309
 msgid "Deck seeks"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2313
+#: ../../chapters/appendix/mixxx_controls.rst:2316
 msgid "Actual rate (used in visuals, not for control)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2320
+#: ../../chapters/appendix/mixxx_controls.rst:2323
 msgid "Activate current loop, jump to its loop in point, and stop playback."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2323
+#: ../../chapters/appendix/mixxx_controls.rst:2326
 msgid ""
 "Loop range in waveform activates or deactivates and play position moves to "
 "loop in point."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2331
-#: ../../chapters/appendix/mixxx_controls.rst:2844
+#: ../../chapters/appendix/mixxx_controls.rst:2334
+#: ../../chapters/appendix/mixxx_controls.rst:2855
 msgid ""
 "Toggles the current loop on or off. If the loop is ahead of the current play"
 " position, the track will keep playing normally until it reaches the loop."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2334
-#: ../../chapters/appendix/mixxx_controls.rst:2847
+#: ../../chapters/appendix/mixxx_controls.rst:2337
+#: ../../chapters/appendix/mixxx_controls.rst:2858
 msgid "Loop range in waveform activates or deactivates."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2343
+#: ../../chapters/appendix/mixxx_controls.rst:2346
 msgid "Enable repeat-mode for the specified deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2346
+#: ../../chapters/appendix/mixxx_controls.rst:2349
 msgid "when track finishes, song loops to beginning"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2355
+#: ../../chapters/appendix/mixxx_controls.rst:2358
 msgid "Resets the key to the original track key."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2366
+#: ../../chapters/appendix/mixxx_controls.rst:2369
 msgid "Toggles playing the track backwards"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2369
-#: ../../chapters/appendix/mixxx_controls.rst:2379
+#: ../../chapters/appendix/mixxx_controls.rst:2372
+#: ../../chapters/appendix/mixxx_controls.rst:2382
 msgid "REV button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2376
+#: ../../chapters/appendix/mixxx_controls.rst:2379
 msgid "Enables reverse and slip mode while held (Censor)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2388
+#: ../../chapters/appendix/mixxx_controls.rst:2391
 msgid ""
 "Affects absolute play speed & direction whether currently playing or not "
-"when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative)."
-" Use JavaScript ``engine.scratch`` functions to manipulate in controller "
+"when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). "
+"Use JavaScript ``engine.scratch`` functions to manipulate in controller "
 "mappings."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2390
-#: ../../chapters/appendix/mixxx_controls.rst:2818
-#: ../../chapters/appendix/mixxx_controls.rst:2859
-#: ../../chapters/appendix/mixxx_controls.rst:2872
+#: ../../chapters/appendix/mixxx_controls.rst:2393
+#: ../../chapters/appendix/mixxx_controls.rst:2829
+#: ../../chapters/appendix/mixxx_controls.rst:2870
+#: ../../chapters/appendix/mixxx_controls.rst:2883
 msgid "-3.0..3.0"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2400
+#: ../../chapters/appendix/mixxx_controls.rst:2403
 msgid ""
 "Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2412
+#: ../../chapters/appendix/mixxx_controls.rst:2415
 msgid ""
 "Toggles slip mode. When active, the playback continues muted in the "
 "background during a loop, scratch etc. Once disabled, the audible playback "
 "will resume where the track would have been."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2415
+#: ../../chapters/appendix/mixxx_controls.rst:2418
 msgid "Slip mode button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2424
+#: ../../chapters/appendix/mixxx_controls.rst:2427
 msgid ""
 "Increase the rating of the currently loaded track (if the skin has star "
 "widgets in the decks section)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2427
+#: ../../chapters/appendix/mixxx_controls.rst:2430
 msgid ""
 "Star count is increased in the deck's star widget and in the library table."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2436
+#: ../../chapters/appendix/mixxx_controls.rst:2439
 msgid ""
 "Decrease the rating of the currently loaded track (if the skin has star "
 "widgets in the decks section)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2439
+#: ../../chapters/appendix/mixxx_controls.rst:2442
 msgid ""
 "Star count is decreased in the deck's star widget and in the library table."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2448
+#: ../../chapters/appendix/mixxx_controls.rst:2451
 msgid "Jump to start of track"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2451
+#: ../../chapters/appendix/mixxx_controls.rst:2454
 msgid "Track jumps to start"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2458
+#: ../../chapters/appendix/mixxx_controls.rst:2461
 msgid "Start playback from the beginning of the deck."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2461
+#: ../../chapters/appendix/mixxx_controls.rst:2464
 msgid "Deck plays from beginning"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2470
+#: ../../chapters/appendix/mixxx_controls.rst:2473
 msgid "Seeks a player to the start and then stops it."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2473
+#: ../../chapters/appendix/mixxx_controls.rst:2476
 msgid "Deck stops at the beginning."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2482
+#: ../../chapters/appendix/mixxx_controls.rst:2485
 msgid "Stops a player."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2485
+#: ../../chapters/appendix/mixxx_controls.rst:2488
 msgid "Pause Button. Deck pauses at the current position."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2494
+#: ../../chapters/appendix/mixxx_controls.rst:2497
 msgid ""
 "Syncs the :term:`tempo` and :term:`phase` (depending on quantize) to that of"
 " the other track (if :term:`BPM` is detected on both). Click and hold for at"
 " least one second activates sync lock on that deck."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2497
-#: ../../chapters/appendix/mixxx_controls.rst:2509
+#: ../../chapters/appendix/mixxx_controls.rst:2500
+#: ../../chapters/appendix/mixxx_controls.rst:2512
 msgid ""
 "If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider "
 "snap to the appropriate value. Slider adjustments are linked on all decks "
 "that have :term:`sync lock` enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2506
+#: ../../chapters/appendix/mixxx_controls.rst:2509
 msgid "Sets deck as leader clock."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2512
+#: ../../chapters/appendix/mixxx_controls.rst:2521
 msgid ""
 "This button just enables :term:`sync lock` mode (similar to "
 ":mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the "
 "deck will be the sync leader. This will be fixed in a future version."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2526
-msgid ":term:`Sync lock <sync lock>` disabled for that deck"
-msgstr ""
-
-#: ../../chapters/appendix/mixxx_controls.rst:2527
-msgid "Deck is sync follower"
-msgstr ""
-
-#: ../../chapters/appendix/mixxx_controls.rst:2528
-msgid "Deck is sync leader"
-msgstr ""
-
-#: ../../chapters/appendix/mixxx_controls.rst:2535
-#: ../../chapters/appendix/mixxx_controls.rst:2709
-#: ../../chapters/appendix/mixxx_controls.rst:2723
-msgid "Key value widget"
+#: ../../chapters/appendix/mixxx_controls.rst:2524
+msgid ""
+"Use :mixxx:coref:`[ChannelN],sync_leader`, "
+":mixxx:coref:`[PreviewDeckN],sync_leader` and "
+":mixxx:coref:`[SamplerN],sync_leader` instead."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:2537
-msgid "Match musical key."
+msgid ":term:`Sync lock <sync lock>` disabled for that deck"
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:2538
+msgid "Deck is sync follower"
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:2539
+msgid "Deck is sync leader"
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:2546
+#: ../../chapters/appendix/mixxx_controls.rst:2720
+#: ../../chapters/appendix/mixxx_controls.rst:2734
+msgid "Key value widget"
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:2548
+msgid "Match musical key."
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:2557
 msgid ""
 "Color of the currently loaded track or -1 if no track is loaded or the track"
 " has no color."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2549
-#: ../../chapters/appendix/mixxx_controls.rst:3698
-#: ../../chapters/appendix/mixxx_controls.rst:3708
+#: ../../chapters/appendix/mixxx_controls.rst:2560
+#: ../../chapters/appendix/mixxx_controls.rst:3714
+#: ../../chapters/appendix/mixxx_controls.rst:3724
 msgid "Track color changes in the library view."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2558
+#: ../../chapters/appendix/mixxx_controls.rst:2569
 msgid "Whether a track is loaded in the specified deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2561
+#: ../../chapters/appendix/mixxx_controls.rst:2572
 msgid "Waveform and track metadata shown in deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2570
+#: ../../chapters/appendix/mixxx_controls.rst:2581
 msgid "Sample rate of the track loaded on the specified deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2572
-#: ../../chapters/appendix/mixxx_controls.rst:2584
+#: ../../chapters/appendix/mixxx_controls.rst:2583
+#: ../../chapters/appendix/mixxx_controls.rst:2595
 msgid "absolute value, read-only"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2582
+#: ../../chapters/appendix/mixxx_controls.rst:2593
 msgid "Number of sound samples in the track loaded on the specified deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2593
-#: ../../chapters/appendix/mixxx_controls.rst:3163
+#: ../../chapters/appendix/mixxx_controls.rst:2604
+#: ../../chapters/appendix/mixxx_controls.rst:3179
 msgid "Adjusts the channel volume fader"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2598
+#: ../../chapters/appendix/mixxx_controls.rst:2609
 msgid "Deck volume fader"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2605
-#: ../../chapters/appendix/mixxx_controls.rst:3187
+#: ../../chapters/appendix/mixxx_controls.rst:2616
+#: ../../chapters/appendix/mixxx_controls.rst:3203
 msgid "Mutes the channel"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2608
-#: ../../chapters/appendix/mixxx_controls.rst:3190
+#: ../../chapters/appendix/mixxx_controls.rst:2619
+#: ../../chapters/appendix/mixxx_controls.rst:3206
 msgid "Mute button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2616
+#: ../../chapters/appendix/mixxx_controls.rst:2627
 msgid ""
 "Applies the deck pregain knob value to the detected ReplayGain value for the"
 " current track. This is a way to update the ReplayGain value of a track if "
@@ -3377,389 +3391,389 @@ msgid ""
 "knob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2623
+#: ../../chapters/appendix/mixxx_controls.rst:2634
 msgid "ReplayGain value is updated in library, deck pregain is reset to 1.0."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2630
+#: ../../chapters/appendix/mixxx_controls.rst:2641
 msgid "Toggles whether a deck is being controlled by digital vinyl."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2633
+#: ../../chapters/appendix/mixxx_controls.rst:2644
 msgid ""
 "When enabled, a vinyl indication should appear onscreen indicating green for"
 " enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2642
+#: ../../chapters/appendix/mixxx_controls.rst:2653
 msgid ""
 "Determines how :term:`cue points <cue point>` are treated in vinyl control "
 "relative mode."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2648
+#: ../../chapters/appendix/mixxx_controls.rst:2659
 msgid "Cue points ignored"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2649
+#: ../../chapters/appendix/mixxx_controls.rst:2660
 msgid ""
 "One Cue - If needle is dropped after the :term:`cue point`, track will seek "
 "to that cue point"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2650
+#: ../../chapters/appendix/mixxx_controls.rst:2661
 msgid "Hot Cue - Track will seek to nearest previous :term:`hotcue`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2660
+#: ../../chapters/appendix/mixxx_controls.rst:2671
 msgid "Determines how vinyl control interprets needle information."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2666
+#: ../../chapters/appendix/mixxx_controls.rst:2677
 msgid "Absolute Mode (track position equals needle position and speed)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2667
+#: ../../chapters/appendix/mixxx_controls.rst:2678
 msgid ""
 "Relative Mode (track :term:`tempo` equals needle speed regardless of needle "
 "position)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2668
+#: ../../chapters/appendix/mixxx_controls.rst:2679
 msgid ""
 "Constant Mode (track :term:`tempo` equals last known-steady tempo regardless"
 " of needle input"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2671
+#: ../../chapters/appendix/mixxx_controls.rst:2682
 msgid "See :ref:`Control Mode <vinyl-control-modes>` for details."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2673
+#: ../../chapters/appendix/mixxx_controls.rst:2684
 msgid "3-way button indicates status"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2682
+#: ../../chapters/appendix/mixxx_controls.rst:2693
 msgid "Provides visual feedback with regards to vinyl control status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2684
+#: ../../chapters/appendix/mixxx_controls.rst:2695
 msgid "0.0-3.0, read-only"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2685
+#: ../../chapters/appendix/mixxx_controls.rst:2696
 msgid ""
 "Off for control disabled, green for control enabled, blinking yellow for "
 "when the needle reaches the end of the record, and red for needle skip "
 "detected"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2694
+#: ../../chapters/appendix/mixxx_controls.rst:2705
 msgid ""
 ":term:`BPM` to display in the :term:`GUI` (updated more slowly than the "
 "actual BPM)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2696
-#: ../../chapters/appendix/mixxx_controls.rst:2708
-#: ../../chapters/appendix/mixxx_controls.rst:2782
-#: ../../chapters/appendix/mixxx_controls.rst:2794
-#: ../../chapters/appendix/mixxx_controls.rst:2806
-#: ../../chapters/appendix/mixxx_controls.rst:3759
+#: ../../chapters/appendix/mixxx_controls.rst:2707
+#: ../../chapters/appendix/mixxx_controls.rst:2719
+#: ../../chapters/appendix/mixxx_controls.rst:2793
+#: ../../chapters/appendix/mixxx_controls.rst:2805
+#: ../../chapters/appendix/mixxx_controls.rst:2817
+#: ../../chapters/appendix/mixxx_controls.rst:3775
 msgid "?"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2697
+#: ../../chapters/appendix/mixxx_controls.rst:2708
 msgid ":term:`BPM` value widget"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2706
+#: ../../chapters/appendix/mixxx_controls.rst:2717
 msgid ""
 "Current musical key after pitch shifting to display in the :term:`GUI` using"
 " the notation selected in the preferences"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2718
+#: ../../chapters/appendix/mixxx_controls.rst:2729
 msgid "The distance to the nearest key measured in cents"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2722
+#: ../../chapters/appendix/mixxx_controls.rst:2733
 msgid "-0.5..0.5"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2732
+#: ../../chapters/appendix/mixxx_controls.rst:2743
 msgid "Outputs the current instantaneous deck volume"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2737
+#: ../../chapters/appendix/mixxx_controls.rst:2748
 msgid "Deck VU meter"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2744
-#: ../../chapters/appendix/mixxx_controls.rst:3211
+#: ../../chapters/appendix/mixxx_controls.rst:2755
+#: ../../chapters/appendix/mixxx_controls.rst:3227
 msgid "Outputs the current instantaneous deck volume for the left channel"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2749
-#: ../../chapters/appendix/mixxx_controls.rst:3216
+#: ../../chapters/appendix/mixxx_controls.rst:2760
+#: ../../chapters/appendix/mixxx_controls.rst:3232
 msgid "Deck VU meter L"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2756
-#: ../../chapters/appendix/mixxx_controls.rst:3224
+#: ../../chapters/appendix/mixxx_controls.rst:2767
+#: ../../chapters/appendix/mixxx_controls.rst:3240
 msgid "Outputs the current instantaneous deck volume for the right channel"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2761
-#: ../../chapters/appendix/mixxx_controls.rst:3229
+#: ../../chapters/appendix/mixxx_controls.rst:2772
+#: ../../chapters/appendix/mixxx_controls.rst:3245
 msgid "Deck VU meter R"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2768
+#: ../../chapters/appendix/mixxx_controls.rst:2779
 msgid "Zooms the waveform to look ahead or back as needed."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2770
+#: ../../chapters/appendix/mixxx_controls.rst:2781
 msgid "1.0 - 10.0"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2771
-#: ../../chapters/appendix/mixxx_controls.rst:2783
-#: ../../chapters/appendix/mixxx_controls.rst:2795
-#: ../../chapters/appendix/mixxx_controls.rst:2807
+#: ../../chapters/appendix/mixxx_controls.rst:2782
+#: ../../chapters/appendix/mixxx_controls.rst:2794
+#: ../../chapters/appendix/mixxx_controls.rst:2806
+#: ../../chapters/appendix/mixxx_controls.rst:2818
 msgid "Waveform zoom buttons"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2780
+#: ../../chapters/appendix/mixxx_controls.rst:2791
 msgid "Waveform Zoom Out"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2792
+#: ../../chapters/appendix/mixxx_controls.rst:2803
 msgid "Waveform Zoom In"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2804
+#: ../../chapters/appendix/mixxx_controls.rst:2815
 msgid "Return to default waveform zoom level"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2816
+#: ../../chapters/appendix/mixxx_controls.rst:2827
 msgid ""
 "Affects relative playback speed and direction persistently (additive offset "
 "& must manually be undone)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2823
+#: ../../chapters/appendix/mixxx_controls.rst:2834
 msgid "Deprecated controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2825
+#: ../../chapters/appendix/mixxx_controls.rst:2836
 msgid ""
 "These controls have been deprecated, new controller mappings should use the "
 "alternatives."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2831
+#: ../../chapters/appendix/mixxx_controls.rst:2842
 msgid "Setup a loop over the set number of beats."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2834
+#: ../../chapters/appendix/mixxx_controls.rst:2845
 msgid "A loop is shown over the set number of beats."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2836
+#: ../../chapters/appendix/mixxx_controls.rst:2847
 msgid ""
 "Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle`"
 " instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2849
+#: ../../chapters/appendix/mixxx_controls.rst:2860
 msgid "Use :mixxx:coref:`[ChannelN],reloop_toggle` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2857
+#: ../../chapters/appendix/mixxx_controls.rst:2868
 msgid ""
 "Affects relative playback speed and direction for short instances (additive "
 "& is automatically reset to 0)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2860
+#: ../../chapters/appendix/mixxx_controls.rst:2871
 msgid "waveform"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2862
-#: ../../chapters/appendix/mixxx_controls.rst:2875
+#: ../../chapters/appendix/mixxx_controls.rst:2873
+#: ../../chapters/appendix/mixxx_controls.rst:2886
 msgid "Use the JavaScript ``engine.scratch`` functions instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2870
+#: ../../chapters/appendix/mixxx_controls.rst:2881
 msgid ""
 "Affects playback speed and direction ([differently whether currently playing"
 " or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2883
+#: ../../chapters/appendix/mixxx_controls.rst:2894
 msgid "Toggles the filter effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2886
+#: ../../chapters/appendix/mixxx_controls.rst:2897
 msgid "Filter button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2889
+#: ../../chapters/appendix/mixxx_controls.rst:2900
 msgid ""
 "Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled "
 "<[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2897
+#: ../../chapters/appendix/mixxx_controls.rst:2908
 msgid "Adjusts the intensity of the filter effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2900
+#: ../../chapters/appendix/mixxx_controls.rst:2911
 msgid "Filter depth knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2903
+#: ../../chapters/appendix/mixxx_controls.rst:2914
 msgid ""
 "Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 "
 "<[QuickEffectRack1_[ChannelI]],super1>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2911
+#: ../../chapters/appendix/mixxx_controls.rst:2922
 msgid "Adjusts the gain of the low :term:`EQ` filter."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2914
+#: ../../chapters/appendix/mixxx_controls.rst:2925
 msgid "Low EQ knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2916
+#: ../../chapters/appendix/mixxx_controls.rst:2927
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 "
 "<[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2924
+#: ../../chapters/appendix/mixxx_controls.rst:2935
 msgid "Holds the gain of the low :term:`EQ` to -inf while active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2927
+#: ../../chapters/appendix/mixxx_controls.rst:2938
 msgid "Low EQ :term:`kill switch`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2929
+#: ../../chapters/appendix/mixxx_controls.rst:2940
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 "
 "<[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2937
+#: ../../chapters/appendix/mixxx_controls.rst:2948
 msgid "Adjusts the gain of the mid :term:`EQ` filter.."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2940
+#: ../../chapters/appendix/mixxx_controls.rst:2951
 msgid "Mid EQ knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2942
+#: ../../chapters/appendix/mixxx_controls.rst:2953
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 "
 "<[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2950
+#: ../../chapters/appendix/mixxx_controls.rst:2961
 msgid "Holds the gain of the mid :term:`EQ` to -inf while active."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2953
+#: ../../chapters/appendix/mixxx_controls.rst:2964
 msgid "Mid EQ :term:`kill switch`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2955
+#: ../../chapters/appendix/mixxx_controls.rst:2966
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 "
 "<[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2963
+#: ../../chapters/appendix/mixxx_controls.rst:2974
 msgid "Adjusts the gain of the high :term:`EQ` filter."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2966
+#: ../../chapters/appendix/mixxx_controls.rst:2977
 msgid "High EQ knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2968
+#: ../../chapters/appendix/mixxx_controls.rst:2979
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 "
 "<[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2976
+#: ../../chapters/appendix/mixxx_controls.rst:2987
 msgid "Holds the gain of the high :term:`EQ` to -inf while active."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2979
+#: ../../chapters/appendix/mixxx_controls.rst:2990
 msgid "High EQ :term:`kill switch`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2981
+#: ../../chapters/appendix/mixxx_controls.rst:2992
 msgid ""
 "Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 "
 "<[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2989
+#: ../../chapters/appendix/mixxx_controls.rst:3000
 msgid ""
 "Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, "
 "0.25, 0.5, 1, 2, 4, 8, 16, 32, 64"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2991
+#: ../../chapters/appendix/mixxx_controls.rst:3002
 msgid "toggle"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:2995
+#: ../../chapters/appendix/mixxx_controls.rst:3006
 msgid "Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3001
+#: ../../chapters/appendix/mixxx_controls.rst:3012
 msgid "Global Sampler controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3003
+#: ../../chapters/appendix/mixxx_controls.rst:3014
 msgid "These controls can be used to control all samplers."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3008
+#: ../../chapters/appendix/mixxx_controls.rst:3019
 msgid "Shows Sampler bank(s)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3012
+#: ../../chapters/appendix/mixxx_controls.rst:3023
 msgid ""
 "Save sampler configuration. Make currently loaded tracks in samplers "
 "instantly available at a later point."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3015
+#: ../../chapters/appendix/mixxx_controls.rst:3026
 msgid "Opens file dialog. Configuration file can be named and saved."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3022
+#: ../../chapters/appendix/mixxx_controls.rst:3033
 msgid ""
 "Load saved sampler configuration file and add tracks to the available "
 "samplers."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3025
+#: ../../chapters/appendix/mixxx_controls.rst:3036
 msgid "Opens file dialog. Select configuration file."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3033
+#: ../../chapters/appendix/mixxx_controls.rst:3044
 msgid "Microphones and Auxiliary Channels"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3035
+#: ../../chapters/appendix/mixxx_controls.rst:3046
 msgid ""
 "In contrast to :ref:`decks, preview decks and samplers <appendix-"
 "mixxxcontrols-decks>`, microphones and auxiliary channels are input "
@@ -3770,7 +3784,7 @@ msgid ""
 " the prelisten function."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3039
+#: ../../chapters/appendix/mixxx_controls.rst:3050
 msgid ""
 "Although the first auxiliary group is named "
 ":mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just"
@@ -3778,27 +3792,27 @@ msgid ""
 ":mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3044
+#: ../../chapters/appendix/mixxx_controls.rst:3055
 msgid "1 if a channel input is enabled, 0 if not."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3047
+#: ../../chapters/appendix/mixxx_controls.rst:3058
 msgid "Microphone is enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3050
+#: ../../chapters/appendix/mixxx_controls.rst:3061
 msgid "Use :mixxx:coref:`[MicrophoneN],input_configured` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3057
+#: ../../chapters/appendix/mixxx_controls.rst:3068
 msgid "1 if there is input is configured for this channel, 0 if not."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3060
+#: ../../chapters/appendix/mixxx_controls.rst:3071
 msgid "Configured channel in the sound preferences."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3066
+#: ../../chapters/appendix/mixxx_controls.rst:3077
 msgid ""
 "Hold value at 1 to mix channel input into the main output. For "
 ":mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` "
@@ -3806,69 +3820,73 @@ msgid ""
 ":mixxx:coref:`[AuxiliaryN],orientation` into account."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3071
+#: ../../chapters/appendix/mixxx_controls.rst:3082
 msgid "Auxiliary: Play button Microphone: N/A"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3096
+#: ../../chapters/appendix/mixxx_controls.rst:3088
+msgid "Use :mixxx:coref:`[MicrophoneN],main_mix` instead."
+msgstr ""
+
+#: ../../chapters/appendix/mixxx_controls.rst:3112
 msgid ""
 "The control is not processed in the Mixer, which is also why there are no "
 "orientation controls for Microphones in the GUI."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3107
+#: ../../chapters/appendix/mixxx_controls.rst:3123
 msgid "Microphone Clip light"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3149
+#: ../../chapters/appendix/mixxx_controls.rst:3165
 msgid ""
 "Hold value at 1 to mix channel input into the main output. For "
-":mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],master` "
+":mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],main_mix` "
 "instead. Note that :mixxx:cogroupref:`[AuxiliaryN]` also take "
 ":mixxx:coref:`[AuxiliaryN],orientation` into account."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3154
+#: ../../chapters/appendix/mixxx_controls.rst:3170
 msgid "Microphone: Talk button Auxiliary: N/A"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3168
+#: ../../chapters/appendix/mixxx_controls.rst:3184
 msgid "Microphone volume fader changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3176
+#: ../../chapters/appendix/mixxx_controls.rst:3192
 msgid "Adjusts the gain of the input"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3181
+#: ../../chapters/appendix/mixxx_controls.rst:3197
 msgid "Microphone gain knob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3198
+#: ../../chapters/appendix/mixxx_controls.rst:3214
 msgid "Outputs the current instantaneous channel volume"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3203
+#: ../../chapters/appendix/mixxx_controls.rst:3219
 msgid "Microphone VU meter changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3235
+#: ../../chapters/appendix/mixxx_controls.rst:3251
 msgid "The ``[VinylControl]`` group"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3237
+#: ../../chapters/appendix/mixxx_controls.rst:3253
 msgid ""
 "The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl "
 "control feature <vinyl-control>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3241
+#: ../../chapters/appendix/mixxx_controls.rst:3257
 msgid ""
 "Moves control by a vinyl control signal from one deck to another if using "
 "the single deck vinyl control (VC) feature."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3244
+#: ../../chapters/appendix/mixxx_controls.rst:3260
 msgid ""
 "If VC isn't enabled on any decks, enable it on the first one we're receiving"
 " samples for. If VC is enabled on a single (exclusive) deck, and another "
@@ -3877,15 +3895,15 @@ msgid ""
 "multiple decks, don't do anything."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3251
+#: ../../chapters/appendix/mixxx_controls.rst:3267
 msgid "Toggle the vinyl control section in skins."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3254
+#: ../../chapters/appendix/mixxx_controls.rst:3270
 msgid "Vinyl controls are shown"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3261
+#: ../../chapters/appendix/mixxx_controls.rst:3277
 msgid ""
 "Allows to amplify the \"phono\" level of attached turntables to \"line\" "
 "level. This is equivalent to setting the :ref:`turntable boost <vinyl-"
@@ -3893,103 +3911,103 @@ msgid ""
 "Control`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3265
+#: ../../chapters/appendix/mixxx_controls.rst:3281
 msgid ""
 "position of Boost slider in :menuselection:`Options --> Preferences --> "
 "Vinyl Control` (is not updated while viewing this Preferences page)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3270
+#: ../../chapters/appendix/mixxx_controls.rst:3286
 msgid "The ``[Recording]`` controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3272
+#: ../../chapters/appendix/mixxx_controls.rst:3288
 msgid ""
 "The controls in the :mixxx:cogroupref:`[Recording]` group can be used to "
 "query and control the :ref:`recording of your mix <djing-recording-your-"
 "mix>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3276
+#: ../../chapters/appendix/mixxx_controls.rst:3292
 msgid "Turns recording on or off."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3279
-#: ../../chapters/appendix/mixxx_controls.rst:3294
+#: ../../chapters/appendix/mixxx_controls.rst:3295
+#: ../../chapters/appendix/mixxx_controls.rst:3310
 msgid "Recording icon"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3284
+#: ../../chapters/appendix/mixxx_controls.rst:3300
 msgid "Indicates whether Mixxx is currently recording."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3290
+#: ../../chapters/appendix/mixxx_controls.rst:3306
 msgid "Recording Stopped"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3291
+#: ../../chapters/appendix/mixxx_controls.rst:3307
 msgid "Initialize Recording"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3292
+#: ../../chapters/appendix/mixxx_controls.rst:3308
 msgid "Recording Active"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3298
+#: ../../chapters/appendix/mixxx_controls.rst:3314
 msgid "AutoDJ controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3300
+#: ../../chapters/appendix/mixxx_controls.rst:3316
 msgid ""
 "The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with "
 ":ref:`AutoDJ <library-auto-dj>`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3304
+#: ../../chapters/appendix/mixxx_controls.rst:3320
 msgid "Turns Auto DJ on or off."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3307
+#: ../../chapters/appendix/mixxx_controls.rst:3323
 msgid "AutoDJ button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3314
+#: ../../chapters/appendix/mixxx_controls.rst:3330
 msgid "Shuffles the content of the Auto DJ playlist."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3317
+#: ../../chapters/appendix/mixxx_controls.rst:3333
 msgid "Order of tracks in the AutoDJ playlist changes."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3324
+#: ../../chapters/appendix/mixxx_controls.rst:3340
 msgid "Skips the next track in the Auto DJ playlist."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3327
+#: ../../chapters/appendix/mixxx_controls.rst:3343
 msgid "Skipped track is removed from the AutoDJ playlist."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3334
+#: ../../chapters/appendix/mixxx_controls.rst:3350
 msgid "Triggers the transition to the next track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3337
+#: ../../chapters/appendix/mixxx_controls.rst:3353
 msgid "Crossfader slider moves to the other side."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3344
+#: ../../chapters/appendix/mixxx_controls.rst:3360
 msgid "Adds a random track to the Auto DJ queue."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3347
+#: ../../chapters/appendix/mixxx_controls.rst:3363
 msgid "Track is added to AutoDJ queue."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3353
+#: ../../chapters/appendix/mixxx_controls.rst:3369
 msgid "The ``[Library]`` controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3355
+#: ../../chapters/appendix/mixxx_controls.rst:3371
 msgid ""
 "The controls in the :mixxx:cogroupref:`[Library]` group can be used to "
 "navigate the :ref:`library <library-interface>`. Note that "
@@ -3997,125 +4015,125 @@ msgid ""
 "keypresses and therefore require the Mixxx window to be focused."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3360
+#: ../../chapters/appendix/mixxx_controls.rst:3376
 msgid "Equivalent to pressing the :kbd:`Up` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3362
-#: ../../chapters/appendix/mixxx_controls.rst:3372
-#: ../../chapters/appendix/mixxx_controls.rst:3392
-#: ../../chapters/appendix/mixxx_controls.rst:3402
-#: ../../chapters/appendix/mixxx_controls.rst:3422
-#: ../../chapters/appendix/mixxx_controls.rst:3432
-#: ../../chapters/appendix/mixxx_controls.rst:3452
-#: ../../chapters/appendix/mixxx_controls.rst:3462
-#: ../../chapters/appendix/mixxx_controls.rst:3535
-#: ../../chapters/appendix/mixxx_controls.rst:3549
-#: ../../chapters/appendix/mixxx_controls.rst:3560
-#: ../../chapters/appendix/mixxx_controls.rst:3571
-#: ../../chapters/appendix/mixxx_controls.rst:3581
-#: ../../chapters/appendix/mixxx_controls.rst:3588
-#: ../../chapters/appendix/mixxx_controls.rst:3600
-#: ../../chapters/appendix/mixxx_controls.rst:3687
-#: ../../chapters/appendix/mixxx_controls.rst:3697
-#: ../../chapters/appendix/mixxx_controls.rst:3707
-#: ../../chapters/appendix/mixxx_controls.rst:3717
-#: ../../chapters/appendix/mixxx_controls.rst:3727
-#: ../../chapters/appendix/mixxx_controls.rst:3747
+#: ../../chapters/appendix/mixxx_controls.rst:3378
+#: ../../chapters/appendix/mixxx_controls.rst:3388
+#: ../../chapters/appendix/mixxx_controls.rst:3408
+#: ../../chapters/appendix/mixxx_controls.rst:3418
+#: ../../chapters/appendix/mixxx_controls.rst:3438
+#: ../../chapters/appendix/mixxx_controls.rst:3448
+#: ../../chapters/appendix/mixxx_controls.rst:3468
+#: ../../chapters/appendix/mixxx_controls.rst:3478
+#: ../../chapters/appendix/mixxx_controls.rst:3551
+#: ../../chapters/appendix/mixxx_controls.rst:3565
+#: ../../chapters/appendix/mixxx_controls.rst:3576
+#: ../../chapters/appendix/mixxx_controls.rst:3587
+#: ../../chapters/appendix/mixxx_controls.rst:3597
+#: ../../chapters/appendix/mixxx_controls.rst:3604
+#: ../../chapters/appendix/mixxx_controls.rst:3616
+#: ../../chapters/appendix/mixxx_controls.rst:3703
+#: ../../chapters/appendix/mixxx_controls.rst:3713
+#: ../../chapters/appendix/mixxx_controls.rst:3723
+#: ../../chapters/appendix/mixxx_controls.rst:3733
+#: ../../chapters/appendix/mixxx_controls.rst:3743
+#: ../../chapters/appendix/mixxx_controls.rst:3763
 msgid "Binary"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3363
-#: ../../chapters/appendix/mixxx_controls.rst:3373
-#: ../../chapters/appendix/mixxx_controls.rst:3383
-#: ../../chapters/appendix/mixxx_controls.rst:3393
-#: ../../chapters/appendix/mixxx_controls.rst:3403
-#: ../../chapters/appendix/mixxx_controls.rst:3413
-#: ../../chapters/appendix/mixxx_controls.rst:3423
-#: ../../chapters/appendix/mixxx_controls.rst:3433
-#: ../../chapters/appendix/mixxx_controls.rst:3443
+#: ../../chapters/appendix/mixxx_controls.rst:3379
+#: ../../chapters/appendix/mixxx_controls.rst:3389
+#: ../../chapters/appendix/mixxx_controls.rst:3399
+#: ../../chapters/appendix/mixxx_controls.rst:3409
+#: ../../chapters/appendix/mixxx_controls.rst:3419
+#: ../../chapters/appendix/mixxx_controls.rst:3429
+#: ../../chapters/appendix/mixxx_controls.rst:3439
+#: ../../chapters/appendix/mixxx_controls.rst:3449
+#: ../../chapters/appendix/mixxx_controls.rst:3459
 msgid "Currently selected item changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3370
+#: ../../chapters/appendix/mixxx_controls.rst:3386
 msgid "Equivalent to pressing the :kbd:`Down` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3380
+#: ../../chapters/appendix/mixxx_controls.rst:3396
 msgid ""
 "Move the specified number of locations up or down. Intended to be mapped to "
 "an encoder knob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3382
-#: ../../chapters/appendix/mixxx_controls.rst:3412
+#: ../../chapters/appendix/mixxx_controls.rst:3398
+#: ../../chapters/appendix/mixxx_controls.rst:3428
 msgid "Relative (positive values move down, negative values move up)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3390
+#: ../../chapters/appendix/mixxx_controls.rst:3406
 msgid "Equivalent to pressing the :kbd:`PageUp` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3400
+#: ../../chapters/appendix/mixxx_controls.rst:3416
 msgid "Equivalent to pressing the :kbd:`PageDown` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3410
+#: ../../chapters/appendix/mixxx_controls.rst:3426
 msgid ""
 "Scroll the specified number of pages up or down. Intended to be mapped to an"
 " encoder knob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3420
+#: ../../chapters/appendix/mixxx_controls.rst:3436
 msgid "Equivalent to pressing the :kbd:`Left` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3430
+#: ../../chapters/appendix/mixxx_controls.rst:3446
 msgid "Equivalent to pressing the :kbd:`Right` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3440
+#: ../../chapters/appendix/mixxx_controls.rst:3456
 msgid ""
 "Move the specified number of locations left or right. Intended to be mapped "
 "to an encoder knob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3442
+#: ../../chapters/appendix/mixxx_controls.rst:3458
 msgid "Relative (positive values move right, negative values move left)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3450
+#: ../../chapters/appendix/mixxx_controls.rst:3466
 msgid "Equivalent to pressing the :kbd:`Tab` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3453
-#: ../../chapters/appendix/mixxx_controls.rst:3463
-#: ../../chapters/appendix/mixxx_controls.rst:3473
+#: ../../chapters/appendix/mixxx_controls.rst:3469
+#: ../../chapters/appendix/mixxx_controls.rst:3479
+#: ../../chapters/appendix/mixxx_controls.rst:3489
 msgid "Currently focused pane changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3460
+#: ../../chapters/appendix/mixxx_controls.rst:3476
 msgid ""
 "Equivalent to pressing the :kbd:`Shift` + :kbd:`Tab` key on the keyboard"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3470
+#: ../../chapters/appendix/mixxx_controls.rst:3486
 msgid ""
 "Move focus the specified number of panes forward or backwards. Intended to "
 "be mapped to an encoder knob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3472
+#: ../../chapters/appendix/mixxx_controls.rst:3488
 msgid "Relative (positive values move forward, negative values move backward)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3480
+#: ../../chapters/appendix/mixxx_controls.rst:3496
 msgid ""
 "Read this control to know which library widget is currently focused, or "
 "write in order to focus a specific library widget."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3482
+#: ../../chapters/appendix/mixxx_controls.rst:3498
 msgid ""
 "This control can be used in controller scripts to trigger context-specific "
 "actions. For example, if the tracks table has focus, pressing a button loads"
@@ -4123,43 +4141,27 @@ msgid ""
 "the search if the search bar is focused."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3486
+#: ../../chapters/appendix/mixxx_controls.rst:3502
 msgid ""
 "Note: This control is useful only if a Mixxx window has keyboard focus, "
 "otherwise it always returns 0."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3490
+#: ../../chapters/appendix/mixxx_controls.rst:3506
 msgid "writeable"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3490
+#: ../../chapters/appendix/mixxx_controls.rst:3506
 msgid "Widget"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3492
+#: ../../chapters/appendix/mixxx_controls.rst:3508
 msgid "none"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3494
-#: ../../chapters/appendix/mixxx_controls.rst:3496
-#: ../../chapters/appendix/mixxx_controls.rst:3498
-#: ../../chapters/appendix/mixxx_controls.rst:3623
-#: ../../chapters/appendix/mixxx_controls.rst:3624
-#: ../../chapters/appendix/mixxx_controls.rst:3625
-#: ../../chapters/appendix/mixxx_controls.rst:3626
-#: ../../chapters/appendix/mixxx_controls.rst:3627
-#: ../../chapters/appendix/mixxx_controls.rst:3628
-#: ../../chapters/appendix/mixxx_controls.rst:3629
-#: ../../chapters/appendix/mixxx_controls.rst:3630
-#: ../../chapters/appendix/mixxx_controls.rst:3631
-#: ../../chapters/appendix/mixxx_controls.rst:3632
-#: ../../chapters/appendix/mixxx_controls.rst:3633
-#: ../../chapters/appendix/mixxx_controls.rst:3634
-#: ../../chapters/appendix/mixxx_controls.rst:3635
-#: ../../chapters/appendix/mixxx_controls.rst:3636
-#: ../../chapters/appendix/mixxx_controls.rst:3637
-#: ../../chapters/appendix/mixxx_controls.rst:3638
+#: ../../chapters/appendix/mixxx_controls.rst:3510
+#: ../../chapters/appendix/mixxx_controls.rst:3512
+#: ../../chapters/appendix/mixxx_controls.rst:3514
 #: ../../chapters/appendix/mixxx_controls.rst:3639
 #: ../../chapters/appendix/mixxx_controls.rst:3640
 #: ../../chapters/appendix/mixxx_controls.rst:3641
@@ -4172,120 +4174,136 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:3648
 #: ../../chapters/appendix/mixxx_controls.rst:3649
 #: ../../chapters/appendix/mixxx_controls.rst:3650
+#: ../../chapters/appendix/mixxx_controls.rst:3651
 #: ../../chapters/appendix/mixxx_controls.rst:3652
 #: ../../chapters/appendix/mixxx_controls.rst:3653
+#: ../../chapters/appendix/mixxx_controls.rst:3654
+#: ../../chapters/appendix/mixxx_controls.rst:3655
+#: ../../chapters/appendix/mixxx_controls.rst:3656
+#: ../../chapters/appendix/mixxx_controls.rst:3657
+#: ../../chapters/appendix/mixxx_controls.rst:3658
+#: ../../chapters/appendix/mixxx_controls.rst:3659
+#: ../../chapters/appendix/mixxx_controls.rst:3660
+#: ../../chapters/appendix/mixxx_controls.rst:3661
+#: ../../chapters/appendix/mixxx_controls.rst:3662
+#: ../../chapters/appendix/mixxx_controls.rst:3663
+#: ../../chapters/appendix/mixxx_controls.rst:3664
+#: ../../chapters/appendix/mixxx_controls.rst:3665
+#: ../../chapters/appendix/mixxx_controls.rst:3666
+#: ../../chapters/appendix/mixxx_controls.rst:3668
+#: ../../chapters/appendix/mixxx_controls.rst:3669
 msgid "X"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3494
+#: ../../chapters/appendix/mixxx_controls.rst:3510
 msgid "Search bar"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3496
+#: ../../chapters/appendix/mixxx_controls.rst:3512
 msgid "Tree view"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3498
+#: ../../chapters/appendix/mixxx_controls.rst:3514
 msgid "Tracks table or root views of library features"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3500
+#: ../../chapters/appendix/mixxx_controls.rst:3516
 msgid ""
 "Context menu (menus of library widgets or other editable widgets, or main "
 "menu bar)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3502
+#: ../../chapters/appendix/mixxx_controls.rst:3518
 msgid ""
 "Dialog (any confirmation or error popup, preferences, track properties or "
 "cover art window)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3504
+#: ../../chapters/appendix/mixxx_controls.rst:3520
 msgid "Unknown (widgets that don't fit into any of the above categories)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3506
+#: ../../chapters/appendix/mixxx_controls.rst:3522
 msgid "Currently focused widget changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3513
+#: ../../chapters/appendix/mixxx_controls.rst:3529
 msgid ""
 "Triggers different actions, depending on which interface element currently "
 "has keyboard focus:"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3516
+#: ../../chapters/appendix/mixxx_controls.rst:3532
 msgid "**Search bar**"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3518
+#: ../../chapters/appendix/mixxx_controls.rst:3534
 msgid "text box"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3518
-#: ../../chapters/appendix/mixxx_controls.rst:3526
+#: ../../chapters/appendix/mixxx_controls.rst:3534
+#: ../../chapters/appendix/mixxx_controls.rst:3542
 msgid "moves focus to tracks table"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3520
+#: ../../chapters/appendix/mixxx_controls.rst:3536
 msgid "Clear button"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3520
+#: ../../chapters/appendix/mixxx_controls.rst:3536
 msgid "clears search text"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3522
+#: ../../chapters/appendix/mixxx_controls.rst:3538
 msgid "**Sidebar**"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3524
+#: ../../chapters/appendix/mixxx_controls.rst:3540
 msgid "collapsed node"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3524
+#: ../../chapters/appendix/mixxx_controls.rst:3540
 msgid "expands the item (except Tracks and Auto DJ)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3526
+#: ../../chapters/appendix/mixxx_controls.rst:3542
 msgid "leaf node"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3528
+#: ../../chapters/appendix/mixxx_controls.rst:3544
 msgid "**Tracks table**"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3528
+#: ../../chapters/appendix/mixxx_controls.rst:3544
 msgid ""
 "Performs the action selected in :menuselection:`Preferences --> Library --> "
 "Track Double-Click Action` (default is \"Load selected track\"). Also see "
 ":menuselection:`Preferences --> Decks --> Playing track protection`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3530
+#: ../../chapters/appendix/mixxx_controls.rst:3546
 msgid "**Context menus**"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3530
+#: ../../chapters/appendix/mixxx_controls.rst:3546
 msgid "presses :kbd:`Enter`"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3532
+#: ../../chapters/appendix/mixxx_controls.rst:3548
 msgid "**Dialogs / popups**"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3532
+#: ../../chapters/appendix/mixxx_controls.rst:3548
 msgid ""
 "presses :kbd:`Enter`. Note: the :mixxx:coref:`Move.. <[Library],MoveUp>` "
 "controls allow to move button focus."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3536
+#: ../../chapters/appendix/mixxx_controls.rst:3552
 msgid "Context dependent"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3543
+#: ../../chapters/appendix/mixxx_controls.rst:3559
 msgid ""
 "Toggle the track context menu for all tracks selected in the current library"
 " view. The control value is `1` if there is already a menu shown for the "
@@ -4295,234 +4313,234 @@ msgid ""
 "<[Library],MoveUp>` controls."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3550
+#: ../../chapters/appendix/mixxx_controls.rst:3566
 msgid "Tracks table context menu is shown or hidden."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3558
+#: ../../chapters/appendix/mixxx_controls.rst:3574
 msgid "Add selected track(s) to Auto DJ Queue (bottom)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3561
+#: ../../chapters/appendix/mixxx_controls.rst:3577
 msgid "Append track(s) to Auto DJ playlist"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3569
+#: ../../chapters/appendix/mixxx_controls.rst:3585
 msgid "Add selected track(s) to Auto DJ Queue (top)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3572
+#: ../../chapters/appendix/mixxx_controls.rst:3588
 msgid "Prepend track(s) to Auto DJ playlist"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3579
+#: ../../chapters/appendix/mixxx_controls.rst:3595
 msgid "Toggle the Cover Art in Library"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3586
+#: ../../chapters/appendix/mixxx_controls.rst:3602
 msgid ""
 "Increase the size of the library font. If the row height is smaller than the"
 " font-size the larger of the two is used."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3589
-#: ../../chapters/appendix/mixxx_controls.rst:3601
-#: ../../chapters/appendix/mixxx_controls.rst:3611
+#: ../../chapters/appendix/mixxx_controls.rst:3605
+#: ../../chapters/appendix/mixxx_controls.rst:3617
+#: ../../chapters/appendix/mixxx_controls.rst:3627
 msgid "Library view"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3596
+#: ../../chapters/appendix/mixxx_controls.rst:3612
 msgid "Decrease the size of the library font"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3606
+#: ../../chapters/appendix/mixxx_controls.rst:3622
 msgid "Increase or decrease the size of the library font"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3610
+#: ../../chapters/appendix/mixxx_controls.rst:3626
 msgid "Relative"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3617
+#: ../../chapters/appendix/mixxx_controls.rst:3633
 msgid "Indicates the sorting column the track table"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3621
+#: ../../chapters/appendix/mixxx_controls.rst:3637
 msgid "Description"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3621
+#: ../../chapters/appendix/mixxx_controls.rst:3637
 msgid "Library"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3621
+#: ../../chapters/appendix/mixxx_controls.rst:3637
 msgid "Playlist"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3621
+#: ../../chapters/appendix/mixxx_controls.rst:3637
 msgid "Crate"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3621
+#: ../../chapters/appendix/mixxx_controls.rst:3637
 msgid "Browse"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3623
+#: ../../chapters/appendix/mixxx_controls.rst:3639
 msgid "Artist"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3624
+#: ../../chapters/appendix/mixxx_controls.rst:3640
 msgid "Title"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3625
+#: ../../chapters/appendix/mixxx_controls.rst:3641
 msgid "Album"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3626
+#: ../../chapters/appendix/mixxx_controls.rst:3642
 msgid "Albumartist"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3627
+#: ../../chapters/appendix/mixxx_controls.rst:3643
 msgid "Year"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3628
+#: ../../chapters/appendix/mixxx_controls.rst:3644
 msgid "Genre"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3629
+#: ../../chapters/appendix/mixxx_controls.rst:3645
 msgid "Composer"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3630
+#: ../../chapters/appendix/mixxx_controls.rst:3646
 msgid "Grouping"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3631
+#: ../../chapters/appendix/mixxx_controls.rst:3647
 msgid "Tracknumber"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3632
+#: ../../chapters/appendix/mixxx_controls.rst:3648
 msgid "Filetype"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3633
+#: ../../chapters/appendix/mixxx_controls.rst:3649
 msgid "Native Location"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3634
+#: ../../chapters/appendix/mixxx_controls.rst:3650
 msgid "Comment"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3635
+#: ../../chapters/appendix/mixxx_controls.rst:3651
 msgid "Duration"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3636
+#: ../../chapters/appendix/mixxx_controls.rst:3652
 msgid "Bitrate"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3637
+#: ../../chapters/appendix/mixxx_controls.rst:3653
 msgid "BPM"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3638
+#: ../../chapters/appendix/mixxx_controls.rst:3654
 msgid "ReplayGain"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3639
+#: ../../chapters/appendix/mixxx_controls.rst:3655
 msgid "Datetime Added"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3640
+#: ../../chapters/appendix/mixxx_controls.rst:3656
 msgid "Times Played"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3641
+#: ../../chapters/appendix/mixxx_controls.rst:3657
 msgid "Rating"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3642
+#: ../../chapters/appendix/mixxx_controls.rst:3658
 msgid "Key"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3643
+#: ../../chapters/appendix/mixxx_controls.rst:3659
 msgid "Preview"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3644
+#: ../../chapters/appendix/mixxx_controls.rst:3660
 msgid "Coverart"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3646
+#: ../../chapters/appendix/mixxx_controls.rst:3662
 msgid "Playlist ID"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3647
+#: ../../chapters/appendix/mixxx_controls.rst:3663
 msgid "25"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3647
+#: ../../chapters/appendix/mixxx_controls.rst:3663
 msgid "Location"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3648
+#: ../../chapters/appendix/mixxx_controls.rst:3664
 msgid "26"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3648
+#: ../../chapters/appendix/mixxx_controls.rst:3664
 msgid "Filename"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3649
+#: ../../chapters/appendix/mixxx_controls.rst:3665
 msgid "27"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3649
+#: ../../chapters/appendix/mixxx_controls.rst:3665
 msgid "File Modified Time"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3650
+#: ../../chapters/appendix/mixxx_controls.rst:3666
 msgid "28"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3650
+#: ../../chapters/appendix/mixxx_controls.rst:3666
 msgid "File Creation Time"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3651
+#: ../../chapters/appendix/mixxx_controls.rst:3667
 msgid "29"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3651
+#: ../../chapters/appendix/mixxx_controls.rst:3667
 msgid "Sample Rate"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3652
+#: ../../chapters/appendix/mixxx_controls.rst:3668
 msgid "30"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3652
+#: ../../chapters/appendix/mixxx_controls.rst:3668
 msgid "Track Color"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3653
+#: ../../chapters/appendix/mixxx_controls.rst:3669
 msgid "31"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3653
+#: ../../chapters/appendix/mixxx_controls.rst:3669
 msgid "Last Played"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3656
-#: ../../chapters/appendix/mixxx_controls.rst:3666
-#: ../../chapters/appendix/mixxx_controls.rst:3676
-#: ../../chapters/appendix/mixxx_controls.rst:3688
+#: ../../chapters/appendix/mixxx_controls.rst:3672
+#: ../../chapters/appendix/mixxx_controls.rst:3682
+#: ../../chapters/appendix/mixxx_controls.rst:3692
+#: ../../chapters/appendix/mixxx_controls.rst:3704
 msgid "Sorting indicator in the column headers of the track table"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3663
+#: ../../chapters/appendix/mixxx_controls.rst:3679
 msgid ""
 "Equivalent to clicking on column headers. A new value sets "
 ":mixxx:coref:`[Library],sort_column` to that value and "
@@ -4530,94 +4548,94 @@ msgid ""
 "toggle :mixxx:coref:`[Library],sort_order`."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3665
+#: ../../chapters/appendix/mixxx_controls.rst:3681
 msgid ""
 "Same as for :mixxx:coref:`[Library],sort_column` or value 0 for sorting "
 "according the current column with the cursor on it"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3673
+#: ../../chapters/appendix/mixxx_controls.rst:3689
 msgid "Indicate the sort order of the track tables."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3675
+#: ../../chapters/appendix/mixxx_controls.rst:3691
 msgid "Binary (0 for ascending, 1 for descending)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3683
+#: ../../chapters/appendix/mixxx_controls.rst:3699
 msgid ""
 "Sort the column of the table cell that is currently focused, which is "
 "equivalent to setting :mixxx:coref:`[Library],sort_column_toggle` to 0. "
 "Though unlike that, it can be mapped to pushbuttons directly."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3695
+#: ../../chapters/appendix/mixxx_controls.rst:3711
 msgid "Set color of selected track to previous color in palette."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3705
+#: ../../chapters/appendix/mixxx_controls.rst:3721
 msgid "Set color of selected track to next color in palette."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3715
+#: ../../chapters/appendix/mixxx_controls.rst:3731
 msgid ""
 "Select the next saved search query. Wraps around at the last item to the "
 "empty search."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3718
-#: ../../chapters/appendix/mixxx_controls.rst:3728
-#: ../../chapters/appendix/mixxx_controls.rst:3738
+#: ../../chapters/appendix/mixxx_controls.rst:3734
+#: ../../chapters/appendix/mixxx_controls.rst:3744
+#: ../../chapters/appendix/mixxx_controls.rst:3754
 msgid "Searchbox query changes"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3725
+#: ../../chapters/appendix/mixxx_controls.rst:3741
 msgid ""
 "Select the previous saved search query. Wraps around at the top to the last "
 "item."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3735
+#: ../../chapters/appendix/mixxx_controls.rst:3751
 msgid ""
 "Select another saved search query. < 0 goes up the list, > 0 goes down. "
 "Wraps around at the top and bottom."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3737
+#: ../../chapters/appendix/mixxx_controls.rst:3753
 msgid "-N / +N"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3745
+#: ../../chapters/appendix/mixxx_controls.rst:3761
 msgid "Clear the search."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3748
+#: ../../chapters/appendix/mixxx_controls.rst:3764
 msgid "Searchbox query is cleared"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3753
+#: ../../chapters/appendix/mixxx_controls.rst:3769
 msgid "The ``[Shoutcast]`` controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3757
+#: ../../chapters/appendix/mixxx_controls.rst:3773
 msgid "Shows if live Internet broadcasting is enabled."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3760
+#: ../../chapters/appendix/mixxx_controls.rst:3776
 msgid "shoutcast only supports mp3 format as field"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3765
+#: ../../chapters/appendix/mixxx_controls.rst:3781
 msgid ""
 "This control displays whether broadcasting connection to Shoutcast server "
 "was successfully established."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3772
+#: ../../chapters/appendix/mixxx_controls.rst:3788
 msgid "The ``[Playlist]`` controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3774
+#: ../../chapters/appendix/mixxx_controls.rst:3790
 msgid ""
 ":mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and "
 "tracks table directly without considering the currently focused widget. This"
@@ -4626,167 +4644,167 @@ msgid ""
 "``[Library]`` above."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3779
+#: ../../chapters/appendix/mixxx_controls.rst:3795
 msgid ""
 "See `bug \\#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for "
 "the current status."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3784
+#: ../../chapters/appendix/mixxx_controls.rst:3800
 msgid ""
 "Scrolls the given number of items (view, playlist, crate, etc.) in the side "
 "pane (can be negative for reverse direction)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3786
-#: ../../chapters/appendix/mixxx_controls.rst:3794
+#: ../../chapters/appendix/mixxx_controls.rst:3802
+#: ../../chapters/appendix/mixxx_controls.rst:3810
 msgid "relative value"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3787
+#: ../../chapters/appendix/mixxx_controls.rst:3803
 msgid "Library sidebar highlight"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3792
+#: ../../chapters/appendix/mixxx_controls.rst:3808
 msgid ""
 "Scrolls the given number of tracks in the track table (can be negative for "
 "reverse direction)."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3795
+#: ../../chapters/appendix/mixxx_controls.rst:3811
 msgid "Library track table highlight"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3802
+#: ../../chapters/appendix/mixxx_controls.rst:3818
 msgid "Loads the currently highlighted song into the first stopped deck"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3804
-#: ../../chapters/appendix/mixxx_controls.rst:3836
+#: ../../chapters/appendix/mixxx_controls.rst:3820
+#: ../../chapters/appendix/mixxx_controls.rst:3852
 msgid "Use :mixxx:coref:`[Library],GoToItem` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3812
+#: ../../chapters/appendix/mixxx_controls.rst:3828
 msgid "Switches to the next view (Library, Queue, etc.)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3814
-#: ../../chapters/appendix/mixxx_controls.rst:3846
+#: ../../chapters/appendix/mixxx_controls.rst:3830
+#: ../../chapters/appendix/mixxx_controls.rst:3862
 msgid "Use :mixxx:coref:`[Library],MoveDown` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3821
+#: ../../chapters/appendix/mixxx_controls.rst:3837
 msgid "Library sidebar"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3823
+#: ../../chapters/appendix/mixxx_controls.rst:3839
 msgid "Switches to the previous view (Library, Queue, etc.)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3825
-#: ../../chapters/appendix/mixxx_controls.rst:3856
+#: ../../chapters/appendix/mixxx_controls.rst:3841
+#: ../../chapters/appendix/mixxx_controls.rst:3872
 msgid "Use :mixxx:coref:`[Library],MoveUp` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3833
+#: ../../chapters/appendix/mixxx_controls.rst:3849
 msgid "Toggles (expands/collapses) the currently selected sidebar item."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3844
+#: ../../chapters/appendix/mixxx_controls.rst:3860
 msgid "Scrolls to the next track in the track table."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3854
+#: ../../chapters/appendix/mixxx_controls.rst:3870
 msgid "Scrolls to the previous track in the track table."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3862
+#: ../../chapters/appendix/mixxx_controls.rst:3878
 msgid "The ``[Controls]`` controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3864
+#: ../../chapters/appendix/mixxx_controls.rst:3880
 msgid ""
 "The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit "
 "in any other group."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3868
+#: ../../chapters/appendix/mixxx_controls.rst:3884
 msgid ""
 "Once enabled, all touch tab events are interpreted as right click. This "
 "control has been added to provide touchscreen compatibility in 2.0 and might"
 " be replaced by a general modifier solution in the future."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3871
+#: ../../chapters/appendix/mixxx_controls.rst:3887
 msgid "All Widgets"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3878
+#: ../../chapters/appendix/mixxx_controls.rst:3894
 msgid ""
 "If enabled, colors will be assigned to newly created :term:`hotcues "
 "<hotcue>` automatically."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3887
+#: ../../chapters/appendix/mixxx_controls.rst:3903
 msgid ""
 "Represents the current state of the remaining time duration display of the "
 "loaded track."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3893
+#: ../../chapters/appendix/mixxx_controls.rst:3909
 msgid "currently showing elapsed time, sets to remaining time"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3894
+#: ../../chapters/appendix/mixxx_controls.rst:3910
 msgid "currently showing remaining time , sets to elapsed time"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3895
+#: ../../chapters/appendix/mixxx_controls.rst:3911
 msgid ""
 "currently showing both (that means we are showing remaining, set to elapsed"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3902
+#: ../../chapters/appendix/mixxx_controls.rst:3918
 msgid "The Effects Framework"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3904
+#: ../../chapters/appendix/mixxx_controls.rst:3920
 msgid "In the list below,"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3906
+#: ../../chapters/appendix/mixxx_controls.rst:3922
 msgid "EffectRack1 leaves room for future expansion to multiple EffectRacks."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3907
+#: ../../chapters/appendix/mixxx_controls.rst:3923
 msgid "N ranges from 1 to ``[EffectRack1],num_effectunits``, inclusive."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3908
+#: ../../chapters/appendix/mixxx_controls.rst:3924
 msgid ""
 "M ranges from 1 to ``[EffectRack1_EffectUnitN],num_effectslots``, inclusive."
 " (For a given value of N)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3909
+#: ../../chapters/appendix/mixxx_controls.rst:3925
 msgid ""
 "K ranges from 1 to ``[EffectRack1_EffectUnitN_EffectM],num_parameters``, "
 "inclusive.  (For given values of N and M)"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3910
+#: ../../chapters/appendix/mixxx_controls.rst:3926
 msgid "I ranges from 1 to ``[Master],num_decks``, inclusive."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3911
+#: ../../chapters/appendix/mixxx_controls.rst:3927
 msgid "J ranges from 1 to ``[Master],num_samplers``, inclusive."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3916
+#: ../../chapters/appendix/mixxx_controls.rst:3932
 msgid "Linking Values"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3918
+#: ../../chapters/appendix/mixxx_controls.rst:3934
 msgid ""
 "Effect parameters can be linked to the effect's metaknob. This linkage can "
 "be user-controlled by changing the ``link_type`` and the ``link_inverse`` "
@@ -4794,81 +4812,81 @@ msgid ""
 "parameter's manifest's ``linkHint`` property."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3923
+#: ../../chapters/appendix/mixxx_controls.rst:3939
 msgid "Link Type"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3923
-#: ../../chapters/appendix/mixxx_controls.rst:3933
+#: ../../chapters/appendix/mixxx_controls.rst:3939
+#: ../../chapters/appendix/mixxx_controls.rst:3949
 msgid "Integer Value"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3923
-#: ../../chapters/appendix/mixxx_controls.rst:3933
+#: ../../chapters/appendix/mixxx_controls.rst:3939
+#: ../../chapters/appendix/mixxx_controls.rst:3949
 msgid "Interpretation"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3925
+#: ../../chapters/appendix/mixxx_controls.rst:3941
 msgid "Not controlled by the metaknob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3926
+#: ../../chapters/appendix/mixxx_controls.rst:3942
 msgid "Linked"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3926
+#: ../../chapters/appendix/mixxx_controls.rst:3942
 msgid "Controlled by the metaknob as it is"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3927
+#: ../../chapters/appendix/mixxx_controls.rst:3943
 msgid "Linked Left"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3927
+#: ../../chapters/appendix/mixxx_controls.rst:3943
 msgid "Controlled by the left side of the metaknob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3928
+#: ../../chapters/appendix/mixxx_controls.rst:3944
 msgid "Linked Right"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3928
+#: ../../chapters/appendix/mixxx_controls.rst:3944
 msgid "Controlled by the right side of the metaknob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3929
+#: ../../chapters/appendix/mixxx_controls.rst:3945
 msgid "Linked Left Right"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3929
+#: ../../chapters/appendix/mixxx_controls.rst:3945
 msgid "Controlled by both sides of the metaknob"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3933
+#: ../../chapters/appendix/mixxx_controls.rst:3949
 msgid "Link Inverse"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3935
+#: ../../chapters/appendix/mixxx_controls.rst:3951
 msgid "Normal"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3935
+#: ../../chapters/appendix/mixxx_controls.rst:3951
 msgid "Linked in equal relation"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3936
+#: ../../chapters/appendix/mixxx_controls.rst:3952
 msgid "Inverse"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3936
+#: ../../chapters/appendix/mixxx_controls.rst:3952
 msgid "Linked in an inverse relation."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3941
+#: ../../chapters/appendix/mixxx_controls.rst:3957
 msgid "EQs and Filters"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3943
+#: ../../chapters/appendix/mixxx_controls.rst:3959
 msgid ""
 ":term:`Equalizers <EQ>` and filters are special effects units. The EQs are "
 "controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and "
@@ -4879,266 +4897,262 @@ msgid ""
 "Equalizers section of the Preferences window."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3949
+#: ../../chapters/appendix/mixxx_controls.rst:3965
 msgid "Controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3953
+#: ../../chapters/appendix/mixxx_controls.rst:3969
 msgid "Show the Effect Rack"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3962
+#: ../../chapters/appendix/mixxx_controls.rst:3978
 msgid "The number of EffectUnits in this rack"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3971
+#: ../../chapters/appendix/mixxx_controls.rst:3987
 msgid "Clear the Effect Rack"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3980
+#: ../../chapters/appendix/mixxx_controls.rst:3996
 msgid ""
 "Select EffectChain preset. \\> 0 goes one forward; \\< 0 goes one backward."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3982
-#: ../../chapters/appendix/mixxx_controls.rst:4142
+#: ../../chapters/appendix/mixxx_controls.rst:3998
+#: ../../chapters/appendix/mixxx_controls.rst:4149
 msgid "+1/-1"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3989
+#: ../../chapters/appendix/mixxx_controls.rst:4005
 msgid "Clear the currently loaded EffectChain in this EffectUnit."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:3998
+#: ../../chapters/appendix/mixxx_controls.rst:4014
 msgid ""
 "If true, the EffectChain in this EffectUnit will be processed. Meant to "
 "allow the user a quick toggle for the effect unit."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4000
-#: ../../chapters/appendix/mixxx_controls.rst:4151
+#: ../../chapters/appendix/mixxx_controls.rst:4016
+#: ../../chapters/appendix/mixxx_controls.rst:4158
 msgid "binary, default true"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4007
+#: ../../chapters/appendix/mixxx_controls.rst:4023
 msgid ""
 "0 indicates no effect is focused; \\> 0 indicates the index of the focused "
 "effect. Focusing an effect only does something if a controller mapping "
 "changes how it behaves when an effect is focused."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4009
-msgid "0..num_effects"
+#: ../../chapters/appendix/mixxx_controls.rst:4025
+msgid "0..num_effectslots"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4016
+#: ../../chapters/appendix/mixxx_controls.rst:4032
 msgid "Whether or not this EffectChain applies to Deck I"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4023
+#: ../../chapters/appendix/mixxx_controls.rst:4039
 msgid "Whether or not this EffectChain applies to the Headphone output"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4030
+#: ../../chapters/appendix/mixxx_controls.rst:4046
 msgid "Whether or not this EffectChain applies to the Main output"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4037
+#: ../../chapters/appendix/mixxx_controls.rst:4053
 msgid "Whether or not this EffectChain applies to Sampler J"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4046
+#: ../../chapters/appendix/mixxx_controls.rst:4062
 msgid "Whether an EffectChain is loaded into the EffectUnit"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4055
+#: ../../chapters/appendix/mixxx_controls.rst:4071
 msgid ""
 "The dry/wet mixing ratio for this EffectChain with the EngineChannels it is "
 "mixed with"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4066
+#: ../../chapters/appendix/mixxx_controls.rst:4082
 msgid ""
 "Cycle to the next EffectChain preset after the currently loaded preset."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4075
-msgid "The number of Effects that this EffectChain has"
-msgstr ""
-
-#: ../../chapters/appendix/mixxx_controls.rst:4084
+#: ../../chapters/appendix/mixxx_controls.rst:4091
 msgid "The number of effect slots available in this EffectUnit."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4093
+#: ../../chapters/appendix/mixxx_controls.rst:4100
 msgid ""
 "Cycle to the previous EffectChain preset before the currently loaded preset."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4102
+#: ../../chapters/appendix/mixxx_controls.rst:4109
 msgid ""
 "Whether to show focus buttons and draw a border around the focused effect in"
 " skins. This should not be manipulated by skins; it should only be changed "
 "by controller mappings."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4113
+#: ../../chapters/appendix/mixxx_controls.rst:4120
 msgid ""
 "Whether to show all the parameters of each effect in skins or only show "
 "metaknobs."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4120
+#: ../../chapters/appendix/mixxx_controls.rst:4127
 msgid ""
 "The EffectChain superknob. Moves the metaknobs for each effect in the chain."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4131
+#: ../../chapters/appendix/mixxx_controls.rst:4138
 msgid ""
 "Clear the currently loaded Effect in this Effect slot from the EffectUnit."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4140
+#: ../../chapters/appendix/mixxx_controls.rst:4147
 msgid "Select Effect -- \\>0 goes one forward, \\<0 goes one backward."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4149
+#: ../../chapters/appendix/mixxx_controls.rst:4156
 msgid ""
 "If true, the effect in this slot will be processed. Meant to allow the user "
 "a quick toggle for this effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4158
+#: ../../chapters/appendix/mixxx_controls.rst:4165
 msgid "Whether an Effect is loaded into this EffectSlot"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4167
+#: ../../chapters/appendix/mixxx_controls.rst:4174
 msgid "Cycle to the next effect after the currently loaded effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4176
+#: ../../chapters/appendix/mixxx_controls.rst:4183
 msgid "The number of parameters the currently loaded effect has."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4178
+#: ../../chapters/appendix/mixxx_controls.rst:4185
 msgid "integer, read-only,  0 if no effect is loaded"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4185
+#: ../../chapters/appendix/mixxx_controls.rst:4192
 msgid "The number of parameter slots available."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4194
+#: ../../chapters/appendix/mixxx_controls.rst:4201
 msgid "The number of button parameters the currently loaded effect has."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4196
+#: ../../chapters/appendix/mixxx_controls.rst:4203
 msgid "integer, read-only, 0 if no effect is loaded"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4203
+#: ../../chapters/appendix/mixxx_controls.rst:4210
 msgid "The number of button parameter slots available."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4212
+#: ../../chapters/appendix/mixxx_controls.rst:4219
 msgid "Controls the parameters that are linked to the metaknob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4216
+#: ../../chapters/appendix/mixxx_controls.rst:4223
 msgid "0..1"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4223
+#: ../../chapters/appendix/mixxx_controls.rst:4230
 msgid "Cycle to the previous effect before the currently loaded effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4232
+#: ../../chapters/appendix/mixxx_controls.rst:4239
 msgid ""
 "The scaled value of the Kth parameter. See the `Parameter Values "
 "<https://github.com/mixxxdj/mixxx/wiki/Effects-Framework#user-content-"
 "parameter-values>`__ section for more information."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4237
-#: ../../chapters/appendix/mixxx_controls.rst:4282
+#: ../../chapters/appendix/mixxx_controls.rst:4244
+#: ../../chapters/appendix/mixxx_controls.rst:4289
 msgid "double"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4244
+#: ../../chapters/appendix/mixxx_controls.rst:4251
 msgid "The link direction of the Kth parameter to the effect's metaknob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4246
+#: ../../chapters/appendix/mixxx_controls.rst:4253
 msgid "bool"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4253
+#: ../../chapters/appendix/mixxx_controls.rst:4260
 msgid "The link type of the Kth parameter to the effects's metaknob."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4255
+#: ../../chapters/appendix/mixxx_controls.rst:4262
 msgid "enum"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4262
-#: ../../chapters/appendix/mixxx_controls.rst:4289
+#: ../../chapters/appendix/mixxx_controls.rst:4269
+#: ../../chapters/appendix/mixxx_controls.rst:4296
 msgid ""
 "Whether or not the Kth parameter slot has an effect parameter loaded into "
 "it."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4271
-#: ../../chapters/appendix/mixxx_controls.rst:4298
+#: ../../chapters/appendix/mixxx_controls.rst:4278
+#: ../../chapters/appendix/mixxx_controls.rst:4305
 msgid ""
 "The type of the Kth parameter value. See the Parameter Value Types table."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4280
+#: ../../chapters/appendix/mixxx_controls.rst:4287
 msgid ""
 "The value of the Kth parameter. See the Parameter Values section for more "
 "information."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4304
+#: ../../chapters/appendix/mixxx_controls.rst:4311
 msgid "Removed controls"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4306
+#: ../../chapters/appendix/mixxx_controls.rst:4313
 msgid ""
 "These controls have been removed from Mixxx. Skins and controller mappings "
 "that attempt to use them will not work correctly."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4312
+#: ../../chapters/appendix/mixxx_controls.rst:4319
 msgid "Toggles the flanger effect."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4314
-#: ../../chapters/appendix/mixxx_controls.rst:4363
-#: ../../chapters/appendix/mixxx_controls.rst:4373
-#: ../../chapters/appendix/mixxx_controls.rst:4383
+#: ../../chapters/appendix/mixxx_controls.rst:4321
+#: ../../chapters/appendix/mixxx_controls.rst:4370
+#: ../../chapters/appendix/mixxx_controls.rst:4380
+#: ../../chapters/appendix/mixxx_controls.rst:4390
 msgid ""
 "This control has been **removed** without a direct replacement. Use the "
 ":ref:`effects framework <appendix-mixxxcontrols-effects>` instead."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4323
-#: ../../chapters/appendix/mixxx_controls.rst:4329
-#: ../../chapters/appendix/mixxx_controls.rst:4335
-#: ../../chapters/appendix/mixxx_controls.rst:4341
-#: ../../chapters/appendix/mixxx_controls.rst:4347
-#: ../../chapters/appendix/mixxx_controls.rst:4353
+#: ../../chapters/appendix/mixxx_controls.rst:4330
+#: ../../chapters/appendix/mixxx_controls.rst:4336
+#: ../../chapters/appendix/mixxx_controls.rst:4342
+#: ../../chapters/appendix/mixxx_controls.rst:4348
+#: ../../chapters/appendix/mixxx_controls.rst:4354
+#: ../../chapters/appendix/mixxx_controls.rst:4360
 msgid "This control has been **removed**."
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4361
+#: ../../chapters/appendix/mixxx_controls.rst:4368
 msgid "Adjusts the intensity of the flange effect"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4371
+#: ../../chapters/appendix/mixxx_controls.rst:4378
 msgid "Adjusts the phase delay of the flange effect in microseconds"
 msgstr ""
 
-#: ../../chapters/appendix/mixxx_controls.rst:4381
+#: ../../chapters/appendix/mixxx_controls.rst:4388
 msgid "Adjusts the wavelength of the flange effect in microseconds"
 msgstr ""

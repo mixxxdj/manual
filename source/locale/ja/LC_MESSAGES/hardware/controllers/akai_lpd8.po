@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-10-11 21:36+0200\n"
 "PO-Revision-Date: 2022-09-05 05:40+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/mixxx-dj-software/teams/7664/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "Akai LPD8"
 msgstr ""
 
 #: ../../hardware/controllers/akai_lpd8.rst:4
-msgid "`Manufacturer’s product page <https://www.akaipro.com/lpd8-lpd8>`__"
+msgid "`Manufacturer’s product page <https://www.akaipro.com/lpd8>`__"
 msgstr ""
 
 #: ../../hardware/controllers/akai_lpd8.rst:5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-10-11 21:36+0200\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7664/it/)\n"
 "MIME-Version: 1.0\n"
@@ -21,35 +21,35 @@ msgstr ""
 msgid "Native Instruments Traktor Kontrol S3"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:9
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:10
 msgid ""
 "The Kontrol S3 is an introductory 4 deck controller with good build quality "
 "and integrated sound card. This is the first controller released with the "
 "\"S3\" name."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:13
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:14
 msgid ""
 "The Kontrol S3 can run from USB bus power. Using the separate power supply "
 "increases the brightness of the LEDs, which is helpful for using it in "
 "daylight, and increases the volume of the headphone output."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:17
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:18
 msgid ""
 "`Manufacturer's product page <https://www.native-"
 "instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/>`__"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:23
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:24
 msgid "Compatibility"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:26
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:27
 msgid "Controller"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:28
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:29
 msgid ""
 "The Kontrol S3 is a USB class compliant audio and :term:`HID` device, so it "
 "is compatible with Mixxx without any proprietary drivers on GNU/Linux and "
@@ -61,7 +61,7 @@ msgid ""
 "Preferences <preferences-sound-hardware>`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:35
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:36
 msgid ""
 "With the S3 plugged in, the device is listed as an available controller in "
 "Mixxx's Preferences. The controller uses HID for the knobs, buttons, and "
@@ -69,45 +69,45 @@ msgid ""
 "select the HID device on the left side of Mixxx's Preferences."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:42
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:43
 msgid "Audio Hardware setup"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:44
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:45
 msgid ""
 "The S3 has a standard 4 channel sound card.  You should configure the "
 "channels as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:48
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:49
 msgid "Audio Output"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:48
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:49
 msgid "Channel Configuration"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:51
 msgid "Main"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:50
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:51
 msgid "Channel 1-2"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:51
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:52
 msgid "Headphones"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:51
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:52
 msgid "Channel 3-4"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:55
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:56
 msgid "Audio Inputs"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:56
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:57
 msgid ""
 "The S3 has two sets of inputs, but only one can be active at a time. There "
 "is a set of line-level RCA inputs on the back of the controller, and a combo"
@@ -115,11 +115,11 @@ msgid ""
 " switch between these inputs."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:62
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:63
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:64
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:65
 msgid ""
 "Note that Mixxx doesn't have the concept of a single \"leader\" deck for "
 "sync. Instead, push and hold the :hwlabel:`SYNC` button to \"lock\" sync on "
@@ -128,33 +128,28 @@ msgid ""
 "<sync-lock>` for details."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:70
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:71
 msgid ""
 "There are two :hwlabel:`SHIFT` buttons, one for each side of the controller."
 " Make sure you press the :hwlabel:`SHIFT` button on the same side as the "
 "control you want to modify."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:75
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:76
 msgid "Mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:77
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:78
 msgid ""
 "The :hwlabel:`GAIN` and equalizer "
 ":hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW` knobs and the :hwlabel:`CUE` "
 "(headphones) button behave as labelled."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:78
-msgid ":hwlabel:`FX Enable` buttons: See Effect section below."
-msgstr ""
-
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:79
 msgid ""
-"The :hwlabel:`FILTER` knob controls the Quick Effect superknob. By default, "
-"this uses a high-/low-pass filter, but a different effect can be chosen in "
-"the :ref:`Equalizer section of Mixxx' Preferences <preferences-equalizers>`."
+":hwlabel:`FX Enable`, buttons, FX select buttons, and the FX knobs: See "
+"Effect section below."
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:80
@@ -194,12 +189,14 @@ msgstr ""
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:96
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:110
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:131
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:242
 msgid "Control"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:96
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:110
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:131
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:242
 msgid "Description"
 msgstr ""
 
@@ -495,7 +492,117 @@ msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:184
 msgid ""
-"Because the S3 has limited effects controls, the FX setup is unusual and a "
+"This mapping has two modes for controlling the Mixer FX section. The default"
+" mode emulates the Mixer FX behavior as designed by Native Instruments and "
+"focuses on Mixxx's quick effect chains. The second mode is specific to Mixxx"
+" and instead provides detailed control over Mixxx's four effect units at the"
+" cost of being more complex to use."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:191
+msgid "Quick Effect Mode (default)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:193
+msgid ""
+"This mode mimics the intended Mixer FX behavior of the S3 by using Mixxx's "
+"quick effect chains. The idea is that the :hwlabel:`Filter` and :hwlabel:`FX"
+" 1-4` buttons on the right hand side of the controller's mixer map to the "
+"first five quick effect chain presets selected in :menuselection:`Options "
+"--> Effects`. The :hwlabel:`Filter` button, which is considered to be the "
+"default state, is mapped to the first preset in the list, and the other FX "
+"select buttons are mapped to the next four presets. Pressing one of these "
+"buttons changes the quick effect chain of each of the four channels to the "
+"corresponding preset, allowing you to control different effects with the FX "
+"knobs. The :hwlabel:`FX Enable` and FX select buttons light up to indicate "
+"which effect chains are active and on what channel. Meanwhile, pressing and "
+"holding one of the five FX select buttons while pressing one of four "
+"channel's :hwlabel:`FX Enable` buttons assigns a quick effect chain preset "
+"to that channel without affecting the other channels. This allows efficient "
+"use of the controller's limited number of effects controls."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:209
+msgid "Setup"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:211
+msgid ""
+"To make optimal use of this mode, you may want to change the following "
+"preferences:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:225
+msgid ""
+"The very first quick effect chain preset in the quick effect presets list on"
+" the same :menuselection:`Options --> Effects` page should be set to the "
+"Moog Filter preset or another filter preset."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:228
+msgid ""
+"The next four quick effect chain presets should contain that exact same "
+"filter effect, plus another effect. Delays, reverbs, flangers, trance gates,"
+" and white noise are some examples of effects that would work well here."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:231
+msgid ""
+"Switching to a new quick effect chain preset using the :hwlabel:`Filter` and"
+" :hwlabel:`FX 1-4` buttons will load that preset's default values. If the FX"
+" knob is not already in the neutral position for the preset, then the FX "
+"knob will be put in soft takeover mode and you will need to turn it to match"
+" the super knob's new position before you can start using it. This behavior "
+"differs from similar setups in other DJ hardware and software."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:239
+msgid "Controls"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:244
+msgid ":hwlabel:`Filter`/:hwlabel:`FX 1-4`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:244
+msgid ""
+"Change the quick effect chain on all four channels to the first, second, "
+"third, fourth, or fifth quick effect chain preset."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:245
+msgid ":hwlabel:`Filter`/:hwlabel:`FX 1-4` + :hwlabel:`FX Enable`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:245
+msgid ""
+"Change only one channel's quick effect chain preset without affecting the "
+"other channels."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:246
+msgid ":hwlabel:`FX Enable`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:246
+msgid "Bypass the channel's quick effect chain."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:247
+msgid "FX knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:247
+msgid "Change the channel's quick effect superknob."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:251
+msgid "Multi Effect Mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:253
+msgid ""
+"Because the S3 has limited effects controls, this FX setup is unusual and a "
 "little complex. Each deck has a single effect toggle button and one knob, "
 "and on the right-hand side of the mixer there are five buttons, one for each"
 " effect chain and one for the QuickEffect. These buttons and knobs are used "
@@ -503,35 +610,34 @@ msgid ""
 "DJ to customize all of the effects."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:188
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:257
 msgid ""
 "There are three modes that the effect controls can be in: 1.  The initial "
-"mode is Filter Mode. This mode is indicated when the :hwlabel:`FILTER "
-"ENABLE` buttons have the same colors as the individual decks. This mode is "
-"used for adjusting QuickEffects and assigning Effect Chains to decks. 1.  "
-"The next mode is Effect Chain Edit Mode. This mode is indicated when the "
-":hwlabel:`FILTER ENABLE` buttons are all the same color as one of the effect"
-" buttons. This mode is used for turning individual effects in a chain on and"
-" off, and adjusting each effect chain's mix knob. 1.  The last mode is "
-"Effect Focus Mode. This mode is indicated when :hwlabel:`FILTER ENABLE` "
-"buttons are all the same color as one of the effects, and one of the "
-":hwlabel:`FX SELECT` buttons is blinking. This mode is used for tuning "
-"individual parameters in an effect and enabling or disabling effect toggle "
-"buttons."
+"mode is Filter Mode. This mode is indicated when the :hwlabel:`FX ENABLE` "
+"buttons have the same colors as the individual decks. This mode is used for "
+"adjusting QuickEffects and assigning Effect Chains to decks. 1.  The next "
+"mode is Effect Chain Edit Mode. This mode is indicated when the :hwlabel:`FX"
+" ENABLE` buttons are all the same color as one of the effect buttons. This "
+"mode is used for turning individual effects in a chain on and off, and "
+"adjusting each effect chain's mix knob. 1.  The last mode is Effect Focus "
+"Mode. This mode is indicated when :hwlabel:`FX ENABLE` buttons are all the "
+"same color as one of the effects, and one of the :hwlabel:`FX SELECT` "
+"buttons is blinking. This mode is used for tuning individual parameters in "
+"an effect and enabling or disabling effect toggle buttons."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:200
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:269
 msgid "Switching Effect Modes"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:202
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:271
 msgid ""
 "At any time, you can push the :hwlabel:`FILTER` :hwlabel:`FX SELECT` button "
 "to return to Filter Mode. If you get lost, try pusing the :hwlabel:`FILTER` "
 "button to start over."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:205
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:274
 msgid ""
 "Press any :hwlabel:`FX SELECT` button to enter Effect Chain mode for that "
 "number chain. If you press the same :hwlabel:`FX SELECT` button again, "
@@ -539,20 +645,20 @@ msgid ""
 "to enter Effect Chain mode for that other chain."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:209
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:278
 msgid ""
-"Press and hold an :hwlabel:`FX SELECT` button, then press a :hwlabel:`FILTER"
-" ENABLE` button to enter Effect Focus mode. The :hwlabel:`FX SELECT` button "
-"will start blinking. From left to right, the :hwlabel:`FILTER ENABLE` "
-"buttons will focus on the first through fourth effects in the chain. If you "
-"press any :hwlabel:`FX SELECT` button, you'll return to Effect Chain mode."
+"Press and hold an :hwlabel:`FX SELECT` button, then press a :hwlabel:`FX "
+"ENABLE` button to enter Effect Focus mode. The :hwlabel:`FX SELECT` button "
+"will start blinking. From left to right, the :hwlabel:`FX ENABLE` buttons "
+"will focus on the first through fourth effects in the chain. If you press "
+"any :hwlabel:`FX SELECT` button, you'll return to Effect Chain mode."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:215
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:284
 msgid "Soft Takeover"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:217
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:286
 msgid ""
 "The knobs have Soft Takeover mode enabled, which means you need to turn the "
 "physical knob to match the current position of the UI knob before the value "
@@ -560,99 +666,119 @@ msgid ""
 "changing, you may need to rotate the knob more."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:221
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:290
 msgid "Assigning Effects"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:223
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:292
 msgid ""
 "You can assign effect chains to individual decks in Filter Mode. Press and "
-"hold :hwlabel:`FILTER ENABLE`, then press the desired :hwlabel:`FX SELECT` "
+"hold :hwlabel:`FX ENABLE`, then press the desired :hwlabel:`FX SELECT` "
 "button or buttons. The :hwlabel:`FX SELECT` buttons that are bright are the "
 "effect chains that are selected for that deck."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:228
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:297
+msgid "Filter Mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:299
+msgid ""
+"In Filter Mode the FX knobs control each channel's selected quick effect. By"
+" default this is a combined low-pass and high-pass filter, but a different "
+"effect can be chosen from the :menuselection:`Options --> Equalizer` section"
+" or directly from the mixer if supported by the selected Mixxx skin."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:305
 msgid "Effect Chain Edit Mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:230
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:307
 msgid ""
-"In Effect Chain Edit Mode, the :hwlabel:`FILTER ENABLE` buttons change color"
-" to match the selected FX button. The lights will be dim if the effect is "
-"disabled, and bright if it is enabled. Tap the :hwlabel:`FILTER ENABLE` "
-"button to enable or disable the effect. Turn the first three knobs to adjust"
-" the meta knob for each effect. The last filter knob adjusts the mix knob "
-"for the whole chain. This is to prevent sudden changes in sound when "
-"navigating between modes."
+"In Effect Chain Edit Mode, the :hwlabel:`FX ENABLE` buttons change color to "
+"match the selected FX button. The lights will be dim if the effect is "
+"disabled, and bright if it is enabled. Tap the :hwlabel:`FX ENABLE` button "
+"to enable or disable the effect. Turn the first three knobs to adjust the "
+"meta knob for each effect. The last filter knob adjusts the mix knob for the"
+" whole chain. This is to prevent sudden changes in sound when navigating "
+"between modes."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:238
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:315
 msgid "Effect Focus Mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:240
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:317
 msgid ""
-"In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent effect "
+"In Effect Focus Mode, the :hwlabel:`FX ENABLE` buttons represent effect "
 "button parameters, while the four knobs adjust the first four parameters of "
 "the selected effect."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:243
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:320
 msgid "Mapping options"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:245
-msgid "There are two user-friendly customizations possible on the S3:"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:322
+msgid "There are a number of user-friendly customizations possible on the S3:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:247
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:324
+msgid ""
+"Change between the Quick Effect and Multi Effect modes for the Mixer FX "
+"section of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:326
 msgid "Toggle between Absolute and Relative pitch slider mode."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:248
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:327
 msgid "Customize the colors for decks A, B, C, and D."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:249
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:328
 msgid "Change the Sampler playback mode."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:250
-msgid "Whether wheel touch scratching is on by default."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:329
+msgid ""
+"Whether wheel touch scratching is on by default, and how sensitive the jog "
+"wheel is."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:252
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:332
 msgid "To make these changes, you need to edit to the mapping script file."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:254
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:334
 msgid "Open Mixxx Preferences and select the Kontrol S3 in the side list."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:255
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:335
 msgid ""
 "There will be a box labeled :guilabel:`Mapping Info`, and that box will have"
 " a section labeled :guilabel:`Mapping Files`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:257
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:337
 msgid "Select :file:`Traktor-Kontrol-S3-hid-scripts.js`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:258
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:338
 msgid ""
 "Either the file should open in an editor, or you should see a file browser "
 "window with that file selected. If you see a file browser, right click the "
 "file and select an option to edit it."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:261
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:341
 msgid ""
 "At the top of the file will be short instructions explaining how to edit the"
 " file."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:264
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s3.rst:344
 msgid "Changes you make will take effect as soon as you save the file."
 msgstr ""
