@@ -2388,7 +2388,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2396,9 +2396,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
-.. mixxx:control:: [ChannelN],scratch2_enabled
-                   [PreviewDeckN],scratch2_enabled
-                   [SamplerN],scratch2_enabled
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
