@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 01:02+0200\n"
+"POT-Creation-Date: 2023-10-11 20:55+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,9 @@ msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_200.rst:6
 msgid ""
-"`Manufacturer’s product page <https://www.hercules.com/en-"
-"us/product/djcontrolinpulse200///>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220316132959/https://www.hercules.com/en-"
+"us/product/djcontrolinpulse200/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_200.rst:7

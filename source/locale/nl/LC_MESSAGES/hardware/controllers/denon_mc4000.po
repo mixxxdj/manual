@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2023-10-11 20:55+0200\n"
 "PO-Revision-Date: 2022-08-28 09:44+0000\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:10
 msgid ""
-"`Manufacturer’s product page <http://denondj.com/products/view/mc4000>`__"
+"`Manufacturer’s product page <https://www.denondj.com/mc4000-mc4000xus>`__"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:11

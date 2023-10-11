@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2023-10-11 20:55+0200\n"
 "PO-Revision-Date: 2022-08-28 09:45+0000\n"
 "Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -846,7 +846,7 @@ msgid "MASTER LEVEL"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc6000mk2.rst:92
-msgid "Control master output volume"
+msgid "Control master output volume (hardware only)"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc6000mk2.rst:93
