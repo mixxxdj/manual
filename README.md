@@ -59,7 +59,8 @@ mixxxdj/mixxx first, then create a cropped version of that for the manual.
 * [Install pre-commit](https://pre-commit.com/#install), then run `pre-commit install` to enable automatic commit checks
 * Perform changes
 * Build the HTML manual locally using `sphinx-build -W -b html source build/html` and check the output in the `build/html` directory in your browser
-* Commit changes `git commit -m "Insert short summary of your changes here"`
+* Once you're happy with the changes stage them with `git add -A` (all) or `git add -p` (interactive selection)
+* Commit staged changes `git commit -m "Insert short summary of your changes here"`
 * Push changes `git push`
 * Submit a [pull request]
 
