@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1664,7 +1664,7 @@ msgid "Effect Functions"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:344
-msgid "This controller mapping uses the `standard Mixxx mapping for effects sections on controllers <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__. The controls listed here are documented in Section 2 (\"Effects\") of the owner's manual."
+msgid "This controller mapping uses the :ref:`standard Mixxx mapping for effects sections on controllers <controller-effects-mapping>`. The controls listed here are documented in Section 2 (\"Effects\") of the owner's manual."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:350

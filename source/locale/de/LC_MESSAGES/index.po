@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# daschuer2 <daschuer@mixxx.org>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-28 11:21+0200\n"
-"PO-Revision-Date: 2022-08-28 09:43+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: German (https://www.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
+"PO-Revision-Date: 2022-08-28 09:42+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2023\n"
+"Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: ../../index.rst:18
 msgid "beat, tempo, and musical key detection"
-msgstr ""
+msgstr "Erkennung von Takt, Tempo und Tonart"
 
 #: ../../index.rst:19
 msgid "master sync"
@@ -259,6 +259,9 @@ msgid ""
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
 msgstr ""
+"Sie können Mixxx mit :term:`MIDI`- und :term:`HID`-Controllern, CD-Playern, "
+"Vinyl-Plattenspielern oder auch nur mit der Tastatur und Maus Ihres "
+"Computers bedienen."
 
 #: ../../index.rst:29
 msgid "Table of Contents"

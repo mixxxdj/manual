@@ -3,7 +3,7 @@
 Hercules DJControl Inpulse 200
 ==============================
 
--  `Manufacturer’s product page <https://www.hercules.com/en-us/product/djcontrolinpulse200///>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20220316132959/https://www.hercules.com/en-us/product/djcontrolinpulse200/>`__
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolinpulse200-en//>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-inpulse-200/17849>`__
 

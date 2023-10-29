@@ -45,6 +45,15 @@ that it is either 'ON' (non-zero) or 'OFF' (zero).
    line option), you can view and manually set the state of any control in
    Mixxx by going to :menuselection:`Developer --> Developer Tools`.
 
+.. hint:: Simplify mapping of more complex behaviour
+
+   While simple mappings with just a few buttons, knobs and LEDs can easily
+   be created with the MIDI Wizard and some basic scripting, implementing more
+   complex behaviour like switching deck layers or pad grid modes can be tedious
+   and error-prone. For these cases you can use Mixxx' `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+   which provides building blocks for single controls as well as entire
+   containers like decks and effect units.
+
 .. seealso:: See :ref:`controlindex` for a full list.
 
 
@@ -2116,7 +2125,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2124,9 +2133,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
-.. mixxx:control:: [ChannelN],scratch2_enabled
-                   [PreviewDeckN],scratch2_enabled
-                   [SamplerN],scratch2_enabled
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
@@ -2585,7 +2594,7 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative).
+    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
@@ -3382,7 +3391,7 @@ the currently focused widget. This is helpful when another application's window 
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
-   See `bug \#1772184 <https://bugs.launchpad.net/mixxx/+bug/1772184>`__ for the current status.
+   See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
 
 
 .. mixxx:control:: [Playlist],SelectPlaylist

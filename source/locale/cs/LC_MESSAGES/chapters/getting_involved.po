@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
-"Language-Team: Czech (https://www.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
+"Language-Team: Czech (https://app.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -252,7 +252,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:25
-msgid "`Report bugs <https://bugs.launchpad.net/mixxx>`_"
+msgid "`Report bugs <https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:26
@@ -269,88 +269,75 @@ msgstr ""
 
 #: ../../chapters/getting_involved.rst:30
 msgid ""
-"Answer questions on the `Troubleshooting Forum "
-"<https://mixxx.org/forums/viewforum.php?f=3>`_ and the `Launchpad Answers "
-"page <https://answers.launchpad.net/mixxx>`_"
+"Answer questions on the `Help & Support Forum "
+"<https://mixxx.discourse.group/c/support/6>`_"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:33
+#: ../../chapters/getting_involved.rst:32
 msgid ""
 "Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog"
 " about our new releases when they come out. Any exposure on the web and in "
 "print helps our project grow, and is much appreciated."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:36
+#: ../../chapters/getting_involved.rst:35
 msgid "Send us some photos of you using Mixxx at a gig!"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:39
+#: ../../chapters/getting_involved.rst:38
 msgid "As a software developer"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:41
+#: ../../chapters/getting_involved.rst:40
 msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:43
-msgid ""
-"Join our mailing list: `mixxx-devel "
-"<https://sourceforge.net/projects/mixxx/lists/mixxx-devel>`_"
-msgstr ""
-
-#: ../../chapters/getting_involved.rst:45
+#: ../../chapters/getting_involved.rst:42
 msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:46
+#: ../../chapters/getting_involved.rst:43
 msgid ""
 "Tell us your ideas! Email us, talk on :term:`Zulip`, file wishlist "
 ":term:`bugs <bug report>`, or post on the forums."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:48
+#: ../../chapters/getting_involved.rst:45
 msgid ""
 "Register an account on our development platform `Github "
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:51
-msgid ""
-"Join the `Mixxx Development Team "
-"<https://launchpad.net/~mixxxcontributors/+join>`_ on Launchpad."
-msgstr ""
-
-#: ../../chapters/getting_involved.rst:54
+#: ../../chapters/getting_involved.rst:48
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:56
+#: ../../chapters/getting_involved.rst:50
 msgid ""
 "Get help fixing the bug on :term:`Zulip`, talk to us about the best way to "
 "do it."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:59
+#: ../../chapters/getting_involved.rst:53
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:61
+#: ../../chapters/getting_involved.rst:55
 msgid ""
 "Pick a bug off of the `Easy Bug List "
-"<https://bugs.launchpad.net/mixxx/+bugs?field.tag=easy>`_"
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:63
+#: ../../chapters/getting_involved.rst:57
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."
 msgstr ""
 
-#: ../../chapters/getting_involved.rst:64
+#: ../../chapters/getting_involved.rst:58
 msgid ""
 "Fix it! *Done!* Your name will now be on the `Mixxx contributor list "
 "<https://mixxx.org/contact/>`_."

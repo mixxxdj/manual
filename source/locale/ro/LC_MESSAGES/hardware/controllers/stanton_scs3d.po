@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
-"Language-Team: Romanian (https://www.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
+"Language-Team: Romanian (https://app.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,8 +23,9 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3d.rst:6
 msgid ""
-"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
-"systems/scs3d.html>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220613230840/http://www.stantondj.com/stanton-"
+"controllers-systems/scs3d.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_scs3d.rst:7

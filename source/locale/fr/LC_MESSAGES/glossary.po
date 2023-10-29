@@ -5,6 +5,7 @@
 # 
 # Translators:
 # daschuer2 <daschuer@mixxx.org>, 2022
+# hale cret, 2023
 # 
 #, fuzzy
 msgid ""
@@ -12,9 +13,9 @@ msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-28 11:21+0200\n"
-"PO-Revision-Date: 2022-08-28 09:43+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
-"Language-Team: French (https://www.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"PO-Revision-Date: 2022-08-28 09:42+0000\n"
+"Last-Translator: hale cret, 2023\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +32,7 @@ msgstr "AAC"
 
 #: ../../glossary.rst:244
 msgid "Advanced Audio Coding"
-msgstr ""
+msgstr "Codage Audio Avancé"
 
 #: ../../glossary.rst:246
 msgid ""
@@ -41,6 +42,12 @@ msgid ""
 "extension is sometimes used for AAC-encoded files, they are typically saved "
 "with an :file:`.m4a` file extension."
 msgstr ""
+"Un algorithme de compression audio breveté qui utilise une forme de "
+"compression de données :term:`lossy`. Conçu pour être le successeur du "
+":term:`MP3`, l'AAC permet généralement d'obtenir une meilleure qualité "
+"sonore à des débits binaires similaires. Bien que l'extension .aac soit "
+"parfois utilisée pour les fichiers encodés AAC, ils sont généralement "
+"enregistrés avec une extension :file:`.m4a`."
 
 #: ../../glossary.rst:473
 msgid "AcoustID"
@@ -68,7 +75,7 @@ msgstr "AIFF"
 
 #: ../../glossary.rst:266
 msgid "Audio Interchange File Format"
-msgstr ""
+msgstr "Format de Fichier d’Échange Audio"
 
 #: ../../glossary.rst:268
 msgid ""
@@ -76,6 +83,10 @@ msgid ""
 "quality audio stored in a non-compressed, :term:`lossless` format. AIFF "
 "files generally end with a .aiff or .aif extension."
 msgstr ""
+"Format de fichier audio numérique de haute qualité, similaire aux fichiers "
+".wav. Contient des données audio de qualité CD stockées dans un format "
+":term:`lossless` non compressé. Les fichiers AIFF se terminent généralement "
+"par une extension .aiff ou .aif."
 
 #: ../../glossary.rst:257
 msgid "ALAC"
@@ -83,7 +94,7 @@ msgstr "ALAC"
 
 #: ../../glossary.rst:258
 msgid "Apple Lossless Audio Codec"
-msgstr ""
+msgstr "Codec Audio sans perte Apple"
 
 #: ../../glossary.rst:260
 msgid ""
@@ -93,6 +104,12 @@ msgid ""
 "programs are not compatible with ALAC. It is recommended to convert ALAC "
 "files to :term:`FLAC` for use in Mixxx."
 msgstr ""
+"Un  format de fichier audio :term:`lossless` utilisé par iTunes et d'autres "
+"produits Apple. Les fichiers ALAC utilisent le même format de conteneur MP4 "
+"que l'AAC et les mêmes extensions de fichier (:file:`m4a`, :file:`mp4`). "
+"Mixxx et de nombreux autres programmes ne sont pas compatibles avec le "
+"format ALAC. Il est recommandé de convertir les fichiers ALAC en "
+":term:`FLAC` pour les utiliser dans Mixxx."
 
 #: ../../glossary.rst:480
 msgid "API"
@@ -100,7 +117,7 @@ msgstr "API"
 
 #: ../../glossary.rst:481
 msgid "Application Program Interface"
-msgstr ""
+msgstr "Interface de Programmation d'Application"
 
 #: ../../glossary.rst:483
 msgid ""
@@ -109,20 +126,27 @@ msgid ""
 " Mixxx uses to communicate with the :term:`operating system` to make use of "
 "the :term:`soundcards <soundcard>` connected to the computer."
 msgstr ""
+"Une API est une spécification et un ensemble de règles sur la façon dont les"
+" programmes logiciels interagissent les uns avec les autres. Dans Mixxx, un "
+"exemple est l'API Son que Mixxx utilise pour communiquer avec le "
+":term:`operating system` afin d'utiliser les :term:`soundcards <soundcard>` "
+"connectées à l'ordinateur."
 
 #: ../../glossary.rst:6
 msgid "ASIO"
-msgstr ""
+msgstr "ASIO"
 
 #: ../../glossary.rst:7
 msgid "Audio Stream Input/Output"
-msgstr ""
+msgstr "Entrée/Sortie de Flux Audio"
 
 #: ../../glossary.rst:9
 msgid ""
 "ASIO is a :term:`low-latency <latency>` :term:`audio interface` :term:`API` "
 "on Microsoft Windows."
 msgstr ""
+"ASIO est une :term:`API` d':term:`audio interface` :term:`low-latency "
+"<latency>`   sous Microsoft Windows."
 
 #: ../../glossary.rst:354
 msgid "audio interface"
@@ -136,6 +160,11 @@ msgid ""
 "higher quality audio interface with at least 4 output channels is "
 "recommended for Mixxx."
 msgstr ""
+"Une interface audio est un dispositif qui facilite l'entrée et la sortie de "
+"signaux audio vers et depuis un ordinateur, généralement connecté par "
+":term:`USB`. Presque tous les ordinateurs sont équipés d'une interface audio"
+" de base, mais une interface audio de meilleure qualité avec au moins 4 "
+"canaux de sortie est recommandée pour Mixxx."
 
 #: ../../glossary.rst:208
 msgid "balance"
@@ -161,8 +190,8 @@ msgid ""
 "given number of beats. Typically, a piece consists of several bars of the "
 "same length."
 msgstr ""
-"En notation musicale, une mesure est un segment de temps défini par un "
-"nombre donnée de battements. Typiquement, un morceau consiste en une "
+"En notation musicale, une barre (ou mesure) est un segment de temps défini "
+"par un nombre donné de battements. Généralement, un morceau consiste en une "
 "succession de mesures de la même longueur."
 
 #: ../../glossary.rst:102
@@ -224,6 +253,11 @@ msgid ""
 " compressed at 192 Kbps will have a greater dynamic range and may sound "
 "slightly more clear than the same audio file compressed at 128 Kbps."
 msgstr ""
+"Décris la qualité d'un fichier audio ou vidéo. Pour les données audio, le "
+"débit est généralement mesuré en :term:`kbps`. Par exemple, un fichier audio"
+" MP3 compressé à 192 Kbps aura une plus grande plage dynamique et pourra "
+"sembler légèrement plus clair que le même fichier audio compressé à 128 "
+"Kbps."
 
 #: ../../glossary.rst:92
 msgid "BPM"
@@ -231,7 +265,7 @@ msgstr "BPM"
 
 #: ../../glossary.rst:93
 msgid "Beats per minute"
-msgstr ""
+msgstr "Battements par minute"
 
 #: ../../glossary.rst:95
 msgid ""
@@ -239,6 +273,9 @@ msgid ""
 "you are following the “beat”. If you count how many taps you do in a minute "
 "you have calculated the BPM."
 msgstr ""
+"Le BPM est utilisé comme mesure du tempo dans la musique. Si vous tapez du "
+"pied sur de la musique, vous suivez le \"rythme\". Si vous comptez le nombre"
+" de tapes que vous effectuez en une minute, vous avez calculé le BPM."
 
 #: ../../glossary.rst:342
 msgid "bug report"
@@ -301,6 +338,15 @@ msgid ""
 "prefer to control DJ software using physical knobs, faders, and wheels on "
 "controllers instead of using a computer keyboard and mouse."
 msgstr ""
+"Un dispositif matériel externe qui génère et transmet des signaux à un "
+"ordinateur, en général via :term:`USB`, pour contrôler un logiciel avec des "
+"commandes physiques autres qu'une souris et un clavier. Les contrôleurs ont "
+"de nombreuses utilisations dans le domaine de la musique, par exemple pour "
+"contrôler des programmes de DJ tels que Mixxx. Ils envoient généralement des"
+" signaux :term:`MIDI`, mais certains contrôleurs utilisent des signaux "
+":term:`HID`. De nombreux DJ préfèrent contrôler les logiciels de DJ à l'aide"
+" de boutons, de curseurs et de molettes physiques sur les contrôleurs plutôt"
+" qu'à l'aide d'un clavier d'ordinateur et d'une souris."
 
 #: ../../glossary.rst:20
 msgid "crossfader"
@@ -320,7 +366,7 @@ msgstr "repère"
 
 #: ../../glossary.rst:374
 msgid "cue point"
-msgstr ""
+msgstr "point de répère"
 
 #: ../../glossary.rst:376
 msgid ""
@@ -328,6 +374,9 @@ msgid ""
 "the track to start at by default. This is useful to instantly jump to that "
 "point without seeking through the track."
 msgstr ""
+"Un point de référence dans la piste, en général placé à la position à "
+"laquelle le DJ veut que la piste commence par défaut. Cela permet de sauter "
+"instantanément à ce point sans avoir à chercher dans la piste."
 
 #: ../../glossary.rst:316
 msgid "cue sheet"
@@ -367,7 +416,7 @@ msgstr "DAW"
 
 #: ../../glossary.rst:507
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Station de travail Audio Numérique"
 
 #: ../../glossary.rst:509
 msgid ""
@@ -381,7 +430,7 @@ msgstr "dB"
 
 #: ../../glossary.rst:310
 msgid "decibel"
-msgstr ""
+msgstr "décibel"
 
 #: ../../glossary.rst:312
 msgid ""

@@ -59,7 +59,8 @@ mixxxdj/mixxx first, then create a cropped version of that for the manual.
 * [Install pre-commit](https://pre-commit.com/#install), then run `pre-commit install` to enable automatic commit checks
 * Perform changes
 * Build the HTML manual locally using `sphinx-build -W -b html source build/html` and check the output in the `build/html` directory in your browser
-* Commit changes `git commit -m "Insert short summary of your changes here"`
+* Once you're happy with the changes stage them with `git add -A` (all) or `git add -p` (interactive selection)
+* Commit staged changes `git commit -m "Insert short summary of your changes here"`
 * Push changes `git push`
 * Submit a [pull request]
 
@@ -124,7 +125,7 @@ translation and can be regenerated with:
 Additionally, for every new source file added (i.e. new chapters or manual
 pages) the Transifex configuration file (stored in `.tx/config`) needs updating:
 
-    sphinx-intl update-txconfig-resources --pot-dir source/locale/pot --transifex-project-name mixxx-dj-manual-23 --locale-dir source/locale
+    sphinx-intl update-txconfig-resources --transifex-organization-name mixxx-dj-software --pot-dir source/locale/pot --transifex-project-name mixxx-dj-manual-23 --locale-dir source/locale
 
 Commit the new source translations and Transifex configuration with:
 
@@ -138,13 +139,13 @@ configuration, you must push the new source files to Transifex to be translated.
 
 To do this, run:
 
-    tx push -s --parallel
+    tx push -s
 
 #### Pull completed translations from Transifex
 
 To pull newly completed translation (.po) files from Transifex, run:
 
-    tx pull -a -f --parallel
+    tx pull -a -f
 
 Commit the changes to the repository with:
 
@@ -167,10 +168,10 @@ them (they are ignored by our `.gitignore`).
 
     make clean
 
-For example, to build an HTML manual for `de-DE` (Germany/Germany):
+For example, to build an HTML manual for `de` (Germany):
 
     sphinx-intl build
-    make -e SPHINXOPTS="-Dlanguage=de-DE" html
+    make -e SPHINXOPTS="-Dlanguage=de" html
 
 Unless an error occurred, your translated HTML manual is in the `build/html`
 directory.
@@ -178,7 +179,7 @@ directory.
 To build a PDF manual:
 
     sphinx-intl build
-    make -e SPHINXOPTS="-Dlanguage=de-DE" pdf
+    make -e SPHINXOPTS="-Dlanguage=de" pdf
 
 Your translated PDF manual is located at `build/latex/Mixxx-Manual.pdf`.
 

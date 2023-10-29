@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2023-05-11 21:21+0200\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/mixxx-dj-software/teams/7734/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,14 +23,15 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:4
 msgid ""
-"`Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-"
-"systems/djc4.html>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-"
+"controllers-systems/djc4.html>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:5
 msgid ""
 "`Manual / Midi commands "
-"<http://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
+"<https://web.archive.org/web/20211008132713/https://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:6
@@ -49,8 +50,9 @@ msgid ""
 " used without any special drivers on GNU/Linux, Mac OS X, and Windows. "
 "However, if you wish to use the :ref:`ASIO sound API <preferences-sound-"
 "api>` under Windows, please install the latest driver package available from"
-" the `Product page <http://www.stantondj.com/stanton-controllers-"
-"systems/djc4.html>`__."
+" the `Product page "
+"<https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-"
+"controllers-systems/djc4.html>`__."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:17
@@ -749,9 +751,7 @@ msgid "*Various*"
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:161
-msgid ""
-"See `Standard effects mapping "
-"<https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__."
+msgid "See :ref:`Standard Effects Mapping <controller-effects-mapping>`."
 msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:165

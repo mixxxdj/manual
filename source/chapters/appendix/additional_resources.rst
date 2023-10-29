@@ -34,12 +34,13 @@ There are a variety of other resources where you can find out more:
   `<https://github.com/mixxxdj/mixxx>`_
 
 * **Mixxx Bug Tracker**: To report a bug or request a feature, go to:
-  `<https://bugs.launchpad.net/mixxx>`_
+  `<https://github.com/mixxxdj/mixxx/issues>`_
 
 * **Mixxx Translations**: To translate Mixxx and promote your mother tongue, go
   to: `<https://www.transifex.com/mixxx-dj-software/public/>`_. Please
   read the `Translation FAQ <https://github.com/mixxxdj/mixxx/wiki/internationalization>`_
   first.
 
-* **Social Media**: Follow us on `Twitter <https://twitter.com/mixxxdj>`_, and
+* **Social Media**: Follow us on `Mastodon <https://floss.social/@mixxx>`_,
+  `Twitter <https://twitter.com/mixxxdj>`_, and
   `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_.

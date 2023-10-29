@@ -115,6 +115,9 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
+.. hint:: Double-click any track text label to open the :ref:`Properties editor <library-properties-editor>`
+          where you can edit all track metadata.
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
@@ -601,6 +604,10 @@ control rate changes also from your computer's keyboard, see the chapter
   The percent that the track's rate is sped up or slowed down is noted here. Is
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
+
+  .. hint:: To make the rate and/or pitch automatically reset whenever a new
+            track is loaded go to :menuselection:`Preferences --> Decks -->
+            Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
 
 **Temporary Pitch/Rate buttons (Nudge)**
   Pushing the diagonal arrow buttons is like nudging the metal edge of

@@ -18,11 +18,9 @@ Pioneer DDJ-400
 The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio interface
 designed for rekordbox.
 
-- `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-400/black/overview/>`__
-- `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
-- `Manufacturer's Firmware <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__
+- `Manufacturer's Product Page <https://www.pioneerdj.com/product/controller/ddj-400/black/overview>`__
 - `Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__
-- `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf?la=en-us>`__
+- `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf>`__
 - `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-400/17476>`__
 
 .. versionadded:: 2.3.0
@@ -71,7 +69,7 @@ Controller Mapping
 ------------------
 
 The schematic drawings used here can be referenced in the
-`manufacturer's manual <http://docs.pioneerdj.com/Manuals/DDJ_400_DRI1551A_manual/>`__
+`manufacturer's manual <https://support.pioneerdj.com/hc/sections/4416577146009-ddj-400>`__
 on the given page number.
 
 Browser section (p. 6)
@@ -295,11 +293,10 @@ follows:
 ====  =======================================================  ======================================================================
 No.   Control                                                  Function
 ====  =======================================================  ======================================================================
-1     :hwlabel:`BEAT` :hwlabel:`<`                             Focus effect 1
-1     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`<`          Load previous effect
-2     :hwlabel:`BEAT` :hwlabel:`>`                             Focus effect 2
-2     :hwlabel:`SHIFT` + :hwlabel:`BEAT` :hwlabel:`>`          Load next effect
-3     :hwlabel:`FX SELECT`                                     Focus effect 3
+1     :hwlabel:`BEAT` :hwlabel:`<`                             Cycle effect focus leftward
+2     :hwlabel:`BEAT` :hwlabel:`>`                             Cycle effect focus rightward
+3     :hwlabel:`FX SELECT`                                     Load next effect
+3     :hwlabel:`SHIFT` + :hwlabel:`FX SELECT`                  Load previous effect
 4     Channel select switch                                    Route deck 1, deck 2 or master mix to effect unit 1
 5     :hwlabel:`LEVEL/DEPTH`                                   Controls the wet/dry mix knob
 5     :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`                Controls the metaknob of the currently focused effect

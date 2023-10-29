@@ -80,16 +80,18 @@ These are available on any configuration with decks, but not the 4
 effect unit layout.
 
 -  Bottom left encoder:
--  adjust tempo of all decks with sync enabled
--  press and turn: PFL/master mix in headphones
--  shift: headphone gain
--  press with shift: toggle split cue mode
--  Bottom right encoder
--  scroll through tracks in library
--  press and release: load selected track into first stopped deck
--  press and hold: load selected track into a deck by pressing the play
-   button of the deck
--  shift: master gain
+
+   -  adjust tempo of all decks with sync enabled
+   -  press and turn: PFL/main mix in headphones
+   -  shift: headphone gain
+   -  press with shift: toggle split cue mode
+
+-  Bottom right encoder:
+
+   -  scroll through tracks in library
+   -  press and release: load selected track into first stopped deck
+   -  press and hold: load selected track into a deck by pressing the play button of the deck
+   -  shift: main gain
 
 Decks
 -----
@@ -172,8 +174,8 @@ the same time activates supershift mode.
 Effects
 -------
 
-The top part of the column uses the `Standard Effects
-Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_.
+The top part of the column uses the :ref:`Standard Effects
+Mapping <controller-effects-mapping>`.
 Pressing the top encoder acts
 as the effect focus button. When no effect is focused, the buttons are
 red. When holding the top encoder to choose an effect to focus, the
@@ -197,7 +199,7 @@ Effect unit focusing
 ~~~~~~~~~~~~~~~~~~~~
 
 In addition to focusing one effect in a unit at a time with the
-`Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_, the Xone
+:ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone
 K2/K1 has another mode for focusing a whole effect unit. This allows for
 controlling the parameters of all 3 effects in the unit at a time. This
 mode is only available on the 4 effect unit layouts. To access it, press
