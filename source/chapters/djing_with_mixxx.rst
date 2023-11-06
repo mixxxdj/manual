@@ -159,6 +159,62 @@ properly.
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
 
+Sync Lock with Dynamic Tempo
+============================
+
+If you're working with dynamic tempo tracks that have a variable BPM beat grid, you have
+precise control over the sync lock behavior via the following Sync Leader
+buttons (available in the LateNight Skin only).
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
+
+|follower| Follower |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |softleader| Soft Leader |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |explicitleader| Explicit Leader
+
+.. |follower| image:: ../_static/2.4/follower.png
+   :width: 124px
+   :alt: Sync Leader button as follower
+
+.. |softleader| image:: ../_static/2.4/soft-leader.png
+   :width: 124px
+   :alt: Sync Leader button as soft leader
+
+.. |explicitleader| image:: ../_static/2.4/explicit-leader.png
+   :width: 124px
+   :alt: Sync Leader button as explicit leader
+
+You can create a variable BPM beat grids for single tracks by using the :guilabel:`Analyze`
+library context menu and :guilabel:`Reanalyze (variable BPM)` command. Alternatively you may
+create variable BPM beat grids for all tracks to be (re)analyzed later on by unchecking :guilabel:`Assume constant tempo`
+in the :guilabel:`Beat Detection` preferences.
+
+When such a track is playing in a Leader deck, the follower decks closely follow the tempo.
+It's important to note that the track follows the "detected" leader tempo unconditionally,
+even if there are sections with unstable tempos during bridges or in the outro regions where
+the actual played tempo wasn't detected correctly.
+
+If a soft leader deck stops or is silenced, Mixxx automatically selects the next best
+deck as Leader. By clicking the Leader button, you can toggle between Explicit Leader
+and Soft Leader mode. An Explicit leader is sticky, does not automatically move.
+
+By default the "Sync Lock with Dynamic Tempo" feature is enabled and Mixxx picks the
+first Sync Lock enabled track as Soft Leader, using the tempo from its outro during
+the following transition. If you'd like to use the the tempo from the intro of the next
+track instead, click the Leader (Crown) button of its deck.
+The deck then becomes the explicit leader. Click again on the Leader button and the
+deck becomes Soft-follower and Mixxx is again in charge to move the leader to
+the best deck.
+
+If you'd prefer a steady tempo during transitions like in Mixxx before Version 2.4,
+you may select :guilabel:`Use steady Tempo` for :guilabel:`Sync mode` in the
+:guilabel:`Decks` preferences. In this mode all decks become a follower during a
+transition and you may pick a dynamic track as a leader by clicking the
+Leader (Crown) button if desired.
+
+A leader plays always the original recorded tempo changes. A follower changes its
+tempo matching the leader which may result in a notable pitch change.
+Engaging keylock helps mitigate this pitch issue.
+
 .. _harmonic-mixing:
 
 Harmonic Mixing
