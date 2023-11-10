@@ -80,7 +80,7 @@ controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
 FX Controls
 ~~~~~~~~~~~
 
-This mapping uses the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ to control the FX units.
+This mapping uses the :ref:`Standard Effects Mapping <controller-effects-mapping>` to control the FX units.
 
 .. note::
   These knobs and buttons don’t switch to decks 3 and 4.

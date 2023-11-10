@@ -115,6 +115,9 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
+.. hint:: Double-click any track text label to open the :ref:`Properties editor <library-properties-editor>`
+          where you can edit all track metadata.
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
@@ -284,9 +287,15 @@ follows:
 
 
 **Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
+  Clicking this button ejects the track from the deck. If no track is loaded the
+  last-ejected track (of any deck) is reloaded.
+
+  Double-click to reload the last
+  replaced track. In empty decks the second-last ejected track is reloaded.
+
+  Alternatively you can use a keyboard shortcut, go to the chapter
+  :ref:`control-keyboard` for more information.
+
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
@@ -556,11 +565,12 @@ Sync and Rate Controls
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../_static/2.3/sync-and-rate.png
+.. figure:: ../_static/2.4/sync-and-rate.png
    :align: right
-   :width: 76px
-   :figwidth: 100px
+   :width: 81px
+   :figwidth: 120px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
 
@@ -581,6 +591,7 @@ control rate changes also from your computer's keyboard, see the chapter
   sync to samplers and samplers can only sync to decks. The sync target for
   samplers is:
 
+  * The sync leader, identified by the lit sync-lock button and the crown symbol.
   * The first deck (in numerical order) that is playing a track with a detected
     beatgrid, and has a rate different than zero.
   * The first deck (in numerical order) that has a track loaded with a detected
@@ -601,6 +612,10 @@ control rate changes also from your computer's keyboard, see the chapter
   The percent that the track's rate is sped up or slowed down is noted here. Is
   the Pitch/Rate slider positioned at the center, the pitch rate display is at
   +0.0%, which indicates no change.
+
+  .. hint:: To make the rate and/or pitch automatically reset whenever a new
+            track is loaded go to :menuselection:`Preferences --> Decks -->
+            Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
 
 **Temporary Pitch/Rate buttons (Nudge)**
   Pushing the diagonal arrow buttons is like nudging the metal edge of

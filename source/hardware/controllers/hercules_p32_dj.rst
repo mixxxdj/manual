@@ -20,6 +20,8 @@ Thanks to Hercules for supporting the development of this mapping by providing a
 .. versionadded:: 2.1
 .. versionchanged:: 2.3.0
    Add pitch controls in loop mode and increased head mix knob precision.
+.. versionchanged:: 2.3.5
+   Dry/Wet knobs can be replaced by pregain (optional)
 
 Compatibility
 -------------
@@ -72,7 +74,7 @@ The mapping of the encoders does not match their labels. They are labeled on the
 Effects
 ~~~~~~~
 
-Refer to the `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__ page for details on how to use the effects sections.
+Refer to the :ref:`Standard Effects Mapping <controller-effects-mapping>` page for details on how to use the effects sections.
 
 When the pad grid is in Slicer mode, the pads in the top left of the grid assign the deck to Effect Units 1-4.
 
@@ -99,4 +101,4 @@ Other controls
 -  **Shift + cue**: jump to beginning of track and stop
 -  **Shift + play**: toggle reverse playback
 -  **Shift + load**: ejects a track from the deck
--  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled.
+-  **EQ knobs, volume faders, crossfader, headphone button, play, cue, sync, and load** all behave as labeled. Dry/wet knob can optionally be used as pregain (see `dryWetKnobAsPregain` variable)

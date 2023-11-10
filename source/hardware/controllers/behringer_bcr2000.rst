@@ -117,8 +117,8 @@ The controls are divided into five parts:
 |                  | All controls  | Button 4           | - Press: Toggles shift.                                                     |
 |                  +---------------+--------------------+   Shift changes the behaviour of controls as described in this table, and   |
 |                  | All controls  | Button 8           |   additionally the behaviour of the effect units. See                       |
-|                  |               |                    |   `Standard Effects Mapping                                                 |
-|                  |               |                    |   <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_    |
+|                  |               |                    |   :ref:`Standard Effects Mapping                                            |
+|                  |               |                    |   <controller-effects-mapping>`                                             |
 |                  |               |                    |   for details.                                                              |
 |                  |               |                    |                                                                             |
 |                  |               |                    | .. note:: Both Shift buttons have the same effect, they are not             |

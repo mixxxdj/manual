@@ -173,8 +173,16 @@ audience, but this requires a few more steps:
   #. Disable the headphone button for the effect unit so you do not forget to
      turn it off later
 
+.. _controller-effects-mapping:
+
 Controller Effects Mapping
 ==========================
+
+.. _controller-effects-mapping-usage:
+
+Usage
+-----
+
 This section describes how to use the standard Mixxx mapping for effects sections on controllers with the typical layout of 4 knobs (or 3 knobs + 1 encoder) and 4 buttons for effects. It allows you to switch between controlling all 3 effects of a chain or controlling each parameter of one effect.
 
 By default, 3 knobs are used for controlling effect metaknobs and the buttons under them toggle each effect on/off. To temporarily toggle an effect on/off, press and hold an effect enable button. The 4th knob is used for the mix (dry/wet) knob of the whole chain. On controllers designed for Serato, the :guilabel:`Beats` encoder is used as the mix knob.
@@ -193,3 +201,11 @@ When the focus button is pressed with shift, it toggles the Effect Unit between 
 To load different effects, hold shift and turn the knob for an effect.
 
 To load chain presets 1-4, press the buttons with shift (new in Mixxx 2.4).
+
+.. _controller-effects-mapping-implementation:
+
+Implementation
+--------------
+
+The described behaviour is implemented with the effect components of the `Components-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_ . If you want to create or update a mapping take a look at `Components-JS > Effect Unit <https://github.com/mixxxdj/mixxx/wiki/Components-JS#user-content-effectunit>`_ .
+It provides building blocks for entire units (effect units, decks) or just single controls.

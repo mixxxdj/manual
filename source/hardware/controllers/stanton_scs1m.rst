@@ -10,7 +10,7 @@ Stanton SCS.1m
 
    Stanton SCS.1m (top/schematic view). Image courtesy of `Stanton Magnetics, Inc. <http://www.stantondj.com>`__, overlay  (c) 2009 Sean M. Pappalardo.
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20220903093704/https://www.stantondj.com/stanton-controllers-systems/scs1m.html>`__
 
 .. versionadded:: 1.7
 
@@ -94,7 +94,7 @@ Global controls
 
    -  Rotate to move the track select highlight
    -  Press to load the selected track into the first stopped deck, if any.
-      //(This is [[https://bugs.launchpad.net/mixxx/+bug/734713|not working]] in
+      //(This is `not working <https://github.com/mixxxdj/mixxx/issues/5815>` in
       1.9.x for some reason.)//
 
 -  **Control mode**:

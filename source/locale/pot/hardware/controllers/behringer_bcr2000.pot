@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,7 +303,7 @@ msgid "Button 4"
 msgstr ""
 
 #: ../../hardware/controllers/behringer_bcr2000.rst:117
-msgid "Press: Toggles shift. Shift changes the behaviour of controls as described in this table, and additionally the behaviour of the effect units. See `Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard%20Effects%20Mapping>`_ for details."
+msgid "Press: Toggles shift. Shift changes the behaviour of controls as described in this table, and additionally the behaviour of the effect units. See :ref:`Standard Effects Mapping <controller-effects-mapping>` for details."
 msgstr ""
 
 #: ../../hardware/controllers/behringer_bcr2000.rst:124

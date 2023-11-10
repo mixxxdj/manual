@@ -16,7 +16,7 @@ file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
 You can download and share custom controller mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Controller Mapping forums <https://mixxx.discourse.group/c/controller-mappings/10>`_.
 
 For a list of controls that can be used in a controller mapping, see
 :ref:`appendix-mixxxcontrols`.
@@ -105,7 +105,12 @@ work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
 For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_
-and `<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_.
+and `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_
+, as well as the `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+which greatly simplifies mapping, for example effect units and complex behaviour
+like switching deck layers or pad grid modes. Note that this is the preferred way
+of mapping if intended your mapping to be included in Mixxx since Components-JS
+significantly reduces effort for both mapping and reviewing Pull Requests.
 
 .. _advanced-keyboard:
 
@@ -140,7 +145,7 @@ For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
 
 You can download and share custom keyboard mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-mappings/12>`_.
 
 .. _advanced-external-fx:
 

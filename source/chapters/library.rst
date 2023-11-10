@@ -384,6 +384,9 @@ a crate, or even the whole library) for tracks that match your search query.
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
+.. note:: The :guilabel:`Computer` and :guilabel:`Recording` views currently only
+          support simple case-insensitive filtering.
+
 Using search operators
 ----------------------
 
@@ -409,6 +412,19 @@ Mixxx supports the following filters:
   .. note::
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
+
+  You can use **=** to find exact matches. It reveals only tracks where the entire property
+  text equals the search term. As without **=**, you must use quotes for more than one word.
+  The first of the examples below will find only tracks where the title is
+  "wow" (case-insensitive like the default search), i.e. not "wowy", "oh wow!"
+  or "wow (Hej Remix)".
+
+  Examples
+    ::
+
+      title:=wow
+      title:= "Track 1"
+      artist:="DJ Flop"
 
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
@@ -541,6 +557,8 @@ Manual Edit
      :figclass: pretty-figures
 
      Mixxx library - Inline editing
+
+.. _library-properties-editor:
 
 **Properties editor**:
   To open the editor right-click on a **single track** in the library or any track
@@ -839,7 +857,7 @@ Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
-access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
+access. Click the :guilabel:`Computer` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
 The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that
 folder, right-click and choose :guilabel:`Remove from Quick Links`.

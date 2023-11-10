@@ -341,7 +341,7 @@ Figure           Control                                        Description
 Effect Functions
 ----------------
 
-This controller mapping uses the `standard Mixxx mapping for effects sections on controllers <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`__.
+This controller mapping uses the :ref:`standard Mixxx mapping for effects sections on controllers <controller-effects-mapping>`.
 The controls listed here are documented in Section 2 ("Effects") of the owner's manual.
 
 ===============  ======================================  =================================================================================================================================

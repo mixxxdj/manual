@@ -1,10 +1,11 @@
-sphinx
+# sphinx-rtd-theme seems to suffer issues with sphinx>=7
+sphinx <7.0.0
 sphinx-intl
 sphinx-notfound-page
 graphviz
 markupsafe
 transifex-client
 sphinxcontrib-svg2pdfconverter
-sphinx-rtd-theme==0.5.2
-sphinx-multiversion==0.2.1
+sphinx-rtd-theme
+sphinx-multiversion
 ./sphinx-mixxx

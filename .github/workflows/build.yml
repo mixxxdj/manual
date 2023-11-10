@@ -15,14 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         ref: main
         fetch-depth: 0
     - name: Setup Graphviz
       run: sudo apt update && sudo apt install -y graphviz
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.7'
     - name: Install Python dependencies
@@ -41,7 +41,7 @@ jobs:
     name: PDF
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup PDF Build Dependencies
       run: >
         sudo apt-get update && sudo apt-get install -y
@@ -56,7 +56,7 @@ jobs:
         latexmk
         xindy
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.7'
     - name: Install Python dependencies

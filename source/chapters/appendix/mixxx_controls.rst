@@ -45,6 +45,15 @@ that it is either 'ON' (non-zero) or 'OFF' (zero).
    line option), you can view and manually set the state of any control in
    Mixxx by going to :menuselection:`Developer --> Developer Tools`.
 
+.. hint:: Simplify mapping of more complex behaviour
+
+   While simple mappings with just a few buttons, knobs and LEDs can easily
+   be created with the MIDI Wizard and some basic scripting, implementing more
+   complex behaviour like switching deck layers or pad grid modes can be tedious
+   and error-prone. For these cases you can use Mixxx' `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+   which provides building blocks for single controls as well as entire
+   containers like decks and effect units.
+
 .. seealso:: See :ref:`controlindex` for a full list.
 
 
@@ -878,6 +887,30 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],LoadTrackFromDeck
+                   [PreviewDeckN],LoadTrackFromDeck
+                   [SamplerN],LoadTrackFromDeck
+
+   Load the track currently loaded to the given deck number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],LoadTrackFromSampler
+                   [PreviewDeckN],LoadTrackFromSampler
+                   [SamplerN],LoadTrackFromSampler
+
+   Load the track currently loaded to the given sampler number.
+
+   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],cue_cdj
                    [PreviewDeckN],cue_cdj
                    [SamplerN],cue_cdj
@@ -1044,7 +1077,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],eject
                    [SamplerN],eject
 
-   Eject currently loaded track
+   Eject currently loaded track. If no track is loaded the last-ejected track
+   (of any deck) is reloaded.
+
+   Double-press to reload the last replaced track. If no track is loaded the second-last ejected track is reloaded.
 
    :range: binary
    :feedback: Eject button is lit. Be sure to set back to 0 with scripts so the button does not stay lit.
@@ -2352,7 +2388,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2360,9 +2396,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
-.. mixxx:control:: [ChannelN],scratch2_enabled
-                   [PreviewDeckN],scratch2_enabled
-                   [SamplerN],scratch2_enabled
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
@@ -2466,19 +2502,27 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],sync_master
-                   [PreviewDeckN],sync_master
-                   [SamplerN],sync_master
+.. mixxx:control:: [ChannelN],sync_leader
+                   [PreviewDeckN],sync_leader
+                   [SamplerN],sync_leader
 
    Sets deck as leader clock.
 
    :range: binary
    :feedback: If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider snap to the appropriate value. Slider adjustments are linked on all decks that have :term:`sync lock` enabled.
 
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [ChannelN],sync_master
+                   [PreviewDeckN],sync_master
+                   [SamplerN],sync_master
+
    .. versionadded:: 2.0.0
    .. versionchanged:: 2.3.0
       This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
 
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[ChannelN],sync_leader`, :mixxx:coref:`[PreviewDeckN],sync_leader` and :mixxx:coref:`[SamplerN],sync_leader` instead.
 
 .. mixxx:control:: [ChannelN],sync_mode
                    [PreviewDeckN],sync_mode
@@ -2834,7 +2878,7 @@ These controls have been deprecated, new controller mappings should use the alte
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://bugs.launchpad.net/mixxx/+bug/530281)) (multiplicative).
+    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
@@ -3027,8 +3071,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Configured channel in the sound preferences.
 
 
-.. mixxx:control:: [MicrophoneN],master
-                   [AuxiliaryN],master
+.. mixxx:control:: [MicrophoneN],main_mix
+                   [AuxiliaryN],main_mix
 
    Hold value at 1 to mix channel input into the main output.
    For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
@@ -3038,6 +3082,11 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :feedback: Auxiliary: Play button
               Microphone: N/A
 
+.. mixxx:control:: [MicrophoneN],master
+                   [AuxiliaryN],master
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],main_mix` instead.
 
 .. mixxx:control:: [AuxiliaryN],orientation
 
@@ -3114,7 +3163,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
                    [AuxiliaryN],talkover
 
    Hold value at 1 to mix channel input into the main output.
-   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],master` instead.
+   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],main_mix` instead.
    Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
@@ -3743,7 +3792,7 @@ the currently focused widget. This is helpful when another application's window 
 This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
-   See `bug \#1772184 <https://bugs.launchpad.net/mixxx/+bug/1772184>`__ for the current status.
+   See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
 
 
 .. mixxx:control:: [Playlist],SelectPlaylist
@@ -3973,7 +4022,7 @@ Controls
 
    0 indicates no effect is focused; \> 0 indicates the index of the focused effect. Focusing an effect only does something if a controller mapping changes how it behaves when an effect is focused.
 
-   :range: 0..num_effects
+   :range: 0..num_effectslots
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],group_[ChannelI]_enable
@@ -4033,15 +4082,6 @@ Controls
    Cycle to the next EffectChain preset after the currently loaded preset.
 
    :range: binary
-
-
-.. mixxx:control:: [EffectRack1_EffectUnitN],num_effects
-                   [EqualizerRack1_[ChannelI]],num_effects
-                   [QuickEffectRack1_[ChannelI]],num_effects
-
-   The number of Effects that this EffectChain has
-
-   :range: integer, read-only
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effectslots

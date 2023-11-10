@@ -6,14 +6,14 @@ repos:
   - id: scour
     name: "Optimize SVG files"
     files: ^.*\.svg$
-    entry: tools/optimize_svg.py
+    entry: python tools/optimize_svg.py
     language: python
     additional_dependencies:
     - scour==0.38.2
   - id: gh-wiki-anchors
     name: "Fix GitHub Wiki Anchors for Linkcheck"
     types: [rst]
-    entry: tools/fixup_gh_wiki_anchors.py
+    entry: python tools/fixup_gh_wiki_anchors.py
     language: python
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v3.1.0
@@ -37,7 +37,7 @@ repos:
   hooks:
   - id: black
     name: "Reformat Python code"
-- repo: https://gitlab.com/pycqa/flake8
+- repo: https://github.com/pycqa/flake8
   rev: '3.8.3'
   hooks:
   - id: flake8

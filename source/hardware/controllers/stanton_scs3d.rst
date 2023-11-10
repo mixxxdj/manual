@@ -3,7 +3,7 @@
 Stanton SCS.3d “DaScratch”
 ==========================
 
--  `Manufacturer’s product page <http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20220613230840/http://www.stantondj.com/stanton-controllers-systems/scs3d.html>`__
 -  `Walk-through video! <http://www.youtube.com/watch?v=8DUpTikA8u0>`__
 
 .. versionadded:: 1.7
