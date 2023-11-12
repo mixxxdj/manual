@@ -22,15 +22,6 @@ The microphone :hwlabel:`🎤` input can be set to different modes. To make it u
 
 Mixer Section
 -------------
-.. figure:: ../../_static/controllers/reloop_mixage_overview.svg
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Reloop Mixage button overview
-   :figclass: pretty-figures
-
-   Reloop Mixage button overview
-
 
 All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way (you might want to check the official manual). The others are explained here:
 
@@ -106,6 +97,20 @@ Turn off the controller and hold one of these buttons while turning on the contr
 -  Right :hwlabel:`SHIFT` to display the firmware version on the four deck play / cue buttons. The number is display in little-endian binary, e.g 0101 meaning 5.
 -  Right :hwlabel:`⏯` to show jog wheel touch values. This can be used to adjust sensitivity on the MK1 version
 -  Left :hwlabel:`⯈⯇` to light up all LEDs. Can be helpful when repairing the controller or replacing the LEDs
+
+Info for mapping developers
+---------------------------
+
+.. figure:: ../../_static/controllers/reloop_mixage_overview.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Reloop Mixage button overview
+   :figclass: pretty-figures
+
+   Reloop Mixage button overview
+
+The numbers from the overview correspond to the product manual and mapping XML file Txx numbers.
 
 -  `Manufacturer's product page <productpage_url_>`_
 -  `Forum thread <forum_url_>`_
