@@ -34,9 +34,9 @@ Mixer Section
 
 All mapped controls use MIDI channel #1 (can be changed on the back of the device). Most functions on this controller are self-explanatory and mapped in that way (you might want to check the official manual). The others are explained here:
 
-=======================================================  ============================================================================================================================================  ====================================================================
-Control                                                  Function                                                                                                                                      :hwlabel:`SHIFT` function
-=======================================================  ============================================================================================================================================  ====================================================================
+=======================================================  ============================================================================================================================================  ============================================================================
+Control                                                  Function                                                                                                                                      SHIFT function
+=======================================================  ============================================================================================================================================  ============================================================================
 :hwlabel:`-` / :hwlabel:`+`                              Nudge deck while playing (slower / faster)                                                                                                    Adjust deck key (down / up)
 :hwlabel:`LOOP` / :hwlabel:`IN`                          Set beatloop start at current play position and activate beatloop or turn if off if currently active                                          Set loop in point
 :hwlabel:`RELOOP` / :hwlabel:`OUT`                       Toggle relooping on / off. Button is lit if there's a active loop set in the deck and blink if there's an inactive loop set in the deck       Set loop out point
@@ -45,15 +45,15 @@ Control                                                  Function               
 :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`                Halve / double loop length (push down to adjust move length instead). Click to clear beatloop                                                 Shift loop by move length beats left / right
 :hwlabel:`-DRY/WET+` / :hwlabel:`PAN`                    Control dry / wet for effect rack N (push down to select effect preset for effect rack N). Click to toggle effect(s) in effect rack on / off  Select quick effect preset for deck N. Click to toggle quick effect on / off
 :hwlabel:`AMOUNT` / :hwlabel:`FILTER`                    Control effect super knob                                                                                                                     Control quick effect super knob
-Loupe icon :hwlabel:`🔍`                                 Toggle to use jog wheel to scroll through deck                                                                                                 -
-Disc icon :hwlabel:`💿`                                  Toggle to use jog wheel to scratch deck                                                                                                        -
+Loupe icon :hwlabel:`🔍`                                 Toggle to use jog wheel to scroll through deck                                                                                                -
+Disc icon :hwlabel:`💿`                                  Toggle to use jog wheel to scratch deck                                                                                                       -
 Left headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⯈`    Route deck 1 audio to headphone output                                                                                                        Play / stop preview deck
 Right headphone icon :hwlabel:`🎧` / :hwlabel:`PREV ⏹`   Route deck 2 audio to headphone output                                                                                                        Stop preview deck
 :hwlabel:`⯈⯇` / :hwlabel:`CUE 1`                         Beat-sync deck as follower (hold to sync lock)                                                                                                If hot cue 1 is set, go to hot cue 1, else set hot cue 1
 :hwlabel:`CUP` / :hwlabel:`CUE 2`                        If at cue point, play when released. If not at cue point, sets a cue point                                                                    If hot cue 2 is set, go to hot cue 2, else set hot cue 2
 :hwlabel:`CUE` / :hwlabel:`CUE 3`                        If at cue point, plays until released. If not at cue point: If playing, goes to cue point and stops. If not playing, sets a cue point         If hot cue 3 is set, go to hot cue 3, else set hot cue 3
 :hwlabel:`⏯` / :hwlabel:`CUE 4`                          Play / pause deck. Hold the disc button :hwlabel:`💿` to soft start or stop the deck                                                          If hot cue 4 is set, go to hot cue 4, else set hot cue 4
-=======================================================  ============================================================================================================================================  =====================================================================
+=======================================================  ============================================================================================================================================  ============================================================================
 
 The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2.
 
@@ -105,7 +105,7 @@ Turn off the controller and hold one of these buttons while turning on the contr
 
 -  Right :hwlabel:`SHIFT` to display the firmware version on the four deck play / cue buttons. The number is display in little-endian binary, e.g 0101 meaning 5.
 -  Right :hwlabel:`⏯` to show jog wheel touch values. This can be used to adjust sensitivity on the MK1 version
--  Left :hwlabel:`⯈⯇` to light up all LEDs. Can be helpfull when repairing the controller or replacing the LEDs
+-  Left :hwlabel:`⯈⯇` to light up all LEDs. Can be helpful when repairing the controller or replacing the LEDs
 
 -  `Manufacturer's product page <productpage_url_>`_
 -  `Forum thread <forum_url_>`_
