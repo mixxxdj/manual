@@ -194,7 +194,7 @@ input channels available for more complex setups, for example with external
 mixers, vinyl control or for broadcasting.
 
 All outputs are usually sent to a channel pair (stereo), though they can
-also be sent to one channel only (mono mixdown), for exampleif you're short
+also be sent to one channel only (mono mixdown), for example if you're short
 on output channels, like when you need to use one stereo output for both master
 and headphones (see :ref:`setup-laptop-with-splitter`).
 
