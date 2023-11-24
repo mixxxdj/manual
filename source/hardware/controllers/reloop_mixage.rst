@@ -73,7 +73,7 @@ Jog wheel
 ---------
 
 - With :hwlabel:`🔍` button active: Scroll through the track. While touching the top of the wheel scrolling is three times as fast
-- With the disc button :hwlabel:`💿` active: Touch the side of the jog wheel to nudge the deck. Touch the top of the jog wheel to scratch (either deck playing or not)
+- With :hwlabel:`💿` button active: Touch the side of the jog wheel to nudge the deck. Touch the top of the jog wheel to scratch (either deck playing or not)
 - With the Beatloop adjust mode active: Adjusts the selected loop point
 
 Beatloop adjust mode
