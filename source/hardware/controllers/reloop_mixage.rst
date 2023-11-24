@@ -85,7 +85,7 @@ When a beatloop has been set, press :hwlabel:`SHIFT` + :hwlabel:`-LENGTH+` / :hw
 - Press :hwlabel:`LOOP` / :hwlabel:`IN` to shift the loop in point using the jog wheel. The :hwlabel:`LOOP` / :hwlabel:`IN` will blink
 - Press :hwlabel:`RELOOP` / :hwlabel:`OUT` to shift the loop ou point using the jog wheel. The :hwlabel:`RELOOP` / :hwlabel:`OUT` will blink
 
-Press and hold :hwlabel:`SHIFT` + :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`, then press :hwlabel:`🔍` or :hwlabel:`💿` button to leave betloop adjust mode
+Hold :hwlabel:`SHIFT` and press :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`, or press :hwlabel:`🔍` or :hwlabel:`💿` button to leave betloop adjust mode
 
 User-adjustable script settings
 -------------------------------
