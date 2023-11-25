@@ -24,7 +24,7 @@ Main          Channel 1-2
 Headphones    Channel 3-4
 ============  =====================
 
-Mapping description
+Controller overview
 ~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_z1.png
@@ -36,7 +36,10 @@ Mapping description
 
    Native Instruments Traktor Kontrol Z1 (schematic view)
 
-Mixxx mapping differs slightly from the manufacturer's standard mapping. Various tweaks have been implemented to make the Kontrol Z1 more usable as a single controller.
+Mapping description
+~~~~~~~~~~~~~~~~~~~
+
+Mixxx mapping for the Kontrol Z1 differs slightly from the manufacturer's standard mapping. Various tweaks have been implemented to make the Kontrol Z1 more usable as a single controller.
 
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | No | Element               | Primary function                                                                                                  | Secondary function (+ Mode)                         |
