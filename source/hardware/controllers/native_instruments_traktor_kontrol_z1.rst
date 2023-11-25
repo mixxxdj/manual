@@ -10,7 +10,7 @@ Native Instruments Traktor Kontrol Z1 is a two-deck ultra-compact DJ controller 
 Compatibility
 ~~~~~~~~~~~~~
 
-The Kontrol Z1 is a HID and USB audio class compliant device, which makes it fully compatible with Mixxx. It requires no proprietary drivers when used on Linux or macOS. For Windows, download and install the latest driver from `the manufacturer's website <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
+The Kontrol Z1 is a HID and USB audio class compliant device, which makes it fully compatible with Mixxx. It requires no proprietary drivers when used on Linux or macOS. For Windows, download and install the latest driver from the `manufacturer's website <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
 
 Audio hardware setup
 ~~~~~~~~~~~~~~~~~~~~
@@ -29,17 +29,17 @@ Controller overview
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_z1.png
    :align: center
-   :width: 100%
-   :figwidth: 100%
+   :width: 50%
+   :figwidth: 50%
    :alt: Native Instruments Traktor Kontrol Z1 (schematic view)
    :figclass: pretty-figures
 
-   Native Instruments Traktor Kontrol Z1 (schematic view)
+   *Native Instruments Traktor Kontrol Z1 (schematic view)*
 
 Mapping description
 ~~~~~~~~~~~~~~~~~~~
 
-Mixxx mapping for the Kontrol Z1 differs slightly from the manufacturer's standard mapping. Various tweaks have been implemented to make the Kontrol Z1 more usable as a single controller.
+Mixxx mapping for the Kontrol Z1 differs slightly from the manufacturer's standard mapping. Various tweaks have been implemented to make the Z1 more usable as a single controller.
 
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | No | Element               | Primary function                                                                                                  | Secondary function (+ Mode)                         |
