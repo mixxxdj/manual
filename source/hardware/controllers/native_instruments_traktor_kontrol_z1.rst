@@ -6,6 +6,7 @@ Native Instruments Traktor Kontrol Z1
 Native Instruments Traktor Kontrol Z1 is a two-deck ultra-compact DJ controller with an integrated sound card. It features stereo sound output using two unbalanced RCA connectors and a standard headphone output (1/8" / 3.5 mm TRS) jack. The controller can be powered directly from the USB bus or by using an external power adapter.
 
 - `Traktor Kontrol Z1 product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-z1/>`__
+- `Mixxx forum mapping thread <https://mixxx.discourse.group/t/new-mapping-for-native-instruments-traktor-kontrol-z1/28436>`__
 
 Compatibility
 ~~~~~~~~~~~~~
