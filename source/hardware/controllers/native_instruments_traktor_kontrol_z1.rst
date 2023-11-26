@@ -39,7 +39,7 @@ Controller overview
 Mapping description
 ~~~~~~~~~~~~~~~~~~~
 
-Mixxx mapping for the Kontrol Z1 differs slightly from the manufacturer's standard mapping. Various tweaks have been implemented to make the Z1 more usable as a single controller.
+All knobs and buttons function in Mixxx as they are labeled and follow the manufacturer's standard mapping. Two extra track control functions are also available using the Mode button as a modifier. This makes the Kontrol Z1 more usable by itself without other controllers.
 
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | No | Element               | Primary function                                                                                                  | Secondary function (+ Mode)                         |
