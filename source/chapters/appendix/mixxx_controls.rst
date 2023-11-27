@@ -1364,7 +1364,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setcue
                    [SamplerN],hotcue_X_setcue
 
-   Identical to :mixxx:coref:`hotcue_X_setcue <[ChannelN],hotcue_X_setcue>`, but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Hotcue"), regardless of whether a loop is enabled or not.
+   Identical to :mixxx:coref:`hotcue_X_set <[ChannelN],hotcue_X_set>`, but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Hotcue"), regardless of whether a loop is enabled or not.
 
 
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
