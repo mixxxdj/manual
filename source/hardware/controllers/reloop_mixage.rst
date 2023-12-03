@@ -9,7 +9,7 @@ The Reloop Mixage line of controllers contains 2-channel DJ controller. It offer
    :alt: Reloop Mixage IE (top view)
    :figclass: pretty-figures
 
-   Reloop Mixage top view (© Reloop, used with permission).
+   Reloop Mixage top view (© Reloop, used with permission)
 
 Audio
 -----
