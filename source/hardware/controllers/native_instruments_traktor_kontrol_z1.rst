@@ -30,8 +30,8 @@ Controller overview
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_kontrol_z1.png
    :align: center
-   :width: 50%
-   :figwidth: 50%
+   :width: 65%
+   :figwidth: 65%
    :alt: Native Instruments Traktor Kontrol Z1 (schematic view)
    :figclass: pretty-figures
 
@@ -61,9 +61,11 @@ All knobs and buttons function in Mixxx as they are labeled and follow the manuf
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | 8  | Filter / FX knob      | Adjusts quick effect superknob for the deck                                                                       |                                                     |
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| 9  | Headphone button      | Toggles deck headphone cueing on / off                                                                            | Seek track to cue and stop                          |
+| 9  | Filter / FX On button | Toggles selected deck quick effect on / off                                                                       | Start / stop track playback                         |
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| 10 | Mode button           | Activates secondary functions when pressed                                                                        |                                                     |
+| 10 | Headphone button      | Toggles deck headphone cueing on / off                                                                            | Seek track to cue and stop                          |
++----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+| 11 | Mode button           | Activates secondary functions when pressed                                                                        |                                                     |
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | 11 | Filter / FX On button | Toggles selected deck quick effect on / off                                                                       | Start / stop track playback                         |
 +----+-----------------------+-------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
