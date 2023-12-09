@@ -17,9 +17,9 @@ For Windows, download and install the latest Traktor Kontrol Z1 audio driver fro
 
 .. warning::
    **Parallel installation of Traktor Pro software on Windows**
-   
+
    If you have a parallel installation of Traktor Pro on Windows, a service called :file:`NIHardwareService.exe` is running in the background, which has control over the LEDs of the Z1.
-   
+
    To make the Z1 work properly with Mixxx, you must either uninstall the Traktor Pro software, or temporarily stop this Windows service. One way to do this is to open a Windows PowerShell terminal as Administrator, and run the following command: ``Stop-Service -Name "NIHardwareService"``.
 
 Audio hardware setup
