@@ -226,7 +226,7 @@ Troubleshooting
 If general functionality or supershift are not working, double check
 that Latch Layers is turned off and MIDI CH is selected. Refer to the
 `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details.
 
 Known Issues
