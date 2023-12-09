@@ -231,10 +231,9 @@ Inputs
 * **Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and passthrough <vinyl-control>`.
   Note that one input can be selected for multiple decks.
 
-* **Microphone 1-4**: ref:`Microphone <microphones>` inputs.
+* **Microphone 1-4**: The :ref:`microphone <microphones>` inputs.
 
 * **Auxiliary 1-4**: Auxiliary inputs.
-  .. TODO: link to Aux chapter when it's been added.
 
 * **Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording <djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`.
   Note that when setting this input your recording and broadcast stream will
