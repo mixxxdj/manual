@@ -203,6 +203,25 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
              which differ primarily in the level of detail shown in the
              waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
+  Right next to the waveform view there are controls to adjust the :term:`beatgrid`.
+  You may stretch, compress or shift the beatgrid in case it was not detected
+  correctly (see :ref:`configuration-bpm-detection`). There are also controls to shift
+  cue points in case they are set off after decoder changes, for example when you migrated
+  your Mixxx library to another compouter or operating system. These controls are
+  hidden by default and need to be enabled in the skin settings menu.
+
+  .. figure:: ../_static/2.3/latenight-beatgrid-controls.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx default skin (LateNight) - Beatgrid editing controls
+     :figclass: pretty-figures
+
+     Beatgrid editing controls in the default Mixxx skin (LateNight, PaleMoon theme)
+
+  In Deere skin, these controls are located in the expandable BPM section inside
+  the decks.
+
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
