@@ -262,3 +262,12 @@ Migration
 * Go to :menuselection:`Preferences --> Library` and **Relink** each of your music directories as described in :ref:`configuration-import`.
 
 Now, all your music files should be available, all your playlists, crates and your session histories be restored. Configure a sound output and test if you can play all tracks as before. Note that this will obviously not include your external libraries (iTunes, Traktor etc.), you need to configure those again.
+
+Known issues
+------------
+
+If you migrated to another operating system, operating system version or another Mixxx version, the used
+audio decoders may have changed which may cause beatgrids and cue points appear shifted, i.e. they are
+set off from the desired points in the audio stream. Unfortunately, there is no automatic fix available, yet.
+As of now you need to shift cues for each track individually with the cue shift buttons in the beatgrid editing
+controls section, see :ref:`interface-waveform`.
