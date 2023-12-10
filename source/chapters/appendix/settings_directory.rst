@@ -13,6 +13,8 @@ The Mixxx settings directory contains all user data and settings of your Mixxx i
 Location
 --------
 
+You can navigate to the settings directory location manually as described below. Since Mixxx 2.3 you can also open this directory in your file browser from within Mixxx: go to :menuselection:`Preferences --> Library`, scroll to the bottom of the page and click on :guilabel:`Open Mixxx Settings Directory`.
+
 .. hint:: On Windows, the :file:`AppData` folder is hidden, as well as all files and
           directories beginning with a dot '.' on Linux. So if you have not already,
           you will need to set your file manager to show hidden files and folders.
