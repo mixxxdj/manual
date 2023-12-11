@@ -20,7 +20,7 @@ This controller is a class complaint USB audio device. :term:`ASIO` driver for W
 Deck Controls
 -------------
 
-.. figure:: ../../_static/controller/reloop_beatmix_top.png
+.. figure:: ../../_static/controllers/reloop_beatmix_top.png
    :align: center
    :width: 100%
    :figwidth: 100%
