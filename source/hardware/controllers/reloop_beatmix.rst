@@ -40,7 +40,7 @@ Deck Controls
 * 10 - **SCRATCH MODE**. **Attention here!** This one left unimplemented due to its strange hardware handling. If you press this button the light will toggle but nothing else is going to happen. You may use it as some sort of switching mark. Scratch mode is controlled by Shift-T22 instead.
 * 11 - **SEARCH**. Currently this button increase the jog sensitivity by 4 which makes it more suitable for searching through a loaded track. It also affects pitch control function of the jog, but not the scratch function.
 * 12 - **Jog**. It is a two zone control wheel. Top plate is touch sensitive and it will cause a deck to scratch when touched if scratch mode is on. Rim is scratch-indifferent.
-* 13 - Momentary **pitch up/down** buttons. Self explainatory i think. **Shift**-buttons will fast forward and rewind.
+* 13 - Momentary **pitch up/down** buttons. Self explanatory i think. **Shift**-buttons will fast forward and rewind.
 * 14 - **SHIFT** button is used to access all of second layer controls. Worth noticing, there is one SHIFT button for each side which affects its own side only. Except for a navigation dial. Both shift buttons deal the same way with the navigation dial.
 * 15 - **HOTCUES**. Three hotcues are set/activated by pressing corresponding buttons and cleared by **Shift**-button.
 * 16 - **SYNC**. Toggles sync mode of the corresponding deck. **Shift**-button will reverse the playback.
@@ -48,7 +48,7 @@ Deck Controls
 * 18 - **CUE**. **Shift**-button toggles Fader Start feature.
 * 19 - **PLAY/PAUSE**. **Shift**-button toggles keylock mode.
 * 20 - **EQ and MASTER SECTION** this section is self explanatory, just one thing worth noticing: master output control is pure hardware, it doesn't talk to software at all.
-* 21 - **LOAD**. Loads a track into a corresponding deck. Button is only lit when deck is stopped and is safe to load. *Shift**-button toggles scratch mode as it was described above.
+* 21 - **LOAD**. Loads a track into a corresponding deck. Button is only lit when deck is stopped and is safe to load. **Shift**-button toggles scratch mode as it was described above.
 * 22 - **NAV DIAL**. The dial scrolls through a library. You can expand the library window by clicking on the dial. When operated with **Shift** key the dial will scroll through library tree and expand/collapse its entries.
 * 23 - **FADERS**  Fader start available. Fader start is only starting playback of the deck when corresponding fader is opened. It won't stop when you close the fader.
 
