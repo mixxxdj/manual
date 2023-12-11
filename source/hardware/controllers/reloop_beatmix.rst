@@ -59,7 +59,7 @@ All buttons have status LEDs. Shift-action LEDs are visible when **SHIFT** is pr
 Back
 ----
 
-.. figure:: ../../_static/controller/reloop_beatmix_back.png
+.. figure:: ../../_static/controllers/reloop_beatmix_back.png
    :align: center
    :width: 100%
    :figwidth: 100%
