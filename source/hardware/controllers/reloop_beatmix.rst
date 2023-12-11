@@ -73,7 +73,7 @@ Back
 
 Front
 -----
-.. figure:: ../../_static/controller/reloop_beatmix_front.png
+.. figure:: ../../_static/controllers/reloop_beatmix_front.png
    :align: center
    :width: 100%
    :figwidth: 100%
