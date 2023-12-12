@@ -164,7 +164,7 @@ Sync Lock with Dynamic Tempo
 
 If you're working with dynamic tempo tracks that have a variable BPM beat grid, you have
 precise control over the sync lock behavior via the following Sync Leader
-buttons (available in the LateNight Skin only).
+buttons (available in the LateNight and Deere skins only).
 
 .. |nbsp| unicode:: 0xA0
    :trim:
