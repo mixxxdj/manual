@@ -383,8 +383,7 @@ Auto Cue
 Mixxx automatically seeks to the saved Cue point on track load. If none exists,
 seeks to the beginning of the track.
 
-Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to main
-cue point on track load` to always seek to the beginning of the track.
+Select an alternative load point in :menuselection:`Preferences --> Decks --> Track load point`.
 
 .. _interface-cue-modes:
 

@@ -248,26 +248,26 @@ Preparation
 
 * If you still have access to your Mixxx installation open Mixxx, go to :menuselection:`Preferences --> Library` and uncheck :guilabel:`Rescan on startup`. If you are not able to start Mixxx anymore, e.g. if you only managed to recover your settings directory, you can do this manually in the settings file: open :file:`mixxx.cfg` with a text editor, delete the line with :file:`RescanOnStartup` and save the file.
 * Make a copy of both the Mixxx settings directory and your music directories. Put all in a save place. **Do not restructure your music directories!**
-* Install you new operating system, get your new PC ready.
+* Install your new operating system, get your new PC ready.
 * Get the current stable Mixxx version from `the official download page <https://mixxx.org/download/>`_.
 * Install Mixxx, though **don't run it, yet!**
 
 Migration
 ---------
 
-* Put your Mixxx settings directory in the appropriate location, see :ref:`appendix-settings-files`. In case you already started Mixxx previously, make sure to rename or delete your existing settings directory in order to avoid any file conflicts.
+* Copy your Mixxx settings directory to the appropriate location, see :ref:`appendix-settings-files`. In case you already started Mixxx previously, make sure to rename or delete your existing settings directory in order to avoid any file conflicts.
 * Copy your music directories to the new computer.
 * Start Mixxx.
 * If you've put the settings directory in the correct location Mixxx should not ask you for your music directories and all your settings should be as before.
 * Go to :menuselection:`Preferences --> Library` and **Relink** each of your music directories as described in :ref:`configuration-import`.
 
-Now, all your music files should be available, all your playlists, crates and your session histories be restored. Configure a sound output and test if you can play all tracks as before. Note that this will obviously not include your external libraries (iTunes, Traktor etc.), you need to configure those again.
+Now, all your music files should be available, all your playlists, crates and your session histories be restored. A library rescan is not required. Configure a sound output and test if you can play all tracks as before. Note that this will obviously not include your external libraries (iTunes, Traktor etc.), you need to configure those again.
 
 Known issues
 ------------
 
 If you migrated to another operating system, operating system version or another Mixxx version, the used
-audio decoders may have changed which may cause beatgrids and cue points appear shifted, i.e. they are
+audio decoders may have changed which may cause beatgrids and cue points to appear shifted, i.e. they are
 set off from the desired points in the audio stream. Unfortunately, there is no automatic fix available, yet.
 As of now you need to shift cues for each track individually with the cue shift buttons in the beatgrid editing
 controls section, see :ref:`interface-waveform`.
