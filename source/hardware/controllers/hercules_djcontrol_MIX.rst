@@ -5,7 +5,7 @@ Hercules DJControl MIX
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolmix-en/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-contrl-mix-mapping/26581>`__
 
-.. versionadded:: 2.3
+.. versionadded:: 2.4
 
 Compatibility
 -------------
@@ -21,7 +21,8 @@ Sound Card Setup
 
 This device does not have a built in audio interface.
 
-Please refer to .. _setup-controller-and-external-card: for more details about the audio configuration in Mixxx.
+.. seealso::
+   Please refer to :ref:`example setups section <setup-laptop-and-external-card>` for more details about the audio configuration in Mixxx.
 
 Mapping description
 -------------------
