@@ -33,7 +33,7 @@ Decks
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <master-sync>`.
+:hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <sync-lock>`.
 :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                        Set deck as Sync leader.
 :hwlabel:`CUE` button                                            Specifies, plays or recalls temporary cue point.
 :hwlabel:`SHIFT` + :hwlabel:`CUE` button                         Return to the beginning of the track.
