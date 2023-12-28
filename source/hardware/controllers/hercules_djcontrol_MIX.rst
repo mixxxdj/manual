@@ -21,7 +21,7 @@ Sound Card Setup
 
 This device does not have a built in audio interface.
 
-Please refer to :ref:`the user manual <controllers-without-an-integrated-audio-interface>` for more details about the audio configuration in Mixxx.
+Please refer to .. _setup-controller-and-external-card: for more details about the audio configuration in Mixxx.
 
 Mapping description
 -------------------
