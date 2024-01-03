@@ -111,6 +111,22 @@ Pad 1 - 8                                                        Set and trigger
 :hwlabel:`SHIFT` + Pad 1 - 8                                     Delete :term:`hotcue` 1 - 8.
 ===============================================================  ==========================================
 
+Toneplay Mode
+^^^^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1                                                            Jump to the last used hot cue (or cue point if no hotcue is set) and play at original pitch.
+Pad 2                                                            Jump to the last used hot cue/cue point and play at +1 semitones.
+Pad 3                                                            Jump to the last used hot cue/cue point and play at +2 semitones.
+Pad 4                                                            Jump to the last used hot cue/cue point and play at +3 semitones.
+Pad 5                                                            Jump to the last used hot cue/cue point and play at -4 semitones.
+Pad 6                                                            Jump to the last used hot cue/cue point and play at -3 semitones.
+Pad 7                                                            Jump to the last used hot cue/cue point and play at -2 semitones.
+Pad 8                                                            Jump to the last used hot cue/cue point and play at -1 semitones.
+===============================================================  ==========================================
+
 Roll Mode
 ^^^^^^^^^
 
@@ -151,6 +167,8 @@ Control                                                          Function
 ===============================================================  ==========================================
 Pad 1 - 8 (deck A)                                               Trigger Sampler 1 - 8.
 Pad 1 - 8 (deck B)                                               Trigger Sampler 9 - 16.
+:hwlabel:`SHIFT` + Pad 1 - 8 (deck A)                            Stop Sampler 1 - 8.
+:hwlabel:`SHIFT` + Pad 1 - 8 (deck B)                            Stop Sampler 9 - 16.
 ===============================================================  ==========================================
 
 Beatjump Mode
@@ -176,4 +194,3 @@ Controls not included in this mapping
 -  Master buttons (Hardware control)
 -  Beatmatch guide (Hardware control)
 -  PADS: Slicer/Slicer Loop
--  PADS: Toneplay
