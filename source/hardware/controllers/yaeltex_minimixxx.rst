@@ -25,7 +25,7 @@ the brightness of the LEDs. The MiniMixxx does not have a built-in sound card.
 Compatibility
 -------------
 
-Setup
+Controller
 ~~~~~~~~~~
 
 The MiniMixxx is a USB class compliant MIDI device.  To work correctly with this
@@ -41,6 +41,15 @@ Inside Mixxx, open the preferences and select the Yaeltex Minimixxx from the lis
 
 Mapping description
 -------------------
+
+.. figure:: ../../_static/controllers/yaeltex_minimixxx.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Yaeltex Minimixxx (product image)
+   :figclass: pretty-figures
+
+   Vestax VCI-400 (top view with annotations)
 
 Mixer
 ~~~~~
@@ -165,10 +174,10 @@ Encoder 1           Deck 1 Jog        Spin                      Jog forward and 
 ..                  ..                Press                     Creates a loop if not in a loop, or reloop toggle if the playhead is in the loop.
 ..                  ..                :hwlabel:`SHIFT` + Press  Does a beatloop roll.
 Encoder 2           Deck 1 Pregain    Spin                      Adjust track pregain.
-..                  ..                Press                     Toggle pfl.
+..                  ..                Press                     Toggle :term:`pfl`.
 ..                  ..                :hwlabel:`SHIFT` + Press  Reset track pregain.
 Encoder 3           Deck 2 Pregain    Spin                      Adjust track pregain.
-..                  ..                Press                     Toggle pfl.
+..                  ..                Press                     Toggle :term:`pfl`.
 ..                  ..                :hwlabel:`SHIFT` + Press  Reset track pregain.
 Encoder 4           Deck 2 Jog        Spin                      Jog forward and back, or nudge faster or slower if the track is playing.
 ..                  ..                :hwlabel:`SHIFT` + Spin   Seek forward a large distance in the track.
