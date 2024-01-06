@@ -3,8 +3,12 @@
 Yaeltex MiniMixxx
 =================
 
+-  `Manufacturer’s product page <https://yaeltex.com/product/minimixxx/>`__
+
 .. sectionauthor::
   Owen Williams <owilliams at mixxx.org>
+
+.. versionadded:: 2.4.0
 
 The Yaeltex MiniMixxx is a compact, 2-deck DJ controller designed exclusively
 for Mixxx. Unlike most small form-factor DJ controllers which sacrifice
@@ -19,8 +23,6 @@ indicators makes the MiniMixxx an eye-catching wonder in the DJ booth.
 
 The MiniMixxx can run on USB bus power. Using a separate power supply increases
 the brightness of the LEDs. The MiniMixxx does not have a built-in sound card.
-
-.. versionadded:: 2.4.0
 
 Compatibility
 -------------
