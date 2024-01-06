@@ -1,0 +1,1502 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"PO-Revision-Date: 2022-09-05 05:41+0000\n"
+"Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7664/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../hardware/controllers/roland_dj_505.rst:4
+msgid "Roland DJ-505"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:16
+msgid "Roland DJ-505 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:19
+msgid ""
+"The Roland DJ-505 is an all-in-one USB :term:`MIDI` controller with an "
+"integrated audio interface. It has controls for 2 decks that can be toggled "
+"between decks to play with 4 decks. It also features a TR-S step sequencer "
+"with sounds from the TR-808 and the TR-909 drum machines (TR-606 and TR-707 "
+"are available via firmware update)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:24
+msgid ""
+"`Manufacturer’s product page "
+"<https://www.roland.com/global/products/dj-505/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:25
+msgid ""
+"`Serato DJ Hardware Page <https://serato.com/dj/hardware/roland-dj-505>`__"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:26
+msgid ""
+"`Owner’s Manual "
+"<https://www.roland.com/global/support/by_product/dj-505/owners_manuals/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:27
+msgid ""
+"`Driver/Firmware/TR-S Samples Download Page "
+"<https://www.roland.com/global/products/dj-505/downloads>`__"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:28
+msgid ""
+"`Mapping Forum Thread <https://mixxx.discourse.group/t/roland-"
+"dj-505/17916>`__"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:31
+msgid "Added Saved Loop mode and improved Cue Loop Mode."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:35
+msgid "Drivers"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:37
+msgid ""
+"You can download the latest Windows & MacOS drivers and firmware from the "
+"`manufacturer’s website "
+"<https://www.roland.com/global/products/dj-505/downloads/>`__. Since the "
+"DJ-505 is a USB class compliant MIDI and audio device, the device is plug-"
+"and-play on Linux."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:41
+msgid "Audio Setup"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:43
+msgid ""
+"The mapping relies on the following channel assignments (for line/phono "
+"input support, applying effects to the TR-S output, etc.):"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:47
+msgid "Output Channels"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:47
+#: ../../hardware/controllers/roland_dj_505.rst:54
+msgid "Assigned to"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:49
+msgid "1-2"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:49
+msgid "Main"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:50
+msgid "3-4"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:50
+msgid "Headphones"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:54
+msgid "Input Channels"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:56
+msgid "1-2 (CH 1 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:56
+msgid "Vinyl Control 1"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:57
+msgid "3-4 (CH 2 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:57
+msgid "Vinyl Control 2"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:58
+msgid "5-6 (Mix)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:58
+msgid "Record/Broadcast"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:59
+msgid "7-8 (TR-S output)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:59
+msgid "Auxiliary 1"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:62
+msgid ""
+"The microphone, TR-S drum machine, and external inputs are mixed together in"
+" input channels 5-6, so Mixxx can record and broadcast them."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:65
+msgid ""
+"The knobs for :hwlabel:`MASTER LEVEL`, :hwlabel:`BOOTH LEVEL`, "
+":hwlabel:`PHONES VOLUME`, :hwlabel:`MIC LEVEL`, :hwlabel:`TR/SAMPLER LEVEL` "
+"and :hwlabel:`CUE/MASTER MIXING` are controlling the hardware mixer of the "
+"built-in audio interface. Hence, turning the knobs will not change values in"
+" the Mixxx :term:`GUI` and you’ll need to set the Mixxx knobs to their "
+"default values when using the controller:"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:68
+msgid ""
+"Set the main/booth/headphones/microphone/aux channel levels to 100% (knob "
+"center position)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:69
+msgid "Set cue/main mixing to cue-only (leftmost position)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:72
+msgid ""
+"You should assign the :guilabel:`Vinyl Control` input channels even if you "
+"do not intend to use timecode vinyl. These channel assignments are also "
+"needed to make the :hwlabel:`CH 1/2 PC/LINE/PHONO` switches work (i. e. "
+"passing through line or phono input to the left/right deck)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:76
+msgid "Controller Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:78
+msgid ""
+"The control numbering in the schematic drawings matches the those found on "
+"the specified page in the Owner’s Manual."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:83
+msgid "Browser Section (p. 4)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:92
+msgid "Roland DJ-505 (browser section)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:95
+#: ../../hardware/controllers/roland_dj_505.rst:122
+#: ../../hardware/controllers/roland_dj_505.rst:167
+#: ../../hardware/controllers/roland_dj_505.rst:200
+#: ../../hardware/controllers/roland_dj_505.rst:220
+#: ../../hardware/controllers/roland_dj_505.rst:234
+#: ../../hardware/controllers/roland_dj_505.rst:288
+#: ../../hardware/controllers/roland_dj_505.rst:314
+#: ../../hardware/controllers/roland_dj_505.rst:339
+#: ../../hardware/controllers/roland_dj_505.rst:371
+#: ../../hardware/controllers/roland_dj_505.rst:398
+#: ../../hardware/controllers/roland_dj_505.rst:433
+#: ../../hardware/controllers/roland_dj_505.rst:458
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:95
+#: ../../hardware/controllers/roland_dj_505.rst:122
+#: ../../hardware/controllers/roland_dj_505.rst:167
+#: ../../hardware/controllers/roland_dj_505.rst:200
+#: ../../hardware/controllers/roland_dj_505.rst:220
+#: ../../hardware/controllers/roland_dj_505.rst:234
+#: ../../hardware/controllers/roland_dj_505.rst:254
+#: ../../hardware/controllers/roland_dj_505.rst:288
+#: ../../hardware/controllers/roland_dj_505.rst:314
+#: ../../hardware/controllers/roland_dj_505.rst:339
+#: ../../hardware/controllers/roland_dj_505.rst:371
+#: ../../hardware/controllers/roland_dj_505.rst:398
+#: ../../hardware/controllers/roland_dj_505.rst:433
+#: ../../hardware/controllers/roland_dj_505.rst:458
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:95
+#: ../../hardware/controllers/roland_dj_505.rst:122
+#: ../../hardware/controllers/roland_dj_505.rst:167
+#: ../../hardware/controllers/roland_dj_505.rst:200
+#: ../../hardware/controllers/roland_dj_505.rst:220
+#: ../../hardware/controllers/roland_dj_505.rst:234
+#: ../../hardware/controllers/roland_dj_505.rst:288
+#: ../../hardware/controllers/roland_dj_505.rst:314
+#: ../../hardware/controllers/roland_dj_505.rst:339
+#: ../../hardware/controllers/roland_dj_505.rst:371
+#: ../../hardware/controllers/roland_dj_505.rst:398
+#: ../../hardware/controllers/roland_dj_505.rst:433
+#: ../../hardware/controllers/roland_dj_505.rst:458
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:97
+#: ../../hardware/controllers/roland_dj_505.rst:98
+#: ../../hardware/controllers/roland_dj_505.rst:99
+#: ../../hardware/controllers/roland_dj_505.rst:124
+#: ../../hardware/controllers/roland_dj_505.rst:125
+#: ../../hardware/controllers/roland_dj_505.rst:126
+#: ../../hardware/controllers/roland_dj_505.rst:169
+#: ../../hardware/controllers/roland_dj_505.rst:202
+#: ../../hardware/controllers/roland_dj_505.rst:222
+#: ../../hardware/controllers/roland_dj_505.rst:236
+#: ../../hardware/controllers/roland_dj_505.rst:341
+#: ../../hardware/controllers/roland_dj_505.rst:342
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:97
+msgid ":hwlabel:`LOAD` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:97
+msgid "Load song into deck."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:98
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOAD` button (left)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:98
+msgid ""
+"Sort library by BPM (press repeatedly to toggle ascending/descending order)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:99
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOAD` button (right)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:99
+msgid ""
+"Sort library by key (press repeatedly to toggle ascending/descending order)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:100
+#: ../../hardware/controllers/roland_dj_505.rst:101
+#: ../../hardware/controllers/roland_dj_505.rst:127
+#: ../../hardware/controllers/roland_dj_505.rst:128
+#: ../../hardware/controllers/roland_dj_505.rst:170
+#: ../../hardware/controllers/roland_dj_505.rst:223
+#: ../../hardware/controllers/roland_dj_505.rst:237
+#: ../../hardware/controllers/roland_dj_505.rst:343
+#: ../../hardware/controllers/roland_dj_505.rst:344
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:100
+msgid "Rotary Selector"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:100
+msgid ""
+"Turn to move tracklist cursor up/down. Press to load and play/pause "
+"currently selected track on preview deck. Hold and turn to seek in track on "
+"preview deck."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:101
+msgid ":hwlabel:`SHIFT` + Rotary Selector"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:101
+msgid ""
+"Turn to move sidebar cursor up/down. Hold and turn to change track color of "
+"currently selected track."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:102
+#: ../../hardware/controllers/roland_dj_505.rst:103
+#: ../../hardware/controllers/roland_dj_505.rst:129
+#: ../../hardware/controllers/roland_dj_505.rst:171
+#: ../../hardware/controllers/roland_dj_505.rst:224
+#: ../../hardware/controllers/roland_dj_505.rst:238
+#: ../../hardware/controllers/roland_dj_505.rst:345
+#: ../../hardware/controllers/roland_dj_505.rst:346
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:102
+msgid ":hwlabel:`BACK` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:102
+msgid "*Not yet mapped.*"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:103
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BACK` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:103
+msgid ""
+"Sort library by title (press repeatedly  to toggle ascending/descending "
+"order)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:104
+#: ../../hardware/controllers/roland_dj_505.rst:105
+#: ../../hardware/controllers/roland_dj_505.rst:130
+#: ../../hardware/controllers/roland_dj_505.rst:131
+#: ../../hardware/controllers/roland_dj_505.rst:172
+#: ../../hardware/controllers/roland_dj_505.rst:173
+#: ../../hardware/controllers/roland_dj_505.rst:174
+#: ../../hardware/controllers/roland_dj_505.rst:175
+#: ../../hardware/controllers/roland_dj_505.rst:225
+#: ../../hardware/controllers/roland_dj_505.rst:226
+#: ../../hardware/controllers/roland_dj_505.rst:239
+#: ../../hardware/controllers/roland_dj_505.rst:347
+#: ../../hardware/controllers/roland_dj_505.rst:348
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:104
+msgid ":hwlabel:`ADD PREPARE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:104
+msgid "(Un-)Maximizes the library view."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:105
+msgid ":hwlabel:`SHIFT` + :hwlabel:`ADD PREPARE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:105
+msgid ""
+"Sort library by artist (press repeatedly to toggle ascending/descending "
+"order)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:110
+msgid "Deck Section (p. 5-6)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:119
+msgid "Roland DJ-505 (deck section)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:124
+msgid "Jog Wheel (top surface)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:124
+msgid "Perform scratch operation."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:125
+msgid "Jog Wheel (outer edge)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:125
+msgid "Rotate to lower/raise playback speed and pitch if key lock is off)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:126
+msgid ":hwlabel:`SHIFT` + Jog Wheel (top surface)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:126
+msgid "Search fast through the track location."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:127
+msgid ":hwlabel:`SLIP` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:127
+msgid ""
+"Hold to turn on slip mode temporarily or double press to turn it on "
+"permanently."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:128
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SLIP` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:128
+msgid "Toggle vinyl control mode."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:129
+#: ../../hardware/controllers/roland_dj_505.rst:223
+msgid ":hwlabel:`SHIFT` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:129
+#: ../../hardware/controllers/roland_dj_505.rst:223
+msgid "Hold down to access other functions."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:130
+#: ../../hardware/controllers/roland_dj_505.rst:225
+msgid ":hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:130
+msgid ""
+"Short press to match tempo and phase of other deck once. Long press to "
+"enable :ref:`Sync Lock <sync-lock>`."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:131
+#: ../../hardware/controllers/roland_dj_505.rst:226
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:131
+msgid ""
+"Short press to disable :ref:`Sync Lock <sync-lock>`. Long press to toggle "
+":term:`quantization`."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:132
+#: ../../hardware/controllers/roland_dj_505.rst:133
+#: ../../hardware/controllers/roland_dj_505.rst:176
+#: ../../hardware/controllers/roland_dj_505.rst:240
+#: ../../hardware/controllers/roland_dj_505.rst:241
+#: ../../hardware/controllers/roland_dj_505.rst:374
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:132
+msgid ":hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:132
+msgid "Specifies, plays or recalls temporary cue point."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:133
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:133
+msgid "Returns to the beginning of the song."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:134
+#: ../../hardware/controllers/roland_dj_505.rst:135
+#: ../../hardware/controllers/roland_dj_505.rst:177
+#: ../../hardware/controllers/roland_dj_505.rst:242
+#: ../../hardware/controllers/roland_dj_505.rst:375
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:134
+msgid ":hwlabel:`PLAY/PAUSE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:134
+msgid "Plays or pause the song."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:135
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:135
+msgid "Hold to play backwards."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:136
+#: ../../hardware/controllers/roland_dj_505.rst:178
+#: ../../hardware/controllers/roland_dj_505.rst:376
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:136
+msgid "Pad Mode Select"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:136
+#: ../../hardware/controllers/roland_dj_505.rst:137
+#: ../../hardware/controllers/roland_dj_505.rst:138
+msgid "See :ref:`Performance Pads <roland-dj-505-performancepads>`."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:137
+#: ../../hardware/controllers/roland_dj_505.rst:179
+#: ../../hardware/controllers/roland_dj_505.rst:377
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:137
+#: ../../hardware/controllers/roland_dj_505.rst:248
+msgid "Performance Pads"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:138
+#: ../../hardware/controllers/roland_dj_505.rst:180
+#: ../../hardware/controllers/roland_dj_505.rst:293
+#: ../../hardware/controllers/roland_dj_505.rst:295
+#: ../../hardware/controllers/roland_dj_505.rst:319
+#: ../../hardware/controllers/roland_dj_505.rst:378
+#: ../../hardware/controllers/roland_dj_505.rst:405
+#: ../../hardware/controllers/roland_dj_505.rst:407
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:138
+msgid ":hwlabel:`PARAMETER` area"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:139
+#: ../../hardware/controllers/roland_dj_505.rst:140
+#: ../../hardware/controllers/roland_dj_505.rst:141
+#: ../../hardware/controllers/roland_dj_505.rst:142
+#: ../../hardware/controllers/roland_dj_505.rst:143
+#: ../../hardware/controllers/roland_dj_505.rst:144
+#: ../../hardware/controllers/roland_dj_505.rst:145
+#: ../../hardware/controllers/roland_dj_505.rst:146
+#: ../../hardware/controllers/roland_dj_505.rst:181
+#: ../../hardware/controllers/roland_dj_505.rst:294
+#: ../../hardware/controllers/roland_dj_505.rst:296
+#: ../../hardware/controllers/roland_dj_505.rst:320
+#: ../../hardware/controllers/roland_dj_505.rst:379
+#: ../../hardware/controllers/roland_dj_505.rst:406
+#: ../../hardware/controllers/roland_dj_505.rst:408
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:139
+msgid ":hwlabel:`LOOP` area: :hwlabel:`AUTO  LOOP` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:139
+msgid "Set a beatloop at the current play position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:140
+msgid ":hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`AUTO  LOOP` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:140
+msgid "Toggle looping."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:141
+msgid ":hwlabel:`LOOP` area: :hwlabel:`1/2X`/:hwlabel:`2X` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:141
+msgid "Set the loop playback length to half/double."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:142
+msgid ":hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`1/2X` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:142
+msgid "Move the loop by it’s length toward the left."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:143
+msgid ":hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`2X` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:143
+msgid "Move the loop by it’s length toward theright."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:144
+msgid ":hwlabel:`LOOP` area: :hwlabel:`IN`/:hwlabel:`OUT` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:144
+msgid "Specify loop-in/loop-out points."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:145
+msgid ":hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`IN` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:145
+msgid "Toggle beats quantization."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:146
+msgid ":hwlabel:`LOOP` area: :hwlabel:`SHIFT` + :hwlabel:`OUT` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:146
+msgid "Toggle looping, go to loop-in point and resume playback."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:147
+#: ../../hardware/controllers/roland_dj_505.rst:182
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:147
+msgid ":hwlabel:`DECK 3`/:hwlabel:`DECK  4` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:147
+msgid "Switches the deck (left: decks 1 and 3, right: decks 2 and 4)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:148
+#: ../../hardware/controllers/roland_dj_505.rst:149
+#: ../../hardware/controllers/roland_dj_505.rst:183
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:148
+msgid ":hwlabel:`KEY LOCK`"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:148
+msgid "Toggle key lock."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:149
+msgid ":hwlabel:`SHIFT` + :hwlabel:`KEY LOCK`"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:149
+msgid "Cycles through tempo slider range (8%, 16%, 50%)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:150
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:150
+msgid "Tempo slider"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:150
+msgid "Adjust song playback speed (and pitch if key lock if off)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:155
+msgid "Mixer Section (p. 7)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:164
+msgid "Roland DJ-505 (mixer section)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:169
+msgid ":hwlabel:`TRIM` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:169
+msgid "Adjust the deck gain (prefader)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:170
+msgid ":hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:170
+msgid "Adjust the high/mid/low-frequency regions of the song."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:171
+msgid ":hwlabel:`FILTER` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:171
+msgid ""
+"QuickEffect superknob (filter by default, can be changed to a different "
+"effect in Mixxx preferences)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:172
+msgid "Channel :hwlabel:`CUE` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:172
+msgid "Toggle PFL for each channel."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:173
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` buttons (short press)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:173
+msgid ""
+"Adjust beatgrid so that the closest beat is set to the current cursor "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:174
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` buttons (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:174
+msgid "Adjust beatgrid to match another playing deck."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:175
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` buttons (tap repeatedly)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:175
+msgid "Set tempo by tapping on each beat."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:176
+msgid "Channel faders"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:176
+msgid "Adjust the output level for each channel."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:177
+msgid "Cross fader"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:177
+msgid "Fades between left and right deck."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:178
+msgid ":hwlabel:`MASTER LEVEL` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:178
+msgid "Adjusts the main output level."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:179
+msgid ":hwlabel:`BOOTH LEVEL` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:179
+msgid "Adjusts the output level of the :hwlabel:`BOOTH OUT` jacks."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:180
+msgid ":hwlabel:`MIXING` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:180
+msgid "Fades between PFL and main output in headphones"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:181
+msgid ":hwlabel:`TR/SAMPLER LEVEL` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:181
+msgid "Adjusts output of the TR-S (Aux 3) and Samplers 1-16."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:182
+msgid ":hwlabel:`TR/SAMPLER CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:182
+msgid "Toggle PFL of the TR-S (Aux 3) and Samplers 1-16."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:183
+msgid "Level indicator"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:183
+msgid "Indicate the output level of each channel and main."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:188
+msgid "Effects Section (p. 7)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:197
+msgid "Roland DJ-505 (effects section)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:202
+msgid ":hwlabel:`CH ASSIGN` area"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:202
+msgid ""
+"Toggle effect units 1/2 for decks 1/2 (3/4 if :hwlabel:`SHIFT` is pressed) "
+"or the TR-S (Aux 3) and Samplers 1-16."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:203
+msgid "2-5"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:203
+#: ../../hardware/controllers/roland_dj_505.rst:227
+msgid "*Various*"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:203
+msgid "See :ref:`Standard Effects Mapping <controller-effects-mapping>`."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:208
+msgid "TR-S Section (p. 8)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:217
+msgid "Roland DJ-505 (TR-S section)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:222
+msgid ":hwlabel:`VALUE` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:222
+#: ../../hardware/controllers/roland_dj_505.rst:224
+#: ../../hardware/controllers/roland_dj_505.rst:227
+msgid "*See Owner’s Manual.*"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:224
+msgid "Display"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:225
+msgid ""
+"Match tempo of playing deck (phase matching is not implemented yet, use the "
+":hwlabel:`NUDGE` button instead)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:226
+msgid "*Currently not mapped.*"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:227
+msgid "5-17"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:231
+msgid "Front Panel (p. 8)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:236
+msgid ":hwlabel:`PHONES` jacks"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:236
+msgid "Connect headphones here."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:237
+msgid ":hwlabel:`VOLUME` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:237
+msgid "Adjust the volume of the headphones."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:238
+msgid ":hwlabel:`CROSS FADER` switch"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:238
+msgid "Switch the cross fader response curve."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:239
+msgid ":hwlabel:`REVERSE` switch"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:239
+msgid "Switch cross fader reverse (hamster) mode on/off."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:240
+msgid ":hwlabel:`CH1`/:hwlabel:`CH 2` switches: :hwlabel:`PC`"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:240
+msgid ""
+"Selects Mixxx deck as input source (Unmute the Mixxx deck and mute Aux 1/2)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:241
+msgid ":hwlabel:`CH1`/:hwlabel:`CH 2` :hwlabel:`LINE/PHONO`"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:241
+msgid ""
+"Selects Line/Phono input source (Mute the Mixxx deck and unmute Aux 1/2)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:242
+msgid ":hwlabel:`MIC LEVEL` knob"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:242
+msgid "Adjust the microphone volume."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:250
+msgid ""
+"You can use the Pad Mode Select buttons to select a mode for the performance"
+" pads."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:254
+msgid "Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:254
+msgid "LED Color"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:256
+msgid ":hwlabel:`HOT CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:256
+#: ../../hardware/controllers/roland_dj_505.rst:274
+msgid "Hot Cue Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:256
+msgid "White"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:257
+msgid ":hwlabel:`SHIFT` + :hwlabel:`HOT CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:257
+#: ../../hardware/controllers/roland_dj_505.rst:300
+msgid "Cue Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:257
+msgid "Blue"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:258
+msgid ":hwlabel:`SHIFT` + :hwlabel:`HOT CUE` button (press twice)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:258
+#: ../../hardware/controllers/roland_dj_505.rst:325
+msgid "Prepare Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:258
+#: ../../hardware/controllers/roland_dj_505.rst:261
+msgid "Red"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:259
+msgid ":hwlabel:`ROLL` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:259
+#: ../../hardware/controllers/roland_dj_505.rst:357
+msgid "Roll Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:259
+msgid "Light blue"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:260
+msgid ":hwlabel:`ROLL` button (press twice)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:260
+#: ../../hardware/controllers/roland_dj_505.rst:384
+msgid "Saved Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:260
+#: ../../hardware/controllers/roland_dj_505.rst:262
+#: ../../hardware/controllers/roland_dj_505.rst:266
+msgid "Green"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:261
+msgid ":hwlabel:`TR` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:261
+msgid "TR Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:262
+msgid ":hwlabel:`SHIFT` + :hwlabel:`TR` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:262
+msgid "Pattern Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:263
+msgid ":hwlabel:`TR` button (press twice)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:263
+msgid "TR Velocity Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:263
+msgid "Orange"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:264
+msgid ":hwlabel:`SAMPLER` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:264
+msgid "Sampler Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:264
+msgid "Magenta"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:265
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SAMPLER` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:265
+msgid "Velocity Sampler Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:265
+msgid "Purple"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:266
+msgid ":hwlabel:`SAMPLER` button (press twice)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:266
+#: ../../hardware/controllers/roland_dj_505.rst:443
+msgid "Pitch Play Mode"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:269
+msgid ""
+"Most pad modes are similar to those found when used with Serato. Modes that "
+"are described in the owner’s manual (Slicer, Slicer Loop, Flip) but not "
+"listed below are currently not mapped."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:283
+#: ../../hardware/controllers/roland_dj_505.rst:309
+#: ../../hardware/controllers/roland_dj_505.rst:334
+#: ../../hardware/controllers/roland_dj_505.rst:366
+#: ../../hardware/controllers/roland_dj_505.rst:393
+#: ../../hardware/controllers/roland_dj_505.rst:428
+#: ../../hardware/controllers/roland_dj_505.rst:452
+msgid "Roland DJ-505 (performance pads)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:285
+msgid "Bookmark positions in the track and jump to them."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:290
+#: ../../hardware/controllers/roland_dj_505.rst:291
+#: ../../hardware/controllers/roland_dj_505.rst:292
+#: ../../hardware/controllers/roland_dj_505.rst:316
+#: ../../hardware/controllers/roland_dj_505.rst:317
+#: ../../hardware/controllers/roland_dj_505.rst:318
+#: ../../hardware/controllers/roland_dj_505.rst:400
+#: ../../hardware/controllers/roland_dj_505.rst:401
+#: ../../hardware/controllers/roland_dj_505.rst:402
+#: ../../hardware/controllers/roland_dj_505.rst:403
+#: ../../hardware/controllers/roland_dj_505.rst:404
+#: ../../hardware/controllers/roland_dj_505.rst:435
+#: ../../hardware/controllers/roland_dj_505.rst:436
+#: ../../hardware/controllers/roland_dj_505.rst:437
+#: ../../hardware/controllers/roland_dj_505.rst:460
+#: ../../hardware/controllers/roland_dj_505.rst:461
+msgid "1-8"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:290
+#: ../../hardware/controllers/roland_dj_505.rst:318
+#: ../../hardware/controllers/roland_dj_505.rst:341
+#: ../../hardware/controllers/roland_dj_505.rst:343
+#: ../../hardware/controllers/roland_dj_505.rst:345
+#: ../../hardware/controllers/roland_dj_505.rst:347
+#: ../../hardware/controllers/roland_dj_505.rst:400
+#: ../../hardware/controllers/roland_dj_505.rst:435
+msgid "Pad (unlit)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:290
+msgid "Save current position as hot cue."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:291
+#: ../../hardware/controllers/roland_dj_505.rst:316
+#: ../../hardware/controllers/roland_dj_505.rst:342
+#: ../../hardware/controllers/roland_dj_505.rst:344
+#: ../../hardware/controllers/roland_dj_505.rst:346
+#: ../../hardware/controllers/roland_dj_505.rst:348
+#: ../../hardware/controllers/roland_dj_505.rst:401
+#: ../../hardware/controllers/roland_dj_505.rst:437
+msgid "Pad (lit)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:291
+msgid ""
+"Jump to hot cue. If the track is stopped, holding the pad will preview the "
+"hot cue until the pad is released."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:292
+#: ../../hardware/controllers/roland_dj_505.rst:317
+#: ../../hardware/controllers/roland_dj_505.rst:436
+msgid ":hwlabel:`SHIFT` + Pad (lit)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:292
+msgid "Clear hot cue."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:293
+#: ../../hardware/controllers/roland_dj_505.rst:319
+#: ../../hardware/controllers/roland_dj_505.rst:378
+#: ../../hardware/controllers/roland_dj_505.rst:405
+#: ../../hardware/controllers/roland_dj_505.rst:407
+msgid ":hwlabel:`PARAMETER -` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:293
+#: ../../hardware/controllers/roland_dj_505.rst:405
+msgid "Change color of last used hotcue to the previous color in the palette."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:294
+#: ../../hardware/controllers/roland_dj_505.rst:320
+#: ../../hardware/controllers/roland_dj_505.rst:379
+#: ../../hardware/controllers/roland_dj_505.rst:406
+#: ../../hardware/controllers/roland_dj_505.rst:408
+msgid ":hwlabel:`PARAMETER +` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:294
+#: ../../hardware/controllers/roland_dj_505.rst:406
+msgid "Change color of last used hotcue to the next color in the palette."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:295
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER -` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:295
+msgid "Move beatgrid left."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:296
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER +` button"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:296
+msgid "Move beatgrid right."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:311
+msgid "Set beatloop from a hot cue point."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:316
+msgid "Set a beatloop at the position of the hotcue."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:317
+msgid "Set a beatloop at the position of the hotcue and jump to it."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:318
+msgid "Save the current position as hot cue and set a beatloop."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:319
+#: ../../hardware/controllers/roland_dj_505.rst:378
+#: ../../hardware/controllers/roland_dj_505.rst:407
+msgid "Halve the size of the current loop."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:320
+#: ../../hardware/controllers/roland_dj_505.rst:379
+#: ../../hardware/controllers/roland_dj_505.rst:408
+msgid "Double the size of the current loop."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:321
+#: ../../hardware/controllers/roland_dj_505.rst:350
+#: ../../hardware/controllers/roland_dj_505.rst:380
+#: ../../hardware/controllers/roland_dj_505.rst:438
+#: ../../hardware/controllers/roland_dj_505.rst:462
+msgid "9-10"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:321
+#: ../../hardware/controllers/roland_dj_505.rst:350
+#: ../../hardware/controllers/roland_dj_505.rst:380
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER -/+` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:321
+#: ../../hardware/controllers/roland_dj_505.rst:349
+#: ../../hardware/controllers/roland_dj_505.rst:350
+#: ../../hardware/controllers/roland_dj_505.rst:380
+#: ../../hardware/controllers/roland_dj_505.rst:438
+msgid "*Currently not mapped*."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:336
+msgid "This mode allow you to prepare tracks by setting intro/outro cues."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:341
+msgid "Set current position as intro start."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:342
+msgid "Jump to intro start position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:343
+msgid "Set current position as intro end."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:344
+msgid "Jump to intro end position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:345
+msgid "Set current position as outro start."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:346
+msgid "Jump to outro start position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:347
+msgid "Set current position as outro end."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:348
+msgid "Jump to outro end position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:349
+msgid "5-8"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:349
+#: ../../hardware/controllers/roland_dj_505.rst:460
+msgid "Pad"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:353
+msgid ""
+"This mode has been added by the Mixxx developers and is not available in "
+"Serato."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:368
+msgid "The Roll Mode provides quick access to rolling loops and beatjumps."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:373
+msgid "1-4"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:373
+msgid "Pad (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:373
+msgid "Play a rolling loop with the beatlength that is assigned to the pad."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:374
+#: ../../hardware/controllers/roland_dj_505.rst:375
+#: ../../hardware/controllers/roland_dj_505.rst:376
+#: ../../hardware/controllers/roland_dj_505.rst:377
+msgid "Pad (press)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:374
+msgid "Beatjump left."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:375
+msgid "Decrease beatjump size."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:376
+msgid "Increase beatjump size."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:377
+msgid "Beatjump right."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:395
+msgid "Save and restore saved loops."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:400
+msgid ""
+"If a loop is enabled, save that loop into the hotcue slot. If no loop is "
+"enabled, set a beatloop from the current position and save it."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:401
+msgid "Enable saved loop."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:402
+msgid "Pad (blinking)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:402
+msgid "Disable saved loop."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:403
+msgid ":hwlabel:`SHIFT` + Pad (lit/blinking)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:403
+msgid "Enable saved loop and jump to the loop start position."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:404
+msgid ":hwlabel:`SHIFT` + Pad (lit/blinking, long press)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:404
+msgid "Delete saved loop from hotcue slot."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:412
+msgid "TR/Pattern/TR Velocity Modes"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:414
+msgid ""
+"These modes are hardcoded in the device firmware, so they work exactly as "
+"described in the Owner’s Manual."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:419
+msgid "Sampler/Velocity Sampler Play Modes"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:430
+msgid ""
+"The sampler modes allow you to load, play and stop samples in the first 8 "
+"sample slots."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:435
+msgid ""
+"Load currently selected track into the sample slot associated with the pad."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:436
+msgid ""
+"If the sample is playing, stop the playback. If the sample is not playing, "
+"eject the sample from the sample slot."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:437
+msgid ""
+"Play the sample in the sample slot associated with the pad. *Velocity "
+"Sampler Mode*: The playback volume of the sample depends on the pressure "
+"(velocity)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:438
+#: ../../hardware/controllers/roland_dj_505.rst:462
+msgid ":hwlabel:`PARAMETER -/+` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:454
+msgid ""
+"Play the track from a hot cue position and change the pitch in semitone "
+"steps. Pads right of the white lit pad raise the pitch, pads left of it "
+"lower it."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:460
+msgid "Play currently selected hotcue with modified pitch."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:461
+msgid ":hwlabel:`SHIFT` + Pad (dimly lit)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:461
+msgid ""
+"Select hot cue for pitch play. The pad of the currently selected hotcue pad "
+"is lit."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:462
+msgid "Cycles through semitone ranges (Up, Mid, Down)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:466
+msgid "Known Issues"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:468
+msgid ""
+"TR-S Syncing currently works at the :term:`BPM` level, but phase syncing is "
+"not implemented yet. As a workaround, the :hwlabel:`NUDGE` button can be "
+"used to adjust the phase. This depends on :term:`MIDI` clock I/O (`Bug #5682"
+" <https://github.com/mixxxdj/mixxx/issues/5682>`__)."
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:471
+msgid ""
+"Some performance pad modes are missing (Slicer [`Launchpad Bug #9660 "
+"<https://github.com/mixxxdj/mixxx/issues/9660>`__], Slicer Loop, Flip "
+"[`Launchpad Bug #9271 <https://github.com/mixxxdj/mixxx/issues/9271>`__])"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:475
+msgid "Some buttons are not mapped yet (e.g. :hwlabel:`BACK`)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:476
+msgid ""
+"LEDs on :hwlabel:`BACK`/:hwlabel:`ADD PREPARE` do not work (this seems to be"
+" a hardware/firmware bug and does not work in Serato either)"
+msgstr ""
+
+#: ../../hardware/controllers/roland_dj_505.rst:478
+msgid ""
+"Controller does not send current cross fader value on Serato SysEx Message "
+"(this seems to be a hardware/firmware bug and does not work in Serato "
+"either)"
+msgstr ""

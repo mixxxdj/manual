@@ -1,0 +1,633 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-08 20:41+0100\n"
+"PO-Revision-Date: 2022-09-05 05:41+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7664/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/numark_n4.rst:2
+msgid "Numark N4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:4
+msgid ""
+"The Numark N4 is a 4-deck DJ controller with seamless integration of "
+"external devices."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:6
+msgid "`Manufacturer’s product page <http://www.numark.com/product/n4>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:7
+msgid "`Wiki page <https://github.com/mixxxdj/mixxx/wiki/Numark-N4>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:12
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:21
+msgid "Numark N4 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:24
+msgid ""
+"This mapping has some unusual features like per Deck shift buttons and "
+"multiple pages of hotcues. An annotated, ready-to-print overlay of this "
+"mapping can be downloaded for :download:`DIN "
+"A3<../../_static/controllers/numark_n4_overlay_a3.pdf>` and :download:`DIN "
+"A4<../../_static/controllers/numark_n4_overlay_a4.pdf>` printers."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:29
+msgid "Definable Settings"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:31
+msgid ""
+"Some settings in the script can be changed by editing them at the top of the"
+" script."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:33
+msgid ""
+"**searchAmplification** Defines the speedup-factor used when using the "
+"searchbutton and scrolling."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:34
+#: ../../hardware/controllers/numark_n4.rst:38
+#: ../../hardware/controllers/numark_n4.rst:42
+#: ../../hardware/controllers/numark_n4.rst:46
+msgid "*type:* number"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:35
+msgid "*range:* ]0;+∞["
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:37
+msgid ""
+"**warnAfterTime** Time in seconds before the end of the track in which the "
+"controller should warn you."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:39
+msgid "*range:* [0;+∞]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:41
+msgid "**blinkInterval** Timeinterval for the triangular Leds in ms"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:43
+msgid "*range:* [20;+∞["
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:45
+msgid ""
+"**encoderResolution** Percent how much the value changes with each encoder "
+"tick"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:47
+msgid "*range:* ]0;1]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:49
+msgid ""
+"**resetHotCuePageOnTrackLoad** The Hotcuepage should be reset to 1 when a "
+"new Track is loaded into the Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:50
+#: ../../hardware/controllers/numark_n4.rst:54
+msgid "*type:* boolean"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:51
+#: ../../hardware/controllers/numark_n4.rst:55
+msgid "*range:* true or false"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:53
+msgid "**cueReverseRoll** If [SHIFT]+[CUE] should trigger a reverse_roll"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:57
+msgid "**rateRanges** An array of rateRanges in percent"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:58
+msgid "*type:* array"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:59
+msgid "*range:* ]0;3]"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:62
+msgid "Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:64
+msgid ""
+"The Deck consists of the jogwheel, play, cue, the topContainer (which hold "
+"the eight square buttons and the four encoders), pitchslider, pitchrange, "
+"search, keylock, tap, sync and pitchbend ±."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:67
+msgid "Special Features"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:69
+msgid ""
+"The mapping features some peculiar features which might not be discoverable "
+"by standard trial-and-error."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:72
+msgid "Shift"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:74
+msgid ""
+"A shift button is bound to its Deck, which means that you can’t use the "
+"shift button of Deck1 to access a shifted function on any of the other three"
+" Decks. Moreover the shiftbuttons can also work as toggle switches instead "
+"of pushbuttons (enabled via components.js Button.type.powerWindow). This "
+"means that if the shiftbutton is pressed for a longer period than 275ms it "
+"will bounce back to its original state (like a regular shift-/pushbutton). "
+"If the Button was pressed for a shorter period than 275ms, the button will "
+"remain in that state until it is pressed again (like a toggling button)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:79
+#: ../../hardware/controllers/numark_n4.rst:156
+msgid "Hotcues"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:81
+msgid ""
+"The four lower buttons of the topContainer are hotcues. They can be changed "
+"by using the corresponding Encoder [HOTCUE PAGE]. The current assignment "
+"will then be shown for one second in the upper row. Currently up to 4 Pages "
+"are supported (with 4 hotcues each)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:85
+msgid "Controls"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:87
+msgid ""
+"Most of these controls behave as expected but they are listed in detail for "
+"the sake of completeness anyways."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:90
+msgid "Play"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:92
+msgid "Default: Starts regular Play."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:93
+msgid "Shifted: Plays Track in reverse."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:96
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:98
+msgid "Default: Standard Cue."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:99
+msgid ""
+"Shifted: reverse roll if shift is enabled (plays in reverse end enables "
+"slip) otherwise standard cue."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:102
+msgid "Pitchbend ±"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:104
+msgid "Default: Change rate temporarily."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:105
+msgid "Shifted: Change rate temporarily small."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:108
+msgid "Sync"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:110
+msgid "Default: Momentary BPM Sync"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:111
+msgid "\\* Short Press: Momentary BPM & Phase Sync"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:113
+msgid "Long Press: Toggle Sync Lock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:115
+msgid "Shifted: Toggles magnet (quantize)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:118
+msgid "Tap"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:120
+msgid "Default: Tap the desired BPM of the Channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:121
+#: ../../hardware/controllers/numark_n4.rst:140
+#: ../../hardware/controllers/numark_n4.rst:146
+msgid "Shifted: ^^"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:122
+msgid ""
+"Note: This functionality is broken until `#1811 "
+"<https://github.com/mixxxdj/mixxx/pull/1811>`__ gets merged"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:125
+msgid "Search/Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:127
+msgid ""
+"Default: Enable Scratching (otherwise it just works just like moving the Jog"
+" without the platter)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:128
+msgid "Shifted: Speeds up platter movement for searching within the track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:131
+msgid "Keylock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:133
+msgid "Default: Toggles track keylock"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:134
+msgid "Shifted: Syncs Key"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:137
+msgid "Pitch Range"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:139
+msgid "Default: Cycles Through pitchranges"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:143
+msgid "Pitch/Bpm slider"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:145
+msgid ""
+"Default: Normal Pitchslider (Down plays faster; can be changed in the global"
+" mixxx preferences)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:149
+msgid "TopContainer"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:151
+msgid ""
+"The TopContainer holds four assignable Hotcue buttons, four loop buttons, "
+"which can enable FX via Shift, and four Encoderknobs."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:158
+msgid "Default: set/active Hotcue_X"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:159
+msgid "Shift: clear Hotcue_X"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:160
+msgid ""
+"*visit*\\ `#special_features <#special_features>`__\\ *for more info on how "
+"these work*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:163
+msgid "Loop In"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:165
+msgid "Default: Presses the Loop In button like in the UI"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:166
+msgid "Shifted: Toggles EffectRack1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:169
+msgid "Loop Out"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:171
+msgid "Default: Presses the Loop Out button like in the UI"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:172
+msgid "Shifted: Toggles EffectRack2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:175
+msgid "Loop Here"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:177
+msgid "Default: Creates a loop at the current position of current Loop Size."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:178
+msgid "Shifted: Toggles Slip"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:181
+msgid "Reloop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:183
+msgid "Default: De-/Re-activates the last loop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:184
+msgid "Shifted: Jumps to start of last loop and stops playback there"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:187
+msgid "FX1 Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:189
+msgid "Default: Controls the Super Knob on EffectRack1."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:190
+msgid "Shifted: Controls the Mix Knob on EffectRack1."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:193
+msgid "FX2 Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:195
+msgid "Default: Controls the Super Knob on EffectRack2."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:196
+msgid "Shifted: Controls the Mix Knob on EffectRack2."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:199
+msgid "Hotcue Page"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:201
+msgid ""
+"Default: visit `#special_features <#special_features>`__ for more info on "
+"what this encoder does"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:202
+msgid "Shifted: Double/Halve current Loop Size"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:205
+msgid "Beat Jump"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:207
+msgid "Default: Jump in the direction turned"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:208
+msgid "Shifted: Double/Halve current Beat Jump Size"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:211
+msgid "Mixer"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:213
+msgid ""
+"The Mixer features four channels with identical functionality and controls "
+"for the library and other miscellaneous features."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:216
+msgid "Channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:218
+msgid ""
+"A channel consists of a volume fader, a gain knob, knobs for low,mid,high EQ"
+" a Loadbutton and a pflButton. These are internally still part of the Deck "
+"which is why the shiftbutton of Deck 1 won’t work with the Loadbutton or "
+"gainknob of Deck2/3/4."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:222
+msgid "Volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:224
+msgid "Default: Channel Volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:229
+msgid "CUE"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:231
+msgid "Default: Channel Pre-Fader-Listening"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:233
+msgid ""
+"*these work as usual on the N4: Clicking another one deselect all other. "
+"Press multiple at the same Time to PFL multiple Channels*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:236
+msgid "BASS"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:238
+msgid "Default: EQ Low"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:241
+msgid "MID"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:243
+msgid "Default: EQ Mid"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:246
+msgid "TREBLE"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:248
+msgid "Default: EQ High"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:251
+msgid "GAIN"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:253
+msgid "Default: Gain"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:254
+msgid "Shifted: QuickEffect1 (Usually Filter)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:257
+msgid "LOAD"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:259
+msgid "Default: Load Track into Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:260
+msgid "Shifted: Eject Track from Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:263
+msgid "Library"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:265
+msgid ""
+"The Library is managed via the Library Encoder. **Any** shiftbutton can be "
+"used to access shift functionanly"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:268
+msgid "Turn"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:270
+msgid "Default: Move Library Cursor Vertically"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:271
+msgid "Shifted: Move Focus between panes"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:272
+msgid ""
+"*sometimes the focus is stuck somewhere (eg when using the searchbox) and is"
+" only recoverable with user intervention via a pointing device.*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:274
+msgid ""
+"**Button** Default: Open/Close Folder / Load Item into first available Deck "
+"(Context-dependent)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:275
+msgid "Shift: Maximize Library"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:278
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:281
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:283
+msgid ""
+"The Crossfader and its assignment buttons are integrated seamlessly with "
+"Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:286
+msgid "Line/PC Input Source"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:288
+msgid ""
+"Function as expected: Mutes the corresponding Deck in Mixxx if set to Line."
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:291
+msgid "Crossfader Contour"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:293
+msgid ""
+"Normal: Uses the crossfader parameters that were present when the mapping "
+"was loaded Scratch: Uses Scratch typical parameters for hard cuts"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:296
+msgid "Cue-Master Mix"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:298
+msgid ""
+"Doesn’t manipulate the mixxx controls. Make sure the head gain is not zero "
+"and the mix is set to 100% PFL"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:301
+msgid "Cue Volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:303
+msgid "Make sure its high enough within mixxx"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:306
+msgid "Booth/Gain Volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_n4.rst:308
+msgid "Behaves as espected (but doesn’t manipulate any mixxx controls)."
+msgstr ""

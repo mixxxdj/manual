@@ -1,0 +1,904 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Finnish (https://app.transifex.com/mixxx-dj-software/teams/7664/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:2
+msgid "Denon MC6000MK2"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:4
+msgid ""
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20180712070421/http://denondj.com/products/view/mc6000mk2>`__"
+" (archived)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:5
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/denon-mc6000mk2/14242>`__"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:6
+msgid "`Mixxx maintainer <https://github.com/uklotzde>`__"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:10
+msgid ""
+"The number in the first column refers to the corresponding label in the "
+"*Owner’s Manual* in the chapter *Part names and functions* starting on page "
+"20."
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:13
+msgid "# User Manual"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:13
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:13
+msgid "Modifier"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:13
+msgid "Context"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:13
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:15
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:15
+msgid "BEATS/V.FX SEL."
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:15
+#: ../../hardware/controllers/denon_mc6000mk2.rst:72
+msgid "Knob is turned"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:15
+msgid "Effect unit dry/wet mix"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:16
+#: ../../hardware/controllers/denon_mc6000mk2.rst:21
+#: ../../hardware/controllers/denon_mc6000mk2.rst:23
+#: ../../hardware/controllers/denon_mc6000mk2.rst:25
+#: ../../hardware/controllers/denon_mc6000mk2.rst:27
+#: ../../hardware/controllers/denon_mc6000mk2.rst:28
+#: ../../hardware/controllers/denon_mc6000mk2.rst:29
+#: ../../hardware/controllers/denon_mc6000mk2.rst:31
+#: ../../hardware/controllers/denon_mc6000mk2.rst:33
+#: ../../hardware/controllers/denon_mc6000mk2.rst:35
+#: ../../hardware/controllers/denon_mc6000mk2.rst:36
+#: ../../hardware/controllers/denon_mc6000mk2.rst:38
+#: ../../hardware/controllers/denon_mc6000mk2.rst:39
+#: ../../hardware/controllers/denon_mc6000mk2.rst:40
+#: ../../hardware/controllers/denon_mc6000mk2.rst:41
+#: ../../hardware/controllers/denon_mc6000mk2.rst:47
+#: ../../hardware/controllers/denon_mc6000mk2.rst:51
+#: ../../hardware/controllers/denon_mc6000mk2.rst:53
+#: ../../hardware/controllers/denon_mc6000mk2.rst:55
+#: ../../hardware/controllers/denon_mc6000mk2.rst:57
+#: ../../hardware/controllers/denon_mc6000mk2.rst:58
+#: ../../hardware/controllers/denon_mc6000mk2.rst:60
+#: ../../hardware/controllers/denon_mc6000mk2.rst:61
+#: ../../hardware/controllers/denon_mc6000mk2.rst:69
+#: ../../hardware/controllers/denon_mc6000mk2.rst:71
+#: ../../hardware/controllers/denon_mc6000mk2.rst:73
+#: ../../hardware/controllers/denon_mc6000mk2.rst:74
+#: ../../hardware/controllers/denon_mc6000mk2.rst:75
+#: ../../hardware/controllers/denon_mc6000mk2.rst:77
+#: ../../hardware/controllers/denon_mc6000mk2.rst:85
+msgid "\\"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:16
+#: ../../hardware/controllers/denon_mc6000mk2.rst:74
+msgid "Knob is pressed"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:16
+msgid "Focus/unfocus effect unit"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:17
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:17
+msgid "TAP"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:17
+#: ../../hardware/controllers/denon_mc6000mk2.rst:20
+#: ../../hardware/controllers/denon_mc6000mk2.rst:22
+#: ../../hardware/controllers/denon_mc6000mk2.rst:24
+#: ../../hardware/controllers/denon_mc6000mk2.rst:26
+#: ../../hardware/controllers/denon_mc6000mk2.rst:28
+#: ../../hardware/controllers/denon_mc6000mk2.rst:30
+#: ../../hardware/controllers/denon_mc6000mk2.rst:32
+#: ../../hardware/controllers/denon_mc6000mk2.rst:34
+#: ../../hardware/controllers/denon_mc6000mk2.rst:35
+#: ../../hardware/controllers/denon_mc6000mk2.rst:37
+#: ../../hardware/controllers/denon_mc6000mk2.rst:38
+#: ../../hardware/controllers/denon_mc6000mk2.rst:39
+#: ../../hardware/controllers/denon_mc6000mk2.rst:46
+#: ../../hardware/controllers/denon_mc6000mk2.rst:50
+#: ../../hardware/controllers/denon_mc6000mk2.rst:52
+#: ../../hardware/controllers/denon_mc6000mk2.rst:54
+#: ../../hardware/controllers/denon_mc6000mk2.rst:57
+#: ../../hardware/controllers/denon_mc6000mk2.rst:60
+#: ../../hardware/controllers/denon_mc6000mk2.rst:68
+#: ../../hardware/controllers/denon_mc6000mk2.rst:70
+#: ../../hardware/controllers/denon_mc6000mk2.rst:72
+#: ../../hardware/controllers/denon_mc6000mk2.rst:74
+#: ../../hardware/controllers/denon_mc6000mk2.rst:76
+#: ../../hardware/controllers/denon_mc6000mk2.rst:84
+msgid "NONE"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:17
+msgid "Toggle (enable/disable) EFX unit"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:18
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:18
+msgid "EFX 1/2/3 KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:18
+msgid "Effect meta knob"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:19
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:19
+msgid "EFX 1/2/3 ON"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:19
+msgid "Enable/disable effect"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:20
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:20
+msgid "EFX CH. ASSIGN"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:20
+msgid "Assign/unassign deck"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:21
+#: ../../hardware/controllers/denon_mc6000mk2.rst:23
+#: ../../hardware/controllers/denon_mc6000mk2.rst:25
+#: ../../hardware/controllers/denon_mc6000mk2.rst:27
+#: ../../hardware/controllers/denon_mc6000mk2.rst:29
+#: ../../hardware/controllers/denon_mc6000mk2.rst:31
+#: ../../hardware/controllers/denon_mc6000mk2.rst:33
+#: ../../hardware/controllers/denon_mc6000mk2.rst:36
+#: ../../hardware/controllers/denon_mc6000mk2.rst:40
+#: ../../hardware/controllers/denon_mc6000mk2.rst:41
+#: ../../hardware/controllers/denon_mc6000mk2.rst:43
+#: ../../hardware/controllers/denon_mc6000mk2.rst:47
+#: ../../hardware/controllers/denon_mc6000mk2.rst:51
+#: ../../hardware/controllers/denon_mc6000mk2.rst:53
+#: ../../hardware/controllers/denon_mc6000mk2.rst:55
+#: ../../hardware/controllers/denon_mc6000mk2.rst:58
+#: ../../hardware/controllers/denon_mc6000mk2.rst:61
+#: ../../hardware/controllers/denon_mc6000mk2.rst:69
+#: ../../hardware/controllers/denon_mc6000mk2.rst:71
+#: ../../hardware/controllers/denon_mc6000mk2.rst:73
+#: ../../hardware/controllers/denon_mc6000mk2.rst:75
+#: ../../hardware/controllers/denon_mc6000mk2.rst:77
+#: ../../hardware/controllers/denon_mc6000mk2.rst:85
+msgid "SHIFT"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:21
+msgid "Assign deck exclusively"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:22
+#: ../../hardware/controllers/denon_mc6000mk2.rst:24
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:22
+msgid "LOOP IN"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:22
+msgid "Set loop in point"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:23
+#: ../../hardware/controllers/denon_mc6000mk2.rst:29
+msgid "Delete loop"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:24
+msgid "LOOP OUT"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:24
+msgid "Set loop out point"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:25
+msgid "Delete loop out point"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:26
+#: ../../hardware/controllers/denon_mc6000mk2.rst:30
+#: ../../hardware/controllers/denon_mc6000mk2.rst:32
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:26
+msgid "AUTO LOOP"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:26
+#: ../../hardware/controllers/denon_mc6000mk2.rst:27
+msgid "Loop is undefined"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:26
+msgid "Activate a loop over beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:27
+msgid "Activate a rolling loop over beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:28
+#: ../../hardware/controllers/denon_mc6000mk2.rst:29
+msgid "Loop is defined"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:28
+msgid "Toggle reloop"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:30
+msgid "LOOP +"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:30
+msgid "Double beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:31
+msgid "Move loop forward by beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:32
+msgid "LOOP -"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:32
+msgid "Halve beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:33
+msgid "Move loop backward by beatloop size beats"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:34
+#: ../../hardware/controllers/denon_mc6000mk2.rst:37
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:34
+msgid "HOT CUE 1/2/3/4"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:34
+#: ../../hardware/controllers/denon_mc6000mk2.rst:47
+#: ../../hardware/controllers/denon_mc6000mk2.rst:56
+#: ../../hardware/controllers/denon_mc6000mk2.rst:59
+msgid "Deck is stopped"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:34
+msgid "Jump to hot cue and start playing while pressed"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:35
+#: ../../hardware/controllers/denon_mc6000mk2.rst:57
+#: ../../hardware/controllers/denon_mc6000mk2.rst:58
+#: ../../hardware/controllers/denon_mc6000mk2.rst:60
+#: ../../hardware/controllers/denon_mc6000mk2.rst:61
+msgid "Deck is playing"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:35
+msgid "Jump to hot cue"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:36
+msgid "Delete hot cue"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:37
+msgid "SAMPLE 1/2/3/4"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:37
+msgid "Sampler is empty"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:37
+msgid "Load selected track into sampler"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:38
+#: ../../hardware/controllers/denon_mc6000mk2.rst:41
+msgid "Press button"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:38
+msgid "Play track from beginning while pressed"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:39
+#: ../../hardware/controllers/denon_mc6000mk2.rst:40
+msgid "Release button"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:39
+msgid "Stop playback"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:40
+msgid "Continue playback"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:41
+msgid "Eject track from sampler"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:42
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:42
+msgid "DECK"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:42
+msgid "Switch active deck"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:43
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:43
+msgid ""
+"Modifier that activates a 2nd layer of functions. It does not matter which "
+"of the two shift buttons is pressed."
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:44
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:44
+msgid "KEY LOCK"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:44
+msgid "Enable/disable key lock mode"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:45
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:45
+msgid "HOT CUE / SAMPLE"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:45
+msgid "Switch between hot cues and samplers"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:46
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:46
+msgid "JOG WHEEL"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:46
+msgid "Bend or scratch (vinyl mode)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:47
+msgid "Fast track seek (wheel search)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:48
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:48
+msgid "PITCH SLIDER"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:48
+msgid "Change playback speed"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:49
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:49
+msgid "SYNC"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:49
+msgid "Trigger sync mode by short/long press"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:50
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:50
+msgid "CUE"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:50
+msgid "Trigger cue according to configured cue mode"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:51
+msgid "Stop playback and jump to beginning of track"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:52
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:52
+msgid "PLAY"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:52
+msgid "Start/stop/continue playback"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:53
+msgid "Reverse playback direction"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:54
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:54
+msgid "SLIP/CENSOR"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:54
+msgid "Censor: Enable reverse and slip mode while pressed"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:55
+msgid "Toggle (enable/disable) slip mode permanently"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:56
+#: ../../hardware/controllers/denon_mc6000mk2.rst:59
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:56
+msgid "PITCH BEND +"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:56
+msgid "Fast forward"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:57
+msgid "Pitch bend up"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:58
+msgid "Pitch bend up (small)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:59
+msgid "PITCH BEND -"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:59
+msgid "Fast rewind"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:60
+msgid "Pitch bend down"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:61
+msgid "Pitch bend down (small)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:62
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:62
+msgid "VINYL"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:62
+msgid "Enable/disable vinyl mode (scratching)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:63
+msgid "23"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:63
+msgid "X-F LINK"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:63
+#: ../../hardware/controllers/denon_mc6000mk2.rst:64
+#: ../../hardware/controllers/denon_mc6000mk2.rst:65
+#: ../../hardware/controllers/denon_mc6000mk2.rst:66
+#: ../../hardware/controllers/denon_mc6000mk2.rst:80
+#: ../../hardware/controllers/denon_mc6000mk2.rst:81
+#: ../../hardware/controllers/denon_mc6000mk2.rst:82
+#: ../../hardware/controllers/denon_mc6000mk2.rst:83
+msgid "*Not yet mapped*"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:64
+msgid "21"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:64
+msgid "PANEL"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:65
+msgid "22"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:65
+msgid "VIEW"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:66
+msgid "24"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:66
+msgid "AREA"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:67
+msgid "25"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:67
+msgid "LIST"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:67
+msgid "Toggle maximized library view"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:68
+#: ../../hardware/controllers/denon_mc6000mk2.rst:70
+msgid "26"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:68
+msgid "BACK"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:68
+msgid "Scroll up"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:69
+#: ../../hardware/controllers/denon_mc6000mk2.rst:75
+msgid "Move focus backward to previous panel"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:70
+msgid "FWD"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:70
+msgid "Scroll down"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:71
+msgid "Move focus forward to next panel"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:72
+msgid "27"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:72
+msgid "SELECT KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:72
+msgid "Move through focused panel/list"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:73
+msgid "Scroll through focused panel/list"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:74
+msgid "Go to the selected item"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:76
+msgid "28"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:76
+msgid "LOAD"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:76
+msgid "Load selected track into active deck"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:77
+msgid "Eject loaded track from active deck"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:78
+msgid "29"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:78
+msgid "FILTER ON"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:78
+msgid "Enable/disable filter effect for deck 1/3 or 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:79
+msgid "30"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:79
+msgid "FILTER KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:79
+msgid "Control filter effect (low/high pass) for deck 1/3 or 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:80
+msgid "31"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:80
+msgid "MIC LEVEL 1/2"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:81
+msgid "32"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:81
+msgid "MIC ON 1/2"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:82
+msgid "33"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:82
+msgid "MIC DUCKING"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:83
+msgid "34"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:83
+msgid "MIC ECHO ON 1/2"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:84
+msgid "35"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:84
+msgid "CUE MIX"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:84
+msgid "Enable/disable cue mix"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:85
+msgid "Enable solo cue mix (only this channel)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:86
+msgid "36"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:86
+msgid "VU METER DISP. SWITCH"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:86
+msgid "Select channel(s) for display"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:87
+msgid "37"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:87
+msgid "CHANNEL FADER"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:87
+msgid "Control channel output volume"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:88
+msgid "38"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:88
+msgid "CROSS FADER"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:88
+msgid "Control balance between assigned channels"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:89
+msgid "39"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:89
+msgid "VU METER"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:89
+msgid "Display channel/main output volume"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:90
+msgid "40"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:90
+msgid "BOOTH ASSIGN"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:90
+msgid "Select source for booth output"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:91
+msgid "41"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:91
+msgid "BOOTH LEVEL"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:91
+msgid "Control booth output volume"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:92
+msgid "42"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:92
+msgid "MASTER LEVEL"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:92
+msgid "Control main output volume"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:93
+#: ../../hardware/controllers/denon_mc6000mk2.rst:94
+#: ../../hardware/controllers/denon_mc6000mk2.rst:95
+msgid "43"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:93
+msgid "HI KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:93
+msgid "Control channel EQ (high freq.)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:94
+msgid "MID KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:94
+msgid "Control channel EQ (mid. freq.)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:95
+msgid "LOW KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:95
+msgid "Control channel EQ (low freq.)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:96
+msgid "44"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:96
+msgid "LEVEL KNOB"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:96
+msgid "Control channel gain"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:97
+msgid "45"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:97
+msgid "CHANNEL INPUT SELECT"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc6000mk2.rst:97
+msgid "Select channel input source"
+msgstr ""

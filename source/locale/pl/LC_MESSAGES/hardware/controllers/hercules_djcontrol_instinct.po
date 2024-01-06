@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7664/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:2
+msgid "Hercules DJControl Instinct (S)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:4
+msgid ""
+"This is the cheapest all-in-one controller with an integrated sound card. "
+"The DJControl Instinct S is functionally identical to the DJ Control "
+"Instinct, but has a brushed stainless finish."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:8
+msgid ""
+"`Manufacturer's product page "
+"<https://support.hercules.com/en/product/djcontrolinstinct-en/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:9
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/hercules-dj-control-"
+"instinct/12623>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:14
+msgid "Setup"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:16
+msgid ""
+"The controller is a class compliant MIDI controller, so you should be able "
+"to just plug it in and it should be recognized in Mixxx. No need for "
+"drivers."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:20
+msgid ""
+"Make sure to select the correct mapping for the controller and enable it."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:23
+msgid "Audio Channels"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:25
+msgid ""
+"There are two outputs on the controller itself: the headphones output with "
+"builtin volume control on the side facing you and the speakers output."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:29
+msgid ""
+"In Mixxx the headphones output is on channels 3 and 4, so select the "
+"“Channels 3-4” item to get stereo output. The speakers output is on channels"
+" 1 and 2, so to get stereo output you want to select the “Channels 1-2” "
+"item."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:35
+msgid "Controls"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:44
+msgid "Hercules DJControl Instinct (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:44
+msgid ""
+"Hercules DJControl Instinct (schematic view). This picture is taken from "
+"`product poster "
+"<http://ts.hercules.com/download/sound/manuals/DJ_Instinct/Poster/Poster_DJCInstinct_UK.pdf>`__"
+" (courtesy of Guillemot Corporation S.A.)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:46
+msgid "Jog Wheel for the deck on the side of the wheel"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:47
+msgid ""
+"Action buttons for the deck on the side of the controls, depending on the "
+"mode they do the following:"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:50
+msgid "Hot Cue:"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:52
+msgid "**1:** Set and play (by holding it) from Hot Cue 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:53
+msgid "**2:** Set and play (by holding it) from Hot Cue 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:54
+msgid "**3:** Reset Hot Cue 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:55
+msgid "**4:** Reset Hot Cue 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:57
+msgid "Loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:59
+msgid "**1:** Set Loop start"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:60
+msgid "**2:** Set loop end"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:61
+msgid "**3:** Shrink loop (halves it)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:62
+msgid "**4:** Exit loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:64
+msgid "Effect"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:66
+msgid "**1:** Toggle Effect 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:67
+msgid "**2:** Toggle Effect 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:68
+msgid "**3:** Toggle Effect 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:69
+msgid "**4:** Toggle Effect 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:71
+msgid "Sample"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:73
+msgid "**1:** Play Sample 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:74
+msgid "**2:** Play Sample 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:75
+msgid "**3:** Play Sample 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:76
+msgid "**4:** Play Sample 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:78
+msgid ""
+"Mode status display. The current mode is glowing or if none is on, Hot Cues "
+"are enabled."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:79
+msgid "Headphone volume controls"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:80
+msgid "No direct use, used as a button to add a second layer of controls"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:81
+msgid "Switch the current mode for both decks"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:82
+msgid ""
+"Knobs to adjust the EQ of the deck they are on. Top knob adjusts highs, "
+"middle knob the mids and bottom know the lows."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:83
+msgid ""
+"Buttons to browse your library. The up and down button go up and down in the"
+" current playlist, The folder/left button goes up in the playlist list and "
+"the Files/right button goes down in the playlist list."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:84
+msgid ""
+"Load the currently selected track to the respective deck (A is the left "
+"deck, B is the right deck)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:85
+msgid "Listen to this deck unmixed on the headphones"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:86
+msgid "Deck volume adjusts the output volume of the respective deck"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:87
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:88
+msgid "Temporary pitch shift. Pressing the Vinyl button increases the shift."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:89
+msgid ""
+"Adjust tempo. Pressing both buttons together resets to the original tempo. "
+"Pressing the Vinyl button takes the steps bigger."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:90
+msgid "Fast forward and backward buttons for the respective decks"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:91
+msgid "Sync tempo of this deck to the tempo of the other deck"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:92
+msgid ""
+"If pressed while paused sets the cue and when held plays from the cue, when "
+"pressed during playback jumps to the cue."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_instinct.rst:93
+msgid "Play and pause playback of the respective decks"
+msgstr ""

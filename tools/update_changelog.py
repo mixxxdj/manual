@@ -23,7 +23,7 @@ TEMPLATE = """
 
 
 def fetch_changelog(branch):
-    """ Fetch CHANGELOG.md from branch of mixxxdj/mixxx repository. """
+    """Fetch CHANGELOG.md from branch of mixxxdj/mixxx repository."""
     r = requests.get(
         "https://raw.githubusercontent.com/mixxxdj/mixxx/"
         f"{branch}/CHANGELOG.md"
@@ -33,7 +33,7 @@ def fetch_changelog(branch):
 
 
 def changelog_to_rst(changelog):
-    """ Convert changelog to RST format used by sphinx. """
+    """Convert changelog to RST format used by sphinx."""
 
     changelog = re.sub(
         r"^## \[?(\d+)\.(\d+)\.(\d+)(?:\]\([^\)]+\))?(?: \([^\)]+\))?$",
@@ -42,7 +42,13 @@ def changelog_to_rst(changelog):
         flags=re.MULTILINE,
     )
 
-    return TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
+    changelog = TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
+
+    # m2r2 produces links with postfix _. We need anonymous references instead
+    # See https://github.com/mixxxdj/manual/issues/553
+    changelog = re.sub(r"(`\S+ \<\S+\>`)_", r"\g<1>__", changelog)
+
+    return changelog
 
 
 def main(argv=None):

@@ -1,25 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2020
+# daschuer2 <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-07 20:44-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2020\n"
-"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7664/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/microphones.rst:6
 msgid "Using Microphones"
@@ -64,9 +260,9 @@ msgstr ""
 #: ../../chapters/microphones.rst:27
 msgid ""
 "The `Mixxx DJ Hardware Guide "
-"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific "
-"audio interfaces with information about their prices, features, and "
-"suitability for use with microphones."
+"<https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ lists "
+"specific audio interfaces with information about their prices, features, and"
+" suitability for use with microphones."
 msgstr ""
 
 #: ../../chapters/microphones.rst:34
@@ -78,18 +274,18 @@ msgid ""
 "Software monitoring can be used with the built-in microphone on a laptop or "
 "with a headset plugged into the built-in audio interface on a computer. "
 "However, there is a delay between the time you make sound into the "
-"microphone and hear it in the Master output. Due to the nature of digital "
-"audio, it takes time for input from the audio interface to be available for "
-"Mixxx to process, time for Mixxx to process the audio, and more time to send"
-" the audio back out the audio interface. This time is referred to as "
-"\"latency\"."
+"microphone and hear it in the :term:`main output`. Due to the nature of "
+"digital audio, it takes time for input from the audio interface to be "
+"available for Mixxx to process, time for Mixxx to process the audio, and "
+"more time to send the audio back out the audio interface. This time is "
+"referred to as \"latency\"."
 msgstr ""
 
 #: ../../chapters/microphones.rst:53
 msgid ""
-"Mixxx can be configured to run at low latencies by choosing a smaller :ref"
-":`preferences-audio-buffer`, but there is no way to completely eliminate "
-"latency. Although latency is measured in milliseconds, even a few "
+"Mixxx can be configured to run at low latencies by choosing a smaller "
+":ref:`preferences-audio-buffer`, but there is no way to completely eliminate"
+" latency. Although latency is measured in milliseconds, even a few "
 "milliseconds of latency can be disorienting and distracting to hear, whether"
 " you are using the microphone for spoken announcements, vocals, or playing a"
 " musical instrument."
@@ -140,8 +336,8 @@ msgid ""
 ":guilabel:`Microphone Monitor Mode` option to :guilabel:`Direct monitor "
 "(recording and broadcasting only)`. This will still mix the microphone input"
 " with your recorded and broadcasted mixes, but it will not mix the "
-"microphone with the Master output. Don't forget to press the "
-":guilabel:`Talk` button when using the microphone if you use this option."
+"microphone with the main output. Don't forget to press the :guilabel:`Talk` "
+"button when using the microphone if you use this option."
 msgstr ""
 
 #: ../../chapters/microphones.rst:83
@@ -218,11 +414,11 @@ msgstr ""
 #: ../../chapters/microphones.rst:145
 msgid ""
 "When using :ref:`microphones-direct-monitoring`, you will hear the "
-"microphone mixed with the music from Mixxx without any noticable latency. "
+"microphone mixed with the music from Mixxx without any noticeable latency. "
 "However, it still takes time for Mixxx to receive the microphone signal and "
-"process it. Without compensating for this latency or using a :ref"
-":`microphones-loopback-input`, the microphone inputs will be out of time "
-"relative to the music in your recorded and broadcasted mixes."
+"process it. Without compensating for this latency or using a "
+":ref:`microphones-loopback-input`, the microphone inputs will be out of time"
+" relative to the music in your recorded and broadcasted mixes."
 msgstr ""
 
 #: ../../chapters/microphones.rst:162
@@ -262,7 +458,7 @@ msgstr ""
 #: ../../chapters/microphones.rst:187
 msgid ""
 "**GNU/Linux**: `jack_iodelay "
-"<https://www.linuxmusicians.com/viewtopic.php?t=8022>`_"
+"<https://linuxmusicians.com/viewtopic.php?t=8022>`_"
 msgstr ""
 
 #: ../../chapters/microphones.rst:189
@@ -409,12 +605,12 @@ msgstr ""
 #: ../../chapters/microphones.rst:285
 msgid ""
 "Mixxx can be used with a microphone plugged into an external hardware mixer."
-" This does not have the problem with latency that happens with :ref"
-":`microphones-software-monitoring`. However, it is generally recommended to "
-"use an audio interface that supports :ref:`microphones-direct-monitoring` "
-"and a :ref:`microphones-loopback-input` instead of an external mixer. If you"
-" are using :ref:`vinyl-control` and a microphone, you may need an external "
-"mixer."
+" This does not have the problem with latency that happens with "
+":ref:`microphones-software-monitoring`. However, it is generally recommended"
+" to use an audio interface that supports :ref:`microphones-direct-"
+"monitoring` and a :ref:`microphones-loopback-input` instead of an external "
+"mixer. If you are using :ref:`vinyl-control` and a microphone, you may need "
+"an external mixer."
 msgstr ""
 
 #: ../../chapters/microphones.rst:293
@@ -517,13 +713,13 @@ msgstr ""
 #: ../../chapters/microphones.rst:381
 msgid ""
 "DJ controllers with microphone inputs typically mix the microphone input "
-"with the master output without sending it to the computer. This does not "
-"have the problem with latency that happens with :ref:`microphones-software-"
-"monitoring`. However, many cheap DJ controllers do not digitize the signal "
-"to make it available to the computer. Refer to the controller's page on the "
-"`Mixxx wiki <https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ or "
-"the manual from the controller manufacturer for details about your "
-"particular controller."
+"with the :term:`main output` without sending it to the computer. This does "
+"not have the problem with latency that happens with :ref:`microphones-"
+"software-monitoring`. However, many cheap DJ controllers do not digitize the"
+" signal to make it available to the computer. Refer to the controller's page"
+" on the `Mixxx wiki <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ or the manual from the controller manufacturer for details "
+"about your particular controller."
 msgstr ""
 
 #: ../../chapters/microphones.rst:390
@@ -543,4 +739,65 @@ msgstr ""
 msgid ""
 "DJ controllers typically do not supply phantom power required for condenser "
 "microphones. Stand-alone audio interfaces typically do supply phantom power."
+msgstr ""
+
+#: ../../chapters/microphones.rst:416
+msgid "Microphone Ducking"
+msgstr ""
+
+#: ../../chapters/microphones.rst:417
+msgid ""
+"Microphone ducking is a technique to improve the audibility of speech by "
+"reducing the volume of background music while a voice signal is recorded by "
+"the microphone and allows listeners to hear the voice more clearly and "
+"consistently. While using Mixxx with a microphone, you might want the music "
+"to automatically fade into the background each time you speak, or you might "
+"prefer lowering the volume of the music to a specific level. Microphone "
+"ducking helps you achieve this.  The music will 'duck' out of the way of the"
+" microphone audio."
+msgstr ""
+
+#: ../../chapters/microphones.rst:427
+msgid "The microphone ducking section"
+msgstr ""
+
+#: ../../chapters/microphones.rst:427
+msgid "The microphone ducking controls"
+msgstr ""
+
+#: ../../chapters/microphones.rst:429
+msgid ""
+"The :guilabel:`Strength` knob adjusts the microphone talkover ducking "
+"strength and its behaviour depends on any of the Microphone talkover modes "
+"described below. Clicking  on the :guilabel:`Auto` button will switch it to "
+"any of three modes:"
+msgstr ""
+
+#: ../../chapters/microphones.rst:432
+msgid ""
+":guilabel:`Off`: When you speak through the microphone, the music  volume "
+"does not reduce."
+msgstr ""
+
+#: ../../chapters/microphones.rst:433
+msgid ""
+":guilabel:`Auto`: When you speak through the microphone, the music volume "
+"will be reduced when Mixxx detects your voice. You can adjust the amount by "
+"which the volume is automatically reduced with the Strength knob."
+msgstr ""
+
+#: ../../chapters/microphones.rst:434
+msgid ""
+":guilabel:`Manual`:In this mode, the music will play at the volume set by "
+"the Strength knob whenever the microphone Talk button is active, regardless "
+"of the volume coming through the microphone input. When you speak through "
+"your microphone, set the volume to which the music should reduce by turning "
+"the Strength knob to a level that suits you. When you disable Talk mode, the"
+" music will return to the regular volume"
+msgstr ""
+
+#: ../../chapters/microphones.rst:436
+msgid ""
+"To set the Ducking volume correctly, you can use manual mode to adjust the "
+"knob to your taste and then set to auto when happy."
 msgstr ""

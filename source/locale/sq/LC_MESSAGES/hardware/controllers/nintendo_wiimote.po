@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7664/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/nintendo_wiimote.rst:2
+msgid "Nintendo Wiimote"
+msgstr ""
+
+#: ../../hardware/controllers/nintendo_wiimote.rst:4
+msgid "The Wiimote is a motion-sensitive wireless game console controller."
+msgstr ""
+
+#: ../../hardware/controllers/nintendo_wiimote.rst:6
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/nintendo-wiimote-hid-"
+"mapping/12649>`__"
+msgstr ""

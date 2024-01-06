@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7664/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../hardware/controllers/ion_discover_dj.rst:2
+msgid "ION Discover DJ"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:4
+msgid ""
+"The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-"
+"ing” for people with a potential interest. It does not have a built in sound"
+" card, so a :ref:`splitter cable <hardware-splitter-cables>` or "
+":ref:`separate audio interface <hardware-audio-interfaces>` is required to "
+"use headphones with it."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:6
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/ion-discover-dj-controller-"
+"possible-future-support/10284>`__"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:11
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:13
+msgid ""
+"This controller is USB MIDI class compliant, so it is plug-and-play on all "
+"platforms without having to install any special drivers. The manufacturer’s "
+"page only mentions Windows and Mac but it’s confirmed working on Linux as "
+"well."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:17
+msgid "Library browsing"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:19
+msgid "The controls for library browsing are in the center of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:22
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:22
+#: ../../hardware/controllers/ion_discover_dj.rst:49
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:24
+msgid "Rotary encoder"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:24
+msgid "Track selection"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:25
+msgid "Load buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:25
+msgid ""
+"Loads currently highlighted track to the corresponding deck (only if no "
+"audio is playing)"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:26
+msgid "Pushing rotary encoder"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:26
+msgid "Maximizes/minimizes the library"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:30
+msgid "Jog wheels"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:32
+msgid ""
+"The button in the center can be used to switch the jog wheels between search"
+" and scratch mode. In search mode, the jog wheels can be used to seek to "
+"different parts of a song when paused. When that deck is playing, the jog "
+"wheels can be pushed/pulled to speed up/slow down the playback. This is "
+"useful for beatmatching."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:35
+msgid ""
+"Pressing the center button will put the jog wheels in scratch mode, which "
+"means that the deck in Mixxx will follow the absolute movement of the jog "
+"wheels. In this mode the Scratch button is lit."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:38
+msgid "Equalizers"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:40
+msgid ""
+"This controller only has a 2-band equalizer but Mixxx uses a 3-band EQ. "
+"Therefore, the volume knob has been mapped to the low EQ, the bass knob has "
+"been mapped to the mid EQ, and the treble knob has been mapped to the high "
+"EQ. For controlling the volume of the decks, use the crossfader."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:44
+msgid "Other buttons"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:46
+msgid ""
+"The pitch buttons will control the tempo which also controls the pitch, "
+"except when keylock is on (padlock icon on screen)."
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:49
+msgid "Button"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:49
+msgid "Light"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:51
+msgid "Sync"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:51
+msgid "Matches the BPM of that deck to the song playing in the other deck"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:51
+msgid "Blinks according to the beatgrid"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "Rev"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "While held the deck plays in reverse"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:52
+msgid "only lights when pressed"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "CUE"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "Attached to the cue control in mixxx"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:53
+msgid "follows cue button on screen"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "play/pause"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "Play/pause the deck"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:54
+msgid "follows play button on screen"
+msgstr ""
+
+#: ../../hardware/controllers/ion_discover_dj.rst:57
+msgid ""
+"The behavior of the cue and play buttons can be configured `in Mixxx’s "
+"preferences <interface-cue-modes>`."
+msgstr ""

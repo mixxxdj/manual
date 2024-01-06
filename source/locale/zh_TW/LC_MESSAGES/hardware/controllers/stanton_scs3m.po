@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"PO-Revision-Date: 2022-09-05 05:41+0000\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/mixxx-dj-software/teams/7664/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/stanton_scs3m.rst:4
+msgid "Stanton SCS.3m “DaMix”"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:6
+msgid ""
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20221127080207/http://www.stantondj.com/stanton-"
+"controllers-systems/scs3m.html>`__"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:11
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:19
+msgid "Stanton SCS.3m \"DaMix\" (top view)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:19
+msgid ""
+"Stanton SCS.3m \"DaMix\" (top view). *Images courtesy of Stanton Magnetics, "
+"Inc.*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:22
+msgid ""
+"The left side of the controller controls deck 1. The right side is for deck "
+"2. This l’ll walk through the controller from top to bottom and explain the "
+"features."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:27
+msgid "Deck select buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:29
+msgid ""
+"These are used only as modifier buttons in Mixxx for now. Hold them down to "
+"access different functions for that side of the controller (Deck A/C for the"
+" left side virtual deck 1, Deck B/D for the right side, deck 2,) detailed "
+"for each control below."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:35
+msgid "Top horizontal sliders"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:37
+msgid "These adjust the pitch control."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:39
+msgid ""
+"Touching near the edges will do a temporary pitch bend in that direction."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:40
+msgid ""
+"Hold the current mode button down (EQ/FX) and touch the slider on that side "
+"to reset it to 0%."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:42
+msgid ""
+"Hold the applicable Deck select button down when using these sliders to "
+"perform fine-grained pitch adjustment."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:45
+#: ../../hardware/controllers/stanton_scs3m.rst:79
+msgid "When the Master button is held down:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:47
+msgid "The left slider adjusts the Pre/Main headphone mix"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:48
+msgid "The right slider adjusts main balance"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:49
+msgid ""
+"Also hold the current mode button and touch the slider on that side to reset"
+" it to center"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:53
+msgid "FX/EQ sliders"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:55
+msgid "From left to right, for each side:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:57
+msgid "in EQ mode these adjust Low, Mid, and High frequency filters"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:58
+msgid "in FX mode these adjust Depth, Delay, and LFO for the flanging effect"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:60
+msgid ""
+"Hold down the current mode button (FX/EQ) and touch one of these sliders to "
+"reset it to center."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:64
+msgid "FX/EQ mode buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:66
+msgid ""
+"Press these to choose what the sliders above them control. (See above.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:68
+msgid "Hold Deck and press FX to toggle the flange effect for that deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:69
+msgid ""
+"Hold Deck and press EQ to auto-adjust the pitch to sync the BPM on this deck"
+" with the other one (assuming it was detected correctly on both)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:73
+msgid "Volume sliders"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:75
+msgid "These adjust the channel volume as on a traditional mixer."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:77
+msgid "Holding Deck causes these to adjust the pre-fader gain for the deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:81
+msgid "The left slider adjusts the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:82
+msgid "The right slider adjusts main volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:85
+msgid "Soft buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:87
+msgid "From top to bottom on both sides:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:89
+msgid "Rewind"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:90
+msgid "Fast forward"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:91
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:92
+msgid "Play"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:94
+msgid "Headphone buttons toggle that deck in the headphone mix."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:97
+msgid "Cross-fader"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:99
+msgid "Adjusts the cross-fade between the virtual decks"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:101
+msgid ""
+"Needle drop function: Hold a Deck button to use the cross-fader strip to "
+"search through the track loaded on that deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:105
+msgid "Level Meters"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:107
+msgid ""
+"These normally show the pre-fader signal for the respective deck. When "
+"holding down the Master button, they show the stereo main output meters: "
+"left side for the left channel, right side for the right channel."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:111
+msgid ""
+"**NOTE:** The LEDs are calibrated to the VU meters on-screen. If you see a "
+"red LED flicker, *you are clipping* and need to reduce the volume or gain to"
+" avoid distorted sound and/or speaker damage."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:116
+msgid "Deck switching buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:118
+msgid ""
+"When touching the “A C” or “B D” buttons, the mixer switches between decks. "
+"On the left side, touching “A C” will switch between decks 1 and 3. On the "
+"right side, touching “B D” will switch between decks 2 and 4. All controls "
+"except for the crossfader then control the selected deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:123
+msgid ""
+"Connected SCS.3d modules will follow deck changes. For example if you switch"
+" from deck 1 to deck 3 on a SCS.3m, all connected SCS.3d modules who are on "
+"deck 1 will also switch to deck 3."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:128
+msgid "EQ mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:130
+msgid ""
+"This is the standard mixing mode where the three EQ sliders control "
+"low/mid/high. The top slider controls the filter knob."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:133
+msgid ""
+"Touching EQ will return to EQ mode from the FX modes. Holding EQ and "
+"touching a slider will reset it to its preset position. (Unfortunately this "
+"doesn’t work for FX and MASTER modes.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:138
+msgid "FX modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:140
+msgid ""
+"Touch one of the four buttons to the side of the gain slider to control one "
+"of the effect chains. Top button selects first effect chain and so forth. In"
+" this mode, the vertical sliders control the first three knobs of the first "
+"effect in the selected effect chain. The top slider controls dry/wet mix."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:145
+msgid ""
+"You can assign FX chains to the deck by holding FX and pressing one of the "
+"four buttons next to the gain slider. So to assign FX chain 1 to the current"
+" deck, hold FX and press the top button (right below EQ)."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:149
+msgid ""
+"When holding FX, the volume slider can be used to adjust channel gain. Hold "
+"FX and slide up to make the channel louder. Hold FX-EQ and touch the gain "
+"slider to reset gain."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:154
+msgid "MASTER mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:156
+msgid ""
+"When holding the central MASTER button, the left side controls the headphone"
+" channel, while the right side controls the main channel."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:159
+msgid "Left top slider: Pre/main mix on headphone"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:160
+msgid "Right top slider: main balance"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:161
+msgid "Left slider: head gain"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:162
+msgid "Right slider: main gain"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3m.rst:163
+msgid "Buttons: The buttons assign effects to head and main output"
+msgstr ""

@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7664/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:4
+msgid "Numark Mixtrack Pro"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:6
+msgid ""
+"This is the same as the :ref:`Numark Mixtrack <numark-mixtrack>` with the "
+"addition of an integrated sound card. This product has been discontinued and"
+" succeeded by the :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:8
+msgid ""
+"`Manufacturer’s product page <http://www.numark.com/product/mixtrackpro>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:13
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:22
+msgid "Numark Mixtrack Pro (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:25
+msgid ""
+"**USB:** This USB connection sends and receives control information to/from "
+"a connected computer."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:26
+msgid ""
+"**CHANNEL TREBLE:** Adjusts the high (treble) frequencies of the "
+"corresponding channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:27
+msgid ""
+"**CHANNEL MID:** Adjusts the mid-range frequencies of the corresponding "
+"channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:28
+msgid ""
+"**CHANNEL BASS:** Adjusts the low (bass) frequencies of the corresponding "
+"channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:29
+msgid ""
+"**CUE:** Sends pre-fader audio to the Cue Channel for headphone monitoring."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:30
+msgid "**CUE GAIN:** Adjusts the audio level of the Cue channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:31
+msgid ""
+"**CUE MIX:** Turn to mix between Cue and Program in the Headphone channel. "
+"When all the way to the left, only channels routed to CUE will be heard. "
+"When all the way right, only the Program mix will be heard."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:33
+msgid ""
+"**BROWSE KNOB:** Turn this knob to scroll through lists of tracks / library."
+" When a file is selected, press the knob to load the currently highlighted "
+"song into the first stopped deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:34
+msgid ""
+"**BACK:** This button will switch the Browse Knob to scroll into the track "
+"list (FILE LED will illuminate) or into the library section (FOLDER LED will"
+" illuminate)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:35
+msgid ""
+"**LOAD A / LOAD B:** Press one of these buttons while a track is selected to"
+" assign it to Deck A or Deck B, respectively. **\\*Only if the track is "
+"paused. Put the pitch in 0% at load**\\ *(without mattering where the slider"
+" is)*."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:37
+msgid ""
+"**CHANNEL FADER:** Adjusts the audio level on the corresponding channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:38
+msgid "**MASTER FADER:** Adjusts the output volume of the Program mix."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:39
+msgid ""
+"**CROSSFADER:** Blends audio playing between Decks A and B. Sliding this to "
+"the left plays Deck A and sliding to the right plays Deck B."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:40
+msgid ""
+"**JOG WHEEL:** When the deck is playing, the JOG WHEEL will bend the track’s"
+" pitch. When the SCRATCH button is on, touching the top of the JOG WHEEL "
+"will scratch the selected track **(can do backspin effect)**, and touching "
+"the border of the JOG WHEEL will bend the track’s pitch. When the deck is "
+"not playing, rotating the JOG WHEEL will scan through the track."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:42
+msgid ""
+"**SCRATCH:** Turns Scratch Mode on or off. If Scratch Mode is on, the button"
+" will light up and the JOG WHEEL will scratch like a turntable when you spin"
+" it."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:43
+msgid ""
+"**PLAY / PAUSE:** Starts or resumes playback if the Deck is paused. Pauses "
+"playback if the Deck is playing. LED ON when playing. LED OFF when stopped."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:44
+msgid ""
+"**STUTTER:** Adjust BeatGrid in the correct place (useful to sync well). "
+"**\\*LED Blink at each Beat**\\ *of the grid.*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:46
+msgid ""
+"**CUE:** The CUE button will return and pause the track at the last set cue "
+"point. For temporary play of the cue point, you can hold down the CUE "
+"button. The track will play for as long as the button is held down and will "
+"return to the cue point once it has been released (Until it has been pressed"
+" PLAY before release CUE, then playback will continue). LED ON when stopped."
+" LED OFF when playing. **\\*LED Blink at each Beat in the last 30 seconds of"
+" song. \\*Don’t set Cue accidentally at the end of the song (return to the "
+"latest cue).**"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:51
+msgid ""
+"**SYNC:** Automatically matches the corresponding Deck’s tempo and phase "
+"with the other Deck. **\\*If the other deck is stopped, only sync tempo (not"
+" phase). \\*LED Blink at Clip Gain**\\ *(Peak indicator). *\\ **\\*Pressing "
+"DELETE**\\ *before SYNC: Set Pitch to 0%.*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:55
+msgid ""
+"**PITCH FADER:** Controls the track’s playback speed. An LED next to the "
+"fader will light up when set at 0%. **\\* Pitch slide are inverted, to match"
+" with the screen**\\ *(Up: +, Down: -, otherwise is very confusing). *\\ "
+"**\\* Soft-takeover to prevent sudden wide parameter changes**\\ *when the "
+"on-screen control diverges from a hardware control. The control will have no"
+" effect until the position is close to that of the software, at which point "
+"it will take over and operate as usual.*"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:59
+msgid ""
+"**PITCH BEND ( + / – ):** Press or hold down either of these buttons to "
+"temporarily adjust the track’s playback speed. When released, the track "
+"playback will return to the speed designated by the PITCH FADER."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:61
+msgid ""
+"**KEYLOCK:** This feature allows you to change the speed of the song without"
+" changing the key."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:62
+msgid ""
+"**HOT CUE BUTTONS (1-3):** Assigns a Cue Point or returns the track to that "
+"Cue Point. When a HOT CUE BUTTON is unlit, you can assign a Cue Point by "
+"pressing it at the desired point in your track. Once it is assigned, the HOT"
+" CUE BUTTON will light. To return to that Cue Point, simply press it. "
+"**\\*Pressing DELETE** before HOT CUE: Clear Hotcue."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:65
+msgid ""
+"**DELETE:** Press this to enable second functions to some buttons (LED on). "
+"On having pressed another button, it is deactivated and LED turn off. "
+"Combinations: **Delete + EFFECT:** Brake Effect (maintain pressed). Flanger "
+"Delay (Left. EFFECT CONTROL): Adjust the speed of Brake. **Delete + "
+"HOTCUE:** Clear Hotcue. **Delete + RELOOP:** Clear Loop. **Delete + "
+"MANUAL:** Set Quantize ON (for best manual loop) or OFF. **Delete + SYNC:** "
+"Set Pitch to 0%."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:71
+msgid ""
+"**EFFECT:** Activate / deactivate Flanger. SELECT modify the Depth and LEFT."
+" EFFECT CONTROL change the Delay. **\\*Pressing DELETE** before EFFECT: "
+"Brake (maintain pressed). Adjust Speed with Flanger Delay (Left. EFFECT "
+"CONTROL)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:73
+msgid ""
+"**EFFECT SELECT:** Modify the Depth of Flanger effect, which will be "
+"displayed in the software."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:74
+msgid ""
+"**LEFT EFFECT CONTROL:** Modify the Depth of Flanger effect, which will be "
+"displayed in the software. **\\*Used for change the speed of Brake effect "
+"too. RIGHT EFFECT CONTROL:** Gain control of the deck (up to clip)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:77
+msgid ""
+"**MODE:** Press this to switch between Autoloop Mode and Manual Mode, which "
+"changes the functions of the LOOP CONTROL buttons. **\\*Pressing DELETE** "
+"before MODE: Set Quantize ON (for best manual loop), or OFF. **Autoloop Mode"
+" (LED ON)**: • 1/2 X: Press this to halve the length of the loop. • 1 BAR: "
+"Press this to set a 4 beat loop automatically and enable it (LED ON). "
+"**Press again to exit loop**. • 2 X: Press this to double the length of the "
+"loop. **Manual Mode (LED OFF)**: • IN: Press this to set a “Loop In” point "
+"where your loop will begin (LED ON). • OUT: Press this to set a “Loop Out” "
+"point where your loop will end, and enable it (LED ON). • RELOOP: If the "
+"Deck is already looping when you press it (LED ON), exit loop. If not, jump "
+"to the start of the loop and enable it. (If no loop is set, nothing will "
+"happen.) **\\*Pressing DELETE** before RELOOP: Clear Loop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:88
+msgid ""
+"**OUTPUT 1** (RCA): This stereo RCA connection will output the main mix from"
+" your computer. Please use a stereo RCA cable to connect this output to a "
+"powered speaker or amplifier system."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:89
+msgid ""
+"**OUTPUT 2** (RCA): This stereo RCA connection will output the Cue Channel "
+"from your computer for monitoring purposes. Please note that the Cue Channel"
+" is also output through the HEADPHONES output on the front panel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:91
+msgid ""
+"**HEADPHONES:** This stereo 1/4\" output will output the signal being routed"
+" to the Cue Channel."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:92
+msgid ""
+"**MIC GAIN:** This knob controls the microphone level being sent to the main"
+" mix."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:93
+msgid ""
+"**MIC THROUGH:** This is a 1/4\" microphone input. The signal from this "
+"input will be sent directly to the main mix."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:96
+msgid "Known problems"
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:98
+msgid ""
+"The pitch on the controller has a very short run. Thus, having it configured"
+" as a +10/-10 (or more) is tricky because you will get a very low pitch "
+"precision. Configuring it as +8/-8 (Mk2 style) is highly recommended."
+msgstr ""
+
+#: ../../hardware/controllers/numark_mixtrack_pro.rst:100
+msgid ""
+"Each slide/knob needs to be moved on Mixxx startup to match levels with the "
+"Mixxx UI."
+msgstr ""

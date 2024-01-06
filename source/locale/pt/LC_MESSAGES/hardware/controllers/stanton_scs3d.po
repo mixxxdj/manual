@@ -1,0 +1,1045 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"PO-Revision-Date: 2022-09-05 05:41+0000\n"
+"Language-Team: Portuguese (https://app.transifex.com/mixxx-dj-software/teams/7664/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/stanton_scs3d.rst:4
+msgid "Stanton SCS.3d “DaScratch”"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:6
+msgid ""
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220613230840/http://www.stantondj.com/stanton-"
+"controllers-systems/scs3d.html>`__"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:7
+msgid "`Walk-through video! <http://www.youtube.com/watch?v=8DUpTikA8u0>`__"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:10
+msgid ""
+"Alternate mapping with many more visual effects (flashing lights) and "
+"different behavior."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:14
+msgid "Default Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:22
+msgid "Stanton SCS.3d (layout)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:22
+msgid "Stanton SCS.3d (layout). *Images courtesy of Stanton Magnetics, Inc.*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:24
+msgid ""
+"**Easy customization:** We have provided the following customization "
+"variables at the top of the script you can set to your liking:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:27
+msgid ""
+"**pitchRanges** - Set the pitch slider range when the Pitch LED is off, "
+"blue, purple and red (in decimal values. E.g. 0.08 = 8%, 0.5 = 50%)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:29
+msgid ""
+"**fastDeckChange** - If set to true, changes decks instantly by skipping the"
+" flashing lights. Useful for beat juggling on one unit."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:31
+msgid ""
+"**spinningPlatter** - If set to true, uses the circle LEDs to *accurately* "
+"(*no sticker drift!*) show the track position in record revolutions, also "
+"useful for juggling."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:34
+msgid ""
+"**spinningPlatterOnlyVinyl** - If set to true, only shows the spinning "
+"platter LED in vinyl modes. Otherwise shows in all modes except Loop, "
+"Instant Pitch Change and TRIG (because they’re used for other things in "
+"those modes.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:37
+msgid ""
+"**spinningLights** - The number of lights used for the spinning platter "
+"effect, 1 or 2. (1 is best for juggling.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:39
+msgid ""
+"**VUMeters** - If set to true, shows a VU meter in the circular area for the"
+" currently selected deck when in vinyl mode. (Left for deck 1, right for "
+"deck 2.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:42
+msgid ""
+"**markHotCues** - Set to ``\"blue\"`` or ``\"red\"`` (with quotes) to choose"
+" which LEDs mark the stored positions in TRIG & LOOP modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:44
+msgid ""
+"**jogOnLoad** - If true, the unit will automatically change to Vinyl (jog) "
+"mode after loading a track (from Track Select mode)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:46
+msgid ""
+"**globalMode** - If true, the unit will stay in the current mode on deck "
+"changes (instead of switching to the mode you were in the last time you "
+"controlled that deck.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:49
+msgid ""
+"**singleDeck** - If you’ve got more than one MIDI controller, set this to "
+"true to have the SCS.3d stay on one deck and make Deck mode non-temporary. "
+"`More on this here <#deck-mode>`__."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:52
+msgid ""
+"**deckChangeWait** - Time in milliseconds to hold the DECK button down to "
+"avoid changing decks"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:54
+msgid ""
+"**pitchAdjustment** - Adjusts the coarseness of the pitch slider (1=coarse, "
+"3=normal, 5=fine)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:56
+msgid ""
+"**finePitchAdjustment** - Adjusts the coarseness of the pitch slider in fine"
+" mode (1=coarser, 3=normal, 5=finer)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:58
+msgid ""
+"**finePitchDefault** - If true, swaps normal and fine pitch modes so you can"
+" use fine pitch mode unshifted"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:61
+msgid ""
+"Just open the ``controllers/Stanton-SCS3d-scripts.js`` file in your favorite"
+" text editor and you’ll see these variables right near the top. Edit & save."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:65
+msgid "Mode buttons"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:73
+#: ../../hardware/controllers/stanton_scs3d.rst:340
+msgid "Stanton SCS.3d (mode buttons)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:76
+msgid "FX - Adjust & toggle Flanger effect, toggle reverse effect"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:77
+msgid "EQ - Adjust channel EQ parameters"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:78
+msgid "Loop - Loop controls and Instant pitch changes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:79
+msgid "Trig - Hot cues"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:80
+msgid ""
+"Vinyl - Toggle between pitch bend, vinyl manipulation & scratching, and "
+"track selection"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:82
+msgid "Deck - Adjust global controls and switch to another virtual deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:85
+msgid "Common to all modes:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:87
+msgid "(except where noted)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:89
+msgid "Gain slider (S1) adjusts deck volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:90
+msgid "Pitch slider (S2) adjusts deck pitch control"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:91
+msgid "B11 toggles headphone cue"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:92
+msgid "B12 toggles pitch range (black=8%, blue=12%, purple=50%, red=100%)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:93
+msgid "B13 Rewind (REW)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:94
+msgid "B14 Fast Forward (FFWD)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:95
+msgid "PLAY starts or pauses track playback."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:96
+#: ../../hardware/controllers/stanton_scs3d.rst:314
+msgid ""
+"CUE will jump to the cue point or set it, depending on your settings and "
+"whether the track is playing."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:98
+msgid ""
+"SYNC synchronizes the tempo of the current deck to another. Holding SYNC for"
+" more than 1/3 of a second will enable Sync lock. (Press SYNC again to "
+"disable it.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:101
+msgid ""
+"Pressing TAP repeatedly will change the speed of the current deck to match "
+"your tap tempo (useful for synchronizing with an external music source.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:104
+msgid "**While holding down the current mode button:**"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:106
+msgid "Gain slider (S1) adjusts pre-fader gain"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:107
+msgid "Pitch slider (S2) finely adjusts pitch control"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:108
+msgid "B11 resets pre-fader gain to center"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:109
+msgid "B12 resets pitch to center 0%"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:110
+msgid ""
+"SYNC toggles the :term:`Quantize <quantization>` function (where Cue and "
+"Loop points snap to the nearest beat and triggering them happens in time "
+"with the beat.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:115
+msgid "FX Modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:117
+msgid ""
+"These modes let you adjust the effect unit parameters. The FX button will be"
+" red when adjusting effect unit 1, purple for unit 2, and black for unit 3. "
+"(In Mixxx versions below 2.0.1, there is only one mode that adjusts the "
+"Flanger effect.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:127
+#: ../../hardware/controllers/stanton_scs3d.rst:146
+#: ../../hardware/controllers/stanton_scs3d.rst:277
+#: ../../hardware/controllers/stanton_scs3d.rst:304
+#: ../../hardware/controllers/stanton_scs3d.rst:371
+msgid "Stanton SCS.3d (slider mode)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:129
+msgid "Left slider (S3) adjusts the first effect parameter"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:130
+msgid "Center slider (S4) adjusts the second effect parameter"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:131
+msgid "Right slider (S5) adjusts the third effect parameter"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:132
+msgid "B11 performs a reverse-roll (censor) while held down"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:133
+msgid "B12 toggles this effect on the current deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:135
+msgid "Hold the FX button down and touch any slider to reset it to center."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:138
+msgid "EQ Mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:148
+msgid "Left slider (S3) adjusts low frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:149
+msgid "Center slider (S4) adjusts mid frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:150
+msgid "Right slider (S5) adjusts high frequency equalizer"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:152
+msgid "Hold the EQ button down and touch any slider to reset it to center."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:155
+msgid "Loop mode (red)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:157
+msgid "The surface is configured as 11 buttons:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:160
+#: ../../hardware/controllers/stanton_scs3d.rst:172
+msgid "Left"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:160
+#: ../../hardware/controllers/stanton_scs3d.rst:172
+msgid "Middle"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:160
+#: ../../hardware/controllers/stanton_scs3d.rst:172
+msgid "Right"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:162
+#: ../../hardware/controllers/stanton_scs3d.rst:177
+msgid "1/8-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:162
+#: ../../hardware/controllers/stanton_scs3d.rst:174
+msgid "Loop In"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:162
+#: ../../hardware/controllers/stanton_scs3d.rst:174
+msgid "2-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:163
+#: ../../hardware/controllers/stanton_scs3d.rst:176
+msgid "1/4-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:163
+#: ../../hardware/controllers/stanton_scs3d.rst:164
+#: ../../hardware/controllers/stanton_scs3d.rst:175
+#: ../../hardware/controllers/stanton_scs3d.rst:176
+msgid "Reloop/Exit"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:163
+#: ../../hardware/controllers/stanton_scs3d.rst:175
+msgid "4-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:164
+#: ../../hardware/controllers/stanton_scs3d.rst:175
+msgid "1/2-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:164
+#: ../../hardware/controllers/stanton_scs3d.rst:176
+msgid "8-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:165
+#: ../../hardware/controllers/stanton_scs3d.rst:174
+msgid "1-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:165
+#: ../../hardware/controllers/stanton_scs3d.rst:177
+msgid "Loop Out"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:165
+#: ../../hardware/controllers/stanton_scs3d.rst:177
+msgid "16-beat loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:168
+msgid ""
+"**Mixxx v2.0.1 and above** have the left column flipped so you can adjust "
+"the loop size sequentially when moving along the circle:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:180
+msgid ""
+"The Reloop/Exit button lights up when a loop is active. If it happens to be "
+"an exact number of beats, the corresponding beat loop button will light up "
+"as well."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:183
+msgid "Also:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:185
+msgid "**B11** (under the Gain slider) halves the length of the current loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:186
+msgid ""
+"**B12** (under the Pitch slider) doubles the length of the current loop"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:188
+msgid ""
+"You can exit any loop by pressing Reloop/Exit (or a lit beat loop button.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:191
+msgid "Instant-pitch change modes (Loop button)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:193
+msgid ""
+"This offers instant pitch change buttons in the following arrangements:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:195
+msgid ""
+"**Key change (purple)** - Center buttons are one semitone away from their "
+"vertical neighbors and the outside ones are three semitones away (for "
+"harmonic key changes.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:199
+msgid ""
+"**Notes (black)** - Buttons correspond to major scale notes (ala Vestax "
+"Controller One.) This is most useful with a constant-pitch sound or chord. "
+"(You can generate one in Audacity.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:203
+msgid ""
+"Remember you can return to the original pitch (tonic) by pressing B12 (under"
+" the pitch slider.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:206
+msgid ""
+"Note that when you use one of these buttons, the pitch range is "
+"automatically set to 100% in order for the values to be set correctly."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:209
+msgid ""
+"*Key change and Note modes were tuned with respect to 440Hz A (above middle "
+"C.)*"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:211
+msgid "**1.7 also offered the following** since looping was not available:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:213
+msgid ""
+"**Fixed increment (red)** - Each button sets the pitch 3.33% above or below "
+"its vertical neighbors."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:217
+msgid "Trig Modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:219
+msgid ""
+"These modes configure the surface as three separate banks of 12 buttons (lit"
+" up dim red for visibility) giving you a total of THIRTY-SIX hot cues! "
+"(Mixxx 1.8.0-1.9.0 internally supports just 32, so the center 4 buttons and "
+"the lower right one in the third bank (black) are inoperative. Mixxx 1.9.1+ "
+"supports 36 again.) The TRIG button will be red in bank 1, purple in bank 2,"
+" and black in bank 3."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:226
+msgid ""
+"The red LEDs flash when you press the corresponding button. The outer blue "
+"LEDs light when a cue point is set on that button. (Changeable with the "
+"**markHotCues** option mentioned at the top of this page.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:230
+msgid "To set a cue, just press a free button at the desired time."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:231
+msgid "To recall a cue, just press a button that has a cue point set"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:232
+msgid ""
+"To erase a cue, hold TRIG while pressing the button(s) you want to erase"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:235
+msgid "Vinyl Modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:243
+#: ../../hardware/controllers/stanton_scs3d.rst:445
+#: ../../hardware/controllers/stanton_scs3d.rst:482
+msgid "Stanton SCS.3d (circle mode)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:245
+msgid "**Vinyl mode (red)**"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:247
+msgid ""
+"Outer circle (C1) and Center slider (S4) allow you to bend the song’s pitch,"
+" akin to dragging your finger on the record"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:250
+msgid "**Vinyl2 Mode (purple)**"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:252
+msgid "Outer circle (C1) allows you to “scratch” the song and perform juggles"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:253
+msgid "Center slider (S4) allows you to “scratch” the song"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:254
+msgid ""
+"Scratch & cue toggle: Hold the VINYL button and press CUE when in Vinyl2 "
+"mode to toggle recalling the cue point when you touch either C1 or S4. This "
+"makes juggling really easy since you don’t have to back-cue."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:258
+msgid "**Track Select Mode (black)**"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:260
+msgid "Outer circle (C1) allows you to scroll through your Library"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:261
+msgid ""
+"Center button (anywhere on S4) loads the currently highlighted song into the"
+" current deck, as long as it’s not live (playing to the main output.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:263
+msgid "B11 selects backward between Library, Playlist, Browse, etc. views"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:264
+msgid "B12 selects forward between Library, Playlist, Browse, etc. views"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:265
+msgid "B13 moves the highlight up one item"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:266
+msgid "B14 moves the highlight down one item"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:269
+msgid "Deck Mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:279
+msgid ""
+"You are in this mode only **while holding down the Deck button**, unless the"
+" controller is in single-deck mode:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:281
+msgid "Gain slider (S1) adjusts main volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:282
+msgid "Pitch slider (S2) adjusts main balance (pan)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:283
+msgid "B11 resets main volume knob to the middle"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:284
+msgid "B12 resets main balance to center"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:285
+msgid "Left slider (S3) adjusts the cue/main headphone mix"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:286
+msgid "Center slider (S4) adjusts the cross-fader"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:287
+msgid "Right slider (S5) adjusts the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:288
+msgid "TAP resets cross-fader to center position (only in multi-deck mode)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:289
+msgid ""
+"Press Deck + Sync together to toggle between multi- and single-deck modes"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:290
+msgid "In single-deck mode:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:291
+msgid ""
+"Hold the Deck button down and touch any slider to reset it to its default "
+"value"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:293
+msgid "Press Deck + Play together to change the active deck"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:296
+msgid "General controls"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:306
+msgid ""
+"Unless otherwise noted, the following controls have the same function in all"
+" modes."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:309
+msgid "S1 controls volume of currently active deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:310
+msgid ""
+"S2 changes rate or pitch depending on current mode, see VINYL-mode for "
+"discussion."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:312
+msgid ""
+"PLAY starts or pauses the track. When a track is ready to play the button "
+"blinks."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:316
+msgid ""
+"SYNC syncs the active deck to another deck. Holding SYNC for more than one "
+"second will enable SYNC lock."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:318
+msgid "Pressing TAP repeatedly will adjust track BPM."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:320
+msgid ""
+"The currently active deck/channel is shown by lighting one of B11 through "
+"B14 red (except for FX-mode where the selected FX chain is shown). B11 "
+"lights red for deck 1, B12 for deck 2, B13 for deck 3 and B14 for deck 4. "
+"See DECK and FX modes on how to control this."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:325
+msgid ""
+"A light spinning around the circle shows the track is playing. When the "
+"track nears its end (at -30 seconds), a blinking light will detach and run "
+"slower. When the spinning light reaches the blinking light, the track ends."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:329
+msgid ""
+"By touching one of the six mode buttons, you switch to that mode. Some modes"
+" have alternate overlays, you can switch to those by touching the mode "
+"again. The first overlay is red, the second blue, the third is purple. The "
+"following mode-overlays are available:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:343
+msgid "FX: (red) Control effect device; (blue) Control deck superknob"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:344
+msgid "EQ: (red) Control deck EQ"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:345
+msgid "LOOP: (red) Set/release beat-loops; (blue) Rolling-loops"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:346
+msgid ""
+"TRIG: (red) cue points 1 through 5; (blue) cue points 6 through 10; (pink) "
+"cue points 11 through 15;"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:348
+msgid "VINYL: (red) jog wheel; (blue) scratch"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:349
+msgid "DECK: (red) library scan & load"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:351
+msgid ""
+"Modes are remembered per-deck. When you switch the deck, the mode last "
+"active for that deck will be selected."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:354
+msgid ""
+"By holding a mode button, a mode is enabled temporarily in hold-mode. When "
+"the button is released again, the device switches back to the previously "
+"selected mode. Some hold-modes enable alternative, often disruptive "
+"functionality. Most of the time you won’t want to use the hold-modes on live"
+" decks (e.g. needledrop in VINYL) or you must be very cautious (assigning "
+"effect chains with FX)."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:360
+msgid "Each mode will be explained in detail below."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:363
+msgid "FX mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:373
+msgid ""
+"FX mode allows you to control effects. Slider S2 controls the wet/dry mix of"
+" the current effect. Sliders S3, S4, and S5 control the first three effect "
+"knobs on the effect unit. (Specifically, the first effect of one of the four"
+" effect chains is controlled.)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:378
+msgid ""
+"The device remembers the selected effect per deck, so if you switch decks "
+"you also switch to the previously selected effect on that deck. Initially, "
+"effect slot 1 is selected for deck 1, slot 2 for deck 2 and so on."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:382
+msgid ""
+"To control another effect, buttons B11 through B14 allow you to switch. The "
+"currently active effect is shown in red where button B11 lights red when the"
+" first effect chain is selected, B12 for the second chain, B13 for chain 3, "
+"and B14 for chain 4. The buttons turn blue when the active deck is assigned "
+"to this effect chain. If the active effect is assigned to the current deck, "
+"the corresponding button will appear purple. If you don’t see purple it "
+"means that the effect you’re controlling is not assigned to the current "
+"deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:390
+msgid ""
+"For example, if the controller is on deck 2, has effect slot 2 selected, and"
+" effects 2 and 3 assigned, the four buttons would be lit as follows:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:393
+msgid "B11: black"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:394
+msgid "B12: purple"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:395
+msgid "B13: blue"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:396
+msgid "B14: black"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:399
+msgid "Holding FX"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:401
+msgid ""
+"By holding FX, you can toggle assignment of the current deck to effect "
+"chains with buttons B11 through B14. B11 assigns effect chain 1, B12 assigns"
+" effect chain 2, B13 assigns chain 3, and B14 assigns chain 4 to the active "
+"deck. The effects that have the current deck assigned are shown in blue. "
+"While FX is held, S2 can be used to scroll through different effects. To "
+"load the next effect, touch top half of the slider and touch the bottom half"
+" to load the previous effect into the currently active effect slot."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:409
+msgid ""
+"When FX is held, the button for the active deck is shown in red. So if you "
+"want to assign the active effect to the active deck, press the button that "
+"is red. If the button is purple, pressing it would deactivate the active "
+"effect on the active deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:414
+msgid ""
+"Example on how to load an echo effect into chain 3 and assign it to channel "
+"2:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:416
+msgid "Press DECK-B12 to switch to deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:417
+msgid "Press FX to switch to FX mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:418
+msgid "Press B13 to select effect chain 3"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:419
+msgid "Slide S2 to the bottom to bypass chain 3 (precautionary measure)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:420
+msgid ""
+"Hold FX and touch S2 above the middle to select the next effect (will select"
+" echo if no effect was selected previously)"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:422
+msgid "Hold FX and press B13 to assign effect chain 3 to deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:423
+msgid "Adjust echo parameters with sliders S3, S4, S5"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:424
+msgid "Slide S2 upwards to bring the effect in"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:429
+msgid "EQ mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:431
+msgid ""
+"In EQ mode, the central sliders S3, S4, S5 control low/mid/high EQs. Hold EQ"
+" to control pre-gain on S1 instead of volume. The other controls "
+"(low/mid/high/pitch) are reset to center when the control is touched while "
+"EQ is held."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:437
+msgid "LOOP mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:448
+msgid ""
+"By touching the circle you activate a loop over a certain number of beats. "
+"Touching on the right side will activate a beat-loop over 1, 2, 4, 8 etc "
+"beats, starting from the top. On the left side you get fractions 1/2, 1/4, "
+"1/8 etc loops starting from the top. To leave the loop, touch center."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:453
+msgid ""
+"By touching the LOOP mode button again, the ‘rolling’ overlay comes on and "
+"the LOOP button turns blue. In rolling mode, the loop will be released as "
+"soon as you take your finger off the circle and the track will resume where "
+"it would have been without looping."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:459
+msgid "TRIG mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:461
+msgid ""
+"You can set hotcues and jump to hotcues in this mode. The circle is split "
+"into five fields (1: top left, 2: bottom left, 3: top right, 4: bottom "
+"right, 5: center) where touching the area will either set the hotcue if it "
+"was unset, or trigger the hotcue if it was set. When a hotcue is set, the "
+"blue lights next to it will light."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:467
+msgid "To clear a hotcue, hold TRIG and touch the corresponding field."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:469
+msgid ""
+"The first TRIG overlay (red light) controls hotcues 1 to 5, touching TRIG "
+"will switch to overlay two, controlling hotcues 6 to 10 (blue light), then "
+"overlay three, for cue points 11 to 15 (purple light)."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:474
+msgid "VINYL mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:484
+msgid ""
+"The circle C1 functions as a jog-wheel, slide clockwise to speed-up the "
+"track. The center slider S4 can be used to raise and lower speed by holding "
+"it above or below center, respectively."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:488
+msgid ""
+"B11 jumps back one beat, B12 jumps forward. B13 and B14 control fast-"
+"reverse, fast-forward."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:491
+msgid ""
+"While VINYL is held, B11 through B14 set the pitch slider mode. The "
+"currently active mode lights blue. The different pitch slider modes are:"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:494
+msgid ""
+"B11 Absolute rate: The pitch slider directly sets the rate in a wide range"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:495
+msgid ""
+"B12 Discrete Pitch: Change pitch up or down by touching upper or lower part "
+"of slider"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:497
+msgid ""
+"B13 Rate: Change the rate up or down by holding the slider off-center. The "
+"further from the center you hold the slider, the faster the rate changes."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:499
+msgid "B14 Relative pitch: slide to change pitch up or down"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:501
+msgid ""
+"When VINYL is held, the SYNC button adjusts the beatgrid. When the track is "
+"not playing, the beatgrid is moved to the current track position. When the "
+"track is playing, the beatgrid is aligned with the other track’s beatgrid."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:505
+msgid ""
+"A second overlay to VINYL (blue) enables scratching on the pad. Both the "
+"circle and the center slider (S4) can be used to scratch."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:511
+msgid "DECK mode"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:513
+msgid ""
+"This mode is used to load tracks. When the current deck is not playing, an "
+"arrow pattern indicates that the currently selected track can be loaded into"
+" the deck by pressing the central field S4. Sliding on the circle C1 will "
+"scroll through the library."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:518
+msgid ""
+"B11 and B13 allow you to switch up and down between the library categories, "
+"while B12, B14 allow stepping through the library list one-by-one (the "
+"slider allows only coarse control)."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:522
+msgid "When holding DECK, you can switch channels."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:524
+msgid "B11: deck 1; B12: deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:525
+msgid "B13: deck 3; B14: deck 4"
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:527
+msgid ""
+"The corresponding button turns red. The active deck is shown on the buttons "
+"in all modes except FX."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:530
+msgid ""
+"The controller keeps its mode per deck. So when changing deck, the mode will"
+" switch to the mode previously used on that deck."
+msgstr ""
+
+#: ../../hardware/controllers/stanton_scs3d.rst:533
+msgid ""
+"Note that the active deck is synced with the :ref:`Stanton SCS.3m <stanton-"
+"scs-3m>`, so when switching between decks 1 and 3, or 2 and 4 the other "
+"device changes as well."
+msgstr ""

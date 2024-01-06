@@ -1,25 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Arnold Marko <arnold.marko@gmail.com>, 2020
+# daschuer2 <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.2\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-02-21 05:24+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2020\n"
-"Language-Team: Slovenian (https://www.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7664/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"
@@ -30,55 +226,61 @@ msgid ""
 "This chapter presents some example hardware setups with instructions for how"
 " to configure Mixxx to work with them."
 msgstr ""
+"V tem poglavju je predstavljenih nekaj primerov postavitev strojne opreme z "
+"navodili, kako konfigurirati Mixxx za delo z njimi."
 
 #: ../../chapters/example_setups.rst:10
 msgid ""
 ":ref:`hardware`: background information about different types of equipment."
-msgstr ""
+msgstr ":ref:`hardware`: osnovne informacije o različnih vrstah opreme. "
 
 #: ../../chapters/example_setups.rst:12
 msgid ""
 ":ref:`getting-started-sound-io`: details about each available input and "
 "output option."
 msgstr ""
+":ref:`getting-started-sound-io`: podrobnosti o vsaki razpoložljivi vhodni in"
+" izhodni možnosti. "
 
 #: ../../chapters/example_setups.rst:14
 msgid ""
 ":ref:`microphones`: details for configuring Mixxx to work with microphones."
 msgstr ""
+":ref:`microphones`: podrobnosti o konfiguraciji Mixxx za delo z mikrofoni. "
 
 #: ../../chapters/example_setups.rst:16
 msgid ""
-"`DJ Hardware Guide "
-"<https://mixxx.org/wiki/doku.php/hardware_compatibility>`_ lists specific "
-"devices with information about their prices, features, and compatibility "
-"with Mixxx."
+"`DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ lists specific devices with information about their prices,"
+" features, and compatibility with Mixxx."
 msgstr ""
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
-msgstr ""
+msgstr "Zgolj računalnik"
 
 #: ../../chapters/example_setups.rst:25
 msgid ""
 "The built-in audio interface on most computers comes with a single stereo "
 "line-out and a microphone input. This can be set up with Mixxx in two ways:"
 msgstr ""
+"Vgrajeni zvočni vmesnik večine računalnikov ima zgolj po en stereo izhod in "
+"mikrofonski izhod. Ta je v Mixxxu mogoče nastaviti na dva načina:"
 
 #: ../../chapters/example_setups.rst:29
 msgid "Practicing Mixing / Broadcasting"
-msgstr ""
+msgstr "Vaje miksanja/ oddajanja"
 
 #: ../../chapters/example_setups.rst:30
 msgid ""
 "This setup can be used with a single audio output for speakers or headphones"
 " to practice DJing without investing in any equipment other than a computer "
 "and a set of speakers or headphones. With this configuration, use the "
-":ref:`Pre/Main Knob <interface-head-master>` to switch back and forth "
-"between the Master mix and :term:`PFL` signal. This setup cannot be used to "
-"play for a live audience because the Master mix is not sent to an audio "
-"interface output. However, it can be used by radio DJs who only need to send"
-" the Master mix to a broadcast audience."
+":ref:`Pre/Main Knob <interface-head-main>` to switch back and forth between "
+"the main mix and :term:`PFL` signal. This setup cannot be used to play for a"
+" live audience because the main mix is not sent to an audio interface "
+"output. However, it can be used by radio DJs who only need to send the main "
+"mix to a broadcast audience."
 msgstr ""
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
@@ -102,12 +304,16 @@ msgid ""
 ":guilabel:`Headphones`, you can also plug speakers into the output jack of "
 "your computer."
 msgstr ""
+"V padajočem meniju :guilabel:`Slušalke` izberite vgrajeni zvočni vmesnik, "
+"nato pa :guilabel:`Kanala 1-2`. Čeprav imata ta oznako :guilabel:`Slušalke`,"
+" lahko preko jack izhoda računalnika priklopite tudi zvočnike."
 
 #: ../../chapters/example_setups.rst:45
 msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<microphones>`"
 msgstr ""
+"Odvisno od zvočnega vmesnika, lahko določite  :ref:`mikrofon <microphones>`"
 
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
@@ -118,7 +324,7 @@ msgstr ""
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
-"Preverite, da je vaš  :term:`OS <operating system>` preopznal mikrofon"
+"Preverite, da je vaš  :term:`OS <operating system>` prepoznal mikrofon"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
@@ -129,24 +335,26 @@ msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
-"Iz padajočega menuja :guilabel:`Mikrofon` , izberite vhod na s katerim je "
+"V padajočem meniju :guilabel:`Mikrofon` , izberite vhod na s katerim je "
 "povezan vaš mikrofon"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr "Kliknite :guilabel:`Prevzemi`, da bi shranili spremembe."
+msgstr "Kliknite :guilabel:`Uporabi`, da shranite spremembe."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
-msgstr ""
+msgstr "Predvajanje za občinstvo"
 
 #: ../../chapters/example_setups.rst:58
 msgid ""
 "This setup allows for playing to an audience without headphone "
 ":term:`cueing`."
 msgstr ""
+"Ta postavitev omogoča predvajanje občinstvu brez :term:`predposlušanja` s "
+"slušalkami."
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
@@ -154,7 +362,7 @@ msgstr "Uporaba Mixxx z vgrajeno zvočno kartico"
 
 #: ../../chapters/example_setups.rst:71
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 
@@ -163,6 +371,8 @@ msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<interface-mic>`"
 msgstr ""
+"Odvisno od zvočnega vmesnika, lahko določite  :ref:`mikrofon <interface-"
+"mic>`"
 
 #: ../../chapters/example_setups.rst:88
 msgid "Laptop and Splitter Cable"
@@ -175,6 +385,10 @@ msgid ""
 "jack of a laptop or other computer. This cable divides the stereo output "
 "from a single jack into two separate mono signals."
 msgstr ""
+"Najcenejši način za miksanje s :term:`predposlušanjem` preko slušalk "
+"omogočajo razdelilini kabli (tako imenovani “Y cable”), ki jih priključimo "
+"na izhod za slušalke na računalniku ali prenosniku. Ti znajo en stereo izhod"
+" pretovoriti v dva ločena mono izhoda za predposlušanje"
 
 #: ../../chapters/example_setups.rst:103
 msgid ""
@@ -185,10 +399,16 @@ msgid ""
 " interfaces built into computers are usually low quality and often pick up "
 "interference from other components of the computer."
 msgstr ""
+"Takšna postavitev omogoča didžejanje brez vložkov v drago opremo. Vendar, "
+"ker se signali prenašajo v mono načinu, vi in poslušalci ne boste mogli "
+"uživati v protorskem zvoku (resda je veliko klubskih sistemov itak zvezanih "
+"v mono načinu). Poleg tega so zvočni vmesniki računalnikov pogosto slabe "
+"kakovosti in pobirajo motnje drugih sestavnih delov računalnika."
 
 #: ../../chapters/example_setups.rst:110
 msgid "**Using a built-in audio interface and a stereo-to-mono splitter**"
 msgstr ""
+"**Uporaba vgrajenega zvočnega vmesnika in stereo-v-mono razdelilnika**"
 
 #: ../../chapters/example_setups.rst:114
 msgid ""
@@ -201,7 +421,7 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:117
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your built-in audio "
+"From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
 
@@ -210,6 +430,8 @@ msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 2`"
 msgstr ""
+"V padajočem meniju :guilabel:`Slušalke` izberite vgrajeni zvočni vmesnik in "
+"nato :guilabel:`Kanal 2`"
 
 #: ../../chapters/example_setups.rst:123
 msgid ""
@@ -221,28 +443,28 @@ msgid ""
 "both sides of your headphones and speakers."
 msgstr ""
 "Večina razdelilnih kablov, še posebej tisti, ki se prodajajo pod oznako "
-"razdelilec za slušalke, na dva jack izhoda vodijo isti stereo signal in zato"
-" ne bodo delovali v takšnem DJ setu. Če uporabljate generičen stero na mono "
-"razdelilnik, boste lahko slišali zgolj eno od strani preko slušalk in "
-"zvočnikov. DJ razdelilni kabli omogočajo, da slišite isti mono signal na "
-"obeh straneh vaših slušalk in zvočnikov."
+"razdelilnik za slušalke, pošiljajo isti stereo signal na dva jack izhoda in "
+"zato ne bodo delovali v takšni DJ postavitvi. Če uporabljate generičen "
+"stereo na mono razdelilnik, boste zvok lahko slišali zgolj na eni strani "
+"slušalk oz. zvočnikov. DJ razdelilni kabli omogočajo, da slišite isti mono "
+"signal na obeh straneh vaših slušalk ali zvočnikov."
 
 #: ../../chapters/example_setups.rst:134
 msgid "Laptop and External USB Audio Interface"
-msgstr ""
+msgstr "Prenosnik in zunanji USB zvočni vmesnik"
 
 #: ../../chapters/example_setups.rst:143
 msgid "Using Mixxx together with an external audio interface"
-msgstr ""
+msgstr "Uporaba Mixxx-a z zunanjim zvočnim vmesnikom"
 
 #: ../../chapters/example_setups.rst:145
 msgid "**Using two audio interfaces (built-in + external)**"
-msgstr ""
+msgstr "**Uporaba dveh zvočnih vmesnikov (vgrajeni in zunanji)**"
 
 #: ../../chapters/example_setups.rst:149 ../../chapters/example_setups.rst:158
 #: ../../chapters/example_setups.rst:217
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select the external audio "
+"From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 
@@ -251,16 +473,20 @@ msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select the built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"V padajočem menimu :guilabel:`Slušalke` izberite vgrajeni zvočni vmesnik in "
+"nato :guilabel:`Kanala 1-2`"
 
 #: ../../chapters/example_setups.rst:154
 msgid "**Using an external multi-channel audio interface**"
-msgstr ""
+msgstr "**Uporaba zunanjeega večkanalnega zvočnega vmesnika**"
 
 #: ../../chapters/example_setups.rst:160
 msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 3-4`"
 msgstr ""
+"V padajočem meniju :guilabel:`Slušalke` izberite vgrajeni zvočni vmesnik in "
+"nato :guilabel:`Kanala 3-4`"
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
@@ -271,30 +497,41 @@ msgid ""
 "The :ref:`hardware-controllers` section of the :ref:`hardware` chapter has "
 "background information about controllers."
 msgstr ""
+"Sekcija :ref:`hardware-controllers` poglavja :ref:`hardware` ponuja "
+"informacije o kontrolerjih."
 
 #: ../../chapters/example_setups.rst:173
 msgid "Controllers with an integrated audio interface"
-msgstr ""
+msgstr "Kontrolerji z vgrajenim zvočnim vmesnikom"
 
 #: ../../chapters/example_setups.rst:175
 msgid ""
 "Many DJ controllers include an integrated *multi-channel* audio interface. A"
 " setup with this kind of controller may look like the diagram below:"
 msgstr ""
+"Mnogo DJ kontrolerjev ima integriran \"več-kanalni\" zvočni vmesnik. "
+"Posatvitev s takšnim kontrolerjem bi lahko bila videti kot na spodnjem "
+"diagramu:"
+
+#: ../../chapters/example_setups.rst:186
+msgid ""
+"Using Mixxx together with a DJ controller and integrated audio\n"
+"interface"
+msgstr ""
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
-msgstr ""
+msgstr "Uporaba Mixxx-a z DJ kontrolerjem in vgrajenim zvočnim vmesnikom"
 
 #: ../../chapters/example_setups.rst:188
 msgid ""
 "**Using a controller with an integrated multi-channel audio interface**"
-msgstr ""
+msgstr "**Uporaba kontrolerja in vgrajenega večkanalnega zvočnega vmesnika**"
 
 #: ../../chapters/example_setups.rst:192
 msgid ""
-"From the :guilabel:`Master` drop-down menu, select your controller's audio "
+"From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 
@@ -303,24 +540,28 @@ msgid ""
 "From the :guilabel:`Headphones` drop-down menu, select your controller's "
 "audio interface, then :guilabel:`Channels 3-4`"
 msgstr ""
+"V padajočem meniju :guilabel:`Slušalke` izberite zvočni vmesnik kontrolerja "
+"in nato :guilabel:`Kanala 3-4`"
 
 #: ../../chapters/example_setups.rst:199
 msgid "Controllers without an integrated audio interface"
-msgstr ""
+msgstr "Kontrolerji brez vgrajenega zvočnega vmesnika"
 
 #: ../../chapters/example_setups.rst:201
 msgid ""
 "Controllers without an integrated audio interface can be used together with "
 "a USB audio interface as depicted in the diagram below:"
 msgstr ""
+"Kontrolerje brez vgrajanega zvočnega vmesnika lahko uporabljate skupaj z USB"
+" zvočnim vmesnikom, kot je prikazano na spodnjem diagramu:"
 
 #: ../../chapters/example_setups.rst:211
 msgid "Using Mixxx together with a DJ controller and external audio interface"
-msgstr ""
+msgstr "Uporaba Mixxx-a z DJ kontrolerjem in zunanjim zvočnim vmesnikom"
 
 #: ../../chapters/example_setups.rst:213
 msgid "**Using a controller without an integrated audio interface**"
-msgstr ""
+msgstr "**Uporaba kontrolerja brez vgrajenega zvočnega vmesnika**"
 
 #: ../../chapters/example_setups.rst:230
 msgid "Laptop, External Hardware Mixer and Vinyl Control"
@@ -339,6 +580,12 @@ msgid ""
 "headphones, this setup requires an audio interface with at least two pairs "
 "of stereo inputs and outputs as well as a pair of :term:`timecode` records."
 msgstr ""
+"Takšna postavitev omogoča didžejanje, kot da bi bila glasba na gramofonskih "
+"ploščah, hkrati pa ohranja mobilnost in fleksibilnost prenosnega "
+"računalnika. Namesto, da bi s sabo nosili gore plošč in CDjev, lahko DJ nosi"
+" vso glasbo na prenosniku. Poleg slušalk in prenosnika takšna postavitev "
+"potrebuje še vsaj dva para stereo vhodovo in izhodov ter par  plošč s "
+":term:`časovno kodo`."
 
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."

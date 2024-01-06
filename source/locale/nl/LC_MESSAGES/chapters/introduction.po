@@ -1,22 +1,221 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2020, The Mixxx Development Team
+# Copyright (C) 2011-2021, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mario Moens <marimo.it4u@gmail.com>, 2020
+# daschuer2 <daschuer@mixxx.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx DJ manual\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 21:13-0800\n"
-"PO-Revision-Date: 2020-03-04 14:57+0000\n"
-"Last-Translator: Mario Moens <marimo.it4u@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/mixxx-dj-software/mixxxdj-manual/language/nl/)\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
 
 #: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
@@ -31,7 +230,14 @@ msgid ""
 "project is non-profit, open-source and community driven. Together, we aim to"
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
-msgstr "Met Mixxx kun je live DJ-mixen uitvoeren met je digitale muziekcollectie. Het helpt je het feest te laten losbarsten met DJ-controllers, vinyl draaitafels of zelfs alleen je toetsenbord. Het is ontwikkeld door een internationaal team van vrijwilligers die het plezier van het DJ'en bij iedereen willen brengen. Het project is non-profit, open source en community-driven. Samen willen we de beste DJ-software maken die ooit is gemaakt. We hopen dat je dat doet: ref: `sluit je aan<contributing>`!"
+msgstr ""
+"Met Mixxx kun je live DJ-mixen uitvoeren met je digitale muziekcollectie. "
+"Het helpt je het feest te laten losbarsten met DJ-controllers, vinyl "
+"draaitafels of zelfs alleen je toetsenbord. Het is ontwikkeld door een "
+"internationaal team van vrijwilligers die het plezier van het DJ'en bij "
+"iedereen willen brengen. Het project is non-profit, open source en "
+"community-driven. Samen willen we de beste DJ-software maken die ooit is "
+"gemaakt. We hopen dat je dat doet: ref: `sluit je aan<contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
@@ -44,6 +250,10 @@ msgid ""
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
 msgstr ""
+"Mixxx verschilt van typische toepassingen voor muziekspelers omdat het "
+"meerdere audiobestanden tegelijk afspeelt en veel functies heeft om het "
+"afspelen van de audiobestanden te manipuleren. Dit laat je toe om on-the-fly"
+" op een creatieve manier verschillende tracks met elkaar mixen."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -53,14 +263,24 @@ msgid ""
 " the currently playing track(s). To use headphone cueing, you need at least "
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
-"anymore). Mixxx can be used in two different ways for headphone cueing:"
+"anymore)."
 msgstr ""
 
-#: ../../chapters/introduction.rst:32
+#: ../../chapters/introduction.rst:31
+msgid ""
+"The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
+"Deck 2 the shortcut is :kbd:`Y`."
+msgstr ""
+
+#: ../../chapters/introduction.rst:33
+msgid "Mixxx can be used in two different ways for headphone cueing:"
+msgstr ""
+
+#: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "**Interne Mixing**"
 
-#: ../../chapters/introduction.rst:34
+#: ../../chapters/introduction.rst:37
 msgid ""
 "Mixxx plays multiple audio files on the computer at the same time, mixes "
 "them together, and sends the mixed signal to one audio interface output. A "
@@ -68,19 +288,34 @@ msgid ""
 "cueing. Often a DJ controller is used with internal mixing to provide easier"
 " control over Mixxx than a mouse and keyboard."
 msgstr ""
+"Mixxx speelt meerdere audiobestanden tegelijk af op de computer, mixt ze "
+"samen en stuurt het gemixte signaal naar één audio-interface-uitgang. Een "
+"apart signaal wordt naar een andere audio-interface-uitgang gestuurd voor "
+"hoofdtelefoon-cueing. Vaak wordt een DJ-controller gebruikt met interne "
+"mixing om gemakkelijker en betere controle te hebben over Mixxx dan een muis"
+" en toetsenbord."
 
-#: ../../chapters/introduction.rst:48
+#: ../../chapters/introduction.rst:0
+msgid ""
+"Using Mixxx together with a DJ controller and integrated audio\n"
+"interface"
+msgstr ""
+
+#: ../../chapters/introduction.rst:51
 msgid ""
 "Using Mixxx together with a DJ controller for internal mixing. The DJ "
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
 msgstr ""
+"Mixxx samen met een DJ-controller gebruiken voor intern mixen. De DJ-"
+"controller heeft een geïntegreerde audio-interface die twee afzonderlijke "
+"stereo-uitgangen voorziet."
 
-#: ../../chapters/introduction.rst:52
+#: ../../chapters/introduction.rst:55
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Externe Mixing**"
 
-#: ../../chapters/introduction.rst:54
+#: ../../chapters/introduction.rst:57
 msgid ""
 "In this kind of setup, Mixxx plays multiple audio files on the computer at "
 "the same time and sends each track to a separate audio interface output. The"
@@ -92,9 +327,25 @@ msgid ""
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
 msgstr ""
+"Bij dit soort instellingen speelt Mixxx meerdere audiobestanden "
+"tegelijkertijd op de computer af en stuurt elk nummer naar een afzonderlijke"
+" audio-interface-uitgang. De uitgangen van de audio-interface zijn "
+"aangesloten op een externe hardwaremixer. De hardwaremixer voert het "
+"eigenlijke mixen van de audiosignalen uit. Op de hardwaremixer zijn er "
+"aparte uitgangen voor het gemengde signaal om voor het publiek te spelen en "
+"voor de DJ om hoofdtelefoon-cueing te gebruiken. Externe menging wordt "
+"meestal gebruikt met draaitafels en: ref: `speciale vinylplaten<vinyl-"
+"control>` om digitale muziekbestanden te manipuleren alsof de muziek op "
+"vinylplaten staat."
 
-#: ../../chapters/introduction.rst:71
+#: ../../chapters/introduction.rst:0
+msgid "Using Mixxx together with turntables and external mixer"
+msgstr ""
+
+#: ../../chapters/introduction.rst:74
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
 msgstr ""
+"Mixxx gebruiken in combinatie met een USB-audio-interface, externe mixer en "
+"tijdgecodeerde vinyl voor extern mixen"

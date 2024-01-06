@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7664/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/introduction.rst:6
+msgid "Introduction to Mixxx"
+msgstr ""
+
+#: ../../chapters/introduction.rst:8
+msgid ""
+"Mixxx enables you to perform live DJ mixes with your digital music "
+"collection. It helps you rock the party with DJ controllers, vinyl "
+"turntables, or even just your keyboard. It is developed by an international "
+"team of volunteers who want to bring the joy of DJing to everyone. The "
+"project is non-profit, open-source and community driven. Together, we aim to"
+" build the best DJ software ever created. We hope you will :ref:`join us "
+"<contributing>`!"
+msgstr ""
+
+#: ../../chapters/introduction.rst:18
+msgid "How Mixxx Works"
+msgstr ""
+
+#: ../../chapters/introduction.rst:19
+msgid ""
+"Mixxx is different from typical music player applications because it plays "
+"multiple audio files at the same time and has many features to manipulate "
+"the playback of the audio files. This lets you creatively mix different "
+"tracks together on the fly."
+msgstr ""
+
+#: ../../chapters/introduction.rst:24
+msgid ""
+"You can use Mixxx to preview the next track in headphones before the "
+"audience hears it, also known as headphone cueing. This helps you choose a "
+"track that is appropriate for the present moment and that will mix well into"
+" the currently playing track(s). To use headphone cueing, you need at least "
+"2 separate audio outputs, typically provided by a USB audio interface (also "
+"known as a “sound card”, although most of them are not shaped like cards "
+"anymore)."
+msgstr ""
+
+#: ../../chapters/introduction.rst:31
+msgid ""
+"The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
+"Deck 2 the shortcut is :kbd:`Y`."
+msgstr ""
+
+#: ../../chapters/introduction.rst:33
+msgid "Mixxx can be used in two different ways for headphone cueing:"
+msgstr ""
+
+#: ../../chapters/introduction.rst:35
+msgid "**Internal Mixing**"
+msgstr ""
+
+#: ../../chapters/introduction.rst:37
+msgid ""
+"Mixxx plays multiple audio files on the computer at the same time, mixes "
+"them together, and sends the mixed signal to one audio interface output. A "
+"separate signal is sent to another audio interface output for headphone "
+"cueing. Often a DJ controller is used with internal mixing to provide easier"
+" control over Mixxx than a mouse and keyboard."
+msgstr ""
+
+#: ../../chapters/introduction.rst:0
+msgid ""
+"Using Mixxx together with a DJ controller and integrated audio\n"
+"interface"
+msgstr ""
+
+#: ../../chapters/introduction.rst:51
+msgid ""
+"Using Mixxx together with a DJ controller for internal mixing. The DJ "
+"controller has an integrated audio interface that provides two separate "
+"stereo outputs."
+msgstr ""
+
+#: ../../chapters/introduction.rst:55
+msgid "**External Mixing**"
+msgstr ""
+
+#: ../../chapters/introduction.rst:57
+msgid ""
+"In this kind of setup, Mixxx plays multiple audio files on the computer at "
+"the same time and sends each track to a separate audio interface output. The"
+" audio interface's outputs are plugged into an external hardware mixer. The "
+"hardware mixer performs the actual mixing of the audio signals. On the "
+"hardware mixer, there are separate outputs for the mixed signal to play to "
+"the audience and for the DJ to use headphone cueing. External mixing is "
+"typically used with turntables and :ref:`special vinyl records<vinyl-"
+"control>` to manipulate digital music files as if the music was on the vinyl"
+" records."
+msgstr ""
+
+#: ../../chapters/introduction.rst:0
+msgid "Using Mixxx together with turntables and external mixer"
+msgstr ""
+
+#: ../../chapters/introduction.rst:74
+msgid ""
+"Using Mixxx together with a USB audio interface, external mixer, and "
+"timecode vinyl for external mixing"
+msgstr ""

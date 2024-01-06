@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7664/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:2
+msgid "Hercules DJControl AIR"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:4
+msgid ""
+"This is one of the cheapest Hercules DJ controller from Hercules leisure DJ "
+"controllers brand. There are actually many versions of it:"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:7
+msgid "DJControl AIR (The one shown in picture above)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:8
+msgid "DJControl AIR Street Edition (Limited Edition)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:9
+msgid "DJControl AIR S Series"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:10
+msgid "DJControl AIR for iPad"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:12
+msgid ""
+"This controller have built-in soundcard with mixer output (3.5mm jack) and "
+"headphones output (6.35mm jack)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:15
+msgid ""
+"The main fun and uncommon feature of this controller is its proximity sensor"
+" (IR) located above EQ potentiometers and between top horizontal vu-meter."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:19
+msgid ""
+"`Manufacturer’s product page "
+"<https://support.hercules.com/en/product/djcontrolair-en/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:20
+msgid ""
+"`Forum Thread <https://mixxx.discourse.group/t/hercules-dj-control-"
+"air/12042>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:25
+msgid "Sound Hardware settings"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:27
+msgid "Sample rate: 44100 Hz"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:28
+msgid "Main Output: Channels 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:29
+msgid "Headphones Output: Channels 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:32
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:41
+msgid "Hercules DJControl AIR (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:41
+msgid ""
+"Hercules DJControl AIR (schematic view). This picture is taken from the "
+"`Getting Started Tutorial "
+"<http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__"
+" (courtesy of Guillemot Corporation S.A.)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:43
+msgid ""
+"We assume from the annotated picture above that each decks have same "
+"controls."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:46
+msgid "Jogs / Jogs Wheels (1)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:48
+msgid "Pressing Jogs enable the scratch mode."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:51
+msgid "PADs (2)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:54
+msgid "\\"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:54
+msgid "Loops"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:54
+msgid "Effects"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:54
+msgid "Samples"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:55
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:55
+msgid "Loop In"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:55
+msgid "Flanger (Mixxx 1.10)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:55
+msgid "Sample 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:56
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:56
+msgid "Loop Out"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:56
+msgid "Align Beat Grid to current position"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:56
+msgid "Sample 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:57
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:57
+msgid "Loop Double"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:57
+msgid "Toggle Quantitize"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:57
+msgid "Sample 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:58
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:58
+msgid "Reloop/Exit"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:58
+msgid "Toggle KeyLock"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:58
+msgid "Sample 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:62
+msgid "Proximity Sensor (4)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:64
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:98
+msgid "*Currently not mapped*"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:67
+msgid "Library Navigation (8)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:69
+msgid "**Folder** : Switch to previous view (library, playlist…)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:70
+msgid "**Files** : Switch to next view (library, playlist…)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:71
+msgid "**Up** : Scroll to previous track in library/playlist"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:72
+msgid "**Down** : Scroll to next track in library/playlist"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:75
+msgid "Load track to Deck (9)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:77
+msgid "This button load track to the selected deck (A => Deck 1, B => Deck 2)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:80
+msgid "Headphone listen (PFL) (10)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:82
+msgid "This toggle the Pre Fader Listen for the selected Deck(s)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:85
+msgid "Rec (11)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:90
+msgid "Load selected track to sample (12)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:92
+msgid ""
+"This is done by pressing and holding the **Magic** button while pressing on "
+"the desired sample PAD."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:96
+msgid "SpinBack(13)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:101
+msgid "Sync (16)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:103
+msgid ""
+"Synchronize the tempo to the other deck one (One-time beat sync, "
+"tempo/phase)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:107
+msgid "Speed Adjustment (17)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_air.rst:109
+msgid "Adjust speed slower [ - ] or faster [ + ] in Coarse mode."
+msgstr ""

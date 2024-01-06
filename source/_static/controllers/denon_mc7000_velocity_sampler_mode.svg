@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="297mm" height="210mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 29700 21000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <defs class="ClipPathGroup">
+  <clipPath id="a">
+   <rect width="29700" height="21000"/>
+  </clipPath>
+
+ </defs>
+ <defs>
+  <font id="b" horiz-adv-x="2048">
+   <font-face font-family="Nimbus Sans Narrow embedded" font-weight="bold" ascent="1455" descent="582" units-per-em="2048"/>
+   <missing-glyph d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z" horiz-adv-x="2048"/>
+   <glyph horiz-adv-x="476" unicode=" "/>
+  </font>
+ </defs>
+
+
+
+
+
+ <g class="SlideGroup">
+
+
+    <g class="Slide" clip-path="url(#a)">
+     <g class="Page">
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+        <rect x="70.376" y="70.376" width="29539" height="20842" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-width="26.458px"/>
+        <rect class="BoundingBox" x="1329" y="2206" width="5227" height="1523" fill="none"/>
+        <path d="m4904 3267h-531v-623h522v99h-395v159h382v94h-382v176h404v95zm-650-266c0 104-4 284-299 284-294 0-294-180-294-284v-357h127v352c0 86 0 190 167 190s172-104 172-190v-352h127v357zm-1015 185c132 0 176-90 185-154h136c-17 122-97 253-342 253-220 0-325-153-325-329 0-172 101-325 338-325 211 0 316 112 329 243h-136c-13-90-88-149-193-149-119 0-207 82-207 244 0 131 88 217 215 217zm3198-980h-4985c-70 0-123 54-123 117v1279c0 67 53 126 123 126h4985c66 0 118-59 118-126v-1279c0-63-52-117-118-117z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="10750" y="2734" width="453" height="471" fill="none"/>
+        <path d="m10974 2734c-141 0-224 95-224 230 0 145 83 240 224 240 145 0 228-95 228-240 0-135-83-230-228-230z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="10087" y="2752" width="336" height="186" fill="none"/>
+        <path d="m10311 2752h-224v185h224c70 0 110-22 110-90 0-63-40-95-110-95z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="8589" y="2206" width="5227" height="1523" fill="none"/>
+        <path d="m12485 3276h-492v-623h127v519h365v104zm-563 0h-500v-623h127v519h373v104zm-948 18c-255 0-356-153-356-329 0-172 101-325 356-325 259 0 356 153 356 325 0 176-97 329-356 329zm-549-18c-9-18-13-49-13-94 0-86-14-150-106-150h-219v244h-128v-623h387c153 0 202 77 202 172 0 81-44 131-101 149v4c74 14 92 77 92 167 0 27 0 100 22 131h-136zm3272-1070h-4994c-61 0-114 54-114 117v1279c0 67 53 126 114 126h4994c66 0 118-59 118-126v-1279c0-63-52-117-118-117z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="19701" y="2752" width="336" height="186" fill="none"/>
+        <path d="m19921 2752h-220v185h220c74 0 114-22 114-90 0-63-44-95-114-95z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="15845" y="2206" width="5227" height="1523" fill="none"/>
+        <path d="m20044 3276c-9-18-18-49-18-94 0-86-9-150-105-150h-215v244h-128v-623h387c153 0 202 77 202 172 0 81-44 131-101 149v4c74 14 87 77 87 167 0 27 0 100 27 131h-136zm-562 0h-532v-623h527v99h-400v159h383v94h-383v177h405v94zm-958-76c132 0 176-95 185-158h140c-17 121-97 252-347 252-219 0-325-153-325-329 0-172 101-325 338-325 211 0 321 112 334 243h-140c-14-90-88-149-194-149-118 0-206 82-206 244 0 131 88 222 215 222zm-435 76h-127v-623h127v623zm-197 0h-497v-623h128v519h369v104zm-870 18c-215 0-303-85-307-216h140c0 81 66 122 171 122 84 0 154-28 154-95 0-154-448-18-448-276 0-135 119-189 264-189 101 0 285 13 303 194h-136c-5-45-49-100-159-100-87 0-140 28-140 86 0 149 452 5 452 271 0 163-158 203-294 203zm3935-1088h-4993c-66 0-119 54-119 117v1279c0 67 53 126 119 126h4993c62 0 114-59 114-126v-1279c0-63-52-117-114-117z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="25757" y="2752" width="322" height="195" fill="none"/>
+        <path d="m25977 2752h-220v194h211c70 0 110-22 110-99s-53-95-101-95z" fill="#ba68c8"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="24225" y="2761" width="213" height="267" fill="none"/>
+        <path d="m24225 3027h211l-106-266-105 266z" fill="#ba68c8"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="27580" y="2752" width="330" height="186" fill="none"/>
+        <path d="m27804 2752h-224v185h224c70 0 105-22 105-90 0-63-39-95-105-95z" fill="#ba68c8"/>
+
+
+
+
+        <rect class="BoundingBox" x="23105" y="2206" width="5227" height="1523" fill="none"/>
+        <path d="m27919 3276c-9-18-14-49-14-94 0-86-13-150-105-150h-215v244h-132v-623h387c153 0 202 77 202 172 0 81-40 131-97 149v4c70 14 88 77 88 167 0 27 0 100 26 131h-140zm-554 0h-531v-623h527v99h-400v159h382v94h-382v177h404v94zm-602 0h-496v-623h128v519h368v104zm-759-234h-246v234h-128v-623h374c149 0 197 95 197 194 0 95-61 195-197 195zm-488 234h-118l4-514-224 514h-110l-219-514h-5l5 514h-119v-623h184l211 483 211-483h180v623zm-984 0-61-153h-286l-61 153h-136l268-623h149l272 623h-145zm-843 18c-219 0-307-85-307-216h136c4 81 70 122 171 122 79 0 149-28 149-95 0-154-443-18-443-276 0-135 118-189 268-189 92 0 276 13 294 194h-136c-5-45-48-100-154-100-83 0-140 28-140 86 0 149 452 5 452 271 0 163-163 203-290 203zm4524-1088h-4989c-66 0-119 54-119 117v1279c0 67 53 126 119 126h4989c66 0 118-59 118-126v-1279c0-63-52-117-118-117z" fill="#ba68c8"/>
+
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="6516" y="1989" width="256" height="267"/>
+        <path d="m6762 2246c0-135-110-248-237-248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1364" y="1989" width="5171" height="19"/>
+        <path d="m1373 1998h5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="6516" y="3678" width="256" height="263"/>
+        <path d="m6525 3931c127 0 237-109 237-244" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="6749" y="2233" width="19" height="1460"/>
+        <path d="m6758 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1127" y="1989" width="261" height="267"/>
+        <path d="m1378 1998c-137 0-242 113-242 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1364" y="3918" width="5171" height="19"/>
+        <path d="m6525 3927h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1132" y="3674" width="256" height="267"/>
+        <path d="m1141 3683c0 140 101 248 237 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1132" y="2233" width="19" height="1460"/>
+        <path d="m1141 3683v-1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="991" y="1845" width="397" height="412"/>
+        <path d="m1378 1854c-211 0-378 176-378 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="1364" y="1845" width="5171" height="19"/>
+        <path d="m6525 1854h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="991" y="3674" width="397" height="412"/>
+        <path d="m1e3 3683c0 217 167 393 378 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="991" y="2233" width="19" height="1460"/>
+        <path d="m1e3 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
+
+        <rect class="BoundingBox" x="6516" y="1845" width="397" height="412"/>
+        <path d="m6903 2247c0-217-172-393-378-393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1364" y="2233" width="5548" height="1853"/>
+        <path d="m1373 4076h5156c207 0 373-172 373-389v-1445" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13767" y="1989" width="256" height="267"/>
+        <path d="m14013 2246c0-135-110-248-237-248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8615" y="1989" width="5171" height="19"/>
+        <path d="m8624 1998h5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="13767" y="3674" width="256" height="267"/>
+        <path d="m13776 3931c127 0 237-108 237-248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="14000" y="2233" width="19" height="1460"/>
+        <path d="m14009 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8378" y="1989" width="261" height="267"/>
+        <path d="m8629 1998c-137 0-242 113-242 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8615" y="3918" width="5171" height="19"/>
+        <path d="m13776 3927h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8378" y="3674" width="261" height="267"/>
+        <path d="m8387 3683c0 140 105 248 242 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8378" y="2233" width="19" height="1460"/>
+        <path d="m8387 3683v-1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8238" y="1845" width="401" height="412"/>
+        <path d="m8629 1854c-206 0-382 176-382 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8615" y="1845" width="5171" height="19"/>
+        <path d="m13776 1854h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8238" y="3674" width="401" height="412"/>
+        <path d="m8247 3683c0 217 176 393 382 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="8238" y="2233" width="19" height="1460"/>
+        <path d="m8247 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
+
+        <rect class="BoundingBox" x="13767" y="1845" width="397" height="412"/>
+        <path d="m14154 2247c0-217-167-393-378-393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8615" y="2233" width="5548" height="1853"/>
+        <path d="m8624 4076h5156c207 0 373-172 373-389v-1445" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21031" y="1989" width="261" height="267"/>
+        <path d="m21282 2246c0-135-106-248-242-248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15880" y="1989" width="5171" height="19"/>
+        <path d="m15889 1998h5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="21031" y="3674" width="261" height="267"/>
+        <path d="m21040 3931c136 0 242-108 242-248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="21269" y="2233" width="19" height="1460"/>
+        <path d="m21278 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15647" y="1989" width="256" height="267"/>
+        <path d="m15893 1998c-132 0-237 113-237 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15880" y="3918" width="5171" height="19"/>
+        <path d="m21041 3927h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15647" y="3674" width="256" height="267"/>
+        <path d="m15656 3683c0 140 105 248 237 248" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15647" y="2233" width="19" height="1460"/>
+        <path d="m15656 3683v-1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15506" y="1845" width="397" height="412"/>
+        <path d="m15893 1854c-211 0-378 176-378 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15880" y="1845" width="5171" height="19"/>
+        <path d="m21041 1854h-5152" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15506" y="3674" width="397" height="412"/>
+        <path d="m15515 3683c0 212 167 393 378 393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="15506" y="2233" width="19" height="1460"/>
+        <path d="m15515 2242v1441" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
+
+        <rect class="BoundingBox" x="21031" y="1845" width="401" height="412"/>
+        <path d="m21422 2247c0-217-171-393-382-393" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15880" y="2233" width="5553" height="1853"/>
+        <path d="m15889 4076h5156c207 0 378-177 378-389v-1445" stroke="#cdccca" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28291" y="1989" width="256" height="267"/>
+        <path d="m28537 2246c0-135-105-248-237-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="23140" y="1989" width="5171" height="19"/>
+        <path d="m23149 1998h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="28291" y="3678" width="256" height="263"/>
+        <path d="m28300 3931c132 0 237-109 237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="28524" y="2233" width="19" height="1460"/>
+        <path d="m28533 2242v1441" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22907" y="1989" width="256" height="267"/>
+        <path d="m23153 1998c-132 0-237 113-237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="23140" y="3918" width="5171" height="19"/>
+        <path d="m28301 3927h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22907" y="3674" width="256" height="267"/>
+        <path d="m22916 3683c0 140 110 248 237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22907" y="2233" width="19" height="1460"/>
+        <path d="m22916 3683v-1441" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22766" y="1845" width="397" height="412"/>
+        <path d="m23153 1854c-207 0-378 176-378 393" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="23140" y="1845" width="5171" height="19"/>
+        <path d="m28301 1854h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22766" y="3674" width="397" height="412"/>
+        <path d="m22775 3683c0 217 171 393 378 393" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="22766" y="2233" width="19" height="1460"/>
+        <path d="m22775 2242v1441" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="28291" y="1845" width="397" height="412"/>
+        <path d="m28678 2247c0-217-172-393-378-393" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.LineShape">
+       <g fill="none">
+        <rect class="BoundingBox" x="23140" y="4062" width="5171" height="19"/>
+        <path d="m23149 4071h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.OpenBezierShape" fill="none">
+
+        <rect class="BoundingBox" x="28291" y="2233" width="397" height="1853"/>
+        <path d="m28300 4076c206 0 378-172 378-384v-1450" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="14305" width="19" height="5339"/>
+        <path d="m1009 14314v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6876" y="14305" width="19" height="5339"/>
+        <path d="m6885 19634v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1351" y="19986" width="5193" height="19"/>
+        <path d="m1360 19995h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="13944" width="375" height="385"/>
+        <path d="m1365 13953c-193 0-356 163-356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1351" y="13944" width="5193" height="19"/>
+        <path d="m6534 13953h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6525" y="19625" width="375" height="385"/>
+        <path d="m6534 2e4c198 0 356-167 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="19625" width="375" height="385"/>
+        <path d="m1009 19634c0 199 163 366 356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6525" y="13944" width="375" height="385"/>
+        <path d="m6890 14319c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6516" y="19612" width="256" height="267"/>
+        <path d="m6525 19869c127 0 237-113 237-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6516" y="14075" width="256" height="267"/>
+        <path d="m6762 14332c0-140-110-248-237-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1364" y="19856" width="5171" height="19"/>
+        <path d="m6525 19865h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6749" y="14319" width="19" height="5312"/>
+        <path d="m6758 14328v5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="19612" width="261" height="267"/>
+        <path d="m1136 19621c0 135 105 248 242 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="14319" width="19" height="5312"/>
+        <path d="m1136 19621v-5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1364" y="14075" width="5171" height="19"/>
+        <path d="m1373 14084h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="14075" width="261" height="267"/>
+        <path d="m1378 14084c-137 0-242 108-242 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="6840" width="19" height="5339"/>
+        <path d="m1009 6849v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6876" y="6840" width="19" height="5339"/>
+        <path d="m6885 12169v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1351" y="12526" width="5193" height="19"/>
+        <path d="m1360 12535h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="6483" width="375" height="380"/>
+        <path d="m1365 6492c-193 0-356 158-356 361" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1351" y="6483" width="5193" height="19"/>
+        <path d="m6534 6492h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6525" y="12160" width="375" height="389"/>
+        <path d="m6534 12539c198 0 356-162 356-370" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1e3" y="12160" width="375" height="389"/>
+        <path d="m1009 12169c0 208 163 370 356 370" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6525" y="6483" width="375" height="380"/>
+        <path d="m6890 6853c0-203-158-361-356-361" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6516" y="12151" width="256" height="263"/>
+        <path d="m6525 12404c127 0 237-113 237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6516" y="6614" width="256" height="263"/>
+        <path d="m6762 6867c0-131-110-244-237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1364" y="12390" width="5171" height="19"/>
+        <path d="m6525 12399h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="6749" y="6853" width="19" height="5317"/>
+        <path d="m6758 6862v5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="12151" width="261" height="263"/>
+        <path d="m1136 12160c0 131 105 244 242 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="6853" width="19" height="5317"/>
+        <path d="m1136 12160v-5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1364" y="6614" width="5171" height="19"/>
+        <path d="m1373 6623h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="1127" y="6614" width="261" height="263"/>
+        <path d="m1378 6623c-137 0-242 113-242 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="14305" width="19" height="5339"/>
+        <path d="m8269 14314v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="14136" y="14305" width="19" height="5339"/>
+        <path d="m14145 19634v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8611" y="19986" width="5193" height="19"/>
+        <path d="m8620 19995h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="13944" width="375" height="385"/>
+        <path d="m8625 13953c-198 0-356 163-356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8611" y="13944" width="5193" height="19"/>
+        <path d="m13794 13953h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13785" y="19625" width="375" height="385"/>
+        <path d="m13794 2e4c198 0 356-167 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="19625" width="375" height="385"/>
+        <path d="m8269 19634c0 199 158 366 356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13785" y="13944" width="375" height="385"/>
+        <path d="m14150 14319c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13772" y="19612" width="261" height="267"/>
+        <path d="m13781 19869c132 0 242-113 242-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13772" y="14075" width="261" height="267"/>
+        <path d="m14023 14332c0-140-110-248-242-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8624" y="19856" width="5166" height="19"/>
+        <path d="m13780 19865h-5147" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="14009" y="14319" width="19" height="5312"/>
+        <path d="m14018 14328v5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="19612" width="261" height="267"/>
+        <path d="m8396 19621c0 135 105 248 242 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="14319" width="19" height="5312"/>
+        <path d="m8396 19621v-5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8624" y="14075" width="5171" height="19"/>
+        <path d="m8633 14084h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="14075" width="261" height="267"/>
+        <path d="m8638 14084c-137 0-242 108-242 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="6840" width="19" height="5339"/>
+        <path d="m8269 6849v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="14136" y="6840" width="19" height="5339"/>
+        <path d="m14145 12169v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8611" y="12521" width="5193" height="19"/>
+        <path d="m8620 12530h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="6478" width="375" height="385"/>
+        <path d="m8625 6487c-198 0-356 163-356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8611" y="6478" width="5193" height="19"/>
+        <path d="m13794 6487h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13785" y="12160" width="375" height="385"/>
+        <path d="m13794 12535c198 0 356-158 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8260" y="12160" width="375" height="385"/>
+        <path d="m8269 12169c0 208 158 366 356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13785" y="6478" width="375" height="385"/>
+        <path d="m14150 6853c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13776" y="12151" width="256" height="263"/>
+        <path d="m13785 12404c127 0 237-113 237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="13776" y="6614" width="256" height="263"/>
+        <path d="m14022 6867c0-131-110-244-237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8624" y="12390" width="5171" height="19"/>
+        <path d="m13785 12399h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="14009" y="6853" width="19" height="5317"/>
+        <path d="m14018 6862v5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="12151" width="261" height="263"/>
+        <path d="m8396 12160c0 131 105 244 242 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="6853" width="19" height="5317"/>
+        <path d="m8396 12160v-5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8624" y="6614" width="5171" height="19"/>
+        <path d="m8633 6623h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="8387" y="6614" width="261" height="263"/>
+        <path d="m8638 6623c-137 0-242 113-242 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="14305" width="19" height="5339"/>
+        <path d="m15529 14314v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21396" y="14305" width="19" height="5339"/>
+        <path d="m21405 19634v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15871" y="19986" width="5193" height="19"/>
+        <path d="m15880 19995h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="13944" width="375" height="385"/>
+        <path d="m15885 13953c-198 0-356 163-356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15871" y="13944" width="5193" height="19"/>
+        <path d="m21054 13953h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21045" y="19625" width="375" height="385"/>
+        <path d="m21054 2e4c198 0 356-167 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="19625" width="375" height="385"/>
+        <path d="m15529 19634c0 199 158 366 356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21045" y="13944" width="375" height="385"/>
+        <path d="m21410 14319c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21031" y="19612" width="261" height="267"/>
+        <path d="m21040 19869c136 0 242-113 242-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21031" y="14075" width="261" height="267"/>
+        <path d="m21282 14332c0-140-106-248-242-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15880" y="19856" width="5171" height="19"/>
+        <path d="m21041 19865h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21269" y="14319" width="19" height="5312"/>
+        <path d="m21278 14328v5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="19612" width="256" height="267"/>
+        <path d="m15656 19621c0 135 105 248 237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="14319" width="19" height="5312"/>
+        <path d="m15656 19621v-5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15880" y="14075" width="5171" height="19"/>
+        <path d="m15889 14084h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="14075" width="256" height="267"/>
+        <path d="m15893 14084c-132 0-237 108-237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="6840" width="19" height="5339"/>
+        <path d="m15529 6849v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21396" y="6840" width="19" height="5339"/>
+        <path d="m21405 12169v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15871" y="12521" width="5193" height="19"/>
+        <path d="m15880 12530h5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="6478" width="375" height="385"/>
+        <path d="m15885 6487c-198 0-356 163-356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15871" y="6478" width="5193" height="19"/>
+        <path d="m21054 6487h-5174" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21045" y="12160" width="375" height="385"/>
+        <path d="m21054 12535c198 0 356-158 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15520" y="12160" width="375" height="385"/>
+        <path d="m15529 12169c0 208 158 366 356 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21045" y="6478" width="375" height="385"/>
+        <path d="m21410 6853c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21031" y="12151" width="261" height="263"/>
+        <path d="m21040 12404c136 0 242-113 242-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21031" y="6614" width="261" height="263"/>
+        <path d="m21282 6867c0-131-106-244-242-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15880" y="12390" width="5171" height="19"/>
+        <path d="m21041 12399h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="21269" y="6853" width="19" height="5317"/>
+        <path d="m21278 6862v5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="12151" width="256" height="263"/>
+        <path d="m15656 12160c0 131 105 244 237 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="6853" width="19" height="5317"/>
+        <path d="m15656 12160v-5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15880" y="6614" width="5171" height="19"/>
+        <path d="m15889 6623h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="15647" y="6614" width="256" height="263"/>
+        <path d="m15893 6623c-132 0-237 113-237 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="14305" width="19" height="5339"/>
+        <path d="m22788 14314v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28656" y="14305" width="19" height="5339"/>
+        <path d="m28665 19634v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23126" y="19986" width="5197" height="19"/>
+        <path d="m23135 19995h5178" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="13944" width="370" height="385"/>
+        <path d="m23139 13953c-193 0-351 163-351 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23126" y="13944" width="5197" height="19"/>
+        <path d="m28313 13953h-5178" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28305" y="19625" width="375" height="385"/>
+        <path d="m28314 2e4c198 0 356-167 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="19625" width="370" height="385"/>
+        <path d="m22788 19634c0 199 158 366 351 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28305" y="13944" width="375" height="385"/>
+        <path d="m28670 14319c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28291" y="19612" width="256" height="267"/>
+        <path d="m28300 19869c132 0 237-113 237-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28291" y="14075" width="256" height="267"/>
+        <path d="m28537 14332c0-140-105-248-237-248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23140" y="19856" width="5171" height="19"/>
+        <path d="m28301 19865h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28524" y="14319" width="19" height="5312"/>
+        <path d="m28533 14328v5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="19612" width="256" height="267"/>
+        <path d="m22916 19621c0 135 110 248 237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="14319" width="19" height="5312"/>
+        <path d="m22916 19621v-5293" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23140" y="14075" width="5171" height="19"/>
+        <path d="m23149 14084h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="14075" width="256" height="267"/>
+        <path d="m23153 14084c-127 0-237 108-237 248" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="6840" width="19" height="5339"/>
+        <path d="m22788 6849v5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28656" y="6840" width="19" height="5339"/>
+        <path d="m28665 12169v-5320" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23126" y="12521" width="5197" height="19"/>
+        <path d="m23135 12530h5178" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="6478" width="370" height="385"/>
+        <path d="m23139 6487c-193 0-351 163-351 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23126" y="6478" width="5197" height="19"/>
+        <path d="m28313 6487h-5178" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28305" y="12160" width="375" height="385"/>
+        <path d="m28314 12535c198 0 356-158 356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22779" y="12160" width="370" height="385"/>
+        <path d="m22788 12169c0 208 158 366 351 366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28305" y="6478" width="375" height="385"/>
+        <path d="m28670 6853c0-203-158-366-356-366" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28291" y="12151" width="256" height="263"/>
+        <path d="m28300 12404c132 0 237-113 237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28291" y="6614" width="256" height="263"/>
+        <path d="m28537 6867c0-131-105-244-237-244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23140" y="12390" width="5171" height="19"/>
+        <path d="m28301 12399h-5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="28524" y="6853" width="19" height="5317"/>
+        <path d="m28533 6862v5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="12151" width="256" height="263"/>
+        <path d="m22916 12160c0 131 110 244 237 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="6853" width="19" height="5317"/>
+        <path d="m22916 12160v-5298" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="23140" y="6614" width="5171" height="19"/>
+        <path d="m23149 6623h5152" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+
+
+
+        <rect class="BoundingBox" x="22907" y="6614" width="256" height="263"/>
+        <path d="m23153 6623c-127 0-237 113-237 244" stroke="#100f0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="17"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="2102" y="1e3" width="489" height="516" fill="none"/>
+        <path d="m2515 1190c-9-68-62-127-158-127-114 0-185 68-185 199 0 95 49 190 180 190 84 0 145-41 163-136h75c-9 109-106 199-238 199-118 0-250-68-250-262 0-140 88-253 246-253 97 0 233 41 242 190h-75z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="2665" y="1013" width="436" height="503" fill="none"/>
+        <path d="m2665 1014h70v316c0 86 57 122 145 122s145-36 145-122v-316h75v307c0 127-75 194-220 194s-215-67-215-194v-307z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="3196" y="1014" width="388" height="490" fill="none"/>
+        <path d="m3196 1014h382v63h-312v145h303v63h-303v154h316v63h-386v-488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="3881" y="1014" width="362" height="490" fill="none"/>
+        <path d="m3881 1014h70v425h290v63h-360v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="4272" y="1e3" width="529" height="516" fill="none"/>
+        <path d="m4536 1063c-106 0-189 63-189 194s83 195 189 195c109 0 193-64 193-195s-84-194-193-194zm0-63c188 0 263 131 263 257 0 127-75 258-263 258-189 0-264-131-264-258 0-126 75-257 264-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="4847" y="1e3" width="528" height="516" fill="none"/>
+        <path d="m5111 1063c-106 0-194 63-194 194s88 195 194 195c109 0 193-64 193-195s-84-194-193-194zm0-63c188 0 263 131 263 257 0 127-75 258-263 258-189 0-264-131-264-258 0-126 75-257 264-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="5449" y="1014" width="405" height="490" fill="none"/>
+        <path d="m5691 1244c70 0 92-36 92-85 0-46-27-82-79-82h-185v167h172zm-242-230h246c105 0 158 50 158 145 0 90-53 149-154 149h-180v194h-70v-488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="16056" y="1e3" width="427" height="516" fill="none"/>
+        <path d="m16131 1343c4 86 83 109 153 109 75 0 128-27 128-82 0-45-35-63-88-72l-105-18c-58-9-145-36-145-131 0-90 70-149 193-149 92 0 193 36 197 154h-70c-4-37-26-91-136-91-53 0-110 23-110 82 0 27 18 54 75 63l118 18c36 9 141 27 141 131 0 122-110 158-202 158-105 0-224-36-224-172h75z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="16543" y="1014" width="362" height="490" fill="none"/>
+        <path d="m16543 1014h70v425h290v63h-360v-488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="16960" y="1014" width="77" height="490" fill="none"/>
+        <path d="m16960 1502h75v-488h-75v488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="17114" y="1e3" width="489" height="516" fill="none"/>
+        <path d="m17531 1190c-13-68-66-127-167-127-109 0-180 68-180 199 0 95 49 190 176 190 83 0 149-41 171-136h71c-14 109-102 199-242 199-119 0-246-68-246-262 0-140 83-253 246-253 92 0 228 41 242 190h-71z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="17676" y="1014" width="392" height="490" fill="none"/>
+        <path d="m17676 1014h386v63h-311v145h298v63h-298v154h316v63h-391v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="18146" y="1014" width="436" height="490" fill="none"/>
+        <path d="m18410 1235c70 0 87-45 87-76 0-46-30-82-83-82h-198v158h194zm-264-221h290c101 0 136 68 136 135 0 59-31 100-83 118 43 9 70 50 70 104 4 90 9 113 22 131h-75c-13-14-13-32-17-91-5-85-31-112-93-112h-180v203h-70v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="18866" y="1014" width="361" height="490" fill="none"/>
+        <path d="m18866 1014h75v425h285v63h-360v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="19257" y="1e3" width="528" height="516" fill="none"/>
+        <path d="m19521 1063c-110 0-198 63-198 194s88 195 198 195c109 0 193-64 193-195s-84-194-193-194zm0-63c188 0 263 131 263 257 0 127-75 258-263 258-194 0-264-131-264-258 0-126 70-257 264-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="19828" y="1e3" width="532" height="516" fill="none"/>
+        <path d="m20096 1063c-110 0-198 63-198 194s88 195 198 195 193-64 193-195-83-194-193-194zm0-63c189 0 263 131 263 257 0 127-74 258-263 258-193 0-268-131-268-258 0-126 75-257 268-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="20434" y="1014" width="405" height="490" fill="none"/>
+        <path d="m20676 1249c70 0 92-41 92-90 0-46-27-82-79-82h-180v172h167zm-242-235h246c105 0 158 50 158 145 0 90-53 149-154 149h-175v194h-75v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="22749" y="1014" width="497" height="490" fill="none"/>
+        <path d="m23171 1014h74l-206 488h-75l-215-488h83l172 415 167-415z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="23285" y="1014" width="392" height="490" fill="none"/>
+        <path d="m23285 1014h382v63h-312v145h303v63h-303v154h321v63h-391v-488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="23750" y="1014" width="361" height="490" fill="none"/>
+        <path d="m23750 1014h70v425h290v63h-360v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="24141" y="1e3" width="529" height="516" fill="none"/>
+        <path d="m24405 1063c-106 0-189 63-189 194s83 195 189 195c109 0 193-64 193-195s-84-194-193-194zm0-63c193 0 263 131 263 257 0 127-70 258-263 258-189 0-264-131-264-258 0-126 75-257 264-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="24717" y="1e3" width="489" height="516" fill="none"/>
+        <path d="m25134 1190c-13-68-61-127-162-127-110 0-185 68-185 199 0 95 49 190 180 190 84 0 145-41 167-136h71c-14 109-102 199-238 199-118 0-250-68-250-262 0-140 88-253 250-253 93 0 224 41 238 190h-71z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="25283" y="1014" width="76" height="490" fill="none"/>
+        <path d="m25283 1502h75v-488h-75v488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="25410" y="1014" width="436" height="490" fill="none"/>
+        <path d="m25590 1077h-180v-63h435v63h-180v425h-75v-425z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="25836" y="1014" width="489" height="490" fill="none"/>
+        <path d="m26240 1014h84l-211 285v203h-71v-199l-206-289h88l154 226 162-226z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="26548" y="1e3" width="427" height="516" fill="none"/>
+        <path d="m26618 1343c0 86 79 109 154 109s127-27 127-82c0-45-35-63-87-72l-110-18c-57-9-141-36-141-131 0-90 70-149 189-149 97 0 198 36 206 154h-74c-5-37-27-91-141-91-48 0-110 23-110 82 0 27 22 54 80 63l114 18c39 9 149 27 149 131 0 122-114 158-211 158-105 0-215-36-215-172h70z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="26974" y="1014" width="515" height="490" fill="none"/>
+        <path d="m27224 1082-87 217h180l-93-217zm119 280h-233l-61 140h-75l215-488h79l220 488h-79l-66-140z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="27532" y="1014" width="577" height="490" fill="none"/>
+        <path d="m28011 1014h96v488h-70v-407l-184 407h-62l-189-393v393h-70v-488h97l193 406 189-406z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="28208" y="1014" width="405" height="490" fill="none"/>
+        <path d="m28450 1249c70 0 92-41 92-90 0-46-27-82-79-82h-185v172h172zm-242-235h246c105 0 158 50 158 145 0 90-53 149-154 149h-180v194h-70v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="28612" y="1420" width="89" height="82" fill="none"/>
+        <path d="m28612 1501h88v-81h-88v81z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="8923" y="1e3" width="423" height="516" fill="none"/>
+        <path d="m8993 1343c0 86 84 109 154 109 75 0 127-27 127-82 0-45-35-63-87-72l-106-18c-57-9-145-36-145-131 0-90 66-149 193-149 93 0 194 36 202 154h-70c-9-37-26-91-140-91-53 0-115 23-115 82 0 27 22 54 80 63l118 18c35 9 141 27 141 131 0 122-106 158-202 158-106 0-220-36-220-172h70z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="9349" y="1014" width="510" height="490" fill="none"/>
+        <path d="m9599 1082-87 217h184l-97-217zm119 280h-233l-61 140h-75l215-488h79l215 488h-79l-61-140z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="9823" y="1014" width="494" height="490" fill="none"/>
+        <path d="m10240 1014h75l-211 488h-75l-206-488h79l167 415 171-415z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="10355" y="1014" width="393" height="490" fill="none"/>
+        <path d="m10355 1014h386v63h-316v145h308v63h-308v154h321v63h-391v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="10820" y="1014" width="453" height="490" fill="none"/>
+        <path d="m11062 1439c114 0 140-95 140-186 0-81-31-176-154-176h-158v362h172zm-242-425h242c144 0 210 99 210 239 0 136-57 249-206 249h-246v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+
+        <rect class="BoundingBox" x="11571" y="1014" width="361" height="490" fill="none"/>
+        <path d="m11571 1014h70v425h290v63h-360v-488z" fill="#d3d2d2"/>
+
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="11957" y="1e3" width="533" height="516" fill="none"/>
+        <path d="m12226 1063c-110 0-198 63-198 194s88 195 198 195 193-64 193-195-83-194-193-194zm0-63c189 0 263 131 263 257 0 127-74 258-263 258-193 0-268-131-268-258 0-126 75-257 268-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="12533" y="1e3" width="532" height="516" fill="none"/>
+        <path d="m12801 1063c-114 0-198 63-198 194s84 195 198 195c105 0 193-64 193-195s-88-194-193-194zm0-63c189 0 263 131 263 257 0 127-74 258-263 258-193 0-268-131-268-258 0-126 75-257 268-257z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="13139" y="1014" width="405" height="490" fill="none"/>
+        <path d="m13381 1244c70 0 92-36 92-85 0-46-27-82-79-82h-189v167h176zm-242-230h246c105 0 158 50 158 145 0 90-53 149-154 149h-184v194h-66v-488z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="2379" y="4410" width="3036" height="800" fill="none"/>
+        <path d="m5019 4880h-189v185h-97v-479h286c114 0 149 72 149 145 0 72-44 149-149 149zm-378 185h-97v-479h97v479zm-149 0h-378v-479h96v393h282v86zm-435-407h-286v122h268v73h-268v212h-96v-479h382v72zm-624 276-101 122c-9 9-22 9-31 0l-101-122c-8-9 5-23 13-23h49c4 0 9-4 9-9v-77c0-130-110-243-246-243-137 0-246 113-246 243l-5 208c0 23-17 41-44 41-26 0-48-18-48-45v-204c0-185 154-338 343-338 188 0 342 153 342 338v77c0 5 0 9 9 9h39c18 0 22 18 18 23zm-422 140c-48 0-87-41-87-95 0-50 39-86 87-86 49 0 88 36 88 86 0 54-39 95-88 95zm2280-664h-2793c-66 0-119 54-119 122v560c0 63 53 117 119 117h2793c70 0 123-54 123-117v-560c0-68-53-122-123-122z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="4830" y="4657" width="248" height="151" fill="none"/>
+        <path d="m4997 4658h-167v149h163c52 0 83-18 83-77 0-58-40-72-79-72z" fill="#cdccca"/>
+
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="3917" y="6970" width="1235" height="1768" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="3917" y="7880"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="1667" y="9021" width="616" height="961" fill="none"/>
+         <path d="m1667 9676c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="2355" y="9264" width="519" height="712" fill="none"/>
+         <path d="m2512 9500c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="2970" y="9264" width="795" height="695" fill="none"/>
+         <path d="m3110 9281h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="3897" y="9264" width="538" height="957" fill="none"/>
+         <path d="m4037 9281h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="4538" y="9045" width="147" height="913" fill="none"/>
+         <path d="m4684 9045h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="4778" y="9264" width="527" height="712" fill="none"/>
+         <path d="m5148 9758c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="5694" y="9055" width="322" height="903" fill="none"/>
+         <path d="m5694 9336h177v621h144v-902h-119c-5 100-70 156-182 156h-20v125z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="11141" y="6970" width="1234" height="1768" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="11141" y="7880"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="8887" y="9021" width="616" height="961" fill="none"/>
+         <path d="m8887 9676c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="9575" y="9264" width="519" height="712" fill="none"/>
+         <path d="m9732 9500c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="10189" y="9264" width="796" height="695" fill="none"/>
+         <path d="m10330 9281h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="11117" y="9264" width="538" height="957" fill="none"/>
+         <path d="m11257 9281h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="11759" y="9045" width="146" height="913" fill="none"/>
+         <path d="m11904 9045h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="11998" y="9264" width="527" height="712" fill="none"/>
+         <path d="m12368 9758c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="12869" y="9055" width="506" height="903" fill="none"/>
+         <path d="m13019 9374c2-122 32-169 104-169 62 0 104 52 104 131 0 71-30 123-115 201-193 166-235 238-243 420h505v-156h-321c17-35 29-48 113-121 101-88 101-88 120-108 59-66 87-142 87-234 0-169-103-283-253-283-86 0-156 38-196 109-32 55-44 106-46 210h141z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="18467" y="6970" width="1235" height="1768" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="18467" y="7880"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="16213" y="9021" width="616" height="961" fill="none"/>
+         <path d="m16213 9676c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="16901" y="9264" width="519" height="712" fill="none"/>
+         <path d="m17058 9500c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="17516" y="9264" width="795" height="695" fill="none"/>
+         <path d="m17656 9281h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="18443" y="9264" width="538" height="957" fill="none"/>
+         <path d="m18583 9281h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="19085" y="9045" width="146" height="913" fill="none"/>
+         <path d="m19230 9045h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="19324" y="9264" width="527" height="712" fill="none"/>
+         <path d="m19694 9758c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="20195" y="9055" width="511" height="927" fill="none"/>
+         <path d="m20390 9562c121 1 165 37 165 131 0 87-44 146-110 146s-104-52-105-148l-2-11h-142c4 109 20 168 64 220 41 52 110 81 189 81 152 0 256-118 256-291 0-107-38-178-113-211 62-39 90-94 90-178 0-148-92-246-233-246-88 0-159 39-198 108-30 49-40 94-42 182h134c2-101 33-148 99-148 59 0 94 46 94 120 0 80-39 118-123 118h-23v127z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="25802" y="6970" width="1235" height="1768" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="25802" y="7880"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="23553" y="9021" width="616" height="961" fill="none"/>
+         <path d="m23553 9676c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="24241" y="9264" width="519" height="712" fill="none"/>
+         <path d="m24398 9500c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="24856" y="9264" width="795" height="695" fill="none"/>
+         <path d="m24996 9281h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="25783" y="9264" width="538" height="957" fill="none"/>
+         <path d="m25923 9281h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="26425" y="9045" width="146" height="913" fill="none"/>
+         <path d="m26570 9045h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="26664" y="9264" width="527" height="712" fill="none"/>
+         <path d="m27034 9758c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="27535" y="9056" width="521" height="902" fill="none"/>
+         <path d="m28055 9621h-82v-565h-165l-272 550v152h292v199h145v-199h82v-137zm-411 0 188-392c-3 115-3 161-4 392h-184z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="3917" y="14454" width="1235" height="1766" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="3917" y="15364"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="1667" y="16523" width="616" height="961" fill="none"/>
+         <path d="m1667 17178c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="2355" y="16766" width="519" height="712" fill="none"/>
+         <path d="m2512 17002c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="2970" y="16766" width="795" height="695" fill="none"/>
+         <path d="m3110 16783h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="3897" y="16766" width="538" height="957" fill="none"/>
+         <path d="m4037 16783h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="4538" y="16547" width="147" height="913" fill="none"/>
+         <path d="m4684 16547h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="4778" y="16766" width="527" height="712" fill="none"/>
+         <path d="m5148 17260c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="5649" y="16573" width="511" height="911" fill="none"/>
+         <path d="m5829 16723h301v-150h-406l-51 495 129 8c23-46 51-65 96-65 70 0 111 61 111 162 0 102-44 168-111 168-60 0-93-40-102-123h-146c5 67 13 99 36 141 41 80 118 124 210 124 159 0 263-128 263-325 0-170-94-289-227-289-51 0-85 12-130 49l27-195z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="11141" y="14454" width="1234" height="1766" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="11141" y="15364"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="8891" y="16523" width="616" height="961" fill="none"/>
+         <path d="m8891 17178c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="9579" y="16766" width="519" height="712" fill="none"/>
+         <path d="m9736 17002c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="10194" y="16766" width="795" height="695" fill="none"/>
+         <path d="m10334 16783h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="11121" y="16766" width="538" height="957" fill="none"/>
+         <path d="m11261 16783h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="11763" y="16547" width="146" height="913" fill="none"/>
+         <path d="m11908 16547h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="12002" y="16766" width="527" height="712" fill="none"/>
+         <path d="m12372 17260c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="12878" y="16557" width="510" height="927" fill="none"/>
+         <path d="m13372 16786c-11-80-20-107-48-146-38-54-101-83-179-83-87 0-157 42-202 121-43 77-65 190-65 348 0 307 86 457 262 457 147 0 247-131 247-321 0-171-91-286-227-286-65 0-103 21-140 79 12-185 46-256 123-256 50 0 78 28 84 87h145zm-237 232c64 0 106 60 106 154 0 104-39 169-103 169-67 0-114-69-114-168 0-95 43-155 111-155z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="18467" y="14454" width="1235" height="1766" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="18467" y="15364"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="16218" y="16523" width="616" height="961" fill="none"/>
+         <path d="m16218 17178c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="16906" y="16766" width="519" height="712" fill="none"/>
+         <path d="m17063 17002c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="17521" y="16766" width="795" height="695" fill="none"/>
+         <path d="m17661 16783h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="18448" y="16766" width="538" height="957" fill="none"/>
+         <path d="m18588 16783h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="19090" y="16547" width="146" height="913" fill="none"/>
+         <path d="m19235 16547h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="19329" y="16766" width="527" height="712" fill="none"/>
+         <path d="m19699 17260c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="20198" y="16572" width="526" height="888" fill="none"/>
+         <path d="m20723 16573h-522l-3 156h368c-157 217-249 469-264 730h150c18-286 104-525 271-750v-136z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+
+        <rect class="BoundingBox" x="25802" y="14454" width="1235" height="1766" fill="none"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Nimbus Sans Narrow, sans-serif" font-size="1270px" font-weight="700"><tspan class="TextPosition" x="25802" y="15364"><tspan fill="rgb(0,0,0)"> </tspan></tspan></tspan></text>
+
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.ClosedBezierShape">
+
+         <rect class="BoundingBox" x="23553" y="16523" width="616" height="961" fill="none"/>
+         <path d="m23553 17178c3 74 11 111 34 156 49 97 146 149 277 149 189 0 304-112 304-296 0-136-56-206-196-247l-183-55c-57-18-79-43-79-95 0-69 50-111 134-111 93 0 138 42 150 139h150c-12-191-116-295-295-295-178 0-285 107-285 286 0 78 22 139 64 181 32 33 79 55 174 82l80 22c105 31 136 56 136 116 0 75-55 117-151 117-106 0-158-48-164-149h-150z"/>
+
+
+
+
+         <rect class="BoundingBox" x="24241" y="16766" width="519" height="712" fill="none"/>
+         <path d="m24398 17002c9-68 35-94 97-94 60 0 90 26 90 76 0 33-15 50-51 56l-130 24c-105 19-163 97-163 215 0 122 66 198 173 198 72 0 118-25 175-98 4 37 5 47 14 80h156v-27c-23-10-32-38-32-105v-365c0-125-82-196-224-196-97 0-162 28-201 86-24 40-36 75-43 150h139zm187 215c0 73-57 133-128 133-43 0-70-32-70-83 0-58 25-85 99-100 59-11 80-19 99-37v87z"/>
+
+
+
+
+         <rect class="BoundingBox" x="24856" y="16766" width="795" height="695" fill="none"/>
+         <path d="m24996 16783h-140v676h145v-412c0-87 30-131 92-131 64 0 87 35 87 137v406h145v-405c0-90 34-138 97-138 55 0 83 46 83 133v410h145v-467c0-136-75-226-187-226-69 0-110 29-155 108-44-83-80-108-150-108-78-1-127 36-162 120v-103z"/>
+
+
+
+
+         <rect class="BoundingBox" x="25783" y="16766" width="538" height="957" fill="none"/>
+         <path d="m25923 16783h-140v939h145v-353c38 78 82 108 157 108 144 0 235-141 235-363 0-211-92-348-233-348-75 0-122 34-164 119v-102zm123 138c77 0 124 76 124 202 0 128-47 208-122 208-81 0-125-71-125-202 0-138 42-208 123-208z"/>
+
+
+
+
+         <rect class="BoundingBox" x="26425" y="16547" width="146" height="913" fill="none"/>
+         <path d="m26570 16547h-145v912h145v-912z"/>
+
+
+
+
+         <rect class="BoundingBox" x="26664" y="16766" width="527" height="712" fill="none"/>
+         <path d="m27034 17260c-14 48-47 74-97 74-79 0-118-50-127-163h380v-32c0-240-94-373-263-373-165 0-263 132-263 353 0 228 98 358 271 358 62 0 114-18 156-55 47-39 68-78 92-162h-149zm-220-206c13-98 47-142 112-142 66 0 104 47 114 142h-226z"/>
+
+
+
+
+         <rect class="BoundingBox" x="27541" y="16557" width="514" height="927" fill="none"/>
+         <path d="m27944 16974c59-43 85-97 85-179 0-141-94-238-233-238-138 0-232 99-232 247 0 83 25 133 90 176-81 51-113 114-113 221 0 173 99 282 255 282 154 0 258-118 258-296 0-104-29-160-110-213zm-143-275c52 0 88 46 88 112 0 68-36 112-90 112-56 0-95-48-95-114 0-67 38-110 97-110zm-3 359c63 0 106 57 106 139 0 85-43 144-106 144-65 0-107-56-107-144 0-86 41-139 107-139z"/>
+
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.ClosedBezierShape">
+
+        <rect class="BoundingBox" x="24634" y="4641" width="249" height="147" fill="none"/>
+        <path d="m24809 4642h-175v145h165c52 0 83-11 83-73s-42-72-73-72z" fill="#d3d2d2"/>
+
+
+
+
+        <rect class="BoundingBox" x="24154" y="4410" width="2948" height="791" fill="none"/>
+        <path d="m26709 5035h-93v-202h-284v202h-93v-460h93v186h284v-186h93v460zm-790-52c93 0 134-72 134-119h104c-11 88-73 191-259 191-175 0-258-113-258-242 0-135 73-258 269-258 155 0 237 103 248 196h-104c-10-73-62-124-144-124-93 0-155 72-155 196 0 88 62 160 165 160zm-299-325h-171v377h-92v-377h-176v-83h439v83zm-480 377h-103v-460h103v460zm-320-171h-186v171h-88v-460h274c113 0 155 62 155 155 0 62-52 134-155 134zm2126-454h-2637c-83 0-155 72-155 155v480c0 82 72 155 155 155h2637c83 0 155-73 155-155v-480c0-83-72-155-155-155z" fill="#d3d2d2"/>
+
+      </g>
+     </g>
+    </g>
+
+
+ </g>
+<path transform="scale(26.458)" d="m875.23 138.99c-1.6093-1.6093-1.6093-52.558 0-54.167 0.86291-0.86291 23.624-1.1285 96.716-1.1285 91.409 0 95.655 0.07517 97.144 1.7198 1.365 1.5083 1.5564 4.754 1.5564 26.393 0 15.21-0.3734 25.371-0.9735 26.492-0.9527 1.7802-3.0255 1.819-97.144 1.819-73.545 0-96.436-0.26548-97.299-1.1285zm26.65-15.283c3.0903-1.2912 5.136-4.3474 5.136-7.6727 0-2.7183-4.2249-5.7246-8.993-6.3993-6.6017-0.93409-7.9342-1.4353-7.9342-2.9843 0-2.1624 3.854-3.4837 6.8446-2.3467 1.4077 0.5352 2.5594 1.4068 2.5594 1.9368s1.4811 0.96368 3.2914 0.96368c4.0393 0 4.1446-1.1723 0.43822-4.8787-2.7272-2.7272-3.1422-2.8369-9.401-2.4832-7.2137 0.40761-9 1.4899-9.9018 5.999-0.86649 4.3325 1.7302 6.7939 8.5202 8.0763 6.7104 1.2674 8.9036 2.8118 7.0922 4.9944-1.945 2.3435-7.1213 1.8451-9.2752-0.89321-2.497-3.1744-6.7508-3.2662-6.7508-0.14575 0 5.737 10.572 9.0936 18.374 5.8337zm11.431-2.3965c1.0051-2.6627 1.3549-2.8212 6.2268-2.8212 4.89 0 5.2137 0.14862 6.1454 2.8212 0.84114 2.4129 1.4618 2.8212 4.2882 2.8212h3.3047l-3.3633-7.7583c-1.8498-4.2671-4.2267-9.7901-5.2819-12.273-1.8094-4.258-2.1013-4.4989-5.1288-4.2318-3.128 0.27595-3.3242 0.54813-7.663 10.628-6.4318 14.942-6.1781 13.636-2.6486 13.636 2.5317 0 3.2384-0.48383 4.1206-2.8212zm26.674-5.4073 0.0549-8.2285 3.437 8.2732c3.2767 7.8873 3.563 8.2601 6.1393 7.9934 2.4331-0.25186 3.0656-1.1231 6.348-8.7434l3.6457-8.4636 0.0343 8.6987c0.034 8.6426 0.0494 8.6987 2.3853 8.6987h2.351v-24.45h-7.2655l-3.5574 8.4833c-1.9566 4.6658-3.8131 8.2354-4.1256 7.9325s-2.0692-4.0146-3.9039-8.2482l-3.3357-7.6974-7.9049-0.57834v24.559h5.6424l0.0549-8.2285zm33.8 3.9967v-4.2318h5.234c7.8904 0 11.607-2.5891 11.663-8.1244 0.0165-1.6237-0.77844-3.9512-1.7664-5.1722-1.6349-2.0206-2.6492-2.2491-11.285-2.5433l-9.4885-0.32322v24.627h2.8212c2.7167 0 2.8212-0.15674 2.8212-4.2318zm38.557 1.8808c0-2.2988-0.1568-2.351-7.0531-2.351h-7.053v-19.748h-5.6424v24.45h19.749zm22.57 0c0-2.3118-0.1254-2.351-7.5233-2.351h-7.5232v-5.6424h7.053c6.4261 0 7.0531-0.16719 7.0531-1.8808 0-1.7136-0.627-1.8808-7.0531-1.8808h-7.053v-5.6424h7.5232c7.4238 0 7.5233-0.0315 7.5233-2.3818v-2.3818l-21.159 0.5318-0.2676 10.757c-0.1471 5.9164-0.055 11.312 0.2056 11.99 0.3507 0.91397 3.1574 1.233 10.847 1.233h10.374zm8.4636-2.351v-4.702h3.6847c5.5695 0 6.5061 0.68447 7.1916 5.2555 0.5881 3.9219 0.7884 4.1485 3.6663 4.1485h3.0442l-0.7571-4.7891c-0.4164-2.634-1.2047-5.3285-1.7519-5.9878-0.7186-0.86584-0.5999-1.5266 0.4273-2.3791 2.3689-1.966 1.788-7.1086-1.0557-9.3454-2.1264-1.6727-3.7935-1.9491-11.755-1.9491h-9.2772v24.45h6.5828z" fill="#800080" stroke-width="26.54"/><path transform="scale(26.458)" d="m973.79 107.68c0-3.265 0.0334-3.2914 4.1549-3.2914 5.5571 0 7.13 0.72607 7.13 3.2914s-1.5728 3.2914-7.13 3.2914c-4.1215 0-4.1549-0.0265-4.1549-3.2914z" fill="#800080" stroke-width="26.54"/><path transform="scale(26.458)" d="m1042.4 107.63v-3.3383l5.31 0.28203c9.7433 0.5175 9.0194 6.3947-0.7877 6.3947h-4.5223z" fill="#800080" stroke-width="26.54"/><path transform="scale(26.458)" d="m916.55 113.31c0-0.284 0.67692-2.1734 1.5043-4.1986l1.5043-3.6823 1.2048 2.7991c2.4668 5.7312 2.492 5.5982-1.0613 5.5982-1.7336 0-3.152-0.23236-3.152-0.51635z" fill="#800080" stroke-width="17.555"/><rect x="2675.7" y="4477.8" width="784.64" height="620.45" fill="#d3d2d2" stroke-width="746.71"/></svg>

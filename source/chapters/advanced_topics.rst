@@ -16,7 +16,7 @@ file. This file tells Mixxx how to translate, or map, :term:`MIDI`/:term:`HID`
 messages from a controller into commands that Mixxx understands.
 
 You can download and share custom controller mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Controller Mapping forums <https://mixxx.discourse.group/c/controller-mappings/10>`_.
 
 For a list of controls that can be used in a controller mapping, see
 :ref:`appendix-mixxxcontrols`.
@@ -74,11 +74,9 @@ There are also some advanced options in the Midi Wizard you may need to use:
 * Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or an
   end, but spin continuously.
 
-The Controller wizard saves the new mapping to the following file paths:
+The Controller wizard saves the new mapping to the ``controllers`` directory in
+the user settings directory, see :ref:`appendix-settings-files`.
 
-* Linux: :file:`/home/<username>/.mixxx/controllers`
-* macOS: :file:`/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx/controllers`
-* Windows: :file:`%LOCALAPPDATA%\\Mixxx\\controllers`
 
 You can then modify the XML file it creates (or any of the ones that
 ship with Mixxx) if you'd like to fine-tune it or add more mappings. For more
@@ -107,7 +105,12 @@ work better with Mixxx (scratching), display a complex LED sequence, or even
 send messages to text displays on the controller.
 
 For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_
-and `<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_.
+and `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_
+, as well as the `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+which greatly simplifies mapping, for example effect units and complex behaviour
+like switching deck layers or pad grid modes. Note that this is the preferred way
+of mapping if intended your mapping to be included in Mixxx since Components-JS
+significantly reduces effort for both mapping and reviewing Pull Requests.
 
 .. _advanced-keyboard:
 
@@ -142,7 +145,7 @@ For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
 
 You can download and share custom keyboard mappings in the
-`Mixxx User customizations forums <https://mixxx.org/forums/viewforum.php?f=6>`_.
+`Mixxx User Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-mappings/12>`_.
 
 .. _advanced-external-fx:
 
@@ -231,32 +234,40 @@ Make sure the correct multichannel audio interface has been selected in Jack
 (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
 ports as :guilabel:`Portaudio`.
 
-Deleting Your Library
-=====================
+.. _advanced-migrate-settings:
 
-The library file is stored in the following places depending on your
-:term:`operating system`:
+Migrate your Mixxx library and settings to a new computer
+=========================================================
 
-**Windows**
-  The Mixxx library is stored in the
-  :file:`%USERPROFILE%\\Local Settings\\Application Data\\Mixxx\\` folder.
-  To delete your library on Windows, delete the :file:`mixxxdb.sqlite` file in
-  this folder.
+If you move to a new computer, or to another operating system on the same computer, you can take your existing Mixxx setup with you. This includes your track library, settings, controller mappings and broadcast profiles.
 
-**macOS**
-  The Mixxx library is stored in the :file:`Library/Application Support/Mixxx`
-  folder in your home directory. To delete your library on macOS type the
-  following command into a terminal: ::
+You don't necessarily need to be able to run your previous Mixxx installation, all you need is your :ref:`settings directory <appendix-settings-files>` and the music directories you imported into your Mixxx library via :menuselection:`Preferences --> Library`.
 
-       rm ~/Library/Application\ Support/Mixxx/mixxxdb.sqlite
+Preparation
+-----------
 
-**GNU/Linux**
-  The Mixxx library is stored in the ``.mixxx`` folder in your home directory.
-  To delete your library on GNU/Linux type the following command into a terminal: ::
+* If you still have access to your Mixxx installation open Mixxx, go to :menuselection:`Preferences --> Library` and uncheck :guilabel:`Rescan on startup`. If you are not able to start Mixxx anymore, e.g. if you only managed to recover your settings directory, you can do this manually in the settings file: open :file:`mixxx.cfg` with a text editor, delete the line with :file:`RescanOnStartup` and save the file.
+* Make a copy of both the Mixxx settings directory and your music directories. Put all in a save place. **Do not restructure your music directories!**
+* Install your new operating system, get your new PC ready.
+* Get the current stable Mixxx version from `the official download page <https://mixxx.org/download/>`_.
+* Install Mixxx, though **don't run it, yet!**
 
-       rm ~/.mixxx/mixxxdb.sqlite
+Migration
+---------
 
-.. warning:: Deleting your library will lose all of your :term:`metadata`. This
-             includes saved hotcues, loops, comments, ratings, and other library
-             related metadata. Only delete your library if you are fine with
-             losing these.
+* Copy your Mixxx settings directory to the appropriate location, see :ref:`appendix-settings-files`. In case you already started Mixxx previously, make sure to rename or delete your existing settings directory in order to avoid any file conflicts.
+* Copy your music directories to the new computer.
+* Start Mixxx.
+* If you've put the settings directory in the correct location Mixxx should not ask you for your music directories and all your settings should be as before.
+* Go to :menuselection:`Preferences --> Library` and **Relink** each of your music directories as described in :ref:`configuration-import`.
+
+Now, all your music files should be available, all your playlists, crates and your session histories be restored. A library rescan is not required. Configure a sound output and test if you can play all tracks as before. Note that this will obviously not include your external libraries (iTunes, Traktor etc.), you need to configure those again.
+
+Known issues
+------------
+
+If you migrated to another operating system, operating system version or another Mixxx version, the used
+audio decoders may have changed which may cause beatgrids and cue points to appear shifted, i.e. they are
+set off from the desired points in the audio stream. Unfortunately, there is no automatic fix available, yet.
+As of now you need to shift cues for each track individually with the cue shift buttons in the beatgrid editing
+controls section, see :ref:`interface-waveform`.

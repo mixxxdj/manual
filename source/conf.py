@@ -36,6 +36,7 @@ extensions = [
     "sphinx_rtd_theme",
     "sphinx_multiversion",
     "sphinx_mixxx",
+    "notfound.extension",
 ]
 
 todo_include_todos = True
@@ -55,8 +56,8 @@ source_suffix = {
 master_doc = "index"
 
 # General information about the project.
-project = u"Mixxx"
-copyright = u"2011-2021, The Mixxx Development Team"
+project = "Mixxx"
+copyright = "2011-2021, The Mixxx Development Team"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -75,32 +76,27 @@ supported_languages = {
     "ca": "Català",
     "cs": "Čeština",
     "de": "Deutsch",
-    "de-DE": "Deutsch (Deutschland)",
     "en": "English",
-    "en-GB": "English (UK)",
+    "en_GB": "English (UK)",
     "es": "Español",
-    "es-ES": "Español (España)",
-    "es-MX": "Español (Mexico)",
     "fi": "Suomi",
     "fr": "Français",
     "gl": "Galego",
     "id": "Bahasa Indonesia",
     "it": "Italiano",
-    "ja-JP": "日本語",
-    "kn": "ಕನ್ನಡ",
+    "ja": "日本語",
     "nl": "Nederlands",
     "pl": "Polszczyzna",
     "pt": "Português",
-    "pt-BR": "Português (Brasil)",
+    "pt_BR": "Português (Brasil)",
     "ro": "Română",
     "ru": "Русский",
-    "ru-RU": "Русский (Росси́я)",
     "sl": "Slovenščina",
     "sq": "Shqip",
     "sr": "Српски Језик",
     "tr": "Türkçe",
-    "zh-CN": "中文 (中国)",
-    "zh-TW": "中文 (臺灣)",
+    "zh_CN": "中文 (中国)",
+    "zh_TW": "中文 (臺灣)",
 }
 
 smv_tag_whitelist = r"^$"
@@ -110,6 +106,7 @@ smv_remote_whitelist = r"^origin$"
 smv_released_pattern = r"^.*/(?!2\.4)(\d+)\.(\d+)$"
 smv_latest_version = r"2.3"
 smv_outputdir_format = "{config.version}/{config.language}"
+notfound_urls_prefix = "/2.3/en/"
 
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched
@@ -175,7 +172,7 @@ html_context = {
     "display_github": True,
     "github_user": "mixxxdj",
     "github_repo": "manual",
-    "github_version": "2.3",
+    "github_version": "2.4",
     "conf_py_path": "/source/",
     "language": language,
     "supported_languages": list(
@@ -295,8 +292,8 @@ latex_documents = [
     (
         "index",
         "Mixxx-Manual.tex",
-        u"Mixxx User Manual",
-        u"The Mixxx Development Team",
+        "Mixxx User Manual",
+        "The Mixxx Development Team",
         "manual",
         True,
     ),
@@ -331,8 +328,8 @@ man_pages = [
     (
         "index",
         "mixxx",
-        u"Mixxx User Manual",
-        [u"The Mixxx Development Team"],
+        "Mixxx User Manual",
+        ["The Mixxx Development Team"],
         1,
     )
 ]
@@ -350,8 +347,8 @@ texinfo_documents = [
     (
         "index",
         "Mixxx",
-        u"Mixxx User Manual",
-        u"The Mixxx Development Team",
+        "Mixxx User Manual",
+        "The Mixxx Development Team",
         "Mixxx",
         "One line description of project.",
         "Miscellaneous",
@@ -374,10 +371,10 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u"Mixxx User Manual"
-epub_author = u"The Mixxx Development Team"
-epub_publisher = u"The Mixxx Development Team"
-epub_copyright = u"2011-2021, The Mixxx Development Team"
+epub_title = "Mixxx User Manual"
+epub_author = "The Mixxx Development Team"
+epub_publisher = "The Mixxx Development Team"
+epub_copyright = "2011-2021, The Mixxx Development Team"
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'Mixxx'
@@ -452,10 +449,16 @@ linkcheck_ignore = [
     r"^https://support.serato.com/",
     # Unknown why this anchor doesn't appear to work -- could be js-generated.
     r"^https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#",
+    "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
+    "https://www.numark.com/product/*",
+    "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://support.pioneerdj.com/hc/sections/*",
+    "https://www.roland.com/global/products/dj-505/*",
 ]
 
 # Avoid freezing during linkcheck
-linkcheck_timeout = 10
+linkcheck_timeout = 60
+linkcheck_retries = 2
 
 # Don't verify TLS
 tls_verify = False

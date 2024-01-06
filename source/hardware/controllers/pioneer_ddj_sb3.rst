@@ -15,10 +15,12 @@ Pioneer DDJ-SB3
 
 The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
 
--  `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-sb3/black/overview/>`__
+-  `Manufacturer's Product Page <https://www.pioneerdj.com/product/controller/ddj-sb3/black/overview/>`__
 -  `Manufacturer's User Manual <https://docs.pioneerdj.com/Manuals/DDJ_SB3_DRI1533A_manual/>`__
--  `Manufacturer's Firmware Update <https://www.pioneerdj.com/en-us/product/controller/ddj-sb3/black/support/>`__
+-  `Manufacturer's Firmware Update <https://www.pioneerdj.com/product/controller/ddj-sb3/black/support/>`__
 -  `Mixxx User Forum <https://mixxx.discourse.group/t/pioneer-ddj-sb3-mapping-v1-0-now-available/22186>`__
+
+
 
 .. versionadded:: 2.3.2
 
@@ -35,6 +37,9 @@ Output Channels       Assigned to
 ===================== ================
 
 This controller mapping does not support any inputs. The controller itself has a microphone input, but that cannot be controlled via MIDI or routed to the computer.
+
+.. note:: Decks 3 and 4 you will not work unless you map at least one of Mixxx's outputs to use the DDJ-SB3 sound card. This is a limitation of the
+            controller's firmware.
 
 Controller Mapping
 ------------------

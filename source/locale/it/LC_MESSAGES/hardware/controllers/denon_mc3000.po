@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7664/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/denon_mc3000.rst:2
+msgid "Denon MC3000"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc3000.rst:4
+msgid ""
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20140713040211if_/https://www.denondj.com/products/view/mc3000>`__"
+" (archived)"
+msgstr ""
+
+#: ../../hardware/controllers/denon_mc3000.rst:9
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

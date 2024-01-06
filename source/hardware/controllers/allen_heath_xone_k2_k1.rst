@@ -12,7 +12,7 @@ with.
 
 -  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__
--  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
+-  `Manufacturer’s User Guide <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__
 -  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
 
 .. versionadded:: 1.11
@@ -46,7 +46,7 @@ Setup
 
 **Requirement**: The Xone K2 must have Latching Layers turned off, which
 is the default. Refer to the `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details. The K1 does not have Latching Layers.
 
 This mapping can used with one or multiple Xone K2s/K1s. Multiple Xone
@@ -80,16 +80,18 @@ These are available on any configuration with decks, but not the 4
 effect unit layout.
 
 -  Bottom left encoder:
--  adjust tempo of all decks with sync enabled
--  press and turn: PFL/main mix in headphones
--  shift: headphone gain
--  press with shift: toggle split cue mode
--  Bottom right encoder
--  scroll through tracks in library
--  press and release: load selected track into first stopped deck
--  press and hold: load selected track into a deck by pressing the play
-   button of the deck
--  shift: main gain
+
+   -  adjust tempo of all decks with sync enabled
+   -  press and turn: PFL/main mix in headphones
+   -  shift: headphone gain
+   -  press with shift: toggle split cue mode
+
+-  Bottom right encoder:
+
+   -  scroll through tracks in library
+   -  press and release: load selected track into first stopped deck
+   -  press and hold: load selected track into a deck by pressing the play button of the deck
+   -  shift: main gain
 
 Decks
 -----
@@ -172,8 +174,8 @@ the same time activates supershift mode.
 Effects
 -------
 
-The top part of the column uses the `Standard Effects
-Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_.
+The top part of the column uses the :ref:`Standard Effects
+Mapping <controller-effects-mapping>`.
 Pressing the top encoder acts
 as the effect focus button. When no effect is focused, the buttons are
 red. When holding the top encoder to choose an effect to focus, the
@@ -197,7 +199,7 @@ Effect unit focusing
 ~~~~~~~~~~~~~~~~~~~~
 
 In addition to focusing one effect in a unit at a time with the
-`Standard Effects Mapping <https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping>`_, the Xone
+:ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone
 K2/K1 has another mode for focusing a whole effect unit. This allows for
 controlling the parameters of all 3 effects in the unit at a time. This
 mode is only available on the 4 effect unit layouts. To access it, press
@@ -224,7 +226,7 @@ Troubleshooting
 If general functionality or supershift are not working, double check
 that Latch Layers is turned off and MIDI CH is selected. Refer to the
 `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details.
 
 Known Issues

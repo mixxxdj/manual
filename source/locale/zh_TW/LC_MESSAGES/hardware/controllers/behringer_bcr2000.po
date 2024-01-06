@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"PO-Revision-Date: 2022-09-05 05:40+0000\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/mixxx-dj-software/teams/7664/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:4
+msgid "Behringer BCR2000"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:13
+msgid "Behringer BCR2000 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:15
+msgid ""
+"`Manufacturer's product page "
+"<https://www.behringer.com/behringer/product?modelCode=P0245>`_"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:16
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/behringer-b-control-"
+"bcr2000/20287>`_"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:18
+msgid ""
+"The B-CONTROL BCR2000 is a general-purpose :term:`USB` :term:`MIDI` "
+"controller containing 20 buttons, 24 rotary encoders and 8 push encoders. "
+"Every control is backed by LEDs that show the current value. As a pure MIDI "
+"controller it contains no interfaces for audio or microphones."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:22
+msgid ""
+"The controller can be be configured extensively. It offers 32 presets that "
+"may be programmed by the user."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:28
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:30
+msgid ""
+"This controller is a class compliant USB MIDI and audio device, so it can be"
+" used without any special drivers on GNU/Linux, Mac OS X, and Windows."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:34
+msgid "Setup"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:36
+msgid "Controller Preset"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:37
+msgid ""
+"The default mapping works out-of-the-box for the factory settings of "
+"controller preset 1."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:39
+msgid ""
+"If you don't want to use this preset, you can choose one of the following "
+"options:"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:41
+msgid ""
+"Load the dump file ``bcr_Only_Controllers.syx`` via Sysex to any other "
+"preset slot and update the preset number in the ``init`` function in the "
+"file ``Behringer-BCR2000-scripts.js``. The dump file and instructions how to"
+" install it in the controller is available on the manufacturer's webpage."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:45
+msgid "Factory reset the controller."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:48
+msgid "Button Behaviour"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:49
+msgid ""
+"It is recommended, but not required, to change the button behaviour from "
+"*Toggle On* (default) to *Toggle Off*. Both behaviours send an ``On`` "
+"message on button press, but the action to send an ``Off`` message is "
+"different: *Toggle Off* responds to a button release while *Toggle On* "
+"ignores the release and requires a second press. To change the behaviour:"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:54
+msgid "Hold :hwlabel:`EDIT`, press a button, then release both"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:55
+msgid "Turn the :hwlabel:`MODE` encoder until the display shows ``toFF``"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:56
+msgid "Press the :hwlabel:`EXIT` button"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:58
+msgid ""
+"To make the change persistent, press *Store* twice. See the controller "
+"manual for details."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:61
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:62
+msgid ""
+"The BCR2000 is a general purpose controller that allows different mappings."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:64
+msgid ""
+"The file ``Behringer-BCR2000-scripts.js`` contains a default mapping which "
+"works out-of-the-box for a factory-reset controller, but may be customized "
+"freely according to your needs."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:67
+msgid "The controls are divided into five parts:"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:69
+msgid ""
+"Top left area (4 push encoders + 4 buttons): loop, reverse & pitch controls "
+"for Deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:70
+msgid ""
+"Top right area (4 push encoders + 4 buttons): loop, reverse & pitch controls"
+" for Deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:71
+msgid "Middle left area (4 buttons + 4 encoders): controls for Effect Unit 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:72
+msgid "Middle right area (4 buttons + 4 encoders): controls for Effect Unit 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:73
+msgid ""
+"Bottom right area (4 buttons): controls for assignment of effect units to "
+"decks"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:79
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:79
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:81
+msgid "Location"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:81
+msgid "Affects"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:81
+msgid "Hardware control"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:83
+msgid "Push Encoder Row"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:83
+#: ../../hardware/controllers/behringer_bcr2000.rst:89
+#: ../../hardware/controllers/behringer_bcr2000.rst:95
+#: ../../hardware/controllers/behringer_bcr2000.rst:100
+#: ../../hardware/controllers/behringer_bcr2000.rst:105
+#: ../../hardware/controllers/behringer_bcr2000.rst:109
+#: ../../hardware/controllers/behringer_bcr2000.rst:113
+#: ../../hardware/controllers/behringer_bcr2000.rst:161
+#: ../../hardware/controllers/behringer_bcr2000.rst:165
+msgid "Deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:83
+msgid "Encoder 1 (:hwlabel:`TYPE`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:83
+msgid "Rotate: Manipulates the key of the track in semitones."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:84
+msgid "Push: Resets the key to the original track key."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:86
+#: ../../hardware/controllers/behringer_bcr2000.rst:92
+#: ../../hardware/controllers/behringer_bcr2000.rst:98
+#: ../../hardware/controllers/behringer_bcr2000.rst:103
+#: ../../hardware/controllers/behringer_bcr2000.rst:107
+#: ../../hardware/controllers/behringer_bcr2000.rst:111
+#: ../../hardware/controllers/behringer_bcr2000.rst:115
+#: ../../hardware/controllers/behringer_bcr2000.rst:163
+#: ../../hardware/controllers/behringer_bcr2000.rst:167
+msgid "Deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:86
+msgid "Encoder 5 (:hwlabel:`VAL 2`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:89
+msgid "Encoder 2 (:hwlabel:`CH`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:89
+msgid "Rotate: Increases or decreases the size of the current loop in beats."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:92
+msgid "Encoder 6 (:hwlabel:`VAL 2`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:95
+msgid "Encoder 3 (:hwlabel:`PAR`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:95
+msgid "Rotate: Moves the current loop left or right."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:98
+#: ../../hardware/controllers/behringer_bcr2000.rst:155
+msgid "Encoder 7"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:100
+msgid "Encoder 4 (:hwlabel:`VAL 1`)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:100
+msgid "Rotate: Increases or decreases the number of beats to move the loop."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:103
+#: ../../hardware/controllers/behringer_bcr2000.rst:159
+msgid "Encoder 8"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:105
+msgid "Button Row 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:105
+#: ../../hardware/controllers/behringer_bcr2000.rst:129
+msgid "Button 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:105
+msgid "Press: Toggles keylock."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:106
+msgid "Shift + Press: Toggles vinyl control mode."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:107
+#: ../../hardware/controllers/behringer_bcr2000.rst:131
+msgid "Button 5"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:109
+#: ../../hardware/controllers/behringer_bcr2000.rst:133
+msgid "Button 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:109
+msgid "Press: Toggles a loop that ends at the current play position."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:110
+msgid ""
+"Shift + Press: Toggles a rolling loop. Playback will resume where the track "
+"would have been if it had not entered the loop."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:111
+#: ../../hardware/controllers/behringer_bcr2000.rst:135
+msgid "Button 6"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:113
+#: ../../hardware/controllers/behringer_bcr2000.rst:137
+msgid "Button 3"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:113
+msgid "Press: Toggles reverse playback."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:114
+msgid ""
+"Shift + Press: Toggles rolling reverse playback. Playback continues where "
+"the track would have been if it had not been temporarily reversed."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:115
+#: ../../hardware/controllers/behringer_bcr2000.rst:139
+msgid "Button 7"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:117
+#: ../../hardware/controllers/behringer_bcr2000.rst:119
+msgid "All controls"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:117
+#: ../../hardware/controllers/behringer_bcr2000.rst:141
+msgid "Button 4"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:117
+msgid ""
+"Press: Toggles shift. Shift changes the behaviour of controls as described "
+"in this table, and additionally the behaviour of the effect units. See "
+":ref:`Standard Effects Mapping <controller-effects-mapping>` for details."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:124
+msgid ""
+"Both Shift buttons have the same effect, they are not deck-specific. This "
+"design decision was made to keep the layout symmetric so that you don't have"
+" to press a button on the left side when you're working on the right side."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:119
+#: ../../hardware/controllers/behringer_bcr2000.rst:143
+msgid "Button 8"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:129
+msgid "Button Row 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:129
+#: ../../hardware/controllers/behringer_bcr2000.rst:133
+#: ../../hardware/controllers/behringer_bcr2000.rst:137
+#: ../../hardware/controllers/behringer_bcr2000.rst:141
+#: ../../hardware/controllers/behringer_bcr2000.rst:145
+#: ../../hardware/controllers/behringer_bcr2000.rst:149
+#: ../../hardware/controllers/behringer_bcr2000.rst:153
+#: ../../hardware/controllers/behringer_bcr2000.rst:157
+msgid "Effect Unit 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:129
+msgid "Press: Toggles effect focus mode."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:130
+msgid "Shift + Press: Toggles effect unit."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:131
+#: ../../hardware/controllers/behringer_bcr2000.rst:135
+#: ../../hardware/controllers/behringer_bcr2000.rst:139
+#: ../../hardware/controllers/behringer_bcr2000.rst:143
+#: ../../hardware/controllers/behringer_bcr2000.rst:147
+#: ../../hardware/controllers/behringer_bcr2000.rst:151
+#: ../../hardware/controllers/behringer_bcr2000.rst:155
+#: ../../hardware/controllers/behringer_bcr2000.rst:159
+msgid "Effect Unit 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:133
+msgid "Press: Toggles parameter button 1."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:137
+msgid "Press: Toggles parameter button 2."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:141
+msgid "Press: Toggles parameter button 3."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:145
+msgid "Encoder Row 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:145
+msgid "Encoder 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:145
+msgid ""
+"Rotate: Adjusts the mixing of the dry (input) signal with the wet (output) "
+"signal of the effect unit."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:147
+msgid "Encoder 5"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:149
+msgid "Encoder 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:149
+msgid "Rotate: Controls the parameter of effect 1."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:151
+msgid "Encoder 6"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:153
+msgid "Encoder 3"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:153
+msgid "Rotate: Controls the parameter of effect 2."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:157
+msgid "Encoder 4"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:157
+msgid "Rotate: Controls the parameter of effect 3."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:161
+msgid "Button Box Row 1"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:161
+#: ../../hardware/controllers/behringer_bcr2000.rst:165
+msgid "Left Button"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:161
+msgid "Press: Toggles assignment of Effect Unit 1."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:163
+#: ../../hardware/controllers/behringer_bcr2000.rst:167
+msgid "Right Button"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:165
+msgid "Button Box Row 2"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:165
+msgid "Press: Toggles assignment of Effect Unit 2."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:171
+msgid "Overlay"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:172
+msgid "Overlay to print on cardboard or paper for lamination:"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:174
+msgid ""
+":download:`PDF, DIN "
+"A4<../../_static/controllers/behringer_bcr2000_overlay_a4.pdf>`"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:175
+msgid ""
+":download:`PDF, DIN "
+"A3<../../_static/controllers/behringer_bcr2000_overlay_a3.pdf>`"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:176
+msgid ""
+":download:`ODG<../../_static/controllers/behringer_bcr2000_overlay.odg>` "
+"(LibreOffice)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_bcr2000.rst:177
+msgid ""
+":download:`SVG<../../_static/controllers/behringer_bcr2000_overlay_a3_unlabeled.svg>`"
+" (without labels)"
+msgstr ""

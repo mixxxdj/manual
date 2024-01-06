@@ -26,6 +26,8 @@ tracks you want to play and load them into a :ref:`deck <interface-decks>` or
 imports your music library automatically when it is run for the first time, see
 :ref:`configuration-import` for more information.
 
+If you want to backup (or delete) your library refer to :ref:`appendix-settings-files` and look for ``mixxxdb.sqlite``.
+
 The sidebar on the left contains different collections of music. The track list
 view on the right displays the tracks in those collections.
 
@@ -58,7 +60,7 @@ Tracks - View and edit your whole collection
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_library| A sortable list of all the tracks in your music library.
+|ic_lib_tracks| A sortable list of all the tracks in your music library.
 
 **Customizing the view**
   Move columns by clicking a column header and dragging it to another
@@ -382,6 +384,9 @@ a crate, or even the whole library) for tracks that match your search query.
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
+.. note:: The :guilabel:`Computer` and :guilabel:`Recording` views currently only
+          support simple case-insensitive filtering.
+
 Using search operators
 ----------------------
 
@@ -407,6 +412,19 @@ Mixxx supports the following filters:
   .. note::
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
+
+  You can use **=** to find exact matches. It reveals only tracks where the entire property
+  text equals the search term. As without **=**, you must use quotes for more than one word.
+  The first of the examples below will find only tracks where the title is
+  "wow" (case-insensitive like the default search), i.e. not "wowy", "oh wow!"
+  or "wow (Hej Remix)".
+
+  Examples
+    ::
+
+      title:=wow
+      title:= "Track 1"
+      artist:="DJ Flop"
 
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
@@ -539,6 +557,8 @@ Manual Edit
      :figclass: pretty-figures
 
      Mixxx library - Inline editing
+
+.. _library-properties-editor:
 
 **Properties editor**:
   To open the editor right-click on a **single track** in the library or any track
@@ -815,14 +835,14 @@ Computer - Loading tracks from anywhere on your computer
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-|ic_lib_browse| This mode works like a file manager and allows you to load
+|ic_lib_computer| This mode works like a file manager and allows you to load
 tracks from anywhere on your computer and connected devices, that are not
 necessarily already in your Mixxx library.
 
 Click the :guilabel:`Computer` sidebar item to navigate the computer and find
 your music. Depending on your :term:`operating system`, your music will usually
 be found in the “My Music” or “Music” folder. Drag the files you want to import
-to the |ic_lib_library| :ref:`Tracks <library-tracks>` icon or directly to the
+to the |ic_lib_tracks| :ref:`Tracks <library-tracks>` icon or directly to the
 :ref:`interface-waveform`.
 
 .. note:: Currently you can only drag files (not folders) to the Mixxx library.
@@ -837,7 +857,7 @@ Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
-access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
+access. Click the :guilabel:`Computer` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
 The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that
 folder, right-click and choose :guilabel:`Remove from Quick Links`.
@@ -890,7 +910,7 @@ view, then right-click on a session's name/date to access the different features
 Analyze - Prepare your tracks
 =============================
 
-This section allows you to analyze your tracks in advance of loading them into
+|ic_lib_analyze| This section allows you to analyze your tracks in advance of loading them into
 a deck. Analyzing tracks requires considerable CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`getting-started-analyze-library` for details.

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Language-Team: Greek (https://app.transifex.com/mixxx-dj-software/teams/7664/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:2
+#: ../../hardware/controllers/behringer_cmd_micro.rst:11
+msgid "Behringer CMD Micro"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:11
+msgid "Behringer CMD Micro (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:13
+msgid ""
+"The *Behringer CMD Micro* is a simple controller for basic two-channel "
+"mixing. This device does not have a built in sound card, so it would require"
+" a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio "
+"interface <hardware-audio-interfaces>` to be able to preview tracks in "
+"headphones."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:17
+msgid ""
+"`Manufacturer’s product page "
+"<https://www.behringer.com/product.html?modelCode=P0AJR>`__"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:22
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:24
+msgid ""
+"**Cue**, **Play/Pause**, **Sync**, **Load A**, **Load B**, the **Level** / "
+"**Browse** knobs, and the **crossfader** all behave as labeled."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:27
+msgid "**Cue A** and **Cue B** send the respective track to the headphones."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:28
+msgid "The inner vertical sliders control the track’s volume."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:29
+msgid "The outer sliders control the playback speed."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:30
+msgid "The **1**, and **2** buttons toggle a 4 and 8 beat loop, respectively."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:32
+msgid ""
+"The **Pitch Bend** buttons temporarily adjust the playback rate. They can be"
+" configured to change the key of the track instead by setting the "
+"``PitchBendsKey`` option to true at the top of the JS file (open the JS file"
+" in a text editor such as Notepad, TextEdit, or gEdit to change this). With "
+"the PitchBendsKey option, when both buttons are pressed simultaneously, the "
+"key is reset to the track’s default key."
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:40
+msgid "Jog Wheels"
+msgstr ""
+
+#: ../../hardware/controllers/behringer_cmd_micro.rst:42
+msgid ""
+"The jog wheels are touch enabled. When the top is pressed, they emulate "
+"turntable scratching. When the side is touched, they affect the playback "
+"speed (jog)."
+msgstr ""
