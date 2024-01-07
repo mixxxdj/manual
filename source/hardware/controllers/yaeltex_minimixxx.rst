@@ -48,10 +48,10 @@ Mapping description
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Yaeltex Minimixxx (product image)
+   :alt: Yaeltex Minimixxx (photo by Yaeltex)
    :figclass: pretty-figures
 
-   Vestax VCI-400 (top view with annotations)
+   Yaeltex Minimixxx
 
 Mixer
 ~~~~~
