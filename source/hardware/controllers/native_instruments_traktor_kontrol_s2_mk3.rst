@@ -90,8 +90,8 @@ Mixxx mapping
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | Hotcue mode        | If hotcue is set, seeks the player to hotcue position. Otherwise set hotcue at current position                             | Clear the hotcue                                    |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| Samples mode       | If track is loaded into corresponding slot, go to CUE point and play                                                        | If track is playing, CUE default behaviour.         |
-|                    |                                                                                                                             | Otherwise eject track                               |
+| Samples mode       | | Load selected track into corresponding slot.                                                                              | If track is playing, CUE default behaviour.         |
+|                    | | If track is loaded into corresponding slot, go to CUE point and play                                                      | Otherwise eject track                               |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | **18**. Tempo fader| Speed control                                                                                                               |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
