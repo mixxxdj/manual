@@ -33,7 +33,12 @@ Cover Art
   `#10796 <https://github.com/mixxxdj/mixxx/issues/10796>`__
   `#10902 <https://github.com/mixxxdj/mixxx/pull/10902>`__
   `#4851 <https://github.com/mixxxdj/mixxx/pull/4851>`__
-  `#11938 <https://github.com/mixxxdj/mixxx/pull/11938>`__ `#11086 <https://github.com/mixxxdj/mixxx/issues/11086>`__ `#12041 <https://github.com/mixxxdj/mixxx/pull/12041>`__ `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
+  `#11938 <https://github.com/mixxxdj/mixxx/pull/11938>`__
+  `#11086 <https://github.com/mixxxdj/mixxx/issues/11086>`__
+  `#12041 <https://github.com/mixxxdj/mixxx/pull/12041>`__
+  `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
+  `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
+  `#12532 <https://github.com/mixxxdj/mixxx/issues/12532>`__
 * CoverArtCache refactoring + Fix scrolling lag after updating Mixxx  `#12009 <https://github.com/mixxxdj/mixxx/pull/12009>`__
 
 Music Library
@@ -118,18 +123,6 @@ Music Library
 * Add History cleanup options `#4726 <https://github.com/mixxxdj/mixxx/pull/4726>`__ `#9259 <https://github.com/mixxxdj/mixxx/issues/9259>`__ `#10714 <https://github.com/mixxxdj/mixxx/issues/10714>`__
 * Fix update of play count after removing tracks from history playlist `#12258 <https://github.com/mixxxdj/mixxx/pull/12258>`__ `#12046 <https://github.com/mixxxdj/mixxx/issues/12046>`__ `#12256 <https://github.com/mixxxdj/mixxx/issues/12256>`__
 * Don't store or update metadata of missing tracks in the Mixxx database to prevent inconsistencies with file tags `#3811 <https://github.com/mixxxdj/mixxx/pull/3811>`__
-* Code improvements and minor bug fixes when importing track metadata
-  `#3851 <https://github.com/mixxxdj/mixxx/pull/3851>`__
-  `#3858 <https://github.com/mixxxdj/mixxx/pull/3858>`__
-  `#3860 <https://github.com/mixxxdj/mixxx/pull/3860>`__
-  `#3866 <https://github.com/mixxxdj/mixxx/pull/3866>`__
-  `#3871 <https://github.com/mixxxdj/mixxx/pull/3871>`__
-  `#3870 <https://github.com/mixxxdj/mixxx/pull/3870>`__
-  `#3924 <https://github.com/mixxxdj/mixxx/pull/3924>`__
-  `#4368 <https://github.com/mixxxdj/mixxx/pull/4368>`__
-  `#3906 <https://github.com/mixxxdj/mixxx/pull/3906>`__
-  `#3998 <https://github.com/mixxxdj/mixxx/pull/3998>`__
-  `#11031 <https://github.com/mixxxdj/mixxx/pull/11031>`__
 * Update library schema to 37 for synchronizing file modified time with track source on metadata import/export
   `#3978 <https://github.com/mixxxdj/mixxx/pull/3978>`__
   `#4012 <https://github.com/mixxxdj/mixxx/pull/4012>`__
@@ -160,6 +153,9 @@ Music Library
 * Tracks table: Home/End keys jump to first/last row `#4850 <https://github.com/mixxxdj/mixxx/pull/4850>`__
 * Tracks table: dont wrap around if Shift is pressed `#12391 <https://github.com/mixxxdj/mixxx/pull/12391>`__
 * Tracks table: avoid wrong pre-selection with no tracks selected previously `#12321 <https://github.com/mixxxdj/mixxx/pull/12321>`__ `#12064 <https://github.com/mixxxdj/mixxx/issues/12064>`__
+* Tracks table: Fix initial track selection with BackTab `#11130 <https://github.com/mixxxdj/mixxx/pull/11130>`__
+* Tracks table: Try to restore selection position after track removal `#11196 <https://github.com/mixxxdj/mixxx/pull/11196>`__
+* Tracks table: Remove parenthesis from play counter display `#11357 <https://github.com/mixxxdj/mixxx/pull/11357>`__
 * Re-enable shortcuts after editing controls
   `#4360 <https://github.com/mixxxdj/mixxx/pull/4360>`__
   `#10184 <https://github.com/mixxxdj/mixxx/issues/10184>`__
@@ -202,9 +198,6 @@ Music Library
 * Track Menu: Restore "Remove from playlist" in History `#11591 <https://github.com/mixxxdj/mixxx/pull/11591>`__ `#10974 <https://github.com/mixxxdj/mixxx/issues/10974>`__
 * Track menu: Enable Lock BPM action if any selected track BPM is unlocked `#12385 <https://github.com/mixxxdj/mixxx/pull/12385>`__
 * Track menu: Add "Delete Track Files" entry as move to trash with Qt >= 5.15 `#3212 <https://github.com/mixxxdj/mixxx/pull/3212>`__ `#11842 <https://github.com/mixxxdj/mixxx/pull/11842>`__
-* Tracks table: Fix initial track selection with BackTab `#11130 <https://github.com/mixxxdj/mixxx/pull/11130>`__
-* Tracks table: Try to restore selection position after track removal `#11196 <https://github.com/mixxxdj/mixxx/pull/11196>`__
-* Tracks table: Remove parenthesis from play counter display `#11357 <https://github.com/mixxxdj/mixxx/pull/11357>`__
 * Remove/hide tracks dialog: Add 'Don't ask again' checkbox  `#11239 <https://github.com/mixxxdj/mixxx/pull/11239>`__
 * Fix exporting m3u files with tracks and special characters by using the URL format `#4752 <https://github.com/mixxxdj/mixxx/pull/4752>`__
 * Library Scanner: Sort files before adding them `#10919 <https://github.com/mixxxdj/mixxx/pull/10919>`__
@@ -235,39 +228,8 @@ Music Library
 * iTunes: Fix sporadic crash during unit tests due to a not initialized reference. `#11666 <https://github.com/mixxxdj/mixxx/pull/11666>`__
 * iTunes: Permit duplicate playlist names by identifying playlists by id (rather than name) `#11794 <https://github.com/mixxxdj/mixxx/pull/11794>`__
 * iTunes: Re-enable test and add ``composer``\ , ``playCount``\ , ``lastPlayedAt`` and ``dateAdded`` to model `#11948 <https://github.com/mixxxdj/mixxx/pull/11948>`__
-* Track Properties: Don't clear unsaved properties when updating star rating `#11565 <https://github.com/mixxxdj/mixxx/pull/11565>`__ `#11540 <https://github.com/mixxxdj/mixxx/issues/11540>`__
-* Track Properties: Focus Double-clicked property field for edit
-  `#11764 <https://github.com/mixxxdj/mixxx/pull/11764>`__
-  `#11804 <https://github.com/mixxxdj/mixxx/pull/11804>`__
-  `#11802 <https://github.com/mixxxdj/mixxx/issues/11802>`__
-* Track Properties: Display the samplerate `#12418 <https://github.com/mixxxdj/mixxx/pull/12418>`__
-* Refactoring of library code
-  `#2756 <https://github.com/mixxxdj/mixxx/pull/2756>`__
-  `#2717 <https://github.com/mixxxdj/mixxx/pull/2717>`__
-  `#2715 <https://github.com/mixxxdj/mixxx/pull/2715>`__
-  `#2810 <https://github.com/mixxxdj/mixxx/pull/2756>`__
-  `#2900 <https://github.com/mixxxdj/mixxx/pull/2900>`__
-  `#2906 <https://github.com/mixxxdj/mixxx/pull/2906>`__
-  `#2925 <https://github.com/mixxxdj/mixxx/pull/2925>`__
-  `#3017 <https://github.com/mixxxdj/mixxx/pull/3017>`__
-  `#3475 <https://github.com/mixxxdj/mixxx/pull/3475>`__
-  `#4164 <https://github.com/mixxxdj/mixxx/pull/4164>`__
-  `#4152 <https://github.com/mixxxdj/mixxx/pull/4152>`__
-  `#4162 <https://github.com/mixxxdj/mixxx/pull/4162>`__
-  `#4101 <https://github.com/mixxxdj/mixxx/pull/4101>`__
-  `#4214 <https://github.com/mixxxdj/mixxx/pull/4214>`__
-  `#4280 <https://github.com/mixxxdj/mixxx/pull/4280>`__
-  `#4429 <https://github.com/mixxxdj/mixxx/pull/4429>`__
-  `#4477 <https://github.com/mixxxdj/mixxx/pull/4477>`__
-  `#4475 <https://github.com/mixxxdj/mixxx/pull/4475>`__
-  `#4480 <https://github.com/mixxxdj/mixxx/pull/4480>`__
-  `#4633 <https://github.com/mixxxdj/mixxx/pull/4633>`__
-  `#4837 <https://github.com/mixxxdj/mixxx/pull/4837>`__
-  `#4864 <https://github.com/mixxxdj/mixxx/pull/4864>`__
-  `#4893 <https://github.com/mixxxdj/mixxx/pull/4893>`__
-  `#10861 <https://github.com/mixxxdj/mixxx/pull/10861>`__
-  `#10871 <https://github.com/mixxxdj/mixxx/pull/10871>`__
-  `#12082 <https://github.com/mixxxdj/mixxx/pull/12082>`__
+* Fix setting the wrong default cue color `#11554 <https://github.com/mixxxdj/mixxx/pull/11554>`__ `#11260 <https://github.com/mixxxdj/mixxx/issues/11260>`__
+* Tweak remove/hide track confirm message to match confirm exit message `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`__ `#1947992 <https://github.com/mixxxdj/mixxx/issues/10577>`__
 
 Sync
 ^^^^
@@ -314,7 +276,7 @@ Audio Codecs
 * MP3: Log recoverable errors as info instead of warning `#4365 <https://github.com/mixxxdj/mixxx/pull/4365>`__
 * MP3: Garbage detection fix `#12464 <https://github.com/mixxxdj/mixxx/pull/12464>`__
 * MP3: Improve decoding precision on Windows `#11911 <https://github.com/mixxxdj/mixxx/pull/11911>`__ `#11888 <https://github.com/mixxxdj/mixxx/issues/11888>`__
-* AAC encoder: Fixed a memory leak `#4386 <https://github.com/mixxxdj/mixxx/pull/4386>`__ `#4408 <https://github.com/mixxxdj/mixxx/pull/4408>`__
+* AAC encoder: Fix a memory leak `#4386 <https://github.com/mixxxdj/mixxx/pull/4386>`__ `#4408 <https://github.com/mixxxdj/mixxx/pull/4408>`__
 * Improve robustness of file type detection by considering the actual MIME type of the content. `#7970 <https://github.com/mixxxdj/mixxx/issues/7970>`__ `#4356 <https://github.com/mixxxdj/mixxx/pull/4356>`__ `#4357 <https://github.com/mixxxdj/mixxx/pull/4357>`__
 * Fix file type detection when file has wrong file extension by determining the MIME type from content
   `#4602 <https://github.com/mixxxdj/mixxx/pull/4602>`__
@@ -337,6 +299,9 @@ Audio Codecs
   `#11940 <https://github.com/mixxxdj/mixxx/issues/11940>`__
 * Fix zeros in the first m4a chunk on Linux `#11879 <https://github.com/mixxxdj/mixxx/pull/11879>`__
 * Fix overlapping buffers when decoding m4a files using ffmpeg `#11760 <https://github.com/mixxxdj/mixxx/pull/11760>`__ `#11545 <https://github.com/mixxxdj/mixxx/issues/11545>`__
+* Fix possible crash with opus files with embedded cover arts and require TagLib 1.11 or newer
+  `#4251 <https://github.com/mixxxdj/mixxx/pull/4251>`__
+  `#4252 <https://github.com/mixxxdj/mixxx/pull/4252>`__ `#10500 <https://github.com/mixxxdj/mixxx/issues/10500>`__
 
 Audio Engine
 ^^^^^^^^^^^^
@@ -357,7 +322,7 @@ Audio Engine
   `#4153 <https://github.com/mixxxdj/mixxx/pull/4153>`__
 * Add halve/double controls for beatjump size `#4269 <https://github.com/mixxxdj/mixxx/pull/4269>`__
 * Fix possible segfault when ejecting track `#4362 <https://github.com/mixxxdj/mixxx/pull/4362>`__ `#10497 <https://github.com/mixxxdj/mixxx/issues/10497>`__
-* Fixed an assertion when loop is before track start `#4383 <https://github.com/mixxxdj/mixxx/pull/4383>`__ `#10556 <https://github.com/mixxxdj/mixxx/issues/10556>`__
+* Fix an assertion when loop is before track start `#4383 <https://github.com/mixxxdj/mixxx/pull/4383>`__ `#10556 <https://github.com/mixxxdj/mixxx/issues/10556>`__
 * Fix and improve snapping to beats in various situations `#4366 <https://github.com/mixxxdj/mixxx/pull/4366>`__ `#10541 <https://github.com/mixxxdj/mixxx/issues/10541>`__
 * Allow to cancel active loops via beatloop_activate `#4328 <https://github.com/mixxxdj/mixxx/pull/4328>`__ `#9950 <https://github.com/mixxxdj/mixxx/issues/9950>`__
 * Don't wipe inapplicable sound config immediately `#4544 <https://github.com/mixxxdj/mixxx/pull/4544>`__
@@ -383,92 +348,7 @@ Audio Engine
 * Fix wrong visual play position when inside loop `#11840 <https://github.com/mixxxdj/mixxx/pull/11840>`__ `#11836 <https://github.com/mixxxdj/mixxx/issues/11836>`__
 * Slip mode: consider loop for background position only if it was enabled  before slip `#11848 <https://github.com/mixxxdj/mixxx/pull/11848>`__ `#11844 <https://github.com/mixxxdj/mixxx/issues/11844>`__
 * Looping: reset loop_end_pos on eject `#12224 <https://github.com/mixxxdj/mixxx/pull/12224>`__ `#12223 <https://github.com/mixxxdj/mixxx/issues/12223>`__
-* Refactoring of beatgrid/beatmap code
-  `#4044 <https://github.com/mixxxdj/mixxx/pull/4044>`__
-  `#4048 <https://github.com/mixxxdj/mixxx/pull/4048>`__
-  `#4045 <https://github.com/mixxxdj/mixxx/pull/4045>`__
-  `#4049 <https://github.com/mixxxdj/mixxx/pull/4049>`__
-  `#4092 <https://github.com/mixxxdj/mixxx/pull/4092>`__
-  `#4094 <https://github.com/mixxxdj/mixxx/pull/4094>`__
-  `#4104 <https://github.com/mixxxdj/mixxx/pull/4104>`__
-  `#4103 <https://github.com/mixxxdj/mixxx/pull/4103>`__
-  `#4127 <https://github.com/mixxxdj/mixxx/pull/4127>`__
-  `#4099 <https://github.com/mixxxdj/mixxx/pull/4099>`__
-  `#4071 <https://github.com/mixxxdj/mixxx/pull/4071>`__
-  `#4184 <https://github.com/mixxxdj/mixxx/pull/4184>`__
-  `#4234 <https://github.com/mixxxdj/mixxx/pull/4234>`__
-  `#4233 <https://github.com/mixxxdj/mixxx/pull/4233>`__
-  `#4258 <https://github.com/mixxxdj/mixxx/pull/4258>`__
-  `#4259 <https://github.com/mixxxdj/mixxx/pull/4259>`__
-  `#4263 <https://github.com/mixxxdj/mixxx/pull/4263>`__
-  `#4272 <https://github.com/mixxxdj/mixxx/pull/4272>`__
-  `#4268 <https://github.com/mixxxdj/mixxx/pull/4268>`__
-  `#4270 <https://github.com/mixxxdj/mixxx/pull/4270>`__
-  `#4342 <https://github.com/mixxxdj/mixxx/pull/4342>`__
-  `#4336 <https://github.com/mixxxdj/mixxx/pull/4336>`__
-  `#4409 <https://github.com/mixxxdj/mixxx/pull/4409>`__
-  `#4361 <https://github.com/mixxxdj/mixxx/pull/4361>`__
-  `#4488 <https://github.com/mixxxdj/mixxx/pull/4488>`__
-  `#4411 <https://github.com/mixxxdj/mixxx/pull/4411>`__
-  `#4498 <https://github.com/mixxxdj/mixxx/pull/4498>`__
-  `#4500 <https://github.com/mixxxdj/mixxx/pull/4500>`__
-  `#4499 <https://github.com/mixxxdj/mixxx/pull/4499>`__
-  `#4510 <https://github.com/mixxxdj/mixxx/pull/4510>`__
-  `#4607 <https://github.com/mixxxdj/mixxx/pull/4607>`__
-  `#11263 <https://github.com/mixxxdj/mixxx/pull/11263>`__
-  `#12368 <https://github.com/mixxxdj/mixxx/pull/12368>`__
-  `#12349 <https://github.com/mixxxdj/mixxx/pull/12349>`__
-  `#12071 <https://github.com/mixxxdj/mixxx/issues/12071>`__
-  `#12016 <https://github.com/mixxxdj/mixxx/pull/12016>`__
-* Refactoring of audio engine code
-  `#2762 <https://github.com/mixxxdj/mixxx/pull/2762>`__
-  `#2801 <https://github.com/mixxxdj/mixxx/pull/2801>`__
-  `#2885 <https://github.com/mixxxdj/mixxx/pull/2885>`__
-  `#2997 <https://github.com/mixxxdj/mixxx/pull/2997>`__
-  `#3266 <https://github.com/mixxxdj/mixxx/pull/3266>`__
-  `#4064 <https://github.com/mixxxdj/mixxx/pull/4064>`__
-  `#4065 <https://github.com/mixxxdj/mixxx/pull/4065>`__
-  `#4066 <https://github.com/mixxxdj/mixxx/pull/4066>`__
-  `#4069 <https://github.com/mixxxdj/mixxx/pull/4069>`__
-  `#4074 <https://github.com/mixxxdj/mixxx/pull/4074>`__
-  `#4075 <https://github.com/mixxxdj/mixxx/pull/4075>`__
-  `#4076 <https://github.com/mixxxdj/mixxx/pull/4076>`__
-  `#4078 <https://github.com/mixxxdj/mixxx/pull/4078>`__
-  `#4082 <https://github.com/mixxxdj/mixxx/pull/4082>`__
-  `#4077 <https://github.com/mixxxdj/mixxx/pull/4077>`__
-  `#4080 <https://github.com/mixxxdj/mixxx/pull/4080>`__
-  `#4086 <https://github.com/mixxxdj/mixxx/pull/4086>`__
-  `#4089 <https://github.com/mixxxdj/mixxx/pull/4089>`__
-  `#4090 <https://github.com/mixxxdj/mixxx/pull/4090>`__
-  `#4079 <https://github.com/mixxxdj/mixxx/pull/4079>`__
-  `#4091 <https://github.com/mixxxdj/mixxx/pull/4091>`__
-  `#4083 <https://github.com/mixxxdj/mixxx/pull/4083>`__
-  `#4095 <https://github.com/mixxxdj/mixxx/pull/4095>`__
-  `#4081 <https://github.com/mixxxdj/mixxx/pull/4081>`__
-  `#4061 <https://github.com/mixxxdj/mixxx/pull/4061>`__
-  `#4105 <https://github.com/mixxxdj/mixxx/pull/4105>`__
-  `#4183 <https://github.com/mixxxdj/mixxx/pull/4183>`__
-  `#4186 <https://github.com/mixxxdj/mixxx/pull/4186>`__
-  `#4189 <https://github.com/mixxxdj/mixxx/pull/4189>`__
-  `#4216 <https://github.com/mixxxdj/mixxx/pull/4216>`__
-  `#4221 <https://github.com/mixxxdj/mixxx/pull/4221>`__
-  `#4219 <https://github.com/mixxxdj/mixxx/pull/4219>`__
-  `#4191 <https://github.com/mixxxdj/mixxx/pull/4191>`__
-  `#4232 <https://github.com/mixxxdj/mixxx/pull/4232>`__
-  `#4231 <https://github.com/mixxxdj/mixxx/pull/4231>`__
-  `#4229 <https://github.com/mixxxdj/mixxx/pull/4229>`__
-  `#4257 <https://github.com/mixxxdj/mixxx/pull/4257>`__
-  `#4266 <https://github.com/mixxxdj/mixxx/pull/4266>`__
-  `#4217 <https://github.com/mixxxdj/mixxx/pull/4217>`__
-  `#1966 <https://github.com/mixxxdj/mixxx/pull/1966>`__
-  `#4535 <https://github.com/mixxxdj/mixxx/pull/4535>`__
-  `#4770 <https://github.com/mixxxdj/mixxx/pull/4770>`__
-  `#4771 <https://github.com/mixxxdj/mixxx/pull/4771>`__
-  `#4589 <https://github.com/mixxxdj/mixxx/pull/4589>`__
-  `#1717 <https://github.com/mixxxdj/mixxx/pull/1717>`__
-  `#4852 <https://github.com/mixxxdj/mixxx/pull/4852>`__
-  `#10835 <https://github.com/mixxxdj/mixxx/pull/10835>`__
-  `#10843 <https://github.com/mixxxdj/mixxx/pull/10843>`__
+* make decks' xfader assignment persistent `#12074 <https://github.com/mixxxdj/mixxx/pull/12074>`__ `#10122 <https://github.com/mixxxdj/mixxx/issues/10122>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -538,42 +418,9 @@ Controller Backend
   `#4905 <https://github.com/mixxxdj/mixxx/pull/4905>`__
   `#10540 <https://github.com/mixxxdj/mixxx/issues/10540>`__
   `#10539 <https://github.com/mixxxdj/mixxx/issues/10539>`__
-* Controller preferences: add search bars to mapping tables `#11165 <https://github.com/mixxxdj/mixxx/pull/11165>`__
 * Added TypeScript declarations for engine and controller scripting API to improve IDE code completion during mapping developent `#4759 <https://github.com/mixxxdj/mixxx/pull/4759>`__
 * Retire Mixco Scripts `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`__
 * Relax strictness of ``ControllerScriptInterfaceLegacy`` methods.  `#11474 <https://github.com/mixxxdj/mixxx/pull/11474>`__ `#11473 <https://github.com/mixxxdj/mixxx/issues/11473>`__
-* Prepare code for upcoming ES6 based controller mapping system with module support
-  `#2682 <https://github.com/mixxxdj/mixxx/pull/2682>`__
-  `#2868 <https://github.com/mixxxdj/mixxx/pull/2868>`__
-  `#2875 <https://github.com/mixxxdj/mixxx/pull/2875>`__
-  `#2936 <https://github.com/mixxxdj/mixxx/pull/2936>`__
-  `#2946 <https://github.com/mixxxdj/mixxx/pull/2946>`__
-  `#11953 <https://github.com/mixxxdj/mixxx/pull/11953>`__
-* Other refactorings of controller code
-  `#2904 <https://github.com/mixxxdj/mixxx/pull/2904>`__
-  `#3308 <https://github.com/mixxxdj/mixxx/pull/3308>`__
-  `#3463 <https://github.com/mixxxdj/mixxx/pull/3463>`__
-  `#3634 <https://github.com/mixxxdj/mixxx/pull/3634>`__
-  `#3635 <https://github.com/mixxxdj/mixxx/pull/3635>`__
-  `#3636 <https://github.com/mixxxdj/mixxx/pull/3636>`__
-  `#3676 <https://github.com/mixxxdj/mixxx/pull/3676>`__
-  `#3880 <https://github.com/mixxxdj/mixxx/pull/3880>`__
-  `#4085 <https://github.com/mixxxdj/mixxx/pull/4085>`__
-  `#4524 <https://github.com/mixxxdj/mixxx/pull/4524>`__
-  `#4533 <https://github.com/mixxxdj/mixxx/pull/4533>`__
-  `#4521 <https://github.com/mixxxdj/mixxx/pull/4521>`__
-  `#4585 <https://github.com/mixxxdj/mixxx/pull/4585>`__
-  `#4692 <https://github.com/mixxxdj/mixxx/pull/4692>`__
-  `#4566 <https://github.com/mixxxdj/mixxx/pull/4566>`__
-  `#4599 <https://github.com/mixxxdj/mixxx/pull/4599>`__
-  `#4624 <https://github.com/mixxxdj/mixxx/pull/4624>`__
-  `#4627 <https://github.com/mixxxdj/mixxx/pull/4627>`__
-  `#4738 <https://github.com/mixxxdj/mixxx/pull/4738>`__
-  `#11160 <https://github.com/mixxxdj/mixxx/pull/11160>`__
-  `#11662 <https://github.com/mixxxdj/mixxx/pull/11662>`__
-  `#11622 <https://github.com/mixxxdj/mixxx/pull/11622>`__
-  `#12400 <https://github.com/mixxxdj/mixxx/pull/12400>`__
-  `#12468 <https://github.com/mixxxdj/mixxx/pull/12468>`__
 * feat(control): Do not show CO aliases in developer tools window `#12265 <https://github.com/mixxxdj/mixxx/pull/12265>`__
 * Do not use deprecated COs in C++ code/Keyboard Mapping/Skins `#11990 <https://github.com/mixxxdj/mixxx/pull/11990>`__
 * Fix creation of Sampler "end_of_track" CO `#12305 <https://github.com/mixxxdj/mixxx/pull/12305>`__ `#12304 <https://github.com/mixxxdj/mixxx/issues/12304>`__
@@ -591,65 +438,14 @@ Controller Backend
 * Log warning if deprecated control is used `#11972 <https://github.com/mixxxdj/mixxx/pull/11972>`__
 * ControlObject alias improvements `#11973 <https://github.com/mixxxdj/mixxx/pull/11973>`__
 * Repeat certain control actions if keyboard key is held `#12474 <https://github.com/mixxxdj/mixxx/pull/12474>`__
+* Logging: Add support for ``QT_MESSAGE_PATTERN`` environment variable
+  `#3204 <https://github.com/mixxxdj/mixxx/pull/3204>`__
+  `#3518 <https://github.com/mixxxdj/mixxx/pull/3518>`__
 
 Skins
 ^^^^^
 
 
-* Add experimental QML user interface
-  `#3345 <https://github.com/mixxxdj/mixxx/pull/3345>`__
-  `#3446 <https://github.com/mixxxdj/mixxx/pull/3446>`__
-  `#3854 <https://github.com/mixxxdj/mixxx/pull/3854>`__
-  `#3891 <https://github.com/mixxxdj/mixxx/pull/3891>`__
-  `#2874 <https://github.com/mixxxdj/mixxx/pull/2874>`__
-  `#3915 <https://github.com/mixxxdj/mixxx/pull/3915>`__
-  `#3894 <https://github.com/mixxxdj/mixxx/pull/3894>`__
-  `#3920 <https://github.com/mixxxdj/mixxx/pull/3920>`__
-  `#3907 <https://github.com/mixxxdj/mixxx/pull/3907>`__
-  `#3925 <https://github.com/mixxxdj/mixxx/pull/3925>`__
-  `#3928 <https://github.com/mixxxdj/mixxx/pull/3928>`__
-  `#3932 <https://github.com/mixxxdj/mixxx/pull/3932>`__
-  `#3911 <https://github.com/mixxxdj/mixxx/pull/3911>`__
-  `#3937 <https://github.com/mixxxdj/mixxx/pull/3937>`__
-  `#3940 <https://github.com/mixxxdj/mixxx/pull/3940>`__
-  `#3913 <https://github.com/mixxxdj/mixxx/pull/3913>`__
-  `#3950 <https://github.com/mixxxdj/mixxx/pull/3950>`__
-  `#3919 <https://github.com/mixxxdj/mixxx/pull/3919>`__
-  `#3955 <https://github.com/mixxxdj/mixxx/pull/3955>`__
-  `#3957 <https://github.com/mixxxdj/mixxx/pull/3957>`__
-  `#3961 <https://github.com/mixxxdj/mixxx/pull/3961>`__
-  `#3952 <https://github.com/mixxxdj/mixxx/pull/3952>`__
-  `#3963 <https://github.com/mixxxdj/mixxx/pull/3963>`__
-  `#3971 <https://github.com/mixxxdj/mixxx/pull/3971>`__
-  `#3959 <https://github.com/mixxxdj/mixxx/pull/3959>`__
-  `#3972 <https://github.com/mixxxdj/mixxx/pull/3972>`__
-  `#3992 <https://github.com/mixxxdj/mixxx/pull/3992>`__
-  `#4003 <https://github.com/mixxxdj/mixxx/pull/4003>`__
-  `#4004 <https://github.com/mixxxdj/mixxx/pull/4004>`__
-  `#3999 <https://github.com/mixxxdj/mixxx/pull/3999>`__
-  `#4000 <https://github.com/mixxxdj/mixxx/pull/4000>`__
-  `#4067 <https://github.com/mixxxdj/mixxx/pull/4067>`__
-  `#4068 <https://github.com/mixxxdj/mixxx/pull/4068>`__
-  `#4060 <https://github.com/mixxxdj/mixxx/pull/4060>`__
-  `#4037 <https://github.com/mixxxdj/mixxx/pull/4037>`__
-  `#4414 <https://github.com/mixxxdj/mixxx/pull/4414>`__
-  `#3934 <https://github.com/mixxxdj/mixxx/pull/3934>`__
-  `#4117 <https://github.com/mixxxdj/mixxx/pull/4117>`__
-  `#4327 <https://github.com/mixxxdj/mixxx/pull/4327>`__
-  `#4339 <https://github.com/mixxxdj/mixxx/pull/4339>`__
-  `#4568 <https://github.com/mixxxdj/mixxx/pull/4568>`__
-  `#4576 <https://github.com/mixxxdj/mixxx/pull/4576>`__
-  `#4591 <https://github.com/mixxxdj/mixxx/pull/4591>`__
-  `#4616 <https://github.com/mixxxdj/mixxx/pull/4616>`__
-  `#4567 <https://github.com/mixxxdj/mixxx/pull/4567>`__
-  `#4629 <https://github.com/mixxxdj/mixxx/pull/4629>`__
-  `#4643 <https://github.com/mixxxdj/mixxx/pull/4643>`__
-  `#4650 <https://github.com/mixxxdj/mixxx/pull/4650>`__
-  `#4654 <https://github.com/mixxxdj/mixxx/pull/4654>`__
-  `#4673 <https://github.com/mixxxdj/mixxx/pull/4673>`__
-  `#4680 <https://github.com/mixxxdj/mixxx/pull/4680>`__
-  `#4681 <https://github.com/mixxxdj/mixxx/pull/4681>`__
-  `#4736 <https://github.com/mixxxdj/mixxx/pull/4736>`__
 * Add harmonic keywheel window
   `#1695 <https://github.com/mixxxdj/mixxx/pull/1695>`__
   `#3622 <https://github.com/mixxxdj/mixxx/pull/3622>`__
@@ -666,6 +462,7 @@ Skins
   `#3939 <https://github.com/mixxxdj/mixxx/pull/3939>`__
 * Fix leaked controls `#4213 <https://github.com/mixxxdj/mixxx/pull/4213>`__ `#10293 <https://github.com/mixxxdj/mixxx/issues/10293>`__
 * Shade: Remove initial setting of now accessible effect controls `#4398 <https://github.com/mixxxdj/mixxx/pull/4398>`__ `#10557 <https://github.com/mixxxdj/mixxx/issues/10557>`__
+* Shade: Audio Latency meter fix `#11601 <https://github.com/mixxxdj/mixxx/pull/11601>`__
 * Fix switching from Shade to other skins `#4421 <https://github.com/mixxxdj/mixxx/pull/4421>`__ `#10558 <https://github.com/mixxxdj/mixxx/issues/10558>`__
 * Use double click to reset knobs and sliders `#4509 <https://github.com/mixxxdj/mixxx/pull/4509>`__ `#9947 <https://github.com/mixxxdj/mixxx/issues/9947>`__
 * Use info not warning for skin COs `#4525 <https://github.com/mixxxdj/mixxx/pull/4525>`__
@@ -695,7 +492,6 @@ Skins
 * Fix sidebar item styling
   `#11975 <https://github.com/mixxxdj/mixxx/pull/11975>`__
   `#11957 <https://github.com/mixxxdj/mixxx/issues/11957>`__
-* Shade: Audio Latency meter fix `#11601 <https://github.com/mixxxdj/mixxx/pull/11601>`__
 * Fix 500ms blocking of the whole event loop, when holding mouse down on title bar on Windows `#12359 <https://github.com/mixxxdj/mixxx/pull/12359>`__ `#12358 <https://github.com/mixxxdj/mixxx/issues/12358>`__ `#12433 <https://github.com/mixxxdj/mixxx/pull/12433>`__ `#12458 <https://github.com/mixxxdj/mixxx/pull/12458>`__
 * change SKIN_WARNING to show the skin file:line first, then c++ context `#12253 <https://github.com/mixxxdj/mixxx/pull/12253>`__
 * Fix style of selected QComboBox items on Windows `#12339 <https://github.com/mixxxdj/mixxx/pull/12339>`__ `#12323 <https://github.com/mixxxdj/mixxx/issues/12323>`__
@@ -703,6 +499,11 @@ Skins
 * Fix inconsistent/wrong musical keys in the UI `#12051 <https://github.com/mixxxdj/mixxx/pull/12051>`__ `#12044 <https://github.com/mixxxdj/mixxx/issues/12044>`__
 * Add ``skins:`` path alias `#12463 <https://github.com/mixxxdj/mixxx/pull/12463>`__
 * Remove ``Text``\ , use ``TrackProperty`` or ``Label`` `#12004 <https://github.com/mixxxdj/mixxx/pull/12004>`__
+* Implement Un-eject by pressing eject again
+  `#4668 <https://github.com/mixxxdj/mixxx/pull/4668>`__
+  `#11246 <https://github.com/mixxxdj/mixxx/pull/11246>`__
+* Implement Un-replace by double-clicking eject
+  `#11246 <https://github.com/mixxxdj/mixxx/pull/11246>`__
 
 Waveforms and GL Widgets
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -872,328 +673,43 @@ Target Support
   `#12123 <https://github.com/mixxxdj/mixxx/pull/12123>`__
   `#12089 <https://github.com/mixxxdj/mixxx/issues/12089>`__
   `#12095 <https://github.com/mixxxdj/mixxx/pull/12095>`__
-* macOS packaging: Enable app sandbox in unsigned 2.4 builds too
+* macOS packaging: Enable app sandbox and fix related issues
   `#12138 <https://github.com/mixxxdj/mixxx/pull/12138>`__
-* macOS packaging: Fix regression that caused ``Sandbox::canAccess`` to fail
   `#12457 <https://github.com/mixxxdj/mixxx/pull/12457>`__
   `#12137 <https://github.com/mixxxdj/mixxx/issues/12137>`__
   `#11552 <https://github.com/mixxxdj/mixxx/issues/11552>`__
-* macOS packaging: Fix running macOS bundle from development build directory `#12099 <https://github.com/mixxxdj/mixxx/pull/12099>`__
-* Hide applocal group from Windows installer `#12118 <https://github.com/mixxxdj/mixxx/pull/12118>`__ `#11992 <https://github.com/mixxxdj/mixxx/issues/11992>`__
+  `#4018 <https://github.com/mixxxdj/mixxx/pull/4018>`__
+  `#10373 <https://github.com/mixxxdj/mixxx/issues/10373>`__
+* macOS: Use rounded Mixxx Icon to follow Apples style guide
+  `#4545 <https://github.com/mixxxdj/mixxx/pull/4545>`__
+  `#10958 <https://github.com/mixxxdj/mixxx/pull/10958>`__
+* OpenBSD: Allow building Mixxx `#11083 <https://github.com/mixxxdj/mixxx/pull/11083>`__
+* Improve Linux launcher
+  `#11826 <https://github.com/mixxxdj/mixxx/pull/11826>`__
+  `#11820 <https://github.com/mixxxdj/mixxx/issues/11820>`__
+  `#11805 <https://github.com/mixxxdj/mixxx/pull/11805>`__
+  `#12424 <https://github.com/mixxxdj/mixxx/pull/12424>`__
 
-Other
-^^^^^
+Track properties
+^^^^^^^^^^^^^^^^
 
 
-* Improve and fix the CMake build system
-  `#2943 <https://github.com/mixxxdj/mixxx/pull/2943>`__
-  `#3046 <https://github.com/mixxxdj/mixxx/pull/3046>`__
-  `#3114 <https://github.com/mixxxdj/mixxx/pull/3114>`__
-  `#3471 <https://github.com/mixxxdj/mixxx/pull/3471>`__
-  `#3765 <https://github.com/mixxxdj/mixxx/pull/3765>`__
-  `#3849 <https://github.com/mixxxdj/mixxx/pull/3849>`__
-  `#3876 <https://github.com/mixxxdj/mixxx/pull/3876>`__
-  `#4098 <https://github.com/mixxxdj/mixxx/pull/4098>`__
-  `#4113 <https://github.com/mixxxdj/mixxx/pull/4113>`__
-  `#4166 <https://github.com/mixxxdj/mixxx/pull/4166>`__
-  `#4185 <https://github.com/mixxxdj/mixxx/pull/4185>`__
-  `#4187 <https://github.com/mixxxdj/mixxx/pull/4187>`__
-  `#4351 <https://github.com/mixxxdj/mixxx/pull/4351>`__
-  `#4423 <https://github.com/mixxxdj/mixxx/pull/4423>`__
-  `#4422 <https://github.com/mixxxdj/mixxx/pull/4422>`__
-  `#4497 <https://github.com/mixxxdj/mixxx/pull/4497>`__
-  `#4514 <https://github.com/mixxxdj/mixxx/pull/4514>`__
-  `#3550 <https://github.com/mixxxdj/mixxx/pull/3550>`__
-  `#4861 <https://github.com/mixxxdj/mixxx/pull/4861>`__
-  `#10855 <https://github.com/mixxxdj/mixxx/pull/10855>`__
-  `#10896 <https://github.com/mixxxdj/mixxx/pull/10896>`__
-  `#10926 <https://github.com/mixxxdj/mixxx/pull/10926>`__
-  `#11368 <https://github.com/mixxxdj/mixxx/pull/11368>`__
-  `#11144 <https://github.com/mixxxdj/mixxx/pull/11144>`__
-  `#4866 <https://github.com/mixxxdj/mixxx/pull/4866>`__
-  `#12442 <https://github.com/mixxxdj/mixxx/pull/12442>`__
-  `#12351 <https://github.com/mixxxdj/mixxx/pull/12351>`__
-  `#12288 <https://github.com/mixxxdj/mixxx/pull/12288>`__
-  `#12197 <https://github.com/mixxxdj/mixxx/pull/12197>`__
-  `#11754 <https://github.com/mixxxdj/mixxx/pull/11754>`__
-  `#11741 <https://github.com/mixxxdj/mixxx/issues/11741>`__
-  `#12518 <https://github.com/mixxxdj/mixxx/pull/12518>`__
-* Improve GitHub workflow continuous integration
-  `#2937 <https://github.com/mixxxdj/mixxx/pull/2937>`__
-  `#3041 <https://github.com/mixxxdj/mixxx/pull/3041>`__
-  `#3300 <https://github.com/mixxxdj/mixxx/pull/3300>`__
-  `#4007 <https://github.com/mixxxdj/mixxx/pull/4007>`__
-  `#4084 <https://github.com/mixxxdj/mixxx/pull/4084>`__
-  `#4250 <https://github.com/mixxxdj/mixxx/pull/4250>`__
-  `#4274 <https://github.com/mixxxdj/mixxx/pull/4274>`__
-  `#4313 <https://github.com/mixxxdj/mixxx/pull/4313>`__
-  `#4226 <https://github.com/mixxxdj/mixxx/pull/4226>`__
-  `#4452 <https://github.com/mixxxdj/mixxx/pull/4452>`__
-  `#4742 <https://github.com/mixxxdj/mixxx/pull/4742>`__
-  `#4741 <https://github.com/mixxxdj/mixxx/pull/4741>`__
-  `#4795 <https://github.com/mixxxdj/mixxx/pull/4795>`__
-  `#4798 <https://github.com/mixxxdj/mixxx/pull/4798>`__
-  `#4792 <https://github.com/mixxxdj/mixxx/pull/4792>`__
-  `#4829 <https://github.com/mixxxdj/mixxx/pull/4829>`__
-  `#4822 <https://github.com/mixxxdj/mixxx/pull/4822>`__
-  `#4820 <https://github.com/mixxxdj/mixxx/pull/4820>`__
-  `#4821 <https://github.com/mixxxdj/mixxx/pull/4821>`__
-  `#4818 <https://github.com/mixxxdj/mixxx/pull/4818>`__
-  `#4819 <https://github.com/mixxxdj/mixxx/pull/4819>`__
-  `#4817 <https://github.com/mixxxdj/mixxx/pull/4817>`__
-  `#4815 <https://github.com/mixxxdj/mixxx/pull/4815>`__
-  `#10938 <https://github.com/mixxxdj/mixxx/pull/10938>`__
-  `#11038 <https://github.com/mixxxdj/mixxx/pull/11038>`__
-  `#11066 <https://github.com/mixxxdj/mixxx/pull/11066>`__
-  `#11089 <https://github.com/mixxxdj/mixxx/pull/11089>`__
-  `#11156 <https://github.com/mixxxdj/mixxx/pull/11156>`__
-  `#11193 <https://github.com/mixxxdj/mixxx/pull/11193>`__
-  `#11396 <https://github.com/mixxxdj/mixxx/pull/11396>`__
-  `#11386 <https://github.com/mixxxdj/mixxx/issues/11386>`__
-  `#11414 <https://github.com/mixxxdj/mixxx/pull/11414>`__
-  `#12502 <https://github.com/mixxxdj/mixxx/pull/12502>`__
-  `#12434 <https://github.com/mixxxdj/mixxx/pull/12434>`__
-  `#11962 <https://github.com/mixxxdj/mixxx/pull/11962>`__
-  `#11945 <https://github.com/mixxxdj/mixxx/pull/11945>`__
-* Improve pre-commit hook
-  `#2796 <https://github.com/mixxxdj/mixxx/pull/2796>`__
-  `#3923 <https://github.com/mixxxdj/mixxx/pull/3923>`__
-  `#3948 <https://github.com/mixxxdj/mixxx/pull/3948>`__
-  `#3929 <https://github.com/mixxxdj/mixxx/pull/3929>`__
-  `#4192 <https://github.com/mixxxdj/mixxx/pull/4192>`__
-  `#4282 <https://github.com/mixxxdj/mixxx/pull/4282>`__
-  `#4278 <https://github.com/mixxxdj/mixxx/pull/4278>`__
-  `#4314 <https://github.com/mixxxdj/mixxx/pull/4314>`__
-  `#4321 <https://github.com/mixxxdj/mixxx/pull/4321>`__
-  `#4374 <https://github.com/mixxxdj/mixxx/pull/4374>`__
-  `#4494 <https://github.com/mixxxdj/mixxx/pull/4494>`__
-  `#4512 <https://github.com/mixxxdj/mixxx/pull/4512>`__
-  `#4558 <https://github.com/mixxxdj/mixxx/pull/4558>`__
-  `#4580 <https://github.com/mixxxdj/mixxx/pull/4580>`__
-  `#4743 <https://github.com/mixxxdj/mixxx/pull/4743>`__
-  `#10950 <https://github.com/mixxxdj/mixxx/pull/10950>`__
-  `#10980 <https://github.com/mixxxdj/mixxx/pull/10980>`__
-  `#11078 <https://github.com/mixxxdj/mixxx/pull/11078>`__
-  `#10929 <https://github.com/mixxxdj/mixxx/pull/10929>`__
-  `#11369 <https://github.com/mixxxdj/mixxx/pull/11369>`__
-  `#11388 <https://github.com/mixxxdj/mixxx/pull/11388>`__
-  `#11889 <https://github.com/mixxxdj/mixxx/pull/11889>`__
-* Improve Lauchpad PPA builds
-  `#4277 <https://github.com/mixxxdj/mixxx/pull/4277>`__
-  `#4285 <https://github.com/mixxxdj/mixxx/pull/4285>`__
-  `#4425 <https://github.com/mixxxdj/mixxx/pull/4425>`__
-  `#12347 <https://github.com/mixxxdj/mixxx/pull/12347>`__
-  `#11729 <https://github.com/mixxxdj/mixxx/pull/11729>`__
-* Update vcpkg build environment for Windows and macOS
-  `#4163 <https://github.com/mixxxdj/mixxx/pull/4163>`__
-  `#4225 <https://github.com/mixxxdj/mixxx/pull/4225>`__
-  `#4338 <https://github.com/mixxxdj/mixxx/pull/4338>`__
-  `#4709 <https://github.com/mixxxdj/mixxx/pull/4709>`__
-  `#4717 <https://github.com/mixxxdj/mixxx/pull/4717>`__
-  `#10872 <https://github.com/mixxxdj/mixxx/pull/10872>`__
-  `#10966 <https://github.com/mixxxdj/mixxx/pull/10966>`__
-  `#11050 <https://github.com/mixxxdj/mixxx/pull/11050>`__
-  `#11074 <https://github.com/mixxxdj/mixxx/pull/11074>`__
-  `#11238 <https://github.com/mixxxdj/mixxx/pull/11238>`__
-  `#11457 <https://github.com/mixxxdj/mixxx/pull/11457>`__
-  `#11562 <https://github.com/mixxxdj/mixxx/pull/11562>`__
-  `#12370 <https://github.com/mixxxdj/mixxx/pull/12370>`__
-  `#11733 <https://github.com/mixxxdj/mixxx/pull/11733>`__
-* Windows: Fix extraction of build environment archive when using 7-Zip `#11510 <https://github.com/mixxxdj/mixxx/pull/11510>`__
-* Fix Windows warnings and enable "Treat all compiler warnings as errors" `#11607 <https://github.com/mixxxdj/mixxx/pull/11607>`__ `#12417 <https://github.com/mixxxdj/mixxx/pull/12417>`__
-* Devendor libraries from the mixxx lib directory
-  `#4201 <https://github.com/mixxxdj/mixxx/pull/4201>`__
-  `#4202 <https://github.com/mixxxdj/mixxx/pull/4202>`__
-  `#11839 <https://github.com/mixxxdj/mixxx/pull/11839>`__
-  `#11742 <https://github.com/mixxxdj/mixxx/issues/11742>`__
-  `#11841 <https://github.com/mixxxdj/mixxx/pull/11841>`__
-* `#4540 <https://github.com/mixxxdj/mixxx/pull/4540>`__
-* Update hidapi to 0.11.2 `#4783 <https://github.com/mixxxdj/mixxx/pull/4783>`__
-* Update xwax to Version 1.8 `#4597 <https://github.com/mixxxdj/mixxx/pull/4597>`__ `#10627 <https://github.com/mixxxdj/mixxx/issues/10627>`__
-* Update rigtorp/SPSCQueue `#4678 <https://github.com/mixxxdj/mixxx/pull/4678>`__
-* macOS: Fail early if the Xcode command line tools are not installed. `#11699 <https://github.com/mixxxdj/mixxx/pull/11699>`__
-* macOS buildenv: Improve error messages for CI-only wrappers `#12382 <https://github.com/mixxxdj/mixxx/pull/12382>`__
-* Improve cmake first time error reporting `#11635 <https://github.com/mixxxdj/mixxx/pull/11635>`__ `#11596 <https://github.com/mixxxdj/mixxx/issues/11596>`__ `#11597 <https://github.com/mixxxdj/mixxx/issues/11597>`__
-* Manual include #include "moc_*.cpp" to speed up build `#11567 <https://github.com/mixxxdj/mixxx/pull/11567>`__
-* Fix building Mixxx with SDK 11 `#11766 <https://github.com/mixxxdj/mixxx/pull/11766>`__
-* chore: Fix spelling and formatting issues `#11890 <https://github.com/mixxxdj/mixxx/pull/11890>`__
-* Prefer mold or lld as linker to speed up linking `#11790 <https://github.com/mixxxdj/mixxx/pull/11790>`__ `#11796 <https://github.com/mixxxdj/mixxx/pull/11796>`__
-* feat: allow sanitizers on GCC as well `#12002 <https://github.com/mixxxdj/mixxx/pull/12002>`__
-* Update manifest even if one job fails `#12091 <https://github.com/mixxxdj/mixxx/pull/12091>`__
-* Mixxx 2.4: Fail Qt6 build not on GitHub Actions `#12293 <https://github.com/mixxxdj/mixxx/pull/12293>`__
-* CMakeLists: Relativize ``__FILE__`` paths by default `#12350 <https://github.com/mixxxdj/mixxx/pull/12350>`__
-* Debug: Add Rust-inspired ``DBG`` macro for quick print-debugging `#12344 <https://github.com/mixxxdj/mixxx/pull/12344>`__ `#12383 <https://github.com/mixxxdj/mixxx/pull/12383>`__
-* Migration to Qt6 (work in progress)
-  `#4052 <https://github.com/mixxxdj/mixxx/pull/4052>`__
-  `#4295 <https://github.com/mixxxdj/mixxx/pull/4295>`__
-  `#4293 <https://github.com/mixxxdj/mixxx/pull/4293>`__
-  `#4294 <https://github.com/mixxxdj/mixxx/pull/4294>`__
-  `#4291 <https://github.com/mixxxdj/mixxx/pull/4291>`__
-  `#4290 <https://github.com/mixxxdj/mixxx/pull/4290>`__
-  `#4300 <https://github.com/mixxxdj/mixxx/pull/4300>`__
-  `#4302 <https://github.com/mixxxdj/mixxx/pull/4302>`__
-  `#4289 <https://github.com/mixxxdj/mixxx/pull/4289>`__
-  `#4292 <https://github.com/mixxxdj/mixxx/pull/4292>`__
-  `#4299 <https://github.com/mixxxdj/mixxx/pull/4299>`__
-  `#4051 <https://github.com/mixxxdj/mixxx/pull/4051>`__
-  `#4303 <https://github.com/mixxxdj/mixxx/pull/4303>`__
-  `#4305 <https://github.com/mixxxdj/mixxx/pull/4305>`__
-  `#4304 <https://github.com/mixxxdj/mixxx/pull/4304>`__
-  `#4306 <https://github.com/mixxxdj/mixxx/pull/4306>`__
-  `#4308 <https://github.com/mixxxdj/mixxx/pull/4308>`__
-  `#4309 <https://github.com/mixxxdj/mixxx/pull/4309>`__
-  `#4322 <https://github.com/mixxxdj/mixxx/pull/4322>`__
-  `#4373 <https://github.com/mixxxdj/mixxx/pull/4373>`__
-  `#4371 <https://github.com/mixxxdj/mixxx/pull/4371>`__
-  `#4375 <https://github.com/mixxxdj/mixxx/pull/4375>`__
-  `#4378 <https://github.com/mixxxdj/mixxx/pull/4378>`__
-  `#4381 <https://github.com/mixxxdj/mixxx/pull/4381>`__
-  `#4380 <https://github.com/mixxxdj/mixxx/pull/4380>`__
-  `#4376 <https://github.com/mixxxdj/mixxx/pull/4376>`__
-  `#4379 <https://github.com/mixxxdj/mixxx/pull/4379>`__
-  `#4372 <https://github.com/mixxxdj/mixxx/pull/4372>`__
-  `#4377 <https://github.com/mixxxdj/mixxx/pull/4377>`__
-  `#4387 <https://github.com/mixxxdj/mixxx/pull/4387>`__
-  `#4391 <https://github.com/mixxxdj/mixxx/pull/4391>`__
-  `#4392 <https://github.com/mixxxdj/mixxx/pull/4392>`__
-  `#4395 <https://github.com/mixxxdj/mixxx/pull/4395>`__
-  `#4397 <https://github.com/mixxxdj/mixxx/pull/4397>`__
-  `#4396 <https://github.com/mixxxdj/mixxx/pull/4396>`__
-  `#4402 <https://github.com/mixxxdj/mixxx/pull/4402>`__
-  `#4405 <https://github.com/mixxxdj/mixxx/pull/4405>`__
-  `#4394 <https://github.com/mixxxdj/mixxx/pull/4394>`__
-  `#4404 <https://github.com/mixxxdj/mixxx/pull/4404>`__
-  `#4401 <https://github.com/mixxxdj/mixxx/pull/4401>`__
-  `#4400 <https://github.com/mixxxdj/mixxx/pull/4400>`__
-  `#4403 <https://github.com/mixxxdj/mixxx/pull/4403>`__
-  `#4407 <https://github.com/mixxxdj/mixxx/pull/4407>`__
-  `#4399 <https://github.com/mixxxdj/mixxx/pull/4399>`__
-  `#4406 <https://github.com/mixxxdj/mixxx/pull/4406>`__
-  `#4420 <https://github.com/mixxxdj/mixxx/pull/4420>`__
-  `#4415 <https://github.com/mixxxdj/mixxx/pull/4415>`__
-  `#4417 <https://github.com/mixxxdj/mixxx/pull/4417>`__
-  `#4419 <https://github.com/mixxxdj/mixxx/pull/4419>`__
-  `#4416 <https://github.com/mixxxdj/mixxx/pull/4416>`__
-  `#4418 <https://github.com/mixxxdj/mixxx/pull/4418>`__
-  `#4547 <https://github.com/mixxxdj/mixxx/pull/4547>`__
-  `#4433 <https://github.com/mixxxdj/mixxx/pull/4433>`__
-  `#4434 <https://github.com/mixxxdj/mixxx/pull/4434>`__
-  `#4441 <https://github.com/mixxxdj/mixxx/pull/4441>`__
-  `#4445 <https://github.com/mixxxdj/mixxx/pull/4445>`__
-  `#4446 <https://github.com/mixxxdj/mixxx/pull/4446>`__
-  `#4444 <https://github.com/mixxxdj/mixxx/pull/4444>`__
-  `#4436 <https://github.com/mixxxdj/mixxx/pull/4436>`__
-  `#4437 <https://github.com/mixxxdj/mixxx/pull/4437>`__
-  `#4440 <https://github.com/mixxxdj/mixxx/pull/4440>`__
-  `#4430 <https://github.com/mixxxdj/mixxx/pull/4430>`__
-  `#4435 <https://github.com/mixxxdj/mixxx/pull/4435>`__
-  `#4443 <https://github.com/mixxxdj/mixxx/pull/4443>`__
-  `#4439 <https://github.com/mixxxdj/mixxx/pull/4439>`__
-  `#4442 <https://github.com/mixxxdj/mixxx/pull/4442>`__
-  `#4438 <https://github.com/mixxxdj/mixxx/pull/4438>`__
-  `#4449 <https://github.com/mixxxdj/mixxx/pull/4449>`__
-  `#4451 <https://github.com/mixxxdj/mixxx/pull/4451>`__
-  `#4453 <https://github.com/mixxxdj/mixxx/pull/4453>`__
-  `#4478 <https://github.com/mixxxdj/mixxx/pull/4478>`__
-  `#4479 <https://github.com/mixxxdj/mixxx/pull/4479>`__
-  `#4506 <https://github.com/mixxxdj/mixxx/pull/4506>`__
-  `#4556 <https://github.com/mixxxdj/mixxx/pull/4556>`__
-  `#4554 <https://github.com/mixxxdj/mixxx/pull/4554>`__
-  `#4555 <https://github.com/mixxxdj/mixxx/pull/4555>`__
-  `#4552 <https://github.com/mixxxdj/mixxx/pull/4552>`__
-  `#4549 <https://github.com/mixxxdj/mixxx/pull/4549>`__
-  `#4788 <https://github.com/mixxxdj/mixxx/pull/4788>`__
-  `#4620 <https://github.com/mixxxdj/mixxx/pull/4620>`__
-  `#4641 <https://github.com/mixxxdj/mixxx/pull/4641>`__
-  `#4649 <https://github.com/mixxxdj/mixxx/pull/4649>`__
-  `#4679 <https://github.com/mixxxdj/mixxx/pull/4679>`__
-  `#10928 <https://github.com/mixxxdj/mixxx/pull/10928>`__
-  `#10927 <https://github.com/mixxxdj/mixxx/pull/10927>`__
-  `#11063 <https://github.com/mixxxdj/mixxx/pull/11063>`__
-  `#11153 <https://github.com/mixxxdj/mixxx/pull/11153>`__
-  `#11180 <https://github.com/mixxxdj/mixxx/pull/11180>`__ `#11167 <https://github.com/mixxxdj/mixxx/issues/11167>`__
-  `#11181 <https://github.com/mixxxdj/mixxx/pull/11181>`__
-  `#11266 <https://github.com/mixxxdj/mixxx/pull/11266>`__
-  `#11312 <https://github.com/mixxxdj/mixxx/pull/11312>`__
-  `#11389 <https://github.com/mixxxdj/mixxx/pull/11389>`__
-  `#4393 <https://github.com/mixxxdj/mixxx/pull/4393>`__
-  `#12268 <https://github.com/mixxxdj/mixxx/pull/12268>`__
-  `#12240 <https://github.com/mixxxdj/mixxx/pull/12240>`__
-  `#12056 <https://github.com/mixxxdj/mixxx/pull/12056>`__
-  `#12430 <https://github.com/mixxxdj/mixxx/pull/12430>`__
-  `#12029 <https://github.com/mixxxdj/mixxx/pull/12029>`__
-* Allow to compile with precompiled headers, enabled on Windows by default
-  `#12381 <https://github.com/mixxxdj/mixxx/pull/12381>`__
-  `#12080 <https://github.com/mixxxdj/mixxx/pull/12080>`__
-  `#12410 <https://github.com/mixxxdj/mixxx/pull/12410>`__
-  `#12360 <https://github.com/mixxxdj/mixxx/pull/12360>`__
-  `#12352 <https://github.com/mixxxdj/mixxx/pull/12352>`__
-  `#12346 <https://github.com/mixxxdj/mixxx/pull/12346>`__
-  `#12338 <https://github.com/mixxxdj/mixxx/pull/12338>`__
-  `#12327 <https://github.com/mixxxdj/mixxx/pull/12327>`__
-  `#12308 <https://github.com/mixxxdj/mixxx/pull/12308>`__
-  `#12303 <https://github.com/mixxxdj/mixxx/pull/12303>`__
-  `#12302 <https://github.com/mixxxdj/mixxx/pull/12302>`__
-  `#12298 <https://github.com/mixxxdj/mixxx/pull/12298>`__
-  `#12229 <https://github.com/mixxxdj/mixxx/pull/12229>`__
-  `#12079 <https://github.com/mixxxdj/mixxx/pull/12079>`__
-  `#12058 <https://github.com/mixxxdj/mixxx/pull/12058>`__
-  `#12037 <https://github.com/mixxxdj/mixxx/pull/12037>`__
-  `#12024 <https://github.com/mixxxdj/mixxx/pull/12024>`__
-  `#12025 <https://github.com/mixxxdj/mixxx/pull/12025>`__
-* Made use of inclusive language
-  `#2894 <https://github.com/mixxxdj/mixxx/pull/2894>`__
-  `#3868 <https://github.com/mixxxdj/mixxx/pull/3868>`__
-  `#11017 <https://github.com/mixxxdj/mixxx/pull/11017>`__
-  `#11968 <https://github.com/mixxxdj/mixxx/pull/11968>`__
-  `#11959 <https://github.com/mixxxdj/mixxx/pull/11959>`__
-  `#11942 <https://github.com/mixxxdj/mixxx/pull/11942>`__
-* Improve the unit tests
-  `#2938 <https://github.com/mixxxdj/mixxx/pull/2938>`__
-  `#2980 <https://github.com/mixxxdj/mixxx/pull/2980>`__
-  `#3006 <https://github.com/mixxxdj/mixxx/pull/3006>`__
-  `#4345 <https://github.com/mixxxdj/mixxx/pull/4345>`__
-* Logging: Add support for ``QT_MESSAGE_PATTERN`` environment variable
-  `#3204 <https://github.com/mixxxdj/mixxx/pull/3204>`__
-  `#3518 <https://github.com/mixxxdj/mixxx/pull/3518>`__
-* Colored logging console output
-  `#3197 <https://github.com/mixxxdj/mixxx/pull/3197>`__
-* Improve command line argument parser
-  `#3640 <https://github.com/mixxxdj/mixxx/pull/3640>`__
-  `#3962 <https://github.com/mixxxdj/mixxx/pull/3962>`__
-  `#4022 <https://github.com/mixxxdj/mixxx/pull/4022>`__
-  `#4036 <https://github.com/mixxxdj/mixxx/pull/4036>`__
-  `#4170 <https://github.com/mixxxdj/mixxx/pull/4170>`__
-  `#4057 <https://github.com/mixxxdj/mixxx/pull/4057>`__
-* Improve message when dealing with macOS sandbox `#4018 <https://github.com/mixxxdj/mixxx/pull/4018>`__ `#10373 <https://github.com/mixxxdj/mixxx/issues/10373>`__
-* Moved contribution guidelines into our git repository `#2699 <https://github.com/mixxxdj/mixxx/pull/2699>`__
-* Make windows_buildenv.bat work with spaces in path `#4896 <https://github.com/mixxxdj/mixxx/pull/4896>`__
-* Automate deployment of CHANGELOG to the manual
-  `#4180 <https://github.com/mixxxdj/mixxx/pull/4180>`__
-  `#4256 <https://github.com/mixxxdj/mixxx/pull/4256>`__
-  `#4208 <https://github.com/mixxxdj/mixxx/pull/4208>`__
-  `#4228 <https://github.com/mixxxdj/mixxx/pull/4228>`__
-  `#4222 <https://github.com/mixxxdj/mixxx/pull/4222>`__
+* Fix a SIGSEGV after a debug assertion `#4316 <https://github.com/mixxxdj/mixxx/pull/4316>`__
+* Apply pending changes also when saving via hotkey `#4562 <https://github.com/mixxxdj/mixxx/pull/4562>`__ `#10612 <https://github.com/mixxxdj/mixxx/issues/10612>`__
+* Fix crash when trying to scale 0.0 BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`__ `#1955853 <https://github.com/mixxxdj/mixxx/issues/10625>`__
+* Add track color selector `#11436 <https://github.com/mixxxdj/mixxx/pull/11436>`__ `#10324 <https://github.com/mixxxdj/mixxx/issues/10324>`__
+* Don't clear unsaved properties when updating star rating `#11565 <https://github.com/mixxxdj/mixxx/pull/11565>`__ `#11540 <https://github.com/mixxxdj/mixxx/issues/11540>`__
+* Focus Double-clicked property field for edit
+  `#11764 <https://github.com/mixxxdj/mixxx/pull/11764>`__
+  `#11804 <https://github.com/mixxxdj/mixxx/pull/11804>`__
+  `#11802 <https://github.com/mixxxdj/mixxx/issues/11802>`__
+* Display the samplerate `#12418 <https://github.com/mixxxdj/mixxx/pull/12418>`__
+
+Preferences
+^^^^^^^^^^^
+
+
 * Always show tooltips in preferences `#4198 <https://github.com/mixxxdj/mixxx/pull/4198>`__ `#9716 <https://github.com/mixxxdj/mixxx/issues/9716>`__
-* Allow to build Mixxx on Linux without ALSA, working around a Pipewire bug `#4242 <https://github.com/mixxxdj/mixxx/pull/4242>`__
-* Fix possible crash with opus files with embedded cover arts and require TagLib 1.11 or newer
-  `#4251 <https://github.com/mixxxdj/mixxx/pull/4251>`__
-  `#4252 <https://github.com/mixxxdj/mixxx/pull/4252>`__ `#10500 <https://github.com/mixxxdj/mixxx/issues/10500>`__
-* DlgTrackInfo: Fixed a SIGSEGV after a debug assertion `#4316 <https://github.com/mixxxdj/mixxx/pull/4316>`__
-* Library Preferences: Added link to settings files info in the manual `#4367 <https://github.com/mixxxdj/mixxx/pull/4367>`__
-* Use rounded Mixxx Icon for MacOS to follow Apples style guide `#4545 <https://github.com/mixxxdj/mixxx/pull/4545>`__
-* Show native path separators in command line argument --help `#4657 <https://github.com/mixxxdj/mixxx/pull/4657>`__
-* Add 13 new translation languages `#4785 <https://github.com/mixxxdj/mixxx/pull/4785>`__ `#9702 <https://github.com/mixxxdj/mixxx/issues/9702>`__
-* Fix translation related warnings `#11539 <https://github.com/mixxxdj/mixxx/pull/11539>`__
-* Remove redundant ``cmn`` translation in favor of ``zh`` `#11793 <https://github.com/mixxxdj/mixxx/pull/11793>`__ `#11791 <https://github.com/mixxxdj/mixxx/issues/11791>`__
-* Improve Vinyl control quality indicator `#3279 <https://github.com/mixxxdj/mixxx/pull/3279>`__
-* Track info dialog: Apply pending changes also when saving via hotkey `#4562 <https://github.com/mixxxdj/mixxx/pull/4562>`__ `#10612 <https://github.com/mixxxdj/mixxx/issues/10612>`__
-* Track info dialog: Fix crash when trying to scale 0.0 BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`__ `#1955853 <https://github.com/mixxxdj/mixxx/issues/10625>`__
-* Track info dialog: Add track color selector `#11436 <https://github.com/mixxxdj/mixxx/pull/11436>`__ `#10324 <https://github.com/mixxxdj/mixxx/issues/10324>`__
-* Tweak remove/hide track confirm message to match confirm exit message `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`__ `#1947992 <https://github.com/mixxxdj/mixxx/issues/10577>`__
-* Implement Un-eject by pressing eject again
-  `#4668 <https://github.com/mixxxdj/mixxx/pull/4668>`__
-  `#11246 <https://github.com/mixxxdj/mixxx/pull/11246>`__
 * Preferences > Effects: Fix Tab key navigation / UX `#4702 <https://github.com/mixxxdj/mixxx/pull/4702>`__ `#10579 <https://github.com/mixxxdj/mixxx/issues/10579>`__
 * Preferences: Added option to keep deck playing on track load `#10944 <https://github.com/mixxxdj/mixxx/pull/10944>`__ `#10548 <https://github.com/mixxxdj/mixxx/issues/10548>`__
 * Preferences: always enable Alt shortcut keys `#11145 <https://github.com/mixxxdj/mixxx/pull/11145>`__ `#10413 <https://github.com/mixxxdj/mixxx/issues/10413>`__
@@ -1204,187 +720,14 @@ Other
 * macOS: set preferences dialog title to the selected page title `#11696 <https://github.com/mixxxdj/mixxx/pull/11696>`__
 * macOS: fix the preferences menu and opening the settings directory `#11679 <https://github.com/mixxxdj/mixxx/pull/11679>`__
 * macOS: fix slider styling in preferences dialog `#11647 <https://github.com/mixxxdj/mixxx/pull/11647>`__
+* Preferences Vinyl control Improve quality indicator `#3279 <https://github.com/mixxxdj/mixxx/pull/3279>`__
 * Preferences > Mixer: apply & save settings only in slotApply(), fix bugs, improve UX `#11527 <https://github.com/mixxxdj/mixxx/pull/11527>`__
 * Preferences > Mixer: fix reset of EQ auto-reset checkbox `#11818 <https://github.com/mixxxdj/mixxx/pull/11818>`__ `#11817 <https://github.com/mixxxdj/mixxx/issues/11817>`__
 * Preferences > Interface: avoid unneeded skin reload, clean up `#11853 <https://github.com/mixxxdj/mixxx/pull/11853>`__
 * Preferences > Hardware: sound tab order `#11926 <https://github.com/mixxxdj/mixxx/pull/11926>`__
-* macOS: Add better rasterization of program icon `#10958 <https://github.com/mixxxdj/mixxx/pull/10958>`__
-* make decks' xfader assignment persistent `#12074 <https://github.com/mixxxdj/mixxx/pull/12074>`__ `#10122 <https://github.com/mixxxdj/mixxx/issues/10122>`__
-* Allow building Mixxx on OpenBSD `#11083 <https://github.com/mixxxdj/mixxx/pull/11083>`__
-* Fix autogenerated metainfo `#11383 <https://github.com/mixxxdj/mixxx/pull/11383>`__
-* Fix setting the wrong default cue color `#11554 <https://github.com/mixxxdj/mixxx/pull/11554>`__ `#11260 <https://github.com/mixxxdj/mixxx/issues/11260>`__
-* (fix) linux launcher: add missing quote to command line `#11826 <https://github.com/mixxxdj/mixxx/pull/11826>`__ `#11820 <https://github.com/mixxxdj/mixxx/issues/11820>`__
-* Delete obsolete -platform xcb args `#11805 <https://github.com/mixxxdj/mixxx/pull/11805>`__
-* A small fix to .desktop file that improves Gnome dock integration on `#12424 <https://github.com/mixxxdj/mixxx/pull/12424>`__
-* Replace Launchpad bugs by GitHub issues
-  `#10850 <https://github.com/mixxxdj/mixxx/pull/10850>`__
-  `#10865 <https://github.com/mixxxdj/mixxx/pull/10865>`__
-  `#4877 <https://github.com/mixxxdj/mixxx/pull/4877>`__
-  `#11270 <https://github.com/mixxxdj/mixxx/pull/11270>`__
-  `#11377 <https://github.com/mixxxdj/mixxx/pull/11377>`__
-  `#11379 <https://github.com/mixxxdj/mixxx/pull/11379>`__
-* Misc. refactorings
-  `#3154 <https://github.com/mixxxdj/mixxx/pull/3154>`__
-  `#2870 <https://github.com/mixxxdj/mixxx/pull/2870>`__
-  `#2872 <https://github.com/mixxxdj/mixxx/pull/2872>`__
-  `#2978 <https://github.com/mixxxdj/mixxx/pull/2978>`__
-  `#2969 <https://github.com/mixxxdj/mixxx/pull/2969>`__
-  `#3016 <https://github.com/mixxxdj/mixxx/pull/3016>`__
-  `#3320 <https://github.com/mixxxdj/mixxx/pull/3320>`__
-  `#3356 <https://github.com/mixxxdj/mixxx/pull/3356>`__
-  `#3453 <https://github.com/mixxxdj/mixxx/pull/3453>`__
-  `#3487 <https://github.com/mixxxdj/mixxx/pull/3487>`__
-  `#3558 <https://github.com/mixxxdj/mixxx/pull/3558>`__
-  `#3685 <https://github.com/mixxxdj/mixxx/pull/3685>`__
-  `#3741 <https://github.com/mixxxdj/mixxx/pull/3741>`__
-  `#3744 <https://github.com/mixxxdj/mixxx/pull/3744>`__
-  `#3753 <https://github.com/mixxxdj/mixxx/pull/3753>`__
-  `#3761 <https://github.com/mixxxdj/mixxx/pull/3761>`__
-  `#3834 <https://github.com/mixxxdj/mixxx/pull/3834>`__
-  `#3842 <https://github.com/mixxxdj/mixxx/pull/3842>`__
-  `#3853 <https://github.com/mixxxdj/mixxx/pull/3853>`__
-  `#3874 <https://github.com/mixxxdj/mixxx/pull/3874>`__
-  `#3883 <https://github.com/mixxxdj/mixxx/pull/3883>`__
-  `#3922 <https://github.com/mixxxdj/mixxx/pull/3922>`__
-  `#3947 <https://github.com/mixxxdj/mixxx/pull/3947>`__
-  `#3974 <https://github.com/mixxxdj/mixxx/pull/3974>`__
-  `#4024 <https://github.com/mixxxdj/mixxx/pull/4024>`__
-  `#4026 <https://github.com/mixxxdj/mixxx/pull/4026>`__
-  `#4034 <https://github.com/mixxxdj/mixxx/pull/4034>`__
-  `#4038 <https://github.com/mixxxdj/mixxx/pull/4038>`__
-  `#4039 <https://github.com/mixxxdj/mixxx/pull/4039>`__
-  `#4043 <https://github.com/mixxxdj/mixxx/pull/4043>`__
-  `#4053 <https://github.com/mixxxdj/mixxx/pull/4053>`__
-  `#4072 <https://github.com/mixxxdj/mixxx/pull/4072>`__
-  `#4097 <https://github.com/mixxxdj/mixxx/pull/4097>`__
-  `#4096 <https://github.com/mixxxdj/mixxx/pull/4096>`__
-  `#4118 <https://github.com/mixxxdj/mixxx/pull/4118>`__
-  `#4130 <https://github.com/mixxxdj/mixxx/pull/4130>`__
-  `#4129 <https://github.com/mixxxdj/mixxx/pull/4129>`__
-  `#4109 <https://github.com/mixxxdj/mixxx/pull/4109>`__
-  `#4106 <https://github.com/mixxxdj/mixxx/pull/4106>`__
-  `#4131 <https://github.com/mixxxdj/mixxx/pull/4131>`__
-  `#4140 <https://github.com/mixxxdj/mixxx/pull/4140>`__
-  `#3032 <https://github.com/mixxxdj/mixxx/pull/3032>`__
-  `#4110 <https://github.com/mixxxdj/mixxx/pull/4110>`__
-  `#4173 <https://github.com/mixxxdj/mixxx/pull/4173>`__
-  `#4178 <https://github.com/mixxxdj/mixxx/pull/4178>`__
-  `#4194 <https://github.com/mixxxdj/mixxx/pull/4194>`__
-  `#4197 <https://github.com/mixxxdj/mixxx/pull/4197>`__
-  `#4190 <https://github.com/mixxxdj/mixxx/pull/4190>`__
-  `#4212 <https://github.com/mixxxdj/mixxx/pull/4212>`__
-  `#4223 <https://github.com/mixxxdj/mixxx/pull/4223>`__
-  `#4238 <https://github.com/mixxxdj/mixxx/pull/4238>`__
-  `#4236 <https://github.com/mixxxdj/mixxx/pull/4236>`__
-  `#4320 <https://github.com/mixxxdj/mixxx/pull/4320>`__
-  `#4325 <https://github.com/mixxxdj/mixxx/pull/4325>`__
-  `#4203 <https://github.com/mixxxdj/mixxx/pull/4203>`__
-  `#3861 <https://github.com/mixxxdj/mixxx/pull/3861>`__
-  `#3514 <https://github.com/mixxxdj/mixxx/pull/3514>`__
-  `#3274 <https://github.com/mixxxdj/mixxx/pull/3274>`__
-  `#3182 <https://github.com/mixxxdj/mixxx/pull/3182>`__
-  `#4343 <https://github.com/mixxxdj/mixxx/pull/4343>`__
-  `#4358 <https://github.com/mixxxdj/mixxx/pull/4358>`__
-  `#4388 <https://github.com/mixxxdj/mixxx/pull/4388>`__
-  `#4427 <https://github.com/mixxxdj/mixxx/pull/4427>`__
-  `#4341 <https://github.com/mixxxdj/mixxx/pull/4341>`__
-  `#4473 <https://github.com/mixxxdj/mixxx/pull/4473>`__
-  `#4464 <https://github.com/mixxxdj/mixxx/pull/4464>`__
-  `#4481 <https://github.com/mixxxdj/mixxx/pull/4481>`__
-  `#4527 <https://github.com/mixxxdj/mixxx/pull/4527>`__
-  `#4534 <https://github.com/mixxxdj/mixxx/pull/4534>`__
-  `#4537 <https://github.com/mixxxdj/mixxx/pull/4537>`__
-  `#4539 <https://github.com/mixxxdj/mixxx/pull/4539>`__
-  `#4541 <https://github.com/mixxxdj/mixxx/pull/4541>`__
-  `#4543 <https://github.com/mixxxdj/mixxx/pull/4543>`__
-  `#4546 <https://github.com/mixxxdj/mixxx/pull/4546>`__
-  `#4542 <https://github.com/mixxxdj/mixxx/pull/4542>`__
-  `#4559 <https://github.com/mixxxdj/mixxx/pull/4559>`__
-  `#4574 <https://github.com/mixxxdj/mixxx/pull/4574>`__
-  `#4581 <https://github.com/mixxxdj/mixxx/pull/4581>`__
-  `#4582 <https://github.com/mixxxdj/mixxx/pull/4582>`__
-  `#4598 <https://github.com/mixxxdj/mixxx/pull/4598>`__
-  `#4596 <https://github.com/mixxxdj/mixxx/pull/4596>`__
-  `#4592 <https://github.com/mixxxdj/mixxx/pull/4592>`__
-  `#4784 <https://github.com/mixxxdj/mixxx/pull/4784>`__
-  `#4604 <https://github.com/mixxxdj/mixxx/pull/4604>`__
-  `#4603 <https://github.com/mixxxdj/mixxx/pull/4603>`__
-  `#4611 <https://github.com/mixxxdj/mixxx/pull/4611>`__
-  `#4605 <https://github.com/mixxxdj/mixxx/pull/4605>`__
-  `#4583 <https://github.com/mixxxdj/mixxx/pull/4583>`__
-  `#4636 <https://github.com/mixxxdj/mixxx/pull/4636>`__
-  `#4644 <https://github.com/mixxxdj/mixxx/pull/4644>`__
-  `#4653 <https://github.com/mixxxdj/mixxx/pull/4653>`__
-  `#4655 <https://github.com/mixxxdj/mixxx/pull/4655>`__
-  `#4609 <https://github.com/mixxxdj/mixxx/pull/4609>`__
-  `#4647 <https://github.com/mixxxdj/mixxx/pull/4647>`__
-  `#4660 <https://github.com/mixxxdj/mixxx/pull/4660>`__
-  `#4663 <https://github.com/mixxxdj/mixxx/pull/4663>`__
-  `#4661 <https://github.com/mixxxdj/mixxx/pull/4661>`__
-  `#4670 <https://github.com/mixxxdj/mixxx/pull/4670>`__
-  `#4672 <https://github.com/mixxxdj/mixxx/pull/4672>`__
-  `#4674 <https://github.com/mixxxdj/mixxx/pull/4674>`__
-  `#4618 <https://github.com/mixxxdj/mixxx/pull/4618>`__
-  `#4690 <https://github.com/mixxxdj/mixxx/pull/4690>`__
-  `#4724 <https://github.com/mixxxdj/mixxx/pull/4724>`__
-  `#4730 <https://github.com/mixxxdj/mixxx/pull/4730>`__
-  `#4731 <https://github.com/mixxxdj/mixxx/pull/4731>`__
-  `#4732 <https://github.com/mixxxdj/mixxx/pull/4732>`__
-  `#4728 <https://github.com/mixxxdj/mixxx/pull/4728>`__
-  `#4737 <https://github.com/mixxxdj/mixxx/pull/4737>`__
-  `#4739 <https://github.com/mixxxdj/mixxx/pull/4739>`__
-  `#4745 <https://github.com/mixxxdj/mixxx/pull/4745>`__
-  `#4765 <https://github.com/mixxxdj/mixxx/pull/4765>`__
-  `#4767 <https://github.com/mixxxdj/mixxx/pull/4767>`__
-  `#4797 <https://github.com/mixxxdj/mixxx/pull/4797>`__
-  `#4782 <https://github.com/mixxxdj/mixxx/pull/4782>`__
-  `#4800 <https://github.com/mixxxdj/mixxx/pull/4800>`__
-  `#4791 <https://github.com/mixxxdj/mixxx/pull/4791>`__
-  `#4848 <https://github.com/mixxxdj/mixxx/pull/4848>`__
-  `#4856 <https://github.com/mixxxdj/mixxx/pull/4856>`__
-  `#4860 <https://github.com/mixxxdj/mixxx/pull/4860>`__
-  `#4867 <https://github.com/mixxxdj/mixxx/pull/4867>`__
-  `#4888 <https://github.com/mixxxdj/mixxx/pull/4888>`__
-  `#4908 <https://github.com/mixxxdj/mixxx/pull/4908>`__
-  `#4903 <https://github.com/mixxxdj/mixxx/pull/4903>`__
-  `#8818 <https://github.com/mixxxdj/mixxx/pull/8818>`__
-  `#4907 <https://github.com/mixxxdj/mixxx/pull/4907>`__
-  `#10897 <https://github.com/mixxxdj/mixxx/pull/10897>`__
-  `#10964 <https://github.com/mixxxdj/mixxx/pull/10964>`__
-  `#10963 <https://github.com/mixxxdj/mixxx/pull/10963>`__
-  `#11048 <https://github.com/mixxxdj/mixxx/pull/11048>`__
-  `#11149 <https://github.com/mixxxdj/mixxx/pull/11149>`__
-  `#11169 <https://github.com/mixxxdj/mixxx/pull/11169>`__
-  `#11318 <https://github.com/mixxxdj/mixxx/pull/11318>`__
-  `#11331 <https://github.com/mixxxdj/mixxx/pull/11331>`__
-  `#11338 <https://github.com/mixxxdj/mixxx/pull/11338>`__
-  `#4651 <https://github.com/mixxxdj/mixxx/pull/4651>`__
-  `#11336 <https://github.com/mixxxdj/mixxx/pull/11336>`__ `#11282 <https://github.com/mixxxdj/mixxx/issues/11282>`__
-  `#11421 <https://github.com/mixxxdj/mixxx/pull/11421>`__
-  `#11431 <https://github.com/mixxxdj/mixxx/pull/11431>`__
-  `#11434 <https://github.com/mixxxdj/mixxx/pull/11434>`__
-  `#11301 <https://github.com/mixxxdj/mixxx/pull/11301>`__
-  `#11688 <https://github.com/mixxxdj/mixxx/pull/11688>`__
-  `#11685 <https://github.com/mixxxdj/mixxx/pull/11685>`__
-  `#12000 <https://github.com/mixxxdj/mixxx/pull/12000>`__
-  `#12003 <https://github.com/mixxxdj/mixxx/pull/12003>`__
-  `#11684 <https://github.com/mixxxdj/mixxx/pull/11684>`__
-  `#12031 <https://github.com/mixxxdj/mixxx/pull/12031>`__
-  `#12008 <https://github.com/mixxxdj/mixxx/pull/12008>`__
-  `#12054 <https://github.com/mixxxdj/mixxx/pull/12054>`__
-  `#11768 <https://github.com/mixxxdj/mixxx/pull/11768>`__
-  `#11893 <https://github.com/mixxxdj/mixxx/pull/11893>`__
-  `#11636 <https://github.com/mixxxdj/mixxx/pull/11636>`__
-  `#12026 <https://github.com/mixxxdj/mixxx/pull/12026>`__
-  `#12230 <https://github.com/mixxxdj/mixxx/pull/12230>`__
-  `#12375 <https://github.com/mixxxdj/mixxx/pull/12375>`__
-  `#11619 <https://github.com/mixxxdj/mixxx/pull/11619>`__
-  `#11917 <https://github.com/mixxxdj/mixxx/pull/11917>`__
-  `#11936 <https://github.com/mixxxdj/mixxx/pull/11936>`__
-  `#12033 <https://github.com/mixxxdj/mixxx/pull/12033>`__
-  `#12263 <https://github.com/mixxxdj/mixxx/pull/12263>`__
-  `#12212 <https://github.com/mixxxdj/mixxx/pull/12212>`__
-  `#12066 <https://github.com/mixxxdj/mixxx/pull/12066>`__ `#12065 <https://github.com/mixxxdj/mixxx/issues/12065>`__
+* Library Preferences: Added link to settings files info in the manual `#4367 <https://github.com/mixxxdj/mixxx/pull/4367>`__
+* Controller preferences: add search bars to mapping tables `#11165 <https://github.com/mixxxdj/mixxx/pull/11165>`__
+* Add 13 new translation languages `#4785 <https://github.com/mixxxdj/mixxx/pull/4785>`__ `#9702 <https://github.com/mixxxdj/mixxx/issues/9702>`__
 
 Known issues
 ^^^^^^^^^^^^
@@ -1396,7 +739,7 @@ Known issues
   A fix is promised in 2024-02 with Windows 11 build 26016.
   `#12289 <https://github.com/mixxxdj/mixxx/issues/12289>`__
   `#11094 <https://github.com/mixxxdj/mixxx/issues/11094>`__
-* Different, language depending library sorting on macOS
+* macOS: Library entries are now sorted using the language depending Unicode Collation Algorithm (UCA).
   `#12517 <https://github.com/mixxxdj/mixxx/issues/12517>`__
 
 .. _v2-3-6:
