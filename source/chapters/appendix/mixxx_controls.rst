@@ -1358,7 +1358,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setloop
                    [SamplerN],hotcue_X_setloop
 
-   Identical to :mixxx:coref:`hotcue_X_setloop <[ChannelN],hotcue_X_setloop>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
+   Identical to :mixxx:coref:`hotcue_X_set <[ChannelN],hotcue_X_set>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
    If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
