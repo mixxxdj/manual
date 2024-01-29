@@ -746,6 +746,8 @@ Clicking on a numbered button will set a :term:`hotcue` at the current play
 position on the track. A marker with the corresponding number will appear in the
 waveform and the button will light up to indicate that the hotcue is set.
 
+If looping is enabled, clicking a hotcue button will save that loop as loop cue.
+
 Playing Hotcues
 ^^^^^^^^^^^^^^^
 
