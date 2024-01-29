@@ -30,7 +30,11 @@ repos:
   hooks:
   - id: codespell
     name: "Check for spelling mistakes"
-    args: ["--ignore-words", ".codespellignore"]
+    args: [
+      --ignore-words,
+      .codespellignore,
+      --write-changes,
+    ]
     exclude: ^(.*\.svg|source/locale/.*)$
 - repo: https://github.com/psf/black
   rev: 22.3.0
