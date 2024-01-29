@@ -34,6 +34,7 @@ Cover Art
   `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
   `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
   `#12532 <https://github.com/mixxxdj/mixxx/issues/12532>`__
+  `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
 * CoverArtCache refactoring + Fix scrolling lag after updating Mixxx  `#12009 <https://github.com/mixxxdj/mixxx/pull/12009>`__
 
 Music Library
@@ -125,6 +126,7 @@ Music Library
   `#4628 <https://github.com/mixxxdj/mixxx/pull/4628>`__
   `#4631 <https://github.com/mixxxdj/mixxx/pull/4631>`__
   `#4847 <https://github.com/mixxxdj/mixxx/pull/4847>`__ `#10782 <https://bugs.launchpad.net/bugs/1981106>`__
+* Track Metadata: Do not overwrite unchanged multi-valued fields `#12613 <https://github.com/mixxxdj/mixxx/pull/12613>`__ `#12587 <https://github.com/mixxxdj/mixxx/issues/12587>`__
 * Optionally reset metadata on reimport if file tags are missing, enabled by "[Library] ResetMissingTagMetadataOnImport 1"). `#4873 <https://github.com/mixxxdj/mixxx/pull/4873>`__
 * Logging: Suppress expected and harmless schema migration errors `#4248 <https://github.com/mixxxdj/mixxx/pull/4248>`__
 * Only show the date in Date Added / Last Played columns. Move the time of day to tooltips `#3945 <https://github.com/mixxxdj/mixxx/pull/3945>`__
@@ -225,6 +227,7 @@ Music Library
 * iTunes: Re-enable test and add ``composer``\ , ``playCount``\ , ``lastPlayedAt`` and ``dateAdded`` to model `#11948 <https://github.com/mixxxdj/mixxx/pull/11948>`__
 * Fix setting the wrong default cue color `#11554 <https://github.com/mixxxdj/mixxx/pull/11554>`__ `#11260 <https://github.com/mixxxdj/mixxx/issues/11260>`__
 * Tweak remove/hide track confirm message to match confirm exit message `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`__ `#1947992 <https://github.com/mixxxdj/mixxx/issues/10577>`__
+* Tracks table: Keep current item visible when the view shrinks vertically `#11273 <https://github.com/mixxxdj/mixxx/pull/11273>`__
 
 Sync
 ^^^^
@@ -251,6 +254,8 @@ Sync
   `#11788 <https://github.com/mixxxdj/mixxx/issues/11788>`__
   `#12234 <https://github.com/mixxxdj/mixxx/pull/12234>`__
   `#12499 <https://github.com/mixxxdj/mixxx/pull/12499>`__
+* Fix pitch issue with dynamic tracks and sync while cloning tracks
+  `#12515 <https://github.com/mixxxdj/mixxx/pull/12515>`__
 * Fix issue with half/double BPM calculation when using sync
   `#3899 <https://github.com/mixxxdj/mixxx/pull/3899>`__
   `#3706 <https://github.com/mixxxdj/mixxx/pull/3706>`__
@@ -310,6 +315,8 @@ Audio Engine
   `#7574 <https://github.com/mixxxdj/mixxx/issues/7574>`__
   `#11006 <https://github.com/mixxxdj/mixxx/pull/11006>`__
   `#11003 <https://github.com/mixxxdj/mixxx/issues/11003>`__
+  `#12637 <https://github.com/mixxxdj/mixxx/pull/12637>`__
+  `#12632 <https://github.com/mixxxdj/mixxx/pull/12632>`__
 * Fix an issue when pressing multiple cue buttons at the same time `#3382 <https://github.com/mixxxdj/mixxx/pull/3382>`__
 * Fix synchronization of main cue point/position
   `#4137 <https://github.com/mixxxdj/mixxx/pull/4137>`__
@@ -343,6 +350,7 @@ Audio Engine
 * Fix wrong visual play position when inside loop `#11840 <https://github.com/mixxxdj/mixxx/pull/11840>`__ `#11836 <https://github.com/mixxxdj/mixxx/issues/11836>`__
 * Slip mode: consider loop for background position only if it was enabled  before slip `#11848 <https://github.com/mixxxdj/mixxx/pull/11848>`__ `#11844 <https://github.com/mixxxdj/mixxx/issues/11844>`__
 * Looping: reset loop_end_pos on eject `#12224 <https://github.com/mixxxdj/mixxx/pull/12224>`__ `#12223 <https://github.com/mixxxdj/mixxx/issues/12223>`__
+* Hotcue: allow setting hotcue inside active, saved loop `#12623 <https://github.com/mixxxdj/mixxx/pull/12623>`__ `#12618 <https://github.com/mixxxdj/mixxx/issues/12618>`__
 * make decks' xfader assignment persistent `#12074 <https://github.com/mixxxdj/mixxx/pull/12074>`__ `#10122 <https://github.com/mixxxdj/mixxx/issues/10122>`__
 
 Controller Mappings
@@ -433,9 +441,12 @@ Controller Backend
 * Log warning if deprecated control is used `#11972 <https://github.com/mixxxdj/mixxx/pull/11972>`__
 * ControlObject alias improvements `#11973 <https://github.com/mixxxdj/mixxx/pull/11973>`__
 * Repeat certain control actions if keyboard key is held `#12474 <https://github.com/mixxxdj/mixxx/pull/12474>`__
+* Keyboard mapping: Return triggers doubleclick, move Preview functions to P / Shift+P `#12639 <https://github.com/mixxxdj/mixxx/pull/12639>`__
+* Keyboard sheet update `#12578 <https://github.com/mixxxdj/mixxx/pull/12578>`__
 * Logging: Add support for ``QT_MESSAGE_PATTERN`` environment variable
   `#3204 <https://github.com/mixxxdj/mixxx/pull/3204>`__
   `#3518 <https://github.com/mixxxdj/mixxx/pull/3518>`__
+* Avoid issue with ``stars_up/_down`` ControlObjects `#12591 <https://github.com/mixxxdj/mixxx/pull/12591>`__
 
 Skins
 ^^^^^
@@ -514,7 +525,8 @@ Waveforms and GL Widgets
   `#11734 <https://github.com/mixxxdj/mixxx/issues/11734>`__
   `#12466 <https://github.com/mixxxdj/mixxx/pull/12466>`__
 * Default to 60 Hz waveform refresh rate `#11918 <https://github.com/mixxxdj/mixxx/pull/11918>`__
-* vsyncthread mode for qopenglwindow frameswapped driven phase locked loop `#12469 <https://github.com/mixxxdj/mixxx/pull/12469>`__
+* Introduce a VSsync mode driven by a phase locked loop `#12469 <https://github.com/mixxxdj/mixxx/pull/12469>`__
+* Make VSync mode 0 refer to the default mode and make ST_PLL the default on macOS, ST_TIMER otherwise `#12489 <https://github.com/mixxxdj/mixxx/pull/12489>`__
 * Fix micro jitter from clamping position offset to vsync interval `#12470 <https://github.com/mixxxdj/mixxx/pull/12470>`__
 * Avoid flickering when resizing `#12487 <https://github.com/mixxxdj/mixxx/pull/12487>`__
 * Use WaveformWidgetType::AllShaderRGBWaveform as autoChooseWidgetType `#11822 <https://github.com/mixxxdj/mixxx/pull/11822>`__
@@ -544,9 +556,14 @@ Waveforms and GL Widgets
   `#11982 <https://github.com/mixxxdj/mixxx/pull/11982>`__
   `#11995 <https://github.com/mixxxdj/mixxx/pull/11995>`__
   `#11994 <https://github.com/mixxxdj/mixxx/pull/11994>`__
+  `#12607 <https://github.com/mixxxdj/mixxx/pull/12607>`__
 * Preferences waveforms: recall correct waveform type when selecting an overview type
   `#12231 <https://github.com/mixxxdj/mixxx/pull/12231>`__
   `#12226 <https://github.com/mixxxdj/mixxx/issues/12226>`__
+* Fix for LoopIn/LoopOut visualisation in waveforms
+  `#12538 <https://github.com/mixxxdj/mixxx/pull/12538>`__
+  `#12506 <https://github.com/mixxxdj/mixxx/issues/12506>`__
+  `#12513 <https://github.com/mixxxdj/mixxx/issues/12513>`__
 
 Effects
 ^^^^^^^
@@ -623,12 +640,15 @@ Effects
   `#11424 <https://github.com/mixxxdj/mixxx/pull/11424>`__ `#11376 <https://github.com/mixxxdj/mixxx/pull/11376>`__
   `#11456 <https://github.com/mixxxdj/mixxx/pull/11456>`__ `#11454 <https://github.com/mixxxdj/mixxx/issues/11454>`__
   `#11695 <https://github.com/mixxxdj/mixxx/pull/11695>`__
+  `#12633 <https://github.com/mixxxdj/mixxx/pull/12633>`__
+  `#12561 <https://github.com/mixxxdj/mixxx/pull/12561>`__
 
 Target Support
 ^^^^^^^^^^^^^^
 
 
 * Added support for macOS ARM builds on M1/M2 Apple silicon `#11398 <https://github.com/mixxxdj/mixxx/pull/11398>`__
+* Set app_id to fix Mixxx window icon on Wayland `#12635 <https://github.com/mixxxdj/mixxx/pull/12635>`__
 * Require C++20 but keep Ubuntu Focal support
   `#4889 <https://github.com/mixxxdj/mixxx/pull/4889>`__
   `#4895 <https://github.com/mixxxdj/mixxx/pull/4895>`__
@@ -678,12 +698,21 @@ Target Support
 * macOS: Use rounded Mixxx Icon to follow Apples style guide
   `#4545 <https://github.com/mixxxdj/mixxx/pull/4545>`__
   `#10958 <https://github.com/mixxxdj/mixxx/pull/10958>`__
+* macOS packaging: Capitalize bundle and executable name (Mixxx.app)
+  `#12656 <https://github.com/mixxxdj/mixxx/pull/12656>`__
 * OpenBSD: Allow building Mixxx `#11083 <https://github.com/mixxxdj/mixxx/pull/11083>`__
 * Improve Linux launcher
   `#11826 <https://github.com/mixxxdj/mixxx/pull/11826>`__
   `#11820 <https://github.com/mixxxdj/mixxx/issues/11820>`__
   `#11805 <https://github.com/mixxxdj/mixxx/pull/11805>`__
   `#12424 <https://github.com/mixxxdj/mixxx/pull/12424>`__
+* Experimental iOS support
+  `#12665 <https://github.com/mixxxdj/mixxx/pull/12665>`__
+  `#12666 <https://github.com/mixxxdj/mixxx/pull/12666>`__
+  `#12662 <https://github.com/mixxxdj/mixxx/pull/12662>`__
+  `#12663 <https://github.com/mixxxdj/mixxx/pull/12663>`__
+  `#12661 <https://github.com/mixxxdj/mixxx/pull/12661>`__
+  `#12650 <https://github.com/mixxxdj/mixxx/pull/12650>`__
 
 Track properties
 ^^^^^^^^^^^^^^^^
@@ -694,6 +723,7 @@ Track properties
 * Fix crash when trying to scale 0.0 BPM `#4587 <https://github.com/mixxxdj/mixxx/pull/4587>`__ `#1955853 <https://github.com/mixxxdj/mixxx/issues/10625>`__
 * Add track color selector `#11436 <https://github.com/mixxxdj/mixxx/pull/11436>`__ `#10324 <https://github.com/mixxxdj/mixxx/issues/10324>`__
 * Don't clear unsaved properties when updating star rating `#11565 <https://github.com/mixxxdj/mixxx/pull/11565>`__ `#11540 <https://github.com/mixxxdj/mixxx/issues/11540>`__
+* Fix glitch in Star rating `#12582 <https://github.com/mixxxdj/mixxx/pull/12582>`__ `#12576 <https://github.com/mixxxdj/mixxx/issues/12576>`__
 * Focus Double-clicked property field for edit
   `#11764 <https://github.com/mixxxdj/mixxx/pull/11764>`__
   `#11804 <https://github.com/mixxxdj/mixxx/pull/11804>`__
