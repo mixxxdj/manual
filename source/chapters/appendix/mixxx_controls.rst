@@ -510,9 +510,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
 
-   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   Jump forward (positive) or backward (negative) by N beats. If a loop is active, the loop is moved by X beats.
 
-   :range: real number, -1, 0, 1
+   :range: any real number within the range, see :mixxx:coref:`[ChannelN],beatloop_X_activate`
    :feedback: Player jumps forward or backward by X beats.
 
    .. versionadded:: 2.0.0
