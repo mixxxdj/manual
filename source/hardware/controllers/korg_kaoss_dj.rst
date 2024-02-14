@@ -44,18 +44,19 @@ Mapping
 |     |                                        | KAOSS Effect, and Sampler modes (long press   |                                                      |
 |     |                                        | for blue LED)                                 |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 7   | Program/Value Knob (controller mode)   | Selects an effect (not implemented yet)       | Selects a key, selects a scale (not implemented yet) |
+| 7   | Program/Value Knob (controller mode)   | Cycles QuickEffectRack 1 & 2                  | | Left shift: cycles effect chains of EffectUnit 1   |
+|     |                                        |                                               | | Left shift: cycles effect chains of EffectUnit 1   |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 |     | Program/Value Knob (Kaoss Effect mode) | Selects an effect                             | Jumps to next effect category                        |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 8   | Tap Button                             | tap to open a folder in the file-browser      | use left / right shift to set the tempo              |
-|     |                                        | (double-tap to close an open folder)          | of left / right track                                |
+| 8   | Tap Button                             | tap to open a folder in the file-browser      | | Left shift: tap tempo deck 1                       |
+|     |                                        | (double-tap to close an open folder)          | | Right shift: tap tempo deck 2                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 9   | Hold Button                            | Enables/disables the touchpad’s hold function | Scale setting mode                                   |
+| 9   | Hold Button                            | Not used yet                                  |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 10  | Touchpad (controller mode)             | Controls the effects of Mixxx.                | Controls Quick-Effect super knobs.                   |
-|     |                                        | Vertical axis: mix (dry/wet) knob /           | Horizontal axis: deck 1 /                            |
-|     |                                        | Horizontal axis: super knob                   | Vertical axis: deck 2                                |
+| 10  | Touchpad (controller mode)             | | Controls the effects of Mixxx.              | | Controls Quick-Effect super knobs.                 |
+|     |                                        | | Vertical axis: mix (dry/wet) knob           | | Horizontal axis: deck 1                            |
+|     |                                        | | Horizontal axis: super knob                 | | Vertical axis: deck 2                              |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 |     | Touchpad (Kaoss Effect mode)           | Controls KAOSS effect                         | Adjusts depth of KAOSS Effect                        |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
@@ -65,30 +66,28 @@ Mapping
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 | 12  | Touch Slider mode button               | Switches between the three touch slider modes |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 13  | Touch Slider (Normal mode)             | Left: Nudge (-) /                             | Moves to specified position in the song              |
-|     |                                        | Center: Enable scratch mode  /                | (slider)                                             |
-|     |                                        | Right: Nudge (+)                              |                                                      |
+| 13  | Touch Slider (Normal mode)             | | Left: Nudge (-)                             | | Moves to specified position in the song            |
+|     |                                        | | Center: Enable scratch mode                 | | (slider)                                           |
+|     |                                        | | Right: Nudge (+)                            | |                                                    |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-|     | Touch Slider (Hot Cue mode)            | Sets or moves to Hot Cue.                     | Delete Hot Cue.                                      |
-|     |                                        | Left: 1 /                                     | Left: 1 /                                            |
-|     |                                        | Center: 2 /                                   | Center: 2 /                                          |
-|     |                                        | Right: 3                                      | Right: 3                                             |
+|     | | Touch Slider                         | | Sets or moves to Hot Cue.                   | | Delete Hot Cue.                                    |
+|     | | (Hot Cue mode)                       | | Left: 1                                     | | Left: 1                                            |
+|     |                                        | | Center: 2                                   | | Center: 2                                          |
+|     |                                        | | Right: 3                                    | | Right: 3                                           |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-|     | Touch Slider (Loop mode)               | Left: Halfs Loop /                            | Left: Sets Loop In point /                           |
-|     |                                        | Center: New beatloop at playback position /   | Center: Re-loop /                                    |
-|     |                                        | Right: Doubles Loop                           | Right: Sets Loop Out point                           |
+|     | | Touch Slider                         | | Left: Halfs Loop                            | | Left: Sets Loop In point                           |
+|     | | (Loop mode)                          | | Center: New beatloop at playback position   | | Center: Re-loop                                    |
+|     |                                        | | Right: Doubles Loop                         | | Right: Sets Loop Out point                         |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 | 14  | EQ                                     | Boosts or Cuts Hi/Mid/Lo EQ                   |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 | 15  | Gain knob                              | Adjusts gain                                  |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 16  | Load button                            | Loads song into selected deck A/B             | A: close selected folder in file-browser /           |
-|     |                                        |                                               | B: open selected folder in file-browser              |
+| 16  | Load button                            | Loads song into selected deck A/B             | | A: close selected folder in file-browser           |
+|     |                                        |                                               | | B: open selected folder in file-browser            |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
-| 17  | Fx button                              | Left: FX1 rack mix knob can be manipulated    |                                                      |
-|     |                                        | when enabled /                                |                                                      |
-|     |                                        | Right: FX2 rack mix knob can be manipulated   |                                                      |
-|     |                                        | when enabled                                  |                                                      |
+| 17  | Fx button                              | | Left: enable/disable FX1                    |                                                      |
+|     |                                        | | Right: enable/disable FX2                   |                                                      |
 +-----+----------------------------------------+-----------------------------------------------+------------------------------------------------------+
 | 18  | Headphone cue button                   | Turns headphone monitor on/off                | Switches the function of the level meter             |
 |     |                                        |                                               | between Deck A/B and the Master level                |
