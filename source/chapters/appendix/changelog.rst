@@ -45,7 +45,9 @@ Music Library: Tracks Table & Track Menu
   `#10537 <https://github.com/mixxxdj/mixxx/issues/10537>`__
   `#11239 <https://github.com/mixxxdj/mixxx/pull/11239>`__
   `#4577 <https://github.com/mixxxdj/mixxx/pull/4577>`__
-  `#1947992 <https://github.com/mixxxdj/mixxx/issues/10577>`__
+  `#10577 <https://github.com/mixxxdj/mixxx/issues/10577>`__
+  `#11171 <https://github.com/mixxxdj/mixxx/pull/11171>`__
+  `#10761 <https://github.com/mixxxdj/mixxx/issues/10761>`__
 * Fix Recording table refresh issues `#4648 <https://github.com/mixxxdj/mixxx/pull/4648>`__
 * Show time in addition to the date in the timestamp column
   `#4900 <https://github.com/mixxxdj/mixxx/pull/4900>`__
@@ -65,7 +67,7 @@ Music Library: Tracks Table & Track Menu
   `#11873 <https://github.com/mixxxdj/mixxx/pull/11873>`__
   `#11872 <https://github.com/mixxxdj/mixxx/issues/11872>`__
 * Add support for overriding analyzis settings about variable/constant BPM on a per-track basis `#10931 <https://github.com/mixxxdj/mixxx/pull/10931>`__
-* Add menu for looking up track metadata at Discogs, Soundcoud and LastFM `#4772 <https://github.com/mixxxdj/mixxx/pull/4772>`__ `#4836 <https://github.com/mixxxdj/mixxx/pull/4836>`__
+* Add menu for looking up track metadata at Discogs, SoundCloud and LastFM `#4772 <https://github.com/mixxxdj/mixxx/pull/4772>`__ `#4836 <https://github.com/mixxxdj/mixxx/pull/4836>`__
 * Add "Delete Track Files" action, does "Move to Trash" with Qt >= 5.15
   `#4560 <https://github.com/mixxxdj/mixxx/pull/4560>`__
   `#4831 <https://github.com/mixxxdj/mixxx/pull/4831>`__
@@ -83,8 +85,7 @@ Music Library: Tracks Table & Track Menu
   `#10748 <https://github.com/mixxxdj/mixxx/issues/10748>`__
   `#12392 <https://github.com/mixxxdj/mixxx/pull/12392>`__
   `#12521 <https://github.com/mixxxdj/mixxx/pull/12521>`__
-* Show 'Update ReplayGain' only in decks' menus `#4719 <https://github.com/mixxxdj/mixxx/pull/4719>`__
-* Fix showing wrong Remove hotkey `#11171 <https://github.com/mixxxdj/mixxx/pull/11171>`__ `#10761 <https://github.com/mixxxdj/mixxx/issues/10761>`__
+* Add 'Update ReplayGain' decks' to track menus `#4031 <https://github.com/mixxxdj/mixxx/pull/4031>`__ `#4719 <https://github.com/mixxxdj/mixxx/pull/4719>`__
 * Restore "Remove from playlist" in History `#11591 <https://github.com/mixxxdj/mixxx/pull/11591>`__ `#10974 <https://github.com/mixxxdj/mixxx/issues/10974>`__
 * Enable Lock BPM action if any selected track BPM is unlocked `#12385 <https://github.com/mixxxdj/mixxx/pull/12385>`__
 * Order BPM action by factor, show peview (for single track) `#12701 <https://github.com/mixxxdj/mixxx/pull/12701>`__ `#10128 <https://github.com/mixxxdj/mixxx/issues/10128>`__
@@ -352,7 +353,7 @@ Audio Engine
 * Allow to cancel active loops via beatloop_activate `#4328 <https://github.com/mixxxdj/mixxx/pull/4328>`__ `#9950 <https://github.com/mixxxdj/mixxx/issues/9950>`__
 * Slip Mode: Preserve active (regular) loop when leaving Slip Mode `#11435 <https://github.com/mixxxdj/mixxx/pull/11435>`__ `#6993 <https://github.com/mixxxdj/mixxx/issues/6993>`__
 * Fix possible segfault when ejecting track `#4362 <https://github.com/mixxxdj/mixxx/pull/4362>`__ `#10497 <https://github.com/mixxxdj/mixxx/issues/10497>`__
-* Fix: possible cash when ejecting track from a controller `#11884 <https://github.com/mixxxdj/mixxx/pull/11884>`__ `#11819 <https://github.com/mixxxdj/mixxx/issues/11819>`__
+* Fix possible crash when ejecting track from a controller `#11884 <https://github.com/mixxxdj/mixxx/pull/11884>`__ `#11819 <https://github.com/mixxxdj/mixxx/issues/11819>`__
 * Fix an assertion when loop is before track start `#4383 <https://github.com/mixxxdj/mixxx/pull/4383>`__ `#10556 <https://github.com/mixxxdj/mixxx/issues/10556>`__
 * Fix and improve snapping to beats in various situations `#4366 <https://github.com/mixxxdj/mixxx/pull/4366>`__ `#10541 <https://github.com/mixxxdj/mixxx/issues/10541>`__
 * Don't wipe inapplicable sound config immediately `#4544 <https://github.com/mixxxdj/mixxx/pull/4544>`__
