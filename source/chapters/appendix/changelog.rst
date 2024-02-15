@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-4-0:
 
-`2.4.0 <https://launchpad.net/mixxx/+milestone/2.4.0>`__ (Unreleased)
+`2.4.0 <https://launchpad.net/mixxx/+milestone/2.4.0>`__ (2024-02-16)
 ------------------------------------------------------------------------
 
 Music Library: Tracks Table & Track Menu
@@ -532,7 +532,6 @@ Skins
 * Add ``skins:`` path alias `#12463 <https://github.com/mixxxdj/mixxx/pull/12463>`__
 * Remove ``Text``\ , use ``TrackProperty`` or ``Label`` `#12004 <https://github.com/mixxxdj/mixxx/pull/12004>`__
 * Beat spinBox/AutoDJ spinbox: Enter & Esc also move focus to library `#4617 <https://github.com/mixxxdj/mixxx/pull/4617>`__ `#4845 <https://github.com/mixxxdj/mixxx/pull/4845>`__
-* Samplers: don't create extra empty players during startup `#12657 <https://github.com/mixxxdj/mixxx/pull/12657>`__
 * Add effect chain menu button to Deere, polish in Tango `#12735 <https://github.com/mixxxdj/mixxx/pull/12735>`__
 * Skins: reload default.qss when (re)loading a skin `#12219 <https://github.com/mixxxdj/mixxx/pull/12219>`__
 
@@ -842,6 +841,7 @@ Known issues
   `#12517 <https://github.com/mixxxdj/mixxx/issues/12630>`__
 * Linux: possible crash when enabling a MIDI controller `#12001 <https://github.com/mixxxdj/mixxx/issues/12001>`__
   Introduce with Qt 5.15.5, fixed in Qt 5.15.17 and Qt 6.6.3
+* Extra Samplers are created during startup, when found in a saved Sampler Bank `#12657 <https://github.com/mixxxdj/mixxx/pull/12657>`__ `#12809 <https://github.com/mixxxdj/mixxx/pull/12809>`__
 
 .. _v2-3-6:
 
