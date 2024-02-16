@@ -494,6 +494,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 
    Its value is set to the sample position of the closest beat of the active beat and is used for updating the beat LEDs.
+
    :range: -1, 0.0, real-valued
    :feedback: None
 
@@ -502,6 +503,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beat_distance
 
    Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+
    :range: 0.0 - 1.0, real-valued
    :feedback: None
 
