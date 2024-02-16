@@ -3891,6 +3891,16 @@ Controls
    :range: binary, read-only
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],loaded_effect
+                   [EqualizerRack1_[ChannelI]_Effect1],loaded_effect
+                   [QuickEffectRack1_[ChannelI]_Effect1],loaded_effect
+
+   0-based index of the currently loaded effect preset, including the
+   empty/passthrough preset "\-\-\-".
+
+   :range: integer, 0 .. [:mixxx:coref:`num_effectsavailable<[Master],num_effectsavailable>` - 1]
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],next_effect
                    [EqualizerRack1_[ChannelI]_Effect1],next_effect
                    [QuickEffectRack1_[ChannelI]_Effect1],next_effect
