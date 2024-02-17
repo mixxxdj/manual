@@ -494,6 +494,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 
    Its value is set to the sample position of the closest beat of the active beat and is used for updating the beat LEDs.
+
    :range: -1, 0.0, real-valued
    :feedback: None
 
@@ -502,6 +503,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beat_distance
 
    Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+
    :range: 0.0 - 1.0, real-valued
    :feedback: None
 
@@ -510,9 +512,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
 
-   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   Jump forward (positive) or backward (negative) by N beats. If a loop is active, the loop is moved by X beats.
 
-   :range: real number, -1, 0, 1
+   :range: any real number within the range, see :mixxx:coref:`[ChannelN],beatloop_X_activate`
    :feedback: Player jumps forward or backward by X beats.
 
    .. versionadded:: 2.0.0
@@ -522,7 +524,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_size
                    [SamplerN],beatjump_size
 
-   Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`/:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`.
+   Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`
+   /:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`.
 
    :range: positive real number
    :feedback: Beatjump size spinbox
@@ -534,7 +537,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_forward
                    [SamplerN],beatjump_forward
 
-   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved forward by X beats.
+   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   If a loop is active, the loop is moved forward by X beats.
 
    :range: binary
    :feedback: Player jumps forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
@@ -546,7 +550,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_backward
                    [SamplerN],beatjump_backward
 
-   Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved backward by X beats.
+   Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   If a loop is active, the loop is moved backward by X beats.
 
    :range: binary
    :feedback: Player jumps backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
@@ -558,7 +563,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_X_forward
                    [SamplerN],beatjump_X_forward
 
-   Jump forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved forward by X betas.
+   Jump forward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+   If a loop is active, the loop is moved forward by X beats.
 
    :range: binary
    :feedback: Player jumps forward by X beats.
@@ -570,7 +577,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_X_backward
                    [SamplerN],beatjump_X_backward
 
-   Jump backward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved backward by X beats.
+   Jump backward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+   If a loop is active, the loop is moved backward by X beats.
 
    :range: binary
    :feedback: Player jumps backward by X beats.
@@ -594,7 +603,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_X_activate
                    [SamplerN],beatloop_X_activate
 
-   Activates a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Activates a loop over X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -606,8 +616,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_size
                    [SamplerN],beatloop_size
 
-   Set the length of the loop in beats that will get set with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
-   Changing this will resize an existing loop if the length of the loop matches :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   Set the length of the loop in beats that will get set with
+   :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and
+   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
+   Changing this will resize an existing loop if the length of the loop matches
+   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
 
    :range: positive real number
    :feedback: Beatloop size spinbox and possibly loop section on waveform
@@ -619,7 +632,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_X_toggle
                    [SamplerN],beatloop_X_toggle
 
-   Toggles a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Toggles a loop over X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -643,7 +657,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatlooproll_activate
                    [SamplerN],beatlooproll_activate
 
-   Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats. Once disabled, playback will resume where the track would have been if it had not entered the loop.
+   Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats.
+   Once disabled, playback will resume where the track would have been if it had not entered the loop.
 
    :range: binary
    :feedback: A loop overlay is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats on waveform.
@@ -655,7 +670,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatlooproll_X_activate
                    [SamplerN],beatlooproll_X_activate
 
-   Activates a rolling loop over X beats. Once disabled, playback will resume where the track would have been if it had not entered the loop. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Activates a rolling loop over X beats. Once disabled, playback will resume where the
+   track would have been if it had not entered the loop. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
@@ -1516,7 +1533,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_move_X_forward
                    [SamplerN],loop_move_X_forward
 
-   Moves the loop in and out points forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Moves the loop in and out points forward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: Loop moves forward by X beats.
@@ -1528,7 +1546,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_move_X_backward
                    [SamplerN],loop_move_X_backward
 
-   Loop moves by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Loop moves by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: Loop moves backward by X beats.
@@ -1540,7 +1559,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_scale
                    [SamplerN],loop_scale
 
-   Scale the loop length by the value scale is set to by moving the end marker. :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change.
+   Scale the loop length by the value scale is set to by moving the end marker.
+   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change.
 
    :range: 0.0 - infinity
    :feedback: Loop length is scaled by given amount on waveform.
