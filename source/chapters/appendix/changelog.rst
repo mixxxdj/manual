@@ -14,6 +14,166 @@ Changelog
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
 ---------------------------------------------------------------------------------------
 
+Features
+^^^^^^^^
+
+
+* Sync Lock: End of track checking is not needed `#11035 <https://github.com/mixxxdj/mixxx/pull/11035>`__
+* BaseExternalLibraryFeature: Add ability to import external playlists as crates `#11852 <https://github.com/mixxxdj/mixxx/pull/11852>`__
+* Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
+* DlgPrefSound: Fix fetching of sample rate `#11951 <https://github.com/mixxxdj/mixxx/pull/11951>`__ `11949 <https://github.com/mixxxdj/mixxx/issues/11949>`__
+* SearchQueryParser: Add "OR" search operator `#12061 <https://github.com/mixxxdj/mixxx/pull/12061>`__
+* MixxxMainWindow: Set window file path to the playing track `#12116 <https://github.com/mixxxdj/mixxx/pull/12116>`__
+* add beats_translate_move ControlEncoder `#12376 <https://github.com/mixxxdj/mixxx/pull/12376>`__
+* Playlist feature: add 'Shuffle playlist' sidebar action `#12498 <https://github.com/mixxxdj/mixxx/pull/12498>`__
+* New built-in effect: Glitch `#11329 <https://github.com/mixxxdj/mixxx/pull/11329>`__
+* Fullscreen toggle rework `#11566 <https://github.com/mixxxdj/mixxx/pull/11566>`__
+
+Controller Mappings
+^^^^^^^^^^^^^^^^^^^
+
+
+* Traktor Kontrol S2 MK3: Add colored hotcues `#4637 <https://github.com/mixxxdj/mixxx/pull/4637>`__
+* Pioneer DDJ-FLX4: mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
+
+Controller Backend
+^^^^^^^^^^^^^^^^^^
+
+
+* Send sysex to all handlers `#12827 <https://github.com/mixxxdj/mixxx/pull/12827>`__
+* Add control for showing a deck's track menu `#10825 <https://github.com/mixxxdj/mixxx/pull/10825>`__
+
+Experimental QML Skin
+^^^^^^^^^^^^^^^^^^^^^
+
+
+* Fix type error in ``Slider.qml`` `#11423 <https://github.com/mixxxdj/mixxx/pull/11423>`__
+* Allow switching between legacy and new QML UI with command arg `#12139 <https://github.com/mixxxdj/mixxx/pull/12139>`__
+* Add PlayerProxy missing current track when created after loading `#12559 <https://github.com/mixxxdj/mixxx/pull/12559>`__
+* add ``qt6-qpa-plugins`` to dependencies `#12549 <https://github.com/mixxxdj/mixxx/pull/12549>`__
+* fix(qml): Improve knobs by applying selective 4xMSAA on the Arc shape `#12541 <https://github.com/mixxxdj/mixxx/pull/12541>`__
+* Add QML interceptor to auto reload on file change `#12795 <https://github.com/mixxxdj/mixxx/pull/12795>`__
+* Add multi-sampling settings for QML `#12546 <https://github.com/mixxxdj/mixxx/pull/12546>`__ `#12794 <https://github.com/mixxxdj/mixxx/pull/12794>`__ `#12536 <https://github.com/mixxxdj/mixxx/issues/12536>`__
+
+Update to Qt6
+^^^^^^^^^^^^^
+
+
+* Qt6 switch `#11892 <https://github.com/mixxxdj/mixxx/pull/11892>`__
+* CMakeLists: Default ``QT6`` to ``ON`` `#11934 <https://github.com/mixxxdj/mixxx/pull/11934>`__
+* Don't include X11Info on QT6 `#5 <https://github.com/mixxxdj/mixxx/pull/5>`__
+* Build with Qt6 and optionally with QML `#11608 <https://github.com/mixxxdj/mixxx/pull/11608>`__
+* Qt6: Use constInsert() template `#11847 <https://github.com/mixxxdj/mixxx/pull/11847>`__
+* Qt6 prepare `#11863 <https://github.com/mixxxdj/mixxx/pull/11863>`__
+* DlgAbout: Add Qt version to the dialog `#11862 <https://github.com/mixxxdj/mixxx/pull/11862>`__
+* CMakeLists: Fix ``QT_TRANSLATION_FILE`` path for Qt 6 `#11880 <https://github.com/mixxxdj/mixxx/pull/11880>`__
+* LibraryControl: Enable control inputs for Qt 6 `#11877 <https://github.com/mixxxdj/mixxx/pull/11877>`__
+* Disable broken tests and skip ANGLE DLL install on Windows `#93 <https://github.com/mixxxdj/mixxx/pull/93>`__
+* Fix wrong Windows buildenv name and missing Qt6 switch for non CI builds `#11895 <https://github.com/mixxxdj/mixxx/pull/11895>`__
+* WWidget: Disable touch events on macOS (fixing trackpad issues on Qt 6) `#11870 <https://github.com/mixxxdj/mixxx/pull/11870>`__
+* Install libjpeg-turbo::jpeg to fix cover display with Qt6 `#11922 <https://github.com/mixxxdj/mixxx/pull/11922>`__
+* Skins: Remove ``border: 0px`` from sidebar item styling
+  `#11970 <https://github.com/mixxxdj/mixxx/pull/11970>`__
+  `#11957 <https://github.com/mixxxdj/mixxx/issues/11957>`__
+* Introduce wrapper for non const iterators for erase and insert `#12201 <https://github.com/mixxxdj/mixxx/pull/12201>`__
+* Skins: Fix checkbox styling on Qt 6 `#12050 <https://github.com/mixxxdj/mixxx/pull/12050>`__
+* Fix Qt6/QML build `#12255 <https://github.com/mixxxdj/mixxx/pull/12255>`__
+* Fix track color background with Qt6 `#12380 <https://github.com/mixxxdj/mixxx/pull/12380>`__
+* multi-line delegate: fix bg color, Qt6 on Linux `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
+* Revert "BaseTrackPlayer: Remove references to WaveformWidgetRenderer when using Qt6" `#12342 <https://github.com/mixxxdj/mixxx/pull/12342>`__
+
+Experimental iOs support
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+* CMakeLists: Support building for iOS `#12672 <https://github.com/mixxxdj/mixxx/pull/12672>`__
+* ConfigObject: Find resource path on iOS `#12687 <https://github.com/mixxxdj/mixxx/pull/12687>`__
+* DlgPrefInterface: Disable tooltips on iOS by default `#12689 <https://github.com/mixxxdj/mixxx/pull/12689>`__
+* SoundManager: Set up ``AVAudioSession`` on iOS `#12714 <https://github.com/mixxxdj/mixxx/pull/12714>`__
+* SoundManager: Use correct PortAudio backend on iOS `#12716 <https://github.com/mixxxdj/mixxx/pull/12716>`__
+* DesktopHelper: Add openUrl abstraction to support iOS `#12698 <https://github.com/mixxxdj/mixxx/pull/12698>`__
+* iOS packaging: Add Info.plist, launch screen and app icon `#12676 <https://github.com/mixxxdj/mixxx/pull/12676>`__
+* CmdlineArgs: Move config directory to a user-accessible location on iOS `#12688 <https://github.com/mixxxdj/mixxx/pull/12688>`__
+* ScreenSaverHelper: Implement screen lock suspension for iOS `#12673 <https://github.com/mixxxdj/mixxx/pull/12673>`__
+* DesktopHelper: Cond-compile out process creation on iOS `#12674 <https://github.com/mixxxdj/mixxx/pull/12674>`__
+* Sandbox: Add basic iOS support `#12675 <https://github.com/mixxxdj/mixxx/pull/12675>`__
+* VersionStore: Make iOS a recognized platform `#12665 <https://github.com/mixxxdj/mixxx/pull/12665>`__
+* MixxxApplication: Use QIOSIntegrationPlugin on iOS `#12666 <https://github.com/mixxxdj/mixxx/pull/12666>`__
+* MacOsVersion: Rename to AppleOsVersion `#12662 <https://github.com/mixxxdj/mixxx/pull/12662>`__
+* macOS: Add more ``Q_OS_MACOS`` cond-compiles where appropriate `#12663 <https://github.com/mixxxdj/mixxx/pull/12663>`__
+
+Misc Refactorings
+^^^^^^^^^^^^^^^^^
+
+
+* Add missing ``<Qt>`` include in ``defs.h`` `#11348 <https://github.com/mixxxdj/mixxx/pull/11348>`__
+* engine: Minor refactor to prefer simplified ranged-for-loop `#11234 <https://github.com/mixxxdj/mixxx/pull/11234>`__
+* Delete unused EngineFilter `#11559 <https://github.com/mixxxdj/mixxx/pull/11559>`__
+* AnalyzerWaveform: Fix commented out code `#11561 <https://github.com/mixxxdj/mixxx/pull/11561>`__
+* Silence some float conversion warnings by making conversion explicit `#6 <https://github.com/mixxxdj/mixxx/pull/6>`__
+* Remove usage of ControlObject::getControl `#11643 <https://github.com/mixxxdj/mixxx/pull/11643>`__
+* Fixed unnecessary transfer of the ownership before release which returns the pointer itself `#11726 <https://github.com/mixxxdj/mixxx/pull/11726>`__
+* add ``ConfigObject::get-/setValue<EnumType>`` `#11883 <https://github.com/mixxxdj/mixxx/pull/11883>`__
+* ci: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
+* Refactor timers (\ `#11807 <https://github.com/mixxxdj/mixxx/pull/11807>`__\ ) 2nd try `#11850 <https://github.com/mixxxdj/mixxx/pull/11850>`__
+* Use ``mixxx::audio::ChannelCount`` type instead of ``int``\ /\ ``unsigned char``\ /etc. `#11941 <https://github.com/mixxxdj/mixxx/pull/11941>`__
+* refactor(util/timer): cleanup includes `#11937 <https://github.com/mixxxdj/mixxx/pull/11937>`__
+* Use ``SampleRate`` type consistently `#11904 <https://github.com/mixxxdj/mixxx/pull/11904>`__
+* CMakeLists: Match arbitrary ``arm64-osx`` triplets `#11933 <https://github.com/mixxxdj/mixxx/pull/11933>`__
+* Alex/reduce sample buffer memory usage `#11988 <https://github.com/mixxxdj/mixxx/pull/11988>`__
+* Fix clazy issues on ``main`` `#12028 <https://github.com/mixxxdj/mixxx/pull/12028>`__
+* Tidy and modernize SampleBuffer `#11987 <https://github.com/mixxxdj/mixxx/pull/11987>`__
+* Refactor(parented_ptr): make trivially destructible in release mode, delete move operations `#11981 <https://github.com/mixxxdj/mixxx/pull/11981>`__
+* Labeler: Add more labels to the auto-labeler `#12106 <https://github.com/mixxxdj/mixxx/pull/12106>`__
+* macOS packaging: Enable app sandbox in ad-hoc-packaged (i.e. non-notarized) bundles too `#12101 <https://github.com/mixxxdj/mixxx/pull/12101>`__
+* FindPortMidi: Link ALSA in static builds on Linux `#12292 <https://github.com/mixxxdj/mixxx/pull/12292>`__ `#12291 <https://github.com/mixxxdj/mixxx/pull/12291>`__
+* privat generated ui headers `#12060 <https://github.com/mixxxdj/mixxx/pull/12060>`__ `#11407 <https://github.com/mixxxdj/mixxx/pull/11407>`__
+* ci: workaround runner-image issue `#12233 <https://github.com/mixxxdj/mixxx/pull/12233>`__
+* FindLibudev: Link hidapi and libusb with libudev in static builds on Linux `#12294 <https://github.com/mixxxdj/mixxx/pull/12294>`__
+* FindVorbis: Link ogg in static builds `#12297 <https://github.com/mixxxdj/mixxx/pull/12297>`__
+* MixxxApplication: Support linking Qt statically on Linux `#12284 <https://github.com/mixxxdj/mixxx/pull/12284>`__
+* FindSleef: Use OpenMP in static builds `#12295 <https://github.com/mixxxdj/mixxx/pull/12295>`__
+* Happy New Year 2024! `#12486 <https://github.com/mixxxdj/mixxx/pull/12486>`__
+* fix/History: remove obsolete placeholder playlists `#12494 <https://github.com/mixxxdj/mixxx/pull/12494>`__
+* Add missing Taglib dependency `#12830 <https://github.com/mixxxdj/mixxx/pull/12830>`__
+* fix: typo ;) `#12726 <https://github.com/mixxxdj/mixxx/pull/12726>`__
+* Update to latest vcpkg dependencies
+  `#11649 <https://github.com/mixxxdj/mixxx/pull/11649>`__
+  `#12512 <https://github.com/mixxxdj/mixxx/pull/12512>`__
+  `#12067 <https://github.com/mixxxdj/mixxx/pull/12067>`__
+* GitHub actions updates
+  `#11544 <https://github.com/mixxxdj/mixxx/pull/11544>`__
+  `#11508 <https://github.com/mixxxdj/mixxx/pull/11508>`__
+  `#11487 <https://github.com/mixxxdj/mixxx/pull/11487>`__
+  `#11438 <https://github.com/mixxxdj/mixxx/pull/11438>`__
+  `#11410 <https://github.com/mixxxdj/mixxx/pull/11410>`__
+  `#11560 <https://github.com/mixxxdj/mixxx/pull/11560>`__
+  `#11578 <https://github.com/mixxxdj/mixxx/pull/11578>`__
+  `#11610 <https://github.com/mixxxdj/mixxx/pull/11610>`__
+  `#11631 <https://github.com/mixxxdj/mixxx/pull/11631>`__
+  `#11710 <https://github.com/mixxxdj/mixxx/pull/11710>`__
+  `#11736 <https://github.com/mixxxdj/mixxx/pull/11736>`__
+  `#11920 <https://github.com/mixxxdj/mixxx/pull/11920>`__
+  `#11961 <https://github.com/mixxxdj/mixxx/pull/11961>`__
+  `#12241 <https://github.com/mixxxdj/mixxx/pull/12241>`__
+  `#12394 <https://github.com/mixxxdj/mixxx/pull/12394>`__
+  `#12447 <https://github.com/mixxxdj/mixxx/pull/12447>`__
+  `#12425 <https://github.com/mixxxdj/mixxx/pull/12425>`__
+  `#12421 <https://github.com/mixxxdj/mixxx/pull/12421>`__
+  `#12799 <https://github.com/mixxxdj/mixxx/pull/12799>`__
+  `#12801 <https://github.com/mixxxdj/mixxx/pull/12801>`__
+  `#12800 <https://github.com/mixxxdj/mixxx/pull/12800>`__
+  `#12736 <https://github.com/mixxxdj/mixxx/pull/12736>`__
+  `#12692 <https://github.com/mixxxdj/mixxx/pull/12692>`__
+  `#12694 <https://github.com/mixxxdj/mixxx/pull/12694>`__
+  `#12695 <https://github.com/mixxxdj/mixxx/pull/12695>`__
+  `#12691 <https://github.com/mixxxdj/mixxx/pull/12691>`__
+  `#12693 <https://github.com/mixxxdj/mixxx/pull/12693>`__
+  `#12625 <https://github.com/mixxxdj/mixxx/pull/12625>`__
+  `#12627 <https://github.com/mixxxdj/mixxx/pull/12627>`__
+  `#12626 <https://github.com/mixxxdj/mixxx/pull/12626>`__
+  `#12577 <https://github.com/mixxxdj/mixxx/pull/12577>`__
+
 .. _v2-4-0:
 
 `2.4.0 <https://launchpad.net/mixxx/+milestone/2.4.0>`__ (2024-02-16)
@@ -618,7 +778,6 @@ Cover Art
   `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
   `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
   `#12532 <https://github.com/mixxxdj/mixxx/issues/12532>`__
-  `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
 * CoverArtCache refactoring + Fix scrolling lag after updating Mixxx  `#12009 <https://github.com/mixxxdj/mixxx/pull/12009>`__
 
 Effects
