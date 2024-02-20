@@ -57,7 +57,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "Mixxx"
-copyright = "2011-2021, The Mixxx Development Team"
+copyright = "2011-2024, The Mixxx Development Team"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -102,11 +102,11 @@ supported_languages = {
 smv_tag_whitelist = r"^$"
 smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
 smv_remote_whitelist = r"^origin$"
-# Mark all branches in the form "N.M" as released except "2.4"
-smv_released_pattern = r"^.*/(?!2\.4)(\d+)\.(\d+)$"
-smv_latest_version = r"2.3"
+# Mark all branches in the form "N.M" as released except "2.5"
+smv_released_pattern = r"^.*/(?!2\.5)(\d+)\.(\d+)$"
+smv_latest_version = r"2.4"
 smv_outputdir_format = "{config.version}/{config.language}"
-notfound_urls_prefix = "/2.3/en/"
+notfound_urls_prefix = "/2.4/en/"
 
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched
