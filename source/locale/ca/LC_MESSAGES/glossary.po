@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2022
 # omar.maciasmolina <omar.maciasmolina@gmail.com>, 2023
 # 
 #, fuzzy

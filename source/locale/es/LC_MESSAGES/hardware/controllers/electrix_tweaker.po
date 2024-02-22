@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7664/es/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:11
-msgid "`Manufacturer’s website <http://electrixpro.com/>`__"
+msgid "`Manufacturer’s website <https://electrixpro.com/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:12
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:13
 msgid ""
-"`Manufacturer’s manual <http://electrixpro.com/wp-"
+"`Manufacturer’s manual <https://electrixpro.com/wp-"
 "content/uploads/2014/10/Tweaker_User_Manual.pdf>`__"
 msgstr ""
 

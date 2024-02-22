@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7664/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -303,7 +303,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:62
 msgid ""
-":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
+":download:`Download the image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:64
