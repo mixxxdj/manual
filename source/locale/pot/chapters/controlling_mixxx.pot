@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,7 +273,7 @@ msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:62
-msgid ":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
+msgid ":download:`Download the image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:64

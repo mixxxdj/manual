@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "Secondary function (+ SHIFT)"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:38
-msgid "REV Button"
+msgid "**1**. REV Button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:38
@@ -81,7 +81,7 @@ msgid "Reverse play + slip mode while held"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:40
-msgid "FLX Button"
+msgid "**2**. FLX Button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:40
@@ -89,7 +89,7 @@ msgid "Enable and disable slip mode"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:42
-msgid "(3) Browse knob (turn)"
+msgid "**3**. Browse knob **turn**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:42
@@ -101,7 +101,7 @@ msgid "Scroll horizontally in library"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:45
-msgid "(3) Browse knob (press)"
+msgid "**3**. Browse knob **press**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:45
@@ -113,7 +113,7 @@ msgid "Eject current track"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:48
-msgid "(4) Preparation button"
+msgid "**4**. Preparation button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:48
@@ -125,7 +125,7 @@ msgid "Add selected track to AutoDJ queue (top)"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:51
-msgid "(5) List view button"
+msgid "**5**. List view button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:51
@@ -133,7 +133,7 @@ msgid "Toggles maximizing the library"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
-msgid "Sync button"
+msgid "**6**. Sync button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:54
@@ -145,7 +145,7 @@ msgid "Syncs the phase to that of the other track"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:56
-msgid "(7) Keylock button"
+msgid "**7**. Keylock button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:56
@@ -153,7 +153,7 @@ msgid "Enable keylock for the deck"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:59
-msgid "(8) Loop knob (turn)"
+msgid "**8**. Loop knob **turn**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:59
@@ -161,7 +161,7 @@ msgid "Halve or double loop size"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:62
-msgid "(8) Loop knob (press)"
+msgid "**8**. Loop knob **press**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:62
@@ -173,7 +173,7 @@ msgid "Toggles the current loop on or off"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:65
-msgid "(9) Samples button"
+msgid "**9**. Samples button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:65
@@ -181,7 +181,7 @@ msgid "Active sampler mode (for the number buttons)"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:68
-msgid "(10) Hotcues button"
+msgid "**10**. Hotcues button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:68
@@ -189,7 +189,7 @@ msgid "Activate hotcue mode (for the number buttons)"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:71
-msgid "(11) Move knob (turn)"
+msgid "**11**. Move knob **turn**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:71
@@ -201,7 +201,7 @@ msgid "Halve or double beatjump size"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:74
-msgid "(11) Move knob (press)"
+msgid "**11**. Move knob **press**"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:74
@@ -213,7 +213,7 @@ msgid "Activate current loop, jump to its loop in point, and stop playback"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:77
-msgid "Jog wheels"
+msgid "**12**. Jog wheels"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:77
@@ -221,7 +221,7 @@ msgid "Control scratching when touched from the top *(Missing: temporarily bend 
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:79
-msgid "Grid button"
+msgid "**13**. Grid button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:79
@@ -233,7 +233,7 @@ msgid "Adjust beatgrid to match another playing deck"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:81
-msgid "(14) Shift button"
+msgid "**14**. Shift button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:81
@@ -241,7 +241,7 @@ msgid "Activates secondary functions when pressed"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:84
-msgid "CUE button"
+msgid "**15**. CUE button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:84
@@ -253,7 +253,7 @@ msgid "If the CUE point is set, jump to it and stops"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:86
-msgid "Play button"
+msgid "**16**. Play button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:86
@@ -265,7 +265,7 @@ msgid "Seeks a player to the start and then stops it"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:88
-msgid "(17) Number buttons"
+msgid "**17**. Number buttons"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:88
@@ -288,7 +288,11 @@ msgstr ""
 msgid "Samples mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:93
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "Load selected track into corresponding slot."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
 msgid "If track is loaded into corresponding slot, go to CUE point and play"
 msgstr ""
 
@@ -297,7 +301,7 @@ msgid "If track is playing, CUE default behaviour. Otherwise eject track"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:96
-msgid "Tempo fader"
+msgid "**18**. Tempo fader"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:96
@@ -305,7 +309,7 @@ msgid "Speed control"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:98
-msgid "(19) Quantize button"
+msgid "**19**. Quantize button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:98
@@ -313,7 +317,7 @@ msgid "Toggles quantization for both decks"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:101
-msgid "Gain knob"
+msgid "**20**. Gain knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:101
@@ -321,7 +325,7 @@ msgid "*Unmapped* (adjusts the hardware gain)"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:103
-msgid "(21) Microphone button"
+msgid "**21**. Microphone button"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:103
@@ -329,7 +333,7 @@ msgid "Toggles microphone talkover, long press for permanent activation"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:106
-msgid "(22) Pre-Gain knob"
+msgid "**22**. Pre-Gain knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:106
@@ -337,7 +341,7 @@ msgid "Adjusts the pre-fader gain of the deck"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:109
-msgid "HI knob"
+msgid "**23**. HI knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:109
@@ -345,7 +349,7 @@ msgid "High frequency filter"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:111
-msgid "MID knob"
+msgid "**24**. MID knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:111
@@ -353,7 +357,7 @@ msgid "Middle frequency filter"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:113
-msgid "LOW knob"
+msgid "**25**. LOW knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:113
@@ -361,73 +365,93 @@ msgid "Low frequency filter"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:115
-msgid "(26) Effect Superknob"
+msgid "**26**. Effect knob"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:115
-msgid "Quick effect superknob for the corresponding deck"
+msgid "Quick effect knob for the corresponding deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:118
-msgid "Sample knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:117
+msgid "**27**. Sample knob"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:118
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:117
 msgid "Adjusts the pregain for all the sample decks combined"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:120
-msgid "(28) Headphone mix knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:119
+msgid "**28**. Headphone mix knob"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:120
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:119
 msgid "Adjusts the cue/main mix in the headphone output"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:123
-msgid "(29) Headphone gain knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:122
+msgid "**29**. Headphone gain knob"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:123
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:122
 msgid "Adjusts the headphone output gain"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:126
-msgid "(30) Effect buttons"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:125
+msgid "**30**. Effect buttons"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:126
-msgid "Enable or disable effect units for both decks"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "Load preset from the Quick Effect presets list on both decks. 8 first presets from the list can be selected."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:129
-msgid "(31) Headphone buttons"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "Press the button once to get the first preset, press twice for the second preset."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:129
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "Press once (Press twice):"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "1 (5)  2 (6)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:0
+msgid "3 (7)  4 (8)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:125
+msgid "Load preset on selected deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:131
+msgid "**31**. Headphone buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:131
 msgid "Toggles headphone cueing"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:132
-msgid "(32) Volume fader"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:134
+msgid "**32**. Volume fader"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:132
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:134
 msgid "Adjusts the channel volume fader for the corresponding deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:135
-msgid "(33) VuMeter LEDs"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:137
+msgid "**33**. VuMeter LEDs"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:135
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:137
 msgid "Show the current instantaneous deck volume"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:138
-msgid "Crossfader"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:140
+msgid "**34**. Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:138
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.rst:140
 msgid "Adjusts the crossfader between both decks"
 msgstr ""
