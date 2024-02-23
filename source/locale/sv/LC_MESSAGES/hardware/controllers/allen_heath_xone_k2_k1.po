@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 20:55+0200\n"
+"POT-Creation-Date: 2024-02-22 07:16+0100\n"
 "PO-Revision-Date: 2022-08-28 09:46+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -43,8 +43,8 @@ msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:15
 msgid ""
-"`Manufacturer’s User Guide <http://www.allen-"
-"heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__"
+"`Manufacturer’s User Guide <https://www.allen-"
+"heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:16
@@ -117,9 +117,9 @@ msgstr ""
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:47
 msgid ""
 "**Requirement**: The Xone K2 must have Latching Layers turned off, which is "
-"the default. Refer to the `Xone K2 manual <https://allen-"
-"heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page 12 for details. The K1 does"
-" not have Latching Layers."
+"the default. Refer to the `Xone K2 manual <https://www.allen-"
+"heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page 12 for "
+"details. The K1 does not have Latching Layers."
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:52
@@ -483,8 +483,9 @@ msgstr ""
 msgid ""
 "If general functionality or supershift are not working, double check that "
 "Latch Layers is turned off and MIDI CH is selected. Refer to the `Xone K2 "
-"manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page 12 "
-"for details."
+"manual <https://www.allen-"
+"heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page 12 for "
+"details."
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:233

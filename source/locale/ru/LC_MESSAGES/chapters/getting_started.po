@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Евгений Попов, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-05 01:02+0200\n"
 "PO-Revision-Date: 2022-08-28 09:43+0000\n"
+"Last-Translator: Евгений Попов, 2023\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,17 +219,19 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:6
 msgid "Getting Started"
-msgstr ""
+msgstr "Начало работы"
 
 #: ../../chapters/getting_started.rst:9
 msgid "Installing Mixxx"
-msgstr ""
+msgstr "Установка Mixxx"
 
 #: ../../chapters/getting_started.rst:10
 msgid ""
 "After `downloading Mixxx from our Website <https://mixxx.org/download/>`_, "
 "you need to install it on your computer."
 msgstr ""
+"После `загрузки Mixxx с нашего сайта <https://mixxx.org/download/>`_, вам "
+"необходимо установить его на свой компьютер."
 
 #: ../../chapters/getting_started.rst:14 ../../chapters/getting_started.rst:48
 msgid "**Windows**"
@@ -236,6 +242,7 @@ msgid ""
 "Double-click the Mixxx installation file and go through the installation "
 "wizard."
 msgstr ""
+"Дважды щелкните по установочному файлу Mixxx и пройдите мастер установки."
 
 #: ../../chapters/getting_started.rst:18 ../../chapters/getting_started.rst:53
 msgid "**macOS**"
@@ -246,6 +253,8 @@ msgid ""
 "Double-click the Mixxx .dmg file and drag the Mixxx icon to your "
 "Applications folder."
 msgstr ""
+"Дважды щелкните .dmg файл Mixxx и перетащите значок Mixxx в папку "
+"приложений."
 
 #: ../../chapters/getting_started.rst:22
 msgid "**Linux**"
@@ -256,16 +265,20 @@ msgid ""
 "No steps are necessary after you followed the instructions on the download "
 "page."
 msgstr ""
+"После выполнения инструкций на странице загрузки никаких действий не "
+"требуется."
 
 #: ../../chapters/getting_started.rst:25
 msgid "Upgrading Mixxx"
-msgstr ""
+msgstr "Обновление Mixxx"
 
 #: ../../chapters/getting_started.rst:30
 msgid ""
 "You may safely install Mixxx on top of any previous version. You don't need "
 "to uninstall the old version."
 msgstr ""
+"Вы можете безопасно устанавливать Mixxx поверх любой предыдущей версии. Вам "
+"не нужно удалять старую версию."
 
 #: ../../chapters/getting_started.rst:33
 msgid ""
@@ -275,6 +288,11 @@ msgid ""
 "therefore you may want to make a backup of your existing settings just in "
 "case."
 msgstr ""
+"Ваши настройки и библиотека не будут удалены или сброшены, но они могут быть"
+" обновлены при запуске новой версии Mixxx. Обратите внимание: мы не "
+"гарантируем, что новые конфигурации будут работать на старых версиях Mixxx, "
+"поэтому на всякий случай вы можете сделать резервную копию существующих "
+"настроек."
 
 #: ../../chapters/getting_started.rst:38
 msgid ""
@@ -282,16 +300,21 @@ msgid ""
 "detailed descriptions of the settings files, go to :ref:`appendix-settings-"
 "files`."
 msgstr ""
+"Расположение в каждой поддерживаемой :term:`OS <operating system>`, а также "
+"подробное описание файлов настроек можно найти в :ref:`appendix-settings-"
+"files`."
 
 #: ../../chapters/getting_started.rst:41
 msgid "Opening Mixxx"
-msgstr ""
+msgstr "Открытие Mixxx"
 
 #: ../../chapters/getting_started.rst:42
 msgid ""
 "|logo| Once you've installed Mixxx, start by opening Mixxx and importing "
 "your music to the Mixxx library."
 msgstr ""
+"|logo| После установки начните с запуска Mixxx  и импорта вашей музыки в "
+"библиотеку."
 
 #: ../../chapters/getting_started.rst:46
 msgid ""
@@ -299,6 +322,8 @@ msgid ""
 "Windows start menu and click the Mixxx icon, or perform a search for "
 ":file:`Mixxx.exe`."
 msgstr ""
+"Дважды щелкните значок Mixxx на рабочем столе. Вы также можете щелкнуть "
+"значок Mixxx в меню «Пуск» или выполнить поиск по запросу :file:`Mixxx.exe`."
 
 #: ../../chapters/getting_started.rst:51
 msgid ""
