@@ -46,7 +46,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Trigger Rebuild
-      uses: peter-evans/repository-dispatch@v2
+      uses: peter-evans/repository-dispatch@v3
       if: env.GIT_DIRTY != null && env.GIT_DIRTY != '0' && env.MIXXXBOT_TOKEN != null
       with:
         token: ${{ env.MIXXXBOT_TOKEN }}
