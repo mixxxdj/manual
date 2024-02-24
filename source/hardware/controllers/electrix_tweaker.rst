@@ -8,9 +8,9 @@ push encoders with LED rings into a relatively small package. It does
 not have a built in sound card, so it requires a separate sound card or
 splitter cable (although it does include 5-pin MIDI in and out ports).
 
--  `Manufacturer’s website <http://electrixpro.com/>`__
+-  `Manufacturer’s website <https://electrixpro.com/>`__
 -  `Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-mapping/15071>`__
--  `Manufacturer’s manual <http://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
+-  `Manufacturer’s manual <https://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
 
 .. versionadded:: 2.0
 

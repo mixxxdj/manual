@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"PO-Revision-Date: 2024-02-22 06:25+0000\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7664/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:4
+msgid "Native Instruments Traktor Kontrol Z1"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:6
+msgid ""
+"Native Instruments Traktor Kontrol Z1 is a two-deck ultra-compact DJ "
+"controller with an integrated 96 kHz / 24-bit sound card. It features stereo"
+" sound output using two unbalanced RCA connectors and a standard headphone "
+"(1/8\" / 3.5 mm TRS) output jack. The controller can be powered directly "
+"from the USB bus or by using an external power adapter."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:8
+msgid ""
+"`Traktor Kontrol Z1 product page <https://www.native-"
+"instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-z1/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:9
+msgid ""
+"`Mixxx forum mapping thread <https://mixxx.discourse.group/t/new-mapping-"
+"for-native-instruments-traktor-kontrol-z1/28436>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:12
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:14
+msgid ""
+"The Kontrol Z1 is a HID and USB audio class compliant device, which makes it"
+" fully compatible with Mixxx. It requires no proprietary drivers when used "
+"on Linux or macOS."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:16
+msgid ""
+"For Windows, download and install the latest Traktor Kontrol Z1 audio driver"
+" from the `manufacturer's website <https://www.native-"
+"instruments.com/en/support/downloads/drivers-other-files/>`__."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:19
+msgid "**Parallel installation of Traktor Pro software on Windows**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:21
+msgid ""
+"If you have a parallel installation of Traktor Pro on Windows, a service "
+"called :file:`NIHardwareService.exe` is running in the background, which has"
+" control over the LEDs of the Z1."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:23
+msgid ""
+"To make the Z1 work properly with Mixxx, you must either uninstall the "
+"Traktor Pro software, or temporarily stop this Windows service. One way to "
+"do this is to open a Windows PowerShell terminal as Administrator, and run "
+"the following command: ``Stop-Service -Name \"NIHardwareService\"``."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:26
+msgid "Audio hardware setup"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:28
+msgid ""
+"The Z1 has a standard 4-channel sound card. Configure the channels in Mixxx "
+"as follows:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:31
+msgid "Audio output"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:31
+msgid "Channel configuration"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:33
+msgid ":guilabel:`Main`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:33
+msgid "Channel 1-2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:34
+msgid ":guilabel:`Headphones`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:34
+msgid "Channel 3-4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:38
+msgid "Controller overview"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:47
+msgid "Native Instruments Traktor Kontrol Z1 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:47
+msgid "*Native Instruments Traktor Kontrol Z1 (schematic view)*"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:50
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:52
+msgid ""
+"All knobs and buttons function in Mixxx as they are labeled and follow the "
+"manufacturer's standard mapping. Two secondary track control functions are "
+"also available using the :hwlabel:`Mode` button as a modifier. This makes "
+"the Kontrol Z1 more usable by itself without other controllers."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:55
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:55
+msgid "Element"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:55
+msgid "Primary function"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:55
+msgid "Secondary function"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:57
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:57
+msgid ":hwlabel:`Main` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:57
+msgid "Main output volume (hardware function - not mapped in Mixxx)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:58
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:58
+msgid ":hwlabel:`Cue Vol` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:58
+msgid "Headphone output volume (hardware function - not mapped in Mixxx)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:59
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:59
+msgid ":hwlabel:`Cue Mix` knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:59
+msgid "Adjusts cue / main mix for the headphone output"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:60
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:60
+msgid ":hwlabel:`Gain` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:60
+msgid "Adjusts pre-fader gain of the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:61
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:61
+msgid ":hwlabel:`Hi` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:61
+msgid "High frequency equalizer knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:62
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:62
+msgid ":hwlabel:`Mid` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:62
+msgid "Middle frequency equalizer knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:63
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:63
+msgid ":hwlabel:`Low` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:63
+msgid "Low frequency equalizer knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:64
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:64
+msgid ":hwlabel:`Filter | FX` knobs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:64
+msgid "Adjusts quick effect superknob for the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:65
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:65
+msgid ":hwlabel:`Filter | FX On` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:65
+msgid "Toggles selected deck quick effect on / off"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:65
+msgid "Start / stop track playback"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:66
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:66
+msgid ":hwlabel:`Headphone A / B` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:66
+msgid "Toggles deck headphone cueing on / off"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:66
+msgid "Seek track to cue and stop"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:67
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:67
+msgid ":hwlabel:`Mode` button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:67
+msgid "Activates secondary functions when held down"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:68
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:68
+msgid ":hwlabel:`Level A / B` meters"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:68
+msgid "Show the current instantaneous deck volume"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:69
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:69
+msgid "Volume faders"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:69
+msgid "Adjusts channel volume fader for the corresponding deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:70
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:70
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_z1.rst:70
+msgid "Adjusts the crossfader between both decks"
+msgstr ""

@@ -12,7 +12,7 @@ with.
 
 -  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__
--  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
+-  `Manufacturer’s User Guide <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__
 -  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
 
 .. versionadded:: 1.11
@@ -46,7 +46,7 @@ Setup
 
 **Requirement**: The Xone K2 must have Latching Layers turned off, which
 is the default. Refer to the `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details. The K1 does not have Latching Layers.
 
 This mapping can used with one or multiple Xone K2s/K1s. Multiple Xone
@@ -80,16 +80,18 @@ These are available on any configuration with decks, but not the 4
 effect unit layout.
 
 -  Bottom left encoder:
--  adjust tempo of all decks with sync enabled
--  press and turn: PFL/main mix in headphones
--  shift: headphone gain
--  press with shift: toggle split cue mode
--  Bottom right encoder
--  scroll through tracks in library
--  press and release: load selected track into first stopped deck
--  press and hold: load selected track into a deck by pressing the play
-   button of the deck
--  shift: main gain
+
+   -  adjust tempo of all decks with sync enabled
+   -  press and turn: PFL/main mix in headphones
+   -  shift: headphone gain
+   -  press with shift: toggle split cue mode
+
+-  Bottom right encoder:
+
+   -  scroll through tracks in library
+   -  press and release: load selected track into first stopped deck
+   -  press and hold: load selected track into a deck by pressing the play button of the deck
+   -  shift: main gain
 
 Decks
 -----
@@ -224,7 +226,7 @@ Troubleshooting
 If general functionality or supershift are not working, double check
 that Latch Layers is turned off and MIDI CH is selected. Refer to the
 `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details.
 
 Known Issues

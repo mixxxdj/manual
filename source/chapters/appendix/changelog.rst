@@ -174,10 +174,31 @@ Misc Refactorings
   `#12626 <https://github.com/mixxxdj/mixxx/pull/12626>`__
   `#12577 <https://github.com/mixxxdj/mixxx/pull/12577>`__
 
+.. _v2-4-1:
+
+`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (unreleased)
+----------------------------------------------------------------------------------
+
+Controller Mappings
+^^^^^^^^^^^^^^^^^^^
+
+
+* Pioneer DDJ-FLX4 mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
+* Traktor S3: Fix mapping crash on macOS `#12840 <https://github.com/mixxxdj/mixxx/pull/12840>`__
+
+Target Support
+^^^^^^^^^^^^^^
+
+
+* Fix various minor build issues
+  `#12853 <https://github.com/mixxxdj/mixxx/pull/12853>`__
+  `#12847 <https://github.com/mixxxdj/mixxx/pull/12847>`__
+  `#12822 <https://github.com/mixxxdj/mixxx/pull/12822>`__
+
 .. _v2-4-0:
 
-`2.4.0 <https://launchpad.net/mixxx/+milestone/2.4.0>`__ (2024-02-16)
-------------------------------------------------------------------------
+`2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`__ (2024-02-16)
+----------------------------------------------------------------------------------
 
 Music Library: Tracks Table & Track Menu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -778,6 +799,7 @@ Cover Art
   `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
   `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
   `#12532 <https://github.com/mixxxdj/mixxx/issues/12532>`__
+  `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
 * CoverArtCache refactoring + Fix scrolling lag after updating Mixxx  `#12009 <https://github.com/mixxxdj/mixxx/pull/12009>`__
 
 Effects

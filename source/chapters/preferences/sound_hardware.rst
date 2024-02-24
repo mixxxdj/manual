@@ -194,7 +194,7 @@ input channels available for more complex setups, for example with external
 mixers, vinyl control or for broadcasting.
 
 All outputs are usually sent to a channel pair (stereo), though they can
-also be sent to one channel only (mono mixdown), for exampleif you're short
+also be sent to one channel only (mono mixdown), for example if you're short
 on output channels, like when you need to use one stereo output for both master
 and headphones (see :ref:`setup-laptop-with-splitter`).
 
@@ -231,10 +231,9 @@ Inputs
 * **Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and passthrough <vinyl-control>`.
   Note that one input can be selected for multiple decks.
 
-* **Microphone 1-4**: ref:`Microphone <microphones>` inputs.
+* **Microphone 1-4**: The :ref:`microphone <microphones>` inputs.
 
 * **Auxiliary 1-4**: Auxiliary inputs.
-  .. TODO: link to Aux chapter when it's been added.
 
 * **Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording <djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`.
   Note that when setting this input your recording and broadcast stream will

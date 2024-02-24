@@ -115,6 +115,9 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
+.. hint:: Double-click any track text label to open the :ref:`Properties editor <library-properties-editor>`
+          where you can edit all track metadata.
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
@@ -200,6 +203,25 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
              which differ primarily in the level of detail shown in the
              waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
+  Right next to the waveform view there are controls to adjust the :term:`beatgrid`.
+  You may stretch, compress or shift the beatgrid in case it was not detected
+  correctly (see :ref:`configuration-bpm-detection`). There are also controls to shift
+  cue points in case they are set off after decoder changes, for example when you migrated
+  your Mixxx library to another compouter or operating system. These controls are
+  hidden by default and need to be enabled in the skin settings menu.
+
+  .. figure:: ../_static/2.3/latenight-beatgrid-controls.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx default skin (LateNight) - Beatgrid editing controls
+     :figclass: pretty-figures
+
+     Beatgrid editing controls in the default Mixxx skin (LateNight, PaleMoon theme)
+
+  In Deere skin, these controls are located in the expandable BPM section inside
+  the decks.
+
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
@@ -284,9 +306,15 @@ follows:
 
 
 **Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
+  Clicking this button ejects the track from the deck. If no track is loaded the
+  last-ejected track (of any deck) is reloaded.
+
+  Double-click to reload the last
+  replaced track. In empty decks the second-last ejected track is reloaded.
+
+  Alternatively you can use a keyboard shortcut, go to the chapter
+  :ref:`control-keyboard` for more information.
+
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
@@ -355,8 +383,7 @@ Auto Cue
 Mixxx automatically seeks to the saved Cue point on track load. If none exists,
 seeks to the beginning of the track.
 
-Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to main
-cue point on track load` to always seek to the beginning of the track.
+Select an alternative load point in :menuselection:`Preferences --> Decks --> Track load point`.
 
 .. _interface-cue-modes:
 
@@ -556,11 +583,12 @@ Sync and Rate Controls
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../_static/2.3/sync-and-rate.png
+.. figure:: ../_static/2.4/sync-and-rate.png
    :align: right
-   :width: 76px
-   :figwidth: 100px
+   :width: 81px
+   :figwidth: 120px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
 
@@ -581,6 +609,7 @@ control rate changes also from your computer's keyboard, see the chapter
   sync to samplers and samplers can only sync to decks. The sync target for
   samplers is:
 
+  * The sync leader, identified by the lit sync-lock button and the crown symbol.
   * The first deck (in numerical order) that is playing a track with a detected
     beatgrid, and has a rate different than zero.
   * The first deck (in numerical order) that has a track loaded with a detected

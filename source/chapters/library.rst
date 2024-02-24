@@ -413,6 +413,19 @@ Mixxx supports the following filters:
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
 
+  You can use **=** to find exact matches. It reveals only tracks where the entire property
+  text equals the search term. As without **=**, you must use quotes for more than one word.
+  The first of the examples below will find only tracks where the title is
+  "wow" (case-insensitive like the default search), i.e. not "wowy", "oh wow!"
+  or "wow (Hej Remix)".
+
+  Examples
+    ::
+
+      title:=wow
+      title:= "Track 1"
+      artist:="DJ Flop"
+
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
   Examples
@@ -565,6 +578,8 @@ Manual Edit
      :figclass: pretty-figures
 
      Mixxx library - Inline editing
+
+.. _library-properties-editor:
 
 **Properties editor**:
   To open the editor right-click on a **single track** in the library or any track
