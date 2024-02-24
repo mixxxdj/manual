@@ -30,10 +30,10 @@ Practicing Mixing / Broadcasting
 This setup can be used with a single audio output for speakers or headphones to
 practice DJing without investing in any equipment other than a computer and a
 set of speakers or headphones. With this configuration, use the :ref:`Pre/Main
-Knob <interface-head-master>` to switch back and forth between the Master mix
+Knob <interface-head-main>` to switch back and forth between the main mix
 and :term:`PFL` signal. This setup cannot be used to play for a live audience
-because the Master mix is not sent to an audio interface output. However, it can
-be used by radio DJs who only need to send the Master mix to a broadcast
+because the main mix is not sent to an audio interface output. However, it can
+be used by radio DJs who only need to send the main mix to a broadcast
 audience.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
@@ -68,7 +68,7 @@ This setup allows for playing to an audience without headphone :term:`cueing`.
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select your built-in audio
+#. From the :guilabel:`Main` drop-down menu, select your built-in audio
    interface, then :guilabel:`Channels 1-2`
 #. Depending on your audio interface, you can specify a
    :ref:`microphone <interface-mic>`
@@ -114,7 +114,7 @@ other components of the computer.
 #. Check that your headphones are plugged into the side of the cable with a
    headphones symbol and that the speakers are plugged into the side of the
    cable with a speaker symbol.
-#. From the :guilabel:`Master` drop-down menu, select your built-in audio
+#. From the :guilabel:`Main` drop-down menu, select your built-in audio
    interface, then :guilabel:`Channel 1`
 #. From the :guilabel:`Headphones` drop-down menu, select your built-in
    audio interface, then :guilabel:`Channel 2`
@@ -146,7 +146,7 @@ Laptop and External USB Audio Interface
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external audio
+#. From the :guilabel:`Main` drop-down menu, select the external audio
    interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the built-in
    audio interface, then :guilabel:`Channels 1-2`
@@ -155,7 +155,7 @@ Laptop and External USB Audio Interface
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external
+#. From the :guilabel:`Main` drop-down menu, select the external
    audio interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the external
    audio interface, then :guilabel:`Channels 3-4`
@@ -189,7 +189,7 @@ A setup with this kind of controller may look like the diagram below:
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select your controller's
+#. From the :guilabel:`Main` drop-down menu, select your controller's
    audio interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select your controller's
    audio interface, then :guilabel:`Channels 3-4`
@@ -214,7 +214,7 @@ USB audio interface as depicted in the diagram below:
 
 #. Open :menuselection:`Preferences --> Sound Hardware`
 #. Select the :guilabel:`Output` tab
-#. From the :guilabel:`Master` drop-down menu, select the external audio
+#. From the :guilabel:`Main` drop-down menu, select the external audio
    interface, then :guilabel:`Channels 1-2`
 #. From the :guilabel:`Headphones` drop-down menu, select the built-in
    audio interface, then :guilabel:`Channels 1-2`

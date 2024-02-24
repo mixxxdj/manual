@@ -50,10 +50,6 @@ Jog Wheels
 Press the top of the jog wheel and turn it to scratch. Move the jog
 wheel from the edge without pressing the top to nudge the track. Hold
 :hwlabel:`SHIFT` and spin the jog wheel to seek quickly.
-The threshold for the press of the jog wheels can be adjusted with the
-``JogWheelTouchThreshold`` variable in the
-:file:`Traktor-Kontrol-S2-MK1-hid-script.js` file in the controller mapping
-folder. This is necessary if it always or never scratches.
 
 Loop Section
 ^^^^^^^^^^^^
@@ -93,8 +89,8 @@ Intro & Outro cue mode
 Sampler mode
     This mode is activated by the button under the Sampler knob in the center of the mixer.
     Press an unlit pad to load the selected track in the library to the sampler.
-    Loaded and stopped sampler pads are lit dimm green.
-    Press a dimm green pad to play a sampler.
+    Loaded and stopped sampler pads are lit dim green.
+    Press a dim green pad to play a sampler.
     A playing sampler is lit green.
     Press a lit pad with :hwlabel:`SHIFT` to stop a sampler, or if it is already stopped, unload the
     sample.
@@ -103,7 +99,7 @@ Sampler mode
 Transport Controls
 ^^^^^^^^^^^^^^^^^^
 
-The transport controls work mostly as labelled on the controller:
+The transport controls work mostly as labeled on the controller:
 
 :hwlabel:`SYNC` button
     Press to :term:`sync` :term:`tempo`.
@@ -156,8 +152,9 @@ Center Column
     Press when lit to return the pads to controlling :term:`hotcues <hotcue>`.
 :hwlabel:`BROWSE` encoder
     Scroll through the music library.
-    Push to maximize the library browser on screen.
-    Turn with :hwlabel:`SHIFT` to scroll 5 rows at a time.
+    Turn with :hwlabel:`SHIFT` to scroll a whole page at a time.
+    Push to open/select the highlighted item.
+    Push with :hwlabel:`SHIFT` to cycle through the windows (Track List, Sidebar, search box).
 :hwlabel:`LOAD A`/:hwlabel:`LOAD B` buttons
     Load the track selected in the library to the corresponding deck.
     Press with :hwlabel:`SHIFT` to clone the other deck.

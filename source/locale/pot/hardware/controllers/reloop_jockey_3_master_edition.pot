@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Reloop Jockey 3 Master Edition"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:4
-msgid "The Reloop Jockey 3 Master Edition is a 2 Channel Controller with the option to control 4 Channels. It has a built-in sound card with 6 channels in and 4 channels out. It features both balanced 1/4\" and unbalanced RCA master outputs plus RCA booth outputs with an independent volume control. It can also be used as a stand-alone mixer, or used to mix an analog source with music files in Mixxx. This device requires a power adapter in addition to the USB cable."
+msgid "The Reloop Jockey 3 Master Edition is a 2 Channel Controller with the option to control 4 Channels. It has a built-in sound card with 6 channels in and 4 channels out. It features both balanced 1/4\" and unbalanced RCA main outputs plus RCA booth outputs with an independent volume control. It can also be used as a stand-alone mixer, or used to mix an analog source with music files in Mixxx. This device requires a power adapter in addition to the USB cable."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:11
@@ -57,7 +57,7 @@ msgid "Mixxx Sound Hardware Preferences"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:35
-msgid "Master output: channels 1-2"
+msgid "Main output: channels 1-2"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:36
@@ -113,7 +113,7 @@ msgid "**Headphones**: play deck on headphone output"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:61
-msgid "**Cuemix**: Fade between PFL and master output on headphones"
+msgid "**Cuemix**: Fade between PFL and main output on headphones"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:62
@@ -149,7 +149,7 @@ msgid "**Cup**: Like Cue, but it plays only after releasing the button."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:75
-msgid "**Sync**: toggle master sync. With shift, it does not work as labeled; it toggles microphone talkover."
+msgid "**Sync**: toggle sync lock. With shift, it does not work as labeled; it toggles microphone talkover."
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:79
@@ -217,7 +217,7 @@ msgid "**Filter**: turn to apply a highpass or lowpass filter. On Deck A, press 
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:119
-msgid "**Pan**: On Deck A, turn to fade between the left and right speakers on the master output. (Balance)"
+msgid "**Pan**: On Deck A, turn to fade between the left and right speakers on the main output. (Balance)"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:121

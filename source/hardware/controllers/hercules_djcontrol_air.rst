@@ -25,7 +25,7 @@ Sound Hardware settings
 -----------------------
 
 -  Sample rate: 44100 Hz
--  Master Output: Channels 1 - 2
+-  Main Output: Channels 1 - 2
 -  Headphones Output: Channels 3 - 4
 
 Mapping Description

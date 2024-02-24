@@ -41,7 +41,7 @@ Library
 ======== ============================================== ============================================================================
 
 
-Master/Headphones
+Main/Headphones
 ^^^^^^^^^^^^^^^^^
 
 ======== ============================================== =====================================================================
@@ -101,7 +101,7 @@ Pitch / Syncing
  1        Pitchbend :hwlabel:`-`/:hwlabel:`+`            Temporary Holds the pitch 4% lower or higher while pressed
  3        Pitch knobs                                    Adjust playback pitch / speed
  13       :hwlabel:`Sync`                                Automatically sets pitch so the BPM of the other deck is matched
- 2        Master Tempo                                   Enable and lock Sync Mode
+ 2        Leader Tempo                                   Enable and lock Sync Mode
 ======== ============================================== ==================================================================
 
 Troubleshooting

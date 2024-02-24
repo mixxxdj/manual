@@ -199,5 +199,5 @@ Pressing any of the encoders returns the parameter to the default value.
 
    -  **1st encoder** (from the left): adjusts the cue/main headphone mix
    -  **2nd encoder**: adjusts the headphone volume
-   -  **3rd encoder**: adjusts the master balance (pan)
-   -  **4th encoder**: adjusts the master volume
+   -  **3rd encoder**: adjusts the main balance (pan)
+   -  **4th encoder**: adjusts the main volume

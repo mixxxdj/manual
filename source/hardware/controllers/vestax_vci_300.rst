@@ -20,7 +20,7 @@ Volume Boost (Gain Boost)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Higher output gain level and headphone volume level when supplying power with the optional power adaptor.
--  *Important Note:* Optional power supply DC-7 must be used in order to get the boost on the headphones and Master output. Without the power supply the MKII will perform just like the original
+-  *Important Note:* Optional power supply DC-7 must be used in order to get the boost on the headphones and main output. Without the power supply the MKII will perform just like the original
    VCI-300. Also, using the DC-7 on the original VCI-300 will do nothing.
 
 Optional Vestax Digital Fader (not included)
@@ -31,7 +31,7 @@ The VCI-300MKII Cross fader can be upgraded to Vestax’s new magnetic sensor sy
 New Direct Audio Thru
 ~~~~~~~~~~~~~~~~~~~~~
 
-Audio fed to the MIC/AUX input can now be directly sent to the Master outputs with the THRU switch turned ON, minimizing latency of when fed through ITCH.
+Audio fed to the MIC/AUX input can now be directly sent to the main outputs with the THRU switch turned ON, minimizing latency of when fed through ITCH.
 
 New adjust knobs for the JOG sensor control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

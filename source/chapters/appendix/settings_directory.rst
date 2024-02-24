@@ -31,8 +31,12 @@ You can navigate to the settings directory location manually as described below.
  | Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``
 
 **Linux**
+ | For distribution packages, or Mixxx installed from source:
  | ``~/.mixxx/``
  | This resolves to ``/home/<your-username>/.mixxx``
+ |
+ | For Flatpak:
+ | ``~/.var/app/org.mixxx.Mixxx/.mixxx``
 
 Content
 -------

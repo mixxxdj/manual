@@ -12,9 +12,9 @@ integrated into the jog wheels. It is a USB Audio and MIDI Class compliant devic
 Audio interface
 ---------------
 
-Configure Mixxx’s Master output for channels 1-2 and Headphones output for Channels 3-4.
+Configure Mixxx’s main output for channels 1-2 and Headphones output for Channels 3-4.
 
-The microphone input on this controller is not available to the computer through the controller’s audio interface. It is mixed with the master output in hardware, so this controller’s audio interface
+The microphone input on this controller is not available to the computer through the controller’s audio interface. It is mixed with the main output in hardware, so this controller’s audio interface
 is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate :ref:`audio interface <hardware-audio-interfaces>` with a microphone input is suggested.
 
 Configuration Options
@@ -50,16 +50,16 @@ Mapping
 | **Shift + Turn:** Page down/page up, allows you to scroll by page instead of by item.
 | **Shift + Push:** Focus next library pane, allows you to toggle between the left and right panes.
 
-| 2. **Master Gain:** Adjusts the master volume in the software.
-| **Note:** This control does not affect the microphone volume which is summed with the final output of the Master Gain to the Master Output. Use the Mic Gain knob to control the microphone volume.
+| 2. **Master Gain:** Adjusts the main volume in the software.
+| **Note:** This control does not affect the microphone volume which is summed with the final output of the Main Gain to the Main Output. Use the Mic Gain knob to control the microphone volume.
 
-3. **Cue Mix:** Adjusts the software’s audio output to the headphones, mixing between the cue (PFL) output and the master mix output.
+3. **Cue Mix:** Adjusts the software’s audio output to the headphones, mixing between the cue (PFL) output and the main mix output.
 
 | 4. **Cue Gain:** Adjusts the volume for headphone cueing in the software.
 | **Shift+Cue Gain:** adjust the volume of the first 8 sampler banks
 
-5. **VU Meter:** Monitor the volume levels of the master output and each channel. When cue/pfl is active on ANY channel, the meter shows the mono levels each channel (left meter shows the deck on the
-left, right meter for the deck on the right). Otherwise the meter shows the stereo levels of the master output.
+5. **VU Meter:** Monitor the volume levels of the main output and each channel. When cue/pfl is active on ANY channel, the meter shows the mono levels each channel (left meter shows the deck on the
+left, right meter for the deck on the right). Otherwise the meter shows the stereo levels of the main output.
 
 | 6. **Load:** Press one of these buttons while a track is selected in the library window to assign it to Deck 1 and 2 (or 3 and 4), respectively, in the software.
 | **Shift + Load:** Load the track and play (or if the ShiftLoadEjects option is set, eject the track)
@@ -80,7 +80,7 @@ left, right meter for the deck on the right). Otherwise the meter shows the ster
   (the Quick Effect option in the Equalizer preferences).
 | **Shift + Filter:** With no effect focused, this controls the Superknob of the effects unit. With an effect focused, this adjusts parameter 1 of the currently focused effect on this deck.
 
-12. **Cue/PFL/Headphones:** Sends pre-fader audio to the headphone output. If any channels have the cue button active, the VU meter will show channel output levels instead of master output levels on
+12. **Cue/PFL/Headphones:** Sends pre-fader audio to the headphone output. If any channels have the cue button active, the VU meter will show channel output levels instead of main output levels on
 all decks.
 
 13. **Volume fader:** Adjusts the volume of the deck.
@@ -129,7 +129,7 @@ the fader on the controller. This can be reversed in Mixxx’s preferences under
 28. **Shift:** Allows alternate options to be activated for various controls.
 
 | 29. **Sync:** Set the BPM of this deck to match the opposite deck. **Press:** Press once to synchronize the tempo (BPM) to that of to that of the other track
-| **Long Press:** Enable master sync. Press again to disable.
+| **Long Press:** Enable :ref:`Sync Lock <sync-lock>`. Press again to disable.
 | **Shift + Sync:** Toggle quantize mode.
 
 | 30. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.

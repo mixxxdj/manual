@@ -2,7 +2,7 @@ Behringer CMD STUDIO 4a
 =======================
 
 The Behringer CMD STUDIO 4a is a 2 deck controller that supports 4
-virtual decks and has a built in 4 channel (one stereo master, one
+virtual decks and has a built in 4 channel (one stereo main, one
 stereo headphones) USB sound card built in.
 
 -  `Manufacturer’s product page <https://www.behringer.com/product.html?modelCode=P0809>`__
@@ -13,7 +13,7 @@ stereo headphones) USB sound card built in.
 Mixxx Sound Hardware Preferences
 --------------------------------
 
--  Master output: channels 1-2
+-  Main output: channels 1-2
 -  Headphone output: channels 3-4
 
 Mapping description
@@ -38,7 +38,7 @@ Mixer
 ~~~~~
 
 -  The HIGH, MID, and LOW EQ knobs & kill buttons, deck faders,
-   cross-fader, master, and headphone monitoring (mix & volume) knobs
+   cross-fader, main, and headphone monitoring (mix & volume) knobs
    all operate as labelled.
 -  Each deck also has a gain knob (leftmost “FX Control” knob).
 
@@ -64,7 +64,7 @@ Transport Control
 -  The deck LOAD buttons will load the currently highlighted track in
    the library window into that deck.
 -  The deck CUE, PLAY, SYNC, and LOOP buttons work as labelled (SYNC
-   toggles master sync for the deck).
+   toggles sync lock for the deck).
 
 Wheels
 ~~~~~~

@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 07:16+0100\n"
-"PO-Revision-Date: 2022-08-28 09:43+0000\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7664/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -283,8 +283,12 @@ msgstr ""
 msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:35
+#: ../../chapters/appendix/settings_directory.rst:39
 msgid "**Linux**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "For distribution packages, or Mixxx installed from source:"
 msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:0
@@ -295,15 +299,23 @@ msgstr ""
 msgid "This resolves to ``/home/<your-username>/.mixxx``"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:38
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "For Flatpak:"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:42
 msgid "Content"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:44
+#: ../../chapters/appendix/settings_directory.rst:48
 msgid "**analysis**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:41
+#: ../../chapters/appendix/settings_directory.rst:45
 msgid ""
 "This contains all waveform analysis data. This is used to compose a track's "
 "scrolling waveform and track overview. If not existent, this data will be "
@@ -311,19 +323,19 @@ msgid ""
 "belong to the essential data that needs to be backed up."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:47
+#: ../../chapters/appendix/settings_directory.rst:51
 msgid "**broadcast_profiles**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:47
+#: ../../chapters/appendix/settings_directory.rst:51
 msgid "All broadcast profiles you have configured."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:53
+#: ../../chapters/appendix/settings_directory.rst:57
 msgid "**controllers**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:50
+#: ../../chapters/appendix/settings_directory.rst:54
 msgid ""
 "All controller mappings you stored. This can be downloaded and :ref:`self-"
 "built mappings <advanced-controller>`, as well as built-in mappings that you"
@@ -331,67 +343,67 @@ msgid ""
 ":guilabel:`YourController` manually or with the MIDI Wizard."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:56
+#: ../../chapters/appendix/settings_directory.rst:60
 msgid "**effects.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:56
+#: ../../chapters/appendix/settings_directory.rst:60
 msgid ""
 "The current configuration of the 4 effect units, incl. the state of all "
 "controls."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:60
+#: ../../chapters/appendix/settings_directory.rst:64
 msgid "**mixxx.cfg**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:59
+#: ../../chapters/appendix/settings_directory.rst:63
 msgid ""
 "Everything you configured in the Preferences, deck settings, skin settings, "
 "AutoDJ configuration, effect routing etc."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:64
+#: ../../chapters/appendix/settings_directory.rst:68
 msgid "**mixxx.log[.NN]**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:63
+#: ../../chapters/appendix/settings_directory.rst:67
 msgid ""
 "Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
 "recent one, followed by ``mixxx.log.1`` etc."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:68
+#: ../../chapters/appendix/settings_directory.rst:72
 msgid "**mixxxdb.sqlite**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:67
+#: ../../chapters/appendix/settings_directory.rst:71
 msgid ""
 "The Mixxx library database. All track locations, all track metadata, saved "
 "cues, loops, colors, playlists, crates, ..."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:71
+#: ../../chapters/appendix/settings_directory.rst:75
 msgid "**samplers.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:71
+#: ../../chapters/appendix/settings_directory.rst:75
 msgid "Stores tracks currently loaded to sample decks."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:74
+#: ../../chapters/appendix/settings_directory.rst:78
 msgid "**sandbox.cfg**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:74
+#: ../../chapters/appendix/settings_directory.rst:78
 msgid ""
 "This is used under macOS to track which files Mixxx will have access to"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:76
+#: ../../chapters/appendix/settings_directory.rst:80
 msgid "**soundconfig.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:77
+#: ../../chapters/appendix/settings_directory.rst:81
 msgid "Sound device configuration from Preferences > Sound Hardware"
 msgstr ""

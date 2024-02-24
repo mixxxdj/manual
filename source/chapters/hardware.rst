@@ -174,7 +174,7 @@ DJing have 4 output channels with 4 mono output connectors and 1 stereo
 headphone connector. This does not mean that the audio interface can send out 6
 different signals at the same time; rather, the signal on 2 of the mono outputs
 and the stereo headphone output would be the same. Also, many controllers have
-separate master and booth outputs with independent volume controls, but they
+separate main and booth outputs with independent volume controls, but they
 both play the same signal.
 
 Vinyl Control and Phono Preamplifiers
@@ -230,17 +230,17 @@ Some DJ mixers have a USB :ref:`audio interface <hardware-audio-interfaces>`
 built into them. This lets Mixxx send unmixed audio files directly to the mixer
 without needing a separate stand-alone audio interface.
 
-Often DJs who use DJ software with internal mixing send their master output to
-a hardware mixer. This can be helpful to send the mixed signal to both a main
-speaker output for the audience and booth speakers for the DJ with separate
-gain controls for each output. It also facilitates smooth transitions between
-DJs.
+Often DJs who use DJ software with internal mixing send their :term:`main
+output` to a hardware mixer. This can be helpful to send the mixed signal to
+both a main speaker output for the audience and booth speakers for the DJ with
+separate gain controls for each output. It also facilitates smooth transitions
+between DJs.
 
 However, using an external mixer with internal mixing is not necessary and
 reduces the sound quality. Each piece of equipment an audio signal passes
 through reduces the sound quality, so avoiding unnecessary equipment in the
 signal path can provide better sound quality. Many DJ controllers provide
-separate master and booth outputs with independent volume controls.
+separate main and booth outputs with independent volume controls.
 Alternatively, a sound card with at least 6 output channels can be used with
 Mixxx's :guilabel:`Booth` output.
 

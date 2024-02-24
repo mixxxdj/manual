@@ -306,9 +306,15 @@ follows:
 
 
 **Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
+  Clicking this button ejects the track from the deck. If no track is loaded the
+  last-ejected track (of any deck) is reloaded.
+
+  Double-click to reload the last
+  replaced track. In empty decks the second-last ejected track is reloaded.
+
+  Alternatively you can use a keyboard shortcut, go to the chapter
+  :ref:`control-keyboard` for more information.
+
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
@@ -577,11 +583,12 @@ Sync and Rate Controls
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../_static/2.3/sync-and-rate.png
+.. figure:: ../_static/2.4/sync-and-rate.png
    :align: right
-   :width: 76px
-   :figwidth: 100px
+   :width: 81px
+   :figwidth: 120px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
 
@@ -602,6 +609,7 @@ control rate changes also from your computer's keyboard, see the chapter
   sync to samplers and samplers can only sync to decks. The sync target for
   samplers is:
 
+  * The sync leader, identified by the lit sync-lock button and the crown symbol.
   * The first deck (in numerical order) that is playing a track with a detected
     beatgrid, and has a rate different than zero.
   * The first deck (in numerical order) that has a track loaded with a detected
@@ -609,8 +617,8 @@ control rate changes also from your computer's keyboard, see the chapter
 
   So basically, if you sync a sampler and both deck 1 and deck 2 are playing a
   track with a beatgrid then deck 1 will win since numerically it is first. The
-  sync targets for decks are chosen with the new master sync feature, see
-  :ref:`master-sync` for more information.
+  sync targets for decks are chosen with the new sync lock feature, see
+  :ref:`sync-lock` for more information.
 
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song, by default up to 10%
@@ -951,7 +959,7 @@ It can be set to the left or right side, or to the center where it is unaffected
 .. hint :: Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can
            automate the crossfade between the decks.
 
-.. _interface-head-master:
+.. _interface-head-main:
 
 Headphone and Main Mix Controls
 ---------------------------------

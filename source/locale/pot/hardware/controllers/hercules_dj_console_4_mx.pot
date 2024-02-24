@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 09:59+0200\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,11 +57,11 @@ msgid "**Volume/Pan/Mute**: Sets the volume output for channels 1-2 and channels
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:31
-msgid "**Line in mode**: Sets the line level of the inputs. In case of line 1-2, it also allows to redirect the microphone to the line 1-2. Else, it is mixed in hardware to the master out."
+msgid "**Line in mode**: Sets the line level of the inputs. In case of line 1-2, it also allows to redirect the microphone to the line 1-2. Else, it is mixed in hardware to the main out."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:32
-msgid "**Talkover attenuation**: Sets how much to attenuate the master output when activating the hardware mixed microphone."
+msgid "**Talkover attenuation**: Sets how much to attenuate the main output when activating the hardware mixed microphone."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:33
@@ -113,7 +113,7 @@ msgid "There are several options that can be configured for this mapping. You ca
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:51
-msgid "**autoHeadMix**: Indicates if the Headphone/Master mix should automatically be set to master when none of the headphone cue buttons are activated."
+msgid "**autoHeadMix**: Indicates if the headphone/main mix should automatically be set to main when none of the headphone cue buttons are activated."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:52
@@ -125,7 +125,7 @@ msgid "**beatFlashLed**: set which LED, if any, blinks with the beat"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:54
-msgid "**useVuMeters**: Simulate vuMeters using the kill and source buttons’ LEDs. If enabled, shows master VUs, or deck VU depending if prefader listen button is enabled or not."
+msgid "**useVuMeters**: Simulate vuMeters using the kill and source buttons’ LEDs. If enabled, shows main VUs, or deck VU depending if prefader listen button is enabled or not."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:55
@@ -157,7 +157,7 @@ msgid "**FXbuttonsSetup**: This indicates which mapping for the FX buttons shoul
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:68
-msgid "Master / Global controls"
+msgid "Main / Global controls"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:71
@@ -188,7 +188,7 @@ msgid "Vol. Main"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:75
-msgid "Controls the Master volume knob of Mixxx."
+msgid "Controls the main volume knob of Mixxx."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:77
@@ -246,7 +246,7 @@ msgid "Cue/Mix"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:96
-msgid "Control mix of master and PFL (cue) output in headphones"
+msgid "Control mix of main and PFL (cue) output in headphones"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:99
@@ -417,7 +417,7 @@ msgid "If the beatflash led has been set to Sync in the JavaScript file, the lig
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:157
-msgid "Activates master sync for this deck."
+msgid "Activates sync lock for this deck."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:160
@@ -583,7 +583,7 @@ msgid "Toggles that frequency band completely off"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:231
-msgid "If the useVuMeters option is activated in the JavaScript file, these LEDs will simulate a VU meter of the master or the deck (if prefader-listen is on). They will flicker if the sound clips. If EQ kill is enabled, the vumeter is temporarily disabled"
+msgid "If the useVuMeters option is activated in the JavaScript file, these LEDs will simulate a VU meter of the main or the deck (if prefader-listen is on). They will flicker if the sound clips. If EQ kill is enabled, the vumeter is temporarily disabled"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:236
@@ -596,7 +596,7 @@ msgid "Toggles the deck to use the input channel 1/2 as its audio source instead
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:239
-msgid "If the vumeter is activated in the JavaScript file, they will show a vumeter of the master or the deck (if prefader-listen is on). If kill is enabled, the vumeter is temporarily disabled"
+msgid "If the vumeter is activated in the JavaScript file, they will show a vumeter of the main or the deck (if prefader-listen is on). If kill is enabled, the vumeter is temporarily disabled"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:242

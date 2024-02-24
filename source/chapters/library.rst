@@ -200,7 +200,6 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   Assign a color to all selected tracks to indicate mood, energy etc.
   Select the black button at the top left to remove the color.
 
-
 * **Metadata**
 
     * **Import from File Tags**: If the track's :term:`metadata` changes,
@@ -255,6 +254,13 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       icon next to the track's BPM in the library row is a toggle. Clicking it
       will set the status to "locked", and the icon changes to
       |ic_lib_bpm_locked|.
+
+* **Update ReplayGain from Deck Gain**: Applies the deck pregain knob value to
+  the detected ReplayGain value for the current track. This is a way to update
+  the ReplayGain value of a track if it has been detected incorrectly. When this
+  option is selected, the pregain value for the deck will be centered so that
+  there is no audible difference in track volume, so this operation is safe to
+  use during performance.
 
 * **Hide from Library**
 
@@ -378,6 +384,9 @@ a crate, or even the whole library) for tracks that match your search query.
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
 
+.. note:: The :guilabel:`Computer` and :guilabel:`Recording` views currently only
+          support simple case-insensitive filtering.
+
 Using search operators
 ----------------------
 
@@ -403,6 +412,19 @@ Mixxx supports the following filters:
   .. note::
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
+
+  You can use **=** to find exact matches. It reveals only tracks where the entire property
+  text equals the search term. As without **=**, you must use quotes for more than one word.
+  The first of the examples below will find only tracks where the title is
+  "wow" (case-insensitive like the default search), i.e. not "wowy", "oh wow!"
+  or "wow (Hej Remix)".
+
+  Examples
+    ::
+
+      title:=wow
+      title:= "Track 1"
+      artist:="DJ Flop"
 
 * **Numeric filtering**: bitrate, bpm, played, rating, track, year
 
@@ -479,7 +501,7 @@ To pre-listen to a track, activate the :guilabel:`Preview` column in a library
 view. Clicking the |ic_lib_preview_play| icon in the library's
 :guilabel:`Preview` column loads the selected track into a special :ref:`Preview
 Deck <interface-preview-deck>` that will only output sound in the
-:ref:`headphones <interface-head-master>` channel. Click the
+:ref:`headphones <interface-head-main>` channel. Click the
 |ic_lib_preview_pause| icon to stop the playback.
 
 Alternatively, select a track from the track list of the Mixxx library, drag the
@@ -835,7 +857,7 @@ Quick Links - Bookmark your favorite folders
 --------------------------------------------
 
 Using the :guilabel:`Quick Links` sub-menu you can bookmark folders for direct
-access. Click the :guilabel:`Browse` sidebar item and navigate to the folder you
+access. Click the :guilabel:`Computer` sidebar item and navigate to the folder you
 would like to bookmark. Right-click and choose :guilabel:`Add to Quick Links`.
 The folder is now pinned below the :guilabel:`Quick Links`. To un-pin that
 folder, right-click and choose :guilabel:`Remove from Quick Links`.
@@ -978,11 +1000,8 @@ Using the Serato library
 
 Mixxx supports reading your Serato library and crates both from your local hard drive as well as portable USB drives. Smart crates are currently not supported.
 
-Serato stores information such as hot cues, track color and beatgrid in the file tags.
+Serato stores information such as hot cues, saved loops, track color and beatgrid in the file tags.
 Regardless of whether a track is loaded into deck from the library or directly from the file browser, Mixxx will import that information automatically if present.
-
-Saved loops are imported as well, but since Mixxx is lacking support for multiple saved loops, only the first loop is usable in Mixxx.
-All other saved loops can be used like regular hotcues for now.
 
 Waveforms, Gain values and "Flips" are not imported from Serato.
 

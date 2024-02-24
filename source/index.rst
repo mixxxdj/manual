@@ -1,4 +1,4 @@
-.. Mixxx documentation master file, created by
+.. Mixxx documentation index file, created by
    sphinx-quickstart on Mon Mar 14 02:25:59 2011.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -16,7 +16,7 @@ Mixxx offers a variety of features to help beginners get started and help
 experienced DJs get creative:
 
   * beat, tempo, and musical key detection
-  * master sync
+  * sync lock
   * hotcues
   * looping
   * 4 decks

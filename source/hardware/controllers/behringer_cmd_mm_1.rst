@@ -60,8 +60,8 @@ Top row
 
    Behringer CMD MM-1 (top row)
 
-The top left knobs control the Master balance and Master gain. The top
-right knobs control the headphone gain and cue mix (PFL/master mix in
+The top left knobs control the main balance and main gain. The top
+right knobs control the headphone gain and cue mix (PFL/main mix in
 Headphones output).
 
 You can see the L/R buttons besides the encoder as [*SHIFT*] and

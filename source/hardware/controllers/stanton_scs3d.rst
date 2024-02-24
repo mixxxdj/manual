@@ -96,7 +96,7 @@ Common to all modes:
 -  CUE will jump to the cue point or set it, depending on your settings and
    whether the track is playing.
 -  SYNC synchronizes the tempo of the current deck to another. Holding SYNC for
-   more than 1/3 of a second will enable Master SYNC lock. (Press SYNC again to
+   more than 1/3 of a second will enable Sync lock. (Press SYNC again to
    disable it.)
 -  Pressing TAP repeatedly will change the speed of the current deck to match
    your tap tempo (useful for synchronizing with an external music source.)
@@ -259,7 +259,7 @@ Vinyl Modes
 
 -  Outer circle (C1) allows you to scroll through your Library
 -  Center button (anywhere on S4) loads the currently highlighted song into the
-   current deck, as long as it’s not live (playing to the master output.)
+   current deck, as long as it’s not live (playing to the main output.)
 -  B11 selects backward between Library, Playlist, Browse, etc. views
 -  B12 selects forward between Library, Playlist, Browse, etc. views
 -  B13 moves the highlight up one item
@@ -278,10 +278,10 @@ Deck Mode
 
 You are in this mode only **while holding down the Deck button**, unless the controller is in single-deck mode:
 
--  Gain slider (S1) adjusts master volume
--  Pitch slider (S2) adjusts master balance (pan)
--  B11 resets master volume knob to the middle
--  B12 resets master balance to center
+-  Gain slider (S1) adjusts main volume
+-  Pitch slider (S2) adjusts main balance (pan)
+-  B11 resets main volume knob to the middle
+-  B12 resets main balance to center
 -  Left slider (S3) adjusts the cue/main headphone mix
 -  Center slider (S4) adjusts the cross-fader
 -  Right slider (S5) adjusts the headphone volume

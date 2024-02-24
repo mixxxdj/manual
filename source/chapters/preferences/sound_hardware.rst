@@ -159,7 +159,7 @@ Other Sound Hardware options
 ----------------------------
 * **Multi-Soundcard Synchronization**: Mixxx is able to use two or more
   :term:`audio interface <audio interface>` at a time, each with its own clock. When multiple
-  audio interfaces are in use, the Mixxx engine is driven by the Master
+  audio interfaces are in use, the Mixxx engine is driven by the main output
   audio interface. Here you can select the synchronization used for the other
   audio interfaces to avoid buffer overflows or underflows.
 
@@ -168,11 +168,11 @@ Other Sound Hardware options
   :menuselection:`Soundtouch` on lower power machines (such as netbooks) or if
   you experience buffer underflows while using :term:`key lock`.
 
-* **Master Mix**: You may disable the master mix to reduce Mixxx's CPU usage if
-  you do not use the Master output, recording or live broadcasting.
+* **Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if
+  you do not use the :term:`main output`, recording or live broadcasting.
 
-* **Master Output Mode**: In Mono mode, the left and right channel are combined
-  into a mono signal which is passed to both channels of your master audio
+* **Main Output Mode**: In Mono mode, the left and right channel are combined
+  into a mono signal which is passed to both channels of your main audio
   interface. This is useful for setups where the audience cannot hear your mix
   in stereo because of speaker placement or playing in a space with lots of
   reverberation.

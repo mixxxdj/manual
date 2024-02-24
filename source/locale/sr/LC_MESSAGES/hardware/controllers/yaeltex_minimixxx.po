@@ -1,0 +1,983 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"PO-Revision-Date: 2024-02-22 06:25+0000\n"
+"Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7664/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:4
+msgid "Yaeltex MiniMixxx"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:6
+msgid ""
+"`Manufacturer’s product page <https://yaeltex.com/product/minimixxx/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:13
+msgid ""
+"The Yaeltex MiniMixxx is a compact, 2-deck DJ controller designed "
+"exclusively for Mixxx. Unlike most small form-factor DJ controllers which "
+"sacrifice important functions, the MiniMixxx provides access to all of the "
+"critical parts of DJing: full size EQ and quick FX knobs, pitch sliders, "
+"channel faders and track gain, playback controls including sync nudging, "
+"looping, an FX bank, 4 hotcues per deck, 8 samplers, sync lock, keylock, "
+"library navigation, and master output settings. Button mode layers are "
+"intelligently laid out and road-tested for maximum flexibility during "
+"performance, with bold RGB colors indicating current modes. The "
+"visualization of channel volume and virtual record spinning indicators makes"
+" the MiniMixxx an eye-catching wonder in the DJ booth."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:24
+msgid ""
+"The MiniMixxx can run on USB bus power. Using a separate power supply "
+"increases the brightness of the LEDs. The MiniMixxx does not have a built-in"
+" sound card."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:28
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:31
+msgid "Controller"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:33
+msgid ""
+"The MiniMixxx is a USB class compliant MIDI device.  To work correctly with "
+"this mapping, you need to load the custom Yaeltex layout file onto your "
+"controller:"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:36
+msgid ""
+"1. Download the :download:`MiniMixxx Layout "
+"Configuration<../../_static/controllers/MiniMixxx.ytx>`. 1. Go to `Yaeltex "
+"Kilowhat <https://kilowhat.yaeltex.com/>`_ configuration site. 1. Select "
+"your controller and click \"Load From Desktop\" 1. Select the downloaded "
+"layout file. 1. Click Send to Device."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:42
+msgid ""
+"Inside Mixxx, open the preferences and select the Yaeltex Minimixxx from the"
+" list of controller presets."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:45
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:54
+msgid "Yaeltex Minimixxx (photo by Yaeltex)"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:54
+msgid "Yaeltex Minimixxx"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:57
+msgid "Mixer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:59
+msgid "The primary mixer knobs and sliders are single-purpose. This includes:"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:62
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:62
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:62
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:153
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:172
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:210
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:287
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:316
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:64
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:64
+msgid ":hwlabel:`Hi`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:64
+msgid "High frequency EQ Adjustment"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:65
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:65
+msgid ":hwlabel:`Mid`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:65
+msgid "Midrange EQ Adjustment"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:66
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:66
+msgid ":hwlabel:`Low`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:66
+msgid "Low frequency EQ Adjustment"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:67
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:67
+msgid ":hwlabel:`FX`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:67
+msgid "Turn to engage Quick FX for each channel."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:68
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:68
+msgid ":hwlabel:`Level`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:68
+msgid "Slide to adjust channel level"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:69
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:69
+msgid ":hwlabel:`Pitch`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:69
+msgid ""
+"Slide to adjust deck speed. When :hwlabel:`SHIFT` is held, has no effect. "
+"When :hwlabel:`KEYLOCK` is held, adjusts musical pitch."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:73
+msgid "Buttons Overview"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:75
+msgid ""
+"Almost all the other controls on the MiniMixxx have more than one function. "
+"It helps to understand how the buttons are divided"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:155
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:156
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:157
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:158
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:165
+msgid "Deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:160
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:161
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:162
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:163
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:166
+msgid "Deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid "Layer Buttons"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:155
+msgid ":hwlabel:`2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:156
+msgid ":hwlabel:`3`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`4`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:161
+msgid ":hwlabel:`5`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:162
+msgid ":hwlabel:`6`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:165
+msgid ":hwlabel:`7`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:160
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:166
+msgid ":hwlabel:`8`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`9`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:157
+msgid ":hwlabel:`10`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:158
+msgid ":hwlabel:`11`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`12`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:163
+msgid ":hwlabel:`13`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`14`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:167
+msgid ":hwlabel:`15`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:168
+msgid ":hwlabel:`16`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:85
+msgid ""
+"There are 16 buttons arranged in three blocks.  The buttons are numbered "
+"1-16, starting in the upper left across the top row, and then counting the "
+"bottom row. So the upper left button is 1, the upper right button is 8, the "
+"lower left button is 9, the lower right button is 16."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:91
+msgid "Deck 1 uses the leftmost 6 buttons in a 3x2 grid."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:93
+msgid "Deck 2 uses the next block of 6 buttons."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:95
+msgid ""
+"The last 4 buttons enable certain layers and modes. These are buttons "
+":hwlabel:`7`, :hwlabel:`8`, :hwlabel:`15`, and :hwlabel:`16`."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:98
+msgid ""
+"Button :hwlabel:`16` in the lower right is always the :hwlabel:`SHIFT` "
+"button."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:100
+msgid ""
+"The upper left button of each track block (number :hwlabel:`1` and "
+":hwlabel:`4`) are always :hwlabel:`CUE` buttons for track 1 and 2, "
+"respectively."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:103
+msgid ""
+"The lower left button of each track block (number :hwlabel:`9` and "
+":hwlabel:`12`) are always :hwlabel:`PLAY` buttons for track 1 and 2."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:106
+msgid ""
+"Each deck has a small grid of 4 buttons to the right of the :hwlabel:`PLAY` "
+"and :hwlabel:`CUE` buttons for that deck.  These are buttons :hwlabel:`2`, "
+":hwlabel:`3`, :hwlabel:`10`, :hwlabel:`11`; and :hwlabel:`5`, :hwlabel:`6`, "
+":hwlabel:`13`, :hwlabel:`14`."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:111
+msgid "Constant buttons:"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`PLAY`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:168
+msgid ":hwlabel:`SHIFT`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:121
+msgid "Default Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:123
+msgid ""
+"Because the MiniMixxx is so compact, most controls have more than one "
+"function depending on what Layer is selected. The Default Layer will be "
+"active when the controller starts up."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:174
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:289
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:318
+msgid "Encoder 1"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:178
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:320
+msgid "Encoder 2"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:181
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:324
+msgid "Encoder 3"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:184
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:296
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:326
+msgid "Encoder 4"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`JOG 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`PREGAIN 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`PREGAIN 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`JOG 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`KEYLOCK`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUES-1` / :hwlabel:`FX`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUES-2` / :hwlabel:`SAMPLERS`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SYNC`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`LOOP`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`LIBRARY` / :hwlabel:`MAIN GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:143
+msgid ""
+"The Default Layer is active when the controller starts, and represents the "
+"default actions for each button.  Some buttons activate other layers.  When "
+"a layer is selected, pushing another layer button will enable that layer "
+"instead. Or, press the currently-activated layer button to disable it."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:148
+msgid ""
+"In the Default Layer, the encoders above the Pitch sliders will have an "
+"animated spinning indicator, and the encoders above the Level sliders will "
+"show an animated VU meter for each deck."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:153
+msgid "Button"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:153
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:172
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:287
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:316
+msgid "Category"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:155
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:161
+msgid ""
+":hwlabel:`KEYLOCK`. Tapping this button toggles keylock. Press and hold this"
+" button and move the :hwlabel:`PITCH` slider to adjust musical key without "
+"changing track speed."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:156
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:162
+msgid "Toggles :hwlabel:`FX` Unit 1 for each deck."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:157
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:163
+msgid ""
+":hwlabel:`SYNC`.  Tap to perform a one-off beatsync. Press and hold to "
+"enable Sync Lock."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:158
+msgid "Enables the :hwlabel:`LOOP` layer for each individual deck."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:160
+msgid "Enables the :hwlabel:`HOTCUE` layer for each deck."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:165
+msgid "Enables the :hwlabel:`HOTCUE` layer for Deck 1."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:166
+msgid "Enables the :hwlabel:`HOTCUE` layer for Deck 2."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:167
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:168
+msgid "Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:167
+msgid ""
+"Enables the :hwlabel:`LIBRARY` layer. Hold :hwlabel:`SHIFT` and press to "
+"enable the :hwlabel:`MAIN GAIN` layer."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:172
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:210
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:287
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:316
+msgid "Encoder"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:172
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:210
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:287
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:316
+msgid "Action"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:174
+msgid "Deck 1 Jog"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:174
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:178
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:181
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:184
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:212
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:216
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:289
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:292
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:296
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:318
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:320
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:324
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:326
+msgid "Spin"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:174
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:184
+msgid ""
+"Jog forward and back, or nudge faster or slower if the track is playing."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:175
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:185
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:213
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:217
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:290
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:293
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:297
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:321
+msgid ":hwlabel:`SHIFT` + Spin"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:175
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:185
+msgid "Seek forward a large distance in the track."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:176
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:179
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:182
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:186
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:214
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:218
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:291
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:294
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:298
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:319
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:322
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:325
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:327
+msgid "Press"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:176
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:186
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:214
+msgid ""
+"Creates a loop if not in a loop, or reloop toggle if the playhead is in the "
+"loop."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:177
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:180
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:183
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:187
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:215
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:219
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:295
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:323
+msgid ":hwlabel:`SHIFT` + Press"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:177
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:187
+msgid "Does a beatloop roll."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:178
+msgid "Deck 1 Pregain"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:178
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:181
+msgid "Adjust track pregain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:179
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:182
+msgid "Toggle :term:`pfl`."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:180
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:183
+msgid "Reset track pregain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:181
+msgid "Deck 2 Pregain"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:184
+msgid "Deck 2 Jog"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:190
+msgid "If the track is clipping, the LED ring will flash bright red."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:193
+msgid "Loop Layers"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`LOOP 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`BEATJUMP 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`LOOP 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`BEATJUMP 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:202
+msgid ""
+"The :hwlabel:`LOOP` layer can be activated separately per-deck. When active,"
+" the two encoders for the activated deck will turn green."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:205
+msgid ""
+"In the table below, the Left encoder for Deck 1 is above its pitch slider, "
+"Deck 2's is above its level slider. The Left encoders control loops, and the"
+" Right encoders control beatjumping."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:212
+msgid "Left Encoder"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:212
+msgid "Adjusts loop size."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:213
+msgid "Moves the loop by the Beatjump amount."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:215
+msgid "Reloop toggle."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:216
+msgid "Right Encoder"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:216
+msgid "Adjust beatjump size."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:217
+msgid "Jump the playhead forward / backward."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:218
+msgid "Activate a beatloop roll."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:219
+msgid "Reloop and stop."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:223
+msgid "Hotcue Layers"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUE 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUE 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUE 3`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HOTCUE 4`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:233
+msgid ""
+"The :hwlabel:`HOTCUE` layers are also activated separately per deck.  When "
+"activated, the four buttons to the right of :hwlabel:`PLAY` and "
+":hwlabel:`CUE` for each deck become hotcue buttons. Pressing the hotcue "
+"button activates the hotcue.  Hold :hwlabel:`SHIFT` and press to clear the "
+"hotcue."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:239
+msgid "Sampler Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 3`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 4`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 5`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 6`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 7`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SAMPLE 8`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:249
+msgid ""
+"When activated, all 8 buttons next to both sets of :hwlabel:`PLAY` and "
+":hwlabel:`CUE` buttons become sampler buttons.  Press any button to activate"
+" that sample.  Hold :hwlabel:`SHIFT` and press to eject the sample."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:254
+msgid "FX Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`FX META 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`FX META 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`FX META 3`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`FX SUPER`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:264
+msgid ""
+"When FX layer is activated, the four encoders control Effect Unit 1. The "
+"left three encoders adjust the :hwlabel:`META` knobs for the three effects "
+"in the unit, and the rightmost encoder controls the :hwlabel:`SUPER` knob "
+"for the whole unit. In FX mode, the encoders turn blue."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:269
+msgid ""
+"Pressing an encoder enables or disables the effect. Pressing the rightmost "
+"encoder toggles the whole unit."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:273
+msgid "Library Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`VERTICAL FOCUS`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SELECT 1`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`SELECT 2`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HORIZONTAL FOCUS`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:283
+msgid ""
+"When the Library layer is activated, the four encoders enable browsing of "
+"the library. In Library mode, the encoders turn purple."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:289
+msgid "Library Focus"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:289
+msgid "Move library focus forward / backward."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:290
+msgid ""
+"Seek forward a large distance in the track in Deck 1. This is useful for "
+"previewing tracks without leaving the library layer."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:291
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:298
+msgid ""
+"Activates \"Go To Item\", which opens or closes the tree view in the side "
+"panel."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:292
+msgid "Encoders 2 and 3"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:292
+msgid "Scroll"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:292
+msgid "Scrolls up and down."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:293
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:296
+msgid "Scrolls horizontally."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:294
+msgid ""
+"Load the selected track in either Deck 1 or 2, depending which knob you're "
+"using."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:295
+msgid "Ejects the currently loaded track."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:296
+msgid "Horizontal Focus"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:297
+msgid ""
+"Seek forward a large distance in the track in Deck 2. This is useful for "
+"previewing tracks without leaving the library layer."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:302
+msgid "Main Gain Layer"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`MAIN BALANCE`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`MAIN GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HEAD GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:1
+msgid ":hwlabel:`HEAD MIX`"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:312
+msgid ""
+"The main gain layer is useful for adjusting main and headphone output "
+"levels. When active, the encoders turn light green and light yellow."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:318
+msgid "Main Balance"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:318
+msgid "Adjusts main balance."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:319
+msgid "Resets main balance."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:320
+msgid "Main Gain"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:320
+msgid "Adjusts main gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:321
+msgid "Adjusts booth gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:322
+msgid "Resets main gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:323
+msgid "Resets booth gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:324
+msgid "Headphone Gain"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:324
+msgid "Adjusts headphone gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:325
+msgid "Resets headphone gain."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:326
+msgid "Headphone Mix"
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:326
+msgid "Adjusts headphone mix."
+msgstr ""
+
+#: ../../hardware/controllers/yaeltex_minimixxx.rst:327
+msgid "Resets headphone mix."
+msgstr ""

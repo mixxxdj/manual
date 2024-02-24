@@ -53,11 +53,11 @@ Group                 Figure           Control                                  
 3 - MIXER             6                EQ LOW                                         Controls deck’s equalizer/filter low frequencies
 3 - MIXER             7                :hwlabel:`CUE`                                 Toggles PFL/Cue (headphones) for specific deck
 3 - MIXER             7                :hwlabel:`SHIFT`  :hwlabel:`CUE`               BPM Tab function for specific deck
-3 - MIXER             8                :hwlabel:`MASTER LEVEL`                        Controls the master output volume
-3 - MIXER             9                :hwlabel:`MASTER CUE`                          Toggles master cue
+3 - MIXER             8                :hwlabel:`MASTER LEVEL`                        Controls the main output volume
+3 - MIXER             9                :hwlabel:`MASTER CUE`                          Toggles main cue
 3 - MIXER             9                :hwlabel:`SHIFT`  :hwlabel:`MASTER CUE`        Toggles split cue (headphones)
 3 - MIXER             10               Crossfader Assign                              Crossfader assignment - deck to crossfader (left (A), right (B) or center (THRU))
-3 - MIXER             13               :hwlabel:`HEADPHONES MIX`                      Controls headphone’s audio source (cue, master)
+3 - MIXER             13               :hwlabel:`HEADPHONES MIX`                      Controls headphone’s audio source (cue, main)
 3 - MIXER             14               SAMPLER VOLUME                                 Controls volume of all available Sampler decks
 3 - MIXER             15               :hwlabel:`BOOTH MONITOR LEVEL`                 Controls the booth output volume
 4 - FRONT PANEL       1                Crossfader curve                               Controls Mixxx crossfader curve

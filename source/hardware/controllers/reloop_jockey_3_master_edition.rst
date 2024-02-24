@@ -3,7 +3,7 @@ Reloop Jockey 3 Master Edition
 
 The Reloop Jockey 3 Master Edition is a 2 Channel Controller with the option to
 control 4 Channels. It has a built-in sound card with 6 channels in and 4
-channels out. It features both balanced 1/4" and unbalanced RCA master outputs
+channels out. It features both balanced 1/4" and unbalanced RCA main outputs
 plus RCA booth outputs with an independent volume control. It can also be used
 as a stand-alone mixer, or used to mix an analog source with music files in
 Mixxx. This device requires a power adapter in addition to the USB cable.
@@ -32,7 +32,7 @@ Set the Input 1 and Input 2 switches on the front side of the Jockey 3 ME to SW.
 Mixxx Sound Hardware Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Master output: channels 1-2
+-  Main output: channels 1-2
 -  Headphone output: channels 3-4
 -  Auxiliary or vinyl input 1: channels 1-2
 -  Auxiliary or vinyl input 2: channels 3-4
@@ -58,7 +58,7 @@ Mixer Section
    change anything on screen. Use these but :ref:`don't change the software knobs on screen in
    Mixxx <interface-gain-knob>`.
 -  **Headphones**: play deck on headphone output
--  **Cuemix**: Fade between PFL and master output on headphones
+-  **Cuemix**: Fade between PFL and main output on headphones
 -  **Vertical faders**: deck volume
 -  **Level meter LEDs**: show the level of the deck
 -  **Crossfader**: fade between decks
@@ -72,7 +72,7 @@ Transport Section
 -  **Cue**: behavior depends on :ref:`cue mode set in Mixxx preferences <interface-cue-modes>`.
    With shift, it does not work as labeled; it toggles quantize.
 -  **Cup**: Like Cue, but it plays only after releasing the button.
--  **Sync**: toggle master sync. With shift, it does not work as labeled; it
+-  **Sync**: toggle sync lock. With shift, it does not work as labeled; it
    toggles microphone talkover.
 
 Jogwheels
@@ -117,7 +117,7 @@ Other controls
 -  **Filter**: turn to apply a highpass or lowpass filter. On Deck A, press
    Shift and turn Filter to adjust the Gain of the Microphone
 -  **Pan**: On Deck A, turn to fade between the left and right speakers on the
-   master output. (Balance)
+   main output. (Balance)
 -  **< Beat**: Beatjump by one beat back. With shift, moves the beatgrid lines
    further from each other (lower BPM by 0.01)
 -  **Beat >**: Beatjump by one beat forward. With shift, moves beatgrid lines

@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Евгений Попов, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.3\n"
+"Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 11:21+0200\n"
-"PO-Revision-Date: 2022-08-28 09:42+0000\n"
-"Last-Translator: Евгений Попов, 2023\n"
-"Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
+"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7664/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -230,8 +229,8 @@ msgid ""
 "experienced DJs get creative:"
 msgstr ""
 "Mixxx - это `свободное <https://www.gnu.org/philosophy/free-sw.html>`_ "
-"программное обеспечение для диджеев под Windows, macOS и Linux. Он прост в "
-"использовании, даже если вы никогда не занимались диджеингом. Mixxx "
+"программное обеспечение для диджеев под Windows, macOS and Linux. Он прост в"
+" использовании, даже если вы никогда не занимались диджеингом. Mixxx "
 "предлагает множество функций, которые помогут новичкам начать работу, а "
 "опытным диджеям помогут проявить творческий подход:"
 
@@ -240,8 +239,8 @@ msgid "beat, tempo, and musical key detection"
 msgstr "Определение темпа в автоматическом и ручном режимах"
 
 #: ../../index.rst:19
-msgid "master sync"
-msgstr "Синхронизация темпа"
+msgid "sync lock"
+msgstr ""
 
 #: ../../index.rst:20
 msgid "hotcues"

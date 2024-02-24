@@ -53,20 +53,20 @@ signals. They can be used for timecode signals (e.g. timecode vinyl), as
 the VMS2 also features built-in phono preamps. FIXME I did not try that,
 please verify!
 
-The microphone input is mixed directly into the master output signal of
+The microphone input is mixed directly into the main output signal of
 the VMS2 in hardware and cannot be captured through software. If you
 want to record voice over using the Mixxx software, you will need a
 different solution. You can use a separate microphone attached to the
 computer, but that signal will not be routed to the VMS2 and therefore
-not be on the VMS2 master output (but in the Mixxx recording from the
-software master/record output).
+not be on the VMS2 main output (but in the Mixxx recording from the
+software main/record output).
 
 Mixxx’s Deck 1/2 outputs are affected by the Mixxx software EQs.
 However, the VMS2’s volume faders and crossfader (as well as the
 headphone buttons) control the VMS2’s hardware mixer and do not affect
 Mixxx’s Deck 1 and Deck 2 output signals. Therefore, a recording using
 the Mixxx software will sound different from what is played through the
-VMS2 master output, as the crossfader curve and signal mixing are not
+VMS2 main output, as the crossfader curve and signal mixing are not
 the same in hardware and software. If you require a recording that
 captures exactly what the audience will hear, use a separate soundcard
 and recording software to record from the VMS2 booth output.
@@ -85,10 +85,10 @@ VMS2 Control   Mixxx Control
 Crossfader     Crossfader
 Volume Fader   Volume Fader
 Cue (PFL)      PFL
-Cue Mix        Cue Mix (PFL / Master)
+Cue Mix        Cue Mix (PFL / Main)
 Headphone Gain Headphone Gain
 Channel Gain   Channel Gain
-Master Gain    Master Gain
+Master Gain    Main Gain
 ============== ======================
 
 As noted in the `#Audio Setup <#Audio%20Setup>`__ section, these control

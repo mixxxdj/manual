@@ -85,12 +85,12 @@ Mapping Description
     • OUT: Press this to set a “Loop Out” point where your loop will end, and enable it (LED ON).
     • RELOOP: If the Deck is already looping when you press it (LED ON), exit loop. If not, jump to the start of the loop and enable it. (If no loop is set, nothing will happen.)
     **\*Pressing DELETE** before RELOOP: Clear Loop.
-29. **OUTPUT 1** (RCA): This stereo RCA connection will output the Master Mix from your computer. Please use a stereo RCA cable to connect this output to a powered speaker or amplifier system.
+29. **OUTPUT 1** (RCA): This stereo RCA connection will output the main mix from your computer. Please use a stereo RCA cable to connect this output to a powered speaker or amplifier system.
 30. **OUTPUT 2** (RCA): This stereo RCA connection will output the Cue Channel from your computer for monitoring purposes. Please note that the Cue Channel is also output through the HEADPHONES output
     on the front panel.
 31. **HEADPHONES:** This stereo 1/4" output will output the signal being routed to the Cue Channel.
-32. **MIC GAIN:** This knob controls the microphone level being sent to the Master Mix.
-33. **MIC THROUGH:** This is a 1/4" microphone input. The signal from this input will be sent directly to the Master Mix.
+32. **MIC GAIN:** This knob controls the microphone level being sent to the main mix.
+33. **MIC THROUGH:** This is a 1/4" microphone input. The signal from this input will be sent directly to the main mix.
 
 Known problems
 --------------

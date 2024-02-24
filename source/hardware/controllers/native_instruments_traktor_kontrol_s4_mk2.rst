@@ -40,7 +40,7 @@ Mapping Description
 -------------------
 
 Push and hold the :hwlabel:`SYNC` button to “lock” sync on for all decks you want to remain in sync.
-Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable :ref:`Sync Lock <master-sync>` for details.
+Push :hwlabel:`SHIFT` + :hwlabel:`SYNC` to enable :ref:`Sync Lock <sync-lock>` for details.
 
 Mixxx does not have remix decks, so the four remix slot buttons control the samplers.
 There are some more bonus actions that can be accessed by holding :hwlabel:`SHIFT` and pressing certain buttons.
@@ -62,9 +62,9 @@ Control                                             Description
 
 :hwlabel:`GAIN`, effects routing, equalizer high/mid/low, and :hwlabel:`CUE` (headphones) behave as labeled.
 
-The Master Volume knob on the S4 controls the volume of the S4’s master output in hardware, so it does not affect the software master gain knob in Mixxx.
+The Master Volume knob on the S4 controls the volume of the S4’s main output in hardware, so it does not affect the software main gain knob in Mixxx.
 Peak display is only generated from software, however.
-So if you see or hear clipping, lower the gain of the playing decks; adjusting the master volume knob on the S4 will not help.
+So if you see or hear clipping, lower the gain of the playing decks; adjusting the main volume knob on the S4 will not help.
 
 Decks
 ~~~~~

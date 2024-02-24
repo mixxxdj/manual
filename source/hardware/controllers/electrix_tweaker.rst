@@ -8,9 +8,9 @@ push encoders with LED rings into a relatively small package. It does
 not have a built in sound card, so it requires a separate sound card or
 splitter cable (although it does include 5-pin MIDI in and out ports).
 
--  `Manufacturer’s website <http://electrixpro.com/>`__
+-  `Manufacturer’s website <https://electrixpro.com/>`__
 -  `Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-mapping/15071>`__
--  `Manufacturer’s manual <http://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
+-  `Manufacturer’s manual <https://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__
 
 .. versionadded:: 2.0
 
@@ -84,10 +84,10 @@ pressing the encoders 7-12 resets them to center.
 5.  Expand/collapse selected item in left library pane
 6.  Scroll through library quickly. Push to load selected track into first stopped deck.
 7.  Headphone gain
-8.  Headphone cue/master mix in headphones. Press to toggle split cue mode. The blue LED below encoder is lit when split cue mode is enabled.
+8.  Headphone cue/main mix in headphones. Press to toggle split cue mode. The blue LED below encoder is lit when split cue mode is enabled.
 9.  Channel gain for active deck on left side
-10.  Master output gain
-11.  Master output balance
+10.  Main output gain
+11.  Main output balance
 12.  Channel gain for active deck on right side
 13.  Eject sampler
 14.  Delete hotcue

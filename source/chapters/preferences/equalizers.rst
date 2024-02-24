@@ -40,8 +40,8 @@ Equalizers
   range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
   The remaining treble range is controlled by the high knob.
 
-* **Master EQ**: This section allows you to setup an EQ that affects the master
-  output.
+* **Master EQ**: This section allows you to setup an EQ that affects the
+  term:`main output`.
 
 
 Mixing Equalizers
