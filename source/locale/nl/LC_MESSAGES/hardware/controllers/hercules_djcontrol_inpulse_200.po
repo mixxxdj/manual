@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
 "PO-Revision-Date: 2022-09-05 06:01+0000\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,9 @@ msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_200.rst:6
 msgid ""
-"`Manufacturer’s product page <https://www.hercules.com/en-"
-"us/product/djcontrolinpulse200///>`__"
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20220316132959/https://www.hercules.com/en-"
+"us/product/djcontrolinpulse200/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_200.rst:7

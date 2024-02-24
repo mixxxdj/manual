@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 08:43+0200\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -409,14 +409,14 @@ msgstr ""
 #: ../../chapters/advanced_topics.rst:107
 msgid ""
 "For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-"
-"Scripting>`_ and "
-"`<https://github.com/mixxxdj/mixxx/wiki/hid_mapping_format>`_ , as well as "
-"the `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-"
-"JS>`_ which greatly simplifies mapping, for example effect units and complex"
-" behaviour like switching deck layers or pad grid modes. Note that this is "
-"the preferred way of mapping if intended your mapping to be included in "
-"Mixxx since Components-JS significantly reduces effort for both mapping and "
-"reviewing Pull Requests."
+"Scripting>`_ and `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_ , as"
+" well as the `Comonents-JS library "
+"<https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_ which greatly "
+"simplifies mapping, for example effect units and complex behaviour like "
+"switching deck layers or pad grid modes. Note that this is the preferred way"
+" of mapping if intended your mapping to be included in Mixxx since "
+"Components-JS significantly reduces effort for both mapping and reviewing "
+"Pull Requests."
 msgstr ""
 
 #: ../../chapters/advanced_topics.rst:118
