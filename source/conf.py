@@ -454,6 +454,7 @@ linkcheck_ignore = [
     "https://www.pioneerdj.com/en/support/software/controller/*",
     "https://support.pioneerdj.com/hc/sections/*",
     "https://www.roland.com/global/products/dj-505/*",
+    "https://web.archive.org/web/*",
 ]
 
 # Avoid freezing during linkcheck
