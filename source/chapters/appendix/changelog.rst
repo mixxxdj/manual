@@ -799,7 +799,6 @@ Cover Art
   `#12300 <https://github.com/mixxxdj/mixxx/pull/12300>`__
   `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
   `#12532 <https://github.com/mixxxdj/mixxx/issues/12532>`__
-  `#12543 <https://github.com/mixxxdj/mixxx/pull/12543>`__
 * CoverArtCache refactoring + Fix scrolling lag after updating Mixxx  `#12009 <https://github.com/mixxxdj/mixxx/pull/12009>`__
 
 Effects
