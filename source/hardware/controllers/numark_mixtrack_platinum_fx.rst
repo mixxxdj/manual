@@ -1,3 +1,5 @@
+.. Credit to PopHippy for creating the orignal PDF.
+
 Numark Mixtrack Platinum FX
 ========================
 
