@@ -6,17 +6,25 @@ Numark Mixtrack Platinum FX
 
 Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels with built in hi-res displays and 16-multifunctional performance pads.
 
+   Firmware
+
+   The mapping requires the following Soft/Firmware for all enabled
+   features to work for Mixxx 2.4
+-  `Firmware Update v1.10 MAC <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Mac.zip>`__
+-  `Firmware Update v1.10 WIN <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Win.zip>`__
+- Linux user need to install firmware using Windows or MAC.
 
 
 Overview
 --------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.svg
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Numark Mixtrack Playinum FX (schematic view)
    :figclass: pretty-figures
+
 ---------------
 
    Mapping Manual for NUMARK MIXTRACK PLATINUM FX
@@ -60,12 +68,14 @@ Index
    to use the controller for broadcasting or recording, a separatewith a
    microphone input is suggested.
 
-   Firmware
-
-   The mapping requires the following Soft/Firmware for all enabled
-   features.
-
 Control Mapping
+
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack Playinum FX (schematic view)
+   :figclass: pretty-figures
 
 
 Numark Mixtrack Platinum FX (Controls Condensed)
@@ -791,7 +801,7 @@ Fader Cuts Mode & Layers
 |                                   |    is only accessible by setting  |
 |                                   |    a code variable                |
 |                                   |    M                              |
-|                                   | ixtrackPlatinumFX.tapChangesTempo |
+|                                   |MixtrackPlatinumFX.tapChangesTempo |
 |                                   |    to false, recommended only for |
 |                                   |    advanced users                 |
 +===================================+===================================+
@@ -843,7 +853,3 @@ Fader Cuts Mode & Layers
    Further to the Normal Pad Modes, 2 additional layers of
    functionality, SHIFT & ALTERNATE is also provided as shown in matrix
    below.
-
-   NOTES
-
-MIXXX IS AWESOME!!!!
