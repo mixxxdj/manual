@@ -3693,18 +3693,9 @@ Controls
    :range: integer, read-only
 
 
-.. mixxx:control:: [EffectRack1],clear
-                   [EqualizerRack1],clear
-                   [QuickEffectRack1],clear
-
-   Clear the Effect Rack
-
-   :range: binary
-
-
-.. mixxx:control:: [EffectRack1_EffectUnitN],chain_selector
-                   [EqualizerRack1_[ChannelI]],chain_selector
-                   [QuickEffectRack1_[ChannelI]],chain_selector
+.. mixxx:control:: [EffectRack1_EffectUnitN],chain_preset_selector
+                   [EqualizerRack1_[ChannelI]],chain_preset_selector
+                   [QuickEffectRack1_[ChannelI]],chain_preset_selector
 
    Select EffectChain preset. \> 0 goes one forward; \< 0 goes one backward.
 
@@ -3777,6 +3768,16 @@ Controls
    :range: binary, read-only
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN],loaded_chain_preset
+                   [EqualizerRack1_[ChannelI]],loaded_chain_preset
+                   [QuickEffectRack1_[ChannelI]],loaded_chain_preset
+
+   0-based index of the currently loaded EffectChain preset. `0` is the empty/passthrough
+   preset, `-1` indicates an unsaved preset (default state of `[EffectRack1_EffectUnitN]`).
+
+   :range: integer, -1 .. [:mixxx:coref:`num_chain_presets<[EffectRack1_EffectUnitN],num_chain_presets>` - 1]
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN],mix
                    [EqualizerRack1_[ChannelI]],mix
                    [QuickEffectRack1_[ChannelI]],mix
@@ -3788,13 +3789,23 @@ Controls
    :range: 0.0..1.0
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
-                   [EqualizerRack1_[ChannelI]],next_chain
-                   [QuickEffectRack1_[ChannelI]],next_chain
+.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain_preset
+                   [EqualizerRack1_[ChannelI]],next_chain_preset
+                   [QuickEffectRack1_[ChannelI]],next_chain_preset
 
    Cycle to the next EffectChain preset after the currently loaded preset.
 
    :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],num_chain_presets
+                   [EqualizerRack1_[ChannelI]],num_chain_presets
+                   [QuickEffectRack1_[ChannelI]],num_chain_presets
+
+   The number of effect chain presets available in this EffectUnit, including the
+   empty/passthrough preset "\-\-\-".
+
+   :range: integer, read-only, >=1
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effectslots
@@ -3806,9 +3817,9 @@ Controls
    :range: integer, read-only
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain
-                   [EqualizerRack1_[ChannelI]],prev_chain
-                   [QuickEffectRack1_[ChannelI]],prev_chain
+.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain_preset
+                   [EqualizerRack1_[ChannelI]],prev_chain_preset
+                   [QuickEffectRack1_[ChannelI]],prev_chain_preset
 
    Cycle to the previous EffectChain preset before the currently loaded preset.
 
@@ -3878,6 +3889,16 @@ Controls
    Whether an Effect is loaded into this EffectSlot
 
    :range: binary, read-only
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],loaded_effect
+                   [EqualizerRack1_[ChannelI]_Effect1],loaded_effect
+                   [QuickEffectRack1_[ChannelI]_Effect1],loaded_effect
+
+   0-based index of the currently loaded effect preset, including the
+   empty/passthrough preset "\-\-\-".
+
+   :range: integer, 0 .. [:mixxx:coref:`num_effectsavailable<[Master],num_effectsavailable>` - 1]
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],next_effect
@@ -4551,6 +4572,41 @@ In the meantime, skins and controller mappings that still use them will keep wor
        Use :mixxx:coref:`[Library],MoveUp` instead.
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
+                   [EqualizerRack1_[ChannelI]],next_chain
+                   [QuickEffectRack1_[ChannelI]],next_chain
+    :range: binary
+
+    Cycle to the next EffectChain preset after the currently loaded preset.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],next_chain_preset` instead.
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain
+                   [EqualizerRack1_[ChannelI]],prev_chain
+                   [QuickEffectRack1_[ChannelI]],prev_chain
+    :range: binary
+
+    Cycle to the next EffectChain preset after the currently loaded preset.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],prev_chain_preset` instead.
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],chain_selector
+                   [EqualizerRack1_[ChannelI]],chain_selector
+                   [QuickEffectRack1_[ChannelI]],chain_selector
+    :range: +1/-1
+
+    Select EffectChain preset. \> 0 goes one forward; \< 0 goes one backward.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],chain_preset_selector` instead.
+
+
+
+
 Removed controls
 ~~~~~~~~~~~~~~~~
 
@@ -4632,4 +4688,15 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
     Adjusts the wavelength of the flange effect in microseconds
 
     .. deprecated:: 2.0.0
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
+
+
+.. mixxx:control:: [EffectRack1],clear
+                   [EqualizerRack1],clear
+                   [QuickEffectRack1],clear
+    :range: binary
+
+    Clear the Effect Rack
+
+    .. deprecated:: 2.4.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
