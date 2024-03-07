@@ -68,8 +68,9 @@ Browser
 Control                                                          Function
 ===============================================================  ==========================================
 :hwlabel:`BROWSER` encoder (turn)                                Move up/down list.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (turn)             Scroll up/down list.
 :hwlabel:`BROWSER` encoder (press)                               Switch focus between list and file view.
-:hwlabel:`SHIFT` + Encoder (press)                               Maximize/Minimize library view.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (press)            Maximize/Minimize library view.
 :hwlabel:`ASSISTANT` button                                      Toggle AutoDJ (be sure a playlist was created for AutoDJ before activating this function).
 ===============================================================  ==========================================
 
