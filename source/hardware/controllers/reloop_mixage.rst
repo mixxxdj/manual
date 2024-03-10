@@ -92,7 +92,7 @@ User-adjustable script settings
 
 The `Reloop-Mixage.scripts.js` controller script provides the following settings:
 
--  Scratch behaviour can be changed to a more regular, turntable-like mode by changing the setting `scratchByWheelTouch` to `true`. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller in the MK1 version).
+-  `scratchByWheelTouch` (default `false`): change to `true` to get a more regular, turntable-like mode, i.e. scratch by touching the jog wheel instead of having to toggle the disc button. Note that the jog wheels are not very sensitive to touch though (sensitivity can be adjusted on the back of the controller in the MK1 version).
 -  Scratch speed can be adjusted by changing the setting `scratchTicksPerRevolution`. Smaller values "scratch more" of the track, larger values "scratch less".
 -  Jog wheel scroll speed can be adjusted by changing the setting `jogWheelScrollSpeed`. The higher, the faster.
 
