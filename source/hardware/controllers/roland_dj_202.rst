@@ -4,8 +4,6 @@ Roland DJ-202
 .. figure:: https://static.roland.com/assets/images/products/gallery/dj-202_t_gal.jpg
    :alt: https://static.roland.com/assets/images/products/gallery/dj-202_t_gal.jpg
 
-   https://static.roland.com/assets/images/products/gallery/dj-202_t_gal.jpg
-
 -  `Manufacturer’s product
    page <https://www.roland.com/global/products/dj-202/>`__
 -  `Forum
@@ -30,7 +28,7 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
    The DJ-202 is a USB class compliant MIDI and audio device, so it’s
    plug-and-play on Linux. 
 
-*Enabling generic mode*
+**Enabling generic mode**
    If the device is
    not properly detected as a MIDI device, you need to enable generic
    mode in the system settings:
@@ -43,9 +41,9 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
 4. Press the blinking start/stop button
 5. Wait until all pads light up, then disconnect USB cable 
 
-*Mapping*
+**Mapping**
    mapping is currently being developed, see
-   `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-12967>`__
+   `Github <https://github.com/evoixmr/mixxx/tree/2.4-Roland-DJ-202>`__
 
 Pitch control
 -------------
@@ -61,12 +59,22 @@ Jog wheel
 ``Shift + jog`` Strip search
 =============== ============
 
-### FX \| \| \| \|-|-\| \| ``FX1-3`` (long) \| Focus FX1-3 \| \|
-``FX1-3`` (short) \| Toggle effect 1-3 on/off \| \| ``Shift + FX tap``
-\| Cycle focused effect forward/backward\| \| ``FX level`` \| Set FX
-meta depth \| \| ``Shift + FX-level`` \| Set effects rack dry/wet \| \|
-``Shift + FX1-3`` \| Routing mode - toggle sending respective deck
-output to fx1 on/off, fx2 on/off, headphones on/off \|
+**FX**
+
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``FX1-3`` (long)                  | Focus FX1-3                                                                                       |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``FX1-3`` (short)                 | Toggle effect 1-3 on/off                                                                          |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``Shift + FX tap``                | Cycle focused effect forward/backward                                                             |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``FX level``                      | Set FX meta depth                                                                                 |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``Shift + FX-level``              | Set effects rack dry/wet                                                                          |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+| ``Shift + FX1-3``                 | Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off |
++-----------------------------------+---------------------------------------------------------------------------------------------------+
+
 
 General
 -------
