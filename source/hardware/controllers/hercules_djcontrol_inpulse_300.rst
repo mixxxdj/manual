@@ -70,7 +70,7 @@ Loop :hwlabel:`IN` button                                        Enable Beatloop
 :hwlabel:`SHIFT` + Loop :hwlabel:`IN` button                     Halve the current loop size.
 Loop :hwlabel:`OUT` button                                       Disable Beatloop.
 :hwlabel:`SHIFT` + Loop :hwlabel:`OUT` button                    Double the current loop size.
-Beat Align LED                                                   Track end warning (make sure :hwlabel:`BEATMATCH GUIDE` is on for this to work).
+:hwlabel:`BEATMATCH GUIDE`                                       Toggles beatmatch guide LEDs.
 :hwlabel:`SLIP`                                                  Toggles splip mode.
 :hwlabel:`Q`                                                     Toggles quantize.
 :hwlabel:`SHIFT` + :hwlabel:`Q`                                  Adjusts beatgrid so closest beat is aligned with the current playposition.
@@ -109,6 +109,30 @@ Control                                                          Function
 ===============================================================  ==========================================
 Pad 1 - 8                                                        Set and trigger :term:`hotcue` 1 - 8
 :hwlabel:`SHIFT` + Pad 1 - 8                                     Delete :term:`hotcue` 1 - 8.
+===============================================================  ==========================================
+
+Toneplay Mode
+^^^^^^^^^^^^^
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Pad 1                                                            Jump to the last used hot cue (or cue point if no hotcue is set) and play at original pitch.
+Pad 2                                                            Jump to the last used hot cue/cue point and play at +1 semitones.
+Pad 3                                                            Jump to the last used hot cue/cue point and play at +2 semitones.
+Pad 4                                                            Jump to the last used hot cue/cue point and play at +3 semitones.
+Pad 5                                                            Jump to the last used hot cue/cue point and play at -4 semitones.
+Pad 6                                                            Jump to the last used hot cue/cue point and play at -3 semitones.
+Pad 7                                                            Jump to the last used hot cue/cue point and play at -2 semitones.
+Pad 8                                                            Jump to the last used hot cue/cue point and play at -1 semitones.
+:hwlabel:`SHIFT` + Pad 1                                         Reset key.
+:hwlabel:`SHIFT` + Pad 2                                         Sync key.
+:hwlabel:`SHIFT` + Pad 3                                         Pitch the track down by 10 cents.
+:hwlabel:`SHIFT` + Pad 4                                         Pitch the track up by 10 cents.
+:hwlabel:`SHIFT` + Pad 5                                         Shift the toneplay keyboard down by 1 semitone.
+:hwlabel:`SHIFT` + Pad 6                                         Shift the toneplay keyboard up by 1 semitone.
+:hwlabel:`SHIFT` + Pad 7                                         Pitch the track down by 1 semitone.
+:hwlabel:`SHIFT` + Pad 8                                         Pitch the track up by 1 semitone.
 ===============================================================  ==========================================
 
 Roll Mode
@@ -151,6 +175,8 @@ Control                                                          Function
 ===============================================================  ==========================================
 Pad 1 - 8 (deck A)                                               Trigger Sampler 1 - 8.
 Pad 1 - 8 (deck B)                                               Trigger Sampler 9 - 16.
+:hwlabel:`SHIFT` + Pad 1 - 8 (deck A)                            Stop Sampler 1 - 8.
+:hwlabel:`SHIFT` + Pad 1 - 8 (deck B)                            Stop Sampler 9 - 16.
 ===============================================================  ==========================================
 
 Beatjump Mode
@@ -165,8 +191,19 @@ Pad 5 - 6                                                        Jump backward/f
 Pad 7 - 8                                                        Jump backward/forward by 8 beats.
 ===============================================================  ==========================================
 
+Slicer/Slicer Loop Mode
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Pressing Slicer or Slicer Loop creates a 4-bar slicer section (length configurable in script). The slicer 
+section is cut into 8 slices, and pressing pad 1-8 will create a loop on slice 1-8. Pressing two pads
+creates a loop between those two slices. Pressing three or more pads will create a loop between the first
+and last pad. For example, pressing pads 2, 5, and 7 creates a loop between slices 2 and 7.
+
+In Slicer mode, the slicer section moves throughout the track. In Slicer Loop mode, the slicer section does not.
+
 Known issues
 ------------
+- The slicer section does not move backwards with the play indicator when scratching with the jogwheel.
 
 Controls not included in this mapping
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -174,6 +211,4 @@ Controls not included in this mapping
 -  Master knob (Hardware control)
 -  Headphone knob (Hardware control)
 -  Master buttons (Hardware control)
--  Beatmatch guide (Hardware control)
 -  PADS: Slicer/Slicer Loop
--  PADS: Toneplay
