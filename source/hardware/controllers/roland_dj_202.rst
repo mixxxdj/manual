@@ -1,13 +1,17 @@
 Roland DJ-202
 =============
 
-.. figure:: https://static.roland.com/assets/images/products/gallery/dj-202_t_gal.jpg
-   :alt: https://static.roland.com/assets/images/products/gallery/dj-202_t_gal.jpg
 
--  `Manufacturer’s product
-   page <https://www.roland.com/global/products/dj-202/>`__
--  `Forum
-   thread <https://mixxx.discourse.group/t/mapping-the-roland-rj-202/17099#p37423>`__
+.. figure:: ../../_static/controllers/roland_dj_202.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
+
+
+-  `Manufacturer’s product page <https://www.roland.com/global/products/dj-202/>`__
+-  `Forum thread <https://mixxx.discourse.group/t/mapping-the-roland-rj-202/17099#p37423>`__
    
 
    The Roland DJ-202 is an all-in-one USB MIDI controller with a built
