@@ -184,6 +184,8 @@ Loop mode
 ---------
 
 ==================== ============================================
+Control              Function
+==================== ============================================
 ``Param+/-``         Move beatloop forward/backward
 ``Shift + Param+/-`` Double/halve beatloop size
 ``Pad 1-4``          Toggle beatloop of length 1,2,4,8
@@ -193,6 +195,8 @@ Loop mode
 Roll mode (Press Shift + LOOP to enter Roll mode)
 -------------------------------------------------
 
+==================== ==========================================
+Control              Function
 ==================== ==========================================
 ``Pad 1-4``          Toggle beatrool of lenght 1, 1/2, 1/4, 1/8
 ``Pad 5-6``          Define loop-in and loop-out
@@ -204,6 +208,8 @@ Sampler mode
 ------------
 
 ========================= =============================
+Control                   Function
+========================= =============================
 ``Pad 1-8 (left deck)``   Play samplers 1-8 from start
 ``Pad 9-16 (right deck)`` Play samplers 9-16 from start
 ========================= =============================
@@ -212,7 +218,7 @@ Sequencer mode & Pattern mode
 -----------------------------
 
 ========================================================
-These are special features of the controller that do not
-interact directly with Mixxx. You are welcome to read 
-about them in the manufacturer's official manual.
+These are special features of the controller that do not interact directly with Mixxx. You are welcome to read about them in the manufacturer's official manual.
 ========================================================
+
+.. Authors - Sébastien Guyot (BSDguy389), Jhade Williamson (evoixmr)
