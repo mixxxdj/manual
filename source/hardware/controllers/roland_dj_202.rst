@@ -43,7 +43,7 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
 
 **Mapping**
    mapping is currently being developed, see
-   `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`
+   `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`__
 
 Pitch control
 -------------
