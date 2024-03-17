@@ -14,7 +14,7 @@ Roland DJ-202
 -  `Forum thread <https://mixxx.discourse.group/t/mapping-the-roland-rj-202/17099#p37423>`__
    
 
-   The Roland DJ-202 is an all-in-one USB MIDI controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks. As a special feature it’s got an in-built sequencer with 8 sounds from the TR-808 and the TR-909 drum machines (TR-606 and TR-707 are available via firmware update). 
+   The Roland DJ-202 is an all-in-one USB MIDI controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks. As a special feature it’s got an in-built sequencer with 8 sounds from the TR-808 and the TR-909 drum machines (TR-606 and TR-707 are available via firmware update).
    
 
 Drivers
@@ -169,7 +169,7 @@ Roll mode (Press Shift + LOOP to enter Roll mode)
 ==================== ==========================================
 Control              Function
 ==================== ==========================================
-``Pad 1-4``          Toggle beatrool of lenght 1, 1/2, 1/4, 1/8
+``Pad 1-4``          Toggle beatrool of length 1, 1/2, 1/4, 1/8
 ``Pad 5-6``          Define loop-in and loop-out
 ``Pad 7``            Loop exit
 ``Pad 8``            Loop ON/OFF
