@@ -129,11 +129,10 @@ Hot cue mode
 | stopped)                          |                                   |
 +-----------------------------------+-----------------------------------+
 
-Cue Loop mode
--------------
+Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)
+------------------------------------------------------------
 
 ==================== =============================================================
-Press Shift + HOT CUE to enter Cue Loop mode
 ``Pad 1-8``          Define hot cue 1 to 8 and toggle beatloop of length 2 from it
 ``Shift + Pad 1-8``  Redefine hot cue 1 to 8
 ==================== =============================================================
@@ -148,11 +147,10 @@ Loop mode
 ``Pad 5-8``          Manual loop controls (in, out, exit, on/off)
 ==================== ============================================
 
-Roll mode
----------
+Roll mode (Press Shift + LOOP to enter Roll mode)
+-------------------------------------------------
 
 ==================== =============================================================
-Press Shift + LOOP to enter Roll mode
 ``Pad 1-4``          Toggle beatrool of lenght 1, 1/2, 1/4, 1/8
 ``Pad 5-6``          Define loop-in and loop-out
 ``Pad 7``            Loop exit
