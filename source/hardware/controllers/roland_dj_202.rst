@@ -11,11 +11,11 @@ Roland DJ-202
 
 
 -  `Manufacturer’s product page <https://www.roland.com/global/products/dj-202/>`__
--  `Forum thread <https://mixxx.discourse.group/t/mapping-the-roland-rj-202/17099#p37423>`__
-   
+-  `Forum thread <https://mixxx.discourse.group/t/mapping-the-roland-rj-202/17099>`__
+
 
    The Roland DJ-202 is an all-in-one USB MIDI controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks. As a special feature it’s got an in-built sequencer with 8 sounds from the TR-808 and the TR-909 drum machines (TR-606 and TR-707 are available via firmware update).
-   
+
 
 Drivers
 -------
@@ -188,8 +188,8 @@ Control                   Function
 Sequencer mode & Pattern mode
 -----------------------------
 
-===============================================================================================================================================================
+===============================================================================================
 These are special features of the controller that do not interact directly with Mixxx. You are welcome to read about them in the manufacturer's official manual.
-================================================================================================================================================================
+===============================================================================================
 
 .. Authors - Sébastien Guyot (BSDguy389), Jhade Williamson (evoixmr)
