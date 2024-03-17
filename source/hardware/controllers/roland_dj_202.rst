@@ -58,13 +58,13 @@ Jog wheels
 ----------
 
 +--------------------------------------------------+----------------------------------------------+
-|``Jog Wheel +/- from the side while playing``       Temporarily increase/decrease playback speed |
+|``Jog Wheel +/- from the side while playing``     |  Temporarily increase/decrease playback speed |
 +--------------------------------------------------+----------------------------------------------+
-|``Jog Wheel +/- from the side while not playing``   Slowly navigate in track                     |
+|``Jog Wheel +/- from the side while not playing`` |  Slowly navigate in track                     |
 +--------------------------------------------------+----------------------------------------------+
-|``Jog Wheel +/- from the surface``                  Scratching                                   |
+|``Jog Wheel +/- from the surface``                |  Scratching                                   |
 +--------------------------------------------------+----------------------------------------------+
-|``Shift + jog wheel +/-``                           Strip search                                 |
+|``Shift + jog wheel +/-``                         |  Strip search                                 |
 +--------------------------------------------------+----------------------------------------------+
 
 **FX**
