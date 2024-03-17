@@ -171,3 +171,12 @@ Sampler mode
 ``Pad 1-8 (left deck)``   Play samplers 1-8 from start
 ``Pad 9-16 (right deck)`` Play samplers 9-16 from start
 ========================= =============================
+
+Sequencer mode & Pattern mode
+-----------------------------
+
+========================================================
+These are special features of the controller that do not
+interact directly with Mixxx. You are welcome to read 
+about them in the manufacturer's official manual.
+========================================================
