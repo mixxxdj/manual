@@ -120,14 +120,22 @@ Hot cue mode
 | ``Shift + Param+/-``              | Increment/decrement beat jump     |
 |                                   | distance                          |
 +-----------------------------------+-----------------------------------+
-| ``Pad 1-8``                       | Save/jump to hot-cue              |
+| ``Pad 1-8``                       | Save/jump to hot cue              |
 +-----------------------------------+-----------------------------------+
-| ``Shift + Pad 1-8`` (while        | Save hot-cue (overwrite existing) |
+| ``Shift + Pad 1-8`` (while        | Save hot cue (overwrite existing) |
 | playing)                          |                                   |
 +-----------------------------------+-----------------------------------+
-| ``Shift + Pad 1-8`` (while        | Delete hot-cue                    |
+| ``Shift + Pad 1-8`` (while        | Delete hot cue                    |
 | stopped)                          |                                   |
 +-----------------------------------+-----------------------------------+
+
+Cue Loop mode
+-------------
+
+==================== =============================================================
+``Pad 1-8``          Define hot cue 1 to 8 and toggle beatloop of length 2 from it
+``Shift + Pad 1-8``  Redefine hot cue 1 to 8
+==================== =============================================================
 
 Loop mode
 ---------
@@ -138,3 +146,21 @@ Loop mode
 ``Pad 1-4``          Toggle beatloop of length 1,2,4,8
 ``Pad 5-8``          Manual loop controls (in, out, exit, on/off)
 ==================== ============================================
+
+Roll mode
+---------
+
+==================== =============================================================
+``Pad 1-4``          Toggle beatrool of lenght 1, 1/2, 1/4, 1/8
+``Pad 5-6``          Define loop-in and loop-out
+``Pad 7``            Loop exit
+``Pad 8``            Loop ON/OFF
+==================== =============================================================
+
+Sampler mode
+------------
+
+========================= =============================
+``Pad 1-8 (left deck)``   Play samplers 1-8 from start
+``Pad 9-16 (right deck)`` Play samplers 9-16 from start
+========================= =============================
