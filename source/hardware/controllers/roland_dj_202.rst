@@ -43,21 +43,28 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
 
 **Mapping**
    mapping is currently being developed, see
-   `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`__
+   `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`
 
 Pitch control
 -------------
 
-======================= =========================
-``Shift + Tempo Fader`` Adjust pitch continuously
-======================= =========================
+======================= =============================
+``Tempo Fader Up/Down`` Adjust pitch continuously
+======================= =============================
+``Shift + Tempo Fader`` Toggle between different keys
+======================= =============================
 
-Jog wheel
----------
-
-=============== ============
-``Shift + jog`` Strip search
-=============== ============
+Jog wheels
+----------
+================================================= ========================
+``Jog Wheel +/- from the side while playing``     Navigate in track
+================================================= ========================
+``Jog Wheel +/- from the side while not playing`` Slowly navigate in track
+================================================= ========================
+``Jog Wheel +/- from the surface``                Scratching
+================================================= ========================
+``Shift + jog wheel +/-``                         Strip search
+================================================= ========================
 
 **FX**
 
