@@ -54,99 +54,77 @@ Pitch control
 Jog wheels
 ----------
 
-+--------------------------------------------------+----------------------------------------------+
-|``Jog wheel +/- from the side while playing``     | Temporarily increase/decrease playback speed |
-+--------------------------------------------------+----------------------------------------------+
-|``Jog wheel +/- from the side while not playing`` | Slowly navigate in track                     |
-+--------------------------------------------------+----------------------------------------------+
-|``Jog wheel +/- from the surface``                | Scratching                                   |
-+--------------------------------------------------+----------------------------------------------+
-|``Shift + jog wheel +/-``                         | Strip search                                 |
-+--------------------------------------------------+----------------------------------------------+
+================================================== ============================================
+Control                                            Function
+================================================== ============================================
+``Jog wheel +/- from the side while playing``      Temporarily increase/decrease playback speed
+``Jog wheel +/- from the side while not playing``  Slowly navigate in track
+``Jog wheel +/- from the surface``                 Scratching
+``Shift + jog wheel +/-``                          Strip search
+================================================== ============================================
 
 **FX**
 
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``FX1-3`` (long)                  | Focus FX1-3                                                                                       |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``FX1-3`` (short)                 | Toggle effect 1-3 on/off                                                                          |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``Shift + FX tap``                | Cycle focused effect forward/backward                                                             |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``FX level``                      | Set FX meta depth                                                                                 |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``Shift + FX-level``              | Set effects rack dry/wet                                                                          |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| ``Shift + FX1-3``                 | Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off |
-+-----------------------------------+---------------------------------------------------------------------------------------------------+
+==================================== ============================================
+Control                              Function
+==================================== ============================================
+ ``FX1-3`` (long)                    Focus FX1-3
+ ``FX1-3`` (short)                   Toggle effect 1-3 on/off
+ ``Shift + FX tap``                  Cycle focused effect forward/backward
+ ``FX level``                        Set FX meta depth
+ ``Shift + FX-level``                Set effects rack dry/wet
+ ``Shift + FX1-3``                   Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off
+==================================== ============================================
 
 
 General
 -------
 
-+-----------------------------------+-----------------------------------+
-| ``Shift + Sync``                  | Toggle quantize on/off            |
-+-----------------------------------+-----------------------------------+
-| ``Slip`` (hold)                   | Toggle slip mode temporarily      |
-+-----------------------------------+-----------------------------------+
-| ``Slip`` (double tap)             | Latch slip mode                   |
-+-----------------------------------+-----------------------------------+
-| ``Shift + Slip``                  | Toggle vinyl (scratch) mode       |
-+-----------------------------------+-----------------------------------+
-| ``Deck 3/4`` (hold)               | Toggle other deck temporarily,    |
-|                                   | return to                         |
-+-----------------------------------+-----------------------------------+
-| ``Deck 3/4`` (press)              | Toggle other deck                 |
-+-----------------------------------+-----------------------------------+
-| ``Key lock + Param+/-``           | Shift pitch up/down               |
-+-----------------------------------+-----------------------------------+
-| ``Key lock + Param+-Param``       | Reset pitch                       |
-+-----------------------------------+-----------------------------------+
-| ``Shift + cue`` (long)            | Align beatgrid to other deck’s    |
-|                                   | grid                              |
-+-----------------------------------+-----------------------------------+
-| ``Shift + cue`` (once)            | Align beatgrid to current play    |
-|                                   | position                          |
-+-----------------------------------+-----------------------------------+
-| ``Shift + cue`` (tap multiple)    | tap BPM                           |
-+-----------------------------------+-----------------------------------+
-| ``Sync`` (quick tap)              | Reset BPM                         |
-+-----------------------------------+-----------------------------------+
-| ``Sync`` (long  tap)              | Sync lock                         |
-+-----------------------------------+-----------------------------------+
-| ``Play``                          | Plays the track                   |
-+-----------------------------------+-----------------------------------+
-| ``Shift + Play`` (keep pressed)   | Reverse plays the track           |
-+-----------------------------------+-----------------------------------+
-| ``Cue``                           | During play : goes back to Cue    |
-|                                   | Without playing : defines Cue     |
-+-----------------------------------+-----------------------------------+
+==================================== ============================================
+Control                              Function
+==================================== ============================================
+ ``Shift + Sync``                    Toggle quantize on/off
+ ``Slip`` (hold)                     Toggle slip mode temporarily
+ ``Slip`` (double tap)               Latch slip mode
+ ``Shift + Slip``                    Toggle vinyl (scratch) mode
+ ``Deck 3/4`` (hold)                 Toggle other deck temporarily, return to
+ ``Deck 3/4`` (press)                Toggle other deck
+ ``Key lock + Param+/-``             Shift pitch up/down
+ ``Key lock + Param+-Param``         Reset pitch
+ ``Shift + cue`` (long)              Align beatgrid to other deck’sgrid
+ ``Shift + cue`` (once)              Align beatgrid to current play position
+ ``Shift + cue`` (tap multiple)      tap BPM
+ ``Sync`` (quick tap)                Reset BPM
+ ``Sync`` (long  tap)                Sync lock
+ ``Play``                            Plays the track
+ ``Shift + Play`` (keep pressed)     Reverse plays the track
+ ``Cue``                             During play : goes back to Cue Without playing : defines Cue
+==================================== ============================================
+
 
 Central knobs
 -------------
 
-+-----------------------------------+-----------------------------------+
-| ``Master Level``                  | Adjust Master gain                |
-+-----------------------------------+-----------------------------------+
-| ``Mixing``                        | Adjust Headphones Mix             |
-+-----------------------------------+-----------------------------------+
-| ``Phones Level``                  | Adjust Headphones gain            |
-+-----------------------------------+-----------------------------------+
-| ``Sampler Level``                 | Adjust Samplers gain              |
-+-----------------------------------+-----------------------------------+
+==================================== ============================================
+Control                              Function
+==================================== ============================================
+ ``Master Level``                  | Adjust Master gain
+ ``Mixing``                        | Adjust Headphones Mix
+ ``Phones Level``                  | Adjust Headphones gain
+ ``Sampler Level``                 | Adjust Samplers gain
+==================================== ============================================
 
 EQ knobs
 --------
 
-+-----------------------------------+----------------------------------------+
-| ``Hi``                            | Adjust high frequencies level          |
-+-----------------------------------+----------------------------------------+
-| ``Mid``                           | Adjust medium frequencies level        |
-+-----------------------------------+----------------------------------------+
-| ``Low``                           | Adjust low frequencies level           |
-+-----------------------------------+----------------------------------------+
-| ``Filter``                        | High/Low Pass Filter (or other effects)|
-+-----------------------------------+----------------------------------------+
+==================================== ============================================
+Control                              Function
+==================================== ============================================
+ ``Hi``                              Adjust high frequencies level
+ ``Mid``                             Adjust medium frequencies level
+ ``Low``                             Adjust low frequencies level
+ ``Filter``                          High/Low Pass Filter (or other effects)|
+==================================== ============================================
 
 Performance pad modes
 ---------------------
@@ -154,20 +132,16 @@ Performance pad modes
 Hot cue mode
 ------------
 
-+-----------------------------------+-----------------------------------+
-| ``Param+/-``                      | Beat jump forward/backward        |
-+-----------------------------------+-----------------------------------+
-| ``Shift + Param+/-``              | Increment/decrement beat jump     |
-|                                   | distance                          |
-+-----------------------------------+-----------------------------------+
-| ``Pad 1-8``                       | Save/jump to hot cue              |
-+-----------------------------------+-----------------------------------+
-| ``Shift + Pad 1-8`` (while        | Save hot cue (overwrite existing) |
-| playing)                          |                                   |
-+-----------------------------------+-----------------------------------+
-| ``Shift + Pad 1-8`` (while        | Delete hot cue                    |
-| stopped)                          |                                   |
-+-----------------------------------+-----------------------------------+
+==================================== ============================================
+Control                              Function
+==================================== ============================================
+ ``Param+/-``                        Beat jump forward/backward
+ ``Shift + Param+/-``                Increment/decrement beat jump
+                                     distance
+ ``Pad 1-8``                         Save/jump to hot cue
+ ``Shift + Pad 1-8`` (while playing) Save hot cue (overwrite existing)
+ ``Shift + Pad 1-8`` (while stopped) Delete hot cue
+==================================== ============================================
 
 Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)
 ------------------------------------------------------------
