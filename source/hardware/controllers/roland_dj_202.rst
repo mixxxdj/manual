@@ -42,89 +42,114 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
    mapping is currently being developed, see
    `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`__
 
+
+
+.. figure:: ../../_static/controllers/roland_dj_202_browser.svg
+   :align: center
+   :width: 45%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
+
 Pitch control
 -------------
 
-======================= =============================
-``Tempo Fader Up/Down`` Adjust pitch continuously
-======================= =============================
-``Shift + Tempo Fader`` Toggle between different keys
-======================= =============================
+=======================  =============================
+``Tempo Fader Up/Down``  Adjust pitch continuously
+=======================  =============================
+``Shift + Tempo Fader``  Toggle between different keys
+=======================  =============================
+
+
+.. figure:: ../../_static/controllers/roland_dj_202_deck.svg
+   :align: center
+   :width: 45%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
 
 Jog wheels
 ----------
 
-================================================== ============================================
-Control                                            Function
-================================================== ============================================
-``Jog wheel +/- from the side while playing``      Temporarily increase/decrease playback speed
-``Jog wheel +/- from the side while not playing``  Slowly navigate in track
-``Jog wheel +/- from the surface``                 Scratching
-``Shift + jog wheel +/-``                          Strip search
-================================================== ============================================
+========  ==================================================  ============================================
+No.       Control                                             Function
+========  ==================================================  ============================================
+1         ``Jog wheel +/- from the side while playing``       Temporarily increase/decrease playback speed
+1         ``Jog wheel +/- from the side while not playing``   Slowly navigate in track
+1         ``Jog wheel +/- from the surface``                  Scratching
+1         ``Shift + jog wheel +/-``                           Strip search
+========  ==================================================  ============================================
 
 **FX**
 
-==================================== ============================================
-Control                              Function
-==================================== ============================================
- ``FX1-3`` (long)                    Focus FX1-3
- ``FX1-3`` (short)                   Toggle effect 1-3 on/off
- ``Shift + FX tap``                  Cycle focused effect forward/backward
- ``FX level``                        Set FX meta depth
- ``Shift + FX-level``                Set effects rack dry/wet
- ``Shift + FX1-3``                   Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off
-==================================== ============================================
+========  ====================================  ============================================
+No.       Control                               Function
+========  ====================================  ============================================
+13        ``FX1-3`` (long)                      Focus FX1-3
+13        ``FX1-3`` (short)                     Toggle effect 1-3 on/off
+13        ``Shift + FX tap``                    Cycle focused effect forward/backward
+13        ``FX level``                          Set FX meta depth
+13        ``Shift + FX-level``                  Set effects rack dry/wet
+13         ``Shift + FX1-3``                     Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off
+========  ====================================  ============================================
 
 
 General
 -------
 
-==================================== ============================================
-Control                              Function
-==================================== ============================================
- ``Shift + Sync``                    Toggle quantize on/off
- ``Slip`` (hold)                     Toggle slip mode temporarily
- ``Slip`` (double tap)               Latch slip mode
- ``Shift + Slip``                    Toggle vinyl (scratch) mode
- ``Deck 3/4`` (hold)                 Toggle other deck temporarily, return to
- ``Deck 3/4`` (press)                Toggle other deck
- ``Key lock + Param+/-``             Shift pitch up/down
- ``Key lock + Param+-Param``         Reset pitch
- ``Shift + cue`` (long)              Align beatgrid to other deck’sgrid
- ``Shift + cue`` (once)              Align beatgrid to current play position
- ``Shift + cue`` (tap multiple)      tap BPM
- ``Sync`` (quick tap)                Reset BPM
- ``Sync`` (long  tap)                Sync lock
- ``Play``                            Plays the track
- ``Shift + Play`` (keep pressed)     Reverse plays the track
- ``Cue``                             During play : goes back to Cue Without playing : defines Cue
-==================================== ============================================
+========  ====================================  ============================================
+No.       Control                               Function
+========  ====================================  ============================================
+4         ``Shift + Sync``                      Toggle quantize on/off
+2         ``Slip`` (hold)                       Toggle slip mode temporarily
+2         ``Slip`` (double tap)                 Latch slip mode
+2         ``Shift + Slip``                      Toggle vinyl (scratch) mode
+11        ``Deck 3/4`` (hold)                   Toggle other deck temporarily, return to
+11        ``Deck 3/4`` (press)                  Toggle other deck
+10        ``Key lock + Param+/-``               Shift pitch up/down
+10        ``Key lock + Param+-Param``           Reset pitch
+5         ``Shift + cue`` (long)                Align beatgrid to other deck’sgrid
+5         ``Shift + cue`` (once)                Align beatgrid to current play position
+5         ``Shift + cue`` (tap multiple)        tap BPM
+4         ``Sync`` (quick tap)                  Reset BPM
+4         ``Sync`` (long  tap)                  Sync lock
+6         ``Play``                              Plays the track
+6         ``Shift + Play`` (keep pressed)       Reverse plays the track
+5         ``Cue``                               During play : goes back to Cue Without playing : defines Cue
+========  ====================================  ============================================
 
+
+
+.. figure:: ../../_static/controllers/roland_dj_202_mixer.svg
+   :align: center
+   :width: 45%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
 
 Central knobs
 -------------
 
-==================================== ============================================
-Control                              Function
-==================================== ============================================
- ``Master Level``                  | Adjust Master gain
- ``Mixing``                        | Adjust Headphones Mix
- ``Phones Level``                  | Adjust Headphones gain
- ``Sampler Level``                 | Adjust Samplers gain
-==================================== ============================================
+========  ====================================  ============================================
+No.       Control                               Function
+========  ====================================  ============================================
+7         ``Master Level``                      | Adjust Master gain
+8         ``Mixing``                            | Adjust Headphones Mix
+9         ``Phones Level``                      | Adjust Headphones gain
+10         ``Sampler Level``                     | Adjust Samplers gain
+========  ====================================  ============================================
 
 EQ knobs
 --------
 
-==================================== ============================================
-Control                              Function
-==================================== ============================================
- ``Hi``                              Adjust high frequencies level
- ``Mid``                             Adjust medium frequencies level
- ``Low``                             Adjust low frequencies level
- ``Filter``                          High/Low Pass Filter (or other effects)|
-==================================== ============================================
+========  ====================================  ============================================
+No.       Control                               Function
+========  ====================================  ============================================
+2         ``Hi``                                Adjust high frequencies level
+2         ``Mid``                               Adjust medium frequencies level
+2         ``Low``                               Adjust low frequencies level
+3         ``Filter``                            High/Low Pass Filter (or other effects)
+========  ====================================  ============================================
 
 Performance pad modes
 ---------------------
@@ -132,16 +157,16 @@ Performance pad modes
 Hot cue mode
 ------------
 
-==================================== ============================================
-Control                              Function
-==================================== ============================================
- ``Param+/-``                        Beat jump forward/backward
- ``Shift + Param+/-``                Increment/decrement beat jump
-                                     distance
- ``Pad 1-8``                         Save/jump to hot cue
- ``Shift + Pad 1-8`` (while playing) Save hot cue (overwrite existing)
- ``Shift + Pad 1-8`` (while stopped) Delete hot cue
-==================================== ============================================
+========  ====================================  ============================================
+No.       Control                               Function
+========  ====================================  ============================================
+9         ``Param+/-``                          Beat jump forward/backward
+9         ``Shift + Param+/-``                  Increment/decrement beat jump
+                                                distance
+8         ``Pad 1-8``                           Save/jump to hot cue
+8         ``Shift + Pad 1-8`` (while playing)   Save hot cue (overwrite existing)
+8         ``Shift + Pad 1-8`` (while stopped)   Delete hot cue
+========  ====================================  ============================================
 
 Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)
 ------------------------------------------------------------
@@ -154,36 +179,36 @@ Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)
 Loop mode
 ---------
 
-==================== ============================================
-Control              Function
-==================== ============================================
-``Param+/-``         Move beatloop forward/backward
-``Shift + Param+/-`` Double/halve beatloop size
-``Pad 1-4``          Toggle beatloop of length 1,2,4,8
-``Pad 5-8``          Manual loop controls (in, out, exit, on/off)
-==================== ============================================
+====================  ============================================
+Control               Function
+====================  ============================================
+``Param+/-``          Move beatloop forward/backward
+``Shift + Param+/-``  Double/halve beatloop size
+``Pad 1-4``           Toggle beatloop of length 1,2,4,8
+``Pad 5-8``           Manual loop controls (in, out, exit, on/off)
+====================  ============================================
 
 Roll mode (Press Shift + LOOP to enter Roll mode)
 -------------------------------------------------
 
-==================== ==========================================
-Control              Function
-==================== ==========================================
-``Pad 1-4``          Toggle beatrool of length 1, 1/2, 1/4, 1/8
-``Pad 5-6``          Define loop-in and loop-out
-``Pad 7``            Loop exit
-``Pad 8``            Loop ON/OFF
-==================== ==========================================
+====================  ==========================================
+Control               Function
+====================  ==========================================
+``Pad 1-4``           Toggle beatrool of length 1, 1/2, 1/4, 1/8
+``Pad 5-6``           Define loop-in and loop-out
+``Pad 7``             Loop exit
+``Pad 8``             Loop ON/OFF
+====================  ==========================================
 
 Sampler mode
 ------------
 
-========================= =============================
-Control                   Function
-========================= =============================
-``Pad 1-8 (left deck)``   Play samplers 1-8 from start
-``Pad 9-16 (right deck)`` Play samplers 9-16 from start
-========================= =============================
+=========================  =============================
+Control                    Function
+=========================  =============================
+``Pad 1-8 (left deck)``    Play samplers 1-8 from start
+``Pad 9-16 (right deck)``  Play samplers 9-16 from start
+=========================  =============================
 
 Sequencer mode & Pattern mode
 -----------------------------
