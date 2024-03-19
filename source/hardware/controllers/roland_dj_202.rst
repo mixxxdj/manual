@@ -51,7 +51,7 @@ Browser Section
    :figwidth: 100%
    :alt: Roland DJ-505 (schematic view)
    :figclass: pretty-figures
-.. 
+..
 
 ========  ==================================================  ==========================================
 No.       Control                                             Function
