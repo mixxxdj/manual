@@ -77,8 +77,8 @@ Deck Section
    :alt: Roland DJ-505 (schematic view)
    :figclass: pretty-figures
 
-Pitch control
--------------
+**Pitch control**
+
 ========  =======================  =============================
 No.       Control                  Function
 ========  =======================  =============================
@@ -87,8 +87,7 @@ No.       Control                  Function
 ========  =======================  =============================
 
 
-Jog wheels
-----------
+**Jog wheels**
 
 ========  ==================================================  ============================================
 No.       Control                                             Function
@@ -147,8 +146,7 @@ Mixer Section
    :alt: Roland DJ-505 (schematic view)
    :figclass: pretty-figures
 
-Central knobs
--------------
+**Central knobs**
 
 ========  ====================================  ============================================
 No.       Control                               Function
@@ -159,8 +157,7 @@ No.       Control                               Function
 10         ``Sampler Level``                     | Adjust Samplers gain
 ========  ====================================  ============================================
 
-EQ knobs
---------
+**EQ knobs**
 
 ========  ====================================  ============================================
 No.       Control                               Function
@@ -174,32 +171,27 @@ No.       Control                               Function
 Performance pad modes
 ---------------------
 
+**Hot cue mode**
 
+====================================  ============================================
+Control                               Function
+====================================  ============================================
+``Param+/-``                          Beat jump forward/backward
+``Shift + Param+/-``                  Increment/decrement beat jump
+                                      distance
+``Pad 1-8``                           Save/jump to hot cue
+``Shift + Pad 1-8`` (while playing)   Save hot cue (overwrite existing)
+``Shift + Pad 1-8`` (while stopped)   Delete hot cue
+====================================  ============================================
 
-Hot cue mode
-------------
-
-========  ====================================  ============================================
-No.       Control                               Function
-========  ====================================  ============================================
-9         ``Param+/-``                          Beat jump forward/backward
-9         ``Shift + Param+/-``                  Increment/decrement beat jump
-                                                distance
-8         ``Pad 1-8``                           Save/jump to hot cue
-8         ``Shift + Pad 1-8`` (while playing)   Save hot cue (overwrite existing)
-8         ``Shift + Pad 1-8`` (while stopped)   Delete hot cue
-========  ====================================  ============================================
-
-Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)
-------------------------------------------------------------
+**Cue Loop mode (Press Shift + HOT CUE to enter Cue Loop mode)**
 
 ==================== =============================================================
 ``Pad 1-8``          Define hot cue 1 to 8 and toggle beatloop of length 2 from it
 ``Shift + Pad 1-8``  Redefine hot cue 1 to 8
 ==================== =============================================================
 
-Loop mode
----------
+**Loop mode**
 
 ====================  ============================================
 Control               Function
@@ -210,8 +202,7 @@ Control               Function
 ``Pad 5-8``           Manual loop controls (in, out, exit, on/off)
 ====================  ============================================
 
-Roll mode (Press Shift + LOOP to enter Roll mode)
--------------------------------------------------
+**Roll mode (Press Shift + LOOP to enter Roll mode)**
 
 ====================  ==========================================
 Control               Function
@@ -222,8 +213,7 @@ Control               Function
 ``Pad 8``             Loop ON/OFF
 ====================  ==========================================
 
-Sampler mode
-------------
+**Sampler mode**
 
 =========================  =============================
 Control                    Function
@@ -232,8 +222,7 @@ Control                    Function
 ``Pad 9-16 (right deck)``  Play samplers 9-16 from start
 =========================  =============================
 
-Sequencer mode & Pattern mode
------------------------------
+**Sequencer mode & Pattern mode**
 
 These are special features of the controller that do not interact directly with Mixxx. You are welcome to read about them in the manufacturer's official manual.
 
