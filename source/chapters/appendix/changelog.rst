@@ -18,7 +18,6 @@ Features
 ^^^^^^^^
 
 
-* Sync Lock: End of track checking is not needed `#11035 <https://github.com/mixxxdj/mixxx/pull/11035>`__
 * BaseExternalLibraryFeature: Add ability to import external playlists as crates `#11852 <https://github.com/mixxxdj/mixxx/pull/11852>`__
 * Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
 * DlgPrefSound: Fix fetching of sample rate `#11951 <https://github.com/mixxxdj/mixxx/pull/11951>`__ `11949 <https://github.com/mixxxdj/mixxx/issues/11949>`__
@@ -28,12 +27,18 @@ Features
 * Playlist feature: add 'Shuffle playlist' sidebar action `#12498 <https://github.com/mixxxdj/mixxx/pull/12498>`__
 * New built-in effect: Glitch `#11329 <https://github.com/mixxxdj/mixxx/pull/11329>`__
 * Fullscreen toggle rework `#11566 <https://github.com/mixxxdj/mixxx/pull/11566>`__
+* Playlists: Update of playlist labels after adding tracks `#12866 <https://github.com/mixxxdj/mixxx/pull/12866>`__ `#12761 <https://github.com/mixxxdj/mixxx/issues/12761>`__
+* Tracks: Custom text color for played tracks (qss) `#12744 <https://github.com/mixxxdj/mixxx/pull/12744>`__ `#5911 <https://github.com/mixxxdj/mixxx/issues/5911>`__ `#12912 <https://github.com/mixxxdj/mixxx/pull/12912>`__
+* History: Show track count and duration in sidebar `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__ `#12788 <https://github.com/mixxxdj/mixxx/issues/12788>`__
+* fixes around cratetablemodel, remove tracks + don't allow pasting tracks into locked playlists/crates or History `#12926 <https://github.com/mixxxdj/mixxx/pull/12926>`__
+* Tootips: Improve ``rate_up/down`` tooltips, pitch vs. speed `#12590 <https://github.com/mixxxdj/mixxx/pull/12590>`__
+* Shortkeys for track list management `#12020 <https://github.com/mixxxdj/mixxx/pull/12020>`__
+* Track menu: Rephrase "Reset" to "Clear" `#12955 <https://github.com/mixxxdj/mixxx/pull/12955>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
-* Traktor Kontrol S2 MK3: Add colored hotcues `#4637 <https://github.com/mixxxdj/mixxx/pull/4637>`__
 * Pioneer DDJ-FLX4: mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
 
 Controller Backend
@@ -42,6 +47,7 @@ Controller Backend
 
 * Send sysex to all handlers `#12827 <https://github.com/mixxxdj/mixxx/pull/12827>`__
 * Add control for showing a deck's track menu `#10825 <https://github.com/mixxxdj/mixxx/pull/10825>`__
+* Removed old examples HID keyboard and HID trackpad `#12977 <https://github.com/mixxxdj/mixxx/pull/12977>`__
 
 Experimental QML Skin
 ^^^^^^^^^^^^^^^^^^^^^
@@ -54,6 +60,8 @@ Experimental QML Skin
 * fix(qml): Improve knobs by applying selective 4xMSAA on the Arc shape `#12541 <https://github.com/mixxxdj/mixxx/pull/12541>`__
 * Add QML interceptor to auto reload on file change `#12795 <https://github.com/mixxxdj/mixxx/pull/12795>`__
 * Add multi-sampling settings for QML `#12546 <https://github.com/mixxxdj/mixxx/pull/12546>`__ `#12794 <https://github.com/mixxxdj/mixxx/pull/12794>`__ `#12536 <https://github.com/mixxxdj/mixxx/issues/12536>`__
+* Install qml module on Windows `#12604 <https://github.com/mixxxdj/mixxx/pull/12604>`__
+* Add scrolling waveforms `#3967 <https://github.com/mixxxdj/mixxx/pull/3967>`__
 
 Update to Qt6
 ^^^^^^^^^^^^^
@@ -81,6 +89,7 @@ Update to Qt6
 * Fix track color background with Qt6 `#12380 <https://github.com/mixxxdj/mixxx/pull/12380>`__
 * multi-line delegate: fix bg color, Qt6 on Linux `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
 * Revert "BaseTrackPlayer: Remove references to WaveformWidgetRenderer when using Qt6" `#12342 <https://github.com/mixxxdj/mixxx/pull/12342>`__
+* Fix Tango waveform splitter `#12939 <https://github.com/mixxxdj/mixxx/pull/12939>`__
 
 Experimental iOs support
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,6 +110,22 @@ Experimental iOs support
 * MixxxApplication: Use QIOSIntegrationPlugin on iOS `#12666 <https://github.com/mixxxdj/mixxx/pull/12666>`__
 * MacOsVersion: Rename to AppleOsVersion `#12662 <https://github.com/mixxxdj/mixxx/pull/12662>`__
 * macOS: Add more ``Q_OS_MACOS`` cond-compiles where appropriate `#12663 <https://github.com/mixxxdj/mixxx/pull/12663>`__
+
+Experimental WebAssembly support
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+* CMakeLists: Add support for targeting Emscripten/WebAssembly `#12918 <https://github.com/mixxxdj/mixxx/pull/12918>`__
+* CMakeLists: Emit better errors for exotic target platforms `#12910 <https://github.com/mixxxdj/mixxx/pull/12910>`__
+* Build: Add ``PORTMIDI`` flag for compiling with(out) PortMidi `#12913 <https://github.com/mixxxdj/mixxx/pull/12913>`__
+* DesktopHelper: Compile out process-spawning on WASM too `#12916 <https://github.com/mixxxdj/mixxx/pull/12916>`__
+* MixxxApplication: Use ``QWasmIntegrationPlugin`` when targeting WebAssembly `#12915 <https://github.com/mixxxdj/mixxx/pull/12915>`__
+* CMakeLists: Enable asyncify when targeting WASM `#12921 <https://github.com/mixxxdj/mixxx/pull/12921>`__
+* Resources: Bundle resources for preloading when targeting Emscripten/WASM `#12922 <https://github.com/mixxxdj/mixxx/pull/12922>`__
+* CMakeLists: Add ``WASM_ASSERTIONS`` option `#12931 <https://github.com/mixxxdj/mixxx/pull/12931>`__
+* VersionStore: Recognize Emscripten/WebAssembly `#12940 <https://github.com/mixxxdj/mixxx/pull/12940>`__
+* OpenGLWindow: Fix sizing on Wasm by setting ``Qt::FramelessWindowHint`` `#12945 <https://github.com/mixxxdj/mixxx/pull/12945>`__
+* CMakeLists: Require WebGL 2.0 when building for Wasm `#12952 <https://github.com/mixxxdj/mixxx/pull/12952>`__
 
 Misc Refactorings
 ^^^^^^^^^^^^^^^^^
@@ -137,10 +162,21 @@ Misc Refactorings
 * fix/History: remove obsolete placeholder playlists `#12494 <https://github.com/mixxxdj/mixxx/pull/12494>`__
 * Add missing Taglib dependency `#12830 <https://github.com/mixxxdj/mixxx/pull/12830>`__
 * fix: typo ;) `#12726 <https://github.com/mixxxdj/mixxx/pull/12726>`__
+* refactor: Avoid temporary qlist allocation on midi sysex receive `#12843 <https://github.com/mixxxdj/mixxx/pull/12843>`__
+* SoundSourceMP3: fix unused function warning `#12847 <https://github.com/mixxxdj/mixxx/pull/12847>`__
+* update libkeyfinder to 2.2.8 `#12853 <https://github.com/mixxxdj/mixxx/pull/12853>`__
+* feat(ci): Add eslint rule prefer-template `#12889 <https://github.com/mixxxdj/mixxx/pull/12889>`__
+* Labeler: Add ``qml`` to labeler config `#12911 <https://github.com/mixxxdj/mixxx/pull/12911>`__
+* WTrackMenu: Add missing wcoverartlabel.h include `#12924 <https://github.com/mixxxdj/mixxx/pull/12924>`__
+* Fix clazy complains and naming `#12935 <https://github.com/mixxxdj/mixxx/pull/12935>`__
+* src/library: Sort files into sub-directories `#12956 <https://github.com/mixxxdj/mixxx/pull/12956>`__
+* CMakeLists: Fix deduplication trap with ``--preload-file`` `#12944 <https://github.com/mixxxdj/mixxx/pull/12944>`__
+* Add CI runner that allows cleaning up the download server `#12957 <https://github.com/mixxxdj/mixxx/pull/12957>`__
 * Update to latest vcpkg dependencies
   `#11649 <https://github.com/mixxxdj/mixxx/pull/11649>`__
   `#12512 <https://github.com/mixxxdj/mixxx/pull/12512>`__
   `#12067 <https://github.com/mixxxdj/mixxx/pull/12067>`__
+  `#12898 <https://github.com/mixxxdj/mixxx/pull/12898>`__
 * GitHub actions updates
   `#11544 <https://github.com/mixxxdj/mixxx/pull/11544>`__
   `#11508 <https://github.com/mixxxdj/mixxx/pull/11508>`__
