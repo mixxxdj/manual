@@ -42,9 +42,35 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
    mapping is currently being developed, see
    `Github <https://github.com/Lykos153/mixxx/tree/Mapping-DJ-202>`__
 
-
+Browser Section
+~~~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/roland_dj_202_browser.svg
+   :align: center
+   :width: 45%
+   :figwidth: 100%
+   :alt: Roland DJ-505 (schematic view)
+   :figclass: pretty-figures
+.. 
+
+========  ==================================================  ==========================================
+No.       Control                                             Function
+========  ==================================================  ==========================================
+1         :hwlabel:`LOAD` buttons                             Load song into deck.
+1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (left)    Sort library by BPM (press repeatedly to toggle ascending/descending order).
+1         :hwlabel:`SHIFT` + :hwlabel:`LOAD` button (right)   Sort library by key (press repeatedly to toggle ascending/descending order).
+2         Rotary Selector                                     Turn to move tracklist cursor up/down. Press to load and play/pause currently selected track on preview deck. Hold and turn to seek in track on preview deck.
+2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to move sidebar cursor up/down. Hold and turn to change track color of currently selected track.
+3         :hwlabel:`BACK` button                              *Not yet mapped.*
+3         :hwlabel:`SHIFT` + :hwlabel:`BACK` button           Sort library by title (press repeatedly  to toggle ascending/descending order).
+========  ==================================================  ==========================================
+
+
+
+Deck Section
+~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/roland_dj_202_deck.svg
    :align: center
    :width: 45%
    :figwidth: 100%
@@ -53,20 +79,13 @@ You can download the latest drivers and firmware from https://www.roland.com/glo
 
 Pitch control
 -------------
+========  =======================  =============================
+No.       Control                  Function
+========  =======================  =============================
+12        ``Tempo Fader Up/Down``  Adjust pitch continuously
+12        ``Shift + Tempo Fader``  Toggle between different keys
+========  =======================  =============================
 
-=======================  =============================
-``Tempo Fader Up/Down``  Adjust pitch continuously
-=======================  =============================
-``Shift + Tempo Fader``  Toggle between different keys
-=======================  =============================
-
-
-.. figure:: ../../_static/controllers/roland_dj_202_deck.svg
-   :align: center
-   :width: 45%
-   :figwidth: 100%
-   :alt: Roland DJ-505 (schematic view)
-   :figclass: pretty-figures
 
 Jog wheels
 ----------
@@ -118,7 +137,8 @@ No.       Control                               Function
 5         ``Cue``                               During play : goes back to Cue Without playing : defines Cue
 ========  ====================================  ============================================
 
-
+Mixer Section
+~~~~~~~~~~~~~
 
 .. figure:: ../../_static/controllers/roland_dj_202_mixer.svg
    :align: center
@@ -153,6 +173,8 @@ No.       Control                               Function
 
 Performance pad modes
 ---------------------
+
+
 
 Hot cue mode
 ------------
