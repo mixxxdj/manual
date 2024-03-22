@@ -659,7 +659,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
 
-   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop
+   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop. If the loaded track has no beats, the unit is seconds.
 
    :range: binary
    :feedback: A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats
@@ -672,7 +672,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beatloop_X_activate
 
    Activates a loop over X beats. A control exists for
-   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beats, the unit is seconds.
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -690,6 +692,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Changing this will resize an existing loop if the length of the loop matches
    :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
 
+   If the loaded track has no beats, the unit is seconds.
+
    :range: positive real number
    :feedback: Beatloop size spinbox and possibly loop section on waveform
 
@@ -701,7 +705,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beatloop_X_toggle
 
    Toggles a loop over X beats. A control exists for
-   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beats, the unit is seconds.
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -726,6 +732,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beatlooproll_activate
 
    Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats.
+   If the loaded track has no beats, the unit is seconds.
+
    Once disabled, playback will resume where the track would have been if it had not entered the loop.
 
    :range: binary
@@ -740,7 +748,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Activates a rolling loop over X beats. Once disabled, playback will resume where the
    track would have been if it had not entered the loop. A control exists for
-   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beats, the unit is seconds.
 
    :range: binary
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
@@ -1201,7 +1211,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],hotcue_X_activateloop
 
    Identical to :mixxx:coref:`hotcue_X_activate <[ChannelN],hotcue_X_activate>`, but this always sets a saved loop, regardless of whether a loop is enabled or not.
-   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If the loaded track has no beats, the unit is seconds.
+
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
@@ -1213,6 +1224,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Enables or disables a loop from the position of :term:`hotcue` X.
    If X is a saved loop, that loop will be used, otherwise it will set a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` from the cue position.
+   If the loaded track has no beats, the unit is seconds.
    In case the hotcue is not set, this control will set a regular cue point at the current position and start a beatloop.
 
    This control can be used to map the primary action of the "Cue Loop" performance pad mode on Serato-style controllers.
@@ -1312,6 +1324,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    If :term:`hotcue` X is set, seeks the player to hotcue X's position, starts playback and looping.
    If the hotcue is a saved loop, the loop is enabled, otherwise a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is set from the hotcue's position.
+   If the loaded track has no beats, the unit is seconds.
 
    This control can be used to map the secondary action of the "Cue Loop" performance pad mode on Serato-style controllers.
 
@@ -1376,7 +1389,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],hotcue_X_setloop
 
    Identical to :mixxx:coref:`hotcue_X_set <[ChannelN],hotcue_X_set>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
-   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`. If the loaded track has no beats, the unit is seconds.
+
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
