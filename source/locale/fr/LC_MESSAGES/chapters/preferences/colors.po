@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,15 +219,15 @@ msgstr ""
 
 #: ../../chapters/preferences/colors.rst:6
 msgid "Colors"
-msgstr ""
+msgstr "Couleurs"
 
 #: ../../chapters/preferences/colors.rst:11
 msgid "Selecting Palettes and Default Colors"
-msgstr ""
+msgstr "Sélection des palettes et des couleurs par défaut"
 
 #: ../../chapters/preferences/colors.rst:19
 msgid "**Track/Hotcue Palette**"
-msgstr ""
+msgstr "**Palette de piste / repères rapide**"
 
 #: ../../chapters/preferences/colors.rst:14
 msgid ""
@@ -231,6 +235,10 @@ msgid ""
 "hotcues>` to highlight them. Mixxx offers a selection of different palettes "
 "that you can choose colors from."
 msgstr ""
+"Il est possible d'attribuer des couleurs aux pistes et aux :ref:`repères "
+"rapides <interface-hotcues>` pour les mettre en valeur. Mixxx propose une "
+"sélection de différentes palettes parmi lesquelles vous pouvez choisir des "
+"couleurs."
 
 #: ../../chapters/preferences/colors.rst:18
 msgid ""
@@ -238,10 +246,13 @@ msgid ""
 "next to the palette name. This will open a the :ref:`palette editor "
 "<configuration-colors-editor>`."
 msgstr ""
+"Vous pouvez également créer votre propre palette en cliquant sur le bouton "
+":guilabel:`Edite..` à côté du nom de la palette. Cela ouvrira un "
+":ref:`éditeur de palette <configuration-colors-editor>`."
 
 #: ../../chapters/preferences/colors.rst:25
 msgid "**Default Hotcue Color**"
-msgstr ""
+msgstr "**Couleur par défaut de repère rapide**"
 
 #: ../../chapters/preferences/colors.rst:22
 msgid ""
@@ -250,10 +261,16 @@ msgid ""
 "the :guilabel:`By hotcue number` option. The latter will automatically "
 "assign a color from the palette to new hotcues based on the hotcue number."
 msgstr ""
+"Il est possible soit de sélectionner une seule couleur dans la palette de "
+"repère rapide actuelle qui sera attribuée à toutes les couleurs de repère "
+"rapide nouvellement créées, soit de sélectionner l'option :guilabel:`Par "
+"numéro de repère rapide`. Ce dernier attribuera automatiquement une couleur "
+"de la palette aux nouveaux repères rapides en fonction du numéro de repère "
+"rapide ."
 
 #: ../../chapters/preferences/colors.rst:30
 msgid "Editing Palettes"
-msgstr ""
+msgstr "Éditer les palettes"
 
 #: ../../chapters/preferences/colors.rst:32
 msgid ""
@@ -261,10 +278,16 @@ msgid ""
 "color palette and save it under a new name. You can also delete custom "
 "palettes."
 msgstr ""
+"L'éditeur de palette vous permet d'ajouter, de modifier, de réorganiser et "
+"de supprimer des couleurs dans une palette de couleurs et de l'enregistrer "
+"sous un nouveau nom. Vous pouvez également supprimer des palettes "
+"personnalisées."
 
 #: ../../chapters/preferences/colors.rst:35
 msgid "To modify a color, double-click it to open the color picker window."
 msgstr ""
+"Pour modifier une couleur, double-cliquer dessus pour ouvrir la fenêtre du "
+"sélecteur de couleurs."
 
 #: ../../chapters/preferences/colors.rst:37
 msgid ""
@@ -272,6 +295,10 @@ msgid ""
 "specific default color to a hotcue number. This setting is honored when "
 ":guilabel:`Hotcue default color` is set to `By hotcue number`."
 msgstr ""
+"Lors de l'édition de la palette de repère rapide, l'éditeur de palette "
+"permet également d'attribuer une couleur par défaut spécifique à un numéro "
+"de repère rapide. Ce paramètre est respecté lorsque :guilabel:`Couleur par "
+"défaut de repère rapide` est défini sur `Par numéro de repère rapide`."
 
 #: ../../chapters/preferences/colors.rst:41
 msgid ""
@@ -279,6 +306,9 @@ msgid ""
 "automatically, but still have more colors available in the palette in case "
 "you want to override the color manually."
 msgstr ""
+"Cela permet d'attribuer automatiquement quelques couleurs distinctes à vos "
+"repères rapides, tout en conservant davantage de couleurs disponibles dans "
+"la palette au cas où vous souhaiteriez remplacer la couleur manuellement."
 
 #: ../../chapters/preferences/colors.rst:45
 msgid ""
@@ -289,6 +319,15 @@ msgid ""
 "with a number greater than those used in the palette. In the example above, "
 "hotcue 3 will use the first color and hotcue 4 the second color, and so on."
 msgstr ""
+"Par exemple, si vous disposez d'une palette de couleurs composée de 4 "
+"couleurs et que vous configurez la palette pour attribuer la première "
+"couleur au repère rapide 1 et la troisième couleur au repère rapide 2, alors"
+" le repère rapide 1 utilisera la première couleur et le repère rapide 2 se "
+"verra attribuer la troisième couleur. Les couleurs se répèteront lors de la "
+"définition d'un repère rapide avec un nombre supérieur à ceux utilisés dans "
+"la palette. Dans l'exemple ci-dessus, le repère rapide 3 utilisera la "
+"première couleur et le repère rapide 4 la deuxième couleur, et ainsi de "
+"suite."
 
 #: ../../chapters/preferences/colors.rst:52
 msgid ""
@@ -296,6 +335,10 @@ msgid ""
 "separating the hotcue numbers with a comma (“2, 4, 7”), expressing a range "
 "of numbers (“1 - 3”) or any combination of that (“6, 1 - 3, 7”)."
 msgstr ""
+"Vous pouvez également attribuer la même couleur à plusieurs repères rapides."
+" Par exemple en séparant les numéros de  repère rapide par une virgule (« 2,"
+" 4, 7 »), exprimant une plage de chiffres (« 1 - 3 ») ou toute combinaison "
+"de cela (« 6, 1 - 3, 7 »)."
 
 #: ../../chapters/preferences/colors.rst:56
 msgid ""
@@ -304,10 +347,15 @@ msgid ""
 " assigned the first color in the palette, hotcue 2 uses the second color in "
 "the palette, etc.)."
 msgstr ""
+"Si aucune couleur de la palette n'a de numéro de repère rapide, les nouveaux"
+" repères rapides utiliseront la couleur au même index de la palette (c'est-"
+"à-dire que le repère rapide 1 se verra attribuer la première couleur de la "
+"palette, le repère rapide 2 utilisera la deuxième couleur de la palette). , "
+"etc.)."
 
 #: ../../chapters/preferences/colors.rst:64
 msgid "Replacing Hotcue Colors"
-msgstr ""
+msgstr "Remplacer la couleur de repère rapide"
 
 #: ../../chapters/preferences/colors.rst:66
 msgid ""
@@ -315,6 +363,11 @@ msgid ""
 "library. Instead of changing the color of every single hotcue manually, you "
 "can :guilabel:`Replace` to open the cue color replace dialog."
 msgstr ""
+"Parfois, il est nécessaire de remplacer en masse les couleurs des repères "
+"rapides existants dans votre bibliothèque. Au lieu de changer manuellement "
+"la couleur de chaque repère rapide, vous pouvez cliquer "
+":guilabel:`Replacement` pour ouvrir la boite de dialogue de remplacement de "
+"couleur de repère."
 
 #: ../../chapters/preferences/colors.rst:70
 msgid ""
@@ -322,3 +375,7 @@ msgid ""
 "determine which hotcues the new color will be assigned to. If you tick both "
 "checkboxes, the new color will only applied if both conditions match."
 msgstr ""
+"En plus de sélectionner la nouvelle couleur, vous pouvez définir des "
+"conditions qui déterminent à quels repères rapides la nouvelle couleur sera "
+"attribuée. Si vous cochez les deux cases, la nouvelle couleur ne sera "
+"appliquée que si les deux conditions correspondent."

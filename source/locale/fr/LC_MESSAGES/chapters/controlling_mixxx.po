@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -389,8 +390,8 @@ msgstr ""
 #: ../../chapters/controlling_mixxx.rst:81
 msgid "For a list of default shortcuts, go to :ref:`appendix-keyboard`."
 msgstr ""
-"Pour avoir la liste des raccourcis claviers par défaut, allez à "
-":ref:`appendix-keyboard`."
+"Pour avoir la liste des raccourcis claviers par défaut, voir :ref:`appendix-"
+"keyboard`."
 
 #: ../../chapters/controlling_mixxx.rst:84
 msgid "Customizing the keyboard mapping"
@@ -402,7 +403,7 @@ msgid ""
 " to:"
 msgstr ""
 "Mixxx vous permet de personnaliser le contrôle au clavier. Pour plus "
-"d'informations, allez à :"
+"d'informations, voir :"
 
 #: ../../chapters/controlling_mixxx.rst:88
 msgid ":ref:`advanced-keyboard`"
@@ -449,7 +450,7 @@ msgstr "Lancer Mixxx"
 
 #: ../../chapters/controlling_mixxx.rst:117
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr "Allez à :menuselection:`Préférences --> Contrôleurs`"
+msgstr "Aller à :menuselection:`Préférences --> Contrôleurs`"
 
 #: ../../chapters/controlling_mixxx.rst:118
 msgid ""
@@ -572,6 +573,13 @@ msgid ""
 "system>` file browser to navigate there. The locations and more details can "
 "be found in :ref:`appendix-settings-files`."
 msgstr ""
+"Pour utiliser un mappage de contrôleur qui n'est pas fourni avec Mixxx, "
+"placer le mappage de contrôleur dans votre répertoire User Mappings. Pour "
+"l'ouvrir, aller dans :menuselection:`Préférences --> Contrôleurs` et cliquer"
+" sur le bouton :guilabel:`Ouvrir le répertoire des mappages utilisateur`. "
+"Vous pouvez également utiliser votre navigateur de fichiers :term:`OS "
+"<operating system>` pour y accéder. Pour les emplacements et plus de détails"
+" voir :ref:`appendix-settings-files`."
 
 #: ../../chapters/controlling_mixxx.rst:167
 msgid ""
@@ -582,6 +590,13 @@ msgid ""
 "file, also copy that to your User Mapping folder. Restart Mixxx and "
 ":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
+"Si le mappage a été publié sous forme de fichier :file:`.zip`, extraire "
+"d'abord le fichier :file:`.zip` avec clic-droit dessus dans votre navigateur"
+" de fichiers et en sélectionnant l'option d'extraction d'une archive ou d'un"
+" répertoire compressé. Copiez le fichier :file:`.xml` dans votre répertoire "
+"User Mapping. S'il existe un fichier :file:`.js`, copiez-le également dans "
+"votre répertoire User Mapping. Redémarrer Mixxx et :ref:`load the mapping "
+"<control-load-mapping>`."
 
 #: ../../chapters/controlling_mixxx.rst:174
 msgid "Map your own controller"
@@ -595,16 +610,16 @@ msgid ""
 msgstr ""
 "Il n'existe pas de préréglage pour votre contrôleur ou vous souhaitez "
 "modifier un préréglage existant ? Vous pouvez créer votre propre préréglage "
-"en utilisant l'Assistant Contrôleur ou utiliser le scriptage MIDI de Mixxx. "
+"en utilisant l'assistant de contrôleur ou utiliser le scriptage MIDI de "
+"Mixxx. "
 
 #: ../../chapters/controlling_mixxx.rst:180
 msgid "Go to :ref:`advanced-controller` for detailed information."
-msgstr ""
-"Rendez vous à :ref:`advanced-controller` pour des informations détaillées."
+msgstr "Voir :ref:`advanced-controller` pour des informations détaillées."
 
 #: ../../chapters/controlling_mixxx.rst:185
 msgid "Using Timecode Vinyl Records and CDs"
-msgstr "Utiliser des vinyles ou CDs timecodés"
+msgstr "Utiliser des vinyles ou CDs avec timecode"
 
 #: ../../chapters/controlling_mixxx.rst:187
 msgid ""
@@ -618,4 +633,4 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:193
 msgid "Go to :ref:`vinyl-control` for detailed information."
-msgstr "Rendez vous à :ref:`vinyl-control` pour plus d'informations."
+msgstr "Voir :ref:`vinyl-control` pour plus d'informations."

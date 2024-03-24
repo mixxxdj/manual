@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 21:36+0200\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,15 +219,15 @@ msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:6
 msgid "Launching Mixxx from the Command Line"
-msgstr ""
+msgstr "Lancer Mixxx depuis la ligne de commande"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:7
 msgid "To launch Mixxx using the command line:"
-msgstr ""
+msgstr "Lancer Mixxx depuis la ligne de commande :"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:13
 msgid "**Windows**"
-msgstr ""
+msgstr "**Windows**"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:10
 msgid ""
@@ -233,23 +237,31 @@ msgid ""
 "``\\mixxx`` at the end - everything should be inside quotes. Press Enter. "
 "The entire command will look like this ::"
 msgstr ""
+"Localiser le répertoire dans lequel Mixxx est installé et copier le chemin "
+"d'accès au fichier. Vous pouvez également obtenir le chemin d'accès au "
+"fichier par clic-droit sur l'icône Mixxx puis en choisissant « Propriétés »."
+" Copier le chemin d'accès au fichier et coller-le dans le terminal et "
+"ajouter ``\\mixxx`` à la fin - tout doit être entre guillemets. Appuyer sur "
+"Entrée. La commande entière ressemblera à ceci ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:18
 msgid "**macOS**"
-msgstr ""
+msgstr "**macOS**"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:16
 msgid "Similarly, for macOS, the command will be ::"
-msgstr ""
+msgstr "De même, pour macOS, la commande sera ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:23
 msgid "**GNU/ Linux**"
-msgstr ""
+msgstr "**GNU/ Linux**"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:21
 msgid ""
 "If Mixxx is in your system's search path (``$PATH``), you can just type ::"
 msgstr ""
+"Si Mixxx se trouve dans le chemin de recherche de votre système (\"$PATH``),"
+" vous pouvez simplement taper ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:26
 msgid "Command line options"

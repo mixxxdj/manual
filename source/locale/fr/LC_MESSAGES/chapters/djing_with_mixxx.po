@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -642,6 +643,14 @@ msgid ""
 " start recording, we recommend that you adjust the settings in "
 ":menuselection:`Preferences --> Recording`."
 msgstr ""
+"Mixxx peut enregistrer votre mix dans différents formats audio et paramètres"
+" de qualité. Vous pouvez diviser vos enregistrements, générer des :term:`cue"
+" files <cue sheet>`, choisir un répertoire d'enregistrement personnalisé et "
+"définir même votre propre :term:`metadata`. Par défaut, Mixxx enregistre vos"
+" enregistrements sous forme de fichiers :term:`WAV` sans perte dans un sous-"
+"répertoire :file:`Mixxx/Recordings` dans le répertoire de musique Mixxx. "
+"Avant de commencer l'enregistrement, nous vous recommandons d'ajuster les "
+"paramètres dans :menuselection:`Préférences --> Enregistrement`."
 
 #: ../../chapters/djing_with_mixxx.rst:271
 msgid ""
@@ -779,6 +788,13 @@ msgid ""
 "this information <djing-auto-dj-intro-outro>` to line up tracks and "
 "determine how long to crossfade."
 msgstr ""
+"Vous pouvez décider où placer la fin de l’Intro et les points de début de "
+"l’Outro. Marquer l'intégralité de l'Intro et de la sortie permet à Mixxx de "
+"calculer la durée de chaque section et de l'afficher sur l'aperçu de la "
+"forme d'onde. Ces informations peuvent vous aider à savoir quand appuyer sur"
+" lecture sur la piste suivante. :ref:`Auto DJ peut également utiliser ces "
+"informations <djing-auto-dj-intro-outro>` pour aligner les pistes et "
+"déterminer la durée du fondu enchainé."
 
 #: ../../chapters/djing_with_mixxx.rst:336
 msgid "Intro and outro section on a track"

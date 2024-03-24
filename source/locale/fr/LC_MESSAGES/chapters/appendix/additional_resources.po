@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 07:43+0200\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:4
 msgid "Additional Resources"
-msgstr ""
+msgstr "Ressources additionnelles"
 
 #: ../../chapters/appendix/additional_resources.rst:9
 msgid ""
@@ -223,12 +227,18 @@ msgid ""
 "<contributing>`? There are a variety of other resources where you can find "
 "out more:"
 msgstr ""
+"Vous avez des questions ? Besoin de plus d'informations? Voulez "
+":ref:`contribuer <contributing>`? Il existe une variété d’autres ressources "
+"où vous pouvez en savoir plus : "
 
 #: ../../chapters/appendix/additional_resources.rst:12
 msgid ""
 "**Mixxx Website**: For general information and updates, as well as the "
 "latest news on Mixxx, go to: `<https://mixxx.org>`_"
 msgstr ""
+"**Site Web Mixxx** : Pour des informations générales et des mises à jour, "
+"ainsi que les dernières nouvelles sur Mixxx, rendez-vous sur : "
+"`<https://mixxx.org>`_"
 
 #: ../../chapters/appendix/additional_resources.rst:15
 msgid ""
@@ -236,6 +246,10 @@ msgid ""
 "documentation on making controller mappings, and other tips and tricks, go "
 "to: `<https://github.com/mixxxdj/mixxx/wiki>`_"
 msgstr ""
+"**Wiki Mixxxi** : Pour des informations à jour sur le matériel DJ pris en "
+"charge, de la documentation sur la création de mappages de contrôleurs et "
+"d'autres trucs et astuces, rendez-vous sur : "
+"`<https://github.com/mixxxdj/mixxx/wiki> `_  "
 
 #: ../../chapters/appendix/additional_resources.rst:19
 msgid ""
@@ -244,12 +258,20 @@ msgid ""
 "English layout and default shortcuts may be different if your language "
 "setting is not English. :ref:`default keyboard mappings<appendix-keyboard>`"
 msgstr ""
+"**Raccourcis clavier** : il s'agit d'une liste de tous les raccourcis "
+"clavier par défaut de Mixxx. Veuillez noter que ces raccourcis sont destinés"
+" aux claviers configurés en anglais et que les raccourcis par défaut peuvent"
+" être différents si votre paramètre de langue n'est pas l'anglais. "
+":ref:`Mappages de clavier par défaut<appendix-keyboard>`"
 
 #: ../../chapters/appendix/additional_resources.rst:25
 msgid ""
 "**Mixxx Community Forums**: To search for answers, post your question or "
 "answer other DJ's questions, go to: `<https://mixxx.org/forums>`_"
 msgstr ""
+"**Forums de la communauté Mixxx** : pour rechercher des réponses, poster "
+"votre question ou répondre aux questions d'autres DJ, rendez-vous sur : "
+"`<https://mixxx.org/forums>`_"
 
 #: ../../chapters/appendix/additional_resources.rst:28
 msgid ""
@@ -258,18 +280,27 @@ msgid ""
 "<https://zulipchat.com/apps/>`_ can be configured to use the server "
 "``mixxx.zulipchat.com``."
 msgstr ""
+"**Mixxx Zulip Chat** : passez du temps avec les développeurs et les "
+"utilisateurs de Mixxx sur notre `chat Zulip "
+"<https://mixxx.zulipchat.com/>`_. Les `applications autonomes pour Zulip "
+"<https://zulipchat.com/apps/>`_ peuvent être configurées pour utiliser le "
+"serveur ``mixxx.zulipchat.com``."
 
 #: ../../chapters/appendix/additional_resources.rst:33
 msgid ""
 "**Mixxx Source Code**: To download the source code for Mixxx, go to: "
 "`<https://github.com/mixxxdj/mixxx>`_"
 msgstr ""
+"**Code source Mixxx** : Pour télécharger le code source de Mixxx, rendez-"
+"vous sur : `<https://github.com/mixxxdj/mixxx>`_"
 
 #: ../../chapters/appendix/additional_resources.rst:36
 msgid ""
 "**Mixxx Bug Tracker**: To report a bug or request a feature, go to: "
 "`<https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
+"**Mixxx Bug Tracker** : pour signaler un bug ou demander une fonctionnalité,"
+" rendez-vous sur : `<https://github.com/mixxxdj/mixxx/issues>`_"
 
 #: ../../chapters/appendix/additional_resources.rst:39
 msgid ""
@@ -278,6 +309,10 @@ msgid ""
 " the `Translation FAQ "
 "<https://github.com/mixxxdj/mixxx/wiki/internationalization>`_ first."
 msgstr ""
+"**Traductions Mixxx** : Pour traduire Mixxx et promouvoir votre langue "
+"maternelle, rendez-vous sur : `<https://www.transifex.com/mixxx-dj-"
+"software/public/>`_. Veuillez lire d'abord la `FAQ sur la traduction "
+"<https://github.com/mixxxdj/mixxx/wiki/internationalization>`_."
 
 #: ../../chapters/appendix/additional_resources.rst:44
 msgid ""
@@ -285,3 +320,7 @@ msgid ""
 "`Twitter <https://twitter.com/mixxxdj>`_, and `Facebook "
 "<https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
 msgstr ""
+"**Réseaux sociaux** : suivez-nous sur `Mastodon "
+"<https://floss.social/@mixxx>`_, `Twitter <https://twitter.com/mixxxdj>`_ et"
+" `Facebook <https:/ /www.facebook.com/pages/Mixxx-DJ-"
+"Software/21723485212>`_."

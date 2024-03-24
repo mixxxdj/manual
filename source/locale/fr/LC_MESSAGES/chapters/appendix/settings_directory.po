@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
@@ -227,10 +227,14 @@ msgid ""
 "Mixxx installation. If you want to make a backup of your library and all "
 "preferences copy the entire directory to a safe place."
 msgstr ""
+"Le répertoire des paramètres Mixxx contient toutes les données utilisateur "
+"et paramètres de votre installation Mixxx. Si vous souhaitez faire une "
+"sauvegarde de votre bibliothèque et de toutes vos préférences, copier "
+"l'intégralité du répertoire dans un endroit sûr."
 
 #: ../../chapters/appendix/settings_directory.rst:14
 msgid "Location"
-msgstr ""
+msgstr "Emplacement"
 
 #: ../../chapters/appendix/settings_directory.rst:16
 msgid ""
@@ -240,6 +244,12 @@ msgid ""
 "to the bottom of the page and click on :guilabel:`Open Mixxx Settings "
 "Directory`."
 msgstr ""
+"Vous pouvez accéder manuellement à l’emplacement du répertoire des "
+"paramètres comme décrit ci-dessous. Depuis Mixxx 2.3, vous pouvez également "
+"ouvrir ce répertoire dans votre navigateur de fichiers depuis Mixxx : allez "
+"dans :menuselection:`Préférences --> Bibliothèque`, faites défiler jusqu'en "
+"bas de la page et cliquer sur :guilabel:`Ouvrir le répertoire des paramètres"
+" utilisateur Mixxx.`."
 
 #: ../../chapters/appendix/settings_directory.rst:18
 msgid ""
@@ -247,77 +257,90 @@ msgid ""
 "directories beginning with a dot '.' on Linux. So if you have not already, "
 "you will need to set your file manager to show hidden files and folders."
 msgstr ""
+"Sous Windows, le répertoire :file:`AppData` est masqué, ainsi que tous les "
+"fichiers et répertoires commençant par un point '.' sous Linux. Donc, si ce "
+"n'est pas déjà fait, vous devrez configurer votre gestionnaire de fichiers "
+"pour qu'il affiche les fichiers et répertoires cachés."
 
 #: ../../chapters/appendix/settings_directory.rst:27
 msgid "**Windows**"
-msgstr ""
+msgstr "**Windows**"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "``%LOCALAPPDATA%\\Mixxx``"
-msgstr ""
+msgstr "``%LOCALAPPDATA%\\Mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "Copy this and paste it into the location bar of a Computer or Folder window."
 msgstr ""
+"Copier-le et coller-le dans la barre d'emplacement d'une fenêtre ordinateur "
+"ou répertoire."
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "``%LOCALAPPDATA%`` is then resolved to ``C:\\Users\\<your-"
 "username>\\AppData\\Local``"
 msgstr ""
+"``%LOCALAPPDATA%`` est alors atteint à ``C:\\Users\\<your-"
+"username>\\AppData\\Local``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "Use ``%USERPROFILE%\\Local Settings\\Application Data\\Mixxx`` if you want "
 "to migrate your settings from XP or earlier."
 msgstr ""
+"Utiliser ``%USERPROFILE%\\Local Settings\\Application Data\\Mixxx`` si vous "
+"souhaitez migrer vos paramètres depuis XP ou une version antérieure."
 
 #: ../../chapters/appendix/settings_directory.rst:31
 msgid "**macOS**"
-msgstr ""
+msgstr "**macOS**"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "Mixxx 2.3: ``~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
 "Support/Mixxx``"
 msgstr ""
+"Mixxx 2.3 : ``~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
+"Support/Mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
-msgstr ""
+msgstr "Mixxx 2.2 et antérieur : ``~/Library/Application Support/Mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:39
 msgid "**Linux**"
-msgstr ""
+msgstr "**Linux**"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "For distribution packages, or Mixxx installed from source:"
 msgstr ""
+"Pour les packages de distribution ou Mixxx installés à partir des sources :"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "``~/.mixxx/``"
-msgstr ""
+msgstr "``~/.mixxx/``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "This resolves to ``/home/<your-username>/.mixxx``"
-msgstr ""
+msgstr "Ceci aboutit à ``/home/<your-username>/.mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "For Flatpak:"
-msgstr ""
+msgstr "Pour Flatpak :"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
-msgstr ""
+msgstr "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:42
 msgid "Content"
-msgstr ""
+msgstr "Contenu"
 
 #: ../../chapters/appendix/settings_directory.rst:48
 msgid "**analysis**"
-msgstr ""
+msgstr "**analysis**"
 
 #: ../../chapters/appendix/settings_directory.rst:45
 msgid ""
@@ -326,18 +349,23 @@ msgid ""
 "recreated each time a track is loaded into a Mixxx deck. Thus it does not "
 "belong to the essential data that needs to be backed up."
 msgstr ""
+"Ceci contient toutes les données d'analyse de forme d'onde. Ceci est utilisé"
+" pour composer la forme d'onde défilante et l'aperçu de la piste pour les "
+"pistes. Si elles n'existent pas, ces données seront recréées à chaque fois "
+"qu'une piste est chargé dans une platine Mixxx. Elle ne fait donc pas partie"
+" des données essentielles qui doivent être sauvegardées."
 
 #: ../../chapters/appendix/settings_directory.rst:51
 msgid "**broadcast_profiles**"
-msgstr ""
+msgstr "**broadcast_profiles**"
 
 #: ../../chapters/appendix/settings_directory.rst:51
 msgid "All broadcast profiles you have configured."
-msgstr ""
+msgstr "Tous les profils de diffusion que vous avez configurés."
 
 #: ../../chapters/appendix/settings_directory.rst:57
 msgid "**controllers**"
-msgstr ""
+msgstr "**controllers**"
 
 #: ../../chapters/appendix/settings_directory.rst:54
 msgid ""
@@ -346,68 +374,87 @@ msgid ""
 " modified in :guilabel:`Preferences` > :guilabel:`Controllers` > "
 ":guilabel:`YourController` manually or with the MIDI Wizard."
 msgstr ""
+"Tous les mappages de contrôleurs que vous avez stockés. Ceux-ci peuvent être"
+" des téléchargements des :ref:`mappages personnalisés <advanced-"
+"controller>`, ainsi que les mappages intégrés que vous avez modifiés "
+"manuellement dans :guilabel:`Preferences` > :guilabel:`Controleurs` > "
+":guilabel:`VotreContrôleur`  ou avec l'assistant MIDI."
 
 #: ../../chapters/appendix/settings_directory.rst:60
 msgid "**effects.xml**"
-msgstr ""
+msgstr "**effects.xml**"
 
 #: ../../chapters/appendix/settings_directory.rst:60
 msgid ""
 "The current configuration of the 4 effect units, incl. the state of all "
 "controls."
 msgstr ""
+"La configuration actuelle des 4 unités d'effets, inclut l'état de tous les "
+"contrôles."
 
 #: ../../chapters/appendix/settings_directory.rst:64
 msgid "**mixxx.cfg**"
-msgstr ""
+msgstr "**mixxx.cfg**"
 
 #: ../../chapters/appendix/settings_directory.rst:63
 msgid ""
 "Everything you configured in the Preferences, deck settings, skin settings, "
 "AutoDJ configuration, effect routing etc."
 msgstr ""
+"Tout ce que vous avez configuré dans les Préférences, les paramètres de "
+"platine, les paramètres de thème, la configuration AutoDJ, le routage des "
+"effets, etc."
 
 #: ../../chapters/appendix/settings_directory.rst:68
 msgid "**mixxx.log[.NN]**"
-msgstr ""
+msgstr "**mixxx.log[.NN]**"
 
 #: ../../chapters/appendix/settings_directory.rst:67
 msgid ""
 "Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
 "recent one, followed by ``mixxx.log.1`` etc."
 msgstr ""
+"Fichiers de journalisation des dernières sessions Mixxx, ``mixxx.log`` étant"
+" le plus récent, suivi de ``mixxx.log.1`` etc."
 
 #: ../../chapters/appendix/settings_directory.rst:72
 msgid "**mixxxdb.sqlite**"
-msgstr ""
+msgstr "**mixxxdb.sqlite**"
 
 #: ../../chapters/appendix/settings_directory.rst:71
 msgid ""
 "The Mixxx library database. All track locations, all track metadata, saved "
 "cues, loops, colors, playlists, crates, ..."
 msgstr ""
+"La base de données de la bibliothèque Mixxx. Tous les emplacements des "
+"pistes, toutes les métadonnées des pistes, les repères enregistrés, les "
+"boucles, les couleurs, les listes de lecture, les bacs, ..."
 
 #: ../../chapters/appendix/settings_directory.rst:75
 msgid "**samplers.xml**"
-msgstr ""
+msgstr "**samplers.xml**"
 
 #: ../../chapters/appendix/settings_directory.rst:75
 msgid "Stores tracks currently loaded to sample decks."
 msgstr ""
+"Stocke les pistes actuellement chargées dans les platines d’échantillons."
 
 #: ../../chapters/appendix/settings_directory.rst:78
 msgid "**sandbox.cfg**"
-msgstr ""
+msgstr "**sandbox.cfg**"
 
 #: ../../chapters/appendix/settings_directory.rst:78
 msgid ""
 "This is used under macOS to track which files Mixxx will have access to"
 msgstr ""
+"Ceci est utilisé sous macOS pour suivre les fichiers auxquels Mixxx aura "
+"accès"
 
 #: ../../chapters/appendix/settings_directory.rst:80
 msgid "**soundconfig.xml**"
-msgstr ""
+msgstr "**soundconfig.xml**"
 
 #: ../../chapters/appendix/settings_directory.rst:81
 msgid "Sound device configuration from Preferences > Sound Hardware"
 msgstr ""
+"Configuration du périphérique audio depuis Préférences > Matériel sonore"

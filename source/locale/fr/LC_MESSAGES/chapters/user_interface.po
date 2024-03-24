@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 07:22+0100\n"
+"POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -445,7 +446,7 @@ msgid ""
 "speed you are tapping, go to :ref:`control-keyboard` for more information."
 msgstr ""
 "Vous pouvez utiliser un raccourci clavier et tapoter sur le rythme, pour "
-"régler le BPM à la vitesse à laquelle vous tapoter, aller à :ref:`control-"
+"régler le BPM à la vitesse à laquelle vous tapoter, voir :ref:`control-"
 "keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:147
@@ -799,7 +800,7 @@ msgstr ""
 "position actuelle soit marquée comme battement. Ceci est utile si Mixxx a pu"
 " détecter précisément le :term:`BPM` de la piste mais n'a pas réussi à "
 "aligner les marqueurs de battements sur les battements. Pour plus "
-"d'informations, voir le chapitre :ref:`configuration-bpm-detection`."
+"d'informations, voir chapitre :ref:`configuration-bpm-detection`."
 
 #: ../../chapters/user_interface.rst:317
 #: ../../chapters/user_interface.rst:1119
@@ -823,6 +824,8 @@ msgid ""
 "Alternatively you can use a keyboard shortcut, go to the chapter "
 ":ref:`control-keyboard` for more information."
 msgstr ""
+"Vous pouvez également utiliser un raccourci clavier, voir chapitre "
+":ref:`control-keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:321
 #: ../../chapters/user_interface.rst:1116
@@ -966,6 +969,11 @@ msgid ""
 "and Cue buttons depends on the selected Cue mode. To change the Cue mode, go"
 " to :menuselection:`Preferences --> Decks --> Cue mode`."
 msgstr ""
+"Dans votre configuration Mixxx prend en charge différents modes de repèrage "
+"qui s'adaptent à d'autres appareils ou à vos préférences personnelles. Le "
+"comportement réel des boutons Lecture, Pause et Repères dépend du mode de "
+"repèrage sélectionné. Pour changer le mode de repérage, aller dans "
+":menuselection:`Préférences --> Platines --> Mode repérage`."
 
 #: ../../chapters/user_interface.rst:398
 msgid "**Mixxx mode (default)**"
@@ -1118,8 +1126,8 @@ msgid ""
 "You can also use keyboard shortcuts for Cueing. Go to :ref:`control-"
 "keyboard` for more information."
 msgstr ""
-"Vous pouvez également utiliser des raccourcis clavier pour le repérage. "
-"Allez sur :ref:`control-keyboard` pour plus d'informations."
+"Vous pouvez également utiliser des raccourcis clavier pour le repérage. Voir"
+" :ref:`control-keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:468
 msgid "Intro/Outro Markers"
@@ -1171,11 +1179,11 @@ msgstr ""
 
 #: ../../chapters/user_interface.rst:500
 msgid "Transport Controls"
-msgstr "Contrôles du déplacement"
+msgstr "Contrôles de transport"
 
 #: ../../chapters/user_interface.rst:513
 msgid "The transport controls of the deck"
-msgstr "Les contrôles du déplacement de la platine"
+msgstr "Les contrôles de transport de la platine"
 
 #: ../../chapters/user_interface.rst:516
 msgid "**Beatjump/ Loop Move Size**"
@@ -1235,7 +1243,7 @@ msgid ""
 "chapter :ref:`vinyl-control`."
 msgstr ""
 "Pour plus d'informations sur l'utilisation du Contrôle Vinyle de votre "
-"installation, se référer au chapitre :ref:`vinyl-control`."
+"installation, voir chapitre :ref:`vinyl-control`."
 
 #: ../../chapters/user_interface.rst:550
 msgid "**Vinyl button**"
@@ -1437,6 +1445,10 @@ msgid ""
 "loaded go to :menuselection:`Preferences --> Decks --> Speed (Tempo) and Key"
 " (Pitch) options --> Reset on track load`."
 msgstr ""
+"Pour réinitialiser automatiquement le taux et/ou la hauteur tonale chaque "
+"fois qu'une nouvelle piste est chargée, aller dans "
+":menuselection:`Préférences --> Platines --> Options de vitesse (Tempo) et "
+"tonalité (Hauteur) --> Réinitialiser au chargement de piste`."
 
 #: ../../chapters/user_interface.rst:643
 msgid "**Temporary Pitch/Rate buttons (Nudge)**"
@@ -1620,8 +1632,8 @@ msgid ""
 "for more information."
 msgstr ""
 "Pour sauter à différents endroits de la piste, vous pouvez utiliser ces "
-"boutons numérotés. Vous pouvez aussi utiliser les raccourcis du clavier, se "
-"référer à :ref:`control-keyboard` pour plus d'informations."
+"boutons numérotés. Vous pouvez aussi utiliser les raccourcis du clavier, "
+"voir :ref:`control-keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:743
 msgid "Setting Hotcues"
@@ -2009,8 +2021,8 @@ msgstr ""
 "Vous pouvez inverser la configuration du curseur de mixage, de sorte que la "
 "platine droite se trouve à l'extrémité gauche du curseur de mixage et "
 "inversement. Ceci est également connu comme *Hamster Style*. Pour ajuster le"
-" curseur de mixage à votre style de mixage, allez dans "
-":menuselection:`Préférences -> curseur de mixage`."
+" curseur de mixage à votre style de mixage, aller dans "
+":menuselection:`Préférences -> Table de mixage`."
 
 #: ../../chapters/user_interface.rst:956
 msgid ""
@@ -2574,5 +2586,4 @@ msgstr ""
 msgid ""
 "For more information, go to the chapter :ref:`library-previewing-tracks`."
 msgstr ""
-"Pour plus d'informations, reportez-vous au chapitre :ref:`library-"
-"previewing-tracks`."
+"Pour plus d'informations, voir chapitre :ref:`library-previewing-tracks`."
