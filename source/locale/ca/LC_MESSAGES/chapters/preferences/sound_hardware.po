@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -506,8 +506,8 @@ msgstr ""
 #: ../../chapters/preferences/sound_hardware.rst:196
 msgid ""
 "All outputs are usually sent to a channel pair (stereo), though they can "
-"also be sent to one channel only (mono mixdown), for exampleif you're short "
-"on output channels, like when you need to use one stereo output for both "
+"also be sent to one channel only (mono mixdown), for example if you're short"
+" on output channels, like when you need to use one stereo output for both "
 "master and headphones (see :ref:`setup-laptop-with-splitter`)."
 msgstr ""
 
@@ -575,16 +575,14 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:234
-msgid "**Microphone 1-4**: ref:`Microphone <microphones>` inputs."
+msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:236
-msgid ""
-"**Auxiliary 1-4**: Auxiliary inputs. .. TODO: link to Aux chapter when it's "
-"been added."
+msgid "**Auxiliary 1-4**: Auxiliary inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:239
+#: ../../chapters/preferences/sound_hardware.rst:238
 msgid ""
 "**Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording "
 "<djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`. "

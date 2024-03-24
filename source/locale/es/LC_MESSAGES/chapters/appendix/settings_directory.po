@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
@@ -230,12 +230,21 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:16
 msgid ""
+"You can navigate to the settings directory location manually as described "
+"below. Since Mixxx 2.3 you can also open this directory in your file browser"
+" from within Mixxx: go to :menuselection:`Preferences --> Library`, scroll "
+"to the bottom of the page and click on :guilabel:`Open Mixxx Settings "
+"Directory`."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:18
+msgid ""
 "On Windows, the :file:`AppData` folder is hidden, as well as all files and "
 "directories beginning with a dot '.' on Linux. So if you have not already, "
 "you will need to set your file manager to show hidden files and folders."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:25
+#: ../../chapters/appendix/settings_directory.rst:27
 msgid "**Windows**"
 msgstr ""
 
@@ -260,7 +269,7 @@ msgid ""
 "to migrate your settings from XP or earlier."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:29
+#: ../../chapters/appendix/settings_directory.rst:31
 msgid "**macOS**"
 msgstr ""
 
@@ -274,8 +283,12 @@ msgstr ""
 msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:33
+#: ../../chapters/appendix/settings_directory.rst:39
 msgid "**Linux**"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "For distribution packages, or Mixxx installed from source:"
 msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:0
@@ -286,15 +299,23 @@ msgstr ""
 msgid "This resolves to ``/home/<your-username>/.mixxx``"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:36
-msgid "Content"
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "For Flatpak:"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:0
+msgid "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
 msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:42
+msgid "Content"
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:48
 msgid "**analysis**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:39
+#: ../../chapters/appendix/settings_directory.rst:45
 msgid ""
 "This contains all waveform analysis data. This is used to compose a track's "
 "scrolling waveform and track overview. If not existent, this data will be "
@@ -302,19 +323,19 @@ msgid ""
 "belong to the essential data that needs to be backed up."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:45
+#: ../../chapters/appendix/settings_directory.rst:51
 msgid "**broadcast_profiles**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:45
+#: ../../chapters/appendix/settings_directory.rst:51
 msgid "All broadcast profiles you have configured."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:51
+#: ../../chapters/appendix/settings_directory.rst:57
 msgid "**controllers**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:48
+#: ../../chapters/appendix/settings_directory.rst:54
 msgid ""
 "All controller mappings you stored. This can be downloaded and :ref:`self-"
 "built mappings <advanced-controller>`, as well as built-in mappings that you"
@@ -322,67 +343,67 @@ msgid ""
 ":guilabel:`YourController` manually or with the MIDI Wizard."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:54
+#: ../../chapters/appendix/settings_directory.rst:60
 msgid "**effects.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:54
+#: ../../chapters/appendix/settings_directory.rst:60
 msgid ""
 "The current configuration of the 4 effect units, incl. the state of all "
 "controls."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:58
+#: ../../chapters/appendix/settings_directory.rst:64
 msgid "**mixxx.cfg**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:57
+#: ../../chapters/appendix/settings_directory.rst:63
 msgid ""
 "Everything you configured in the Preferences, deck settings, skin settings, "
 "AutoDJ configuration, effect routing etc."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:62
+#: ../../chapters/appendix/settings_directory.rst:68
 msgid "**mixxx.log[.NN]**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:61
+#: ../../chapters/appendix/settings_directory.rst:67
 msgid ""
 "Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
 "recent one, followed by ``mixxx.log.1`` etc."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:66
+#: ../../chapters/appendix/settings_directory.rst:72
 msgid "**mixxxdb.sqlite**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:65
+#: ../../chapters/appendix/settings_directory.rst:71
 msgid ""
 "The Mixxx library database. All track locations, all track metadata, saved "
 "cues, loops, colors, playlists, crates, ..."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:69
+#: ../../chapters/appendix/settings_directory.rst:75
 msgid "**samplers.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:69
+#: ../../chapters/appendix/settings_directory.rst:75
 msgid "Stores tracks currently loaded to sample decks."
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:72
+#: ../../chapters/appendix/settings_directory.rst:78
 msgid "**sandbox.cfg**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:72
+#: ../../chapters/appendix/settings_directory.rst:78
 msgid ""
 "This is used under macOS to track which files Mixxx will have access to"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:74
+#: ../../chapters/appendix/settings_directory.rst:80
 msgid "**soundconfig.xml**"
 msgstr ""
 
-#: ../../chapters/appendix/settings_directory.rst:75
+#: ../../chapters/appendix/settings_directory.rst:81
 msgid "Sound device configuration from Preferences > Sound Hardware"
 msgstr ""

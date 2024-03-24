@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
@@ -330,7 +330,7 @@ msgstr "Atalhos do Teclado do Mixxx (para o layout de teclado en-us)"
 
 #: ../../chapters/controlling_mixxx.rst:62
 msgid ""
-":download:`Download the image <../_static/Mixxx-230-Keyboard-Mapping.png>`"
+":download:`Download the image <../_static/Mixxx-250-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:64
