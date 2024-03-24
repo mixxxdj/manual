@@ -76,6 +76,7 @@ No.       Control                                             Function
 ========  ==================================================  ==========================================
 1         :hwlabel:`LOAD` buttons                             Load track selected in library into deck.
 2         Rotary Selector                                     Press to toggle focus between the library sidebar and associated panels. Turn to move focus up or down.
+2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to zoom parallel waveform.
 ========  ==================================================  ==========================================
 
 Deck sections (p. 15)

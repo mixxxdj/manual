@@ -219,7 +219,11 @@ Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
-* Pioneer DDJ-FLX4 mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
+* Hercules Inpulse 200: Configure shift-browser knob to scroll the library (quick) `#12932 <https://github.com/mixxxdj/mixxx/pull/12932>`__
+* Pioneer DDJ-FLX4: Add waveform zoom and other mapping improvements
+  `#12896 <https://github.com/mixxxdj/mixxx/pull/12896>`__
+  `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
+* Traktor Kontrol F1: Fixes for hid-parser and related script `#12876 <https://github.com/mixxxdj/mixxx/pull/12876>`__
 * Traktor S3: Fix mapping crash on macOS `#12840 <https://github.com/mixxxdj/mixxx/pull/12840>`__
 
 Target Support
@@ -230,6 +234,16 @@ Target Support
   `#12853 <https://github.com/mixxxdj/mixxx/pull/12853>`__
   `#12847 <https://github.com/mixxxdj/mixxx/pull/12847>`__
   `#12822 <https://github.com/mixxxdj/mixxx/pull/12822>`__
+  `#12892 <https://github.com/mixxxdj/mixxx/pull/12892>`__
+
+Miscellaneous
+^^^^^^^^^^^^^
+
+
+* Remove unnecessary unpolish operation of the style, before polish the new style `#12445 <https://github.com/mixxxdj/mixxx/pull/12445>`__
+* Developer Tools: Initially sort controls by group name, ascending `#12884 <https://github.com/mixxxdj/mixxx/pull/12884>`__
+* History: Show track count and duration in sidebar `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__
+* Prevent removing tracks from locked playlists `#12927 <https://github.com/mixxxdj/mixxx/pull/12927>`__
 
 .. _v2-4-0:
 
@@ -747,7 +761,7 @@ Skins
   `#11975 <https://github.com/mixxxdj/mixxx/pull/11975>`__
   `#11957 <https://github.com/mixxxdj/mixxx/issues/11957>`__
 * Fix 500ms blocking of the whole event loop, when holding mouse down on title bar on Windows `#12359 <https://github.com/mixxxdj/mixxx/pull/12359>`__ `#12358 <https://github.com/mixxxdj/mixxx/issues/12358>`__ `#12433 <https://github.com/mixxxdj/mixxx/pull/12433>`__ `#12458 <https://github.com/mixxxdj/mixxx/pull/12458>`__
-* change SKIN_WARNING to show the skin file:line first, then c++ context `#12253 <https://github.com/mixxxdj/mixxx/pull/12253>`__
+* Change SKIN_WARNING to show the skin file and line first, then c++ context `#12253 <https://github.com/mixxxdj/mixxx/pull/12253>`__
 * Fix style of selected QComboBox items on Windows `#12339 <https://github.com/mixxxdj/mixxx/pull/12339>`__ `#12323 <https://github.com/mixxxdj/mixxx/issues/12323>`__
 * Fix reading the Spinny cover on Windows  `#12103 <https://github.com/mixxxdj/mixxx/pull/12103>`__ `#11131 <https://github.com/mixxxdj/mixxx/issues/11131>`__
 * Fix inconsistent/wrong musical keys in the UI `#12051 <https://github.com/mixxxdj/mixxx/pull/12051>`__ `#12044 <https://github.com/mixxxdj/mixxx/issues/12044>`__
