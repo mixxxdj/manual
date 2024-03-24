@@ -1,6 +1,1342 @@
 [main]
 host = https://www.transifex.com
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:404]
+file_filter            = source/locale/<lang>/LC_MESSAGES/404.po
+source_file            = source/locale/pot/404.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--advanced_topics]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/advanced_topics.po
+source_file            = source/locale/pot/chapters/advanced_topics.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix.po
+source_file            = source/locale/pot/chapters/appendix.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--additional_resources]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/additional_resources.po
+source_file            = source/locale/pot/chapters/appendix/additional_resources.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--application_shortcuts]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/application_shortcuts.po
+source_file            = source/locale/pot/chapters/appendix/application_shortcuts.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--changelog]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/changelog.po
+source_file            = source/locale/pot/chapters/appendix/changelog.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--commandline_dev_tools]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/commandline_dev_tools.po
+source_file            = source/locale/pot/chapters/appendix/commandline_dev_tools.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--keyboard_mapping_table]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/keyboard_mapping_table.po
+source_file            = source/locale/pot/chapters/appendix/keyboard_mapping_table.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--mixxx_controls]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/mixxx_controls.po
+source_file            = source/locale/pot/chapters/appendix/mixxx_controls.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--appendix--settings_directory]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix/settings_directory.po
+source_file            = source/locale/pot/chapters/appendix/settings_directory.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--controlling_mixxx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/controlling_mixxx.po
+source_file            = source/locale/pot/chapters/controlling_mixxx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--djing_with_mixxx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/djing_with_mixxx.po
+source_file            = source/locale/pot/chapters/djing_with_mixxx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--effects]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/effects.po
+source_file            = source/locale/pot/chapters/effects.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--example_setups]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/example_setups.po
+source_file            = source/locale/pot/chapters/example_setups.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--getting_involved]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/getting_involved.po
+source_file            = source/locale/pot/chapters/getting_involved.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--getting_started]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/getting_started.po
+source_file            = source/locale/pot/chapters/getting_started.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--hardware]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/hardware.po
+source_file            = source/locale/pot/chapters/hardware.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--introduction]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/introduction.po
+source_file            = source/locale/pot/chapters/introduction.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--library]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/library.po
+source_file            = source/locale/pot/chapters/library.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--livebroadcasting]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/livebroadcasting.po
+source_file            = source/locale/pot/chapters/livebroadcasting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--microphones]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/microphones.po
+source_file            = source/locale/pot/chapters/microphones.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences.po
+source_file            = source/locale/pot/chapters/preferences.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--beat_detection]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/beat_detection.po
+source_file            = source/locale/pot/chapters/preferences/beat_detection.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--colors]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/colors.po
+source_file            = source/locale/pot/chapters/preferences/colors.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--equalizers]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/equalizers.po
+source_file            = source/locale/pot/chapters/preferences/equalizers.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--key_detection]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/key_detection.po
+source_file            = source/locale/pot/chapters/preferences/key_detection.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--library]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/library.po
+source_file            = source/locale/pot/chapters/preferences/library.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--preferences--sound_hardware]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/sound_hardware.po
+source_file            = source/locale/pot/chapters/preferences/sound_hardware.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--quickstart]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/quickstart.po
+source_file            = source/locale/pot/chapters/quickstart.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--user_interface]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/user_interface.po
+source_file            = source/locale/pot/chapters/user_interface.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:chapters--vinyl_control]
+file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.po
+source_file            = source/locale/pot/chapters/vinyl_control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:glossary_]
+file_filter            = source/locale/<lang>/LC_MESSAGES/glossary.po
+source_file            = source/locale/pot/glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--akai_lpd8]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/akai_lpd8.po
+source_file            = source/locale/pot/hardware/controllers/akai_lpd8.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--akai_mpd24]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/akai_mpd24.po
+source_file            = source/locale/pot/hardware/controllers/akai_mpd24.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--allen_heath_xone_k2_k1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/allen_heath_xone_k2_k1.po
+source_file            = source/locale/pot/hardware/controllers/allen_heath_xone_k2_k1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--american_audio_radius_2000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/american_audio_radius_2000.po
+source_file            = source/locale/pot/hardware/controllers/american_audio_radius_2000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--american_audio_vms2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/american_audio_vms2.po
+source_file            = source/locale/pot/hardware/controllers/american_audio_vms2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--american_audio_vms4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/american_audio_vms4.po
+source_file            = source/locale/pot/hardware/controllers/american_audio_vms4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_bcd2000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_bcd2000.po
+source_file            = source/locale/pot/hardware/controllers/behringer_bcd2000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_bcd3000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_bcd3000.po
+source_file            = source/locale/pot/hardware/controllers/behringer_bcd3000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_bcr2000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_bcr2000.po
+source_file            = source/locale/pot/hardware/controllers/behringer_bcr2000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_cmd_micro]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_cmd_micro.po
+source_file            = source/locale/pot/hardware/controllers/behringer_cmd_micro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_cmd_mm_1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_cmd_mm_1.po
+source_file            = source/locale/pot/hardware/controllers/behringer_cmd_mm_1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_cmd_studio_4a]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_cmd_studio_4a.po
+source_file            = source/locale/pot/hardware/controllers/behringer_cmd_studio_4a.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--behringer_ddm4000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_ddm4000.po
+source_file            = source/locale/pot/hardware/controllers/behringer_ddm4000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_dn_hs5500]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_dn_hs5500.po
+source_file            = source/locale/pot/hardware/controllers/denon_dn_hs5500.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_dn_sc2000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_dn_sc2000.po
+source_file            = source/locale/pot/hardware/controllers/denon_dn_sc2000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_mc3000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_mc3000.po
+source_file            = source/locale/pot/hardware/controllers/denon_mc3000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_mc4000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_mc4000.po
+source_file            = source/locale/pot/hardware/controllers/denon_mc4000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_mc6000mk2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_mc6000mk2.po
+source_file            = source/locale/pot/hardware/controllers/denon_mc6000mk2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--denon_mc7000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/denon_mc7000.po
+source_file            = source/locale/pot/hardware/controllers/denon_mc7000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_cdj_101]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_cdj_101.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_cdj_101.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_djm_101]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_djm_101.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_djm_101.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_imix_reload]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_imix_reload.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_imix_reload.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_kontrol_one]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_kontrol_one.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_kontrol_one.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_mix_101]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_mix_101.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_mix_101.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_tech_mixer_one]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_tech_mixer_one.po
+source_file            = source/locale/pot/hardware/controllers/dj_tech_mixer_one.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_techtools_midi_figher_classic]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_techtools_midi_figher_classic.po
+source_file            = source/locale/pot/hardware/controllers/dj_techtools_midi_figher_classic.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--dj_techtools_midi_figher_twister]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_techtools_midi_figher_twister.po
+source_file            = source/locale/pot/hardware/controllers/dj_techtools_midi_figher_twister.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--eks_otus]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/eks_otus.po
+source_file            = source/locale/pot/hardware/controllers/eks_otus.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--electrix_tweaker]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/electrix_tweaker.po
+source_file            = source/locale/pot/hardware/controllers/electrix_tweaker.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--evolution_x_session]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/evolution_x_session.po
+source_file            = source/locale/pot/hardware/controllers/evolution_x_session.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--faderfox_dj2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/faderfox_dj2.po
+source_file            = source/locale/pot/hardware/controllers/faderfox_dj2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--gemini_cdmp_7000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/gemini_cdmp_7000.po
+source_file            = source/locale/pot/hardware/controllers/gemini_cdmp_7000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--gemini_firstmix]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/gemini_firstmix.po
+source_file            = source/locale/pot/hardware/controllers/gemini_firstmix.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_4_mx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_4_mx.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_4_mx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_mac_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_mac_edition.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_mac_edition.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_mk1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_mk1.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_mk1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_mk2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_mk2.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_mk2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_mk4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_mk4.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_mk4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_rmx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_rmx.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_rmx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_dj_console_rmx2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_dj_console_rmx2.po
+source_file            = source/locale/pot/hardware/controllers/hercules_dj_console_rmx2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_MIX]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_MIX.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_MIX.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_air]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_air.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_air.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_compact]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_compact.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_compact.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_inpulse_200]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_inpulse_200.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_inpulse_200.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_inpulse_300]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_inpulse_300.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_inpulse_300.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_instinct]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_instinct.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_instinct.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_jogvision]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_jogvision.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_jogvision.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_mp3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_mp3.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_mp3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_mp3_e2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_mp3_e2.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_mp3_e2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_djcontrol_starlight]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_starlight.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_starlight.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--hercules_p32_dj]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_p32_dj.po
+source_file            = source/locale/pot/hardware/controllers/hercules_p32_dj.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--ion_discover_dj]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/ion_discover_dj.po
+source_file            = source/locale/pot/hardware/controllers/ion_discover_dj.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--ion_discover_dj_pro]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/ion_discover_dj_pro.po
+source_file            = source/locale/pot/hardware/controllers/ion_discover_dj_pro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--keith_mcmillen_quneo]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/keith_mcmillen_quneo.po
+source_file            = source/locale/pot/hardware/controllers/keith_mcmillen_quneo.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--kontrol_dj_kdj500]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/kontrol_dj_kdj500.po
+source_file            = source/locale/pot/hardware/controllers/kontrol_dj_kdj500.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--korg_kaoss_dj]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/korg_kaoss_dj.po
+source_file            = source/locale/pot/hardware/controllers/korg_kaoss_dj.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--korg_nanokontrol]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/korg_nanokontrol.po
+source_file            = source/locale/pot/hardware/controllers/korg_nanokontrol.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--korg_nanokontrol2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/korg_nanokontrol2.po
+source_file            = source/locale/pot/hardware/controllers/korg_nanokontrol2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--korg_nanopad2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/korg_nanopad2.po
+source_file            = source/locale/pot/hardware/controllers/korg_nanopad2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--m_audio_x_session_pro]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/m_audio_x_session_pro.po
+source_file            = source/locale/pot/hardware/controllers/m_audio_x_session_pro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--m_audio_xponent]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/m_audio_xponent.po
+source_file            = source/locale/pot/hardware/controllers/m_audio_xponent.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--miditech_midicontrol]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/miditech_midicontrol.po
+source_file            = source/locale/pot/hardware/controllers/miditech_midicontrol.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--mixman_dm2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/mixman_dm2.po
+source_file            = source/locale/pot/hardware/controllers/mixman_dm2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--mixvibes_u_mix_control_2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/mixvibes_u_mix_control_2.po
+source_file            = source/locale/pot/hardware/controllers/mixvibes_u_mix_control_2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_f1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_f1.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_f1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s2_mk1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s2_mk1.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s2_mk1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s2_mk2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s2_mk2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s2_mk3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s2_mk3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s3.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s4_mk2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_s4_mk3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_x1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_x1.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_x1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--native_instruments_traktor_kontrol_z1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_z1.po
+source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_z1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--nintendo_wiimote]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/nintendo_wiimote.po
+source_file            = source/locale/pot/hardware/controllers/nintendo_wiimote.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--novation_dicer]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/novation_dicer.po
+source_file            = source/locale/pot/hardware/controllers/novation_dicer.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--novation_launchpad_mini]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/novation_launchpad_mini.po
+source_file            = source/locale/pot/hardware/controllers/novation_launchpad_mini.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--novation_launchpad_mk1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/novation_launchpad_mk1.po
+source_file            = source/locale/pot/hardware/controllers/novation_launchpad_mk1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--novation_launchpad_mk2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/novation_launchpad_mk2.po
+source_file            = source/locale/pot/hardware/controllers/novation_launchpad_mk2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--novation_twitch]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/novation_twitch.po
+source_file            = source/locale/pot/hardware/controllers/novation_twitch.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_dj2go]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_dj2go.po
+source_file            = source/locale/pot/hardware/controllers/numark_dj2go.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_dj2go2_touch]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_dj2go2_touch.po
+source_file            = source/locale/pot/hardware/controllers/numark_dj2go2_touch.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_idj_live_ii]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_idj_live_ii.po
+source_file            = source/locale/pot/hardware/controllers/numark_idj_live_ii.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack_platinum]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_platinum.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_platinum.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack_pro]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_pro.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_pro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack_pro_3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_pro_3.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_pro_3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack_pro_fx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_pro_fx.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_pro_fx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_mixtrack_pro_ii]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_pro_ii.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_pro_ii.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_n4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_n4.po
+source_file            = source/locale/pot/hardware/controllers/numark_n4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_ns7]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_ns7.po
+source_file            = source/locale/pot/hardware/controllers/numark_ns7.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_omni_control]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_omni_control.po
+source_file            = source/locale/pot/hardware/controllers/numark_omni_control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_party_mix]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_party_mix.po
+source_file            = source/locale/pot/hardware/controllers/numark_party_mix.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_total_control]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_total_control.po
+source_file            = source/locale/pot/hardware/controllers/numark_total_control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--numark_v7]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_v7.po
+source_file            = source/locale/pot/hardware/controllers/numark_v7.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_cdj_2000]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_cdj_2000.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_2000.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_cdj_350]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_cdj_350.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_350.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_cdj_850]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_cdj_850.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_850.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_200]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_200.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_200.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_400]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_400.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_400.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_flx4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_flx4.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_flx4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_sb]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_sb.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_sb2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_sb2.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_sb3]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_sb3.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--pioneer_ddj_sx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_sx.po
+source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_beatmix_2]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_beatmix_2.po
+source_file            = source/locale/pot/hardware/controllers/reloop_beatmix_2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_beatmix_4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_beatmix_4.po
+source_file            = source/locale/pot/hardware/controllers/reloop_beatmix_4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_beatpad]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_beatpad.po
+source_file            = source/locale/pot/hardware/controllers/reloop_beatpad.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_digital_jockey_2_controller_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_digital_jockey_2_controller_edition.po
+source_file            = source/locale/pot/hardware/controllers/reloop_digital_jockey_2_controller_edition.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_digital_jockey_2_master_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_digital_jockey_2_master_edition.po
+source_file            = source/locale/pot/hardware/controllers/reloop_digital_jockey_2_master_edition.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_jockey_3_master_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_jockey_3_master_edition.po
+source_file            = source/locale/pot/hardware/controllers/reloop_jockey_3_master_edition.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--reloop_terminal_mix_series]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_terminal_mix_series.po
+source_file            = source/locale/pot/hardware/controllers/reloop_terminal_mix_series.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--roland_dj_505]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/roland_dj_505.po
+source_file            = source/locale/pot/hardware/controllers/roland_dj_505.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--sony_sixxaxis]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/sony_sixxaxis.po
+source_file            = source/locale/pot/hardware/controllers/sony_sixxaxis.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--soundless_studio_joymidi]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/soundless_studio_joymidi.po
+source_file            = source/locale/pot/hardware/controllers/soundless_studio_joymidi.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--stanton_djc_4]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/stanton_djc_4.po
+source_file            = source/locale/pot/hardware/controllers/stanton_djc_4.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--stanton_scs1d]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/stanton_scs1d.po
+source_file            = source/locale/pot/hardware/controllers/stanton_scs1d.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--stanton_scs1m]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/stanton_scs1m.po
+source_file            = source/locale/pot/hardware/controllers/stanton_scs1m.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--stanton_scs3d]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/stanton_scs3d.po
+source_file            = source/locale/pot/hardware/controllers/stanton_scs3d.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--stanton_scs3m]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/stanton_scs3m.po
+source_file            = source/locale/pot/hardware/controllers/stanton_scs3m.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--tascam_us_428]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/tascam_us_428.po
+source_file            = source/locale/pot/hardware/controllers/tascam_us_428.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--trakprodj]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/trakprodj.po
+source_file            = source/locale/pot/hardware/controllers/trakprodj.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_sphin]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_sphin.po
+source_file            = source/locale/pot/hardware/controllers/vestax_sphin.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_typhoon]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_typhoon.po
+source_file            = source/locale/pot/hardware/controllers/vestax_typhoon.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_vci_100_mixvibes_3dex_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_100_mixvibes_3dex_edition.po
+source_file            = source/locale/pot/hardware/controllers/vestax_vci_100_mixvibes_3dex_edition.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_vci_100mki]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_100mki.po
+source_file            = source/locale/pot/hardware/controllers/vestax_vci_100mki.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_vci_100mkii]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_100mkii.po
+source_file            = source/locale/pot/hardware/controllers/vestax_vci_100mkii.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_vci_300]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_300.po
+source_file            = source/locale/pot/hardware/controllers/vestax_vci_300.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--vestax_vci_400]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/vestax_vci_400.po
+source_file            = source/locale/pot/hardware/controllers/vestax_vci_400.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--controllers--yaeltex_minimixxx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/yaeltex_minimixxx.po
+source_file            = source/locale/pot/hardware/controllers/yaeltex_minimixxx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:hardware--manuals]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/manuals.po
+source_file            = source/locale/pot/hardware/manuals.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:index]
+file_filter            = source/locale/<lang>/LC_MESSAGES/index.po
+source_file            = source/locale/pot/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:index_developer]
+file_filter            = source/locale/<lang>/LC_MESSAGES/index_developer.po
+source_file            = source/locale/pot/index_developer.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:manual_guidelines]
+file_filter            = source/locale/<lang>/LC_MESSAGES/manual_guidelines.po
+source_file            = source/locale/pot/manual_guidelines.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:sphinx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/sphinx.po
+source_file            = source/locale/pot/sphinx.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-23:r:todolist]
+file_filter            = source/locale/<lang>/LC_MESSAGES/todolist.po
+source_file            = source/locale/pot/todolist.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-24:r:404]
 file_filter            = source/locale/<lang>/LC_MESSAGES/404.po
 source_file            = source/locale/pot/404.pot
@@ -1652,11 +2988,11 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-24:r:todolist]
 file_filter            = source/locale/<lang>/LC_MESSAGES/todolist.po
 source_file            = source/locale/pot/todolist.pot
+source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
-source_lang            = en
 
 [o:mixxx-dj-software:p:mixxx-dj-manual-24:r:user_interfacepot]
 file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/user_interface.po
