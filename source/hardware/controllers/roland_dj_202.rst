@@ -117,11 +117,14 @@ General
 ========  =======================================  ============================================
 No.       Control                                  Function
 ========  =======================================  ============================================
-3
 4         :hwlabel:`SHIFT` + Sync                  Toggle quantize on/off
 2         Slip (hold)                              Toggle slip mode temporarily
 2         Slip (double tap)                        Latch slip mode
 2         :hwlabel:`SHIFT` + Slip                  Toggle vinyl (scratch) mode
+3         ?                                        ?
+7         ?                                        ?
+8         ?                                        ?
+9         ?                                        ?
 11        Deck 3/4 (hold)                          Toggle other deck temporarily, return to
 11        Deck 3/4 (press)                         Toggle other deck
 10        Key lock + Param+/-                      Shift pitch up/down
@@ -134,9 +137,6 @@ No.       Control                                  Function
 6         Play                                     Plays the track
 6         :hwlabel:`SHIFT` + Play (keep pressed)   Reverse plays the track
 5         Cue                                      During play : goes back to Cue Without playing : defines Cue
-7         ?                                        ?
-8         ?                                        ?
-9         ?                                        ?
 ========  =======================================  ============================================
 
 Mixer Section
