@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Numark Party Mix"
 msgstr ""
 
 #: ../../hardware/controllers/numark_party_mix.rst:4
-msgid "`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · `Manufacturer's user manual <https://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-mix-midi-mapping/16712>`_"
+msgid "`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · `Manufacturer's user manual <http://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-mix-midi-mapping/16712>`_"
 msgstr ""
 
 #: ../../hardware/controllers/numark_party_mix.rst:9

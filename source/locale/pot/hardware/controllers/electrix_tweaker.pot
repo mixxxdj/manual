@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "The Electrix Tweaker is an unconventional MIDI controller that can contro
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:11
-msgid "`Manufacturer’s website <http://electrixpro.com/>`__"
+msgid "`Manufacturer’s website <https://electrixpro.com/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:12
@@ -33,7 +33,7 @@ msgid "`Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-mapping/15
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:13
-msgid "`Manufacturer’s manual <http://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__"
+msgid "`Manufacturer’s manual <https://electrixpro.com/wp-content/uploads/2014/10/Tweaker_User_Manual.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:18

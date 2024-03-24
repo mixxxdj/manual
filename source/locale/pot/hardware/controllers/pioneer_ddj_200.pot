@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "`Manufacturer's Product Page <https://www.pioneerdj.com/en-gb/product/con
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:22
-msgid "`Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596B_manual/>`__"
+msgid "`Manufacturer's User Manual <https://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596C_manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:23
