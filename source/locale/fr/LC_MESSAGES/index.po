@@ -240,7 +240,7 @@ msgstr "battement, tempo et détection de tonalité musicale"
 
 #: ../../index.rst:19
 msgid "sync lock"
-msgstr ""
+msgstr "verrouillage de synchronisation"
 
 #: ../../index.rst:20
 msgid "hotcues"
@@ -264,9 +264,9 @@ msgid ""
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
 msgstr ""
-"Vous pouvez utiliser Mixxx pour vous produire avec des contrôleurs "
-":term:`MIDI` et :term:`HID`, des lecteurs de CD, des platines vinyles ou "
-"tout simplement le clavier et la souris de votre ordinateur."
+"Vous pouvez utiliser Mixxx en combination avec des contrôleurs "
+":term:`MIDI` et :term:`HID`, des lecteurs de CD, des tournes-disque de platines vinyles ou "
+"out tout simplement le clavier et la souris de votre ordinateur."
 
 #: ../../index.rst:29
 msgid "Table of Contents"

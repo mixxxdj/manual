@@ -237,7 +237,7 @@ msgstr ""
 "est développé par une équipe internationale de bénévoles qui veulent "
 "apporter la joie de DJé à tout le monde. Le projet est à but non lucratif, "
 "open source et axé sur la communauté. Ensemble, nous visons à créer le "
-"meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`join us "
+"meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`rejoignez-nous "
 "<contributing>`!"
 
 #: ../../chapters/introduction.rst:18
@@ -265,17 +265,25 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore)."
-msgstr ""
+msgstr "Avec Mixxx tu peux pré-écouter et préparer le track suivant avant "
+"que la publique le peut écouter avec des casques, on appelle ça headphone "
+"cueing. Ca peut aider à choiser le track qui est le meilleur pour le moment "
+"et qui peut être impecable mixé avec le track qui joue / les tracks qui jouent."
+"Pour utiliser headphone cueing vous avez besoin de (au moins) 2 sorties audio,"
+"généralement livré à votre ordi par un USB audio interface (aussi connu come "
+"“carte de son” même quand la forme n"est plus comme une carte aujourd'hui."
 
 #: ../../chapters/introduction.rst:31
 msgid ""
 "The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
 "Deck 2 the shortcut is :kbd:`Y`."
-msgstr ""
+msgstr "Le raccoursi pour headphone cueing dans Deck 1 is :kbd:`T` "
+"et dans Deck 2 le raccoursi est  :kbd:`Y`."
 
 #: ../../chapters/introduction.rst:33
 msgid "Mixxx can be used in two different ways for headphone cueing:"
-msgstr ""
+msgstr "Mixxx peut être utiliser pour headphone cueing en deux manièeres "
+"differentes:"
 
 #: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
@@ -293,14 +301,15 @@ msgstr ""
 "mélangent et envoie le signal mixé à une sortie d'interface audio. Un signal"
 " séparé est envoyé à une autre sortie de l'interface audio pour la pré-"
 "écoute au casque. Souvent, un contrôleur DJ est utilisé avec un mixage "
-"interne pour fournir un contrôle plus facile de Mixxx qu'une souris et un "
-"clavier."
+"interne pour fournir un contrôle plus facile de Mixxx qu'avec une souris "
+"et un clavier."
 
 #: ../../chapters/introduction.rst:0
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
-msgstr ""
+msgstr ""Utiliser Mixxx avec un un contrôleur DJ avec un \n interface "
+audio integré"
 
 #: ../../chapters/introduction.rst:51
 msgid ""
@@ -341,7 +350,7 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:0
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr ""
+msgstr "Utiliser Mixxx en combination des tourne-disque et une table de mixage."
 
 #: ../../chapters/introduction.rst:74
 msgid ""
