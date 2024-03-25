@@ -77,14 +77,6 @@ Deck Section
    :alt: Roland DJ-505 (schematic view)
    :figclass: pretty-figures
 
-**Pitch control**
-
-========  ==============================  =============================
-No.       Control                         Function
-========  ==============================  =============================
-12        Tempo Fader Up/Down             Adjust pitch continuously
-12        :hwlabel:`SHIFT` + Tempo Fader  Toggle between different keys
-========  ==============================  =============================
 
 **Jog wheels**
 
@@ -96,6 +88,42 @@ No.       Control                                             Function
 1         Jog wheel +/- from the surface                      Scratching
 1         :hwlabel:`SHIFT` + jog wheel +/-                    Strip search
 ========  ==================================================  ============================================
+
+**General**
+
+========  =======================================  ============================================
+No.       Control                                  Function
+========  =======================================  ============================================
+2         Slip (hold)                              Toggle slip mode temporarily
+2         Slip (double tap)                        Latch slip mode
+2         :hwlabel:`SHIFT` + Slip                  Toggle vinyl (scratch) mode
+3         Shift button                             You can recall other functions by holding down this button and pressing another button.
+4         Sync (quick tap)                         Reset BPM
+4         Sync (long  tap)                         Sync lock
+4         :hwlabel:`SHIFT` + Sync                  Toggle quantize on/off
+5         Cue                                      During play : goes back to Cue Without playing : defines Cue
+5         :hwlabel:`SHIFT` + cue (long)            Align beatgrid to other deck’sgrid
+5         :hwlabel:`SHIFT` + cue (once)            Align beatgrid to current play position
+5         :hwlabel:`SHIFT` + cue (tap multiple)    tap BPM
+6         Play                                     Plays the track
+6         :hwlabel:`SHIFT` + Play (keep pressed)   Reverse plays the track
+7         Pad Mode select                          Here you can select the control mode of the performance pads.
+8         [MIXING] knob                            Adjusts the volume balance of the channel whose Channel [CUE] button is lit and the master output for phones output
+9         [PHONES LEVEL] knob                      Adjusts the volume of the headphones.
+10        Key lock + Param+/-                      Shift pitch up/down
+10        Key lock + Param+-Param                  Reset pitch
+11        Deck 3/4 (hold)                          Toggle other deck temporarily, return to
+11        Deck 3/4 (press)                         Toggle other deck
+========  =======================================  ============================================
+
+**Pitch control**
+
+========  ==============================  =============================
+No.       Control                         Function
+========  ==============================  =============================
+12        Tempo Fader Up/Down             Adjust pitch continuously
+12        :hwlabel:`SHIFT` + Tempo Fader  Toggle between different keys
+========  ==============================  =============================
 
 **FX**
 
@@ -110,34 +138,6 @@ No.       Control                                  Function
 13        :hwlabel:`SHIFT` + FX1-3                 Routing mode - toggle sending respective deck output to fx1 on/off, fx2 on/off, headphones on/off
 ========  =======================================  ============================================
 
-
-General
--------
-
-========  =======================================  ============================================
-No.       Control                                  Function
-========  =======================================  ============================================
-4         :hwlabel:`SHIFT` + Sync                  Toggle quantize on/off
-2         Slip (hold)                              Toggle slip mode temporarily
-2         Slip (double tap)                        Latch slip mode
-2         :hwlabel:`SHIFT` + Slip                  Toggle vinyl (scratch) mode
-3         ?                                        ?
-7         ?                                        ?
-8         ?                                        ?
-9         ?                                        ?
-11        Deck 3/4 (hold)                          Toggle other deck temporarily, return to
-11        Deck 3/4 (press)                         Toggle other deck
-10        Key lock + Param+/-                      Shift pitch up/down
-10        Key lock + Param+-Param                  Reset pitch
-5         :hwlabel:`SHIFT` + cue (long)            Align beatgrid to other deck’sgrid
-5         :hwlabel:`SHIFT` + cue (once)            Align beatgrid to current play position
-5         :hwlabel:`SHIFT` + cue (tap multiple)    tap BPM
-4         Sync (quick tap)                         Reset BPM
-4         Sync (long  tap)                         Sync lock
-6         Play                                     Plays the track
-6         :hwlabel:`SHIFT` + Play (keep pressed)   Reverse plays the track
-5         Cue                                      During play : goes back to Cue Without playing : defines Cue
-========  =======================================  ============================================
 
 Mixer Section
 ~~~~~~~~~~~~~
@@ -154,29 +154,23 @@ Mixer Section
 ========  =======================================  ============================================
 No.       Control                                  Function
 ========  =======================================  ============================================
-1         ?                                        ?
-4         ?                                        ?
-5         ?                                        ?
-6         ?                                        ?
-7         Master Level                             Adjust Master gain
-8         Mixing                                   Adjust Headphones Mix
-9         Phones Level                             Adjust Headphones gain
-10        Sampler Level                            Adjust Samplers gain
-11        ?                                        ?
-12        ?                                        ?
-13        ?                                        ?
-========  =======================================  ============================================
-
-**EQ knobs**
-
-========  =======================================  ============================================
-No.       Control                                  Function
-========  =======================================  ============================================
+1         [TRIM] knobs                             Adjust the volume.
 2         Hi                                       Adjust high frequencies level
 2         Mid                                      Adjust medium frequencies level
 2         Low                                      Adjust low frequencies level
 3         Filter                                   High/Low Pass Filter (or other effects)
+4         Channel [CUE] buttons                    Turn cue on/off for each channel. The sound of channels whose [CUE] button is lit is output from the headphones
+5         Channel faders                           Adjust the output level of each channel.
+6         Cross fader                              Switches between the audio output of the left and right decks.
+7         Master Level                             Adjust Master gain
+8         Mixing                                   Adjust Headphones Mix
+9         Phones Level                             Adjust Headphones gain
+10        Sampler Level                            Adjust Samplers gain
+11        SAMPLER [CUE] button                     Turns SAMPLER output cue on/off.
+12        MASTER level indicator                   Indicates the master output level.
+13        SEQUENCER area                           Synchronizes the tempo of the sequencer to the tempo of Serato DJ Intro.
 ========  =======================================  ============================================
+
 
 Performance pad modes
 ---------------------
@@ -187,8 +181,7 @@ Performance pad modes
 Control                                      Function
 ===========================================  ============================================
 Param+/-                                     Beat jump forward/backward
-:hwlabel:`SHIFT` + Param+/-                  Increment/decrement beat jump
-                                             distance
+:hwlabel:`SHIFT` + Param+/-                  Increment/decrement beat jump distance
 Pad 1-8                                      Save/jump to hot cue
 :hwlabel:`SHIFT` + Pad 1-8 (while playing)   Save hot cue (overwrite existing)
 :hwlabel:`SHIFT` + Pad 1-8 (while stopped)   Delete hot cue
