@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,6 +206,10 @@ msgstr ""
 
 #: ../../hardware/controllers/behringer_ddm4000.rst:87
 msgid "\"I see the issue, but sorry, the code is 15 years old and getting the 15 year old tools (plus license, plus old windows version) needed to compile it, together with finding the bug in a very complex code base (without access to the developer) makes fixing this nearly impossible.\""
+msgstr ""
+
+#: ../../hardware/controllers/behringer_ddm4000.rst:92
+msgid "[MUSIC Tribe Care] Behringer - Technical Support (08 Sep 2021)"
 msgstr ""
 
 #: ../../hardware/controllers/behringer_ddm4000.rst:97

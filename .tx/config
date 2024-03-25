@@ -247,16 +247,6 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapters--preferences--sound_hardware]
 file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/sound_hardware.po
 source_file            = source/locale/pot/chapters/preferences/sound_hardware.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapters--quickstart]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/quickstart.po
-source_file            = source/locale/pot/chapters/quickstart.pot
-source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -274,142 +264,6 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapters--vinyl_control]
 file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.po
 source_file            = source/locale/pot/chapters/vinyl_control.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersadvanced_topicspot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/advanced_topics.po
-source_file            = source/locale/pot/chapters/advanced_topics.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersappendixpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/appendix.po
-source_file            = source/locale/pot/chapters/appendix.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapterscontrolling_mixxxpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/controlling_mixxx.po
-source_file            = source/locale/pot/chapters/controlling_mixxx.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersdjing_with_mixxxpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/djing_with_mixxx.po
-source_file            = source/locale/pot/chapters/djing_with_mixxx.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapterseffectspot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/effects.po
-source_file            = source/locale/pot/chapters/effects.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersexample_setupspot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/example_setups.po
-source_file            = source/locale/pot/chapters/example_setups.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersgetting_involvedpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/getting_involved.po
-source_file            = source/locale/pot/chapters/getting_involved.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersgetting_startedpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/getting_started.po
-source_file            = source/locale/pot/chapters/getting_started.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptershardwarepot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/hardware.po
-source_file            = source/locale/pot/chapters/hardware.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersintroductionpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/introduction.po
-source_file            = source/locale/pot/chapters/introduction.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapterslibrarypot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/library.po
-source_file            = source/locale/pot/chapters/library.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapterslivebroadcastingpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/livebroadcasting.po
-source_file            = source/locale/pot/chapters/livebroadcasting.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersmicrophonespot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/microphones.po
-source_file            = source/locale/pot/chapters/microphones.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chapterspreferencespot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences.po
-source_file            = source/locale/pot/chapters/preferences.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:chaptersquickstartpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/quickstart.po
-source_file            = source/locale/pot/chapters/quickstart.pot
-source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -421,14 +275,6 @@ source_file            = source/locale/pot/glossary.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:glossarypot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/glossary.po
-source_file            = source/locale/pot/glossary.pot
-source_lang            = en
-type                   = PO
 replace_edited_strings = false
 keep_translations      = false
 
@@ -795,6 +641,7 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--hercules_djcontrol_MIX]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_MIX.po
 source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_MIX.pot
+source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1081,6 +928,7 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--native_instruments_traktor_kontrol_z1]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_z1.po
 source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_z1.pot
+source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1323,6 +1171,7 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--pioneer_ddj_flx4]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/pioneer_ddj_flx4.po
 source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_flx4.pot
+source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1600,33 +1449,6 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:index]
 file_filter            = source/locale/<lang>/LC_MESSAGES/index.po
 source_file            = source/locale/pot/index.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:index_developer]
-file_filter            = source/locale/<lang>/LC_MESSAGES/index_developer.po
-source_file            = source/locale/pot/index_developer.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:indexpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/index.po
-source_file            = source/locale/pot/index.pot
-source_lang            = en
-type                   = PO
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:manual_guidelines]
-file_filter            = source/locale/<lang>/LC_MESSAGES/manual_guidelines.po
-source_file            = source/locale/pot/manual_guidelines.pot
-source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1635,42 +1457,6 @@ keep_translations      = false
 [o:mixxx-dj-software:p:mixxx-dj-manual-25:r:sphinx]
 file_filter            = source/locale/<lang>/LC_MESSAGES/sphinx.po
 source_file            = source/locale/pot/sphinx.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:sphinxpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/sphinx.po
-source_file            = source/locale/pot/sphinx.pot
-source_lang            = en
-type                   = PO
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:todolist]
-file_filter            = source/locale/<lang>/LC_MESSAGES/todolist.po
-source_file            = source/locale/pot/todolist.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-source_lang            = en
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:user_interfacepot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/user_interface.po
-source_file            = source/locale/pot/chapters/user_interface.pot
-source_lang            = en
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:vinyl_controlpot]
-file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control.po
-source_file            = source/locale/pot/chapters/vinyl_control.pot
-source_lang            = en
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
