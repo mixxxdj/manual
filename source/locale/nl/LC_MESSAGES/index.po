@@ -226,20 +226,20 @@ msgid ""
 "Mixxx is `free <https://www.gnu.org/philosophy/free-sw.html>`_ DJ software "
 "for Windows, macOS and Linux. It's easy to use, even if you've never DJed. "
 "Mixxx offers a variety of features to help beginners get started and help "
-"experienced DJs get creative:"
+"experienced DJs in their creativity:"
 msgstr ""
-"Mixxx is `gratis <https://www.gnu.org/philosophy/free-sw.html>`_ DJ-software"
+"Mixxx is `vrije <https://www.gnu.org/philosophy/free-sw.html>`_ DJ-software"
 " voor Windows, macOS en Linux. Het is eenvoudig te gebruiken, zelfs als je "
-"nog nooit aan DJ'n gedaan hebt. Mixxx biedt een verscheidenheid aan functies"
-" om beginners op weg te helpen en ervaren DJ's te helpen creatief te worden:"
+"nog nooit hebt ge-DJ'd. Mixxx biedt een verscheidenheid aan functies"
+" om beginners op weg te helpen en ervaren DJ's te helpen in hun creativiteit:"
 
 #: ../../index.rst:18
 msgid "beat, tempo, and musical key detection"
-msgstr "beat, tempo, en muzikale toonaard detectie"
+msgstr "beat, tempo, en detectie van de muzikale toonaard"
 
 #: ../../index.rst:19
 msgid "sync lock"
-msgstr ""
+msgstr "synchronisatie vergrendeling"
 
 #: ../../index.rst:20
 msgid "hotcues"
@@ -263,8 +263,8 @@ msgid ""
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
 msgstr ""
-"U kunt Mixxx gebruiken om uit te voeren met :term:`MIDI` en :term:`HID` "
-"controllers, CD-spelers, vinyldraaitafels of zelfs alleen het toetsenbord en"
+"U kunt Mixxx gebruiken in combinatie met :term:`MIDI` en :term:`HID` "
+"controllers, CD-spelers, vinyldraaitafels of simpelweg met enkel het toetsenbord en"
 " de muis van uw computer."
 
 #: ../../index.rst:29
