@@ -4345,7 +4345,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
+    Affects playback speed and direction (`differently whether currently playing or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
