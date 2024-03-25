@@ -200,7 +200,7 @@ Pad 1-8                     Define hot cue 1 to 8 and toggle beatloop of length 
 Control                      Function
 ===========================  ============================================
 Param+/-                     Move beatloop forward/backward
-:hwlabel:`SHIFT` + Param+/-  ouble/halve beatloop size
+:hwlabel:`SHIFT` + Param+/-  Double/halve beatloop size
 Pad 1-4                      Toggle beatloop of length 1,2,4,8
 Pad 5-8                      Manual loop controls (in, out, exit, on/off)
 ===========================  ============================================
