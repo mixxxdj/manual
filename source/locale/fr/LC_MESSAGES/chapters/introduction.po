@@ -238,7 +238,7 @@ msgstr ""
 "est développé par une équipe internationale de bénévoles qui veulent "
 "apporter la joie de DJé à tout le monde. Le projet est à but non lucratif, "
 "open source et axé sur la communauté. Ensemble, nous visons à créer le "
-"meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`join us "
+"meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`rejoignez-nous "
 "<contributing>`!"
 
 #: ../../chapters/introduction.rst:18
@@ -280,6 +280,7 @@ msgstr ""
 msgid ""
 "The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
 "Deck 2 the shortcut is :kbd:`Y`."
+<<<<<<< HEAD
 msgstr ""
 "Le :term:`raccourcis` pour la pré-écoute au casque sur la Platine1 est "
 ":kbd:`T` tandis que pour la Platine2, le raccourci est :kbd:`Y`."
@@ -289,6 +290,15 @@ msgid "Mixxx can be used in two different ways for headphone cueing:"
 msgstr ""
 "Mixxx peut être utilisé de deux manières différentes pour la pré-écoute au "
 "casque :"
+=======
+msgstr "Le raccoursi pour headphone cueing dans Deck 1 is :kbd:`T` "
+"et dans Deck 2 le raccoursi est  :kbd:`Y`."
+
+#: ../../chapters/introduction.rst:33
+msgid "Mixxx can be used in two different ways for headphone cueing:"
+msgstr "Mixxx peut être utiliser pour headphone cueing en deux manièeres "
+"differentes:"
+>>>>>>> 25232d2a1 (FR 2)
 
 #: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
@@ -306,16 +316,21 @@ msgstr ""
 "mélangent et envoie le signal mixé à une sortie d'interface audio. Un signal"
 " séparé est envoyé à une autre sortie de l'interface audio pour la pré-"
 "écoute au casque. Souvent, un contrôleur DJ est utilisé avec un mixage "
-"interne pour fournir un contrôle plus facile de Mixxx qu'une souris et un "
-"clavier."
+"interne pour fournir un contrôle plus facile de Mixxx qu'avec une souris "
+"et un clavier."
 
 #: ../../chapters/introduction.rst:0
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
+<<<<<<< HEAD
 msgstr ""
 "Utiliser Mixxx avec un contrôleur DJ possédant un système audio intégré\n"
 "interface"
+=======
+msgstr ""Utiliser Mixxx avec un un contrôleur DJ avec un \n interface "
+audio integré"
+>>>>>>> 25232d2a1 (FR 2)
 
 #: ../../chapters/introduction.rst:51
 msgid ""
@@ -356,7 +371,11 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:0
 msgid "Using Mixxx together with turntables and external mixer"
+<<<<<<< HEAD
 msgstr "Utilisation de Mixxx avec des platines et une table de mixage externe"
+=======
+msgstr "Utiliser Mixxx en combination des tourne-disque et une table de mixage."
+>>>>>>> 25232d2a1 (FR 2)
 
 #: ../../chapters/introduction.rst:74
 msgid ""
