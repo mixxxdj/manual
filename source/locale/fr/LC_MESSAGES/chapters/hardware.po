@@ -239,7 +239,7 @@ msgstr ""
 msgid ""
 "To make DJing with Mixxx a fun experience, at least the following pieces are"
 " needed:"
-msgstr ""
+msgstr "Pour que DJ-ing avex Mixxx sera une expérience gai, on a besoin du materiel suivant:"
 
 #: ../../chapters/hardware.rst:22
 msgid "speakers to play the music to the audience,"
