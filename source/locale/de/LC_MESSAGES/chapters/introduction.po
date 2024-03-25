@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7664/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -267,6 +267,14 @@ msgid ""
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore)."
 msgstr ""
+"Sie können Mixxx verwenden, um den nächsten Track mit Kopfhörern vorzuhören,"
+" bevor das Publikum ihn hört, auch bekannt als Kopfhörer-Cueing. Dies hilft "
+"Ihnen, einen Track auszuwählen, der für den Moment geeignet ist und gut in "
+"den gerade abgespielten Track gemischt werden kann. Um das Kopfhörer-Cueing "
+"zu verwenden, benötigen Sie mindestens 2 separate Audioausgänge, die in der "
+"Regel von einem USB-Audio-Adapter bereitgestellt werden (auch bekannt als "
+"\"Soundkarte\", obwohl die meisten von ihnen nicht mehr wie Karten geformt "
+"sind)."
 
 #: ../../chapters/introduction.rst:31
 msgid ""

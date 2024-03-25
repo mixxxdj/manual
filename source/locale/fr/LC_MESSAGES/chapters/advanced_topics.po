@@ -243,6 +243,10 @@ msgid ""
 ":term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx"
 " understands."
 msgstr ""
+"La prise en charge de périphériques supplémentaires peut être ajoutée à "
+"Mixxx en créant un nouveau fichier de mappage. Ce fichier indique à Mixxx "
+"comment traduire ou mapper les messages :term:`MIDI`/:term:`HID` d'un "
+"contrôleur en commandes que Mixxx comprend."
 
 #: ../../chapters/advanced_topics.rst:18
 msgid ""
@@ -250,12 +254,17 @@ msgid ""
 "Controller Mapping forums <https://mixxx.discourse.group/c/controller-"
 "mappings/10>`_."
 msgstr ""
+"Vous pouvez télécharger et partager des mappages de contrôleurs "
+"personnalisés dans les forums `Mixxx User Controller Mapping "
+"<https://mixxx.discourse.group/c/controller-mappings/10>`_."
 
 #: ../../chapters/advanced_topics.rst:21
 msgid ""
 "For a list of controls that can be used in a controller mapping, see "
 ":ref:`appendix-mixxxcontrols`."
 msgstr ""
+"Pour une liste des contrôles pouvant être utilisés dans un mappage de "
+"contrôleur, voir :ref:`appendix-mixxxcontrols`."
 
 #: ../../chapters/advanced_topics.rst:28
 msgid "Controller Wizard"
@@ -271,7 +280,7 @@ msgid ""
 "Controller Wizard."
 msgstr ""
 "Le moyen le plus simple de créer un nouveau mappage MIDI, consiste à "
-"utiliser l'assistant de contrôleur."
+"utiliser lassistant de contrôleur."
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
@@ -549,6 +558,8 @@ msgid ""
 "macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
 "Support/Mixxx/Custom.kbd.cfg`"
 msgstr ""
+"macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
+"Support/Mixxx/Custom.kbd.cfg`"
 
 #: ../../chapters/advanced_topics.rst:137
 msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
@@ -572,6 +583,8 @@ msgid ""
 "For a list of controls that can be used in a keyboard mapping, see "
 ":ref:`appendix-mixxxcontrols`."
 msgstr ""
+"Pour une liste des contrôles pouvant être utilisés dans un mappage de "
+"clavier, voir :ref:`appendix-mixxxcontrols`."
 
 #: ../../chapters/advanced_topics.rst:147
 msgid ""
@@ -579,6 +592,9 @@ msgid ""
 "Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-"
 "mappings/12>`_."
 msgstr ""
+"Vous pouvez télécharger et partager des mappages de clavier personnalisés "
+"dans `Mixxx User Keyboard Mapping forums "
+"<https://mixxx.discourse.group/c/keyboard-mappings/12>`_."
 
 #: ../../chapters/advanced_topics.rst:153
 msgid "Additional Effects via external Mixer Mode"
@@ -608,7 +624,7 @@ msgstr "Effets via AU Lab sous MacOS"
 
 #: ../../chapters/advanced_topics.rst:172
 msgid "The Au Lab routing for external effects"
-msgstr ""
+msgstr "Le routage d'AU Lab pour les effets externes"
 
 #: ../../chapters/advanced_topics.rst:172
 msgid "The Au Lab routing for external effects on macOS"
@@ -629,12 +645,17 @@ msgid ""
 "<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, a system "
 "extension for inter-application audio routing."
 msgstr ""
+"Installez gratuitement `SoundflowerBed "
+"<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, une "
+"extension système pour le routage audio inter-applications."
 
 #: ../../chapters/advanced_topics.rst:179
 msgid ""
 "Install the free digital audio mixing application `AU Lab "
 "<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 msgstr ""
+"Installer l'application gratuite de mixage audio numérique `AU Lab "
+"<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 
 #: ../../chapters/advanced_topics.rst:182
 msgid ""
@@ -656,6 +677,12 @@ msgid ""
 "<http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that "
 "hosts Audio Unit instruments and effect plugins."
 msgstr ""
+"Vous pouvez également essayer `Blackhole "
+"<https://github.com/ExistentialAudio/BlackHole>`_, un pilote audio virtuel "
+"moderne qui permet aux applications de transmettre de l'audio à d'autres "
+"applications sans :term:`latence` supplémentaire, et `Hosting AU < "
+"http://ju-x.com/hostingau.html>`_, un :term:`DAW` gratuit de taille micro "
+"qui héberge les instruments Audio Unit et les plugins d'effets."
 
 #: ../../chapters/advanced_topics.rst:192
 msgid "**In Mixxx**"
@@ -727,6 +754,8 @@ msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
 "menu, for example :menuselection:`Apple --> AUCompressor`"
 msgstr ""
+"Dans le canal :guilabel:`Sortie 1`, sélectionner un effet dans le menu "
+"déroulant, par exemple :menuselection:`Apple --> AUCompressor`"
 
 #: ../../chapters/advanced_topics.rst:213
 msgid "The effect should now react if you play a track in Mixxx."
@@ -738,7 +767,7 @@ msgstr "Effets via JACK Rack sous GNU/Linux"
 
 #: ../../chapters/advanced_topics.rst:225
 msgid "The Jack routing for external effects"
-msgstr ""
+msgstr "Le routage Jack pour les effets externes"
 
 #: ../../chapters/advanced_topics.rst:225
 msgid "The Jack routing for external effects on GNU/Linux"
@@ -772,6 +801,7 @@ msgstr ""
 #: ../../chapters/advanced_topics.rst:240
 msgid "Migrate your Mixxx library and settings to a new computer"
 msgstr ""
+"Migrer votre bibliothèque Mixxx et vos paramètres vers un nouvel ordinateur"
 
 #: ../../chapters/advanced_topics.rst:242
 msgid ""
@@ -779,6 +809,10 @@ msgid ""
 "computer, you can take your existing Mixxx setup with you. This includes "
 "your track library, settings, controller mappings and broadcast profiles."
 msgstr ""
+"Si vous passez à un nouvel ordinateur ou à un autre système d'exploitation "
+"sur le même ordinateur, vous pouvez emporter votre configuration Mixxx "
+"existante avec vous. Cela inclut votre bibliothèque de pistes, vos "
+"paramètres, les mappages de contrôleurs et les profils de diffusion."
 
 #: ../../chapters/advanced_topics.rst:244
 msgid ""
@@ -795,7 +829,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:247
 msgid "Preparation"
-msgstr ""
+msgstr "Préparation"
 
 #: ../../chapters/advanced_topics.rst:249
 msgid ""
@@ -819,24 +853,30 @@ msgid ""
 "Make a copy of both the Mixxx settings directory and your music directories."
 " Put all in a save place. **Do not restructure your music directories!**"
 msgstr ""
+"Faire une copie du répertoire des paramètres Mixxx et de vos répertoires de "
+"musique. Mettre le tout dans un endroit sauvegardé. **Ne restructurez pas "
+"vos répertoires de musique !**"
 
 #: ../../chapters/advanced_topics.rst:251
 msgid "Install your new operating system, get your new PC ready."
 msgstr ""
+"Installer votre nouveau système d'exploitation et préparer votre nouveau PC."
 
 #: ../../chapters/advanced_topics.rst:252
 msgid ""
 "Get the current stable Mixxx version from `the official download page "
 "<https://mixxx.org/download/>`_."
 msgstr ""
+"Obtener la version stable actuelle de Mixxx sur la page de téléchargement "
+"officielle <https://mixxx.org/download/>`_."
 
 #: ../../chapters/advanced_topics.rst:253
 msgid "Install Mixxx, though **don't run it, yet!**"
-msgstr ""
+msgstr "Installer Mixxx, mais **ne l'exécutez pas encore !**"
 
 #: ../../chapters/advanced_topics.rst:256
 msgid "Migration"
-msgstr ""
+msgstr "Migration"
 
 #: ../../chapters/advanced_topics.rst:258
 msgid ""
@@ -845,14 +885,18 @@ msgid ""
 "previously, make sure to rename or delete your existing settings directory "
 "in order to avoid any file conflicts."
 msgstr ""
+"Copier votre répertoire de paramètres Mixxx à l'emplacement approprié, voir "
+":ref:`appendix-settings-files`. Si vous avez déjà démarré Mixxx, assurez-"
+"vous de renommer ou de supprimer votre répertoire de paramètres existant "
+"afin d'éviter tout conflit de fichiers."
 
 #: ../../chapters/advanced_topics.rst:259
 msgid "Copy your music directories to the new computer."
-msgstr ""
+msgstr "Copier vos répertoires de musique sur le nouvel ordinateur."
 
 #: ../../chapters/advanced_topics.rst:260
 msgid "Start Mixxx."
-msgstr ""
+msgstr "Lancer Mixxx"
 
 #: ../../chapters/advanced_topics.rst:261
 msgid ""
@@ -860,6 +904,9 @@ msgid ""
 "not ask you for your music directories and all your settings should be as "
 "before."
 msgstr ""
+"Si vous avez placé le répertoire des paramètres au bon endroit, Mixxx ne "
+"devrait pas vous demander vos répertoires de musique et tous vos paramètres "
+"devraient être comme avant."
 
 #: ../../chapters/advanced_topics.rst:262
 msgid ""
@@ -878,10 +925,16 @@ msgid ""
 " that this will obviously not include your external libraries (iTunes, "
 "Traktor etc.), you need to configure those again."
 msgstr ""
+"Désormais, tous vos fichiers de musique devraient être disponibles, toutes "
+"vos listes de lecture, bacs et historiques de sessions restaurés. Une "
+"nouvelle analyse de la bibliothèque n'est pas requise. Configurer une sortie"
+" audio et tester si vous pouvez lire toutes les pistes comme avant. Noter "
+"que cela n'inclura évidemment pas vos bibliothèques externes (iTunes, "
+"Traktor etc.), vous devrez les reconfigurer."
 
 #: ../../chapters/advanced_topics.rst:267
 msgid "Known issues"
-msgstr ""
+msgstr "Problèmes connus"
 
 #: ../../chapters/advanced_topics.rst:269
 msgid ""
@@ -893,3 +946,12 @@ msgid ""
 "track individually with the cue shift buttons in the beatgrid editing "
 "controls section, see :ref:`interface-waveform`."
 msgstr ""
+"Si vous avez migré vers un autre système d'exploitation, une autre version "
+"du système d'exploitation ou une autre version de Mixxx, les décodeurs audio"
+" utilisés peuvent avoir changé, ce qui peut entrainer un décalage des "
+"grilles rythmiques et des points de repère, c'est-à-dire qu'ils sont décalés"
+" des points souhaités dans le flux audio. Malheureusement, aucun correctif "
+"automatique n’est encore disponible. À partir de maintenant, vous devez "
+"décaler les repères pour chaque piste individuellement avec les boutons de "
+"décalage de repère dans la section des commandes d'édition de la grille "
+"rythmique, voir :ref:`interface-waveform`."

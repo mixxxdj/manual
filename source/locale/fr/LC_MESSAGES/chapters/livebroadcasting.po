@@ -254,6 +254,11 @@ msgid ""
 "bandwidth. Streaming servers provide the required bandwidth and broadcast "
 "the stream to your listeners."
 msgstr ""
+"Mixxx vous permet d'alimenter votre flux audio directement vers les serveurs"
+" de streaming :term:`Shoutcast <shoutcast>` et :term:`Icecast <icecast>`. En"
+" fonction du nombre d’auditeurs, le streaming audio nécessite une quantité "
+"importante de bande passante. Les serveurs de streaming fournissent la bande"
+" passante requise et diffusent le flux à vos auditeurs."
 
 #: ../../chapters/livebroadcasting.rst:27
 msgid ""
@@ -336,7 +341,7 @@ msgid ""
 "Go to :menuselection:`Options --> Enable Live Broadcasting` or use the "
 ":ref:`appendix-shortcuts` to start broadcasting."
 msgstr ""
-"Aller à :menuselection:`Options --> Activer la Diffusion en Direct "
+"Aller dans :menuselection:`Options --> Activer la Diffusion en Direct "
 "(Broadcast)` ou utiliser :ref:`appendix-shortcuts` pour démarrer la "
 "diffusion."
 
@@ -346,7 +351,7 @@ msgstr "Préférences Mixxx - Configurer la diffusion en direct"
 
 #: ../../chapters/livebroadcasting.rst:100
 msgid "Server Connection"
-msgstr ""
+msgstr "Connexion au serveur"
 
 #: ../../chapters/livebroadcasting.rst:102
 msgid ""
@@ -434,7 +439,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:131
 msgid "Stream Settings"
-msgstr ""
+msgstr "Paramètres de flux"
 
 #: ../../chapters/livebroadcasting.rst:133
 msgid ""
@@ -498,7 +503,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:151
 msgid "Encoding"
-msgstr ""
+msgstr "Encodage"
 
 #: ../../chapters/livebroadcasting.rst:153
 msgid ""
@@ -525,11 +530,11 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:162
 msgid "Metadata"
-msgstr ""
+msgstr "Métadonnée"
 
 #: ../../chapters/livebroadcasting.rst:165
 msgid "Shoutcast metadata format"
-msgstr ""
+msgstr "Format de métadonnées Shoutcast"
 
 #: ../../chapters/livebroadcasting.rst:167
 msgid ""
@@ -541,6 +546,14 @@ msgid ""
 "MyName - currently playing: $artist``. Or even if you wanted a very unusual "
 "format: ``Hey, I like $artist, here is $title by $artist``."
 msgstr ""
+"Cela permet de définir des formats de métadonnées personnalisés pour le "
+"champ de titre Shoutcast. Auparavant, seul « artist - title » était "
+"autorisé. Par exemple, si vous diffusiez au sein d'une station, vous "
+"pourriez ajouter le nom de la station ou le nom du présentateur dans le "
+"titre : ``MaStation | $artist - $title``. Ou si vous faisiez un mix live "
+"avec plusieurs artistes, vous pourriez avoir : ``Mix live par MyName - "
+"lecture en cours : $artist``. Ou même si vous vouliez un format très "
+"inhabituel : ``Hé, j'aime bien $artist, voici $title par $artist``."
 
 #: ../../chapters/livebroadcasting.rst:175
 msgid ""
@@ -550,7 +563,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:178
 msgid "Custom metadata"
-msgstr ""
+msgstr "Métadonnées personnalisées"
 
 #: ../../chapters/livebroadcasting.rst:180
 msgid ""

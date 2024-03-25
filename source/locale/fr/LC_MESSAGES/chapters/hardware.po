@@ -241,10 +241,12 @@ msgid ""
 "To make DJing with Mixxx a fun experience, at least the following pieces are"
 " needed:"
 msgstr ""
+"Pour DJé avec Mixxx et en faire une expérience amusante, au minimum les "
+"éléments suivants sont nécessaires :"
 
 #: ../../chapters/hardware.rst:22
 msgid "speakers to play the music to the audience,"
-msgstr ""
+msgstr "des haut-parleurs pour diffuser la musique au public,"
 
 #: ../../chapters/hardware.rst:23
 msgid ""
@@ -252,46 +254,57 @@ msgid ""
 "output channels (or 2 mono output channels + a :ref:`DJ splitter cable "
 "<hardware-splitter-cables>`),"
 msgstr ""
+"Une :ref:`interface audio <hardware-audio-interfaces>` avec 4 canaux de "
+"sortie mono/2 stéréo (ou 2 canaux de sortie mono et  un:ref:`câble "
+"répartiteur DJ <hardware-splitter-cables>`),"
 
 #: ../../chapters/hardware.rst:26
 msgid ""
 ":ref:`headphones <hardware-headphones>` for prelistening tracks while "
 "another track is playing on the speakers, and"
 msgstr ""
+":ref:`casque <hardware-headphones>` pour pré-écouter des pistes pendant "
+"qu'une autre piste est en cours de lecture sur les haut-parleurs, et"
 
 #: ../../chapters/hardware.rst:28
 msgid "audio cables and adapters to connect the equipment to your computer."
 msgstr ""
+"câbles audio et adaptateurs pour connecter l'équipement à votre ordinateur."
 
 #: ../../chapters/hardware.rst:30
 msgid "Additionally, you might consider getting the following equiment:"
 msgstr ""
+"De plus, vous pourriez envisager de vous procurer le matériel suivant :"
 
 #: ../../chapters/hardware.rst:32
 msgid "a :ref:`controller <hardware-controllers>`,"
-msgstr ""
+msgstr "un :ref:`controlleur <hardware-controllers>`,"
 
 #: ../../chapters/hardware.rst:33
 msgid ""
 ":ref:`turntables <hardware-turntables>`, an audio interface with phono "
 "inputs and :ref:`timecode vinyl <vinyl-control-media>`,"
 msgstr ""
+":ref:`tourne-disque <hardware-turntables>`, une interface audio avec entrées"
+" phono et :ref:`vinyle timecode<vinyl-control-media>`,"
 
 #: ../../chapters/hardware.rst:35
 msgid "a laptop/controller stand,"
-msgstr ""
+msgstr "un support pour ordinateur portable/contrôleur,"
 
 #: ../../chapters/hardware.rst:36
 msgid "a surge protector to protect the equipment from voltage spikes,"
-msgstr ""
+msgstr "un parasurtenseur pour protéger l'équipement des pointes de tension,"
 
 #: ../../chapters/hardware.rst:37
 msgid "cases for laptop, controller and headphones, and"
-msgstr ""
+msgstr "étuis pour ordinateur portable, contrôleur et casque, et"
 
 #: ../../chapters/hardware.rst:38
 msgid "custom fader and knob caps to customize your gear."
 msgstr ""
+"potentiomètre linéaire (faders) et capuchons de boutons personnalisés pour "
+"personnaliser votre équipement."
 
 #: ../../chapters/hardware.rst:40
 msgid ""
@@ -420,6 +433,16 @@ msgid ""
 "stereo pairs). Such sound cards tend to be higher quality than those built "
 "into laptops and allow your mix to be enjoyed in stereo by your audience."
 msgstr ""
+"La prise casque de la plupart des ordinateurs portables ne constitue pas une"
+" deuxième sortie audio. Au lieu de cela, brancher un casque sur la prise "
+"redirige simplement la sortie stéréo unique de l'ordinateur portable de ses "
+"haut-parleurs vers votre casque. Un :ref:`câble répartiteur <hardware-"
+"splitter-cables>` peut être utilisé pour séparer la sortie stéréo d'une "
+"prise casque en deux sorties mono distinctes pour la pré-écoute au casque, "
+"mais il est recommandé d'utiliser une carte son avec au moins quatre sorties"
+" mono (pour deux paires stéréo). Ces cartes son ont tendance à être de "
+"meilleure qualité que celles intégrées aux ordinateurs portables et "
+"permettent à votre public d'apprécier votre mix en stéréo."
 
 #: ../../chapters/hardware.rst:103
 msgid ""
@@ -472,9 +495,9 @@ msgid ""
 msgstr ""
 "La résolution détermine la plage dynamique possible du signal. 16 bits sont "
 "largement suffisants pour lire de la musique. Bien que le 24 bits soit utile"
-" pour l'enregistrement, il est inutile pour la lecture "
-"<https://sonicscoop.com/why-almost-everything-you-thought-you-knowed-about-"
-"bit-third-is-probably-wrong/> `_."
+" pour l'enregistrement, `c'est inutile pour la lecture "
+"<https://sonicscoop.com/why-almost-everything-you-thought-you- knew-about-"
+"bit-depth-is-probably-wrong/>`_."
 
 #: ../../chapters/hardware.rst:126
 msgid ""
@@ -502,6 +525,11 @@ msgid ""
 "<https://web.archive.org/web/20120306150922/https://people.xiph.org/~xiphmont/"
 " demo/neil-young.html>`_."
 msgstr ""
+"Pour une explication plus approfondie et technique de la raison pour "
+"laquelle 16 bits à 44,1 kHz suffisent pour la lecture, voir `24/192 Music "
+"Downloads Are Very Silly Indeed "
+"<https://web.archive.org/web/20120306150922/https : "
+"//people.xiph.org/~xiphmont/demo/neil-young.html>`_."
 
 #: ../../chapters/hardware.rst:139
 msgid "Specifications"
@@ -594,6 +622,16 @@ msgid ""
 "controllers have separate main and booth outputs with independent volume "
 "controls, but they both play the same signal."
 msgstr ""
+"Les interfaces audio disposent parfois de plusieurs connecteurs pour un seul"
+" canal, ce qui donne lieu à plus de connecteurs que de canaux. Ainsi, tous "
+"les connecteurs ne peuvent pas envoyer ou recevoir un signal indépendant. "
+"Par exemple, certaines interfaces audio conçues pour DJer disposent de 4 "
+"canaux de sortie avec 4 connecteurs de sortie mono et 1 connecteur casque "
+"stéréo. Cela ne signifie pas que l'interface audio peut envoyer 6 signaux "
+"différents en même temps ; au lieu de cela, le signal sur 2 des sorties mono"
+" et la sortie casque stéréo serait le même. De plus, de nombreux contrôleurs"
+" disposent de sorties principales et cabine séparées avec des commandes de "
+"volume indépendantes, mais elles diffusent toutes deux le même signal."
 
 #: ../../chapters/hardware.rst:181
 msgid "Vinyl Control and Phono Preamplifiers"
@@ -636,7 +674,7 @@ msgstr ""
 
 #: ../../chapters/hardware.rst:197
 msgid "Driver Support"
-msgstr ""
+msgstr "Prise en charge des pilotes"
 
 #: ../../chapters/hardware.rst:198
 msgid ""
@@ -644,6 +682,9 @@ msgid ""
 "that is compatible with your operating system — including for timecode vinyl"
 " (DVS) use."
 msgstr ""
+"Contrairement à certains programmes DJ propriétaires, Mixxx fonctionne avec "
+"n'importe quelle interface audio compatible avec votre système "
+"d'exploitation, y compris pour l'utilisation de vinyles avec timecode (DVS)."
 
 #: ../../chapters/hardware.rst:202
 msgid ""
@@ -652,6 +693,11 @@ msgid ""
 "audio interfaces in most DJ controllers. Sound cards that aren't USB Audio "
 "Class compliant need a driver for each OS."
 msgstr ""
+"Les interfaces audio compatibles USB Audio Class devraient fonctionner "
+"immédiatement sur tous les systèmes d'exploitation pris en charge par Mixxx."
+" C'est le cas des interfaces audio intégrées dans la plupart des contrôleurs"
+" DJ. Les cartes son qui ne sont pas compatibles USB Audio Class nécessitent "
+"un pilote pour chaque système d'exploitation."
 
 #: ../../chapters/hardware.rst:207
 msgid ""
@@ -659,6 +705,9 @@ msgid ""
 " compliant audio interfaces to be able to use the recommended ASIO sound "
 "API."
 msgstr ""
+"Sous Windows, vous devez installer les pilotes du fabricant, même pour les "
+"interfaces audio compatibles avec la classe USB, afin de pouvoir utiliser "
+"l'API sonore ASIO recommandée."
 
 #: ../../chapters/hardware.rst:211
 msgid ""
@@ -668,6 +717,12 @@ msgid ""
 "advertised as compatible with macOS or iOS but there are no drivers to "
 "download for macOS, the device is USB class compliant."
 msgstr ""
+"Si vous envisagez d'acheter un contrôleur ou une interface audio, le moyen "
+"le plus simple de savoir s'il est conforme à la classe USB avant de "
+"l'acheter est de rechercher les pilotes macOS pour l'appareil sur le site "
+"Web du fabricant. S'il est annoncé comme compatible avec macOS ou iOS mais "
+"qu'il n'y a aucun pilote à télécharger pour macOS, l'appareil est conforme à"
+" la classe USB."
 
 #: ../../chapters/hardware.rst:220
 msgid "Mixers"
@@ -713,6 +768,12 @@ msgid ""
 "with separate gain controls for each output. It also facilitates smooth "
 "transitions between DJs."
 msgstr ""
+"Souvent, les DJ qui utilisent un logiciel DJ avec mixage interne envoient "
+"leur :term:`sortie principale` à une table de mixage matérielle. Cela peut "
+"être utile pour envoyer le signal mixé à la fois à une sortie de haut-"
+"parleur principal pour le public et à des haut-parleurs de cabine pour le DJ"
+" avec des commandes de gain séparées pour chaque sortie. Il facilite "
+"également des transitions fluides entre les DJ."
 
 #: ../../chapters/hardware.rst:239
 msgid ""
@@ -724,6 +785,14 @@ msgid ""
 "Alternatively, a sound card with at least 6 output channels can be used with"
 " Mixxx's :guilabel:`Booth` output."
 msgstr ""
+"Cependant, l'utilisation d'une table de mixage externe avec mixage interne "
+"n'est pas nécessaire et réduit la qualité sonore. Chaque équipement traversé"
+" par un signal audio réduit la qualité du son, donc éviter les équipements "
+"inutiles sur le chemin du signal pour fournir une meilleure qualité sonore. "
+"De nombreux contrôleurs DJ fournissent des sorties principale et cabine "
+"séparées avec des commandes de volume indépendantes. Alternativement, une "
+"carte son avec au moins 6 canaux de sortie peut être utilisée avec la sortie"
+" :guilabel:`Cabine` de Mixxx."
 
 #: ../../chapters/hardware.rst:247
 msgid ""
@@ -807,7 +876,7 @@ msgstr ":ref:`microphones`"
 
 #: ../../chapters/hardware.rst:285
 msgid "Headphones"
-msgstr ""
+msgstr "Casques"
 
 #: ../../chapters/hardware.rst:287
 msgid ""
@@ -822,6 +891,18 @@ msgid ""
 " to hear the monitor or PA output better in one ear and compare it to the "
 "headphone output in the other ear."
 msgstr ""
+"Être capable d'écouter ce que vous jouerez ensuite dans un casque avant que "
+"votre public ne l'entende sur les enceintes principales ou sur votre flux de"
+" diffusion est une partie essentielle du DJé. Les casques DJ sont "
+"généralement de meilleure qualité que les casques grand public classiques. "
+"Surtout, ils sont conçus pour avoir une bonne isolation, ce qui signifie "
+"qu’ils bloquent le bruit extérieur. Cela permet au DJ de mieux se concentrer"
+" sur le son du casque sans avoir à augmenter le volume pour étouffer le son "
+"des haut parleurs, du système de sonorisation et des discussions. De plus, "
+"les casques DJ sont dotés de charnières ou d'arceaux flexibles qui "
+"permettent au DJ d'enlever un casque pour mieux entendre la sortie du haut "
+"parleur ou de la sonorisation dans une oreille et la comparer à la sortie "
+"casque dans l'autre oreille."
 
 #: ../../chapters/hardware.rst:298
 msgid ""
@@ -834,6 +915,16 @@ msgid ""
 "sound quality than other headphones of a comparable price. DJ headphones "
 "with a closed design block out a lot of sound simply by being closed."
 msgstr ""
+"Lorsque vous achetez des écouteurs, tenir compte de leur capacité à isoler "
+"le son et de leur durabilité. Les endroits les plus fréquents où les "
+"écouteurs se cassent sont le point de fixation du câble et l'arceau. "
+"Rechercher des écouteurs avec des câbles détachables, des bandeaux "
+"métalliques et d'autres pièces remplaçables individuellement. Éviter les "
+"écouteurs Bluetooth car ils peuvent ne pas être fiables et réduiront "
+"toujours la qualité du son. Les écouteurs à réduction de bruit active ont "
+"également tendance à avoir une qualité sonore moins bonne que les autres "
+"écouteurs d’un prix comparable. Les écouteurs DJ au design fermé bloquent "
+"une grande partie du son simplement en étant fermés."
 
 #: ../../chapters/hardware.rst:307
 msgid ""
@@ -841,6 +932,10 @@ msgid ""
 "preference. Everyone's head is different, so headphones that are comfortable"
 " for a friend or a reviewer may not be comfortable for you."
 msgstr ""
+"Le choix d’un casque supra-auriculaire ou circum-auriculaire est une "
+"question de préférence personnelle. La tête de chacun est différente, donc "
+"les écouteurs qui sont confortables pour un ami ou un évaluateur peuvent ne "
+"pas l'être pour vous."
 
 #: ../../chapters/hardware.rst:311
 msgid ""
@@ -850,10 +945,15 @@ msgid ""
 "musicians who play often in very loud environments to preserve their "
 "hearing."
 msgstr ""
+"Les écouteurs intra-auriculaires (IEM) isolent mieux le son que les casques "
+"mais sont plus chers. Ils coutent généralement plus du double du prix d’un "
+"bon casque DJ de qualité comparable. Ils peuvent constituer un "
+"investissement judicieux pour les musiciens qui jouent souvent dans des "
+"environnements très bruyants afin de préserver leur audition."
 
 #: ../../chapters/hardware.rst:319
 msgid "Splitter Cables"
-msgstr ""
+msgstr "Câbles répartiteurs"
 
 #: ../../chapters/hardware.rst:320
 msgid ""
@@ -863,6 +963,12 @@ msgid ""
 "signals. However, onboard audio interfaces are not good quality, and you "
 "lose the stereo effect of hearing different sounds arranged in space."
 msgstr ""
+"Les câbles répartiteurs DJ sont le moyen le moins cher d'obtenir deux "
+"sorties audio distinctes à partir de votre ordinateur. Ceux-ci se branchent "
+"sur l'interface audio intégrée aux cartes mères d'ordinateur et divisent le "
+"signal stéréo en deux signaux mono distincts. Cependant, les interfaces "
+"audio embarquées ne sont pas de bonne qualité et vous perdez l’effet stéréo "
+"d’entendre différents sons disposés dans l’espace."
 
 #: ../../chapters/hardware.rst:326
 msgid ""
@@ -873,3 +979,10 @@ msgid ""
 "generic stereo-to-mono splitter will only play sound on one side of the "
 "headphones or speakers."
 msgstr ""
+"Les appareils commercialisés sous le nom de « séparateur de casque » au lieu"
+" de séparateurs DJ dupliquent un signal stéréo dans deux prises. Ceux-ci ne "
+"peuvent pas être utilisés pour la pré-écoute au casque. De plus, les câbles "
+"ou adaptateurs répartiteurs stéréo-mono génériques ont généralement deux "
+"sorties jack mono. Brancher un casque ou des haut-parleurs stéréo sur un "
+"répartiteur stéréo-mono générique ne jouera le son que sur un côté du casque"
+" ou des haut-parleurs."

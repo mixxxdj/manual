@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# omar.maciasmolina <omar.maciasmolina@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: omar.maciasmolina <omar.maciasmolina@gmail.com>, 2023\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7664/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,11 +55,11 @@ msgid ""
 "database. For more information, see`<https://acoustid.org/>`_."
 msgstr ""
 "Un sistema d'empremta digital d'àudio feta completament amb :term:`codi-"
-"obert`. Pretèn crear una base de dades lliure de dades enviades pels usuaris"
-" amb :term:`metadades ` obtingudes de la base de dades de "
-":term:`MusicBrainz`, i ofereix un servei web per a la identificació de "
-"fitxers d'àudio gràcies a aquesta base de dades. Per a més informació, "
-"visiteu: `<https://acoustid.org/>`_."
+"obert <open-source>`. Pretèn crear una base de dades lliure de dades "
+"enviades pels usuaris amb :term:`metadades <metadata>` obtingudes de la base"
+" de dades de :term:`MusicBrainz`, i ofereix un servei web per a la "
+"identificació de fitxers d'àudio gràcies a aquesta base de dades. Per a més "
+"informació, visiteu: `<https://acoustid.org/>`_."
 
 #: ../../glossary.rst:269
 msgid "AIFF"
@@ -178,8 +177,8 @@ msgid ""
 msgstr ""
 "Una serie de marques que indiquen la localització dels tocs de compàs en la "
 "pista. Les graelles de ritme s'utilitzen per a funcions de mescla avançades "
-"com la :term:`sincronització`, efectes precisos de sincronització, bucles i "
-"representació acurada de :term:`BPM`."
+"com la :term:`sincronització <sync>`, efectes precisos de sincronització, "
+"bucles i representació acurada de :term:`BPM`."
 
 #: ../../glossary.rst:102
 msgid "beatmatching"

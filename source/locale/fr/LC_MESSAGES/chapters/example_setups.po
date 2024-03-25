@@ -259,6 +259,9 @@ msgid ""
 "Compatibility>`_ lists specific devices with information about their prices,"
 " features, and compatibility with Mixxx."
 msgstr ""
+"Le `DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ répertorie les appareils spécifiques avec des informations "
+"sur leurs prix, leurs fonctionnalités et leur compatibilité avec Mixxx."
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
@@ -288,6 +291,16 @@ msgid ""
 "output. However, it can be used by radio DJs who only need to send the main "
 "mix to a broadcast audience."
 msgstr ""
+"Cette configuration peut être utilisée avec une seule sortie audio pour "
+"haut-parleurs ou casque pour pratiquer le DJé sans investir dans aucun "
+"équipement autre qu'un ordinateur et un ensemble de haut-parleurs ou de "
+"casque. Avec cette configuration, utilisez le:ref:`potentiomètre "
+"pré/principal <interface-head-main>` pour basculer entre le mixage principal"
+" et le signal :term:`PFL`. Cette configuration ne peut pas être utilisée "
+"pour jouer devant un public en direct car le mixage principal n'est pas "
+"envoyé vers une sortie d'interface audio. Cependant, il peut être utilisé "
+"par les DJ de radio qui n'ont besoin que d'envoyer le mix principal à un "
+"public de diffusion."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -374,6 +387,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner votre interface "
+"audio intégrée, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -438,6 +453,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner votre interface "
+"audio intégrée, puis :guilabel:`Canal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -482,6 +499,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner l'interface audio"
+" externe, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -533,6 +552,8 @@ msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 msgstr ""
+"Utiliser Mixxx avec un contrôleur DJ possédant un système audio intégré\n"
+"interface"
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
@@ -552,6 +573,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Depuis le menu déroulant :guilabel:`Principal`, sélectionner l'interface "
+"audio du contrôleur puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""

@@ -842,7 +842,7 @@ msgstr "Affichage de l'état du contrôle vinyle"
 
 #: ../../chapters/vinyl_control.rst:318
 msgid "The vinyl control status of the deck"
-msgstr ""
+msgstr "Le statut du contrôle vinyle de la platine"
 
 #: ../../chapters/vinyl_control.rst:318
 msgid "The vinyl control status, and signal quality display of the deck"

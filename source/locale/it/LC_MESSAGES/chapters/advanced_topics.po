@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Nicola Lastella, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Nicola Lastella, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7664/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Libreria: Icona AutoDj"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Libreria - Icona Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
@@ -35,55 +36,55 @@ msgstr ""
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Libreria: Icona Navigare"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "Libreria - Icona Casse"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "Library - Icona Drag and Drop"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "Libreria: Icona Cronologia sessione attuale"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Libreria - Icona Cronologia"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Libreria - Icona Itunes"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Libreria - Icona Libreria"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Libreria - Icona Bloccata"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Libreria - Icona Brano Mancante"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Libreria - Icona Playlist"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Libreria - Icona Analizza"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Libreria - Icona Registrazioni"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Libreria - Icona Rythmbox"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"

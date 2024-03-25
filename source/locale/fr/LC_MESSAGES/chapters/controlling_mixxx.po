@@ -264,6 +264,10 @@ msgid ""
 "default value. This is especially useful on touchscreens as executing a "
 "right-click on them is usually tedious."
 msgstr ""
+"**Double-clic gauche** : double-cliquer sur n'importe quel bouton ou "
+"potentiomètre pour le réinitialiser à sa valeur par défaut. Ceci est "
+"particulièrement utile sur les écrans tactiles, car exécuter un clic-droit "
+"dessus est généralement fastidieux."
 
 #: ../../chapters/controlling_mixxx.rst:28
 msgid ""
@@ -321,8 +325,8 @@ msgid ""
 " rate of the tracks. For more information, go to :ref:`interface-waveform`."
 msgstr ""
 "Vous pouvez ajuster le zoom et la vitesse de lecture en utilisant le clic-"
-"déplacement ou la molette, sur les formes d'ondes. Plus d'informations sur "
-":ref:`interface-waveform`."
+"déplacement ou la molette, sur les formes d'ondes. Voir :ref:`interface-"
+"waveform` pour plus d'informations."
 
 #: ../../chapters/controlling_mixxx.rst:51
 msgid "Using a Keyboard"
@@ -330,7 +334,7 @@ msgstr "Utiliser un clavier"
 
 #: ../../chapters/controlling_mixxx.rst-1
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Raccourcis clavier"
 
 #: ../../chapters/controlling_mixxx.rst:60
 msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
@@ -340,6 +344,7 @@ msgstr "Raccourcis claviers de Mixxx (pour des claviers QWERTY)"
 msgid ""
 ":download:`Download the image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 msgstr ""
+":download:`Télécharger l'image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 
 #: ../../chapters/controlling_mixxx.rst:64
 msgid ""
@@ -428,17 +433,19 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:103
 msgid "Loading a controller mapping"
-msgstr ""
+msgstr "Chargement d'un mappage de contrôleur"
 
 #: ../../chapters/controlling_mixxx.rst:111
 msgid "Mixxx Preferences - Loading a controller mapping"
-msgstr ""
+msgstr "Mixxx Préférences - Contrôleurs"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid ""
 "Without loading the correct mapping, your controller does not work with "
 "Mixxx."
 msgstr ""
+"Sans charger le mappage correct, votre contrôleur ne fonctionnera pas avec "
+"Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:115
 msgid "Connect your controller(s) to your computer"
@@ -465,10 +472,12 @@ msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Mapping` "
 "drop-down menu"
 msgstr ""
+"Sélectionner le mappage de votre contrôleur dans le menu déroulant "
+":guilabel:`Charger mappage`"
 
 #: ../../chapters/controlling_mixxx.rst:122
 msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
-msgstr ""
+msgstr "Assurez-vous que la case :guilabel:`Activé` est cochée"
 
 #: ../../chapters/controlling_mixxx.rst:123
 msgid ""
@@ -549,6 +558,8 @@ msgstr ""
 #: ../../chapters/controlling_mixxx.rst:150
 msgid "Additional mappings are available in the `Controller mapping forum`_."
 msgstr ""
+"Des mappages supplémentaires sont disponibles sur le `Controller mapping "
+"forum`_."
 
 #: ../../chapters/controlling_mixxx.rst:152
 msgid ""
@@ -562,7 +573,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:162
 msgid "Installing a mapping from the forum"
-msgstr ""
+msgstr "Installer un mappage depuis le forum"
 
 #: ../../chapters/controlling_mixxx.rst:163
 msgid ""
@@ -574,12 +585,12 @@ msgid ""
 "be found in :ref:`appendix-settings-files`."
 msgstr ""
 "Pour utiliser un mappage de contrôleur qui n'est pas fourni avec Mixxx, "
-"placer le mappage de contrôleur dans votre répertoire User Mappings. Pour "
-"l'ouvrir, aller dans :menuselection:`Préférences --> Contrôleurs` et cliquer"
+"placer le mappage de contrôleur dans votre répertoire User Controllers. Pour"
+" l'ouvrir, aller sur :menuselection:`Préférences --> Contrôleurs` et cliquer"
 " sur le bouton :guilabel:`Ouvrir le répertoire des mappages utilisateur`. "
-"Vous pouvez également utiliser votre navigateur de fichiers :term:`OS "
-"<operating system>` pour y accéder. Pour les emplacements et plus de détails"
-" voir :ref:`appendix-settings-files`."
+"Vous pouvez également utiliser votre :term:`OS <operating system>` "
+"navigateur de fichiers pour y accéder. Pour les emplacements et plus de "
+"détails voir :ref:`appendix-settings-files`."
 
 #: ../../chapters/controlling_mixxx.rst:167
 msgid ""
@@ -600,7 +611,7 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:174
 msgid "Map your own controller"
-msgstr ""
+msgstr "Mapper votre propre contrôleur"
 
 #: ../../chapters/controlling_mixxx.rst:176
 msgid ""
@@ -619,7 +630,7 @@ msgstr "Voir :ref:`advanced-controller` pour des informations détaillées."
 
 #: ../../chapters/controlling_mixxx.rst:185
 msgid "Using Timecode Vinyl Records and CDs"
-msgstr "Utiliser des vinyles ou CDs avec timecode"
+msgstr "Utiliser des vinyles ou CDs timecodés"
 
 #: ../../chapters/controlling_mixxx.rst:187
 msgid ""
@@ -630,6 +641,13 @@ msgid ""
 "vinyl control allows that feel to be preserved while retaining the benefits "
 "of using digital audio."
 msgstr ""
+":term:`Contrôle vinyle<vinyl control>` permet à un utilisateur de manipuler "
+"la lecture d'une piste dans Mixxx en utilisant une platine vinyle ou "
+":term:`CDJ` comme interface. En effet, il simule le son et la sensation "
+"d'avoir votre collection de musique numérique sur vinyle. De nombreux DJ "
+"préfèrent la sensation tactile du vinyle, et le contrôle du vinyle permet de"
+" préserver cette sensation tout en conservant les avantages de l'utilisation"
+" de l'audio numérique."
 
 #: ../../chapters/controlling_mixxx.rst:193
 msgid "Go to :ref:`vinyl-control` for detailed information."
