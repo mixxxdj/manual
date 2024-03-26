@@ -1495,6 +1495,8 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control
 source_file            = source/locale/pot/chapters/vinyl_control.pot
 source_lang            = en
 >>>>>>> b18c15129 (Remove 2.3 entries from .tx/config)
+=======
+>>>>>>> 9b646d009 (Remove obsolete entries from .tx/config)
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
