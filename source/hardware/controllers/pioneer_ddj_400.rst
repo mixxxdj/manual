@@ -69,7 +69,11 @@ Controller Mapping
 ------------------
 
 The schematic drawings used here can be referenced in the
+<<<<<<< HEAD
+`manufacturer's manual <https://www.pioneerdj.com/en/support/software/controller/ddj-400/>`__
+=======
 `manufacturer's manual <https://support.pioneerdj.com/hc/sections/4416577146009-ddj-400>`__
+>>>>>>> upstream/2.4
 on the given page number.
 
 Browser section (p. 6)

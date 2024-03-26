@@ -4,18 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# omar.maciasmolina <omar.maciasmolina@gmail.com>, 2023
-# Benny Beat <bennybeat@gmail.com>, 2023
+# omar.maciasmolina <omar.maciasmolina@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Benny Beat <bennybeat@gmail.com>, 2023\n"
-"Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7664/ca/)\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: omar.maciasmolina <omar.maciasmolina@gmail.com>, 2022\n"
+"Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,8 +30,8 @@ msgid ""
 "Sorry, we can't find the page you're looking for. Go back to the :ref:`start"
 " page of the manual <index>`."
 msgstr ""
-"No podem trobar la pàgina que esteu cercant. Torneu a la :ref:`pàgina "
-"d'inici del manual <index>`."
+"Ho sentim, no hem pogut trobar la pàgina que esteu cercant. Torneu a la "
+":ref:`pàgina d'inici del manual<index>`."
 
 #: ../../404.rst:10
 msgid ""
@@ -40,6 +39,3 @@ msgid ""
 "side, let us know on our `issue tracker on GitHub "
 "<https://github.com/mixxxdj/manual/issues>`_!"
 msgstr ""
-"El Mixxx es fa de forma col·laborativa. Si creieu que això és un error per "
-"part nostra, feu-nos-ho saber al nostre `seguidor de problemes a GitHub "
-"<https://github.com/mixxxdj/manual/issues>`!!"

@@ -10,12 +10,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-03-24 15:20+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+=======
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,6 +273,7 @@ msgid ""
 "2 separate audio outputs, typically provided by a USB audio interface (also "
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore)."
+<<<<<<< HEAD
 msgstr ""
 "Vous pouvez utiliser Mixxx pour prévisualiser la piste suivante dans un "
 "casque avant que le public ne l'entende, également appelé pré-écoute au "
@@ -275,11 +283,21 @@ msgstr ""
 "généralement fournies par une interface audio USB (également appelée « carte"
 " son », bien que la plupart d'entre elles n'aient plus la forme d'une "
 "carte)."
+=======
+msgstr "Avec Mixxx tu peux pré-écouter et préparer le track suivant avant "
+"que la publique le peut écouter avec des casques, on appelle ça headphone "
+"cueing. Ca peut aider à choiser le track qui est le meilleur pour le moment "
+"et qui peut être impecable mixé avec le track qui joue / les tracks qui jouent."
+"Pour utiliser headphone cueing vous avez besoin de (au moins) 2 sorties audio,"
+"généralement livré à votre ordi par un USB audio interface (aussi connu come "
+"“carte de son” même quand la forme n"est plus comme une carte aujourd'hui."
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/introduction.rst:31
 msgid ""
 "The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
 "Deck 2 the shortcut is :kbd:`Y`."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 "Le :term:`raccourcis` pour la pré-écoute au casque sur la Platine1 est "
@@ -299,6 +317,15 @@ msgid "Mixxx can be used in two different ways for headphone cueing:"
 msgstr "Mixxx peut être utiliser pour headphone cueing en deux manièeres "
 "differentes:"
 >>>>>>> 25232d2a1 (FR 2)
+=======
+msgstr "Le raccoursi pour headphone cueing dans Deck 1 is :kbd:`T` "
+"et dans Deck 2 le raccoursi est  :kbd:`Y`."
+
+#: ../../chapters/introduction.rst:33
+msgid "Mixxx can be used in two different ways for headphone cueing:"
+msgstr "Mixxx peut être utiliser pour headphone cueing en deux manièeres "
+"differentes:"
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
@@ -324,6 +351,7 @@ msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Utiliser Mixxx avec un contrôleur DJ possédant un système audio intégré\n"
 "interface"
@@ -331,6 +359,10 @@ msgstr ""
 msgstr ""Utiliser Mixxx avec un un contrôleur DJ avec un \n interface "
 audio integré"
 >>>>>>> 25232d2a1 (FR 2)
+=======
+msgstr ""Utiliser Mixxx avec un un contrôleur DJ avec un \n interface "
+audio integré"
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/introduction.rst:51
 msgid ""
@@ -372,10 +404,14 @@ msgstr ""
 #: ../../chapters/introduction.rst:0
 msgid "Using Mixxx together with turntables and external mixer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilisation de Mixxx avec des platines et une table de mixage externe"
 =======
 msgstr "Utiliser Mixxx en combination des tourne-disque et une table de mixage."
 >>>>>>> 25232d2a1 (FR 2)
+=======
+msgstr "Utiliser Mixxx en combination des tourne-disque et une table de mixage."
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/introduction.rst:74
 msgid ""

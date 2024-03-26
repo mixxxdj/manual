@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1039,10 +1038,6 @@ msgid ""
 "described below. Clicking  on the :guilabel:`Auto` button will switch it to "
 "any of three modes:"
 msgstr ""
-"Le potentiomètre :guilabel:`Puissance` ajuste la force d'atténuation de la "
-"conversation du microphone et son comportement dépend de l'un des modes de "
-"conversation du microphone décrits ci-dessous. En cliquant sur le bouton "
-":guilabel:`Auto`, vous passerez à l'un des trois modes suivants :"
 
 #: ../../chapters/microphones.rst:432
 msgid ""

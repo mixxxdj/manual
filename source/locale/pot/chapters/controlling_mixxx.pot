@@ -6,9 +6,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-03-25 19:19+0100\n"
+=======
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,7 +277,7 @@ msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:62
-msgid ":download:`Download the image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
+msgid ":download:`Download the image <../_static/Mixxx-250-Keyboard-Mapping.png>`"
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:64

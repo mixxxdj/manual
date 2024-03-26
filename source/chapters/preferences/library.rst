@@ -22,7 +22,7 @@ You can manually add, relink, and remove Mixxx music directories in
   Directories can also be added from the :ref:`Computer <library-computer>`
   sidebar item inside the library.
 
-**Relink a existing music directory**
+**Relink an existing music directory**
   If an existing music directory is moved or renamed, Mixxx doesn't know where to
   find the audio files in it. The tracks will still show in library but they can't
   be loaded on decks and the tracks will become missing after the library is rescanned.
