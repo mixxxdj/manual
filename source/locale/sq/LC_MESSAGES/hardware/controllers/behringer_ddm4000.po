@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -237,6 +237,10 @@ msgid ""
 "year old tools (plus license, plus old windows version) needed to compile "
 "it, together with finding the bug in a very complex code base (without "
 "access to the developer) makes fixing this nearly impossible.\""
+msgstr ""
+
+#: ../../hardware/controllers/behringer_ddm4000.rst:92
+msgid "[MUSIC Tribe Care] Behringer - Technical Support (08 Sep 2021)"
 msgstr ""
 
 #: ../../hardware/controllers/behringer_ddm4000.rst:97

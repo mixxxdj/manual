@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,8 +238,8 @@ msgstr ""
 "est développé par une équipe internationale de bénévoles qui veulent "
 "apporter la joie de DJé à tout le monde. Le projet est à but non lucratif, "
 "open source et axé sur la communauté. Ensemble, nous visons à créer le "
-"meilleur logiciel DJ jamais créé. Nous espérons que vous :ref:`join us "
-"<contributing>`!"
+"meilleur logiciel DJ jamais créé. Nous espérons que vous pourrez :ref:`nous "
+"rejoindre <contributing>` !"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
@@ -254,7 +255,7 @@ msgstr ""
 "Mixxx est différent des applications classiques de lecture de musique car il"
 " lit plusieurs fichiers audio en même temps et possède de nombreuses "
 "fonctionnalités pour manipuler la lecture des fichiers audio. Cela vous "
-"permet de mixer de manière créative différentes pistes à la volée."
+"permet de mixer de manière créative différentes pistes, à la volée."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
