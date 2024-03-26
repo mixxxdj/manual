@@ -9,12 +9,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -240,7 +240,7 @@ msgstr "battement, tempo et détection de tonalité musicale"
 
 #: ../../index.rst:19
 msgid "sync lock"
-msgstr ""
+msgstr "verrouillage de synchronisation"
 
 #: ../../index.rst:20
 msgid "hotcues"
@@ -264,9 +264,9 @@ msgid ""
 "CD players, vinyl turntables or even just your computer's keyboard and "
 "mouse."
 msgstr ""
-"Vous pouvez utiliser Mixxx pour vous produire avec des contrôleurs "
-":term:`MIDI` et :term:`HID`, des lecteurs de CD, des platines vinyles ou "
-"tout simplement le clavier et la souris de votre ordinateur."
+"Vous pouvez utiliser Mixxx en combination avec des contrôleurs "
+":term:`MIDI` et :term:`HID`, des lecteurs de CD, des tournes-disque de platines vinyles ou "
+"out tout simplement le clavier et la souris de votre ordinateur."
 
 #: ../../index.rst:29
 msgid "Table of Contents"

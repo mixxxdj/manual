@@ -3,18 +3,14 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Nicola Lastella, 2023
-# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Nicola Lastella, 2023\n"
-"Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7664/it/)\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,15 +19,13 @@ msgstr ""
 
 #: ../../404.rst:4
 msgid "Page not found"
-msgstr "Pagina non trovata"
+msgstr ""
 
 #: ../../404.rst:6
 msgid ""
 "Sorry, we can't find the page you're looking for. Go back to the :ref:`start"
 " page of the manual <index>`."
 msgstr ""
-"Scusa, non possiamo trovare la pagina che stai cercando. Ritorna alla :ref: "
-"pagina iniziale del manuale <index>`."
 
 #: ../../404.rst:10
 msgid ""
@@ -39,6 +33,3 @@ msgid ""
 "side, let us know on our `issue tracker on GitHub "
 "<https://github.com/mixxxdj/manual/issues>`_!"
 msgstr ""
-"Mixxx è un progetto collaborativo. Se pensi che ci siamo sbagliati, faccelo "
-"sapere sul nostro \"issue tracker\" su Github "
-"<https://github.com/mixxxdj/manual/issues>`_!"

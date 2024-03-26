@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -240,6 +239,7 @@ msgstr ""
 msgid ""
 "To make DJing with Mixxx a fun experience, at least the following pieces are"
 " needed:"
+<<<<<<< HEAD
 msgstr ""
 "Pour DJé avec Mixxx et en faire une expérience amusante, au minimum les "
 "éléments suivants sont nécessaires :"
@@ -247,6 +247,13 @@ msgstr ""
 #: ../../chapters/hardware.rst:22
 msgid "speakers to play the music to the audience,"
 msgstr "des haut-parleurs pour diffuser la musique au public,"
+=======
+msgstr "Pour que DJ-ing avex Mixxx sera une expérience gai, on a besoin du materiel suivant:"
+
+#: ../../chapters/hardware.rst:22
+msgid "speakers to play the music to the audience,"
+msgstr "haut-parleurs pour laisser le publique écouter la musique"
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/hardware.rst:23
 msgid ""
@@ -315,13 +322,6 @@ msgid ""
 "Mixxx Wiki also lists additional devices, including information about their "
 "prices, features, and compatibility with Mixxx."
 msgstr ""
-"Les instructions sur l'utilisation des contrôleurs DJ qui fonctionnent "
-"immédiatement avec Mixxx peuvent être trouvées dans la section :ref:`Manuels"
-" des matériels <hardware-manuals>`  de ce manuel.  Le `Mixxx DJ Hardware "
-"Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ sur "
-"le wiki Mixxx répertorie également des appareils supplémentaires, y compris "
-"des informations sur leurs prix, leurs fonctionnalités et leur compatibilité"
-" avec Mixxx."
 
 #: ../../chapters/hardware.rst:50
 msgid "Controllers"
@@ -383,17 +383,6 @@ msgid ""
 "<https://github.com/mixxxdj/mixxx/wiki#user-content-controller-mapping-"
 "documentation>`_ on the wiki."
 msgstr ""
-"Mixxx peut fonctionner avec n'importe quel :term:`controlleur` :term:`MIDI` "
-"ou :term:`HID` tant qu'il existe un fichier de mappage pour indiquer à Mixxx"
-" comment comprendre les signaux du contrôleur. Mixxx est livré avec un "
-"certain nombre de mappages MIDI et HID, répertoriés dans la section "
-":ref:Manuels des matériels <hardware-manuals>`. Pour les contrôleurs que "
-"Mixxx ne prend pas encore en charge, vous pouvez `rechercher sur le forum "
-"<https://mixxx.discourse.group/c/controller-mappings/10>`_ pour voir si "
-"quelqu'un a commencé un mappage. Vous pouvez également en créer un vous-même"
-" en utilisant les informations contenues dans la `Documentation de mappage "
-"de contrôleur <https://github.com/mixxxdj/mixxx/wiki#user-content-"
-"controller-mapping-documentation>`_ sur le wiki."
 
 #: ../../chapters/hardware.rst:80
 msgid ""
@@ -493,11 +482,14 @@ msgid ""
 "recording, `it is useless for playback <https://sonicscoop.com/why-almost-"
 "everything-you-thought-you- knew-about-bit-depth-is-probably-wrong/>`_."
 msgstr ""
+<<<<<<< HEAD
 "La résolution détermine la plage dynamique possible du signal. 16 bits sont "
 "largement suffisants pour lire de la musique. Bien que le 24 bits soit utile"
 " pour l'enregistrement, `c'est inutile pour la lecture "
 "<https://sonicscoop.com/why-almost-everything-you-thought-you- knew-about-"
 "bit-depth-is-probably-wrong/>`_."
+=======
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/hardware.rst:126
 msgid ""

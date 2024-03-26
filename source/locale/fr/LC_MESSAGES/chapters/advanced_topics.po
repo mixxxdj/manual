@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -279,8 +278,11 @@ msgid ""
 "By far, the easiest way to create a new MIDI mapping is by using the "
 "Controller Wizard."
 msgstr ""
+<<<<<<< HEAD
 "Le moyen le plus simple de créer un nouveau mappage MIDI, consiste à "
 "utiliser lassistant de contrôleur."
+=======
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
@@ -415,9 +417,6 @@ msgid ""
 "The Controller wizard saves the new mapping to the ``controllers`` directory"
 " in the user settings directory, see :ref:`appendix-settings-files`."
 msgstr ""
-"L'assistant de contrôleur enregistre le nouveau mappage dans le répertoire "
-"``controllers`` dans le répertoire des paramètres utilisateur, voir "
-":ref:`appendix-settings-files`."
 
 #: ../../chapters/advanced_topics.rst:81
 msgid ""
@@ -426,11 +425,6 @@ msgid ""
 "information, go to `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_."
 msgstr ""
-"Vous pouvez ensuite modifier le fichier XML qu'il crée (ou l'un de ceux "
-"fournis avec Mixxx) si vous souhaitez l'affiner ou ajouter plus de mappages."
-" Pour plus d'informations, voir "
-"`<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-"
-"Format>`_."
 
 #: ../../chapters/advanced_topics.rst:86
 msgid ""
@@ -490,15 +484,6 @@ msgid ""
 "Components-JS significantly reduces effort for both mapping and reviewing "
 "Pull Requests."
 msgstr ""
-"Pour plus d'informations, accédez à "
-"`<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_ et "
-"`<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>` _ , ainsi que la "
-"`Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-"
-"JS>`_ qui simplifie grandement le mappage, par exemple les unités d'effets "
-"et les comportements complexes comme le changement de deck layers ou pad "
-"grid modes. Notez qu'il s'agit de la méthode de mappage préférée si vous "
-"souhaitez que votre mappage soit inclus dans Mixxx, car Components-JS réduit"
-" considérablement les efforts de mappage et de révision des Pull Requests."
 
 #: ../../chapters/advanced_topics.rst:118
 msgid "Making a Custom Keyboard Mapping"
@@ -821,11 +806,6 @@ msgid ""
 "settings-files>` and the music directories you imported into your Mixxx "
 "library via :menuselection:`Preferences --> Library`."
 msgstr ""
-"Vous n'avez pas nécessairement besoin de pouvoir exécuter votre précédente "
-"installation de Mixxx, tout ce dont vous avez besoin est votre "
-":ref:`settings directory <appendix-settings-files>` et les répertoires de "
-"musique que vous avez importés dans votre bibliothèque Mixxx via "
-":menuselection:`Préférences --> Bibliothèque`."
 
 #: ../../chapters/advanced_topics.rst:247
 msgid "Preparation"
@@ -840,13 +820,6 @@ msgid ""
 "settings file: open :file:`mixxx.cfg` with a text editor, delete the line "
 "with :file:`RescanOnStartup` and save the file."
 msgstr ""
-"Si vous avez toujours accès à votre installation de Mixxx, ouvrer Mixxx, "
-"aller dans :menuselection:`Préférences --> Bibliothèque` et décocher "
-":guilabel:`Rescan on startup`. Si vous ne parvenez plus à démarrer Mixxx, "
-"par ex. si vous avez seulement réussi à récupérer votre répertoire de "
-"paramètres, vous pouvez le faire manuellement dans le fichier de paramètres "
-": ouvrer :file:`mixxx.cfg` avec un éditeur de texte, supprimer la ligne "
-"contenant :file:`RescanOnStartup` et enregistrer le fichier."
 
 #: ../../chapters/advanced_topics.rst:250
 msgid ""
@@ -913,9 +886,6 @@ msgid ""
 "Go to :menuselection:`Preferences --> Library` and **Relink** each of your "
 "music directories as described in :ref:`configuration-import`."
 msgstr ""
-"Aller dans :menuselection:`Préférences --> Bibliothèque` et **Rattacher** "
-"chacun de vos répertoires de musique comme décrit dans :ref:`configuration-"
-"import`."
 
 #: ../../chapters/advanced_topics.rst:264
 msgid ""

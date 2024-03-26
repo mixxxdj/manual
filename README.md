@@ -125,7 +125,7 @@ translation and can be regenerated with:
 Additionally, for every new source file added (i.e. new chapters or manual
 pages) the Transifex configuration file (stored in `.tx/config`) needs updating:
 
-    sphinx-intl update-txconfig-resources --transifex-organization-name mixxx-dj-software --pot-dir source/locale/pot --transifex-project-name mixxx-dj-manual-23 --locale-dir source/locale
+    sphinx-intl update-txconfig-resources --transifex-organization-name mixxx-dj-software --pot-dir source/locale/pot --transifex-project-name mixxx-dj-manual-25 --locale-dir source/locale
 
 Commit the new source translations and Transifex configuration with:
 

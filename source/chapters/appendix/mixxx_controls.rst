@@ -1604,7 +1604,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],LoadSelectedTrackAndPlay
                    [SamplerN],LoadSelectedTrackAndPlay
 
-   Loads the currently highlighted track into the deck and starts playing
+   Loads the currently highlighted track into the deck and starts playing.
+
+   If the player is a preview deck and the selected track is already loaded, toggle play/pause.
 
    :range: binary
    :feedback: Track name & waveform change & Play/pause button

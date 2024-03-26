@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.4\n"
+"Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -256,8 +255,6 @@ msgid ""
 "Double-click the Mixxx .dmg file and drag the Mixxx icon to your "
 "Applications folder."
 msgstr ""
-"Double-cliquer sur le fichier Mixxx .dmg et faites glisser l'icône Mixxx "
-"vers votre répertoire Applications."
 
 #: ../../chapters/getting_started.rst:22
 msgid "**Linux**"
@@ -304,9 +301,12 @@ msgid ""
 "detailed descriptions of the settings files, go to :ref:`appendix-settings-"
 "files`."
 msgstr ""
+<<<<<<< HEAD
 "Pour les emplacements dans chaque :term:`OS <operating system>` pris en "
 "charge, ainsi que des descriptions détaillées des fichiers de paramètres, "
 "voir :ref:`appendix-settings-files`."
+=======
+>>>>>>> 46b5492fa759ce056cf9026afdcff001d2fa4339
 
 #: ../../chapters/getting_started.rst:41
 msgid "Opening Mixxx"
@@ -336,7 +336,7 @@ msgid ""
 "Alternatively, drag the Mixxx icon to the dock and double-click it there or "
 "search for :command:`mixxx` in Spotlight."
 msgstr ""
-"Double-cliquer sur l'icône Mixxx dans le répertoire :file:`Applications`. "
+"Double-cliquer sur l'icône Mixxx dans le dossier :file:`Applications`. "
 "Sinon, faites glisser l'icône Mixxx dans le dock et double-cliquer dessus ou"
 " rechercher :command:`mixxx` dans Spotlight. "
 
@@ -370,8 +370,6 @@ msgstr "Importer vos fichiers audio"
 #: ../../chapters/getting_started.rst:79
 msgid "Mixxx 1st run - Choose music library directory dialog"
 msgstr ""
-" 1ère exécution de Mixxx - Boîte de dialogue Choix du répertoire de la "
-"bibliothèque musicale"
 
 #: ../../chapters/getting_started.rst:79
 msgid "Mixxx running on Windows 10 - Choose music library directory dialog"
@@ -397,10 +395,10 @@ msgid ""
 "supported music files Mixxx detects will be listed in the :ref:`library-"
 "tracks`."
 msgstr ""
-"Cliquer sur :guilabel:`Sélectionner le répertoire` et Mixxx va examiner "
-"votre bibliothèque musicale. Ceci peut prendre du temps en fonction de la "
-"taille de votre bibliothèque. Tous les fichiers musicaux pris en charge que "
-"Mixxx détecte seront listés dans :ref:`library-tracks`."
+"Cliquer sur :guilabel:`Sélectionner le dossier` et Mixxx va examiner votre "
+"bibliothèque musicale. Ceci peut prendre du temps en fonction de la taille "
+"de votre bibliothèque. Tous les fichiers musicaux pris en charge que Mixxx "
+"détecte seront listés dans :ref:`library-tracks`."
 
 #: ../../chapters/getting_started.rst:89
 msgid ""
@@ -424,9 +422,9 @@ msgid ""
 "above."
 msgstr ""
 "Sur Windows 7 et 8, la boîte de dialogue d'importation pointe vers votre "
-"bibliothèque Windows “Musique“, un répertoire virtuel dédié. Vous **ne "
-"pouvez pas** utiliser ces répertoire virtuels. Utiliser plutôt un répertoire"
-" classique, habituellement “Ma Musique“, comme vu ci-dessus."
+"bibliothèque Windows “Musique“, un dossier virtuel dédié. Vous **ne pouvez "
+"pas** utiliser ces dossiers virtuels. Utiliser plutôt un dossier classique, "
+"habituellement “Ma Musique“, comme vu ci-dessus."
 
 #: ../../chapters/getting_started.rst:102
 msgid "Analyze your library"
@@ -485,16 +483,11 @@ msgid ""
 "Once you have :ref:`imported your music library<getting-started-import-"
 "audio-files>`, press :guilabel:`OK` on the Preferences window."
 msgstr ""
-"Une fois que vous avez :ref:`imported` votre bibliothèque musicale<getting-"
-"started-import-audio-files>`, appuyer sur :guilabel:`OK` dans la fenêtre "
-"Préférences."
 
 #: ../../chapters/getting_started.rst:128
 msgid ""
 "Go to the :guilabel:`Analyze` view on the left side panel of the library."
 msgstr ""
-"Aller à la vue :guilabel:`Analyze` sur le panneau latéral gauche de la "
-"bibliothèque."
 
 #: ../../chapters/getting_started.rst:129
 msgid ""
