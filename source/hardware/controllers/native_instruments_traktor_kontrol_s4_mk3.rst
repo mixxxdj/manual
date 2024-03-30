@@ -260,8 +260,8 @@ All mapping detail
 |                  |                                                                  | - In keyboard: keyboard color on each    |
 |                  | - While in sample:                                               |   note, if Dim on, currently             |
 |                  |                                                                  |   active note                            |
-|                  |   - press will play (load selected track if none are)            | - In Beatloop roll: dimed on means a     |
-|                  |   - :hwlabel:`SHIFT` + press will stop (if playing) or eject     |   loop rool is active with the given     |
+|                  |   - press will play (load selected track if none are)            | - In Beatloop roll: brighter means a     |
+|                  |   - :hwlabel:`SHIFT` + press will stop (if playing) or eject     |   loop roll is active with the given     |
 |                  |                                                                  |   size                                   |
 |                  | - While in keyboard:                                             |                                          |
 |                  |                                                                  |                                          |
@@ -405,6 +405,11 @@ Define the tension of the jogwheel                               `TightnessFacto
 Define how much force can the jogwheel use                       `MaxWheelForce`                             25000          10000..30000 (Recommended, can go up to 60000) Define how much resistance can the wheel use when its rotation is held
 ================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
 
+Changing settings
+^^^^^^^^^^^^^^^^^
+
+Mixxx 2.4
+~~~~~~~~~
 
 Making these changes is still a little awkward and we will be making controller preferences easier to change in the future.
 For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
@@ -414,3 +419,10 @@ For now you’ll have to make a small change to the mapping script file. Don’t
 3. Click :guilabel:`Open Selected File`.
 4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
 5. Starting from the block entitled `USER CONFIGURABLE SETTINGS`, there should be configurable options.
+
+
+
+Mixxx 2.5+
+~~~~~~~~~~
+
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`YourController`.
