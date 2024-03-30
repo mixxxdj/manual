@@ -80,7 +80,7 @@ Jogwheel can be used to control various things, depending of the mode they are i
    .. note:: This mode is only available if the motor features are enabled. See :ref:`use-motors` for more details.
 
 4. **Loop in**: The wheel behaves similarly to CDJ. If the platter or crown are turned, it will move back or forth the start of the loop. Additionally, if the loop encoder is used, it will move the all loop back or forth.
-5. **Loop out**: The wheel linke for the **loop in** mode, but for the exit of the loop. If the platter or crown are turned, it will move back or forth the end of the loop. Additionally, if the loop encoder is used in the same way than **Loop in** mode.
+5. **Loop out**: Like for the **loop in** mode, but with the exit position of the loop. If the platter or crown are turned, it will move back or forth the end of the loop. Additionally, if the loop encoder is used in the same way than **Loop in** mode.
 
 Here is how to tell what mode is on, depending the current state of the LED:
 
@@ -93,9 +93,9 @@ Here is how to tell what mode is on, depending the current state of the LED:
 +----------------+----------+---------+------------------------------------------------+-----------------------------------------+
 | Turntable mode | Off      | On      | Circling while the track is playing/scratching | --                                      |
 +----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Loop in        | --       | --      | The whole circle is blinking                   | The "Rev" button is blinking            |
+| Loop in        | --       | --      | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
 +----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Loop out       | --       | --      | The whole circle is blinking                   | The "Flx" button is blinking            |
+| Loop out       | --       | --      | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
 +----------------+----------+---------+------------------------------------------------+-----------------------------------------+
 
 Here is how to select each mode:
@@ -105,13 +105,13 @@ Here is how to select each mode:
 +================+===========================================================================+
 | Vinyl mode     | Press the "Jog" button (while the "Jog" button is off)                    |
 +----------------+---------------------------------------------------------------------------+
-| Jog mode       | Press the "Jog" button wgile in vinyl mode (while the "Jog" button is on) |
+| Jog mode       | Press the "Jog" button while in vinyl mode (while the "Jog" button is on) |
 +----------------+---------------------------------------------------------------------------+
 | Turntable mode | Press the "TT" button. Pressing again while restore the Vinyl mode        |
 +----------------+---------------------------------------------------------------------------+
-| Loop in        | Press :hwlabel:`SHIFT` + REV while a loop is enable                       |
+| Loop in        | Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable            |
 +----------------+---------------------------------------------------------------------------+
-| Loop out       | Press :hwlabel:`SHIFT` + Flux while a loop is enable                      |
+| Loop out       | Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable            |
 +----------------+---------------------------------------------------------------------------+
 
 For all modes but "Vinyl" and "Jog", re-selecting the mode will restore the previous one.
@@ -129,18 +129,18 @@ Moves modes define how the "move" encoder (the one on the left) reacts when used
 
 Here is how to tell use each modes:
 
-+----------+-------------------------------------------------------------+
-| Mode     |                                                             |
-+==========+=============================================================+
-| Beat     | This mode is enable if no other mode are enabled            |
-+----------+-------------------------------------------------------------+
-| Grid     |  This mode is enabled while GRID is maintained pressed      |
-+----------+-------------------------------------------------------------+
-| BPM      | This mode is enabled while :hwlabel:`SHIFT` + GRID is       |
-|          | maintained pressed                                          |
-+----------+-------------------------------------------------------------+
-| Keyboard | This mode is enabled while STEM is maintained pressed       |
-+----------+-------------------------------------------------------------+
++----------+---------------------------------------------------------------------+
+| Mode     |                                                                     |
++==========+=====================================================================+
+| Beat     | This mode is enable if no other mode are enabled                    |
++----------+---------------------------------------------------------------------+
+| Grid     |  This mode is enabled while :hwlabel:`GRID` is maintained pressed   |
++----------+---------------------------------------------------------------------+
+| BPM      | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` is    |
+|          | maintained pressed                                                  |
++----------+---------------------------------------------------------------------+
+| Keyboard | This mode is enabled while STEM is maintained pressed               |
++----------+---------------------------------------------------------------------+
 
 All mapping detail
 ~~~~~~~~~~~~~~~~~~
@@ -268,9 +268,9 @@ All mapping detail
 |                  |   - will set the key to the selected note                        |                                          |
 |                  |   - will play from the cue if in keyboard play mode              |                                          |
 |                  |                                                                  |                                          |
-|                  | - While in beatlooproll mode:                                    |                                          |
+|                  | - While in beatloop roll mode:                                   |                                          |
 |                  |                                                                  |                                          |
-|                  | - Will activate a beatlooproll of 1/16, 1/8, 1/4 , 1/2, 1,       |                                          |
+|                  | - Will activate a beatloop roll of 1/16, 1/8, 1/4 , 1/2, 1,      |                                          |
 |                  |   2, 4 and 8 beats, or custom size if you have change            |                                          |
 |                  |   `BeatLoopRolls` in :ref:`settings`                             |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
@@ -350,16 +350,16 @@ All mapping detail
 Looping
 ^^^^^^^
 
-===================================================== ==============================================================================
-Control                                               Description
-===================================================== ==============================================================================
-Right Encoder (turn)                                  Double/halve loop size.
-Right Encoder (press)                                 Activate/exit loop of set size from current position
+================================================================ ==============================================================================
+Control                                                          Description
+================================================================ ==============================================================================
+Right Encoder (turn)                                             Double/halve loop size.
+Right Encoder (press)                                            Activate/exit loop of set size from current position
 :hwlabel:`SHIFT` + :hwlabel:`REV` (while no loops are enabled)   Set the loop in point. This will reset the loop out point as well.
-:hwlabel:`SHIFT` + REV (while a loop is enabled)      Toggle the loop in jogwheel mode. See :ref:`jogwheel-modes` for more details.
-:hwlabel:`SHIFT` + FLX (while no loops are enabled)   Set the loop out point.
-:hwlabel:`SHIFT` + FLX (while a loop is enabled)      Toggle the loop out jogwheel mode. See :ref:`jogwheel-modes` for more details.
-===================================================== ==============================================================================
+:hwlabel:`SHIFT` + :hwlabel:`REV` (while a loop is enabled)      Toggle the loop in jogwheel mode. See :ref:`jogwheel-modes` for more details.
+:hwlabel:`SHIFT` + :hwlabel:`FLX` (while no loops are enabled)   Set the loop out point.
+:hwlabel:`SHIFT` + :hwlabel:`FLX` (while a loop is enabled)      Toggle the loop out jogwheel mode. See :ref:`jogwheel-modes` for more details.
+================================================================ ==============================================================================
 
 .. _settings:
 
@@ -369,29 +369,29 @@ Mapping options
 
 There are various option that can be used to change some behavior:
 
-======================================================================= =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
-Setting                                                                 Variable value                              Default                                                                                                           Range                                                                                 Description
-======================================================================= =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
-Deck colors                                                             `DeckColors`                                LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple                                                   **All colors as defined in _LedColors_. Must be four color, separated by a comma**    Define the leading colors for each decks. Note that some buttons have only one color
-Sortable column in the library                                          `LibrarySortableColumns`                    LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, LibraryColumns.Key, LibraryColumns.DatetimeAdded **All values defined in** `the Mixxx control documentation`_ **separated by a comma** Define the list of columns on which it possible to sort the library using the library encoder and the view button
-Loop In/Out jogwheel sensistivity                                       `LoopWheelMoveFactor`                       50                                                                                                                -500..500 (Recommended)                                                               Define the sensistivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
-Loop encoder sensistivity                                               `LoopEncoderMoveFactor`                     500                                                                                                               -3000..3000 (Recommended)                                                             Define the sensistivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
-Loop encoder sensistivity (Shifted)                                     `LoopEncoderShiftMoveFactor`                2500                                                                                                              -5000..5000 (Recommended)                                                             Define the sensistivity when moving the loop with :hwlabel:`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
-Color of the tempo led when on low takeover                             `TempoFaderSoftTakeoverColorLow`            LEDColors.white                                                                                                   **All colors as defined on line 19**                                                  Define the color of thempo LED when the tempo fader is out of sync, and the actual value is less than on the controller
-Color of the tempo led when on high takeover                            `TempoFaderSoftTakeoverColorHigh`           LEDColors.green                                                                                                   **All colors as defined on line 19**                                                  Define the color of thempo LED when the tempo fader is out of sync, and the actual value is more than on the controller
-Keep transport and play button dimmed when off                          `KeepLEDWithOneColorDimedWhenInactive`      true                                                                                                              true/false                                                                            Having this setting on will keep LED always dimmed, even when off, although they may not have a matching color with the deck's color
-Keep the unselected deck button offrather than show its deck color      `KeepDeckSelectDimmed`                      true                                                                                                              true/false                                                                            Having this setting on will keep the LED of the unselected deck dimmed instead of off.
-Keylock on :hwlabel:`SHIFT` + MASTER instead of :hwlabel:`SHIFT` + SYNC `UseKeylockOnMaster`                        false                                                                                                             true/false                                                                            Use :hwlabel:`SHIFT` + MASTER to toggle the keylock instead of :hwlabel:`SHIFT` + SYNC
-Make the grid button blink when over a detected beat                    `GridButtonBlinkOverBeat`                   false                                                                                                             true/false                                                                            Make the GRID button blinking when the playback goes over a detected beat
-Make the jogwheel ring blink when the track playing is near the end     `WheelLedBlinkOnTrackEnd`                   true                                                                                                              true/false                                                                            The jogwheel LED ring will start blinking when a track is near the end. The end section can be defined in :menuselection:`Preferences --> Waveforms --> End of track warning`
-Use the mixer to control input when using :hwlabel:`SHIFT`              `MixerControlsMixAuxOnShift`                false                                                                                                             true/false                                                                            Make the GRID button blinking when the playback goes over a detected beat
-Number of samples used for jogwheel speed                               `WheelSpeedSample`                          3                                                                                                                 1..50                                                                                 Number of samples used to determine the jogwheel movement. A higher value will increase precision but latency too, and vice-versa
-Replace the sampler tab by a beatloop roll tab                          `UseBeatloopRollInsteadOfSampler`           false                                                                                                             true/false                                                                            Replace the sample tab as well of the sample feature with 8 beatlooproll
-Define the predefined size to use for the beatloop tab                  `BeatLoopRolls`                             1/16,1/8,1/4,1/2,1,2,4,8                                                                                          eight number in range 1/32..512                                                       Define the size of loops of each pad, from left to right, starting from the top row.
-Use the two last tab as loop half/double buttons in the beatloop tab    `AddLoopHalveAndDoubleOnBeatloopRollTab`    true                                                                                                              true/false                                                                            Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatlooproll and normal loop.
-Jogwheel speed (in turntable mode, as well as LED indicator)            `BaseRevolutionsPerMinute`                  33 + 1/3                                                                                                          33+1/3, 45 (Recommended)                                                              The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
-Whether or not to use haptic feedback features                          `UseMotors`                                 false                                                                                                             true/false                                                                            Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
-======================================================================= =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+Setting                                                                                        Variable value                              Default                                                                                                           Range                                                                                 Description
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+Deck colors                                                                                    `DeckColors`                                LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple                                                   **All colors as defined in _LedColors_. Must be four color, separated by a comma**    Define the leading colors for each decks. Note that some buttons have only one color
+Sortable column in the library                                                                 `LibrarySortableColumns`                    LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, LibraryColumns.Key, LibraryColumns.DatetimeAdded **All values defined in** `the Mixxx control documentation`_ **separated by a comma** Define the list of columns on which it possible to sort the library using the library encoder and the view button
+Loop In/Out jogwheel sensitivity                                                               `LoopWheelMoveFactor`                       50                                                                                                                -500..500 (Recommended)                                                               Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
+Loop encoder sensitivity                                                                       `LoopEncoderMoveFactor`                     500                                                                                                               -3000..3000 (Recommended)                                                             Define the sensitivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
+Loop encoder sensitivity (Shifted)                                                             `LoopEncoderShiftMoveFactor`                2500                                                                                                              -5000..5000 (Recommended)                                                             Define the sensitivity when moving the loop with :hwlabel:`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
+Color of the tempo led when on low takeover                                                    `TempoFaderSoftTakeoverColorLow`            LEDColors.white                                                                                                   **All colors as defined on line 19**                                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is less than on the controller
+Color of the tempo led when on high takeover                                                   `TempoFaderSoftTakeoverColorHigh`           LEDColors.green                                                                                                   **All colors as defined on line 19**                                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is more than on the controller
+Keep transport and play button dimmed when off                                                 `InactiveLightsAlwaysBacklit`               true                                                                                                              true/false                                                                            Having this setting on will keep LED always dimmed, even when off, although they may not have a matching color with the deck's color
+Keep the unselected deck button off rather than show its deck color                            `DeckSelectAlwaysBacklit`                   true                                                                                                              true/false                                                                            Having this setting on will keep the LED of the unselected deck dimmed instead of off.
+Keylock on :hwlabel:`SHIFT` + :hwlabel:`MASTER` instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`  `UseKeylockOnMaster`                        false                                                                                                             true/false                                                                            Use :hwlabel:`SHIFT` + :hwlabel:`MASTER` to toggle the keylock instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`
+Make the grid button blink when over a detected beat                                           `GridButtonBlinkOverBeat`                   false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
+Make the jogwheel ring blink when the track playing is near the end                            `WheelLedBlinkOnTrackEnd`                   true                                                                                                              true/false                                                                            The jogwheel LED ring will start blinking when a track is near the end. The end section can be defined in :menuselection:`Preferences --> Waveforms --> End of track warning`
+Use the mixer to control input when using :hwlabel:`SHIFT`                                     `MixerControlsMixAuxOnShift`                false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
+Number of samples used for jogwheel speed                                                      `WheelSpeedSample`                          3                                                                                                                 1..50                                                                                 Number of samples used to determine the jogwheel movement. A higher value will increase precision but latency too, and vice-versa
+Replace the sampler tab by a beatloop roll tab                                                 `UseBeatloopRollInsteadOfSampler`           false                                                                                                             true/false                                                                            Replace the sample tab as well of the sample feature with 8 beatloop roll
+Define the predefined size to use for the beatloop tab                                         `BeatLoopRolls`                             1/16,1/8,1/4,1/2,1,2,4,8                                                                                          eight number in range 1/32..512                                                       Define the size of loops of each pad, from left to right, starting from the top row.
+Use the two last tab as loop half/double buttons in the beatloop tab                           `AddLoopHalveAndDoubleOnBeatloopRollTab`    true                                                                                                              true/false                                                                            Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatloop roll and normal loop.
+Jogwheel speed (in turntable mode, as well as LED indicator)                                   `BaseRevolutionsPerMinute`                  33 + 1/3                                                                                                          33+1/3, 45 (Recommended)                                                              The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
+Whether or not to use haptic feedback features                                                 `UseMotors`                                 false                                                                                                             true/false                                                                            Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
 
 .. _the Mixxx control documentation: https://manual.mixxx.org/latest/en/chapters/appendix/mixxx_controls.html#control-[Library]-sort_column
 
@@ -406,10 +406,10 @@ Define how much force can the jogwheel use                       `MaxWheelForce`
 ================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
 
 Changing settings
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Mixxx 2.4
-~~~~~~~~~
+^^^^^^^^^
 
 Making these changes is still a little awkward and we will be making controller preferences easier to change in the future.
 For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
@@ -423,6 +423,6 @@ For now you’ll have to make a small change to the mapping script file. Don’t
 
 
 Mixxx 2.5+
-~~~~~~~~~~
+^^^^^^^^^^
 
 Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`YourController`.
