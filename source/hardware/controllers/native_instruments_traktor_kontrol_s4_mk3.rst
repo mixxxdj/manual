@@ -411,7 +411,7 @@ Changing settings
 Mixxx 2.4
 ^^^^^^^^^
 
-Making these changes is still a little awkward and we will be making controller preferences easier to change in the future.
+Making these changes is still a little awkward, this will be much easier to do starting in Mixxx 2.5.
 For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
 
 1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
