@@ -30,9 +30,17 @@ Controller
 Setup audio output
 ~~~~~~~~~~~~~~~~~~
 
-In order to use the audio output of the controller, `Channels 1 - 2` should be set as `Main` and `Channels 3 - 4` should be set as `Headphones`
+Using the S4 mixer
+^^^^^^^^^^^^^^^^^^
 
-   .. note:: The master and headphone knobs aren't mapped to Mixxx but instead control the the hardware directly. If you don't use the controller outputs, these knobs won't have any effect.
+In order to use the audio output of the controller, select the device :guilabel:`Traktor Kontrol S4 MK3`. :guilabel:`Channels 1 - 2` should be set as :guilabel:`Main` and :guilabel:`Channels 3 - 4` should be set as :guilabel:`Headphones`
+
+Using the software mixer
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you don't want to use certain outputs of the device, you can enable the mapping of the mixer knob to the Mixxx internal mixer. Head over to the :ref:`settings` to enable these optional mappings.
+
+   .. note:: The mixer knobs are physically linked to the S4 embedded mixer. This means that there is no way to prevent these buttons to adjust gains of the output, and will lead to unexpected volume mixing if the Mixxx mixer is used while also using S4 outputs.
 
 
 Known bugs and limitation
@@ -345,6 +353,14 @@ All mapping detail
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Ext              | Apply the current gain as default. This will reset the gain knob.|                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
+| Master           | If enabled in the :ref:`settings`, change the main gain          |                                          |
++------------------+------------------------------------------------------------------+------------------------------------------+
+| Booth            | If enabled in the :ref:`settings`, change the booth gain         |                                          |
++------------------+------------------------------------------------------------------+------------------------------------------+
+| Cue              | If enabled in the :ref:`settings`, adjust the headphone mix      |                                          |
++------------------+------------------------------------------------------------------+------------------------------------------+
+| Headphone volume | If using Mixxx internal mixer, change the headphone gain         |                                          |
++------------------+------------------------------------------------------------------+------------------------------------------+
 
 
 Looping
@@ -369,9 +385,9 @@ Mapping options
 
 There are various option that can be used to change some behavior:
 
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 Setting                                                                                        Variable value                              Default                                                                                                           Range                                                                                 Description
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 Deck colors                                                                                    `DeckColors`                                LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple                                                   **All colors as defined in _LedColors_. Must be four color, separated by a comma**    Define the leading colors for each decks. Note that some buttons have only one color
 Sortable column in the library                                                                 `LibrarySortableColumns`                    LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, LibraryColumns.Key, LibraryColumns.DatetimeAdded **All values defined in** `the Mixxx control documentation`_ **separated by a comma** Define the list of columns on which it possible to sort the library using the library encoder and the view button
 Loop In/Out jogwheel sensitivity                                                               `LoopWheelMoveFactor`                       50                                                                                                                -500..500 (Recommended)                                                               Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
@@ -391,7 +407,11 @@ Define the predefined size to use for the beatloop tab                          
 Use the two last tab as loop half/double buttons in the beatloop tab                           `AddLoopHalveAndDoubleOnBeatloopRollTab`    true                                                                                                              true/false                                                                            Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatloop roll and normal loop.
 Jogwheel speed (in turntable mode, as well as LED indicator)                                   `BaseRevolutionsPerMinute`                  33 + 1/3                                                                                                          33+1/3, 45 (Recommended)                                                              The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
 Whether or not to use haptic feedback features                                                 `UseMotors`                                 false                                                                                                             true/false                                                                            Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ====================================================================================================================================================================================
+Map the mixer master knob the Mixxx internal mixer                                             `SoftwareMixerMain`                         false                                                                                                             true/false                                                                            When enable, the master potentiometer on top right column of the mixer will drive the main gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer booth knob the Mixxx internal mixer                                              `SoftwareMixerBooth`                        false                                                                                                             true/false                                                                            When enable, the booth potentiometer on right column of the mixer will drive the booth gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer booth knobs (cue and volume) the Mixxx internal mixer                            `SoftwareMixerHeadphone`                    false                                                                                                             true/false                                                                            When enable, the headphone volume and cue potentiometers on bottom right column of the mixer will drive the headphone controls of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Default Pad Layout                                                                             `DefaultPadLayout`                          default                                                                                                           default,hotcue,samplerBeatloop,keyboard                                               Define the default layout used for the pads.
+============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 
 .. _the Mixxx control documentation: https://manual.mixxx.org/latest/en/chapters/appendix/mixxx_controls.html#control-[Library]-sort_column
 
