@@ -9,8 +9,7 @@ The S4 MK3 uses the standard :term:`HID` protocol for the Buttons, Knobs, Faders
 The screens use a USB Bulk transfer. Mixxx doesn't support rendering content for external screens yet.
 The easiest way to tell the MK3 apart from the other MK1 and 2 are these screens, displace between the "Move" and "Loop" encoder.
 
-The Kontrol S4 Mk3 can run from :term:`USB` power.
-Using the separate power supply increases the brightness of the LEDs, which is helpful for using it in daylight, and increases the volume of the headphone output.
+Unlike its predecessor, the Kontrol S4 Mk3 cannot run from :term:`USB` power and the separate power supply must be used.
 
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
 
@@ -92,37 +91,37 @@ Jogwheel can be used to control various things, depending of the mode they are i
 
 Here is how to tell what mode is on, depending the current state of the LED:
 
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Mode           | Jog      | TT      | Jogwheel                                       | Others                                  |
-+================+==========+=========+================================================+=========================================+
-| Vinyl mode     | On       | Off     | Circling while the track is playing/scratching | --                                      |
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Jog mode       | Off      | Off     | Circling while the track is playing/scratching | --                                      |
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Turntable mode | Off      | On      | Circling while the track is playing/scratching | --                                      |
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Loop in        | --       | --      | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
-| Loop out       | --       | --      | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
-+----------------+----------+---------+------------------------------------------------+-----------------------------------------+
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel                                       | Others                                  |
++================+================+===============+================================================+=========================================+
+| Vinyl mode     | On             | Off           | Circling while the track is playing/scratching | --                                      |
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+| Jog mode       | Off            | Off           | Circling while the track is playing/scratching | --                                      |
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+| Turntable mode | Off            | On            | Circling while the track is playing/scratching | --                                      |
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+| Loop in        | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+| Loop out       | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
++----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
 
 Here is how to select each mode:
 
-+----------------+---------------------------------------------------------------------------+
-| Mode           |                                                                           |
-+================+===========================================================================+
-| Vinyl mode     | Press the "Jog" button (while the "Jog" button is off)                    |
-+----------------+---------------------------------------------------------------------------+
-| Jog mode       | Press the "Jog" button while in vinyl mode (while the "Jog" button is on) |
-+----------------+---------------------------------------------------------------------------+
-| Turntable mode | Press the "TT" button. Pressing again while restore the Vinyl mode        |
-+----------------+---------------------------------------------------------------------------+
-| Loop in        | Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable            |
-+----------------+---------------------------------------------------------------------------+
-| Loop out       | Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable            |
-+----------------+---------------------------------------------------------------------------+
++----------------+---------------------------------------------------------------------------------------------+
+| Mode           |                                                                                             |
++================+=============================================================================================+
+| Vinyl mode     | Press the :hwlabel:`Jog` button (while the :hwlabel:`Jog` button is off)                    |
++----------------+---------------------------------------------------------------------------------------------+
+| Jog mode       | Press the :hwlabel:`Jog` button while in vinyl mode (while the :hwlabel:`Jog` button is on) |
++----------------+---------------------------------------------------------------------------------------------+
+| Turntable mode | Press the :hwlabel:`TT` button. Pressing again while restore the Vinyl mode                 |
++----------------+---------------------------------------------------------------------------------------------+
+| Loop in        | Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable                              |
++----------------+---------------------------------------------------------------------------------------------+
+| Loop out       | Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable                              |
++----------------+---------------------------------------------------------------------------------------------+
 
-For all modes but "Vinyl" and "Jog", re-selecting the mode will restore the previous one.
+For all modes but :hwlabel:`Vinyl` and :hwlabel:`Jog`, re-selecting the mode will restore the previous one.
 
 
 Move modes
@@ -279,7 +278,7 @@ All mapping detail
 |                  | - While in beatloop roll mode:                                   |                                          |
 |                  |                                                                  |                                          |
 |                  | - Will activate a beatloop roll of 1/16, 1/8, 1/4 , 1/2, 1,      |                                          |
-|                  |   2, 4 and 8 beats, or custom size if you have change            |                                          |
+|                  |   2, 4 and 8 beats, or custom size if you have changed           |                                          |
 |                  |   `BeatLoopRolls` in :ref:`settings`                             |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | FX 1st knob      | - Master volume/mix of the unit                                  |                                          |
@@ -398,7 +397,7 @@ Color of the tempo led when on high takeover                                    
 Keep transport and play button dimmed when off                                                 `InactiveLightsAlwaysBacklit`               true                                                                                                              true/false                                                                            Having this setting on will keep LED always dimmed, even when off, although they may not have a matching color with the deck's color
 Keep the unselected deck button off rather than show its deck color                            `DeckSelectAlwaysBacklit`                   true                                                                                                              true/false                                                                            Having this setting on will keep the LED of the unselected deck dimmed instead of off.
 Keylock on :hwlabel:`SHIFT` + :hwlabel:`MASTER` instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`  `UseKeylockOnMaster`                        false                                                                                                             true/false                                                                            Use :hwlabel:`SHIFT` + :hwlabel:`MASTER` to toggle the keylock instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`
-Make the grid button blink when over a detected beat                                           `GridButtonBlinkOverBeat`                   false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
+Make the :hwlabel:`grid` button blink when over a detected beat                                `GridButtonBlinkOverBeat`                   false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
 Make the jogwheel ring blink when the track playing is near the end                            `WheelLedBlinkOnTrackEnd`                   true                                                                                                              true/false                                                                            The jogwheel LED ring will start blinking when a track is near the end. The end section can be defined in :menuselection:`Preferences --> Waveforms --> End of track warning`
 Use the mixer to control input when using :hwlabel:`SHIFT`                                     `MixerControlsMixAuxOnShift`                false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
 Number of samples used for jogwheel speed                                                      `WheelSpeedSample`                          3                                                                                                                 1..50                                                                                 Number of samples used to determine the jogwheel movement. A higher value will increase precision but latency too, and vice-versa
@@ -445,4 +444,4 @@ For now you’ll have to make a small change to the mapping script file. Don’t
 Mixxx 2.5+
 ^^^^^^^^^^
 
-Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`YourController`.
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
