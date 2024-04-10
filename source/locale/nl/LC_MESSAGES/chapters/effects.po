@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -255,8 +255,8 @@ msgid ""
 msgstr ""
 "Elke effecteenheid kan maximaal 3 effecten in een keten laden. Deze effecten"
 " worden na elkaar in een serie verwerkt. Je zult verschillende geluiden "
-"horen, afhankelijk van de volgorde van effecten in de keten. Elk effect in "
-"de keten heeft zijn eigen knop om het effect in of uit te schakelen."
+"horen, afhankelijk van de volgorde van de effecten in de keten. Elk effect "
+"in de keten heeft zijn eigen knop om het effect in of uit te schakelen."
 
 #: ../../chapters/effects.rst:36
 msgid "Effect units can process sound from:"
@@ -276,7 +276,7 @@ msgstr "AUX ingangen"
 
 #: ../../chapters/effects.rst:34
 msgid "the main mix"
-msgstr ""
+msgstr "De hoofdmix"
 
 #: ../../chapters/effects.rst:35
 msgid "the :term:`PFL` (headphone) mix"
@@ -300,11 +300,11 @@ msgstr ""
 
 #: ../../chapters/effects.rst:48
 msgid "Effect unit buttons located in the deck"
-msgstr ""
+msgstr "Effect eenheid toetsen geplaatst in het deck"
 
 #: ../../chapters/effects.rst:48
 msgid "The effect unit buttons located in the deck."
-msgstr ""
+msgstr "De effecteenheid toetsen geplaatst in het deck."
 
 #: ../../chapters/effects.rst:50
 msgid ""
@@ -322,6 +322,11 @@ msgid ""
 "button on deck 2, and so on. It's also possible to route a single deck to "
 "multiple effect units, or multiple decks to a single effect unit."
 msgstr ""
+"Om deck 1 naar effect eenheid 1 te routeren, klik op de :guilabel:`FX1` "
+"toets op deck 1 om deze aan te zetten. Om deck 2 naar effect eenheid 2 te "
+"routeren, klik op de :guilabel:`FX2` toets in deck 2, enzovoort. Het is ook "
+"mogelijk om één enkel deck naar verschillende effecteenheden te routeren of "
+"om alle decks naar één enkele effect eenheid te routeren. "
 
 #: ../../chapters/effects.rst:57
 msgid ""
@@ -331,10 +336,10 @@ msgid ""
 " section below for details."
 msgstr ""
 "De mixknop past de mix aan tussen het droge signaal (dry signal - input naar"
-" de unit) en het natte signaal (wet signal - output van het laatste effect "
-"in de unit). Het verandert het niveau van alle 3 effecten in het apparaat "
-"samen. Raadpleeg het gedeelte: ref: `effecten-mix-modus 'hieronder voor meer"
-" informatie."
+" de eenheid (unit)) en het natte signaal (wet signal - output van het "
+"laatste effect in de unit). Het verandert het niveau van alle 3 de effecten "
+"in het apparaat samen. Raadpleeg het gedeelte: ref: `effecten-mix-modus "
+"'hieronder voor meer  informatie."
 
 #: ../../chapters/effects.rst:62
 msgid ""
@@ -345,6 +350,13 @@ msgid ""
 "processed after the faders for the :term:`main output`. Refer to the "
 ":ref:`effects-in-headphones` section below for details."
 msgstr ""
+"Effecten worden verwerkt na de deckglijders en overgangsglijder "
+"(crossfader). Dit staat effecten zoals Echo en Reverb toe om nog geluid weer"
+" te geven nadat hun input werd afgebroken door de glijder te verminderen. "
+"Anders dan bij andere DJ software en hardware kan het effect ook in de "
+"hoofdtelefoon worden beluisterd, hoewel ze pas verwerkt worden na de "
+"glijders van de :term:`main output`. Zie het :ref:`effects-in-headphones` "
+"onderdeel verder voor details."
 
 #: ../../chapters/effects.rst:69
 msgid ""
@@ -374,10 +386,10 @@ msgid ""
 msgstr ""
 "Elk effect binnen een: ref: `Effecteenheid <effects-effect-unit>` heeft zijn"
 " eigen set parameters. Deze zijn standaard verborgen. In plaats daarvan is "
-"er één enkele knop die een \"metaknop\" wordt genoemd voor elk effect dat is"
-" gekoppeld aan de verschillende parameters. Met de metaknop kunt u de "
-"effecten in een eenheid gemakkelijk regelen zonder dat u elke parameter "
-"afzonderlijk hoeft te manipuleren."
+"er één enkele knop zichtbaar die 'metaknop' wordt genoemd. Én metaknop voor "
+"elk effect dat is gekoppeld aan de verschillende parameters. Met de metaknop"
+" kunt u de effecten in een eenheid gemakkelijk regelen zonder dat u elke "
+"para-meter afzonderlijk hoeft te manipuleren."
 
 #: ../../chapters/effects.rst:83
 msgid ""
@@ -426,7 +438,7 @@ msgid ""
 "Left and right side active: parameter moves across range with half of "
 "metaknob turn and back with the other half"
 msgstr ""
-"Linker- en rechterkant actief: parameter beweegt over het  bereik met de "
+"Linker- en rechterkant actief: parameter beweegt over het bereik met de "
 "helft van de metaknopdraai en terug met de andere helft"
 
 #: ../../chapters/effects.rst:104
@@ -434,8 +446,8 @@ msgid ""
 "The button below the metaknob link button inverts the parameter's "
 "relationship to the metaknob."
 msgstr ""
-"De knop onder de link-knop van de metaknop keert de relatie van de parameter"
-" met de metaknop om."
+"De knop onder de link-knop van de metaknop draait de relatie van de "
+"parameter met de metaknop om."
 
 #: ../../chapters/effects.rst:107
 msgid ""
@@ -467,8 +479,8 @@ msgid ""
 "together. It can be toggled between two different modes with the mix mode "
 "button adjacent to it."
 msgstr ""
-"De effecteenheid mengknop regelt het niveau van alle 3 effecten in het "
-"toestel samen. Er kan tussen twee verschillende modi worden geschakeld met "
+"De effecteenheid mengknop regelt het niveau van alle 3 effecten in de "
+"eenheid samen. Er kan tussen twee verschillende modi worden geschakeld met "
 "de mengmodusknop ernaast."
 
 #: ../../chapters/effects.rst:127
@@ -487,8 +499,8 @@ msgstr ""
 "signaal (ingang van het eerste effect in het toestel) en het natte signaal "
 "(uitgang van het laatste effect in het toestel). Wanneer de knop volledig "
 "links staat, is er geen geluid te horen van het effectapparaat. Wanneer de "
-"knop volledig naar rechts staat, is alleen de uitvoer van het effectapparaat"
-" hoorbaar zonder het droge ingangssignaal."
+"knop volledig naar rechts staat, is alleen de uitvoer van de effecteenheid "
+"hoorbaar zonder het droge ingangssignaal."
 
 #: ../../chapters/effects.rst:140
 msgid "An effect unit in Dry+Wet mode"
@@ -517,7 +529,7 @@ msgstr ""
 
 #: ../../chapters/effects.rst:154
 msgid "Effects In Headphones"
-msgstr "Effecten In Hoofdtelefoons"
+msgstr "Effecten in Hoofdtelefoons"
 
 #: ../../chapters/effects.rst:155
 msgid ""
@@ -528,13 +540,20 @@ msgid ""
 " are processed in parallel for the :term:`headphone output` (prefader) and "
 ":term:`main output` (postfader)."
 msgstr ""
+"Om voor vóór u de trax mixt te beluistern hoe een track zal klinken wanneer "
+"er een effect aan wordt toegevoegd, kan u aan het deck een effecteenheid "
+"toewijzen en de hoofdtelefoon toets voor het deck activeren. Let op: dit zal"
+" meer CPU-gebruik genereren dan wanneer u een effecteenheid toewijst aan een"
+" deck zonder de hoofdtelefoon toets geactiveerd. Dit komt doordat effecten "
+"parallel verwerkt worden voor de de :term:`headphone output` (prefader) en "
+"de :term:`main output` (postfader)."
 
 #: ../../chapters/effects.rst:162
 msgid ""
 "Effects can also be previewed in headphones on decks that are playing to the"
 " audience, but this requires a few more steps:"
 msgstr ""
-"Effecten kunnen ook worden beluistert in hoofdtelefoons op decks die voor "
+"Effecten kunnen ook worden beluisterd in hoofdtelefoons op decks die voor "
 "het publiek spelen, maar dit vereist een paar extra stappen:"
 
 #: ../../chapters/effects.rst:165
@@ -571,6 +590,8 @@ msgstr "Schakel de effecteenheid voor het deck in"
 #: ../../chapters/effects.rst:172
 msgid "Turn the mix knob right so the effects are heard in the main output"
 msgstr ""
+"Draai de mix knop naar rechts zodat het effect in de main output kan worden "
+"gehoord"
 
 #: ../../chapters/effects.rst:173
 msgid ""
@@ -582,11 +603,11 @@ msgstr ""
 
 #: ../../chapters/effects.rst:179
 msgid "Controller Effects Mapping"
-msgstr ""
+msgstr "Controller Effecten toewijzing"
 
 #: ../../chapters/effects.rst:184
 msgid "Usage"
-msgstr ""
+msgstr "Gebruik"
 
 #: ../../chapters/effects.rst:186
 msgid ""
@@ -596,6 +617,12 @@ msgid ""
 "controlling all 3 effects of a chain or controlling each parameter of one "
 "effect."
 msgstr ""
+"Dit onderdeel beschrijft hoe de standaard Mixxx controller toewijzingen voor"
+" effecten dienen te worden gebruikt bij controllers die bechikken over een "
+"daarvoor ontworpen layout van meestal 4 toetsen (of 3 toetsen + 1 encoder) "
+"en 4 knoppen voor effecten. Het staat u toe om te schakelen tussen het "
+"bedienen van alle 3 effecten van een keten en het bedienen van elke "
+"parameter van één effect."
 
 #: ../../chapters/effects.rst:188
 msgid ""
@@ -605,6 +632,12 @@ msgid ""
 "for the mix (dry/wet) knob of the whole chain. On controllers designed for "
 "Serato, the :guilabel:`Beats` encoder is used as the mix knob."
 msgstr ""
+"Standaard worden 3 knoppen gebruikt om de effect metaknobs te bedienen en de"
+" toetsen er onder schakelen elk effect Aan of Uit. Om een effect tijdelijk "
+"Aan of Uit te schakelen, druk op een activeer-effect toets en hou deze "
+"ingedrukt. De 4de knop wordt gebruikt om het signaal van de hele eenheid te "
+"mixen (dry/wet) Op controllers die voor Serato ontworpen zijn, wordt de knop"
+" :guilabel:`Beats` encoder gebruikt als de mix knop."
 
 #: ../../chapters/effects.rst:190
 msgid ""
@@ -613,18 +646,28 @@ msgid ""
 "this button pressed, the enable buttons for each effect switch to choosing "
 "which effect is focused. When an effect is focused:"
 msgstr ""
+"De knop naast de mix knop wordt gebruikt om de focus op een effect te leggen"
+" met de bedoeling dit te bedienen, op controllers die voor Serato ontworpen "
+"zijn, noemt deze knop :guilabel:`Tap`. Terwijl u deze toets ingedrukt houdt "
+"schakelen de activeertoetsen van elk effect om het te bedienen effect te "
+"kunnen kiezen."
 
 #: ../../chapters/effects.rst:192
 msgid ""
 "the knobs switch to controlling the first 3 parameters of that effect "
 "instead of the metaknobs of each effect in the chain;"
 msgstr ""
+"The knoppen kunnen dan gebruikt worden om de 3 eerste parameters van dat "
+"gekozen effect te bedienen in plaats van dat ze de metaknoppen van elk "
+"effect in de keten zijn.;"
 
 #: ../../chapters/effects.rst:193
 msgid ""
 "the buttons switch to controlling the first 3 button parameters of the "
 "effect; and"
 msgstr ""
+"de knoppen schakelen naar de bediening van de eerste 3 parameters van het "
+"gekozen effect; en "
 
 #: ../../chapters/effects.rst:195
 msgid ""
@@ -635,6 +678,13 @@ msgid ""
 "you short press the focus button again, the previously focused effect will "
 "be refocused (it is not remembered when you shut down Mixxx though)."
 msgstr ""
+"Het LED van de focus knop duidt aan of er op een effect wordt gefocust. "
+"Wanneer zijn LED aan is, kan je de toets ingedrukt houden om te zien op welk"
+" effect de focus ligt zonder dar u naar het computerscherm dient te kijken. "
+"Om de focus weg te nemen van een effect kan u kort op deze toets drukken. De"
+" laatste focus wordt onthouden, duw anneer u opnieuw kort op deze toets "
+"drukt ligt de focus opnieuw op het het effect dat het laatst de focus had. "
+"(dit wordt niet onthouden wanneer Mixxx wordt afgesloten.)."
 
 #: ../../chapters/effects.rst:197
 msgid ""
@@ -644,6 +694,12 @@ msgid ""
 "focused is helpful for experimenting with different ways of linking "
 "parameters to the metaknob."
 msgstr ""
+"Een andere methode, wanneer u alle parameters op het scherm wil zien dan kan"
+" u de focus toets ingedrukt houden en tegelijk op de toets van het effect "
+"met focus drukken, zo wordt de focus gedeactiveerd. Alle parameters "
+"weergeven zonder de focus te leggen op een effect is handig om te experi-"
+"menteren met het koppelen op verschillende manieren van effecten met de "
+"metaknop"
 
 #: ../../chapters/effects.rst:199
 msgid ""
@@ -652,19 +708,28 @@ msgid ""
 "Mixxx. Typically this is used to toggle between :ref:`Effect Units <effects-"
 "effect-unit>` 1 & 3 or 2 & 4, like deck toggle buttons."
 msgstr ""
+"Wanneer de focustoets tegelijkertijd met shift wordt ingedrukt, schakelt de "
+"controller tussen de bediening van de verschillende Effect Eenheden "
+":ref:`Effect Eenheden <effects-effect-unit>` in Mixxx. Meestal wordt dit "
+"gebruikt om te schakelen tussen de :ref:`Effect Eenheden <effects-effect-"
+"unit>` 1 & 3 of 2 & 4, zoals deck schakel toetsen."
 
 #: ../../chapters/effects.rst:201
 msgid "To load different effects, hold shift and turn the knob for an effect."
 msgstr ""
+"Om verschillende effecten te laden, hou shift ingedrukt en draai de knop om "
+"een effect te kiezen."
 
 #: ../../chapters/effects.rst:203
 msgid ""
 "To load chain presets 1-4, press the buttons with shift (new in Mixxx 2.4)."
 msgstr ""
+"Om ketenvoorkeuze 1-4 te laden, druk op de toetsen met shift (nieuw in Mixxx"
+" 2.4)."
 
 #: ../../chapters/effects.rst:208
 msgid "Implementation"
-msgstr ""
+msgstr "Implementatie"
 
 #: ../../chapters/effects.rst:210
 msgid ""
@@ -676,3 +741,10 @@ msgid ""
 "effectunit>`_ . It provides building blocks for entire units (effect units, "
 "decks) or just single controls."
 msgstr ""
+"Het beschreven gedrag wordt geïmplementeerd met het effectencomponent van de"
+" `Components-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-"
+"JS>`_ . Wanneer u een besturingselemententoewijzing wil wijzigen of maken, "
+"kijk dan eens naar `Components-JS > Effect Eenheid "
+"<https://github.com/mixxxdj/mixxx/wiki/Components-JS#user-content-"
+"effectunit>`_ . Dir voorziet bouwstenen voor gehele eenheden (effect "
+"eenheden, decks) of voor een enkel besturingselement."

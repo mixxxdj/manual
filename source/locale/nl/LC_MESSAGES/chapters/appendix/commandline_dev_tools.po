@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -233,6 +237,11 @@ msgid ""
 "``\\mixxx`` at the end - everything should be inside quotes. Press Enter. "
 "The entire command will look like this ::"
 msgstr ""
+"Bepaal de map waar Mixxx is geïnstalleerd en kopieer het pad. Je kan het pad"
+" ook verkrijgen met een rechterklik op het Mixxx ikoon en dan "
+"'eigenschappen' te kiezen. Kopieer het pad in een opdrachtprompt-venster en "
+"voeg aan het einde ``\\mixxx`` toe - alles moet tussen aanhalingstekens "
+"staan. Druk op Enter. Het gehele commando zar er uit zien als volgt ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:18
 msgid "**macOS**"
@@ -240,7 +249,7 @@ msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:16
 msgid "Similarly, for macOS, the command will be ::"
-msgstr ""
+msgstr "Naar analogie is het commando in macOS ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:23
 msgid "**GNU/ Linux**"
@@ -250,10 +259,12 @@ msgstr ""
 msgid ""
 "If Mixxx is in your system's search path (``$PATH``), you can just type ::"
 msgstr ""
+"Als Mixxx opgenomen is in het zoekpad van je systeemis (``$PATH``), dan kan "
+"je enkel typen ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:26
 msgid "Command line options"
-msgstr ""
+msgstr "Opdrachtprompt lijn opties"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:28
 msgid ""
@@ -261,6 +272,10 @@ msgid ""
 "line options are only useful for development or debugging, as they make "
 "these tasks easier. Command line options are case-sensitive."
 msgstr ""
+"Mixxx is ontworpen om zo gebruiksvriendelijk mogelijk te zijn. Daarom zijn "
+"de opdrachtprompt opties enkel handig voor ontwikkeling en foutopsporing "
+"aangezien ze deze taken gemakkelijker maken. Opdracht prompt opties zijn "
+"hoofdlettergevoelig. "
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:32
 msgid ""
@@ -268,6 +283,10 @@ msgid ""
 "option to the base command for your operating system. For example, to launch"
 " Mixxx in developer mode on Windows, type this in terminal ::"
 msgstr ""
+"Om Mixxx op te starten met een van deze opdrachtprompt opties, dien je enkel"
+" de optie toe te voegen aan de basis opdrachtregel voor je operatingsysteem."
+" Bijvoorbeeld, om Mixxx in ontwikkelaarsmodus op te starten, typ dit in het "
+"opdrachtprompt venster ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:36
 msgid ""
@@ -276,6 +295,11 @@ msgid ""
 "you specify will be loaded into the next virtual deck. For a list of "
 "supported file types, go to :ref:`file-format-compatibility`."
 msgstr ""
+"Ter aanvulling op deze opties, is het mogelijk om één of meer "
+"muziekbestanden te specifiëren in het opdrachtprompt commando. Deze zullen "
+"worden geladen bij het opstarten. Elk bestand dat u specifieerd zal geladen "
+"worden in het volgende virtuele Deck. Voor een lijst met ondersteunde "
+"bestandstypes, ga naar :ref:`file-format-compatibility`."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:43
 msgid ""
@@ -288,16 +312,20 @@ msgid ""
 "Top-level directory where Mixxx will look for user settings files such as "
 "the library database and preferences configuration file."
 msgstr ""
+"Hoofdmap waar Mixxx zal zoeken naar de bestanden met gebruikersinstellingen "
+"zoals de bibliotheek database en het bestand met configuratie-voorkeuren. "
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:49
 msgid "Do not use OpenGL vu meter"
-msgstr ""
+msgstr "Gebruik geen OpenGL vu meter"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:50
 msgid ""
 "Log all controller data Mixxx sends and receives as well as scripts it "
 "loads."
 msgstr ""
+"Log alle controller data die Mixxx verzend en ontvangt alsook de scripts die"
+" geladen worden."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:52
 msgid ""
@@ -305,6 +333,10 @@ msgid ""
 "detecting misuse of controller APIs. New Controller Mappings should be "
 "developed with this option enabled!"
 msgstr ""
+"De controller mapping zal meer aggressieve waarschuwingen en fouten "
+"weergevenwanneer verkeerd gebruik van de controller APIs wordt vastgesteld. "
+"Nieuwe Controller Mappings moeten worden ontwikkeld met deze optie "
+"geactiveerd!"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:57
 msgid ""
@@ -312,68 +344,75 @@ msgid ""
 "Developer tools menu as well as tooltips and logs useful for skin "
 "developers."
 msgstr ""
+"Activeer de ontwikkelaarsmodus. Dit betekent extra logboekvermeldingen, "
+"prestatie-statistieken en het Ontwikkelaars Hulpmiddelenmenu, alsook de "
+"tooltips en logboekvermeldingen handig voor de skinontwikkelaars. "
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:61
 msgid ""
 "Disable OpenGL widgets (scrolling waveforms, spinnies) to work around GPU "
 "driver bugs. If Mixxx is crashing on startup, try using this."
 msgstr ""
+"De-activeer OpenGL widgets (scrollende waveforms, spinnies) om omheen GPU-"
+"driver fouten te kunnen werken. Indien Mixxx crasht bij het opstarten, "
+"probeer deze te gebruiken."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:65
 msgid "Automatically loads empty waveforms"
-msgstr ""
+msgstr "Laadt automatisch lege waveforms"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:66
 msgid "Disables spinning vinyl widgets"
-msgstr ""
+msgstr "De-activeert de draaiende vinyl widgets"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:67
 msgid "Disables synchronization polling"
-msgstr ""
+msgstr "De-activeert synchronisatiepeiling"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:68
 msgid "Doesn't open controllers by default"
-msgstr ""
+msgstr "Opent standaard geen controlers"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:69
 msgid "[auto|always|never] Use colors on the console output."
-msgstr ""
+msgstr "[auto|altijd|nooit] Gebruik kleuren in de opdrachtprompt output."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:71
 msgid "Use a custom locale for loading translations (e.g ``fr``)"
 msgstr ""
+"Gebruik een aangepaste localisatie om vertalingen te laden (bv ``fr``)"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:73
 msgid "Start Mixxx in full-screen mode."
-msgstr ""
+msgstr "Start Mixxx in volledig scherm-modus."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:74
 msgid "Set the verbosity of command line logging."
-msgstr ""
+msgstr "Stelt de uitgebreidheid van de opdrachtpromt logboekvermeldingen in."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:77
 msgid "Value"
-msgstr ""
+msgstr "Waarde"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:77
 msgid "Meaning"
-msgstr ""
+msgstr "Betekenis"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:79
 msgid "``critical``"
-msgstr ""
+msgstr "``critischcal``"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:79
 msgid "Critical/Fatal only"
-msgstr ""
+msgstr "Critisch/Fataal enkel"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:80
 msgid "``warning``"
-msgstr ""
+msgstr "``waarschuwing``"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:80
 msgid "Above + Warnings"
-msgstr ""
+msgstr "Bovenstaande + waarschuwingen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "``info``"
@@ -381,29 +420,32 @@ msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "Above + Informational messages"
-msgstr ""
+msgstr "Bovenstaande + Informatieve meldingen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "``debug``"
-msgstr ""
+msgstr "foutopsporing"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "Above + Debug/Developer messages"
-msgstr ""
+msgstr "Bovenstaande + foutopsporing/ontwikkelaars meldingen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "``trace``"
-msgstr ""
+msgstr "``opsporing``"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "Above + Profiling messages"
-msgstr ""
+msgstr "Bovenstaande + Profilering meldingen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:85
 msgid ""
 "Set the logging level at which the log buffer is flushed to ``mixxx.log``. "
 "``LEVEL`` is one of the values defined at ``--logLevel`` above."
 msgstr ""
+"Stelt het logboekniveau in op het welke the logboekbuffer wordt geleegd naar"
+" ``mixxx.log``. ``LEVEL`` is één van de waarden gedefinieerd in bovenstaand "
+"``--logLevel``."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:89
 msgid ""
@@ -412,14 +454,18 @@ msgid ""
 "``MIXXX_DEBUG_ASSERTIONS_FATAL`` flag which can otherwise lead to a time "
 "consuming full rebuild."
 msgstr ""
+"Breekt (``SIGINT``) Mixxx als een ``DEBUG_ASSERT`` als false wordt "
+"geëvalueerd. Een debugger kan dan worden gebruikt om verder te gaan. Dit de-"
+"activeert ook de ``MIXXX_DEBUG_ASSERTIONS_FATAL`` flag welke anders tot een "
+"tijdrovende volledige rebuild kan leiden."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:94
 msgid "Display this help message and exit"
-msgstr ""
+msgstr "Toon deze melding en sluit af"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:97
 msgid "Developer tools"
-msgstr ""
+msgstr "Ontwikkelaarshulpmiddelen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:99
 msgid ""
@@ -427,16 +473,22 @@ msgid ""
 ":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
 "the terminal and hit return: ::"
 msgstr ""
+"Om Mixxx in Ontwikkelaarsmodus te starten met een aangepaste bronmap, "
+"met:term:`MIDI` and :term:`HID` logboekregistratie geactiveerd, typ de "
+"volgende lijn in het opdrachtprompt venster en druk op enter: ::"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:107
 msgid "Experiment modes for rapid development and testing"
-msgstr ""
+msgstr "Experimentele modus voor snele ontwikkeling en testen"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:109
 msgid ""
 "Adds a static Experiment class with a tri-state mode flag that indicates "
 "whether the experiment mode is OFF, BASE, or EXPERIMENT."
 msgstr ""
+"Voegt een statisch Experimentele waarde toe met een drievoudige mogelijke "
+"waarde die aanduidt of de experimentele modus is AAN, BASIS of "
+"EXPERIMENTEEL."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:112
 msgid ""
@@ -445,6 +497,11 @@ msgid ""
 "OFF and BASE/EXPERIMENT so you can choose exactly what time spans you would "
 "like to collect in your base and experiment buckets."
 msgstr ""
+"Toevoegen van menuitems :menuselection:`Ontwikkelaar --> Stats:Experimentele"
+" Bucket` and :menuselection:`Ontwikkelaar --> Stats:Basis Bucket`. Beide "
+"kunnen een warde bevatten van UIT en BASIS/EXPERIMENTEEL zodat u exact kan "
+"kiezen welke tijdsduur u wil verzamelen in uw basis en experimentele "
+"buckets."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:117
 msgid ""
@@ -452,6 +509,10 @@ msgid ""
 "bucket. This allows you to quickly measure the difference a code change has "
 "on relevant counters / timers within the same execution of Mixxx."
 msgstr ""
+"Updates de StatistiekManager om de verzamelde data te verdelen in een basis "
+"en experimentele bucket. Dit staat toe om snel het verschil te meten dat een"
+" broncodewijziging teweeg brengt op relevante rellers / timers binnen "
+"dezelfde uitvoering van Mixxx."
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:121
 msgid ""
@@ -460,6 +521,10 @@ msgid ""
 "well as a quantified sense of how it differs in terms of stats Mixxx "
 "collects."
 msgstr ""
+"Dit is handig om snel een broncodewijziging uit te voeren zonder een re-"
+"compile/re-run cyclus, om een anecdotische zin te verkrijgen van hoe het "
+"\"voelt\" als en ook om een gekwantificeerde betekenis te verkrijgen welke "
+"verschillen worden waargenomen in de statistieken die Mixxx verzamelt"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:126
 msgid ""
@@ -467,3 +532,7 @@ msgid ""
 "segmented into a BASE STATS and EXPERIMENT STATS section printed to the log "
 "on exit."
 msgstr ""
+"Alle statistieken verzameld via de gebruikelijke "
+"Counter/Timer/ScopedTimer/etc. hulpmiddelen zijn verdeeld in BASIS STATS en "
+"EXPERIMENTELE STATS delen, ze worden weggeschreven in het logboek bij "
+"afsluiten."

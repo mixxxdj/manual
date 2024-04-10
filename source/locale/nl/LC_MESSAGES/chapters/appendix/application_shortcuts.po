@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -215,257 +219,259 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:6
 msgid "Application shortcuts"
-msgstr ""
+msgstr "Applicatie snelkoppelingen"
 
 #: ../../chapters/appendix/application_shortcuts.rst:8
 msgid ""
 "Use these shortcuts to access features available in the menu on top of the "
 "application window."
 msgstr ""
+"Gebruik deze snelkoppelingen om snel toegang te hebben tot onderdelen die "
+"beschikbaar zijn in de menu bovenaan het applicatie-venster."
 
 #: ../../chapters/appendix/application_shortcuts.rst:12
 msgid "Function"
-msgstr ""
+msgstr "Functie"
 
 #: ../../chapters/appendix/application_shortcuts.rst:12
 msgid "Key"
-msgstr ""
+msgstr "Key"
 
 #: ../../chapters/appendix/application_shortcuts.rst:14
 msgid "**File menu**"
-msgstr ""
+msgstr "Bestandsmenu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:16
 msgid "Load Track to Deck 1"
-msgstr ""
+msgstr "Laad Track naar Deck 1"
 
 #: ../../chapters/appendix/application_shortcuts.rst:16
 msgid ":kbd:`Ctrl` + :kbd:`O`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`O`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:18
 msgid "Load Track to Deck 2"
-msgstr ""
+msgstr "Laad Track naar Deck 2"
 
 #: ../../chapters/appendix/application_shortcuts.rst:18
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`O`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`O`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:20
 msgid "**Library menu**"
-msgstr ""
+msgstr "Bibliotheek menu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:22
 msgid "Add new Playlist"
-msgstr ""
+msgstr "Nieuwe Playlist toevoegen"
 
 #: ../../chapters/appendix/application_shortcuts.rst:22
 msgid ":kbd:`Ctrl` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`N`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:24
 msgid "Add new Crate"
-msgstr ""
+msgstr "Nieuwe Krat toevoegen "
 
 #: ../../chapters/appendix/application_shortcuts.rst:24
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`N`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:26
 msgid "**View menu**"
-msgstr ""
+msgstr "Weergave menu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:28
 msgid "Show Skin Settings Menu"
-msgstr ""
+msgstr "Toon Skin Instellingen Menu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:28
 msgid ":kbd:`Ctrl` + :kbd:`1`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`1`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:30
 msgid "Show Microphone Section"
-msgstr ""
+msgstr "Toon Microfoon Onderdeel"
 
 #: ../../chapters/appendix/application_shortcuts.rst:30
 msgid ":kbd:`Ctrl` + :kbd:`2`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`2`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:32
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Toon Vinyl Control Onderdeel"
 
 #: ../../chapters/appendix/application_shortcuts.rst:32
 msgid ":kbd:`Ctrl` + :kbd:`3`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`3`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:34
 msgid "Show Preview Deck"
-msgstr ""
+msgstr "Toon Speler voor Voorbeluistering"
 
 #: ../../chapters/appendix/application_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`4`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`4`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:36
 msgid "Show Cover Art"
-msgstr ""
+msgstr "Toon Cover Art"
 
 #: ../../chapters/appendix/application_shortcuts.rst:36
 msgid ":kbd:`Ctrl` + :kbd:`6`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`6`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:38
 msgid "Maximize Library"
-msgstr ""
+msgstr "Bibliotheek maximaliseren"
 
 #: ../../chapters/appendix/application_shortcuts.rst:38
 msgid ":kbd:`Space`"
-msgstr ""
+msgstr ":kbd:`Space`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:40
 msgid "Full Screen (Windows & Linux)"
-msgstr ""
+msgstr "Volledig Scherm (Windows & Linux)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:40
 msgid ":kbd:`F11`"
-msgstr ""
+msgstr ":kbd:`F11`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:42
 msgid "Full Screen (macOS)"
-msgstr ""
+msgstr "Volledig scherm (macOS)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:42
 msgid ":kbd:`Shift` + :kbd:`Command` + :kbd:`F`"
-msgstr ""
+msgstr ":kbd:`Shift` + :kbd:`Command` + :kbd:`F`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:44
 msgid "**Options menu**"
-msgstr ""
+msgstr "Opties menu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:46
 msgid "Enable Vinyl Control 1"
-msgstr ""
+msgstr "Activeer Vinyl Control 1"
 
 #: ../../chapters/appendix/application_shortcuts.rst:46
 msgid ":kbd:`Ctrl` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`T`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:48
 msgid "Enable Vinyl Control 2"
-msgstr ""
+msgstr "Activeer Vinyl Control 2"
 
 #: ../../chapters/appendix/application_shortcuts.rst:48
 msgid ":kbd:`Ctrl` + :kbd:`Y`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Y`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:50
 msgid "Enable Vinyl Control 3"
-msgstr ""
+msgstr "Activeer Vinyl Control 3"
 
 #: ../../chapters/appendix/application_shortcuts.rst:50
 msgid ":kbd:`Ctrl` + :kbd:`U`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`U`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:52
 msgid "Enable Vinyl Control 4"
-msgstr ""
+msgstr "Activeer Vinyl Control 4"
 
 #: ../../chapters/appendix/application_shortcuts.rst:52
 msgid ":kbd:`Ctrl` + :kbd:`I`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`I`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:54
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Activeer Live Broadcasting"
 
 #: ../../chapters/appendix/application_shortcuts.rst:54
 msgid ":kbd:`Ctrl` + :kbd:`L`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`L`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:56
 msgid "Record Mix"
-msgstr ""
+msgstr "Mix Opnemen"
 
 #: ../../chapters/appendix/application_shortcuts.rst:56
 msgid ":kbd:`Ctrl` + :kbd:`R`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`R`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid "Enable Keyboard Shortcuts"
-msgstr ""
+msgstr "Activeer Toetsenbord snelkoppelingen"
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`\\``"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`\\``"
 
 #: ../../chapters/appendix/application_shortcuts.rst:60
 msgid "Open Preferences (Windows & Linux)"
-msgstr ""
+msgstr "Open Instellingen (Windows & Linux)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:60
 msgid ":kbd:`Ctrl` + :kbd:`P`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`P`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:62
 msgid "Open Preferences (macOS)"
-msgstr ""
+msgstr "Open Instellingen (macOS)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:62
 msgid ":kbd:`Ctrl` + :kbd:`,`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`,`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:64
 msgid "Exit Mixxx"
-msgstr ""
+msgstr "Mixxx afsluiten"
 
 #: ../../chapters/appendix/application_shortcuts.rst:64
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Q`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:66
 msgid "**Developer menu**"
-msgstr ""
+msgstr "Ontwikkelaarsmenu"
 
 #: ../../chapters/appendix/application_shortcuts.rst:68
 msgid "Reload skin"
-msgstr ""
+msgstr "Herlaad Skin"
 
 #: ../../chapters/appendix/application_shortcuts.rst:68
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`R`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`R`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:70
 msgid "Developer Tools"
-msgstr ""
+msgstr "Ontwikkelaarsgereedschap"
 
 #: ../../chapters/appendix/application_shortcuts.rst:70
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:72
 msgid "Stats: Base Bucket"
-msgstr ""
+msgstr "Stats: Base Bucket"
 
 #: ../../chapters/appendix/application_shortcuts.rst:72
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`B`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`B`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:74
 msgid "Stats: Experiment Bucket"
-msgstr ""
+msgstr "Stats: Experiment Bucket"
 
 #: ../../chapters/appendix/application_shortcuts.rst:74
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`E`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`E`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:76
 msgid "Debugger Enabled"
-msgstr ""
+msgstr "Debugger Geactiveerd"
 
 #: ../../chapters/appendix/application_shortcuts.rst:76
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`D`"
 
 #: ../../chapters/appendix/application_shortcuts.rst:79
 msgid ""
@@ -473,9 +479,15 @@ msgid ""
 "key on macOS. The :kbd:`Alt` key on Windows & Linux is equivalent to the "
 ":kbd:`Option` key on macOS. Application shortcuts are not customizable."
 msgstr ""
+"De :kbd:`Ctrl` toets in Windows & Linux is equivalent aan de :kbd:`Command` "
+"toets in macOS. De :kbd:`Alt` toets in Windows & Linux is equivalent aan de "
+":kbd:`Option` toets in macOS. Applicatioe snelkoppelingen zijn niet "
+"aanpasbaar."
 
 #: ../../chapters/appendix/application_shortcuts.rst:84
 msgid ""
 "The Developer menu is available if Mixxx is started using the "
 ":ref:`appendix-command-line-options`."
 msgstr ""
+"Het Ontwikkelaarsmenu is beschikbaar wanneer Mixxx is opgestart met de "
+":ref:`appendix-command-line-opties`."

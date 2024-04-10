@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -223,6 +227,10 @@ msgid ""
 "keyboard shortcuts for accessing Mixxx with an English keyboard layout. "
 "Depending on your language settings the defaults may be different."
 msgstr ""
+"Sneltoetsen laten u meer efficient werken. In deze tabel worden de standaard"
+" sneltoetsen voor Mixxx met een Engelstalig toetsenbord "
+"opgelijst.Afhenkelijk van uw taalinstellingen kunnen de "
+"standaardinstellingen verschillen."
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:13
 msgid "**Mixer**"
@@ -230,7 +238,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:15
 msgid "Crossfade Left"
-msgstr ""
+msgstr "Crossfader naar Links"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:15
 msgid ":kbd:`G`"
@@ -238,7 +246,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:17
 msgid "Crossfade Right"
-msgstr ""
+msgstr "Crossfader naar Rechts"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:17
 msgid ":kbd:`H`"
@@ -246,7 +254,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:19
 msgid "Small Crossfade Left"
-msgstr ""
+msgstr "Crossfader kleine stap naar Links"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:19
 msgid ":kbd:`Shift` + :kbd:`G`"
@@ -262,7 +270,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:23
 msgid "Microphone Talkover"
-msgstr ""
+msgstr "Microfoon Talkover"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:23
 msgid ":kbd:`\\``"
@@ -284,7 +292,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:27
 msgid "Activate/Disable Effects Unit"
-msgstr ""
+msgstr "Activeer/De-activeer Effects Unit"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:27
 msgid ":kbd:`5`"
@@ -296,7 +304,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:29
 msgid "Headphone Cue (Pre-fader listen)"
-msgstr ""
+msgstr "Hoofdtelefoon Cue (Voorbeluisteren)"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:29
 msgid ":kbd:`T`"
@@ -308,7 +316,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:31
 msgid "Bass Kill"
-msgstr ""
+msgstr "Bass Dempen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:31
 msgid ":kbd:`B`"
@@ -325,7 +333,7 @@ msgstr ""
 #: ../../chapters/appendix/keyboard_mapping_table.rst:37
 #: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid "Load selected track to deck"
-msgstr ""
+msgstr "Laadt geselecteerde track naar deck"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:37
 msgid ":kbd:`Shift` + :kbd:`←`"
@@ -337,7 +345,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:39
 msgid "Unload track from deck"
-msgstr ""
+msgstr "Werp track uit deck"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:39
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`←`"
@@ -362,7 +370,7 @@ msgstr ""
 #: ../../chapters/appendix/keyboard_mapping_table.rst:43
 #: ../../chapters/appendix/keyboard_mapping_table.rst:151
 msgid "Seek Backwards"
-msgstr ""
+msgstr "Zoek Achterwaarts"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:43
 msgid ":kbd:`A`"
@@ -374,7 +382,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:45
 msgid "Reverse Playback"
-msgstr ""
+msgstr "Achterwaarts afspelen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:45
 msgid ":kbd:`Shift` + :kbd:`A`"
@@ -387,7 +395,7 @@ msgstr ""
 #: ../../chapters/appendix/keyboard_mapping_table.rst:47
 #: ../../chapters/appendix/keyboard_mapping_table.rst:153
 msgid "Seek Forwards"
-msgstr ""
+msgstr "Zoek Voorwaarts"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:47
 msgid ":kbd:`S`"
@@ -399,7 +407,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:49
 msgid "Tempo Adjust Down"
-msgstr ""
+msgstr "Tempo Verlagen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:49
 msgid ":kbd:`F1`"
@@ -411,7 +419,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:51
 msgid "Tempo Adjust Up"
-msgstr ""
+msgstr "Tempo Verhogen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:51
 msgid ":kbd:`F2`"
@@ -423,7 +431,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid "Small Tempo Adjust Down"
-msgstr ""
+msgstr "Tempo licht verlagen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid ":kbd:`Shift` + :kbd:`F1`"
@@ -435,7 +443,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid "Small Tempo Adjust Up"
-msgstr ""
+msgstr "Tempo licht verhogen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid ":kbd:`Shift` + :kbd:`F2`"
@@ -447,7 +455,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:57
 msgid "Temporary Tempo Adjust Down"
-msgstr ""
+msgstr "Tempo tijdelijk verlagen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:57
 msgid ":kbd:`F3`"
@@ -459,7 +467,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:59
 msgid "Temporary Tempo Adjust Up"
-msgstr ""
+msgstr "Tempo tijdelijk verhogen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:59
 msgid ":kbd:`F4`"
@@ -471,7 +479,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:61
 msgid "Small Temporary Tempo Adjust Down"
-msgstr ""
+msgstr "Tempo tijdelijk licht verlagen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:61
 msgid ":kbd:`Shift` + :kbd:`F3`"
@@ -483,7 +491,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:63
 msgid "Small Temporary Tempo Adjust Up"
-msgstr ""
+msgstr "Tempo tijdelijk licht verhogen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:63
 msgid ":kbd:`Shift` + :kbd:`F4`"
@@ -495,7 +503,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:65
 msgid "Tempo (BPM) Sync"
-msgstr ""
+msgstr "Tempo (BPM) Synchroniseren"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:65
 msgid ":kbd:`1`"
@@ -507,7 +515,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:67
 msgid "BPM Tap Tempo Adjust"
-msgstr ""
+msgstr "BPM Tik Tempo aanpassen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:67
 msgid ":kbd:`Shift` + :kbd:`!`"
@@ -519,11 +527,11 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:71
 msgid "**Cue and Loop**"
-msgstr ""
+msgstr "Cue en Lus"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:73
 msgid "Set Cuepoint"
-msgstr ""
+msgstr "Stel Cuepunt in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:73
 msgid ":kbd:`Shift` + :kbd:`D`"
@@ -547,7 +555,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:77
 msgid "Cue Go-to-and-stop"
-msgstr ""
+msgstr "Cue Gan-naar-en-stop"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:77
 msgid ":kbd:`Shift` + :kbd:`F`"
@@ -559,7 +567,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:79
 msgid "Activate 4 Beat Loop"
-msgstr ""
+msgstr "Activeer 4-Beats-Lus"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:79
 msgid ":kbd:`Q`"
@@ -571,7 +579,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:81
 msgid "Halve Beat Loop Size"
-msgstr ""
+msgstr "Halveer Beat-Lus grotte"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:81
 msgid ":kbd:`W`"
@@ -583,7 +591,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:83
 msgid "Double Beat Loop Size"
-msgstr ""
+msgstr "Verdubbel Beat-Lus grootte"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:83
 msgid ":kbd:`E`"
@@ -595,7 +603,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:85
 msgid "Set Loop In Point"
-msgstr ""
+msgstr "Stel Loop-In punt in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:85
 msgid ":kbd:`2`"
@@ -607,7 +615,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:87
 msgid "Set Loop Out Point (Activates Loop)"
-msgstr ""
+msgstr "Stel Loop-Out punt in (Activeert de Lus)"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:87
 msgid ":kbd:`3`"
@@ -619,7 +627,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:89
 msgid "Toggle Loop On/Off"
-msgstr ""
+msgstr "Zet Lus Aan/Uit"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:89
 msgid ":kbd:`4`"
@@ -631,7 +639,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:91
 msgid "Set Hot cue 1"
-msgstr ""
+msgstr "Stel Hot cue 1 in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:91
 msgid ":kbd:`Z`"
@@ -643,7 +651,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:93
 msgid "Set Hot cue 2"
-msgstr ""
+msgstr "Stel Hot cue 2 in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:93
 msgid ":kbd:`X`"
@@ -655,7 +663,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:95
 msgid "Set Hot cue 3"
-msgstr ""
+msgstr "Stel Hot cue 3 in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:95
 msgid ":kbd:`C`"
@@ -667,7 +675,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:97
 msgid "Set Hot cue 4"
-msgstr ""
+msgstr "Stel Hot cue 4 in"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:97
 msgid ":kbd:`V`"
@@ -679,7 +687,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:99
 msgid "Clear Hot cue 1"
-msgstr ""
+msgstr "Verwijder Hot cue 1"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:99
 msgid ":kbd:`Shift` + :kbd:`Z`"
@@ -691,7 +699,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:101
 msgid "Clear Hot cue 2"
-msgstr ""
+msgstr "Verwijder Hot cue 2"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:101
 msgid ":kbd:`Shift` + :kbd:`X`"
@@ -703,7 +711,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:103
 msgid "Clear Hot cue 3"
-msgstr ""
+msgstr "Verwijder Hot cue 3"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:103
 msgid ":kbd:`Shift` + :kbd:`C`"
@@ -715,7 +723,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:105
 msgid "Clear Hot cue 4"
-msgstr ""
+msgstr "Verwijder Hot cue 4"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:105
 msgid ":kbd:`Shift` + :kbd:`V`"
@@ -727,11 +735,11 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:109
 msgid "**Vinyl Control**"
-msgstr ""
+msgstr "**Vinyl Controle**"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:111
 msgid "Passthrough"
-msgstr ""
+msgstr "Passthrough"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:111
 msgid ":kbd:`Ctrl` + :kbd:`J`"
@@ -743,7 +751,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:113
 msgid "Vinylcontrol Mode"
-msgstr ""
+msgstr "Vinylcontrol Modus"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:113
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Y`"
@@ -755,7 +763,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:115
 msgid "Vinylcontrol Cueing"
-msgstr ""
+msgstr "Vinylcontrol Cueing"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:115
 msgid ":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`Y`"
@@ -767,7 +775,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:117
 msgid "Single Deck Toggle / Swap Decks"
-msgstr ""
+msgstr "Enkel Deck - Decks omwisselen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:117
 msgid ":kbd:`Ctrl` + :kbd:`T`"
@@ -779,7 +787,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:123
 msgid "Maximize the library view"
-msgstr ""
+msgstr "Bibliotheek venster maximaliseren"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:123
 msgid ":kbd:`Space`"
@@ -795,7 +803,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:127
 msgid "Select all files in current list"
-msgstr ""
+msgstr "Selecteer alle bestanden in de huidige lijst"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:127
 msgid ":kbd:`Ctrl` + :kbd:`A`"
@@ -803,15 +811,17 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:129
 msgid "Select group of files in current list"
-msgstr ""
+msgstr "Selecteer een groep bestanden in de huidige lijst"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:129
 msgid "Click first item, hold :kbd:`Shift` key, click last item"
 msgstr ""
+"Klick op het eerste onderdeel, hou :kbd:`Shift` toets ingedrukt, klik op het"
+" laatste onderdeel"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:131
 msgid "Focus search bar"
-msgstr ""
+msgstr "Focus op zoekbalk"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:131
 msgid ":kbd:`Ctrl` + :kbd:`F`"
@@ -819,7 +829,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:133
 msgid "Clear search input"
-msgstr ""
+msgstr "Verwijder zoektermen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:133
 msgid ":kbd:`Ctrl` + :kbd:`Back`"
@@ -827,7 +837,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
 msgid "Focus tracks table"
-msgstr ""
+msgstr "Focus op tracklijst"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
 msgid ":kbd:`Escape`"
@@ -835,7 +845,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:137
 msgid "Trigger configured double-click action"
-msgstr ""
+msgstr "Start geconfigureerde dubbelklik-actie"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:137
 msgid ":kbd:`Return`"
@@ -843,7 +853,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:139
 msgid "Open track properties dialog"
-msgstr ""
+msgstr "Open track eigenschappen venster"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:139
 msgid ":kbd:`Ctrl` + :kbd:`Return`"
@@ -851,7 +861,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:141
 msgid "Remove or hide selected tracks"
-msgstr ""
+msgstr "Verwijder og verberg de geselecteerde tracks"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:141
 msgid "Windows/Linux: :kbd:`Delete`  macOS: :kbd:`Command` + :kbd:`Backspace`"
@@ -859,11 +869,11 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:145
 msgid "**Preview Deck**"
-msgstr ""
+msgstr "Voorbeluisterings Deck"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:147
 msgid "Load Selected Track And Play"
-msgstr ""
+msgstr "Laadt geselecteerde track en Speel"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:147
 msgid ":kbd:`P`"
@@ -871,7 +881,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:149
 msgid "Stop and go to start"
-msgstr ""
+msgstr "Stop en ga naar start"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:149
 msgid ":kbd:`Shift` + :kbd:`P`"
@@ -887,11 +897,11 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:157
 msgid "**Auto DJ**"
-msgstr ""
+msgstr "**Auto DJ**"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:159
 msgid "Shuffle Auto DJ playlist"
-msgstr ""
+msgstr "Schudt de Auto DJ afspeellijst door elkaar"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:159
 msgid ":kbd:`Shift` + :kbd:`F9`"
@@ -899,7 +909,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid "Skip next track in Auto DJ"
-msgstr ""
+msgstr "Sla de volgende track in Auto DJ over."
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid ":kbd:`Shift` + :kbd:`F10`"
@@ -907,7 +917,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid "Fade to next track in Auto DJ"
-msgstr ""
+msgstr "Fade naar de volgende track in Auto DJ"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid ":kbd:`Shift` + :kbd:`F11`"
@@ -915,7 +925,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:165
 msgid "Toggle Auto DJ on/Off"
-msgstr ""
+msgstr "Schakel Auto DJ Aan/Uit"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:165
 msgid ":kbd:`Shift` + :kbd:`F12`"
@@ -926,3 +936,6 @@ msgid ""
 "Mixxx allows you to customize the keyboard shortcuts. For more information, "
 "and to download a keyboard mapping image, go to :ref:`control-keyboard`."
 msgstr ""
+"Mixxx laat toe om de toetsenbordsneltoetsen aan te passen. Voor meer "
+"informatie, en om een toetsenbord mapping bestand down te loaden, ga naar "
+":ref:`control-keyboard`."

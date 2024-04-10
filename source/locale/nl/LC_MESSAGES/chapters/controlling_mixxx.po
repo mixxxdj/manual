@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -254,10 +254,10 @@ msgid ""
 "the value. For example the year of a track."
 msgstr ""
 "**Eenmalige Linker Muisklik**: Het uitvoeren van een linker muisklik op "
-"knoppen activeert de standaard actie voor die controle. Als u bovendien op "
-"een waarde in de tracklist van de Mixxx :ref:`bibliotheek <library-"
-"interface>` klikt, kunt u de waarde wijzigen. Bijvoorbeeld het jaartal van "
-"een track."
+"toetsen activeert de standaard actie voor dat besturingselement. Als u "
+"bovendien op een waarde in de tracklist van de Mixxx :ref:`bibliotheek "
+"<library-interface>` klikt, kunt u de waarde wijzigen. Bijvoorbeeld het "
+"jaartal van een track."
 
 #: ../../chapters/controlling_mixxx.rst:25
 msgid ""
@@ -265,6 +265,10 @@ msgid ""
 "default value. This is especially useful on touchscreens as executing a "
 "right-click on them is usually tedious."
 msgstr ""
+"**Dubbele Linker Muisklik**: Dubbel-klik op eender welke toets of glijder om"
+" deze terug te zetten op zijn standaardwaarde. Dit is in het bijzonder zeer "
+"handig op touchscreens vermits een rechter-click op deze schermen meestal "
+"zeer moeizaam is."
 
 #: ../../chapters/controlling_mixxx.rst:28
 msgid ""
@@ -272,10 +276,10 @@ msgid ""
 " different action than a left click. You can return any knob or fader to its"
 " default value by right-clicking that control."
 msgstr ""
-"**Eenmalige Rechter Muisklik**: Bij de meeste knoppen wordt door het "
-"uitvoeren van een rechter muisklik een andere actie uitgevoerd dan bij een "
-"linker muisklik. U kunt elke knop of fader terugzetten op de standaardwaarde"
-" door met de rechtermuisknop op die knop te klikken."
+"**Eenmalige Rechter Muisklik**: Bij de meeste toetsen wordt door het klikken"
+" met de rechter muisknop een andere actie uitgevoerd dan bij een linker "
+"muisklik. U kunt elke knop of glijder terugzetten op de standaardwaarde door"
+" met de rechtermuisknop op die knop te klikken."
 
 #: ../../chapters/controlling_mixxx.rst:31
 msgid ""

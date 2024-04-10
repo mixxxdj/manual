@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -253,6 +253,11 @@ msgid ""
 "bandwidth. Streaming servers provide the required bandwidth and broadcast "
 "the stream to your listeners."
 msgstr ""
+"Mixxx staat u toe om uw audio stream rechtstreeks naar de streaming servers "
+"van :term:`Shoutcast <shoutcast>` en :term:`Icecast <icecast>` te sturen. "
+"Afhankelijk van het aantal luisteraars vereist streaming audio en "
+"aanzienlijke bandbreedte. Streaming servers voorzien de nodige bandbreedte "
+"en zenden uw stream door naar uw luisteraars."
 
 #: ../../chapters/livebroadcasting.rst:27
 msgid ""
@@ -321,7 +326,7 @@ msgid ""
 "Insert the settings following the descriptions in the :ref:`live-"
 "broadcasting-preferences`"
 msgstr ""
-"Voeg de instellingen in volgens de beschrijvingen in de :ref:`voorkeuren-"
+"Vul de instellingen in volgens de beschrijvingen in de :ref:`voorkeuren-"
 "live-uitzenden`"
 
 #: ../../chapters/livebroadcasting.rst:84
@@ -342,7 +347,7 @@ msgstr "Mixxx-voorkeuren - Live-uitzendingen instellen"
 
 #: ../../chapters/livebroadcasting.rst:100
 msgid "Server Connection"
-msgstr ""
+msgstr "Server Verbinding"
 
 #: ../../chapters/livebroadcasting.rst:102
 msgid ""
@@ -361,11 +366,18 @@ msgid ""
 " Settings`. If you don't provide a stream name, Shoutcast 2 rejects the "
 "connection (where Shoutcast 1 would accept this case)."
 msgstr ""
+"Mixxx werkt met Shoutcast 2 door gebruik te maken van het Shoutcast 1 "
+"protocol indien u een stream naam invult in :menuselection:`Voorkeuren --> "
+"Live Broadcasting --> Stream instellingen`. Wanneer u geen stream naam "
+"opgeeft zal Shoutcast 2 de verbinding afwijzen (terwijl Shoutcast 1 dit zou "
+"geaccepteerd hebben)."
 
 #: ../../chapters/livebroadcasting.rst:110
 msgid ""
 "**Host**: You can enter the host as either a host name or an IP address."
 msgstr ""
+"**Host**: U kan de host invullen door middel van een host naam of door "
+"middel van een IP addres."
 
 #: ../../chapters/livebroadcasting.rst:111
 msgid ""
@@ -373,6 +385,10 @@ msgid ""
 "will not connect successfully to the server. The default login for *Icecast*"
 " is ``source`` while the default login for Shoutcast is ``admin``."
 msgstr ""
+"**Login**: Zoals aangeleverd door diegene die voorziet in de streaming "
+"server. Zonder dit zal u geen succesvolle verbinding kunnen maken met de "
+"server. De standaard login voor *Icecast* is ``source`` terwijl de standaard"
+" login voor Shoutcast ``admin`` is."
 
 #: ../../chapters/livebroadcasting.rst:114
 msgid ""
@@ -383,12 +399,21 @@ msgid ""
 "make one up. It always begins with a ``/`` (slash) followed by a text "
 "without any special characters in it."
 msgstr ""
+"**Mount**: Een mount punt is een unieke naam die een specifieke stream "
+"identificeerd. Voor *Shoutcast* is het niet noodzakelijk om een mount point "
+"te specifiëren. De instelling mag echter niet leeg zijn wanneer u *Icecast* "
+"gebruikt. Probeer de standaard ``/mount`` of ``/live``. Indien u geen "
+"specifiek mount punt werd aangeleverd kan u er meestal zelf één verzinnen. "
+"Het beginst steeds met een ``/`` (slash) gevolgd door een tekst die geen "
+"speciale karakters bevat."
 
 #: ../../chapters/livebroadcasting.rst:120
 msgid ""
 "**Port**: As provided by your streaming server provider. Most servers use "
 "the default port 8000."
 msgstr ""
+"**Port**: Zoals aangeleverd wordt door de beheerder van de streaming server,"
+" de meeste servers gebruiken de standaard poort 8000."
 
 #: ../../chapters/livebroadcasting.rst:122
 msgid ""
@@ -396,6 +421,10 @@ msgid ""
 "your own radio server. It is required to establish the connection to the "
 "server and to start the broadcast."
 msgstr ""
+"**Password**: Zoals aangeleverd ordt door de beheerder van de streaming "
+"server tenzij u uw eigen radio server heeftt. Dit is noodzakelijk on een "
+"verbinding tot stand te brengen met de server alvorens de uitzending kan "
+"gestart worden."
 
 #: ../../chapters/livebroadcasting.rst:126
 msgid ""
@@ -403,16 +432,21 @@ msgid ""
 " work. Use ``example.com`` in the :guilabel:`Host` field and ``8000`` in the"
 " :guilabel:`Port` field instead."
 msgstr ""
+"Geef geen :term:`URL` in als host! ``http://voorbeeld.com:8000`` werkt "
+"nietGebruikt ``voorbeeld.com`` in het :guilabel:`Host` veld en ``8000`` in "
+"het :guilabel:`Poort` in de plaats."
 
 #: ../../chapters/livebroadcasting.rst:131
 msgid "Stream Settings"
-msgstr ""
+msgstr "Stream instellingen"
 
 #: ../../chapters/livebroadcasting.rst:133
 msgid ""
 "**Public stream**: If enabled, this option adds your radio station to the "
 "Shoutcast/Icecast directory."
 msgstr ""
+"**Public stream**: Indien geactiveerd zal deze optie er voor zorgen dat uw "
+"radio station tot de Shoutcast/Icecast station-overzicht wordt toegevoegd."
 
 #: ../../chapters/livebroadcasting.rst:135
 msgid ""
@@ -420,6 +454,11 @@ msgid ""
 " foreign language symbols in :term:`metadata`, assuming the streaming "
 "provider has configured the server to support UTF-8 metadata."
 msgstr ""
+"**Activeer UTF-8 metadata**: Indien geactiveerd, zorgt deze optie ervoor dat"
+" mogelijke fouten met accenten en tekens in vreemde talen in de "
+":term:`metadata` gecorrigeerd worden, op voorwaarde dat de beheerder van de "
+"streaming server de server zó geconfigureerd heeft om UTF-8 metadata te "
+"ondersteunen."
 
 #: ../../chapters/livebroadcasting.rst:138
 msgid ""
@@ -430,28 +469,42 @@ msgid ""
 "or disconnections when the Ogg Vorbis metadata is updated dynamically. If "
 "this is not a problem, you can enable this checkbox."
 msgstr ""
+"**Ogg Vorbis metadata dynamisch updaten**: Door enkele gebreken in sommide "
+"streaming clients, kan het dynamisch updaten van de Ogg Vorbis metadata er "
+"voor zorgen dat de luisteraar fouten en verbroken verbindingen ervaart. Vink"
+" dit vakje aan om de metadata hoe dan ook te updaten. Sommige spelers die "
+"luisteraars kunnen gebruiken hebben problemen die ervoor kunnen zorgen dat "
+"luisteraars audiofouten ervaren of dat de verbinding soms verbroken wordt "
+"wanneer de Ogg Vorbis metadata dynamisch wordt upgedated. Indien dit geen "
+"probleem is, kan u deze checkbox aanvinken."
 
 #: ../../chapters/livebroadcasting.rst:144
 msgid "**Stream name**: So, what's the name of your show?"
-msgstr ""
+msgstr "**Stream naam**: Zo, wat is de naam van uw programma?"
 
 #: ../../chapters/livebroadcasting.rst:145
 msgid "**Website**: The website you would like your listeners to visit."
 msgstr ""
+"**Website**: De website waarvan u zou willen dat uw luisteraars deze "
+"bezoeken.."
 
 #: ../../chapters/livebroadcasting.rst:146
 msgid "**Description**: Enter your DJ name and a short tagline."
 msgstr ""
+"**Beschrijving**: Geef uw DJ naam in samen met een korte beschrijving.."
 
 #: ../../chapters/livebroadcasting.rst:147
 msgid ""
 "**Genre**: List the main genres you play. This attracts search hits on "
 "stream directories. Genre must not be blank."
 msgstr ""
+"**Genre**: Geef een lijst op van de genres die u hoofdzakelijk speelt. Dit "
+"zorgt voor extra zoekresultaten in stream station-overzichten. Genre mag "
+"niet leeg zijn."
 
 #: ../../chapters/livebroadcasting.rst:151
 msgid "Encoding"
-msgstr ""
+msgstr "Encoding"
 
 #: ../../chapters/livebroadcasting.rst:153
 msgid ""
@@ -460,6 +513,11 @@ msgid ""
 "will use a larger chunk in your Internet connection bandwidth to stream and "
 "for your listeners to receive the stream."
 msgstr ""
+"**Bitrate**: In het algemeen wordt een :term:`bitrate` van 128 of 160 "
+":term:`kbps` geselecteerd en voorziet dit voldoende kwaliteit voor uw "
+"luisteraars. Hogere bitrates zullen een groter deel van uw internet-"
+"bandbreedte verbruiken om de stream te verzenden en bij uw luisteraars om de"
+" stream te ontvangen. ."
 
 #: ../../chapters/livebroadcasting.rst:157
 msgid ""
@@ -467,14 +525,17 @@ msgid ""
 ":term:`MP3` or :term:`Ogg Vorbis` format, streaming to Shoutcast servers is "
 "supported in :term:`MP3` format."
 msgstr ""
+"**Formaat**: Mixxx ondersteunt streaming naar Icecast servers ofwel in het "
+":term:`MP3` ofwel in het :term:`Ogg Vorbis` formaat, streaming naar "
+"Shoutcast kan enkel in het :term:`MP3` formaat."
 
 #: ../../chapters/livebroadcasting.rst:162
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #: ../../chapters/livebroadcasting.rst:165
 msgid "Shoutcast metadata format"
-msgstr ""
+msgstr "Shoutcast metadata formaat"
 
 #: ../../chapters/livebroadcasting.rst:167
 msgid ""
@@ -486,15 +547,26 @@ msgid ""
 "MyName - currently playing: $artist``. Or even if you wanted a very unusual "
 "format: ``Hey, I like $artist, here is $title by $artist``."
 msgstr ""
+"Dit staat u toe om specifieke metadata formaten voor het Shoutcast titel "
+"veld in te stellen. Voordien was enkel ``artiest - titel`` toegestaan. "
+"Bijvoorbeeld indien u uitzend als deel van een radio station, dan kan u de "
+"naam van het station of de naam van de presentator toevoegen in de titel: "
+"``MijnStation | $artiest - $titel``. Of wanneer u een live mix met "
+"verschillende artiesten aan het uitvoeren bent, dan kan u bijvoorbeeld: "
+"``Live mix door MijnNaam - u hoort momenteel: $artiest`` meegeven. Of u kan "
+"zelfs een heel ongewoon formaat gebruiken, bijvoorbeeld: ``Hey, ik hou van "
+"$artiest, dit is $titel door $artiest``."
 
 #: ../../chapters/livebroadcasting.rst:175
 msgid ""
 "The changes **do not** affect the case for the combination of OGG/Icecast2."
 msgstr ""
+"De wijzigingen hebben **geen** effect op de combination van OGG met "
+"Icecast2."
 
 #: ../../chapters/livebroadcasting.rst:178
 msgid "Custom metadata"
-msgstr ""
+msgstr "Persoonlijke metadata"
 
 #: ../../chapters/livebroadcasting.rst:180
 msgid ""
@@ -502,24 +574,31 @@ msgid ""
 "you play to your listeners. You can disable this feature and use your own "
 "custom metadata."
 msgstr ""
+"Standaard stuurt Mixxx de artiest en titel informatie mee van het bestand "
+"dat u afspeelt voor uw luisteraars. U kan deze optie deactiveren en uw "
+"persoonlijke metadata meesturen."
 
 #: ../../chapters/livebroadcasting.rst:184
 msgid "**Enable custom metadata**: Toggles custom metadata on and off."
 msgstr ""
+"**Activeer persoonlijke metadata**: Schakelt persoonlijke metadata aan en "
+"uit."
 
 #: ../../chapters/livebroadcasting.rst:185
 msgid ""
 "**Artist**: Insert your custom artist metadata here, your DJ name for "
 "example."
 msgstr ""
+"**Artiest**: Vul hier uw persoonlijke artiest metadata in, bijvoorbeeld uw "
+"DJ naam."
 
 #: ../../chapters/livebroadcasting.rst:186
 msgid "**Title**: Insert your custom title metadata here."
-msgstr ""
+msgstr "**Titel**: Geef hier uw persoonlijke titel metadata in."
 
 #: ../../chapters/livebroadcasting.rst:189
 msgid "Icecast vs. Shoutcast"
-msgstr ""
+msgstr "Icecast ten opzichte van Shoutcast"
 
 #: ../../chapters/livebroadcasting.rst:191
 msgid ""
@@ -529,10 +608,16 @@ msgid ""
 "not all players can play Ogg streams. As a result MP3 is probably a safe "
 "choice unless you know your listeners can hear an Ogg stream successfully."
 msgstr ""
+"Beide dienen in sé hetzelde doel. Een Icecast server kan streamen in zowel "
+":term:`MP3` als in :term:`Ogg Vorbis`. Echte, hoewel Ogg meer efficient en "
+"effectief is (u verkrijgt een hogere geluidskwaliteit dan bij MP3 aan een "
+"lager data verbruik) ondersteunen niet alle spelers Ogg streams. Als "
+"conclusie is MP3 waarschijnlijk een veilige keuze, tenzij u weet dat uw "
+"luisteraars succesvol naar een Ogg stream kunnen luisteren.."
 
 #: ../../chapters/livebroadcasting.rst:198
 msgid "Broadcast directories"
-msgstr ""
+msgstr "Broadcast station-overzichten"
 
 #: ../../chapters/livebroadcasting.rst:200
 msgid ""
@@ -541,16 +626,23 @@ msgid ""
 "option in :menuselection:`Preferences --> Live Broadcasting --> Stream "
 "Settings`."
 msgstr ""
+"In het algemeen voegt uw streaming server host uw radio station toe aan het "
+"Shoutcast/Icecast station-overzicht, wanneer u de :guilabel:`Publieke "
+"Stream` optie activeert in de :menuselection:`Voorkeuren --> Live "
+"Broadcasting --> Stream Instellingen`."
 
 #: ../../chapters/livebroadcasting.rst:204
 msgid ""
 "**Shoutcast radio directory**: `www.shoutcast.com "
 "<https://www.shoutcast.com/>`_"
 msgstr ""
+"**Shoutcast radio station-overzicht**: `www.shoutcast.com "
+"<https://www.shoutcast.com/>`_"
 
 #: ../../chapters/livebroadcasting.rst:205
 msgid "**Icecast radio directory**: `dir.xiph.org <http://dir.xiph.org/>`_"
 msgstr ""
+"**Icecast radio station overzicht**: `dir.xiph.org <http://dir.xiph.org/>`_"
 
 #: ../../chapters/livebroadcasting.rst:207
 msgid ""
@@ -562,6 +654,13 @@ msgid ""
 "<https://www.shoutcheap.com/internet-radio-directories-submitting-and-"
 "promoting/>`_"
 msgstr ""
+"Vaak hebben streaming hosts hun eigen station-overzicht. Controleer de FAQ "
+"van uw host om meer te weten te komen. Indien u uw eigen streaming radio "
+"station nog meer wil promoten, registreer op diensten als `streamfinder.com "
+"<https://www.streamfinder.com/>`_. Een weergave van verschillende internet "
+"radio station-overzichtenkan u vinden op `shoutcheap.com "
+"<https://www.shoutcheap.com/internet-radio-directories-submitting-and-"
+"promoting/>`_"
 
 #: ../../chapters/livebroadcasting.rst:214
 msgid "Troubleshooting"
@@ -572,12 +671,16 @@ msgid ""
 "If you have trouble connecting to your streaming server, check the "
 "configuration in the :ref:`live-broadcasting-preferences`."
 msgstr ""
+"Wanneer u een probleem heeft met de verbinding met uw streaming server, "
+"controleer de configuratie in de :ref:`live-broadcasting-preferences`."
 
 #: ../../chapters/livebroadcasting.rst:218
 msgid ""
 "You may have selected the :term:`Ogg Vorbis` format that is unsupported by "
 "Shoutcast servers."
 msgstr ""
+"U kan mogelijk het formaat :term:`Ogg Vorbis` hebben geselecteerd terwijl "
+"dat niet wordt ondersteund door Shoutcast servers."
 
 #: ../../chapters/livebroadcasting.rst:220
 msgid ""
@@ -585,9 +688,17 @@ msgid ""
 " two ports. If you are streaming on a port (for example, port 8000) then you"
 " need to open up the next port (port 8001) as well."
 msgstr ""
+"Misschien dient u uw firewall instellingen na te kijken. Zowel Icecast als "
+"Shoutcast gebruiken twee poorten. Indien u streamt op een poort "
+"(bijvoorbeeld poort 8000), dan dient u de net hierop volgende poort ook te "
+"openen (8001 in het voorbeeld)."
 
 #: ../../chapters/livebroadcasting.rst:223
 msgid ""
 "You may need to configure port forwarding if you are behind a router or your"
 " router will block requests to your streaming port (for example, port 8000)"
 msgstr ""
+"Wanneer uw computer zich achter een router bevindt dan dient u misschien via"
+" instellingen op uw router poorten door te sturen naar uw computer. Zoniet "
+"kunnen bepaalde poortverzoeken geblokkeerd worden voor uw streaming poort "
+"(bijv. poort 8000)"

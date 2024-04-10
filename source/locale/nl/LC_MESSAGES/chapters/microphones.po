@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -237,9 +237,9 @@ msgid ""
 " you cannot hear yourself without a disorienting delay, referred to as "
 "\"latency\"."
 msgstr ""
-":ref: `microfoons-software-monitoring`: Goedkoopst en eenvoudigst in te "
+":ref: `microfoons-software-monitoring`: Gemakkelijkst en eenvoudigst in te "
 "stellen, maar je kunt jezelf niet horen zonder een desoriënterende "
-"vertraging, ook wel \"latentie\"genoemd."
+"vertraging, ook wel 'latentie' genoemd."
 
 #: ../../chapters/microphones.rst:14
 msgid ""
@@ -248,16 +248,17 @@ msgid ""
 "software monitoring."
 msgstr ""
 ":ref:`microfoon-direct-monitoring`: Aanbevolen voor de meeste gebruikers. "
-"Dit is het goedkoopst in te stellen met een goede geluidskwaliteit en zonder"
-" de latentie van softwarebewaking."
+"Dit is het gemakkelijkst in te stellen met een goede geluidskwaliteit en "
+"zonder de latentie van softwarebewaking."
 
 #: ../../chapters/microphones.rst:17
 msgid ""
 ":ref:`microphones-hardware-mixers`: Most expensive option to set up with "
 "high sound quality. This does not have the latency of software monitoring."
 msgstr ""
-":ref:`microfoon-hardware-mixers`: De duurste optie om in te stellen met een "
-"hoge geluidskwaliteit. Dit heeft niet de latentie van software monitoring."
+":ref:`microfoon-hardware-mixers`: De moeilijkste optie om in te stellen met "
+"een hoge geluidskwaliteit. Dit heeft niet de latentie van software "
+"monitoring."
 
 #: ../../chapters/microphones.rst:20
 msgid ""
@@ -281,6 +282,9 @@ msgid ""
 "specific audio interfaces with information about their prices, features, and"
 " suitability for use with microphones."
 msgstr ""
+"De `Mixxx DJ Hardware Gids <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ lijst specifieke audio interfaces op met informatie ivm hun"
+" prijzen, mogelijkheden en gepastheid voor het gebruik met microfoons."
 
 #: ../../chapters/microphones.rst:34
 msgid "Software Monitoring"
@@ -297,6 +301,15 @@ msgid ""
 "more time to send the audio back out the audio interface. This time is "
 "referred to as \"latency\"."
 msgstr ""
+"Software monitoring kan worden gebruikt met ingebouwde microfoons in een "
+"laptop of met een headset die ingeplugt is in de ingebouwde audio inter-face"
+" van een computer. Echter, er is een vertraging tussen het moment dat u "
+"geluid maakt in de de microfoon en u het hoort in de :term:`main output`. Te"
+" wijten aan de wijze waarop digital audio werkt is er een tijdspanne vereist"
+" tussen de input in de audio interface en het moment dat het beschikbaar is "
+"om door Mixxx verwerkt te worden, tijd voor Mixxx om het geluid te verwerken"
+" en nog meer tijd om het geluid terug naar de audio interface te sturen. "
+"Naar deze tijdspanne wordt verwezen als 'latency'."
 
 #: ../../chapters/microphones.rst:53
 msgid ""
@@ -311,8 +324,8 @@ msgstr ""
 "kleinere te kiezen: ref: `voorkeuren-audiobuffer`, maar er is geen manier om"
 " latentie volledig te elimineren. Hoewel latentie wordt gemeten in "
 "milliseconden, kan zelfs een paar milliseconden latentie desoriënterend en "
-"storend zijn om te horen, of je de microfoon nu gebruikt voor gesproken "
-"aankondigingen, zang of een muziekinstrument bespeelt."
+"storend zijn om aan te horen, of je de microfoon nu gebruikt voor gesproken "
+"aankondigingen, zang of voor het bespelen van een muziekinstrument."
 
 #: ../../chapters/microphones.rst:60
 msgid "To use software monitoring:"
@@ -366,6 +379,13 @@ msgid ""
 "microphone with the main output. Don't forget to press the :guilabel:`Talk` "
 "button when using the microphone if you use this option."
 msgstr ""
+"Indien u verkiest om de microfoon input niet te horen, kan u de "
+":guilabel:`Microfoon Monitor Modus` optie op :guilabel:`Direct monitor "
+"(enkel opname en broadcasting) te zetten`. Dit zal nog steeds de microfoon-"
+"input mengen met uw opnames en met uw uitgezonden mixen, maar het zal de "
+"microphone input niet mengen met de main output. Vergeet niet op op de "
+":guilabel:`Talk` toets te drukken wanneer u in deze optie de microfoon wilt "
+"gebruiken."
 
 #: ../../chapters/microphones.rst:83
 msgid "Direct Monitoring"
@@ -472,6 +492,13 @@ msgid ""
 ":ref:`microphones-loopback-input`, the microphone inputs will be out of time"
 " relative to the music in your recorded and broadcasted mixes."
 msgstr ""
+"Wanneer u gebruik maakt van :ref:`microphones-direct-monitoring`, zal u de "
+"microfoon gemengd met de muziek van Mixxx horen zonder een waar te nemen "
+"latentie. Echter, het neemt nog steeds tijd eer Mixxx het microfoon signaal "
+"ontvangt en het kan verwerken. Zonder deze latentie te compenseren of "
+"wannneer u een :ref:`microphones-loopback-input` gebruikt, zal de input van "
+"de microfoon niet gelijk lopen ten opzichte van de muziek in uw opgenomen en"
+" uitgezonden mixen."
 
 #: ../../chapters/microphones.rst:162
 msgid ""
@@ -524,13 +551,15 @@ msgstr ""
 "meten. Gebruik hiervoor een fysieke kabel om de uitgang van de audio-"
 "interface op de ingang aan te sluiten. Gebruik vervolgens een programma van "
 "een derde partij om de latentie van de Round Trip Latentie te meten. Deze "
-"programma's worden op elk aanbevolen: term :`OS <operating system>:"
+"programma's worden aanbevolen voor elk :term:`OS <besturingssysteem>:"
 
 #: ../../chapters/microphones.rst:187
 msgid ""
 "**GNU/Linux**: `jack_iodelay "
 "<https://linuxmusicians.com/viewtopic.php?t=8022>`_"
 msgstr ""
+"**GNU/Linux**: `jack_iodelay "
+"<https://linuxmusicians.com/viewtopic.php?t=8022>`_"
 
 #: ../../chapters/microphones.rst:189
 msgid ""
@@ -593,7 +622,7 @@ msgid ""
 "inputs. Select a single mono channel for each Microphone input unless you "
 "are using stereo microphones."
 msgstr ""
-"Selecteer de audio-interface-ingang (en) voor de :guilabel: `Microphone "
+"Selecteer de audio-interface-ingang(en) voor de :guilabel: `Microfoon "
 "1-4`-ingangen. Selecteer een enkel monokanaal voor elke microfooningang, "
 "tenzij u stereomicrofoons gebruikt."
 
@@ -694,15 +723,15 @@ msgid ""
 "direct monitoring, you typically need to toggle a switch on the device."
 msgstr ""
 "Om het mono-geluid van microfooningangen aan beide zijden van de stereo-"
-"uitgang met directe monitoring te horen, moet u meestal een schakelaar in of"
-" uitschakelen op het apparaat."
+"uitgang met directe monitoring te horen, moet u meestal een schakelaar in-  "
+"of uitschakelen op het apparaat."
 
 #: ../../chapters/microphones.rst:269
 msgid ""
 "If the audio interface supports :ref:`microphones-loopback-input`, that may "
 "be activated by a switch on the device."
 msgstr ""
-"Als de audio-interface :ref: `microfoons-loopback-input`  ondersteunt, dan "
+"Als de audio-interface :ref: `microfoons-loopback-input` ondersteunt, dan "
 "kan dat worden geactiveerd door een schakelaar op het apparaat."
 
 #: ../../chapters/microphones.rst:272
@@ -732,7 +761,7 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:284
 msgid "Hardware Mixers"
-msgstr "Hardware Mixers"
+msgstr "Hardware Mengtafels"
 
 #: ../../chapters/microphones.rst:285
 msgid ""
@@ -745,13 +774,13 @@ msgid ""
 "an external mixer."
 msgstr ""
 "Mixxx kan worden gebruikt met een microfoon die op een externe hardwaremixer"
-" is aangesloten. Hierdoor heeft het geen probleem met de latentie die "
-"optreedt bij :ref:`microfoon-software-monitoring`. Het is echter over het "
-"algemeen aan te raden om een audio-interface te gebruiken die "
-":ref:`microfoons-direct-monitoring` en een :ref:`microfoons-loopback-input` "
-"ondersteunt in plaats van een extern mengpaneel. Als u gebruik maakt van "
-":ref:`vinyl-control` en een microfoon, kan het zijn dat u een extern "
-"mengpaneel nodig heeft."
+" is aangesloten. Hierdoor heeft u geen probleem met de latentie die optreedt"
+" bij :ref:`microfoon-software-monitoring`. Het is echter over het algemeen "
+"aan te raden om een audio-interface te gebruiken die :ref:`microfoons-"
+"direct-monitoring` en een :ref:`microfoons-loopback-input` ondersteunt in "
+"plaats van een extern mengpaneel. Als u gebruik maakt van :ref:`vinyl-"
+"control` en een microfoon, kan het zijn dat u een extern mengpaneel nodig "
+"heeft."
 
 #: ../../chapters/microphones.rst:293
 msgid ""
@@ -782,7 +811,7 @@ msgstr ""
 "Audio-interfaces met phono-voorversterkers voor :ref:`vinyl-control` hebben "
 "echter geen microfooningangen. Als u gebruik wilt maken van vinyl-control "
 "met een microfoon, is het aan te raden om de microfoon aan te sluiten op een"
-" DJ-mixer."
+" DJ-mengtafel."
 
 #: ../../chapters/microphones.rst:306
 msgid ""
@@ -813,9 +842,9 @@ msgstr ""
 "Om op te nemen of uit te zenden met een externe hardwaremixer, moet de "
 "uitgang van de mixer worden aangesloten op de ingang van een audio-"
 "interface. De meeste DJ-mixers hebben hiervoor een extra uitgang die "
-"aangeduid wordt met \"record\", \"sessie\", \"auxiliary\" of \"booth\". "
-"Sommige audio-interfaces voor vinyl control hebben voldoende ingangskanalen "
-"om de uitgang van het mengpaneel en de tijdcodering van twee draaitafels te "
+"aangeduid wordt met 'record', 'sessie', 'auxiliaire' of 'booth'. Sommige "
+"audio-interfaces voor vinyl control hebben voldoende ingangskanalen om de "
+"uitgang van het mengpaneel en de tijdcodering van twee draaitafels te "
 "ontvangen. Als dat bij u niet het geval is, kunt u gebruik maken van de "
 "input van de audio-interface die in uw computer is ingebouwd, maar deze "
 "hebben geen hoge geluidskwaliteit."
@@ -888,7 +917,7 @@ msgstr ""
 "Configureer niets voor de :guilabel:`Microfoon 1-4` ingangen bij gebruik van"
 " een externe mixer. De bedieningen van de microfoons in Mixxx hebben geen "
 "invloed op uw microfoons, omdat de microfoon wordt gemengd door het externe "
-"mengpaneel."
+"mengtafel."
 
 #: ../../chapters/microphones.rst:374
 msgid ""
@@ -914,6 +943,14 @@ msgid ""
 "Compatibility>`_ or the manual from the controller manufacturer for details "
 "about your particular controller."
 msgstr ""
+"DJ controllers met microfoon inputs mixen meestal de microphone input met de"
+" :term:`main output` zonder deze naar de computer te sturen. Dit heeft dus "
+"geen latentie-probleem dat voorkomt bij :ref:`microphones-software-"
+"monitoring`. Echter, veel goedkoper DJ controllers digitalizeren het signaal"
+" niet om het beschikbaar te maken voor de computer. Kijk naar de controllers"
+" pagina op de Mixxx wiki <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ of in de de handleiding aangeleverd door de fabrikant van "
+"de controller voor details aangaande een specifieke controller."
 
 #: ../../chapters/microphones.rst:390
 msgid ""
@@ -931,7 +968,7 @@ msgstr ""
 "microfooningang van Mixxx niet gebruiken om met de microfoon op te nemen of "
 "uit te zenden met behulp van de Mixxx :guilabel:`Microphone 1-4` ingangen. "
 "Het is nog steeds mogelijk om met de microfoon op te nemen en uit te zenden "
-"door de boothout-uitgang van de controller aan te sluiten op een audio-"
+"door de booth-out-uitgang van de controller aan te sluiten op een audio-"
 "interface-ingang en deze te configureren voor de Mixxx "
 ":guilabel:`Opname/Uitzenden`-ingang. Als de controller geen booth-uitgang "
 "heeft, kan een Y-splitsingskabel aan beide zijden van de stereo-hoofduitgang"
@@ -949,7 +986,7 @@ msgstr ""
 
 #: ../../chapters/microphones.rst:416
 msgid "Microphone Ducking"
-msgstr ""
+msgstr "Microphone Ducking"
 
 #: ../../chapters/microphones.rst:417
 msgid ""
@@ -962,14 +999,23 @@ msgid ""
 "ducking helps you achieve this.  The music will 'duck' out of the way of the"
 " microphone audio."
 msgstr ""
+"Microfoon ducking is een techniek om de hoorbaarheid van gesproken woord te "
+"verbeteren door het volume van de achtergrondmuziek te verminderen wanneer "
+"een stemsignaal wordt opgenomen door een microfoon. Dit staat de luisteraars"
+" toe de stem duidelijker en klaarder te horen. Wanneer u Mixxx met een "
+"microfoon gebruikt wilt u misschien dat elke keer dat u spreekt de muziek "
+"automatisch naar de background wordt gefaded. Of misschien verkiest u dat "
+"het volume van de de muziek op een specifiek niveau wordt gezetMicrophone "
+"ducking helpt u dit te bereiken. De muziek zal uit de weg van de microfoon "
+"geluid 'duck'-en (duiken)."
 
 #: ../../chapters/microphones.rst:427
 msgid "The microphone ducking section"
-msgstr ""
+msgstr "Het microfoon ducking onderdeel"
 
 #: ../../chapters/microphones.rst:427
 msgid "The microphone ducking controls"
-msgstr ""
+msgstr "De microfoon ducking besturingselementen"
 
 #: ../../chapters/microphones.rst:429
 msgid ""
@@ -978,12 +1024,18 @@ msgid ""
 "described below. Clicking  on the :guilabel:`Auto` button will switch it to "
 "any of three modes:"
 msgstr ""
+"De :guilabel:`Sterkte` knop regelt de microfoon talkover ducking sterkte en "
+"zijn gedrag hangt af van één van de microfoon talkover modi hieronder "
+"beschreven. Door te klikken op de the :guilabel:`Auto` toets zal deze naar "
+"één van de drie modi schakelen:"
 
 #: ../../chapters/microphones.rst:432
 msgid ""
 ":guilabel:`Off`: When you speak through the microphone, the music  volume "
 "does not reduce."
 msgstr ""
+":guilabel:`Uit`: Wanneer u in de microffon spreekt wordt het muziekvolume "
+"niet verminderd."
 
 #: ../../chapters/microphones.rst:433
 msgid ""
@@ -991,6 +1043,9 @@ msgid ""
 "will be reduced when Mixxx detects your voice. You can adjust the amount by "
 "which the volume is automatically reduced with the Strength knob."
 msgstr ""
+":guilabel:`Auto`: Wanneer u in de microfoon spreekt wordt het muziekvolume "
+"vermindert wanneer Mixxx een stem detecteert. U kan de hoeveelheid van de "
+"volumevermindering regelen met de sterkte knop."
 
 #: ../../chapters/microphones.rst:434
 msgid ""
@@ -1001,9 +1056,18 @@ msgid ""
 "the Strength knob to a level that suits you. When you disable Talk mode, the"
 " music will return to the regular volume"
 msgstr ""
+":guilabel:`Manueel`:In deze modus zal de muziek spelen op het volume dat met"
+" de sterkte knop werd ingesteld van zodra de microfoon Talk toets actief is,"
+" ongeacht het signaal volume dat uit de microfoon komùt. Wanneer u in de "
+"microfoon spreekt, stel de volumevermindering op een passend niveau in door "
+"aan de sterkte knop te draaien. Wanneer u de Talk modus deactiveert zal de "
+"muziek opnieuw op normaal volume afspelen."
 
 #: ../../chapters/microphones.rst:436
 msgid ""
 "To set the Ducking volume correctly, you can use manual mode to adjust the "
 "knob to your taste and then set to auto when happy."
 msgstr ""
+"Om het Ducking volume correct af te stellen, gebruik 'manueel' om af te "
+"regelen, en wanneer u tevreden mbent met de afstelling, gebruik dan de Auto-"
+"modus."

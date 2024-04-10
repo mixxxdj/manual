@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -241,6 +241,10 @@ msgid ""
 ":term:`MIDI`/:term:`HID` messages from a controller into commands that Mixxx"
 " understands."
 msgstr ""
+"De ondersteuning voor andere apparaten kan aan Mixxx worden toegevoegd door "
+"een nieuw toewijzingsbestand te maken. Dit bestand geeft aan Mixxx de manier"
+" door waarop :term:`MIDI`/:term:`HID` instructies van een controller moeten "
+"worden geïnterpreteerd en vertaald deze naar commando's die Mixxx begrijpt."
 
 #: ../../chapters/advanced_topics.rst:18
 msgid ""
@@ -248,12 +252,17 @@ msgid ""
 "Controller Mapping forums <https://mixxx.discourse.group/c/controller-"
 "mappings/10>`_."
 msgstr ""
+"U kan aangepaste toewijzingsbestanden vinden in en downloaden van de `Mixxx "
+"Gebruikers Verbindingsbestanden fora "
+"<https://mixxx.discourse.group/c/controller-mappings/10>`_."
 
 #: ../../chapters/advanced_topics.rst:21
 msgid ""
 "For a list of controls that can be used in a controller mapping, see "
 ":ref:`appendix-mixxxcontrols`."
 msgstr ""
+"Voor een lijst met besturingselementen die kunnen hebruikt worden in een "
+"controller toewijzingsbestand, zie :ref:`appendix-mixxxcontrols`."
 
 #: ../../chapters/advanced_topics.rst:28
 msgid "Controller Wizard"
@@ -268,6 +277,8 @@ msgid ""
 "By far, the easiest way to create a new MIDI mapping is by using the "
 "Controller Wizard."
 msgstr ""
+"Veruit de gemakkelijkste manier om een nieuwe MIDI toewijzing te maken is "
+"door gebruik te maken van de Controller Wizard."
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
@@ -287,7 +298,7 @@ msgid ""
 "right pane will change"
 msgstr ""
 "Selecteer uw apparaat in de lijst met beschikbare apparaten aan de "
-"linkerkant en het rechter deelvenster zal aangepast worden."
+"linkerkant en het rechter deelvenster zal worden aangepast."
 
 #: ../../chapters/advanced_topics.rst:47
 msgid "Activate the :guilabel:`Enabled` checkbox"
@@ -316,19 +327,19 @@ msgid ""
 "controller to map it.  You can also move a control without pushing the "
 ":guilabel:`Learn` button if you are learning many controls."
 msgstr ""
-"Druk op: guilabel: `Leren` en verplaats vervolgens een besturingselement of "
-"druk op een knop op je controller om het te koppelen. U kunt ook een "
-"besturingselement verplaatsen zonder op de: guilabel: `Leren`-knop te "
-"drukken als u veel besturingselementen aan het aanleren bent."
+"Druk op: guilabel: `Leren` en beweeg vervolgens een besturingselement of "
+"druk op een toets op je controller om deze te koppelen. U kunt ook een "
+"besturingselement bewegen zonder op de: guilabel: `Leren`-knop te drukken "
+"als u veel besturingselementen aan het aanleren bent."
 
 #: ../../chapters/advanced_topics.rst:55
 msgid ""
 "If you are learning a button, just push it once.  If you are learning a knob"
 " or a slider, try to move it throughout its range."
 msgstr ""
-"Als je een knop iets aanleert, druk je er maar één keer op. Als je een knop "
-"of een schuifregelaar iets aanleert, probeer deze dan over het hele bereik "
-"te verplaatsen."
+"Als je een toets wil toewijzen, druk je er maar één keer op. Als je een knop"
+" of een schuifregelaar wilt gebruiken aanleert, probeer deze dan over het "
+"hele bereik te verplaatsen."
 
 #: ../../chapters/advanced_topics.rst:57
 msgid ""
@@ -344,14 +355,14 @@ msgstr ""
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
 msgstr ""
 "Wanneer u klaar bent met het toewijzen van de besturingselementen, klikt u "
-"op :guilabel: `Done`"
+"op :guilabel: `Klaar`"
 
 #: ../../chapters/advanced_topics.rst:62
 msgid ""
 "There are also some advanced options in the Midi Wizard you may need to use:"
 msgstr ""
-"Er zijn ook enkele geavanceerde opties in de Midi Wizard die u mogelijk moet"
-" gebruiken:"
+"Er zijn ook enkele geavanceerde opties in de Midi Wizard die u mogelijks "
+"moet gebruiken:"
 
 #: ../../chapters/advanced_topics.rst:64
 msgid ""
@@ -370,7 +381,7 @@ msgid ""
 "Invert: Use this option for controls that you want to work backwards from "
 "how they were detected."
 msgstr ""
-"Invert: Gebruik deze optie voor besturingselementen die u achterwaarts wilt "
+"Invert: Gebruik deze optie voor besturingselementen die u omgekeerd wilt "
 "laten functioneren ten opzichte van de manier waarop ze zijn gedetecteerd."
 
 #: ../../chapters/advanced_topics.rst:70
@@ -391,14 +402,17 @@ msgid ""
 "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or "
 "an end, but spin continuously."
 msgstr ""
-"Jog Wheel / Select Knob: Gebruik dit voor knoppen die geen begin of einde "
-"hebben, maar continu draaien."
+"Jog Wheel / Select Knob: Gebruik dit voor knoppen die geen beginpunt of "
+"eindpunt hebben, maar continu kunnen draaien."
 
 #: ../../chapters/advanced_topics.rst:77
 msgid ""
 "The Controller wizard saves the new mapping to the ``controllers`` directory"
 " in the user settings directory, see :ref:`appendix-settings-files`."
 msgstr ""
+"De Controller wizard bewaart het nieuwe toewijzingsbestand in de "
+"``controllers`` map in de hebruikersinstellingen map, zie :ref:`appendix-"
+"settings-files`."
 
 #: ../../chapters/advanced_topics.rst:81
 msgid ""
@@ -407,6 +421,11 @@ msgid ""
 "information, go to `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_."
 msgstr ""
+"U kan het XML bestand dat wordt aangemaakt (of één van diegene die met Mixxx"
+" meekomen aanpassen indien u deze wil fine-tunen of indien u andere "
+"besturings-elementen wil toevoegen. Voor meer informatie, ga naar "
+"`<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-"
+"Format>`_."
 
 #: ../../chapters/advanced_topics.rst:86
 msgid ""
@@ -429,8 +448,8 @@ msgid ""
 "controllers, Mixxx offers what we call MIDI Scripting."
 msgstr ""
 "Om de geavanceerde functies van veel :term:`MIDI`/:term:`HID` controllers te"
-" ondersteunen, biedt Mixxx een scripting tool aan, wat wij noemen MIDI "
-"Scripting."
+" ondersteunen, biedt Mixxx een scripting tool aan, wat wij MIDI Scripting "
+"noemen."
 
 #: ../../chapters/advanced_topics.rst:98
 msgid ""
@@ -444,17 +463,18 @@ msgid ""
 "complex LED sequence, or even send messages to text displays on the "
 "controller."
 msgstr ""
-"Hiermee schakelt u de mogelijkheid in om MIDI-besturingselementen te mappen "
-"naar `QtScript <https://en.wikipedia.org/wiki/QtScript>`_ (ook wel "
-"Javascript/EMCAScript genoemd) functies die zijn opgeslagen in de "
-"functiebibliotheekbestanden, waardoor Mixxx wordt bevrijd van een èèn een-"
-"op-èèn MIDI-mapping ideologie. Door deze functies als gebruiker zelf te "
-"creëren is het mogelijk om een gewenste combinatie te genereren met de MIDI-"
-"gebeurtenis, zoals een enkele controllerknop tegelijkertijd twee of meer "
-"Mixxx-eigenschappen (“controls”) te laten beïnvloeden, inkomende "
-"controlwaarden aan te passen om beter met Mixxx te werken (scratchen), een "
-"complexe LED-sequentie weer te geven, of zelfs berichten naar tekstdisplays "
-"op de controller te sturen."
+"Hiermee schakelt u de mogelijkheid in om MIDI-besturingselementen toe te "
+"wijzen aan `QtScript <https://en.wikipedia.org/wiki/QtScript>`_ (ook wel "
+"Javascript/EMCAScript genoemd) functies worden bewaard in de functie-"
+"bibliotheekbestanden, waardoor Mixxx wordt bevrijd van een èèn een-op-èèn "
+"MIDI-mapping ideologie. Door de gebruiker de mogelijkheid te geven om zelf "
+"functies te creëren kan deze via een combinatie van MIDI-be-sturingen een "
+"gebeurtenis genereren. Zo kan bijvoorbeeld dezelfde controller-knop "
+"tegelijkertijd twee of meer Mixxx-eigenschappen (“controls”) beïnvloeden, "
+"kunnen inkomende controlwaarden aangepast worden om deze beter met Mixxx te "
+"laten werken (bv. scratchen), kan een complexe LED-sequentie weergeven "
+"worden, of kunnen zelfs berichten op controller-tekstdisplays weergegeven "
+"worden."
 
 #: ../../chapters/advanced_topics.rst:107
 msgid ""
@@ -468,18 +488,27 @@ msgid ""
 "Components-JS significantly reduces effort for both mapping and reviewing "
 "Pull Requests."
 msgstr ""
+"Voor meer informatie, ga naar `<https://github.com/mixxxdj/mixxx/wiki/Midi-"
+"Scripting>`_ en `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_ , als"
+" ook de`Comonents-JS library "
+"<https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_ welke de toewijzing "
+"veel gemakkelijker maakt, bijvoorbeeld voor effect units en complex gedrag "
+"zoals schakelen tussen decklagen of pad grid modi. Let op: dit is de "
+"aangewezen manier van toewijzen wanneer u uw toewijzingsbestand wil "
+"toevoegen aan Mixxx vermits Components-JS zowel jet toewijzen als het "
+"nakijken van Pull Requests veel simpeler maakt"
 
 #: ../../chapters/advanced_topics.rst:118
 msgid "Making a Custom Keyboard Mapping"
-msgstr "Het maken van een Custom Keyboard Mapping"
+msgstr "Het maken van een Aangepaste Toetsenbord Toewijzing"
 
 #: ../../chapters/advanced_topics.rst:120
 msgid ""
 "The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a "
 "text file which can be found at the following location:"
 msgstr ""
-"De :ref:`standaard keyboard mappings <appendix-keyboard>` zijn gedefinieerd "
-"in een tekstbestand dat op de volgende locatie te vinden is:"
+"De :ref:`standaard toetsenbord toewijzingen <appendix-keyboard>` zijn gede-"
+"finieerd in een tekstbestand dat op de volgende locatie te vinden is:"
 
 #: ../../chapters/advanced_topics.rst:123
 msgid "Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`"
@@ -513,10 +542,10 @@ msgid ""
 "because all your changes may be lost if you uninstall or upgrade Mixxx. "
 "Instead, copy the default mapping file to the following location:"
 msgstr ""
-"Het wordt niet aanbevolen om het standaard keyboard mappingbestand, dat op "
-"jouw systeem gebruikt wordt, te wijzigen, omdat al uw wijzigingen verloren "
-"kunnen gaan als u Mixxx verwijdert of bijwerkt. Kopieer in plaats daarvan "
-"het standaard mappingbestand naar de volgende locatie:"
+"Het wordt niet aanbevolen om het standaard toetsenbord toewijzingsbestand, "
+"dat op uw systeem gebruikt wordt, te wijzigen, het gevaar bestaat immers dat"
+" al uw ijzigingen verloren gaan als u Mixxx verwijdert of bijwerkt. Kopieer "
+"daarom beter het standaard toewijzingsbestand naar de volgende locatie:"
 
 #: ../../chapters/advanced_topics.rst:135
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"
@@ -527,6 +556,8 @@ msgid ""
 "macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
 "Support/Mixxx/Custom.kbd.cfg`"
 msgstr ""
+"macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application "
+"Support/Mixxx/Custom.kbd.cfg`"
 
 #: ../../chapters/advanced_topics.rst:137
 msgid "Windows: :file:`%LOCALAPPDATA%\\\\Mixxx\\\\Custom.kbd.cfg`"
@@ -541,8 +572,8 @@ msgid ""
 msgstr ""
 "Bewerk dan dit bestand en sla de wijzigingen op. Bij de volgende opstart zal"
 " Mixxx controleren of :file:`Custom.kbd.cfg` aanwezig is en dit bestand "
-"laden in plaats van het standaard mapping bestand. Dit heeft als voordeel "
-"dat u altijd terug kunt keren naar de standaard mapping door "
+"laden in plaats van het standaard toewijzings bestand. Dit heeft als "
+"voordeel dat u altijd terug kunt keren naar de standaard toewijzing door "
 ":file:`Custom.kbd.cfg` te verwijderen."
 
 #: ../../chapters/advanced_topics.rst:144
@@ -550,6 +581,8 @@ msgid ""
 "For a list of controls that can be used in a keyboard mapping, see "
 ":ref:`appendix-mixxxcontrols`."
 msgstr ""
+"Voor een lijst van besturingselementen die kunnen gebruikt worden in een "
+"toetsenbord toewijzing, zie :ref:`appendix-mixxxcontrols`."
 
 #: ../../chapters/advanced_topics.rst:147
 msgid ""
@@ -557,6 +590,9 @@ msgid ""
 "Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-"
 "mappings/12>`_."
 msgstr ""
+"U kan een toetsenbord toewijzingsbestand downloaden en delen in de `Mixxx "
+"User Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-"
+"mappings/12>`_."
 
 #: ../../chapters/advanced_topics.rst:153
 msgid "Additional Effects via external Mixer Mode"
@@ -570,8 +606,8 @@ msgid ""
 msgstr ""
 "Mixxx wordt geleverd met een set van :ref:`native effects <effects>` of "
 "systeemeigen effecten. Bovendien kunt u met behulp van de :ref:`externe "
-"mixer-modus <intro-how-mixxx-works>` elk deck rechtstreeks naar de 3rd "
-"party-effecten hosts leiden."
+"mixer-modus <intro-how-mixxx-works>` elk deck rechtstreeks naar de 3rdparty-"
+"effecten hosts leiden."
 
 #: ../../chapters/advanced_topics.rst:159
 msgid ""
@@ -587,7 +623,7 @@ msgstr "Effecten via AU Lab op macOS"
 
 #: ../../chapters/advanced_topics.rst:172
 msgid "The Au Lab routing for external effects"
-msgstr ""
+msgstr "The Au Lab routering voor externe effecten"
 
 #: ../../chapters/advanced_topics.rst:172
 msgid "The Au Lab routing for external effects on macOS"
@@ -607,12 +643,17 @@ msgid ""
 "<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, a system "
 "extension for inter-application audio routing."
 msgstr ""
+"Installeer het gratis `SoundflowerBed "
+"<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, een "
+"systeem-uitbreiding voor routering van audio tussen applicaties."
 
 #: ../../chapters/advanced_topics.rst:179
 msgid ""
 "Install the free digital audio mixing application `AU Lab "
 "<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 msgstr ""
+"Installeer de gratis digital audio mixing applicatie `AU Lab "
+"<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 
 #: ../../chapters/advanced_topics.rst:182
 msgid ""
@@ -633,6 +674,12 @@ msgid ""
 "<http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that "
 "hosts Audio Unit instruments and effect plugins."
 msgstr ""
+"Als alternatief kan u `Blackhole proberen, "
+"<https://github.com/ExistentialAudio/BlackHole>`_, een moderne virtuele "
+"audio besturing die applicaties toestaat om audio door te sturen naar andere"
+" applicaties zonder additionele :term:`latency`, en `Hosting AU "
+"<http://ju-x.com/hostingau.html>`_, een gratis minuscule :term:`DAW` die "
+"Audio Unit instrumenten en effect invoegtoepassingen bevat."
 
 #: ../../chapters/advanced_topics.rst:192
 msgid "**In Mixxx**"
@@ -703,6 +750,8 @@ msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
 "menu, for example :menuselection:`Apple --> AUCompressor`"
 msgstr ""
+"In het :guilabel:`Output 1` kanaal, selecteer een effect uit het drop-down "
+"menu, bijvoorbeeld :menuselection:`Apple --> AUCompressor`"
 
 #: ../../chapters/advanced_topics.rst:213
 msgid "The effect should now react if you play a track in Mixxx."
@@ -714,7 +763,7 @@ msgstr "Effecten via JACK Rack op GNU/Linux"
 
 #: ../../chapters/advanced_topics.rst:225
 msgid "The Jack routing for external effects"
-msgstr ""
+msgstr "De Jack routering voor externe effecten"
 
 #: ../../chapters/advanced_topics.rst:225
 msgid "The Jack routing for external effects on GNU/Linux"
@@ -746,7 +795,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:240
 msgid "Migrate your Mixxx library and settings to a new computer"
-msgstr ""
+msgstr "Migreer uw Mixxx bibliotheek en voorkeuren naar een nieuwe computer"
 
 #: ../../chapters/advanced_topics.rst:242
 msgid ""
@@ -754,6 +803,10 @@ msgid ""
 "computer, you can take your existing Mixxx setup with you. This includes "
 "your track library, settings, controller mappings and broadcast profiles."
 msgstr ""
+"Wanneer u een nieuwe computer in gebruik neemt, of wanneer u een nieuw "
+"besturingssysteem installeert op dezelfde computer, dan kan u uw bestaande "
+"Mixxx installatie meenemen. Dit omvat uw track bibliotheek, instellingen, "
+"controller toewijzingen en broadcast profielen."
 
 #: ../../chapters/advanced_topics.rst:244
 msgid ""
@@ -762,10 +815,15 @@ msgid ""
 "settings-files>` and the music directories you imported into your Mixxx "
 "library via :menuselection:`Preferences --> Library`."
 msgstr ""
+"U hoeft niet noodzakelijkerwijs in staat te zijn om uw vorige Mixxx "
+"installatie op te starten, noodzakelijk zijn enkel de :ref:`instellingen map"
+" <appendix-settings-files>` en de muziek mappen die u in uw Mixxx "
+"bibliotheek heeft geïmporteerd via :menuselection:`Voorkeuren --> "
+"BibliotheekLibrary`."
 
 #: ../../chapters/advanced_topics.rst:247
 msgid "Preparation"
-msgstr ""
+msgstr "Voorbereiding"
 
 #: ../../chapters/advanced_topics.rst:249
 msgid ""
@@ -776,30 +834,42 @@ msgid ""
 "settings file: open :file:`mixxx.cfg` with a text editor, delete the line "
 "with :file:`RescanOnStartup` and save the file."
 msgstr ""
+"Wanner u nog steeds toegang heeft tot uw Mixxx installatie, open Mixxx, ga "
+"naar :menuselection:`Voorkeuren --> Bibliotheek` en deactiveer "
+":guilabel:`Her-scan bij opstarten`. Indien u Mixxx niet langer kan "
+"opstarten, bv. indien u er enkel in slaagde uw instellingen map te "
+"recupereren, dan kan u dit manueel doen in het instellingen bestand: open "
+":file:`mixxx.cfg` met een tekst editor, verwijder de lijn "
+"met:file:`RescanOnStartup` en bewaar het bestand."
 
 #: ../../chapters/advanced_topics.rst:250
 msgid ""
 "Make a copy of both the Mixxx settings directory and your music directories."
 " Put all in a save place. **Do not restructure your music directories!**"
 msgstr ""
+"Maak een kopie van zowel de Mixxx instellingen map en uw muziek mappen. "
+"Plaats deze allemaal op een veilige plaats. **Verander niets aan de mappen-"
+"structuur van uw muziekmappen!**"
 
 #: ../../chapters/advanced_topics.rst:251
 msgid "Install your new operating system, get your new PC ready."
-msgstr ""
+msgstr "Installeer uw nieuw besturingssysteem, maak uw PC klaar."
 
 #: ../../chapters/advanced_topics.rst:252
 msgid ""
 "Get the current stable Mixxx version from `the official download page "
 "<https://mixxx.org/download/>`_."
 msgstr ""
+"Download the laatste stabiele versie van Mixxx van `de officiële download "
+"pagina <https://mixxx.org/download/>`_."
 
 #: ../../chapters/advanced_topics.rst:253
 msgid "Install Mixxx, though **don't run it, yet!**"
-msgstr ""
+msgstr "Installeer Mixxx, maar **start Mixxx nog niet op!**"
 
 #: ../../chapters/advanced_topics.rst:256
 msgid "Migration"
-msgstr ""
+msgstr "Migratie"
 
 #: ../../chapters/advanced_topics.rst:258
 msgid ""
@@ -808,14 +878,18 @@ msgid ""
 "previously, make sure to rename or delete your existing settings directory "
 "in order to avoid any file conflicts."
 msgstr ""
+"Kopieer uw Mixxx instellingenmap naar de gepaste locatie, zie "
+":ref:`appendix-settings-files`. In geval u Mixxx reeds voordien opgestart "
+"heeft hernoem of verwijder dan de bestaande instellingenmap om "
+"bestandsconflicten te vermijden."
 
 #: ../../chapters/advanced_topics.rst:259
 msgid "Copy your music directories to the new computer."
-msgstr ""
+msgstr "Kopieer uw muziek mappen naar de nieuwe omputer."
 
 #: ../../chapters/advanced_topics.rst:260
 msgid "Start Mixxx."
-msgstr ""
+msgstr "Start Mixxx."
 
 #: ../../chapters/advanced_topics.rst:261
 msgid ""
@@ -823,12 +897,17 @@ msgid ""
 "not ask you for your music directories and all your settings should be as "
 "before."
 msgstr ""
+"Indien u uw instellingen map op de juiste locatie heeft geplaatst dan zal "
+"Mixxx niet vragen naar uw muziekmappen en al uw instellingen zouden moeten "
+"zijn zoals ze voordien waren."
 
 #: ../../chapters/advanced_topics.rst:262
 msgid ""
 "Go to :menuselection:`Preferences --> Library` and **Relink** each of your "
 "music directories as described in :ref:`configuration-import`."
 msgstr ""
+"Ga naar :menuselection:`Voorkeuren --> Bibliotheek` en **Her-link** elk van "
+"uw muziek mappen zoals beschreven in :ref:`configuration-import`."
 
 #: ../../chapters/advanced_topics.rst:264
 msgid ""
@@ -838,10 +917,16 @@ msgid ""
 " that this will obviously not include your external libraries (iTunes, "
 "Traktor etc.), you need to configure those again."
 msgstr ""
+"Nu moeten al uw muziek bestanden beschikbaar zijn, al uw afspeellijsten, "
+"kratten en de geschiedenis zijn hersteld. Een bibliotheek her-scan is niet "
+"vereist. Configureer een sound output en test of u alle tracks zoals "
+"voordien kan afspelen. Let op: dit houdt natuurlijk geenszins rekening met "
+"de externe bibliotheken (iTunes, Traktor etc.), deze dient u opnieuw te "
+"configureren."
 
 #: ../../chapters/advanced_topics.rst:267
 msgid "Known issues"
-msgstr ""
+msgstr "Gekende problemen"
 
 #: ../../chapters/advanced_topics.rst:269
 msgid ""
@@ -853,3 +938,11 @@ msgid ""
 "track individually with the cue shift buttons in the beatgrid editing "
 "controls section, see :ref:`interface-waveform`."
 msgstr ""
+"Indien u migreerde naar een ander besturingssysteem, een andere versie van "
+"besturingssysteem of een andere Mixxx versie, dan kunnen de gebruikte audio "
+"decoders gewijzigd zijn. Dit kan als gevolg hebben dat beatgrids en cue "
+"punten verschoven lijken, bv. ze zijn verschoven ten opzichte van de "
+"gewenste punten in de audio stream. Helaas is er nog geen automatische "
+"oplossing beschikbaar, nog niet. U dient voor elke track de cue punten te "
+"verschuiven in de beat grid met de cue shift toetsen die zich in de beatgrid"
+" editeer besturingen bevinden, zie :ref:`interface-waveform`."
