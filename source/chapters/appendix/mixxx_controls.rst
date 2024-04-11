@@ -2822,6 +2822,62 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
 
+.. mixxx:control:: [ChannelN],stars_up
+                   [PreviewDeckN],stars_up
+
+   Increase the track rating by one star.
+
+   :range: Binary
+   :feedback: Track rating changes in the library view.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],stars_down
+                   [PreviewDeckN],stars_down
+
+   Decrease the track rating by one star.
+
+   :range: Binary
+   :feedback: Track rating changes in the library view.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],track_color_prev
+                   [PreviewDeckN],track_color_prev
+
+   Set color of loaded track to previous color in palette.
+
+   :range: Binary
+   :feedback: Track color changes in the library view.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],track_color_next
+                   [PreviewDeckN],track_color_next
+
+   Set color of loaded track to next color in palette.
+
+   :range: Binary
+   :feedback: Track color changes in the library view.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [ChannelN],track_color_selector
+                   [PreviewDeckN],track_color_selector
+
+   Select color of loaded track in the color palette. < 0 goes up the list, > 0 goes down. Wraps around at the top and bottom.
+
+   :range: Binary
+   :feedback: Track color changes in the library view.
+
+   .. versionadded:: 2.4.0
+
+
+
 .. _appendix-mixxxcontrols-samplers:
 
 Global Sampler controls
@@ -3500,6 +3556,16 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :feedback: Track color changes in the library view.
 
    .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [Library],track_color_selector
+
+   Select color of selected track in the color palette. < 0 goes up the list, > 0 goes down. Wraps around at the top and bottom.
+
+   :range: Binary
+   :feedback: Track color changes in the library view.
+
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [Library],search_history_next
