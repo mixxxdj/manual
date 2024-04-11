@@ -2822,28 +2822,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
 
-.. mixxx:control:: [ChannelN],stars_up
-                   [PreviewDeckN],stars_up
-
-   Increase the track rating by one star.
-
-   :range: Binary
-   :feedback: Track rating changes in the library view.
-
-   .. versionadded:: 2.4.0
-
-
-.. mixxx:control:: [ChannelN],stars_down
-                   [PreviewDeckN],stars_down
-
-   Decrease the track rating by one star.
-
-   :range: Binary
-   :feedback: Track rating changes in the library view.
-
-   .. versionadded:: 2.4.0
-
-
 .. mixxx:control:: [ChannelN],track_color_prev
                    [PreviewDeckN],track_color_prev
 
