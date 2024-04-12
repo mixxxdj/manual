@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2024-04-12 09:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4569,7 +4569,7 @@ msgid "Use the JavaScript ``engine.scratch`` functions instead."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:4350
-msgid "Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative)."
+msgid "Affects playback speed and direction (`differently whether currently playing or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative)."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:4363
