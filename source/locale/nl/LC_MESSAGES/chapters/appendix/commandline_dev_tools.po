@@ -219,11 +219,11 @@ msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:6
 msgid "Launching Mixxx from the Command Line"
-msgstr ""
+msgstr "Mixxx opstarten vanaf de opdrachtprompt"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:7
 msgid "To launch Mixxx using the command line:"
-msgstr ""
+msgstr "Om Mixxx op te starten vanaf de opdrachtprompt"
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:13
 msgid "**Windows**"
