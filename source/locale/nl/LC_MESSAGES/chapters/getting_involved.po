@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -228,8 +228,8 @@ msgid ""
 "constantly looking for more contributors."
 msgstr ""
 "Mixxx is een community-gedreven project waarbij vele DJ's wereldwijd "
-"betrokken zijn. Zonder de bijdragen van deze DJ's zou Mixxx niet bestaan, en"
-" we zijn voortdurend op zoek naar meer mensen die willen bijdragen."
+"betrokken zijn. Zonder de bijdragen van deze DJ's zou Mixxx niet bestaan en "
+"we zijn voortdurend op zoek naar meer mensen die willen bijdragen."
 
 #: ../../chapters/getting_involved.rst:12
 msgid ""
@@ -238,8 +238,8 @@ msgid ""
 "contribute**."
 msgstr ""
 "We willen het zo gemakkelijk mogelijk maken om betrokken te raken bij de "
-"ontwikkeling van Mixxx. Ten eerste, en om zeer duidelijk te zijn ** hoef je "
-"geen programmeur te zijn om bij te dragen**."
+"ontwikkeling van Mixxx. Ten eerste, om zeer duidelijk te zijn ** hoef je "
+"geen programmeur te zijn om bij te dragen aan Mixxx**."
 
 #: ../../chapters/getting_involved.rst:17
 msgid "As a non-developer"
@@ -256,22 +256,29 @@ msgstr ""
 #: ../../chapters/getting_involved.rst:21
 msgid "`Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 msgstr ""
+"`Make skins (thema's) <https://github.com/mixxxdj/mixxx/wiki/Creating-"
+"Skins>`_"
 
 #: ../../chapters/getting_involved.rst:22
 msgid ""
 "`Make MIDI mappings <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_ for your controller"
 msgstr ""
+"`Make MIDI toewijzingsbestanden <https://github.com/mixxxdj/mixxx/wiki/MIDI-"
+"Controller-Mapping-File-Format>`_ voor uw controller"
 
 #: ../../chapters/getting_involved.rst:25
 msgid "`Report bugs <https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
+"`Meldt fouten en problemen <https://github.com/mixxxdj/mixxx/issues>`_"
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
 "Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the "
 "information on it is up to date."
 msgstr ""
+"Update onze `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ om zeker te zijn"
+" dat de informatie er op up-to-date blijft."
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
@@ -286,6 +293,8 @@ msgid ""
 "Answer questions on the `Help & Support Forum "
 "<https://mixxx.discourse.group/c/support/6>`_"
 msgstr ""
+"Beantwoord vragen op het `Help & Ondersteuning Forum "
+"<https://mixxx.discourse.group/c/support/6>`_"
 
 #: ../../chapters/getting_involved.rst:32
 msgid ""
@@ -295,7 +304,8 @@ msgid ""
 msgstr ""
 "Help Mixxx te promoten: Als je een blog hebt, schrijf dan een artikel over "
 "Mixxx. Blog over onze nieuwe releases als ze uitkomen. Elke vermelding op "
-"het web en in print helpt ons project groeien, en wordt zeer gewaardeerd."
+"het web en in gedrukte media helpt ons project groeien, en wordt ten zeerste"
+" gewaardeerd."
 
 #: ../../chapters/getting_involved.rst:35
 msgid "Send us some photos of you using Mixxx at a gig!"
@@ -312,8 +322,8 @@ msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
 msgstr ""
-"Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die tijdens het "
-"leerproces van C++ in de Mixxx-ontwikkeling zijn gestapt."
+"Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die in de Mixxx-"
+"ontwikkeling zijn gestapt terwijl ze C++ aan het leren waren."
 
 #: ../../chapters/getting_involved.rst:42
 msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
@@ -334,12 +344,17 @@ msgid ""
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
+"Registreer een account op ons ontwikkelingsplatform `Github "
+"<https://github.com/mixxxdj>`_ en 'fork' onze code. Zie `Gebruik Git voor "
+"Mixxx Ontwikkeling <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 
 #: ../../chapters/getting_involved.rst:48
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Leer de code kennen, kies een probleem uit de 'gemakkelijke problemenlijst' "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:50
 msgid ""
@@ -347,7 +362,7 @@ msgid ""
 "do it."
 msgstr ""
 "Krijg hulp bij het oplossen van de bug op: term: `Zulip`, praat met ons over"
-" de beste manier om dit te doen."
+" de beste manier om dit te doen. "
 
 #: ../../chapters/getting_involved.rst:53
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
@@ -358,6 +373,8 @@ msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Pick a bug off of the `Easy Bug List "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:57
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."

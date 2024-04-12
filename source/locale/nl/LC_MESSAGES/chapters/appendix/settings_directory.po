@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:6
 msgid "The Mixxx Settings Directory"
-msgstr ""
+msgstr "De Mixxx Instellingen Map"
 
 #: ../../chapters/appendix/settings_directory.rst:11
 msgid ""
@@ -223,10 +227,13 @@ msgid ""
 "Mixxx installation. If you want to make a backup of your library and all "
 "preferences copy the entire directory to a safe place."
 msgstr ""
+"De Mixxx instellingen map bevat alle gebruikersbestanden en instellingen van"
+" uw Mixxx installatie. Indien u een backup wil maken van uw bibliotheek en "
+"al uw voorkeuren, kopieer dan de hele map naar een veilige locatie."
 
 #: ../../chapters/appendix/settings_directory.rst:14
 msgid "Location"
-msgstr ""
+msgstr "Locatie"
 
 #: ../../chapters/appendix/settings_directory.rst:16
 msgid ""
@@ -236,6 +243,10 @@ msgid ""
 "to the bottom of the page and click on :guilabel:`Open Mixxx Settings "
 "Directory`."
 msgstr ""
+"U kan manueel naar de instellingen map navigeren met volgende beschrijving. "
+"Sins Mixxx 2.3 kan u deze map ook openen in uw verkenner vanuit Mixxx: ga "
+"naar :menuselection:`Voorkeuren --> Bibliotheek`, scroll naar het einde van "
+"de pagina en click op :guilabel:`Open Mixxx Instellingen Map`."
 
 #: ../../chapters/appendix/settings_directory.rst:18
 msgid ""
@@ -243,6 +254,10 @@ msgid ""
 "directories beginning with a dot '.' on Linux. So if you have not already, "
 "you will need to set your file manager to show hidden files and folders."
 msgstr ""
+"In Windows wordt de :file:`AppData` map verborgen, alsook alle bestanden en "
+"mappen die starten met een punt '.' in Linux. Dus, indien u dit nog niet "
+"heeft gedaan, moet de instellingen in uw verkenner wijzigen om alle "
+"verborgen bestanden en mappen weer te geven."
 
 #: ../../chapters/appendix/settings_directory.rst:27
 msgid "**Windows**"
@@ -256,18 +271,23 @@ msgstr ""
 msgid ""
 "Copy this and paste it into the location bar of a Computer or Folder window."
 msgstr ""
+"Kopieer dit en plak dit in de locatie balk van een Computer of Map venster."
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "``%LOCALAPPDATA%`` is then resolved to ``C:\\Users\\<your-"
 "username>\\AppData\\Local``"
 msgstr ""
+"``%LOCALAPPDATA%`` wordt dan aangepast naar ``C:\\Users\\<your-"
+"username>\\AppData\\Local``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid ""
 "Use ``%USERPROFILE%\\Local Settings\\Application Data\\Mixxx`` if you want "
 "to migrate your settings from XP or earlier."
 msgstr ""
+"Gebruik ``%USERPROFILE%\\Local Settings\\Application Data\\Mixxx`` als u uw "
+"instellingen wil migreren vanuit XP of een eerdere versie."
 
 #: ../../chapters/appendix/settings_directory.rst:31
 msgid "**macOS**"
@@ -281,7 +301,7 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
-msgstr ""
+msgstr "Mixxx 2.2 en eerder: ``~/Library/Application Support/Mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:39
 msgid "**Linux**"
@@ -289,7 +309,7 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "For distribution packages, or Mixxx installed from source:"
-msgstr ""
+msgstr "Voor distributie pakketten, of Mixxx geïnstalleerd vanuit de bron:"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "``~/.mixxx/``"
@@ -297,11 +317,11 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "This resolves to ``/home/<your-username>/.mixxx``"
-msgstr ""
+msgstr "Dit wordt dan aangepast naar ``/home/<your-username>/.mixxx``"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "For Flatpak:"
-msgstr ""
+msgstr "Voor Flatpak:"
 
 #: ../../chapters/appendix/settings_directory.rst:0
 msgid "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
@@ -309,11 +329,11 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:42
 msgid "Content"
-msgstr ""
+msgstr "Inhoud"
 
 #: ../../chapters/appendix/settings_directory.rst:48
 msgid "**analysis**"
-msgstr ""
+msgstr "**analyse**"
 
 #: ../../chapters/appendix/settings_directory.rst:45
 msgid ""
@@ -322,14 +342,19 @@ msgid ""
 "recreated each time a track is loaded into a Mixxx deck. Thus it does not "
 "belong to the essential data that needs to be backed up."
 msgstr ""
+"Dit bevat alle waveform analyse data. Dit wordt gebruikt om de scrolling "
+"waveform van een track en het track overzicht te maken. Indien niet bestaand"
+" zal de data elke keer opnieuw aangemaakt worden wanneer een track wordt "
+"geladen in een Mixxx deck. Dit behoort dus niet tot de essentiële data die "
+"moet worden geback-upt."
 
 #: ../../chapters/appendix/settings_directory.rst:51
 msgid "**broadcast_profiles**"
-msgstr ""
+msgstr "**broadcast_profielen**"
 
 #: ../../chapters/appendix/settings_directory.rst:51
 msgid "All broadcast profiles you have configured."
-msgstr ""
+msgstr "Alle broadcast profielen die u heeft geconfigureerd."
 
 #: ../../chapters/appendix/settings_directory.rst:57
 msgid "**controllers**"
@@ -342,6 +367,11 @@ msgid ""
 " modified in :guilabel:`Preferences` > :guilabel:`Controllers` > "
 ":guilabel:`YourController` manually or with the MIDI Wizard."
 msgstr ""
+"Alle controller verbindingen die u heeft opgeslagen. Deze kunnen worden "
+"gedownload en :ref:`self-built mappings <advanced-controller>`, alsook de "
+"ingebouwde controller-verbindingen die u manueel of met de MIDI Wizard heeft"
+" aangepast in :guilabel:`Voorkeuren` > :guilabel:`Controllers` > "
+":guilabel:`YourController`."
 
 #: ../../chapters/appendix/settings_directory.rst:60
 msgid "**effects.xml**"
@@ -352,6 +382,8 @@ msgid ""
 "The current configuration of the 4 effect units, incl. the state of all "
 "controls."
 msgstr ""
+"De huidige configuratie van de 4 effect units, incl. de staat van allen "
+"controls."
 
 #: ../../chapters/appendix/settings_directory.rst:64
 msgid "**mixxx.cfg**"
@@ -362,6 +394,8 @@ msgid ""
 "Everything you configured in the Preferences, deck settings, skin settings, "
 "AutoDJ configuration, effect routing etc."
 msgstr ""
+"Alles wat u geconfigureerd heeft in Voorkeuren, deck instellingen, skin "
+"instellingen, AutoDJ configuratie, effect routing etc."
 
 #: ../../chapters/appendix/settings_directory.rst:68
 msgid "**mixxx.log[.NN]**"
@@ -372,6 +406,8 @@ msgid ""
 "Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
 "recent one, followed by ``mixxx.log.1`` etc."
 msgstr ""
+"Log bestanden van de laatste paar Mixxx sessies, van welke ``mixxx.log`` de "
+"meest recente is, gevolgd door ``mixxx.log.1`` etc."
 
 #: ../../chapters/appendix/settings_directory.rst:72
 msgid "**mixxxdb.sqlite**"
@@ -382,6 +418,8 @@ msgid ""
 "The Mixxx library database. All track locations, all track metadata, saved "
 "cues, loops, colors, playlists, crates, ..."
 msgstr ""
+"De Mixxx bibliotheek database. Alle track locaties, alle track metadata, "
+"bewaarde cues, lussen, kleuren, afspeellijsten, kratten, ..."
 
 #: ../../chapters/appendix/settings_directory.rst:75
 msgid "**samplers.xml**"
@@ -389,7 +427,7 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:75
 msgid "Stores tracks currently loaded to sample decks."
-msgstr ""
+msgstr "Bewaart de tracks die momenteel in de sample decks geladen zijn."
 
 #: ../../chapters/appendix/settings_directory.rst:78
 msgid "**sandbox.cfg**"
@@ -399,6 +437,8 @@ msgstr ""
 msgid ""
 "This is used under macOS to track which files Mixxx will have access to"
 msgstr ""
+"Dit wordt gebruikt in macOS om te bepalen tot welke bestanden Mixxx toegang "
+"zal hebben"
 
 #: ../../chapters/appendix/settings_directory.rst:80
 msgid "**soundconfig.xml**"
@@ -406,4 +446,4 @@ msgstr ""
 
 #: ../../chapters/appendix/settings_directory.rst:81
 msgid "Sound device configuration from Preferences > Sound Hardware"
-msgstr ""
+msgstr "Geluidsapparaat configuratie van Voorkeuren > Sound Hardware"

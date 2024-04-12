@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -219,25 +223,31 @@ msgstr ""
 
 #: ../../chapters/preferences/equalizers.rst:18
 msgid "Equalizer Preferences"
-msgstr ""
+msgstr "Equalizer Voorkeuren"
 
 #: ../../chapters/preferences/equalizers.rst:20
 msgid ""
 ":menuselection:`Preferences --> Equalizer` allows you to setup the "
 "equalizers."
 msgstr ""
+":menuselection:`Voorkeuren --> Equalizer` staat u toe om de equalizers in te"
+" stellen."
 
 #: ../../chapters/preferences/equalizers.rst:22
 msgid ""
 "**Equalizer Rack**: The Equalizer Rack is a special effect rack that is "
 "connected to the deck's equalizer and filter controls."
 msgstr ""
+"**Equalizer Rack**: De Equalizer Rack is een especiaal effect rack dat "
+"verbonden is met de equalizer en filter besturingselementen van het deck."
 
 #: ../../chapters/preferences/equalizers.rst:25
 msgid ""
 "In this section you can select the equalizers and quick effects that are "
 "used with the decks."
 msgstr ""
+"In dit onderdeel kan u de equalizers en de effecten selecteren die gebruikt "
+"worden met de decks."
 
 #: ../../chapters/preferences/equalizers.rst:28
 msgid ""
@@ -246,6 +256,11 @@ msgid ""
 "Unchecking :menuselection:`Only allow EQ knobs to control EQ specific "
 "effects` allows you to select any other effect."
 msgstr ""
+"**Equalizer Plugin**: Hier kan u de het effect selecteren dat gebruikt wordt"
+" als mixing EQ in elk deck. Standaard worden enkel de ingebouwde equalizers "
+"getoond. Door de :menuselection:`Enkel EQ knoppen toestaan voor EQ "
+"specifieke effecten` uit te vinken wordt u toegestaan om eender welk ander "
+"effect te gebruiken."
 
 #: ../../chapters/preferences/equalizers.rst:33
 msgid ""
@@ -253,6 +268,10 @@ msgid ""
 "dedicated filter knob in each deck. By default only built-in filter effects "
 "are selected for all decks, but that can be changed as above."
 msgstr ""
+"**Quick Effect**: Hier kan u het effect selecteren dat gecontroleerd wordt "
+"met de toegewezen filter knop in elk deck. Standaard worden enkel ingebouwde"
+" filter effecten geselecteerd voor alle decks, maar dat kan gewijzigd worden"
+" zoals hierboven beschreven is."
 
 #: ../../chapters/preferences/equalizers.rst:37
 msgid ""
@@ -262,12 +281,19 @@ msgid ""
 " bass range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz."
 " The remaining treble range is controlled by the high knob."
 msgstr ""
+"**High/Low Shelf EQ**: Deze glijder stelt de crossover frequenties in van de"
+" mixing EQ. Het regelt welk frequentiebereik beïnvloedt wordt met de low, "
+"mid, en high kanaal EQ knoppen. Standaard controleert de low knop het bass "
+"en sub bass bereik tot 246 Hz. De mid knop beïnvloedt het mid bereik tot 2.5"
+" kHz. Het overgebleven treble bereik wordt met de high knop beïnvloed."
 
 #: ../../chapters/preferences/equalizers.rst:43
 msgid ""
 "**Master EQ**: This section allows you to setup an EQ that affects the "
 "term:`main output`."
 msgstr ""
+"**Master EQ**: Dit onderdeel staat u toe om een EQ in te stellen die de "
+"term:`main output` beïnvloedt."
 
 #: ../../chapters/preferences/equalizers.rst:48
 msgid "Mixing Equalizers"
@@ -281,6 +307,11 @@ msgid ""
 "shelf filter. Each EQ type has a unique sound, so try them out to find out "
 "which one you prefer."
 msgstr ""
+"Mixxx biedt drie soorten mixing equalizers met een volledige demp optie. "
+"Deze equalizers zijn \"isolators\", aangepast van analoge crossover "
+"netwerken. Elke EQ is een combinatie van een high shelf filter, een band "
+"pass filter, en een low shelf filter. Elk EQ type heeft een unieke sound, "
+"dus probeer ze uit om uit te vinden welke u verkiest.."
 
 #: ../../chapters/preferences/equalizers.rst:56
 msgid ""
@@ -288,6 +319,9 @@ msgid ""
 "sound or take any processing time when their knobs are in the center "
 "position. They activate once you adjust an EQ knob."
 msgstr ""
+"De Bessel EQs met Lipshitz en Vanderkooy Mix (LV-Mix) veranderen het geluid "
+"niet en nemen geen verwerkingstijd wanneer hun knoppen in de centrum positie"
+" staan. Ze worden geactiveerd van zodra u een EQ knop regelt."
 
 #: ../../chapters/preferences/equalizers.rst:60
 msgid ""
@@ -295,10 +329,13 @@ msgid ""
 "sounding phase shift to the sound. Their processing time does not change "
 "when you adjust the EQ knobs."
 msgstr ""
+"De Linkwitz-Riley EQ aan de andere kant past steeds een minimale, natuurlijk"
+" klinkende phase shift toe op het geluid. Hun verwerkingstijd verandert niet"
+" wanneer u de EQ knoppen regelt."
 
 #: ../../chapters/preferences/equalizers.rst:64
 msgid "The following table compares some technical parameters:"
-msgstr ""
+msgstr "De volgende tabel vergelijkt enkele technische parameters:"
 
 #: ../../chapters/preferences/equalizers.rst:67
 msgid "Type"
@@ -322,7 +359,7 @@ msgstr ""
 
 #: ../../chapters/preferences/equalizers.rst:67
 msgid "CPU usage"
-msgstr ""
+msgstr "CPU gebruik"
 
 #: ../../chapters/preferences/equalizers.rst:69
 msgid "Bessel4 LV-Mix"
@@ -330,7 +367,7 @@ msgstr ""
 
 #: ../../chapters/preferences/equalizers.rst:69
 msgid "soft"
-msgstr ""
+msgstr "zacht"
 
 #: ../../chapters/preferences/equalizers.rst:69
 msgid "-24 db/Oct"
@@ -339,12 +376,12 @@ msgstr ""
 #: ../../chapters/preferences/equalizers.rst:69
 #: ../../chapters/preferences/equalizers.rst:71
 msgid "linear"
-msgstr ""
+msgstr "lineair"
 
 #: ../../chapters/preferences/equalizers.rst:69
 #: ../../chapters/preferences/equalizers.rst:71
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 #: ../../chapters/preferences/equalizers.rst:69
 msgid "low"
@@ -377,7 +414,7 @@ msgstr ""
 
 #: ../../chapters/preferences/equalizers.rst:73
 msgid "no"
-msgstr ""
+msgstr "neen"
 
 #: ../../chapters/preferences/equalizers.rst:73
 msgid "high"
@@ -386,29 +423,37 @@ msgstr ""
 #: ../../chapters/preferences/equalizers.rst:76
 msgid "cut: the frequency response (curve form) at the cross over frequency."
 msgstr ""
+"cut: het frequentie antwoord (vorm van de curve) aan de cross over "
+"frequentie."
 
 #: ../../chapters/preferences/equalizers.rst:77
 msgid "roll-off: The steepness of the EQ bands."
-msgstr ""
+msgstr "roll-off: The steilheid van de EQ banden."
 
 #: ../../chapters/preferences/equalizers.rst:78
 msgid ""
 "linear phase: No phase distortion, all frequencies are processed with the "
 "same group delay."
 msgstr ""
+"lineaire phase: Geen phase distortion, alle frequenties worden verwerkt met "
+"de "
 
 #: ../../chapters/preferences/equalizers.rst:80
 msgid ""
 "minimum phase: A natural phase distortion, the group delay changes by the "
 "frequency."
 msgstr ""
+"minimum phase: Een natuurlijke phase distortion, de group delay wijzigt door"
+" de "
 
 #: ../../chapters/preferences/equalizers.rst:82
 msgid ""
 "bit perfect: Whether the EQ leaves the original samples untouched when the "
 "EQ is at unity."
 msgstr ""
+"bit perfect: Of de EQ het origineel aantal samples onaangeraakt laat of niet"
+" wanneer de EQ op eenheid staat."
 
 #: ../../chapters/preferences/equalizers.rst:84
 msgid "CPU usage: Processing time needed to calculate the EQ output."
-msgstr ""
+msgstr "CPU gebruik: Verwerkingstijd nodig om de EQ output te berekenen."

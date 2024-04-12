@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -215,21 +219,23 @@ msgstr ""
 
 #: ../../chapters/preferences/library.rst:4
 msgid "Library"
-msgstr ""
+msgstr "Bibliotheek"
 
 #: ../../chapters/preferences/library.rst:9
 msgid "Changing music directories"
-msgstr ""
+msgstr "Muziek mappen wijzigen"
 
 #: ../../chapters/preferences/library.rst:11
 msgid ""
 "You can manually add, relink, and remove Mixxx music directories in "
 ":menuselection:`Preferences --> Library`."
 msgstr ""
+"U kan in Mixxx manueel muziek mappen toevoegen, her-linken, en verwijderen "
+"in :menuselection:`Preferences --> Bibliotheek`."
 
 #: ../../chapters/preferences/library.rst:23
 msgid "**Add a new music directory**"
-msgstr ""
+msgstr "**Voeg een nieuwe muziek map toe**"
 
 #: ../../chapters/preferences/library.rst:15
 msgid ""
@@ -237,22 +243,31 @@ msgid ""
 "browse to a directory where your music is stored. Mixxx will watch this "
 "directory and its subdirectories for new tracks."
 msgstr ""
+"Mixxx kan meerdere musziek bibliotheek mappen beheren. Click "
+":guilabel:`Toevoegen` om te bladeren naar de map waar uw muziekbestanden "
+"opgeslagen zijn. Mixxx zal in deze map en haar submappen onderzoeken naar "
+"nieuwe tracks."
 
 #: ../../chapters/preferences/library.rst:19
 msgid ""
 "If you add a directory that is already in your library, or you are currently"
 " :ref:`rescanning your library <library-tracks>`, the operation is canceled."
 msgstr ""
+"Indien u een map toevoegt die zich reeds in uw bibliotheek bevindt, of "
+"wanneer u momenteel bezig bent met het :ref:`her-scannen van uw bibliotheek "
+"<library-tracks>`, wordt de opratie geannuleerd."
 
 #: ../../chapters/preferences/library.rst:22
 msgid ""
 "Directories can also be added from the :ref:`Computer <library-computer>` "
 "sidebar item inside the library."
 msgstr ""
+"Mappen kunnen ook toegevoegd worden vanuit de :ref:`Computer <library-"
+"computer>` zijbalk van de bibliotheek."
 
 #: ../../chapters/preferences/library.rst:41
 msgid "**Relink a existing music directory**"
-msgstr ""
+msgstr "**Her-link een bestaande muziek map*"
 
 #: ../../chapters/preferences/library.rst:26
 msgid ""
@@ -261,6 +276,11 @@ msgid ""
 "they can't be loaded on decks and the tracks will become missing after the "
 "library is rescanned."
 msgstr ""
+"Indien een bestaande muziek map verplaatst of hernoemd is dan weet Mixxx "
+"niet waar het de audiobestanden die erin zitten kan terugvinden. De tracks "
+"zullen nog steeds in de bibliotheek opgelijst staan maar ze kunnen niet in "
+"decks worden geladen en de tracks zullen als 'vermist' worden aangeduid "
+"wanneer de bibliotheek opnieuw wordt gescand"
 
 #: ../../chapters/preferences/library.rst:30
 msgid ""
@@ -269,6 +289,10 @@ msgid ""
 "location. This will re-establish the links to the audio files in the Mixxx "
 "library."
 msgstr ""
+"Om de muziek map te her-linken, ga naar :menuselection:`Voorkeuren --> "
+"Bibliotheek`, click :guilabel:`Her-Link` om de muziek map te selecteren op "
+"haar nieuwe locatie. Dit zal de verbindingen met de audiobestanden in de "
+"Mixxx bibliotheek opnieuw tot stand brengen."
 
 #: ../../chapters/preferences/library.rst:34
 msgid ""
@@ -277,6 +301,10 @@ msgid ""
 "column in the library and you should see that it now points to the new music"
 " directory."
 msgstr ""
+"Click :menuselection:`Bibliotheek --> Her-scan Bibliotheek`, dit zal de "
+"tracks updaten en ervoor zorgen dat ze opnieuw opduiken in de bibliotheek, "
+"controleer de locatie-kolom in de bibliotheek en u zal zien dat deze nu "
+"verwijst naar de nieuwe muziek map."
 
 #: ../../chapters/preferences/library.rst:38
 msgid ""
@@ -286,6 +314,12 @@ msgid ""
 "checking the :term:`Key <key>` and :term:`BPM <BPM>` columns to see if there"
 " is a key and BPM for every track."
 msgstr ""
+"De afspeellijsten, kratten, geschiedenis en alle trackdata zoals cue punten,"
+" waardering, opmerkingen etc. worden bewaard na het her-linken van de "
+"bibliotheek. The tracks worden ook niet opnieuw geannalyseerd vermits de "
+"cached analyse opnieuw gebruikt wordt. U kan dit controleren door de "
+":term:`Key <key>` en :term:`BPM <BPM>` kolommen na te kijken en te zien of "
+"er een key (toonsoort) en BPM voor elke track aanwezig is."
 
 #: ../../chapters/preferences/library.rst:43
 msgid ""
@@ -294,10 +328,15 @@ msgid ""
 "supported :term:`OS <operating system>` as well as detailed descriptions of "
 "all settings files, go to :ref:`appendix-settings-files`."
 msgstr ""
+"Het is aangeraden om een backup te maken van uw Mixxx configuratie bestanden"
+" alvorens muziek mappen die in Mixxx gebruikt worden te hernoemen of te "
+"verplaatsen. Voor de locaties in elk ondersteund :term:`OS <operating "
+"system>` alsook een gedetailleerde bechrijving van alle bestanden met "
+"instellingen, ga naar :ref:`appendix-settings-files`."
 
 #: ../../chapters/preferences/library.rst:62
 msgid "**Remove a music directory**"
-msgstr ""
+msgstr "**Verwijder een muziek map**"
 
 #: ../../chapters/preferences/library.rst:47
 msgid ""
@@ -305,29 +344,40 @@ msgid ""
 " subdirectories for new tracks, and asks what would you like to do with the "
 "tracks from these directories."
 msgstr ""
+"Click :guilabel:`Verwijder`, en Mixxx zal de muziek map en haar submappen "
+"niet langer onderzoeken naar nieuwe tracks, en zal vragen wat er dient te "
+"gebeuren met de tracks in deze mappen."
 
 #: ../../chapters/preferences/library.rst:51
 msgid ""
 "Select :guilabel:`Hide Tracks` to hide all tracks from this directory and "
 "subdirectories."
 msgstr ""
+"Selecteer :guilabel:`Verberg Tracks` om alle tracks van deze map en haar "
+"submappen te verbergen."
 
 #: ../../chapters/preferences/library.rst:53
 msgid ""
 "Select :guilabel:`Delete Track Metadata` to delete all metadata for these "
 "tracks from Mixxx permanently"
 msgstr ""
+"Selecteer :guilabel:`Verwijder Track Metadata` om alle metadata voor deze "
+"tracks permanent uit Mixxx te verwijderen."
 
 #: ../../chapters/preferences/library.rst:55
 msgid ""
 "Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in "
 "your library."
 msgstr ""
+"Selecteer :guilabel:`Laat Tracks Ongewijzigd` om de tracks ongewijzigd in uw"
+" bibliotheek te laten staan."
 
 #: ../../chapters/preferences/library.rst:58
 msgid ""
 "Hiding tracks saves their metadata in case you re-add them in the future."
 msgstr ""
+"Tracks verbergen bewaart hun metadata voor in het geval u deze opnieuw wil "
+"toevoegen in de toekomst."
 
 #: ../../chapters/preferences/library.rst:60
 msgid ""
@@ -335,9 +385,15 @@ msgid ""
 " beatgrids, hotcues, and loops. This choice only affects the Mixxx library. "
 "No files on disk will be changed or deleted."
 msgstr ""
+"Metadata betekent alle track details (artiest, titel, afspeelteller, etc.) "
+"alsook de  beat grids, hot cues, en lussen. Deze keuze beïnvloedt de Mixxx "
+"bibliotheek. Er worden geen bestanden op de schijf gewijzigd of verwijderd.."
 
 #: ../../chapters/preferences/library.rst:64
 msgid ""
 "When changing music directories, you might want to run a library rescan "
 "afterwards. Select :menuselection:`Library --> Rescan Library` in the menu."
 msgstr ""
+"Wanneer u muziek mappen wijzigt, dan start u nadien best een her-scan van de"
+" bibliotheek. Selecteer :menuselection:`Bibliotheek --> Her-scan "
+"Bibliotheek` in het menu."

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -219,7 +223,7 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:15
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Mixxx Sound Hardware Voorkeuren"
 
 #: ../../chapters/preferences/sound_hardware.rst:17
 msgid ""
@@ -228,6 +232,11 @@ msgid ""
 " determine Mixxx's responsiveness and reliability. The optimal settings will"
 " vary based on your computer and hardware quality."
 msgstr ""
+"Om de best mogelijke prestatie te behalen met Mixxx, is het essentieel om de"
+" *audio buffer*, *sample rate*, en *audio API* te configureren. Deze drie "
+"fac-toren bepalen in grote mate de snelheid en betrouwbaarheid van Mixxx.De "
+"optimale instellingen variëren afhankelijk van de kwaliteit van uw computer "
+"en hardware."
 
 #: ../../chapters/preferences/sound_hardware.rst:22
 msgid ""
@@ -237,6 +246,11 @@ msgid ""
 "output options. If you are using a microphone, refer to the "
 ":ref:`microphones` chapter."
 msgstr ""
+"Voor informatie aangaande de verschillende input en output opties, ga naar "
+":ref:`getting-started-sound-io`. Het :ref:`hardware` hoofdstuk legt uit "
+"welke de verschillende soorten DJ hardware er zijn en hoe deze dienen te "
+"worden ingesteld met de input en output opties. Indien u een microfoon "
+"gebruikt, ga naar het :ref:`microfoons` hoofdstuk."
 
 #: ../../chapters/preferences/sound_hardware.rst:30
 msgid "Audio Buffer"
@@ -252,6 +266,14 @@ msgid ""
 "stop the audio after you toggle the play button. The actual latency will be "
 "longer depending on a variety of factors."
 msgstr ""
+"De audio buffer is de hoeveelheid audio in milliseconds die Mixxx verwerkt "
+"in een tijdspanne. Dit is de meest bepalende factor van de latency "
+"(latentie) tussen het wijzigen van besturingselementen in Mixxx zoals het "
+"bewegen van de :term:`crossfader` of het drukken op de play toets en het "
+"horen van de wijziging in het geluid. Bijvoorbeeld, met een audio buffer van"
+" 23 ms, zal het ongeveer 23 milliseconds duren voor Mixxx om de audio te "
+"stoppen nadat u op de play toets gedrukt heeft. De actuele latency zal "
+"langer zijn afhankelijk van een verscheidenheid aan factoren"
 
 #: ../../chapters/preferences/sound_hardware.rst:40
 msgid ""
@@ -266,6 +288,17 @@ msgid ""
 "glitches. Experiment with different audio buffer sizes to find what works "
 "for your system."
 msgstr ""
+"De audio buffer instelling bepaalt hoe snel uw :term:`operating system` "
+"verwacht dat Mixxx reageert. Een kleinere audio buffer betekent dat Mixxx "
+"sneller reageert maar vereist een snellere CPU en een kwalitatieve audio "
+"interface. Wanneer u uw audio buffer te klein instelt kan dit te zwaar zijn "
+"voor uw computer en audio interface om te verwerken. In deze situatie zal "
+"het afspelen door Mixxx schokkerig en zeer duidelijk vervormd zijn vermits "
+"uw systeem niet in staat is om de hoge frequentie te volgen aan dewelke "
+"Mixxx de audio probeert te verwerken. Het is aangeraden om de audio buffer "
+"zo klein mogelijk in te stellen als wat uw systeem zonder fouten kan "
+"verwerken. Experimenteer met verschillende audio buffer groottes om uit te "
+"vinden welke instelling past bij uw systeem.."
 
 #: ../../chapters/preferences/sound_hardware.rst:50
 msgid ""
@@ -273,6 +306,10 @@ msgid ""
 " keyboard/mouse or a controller. An audio buffer below 10 ms is recommended "
 "when vinyl control is used because Mixxx will feel unresponsive otherwise."
 msgstr ""
+"Een audio buffer tussen 23-64 ms is acceptabel als u Mixxx gebruikt met een "
+"toetsenbord/muis of met een controller. Een audio buffer onder de 10 ms is "
+"aangewezen wanneer u met vinyl control werkt want Mixxx zal anders als niet-"
+"reagerend aanvoelen."
 
 #: ../../chapters/preferences/sound_hardware.rst:54
 msgid ""
@@ -281,6 +318,10 @@ msgid ""
 "the Mixxx Wiki has tips for different operating systems that may help you "
 "use a smaller audio buffer reliably."
 msgstr ""
+"De `Adjusting Audio Latency "
+"<https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_ pagina op "
+"de Mixxx Wiki bevat tips voor verschillende operating systemen en kan u "
+"helpen om een betrouwbare lagere audio buffer te vinden."
 
 #: ../../chapters/preferences/sound_hardware.rst:58
 msgid ""
@@ -290,6 +331,12 @@ msgid ""
 " think you have found a good buffer size for your system, play with Mixxx "
 "for at least a half hour before performing to ensure no glitches happen."
 msgstr ""
+"Uw systeem kan occasioneel een fout maken indien u uw audio buffer een klein"
+" beetje te laag ingesteld heeft. Dit kan gebeuren op onvoorspelbare momenten"
+" en u kan dit misschien niet merken wanneer u slechts korte testen uitvoert "
+"met elke audio buffer grootte. Wanneer u denkt de juiste grootte voor us "
+"systeem te hebben gevonden, speel met Mixxx voor minstens een half uur "
+"alvorens u met Mixxx \"live optreedt\" zodat er geen fouten kunnen optreden."
 
 #: ../../chapters/preferences/sound_hardware.rst:68
 msgid "Sample Rate"
@@ -305,6 +352,14 @@ msgid ""
 "rate, and playing music in a different sample rate than the audio file "
 "slightly reduces sound quality."
 msgstr ""
+"De sample rate instelling in Mixxx bepaalt hoeveel samples (audiodeeltjes) "
+"er per seconde worden geproduceerd door Mixxx. Dit bepaalt de maximale "
+"frequentie in het signaal van Mixxx, welke de helft van de sample rate is. "
+"Het menselijk gehoor gaat slechts tot 20 kHz, er is dus in het algemeen geen"
+" enkele reden om een sample rate hoger dan 44.1 kHz (44100 Hz) te gebruiken "
+"bij het afspelen. De meeste muziek wordt uitgegeven met een sample rate van "
+"44100 Hz, en muziek afspelen met een verschillende sample rate dan het audio"
+" bestand vermindert de geluidskwaliteit licht."
 
 #: ../../chapters/preferences/sound_hardware.rst:78
 msgid ""
@@ -312,6 +367,10 @@ msgid ""
 " do the same processing. Increasing the sample rate will increase CPU usage "
 "and likely raise the minimum audio buffer size you can use reliably."
 msgstr ""
+"Een sample rate van 96 kHz geeft uw computer minder dan de helft van de tijd"
+" om dezelfde verwerking uit te voeren als met een sample rate van 44.1 kHz. "
+"De sample rate verhogen zal ook het CPU gebruik verhogen en waarschijnlijk "
+"ook de minimum audio buffer grootte met dewelke u betrouwbaar kan werken."
 
 #: ../../chapters/preferences/sound_hardware.rst:87
 msgid "Sound API"
@@ -325,6 +384,11 @@ msgid ""
 "performance on your computer. **Therefore it is important to take care to "
 "choose the best Sound API available to you.**"
 msgstr ""
+"De Sound :term:`API` die Mixxx gebruikt is de methode met dewelke Mixxx "
+"communiceert met uw :term:`operating system` om audio te kunnen sturen naar "
+"uw audio interface. Uw keuze voor een Sound API kan de prestatie van Mixxx "
+"op uw computer drastisch beïnvloeden. **Daarom is het belangrijk om met zorg"
+" de juiste beschikbare Sound API te kiezen.**"
 
 #: ../../chapters/preferences/sound_hardware.rst:96
 msgid "Windows"
@@ -332,27 +396,27 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:97
 msgid "The following Sound APIs are available on Windows:"
-msgstr ""
+msgstr "De volgende Sound APIs zijn beschikbaar in Windows:"
 
 #: ../../chapters/preferences/sound_hardware.rst:99
 msgid "**ASIO**: Good"
-msgstr ""
+msgstr "**ASIO**: Goed"
 
 #: ../../chapters/preferences/sound_hardware.rst:100
 msgid "**WDM-KS**: Good"
-msgstr ""
+msgstr "**WDM-KS**: Goed"
 
 #: ../../chapters/preferences/sound_hardware.rst:101
 msgid "**WASAPI**: Acceptable"
-msgstr ""
+msgstr "**WASAPI**: Accepteerbaar"
 
 #: ../../chapters/preferences/sound_hardware.rst:102
 msgid "**DirectSound**: Poor"
-msgstr ""
+msgstr "**DirectSound**: Teleurstellend"
 
 #: ../../chapters/preferences/sound_hardware.rst:103
 msgid "**MME**: Poor"
-msgstr ""
+msgstr "**MME**: Teleurstellend"
 
 #: ../../chapters/preferences/sound_hardware.rst:105
 msgid ""
@@ -366,6 +430,18 @@ msgid ""
 "is generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a "
 "wrapper around the WDM-KS API."
 msgstr ""
+"Het is het beste om de ASIO Sound API te gebruiken, deze omzeilt de geluids-"
+"verwerking door de Windows kernel. Om ASIO te kunnen gebruiken is er een "
+"stuurprogramma van de fabrikant vereist voor uw audio interface. Controleer "
+"de website van de fabrikant om te zien of er een stuurprogramma beschikbaar "
+"is en u deze kan downloaden. Geluidskaarten die ontworpen zijn voor "
+"muzikanten hebben meestal een beschikbaar ASIO stuurprogramma, maar audio "
+"interfaces ingebouwd in computers en zeer goedkope audio interfaces hebben "
+"meestal geen ASIO stuurprogramma beschikbaar. Indien er geen ASIO "
+"stuurprogramma voor uw audio interface beschikbaar is, gebruik dan de WDM-KS"
+" API. In het algemeen is er geen voordeel te behalen bij het gebruik van de "
+"`ASIO4ALL <http://www.asio4all.org>`_, eigenlijk een wikkel om de WDM-KS "
+"API."
 
 #: ../../chapters/preferences/sound_hardware.rst:116
 msgid "GNU/Linux"
@@ -373,25 +449,28 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:117
 msgid "The following Sound APIs are available on GNU/Linux:"
-msgstr ""
+msgstr "De volgende Sound APIs zijn beschikbaar in GNU/Linux:"
 
 #: ../../chapters/preferences/sound_hardware.rst:119
 msgid "**ALSA**: Good"
-msgstr ""
+msgstr "**ALSA**: Goed"
 
 #: ../../chapters/preferences/sound_hardware.rst:120
 msgid "**JACK**: Good"
-msgstr ""
+msgstr "**JACK**: Goed"
 
 #: ../../chapters/preferences/sound_hardware.rst:121
 msgid "**OSS**: Acceptable"
-msgstr ""
+msgstr "**OSS**: Accepteerbaar"
 
 #: ../../chapters/preferences/sound_hardware.rst:123
 msgid ""
 "ALSA is the simplest sound API to configure. Using ALSA will prevent any "
 "other programs from using the audio interface(s) that Mixxx is using."
 msgstr ""
+"ALSA is de sound API die het simpelste te configureren is. Wanneer MixxALSA "
+"gebruikt dan alle andere programma's het gebruik van de audio interface(s) "
+"geweigerd."
 
 #: ../../chapters/preferences/sound_hardware.rst:126
 msgid ""
@@ -402,6 +481,13 @@ msgid ""
 "ALSA. To use JACK, start the JACK daemon *before* running Mixxx. Otherwise "
 "JACK will not appear as a Sound API in the preferences."
 msgstr ""
+"JACK staat u toe om audio te routeren tussen JACK-compatibele applicatiens "
+"op een flexibele manier en kan de output van verschillende programs "
+"tegelijkertijd weergeven. JACK kan echter gecompiceerd in te stellen zijn. "
+"Tenzij u Mixxx met een andere JACK-compatibele applicatie wil verbinden, "
+"biedt JACK geen voordelen ten opzichte van ALSA. Om JACK te gebruiken, start"
+" de JACK daemon *alvorens* Mixxx op te starten. Zoniet zal JACK niet "
+"verschijnen als een Sound API in de voorkeuren."
 
 #: ../../chapters/preferences/sound_hardware.rst:133
 msgid ""
@@ -416,6 +502,18 @@ msgid ""
 " you already use JACK, it is easiest to let Mixxx suspend PulseAudio and use"
 " ALSA."
 msgstr ""
+"De meeste moderne GNU/Linux distributies gebruiken standaard PulseAudio. "
+"Wanneer Mixxx vanuit een GUI menu of vanaf een icon wordt gestart, dan "
+"pauzeert Mixxx PulseAudio voor de duur dat het uitgevoerd wordt zodat Mixxx "
+"ALSA onmiddelijk kan gebruiken. Net als JACK, staat PulseAudio toe dat "
+"verschillende programma's tegelijkertijd toegang hebben tot één audio "
+"interface, maar PulseAudio en JACK hebben tegengestelde doelen in hun "
+"ontwikkeling. PulseAudio is ontwikkeld om gewoon computergebruik zoals "
+"online video's bekijken of muziek beluisteren gemakkelijk te maken terwijl "
+"JACK ontwikkeld is voor veeleisende 'low latency' audio programma's zoals "
+"Mixxx. Het kan moeilijk zijn om JACK en PulseAudio zó in te stellen dat ze "
+"samenwerken. Dus, tenzij u reeds JACK gebruikt, is het gemakkelijkst om "
+"Mixxx PulseAudio te laten pauzeren en ALSA te laten gebruiken."
 
 #: ../../chapters/preferences/sound_hardware.rst:143
 msgid ""
@@ -428,12 +526,23 @@ msgid ""
 " and back to ALSA, this adds an additional latency of ~2 x the selected "
 "audio buffer size."
 msgstr ""
+"Indien de PulseAudio plugin voor alsalibs geïnstalleerd is in GNU/Linux, dan"
+" kan u het virtual device ``pulse`` kiezen. Dit staat Mixxx toe om de "
+"standaard system audio interface te delen met andere media spelers. Dit "
+"werkt enkel wanneer Mixxx zonder pasuspender (pas-opschorting) wordt "
+"opgestart, dit kan u beter doen door :command:`mixxx` op te starten vanuit "
+"de console (opdrachtprompt) dan door te clicken op het starticoon in een "
+"menu of op uw desktop. Aangezien de sound stream dan wordt gerouteerd van "
+"ALSA naar Pulse en terug naar ALSA, vereist dit een additionele latency van "
+"~2x de geselec-teerde audio buffer size."
 
 #: ../../chapters/preferences/sound_hardware.rst:151
 msgid ""
 "OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS"
 " drivers."
 msgstr ""
+"OSS is een Sound API uit de tijd voor ALSA. Weinig moderne audio interfaces "
+"hebben nog stuurprogramma's voor OSS."
 
 #: ../../chapters/preferences/sound_hardware.rst:155
 msgid "macOS"
@@ -441,11 +550,11 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:156
 msgid "CoreAudio is the only Sound API on macOS."
-msgstr ""
+msgstr "CoreAudio is de enige Sound API in macOS."
 
 #: ../../chapters/preferences/sound_hardware.rst:159
 msgid "Other Sound Hardware options"
-msgstr ""
+msgstr "Andere Sound Hardware opties"
 
 #: ../../chapters/preferences/sound_hardware.rst:160
 msgid ""
@@ -456,6 +565,12 @@ msgid ""
 " used for the other audio interfaces to avoid buffer overflows or "
 "underflows."
 msgstr ""
+"**Multi-Soundcard Synchronisatie**: Mixxx heeft de mogelijkheid om twee of "
+"meer :term:`audio interface <audio interface>` tegelijkertijd te gebruiken, "
+"elk met zijn eigen klok. Wanneer meerdere audio interfaces in gebruik zijn, "
+"wordt de Mixxx engine bestuurd door de main output audio interface. Hier kan"
+" u de synchronizatie selecteren die gebruikt zal worden voor de andere audio"
+" interfaces om buffer overflows of underflows te vermijden"
 
 #: ../../chapters/preferences/sound_hardware.rst:166
 msgid ""
@@ -464,12 +579,20 @@ msgid ""
 ":menuselection:`Soundtouch` on lower power machines (such as netbooks) or if"
 " you experience buffer underflows while using :term:`key lock`."
 msgstr ""
+"**Keylock/Pitch-Bending Engine**: Dit staat u toe de engine (mechanisme) te "
+"kiezen voor onafhankelijke tempo en pitch wijzigingen (bv. :term:`key "
+"lock`).Gebruik :menuselection:`Soundtouch` op 'lower power machines' (zoals "
+"netbooks) of indien u buffer underflows ervaart terwijl u :term:`key lock` "
+"gebruikt."
 
 #: ../../chapters/preferences/sound_hardware.rst:171
 msgid ""
 "**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
 "you do not use the :term:`main output`, recording or live broadcasting."
 msgstr ""
+"**Main Mix**: U kan de main mix deactiveren om het gebruik van de CPU door "
+"Mixxx te verminderen wanneer u geen gebruik maakt van de :term:`main "
+"output`, van het opnemen of van live broadcasting."
 
 #: ../../chapters/preferences/sound_hardware.rst:174
 msgid ""
@@ -479,6 +602,11 @@ msgid ""
 " in stereo because of speaker placement or playing in a space with lots of "
 "reverberation."
 msgstr ""
+"**Main Output Modus**: In Mono modus, worden het linker en rechter kanaal "
+"gecombineerd in een mono signaal dat doorgegeven wordt aan beide kanalen van"
+" uw main audio interface. Dit kan handig zijn voor gevallen waarin het "
+"publiek uw mix niet in stereo kan beluisteren omwille van de plaatsing van "
+"de speakers of wanneer u speelt in een ruimte met veel reverb."
 
 #: ../../chapters/preferences/sound_hardware.rst:180
 msgid ""
@@ -489,10 +617,16 @@ msgid ""
 "buffer size, decrease the sample rate setting or change the sound API "
 "setting if available."
 msgstr ""
+"**Buffer Underflow Count**: Underflows (de data is niet beschikbaar wanneer "
+"die nodig is) duidt aan dat enkele van de subsystemen in Mixxx niet in real-"
+"time de deadlines gesteld door de huidige audio buffer size kunnen "
+"volgen.Dit is handig om de latency instellingen te regelen. Wanneer de "
+"teller verhoogt verhoog dan uw audio buffer size, verlaag de sample rate "
+"instelling of verander de sound API instelling indien mogelijk."
 
 #: ../../chapters/preferences/sound_hardware.rst:188
 msgid "Output and Input Devices"
-msgstr ""
+msgstr "Output en Input Devices"
 
 #: ../../chapters/preferences/sound_hardware.rst:190
 msgid ""
@@ -502,6 +636,12 @@ msgid ""
 "more output and input channels available for more complex setups, for "
 "example with external mixers, vinyl control or for broadcasting."
 msgstr ""
+"In de gewoonlijke, basis 'Digital DJ' opstelling (:ref:`setup-controller-"
+"and-external-card` of :ref:`setup-laptop-and-external-card`) moet u enkel de"
+" Master en hoofdtelefoon outputs configureren. Hoewel er veel meer output en"
+" input kanalen veschikbaar zijn foor meer complexe opstellingen, "
+"bijvoorbeeld met externe mengtafels, vinyl besturing of voor uitzending "
+"(broadcasting)."
 
 #: ../../chapters/preferences/sound_hardware.rst:196
 msgid ""
@@ -510,6 +650,11 @@ msgid ""
 " on output channels, like when you need to use one stereo output for both "
 "master and headphones (see :ref:`setup-laptop-with-splitter`)."
 msgstr ""
+"Alle outputs worden gewoonlijk verstuurd als een kanaal paar (stereo), "
+"hoewel ze ook als slechts één kanaal (mono mixdown) kunnen worden verstuurd,"
+" bijvoorbeeld als u een tekort aan output kanalen heeft, zoals wanneer u één"
+" stereo output moet gebruiken woor zowel de master en hoofdtelefoon (see "
+":ref:`setup-laptop-with-splitter`)."
 
 #: ../../chapters/preferences/sound_hardware.rst:201
 msgid ""
@@ -517,6 +662,9 @@ msgid ""
 "vinyl control inputs which require stereo to capture the entire control "
 "signal."
 msgstr ""
+"Inputs kunnen mono of stereo zijn (aangepast aan de verbonden bron "
+"natuurlijk) behalve vinyl control inputs. Deze vereisen stereo om het gehele"
+" signaal te kunnen opvangen."
 
 #: ../../chapters/preferences/sound_hardware.rst:205
 msgid "Outputs"
@@ -527,12 +675,16 @@ msgid ""
 "**Master** (Main): The mix of all audible channels, e.g. main decks, all "
 "samplers, enabled microphones and auxiliary inputs."
 msgstr ""
+"**Master** (Main): De mix van alle hoorbare kanalen, bv. main decks, alle "
+"samplers, geactiveerde microfoons en auxiliaire inputs."
 
 #: ../../chapters/preferences/sound_hardware.rst:210
 msgid ""
 "**Headphones**: All channels for which :term:`pfl` is enabled, as well as "
 "the preview deck."
 msgstr ""
+"**Headphones**: Alle kanalen voor dewelke :term:`pfl` geactiveerd isalsook "
+"het voobeluisteingsdeck."
 
 #: ../../chapters/preferences/sound_hardware.rst:213
 msgid ""
@@ -540,28 +692,37 @@ msgid ""
 "output, for example for the speakers in the DJ booth, external recording "
 "device, loopback device for video recordings etc."
 msgstr ""
+"**Booth**: In sé dezelfde output als de Main maar dan gerouteerd naar een "
+"aparte output, bijvoorbeeld voor de speakers in de DJ booth, een extern "
+"opname apparaat, terugloop apparaat voor videoopnames etc."
 
 #: ../../chapters/preferences/sound_hardware.rst:217
 msgid ""
 "**Left Bus**: All decks, samplers and auxiliaries that are assigned to the "
 "left side of the :term:`crossfader`."
 msgstr ""
+"**Left Bus**: Alle decks, samplers en auxiliarire inputs die toegewezen zijn"
+" aan de linkerkant van de :term:`crossfader`."
 
 #: ../../chapters/preferences/sound_hardware.rst:220
 msgid ""
 "**Center Bus**: All decks, samplers and auxiliaries that are assigned to the"
 " center of the :term:`crossfader`."
 msgstr ""
+"**Center Bus**: Alle decks, samplers en auxiliaire inputs die toegewezen "
+"zijn aan het centrum van de :term:`crossfader`."
 
 #: ../../chapters/preferences/sound_hardware.rst:223
 msgid ""
 "**Right Bus**: All decks, samplers and auxiliaries that are assigned to the "
 "right side of the :term:`crossfader`."
 msgstr ""
+"**Right Bus**: Alle decks, samplers en auxiliarire inputs die toegewezen "
+"zijn aan de rechterkant van de :term:`crossfader`."
 
 #: ../../chapters/preferences/sound_hardware.rst:226
 msgid "**Deck 1-4**: Separate outputs for each of the main decks."
-msgstr ""
+msgstr "**Deck 1-4**: Aparte outputs voor elk van de main decks."
 
 #: ../../chapters/preferences/sound_hardware.rst:229
 msgid "Inputs"
@@ -573,14 +734,17 @@ msgid ""
 "passthrough <vinyl-control>`. Note that one input can be selected for "
 "multiple decks."
 msgstr ""
+"**Vinyl Control 1-4**: Inputs die gebruikt worden voor :ref:`vinyl control "
+"en passthrough <vinyl-control>`. Let op dat één input kan worden "
+"geselecteerd voor meerdere decks."
 
 #: ../../chapters/preferences/sound_hardware.rst:234
 msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
-msgstr ""
+msgstr "**Microfoon 1-4**: De :ref:`microfoon <microphones>` inputs."
 
 #: ../../chapters/preferences/sound_hardware.rst:236
 msgid "**Auxiliary 1-4**: Auxiliary inputs."
-msgstr ""
+msgstr "**Auxiliaire 1-4**: Auxiliaire inputs."
 
 #: ../../chapters/preferences/sound_hardware.rst:238
 msgid ""
@@ -589,3 +753,7 @@ msgid ""
 "Note that when setting this input your recording and broadcast stream will "
 "not be identical to the main output."
 msgstr ""
+"**Record/Broadcast**: De input die gebruikt wordt voor de Mixxx-interne "
+":ref:`opname <djing-recording-your-mix>` en :ref:`uitzending (broadcasting) "
+"<live-broadcasting>`. Let op: wanneer u deze input instelt dan zullen uw "
+"opname en broadcast stream niet identiek zijn aan de main output."

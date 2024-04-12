@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -233,11 +233,12 @@ msgid ""
 msgstr ""
 "Met Mixxx kun je live DJ-mixen uitvoeren met je digitale muziekcollectie. "
 "Het helpt je het feest te laten losbarsten met DJ-controllers, vinyl "
-"draaitafels of zelfs alleen je toetsenbord. Het is ontwikkeld door een "
-"internationaal team van vrijwilligers die het plezier van het DJ'en bij "
-"iedereen willen brengen. Het project is non-profit, open source en "
-"community-driven. Samen willen we de beste DJ-software maken die ooit is "
-"gemaakt. We hopen dat je dat doet: ref: `sluit je aan<contributing>`!"
+"draaitafels of zelfs enkel met je toetsenbord. Het is ontwikkeld door een "
+"internationaal team van vrijwilligers die het plezier van het DJ'en voor "
+"iedereen toegankelijk wil maken. Het project is non-profit, open source en "
+"community-driven. Samen willen we de beste DJ-software maken die er ooit is "
+"gemaakt. We hopen dat je dat met ons mee doet: ref: `doe mee "
+"<contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
@@ -250,10 +251,10 @@ msgid ""
 "the playback of the audio files. This lets you creatively mix different "
 "tracks together on the fly."
 msgstr ""
-"Mixxx verschilt van typische toepassingen voor muziekspelers omdat het "
-"meerdere audiobestanden tegelijk afspeelt en veel functies heeft om het "
-"afspelen van de audiobestanden te manipuleren. Dit laat je toe om on-the-fly"
-" op een creatieve manier verschillende tracks met elkaar mixen."
+"Mixxx verschilt van klassieke muziekspeler-toepassingen omdat het meerdere "
+"audiobestanden tegelijk afspeelt en veel functies heeft om het afspelen van "
+"de audiobestanden te manipuleren. Dit laat je toe om on-the-fly op een "
+"creatieve manier verschillende tracks met elkaar te mixen."
 
 #: ../../chapters/introduction.rst:24
 msgid ""
@@ -265,20 +266,32 @@ msgid ""
 "known as a “sound card”, although most of them are not shaped like cards "
 "anymore)."
 msgstr ""
+"Je kan met Mixxx de volgende track voorbeluisteren en klaarzetten in de "
+"hoofdtelefoon voordat het publiek deze kan horen, dit wordt ook wel "
+"headphone cueing genoemd. Dit kan helpen om een track te kiezen die én past "
+"bij het moment én naadloos met de afspelende track(s) kan gemixt worden. Om "
+"headphone cueing te gebruiken heb je ten minste 2 verschillende oudio-"
+"uitgangen nodig, meestal worden die door een USB audio interface aan je PC "
+"toegevoegd (ook wel bekend als “geluidskaart”, hoewel de meesten er tegen-"
+"woordig niet meer als kaarten uitzien)."
 
 #: ../../chapters/introduction.rst:31
 msgid ""
 "The :term:`shortcut` for headphone cueing in Deck1 is :kbd:`T` while for "
 "Deck 2 the shortcut is :kbd:`Y`."
 msgstr ""
+"De snelkoppeling voor headphone cueing in Deck 1 is :kbd:`T` terwijl in Deck"
+" 2 de snelkoppeling is  :kbd:`Y`."
 
 #: ../../chapters/introduction.rst:33
 msgid "Mixxx can be used in two different ways for headphone cueing:"
 msgstr ""
+"Mixxx kan voor headphone cueing op twee verschillende manieren gebruikt "
+"worden:"
 
 #: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
-msgstr "**Interne Mixing**"
+msgstr "**Intern Mixen**"
 
 #: ../../chapters/introduction.rst:37
 msgid ""
@@ -292,14 +305,16 @@ msgstr ""
 "samen en stuurt het gemixte signaal naar één audio-interface-uitgang. Een "
 "apart signaal wordt naar een andere audio-interface-uitgang gestuurd voor "
 "hoofdtelefoon-cueing. Vaak wordt een DJ-controller gebruikt met interne "
-"mixing om gemakkelijker en betere controle te hebben over Mixxx dan een muis"
-" en toetsenbord."
+"mixing om gemakkelijker en betere controle te hebben over Mixxx dan met een "
+"muis en toetsenbord."
 
 #: ../../chapters/introduction.rst:0
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 msgstr ""
+"Mixxx gebruiken met een DJ controller met en een geïntegreerde audio "
+"interface"
 
 #: ../../chapters/introduction.rst:51
 msgid ""
@@ -308,12 +323,12 @@ msgid ""
 "stereo outputs."
 msgstr ""
 "Mixxx samen met een DJ-controller gebruiken voor intern mixen. De DJ-"
-"controller heeft een geïntegreerde audio-interface die twee afzonderlijke "
-"stereo-uitgangen voorziet."
+"controller heeft een geïntegreerde audio-interface die in twee afzonderlijke"
+" stereo-uitgangen voorziet."
 
 #: ../../chapters/introduction.rst:55
 msgid "**External Mixing**"
-msgstr "**Externe Mixing**"
+msgstr "**Extern Mixen**"
 
 #: ../../chapters/introduction.rst:57
 msgid ""
@@ -327,25 +342,26 @@ msgid ""
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
 msgstr ""
-"Bij dit soort instellingen speelt Mixxx meerdere audiobestanden "
+"Bij dit soort opstellingen speelt Mixxx meerdere audiobestanden "
 "tegelijkertijd op de computer af en stuurt elk nummer naar een afzonderlijke"
 " audio-interface-uitgang. De uitgangen van de audio-interface zijn "
-"aangesloten op een externe hardwaremixer. De hardwaremixer voert het "
-"eigenlijke mixen van de audiosignalen uit. Op de hardwaremixer zijn er "
-"aparte uitgangen voor het gemengde signaal om voor het publiek te spelen en "
-"voor de DJ om hoofdtelefoon-cueing te gebruiken. Externe menging wordt "
-"meestal gebruikt met draaitafels en: ref: `speciale vinylplaten<vinyl-"
-"control>` om digitale muziekbestanden te manipuleren alsof de muziek op "
-"vinylplaten staat."
+"aangesloten op een externe mengtafel (mengpaneel). De mengtafel voert het "
+"eigenlijke mixen van de audiosignalen uit. Op de mengtafel zijn er aparte "
+"uitgangen voor het gemengde signaal om voor het publiek af te spelen en voor"
+" de DJ om hoofdtelefoon-cueing te gebruiken. Externe menging wordt meestal "
+"gebruikt met draaitafels en: ref: `speciale vinylplaten<vinyl-control>` om "
+"digitale muziekbestanden te manipuleren alsof de muziek op vinylplaten "
+"staat."
 
 #: ../../chapters/introduction.rst:0
 msgid "Using Mixxx together with turntables and external mixer"
 msgstr ""
+"Mixxx gebruiken in combinatie met draaitafels en een externe mengtafel"
 
 #: ../../chapters/introduction.rst:74
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
 msgstr ""
-"Mixxx gebruiken in combinatie met een USB-audio-interface, externe mixer en "
-"tijdgecodeerde vinyl voor extern mixen"
+"Mixxx gebruiken in combinatie met een USB-audio-interface, externe mengtafel"
+" en tijdgecodeerde vinyl voor extern mixen"

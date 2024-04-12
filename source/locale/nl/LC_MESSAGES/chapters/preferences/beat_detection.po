@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -215,13 +219,16 @@ msgstr ""
 
 #: ../../chapters/preferences/beat_detection.rst:6
 msgid "Beat Detection"
-msgstr ""
+msgstr "Beat Detectie"
 
 #: ../../chapters/preferences/beat_detection.rst:16
 msgid ""
 "Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments are "
 "redundant in many cases because Mixxx knows where the beats are."
 msgstr ""
+"Mixxx gebruikt een ultra-nauwkeurige BPM en beat detectie. Manuele "
+"aanpassingen zijn in veel gevallen bijkomstig want Mixxx weet waar de beats "
+"zich bevinden."
 
 #: ../../chapters/preferences/beat_detection.rst:19
 msgid ""
@@ -233,35 +240,45 @@ msgid ""
 " not affect the beat detection negatively because most of today's dance "
 "music is written in a 4/4 signature with a fixed tempo."
 msgstr ""
+"BPM en beat detectie is een complexe operatie. Afhankelijk van uw computer "
+"en de bitrate en lengte van de track kan dit enige tijd duren. Standaard "
+"analyseert Mixxx de gehele track. Om de beat detectie te versnellen op "
+"tragere computers is er een “Snelle Analyse” optie beschikbaar. Wanneer deze"
+" is geactiveerd wordt de BPM berekend door enkel de eerste minuut van de "
+"track te analyseren. In de meeste gevallen beïnvloedt dit de beat detectie "
+"niet negatief want het grootste deel van de hedendaagse dance music is "
+"geschreven in een 4/4 maat met een vast tempo."
 
 #: ../../chapters/preferences/beat_detection.rst:34
 msgid "Mixxx preferences - BPM settings"
-msgstr ""
+msgstr "Mixxx voorkeuren - BPM instellingens"
 
 #: ../../chapters/preferences/beat_detection.rst:36
 msgid "The table below summarizes the beat detection settings:"
-msgstr ""
+msgstr "Onderstaande tabel vat de beat detectie instellingen samen:"
 
 #: ../../chapters/preferences/beat_detection.rst:39
 msgid "Option"
-msgstr ""
+msgstr "Optie"
 
 #: ../../chapters/preferences/beat_detection.rst:39
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: ../../chapters/preferences/beat_detection.rst:41
 msgid "Enable Fast Analysis"
-msgstr ""
+msgstr "Activeer snelle analyse"
 
 #: ../../chapters/preferences/beat_detection.rst:41
 msgid ""
 "If enabled, BPM will be detected by only using the first minute of audio."
 msgstr ""
+"Indien geactiveerd, zal BPM worden gedetecteerd door enkel de eerste minuut "
+"geluid te gebruiken."
 
 #: ../../chapters/preferences/beat_detection.rst:44
 msgid "Assume constant tempo"
-msgstr ""
+msgstr "Veronderstel een constant tempo"
 
 #: ../../chapters/preferences/beat_detection.rst:44
 msgid ""
@@ -269,19 +286,25 @@ msgid ""
 " If disabled, the raw beat grid obtained by the analyzer is presented. The "
 "latter is appropriate for tracks with variable tempo."
 msgstr ""
+"Indien geactiveerd zal Mixxx veronderstellen dat de afstand tussen de beats "
+"constant is. Indien gedeactiveerd wordt de ruwe beat grid die door de "
+"analysator wordt aangemaakt weergegeven. Het laatste is aangewezen voor "
+"tracks met een variabel tempo."
 
 #: ../../chapters/preferences/beat_detection.rst:51
 msgid "Enable Offset Correction"
-msgstr ""
+msgstr "Activeer een compensatie correctie"
 
 #: ../../chapters/preferences/beat_detection.rst:51
 msgid "Prevents beat markers from being placed incorrectly."
-msgstr ""
+msgstr "Voorkomt dat beat markeringen verkeerd worden geplaatst."
 
 #: ../../chapters/preferences/beat_detection.rst:54
 msgid ""
 "Re-analyze beats when settings change or beat detection data is outdated"
 msgstr ""
+"Her-analyseer beats wanneer de instellingen wijzigen of wanneer de beat "
+"detectie verouderd is."
 
 #: ../../chapters/preferences/beat_detection.rst:54
 msgid ""
@@ -289,16 +312,22 @@ msgid ""
 "it will re-analyze the BPM if your beat detection preferences change or BPM "
 "data from 3rd party programs are present."
 msgstr ""
+"Indien geactiveerd overschrijft Mixxx oude beat grids van vorige versies. "
+"Meer zelfse, de BPM wordt opnieuw geanalyseerd indien uw beat detectie "
+"voorkeuren wijzigen of wanneer BPM data van andere programma's aanwezig "
+"zijn."
 
 #: ../../chapters/preferences/beat_detection.rst:63
 msgid "Correcting Beat Grids"
-msgstr ""
+msgstr "Beat Grids corrigeren"
 
 #: ../../chapters/preferences/beat_detection.rst:65
 msgid ""
 "There may be situations where BPM and beat detection do not result in a "
 "proper beat grid."
 msgstr ""
+"Er kunnen situaties zijn waarin BPM en beat detection niet resulteren in een"
+" juiste beat grid."
 
 #: ../../chapters/preferences/beat_detection.rst:68
 msgid ""
@@ -308,6 +337,12 @@ msgid ""
 "the beat grid, cue the track before a real beat and click the "
 ":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
 msgstr ""
+"Doorgaans is de gedetecteerde BPM correct maar de analysator is er niet in "
+"geslaagd om de eerste beat juist te localiseren. Vervolgens zijn de beat "
+"markeringen verschoven, bv de beat markeringen staan op een vaste afstand "
+"van de ware beat. Om de beat grid aan te passen, cue de track voor een ware "
+"beat en click :guilabel:`Beat-grid Aanpassen` toets in de :ref:`interface-"
+"button-grid`."
 
 #: ../../chapters/preferences/beat_detection.rst:74
 msgid ""
@@ -318,15 +353,27 @@ msgid ""
 "notice a slight drift as the song goes on. Finding the correct BPM is easy "
 "in many cases - just follow the note below."
 msgstr ""
+"Indien de gedetecteerde BPM niet nauwkeurig is zal de overeenkomstige beat "
+"grid ook onnauwkeurig zijn. Een afwijking van 0.02 BPM eenheden van de juite"
+" BPM zal een probleem met de beatgrid uitlijning veroorzaken bij lange "
+"tracks (bv. een club mix). Indien dit gebeurt kan uw beat grid er uitgelijnd"
+" uitzien voor enkele minuten, maar u zal een lichte verschuiving merken "
+"wanneer de song verder gaat. De juiste BPM vinden is in de meeste gevallen "
+"gemakkelijk, volg gewoon onderstaande opmerking."
 
 #: ../../chapters/preferences/beat_detection.rst:81
 msgid ""
 "If the detected BPM value is not sufficiently accurate but very close to an "
 "integer value, try to set the BPM value manually to the integer."
 msgstr ""
+"Indien de gedetecteerde BPM waarde niet voldoende nauwkeurig is maar zeer "
+"dicht bij een integer waarde ligt, probeer de BPM waarde manueel op de "
+"integer te zetten."
 
 #: ../../chapters/preferences/beat_detection.rst:84
 msgid ""
 "For more granular adjustments there are beatgrid controls close to the "
 ":ref:`interface-waveform` of each deck in the main interface."
 msgstr ""
+"Voor meer microscopische aanpassingen zijn er beat grid besturingselementen "
+"bij de :ref:`interface-waveform` van elke deck in de main interface."

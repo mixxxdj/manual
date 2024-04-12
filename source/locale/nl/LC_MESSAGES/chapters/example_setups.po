@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7664/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,43 +175,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
@@ -258,6 +258,9 @@ msgid ""
 "Compatibility>`_ lists specific devices with information about their prices,"
 " features, and compatibility with Mixxx."
 msgstr ""
+"`DJ Hardware Gids <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ geeft verschillende teostellen met informatie over hun "
+"prijs, mogelijkheden en compatibiliteit met Mixxx."
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
@@ -287,6 +290,15 @@ msgid ""
 "output. However, it can be used by radio DJs who only need to send the main "
 "mix to a broadcast audience."
 msgstr ""
+"Deze opstelling kan gebruikt worden met een enkele output naar speakers of "
+"hoofdtelefoon om te oefenen in het DJ-en zonder te moeten investeren in "
+"ietsanders dan een computer en een stel speakers of een hoofdtelefoon. Met "
+"deze configuratie, gebruik de :ref:`Pre/Main Knob <interface-head-main>` om "
+"de schakelen tussen de main mix en het :term:`PFL` signaal. Deze opstelling "
+"kan niet gebruikt worden om voor een publiek te spelen vermits de main mix "
+"niet naar een audio interface wordt gestuurd. De opstelling kan echter wel "
+"door radio DJ's worden gebruikt die enkel de main mix naar luisteraars "
+"moeten kunnen sturen."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
@@ -325,7 +337,7 @@ msgstr ""
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
 msgstr ""
-"Gebruik je ingebouwde microfoon of sluit een microfoon aan op je computer"
+"Gebruik de ingebouwde microfoon of sluit een microfoon aan op uw computer"
 
 #: ../../chapters/example_setups.rst:49 ../../chapters/example_setups.rst:77
 msgid ""
@@ -373,6 +385,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: :guilabel:`Main` uw ingebouwwde interface, "
+"en vervolgens :guilabel:`Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -437,6 +451,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Main` uw ingebouwde audio-"
+"interface en vervolgens: guilabel:` Kanaal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -444,7 +460,7 @@ msgid ""
 "interface, then :guilabel:`Channel 2`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` uw ingebouwde "
-"audio-interface en vervolgens: guilabel:` Kanaal 1`"
+"audio-interface en vervolgens: guilabel:` Kanaal 2`"
 
 #: ../../chapters/example_setups.rst:123
 msgid ""
@@ -481,6 +497,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Main` de externe audio-interface"
+" en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -512,7 +530,7 @@ msgid ""
 "background information about controllers."
 msgstr ""
 "Het gedeelte: ref: `hardware-controllers` van het hoofdstuk: ref:` hardware`"
-" bevat achtergrondinformatie over controllers."
+" bevat achtergrondinformatie over controllers. "
 
 #: ../../chapters/example_setups.rst:173
 msgid "Controllers with an integrated audio interface"
@@ -532,12 +550,13 @@ msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 msgstr ""
+"Mixxx gebruiken met een DJ controller met een geïntegreerde audio-interface"
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
 msgstr ""
-"Mixxx gebruiken in combinatie met een DJ-controller en een geïntegreerde "
+"Mixxx gebruiken in combinatie met een DJ-controller met een geïntegreerde "
 "audio-interface"
 
 #: ../../chapters/example_setups.rst:188
@@ -552,6 +571,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Selecteer in het drop-down menu: guilabel: `Main` de audio-interface van uw "
+"controller en vervolgens: guilabel:` Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""
@@ -601,10 +622,10 @@ msgid ""
 "headphones, this setup requires an audio interface with at least two pairs "
 "of stereo inputs and outputs as well as a pair of :term:`timecode` records."
 msgstr ""
-"Deze opstelling stelt DJ's in staat om de technieken van het DJ'en te "
-"gebruiken samen met vinyl platenspelers gecombineerd met de draagbaarheid en"
-" flexibiliteit van een laptopcomputer. In plaats van kratten met platen of "
-"cd's te dragen, kunnen dj's hun hele muziekcollectie op hun laptop dragen. "
+"Deze opstelling stelt DJ's in staat om de technieken van het DJ-en met vinyl"
+" platenspelers te gebruiken in combinatie met de draagbaarheid en "
+"flexibiliteit van een laptopcomputer. In plaats van kratten met platen of "
+"cd's te dragen, kunnen DJ's hun hele muziekcollectie op hun laptop dragen. "
 "Naast een laptop en hoofdtelefoon vereist deze opstelling een audio-"
 "interface met ten minste twee paar stereo-ingangen en -uitgangen en een "
 "paar: term: `timecode`-records."
