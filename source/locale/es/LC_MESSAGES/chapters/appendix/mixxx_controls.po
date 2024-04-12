@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-04-12 09:07+0200\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7664/es/)\n"
 "MIME-Version: 1.0\n"
@@ -5204,8 +5204,8 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:4348
 msgid ""
-"Affects playback speed and direction ([differently whether currently playing"
-" or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative)."
+"Affects playback speed and direction (`differently whether currently playing"
+" or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative)."
 msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:4361

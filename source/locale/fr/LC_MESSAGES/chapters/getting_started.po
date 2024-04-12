@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
@@ -244,7 +244,7 @@ msgid ""
 "Double-click the Mixxx installation file and go through the installation "
 "wizard."
 msgstr ""
-"Double-cliquer sur le fichier d'installation Mixxx et suiver l'assistant "
+"Double-cliquer sur le fichier d'installation de Mixxx et suivre l'assistant "
 "d'installation."
 
 #: ../../chapters/getting_started.rst:18 ../../chapters/getting_started.rst:53
@@ -256,7 +256,7 @@ msgid ""
 "Double-click the Mixxx .dmg file and drag the Mixxx icon to your "
 "Applications folder."
 msgstr ""
-"Double-cliquer sur le fichier Mixxx .dmg et faites glisser l'icône Mixxx "
+"Double-cliquer sur le fichier Mixxx .dmg et faites glisser l'icône de Mixxx "
 "vers votre répertoire Applications."
 
 #: ../../chapters/getting_started.rst:22
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 "Vos paramètres et votre bibliothèque ne seront ni supprimés ni "
 "réinitialisés, mais ils pourront être mis à niveau lorsque vous lancerez la "
-"nouvelle version de Mixxx. Notez que nous ne garantissons pas que les "
+"nouvelle version de Mixxx. Noter que nous ne garantissons pas que les "
 "nouvelles configurations fonctionneront sur les anciennes versions de Mixxx,"
 " vous souhaiterez donc peut-être faire une sauvegarde de vos paramètres "
 "existants au cas où."
@@ -317,8 +317,8 @@ msgid ""
 "|logo| Once you've installed Mixxx, start by opening Mixxx and importing "
 "your music to the Mixxx library."
 msgstr ""
-"|logo| Une fois que vous avez installé Mixxx, commencez par ouvrir Mixxx et "
-"importez votre musique dans la bibliothèque de Mixxx."
+"|logo| Une fois que vous avez installé Mixxx, commencer par ouvrir Mixxx et "
+"importer votre musique dans la bibliothèque de Mixxx."
 
 #: ../../chapters/getting_started.rst:46
 msgid ""
@@ -360,7 +360,7 @@ msgstr ""
 ":kbd:`Entrée`. Si votre :term:`interface audio` n'est pas accessible depuis "
 "Mixxx car elle est utilisée par d'autres applications via PulseAudio, vous "
 "pouvez fermer et redémarrer Mixxx à l'aide de :command:`pasuspender mixxx`. "
-"Voir :ref:`appendix-command-line-options` pour un aperçu des options de "
+"Voir :ref:`appendix-command-line-options` pour un aperçu des options en "
 "ligne de commande de Mixxx."
 
 #: ../../chapters/getting_started.rst:67
@@ -398,7 +398,7 @@ msgid ""
 "tracks`."
 msgstr ""
 "Cliquer sur :guilabel:`Sélectionner le répertoire` et Mixxx va examiner "
-"votre bibliothèque musicale. Ceci peut prendre du temps en fonction de la "
+"votre bibliothèque de musique. Ceci peut prendre du temps en fonction de la "
 "taille de votre bibliothèque. Tous les fichiers musicaux pris en charge que "
 "Mixxx détecte seront listés dans :ref:`library-tracks`."
 
@@ -442,9 +442,10 @@ msgid ""
 msgstr ""
 "|ic_lib_analyze| Mixxx analyse automatiquement les pistes la première fois "
 "que vous les chargez dans une platine. Cela vous permet d'exécuter la "
-"détection de :term:`beatgrid`, :term:`key`, et :term:`ReplayGain` à l'avance"
-" sur les pistes. Il prépare également les aperçus des formes d'onde, détecte"
-" la corruption des fichiers et calcule les valeurs :term:`BPM`."
+"détection des :term:`grilles rythmiques`, :term:`tonalités (key)`, et "
+":term:`ReplayGain` à l'avance sur les pistes. Il prépare également les "
+"aperçus des formes d'onde, détecte la corruption des fichiers et calcule les"
+" valeurs :term:`BPM`."
 
 #: ../../chapters/getting_started.rst:111
 msgid "For more information, go to :ref:`configuration-bpm-detection`."
@@ -465,16 +466,16 @@ msgid ""
 "analysis takes considerable CPU power and might cause skips in the audio ---"
 " things you surely don't need while performing."
 msgstr ""
-"Si les morceaux n'ont jamais été joués avec Mixxx auparavant, les colonnes "
-"de la bibliothèque :guilabel:`BPM`, :guilabel:`Duration` et :guilabel:`Key` "
-"seront vides ou peu fiables (car les valeurs sont simplement lues à partir "
-"des tags du fichier si présent et peut être erroné). La pré-génération de "
-"grilles rythmiques vous donne la possibilité de revérifier les marqueurs de "
-"battements pour vous assurer qu'ils sont corrects. Les erreurs dans les "
-"battement peuvent entrainer des difficultés lors de la synchronisation des "
-"pistes. De plus, l'analyse des pistes nécessite une puissance CPU "
-"considérable et peut provoquer des sauts dans l'audio - des choses dont vous"
-" n'avez surement pas besoin pendant que vous performez."
+"Si les morceaux n'ont jamais été joués avec Mixxx, les colonnes "
+":guilabel:`BPM`, :guilabel:`Durée` et :guilabel:`Tonalité` de la "
+"bibliothèque seront vides ou peu fiables (car les valeurs sont simplement "
+"lues à partir des tags du fichier si présent et peut être erroné). La pré-"
+"génération de grilles rythmiques vous donne la possibilité de revérifier les"
+" marqueurs de battements pour vous assurer qu'ils sont corrects. Les erreurs"
+" dans les battement peuvent entraîner des difficultés lors de la "
+"synchronisation des pistes. De plus, l'analyse des pistes nécessite une "
+"puissance CPU considérable et peut provoquer des sauts dans l'audio - des "
+"choses dont vous n'avez surement pas besoin pendant que vous performez."
 
 #: ../../chapters/getting_started.rst:124
 msgid "How to analyze your audio files"
@@ -485,15 +486,15 @@ msgid ""
 "Once you have :ref:`imported your music library<getting-started-import-"
 "audio-files>`, press :guilabel:`OK` on the Preferences window."
 msgstr ""
-"Une fois que vous avez :ref:`imported` votre bibliothèque musicale<getting-"
-"started-import-audio-files>`, appuyer sur :guilabel:`OK` dans la fenêtre "
-"Préférences."
+"Une fois que vous avez :ref:`importé votre bibliothèque musicale<getting-"
+"started-import-audio-files>` dans la fenêtre Préférences, appuyer sur "
+":guilabel:`OK`."
 
 #: ../../chapters/getting_started.rst:128
 msgid ""
 "Go to the :guilabel:`Analyze` view on the left side panel of the library."
 msgstr ""
-"Aller à la vue :guilabel:`Analyze` sur le panneau latéral gauche de la "
+"Aller à la vue :guilabel:`Analyser` sur le panneau latéral gauche de la "
 "bibliothèque."
 
 #: ../../chapters/getting_started.rst:129
@@ -505,9 +506,9 @@ msgid ""
 msgstr ""
 "Pour analyser quelques pistes spécifiques, maintenir le bouton :kbd:`Ctrl` "
 "enfoncé et sélectionner les pistes que vous souhaitez analyser ou vous "
-"pouvez :kbd:`shift`-sélectionner une plage de pistes. Une fois qu'ils ont "
-"été mis en surbrillance, cliquer sur le bouton :guilabel:`Analyser` en haut "
-"à droite de la section bibliothèque."
+"pouvez :kbd:`shift`-sélectionner une plage de pistes. Une fois mis en "
+"surbrillance, cliquer sur le bouton :guilabel:`Analyser` en haut à droite de"
+" la section bibliothèque."
 
 #: ../../chapters/getting_started.rst:130
 msgid ""
@@ -582,7 +583,7 @@ msgstr "Options de sortie"
 #: ../../chapters/getting_started.rst:162
 #: ../../chapters/getting_started.rst:182
 msgid "**Internal mixing**:"
-msgstr "**Mixage interne**:"
+msgstr "**Mixage interne** :"
 
 #: ../../chapters/getting_started.rst:164
 msgid ""
@@ -600,8 +601,8 @@ msgid ""
 "together. This output is sent to the speakers for the audience."
 msgstr ""
 "*Principal*: toutes les platines, échantillonneurs, microphones et entrées "
-"auxiliaires mélangés ensemble. Cette sortie est envoyée aux haut-parleurs "
-"pour le public."
+"auxiliaires mixés ensemble. Cette sortie est envoyée aux haut-parleurs pour "
+"le public."
 
 #: ../../chapters/getting_started.rst:170
 msgid ""
@@ -609,7 +610,7 @@ msgid ""
 "assigned to :term:`pre-fader listening <PFL>`"
 msgstr ""
 "*Casque*: toutes les platines, échantillonneurs, microphones et entrées "
-"auxiliaires affectées au :term:`pre-fader listening (PLF) <PFL>`"
+"auxiliaires affectées à l':term:`écoute pré-fader (PLF) <PFL>`"
 
 #: ../../chapters/getting_started.rst:172
 msgid "*Booth*: same as main output, but has a separate gain control"
@@ -620,22 +621,22 @@ msgstr ""
 #: ../../chapters/getting_started.rst:174
 #: ../../chapters/getting_started.rst:190
 msgid "**External mixing**:"
-msgstr "**Mixage externe**:"
+msgstr "**Mixage externe** :"
 
 #: ../../chapters/getting_started.rst:176
 msgid "*Decks 1-4*: the individual unmixed decks to send to an external mixer"
 msgstr ""
-"*Platines 1-4*: les platines individuelles non mixées à envoyer à une table "
-"de mixage externe"
+"*Platines 1-4* : les platines individuelles non mixées, à envoyer à une "
+"table de mixage externe"
 
 #: ../../chapters/getting_started.rst:177
 msgid ""
 "*Bus Left/Center/Right*: all decks, samplers, and auxiliary inputs assigned "
 "to each side of Mixxx's :term:`crossfader`"
 msgstr ""
-"*Bus gauche/central/droit* : tous les platines, échantillonneurs et entrées "
-"auxiliaires sont assignés à chaque côté du :term:`Curseur de mixage` de "
-"Mixxx"
+"*Bus gauche/central/droit* : toutes les platines, échantillonneurs et "
+"entrées auxiliaires sont assignés à chaque côté du :term:`Curseur de mixage`"
+" de Mixxx"
 
 #: ../../chapters/getting_started.rst:181
 msgid "Input Options"
@@ -652,11 +653,11 @@ msgstr ""
 
 #: ../../chapters/getting_started.rst:187
 msgid "*Microphone 1-4*: live microphone or musical instrument inputs"
-msgstr "*Microphone 1-4*: entrées micro de direct ou instrument de musique"
+msgstr "*Microphone 1-4* : entrées micro de direct ou instrument de musique"
 
 #: ../../chapters/getting_started.rst:188
 msgid "*Auxiliary 1-4*: other sound sources"
-msgstr "*Auxiliaire 1-4*: autres sources sonores"
+msgstr "*Auxiliaire 1-4* : autres sources sonores"
 
 #: ../../chapters/getting_started.rst:192
 msgid ""
@@ -665,21 +666,21 @@ msgid ""
 " you have a microphone plugged into the mixer, do not configure the "
 "Microphone 1-4 inputs."
 msgstr ""
-"*Enregistrer/Diffuser*: Lorsque ceci est configuré, Mixxx enregistrera et "
+"*Enregistrer/Diffuser* : Lorsque ceci est configuré, Mixxx enregistrera et "
 "diffusera à partir de cette entrée d'interface audio au lieu du mixage "
 "interne de la sortie principale. Si un microphone est branché sur la table "
 "de mixage, ne configurer pas les entrées Microphone 1-4."
 
 #: ../../chapters/getting_started.rst:197
 msgid "**Either internal or external mixing**:"
-msgstr "**Mixage interne ou externe**:"
+msgstr "**Mixage interne ou externe** :"
 
 #: ../../chapters/getting_started.rst:199
 msgid ""
 "*Vinyl Control 1-4*: timecode input from turntables or CDJs for manipulating"
 " decks 1-4"
 msgstr ""
-"*Contrôle Vinyle 1-4*: entrée de timecode à partir de platines vinyles ou "
+"*Contrôle Vinyle 1-4* : entrée de timecode à partir de platines vinyles ou "
 "CDJ pour manipuler les platines 1-4"
 
 #: ../../chapters/getting_started.rst:202

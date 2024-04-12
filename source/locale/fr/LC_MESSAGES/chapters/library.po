@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
@@ -268,7 +268,7 @@ msgstr "**Rechercher**: Trouver une piste dans votre bibliothèque Mixxx."
 
 #: ../../chapters/library.rst:37
 msgid "**Tracks**: View and edit your whole collection."
-msgstr "**Pistes**: Voir et éditer toute votre collection."
+msgstr "**Pistes**: Voir et éditer toute votre collection"
 
 #: ../../chapters/library.rst:38
 msgid ""
@@ -982,12 +982,12 @@ msgstr ""
 
 #: ../../chapters/library.rst:299 ../../chapters/library.rst:319
 msgid "The features in detail:"
-msgstr "Les fonctionnalités en détail:"
+msgstr "Les fonctionnalités en détail :"
 
 #: ../../chapters/library.rst:301 ../../chapters/library.rst:321
 msgid "**Select All button**: Selects all tracks in the current view."
 msgstr ""
-"**Bouton Tout Sélectionner**: Sélectionne toutes les pistes dans la vue "
+"**Bouton Tout Sélectionner** : Sélectionne toutes les pistes dans la vue "
 "actuelle."
 
 #: ../../chapters/library.rst:302
@@ -996,8 +996,8 @@ msgid ""
 "does not remove them from your computer. This will delete all "
 ":term:`metadata` Mixxx has for a track."
 msgstr ""
-"**Bouton Purger**: Purge les pistes sélectionnées de la bibliothèque Mixxx, "
-"mais ne les supprime pas de votre ordinateur. Cela supprimera toutes les "
+"**Bouton Purger** : Purge les pistes sélectionnées de la bibliothèque Mixxx,"
+" mais ne les supprime pas de votre ordinateur. Cela supprimera toutes les "
 ":term:`métadonnées` que Mixxx a pour une piste."
 
 #: ../../chapters/library.rst:307
