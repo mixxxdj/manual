@@ -134,12 +134,12 @@ Here is how to tell use each modes:
 +==========+=====================================================================+
 | Beat     | This mode is enable if no other mode are enabled                    |
 +----------+---------------------------------------------------------------------+
-| Grid     |  This mode is enabled while :hwlabel:`GRID` is maintained pressed   |
+| Grid     | This mode is enabled while :hwlabel:`GRID` is held down             |
 +----------+---------------------------------------------------------------------+
-| BPM      | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` is    |
-|          | maintained pressed                                                  |
+| BPM      | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are   |
+|          | held down                                                           |
 +----------+---------------------------------------------------------------------+
-| Keyboard | This mode is enabled while STEM is maintained pressed               |
+| Keyboard | This mode is enabled while STEM is held down                        |
 +----------+---------------------------------------------------------------------+
 
 All mapping detail
