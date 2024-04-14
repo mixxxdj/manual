@@ -452,6 +452,7 @@ linkcheck_ignore = [
     "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
     "https://www.numark.com/product/*",
     "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://support.pioneerdj.com/hc/en-us/articles/*",
     "https://support.pioneerdj.com/hc/sections/*",
     "https://www.roland.com/global/products/dj-505/*",
     "https://web.archive.org/web/*",

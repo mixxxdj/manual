@@ -20,7 +20,7 @@ The Pioneer DDJ-FLX4 is a 2 deck USB controller with an integrated audio interfa
 designed for rekordbox and Serato.
 
 - `Manufacturer's Product Page <https://www.pioneerdj.com/en-us/product/controller/ddj-flx4/black/overview/>`__
-- `Manufacturer's User Manual <http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__
+- `Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/>`__
 - `Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_midi_message_list_e1.pdf>`__
 - `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_hardwarediagram_rekordbox_e1.pdf?la=en-us>`__
 - `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-flx4/26553>`__
@@ -56,7 +56,7 @@ Controller Mapping
 ------------------
 
 The schematic drawings used here can be referenced in the
-`manufacturer's manual <http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__
+`manufacturer's manual <https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/>`__
 on the given page number.
 
 Browser section (p. 12)
