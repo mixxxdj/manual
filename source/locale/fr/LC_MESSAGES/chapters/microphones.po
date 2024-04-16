@@ -576,10 +576,9 @@ msgstr ""
 #: ../../chapters/microphones.rst:190
 msgid ""
 "**macOS**: `Audacity "
-"<https://manual.audacityteam.org/man/latency_test.html>`_"
+"<https://support.audacityteam.org/troubleshooting/solving-recording-"
+"problems/latency-compensation>`_"
 msgstr ""
-"**macOS**: `Audacity "
-"<https://manual.audacityteam.org/man/latency_test.html>`_"
 
 #: ../../chapters/microphones.rst:202
 msgid ""
