@@ -2824,6 +2824,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 .. mixxx:control:: [ChannelN],track_color_prev
                    [PreviewDeckN],track_color_prev
+                   [SamplerN],track_color_prev
 
    Set color of loaded track to previous color in palette.
 
@@ -2835,6 +2836,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 .. mixxx:control:: [ChannelN],track_color_next
                    [PreviewDeckN],track_color_next
+                   [SamplerN],track_color_next
 
    Set color of loaded track to next color in palette.
 
@@ -2846,6 +2848,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 .. mixxx:control:: [ChannelN],track_color_selector
                    [PreviewDeckN],track_color_selector
+                   [SamplerN],track_color_selector
 
    Select color of loaded track in the color palette. < 0 goes up the list, > 0 goes down. Wraps around at the top and bottom.
 
