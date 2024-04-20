@@ -2482,6 +2482,42 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0
 
 
+.. mixxx:control:: [ChannelN],stem_count
+
+   The number of stem track available for the loaded file. `0` means the deck is not a STEM deck.
+
+   :range: 0, 2..4, read-only
+
+   .. versionadded:: 2.?.0
+
+
+.. mixxx:control:: [ChannelN],stem_X_volume
+
+   The volume of STEM `X` on the deck. The volume for the first deck can be controlled with `stem_1_volume`.
+
+   :range: 0.0..1.0
+
+   .. versionadded:: 2.?.0
+
+
+.. mixxx:control:: [ChannelN],stem_X_mute
+
+   Whether the STEM `X` is muted on the deck. The mute control for the first stem can be controlled with `stem_1_mute`.
+
+   :range: binary
+
+   .. versionadded:: 2.?.0
+
+
+.. mixxx:control:: [ChannelN],stem_X_color
+
+   The color for the STEM `X` on the deck. The first stem color can be retrieved with `stem_1_color`.
+
+   :range: 3-Byte :term:`RGB` color code (or -1), read-only
+
+   .. versionadded:: 2.?.0
+
+
 .. mixxx:control:: [ChannelN],stop
                    [PreviewDeckN],stop
                    [SamplerN],stop
@@ -4109,6 +4145,16 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
 
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
+
+
+.. mixxx:control:: [Skin],show_stem_controls
+
+   Toggle the STEM control section.
+
+   :range: binary
+   :feedback: STEM control section is shown/hidden.
+
+   .. versionadded:: 2.?.0
 
 
 Deprecated controls
