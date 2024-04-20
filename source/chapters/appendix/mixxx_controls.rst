@@ -2482,6 +2482,24 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0
 
 
+.. mixxx:control:: [ChannelN],stem_count
+
+   The number of stem track available for the loaded file. `0` means the deck is not a STEM deck.
+
+   :range: 0, 2..4, read-only
+
+   .. versionadded:: 2.?.0
+
+
+.. mixxx:control:: [ChannelNStemM],color
+
+   The color for the STEM `M` on the deck. The first stem color can be retrieved with `[ChannelNStem1],color`.
+
+   :range: 3-Byte :term:`RGB` color code (or -1), read-only
+
+   .. versionadded:: 2.?.0
+
+
 .. mixxx:control:: [ChannelN],stop
                    [PreviewDeckN],stop
                    [SamplerN],stop
@@ -2547,6 +2565,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],track_color
                    [PreviewDeckN],track_color
                    [SamplerN],track_color
+                   [ChannelNStemM],track_color
 
    Color of the currently loaded track or -1 if no track is loaded or the track has no color.
 
@@ -2593,6 +2612,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],volume
                    [PreviewDeckN],volume
                    [SamplerN],volume
+                   [ChannelNStemM],volume
 
 
    Adjusts the channel volume fader
@@ -2606,6 +2626,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],mute
                    [PreviewDeckN],mute
                    [SamplerN],mute
+                   [ChannelNStemM],mute
 
    Mutes the channel
 
@@ -4109,6 +4130,16 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
 
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
+
+
+.. mixxx:control:: [Skin],show_stem_controls
+
+   Toggle the STEM control section.
+
+   :range: binary
+   :feedback: STEM control section is shown/hidden.
+
+   .. versionadded:: 2.?.0
 
 
 Deprecated controls
