@@ -225,6 +225,9 @@ Controller Mappings
   `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
 * Traktor Kontrol F1: Fixes for hid-parser and related script `#12876 <https://github.com/mixxxdj/mixxx/pull/12876>`__
 * Traktor S3: Fix mapping crash on macOS `#12840 <https://github.com/mixxxdj/mixxx/pull/12840>`__
+* Behringer DDM4000 & BCR2000: Fix exception in JS code `#12969 <https://github.com/mixxxdj/mixxx/pull/12969>`__
+* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status`` `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__ `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
+* Polish fx chain controls `#12805 <https://github.com/mixxxdj/mixxx/pull/12805>`__
 
 Target Support
 ^^^^^^^^^^^^^^
@@ -235,6 +238,42 @@ Target Support
   `#12847 <https://github.com/mixxxdj/mixxx/pull/12847>`__
   `#12822 <https://github.com/mixxxdj/mixxx/pull/12822>`__
   `#12892 <https://github.com/mixxxdj/mixxx/pull/12892>`__
+  `#13079 <https://github.com/mixxxdj/mixxx/pull/13079>`__
+  `#12989 <https://github.com/mixxxdj/mixxx/pull/12989>`__
+* CMakeLists: Always prefer OpenGL framework on macOS
+  `#13080 <https://github.com/mixxxdj/mixxx/pull/13080>`__
+
+Skins
+^^^^^
+
+
+* Deere: make sampler rows persist `#12928 <https://github.com/mixxxdj/mixxx/pull/12928>`__
+* Tango: Remove unneeded waveform Singleton `#12938 <https://github.com/mixxxdj/mixxx/pull/12938>`__
+* Possible crash in customs skins using parallel waveforms `#13043 <https://github.com/mixxxdj/mixxx/pull/13043>`__ `#12580 <https://github.com/mixxxdj/mixxx/issues/12580>`__
+* Slider tooltip: consider orientation for up/down shortcut tooltips + add support for WKnobComposed `#13088 <https://github.com/mixxxdj/mixxx/pull/13088>`__
+* Tooltips: update 'hotcue' with saved loop features `#12875 <https://github.com/mixxxdj/mixxx/pull/12875>`__
+
+Library
+^^^^^^^
+
+
+* Sidebar: show track count and duration of History playlists
+  `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__
+  `#13020 <https://github.com/mixxxdj/mixxx/pull/13020>`__
+  `#13019 <https://github.com/mixxxdj/mixxx/issues/13019>`__
+  `#12788 <https://github.com/mixxxdj/mixxx/issues/12788>`__
+  `#12880 <https://github.com/mixxxdj/mixxx/issues/12880>`__
+  `#12882 <https://github.com/mixxxdj/mixxx/pull/12882>`__
+* Computer feature: update removable devices on Linux `#12893 <https://github.com/mixxxdj/mixxx/pull/12893>`__ `#12891 <https://github.com/mixxxdj/mixxx/issues/12891>`__
+* Playlists: Prevent removing tracks from locked playlists `#12927 <https://github.com/mixxxdj/mixxx/pull/12927>`__
+* History feature: Fix removing deleted tracks after export
+  `#13016 <https://github.com/mixxxdj/mixxx/pull/13016>`__
+  `#13000 <https://github.com/mixxxdj/mixxx/issues/13000>`__
+* BPM display uses decimal separator of selected locale `#13067 <https://github.com/mixxxdj/mixxx/pull/13067>`__ `#13051 <https://github.com/mixxxdj/mixxx/issues/13051>`__
+* Fix relink directory when migrate between Linux/macOS and Windows `#12878 <https://github.com/mixxxdj/mixxx/pull/12878>`__
+* Allow adding new directories while watched directories are missing
+  `#12937 <https://github.com/mixxxdj/mixxx/pull/12937>`__
+  `#10481 <https://github.com/mixxxdj/mixxx/issues/10481>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -242,8 +281,15 @@ Miscellaneous
 
 * Remove unnecessary unpolish operation of the style, before polish the new style `#12445 <https://github.com/mixxxdj/mixxx/pull/12445>`__
 * Developer Tools: Initially sort controls by group name, ascending `#12884 <https://github.com/mixxxdj/mixxx/pull/12884>`__
-* History: Show track count and duration in sidebar `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__
-* Prevent removing tracks from locked playlists `#12927 <https://github.com/mixxxdj/mixxx/pull/12927>`__
+* Waveforms: Fix scratching crossing loop boundaries `#13007 <https://github.com/mixxxdj/mixxx/pull/13007>`__
+* Prohibit un-replace when deck is playing `#13023 <https://github.com/mixxxdj/mixxx/pull/13023>`__ `#12906 <https://github.com/mixxxdj/mixxx/issues/12906>`__
+* Track Properties dialog: Prevent wiping metadata when applying twice quickly
+  `#12965 <https://github.com/mixxxdj/mixxx/pull/12965>`__
+  `#12963 <https://github.com/mixxxdj/mixxx/issues/12963>`__
+* AutoDJ: Fix button state after error message about playing deck 3/4
+  `#12976 <https://github.com/mixxxdj/mixxx/pull/12976>`__
+  `#12975 <https://github.com/mixxxdj/mixxx/issues/12975>`__
+* Tagfetcher: Cache fetched covers `#12301 <https://github.com/mixxxdj/mixxx/pull/12301>`__ `#11084 <https://github.com/mixxxdj/mixxx/issues/11084>`__
 
 .. _v2-4-0:
 
