@@ -253,7 +253,7 @@ msgstr ""
 "Bijvoorbeeld, de volumeglijder voor Deck 1 wordt geïdentificeerd door de "
 "groep :mixxx:cogroupref:`[Channel1] <[ChannelN]>` en de key "
 ":mixxx:coref:`volume <[Channel1],volume>`. Naar analogie wordt de volume "
-"glijder voor Sampler 1 geidetificeerd met de group "
+"glijder voor Sampler 1 geïdentificeerd met de group "
 ":mixxx:cogroupref:`[Sampler1] <[SamplerN]>` en de key :mixxx:coref:`volume "
 "<[Sampler1],volume>`."
 
@@ -279,8 +279,8 @@ msgid ""
 msgstr ""
 "Ter aanvulling aan de bediening van Mixxx, kan het control systeem worden "
 "gebruikt om de staat van Mixxx te controleren. Bv de sample rate van de "
-"trackdie in Deck 1 is geladen ken worden bereikt "
-"door:mixxx:coref:`[Channel1],track_samplerate` control. U kan "
+"track die in Deck 1 is geladen kan worden bereikt "
+"door :mixxx:coref:`[Channel1],track_samplerate` control. U kan "
 ":mixxx:coref:`[Channel3],play` uitlezen om te bepalen of Deck 3 aan het "
 "afspelen is."
 
@@ -323,7 +323,7 @@ msgid ""
 msgstr ""
 "Wanneer Mixxx in de Ontwikkelaarsmodus wordt gestart (met de ``--developer``"
 " opdrachtpromptoptie), dan kan u elke control bekijken en manueel de staat "
-"aan-passen in Mixxx door te gaan naar:menuselection:`Ontwikkelaar --> "
+"aan-passen in Mixxx door te gaan naar :menuselection:`Ontwikkelaar --> "
 "Ontwikkelaar Hulpmiddelen`."
 
 #: ../../chapters/appendix/mixxx_controls.rst:48
@@ -343,19 +343,19 @@ msgstr ""
 "Terwijl eenvoudige besturingskoppelingen met slechts enkele toetsen, knoppen"
 " en LEDs eenvoudig kunnen worden gecreëerd met de MIDI Wizard en wat basis "
 "scripting, kan meer complex gedrag zoals deck layers verwisselen of pad grid"
-" modes aanpassen ingewikkelder eijn en zeer gevoelig voor fouten. Voor deze "
-"gevallen kan u de Mixxx' `Components-JS bibliotheek gebruiken, "
+" modes aanpassen, dit kan ingewikkelder zijn en is zeer gevoelig voor fouten. "
+"Voor deze gevallen kan u de Mixxx' `Components-JS bibliotheek gebruiken, "
 "<https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_ deze voorziet in "
 "bouwstenen for eenvoudige bedieningen alsook in bouwstenen voor gehele decks"
 " en effect units."
 
 #: ../../chapters/appendix/mixxx_controls.rst:57
 msgid "See :ref:`controlindex` for a full list."
-msgstr "Bekijke :ref:`controlindex` voor een bolledige lijst."
+msgstr "Bekijke :ref:`controlindex` voor een volledige lijst."
 
 #: ../../chapters/appendix/mixxx_controls.rst:63
 msgid "ControlPotMeter controls"
-msgstr ""
+msgstr "Control Draaiknoppen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:65
 msgid ""
@@ -364,7 +364,7 @@ msgid ""
 "``[SamplerN]``, ``[Master]``, ... groups."
 msgstr ""
 "De volgende uitbreidingen voegen enkele mogelijkheden toe aan "
-"``ControlPotMeter`` controls (volume, :term:`crossfader`, ...). Gebruik ze "
+"``Draaiknoppen`` (volume, :term:`crossfader`, ...). Gebruik ze "
 "in combinatie met ``[ChannelN]``, ``[SamplerN]``, ``[Master]``,  ... groups."
 
 #: ../../chapters/appendix/mixxx_controls.rst:70
@@ -502,7 +502,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:103
 msgid "The ``[App]`` group"
-msgstr "De ``[App]`` group"
+msgstr "De ``[App]`` groep"
 
 #: ../../chapters/appendix/mixxx_controls.rst:105
 msgid ""
@@ -551,7 +551,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:4007
 #: ../../chapters/appendix/mixxx_controls.rst:4034
 msgid "binary, read-only"
-msgstr ""
+msgstr "binair, alleen-lezen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:0
 msgid "feedback"
@@ -595,7 +595,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:4174
 #: ../../chapters/appendix/mixxx_controls.rst:4186
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:124
 msgid "Alternates between 0.0 and 1.0 every 500 milliseconds."
@@ -753,7 +753,8 @@ msgstr ""
 msgid ""
 "This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-"
 "controlpotmeter>`."
-msgstr "Dit is een :ref:`ControlPotMeter control <appendix-mixxxcontrols-"
+msgstr "Dit is een :ref:`Draaiknopcontrol <appendix-mixxxcontrols-"
+"controlpotmeter>`."
 
 #: ../../chapters/appendix/mixxx_controls.rst:216
 msgid "0 .. 25 %"
@@ -761,7 +762,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:217
 msgid "latency meter"
-msgstr ""
+msgstr "latentie meter"
 
 #: ../../chapters/appendix/mixxx_controls.rst:224
 msgid "Indicates a buffer under or over-flow. Resets after 500 ms"
@@ -1028,7 +1029,7 @@ msgstr "Beweegt de :term:`crossfader` naar rechts met 1/100e."
 
 #: ../../chapters/appendix/mixxx_controls.rst:324
 msgid "Microphone ducking strength"
-msgstr "Microphone onderdrukkingssterkte strength"
+msgstr "Microphone onderdrukkingssterkte"
 
 #: ../../chapters/appendix/mixxx_controls.rst:328
 #: ../../chapters/appendix/mixxx_controls.rst:3791
@@ -1093,7 +1094,7 @@ msgstr "Past de cue/main mix in de hoofdtelefoon aan."
 #: ../../chapters/appendix/mixxx_controls.rst:3034
 #: ../../chapters/appendix/mixxx_controls.rst:4379
 msgid "default"
-msgstr ""
+msgstr "standaard"
 
 #: ../../chapters/appendix/mixxx_controls.rst:386
 msgid "Pre/Main knob"
@@ -1116,7 +1117,7 @@ msgid ""
 ":term:`Latency <latency>` setting (sound buffer size) in milliseconds "
 "(default 64)."
 msgstr ""
-":term:`Latency <latency>` instelling (sound buffer grootte) in milliseconds "
+msgstr ":term:`Latentie <latency>` instelling (sound buffer grootte) in milliseconds "
 "(default 64)."
 
 #: ../../chapters/appendix/mixxx_controls.rst:403
@@ -1125,7 +1126,7 @@ msgstr ">=0 (absolute waarde)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:404
 msgid "Latency slider in the prefs"
-msgstr "Latency glijder in the voorkeuren"
+msgstr ":term:`Latentie glijder in the voorkeuren"
 
 #: ../../chapters/appendix/mixxx_controls.rst:409
 msgid ""
@@ -1168,7 +1169,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:2025
 #: ../../chapters/appendix/mixxx_controls.rst:2926
 msgid "Clip light (left)"
-msgstr ""
+msgstr "Clip licht (links)
 
 #: ../../chapters/appendix/mixxx_controls.rst:439
 msgid ""
@@ -1182,11 +1183,11 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:2039
 #: ../../chapters/appendix/mixxx_controls.rst:2939
 msgid "Clip light (right)"
-msgstr ""
+msgstr "Clip licht (rechts)
 
 #: ../../chapters/appendix/mixxx_controls.rst:449
 msgid "Toggle microphone ducking mode (OFF, AUTO, MANUAL)"
-msgstr "Schakel microfoone onderdrukinsmodus (UIT, AUTO, MANUEEL)"
+msgstr "Schakel microfoon onderdrukingsmodus (UIT, AUTO, MANUEEL)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:451
 msgid "FIXME"
@@ -1198,7 +1199,7 @@ msgstr "Ducking modus toets"
 
 #: ../../chapters/appendix/mixxx_controls.rst:459
 msgid "Outputs the current instantaneous main volume (composite)."
-msgstr "Geeft het huidige momentele Outputvolumeniveau weer (samengesteld)."
+msgstr "Geeft het huidige Outputvolumeniveau weer (samengesteld)."
 
 #: ../../chapters/appendix/mixxx_controls.rst:464
 msgid "Main meter (mono)"
@@ -1207,7 +1208,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:469
 msgid "Outputs the current instantaneous main volume for the left channel."
 msgstr ""
-"Geeft het huidige momentele Outputvolumeniveau weer voor het linker kanaal."
+"Geeft het huidige Outputvolumeniveau weer voor het linker kanaal."
 
 #: ../../chapters/appendix/mixxx_controls.rst:474
 msgid "Main meter L"
@@ -1793,7 +1794,7 @@ msgid ""
 "key. If 0 or a negative number is given, Mixxx will attempt to select the "
 "first playing deck as the source for the clone."
 msgstr ""
-"Kloon het gegeven deck number, kopiëert de speelstatus, positie, rate, en "
+"Kloon het gegeven deck number, kopiëert de afspeelstatus, positie, rate, en "
 "key. Indien 0 of een negatief getal wordt meegegeven, dan zal Mixxx proberen"
 " om het eerste spelende deck als bron voor het klonen te gebruiken."
 
@@ -1824,7 +1825,7 @@ msgstr "integer tussen 1 en :mixxx:coref:`[App],num_samplers` (inclusief)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:915
 msgid "Load the track currently loaded to the given deck number."
-msgstr "Laad de momenteel geladen track naar het opgegeven deck nummer."
+msgstr "Laadt de momenteel geladen track naar het opgegeven deck nummer."
 
 #: ../../chapters/appendix/mixxx_controls.rst:917
 msgid "integer between 1 and :mixxx:coref:`[App],num_decks` (inclusive)"
@@ -1838,7 +1839,7 @@ msgstr "Track naam & waveform wijzigingen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:927
 msgid "Load the track currently loaded to the given sampler number."
-msgstr "Laad de momenteel geladen track naar de het opgegeven sampler nummer."
+msgstr "Laadt de momenteel geladen track naar de het opgegeven sampler nummer."
 
 #: ../../chapters/appendix/mixxx_controls.rst:939
 msgid ""
@@ -2054,7 +2055,7 @@ msgid ""
 ":menuselection:`Preferences --> Waveforms --> End of track warning`."
 msgstr ""
 "Springt op 1 indien de afspeelpositie binnen het einde-bereik ligt dat "
-"gedefinieerd is in:menuselection:`Voorkeuren --> Waveforms --> Einde van de "
+"gedefinieerd is in :menuselection:`Voorkeuren --> Waveforms --> Einde van de "
 "track waarschuwen`."
 
 #: ../../chapters/appendix/mixxx_controls.rst:1129
@@ -2129,7 +2130,7 @@ msgstr ""
 "(bv. :mixxx:coref:`loop_start_position <[ChannelN],loop_start_position>`, "
 ":mixxx:coref:`loop_end_position <[ChannelN],loop_end_position>` en "
 ":mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`) aangepast "
-"ingesteld.Net zoals :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>`,"
+"ingesteld. Net zoals :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>`,"
 " de speler zoekt terug naar de lus-startpositie wanneer de huidige afspeel-"
 "positie zich achter de lus bevindt en activeert zonder zoeken wanneer de "
 "afspeelpositie zich in of voor de lus-startpositie bevindt. Dit staat lus-"
@@ -2390,11 +2391,11 @@ msgid ""
 "<[ChannelN],hotcue_X_type>` will be set to \"Loop\"."
 msgstr ""
 "Stelt een :term:`hotcue` in op de huidige afspeelpositie en slaat deze op "
-"als hotcue X van :mixxx:coref:`type <[ChannelN],hotcue_X_type>` \"Hotcue\". "
+"als hotcue X van :mixxx:coref:`type <[ChannelN],hotcue_X_type>` 'Hotcue'. "
 "In geval dat er momenteel een lus geactiveerd is (bv. als "
 "`[ChannelN],loop_enabled`ingesteld is op 1), dan zal de lus opgeslagen "
-"worden als hotcue X in de plaats en en het :mixxx:coref:`hotcue_X_type "
-"<[ChannelN],hotcue_X_type>` zal ingesteld worden als \"Loop\"."
+"worden als hotcue X in de plaats en het :mixxx:coref:`hotcue_X_type "
+"<[ChannelN],hotcue_X_type>` zal ingesteld worden als 'Lus'."
 
 #: ../../chapters/appendix/mixxx_controls.rst:1366
 msgid ""
@@ -3442,7 +3443,7 @@ msgid ""
 " It is reset after loading a new track."
 msgstr ""
 "Wijzigt de pitch ter aanvulling tot de :term:`tempo` glijder pitch en "
-"keylock.De waarde wordt gereset wanneer een nieuwe track wordt geladen."
+"keylock. De waarde wordt gereset wanneer een nieuwe track wordt geladen."
 
 #: ../../chapters/appendix/mixxx_controls.rst:2101
 msgid "-3.0..3.0 semitones"
@@ -4179,8 +4180,8 @@ msgid ""
 " the prelisten function."
 msgstr ""
 "In tegenstelling tot :ref:`decks, preview decks and samplers <appendix-"
-"mixxxcontrols-decks>`, microfoons en auxiliaire kanalen zijn input kanalen.U"
-" kan de inputs van de audio interface verbinden met Mixxx's auxiliaire input"
+"mixxxcontrols-decks>`, zijn microfoons en auxiliaire kanalen input kanalen. "
+"U kan de inputs van de audio interface verbinden met Mixxx's auxiliaire input"
 " kanalen en externe audio bronnen ermee verbinden (smartphone, mp3 speler). "
 "Hiervan kan u met uw :term:`MIDI` controller het volume en enkele andere "
 "parameters besturen (balans, gain, :term:`volume`), effecten toepassen en de"
@@ -4311,7 +4312,7 @@ msgstr ""
 "Staat toe om het \"phono\" niveau van aangesloten platendraaiers te "
 "versterken tot \"line\" niveau. Dit is gelijkwaardig aan het instellen van "
 ":ref:`turntable boost <vinyl-control-config-gain>` in :menuselection:`Opties"
-" --> Voorkeuren --> Vinyl besturing"
+" --> Voorkeuren --> Vinyl besturing`"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3061
 msgid ""
@@ -4341,7 +4342,7 @@ msgid ""
 "query and control the :ref:`recording of your mix <djing-recording-your-"
 "mix>`."
 msgstr ""
-"De besturingselementen in de :mixxx:cogroupref:`[Recording]` group kunnen "
+"De besturingselementen in de :mixxx:cogroupref:`[Recording]` groep kunnen "
 "gebruikt worden om de :ref:`recording of your mix <djing-recording-your-"
 "mix>` te bevragen en te besturen."
 
@@ -4818,15 +4819,15 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:3395
 #: ../../chapters/appendix/mixxx_controls.rst:3405
 msgid "Library view"
-msgstr ""
+msgstr "Bibliotheek weergave"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3390
 msgid "Decrease the size of the library font"
-msgstr ""
+msgstr "Verkleint de grootte van het bibliotheek-lettertype."
 
 #: ../../chapters/appendix/mixxx_controls.rst:3400
 msgid "Increase or decrease the size of the library font"
-msgstr "Verkleint de grootte van het bibliotheek-lettertype."
+msgstr "Vergroot of verkleint de grootte van het bibliotheek-lettertype."
 
 #: ../../chapters/appendix/mixxx_controls.rst:3404
 msgid "Relative"
@@ -5020,8 +5021,8 @@ msgid ""
 msgstr ""
 "Evenwaardig aan clicken op de kolomhoofding. Een nieuwe waarde stelt "
 ":mixxx:coref:`[Library],sort_column` op die waarde en stelt "
-":mixxx:coref:`[Library],sort_order` in op 0Dezelfde waarde opnieuw instellen"
-" wijzigt opnieuw de :mixxx:coref:`[Library],sort_order`."
+":mixxx:coref:`[Library],sort_order` in op 0. Dezelfde waarde opnieuw '
+'instellen wijzigt opnieuw de :mixxx:coref:`[Library],sort_order`."
 
 #: ../../chapters/appendix/mixxx_controls.rst:3459
 msgid ""
@@ -6013,7 +6014,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:4377
 msgid "Adjusts the intensity of the filter effect."
-msgstr "Beïnvloedt de intesiteit van het filter effect."
+msgstr "Beïnvloedt de intensiteit van het filter effect."
 
 #: ../../chapters/appendix/mixxx_controls.rst:4380
 msgid "Filter depth knob"

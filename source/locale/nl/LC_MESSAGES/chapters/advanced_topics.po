@@ -290,7 +290,7 @@ msgstr "Start Mixxx"
 
 #: ../../chapters/advanced_topics.rst:44
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr "Ga naar :menuselectie:`Voorkeuren --> Besturingen` of controllers"
+msgstr "Ga naar :menuselection:`Voorkeuren --> Besturingen` of controllers"
 
 #: ../../chapters/advanced_topics.rst:45
 msgid ""
@@ -311,7 +311,7 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:49
 msgid "Click any control in the Mixxx :term:`GUI`"
-msgstr "Klik op een willekeurig besturingselement in de Mixxx: term: `GUI`"
+msgstr "Klik op een willekeurig besturingselement in de Mixxx :term:`GUI`"
 
 #: ../../chapters/advanced_topics.rst:50
 msgid ""
@@ -327,9 +327,9 @@ msgid ""
 "controller to map it.  You can also move a control without pushing the "
 ":guilabel:`Learn` button if you are learning many controls."
 msgstr ""
-"Druk op: guilabel: `Leren` en beweeg vervolgens een besturingselement of "
+"Druk op :guilabel:`Leren` en beweeg vervolgens een besturingselement of "
 "druk op een toets op je controller om deze te koppelen. U kunt ook een "
-"besturingselement bewegen zonder op de: guilabel: `Leren`-knop te drukken "
+"besturingselement bewegen zonder op de :guilabel:`Leren`-knop te drukken "
 "als u veel besturingselementen aan het aanleren bent."
 
 #: ../../chapters/advanced_topics.rst:55
@@ -348,14 +348,14 @@ msgid ""
 "control."
 msgstr ""
 "Nadat Mixxx het besturingselement heeft gedetecteerd, kunt u klikken op: "
-"guilabel: `Andere Aanleren` of u kunt op een andere knop in de Mixxx: term:`"
-" GUI` klikken om een ander besturingselement aan te leren."
+"guilabel: `Andere Aanleren` of u kunt op een andere knop in de Mixxx :term:`"
+"GUI` klikken om een ander besturingselement aan te leren."
 
 #: ../../chapters/advanced_topics.rst:60
 msgid "When you are finished mapping controls, click :guilabel:`Done`"
 msgstr ""
 "Wanneer u klaar bent met het toewijzen van de besturingselementen, klikt u "
-"op :guilabel: `Klaar`"
+"op :guilabel:`Klaar`"
 
 #: ../../chapters/advanced_topics.rst:62
 msgid ""
@@ -433,9 +433,9 @@ msgid ""
 "can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI "
 "Scripting <advanced-controller-midiscript>` instead."
 msgstr ""
-"De Controller Wizard werkt alleen voor: term: `MIDI`-apparaten. Momenteel "
+"De Controller Wizard werkt alleen voor :term:`MIDI`-apparaten. Momenteel "
 "kunt u geen modificatietoetsen (shift-toetsen) en plaat-rotaties toewijzen. "
-"Gebruik in plaats daarvan: ref: `MIDI Scripting <advanced-controller-"
+"Gebruik in plaats daarvan :ref:`MIDI Scripting <advanced-controller-"
 "midiscript>`."
 
 #: ../../chapters/advanced_topics.rst:93
@@ -490,12 +490,12 @@ msgid ""
 msgstr ""
 "Voor meer informatie, ga naar `<https://github.com/mixxxdj/mixxx/wiki/Midi-"
 "Scripting>`_ en `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_ , als"
-" ook de`Comonents-JS library "
+" ook de`Components-JS library "
 "<https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_ welke de toewijzing "
 "veel gemakkelijker maakt, bijvoorbeeld voor effect units en complex gedrag "
 "zoals schakelen tussen decklagen of pad grid modi. Let op: dit is de "
 "aangewezen manier van toewijzen wanneer u uw toewijzingsbestand wil "
-"toevoegen aan Mixxx vermits Components-JS zowel jet toewijzen als het "
+"toevoegen aan Mixxx vermits Components-JS zowel het toewijzen als het "
 "nakijken van Pull Requests veel simpeler maakt"
 
 #: ../../chapters/advanced_topics.rst:118
@@ -674,7 +674,7 @@ msgid ""
 "<http://ju-x.com/hostingau.html>`_, a free micro-sized :term:`DAW` that "
 "hosts Audio Unit instruments and effect plugins."
 msgstr ""
-"Als alternatief kan u `Blackhole proberen, "
+"Als alternatief kan u `Blackhole proberen "
 "<https://github.com/ExistentialAudio/BlackHole>`_, een moderne virtuele "
 "audio besturing die applicaties toestaat om audio door te sturen naar andere"
 " applicaties zonder additionele :term:`latency`, en `Hosting AU "

@@ -64,7 +64,7 @@ msgstr ""
 "van door gebruikers aangeleverde audio vingerafdrukken met ver-wijzingen "
 "naar de :term:`MusicBrainz` :term:`metadata` database én een webservice aan "
 "te bieden voor de identificatie van audiobestanden met behulp van deze "
-"database. Voor meer informatie, zie`<https://acoustid.org/>`_."
+"database. Voor meer informatie, zie `<https://acoustid.org/>`_  ."
 
 #: ../../glossary.rst:269
 msgid "AIFF"
@@ -106,7 +106,7 @@ msgstr ""
 " AAC en gebruiken dezelfde bestandsextensies (:file:`m4a`, :file:`mp4`). "
 "Mixxx en vele andere programma's zijn niet compatibel met ALAC. Het wordt "
 "aanbevolen om deze ALAC bestanden te converteren naar :term:`FLAC` voor "
-"gebruik in Mixxx.Ondertussen kan Mixxx werken met deze bestanden."
+"gebruik in Mixxx. Ondertussen kan Mixxx werken met deze bestanden."
 
 #: ../../glossary.rst:484
 msgid "API"
@@ -401,7 +401,7 @@ msgid ""
 msgstr ""
 "Hoofdtelefoon cueing, of gewoon cueing, is het voorbeluisteren in de hoofd-"
 "telefoon van het volgende track die u wil mixen. Het publiek zal niet horen "
-"wat u in de hoofdtelefoon cuet. IDe mogelijkheid om te cueën is een cruciaal"
+"wat u in de hoofdtelefoon cuet. De mogelijkheid om te cueën is een cruciaal"
 " aspect van het DJ'en."
 
 #: ../../glossary.rst:510
@@ -639,7 +639,7 @@ msgstr ""
 
 #: ../../glossary.rst:68
 msgid "head/mix button"
-msgstr "head/mix button"
+msgstr "head/mix toets"
 
 #: ../../glossary.rst:70
 msgid ""
@@ -657,7 +657,7 @@ msgstr ""
 
 #: ../../glossary.rst:53
 msgid "headphone button"
-msgstr "headphone button"
+msgstr "hoofdtelefoon toets"
 
 #: ../../glossary.rst:55
 msgid ""
@@ -669,7 +669,7 @@ msgstr ""
 
 #: ../../glossary.rst:31
 msgid "headphone output"
-msgstr "headphone output"
+msgstr "hoofdtelefoon output"
 
 #: ../../glossary.rst:33
 msgid "The headphone output is what you hear in your headphones."
@@ -706,7 +706,7 @@ msgid ""
 "track. DJs usually place hotcues at distinctive positions within a track "
 "such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues."
 msgstr ""
-"Vergelijkbaar met het hoofd :term: `cue` punt, een hotcue is een referentie-"
+"Vergelijkbaar met het hoofd :term:`cue`-punt, een hotcue is een referentie-"
 "punt in de track. DJ's plaatsen hotcues meestal op kenmerkende posities "
 "binnen een track zoals drops, breaks of kicks en snares. Mixxx ondersteunt "
 "tot 36 hotcues."
@@ -789,7 +789,7 @@ msgstr "key (toonaard)"
 
 #: ../../glossary.rst:471
 msgid "Short for \"musical key\" (i.e. C major)."
-msgstr "afkorting voor 'muziekale toonaard' (bv: C majeur)."
+msgstr "afkorting voor 'muzikale toonaard' (bv: C majeur)."
 
 #: ../../glossary.rst:48
 msgid "key lock"
@@ -1327,10 +1327,10 @@ msgid ""
 ":term:`phase` (if :term:`quantization` is enabled) in order to stay in "
 ":term:`sync` with other decks that are in sync lock mode."
 msgstr ""
-"Sync lock-modus past voortdurend het :term:`tempo` en de :term:`phase`van "
-"een track aan (als :term:`quantization` is ingeschakeld) om i:term:`sync` te"
-" blijven met andere decks die in de synchronisatie-vergrendelingsmodus "
-"staan."
+"Sync lock-modus past voortdurend het :term:`tempo` en de :term:`phase` "
+"van een track aan (als :term:`quantization` is ingeschakeld) om in "
+":term:`sync` te blijven met andere decks die in de synchronisatie-"
+"vergrendelingsmodus staan."
 
 #: ../../glossary.rst:217
 msgid "tempo"
@@ -1458,7 +1458,7 @@ msgstr ""
 
 #: ../../glossary.rst:44
 msgid "waveform overview"
-msgstr ""
+msgstr "waveform overzicht"
 
 #: ../../glossary.rst:46
 msgid ""
@@ -1471,7 +1471,7 @@ msgstr ""
 
 #: ../../glossary.rst:40
 msgid "waveform summary"
-msgstr ""
+msgstr "waveform samenvatting"
 
 #: ../../glossary.rst:42
 msgid ""
