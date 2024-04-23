@@ -227,11 +227,11 @@ msgstr "Mixxx installeren"
 
 #: ../../chapters/getting_started.rst:10
 msgid ""
-"After `downloading Mixxx from our Website <https://mixxx.org/download/>`_, "
+"After `downloading Mixxx from our Website `<https://mixxx.org/download/>`_, "
 "you need to install it on your computer."
 msgstr ""
 "Na het downloaden van Mixxx van onze Website "
-"<https://mixxx.org/download/>`_, moet je Mixxx installeren op je computer."
+"`<https://mixxx.org/download/>`_, moet je Mixxx installeren op je computer."
 
 #: ../../chapters/getting_started.rst:14 ../../chapters/getting_started.rst:48
 msgid "**Windows**"

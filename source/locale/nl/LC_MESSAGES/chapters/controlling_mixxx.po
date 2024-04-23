@@ -345,6 +345,7 @@ msgstr "Mixxx Toetsenbord snelkoppelingen (voor en-us toetsenbordindeling)"
 msgid ""
 ":download:`Download the image <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 msgstr ""
+":download:`De afbeelding downloaden <../_static/Mixxx-240-Keyboard-Mapping.png>`"
 
 #: ../../chapters/controlling_mixxx.rst:64
 msgid ""
@@ -379,7 +380,8 @@ msgstr ""
 "Voor sommige gebruikersgroepen, zoals degenen die: term: `controllers "
 "<controller>` of: term: `vinyl control` gebruiken, kan het handig zijn om de"
 " toetsenbord mappings tijdens runtime in/uit te schakelen. U kunt dit doen "
-"door te klikken op :menuselection: `Options -> Enable Keyboard Shortcuts`."
+"door te klikken op :menuselection:`Options -> Toetsenbord snelkoppelingen "
+"activeren`."
 
 #: ../../chapters/controlling_mixxx.rst:77
 msgid ""
@@ -433,21 +435,22 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:103
 msgid "Loading a controller mapping"
-msgstr ""
+msgstr "Een controller verbindingsbestand laden"
 
 #: ../../chapters/controlling_mixxx.rst:111
 msgid "Mixxx Preferences - Loading a controller mapping"
-msgstr ""
+msgstr "Mixxx Voorkeuren - Een controller verbindingsbestand laden"
 
 #: ../../chapters/controlling_mixxx.rst:113
 msgid ""
 "Without loading the correct mapping, your controller does not work with "
 "Mixxx."
-msgstr ""
+msgstr "Zonder het juiste controller verbindingsbestand werkt uw controller "
+"niet met Mixxx."
 
 #: ../../chapters/controlling_mixxx.rst:115
 msgid "Connect your controller(s) to your computer"
-msgstr "Connecteer uw controller(s) met uw computer"
+msgstr "Verbindt uw controller(s) met uw computer"
 
 #: ../../chapters/controlling_mixxx.rst:116
 msgid "Start Mixxx"
@@ -455,7 +458,7 @@ msgstr "Start Mixxx"
 
 #: ../../chapters/controlling_mixxx.rst:117
 msgid "Go to :menuselection:`Preferences --> Controllers`"
-msgstr "Ga naar :menuselectie:`Voorkeuren --> Besturingen` of controllers"
+msgstr "Ga naar :menuselection:`Voorkeuren --> Besturingen` of controllers"
 
 #: ../../chapters/controlling_mixxx.rst:118
 msgid ""
@@ -470,17 +473,18 @@ msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Mapping` "
 "drop-down menu"
 msgstr ""
+"Selecteer het verbindingsbestand voor uw controller uit de :guilabel:`Laad " "Verbindingsbestand` drop-down menu"
 
 #: ../../chapters/controlling_mixxx.rst:122
 msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
-msgstr ""
+msgstr "Verzeker u ervan dat de checkbox :guilabel:`Geactiveerd` aangevinkt is"
 
 #: ../../chapters/controlling_mixxx.rst:123
 msgid ""
 "Click :guilabel:`Apply` and Mixxx can now be controlled by your "
 "controller(s)."
 msgstr ""
-"Klik :guilabel: `Toepassen` en Mixxx kan nu worden bestuurd door uw "
+"Klik :guilabel:`Toepassen` en Mixxx kan nu worden bestuurd door uw "
 "controller(s)."
 
 #: ../../chapters/controlling_mixxx.rst:124
@@ -507,7 +511,7 @@ msgid ""
 "comes bundled with a number of mappings for various devices. There are two "
 "levels of controller mappings:"
 msgstr ""
-"Mixxx kan elke :term: `MIDI`/:term:`HID`-controller gebruiken die wordt "
+"Mixxx kan elke :term:`MIDI`/:term:`HID`-controller gebruiken die wordt "
 "herkend door je :term:`OS <operating system>` (sommige vereisen mogelijk "
 "stuurprogramma's), zolang er een MIDI/HID-mappingsbestand is om Mixxx te "
 "vertellen hoe ze het moet interpreteren. Mixxx wordt geleverd met een aantal"
@@ -550,7 +554,8 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:150
 msgid "Additional mappings are available in the `Controller mapping forum`_."
-msgstr ""
+msgstr "Er zijn aanvullende verbindingsbestanden te vinden in het `Controller "
+"mapping forum`_."
 
 #: ../../chapters/controlling_mixxx.rst:152
 msgid ""
@@ -576,6 +581,13 @@ msgid ""
 "system>` file browser to navigate there. The locations and more details can "
 "be found in :ref:`appendix-settings-files`."
 msgstr ""
+"Om een controller verbindingsbestand te gebruiken dat niet gebundeld was met "
+"de Mixxx-installatiebestanden, plaats het controller verbindingsbestand in "
+"uw Gebruikers Verbindingsbestanden Map. Om deze te openen, ga naar "
+":menuselection:`Voorkeuren --> Controllers` en klik op :guilabel:`Open "
+"Gebruikers Verbindingsbestanden Map` toets. U kan ook de :term:`OS <operating "
+"system>` bestands verkenner gebruiker om naar deze locatie te gaan. de locatie "
+"en meer details kan u vinden in :ref:`appendix-settings-files`."
 
 #: ../../chapters/controlling_mixxx.rst:167
 msgid ""
@@ -586,10 +598,17 @@ msgid ""
 "file, also copy that to your User Mapping folder. Restart Mixxx and "
 ":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
+"Indien het verbindingsbestand als een :file:`.zip` bestand op het forum werd "
+"gezet, dan dient u dit :file:`.zip` bestand eerst uit te pakken door er rechts "
+"op te klikken in uw bestands verkenner en door de optie om een archiefbestand of "
+"een gecomprimeerde map uit te pakken. Kopieer het :file:`.xml` bestand naar uw "
+"Gebruikers Verbindingsbestanden Map. Indien er ook een :file:`.js` bestand aanwezig "
+"is, kopieert u dit bestand ook naar de Gebruikers Verbindingsbestanden Map. "
+"Herstart Mixxx en ":ref:`laadt het controller verbindingsbestand " "<control-load-mapping>`."
 
 #: ../../chapters/controlling_mixxx.rst:174
 msgid "Map your own controller"
-msgstr ""
+msgstr "Maak een eigen controller verbindingsbestand"
 
 #: ../../chapters/controlling_mixxx.rst:176
 msgid ""
@@ -597,7 +616,7 @@ msgid ""
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
 msgstr ""
-"Is er geen mapping beschikbaar voor uw controller of wilt u een bestaande "
+"Is er geen verbindingsbestand beschikbaar voor uw controller of wilt u een bestaande "
 "mapping wijzigen? U kunt uw controller mappen met behulp van de Controller "
 "Wizard of de volledige controle overnemen met de MIDI Scripting "
 "ondersteuning in Mixxx."
@@ -605,7 +624,7 @@ msgstr ""
 #: ../../chapters/controlling_mixxx.rst:180
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr ""
-"Ga naar :ref:`geavanceerde-controller` voor meer gedetailleerde informatie."
+"Ga naar :ref:`geavanceerde --> controller` voor meer gedetailleerde informatie."
 
 #: ../../chapters/controlling_mixxx.rst:185
 msgid "Using Timecode Vinyl Records and CDs"
@@ -620,6 +639,12 @@ msgid ""
 "vinyl control allows that feel to be preserved while retaining the benefits "
 "of using digital audio."
 msgstr ""
+":term:`Vinyl control<vinyl control>` staat een gebruiker toe om het afspelen "
+"van een track in Mixxx te bedienen met een draaitafel of :term:`CDJ` als een "
+"interface. In werkelijkheid, simuleert het het geluid en aanvoelen alsof u uw "
+"gehele digitale muziekcollectie op vinyl heeft. Veel DJs verkiezen het handig "
+"aanvoelen van vinyl en vinyl control staat hen toe dat gevoel te hebben en "
+"tegelijk het gemak en de voordelen te ervaren van digital audio."
 
 #: ../../chapters/controlling_mixxx.rst:193
 msgid "Go to :ref:`vinyl-control` for detailed information."

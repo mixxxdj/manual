@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../../chapters/vinyl_control.rst:20
 msgid "How does it work?"
-msgstr ""
+msgstr "Hoe werkt het?"
 
 #: ../../chapters/vinyl_control.rst:22
 msgid ""
@@ -254,7 +254,7 @@ msgstr ""
 "uitvoer van de draaitafels is aangesloten op een audio-interface die wordt "
 "aangesloten op een computer waarop Mixxx draait. Wanneer een plaat wordt "
 "afgespeeld op één van de aangesloten draaitafels, leest Mixxx de tijdcode "
-"uit de plaat en ge-bruikt deze informatie om om het even welke track te "
+"uit de plaat en gebruikt deze informatie om om het even welke track te "
 "manipuleren."
 
 #: ../../chapters/vinyl_control.rst:34
@@ -420,8 +420,8 @@ msgid ""
 "scratch sound will start to become distorted."
 msgstr ""
 "Voor de beste scratchprestaties met vinyl control raden wij het gebruik van "
-"een systeem aan dat geschikt is voor :term:`latencies <latency>` van 10 ms. "
-"Bij hogere latencies zal het scratchgeluid vervormd worden."
+"een systeem aan dat geschikt is voor :term:`latenties <latency>` van 10 ms. "
+"Bij hogere latenties zal het scratchgeluid vervormd worden."
 
 #: ../../chapters/vinyl_control.rst:119
 msgid ""
@@ -510,7 +510,7 @@ msgstr ""
 
 #: ../../chapters/vinyl_control.rst:168
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
-msgstr "Open:menuselectie:`Voorkeuren --> Geluidshardware`"
+msgstr "Open :menuselectie:`Voorkeuren --> Geluidshardware`"
 
 #: ../../chapters/vinyl_control.rst:169
 msgid "Select the :guilabel:`Input` tab"
@@ -537,7 +537,7 @@ msgstr ""
 
 #: ../../chapters/vinyl_control.rst:177 ../../chapters/vinyl_control.rst:181
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr "Klik: guilabel: `Toepassen` om de wijzigingen op te slaan."
+msgstr "Klik :guilabel:`Toepassen` om de wijzigingen op te slaan."
 
 #: ../../chapters/vinyl_control.rst:178
 msgid "Select the :guilabel:`Output` tab"
@@ -629,10 +629,10 @@ msgid ""
 "your record replacement frequency."
 msgstr ""
 "**Lead-in Time**: Hiermee kunt u een dode zone instellen aan het begin van "
-"uw vinyl of CD, waarbij de tijdcode wordt genegeerd. Dit is handig in situa-"
-"ties waar de tijdcode heel dicht bij de rand van een vinyl begint, waardoor "
-"Back-cueing over de eerste beat van een nummer lastig wordt om te doen "
-"zonder dat uw naald wegspringt van het vinyl op de draaitafel. Een "
+"uw vinyl of CD, waarbij de tijdcode wordt genegeerd. Dit is handig in "
+"situaties waar de tijdcode heel dicht bij de rand van een vinyl begint, "
+"waardoor Back-cueing over de eerste beat van een nummer lastig wordt om "
+"te doen zonder dat uw naald wegspringt van het vinyl op de draaitafel. Een "
 "aanlooptijd van 20 seconden of meer instellen helpt dit te verlichten door "
 "je meer ruimte op het vinyl te geven om mee te 'cue-en'.Het is ook handig "
 "als de groeven aan de rand van een vinyl zó uitgesleten zijn dat deze niet "
@@ -773,7 +773,7 @@ msgid ""
 "or too quiet will cause adverse performance, often characterized by a loss "
 "of position data causing absolute mode to behave like relative mode."
 msgstr ""
-"Een succesvolle vinyl control opstelling valt of staat met een goede "
+"Een succesvolle vinyl control opstelling staat of valt met een goede "
 "signaal-kwaliteit. Veel factoren kunnen de signaalkwaliteit beïnvloeden, "
 "maar het belangrijkste is de garantie dat het volumeniveau van uw "
 "tijdcodesignaal matig is. Een signaal dat te luid staat of te stil is zal "
@@ -833,7 +833,7 @@ msgstr "De vinyl control status van het deck"
 
 #: ../../chapters/vinyl_control.rst:318
 msgid "The vinyl control status, and signal quality display of the deck"
-msgstr "De vinyl control status, en signaalkwaliteit van het deck weergegeven"
+msgstr "De vinyl control status en signaalkwaliteit van het deck weergegeven"
 
 #: ../../chapters/vinyl_control.rst:320
 msgid ""
@@ -887,7 +887,7 @@ msgstr ""
 "deck en schakel deze in op het tweede deck.Het afspelen gaat verder zonder "
 "onderbreking op det eerste deck. Zet de tweede track klaar en mix deze er "
 "in. Als je klaar bent om het eerste deck opnieuw klaar te zetten, schakel "
-"vinyl control gewoon uit op het tweede deck en schajkel het weer in op het "
+"vinyl control gewoon uit op het tweede deck en schakel het weer in op het "
 "eerste deck."
 
 #: ../../chapters/vinyl_control.rst:342
@@ -918,9 +918,9 @@ msgid ""
 "automatically disabled and *Constant Mode* turned off."
 msgstr ""
 "Soms is de track die u afspeelt langer dan het tijdcodegebied op uw plaat. "
-"Als de naald het einde van de vinyltimecode bereikt, zal Mixxx naar een spe-"
-"ciale *Einde-van-de-plaat-modus* overspringen. Wanneer dit gebeurt, gaat de "
-"vinylindicator (meestal een groene rechthoek) geel knipperen als "
+"Als de naald het einde van de vinyltimecode bereikt, zal Mixxx naar een "
+"speciale *Einde-van-de-plaat-modus* overspringen. Wanneer dit gebeurt, gaat "
+"de vinylindicator (meestal een groene rechthoek) geel knipperen als "
 "waarschuwing. Tegelijkertijd zal Mixxx automatisch de *Constante modus* "
 "inschakelen en de pitch van de draaitafel negeren. Op dit punt gaat de track"
 " gewoon verder met afspelen tot het einde. Wanneer u een nieuw nummer laadt,"
@@ -987,7 +987,7 @@ msgid ""
 "To complete your setup you must configure Mixxx properly. Make sure you "
 "have:"
 msgstr ""
-"Om uw opstelling te voltooien moet u Mixxx kuist configureren. Vergewis u er"
+"Om uw opstelling te voltooien moet u jixxx kuist configureren. Vergewis u er"
 " van dat u het volgende heeft gedaan:"
 
 #: ../../chapters/vinyl_control.rst:386

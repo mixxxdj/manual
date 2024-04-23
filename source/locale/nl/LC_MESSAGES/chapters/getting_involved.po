@@ -250,7 +250,7 @@ msgid ""
 "`Donate <https://mixxx.org/download/>`_ to Mixxx using Paypal to help "
 "support and enhance development."
 msgstr ""
-"Doneer <https://mixxx.org/download/>`_ aan Mixxx met behulp van Paypal om de"
+"`Doneer <https://mixxx.org/download/>`_ aan Mixxx met behulp van Paypal om de"
 " ontwikkeling te ondersteunen en te verbeteren."
 
 #: ../../chapters/getting_involved.rst:21
@@ -353,7 +353,7 @@ msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
-"Leer de code kennen, kies een probleem uit de 'gemakkelijke problemenlijst' "
+"Leer de code kennen, kies een probleem uit de `gemakkelijke problemenlijst "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:50
@@ -373,7 +373,7 @@ msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
-"Pick a bug off of the `Easy Bug List "
+"Kies een 'probleem' in de `Gemakkelijke problemen lijst "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:57
