@@ -234,7 +234,7 @@ msgstr ""
 msgid ""
 ":ref:`hardware`: background information about different types of equipment."
 msgstr ""
-": ref: `hardware`: achtergrondinformatie over verschillende soorten "
+":ref:`hardware`: achtergrondinformatie over verschillende soorten "
 "apparatuur."
 
 #: ../../chapters/example_setups.rst:12
@@ -242,14 +242,14 @@ msgid ""
 ":ref:`getting-started-sound-io`: details about each available input and "
 "output option."
 msgstr ""
-": ref: `aan de slag-met-geluid-io`: details over elke beschikbare invoer- en"
-" uitvoeroptie."
+":ref:`aan de slag-met-geluid-io`: details over elke beschikbare invoer- en "
+"uitvoeroptie."
 
 #: ../../chapters/example_setups.rst:14
 msgid ""
 ":ref:`microphones`: details for configuring Mixxx to work with microphones."
 msgstr ""
-": ref: `microfoons`: details om Mixxx te configureren om met microfoons te "
+":ref:`microfoons`: details om Mixxx te configureren om met microfoons te "
 "werken."
 
 #: ../../chapters/example_setups.rst:16
@@ -305,7 +305,7 @@ msgstr ""
 #: ../../chapters/example_setups.rst:156 ../../chapters/example_setups.rst:190
 #: ../../chapters/example_setups.rst:215
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
-msgstr "Open:menuselectie:`Voorkeuren --> Geluidshardware`"
+msgstr "Open:menuselection:`Voorkeuren --> Geluidshardware`"
 
 #: ../../chapters/example_setups.rst:40 ../../chapters/example_setups.rst:70
 #: ../../chapters/example_setups.rst:113 ../../chapters/example_setups.rst:148
@@ -321,18 +321,18 @@ msgid ""
 ":guilabel:`Headphones`, you can also plug speakers into the output jack of "
 "your computer."
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` uw ingebouwde "
-"audio-interface en vervolgens: guilabel:` Kanalen 1-2`. Hoewel dit het label"
-" heeft: guilabel: `Hoofdtelefoons`, kunt u ook luidsprekers aansluiten op de"
-" uitgang van uw computer."
+"Selecteer in het drop-down menu :guilabel:`Hoofdtelefoons` uw ingebouwde "
+"audio-interface en vervolgens :guilabel:`Kanalen 1-2`. Hoewel dit het label "
+"heeft: guilabel :`Hoofdtelefoons`, kunt u ook luidsprekers aansluiten op de "
+"uitgang van uw computer."
 
 #: ../../chapters/example_setups.rst:45
 msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<microphones>`"
 msgstr ""
-"Afhankelijk van uw audio-interface kunt u een: ref: `microfoon "
-"<microphones>` specificeren"
+"Afhankelijk van uw audio-interface kunt u een :ref:`microfoon <microphones>`"
+" specificeren"
 
 #: ../../chapters/example_setups.rst:48 ../../chapters/example_setups.rst:76
 msgid "Use your built-in microphone or connect a microphone to your computer"
@@ -343,26 +343,26 @@ msgstr ""
 msgid ""
 "Check that your microphone is detected by your :term:`OS <operating system>`"
 msgstr ""
-"Controleer of uw microfoon wordt gedetecteerd door uw: term: `OS<operating "
+"Controleer of uw microfoon wordt gedetecteerd door uw :term:`OS<operating "
 "system>`"
 
 #: ../../chapters/example_setups.rst:51 ../../chapters/example_setups.rst:79
 msgid "Open the :guilabel:`Input` tab"
-msgstr "Open het tabblad: guilabel: `Input`"
+msgstr "Open het tabblad :guilabel:`Input`"
 
 #: ../../chapters/example_setups.rst:52 ../../chapters/example_setups.rst:80
 msgid ""
 "From the :guilabel:`Microphone` drop-down menu, select the input your "
 "microphone is connected to"
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Microfoon` de ingang waarop je "
+"Selecteer in het drop-down menu :guilabel:`Microfoon` de ingang waarop je "
 "microfoon is aangesloten"
 
 #: ../../chapters/example_setups.rst:54 ../../chapters/example_setups.rst:82
 #: ../../chapters/example_setups.rst:121 ../../chapters/example_setups.rst:162
 #: ../../chapters/example_setups.rst:196 ../../chapters/example_setups.rst:221
 msgid "Click :guilabel:`Apply` to save the changes."
-msgstr "Klik: guilabel: `Toepassen` om de wijzigingen op te slaan."
+msgstr "Klik :guilabel:`Toepassen` om de wijzigingen op te slaan."
 
 #: ../../chapters/example_setups.rst:57
 msgid "Playing for an Audience"
@@ -374,7 +374,7 @@ msgid ""
 ":term:`cueing`."
 msgstr ""
 "Deze opstelling maakt het mogelijk om voor een publiek te spelen zonder "
-"hoofdtelefoon: term: `cueing`."
+"hoofdtelefoon :term:`cueing`."
 
 #: ../../chapters/example_setups.rst:67
 msgid "Using Mixxx with your built-in sound card"
@@ -393,7 +393,7 @@ msgid ""
 "Depending on your audio interface, you can specify a :ref:`microphone "
 "<interface-mic>`"
 msgstr ""
-"Afhankelijk van uw audio-interface kunt u een: ref: `microfoon <interface-"
+"Afhankelijk van uw audio-interface kunt u een :ref:`microfoon <interface-"
 "mic>` specificeren"
 
 #: ../../chapters/example_setups.rst:88
@@ -451,8 +451,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
-"Selecteer in het drop-down menu: guilabel: `Main` uw ingebouwde audio-"
-"interface en vervolgens: guilabel:` Kanaal 1`"
+"Selecteer in het drop-down menu :guilabel:`Main` uw ingebouwde audio-"
+"interface en vervolgens :guilabel:`Kanaal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -460,7 +460,7 @@ msgid ""
 "interface, then :guilabel:`Channel 2`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` uw ingebouwde "
-"audio-interface en vervolgens: guilabel:` Kanaal 2`"
+"audio-interface en vervolgens :guilabel:`Kanaal 2`"
 
 #: ../../chapters/example_setups.rst:123
 msgid ""
@@ -498,7 +498,7 @@ msgid ""
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Main` de externe audio-interface"
-" en vervolgens: guilabel:` Kanalen 1-2`"
+" en vervolgens :guilabel:`Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -506,7 +506,7 @@ msgid ""
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` de externe "
-"audio-interface en vervolgens: guilabel:` Kanalen 1-2`"
+"audio-interface en vervolgens :guilabel:`Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:154
 msgid "**Using an external multi-channel audio interface**"
@@ -529,8 +529,8 @@ msgid ""
 "The :ref:`hardware-controllers` section of the :ref:`hardware` chapter has "
 "background information about controllers."
 msgstr ""
-"Het gedeelte: ref: `hardware-controllers` van het hoofdstuk: ref:` hardware`"
-" bevat achtergrondinformatie over controllers. "
+"Het gedeelte :ref:`hardware-controllers` van het hoofdstuk :ref:`hardware` "
+"bevat achtergrondinformatie over controllers. "
 
 #: ../../chapters/example_setups.rst:173
 msgid "Controllers with an integrated audio interface"
@@ -572,7 +572,7 @@ msgid ""
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Main` de audio-interface van uw "
-"controller en vervolgens: guilabel:` Kanalen 1-2`"
+"controller en vervolgens :guilabel:`Kanalen 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""
@@ -580,7 +580,7 @@ msgid ""
 "audio interface, then :guilabel:`Channels 3-4`"
 msgstr ""
 "Selecteer in het drop-down menu: guilabel: `Hoofdtelefoons` de audio-"
-"interface van je controller en vervolgens: guilabel:` Kanalen 3-4`"
+"interface van je controller en vervolgens :guilabel:`Kanalen 3-4`"
 
 #: ../../chapters/example_setups.rst:199
 msgid "Controllers without an integrated audio interface"
@@ -627,8 +627,8 @@ msgstr ""
 "flexibiliteit van een laptopcomputer. In plaats van kratten met platen of "
 "cd's te dragen, kunnen DJ's hun hele muziekcollectie op hun laptop dragen. "
 "Naast een laptop en hoofdtelefoon vereist deze opstelling een audio-"
-"interface met ten minste twee paar stereo-ingangen en -uitgangen en een "
-"paar: term: `timecode`-records."
+"interface met ten minste twee paar stereo-ingangen en -uitgangen en een paar"
+" :term:`timecode`-platen."
 
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."

@@ -237,8 +237,7 @@ msgstr ""
 "internationaal team van vrijwilligers die het plezier van het DJ'en voor "
 "iedereen toegankelijk wil maken. Het project is non-profit, open source en "
 "community-driven. Samen willen we de beste DJ-software maken die er ooit is "
-"gemaakt. We hopen dat je dat met ons mee doet: ref: `doe mee "
-"<contributing>`!"
+"gemaakt. We hopen dat je dat met ons mee doet :ref:`doe mee <contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
@@ -349,7 +348,7 @@ msgstr ""
 "eigenlijke mixen van de audiosignalen uit. Op de mengtafel zijn er aparte "
 "uitgangen voor het gemengde signaal om voor het publiek af te spelen en voor"
 " de DJ om hoofdtelefoon-cueing te gebruiken. Externe menging wordt meestal "
-"gebruikt met draaitafels en: ref: `speciale vinylplaten<vinyl-control>` om "
+"gebruikt met draaitafels en :ref:`speciale vinylplaten<vinyl-control>` om "
 "digitale muziekbestanden te manipuleren alsof de muziek op vinylplaten "
 "staat."
 
