@@ -1126,7 +1126,7 @@ msgstr ">=0 (absolute waarde)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:404
 msgid "Latency slider in the prefs"
-msgstr ":term:`Latentie glijder in the voorkeuren"
+msgstr ":term:`Latentie <latency>` glijder in the voorkeuren"
 
 #: ../../chapters/appendix/mixxx_controls.rst:409
 msgid ""
