@@ -603,7 +603,7 @@ msgstr ""
 "een gecomprimeerde map uit te pakken. Kopieer het :file:`.xml` bestand naar uw "
 "Gebruikers Verbindingsbestanden Map. Indien er ook een :file:`.js` bestand aanwezig "
 "is, kopieert u dit bestand ook naar de Gebruikers Verbindingsbestanden Map. "
-"Herstart Mixxx en ":ref:`laadt het controller verbindingsbestand " "<control-load-mapping>`."
+"Herstart Mixxx en :ref:`laadt het controller verbindingsbestand <control-load-mapping>`."
 
 #: ../../chapters/controlling_mixxx.rst:174
 msgid "Map your own controller"
