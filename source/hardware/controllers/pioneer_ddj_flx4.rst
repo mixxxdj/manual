@@ -258,7 +258,7 @@ No.   Control                                                  Function
 5     :hwlabel:`MASTER`                                        Microphone level. Works for microphones connected on the controller and
                                                                through the controller's line out.
 6     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
-7     :hwlabel:`CFX`                                           QuickEffect superknob (by default controls a Filter, but this can be changed in the :ref:`preferences <preferences-equalizers>`)
+7     :hwlabel:`CFX`                                           QuickEffect superknob (by default controls a Filter, but this can be changed in the :ref:`preferences <preferences-mixer>`)
 8     :hwlabel:`Smart CFX`                                     Not implemented
 9     Headphone :hwlabel:`CUE` (Channel)                       Turn on to output channel to headphones
 9     :hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`              Toggles quantize for the current channel
