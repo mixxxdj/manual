@@ -3844,10 +3844,11 @@ Inverse       1              Linked in an inverse relation.
 EQs and Filters
 +++++++++++++++
 
-:term:`Equalizers <EQ>` and filters are special effects units.
+:term:`Equalizers <EQ>` and :ref:`Quick Effects <interface-eq-gain>` are special effects units.
 The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]],enabled`.
-Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
-
+Users can choose between several options for the effects loaded in these racks in the
+:ref:`Mixer section <preferences-mixer>` of the Preferences window. For Quick Effects, most official skins also
+provide a effect chain preset selector in the :ref:`mixer section <interface-eq-gain>`.
 
 Controls
 ++++++++
@@ -4533,7 +4534,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. versionadded:: 2.0.0
     .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead.
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],enabled <[QuickEffectRack1_[ChannelI]],enabled>` instead.
 
 
 .. mixxx:control:: [ChannelN],filterDepth
