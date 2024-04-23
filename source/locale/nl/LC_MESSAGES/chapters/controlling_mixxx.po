@@ -472,8 +472,7 @@ msgstr ""
 msgid ""
 "Select the mapping for your controller from the :guilabel:`Load Mapping` "
 "drop-down menu"
-msgstr ""
-"Selecteer het verbindingsbestand voor uw controller uit de :guilabel:`Laad " "Verbindingsbestand` drop-down menu"
+msgstr "Selecteer het verbindingsbestand voor uw controller uit de :guilabel:`Laad Verbindingsbestand` drop-down menu"
 
 #: ../../chapters/controlling_mixxx.rst:122
 msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
