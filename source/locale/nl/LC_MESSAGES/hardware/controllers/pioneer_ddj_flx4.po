@@ -39,8 +39,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:23
 msgid ""
-"`Manufacturer's User Manual "
-"<http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__"
+"`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-"
+"Instruction-Manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:24
@@ -128,8 +129,9 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:58
 msgid ""
 "The schematic drawings used here can be referenced in the `manufacturer's "
-"manual <http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__ on "
-"the given page number."
+"manual <https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-"
+"to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/>`__ on the "
+"given page number."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:63

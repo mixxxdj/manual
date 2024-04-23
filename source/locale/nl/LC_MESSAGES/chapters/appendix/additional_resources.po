@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:4
 msgid "Additional Resources"
-msgstr ""
+msgstr "Aanvullende informatiebronnen"
 
 #: ../../chapters/appendix/additional_resources.rst:9
 msgid ""
@@ -258,8 +258,8 @@ msgstr ""
 "**Toetsenbord snelkoppelingen**: Dit is een lijst met alle standaard Mixxx "
 "toetsenbord snelkoppelingen. Opgelet: Deze snelkoppelingen zijn gemaakt voor"
 " toetsenborden die in Engelse layout (Querty) geconfigureerd zijn, standaard"
-" snelkopelingen kunnen afwijken indien je taalinstellingen niet Engels zijn."
-" :ref:`standaard toetsenbord snelkoppelingen<appendix-keyboard>`"
+" snelkoppelingen kunnen afwijken indien je taalinstellingen niet Engels "
+"zijn. :ref:`standaard toetsenbord snelkoppelingen<appendix-keyboard>`"
 
 #: ../../chapters/appendix/additional_resources.rst:25
 msgid ""
@@ -317,5 +317,5 @@ msgid ""
 "<https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."
 msgstr ""
 "**Social Media**: Volg ons op `Mastodon <https://floss.social/@mixxx>`_, `X "
-"(twitter)r  <https://x.com/mixxxdj>`_, and `Facebook "
+"(twitter)  <https://x.com/mixxxdj>`_, and `Facebook "
 "<https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_."

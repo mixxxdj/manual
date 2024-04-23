@@ -340,7 +340,7 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:68
 msgid "Sample Rate"
-msgstr ""
+msgstr "Sample frequentie"
 
 #: ../../chapters/preferences/sound_hardware.rst:70
 msgid ""
@@ -533,8 +533,8 @@ msgstr ""
 "opgestart, dit kan u beter doen door :command:`mixxx` op te starten vanuit "
 "de console (opdrachtprompt) dan door te clicken op het starticoon in een "
 "menu of op uw desktop. Aangezien de sound stream dan wordt gerouteerd van "
-"ALSA naar Pulse en terug naar ALSA, vereist dit een additionele latency van "
-"~2x de geselec-teerde audio buffer size."
+"ALSA naar Pulse en terug naar ALSA, vereist dit een additionele latentie van"
+" ~2x de geselecteerde audio buffer size."
 
 #: ../../chapters/preferences/sound_hardware.rst:151
 msgid ""

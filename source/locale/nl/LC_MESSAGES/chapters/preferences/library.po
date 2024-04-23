@@ -231,7 +231,7 @@ msgid ""
 ":menuselection:`Preferences --> Library`."
 msgstr ""
 "U kan in Mixxx manueel muziek mappen toevoegen, her-linken, en verwijderen "
-"in :menuselection:`Preferences --> Bibliotheek`."
+"in :menuselection:`Voorkeuren --> Bibliotheek`."
 
 #: ../../chapters/preferences/library.rst:23
 msgid "**Add a new music directory**"

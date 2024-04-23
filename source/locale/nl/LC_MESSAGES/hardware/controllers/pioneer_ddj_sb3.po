@@ -37,8 +37,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:19
 msgid ""
-"`Manufacturer's User Manual "
-"<https://docs.pioneerdj.com/Manuals/DDJ_SB3_DRI1533A_manual/>`__"
+"`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/4404925658009-How-to-use-the-Pioneer-DJ-DDJ-SB3-Instruction-"
+"Manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:20
