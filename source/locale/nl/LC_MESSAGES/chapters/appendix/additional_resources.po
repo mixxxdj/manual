@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:4
 msgid "Additional Resources"
-msgstr ""msgstr "Aanvullende informatiebronnen"
+msgstr "Aanvullende informatiebronnen"
 
 #: ../../chapters/appendix/additional_resources.rst:9
 msgid ""
