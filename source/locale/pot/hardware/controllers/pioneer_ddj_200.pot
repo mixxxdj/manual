@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 19:19+0100\n"
+"POT-Creation-Date: 2024-04-24 22:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "`Manufacturer's Product Page <https://www.pioneerdj.com/en-gb/product/con
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:22
-msgid "`Manufacturer's User Manual <https://docs.pioneerdj.com/Manuals/DDJ_200_DRI1596C_manual/>`__"
+msgid "`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-us/articles/4404919733401-How-to-use-the-Pioneer-DJ-DDJ-200-Controller-Instruction-manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_200.rst:23

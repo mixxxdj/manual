@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 19:19+0100\n"
+"POT-Creation-Date: 2024-04-24 22:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "`Manufacturer’s product page <https://www.denondj.com/mc4000-mc4000xus>
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:11
-msgid "`Manual / Midi commands <http://b06ba727c886717f9577-fff53f927840131da4fecbedd819996a.r74.cf2.rackcdn.com//1444/documents/MC4000%20-%20User%20Guide%20-%20v1.2_00.pdf>`__"
+msgid "`Manual / Midi commands <http://denon-dj.de/wp-content/uploads/2023/03/MC4000-User-Guide-v1.2_00.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:12
