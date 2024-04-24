@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-04-24 22:04+0200\n"
 "PO-Revision-Date: 2022-09-05 05:40+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7664/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -37,8 +37,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:19
 msgid ""
-"`Manufacturer's User Manual "
-"<https://docs.pioneerdj.com/Manuals/DDJ_SB3_DRI1533A_manual/>`__"
+"`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/4404925658009-How-to-use-the-Pioneer-DJ-DDJ-SB3-Instruction-"
+"Manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:20

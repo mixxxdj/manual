@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-04-24 22:04+0200\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7664/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -45,8 +45,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:9
 msgid ""
-"`User Manual <https://www.pioneerdj.com/en/support/documents/archive/ddj-"
-"sx/#manual>`__"
+"`User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/22976453073305-How-to-use-the-Pioneer-DJ-DDJ-SX-DJ-Controller-"
+"Instruction-manual>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:14
