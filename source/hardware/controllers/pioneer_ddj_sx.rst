@@ -6,7 +6,7 @@ DDJ-SX2 <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954
 
 -  `Manufacturer’s product page <https://www.pioneerdj.com/en/product/controller/archive/ddj-sx/black/overview/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954>`__
--  `User Manual <https://www.pioneerdj.com/en/support/documents/archive/ddj-sx/#manual>`__
+-  `User Manual <https://support.pioneerdj.com/hc/en-us/articles/22976453073305-How-to-use-the-Pioneer-DJ-DDJ-SX-DJ-Controller-Instruction-manual>`__
 
 .. versionadded:: 2.1
 
