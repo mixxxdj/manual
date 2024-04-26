@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,13 +219,16 @@ msgstr ""
 
 #: ../../chapters/preferences/beat_detection.rst:6
 msgid "Beat Detection"
-msgstr ""
+msgstr "Détection des battements"
 
 #: ../../chapters/preferences/beat_detection.rst:16
 msgid ""
 "Mixxx uses an ultra-precise BPM and beat detector. Manual adjustments are "
 "redundant in many cases because Mixxx knows where the beats are."
 msgstr ""
+"Mixxx utilise un détecteur de BPM et de rythme ultra-précis. Les ajustements"
+" manuels sont redondants dans de nombreux cas car Mixxx sait où se trouvent "
+"les battements."
 
 #: ../../chapters/preferences/beat_detection.rst:19
 msgid ""
@@ -233,35 +240,47 @@ msgid ""
 " not affect the beat detection negatively because most of today's dance "
 "music is written in a 4/4 signature with a fixed tempo."
 msgstr ""
+"La détection du BPM et des battements est une opération complexe. En "
+"fonction de votre ordinateur, du débit et de la durée de la piste, cela peut"
+" prendre un certain temps. Par défaut, Mixxx analyse la piste complète. Pour"
+" accélérer la détection des battements sur les ordinateurs plus lents, une "
+"option « Analyse rapide » est disponible. S'il est activé, le BPM est "
+"calculé en analysant la première minute de la piste. Dans la plupart des "
+"cas, cela n'affecte pas négativement la détection des battements, car la "
+"plupart de la musique de danse actuelle est écrite dans une signature 4/4 "
+"avec un tempo fixe."
 
 #: ../../chapters/preferences/beat_detection.rst:34
 msgid "Mixxx preferences - BPM settings"
-msgstr ""
+msgstr "Préférences Mixxx - Paramètres BPM"
 
 #: ../../chapters/preferences/beat_detection.rst:36
 msgid "The table below summarizes the beat detection settings:"
 msgstr ""
+"Le tableau ci-dessous résume les paramètres de détection des battements :"
 
 #: ../../chapters/preferences/beat_detection.rst:39
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 #: ../../chapters/preferences/beat_detection.rst:39
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../chapters/preferences/beat_detection.rst:41
 msgid "Enable Fast Analysis"
-msgstr ""
+msgstr "Activer l'analyse rapide"
 
 #: ../../chapters/preferences/beat_detection.rst:41
 msgid ""
 "If enabled, BPM will be detected by only using the first minute of audio."
 msgstr ""
+"Si activé, le BPM sera détecté en utilisant uniquement la première minute "
+"d'audio."
 
 #: ../../chapters/preferences/beat_detection.rst:44
 msgid "Assume constant tempo"
-msgstr ""
+msgstr "Supposer le tempo constant"
 
 #: ../../chapters/preferences/beat_detection.rst:44
 msgid ""
@@ -269,19 +288,25 @@ msgid ""
 " If disabled, the raw beat grid obtained by the analyzer is presented. The "
 "latter is appropriate for tracks with variable tempo."
 msgstr ""
+"Si activé, Mixxx suppose que les distances entre les battements sont "
+"constantes. Si cette option est désactivée, la grille de battement brute "
+"obtenue par l'analyseur est présentée. Ce dernier convient aux morceaux à "
+"tempo variable."
 
 #: ../../chapters/preferences/beat_detection.rst:51
 msgid "Enable Offset Correction"
-msgstr ""
+msgstr "Activer la correction du décalage"
 
 #: ../../chapters/preferences/beat_detection.rst:51
 msgid "Prevents beat markers from being placed incorrectly."
-msgstr ""
+msgstr "Empêche les marqueurs de battement d’être mal placés."
 
 #: ../../chapters/preferences/beat_detection.rst:54
 msgid ""
 "Re-analyze beats when settings change or beat detection data is outdated"
 msgstr ""
+"Re-analyser le rythme lors de changements de réglages ou quand les "
+"informations de détection rythmique sont anciennes"
 
 #: ../../chapters/preferences/beat_detection.rst:54
 msgid ""
@@ -289,16 +314,22 @@ msgid ""
 "it will re-analyze the BPM if your beat detection preferences change or BPM "
 "data from 3rd party programs are present."
 msgstr ""
+"Si activé, Mixxx écrase les anciennes grilles rythmiques des versions "
+"précédentes. De plus, il réanalysera le BPM si vos préférences de détection "
+"de rythme changent ou si des données BPM provenant de programmes tiers sont "
+"présentes."
 
 #: ../../chapters/preferences/beat_detection.rst:63
 msgid "Correcting Beat Grids"
-msgstr ""
+msgstr "Correction des  grilles rythmiques"
 
 #: ../../chapters/preferences/beat_detection.rst:65
 msgid ""
 "There may be situations where BPM and beat detection do not result in a "
 "proper beat grid."
 msgstr ""
+"Il peut y avoir des situations où le BPM et la détection des battements "
+"n'aboutissent pas à une grille rythmique appropriée."
 
 #: ../../chapters/preferences/beat_detection.rst:68
 msgid ""
@@ -308,6 +339,12 @@ msgid ""
 "the beat grid, cue the track before a real beat and click the "
 ":guilabel:`Beat-grid Adjust` button in the :ref:`interface-button-grid`."
 msgstr ""
+"Généralement, le BPM détecté est correct mais l'analyseur n'a pas réussi à "
+"détecter l'emplacement du premier battement. Par conséquent, les marqueurs "
+"de battement sont décalés, c'est-à-dire que les marqueurs de battement sont "
+"à une distance fixe du battement réel. Pour ajuster la grille rythmique, "
+"placer la piste avant un temps réel et cliquer sur le bouton "
+":guilabel:`Beat-grid Adjust` dans la :ref:`interface-button-grid`."
 
 #: ../../chapters/preferences/beat_detection.rst:74
 msgid ""
@@ -318,15 +355,29 @@ msgid ""
 "notice a slight drift as the song goes on. Finding the correct BPM is easy "
 "in many cases - just follow the note below."
 msgstr ""
+"Si le BPM détecté n'est pas précis, la grille rythmique correspondante sera "
+"également inexacte. Un écart de 0,02 unités BPM par rapport au BPM correct "
+"entrainera des problèmes d'alignement de la grille rythmique sur les pistes "
+"longues (par exemple un mix de club). Si cela se produit, votre grille "
+"rythmique peut sembler alignée pendant quelques minutes, mais vous "
+"remarquerez une légère dérive au fur et à mesure que la chanson avance. "
+"Trouver le bon BPM est facile dans de nombreux cas – suiver simplement la "
+"note ci-dessous."
 
 #: ../../chapters/preferences/beat_detection.rst:81
 msgid ""
 "If the detected BPM value is not sufficiently accurate but very close to an "
 "integer value, try to set the BPM value manually to the integer."
 msgstr ""
+"Si la valeur BPM détectée n'est pas suffisamment précise mais très proche "
+"d'une valeur entière, essayer de définir manuellement la valeur BPM sur "
+"l'entier."
 
 #: ../../chapters/preferences/beat_detection.rst:84
 msgid ""
 "For more granular adjustments there are beatgrid controls close to the "
 ":ref:`interface-waveform` of each deck in the main interface."
 msgstr ""
+"Pour des ajustements plus granulaires, il existe des contrôles de grille "
+"rythmique proches du :ref:`interface-waveform` de chaque platine dans "
+"l'interface principale."

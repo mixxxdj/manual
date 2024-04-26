@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -253,6 +253,11 @@ msgid ""
 "bandwidth. Streaming servers provide the required bandwidth and broadcast "
 "the stream to your listeners."
 msgstr ""
+"Mixxx vous permet d'alimenter votre flux audio directement vers les serveurs"
+" de streaming :term:`Shoutcast <shoutcast>` et :term:`Icecast <icecast>`. En"
+" fonction du nombre d’auditeurs, le streaming audio nécessite une quantité "
+"importante de bande passante. Les serveurs de streaming fournissent la bande"
+" passante requise et diffusent le flux à vos auditeurs."
 
 #: ../../chapters/livebroadcasting.rst:27
 msgid ""
@@ -345,7 +350,7 @@ msgstr "Préférences Mixxx - Configurer la diffusion en direct"
 
 #: ../../chapters/livebroadcasting.rst:100
 msgid "Server Connection"
-msgstr ""
+msgstr "Connexion au serveur"
 
 #: ../../chapters/livebroadcasting.rst:102
 msgid ""
@@ -433,7 +438,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:131
 msgid "Stream Settings"
-msgstr ""
+msgstr "Paramètres de flux"
 
 #: ../../chapters/livebroadcasting.rst:133
 msgid ""
@@ -497,7 +502,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:151
 msgid "Encoding"
-msgstr ""
+msgstr "Encodage"
 
 #: ../../chapters/livebroadcasting.rst:153
 msgid ""
@@ -524,11 +529,11 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:162
 msgid "Metadata"
-msgstr ""
+msgstr "Métadonnée"
 
 #: ../../chapters/livebroadcasting.rst:165
 msgid "Shoutcast metadata format"
-msgstr ""
+msgstr "Format de métadonnées Shoutcast"
 
 #: ../../chapters/livebroadcasting.rst:167
 msgid ""
@@ -540,6 +545,14 @@ msgid ""
 "MyName - currently playing: $artist``. Or even if you wanted a very unusual "
 "format: ``Hey, I like $artist, here is $title by $artist``."
 msgstr ""
+"Cela permet de définir des formats de métadonnées personnalisés pour le "
+"champ de titre Shoutcast. Auparavant, seul « artist - title » était "
+"autorisé. Par exemple, si vous diffusiez au sein d'une station, vous "
+"pourriez ajouter le nom de la station ou le nom du présentateur dans le "
+"titre : ``MaStation | $artist - $title``. Ou si vous faisiez un mix live "
+"avec plusieurs artistes, vous pourriez avoir : ``Mix live par MyName - "
+"lecture en cours : $artist``. Ou même si vous vouliez un format très "
+"inhabituel : ``Hé, j'aime bien $artist, voici $title par $artist``."
 
 #: ../../chapters/livebroadcasting.rst:175
 msgid ""
@@ -549,7 +562,7 @@ msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:178
 msgid "Custom metadata"
-msgstr ""
+msgstr "Métadonnées personnalisées"
 
 #: ../../chapters/livebroadcasting.rst:180
 msgid ""

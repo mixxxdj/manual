@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -245,6 +245,8 @@ msgid ""
 "If you want to backup (or delete) your library refer to :ref:`appendix-"
 "settings-files` and look for ``mixxxdb.sqlite``."
 msgstr ""
+"Si vous souhaitez sauvegarder (ou supprimer) votre bibliothèque, reportez-"
+"vous à :ref:`appendix-settings-files` et rechercher ``mixxxdb.sqlite``."
 
 #: ../../chapters/library.rst:31
 msgid ""
@@ -265,7 +267,7 @@ msgstr "**Rechercher**: Trouver une piste dans votre bibliothèque Mixxx."
 
 #: ../../chapters/library.rst:37
 msgid "**Tracks**: View and edit your whole collection."
-msgstr "**Pistes**: Voir et éditer toute votre collection."
+msgstr "**Pistes**: Voir et éditer toute votre collection"
 
 #: ../../chapters/library.rst:38
 msgid ""
@@ -340,6 +342,8 @@ msgstr "Pistes - Voir et éditer toute votre collection."
 msgid ""
 "|ic_lib_tracks| A sortable list of all the tracks in your music library."
 msgstr ""
+"|ic_lib_tracks| Une liste triable de toutes les pistes de votre bibliothèque"
+" musicale."
 
 #: ../../chapters/library.rst:69
 msgid "**Customizing the view**"
@@ -492,6 +496,10 @@ msgid ""
 "shortcuts <shortcut>`. Go to the chapter :ref:`library-loading-tracks` for "
 "detailed information."
 msgstr ""
+"Pour charger une piste dans un :ref:`deck <interface-decks>`, vous pouvez "
+"soit le faire glisser vers l'affichage de la forme d'onde, utiliser le menu "
+"contextuel ou utiliser :term:`keyboard shortcuts <shortcut>`. Voir chapitre "
+":ref:`library-loading-tracks` pour des informations détaillées."
 
 #: ../../chapters/library.rst:124
 msgid "**Importing tracks**"
@@ -638,11 +646,11 @@ msgid ""
 "menu:"
 msgstr ""
 "Un clic-droit sur les pistes sélectionnées dans la liste des pistes fait "
-"apparaître le menu contextuel:"
+"apparaitre le menu contextuel :"
 
 #: ../../chapters/library.rst:169
 msgid "**Add to Auto DJ**"
-msgstr ""
+msgstr "**Ajouter à la file d’attente Auto DJ**"
 
 #: ../../chapters/library.rst:171
 msgid ""
@@ -651,10 +659,15 @@ msgid ""
 "automatic mixing. The :guilabel:`replace` option deletes the Auto DJ queue "
 "first, and then fills it with the selected tracks."
 msgstr ""
+"Ajoute le contenu de la sélection soit à la :guilabel:`fin` soit au "
+":guilabel:`début` de la liste de la file d'attente :ref:`Auto DJ<library-"
+"auto-dj>` pour le mixage automatique. L'option :guilabel:`remplacer` "
+"supprime d'abord la file d'attente Auto DJ, puis la remplit avFlec les "
+"pistes sélectionnées."
 
 #: ../../chapters/library.rst:176
 msgid "**Load to**"
-msgstr ""
+msgstr "**Charger vers**"
 
 #: ../../chapters/library.rst:178
 msgid ""
@@ -665,10 +678,17 @@ msgid ""
 "differ, depending on the selected skin. Note that you can't load multiple "
 "files at once."
 msgstr ""
+"Charge un fichier sélectionné dans l'un des fichiers disponibles "
+":ref:`Platine <interface-decks>`, :ref:`Échantillonneur <interface-sampler>`"
+" ou la :ref:`Platine de pré-écoute <interface-preview-deck>`. Vous pouvez "
+"également simplement le faire glisser vers :ref:`interface-waveform`. Le "
+"nombre de platines et d'échantillonneurs disponibles peut différer en "
+"fonction du thème sélectionné. Notez que vous ne pouvez pas charger "
+"plusieurs fichiers à la fois."
 
 #: ../../chapters/library.rst:185
 msgid "**Add to Playlist**"
-msgstr ""
+msgstr "**Ajouter à la liste de lecture**"
 
 #: ../../chapters/library.rst:187
 msgid ""
@@ -676,10 +696,14 @@ msgid ""
 "playlist crate in the sidebar. Choose :guilabel:`Create new playlist` to put"
 " them into a new playlist."
 msgstr ""
+"Ajouter les pistes sélectionnées à une liste de lecture existante ou faites "
+"glisser la sélection vers un bac dans la barre latérale. Choisir "
+":guilabel:`Créer une nouvelle liste de lecture` pour les mettre dans une "
+"nouvelle liste de lecture."
 
 #: ../../chapters/library.rst:191
 msgid "**Crates**"
-msgstr ""
+msgstr "**Bacs**"
 
 #: ../../chapters/library.rst:193
 msgid ""
@@ -688,20 +712,28 @@ msgid ""
 "categorization of tracks without going through the menu from scratch. Choose"
 " :guilabel:`Create new Crate` to put them into a new crate."
 msgstr ""
+"La case à cocher indique dans quels bacs existants se trouve la sélection. "
+"La modification de la sélection des bacs ne réduit pas le menu, ce qui "
+"permet une catégorisation beaucoup plus facile des pistes sans avoir à "
+"parcourir le menu à partir de zéro. Choisir :guilabel:`Ajouter un nouveau "
+"bac` pour les mettre dans un nouveau bac."
 
 #: ../../chapters/library.rst:198
 msgid "**Select Color**"
-msgstr ""
+msgstr "**Sélectionner la couleur**"
 
 #: ../../chapters/library.rst:200
 msgid ""
 "Assign a color to all selected tracks to indicate mood, energy etc. Select "
 "the black button at the top left to remove the color."
 msgstr ""
+"Attribuer une couleur à toutes les pistes sélectionnées pour indiquer "
+"l'humeur, l'énergie, etc. Sélectionner le bouton noir en haut à gauche pour "
+"supprimer la couleur."
 
 #: ../../chapters/library.rst:203
 msgid "**Metadata**"
-msgstr ""
+msgstr "**Métadonnées**"
 
 #: ../../chapters/library.rst:205
 msgid ""
@@ -743,7 +775,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:217
 msgid "**Cover Art**"
-msgstr ""
+msgstr "**Pochette d'album**"
 
 #: ../../chapters/library.rst:219
 msgid ""
@@ -770,7 +802,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:225
 msgid "**Clear**"
-msgstr ""
+msgstr "**Réinitialiser**"
 
 #: ../../chapters/library.rst:227
 msgid ""
@@ -831,7 +863,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:244
 msgid "**Change BPM**"
-msgstr ""
+msgstr "**Ajuster le BPM**"
 
 #: ../../chapters/library.rst:246
 msgid ""
@@ -841,6 +873,11 @@ msgid ""
 "in the :ref:`Analyzer Settings <configuration-bpm-detection>` and re-run the"
 " analysis."
 msgstr ""
+"Permet de changer le :term:`BPM` à 50%, 66%, 75%, 133,33%, 150% ou 200% du "
+"BPM défini par Mixxx lors de l':ref:`analyse <library-analyze>` des pistes. "
+"Si la plupart des valeurs BPM détectées sont incorrectes, vous pouvez "
+"essayer d'autres paramètres dans le :ref:`paramétrage de l'analyse "
+"<configuration-bpm-detection>` et ré-exécuter l'analyse."
 
 #: ../../chapters/library.rst:252
 msgid ""
@@ -865,28 +902,40 @@ msgid ""
 "centered so that there is no audible difference in track volume, so this "
 "operation is safe to use during performance."
 msgstr ""
+"**Mettre à jour ReplayGain à partir du gain de la platine** : applique la "
+"valeur du bouton de gain d'entrée de la platine à la valeur ReplayGain "
+"détectée pour la piste actuelle. Il s'agit d'un moyen de mettre à jour la "
+"valeur ReplayGain d'une piste si elle a été détectée de manière incorrecte. "
+"Lorsque cette option est sélectionnée, la valeur de gain d'entrée de la "
+"platine sera centrée de manière à ce qu'il n'y ait aucune différence audible"
+" dans le volume de la piste, cette opération peut donc être utilisée en "
+"toute sécurité pendant la performance."
 
 #: ../../chapters/library.rst:265
 msgid "**Hide from Library**"
-msgstr ""
+msgstr "**Masquer dans la bibliothèque**"
 
 #: ../../chapters/library.rst:267
 msgid ""
 "Temporarily hides selected tracks from the track list. Hidden tracks are "
 "listed in the :guilabel:`Hidden Tracks` menu item which is explained below."
 msgstr ""
+"Masque temporairement les pistes sélectionnées de la liste des pistes. Les "
+"pistes masqués sont répertoriées dans l'élément de menu :guilabel:`Pistes "
+"masquées` qui est expliqué ci-dessous. "
 
 #: ../../chapters/library.rst:271
 msgid "**Open in File Browser**"
-msgstr ""
+msgstr "Ouvrir dans le navigateur de fichiers"
 
 #: ../../chapters/library.rst:273
 msgid "Brings up the selected files in your file manager."
 msgstr ""
+"Affiche les fichiers sélectionnés dans votre gestionnaire de fichiers."
 
 #: ../../chapters/library.rst:275
 msgid "**Properties**"
-msgstr ""
+msgstr "**Propriétés**"
 
 #: ../../chapters/library.rst:277
 msgid ""
@@ -894,6 +943,11 @@ msgid ""
 "to view and edit metadata such as title, artist, album, and view the full "
 "file name and path. Note that you can not edit multiple files at once."
 msgstr ""
+"Semblable à l'édition en ligne expliquée ci-dessus, la boite de dialogue des"
+" propriétés vous permet d'afficher et de modifier des métadonnées telles que"
+" le titre, l'artiste, l'album, ainsi que d'afficher le nom et le chemin "
+"d'accès complet du fichier. Noter que vous ne pouvez pas modifier plusieurs "
+"fichiers à la fois."
 
 #: ../../chapters/library.rst:282
 msgid ""
@@ -928,12 +982,12 @@ msgstr ""
 
 #: ../../chapters/library.rst:299 ../../chapters/library.rst:319
 msgid "The features in detail:"
-msgstr "Les fonctionnalités en détail:"
+msgstr "Les fonctionnalités en détail :"
 
 #: ../../chapters/library.rst:301 ../../chapters/library.rst:321
 msgid "**Select All button**: Selects all tracks in the current view."
 msgstr ""
-"**Bouton Tout Sélectionner**: Sélectionne toutes les pistes dans la vue "
+"**Bouton Tout Sélectionner** : Sélectionne toutes les pistes dans la vue "
 "actuelle."
 
 #: ../../chapters/library.rst:302
@@ -1027,6 +1081,11 @@ msgid ""
 ":kbd:`Shift` + :kbd:`←` to load into Deck 1 and :kbd:`Shift` + :kbd:`→` to "
 "load into Deck 2."
 msgstr ""
+"Par :ref:`control-keyboard` pour charger la piste sélectionnée dans la table"
+" des pistes de la bibliothèque. Utiliser es boutons fléchés du clavier "
+":kbd:`↑` et l:kbd:`↓` pour sélectionner une piste, :kbd:`Shift` + :kbd:`←` "
+"pour la charger dans la platine 1 et :kbd:`Shift` + :kbd :`→` pour charger "
+"dans la platine 2."
 
 #: ../../chapters/library.rst:348
 msgid ""
@@ -1046,6 +1105,14 @@ msgid ""
 "Playlists and Crates in the sidebar, as well as into track tables of active "
 "Playlists or Crates."
 msgstr ""
+"Glisser-déposer d'une platine à l'autre : une fois que vous avez chargé une "
+"piste sur une platine, un échantillonneur ou une platine de pré-écoute, "
+"cliquer sur :ref:`track title <interface-track-info>`, :ref:`track artist "
+"<interface-track-info>` ou la pochette d'album et faire glisser vers une "
+"autre platine ou un autre échantillonneur. Noter que vous pouvez également "
+"déposer des pistes sur des listes de lecture et des bacs dans la barre "
+"latérale, ainsi que dans les tableaux de pistes des listes de lecture ou des"
+" bacs actifs."
 
 #: ../../chapters/library.rst:354
 msgid ""
@@ -1108,6 +1175,9 @@ msgid ""
 "library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the list of "
 "results."
 msgstr ""
+"Appuyer sur :kbd:`TAB` pour passer de la recherche à la liste des résultats "
+"dans la bibliothèque. Utiliser les touches :kbd:`↑` et :kbd:`↓` pour faire "
+"défiler la liste des résultats."
 
 #: ../../chapters/library.rst:384
 msgid ""
@@ -1122,6 +1192,8 @@ msgid ""
 "The :guilabel:`Computer` and :guilabel:`Recording` views currently only "
 "support simple case-insensitive filtering."
 msgstr ""
+"Actuellement les vues :guilabel:`Ordinateur` et :guilabel:`Enrgistrements` "
+"ne prennent en charge qu'un simple filtrage insensible à la casse."
 
 #: ../../chapters/library.rst:391
 msgid "Using search operators"
@@ -1152,13 +1224,16 @@ msgstr ""
 #: ../../chapters/library.rst:440 ../../chapters/library.rst:484
 #: ../../chapters/library.rst:507
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../chapters/library.rst:413
 msgid ""
 "It doesn't matter if you have space between the colon and the argument or "
 "not. Quotes must be used for multi-word text arguments."
 msgstr ""
+"Peu importe qu'il y ait ou non un espace entre les deux points et "
+"l'argument. Les guillemets doivent être utilisés pour les arguments de texte"
+" multi-mots."
 
 #: ../../chapters/library.rst:416
 msgid ""
@@ -1168,6 +1243,8 @@ msgid ""
 "only tracks where the title is \"wow\" (case-insensitive like the default "
 "search), i.e. not \"wowy\", \"oh wow!\" or \"wow (Hej Remix)\"."
 msgstr ""
+"Pour trouver des correspondances exactes vous pouvez utiliser **=**. Cela affiche uniquement les pistes où l'intégralité du texte de propriété est égal au terme de recherche. Pour plusieurs mots, vous devez utiliser des guillemets, comme sans **=**. \n"
+"Le premier des exemples ci-dessous ne trouvera que les pistes dont le titre est « wow » (insensible à la casse comme la recherche par défaut), c'est-à-dire pas « wowy », « oh wow ! ou \"wow (Hej Remix)\"."
 
 #: ../../chapters/library.rst:429
 msgid "**Numeric filtering**: bitrate, bpm, played, rating, track, year"
@@ -1178,6 +1255,8 @@ msgid ""
 "You can put a space after the colon but currently there must be no space "
 "between the operator and the number."
 msgstr ""
+"Vous pouvez mettre un espace après les deux points mais actuellement il ne "
+"doit y avoir aucun espace entre l'opérateur et le nombre."
 
 #: ../../chapters/library.rst:447
 msgid ""
@@ -1257,6 +1336,13 @@ msgid ""
 "the :ref:`headphones <interface-head-main>` channel. Click the "
 "|ic_lib_preview_pause| icon to stop the playback."
 msgstr ""
+"Pour pré-écouter un morceau, activer la colonne :guilabel:`Aperçu` dans la "
+"vue bibliothèque. En cliquant sur l'icône |ic_lib_preview_play| dans la "
+"colonne :guilabel:`Aperçu` de la bibliothèque charge la piste sélectionnée "
+"dans un fichier spécial :ref:`Platine de pré-écoute<interface-preview-deck>`"
+" qui ne produira du son que dans le canal :ref:`casque <interface-head-"
+"main>`. Cliquer à nouveau sur l'icône |ic_lib_preview_pause| pour arrêter la"
+" lecture."
 
 #: ../../chapters/library.rst:528
 msgid ""
@@ -1337,6 +1423,10 @@ msgid ""
 ":menuselection:`Preferences --> Library --> Miscellaneous` and check the box"
 " \"Edit metadata after clicking selected track\"."
 msgstr ""
+"Pour activer l'édition en ligne dans le :ref:`library <library-tracks>` "
+"aller dans :menuselection:`Préférences --> Bibliothèque --> Divers` et "
+"cocher la case \"Éditer les métadonnées après avoir cliquer sur la piste "
+"sélectionnée\"."
 
 #: ../../chapters/library.rst:569
 msgid ""
@@ -1344,6 +1434,10 @@ msgid ""
 "field you want to edit. If the field is editable, it will become an editable"
 " text box. Enter a value and hit :kbd:`Enter` when you are done."
 msgstr ""
+"Sélectionner n’importe quelle piste dans la :ref:`bibliothèque <library-"
+"tracks>` et cliquer sur le champ que vous souhaitez modifier. Si le champ "
+"est modifiable, il deviendra une zone de texte éditable. Entrer une valeur "
+"et appuyer sur :kbd:`Entrée` lorsque vous avez terminé."
 
 #: ../../chapters/library.rst:0 ../../chapters/library.rst:580
 msgid "Mixxx library - Inline editing"
@@ -1360,12 +1454,20 @@ msgid ""
 "track menu. You can also double-click any track label in the decks or "
 "samplers to open the editor directly."
 msgstr ""
+"Pour ouvrir l'éditeur, faire clic-droit sur une **piste unique** dans la "
+"bibliothèque ou sur n'importe quelle étiquette de piste dans les platines ou"
+" les échantillonneurs, puis sélectionner :guilabel:`Propriétés` dans le menu"
+" des pistes. Vous pouvez également double-cliquer sur n’importe quelle "
+"étiquette de piste dans les platines ou les échantillonneurs pour ouvrir "
+"directement l’éditeur."
 
 #: ../../chapters/library.rst:590
 msgid ""
 "Add or change values in the editable fields, and save your changes as "
 "explained below."
 msgstr ""
+"Ajouter ou modifier des valeurs dans les champs éditables et enregistrer vos"
+" modifications comme expliqué ci-dessous."
 
 #: ../../chapters/library.rst:0 ../../chapters/library.rst:600
 msgid "Mixxx library - Properties editor"
@@ -1521,6 +1623,10 @@ msgid ""
 "tracks, open the context menu, and then choose :menuselection:`Metadata --> "
 "Import From File Tags`."
 msgstr ""
+"Si vous avez modifié les métadonnées de fichiers dans un logiciel tiers, "
+"vous devez ré-importer manuellement les métadonnées modifiées dans Mixxx. "
+"Sélectionner les pistes concernées, ouvrer le menu contextuel, puis choisir "
+":menuselection:`Métadonnées --> Importer à partir des tags du fichier` ."
 
 #: ../../chapters/library.rst:661
 msgid ""
@@ -1529,6 +1635,11 @@ msgid ""
 "removed tracks but no modifications of existing tracks. This is a known "
 "limitation."
 msgstr ""
+"La nouvelle analyse de la bibliothèque avec :menuselection:`Bibliothèque -->"
+" Réanalyser la bibliothèque` dans le menu en haut de la fenêtre de "
+"l'application détectera uniquement les pistes nouvellement ajoutées ou "
+"supprimées, **mais aucune modification des pistes existantes**. Il s'agit "
+"d'une limitation connue."
 
 #: ../../chapters/library.rst:669
 msgid "Popular software to edit metadata of audio files include:"
@@ -1609,6 +1720,9 @@ msgid ""
 "tracks. Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ"
 " queue."
 msgstr ""
+"**Étiquette d'informations de sélection** : affiche la durée et le nombre de"
+" pistes sélectionnées. Appuyer sur :kbd:`Ctrl` + :kbd:`A` pour obtenir la "
+"durée totale de la file d'attente AutoDJ."
 
 #: ../../chapters/library.rst:695
 msgid "**Enable Auto DJ button**: Toggles the Auto DJ mode on or off."
@@ -1657,7 +1771,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:715
 msgid "For more information, go to the chapter :ref:`djing-auto-dj`."
-msgstr "Pour plus d'informations, consulter le chapitre :ref:`djing-auto-dj`."
+msgstr "Pour plus d'informations, voir chapitre :ref:`djing-auto-dj`."
 
 #: ../../chapters/library.rst:720
 msgid "Playlists - Arranging tracks in a set order"
@@ -1809,8 +1923,8 @@ msgid ""
 msgstr ""
 "**Importer une liste de lecture**: Importe des pistes à partir de listes de "
 "lecture externes, dans différents formats de fichier, vers la liste de "
-"lecture sélectionnée. Pour plus d'informations, rendez-vous sur "
-":ref:`library-third-party`"
+"lecture sélectionnée. Pour plus d'informations, voir :ref:`library-third-"
+"party`"
 
 #: ../../chapters/library.rst:771
 msgid ""
@@ -2028,6 +2142,10 @@ msgid ""
 " tracks from anywhere on your computer and connected devices, that are not "
 "necessarily already in your Mixxx library."
 msgstr ""
+"|ic_lib_ordinateur| Ce mode fonctionne comme un gestionnaire de fichiers et "
+"vous permet de charger des pistes depuis n'importe où sur votre ordinateur "
+"et vos appareils connectés, qui ne sont pas forcément déjà dans votre "
+"bibliothèque Mixxx."
 
 #: ../../chapters/library.rst:863
 msgid ""
@@ -2037,6 +2155,12 @@ msgid ""
 "want to import to the |ic_lib_tracks| :ref:`Tracks <library-tracks>` icon or"
 " directly to the :ref:`interface-waveform`."
 msgstr ""
+"Cliquer sur l'élément :guilabel:`Ordinateur` de la barre latérale pour "
+"naviguer sur l'ordinateur et trouver votre musique. En fonction de votre "
+":term:`système d'exploitation`, votre musique se trouvera généralement dans "
+"le répertoire \" Ma musique \" ou \" Musique \". Faites glisser les fichiers"
+" que vous souhaitez importer sur l'icône |ic_lib_tracks| :ref:`Tracks "
+"<library-tracks>` ou directement sur l'icône :ref:`interface-waveform`."
 
 #: ../../chapters/library.rst:869
 msgid "Currently you can only drag files (not folders) to the Mixxx library."
@@ -2057,7 +2181,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:875
 msgid "For more information, go to :ref:`configuration-import`."
-msgstr ""
+msgstr "Pour plus d'informations, voir :ref:`configuration-import`."
 
 #: ../../chapters/library.rst:878
 msgid "Quick Links - Bookmark your favorite folders"
@@ -2072,6 +2196,13 @@ msgid ""
 "Links`. To un-pin that folder, right-click and choose :guilabel:`Remove from"
 " Quick Links`."
 msgstr ""
+"En utilisant le sous-menu :guilabel:`Accès Rapides`  vous pouvez mettre en "
+"signet des répertoires pour un accès direct. Cliquer sur l'élément "
+":guilabel:`Ordinateur` et accéder au répertoire que vous souhaitez mettre en"
+" signet. Faire un clic-droit et choisir :guilabel:`Ajouter aux Raccourcis "
+"Rapides`. Le dossier est maintenant épinglé sous :guilabel:`Accès rapides`. "
+"Pour dés-épingler ce dossier, faire un clic-droit et choisir "
+":guilabel:`Retirer des Raccourcis Rapides`."
 
 #: ../../chapters/library.rst:887
 msgid "Recordings"
@@ -2197,10 +2328,15 @@ msgid ""
 " your tracks analyzed before you play. See :ref:`getting-started-analyze-"
 "library` for details."
 msgstr ""
+"|ic_lib_analyse| Cette section vous permet d'analyser vos pistes avant de "
+"les charger dans une platine. L'analyse des pistes nécessite une puissance "
+"CPU considérable et peut provoquer des sauts dans l'audio pendant "
+"l'exécution. Il est donc utile d'analyser vos pistes avant de les jouer. "
+"Voir :ref:`getting-started-analyze-library` pour plus de détails."
 
 #: ../../chapters/library.rst:943
 msgid "Using libraries from other software"
-msgstr ""
+msgstr "Utiliser les bibliothèques d'autres logiciels"
 
 #: ../../chapters/library.rst:949
 msgid "Supported libraries:"
@@ -2233,15 +2369,18 @@ msgid ""
 "|ic_lib_banshee| `Banshee <https://bansheemediaplayer.github.io/>`_ "
 "(Windows, macOS, GNU/Linux)"
 msgstr ""
+"|ic_lib_banshee| `Banshee <https://bansheemediaplayer.github.io/>`_ "
+"(Windows, macOS, GNU/Linux)"
 
 #: ../../chapters/library.rst:955
 msgid "|ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)"
-msgstr ""
+msgstr "|ic_lib_serato| `Serato <https://serato.com/>`_ (Windows, macOS)"
 
 #: ../../chapters/library.rst:956
 msgid ""
 "|ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)"
 msgstr ""
+"|ic_lib_rekordbox| `Rekordbox <https://rekordbox.com/en/>`_ (Windows, macOS)"
 
 #: ../../chapters/library.rst:958
 msgid ""
@@ -2273,7 +2412,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:972
 msgid "Using the iTunes/Traktor/Rhythmbox/Bashee/Rekordbox library"
-msgstr ""
+msgstr "Utiliser la bibliothèque iTunes/Traktor/Rhythmbox/Bashee/Rekordbox"
 
 #: ../../chapters/library.rst:974
 msgid ""
@@ -2308,7 +2447,7 @@ msgstr ""
 
 #: ../../chapters/library.rst:987
 msgid "Using the Rekordbox library"
-msgstr ""
+msgstr "Utiliser la bibliothèque Rekordbox"
 
 #: ../../chapters/library.rst:988
 msgid ""
@@ -2318,10 +2457,17 @@ msgid ""
 " external device via :guilabel:`Preferences > Advanced > Database "
 "management` in Rekordbox are not supported."
 msgstr ""
+"Pour lire les bases de données Rekordbox pour les lecteurs CDJ/XDJ sur des "
+"appareils USB ou SD, la base de données doit être exportée vers un appareil "
+"USB ou SD avec un système de fichiers FAT ou HFS en utilisant le mode "
+"d'exportation de Rekordbox. Les bases de données qui ont été déplacées vers "
+"un périphérique externe via :guilabel:`Préférences > Avancé > Gestion des "
+"bases de données` dans Rekordbox ne sont pas prises en charge."
 
 #: ../../chapters/library.rst:993
 msgid "Plug your USB or SD drive in while Mixxx is running."
 msgstr ""
+"Brancher votre clé USB ou SD pendant que Mixxx est en cours d'exécution."
 
 #: ../../chapters/library.rst:994
 msgid ""
@@ -2329,61 +2475,77 @@ msgid ""
 "Rekordbox prepared USB drives. If no Rekordbox devices show up, you can "
 "click on :guilabel:`Check for attached Rekordbox devices (refresh)`."
 msgstr ""
+"Cliquer sur l'élément :guilabel:`Rekordbox` dans la barre latérale de la "
+"bibliothèque pour rechercher les clés USB préparées par Rekordbox. Si aucun "
+"appareil Rekordbox n’apparait, vous pouvez cliquer sur :guilabel:`Vérifier "
+"les appareils Rekordbox connectés (actualiser)`."
 
 #: ../../chapters/library.rst:995
 msgid ""
 "Click on the desired removable device. All your folders and playlists will "
 "be revealed for you to play from."
 msgstr ""
+"Cliquer sur le périphérique amovible souhaité. Tous vos répertoires et "
+"listes de lecture seront révélés pour que vous puissiez lire la musique à "
+"partir d'eux."
 
 #: ../../chapters/library.rst:998
 msgid "How Rekordbox hotcues, memory cues, and loops are imported"
 msgstr ""
+"Comment les repères rapides, les repères mémoire et les boucles de Rekordbox"
+" sont importés"
 
 #: ../../chapters/library.rst:999
 msgid "The following data is read:"
-msgstr ""
+msgstr "Les données suivantes sont lues :"
 
 #: ../../chapters/library.rst:1001
 msgid "Folders"
-msgstr ""
+msgstr "Répertoires"
 
 #: ../../chapters/library.rst:1002
 msgid "Playlists"
-msgstr ""
+msgstr "Listes de lecture "
 
 #: ../../chapters/library.rst:1003
 msgid "Beatgrids"
-msgstr ""
+msgstr "Grilles rythmiques (Beatgrids)"
 
 #: ../../chapters/library.rst:1004
 msgid "Hot cues"
-msgstr ""
+msgstr "Repères rapides (Hot cues)"
 
 #: ../../chapters/library.rst:1005
 msgid "Memory cues"
-msgstr ""
+msgstr "Repères mémoire (Memory cues)"
 
 #: ../../chapters/library.rst:1006
 msgid "Loops"
-msgstr ""
+msgstr "Boucles (Loops)"
 
 #: ../../chapters/library.rst:1008
 msgid ""
 "Mixxx currently has one main cue point, one loop, and thirty eight hotcues. "
 "As such:"
 msgstr ""
+"Actuellement Mixxx dispose d'un point de repère principal, d'une boucle et "
+"de trente-huit repères rapides (hotcues). Donc :"
 
 #: ../../chapters/library.rst:1010
 msgid ""
 "All Rekordbox hotcues are mapped to Mixxx hotcues as expected, the first "
 "chronological Rekordbox memory cue is mapped to the Mixxx main cue."
 msgstr ""
+"Tous les repères rapides (hotcues) Rekordbox sont mappés sur les repères "
+"rapides Mixxx comme prévu, le premier repère mémoire chronologique Rekordbox"
+" est mappé sur le repère principal Mixxx."
 
 #: ../../chapters/library.rst:1011
 msgid ""
 "The first chronological Rekordbox loop is also mapped to the Mixxx loop."
 msgstr ""
+"La première boucle (loop) chronologique Rekordbox est également mappée sur "
+"la boucle Mixxx."
 
 #: ../../chapters/library.rst:1012
 msgid ""
@@ -2391,12 +2553,18 @@ msgid ""
 "cues are appended as Mixxx hotcues following the previously imported "
 "Rekordbox hotcues."
 msgstr ""
+"Toutes les boucles (y compris la première boucle) et tous les repères "
+"mémoire Rekordbox ultérieurs sont ajoutés en tant que repères rapide Mixxx, "
+"à la suite des repères rapides Rekordbox précédemment importés."
 
 #: ../../chapters/library.rst:1013
 msgid ""
 "The hotcue and memory cue colors you assigned in Rekordbox are also "
 "imported, assisting in distinguishing between them."
 msgstr ""
+"Les couleurs des repères rapides (hotcues) et des repères mémoire (memory "
+"cues) que vous avez attribuées dans Rekordbox sont également importées, ce "
+"qui facilite leur distinction."
 
 #: ../../chapters/library.rst:1015
 msgid ""
@@ -2404,10 +2572,14 @@ msgid ""
 "hotcues, their loop information is stored in the Mixxx library and will "
 "become usable in Mixxx 2.4."
 msgstr ""
+"Bien que les boucles (loops) Rekordbox importées supplémentaires "
+"n'apparaissent que dans Mixxx 2.3 sous forme de repères rapides (hotcues), "
+"leurs informations de boucle sont stockées dans la bibliothèque Mixxx et "
+"deviendront utilisables dans Mixxx 2.4."
 
 #: ../../chapters/library.rst:1020
 msgid "Using the Serato library"
-msgstr ""
+msgstr "Utiliser la bibliothèque Serato"
 
 #: ../../chapters/library.rst:1022
 msgid ""
@@ -2415,6 +2587,10 @@ msgid ""
 "hard drive as well as portable USB drives. Smart crates are currently not "
 "supported."
 msgstr ""
+"Mixxx prend en charge la lecture de votre bibliothèque et de vos bacs "
+"Serato, à la fois depuis votre disque dur local ainsi que depuis des clés "
+"USB portables. Les bacs intelligentes (Smart crates) ne sont actuellement "
+"pas prises en charge."
 
 #: ../../chapters/library.rst:1024
 msgid ""
@@ -2423,40 +2599,56 @@ msgid ""
 " from the library or directly from the file browser, Mixxx will import that "
 "information automatically if present."
 msgstr ""
+"Serato stocke des informations telles que les repères rapide (hot cues), les"
+" boucles enregistrées (saved loop), la couleur de la piste (track color) et "
+"la grille rythmique (beatgrid) dans les tags du fichier. Peu importe si une "
+"piste est chargée dans la platine depuis la bibliothèque ou directement "
+"depuis le navigateur de fichiers, Mixxx importera automatiquement ces "
+"informations si elles sont présentes."
 
 #: ../../chapters/library.rst:1027
 msgid "Waveforms, Gain values and \"Flips\" are not imported from Serato."
 msgstr ""
+"Les formes d'onde (waveforms), les valeurs de gain et les « Flips » ne sont "
+"pas importés de Serato."
 
 #: ../../chapters/library.rst:1029
 msgid ""
 "Due to differences in the metadata format, importing Serato information from"
 " Ogg Vorbis files is currently not supported."
 msgstr ""
+"En raison des différences dans le format des métadonnées, l'importation "
+"d'informations Serato à partir de fichiers Ogg Vorbis n'est pas prise en "
+"charge actuellement."
 
 #: ../../chapters/library.rst:1031
 msgid "To import Serato libraries from external USB drives:"
 msgstr ""
+"Pour importer des bibliothèques Serato à partir de lecteurs USB externes :"
 
 #: ../../chapters/library.rst:1033
 msgid "Copy music library from Serato into external USB drive"
-msgstr ""
+msgstr "Copier la bibliothèque musicale de Serato sur une clé USB externe"
 
 #: ../../chapters/library.rst:1034
 msgid "Plug in USB drive while Mixxx is running"
-msgstr ""
+msgstr "Brancher la clé USB pendant que Mixxx est en cours d'exécution"
 
 #: ../../chapters/library.rst:1035
 msgid ""
 "Click on :guilabel:`Serato` in the library. All USB drives containing a "
 "Serato library will be detected automatically."
 msgstr ""
+"Cliquer sur :guilabel:`Serato` dans la bibliothèque. Toutes les clés USB "
+"contenant une bibliothèque Serato seront détectées automatiquement."
 
 #: ../../chapters/library.rst:1036
 msgid ""
 "For each removable device, the library and all crates from Serato will "
 "accessible."
 msgstr ""
+"Pour chaque périphérique amovible, la bibliothèque et tous les bacs de "
+"Serato seront accessibles."
 
 #: ../../chapters/library.rst:1038
 msgid ""
@@ -2464,24 +2656,32 @@ msgid ""
 "library in a Mixxx version that didn't support reading that data, you can "
 "reimport it from the file's tags via the track context menu."
 msgstr ""
+"Si vous avez déjà ajouté une piste contenant des métadonnées Serato à votre "
+"bibliothèque Mixxx dans une version de Mixxx qui ne prenait pas en charge la"
+" lecture de ces données, vous pouvez la réimporter à partir des tags du "
+"fichier via le menu contextuel de la piste."
 
 #: ../../chapters/library.rst:1040
 msgid ""
 "This action will clear your existing cuepoints in Mixxx if the file contains"
 " Serato Metadata"
 msgstr ""
+"Cette action effacera vos points de repère existants dans Mixxx si le "
+"fichier contient des métadonnées Serato."
 
 #: ../../chapters/library.rst:1042
 msgid "To reimport metadata from files:"
-msgstr ""
+msgstr "Pour réimporter les métadonnées des fichiers :"
 
 #: ../../chapters/library.rst:1044
 msgid "Right click on the track to show the context menu"
-msgstr ""
+msgstr "Clic-droit sur la piste pour afficher le menu contextuel"
 
 #: ../../chapters/library.rst:1045
 msgid "Select :menuselection:`Metadata --> Import From File Tags`."
 msgstr ""
+"Sélectionner :menuselection:`Métadonnées --> Importer à partir des tags du "
+"fichier`."
 
 #: ../../chapters/library.rst:1047
 msgid ""
@@ -2492,6 +2692,13 @@ msgid ""
 "able to mitigate this problem, but it's possible to shift all cues for a "
 "track at once as a workaround."
 msgstr ""
+"Les décodeurs peuvent légèrement détecter des heures de début et de fin de "
+"piste différentes pour les fichiers provenant de différentes sources, cela "
+"pourrait être dû à la présence d'innombrables encodeurs et décodeurs pour "
+"MP3 et M4A/AAC. Ce problème peut entrainer un décalage de quelques "
+"millisecondes vers le haut. Mixxx n'est peut-être pas toujours en mesure "
+"d'atténuer ce problème, mais il est possible de décaler tous les signaux "
+"d'une piste en même temps pour contourner ce problème."
 
 #: ../../chapters/library.rst:1054
 msgid "Removing tracks from the library"
@@ -2555,6 +2762,10 @@ msgid ""
 "the ``location:`` :ref:`search operator <library-finding-tracks>`, or "
 ":ref:`sort the table <library-tracks>` by \"Location\"."
 msgstr ""
+"Cliquer sur le périphérique amovible souhaité. Tous vos répertoires et "
+"listes de lecture seront révélés pour que vous puissiez lire la musique à "
+"partir d'eux. `location:`` :ref:`search operator <library-finding-tracks>`, "
+"ou :ref:`sort the table <library-tracks>` by \"Location\"."
 
 #: ../../chapters/library.rst:1075
 msgid ""
@@ -2666,6 +2877,11 @@ msgid ""
 "<https://github.com/mixxxdj/mixxx/wiki/Compiling-On-Linux#user-content-"
 "optional-build-with-m4aaac-file-support>`_."
 msgstr ""
+"Sous Linux, la lecture de :file:`AAC` est désactivée par défaut en raison de"
+" restrictions de licence. Pour activer la lecture des fichiers :file:`AAC`, "
+"`construire (build) Mixxx à partir des sources avec la prise en charge des "
+"fichiers m4a/AAC <https://github.com/mixxxdj/mixxx/wiki/Compiling-On-"
+"Linux#user-content-optional -build-with-m4aaac-file-support>`_."
 
 #: ../../chapters/library.rst:1117
 msgid ""

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,29 +219,31 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:6
 msgid "Application shortcuts"
-msgstr ""
+msgstr "Raccourcis de l'application"
 
 #: ../../chapters/appendix/application_shortcuts.rst:8
 msgid ""
 "Use these shortcuts to access features available in the menu on top of the "
 "application window."
 msgstr ""
+"Utiliser ces raccourcis pour accéder aux fonctionnalités disponibles dans le"
+" menu en haut de la fenêtre de l'application."
 
 #: ../../chapters/appendix/application_shortcuts.rst:12
 msgid "Function"
-msgstr ""
+msgstr "Fonction"
 
 #: ../../chapters/appendix/application_shortcuts.rst:12
 msgid "Key"
-msgstr ""
+msgstr "Raccourcis"
 
 #: ../../chapters/appendix/application_shortcuts.rst:14
 msgid "**File menu**"
-msgstr ""
+msgstr "**Menu Fichier**"
 
 #: ../../chapters/appendix/application_shortcuts.rst:16
 msgid "Load Track to Deck 1"
-msgstr ""
+msgstr "Charger la piste sur la platine 1"
 
 #: ../../chapters/appendix/application_shortcuts.rst:16
 msgid ":kbd:`Ctrl` + :kbd:`O`"
@@ -245,7 +251,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:18
 msgid "Load Track to Deck 2"
-msgstr ""
+msgstr "Charger la piste sur la platine 2"
 
 #: ../../chapters/appendix/application_shortcuts.rst:18
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`O`"
@@ -253,11 +259,11 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:20
 msgid "**Library menu**"
-msgstr ""
+msgstr "**Menu Bibliothèque**"
 
 #: ../../chapters/appendix/application_shortcuts.rst:22
 msgid "Add new Playlist"
-msgstr ""
+msgstr "Ajouter une nouvelle liste de lecture"
 
 #: ../../chapters/appendix/application_shortcuts.rst:22
 msgid ":kbd:`Ctrl` + :kbd:`N`"
@@ -265,7 +271,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:24
 msgid "Add new Crate"
-msgstr ""
+msgstr "Ajouter un nouveau bac"
 
 #: ../../chapters/appendix/application_shortcuts.rst:24
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`N`"
@@ -273,11 +279,11 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:26
 msgid "**View menu**"
-msgstr ""
+msgstr "**Menu Affichage**"
 
 #: ../../chapters/appendix/application_shortcuts.rst:28
 msgid "Show Skin Settings Menu"
-msgstr ""
+msgstr "Afficher le menu des paramètres de thème"
 
 #: ../../chapters/appendix/application_shortcuts.rst:28
 msgid ":kbd:`Ctrl` + :kbd:`1`"
@@ -285,7 +291,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:30
 msgid "Show Microphone Section"
-msgstr ""
+msgstr "Afficher la section microphone"
 
 #: ../../chapters/appendix/application_shortcuts.rst:30
 msgid ":kbd:`Ctrl` + :kbd:`2`"
@@ -293,7 +299,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:32
 msgid "Show Vinyl Control Section"
-msgstr ""
+msgstr "Afficher la section de contrôle vinyle"
 
 #: ../../chapters/appendix/application_shortcuts.rst:32
 msgid ":kbd:`Ctrl` + :kbd:`3`"
@@ -301,7 +307,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:34
 msgid "Show Preview Deck"
-msgstr ""
+msgstr "Afficher la platine de pré-écoute"
 
 #: ../../chapters/appendix/application_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`4`"
@@ -309,7 +315,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:36
 msgid "Show Cover Art"
-msgstr ""
+msgstr "Afficher la pochette d'album"
 
 #: ../../chapters/appendix/application_shortcuts.rst:36
 msgid ":kbd:`Ctrl` + :kbd:`6`"
@@ -317,7 +323,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:38
 msgid "Maximize Library"
-msgstr ""
+msgstr "Maximiser la bibliothèque"
 
 #: ../../chapters/appendix/application_shortcuts.rst:38
 msgid ":kbd:`Space`"
@@ -325,7 +331,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:40
 msgid "Full Screen (Windows & Linux)"
-msgstr ""
+msgstr "Plein écran (Windows et Linux)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:40
 msgid ":kbd:`F11`"
@@ -333,7 +339,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:42
 msgid "Full Screen (macOS)"
-msgstr ""
+msgstr "Plein écran (macOS)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:42
 msgid ":kbd:`Shift` + :kbd:`Command` + :kbd:`F`"
@@ -341,11 +347,11 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:44
 msgid "**Options menu**"
-msgstr ""
+msgstr "**Menu Options**"
 
 #: ../../chapters/appendix/application_shortcuts.rst:46
 msgid "Enable Vinyl Control 1"
-msgstr ""
+msgstr "Activer le contrôle vinyle 1"
 
 #: ../../chapters/appendix/application_shortcuts.rst:46
 msgid ":kbd:`Ctrl` + :kbd:`T`"
@@ -353,7 +359,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:48
 msgid "Enable Vinyl Control 2"
-msgstr ""
+msgstr "Activer le contrôle vinyle 2"
 
 #: ../../chapters/appendix/application_shortcuts.rst:48
 msgid ":kbd:`Ctrl` + :kbd:`Y`"
@@ -361,7 +367,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:50
 msgid "Enable Vinyl Control 3"
-msgstr ""
+msgstr "Activer le contrôle vinyle 3"
 
 #: ../../chapters/appendix/application_shortcuts.rst:50
 msgid ":kbd:`Ctrl` + :kbd:`U`"
@@ -369,7 +375,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:52
 msgid "Enable Vinyl Control 4"
-msgstr ""
+msgstr "Activer le contrôle vinyle 4"
 
 #: ../../chapters/appendix/application_shortcuts.rst:52
 msgid ":kbd:`Ctrl` + :kbd:`I`"
@@ -377,7 +383,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:54
 msgid "Enable Live Broadcasting"
-msgstr ""
+msgstr "Activer la diffusion en direct"
 
 #: ../../chapters/appendix/application_shortcuts.rst:54
 msgid ":kbd:`Ctrl` + :kbd:`L`"
@@ -385,7 +391,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:56
 msgid "Record Mix"
-msgstr ""
+msgstr "Enregistrer le Mix"
 
 #: ../../chapters/appendix/application_shortcuts.rst:56
 msgid ":kbd:`Ctrl` + :kbd:`R`"
@@ -393,7 +399,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid "Enable Keyboard Shortcuts"
-msgstr ""
+msgstr "Activer raccourcis clavier"
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`\\``"
@@ -401,7 +407,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:60
 msgid "Open Preferences (Windows & Linux)"
-msgstr ""
+msgstr "Ouvrir les préférences (Windows et Linux)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:60
 msgid ":kbd:`Ctrl` + :kbd:`P`"
@@ -409,7 +415,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:62
 msgid "Open Preferences (macOS)"
-msgstr ""
+msgstr "Ouvrir les préférences (macOS)"
 
 #: ../../chapters/appendix/application_shortcuts.rst:62
 msgid ":kbd:`Ctrl` + :kbd:`,`"
@@ -417,7 +423,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:64
 msgid "Exit Mixxx"
-msgstr ""
+msgstr "Quitter Mixxx"
 
 #: ../../chapters/appendix/application_shortcuts.rst:64
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
@@ -425,11 +431,11 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:66
 msgid "**Developer menu**"
-msgstr ""
+msgstr "**Menu Developer**"
 
 #: ../../chapters/appendix/application_shortcuts.rst:68
 msgid "Reload skin"
-msgstr ""
+msgstr "Recharger le thème"
 
 #: ../../chapters/appendix/application_shortcuts.rst:68
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`R`"
@@ -437,7 +443,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:70
 msgid "Developer Tools"
-msgstr ""
+msgstr "Outils de développement"
 
 #: ../../chapters/appendix/application_shortcuts.rst:70
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
@@ -445,7 +451,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:72
 msgid "Stats: Base Bucket"
-msgstr ""
+msgstr "Stats: Base Bucket"
 
 #: ../../chapters/appendix/application_shortcuts.rst:72
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`B`"
@@ -473,9 +479,15 @@ msgid ""
 "key on macOS. The :kbd:`Alt` key on Windows & Linux is equivalent to the "
 ":kbd:`Option` key on macOS. Application shortcuts are not customizable."
 msgstr ""
+"La touche :kbd:`Ctrl` sous Windows et Linux est équivalente à la touche "
+":kbd:`Command` sous macOS. La touche :kbd:`Alt` sous Windows et Linux est "
+"équivalente à la touche :kbd:`Option` sous macOS. Les raccourcis "
+"d'application ne sont pas personnalisables."
 
 #: ../../chapters/appendix/application_shortcuts.rst:84
 msgid ""
 "The Developer menu is available if Mixxx is started using the "
 ":ref:`appendix-command-line-options`."
 msgstr ""
+"Le menu Développer est disponible si Mixxx est démarré en utilisant les "
+":ref:`appendix-command-line-options`."

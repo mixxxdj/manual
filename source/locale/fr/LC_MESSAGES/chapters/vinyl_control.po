@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -842,7 +842,7 @@ msgstr "Affichage de l'état du contrôle vinyle"
 
 #: ../../chapters/vinyl_control.rst:318
 msgid "The vinyl control status of the deck"
-msgstr ""
+msgstr "Le statut du contrôle vinyle de la platine"
 
 #: ../../chapters/vinyl_control.rst:318
 msgid "The vinyl control status, and signal quality display of the deck"

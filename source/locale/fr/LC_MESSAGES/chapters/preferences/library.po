@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,21 +219,23 @@ msgstr ""
 
 #: ../../chapters/preferences/library.rst:4
 msgid "Library"
-msgstr ""
+msgstr "Bibliothèque"
 
 #: ../../chapters/preferences/library.rst:9
 msgid "Changing music directories"
-msgstr ""
+msgstr "Changer les répertoires de musique"
 
 #: ../../chapters/preferences/library.rst:11
 msgid ""
 "You can manually add, relink, and remove Mixxx music directories in "
 ":menuselection:`Preferences --> Library`."
 msgstr ""
+"Vous pouvez ajouter, rattacher et supprimer manuellement des répertoires de "
+"musique de Mixxx dans :menuselection:`Préférences --> Bibliothèque`."
 
 #: ../../chapters/preferences/library.rst:23
 msgid "**Add a new music directory**"
-msgstr ""
+msgstr "**Ajouter un nouveau répertoire de musique**"
 
 #: ../../chapters/preferences/library.rst:15
 msgid ""
@@ -237,22 +243,32 @@ msgid ""
 "browse to a directory where your music is stored. Mixxx will watch this "
 "directory and its subdirectories for new tracks."
 msgstr ""
+"Mixxx gère plusieurs répertoire de bibliothèque musicale. Cliquer sur "
+":guilabel:`Ajouter` pour accéder à un répertoire dans lequel votre musique "
+"est stockée. Mixxx surveillera ce répertoire et ses sous-répertoires pour de"
+" nouvelles pistes."
 
 #: ../../chapters/preferences/library.rst:19
 msgid ""
 "If you add a directory that is already in your library, or you are currently"
 " :ref:`rescanning your library <library-tracks>`, the operation is canceled."
 msgstr ""
+"Si vous ajoutez un répertoire qui est déjà dans votre bibliothèque, ou si "
+"vous êtes actuellement en train de :ref:`réanalyser votre bibliothèque "
+"<library-tracks>`, l'opération est annulée."
 
 #: ../../chapters/preferences/library.rst:22
 msgid ""
 "Directories can also be added from the :ref:`Computer <library-computer>` "
 "sidebar item inside the library."
 msgstr ""
+"Des répertoires peuvent également être ajoutés à l’intérieur de la "
+"bibliothèque à partir de l'élément :ref:`Ordinateur <library-computer>` de "
+"la barre latérale."
 
 #: ../../chapters/preferences/library.rst:41
 msgid "**Relink an existing music directory**"
-msgstr ""
+msgstr "**Rattacher un répertoire de musique existant**"
 
 #: ../../chapters/preferences/library.rst:26
 msgid ""
@@ -261,6 +277,11 @@ msgid ""
 "they can't be loaded on decks and the tracks will become missing after the "
 "library is rescanned."
 msgstr ""
+"Si un répertoire de musique existant est déplacé ou renommé, Mixxx ne sait "
+"pas où trouver les fichiers audio qu'il contient. Les pistes s'afficheront "
+"toujours dans la bibliothèque, mais elles ne pourront pas être chargées sur "
+"les platines et elles disparaitront après une nouvelle analyse de la "
+"bibliothèque."
 
 #: ../../chapters/preferences/library.rst:30
 msgid ""
@@ -269,6 +290,11 @@ msgid ""
 "location. This will re-establish the links to the audio files in the Mixxx "
 "library."
 msgstr ""
+"Pour rattacher le répertoire de musique, aller dans "
+":menuselection:`Préférences --> Bibliothèque`, cliquer sur "
+":guilabel:`Rattacher` pour sélectionner le répertoire de musique dans son "
+"nouvel emplacement. Cela rétablira les liens vers les fichiers audio de la "
+"bibliothèque Mixxx."
 
 #: ../../chapters/preferences/library.rst:34
 msgid ""
@@ -277,6 +303,10 @@ msgid ""
 "column in the library and you should see that it now points to the new music"
 " directory."
 msgstr ""
+"Cliquer sur :menuselection:`Bibliothèque --> Réanalyser la bibliothèque`, "
+"cela mettra à jour les pistes et les fera réapparaitre dans la bibliothèque."
+" Vérifier la colonne d'emplacement dans la bibliothèque et vous devriez voir"
+" qu'elle pointe maintenant vers le nouveau répertoire de musique."
 
 #: ../../chapters/preferences/library.rst:38
 msgid ""
@@ -286,6 +316,13 @@ msgid ""
 "checking the :term:`Key <key>` and :term:`BPM <BPM>` columns to see if there"
 " is a key and BPM for every track."
 msgstr ""
+"Les listes de lecture, les bacs, l'historique et toutes les données de piste"
+" telles que les points de repère, les notations, les commentaires, etc. sont"
+" conservés après la reconnexion de la bibliothèque. Les pistes ne sont pas "
+"réanalysées car l'analyse mise en cache est réutilisée. Vous pouvez le "
+"confirmer en vérifiant les colonnes :term:`Tonalité (Key) <key>` et "
+":term:`BPM <BPM>`,  pour voir s’il y a une tonalité (key) et un BPM pour "
+"chaque piste."
 
 #: ../../chapters/preferences/library.rst:43
 msgid ""
@@ -294,10 +331,15 @@ msgid ""
 "supported :term:`OS <operating system>` as well as detailed descriptions of "
 "all settings files, go to :ref:`appendix-settings-files`."
 msgstr ""
+"Il est recommandé de faire une sauvegarde de vos fichiers de configuration "
+"Mixxx avant de déplacer ou de renommer les répertoires de musique utilisés "
+"dans Mixxx. Pour les emplacements dans chaque :term:`OS <operating system>` "
+"pris en charge ainsi que des descriptions détaillées de tous les fichiers de"
+" paramètres, voir :ref:`appendix-settings-files`."
 
 #: ../../chapters/preferences/library.rst:62
 msgid "**Remove a music directory**"
-msgstr ""
+msgstr "**Supprimer un répertoire de musique**"
 
 #: ../../chapters/preferences/library.rst:47
 msgid ""
@@ -305,29 +347,41 @@ msgid ""
 " subdirectories for new tracks, and asks what would you like to do with the "
 "tracks from these directories."
 msgstr ""
+"Cliquer sur :guilabel:`Supprimer`, et Mixxx ne surveillera plus ce "
+"répertoire et ses sous-répertoires à la recherche de nouvelles pistes, et "
+"vous demandera ce que vous aimeriez faire avec les pistes de ces "
+"répertoires."
 
 #: ../../chapters/preferences/library.rst:51
 msgid ""
 "Select :guilabel:`Hide Tracks` to hide all tracks from this directory and "
 "subdirectories."
 msgstr ""
+"Sélectionner :guilabel:`Masquer pistes` pour masquer toutes les pistes de ce"
+" répertoire et de ses sous-répertoires."
 
 #: ../../chapters/preferences/library.rst:53
 msgid ""
 "Select :guilabel:`Delete Track Metadata` to delete all metadata for these "
 "tracks from Mixxx permanently"
 msgstr ""
+"Sélectionner :guilabel:`Supprimer les métadonnées des pistes` pour supprimer"
+" définitivement toutes les métadonnées de ces pistes dans Mixxx"
 
 #: ../../chapters/preferences/library.rst:55
 msgid ""
 "Select :guilabel:`Leave Tracks Unchanged` to leave the tracks unchanged in "
 "your library."
 msgstr ""
+"Sélectionner :guilabel:`Laisser les pistes inchangées` pour laisser les "
+"pistes inchangées dans votre bibliothèque."
 
 #: ../../chapters/preferences/library.rst:58
 msgid ""
 "Hiding tracks saves their metadata in case you re-add them in the future."
 msgstr ""
+"Masquer les pistes enregistre leurs métadonnées au cas où vous les ré-"
+"ajouteriez ultérieurement."
 
 #: ../../chapters/preferences/library.rst:60
 msgid ""
@@ -335,9 +389,17 @@ msgid ""
 " beatgrids, hotcues, and loops. This choice only affects the Mixxx library. "
 "No files on disk will be changed or deleted."
 msgstr ""
+"Les métadonnées décrivent tous les détails de la piste (artiste, titre, "
+"nombre de lectures, etc.) ainsi que les grilles rythmiques, les repères "
+"rapides et les boucles. Ce choix n'affecte que la bibliothèque Mixxx. Aucun "
+"fichier sur le disque ne sera modifié ou supprimé."
 
 #: ../../chapters/preferences/library.rst:64
 msgid ""
 "When changing music directories, you might want to run a library rescan "
 "afterwards. Select :menuselection:`Library --> Rescan Library` in the menu."
 msgstr ""
+"Lorsque vous modifiez des répertoires de musiques, vous souhaiterez peut-"
+"être exécuter une nouvelle analyse de la bibliothèque par la suite. "
+"Sélectionner :menuselection:`Bibliothèque --> Réanalyser la bibliothèque` "
+"dans le menu."

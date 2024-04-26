@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,22 +256,27 @@ msgstr ""
 #: ../../chapters/getting_involved.rst:21
 msgid "`Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 msgstr ""
+"`Faire des thèmes <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 
 #: ../../chapters/getting_involved.rst:22
 msgid ""
 "`Make MIDI mappings <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_ for your controller"
 msgstr ""
+"`Faire des mappages MIDI <https://github.com/mixxxdj/mixxx/wiki/MIDI-"
+"Controller-Mapping-File-Format>`_ pour votre contrôleur"
 
 #: ../../chapters/getting_involved.rst:25
 msgid "`Report bugs <https://github.com/mixxxdj/mixxx/issues>`_"
-msgstr ""
+msgstr "`Signaler des bogues <https://github.com/mixxxdj/mixxx/issues>`_"
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
 "Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the "
 "information on it is up to date."
 msgstr ""
+"Mettre à jour notre`Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ pour vous"
+" assurer que les informations qui y figurent sont à jour."
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
@@ -286,6 +291,8 @@ msgid ""
 "Answer questions on the `Help & Support Forum "
 "<https://mixxx.discourse.group/c/support/6>`_"
 msgstr ""
+"Répondre aux questions sur le `Forum d'aide et d'assistance "
+"<https://mixxx.discourse.group/c/support/6>`_"
 
 #: ../../chapters/getting_involved.rst:32
 msgid ""
@@ -333,12 +340,19 @@ msgid ""
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
+"Créez un compte sur notre plateforme de développement `Github "
+"<https://github.com/mixxxdj>`_ et créer une version dérivée de notre code "
+"source (fork). Voir `Utilisation de Git pour le développement Mixxx "
+"<https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 
 #: ../../chapters/getting_involved.rst:48
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Familiarisez-vous avec le code. Choisir un bug sur la `Liste de bogues "
+"facile "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:50
 msgid ""
@@ -357,6 +371,8 @@ msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Choisissez un bug sur le `Liste de bogues facile "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:57
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."

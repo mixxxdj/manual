@@ -4,18 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
-# Rafael French <rafael.venan@free.fr>, 2024
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 19:19+0100\n"
-"PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -351,13 +350,8 @@ msgid ""
 "the Compact deck (underlined and bolded). If you wish to change to a "
 "different deck size, you can choose FULL or Mini."
 msgstr ""
-"La section platine est disponible en trois tailles : Full, Compact et Mini. "
-"Vous pouvez basculer entre l'une des trois tailles en cliquant sur le bouton "
-":guilabel:`Settings` ou l'icône engrenage. \n" 
-"Sous la section :guilabel:`Decks`, cliquer sur \"hide mixer to select\". "
-"Cela sélectionnera automatiquement la platine Compact (souligné et gras). "
-"Si vous souhaitez passer à une taille de platine différente, vous pouvez "
-"choisir FULL ou Mini."
+"La section platine est disponible en trois tailles : Full, Compact et Mini. Vous pouvez basculer entre l'une des trois tailles en cliquant sur le bouton :guilabel:`Settings` ou l'icône engrenage. \n"
+"Sous la section :guilabel:`Decks`, cliquer sur \"hide mixer to select\". Cela sélectionnera automatiquement la platine Compact (souligné et gras). Si vous souhaitez passer à une taille de platine différente, vous pouvez choisir FULL ou Mini."
 
 #: ../../chapters/user_interface.rst:0
 msgid ""
@@ -553,8 +547,8 @@ msgid ""
 "requires a detected key on both involved decks. Right-clicking it resets the"
 " key to the original track key."
 msgstr ""
-"**Synchroniser et réinitialiser la tonalité**: Un clic-gauche sur le "
-"bouton :guilabel:`MATCH` règle la tonalité sur une hauteur qui permet la "
+"**Synchroniser et réinitialiser la tonalité** : Un clic-gauche sur le bouton"
+" :guilabel:`MATCH` règle la tonalité sur une hauteur qui permet la "
 "transition harmonique depuis l'autre piste. Cela nécessite une tonalité "
 "détectée sur les deux platines impliquées. Un clic-droit réinitialise la "
 "tonalité de la piste à la valeur d'origine."
@@ -1170,8 +1164,8 @@ msgid ""
 "Tap the Cue button to jump to the :term:`Cue point <cue>` and pause "
 "playback."
 msgstr ""
-"Appuyer sur le bouton repère pour passer au :term:`Cue point <cue>`et "
-"mettre la lecture en pause."
+"Appuyer sur le bouton repère pour passer au :term:`Cue point <cue>`et mettre"
+" la lecture en pause."
 
 #: ../../chapters/user_interface.rst:415
 msgid "**Mixxx mode (no blinking)**"

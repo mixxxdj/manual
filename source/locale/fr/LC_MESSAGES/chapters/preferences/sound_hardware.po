@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,11 +219,11 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:6
 msgid "Sound Hardware"
-msgstr ""
+msgstr "Matériel sonore"
 
 #: ../../chapters/preferences/sound_hardware.rst:15
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Préférences matérielles sonore de Mixxx"
 
 #: ../../chapters/preferences/sound_hardware.rst:17
 msgid ""
@@ -228,6 +232,11 @@ msgid ""
 " determine Mixxx's responsiveness and reliability. The optimal settings will"
 " vary based on your computer and hardware quality."
 msgstr ""
+"Pour obtenir les meilleures performances avec Mixxx, il est essentiel de "
+"configurer votre *tampon audio*, votre *taux d'échantillonnage* et votre "
+"*API audio*. Ces trois facteurs déterminent en grande partie la réactivité "
+"et la fiabilité de Mixxx. Les paramètres optimaux varient en fonction de la "
+"qualité de votre ordinateur et de votre matériel."
 
 #: ../../chapters/preferences/sound_hardware.rst:22
 msgid ""
@@ -237,10 +246,15 @@ msgid ""
 "output options. If you are using a microphone, refer to the "
 ":ref:`microphones` chapter."
 msgstr ""
+"Pour plus d'informations sur les différentes options d'entrée et de sortie, "
+"voir chapitre :ref:`getting-started-sound-io`. Le chapitre :ref:`hardware` "
+"explique différents types de matériel DJ et comment les configurer avec les "
+"options d'entrée et de sortie. Si vous utilisez un microphone, voir chapitre"
+" :ref:`microphones`."
 
 #: ../../chapters/preferences/sound_hardware.rst:30
 msgid "Audio Buffer"
-msgstr ""
+msgstr "Tampon audio"
 
 #: ../../chapters/preferences/sound_hardware.rst:32
 msgid ""
@@ -252,6 +266,13 @@ msgid ""
 "stop the audio after you toggle the play button. The actual latency will be "
 "longer depending on a variety of factors."
 msgstr ""
+"Le tampon audio est la quantité d'audio en millisecondes que Mixxx traite à "
+"la fois. Il s'agit d'un facteur majeur qui détermine la latence entre les "
+"changements de commandes dans Mixxx, comme déplacer le :term:`curseur de "
+"mixage` ou appuyer sur le bouton de lecture et entendre le changement audio."
+" Par exemple, avec un tampon audio de 23 ms, il faudra environ 23 "
+"millisecondes à Mixxx pour arrêter l'audio après avoir désactivé le bouton "
+"Lecture. La latence réelle sera plus longue en fonction de divers facteurs."
 
 #: ../../chapters/preferences/sound_hardware.rst:40
 msgid ""
@@ -266,6 +287,18 @@ msgid ""
 "glitches. Experiment with different audio buffer sizes to find what works "
 "for your system."
 msgstr ""
+"Le paramètre de tampon audio détermine la rapidité avec laquelle votre "
+":term:`système d'exploitation` s'attend à ce que Mixxx réagisse. Un tampon "
+"audio plus petit signifie que Mixxx sera plus réactif, mais nécessite un "
+"processeur plus rapide et une interface audio de qualité. Définir votre "
+"tampon audio trop petit peut être trop difficile à gérer pour votre "
+"ordinateur et votre interface audio. Dans cette situation, la lecture de "
+"Mixxx sera saccadée et très clairement déformée car votre système ne sera "
+"pas en mesure de suivre la fréquence à laquelle Mixxx essaie de traiter "
+"l'audio. Il est recommandé de définir votre tampon audio aussi petit que "
+"votre système peut le gérer de manière fiable et sans problème. Expérimentez"
+" avec différentes tailles de tampon audio pour trouver ce qui fonctionne "
+"pour votre système."
 
 #: ../../chapters/preferences/sound_hardware.rst:50
 msgid ""
@@ -273,6 +306,10 @@ msgid ""
 " keyboard/mouse or a controller. An audio buffer below 10 ms is recommended "
 "when vinyl control is used because Mixxx will feel unresponsive otherwise."
 msgstr ""
+"Un tampon audio entre 23 et 64 ms est acceptable si vous utilisez Mixxx avec"
+" un clavier/souris ou un contrôleur. Un tampon audio inférieur à 10 ms est "
+"recommandé lorsque le contrôle vinyle est utilisé, car sinon Mixxx ne sera "
+"pas réactif."
 
 #: ../../chapters/preferences/sound_hardware.rst:54
 msgid ""
@@ -281,6 +318,10 @@ msgid ""
 "the Mixxx Wiki has tips for different operating systems that may help you "
 "use a smaller audio buffer reliably."
 msgstr ""
+"La page `Adjusting Audio Latency "
+"<https://github.com/mixxxdj/mixxx/wiki/Adjusting-Audio-Latency>`_ du wiki "
+"Mixxx contient des conseils pour différents systèmes d'exploitation qui "
+"peuvent vous aider à utiliser de manière fiable un tampon audio plus petit."
 
 #: ../../chapters/preferences/sound_hardware.rst:58
 msgid ""
@@ -290,10 +331,17 @@ msgid ""
 " think you have found a good buffer size for your system, play with Mixxx "
 "for at least a half hour before performing to ensure no glitches happen."
 msgstr ""
+"Votre système peut avoir des problèmes seulement occasionnellement si votre "
+"tampon audio est réglé un peu trop bas. Cela se produira à des moments "
+"imprévisibles et vous ne le remarquerez peut-être pas si vous effectuez "
+"uniquement de brefs tests de chaque taille de tampon audio. Lorsque vous "
+"pensez avoir trouvé une bonne taille de tampon pour votre système, jouez "
+"avec Mixxx pendant au moins une demi-heure avant de jouer pour vous assurer "
+"qu'aucun problème ne se produit."
 
 #: ../../chapters/preferences/sound_hardware.rst:68
 msgid "Sample Rate"
-msgstr ""
+msgstr "Taux d'échantillonnage"
 
 #: ../../chapters/preferences/sound_hardware.rst:70
 msgid ""
@@ -305,6 +353,15 @@ msgid ""
 "rate, and playing music in a different sample rate than the audio file "
 "slightly reduces sound quality."
 msgstr ""
+"Le paramètre de taux d'échantillonnage dans Mixxx contrôle le nombre "
+"d'échantillons (morceaux d'audio) par seconde produits par Mixxx. Ceci "
+"détermine la fréquence maximale du signal de Mixxx, qui correspond à la "
+"moitié du taux d'échantillonnage. Les humains ne peuvent entendre que "
+"jusqu'à 20 kHz, il n'est donc généralement pas nécessaire d'utiliser un taux"
+" d'échantillonnage supérieure à 44,1 kHz (44 100 Hz) pour la lecture. La "
+"plupart des musiques sont publiées avec une taux d'échantillonnage de 44 100"
+" Hz, et la lecture de musique à un taux d'échantillonnage différente de "
+"celle du fichier audio réduit légèrement la qualité du son."
 
 #: ../../chapters/preferences/sound_hardware.rst:78
 msgid ""
@@ -312,10 +369,15 @@ msgid ""
 " do the same processing. Increasing the sample rate will increase CPU usage "
 "and likely raise the minimum audio buffer size you can use reliably."
 msgstr ""
+"Un taux d'échantillonnage de 96 kHz donne à votre ordinateur moins de la "
+"moitié du temps nécessaire pour effectuer le même traitement. L'augmentation"
+" du taux d'échantillonnage augmentera l'utilisation du processeur et "
+"augmentera probablement la taille minimale du tampon audio que vous pouvez "
+"utiliser de manière fiable."
 
 #: ../../chapters/preferences/sound_hardware.rst:87
 msgid "Sound API"
-msgstr ""
+msgstr "API audio"
 
 #: ../../chapters/preferences/sound_hardware.rst:89
 msgid ""
@@ -325,34 +387,40 @@ msgid ""
 "performance on your computer. **Therefore it is important to take care to "
 "choose the best Sound API available to you.**"
 msgstr ""
+"La :term:`API audio` utilisé par Mixxx est la méthode par laquelle Mixxx "
+"communique avec votre :term:`système d'exploitation` afin de transmettre "
+"l'audio à votre interface audio. Votre choix d'API audio peut affecter "
+"considérablement les performances de Mixxx sur votre ordinateur. **Il est "
+"donc important de veiller à choisir la meilleure API audio disponible pour "
+"vous.**"
 
 #: ../../chapters/preferences/sound_hardware.rst:96
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../chapters/preferences/sound_hardware.rst:97
 msgid "The following Sound APIs are available on Windows:"
-msgstr ""
+msgstr "Les API audio suivantes sont disponibles sous Windows :"
 
 #: ../../chapters/preferences/sound_hardware.rst:99
 msgid "**ASIO**: Good"
-msgstr ""
+msgstr "**ASIO** : bon"
 
 #: ../../chapters/preferences/sound_hardware.rst:100
 msgid "**WDM-KS**: Good"
-msgstr ""
+msgstr "**WDM-KS** : bon"
 
 #: ../../chapters/preferences/sound_hardware.rst:101
 msgid "**WASAPI**: Acceptable"
-msgstr ""
+msgstr "**WASAPI** : Acceptable"
 
 #: ../../chapters/preferences/sound_hardware.rst:102
 msgid "**DirectSound**: Poor"
-msgstr ""
+msgstr "**DirectSound** : médiocre"
 
 #: ../../chapters/preferences/sound_hardware.rst:103
 msgid "**MME**: Poor"
-msgstr ""
+msgstr "**MME** : médiocre"
 
 #: ../../chapters/preferences/sound_hardware.rst:105
 msgid ""
@@ -366,32 +434,45 @@ msgid ""
 "is generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a "
 "wrapper around the WDM-KS API."
 msgstr ""
+"Il est préférable d'utiliser l'API ASIO audio qui contourne le traitement du"
+" son du noyau Windows. L'utilisation d'ASIO nécessite un pilote du fabricant"
+" de votre interface audio. Consultez le site Web du fabricant pour voir si "
+"un téléchargement de pilote est disponible. Les cartes son conçues pour les "
+"musiciens disposent presque toujours d'un pilote ASIO, mais les interfaces "
+"audio intégrées aux ordinateurs et les interfaces audio très bon marché "
+"n'ont généralement pas de pilote ASIO. Si aucun pilote ASIO n'est disponible"
+" pour votre interface audio, utilisez l'API audio WDM-KS. Il n'y a "
+"généralement aucun avantage à utiliser `ASIO4ALL "
+"<http://www.asio4all.org>`_, un wrapper autour de l'API audio WDM-KS."
 
 #: ../../chapters/preferences/sound_hardware.rst:116
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: ../../chapters/preferences/sound_hardware.rst:117
 msgid "The following Sound APIs are available on GNU/Linux:"
-msgstr ""
+msgstr "Les API audio suivantes sont disponibles sous GNU/Linux :"
 
 #: ../../chapters/preferences/sound_hardware.rst:119
 msgid "**ALSA**: Good"
-msgstr ""
+msgstr "**ALSA** : bon"
 
 #: ../../chapters/preferences/sound_hardware.rst:120
 msgid "**JACK**: Good"
-msgstr ""
+msgstr "**JACK** : bon"
 
 #: ../../chapters/preferences/sound_hardware.rst:121
 msgid "**OSS**: Acceptable"
-msgstr ""
+msgstr "**OSS** : acceptable"
 
 #: ../../chapters/preferences/sound_hardware.rst:123
 msgid ""
 "ALSA is the simplest sound API to configure. Using ALSA will prevent any "
 "other programs from using the audio interface(s) that Mixxx is using."
 msgstr ""
+"ALSA est l'API audio la plus simple à configurer. L'utilisation d'ALSA "
+"empêchera tout autre programme d'utiliser la ou les interfaces audio "
+"utilisées par Mixxx."
 
 #: ../../chapters/preferences/sound_hardware.rst:126
 msgid ""
@@ -402,6 +483,13 @@ msgid ""
 "ALSA. To use JACK, start the JACK daemon *before* running Mixxx. Otherwise "
 "JACK will not appear as a Sound API in the preferences."
 msgstr ""
+"JACK vous permet d'acheminer l'audio entre des applications compatibles JACK"
+" de manière flexible et de produire le son de plusieurs programmes en même "
+"temps. Cependant, JACK peut être compliqué à mettre en place. À moins que "
+"vous ne connectiez Mixxx à d'autres applications compatibles JACK, JACK "
+"n'offre aucun avantage par rapport à ALSA. Pour utiliser JACK, démarrer le "
+"démon JACK *avant* d'exécuter Mixxx. Sinon JACK n’apparaitra pas comme API "
+"audio dans les préférences."
 
 #: ../../chapters/preferences/sound_hardware.rst:133
 msgid ""
@@ -416,6 +504,18 @@ msgid ""
 " you already use JACK, it is easiest to let Mixxx suspend PulseAudio and use"
 " ALSA."
 msgstr ""
+"La plupart des distributions GNU/Linux modernes utilisent PulseAudio par "
+"défaut. Lorsqu'il est lancé à partir d'une entrée de menu GUI ou d'un icône,"
+" Mixxx suspend PulseAudio pendant son exécution afin que Mixxx puisse "
+"utiliser ALSA directement. Comme JACK, PulseAudio permet à plusieurs "
+"programmes d'accéder à une seule interface audio, mais PulseAudio et JACK "
+"ont des objectifs de conception opposés. PulseAudio est conçu pour faciliter"
+" l'utilisation ordinaire d'un ordinateur, comme regarder des vidéos en ligne"
+" et écouter de la musique, tandis que JACK est conçu pour des programmes "
+"exigeants une audio à faible latence comme Mixxx. Il peut être difficile de "
+"configurer JACK et PulseAudio pour qu'ils fonctionnent bien ensemble. Ainsi,"
+" à moins que vous n'utilisiez déjà JACK, il est plus simple de laisser Mixxx"
+" suspendre PulseAudio et utiliser ALSA."
 
 #: ../../chapters/preferences/sound_hardware.rst:143
 msgid ""
@@ -428,24 +528,35 @@ msgid ""
 " and back to ALSA, this adds an additional latency of ~2 x the selected "
 "audio buffer size."
 msgstr ""
+"Si le plugin PulseAudio pour alsalibs est installé sur GNU/Linux, vous "
+"pouvez choisir le périphérique virtuel ``pulse``. Cela permet à Mixxx de "
+"partager l'interface audio du système par défaut avec d'autres lecteurs "
+"multimédias. Cela ne fonctionne que si vous démarrez Mixxx sans suspension, "
+"ce que vous pouvez faire en exécutant :command:`mixxx` depuis une console "
+"plutôt que de cliquer sur l'icône du lanceur dans un menu ou sur votre "
+"bureau. Étant donné que le flux sonore est acheminé d'ALSA vers Pulse et de "
+"retour vers ALSA, cela ajoute une latence supplémentaire d'environ 2 fois la"
+" taille du tampon audio sélectionné."
 
 #: ../../chapters/preferences/sound_hardware.rst:151
 msgid ""
 "OSS is an Sound API that predates ALSA. Few modern audio interfaces have OSS"
 " drivers."
 msgstr ""
+"OSS est une API audio antérieure à ALSA. Peu d’interfaces audio modernes "
+"disposent de pilotes OSS."
 
 #: ../../chapters/preferences/sound_hardware.rst:155
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../chapters/preferences/sound_hardware.rst:156
 msgid "CoreAudio is the only Sound API on macOS."
-msgstr ""
+msgstr "CoreAudio est la seule API audio sur macOS."
 
 #: ../../chapters/preferences/sound_hardware.rst:159
 msgid "Other Sound Hardware options"
-msgstr ""
+msgstr "Autres options de matériel audio"
 
 #: ../../chapters/preferences/sound_hardware.rst:160
 msgid ""
@@ -456,6 +567,13 @@ msgid ""
 " used for the other audio interfaces to avoid buffer overflows or "
 "underflows."
 msgstr ""
+"**Synchronisation multi-cartes son** : Mixxx est capable d'en utiliser deux "
+"ou plusieurs :term:`interface audio <audio interface>` à la fois, chacune "
+"avec sa propre horloge. Lorsque plusieurs interfaces audio sont utilisées, "
+"le moteur Mixxx est piloté par l'interface audio de la sortie principale. "
+"Ici, vous pouvez sélectionner la synchronisation utilisée pour les autres "
+"interfaces audio afin d'éviter les débordements ou sous-débordements de "
+"tampon."
 
 #: ../../chapters/preferences/sound_hardware.rst:166
 msgid ""
@@ -464,12 +582,21 @@ msgid ""
 ":menuselection:`Soundtouch` on lower power machines (such as netbooks) or if"
 " you experience buffer underflows while using :term:`key lock`."
 msgstr ""
+"**Moteur de Verrouillage de tonalité (Keylock)//Distorsion de hauteur tonale"
+" (Pitch-Bending)** : Ceci vous permet de sélectionner le moteur utilisé pour"
+" les changements indépendants de tempo et de hauteur (par exemple :term:`key"
+" lock`). Utilisez :menuselection:`Soundtouch` sur des machines de faible "
+"puissance (telles que les netbooks) ou si vous rencontrez des dépassements "
+"de tampon lors de l'utilisation de :term:`key lock`."
 
 #: ../../chapters/preferences/sound_hardware.rst:171
 msgid ""
 "**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
 "you do not use the :term:`main output`, recording or live broadcasting."
 msgstr ""
+"**Mix principal** : Vous pouvez désactiver le mixage principal pour réduire "
+"l'utilisation du processeur de Mixxx si vous n'utilisez pas la :term:`sortie"
+" principale`, l'enregistrement ou la diffusion en direct."
 
 #: ../../chapters/preferences/sound_hardware.rst:174
 msgid ""
@@ -479,6 +606,12 @@ msgid ""
 " in stereo because of speaker placement or playing in a space with lots of "
 "reverberation."
 msgstr ""
+"**Mode sortie principale** : En mode Mono, les canaux gauche et droit sont "
+"combinés en un signal mono qui est transmis aux deux canaux de votre "
+"interface audio principale. Ceci est utile pour les configurations où le "
+"public ne peut pas entendre votre mixage en stéréo en raison de "
+"l'emplacement des enceintes ou du fait de jouer dans un espace avec beaucoup"
+" de réverbération."
 
 #: ../../chapters/preferences/sound_hardware.rst:180
 msgid ""
@@ -489,10 +622,17 @@ msgid ""
 "buffer size, decrease the sample rate setting or change the sound API "
 "setting if available."
 msgstr ""
+"**Compteur de sous-alimentation du tampon** : les sous-débits (les données "
+"ne sont pas disponibles en cas de besoin) indiquent que certains des sous-"
+"systèmes de Mixxx ne peuvent pas respecter les délais en temps réel imposés "
+"par la taille actuelle du tampon audio. Ceci est utile pour régler les "
+"paramètres de latence. Si le compteur augmente, augmenter la taille de votre"
+" tampon audio, diminuer le paramètre de taux d'échantillonnage ou modifier "
+"le paramètre de l'API audio si disponible."
 
 #: ../../chapters/preferences/sound_hardware.rst:188
 msgid "Output and Input Devices"
-msgstr ""
+msgstr "Périphériques de sortie et d'entrée"
 
 #: ../../chapters/preferences/sound_hardware.rst:190
 msgid ""
@@ -502,6 +642,12 @@ msgid ""
 "more output and input channels available for more complex setups, for "
 "example with external mixers, vinyl control or for broadcasting."
 msgstr ""
+"Dans la configuration de base habituelle de 'DJ digital' (:ref:`setup-"
+"controller-and-external-card` ou :ref:`setup-laptop-and-external-card`), "
+"tout ce qui doit être configuré sont les sorties Principal. et Casque. "
+"Cependant, il existe de nombreux autres canaux de sortie et d'entrée "
+"disponibles pour des configurations plus complexes, par exemple avec des "
+"mixeurs externes, le contrôle vinyles ou pour la diffusion."
 
 #: ../../chapters/preferences/sound_hardware.rst:196
 msgid ""
@@ -510,6 +656,11 @@ msgid ""
 " on output channels, like when you need to use one stereo output for both "
 "master and headphones (see :ref:`setup-laptop-with-splitter`)."
 msgstr ""
+"Toutes les sorties sont généralement envoyées vers une paire de canaux "
+"(stéréo), mais elles peuvent également être envoyées vers un seul canal "
+"(mixage mono), par exemple si vous manquez de canaux de sortie, comme "
+"lorsque vous devez utiliser une sortie stéréo pour les deux. principal et "
+"casque (voir :ref:`setup-laptop-with-splitter`)."
 
 #: ../../chapters/preferences/sound_hardware.rst:201
 msgid ""
@@ -517,22 +668,30 @@ msgid ""
 "vinyl control inputs which require stereo to capture the entire control "
 "signal."
 msgstr ""
+"Les entrées peuvent être mono ou stéréo (correspondant aux sources "
+"branchées, bien sûr), à l'exception des entrées de contrôle vinyle qui "
+"nécessitent la stéréo pour capturer l'intégralité du signal de contrôle."
 
 #: ../../chapters/preferences/sound_hardware.rst:205
 msgid "Outputs"
-msgstr ""
+msgstr "Sorties"
 
 #: ../../chapters/preferences/sound_hardware.rst:207
 msgid ""
 "**Master** (Main): The mix of all audible channels, e.g. main decks, all "
 "samplers, enabled microphones and auxiliary inputs."
 msgstr ""
+"**Principal** : Le mixage de tous les canaux audibles, par ex. platines "
+"principales, tous les échantillonneurs, microphones activés et entrées "
+"auxiliaires."
 
 #: ../../chapters/preferences/sound_hardware.rst:210
 msgid ""
 "**Headphones**: All channels for which :term:`pfl` is enabled, as well as "
 "the preview deck."
 msgstr ""
+"**Casque** : Tous les canaux pour lesquels :term:`PLF` est activé, ainsi que"
+" la platine de pré-écoute."
 
 #: ../../chapters/preferences/sound_hardware.rst:213
 msgid ""
@@ -540,32 +699,43 @@ msgid ""
 "output, for example for the speakers in the DJ booth, external recording "
 "device, loopback device for video recordings etc."
 msgstr ""
+"**Cabine** : fondamentalement la même sortie que Principal à acheminer vers "
+"une sortie séparée, par exemple pour les haut-parleurs de la cabine DJ, le "
+"périphérique d'enregistrement externe, le périphérique de bouclage pour les "
+"enregistrements vidéo, etc."
 
 #: ../../chapters/preferences/sound_hardware.rst:217
 msgid ""
 "**Left Bus**: All decks, samplers and auxiliaries that are assigned to the "
 "left side of the :term:`crossfader`."
 msgstr ""
+"**Bus gauche** : Tous les platines, échantillonneurs et auxiliaires assignés"
+" au côté gauche du :term:`curseur de mixage`."
 
 #: ../../chapters/preferences/sound_hardware.rst:220
 msgid ""
 "**Center Bus**: All decks, samplers and auxiliaries that are assigned to the"
 " center of the :term:`crossfader`."
 msgstr ""
+"**Bus central** : Toutes les platines, échantillonneurs et auxiliaires "
+"assignés au centre du :term:`curseur de mixage`."
 
 #: ../../chapters/preferences/sound_hardware.rst:223
 msgid ""
 "**Right Bus**: All decks, samplers and auxiliaries that are assigned to the "
 "right side of the :term:`crossfader`."
 msgstr ""
+"**Bus droit** : Toutes les platines, échantillonneurs et auxiliaires "
+"assignés au côté droit du :term:`curseur de mixage`."
 
 #: ../../chapters/preferences/sound_hardware.rst:226
 msgid "**Deck 1-4**: Separate outputs for each of the main decks."
 msgstr ""
+"**Platine 1-4** : Sorties séparées pour chacune des platines principales."
 
 #: ../../chapters/preferences/sound_hardware.rst:229
 msgid "Inputs"
-msgstr ""
+msgstr "Entrées"
 
 #: ../../chapters/preferences/sound_hardware.rst:231
 msgid ""
@@ -573,14 +743,17 @@ msgid ""
 "passthrough <vinyl-control>`. Note that one input can be selected for "
 "multiple decks."
 msgstr ""
+"**Controle Vinyle 1-4** : entrées à utiliser pour :ref:`Contrôle de vinyle "
+"et passthrough<vinyl-control>`. Notez qu'une entrée peut être sélectionnée "
+"pour plusieurs platines."
 
 #: ../../chapters/preferences/sound_hardware.rst:234
 msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
-msgstr ""
+msgstr "**Microphone 1-4**: Entrées :ref:`microphone <microphones>`."
 
 #: ../../chapters/preferences/sound_hardware.rst:236
 msgid "**Auxiliary 1-4**: Auxiliary inputs."
-msgstr ""
+msgstr "**Auxiliaire 1-4** : Entrées auxiliaires."
 
 #: ../../chapters/preferences/sound_hardware.rst:238
 msgid ""
@@ -589,3 +762,8 @@ msgid ""
 "Note that when setting this input your recording and broadcast stream will "
 "not be identical to the main output."
 msgstr ""
+"**Enregistrer/Diffuser** : L'entrée utilisée pour l':ref:`enregistrement "
+"<djing-recording-your-mix>` interne de Mixxx et la :ref:`diffusion <live-"
+"broadcasting>`. Noter que lors du réglage de cette entrée, votre flux "
+"d'enregistrement et de diffusion ne sera pas identique à la sortie "
+"principale."
