@@ -219,15 +219,17 @@ Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
+* Behringer DDM4000 & BCR2000: Fix exception in JS code `#12969 <https://github.com/mixxxdj/mixxx/pull/12969>`__
+* Denon DJ MC6000MK2: Fix mapping of filter knob/button `#13166 <https://github.com/mixxxdj/mixxx/pull/13166>`__
+* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status`` `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__ `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
 * Hercules Inpulse 200: Configure shift-browser knob to scroll the library (quick) `#12932 <https://github.com/mixxxdj/mixxx/pull/12932>`__
 * Pioneer DDJ-FLX4: Add waveform zoom and other mapping improvements
   `#12896 <https://github.com/mixxxdj/mixxx/pull/12896>`__
   `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
 * Traktor Kontrol F1: Fixes for hid-parser and related script `#12876 <https://github.com/mixxxdj/mixxx/pull/12876>`__
+* Traktor S2 Mk1: fix warnings `#13145 <https://github.com/mixxxdj/mixxx/pull/13145>`__
 * Traktor S3: Fix mapping crash on macOS `#12840 <https://github.com/mixxxdj/mixxx/pull/12840>`__
-* Behringer DDM4000 & BCR2000: Fix exception in JS code `#12969 <https://github.com/mixxxdj/mixxx/pull/12969>`__
-* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status`` `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__ `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
-* Polish fx chain controls `#12805 <https://github.com/mixxxdj/mixxx/pull/12805>`__
+* Controller I/O table: sort action column by display string `#13039 <https://github.com/mixxxdj/mixxx/pull/13039>`__
 
 Target Support
 ^^^^^^^^^^^^^^
@@ -249,9 +251,14 @@ Skins
 
 * Deere: make sampler rows persist `#12928 <https://github.com/mixxxdj/mixxx/pull/12928>`__
 * Tango: Remove unneeded waveform Singleton `#12938 <https://github.com/mixxxdj/mixxx/pull/12938>`__
-* Possible crash in customs skins using parallel waveforms `#13043 <https://github.com/mixxxdj/mixxx/pull/13043>`__ `#12580 <https://github.com/mixxxdj/mixxx/issues/12580>`__
+* Prevent possible crash in customs skins using parallel waveforms
+  `#13043 <https://github.com/mixxxdj/mixxx/pull/13043>`__
+  `#12580 <https://github.com/mixxxdj/mixxx/issues/12580>`__
+  `#13136 <https://github.com/mixxxdj/mixxx/pull/13136>`__
 * Slider tooltip: consider orientation for up/down shortcut tooltips + add support for WKnobComposed `#13088 <https://github.com/mixxxdj/mixxx/pull/13088>`__
 * Tooltips: update 'hotcue' with saved loop features `#12875 <https://github.com/mixxxdj/mixxx/pull/12875>`__
+* Animate long press latching of sync button `#12990 <https://github.com/mixxxdj/mixxx/pull/12990>`__
+* Polish fx chain controls `#12805 <https://github.com/mixxxdj/mixxx/pull/12805>`__
 
 Library
 ^^^^^^^
@@ -274,6 +281,17 @@ Library
 * Allow adding new directories while watched directories are missing
   `#12937 <https://github.com/mixxxdj/mixxx/pull/12937>`__
   `#10481 <https://github.com/mixxxdj/mixxx/issues/10481>`__
+* Require a minimum movement before initiating the drag&drop of tracks
+  `#13135 <https://github.com/mixxxdj/mixxx/pull/13135>`__
+  `#12902 <https://github.com/mixxxdj/mixxx/issues/12902>`__
+* iTunes/Serato/Traktor/Rhythmbox: Print error if library file could not be opened
+  `#13012 <https://github.com/mixxxdj/mixxx/pull/13012>`__
+* Playlists: improve table update after deleting (purging) track files
+  `#13127 <https://github.com/mixxxdj/mixxx/pull/13127>`__
+* Fix Color column width issue `#12852 <https://github.com/mixxxdj/mixxx/pull/12852>`__
+* Tracks: select track row when clicking the preview button (only when starting preview)
+  `#12791 <https://github.com/mixxxdj/mixxx/pull/12791>`__
+* Library track menu: show Hide action also in Playlist & Crates `#11901 <https://github.com/mixxxdj/mixxx/pull/11901>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -289,7 +307,18 @@ Miscellaneous
 * AutoDJ: Fix button state after error message about playing deck 3/4
   `#12976 <https://github.com/mixxxdj/mixxx/pull/12976>`__
   `#12975 <https://github.com/mixxxdj/mixxx/issues/12975>`__
-* Tagfetcher: Cache fetched covers `#12301 <https://github.com/mixxxdj/mixxx/pull/12301>`__ `#11084 <https://github.com/mixxxdj/mixxx/issues/11084>`__
+* Tagfetcher: Cache fetched covers
+  `#12301 <https://github.com/mixxxdj/mixxx/pull/12301>`__
+  `#11084 <https://github.com/mixxxdj/mixxx/issues/11084>`__
+* Avoid beats iterator being one off and DEBUG_ASSERT in Beats::iteratorFrom
+  `#13150 <https://github.com/mixxxdj/mixxx/pull/13150>`__
+  `#13149 <https://github.com/mixxxdj/mixxx/issues/13149>`__
+* Show hint if resource path in CMakeCache.txt does not exist
+  `#12929 <https://github.com/mixxxdj/mixxx/pull/12929>`__
+* Always calculate the auto value for colorful console output `#13153 <https://github.com/mixxxdj/mixxx/pull/13153>`__
+* Fix FLAC recording on macOS and Windows
+  `#10880 <https://github.com/mixxxdj/mixxx/issues/10880>`__
+  `#13154 <https://github.com/mixxxdj/mixxx/pull/13154>`__
 
 .. _v2-4-0:
 
