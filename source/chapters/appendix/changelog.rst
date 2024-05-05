@@ -244,6 +244,8 @@ Target Support
   `#12989 <https://github.com/mixxxdj/mixxx/pull/12989>`__
 * CMakeLists: Always prefer OpenGL framework on macOS
   `#13080 <https://github.com/mixxxdj/mixxx/pull/13080>`__
+* Use capitalized Mixxx in Windows installer and start menu
+  `#13178 <https://github.com/mixxxdj/mixxx/pull/13178>`__
 
 Skins
 ^^^^^
@@ -251,6 +253,7 @@ Skins
 
 * Deere: make sampler rows persist `#12928 <https://github.com/mixxxdj/mixxx/pull/12928>`__
 * Tango: Remove unneeded waveform Singleton `#12938 <https://github.com/mixxxdj/mixxx/pull/12938>`__
+* Tango 64: fix Main VU meter
 * Prevent possible crash in customs skins using parallel waveforms
   `#13043 <https://github.com/mixxxdj/mixxx/pull/13043>`__
   `#12580 <https://github.com/mixxxdj/mixxx/issues/12580>`__
@@ -259,6 +262,9 @@ Skins
 * Tooltips: update 'hotcue' with saved loop features `#12875 <https://github.com/mixxxdj/mixxx/pull/12875>`__
 * Animate long press latching of sync button `#12990 <https://github.com/mixxxdj/mixxx/pull/12990>`__
 * Polish fx chain controls `#12805 <https://github.com/mixxxdj/mixxx/pull/12805>`__
+* Waveforms: draw loop gradient at the correct position
+  `#13061 <https://github.com/mixxxdj/mixxx/pull/13061>`__
+  `#13060 <https://github.com/mixxxdj/mixxx/issues/13060>`__
 
 Library
 ^^^^^^^
@@ -284,6 +290,7 @@ Library
 * Require a minimum movement before initiating the drag&drop of tracks
   `#13135 <https://github.com/mixxxdj/mixxx/pull/13135>`__
   `#12902 <https://github.com/mixxxdj/mixxx/issues/12902>`__
+  `#12979 <https://github.com/mixxxdj/mixxx/pull/12979>`__
 * iTunes/Serato/Traktor/Rhythmbox: Print error if library file could not be opened
   `#13012 <https://github.com/mixxxdj/mixxx/pull/13012>`__
 * Playlists: improve table update after deleting (purging) track files
@@ -319,6 +326,9 @@ Miscellaneous
 * Fix FLAC recording on macOS and Windows
   `#10880 <https://github.com/mixxxdj/mixxx/issues/10880>`__
   `#13154 <https://github.com/mixxxdj/mixxx/pull/13154>`__
+* LV Mix EQ: Fix pops when enabling in effect rack
+  `#13055 <https://github.com/mixxxdj/mixxx/issues/13055>`__
+  `#13073 <https://github.com/mixxxdj/mixxx/pull/13073>`__
 
 .. _v2-4-0:
 
