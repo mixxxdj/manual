@@ -508,6 +508,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: << button
 
 
+.. mixxx:control:: [ChannelN],bpmlock
+                   [PreviewDeckN],bpmlock
+                   [SamplerN],bpmlock
+
+   Toggle the :term:`beatgrid`/:term:`BPM` lock state.
+
+   :range: binary
+   :feedback: The lock icon of the track is activated/deactivated.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],beat_active
                    [PreviewDeckN],beat_active
                    [SamplerN],beat_active
@@ -818,18 +830,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: The beatgrid moves right by a small amount.
 
    .. versionadded:: 2.0.0
-
-
-.. mixxx:control:: [ChannelN],bpm_toggle_lock
-                   [PreviewDeckN],bpm_toggle_lock
-                   [SamplerN],bpm_toggle_lock
-
-   Toggle the :term:`beatgrid`/:term:`BPM` lock state.
-
-   :range: binary
-   :feedback: The lock icon of the track is activated/deactivated.
-
-   .. versionadded:: 2.4.1
 
 
 .. mixxx:control:: [ChannelN],beatsync
