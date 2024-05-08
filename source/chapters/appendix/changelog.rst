@@ -20,8 +20,12 @@ Controller Mappings
 
 * Behringer DDM4000 & BCR2000: Fix exception in JS code `#12969 <https://github.com/mixxxdj/mixxx/pull/12969>`__
 * Denon DJ MC6000MK2: Fix mapping of filter knob/button `#13166 <https://github.com/mixxxdj/mixxx/pull/13166>`__
-* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status`` `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__ `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
+* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status``
+  `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__
+  `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
 * Hercules Inpulse 200: Configure shift-browser knob to scroll the library (quick) `#12932 <https://github.com/mixxxdj/mixxx/pull/12932>`__
+* Nintendo Wii Remote: Fix hid script regarding addOutput `#12973 <https://github.com/mixxxdj/mixxx/pull/12973>`__
+* Pioneer CDJ: Fix hid script regarding addOutput `#12973 <https://github.com/mixxxdj/mixxx/pull/12973>`__
 * Pioneer DDJ-FLX4: Add waveform zoom and other mapping improvements
   `#12896 <https://github.com/mixxxdj/mixxx/pull/12896>`__
   `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
@@ -134,6 +138,7 @@ Miscellaneous
 * LV Mix EQ: Fix pops when enabling in effect rack
   `#13055 <https://github.com/mixxxdj/mixxx/issues/13055>`__
   `#13073 <https://github.com/mixxxdj/mixxx/pull/13073>`__
+* Fix hid addOutput
 
 .. _v2-4-0:
 
