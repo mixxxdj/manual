@@ -11,7 +11,7 @@ The easiest way to tell the MK3 apart from the older MK1 and MK2 are these scree
 
 Unlike its predecessor, the Kontrol S4 Mk3 cannot run solely on :term:`USB` power and a separate power supply must be used.
 
--  `Manufacturer's product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`
+-  `Manufacturer's product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
 
 .. versionadded:: 2.4
 
