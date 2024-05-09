@@ -74,7 +74,7 @@ You can enable them by setting `UseMotors` to `true` in :ref:`settings`.
 Mapping Description
 -------------------
 
-.. _jog wheel-modes:
+.. _jog-wheel-modes:
 
 Jog wheel modes
 ~~~~~~~~~~~~~~~
@@ -296,11 +296,10 @@ Full mapping details
 |                   | - Third parameter of the focused effect in effect focus mode     |                                          |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
 | FX 1st button     | - Trigger all effects                                            | - On if all effects are off and not      |
-|                   | - Trigger all effects                                            |   pressing :hwlabel:`SHIFT`              |
-|                   | - Assign/de-assign effect to master while pressing               | - On when effect is attached to master   |
-|                   |   :hwlabel:`SHIFT` and no focused effect                         |   and pressing :hwlabel:`SHIFT`          |
-|                   | - Exit focused mode while pressing :hwlabel:`SHIFT` and          | - Blinking in effect focused mode        |
-|                   |   focused effect                                                 |                                          |
+|                   | - Assign/de-assign effect to master while pressing               |   pressing :hwlabel:`SHIFT`              |
+|                   |   :hwlabel:`SHIFT` and no focused effect                         | - On when effect is attached to master   |
+|                   | - Exit focused mode while pressing :hwlabel:`SHIFT` and          |   and pressing :hwlabel:`SHIFT`          |
+|                   |   focused effect                                                 | - Blinking in effect focused mode        |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
 | FX 2nd button     | - Toggle (short press) or trigger (long press) third effect      | - On if effect is active and no focused  |
 |                   |   if not focused effect or if pressing :hwlabel:`SHIFT`          |   effect or if pressing :hwlabel:`SHIFT` |
@@ -374,9 +373,9 @@ Control                                                          Description
 Right Encoder (turn)                                             Double/halve loop size.
 Right Encoder (press)                                            Activate/exit loop of set size from current position
 :hwlabel:`SHIFT` + :hwlabel:`REV` (while no loops are enabled)   Set the loop in point. This will reset the loop out point as well.
-:hwlabel:`SHIFT` + :hwlabel:`REV` (while a loop is enabled)      Toggle the loop in jog wheel mode. See :ref:`jog wheel-modes` for more details.
+:hwlabel:`SHIFT` + :hwlabel:`REV` (while a loop is enabled)      Toggle the loop in jog wheel mode. See :ref:`jog-wheel-modes` for more details.
 :hwlabel:`SHIFT` + :hwlabel:`FLX` (while no loops are enabled)   Set the loop out point.
-:hwlabel:`SHIFT` + :hwlabel:`FLX` (while a loop is enabled)      Toggle the loop out jog wheel mode. See :ref:`jog wheel-modes` for more details.
+:hwlabel:`SHIFT` + :hwlabel:`FLX` (while a loop is enabled)      Toggle the loop out jog wheel mode. See :ref:`jog-wheel-modes` for more details.
 ================================================================ ==============================================================================
 
 .. _settings:
