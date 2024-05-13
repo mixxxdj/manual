@@ -126,13 +126,13 @@ Pad 6                                                            Jump to the las
 Pad 7                                                            Jump to the last used hot cue/cue point and play at -2 semitones.
 Pad 8                                                            Jump to the last used hot cue/cue point and play at -1 semitones.
 :hwlabel:`SHIFT` + Pad 1                                         Reset key.
-:hwlabel:`SHIFT` + Pad 2                                         Sync key.
-:hwlabel:`SHIFT` + Pad 3                                         Pitch the track down by 10 cents.
-:hwlabel:`SHIFT` + Pad 4                                         Pitch the track up by 10 cents.
-:hwlabel:`SHIFT` + Pad 5                                         Shift the toneplay keyboard down by 1 semitone.
-:hwlabel:`SHIFT` + Pad 6                                         Shift the toneplay keyboard up by 1 semitone.
-:hwlabel:`SHIFT` + Pad 7                                         Pitch the track down by 1 semitone.
-:hwlabel:`SHIFT` + Pad 8                                         Pitch the track up by 1 semitone.
+:hwlabel:`SHIFT` + Pad 2                                         Pitch the track up by 1 semitone.
+:hwlabel:`SHIFT` + Pad 3                                         Pitch the track up by 10 cents.
+:hwlabel:`SHIFT` + Pad 4                                         Shift the toneplay keyboard up by 1 semitone.
+:hwlabel:`SHIFT` + Pad 5                                         Sync key.
+:hwlabel:`SHIFT` + Pad 6                                         Pitch the track down by 1 semitone.
+:hwlabel:`SHIFT` + Pad 7                                         Pitch the track down by 10 cents.
+:hwlabel:`SHIFT` + Pad 8                                         Shift the toneplay keyboard down by 1 semitone.
 ===============================================================  ==========================================
 
 Roll Mode
@@ -194,16 +194,35 @@ Pad 7 - 8                                                        Jump backward/f
 Slicer/Slicer Loop Mode
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Pressing Slicer or Slicer Loop creates a 4-bar slicer section (length configurable in script). The slicer 
-section is cut into 8 slices, and pressing pad 1-8 will create a loop on slice 1-8. Pressing two pads
-creates a loop between those two slices. Pressing three or more pads will create a loop between the first
-and last pad. For example, pressing pads 2, 5, and 7 creates a loop between slices 2 and 7.
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
+Slicer                                                           Create a slicer section (overrides active loops). Removes the slicer section if one is already active.
+:hwlabel:`SHIFT` + Slicer                                        Create a looped slicer section (overrides active loops). Removes the slicer section if one is already active.
+Pad 1 - 8                                                        Create a loop on slicer section 1-8.
+Loop :hwlabel:`IN` button                                        Enable Beatloop 4 beats (overrides active slicers).
+:hwlabel:`SHIFT` + Loop :hwlabel:`IN` button                     Halve the slicer section size.
+Loop :hwlabel:`OUT` button                                       Disable Beatloop or slicer section.
+:hwlabel:`SHIFT` + Loop :hwlabel:`OUT` button                    Double the slicer section size.
+===============================================================  ==========================================
+
+Pressing Slicer or Slicer Loop creates a slicer section (indicated by loop markers). The length of the slicer section is dependent on loop size in the spinbox.
+Pressing Slicer, Slicer Loop, or Loop Out will remove the slicer section.
+
+The slicer section is cut into 8 equal slices. Pressing pad 1-8 will create a loop on slice 1-8. For example, if a slicer section of 8 beats is created, then each slice will be 1 beat long.
+Pressing pad 1 will create a 1-beat loop on the 1st slice (1st beat). Pad 2 will loop the 2nd slice, pad 3 will loop the 3rd beat, and so on.
+
+Pressing two pads at the same time creates a loop between two slices. For example, pressing pads 3 and 6 creates a 4 beat loop that encompasses slices 3, 4, 5, and 6.
+Pressing three or more pads will create a loop between the first and last slices. For example, pressing pads 2, 5, and 7 creates a 6 beat loop that encompasses slices 2-7.
 
 In Slicer mode, the slicer section moves throughout the track. In Slicer Loop mode, the slicer section does not.
+
+For more details, look at the original Inpulse 300 manual.
 
 Known issues
 ------------
 - The slicer section does not move backwards with the play indicator when scratching with the jogwheel.
+- Slicer will not work properly if BPM is not constant.
 
 Controls not included in this mapping
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -211,4 +230,3 @@ Controls not included in this mapping
 -  Master knob (Hardware control)
 -  Headphone knob (Hardware control)
 -  Master buttons (Hardware control)
--  PADS: Slicer/Slicer Loop
