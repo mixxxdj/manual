@@ -832,6 +832,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],beats_undo_adjustment
+                   [PreviewDeckN],beats_undo_adjustment
+                   [SamplerN],beats_undo_adjustment
+
+   Restores the :term:`beatgrid` state before the last beatgrid adjustment done with the above `beats_` controls.
+
+   The undo stack holds up to ten beatgrid states. For changes done in quick succession
+   (less than 800 milliseconds between actions), e.g. repeated :mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_later>`, only the first state is stored.
+
+   :range: binary
+   :feedback: The beatgrid is restored.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],beatsync
                    [PreviewDeckN],beatsync
                    [SamplerN],beatsync
