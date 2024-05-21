@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:13
 msgid "**Mixer**"
-msgstr "**Table de mixage **"
+msgstr "**Table de mixage**"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:15
 msgid "Crossfade Left"
@@ -304,7 +304,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:29
 msgid "Headphone Cue (Pre-fader listen)"
-msgstr "Repère au casque (écoute pré-fader)"
+msgstr "Repérage au casque (écoute pré-fader)"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:29
 msgid ":kbd:`T`"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:39
 msgid "Unload track from deck"
-msgstr "Décharger la piste de la platine"
+msgstr "Éjecter la piste de la platine"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:39
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`←`"
@@ -431,7 +431,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid "Small Tempo Adjust Down"
-msgstr ""
+msgstr "Petit ajustement du tempo : réduction"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid ":kbd:`Shift` + :kbd:`F1`"
@@ -443,7 +443,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid "Small Tempo Adjust Up"
-msgstr "Petit ajustement du tempo : réduction"
+msgstr "Petit ajustement du tempo : augmentation"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid ":kbd:`Shift` + :kbd:`F2`"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:83
 msgid "Double Beat Loop Size"
-msgstr "Doubler la taille de la boucle double de battement"
+msgstr "Doubler la taille de la boucle de battement"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:83
 msgid ":kbd:`E`"
@@ -663,7 +663,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:95
 msgid "Set Hot cue 3"
-msgstr ""
+msgstr "Définir le repère rapide 3"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:95
 msgid ":kbd:`C`"
@@ -735,7 +735,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:109
 msgid "**Vinyl Control**"
-msgstr ""
+msgstr "**Contrôle Vinyle**"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:111
 msgid "Passthrough"
@@ -795,11 +795,11 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid ":kbd:`Shift` + :kbd:`←` (Deck 1)"
-msgstr ""
+msgstr ":kbd:`Shift` + :kbd:`←` (platine 1)"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid ":kbd:`Shift` + :kbd:`→` (Deck 2)"
-msgstr ""
+msgstr ":kbd:`Shift` + :kbd:`→` (platine 2)"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:127
 msgid "Select all files in current list"
@@ -821,7 +821,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:131
 msgid "Focus search bar"
-msgstr "Focus barre de recherche"
+msgstr "Focus sur barre de recherche"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:131
 msgid ":kbd:`Ctrl` + :kbd:`F`"
@@ -837,7 +837,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
 msgid "Focus tracks table"
-msgstr "Focus tableau des pistes"
+msgstr "Focus sur tableau des pistes"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:135
 msgid ":kbd:`Escape`"
@@ -866,6 +866,7 @@ msgstr "Supprimer ou masquer les pistes sélectionnées"
 #: ../../chapters/appendix/keyboard_mapping_table.rst:141
 msgid "Windows/Linux: :kbd:`Delete`  macOS: :kbd:`Command` + :kbd:`Backspace`"
 msgstr ""
+"Windows/Linux : :kbd:`Delete`  macOS : :kbd:`Command` + :kbd:`Backspace`"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:145
 msgid "**Preview Deck**"
@@ -909,7 +910,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid "Skip next track in Auto DJ"
-msgstr "Passer la piste suivante dans Auto DJ"
+msgstr "Passer à la piste suivante dans Auto DJ"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid ":kbd:`Shift` + :kbd:`F10`"
@@ -917,7 +918,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid "Fade to next track in Auto DJ"
-msgstr "Fondu vers la piste suivante dans Auto DJ"
+msgstr "Fondu enchainé vers la piste suivante dans Auto DJ"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid ":kbd:`Shift` + :kbd:`F11`"
@@ -925,7 +926,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:165
 msgid "Toggle Auto DJ on/Off"
-msgstr ""
+msgstr "Activer/Désactiver Auto DJ"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:165
 msgid ":kbd:`Shift` + :kbd:`F12`"

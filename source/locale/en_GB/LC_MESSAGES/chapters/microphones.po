@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-05-21 08:43+0200\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/mixxx-dj-software/teams/7664/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -465,7 +465,8 @@ msgstr ""
 #: ../../chapters/microphones.rst:190
 msgid ""
 "**macOS**: `Audacity "
-"<https://manual.audacityteam.org/man/latency_test.html>`_"
+"<https://support.audacityteam.org/troubleshooting/solving-recording-"
+"problems/latency-compensation>`_"
 msgstr ""
 
 #: ../../chapters/microphones.rst:202

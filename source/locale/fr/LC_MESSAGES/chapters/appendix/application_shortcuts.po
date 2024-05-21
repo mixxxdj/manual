@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 15:20+0100\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:39+0000\n"
 "Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid "Enable Keyboard Shortcuts"
-msgstr "Activer raccourcis clavier"
+msgstr "Activer les raccourcis clavier"
 
 #: ../../chapters/appendix/application_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`\\``"
