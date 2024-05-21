@@ -212,7 +212,7 @@ Misc Refactorings
 
 .. _v2-4-1:
 
-`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (unreleased)
+`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (2024-05-08)
 ----------------------------------------------------------------------------------
 
 Controller Mappings
@@ -221,8 +221,12 @@ Controller Mappings
 
 * Behringer DDM4000 & BCR2000: Fix exception in JS code `#12969 <https://github.com/mixxxdj/mixxx/pull/12969>`__
 * Denon DJ MC6000MK2: Fix mapping of filter knob/button `#13166 <https://github.com/mixxxdj/mixxx/pull/13166>`__
-* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status`` `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__ `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
+* Denon DJ MC7000: Fix redundant argument and migrate to ``hotcue_x_status``
+  `#13113 <https://github.com/mixxxdj/mixxx/pull/13113>`__
+  `#13121 <https://github.com/mixxxdj/mixxx/pull/13121>`__
 * Hercules Inpulse 200: Configure shift-browser knob to scroll the library (quick) `#12932 <https://github.com/mixxxdj/mixxx/pull/12932>`__
+* Nintendo Wii Remote: Fix hid script regarding addOutput `#12973 <https://github.com/mixxxdj/mixxx/pull/12973>`__
+* Pioneer CDJ: Fix hid script regarding addOutput `#12973 <https://github.com/mixxxdj/mixxx/pull/12973>`__
 * Pioneer DDJ-FLX4: Add waveform zoom and other mapping improvements
   `#12896 <https://github.com/mixxxdj/mixxx/pull/12896>`__
   `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
@@ -260,11 +264,16 @@ Skins
   `#13136 <https://github.com/mixxxdj/mixxx/pull/13136>`__
 * Slider tooltip: consider orientation for up/down shortcut tooltips + add support for WKnobComposed `#13088 <https://github.com/mixxxdj/mixxx/pull/13088>`__
 * Tooltips: update 'hotcue' with saved loop features `#12875 <https://github.com/mixxxdj/mixxx/pull/12875>`__
-* Animate long press latching of sync button `#12990 <https://github.com/mixxxdj/mixxx/pull/12990>`__
+* Animate long press latching of sync button
+  `#12990 <https://github.com/mixxxdj/mixxx/pull/12990>`__
+  `#13212 <https://github.com/mixxxdj/mixxx/pull/13212>`__
 * Polish fx chain controls `#12805 <https://github.com/mixxxdj/mixxx/pull/12805>`__
 * Waveforms: draw loop gradient at the correct position
   `#13061 <https://github.com/mixxxdj/mixxx/pull/13061>`__
   `#13060 <https://github.com/mixxxdj/mixxx/issues/13060>`__
+* Waveform / spinnies: don't take keyboard focus on click
+  `#13174 <https://github.com/mixxxdj/mixxx/pull/13174>`__
+  `#13211 <https://github.com/mixxxdj/mixxx/pull/13211>`__
 
 Library
 ^^^^^^^
@@ -299,6 +308,7 @@ Library
 * Tracks: select track row when clicking the preview button (only when starting preview)
   `#12791 <https://github.com/mixxxdj/mixxx/pull/12791>`__
 * Library track menu: show Hide action also in Playlist & Crates `#11901 <https://github.com/mixxxdj/mixxx/pull/11901>`__
+* iTunes: Obtain FileAccess before accessing iTunes XML `#13013 <https://github.com/mixxxdj/mixxx/pull/13013>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -329,6 +339,7 @@ Miscellaneous
 * LV Mix EQ: Fix pops when enabling in effect rack
   `#13055 <https://github.com/mixxxdj/mixxx/issues/13055>`__
   `#13073 <https://github.com/mixxxdj/mixxx/pull/13073>`__
+* Fix hid addOutput
 
 .. _v2-4-0:
 
