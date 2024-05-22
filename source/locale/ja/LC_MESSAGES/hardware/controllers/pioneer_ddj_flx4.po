@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
-"PO-Revision-Date: 2024-03-24 15:39+0000\n"
+"POT-Creation-Date: 2024-04-25 07:51+0200\n"
+"PO-Revision-Date: 2024-03-26 06:45+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/mixxx-dj-software/teams/7734/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,8 +39,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:23
 msgid ""
-"`Manufacturer's User Manual "
-"<http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__"
+"`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-"
+"Instruction-Manual/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:24
@@ -128,8 +129,9 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:58
 msgid ""
 "The schematic drawings used here can be referenced in the `manufacturer's "
-"manual <http://docs.pioneerdj.com/Manuals/DDJ_FLX4_DRI1804A_manual/>`__ on "
-"the given page number."
+"manual <https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-"
+"to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/>`__ on the "
+"given page number."
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_flx4.rst:63
