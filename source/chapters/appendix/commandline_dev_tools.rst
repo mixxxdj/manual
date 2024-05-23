@@ -46,7 +46,7 @@ types, go to :ref:`file-format-compatibility`.
 --settings-path PATH            Top-level directory where Mixxx will look for
                                 user settings files such as the library database
                                 and preferences configuration file.
---disable-vumetergl             Do not use OpenGL vu meter
+--enable-legacy-vumeter         Do not use OpenGL vu meter
 --controller-debug              Log all controller data Mixxx sends and receives
                                 as well as scripts it loads.
 --controller-abort-on-warning   The controller mapping will issue more
