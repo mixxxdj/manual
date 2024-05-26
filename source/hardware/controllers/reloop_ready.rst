@@ -16,7 +16,7 @@ featuring a built-in 4-channel USB audio interface.
 ..
     -  `Mapping Forum Thread <>`__ TODO
 
-.. versionadded:: 2.3.3
+.. versionadded:: 2.4.1
 
 
 Audio Setup
@@ -52,14 +52,14 @@ No.       Control                                             Function
 3         :hwlabel:`SHIFT` + :hwlabel:`BROWSE` Encoder Knob   (Un-)maximize the Library
 4         :hwlabel:`LOAD` Button                              Load the selected track onto the corresponding deck
 4         :hwlabel:`SHIFT` + :hwlabel:`LOAD` Button           Unload the currently loaded track from the deck
-5         :hwlabel:`FILTER` Knob                              QuickEffect superknob (filter by default, can be changed to a different effect in Mixxx preferences)
+5         :hwlabel:`FILTER` Knob                              QuickEffect superknob (filter by default, can be changed in the UI or the preferences)
 6         :hwlabel:`CUE` Button                               Enable Deck output to headphone (:term:`PFL`)
 7         :hwlabel:`SHIFT` Button                             Access alternative functionality of some buttons.
-8         :hwlabel:`TEMPO` Fader                              Adjust the tempo of the Deck
+8         :hwlabel:`TEMPO` Fader                              Adjust the tempo of the Deck (direction can be changed in the Deck preferences)
 9         Channel faders                                      Adjust the output level for each channel.
 10        Crossfader                                          Fades between left and right deck. (make sure the orientation is set correctly in Mixxx)
 12        Pads                                                See the PadSection (TODO)
-13        :hwlabel:`VINYL` Button                             Toggle vinyl control mode (touching the top of the platter stops the playback)
+13        :hwlabel:`VINYL` Button                             Toggle vinyl control mode (if enabled, touching the top of the platter stops the playback)
 13        :hwlabel:`SHIFT` + :hwlabel:`VINYL` Button          Toggle Slip Mode
 14        :hwlabel:`KEY LOCK` Button                          Toggle whether the pitch of the track should be immune to tempo changes
 14        :hwlabel:`SHIFT` + :hwlabel:`KEY LOCK` Button       Change Deck Pitch to match currently playing deck
