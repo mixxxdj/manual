@@ -2876,10 +2876,13 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 .. note:: Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`.
 
-.. mixxx:control:: [MicrophoneN],input_configured
+.. mixxx:control:: [ChannelN],input_configured
+                   [MicrophoneN],input_configured
                    [AuxiliaryN],input_configured
 
    1 if there is input is configured for this channel, 0 if not.
+   In the case of :mixxx:cogroupref:`[ChannelN]` it corresponds to
+   Vinyl Control. A configured input is required to enable :mixxx:coref:`[ChannelN],passthrough`
 
    :range: binary, read-only
    :feedback: Configured channel in the sound preferences.
