@@ -9,6 +9,11 @@
 Changelog
 =========
 
+.. _v2-6-0:
+
+`2.6.0 <https://github.com/mixxxdj/mixxx/milestone/44>`__ (Unreleased)
+-------------------------------------------------------------------------
+
 .. _v2-5-0:
 
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
