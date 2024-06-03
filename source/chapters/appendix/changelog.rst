@@ -14,18 +14,6 @@ Changelog
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
 ---------------------------------------------------------------------------------------
 
-Features
-^^^^^^^^
-
-
-* Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
-* PreviewDeckN,LoadSelectedTrackAndPlay toggles play/pause if the track is already loaded
-  `#12920 <https://github.com/mixxxdj/mixxx/pull/12920>`__
-  `#9819 <https://github.com/mixxxdj/mixxx/issues/9819>`__
-* Add command line option ``--start-autodj`` to start Auto DJ immediately after Mixxx start.
-  `#13017 <https://github.com/mixxxdj/mixxx/pull/13017>`__
-  `#10189 <https://github.com/mixxxdj/mixxx/issues/10189>`__
-
 Waveforms
 ^^^^^^^^^
 
@@ -67,6 +55,13 @@ Skins / Interface
   `#10192 <https://github.com/mixxxdj/mixxx/issues/10192>`__
 * Track label widgets: set ``show_track_menu`` only for main decks `#12978 <https://github.com/mixxxdj/mixxx/pull/12978>`__
 * MacOS: App proxy icon of the playing track to the window title `#12116 <https://github.com/mixxxdj/mixxx/pull/12116>`__
+* PreviewDeckN,LoadSelectedTrackAndPlay toggles play/pause if the track is already loaded
+  `#12920 <https://github.com/mixxxdj/mixxx/pull/12920>`__
+  `#9819 <https://github.com/mixxxdj/mixxx/issues/9819>`__
+* Add command line option ``--start-autodj`` to start Auto DJ immediately after Mixxx start.
+  `#13017 <https://github.com/mixxxdj/mixxx/pull/13017>`__
+  `#10189 <https://github.com/mixxxdj/mixxx/issues/10189>`__
+* Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
 
 Engine
 ^^^^^^
