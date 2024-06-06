@@ -182,54 +182,43 @@ Effects
 -------
 
 Because the S3 has limited effects controls, the FX setup is unusual and a little complex.
-Each deck has a single effect toggle button and one knob, and on the right-hand side of the mixer there are five buttons, one for each effect chain and one for the QuickEffect.
+Each deck has a single effect toggle button (:hwlabel:`FILTER ON`) and one knob, and on the right-hand side of the mixer there are five buttons, one for each effect chain (:hwlabel:`FX SELECT`) and one for the QuickEffect (:hwlabel:`FILTER`).
 These buttons and knobs are used in different ways depending on how they are pushed, and together allow the DJ to customize all of the effects.
 
 There are three modes that the effect controls can be in:
-1.  The initial mode is Filter Mode.
-This mode is indicated when the :hwlabel:`FILTER ENABLE` buttons have the same colors as the individual decks.
-This mode is used for adjusting QuickEffects and assigning Effect Chains to decks.
-1.  The next mode is Effect Chain Edit Mode.
-This mode is indicated when the :hwlabel:`FILTER ENABLE` buttons are all the same color as one of the effect buttons.
-This mode is used for turning individual effects in a chain on and off, and adjusting each effect chain's mix knob.
-1.  The last mode is Effect Focus Mode.
-This mode is indicated when :hwlabel:`FILTER ENABLE` buttons are all the same color as one of the effects, and one of the :hwlabel:`FX SELECT` buttons is blinking.
-This mode is used for tuning individual parameters in an effect and enabling or disabling effect toggle buttons.
 
-Switching Effect Modes
-~~~~~~~~~~~~~~~~~~~~~~
+#. Filter Mode (initial) - It is indicated when the :hwlabel:`FILTER ON` buttons have the same colors as the individual decks.
+#. Effect Chain Edit Mode - It is indicated when the :hwlabel:`FILTER ON` buttons are all the same color as one of the effect buttons.
+#. Effect Focus Mode - It is indicated when :hwlabel:`FILTER ON` buttons are all the same color as one of the effects, and one of the :hwlabel:`FX SELECT` buttons is blinking.
 
-At any time, you can push the :hwlabel:`FILTER` :hwlabel:`FX SELECT` button to return to Filter Mode.
+At any time, you can push the :hwlabel:`FILTER` or :hwlabel:`FX SELECT` button to return to Filter Mode.
 If you get lost, try pusing the :hwlabel:`FILTER` button to start over.
 
-Press any :hwlabel:`FX SELECT` button to enter Effect Chain mode for that number chain.
-If you press the same :hwlabel:`FX SELECT` button again, you'll return to Filter Mode.
-Press a different :hwlabel:`FX SELECT` button to enter Effect Chain mode for that other chain.
+The knobs have soft takeover mode enabled, which means you need to turn the physical knob to match the current position of the UI knob before the value will change. If you are wondering why it seems like the values aren't changing, you may need to rotate the knob more.
 
-Press and hold an :hwlabel:`FX SELECT` button, then press a :hwlabel:`FILTER ENABLE` button to enter Effect Focus mode.
-The :hwlabel:`FX SELECT` button will start blinking.
-From left to right, the :hwlabel:`FILTER ENABLE` buttons will focus on the first through fourth effects in the chain.
-If you press any :hwlabel:`FX SELECT` button, you'll return to Effect Chain mode.
+Filter Mode
+~~~~~~~~~~~
 
-Soft Takeover
-~~~~~~~~~~~~~
+This mode is used for adjusting QuickEffects and assigning Effect Chains to decks.
+It is indicated when the :hwlabel:`FILTER ON` buttons have the same colors as the individual decks.
 
-The knobs have Soft Takeover mode enabled, which means you need to turn the physical knob to match the current position of the UI knob before the value will change.
-If you are wondering why it seems like the values aren't changing, you may need to rotate the knob more.
-
-Assigning Effects
-~~~~~~~~~~~~~~~~~
-
-You can assign effect chains to individual decks in Filter Mode.
-Press and hold :hwlabel:`FILTER ENABLE`, then press the desired :hwlabel:`FX SELECT` button or buttons.
-The :hwlabel:`FX SELECT` buttons that are bright are the effect chains that are selected for that deck.
+Press and hold :hwlabel:`FILTER ON`, then press the desired :hwlabel:`FX SELECT`/:hwlabel:`FILTER` button or buttons.
+The buttons that are bright are the effect chains that are selected for that deck.
 
 Effect Chain Edit Mode
 ~~~~~~~~~~~~~~~~~~~~~~
 
-In Effect Chain Edit Mode, the :hwlabel:`FILTER ENABLE` buttons change color to match the selected FX button.
+This mode is used for turning individual effects in a chain on and off, and adjusting each effect chain's mix knob.
+It is indicated when the :hwlabel:`FILTER ON` buttons are all the same color as one of the effect buttons.
+
+
+Press any :hwlabel:`FX SELECT` button to enter Effect Chain mode for that chain number.
+If you press the same :hwlabel:`FX SELECT` button again, you'll return to Filter Mode.
+Press a different :hwlabel:`FX SELECT` button to enter Effect Chain mode for that other chain.
+
+
 The lights will be dim if the effect is disabled, and bright if it is enabled.
-Tap the :hwlabel:`FILTER ENABLE` button to enable or disable the effect.
+Tap the :hwlabel:`FILTER ON` button to enable or disable the effect.
 Turn the first three knobs to adjust the meta knob for each effect.
 The last filter knob adjusts the mix knob for the whole chain.
 This is to prevent sudden changes in sound when navigating between modes.
@@ -237,7 +226,18 @@ This is to prevent sudden changes in sound when navigating between modes.
 Effect Focus Mode
 ~~~~~~~~~~~~~~~~~
 
-In Effect Focus Mode, the :hwlabel:`FILTER ENABLE` buttons represent effect button parameters, while the four knobs adjust the first four parameters of the selected effect.
+This mode is used for tuning individual parameters in an effect and enabling or disabling effect toggle buttons.
+It is indicated when :hwlabel:`FILTER ON` buttons are all the same color as one of the effects, and one of the :hwlabel:`FX SELECT` buttons is blinking.
+
+
+Press and hold an :hwlabel:`FX SELECT` button, then press a :hwlabel:`FILTER ON`. From left to right, the :hwlabel:`FILTER ON` buttons will focus on the first through fourth effects in the chain. The :hwlabel:`FX SELECT` button will start blinking.
+
+
+The :hwlabel:`FILTER ON` buttons represent effect button parameters, while the four knobs adjust the first four parameters of the selected effect.
+If you press any :hwlabel:`FX SELECT` button, you'll return to Effect Chain mode.
+
+
+
 
 Mapping options
 ---------------
