@@ -4529,7 +4529,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
     :range: binary
     :feedback: Waveform view
 
-    Loads the currently highlighted song into the first stopped deck
+    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus,
+    just regardless of the focus.
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[Library],GoToItem` instead.
