@@ -14,6 +14,44 @@ Changelog
 `2.6.0 <https://github.com/mixxxdj/mixxx/milestone/44>`__ (Unreleased)
 -------------------------------------------------------------------------
 
+Waveforms
+^^^^^^^^^
+
+
+* Simplify waveform combobox in preferences
+  `#13220 <https://github.com/mixxxdj/mixxx/issues/13220>`__
+  `#6428 <https://github.com/mixxxdj/mixxx/issues/6428>`__
+  `#13226 <https://github.com/mixxxdj/mixxx/issues/13226>`__
+
+STEM support
+^^^^^^^^^^^^
+
+
+* Add simple support for STEM files `#13044 <https://github.com/mixxxdj/mixxx/pull/13044>`__
+* Multithreaded Rubberband `#13143 <https://github.com/mixxxdj/mixxx/pull/13143>`__
+
+Controller Backend
+^^^^^^^^^^^^^^^^^^
+
+
+* Add screen renderer to support controllers with a screen
+  `#11407 <https://github.com/mixxxdj/mixxx/pull/11407>`__
+  `#13334 <https://github.com/mixxxdj/mixxx/pull/13334>`__
+
+Auto-DJ
+^^^^^^^
+
+
+* Add AutoDJ xfader recenter option (default off)
+  `#13303 <https://github.com/mixxxdj/mixxx/pull/13303>`__
+  `#11571 <https://github.com/mixxxdj/mixxx/issues/11571>`__
+
+Misc Refactorings
+^^^^^^^^^^^^^^^^^
+
+
+* Refactor/shrink modernize scopedtimer `#13258 <https://github.com/mixxxdj/mixxx/pull/13258>`__
+
 .. _v2-5-0:
 
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
