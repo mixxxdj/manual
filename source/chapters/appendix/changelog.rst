@@ -399,6 +399,42 @@ Misc Refactorings
   `#13246 <https://github.com/mixxxdj/mixxx/pull/13246>`__
   `#13232 <https://github.com/mixxxdj/mixxx/pull/13232>`__
 
+.. _v2-4-2:
+
+`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (unreleased)
+----------------------------------------------------------------------------------
+
+Controller Mappings
+^^^^^^^^^^^^^^^^^^^
+
+
+* Korg Kaoss DJ: Update script `#12683 <https://github.com/mixxxdj/mixxx/pull/12683>`__
+* Novation Dicer: Remove flanger mapping with quickeffect toggle
+  `#13196 <https://github.com/mixxxdj/mixxx/pull/13196>`__
+  `#13134 <https://github.com/mixxxdj/mixxx/issues/13134>`__
+* Numark PartyMix: Fix EQ (script binding) display name `#13255 <https://github.com/mixxxdj/mixxx/pull/13255>`__
+* Sony SIXAXIS: Fix mapping `#13319 <https://github.com/mixxxdj/mixxx/pull/13319>`__
+
+Fixes
+^^^^^
+
+
+* Handle not supported files when dragging to waveforms and spinnies
+  `#13208 <https://github.com/mixxxdj/mixxx/pull/13208>`__
+  `#13271 <https://github.com/mixxxdj/mixxx/pull/13271>`__
+  `#13275 <https://github.com/mixxxdj/mixxx/pull/13275>`__
+* Fix Sqlite 3.45 builds by using only single quotes for SQL strings
+  `#13247 <https://github.com/mixxxdj/mixxx/pull/13247>`__
+  `#13257 <https://github.com/mixxxdj/mixxx/pull/13257>`__
+* LateNight: Use default colors for sampler overviews (like main decks) `#13274 <https://github.com/mixxxdj/mixxx/pull/13274>`__
+* Library: Allow to drop files to decks with unsupported or no file extensions
+  `#13209 <https://github.com/mixxxdj/mixxx/pull/13209>`__
+  `#13204 <https://github.com/mixxxdj/mixxx/issues/13204>`__
+* Update build environment with libdjinterop 0.21.0 `#13288 <https://github.com/mixxxdj/mixxx/pull/13288>`__
+* Move to GitHub workflow runner macos-12
+  `#13296 <https://github.com/mixxxdj/mixxx/pull/13296>`__
+  `#13248 <https://github.com/mixxxdj/mixxx/issues/13248>`__
+
 .. _v2-4-1:
 
 `2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (2024-05-08)
