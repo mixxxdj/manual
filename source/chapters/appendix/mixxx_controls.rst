@@ -3174,6 +3174,26 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Library],MoveTrackUp
+
+   Equivalent to pressing the :kbd:`Alt` + :kbd:`Up` key on the keyboard
+
+   :range: Binary
+   :feedback: Move selected track up
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [Library],MoveTrackDown
+
+   Equivalent to pressing the :kbd:`Alt` + :kbd:`Down` key on the keyboard
+
+   :range: Binary
+   :feedback: Move selected track down
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [Library],MoveVertical
 
    Move the specified number of locations up or down. Intended to be mapped to an encoder knob.
