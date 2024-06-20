@@ -3174,26 +3174,6 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.1.0
 
 
-.. mixxx:control:: [Library],MoveTrackUp
-
-   Equivalent to pressing the :kbd:`Alt` + :kbd:`Up` key on the keyboard
-
-   :range: Binary
-   :feedback: Move selected track up
-
-   .. versionadded:: 2.5.0
-
-
-.. mixxx:control:: [Library],MoveTrackDown
-
-   Equivalent to pressing the :kbd:`Alt` + :kbd:`Down` key on the keyboard
-
-   :range: Binary
-   :feedback: Move selected track down
-
-   .. versionadded:: 2.5.0
-
-
 .. mixxx:control:: [Library],MoveVertical
 
    Move the specified number of locations up or down. Intended to be mapped to an encoder knob.
@@ -3202,6 +3182,26 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :feedback: Currently selected item changes
 
    .. versionadded:: 2.1.0
+
+
+.. mixxx:control:: [Library],MoveTrackUp
+
+   Move track selection up by one row in the playlist. Equivalent to pressing the :kbd:`Alt` + :kbd:`Up` key on the keyboard. This is applicable only in unlocked playlists.
+
+   :range: Binary
+   :feedback: Currently selected tracks are moved
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [Library],MoveTrackDown
+
+   Move track selection down by one row in the playlist. Equivalent to pressing the :kbd:`Alt` + :kbd:`Down` key on the keyboard. This is applicable only in unlocked playlists.
+
+   :range: Binary
+   :feedback: Currently selected tracks are moved
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [Library],ScrollUp
