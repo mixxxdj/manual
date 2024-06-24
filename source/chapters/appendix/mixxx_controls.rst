@@ -3204,6 +3204,16 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    .. versionadded:: 2.5.0
 
 
+.. mixxx:control:: [Library],MoveTrack
+
+   Move track selection up or down by one row in the playlist. Equivalent to pressing the :kbd:`Alt` + :kbd:`Up` or :kbd:`Alt` + :kbd:`Down` key on the keyboard. This is applicable only in unlocked playlists.
+
+   :range: Binary
+   :feedback: Currently selected tracks are moved
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [Library],ScrollUp
 
    Equivalent to pressing the :kbd:`PageUp` key on the keyboard
