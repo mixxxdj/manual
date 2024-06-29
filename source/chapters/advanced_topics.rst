@@ -21,6 +21,11 @@ You can download and share custom controller mappings in the
 For a list of controls that can be used in a controller mapping, see
 :ref:`appendix-mixxxcontrols`.
 
+Controller API documentation
+----------------------------
+
+.. include:: ./controller_api/modules.md
+
 
 .. _advanced-controller-wizard:
 
