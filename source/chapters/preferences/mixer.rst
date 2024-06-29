@@ -1,29 +1,31 @@
 .. include:: /shortcuts.rstext
 
-.. _preferences-equalizers:
+.. _preferences-mixer:
 
-Equalizers
-==========
+Mixer
+=====
 
 .. sectionauthor::
    Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../../_static/Mixxx-200-Preferences-Equalizer.png
+.. figure:: ../../_static/Mixxx-240-Preferences-Mixer.png
     :align: center
     :width: 80%
     :figwidth: 100%
-    :alt: Equalizer Preferences
+    :alt: Mixer Preferences
     :figclass: pretty-figures
 
-    Equalizer Preferences
+    Mixer Preferences
 
-:menuselection:`Preferences --> Equalizer` allows you to setup the equalizers.
+:menuselection:`Preferences --> Mixer` allows you to adjust the crossfader curve,
+setup the equalizers and Quick Effects for each deck and select and adjust the
+equalizer effect for the main output.
 
-* **Equalizer Rack**: The Equalizer Rack is a special effect rack that is
-  connected to the deck's equalizer and filter controls.
+* **Crossfader Curve**: adjust how decks assigned to the left and right side of the
+  crossafder are blended.
 
-  In this section you can select the equalizers and quick effects that are used
-  with the decks.
+* **Deck Equalizers**: In this section you can select the equalizers and
+  quick effects that are used with the decks.
 
 * **Equalizer Plugin**: Here you can select the effect that is used as the
   mixing EQ in each deck. By default only built-in equalizers are
@@ -40,7 +42,7 @@ Equalizers
   range up to 246 Hz. The mid knob controls the mid range up to 2.5 kHz.
   The remaining treble range is controlled by the high knob.
 
-* **Master EQ**: This section allows you to setup an EQ that affects the
+* **Main EQ**: This section allows you to setup an EQ that affects the
   term:`main output`.
 
 
