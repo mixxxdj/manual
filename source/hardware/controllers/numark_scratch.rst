@@ -114,3 +114,18 @@ in the respective pad/slot. Holding SHIFT while pressing a pad will clear the Cu
 stop the sample playback once triggered.
 
 **ROLL** mode: In this mode holding pads 1-4 activates a loop roll of varying sizes. Release the pad to exit the loop roll.
+
+Mapping options
+---------------
+
+
+There are various options that can be used to change some of the mixer's behavior.
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Numark Scratch`.
+
+======================================================== =========================================== ============================ =================================== ================================================================================================================================================================================================================
+Setting                                                  Variable value                              Default                      Range                               Description
+======================================================== =========================================== ============================ =================================== ================================================================================================================================================================================================================
+Invert the Loop Encoder functionality                    `invertLoopEncoderFunction`                 false                        true/false                          By default the Encoder manages looping and Shift + Encoder scrolls the library/loads track. If this setting is set to true, the Encoder scrolls the library/loads track and Shift + Encoder manages looping.
+Keep pads and buttons dimmed when off                    `InactiveLightsAlwaysBacklit`               true                         true/false                          Having this setting on will keep LED always dimmed, even when off. *Note* the :hwlabel:`PAD MODE` and :hwlabel:`CUE` buttons are hardware controlled and always dim when inactive.
+Set the predefined size to use for the Roll mode         `BeatLoopRollSize`                          1/4,1/2,1,2                  range 1/32..8                       Define the size of loops for each of the deck pads, from left to right.
+======================================================== =========================================== ============================ =================================== ================================================================================================================================================================================================================
