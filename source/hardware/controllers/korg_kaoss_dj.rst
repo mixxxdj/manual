@@ -7,6 +7,8 @@ Korg Kaoss DJ controller
 -  `Forum thread <https://mixxx.discourse.group/t/korg-kaoss-dj-midi-mapping-help/16093>`__
 -  `Pull request on Github <https://github.com/mixxxdj/mixxx/pull/1509>`__
 
+macOS: Please note that the Korg Kaoss DJ is only supported until `macOS Monterey <https://www.korg.com/download/global/support/os/pdf/mac_compatibilitychart_KORG_en.pdf>`__
+
 .. versionadded:: 2.1
 
 Mapping
