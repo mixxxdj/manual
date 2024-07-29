@@ -125,14 +125,14 @@ Pad 5                                                            Jump to the las
 Pad 6                                                            Jump to the last used hot cue/cue point and play at -3 semitones.
 Pad 7                                                            Jump to the last used hot cue/cue point and play at -2 semitones.
 Pad 8                                                            Jump to the last used hot cue/cue point and play at -1 semitones.
-:hwlabel:`SHIFT` + Pad 1                                         Reset key.
-:hwlabel:`SHIFT` + Pad 2                                         Pitch the track up by 1 semitone.
-:hwlabel:`SHIFT` + Pad 3                                         Pitch the track up by 10 cents.
-:hwlabel:`SHIFT` + Pad 4                                         Shift the toneplay keyboard up by 1 semitone.
-:hwlabel:`SHIFT` + Pad 5                                         Sync key.
-:hwlabel:`SHIFT` + Pad 6                                         Pitch the track down by 1 semitone.
-:hwlabel:`SHIFT` + Pad 7                                         Pitch the track down by 10 cents.
-:hwlabel:`SHIFT` + Pad 8                                         Shift the toneplay keyboard down by 1 semitone.
+:hwlabel:`SHIFT` + Pad 1                                         Change the pitch to +1 semitones (without jumping).
+:hwlabel:`SHIFT` + Pad 2                                         Change the pitch to +2 semitones.
+:hwlabel:`SHIFT` + Pad 3                                         Change the pitch to +3 semitones.
+:hwlabel:`SHIFT` + Pad 4                                         Change the pitch to +4 semitones.
+:hwlabel:`SHIFT` + Pad 5                                         Change the pitch to -4 semitones.
+:hwlabel:`SHIFT` + Pad 6                                         Change the pitch to -3 semitones.
+:hwlabel:`SHIFT` + Pad 7                                         Change the pitch to -2 semitones.
+:hwlabel:`SHIFT` + Pad 8                                         Change the pitch to -1 semitones.
 ===============================================================  ==========================================
 
 Roll Mode
@@ -215,7 +215,7 @@ Pressing pad 1 will create a 1-beat loop on the 1st slice (1st beat). Pad 2 will
 Pressing two pads at the same time creates a loop between two slices. For example, pressing pads 3 and 6 creates a 4 beat loop that encompasses slices 3, 4, 5, and 6.
 Pressing three or more pads will create a loop between the first and last slices. For example, pressing pads 2, 5, and 7 creates a 6 beat loop that encompasses slices 2-7.
 
-In Slicer mode, the slicer section moves throughout the track. In Slicer Loop mode, the slicer section does not.
+In Slicer mode, the slicer section moves throughout the track. In Slicer Loop mode, the slicer section stays in place.
 
 For more details, look at the original Inpulse 300 manual.
 
