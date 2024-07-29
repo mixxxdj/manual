@@ -125,10 +125,10 @@ Pad 5                                                            Jump to the las
 Pad 6                                                            Jump to the last used hot cue/cue point and play at -3 semitones.
 Pad 7                                                            Jump to the last used hot cue/cue point and play at -2 semitones.
 Pad 8                                                            Jump to the last used hot cue/cue point and play at -1 semitones.
-:hwlabel:`SHIFT` + Pad 1                                         Change the pitch to +1 semitones (without jumping).
-:hwlabel:`SHIFT` + Pad 2                                         Change the pitch to +2 semitones.
-:hwlabel:`SHIFT` + Pad 3                                         Change the pitch to +3 semitones.
-:hwlabel:`SHIFT` + Pad 4                                         Change the pitch to +4 semitones.
+:hwlabel:`SHIFT` + Pad 1                                         Change the pitch to the original pitch (without jumping).
+:hwlabel:`SHIFT` + Pad 2                                         Change the pitch to +1 semitones.
+:hwlabel:`SHIFT` + Pad 3                                         Change the pitch to +2 semitones.
+:hwlabel:`SHIFT` + Pad 4                                         Change the pitch to +3 semitones.
 :hwlabel:`SHIFT` + Pad 5                                         Change the pitch to -4 semitones.
 :hwlabel:`SHIFT` + Pad 6                                         Change the pitch to -3 semitones.
 :hwlabel:`SHIFT` + Pad 7                                         Change the pitch to -2 semitones.
