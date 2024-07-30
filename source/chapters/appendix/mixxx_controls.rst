@@ -820,6 +820,46 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],shift_cues_earlier
+                   [PreviewDeckN],shift_cues_earlier
+                   [SamplerN],shift_cues_earlier
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later
+                   [PreviewDeckN],shift_cues_later
+                   [SamplerN],shift_cues_later
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_earlier_small
+                   [PreviewDeckN],shift_cues_earlier_small
+                   [SamplerN],shift_cues_earlier_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later_small
+                   [PreviewDeckN],shift_cues_later_small
+                   [SamplerN],shift_cues_later_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
 .. mixxx:control:: [ChannelN],bpm_toggle_lock
                    [PreviewDeckN],bpm_toggle_lock
                    [SamplerN],bpm_toggle_lock
