@@ -30,6 +30,8 @@ Waveforms
 * Waveforms: Allshader RGB, Filtered and Stacked Waveforms using textures for waveform data
   `#13151 <https://github.com/mixxxdj/mixxx/pull/13151>`__
   `#12641 <https://github.com/mixxxdj/mixxx/issues/12641>`__
+* Allow changing the waveform overview type without reloading the skin
+  `#13273 <https://github.com/mixxxdj/mixxx/pull/13273>`__
 
 Skins / Interface
 ^^^^^^^^^^^^^^^^^
@@ -106,6 +108,9 @@ Effects
 * Effect Meta knob: Draw arc from default meta position
   `#12638 <https://github.com/mixxxdj/mixxx/pull/12638>`__
   `#12634 <https://github.com/mixxxdj/mixxx/issues/12634>`__
+* Show newly added effects, read/write HiddenEffects
+  `#13326 <https://github.com/mixxxdj/mixxx/pull/13326>`__
+  `#11343 <https://github.com/mixxxdj/mixxx/issues/11343>`__
 
 Library
 ^^^^^^^
@@ -116,6 +121,7 @@ Library
 * Playlists: move tracks with Alt + Up/Down/PageUp/PageDown/Home/End
   `#13092 <https://github.com/mixxxdj/mixxx/pull/13092>`__
   `#10826 <https://github.com/mixxxdj/mixxx/issues/10826>`__
+  `#13098 <https://github.com/mixxxdj/mixxx/pull/13098>`__
 * Search: Add special BPM filters
   `#12072 <https://github.com/mixxxdj/mixxx/pull/12072>`__
   `#8191 <https://github.com/mixxxdj/mixxx/issues/8191>`__
@@ -154,10 +160,10 @@ Library
 * Track menu: add star rating
   `#12700 <https://github.com/mixxxdj/mixxx/pull/12700>`__
   `#10652 <https://github.com/mixxxdj/mixxx/issues/10652>`__
-* Playlists: move tracks with Alt + Up/Down/PageUp/PageDown/Home/End
-  `#13092 <https://github.com/mixxxdj/mixxx/pull/13092>`__
-  `#10826 <https://github.com/mixxxdj/mixxx/issues/10826>`__
+* Track menu: Show Properties in Missing and Hidden view `#13426 <https://github.com/mixxxdj/mixxx/pull/13426>`__
 * Library control: make use of WLibrary::getCurrentTrackTableView() `#13335 <https://github.com/mixxxdj/mixxx/pull/13335>`__
+* Optimize Library scrolling in BPMDelegate::paintItem `#13358 <https://github.com/mixxxdj/mixxx/pull/13358>`__
+* Library: fix font reset in multiline comment editor `#13448 <https://github.com/mixxxdj/mixxx/pull/13448>`__
 
 Preferences
 ^^^^^^^^^^^
@@ -176,6 +182,7 @@ Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
+* Numark Scratch: Add controller settings  `#13404 <https://github.com/mixxxdj/mixxx/pull/13404>`__
 * Pioneer DDJ-FLX4: Mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
 * Traktor S4 MK3: Add setting definition for  `#12995 <https://github.com/mixxxdj/mixxx/pull/12995>`__
 * Traktor S4 MK3: Software mixer support and default pad layout customisation `#13059 <https://github.com/mixxxdj/mixxx/pull/13059>`__
@@ -258,7 +265,8 @@ Update to Qt6
 * Introduce wrapper for non const iterators for erase and insert `#12201 <https://github.com/mixxxdj/mixxx/pull/12201>`__
 * Fix Qt6/QML build `#12255 <https://github.com/mixxxdj/mixxx/pull/12255>`__
 * Fix track color background with Qt6 `#12380 <https://github.com/mixxxdj/mixxx/pull/12380>`__
-* multi-line delegate: fix bg color, Qt6 on Linux `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
+* multi-line delegate: fix bg color, Qt6 on Linux
+  `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
 * Revert "BaseTrackPlayer: Remove references to WaveformWidgetRenderer when using Qt6" `#12342 <https://github.com/mixxxdj/mixxx/pull/12342>`__
 * Fix: Replace deprecated ``qAsConst`` with ``std::as_const`` `#13028 <https://github.com/mixxxdj/mixxx/pull/13028>`__
 * Fix Drag'n'drop: avoid unintended drag on hover (WTrackProperty, WCoverArt etc.)
@@ -279,7 +287,13 @@ Experimental iOs support
 * SoundManager: Use correct PortAudio backend on iOS `#12716 <https://github.com/mixxxdj/mixxx/pull/12716>`__
 * DesktopHelper: Add openUrl abstraction to support iOS `#12698 <https://github.com/mixxxdj/mixxx/pull/12698>`__
 * iOS packaging: Add Info.plist, launch screen and app icon `#12676 <https://github.com/mixxxdj/mixxx/pull/12676>`__
-* CmdlineArgs: Move config directory to a user-accessible location on iOS `#12688 <https://github.com/mixxxdj/mixxx/pull/12688>`__
+* CmdlineArgs: Move config directory to a user-accessible location on iOS
+  `#12688 <https://github.com/mixxxdj/mixxx/pull/12688>`__
+* CMakeLists: Work around Qt shader bug with Xcode
+  `#13379 <https://github.com/mixxxdj/mixxx/pull/13379>`__
+  `#13378 <https://github.com/mixxxdj/mixxx/issues/13378>`__
+* AudioUnitManager: Disable unavailable in-process instantiation on iOS
+  `#13383 <https://github.com/mixxxdj/mixxx/pull/13383>`__
 
 Experimental WebAssembly support
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -308,6 +322,10 @@ Target support
 * README: Recommend running buildenvs over sourcing them on Linux `#13071 <https://github.com/mixxxdj/mixxx/pull/13071>`__
 * FindSndFile: Link mpg123 in static builds `#13087 <https://github.com/mixxxdj/mixxx/pull/13087>`__
 * macOS packaging: Enable app sandbox in ad-hoc-packaged (i.e. non-notarized) bundles too `#12101 <https://github.com/mixxxdj/mixxx/pull/12101>`__
+* Drop support for macOS versions earlier than 11
+* Drop support for Windows versions earlier than Windows 10 build 1809
+* Drop support for Ubuntu versions earlier than 22.04
+* Require a C++20 compiler
 
 Misc Refactorings
 ^^^^^^^^^^^^^^^^^
@@ -354,6 +372,8 @@ Misc Refactorings
 * Code Style: Add branches around single line blocks. `#13097 <https://github.com/mixxxdj/mixxx/pull/13097>`__
 * Add missing member in copy ctor `#13229 <https://github.com/mixxxdj/mixxx/pull/13229>`__
 * Refactor/preferences enums `#12798 <https://github.com/mixxxdj/mixxx/pull/12798>`__
+* localDateTimeFromUtc: Make argument a const reference and initialize QDateTime at construction `#13359 <https://github.com/mixxxdj/mixxx/pull/13359>`__
+* use enum class for waveform overview type `#13370 <https://github.com/mixxxdj/mixxx/pull/13370>`__
 * Update to latest vcpkg dependencies
   `#11649 <https://github.com/mixxxdj/mixxx/pull/11649>`__
   `#12512 <https://github.com/mixxxdj/mixxx/pull/12512>`__
