@@ -2488,7 +2488,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: 0, 2..4, read-only
 
-   .. versionadded:: 2.?.0
+   .. versionadded:: 2.6.0
 
 
 .. mixxx:control:: [ChannelNStemM],color
@@ -2497,7 +2497,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: 3-Byte :term:`RGB` color code (or -1), read-only
 
-   .. versionadded:: 2.?.0
+   .. versionadded:: 2.6.0
 
 
 .. mixxx:control:: [ChannelN],stop
@@ -4139,7 +4139,7 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    :range: binary
    :feedback: STEM control section is shown/hidden.
 
-   .. versionadded:: 2.?.0
+   .. versionadded:: 2.6.0
 
 
 Deprecated controls
