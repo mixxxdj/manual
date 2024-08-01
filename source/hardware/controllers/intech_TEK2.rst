@@ -1,5 +1,5 @@
-Intech TEK2
-============
+Intech Studio - Grid (TEK2)
+===========================
 
 -  `Intech Studio <https://intech.studio/>`__
 
