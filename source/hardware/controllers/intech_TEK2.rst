@@ -14,12 +14,7 @@ Intech Grid modules are modular and fully configurable, allowing you to create y
 TEK2 and Scratch
 ----------------
 
-This simple configuration is created for the Intech Studio `TEK2 module <https://intech.studio/shop/tek2>`__, 
-enabling the use of the Jogwheel and Scratch functionality in MIXXX software. 
-Our Grid modules are modular and fully configurable, allowing you to create your own DJ MIDI controller.
-We typically use the `TEK2 <https://intech.studio/shop/tek2>`__, `PBF4 <https://intech.studio/shop/pbf4>`__, and `PO16 <https://intech.studio/shop/po16>`__ modules, which together form a straightforward combination to control any DJ software. 
-However, everyone's needs and ideas for plug together Grids are different, 
-so creating custom mappings in MIXXX is entirely up to you—it's really easy!
+This basic mapping provides jogwheel and scratch functionality in Mixxx.
 
 Setting up the controller
 -------------------------
