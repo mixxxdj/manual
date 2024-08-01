@@ -3,7 +3,7 @@ Intech Studio - Grid (TEK2)
 
 -  `Intech Studio <https://intech.studio/>`__
 
-.. versionadded:: 2.4
+.. versionadded:: 2.4.2
 
 TEK2 and Scratch
 ----------------
