@@ -19,19 +19,15 @@ This basic mapping provides jogwheel and scratch functionality in Mixxx.
 Setting up the controller
 -------------------------
 
-To make this mapping work, follow these settings:
+To make this mapping work, follow these steps:
 
 1. Download and open the `Grid Editor <https://intech.studio/ae/products/grid-editor/>`__.
 2. In the Grid Editor, access the Profile Cloud where you can load and save configurations to our Modules.
 3. Search for 'TEK2 DJ setup', then load and store it to your TEK2.
-4. Open up MIXXX, go to Preferences/Controllers, and select the 'Intech TEK2' profile.
+4. Open up MIxxx, go to :menuselection:`Preferences` --> :menuselection:`Controllers` --> :menuselection:`Intech TEK2` and select the 'Intech TEK2' mapping.
 
 That's it! You are now able to use the jog wheel and create your custom mapping.
 
-
-If you have any questions or need help with the setup, 
-join our `Discord channel <https://discord.com/invite/ntrzhxS>`__
-and we will assist you!
 
 
 .. figure:: ../../_static/controllers/intech_dj.png
