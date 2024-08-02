@@ -24,6 +24,7 @@ TEK2 and Scratch
 ----------------
 
 This basic mapping provides jogwheel and scratch functionality in Mixxx.
+The first row of buttons is mapped to Play and Cue on each channel.
 
 Setting up the controller
 -------------------------
@@ -36,11 +37,3 @@ To make this mapping work, follow these steps:
 4. Open up MIxxx, go to :menuselection:`Preferences` --> :menuselection:`Controllers` --> :menuselection:`Intech TEK2` and select the 'Intech TEK2' mapping.
 
 That's it! You are now able to use the jog wheel and create your custom mapping.
-
-
-
-
-
-
-
-
