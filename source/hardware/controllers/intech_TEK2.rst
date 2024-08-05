@@ -34,6 +34,6 @@ To make this mapping work, follow these steps:
 1. Download and open the `Grid Editor <https://intech.studio/ae/products/grid-editor/>`__.
 2. In the Grid Editor, access the Profile Cloud where you can load and save configurations to our Modules.
 3. Search for 'TEK2 DJ setup', then load and store it to your TEK2.
-4. Open up MIxxx, go to :menuselection:`Preferences` --> :menuselection:`Controllers` --> :menuselection:`Intech TEK2` and select the 'Intech TEK2' mapping.
+4. Open up Mixxx, go to :menuselection:`Preferences` --> :menuselection:`Controllers` --> :menuselection:`Intech TEK2` and select the 'Intech TEK2' mapping.
 
 That's it! You are now able to use the jog wheel and create your custom mapping.
