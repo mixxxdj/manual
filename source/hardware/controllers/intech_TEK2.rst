@@ -3,7 +3,7 @@ Intech Studio - Grid (TEK2)
 
 -  `Intech Studio <https://intech.studio/>`__
 
-.. figure:: ../../_static/controllers/intech_TEK2.png
+.. figure:: ../../_static/controllers/intech_tek2.png
    :align: center
    :width: 80%
    :figwidth: 80%
