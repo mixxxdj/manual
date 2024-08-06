@@ -24,7 +24,8 @@ TEK2 and Scratch
 ----------------
 
 This basic mapping provides jogwheel and scratch functionality in Mixxx.
-The first row of buttons is mapped to Play and Cue on each channel.
+The row of buttons below the jogwheels is mapped to Play and Cue on each channel.
+The buttons in the bottom row are unmapped and can be customized with the Mixxx MIDI mapping wizard.
 
 Setting up the controller
 -------------------------
