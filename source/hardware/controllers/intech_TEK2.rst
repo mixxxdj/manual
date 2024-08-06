@@ -13,6 +13,7 @@ Intech Studio - Grid (TEK2)
    TEK2
 
 .. versionadded:: 2.4.2
+
 TEK2 is a modular controller with 5-point multicolor LED feedback and massive knobs with a two-state switch (pressed & released) in addition to their smooth endless turn. The programmable ‘5-bit display’ indicator can give feedback on centered or starting value positions and highlight parameter states.
 
 Intech Grid modules are modular and fully configurable, allowing you to create your own DJ MIDI controller.
