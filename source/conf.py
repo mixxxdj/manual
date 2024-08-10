@@ -444,6 +444,8 @@ linkcheck_ignore = [
     # Ignore Twitter links because for some reason valid links sometimes fail
     # with "400 Bad Request"
     r"^https://twitter.com/\w+$",
+    # Ignore NI links entirely because they trip 403 in general.
+    r"^https://(?:www.)?native-instruments.com",
     # Ignore support links because we get 403 Client Errors (bad User Agent?)
     r"^https://support.native-instruments.com/",
     r"^https://support.serato.com/",

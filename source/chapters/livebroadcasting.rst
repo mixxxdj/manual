@@ -50,7 +50,7 @@ Streaming Servers
   server for stability and reliability reasons. Keep in mind that if want to
   stream audio to a significant number of listeners, you'll need enough
   bandwidth. Read the
-  `Shoutcast documentation <http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_
+  `Shoutcast documentation <https://web.archive.org/web/20240118132730/http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_
   or
   `Icecast documentation <http://www.icecast.org/docs/>`_ for server setup
   instructions.
