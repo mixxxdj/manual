@@ -2439,6 +2439,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],show_track_menu
+
+   Toggle the track context menu for the track currently loaded in this deck.
+   The control value is `1` if there is already a menu shown for this deck.
+   The menu can be navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls
+   and selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
+
+   :range: Binary
+   :feedback: The deck's track context menu is shown or hidden.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],slip_enabled
                    [PreviewDeckN],slip_enabled
                    [SamplerN],slip_enabled
@@ -3375,7 +3388,8 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    The control value is `1` if there is already a menu shown for the current view.
    Note that the control is not aware of other track menus, for example those opened
    by right-clicking track text labels in decks. Only the most recent menu can be
-   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls.
+   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls and
+   selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
 
    :range: Binary
    :feedback: Tracks table context menu is shown or hidden.
