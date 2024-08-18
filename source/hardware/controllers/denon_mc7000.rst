@@ -65,7 +65,7 @@ Jogwheel Settings
 .. csv-table::
    :header: "Setting", "Variable", "Default", "Range", "Description"
 
-   Jogwheel sensitivity, ``jogSensitivity``, 1.0, 0.05 to 10.0, "Sensitivity factor of the jog wheel (also depends on audio latency). Use 0.5 for half and 2 for double sensitivity. Recommendation:
+   Jogwheel sensitivity (:math:`s`), ``jogSensitivity``, 1.0, 0.05 to 10.0, "Sensitivity factor of the jog wheel (also depends on audio latency). Use 0.5 for half and 2 for double sensitivity. Recommendation:
 
    Set to 0.5 with audio buffer set to 50ms
 
@@ -73,12 +73,27 @@ Jogwheel Settings
 
    Set to 3 with audio buffer set to 5ms"
    Enable jogwheel acceleration, ``jogAccelerationEnabled``, ``false``, ``true``/``false``, "If enabled, the track speed will accelerate faster than the physical jogwheel movement."
-   Acceleration exponent, ``jogAccelerationExponent``, 0.8, 0.0 to 20.0, The exponent of the acceleration curve
-   Acceleration coefficient, ``jogAccelerationCoefficient``, 1.0, 0.05 to 20.0, The coefficient of the acceleration curve
+   Acceleration exponent (:math:`x`), ``jogAccelerationExponent``, 0.8, 0.0 to 20.0, The exponent of the acceleration curve
+   Acceleration coefficient (:math:`c`), ``jogAccelerationCoefficient``, 1.0, 0.05 to 20.0, The coefficient of the acceleration curve
+
+Jogwheel Acceleration
+^^^^^^^^^^^^^^^^^^^^^
+
+Enabling jogwheel acceleration will increase the scratch speed in proportion to the physical speed at which the platters are turned, similar to Serato. The precise formula for computing the scratch speed :math:`S` from the physical platter ticks :math:`t` turned is as follows:
+
+.. math::
+   S = \underbrace{st \vphantom{|}}_{\text{base speed}} \cdot \underbrace{c \cdot |st|^x}_{\text{acceleration factor}}
+
+where
+
+- :math:`s` is the jogwheel sensitivity
+- :math:`t` is the number of physical platter ticks turned
+- :math:`c` is the acceleration coefficient
+- :math:`x` is the acceleration exponent
 
 .. warning:: Be aware that the absolute track position will drift relative to the jogwheel position when enabling jogwheel acceleration! While this is convenient for scrubbing, this may make it less suitable for precise scratching.
 
-.. hint:: An acceleration exponent of 0 and a coefficient of 1 are equivalent to no acceleration.
+.. hint:: An acceleration exponent :math:`x` of 0 and a coefficient :math:`c` of 1 are equivalent to no acceleration.
 
 .. _denon_mc7000_uservariables:
 
