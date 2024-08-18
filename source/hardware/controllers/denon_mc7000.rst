@@ -45,12 +45,47 @@ improve the mapping, then please discuss it in the `Denon MC7000
 Mapping <https://mixxx.discourse.group/t/denon-mc7000-mapping/18235>`__
 thread.
 
+Mapping Settings
+~~~~~~~~~~~~~~~~
+
+.. figure:: ../../_static/controllers/denon_mc7000_mapping_settings.png
+   :align: center
+   :width: 75%
+   :figwidth: 100%
+   :alt: Denon MC7000 mapping settings
+   :figclass: pretty-figures
+
+   Denon MC7000 mapping settings
+
+The MC7000 mapping features a number of options that can be customized from the preferences under :guilabel:`Preferences` > :guilabel:`Controllers` after selecting your controller and the `DENON MC7000` mapping.
+
+Jogwheel Settings
+-----------------
+
+.. csv-table::
+   :header: "Setting", "Variable", "Default", "Range", "Description"
+
+   Jogwheel sensitivity, ``jogSensitivity``, 1.0, 0.05 to 10.0, "Sensitivity factor of the jog wheel (also depends on audio latency). Use 0.5 for half and 2 for double sensitivity. Recommendation:
+
+   Set to 0.5 with audio buffer set to 50ms
+
+   Set to 1 with audio buffer set to 25ms
+
+   Set to 3 with audio buffer set to 5ms"
+   Enable jogwheel acceleration, ``jogAccelerationEnabled``, ``false``, ``true``/``false``, "If enabled, the track speed will accelerate faster than the physical jogwheel movement."
+   Acceleration exponent, ``jogAccelerationExponent``, 0.8, 0.0 to 20.0, The exponent of the acceleration curve
+   Acceleration coefficient, ``jogAccelerationCoefficient``, 1.0, 0.05 to 20.0, The coefficient of the acceleration curve
+
+.. warning:: Be aware that the absolute track position will drift relative to the jogwheel position when enabling jogwheel acceleration! While this is convenient for scrubbing, this may make it less suitable for precise scratching.
+
+.. hint:: An acceleration exponent of 0 and a coefficient of 1 are equivalent to no acceleration.
+
 .. _denon_mc7000_uservariables:
 
 User Variables
 ~~~~~~~~~~~~~~
 
-User variables can be set to suit individual needs inside the :file:`Denon-MC7000-scripts.js` mapping file:
+The mapping can further be customized to suit individual needs via user variables inside the :file:`Denon-MC7000-scripts.js` mapping file:
 
 -  ``MC7000.experimental`` activate :ref:`experimental beat count feature <denon_mc7000_experimental>` (default: ``false``)
 -  ``MC7000.needleSearchPlay`` activate :hwlabel:`NEEDLE DROP` sensor while a track is playing (default: ``false``)
@@ -59,7 +94,6 @@ User variables can be set to suit individual needs inside the :file:`Denon-MC700
 -  ``MC7000.modeSingleLED`` set single LED on or off (default: 1). Can be toggled with :hwlabel:`SHIFT` + :hwlabel:`Deck`
 -  ``MC7000.VinylModeOn`` set the Vinyl Mode on or off at Mixxx start which also triggers the Platter Ring LED function (default: 1)
 -  ``MC7000.scratchParams`` set Scratch Parameters (default: 33+1/3, 1/10, 1/10/32)
--  ``MC7000.jogSensitivity`` set the Jog Sensitivity (default: 1)
 -  ``MC7000.SamplerQty`` set the sampler quantity (values 16 or 32, default: 16)
 
 
