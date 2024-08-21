@@ -375,8 +375,7 @@ a crate, or even the whole library) for tracks that match your search query.
 * Type your search term(s). Mixxx filters the tracks as you type and shows only
   those matching the search term(s). Search terms can include an artist's name,
   a song title, BPM, etc.
-* To clear the search string hit :kbd:`ESC` or click the clear button right next
-  to the input field.
+* To clear the search string click the clear button right next to the input field.
 * Hit :kbd:`TAB` to cycle between the search and the list of results in the
   library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
   list of results.
