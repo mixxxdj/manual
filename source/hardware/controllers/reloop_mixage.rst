@@ -61,13 +61,13 @@ All mapped controls use MIDI channel #1 (can be changed on the back of the devic
 22      :hwlabel:`HIGH`                            Controls the high EQ.                                                                                                                                                        Same as non-shift function.
 23      :hwlabel:`MID`                             Controls the mid EQ.                                                                                                                                                         Same as non-shift function.
 24      :hwlabel:`LOW`                             Controls the low EQ.                                                                                                                                                         Same as non-shift function.
-25      :hwlabel:`🎧` / :hwlabel:`PREV ⯈`          Route deck 1 audio to headphone output.                                                                                                                                      Play preview deck.
-25      :hwlabel:`🎧` / :hwlabel:`PREV ⏹`          Route deck 2 audio to headphone output.                                                                                                                                      Stop preview deck.
+25      :hwlabel:`🎧` / :hwlabel:`PREV ⯈`          Activate term:`PFL <PFL>` for deck 1                                                                                                                                         Play preview deck.
+25      :hwlabel:`🎧` / :hwlabel:`PREV ⏹`          Activate term:`PFL <PFL>` for deck 2                                                                                                                                         Stop preview deck.
 26      Linefader                                  Controls the respective channel's volume.                                                                                                                                    Same as non-shift function.
 33      Crossfader                                 Crossfader between channel 1 and channel 2.                                                                                                                                  Same as non-shift function.
 ======  =========================================  ===========================================================================================================================================================================  ==============================================================================================================================================================================
 
-The effect buttons and knobs on the left side apply to effect rack 1, the ones on the right to effect rack 2. The numbers from the overview correspond to the product manual and mapping XML file Txx numbers.
+The effect buttons and knobs on the left side apply to effect unit 1, the ones on the right to effect unit 2. The numbers from the overview correspond to the product manual and mapping XML file Txx numbers.
 
 Jog wheel
 ---------
