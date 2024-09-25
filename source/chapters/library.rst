@@ -426,25 +426,35 @@ Mixxx supports the following filters:
       title:= "Track 1"
       artist:="DJ Flop"
 
-* **Numeric filtering**: bitrate, bpm, played, rating, track, year
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year
 
   Examples
     ::
 
-      bpm:140
-      bpm: >140
       year: <2010
-      bpm: >=140
+      rating:<4
       rating: <=4
-      bpm: 140-150
+      rating:3-5
       played: >10
 
   .. note::
      You can put a space after the colon but currently there must be no space
      between the operator and the number.
 
+  * By default, `bpm:` finds tracks with the exact BPM but also half and double
+    values. If the half or double values are not integers, ranges are used. The
+    following example lists tracks with 125.2, [250-251] or [52-53] BPM
 
-* **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
+    ::
+
+      bpm:125.2
+
+  * Use `bpm:=` to find exact matches only, i.e. exclude half/double values.
+
+  * `bpm` also supports fuzzy searches, see Special Filtering below.
+
+
+* **Special filtering**: bpm, key, duration, added, dateadded, datetime_added, date_added
 
   * Supports fuzzy matching of key searches. The following example lists tracks
     with harmonically compatible keys to C# minor.
@@ -452,6 +462,16 @@ Mixxx supports the following filters:
     ::
 
        ~key:c#m
+
+  * Fuzzy BPM searches find tracks in the range of +/- N % of the current pitch
+    slider range. N can be set in :menuselection:`Preferences --> Library --> Track Search`.
+    With the default pitch slider range of 8% and the default BPM search range
+    of 75%, the following example lists tracks with BPM between 94 and 106.
+
+    ::
+
+       ~bpm:100
+
 
     The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
@@ -547,9 +567,6 @@ library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
 as bitrate, size, length, type, filename, and location.
 
-.. note:: Mixxx does not support editing the metadata of many tracks at a time
-          (bulk editing).
-
 .. warning:: Mixxx won't touch your audio files by default. Changes to a track's
              metadata will be saved to the Mixxx library, but **not** to the
              track itself.
@@ -563,7 +580,7 @@ Manual Edit
 
 **Track Inline editing**:
   To enable inline editing in the :ref:`library <library-tracks>` go to
-  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  :menuselection:`Preferences --> Library --> Track Table View` and check the box
   "Edit metadata after clicking selected track".
 
   Select any track in the :ref:`library <library-tracks>` and click on the
@@ -582,7 +599,7 @@ Manual Edit
 .. _library-properties-editor:
 
 **Properties editor**:
-  To open the editor right-click on a **single track** in the library or any track
+  To open the editor right-click on selected tracks in the library or any track
   label in decks or samplers, then select :guilabel:`Properties` in the track menu.
   You can also double-click any track label in the decks or samplers to open the
   editor directly.
