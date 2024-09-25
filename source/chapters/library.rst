@@ -567,9 +567,6 @@ library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
 as bitrate, size, length, type, filename, and location.
 
-.. note:: Mixxx does not support editing the metadata of many tracks at a time
-          (bulk editing).
-
 .. warning:: Mixxx won't touch your audio files by default. Changes to a track's
              metadata will be saved to the Mixxx library, but **not** to the
              track itself.
@@ -583,7 +580,7 @@ Manual Edit
 
 **Track Inline editing**:
   To enable inline editing in the :ref:`library <library-tracks>` go to
-  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  :menuselection:`Preferences --> Library --> Track Table View` and check the box
   "Edit metadata after clicking selected track".
 
   Select any track in the :ref:`library <library-tracks>` and click on the
@@ -602,7 +599,7 @@ Manual Edit
 .. _library-properties-editor:
 
 **Properties editor**:
-  To open the editor right-click on a **single track** in the library or any track
+  To open the editor right-click on selected tracks in the library or any track
   label in decks or samplers, then select :guilabel:`Properties` in the track menu.
   You can also double-click any track label in the decks or samplers to open the
   editor directly.
