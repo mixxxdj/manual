@@ -834,8 +834,8 @@ Channel Faders and Level Meters
 
 .. _interface-eq-gain:
 
-Equalizers and Gain Knobs
--------------------------
+Equalizers, Gain Knobs and Quick Effects
+----------------------------------------
 
 .. figure:: ../_static/2.3/equalizers-and-gain-knob.png
    :align: center
@@ -884,14 +884,15 @@ Equalizers and Gain Knobs
   EQ settings in the preferences.
 
 **Quick Effect Super knob**
-  This knob lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
-  Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
+  This knob lets you control the Meta knob of the deck's Quick Effect chain. 'Filter' is the default.
+  Right-click or double-click this knob to reset it to the default position defined by the loaded
+  chain preset. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
   like the EQ Kill switches.
 
 .. seealso:: You can customize the EQ settings in
-             :menuselection:`Preferences --> Equalizer`.
+             :menuselection:`Preferences --> Mixer`.
 
 .. _interface-pfl:
 
