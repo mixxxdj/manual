@@ -41,7 +41,7 @@ Controls
    :alt: Hercules DJControl Instinct (schematic view)
    :figclass: pretty-figures
 
-   Hercules DJControl Instinct (schematic view). This picture is taken from `product poster <http://ts.hercules.com/download/sound/manuals/DJ_Instinct/Poster/Poster_DJCInstinct_UK.pdf>`__ (courtesy of Guillemot Corporation S.A.).
+   Hercules DJControl Instinct (schematic view). This picture is taken from the product poster in the device manual (courtesy of Guillemot Corporation S.A.).
 
 1.  Jog Wheel for the deck on the side of the wheel
 2.  Action buttons for the deck on the side of the controls, depending on
