@@ -1,7 +1,7 @@
 DJ Tech Kontrol One
 ===================
 
-`DJ Tech <http://www.djtechpro.com/eng/index.php>`__ is not to be
+`DJ Tech <https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php>`__ is not to be
 confused with `DJ TechTools <http://djtechtools.com/>`__, the makers of
 the MIDI Fighter series, Chroma Cables, and Chroma Caps. There is no
 (longer) a product page for this discontinued device.

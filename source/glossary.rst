@@ -386,6 +386,10 @@ Glossary of Terms
      track. DJs usually place hotcues at distinctive positions within a track
      such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues.
 
+   cue marker
+     A catch-all term used in mixxx to refer to the :term:`cue point`,
+     :term:`hotcues <hotcue>` and :ref:`intro and outro cues<djing-intro-outro-cues>`.
+
    bar
      In musical notation, a bar (or measure) is a segment of time defined by a
      given number of beats. Typically, a piece consists of several bars of the

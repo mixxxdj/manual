@@ -832,6 +832,45 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],shift_cues_earlier
+                   [PreviewDeckN],shift_cues_earlier
+                   [SamplerN],shift_cues_earlier
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later
+                   [PreviewDeckN],shift_cues_later
+                   [SamplerN],shift_cues_later
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_earlier_small
+                   [PreviewDeckN],shift_cues_earlier_small
+                   [SamplerN],shift_cues_earlier_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later_small
+                   [PreviewDeckN],shift_cues_later_small
+                   [SamplerN],shift_cues_later_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 1ms.
+
+   .. versionadded:: 2.3.0
+
 .. mixxx:control:: [ChannelN],beats_undo_adjustment
                    [PreviewDeckN],beats_undo_adjustment
                    [SamplerN],beats_undo_adjustment
@@ -2439,6 +2478,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],show_track_menu
+
+   Toggle the track context menu for the track currently loaded in this deck.
+   The control value is `1` if there is already a menu shown for this deck.
+   The menu can be navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls
+   and selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
+
+   :range: Binary
+   :feedback: The deck's track context menu is shown or hidden.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],slip_enabled
                    [PreviewDeckN],slip_enabled
                    [SamplerN],slip_enabled
@@ -2914,10 +2966,13 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 .. note:: Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`.
 
-.. mixxx:control:: [MicrophoneN],input_configured
+.. mixxx:control:: [ChannelN],input_configured
+                   [MicrophoneN],input_configured
                    [AuxiliaryN],input_configured
 
    1 if there is input is configured for this channel, 0 if not.
+   In the case of :mixxx:cogroupref:`[ChannelN]` it corresponds to
+   Vinyl Control. A configured input is required to enable :mixxx:coref:`[ChannelN],passthrough`
 
    :range: binary, read-only
    :feedback: Configured channel in the sound preferences.
@@ -3393,7 +3448,8 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    The control value is `1` if there is already a menu shown for the current view.
    Note that the control is not aware of other track menus, for example those opened
    by right-clicking track text labels in decks. Only the most recent menu can be
-   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls.
+   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls and
+   selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
 
    :range: Binary
    :feedback: Tracks table context menu is shown or hidden.
@@ -4574,7 +4630,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
     :range: binary
     :feedback: Waveform view
 
-    Loads the currently highlighted song into the first stopped deck
+    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus,
+    just regardless of the focus.
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[Library],GoToItem` instead.

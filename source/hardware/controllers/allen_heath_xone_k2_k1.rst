@@ -10,10 +10,10 @@ Xone K1 is the same as the Xone K2 but without the built in audio
 interface and does not come with the EVA travel case that the K2 comes
 with.
 
--  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
+-  `Manufacturer’s product page <https://www.allen-heath.com/ahproducts/xonek2/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__
 -  `Manufacturer’s User Guide <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__
--  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
+-  `Blank template diagrams <https://www.allen-heath.com/content/uploads/2023/06/XoneK2BlankOverlays.zip>`__
 
 .. versionadded:: 1.11
 
