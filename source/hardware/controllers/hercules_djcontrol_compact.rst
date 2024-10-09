@@ -2,7 +2,6 @@ Hercules DJControl Compact
 ==========================
 
 -  `Manufacturer’s product page <https://support.hercules.com/en/product/djcontrolcompact-en/>`__
-- `MIDI mapping manual <http://ts.hercules.com/download/sound/manuals/DJC_Compact/DJC_Compact_MIDI_Mapping.pdf>`__
 
 The Hercules DJControl Compact is a simple controller for basic
 two-channel mixing. This device does not have a built in sound card, so
