@@ -375,8 +375,7 @@ a crate, or even the whole library) for tracks that match your search query.
 * Type your search term(s). Mixxx filters the tracks as you type and shows only
   those matching the search term(s). Search terms can include an artist's name,
   a song title, BPM, etc.
-* To clear the search string hit :kbd:`ESC` or click the clear button right next
-  to the input field.
+* To clear the search string click the clear button right next to the input field.
 * Hit :kbd:`TAB` to cycle between the search and the list of results in the
   library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
   list of results.
@@ -699,24 +698,26 @@ mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
 
-* **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
-* **Add Random button**: Adds a random track from track sources (crates) to the
+* **Enable** toggle: Toggles the Auto DJ mode on or off.
+* **Fade now** button: Triggers the transition to the next track.
+* **Skip track** button: Skips the next track in the Auto DJ playlist.
+* **Transition mode** selector: Choose a transition mode.
+* **Transition time** spin-box: Determines the duration of the transition. A
+  negative value will add a pause between tracks.
+* **Shuffle** button: Randomizes the order of tracks in the Auto DJ playlist.
+* **Add Random track** button: Adds a random track from track sources (crates) to the
   Auto DJ queue. If no track sources are configured, the track is added from the
   library instead.
-* **Skip track button**: Skips the next track in the Auto DJ playlist.
-* **Fade now button**: Triggers the transition to the next track.
-* **Transition time spin-box**: Determines the duration of the transition. A
-  negative value will add a pause between tracks.
-* **Selection Info label**: Displays the duration and number of selected tracks.
+* **Repeat the playlist** toggle: Re-queue played tracks.
+* **Selection Info** label: Displays the duration and number of selected tracks.
   Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
-* **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
 buttons are only accessible if the Auto DJ mode is enabled. The Search field in
-the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks
-after playing them but if you want it to play the same tracks over and over
-again, you can activate the :guilabel:`Auto DJ Requeue` option in
-:menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`.
+the upper left corner is disabled in Auto DJ.
+
+By default, Auto DJ removes tracks after playing them but if you want it to play the same
+tracks over and over again, you can activate the :guilabel:`Repeat the playlist` toggle.
 
 .. _library-auto-dj-crates:
 
