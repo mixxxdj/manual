@@ -503,6 +503,7 @@ Auto DJ has several modes it can use to mix tracks:
 * Fade At Outro Start
 * Full Track
 * Skip Silence
+* Skip Silence Start Full Volume
 
 The Full Intro + Outro and Fade At Outro Start modes both use the intro and outro cues but the Full Track and Skip Silence cues do not.
 
@@ -546,5 +547,6 @@ The two modes work differently when the outro is longer than the intro.
 Full Track and Skip Silence
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Full Track and Skip Silence Auto DJ modes do not use the intro and outro cues. They crossfade tracks over a number of seconds that you specify in the box next to the mode selection menu. The Full Track mode plays the entire length of every file. The Skip Silence mode works the same way but automatically cuts out silence at the beginning and ends of tracks (defined as when the signal first goes above or below -60 dBFS).
+The Skip Silence Start Full Volume, can be used if a fade in is not desired. In this mode the transition starts with crossfader centered.
 
 .. hint:: If you still want to use Auto DJ like a normal music player application, use one of these modes with a transition time of 0 seconds.
