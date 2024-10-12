@@ -2442,7 +2442,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative).
+   Use JavaScript functions ``engine.scratchEnable``, ``engine.scratchDisable``,  ``engine.isScratching`` and  ``engine.isScratching`` to manipulate in controller mappings.
+   See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ .
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -4388,25 +4390,11 @@ In the meantime, skins and controller mappings that still use them will keep wor
                    [SamplerN],jog
 
     Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+    Use it in controller mappings do pitch-bend with jog wheels. See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels
+    <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__.
 
     :range: -3.0..3.0
     :feedback: waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
-
-
-.. mixxx:control:: [ChannelN],scratch
-                   [PreviewDeckN],scratch
-                   [SamplerN],scratch
-
-    Affects playback speed and direction (`differently whether currently playing or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative).
-
-    :range: -3.0..3.0
-    :feedback: Waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
 
 
 .. mixxx:control:: [ChannelN],filter
@@ -4756,3 +4744,16 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     .. deprecated:: 2.4.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
+
+
+.. mixxx:control:: [ChannelN],scratch
+                   [PreviewDeckN],scratch
+                   [SamplerN],scratch
+
+    Affects playback speed and direction (multiplicative).
+
+    :range: -3.0..3.0
+    :feedback: Waveform
+
+    .. deprecated:: ??
+       Use the JavaScript ``engine.scratch`` functions instead.
