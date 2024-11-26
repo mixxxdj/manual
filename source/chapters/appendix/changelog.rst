@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-4-2:
 
-`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (unreleased)
+`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (2024-11-26)
 ----------------------------------------------------------------------------------
 
 Controller Mappings
