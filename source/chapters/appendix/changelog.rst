@@ -19,6 +19,7 @@ Controller Mappings
 
 
 * Denon MC7000: Fix star up/down logic by only handling button down events `#13588 <https://github.com/mixxxdj/mixxx/pull/13588>`__
+* Intech TEK2: Add initial mapping `#13521 <https://github.com/mixxxdj/mixxx/pull/13521>`__
 * Korg Kaoss DJ: Update script `#12683 <https://github.com/mixxxdj/mixxx/pull/12683>`__
 * MIDI for light: Fix unsound timer handling `#13117 <https://github.com/mixxxdj/mixxx/pull/13117>`__
 * Novation Dicer: Remove flanger mapping with quickeffect toggle
@@ -31,9 +32,10 @@ Controller Mappings
 * Numark Scratch: Add initial mapping
   `#4834 <https://github.com/mixxxdj/mixxx/pull/4834>`__
   `#13375 <https://github.com/mixxxdj/mixxx/pull/13375>`__
-* Pioneer DDJ-400 and DDJ-FLX4: Remove tap beat mapping to resolve conflict with toggle quantize
+* Pioneer DDJ-400 and DDJ-FLX4: Remove tap beat mapping to resolve conflict with toggle quantize and fix shift + play
   `#13815 <https://github.com/mixxxdj/mixxx/pull/13815>`__
   `#13813 <https://github.com/mixxxdj/mixxx/issues/13813>`__
+  `#13857 <https://github.com/mixxxdj/mixxx/pull/13857>`__
 * Reloop Beatmix 2/4: Fix eject button and jog LED being lit on track unload
   `#13601 <https://github.com/mixxxdj/mixxx/pull/13601>`__
   `#13605 <https://github.com/mixxxdj/mixxx/pull/13605>`__
@@ -135,6 +137,15 @@ Fixes
   `#13692 <https://github.com/mixxxdj/mixxx/pull/13692>`__
   `#13660 <https://github.com/mixxxdj/mixxx/issues/13660>`__
 * Fix unnecessary painting with covers in library `#13715 <https://github.com/mixxxdj/mixxx/pull/13715>`__
+* Fix check for unrelated decks playing when starting Auto DJ
+  `#13762 <https://github.com/mixxxdj/mixxx/pull/13762>`__
+  `#13734 <https://github.com/mixxxdj/mixxx/issues/13734>`__
+* Fix read before m_bufferInt during scratching
+  `#13917 <https://github.com/mixxxdj/mixxx/pull/13917>`__
+  `#13916 <https://github.com/mixxxdj/mixxx/issues/13916>`__
+* Fix waveform EQ High&Mid visualization
+  `#13923 <https://github.com/mixxxdj/mixxx/pull/13923>`__
+  `#13922 <https://github.com/mixxxdj/mixxx/issues/13922>`__
 
 .. _v2-4-1:
 
