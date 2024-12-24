@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-5-0:
 
-`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
+`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
 ---------------------------------------------------------------------------------------
 
 Modernized Platform: Update to Qt6
