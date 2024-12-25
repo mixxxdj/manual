@@ -102,9 +102,9 @@ supported_languages = {
 smv_tag_whitelist = r"^$"
 smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
 smv_remote_whitelist = r"^origin$"
-# Mark all branches in the form "N.M" as released except "2.5"
-smv_released_pattern = r"^.*/(?!2\.5)(\d+)\.(\d+)$"
-smv_latest_version = r"2.4"
+# Mark all branches in the form "N.M" as released except "2.6"
+smv_released_pattern = r"^.*/(?!2\.6)(\d+)\.(\d+)$"
+smv_latest_version = r"2.5"
 smv_outputdir_format = "{config.version}/{config.language}"
 notfound_urls_prefix = "/2.4/en/"
 
