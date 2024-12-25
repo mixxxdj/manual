@@ -1,0 +1,559 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
+"PO-Revision-Date: 2024-12-25 00:40+0000\n"
+"Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../hardware/controllers/numark_scratch.rst:4
+msgid "Numark Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:6
+msgid ""
+"The Numark Scratch is a 24-bit 2 channel mixer designed for the scratch DJ. "
+"It's equipped with an InnoFader crossfader and 8 performance pads across 3 "
+"modes, and 6 dedicated software FX selectors with dual toggle triggers. The "
+"Scratch is DVS ready under Mixxx"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:10
+msgid ""
+"`Manufacturer’s product page <https://www.numark.com/product/scratch>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:11
+msgid ""
+"`Serato DJ Hardware Page <https://serato.com/dj/hardware/numark-scratch>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:12
+msgid ""
+"`Owner’s Manual <https://www.numark.com/images/product_downloads/Scratch_-"
+"_User_Guide_-_v1.2.pdf>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:13
+msgid "`Driver Download Page <https://www.numark.com/product/scratch>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:14
+msgid ""
+"`Mapping Forum Thread <https://mixxx.discourse.group/t/numark-scratch-"
+"mapping/25186>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:19
+msgid "Drivers"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:21
+msgid ""
+"You can download the latest Windows driver from the `manufacturer’s website "
+"<https://www.numark.com/product/scratch>`__. The Scratch is class complaint "
+"on Mac and Linux."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:25
+msgid "Audio Setup"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:27
+msgid "The mapping relies on the following channel assignments:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:30
+msgid "Output Channels"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:30
+#: ../../hardware/controllers/numark_scratch.rst:37
+msgid "Assigned to"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:32
+msgid "1-2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:32
+msgid "Master"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:33
+msgid "3-4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:33
+msgid "Headphones"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:37
+msgid "Input Channels"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:39
+msgid "1-2 (CH 1 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:39
+msgid "Vinyl Control 1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:40
+msgid "3-4 (CH 2 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:40
+msgid "Vinyl Control 2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:41
+msgid "5-6 (Mix)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:41
+msgid "Record/Broadcast"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:44
+msgid ""
+"The microphone, and external inputs are mixed together in input channels "
+"5-6, so Mixxx can record and broadcast them."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:47
+msgid ""
+"The knobs for :hwlabel:`MASTER`, :hwlabel:`BOOTH`, :hwlabel:`MIC LEVEL`, "
+":hwlabel:`MIC TONE` and :hwlabel:`CUE GAIN` are controlling the hardware "
+"mixer of the built-in audio interface. Hence, turning the knobs will not "
+"change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx "
+"knobs to their default values when using the controller:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:50
+msgid ""
+"Set the master/booth/headphones/microphone levels to 100% (knob center "
+"position)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:53
+msgid ""
+"The :hwlabel:`PC / LINE/PHONO` switches work only if the :guilabel:`Vinyl "
+"Control` input channels are assigned to software inputs. So even if you do "
+"not intend to use timecode vinyl but want to pass through line or phono "
+"inputs directly to the left/right deck, you need assign these channels in "
+"the Sound Hardware preferences."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:57
+msgid "Controller Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:60
+msgid "Schematic"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:69
+msgid "Numark Scratch (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:72
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:72
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:72
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:74
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:74
+msgid "CHANNEL EQ/GAIN"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:74
+msgid "Adjust volume & the high / mid / low EQs per channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:75
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:75
+msgid ":hwlabel:`BOOTH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:75
+msgid "Adjust Booth output level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:76
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:76
+msgid ":hwlabel:`MASTER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:76
+msgid "Adjust Master output level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:77
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:77
+msgid ":hwlabel:`LINE/PHONO` & :hwlabel:`PC`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:77
+msgid "Toggle between LINE / PHONO or PC per channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:78
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:78
+msgid "CUE :hwlabel:`MIX`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:78
+msgid "Adjust monitoring between CUE and PGM"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:79
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:79
+msgid "CUE :hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:79
+msgid "Adjust CUE level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:80
+#: ../../hardware/controllers/numark_scratch.rst:81
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:80
+msgid "FX :hwlabel:`DRY / WET`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:80
+msgid "Adjust FX wet/dry depth"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:81
+msgid ":hwlabel:`SHIFT` :hwlabel:`DRY / WET`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:81
+msgid "Adjust the metaknob for all effects in the chain."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:82
+#: ../../hardware/controllers/numark_scratch.rst:83
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:82
+msgid "FX SELECT"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:82
+msgid "Toggle single FX"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:83
+msgid ":hwlabel:`SHIFT` + FX SELECT"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:83
+msgid "Toggle multiple FX selections at the same time"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:84
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:84
+msgid "FX :hwlabel:`HOLD / ON` paddle"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:84
+msgid "Push up to toggle FX on or push down to toggle FX momentarily"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:85
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:85
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:85
+msgid "Press to cue channel for monitoring in headphones"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:86
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:86
+msgid ":hwlabel:`SHIFT`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:86
+msgid "Used with other controls that have SHIFT modifier function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:87
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:87
+msgid "CROSSFADER"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:87
+msgid "Crossfade audio between channel 1/2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:88
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:88
+msgid "X-FADER :hwlabel:`REVERSE` & :hwlabel:`SLOPE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:88
+msgid "Toggle crossfader reverse, & adjust between crossfader curves"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:89
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:89
+msgid "CHANNEL FADER"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:89
+msgid "Adjust per channel volume"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:90
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:90
+msgid "PERFORMANCE PADS"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:90
+msgid "SEE PERFORMANCE PADS SECTION FOR MORE INFO"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:91
+#: ../../hardware/controllers/numark_scratch.rst:92
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:91
+msgid ":hwlabel:`LOOP -/+`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:91
+msgid ""
+"Turn right/left to increase/decrease loop size, press in to toggle loop "
+"on/off"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:92
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOOP -/+`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:92
+msgid ""
+"Turn for Library scroll, press in to load selected track to deck, double "
+"press to load instant double"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:93
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:93
+msgid ":hwlabel:`FILTER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:93
+msgid "Adjust hardware Filter per channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:94
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:94
+msgid "MIC :hwlabel:`TONE` & :hwlabel:`MIC` level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:94
+msgid "Adjust microphone tone & level"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:98
+msgid "Performance Pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst-1
+msgid "Numark Scratch (performance pads)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:107
+msgid ""
+"To change modes, press the PAD MODE button repeatedly, which will cycle "
+"through the available pade modes, which are as follows:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:110
+msgid ""
+"**CUE** mode: Pads 1-4 trigger the respective hotcues, and if no hotcue "
+"point is set on that pad, will set a Cue point in the respective pad/slot. "
+"Holding SHIFT while pressing a pad will clear the Cue point from that pad."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:113
+msgid ""
+"**SAMPLER** mode: Press pads 1-4 to trigger samples loaded into the sample "
+"slot. Hold SHIFT while pressing a pad to stop the sample playback once "
+"triggered."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:116
+msgid ""
+"**ROLL** mode: In this mode holding pads 1-4 activates a loop roll of "
+"varying sizes. Release the pad to exit the loop roll."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:119
+msgid "Mapping options"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:122
+msgid ""
+"There are various options that can be used to change some of the mixer's "
+"behavior. Settings can be edited in the preference windows, under "
+":guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Numark "
+"Scratch`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:126
+msgid "Setting"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:126
+msgid "Variable value"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:126
+msgid "Default"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:126
+msgid "Range"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:126
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:128
+msgid "Invert the Loop Encoder functionality"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:128
+msgid "`invertLoopEncoderFunction`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:128
+msgid "false"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:128
+#: ../../hardware/controllers/numark_scratch.rst:129
+msgid "true/false"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:128
+msgid ""
+"By default the Encoder manages looping and Shift + Encoder scrolls the "
+"library/loads track. If this setting is set to true, the Encoder scrolls the"
+" library/loads track and Shift + Encoder manages looping."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:129
+msgid "Keep pads and buttons dimmed when off"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:129
+msgid "`InactiveLightsAlwaysBacklit`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:129
+msgid "true"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:129
+msgid ""
+"Having this setting on will keep LED always dimmed, even when off. *Note* "
+"the :hwlabel:`PAD MODE` and :hwlabel:`CUE` buttons are hardware controlled "
+"and always dim when inactive."
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:130
+msgid "Set the predefined size to use for the Roll mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:130
+msgid "`BeatLoopRollSize`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:130
+msgid "1/4,1/2,1,2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:130
+msgid "range 1/32..8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_scratch.rst:130
+msgid ""
+"Define the size of loops for each of the deck pads, from left to right."
+msgstr ""

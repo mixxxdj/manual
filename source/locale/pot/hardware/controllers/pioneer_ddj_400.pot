@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-26 07:19+0200\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio i
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:21
-msgid "`Manufacturer's Product Page <https://www.pioneerdj.com/en/product/controller/archive/ddj-400/gold/overview/>`__"
+msgid "`Manufacturer's Product Page <https://www.pioneerdj.com/en/product/controller/ddj-400/black/overview/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:22

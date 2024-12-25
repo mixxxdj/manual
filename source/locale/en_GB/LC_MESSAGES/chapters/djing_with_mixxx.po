@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/mixxx-dj-software/teams/7734/en_GB/)\n"
@@ -829,12 +829,12 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:404
 msgid ""
-"Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
-"when the current track is nearly finished, and crossfade into it.  See "
-":ref:`library-auto-dj`."
+"Auto DJ automatically loads tracks in the decks and mixes them. Tracks can "
+"be manually added to the Auto DJ playlist, or automatically from assigned "
+"source crates or from the entire library."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:408
+#: ../../chapters/djing_with_mixxx.rst:407
 msgid ""
 "Auto DJ does not take into account the volume of each track, nor the "
 "frequency content, nor the rhythms, so it's not intended to be a replacement"
@@ -842,56 +842,96 @@ msgid ""
 "without a major disruption to the mix."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:411
+#: ../../chapters/djing_with_mixxx.rst:409
+msgid ""
+"For mixing, Auto DJ takes control of the :ref:`crossfader <interface-"
+"crossfader>`. Auto DJ requires at least one deck to be assigned to the left "
+"and right side of the crossfader. This can be done with the deck orientation"
+" switches next to the crossfader. If a deck's orientation is centered, the "
+"crossfader can't affect it. Note that in the official Tango skin, these "
+"switches are in the decks' transport controls row, and in Shade skin they "
+"don't exist because decks are statically assigned to the left and right side"
+" (bus)."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:412
+msgid ""
+"When Auto DJ is toggled on, it will use the first two opposing decks it "
+"finds. With default settings these would be decks 1 and 2, but depending on "
+"how the orientation switches are set, this could be any configuration, for "
+"example deck 4 on the left and deck 1 on the right. If no opposing decks are"
+" found Auto DJ won't start."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:414
+msgid ""
+"Note that Auto DJ is currently not aware which decks are currently visible, "
+"i.e. it might pick currently hidden decks 3 and/or 4. Refer to the "
+":ref:`skin settings <interface-skin-settings>` for how to toggle 4 decks."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:418
+msgid ""
+"When you toggle Auto DJ off, the crossfader will stay on its last position."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:420
+msgid ""
+"Each official Mixxx skin has an Auto DJ indicator icon, located either in "
+"the top toolbar or in the mixer. In some skins the crossfader is "
+"highlighted, too."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:423
 msgid "Loading tracks into Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:413
+#: ../../chapters/djing_with_mixxx.rst:425
 msgid ""
 "To play tracks automatically, they must first be loaded into the Auto DJ "
 "playlist. The Auto DJ playlist is empty by default."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:423
+#: ../../chapters/djing_with_mixxx.rst:435
 msgid "Mixxx library - Adding a playlist to Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:425
+#: ../../chapters/djing_with_mixxx.rst:437
 msgid "There are several ways to load tracks into the Auto DJ playlist:"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:427
+#: ../../chapters/djing_with_mixxx.rst:439
 msgid ""
 "Select single or multiple tracks from the library, a regular playlist or "
 "crate and drag them to the Auto DJ icon on the left."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:429
+#: ../../chapters/djing_with_mixxx.rst:441
 msgid ""
 "Select a regular playlist or crate, right-click with the mouse and select "
 ":guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto"
 " DJ."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:431
+#: ../../chapters/djing_with_mixxx.rst:443
 msgid ""
 "While in the Auto DJ view of the library, drag tracks from external file "
 "managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
 " the right."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:438
+#: ../../chapters/djing_with_mixxx.rst:450
 msgid "Automatically adding tracks from crates"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:440
+#: ../../chapters/djing_with_mixxx.rst:452
 msgid ""
 "Instead of inserting the contents of the crates directly into the Auto DJ "
 "playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
 "crates that become a source of random track selections."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:444
+#: ../../chapters/djing_with_mixxx.rst:456
 msgid ""
 "**Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto "
 "DJ` item in the sidebar, and right-click on the :guilabel:`Crates` sub-item."
@@ -901,13 +941,13 @@ msgid ""
 " sub-item below."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:451
+#: ../../chapters/djing_with_mixxx.rst:463
 msgid ""
 "If you do not have any crates available for selection in the list, go and "
 "create a crate first and add some tracks, see :ref:`library-crates`."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:454
+#: ../../chapters/djing_with_mixxx.rst:466
 msgid ""
 "**Manually add tracks from track sources to Auto DJ**: Click the "
 ":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
@@ -915,14 +955,14 @@ msgid ""
 " time from Auto DJ track sources to the bottom of the Auto DJ playlist."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:459
+#: ../../chapters/djing_with_mixxx.rst:471
 msgid ""
 "If you did not set any crates as an Auto DJ track source, clicking the "
 ":guilabel:`Add Random` button will add a randomly selected track from the "
 "whole library instead."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:463
+#: ../../chapters/djing_with_mixxx.rst:475
 msgid ""
 "**Automatically add tracks from track sources to Auto DJ**: Mixxx can "
 "randomly add tracks to the Auto DJ playlist from track sources as soon as a "
@@ -933,13 +973,13 @@ msgid ""
 "added."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:470
+#: ../../chapters/djing_with_mixxx.rst:482
 msgid ""
 "If you did not set any crates as an Auto DJ track source, tracks are "
 "selected from the whole library instead."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:473
+#: ../../chapters/djing_with_mixxx.rst:485
 msgid ""
 "**Remove a crate from the Auto DJ track sources**: Expand the "
 ":guilabel:`Auto DJ` item in the sidebar, and right-click on one of the "
@@ -948,85 +988,85 @@ msgid ""
 "DJ track sources."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:479
+#: ../../chapters/djing_with_mixxx.rst:491
 msgid "Playing tracks in Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:481
+#: ../../chapters/djing_with_mixxx.rst:493
 msgid ""
 "Now that you have loaded tracks into the Auto DJ playlist, you can activate "
 "Auto DJ as follows:"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:484
+#: ../../chapters/djing_with_mixxx.rst:496
 msgid ""
 "Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
 "DJ` view of the library."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:486
+#: ../../chapters/djing_with_mixxx.rst:498
 msgid "Click the :guilabel:`Enable Auto DJ` button."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:487
+#: ../../chapters/djing_with_mixxx.rst:499
 msgid ""
 "The first tracks from your list are loaded into the decks and the playback "
 "starts."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:489
+#: ../../chapters/djing_with_mixxx.rst:501
 msgid ""
 "Mixxx will continue to automatically mix until the Auto DJ playlist is "
 "empty."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:490
+#: ../../chapters/djing_with_mixxx.rst:502
 msgid ""
 "Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:492
+#: ../../chapters/djing_with_mixxx.rst:504
 msgid ""
 "You can add a track to the end of the Auto DJ playlist once it is played "
 "instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
 "queue tracks after playback --> On`."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:499
+#: ../../chapters/djing_with_mixxx.rst:511
 msgid "Auto DJ Mix Modes"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:500
+#: ../../chapters/djing_with_mixxx.rst:512
 msgid "Auto DJ has several modes it can use to mix tracks:"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:502
+#: ../../chapters/djing_with_mixxx.rst:514
 msgid "Full Intro + Outro"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:503
+#: ../../chapters/djing_with_mixxx.rst:515
 msgid "Fade At Outro Start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:504
+#: ../../chapters/djing_with_mixxx.rst:516
 msgid "Full Track"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:505
+#: ../../chapters/djing_with_mixxx.rst:517
 msgid "Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:507
+#: ../../chapters/djing_with_mixxx.rst:519
 msgid ""
 "The Full Intro + Outro and Fade At Outro Start modes both use the intro and "
 "outro cues but the Full Track and Skip Silence cues do not."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:512
+#: ../../chapters/djing_with_mixxx.rst:524
 msgid "Full Intro + Outro and Fade At Outro Start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:513
+#: ../../chapters/djing_with_mixxx.rst:525
 msgid ""
 "The Full Intro + Outro and Fade At Outro start Auto DJ modes use the "
 ":ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to "
@@ -1035,26 +1075,26 @@ msgid ""
 " track. Auto DJ picks the time of the shorter section as the crossfade time."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:515
+#: ../../chapters/djing_with_mixxx.rst:527
 msgid ""
 "In both modes, if the outro is shorter than the intro, Auto DJ will align "
 "the start of the outro with the start of the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:522
+#: ../../chapters/djing_with_mixxx.rst:534
 msgid "Intro and outro start markers aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:524
+#: ../../chapters/djing_with_mixxx.rst:536
 msgid ""
 "The two modes work differently when the outro is longer than the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:527
+#: ../../chapters/djing_with_mixxx.rst:539
 msgid "**Full Intro + Outro Mode**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:527
+#: ../../chapters/djing_with_mixxx.rst:539
 msgid ""
 "The full length of both the intro and the outro are always played. When the "
 "outro is longer than the intro, Auto DJ aligns the end of the intro and "
@@ -1063,20 +1103,20 @@ msgid ""
 "tracks. Therefore, it is the default mode."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:534
+#: ../../chapters/djing_with_mixxx.rst:546
 msgid "Intro and outro end cues aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:534
+#: ../../chapters/djing_with_mixxx.rst:546
 msgid ""
 "Intro and outro start cues aligned by Auto DJ in Full Intro + Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:537
+#: ../../chapters/djing_with_mixxx.rst:549
 msgid "**Fade At Outro Start**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:537
+#: ../../chapters/djing_with_mixxx.rst:549
 msgid ""
 "Auto DJ always aligns the start of the intro and outro. When the outro is "
 "longer than the intro, Auto DJ cuts off the end of the outro. This can be "
@@ -1084,19 +1124,19 @@ msgid ""
 " long outro. However, the transition may sound abrupt if the intro is short."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:544
+#: ../../chapters/djing_with_mixxx.rst:556
 msgid "Auto DJ fade at outro start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:544
+#: ../../chapters/djing_with_mixxx.rst:556
 msgid "Intro and outro start cues aligned by Auto DJ in Fade At Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:547
+#: ../../chapters/djing_with_mixxx.rst:559
 msgid "Full Track and Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:548
+#: ../../chapters/djing_with_mixxx.rst:560
 msgid ""
 "The Full Track and Skip Silence Auto DJ modes do not use the intro and outro"
 " cues. They crossfade tracks over a number of seconds that you specify in "
@@ -1106,7 +1146,7 @@ msgid ""
 "as when the signal first goes above or below -60 dBFS)."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:550
+#: ../../chapters/djing_with_mixxx.rst:562
 msgid ""
 "If you still want to use Auto DJ like a normal music player application, use"
 " one of these modes with a transition time of 0 seconds."

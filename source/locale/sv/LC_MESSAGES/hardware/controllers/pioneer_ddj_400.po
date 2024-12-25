@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-26 07:19+0200\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_400.rst:21
 msgid ""
 "`Manufacturer's Product Page "
-"<https://www.pioneerdj.com/en/product/controller/archive/ddj-400/gold/overview/>`__"
+"<https://www.pioneerdj.com/en/product/controller/ddj-400/black/overview/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:22

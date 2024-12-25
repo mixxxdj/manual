@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "Hercules DJControl AIR (schematic view)"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_air.rst:41
-msgid "Hercules DJControl AIR (schematic view). This picture is taken from the `Getting Started Tutorial <http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__ (courtesy of Guillemot Corporation S.A.)."
+msgid "Hercules DJControl AIR (schematic view). This picture is taken from the Getting Started Tutorial (courtesy of Guillemot Corporation S.A.)."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_air.rst:43

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "DJ Tech Kontrol One"
 msgstr ""
 
 #: ../../hardware/controllers/dj_tech_kontrol_one.rst:4
-msgid "`DJ Tech <http://www.djtechpro.com/eng/index.php>`__ is not to be confused with `DJ TechTools <http://djtechtools.com/>`__, the makers of the MIDI Fighter series, Chroma Cables, and Chroma Caps. There is no (longer) a product page for this discontinued device."
+msgid "`DJ Tech <https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php>`__ is not to be confused with `DJ TechTools <http://djtechtools.com/>`__, the makers of the MIDI Fighter series, Chroma Cables, and Chroma Caps. There is no (longer) a product page for this discontinued device."
 msgstr ""
 
 #: ../../hardware/controllers/dj_tech_kontrol_one.rst:9
