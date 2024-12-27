@@ -106,7 +106,7 @@ smv_remote_whitelist = r"^origin$"
 smv_released_pattern = r"^.*/(?!2\.6)(\d+)\.(\d+)$"
 smv_latest_version = r"2.5"
 smv_outputdir_format = "{config.version}/{config.language}"
-notfound_urls_prefix = "/2.4/en/"
+notfound_urls_prefix = "/2.5/en/"
 
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched
