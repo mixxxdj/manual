@@ -54,78 +54,48 @@ Misc Refactorings
 
 .. _v2-5-0:
 
-`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (Unreleased)
+`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
 ---------------------------------------------------------------------------------------
 
-Waveforms
-^^^^^^^^^
+Modernized Platform: Update to Qt6
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-* SlipMode waveform visual for RGB GLSL
-  `#13002 <https://github.com/mixxxdj/mixxx/pull/13002>`__
-  `#13256 <https://github.com/mixxxdj/mixxx/pull/13256>`__
-* Show beats and time until next marker in the waveform
-  `#12994 <https://github.com/mixxxdj/mixxx/pull/12994>`__
-  `#13311 <https://github.com/mixxxdj/mixxx/pull/13311>`__
-* Waveforms: don't elide hotcue labels
-  `#13219 <https://github.com/mixxxdj/mixxx/pull/13219>`__
-  `#10722 <https://github.com/mixxxdj/mixxx/issues/10722>`__
-* Waveforms: Allshader RGB, Filtered and Stacked Waveforms using textures for waveform data
-  `#13151 <https://github.com/mixxxdj/mixxx/pull/13151>`__
-  `#12641 <https://github.com/mixxxdj/mixxx/issues/12641>`__
-* Allow changing the waveform overview type without reloading the skin
-  `#13273 <https://github.com/mixxxdj/mixxx/pull/13273>`__
-* Maintain GL ES support
-  `#13485 <https://github.com/mixxxdj/mixxx/pull/13485>`__
-* Update overview immediately, when the normalize option or global gain changed `#13634 <https://github.com/mixxxdj/mixxx/pull/13634>`__
-
-Skins / Interface
-^^^^^^^^^^^^^^^^^
-
-
-* Toggle the menubar with single Alt key press (auto hide)
-  `#11526 <https://github.com/mixxxdj/mixxx/pull/11526>`__
-  `#13301 <https://github.com/mixxxdj/mixxx/pull/13301>`__
-* Fullscreen toggle rework `#11566 <https://github.com/mixxxdj/mixxx/pull/11566>`__
-* Allow to edit track title and artist directly within the decks via a delayed double-click
-  `#11755 <https://github.com/mixxxdj/mixxx/pull/11755>`__
-  `#13930 <https://github.com/mixxxdj/mixxx/pull/13930>`__
-* Require a minimum movement before initiating the drag&drop of tracks `#12903 <https://github.com/mixxxdj/mixxx/pull/12903>`__
-* Add type toggle to cue popup `#13215 <https://github.com/mixxxdj/mixxx/pull/13215>`__
-* Effect Meta Knob: draws arc from default meta position
-  `#12638 <https://github.com/mixxxdj/mixxx/pull/12638>`__
-  `#12634 <https://github.com/mixxxdj/mixxx/issues/12634>`__
-* Handle not supported files when dragging to waveforms and spinnies
-  `#13206 <https://github.com/mixxxdj/mixxx/issues/13206>`__
-* Improve ``rate_up/down`` tooltips, pitch vs. speed `#12590 <https://github.com/mixxxdj/mixxx/pull/12590>`__
-* Add tooltip for expand/collapse samplers button
-  `#13005 <https://github.com/mixxxdj/mixxx/pull/13005>`__
-  `#12998 <https://github.com/mixxxdj/mixxx/issues/12998>`__
-* LateNight: Merge vinyl control toggle and status light
-  `#12947 <https://github.com/mixxxdj/mixxx/pull/12947>`__
-  `#10192 <https://github.com/mixxxdj/mixxx/issues/10192>`__
-* Track label widgets: set ``show_track_menu`` only for main decks `#12978 <https://github.com/mixxxdj/mixxx/pull/12978>`__
-* MacOS: App proxy icon of the playing track to the window title `#12116 <https://github.com/mixxxdj/mixxx/pull/12116>`__
-* PreviewDeckN,LoadSelectedTrackAndPlay toggles play/pause if the track is already loaded
-  `#12920 <https://github.com/mixxxdj/mixxx/pull/12920>`__
-  `#9819 <https://github.com/mixxxdj/mixxx/issues/9819>`__
-* AutoDJ: Force-show decks 3/4 if we are going to use them `#13455 <https://github.com/mixxxdj/mixxx/pull/13455>`__
-* Show wait cursor when re/loading a skin (not during startup) `#13747 <https://github.com/mixxxdj/mixxx/pull/13747>`__
-* Allow to set LaunchImage style per color scheme `#13731 <https://github.com/mixxxdj/mixxx/pull/13731>`__
-* LateNight, Deere, Tango: Deactivate beatgrid edit controls if BPM is locked
-  `#13320 <https://github.com/mixxxdj/mixxx/pull/13320>`__
-  `#13323 <https://github.com/mixxxdj/mixxx/pull/13323>`__
-  `#13325 <https://github.com/mixxxdj/mixxx/pull/13325>`__
-* LateNight: Add/tweak CueDelete icons
-  `#13495 <https://github.com/mixxxdj/mixxx/pull/13495>`__
-  `#13492 <https://github.com/mixxxdj/mixxx/issues/13492>`__
-* LateNight: Use Classic launch image style also for 64 samplers version `#13796 <https://github.com/mixxxdj/mixxx/pull/13796>`__
-* Command line interface: Determine whether to color output based on ``TERM`` variable
-  `#13486 <https://github.com/mixxxdj/mixxx/pull/13486>`__
-* Command line interface: Add option ``--start-autodj`` to start Auto DJ immediately after Mixxx start.
-  `#13017 <https://github.com/mixxxdj/mixxx/pull/13017>`__
-  `#10189 <https://github.com/mixxxdj/mixxx/issues/10189>`__
-* Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
+* Mixxx is now using Qt6, offering improved performance and enhanced compatibility with modern systems.
+  `#11863 <https://github.com/mixxxdj/mixxx/pull/11863>`__
+  `#11892 <https://github.com/mixxxdj/mixxx/pull/11892>`__
+* Build system defaults to Qt6. Qt5 build support will be dropped with Mixxx 2.6
+  `#11934 <https://github.com/mixxxdj/mixxx/pull/11934>`__
+* Drop support for macOS versions earlier than 11
+* Drop support for Windows versions earlier than Windows 10 build 1809
+* Drop support for Ubuntu versions earlier than 22.04
+* Require a C++20 compiler
+* Support GCC 14
+  `#13504 <https://github.com/mixxxdj/mixxx/pull/13504>`__
+  `#13467 <https://github.com/mixxxdj/mixxx/issues/13467>`__
+* DlgAbout: Add Qt version to the dialog `#11862 <https://github.com/mixxxdj/mixxx/pull/11862>`__
+* WWidget: Disable touch events on macOS (fixing trackpad issues on Qt 6) `#11870 <https://github.com/mixxxdj/mixxx/pull/11870>`__
+* Various Skin adjustments
+  `#11970 <https://github.com/mixxxdj/mixxx/pull/11970>`__
+  `#11957 <https://github.com/mixxxdj/mixxx/issues/11957>`__
+  `#12050 <https://github.com/mixxxdj/mixxx/pull/12050>`__
+  `#12939 <https://github.com/mixxxdj/mixxx/pull/12939>`__
+  `#13242 <https://github.com/mixxxdj/mixxx/pull/13242>`__
+  `#14014 <https://github.com/mixxxdj/mixxx/pull/14014>`__
+  `#13535 <https://github.com/mixxxdj/mixxx/pull/13535>`__
+  `#14013 <https://github.com/mixxxdj/mixxx/pull/14013>`__
+  `#13959 <https://github.com/mixxxdj/mixxx/issues/13959>`__
+  `#14034 <https://github.com/mixxxdj/mixxx/pull/14034>`__
+  `#12972 <https://github.com/mixxxdj/mixxx/issues/12972>`__
+  `#14035 <https://github.com/mixxxdj/mixxx/pull/14035>`__
+* Various Library adjustments
+  `#12380 <https://github.com/mixxxdj/mixxx/pull/12380>`__
+  `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
+  `#13035 <https://github.com/mixxxdj/mixxx/pull/13035>`__
+  `#13033 <https://github.com/mixxxdj/mixxx/issues/13033>`__
+  `#12488 <https://github.com/mixxxdj/mixxx/pull/12488>`__
+  `#12216 <https://github.com/mixxxdj/mixxx/pull/12216>`__
+  `#13448 <https://github.com/mixxxdj/mixxx/pull/13448>`__
 
 Engine
 ^^^^^^
@@ -154,6 +124,68 @@ Engine
   `#13041 <https://github.com/mixxxdj/mixxx/pull/13041>`__
   `#13038 <https://github.com/mixxxdj/mixxx/issues/13038>`__
   `#13199 <https://github.com/mixxxdj/mixxx/pull/13199>`__
+* Recording: Fix bogus timestamp in CUE sheet after restarting a recording
+  `#13966 <https://github.com/mixxxdj/mixxx/pull/13966>`__
+  `#13964 <https://github.com/mixxxdj/mixxx/issues/13964>`__
+* Improve Taglib/SoundSource logging `#13541 <https://github.com/mixxxdj/mixxx/pull/13541>`__
+
+Skins / Interface
+^^^^^^^^^^^^^^^^^
+
+
+* Toggle the menubar with single Alt key press (auto hide)
+  `#11526 <https://github.com/mixxxdj/mixxx/pull/11526>`__
+  `#13301 <https://github.com/mixxxdj/mixxx/pull/13301>`__
+* Fullscreen toggle rework
+  `#11566 <https://github.com/mixxxdj/mixxx/pull/11566>`__
+  `#13189 <https://github.com/mixxxdj/mixxx/pull/13189>`__
+  `#13030 <https://github.com/mixxxdj/mixxx/issues/13030>`__
+* Allow to edit track title and artist directly within the decks via a delayed double-click
+  `#11755 <https://github.com/mixxxdj/mixxx/pull/11755>`__
+  `#13930 <https://github.com/mixxxdj/mixxx/pull/13930>`__
+* Require a minimum movement before initiating the drag&drop of tracks `#12903 <https://github.com/mixxxdj/mixxx/pull/12903>`__
+* Add type toggle to cue popup `#13215 <https://github.com/mixxxdj/mixxx/pull/13215>`__
+* Effect Meta Knob: draws arc from default meta position
+  `#12638 <https://github.com/mixxxdj/mixxx/pull/12638>`__
+  `#12634 <https://github.com/mixxxdj/mixxx/issues/12634>`__
+* Handle not supported files when dragging to waveforms and spinnies
+  `#13206 <https://github.com/mixxxdj/mixxx/issues/13206>`__
+* Tooltips: Improve ``rate_up/down`` description regarding pitch vs. speed `#12590 <https://github.com/mixxxdj/mixxx/pull/12590>`__
+* Tooltips: Add description for expand/collapse samplers buttons
+  `#13005 <https://github.com/mixxxdj/mixxx/pull/13005>`__
+  `#12998 <https://github.com/mixxxdj/mixxx/issues/12998>`__
+* Track label widgets: Set ``show_track_menu`` only for main decks `#12978 <https://github.com/mixxxdj/mixxx/pull/12978>`__
+* MacOS: App proxy icon of the playing track to the window title `#12116 <https://github.com/mixxxdj/mixxx/pull/12116>`__
+* Auto DJ: Force-show decks 3/4 if we are going to use them `#13455 <https://github.com/mixxxdj/mixxx/pull/13455>`__
+* Auto DJ: Add new random tracks if one track does not exists `#13551 <https://github.com/mixxxdj/mixxx/pull/13551>`__
+* Allow to set LaunchImage style per color scheme `#13731 <https://github.com/mixxxdj/mixxx/pull/13731>`__
+* Show wait cursor when re/loading a skin (not during startup) `#13747 <https://github.com/mixxxdj/mixxx/pull/13747>`__
+* LateNight: Merge vinyl control toggle and status light
+  `#12947 <https://github.com/mixxxdj/mixxx/pull/12947>`__
+  `#10192 <https://github.com/mixxxdj/mixxx/issues/10192>`__
+* LateNight, Deere, Tango: Deactivate beatgrid edit controls if BPM is locked
+  `#13320 <https://github.com/mixxxdj/mixxx/pull/13320>`__
+  `#13323 <https://github.com/mixxxdj/mixxx/pull/13323>`__
+  `#13325 <https://github.com/mixxxdj/mixxx/pull/13325>`__
+* LateNight: Add/tweak CueDelete icons
+  `#13495 <https://github.com/mixxxdj/mixxx/pull/13495>`__
+  `#13492 <https://github.com/mixxxdj/mixxx/issues/13492>`__
+* LateNight: Use Classic launch image style also for 64 samplers version `#13796 <https://github.com/mixxxdj/mixxx/pull/13796>`__
+* Adjust some skin controls, to allow point-and-click mapping
+  `#13906 <https://github.com/mixxxdj/mixxx/pull/13906>`__
+* PreviewDeckN,LoadSelectedTrackAndPlay toggles play/pause if the track is already loaded
+  `#12920 <https://github.com/mixxxdj/mixxx/pull/12920>`__
+  `#9819 <https://github.com/mixxxdj/mixxx/issues/9819>`__
+* Command line interface: Determine whether to color output based on ``TERM`` variable
+  `#13486 <https://github.com/mixxxdj/mixxx/pull/13486>`__
+* Command line interface: Add option ``--start-autodj`` to start Auto DJ immediately after Mixxx start.
+  `#13017 <https://github.com/mixxxdj/mixxx/pull/13017>`__
+  `#10189 <https://github.com/mixxxdj/mixxx/issues/10189>`__
+* Logging: Include timestamps in messages by default `#11861 <https://github.com/mixxxdj/mixxx/pull/11861>`__
+* Logging: Limit mixxx.log size to 100 MB or via --log-max-file-size
+  `#13684 <https://github.com/mixxxdj/mixxx/pull/13684>`__
+  `#13660 <https://github.com/mixxxdj/mixxx/issues/13660>`__
+* Fix skin reload after changing color scheme `#13847 <https://github.com/mixxxdj/mixxx/pull/13847>`__
 
 Effects
 ^^^^^^^
@@ -179,7 +211,8 @@ Library
   `#12020 <https://github.com/mixxxdj/mixxx/pull/12020>`__
   `#13361 <https://github.com/mixxxdj/mixxx/issues/13361>`__
   `#13364 <https://github.com/mixxxdj/mixxx/pull/13364>`__
-* Track menu: Rephrase "Reset" to "Clear" `#12955 <https://github.com/mixxxdj/mixxx/pull/12955>`__
+  `#13958 <https://github.com/mixxxdj/mixxx/pull/13958>`__
+  `#13100 <https://github.com/mixxxdj/mixxx/issues/13100>`__
 * Playlists: move tracks with Alt + Up/Down/PageUp/PageDown/Home/End
   `#13092 <https://github.com/mixxxdj/mixxx/pull/13092>`__
   `#10826 <https://github.com/mixxxdj/mixxx/issues/10826>`__
@@ -196,64 +229,76 @@ Library
 * Search related Tracks menu: Allow to use multiple filters at once
   `#12213 <https://github.com/mixxxdj/mixxx/pull/12213>`__
   `#12211 <https://github.com/mixxxdj/mixxx/issues/12211>`__
+* Track menu: Rephrase "Reset" to "Clear" `#12955 <https://github.com/mixxxdj/mixxx/pull/12955>`__
+* Track menu: Add support for scaling BPM by different ratios
+  `#12934 <https://github.com/mixxxdj/mixxx/pull/12934>`__
+  `#9133 <https://github.com/mixxxdj/mixxx/issues/9133>`__
+* Track menu: Remove from disk: stop and eject all affected decks `#13214 <https://github.com/mixxxdj/mixxx/pull/13214>`__
+* Track menu: add star rating
+  `#12700 <https://github.com/mixxxdj/mixxx/pull/12700>`__
+  `#10652 <https://github.com/mixxxdj/mixxx/issues/10652>`__
+* Track menu: Show Properties in Missing and Hidden view `#13426 <https://github.com/mixxxdj/mixxx/pull/13426>`__
 * Add multi-track property editor / batch tag editor
   `#12548 <https://github.com/mixxxdj/mixxx/pull/12548>`__
   `#9023 <https://github.com/mixxxdj/mixxx/issues/9023>`__
   `#13299 <https://github.com/mixxxdj/mixxx/pull/13299>`__
   `#13609 <https://github.com/mixxxdj/mixxx/pull/13609>`__
   `#13597 <https://github.com/mixxxdj/mixxx/issues/13597>`__
+  `#13631 <https://github.com/mixxxdj/mixxx/pull/13631>`__
+* Track property editor: focus the editing field in the track properties that corresponds to the focused column
+  `#13841 <https://github.com/mixxxdj/mixxx/pull/13841>`__
+  `#14036 <https://github.com/mixxxdj/mixxx/pull/14036>`__
 * Computer feature: add sidebar action "Refresh directory tree" `#12908 <https://github.com/mixxxdj/mixxx/pull/12908>`__
-* Library: Add feedback to directory operations (add, remove, relink)
+* Add feedback to directory operations (add, remove, relink)
   `#12436 <https://github.com/mixxxdj/mixxx/pull/12436>`__
   `#10481 <https://github.com/mixxxdj/mixxx/issues/10481>`__
-* Library: Add support for scaling BPM by different ratios
-  `#12934 <https://github.com/mixxxdj/mixxx/pull/12934>`__
-  `#9133 <https://github.com/mixxxdj/mixxx/issues/9133>`__
-* Library: Add ability to import external playlists as crates `#11852 <https://github.com/mixxxdj/mixxx/pull/11852>`__
-* Library: Add 'Shuffle playlist' sidebar action
+* Add ability to import external playlists as crates `#11852 <https://github.com/mixxxdj/mixxx/pull/11852>`__
+* Add 'Shuffle playlist' sidebar action
   `#12498 <https://github.com/mixxxdj/mixxx/pull/12498>`__
   `#6988 <https://github.com/mixxxdj/mixxx/issues/6988>`__
 * Playlists: Update of playlist labels after adding tracks `#12866 <https://github.com/mixxxdj/mixxx/pull/12866>`__ `#12761 <https://github.com/mixxxdj/mixxx/issues/12761>`__
-* Library: Custom color for missing tracks `#12895 <https://github.com/mixxxdj/mixxx/pull/12895>`__
+* Tracks: Custom color for missing tracks `#12895 <https://github.com/mixxxdj/mixxx/pull/12895>`__
 * Tracks: Custom text color for played tracks (qss)
   `#12744 <https://github.com/mixxxdj/mixxx/pull/12744>`__
   `#5911 <https://github.com/mixxxdj/mixxx/issues/5911>`__
   `#12912 <https://github.com/mixxxdj/mixxx/pull/12912>`__
   `#13538 <https://github.com/mixxxdj/mixxx/pull/13538>`__
-* History: Show track count and duration in sidebar `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__ `#12788 <https://github.com/mixxxdj/mixxx/issues/12788>`__
-* Fixes around cratetablemodel, remove tracks + don't allow pasting tracks into locked playlists/crates or History `#12926 <https://github.com/mixxxdj/mixxx/pull/12926>`__
-* Track menu, Remove from disk: stop and eject all affected decks `#13214 <https://github.com/mixxxdj/mixxx/pull/13214>`__
-* Track menu: add star rating
-  `#12700 <https://github.com/mixxxdj/mixxx/pull/12700>`__
-  `#10652 <https://github.com/mixxxdj/mixxx/issues/10652>`__
-* Track menu: Show Properties in Missing and Hidden view `#13426 <https://github.com/mixxxdj/mixxx/pull/13426>`__
-* Optimize Library scrolling in BPMDelegate::paintItem `#13358 <https://github.com/mixxxdj/mixxx/pull/13358>`__
-* Fix font reset in multiline comment editor `#13448 <https://github.com/mixxxdj/mixxx/pull/13448>`__
+* History: Show track count and duration in sidebar
+  `#12811 <https://github.com/mixxxdj/mixxx/pull/12811>`__
+  `#12788 <https://github.com/mixxxdj/mixxx/issues/12788>`__
+* Don't allow pasting tracks into locked playlists/crates or History `#12926 <https://github.com/mixxxdj/mixxx/pull/12926>`__
+* Optimize Library scrolling `#13358 <https://github.com/mixxxdj/mixxx/pull/13358>`__
 * Keep the metadata key text unchanged, use it as the origin of information
   `#11096 <https://github.com/mixxxdj/mixxx/pull/11096>`__
   `#11095 <https://github.com/mixxxdj/mixxx/issues/11095>`__
   `#13650 <https://github.com/mixxxdj/mixxx/pull/13650>`__
+  `#14011 <https://github.com/mixxxdj/mixxx/pull/14011>`__
+  `#14008 <https://github.com/mixxxdj/mixxx/pull/14008>`__
+  `#14020 <https://github.com/mixxxdj/mixxx/pull/14020>`__
 * Center date values, right-align Track # `#13674 <https://github.com/mixxxdj/mixxx/pull/13674>`__
+* Analysis: Fix stop button when analyzing crate/playlist `#13902 <https://github.com/mixxxdj/mixxx/pull/13902>`__
 * Add a debug message, which appears when event loop processing in Mixxx application takes very long
   `#12094 <https://github.com/mixxxdj/mixxx/pull/12094>`__
   `#13900 <https://github.com/mixxxdj/mixxx/pull/13900>`__
   `#13889 <https://github.com/mixxxdj/mixxx/pull/13889>`__
   `#13903 <https://github.com/mixxxdj/mixxx/pull/13903>`__
-* Analysis: Fix stop button when analyzing crate/playlist `#13902 <https://github.com/mixxxdj/mixxx/pull/13902>`__
+  `#14012 <https://github.com/mixxxdj/mixxx/pull/14012>`__
 
 Preferences
 ^^^^^^^^^^^
 
 
-* Add missing spacer in interface preferences `#13094 <https://github.com/mixxxdj/mixxx/pull/13094>`__
-* Fix fetching of soundcard sample rate
-  `#11951 <https://github.com/mixxxdj/mixxx/pull/11951>`__
-  `11949 <https://github.com/mixxxdj/mixxx/issues/11949>`__
 * Add load point option 'First hotcue'
   `#12869 <https://github.com/mixxxdj/mixxx/pull/12869>`__
   `#12740 <https://github.com/mixxxdj/mixxx/issues/12740>`__
 * MIDI Input editor: allow selecting multiple Options `#12348 <https://github.com/mixxxdj/mixxx/pull/12348>`__
 * Apply changes only after pressing Apply in color preferences `#13302 <https://github.com/mixxxdj/mixxx/pull/13302>`__
+* Add/reorder tabstops in Library and Waveform preferences
+  `#13846 <https://github.com/mixxxdj/mixxx/pull/13846>`__
+* Add missing spacer in interface preferences `#13094 <https://github.com/mixxxdj/mixxx/pull/13094>`__
+* Fix fetching of soundcard sample rate
+  `#11951 <https://github.com/mixxxdj/mixxx/pull/11951>`__
+  `11949 <https://github.com/mixxxdj/mixxx/issues/11949>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -261,18 +306,23 @@ Controller Mappings
 
 * Denon MC7000: Add optional jog wheel acceleration to the controller mapping `#4684 <https://github.com/mixxxdj/mixxx/pull/4684>`__
 * Denon MC7000: Unify parameter button logic and add customizable modes `#13589 <https://github.com/mixxxdj/mixxx/pull/13589>`__
+* Denon MC7000: Add sampler options to mapping settings `#13950 <https://github.com/mixxxdj/mixxx/pull/13950>`__
 * MIDI for light: Implement new Active deck heuristic `#13513 <https://github.com/mixxxdj/mixxx/pull/13513>`__
+* MIDI for light: Add settings GUI `#13721 <https://github.com/mixxxdj/mixxx/pull/13721>`__
 * Numark Scratch: Add controller settings  `#13404 <https://github.com/mixxxdj/mixxx/pull/13404>`__
 * Pioneer DDJ-FLX4: Mapping improvements `#12842 <https://github.com/mixxxdj/mixxx/pull/12842>`__
 * Traktor Kontrol S4 MK3: Add setting definition for  `#12995 <https://github.com/mixxxdj/mixxx/pull/12995>`__
 * Traktor Kontrol S4 MK3: Software mixer support and default pad layout customisation `#13059 <https://github.com/mixxxdj/mixxx/pull/13059>`__
 * Traktor Kontrol S4 Mk3: Rework jogwheel speed compute and motorized platter `#13393 <https://github.com/mixxxdj/mixxx/pull/13393>`__
+* Traktor Kontrol S4 Mk3: Revert QuickEffect preset offset `#13997 <https://github.com/mixxxdj/mixxx/pull/13997>`__
+* Traktor Kontrol S4 Mk3: Correct wheel timestamp wrap-around `#14016 <https://github.com/mixxxdj/mixxx/pull/14016>`__
 
 Controller Backend
 ^^^^^^^^^^^^^^^^^^
 
 
 * Send sysex to all handlers `#12827 <https://github.com/mixxxdj/mixxx/pull/12827>`__
+* Speed up midi sysex receive `#12843 <https://github.com/mixxxdj/mixxx/pull/12843>`__
 * Add control for showing a deck's track menu `#10825 <https://github.com/mixxxdj/mixxx/pull/10825>`__
 * Removed old examples HID keyboard and HID trackpad `#12977 <https://github.com/mixxxdj/mixxx/pull/12977>`__
 * Reduce log noise with HID device
@@ -286,261 +336,116 @@ Controller Backend
   `#13045 <https://github.com/mixxxdj/mixxx/pull/13045>`__
   `#13656 <https://github.com/mixxxdj/mixxx/pull/13656>`__
   `#13738 <https://github.com/mixxxdj/mixxx/pull/13738>`__
+  `#13979 <https://github.com/mixxxdj/mixxx/pull/13979>`__
+  `#13990 <https://github.com/mixxxdj/mixxx/pull/13990>`__
 * Registering MIDI Input Handlers From Javascript
   `#12781 <https://github.com/mixxxdj/mixxx/pull/12781>`__
   `#13089 <https://github.com/mixxxdj/mixxx/pull/13089>`__
 * Controller IO table: Fix display text for Action/control delegate `#13188 <https://github.com/mixxxdj/mixxx/pull/13188>`__
 * Drop lodash dependency in ComponentJS `#12779 <https://github.com/mixxxdj/mixxx/pull/12779>`__
 * Support for bulk devices on Windows and Mac `#13008 <https://github.com/mixxxdj/mixxx/pull/13008>`__
-* Registering MIDI Input Handlers From Javascript
-  `#12781 <https://github.com/mixxxdj/mixxx/pull/12781>`__
-  `#13089 <https://github.com/mixxxdj/mixxx/pull/13089>`__
 * Drop lodash dependency in ComponentJS
   `#12779 <https://github.com/mixxxdj/mixxx/pull/12779>`__
+* Fix pending reference to the old mapping after selecting 'No mapping' `#13907 <https://github.com/mixxxdj/mixxx/pull/13907>`__
+* Fix crash with GoToItem when no app windows has the focus `#13657 <https://github.com/mixxxdj/mixxx/pull/13657>`__
 
-Experimental QML Skin
+Waveforms
+^^^^^^^^^
+
+
+* Visualize slip mode position by splitting waveform (RGB GLSL only)
+  `#13002 <https://github.com/mixxxdj/mixxx/pull/13002>`__
+  `#13256 <https://github.com/mixxxdj/mixxx/pull/13256>`__
+  `#10063 <https://github.com/mixxxdj/mixxx/issues/10063>`__
+* Show beats and time until next marker in the waveform
+  `#12994 <https://github.com/mixxxdj/mixxx/pull/12994>`__
+  `#13311 <https://github.com/mixxxdj/mixxx/pull/13311>`__
+  `#13953 <https://github.com/mixxxdj/mixxx/pull/13953>`__
+  `#13314 <https://github.com/mixxxdj/mixxx/issues/13314>`__
+* Don't elide hotcue labels
+  `#13219 <https://github.com/mixxxdj/mixxx/pull/13219>`__
+  `#10722 <https://github.com/mixxxdj/mixxx/issues/10722>`__
+* Allshader RGB, Filtered and Stacked Waveforms using textures for waveform data
+  `#13151 <https://github.com/mixxxdj/mixxx/pull/13151>`__
+  `#12641 <https://github.com/mixxxdj/mixxx/issues/12641>`__
+* Allow changing the waveform overview type without reloading the skin
+  `#13273 <https://github.com/mixxxdj/mixxx/pull/13273>`__
+* Overview: Update immediately, when the normalize option or global gain changed
+  `#13634 <https://github.com/mixxxdj/mixxx/pull/13634>`__
+* Overview: Clear pickup position display when opening cue menu
+  `#13693 <https://github.com/mixxxdj/mixxx/pull/13693>`__
+
+Experimental Features
 ^^^^^^^^^^^^^^^^^^^^^
 
 
-* Add Experimental QML Skin that can be tested via the --qml command line option
+* QML Skin: Can be tested via the --qml command line option
   `#13152 <https://github.com/mixxxdj/mixxx/pull/13152>`__
-* Fix type error in ``Slider.qml`` `#11423 <https://github.com/mixxxdj/mixxx/pull/11423>`__
-* Allow switching between legacy and new QML UI with command arg `#12139 <https://github.com/mixxxdj/mixxx/pull/12139>`__
-* Add PlayerProxy missing current track when created after loading `#12559 <https://github.com/mixxxdj/mixxx/pull/12559>`__
-* Fix: Add ``qt6-qpa-plugins`` to dependencies `#12549 <https://github.com/mixxxdj/mixxx/pull/12549>`__
-* Fix: Improve knobs by applying selective 4xMSAA on the Arc shape `#12541 <https://github.com/mixxxdj/mixxx/pull/12541>`__
-* Add QML interceptor to auto reload on file change
+  `#12139 <https://github.com/mixxxdj/mixxx/pull/12139>`__
+  `#13152 <https://github.com/mixxxdj/mixxx/pull/13152>`__
+* QML Skin related changes
+  `#11423 <https://github.com/mixxxdj/mixxx/pull/11423>`__
+  `#12559 <https://github.com/mixxxdj/mixxx/pull/12559>`__
+  `#12549 <https://github.com/mixxxdj/mixxx/pull/12549>`__
+  `#12541 <https://github.com/mixxxdj/mixxx/pull/12541>`__
   `#12795 <https://github.com/mixxxdj/mixxx/pull/12795>`__
   `#12844 <https://github.com/mixxxdj/mixxx/pull/12844>`__
-* Add multi-sampling settings for QML `#12546 <https://github.com/mixxxdj/mixxx/pull/12546>`__
+  `#12546 <https://github.com/mixxxdj/mixxx/pull/12546>`__
   `#12794 <https://github.com/mixxxdj/mixxx/pull/12794>`__
   `#12536 <https://github.com/mixxxdj/mixxx/issues/12536>`__
   `#13058 <https://github.com/mixxxdj/mixxx/pull/13058>`__
-* Install qml module on Windows `#12604 <https://github.com/mixxxdj/mixxx/pull/12604>`__
-* Add scrolling waveforms
+  `#12604 <https://github.com/mixxxdj/mixxx/pull/12604>`__
   `#3967 <https://github.com/mixxxdj/mixxx/pull/3967>`__
   `#13009 <https://github.com/mixxxdj/mixxx/pull/13009>`__
-* Fix: handle case where Waveform data is missing `#13009 <https://github.com/mixxxdj/mixxx/pull/13009>`__
-* Fix: allow missing COs on QML component `#13011 <https://github.com/mixxxdj/mixxx/pull/13011>`__
-* Initialize CmdlineArgs::m_qml `#13152 <https://github.com/mixxxdj/mixxx/pull/13152>`__
-* Fix: Remove target compile defs for non-existing QML CMake target `#13506 <https://github.com/mixxxdj/mixxx/pull/13506>`__
-
-Update to Qt6
-^^^^^^^^^^^^^
-
-
-* Qt6 prepare `#11863 <https://github.com/mixxxdj/mixxx/pull/11863>`__
-* Qt6 switch `#11892 <https://github.com/mixxxdj/mixxx/pull/11892>`__
-* CMakeLists: Default ``QT6`` to ``ON`` `#11934 <https://github.com/mixxxdj/mixxx/pull/11934>`__
-* Build with Qt6 and optionally with QML `#11608 <https://github.com/mixxxdj/mixxx/pull/11608>`__
-* Use constInsert() template `#11847 <https://github.com/mixxxdj/mixxx/pull/11847>`__
-* DlgAbout: Add Qt version to the dialog `#11862 <https://github.com/mixxxdj/mixxx/pull/11862>`__
-* CMakeLists: Fix ``QT_TRANSLATION_FILE`` path for Qt6 `#11880 <https://github.com/mixxxdj/mixxx/pull/11880>`__
-* LibraryControl: Enable control inputs for Qt6 `#11877 <https://github.com/mixxxdj/mixxx/pull/11877>`__
-* Fix wrong Windows buildenv name and missing Qt6 switch for non CI builds `#11895 <https://github.com/mixxxdj/mixxx/pull/11895>`__
-* WWidget: Disable touch events on macOS (fixing trackpad issues on Qt 6) `#11870 <https://github.com/mixxxdj/mixxx/pull/11870>`__
-* Install libjpeg-turbo::jpeg to fix cover display with Qt6 `#11922 <https://github.com/mixxxdj/mixxx/pull/11922>`__
-* Skins: Remove ``border: 0px`` from sidebar item styling
-  `#11970 <https://github.com/mixxxdj/mixxx/pull/11970>`__
-  `#11957 <https://github.com/mixxxdj/mixxx/issues/11957>`__
-* Skins: Fix checkbox styling on Qt 6 `#12050 <https://github.com/mixxxdj/mixxx/pull/12050>`__
-* Skins: Fix Tango waveform splitter `#12939 <https://github.com/mixxxdj/mixxx/pull/12939>`__
-* Skin: Fix Tango rate range label position `#13242 <https://github.com/mixxxdj/mixxx/pull/13242>`__
-* Introduce wrapper for non const iterators for erase and insert
-  `#12201 <https://github.com/mixxxdj/mixxx/pull/12201>`__
-  `#13856 <https://github.com/mixxxdj/mixxx/pull/13856>`__
-* Fix Qt6/QML build `#12255 <https://github.com/mixxxdj/mixxx/pull/12255>`__
-* Fix track color background with Qt6 `#12380 <https://github.com/mixxxdj/mixxx/pull/12380>`__
-* multi-line delegate: fix bg color, Qt6 on Linux
-  `#12478 <https://github.com/mixxxdj/mixxx/pull/12478>`__
-* Revert "BaseTrackPlayer: Remove references to WaveformWidgetRenderer when using Qt6" `#12342 <https://github.com/mixxxdj/mixxx/pull/12342>`__
-* Fix: Replace deprecated ``qAsConst`` with ``std::as_const`` `#13028 <https://github.com/mixxxdj/mixxx/pull/13028>`__
-* Fix Drag'n'drop: avoid unintended drag on hover (WTrackProperty, WCoverArt etc.)
-  `#13035 <https://github.com/mixxxdj/mixxx/pull/13035>`__
-  `#13033 <https://github.com/mixxxdj/mixxx/issues/13033>`__
-* Fix ambiguous overload error due to native qDebug impl for std::optional
-  `#12981 <https://github.com/mixxxdj/mixxx/issues/12981>`__
-* Workaround for Qt6 'selected click' bug `#12488 <https://github.com/mixxxdj/mixxx/pull/12488>`__
-* Fix menu icon position `#12216 <https://github.com/mixxxdj/mixxx/pull/12216>`__
-* Fix/Skins: hide reserved space for invisible table header sort indicators `#13535 <https://github.com/mixxxdj/mixxx/pull/13535>`__
-* Qt 6.8 deprecated declaration fixes `#13845 <https://github.com/mixxxdj/mixxx/pull/13845>`__
-* Add missing qt6-declarative-private-dev and qt6-base-private-dev package `#13904 <https://github.com/mixxxdj/mixxx/pull/13904>`__
-
-Experimental iOs support
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-* CMakeLists: Support building for iOS `#12672 <https://github.com/mixxxdj/mixxx/pull/12672>`__
-* DlgPrefInterface: Disable tooltips on iOS by default `#12689 <https://github.com/mixxxdj/mixxx/pull/12689>`__
-* SoundManager: Set up ``AVAudioSession`` on iOS `#12714 <https://github.com/mixxxdj/mixxx/pull/12714>`__
-* SoundManager: Use correct PortAudio backend on iOS `#12716 <https://github.com/mixxxdj/mixxx/pull/12716>`__
-* DesktopHelper: Add openUrl abstraction to support iOS `#12698 <https://github.com/mixxxdj/mixxx/pull/12698>`__
-* iOS packaging: Add Info.plist, launch screen and app icon `#12676 <https://github.com/mixxxdj/mixxx/pull/12676>`__
-* CmdlineArgs: Move config directory to a user-accessible location on iOS
+  `#13009 <https://github.com/mixxxdj/mixxx/pull/13009>`__
+  `#13011 <https://github.com/mixxxdj/mixxx/pull/13011>`__
+  `#13506 <https://github.com/mixxxdj/mixxx/pull/13506>`__
+* iOS support: Mixxx can be built for iOS
+  `#12672 <https://github.com/mixxxdj/mixxx/pull/12672>`__
+* iOS support related changes
+  `#12689 <https://github.com/mixxxdj/mixxx/pull/12689>`__
+  `#12714 <https://github.com/mixxxdj/mixxx/pull/12714>`__
+  `#12716 <https://github.com/mixxxdj/mixxx/pull/12716>`__
+  `#12698 <https://github.com/mixxxdj/mixxx/pull/12698>`__
+  `#12676 <https://github.com/mixxxdj/mixxx/pull/12676>`__
   `#12688 <https://github.com/mixxxdj/mixxx/pull/12688>`__
-* CMakeLists: Work around Qt shader bug with Xcode
   `#13379 <https://github.com/mixxxdj/mixxx/pull/13379>`__
   `#13378 <https://github.com/mixxxdj/mixxx/issues/13378>`__
-* AudioUnitManager: Disable unavailable in-process instantiation on iOS
   `#13383 <https://github.com/mixxxdj/mixxx/pull/13383>`__
-
-Experimental WebAssembly support
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-* CMakeLists: Add support for targeting Emscripten/WebAssembly `#12918 <https://github.com/mixxxdj/mixxx/pull/12918>`__
-* CMakeLists: Emit better errors for exotic target platforms `#12910 <https://github.com/mixxxdj/mixxx/pull/12910>`__
-* Build: Add ``PORTMIDI`` flag for compiling with(out) PortMidi `#12913 <https://github.com/mixxxdj/mixxx/pull/12913>`__
-* DesktopHelper: Compile out process-spawning on WASM too `#12916 <https://github.com/mixxxdj/mixxx/pull/12916>`__
-* MixxxApplication: Use ``QWasmIntegrationPlugin`` when targeting WebAssembly `#12915 <https://github.com/mixxxdj/mixxx/pull/12915>`__
-* CMakeLists: Enable asyncify when targeting WASM `#12921 <https://github.com/mixxxdj/mixxx/pull/12921>`__
-* Resources: Bundle resources for preloading when targeting Emscripten/WASM `#12922 <https://github.com/mixxxdj/mixxx/pull/12922>`__
-* CMakeLists: Add ``WASM_ASSERTIONS`` option `#12931 <https://github.com/mixxxdj/mixxx/pull/12931>`__
-* VersionStore: Recognize Emscripten/WebAssembly `#12940 <https://github.com/mixxxdj/mixxx/pull/12940>`__
-* OpenGLWindow: Fix sizing on Wasm by setting ``Qt::FramelessWindowHint`` `#12945 <https://github.com/mixxxdj/mixxx/pull/12945>`__
-* CMakeLists: Require WebGL 2.0 when building for Wasm `#12952 <https://github.com/mixxxdj/mixxx/pull/12952>`__
-* ScreenSaverHelper: Add no-op implementation for WASM `#12930 <https://github.com/mixxxdj/mixxx/pull/12930>`__
-* SSE: Check ``!defined(__EMSCRIPTEN__)`` where intrinsics are unavailable on WASM `#12917 <https://github.com/mixxxdj/mixxx/pull/12917>`__
+* Emscripten/WebAssembly support, to run Mixxx hardware independent in a browser
+  `#12918 <https://github.com/mixxxdj/mixxx/pull/12918>`__
+* Emscripten/WebAssembly related changes
+  `#12910 <https://github.com/mixxxdj/mixxx/pull/12910>`__
+  `#12913 <https://github.com/mixxxdj/mixxx/pull/12913>`__
+  `#12916 <https://github.com/mixxxdj/mixxx/pull/12916>`__
+  `#12915 <https://github.com/mixxxdj/mixxx/pull/12915>`__
+  `#12921 <https://github.com/mixxxdj/mixxx/pull/12921>`__
+  `#12922 <https://github.com/mixxxdj/mixxx/pull/12922>`__
+  `#12931 <https://github.com/mixxxdj/mixxx/pull/12931>`__
+  `#12940 <https://github.com/mixxxdj/mixxx/pull/12940>`__
+  `#12945 <https://github.com/mixxxdj/mixxx/pull/12945>`__
+  `#12952 <https://github.com/mixxxdj/mixxx/pull/12952>`__
+  `#12930 <https://github.com/mixxxdj/mixxx/pull/12930>`__
+  `#12917 <https://github.com/mixxxdj/mixxx/pull/12917>`__
 
 Target support
 ^^^^^^^^^^^^^^
 
 
-* Lenient taglib 2.0 guard `#12793 <https://github.com/mixxxdj/mixxx/pull/12793>`__
+* Maintain GL ES support `#13485 <https://github.com/mixxxdj/mixxx/pull/13485>`__
 * Tools: Add ``rpm_buildenv.sh`` for building on Fedora `#13069 <https://github.com/mixxxdj/mixxx/pull/13069>`__
-* README: Recommend running buildenvs over sourcing them on Linux `#13071 <https://github.com/mixxxdj/mixxx/pull/13071>`__
+* Lenient taglib 2.0 guard `#12793 <https://github.com/mixxxdj/mixxx/pull/12793>`__
+* MixxxApplication: Support linking Qt statically on Linux `#12284 <https://github.com/mixxxdj/mixxx/pull/12284>`__
 * FindSndFile: Link mpg123 in static builds `#13087 <https://github.com/mixxxdj/mixxx/pull/13087>`__
-* macOS packaging: Enable app sandbox in ad-hoc-packaged (i.e. non-notarized) bundles too `#12101 <https://github.com/mixxxdj/mixxx/pull/12101>`__
-* Drop support for macOS versions earlier than 11
-* Drop support for Windows versions earlier than Windows 10 build 1809
-* Drop support for Ubuntu versions earlier than 22.04
-* Require a C++20 compiler
-* Support GCC 14.1.1
-  `#13504 <https://github.com/mixxxdj/mixxx/pull/13504>`__
-  `#13467 <https://github.com/mixxxdj/mixxx/issues/13467>`__
-
-Misc Refactorings
-^^^^^^^^^^^^^^^^^
-
-
-* Add missing ``<Qt>`` include in ``defs.h`` `#11348 <https://github.com/mixxxdj/mixxx/pull/11348>`__
-* Engine: Minor refactor to prefer simplified ranged-for-loop `#11234 <https://github.com/mixxxdj/mixxx/pull/11234>`__
-* Delete unused EngineFilter `#11559 <https://github.com/mixxxdj/mixxx/pull/11559>`__
-* AnalyzerWaveform: Fix commented out code `#11561 <https://github.com/mixxxdj/mixxx/pull/11561>`__
-* Remove usage of ControlObject::getControl `#11643 <https://github.com/mixxxdj/mixxx/pull/11643>`__
-* Fix unnecessary transfer of the ownership before release which returns the pointer itself `#11726 <https://github.com/mixxxdj/mixxx/pull/11726>`__
-* Add ``ConfigObject::get-/setValue<EnumType>`` `#11883 <https://github.com/mixxxdj/mixxx/pull/11883>`__
-* Github CI: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
-* Refactor timers `#11807 <https://github.com/mixxxdj/mixxx/pull/11807>`__ `#11850 <https://github.com/mixxxdj/mixxx/pull/11850>`__
-* Use ``mixxx::audio::ChannelCount`` type instead of ``int``\ /\ ``unsigned char``\ /etc. `#11941 <https://github.com/mixxxdj/mixxx/pull/11941>`__
-* Refactor util/timer: cleanup includes `#11937 <https://github.com/mixxxdj/mixxx/pull/11937>`__
-* Use ``SampleRate`` type consistently `#11904 <https://github.com/mixxxdj/mixxx/pull/11904>`__
-* CMakeLists: Match arbitrary ``arm64-osx`` triplets `#11933 <https://github.com/mixxxdj/mixxx/pull/11933>`__
-* Reduce sample buffer memory usage `#11988 <https://github.com/mixxxdj/mixxx/pull/11988>`__
-* Fix clazy issues on ``main`` `#12028 <https://github.com/mixxxdj/mixxx/pull/12028>`__
-* Tidy and modernize SampleBuffer `#11987 <https://github.com/mixxxdj/mixxx/pull/11987>`__
-* Refactor parented_ptr: make trivially destructible in release mode, delete move operations `#11981 <https://github.com/mixxxdj/mixxx/pull/11981>`__
-* Labeler: Add more labels to the auto-labeler `#12106 <https://github.com/mixxxdj/mixxx/pull/12106>`__
 * FindPortMidi: Link ALSA in static builds on Linux `#12292 <https://github.com/mixxxdj/mixxx/pull/12292>`__ `#12291 <https://github.com/mixxxdj/mixxx/pull/12291>`__
-* privat generated ui headers `#12060 <https://github.com/mixxxdj/mixxx/pull/12060>`__ `#11407 <https://github.com/mixxxdj/mixxx/pull/11407>`__
-* Github CI: workaround runner-image issue `#12233 <https://github.com/mixxxdj/mixxx/pull/12233>`__
 * FindLibudev: Link hidapi and libusb with libudev in static builds on Linux `#12294 <https://github.com/mixxxdj/mixxx/pull/12294>`__
 * FindVorbis: Link ogg in static builds `#12297 <https://github.com/mixxxdj/mixxx/pull/12297>`__
-* MixxxApplication: Support linking Qt statically on Linux `#12284 <https://github.com/mixxxdj/mixxx/pull/12284>`__
 * FindSleef: Use OpenMP in static builds `#12295 <https://github.com/mixxxdj/mixxx/pull/12295>`__
-* Happy New Year 2024! `#12486 <https://github.com/mixxxdj/mixxx/pull/12486>`__
-* fix/History: remove obsolete placeholder playlists `#12494 <https://github.com/mixxxdj/mixxx/pull/12494>`__
-* Add missing Taglib dependency `#12830 <https://github.com/mixxxdj/mixxx/pull/12830>`__
-* fix: typo ;) `#12726 <https://github.com/mixxxdj/mixxx/pull/12726>`__
-* refactor: Avoid temporary qlist allocation on midi sysex receive `#12843 <https://github.com/mixxxdj/mixxx/pull/12843>`__
-* Labeler: Add ``qml`` to labeler config `#12911 <https://github.com/mixxxdj/mixxx/pull/12911>`__
-* WTrackMenu: Add missing wcoverartlabel.h include `#12924 <https://github.com/mixxxdj/mixxx/pull/12924>`__
-* Fix clazy complaints and naming `#12935 <https://github.com/mixxxdj/mixxx/pull/12935>`__
-* src/library: Sort files into sub-directories `#12956 <https://github.com/mixxxdj/mixxx/pull/12956>`__
-* CMakeLists: Fix deduplication trap with ``--preload-file`` `#12944 <https://github.com/mixxxdj/mixxx/pull/12944>`__
-* GitHub CI: Add runner that allows cleaning up the download server `#12957 <https://github.com/mixxxdj/mixxx/pull/12957>`__
-* GitHub CI: Skip the manifest update job on forks `#13278 <https://github.com/mixxxdj/mixxx/pull/13278>`__
-* Refactor FFmpeg soundsource to allow other soundsource to inherit it `#13042 <https://github.com/mixxxdj/mixxx/pull/13042>`__
-* Code Style: Add branches around single line blocks. `#13097 <https://github.com/mixxxdj/mixxx/pull/13097>`__
-* Add missing member in copy ctor `#13229 <https://github.com/mixxxdj/mixxx/pull/13229>`__
-* Refactor/preferences enums `#12798 <https://github.com/mixxxdj/mixxx/pull/12798>`__
-* localDateTimeFromUtc: Make argument a const reference and initialize QDateTime at construction `#13359 <https://github.com/mixxxdj/mixxx/pull/13359>`__
-* use enum class for waveform overview type `#13370 <https://github.com/mixxxdj/mixxx/pull/13370>`__
-* LegacySkinParser: Short-circuit if template fails to open `#13488 <https://github.com/mixxxdj/mixxx/pull/13488>`__
-* Update waveforms_container.xml `#13501 <https://github.com/mixxxdj/mixxx/pull/13501>`__
-* Disable WSwitch for generated source `#13514 <https://github.com/mixxxdj/mixxx/pull/13514>`__
+* macOS packaging: Enable app sandbox in ad-hoc-packaged (i.e. non-notarized) bundles too `#12101 <https://github.com/mixxxdj/mixxx/pull/12101>`__
+* CMakeLists: Match arbitrary ``arm64-osx`` triplets `#11933 <https://github.com/mixxxdj/mixxx/pull/11933>`__
 * Disable warning in lib/apple code `#13522 <https://github.com/mixxxdj/mixxx/pull/13522>`__
-* (fix) pre-commit/qsscheck: add c++ ObjectNames set via variable in `#13538 <https://github.com/mixxxdj/mixxx/pull/13538>`__ `#13549 <https://github.com/mixxxdj/mixxx/pull/13549>`__
-* chore: fix codespell complaints `#13567 <https://github.com/mixxxdj/mixxx/pull/13567>`__
-* chore: update pre-commit hook `#13530 <https://github.com/mixxxdj/mixxx/pull/13530>`__
-* chore: fix shellcheck SC2319 warning `#13569 <https://github.com/mixxxdj/mixxx/pull/13569>`__
-* Improve Taglib/SoundSource logging `#13541 <https://github.com/mixxxdj/mixxx/pull/13541>`__
-* (fix) WTrackTableView: assert track model, p prefix `#13623 <https://github.com/mixxxdj/mixxx/pull/13623>`__
-* Library control: make use of WLibrary::getCurrentTrackTableView() `#13335 <https://github.com/mixxxdj/mixxx/pull/13335>`__
-* fix: prevent crash when no app windows have the focus `#13657 <https://github.com/mixxxdj/mixxx/pull/13657>`__
-* Fix Clazy v1.12 errors in 2.5 `#13769 <https://github.com/mixxxdj/mixxx/pull/13769>`__
-* Replace module wide Qt includes to make 2.5 compliant with Clazy 1.12 `#13788 <https://github.com/mixxxdj/mixxx/pull/13788>`__
-* add missing header, fixes compilation of 2.5 on macOS `#13825 <https://github.com/mixxxdj/mixxx/pull/13825>`__
-* Fix pre-commit on F41 and update remaining dependencies `#13843 <https://github.com/mixxxdj/mixxx/pull/13843>`__
-* (fix) skin reload: store new color scheme `#13847 <https://github.com/mixxxdj/mixxx/pull/13847>`__
-* fix: eslint v9 pre-commit hook `#13886 <https://github.com/mixxxdj/mixxx/pull/13886>`__
-* clang-format: Indent Objective-C blocks with 4 spaces `#13890 <https://github.com/mixxxdj/mixxx/pull/13890>`__
-* Fix undefined behaviour of infinity() `#13884 <https://github.com/mixxxdj/mixxx/pull/13884>`__
-* Cleanup ESLint config `#13913 <https://github.com/mixxxdj/mixxx/pull/13913>`__
-* fix tsan issues
-  `#13876 <https://github.com/mixxxdj/mixxx/pull/13876>`__
-  `#13869 <https://github.com/mixxxdj/mixxx/issues/13869>`__
-  `#13873 <https://github.com/mixxxdj/mixxx/pull/13873>`__
-  `#13875 <https://github.com/mixxxdj/mixxx/pull/13875>`__
-  `#13898 <https://github.com/mixxxdj/mixxx/pull/13898>`__
-  `#13899 <https://github.com/mixxxdj/mixxx/pull/[#13899](https://github.com/mixxxdj/mixxx/pull/13899>`__\ )
-* Update to latest vcpkg dependencies
-  `#11649 <https://github.com/mixxxdj/mixxx/pull/11649>`__
-  `#12512 <https://github.com/mixxxdj/mixxx/pull/12512>`__
-  `#12067 <https://github.com/mixxxdj/mixxx/pull/12067>`__
-  `#12898 <https://github.com/mixxxdj/mixxx/pull/12898>`__
-  `#13155 <https://github.com/mixxxdj/mixxx/pull/13155>`__
-  `#13830 <https://github.com/mixxxdj/mixxx/pull/13830>`__
-* GitHub actions updates
-  `#11544 <https://github.com/mixxxdj/mixxx/pull/11544>`__
-  `#11508 <https://github.com/mixxxdj/mixxx/pull/11508>`__
-  `#11487 <https://github.com/mixxxdj/mixxx/pull/11487>`__
-  `#11438 <https://github.com/mixxxdj/mixxx/pull/11438>`__
-  `#11410 <https://github.com/mixxxdj/mixxx/pull/11410>`__
-  `#11560 <https://github.com/mixxxdj/mixxx/pull/11560>`__
-  `#11578 <https://github.com/mixxxdj/mixxx/pull/11578>`__
-  `#11610 <https://github.com/mixxxdj/mixxx/pull/11610>`__
-  `#11631 <https://github.com/mixxxdj/mixxx/pull/11631>`__
-  `#11710 <https://github.com/mixxxdj/mixxx/pull/11710>`__
-  `#11736 <https://github.com/mixxxdj/mixxx/pull/11736>`__
-  `#11920 <https://github.com/mixxxdj/mixxx/pull/11920>`__
-  `#11961 <https://github.com/mixxxdj/mixxx/pull/11961>`__
-  `#12241 <https://github.com/mixxxdj/mixxx/pull/12241>`__
-  `#12394 <https://github.com/mixxxdj/mixxx/pull/12394>`__
-  `#12447 <https://github.com/mixxxdj/mixxx/pull/12447>`__
-  `#12425 <https://github.com/mixxxdj/mixxx/pull/12425>`__
-  `#12421 <https://github.com/mixxxdj/mixxx/pull/12421>`__
-  `#12799 <https://github.com/mixxxdj/mixxx/pull/12799>`__
-  `#12801 <https://github.com/mixxxdj/mixxx/pull/12801>`__
-  `#12800 <https://github.com/mixxxdj/mixxx/pull/12800>`__
-  `#12736 <https://github.com/mixxxdj/mixxx/pull/12736>`__
-  `#12692 <https://github.com/mixxxdj/mixxx/pull/12692>`__
-  `#12694 <https://github.com/mixxxdj/mixxx/pull/12694>`__
-  `#12695 <https://github.com/mixxxdj/mixxx/pull/12695>`__
-  `#12691 <https://github.com/mixxxdj/mixxx/pull/12691>`__
-  `#12693 <https://github.com/mixxxdj/mixxx/pull/12693>`__
-  `#12625 <https://github.com/mixxxdj/mixxx/pull/12625>`__
-  `#12627 <https://github.com/mixxxdj/mixxx/pull/12627>`__
-  `#12626 <https://github.com/mixxxdj/mixxx/pull/12626>`__
-  `#12577 <https://github.com/mixxxdj/mixxx/pull/12577>`__
-  `#13162 <https://github.com/mixxxdj/mixxx/pull/13162>`__
-  `#13163 <https://github.com/mixxxdj/mixxx/pull/13163>`__
-  `#13187 <https://github.com/mixxxdj/mixxx/pull/13187>`__
-  `#13217 <https://github.com/mixxxdj/mixxx/pull/13217>`__
-  `#13246 <https://github.com/mixxxdj/mixxx/pull/13246>`__
-  `#13232 <https://github.com/mixxxdj/mixxx/pull/13232>`__
-  `#13528 <https://github.com/mixxxdj/mixxx/pull/13528>`__
-  `#13595 <https://github.com/mixxxdj/mixxx/pull/13595>`__
+* GitHub CI: Use retry loop for CPack to work around macOS issue `#13991 <https://github.com/mixxxdj/mixxx/pull/13991>`__
+* Github CI: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
 
 .. _v2-4-2:
 
