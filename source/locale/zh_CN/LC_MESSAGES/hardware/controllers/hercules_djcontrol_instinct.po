@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -84,10 +84,9 @@ msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_instinct.rst:44
 msgid ""
-"Hercules DJControl Instinct (schematic view). This picture is taken from "
-"`product poster "
-"<http://ts.hercules.com/download/sound/manuals/DJ_Instinct/Poster/Poster_DJCInstinct_UK.pdf>`__"
-" (courtesy of Guillemot Corporation S.A.)."
+"Hercules DJControl Instinct (schematic view). This picture is taken from the"
+" product poster in the device manual (courtesy of Guillemot Corporation "
+"S.A.)."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_instinct.rst:46

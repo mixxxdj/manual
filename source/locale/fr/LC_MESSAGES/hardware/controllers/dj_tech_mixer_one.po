@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 06:00+0000\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -23,18 +23,13 @@ msgstr ""
 
 #: ../../hardware/controllers/dj_tech_mixer_one.rst:4
 msgid ""
-"`DJ Tech <http://www.djtechpro.com/eng/index.php>`__ is not to be confused "
-"with `DJ TechTools <http://djtechtools.com/>`__, the makers of the MIDI "
-"Fighter series, Chroma Cables, and Chroma Caps."
+"`DJ Tech "
+"<https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php>`__"
+" is not to be confused with `DJ TechTools <http://djtechtools.com/>`__, the "
+"makers of the MIDI Fighter series, Chroma Cables, and Chroma Caps."
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_mixer_one.rst:8
-msgid ""
-"`Manufacturer’s product page <http://www.djtechpro.com/eng/product-"
-"details.php?id=10>`__"
-msgstr ""
-
-#: ../../hardware/controllers/dj_tech_mixer_one.rst:13
+#: ../../hardware/controllers/dj_tech_mixer_one.rst:11
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
 "missing. If you own this controller, please consider `contributing one "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "The Allen & Heath Xone:K2 is a flexible controller that is mapped to cont
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:13
-msgid "`Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__"
+msgid "`Manufacturer’s product page <https://www.allen-heath.com/ahproducts/xonek2/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:14
@@ -37,7 +37,7 @@ msgid "`Manufacturer’s User Guide <https://www.allen-heath.com/content/uploads
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:16
-msgid "`Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__"
+msgid "`Blank template diagrams <https://www.allen-heath.com/content/uploads/2023/06/XoneK2BlankOverlays.zip>`__"
 msgstr ""
 
 #: ../../hardware/controllers/allen_heath_xone_k2_k1.rst:21

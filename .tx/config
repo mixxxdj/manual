@@ -1,4 +1,4 @@
-[2.5]
+[main]
 host = https://www.transifex.com
 
 [o:mixxx-dj-software:p:mixxx-dj-manual-26:r:404]
@@ -7,6 +7,7 @@ source_file            = source/locale/pot/404.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = 404
 replace_edited_strings = false
 keep_translations      = false
 
@@ -16,6 +17,7 @@ source_file            = source/locale/pot/chapters/advanced_topics.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--advanced_topics
 replace_edited_strings = false
 keep_translations      = false
 
@@ -25,6 +27,7 @@ source_file            = source/locale/pot/chapters/appendix.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix
 replace_edited_strings = false
 keep_translations      = false
 
@@ -34,6 +37,7 @@ source_file            = source/locale/pot/chapters/appendix/additional_resource
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--additional_resources
 replace_edited_strings = false
 keep_translations      = false
 
@@ -43,6 +47,7 @@ source_file            = source/locale/pot/chapters/appendix/application_shortcu
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--application_shortcuts
 replace_edited_strings = false
 keep_translations      = false
 
@@ -52,6 +57,7 @@ source_file            = source/locale/pot/chapters/appendix/changelog.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--changelog
 replace_edited_strings = false
 keep_translations      = false
 
@@ -61,6 +67,7 @@ source_file            = source/locale/pot/chapters/appendix/commandline_dev_too
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--commandline_dev_tools
 replace_edited_strings = false
 keep_translations      = false
 
@@ -70,6 +77,7 @@ source_file            = source/locale/pot/chapters/appendix/keyboard_mapping_ta
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--keyboard_mapping_table
 replace_edited_strings = false
 keep_translations      = false
 
@@ -79,6 +87,7 @@ source_file            = source/locale/pot/chapters/appendix/mixxx_controls.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--mixxx_controls
 replace_edited_strings = false
 keep_translations      = false
 
@@ -88,6 +97,7 @@ source_file            = source/locale/pot/chapters/appendix/settings_directory.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--appendix--settings_directory
 replace_edited_strings = false
 keep_translations      = false
 
@@ -97,6 +107,7 @@ source_file            = source/locale/pot/chapters/controlling_mixxx.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--controlling_mixxx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -106,6 +117,7 @@ source_file            = source/locale/pot/chapters/djing_with_mixxx.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--djing_with_mixxx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -115,6 +127,7 @@ source_file            = source/locale/pot/chapters/effects.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--effects
 replace_edited_strings = false
 keep_translations      = false
 
@@ -124,6 +137,7 @@ source_file            = source/locale/pot/chapters/example_setups.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--example_setups
 replace_edited_strings = false
 keep_translations      = false
 
@@ -133,6 +147,7 @@ source_file            = source/locale/pot/chapters/getting_involved.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--getting_involved
 replace_edited_strings = false
 keep_translations      = false
 
@@ -142,6 +157,7 @@ source_file            = source/locale/pot/chapters/getting_started.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--getting_started
 replace_edited_strings = false
 keep_translations      = false
 
@@ -151,6 +167,7 @@ source_file            = source/locale/pot/chapters/hardware.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--hardware
 replace_edited_strings = false
 keep_translations      = false
 
@@ -160,6 +177,7 @@ source_file            = source/locale/pot/chapters/introduction.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--introduction
 replace_edited_strings = false
 keep_translations      = false
 
@@ -169,6 +187,7 @@ source_file            = source/locale/pot/chapters/library.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--library
 replace_edited_strings = false
 keep_translations      = false
 
@@ -178,6 +197,7 @@ source_file            = source/locale/pot/chapters/livebroadcasting.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--livebroadcasting
 replace_edited_strings = false
 keep_translations      = false
 
@@ -187,6 +207,7 @@ source_file            = source/locale/pot/chapters/microphones.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--microphones
 replace_edited_strings = false
 keep_translations      = false
 
@@ -196,6 +217,7 @@ source_file            = source/locale/pot/chapters/preferences.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences
 replace_edited_strings = false
 keep_translations      = false
 
@@ -205,6 +227,7 @@ source_file            = source/locale/pot/chapters/preferences/beat_detection.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--beat_detection
 replace_edited_strings = false
 keep_translations      = false
 
@@ -214,6 +237,7 @@ source_file            = source/locale/pot/chapters/preferences/colors.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--colors
 replace_edited_strings = false
 keep_translations      = false
 
@@ -223,6 +247,7 @@ source_file            = source/locale/pot/chapters/preferences/equalizers.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--equalizers
 replace_edited_strings = false
 keep_translations      = false
 
@@ -232,6 +257,7 @@ source_file            = source/locale/pot/chapters/preferences/key_detection.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--key_detection
 replace_edited_strings = false
 keep_translations      = false
 
@@ -241,6 +267,7 @@ source_file            = source/locale/pot/chapters/preferences/library.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--library
 replace_edited_strings = false
 keep_translations      = false
 
@@ -249,6 +276,7 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/preferences/s
 source_file            = source/locale/pot/chapters/preferences/sound_hardware.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--preferences--sound_hardware
 replace_edited_strings = false
 keep_translations      = false
 
@@ -258,6 +286,7 @@ source_file            = source/locale/pot/chapters/user_interface.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--user_interface
 replace_edited_strings = false
 keep_translations      = false
 
@@ -266,6 +295,7 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/chapters/vinyl_control
 source_file            = source/locale/pot/chapters/vinyl_control.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = chapters--vinyl_control
 replace_edited_strings = false
 keep_translations      = false
 
@@ -275,6 +305,7 @@ source_file            = source/locale/pot/glossary.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = glossary_
 replace_edited_strings = false
 keep_translations      = false
 
@@ -284,6 +315,7 @@ source_file            = source/locale/pot/hardware/controllers/akai_lpd8.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--akai_lpd8
 replace_edited_strings = false
 keep_translations      = false
 
@@ -293,6 +325,7 @@ source_file            = source/locale/pot/hardware/controllers/akai_mpd24.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--akai_mpd24
 replace_edited_strings = false
 keep_translations      = false
 
@@ -302,6 +335,7 @@ source_file            = source/locale/pot/hardware/controllers/allen_heath_xone
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--allen_heath_xone_k2_k1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -311,6 +345,7 @@ source_file            = source/locale/pot/hardware/controllers/american_audio_r
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--american_audio_radius_2000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -320,6 +355,7 @@ source_file            = source/locale/pot/hardware/controllers/american_audio_v
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--american_audio_vms2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -329,6 +365,7 @@ source_file            = source/locale/pot/hardware/controllers/american_audio_v
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--american_audio_vms4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -338,6 +375,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_bcd200
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_bcd2000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -347,6 +385,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_bcd300
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_bcd3000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -356,6 +395,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_bcr200
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_bcr2000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -365,6 +405,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_cmd_mi
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_cmd_micro
 replace_edited_strings = false
 keep_translations      = false
 
@@ -374,6 +415,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_cmd_mm
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_cmd_mm_1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -383,6 +425,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_cmd_st
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_cmd_studio_4a
 replace_edited_strings = false
 keep_translations      = false
 
@@ -392,6 +435,7 @@ source_file            = source/locale/pot/hardware/controllers/behringer_ddm400
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--behringer_ddm4000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -401,6 +445,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_dn_hs5500.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_dn_hs5500
 replace_edited_strings = false
 keep_translations      = false
 
@@ -410,6 +455,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_dn_sc2000.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_dn_sc2000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -419,6 +465,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_mc3000.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_mc3000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -428,6 +475,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_mc4000.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_mc4000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -437,6 +485,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_mc6000mk2.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_mc6000mk2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -446,6 +495,7 @@ source_file            = source/locale/pot/hardware/controllers/denon_mc7000.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--denon_mc7000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -455,6 +505,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_cdj_101.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_cdj_101
 replace_edited_strings = false
 keep_translations      = false
 
@@ -464,6 +515,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_djm_101.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_djm_101
 replace_edited_strings = false
 keep_translations      = false
 
@@ -473,6 +525,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_imix_rel
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_imix_reload
 replace_edited_strings = false
 keep_translations      = false
 
@@ -482,6 +535,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_kontrol_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_kontrol_one
 replace_edited_strings = false
 keep_translations      = false
 
@@ -491,6 +545,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_mix_101.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_mix_101
 replace_edited_strings = false
 keep_translations      = false
 
@@ -500,6 +555,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_tech_mixer_on
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_tech_mixer_one
 replace_edited_strings = false
 keep_translations      = false
 
@@ -509,6 +565,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_techtools_mid
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_techtools_midi_figher_classic
 replace_edited_strings = false
 keep_translations      = false
 
@@ -518,6 +575,7 @@ source_file            = source/locale/pot/hardware/controllers/dj_techtools_mid
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--dj_techtools_midi_figher_twister
 replace_edited_strings = false
 keep_translations      = false
 
@@ -527,6 +585,7 @@ source_file            = source/locale/pot/hardware/controllers/eks_otus.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--eks_otus
 replace_edited_strings = false
 keep_translations      = false
 
@@ -536,6 +595,7 @@ source_file            = source/locale/pot/hardware/controllers/electrix_tweaker
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--electrix_tweaker
 replace_edited_strings = false
 keep_translations      = false
 
@@ -545,6 +605,7 @@ source_file            = source/locale/pot/hardware/controllers/evolution_x_sess
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--evolution_x_session
 replace_edited_strings = false
 keep_translations      = false
 
@@ -554,6 +615,7 @@ source_file            = source/locale/pot/hardware/controllers/faderfox_dj2.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--faderfox_dj2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -563,6 +625,7 @@ source_file            = source/locale/pot/hardware/controllers/gemini_cdmp_7000
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--gemini_cdmp_7000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -572,6 +635,7 @@ source_file            = source/locale/pot/hardware/controllers/gemini_firstmix.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--gemini_firstmix
 replace_edited_strings = false
 keep_translations      = false
 
@@ -581,6 +645,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_4_mx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -590,6 +655,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_mac_edition
 replace_edited_strings = false
 keep_translations      = false
 
@@ -599,6 +665,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_mk1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -608,6 +675,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_mk2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -617,6 +685,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_mk4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -626,6 +695,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_rmx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -635,6 +705,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_dj_cons
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_dj_console_rmx2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -644,6 +715,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_MIX
 replace_edited_strings = false
 keep_translations      = false
 
@@ -653,6 +725,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_air
 replace_edited_strings = false
 keep_translations      = false
 
@@ -662,6 +735,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_compact
 replace_edited_strings = false
 keep_translations      = false
 
@@ -671,6 +745,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_inpulse_200
 replace_edited_strings = false
 keep_translations      = false
 
@@ -680,6 +755,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_inpulse_300
 replace_edited_strings = false
 keep_translations      = false
 
@@ -689,6 +765,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_instinct
 replace_edited_strings = false
 keep_translations      = false
 
@@ -698,6 +775,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_jogvision
 replace_edited_strings = false
 keep_translations      = false
 
@@ -707,6 +785,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_mp3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -716,6 +795,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_mp3_e2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -725,6 +805,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_djcontr
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_starlight
 replace_edited_strings = false
 keep_translations      = false
 
@@ -734,6 +815,7 @@ source_file            = source/locale/pot/hardware/controllers/hercules_p32_dj.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_p32_dj
 replace_edited_strings = false
 keep_translations      = false
 
@@ -743,6 +825,7 @@ source_file            = source/locale/pot/hardware/controllers/ion_discover_dj.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--ion_discover_dj
 replace_edited_strings = false
 keep_translations      = false
 
@@ -752,6 +835,7 @@ source_file            = source/locale/pot/hardware/controllers/ion_discover_dj_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--ion_discover_dj_pro
 replace_edited_strings = false
 keep_translations      = false
 
@@ -761,6 +845,7 @@ source_file            = source/locale/pot/hardware/controllers/keith_mcmillen_q
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--keith_mcmillen_quneo
 replace_edited_strings = false
 keep_translations      = false
 
@@ -770,6 +855,7 @@ source_file            = source/locale/pot/hardware/controllers/kontrol_dj_kdj50
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--kontrol_dj_kdj500
 replace_edited_strings = false
 keep_translations      = false
 
@@ -779,6 +865,7 @@ source_file            = source/locale/pot/hardware/controllers/korg_kaoss_dj.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--korg_kaoss_dj
 replace_edited_strings = false
 keep_translations      = false
 
@@ -788,6 +875,7 @@ source_file            = source/locale/pot/hardware/controllers/korg_nanokontrol
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--korg_nanokontrol
 replace_edited_strings = false
 keep_translations      = false
 
@@ -797,6 +885,7 @@ source_file            = source/locale/pot/hardware/controllers/korg_nanokontrol
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--korg_nanokontrol2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -806,6 +895,7 @@ source_file            = source/locale/pot/hardware/controllers/korg_nanopad2.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--korg_nanopad2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -815,6 +905,7 @@ source_file            = source/locale/pot/hardware/controllers/m_audio_x_sessio
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--m_audio_x_session_pro
 replace_edited_strings = false
 keep_translations      = false
 
@@ -824,6 +915,7 @@ source_file            = source/locale/pot/hardware/controllers/m_audio_xponent.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--m_audio_xponent
 replace_edited_strings = false
 keep_translations      = false
 
@@ -833,6 +925,7 @@ source_file            = source/locale/pot/hardware/controllers/miditech_midicon
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--miditech_midicontrol
 replace_edited_strings = false
 keep_translations      = false
 
@@ -842,6 +935,7 @@ source_file            = source/locale/pot/hardware/controllers/mixman_dm2.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--mixman_dm2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -851,6 +945,7 @@ source_file            = source/locale/pot/hardware/controllers/mixvibes_u_mix_c
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--mixvibes_u_mix_control_2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -860,6 +955,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_f1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -869,6 +965,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s2_mk1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -878,6 +975,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s2_mk2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -887,6 +985,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s2_mk3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -896,6 +995,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -905,6 +1005,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s4_mk2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -913,6 +1014,7 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/n
 source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_s4_mk3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -922,6 +1024,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_x1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -931,6 +1034,7 @@ source_file            = source/locale/pot/hardware/controllers/native_instrumen
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--native_instruments_traktor_kontrol_z1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -940,6 +1044,7 @@ source_file            = source/locale/pot/hardware/controllers/nintendo_wiimote
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--nintendo_wiimote
 replace_edited_strings = false
 keep_translations      = false
 
@@ -949,6 +1054,7 @@ source_file            = source/locale/pot/hardware/controllers/novation_dicer.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--novation_dicer
 replace_edited_strings = false
 keep_translations      = false
 
@@ -958,6 +1064,7 @@ source_file            = source/locale/pot/hardware/controllers/novation_launchp
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--novation_launchpad_mini
 replace_edited_strings = false
 keep_translations      = false
 
@@ -967,6 +1074,7 @@ source_file            = source/locale/pot/hardware/controllers/novation_launchp
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--novation_launchpad_mk1
 replace_edited_strings = false
 keep_translations      = false
 
@@ -976,6 +1084,7 @@ source_file            = source/locale/pot/hardware/controllers/novation_launchp
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--novation_launchpad_mk2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -985,6 +1094,7 @@ source_file            = source/locale/pot/hardware/controllers/novation_twitch.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--novation_twitch
 replace_edited_strings = false
 keep_translations      = false
 
@@ -994,6 +1104,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_dj2go.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_dj2go
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1003,6 +1114,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_dj2go2_to
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_dj2go2_touch
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1012,6 +1124,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_idj_live_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_idj_live_ii
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1021,6 +1134,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1030,6 +1144,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_platinum
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1039,6 +1154,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_pro
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1048,6 +1164,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_pro_3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1057,6 +1174,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_pro_fx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1066,6 +1184,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_pro_ii
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1075,6 +1194,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_n4.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_n4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1084,6 +1204,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_ns7.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_ns7
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1093,6 +1214,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_omni_cont
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_omni_control
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1102,6 +1224,16 @@ source_file            = source/locale/pot/hardware/controllers/numark_party_mix
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_party_mix
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--numark_scratch]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_scratch.po
+source_file            = source/locale/pot/hardware/controllers/numark_scratch.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--numark_scratch
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1111,6 +1243,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_total_con
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_total_control
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1120,6 +1253,7 @@ source_file            = source/locale/pot/hardware/controllers/numark_v7.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--numark_v7
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1129,6 +1263,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_2000
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_cdj_2000
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1138,6 +1273,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_350.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_cdj_350
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1147,6 +1283,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_cdj_850.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_cdj_850
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1156,6 +1293,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_200.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_200
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1165,6 +1303,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_400.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_400
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1174,6 +1313,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_flx4
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_flx4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1183,6 +1323,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_sb
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1192,6 +1333,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb2.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_sb2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1201,6 +1343,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sb3.
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_sb3
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1210,6 +1353,7 @@ source_file            = source/locale/pot/hardware/controllers/pioneer_ddj_sx.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--pioneer_ddj_sx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1219,6 +1363,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_beatmix_2
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_beatmix_2
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1228,6 +1373,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_beatmix_4
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_beatmix_4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1237,6 +1383,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_beatpad.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_beatpad
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1246,6 +1393,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_digital_j
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_digital_jockey_2_controller_edition
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1255,6 +1403,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_digital_j
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_digital_jockey_2_master_edition
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1264,6 +1413,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_jockey_3_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_jockey_3_master_edition
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1273,6 +1423,7 @@ source_file            = source/locale/pot/hardware/controllers/reloop_terminal_
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_terminal_mix_series
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1282,6 +1433,7 @@ source_file            = source/locale/pot/hardware/controllers/roland_dj_505.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--roland_dj_505
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1291,6 +1443,7 @@ source_file            = source/locale/pot/hardware/controllers/sony_sixxaxis.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--sony_sixxaxis
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1300,6 +1453,7 @@ source_file            = source/locale/pot/hardware/controllers/soundless_studio
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--soundless_studio_joymidi
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1309,6 +1463,7 @@ source_file            = source/locale/pot/hardware/controllers/stanton_djc_4.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--stanton_djc_4
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1318,6 +1473,7 @@ source_file            = source/locale/pot/hardware/controllers/stanton_scs1d.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--stanton_scs1d
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1327,6 +1483,7 @@ source_file            = source/locale/pot/hardware/controllers/stanton_scs1m.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--stanton_scs1m
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1336,6 +1493,7 @@ source_file            = source/locale/pot/hardware/controllers/stanton_scs3d.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--stanton_scs3d
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1345,6 +1503,7 @@ source_file            = source/locale/pot/hardware/controllers/stanton_scs3m.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--stanton_scs3m
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1354,6 +1513,7 @@ source_file            = source/locale/pot/hardware/controllers/tascam_us_428.po
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--tascam_us_428
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1363,6 +1523,7 @@ source_file            = source/locale/pot/hardware/controllers/trakprodj.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--trakprodj
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1372,6 +1533,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_sphin.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_sphin
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1381,6 +1543,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_typhoon.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_typhoon
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1390,6 +1553,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_vci_100_m
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_vci_100_mixvibes_3dex_edition
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1399,6 +1563,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_vci_100mk
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_vci_100mki
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1408,6 +1573,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_vci_100mk
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_vci_100mkii
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1417,6 +1583,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_vci_300.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_vci_300
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1426,6 +1593,7 @@ source_file            = source/locale/pot/hardware/controllers/vestax_vci_400.p
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--vestax_vci_400
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1434,6 +1602,7 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/y
 source_file            = source/locale/pot/hardware/controllers/yaeltex_minimixxx.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--controllers--yaeltex_minimixxx
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1443,6 +1612,7 @@ source_file            = source/locale/pot/hardware/manuals.pot
 source_lang            = en
 type                   = PO
 minimum_perc           = 0
+resource_name          = hardware--manuals
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1451,6 +1621,7 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/index.po
 source_file            = source/locale/pot/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1461,3 +1632,4 @@ type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
+resource_name          = sphinx
