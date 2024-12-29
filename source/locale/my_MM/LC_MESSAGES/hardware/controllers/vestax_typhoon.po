@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Language-Team: Burmese (Myanmar) (https://app.transifex.com/mixxx-dj-software/teams/7734/my_MM/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my_MM\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/vestax_typhoon.rst:2
+msgid "Vestax Typhoon"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_typhoon.rst:4
+msgid ""
+"This controller has been discontinued as Vestax went out of business in "
+"2014."
+msgstr ""
+
+#: ../../hardware/controllers/vestax_typhoon.rst:6
+msgid ""
+"`Manfacturer’s product page <http://serato.com/hardware/vestax-typhoon>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_typhoon.rst:7
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/vestax-typhoon-mapping-for-"
+"mixxx-2-0/12551>`__"
+msgstr ""
+
+#: ../../hardware/controllers/vestax_typhoon.rst:12
+msgid ""
+"Unfortunately a detailed description of this controller mapping is still "
+"missing. If you own this controller, please consider `contributing one "
+"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
+"documenting-the-mapping>`__."
+msgstr ""

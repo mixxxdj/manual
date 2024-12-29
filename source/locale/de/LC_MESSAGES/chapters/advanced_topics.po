@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# Fabio Kapeller, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
-"PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Fabio Kapeller, 2024\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -266,6 +267,8 @@ msgid ""
 "By far, the easiest way to create a new MIDI mapping is by using the "
 "Controller Wizard."
 msgstr ""
+"Der mit Abstand einfachste Weg, ein neues MIDI-Mapping zu erstellen, ist die"
+" Verwendung des Controller-Assistenten."
 
 #: ../../chapters/advanced_topics.rst:42
 msgid "Connect your controller(s) to your computer"
@@ -347,6 +350,8 @@ msgid ""
 "Invert: Use this option for controls that you want to work backwards from "
 "how they were detected."
 msgstr ""
+"Verwenden Sie diese Option für Steuerungen, bei denen die Funktion umgekehrt"
+" von der Erkennung arbeiten soll."
 
 #: ../../chapters/advanced_topics.rst:70
 msgid ""
@@ -355,18 +360,28 @@ msgid ""
 "the next press. (Think an actual hardware toggle switch, or a button that "
 "lights up on the first press and turns off on the second press)."
 msgstr ""
+"Schalter-Modus: Verwenden Sie diese Option für Controller, die Steuerungen "
+"haben, die wie Schalter funktionieren und beim ersten Drücken einen Wert und"
+" beim nächsten Drücken einen anderen Wert ausgeben. (Denken Sie an einen "
+"echten Hardware-Umschalter oder einen Knopf, der beim ersten Drücken "
+"aufleuchtet und beim zweiten Drücken wieder erlischt)."
 
 #: ../../chapters/advanced_topics.rst:74
 msgid ""
 "Jog Wheel / Select Knob:  Use this for knobs that don't have a beginning or "
 "an end, but spin continuously."
 msgstr ""
+" Jog Wheel / Auswahlregler: Verwenden Sie dies für Regler, die keinen Anfang"
+" oder Ende haben, sondern kontinuierlich gedreht werden."
 
 #: ../../chapters/advanced_topics.rst:77
 msgid ""
 "The Controller wizard saves the new mapping to the ``controllers`` directory"
 " in the user settings directory, see :ref:`appendix-settings-files`."
 msgstr ""
+"Der Controller-Assistent speichert das neue Mapping im Verzeichnis "
+"``controllers`` im Benutzerkonfigurationsverzeichnis, siehe :ref:`appendix-"
+"settings-files`."
 
 #: ../../chapters/advanced_topics.rst:81
 msgid ""
@@ -375,6 +390,11 @@ msgid ""
 "information, go to `<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_."
 msgstr ""
+"Sie können dann die XML-Datei, die erstellt wird, oder eine der "
+"mitgelieferten Dateien bearbeiten, wenn Sie sie feinabstimmen oder weitere "
+"Zuordnungen hinzufügen möchten. Weitere Informationen finden Sie unter "
+"`<https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-Mapping-File-"
+"Format>`_."
 
 #: ../../chapters/advanced_topics.rst:86
 msgid ""
@@ -382,6 +402,10 @@ msgid ""
 "can't map modifier (shift) keys and platter rotations. Use :ref:`MIDI "
 "Scripting <advanced-controller-midiscript>` instead."
 msgstr ""
+"Der Controller-Assistent funktioniert nur für :term:`MIDI`-Geräte. Derzeit "
+"können Sie keine Modifier- (Shift-)Tasten und Plattendrehungen zuordnen. "
+"Verwenden Sie stattdessen :ref:`MIDI`<advanced-controller-midiscript> "
+"Scripting."
 
 #: ../../chapters/advanced_topics.rst:93
 msgid "MIDI Scripting"
@@ -456,6 +480,10 @@ msgid ""
 "because all your changes may be lost if you uninstall or upgrade Mixxx. "
 "Instead, copy the default mapping file to the following location:"
 msgstr ""
+"Es wird nicht empfohlen, die systemweite Tastaturzuordnungsdatei zu ändern, "
+"da alle Ihre Änderungen verloren gehen können, wenn Sie Mixxx deinstallieren"
+" oder aktualisieren. Stattdessen sollten Sie die Standardzuordnungsdatei an "
+"folgenden Ort kopieren:"
 
 #: ../../chapters/advanced_topics.rst:135
 msgid "Linux: :file:`~/.mixxx/Custom.kbd.cfg`"

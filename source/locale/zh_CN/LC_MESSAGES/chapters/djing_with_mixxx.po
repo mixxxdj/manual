@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-25 01:36+0100\n"
-"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -989,17 +989,21 @@ msgstr ""
 msgid "Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:519
+#: ../../chapters/djing_with_mixxx.rst:518
+msgid "Skip Silence Start Full Volume"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:520
 msgid ""
 "The Full Intro + Outro and Fade At Outro Start modes both use the intro and "
 "outro cues but the Full Track and Skip Silence cues do not."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:524
+#: ../../chapters/djing_with_mixxx.rst:525
 msgid "Full Intro + Outro and Fade At Outro Start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:525
+#: ../../chapters/djing_with_mixxx.rst:526
 msgid ""
 "The Full Intro + Outro and Fade At Outro start Auto DJ modes use the "
 ":ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to "
@@ -1008,26 +1012,26 @@ msgid ""
 " track. Auto DJ picks the time of the shorter section as the crossfade time."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:527
+#: ../../chapters/djing_with_mixxx.rst:528
 msgid ""
 "In both modes, if the outro is shorter than the intro, Auto DJ will align "
 "the start of the outro with the start of the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:534
+#: ../../chapters/djing_with_mixxx.rst:535
 msgid "Intro and outro start markers aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:536
+#: ../../chapters/djing_with_mixxx.rst:537
 msgid ""
 "The two modes work differently when the outro is longer than the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid "**Full Intro + Outro Mode**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid ""
 "The full length of both the intro and the outro are always played. When the "
 "outro is longer than the intro, Auto DJ aligns the end of the intro and "
@@ -1036,20 +1040,20 @@ msgid ""
 "tracks. Therefore, it is the default mode."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid "Intro and outro end cues aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid ""
 "Intro and outro start cues aligned by Auto DJ in Full Intro + Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid "**Fade At Outro Start**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid ""
 "Auto DJ always aligns the start of the intro and outro. When the outro is "
 "longer than the intro, Auto DJ cuts off the end of the outro. This can be "
@@ -1057,29 +1061,31 @@ msgid ""
 " long outro. However, the transition may sound abrupt if the intro is short."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Auto DJ fade at outro start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Intro and outro start cues aligned by Auto DJ in Fade At Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:559
+#: ../../chapters/djing_with_mixxx.rst:560
 msgid "Full Track and Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:560
+#: ../../chapters/djing_with_mixxx.rst:561
 msgid ""
 "The Full Track and Skip Silence Auto DJ modes do not use the intro and outro"
 " cues. They crossfade tracks over a number of seconds that you specify in "
 "the box next to the mode selection menu. The Full Track mode plays the "
 "entire length of every file. The Skip Silence mode works the same way but "
 "automatically cuts out silence at the beginning and ends of tracks (defined "
-"as when the signal first goes above or below -60 dBFS)."
+"as when the signal first goes above or below -60 dBFS). The Skip Silence "
+"Start Full Volume, can be used if a fade in is not desired. In this mode the"
+" transition starts with crossfader centered."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:562
+#: ../../chapters/djing_with_mixxx.rst:564
 msgid ""
 "If you still want to use Auto DJ like a normal music player application, use"
 " one of these modes with a transition time of 0 seconds."

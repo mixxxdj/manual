@@ -9,10 +9,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-25 01:36+0100\n"
-"PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -1329,7 +1329,11 @@ msgstr "Volledige track"
 msgid "Skip Silence"
 msgstr "Stilte overslaan"
 
-#: ../../chapters/djing_with_mixxx.rst:519
+#: ../../chapters/djing_with_mixxx.rst:518
+msgid "Skip Silence Start Full Volume"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:520
 msgid ""
 "The Full Intro + Outro and Fade At Outro Start modes both use the intro and "
 "outro cues but the Full Track and Skip Silence cues do not."
@@ -1338,11 +1342,11 @@ msgstr ""
 "de intro en outro cues maar de 'volledige track' en 'Stilte overslaan' "
 "gebruiken deze niet."
 
-#: ../../chapters/djing_with_mixxx.rst:524
+#: ../../chapters/djing_with_mixxx.rst:525
 msgid "Full Intro + Outro and Fade At Outro Start"
 msgstr "Volledige Intro + Outro en Fade op Outro Start"
 
-#: ../../chapters/djing_with_mixxx.rst:525
+#: ../../chapters/djing_with_mixxx.rst:526
 msgid ""
 "The Full Intro + Outro and Fade At Outro start Auto DJ modes use the "
 ":ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to "
@@ -1357,7 +1361,7 @@ msgstr ""
 "van de oude track en de intro van de nieuwe track. Auto DJ neemt de tijd van"
 " het kortste deel om de duur van de overgang te bepalen."
 
-#: ../../chapters/djing_with_mixxx.rst:527
+#: ../../chapters/djing_with_mixxx.rst:528
 msgid ""
 "In both modes, if the outro is shorter than the intro, Auto DJ will align "
 "the start of the outro with the start of the intro."
@@ -1365,21 +1369,21 @@ msgstr ""
 "Wanneer de outro korter is dan de intro dan zal Auto DJ in beide gevallen "
 "het intro start punt uiltlijnen met de outro start punt."
 
-#: ../../chapters/djing_with_mixxx.rst:534
+#: ../../chapters/djing_with_mixxx.rst:535
 msgid "Intro and outro start markers aligned by Auto DJ"
 msgstr "Intro en outro start markeringen uitgelijnd door Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:536
+#: ../../chapters/djing_with_mixxx.rst:537
 msgid ""
 "The two modes work differently when the outro is longer than the intro."
 msgstr ""
 "Beide modi werken verschillend wanneer de outro langer is dan de intro."
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid "**Full Intro + Outro Mode**"
 msgstr "**Volledige Intro + Outro Modus**"
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid ""
 "The full length of both the intro and the outro are always played. When the "
 "outro is longer than the intro, Auto DJ aligns the end of the intro and "
@@ -1394,22 +1398,22 @@ msgstr ""
 " het meest geliefd vermits dit goed klinkt voor een verscheidenheid aan "
 "tracks, daarom is dit ook de standaard modus."
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid "Intro and outro end cues aligned by Auto DJ"
 msgstr "Intro en outro eind cues uitgelijnd door Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid ""
 "Intro and outro start cues aligned by Auto DJ in Full Intro + Outro mode"
 msgstr ""
 "Intro en outro start cues uitgelijnd door Auto DJ in Volledige Intro + Outro"
 " modus"
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid "**Fade At Outro Start**"
 msgstr "**Fade op Outro Start**"
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid ""
 "Auto DJ always aligns the start of the intro and outro. When the outro is "
 "longer than the intro, Auto DJ cuts off the end of the outro. This can be "
@@ -1422,37 +1426,32 @@ msgstr ""
 "loren gaat tijdens een lange outro. Deze overgang kan echter abrupt klinken "
 "wanneer de intro kort is. "
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Auto DJ fade at outro start"
 msgstr "Auto DJ fade op outro star"
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Intro and outro start cues aligned by Auto DJ in Fade At Outro mode"
 msgstr ""
 "Intro en outro start cues uitgelijnd door Auto DJ in Fade op Outro modus"
 
-#: ../../chapters/djing_with_mixxx.rst:559
+#: ../../chapters/djing_with_mixxx.rst:560
 msgid "Full Track and Skip Silence"
 msgstr "Volledige Track en Stilte overslaan"
 
-#: ../../chapters/djing_with_mixxx.rst:560
+#: ../../chapters/djing_with_mixxx.rst:561
 msgid ""
 "The Full Track and Skip Silence Auto DJ modes do not use the intro and outro"
 " cues. They crossfade tracks over a number of seconds that you specify in "
 "the box next to the mode selection menu. The Full Track mode plays the "
 "entire length of every file. The Skip Silence mode works the same way but "
 "automatically cuts out silence at the beginning and ends of tracks (defined "
-"as when the signal first goes above or below -60 dBFS)."
+"as when the signal first goes above or below -60 dBFS). The Skip Silence "
+"Start Full Volume, can be used if a fade in is not desired. In this mode the"
+" transition starts with crossfader centered."
 msgstr ""
-"De 'Volledige Track' en 'Stilte overslaan' Auto DJ modi gebruiken de intro "
-"en outro cues niet. Ze maken de overgang gedurende het aantal seconden dat "
-"wordt gespecifieerd in het vak naast de modus-keuze. De 'Volledige Track' "
-"modus speelt elk bestand volledig . De 'Stilte overslaan' modus werkt op "
-"dezelfde manier maar knipt de stilte aan het begin en einde van de track weg"
-" (gedefinieerd als wanneer het signaal voor het eerst boven of onder -60 "
-"dBFgaat)."
 
-#: ../../chapters/djing_with_mixxx.rst:562
+#: ../../chapters/djing_with_mixxx.rst:564
 msgid ""
 "If you still want to use Auto DJ like a normal music player application, use"
 " one of these modes with a transition time of 0 seconds."

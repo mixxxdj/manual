@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# Fabio Kapeller, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-25 01:36+0100\n"
-"PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Fabio Kapeller, 2024\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -219,28 +220,34 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
-msgstr ""
+msgstr "DJing mit Mixxx"
 
 #: ../../chapters/djing_with_mixxx.rst:6
 msgid ""
 "Mixxx was designed to be easy to learn for both novice and experienced DJs."
 msgstr ""
+"Mixxx wurde so entwickelt, dass es sowohl für Anfänger als auch für "
+"erfahrene DJs leicht zu erlernen ist."
 
 #: ../../chapters/djing_with_mixxx.rst:8
 msgid ""
 "This part of the manual provides you with directions for using Mixxx's "
 "features to create your own mixes."
 msgstr ""
+"Dieser Abschnitt des Handbuchs enthält Anweisungen zur Nutzung der "
+"Funktionen von Mixxx, um eigene Mixes zu erstellen."
 
 #: ../../chapters/djing_with_mixxx.rst:14
 msgid "Setting Your Levels Properly (Gain Staging)"
-msgstr ""
+msgstr "Korrekte Pegelsetzung (Gain Staging)"
 
 #: ../../chapters/djing_with_mixxx.rst-1
 msgid ""
 "A level meter in Mixxx with the gain set properly for the loudest part\n"
 "of a track"
 msgstr ""
+"Eine Pegelanzeige in Mixxx, bei dem der Gain für den lautesten Teil eines "
+"Tracks korrekt eingestellt ist."
 
 #: ../../chapters/djing_with_mixxx.rst:24
 msgid ""
@@ -256,10 +263,23 @@ msgid ""
 "above the average before the signal clips. The loudest parts of the music "
 "(the transients) should briefly go into the yellow region."
 msgstr ""
+"Das richtige Einstellen der Pegel, auch bekannt als Gain-Staging, ist "
+"entscheidend, um die bestmögliche Klangqualität aus dem verwendeten "
+"Equipment herauszuholen. In jeder Station der Signalkette, von den "
+"Kanaleingängen in Mixxx bis hin zum Endverstärker, sollte der Pegel deutlich"
+" über dem Grundrauschen liegen, aber unter dem Maximalpegel, bevor das "
+"Signal verzerrt. Die <level meter>Pegelanzeigen sollten sich größtenteils im"
+" oberen Bereich der grünen Zone bewegen. Das Pegelmessgerät links zeigt, wo "
+"sich die Pegel in Mixxx im Durchschnitt bei den lautesten Stellen eines "
+"Tracks befinden sollten. Der durchschnittliche Pegel sollte nicht in den "
+"gelben Bereich gehen. Verwenden Sie den gelben Bereich, um Spielraum zu "
+"lassen – also einen Puffer oberhalb des Durchschnittspegels, bevor das "
+"Signal verzerrt. Die lautesten Teile der Musik (die Transienten) sollten "
+"kurzzeitig in den gelben Bereich gehen."
 
 #: ../../chapters/djing_with_mixxx.rst:41
 msgid "A waveform at a good level"
-msgstr ""
+msgstr "Eine Wellenform mit einem guten Pegel"
 
 #: ../../chapters/djing_with_mixxx.rst:41
 msgid ""
@@ -268,12 +288,19 @@ msgid ""
 "illustrate the concepts. Adjusting the visual gain of the waveform display "
 "does not change the level of the audio."
 msgstr ""
+"Eine Wellenform mit einem guten Pegel. Beachten Sie, dass die "
+"Beispielwellenformen in diesem Abschnitt erstellt wurden, indem die visuelle"
+" Verstärkung der Wellenform-Anzeige in Mixxx angepasst wurde, um die "
+"Konzepte zu veranschaulichen. Das Anpassen der visuellen Verstärkung der "
+"Wellenform-Anzeige verändert nicht den Pegel des Audios."
 
 #: ../../chapters/djing_with_mixxx.rst-1
 msgid ""
 "A level meter in Mixxx indicating clipping. The gain should be turned\n"
 "down!"
 msgstr ""
+"Eine Pegelanzeige in Mixxx, die eine Übersteuerung anzeigt. Der Gain sollte "
+"heruntergedreht werden!"
 
 #: ../../chapters/djing_with_mixxx.rst:52
 msgid ""
@@ -290,14 +317,27 @@ msgid ""
 "more sensitive and convert electrical energy into acoustic energy more "
 "efficiently."
 msgstr ""
+"Wenn sich eine Pegelanzeige im roten Bereich befindet, clippt das Signal und"
+" der Gain sollte heruntergedreht werden. Einige Geräte haben keine "
+"Pegelanzeige, sondern nur eine LED, die aufleuchtet, wenn das Signal clippt."
+" Clipping bedeutet, dass die Spitzen der Wellenform abgeflacht werden, weil "
+"das Gerät den maximalen Pegel erreicht hat, den es verstärken kann. Dies "
+"verzerrt den Klang auf unangenehme Weise und kann das Equipment beschädigen,"
+" indem es mit mehr Leistung betrieben wird, als es vertragen kann. Den Gain "
+"weiter zu erhöhen, nachdem das Clipping beginnt (weiter in den roten Bereich"
+" eines Messgeräts), wird das Signal weiter verzerren. Wenn du den Klang "
+"lauter machen möchtest, ohne dass jeder Teil der Signalkette clippt, "
+"verwende mehr Lautsprecher oder Lautsprecher, die empfindlicher sind und "
+"elektrische Energie effizienter in akustische Energie umwandeln."
 
 #: ../../chapters/djing_with_mixxx.rst:69
 msgid "A clipping waveform"
-msgstr ""
+msgstr "Eine clippende Wellenform"
 
 #: ../../chapters/djing_with_mixxx.rst-1
 msgid "A level meter in Mixxx with the gain set too low"
 msgstr ""
+"Eine Pegelanzeige in Mixxx, bei dem der Gain zu niedrig eingestellt ist."
 
 #: ../../chapters/djing_with_mixxx.rst:76
 msgid ""
@@ -317,14 +357,29 @@ msgid ""
 "the signal reached the mixer and the mixer's gain did not have to be turned "
 "up."
 msgstr ""
+"Andererseits sollte das Signal nicht zu niedrig sein. Das liegt daran, dass "
+"jedes Audiogerät ein gewisses Rauschen erzeugt, das als Rauschgrenze "
+"bezeichnet wird. Zudem nehmen analoge Signale beim Übertragen über Kabel "
+"Rauschen auf. Das Signal, das links angezeigt wird, liegt relativ nahe an "
+"der Rauschgrenze. Wenn ein Gerät lauter gedreht wird, steigt das Rauschen "
+"nicht an – nur das Signal. Allerdings wird jedes Mal, wenn das Signal durch "
+"den Gain eines weiteren Geräts in der Signalkette verstärkt wird, sowohl das"
+" Rauschen als auch das Signal der vorherigen Geräte verstärkt. Wenn zum "
+"Beispiel die Soundkarte leiser eingestellt ist und du den Gain am Mischpult "
+"erhöhst, um das auszugleichen, ist das Signal-Rausch-Verhältnis (SRV oder "
+"S/R) des Soundkarten-Ausgangs niedrig, und der Gain des Mischpults verstärkt"
+" sowohl das Signal als auch das Rauschen der Soundkarte sowie das Rauschen, "
+"das entlang des Kabels aufgenommen wurde. Das Endergebnis wird mehr Rauschen"
+" enthalten, als wenn der Ausgang der Soundkarte lauter gestellt gewesen wäre"
+" und der Gain des Mischpults nicht so stark hätte aufgedreht werden müssen."
 
 #: ../../chapters/djing_with_mixxx.rst:0
 msgid "A waveform at too low of a level"
-msgstr ""
+msgstr "Eine Wellenform mit einem zu niedrigen Level"
 
 #: ../../chapters/djing_with_mixxx.rst:96
 msgid "A waveform that is too close to the noise floor"
-msgstr ""
+msgstr "Eine Wellenform, die zu nah an der Rauschgrenze ist"
 
 #: ../../chapters/djing_with_mixxx.rst:98
 msgid ""
@@ -333,10 +388,14 @@ msgid ""
 "as possible. Refer to the :ref:`Gain Knob <interface-gain-knob>` section for"
 " details."
 msgstr ""
+"Um die Ausgangslautstärke eines Soundsystems anzupassen und dabei ein hohes "
+"Signal-Rausch-Verhältnis beizubehalten, sollte der Gain so nah wie möglich "
+"an den Lautsprechern eingestellt werden. Weitere Details finden Sie im "
+"Abschnitt <interface-gain-knob> Gain-Regler."
 
 #: ../../chapters/djing_with_mixxx.rst:106
 msgid "Beatmatching and Mixing"
-msgstr ""
+msgstr "Beatmatching und Mixing"
 
 #: ../../chapters/djing_with_mixxx.rst:108
 msgid ""
@@ -347,6 +406,12 @@ msgid ""
 ":term:`tempo` and aligning the beats are the two things a DJ must do to "
 "beatmatch."
 msgstr ""
+"Beatmatching<beatmatching> ist der Prozess, bei dem die "
+"Wiedergabegeschwindigkeit eines Tracks so angepasst wird, dass sie mit dem "
+"Tempo eines anderen Tracks übereinstimmt. Beatmatching umfasst auch das "
+"Anpassen der Phase <phase> der Beats in einem Track, sodass sie mit den "
+"Beats des anderen Tracks ausgerichtet sind. Um beatmatching zu erreichen, "
+"muss ein DJ sowohl das Tempo <tempo> anpassen als auch die Beats ausrichten."
 
 #: ../../chapters/djing_with_mixxx.rst:114
 msgid ""
@@ -361,6 +426,19 @@ msgid ""
 "“shuffle” the beats in a track forwards or backwards, so they can be aligned"
 " with another track. See the chapter :ref:`interface-rate`."
 msgstr ""
+"Mixxx kann das Tempo anpassen und die Beats für dich ausrichten, aber das "
+"erfordert einen genau erkannten BPM-Wert und ein korrektes Beat-Raster für "
+"beide Tracks. Um diese Funktion zu aktivieren, tippe auf den SYNC-Button. Um"
+" manuell zu beatmatchen, muss das Tempo der beiden Tracks synchronisiert "
+"werden, indem die Wiedergabegeschwindigkeitsregler angepasst werden. Du "
+"kannst die Phase der Beats ändern, indem du mit der rechten Maustaste auf "
+"eine der Wellenformanzeigen klickst und ziehst, um einen der Tracks "
+"vorübergehend zu beschleunigen oder zu verlangsamen, bis die Beats "
+"ausgerichtet sind. Die temporären Pitch-Bend-Buttons können ebenfalls "
+"verwendet werden, um die Wiedergabegeschwindigkeit kurzzeitig anzupassen, "
+"wodurch du die Beats eines Tracks vorwärts oder rückwärts „shufflen“ kannst,"
+" um sie mit einem anderen Track auszurichten. Siehe das Kapitel interface-"
+"rate."
 
 #: ../../chapters/djing_with_mixxx.rst:125
 msgid ""
@@ -373,10 +451,19 @@ msgid ""
 "happens, the beats can be realigned by simply tapping one of the temporary "
 "pitch bend buttons a few times in the appropriate direction."
 msgstr ""
+"Zwei Tracks sind beatmatched, wenn ihre Tempi übereinstimmen und ihre Beats "
+"ausgerichtet sind. Ein “perfektes“ Beatmatching ist nahezu unmöglich – es "
+"wird immer eine kleine Differenz in den Wiedergabegeschwindigkeiten geben. "
+"Ein erfahrener DJ wird stets auf die Beats achten und auf das Driften der "
+"Beats hören. Dies hat einen deutlich hörbaren “doppelten Bassdrum“-Klang, "
+"der oft von einer Abschwächung des Kicks in der Intensität begleitet wird, "
+"wenn die beiden Kicks aus der Phase geraten. Wenn dies passiert, können die "
+"Beats durch mehrmaliges Tippen auf einen der temporären Pitch-Bend-Buttons "
+"in die richtige Richtung neu ausgerichtet werden."
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Sync Lock"
-msgstr ""
+msgstr "Sync Lock"
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -384,6 +471,10 @@ msgid ""
 "leave the beatmatching to Mixxx so you can focus on track selection, effects"
 " manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
 msgstr ""
+":term:`Sync Lock<sync lock> ist ein intelligenter Assistent, der es dir "
+"ermöglicht, das Beatmatching Mixxx zu überlassen, damit du dich auf die "
+"Trackauswahl, Effektmanipulation, Looping, 4-Deck-Mixing und andere "
+"fortgeschrittene DJ-Techniken konzentrieren kannst."
 
 #: ../../chapters/djing_with_mixxx.rst:143
 msgid ""
@@ -396,6 +487,16 @@ msgid ""
 "interrupt the playback of the other decks.  However, changing the rate of a "
 "stopped deck will change the rate of playing decks."
 msgstr ""
+"Um Sync Lock auf einem Deck zu aktivieren, halte den :guilabel:SYNC-Button "
+"gedrückt (oder klicke und halte ihn). Du erkennst, dass Sync Lock aktiviert "
+"ist, weil der Sync-Button beleuchtet bleibt. Das Ändern der "
+"Wiedergabegeschwindigkeit eines Decks, bei dem Sync aktiviert ist, wird die "
+"Geschwindigkeiten aller anderen Decks ändern, die ebenfalls den Sync-Button "
+"aktiviert haben. Es ist nicht erforderlich, bestimmte Decks als Führer oder "
+"Nachfolger festzulegen. Du kannst jeden Track mit Sync Lock abspielen, "
+"stoppen, auswerfen, laden und cueen, ohne die Wiedergabe der anderen Decks "
+"zu unterbrechen. Allerdings wird das Ändern der Geschwindigkeit eines "
+"gestoppten Decks die Geschwindigkeit der spielenden Decks ändern."
 
 #: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
@@ -404,6 +505,10 @@ msgid ""
 "drum & bass track with a 70 bpm dubstep track, Sync Lock will make sure they"
 " are lined up properly."
 msgstr ""
+"Sync Lock erkennt auch, wenn ein Track das doppelte BPM eines anderen Tracks"
+" hat, und passt sie entsprechend an. Wenn du also einen 140 BPM Drum & Bass "
+"Track mit einem 70 BPM Dubstep Track mischen möchtest, sorgt Sync Lock "
+"dafür, dass sie richtig ausgerichtet sind."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -412,10 +517,15 @@ msgid ""
 ":guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that the "
 "beats are perfectly lined up as well."
 msgstr ""
+"Normalerweise sorgt Sync Lock nur dafür, dass die Geschwindigkeitsregler "
+"korrekt eingestellt sind. Wenn du jedoch auch sicherstellen möchtest, dass "
+"deine Beats perfekt synchronisiert sind, aktiviere den :guilabel:QUANTIZE-"
+"Button. Bei Aktivierung wird Quantize dafür sorgen, dass die Beats ebenfalls"
+" perfekt ausgerichtet sind."
 
 #: ../../chapters/djing_with_mixxx.rst:163
 msgid "Sync Lock with Dynamic Tempo"
-msgstr ""
+msgstr "Sync Lock mit Dynamischem Tempo"
 
 #: ../../chapters/djing_with_mixxx.rst:165
 msgid ""
@@ -996,17 +1106,21 @@ msgstr ""
 msgid "Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:519
+#: ../../chapters/djing_with_mixxx.rst:518
+msgid "Skip Silence Start Full Volume"
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:520
 msgid ""
 "The Full Intro + Outro and Fade At Outro Start modes both use the intro and "
 "outro cues but the Full Track and Skip Silence cues do not."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:524
+#: ../../chapters/djing_with_mixxx.rst:525
 msgid "Full Intro + Outro and Fade At Outro Start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:525
+#: ../../chapters/djing_with_mixxx.rst:526
 msgid ""
 "The Full Intro + Outro and Fade At Outro start Auto DJ modes use the "
 ":ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to "
@@ -1015,26 +1129,26 @@ msgid ""
 " track. Auto DJ picks the time of the shorter section as the crossfade time."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:527
+#: ../../chapters/djing_with_mixxx.rst:528
 msgid ""
 "In both modes, if the outro is shorter than the intro, Auto DJ will align "
 "the start of the outro with the start of the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:534
+#: ../../chapters/djing_with_mixxx.rst:535
 msgid "Intro and outro start markers aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:536
+#: ../../chapters/djing_with_mixxx.rst:537
 msgid ""
 "The two modes work differently when the outro is longer than the intro."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid "**Full Intro + Outro Mode**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:539
+#: ../../chapters/djing_with_mixxx.rst:540
 msgid ""
 "The full length of both the intro and the outro are always played. When the "
 "outro is longer than the intro, Auto DJ aligns the end of the intro and "
@@ -1043,20 +1157,20 @@ msgid ""
 "tracks. Therefore, it is the default mode."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid "Intro and outro end cues aligned by Auto DJ"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:546
+#: ../../chapters/djing_with_mixxx.rst:547
 msgid ""
 "Intro and outro start cues aligned by Auto DJ in Full Intro + Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid "**Fade At Outro Start**"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:549
+#: ../../chapters/djing_with_mixxx.rst:550
 msgid ""
 "Auto DJ always aligns the start of the intro and outro. When the outro is "
 "longer than the intro, Auto DJ cuts off the end of the outro. This can be "
@@ -1064,29 +1178,31 @@ msgid ""
 " long outro. However, the transition may sound abrupt if the intro is short."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Auto DJ fade at outro start"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:556
+#: ../../chapters/djing_with_mixxx.rst:557
 msgid "Intro and outro start cues aligned by Auto DJ in Fade At Outro mode"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:559
+#: ../../chapters/djing_with_mixxx.rst:560
 msgid "Full Track and Skip Silence"
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:560
+#: ../../chapters/djing_with_mixxx.rst:561
 msgid ""
 "The Full Track and Skip Silence Auto DJ modes do not use the intro and outro"
 " cues. They crossfade tracks over a number of seconds that you specify in "
 "the box next to the mode selection menu. The Full Track mode plays the "
 "entire length of every file. The Skip Silence mode works the same way but "
 "automatically cuts out silence at the beginning and ends of tracks (defined "
-"as when the signal first goes above or below -60 dBFS)."
+"as when the signal first goes above or below -60 dBFS). The Skip Silence "
+"Start Full Volume, can be used if a fade in is not desired. In this mode the"
+" transition starts with crossfader centered."
 msgstr ""
 
-#: ../../chapters/djing_with_mixxx.rst:562
+#: ../../chapters/djing_with_mixxx.rst:564
 msgid ""
 "If you still want to use Auto DJ like a normal music player application, use"
 " one of these modes with a transition time of 0 seconds."
