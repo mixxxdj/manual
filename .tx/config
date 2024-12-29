@@ -1,6 +1,15 @@
 [main]
 host = https://www.transifex.com
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--numark_scratch]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_scratch.po
+source_file            = source/locale/pot/hardware/controllers/numark_scratch.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--numark_scratch
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-26:r:404]
 file_filter            = source/locale/<lang>/LC_MESSAGES/404.po
 source_file            = source/locale/pot/404.pot
@@ -1228,7 +1237,7 @@ resource_name          = hardware--controllers--numark_party_mix
 replace_edited_strings = false
 keep_translations      = false
 
-[o:mixxx-dj-software:p:mixxx-dj-manual-25:r:hardware--controllers--numark_scratch]
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--numark_scratch]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_scratch.po
 source_file            = source/locale/pot/hardware/controllers/numark_scratch.pot
 type                   = PO
@@ -1630,6 +1639,6 @@ file_filter            = source/locale/<lang>/LC_MESSAGES/sphinx.po
 source_file            = source/locale/pot/sphinx.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = sphinx
 replace_edited_strings = false
 keep_translations      = false
-resource_name          = sphinx
