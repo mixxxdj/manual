@@ -26,7 +26,7 @@ playing track of each deck.
 -  `Serato DJ Hardware Page <https://serato.com/dj/hardware/numark-ns6ii>`__
 -  `User Guide <https://www.numark.com/images/product_downloads/NS6II-UserGuide-v1.1.pdf>`__
 
-.. versionadded:: 2.4.2
+.. versionadded:: 2.5.1
 
 Mapping Description
 -------------------
@@ -105,13 +105,13 @@ No.       Control                                                               
 22        :hwlabel:`SHIFT` + :hwlabel:`BLEEP` Button (:hwlabel:`KEYLOCK`)         Toggle :term:`Keylock <key lock>`
 23        :hwlabel:`SCRATCH` button                                               Toggle platter scratching. If active, touching the jogwheel results in scratch behavior, if disabled jogwheel behaves as if only outer edge was touched.
 23        :hwlabel:`SHIFT` + :hwlabel:`SCRATCH` button                            Switch display between showing remaining/elapsed time
-24        :hwlabel:`STRIP SEARCH`                                                 Seek to absolute position in *stopped* track
+24        :hwlabel:`STRIP SEARCH`                                                 Seek to absolute position in *stopped* track (does nothing for playing tracks to avoid accidents)
 24        :hwlabel:`SHIFT` + :hwlabel:`STRIP SEARCH`                              Seek to absolute position in *playing* track
 25        :hwlabel:`SLIP`                                                         toggle slip mode
 25        :hwlabel:`SHIFT` + :hwlabel:`SLIP` (:hwlabel:`QUANTIZE`)                Toggle Deck track repeat (quantize is mapped to :hwlabel:`SHIFT` + :hwlabel:`SYNC` instead)
 33        :hwlabel:`BROWSE` encoder                                               Navigate vertically in the library a single step at a time
 33        :hwlabel:`SHIFT` + :hwlabel:`BROWSE` encoder                            Navigate vertically in the library jumping a configurable amount of steps each time
-33        :hwlabel:`BROWSE` encoder press                                         :mixxx:coref:`Perform GoToItem <[Library],GoToItem>`.
+33        :hwlabel:`BROWSE` encoder press                                         Perform :mixxx:coref:`GoToItem <[Library],GoToItem>`
 34        :hwlabel:`VIEW` button                                                  Toggle maximized library view (useful when searching for tracks on small screens)
 34        :hwlabel:`SHIFT` + :hwlabel:`VIEW` button                               Sort library by BPM
 35        :hwlabel:`BACK` button                                                  Move Focus Back (jump between library sidebar and table)
@@ -155,17 +155,17 @@ The NS6II features 4 identical (with respect to symmetry) Mixer Channels. See :r
 ========  ==============================================================  ==========================================
 No.       Control                                                         Function
 ========  ==============================================================  ==========================================
+38        :hwlabel:`LOAD`                                                 Load the currently selected track from the library into the deck corresponding to the channel
+46        :hwlabel:`A` / :hwlabel:`B`                                     Route Channel to left/right :ref:`Effect Unit <interface-effects>`.
 7         :hwlabel:`GAIN`                                                 Channel Gain (see :ref:`interface-eq-gain`)
-8         Channel VuMeter                                                 loudness of signal of that specific channel (after EQ, before Filter and Faders). A white LED indicates a clipping signal (see :term:`level meter`).
 9         :hwlabel:`HIGH`                                                 Channel High/Treble EQ
+8         Channel VuMeter                                                 loudness of signal of that specific channel (after EQ, before Filter and Faders). A white LED indicates a clipping signal (see :term:`level meter`).
 10        :hwlabel:`MID`                                                  Channel Mid EQ
 11        :hwlabel:`LOW`                                                  Channel Low/Bass EQ
-12        Channel Fader                                                   Decrease the volume of the channel
-13        :hwlabel:`🎧` (pfl/cue) button                                  Toggle :term:`PFL`. Notice: due to hardware constraints, this always works in numark mode: clicking a single button solos the corresponding channel, to listen to multiple channels, press and then release multiple buttons at once.
-14        :hwlabel:`A OFF B` switch                                       The :term:`crossfader` orientation switches determine to which side of the crossfader the deck is assigned. It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
 47        :hwlabel:`FILTER`                                               This knob lets you control the Meta knob of the deck’s Quick Effect.
-38        :hwlabel:`LOAD`                                                 Load the currently selected track from the library into the deck corresponding to the channel
-48        :hwlabel:`A` / :hwlabel:`B`                                     Route Channel to left/right :ref:`Effect Unit <interface-effects>`.
+14        :hwlabel:`A OFF B` switch                                       The :term:`crossfader` orientation switches determine to which side of the crossfader the deck is assigned. It can be set to the left or right side, or to the center where it is unaffected by the crossfader knob.
+13        :hwlabel:`🎧` (pfl/cue) button                                  Toggle :term:`PFL`. Notice: due to hardware constraints, this always works in numark mode: clicking a single button solos the corresponding channel, to listen to multiple channels, press and then release multiple buttons at once.
+12        Channel Fader                                                   Decrease the volume of the channel
 ========  ==============================================================  ==========================================
 
 Front Panel
@@ -493,7 +493,7 @@ to the NS6II and playing (PC1), do the following:
    offline. The first computer will still control both sides of the controller.
 
 2. Before giving PC2 control of one side of the NS6II, make sure no audio is playing
-   from PC2 on that deck. Then, press and hold the :hwlabel:`SHIFT` key and press the :hwlabel:`PC1/PC2`` button on the non-playing deck.
+   from PC2 on that deck. Then, press and hold the :hwlabel:`SHIFT` key and press the :hwlabel:`PC1/PC2` button on the non-playing deck.
 
    PC2 will now control the two channels on that side of the controller, and will
    automatically have focus of the browse controls. Use the browse knob to
@@ -533,11 +533,11 @@ amount of music before performing it during a live set.
 Settings
 --------
 
-==========================================  ============  =======================================================  ===================================================
-Variable                                    Type          Default                                                  Description
-==========================================  ============  =======================================================  ===================================================
-``NS6II.RATE_RANGES``                       ``[float]``   ``[0.04, 0.08, 0.10, 0.16, 0.24, 0.50, 0.90, 1.00]``     List of available :mixxx:coref:`rate ranges <[ChannelN],rateRange>` to cycle through using the Pitch Bend +/- Buttons.
-``NS6II.NAVIGATION_ENCODER_ACCELERATION``   ``int``       5                                                        Amount of tracks moved in a single step when turning the :hwlabel:`BROWSE` encoder while pressing :hwlabel:`SHIFT`.
-``NS6II.DEFAULT_LOOP_ROOT_SIZE``            ``int``       1                                                        the size of the first pad on :ref:`numark-ns6ii-autoloop`, :ref:`numark-ns6ii-looproll` and :ref:`numark-ns6ii-beatjump`.
-``NS6II.USE_BUTTON_BACKLIGHT``              ``bool``      ``true``                                                 ``true``: deactivated button has a slight (usually red) backlight, ``false``: LED of deactivated button is completely off.
-==========================================  ============  =======================================================  ===================================================
+==================================================  ===================================================
+Label                                               Description
+==================================================  ===================================================
+Use Button Backlight                                Checked: deactivated button has a slight (usually red) backlight, Unchecked: LED of deactivated button is completely off.
+Move this many tracks at once with :hwlabel:SHIFT   Amount of tracks moved in a single step when turning the :hwlabel:`BROWSE` encoder while pressing :hwlabel:`SHIFT`.
+Loop size of the smallest Pad                       the size of the first pad on :ref:`numark-ns6ii-autoloop`, :ref:`numark-ns6ii-looproll` and :ref:`numark-ns6ii-beatjump`.
+In controller script: ``NS6II.RATE_RANGES``         List of available :mixxx:coref:`rate ranges <[ChannelN],rateRange>` to cycle through using the Pitch Bend +/- Buttons.
+==================================================  ===================================================
