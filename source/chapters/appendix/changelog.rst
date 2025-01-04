@@ -9,6 +9,27 @@
 Changelog
 =========
 
+.. _v2-5-1:
+
+`2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`__ (unreleased)
+-------------------------------------------------------------------------
+
+Controller Mappings
+^^^^^^^^^^^^^^^^^^^
+
+
+* Numark NS6II: Add new controller mapping `#11075 <https://github.com/mixxxdj/mixxx/pull/11075>`__
+* Hercules Inpulse 300: Updated mapping `#14051 <https://github.com/mixxxdj/mixxx/pull/14051>`__
+
+Fixes
+^^^^^
+
+
+* Deere (64 samplers): Bring back library in regular view
+  `#14101 <https://github.com/mixxxdj/mixxx/pull/14101>`__
+  `#14097 <https://github.com/mixxxdj/mixxx/issues/14097>`__
+* Enable R3 time-stretching with Rubberband 4.0.0 API version numbers `#14100 <https://github.com/mixxxdj/mixxx/pull/14100>`__
+
 .. _v2-5-0:
 
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
