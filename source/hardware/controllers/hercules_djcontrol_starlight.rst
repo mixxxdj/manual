@@ -54,18 +54,18 @@ All controls not listed here work as labeled.
 Decks
 ^^^^^
 
-==============  =======================
-Button          Description
-==============  =======================
-SYNC            Sync lock
-SHIFT + SYNC    Set deck as sync leader
-CUE             Cue point
-SHIFT + CUE     Return to beginning of loaded song
-PLAY            Play/Pause
-SHIFT + PLAY    Cue Stutter
-VINYL           Scratch On/Off (Default: on)
-SHIFT + Filter  Move FX chain metaknobs
-==============  =======================
+===================  =======================
+Button               Description
+===================  =======================
+SYNC                 Sync lock
+SHIFT + SYNC         Set deck as sync leader
+CUE                  Cue point
+SHIFT + CUE          Return to beginning of loaded song
+PLAY                 Play/Pause
+SHIFT + PLAY         Cue Stutter
+VINYL                Scratch On/Off (Default: on)
+SHIFT + Bass/Filter  Move FX chain metaknobs
+===================  =======================
 
 When Vinyl is on, turning a jog wheel scratches that deck. When Vinyl is
 off, turning a jog wheel bends the pitch of the track.
