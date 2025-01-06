@@ -141,6 +141,8 @@ You can use any of the timecode media supported by Mixxx:
 +----------------------------------------+---------------------+
 | MixVibes DVS V2 Vinyl                  | Very high           |
 +----------------------------------------+---------------------+
+| Pioneer RekordBox DVS                  | Unknown             |
++----------------------------------------+---------------------+
 
 At the present time, Serato records are recommended if you are looking to buy
 vinyl. If you want to use CDs, you can download a free copy for personal use
