@@ -15,20 +15,23 @@ Setting Your Levels Properly (Gain Staging)
 .. sectionauthor::
    Be <be.0@gmx.com>
 
+Setting your levels properly, also known as ``Gain Staging``, is essential for
+getting the best sound quality out of the equipment you are using.
+
+At every link in your signal chain, from Mixxx's channel gains to the
+power amplifier, the level should be well above the noise floor,
+but lower than the maximum level before the signal clips.
+
 .. figure:: ../_static/level-meter-green.png
    :align: left
    :alt: A level meter in Mixxx with the gain set properly for the loudest part
          of a track
    :figclass: pretty-figures
 
-Setting your levels properly, also known as ``Gain Staging``, is essential for
-getting the best sound quality out of the equipment you are using. At every link
-in your signal chain, from Mixxx's channel gains to the power amplifier, the
-level should be well above the noise floor, but lower than the maximum level
-before the signal clips. The :term:`level meters <level meter>` should mostly be
-around the top of their green region. The level meter pictured to the left shows
-where Mixxx's level meters should average at the loudest parts of tracks. The
-average level should not be in the yellow region. Use the yellow region to leave
+The :term:`level meters <level meter>` should mostly be around the top of
+their green region. The level meter pictured to the left shows where Mixxx's
+level meters should average at the loudest parts of tracks.
+The average level should not be in the yellow region. Use the yellow region to leave
 headroom, or available level above the average before the signal clips. The
 loudest parts of the music (the transients) should briefly go into the yellow
 region.
