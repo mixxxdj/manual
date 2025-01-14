@@ -21,7 +21,7 @@ Setting Your Levels Properly (Gain Staging)
          of a track
    :figclass: pretty-figures
 
-Setting your levels properly, also known as gain staging, is essential for
+Setting your levels properly, also known as ``Gain Staging``, is essential for
 getting the best sound quality out of the equipment you are using. At every link
 in your signal chain, from Mixxx's channel gains to the power amplifier, the
 level should be well above the noise floor, but lower than the maximum level
