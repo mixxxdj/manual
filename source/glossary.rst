@@ -385,6 +385,8 @@ Glossary of Terms
      Similar to the main :term:`cue` point, a hotcue is a reference point in the
      track. DJs usually place hotcues at distinctive positions within a track
      such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues.
+     Hotcues can be assigned a text label and a color, and they can be reordered
+     with drag-and-drop of hotcue buttons in decks.
 
    cue marker
      A catch-all term used in mixxx to refer to the :term:`cue point`,
