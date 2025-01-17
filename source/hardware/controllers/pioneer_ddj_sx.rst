@@ -164,7 +164,7 @@ Figure           Control                                        Description
 13               :hwlabel:`PARAMETER LEFT`                      Jump *beatjump_size* beats backward
 13               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER LEFT`   Increase *beatjump_size*
 14               :hwlabel:`PARAMETER RIGHT`                     Jump *beatjump_size* beats forward
-14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  Decreate *beatjump_size*
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  Decrease *beatjump_size*
 ===============  =============================================  =================================================================================================================================
 
 
