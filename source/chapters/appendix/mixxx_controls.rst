@@ -3762,7 +3762,7 @@ EQs and Filters
 +++++++++++++++
 
 :term:`Equalizers <EQ>` and filters are special effects units.
-The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`.
+The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]],enabled`.
 Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
 
 
