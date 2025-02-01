@@ -2872,46 +2872,12 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Zooms the waveform to look ahead or back as needed.
 
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
    :range: 1.0 - 10.0
    :feedback: Waveform zoom buttons
 
-   .. versionadded:: 1.11.0
-
-
-.. mixxx:control:: [ChannelN],waveform_zoom_up
-                   [PreviewDeckN],waveform_zoom_up
-                   [SamplerN],waveform_zoom_up
-
-   Waveform Zoom Out
-
-   :range: ?
-   :feedback: Waveform zoom buttons
-
-   .. versionadded:: 1.11.0
-
-
-.. mixxx:control:: [ChannelN],waveform_zoom_down
-                   [PreviewDeckN],waveform_zoom_down
-                   [SamplerN],waveform_zoom_down
-
-   Waveform Zoom In
-
-   :range: ?
-   :feedback: Waveform zoom buttons
-
-   .. versionadded:: 1.11.0
-
-
-.. mixxx:control:: [ChannelN],waveform_zoom_set_default
-                   [PreviewDeckN],waveform_zoom_set_default
-                   [SamplerN],waveform_zoom_set_default
-
-   Return to default waveform zoom level
-
-   :range: ?
-   :feedback: Waveform zoom buttons
-
-   .. versionadded:: 1.11.0
+   .. versionadded:: 1.11.0, ControlPotmeter since 2.6.0
 
 
 .. mixxx:control:: [ChannelN],wheel
