@@ -305,4 +305,4 @@ Make sure its high enough within mixxx
 Booth/Gain Volume
 ^^^^^^^^^^^^^^^^^
 
-Behaves as espected (but doesn’t manipulate any mixxx controls).
+Behaves as expected (but doesn’t manipulate any mixxx controls).
