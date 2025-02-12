@@ -90,6 +90,8 @@ No.                       Control                                               
 8                         :hwlabel:`CROSSFADER CURVE` (front side of controller)  Adjust crossfader curve between fade and cut.
 9                         :hwlabel:`HEADPHONES MIX` (front side of controller)    Adjusts the cue/main mix in the headphone output.
 10                        :hwlabel:`HEADPHONES LEVEL` (front side of controller)  Adjusts the headphone output gain.
+11                        :hwlabel:`AutoDJ toggle` (Shift + TX/FX press)          Toggle AutoDJ on/off.
+12                        :hwlabel:`AutoDJ crossfade` (TX/FX press)               Commence AutoDJ crossfade.
 ========================  ======================================================  ===========================================================================================
 
 Deck section
