@@ -9,3 +9,4 @@ sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme
 sphinx-multiversion
 ./sphinx-mixxx
+myst_parser
