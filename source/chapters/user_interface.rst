@@ -682,7 +682,7 @@ You can also shift loops using the :ref:`beatjump / loop move controls <interfac
   If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
 **Beatloop**
-  Left-clicking the Beatloop button starts a loop over the set number of beats. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
+  Left-clicking the Beatloop button starts a loop over the set number of beats. If the loaded track has no beats, the unit is seconds. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
   loop overlay on the waveforms changes color. Right-clicking the Beatloop button temporarily enables a rolling loop over the set number of beats. Playback will resume where the track would have been if it had not entered the loop.
 **Double loop**
