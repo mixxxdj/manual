@@ -1,6 +1,15 @@
 Hercules DJControl Inpulse 500
 ==============================
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (schematic view)
+   :figclass: pretty-figures
+
+   Hercules DJControl Inpulse 500 (schematic view)
+
 -  `Manufacturer’s product page <https://web.archive.org/web/20241013231548/https://www.hercules.com/en-us/product/djcontrol-inpulse-500/>`__
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolinpulse500-en//>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-inpulse-500/19739/101/>`__
@@ -20,8 +29,9 @@ page <https://support.hercules.com/en/product/djcontrolinpulse500-en//>`__.
 Sound card setup
 ----------------
 
-This controller has built-in 4 channel output sound card, with MAIN
-output (RCA) and HEADPHONE output (3.5mm jack).
+This controller has built-in 4 channel output sound card, with MAIN output
+(2x RCA or 2x unbalanced 6.35mm jack) and HEADPHONE output (stereo
+3.5mm jack or stereo 6.35mm jack)
 
 -  Open **Preferences > Sound Hardware**
 -  Select the **Output** tab
