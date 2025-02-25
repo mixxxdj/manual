@@ -128,6 +128,13 @@ Pad 1 - 8                                                        Set and trigger
 MODE 2: Loop Mode
 ^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_loop.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (loop mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -139,6 +146,18 @@ Pad 5                                                            Activate Beatlo
 Pad 6                                                            Activate Beatloop of 4 beat size.
 Pad 7                                                            Activate Beatloop of 8 beat size.
 Pad 8                                                            Activate Beatloop of 16 beat size.
+===============================================================  ==========================================
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_loop_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (loop mode pads, shift+pad)
+   :figclass: pretty-figures
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
 :hwlabel:`SHIFT` + Pad 1                                         Activate Beatloop of 3/4 beat size.
 :hwlabel:`SHIFT` + Pad 2                                         Activate Beatloop of 5/4 beat size.
 :hwlabel:`SHIFT` + Pad 3                                         Activate Beatloop of 6/4 beat size.
