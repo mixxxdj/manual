@@ -28,20 +28,20 @@ deck 4.
 ..
 
 .. csv-table::
-   :header: "#", "Name", "Function"
+   :header: "Control", "Name", "Function"
    :widths: 5 25 70
 
-   "Knob", ":hwlabel:`EQ` (rotate)", "Adjust selected function (defaults to channel gain)"
-   "M", ":hwlabel:`TREBLE` (press)", "Toggle high filter cutoff"
-   "M", ":hwlabel:`TREBLE` (long press)", "Toggle knob between gain and high filter"
-   "S", ":hwlabel:`MID` (press)", "Toggle mid filter cutoff"
-   "S", ":hwlabel:`MID` (long press)", "Toggle knob between gain and mid filter"
-   "R", ":hwlabel:`BASS` (press)", "Toggle low filter cutoff"
-   "R", ":hwlabel:`BASS` (long press)", "Toggle knob between gain and low filter"
-   "□", ":hwlabel:`EFFECT` (press)", "Toggle quick effect rack"
-   "□", ":hwlabel:`EFFECT` (long press)", "Toggle knob between gain and quick effect"
-   "LEDs", ":hwlabel:`LED`", "Blinks when the hardware control does not match the software control and soft takeover is enabled"
-   "Faders", ":hwlabel:`Channel fader`", "Adjust volume level"
+   "Knob", "(rotate)", "Adjust selected function (defaults to channel gain)"
+   "Treble", ":hwlabel:`M` (press)", "Toggle high filter cutoff"
+   "Treble", ":hwlabel:`M` (long press)", "Toggle knob between gain and high filter"
+   "Mid", ":hwlabel:`S` (press)", "Toggle mid filter cutoff"
+   "Mid", ":hwlabel:`S` (long press)", "Toggle knob between gain and mid filter"
+   "Bass", ":hwlabel:`R` (press)", "Toggle low filter cutoff"
+   "Bass", ":hwlabel:`R` (long press)", "Toggle knob between gain and low filter"
+   "Quick Effect", ":hwlabel:`□` (press)", "Toggle quick effect rack"
+   "Quick Effect", ":hwlabel:`□` (long press)", "Toggle knob between gain and quick effect"
+   "LEDs", "", "Blinks when the hardware control does not match the software control and soft takeover is enabled"
+   "Faders", "", "Adjust volume level"
 
 Beat Grid
 ---------
@@ -54,15 +54,15 @@ The only exception is the rotary encoders, which are mapped separately as
 described below.
 
 .. csv-table::
-   :header: "#", "Name", "Function"
+   :header: "Control", "Name", "Function"
    :widths: 5 25 70
 
-   "M", ":hwlabel:`SLIP`", "Toggle slip mode"
-   "S", ":hwlabel:`QUANTIZE`", "Toggle quantize mode"
-   "R", ":hwlabel:`KEY`", "Toggle the key lock"
-   "□", ":hwlabel:`CUE`", ":term:`Headphone button` / PFL. Toggle sending channel to the cue (headphone) channel"
-   "LEDs", ":hwlabel:`LED`", "Blinks when the hardware control does not match the software control and soft takeover is enabled"
-   "Faders", ":hwlabel:`Tempo fader`", "Adjust track tempo"
+   "Slip", ":hwlabel:`M`", "Toggle slip mode"
+   "Quantize", ":hwlabel:`S`", "Toggle quantize mode"
+   "Key Lock", ":hwlabel:`R`", "Toggle the key lock"
+   "Cue", ":hwlabel:`□`", ":term:`Headphone button` / PFL. Toggle sending channel to the cue (headphone) channel"
+   "LEDs", "", "Blinks when the hardware control does not match the software control and soft takeover is enabled"
+   "Faders", "", "Adjust track tempo"
 
 Transports
 ----------
@@ -72,27 +72,27 @@ with the exception of "record" which toggles recording of the mix and the
 navigation buttons which always affect the library view.
 
 .. csv-table::
-   :header: "#", "Name", "Function"
+   :header: "Function", "Name", "Function"
    :widths: 5 25 70
 
-   "⏵", ":hwlabel:`Play/Pause`", "Play/pause playback"
-   "⏸", ":hwlabel:`CUE`", "If track is playing: stops the track and resets position to the main cue point
+   "Play/Pause", ":hwlabel:`⏵`", "Play/pause playback"
+   "Cue", ":hwlabel:`⏸`", "If track is playing: stops the track and resets position to the main cue point
 
    If playback is stopped: sets the main cue point"
-   "⏸", ":hwlabel:`CUE` (hold)", "Play the track from main cue point, release to stop playback and return to the main cue point. Playback must be initially stopped on the main cue point."
-   "⏺", ":hwlabel:`RECORD`", "Toggle recording the mix"
-   "⏪", ":hwlabel:`REWIND`", "Beatjump backwards"
-   "⏩", ":hwlabel:`FASTFORWARD`", "Beatjump forwards"
-   "«",  ":hwlabel:`DECK`", "Select deck 1"
-   "«",  ":hwlabel:`DECK` (hold)", "Select deck 3"
-   "»",  ":hwlabel:`DECK`", "Select deck 2"
-   "»",  ":hwlabel:`DECK` (hold)", "Select deck 4"
-   "▲",  ":hwlabel:`UP`", "Navigate up in selected library pane"
-   "▼",  ":hwlabel:`DOWN`", "Navigate down in selected library pane"
-   "◀", ":hwlabel:`LEFT` (tracks pane focused)", "Navigate to library sidebar"
-   "◀", ":hwlabel:`LEFT` (sidebar focused)", "Expand/collapse selected list"
-   "▶", ":hwlabel:`RIGHT` (sidebar focused)", "Navigate to library tracks view"
-   "▶", ":hwlabel:`RIGHT` (tracks pane focused)", "Load track to first available deck"
+   "Cue", ":hwlabel:`⏸` (hold)", "Play the track from main cue point, release to stop playback and return to the main cue point. Playback must be initially stopped on the main cue point."
+   "Record", ":hwlabel:`⏺`", "Toggle recording the mix"
+   "Rewind", ":hwlabel:`⏪`", "Beatjump backwards"
+   "Fastforward", ":hwlabel:`⏩`", "Beatjump forwards"
+   "Deck 1",  ":hwlabel:`«`", "Select deck 1"
+   "Deck 3",  ":hwlabel:`«` (hold)", "Select deck 3"
+   "Deck 2",  ":hwlabel:`»`", "Select deck 2"
+   "Deck 4",  ":hwlabel:`»` (hold)", "Select deck 4"
+   "Up",  ":hwlabel:`▲`", "Navigate up in selected library pane"
+   "Down",  ":hwlabel:`▼`", "Navigate down in selected library pane"
+   "Left", ":hwlabel:`◀` (tracks pane focused)", "Navigate to library sidebar"
+   "Left", ":hwlabel:`◀` (sidebar focused)", "Expand/collapse selected list"
+   "Right", ":hwlabel:`▶` (sidebar focused)", "Navigate to library tracks view"
+   "Right", ":hwlabel:`▶` (tracks pane focused)", "Load track to first available deck"
 
 .. hint::
    The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings. See :ref:`interface-cue-modes` for more info.
@@ -105,10 +105,10 @@ The four right most rotary encoders are not mapped to individual decks.
 Instead they control global mixer values.
 
 .. csv-table::
-   :header: "#", "Name", "Function"
+   :header: "Control", "Name", "Function"
    :widths: 5 25 70
 
-   "5",  ":hwlabel:`MAIN GAIN`", "Adjust the volume level of :term:`master output`."
-   "6",  ":hwlabel:`BALANCE`", "Adjust the output balance"
-   "7",  ":hwlabel:`CUE GAIN`", "Adjust the headphone volume"
-   "8",  ":hwlabel:`CUE MIX`", ":term:`Head/mix knob<Head/mix button>`. Adjust the dry/wet output to the headphones, mixing between the cue output and the main mix output"
+   "Main Gain",  "", "Adjust the volume level of :term:`master output`."
+   "Balance",  "", "Adjust the output balance"
+   "Cue Gain",  "", "Adjust the headphone volume"
+   "Cue Mix",  "", ":term:`Head/mix knob<Head/mix button>`. Adjust the dry/wet output to the headphones, mixing between the cue output and the main mix output"
