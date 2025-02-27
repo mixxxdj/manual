@@ -18,6 +18,8 @@ Overview
 
 See the tables below for controls descriptions.
 
+.. note:: The mixer can be connected over Bluetooth, USB-C, or both. For use with Mixxx it is recommended to disable Bluetooth and connect only via USB-C.
+
 Deck and EQ
 -----------
 
