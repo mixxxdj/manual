@@ -9,6 +9,8 @@ M-Vave SMK-25 II
 Overview
 --------
 
+.. note:: The controller can be connected over Bluetooth, USB-C, or both. For use with Mixxx it is recommended to disable Bluetooth and connect only via USB-C.
+
 The M-Vave SMK-25 II is mapped for Mixxx use as a 2-deck controller with two
 distinct layers for playing samples and for controlling the deck.
 On both layers, the touch strips and rotary encoders are mapped as follows:
