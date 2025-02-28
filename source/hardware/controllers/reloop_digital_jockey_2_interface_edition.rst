@@ -54,7 +54,7 @@ Jog Wheels
 Jog modes work as described in the following table:
 
 .. table::
-    :widths: 70
+    :widths: 30 70
 
     ================== =============
     Jog mode           Description
