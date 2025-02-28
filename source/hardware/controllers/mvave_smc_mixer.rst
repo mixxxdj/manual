@@ -73,6 +73,10 @@ The transport buttons along the bottom affect only the currently selected deck,
 with the exception of "record" which toggles recording of the mix and the
 navigation buttons which always affect the library view.
 
+.. note:: Currently Mixxx must be focused for the library navigation buttons to
+   have any effect. This is an open issue that will be addressed in a future
+   version of Mixxx.
+
 .. csv-table::
    :header: "Function", "Name", "Function"
    :widths: 5 25 70
