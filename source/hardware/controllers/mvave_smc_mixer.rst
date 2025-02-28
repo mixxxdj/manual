@@ -18,7 +18,7 @@ Overview
 
 See the tables below for controls descriptions.
 
-.. note:: The mixer can be connected over Bluetooth, USB-C, or both. For use with Mixxx it is recommended to disable Bluetooth and connect only via USB-C.
+.. note:: The mixer can be connected over Bluetooth, USB-C, or both. For use with Mixxx it is recommended to disable Bluetooth and connect only via USB-C [#]_.
 
 Deck and EQ
 -----------
@@ -118,3 +118,7 @@ Instead they control global mixer values.
    "Balance",  "", "Adjust the output balance"
    "Cue Gain",  "", "Adjust the headphone volume"
    "Cue Mix",  "", ":term:`Head/mix knob<Head/mix button>`. Adjust the dry/wet output to the headphones, mixing between the cue output and the main mix output"
+
+.. [#] Bluetooth is not as reliable as a wired connection for live
+   performances, and may result in less smooth fader operation and higher
+   latencies.
