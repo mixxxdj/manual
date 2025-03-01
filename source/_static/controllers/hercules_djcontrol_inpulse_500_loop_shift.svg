@@ -1636,8 +1636,8 @@
        x="86.827766"
        y="40.635418" /></text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 13.114149,10.921305 v 1.322911 h 7.937503"
+     style="fill:none;stroke:#1a1a1a;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     d="m 13.114149,10.921305 v 1.322911 l 7.937503,3.704167"
      id="path578" />
   <path
      transform="matrix(1.411111,0,0,-1.411111,84.77274,21.704369)"
@@ -1921,12 +1921,12 @@
        y="9.454134">SHIFT</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="28.264084"
      y="9.4547443"
      id="text562"><tspan
        id="tspan562"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="28.264084"
        y="9.4547443">HOT CUE</tspan></text>
   <text
@@ -1941,32 +1941,32 @@
        y="9.4547443">LOOP</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="53.776432"
      y="9.454134"
      id="text564"><tspan
        id="tspan564"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="53.776432"
        y="9.454134">SLICER</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="66.537407"
      y="9.454134"
      id="text565"><tspan
        id="tspan565"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="66.537407"
        y="9.454134">SAMPLER</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="13.139519"
      y="21.431688"
      id="text566"><tspan
        id="tspan566"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="13.139519"
        y="21.431688">CUE</tspan></text>
   <text
@@ -2051,70 +2051,70 @@
        y="36.914856">8</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="28.287895"
      y="13.006097"
      id="text575"><tspan
        id="tspan575"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="28.287895"
        y="13.006097">TRANSPORT</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="41.004803"
      y="13.006097"
      id="text576"><tspan
        id="tspan576"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="41.004803"
        y="13.006097">ROLL</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="53.733097"
      y="12.975587"
      id="text577"><tspan
        id="tspan577"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="53.733097"
        y="12.975587">FX</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="66.541679"
      y="12.975587"
      id="text578"><tspan
        id="tspan578"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="66.541679"
        y="12.975587">BEATJUMP</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="13.26997"
      y="33.967068"
      id="text580"><tspan
        id="tspan580"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="13.26997"
        y="33.967068">/</tspan></text>
   <rect
-     style="fill:#000000;stroke:none;stroke-width:0.491972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     style="fill:#4d4d4d;stroke:none;stroke-width:0.491972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
      id="rect580"
      width="0.39687499"
      height="1.3229202"
      x="13.799137"
      y="32.410854" />
   <rect
-     style="fill:#000000;stroke:none;stroke-width:0.491973;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     style="fill:#4d4d4d;stroke:none;stroke-width:0.491973;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
      id="rect581"
      width="0.39687499"
      height="1.3229187"
      x="14.460598"
      y="32.410854" />
   <path
-     style="fill:#000000;stroke:none;stroke-width:0.6223;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     style="fill:#4d4d4d;stroke:none;stroke-width:0.6223;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
      d="m 12.740807,33.072271 -1.322916,-0.79375 v 1.587496 z"
      id="path581" />
   <text
