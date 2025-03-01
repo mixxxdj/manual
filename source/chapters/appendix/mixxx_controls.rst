@@ -1240,6 +1240,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Just like :mixxx:coref:`reloop_toggle <[ChannelN],reloop_toggle>`, the player seeks back to the loop start when the current play position is behind the loop, and enabled without a seek when it is in front of or inside the loop.
    This allows a loop catching behavior on one hand and a jump back when the loop has been exit by just triggering this control.
 
+   If :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` is "Jump", the jump will be "armed" when set to 1, meaning that the deck will perform the jump to the hotcue when the play position reaches the hotcue's "from" position (marked with a circular arrow on the waveform).
+   If the play position is after the saved jump positions (both "from" and "to"), it will bring the playback to the "to" position.
+
    Setting the control to 1 when the track is currently not playing (i.e. :mixxx:coref:`play <[ChannelN],play>` is set to 0) will start hotcue previewing.
    After resetting the control to 0, playback will usually be stopped and the player will seek to the hotcue position.
    If :mixxx:coref:`play <[ChannelN],play>` is set to 1 while previewing is active, the playback will continue and no seek occurs.
@@ -1250,6 +1253,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
    .. versionchanged:: 2.4.0
       Added support for saved loops.
+   .. versionchanged:: 2.6.0
+      Added support for saved jump.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_activatecue
@@ -1323,11 +1328,13 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       ===== ===================================
       0     Hotcue X is not set
       1     Hotcue X is set
-      2     Hotcue X is active (saved loop is enabled or hotcue is previewing)
+      2     Hotcue X is active (saved loop is enabled, saved jump is armed or hotcue is previewing)
       ===== ===================================
 
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[ChannelN],hotcue_X_enabled`.
+   .. versionchanged:: 2.6.0
+      Added support for saved jump.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_type
@@ -1343,6 +1350,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       0     Invalid/Not Set
       1     Hotcue
       4     Saved Loop
+      5     Saved Jump
       ===== ===================================
 
    .. versionadded:: 2.4.0
