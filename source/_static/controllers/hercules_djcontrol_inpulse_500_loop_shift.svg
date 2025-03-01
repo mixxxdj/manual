@@ -1578,13 +1578,16 @@
          id="path228" />
     </clipPath>
   </defs>
-  <rect
-     style="fill:#ffffff;stroke:none;stroke-width:0.661458;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
-     id="rect866"
-     width="95.249992"
-     height="44.979164"
-     x="1.6823443e-06"
-     y="2.6462132e-07" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,81.18513,21.765534)"
+     d="m 0,0 h -3.868 v -2.787 c 0,-0.047 0.039,-0.087 0.086,-0.087 h 6.324 c 0.048,0 0.086,0.04 0.086,0.087 V 0 Z"
+     clip-path="url(#ai)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path229"
+     style="fill:#f9f9f9;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -1639,16 +1642,6 @@
      style="fill:none;stroke:#1a1a1a;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
      d="m 13.114149,10.921305 v 1.322911 l 7.937503,3.704167"
      id="path578" />
-  <path
-     transform="matrix(1.411111,0,0,-1.411111,84.77274,21.704369)"
-     d="m 0,0 h -6.324 c -0.048,0 -0.087,-0.04 -0.087,-0.086 v -2.787 h 6.497 v 2.787 C 0.086,-0.04 0.046,0 0,0"
-     clip-path="url(#ah)"
-     fill="#b4b4b4"
-     stroke="#231f20"
-     stroke-miterlimit="10"
-     stroke-width="0.441"
-     id="path596"
-     style="fill:#ffffff;stroke:#333333" />
   <path
      transform="matrix(1.411111,0,0,-1.411111,18.143605,10.345705)"
      d="m 0,0 h -7.096 c -0.123,0 -0.223,0.101 -0.223,0.223 v 2.086 c 0,0.122 0.1,0.222 0.223,0.222 H 0 c 0.122,0 0.224,-0.1 0.224,-0.222 V 0.223 C 0.224,0.101 0.122,0 0,0 Z"

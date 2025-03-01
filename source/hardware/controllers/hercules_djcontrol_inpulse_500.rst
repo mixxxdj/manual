@@ -221,6 +221,20 @@ Pad 8                                                            Activate roll o
 MODE 7: FX Mode
 ^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_fx.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (FX mode pads)
+   :figclass: pretty-figures
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_fx_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (FX mode shift + pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -235,6 +249,13 @@ Pad 8                                                            Toggle Effect U
 MODE 8: Beatjump Mode
 ^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_jump.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (Beatjump mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -242,6 +263,18 @@ Pad 1 - 2                                                        Jump backward/f
 Pad 3 - 4                                                        Jump backward/forward by 2 beats.
 Pad 5 - 6                                                        Jump backward/forward by 4 beats.
 Pad 7 - 8                                                        Jump backward/forward by 8 beats.
+===============================================================  ==========================================
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_jump_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (Beatjump mode shift + pads)
+   :figclass: pretty-figures
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
 :hwlabel:`Shift` + Pad 1 - 2                                     Jump backward/forward by 16 beat.
 :hwlabel:`Shift` + Pad 3 - 4                                     Jump backward/forward by 32 beats.
 :hwlabel:`Shift` + Pad 5 - 6                                     Jump backward/forward by 64 beats.

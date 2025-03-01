@@ -1579,15 +1579,65 @@
     </clipPath>
   </defs>
   <path
-     transform="matrix(1.411111,0,0,-1.411111,84.77274,21.70436)"
+     transform="matrix(1.411111,0,0,-1.411111,50.756913,38.752097)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.101 -0.222,0.223 v 7.096 c 0,0.122 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.123,0 0,0 Z"
+     clip-path="url(#az)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path232"
+     style="fill:#cccccc;stroke:#cccccc;stroke-width:0.375;stroke-dasharray:none" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,84.77274,21.175197)"
      d="m 0,0 h -6.324 c -0.048,0 -0.087,-0.04 -0.087,-0.086 v -2.787 h 6.497 v 2.787 C 0.086,-0.04 0.046,0 0,0"
      clip-path="url(#ah)"
      fill="#b4b4b4"
      stroke="#231f20"
      stroke-miterlimit="10"
      stroke-width="0.441"
-     id="path229"
+     id="path254"
      style="fill:#f9f9f9;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,40.173581,25.450865)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.101 -0.222,0.223 v 7.096 c 0,0.122 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.123,0 0,0 Z"
+     clip-path="url(#az)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path250"
+     style="fill:#cccccc;stroke:#cccccc;stroke-width:0.375;stroke-dasharray:none" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,40.173581,38.752097)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.101 -0.222,0.223 v 7.096 c 0,0.122 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.123,0 0,0 Z"
+     clip-path="url(#az)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path251"
+     style="fill:#cccccc;stroke:#cccccc;stroke-width:0.375;stroke-dasharray:none" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,71.575048,33.460431)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.101 -0.222,0.223 v 7.096 c 0,0.122 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.123,0 0,0 Z"
+     clip-path="url(#az)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path252"
+     style="fill:#cccccc;stroke:#cccccc;stroke-width:0.375;stroke-dasharray:none" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,52.34441,25.450865)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.101 -0.222,0.223 v 7.096 c 0,0.122 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.123,0 0,0 Z"
+     clip-path="url(#az)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path253"
+     style="fill:#cccccc;stroke:#cccccc;stroke-width:0.375;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -1693,7 +1743,7 @@
      id="path533"
      style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <path
-     transform="matrix(1.411111,0,0,-1.411111,33.294414,38.752097)"
+     transform="matrix(1.411111,0,0,-1.411111,33.294414,38.685251)"
      d="m 0,0 h -7.096 c -0.122,0 -0.222,0.1 -0.222,0.223 v 7.096 c 0,0.121 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.123,0 0,0 Z"
      clip-path="url(#ay)"
      fill="#b4b4b4"
@@ -1711,7 +1761,7 @@
      stroke-miterlimit="10"
      stroke-width="0.441"
      id="path535"
-     style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
+     style="fill:#b3b3b3;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <path
      transform="matrix(1.411111,0,0,-1.411111,46.055374,25.450865)"
      d="m 0,0 h -7.096 c -0.122,0 -0.223,0.101 -0.223,0.223 v 7.096 c 0,0.122 0.101,0.223 0.223,0.223 H 0 c 0.122,0 0.223,-0.101 0.223,-0.223 V 0.223 C 0.223,0.101 0.122,0 0,0 Z"
@@ -1723,7 +1773,7 @@
      id="path536"
      style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <path
-     transform="matrix(1.411111,0,0,-1.411111,46.055374,38.752097)"
+     transform="matrix(1.411111,0,0,-1.411111,45.954767,38.752097)"
      d="m 0,0 h -7.096 c -0.122,0 -0.223,0.1 -0.223,0.223 v 7.096 c 0,0.121 0.101,0.223 0.223,0.223 H 0 c 0.122,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.122,0 0,0 Z"
      clip-path="url(#av)"
      fill="#b4b4b4"
@@ -1753,7 +1803,7 @@
      id="path539"
      style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <path
-     transform="matrix(1.411111,0,0,-1.411111,58.814794,38.752097)"
+     transform="matrix(1.411111,0,0,-1.411111,58.654766,38.752097)"
      d="m 0,0 h -7.096 c -0.122,0 -0.223,0.1 -0.223,0.223 v 7.096 c 0,0.121 0.101,0.223 0.223,0.223 H 0 c 0.122,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.122,0 0,0 Z"
      clip-path="url(#as)"
      fill="#b4b4b4"
@@ -1924,12 +1974,12 @@
        y="9.4547443">HOT CUE</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="41.017017"
      y="9.4547443"
      id="text563"><tspan
        id="tspan563"
-       style="fill:#000000;stroke-width:0.9"
+       style="fill:#4d4d4d;stroke-width:0.9"
        x="41.017017"
        y="9.4547443">LOOP</tspan></text>
   <text
@@ -2062,24 +2112,34 @@
        style="fill:#4d4d4d;stroke-width:0.9"
        x="41.004803"
        y="13.006097">ROLL</tspan></text>
+  <path
+     transform="matrix(1.4075487,0,0,-1.4111195,58.835518,13.866583)"
+     d="m 0,0 h -7.096 c -0.123,0 -0.223,0.101 -0.223,0.223 v 2.086 c 0,0.122 0.1,0.222 0.223,0.222 H 0 c 0.121,0 0.223,-0.1 0.223,-0.222 V 0.223 C 0.223,0.101 0.121,0 0,0 Z"
+     clip-path="url(#ar)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path229"
+     style="fill:#ececec;stroke:#999999;stroke-width:0.375;stroke-dasharray:none" />
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#1a1a1a;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="53.733097"
      y="12.975587"
      id="text577"><tspan
        id="tspan577"
-       style="fill:#4d4d4d;stroke-width:0.9"
+       style="fill:#1a1a1a;stroke-width:0.9"
        x="53.733097"
        y="12.975587">FX</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="66.541679"
      y="12.975587"
      id="text578"><tspan
        id="tspan578"
-       style="fill:#4d4d4d;stroke-width:0.9"
+       style="fill:#666666;stroke-width:0.9"
        x="66.541679"
        y="12.975587">BEATJUMP</tspan></text>
   <text
@@ -2112,34 +2172,20 @@
      id="path581" />
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:1.2;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="28.220139"
-     y="18.907063"
+     y="17.643024"
      id="text866"><tspan
-       id="tspan866"
-       style="fill:#000000;stroke-width:0.9"
        x="28.220139"
-       y="18.907063">1/8 beat</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="40.980392"
-     y="18.907673"
-     id="text867"><tspan
-       id="tspan867"
-       style="fill:#000000;stroke-width:0.9"
-       x="40.980392"
-       y="18.907673">1/4 beat</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="53.739811"
-     y="18.907673"
-     id="text868"><tspan
-       id="tspan868"
-       style="fill:#000000;stroke-width:0.9"
-       x="53.739811"
-       y="18.907673">1/2 beat</tspan></text>
+       y="17.643024"
+       id="tspan3"><tspan
+         id="tspan866"
+         style="fill:#000000;stroke-width:0.9;line-height:1.2"
+         x="28.220139"
+         y="17.643024">toggle</tspan></tspan><tspan
+       x="28.220139"
+       y="20.643024"
+       id="tspan4">effect 1</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2149,45 +2195,173 @@
        id="tspan869"
        style="fill:#000000;stroke-width:0.9"
        x="66.500771"
-       y="18.896687">1 beat</tspan></text>
+       y="18.896687" /></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     style="font-weight:bold;font-size:2.5px;line-height:0.9;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="28.275681"
-     y="32.197918"
+     y="32.195843"
      id="text873"><tspan
-       id="tspan873"
-       style="fill:#000000;stroke-width:0.9"
        x="28.275681"
-       y="32.197918">2 beat</tspan></text>
+       y="32.195843"
+       id="tspan17"><tspan
+         id="tspan873"
+         style="line-height:0.9;fill:#000000;stroke-width:0.9"
+         x="28.275681"
+         y="32.195843">cycle</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="41.042648"
-     y="32.197918"
-     id="text874"><tspan
-       id="tspan874"
-       style="fill:#000000;stroke-width:0.9"
-       x="41.042648"
-       y="32.197918">4 beat</tspan></text>
+     style="font-weight:bold;font-size:2.5px;line-height:1.2;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="41.073776"
+     y="17.643024"
+     id="text7"><tspan
+       x="41.073776"
+       y="17.643024"
+       id="tspan6"><tspan
+         id="tspan5"
+         style="fill:#000000;stroke-width:0.9;line-height:1.2"
+         x="41.073776"
+         y="17.643024">toggle</tspan></tspan><tspan
+       x="41.073776"
+       y="20.643024"
+       id="tspan7">effect 2</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="53.778873"
-     y="32.196697"
-     id="text875"><tspan
-       id="tspan875"
-       style="fill:#000000;stroke-width:0.9"
-       x="53.778873"
-       y="32.196697">8 beat</tspan></text>
+     style="font-weight:bold;font-size:2.5px;line-height:1.2;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="53.866558"
+     y="17.642414"
+     id="text10"><tspan
+       x="53.866558"
+       y="17.642414"
+       id="tspan9"><tspan
+         id="tspan8"
+         style="fill:#000000;stroke-width:0.9;line-height:1.2"
+         x="53.866558"
+         y="17.642414">toggle</tspan></tspan><tspan
+       x="53.866558"
+       y="20.642414"
+       id="tspan10">effect 3</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="66.500771"
-     y="32.197308"
-     id="text876"><tspan
-       id="tspan876"
-       style="fill:#000000;stroke-width:0.9"
-       x="66.500771"
-       y="32.197308">16 beat</tspan></text>
+     style="font-weight:bold;font-size:2.5px;line-height:1.2;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="66.580116"
+     y="17.643024"
+     id="text13"><tspan
+       x="66.580116"
+       y="17.643024"
+       id="tspan12"><tspan
+         id="tspan11"
+         style="fill:#000000;stroke-width:0.9;line-height:1.2"
+         x="66.580116"
+         y="17.643024">toggle</tspan></tspan><tspan
+       x="66.580116"
+       y="20.643024"
+       id="tspan14">fx unit 1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:2.5px;line-height:0.9;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="40.975613"
+     y="32.195843"
+     id="text27"><tspan
+       id="tspan25"
+       x="40.975613"
+       y="32.195843"><tspan
+         id="tspan24"
+         style="line-height:0.9;fill:#000000;stroke-width:0.9"
+         x="40.975613"
+         y="32.195843">cycle</tspan></tspan><tspan
+       id="tspan26"
+       x="40.975613"
+       y="34.445843" /><tspan
+       x="40.975613"
+       y="36.695843"
+       id="tspan27" /></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:2.5px;line-height:1.2;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="66.580116"
+     y="30.944256"
+     id="text232"><tspan
+       x="66.580116"
+       y="30.944256"
+       id="tspan231"><tspan
+         id="tspan230"
+         style="fill:#000000;stroke-width:0.9;line-height:1.2"
+         x="66.580116"
+         y="30.944256">toggle</tspan></tspan><tspan
+       x="66.580116"
+       y="33.944256"
+       id="tspan232">fx unit 2</tspan></text>
+  <g
+     id="g245"
+     transform="translate(11.464209,651.47107)"
+     style="stroke-width:0.3175;stroke-dasharray:none">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3175;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 18.520832,-616.47914 v -1.32291 h -2.645833 v 1.32291"
+       id="path244" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3175;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 15.081249,-617.27289 0.79375,0.79375 0.79375,-0.79375"
+       id="path245" />
+  </g>
+  <g
+     id="g237"
+     transform="matrix(-1,0,0,1,57.772434,651.47107)"
+     style="stroke-width:0.3175;stroke-dasharray:none">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3175;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 18.520832,-616.47914 v -1.32291 h -2.645833 v 1.32291"
+       id="path236" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3175;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 15.081249,-617.27289 0.79375,0.79375 0.79375,-0.79375"
+       id="path237" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:2.5px;line-height:0.9;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="53.649364"
+     y="32.458904"
+     id="text240"><tspan
+       id="tspan238"
+       x="53.649364"
+       y="32.458904">kill<tspan
+   id="tspan237"
+   style="line-height:0.9;fill:#000000;stroke-width:0.9"
+   x="53.649364"
+   y="32.458904" /></tspan><tspan
+       id="tspan239"
+       x="53.649364"
+       y="34.708904" /><tspan
+       x="53.649364"
+       y="36.958904"
+       id="tspan240" /></text>
+  <g
+     id="g248"
+     transform="translate(0.05274767)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.5px;line-height:0.9;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+       x="40.922863"
+       y="41.720844"
+       id="text244"><tspan
+         id="tspan242"
+         x="40.922863"
+         y="41.720844">filter effect knob</tspan><tspan
+         id="tspan243"
+         x="40.922863"
+         y="43.970844" /><tspan
+         x="40.922863"
+         y="46.220844"
+         id="tspan244" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 24.226648,39.634836 v 1.322911 h 7.937503"
+       id="path247" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 57.564147,39.634836 v 1.322911 h -7.937503"
+       id="path248" />
+  </g>
 </svg>
