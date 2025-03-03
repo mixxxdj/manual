@@ -21,7 +21,7 @@ On both layers, the touch strips and rotary encoders are mapped as follows:
 
 .. csv-table::
    :header: "#", "Name", "Function"
-   :widths: 5 25 70
+   :widths: 15 15 70
 
    "MCP", ":hwlabel:`MCP`", "Switch between layers"
    "Left Strip", "", "Change the tempo of the selected deck (will return to normal on release)"
@@ -66,7 +66,7 @@ transport controls and deck switching, as follows:
 
 .. csv-table::
    :header: "Action", "Name", "Function"
-   :widths: 15 10 70
+   :widths: 15 15 70
 
    "Play", ":hwlabel:`⏵`", "Play/pause playback"
    "Pause", ":hwlabel:`⏸`", "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
