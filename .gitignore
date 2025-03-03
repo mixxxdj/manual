@@ -6,3 +6,4 @@
 build
 source/locale/pot/.doctrees
 /source/locale/en_US
+sphinx-mixxx/sphinx_mixxx.egg-info/
