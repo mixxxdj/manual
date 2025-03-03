@@ -136,10 +136,12 @@ Instead, copy the default mapping file to the following location:
 * macOS: :file:`~/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx/Custom.kbd.cfg`
 * Windows: :file:`%LOCALAPPDATA%\\Mixxx\\Custom.kbd.cfg`
 
-Then edit this file and save the changes. On the next startup, Mixxx will check
-if :file:`Custom.kbd.cfg` is present and load that file instead of the default
+Then edit this file and save the changes. When keyboard shortcuts are toggled on in the :kbd:`Options` menu
+-> kbd:`Keyboard Shortcuts`, Mixxx checks if :file:`Custom.kbd.cfg` is present and load that file instead of the default
 mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
+
+Mixxx also watches the loaded keyboard mapping file and will automatically reload shortcuts if that file is changed.
 
 For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
