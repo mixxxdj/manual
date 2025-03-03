@@ -67,10 +67,8 @@ transport controls and deck switching, as follows:
    :widths: 15 10 70
 
    "Play", ":hwlabel:`⏵`", "Play/pause playback"
-   "Pause", ":hwlabel:`⏸`", "If track is playing: stops the track and resets position to the main cue point
-
-   If playback is stopped: sets the main cue point"
-   "Pause", ":hwlabel:`⏸` (hold)", "Play the track from main cue point, release to stop playback and return to the main cue point. Playback must be initially stopped on the main cue point."
+   "Pause", ":hwlabel:`⏸`", "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+   "Pause", ":hwlabel:`⏸` (hold)", "Behavior depends on the :ref:`cue mode <interface-cue-modes>`. Playback must be initially stopped on the main cue point."
    "Record", ":hwlabel:`⏺`", "Toggle recording the mix"
    "Rewind", ":hwlabel:`⏪`", "Beatjump backwards"
    "Fastforward", ":hwlabel:`⏩`", "Beatjump forwards"
