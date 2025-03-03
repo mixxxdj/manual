@@ -11,7 +11,9 @@ Overview
 
 .. note:: The controller can be connected over Bluetooth, USB-C, or both. For
    use with Mixxx it is recommended to disable Bluetooth and connect only via
-   USB-C [#]_.
+   USB-C. Bluetooth is not as reliable as a wired connection for live
+   performances, and may result in less smooth fader operation and higher
+   latencies.
 
 The M-Vave SMK-25 II is mapped for Mixxx use as a 2-deck controller with two
 distinct layers for playing samples and for controlling the deck.
@@ -75,7 +77,3 @@ transport controls and deck switching, as follows:
    "Deck 1",  ":hwlabel:`◀`", "Select deck 1"
    "Deck 2",  ":hwlabel:`▶`", "Select deck 2"
    "Reloop",  ":hwlabel:`UNDO`", "Activate/deactivate the previously active loop"
-
-.. [#] Bluetooth is not as reliable as a wired connection for live
-   performances, and may result in less smooth fader operation and higher
-   latencies.
