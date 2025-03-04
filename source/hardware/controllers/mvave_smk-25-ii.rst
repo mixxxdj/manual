@@ -25,7 +25,7 @@ On both layers, the touch strips and rotary encoders are mapped as follows:
 
    "MCP", ":hwlabel:`MCP`", "Switch between layers"
    "Left Strip", "", "Change the tempo of the selected deck (will return to normal on release)"
-   "Right Strip", "", "Change the tempo volume of the selected deck"
+   "Right Strip", "", "Change the volume of the selected deck"
    "Knob 1", ":hwlabel:`MODE`", "Set selected deck gain"
    "Knob 2", ":hwlabel:`OCT`", "Selected deck high filter"
    "Knob 3", ":hwlabel:`LATCH`", "Selected deck mid filter"
