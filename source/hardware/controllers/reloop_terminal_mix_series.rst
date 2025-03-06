@@ -229,7 +229,7 @@ deck.*
 
   - Turn: move the highlight up/down by one line
   - :hwlabel:`SHIFT` + turn: move the highlight one page up/down
-  - Press while Tree panel has focus: expand an item if possible. If item can’t be expanded further, it is selected and and highight is shifted rightwarde to the respective tracks table.
+  - Press while Tree panel has focus: expand an item if possible. If item can’t be expanded further, it is selected and and highlight is shifted rightwarde to the respective tracks table.
   - Press while tracks table has focus: perform the Track Load Action specified in :menuselection:`Preferences --> Library` (default: load track to next empty deck)
 
 - :hwlabel:`Volume Level Meter`
@@ -241,7 +241,7 @@ deck.*
 - :hwlabel:`MIDI` LED (blue)
 
   - Flashes when a MIDI messages was sent
-  - When it flashes although no control is touched, it’s probably due to dust in the jogwheels (See :ref:`Controler Hardware / Maintenance <reloop-terminal-mix-series-maintenance>`)
+  - When it flashes although no control is touched, it’s probably due to dust in the jogwheels (See :ref:`Controller Hardware / Maintenance <reloop-terminal-mix-series-maintenance>`)
 
 - :hwlabel:`Shift Lock` switch at the back side
 
