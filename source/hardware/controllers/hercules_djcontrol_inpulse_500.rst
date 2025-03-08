@@ -189,6 +189,13 @@ Pad 1 - 8 (deck B)                                               Trigger Sampler
 MODE 5: Transport Mode
 ^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_transport.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (transport mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -204,6 +211,13 @@ Pad 8                                                            Tempo slider ra
 
 MODE 6: Roll mode
 ^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_roll.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (roll mode pads)
+   :figclass: pretty-figures
 
 ===============================================================  ==========================================
 Control                                                          Function
