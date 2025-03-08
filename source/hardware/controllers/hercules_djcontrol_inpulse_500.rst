@@ -128,6 +128,13 @@ Pad 1 - 8                                                        Set and trigger
 MODE 2: Loop Mode
 ^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_loop.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (loop mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -139,6 +146,18 @@ Pad 5                                                            Activate Beatlo
 Pad 6                                                            Activate Beatloop of 4 beat size.
 Pad 7                                                            Activate Beatloop of 8 beat size.
 Pad 8                                                            Activate Beatloop of 16 beat size.
+===============================================================  ==========================================
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_loop_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (loop mode pads, shift+pad)
+   :figclass: pretty-figures
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
 :hwlabel:`SHIFT` + Pad 1                                         Activate Beatloop of 3/4 beat size.
 :hwlabel:`SHIFT` + Pad 2                                         Activate Beatloop of 5/4 beat size.
 :hwlabel:`SHIFT` + Pad 3                                         Activate Beatloop of 6/4 beat size.
@@ -170,6 +189,13 @@ Pad 1 - 8 (deck B)                                               Trigger Sampler
 MODE 5: Transport Mode
 ^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_transport.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (transport mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -185,6 +211,13 @@ Pad 8                                                            Tempo slider ra
 
 MODE 6: Roll mode
 ^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_roll.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (roll mode pads)
+   :figclass: pretty-figures
 
 ===============================================================  ==========================================
 Control                                                          Function
@@ -202,6 +235,20 @@ Pad 8                                                            Activate roll o
 MODE 7: FX Mode
 ^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_fx.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (FX mode pads)
+   :figclass: pretty-figures
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_fx_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (FX mode shift + pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -216,6 +263,13 @@ Pad 8                                                            Toggle Effect U
 MODE 8: Beatjump Mode
 ^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_jump.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (Beatjump mode pads)
+   :figclass: pretty-figures
+
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
@@ -223,6 +277,18 @@ Pad 1 - 2                                                        Jump backward/f
 Pad 3 - 4                                                        Jump backward/forward by 2 beats.
 Pad 5 - 6                                                        Jump backward/forward by 4 beats.
 Pad 7 - 8                                                        Jump backward/forward by 8 beats.
+===============================================================  ==========================================
+
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_jump_shift.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 (Beatjump mode shift + pads)
+   :figclass: pretty-figures
+
+===============================================================  ==========================================
+Control                                                          Function
+===============================================================  ==========================================
 :hwlabel:`Shift` + Pad 1 - 2                                     Jump backward/forward by 16 beat.
 :hwlabel:`Shift` + Pad 3 - 4                                     Jump backward/forward by 32 beats.
 :hwlabel:`Shift` + Pad 5 - 6                                     Jump backward/forward by 64 beats.
