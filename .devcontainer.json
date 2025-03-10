@@ -1,0 +1,17 @@
+{
+  "name": "mixxx",
+  "image":"mcr.microsoft.com/devcontainers/python",
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && pip3 install pre-commit && pip3 install -r requirements.txt && pre-commit install --overwrite --install-hooks",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "GitHub.vscode-pull-request-github",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "forwardPorts": [
+    8000
+  ]
+}
