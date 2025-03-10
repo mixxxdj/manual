@@ -54,6 +54,9 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+watch:
+	sphinx-autobuild source build/html
+
 html:
 	$(SPHINXBUILD) source $(BUILDDIR)/html -b html $(ALLSPHINXOPTS)
 	@echo
