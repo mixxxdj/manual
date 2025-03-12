@@ -67,6 +67,7 @@ types, go to :ref:`file-format-compatibility`.
                                 * Disables spinning vinyl widgets
                                 * Disables synchronization polling
                                 * Doesn't open controllers by default
+--start-autodj                  Automatically start :ref:`Auto DJ<djing-auto-dj>` when Mixxx finished loading.
 --color <color>               [auto|always|never] Use colors on the console
                                 output.
 --locale LOCALE                 Use a custom locale for loading translations
