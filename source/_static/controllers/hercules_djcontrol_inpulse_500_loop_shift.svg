@@ -2006,7 +2006,7 @@
        id="tspan866"
        style="fill:#000000;stroke-width:0.9"
        x="28.220139"
-       y="18.907063">3/4 beat</tspan></text>
+       y="18.907063">1/32 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2016,7 +2016,7 @@
        id="tspan867"
        style="fill:#000000;stroke-width:0.9"
        x="40.980392"
-       y="18.907673">5/4 beat</tspan></text>
+       y="18.907673">1/16 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2026,7 +2026,7 @@
        id="tspan868"
        style="fill:#000000;stroke-width:0.9"
        x="53.739811"
-       y="18.907673">6/4 beat</tspan></text>
+       y="18.907673">32 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2036,7 +2036,7 @@
        id="tspan869"
        style="fill:#000000;stroke-width:0.9"
        x="66.500771"
-       y="18.896687">7/4 beat</tspan></text>
+       y="18.896687">64 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2046,7 +2046,7 @@
        id="tspan873"
        style="fill:#000000;stroke-width:0.9"
        x="28.275681"
-       y="32.197918">32 beat</tspan></text>
+       y="32.197918">128 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2056,7 +2056,7 @@
        id="tspan874"
        style="fill:#000000;stroke-width:0.9"
        x="41.042648"
-       y="32.197918">64 beat</tspan></text>
+       y="32.197918">256 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2066,7 +2066,7 @@
        id="tspan875"
        style="fill:#000000;stroke-width:0.9"
        x="53.778873"
-       y="32.196697">128 beat</tspan></text>
+       y="32.196697">512 beat</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
@@ -2076,5 +2076,5 @@
        id="tspan876"
        style="fill:#000000;stroke-width:0.9"
        x="66.500771"
-       y="32.197308">256 beat</tspan></text>
+       y="32.197308">1024 beat</tspan></text>
 </svg>

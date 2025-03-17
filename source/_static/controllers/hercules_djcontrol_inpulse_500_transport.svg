@@ -1700,16 +1700,6 @@
      id="path533"
      style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <path
-     transform="matrix(1.411111,0,0,-1.411111,33.294414,38.685251)"
-     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.1 -0.222,0.223 v 7.096 c 0,0.121 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.123,0 0,0 Z"
-     clip-path="url(#ay)"
-     fill="#b4b4b4"
-     stroke="#231f20"
-     stroke-miterlimit="10"
-     stroke-width="0.441"
-     id="path534"
-     style="fill:#b3b3b3;stroke:#333333;stroke-width:0.375;stroke-dasharray:none;fill-opacity:1" />
-  <path
      transform="matrix(1.411111,0,0,-1.411111,46.055374,10.345705)"
      d="m 0,0 h -7.096 c -0.122,0 -0.223,0.101 -0.223,0.223 v 2.086 c 0,0.122 0.101,0.222 0.223,0.222 H 0 c 0.122,0 0.223,-0.1 0.223,-0.222 V 0.223 C 0.223,0.101 0.122,0 0,0 Z"
      clip-path="url(#ax)"
@@ -1788,16 +1778,6 @@
      stroke-miterlimit="10"
      stroke-width="0.441"
      id="path542"
-     style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
-  <path
-     transform="matrix(1.411111,0,0,-1.411111,71.575754,38.752097)"
-     d="m 0,0 h -7.096 c -0.123,0 -0.223,0.1 -0.223,0.223 v 7.096 c 0,0.121 0.1,0.223 0.223,0.223 H 0 c 0.121,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.121,0 0,0 Z"
-     clip-path="url(#ap)"
-     fill="#b4b4b4"
-     stroke="#231f20"
-     stroke-miterlimit="10"
-     stroke-width="0.441"
-     id="path543"
      style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
   <text
      xml:space="preserve"
@@ -1921,16 +1901,6 @@
        y="36.946602">7</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="69.605217"
-     y="36.914856"
-     id="text574"><tspan
-       id="tspan574"
-       style="fill:#000000;stroke-width:0.9"
-       x="69.605217"
-       y="36.914856">8</tspan></text>
-  <text
-     xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
      x="28.287895"
      y="13.006097"
@@ -2046,15 +2016,35 @@
      x="66.580116"
      y="30.944256"
      id="text232" />
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,33.29512,38.685251)"
+     d="m 0,0 h -7.096 c -0.123,0 -0.223,0.1 -0.223,0.223 v 7.096 c 0,0.121 0.1,0.223 0.223,0.223 H 0 c 0.121,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.121,0 0,0 Z"
+     clip-path="url(#ap)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path543"
+     style="fill:#e6e6e6;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:2.5px;line-height:0;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
+     x="31.324583"
+     y="36.848015"
+     id="text574"><tspan
+       id="tspan574"
+       style="fill:#000000;stroke-width:0.9"
+       x="31.324583"
+       y="36.848015">5</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:2.5px;line-height:0.9;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round"
-     x="66.514198"
-     y="32.458904"
+     x="28.233564"
+     y="32.392063"
      id="text240"><tspan
        id="tspan238"
-       x="66.514198"
-       y="32.458904">reset</tspan></text>
+       x="28.233564"
+       y="32.392063">reset</tspan></text>
   <g
      id="g13"
      transform="translate(12.699999)">
@@ -2137,4 +2127,14 @@
        id="tspan237"
        x="75.524063"
        y="21.013355">pitch</tspan></text>
+  <path
+     transform="matrix(1.411111,0,0,-1.411111,71.575048,38.685251)"
+     d="m 0,0 h -7.096 c -0.122,0 -0.222,0.1 -0.222,0.223 v 7.096 c 0,0.121 0.1,0.223 0.222,0.223 H 0 c 0.123,0 0.223,-0.102 0.223,-0.223 V 0.223 C 0.223,0.1 0.123,0 0,0 Z"
+     clip-path="url(#ay)"
+     fill="#b4b4b4"
+     stroke="#231f20"
+     stroke-miterlimit="10"
+     stroke-width="0.441"
+     id="path233"
+     style="fill:#b3b3b3;fill-opacity:1;stroke:#333333;stroke-width:0.375;stroke-dasharray:none" />
 </svg>
