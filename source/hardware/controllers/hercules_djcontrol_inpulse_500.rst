@@ -115,6 +115,15 @@ Control                                                          Function
 Performance Pads
 ~~~~~~~~~~~~~~~~
 
+.. figure:: ../../_static/controllers/hercules_djcontrol_inpulse_500_modes.svg
+   :align: center
+   :width: 60%
+   :figwidth: 100%
+   :alt: Hercules DJControl Inpulse 500 modes overview
+   :figclass: pretty-figures
+
+   Performance pads modes overview
+
 MODE 1: Hot Cue Mode
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -158,14 +167,14 @@ Pad 8                                                            Activate Beatlo
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`SHIFT` + Pad 1                                         Activate Beatloop of 3/4 beat size.
-:hwlabel:`SHIFT` + Pad 2                                         Activate Beatloop of 5/4 beat size.
-:hwlabel:`SHIFT` + Pad 3                                         Activate Beatloop of 6/4 beat size.
-:hwlabel:`SHIFT` + Pad 4                                         Activate Beatloop of 7/4 beat size.
-:hwlabel:`SHIFT` + Pad 5                                         Activate Beatloop of 32 beat size.
-:hwlabel:`SHIFT` + Pad 6                                         Activate Beatloop of 64 beat size.
-:hwlabel:`SHIFT` + Pad 7                                         Activate Beatloop of 128 beat size.
-:hwlabel:`SHIFT` + Pad 8                                         Activate Beatloop of 256 beat size.
+:hwlabel:`SHIFT` + Pad 1                                         Activate Beatloop of 1/32 beat size.
+:hwlabel:`SHIFT` + Pad 2                                         Activate Beatloop of 1/16 beat size.
+:hwlabel:`SHIFT` + Pad 3                                         Activate Beatloop of 32 beat size.
+:hwlabel:`SHIFT` + Pad 4                                         Activate Beatloop of 64 beat size.
+:hwlabel:`SHIFT` + Pad 5                                         Activate Beatloop of 128 beat size.
+:hwlabel:`SHIFT` + Pad 6                                         Activate Beatloop of 256 beat size.
+:hwlabel:`SHIFT` + Pad 7                                         Activate Beatloop of 512 beat size.
+:hwlabel:`SHIFT` + Pad 8                                         Activate Beatloop of 1024 beat size.
 ===============================================================  ==========================================
 
 MODE 3: Slicer Mode
@@ -203,10 +212,10 @@ Pad 1                                                            Pitch down a wh
 Pad 2                                                            Pitch down a half tone.
 Pad 3                                                            Pitch up a half tone.
 Pad 4                                                            Pitch up a whole tone.
-Pad 5                                                            Unused.
+Pad 5                                                            Tempo slider range reset.
 Pad 6                                                            Tempo slider range decrease.
 Pad 7                                                            Tempo slider range increase.
-Pad 8                                                            Tempo slider range reset.
+Pad 8                                                            Unused
 ===============================================================  ==========================================
 
 MODE 6: Roll mode
