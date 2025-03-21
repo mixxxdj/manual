@@ -27,8 +27,6 @@ On the left side of the controller each set of a fader, rotary encoder, and
 buttons affect a single deck starting with 3 on the left, then 1, 2, and finally
 deck 4.
 
-..
-
 .. csv-table::
    :header: "Control", "Name", "Function"
    :widths: 5 25 70
