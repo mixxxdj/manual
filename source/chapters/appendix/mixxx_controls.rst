@@ -942,12 +942,24 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    When tapped repeatedly, adjusts the :term:`BPM` of the track on the deck (not the tempo slider!) to match the taps.
 
-   .. note:: If you want to change the :term:`rate` of the deck use `script.bpm.tapButton(deck) <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-helper-functions>`_ in your controller mapping instead.
+   .. note:: If you want to change the :term:`rate` of the deck use :mixxx:coref:`[ChannelN],tempo_tap` instead.
 
    :range: binary
    :feedback: :term:`BPM` value display (playback speed doesn't change)
 
    .. versionadded:: 1.9.2
+
+
+.. mixxx:control:: [ChannelN],tempo_tap
+                   [PreviewDeckN],tempo_tap
+                   [SamplerN],tempo_tap
+
+   When tapped repeatedly, adjusts the :term:`rate`/tempo of the deck to match the taps.
+
+   :range: binary
+   :feedback: Speed slider
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],CloneFromDeck
@@ -3783,7 +3795,7 @@ EQs and Filters
 +++++++++++++++
 
 :term:`Equalizers <EQ>` and filters are special effects units.
-The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`.
+The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]],enabled`.
 Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
 
 
