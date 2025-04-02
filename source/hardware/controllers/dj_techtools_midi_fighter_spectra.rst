@@ -1,8 +1,8 @@
 DJ TechTools MIDI Fighter Spectra
 =================================
 
-`Manufacturer's product page <https://store.djtechtools.com/products/midi-fighter-spectra>`_ ·
-`Forum thread <https://mixxx.discourse.group/t/dj-techtools-midi-fighter-spectra/31554>`_
+  - `Manufacturer's product page <https://store.djtechtools.com/products/midi-fighter-spectra>`_
+  - `Forum thread <https://mixxx.discourse.group/t/dj-techtools-midi-fighter-spectra/31554>`_
 
 .. versionadded:: 2.5.1
 
