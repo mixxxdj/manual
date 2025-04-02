@@ -37,27 +37,16 @@ Layer 1
 -------
 
 The first layer of buttons control the EQ and quick effect cutoffs.
+For each row of buttons, the deck order is the standard "3, 1, 2, 4".
 
 .. csv-table::
-   :header: "#", "Deck", "Function"
-   :widths: 15, 15, 70
+   :header: "#", "Function"
+   :widths: 20, 60
 
-   "1", "3", "Kill High"
-   "2", "1", "Kill High"
-   "3", "2", "Kill High"
-   "4", "4", "Kill High"
-   "5", "3", "Kill Mid"
-   "6", "1", "Kill Mid"
-   "7", "2", "Kill Mid"
-   "8", "4", "Kill Mid"
-   "9", "3", "Kill Low"
-   "10", "1", "Kill Low"
-   "11", "2", "Kill Low"
-   "12", "4", "Kill Low"
-   "13", "3", "Toggle Quick Effect"
-   "14", "1", "Toggle Quick Effect"
-   "15", "2", "Toggle Quick Effect"
-   "16", "4", "Toggle Quick Effect"
+   "1–4", "Kill High"
+   "5–8", "Kill Mid"
+   "9–12", "Kill Low"
+   "13–16", "Toggle Quick Effect"
 
 Layer 2
 -------
@@ -71,24 +60,15 @@ cues.
 
 .. csv-table::
    :header: "#", "Function"
-   :widths: 15, 70
+   :widths: 20, 60
 
    "1", "Intro Marker Start"
    "2", "Intro Marker End"
    "3", "Outro Marker Start"
    "4", "Outro Marker End"
-   "5", "Hot Cue 1"
-   "6", "Hot Cue 2"
-   "7", "Hot Cue 3"
-   "8", "Hot Cue 4"
-   "9", "Hot Cue 5"
-   "10", "Hot Cue 6"
-   "11", "Hot Cue 7"
-   "12", "Hot Cue 8"
-   "13", "Select Deck 1"
-   "14", "Select Deck 2"
-   "15", "Select Deck 3"
-   "16", "Select Deck 4"
+   "5–8", "Hot Cue 1–4"
+   "9–12", "Hot Cue 5–8"
+   "13–16", "Select Deck 1–4"
 
 Layer 3
 -------
