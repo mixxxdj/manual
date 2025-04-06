@@ -35,6 +35,7 @@ extensions = [
     "sphinxcontrib.rsvgconverter",
     "sphinx_rtd_theme",
     "sphinx_multiversion",
+    "myst_parser",
     "sphinx_mixxx",
     "notfound.extension",
 ]
@@ -47,6 +48,7 @@ templates_path = ["_templates"]
 # The suffix of source filenames.
 source_suffix = {
     ".rst": "restructuredtext",
+    ".md": "markdown",
 }
 
 # The encoding of source files.
