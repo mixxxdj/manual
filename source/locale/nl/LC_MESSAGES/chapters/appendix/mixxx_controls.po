@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:57
 msgid "See :ref:`controlindex` for a full list."
-msgstr "Bekijke :ref:`controlindex` voor een bolledige lijst."
+msgstr "Bekijk :ref:`controlindex` voor een volledige lijst."
 
 #: ../../chapters/appendix/mixxx_controls.rst:63
 msgid "ControlPotMeter controls"
@@ -427,7 +427,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:76
 msgid "Sets the value to 1.0, sets the channel volume to full"
-msgstr ""
+msgstr Zet de waarde op 1.0, zet het kanaal volume op volledig""
 
 #: ../../chapters/appendix/mixxx_controls.rst:77
 msgid "``_set_minus_one``"
@@ -551,7 +551,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:4111
 #: ../../chapters/appendix/mixxx_controls.rst:4138
 msgid "binary, read-only"
-msgstr ""
+msgstr "binair, alleen lezen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:0
 msgid "feedback"
@@ -595,7 +595,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:4288
 #: ../../chapters/appendix/mixxx_controls.rst:4300
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: ../../chapters/appendix/mixxx_controls.rst:124
 msgid "Alternates between 0.0 and 1.0 every 500 milliseconds."
@@ -1100,7 +1100,7 @@ msgstr "Past de cue/main mix in de hoofdtelefoon aan."
 #: ../../chapters/appendix/mixxx_controls.rst:3137
 #: ../../chapters/appendix/mixxx_controls.rst:4493
 msgid "default"
-msgstr ""
+msgstr "standaard"
 
 #: ../../chapters/appendix/mixxx_controls.rst:386
 msgid "Pre/Main knob"
@@ -1161,7 +1161,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:424
 msgid "Clip light (mono)"
-msgstr ""
+msgstr "Clip licht (mono)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:429
 msgid ""
@@ -1175,7 +1175,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:2091
 #: ../../chapters/appendix/mixxx_controls.rst:3029
 msgid "Clip light (left)"
-msgstr ""
+msgstr "Clip licht (links)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:439
 msgid ""
@@ -1189,7 +1189,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:2105
 #: ../../chapters/appendix/mixxx_controls.rst:3042
 msgid "Clip light (right)"
-msgstr ""
+msgstr "Clip licht (rechts)"
 
 #: ../../chapters/appendix/mixxx_controls.rst:449
 msgid "Toggle microphone ducking mode (OFF, AUTO, MANUAL)"
@@ -1277,11 +1277,11 @@ msgstr "<< toets"
 
 #: ../../chapters/appendix/mixxx_controls.rst:515
 msgid "Toggle the :term:`beatgrid`/:term:`BPM` lock state."
-msgstr ""
+msgstr "Schakelt de :term:`beatgrid`/:term:`BPM` vergrendeling."
 
 #: ../../chapters/appendix/mixxx_controls.rst:518
 msgid "The lock icon of the track is activated/deactivated."
-msgstr ""
+msgstr "Het vergrendelingsicoon van de track wordt geactiveerd/uitgeschakeld."
 
 #: ../../chapters/appendix/mixxx_controls.rst:527
 msgid ""
@@ -1522,6 +1522,8 @@ msgid ""
 "Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If"
 " a loop is active, the loop is moved backward by X beats."
 msgstr ""
+"Springt terug met :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. Wanneer"
+" een lus actief is, de lus wordt achterwaarts verplaatst met X beats."
 
 #: ../../chapters/appendix/mixxx_controls.rst:637
 msgid ""
@@ -1663,7 +1665,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:767
 msgid "Adjust the average :term:`BPM` up by +0.01"
-msgstr "Adjust the average :term:`BPM` up by +0.01"
+msgstr "Past de gemiddelde :term:`BPM` naar boven aan met +0.01"
 
 #: ../../chapters/appendix/mixxx_controls.rst:770
 msgid "The :term:`beatgrid` lines move closer to each other."
@@ -1671,7 +1673,7 @@ msgstr "De :term:`beatgrid` lijnen bewegen dichter naar elkaar."
 
 #: ../../chapters/appendix/mixxx_controls.rst:779
 msgid "Adjust the average :term:`BPM` down by -0.01."
-msgstr "Past de gemiddelde :term:`BPM` omlaag aan met -0.01"
+msgstr "Past de gemiddelde :term:`BPM` naar omlaag aan met -0.01"
 
 #: ../../chapters/appendix/mixxx_controls.rst:782
 msgid "The :term:`beatgrid` lines move further apart from each other."
@@ -1742,6 +1744,9 @@ msgid ""
 "Restores the :term:`beatgrid` state before the last beatgrid adjustment done"
 " with the above `beats_` controls."
 msgstr ""
+"Herstelt de :term:`beatgrid` naar de staat voor de laatste beatgrid aanpassing"
+" werd gedaan met de bovenstaande `beats_` controls."
+
 
 #: ../../chapters/appendix/mixxx_controls.rst:880
 msgid ""
@@ -1750,10 +1755,15 @@ msgid ""
 ":mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_later>`, "
 "only the first state is stored."
 msgstr ""
+"Het maak-ongedaan-geheugen kan tot tien beatgrid staten bewaren. Voor wijzigingen "
+"die snel opeenvolgend uitgevoerd werden (minder dan 800 milliseconds tussen de acties) "
+"bv herhaald :mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_later>`, "
+"wordt enkel de eerste staat bewaard."
+
 
 #: ../../chapters/appendix/mixxx_controls.rst:884
 msgid "The beatgrid is restored."
-msgstr ""
+msgstr "Dh beatgrid werd hersteld."
 
 #: ../../chapters/appendix/mixxx_controls.rst:893
 msgid ""
@@ -2317,7 +2327,7 @@ msgstr "bereik (alleen-lezen)"
 #: ../../chapters/appendix/mixxx_controls.rst:3733
 #: ../../chapters/appendix/mixxx_controls.rst:4390
 msgid "Meaning"
-msgstr ""
+msgstr "Betekenis"
 
 #: ../../chapters/appendix/mixxx_controls.rst:1324
 #: ../../chapters/appendix/mixxx_controls.rst:4392
@@ -2623,7 +2633,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:1616
 msgid "Traditional"
-msgstr ""
+msgstr "Traditioneel"
 
 #: ../../chapters/appendix/mixxx_controls.rst:1618
 msgid "1d"
@@ -3414,7 +3424,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:2080
 msgid "Clip light"
-msgstr "Clip lamp"
+msgstr "Clip licht"
 
 #: ../../chapters/appendix/mixxx_controls.rst:2086
 #: ../../chapters/appendix/mixxx_controls.rst:3024
@@ -3866,7 +3876,7 @@ msgstr "Start afspelen vanaf het begin van het deck."
 
 #: ../../chapters/appendix/mixxx_controls.rst:2547
 msgid "Deck plays from beginning"
-msgstr ""
+msgstr "Deck speelt vanaf het begin"
 
 #: ../../chapters/appendix/mixxx_controls.rst:2556
 msgid "Seeks a player to the start and then stops it."
@@ -4462,7 +4472,7 @@ msgstr "Zet opname aan of uit."
 #: ../../chapters/appendix/mixxx_controls.rst:3183
 #: ../../chapters/appendix/mixxx_controls.rst:3198
 msgid "Recording icon"
-msgstr ""
+msgstr "Opname icoon"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3188
 msgid "Indicates whether Mixxx is currently recording."
@@ -4898,15 +4908,15 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:3499
 #: ../../chapters/appendix/mixxx_controls.rst:3509
 msgid "Library view"
-msgstr ""
+msgstr "Bibliotheek weergave"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3494
 msgid "Decrease the size of the library font"
-msgstr ""
+msgstr "Verklein de grootte van het bibliotheek-lettertype"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3504
 msgid "Increase or decrease the size of the library font"
-msgstr "Verkleint de grootte van het bibliotheek-lettertype."
+msgstr "Vergroot de grootte van het bibliotheek-lettertype"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3508
 msgid "Relative"
@@ -5066,7 +5076,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3549
 msgid "Sample Rate"
-msgstr ""
+msgstr "Samplefrequentie"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3550
 msgid "30"
