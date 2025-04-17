@@ -1,0 +1,504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"PO-Revision-Date: 2025-04-17 18:21+0000\n"
+"Language-Team: Turkish (https://app.transifex.com/mixxx-dj-software/teams/7734/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst-1
+#: ../../hardware/controllers/mvave_smc_mixer.rst:2
+msgid "M-Vave SMC-Mixer"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:4
+msgid ""
+"`Manufacturer's product page "
+"<https://www.cuvave.com/productinfo/1106102.html>`_ · `Forum thread "
+"<https://mixxx.discourse.group/t/m-wave-sinco-smc-mixer-radio-broadcast-"
+"mapping/30366>`_"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:10
+msgid "Overview"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:19
+msgid "See the tables below for controls descriptions."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:21
+msgid ""
+"The mixer can be connected over Bluetooth, USB-C, or both. For use with "
+"Mixxx it is recommended to disable Bluetooth and connect only via USB-C "
+"[#]_."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:24
+msgid "Deck and EQ"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:26
+msgid ""
+"On the left side of the controller each set of a fader, rotary encoder, and "
+"buttons affect a single deck starting with 3 on the left, then 1, 2, and "
+"finally deck 4."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Knob"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "(rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust selected function (defaults to channel gain)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Treble"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`M` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle high filter cutoff"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`M` (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle knob between gain and high filter"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Mid"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`S` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle mid filter cutoff"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`S` (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle knob between gain and mid filter"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Bass"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`R` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle low filter cutoff"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`R` (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle knob between gain and low filter"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Quick Effect"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`□` (press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle quick effect rack"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`□` (long press)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle knob between gain and quick effect"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "LEDs"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ""
+"Blinks when the hardware control does not match the software control and "
+"soft takeover is enabled"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Faders"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust volume level"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:49
+msgid "Beat Grid"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:51
+msgid ""
+"The right hand side of the controller is mapped to controls relating to the "
+"tempo and beat grid. Each set of controls is mapped to one deck and follows "
+"the same order (3, 1, 2, 4) as the left side controls. The only exception is"
+" the rotary encoders, which are mapped separately as described below."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Slip"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`M`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle slip mode"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Quantize"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`S`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle quantize mode"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Key Lock"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`R`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle the key lock"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`□`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ""
+":term:`Headphone button` / PFL. Toggle sending channel to the cue "
+"(headphone) channel"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust track tempo"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:70
+msgid "Transports"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:72
+msgid ""
+"The transport buttons along the bottom affect only the currently selected "
+"deck, with the exception of \"record\" which toggles recording of the mix "
+"and the navigation buttons which always affect the library view."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:76
+msgid ""
+"Currently Mixxx must be focused for the library navigation buttons to have "
+"any effect. This is an open issue that will be addressed in a future version"
+" of Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Play/Pause"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏵`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Play/pause playback"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏸`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ""
+"If track is playing: stops the track and resets position to the main cue "
+"point"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:3
+msgid "If playback is stopped: sets the main cue point"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏸` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ""
+"Play the track from main cue point, release to stop playback and return to "
+"the main cue point. Playback must be initially stopped on the main cue "
+"point."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Record"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏺`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Toggle recording the mix"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Rewind"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏪`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Beatjump backwards"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Fastforward"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`⏩`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Beatjump forwards"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`«`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Select deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Deck 3"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`«` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Select deck 3"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`»`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Select deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Deck 4"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`»` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Select deck 4"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Up"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`▲`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Navigate up in selected library pane"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Down"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`▼`"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Navigate down in selected library pane"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Left"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`◀` (tracks pane focused)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Navigate to library sidebar"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`◀` (sidebar focused)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Expand/collapse selected list"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Right"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`▶` (sidebar focused)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Navigate to library tracks view"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ":hwlabel:`▶` (tracks pane focused)"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Load track to first available deck"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:104
+msgid ""
+"The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
+" See :ref:`interface-cue-modes` for more info."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:108
+msgid "Knobs"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:110
+msgid ""
+"The four right most rotary encoders are not mapped to individual decks. "
+"Instead they control global mixer values."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Main Gain"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust the volume level of :term:`master output`."
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Balance"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust the output balance"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Cue Gain"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Adjust the headphone volume"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid "Cue Mix"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:1
+msgid ""
+":term:`Head/mix knob<Head/mix button>`. Adjust the dry/wet output to the "
+"headphones, mixing between the cue output and the main mix output"
+msgstr ""
+
+#: ../../hardware/controllers/mvave_smc_mixer.rst:122
+msgid ""
+"Bluetooth is not as reliable as a wired connection for live performances, "
+"and may result in less smooth fader operation and higher latencies."
+msgstr ""

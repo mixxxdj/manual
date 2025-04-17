@@ -1,0 +1,693 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"PO-Revision-Date: 2025-04-17 18:21+0000\n"
+"Language-Team: Galician (https://app.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/reloop_mixage.rst:2
+msgid "Reloop Mixage"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:4
+msgid ""
+"The Reloop Mixage line of controllers contains 2-channel DJ controller. It "
+"offers two jog wheels, line faders, a cross-fader, controls for looping, "
+"effects, equalizers and gain controls. The Interface Edition version comes "
+"with an integrated soundcard, headphone connection and microphone input and "
+"exists in version MK1 (unmarked) and MK2 (marked on back of device)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:12
+msgid "Reloop Mixage IE (top view)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:12
+msgid "Reloop Mixage top view (© Reloop, used with permission)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:15
+msgid "Audio"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:17
+msgid ""
+"This controller is a MIDI and audio class compliant device so it is "
+"compatible as-is with Linux, MacOS and Windows. On Windows, the manufacturer"
+" ships an :term:`ASIO` low-latency driver that can be found on the "
+"`manufacturer’s product page <productpage_url_>`_."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:20
+msgid ""
+"The microphone :hwlabel:`🎤` input can be set to different modes. To make it "
+"usable in Mixxx, set it to **SW**. The :hwlabel:`MASTER` and "
+":hwlabel:`PHONES` level controls work directly on the audio hardware and "
+"can't be mapped in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:23
+msgid "Control overview"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:32
+msgid "Reloop Mixage button overview"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:32
+msgid "Reloop Mixage button overview."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:34
+msgid ""
+"All mapped controls use MIDI channel #1 (can be changed on the back of the "
+"device). Most functions on this controller are quite self-explanatory and "
+"mapped in that way (you might want to check the official manual too)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:37
+msgid "#"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:37
+msgid "Label"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:37
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:37
+msgid "SHIFT function"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:39
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:39
+msgid ":hwlabel:`-`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:39
+msgid "Allows the temporary deceleration (counter-clockwise) of a track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:39
+msgid "Adjust track key down."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:40
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:40
+msgid ":hwlabel:`+`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:40
+msgid "Allows the temporary acceleration (clockwise) of a track."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:40
+msgid "Adjust track key up."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:41
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:41
+msgid ":hwlabel:`SHIFT`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:41
+msgid ""
+"When this button is pressed all controls have a different function. The "
+"assignment can be viewed in the SHIFT function column."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:42
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:42
+msgid ":hwlabel:`LOOP` / :hwlabel:`IN`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:42
+msgid ""
+"Set beatloop start at current play position and activate beatloop or turn it"
+" off if currently active."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:42
+msgid "Set loop in point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:43
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:43
+msgid ":hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:43
+msgid ""
+"Turn to halve/double loop length; Turn while pushing down to adjust beatjump"
+" size; Press shortly to clear any loop points."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:43
+msgid ""
+"Turn to beatjump forward/backward. If a loop is active, move the loop "
+"forward/backward; Press shortly to enter/exit beatloop adjustment mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:44
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:44
+msgid ":hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:44
+msgid "Preamplication of a track/deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:44
+#: ../../hardware/controllers/reloop_mixage.rst:45
+#: ../../hardware/controllers/reloop_mixage.rst:51
+#: ../../hardware/controllers/reloop_mixage.rst:52
+#: ../../hardware/controllers/reloop_mixage.rst:53
+#: ../../hardware/controllers/reloop_mixage.rst:61
+#: ../../hardware/controllers/reloop_mixage.rst:62
+#: ../../hardware/controllers/reloop_mixage.rst:63
+#: ../../hardware/controllers/reloop_mixage.rst:66
+#: ../../hardware/controllers/reloop_mixage.rst:67
+msgid "Same as non-shift function."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:45
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:45
+msgid "Pitchfader"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:45
+msgid ""
+"Adjust the pitch or playback speed of the current deck. The LED lights up in"
+" the neutral position."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:46
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:46
+msgid ":hwlabel:`RELOOP` / :hwlabel:`OUT`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:46
+msgid ""
+"Toggle relooping on/off. Button is lit when a loop is active, blinks slowly "
+"if there's an inactive loop set and thus reloop is available."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:46
+msgid "Set loop out point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:47
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:47
+msgid ":hwlabel:`FX SEL` / :hwlabel:`MASTER`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:47
+msgid ""
+"Select effect in effect unit N for adjustment. Button is lit if an effect "
+"slot is selected."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:47
+msgid "Toggle if deck N is sync leader."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:48
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:48
+msgid ":hwlabel:`-DRY/WET+` / :hwlabel:`PAN`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:48
+msgid ""
+"Turn to control dry/wet for effect rack N; Turn whilst pushing down to "
+"select effect preset for effect rack N; Press shortly to toggle effect(s) in"
+" the effect rack on/off."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:48
+msgid ""
+"Select quick effect preset for deck N. Click to toggle quick effect on/off."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:49
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:49
+msgid ":hwlabel:`AMOUNT` / :hwlabel:`FILTER`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:49
+msgid ""
+"Control effect meta knob when an effect slot is selected; Controls the "
+"effect rack meta knob when no effect slot is selected."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:49
+msgid "Control quick effect super knob."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:50
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:50
+msgid ":hwlabel:`FX ON` / :hwlabel:`KEYLOCK`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:50
+msgid "Toggle effect rack on/off for deck N."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:50
+msgid "Toggle keylock (keep pitch on speed change) on/off."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:51
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:51
+msgid ":hwlabel:`🔍`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:51
+msgid "Toggle to use jog wheel to scroll through deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:52
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:52
+msgid ":hwlabel:`💿`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:52
+msgid "Toggle to use jog wheel to scratch deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:53
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:53
+#: ../../hardware/controllers/reloop_mixage.rst:73
+msgid "Jog wheel"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:53
+msgid "Controls various functions depending on the jog wheel mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:54
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:54
+msgid ":hwlabel:`⯈⯇` / :hwlabel:`CUE 1`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:54
+msgid "Beat-sync deck as follower (hold to sync lock)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:54
+msgid ""
+"If hot cue 1 is set, go to hot cue 1, else set hot cue 1 at current "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:55
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:55
+msgid ":hwlabel:`CUP` / :hwlabel:`CUE 2`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:55
+msgid ""
+"If at cue point, play when released. If not at cue point, sets a cue point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:55
+msgid ""
+"If hot cue 2 is set, go to hot cue 2, else set hot cue 2 at current "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:56
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:56
+msgid ":hwlabel:`CUE` / :hwlabel:`CUE 3`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:56
+msgid ""
+"If at cue point, plays until released. If not at cue point: If playing, goes"
+" to cue point and stops. If not playing, sets a cue point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:56
+msgid ""
+"If hot cue 3 is set, go to hot cue 3, else set hot cue 3 at current "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:57
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:57
+msgid ":hwlabel:`⏯` / :hwlabel:`CUE 4`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:57
+msgid ""
+"Play/pause deck. Hold the disc button :hwlabel:`💿` to soft start/brake the "
+"deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:57
+msgid ""
+"If hot cue 4 is set, go to hot cue 4, else set hot cue 4 at current "
+"position."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:58
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:58
+msgid ":hwlabel:`TRAX`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:58
+msgid ""
+"Turn to browse library. Press to play/pause track preview. Double-press to "
+"maximize/minimize library."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:58
+msgid "Turn to browse side pane."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:59
+#: ../../hardware/controllers/reloop_mixage.rst:60
+msgid "21"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:59
+msgid ":hwlabel:`LOAD` / :hwlabel:`⯇`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:59
+msgid ""
+"Load selected track from library into deck 1; LED lights up if deck is "
+"currently playing."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:59
+msgid "Navigate left (close folder)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:60
+msgid ":hwlabel:`LOAD` / :hwlabel:`⯈`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:60
+msgid ""
+"Load selected track from library into deck 2; LED lights up if deck is "
+"currently playing."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:60
+msgid "Navigate right (open folder)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:61
+msgid "22"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:61
+msgid ":hwlabel:`HIGH`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:61
+msgid "Controls the high EQ."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:62
+msgid "23"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:62
+msgid ":hwlabel:`MID`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:62
+msgid "Controls the mid EQ."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:63
+msgid "24"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:63
+msgid ":hwlabel:`LOW`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:63
+msgid "Controls the low EQ."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:64
+#: ../../hardware/controllers/reloop_mixage.rst:65
+msgid "25"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:64
+msgid ":hwlabel:`🎧` / :hwlabel:`PREV ⯈`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:64
+msgid "Activate :term:`PFL <PFL>` for deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:64
+msgid "Play preview deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:65
+msgid ":hwlabel:`🎧` / :hwlabel:`PREV ⏹`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:65
+msgid "Activate :term:`PFL <PFL>` for deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:65
+msgid "Stop preview deck."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:66
+msgid "26"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:66
+msgid "Linefader"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:66
+msgid "Controls the respective channel's volume."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:67
+msgid "33"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:67
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:67
+msgid "Crossfader between channel 1 and channel 2."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:70
+msgid ""
+"The effect buttons and knobs on the left side apply to effect unit 1, the "
+"ones on the right to effect unit 2. The numbers from the overview correspond"
+" to the product manual and mapping XML file Txx numbers."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:75
+msgid ""
+"With :hwlabel:`🔍` button active: Scroll through the track. While touching "
+"the top of the wheel scrolling is three times as fast."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:76
+msgid ""
+"With :hwlabel:`💿` button active: Touch the side of the jog wheel to nudge "
+"the deck. Touch the top of the jog wheel to scratch (either deck playing or "
+"not)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:77
+msgid "With the Beatloop adjust mode active: Adjusts the selected loop point."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:80
+msgid "Beatloop adjust mode"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:82
+msgid ""
+"When a beatloop has been set, press :hwlabel:`SHIFT` + :hwlabel:`-LENGTH+` /"
+" :hwlabel:`BEATMOVE` to enable beatloop adjust mode. The :hwlabel:`LOOP` / "
+":hwlabel:`IN` and :hwlabel:`RELOOP` / :hwlabel:`OUT` buttons will blink. Now"
+" you can:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:84
+msgid ""
+"Move the entire loop using the jog wheel, adjustment is three times as fast "
+"while the top of the jog wheel is touched."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:85
+msgid ""
+"Press :hwlabel:`LOOP` / :hwlabel:`IN` to shift the loop in point using the "
+"jog wheel. The :hwlabel:`LOOP` / :hwlabel:`IN` will blink."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:86
+msgid ""
+"Press :hwlabel:`RELOOP` / :hwlabel:`OUT` to shift the loop out point using "
+"the jog wheel. The :hwlabel:`RELOOP` / :hwlabel:`OUT` will blink."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:88
+msgid ""
+"Hold :hwlabel:`SHIFT` and press :hwlabel:`-LENGTH+` / :hwlabel:`BEATMOVE`, "
+"or press :hwlabel:`🔍` or :hwlabel:`💿` button to leave beatloop adjust mode."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:91
+msgid "User-adjustable script settings"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:93
+msgid ""
+"The `Reloop-Mixage.scripts.js` controller script provides the following "
+"settings:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:95
+msgid ""
+"`scratchByWheelTouch` (default `false`): change to `true` to get a more "
+"regular, turntable-like mode, i.e. scratch by touching the jog wheel instead"
+" of having to toggle the disc button. Note that the jog wheels are not very "
+"sensitive to touch though (sensitivity can be adjusted on the back of the "
+"controller in the MK1 version)."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:96
+msgid ""
+"`scratchTicksPerRevolution` (default `620`): Change this to adjust the "
+"scratch speed. Smaller values mean \"faster\", higher mean \"slower\"."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:97
+msgid ""
+"`jogWheelScrollSpeed` (default `1.0`): Adjust this to change the jog wheel "
+"scroll speed. The higher the values, the faster."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:100
+msgid "Controller diagnostic functions"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:102
+msgid ""
+"Turn off the controller and hold one of these buttons while turning on the "
+"controller:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:104
+msgid ""
+"Right :hwlabel:`SHIFT` to display the firmware version on the four deck "
+"play/cue buttons. The number is display in little-endian binary, e.g 0101 "
+"meaning 5."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:105
+msgid ""
+"Right :hwlabel:`⏯` to show jog wheel touch values. This can be used to "
+"adjust sensitivity on the MK1 version."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:106
+msgid ""
+"Left :hwlabel:`⯈⯇` to light up all LEDs. Can be helpful when repairing the "
+"controller or replacing the LEDs."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:109
+msgid "Links"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:111
+msgid "`Manufacturer's product page <productpage_url_>`_"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_mixage.rst:112
+msgid "`Forum thread <forum_url_>`_"
+msgstr ""

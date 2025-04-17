@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# chanbomber, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29 13:35+0100\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: chanbomber, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/mixxx-dj-software/teams/7734/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
-msgstr ""
+msgstr "Mixxxの概要"
 
 #: ../../chapters/introduction.rst:8
 msgid ""
@@ -227,6 +231,8 @@ msgid ""
 " build the best DJ software ever created. We hope you will :ref:`join us "
 "<contributing>`!"
 msgstr ""
+"Mixxxは、あなたへ、自身の音楽ライブラリを使用したライブDJミックス機能を提供します。DJコントローラー、ターンテーブル、または単にパソコンのキーボードだけでも、パーティーを盛り上げることに役立ちます。Mixxxは、DJの楽しさを全ての人に届けたいという、世界中のボランティアチームによって開発されています。Mixxxは、コミュニティドリブンな非営利のオープンソースプロジェクトです。私たちは、共に史上最高のDJソフトウェアの開発を目指しています。皆さんの"
+" :ref:`Mixxxプロジェクトへの参加 <contributing>`を待っています!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"

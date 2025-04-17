@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
@@ -136,9 +136,11 @@ msgstr ""
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:95
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:108
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:118
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:134
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:150
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:160
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:142
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:158
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:174
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:186
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:198
 msgid "Control"
 msgstr ""
 
@@ -147,9 +149,11 @@ msgstr ""
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:95
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:108
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:118
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:134
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:150
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:160
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:142
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:158
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:174
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:186
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:198
 msgid "Function"
 msgstr ""
 
@@ -210,6 +214,7 @@ msgid "Toggle scratch mode (default: on)"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:69
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:203
 msgid "Loop :hwlabel:`IN` button"
 msgstr ""
 
@@ -218,6 +223,7 @@ msgid "Enable Beatloop 4 beats."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:70
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:204
 msgid ":hwlabel:`SHIFT` + Loop :hwlabel:`IN` button"
 msgstr ""
 
@@ -226,6 +232,7 @@ msgid "Halve the current loop size."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:71
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:205
 msgid "Loop :hwlabel:`OUT` button"
 msgstr ""
 
@@ -234,6 +241,7 @@ msgid "Disable Beatloop."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:72
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:206
 msgid ":hwlabel:`SHIFT` + Loop :hwlabel:`OUT` button"
 msgstr ""
 
@@ -242,13 +250,11 @@ msgid "Double the current loop size."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:73
-msgid "Beat Align LED"
+msgid ":hwlabel:`BEATMATCH GUIDE`"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:73
-msgid ""
-"Track end warning (make sure :hwlabel:`BEATMATCH GUIDE` is on for this to "
-"work)."
+msgid "Toggles beatmatch guide LEDs."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:74
@@ -351,6 +357,7 @@ msgid "Hot Cue Mode"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:110
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:202
 msgid "Pad 1 - 8"
 msgstr ""
 
@@ -367,221 +374,425 @@ msgid "Delete :term:`hotcue` 1 - 8."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:115
-msgid "Roll Mode"
+msgid "Toneplay Mode"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:120
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:144
 msgid "Pad 1"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:120
-msgid "Activate Beatloop of 1/8 beat size."
+msgid ""
+"Jump to the last used hot cue (or cue point if no hotcue is set) and play at"
+" original pitch."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:121
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:145
 msgid "Pad 2"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:121
-msgid "Activate Beatloop of 1/4 beat size."
+msgid "Jump to the last used hot cue/cue point and play at +1 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:122
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:146
 msgid "Pad 3"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:122
-msgid "Activate Beatloop of 1/2 beat size."
+msgid "Jump to the last used hot cue/cue point and play at +2 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:123
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:138
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:147
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:162
 msgid "Pad 4"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:123
-msgid "Activate Beatloop of 1 beat size."
+msgid "Jump to the last used hot cue/cue point and play at +3 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:124
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:148
 msgid "Pad 5"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:124
-msgid "Activate Beatloop of 2 beat size."
+msgid "Jump to the last used hot cue/cue point and play at -4 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:125
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:149
 msgid "Pad 6"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:125
-msgid "Activate Beatloop of 4 beat size."
+msgid "Jump to the last used hot cue/cue point and play at -3 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:126
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:150
 msgid "Pad 7"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:126
-msgid "Activate Beatloop of 8 beat size."
+msgid "Jump to the last used hot cue/cue point and play at -2 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:127
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:139
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:151
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:163
 msgid "Pad 8"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:127
-msgid "Activate Beatloop of 16 beat size."
+msgid "Jump to the last used hot cue/cue point and play at -1 semitones."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:128
+msgid ":hwlabel:`SHIFT` + Pad 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:128
+msgid "Change the pitch to the original pitch (without jumping)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:129
+msgid ":hwlabel:`SHIFT` + Pad 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:129
+msgid "Change the pitch to +1 semitones."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:130
+msgid ":hwlabel:`SHIFT` + Pad 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:130
+msgid "Change the pitch to +2 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:131
-msgid "FX Mode"
+msgid ":hwlabel:`SHIFT` + Pad 4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:136
-msgid "Pad 1 - 3"
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:131
+msgid "Change the pitch to +3 semitones."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:136
-msgid "Toggle Effect 1 - 3."
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:132
+msgid ":hwlabel:`SHIFT` + Pad 5"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:137
-msgid "Pad 5 - 7"
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:132
+msgid "Change the pitch to -4 semitones."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:137
-msgid "Cycle to the next effect for Effect 1 - 3."
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:133
+msgid ":hwlabel:`SHIFT` + Pad 6"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:138
-msgid "Toggle Effect Unit 1."
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:133
+msgid "Change the pitch to -3 semitones."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:134
+msgid ":hwlabel:`SHIFT` + Pad 7"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:134
+msgid "Change the pitch to -2 semitones."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:135
+msgid ":hwlabel:`SHIFT` + Pad 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:135
+msgid "Change the pitch to -1 semitones."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:139
+msgid "Roll Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:144
+msgid "Activate Beatloop of 1/8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:145
+msgid "Activate Beatloop of 1/4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:146
+msgid "Activate Beatloop of 1/2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:147
+msgid "Activate Beatloop of 1 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:148
+msgid "Activate Beatloop of 2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:149
+msgid "Activate Beatloop of 4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:150
+msgid "Activate Beatloop of 8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:151
+msgid "Activate Beatloop of 16 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:155
+msgid "FX Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:160
+msgid "Pad 1 - 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:160
+msgid "Toggle Effect 1 - 3."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:161
+msgid "Pad 5 - 7"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:161
+msgid "Cycle to the next effect for Effect 1 - 3."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:162
+msgid "Toggle Effect Unit 1."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:163
 msgid "Toggle Effect Unit 2."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:140
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:164
 msgid ":hwlabel:`Shift` + Pad 1 - 3"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:140
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:164
 msgid "Toggle Effect 1 - 3. (Effect Unit 3 / 4 for deck A / B)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:141
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:165
 msgid ":hwlabel:`Shift` + Pad 5 - 7"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:141
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:165
 msgid ""
 "Cycle to the next effect for Effect 1 - 3 (Effect Unit 3 / 4 for deck A / "
 "B)."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:142
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:166
 msgid ":hwlabel:`Shift` + Pad 4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:142
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:166
 msgid "Toggle Effect Unit 3."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:143
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:167
 msgid ":hwlabel:`Shift` + Pad 8"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:143
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:167
 msgid "Toggle Effect Unit 4."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:147
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:171
 msgid "Sampler Mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:152
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:176
 msgid "Pad 1 - 8 (deck A)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:152
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:176
 msgid "Trigger Sampler 1 - 8."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:153
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:177
 msgid "Pad 1 - 8 (deck B)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:153
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:177
 msgid "Trigger Sampler 9 - 16."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:157
-msgid "Beatjump Mode"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:162
-msgid "Pad 1 - 2"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:162
-msgid "Jump backward/forward by 1 beat."
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:163
-msgid "Pad 3 - 4"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:163
-msgid "Jump backward/forward by 2 beats."
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:164
-msgid "Pad 5 - 6"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:164
-msgid "Jump backward/forward by 4 beats."
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:165
-msgid "Pad 7 - 8"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:165
-msgid "Jump backward/forward by 8 beats."
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:169
-msgid "Known issues"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:172
-msgid "Controls not included in this mapping"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:174
-msgid "Master knob (Hardware control)"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:175
-msgid "Headphone knob (Hardware control)"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:176
-msgid "Master buttons (Hardware control)"
-msgstr ""
-
-#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:177
-msgid "Beatmatch guide (Hardware control)"
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:178
+msgid ":hwlabel:`SHIFT` + Pad 1 - 8 (deck A)"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:178
-msgid "PADS: Slicer/Slicer Loop"
+msgid "Stop Sampler 1 - 8."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:179
-msgid "PADS: Toneplay"
+msgid ":hwlabel:`SHIFT` + Pad 1 - 8 (deck B)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:179
+msgid "Stop Sampler 9 - 16."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:183
+msgid "Beatjump Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:188
+msgid "Pad 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:188
+msgid "Jump backward/forward by 1 beat."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:189
+msgid "Pad 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:189
+msgid "Jump backward/forward by 2 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:190
+msgid "Pad 5 - 6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:190
+msgid "Jump backward/forward by 4 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:191
+msgid "Pad 7 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:191
+msgid "Jump backward/forward by 8 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:195
+msgid "Slicer/Slicer Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:200
+msgid "Slicer"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:200
+msgid ""
+"Create a slicer section (overrides active loops). Removes the slicer section"
+" if one is already active."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:201
+msgid ":hwlabel:`SHIFT` + Slicer"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:201
+msgid ""
+"Create a looped slicer section (overrides active loops). Removes the slicer "
+"section if one is already active."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:202
+msgid "Create a loop on slicer section 1-8."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:203
+msgid "Enable Beatloop 4 beats (overrides active slicers)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:204
+msgid "Halve the slicer section size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:205
+msgid "Disable Beatloop or slicer section."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:206
+msgid "Double the slicer section size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:209
+msgid ""
+"Pressing Slicer or Slicer Loop creates a slicer section (indicated by loop "
+"markers). The length of the slicer section is dependent on loop size in the "
+"spinbox. Pressing Slicer, Slicer Loop, or Loop Out will remove the slicer "
+"section."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:212
+msgid ""
+"The slicer section is cut into 8 equal slices. Pressing pad 1-8 will create "
+"a loop on slice 1-8. For example, if a slicer section of 8 beats is created,"
+" then each slice will be 1 beat long. Pressing pad 1 will create a 1-beat "
+"loop on the 1st slice (1st beat). Pad 2 will loop the 2nd slice, pad 3 will "
+"loop the 3rd beat, and so on."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:215
+msgid ""
+"Pressing two pads at the same time creates a loop between two slices. For "
+"example, pressing pads 3 and 6 creates a 4 beat loop that encompasses slices"
+" 3, 4, 5, and 6. Pressing three or more pads will create a loop between the "
+"first and last slices. For example, pressing pads 2, 5, and 7 creates a 6 "
+"beat loop that encompasses slices 2-7."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:218
+msgid ""
+"In Slicer mode, the slicer section moves throughout the track. In Slicer "
+"Loop mode, the slicer section stays in place."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:220
+msgid "For more details, look at the original Inpulse 300 manual."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:223
+msgid "Known issues"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:224
+msgid ""
+"The slicer section does not move backwards with the play indicator when "
+"scratching with the jogwheel."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:225
+msgid "Slicer will not work properly if BPM is not constant."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:228
+msgid "Controls not included in this mapping"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:230
+msgid "Master knob (Hardware control)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:231
+msgid "Headphone knob (Hardware control)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_300.rst:232
+msgid "Master buttons (Hardware control)"
 msgstr ""
