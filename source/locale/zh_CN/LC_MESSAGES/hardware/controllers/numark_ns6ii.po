@@ -1,0 +1,1807 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-17 19:17+0200\n"
+"PO-Revision-Date: 2025-04-17 17:25+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../hardware/controllers/numark_ns6ii.rst:4
+msgid "Numark NS6II"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:17
+msgid "Numark NS6II (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:20
+msgid ""
+"The Numark NS6II is an all-in-one USB :term:`MIDI` controller with an "
+"integrated audio interface. It has controls for 2 decks that can be toggled "
+"between decks to play with 4 decks. Its jogwheels feature a built-in screen "
+"highlighting basic information on the currently playing track of each deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:25
+msgid "`Manufacturer’s product page <http://www.numark.com/product/ns6ii>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:26
+msgid ""
+"`Serato DJ Hardware Page <https://serato.com/dj/hardware/numark-ns6ii>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:27
+msgid ""
+"`User Guide <https://www.numark.com/images/product_downloads/NS6II-"
+"UserGuide-v1.1.pdf>`__"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:32
+msgid "Mapping Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:34
+msgid ""
+"You can download the latest Windows & MacOS drivers and firmware from the "
+"`manufacturer’s website <https://www.numark.com/product/ns6ii>`__. Since the"
+" NS6II is a USB class compliant MIDI and audio device, the device is plug-"
+"and-play on Linux."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:39
+msgid "Audio Setup"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:41
+msgid ""
+"The mapping relies on the following channel assignments (for line/phono "
+"input support, applying effects to the TR-S output, etc.):"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:45
+msgid "Output Channels"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:45
+#: ../../hardware/controllers/numark_ns6ii.rst:52
+msgid "Assigned to"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:47
+msgid "1-2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:47
+msgid "Main"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:48
+msgid "3-4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:48
+msgid "Headphones"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:52
+msgid "Input Channels"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:54
+msgid "1-2 (CH 3 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:54
+msgid "Vinyl Control 1/3"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:55
+msgid "3-4 (CH 4 Line/Phono)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:55
+msgid "Vinyl Control 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:58
+msgid ""
+"Only the Line/Phono inputs are sent back by the controller, no main nor "
+"headphone signal."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:60
+msgid ""
+"The knobs for :hwlabel:`MASTER`, :hwlabel:`BOOTH`, :hwlabel:`CUE GAIN`, "
+":hwlabel:`MIC LEVEL`, and :hwlabel:`CUE MIX` are controlling the hardware "
+"mixer of the built-in audio interface. Hence, turning the knobs will not "
+"change values in the Mixxx :term:`GUI` and you’ll need to set the Mixxx "
+"knobs to their default values when using the controller:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:63
+msgid ""
+"Set the main/booth/headphones/microphone channel levels to 100% (knob center"
+" position)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:64
+msgid "Set cue/main mixing to cue-only (leftmost position)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:68
+msgid "Controller Layout"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:70
+msgid ""
+"The control numbering in the schematic drawings matches the those found on "
+"the specified page in the Owner's Manual."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:81
+msgid "Numark NS6II (Annotated Topview)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:84
+#: ../../hardware/controllers/numark_ns6ii.rst:156
+#: ../../hardware/controllers/numark_ns6ii.rst:184
+#: ../../hardware/controllers/numark_ns6ii.rst:226
+#: ../../hardware/controllers/numark_ns6ii.rst:260
+#: ../../hardware/controllers/numark_ns6ii.rst:282
+#: ../../hardware/controllers/numark_ns6ii.rst:308
+#: ../../hardware/controllers/numark_ns6ii.rst:337
+#: ../../hardware/controllers/numark_ns6ii.rst:364
+#: ../../hardware/controllers/numark_ns6ii.rst:391
+#: ../../hardware/controllers/numark_ns6ii.rst:417
+#: ../../hardware/controllers/numark_ns6ii.rst:440
+#: ../../hardware/controllers/numark_ns6ii.rst:469
+msgid "No."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:84
+#: ../../hardware/controllers/numark_ns6ii.rst:156
+#: ../../hardware/controllers/numark_ns6ii.rst:184
+#: ../../hardware/controllers/numark_ns6ii.rst:282
+#: ../../hardware/controllers/numark_ns6ii.rst:308
+#: ../../hardware/controllers/numark_ns6ii.rst:337
+#: ../../hardware/controllers/numark_ns6ii.rst:364
+#: ../../hardware/controllers/numark_ns6ii.rst:391
+#: ../../hardware/controllers/numark_ns6ii.rst:417
+#: ../../hardware/controllers/numark_ns6ii.rst:440
+#: ../../hardware/controllers/numark_ns6ii.rst:469
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:84
+#: ../../hardware/controllers/numark_ns6ii.rst:156
+#: ../../hardware/controllers/numark_ns6ii.rst:184
+#: ../../hardware/controllers/numark_ns6ii.rst:226
+#: ../../hardware/controllers/numark_ns6ii.rst:282
+#: ../../hardware/controllers/numark_ns6ii.rst:308
+#: ../../hardware/controllers/numark_ns6ii.rst:337
+#: ../../hardware/controllers/numark_ns6ii.rst:364
+#: ../../hardware/controllers/numark_ns6ii.rst:391
+#: ../../hardware/controllers/numark_ns6ii.rst:417
+#: ../../hardware/controllers/numark_ns6ii.rst:440
+#: ../../hardware/controllers/numark_ns6ii.rst:469
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:86
+#: ../../hardware/controllers/numark_ns6ii.rst:186
+#: ../../hardware/controllers/numark_ns6ii.rst:228
+#: ../../hardware/controllers/numark_ns6ii.rst:339
+#: ../../hardware/controllers/numark_ns6ii.rst:366
+#: ../../hardware/controllers/numark_ns6ii.rst:442
+#: ../../hardware/controllers/numark_ns6ii.rst:443
+#: ../../hardware/controllers/numark_ns6ii.rst:471
+msgid "1"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:86
+msgid "LCD Display (:ref:`see below <numark-ns6ii-jogwheel-display>`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:86
+msgid "Show basic Metadata about currently playing deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:87
+#: ../../hardware/controllers/numark_ns6ii.rst:187
+#: ../../hardware/controllers/numark_ns6ii.rst:229
+#: ../../hardware/controllers/numark_ns6ii.rst:340
+#: ../../hardware/controllers/numark_ns6ii.rst:367
+#: ../../hardware/controllers/numark_ns6ii.rst:444
+#: ../../hardware/controllers/numark_ns6ii.rst:445
+#: ../../hardware/controllers/numark_ns6ii.rst:472
+msgid "2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:87
+msgid ":hwlabel:`SHIFT` Button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:87
+msgid ""
+"Activates alternative functionality on respective deck and all Mixer "
+"channels"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:88
+#: ../../hardware/controllers/numark_ns6ii.rst:89
+#: ../../hardware/controllers/numark_ns6ii.rst:188
+#: ../../hardware/controllers/numark_ns6ii.rst:230
+#: ../../hardware/controllers/numark_ns6ii.rst:341
+#: ../../hardware/controllers/numark_ns6ii.rst:368
+#: ../../hardware/controllers/numark_ns6ii.rst:446
+#: ../../hardware/controllers/numark_ns6ii.rst:447
+#: ../../hardware/controllers/numark_ns6ii.rst:473
+msgid "3"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:88
+msgid ":hwlabel:`Touch All` (On or Blinking)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:88
+msgid ""
+"Touching an **FX Knob** enables it while it is touched and deactivated once "
+"released"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:89
+msgid ":hwlabel:`Touch All` (Blinking)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:89
+msgid ""
+"Touching an **EQ Knob** enables it while it is touched and deactivated once "
+"released"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:90
+#: ../../hardware/controllers/numark_ns6ii.rst:189
+#: ../../hardware/controllers/numark_ns6ii.rst:231
+#: ../../hardware/controllers/numark_ns6ii.rst:342
+#: ../../hardware/controllers/numark_ns6ii.rst:369
+#: ../../hardware/controllers/numark_ns6ii.rst:448
+#: ../../hardware/controllers/numark_ns6ii.rst:449
+#: ../../hardware/controllers/numark_ns6ii.rst:474
+msgid "4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:90
+msgid ":hwlabel:`Deck 3`/:hwlabel:`Deck 4`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:90
+msgid "Switch between controlling deck 1/3 or 2/4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:91
+#: ../../hardware/controllers/numark_ns6ii.rst:92
+#: ../../hardware/controllers/numark_ns6ii.rst:190
+#: ../../hardware/controllers/numark_ns6ii.rst:232
+#: ../../hardware/controllers/numark_ns6ii.rst:343
+#: ../../hardware/controllers/numark_ns6ii.rst:475
+msgid "5"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:91
+msgid ":hwlabel:`USB`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:91
+msgid "See :ref:`numark-ns6ii-dj-changeover`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:92
+msgid ":hwlabel:`SHIFT` + :hwlabel:`USB`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:92
+msgid "Switch deck to be controlled by PC1 (white) or PC2 (red)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:93
+#: ../../hardware/controllers/numark_ns6ii.rst:191
+#: ../../hardware/controllers/numark_ns6ii.rst:233
+#: ../../hardware/controllers/numark_ns6ii.rst:344
+#: ../../hardware/controllers/numark_ns6ii.rst:476
+msgid "6"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:93
+msgid ":hwlabel:`LINE` / :hwlabel:`PC`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:93
+msgid "Select Audio input Source for Mixer Channel 3/4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:94
+msgid "15"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:94
+msgid "Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:94
+msgid "Fades volume between side A and B"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:95
+msgid "16"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:95
+msgid ":hwlabel:`Master` Gain"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:95
+msgid "Controls output volume of the hardware Master output"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:96
+msgid "17"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:96
+msgid ":hwlabel:`Booth` Gain"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:96
+msgid "Controls output volume of the hardware Booth output"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:97
+#: ../../hardware/controllers/numark_ns6ii.rst:98
+msgid "18"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:97
+msgid "Jog Wheel (top surface)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:97
+msgid ""
+"Perform scratch operation (if scratch mode is enabled, otherwise perform as "
+"if outer edge was touched)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:98
+msgid "Jog Wheel (outer edge)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:98
+msgid "Rotate to lower/raise playback speed (and pitch if key lock is off)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:99
+msgid "19"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:99
+msgid "Play/Pause Button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:99
+msgid "Starts/Stops/Resumes playback on the current Deck"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:100
+#: ../../hardware/controllers/numark_ns6ii.rst:101
+msgid "20"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:100
+msgid ":hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:100
+msgid ""
+"Specifies, plays or recalls temporary cue point. Depends on :ref:`Cue mode "
+"<interface-cue-modes>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:101
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:101
+msgid "Seeks to the Track start, then stops the Deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:102
+#: ../../hardware/controllers/numark_ns6ii.rst:103
+msgid "21"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:102
+msgid ":hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:102
+msgid ""
+"Short press to match tempo and phase of other deck once. Long press to "
+"enable :ref:`Sync Lock <sync-lock>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:103
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:103
+msgid "Press to toggle :term:`quantization`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:104
+#: ../../hardware/controllers/numark_ns6ii.rst:105
+msgid "22"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:104
+msgid ":hwlabel:`BLEEP` Button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:104
+msgid ""
+"Press to play in reverse, return to where the track would be with no button "
+"press on button release."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:105
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BLEEP` Button (:hwlabel:`KEYLOCK`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:105
+msgid "Toggle :term:`Keylock <key lock>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:106
+#: ../../hardware/controllers/numark_ns6ii.rst:107
+msgid "23"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:106
+msgid ":hwlabel:`SCRATCH` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:106
+msgid ""
+"Toggle platter scratching. If active, touching the jogwheel results in "
+"scratch behavior, if disabled jogwheel behaves as if only outer edge was "
+"touched."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:107
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SCRATCH` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:107
+msgid "Switch display between showing remaining/elapsed time"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:108
+#: ../../hardware/controllers/numark_ns6ii.rst:109
+msgid "24"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:108
+msgid ":hwlabel:`STRIP SEARCH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:108
+msgid ""
+"Seek to absolute position in *stopped* track (does nothing for playing "
+"tracks to avoid accidents)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:109
+msgid ":hwlabel:`SHIFT` + :hwlabel:`STRIP SEARCH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:109
+msgid "Seek to absolute position in *playing* track"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:110
+#: ../../hardware/controllers/numark_ns6ii.rst:111
+msgid "25"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:110
+msgid ":hwlabel:`SLIP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:110
+msgid "toggle slip mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:111
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SLIP` (:hwlabel:`QUANTIZE`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:111
+msgid ""
+"Toggle Deck track repeat (quantize is mapped to :hwlabel:`SHIFT` + "
+":hwlabel:`SYNC` instead)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:112
+#: ../../hardware/controllers/numark_ns6ii.rst:113
+#: ../../hardware/controllers/numark_ns6ii.rst:114
+msgid "33"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:112
+msgid ":hwlabel:`BROWSE` encoder"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:112
+msgid "Navigate vertically in the library a single step at a time"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:113
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSE` encoder"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:113
+msgid ""
+"Navigate vertically in the library jumping a configurable amount of steps "
+"each time"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:114
+msgid ":hwlabel:`BROWSE` encoder press"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:114
+msgid "Perform :mixxx:coref:`GoToItem <[Library],GoToItem>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:115
+#: ../../hardware/controllers/numark_ns6ii.rst:116
+msgid "34"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:115
+msgid ":hwlabel:`VIEW` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:115
+msgid ""
+"Toggle maximized library view (useful when searching for tracks on small "
+"screens)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:116
+msgid ":hwlabel:`SHIFT` + :hwlabel:`VIEW` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:116
+msgid "Sort library by BPM"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:117
+#: ../../hardware/controllers/numark_ns6ii.rst:118
+msgid "35"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:117
+msgid ":hwlabel:`BACK` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:117
+msgid "Move Focus Back (jump between library sidebar and table)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:118
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BACK` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:118
+msgid "Sort library by Song title"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:119
+#: ../../hardware/controllers/numark_ns6ii.rst:120
+msgid "36"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:119
+msgid ":hwlabel:`AREA` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:119
+msgid "Move Focus Forward (jump between library sidebar and table)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:120
+msgid ":hwlabel:`SHIFT` + :hwlabel:`AREA` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:120
+msgid "Sort library by Key"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:121
+#: ../../hardware/controllers/numark_ns6ii.rst:122
+msgid "37"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:121
+msgid ":hwlabel:`L.PREP` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:121
+msgid "Load track to :ref:`interface-preview-deck`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:122
+msgid ":hwlabel:`SHIFT` + :hwlabel:`L.PREP` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:122
+msgid "Sort library by Artist name"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:123
+msgid "39"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:123
+msgid ":hwlabel:`+%`/:hwlabel:`-%` Fader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:123
+msgid ""
+"Move down to increase track tempo, move up to decrease. Behavior can be "
+"configured via :menuselection:`Preferences --> Decks --> Down increases "
+"Speed`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:124
+msgid "40"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:124
+msgid "takeover LEDs"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:124
+msgid "see :ref:`numark-ns6ii-takeover-leds`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:125
+msgid "41"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:125
+msgid ":hwlabel:`+` & :hwlabel:`-` buttons"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:125
+msgid ""
+"Temporarily speedup / slowdown the track (used for beatmatching). The exact "
+"behavior can be configured via :menuselection:`Preferences --> Decks --> "
+"Pitch bend behavior`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:126
+msgid "48"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:126
+msgid ":hwlabel:`TOUCH FX`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:126
+msgid ""
+"Tristate (off/on/blinking). When on or blinking, merely touching an FX knob "
+"activate the FX while its touched and deactivated once released. If its "
+"blinking the same also applies to the EqKnobs."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:132
+msgid "Takeover LEDs"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:134
+msgid ""
+"These indicate the physical position of the tempo fader relative to the "
+"software one. The Tempo Fader uses soft-takeover, meaning if the physical "
+"location does not match the software one, you will need to synchronize it "
+"manually again (this avoids sudden jumps). The closer the slider is to its "
+"neutral position, the brighter the middle LED is. The closer the physical "
+"slider position is to the software position, the dimmer they get. This "
+"allows you to judge how far you have to move the slider until you have "
+"synchronized the fader and how far you have to move it until it is at "
+"neutral speed. These leds (with the exceptions of the middle LED are also "
+"repeated on the Jogwheel LCD Display)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:146
+msgid "Mixer Section"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:148
+msgid ""
+"The NS6II features 4 identical (with respect to symmetry) Mixer Channels. "
+"See :ref:`interface-eq-gain` for a complete explanation of the individual "
+"concepts"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:158
+msgid "38"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:158
+msgid ":hwlabel:`LOAD`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:158
+msgid ""
+"Load the currently selected track from the library into the deck "
+"corresponding to the channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:159
+msgid "46"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:159
+msgid ":hwlabel:`A` / :hwlabel:`B`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:159
+msgid "Route Channel to left/right :ref:`Effect Unit <interface-effects>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:160
+#: ../../hardware/controllers/numark_ns6ii.rst:192
+#: ../../hardware/controllers/numark_ns6ii.rst:234
+#: ../../hardware/controllers/numark_ns6ii.rst:345
+#: ../../hardware/controllers/numark_ns6ii.rst:477
+msgid "7"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:160
+msgid ":hwlabel:`GAIN`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:160
+msgid "Channel Gain (see :ref:`interface-eq-gain`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:161
+#: ../../hardware/controllers/numark_ns6ii.rst:236
+msgid "9"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:161
+msgid ":hwlabel:`HIGH`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:161
+msgid "Channel High/Treble EQ"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:162
+#: ../../hardware/controllers/numark_ns6ii.rst:193
+#: ../../hardware/controllers/numark_ns6ii.rst:235
+#: ../../hardware/controllers/numark_ns6ii.rst:346
+#: ../../hardware/controllers/numark_ns6ii.rst:478
+msgid "8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:162
+msgid "Channel VuMeter"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:162
+msgid ""
+"loudness of signal of that specific channel (after EQ, before Filter and "
+"Faders). A white LED indicates a clipping signal (see :term:`level meter`)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:163
+msgid "10"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:163
+msgid ":hwlabel:`MID`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:163
+msgid "Channel Mid EQ"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:164
+msgid "11"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:164
+msgid ":hwlabel:`LOW`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:164
+msgid "Channel Low/Bass EQ"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:165
+msgid "47"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:165
+msgid ":hwlabel:`FILTER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:165
+msgid "This knob lets you control the Meta knob of the deck’s Quick Effect."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:166
+msgid "14"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:166
+msgid ":hwlabel:`A OFF B` switch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:166
+msgid ""
+"The :term:`crossfader` orientation switches determine to which side of the "
+"crossfader the deck is assigned. It can be set to the left or right side, or"
+" to the center where it is unaffected by the crossfader knob."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:167
+msgid "13"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:167
+msgid ":hwlabel:`🎧` (pfl/cue) button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:167
+msgid ""
+"Toggle :term:`PFL`. Notice: due to hardware constraints, this always works "
+"in numark mode: clicking a single button solos the corresponding channel, to"
+" listen to multiple channels, press and then release multiple buttons at "
+"once."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:168
+msgid "12"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:168
+msgid "Channel Fader"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:168
+msgid "Decrease the volume of the channel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:172
+msgid "Front Panel"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:181
+msgid "NS6II (front view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:181
+msgid "Numark NS6II (front view)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:186
+msgid ":hwlabel:`🎧` 3.5mm (1/8\") and 6.35mm (1/4\") TRS Jacks/Sockets"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:186
+msgid "Sole audio output of the Headphone signal"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:187
+msgid ":hwlabel:`GAIN` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:187
+msgid "Headphone signal gain (hardware)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:188
+msgid ":hwlabel:`SPLIT` Switch"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:188
+msgid ""
+"Switch between Stereo and SplitCue signal (see :ref:`interface-head-main`) "
+"(note: the v1.0.4 firmware :ref:`contains a bug <numark-ns6ii-split-cue-"
+"issue>`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:189
+msgid ":hwlabel:`MIX` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:189
+msgid "Fade between Main and PFL signal"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:190
+msgid ":hwlabel:`CF CONTOUR` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:190
+msgid ""
+"Change between a Crossfader curve suitable for scratching (hard cut) and "
+"smooth fading (constant power)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:191
+msgid ":hwlabel:`LEVEL` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:191
+msgid ""
+"Output Level of the microphone signal. Note that the microphone signal goes "
+"directly to the main output and is not sent to mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:192
+msgid ":hwlabel:`HIGH` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:192
+msgid "High EQ of the microphone signal"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:193
+msgid ":hwlabel:`LOW` Knob"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:193
+msgid "Low EQ of the microphone signal"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:197
+msgid "Effects Section"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:206
+msgid "NS6II (Effect Unit)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:206
+msgid "Numark NS6II (Effect Unit)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:208
+msgid ""
+"Left Section controls Effect Unit 1, right controls Effect Unit 2. For more "
+"details on Effect Units, see :ref:`effects`. The mapping follows the "
+"standards :ref:`controller-effects-mapping`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:214
+msgid "Jogwheel Display"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:223
+msgid "NS6II (jogwheel display)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:223
+msgid "Numark NS6II (jogwheel display)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:228
+msgid ""
+"Shows the deck currently being controlled by that side of the controller"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:229
+msgid "The current position of the \"virtual\" vinyl sticker"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:230
+msgid "Shows how far we are through the track (percentage)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:231
+msgid ""
+"Time Elapsed of / Remaining in the track. Elapsed/Remaining can be toggled "
+"with :hwlabel:`SHIFT` + :hwlabel:`SCRATCH` button"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:232
+msgid "current BPM of the deck (with tempofader adjustments)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:233
+msgid "copy of the :ref:`numark-ns6ii-takeover-leds`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:234
+msgid "current Tempo Adjustment in percent"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:235
+msgid "current Tempo Adjustment range in percent"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:236
+msgid "Shows whether :term:`key lock` is enabled."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:240
+msgid "Performance Pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:249
+#: ../../hardware/controllers/numark_ns6ii.rst:279
+msgid "NS6II (performance pads)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:249
+#: ../../hardware/controllers/numark_ns6ii.rst:279
+msgid "Numark NS6II (performance pads)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:251
+msgid ""
+"Each controller Deck has a performance pad section controlling aspects of "
+"the deck or the currently playing track."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:253
+msgid ""
+"The mode currently active mode can be selected by pressing the corresponding"
+" buttons. Each button cycles through a selection of modes which can be seen "
+"in the table below. Pressing a mode button once results in a fully lit "
+"button, pressing it twice will blink on and off and pressing it three times "
+"results in a repeating pattern consisting of three short blinks and a pause."
+" The pattern indicates which mode is active."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:257
+msgid ""
+"The functionality of the :hwlabel:`PARAMETER ADJUST` buttons (labelled 27) "
+"is specific to each mode."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:260
+#: ../../hardware/controllers/numark_ns6ii.rst:537
+msgid "Label"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:260
+msgid "1x Press"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:260
+msgid "2x Press"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:260
+msgid "3x Press"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:262
+msgid "28"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:262
+msgid ":hwlabel:`CUES`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:262
+msgid "Hotcues 1-8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:262
+msgid "Hotcues 1-9"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:263
+msgid "29"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:263
+msgid ":hwlabel:`AUTO`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:263
+msgid "AutoLoop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:263
+msgid "LoopRoll"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:264
+msgid "30"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:264
+msgid ":hwlabel:`LOOP`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:264
+msgid "Loop Control"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:264
+msgid "KeyControl"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:265
+msgid "31"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:265
+msgid ":hwlabel:`SAMPLER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:265
+msgid "Samplers 1-8 Normal"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:265
+msgid "Samplers 1-8 Velocity-sensitive"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:266
+msgid "32"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:266
+msgid ":hwlabel:`SLICER`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:266
+msgid "beat jumping"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:266
+msgid "intro/outro markers"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:266
+msgid "beatgridsettings"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:270
+msgid "Hotcues"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:284
+#: ../../hardware/controllers/numark_ns6ii.rst:285
+#: ../../hardware/controllers/numark_ns6ii.rst:286
+#: ../../hardware/controllers/numark_ns6ii.rst:310
+#: ../../hardware/controllers/numark_ns6ii.rst:311
+#: ../../hardware/controllers/numark_ns6ii.rst:312
+#: ../../hardware/controllers/numark_ns6ii.rst:393
+#: ../../hardware/controllers/numark_ns6ii.rst:394
+#: ../../hardware/controllers/numark_ns6ii.rst:395
+msgid "1-8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:284
+#: ../../hardware/controllers/numark_ns6ii.rst:393
+#: ../../hardware/controllers/numark_ns6ii.rst:442
+#: ../../hardware/controllers/numark_ns6ii.rst:444
+#: ../../hardware/controllers/numark_ns6ii.rst:446
+#: ../../hardware/controllers/numark_ns6ii.rst:448
+msgid "Pad (unlit)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:284
+msgid "Save current position as hot cue (hotcue index as labelled)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:285
+#: ../../hardware/controllers/numark_ns6ii.rst:312
+#: ../../hardware/controllers/numark_ns6ii.rst:395
+#: ../../hardware/controllers/numark_ns6ii.rst:443
+#: ../../hardware/controllers/numark_ns6ii.rst:445
+#: ../../hardware/controllers/numark_ns6ii.rst:447
+#: ../../hardware/controllers/numark_ns6ii.rst:449
+msgid "Pad (lit)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:285
+msgid ""
+"Jump to hot cue. If the track is stopped, holding the pad will preview the "
+"hot cue until the pad is released."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:286
+#: ../../hardware/controllers/numark_ns6ii.rst:394
+msgid ":hwlabel:`SHIFT` + Pad (lit)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:286
+msgid "Clear hot cue."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:287
+#: ../../hardware/controllers/numark_ns6ii.rst:288
+#: ../../hardware/controllers/numark_ns6ii.rst:313
+#: ../../hardware/controllers/numark_ns6ii.rst:347
+#: ../../hardware/controllers/numark_ns6ii.rst:371
+#: ../../hardware/controllers/numark_ns6ii.rst:396
+#: ../../hardware/controllers/numark_ns6ii.rst:421
+#: ../../hardware/controllers/numark_ns6ii.rst:451
+#: ../../hardware/controllers/numark_ns6ii.rst:479
+msgid "27"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:287
+#: ../../hardware/controllers/numark_ns6ii.rst:313
+#: ../../hardware/controllers/numark_ns6ii.rst:347
+#: ../../hardware/controllers/numark_ns6ii.rst:371
+#: ../../hardware/controllers/numark_ns6ii.rst:396
+#: ../../hardware/controllers/numark_ns6ii.rst:421
+#: ../../hardware/controllers/numark_ns6ii.rst:451
+#: ../../hardware/controllers/numark_ns6ii.rst:479
+msgid ":hwlabel:`PARAMETER ADJUST`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:287
+msgid "no functionality"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:288
+msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER ADJUST`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:288
+msgid ""
+"Change the color of the currently focused (last pressed) hotcue. Cycles "
+"forwards/backwards through the colors of the currently selected palette (see"
+" :ref:`configuration-colors-editor`)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:291
+msgid ""
+"Pressing the hotcue selector a second time, the second hotcue mode will get "
+"selected, making it possible to access hotcues 9-16."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:296
+msgid "Auto Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:305
+msgid "NS6II (autoloop)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:305
+msgid "Numark NS6II (autoloop)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:310
+msgid "Pad (unlit) + loop disabled"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:310
+msgid "activate loop at current position for the specified length"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:311
+msgid "Pad (unlit) + loop enabled"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:311
+msgid "change currently active loop length"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:312
+msgid "deactivate loop"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:313
+msgid "double/half the size of each loop activated by a specific pad."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:319
+msgid "Loop Roll Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:321
+msgid ""
+"Works exactly like :ref:`numark-ns6ii-autoloop`, but the loop will get "
+"deactivated after letting go of the pad and the track resumes at the "
+"position where it would have been if it had not looped."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:325
+msgid "Loop Control Mode"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:334
+msgid "NS6II (loop control)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:334
+msgid "Numark NS6II (loop control)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:339
+msgid "Loop in"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:339
+msgid ":mixxx:coref:`loop_in <[ChannelN],loop_in>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:340
+msgid "Loop Out"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:340
+msgid ":mixxx:coref:`loop_out <[ChannelN],loop_out>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:341
+msgid "Loop Activate"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:341
+msgid ":mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:342
+msgid "Loop Toggle"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:342
+msgid ""
+":mixxx:coref:`reloop_exit <[ChannelN],reloop_exit>`. Lit if loop is active."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:343
+msgid "Jump loop back"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:343
+msgid ":mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:344
+msgid "Jump forward"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:344
+msgid ":mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:345
+msgid "Loop /2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:345
+msgid ":mixxx:coref:`loop_halve <[ChannelN],loop_halve>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:346
+msgid "Loop x2"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:346
+msgid ":mixxx:coref:`loop_double <[ChannelN],loop_double>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:347
+#: ../../hardware/controllers/numark_ns6ii.rst:371
+#: ../../hardware/controllers/numark_ns6ii.rst:396
+#: ../../hardware/controllers/numark_ns6ii.rst:450
+#: ../../hardware/controllers/numark_ns6ii.rst:451
+#: ../../hardware/controllers/numark_ns6ii.rst:479
+msgid "No function"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:352
+msgid "Key Control"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:361
+msgid "NS6II (key control)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:361
+msgid "Numark NS6II (key control)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:366
+msgid "Sync Key"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:366
+msgid ":mixxx:coref:`sync_key <[ChannelN],sync_key>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:367
+msgid "Pitch Down"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:367
+msgid ":mixxx:coref:`pitch_down <[ChannelN],pitch_down>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:368
+msgid "Pitch Up"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:368
+msgid ":mixxx:coref:`pitch_up <[ChannelN],pitch_up>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:369
+msgid "Reset Key"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:369
+msgid ":mixxx:coref:`reset_key <[ChannelN],reset_key>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:370
+msgid "5 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:370
+#: ../../hardware/controllers/numark_ns6ii.rst:419
+#: ../../hardware/controllers/numark_ns6ii.rst:420
+#: ../../hardware/controllers/numark_ns6ii.rst:450
+msgid "Pad"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:370
+msgid "Unused"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:376
+msgid "Sampler Pads"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:385
+msgid "NS6II (sampler pads)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:385
+msgid "Numark NS6II (sampler pads)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:388
+msgid ""
+"The sampler modes allow you to load, play and stop samples in the first 8 "
+"sample slots."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:393
+msgid ""
+"Load currently selected track into the sample slot associated with the pad."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:394
+msgid ""
+"If the sample is playing, stop the playback. If the sample is not playing, "
+"eject the sample from the sample slot."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:395
+msgid ""
+"Play the sample in the sample slot associated with the pad. *Velocity "
+"Sampler Mode*: The playback volume of the sample depends on the pressure "
+"(velocity)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:402
+msgid "Beat Jump"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:411
+#: ../../hardware/controllers/numark_ns6ii.rst:435
+msgid "NS6II (beat jump)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:411
+#: ../../hardware/controllers/numark_ns6ii.rst:435
+msgid "Numark NS6II (beat jump)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:414
+msgid ""
+"The beat jump mode allows you to jump to specific beat positions in your "
+"loop."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:419
+msgid "1-4"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:419
+msgid "Jump forward to the beat position indicated by the pad."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:420
+#: ../../hardware/controllers/numark_ns6ii.rst:450
+msgid "5-8"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:420
+msgid "Jump backward to the beat position indicated by the pad."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:421
+msgid "Adjusts the loop size (halve/double each pad)."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:426
+msgid "Intro/Outro Markers"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:437
+msgid "This mode allow you to prepare tracks by setting intro/outro cues."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:442
+msgid "Set current position as intro start."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:443
+msgid "Jump to intro start position."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:444
+msgid "Set current position as intro end."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:445
+msgid "Jump to intro end position."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:446
+msgid "Set current position as outro start."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:447
+msgid "Jump to outro start position."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:448
+msgid "Set current position as outro end."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:449
+msgid "Jump to outro end position."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:455
+msgid "Beatgrid Adjustments"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:464
+msgid "NS6II (beatgrid)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:464
+msgid "Numark NS6II (beatgrid)"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:466
+msgid ""
+"This mode allow you to adjust the beatgrid of a track. The layout mimics the"
+" Beatgrid controls of the Latenight skin."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:471
+msgid "Set Beatgrid at current position"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:471
+msgid ""
+":mixxx:coref:`beats_translate_curpos <[ChannelN],beats_translate_curpos>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:472
+msgid "Shift beatgrid earlier"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:472
+msgid ""
+":mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_earlier>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:473
+msgid "Shift beatgrid later"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:473
+msgid ""
+":mixxx:coref:`beats_translate_later <[ChannelN],beats_translate_later>`"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:474
+msgid "Shift cues later"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:474
+msgid ":mixxx:coref:`shift_cues_later <[ChannelN],shift_cues_later>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:475
+msgid "BPM tap"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:475
+msgid ""
+":mixxx:coref:`bpm_tap <[ChannelN],bpm_tap>`. This button does not exist in "
+"latenight."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:476
+msgid "beats adjust faster"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:476
+msgid ":mixxx:coref:`beats_adjust_faster <[ChannelN],beats_adjust_faster>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:477
+msgid "beats adjust slower"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:477
+msgid ":mixxx:coref:`beats_adjust_slower <[ChannelN],beats_adjust_slower>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:478
+msgid "shift cues earlier"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:478
+msgid ":mixxx:coref:`shift_cues_earlier <[ChannelN],shift_cues_earlier>`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:485
+msgid "DJ Changeover"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:487
+msgid ""
+"The NS6II allows two computers running Mixxx (likely also Serato DJ, but "
+"this is untested) to connect to the unit simultaneously. This allows two DJs"
+" to play at the same time for easy DJ set changeovers. With a computer "
+"already connected to the NS6II and playing (PC1), do the following:"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:491
+msgid ""
+"Connect a second computer (PC2) to the unused USB port on the NS6II's rear "
+"panel. Once the computer has connected, the software will show all decks "
+"offline. The first computer will still control both sides of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:495
+msgid ""
+"Before giving PC2 control of one side of the NS6II, make sure no audio is "
+"playing from PC2 on that deck. Then, press and hold the :hwlabel:`SHIFT` key"
+" and press the :hwlabel:`PC1/PC2` button on the non-playing deck."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:498
+msgid ""
+"PC2 will now control the two channels on that side of the controller, and "
+"will automatically have focus of the browse controls. Use the browse knob to"
+" scroll through the library, then add the desired track to the deck by "
+"pressing the Load button."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:503
+msgid ""
+"Play a track on PC2's deck and mix it in when ready. For example, while PC1 "
+"is using Deck A (and the mixer controls for Channels 1 & 3) to control their"
+" computer, PC2 can also use Deck B (and the mixer controls for Channels 2 & "
+"4) to control their computer."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:508
+msgid ""
+"With one computer controlling each deck, press the Browse Focus / PC1/PC2 "
+"button on the non-playing deck to switch control of the browse knob."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:511
+msgid ""
+"Fade out the audio playing from PC1's computer to the audio playing from "
+"PC2's computer. When only the audio from PC2's computer is left in the mix, "
+"press and hold the Shift key and press the Browse Focus / PC1/PC2 button on "
+"the non-playing deck. Now, PC2 is using both Deck A and Deck B."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:516
+msgid "Repeat steps 3 and 4 for the other side of the NS6II."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:518
+msgid ""
+"Please note that you should always test the changeover process with a small "
+"amount of music before performing it during a live set."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:525
+msgid ""
+"There is a bug in Firmware v1.0.4 (and possibly earlier) of the Numark NS6II"
+" which causes the headsplit control to be sent inverted when the controller "
+"status is sent. This happens on startup and when switching decks between "
+"PC1/PC2. Numark is aware of the issue but they don't seem to be interested "
+"in fixing it. Unfortunately it also doesn't happen 100% of the time, so if "
+"you experience mono-sounding headphones you may need to explicitly sync "
+"mixxx and the built-in mixer by toggling the split cue switch once."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:534
+msgid "Settings"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:537
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:539
+msgid "Use Button Backlight"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:539
+msgid ""
+"Checked: deactivated button has a slight (usually red) backlight, Unchecked:"
+" LED of deactivated button is completely off."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:540
+msgid "Move this many tracks at once with :hwlabel:SHIFT"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:540
+msgid ""
+"Amount of tracks moved in a single step when turning the :hwlabel:`BROWSE` "
+"encoder while pressing :hwlabel:`SHIFT`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:541
+msgid "Loop size of the smallest Pad"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:541
+msgid ""
+"the size of the first pad on :ref:`numark-ns6ii-autoloop`, :ref:`numark-"
+"ns6ii-looproll` and :ref:`numark-ns6ii-beatjump`."
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:542
+msgid "In controller script: ``NS6II.RATE_RANGES``"
+msgstr ""
+
+#: ../../hardware/controllers/numark_ns6ii.rst:542
+msgid ""
+"List of available :mixxx:coref:`rate ranges <[ChannelN],rateRange>` to cycle"
+" through using the Pitch Bend +/- Buttons."
+msgstr ""

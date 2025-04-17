@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# adjenk, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: adjenk, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Biblioteca - Icon AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../chapters/appendix/additional_resources.rst:4
 msgid "Additional Resources"
-msgstr ""
+msgstr "Recursos Adicionales"
 
 #: ../../chapters/appendix/additional_resources.rst:9
 msgid ""
@@ -250,6 +254,9 @@ msgid ""
 "**Mixxx Community Forums**: To search for answers, post your question or "
 "answer other DJ's questions, go to: `<https://mixxx.org/forums>`_"
 msgstr ""
+"**Foros de la comunidad Mixxx**: para buscar respuestas, publicar tu "
+"pregunta o responder las preguntas de otros DJ, ve a: "
+"`<https://mixxx.org/forums>`_"
 
 #: ../../chapters/appendix/additional_resources.rst:28
 msgid ""
