@@ -8,4 +8,5 @@ transifex-client
 sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme
 sphinx-multiversion
+sphinx-autobuild==2024.10.3
 ./sphinx-mixxx
