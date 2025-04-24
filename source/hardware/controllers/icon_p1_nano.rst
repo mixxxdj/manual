@@ -163,7 +163,7 @@ parameter screens.
    "Down", ":hwlabel:`🢓`", "Show next screen"
    "Mute", ":hwlabel:`M`", "Mute the active deck"
    "Solo", ":hwlabel:`S`", "Unused"
-   "Record", ":hwlabel:`⏺`", "Unused"
+   "Record Arm", ":hwlabel:`⏺`", "BPM tap"
    "Shift", ":hwlabel:`Flip`", "Toggle shift mode for all controls"
    "Main", ":hwlabel:`Master (PT-Ctrl)`", "Toggle the screen and fader to the
 
