@@ -12,7 +12,7 @@ on:
 jobs:
   build-html:
     name: HTML
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
     - uses: actions/checkout@v4
