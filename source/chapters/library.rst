@@ -452,6 +452,8 @@ Mixxx supports the following filters:
 
   * `bpm` also supports fuzzy searches, see Special Filtering below.
 
+  * `bpm:locked` finds all tracks with locked BPM.
+
 
 * **Special filtering**: bpm, key, duration, added, dateadded, datetime_added, date_added
 
