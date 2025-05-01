@@ -15,12 +15,18 @@ repos:
     types: [rst]
     entry: python tools/fixup_gh_wiki_anchors.py
     language: python
+  - id: ignore-pot-creation-date
+    name: Ignore POT-Creation-Date
+    entry: python tools/ignore_pot_creation_date.py
+    language: python
+    files: ^.*\.po$
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v5.0.0
   hooks:
   - id: check-byte-order-marker
   - id: check-case-conflict
   - id: end-of-file-fixer
+    exclude: ^.tx/config$
   - id: mixed-line-ending
   - id: trailing-whitespace
     exclude: ^source/locale/.*$
