@@ -32,8 +32,9 @@ uninstall the old version.
 
 Your settings and library will not be removed or reset, but they may be upgraded
 when you launch the new version of Mixxx. Note that we do not guarantee that new
-configurations will work on older versions of Mixxx, therefore you may want to
-make a backup of your existing settings just in case.
+configurations will work on older versions of Mixxx, Mixxx creates by default
+one backup of your settings and library every day but maybe you may want to make
+an extra backup of your existing settings just in case.
 
 For locations in each supported :term:`OS <operating system>` as well as detailed descriptions of the settings files, go to :ref:`appendix-settings-files`.
 

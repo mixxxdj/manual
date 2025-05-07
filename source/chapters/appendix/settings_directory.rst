@@ -79,3 +79,43 @@ Content
 
 **soundconfig.xml**
     Sound device configuration from Preferences > Sound Hardware
+
+BackUp
+------
+
+**preferences**
+    To avoid users accidentally changing the BackUp settings, these settings
+	were not included in the preferences.
+	The BackUp settings need to be adjusted in the mixxx.cfg.
+	
+**default**	
+    By default, Mixxx makes a BackUp once a day at startup.
+	[BackUp] 
+	
+    By default, five BackUps are saved.
+	
+**settings**
+    [BackUp]
+	BackUpEnabled 1
+    BackUpFrequency daily
+    KeepXBUs 5
+	LastBackUp *
+	
+    In the mixxx.cfg is a part [BackUp] containing the settings.
+	
+	BackUpEnabled 1
+	The default '1' enables the backupsystem while 0 disables it.
+	
+	BackUpFrequency daily
+	The default 'daily' sets the frequency to 1 BackUp a day,
+	'always' sets the frequency to 'a BackUp on every startup'
+	
+	KeepXBUs 5
+	with the default setting of '5', five BackUps are kept, if you have already
+	5 BackUps the oldest will be deleted before Mixxx creates a new one.
+	You can change this value to change the number of kept BackUps.
+	Setting KeepXBUs to '0' will prevent Mixxx from deleting old BackUps,
+	in this case all BackUps will be kept.
+	
+	The LastBackup field keeps the date of the last backup, used to determinate
+    the need of creating a new BackUp if the frequency is set to daily.	
