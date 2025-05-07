@@ -96,40 +96,38 @@ BackUp
 
 **settings**
     [BackUp]
-	BackUpEnabled 1
+    BackUpEnabled 1
     BackUpFrequency daily
     KeepXBUs 5
-	LastBackUp *
+    LastBackUp *
 
     In the mixxx.cfg is a part [BackUp] containing the settings.
+    BackUpEnabled 1
+    The default '1' enables the backupsystem while 0 disables it.
 
-	BackUpEnabled 1
-	The default '1' enables the backupsystem while 0 disables it.
+    BackUpFrequency daily
+    The default 'daily' sets the frequency to 1 BackUp a day,
+    'always' sets the frequency to 'a BackUp on every startup'
 
-	BackUpFrequency daily
-	The default 'daily' sets the frequency to 1 BackUp a day,
-	'always' sets the frequency to 'a BackUp on every startup'
+    KeepXBUs 5
+    with the default setting of '5', five BackUps are kept, if you have already
+    5 BackUps the oldest will be deleted before Mixxx creates a new one.
+    You can change this value to change the number of kept BackUps.
+    Setting KeepXBUs to '0' will prevent Mixxx from deleting old BackUps,
+    in this case all BackUps will be kept.
 
-	KeepXBUs 5
-	with the default setting of '5', five BackUps are kept, if you have already
-	5 BackUps the oldest will be deleted before Mixxx creates a new one.
-	You can change this value to change the number of kept BackUps.
-	Setting KeepXBUs to '0' will prevent Mixxx from deleting old BackUps,
-	in this case all BackUps will be kept.
-
-	The LastBackup field keeps the date (YYYYMMDD) of the last backup, used to determinate
+    The LastBackup field keeps the date (YYYYMMDD) of the last backup, used to determinate
     the need of creating a new BackUp if the frequency is set to daily.
 	
 **location**
     On Windows the BackUps are created in the folder in your Documents directory 
-	-> <username>/Documents/Mixxx-BackUps
-	On MacOS the BackUps are created in the container of Mixxx 
-	-> /Users/>username>/Library/Containers/org.mixxx.mixxx/Data/Documents/Mixxx-BackUps/
+    -> <username>/Documents/Mixxx-BackUps
+    On MacOS the BackUps are created in the container of Mixxx 
+    -> /Users/>username>/Library/Containers/org.mixxx.mixxx/Data/Documents/Mixxx-BackUps/
     On Linux the BackUps are created in your home/Documents folder
-	-> /home//Documents/Mixxx-BackUps/
+    -> /home//Documents/Mixxx-BackUps/
 
 **BackUps on upgrade**
    When Mixxx is upgraded to a new version a BackUp named 'Upgrade Version xxx' 
    will be created in a subfolder 'Upgrade' in the Mixxx-BackUps folder.
    These backups will not be automatically deleted.
-
