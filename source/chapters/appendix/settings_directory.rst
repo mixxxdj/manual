@@ -90,9 +90,7 @@ BackUp
 
 **default**
     By default, Mixxx makes a BackUp once a day at startup.
-	[BackUp]
-
-    By default, five BackUps are saved.
+    By default, the last five BackUps are kept.
 
 **settings**
     [BackUp]
@@ -118,18 +116,16 @@ BackUp
 
     The LastBackup field keeps the date (YYYYMMDD) of the last backup, used to determinate
     the need of creating a new BackUp if the frequency is set to daily.
-	
-**location**
 
-    On Windows the BackUps are created in the folder in your Documents directory 
+**location**
+    On Windows the BackUps are created in the folder in your Documents directory
     -> <username>/Documents/Mixxx-BackUps
-    On MacOS the BackUps are created in the container of Mixxx 
+    On MacOS the BackUps are created in the container of Mixxx
     -> /Users/>username>/Library/Containers/org.mixxx.mixxx/Data/Documents/Mixxx-BackUps/
     On Linux the BackUps are created in your home/Documents folder
     -> /home//Documents/Mixxx-BackUps/
 
 **BackUps on upgrade**
-
-   When Mixxx is upgraded to a new version a BackUp named 'Upgrade Version xxx' 
+   When Mixxx is upgraded to a new version a BackUp named 'Upgrade Version xxx'
    will be created in a subfolder 'Upgrade' in the Mixxx-BackUps folder.
    These backups will not be automatically deleted.
