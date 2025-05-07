@@ -120,6 +120,7 @@ BackUp
     the need of creating a new BackUp if the frequency is set to daily.
 	
 **location**
+
     On Windows the BackUps are created in the folder in your Documents directory 
     -> <username>/Documents/Mixxx-BackUps
     On MacOS the BackUps are created in the container of Mixxx 
@@ -128,6 +129,7 @@ BackUp
     -> /home//Documents/Mixxx-BackUps/
 
 **BackUps on upgrade**
+
    When Mixxx is upgraded to a new version a BackUp named 'Upgrade Version xxx' 
    will be created in a subfolder 'Upgrade' in the Mixxx-BackUps folder.
    These backups will not be automatically deleted.
