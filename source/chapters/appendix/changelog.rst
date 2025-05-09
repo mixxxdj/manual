@@ -30,7 +30,9 @@ STEM file support
   `#13070 <https://github.com/mixxxdj/mixxx/pull/13070>`__
   `#14244 <https://github.com/mixxxdj/mixxx/pull/14244>`__
 * Add stem files to the taglib lookup table `#13612 <https://github.com/mixxxdj/mixxx/pull/13612>`__
-* Stem controls for LateNight `#13537 <https://github.com/mixxxdj/mixxx/pull/13537>`__
+* Stem controls for LateNight
+  `#13537 <https://github.com/mixxxdj/mixxx/pull/13537>`__
+  `#14745 <https://github.com/mixxxdj/mixxx/pull/14745>`__
 * Fix: make "stem_group,mute" a powerwindow button
   `#13751 <https://github.com/mixxxdj/mixxx/pull/13751>`__
   `#13749 <https://github.com/mixxxdj/mixxx/issues/13749>`__
@@ -66,6 +68,9 @@ Library
 * Track File Export: add 'Apply to all' checkbox, remove ".. All" buttons `#13614 <https://github.com/mixxxdj/mixxx/pull/13614>`__
 * Fix: restore BPM and Bitrate column width `#13571 <https://github.com/mixxxdj/mixxx/pull/13571>`__
 * Elide key text from the right `#13475 <https://github.com/mixxxdj/mixxx/pull/13475>`__
+* Playlists: add 'Unlock all' and 'Delete all unlocked' menu actions
+  `#14091 <https://github.com/mixxxdj/mixxx/pull/14091>`__
+  `#8960 <https://github.com/mixxxdj/mixxx/issues/8960>`__
 
 Effects
 ^^^^^^^
@@ -109,6 +114,8 @@ Waveforms
   `#14187 <https://github.com/mixxxdj/mixxx/pull/14187>`__
   `#13470 <https://github.com/mixxxdj/mixxx/pull/13470>`__
   `#14461 <https://github.com/mixxxdj/mixxx/pull/14461>`__
+  `#14726 <https://github.com/mixxxdj/mixxx/pull/14726>`__
+  `#14706 <https://github.com/mixxxdj/mixxx/issues/14706>`__
 * Improve apperrance of marks on the waveforms `#13969 <https://github.com/mixxxdj/mixxx/pull/13969>`__
 * ControllerRenderingEngine: Patch out unavailable APIs when using GL ES `#13382 <https://github.com/mixxxdj/mixxx/pull/13382>`__
 * Fix high details waveforms wrapping around after visual index 65K `#13491 <https://github.com/mixxxdj/mixxx/pull/13491>`__
