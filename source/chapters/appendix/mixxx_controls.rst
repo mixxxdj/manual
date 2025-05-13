@@ -2582,7 +2582,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.6.0
 
 
-.. mixxx:control:: [ChannelNStemM],color
+.. mixxx:control:: [ChannelN_StemM],color
 
    The color for the STEM `M` on the deck. The first stem color can be retrieved with `[ChannelNStem1],color`.
 
@@ -2656,7 +2656,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],track_color
                    [PreviewDeckN],track_color
                    [SamplerN],track_color
-                   [ChannelNStemM],track_color
+                   [ChannelN_StemM],track_color
 
    Color of the currently loaded track or -1 if no track is loaded or the track has no color.
 
@@ -2703,7 +2703,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],volume
                    [PreviewDeckN],volume
                    [SamplerN],volume
-                   [ChannelNStemM],volume
+                   [ChannelN_StemM],volume
 
 
    Adjusts the channel volume fader
@@ -2717,7 +2717,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],mute
                    [PreviewDeckN],mute
                    [SamplerN],mute
-                   [ChannelNStemM],mute
+                   [ChannelN_StemM],mute
 
    Mutes the channel
 
