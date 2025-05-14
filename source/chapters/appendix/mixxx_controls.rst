@@ -1497,6 +1497,45 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],hotcue_X_swap
+                   [PreviewDeckN],hotcue_X_swap
+                   [SamplerN],hotcue_X_swap
+
+   Swap numbers of two :term:`hotcues <hotcue>`.
+   Argument is the number (1-based index) of the second hotcue.
+
+   :range: integer, 1-37
+   :feedback: Hotcue labels in the waveforms are swapped, hotcue button colors are swapped.
+
+   .. versionadded:: 2.6.0
+
+
+.. mixxx:control:: [ChannelN],sort_hotcues
+                   [PreviewDeckN],sort_hotcues
+                   [SamplerN],sort_hotcues
+
+   Sort :term:`hotcues <hotcue>` by their position in the track.
+   Unset hotcues remain.
+
+   :range: binary
+   :feedback: Hotcue buttons and hotcue labels in the waveforms are adjusted.
+
+   .. versionadded:: 2.6.0
+
+
+.. mixxx:control:: [ChannelN],sort_hotcues_remove_offsets
+                   [PreviewDeckN],sort_hotcues_remove_offsets
+                   [SamplerN],sort_hotcues_remove_offsets
+
+   Sort :term:`hotcues <hotcue>` by their position in the track.
+   Unset hotcue slots are filled.
+
+   :range: binary
+   :feedback: Hotcue buttons and hotcue labels in the waveforms are adjusted.
+
+   .. versionadded:: 2.6.0
+
+
 .. mixxx:control:: [ChannelN],intro_end_activate
                    [PreviewDeckN],intro_end_activate
                    [SamplerN],intro_end_activate
