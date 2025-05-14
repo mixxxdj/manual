@@ -671,7 +671,12 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
 
-   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop
+   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop.
+
+   If there is a rolling beatloop active (:mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`
+   or :mixxx:coref:`beatlooproll_X_activate <[ChannelN],beatlooproll_X_activate>`),
+   adopt that loop and quit slip mode. Releasing the rolling beatloop controls will have
+   no effect on the play position or loop state.
 
    :range: binary
    :feedback: A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats
