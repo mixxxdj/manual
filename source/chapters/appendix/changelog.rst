@@ -53,6 +53,8 @@ Library
 * Add Key Color Palettes `#13497 <https://github.com/mixxxdj/mixxx/pull/13497>`__
 * Add overview column with small waveform `#14140 <https://github.com/mixxxdj/mixxx/pull/14140>`__
 * Add a rebindable keyboard shortcut for editing items as a replacement for F2 `#13148 <https://github.com/mixxxdj/mixxx/pull/13148>`__
+* DeveloperTools: restore searchbar shortcut Ctrl+F
+  `#14761 <https://github.com/mixxxdj/mixxx/pull/14761>`__
 * CmdlineArgs: Add ``--rescan-library`` for rescanning on startup `#13661 <https://github.com/mixxxdj/mixxx/pull/13661>`__
 * Add case-insensitive parsing for Lancelot key notation `#14318 <https://github.com/mixxxdj/mixxx/pull/14318>`__
 * iTunes: Add iOS importer using the Media Player framework `#12690 <https://github.com/mixxxdj/mixxx/pull/12690>`__
