@@ -108,7 +108,9 @@ the units and change the mix mode:
 Settings
 --------
 
-There are various settings available in the Mixxx preferences dialog.
+On versions of Mixxx greater than 2.5.0 settings can be edited in the preference
+windows, under :guilabel:`Preferences` > :guilabel:`Controllers` >
+:guilabel:`Midi Fighter Twister …`.
 
 .. csv-table::
    :header: "Setting", "Values", "Function"
