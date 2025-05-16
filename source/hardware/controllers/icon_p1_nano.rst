@@ -40,14 +40,13 @@ encoders.
    :figclass: pretty-figures
 
 The top of the screen contains a value bar with a center indicator that will
-turn blue if the bar is centered, followed by the currently selected deck (if
-the parameter is tied to a specific deck) or "Main" if the parameter applies
-globally.
+turn blue if the bar is centered, followed by the parameter being adjusted.
+Under that is the deck that the parameter will be applied to.
 Turning one of the rotary encoders toggles the on-device screen to show the
 parameter being adjusted.
 
-To the right hand side of each screen is a vumeter that is unrelated to the
-parameter, it will be used to show the output of a particular deck.
+To the right hand side of each screen is a vumeter for the deck associated with
+the screen.
 
 Mixxx also supports using the external
 `D-5 <https://iconproaudio.com/product/d5/>`_ extension screens and displays
@@ -62,22 +61,17 @@ The default DAW is Bitwig and the name cannot be changed without using Icon's
 proprietary configuration tool, however Mixxx will work fine with the default
 Bitwig configuration.
 
-The following parameters are available:
+The following parameters are available and may be changed by activating the
+shift functionality by pressing the :hwlabel:`Flip` button and then turning the
+encoder to the desired parameter. Pressing the knob always resets the parameter
+to default (normally centered).
 
-.. csv-table::
-   :header: "Control", "Parameter", "VuMeter/BPM"
-   :widths: 15, 15, 20
+- Pregain
+- EQ High
+- EQ Mid
+- EQ Low
+- Quick Effect Super Knob
 
-   "P1", "Deck Pregain", "Deck 3"
-   "P2", "Deck EQ High", "Deck 1"
-   "P3", "Deck EQ Mid",  "Deck 2"
-   "P4", "Deck EQ Low",  "Deck 4"
-   "P5", "Deck Quick Effect", "—"
-   "P6", "Main Balance", "—"
-   "P7", "Main Headphone Gain", "—"
-   "P8", "Main Headphone Mix", "—"
-   "P1–P8 (press)", "Reset parameter to default", "—"
-   "P2–P8 (press, shift)", "EQ parameter button", "—"
 
 Timecode Display
 ----------------
@@ -162,7 +156,7 @@ parameter screens.
    "Up", ":hwlabel:`🢑`", "Show previous screen"
    "Down", ":hwlabel:`🢓`", "Show next screen"
    "Mute", ":hwlabel:`M`", "Mute the active deck"
-   "Solo", ":hwlabel:`S`", "Unused"
+   "Solo", ":hwlabel:`S`", "Move beatgrid to current position"
    "Record Arm", ":hwlabel:`⏺`", "BPM tap"
    "Shift", ":hwlabel:`Flip`", "Toggle shift mode for all controls"
    "Main", ":hwlabel:`Master (PT-Ctrl)`", "Toggle the screen and fader to the
@@ -175,7 +169,7 @@ parameter screens.
    "<<8", ":hwlabel:`<<8`", "Unused"
    "8>>", ":hwlabel:`8>>`", "Unused"
    "Prev. Channel", ":hwlabel:`|<`", "Select the previous channel"
-   "Next. Channel", ":hwlabel:`>|`", "Select the previous channel"
+   "Next. Channel", ":hwlabel:`>|`", "Select the next channel"
 
 Transports
 ----------
