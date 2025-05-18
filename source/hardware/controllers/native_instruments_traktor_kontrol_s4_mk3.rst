@@ -92,7 +92,7 @@ Jogwheel can be used to control various things, depending of the mode they are i
 Here is how to tell what mode is on, depending the current state of the LED:
 
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel                                       | Others                                  |
+| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel LED                                   | Others                                  |
 +================+================+===============+================================================+=========================================+
 | Vinyl mode     | On             | Off           | Circling while the track is playing/scratching | --                                      |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
@@ -100,9 +100,9 @@ Here is how to tell what mode is on, depending the current state of the LED:
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
 | Turntable mode | Off            | On            | Circling while the track is playing/scratching | --                                      |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop in        | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
+| Loop in mode   | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop out       | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
+| Loop out mode  | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
 
 Here is how to select each mode:
@@ -197,12 +197,12 @@ All mapping detail
 | Deck Select      | - Select a deck                                                  | - The deck's main color will be the one  |
 |                  |                                                                  |   of the selected deck                   |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Shift            | Shift controls for the all controller side, including effect     | - On or Off                              |
+| Shift            | Shift controls for the entire controller side, including effect  | - On or Off                              |
 |                  | unit                                                             |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Cue              | - Trigger the cue default effect                                 | Depends of the cue mode                  |
+| Cue              | - Trigger the cue default effect                                 | Depends on the                           |
 |                  | - Start or stop the track while pressing :hwlabel:`SHIFT`        |                                          |
-|                  | - Select the cue as the play mode when in Keyboard move mode     |                                          |
+|                  | - Select the cue as the play mode when in Keyboard move mode     | :ref:`cue mode <interface-cue-modes>`    |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Play/Pause       | - Play/Pause the track                                           | On if track is playing                   |
 |                  | - Long press: clone the playing track                            |                                          |
