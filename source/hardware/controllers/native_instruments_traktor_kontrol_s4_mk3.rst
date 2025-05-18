@@ -381,8 +381,9 @@ Right Encoder (press)                                            Activate/exit l
 Mapping options
 ---------------
 
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
 
-There are various option that can be used to change some behavior:
+There are various options that can be used to change some behavior:
 
 ============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 Setting                                                                                        Variable value                              Default                                                                                                           Range                                                                                 Description
@@ -423,25 +424,3 @@ Number of samples used for jogwheel speed in turntable mode      `TurnTableSpeed
 Define the tension of the jogwheel                               `TightnessFactor`                           0.5            0..1.0                                         Define the jogwheel tension. 0 makes it very tight while 1 makes it very loose
 Define how much force can the jogwheel use                       `MaxWheelForce`                             25000          10000..30000 (Recommended, can go up to 60000) Define how much resistance can the wheel use when its rotation is held
 ================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
-
-Changing settings
-~~~~~~~~~~~~~~~~~
-
-Mixxx 2.4
-^^^^^^^^^
-
-Making these changes is still a little awkward, this will be much easier to do starting in Mixxx 2.5.
-For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
-
-1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
-2. Select :file:`Traktor-Kontrol-S4-MK3-hid-scripts.js`.
-3. Click :guilabel:`Open Selected File`.
-4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
-5. Starting from the block entitled `USER CONFIGURABLE SETTINGS`, there should be configurable options.
-
-
-
-Mixxx 2.5+
-^^^^^^^^^^
-
-Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
