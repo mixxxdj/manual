@@ -832,6 +832,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],beats_translate_half
+                   [PreviewDeckN],beats_translate_half
+                   [SamplerN],beats_translate_half
+
+   Move :term:`beatgrid` by exactly half a beat. Works only for tracks with constant tempo.
+
+   :range: binary
+   :feedback: The beatgrid moves exactly half a beat.
+
+   .. versionadded:: 2.6.0
+
+
 .. mixxx:control:: [ChannelN],shift_cues_earlier
                    [PreviewDeckN],shift_cues_earlier
                    [SamplerN],shift_cues_earlier
