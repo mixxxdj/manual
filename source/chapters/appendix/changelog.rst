@@ -19,14 +19,27 @@ Library
 
 
 * Fix playlist export when name contains a dot `#14737 <https://github.com/mixxxdj/mixxx/pull/14737>`__
+* Fix loading the wrong track via drag and drop when using symlinks
+  `#13708 <https://github.com/mixxxdj/mixxx/pull/13708>`__
+  `#13706 <https://github.com/mixxxdj/mixxx/issues/13706>`__
+* Fix: byte order in hotcue comments imported from rekordbox
+  `#14808 <https://github.com/mixxxdj/mixxx/pull/14808>`__
+  `#14789 <https://github.com/mixxxdj/mixxx/issues/14789>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
+* Denon MC7000: slicer mode TypeError `#14804 <https://github.com/mixxxdj/mixxx/pull/14804>`__
+* Denon MC7000: crossfader curve using wrong parameter `#14803 <https://github.com/mixxxdj/mixxx/pull/14803>`__
 * Hercules DJControl Inpulse 500: the crossfader was not reaching 100% to the right end
   `#14722 <https://github.com/mixxxdj/mixxx/pull/14722>`__
-* Traktor S2 Mk3: Fixed LED issue `#14717 <https://github.com/mixxxdj/mixxx/pull/14717>`__
+* Numark Mixtrack Platinium FX: Fix 4 steps browsing issue `#14778 <https://github.com/mixxxdj/mixxx/pull/14778>`__
+* Traktor S2 MK3: Fixed LED issue `#14717 <https://github.com/mixxxdj/mixxx/pull/14717>`__
+* Traktor S4 MK2: Use engine settings API for configuration `#14781 <https://github.com/mixxxdj/mixxx/pull/14781>`__
+* Traktor S4 MK3: prevent sync lockup, add setting for tempo center snap
+  `#14735 <https://github.com/mixxxdj/mixxx/pull/14735>`__
+  `#14721 <https://github.com/mixxxdj/mixxx/issues/14721>`__
 
 Controller Backend
 ^^^^^^^^^^^^^^^^^^
@@ -35,6 +48,17 @@ Controller Backend
 * Control picker: Allow to learn MIDI Aux/Mic enable controls
   `#14720 <https://github.com/mixxxdj/mixxx/pull/14720>`__
   `#14718 <https://github.com/mixxxdj/mixxx/issues/14718>`__
+* Make ``[Main],headSplit`` CO persistent across restart `#14817 <https://github.com/mixxxdj/mixxx/pull/14817>`__
+* Fix MIDI Controller button learning
+  `#14816 <https://github.com/mixxxdj/mixxx/pull/14816>`__
+  `#14805 <https://github.com/mixxxdj/mixxx/issues/14805>`__
+* Fix learning with "No Mapping" selected `#14829 <https://github.com/mixxxdj/mixxx/pull/14829>`__
+
+Engine
+^^^^^^
+
+
+* Vinyl Control: Reduce sticker drift `#14435 <https://github.com/mixxxdj/mixxx/pull/14435>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -43,7 +67,10 @@ Target support
 * Fix building with a CMake multi-config setup `#14614 <https://github.com/mixxxdj/mixxx/pull/14614>`__
 * Fix building with gcc >= 14 with LTO and clang >= 19 (fpclassify)
   `#14749 <https://github.com/mixxxdj/mixxx/pull/14749>`__
-  `#14749 <https://github.com/mixxxdj/mixxx/issues/14716>`__
+  `#14716 <https://github.com/mixxxdj/mixxx/issues/14716>`__
+* Fix: gcc ``-Warray-bounds=`` in fidlib by using a flexible member `#14798 <https://github.com/mixxxdj/mixxx/pull/14798>`__
+* Added Linux Mint Codenames to debian_buildenv.sh `#14709 <https://github.com/mixxxdj/mixxx/pull/14709>`__
+* Add hidden ``[Config],notify_max_dbg_time`` setting to reduce warnings in developer mode `#14015 <https://github.com/mixxxdj/mixxx/pull/14015>`__
 
 .. _v2-5-1:
 
