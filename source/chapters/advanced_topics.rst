@@ -141,6 +141,14 @@ if :file:`Custom.kbd.cfg` is present and load that file instead of the default
 mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
 
+Note that the situation is a bit different with the menubar shortcuts in the `[KeyboardShortcuts]` section.
+If you want to use any of these default menubar shortcuts for something else, it is not sufficient to remove
+the respective line from the mapping file. The menubar will use the hard-coded defaults if doesn't find an
+entry in the mapping file.
+Hence, to use any of the menubar shortcuts, you need to supply another key to be picked up by the menubar.
+This may be an unused key, or if you don't need the menubar shortcut at all, a key that's not present on
+your keyboard and can also not be composed by accident, for example Cyrillic characters on a french keyboard.
+
 For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
 
