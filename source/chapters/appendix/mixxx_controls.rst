@@ -2715,6 +2715,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
   value for the deck will be centered so that there is no audible difference in
   track volume, so this operation is safe to use during performance, if the controller mapping uses soft-takeover for the pregain knob.
 
+  .. note:: The pregain is adjusted only on the deck where the control was triggered. If the adjusted track
+            is also currently playing in other decks, their effective volume will change.
+
   :range: binary
   :feedback: ReplayGain value is updated in library, deck pregain is reset to 1.0.
 
