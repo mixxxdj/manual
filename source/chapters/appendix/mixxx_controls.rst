@@ -1022,6 +1022,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.4.0
 
 
+.. mixxx:control:: [ChannelN],LoadTrackFromPreviewDeck
+                   [PreviewDeckN],LoadTrackFromPreviewDeck
+                   [SamplerN],LoadTrackFromPreviewDeck
+
+   Load the track currently loaded to the given preview deck number.
+
+   :range: integer between 1 and :mixxx:coref:`[App],num_preview_decks` (inclusive)
+   :feedback: Track name & waveform change
+
+   .. versionadded:: 2.6.0
+
+
 .. mixxx:control:: [ChannelN],cue_cdj
                    [PreviewDeckN],cue_cdj
                    [SamplerN],cue_cdj
