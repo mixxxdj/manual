@@ -61,6 +61,7 @@ Controller Backend
   `#14816 <https://github.com/mixxxdj/mixxx/pull/14816>`__
   `#14805 <https://github.com/mixxxdj/mixxx/issues/14805>`__
 * Fix learning with "No Mapping" selected `#14829 <https://github.com/mixxxdj/mixxx/pull/14829>`__
+* Unit tests for engine.beginTimer `#12437 <https://github.com/mixxxdj/mixxx/pull/12437>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -89,6 +90,11 @@ Misc
 * Fix adjust Gain after adopting it as ReplayGain only in requesting player
   `#14812 <https://github.com/mixxxdj/mixxx/pull/14812>`__
   `#14806 <https://github.com/mixxxdj/mixxx/pull/14806>`__
+* Skins: add loop anchor toggle to Deere, Shade, Tango
+  `#14890 <https://github.com/mixxxdj/mixxx/pull/14890>`__
+  `#14173 <https://github.com/mixxxdj/mixxx/issues/14173>`__
+* Sound Hardware preferences: add manual link for Mic monitoring modes
+  `#14889 <https://github.com/mixxxdj/mixxx/pull/14889>`__
 
 .. _v2-5-1:
 
