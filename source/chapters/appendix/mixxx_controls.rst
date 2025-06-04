@@ -671,12 +671,17 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
 
-   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop
+   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats
 
    .. versionadded:: 2.1.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_activate
@@ -684,12 +689,31 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beatloop_X_activate
 
    Activates a loop over X beats. A control exists for
-   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over X beats.
 
    .. versionadded:: 1.10.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
+
+
+.. mixxx:control:: [ChannelN],beatloop_rX_activate
+                   [PreviewDeckN],beatloop_rX_activate
+                   [SamplerN],beatloop_rX_activate
+
+   Activates a loop over X beats backwards from the current position. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+
+   :range: binary
+   :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_size
@@ -713,7 +737,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [SamplerN],beatloop_X_toggle
 
    Toggles a loop over X beats. A control exists for
-   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -740,10 +767,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats.
    Once disabled, playback will resume where the track would have been if it had not entered the loop.
 
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`, the loop is created forwards
+   or backwards from the current position.
+
    :range: binary
    :feedback: A loop overlay is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
 
    .. versionadded:: 2.1.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_X_activate
@@ -752,12 +785,32 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Activates a rolling loop over X beats. Once disabled, playback will resume where the
    track would have been if it had not entered the loop. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`, the loop is created forwards
+   or backwards from the current position.
+
+   :range: binary
+   :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ChannelN],beatlooproll_rX_activate
+                   [PreviewDeckN],beatlooproll_rX_activate
+                   [SamplerN],beatlooproll_rX_activate
+
+   Activates a rolling loop over X beats backwards from the current position.
+   Once disabled, playback will resume where the track would have been if it had
+   not entered the loop. A control exists for
    X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
 
    :range: binary
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
 
-   .. versionadded:: 1.11.0
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_faster
@@ -1700,6 +1753,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: positive value
    :feedback: None
+
+
+.. mixxx:control:: [ChannelN],loop_anchor
+                   [PreviewDeckN],loop_anchor
+                   [SamplerN],loop_anchor
+
+   Determines whether loops created with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` or
+   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>` use the current position as loop start or loop end.
+
+   0 for loop start (default), 1 for loop end.
+
+   :range: binary
+   :feedback: Loop anchor button changes state
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],loop_double
@@ -4409,7 +4477,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
     :feedback: A loop is shown over the set number of beats.
 
     .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle` instead.
+       Use :mixxx:coref:`[ChannelN],beatloop_size` and :mixxx:coref:`[ChannelN],beatloop_activate` instead.
 
 
 .. mixxx:control:: [ChannelN],reloop_exit
