@@ -319,26 +319,24 @@ In Effect Focus Mode, the :hwlabel:`FX ENABLE` buttons represent effect button p
 Mapping options
 ---------------
 
-There are a number of user-friendly customizations possible on the S3:
+.. sectionauthor::
+  Sam Whited <sam@samwhited.com>
 
-  1. Change between the Quick Effect and Multi Effect modes for the Mixer FX
-     section of the controller.
-  2. Toggle between Absolute and Relative pitch slider mode.
-  3. Customize the colors for decks A, B, C, and D.
-  4. Change the Sampler playback mode.
-  5. Whether wheel touch scratching is on by default, and how sensitive the jog
-     wheel is.
+Settings can be edited in the preference windows, under :guilabel:`Preferences`
+> :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S3 ...`.
 
-To make these changes, you need to edit to the mapping script file.
+.. csv-table::
+   :header: "Setting", "Values", "Function"
+   :widths: 30, 50, 40
 
-1.  Open Mixxx Preferences and select the Kontrol S3 in the side list.
-2.  There will be a box labeled :guilabel:`Mapping Info`, and that box will have a section
-    labeled :guilabel:`Mapping Files`.
-3.  Select :file:`Traktor-Kontrol-S3-hid-scripts.js`.
-4.  Either the file should open in an editor, or you should see a file
-    browser window with that file selected. If you see a file browser,
-    right click the file and select an option to edit it.
-5.  At the top of the file will be short instructions explaining how to edit
-    the file.
-
-Changes you make will take effect as soon as you save the file.
+   "Effect section layout", "Quick Effect, Advanced Mode", "Changes the layout of the FX section to match either the controller layout or the Mixxx standard layout."
+   "Reset FX chain on startup", "Boolean", "Reset to the default effect on startup, or preserve the last selected effect."
+   "Use channel colors for FX enable buttons", "Boolean", "Use the selected channel color for the FX buttons or use a different color."
+   "Pitch Slider Mode", "Absolute, Relative", "Use the pitch faders in normal (absolute) mode or as relative faders that can be moved higher or lower multiple times."
+   "Stop samplers when button is released", "Boolean", "Stop the sampler when the button is released instead of requiring a separate button press."
+   "Enable scratch mode on start", "Boolean", "Enable or disable the jog button on startup."
+   "Use deck 2 for samplers 9–16", "Boolean", "Use the deck 2 buttons for more samplers (instead of using both for samplers 1–8)."
+   "Channel 1 Color", "Colors", "Set the color for the first channel buttons."
+   "Channel 2 Color", "Colors", "Set the color for the second channel buttons."
+   "Channel 3 Color", "Colors", "Set the color for the third channel buttons."
+   "Channel 4 Color", "Colors", "Set the color for the fourth channel buttons."
