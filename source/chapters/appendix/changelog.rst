@@ -385,15 +385,27 @@ Library
 * Fix: byte order in hotcue comments imported from rekordbox
   `#14808 <https://github.com/mixxxdj/mixxx/pull/14808>`__
   `#14789 <https://github.com/mixxxdj/mixxx/issues/14789>`__
+* Tracks table: show ReplayGain with max. 2 decimals, full precision in tooltip
+  `#14868 <https://github.com/mixxxdj/mixxx/pull/14868>`__
+  `#14867 <https://github.com/mixxxdj/mixxx/issues/14867>`__
+* Fix keyboard mappings with non-ASCII characters on Linux
+  `#14843 <https://github.com/mixxxdj/mixxx/pull/14843>`__
+  `#14734 <https://github.com/mixxxdj/mixxx/issues/14734>`__
+* Browse feature: enable initial sorting during population `#14688 <https://github.com/mixxxdj/mixxx/pull/14688>`__
+* Computer feature: avoid false-positve 'has children' for non-directory links
+  `#14907 <https://github.com/mixxxdj/mixxx/pull/14907>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
 
 
+* Arturia KeyLab Mk1: initial mapping `#14502 <https://github.com/mixxxdj/mixxx/pull/14502>`__
 * Denon MC7000: slicer mode TypeError `#14804 <https://github.com/mixxxdj/mixxx/pull/14804>`__
 * Denon MC7000: crossfader curve using wrong parameter `#14803 <https://github.com/mixxxdj/mixxx/pull/14803>`__
+* DJ TechTools MIDI Fighter Twister: support 4 decks `#14557 <https://github.com/mixxxdj/mixxx/pull/14557>`__
 * Hercules DJControl Inpulse 500: the crossfader was not reaching 100% to the right end
   `#14722 <https://github.com/mixxxdj/mixxx/pull/14722>`__
+* Icon Pro Audio iControls: initial mapping `#14591 <https://github.com/mixxxdj/mixxx/pull/14591>`__
 * Numark Mixtrack Platinium FX: Fix 4 steps browsing issue `#14778 <https://github.com/mixxxdj/mixxx/pull/14778>`__
 * Traktor S2 MK3: Fixed LED issue `#14717 <https://github.com/mixxxdj/mixxx/pull/14717>`__
 * Traktor S4 MK2: Use engine settings API for configuration `#14781 <https://github.com/mixxxdj/mixxx/pull/14781>`__
@@ -413,12 +425,7 @@ Controller Backend
   `#14816 <https://github.com/mixxxdj/mixxx/pull/14816>`__
   `#14805 <https://github.com/mixxxdj/mixxx/issues/14805>`__
 * Fix learning with "No Mapping" selected `#14829 <https://github.com/mixxxdj/mixxx/pull/14829>`__
-
-Engine
-^^^^^^
-
-
-* Vinyl Control: Reduce sticker drift `#14435 <https://github.com/mixxxdj/mixxx/pull/14435>`__
+* Unit tests for engine.beginTimer `#12437 <https://github.com/mixxxdj/mixxx/pull/12437>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -431,6 +438,27 @@ Target support
 * Fix: gcc ``-Warray-bounds=`` in fidlib by using a flexible member `#14798 <https://github.com/mixxxdj/mixxx/pull/14798>`__
 * Added Linux Mint Codenames to debian_buildenv.sh `#14709 <https://github.com/mixxxdj/mixxx/pull/14709>`__
 * Add hidden ``[Config],notify_max_dbg_time`` setting to reduce warnings in developer mode `#14015 <https://github.com/mixxxdj/mixxx/pull/14015>`__
+* Detect arch and fail early if not supported when installing buildenv `#14478 <https://github.com/mixxxdj/mixxx/pull/14478>`__
+
+Misc
+^^^^
+
+
+* Vinyl Control: Reduce sticker drift `#14435 <https://github.com/mixxxdj/mixxx/pull/14435>`__
+* Fix infinite number of pop ups of the "No Vinyl|Mic|Aux|Passthrough input configured" dialog
+  `#14841 <https://github.com/mixxxdj/mixxx/pull/14841>`__
+  `#14837 <https://github.com/mixxxdj/mixxx/issues/14837>`__
+* Reduce CPU usage with Trace log messages
+  `#14862 <https://github.com/mixxxdj/mixxx/pull/14862>`__
+  `#14791 <https://github.com/mixxxdj/mixxx/issues/14791>`__
+* Fix adjust Gain after adopting it as ReplayGain only in requesting player
+  `#14812 <https://github.com/mixxxdj/mixxx/pull/14812>`__
+  `#14806 <https://github.com/mixxxdj/mixxx/pull/14806>`__
+* Skins: add loop anchor toggle to Deere, Shade, Tango
+  `#14890 <https://github.com/mixxxdj/mixxx/pull/14890>`__
+  `#14173 <https://github.com/mixxxdj/mixxx/issues/14173>`__
+* Sound Hardware preferences: add manual link for Mic monitoring modes
+  `#14889 <https://github.com/mixxxdj/mixxx/pull/14889>`__
 
 .. _v2-5-1:
 
