@@ -31,9 +31,13 @@ Library
 * Fix keyboard mappings with non-ASCII characters on Linux
   `#14843 <https://github.com/mixxxdj/mixxx/pull/14843>`__
   `#14734 <https://github.com/mixxxdj/mixxx/issues/14734>`__
-* Browse feature: enable initial sorting during population `#14688 <https://github.com/mixxxdj/mixxx/pull/14688>`__
+* Computer feature: enable initial sorting during population `#14688 <https://github.com/mixxxdj/mixxx/pull/14688>`__
 * Computer feature: avoid false-positve 'has children' for non-directory links
   `#14907 <https://github.com/mixxxdj/mixxx/pull/14907>`__
+* Fix column header mapping when using external library `#13782 <https://github.com/mixxxdj/mixxx/pull/13782>`__
+* Fixed Single track cover reload on reload metadata from file
+  `#14494 <https://github.com/mixxxdj/mixxx/pull/14494>`__
+  `#14409 <https://github.com/mixxxdj/mixxx/issues/14409>`__
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -47,6 +51,7 @@ Controller Mappings
   `#14722 <https://github.com/mixxxdj/mixxx/pull/14722>`__
 * Icon Pro Audio iControls: initial mapping `#14591 <https://github.com/mixxxdj/mixxx/pull/14591>`__
 * Numark Mixtrack Platinium FX: Fix 4 steps browsing issue `#14778 <https://github.com/mixxxdj/mixxx/pull/14778>`__
+* Traktor Kontrol S3: Use GUI config for settings `#14904 <https://github.com/mixxxdj/mixxx/pull/14904>`__
 * Traktor S2 MK3: Fixed LED issue `#14717 <https://github.com/mixxxdj/mixxx/pull/14717>`__
 * Traktor S4 MK2: Use engine settings API for configuration `#14781 <https://github.com/mixxxdj/mixxx/pull/14781>`__
 * Traktor S4 MK3: prevent sync lockup, add setting for tempo center snap
@@ -66,6 +71,8 @@ Controller Backend
   `#14805 <https://github.com/mixxxdj/mixxx/issues/14805>`__
 * Fix learning with "No Mapping" selected `#14829 <https://github.com/mixxxdj/mixxx/pull/14829>`__
 * Unit tests for engine.beginTimer `#12437 <https://github.com/mixxxdj/mixxx/pull/12437>`__
+* engine-api.d.ts: brake()/spinback() documentation
+  `#14929 <https://github.com/mixxxdj/mixxx/pull/14929>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -99,6 +106,14 @@ Misc
   `#14173 <https://github.com/mixxxdj/mixxx/issues/14173>`__
 * Sound Hardware preferences: add manual link for Mic monitoring modes
   `#14889 <https://github.com/mixxxdj/mixxx/pull/14889>`__
+* Work around an Ubuntu, Ibus or Qt issue regarding detecting the current keyboard layout.
+  `#14883 <https://github.com/mixxxdj/mixxx/pull/14883>`__
+  `#14838 <https://github.com/mixxxdj/mixxx/issues/14838>`__
+  `#14797 <https://github.com/mixxxdj/mixxx/issues/14797>`__
+* Fix BPM rounding for the 3/2 case `#14751 <https://github.com/mixxxdj/mixxx/pull/14751>`__
+* Update cue & play indicators on paused decks when switching cue mode
+  `14930 <https://github.com/mixxxdj/mixxx/pull/14930>`__
+  `9928 <https://github.com/mixxxdj/mixxx/issues/9928>`__
 
 .. _v2-5-1:
 
