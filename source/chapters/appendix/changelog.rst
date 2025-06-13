@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-5-2:
 
-`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`__ (unreleased)
+`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`__ (2025-06-13)
 -------------------------------------------------------------------------
 
 Library
