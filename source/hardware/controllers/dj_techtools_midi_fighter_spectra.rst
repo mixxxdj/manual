@@ -84,6 +84,21 @@ the top left, 16 in the bottom right).
    "Off", "Load sampler"
    "On", "Play sampler"
 
+Layer 4
+-------
+
+The fourth layer controls stems.
+
+.. csv-table::
+   :header: "Row", "Function"
+   :widths: 15, 70
+
+   "1", "Mute/unmute stem"
+   "2", "Enable/disable quick effects for stem"
+   "3", "Unused"
+   "4", "Active deck selection"
+
+
 Settings
 --------
 
@@ -93,7 +108,7 @@ There are various settings available in the Mixxx preferences dialog.
    :header: "Setting", "Values", "Function"
    :widths: 30, 20, 70
 
-   "Default Layer", "EQ, Hotcues, Samplers", "Sets the active layer when the controller is started."
+   "Default Layer", "EQ, Hotcues, Samplers, Stems", "Sets the active layer when the controller is started."
    "Ground Effect LEDs", "Off, Pulse on Track End, Blink on Beat", "Set the behavior of the white LEDs on the bottom of the controller."
    "Pulse Deck Select", "Boolean", "Pulse the deck selection LED when the track on the deck is ending."
    "Selected Deck Color", "Colors", "The color of the selected deck button."
