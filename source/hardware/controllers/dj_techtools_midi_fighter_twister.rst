@@ -22,7 +22,7 @@ display surrounding it.
 
 The controller also has six additional buttons on the side.
 These side buttons are used for deck and layer selection, though currently only
-the first layer is mapped.
+the first three layers are mapped.
 
 .. csv-table::
    :header: "#", "Function"
@@ -103,6 +103,54 @@ the units and change the mix mode:
    "8 (shift)", "2, 4", "Enable/disable selected FX unit on deck 4"
    "12", "2, 4", "Enable/disable selected FX unit on the headphones"
    "16", "2, 4", "Change the mix mode for the selected FX unit"
+
+
+Layer 3
+-------
+
+Layer 3 controls stem tracks. When a stem track is loaded the first (or last,
+depending on the deck) column of indicator LEDs illuminate in the color of the
+stem.
+The below table only includes the left hand side of the controller (decks 1 and
+3), the right hand side (decks 2 and 4) is identical but mirrored (ie. the
+outside column is the stem volume row and the inside column is the FX control).
+
+.. csv-table::
+   :header: "#", "Deck", "Function"
+   :widths: 15, 15, 70
+
+   "L1", "–", "Deck 1, 3 toggle"
+   "R1", "–", "Deck 2, 4 toggle"
+   "L3", "–", "Shift"
+   "R3", "–", "Shift"
+   "1", "1, 3", "Stem 1 volume"
+   "1 (press)", "1, 3", "Stem 1 mute"
+   "1 (shift, press)", "1, 3", "Stem 1 reset default volume"
+   "2", "1, 3", "Stem 1 quick FX super knob"
+   "2 (shift)", "1, 3", "Stem 1 quick FX select"
+   "2 (press)", "1, 3", "Stem 1 quick FX super knob reset default"
+   "2 (shift, press)", "1, 3", "Stem 1 quick FX super knob kill switch"
+   "5", "1, 3", "Stem 2 volume"
+   "5 (press)", "1, 3", "Stem 2 mute"
+   "5 (shift, press)", "1, 3", "Stem 2 reset default volume"
+   "6", "1, 3", "Stem 2 quick FX super knob"
+   "6 (shift)", "1, 3", "Stem 2 quick FX select"
+   "6 (press)", "1, 3", "Stem 2 quick FX super knob reset default"
+   "6 (shift, press)", "1, 3", "Stem 2 quick FX super knob kill switch"
+   "9", "1, 3", "Stem 4 volume"
+   "9 (press)", "1, 3", "Stem 3 mute"
+   "9 (shift, press)", "1, 3", "Stem 3 reset default volume"
+   "10", "1, 3", "Stem 3 quick FX super knob"
+   "10 (shift)", "1, 3", "Stem 3 quick FX select"
+   "10 (press)", "1, 3", "Stem 3 quick FX super knob reset default"
+   "10 (shift, press)", "1, 3", "Stem 3 quick FX super knob kill switch"
+   "13", "1, 3", "Stem 5 volume"
+   "13 (press)", "1, 3", "Stem 4 mute"
+   "13 (shift, press)", "1, 3", "Stem 4 reset default volume"
+   "14", "1, 3", "Stem 4 quick FX super knob"
+   "14 (shift)", "1, 3", "Stem 4 quick FX select"
+   "14 (press)", "1, 3", "Stem 4 quick FX super knob reset default"
+   "14 (shift, press)", "1, 3", "Stem 4 quick FX super knob kill switch"
 
 
 Settings
