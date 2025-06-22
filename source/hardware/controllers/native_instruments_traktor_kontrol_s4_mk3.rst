@@ -281,45 +281,6 @@ All mapping detail
 |                  |   2, 4 and 8 beats, or custom size if you have changed           |                                          |
 |                  |   `BeatLoopRolls` in :ref:`settings`                             |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 1st knob      | - Master volume/mix of the unit                                  |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 2nd knob      | - Meta arg of the first selected effect                          |                                          |
-|                  | - First arg of the focused effect in effect focus mode           |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 3rd knob      | - Meta arg of the second selected effect                         |                                          |
-|                  | - Second arg of the focused effect in effect focus mode          |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 4th knob      | - Meta arg of the third selected effect                          |                                          |
-|                  | - Third arg of the focused effect in effect focus mode           |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 1st button    | - Trigger all effect                                             | - On if all effect are off and not       |
-|                  | - Trigger all effect                                             |   pressing :hwlabel:`SHIFT`              |
-|                  | - Assign/de-assign effect to master while pressing               | - On when effect is attached to master   |
-|                  |   :hwlabel:`SHIFT` and no focused effect                         |   and pressing :hwlabel:`SHIFT`          |
-|                  | - Exit focused mode while pressing :hwlabel:`SHIFT` and          | - Blinking in effect focused mode        |
-|                  |   focused effect                                                 | - Blinking in effect focused mode        |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 2nd button    | - Toggle (short press) or trigger (long press) third effect      | - On if effect is active and no focused  |
-|                  |   if not focused effect or if pressing :hwlabel:`SHIFT`          |   effect or if pressing :hwlabel:`SHIFT` |
-|                  | - Toggle first arg (short press) or trigger first arg            | - On if focused effect parameter is      |
-|                  |   (long press) of the focus effect if any                        |   enable                                 |
-|                  | - Switch to next effect available if no focus effect and         |                                          |
-|                  |   :hwlabel:`SHIFT`                                               |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 3rd button    | - Toggle (short press) or trigger (long press) third effect      | - On if effect is active and no focused  |
-|                  |   if not focused effect or if pressing :hwlabel:`SHIFT`          |   effect or if pressing :hwlabel:`SHIFT` |
-|                  | - Toggle second arg (short press) or trigger second arg          | - On if focused effect parameter is      |
-|                  |   (long press) of the focus effect if any                        |   enable                                 |
-|                  | - Switch to next effect available if no focus effect and         |                                          |
-|                  |   :hwlabel:`SHIFT`                                               |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
-| FX 4th button    | - Toggle (short press) or trigger (long press) third effect      | - On if effect is active and no focused  |
-|                  |   if not focused effect or if pressing :hwlabel:`SHIFT`          |   effect or if pressing :hwlabel:`SHIFT` |
-|                  | - Toggle (short press) or trigger (long press) third arg         | - On if focused effect parameter is      |
-|                  |   on the focus effect if any                                     |   enable                                 |
-|                  | - Switch to next effect available if no focus effect and         |                                          |
-|                  |   :hwlabel:`SHIFT`                                               |                                          |
-+------------------+------------------------------------------------------------------+------------------------------------------+
 | Library knob     | - Move up/down in tracklist                                      |                                          |
 |                  | - Move up/down in tree structure while shifted                   |                                          |
 |                  | - Move up/down in the context menu if playlist button is pressed |                                          |
@@ -360,6 +321,33 @@ All mapping detail
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Headphone volume | If using Mixxx internal mixer, change the headphone gain         |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
+
+
+Effects
+^^^^^^^
+
+This mapping uses the :ref:`Standard Effects Mapping <controller-effects-mapping>` to control 4 effect units.
+It has a "focus mode" where one effect is mapped to the knobs and buttons 1/2/3. In that mode, the knobs and buttons
+control the first three knob and button parameters of that effect.
+
+Note: in the skin, effect parameters can be swapped with drag'n'drop.
+
+=================== ====================================================================================================================
+Control             Description
+=================== ====================================================================================================================
+FX knob 1/2/3       - Normal mode: Meta knob of effect 1/2/3
+                    - Focus mode: parameter knob 1/2/3 of the focused effect
+                    - Focus mode + Shift: same as Normal modes
+FX knob 4           - Wet/dry mix (volume) of the effect unit
+FX button 1/2/3     - Normal: toggle (short press) or trigger (long press) the effect
+                    - Focus select mode: focus effect 1/2/3, or clear focused effect. The LED is lit for the currently focused effect
+                    - Focus mode: toggle (short press) or trigger (long press) parameter button 1/2/3 of the focused effect
+                    - Focus mode + Shift: same as Normal mode
+FX focus button     - Long press: start focus select mode
+                    - Short press: clear focused effect (if any) or expand/collapse the effect unit in the skin to show
+                      the effect parameters
+                    - LED blinks if an effect is focused
+=================== ====================================================================================================================
 
 
 Looping
