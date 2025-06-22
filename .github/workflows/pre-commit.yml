@@ -8,23 +8,39 @@ jobs:
   pre-commit:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
-    - uses: pre-commit/action@v3.0.1
-      env:
-        SKIP: rstcheck
+      - name: "Check out repository"
+        uses: actions/checkout@v4
+        with:
+          # Fetch the previous commit to be able to check for changes
+          fetch-depth: 2
 
-    - name: "Generate patch file"
-      if: failure()
-      run: |
-        git diff-index -p HEAD > "${PATCH_FILE}"
-        [ -s "${PATCH_FILE}" ] && echo "UPLOAD_PATCH_FILE=${PATCH_FILE}" >> "${GITHUB_ENV}"
-      env:
-        PATCH_FILE: pre-commit.patch
+      - name: "Detect code style issues (push)"
+        uses: pre-commit/action@v3.0.1
+        if: github.event_name == 'push'
+        env:
+          SKIP: rstcheck,ignore-pot-creation-date
 
-    - name: "Upload patch artifact"
-      if: failure() && env.UPLOAD_PATCH_FILE != null
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.UPLOAD_PATCH_FILE }}
-        path: ${{ env.UPLOAD_PATCH_FILE }}
+      - name: "Detect code style issues (pull_request)"
+        uses: pre-commit/action@v3.0.1
+        if: github.event_name == 'pull_request'
+        env:
+          SKIP: rstcheck
+        with:
+          # HEAD is the not yet integrated PR merge commit +refs/pull/xxxx/merge
+          # HEAD^1 is the PR target branch and HEAD^2 is the HEAD of the source branch
+          extra_args: --from-ref HEAD^1 --to-ref HEAD
+
+      - name: "Generate patch file"
+        if: failure()
+        run: |
+          git diff-index -p HEAD > "${PATCH_FILE}"
+          [ -s "${PATCH_FILE}" ] && echo "UPLOAD_PATCH_FILE=${PATCH_FILE}" >> "${GITHUB_ENV}"
+        env:
+          PATCH_FILE: pre-commit.patch
+
+      - name: "Upload patch artifact"
+        if: failure() && env.UPLOAD_PATCH_FILE != null
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.UPLOAD_PATCH_FILE }}
+          path: ${{ env.UPLOAD_PATCH_FILE }}
