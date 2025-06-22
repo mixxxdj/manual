@@ -72,6 +72,7 @@ No.                       Control                                               
 2                         :hwlabel:`SHIFT` + :hwlabel:`BROWSER` Rotary encoder    Turn to move tracklist/sidebar cursor page wise up/down. Press to (Un-)Maximizes the library view.
 3                         :hwlabel:`LOAD` buttons                                 Load song into active deck (Depending on Deck select).
 3                         :hwlabel:`SHIFT` + :hwlabel:`LOAD` buttons              Open/close a tree view. Equivalent to pressing the LEFT/RIGHT key on the keyboard
+5                         :hwlabel:`SHIFT` + :hwlabel:` L SCRATCH` button         Conxtextual Go To item  - see https://manual.mixxx.org/2.3/en/chapters/appendix/                                                                                                                                               mixxx_controls.html#control-[Library]-GoToItem
 ========================  ======================================================  ===========================================================================================
 
 Mixer section
