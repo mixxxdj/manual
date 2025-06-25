@@ -18,7 +18,8 @@ Library
 ^^^^^^^
 
 
-* Fix playlist export when name contains a dot `#14737 <https://github.com/mixxxdj/mixxx/pull/14737>`__
+* Fix playlist export when name contains a dot
+  `#14737 <https://github.com/mixxxdj/mixxx/pull/14737>`__
 * Fix loading the wrong track via drag and drop when using symlinks
   `#13708 <https://github.com/mixxxdj/mixxx/pull/13708>`__
   `#13706 <https://github.com/mixxxdj/mixxx/issues/13706>`__
@@ -31,10 +32,12 @@ Library
 * Fix keyboard mappings with non-ASCII characters on Linux
   `#14843 <https://github.com/mixxxdj/mixxx/pull/14843>`__
   `#14734 <https://github.com/mixxxdj/mixxx/issues/14734>`__
-* Computer feature: enable initial sorting during population `#14688 <https://github.com/mixxxdj/mixxx/pull/14688>`__
+* Computer feature: enable initial sorting during population
+  `#14688 <https://github.com/mixxxdj/mixxx/pull/14688>`__
 * Computer feature: avoid false-positve 'has children' for non-directory links
   `#14907 <https://github.com/mixxxdj/mixxx/pull/14907>`__
-* Fix column header mapping when using external library `#13782 <https://github.com/mixxxdj/mixxx/pull/13782>`__
+* Fix column header mapping when using external library
+  `#13782 <https://github.com/mixxxdj/mixxx/pull/13782>`__
 * Fixed Single track cover reload on reload metadata from file
   `#14494 <https://github.com/mixxxdj/mixxx/pull/14494>`__
   `#14409 <https://github.com/mixxxdj/mixxx/issues/14409>`__
