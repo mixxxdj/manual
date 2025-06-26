@@ -667,6 +667,36 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],beatloop_size
+                   [PreviewDeckN],beatloop_size
+                   [SamplerN],beatloop_size
+
+   Set the length of the loop in beats that will get set with
+   :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and
+   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
+   Changing this will resize an existing loop if the length of the loop matches
+   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+
+   :range: positive real number
+   :feedback: Beatloop size spinbox and possibly loop section on waveform
+
+   .. versionadded:: 2.1.0
+
+
+.. mixxx:control:: [ChannelN],loop_anchor
+                   [PreviewDeckN],loop_anchor
+                   [SamplerN],loop_anchor
+
+   Adjusts whether loops created with :mixxx:coref:`[ChannelN],beatloop_X_activate`,
+   :mixxx:coref:`[ChannelN],beatloop_X_toggle` or :mixxx:coref:`[ChannelN],beatloop_rX_activate`
+   span forward or backward from the current play position.
+
+   :range: binary
+   :feedback: Loop anchor button
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],beatloop_activate
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
@@ -692,20 +722,17 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0
 
 
-.. mixxx:control:: [ChannelN],beatloop_size
-                   [PreviewDeckN],beatloop_size
-                   [SamplerN],beatloop_size
+.. mixxx:control:: [ChannelN],beatloop_rX_activate
+                   [PreviewDeckN],beatloop_rX_activate
+                   [SamplerN],beatloop_rX_activate
 
-   Set the length of the loop in beats that will get set with
-   :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and
-   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
-   Changing this will resize an existing loop if the length of the loop matches
-   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   Like :mixxx:coref:`[ChannelN],beatloop_X_activate` except that the loop is created
+   backwards from the current play position.
 
-   :range: positive real number
-   :feedback: Beatloop size spinbox and possibly loop section on waveform
+   :range: binary
+   :feedback: A loop is shown over X beats.
 
-   .. versionadded:: 2.1.0
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_toggle
@@ -719,6 +746,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: A loop is shown over X beats.
 
    .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],beatloop_rX_toggle
+                   [PreviewDeckN],beatloop_rX_toggle
+                   [SamplerN],beatloop_rX_toggle
+
+   Like :mixxx:coref:`[ChannelN],beatloop_X_toggle` except that the loop is created
+   backwards from the current play position.
+
+   :range: binary
+   :feedback: A loop is shown over X beats.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_enabled
@@ -758,6 +798,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
 
    .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ChannelN],beatlooproll_rX_activate
+                   [PreviewDeckN],beatlooproll_rX_activate
+                   [SamplerN],beatlooproll_rX_activate
+
+   Like :mixxx:coref:`[ChannelN],beatlooproll_X_activate` except that the loop is created
+   backwards from the current play position.
+
+   :range: binary
+   :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_faster
