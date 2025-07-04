@@ -2680,7 +2680,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],track_color
                    [PreviewDeckN],track_color
                    [SamplerN],track_color
-                   [ChannelN_StemM],track_color
 
    Color of the currently loaded track or -1 if no track is loaded or the track has no color.
 
