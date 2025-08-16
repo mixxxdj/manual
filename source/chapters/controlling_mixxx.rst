@@ -136,25 +136,27 @@ with a number of mappings for various devices. There are two levels of
 controller mappings:
 
 * **Mixxx Certified Mappings**: These mappings are verified by the Mixxx
-  Development Team.
+  Development Team and are distributed as part of Mixxx itself.
 * **Community Supported Mappings**: These mappings are provided and have been
   verified as working by the Mixxx community, but the Mixxx Development Team is
   unable to verify their quality because we don't have the devices ourselves.
   They might have bugs or rough edges.
 
-If you run into issues with any of these mappings, please file a :term:`bug
-report` on our `Bug Tracker`_ or tell us about it on our mailing list, forums,
-or :term:`IRC` channel. Device support varies for each supported :term:`OS
+If you run into issues with Mixxx Certified Mappings, please file a :term:`bug
+report` on our `Bug Tracker`_.
+
+If you run into issues with Community Supported Mappings please tell the community
+about it on our `Controller mapping forum`_.
+
+Device support varies for each supported :term:`OS
 <operating system>`, so make sure to consult the documentation of the device.
 
 .. hint::  Additional mappings are available in the `Controller mapping forum`_.
 
-.. seealso:: Before purchasing a controller to use with Mixxx, consult our
-             `Hardware Compatibility wiki page`_. It contains the most
-             up-to-date information about which controllers work with Mixxx and
-             the details of each.
+.. seealso:: Before purchasing a controller to use with Mixxx, check our
+             :ref:`Controller List <hardware-manuals>`, that contains all
+             Mixxx Certified Mappings, that are bundled with Mixxx.
 
-.. _Hardware Compatibility wiki page: https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility
 .. _Bug Tracker: https://github.com/mixxxdj/mixxx/issues
 .. _Controller mapping forum: https://mixxx.discourse.group/c/controller-mappings/10
 

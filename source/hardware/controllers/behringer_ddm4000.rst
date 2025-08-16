@@ -24,7 +24,7 @@ used either for audio or as MIDI controller:
 The mixer contains no digital interfaces for audio or microphones.
 
 * `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0167>`_
-* `User Manual <https://mediadl.musictribe.com/media/sys_master/h1f/h4d/8849404887070.pdf>`_
+* `User Manual <https://fast-images.static-thomann.de/pics/atg/atgdata/document/manual/206918_manual.pdf>`_
 * `Forum thread <https://mixxx.discourse.group/t/ddm4000-controller-mapping/20045>`_
 
 .. versionadded:: 2.3

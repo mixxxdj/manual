@@ -26,7 +26,7 @@ As a non-developer
 * Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the
   information on it is up to date.
 * Translate Mixxx using `Transifex
-  <https://www.transifex.com/mixxx-dj-software/public/>`_
+  <https://explore.transifex.com/mixxx-dj-software/mixxxdj/>`_
 * Answer questions on the `Help & Support Forum
   <https://mixxx.discourse.group/c/support/6>`_
 * Help promote Mixxx: If you've got a blog, write an article about Mixxx. Blog
