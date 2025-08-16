@@ -237,10 +237,11 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   The line on the vinyl widget rotates if the track moves. It is similar to the
   position marker found on scratch records. Use the mouse on the vinyl widget to
   pause, scratch, spin-back or throw tracks - just like a real record.
-  When performing :ref:`Loop rolls <interface-looping>` or right-clicking on the
-  vinyl during playback, a “ghost” marker hints where the playback will continue.
+  When performing :ref:`rolling loops <interface-looping>` or when using
+  :ref:`Slip Mode <interface-button-grid>`,
+  a “ghost” marker hints where the playback will continue.
   The Vinyl Widget is hidden by default and can be enabled in the
-  :ref:`interface-button-grid`.
+  :ref:`interface-skin-settings`.
 
   If :term:`vinyl control` is enabled, it can optionally display the time-coded
   vinyl signal quality. Activate the option in :menuselection:`Preferences -->
