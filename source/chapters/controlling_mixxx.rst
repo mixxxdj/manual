@@ -132,20 +132,10 @@ Supported controllers
 Mixxx can use any :term:`MIDI`/:term:`HID` controller that is recognized by your
 :term:`OS <operating system>` (some may require drivers), as long as there is a
 MIDI/HID mapping file to tell Mixxx how to understand it. Mixxx comes bundled
-with a number of mappings for various devices. There are two levels of
-controller mappings:
-
-* **Mixxx Certified Mappings**: These mappings are verified by the Mixxx
-  Development Team.
-* **Community Supported Mappings**: These mappings are provided and have been
-  verified as working by the Mixxx community, but the Mixxx Development Team is
-  unable to verify their quality because we don't have the devices ourselves.
-  They might have bugs or rough edges.
+with a number of mappings for various devices.
 
 If you run into issues with any of these mappings, please file a :term:`bug
-report` on our `Bug Tracker`_ or tell us about it on our mailing list, forums,
-or :term:`IRC` channel. Device support varies for each supported :term:`OS
-<operating system>`, so make sure to consult the documentation of the device.
+report` on our `Bug Tracker`_.
 
 .. hint::  Additional mappings are available in the `Controller mapping forum`_.
 
@@ -168,7 +158,8 @@ If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for
 extracting an archive or compressed folder. Copy the :file:`.xml` file into your
 User Mapping folder. If there is a :file:`.js` file, also copy that to your
-User Mapping folder. Restart Mixxx and :ref:`load the mapping <control-load-mapping>`.
+User Mapping folder. Close and reopen :menuselection:`Preferences --> Controllers`
+to update the mappings list and :ref:`load the mapping <control-load-mapping>`.
 
 Map your own controller
 -----------------------
