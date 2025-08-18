@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
@@ -42,11 +42,11 @@ msgid ""
 "with an :file:`.m4a` file extension."
 msgstr ""
 
-#: ../../glossary.rst:481
+#: ../../glossary.rst:483
 msgid "AcoustID"
 msgstr "AcoustID"
 
-#: ../../glossary.rst:483
+#: ../../glossary.rst:485
 msgid ""
 "An acoustic fingerprint system built entirely on :term:`open-source` "
 "technology. It aims to create a free database of user-submitted audio "
@@ -93,15 +93,15 @@ msgid ""
 "files to :term:`FLAC` for use in Mixxx."
 msgstr ""
 
-#: ../../glossary.rst:488
+#: ../../glossary.rst:490
 msgid "API"
 msgstr ""
 
-#: ../../glossary.rst:489
+#: ../../glossary.rst:491
 msgid "Application Program Interface"
 msgstr ""
 
-#: ../../glossary.rst:491
+#: ../../glossary.rst:493
 msgid ""
 "An API is a specification and set of rules for how software programs "
 "interact with each other. In Mixxx, an example of this is the Sound API that"
@@ -150,11 +150,11 @@ msgstr ""
 "canals d'audio esquerra i dret. El balanç es refereix al volum relatiu entre"
 " els canals corresponents en una senyal d'audio estèreo."
 
-#: ../../glossary.rst:392
+#: ../../glossary.rst:394
 msgid "bar"
 msgstr "barra de compàs"
 
-#: ../../glossary.rst:394
+#: ../../glossary.rst:396
 msgid ""
 "In musical notation, a bar (or measure) is a segment of time defined by a "
 "given number of beats. Typically, a piece consists of several bars of the "
@@ -323,11 +323,11 @@ msgid ""
 "point without seeking through the track."
 msgstr ""
 
-#: ../../glossary.rst:388
+#: ../../glossary.rst:390
 msgid "cue marker"
 msgstr ""
 
-#: ../../glossary.rst:390
+#: ../../glossary.rst:392
 msgid ""
 "A catch-all term used in mixxx to refer to the :term:`cue point`, "
 ":term:`hotcues <hotcue>` and :ref:`intro and outro cues<djing-intro-outro-"
@@ -361,15 +361,15 @@ msgid ""
 "cueing in your headphones. Being able to cue is a crucial aspect to DJing."
 msgstr ""
 
-#: ../../glossary.rst:514
+#: ../../glossary.rst:516
 msgid "DAW"
 msgstr ""
 
-#: ../../glossary.rst:515
+#: ../../glossary.rst:517
 msgid "Digital Audio Workstation"
 msgstr ""
 
-#: ../../glossary.rst:517
+#: ../../glossary.rst:519
 msgid ""
 "An electronic device or application software used for recording, editing and"
 " producing audio files."
@@ -419,11 +419,11 @@ msgid ""
 " sending it back out to the soundcard."
 msgstr ""
 
-#: ../../glossary.rst:409
+#: ../../glossary.rst:411
 msgid "DRM"
 msgstr "DRM"
 
-#: ../../glossary.rst:411
+#: ../../glossary.rst:413
 msgid ""
 "Digital Rights Management (DRM) technologies attempt to control what you can"
 " and can't do with the media and hardware you've purchased. Typically, a DRM"
@@ -434,27 +434,27 @@ msgid ""
 "`Defective by Design <https://www.defectivebydesign.org>`_."
 msgstr ""
 
-#: ../../glossary.rst:501
+#: ../../glossary.rst:503
 msgid "EQ"
 msgstr ""
 
-#: ../../glossary.rst:502
+#: ../../glossary.rst:504
 msgid "Equalizer"
 msgstr ""
 
-#: ../../glossary.rst:504
+#: ../../glossary.rst:506
 msgid ""
 "An equalizer allows the sound in specified frequency bands to be amplified "
 "or reduced, in order to adjust the quality and character of the sound."
 msgstr ""
 
-#: ../../glossary.rst:507
+#: ../../glossary.rst:509
 msgid ""
 "A simple graphic equalizer consists of multiple controls for boosting or "
 "cutting bands or frequencies of sound."
 msgstr ""
 
-#: ../../glossary.rst:510
+#: ../../glossary.rst:512
 msgid ""
 "A parametric equalizer controls more parameters of the sound than a graphic "
 "equalizer. It can control three aspects of each frequency: level (boost or "
@@ -518,11 +518,11 @@ msgid ""
 " with a .flac extension."
 msgstr ""
 
-#: ../../glossary.rst:397
+#: ../../glossary.rst:399
 msgid "flanger"
 msgstr "flanger"
 
-#: ../../glossary.rst:399
+#: ../../glossary.rst:401
 msgid ""
 "A flanger is an effect that mixes the input signal with a delayed copy of "
 "itself which leads to interferences in the signal and creates a comb-filter "
@@ -533,15 +533,15 @@ msgstr ""
 "copia d'ella mateixa, retardada, i on la tonalitat varia lleugerament. Al "
 "retroalimentar-se amb la sortida, l'efecte es realça."
 
-#: ../../glossary.rst:466
+#: ../../glossary.rst:468
 msgid "GUI"
 msgstr "GUI"
 
-#: ../../glossary.rst:467
+#: ../../glossary.rst:469
 msgid "Graphical User Interface"
 msgstr ""
 
-#: ../../glossary.rst:469
+#: ../../glossary.rst:471
 msgid ""
 "It's pronounced \"gooey\" and it refers to a user interface based on "
 "graphics (icons, pictures and menus) instead of text. In Mixxx, it uses a "
@@ -606,17 +606,16 @@ msgstr "hotcue"
 msgid ""
 "Similar to the main :term:`cue` point, a hotcue is a reference point in the "
 "track. DJs usually place hotcues at distinctive positions within a track "
-"such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues."
+"such as drops, breaks or kicks and snares. Mixxx supports up to 36 hotcues. "
+"Hotcues can be assigned a text label and a color, and they can be reordered "
+"with drag-and-drop of hotcue buttons in decks."
 msgstr ""
-"Similar als :term:`punts cue <cue>`, un hotcue és un punt de referència en "
-"la pista. els DJs fan anar els hotcues en diferents parts d'una pista com "
-"pauses, bateries o tambors. El Mixxx suporta fins a 36 hotcues."
 
-#: ../../glossary.rst:452
+#: ../../glossary.rst:454
 msgid "HSV"
 msgstr "HSV"
 
-#: ../../glossary.rst:454
+#: ../../glossary.rst:456
 msgid ""
 "HSV stands for hue, saturation, and value, and is also often called HSB (B "
 "for brightness). The HSV Color Model represents color in a way more suited "
@@ -632,11 +631,11 @@ msgstr ""
 "s'expressen fàcilment amb HSV. Per contra, la representació amb el mode "
 ":term:`RGB` és més propera al que la majoria de pantalles mostren."
 
-#: ../../glossary.rst:423
+#: ../../glossary.rst:425
 msgid "icecast"
 msgstr "icecast"
 
-#: ../../glossary.rst:425
+#: ../../glossary.rst:427
 msgid ""
 "Icecast is free and :term:`open-source` software that allows digital audio "
 "content to be broadcast to and from media player software, enabling the "
@@ -678,11 +677,11 @@ msgstr ""
 "Abreviació de kilobits per segon. En el Mixxx, s'utilitza principalment per "
 "indicar la qualitat del format d'audio. Vegeu :term:`Taxa de bits <bitrate>`"
 
-#: ../../glossary.rst:473
+#: ../../glossary.rst:475
 msgid "key"
 msgstr ""
 
-#: ../../glossary.rst:475
+#: ../../glossary.rst:477
 msgid "Short for \"musical key\" (i.e. C major)."
 msgstr ""
 
@@ -714,15 +713,15 @@ msgstr ""
 "certes frequències d'un canal, com són els aguts, mitjos i baixos. És útil "
 "per fer lloc per una transició."
 
-#: ../../glossary.rst:519
+#: ../../glossary.rst:521
 msgid "LADSPA"
 msgstr ""
 
-#: ../../glossary.rst:520
+#: ../../glossary.rst:522
 msgid "Linux Audio Developer's Simple Plugin"
 msgstr ""
 
-#: ../../glossary.rst:522
+#: ../../glossary.rst:524
 msgid ""
 "The LADSPA :term:`API` is a standard for handling audio filters and audio "
 "signal processing effects."
@@ -799,11 +798,11 @@ msgstr ""
 " pèrdues fa referència a aquell que resulta en una pèrdua, perceptible o no,"
 " de la qualitat de l'audio."
 
-#: ../../glossary.rst:496
+#: ../../glossary.rst:498
 msgid "macOS"
 msgstr "macOS"
 
-#: ../../glossary.rst:498
+#: ../../glossary.rst:500
 msgid ""
 "macOS (originally named \"Mac OS X\" until 2012 and then \"OS X\" until "
 "2016) is the current Mac operating system that officially succeeded the "
@@ -875,11 +874,11 @@ msgid ""
 "music. MP3 files generally end with a :file:`.mp3` extension."
 msgstr ""
 
-#: ../../glossary.rst:476
+#: ../../glossary.rst:478
 msgid "MusicBrainz"
 msgstr "MusicBrainz"
 
-#: ../../glossary.rst:478
+#: ../../glossary.rst:480
 msgid ""
 "A open-source music encyclopedia that collects music :term:`metadata` and "
 "makes it available to the public. For more information, see "
@@ -898,11 +897,11 @@ msgid ""
 "with a .ogg or .oga extension."
 msgstr ""
 
-#: ../../glossary.rst:430
+#: ../../glossary.rst:432
 msgid "open-source"
 msgstr "En anglès open-source o codi obert"
 
-#: ../../glossary.rst:432
+#: ../../glossary.rst:434
 msgid ""
 "Generically, open-source refers to a program for which the source code is "
 "available to the public for use and/or modification from its original design"
@@ -1006,11 +1005,11 @@ msgstr ""
 "s'utilitzaven tocadiscs, això s'aconseguia prement el dit suaument al costat"
 " del tocadiscs per alentir, o acompanyant la rotació per accelerar."
 
-#: ../../glossary.rst:403
+#: ../../glossary.rst:405
 msgid "podcast"
 msgstr "podcast"
 
-#: ../../glossary.rst:405
+#: ../../glossary.rst:407
 msgid ""
 "A podcast is a feed of audio or video files made available for free or for "
 "purchase over the Internet. Podcast clients such as iTunes allow listeners "
@@ -1023,11 +1022,11 @@ msgstr ""
 "usuaris subcriure's al canal web i descarregar-se automàticament el "
 "contingut als seus reproductors portatils tan aviat com està disponible."
 
-#: ../../glossary.rst:447
+#: ../../glossary.rst:449
 msgid "quantization"
 msgstr "quantització"
 
-#: ../../glossary.rst:449
+#: ../../glossary.rst:451
 msgid ""
 "Quantization is the process of aligning notes and other events like loops or"
 " cuepoints so that they start or finish exactly on beats or fractions of "
@@ -1098,11 +1097,11 @@ msgstr "En anglès reverse o ves enrere"
 msgid "Reverse plays a track backwards."
 msgstr "Reverse fa que es reprodueixi la pista de manera que vagi cap enrere."
 
-#: ../../glossary.rst:460
+#: ../../glossary.rst:462
 msgid "RGB"
 msgstr "RGB"
 
-#: ../../glossary.rst:462
+#: ../../glossary.rst:464
 msgid ""
 "The RGB color model is an additive color model in which red, green, and blue"
 " light are added together in various ways to reproduce a broad array of "
@@ -1125,11 +1124,11 @@ msgid ""
 "your language settings the defaults may be different."
 msgstr ""
 
-#: ../../glossary.rst:418
+#: ../../glossary.rst:420
 msgid "shoutcast"
 msgstr "shoutcast"
 
-#: ../../glossary.rst:420
+#: ../../glossary.rst:422
 msgid ""
 "Shoutcast is proprietary software that allows digital audio content to be "
 "broadcast to and from media player software, enabling the creation of "
@@ -1208,15 +1207,15 @@ msgstr "En anglès track o pista"
 msgid "A track is another word for a song."
 msgstr "Una pista és un altre nom per a la paraula cançó."
 
-#: ../../glossary.rst:440
+#: ../../glossary.rst:442
 msgid "URL"
 msgstr ""
 
-#: ../../glossary.rst:441
+#: ../../glossary.rst:443
 msgid "Uniform Resource Locator"
 msgstr ""
 
-#: ../../glossary.rst:443
+#: ../../glossary.rst:445
 msgid ""
 "The address that defines the route to a file on an Internet server. URLs are"
 " typed into a Web browser to access Web pages and files, and URLs are "
@@ -1224,15 +1223,15 @@ msgid ""
 "URL is `<https://mixxx.org>`_ ."
 msgstr ""
 
-#: ../../glossary.rst:524
+#: ../../glossary.rst:526
 msgid "USB"
 msgstr ""
 
-#: ../../glossary.rst:525
+#: ../../glossary.rst:527
 msgid "Universal Serial Bus"
 msgstr ""
 
-#: ../../glossary.rst:527
+#: ../../glossary.rst:529
 msgid ""
 "USB is an industry standard for cables, connectors and protocols and used "
 "for lots of consumer hardware. If an :term:`audio interface` is \"USB class "

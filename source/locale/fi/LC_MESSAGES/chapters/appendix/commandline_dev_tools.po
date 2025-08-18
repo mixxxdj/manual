@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Finnish (https://app.transifex.com/mixxx-dj-software/teams/7734/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -284,128 +284,132 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:46
+msgid "Enables Auto DJ when starting Mixxx."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:47
 msgid ""
 "Top-level directory where Mixxx will look for user settings files such as "
 "the library database and preferences configuration file."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:49
+#: ../../chapters/appendix/commandline_dev_tools.rst:50
 msgid "Do not use OpenGL vu meter"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:50
+#: ../../chapters/appendix/commandline_dev_tools.rst:51
 msgid ""
 "Log all controller data Mixxx sends and receives as well as scripts it "
 "loads."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:52
+#: ../../chapters/appendix/commandline_dev_tools.rst:53
 msgid ""
 "The controller mapping will issue more aggressive warnings and errors when "
 "detecting misuse of controller APIs. New Controller Mappings should be "
 "developed with this option enabled!"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:57
+#: ../../chapters/appendix/commandline_dev_tools.rst:58
 msgid ""
 "Enable developer mode. Includes extra logs, stats on performance and the "
 "Developer tools menu as well as tooltips and logs useful for skin "
 "developers."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:61
+#: ../../chapters/appendix/commandline_dev_tools.rst:62
 msgid ""
 "Disable OpenGL widgets (scrolling waveforms, spinnies) to work around GPU "
 "driver bugs. If Mixxx is crashing on startup, try using this."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:65
+#: ../../chapters/appendix/commandline_dev_tools.rst:66
 msgid "Automatically loads empty waveforms"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:66
+#: ../../chapters/appendix/commandline_dev_tools.rst:67
 msgid "Disables spinning vinyl widgets"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:67
+#: ../../chapters/appendix/commandline_dev_tools.rst:68
 msgid "Disables synchronization polling"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:68
+#: ../../chapters/appendix/commandline_dev_tools.rst:69
 msgid "Doesn't open controllers by default"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:69
+#: ../../chapters/appendix/commandline_dev_tools.rst:70
 msgid "[auto|always|never] Use colors on the console output."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:71
+#: ../../chapters/appendix/commandline_dev_tools.rst:72
 msgid "Use a custom locale for loading translations (e.g ``fr``)"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:73
+#: ../../chapters/appendix/commandline_dev_tools.rst:74
 msgid "Start Mixxx in full-screen mode."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:74
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
 msgid "Set the verbosity of command line logging."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:77
+#: ../../chapters/appendix/commandline_dev_tools.rst:78
 msgid "Value"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:77
+#: ../../chapters/appendix/commandline_dev_tools.rst:78
 msgid "Meaning"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:79
+#: ../../chapters/appendix/commandline_dev_tools.rst:80
 msgid "``critical``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:79
+#: ../../chapters/appendix/commandline_dev_tools.rst:80
 msgid "Critical/Fatal only"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:80
+#: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "``warning``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:80
+#: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "Above + Warnings"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:81
+#: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "``info``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:81
+#: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "Above + Informational messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:82
+#: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "``debug``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:82
+#: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "Above + Debug/Developer messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:83
+#: ../../chapters/appendix/commandline_dev_tools.rst:84
 msgid "``trace``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:83
+#: ../../chapters/appendix/commandline_dev_tools.rst:84
 msgid "Above + Profiling messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:85
+#: ../../chapters/appendix/commandline_dev_tools.rst:86
 msgid ""
 "Set the logging level at which the log buffer is flushed to ``mixxx.log``. "
 "``LEVEL`` is one of the values defined at ``--logLevel`` above."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:89
+#: ../../chapters/appendix/commandline_dev_tools.rst:90
 msgid ""
 "Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates to false. A "
 "debugger can then be used to continue. This disables the "
@@ -413,32 +417,32 @@ msgid ""
 "consuming full rebuild."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:94
+#: ../../chapters/appendix/commandline_dev_tools.rst:95
 msgid "Display this help message and exit"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:97
+#: ../../chapters/appendix/commandline_dev_tools.rst:98
 msgid "Developer tools"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:99
+#: ../../chapters/appendix/commandline_dev_tools.rst:100
 msgid ""
 "To start Mixxx in Developer mode with a custom resource directory with "
 ":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
 "the terminal and hit return: ::"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:107
+#: ../../chapters/appendix/commandline_dev_tools.rst:108
 msgid "Experiment modes for rapid development and testing"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:109
+#: ../../chapters/appendix/commandline_dev_tools.rst:110
 msgid ""
 "Adds a static Experiment class with a tri-state mode flag that indicates "
 "whether the experiment mode is OFF, BASE, or EXPERIMENT."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:112
+#: ../../chapters/appendix/commandline_dev_tools.rst:113
 msgid ""
 "Adds :menuselection:`Developer --> Stats:Experiment Bucket` and "
 ":menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between "
@@ -446,14 +450,14 @@ msgid ""
 "like to collect in your base and experiment buckets."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:117
+#: ../../chapters/appendix/commandline_dev_tools.rst:118
 msgid ""
 "Updates StatsManager to segment collected stats into a base and experiment "
 "bucket. This allows you to quickly measure the difference a code change has "
 "on relevant counters / timers within the same execution of Mixxx."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:121
+#: ../../chapters/appendix/commandline_dev_tools.rst:122
 msgid ""
 "This is useful for quickly enabling and disabling a code change without a "
 "re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as "
@@ -461,7 +465,7 @@ msgid ""
 "collects."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:126
+#: ../../chapters/appendix/commandline_dev_tools.rst:127
 msgid ""
 "All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are "
 "segmented into a BASE STATS and EXPERIMENT STATS section printed to the log "

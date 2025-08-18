@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -625,7 +625,7 @@ msgstr ""
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:232
 msgid ""
 "Press while Tree panel has focus: expand an item if possible. If item can’t "
-"be expanded further, it is selected and and highight is shifted rightwarde "
+"be expanded further, it is selected and and highlight is shifted rightwarde "
 "to the respective tracks table."
 msgstr ""
 
@@ -670,8 +670,8 @@ msgstr ""
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:244
 msgid ""
 "When it flashes although no control is touched, it’s probably due to dust in"
-" the jogwheels (See :ref:`Controler Hardware / Maintenance <reloop-terminal-"
-"mix-series-maintenance>`)"
+" the jogwheels (See :ref:`Controller Hardware / Maintenance <reloop-"
+"terminal-mix-series-maintenance>`)"
 msgstr ""
 
 #: ../../hardware/controllers/reloop_terminal_mix_series.rst:246

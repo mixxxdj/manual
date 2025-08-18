@@ -958,6 +958,15 @@ resource_name          = hardware--controllers--mixvibes_u_mix_control_2
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--mvave_smc_mixer]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/mvave_smc_mixer.po
+source_file            = source/locale/pot/hardware/controllers/mvave_smc_mixer.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--mvave_smc_mixer
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--native_instruments_traktor_kontrol_f1]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/native_instruments_traktor_kontrol_f1.po
 source_file            = source/locale/pot/hardware/controllers/native_instruments_traktor_kontrol_f1.pot
@@ -1157,6 +1166,15 @@ resource_name          = hardware--controllers--numark_mixtrack_platinum
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--numark_mixtrack_platinum_fx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_platinum_fx.po
+source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_platinum_fx.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--numark_mixtrack_platinum_fx
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--numark_mixtrack_pro]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_mixtrack_pro.po
 source_file            = source/locale/pot/hardware/controllers/numark_mixtrack_pro.pot
@@ -1204,6 +1222,15 @@ source_lang            = en
 type                   = PO
 minimum_perc           = 0
 resource_name          = hardware--controllers--numark_n4
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--numark_ns6ii]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_ns6ii.po
+source_file            = source/locale/pot/hardware/controllers/numark_ns6ii.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--numark_ns6ii
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1406,6 +1433,15 @@ resource_name          = hardware--controllers--reloop_digital_jockey_2_controll
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--reloop_digital_jockey_2_interface_edition]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_digital_jockey_2_interface_edition.po
+source_file            = source/locale/pot/hardware/controllers/reloop_digital_jockey_2_interface_edition.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_digital_jockey_2_interface_edition
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--reloop_digital_jockey_2_master_edition]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_digital_jockey_2_master_edition.po
 source_file            = source/locale/pot/hardware/controllers/reloop_digital_jockey_2_master_edition.pot
@@ -1423,6 +1459,15 @@ source_lang            = en
 type                   = PO
 minimum_perc           = 0
 resource_name          = hardware--controllers--reloop_jockey_3_master_edition
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-26:r:hardware--controllers--reloop_mixage]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/reloop_mixage.po
+source_file            = source/locale/pot/hardware/controllers/reloop_mixage.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--reloop_mixage
 replace_edited_strings = false
 keep_translations      = false
 

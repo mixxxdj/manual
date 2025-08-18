@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -471,7 +471,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:136
-msgid "Up/Down presssed"
+msgid "Up/Down pressed"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:136

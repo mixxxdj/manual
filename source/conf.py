@@ -461,6 +461,8 @@ linkcheck_ignore = [
     "https://www.allen-heath.com/ahproducts/*",
     "https://www.allen-heath.com/content/uploads/*",
     "https://www.allen-heath.com/support/",
+    "https://www.keithmcmillen.com/QuNeo/downloads/",
+    "https://www.keithmcmillen.com/products/quneo/",
 ]
 
 # Avoid freezing during linkcheck
