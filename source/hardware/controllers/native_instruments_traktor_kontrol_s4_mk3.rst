@@ -15,8 +15,6 @@ Unlike its predecessor, the Kontrol S4 Mk3 cannot run from :term:`USB` power and
 
 .. versionadded:: 2.4
 .. versionchanged:: 2.6.0
-   Added support for screens
-.. versionchanged:: 2.6.0
    Added beatjump
 .. versionchanged:: 2.6.0
    Added stems
@@ -57,19 +55,6 @@ Audio
 During the development phase, it appears that using other Sound API than `ALSA` would lead the Master VU meter not to work. Furthermore, audio output power would be half as loud as it should
 be, which can be a problem if you are also using other software, since you audio setting will suddenly become twice as loud. It remains unclear whether or not this was a common issue or if
 this was specific to the used setup.
-
-Screens
-^^^^^^^
-
-The controller screens are supported, but they require a little bit of tinkering. Due to the legacy controller engine, the screen are driven by a separate mapping, which will have to be set
-independently of the controller mapping.
-
-   .. note:: The screens rendering is done using QML and the communication is achieved via BULK USB endpoint. Both of these feature are not available out of the box on Windows and Mac for now.
-
-By default, the screens are standalone, meaning they do not interact with the device states. This means that local state such as deck selection or shifting will not trigger any screen interaction,
-and thus you should expect only Deck A and B to be displayed on these screen by default, although this can be changed in the controller settings.
-
-   .. note:: it exists an API that was temporary parked that allows mappings to communicate. If you want, you may `download <https://github.com/acolombier/mixxx/actions/runs/13751974244?pr=10>` or build a version of Mixxx with `this feature <https://github.com/acolombier/mixxx/pull/10>` and it should automatically work on the controller.
 
 .. _use-motors:
 
@@ -305,11 +290,6 @@ All mapping detail
 |                  |     (FX assignation, FX dry/run, volume or pre-mixed load)       |                                          |
 |                  |   - the bottom row can be used for mute control                  |                                          |
 |                  |                                                                  |                                          |
-|                  |   .. note:: when selecting a stem with the shared data API       |                                          |
-|                  |      feature, the screen will display metadata about the         |                                          |
-|                  |      selected stem such as name, color and current dry/run and   |                                          |
-|                  |      select FX as well as volume                                 |                                          |
-|                  |                                                                  |                                          |
 |                  | - While in keyboard:                                             |                                          |
 |                  |                                                                  |                                          |
 |                  |   - will set the key to the selected note                        |                                          |
@@ -429,7 +409,7 @@ There are various option that can be used to change some behavior:
 Setting                                                                                        Default                                Description
 ============================================================================================== ====================================== ======================================================================================================================================================================================================================================
 Deck colors                                                                                    red, blue, yellow, purple              Define the leading colors for each decks. Note that some buttons have only one color
-Sortable column in the library                                                                 Artist, Title, BPM, Key, DatetimeAdded Define the list of columns on which it possible to sort the library using the library encoder and the view button
+Sortable column in the library                                                                 Artist, Title, BPM, Key, DatetimeAdded Define the list of columns on which it possible to sort the library using the library encoder and the view button. See `the Mixxx control documentation`_
 Loop In/Out jogwheel sensitivity                                                               50                                     Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
 Loop encoder sensitivity                                                                       500                                    Define the sensitivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
 Loop encoder sensitivity (Shifted)                                                             2500                                   Define the sensitivity when moving the loop with :hwlabel:`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
