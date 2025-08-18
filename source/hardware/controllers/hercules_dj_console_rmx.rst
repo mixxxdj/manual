@@ -1,3 +1,5 @@
+.. _hercules_dj_console_rmx:
+
 Hercules DJ Console RMX
 =======================
 

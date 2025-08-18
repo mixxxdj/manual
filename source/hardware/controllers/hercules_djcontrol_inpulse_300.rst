@@ -23,7 +23,7 @@ page <https://support.hercules.com/en/product/djcontrolinpulse300-en//>`__.
    When using **Firmware v1.68** and earlier, pads in FX Mode will not work as expected.
 
    For more details about `upgrading the
-   Firmware. <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__
+   Firmware. <https://web.archive.org/web/20250329173925/https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide/>`__
 
 Sound card setup
 ----------------
