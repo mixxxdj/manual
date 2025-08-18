@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         ref: main
         fetch-depth: 0
@@ -43,7 +43,7 @@ jobs:
     name: PDF
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Setup PDF Build Dependencies
       run: >
         sudo apt-get update && sudo apt-get install -y
