@@ -141,6 +141,14 @@ if :file:`Custom.kbd.cfg` is present and load that file instead of the default
 mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
 
+Note that the situation is a bit different with the menubar shortcuts in the `[KeyboardShortcuts]` section.
+If you want to use any of these default menubar shortcuts for something else, it is not sufficient to remove
+the respective line from the mapping file. The menubar will use the hard-coded defaults if doesn't find an
+entry in the mapping file.
+Hence, to use any of the menubar shortcuts, you need to supply another key to be picked up by the menubar.
+This may be an unused key, or if you don't need the menubar shortcut at all, a key that's not present on
+your keyboard and can also not be composed by accident, for example Cyrillic characters on a french keyboard.
+
 For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
 
@@ -271,3 +279,18 @@ audio decoders may have changed which may cause beatgrids and cue points to appe
 set off from the desired points in the audio stream. Unfortunately, there is no automatic fix available, yet.
 As of now you need to shift cues for each track individually with the cue shift buttons in the beatgrid editing
 controls section, see :ref:`interface-waveform`.
+
+.. _advanced-migrate-flatpak:
+
+Migrate your Mixxx library and settings to Flatpak
+==================================================
+
+Since version 2.5 Mixxx is also provided as Flatpak.
+
+If you do want to switch from a distribution package or Mixxx built from source code to the Flatpak, a little setup is required. Flatpak stores Mixxx's database, settings, and custom controller mappings in a different location than the `~/.mixxx` directory that Mixxx has always used before. Flatpak uses `~/.var/app/org.mixxx.Mixxx/.mixxx` instead. To copy your database, settings, and controller mappings into the Flatpak sandbox, run:
+::
+
+  mkdir -p ~/.var/app/org.mixxx.Mixxx
+  cp -r ~/.mixxx ~/.var/app/org.mixxx.Mixxx
+
+If your library contains any directories outside of your XDG Music Directory (`~/Music` unless you have reconfigured this), you will need to relink these directories to access the files inside of Flatpak's sandbox. Run Mixxx from the Flatpak and go to :menuselection:`Options --> Preferences --> Library`. Any directories that have a warning icon with `!` in a yellow triangle need to be relinked. Select the directory in the preferences window and click the Relink button, then select the directory in the file picker dialog. Flatpak will automatically remap the directory under `/run/user` so Mixxx can read and write your music files from inside the Flatpak sandbox. Press Ok in the preferences window, then in Mixxx's main window, go to :menuselection:`Library > Rescan Library`.
