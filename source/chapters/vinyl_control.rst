@@ -12,7 +12,7 @@ Vinyl Control / DVS
    Jörg Wartenberg <joerg.wartenberg@mixxx.org>
 
 Digital Vinyl Control functionality allows users to control the playback speed of a track
-in Mixxx using a traditional turntable or DJ controllers that play back recorded media.
+in Mixxx using traditional turntables or DJ controllers that play back recorded media.
 This allows DJs to retain the tactile feel of turntable DJing while leveraging the benefits of digital audio features.
 
 Such a :term:`Digital Vinyl System (DVS) <DVS>` can consist of:
