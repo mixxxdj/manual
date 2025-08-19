@@ -11,17 +11,16 @@ Vinyl Control / DVS
    S.Brandt <s.brandt@mixxx.org>
    Jörg Wartenberg <joerg.wartenberg@mixxx.org>
 
-The Vinyl Control functionality allows users to tweak the playback speed of a track
-in Mixxx using a traditional turntable or a DJ player with a platter to spin.
-This allows DJs to retain the tactile feel of vinyl, while retaining the benefits of digital audio features.
+Digital Vinyl Control functionality allows users to control the playback speed of a track
+in Mixxx using traditional turntables or DJ controllers that play back recorded media.
+This allows DJs to retain the tactile feel of turntable DJing while leveraging the benefits of digital audio features.
 
 Such a :term:`Digital Vinyl System (DVS) <DVS>` can consist of:
 
  - **Traditional turntables** with control vinyls, where the time position is encoded in the groove
  - **CD-based DJ players** with timecode signal stored on CDs (e.g., *Pioneer DJ CDJ-1000*)
  - **USB-based DJ players** with timecode signal stored on USB sticks (e.g., *Pioneer DJ CDJ-3000*)
- - DJ players with internally generated timecode signal (e.g., *RANE TWELVE MKII* or *Phase*)
-
+ - DJ devices with internally-generated timecode signal (e.g., *RANE TWELVE MKII* or *Phase*)
 
 How does it work?
 =================
