@@ -188,42 +188,43 @@ Output and Input Devices
 ------------------------
 
 In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-card`
-or :ref:`setup-laptop-and-external-card`) all that needs to be configured are
-the Master and Headphones outputs. Though, there are many more output and
-input channels available for more complex setups, for example with external
-mixers, vinyl control or for broadcasting.
+or :ref:`setup-laptop-and-external-card`), all that needs to be configured are
+the Main and Headphones outputs.
 
-All outputs are usually sent to a channel pair (stereo), though they can
-also be sent to one channel only (mono mixdown), for example if you're short
-on output channels, like when you need to use one stereo output for both master
-and headphones (see :ref:`setup-laptop-with-splitter`).
+Deck and Bus outputs are intended for use with external hardware mixers.
+They are taken *post-fader*, which means they include channel volume and
+crossfader adjustments and applied effects. When mixing manually, all
+Mixxx-internal mixer controls (Volume fader, EQs and crossfader) need to be
+reset so that the internal mixer doesn’t affect the sound.
+When using Auto DJ, the external mixer's crossfader needs to centered since Auto DJ
+will use the internal crossfader.
 
-Inputs can be mono or stereo (matching plugged sources, of course), except vinyl
-control inputs which require stereo to capture the entire control signal.
+All outputs are usually sent to a channel pair (stereo), though they can also
+be sent to a single channel (mono mixdown), for example if you need to use one
+stereo output for both Master and Headphones (see :ref:`setup-laptop-with-splitter`).
+
+Inputs can be mono or stereo, depending on the connected sources. Vinyl control
+inputs always require stereo to capture the full control signal.
 
 Outputs
 ^^^^^^^
 
-* **Master** (Main): The mix of all audible channels, e.g. main decks, all
+* **Main** (Master): The mix of all audible channels, e.g. main decks, all
   samplers, enabled microphones and auxiliary inputs.
 
-* **Headphones**: All channels for which :term:`pfl` is enabled, as well as the
-  preview deck.
+* **Headphones**: All channels for which :term:`pfl` is enabled, including
+  the preview deck.
 
 * **Booth**: Basically the same output as Main to be routed to a separate output,
   for example for the speakers in the DJ booth, external recording device,
   loopback device for video recordings etc.
 
-* **Left Bus**: All decks, samplers and auxiliaries that are assigned to the left
-  side of the :term:`crossfader`.
+* **Left Bus / Center Bus / Right Bus**: All decks, samplers, and auxiliaries
+  routed to the respective side of the :term:`crossfader`. The buses are picked
+  post-fader and post-effects and can be used with an external two channel mixer.
 
-* **Center Bus**: All decks, samplers and auxiliaries that are assigned to the
-  center of the :term:`crossfader`.
-
-* **Right Bus**: All decks, samplers and auxiliaries that are assigned to the right
-  side of the :term:`crossfader`.
-
-* **Deck 1-4**: Separate outputs for each of the main decks.
+* **Deck 1-4**: Separate outputs for each of the main decks. They are picked
+  post-fader and include effects and crossfader (for Auto DJ).
 
 Inputs
 ^^^^^^
