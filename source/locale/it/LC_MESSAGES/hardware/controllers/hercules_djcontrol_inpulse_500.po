@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
+"PO-Revision-Date: 2025-08-25 05:51+0000\n"
+"Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:2
+msgid "Hercules DJControl Inpulse 500"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:11
+msgid "Hercules DJControl Inpulse 500 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:13
+msgid ""
+"`Manufacturer’s product page "
+"<https://web.archive.org/web/20241013231548/https://www.hercules.com/en-"
+"us/product/djcontrol-inpulse-500/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:14
+msgid ""
+"`Manufacturer’s support and downloads page "
+"<https://support.hercules.com/en/product/djcontrolinpulse500-en//>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:15
+msgid ""
+"`Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-"
+"inpulse-500/19739/101/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:20
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:22
+msgid ""
+"This controller is a class compliant USB MIDI and audio device, so it can be"
+" used without any special drivers on GNU/Linux, Mac OS X, and Windows. "
+"However, if you wish to use the :ref:`ASIO sound API <preferences-sound-"
+"api>` under Windows, please install the latest driver package available from"
+" the `Support page "
+"<https://support.hercules.com/en/product/djcontrolinpulse500-en//>`__."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:29
+msgid "Sound card setup"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:31
+msgid ""
+"This controller has built-in 4 channel output sound card, with MAIN output "
+"(2x RCA or 2x unbalanced 6.35mm jack) and HEADPHONE output (stereo 3.5mm "
+"jack or stereo 6.35mm jack)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:35
+msgid "Open **Preferences > Sound Hardware**"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:36
+msgid "Select the **Output** tab"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:37
+msgid ""
+"From the **Main** drop-down menu, select the audio interface, then "
+"**Channels 1-2**"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:39
+msgid ""
+"From the **Headphones** drop-down menu, select the audio interface, then "
+"**Channels 3-4**"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:41
+msgid "Click **Apply** to save the changes."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:44
+msgid ""
+"The :ref:`example setups section <setup-laptop-and-external-card>` provides "
+"more details about the audio configuration in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:47
+msgid ""
+"The **Master** and **Headphone** knobs, as well as the **Master** button are"
+" hardware controls and interact directly with the integrated sound card’s "
+"output. Although they also send MIDI messages, they have NOT been mapped in "
+"Mixxx, so do not expect an on-screen reaction when using them. This was done"
+" to prevent the knobs to adjust both the gain on the controller’s sound card"
+" and in Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:55
+msgid "Mapping description"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:58
+msgid "Decks"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:88
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:109
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:133
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:150
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:170
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:192
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:211
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:234
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:264
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:285
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:301
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:88
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:109
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:133
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:150
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:170
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:192
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:211
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:234
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:264
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:285
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:301
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:63
+msgid ":hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:63
+msgid "Toggle :ref:`Sync Lock <sync-lock>`."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:64
+msgid ":hwlabel:`SHIFT` + :hwlabel:`SYNC` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:64
+msgid "Match key to currently playing track."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:65
+msgid ":hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:65
+msgid ""
+"CUE button, behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:66
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:66
+msgid "Return to the beginning of the track."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:67
+msgid ":hwlabel:`Play` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:67
+msgid "Play/Pause the current track."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:68
+msgid ":hwlabel:`SHIFT` + :hwlabel:`Play` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:68
+msgid "Cue Stutter."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:69
+msgid ":hwlabel:`VINYL` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:69
+msgid "Toggle scratch mode (default: on)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:70
+msgid ":hwlabel:`SHIFT` + :hwlabel:`VINYL` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:70
+msgid "Toggle vinyl pause effect (default: off)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:71
+msgid "Loop :hwlabel:`IN` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:71
+msgid "Mark start of the loop."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:72
+msgid ":hwlabel:`SHIFT` + Loop :hwlabel:`IN` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:72
+msgid "Jump to loop start."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:73
+msgid "Loop :hwlabel:`OUT` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:73
+msgid "Mark end of the loop."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:74
+msgid ":hwlabel:`SHIFT` + Loop :hwlabel:`OUT` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:74
+msgid "Jump to loop end."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:75
+msgid "Beat Align LED"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:75
+msgid ""
+"Track alignment markers (make sure :hwlabel:`BEATMATCH GUIDE` is on for this"
+" to work)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:76
+msgid "Loop encoder push"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:76
+msgid "Reloop toggle"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:77
+msgid "Loop encoder turn"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:77
+msgid "Double or halve current loop"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:78
+msgid ":hwlabel:`SHIFT` + Loop encoder"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:78
+msgid "4-bar loop enable"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:79
+msgid ":hwlabel:`SLIP`"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:79
+msgid "Toggles splip mode."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:80
+msgid ":hwlabel:`QUANT`"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:80
+msgid "Toggles quantize."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:81
+msgid ":hwlabel:`SHIFT` + :hwlabel:`QUANT`"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:81
+msgid "Toggles keylock."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:85
+msgid "Browser"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:90
+msgid ":hwlabel:`BROWSER` encoder (turn encoder)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:90
+msgid "Move up/down currently focused list or search history"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:91
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (turn encoder)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:91
+msgid "Move left/right (fold/unfold) list."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:92
+msgid ":hwlabel:`BROWSER` encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:92
+msgid "Switch focus between list, search and file view."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:93
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (press)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:93
+msgid "Maximize/Minimize library view."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:94
+msgid ":hwlabel:`ASSISTANT` button"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:94
+msgid ""
+"Toggle AutoDJ (be sure a playlist was created for AutoDJ before activating "
+"this function)."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:98
+msgid "Deck Channels"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:101
+msgid "FX"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:104
+msgid ""
+"This mapping turns the FX button into channel selection, relegating FX to "
+"pad mode 7. The LED indicates which channel is active on the corresponding "
+"deck"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:111
+msgid ":hwlabel:`FX1` pad"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:111
+msgid "Choose deck 1 on left deck."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:112
+msgid ":hwlabel:`FX2` pad"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:112
+msgid "Choose deck 2 on right deck."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:113
+msgid ":hwlabel:`FX3` pad"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:113
+msgid "Choose deck 3 on left deck."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:114
+msgid ":hwlabel:`FX4` pad"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:114
+msgid "Choose deck 4 on right deck."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:118
+msgid "Performance Pads"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:127
+msgid "Hercules DJControl Inpulse 500 modes overview"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:127
+msgid "Performance pads modes overview"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:130
+msgid "MODE 1: Hot Cue Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:135
+msgid "Pad 1 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:135
+msgid "Set and trigger :term:`hotcue` 1 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:136
+msgid ":hwlabel:`SHIFT` + Pad 1 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:136
+msgid "Delete :term:`hotcue` 1 - 8."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:140
+msgid "MODE 2: Loop Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (loop mode pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:152
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:213
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:236
+msgid "Pad 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:152
+msgid "Activate Beatloop of 1/8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:153
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:214
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:237
+msgid "Pad 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:153
+msgid "Activate Beatloop of 1/4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:154
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:215
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:238
+msgid "Pad 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:154
+msgid "Activate Beatloop of 1/2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:155
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:216
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:239
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:269
+msgid "Pad 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:155
+msgid "Activate Beatloop of 1 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:156
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:217
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:240
+msgid "Pad 5"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:156
+msgid "Activate Beatloop of 2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:157
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:218
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:241
+msgid "Pad 6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:157
+msgid "Activate Beatloop of 4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:158
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:219
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:242
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:268
+msgid "Pad 7"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:158
+msgid "Activate Beatloop of 8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:159
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:220
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:243
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:270
+msgid "Pad 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:159
+msgid "Activate Beatloop of 16 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (loop mode pads, shift+pad)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:172
+msgid ":hwlabel:`SHIFT` + Pad 1"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:172
+msgid "Activate Beatloop of 1/32 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:173
+msgid ":hwlabel:`SHIFT` + Pad 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:173
+msgid "Activate Beatloop of 1/16 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:174
+msgid ":hwlabel:`SHIFT` + Pad 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:174
+msgid "Activate Beatloop of 32 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:175
+msgid ":hwlabel:`SHIFT` + Pad 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:175
+msgid "Activate Beatloop of 64 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:176
+msgid ":hwlabel:`SHIFT` + Pad 5"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:176
+msgid "Activate Beatloop of 128 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:177
+msgid ":hwlabel:`SHIFT` + Pad 6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:177
+msgid "Activate Beatloop of 256 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:178
+msgid ":hwlabel:`SHIFT` + Pad 7"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:178
+msgid "Activate Beatloop of 512 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:179
+msgid ":hwlabel:`SHIFT` + Pad 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:179
+msgid "Activate Beatloop of 1024 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:183
+msgid "MODE 3: Slicer Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:185
+msgid ""
+"Each pad is a beat from the current 8 bars. Press the button to slip to the "
+"beat and then playback will resume to the current beat (marked in white as "
+"it progresses)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:189
+msgid "MODE 4: Sampler Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:194
+msgid "Pad 1 - 8 (deck A)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:194
+msgid "Trigger Sampler 1 - 8 or load."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:195
+msgid "Pad 1 - 8 (deck B)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:195
+msgid "Trigger Sampler 1 - 8."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:196
+msgid ":hwlabel:`SHIFT` + Pad 1 - 8 (deck A)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:196
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:197
+msgid "Pause playing or \"eject\" sample slot"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:197
+msgid ":hwlabel:`SHIFT` + Pad 1 - 8 (deck B)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:201
+msgid "MODE 5: Transport Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (transport mode pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:213
+msgid "Pitch down a whole tone."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:214
+msgid "Pitch down a half tone."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:215
+msgid "Pitch up a half tone."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:216
+msgid "Pitch up a whole tone."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:217
+msgid "Tempo slider range reset."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:218
+msgid "Tempo slider range decrease."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:219
+msgid "Tempo slider range increase."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:220
+msgid "Unused"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:224
+msgid "MODE 6: Roll mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (roll mode pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:236
+msgid "Activate roll of 1/8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:237
+msgid "Activate roll of 1/4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:238
+msgid "Activate roll of 1/2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:239
+msgid "Activate roll of 1 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:240
+msgid "Activate roll of 2 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:241
+msgid "Activate roll of 4 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:242
+msgid "Activate roll of 8 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:243
+msgid "Activate roll of 16 beat size."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:247
+msgid "MODE 7: FX Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (FX mode pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (FX mode shift + pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:266
+msgid "Pad 1 - 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:266
+msgid "Toggle Effect 1 - 3."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:267
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:289
+msgid "Pad 5 - 6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:267
+msgid "Cycle filter knob effect."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:268
+msgid "Kill filter knob effect."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:269
+msgid "Toggle Effect Unit 1."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:270
+msgid "Toggle Effect Unit 2."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:271
+msgid ":hwlabel:`Shift` + Pad 1 - 3"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:271
+msgid "Cycle to next effect 1 - 3."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:275
+msgid "MODE 8: Beatjump Mode"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (Beatjump mode pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:287
+msgid "Pad 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:287
+msgid "Jump backward/forward by 1 beat."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:288
+msgid "Pad 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:288
+msgid "Jump backward/forward by 2 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:289
+msgid "Jump backward/forward by 4 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:290
+msgid "Pad 7 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:290
+msgid "Jump backward/forward by 8 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst-1
+msgid "Hercules DJControl Inpulse 500 (Beatjump mode shift + pads)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:303
+msgid ":hwlabel:`Shift` + Pad 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:303
+msgid "Jump backward/forward by 16 beat."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:304
+msgid ":hwlabel:`Shift` + Pad 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:304
+msgid "Jump backward/forward by 32 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:305
+msgid ":hwlabel:`Shift` + Pad 5 - 6"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:305
+msgid "Jump backward/forward by 64 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:306
+msgid ":hwlabel:`Shift` + Pad 7 - 8"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:306
+msgid "Jump backward/forward by 128 beats."
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:310
+msgid "Known issues"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:313
+msgid "Controls not included in this mapping"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:315
+msgid "Master knob (Hardware control)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:316
+msgid "Headphone knob (Hardware control)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:317
+msgid "Master buttons (Hardware control)"
+msgstr ""
+
+#: ../../hardware/controllers/hercules_djcontrol_inpulse_500.rst:318
+msgid "PADS: Toneplay"
+msgstr ""

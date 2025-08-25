@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -263,8 +263,8 @@ msgstr ""
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
-"Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
-"software/public/>`_"
+"Translate Mixxx using `Transifex <https://explore.transifex.com/mixxx-dj-"
+"software/mixxxdj/>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:30

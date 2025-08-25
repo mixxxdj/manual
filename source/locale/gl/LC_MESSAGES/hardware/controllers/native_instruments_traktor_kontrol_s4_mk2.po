@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 06:00+0000\n"
 "Language-Team: Galician (https://app.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -424,40 +424,43 @@ msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:125
 msgid ""
-"If you choose, you can edit the controller script and change the Remix Slot "
-"buttons to perform loop rolls instead. Also by default, :hwlabel:`SHIFT` + "
-":hwlabel:`CUE` rewinds the track to the beginning but you can change this to"
-" a Reverse Roll (or “Censor”) effect instead."
+"Settings can be edited in the preference windows, under "
+":guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor "
+"Kontrol S4 MK2 ...`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:128
-msgid ""
-"Making these changes is still a little awkward and we will be making "
-"controller preferences easier to change in the future. For now you’ll have "
-"to make a small change to the mapping script file. Don’t worry, the actual "
-"edit only involves replacing a single word in a text file."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Setting"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:131
-msgid "Open Mixxx Preferences and select the Kontrol S4 in the side list."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Values"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:132
-msgid "Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:133
-msgid "Click :guilabel:`Open Selected File`."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Remix Slot Buttons"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:134
-msgid ""
-"Either the file should open in an editor, or you should see a file browser "
-"window with that file selected. If you see a file browser, right click the "
-"file and select an option to edit it."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Samplers, Loop Rolls"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:135
-msgid ""
-"At the top of the file will be short instructions explaining what to do."
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Sets the behavior when a Remix Slot button is pressed."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE` Button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Reverse playback direction, Rewind to start of track"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk2.rst:1
+msgid "Sets the behavior when Shift+Cue is pressed."
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -579,13 +579,27 @@ msgstr ""
 
 #: ../../chapters/advanced_topics.rst:144
 msgid ""
+"Note that the situation is a bit different with the menubar shortcuts in the"
+" `[KeyboardShortcuts]` section. If you want to use any of these default "
+"menubar shortcuts for something else, it is not sufficient to remove the "
+"respective line from the mapping file. The menubar will use the hard-coded "
+"defaults if doesn't find an entry in the mapping file. Hence, to use any of "
+"the menubar shortcuts, you need to supply another key to be picked up by the"
+" menubar. This may be an unused key, or if you don't need the menubar "
+"shortcut at all, a key that's not present on your keyboard and can also not "
+"be composed by accident, for example Cyrillic characters on a french "
+"keyboard."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:152
+msgid ""
 "For a list of controls that can be used in a keyboard mapping, see "
 ":ref:`appendix-mixxxcontrols`."
 msgstr ""
 "Pour une liste des contrôles pouvant être utilisés dans un mappage de "
 "clavier, voir :ref:`appendix-mixxxcontrols`."
 
-#: ../../chapters/advanced_topics.rst:147
+#: ../../chapters/advanced_topics.rst:155
 msgid ""
 "You can download and share custom keyboard mappings in the `Mixxx User "
 "Keyboard Mapping forums <https://mixxx.discourse.group/c/keyboard-"
@@ -595,11 +609,11 @@ msgstr ""
 "dans `Mixxx User Keyboard Mapping forums "
 "<https://mixxx.discourse.group/c/keyboard-mappings/12>`_."
 
-#: ../../chapters/advanced_topics.rst:153
+#: ../../chapters/advanced_topics.rst:161
 msgid "Additional Effects via external Mixer Mode"
 msgstr "Effets supplémentaires via le mode table de mixage externe"
 
-#: ../../chapters/advanced_topics.rst:155
+#: ../../chapters/advanced_topics.rst:163
 msgid ""
 "Mixxx comes with a set of :ref:`native effects <effects>`. Additionally, "
 "using the :ref:`external mixer mode <intro-how-mixxx-works>` you can route "
@@ -609,7 +623,7 @@ msgstr ""
 "utilisant le :ref:`mode mixage externe <intro-how-mixxx-works>` vous pouvez "
 "router chaque platine directement vers des hôtes d'effets tiers."
 
-#: ../../chapters/advanced_topics.rst:159
+#: ../../chapters/advanced_topics.rst:167
 msgid ""
 "The following examples are only intended to encourage experimentation, they "
 "are not definitive guidance."
@@ -617,19 +631,19 @@ msgstr ""
 "Les exemples suivants n'ont pour but que d'encourager l'expérimentation, et "
 "ne sont pas des guides exhaustifs."
 
-#: ../../chapters/advanced_topics.rst:163
+#: ../../chapters/advanced_topics.rst:171
 msgid "Effects via AU Lab on macOS"
 msgstr "Effets via AU Lab sous MacOS"
 
-#: ../../chapters/advanced_topics.rst:172
+#: ../../chapters/advanced_topics.rst:180
 msgid "The Au Lab routing for external effects"
 msgstr "Le routage d'AU Lab pour les effets externes"
 
-#: ../../chapters/advanced_topics.rst:172
+#: ../../chapters/advanced_topics.rst:180
 msgid "The Au Lab routing for external effects on macOS"
 msgstr "Le routage d'AU Lab pour les effets externes sous MacOS"
 
-#: ../../chapters/advanced_topics.rst:174
+#: ../../chapters/advanced_topics.rst:182
 msgid ""
 "On macOS there is a simple and free way to give Mixxx access to the "
 "collection of AU/VST/MAS plugins that are installed on your system."
@@ -638,7 +652,7 @@ msgstr ""
 "d'accéder à votre collection de greffons AU/VST/MAS installés sur votre "
 "machine."
 
-#: ../../chapters/advanced_topics.rst:177
+#: ../../chapters/advanced_topics.rst:185
 msgid ""
 "Install the free `SoundflowerBed "
 "<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, a system "
@@ -648,7 +662,7 @@ msgstr ""
 "<https://github.com/anastasiuspernat/SoundflowerBed/releases>`_, une "
 "extension système pour le routage audio inter-applications."
 
-#: ../../chapters/advanced_topics.rst:179
+#: ../../chapters/advanced_topics.rst:187
 msgid ""
 "Install the free digital audio mixing application `AU Lab "
 "<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
@@ -656,7 +670,7 @@ msgstr ""
 "Installer l'application gratuite de mixage audio numérique `AU Lab "
 "<https://www.apple.com/apple-music/apple-digital-masters/docs/au_lab.zip>`_."
 
-#: ../../chapters/advanced_topics.rst:182
+#: ../../chapters/advanced_topics.rst:190
 msgid ""
 "macOS 10.15 (Catalina) introduces additional restrictions on running non-"
 "Apple software. Make sure to grant permission in `System Preferences --> "
@@ -667,7 +681,7 @@ msgstr ""
 "dans `Préférences Système --> Sécurité et confidentialité --> Microphone -->"
 " AU Lab`."
 
-#: ../../chapters/advanced_topics.rst:186
+#: ../../chapters/advanced_topics.rst:194
 msgid ""
 "Alternatively, try `Blackhole "
 "<https://github.com/ExistentialAudio/BlackHole>`_, a modern virtual audio "
@@ -683,15 +697,15 @@ msgstr ""
 "http://ju-x.com/hostingau.html>`_, un :term:`DAW` gratuit de taille micro "
 "qui héberge les instruments Audio Unit et les plugins d'effets."
 
-#: ../../chapters/advanced_topics.rst:192
+#: ../../chapters/advanced_topics.rst:200
 msgid "**In Mixxx**"
 msgstr "**Dans Mixxx**"
 
-#: ../../chapters/advanced_topics.rst:194
+#: ../../chapters/advanced_topics.rst:202
 msgid "Go to :menuselection:`Preferences --> Sound Hardware--> Output`"
 msgstr "Aller à :menuselection:`Préférences --> Matériel Audio--> Sortie` "
 
-#: ../../chapters/advanced_topics.rst:195
+#: ../../chapters/advanced_topics.rst:203
 msgid ""
 "Select for :guilabel:`Deck 1` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 1-2`"
@@ -699,7 +713,7 @@ msgstr ""
 "Pour la :guilabel:`Platine 1`, sélectionner le périphérique "
 ":guilabel:`Soundflower 16` avec :guilabel:`Canal 1-2`"
 
-#: ../../chapters/advanced_topics.rst:197
+#: ../../chapters/advanced_topics.rst:205
 msgid ""
 "Select for :guilabel:`Deck 2` the :guilabel:`Soundflower 16` device with "
 ":guilabel:`Channel 3-4`"
@@ -707,48 +721,48 @@ msgstr ""
 "Pour la :guilabel:`Platine 2`, sélectionner le périphérique "
 ":guilabel:`Soundflower 16` avec :guilabel:`Canal 3-4`"
 
-#: ../../chapters/advanced_topics.rst:199
+#: ../../chapters/advanced_topics.rst:207
 msgid "Click the :guilabel:`Apply` button"
 msgstr "Cliquer le bouton :guilabel:`Appliquer`"
 
-#: ../../chapters/advanced_topics.rst:201
+#: ../../chapters/advanced_topics.rst:209
 msgid "**In AU Lab**"
 msgstr "**Dans AU Lab**"
 
-#: ../../chapters/advanced_topics.rst:203
+#: ../../chapters/advanced_topics.rst:211
 msgid "Click on the :guilabel:`+` button to create a new configuration"
 msgstr "Cliquer le bouton :guilabel:`+` pour créer une nouvelle configuration"
 
-#: ../../chapters/advanced_topics.rst:204
+#: ../../chapters/advanced_topics.rst:212
 msgid "Add 2 stereo input tracks in the :guilabel:`Audio Input Tab`"
 msgstr ""
 "Ajouter 2 pistes d'entrée stéréo dans l'onglet :guilabel:`Entrée Audio`"
 
-#: ../../chapters/advanced_topics.rst:205
+#: ../../chapters/advanced_topics.rst:213
 msgid "Add 2 stereo output tracks in the :guilabel:`Audio Output Tab`"
 msgstr ""
 "Ajouter 2 pistes de sortie stéréo dans l'onglet :guilabel:`Sortie Audio`"
 
-#: ../../chapters/advanced_topics.rst:206
+#: ../../chapters/advanced_topics.rst:214
 msgid "Click :guilabel:`OK`"
 msgstr "Cliquer :guilabel:`OK`"
 
-#: ../../chapters/advanced_topics.rst:207
+#: ../../chapters/advanced_topics.rst:215
 msgid "Change the audio input device to :guilabel:`Soundflower 16`"
 msgstr "Changer le périphérique d'entrée audio en :guilabel:`Soundflower 16`"
 
-#: ../../chapters/advanced_topics.rst:208
+#: ../../chapters/advanced_topics.rst:216
 msgid ""
 "Change the audio output device for example to :guilabel:`Built-in Output`"
 msgstr ""
 "Changer le périphérique de sortie audio par exemple en :guilabel:`Sortie "
 "Intégrée`"
 
-#: ../../chapters/advanced_topics.rst:209
+#: ../../chapters/advanced_topics.rst:217
 msgid "Click :guilabel:`Create document`"
 msgstr "Cliquer :guilabel:`Créer le document`"
 
-#: ../../chapters/advanced_topics.rst:210
+#: ../../chapters/advanced_topics.rst:218
 msgid ""
 "In the :guilabel:`Output 1` channel, select an effect from the drop-down "
 "menu, for example :menuselection:`Apple --> AUCompressor`"
@@ -756,23 +770,23 @@ msgstr ""
 "Dans le canal :guilabel:`Sortie 1`, sélectionner un effet dans le menu "
 "déroulant, par exemple :menuselection:`Apple --> AUCompressor`"
 
-#: ../../chapters/advanced_topics.rst:213
+#: ../../chapters/advanced_topics.rst:221
 msgid "The effect should now react if you play a track in Mixxx."
 msgstr "L'effet devrait dorénavant réagir si vous jouez une piste dans Mixxx."
 
-#: ../../chapters/advanced_topics.rst:216
+#: ../../chapters/advanced_topics.rst:224
 msgid "Effects via JACK Rack on GNU/Linux"
 msgstr "Effets via JACK Rack sous GNU/Linux"
 
-#: ../../chapters/advanced_topics.rst:225
+#: ../../chapters/advanced_topics.rst:233
 msgid "The Jack routing for external effects"
 msgstr "Le routage Jack pour les effets externes"
 
-#: ../../chapters/advanced_topics.rst:225
+#: ../../chapters/advanced_topics.rst:233
 msgid "The Jack routing for external effects on GNU/Linux"
 msgstr "Le routage JACK des effets externes sous GNU/Linux "
 
-#: ../../chapters/advanced_topics.rst:227
+#: ../../chapters/advanced_topics.rst:235
 msgid ""
 "Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to "
 "route each deck directly through `JACK Rack <http://jack-"
@@ -787,7 +801,7 @@ msgstr ""
 " les effets. Ceci donne accès pour Mixxx à une large collection de greffons "
 ":term:`LADSPA`."
 
-#: ../../chapters/advanced_topics.rst:233
+#: ../../chapters/advanced_topics.rst:241
 msgid ""
 "Make sure the correct multichannel audio interface has been selected in Jack"
 " (Jack settings visible bottom left). Note that Mixxx possibly labels its "
@@ -797,12 +811,12 @@ msgstr ""
 " JACK (les paramètres de JACK apparaissent en bas à gauche). Notez que Mixxx"
 " nomme potentiellement ses ports JACK en :guilabel:`Portaudio`."
 
-#: ../../chapters/advanced_topics.rst:240
+#: ../../chapters/advanced_topics.rst:248
 msgid "Migrate your Mixxx library and settings to a new computer"
 msgstr ""
 "Migrer votre bibliothèque Mixxx et vos paramètres vers un nouvel ordinateur"
 
-#: ../../chapters/advanced_topics.rst:242
+#: ../../chapters/advanced_topics.rst:250
 msgid ""
 "If you move to a new computer, or to another operating system on the same "
 "computer, you can take your existing Mixxx setup with you. This includes "
@@ -813,7 +827,7 @@ msgstr ""
 "existante avec vous. Cela inclut votre bibliothèque de pistes, vos "
 "paramètres, les mappages de contrôleurs et les profils de diffusion."
 
-#: ../../chapters/advanced_topics.rst:244
+#: ../../chapters/advanced_topics.rst:252
 msgid ""
 "You don't necessarily need to be able to run your previous Mixxx "
 "installation, all you need is your :ref:`settings directory <appendix-"
@@ -826,11 +840,11 @@ msgstr ""
 "musique que vous avez importés dans votre bibliothèque Mixxx via "
 ":menuselection:`Préférences --> Bibliothèque`."
 
-#: ../../chapters/advanced_topics.rst:247
+#: ../../chapters/advanced_topics.rst:255
 msgid "Preparation"
 msgstr "Préparation"
 
-#: ../../chapters/advanced_topics.rst:249
+#: ../../chapters/advanced_topics.rst:257
 msgid ""
 "If you still have access to your Mixxx installation open Mixxx, go to "
 ":menuselection:`Preferences --> Library` and uncheck :guilabel:`Rescan on "
@@ -847,7 +861,7 @@ msgstr ""
 ": ouvrer :file:`mixxx.cfg` avec un éditeur de texte, supprimer la ligne "
 "contenant :file:`RescanOnStartup` et enregistrer le fichier."
 
-#: ../../chapters/advanced_topics.rst:250
+#: ../../chapters/advanced_topics.rst:258
 msgid ""
 "Make a copy of both the Mixxx settings directory and your music directories."
 " Put all in a save place. **Do not restructure your music directories!**"
@@ -856,12 +870,12 @@ msgstr ""
 "musique. Mettre le tout dans un endroit sauvegardé. **Ne restructurez pas "
 "vos répertoires de musique !**"
 
-#: ../../chapters/advanced_topics.rst:251
+#: ../../chapters/advanced_topics.rst:259
 msgid "Install your new operating system, get your new PC ready."
 msgstr ""
 "Installer votre nouveau système d'exploitation et préparer votre nouveau PC."
 
-#: ../../chapters/advanced_topics.rst:252
+#: ../../chapters/advanced_topics.rst:260
 msgid ""
 "Get the current stable Mixxx version from `the official download page "
 "<https://mixxx.org/download/>`_."
@@ -869,15 +883,15 @@ msgstr ""
 "Obtener la version stable actuelle de Mixxx sur la page de téléchargement "
 "officielle <https://mixxx.org/download/>`_."
 
-#: ../../chapters/advanced_topics.rst:253
+#: ../../chapters/advanced_topics.rst:261
 msgid "Install Mixxx, though **don't run it, yet!**"
 msgstr "Installer Mixxx, mais **ne l'exécutez pas encore !**"
 
-#: ../../chapters/advanced_topics.rst:256
+#: ../../chapters/advanced_topics.rst:264
 msgid "Migration"
 msgstr "Migration"
 
-#: ../../chapters/advanced_topics.rst:258
+#: ../../chapters/advanced_topics.rst:266
 msgid ""
 "Copy your Mixxx settings directory to the appropriate location, see "
 ":ref:`appendix-settings-files`. In case you already started Mixxx "
@@ -889,15 +903,15 @@ msgstr ""
 "vous de renommer ou de supprimer votre répertoire de paramètres existant "
 "afin d'éviter tout conflit de fichiers."
 
-#: ../../chapters/advanced_topics.rst:259
+#: ../../chapters/advanced_topics.rst:267
 msgid "Copy your music directories to the new computer."
 msgstr "Copier vos répertoires de musique sur le nouvel ordinateur."
 
-#: ../../chapters/advanced_topics.rst:260
+#: ../../chapters/advanced_topics.rst:268
 msgid "Start Mixxx."
 msgstr "Lancer Mixxx"
 
-#: ../../chapters/advanced_topics.rst:261
+#: ../../chapters/advanced_topics.rst:269
 msgid ""
 "If you've put the settings directory in the correct location Mixxx should "
 "not ask you for your music directories and all your settings should be as "
@@ -907,7 +921,7 @@ msgstr ""
 "devrait pas vous demander vos répertoires de musique et tous vos paramètres "
 "devraient être comme avant."
 
-#: ../../chapters/advanced_topics.rst:262
+#: ../../chapters/advanced_topics.rst:270
 msgid ""
 "Go to :menuselection:`Preferences --> Library` and **Relink** each of your "
 "music directories as described in :ref:`configuration-import`."
@@ -916,7 +930,7 @@ msgstr ""
 "chacun de vos répertoires de musique comme décrit dans :ref:`configuration-"
 "import`."
 
-#: ../../chapters/advanced_topics.rst:264
+#: ../../chapters/advanced_topics.rst:272
 msgid ""
 "Now, all your music files should be available, all your playlists, crates "
 "and your session histories be restored. A library rescan is not required. "
@@ -931,11 +945,11 @@ msgstr ""
 "que cela n'inclura évidemment pas vos bibliothèques externes (iTunes, "
 "Traktor etc.), vous devrez les reconfigurer."
 
-#: ../../chapters/advanced_topics.rst:267
+#: ../../chapters/advanced_topics.rst:275
 msgid "Known issues"
 msgstr "Problèmes connus"
 
-#: ../../chapters/advanced_topics.rst:269
+#: ../../chapters/advanced_topics.rst:277
 msgid ""
 "If you migrated to another operating system, operating system version or "
 "another Mixxx version, the used audio decoders may have changed which may "
@@ -954,3 +968,37 @@ msgstr ""
 "décaler les repères pour chaque piste individuellement avec les boutons de "
 "décalage de repère dans la section des commandes d'édition de la grille "
 "rythmique, voir :ref:`interface-waveform`."
+
+#: ../../chapters/advanced_topics.rst:286
+msgid "Migrate your Mixxx library and settings to Flatpak"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:288
+msgid "Since version 2.5 Mixxx is also provided as Flatpak."
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:290
+msgid ""
+"If you do want to switch from a distribution package or Mixxx built from "
+"source code to the Flatpak, a little setup is required. Flatpak stores "
+"Mixxx's database, settings, and custom controller mappings in a different "
+"location than the `~/.mixxx` directory that Mixxx has always used before. "
+"Flatpak uses `~/.var/app/org.mixxx.Mixxx/.mixxx` instead. To copy your "
+"database, settings, and controller mappings into the Flatpak sandbox, run: "
+"::"
+msgstr ""
+
+#: ../../chapters/advanced_topics.rst:296
+msgid ""
+"If your library contains any directories outside of your XDG Music Directory"
+" (`~/Music` unless you have reconfigured this), you will need to relink "
+"these directories to access the files inside of Flatpak's sandbox. Run Mixxx"
+" from the Flatpak and go to :menuselection:`Options --> Preferences --> "
+"Library`. Any directories that have a warning icon with `!` in a yellow "
+"triangle need to be relinked. Select the directory in the preferences window"
+" and click the Relink button, then select the directory in the file picker "
+"dialog. Flatpak will automatically remap the directory under `/run/user` so "
+"Mixxx can read and write your music files from inside the Flatpak sandbox. "
+"Press Ok in the preferences window, then in Mixxx's main window, go to "
+":menuselection:`Library > Rescan Library`."
+msgstr ""
