@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 19:17+0200\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Hercules DJ Console 4-Mx"
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:4
-msgid "The Hercules DJ Console 4-Mx is a USB controller with a built in sound card. It is very similar to the [[Hercules DJ Console RMX]], but with switches for 4 decks."
+msgid "The Hercules DJ Console 4-Mx is a USB controller with a built in sound card. It is very similar to the :ref:`Hercules DJ Console RMX <hercules_dj_console_rmx>`, but with switches for 4 decks."
 msgstr ""
 
 #: ../../hardware/controllers/hercules_dj_console_4_mx.rst:6
