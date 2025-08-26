@@ -39,10 +39,7 @@ Additionally, you might consider getting the following equiment:
 
 .. seealso:: Instructions how to use DJ Controllers that work
    out-of-the-box with Mixxx can be found in the :ref:`Hardware Manuals
-   <hardware-manuals>` section of this manual.  The `Mixxx DJ Hardware Guide
-   <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ on the
-   Mixxx Wiki also lists additional devices, including information about their
-   prices, features, and compatibility with Mixxx.
+   <hardware-manuals>` section of this manual.
 
 .. _hardware-controllers:
 

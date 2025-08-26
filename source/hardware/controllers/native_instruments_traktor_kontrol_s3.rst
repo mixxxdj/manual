@@ -95,12 +95,12 @@ Decks
 ==========================================  ===========================================================================================================================================================================
 Control                                     Description
 ==========================================  ===========================================================================================================================================================================
-Library encoder press                       Load track selected in library to the deck.
+Library encoder press                       Load track selected in library to the deck or open selected tree in menu.
 :hwlabel:`SHIFT` + Library encoder press    Eject track.
 Small play button                           While held, plays the current track in the preview deck.  If you rotate the library encoder while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
 Star button                                 This button is not used.
-List-plus button                            Adds the current track to the Auto DJ list.
-:hwlabel:`VIEW` button                      Move focus of library control between left-hand tree and main list.
+:hwlabel:`≡+` (List-plus button)            Move focus of library control between left-hand tree, search, and main list.
+:hwlabel:`VIEW` button                      Expand / minimize library view.
 ==========================================  ===========================================================================================================================================================================
 
 Transport Mode Buttons

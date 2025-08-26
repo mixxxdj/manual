@@ -2,19 +2,25 @@
 
 .. _vinyl-control:
 
-Vinyl Control
-*************
+Vinyl Control / DVS
+*******************
 
 .. sectionauthor::
    Owen Williams <owilliams@mixxx.org>
    T.Rafreider <trafreider@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Jörg Wartenberg <joerg.wartenberg@mixxx.org>
 
-Vinyl control allows a user to manipulate the playback of a track in Mixxx using
-a real turntable as a controller. In effect, it simulates the sound and feel of
-having your digital music collection on vinyl. Many DJs prefer the tactile feel
-of vinyl, and vinyl control allows that feel to be preserved while retaining the
-benefits of using digital audio.
+Digital Vinyl Control functionality allows users to control the playback speed of a track
+in Mixxx using traditional turntables or DJ controllers that play back recorded media.
+This allows DJs to retain the tactile feel of turntable DJing while leveraging the benefits of digital audio features.
+
+Such a :term:`Digital Vinyl System (DVS) <DVS>` can consist of:
+
+ - **Traditional turntables** with control vinyls, where the time position is encoded in the groove
+ - **CD-based DJ players** with timecode signal stored on CDs (e.g., *Pioneer DJ CDJ-1000*)
+ - **USB-based DJ players** with timecode signal stored on USB sticks (e.g., *Pioneer DJ CDJ-3000*)
+ - DJ devices with internally-generated timecode signal (e.g., *RANE TWELVE MKII* or *Phase*)
 
 How does it work?
 =================
@@ -128,21 +134,21 @@ Supported Timecode media
 
 You can use any of the timecode media supported by Mixxx:
 
-+----------------------------------------+---------------------+
-| Type                                   | Responsiveness      |
-+========================================+=====================+
-| Serato CV02/2.5 Vinyl                  | Very high           |
-+----------------------------------------+---------------------+
-| Serato Control CD 1.0                  | Very high           |
-+----------------------------------------+---------------------+
-| Traktor Scratch MK1 Vinyl              | Very high           |
-+----------------------------------------+---------------------+
-| Traktor Scratch MK2 Vinyl              | Not supported       |
-+----------------------------------------+---------------------+
-| MixVibes DVS V2 Vinyl                  | Very high           |
-+----------------------------------------+---------------------+
-| Pioneer RekordBox DVS                  | Unknown             |
-+----------------------------------------+---------------------+
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| Type                                   | Responsiveness / Signal Quality                | Sizes                  | Media availability                                             |
++========================================+================================================+========================+================================================================+
+| Serato CV02/2.5 Vinyl                  | Very high / Strong Signal                      | 7", 10" and 12" vinyls | All Serato Control Vinyls produced since 2012 are of this type |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| Serato Control CD 1.0                  | Very high                                      | CD, file to download   | Available                                                      |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| Traktor Scratch MK1                    | Limitations at high spinning velocities        | 12" vinyls, CD         | Legacy, produced from 2006 to 2011                             |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| Traktor Scratch MK2                    | **Not supported yet**  (planned for Mixxx 2.7) | 12" vinyls, CD         | Available since October 2011                                   |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| MixVibes DVS V2 Vinyl                  | Very high                                      | 7" and 12" vinyls      | Legacy, no longer available                                    |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
+| Pioneer RekordBox DVS                  | Unknown                                        | 12" vinyls             | Available                                                      |
++----------------------------------------+------------------------------------------------+------------------------+----------------------------------------------------------------+
 
 At the present time, Serato records are recommended if you are looking to buy
 vinyl. If you want to use CDs, you can download a free copy for personal use
