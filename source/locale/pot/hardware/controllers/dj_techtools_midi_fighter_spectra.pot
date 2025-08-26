@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 07:47+0200\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,10 +205,38 @@ msgid "Play sampler"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:88
-msgid "Settings"
+msgid "Layer 4"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:90
+msgid "The fourth layer controls stems."
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+msgid "Row"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+msgid "Mute/unmute stem"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+msgid "Enable/disable quick effects for stem"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+msgid "Unused"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+msgid "Active deck selection"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:103
+msgid "Settings"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:105
 msgid "There are various settings available in the Mixxx preferences dialog."
 msgstr ""
 
@@ -225,7 +253,7 @@ msgid "Default Layer"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
-msgid "EQ, Hotcues, Samplers"
+msgid "EQ, Hotcues, Samplers, Stems"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
