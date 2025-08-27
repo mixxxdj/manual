@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/mixxx-dj-software/teams/7734/en_GB/)\n"
@@ -291,17 +291,14 @@ msgstr ""
 msgid ""
 "Instructions how to use DJ Controllers that work out-of-the-box with Mixxx "
 "can be found in the :ref:`Hardware Manuals <hardware-manuals>` section of "
-"this manual.  The `Mixxx DJ Hardware Guide "
-"<https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_ on the "
-"Mixxx Wiki also lists additional devices, including information about their "
-"prices, features, and compatibility with Mixxx."
+"this manual."
 msgstr ""
 
-#: ../../chapters/hardware.rst:50
+#: ../../chapters/hardware.rst:47
 msgid "Controllers"
 msgstr "Controllers"
 
-#: ../../chapters/hardware.rst:51
+#: ../../chapters/hardware.rst:48
 msgid ""
 "DJ controllers are devices with knobs, faders, buttons, and jog wheels to "
 "control DJ software such as Mixxx. Controllers allow quick access to "
@@ -313,7 +310,7 @@ msgid ""
 "time, which is required for many mixing techniques."
 msgstr ""
 
-#: ../../chapters/hardware.rst:60
+#: ../../chapters/hardware.rst:57
 msgid ""
 "DJ controllers typically do not do any actual audio processing. Instead, "
 "they send signals (typically :term:`MIDI` or :term:`HID` over a USB cable) "
@@ -325,7 +322,7 @@ msgid ""
 "<hardware-mixers>`."
 msgstr ""
 
-#: ../../chapters/hardware.rst:69
+#: ../../chapters/hardware.rst:66
 msgid ""
 "Mixxx can work with any :term:`MIDI` or :term:`HID` :term:`controller` as "
 "long as there is a mapping file to tell Mixxx how to understand the "
@@ -339,16 +336,16 @@ msgid ""
 "documentation>`_ on the wiki."
 msgstr ""
 
-#: ../../chapters/hardware.rst:80
+#: ../../chapters/hardware.rst:77
 msgid ""
 ":ref:`control-midi` describes how to configure Mixxx to use controllers."
 msgstr ""
 
-#: ../../chapters/hardware.rst:86
+#: ../../chapters/hardware.rst:83
 msgid "Audio Interfaces"
 msgstr ""
 
-#: ../../chapters/hardware.rst:87
+#: ../../chapters/hardware.rst:84
 msgid ""
 "An audio interface (also known as a \"sound card\", although few of them are"
 " shaped like cards anymore) is a device that allows a computer to send "
@@ -358,7 +355,7 @@ msgid ""
 "output channels (2 separate stereo pairs)."
 msgstr ""
 
-#: ../../chapters/hardware.rst:94
+#: ../../chapters/hardware.rst:91
 msgid ""
 "The headphone jack on most laptops is not a second audio output. Rather, "
 "plugging headphones into the jack simply redirects the laptop's single "
@@ -370,7 +367,7 @@ msgid ""
 "into laptops and allow your mix to be enjoyed in stereo by your audience."
 msgstr ""
 
-#: ../../chapters/hardware.rst:103
+#: ../../chapters/hardware.rst:100
 msgid ""
 "Unlike some proprietary DJ systems, Mixxx can use any audio interface and "
 "any :term:`MIDI` or :term:`HID` controller that your :term:`OS <operating "
@@ -379,28 +376,28 @@ msgid ""
 "quality audio. Mixxx can also use multiple audio interfaces simultaneously."
 msgstr ""
 
-#: ../../chapters/hardware.rst:110
+#: ../../chapters/hardware.rst:107
 msgid "Audio Interface Considerations"
 msgstr ""
 
-#: ../../chapters/hardware.rst:111
+#: ../../chapters/hardware.rst:108
 msgid ""
 "This section provides background information to help you choose an audio "
 "interface to use with Mixxx."
 msgstr ""
 
-#: ../../chapters/hardware.rst:115
+#: ../../chapters/hardware.rst:112
 msgid "Bit Depth and Sample Rate"
 msgstr ""
 
-#: ../../chapters/hardware.rst:116
+#: ../../chapters/hardware.rst:113
 msgid ""
 "Most music is published with a bit depth of 16 bits at a sample rate of 44.1"
 " kHz because this is all that is needed to store all the detail of music in "
 "digital form."
 msgstr ""
 
-#: ../../chapters/hardware.rst:120
+#: ../../chapters/hardware.rst:117
 msgid ""
 "Bit depth determines the possible dynamic range of the signal. 16 bits is "
 "more than enough for playing back music. While 24 bits is helpful for "
@@ -408,7 +405,7 @@ msgid ""
 "everything-you-thought-you- knew-about-bit-depth-is-probably-wrong/>`_."
 msgstr ""
 
-#: ../../chapters/hardware.rst:126
+#: ../../chapters/hardware.rst:123
 msgid ""
 "Half the sample rate determines the maximum frequency that can be "
 "represented by the signal. Humans generally can't hear frequencies above 20 "
@@ -418,7 +415,7 @@ msgid ""
 " benefit for playback and make your computer work harder."
 msgstr ""
 
-#: ../../chapters/hardware.rst:133
+#: ../../chapters/hardware.rst:130
 msgid ""
 "For a more thorough and technical explanation of why 16 bits at 44.1 kHz is "
 "all that is needed for playback, read `24/192 Music Downloads Are Very Silly"
@@ -427,11 +424,11 @@ msgid ""
 " demo/neil-young.html>`_."
 msgstr ""
 
-#: ../../chapters/hardware.rst:139
+#: ../../chapters/hardware.rst:136
 msgid "Specifications"
 msgstr ""
 
-#: ../../chapters/hardware.rst:140
+#: ../../chapters/hardware.rst:137
 msgid ""
 "When considering specifications, higher dynamic range, higher signal-to-"
 "noise ratio (SNR), higher maximum output level, lower THD+N (Total Harmonic "
@@ -440,11 +437,11 @@ msgid ""
 "audio interfaces tend to not have these specifications published."
 msgstr ""
 
-#: ../../chapters/hardware.rst:147
+#: ../../chapters/hardware.rst:144
 msgid "Connector and Cable Types"
 msgstr ""
 
-#: ../../chapters/hardware.rst:148
+#: ../../chapters/hardware.rst:145
 msgid ""
 "If you are unfamiliar with professional audio equipment, read Digital DJ "
 "Tips' `Essential Guide to Audio Cables for DJs "
@@ -458,7 +455,7 @@ msgid ""
 "separate power sources)."
 msgstr ""
 
-#: ../../chapters/hardware.rst:158
+#: ../../chapters/hardware.rst:155
 msgid ""
 "However, most venues have DJs plug into :ref:`hardware DJ mixers <hardware-"
 "mixers>`, which typically only have RCA inputs (RCA cables cannot be "
@@ -472,11 +469,11 @@ msgid ""
 "<https://web.archive.org/web/20191224231514/rane.com/note110.html>`_."
 msgstr ""
 
-#: ../../chapters/hardware.rst:169
+#: ../../chapters/hardware.rst:166
 msgid "Number of Channels"
 msgstr ""
 
-#: ../../chapters/hardware.rst:170
+#: ../../chapters/hardware.rst:167
 msgid ""
 "Audio interfaces sometimes have multiple connectors for a single channel, "
 "resulting in more connectors than channels. So, not every connector can send"
@@ -489,11 +486,11 @@ msgid ""
 "controls, but they both play the same signal."
 msgstr ""
 
-#: ../../chapters/hardware.rst:181
+#: ../../chapters/hardware.rst:178
 msgid "Vinyl Control and Phono Preamplifiers"
 msgstr ""
 
-#: ../../chapters/hardware.rst:182
+#: ../../chapters/hardware.rst:179
 msgid ""
 "Turntables output low voltage (phono level) signals that need to be "
 "amplified to line level before most audio equipment can work with them. So, "
@@ -511,18 +508,18 @@ msgid ""
 "preamps."
 msgstr ""
 
-#: ../../chapters/hardware.rst:197
+#: ../../chapters/hardware.rst:194
 msgid "Driver Support"
 msgstr ""
 
-#: ../../chapters/hardware.rst:198
+#: ../../chapters/hardware.rst:195
 msgid ""
 "Unlike some proprietary DJ programs, Mixxx works with any audio interface "
 "that is compatible with your operating system — including for timecode vinyl"
 " (DVS) use."
 msgstr ""
 
-#: ../../chapters/hardware.rst:202
+#: ../../chapters/hardware.rst:199
 msgid ""
 "USB Audio Class compliant audio interfaces should work out of the box on all"
 " operating systems supported by Mixxx. This is the case for the integrated "
@@ -530,14 +527,14 @@ msgid ""
 "Class compliant need a driver for each OS."
 msgstr ""
 
-#: ../../chapters/hardware.rst:207
+#: ../../chapters/hardware.rst:204
 msgid ""
 "On Windows, you should install the manufacturer's drivers even for USB class"
 " compliant audio interfaces to be able to use the recommended ASIO sound "
 "API."
 msgstr ""
 
-#: ../../chapters/hardware.rst:211
+#: ../../chapters/hardware.rst:208
 msgid ""
 "If you are considering buying a controller or audio interface, the easiest "
 "way to tell if it is USB class compliant before you buy it is to search for "
@@ -546,11 +543,11 @@ msgid ""
 "download for macOS, the device is USB class compliant."
 msgstr ""
 
-#: ../../chapters/hardware.rst:220
+#: ../../chapters/hardware.rst:217
 msgid "Mixers"
 msgstr ""
 
-#: ../../chapters/hardware.rst:221
+#: ../../chapters/hardware.rst:218
 msgid ""
 "Mixers are devices that combine audio signals. DJ mixers are different from "
 "live and studio mixers because they have multiple stereo channels with phono"
@@ -559,7 +556,7 @@ msgid ""
 "without a hardware mixer."
 msgstr ""
 
-#: ../../chapters/hardware.rst:227
+#: ../../chapters/hardware.rst:224
 msgid ""
 "Using Mixxx with a DJ mixer requires an audio interface with at least 4 mono"
 " outputs (2 stereo pairs) to send Mixxx's decks to the mixer's stereo "
@@ -569,7 +566,7 @@ msgid ""
 "interface."
 msgstr ""
 
-#: ../../chapters/hardware.rst:233
+#: ../../chapters/hardware.rst:230
 msgid ""
 "Often DJs who use DJ software with internal mixing send their :term:`main "
 "output` to a hardware mixer. This can be helpful to send the mixed signal to"
@@ -578,7 +575,7 @@ msgid ""
 "transitions between DJs."
 msgstr ""
 
-#: ../../chapters/hardware.rst:239
+#: ../../chapters/hardware.rst:236
 msgid ""
 "However, using an external mixer with internal mixing is not necessary and "
 "reduces the sound quality. Each piece of equipment an audio signal passes "
@@ -589,7 +586,7 @@ msgid ""
 " Mixxx's :guilabel:`Booth` output."
 msgstr ""
 
-#: ../../chapters/hardware.rst:247
+#: ../../chapters/hardware.rst:244
 msgid ""
 "Many people confuse \"analog mixers\" and \"hardware mixers\", but these are"
 " not the same. Many hardware mixers process audio digitally with specialized"
@@ -597,15 +594,15 @@ msgid ""
 "and desktop computers."
 msgstr ""
 
-#: ../../chapters/hardware.rst:252
+#: ../../chapters/hardware.rst:249
 msgid ":ref:`microphones-record-broadcast-external-mixer`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:257
+#: ../../chapters/hardware.rst:254
 msgid "Turntables"
 msgstr ""
 
-#: ../../chapters/hardware.rst:258
+#: ../../chapters/hardware.rst:255
 msgid ""
 "Turntables are mechanical devices that play music recordings cut into vinyl "
 "phonograph records. Before software like Mixxx was available, the art of "
@@ -615,15 +612,15 @@ msgid ""
 "record."
 msgstr ""
 
-#: ../../chapters/hardware.rst:264
+#: ../../chapters/hardware.rst:261
 msgid ":ref:`vinyl-control`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:267
+#: ../../chapters/hardware.rst:264
 msgid "CDJs"
 msgstr ""
 
-#: ../../chapters/hardware.rst:268
+#: ../../chapters/hardware.rst:265
 msgid ""
 "CDJs are devices that play digital audio files and have controls from "
 "manipulating the playback of the audio. Originally CDJs played audio CDs, "
@@ -632,26 +629,26 @@ msgid ""
 ":ref:`controller <hardware-controllers>` for Mixxx."
 msgstr ""
 
-#: ../../chapters/hardware.rst:275
+#: ../../chapters/hardware.rst:272
 msgid "Microphones"
 msgstr ""
 
-#: ../../chapters/hardware.rst:276
+#: ../../chapters/hardware.rst:273
 msgid ""
 "Microphones convert changes in sound pressure in air to changes in voltage "
 "(an analog audio signal). Mixxx can work with any microphone that can be "
 "plugged into your :ref:`audio interface <hardware-audio-interfaces>`."
 msgstr ""
 
-#: ../../chapters/hardware.rst:280
+#: ../../chapters/hardware.rst:277
 msgid ":ref:`microphones`"
 msgstr ""
 
-#: ../../chapters/hardware.rst:285
+#: ../../chapters/hardware.rst:282
 msgid "Headphones"
 msgstr ""
 
-#: ../../chapters/hardware.rst:287
+#: ../../chapters/hardware.rst:284
 msgid ""
 "Being able to listen to what you will play next in headphones before your "
 "audience hears on the main speakers or your broadcast stream is an essential"
@@ -665,7 +662,7 @@ msgid ""
 "headphone output in the other ear."
 msgstr ""
 
-#: ../../chapters/hardware.rst:298
+#: ../../chapters/hardware.rst:295
 msgid ""
 "When shopping for headphones, consider how well they isolate sound and their"
 " durability. The most frequent places that headphones break are the cable "
@@ -677,14 +674,14 @@ msgid ""
 "with a closed design block out a lot of sound simply by being closed."
 msgstr ""
 
-#: ../../chapters/hardware.rst:307
+#: ../../chapters/hardware.rst:304
 msgid ""
 "Whether to get on-ear or over-ear headphones is a matter of personal "
 "preference. Everyone's head is different, so headphones that are comfortable"
 " for a friend or a reviewer may not be comfortable for you."
 msgstr ""
 
-#: ../../chapters/hardware.rst:311
+#: ../../chapters/hardware.rst:308
 msgid ""
 "In-ear monitors (IEMs) isolate sound better than headphones but are more "
 "expensive. They usually cost more than double the price of good DJ "
@@ -693,11 +690,11 @@ msgid ""
 "hearing."
 msgstr ""
 
-#: ../../chapters/hardware.rst:319
+#: ../../chapters/hardware.rst:316
 msgid "Splitter Cables"
 msgstr ""
 
-#: ../../chapters/hardware.rst:320
+#: ../../chapters/hardware.rst:317
 msgid ""
 "DJ splitter cables are the cheapest way to get two separate sound outputs "
 "from your computer.  These plug into the onboard audio interface built into "
@@ -706,7 +703,7 @@ msgid ""
 "lose the stereo effect of hearing different sounds arranged in space."
 msgstr ""
 
-#: ../../chapters/hardware.rst:326
+#: ../../chapters/hardware.rst:323
 msgid ""
 "Devices marketed as \"headphone splitter\" instead of DJ splitters duplicate"
 " one stereo signal in two jacks.  These cannot be used for headphone cueing."

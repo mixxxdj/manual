@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 07:47+0200\n"
-"PO-Revision-Date: 2025-08-25 05:51+0000\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"PO-Revision-Date: 2025-08-26 21:28+0000\n"
 "Language-Team: Italian (https://app.transifex.com/mixxx-dj-software/teams/7734/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid ""
 "The controller also has six additional buttons on the side. These side "
 "buttons are used for deck and layer selection, though currently only the "
-"first layer is mapped."
+"first three layers are mapped."
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
@@ -370,10 +370,208 @@ msgid "12"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:109
-msgid "Settings"
+msgid "Layer 3"
 msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:111
+msgid ""
+"Layer 3 controls stem tracks. When a stem track is loaded the first (or "
+"last, depending on the deck) column of indicator LEDs illuminate in the "
+"color of the stem. The below table only includes the left hand side of the "
+"controller (decks 1 and 3), the right hand side (decks 2 and 4) is identical"
+" but mirrored (ie. the outside column is the stem volume row and the inside "
+"column is the FX control)."
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Deck 1, 3 toggle"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Deck 2, 4 toggle"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "1 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 mute"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "1 (shift, press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 reset default volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 quick FX super knob"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "2 (shift)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 quick FX select"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "2 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 quick FX super knob reset default"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 1 quick FX super knob kill switch"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "5 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 mute"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "5 (shift, press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 reset default volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 quick FX super knob"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "6 (shift)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 quick FX select"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "6 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 quick FX super knob reset default"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 2 quick FX super knob kill switch"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 mute"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "9 (shift, press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 reset default volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 quick FX super knob"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "10 (shift)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 quick FX select"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "10 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 quick FX super knob reset default"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 3 quick FX super knob kill switch"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 5 volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "13 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 mute"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "13 (shift, press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 reset default volume"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 quick FX super knob"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "14 (shift)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 quick FX select"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "14 (press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 quick FX super knob reset default"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "14 (shift, press)"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:1
+msgid "Stem 4 quick FX super knob kill switch"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:157
+msgid "Settings"
+msgstr ""
+
+#: ../../hardware/controllers/dj_techtools_midi_fighter_twister.rst:159
 msgid ""
 "On versions of Mixxx greater than 2.5.0 settings can be edited in the "
 "preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Burmese (Myanmar) (https://app.transifex.com/mixxx-dj-software/teams/7734/my_MM/)\n"
 "MIME-Version: 1.0\n"
@@ -440,7 +440,7 @@ msgstr ""
 #: ../../chapters/controlling_mixxx.rst:138
 msgid ""
 "**Mixxx Certified Mappings**: These mappings are verified by the Mixxx "
-"Development Team."
+"Development Team and are distributed as part of Mixxx itself."
 msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:140
@@ -453,29 +453,38 @@ msgstr ""
 
 #: ../../chapters/controlling_mixxx.rst:145
 msgid ""
-"If you run into issues with any of these mappings, please file a :term:`bug "
-"report` on our `Bug Tracker`_ or tell us about it on our mailing list, "
-"forums, or :term:`IRC` channel. Device support varies for each supported "
-":term:`OS <operating system>`, so make sure to consult the documentation of "
-"the device."
+"If you run into issues with Mixxx Certified Mappings, please file a "
+":term:`bug report` on our `Bug Tracker`_."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:150
+#: ../../chapters/controlling_mixxx.rst:148
+msgid ""
+"If you run into issues with Community Supported Mappings please tell the "
+"community about it on our `Controller mapping forum`_."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:151
+msgid ""
+"Device support varies for each supported :term:`OS <operating system>`, so "
+"make sure to consult the documentation of the device."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:154
 msgid "Additional mappings are available in the `Controller mapping forum`_."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:152
+#: ../../chapters/controlling_mixxx.rst:156
 msgid ""
-"Before purchasing a controller to use with Mixxx, consult our `Hardware "
-"Compatibility wiki page`_. It contains the most up-to-date information about"
-" which controllers work with Mixxx and the details of each."
+"Before purchasing a controller to use with Mixxx, check our :ref:`Controller"
+" List <hardware-manuals>`, that contains all Mixxx Certified Mappings, that "
+"are bundled with Mixxx."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:162
+#: ../../chapters/controlling_mixxx.rst:164
 msgid "Installing a mapping from the forum"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:163
+#: ../../chapters/controlling_mixxx.rst:165
 msgid ""
 "To use a controller mapping that did not come bundled with Mixxx, place the "
 "controller mapping in your User Mappings folder. To open it , go to "
@@ -485,7 +494,7 @@ msgid ""
 "be found in :ref:`appendix-settings-files`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:167
+#: ../../chapters/controlling_mixxx.rst:169
 msgid ""
 "If the mapping was posted as a :file:`.zip` file, first extract the "
 ":file:`.zip` file by right clicking on it in your file browser and selecting"
@@ -495,26 +504,26 @@ msgid ""
 ":ref:`load the mapping <control-load-mapping>`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:174
+#: ../../chapters/controlling_mixxx.rst:176
 msgid "Map your own controller"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:176
+#: ../../chapters/controlling_mixxx.rst:178
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:180
+#: ../../chapters/controlling_mixxx.rst:182
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:185
+#: ../../chapters/controlling_mixxx.rst:187
 msgid "Using Timecode Vinyl Records and CDs"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:187
+#: ../../chapters/controlling_mixxx.rst:189
 msgid ""
 ":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
 "playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
@@ -524,6 +533,6 @@ msgid ""
 "of using digital audio."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:193
+#: ../../chapters/controlling_mixxx.rst:195
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr ""
