@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:2
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:4
 msgid "Hercules DJ Console RMX"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:4
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:6
 msgid ""
 "`Manufacturer’s product page "
 "<https://support.hercules.com/en/product/djconsolermx-en/>`__"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:6
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:8
 msgid ""
 "The Hercules DJ Console RMX is a USB controller with a built in sound card. "
 "It is a class compliant USB Audio and HID device. Older versions of Mixxx "
@@ -38,11 +38,11 @@ msgid ""
 "already. On Windows (and Mac OS X?) the driver is still recommended."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:18
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:20
 msgid "Audio"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:20
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:22
 msgid ""
 "The sound card has 4 inputs and 4 outputs (2 stereo in/out). The inputs are "
 "switchable between line-in and phono, so you can connect both CD players and"
@@ -51,126 +51,126 @@ msgid ""
 "coded vinyls, for Vinyl Control, should work okay with lower input signal."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:28
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:30
 msgid "MIDI Mappings"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:31
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:33
 msgid "Regular mapping"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:34
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:168
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:36
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:170
 msgid "Global controls"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:37
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:76
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:171
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:191
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:39
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:78
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:173
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:193
 msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:37
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:76
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:171
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:191
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:39
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:78
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:173
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:193
 msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:39
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:41
 msgid "Cross-Fader"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:39
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:41
 msgid "Fades between left and right deck"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:42
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:44
 msgid "Vol. Main"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:42
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:44
 msgid "Controls output volume of your mix"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:45
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:47
 msgid "Balance"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:45
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:47
 msgid "Controls balance between left and right audio channel of your mix"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:49
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:173
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:51
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:175
 msgid "Scratch"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:49
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:51
 msgid ""
 "Toggles scratch on and off which changes the function of the deck jog wheels"
 " **Effect Shift** when held down shifts function of each decks Bass, Medium,"
 " Treble to control effect parameters"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:57
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:59
 msgid "Up / Down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:57
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:59
 msgid ""
 "Moves up and down in the library track list When held down changes the jog "
 "wheels behaviour to scroll the library list"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:63
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:65
 msgid "Left / Right"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:63
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:65
 msgid "Moves up and down between the library sections"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:66
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:68
 msgid "Monitor"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:66
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:68
 msgid ""
 "Fades monitor output (headphones) between cue selected tracks output and the"
 " main mix"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:73
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:188
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:75
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:190
 msgid "Deck / Channel specific controls"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:78
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:80
 msgid "Play/Pause"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:78
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:80
 msgid ""
 "Starts playing a loaded track if stopped. If track is currently playing it "
 "stops the track"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:82
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:193
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:84
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:195
 msgid "Stop"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:82
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:84
 msgid "Stops a currently playing track and moves to the beginning."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:85
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:87
 msgid "Cue"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:85
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:87
 msgid ""
 "Sets the cue point if a track is stopped and not at the current cue point "
 "Stops track and returns to the current cue point if a track is playing. "
@@ -178,11 +178,11 @@ msgid ""
 "held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:95
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:97
 msgid "Jog wheel"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:95
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:97
 msgid ""
 "Seeks forwards and backwards in a stopped track Temporarily changes the "
 "playback speed for playing tracks Scratches both stopped and playing tracks "
@@ -190,136 +190,136 @@ msgid ""
 "Down is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:106
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:197
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:108
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:199
 msgid "Forward / Backward"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:106
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:108
 msgid "Seeks at high speed in a track"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:108
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:110
 msgid "Load Deck A/B"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:108
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:110
 msgid ""
 "Loads the currently selected track in the track list to the related deck"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:112
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:114
 msgid "Cue Select"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:112
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:114
 msgid "Toggles this decks output to the monitor (headphones) on and off"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:115
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:117
 msgid "Pitch"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:115
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:117
 msgid "Adjusts playback speed +/-10% (can be adjusted in the preferences)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:119
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:121
 msgid "Sync"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:119
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:121
 msgid "Automatically sets pitch so the BPM of the other deck is matched"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:122
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:124
 msgid "Pitch Reset"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:122
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:124
 msgid "Resets the pitch to the tracks normal playback speed"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:125
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:201
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:127
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:203
 msgid "Bass"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:125
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:127
 msgid ""
 "Adjusts the volume of a channels low frequency content (ex. bass drum) "
 "Adjusts flanger period when Effect Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:131
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:210
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:133
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:212
 msgid "Medium"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:131
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:133
 msgid ""
 "Adjusts the volume of a channels mid frequency content (ex. vocals) Adjusts "
 "flanger delay when Effect Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:137
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:219
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:139
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:221
 msgid "Treble"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:137
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:139
 msgid ""
 "Adjusts the volume of a channels high frequency content (ex. hi-hats) "
 "Adjusts flanger depth when Effect Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:143
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:145
 msgid "Kill (Bass / Medium / Treble)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:143
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:145
 msgid "Toggles output of a frequency band on and off"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:146
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:148
 msgid "Gain"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:146
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:148
 msgid "Controls a decks input volume"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:148
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:150
 msgid "Vol. Deck A/B"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:148
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:150
 msgid "Controls a decks output volume"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:150
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:228
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:152
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:230
 msgid "Keypad 1"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:150
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:152
 msgid "Toggles a channels flanger effect on and off"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:153
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:243
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:155
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:245
 msgid "Keypad 4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:153
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:155
 msgid "Reveses playback direction when held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:158
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:160
 msgid "Advanced mapping"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:160
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:162
 msgid ""
 "The advanced mapping works similar to the normal RMX mapping, but also "
 "supports loops and hot cues. This mapping was added to not brake the "
@@ -327,7 +327,7 @@ msgid ""
 "and advanced mappings are described here."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:173
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:175
 msgid ""
 "Toggles scratch on and off which changes the function of the deck jog wheels"
 " **Effect Shift** when held down: - Shifts function of each decks Bass, "
@@ -335,83 +335,83 @@ msgid ""
 "functions to effects. Currently flanger and reverse"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:193
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:195
 msgid ""
 "**Deck shift** changes behaviour of other controls related to this deck when"
 " held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:197
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:199
 msgid ""
 "Adjusts position of loop in/out and hot cues when a loop / hot cue button is"
 " held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:201
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:203
 msgid ""
 "Adjusts the volume of a channels low frequency content (ex. bass drum) Soft "
 "takeover when Deck Shift is held down, lets you move knob in position before"
 " adjusting Adjusts flanger period when Scratch is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:210
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:212
 msgid ""
 "Adjusts the volume of a channels mid frequency content (ex. vocals) Soft "
 "takeover when Deck Shift is held down, lets you move knob in position before"
 " adjusting Adjusts flanger delay when Scratch is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:219
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:221
 msgid ""
 "Adjusts the volume of a channels high frequency content (ex. hi-hats) Soft "
 "takeover when Deck Shift is held down, lets you move knob in position before"
 " adjusting Adjusts flanger depth when Scratch is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:228
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:230
 msgid ""
 "Go to hotcue 1 Set hotcue 1 when Deck Shift is held down Toggles a channels "
 "flanger effect on and off when Effect Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:235
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:237
 msgid "Keypad 2"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:235
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:237
 msgid "Go to hotcue 2 Set hotcue 2 when Deck Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:239
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:241
 msgid "Keypad 3"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:239
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:241
 msgid "Go to hotcue 3 Set hotcue 3 when Deck Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:243
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:245
 msgid ""
 "Hold down to adjust loop in position with Forward / Backward Set loop in "
 "when Deck Shift is held down Reveses playback direction when held down if "
 "Effect Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:251
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:253
 msgid "Keypad 5"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:251
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:253
 msgid ""
 "Hold down to adjust loop out position with Forward / Backward Set loop out "
 "when Deck Shift is held down"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:256
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:258
 msgid "Keypad 6"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_dj_console_rmx.rst:256
+#: ../../hardware/controllers/hercules_dj_console_rmx.rst:258
 msgid ""
 "Re-loop / exit turns looping on and off Half loop when Deck Shift is held "
 "down"

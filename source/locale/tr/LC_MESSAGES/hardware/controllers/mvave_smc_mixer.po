@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2025-04-17 18:21+0000\n"
 "Language-Team: Turkish (https://app.transifex.com/mixxx-dj-software/teams/7734/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -178,11 +178,11 @@ msgstr ""
 msgid "Adjust volume level"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:49
+#: ../../hardware/controllers/mvave_smc_mixer.rst:47
 msgid "Beat Grid"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:51
+#: ../../hardware/controllers/mvave_smc_mixer.rst:49
 msgid ""
 "The right hand side of the controller is mapped to controls relating to the "
 "tempo and beat grid. Each set of controls is mapped to one deck and follows "
@@ -244,18 +244,18 @@ msgstr ""
 msgid "Adjust track tempo"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:70
+#: ../../hardware/controllers/mvave_smc_mixer.rst:68
 msgid "Transports"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:72
+#: ../../hardware/controllers/mvave_smc_mixer.rst:70
 msgid ""
 "The transport buttons along the bottom affect only the currently selected "
 "deck, with the exception of \"record\" which toggles recording of the mix "
 "and the navigation buttons which always affect the library view."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:76
+#: ../../hardware/controllers/mvave_smc_mixer.rst:74
 msgid ""
 "Currently Mixxx must be focused for the library navigation buttons to have "
 "any effect. This is an open issue that will be addressed in a future version"
@@ -447,17 +447,17 @@ msgstr ""
 msgid "Load track to first available deck"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:104
+#: ../../hardware/controllers/mvave_smc_mixer.rst:102
 msgid ""
 "The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
 " See :ref:`interface-cue-modes` for more info."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:108
+#: ../../hardware/controllers/mvave_smc_mixer.rst:106
 msgid "Knobs"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:110
+#: ../../hardware/controllers/mvave_smc_mixer.rst:108
 msgid ""
 "The four right most rotary encoders are not mapped to individual decks. "
 "Instead they control global mixer values."
@@ -497,7 +497,7 @@ msgid ""
 "headphones, mixing between the cue output and the main mix output"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smc_mixer.rst:122
+#: ../../hardware/controllers/mvave_smc_mixer.rst:120
 msgid ""
 "Bluetooth is not as reliable as a wired connection for live performances, "
 "and may result in less smooth fader operation and higher latencies."

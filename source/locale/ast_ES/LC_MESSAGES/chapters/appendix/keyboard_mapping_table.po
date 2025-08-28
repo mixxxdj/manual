@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Asturian (Spain) (https://app.transifex.com/mixxx-dj-software/teams/7734/ast_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -225,703 +225,700 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:13
-msgid "**Mixer**"
+msgid "Mixer"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:15
-msgid "Crossfade Left"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:16
+msgid "Left"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:15
+#: ../../chapters/appendix/keyboard_mapping_table.rst:16
+msgid "Right"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:18
+msgid "Crossfade"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:18
 msgid ":kbd:`G`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:17
-msgid "Crossfade Right"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:17
+#: ../../chapters/appendix/keyboard_mapping_table.rst:18
 msgid ":kbd:`H`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:19
-msgid "Small Crossfade Left"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:20
+msgid "Small Crossfade"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:19
+#: ../../chapters/appendix/keyboard_mapping_table.rst:20
 msgid ":kbd:`Shift` + :kbd:`G`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:21
-msgid "Small Crossfade Right"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:21
+#: ../../chapters/appendix/keyboard_mapping_table.rst:20
 msgid ":kbd:`Shift` + :kbd:`H`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:23
+#: ../../chapters/appendix/keyboard_mapping_table.rst:22
 msgid "Microphone Talkover"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:23
+#: ../../chapters/appendix/keyboard_mapping_table.rst:22
 msgid ":kbd:`\\``"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:25
-#: ../../chapters/appendix/keyboard_mapping_table.rst:35
-#: ../../chapters/appendix/keyboard_mapping_table.rst:71
-#: ../../chapters/appendix/keyboard_mapping_table.rst:109
+#: ../../chapters/appendix/keyboard_mapping_table.rst:24
+#: ../../chapters/appendix/keyboard_mapping_table.rst:37
+#: ../../chapters/appendix/keyboard_mapping_table.rst:76
+#: ../../chapters/appendix/keyboard_mapping_table.rst:117
 msgid "**Deck 1**"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:25
-#: ../../chapters/appendix/keyboard_mapping_table.rst:35
-#: ../../chapters/appendix/keyboard_mapping_table.rst:71
-#: ../../chapters/appendix/keyboard_mapping_table.rst:109
+#: ../../chapters/appendix/keyboard_mapping_table.rst:24
+#: ../../chapters/appendix/keyboard_mapping_table.rst:37
+#: ../../chapters/appendix/keyboard_mapping_table.rst:76
+#: ../../chapters/appendix/keyboard_mapping_table.rst:117
 msgid "**Deck 2**"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:27
-msgid "Activate/Disable Effects Unit"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:26
+msgid "Activate/Disable Quick Effect"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:27
+#: ../../chapters/appendix/keyboard_mapping_table.rst:26
 msgid ":kbd:`5`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:27
+#: ../../chapters/appendix/keyboard_mapping_table.rst:26
 msgid ":kbd:`0`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+#: ../../chapters/appendix/keyboard_mapping_table.rst:28
 msgid "Headphone Cue (Pre-fader listen)"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+#: ../../chapters/appendix/keyboard_mapping_table.rst:28
 msgid ":kbd:`T`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:29
+#: ../../chapters/appendix/keyboard_mapping_table.rst:28
 msgid ":kbd:`Y`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+#: ../../chapters/appendix/keyboard_mapping_table.rst:30
 msgid "Bass Kill"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+#: ../../chapters/appendix/keyboard_mapping_table.rst:30
 msgid ":kbd:`B`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:31
+#: ../../chapters/appendix/keyboard_mapping_table.rst:30
 msgid ":kbd:`N`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:35
-msgid "**Playback**"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:37
-#: ../../chapters/appendix/keyboard_mapping_table.rst:125
-msgid "Load selected track to deck"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:37
-msgid ":kbd:`Shift` + :kbd:`←`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:37
-msgid ":kbd:`Shift` + :kbd:`→`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:39
-msgid "Unload track from deck"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:39
-msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`←`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:39
-msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`→`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+#: ../../chapters/appendix/keyboard_mapping_table.rst:34
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
 msgid "Playback"
 msgstr ""
 
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+#: ../../chapters/appendix/keyboard_mapping_table.rst:134
+msgid "Load selected track to deck"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+msgid ":kbd:`Shift` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:39
+msgid ":kbd:`Shift` + :kbd:`→`"
+msgstr ""
+
 #: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid "Unload track from deck"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`→`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
 msgid ":kbd:`D`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:41
+#: ../../chapters/appendix/keyboard_mapping_table.rst:43
 msgid ":kbd:`L`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:43
-#: ../../chapters/appendix/keyboard_mapping_table.rst:151
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+#: ../../chapters/appendix/keyboard_mapping_table.rst:161
 msgid "Seek Backwards"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:43
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
 msgid ":kbd:`A`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:43
+#: ../../chapters/appendix/keyboard_mapping_table.rst:45
 msgid ":kbd:`J`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
 msgid "Reverse Playback"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
 msgid ":kbd:`Shift` + :kbd:`A`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:45
+#: ../../chapters/appendix/keyboard_mapping_table.rst:47
 msgid ":kbd:`Shift` + :kbd:`J`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:47
-#: ../../chapters/appendix/keyboard_mapping_table.rst:153
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+#: ../../chapters/appendix/keyboard_mapping_table.rst:163
 msgid "Seek Forwards"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:47
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
 msgid ":kbd:`S`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:47
+#: ../../chapters/appendix/keyboard_mapping_table.rst:49
 msgid ":kbd:`K`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
 msgid "Tempo Adjust Down"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
 msgid ":kbd:`F1`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:49
+#: ../../chapters/appendix/keyboard_mapping_table.rst:51
 msgid ":kbd:`F5`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid "Tempo Adjust Up"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid ":kbd:`F2`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:51
+#: ../../chapters/appendix/keyboard_mapping_table.rst:53
 msgid ":kbd:`F6`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid "Small Tempo Adjust Down"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid ":kbd:`Shift` + :kbd:`F1`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:53
+#: ../../chapters/appendix/keyboard_mapping_table.rst:55
 msgid ":kbd:`Shift` + :kbd:`F5`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
 msgid "Small Tempo Adjust Up"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
 msgid ":kbd:`Shift` + :kbd:`F2`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:55
+#: ../../chapters/appendix/keyboard_mapping_table.rst:57
 msgid ":kbd:`Shift` + :kbd:`F6`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
 msgid "Temporary Tempo Adjust Down"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
 msgid ":kbd:`F3`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:57
+#: ../../chapters/appendix/keyboard_mapping_table.rst:59
 msgid ":kbd:`F7`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
 msgid "Temporary Tempo Adjust Up"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
 msgid ":kbd:`F4`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:59
+#: ../../chapters/appendix/keyboard_mapping_table.rst:61
 msgid ":kbd:`F8`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
 msgid "Small Temporary Tempo Adjust Down"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
 msgid ":kbd:`Shift` + :kbd:`F3`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:61
+#: ../../chapters/appendix/keyboard_mapping_table.rst:63
 msgid ":kbd:`Shift` + :kbd:`F7`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
 msgid "Small Temporary Tempo Adjust Up"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
 msgid ":kbd:`Shift` + :kbd:`F4`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:63
+#: ../../chapters/appendix/keyboard_mapping_table.rst:65
 msgid ":kbd:`Shift` + :kbd:`F8`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
 msgid "Tempo (BPM) Sync"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
 msgid ":kbd:`1`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:65
+#: ../../chapters/appendix/keyboard_mapping_table.rst:67
 msgid ":kbd:`6`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+#: ../../chapters/appendix/keyboard_mapping_table.rst:69
 msgid "BPM Tap Tempo Adjust"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+#: ../../chapters/appendix/keyboard_mapping_table.rst:69
 msgid ":kbd:`Shift` + :kbd:`!`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:67
+#: ../../chapters/appendix/keyboard_mapping_table.rst:69
 msgid ":kbd:`Shift` + :kbd:`⌃`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:71
-msgid "**Cue and Loop**"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+msgid "Cues and Loop"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+#: ../../chapters/appendix/keyboard_mapping_table.rst:78
 msgid "Set Cuepoint"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+#: ../../chapters/appendix/keyboard_mapping_table.rst:78
 msgid ":kbd:`Shift` + :kbd:`D`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:73
+#: ../../chapters/appendix/keyboard_mapping_table.rst:78
 msgid ":kbd:`Shift` + :kbd:`L`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+#: ../../chapters/appendix/keyboard_mapping_table.rst:80
 msgid "Cue"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+#: ../../chapters/appendix/keyboard_mapping_table.rst:80
 msgid ":kbd:`F`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:75
+#: ../../chapters/appendix/keyboard_mapping_table.rst:80
 msgid ":kbd:`;`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+#: ../../chapters/appendix/keyboard_mapping_table.rst:82
 msgid "Cue Go-to-and-stop"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+#: ../../chapters/appendix/keyboard_mapping_table.rst:82
 msgid ":kbd:`Shift` + :kbd:`F`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:77
+#: ../../chapters/appendix/keyboard_mapping_table.rst:82
 msgid ":kbd:`Shift` + :kbd:`:`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+#: ../../chapters/appendix/keyboard_mapping_table.rst:84
 msgid "Activate 4 Beat Loop"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+#: ../../chapters/appendix/keyboard_mapping_table.rst:84
 msgid ":kbd:`Q`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:79
+#: ../../chapters/appendix/keyboard_mapping_table.rst:84
 msgid ":kbd:`U`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+#: ../../chapters/appendix/keyboard_mapping_table.rst:86
 msgid "Halve Beat Loop Size"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+#: ../../chapters/appendix/keyboard_mapping_table.rst:86
 msgid ":kbd:`W`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:81
+#: ../../chapters/appendix/keyboard_mapping_table.rst:86
 msgid ":kbd:`I`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+#: ../../chapters/appendix/keyboard_mapping_table.rst:88
 msgid "Double Beat Loop Size"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+#: ../../chapters/appendix/keyboard_mapping_table.rst:88
 msgid ":kbd:`E`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:83
+#: ../../chapters/appendix/keyboard_mapping_table.rst:88
 msgid ":kbd:`O`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+#: ../../chapters/appendix/keyboard_mapping_table.rst:90
 msgid "Set Loop In Point"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+#: ../../chapters/appendix/keyboard_mapping_table.rst:90
 msgid ":kbd:`2`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:85
+#: ../../chapters/appendix/keyboard_mapping_table.rst:90
 msgid ":kbd:`7`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+#: ../../chapters/appendix/keyboard_mapping_table.rst:92
 msgid "Set Loop Out Point (Activates Loop)"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+#: ../../chapters/appendix/keyboard_mapping_table.rst:92
 msgid ":kbd:`3`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:87
+#: ../../chapters/appendix/keyboard_mapping_table.rst:92
 msgid ":kbd:`8`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+#: ../../chapters/appendix/keyboard_mapping_table.rst:94
 msgid "Toggle Loop On/Off"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+#: ../../chapters/appendix/keyboard_mapping_table.rst:94
 msgid ":kbd:`4`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:89
+#: ../../chapters/appendix/keyboard_mapping_table.rst:94
 msgid ":kbd:`9`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+#: ../../chapters/appendix/keyboard_mapping_table.rst:96
 msgid "Set Hot cue 1"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+#: ../../chapters/appendix/keyboard_mapping_table.rst:96
 msgid ":kbd:`Z`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:91
+#: ../../chapters/appendix/keyboard_mapping_table.rst:96
 msgid ":kbd:`M`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+#: ../../chapters/appendix/keyboard_mapping_table.rst:98
 msgid "Set Hot cue 2"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+#: ../../chapters/appendix/keyboard_mapping_table.rst:98
 msgid ":kbd:`X`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:93
+#: ../../chapters/appendix/keyboard_mapping_table.rst:98
 msgid ":kbd:`,`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+#: ../../chapters/appendix/keyboard_mapping_table.rst:100
 msgid "Set Hot cue 3"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+#: ../../chapters/appendix/keyboard_mapping_table.rst:100
 msgid ":kbd:`C`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:95
+#: ../../chapters/appendix/keyboard_mapping_table.rst:100
 msgid ":kbd:`.`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+#: ../../chapters/appendix/keyboard_mapping_table.rst:102
 msgid "Set Hot cue 4"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+#: ../../chapters/appendix/keyboard_mapping_table.rst:102
 msgid ":kbd:`V`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:97
+#: ../../chapters/appendix/keyboard_mapping_table.rst:102
 msgid ":kbd:`/`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+#: ../../chapters/appendix/keyboard_mapping_table.rst:104
 msgid "Clear Hot cue 1"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+#: ../../chapters/appendix/keyboard_mapping_table.rst:104
 msgid ":kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:99
+#: ../../chapters/appendix/keyboard_mapping_table.rst:104
 msgid ":kbd:`Shift` + :kbd:`M`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+#: ../../chapters/appendix/keyboard_mapping_table.rst:106
 msgid "Clear Hot cue 2"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+#: ../../chapters/appendix/keyboard_mapping_table.rst:106
 msgid ":kbd:`Shift` + :kbd:`X`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:101
+#: ../../chapters/appendix/keyboard_mapping_table.rst:106
 msgid ":kbd:`Shift` + :kbd:`<`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+#: ../../chapters/appendix/keyboard_mapping_table.rst:108
 msgid "Clear Hot cue 3"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+#: ../../chapters/appendix/keyboard_mapping_table.rst:108
 msgid ":kbd:`Shift` + :kbd:`C`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:103
+#: ../../chapters/appendix/keyboard_mapping_table.rst:108
 msgid ":kbd:`Shift` + :kbd:`>`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+#: ../../chapters/appendix/keyboard_mapping_table.rst:110
 msgid "Clear Hot cue 4"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+#: ../../chapters/appendix/keyboard_mapping_table.rst:110
 msgid ":kbd:`Shift` + :kbd:`V`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:105
+#: ../../chapters/appendix/keyboard_mapping_table.rst:110
 msgid ":kbd:`Shift` + :kbd:`?`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:109
-msgid "**Vinyl Control**"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:114
+msgid "Vinyl Control"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+#: ../../chapters/appendix/keyboard_mapping_table.rst:119
 msgid "Passthrough"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+#: ../../chapters/appendix/keyboard_mapping_table.rst:119
 msgid ":kbd:`Ctrl` + :kbd:`J`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:111
+#: ../../chapters/appendix/keyboard_mapping_table.rst:119
 msgid ":kbd:`Ctrl` + :kbd:`K`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+#: ../../chapters/appendix/keyboard_mapping_table.rst:121
 msgid "Vinylcontrol Mode"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+#: ../../chapters/appendix/keyboard_mapping_table.rst:121
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Y`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:113
+#: ../../chapters/appendix/keyboard_mapping_table.rst:121
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`U`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+#: ../../chapters/appendix/keyboard_mapping_table.rst:123
 msgid "Vinylcontrol Cueing"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+#: ../../chapters/appendix/keyboard_mapping_table.rst:123
 msgid ":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`Y`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:115
+#: ../../chapters/appendix/keyboard_mapping_table.rst:123
 msgid ":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`U`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:117
+#: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid "Single Deck Toggle / Swap Decks"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:117
+#: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid ":kbd:`Ctrl` + :kbd:`T`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:121
-msgid "**Library**"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:129
+msgid "Library"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:123
+#: ../../chapters/appendix/keyboard_mapping_table.rst:132
 msgid "Maximize the library view"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:123
+#: ../../chapters/appendix/keyboard_mapping_table.rst:132
 msgid ":kbd:`Space`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:125
+#: ../../chapters/appendix/keyboard_mapping_table.rst:134
 msgid ":kbd:`Shift` + :kbd:`←` (Deck 1)"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:125
+#: ../../chapters/appendix/keyboard_mapping_table.rst:134
 msgid ":kbd:`Shift` + :kbd:`→` (Deck 2)"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:127
+#: ../../chapters/appendix/keyboard_mapping_table.rst:136
 msgid "Select all files in current list"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:127
+#: ../../chapters/appendix/keyboard_mapping_table.rst:136
 msgid ":kbd:`Ctrl` + :kbd:`A`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:129
+#: ../../chapters/appendix/keyboard_mapping_table.rst:138
 msgid "Select group of files in current list"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:129
+#: ../../chapters/appendix/keyboard_mapping_table.rst:138
 msgid "Click first item, hold :kbd:`Shift` key, click last item"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:131
-msgid "Focus search bar"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:131
-msgid ":kbd:`Ctrl` + :kbd:`F`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:133
-msgid "Clear search input"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:133
-msgid ":kbd:`Ctrl` + :kbd:`Back`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:135
-msgid "Focus tracks table"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:135
-msgid ":kbd:`Escape`"
-msgstr ""
-
-#: ../../chapters/appendix/keyboard_mapping_table.rst:137
+#: ../../chapters/appendix/keyboard_mapping_table.rst:140
 msgid "Trigger configured double-click action"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:137
+#: ../../chapters/appendix/keyboard_mapping_table.rst:140
 msgid ":kbd:`Return`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:139
+#: ../../chapters/appendix/keyboard_mapping_table.rst:142
 msgid "Open track properties dialog"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:139
+#: ../../chapters/appendix/keyboard_mapping_table.rst:142
 msgid ":kbd:`Ctrl` + :kbd:`Return`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+#: ../../chapters/appendix/keyboard_mapping_table.rst:144
 msgid "Remove or hide selected tracks"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:141
+#: ../../chapters/appendix/keyboard_mapping_table.rst:144
 msgid "Windows/Linux: :kbd:`Delete`  macOS: :kbd:`Command` + :kbd:`Backspace`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:145
-msgid "**Preview Deck**"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:146
+msgid "Focus tracks table"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:147
-msgid "Load Selected Track And Play"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:146
+msgid ":kbd:`Escape`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:147
-msgid ":kbd:`P`"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:148
+msgid "Focus search bar"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:149
-msgid "Stop and go to start"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:148
+msgid ":kbd:`Ctrl` + :kbd:`F`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:149
-msgid ":kbd:`Shift` + :kbd:`P`"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:150
+msgid "Clear search input"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:151
-msgid ":kbd:`Alt` + :kbd:`←`"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:150
+msgid ":kbd:`Ctrl` + :kbd:`Back`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:153
-msgid ":kbd:`Alt` + :kbd:`→`"
+#: ../../chapters/appendix/keyboard_mapping_table.rst:154
+msgid "Preview Deck"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:157
-msgid "**Auto DJ**"
+msgid "Load Selected Track And Play"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:157
+msgid ":kbd:`P`"
 msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:159
+msgid "Stop and go to start"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+msgid ":kbd:`Shift` + :kbd:`P`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:161
+msgid ":kbd:`Alt` + :kbd:`←`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:163
+msgid ":kbd:`Alt` + :kbd:`→`"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:167
+msgid "Auto DJ"
+msgstr ""
+
+#: ../../chapters/appendix/keyboard_mapping_table.rst:170
 msgid "Shuffle Auto DJ playlist"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:159
+#: ../../chapters/appendix/keyboard_mapping_table.rst:170
 msgid ":kbd:`Shift` + :kbd:`F9`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:161
+#: ../../chapters/appendix/keyboard_mapping_table.rst:172
 msgid "Skip next track in Auto DJ"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:161
+#: ../../chapters/appendix/keyboard_mapping_table.rst:172
 msgid ":kbd:`Shift` + :kbd:`F10`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:163
+#: ../../chapters/appendix/keyboard_mapping_table.rst:174
 msgid "Fade to next track in Auto DJ"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:163
+#: ../../chapters/appendix/keyboard_mapping_table.rst:174
 msgid ":kbd:`Shift` + :kbd:`F11`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:165
+#: ../../chapters/appendix/keyboard_mapping_table.rst:176
 msgid "Toggle Auto DJ on/Off"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:165
+#: ../../chapters/appendix/keyboard_mapping_table.rst:176
 msgid ":kbd:`Shift` + :kbd:`F12`"
 msgstr ""
 
-#: ../../chapters/appendix/keyboard_mapping_table.rst:168
+#: ../../chapters/appendix/keyboard_mapping_table.rst:179
 msgid ""
 "Mixxx allows you to customize the keyboard shortcuts. For more information, "
 "and to download a keyboard mapping image, go to :ref:`control-keyboard`."

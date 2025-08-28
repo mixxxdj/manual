@@ -1,0 +1,742 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"PO-Revision-Date: 2025-08-26 21:28+0000\n"
+"Language-Team: Galician (https://app.transifex.com/mixxx-dj-software/teams/7734/gl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/icon_p1_nano.rst:2
+msgid "Icon P1-Nano"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:4
+msgid ""
+"`Manufacturer's product page <https://iconproaudio.com/product/p1-nano/>`_ ·"
+" `Forum thread <https://mixxx.discourse.group/t/icon-pro-"
+"audio-p1-nano/31630>`_"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:10
+msgid "Overview"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst-1
+msgid ""
+"A graphic of the P1-Nano showing all the buttons, textual descriptions are "
+"provided in the tables below."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:19
+msgid ""
+"The P1-Nano by Icon Pro Audio is similar to their larger controllers, but "
+"the 8 available faders have been combined into virtual faders that operate a"
+" single motorized physical fader."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:23
+msgid ""
+"Device support was tested with the Icon P1-Nano, but may also work with the "
+"larger Icon P1-X/P1-M, or any device that supports the Mackie Control "
+"Protocol, but this has not been tested."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:28
+msgid "Parameter Knobs and Screens"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:30
+msgid ""
+"The P1-Nano has 8 rotary encoders, each of which is mapped to a different "
+"parameter. The name, channel, and value of each parameter is shown on the "
+"screen below the encoders."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst-1
+msgid ""
+"The rectangualar screen on the P1-Nano showing the parameter value as a "
+"horizontal grey bar at the top, the text \"Deck 1 High\", a volume meter off"
+" to the right, and the text Bitwig at the bottom."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:42
+msgid ""
+"The top of the screen contains a value bar with a center indicator that will"
+" turn blue if the bar is centered, followed by the parameter being adjusted."
+" Under that is the deck that the parameter will be applied to. Turning one "
+"of the rotary encoders toggles the on-device screen to show the parameter "
+"being adjusted."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:48
+msgid ""
+"To the right hand side of each screen is a vumeter for the deck associated "
+"with the screen."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:51
+msgid ""
+"Mixxx also supports using the external `D-5 "
+"<https://iconproaudio.com/product/d5/>`_ extension screens and displays "
+"additional information such as each decks beats per minute when they are "
+"used. If the D-5 is installed, the value of each parameter is shown on the "
+"screen above the encoder that controls that parameter (in addition to the "
+"on-device screen just as when the D-5 is not installed)."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:58
+msgid ""
+"The text at the bottom of the screen is the selected :term:`Digital Audio "
+"Workstation` (DAW). The default DAW is Bitwig and the name cannot be changed"
+" without using Icon's proprietary configuration tool, however Mixxx will "
+"work fine with the default Bitwig configuration."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:64
+msgid ""
+"The following parameters are available and may be changed by activating the "
+"shift functionality by pressing the :hwlabel:`Flip` button and then turning "
+"the encoder to the desired parameter. Pressing the knob always resets the "
+"parameter to default (normally centered)."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:69
+msgid "Pregain"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:70
+msgid "EQ High"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:71
+msgid "EQ Mid"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:72
+msgid "EQ Low"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:73
+msgid "Quick Effect Super Knob"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:77
+msgid "Timecode Display"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:79
+msgid ""
+"Underneath the rotary encoders is a timecode display comprising 10 "
+"individual 7-segment displays."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst-1
+msgid "A 7-segment display showing '00.24 -04.09' in red letters."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:89
+msgid ""
+"This displays the time elapsed, time remaining, or (with lesser resolution) "
+"both the elapsed and remaining time of the currently selected deck. The "
+"value displayed cannot be changed on the controller itself, but mirrors the "
+"time remaining display in the main Mixxx user interface which can be changed"
+" by clicking on it to cycle through the various modes."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:95
+msgid ""
+"The display does not mirror the format used by Mixxx and always uses "
+"MM.SS.ss format (minutes, seconds, and milliseconds separated by a dot) or "
+"MM.SS if both the elapsed and remaining times are visible at once."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:100
+msgid "DAW Buttons"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:102
+msgid ""
+"The :term:`DAW` selection buttons to the right of the timecode display are "
+"labeled :hwlabel:`1`, :hwlabel:`2`, and :hwlabel:`3` and select a pre-loaded"
+" configuration. The default value for DAW 1 is Bitwig, and this is the "
+"configuration that should be selected for use with Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:108
+msgid ""
+"Below this is a large group of buttons for DAW control including Read, "
+"Write, Touch, latch, Trim, Off, and a collection of touch screen buttons. It"
+" is possible to configure these for use with Mixxx using Icon's proprietary "
+"software, but because the defaults aren't broadly useful and there is no way"
+" for Mixxx to reconfigure them, they are unmapped."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:115
+msgid "Faders"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:117
+msgid ""
+"The P1-Nano has 9 virtual faders that are mapped to a single physical fader "
+"on the left side of the controller. The first 8 virtual faders may be "
+"selected with the :hwlabel:`|<` :hwlabel:`>|` buttons. The 9th is a special "
+"fader that controls the main output. It can be selected with the "
+":hwlabel:`Master` button. The other 4 virtual faders are currently unused."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Fader"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Flip"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Channel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Control"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "F1"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Off"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Deck 3"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Volume"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "F2"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Deck 1"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "F3"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Deck 2"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "F4"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Deck 4"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "On"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Tempo [#]_"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Tempo"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Master"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "–"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Gain [#]_"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:140
+msgid "The zero value of the tempo faders is in the middle of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:141
+msgid ""
+"Because the master fader controls gain and not volume, the zero value is not"
+" at the bottom of the fader, instead it corresponds to the marked zero value"
+" on the side of the fader at about 75% of the way up the track. This value "
+"represents 0dB and going above it is not recommended."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:147
+msgid "Deck Buttons"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:149
+msgid ""
+"The buttons in two columns to the right of the fader control the active deck"
+" and parameter screens."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Function"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Up"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`🢑`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Show previous screen"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Down"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`🢓`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Show next screen"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Mute"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`M`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Mute the active deck"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Solo"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`S`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Move beatgrid to current position"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Record Arm"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏺`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "BPM tap"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Shift"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`Flip`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Toggle shift mode for all controls"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Main"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`Master (PT-Ctrl)`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Toggle the screen and fader to the"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "main channel gain/vumeter."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Circles"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "The circle buttons are not mappable and control the touch"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "screen controls."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Lock"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`🔓`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Lock/unlock the fader"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "<<8"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`<<8`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Unused"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "8>>"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`8>>`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Prev. Channel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`|<`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Select the previous channel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Next. Channel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`>|`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Select the next channel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:175
+msgid "Transports"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:177
+msgid ""
+"The transport buttons along the bottom affect only the currently selected "
+"deck, with the exception of \"record\" which toggles recording of the mix."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Rewind"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏪`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Beatjump backwards"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Fastforward"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏩`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Beatjump forwards"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Loop"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`↩`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Toggle the beatloop"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Cue"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏹`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ""
+"If track is playing: stops the track and resets position to the main cue "
+"point"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "If playback is stopped: sets the main cue point"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏹` (hold)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ""
+"Play the track from main cue point, release to stop playback and return to "
+"the main cue point. Playback must be initially stopped on the main cue "
+"point."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Play/Pause"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`⏵`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Play/pause playback"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Record"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Toggle recording the mix"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:195
+msgid ""
+"The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
+" See :ref:`interface-cue-modes` for more info."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:198
+msgid "Navigation"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:200
+msgid ""
+"Below the transport buttons is a jog wheel and various navigation buttons."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:202
+msgid ""
+"Currently Mixxx must be focused for the library navigation buttons to have "
+"any effect. This is an open issue that will be addressed in a future version"
+" of Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Jog Wheel (deck playing)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Speed up / slow down the track"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Jog Wheel (deck paused)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Seek in the track"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Jog Wheel (push)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Select item (load track, expand selected menu, etc.)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Move"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`🢑🢓`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to scroll up and down"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "in the focused view."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Shuffle"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`🢐🢒`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to move left and"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "right in the focused view."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Navi (illuminated)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`Navi`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to send a keyboard"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "left/right arrow press and release signal."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Navi (blinking)"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the active fader (same as the"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid ":hwlabel:`|<` and :hwlabel:`>|` buttons)."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Focus"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid ":hwlabel:`Focus`"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to send a mouse wheel"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "scroll signal."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Zoom Left/Right"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to move the cross fader."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Zoom Up/Down"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Change the jog wheel to select the focused"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:3
+msgid "library pane."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:234
+msgid "Mapping options"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:236
+msgid ""
+"Settings can be edited in the preference windows, under "
+":guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`iCON P1-Nano "
+"...`."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Setting"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Disable VuMeters"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Disables the on-screen volume meters."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Disable Timecode Display"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Disable the 7-segment timecode display."
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Blink record arm button on beat"
+msgstr ""
+
+#: ../../hardware/controllers/icon_p1_nano.rst:1
+msgid "Blinks the BPM tap button on the beat."
+msgstr ""

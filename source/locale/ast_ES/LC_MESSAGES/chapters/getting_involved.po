@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Asturian (Spain) (https://app.transifex.com/mixxx-dj-software/teams/7734/ast_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -263,8 +263,8 @@ msgstr ""
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
-"Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
-"software/public/>`_"
+"Translate Mixxx using `Transifex <https://explore.transifex.com/mixxx-dj-"
+"software/mixxxdj/>`_"
 msgstr ""
 
 #: ../../chapters/getting_involved.rst:30
