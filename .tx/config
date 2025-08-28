@@ -1,15 +1,6 @@
 [main]
 host = https://www.transifex.com
 
-[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--numark_scratch]
-file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/numark_scratch.po
-source_file            = source/locale/pot/hardware/controllers/numark_scratch.pot
-type                   = PO
-minimum_perc           = 0
-resource_name          = hardware--controllers--numark_scratch
-replace_edited_strings = false
-keep_translations      = false
-
 [o:mixxx-dj-software:p:mixxx-dj-manual-27:r:404]
 file_filter            = source/locale/<lang>/LC_MESSAGES/404.po
 source_file            = source/locale/pot/404.pot
@@ -378,6 +369,15 @@ resource_name          = hardware--controllers--american_audio_vms4
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--arturia_keylab_mk1]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/arturia_keylab_mk1.po
+source_file            = source/locale/pot/hardware/controllers/arturia_keylab_mk1.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--arturia_keylab_mk1
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--behringer_bcd2000]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/behringer_bcd2000.po
 source_file            = source/locale/pot/hardware/controllers/behringer_bcd2000.pot
@@ -588,6 +588,24 @@ resource_name          = hardware--controllers--dj_techtools_midi_figher_twister
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--dj_techtools_midi_fighter_spectra]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_techtools_midi_fighter_spectra.po
+source_file            = source/locale/pot/hardware/controllers/dj_techtools_midi_fighter_spectra.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--dj_techtools_midi_fighter_spectra
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--dj_techtools_midi_fighter_twister]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/dj_techtools_midi_fighter_twister.po
+source_file            = source/locale/pot/hardware/controllers/dj_techtools_midi_fighter_twister.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--dj_techtools_midi_fighter_twister
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--eks_otus]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/eks_otus.po
 source_file            = source/locale/pot/hardware/controllers/eks_otus.pot
@@ -768,6 +786,15 @@ resource_name          = hardware--controllers--hercules_djcontrol_inpulse_300
 replace_edited_strings = false
 keep_translations      = false
 
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--hercules_djcontrol_inpulse_500]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_inpulse_500.po
+source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_inpulse_500.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--hercules_djcontrol_inpulse_500
+replace_edited_strings = false
+keep_translations      = false
+
 [o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--hercules_djcontrol_instinct]
 file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/hercules_djcontrol_instinct.po
 source_file            = source/locale/pot/hardware/controllers/hercules_djcontrol_instinct.pot
@@ -825,6 +852,24 @@ source_lang            = en
 type                   = PO
 minimum_perc           = 0
 resource_name          = hardware--controllers--hercules_p32_dj
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--icon_icontrols]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/icon_icontrols.po
+source_file            = source/locale/pot/hardware/controllers/icon_icontrols.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--icon_icontrols
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--icon_p1_nano]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/icon_p1_nano.po
+source_file            = source/locale/pot/hardware/controllers/icon_p1_nano.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--icon_p1_nano
 replace_edited_strings = false
 keep_translations      = false
 
@@ -964,6 +1009,15 @@ source_file            = source/locale/pot/hardware/controllers/mvave_smc_mixer.
 type                   = PO
 minimum_perc           = 0
 resource_name          = hardware--controllers--mvave_smc_mixer
+replace_edited_strings = false
+keep_translations      = false
+
+[o:mixxx-dj-software:p:mixxx-dj-manual-27:r:hardware--controllers--mvave_smk-25-ii]
+file_filter            = source/locale/<lang>/LC_MESSAGES/hardware/controllers/mvave_smk-25-ii.po
+source_file            = source/locale/pot/hardware/controllers/mvave_smk-25-ii.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hardware--controllers--mvave_smk-25-ii
 replace_edited_strings = false
 keep_translations      = false
 
