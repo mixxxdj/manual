@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 20:19+0200\n"
-"PO-Revision-Date: 2025-04-17 18:21+0000\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +61,7 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:20
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Préférences matérielles sonore de Mixxx"
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:26
 msgid "Output"
@@ -95,7 +99,7 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:38
 msgid "Decks"
-msgstr ""
+msgstr "Platines"
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:40
 msgid "This mapping handles 2 decks setup."
@@ -135,7 +139,7 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:60
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:62
 msgid "*Pitch bending*"
@@ -191,7 +195,7 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:70
 msgid "Library"
-msgstr ""
+msgstr "Bibliothèque"
 
 #: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.rst:72
 msgid "The library can be controlled as follows:"

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +81,7 @@ msgstr ""
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:33
 msgid "Mixxx Sound Hardware Preferences"
-msgstr ""
+msgstr "Mixxx Sound Hardware Voorkeuren"
 
 #: ../../hardware/controllers/reloop_jockey_3_master_edition.rst:35
 msgid "Main output: channels 1-2"

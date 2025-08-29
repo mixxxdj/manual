@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Samuel Šaliga, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Samuel Šaliga, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Knihovna - Ikona AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -27,7 +31,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Knihovna - Ikona Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
@@ -47,63 +51,63 @@ msgstr ""
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Knihovna - Ikona Historie"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Knihovna - Ikona iTunes"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Knihovna - Ikona Knihovna"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Knihovna - Ikona Uzamčená"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Knihovna - Ikona Chybějící Skladby"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Knihovna - Ikona Playlist"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Knihovna - Ikona Analyzovat"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Knihovna - Ikona Nahrávky"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Knihovna - Ikona Rhythmbox"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Knihovna - Ikona Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Knihovna - Ikona Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
-msgstr ""
+msgstr "Knihovna - Náhled Pozastavit"
 
 #: ../../shortcuts.rstext:118
 msgid "Library - Preview Play"
-msgstr ""
+msgstr "Knihovna - Náhled Přehrát"
 
 #: ../../shortcuts.rstext:124
 msgid "Library - BPM Locked"
-msgstr ""
+msgstr "Knihovna - BPM Uzamčené"
 
 #: ../../shortcuts.rstext:130
 msgid "Library - BPM Unlocked"
-msgstr ""
+msgstr "Knihovna - BPM Odemčené"
 
 #: ../../shortcuts.rstext:139
 msgid "Preferences - Icon BPM Detection"
@@ -211,7 +215,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"

@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliothèque - Icône de AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -31,11 +32,11 @@ msgstr ""
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliothèque - Icône de Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Bibliothèque - Icône du navigateur"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
@@ -215,7 +216,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: ../../chapters/appendix/application_shortcuts.rst:6
 msgid "Application shortcuts"

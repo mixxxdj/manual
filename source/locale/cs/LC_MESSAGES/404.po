@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Samuel Šaliga, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Samuel Šaliga, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/mixxx-dj-software/teams/7734/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +23,15 @@ msgstr ""
 
 #: ../../404.rst:4
 msgid "Page not found"
-msgstr ""
+msgstr "Stránka nebyla nalezena"
 
 #: ../../404.rst:6
 msgid ""
 "Sorry, we can't find the page you're looking for. Go back to the :ref:`start"
 " page of the manual <index>`."
 msgstr ""
+"Omlouváme se, ale nemůžeme najít stránku, kterou hledáte. Jděte zpět na "
+":ref:`začátek manuálu<index>`."
 
 #: ../../404.rst:10
 msgid ""
@@ -33,3 +39,6 @@ msgid ""
 "side, let us know on our `issue tracker on GitHub "
 "<https://github.com/mixxxdj/manual/issues>`_!"
 msgstr ""
+"Mixxx stojí na kolaboraci. Pokud si myslíte, že chyba je na naší straně, tak"
+" nás informujte skrze `sledovač problémů na GitHubu "
+"<https://github.com/mixxxdj/manual/issues>`_!"

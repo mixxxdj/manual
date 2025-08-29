@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,199 +23,199 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliothek - Icon Auto-DJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliothek - Banshee-Symbol"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliothek - Plattenkisten-Symbol"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Bibliothek - Browsen-Symbol"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "Bibliothek - Kisten-Symbol"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "Bibliothek - Drag-and-Drop-Symbol"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "Bibliothek - Aktueller Verlauf-Symbol"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Bibliothek - Verlauf-Symbol"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Bibliothek - iTunes-Symbol"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Bibliothek - Bibliothek-Symbol"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Bibliothek - Gesperrt-Symbol"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Bibliothek - Fehlende-Tracks-Symbol"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Bibliothek - Wiedergabeliste-Symbol"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Bibliothek - Analysieren-Symbol"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Bibliothek - Aufnahmen-Symbol"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Bibliothek - Rhythmbox-Symbol"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliothek - Serato-Symbol"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliothek - Traktor-Symbol"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
-msgstr ""
+msgstr "Bibliothek - Vorschau pausieren"
 
 #: ../../shortcuts.rstext:118
 msgid "Library - Preview Play"
-msgstr ""
+msgstr "Bibliothek - Vorschau abspielen"
 
 #: ../../shortcuts.rstext:124
 msgid "Library - BPM Locked"
-msgstr ""
+msgstr "Bibliothek - BPM gesperrt"
 
 #: ../../shortcuts.rstext:130
 msgid "Library - BPM Unlocked"
-msgstr ""
+msgstr "Bibliothek - BPM entsperrt"
 
 #: ../../shortcuts.rstext:139
 msgid "Preferences - Icon BPM Detection"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Tempoerkennung"
 
 #: ../../shortcuts.rstext:145
 msgid "Preferences - Icon Live Broadcasting"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Live Ausstrahlung"
 
 #: ../../shortcuts.rstext:151
 msgid "Preferences - Icon Controllers"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Regler"
 
 #: ../../shortcuts.rstext:157
 msgid "Preferences - Icon Crossfader"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Crossfader"
 
 #: ../../shortcuts.rstext:163
 msgid "Preferences - Icon Effects"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Effekte"
 
 #: ../../shortcuts.rstext:169
 msgid "Preferences - Icon Equalizers"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Equalizer"
 
 #: ../../shortcuts.rstext:175
 msgid "Preferences - Icon Interface"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Interface"
 
 #: ../../shortcuts.rstext:181
 msgid "Preferences - Icon Key Detection"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Tonarterkennung"
 
 #: ../../shortcuts.rstext:187
 msgid "Preferences - Icon Library"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Bibliothek"
 
 #: ../../shortcuts.rstext:193
 msgid "Preferences - Icon MIDI Controllers"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol MIDI-Steuerung"
 
 #: ../../shortcuts.rstext:199
 msgid "Preferences - Icon Modplug Decoder"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol MODPlug-Decoder"
 
 #: ../../shortcuts.rstext:205
 msgid "Preferences - Icon Recording"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Aufnahme"
 
 #: ../../shortcuts.rstext:211
 msgid "Preferences - Icon ReplayGain"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Wiedergabeverstärkung"
 
 #: ../../shortcuts.rstext:217
 msgid "Preferences - Icon Sampler"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Sampler"
 
 #: ../../shortcuts.rstext:223
 msgid "Preferences - Icon Sound Hardware"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Ton-Hardware"
 
 #: ../../shortcuts.rstext:229
 msgid "Preferences - Icon Vinyl Control"
-msgstr ""
+msgstr "Eigene Einstellungen - Symbol Vinyl-Regler"
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl-Regler - Gutes Eingangssignal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl-Regler - Signal läuft in die falsche Richtung"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Regler - Kein Eingangssignal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl-Regler - Fehlerhaftes Eingangssignal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Regler - Kein Eingangssignal definiert"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Regler - Kein Eingangs-Zeitcodesignal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl-Regler - Eingangssignal stammt von einem falschen Vinylmodell"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Regler - Eingangssignal ist Mono"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl-Regler - Eingangssignal ist zu laut"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl-Regler - Eingangssignal ist zu leise"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/example_setups.rst:6
 msgid "Example Setups"

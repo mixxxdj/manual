@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.6\n"
+"Project-Id-Version: Mixxx 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
-"PO-Revision-Date: 2024-05-22 20:50+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:13
 msgid "Mixer"
-msgstr ""
+msgstr "Mixer"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:16
 msgid "Left"
@@ -732,7 +732,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:114
 msgid "Vinyl Control"
-msgstr ""
+msgstr "Vinylbediening"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:119
 msgid "Passthrough"
@@ -776,11 +776,11 @@ msgstr "Enkel Deck - Decks omwisselen"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:125
 msgid ":kbd:`Ctrl` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`T`"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:129
 msgid "Library"
-msgstr ""
+msgstr "Bibliotheek"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:132
 msgid "Maximize the library view"
@@ -788,7 +788,7 @@ msgstr "Bibliotheek venster maximaliseren"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:132
 msgid ":kbd:`Space`"
-msgstr ""
+msgstr ":kbd:`Space`"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:134
 msgid ":kbd:`Shift` + :kbd:`←` (Deck 1)"
@@ -866,7 +866,7 @@ msgstr ""
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:154
 msgid "Preview Deck"
-msgstr ""
+msgstr "Voorbeluisteringsdeck"
 
 #: ../../chapters/appendix/keyboard_mapping_table.rst:157
 msgid "Load Selected Track And Play"

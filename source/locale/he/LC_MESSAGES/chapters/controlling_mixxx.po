@@ -1,0 +1,538 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2024, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-28 07:46+0200\n"
+"PO-Revision-Date: 2025-04-17 19:24+0000\n"
+"Language-Team: Hebrew (https://app.transifex.com/mixxx-dj-software/teams/7734/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
+
+#: ../../shortcuts.rstext:4
+msgid "Library - Icon AutoDJ"
+msgstr ""
+
+#: ../../shortcuts.rstext:10
+msgid "Library - Icon Banshee"
+msgstr ""
+
+#: ../../shortcuts.rstext:16
+msgid "Library - Icon Recordbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:22
+msgid "Library - Icon Browse"
+msgstr ""
+
+#: ../../shortcuts.rstext:28
+msgid "Library - Icon  Crates"
+msgstr ""
+
+#: ../../shortcuts.rstext:34
+msgid "Library - Icon Drag and Drop"
+msgstr ""
+
+#: ../../shortcuts.rstext:40
+msgid "Library - Icon History current session"
+msgstr ""
+
+#: ../../shortcuts.rstext:46
+msgid "Library - Icon History"
+msgstr ""
+
+#: ../../shortcuts.rstext:52
+msgid "Library - Icon iTunes"
+msgstr ""
+
+#: ../../shortcuts.rstext:58
+msgid "Library - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:64
+msgid "Library - Icon Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:70
+msgid "Library - Icon Missing Tracks"
+msgstr ""
+
+#: ../../shortcuts.rstext:76
+msgid "Library - Icon Playlist"
+msgstr ""
+
+#: ../../shortcuts.rstext:82
+msgid "Library - Icon Analyze"
+msgstr ""
+
+#: ../../shortcuts.rstext:88
+msgid "Library - Icon Recordings"
+msgstr ""
+
+#: ../../shortcuts.rstext:94
+msgid "Library - Icon Rhythmbox"
+msgstr ""
+
+#: ../../shortcuts.rstext:100
+msgid "Library - Icon Serato"
+msgstr ""
+
+#: ../../shortcuts.rstext:106
+msgid "Library - Icon Traktor"
+msgstr ""
+
+#: ../../shortcuts.rstext:112
+msgid "Library - Preview Pause"
+msgstr ""
+
+#: ../../shortcuts.rstext:118
+msgid "Library - Preview Play"
+msgstr ""
+
+#: ../../shortcuts.rstext:124
+msgid "Library - BPM Locked"
+msgstr ""
+
+#: ../../shortcuts.rstext:130
+msgid "Library - BPM Unlocked"
+msgstr ""
+
+#: ../../shortcuts.rstext:139
+msgid "Preferences - Icon BPM Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:145
+msgid "Preferences - Icon Live Broadcasting"
+msgstr ""
+
+#: ../../shortcuts.rstext:151
+msgid "Preferences - Icon Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:157
+msgid "Preferences - Icon Crossfader"
+msgstr ""
+
+#: ../../shortcuts.rstext:163
+msgid "Preferences - Icon Effects"
+msgstr ""
+
+#: ../../shortcuts.rstext:169
+msgid "Preferences - Icon Equalizers"
+msgstr ""
+
+#: ../../shortcuts.rstext:175
+msgid "Preferences - Icon Interface"
+msgstr ""
+
+#: ../../shortcuts.rstext:181
+msgid "Preferences - Icon Key Detection"
+msgstr ""
+
+#: ../../shortcuts.rstext:187
+msgid "Preferences - Icon Library"
+msgstr ""
+
+#: ../../shortcuts.rstext:193
+msgid "Preferences - Icon MIDI Controllers"
+msgstr ""
+
+#: ../../shortcuts.rstext:199
+msgid "Preferences - Icon Modplug Decoder"
+msgstr ""
+
+#: ../../shortcuts.rstext:205
+msgid "Preferences - Icon Recording"
+msgstr ""
+
+#: ../../shortcuts.rstext:211
+msgid "Preferences - Icon ReplayGain"
+msgstr ""
+
+#: ../../shortcuts.rstext:217
+msgid "Preferences - Icon Sampler"
+msgstr ""
+
+#: ../../shortcuts.rstext:223
+msgid "Preferences - Icon Sound Hardware"
+msgstr ""
+
+#: ../../shortcuts.rstext:229
+msgid "Preferences - Icon Vinyl Control"
+msgstr ""
+
+#: ../../shortcuts.rstext:238
+msgid "Vinyl Control - Receives good signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:242
+msgid "Vinyl Control - Signal goes in wrong direction"
+msgstr ""
+
+#: ../../shortcuts.rstext:246
+msgid "Vinyl Control - Receives no signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:250
+msgid "Vinyl Control - Receives bad signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:254
+msgid "Vinyl Control - No input configured"
+msgstr ""
+
+#: ../../shortcuts.rstext:258
+msgid "Vinyl Control - Receives no timecode signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:262
+msgid "Vinyl Control - Receives signal from wrong vinyl type"
+msgstr ""
+
+#: ../../shortcuts.rstext:266
+msgid "Vinyl Control - Receives mono signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:270
+msgid "Vinyl Control - Receives too loud input signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:274
+msgid "Vinyl Control - Receives too quiet signal"
+msgstr ""
+
+#: ../../shortcuts.rstext:281
+msgid "logo"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:6
+msgid "Controlling Mixxx"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:8
+msgid ""
+"Mixxx can be controlled with a keyboard, a mouse, :term:`MIDI`/:term:`HID` "
+"controllers, time-code records/CDs, or a combination of these. The choice "
+"usually depends on your budget or style of DJing."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:15
+msgid "Using a Mouse and Touchpad"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:17
+msgid ""
+"Use your mouse to interact with the controls in the :ref:`Mixxx User "
+"Interface <interface-overview>` on your computer screen. You can perform "
+"actions by pointing and clicking with your mouse."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:21
+msgid ""
+"**Single Left Click**: Performing a left mouse click on buttons triggers the"
+" default action for that control. Moreover if you click on a value in the "
+"track list of the Mixxx :ref:`library <library-interface>`, you can change "
+"the value. For example the year of a track."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:25
+msgid ""
+"**Double Left Click**: Double-click on any knob or fader to reset it to its "
+"default value. This is especially useful on touchscreens as executing a "
+"right-click on them is usually tedious."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:28
+msgid ""
+"**Single Right Click**: On most buttons, performing a right click triggers a"
+" different action than a left click. You can return any knob or fader to its"
+" default value by right-clicking that control."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:31
+msgid ""
+"**Mouse Drag**: Click on a knob or fader, hold the left mouse button and "
+"move your cursor to change the value of the control. Use mouse drag to drop "
+"tracks from the file list to the decks, crates, playlists, etc."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:34
+msgid ""
+"**Mouse Wheel**: Just like Mouse Drag, you can change knob and fader values "
+"by placing the cursor over the control and moving the mouse wheel."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:37
+msgid ""
+"If you hover with the mouse over a control (e.g. the crossfader) in the "
+"Mixxx user interface, the tooltip lists the left- and right-click action "
+"respectively."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:41
+msgid ""
+"On a Macbook or a computer with a touchpad that lacks mouse buttons, a two-"
+"finger click gesture is often treated as a right click."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:44
+msgid ""
+"Using the Mouse drag/wheel on the waveforms you can adjust zoom and playback"
+" rate of the tracks. For more information, go to :ref:`interface-waveform`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:51
+msgid "Using a Keyboard"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst-1
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:60
+msgid "Mixxx Keyboard shortcuts (for en-us keyboard layout)"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:62
+msgid ""
+":download:`Download the image <../_static/Mixxx-250-Keyboard-Mapping.png>`"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:64
+msgid ""
+"Controlling Mixxx with a keyboard is handy. Unlike mouse control, the "
+"keyboard allows you to manage things simultaneously. For example, you can "
+"start playing a track on deck 1 whilst stopping deck 2 at the same time."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:68
+msgid ""
+"The default mapping for English keyboards is depicted in the figure above. "
+"It is divided into a left-hand side for deck 1 and right-hand side for deck "
+"2. Please note that you can also access the functions through Mixxx's "
+"interface."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:72
+msgid ""
+"For some user groups, like those using :term:`controllers <controller>` or "
+":term:`vinyl control`, it might be useful to enable/disable the keyboard "
+"mappings at runtime. You can do so by clicking :menuselection:`Options --> "
+"Enable Keyboard Shortcuts`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:77
+msgid ""
+"If you hover with the mouse over a control (e.g. the crossfader) in the "
+"Mixxx user interface, the tooltip lists the keyboard shortcuts of the "
+"control among a description of the control."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:81
+msgid "For a list of default shortcuts, go to :ref:`appendix-keyboard`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:84
+msgid "Customizing the keyboard mapping"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:86
+msgid ""
+"Mixxx allows you to customize the keyboard control. For more information, go"
+" to:"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:88
+msgid ":ref:`advanced-keyboard`"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:93
+msgid "Using MIDI/HID Controllers"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:95
+msgid ""
+"Mixxx supports MIDI and HID :term:`controllers <controller>` which are "
+"external hardware devices used to control audio applications. Many DJs "
+"prefer the hands-on feel of a controller with Mixxx because it can feel "
+"similar to using a real mixer and turntables or :term:`CDJ`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:103
+msgid "Loading a controller mapping"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:111
+msgid "Mixxx Preferences - Loading a controller mapping"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:113
+msgid ""
+"Without loading the correct mapping, your controller does not work with "
+"Mixxx."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:115
+msgid "Connect your controller(s) to your computer"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:116
+msgid "Start Mixxx"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:117
+msgid "Go to :menuselection:`Preferences --> Controllers`"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:118
+msgid ""
+"Select your device from the list of available devices on the left, and the "
+"right pane will change"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:120
+msgid ""
+"Select the mapping for your controller from the :guilabel:`Load Mapping` "
+"drop-down menu"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:122
+msgid "Make sure that the :guilabel:`Enabled` checkbox is ticked"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:123
+msgid ""
+"Click :guilabel:`Apply` and Mixxx can now be controlled by your "
+"controller(s)."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:124
+msgid "Repeat step 4-7 for any of the controllers you want to use"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:126
+msgid ""
+"If you do not find a connected device in the list, make sure to install any "
+"necessary drivers for that device."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:130
+msgid "Supported controllers"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:132
+msgid ""
+"Mixxx can use any :term:`MIDI`/:term:`HID` controller that is recognized by "
+"your :term:`OS <operating system>` (some may require drivers), as long as "
+"there is a MIDI/HID mapping file to tell Mixxx how to understand it. Mixxx "
+"comes bundled with a number of mappings for various devices. There are two "
+"levels of controller mappings:"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:138
+msgid ""
+"**Mixxx Certified Mappings**: These mappings are verified by the Mixxx "
+"Development Team and are distributed as part of Mixxx itself."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:140
+msgid ""
+"**Community Supported Mappings**: These mappings are provided and have been "
+"verified as working by the Mixxx community, but the Mixxx Development Team "
+"is unable to verify their quality because we don't have the devices "
+"ourselves. They might have bugs or rough edges."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:145
+msgid ""
+"If you run into issues with Mixxx Certified Mappings, please file a "
+":term:`bug report` on our `Bug Tracker`_."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:148
+msgid ""
+"If you run into issues with Community Supported Mappings please tell the "
+"community about it on our `Controller mapping forum`_."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:151
+msgid ""
+"Device support varies for each supported :term:`OS <operating system>`, so "
+"make sure to consult the documentation of the device."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:154
+msgid "Additional mappings are available in the `Controller mapping forum`_."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:156
+msgid ""
+"Before purchasing a controller to use with Mixxx, check our :ref:`Controller"
+" List <hardware-manuals>`, that contains all Mixxx Certified Mappings, that "
+"are bundled with Mixxx."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:164
+msgid "Installing a mapping from the forum"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:165
+msgid ""
+"To use a controller mapping that did not come bundled with Mixxx, place the "
+"controller mapping in your User Mappings folder. To open it , go to "
+":menuselection:`Preferences --> Controllers` and click the :guilabel:`Open "
+"User Mapping Folder` button. Alternatively, use your :term:`OS <operating "
+"system>` file browser to navigate there. The locations and more details can "
+"be found in :ref:`appendix-settings-files`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:169
+msgid ""
+"If the mapping was posted as a :file:`.zip` file, first extract the "
+":file:`.zip` file by right clicking on it in your file browser and selecting"
+" the option for extracting an archive or compressed folder. Copy the "
+":file:`.xml` file into your User Mapping folder. If there is a :file:`.js` "
+"file, also copy that to your User Mapping folder. Restart Mixxx and "
+":ref:`load the mapping <control-load-mapping>`."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:176
+msgid "Map your own controller"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:178
+msgid ""
+"There is no mapping available for your controller or you want to change an "
+"existing mapping? You can map your controller by using the Controller Wizard"
+" or take full control with the MIDI Scripting support in Mixxx."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:182
+msgid "Go to :ref:`advanced-controller` for detailed information."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:187
+msgid "Using Timecode Vinyl Records and CDs"
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:189
+msgid ""
+":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
+"playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
+"interface. In effect, it simulates the sound and feel of having your digital"
+" music collection on vinyl. Many DJs prefer the tactile feel of vinyl, and "
+"vinyl control allows that feel to be preserved while retaining the benefits "
+"of using digital audio."
+msgstr ""
+
+#: ../../chapters/controlling_mixxx.rst:195
+msgid "Go to :ref:`vinyl-control` for detailed information."
+msgstr ""
