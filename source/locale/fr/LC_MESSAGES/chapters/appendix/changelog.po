@@ -3,6 +3,10 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
+"Last-Translator: 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +24,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliothèque - Icône d'AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -211,7 +216,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: ../../chapters/appendix/changelog.rst:10
 msgid "Changelog"
@@ -226,7 +231,7 @@ msgstr ""
 #: ../../chapters/appendix/changelog.rst:498
 #: ../../chapters/appendix/changelog.rst:945
 msgid "Library"
-msgstr ""
+msgstr "Bibliothèque"
 
 #: ../../chapters/appendix/changelog.rst:21
 msgid ""
@@ -1451,7 +1456,7 @@ msgstr ""
 #: ../../chapters/appendix/changelog.rst:482
 #: ../../chapters/appendix/changelog.rst:1616
 msgid "Effects"
-msgstr ""
+msgstr "Effets"
 
 #: ../../chapters/appendix/changelog.rst:485
 msgid ""
@@ -1691,7 +1696,7 @@ msgstr ""
 #: ../../chapters/appendix/changelog.rst:579
 #: ../../chapters/appendix/changelog.rst:1799
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: ../../chapters/appendix/changelog.rst:582
 msgid ""
@@ -5334,7 +5339,7 @@ msgstr ""
 
 #: ../../chapters/appendix/changelog.rst:1826
 msgid "Known issues"
-msgstr ""
+msgstr "Problèmes connus"
 
 #: ../../chapters/appendix/changelog.rst:1829
 msgid ""

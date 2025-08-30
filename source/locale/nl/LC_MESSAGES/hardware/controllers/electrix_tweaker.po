@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,7 +94,7 @@ msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:45
 msgid "Samplers"
-msgstr ""
+msgstr "Samplers"
 
 #: ../../hardware/controllers/electrix_tweaker.rst:47
 msgid "Off when empty, red when loaded"
@@ -122,7 +126,7 @@ msgstr ""
 
 #: ../../hardware/controllers/electrix_tweaker.rst:60
 msgid "Crossfader"
-msgstr ""
+msgstr "Cross-fader"
 
 #: ../../hardware/controllers/electrix_tweaker.rst:63
 msgid "Top shift layer"

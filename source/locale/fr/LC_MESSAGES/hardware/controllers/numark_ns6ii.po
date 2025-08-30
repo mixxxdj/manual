@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-17 19:17+0200\n"
 "PO-Revision-Date: 2025-04-17 17:25+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,7 +97,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_ns6ii.rst:48
 msgid "Headphones"
-msgstr ""
+msgstr "Casques"
 
 #: ../../hardware/controllers/numark_ns6ii.rst:52
 msgid "Input Channels"
@@ -197,7 +201,7 @@ msgstr ""
 #: ../../hardware/controllers/numark_ns6ii.rst:440
 #: ../../hardware/controllers/numark_ns6ii.rst:469
 msgid "Function"
-msgstr ""
+msgstr "Fonction"
 
 #: ../../hardware/controllers/numark_ns6ii.rst:86
 #: ../../hardware/controllers/numark_ns6ii.rst:186
@@ -337,7 +341,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_ns6ii.rst:94
 msgid "Crossfader"
-msgstr ""
+msgstr "Curseur de mixage"
 
 #: ../../hardware/controllers/numark_ns6ii.rst:94
 msgid "Fades volume between side A and B"
@@ -868,6 +872,10 @@ msgid ""
 "crossfader the deck is assigned. It can be set to the left or right side, or"
 " to the center where it is unaffected by the crossfader knob."
 msgstr ""
+"Les commutateurs d'orientation :term:`curseur de mixage (crossfader)` "
+"déterminent à quel côté du curseur la platine est assignée. Il peut être "
+"réglé sur le côté gauche ou droit, ou au centre où il n'est pas affecté par "
+"le potentiomètre du curseur."
 
 #: ../../hardware/controllers/numark_ns6ii.rst:167
 msgid "13"
@@ -1556,7 +1564,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_ns6ii.rst:426
 msgid "Intro/Outro Markers"
-msgstr ""
+msgstr "Marqueurs Intro/Outro"
 
 #: ../../hardware/controllers/numark_ns6ii.rst:437
 msgid "This mode allow you to prepare tracks by setting intro/outro cues."
@@ -1764,7 +1772,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_ns6ii.rst:537
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../hardware/controllers/numark_ns6ii.rst:539
 msgid "Use Button Backlight"

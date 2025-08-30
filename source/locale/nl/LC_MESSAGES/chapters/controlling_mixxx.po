@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2024
+# MjrLZ, 2025
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"Last-Translator: MjrLZ, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,155 +24,155 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliotheek - Pictogram AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bladeren"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Crates"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Slepen"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis huidige sessie"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Bibliotheek - Pictogram iTunes"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Vergrendeld"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Ontbrekende Nummers"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Afspeellijst"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Analyseer"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Opnames"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Rhythmbox"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Pauzeer"
 
 #: ../../shortcuts.rstext:118
 msgid "Library - Preview Play"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Afspelen"
 
 #: ../../shortcuts.rstext:124
 msgid "Library - BPM Locked"
-msgstr ""
+msgstr "Bibliotheek - BPM Vergrendeld"
 
 #: ../../shortcuts.rstext:130
 msgid "Library - BPM Unlocked"
-msgstr ""
+msgstr "Bibliotheek - BPM Ontgrendeld"
 
 #: ../../shortcuts.rstext:139
 msgid "Preferences - Icon BPM Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram BPM Detectie"
 
 #: ../../shortcuts.rstext:145
 msgid "Preferences - Icon Live Broadcasting"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Live Uitzending"
 
 #: ../../shortcuts.rstext:151
 msgid "Preferences - Icon Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Controllers"
 
 #: ../../shortcuts.rstext:157
 msgid "Preferences - Icon Crossfader"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Crossfader"
 
 #: ../../shortcuts.rstext:163
 msgid "Preferences - Icon Effects"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Effecten"
 
 #: ../../shortcuts.rstext:169
 msgid "Preferences - Icon Equalizers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Equalizers"
 
 #: ../../shortcuts.rstext:175
 msgid "Preferences - Icon Interface"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Interface"
 
 #: ../../shortcuts.rstext:181
 msgid "Preferences - Icon Key Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Toonaard Detectie"
 
 #: ../../shortcuts.rstext:187
 msgid "Preferences - Icon Library"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:193
 msgid "Preferences - Icon MIDI Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram MIDI Controllers"
 
 #: ../../shortcuts.rstext:199
 msgid "Preferences - Icon Modplug Decoder"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Modplug Decoder"
 
 #: ../../shortcuts.rstext:205
 msgid "Preferences - Icon Recording"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Opnemen"
 
 #: ../../shortcuts.rstext:211
 msgid "Preferences - Icon ReplayGain"
-msgstr ""
+msgstr "Voorkeuren - Pictogram ReplayVolume"
 
 #: ../../shortcuts.rstext:217
 msgid "Preferences - Icon Sampler"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Sampler"
 
 #: ../../shortcuts.rstext:223
 msgid "Preferences - Icon Sound Hardware"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Geluidshardware"
 
 #: ../../shortcuts.rstext:229
 msgid "Preferences - Icon Vinyl Control"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Vinyl Control"
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
@@ -215,7 +216,7 @@ msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/controlling_mixxx.rst:6
 msgid "Controlling Mixxx"

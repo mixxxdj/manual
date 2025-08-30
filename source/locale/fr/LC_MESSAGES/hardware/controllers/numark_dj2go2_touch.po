@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 06:01+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +78,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:35
 msgid "Headphones"
-msgstr ""
+msgstr "Casques"
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:39
 msgid "Controller Mapping"
@@ -82,7 +86,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:42
 msgid "Decks"
-msgstr ""
+msgstr "Platines"
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:45
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:78
@@ -100,7 +104,7 @@ msgstr ""
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:78
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:91
 msgid "Function"
-msgstr ""
+msgstr "Fonction"
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:47
 msgid "2"
@@ -329,7 +333,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:83
 msgid "Crossfader"
-msgstr ""
+msgstr "Curseur de mixage"
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:83
 msgid "Fades between left and right deck."
@@ -349,7 +353,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:93
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../hardware/controllers/numark_dj2go2_touch.rst:93
 msgid "Micro USB slot for data / power connection to the Mixxx host device."
