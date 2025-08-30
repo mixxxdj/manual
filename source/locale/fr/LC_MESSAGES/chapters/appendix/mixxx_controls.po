@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliothèque - Icône d'AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -211,7 +215,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: ../../chapters/appendix/mixxx_controls.rst:6
 msgid "Mixxx Controls"
@@ -2102,7 +2106,7 @@ msgstr ""
 #: ../../chapters/appendix/mixxx_controls.rst:3878
 #: ../../chapters/appendix/mixxx_controls.rst:4571
 msgid "Meaning"
-msgstr ""
+msgstr "Signification"
 
 #: ../../chapters/appendix/mixxx_controls.rst:1413
 #: ../../chapters/appendix/mixxx_controls.rst:4573
@@ -2129,7 +2133,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:1430
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: ../../chapters/appendix/mixxx_controls.rst:1432
 msgid "Invalid/Not Set"
@@ -4425,11 +4429,11 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3664
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3664
 msgid "Library"
-msgstr ""
+msgstr "Bibliothèque"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3664
 msgid "Playlist"
@@ -4501,11 +4505,11 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3680
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3681
 msgid "ReplayGain"
-msgstr ""
+msgstr "ReplayGain"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3682
 msgid "Datetime Added"
@@ -4521,7 +4525,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3685
 msgid "Key"
-msgstr ""
+msgstr "Raccourcis"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3686
 msgid "Preview"
@@ -4541,7 +4545,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3690
 msgid "Location"
-msgstr ""
+msgstr "Emplacement"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3691
 msgid "26"
@@ -4573,7 +4577,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3694
 msgid "Sample Rate"
-msgstr ""
+msgstr "Taux d'échantillonnage"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3695
 msgid "30"

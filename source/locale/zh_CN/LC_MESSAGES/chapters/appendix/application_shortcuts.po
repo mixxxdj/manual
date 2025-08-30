@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mia Liu, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29 13:35+0100\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Mia Liu, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,43 +23,43 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "库 - AutoDJ 图标"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "库 - Banshee 图标"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "库 - Recordbox 图标"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "库 - 浏览图标"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "库 - 曲目集图标"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "库 - 拖放图标"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "库 - 当前会话历史图标"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "库 - 历史图标"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "库 - iTunes 图标"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "库 - 媒体库图标"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"

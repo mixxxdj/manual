@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29 13:35+0100\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +92,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:25
 msgid "Headphones"
-msgstr ""
+msgstr "Hoofdtelefoons"
 
 #: ../../hardware/controllers/stanton_djc_4.rst:29
 msgid "Input Channels"
@@ -166,7 +170,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:62
 msgid "Controls"
-msgstr ""
+msgstr "Besturingselementen"
 
 #: ../../hardware/controllers/stanton_djc_4.rst:65
 msgid "Center section"
@@ -198,7 +202,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_djc_4.rst:158
 #: ../../hardware/controllers/stanton_djc_4.rst:170
 msgid "Function"
-msgstr ""
+msgstr "Functie"
 
 #: ../../hardware/controllers/stanton_djc_4.rst:70
 #: ../../hardware/controllers/stanton_djc_4.rst:83
@@ -393,7 +397,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:91
 msgid "Adjusts the cue/main mix in the headphone output."
-msgstr ""
+msgstr "Past de cue/main mix in de hoofdtelefoon aan."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:92
 msgid "10"
@@ -405,7 +409,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:92
 msgid "Adjusts the headphone output gain."
-msgstr ""
+msgstr "Past de hoofdtelefoon output gain aan."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:96
 msgid "Deck section"
@@ -624,7 +628,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:130
 msgid "Seek to the loop in point."
-msgstr ""
+msgstr "Zoek naar het lus-in punt."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:131
 msgid ":hwlabel:`OUT`"
@@ -643,7 +647,7 @@ msgstr ""
 
 #: ../../hardware/controllers/stanton_djc_4.rst:132
 msgid "Seek to the loop out point."
-msgstr ""
+msgstr "Zoek naar het lus-uit punt."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:133
 #: ../../hardware/controllers/stanton_djc_4.rst:160
@@ -655,6 +659,9 @@ msgid ""
 "Toggles the current loop on or off. If the loop is ahead of the current play"
 " position, the track will keep playing normally until it reaches the loop."
 msgstr ""
+"Schakelt de huidige lus In of Uit. Indien de lus voor de huidige "
+"afspeelpositie ligt dan zal de track normaal doorspelen tot de lus bereikt "
+"wordt."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:134
 msgid "SHIFT + ON"
@@ -663,6 +670,7 @@ msgstr ""
 #: ../../hardware/controllers/stanton_djc_4.rst:134
 msgid "Activate current loop, jump to its loop in point, and stop playback."
 msgstr ""
+"Activeer de huidige lus, spring naar het loop in punt, en stop het afspelen."
 
 #: ../../hardware/controllers/stanton_djc_4.rst:135
 msgid ":hwlabel:`DELETE`"

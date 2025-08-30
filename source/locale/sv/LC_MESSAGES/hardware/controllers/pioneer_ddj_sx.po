@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 07:51+0200\n"
-"PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1337,7 +1337,7 @@ msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:167
-msgid "Decreate *beatjump_size*"
+msgid "Decrease *beatjump_size*"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:174

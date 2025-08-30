@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 16:26+0100\n"
-"PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/mixxx-dj-software/teams/7734/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -497,92 +497,92 @@ msgstr ""
 #: ../../chapters/preferences/sound_hardware.rst:190
 msgid ""
 "In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-"
-"card` or :ref:`setup-laptop-and-external-card`) all that needs to be "
-"configured are the Master and Headphones outputs. Though, there are many "
-"more output and input channels available for more complex setups, for "
-"example with external mixers, vinyl control or for broadcasting."
+"card` or :ref:`setup-laptop-and-external-card`), all that needs to be "
+"configured are the Main and Headphones outputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:196
+#: ../../chapters/preferences/sound_hardware.rst:194
+msgid ""
+"Deck and Bus outputs are intended for use with external hardware mixers. "
+"They are taken *post-fader*, which means they include channel volume and "
+"crossfader adjustments and applied effects. When mixing manually, all Mixxx-"
+"internal mixer controls (Volume fader, EQs and crossfader) need to be reset "
+"so that the internal mixer doesn’t affect the sound. When using Auto DJ, the"
+" external mixer's crossfader needs to centered since Auto DJ will use the "
+"internal crossfader."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:202
 msgid ""
 "All outputs are usually sent to a channel pair (stereo), though they can "
-"also be sent to one channel only (mono mixdown), for example if you're short"
-" on output channels, like when you need to use one stereo output for both "
-"master and headphones (see :ref:`setup-laptop-with-splitter`)."
+"also be sent to a single channel (mono mixdown), for example if you need to "
+"use one stereo output for both Master and Headphones (see :ref:`setup-"
+"laptop-with-splitter`)."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:201
+#: ../../chapters/preferences/sound_hardware.rst:206
 msgid ""
-"Inputs can be mono or stereo (matching plugged sources, of course), except "
-"vinyl control inputs which require stereo to capture the entire control "
-"signal."
-msgstr ""
-
-#: ../../chapters/preferences/sound_hardware.rst:205
-msgid "Outputs"
-msgstr ""
-
-#: ../../chapters/preferences/sound_hardware.rst:207
-msgid ""
-"**Master** (Main): The mix of all audible channels, e.g. main decks, all "
-"samplers, enabled microphones and auxiliary inputs."
+"Inputs can be mono or stereo, depending on the connected sources. Vinyl "
+"control inputs always require stereo to capture the full control signal."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:210
-msgid ""
-"**Headphones**: All channels for which :term:`pfl` is enabled, as well as "
-"the preview deck."
+msgid "Outputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:213
+#: ../../chapters/preferences/sound_hardware.rst:212
+msgid ""
+"**Main** (Master): The mix of all audible channels, e.g. main decks, all "
+"samplers, enabled microphones and auxiliary inputs."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:215
+msgid ""
+"**Headphones**: All channels for which :term:`pfl` is enabled, including the"
+" preview deck."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:218
 msgid ""
 "**Booth**: Basically the same output as Main to be routed to a separate "
 "output, for example for the speakers in the DJ booth, external recording "
 "device, loopback device for video recordings etc."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:217
+#: ../../chapters/preferences/sound_hardware.rst:222
 msgid ""
-"**Left Bus**: All decks, samplers and auxiliaries that are assigned to the "
-"left side of the :term:`crossfader`."
-msgstr ""
-
-#: ../../chapters/preferences/sound_hardware.rst:220
-msgid ""
-"**Center Bus**: All decks, samplers and auxiliaries that are assigned to the"
-" center of the :term:`crossfader`."
-msgstr ""
-
-#: ../../chapters/preferences/sound_hardware.rst:223
-msgid ""
-"**Right Bus**: All decks, samplers and auxiliaries that are assigned to the "
-"right side of the :term:`crossfader`."
+"**Left Bus / Center Bus / Right Bus**: All decks, samplers, and auxiliaries "
+"routed to the respective side of the :term:`crossfader`. The buses are "
+"picked post-fader and post-effects and can be used with an external two "
+"channel mixer."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:226
-msgid "**Deck 1-4**: Separate outputs for each of the main decks."
+msgid ""
+"**Deck 1-4**: Separate outputs for each of the main decks. They are picked "
+"post-fader and include effects and crossfader (for Auto DJ)."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:229
+#: ../../chapters/preferences/sound_hardware.rst:230
 msgid "Inputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:231
+#: ../../chapters/preferences/sound_hardware.rst:232
 msgid ""
 "**Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and "
 "passthrough <vinyl-control>`. Note that one input can be selected for "
 "multiple decks."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:234
+#: ../../chapters/preferences/sound_hardware.rst:235
 msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:236
+#: ../../chapters/preferences/sound_hardware.rst:237
 msgid "**Auxiliary 1-4**: Auxiliary inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:238
+#: ../../chapters/preferences/sound_hardware.rst:239
 msgid ""
 "**Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording "
 "<djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`. "

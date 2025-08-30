@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2129,7 +2133,7 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:1430
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: ../../chapters/appendix/mixxx_controls.rst:1432
 msgid "Invalid/Not Set"
@@ -4501,11 +4505,11 @@ msgstr ""
 
 #: ../../chapters/appendix/mixxx_controls.rst:3680
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3681
 msgid "ReplayGain"
-msgstr ""
+msgstr "Выравнивание громкости"
 
 #: ../../chapters/appendix/mixxx_controls.rst:3682
 msgid "Datetime Added"

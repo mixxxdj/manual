@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 23:25+0200\n"
 "PO-Revision-Date: 2025-08-26 21:28+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +66,7 @@ msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
 msgid "Function"
-msgstr ""
+msgstr "Fonction"
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
 msgid "L1"
@@ -311,7 +315,7 @@ msgstr ""
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
 msgid "Colors"
-msgstr ""
+msgstr "Couleurs"
 
 #: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
 msgid "The color of the selected deck button."
