@@ -131,26 +131,26 @@ Moves modes define how the "move" encoder (the one on the left) reacts when used
 2. **Grid**: The track's detected beats will be move forward or backward on the waveform.
 3. **BPM**: The track's detected BPM will be increased or decreased.
 4. **Keyboard**: The keyboard's keys displayed on pads get moved up or down to display higher or lower keynotes.
-5. **Hotcue color**: When selecting a hotcue, the move encoder can be used to change the selected color.
+5. **Hotcue color**: When holding both :hwlabel:`HOTCUES` and a hotcue, the move encoder can be used to change the selected color.
 
    .. note:: When using the shared data API, this will display hotcue metadata such as label (if any), timecode and type.
 
 Here is how to tell use each modes:
 
-+--------------+---------------------------------------------------------------------+
-| Mode         |                                                                     |
-+==============+=====================================================================+
-| Beat         | This mode is enable if no other mode are enabled                    |
-+--------------+---------------------------------------------------------------------+
-| Grid         | This mode is enabled while :hwlabel:`GRID` is held down             |
-+--------------+---------------------------------------------------------------------+
-| BPM          | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are   |
-|              | held down                                                           |
-+--------------+---------------------------------------------------------------------+
-| Keyboard     | This mode is enabled while STEM is held down                        |
-+--------------+---------------------------------------------------------------------+
-| Hotcue color | This mode is enabled while HOTCUE is held down                      |
-+--------------+---------------------------------------------------------------------+
++--------------+-----------------------------------------------------------------------------+
+| Mode         |                                                                             |
++==============+=============================================================================+
+| Beat         | This mode is enable if no other mode are enabled                            |
++--------------+-----------------------------------------------------------------------------+
+| Grid         | This mode is enabled while :hwlabel:`GRID` is held down                     |
++--------------+-----------------------------------------------------------------------------+
+| BPM          | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are           |
+|              | held down                                                                   |
++--------------+-----------------------------------------------------------------------------+
+| Keyboard     | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`STEM` is held down  |
++--------------+-----------------------------------------------------------------------------+
+| Hotcue color | This mode is enabled while :hwlabel:`HOTCUES` is held down                  |
++--------------+-----------------------------------------------------------------------------+
 
 All mapping detail
 ~~~~~~~~~~~~~~~~~~
