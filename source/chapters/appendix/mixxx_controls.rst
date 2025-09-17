@@ -1792,13 +1792,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_anchor
                    [SamplerN],loop_anchor
 
-   Determines whether loops created with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` or
-   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>` use the current position as loop start or loop end.
+   Adjusts whether loops created with :mixxx:coref:`[ChannelN],beatloop_X_activate`,
+   :mixxx:coref:`[ChannelN],beatloop_X_toggle` or :mixxx:coref:`[ChannelN],beatloop_rX_activate`
+   span forward or backward from the current play position.
 
-   0 for loop start (default), 1 for loop end.
-
-   :range: binary
-   :feedback: Loop anchor button changes state
+   :range:
+     =====  =========
+     Value  Direction
+     =====  =========
+     0      forward
+     -----  ---------
+     1      backward
+     =====  =========
+   :feedback: Loop anchor button
 
    .. versionadded:: 2.5.0
 
