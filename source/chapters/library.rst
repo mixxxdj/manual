@@ -471,6 +471,14 @@ Mixxx supports the following filters:
 
        ~bpm:100
 
+  * Constant BPM search finds tracks that were analyzed with "Assume constant tempo".
+    Combine with "not"/negative prefix``-`` to find all tracks with variable tempo.
+
+    ::
+
+       bpm:const
+       bpm:constant
+
 
     The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
