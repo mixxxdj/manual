@@ -410,30 +410,37 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
    .. versionadded:: 2.1.0
 
 
-.. mixxx:control:: [Master],PeakIndicator
+.. mixxx:control:: [Main],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
 
    :range: binary
    :feedback: Clip light (mono)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicator` control.
 
-.. mixxx:control:: [Master],PeakIndicatorL
+
+.. mixxx:control:: [Main],peak_indicator_l
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
-
 
    :range: binary
    :feedback: Clip light (left)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicatorL` control.
 
-.. mixxx:control:: [Master],PeakIndicatorR
+
+.. mixxx:control:: [Main],peak_indicator_r
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
 
-
    :range: binary
    :feedback: Clip light (right)
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicatorR` control.
 
 
 .. mixxx:control:: [Master],talkoverDucking
@@ -446,30 +453,37 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [Master],VuMeter
+.. mixxx:control:: [Main],vu_meter
 
    Outputs the current instantaneous main volume (composite).
 
    :range: default
    :feedback: Main meter (mono)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeter` control.
 
-.. mixxx:control:: [Master],VuMeterL
+
+.. mixxx:control:: [Main],vu_meter_l
 
    Outputs the current instantaneous main volume for the left channel.
-
 
    :range: default
    :feedback: Main meter L
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeterL` control.
 
-.. mixxx:control:: [Master],VuMeterR
+
+.. mixxx:control:: [Main],vu_meter_r
 
    Outputs the current instantaneous main volume for the right channel.
 
-
    :range: default
    :feedback: Main meter R
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeterR` control.
 
 
 .. _appendix-mixxxcontrols-decks:
@@ -4389,6 +4403,72 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[Master],gain` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
+
+   :range: binary
+   :feedback: Clip light (mono)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
+
+   :range: binary
+   :feedback: Clip light (left)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator_l` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicatorR
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
+
+   :range: binary
+   :feedback: Clip light (right)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator_r` instead.
+
+
+.. mixxx:control:: [Master],VuMeter
+
+   Outputs the current instantaneous main volume (composite).
+
+   :range: default
+   :feedback: Main meter (mono)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter` instead.
+
+
+.. mixxx:control:: [Master],VuMeterL
+
+   Outputs the current instantaneous main volume for the left channel.
+
+   :range: default
+   :feedback: Main meter L
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter_l` instead.
+
+
+.. mixxx:control:: [Master],VuMeterR
+
+   Outputs the current instantaneous main volume for the right channel.
+
+   :range: default
+   :feedback: Main meter R
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter_r` instead.
 
 
 .. mixxx:control:: [Master],maximize_library
