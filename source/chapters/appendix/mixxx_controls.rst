@@ -104,6 +104,34 @@ The ``[App]`` group
 
 The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
 
+
+
+.. mixxx:control:: [App],gui_tick_50ms_period_s
+
+   A throttled timer that provides the time elapsed in seconds since Mixxx was started.
+
+   This control is updated at a rate of 20 Hz (every 50 milliseconds). It is the preferred timer for scripting animations in controller mappings (like VU meters or spinning animations) as it provides a smooth visual result without the performance overhead of :mixxx:coref:`[App],gui_tick_full_period_s`.
+
+   Only available when using the legacy GUI (not the QML interface).
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],gui_tick_full_period_s
+
+   A high-resolution timer that provides the elapsed time in seconds since Mixxx was started.
+
+   This control is updated on every GUI tick, which corresponds to the waveform rendering frame rate. It is suitable for very smooth, high-framerate animations in scripts. However, for most use cases like VU meters, consider using :mixxx:coref:`[App],gui_tick_50ms_period_s` to improve performance by reducing the script execution rate.
+
+   Only available when using the legacy GUI (not the QML interface).
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
 .. mixxx:control:: [App],indicator_250ms
 
    Alternates between 0.0 and 1.0 every 250 milliseconds.
@@ -4328,6 +4356,27 @@ Deprecated controls
 These controls have been deprecated and may be removed in a future version of Mixxx.
 In the meantime, skins and controller mappings that still use them will keep working, but using the suggested alternatives is strongly recommended.
 
+.. mixxx:control:: [Master],guiTick50ms
+
+   A throttled timer that provides the time elapsed in seconds since Mixxx was started.
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+   .. deprecated:: 2.5.0
+       Use :mixxx:coref:`[App],gui_tick_50ms_period_s` instead.
+
+.. mixxx:control:: [Master],guiTickTime
+
+   A high-resolution timer that provides the elapsed time in seconds since Mixxx was started.
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+   .. deprecated:: 2.5.0
+       Use :mixxx:coref:`[App],gui_tick_full_period_s` instead.
 
 .. mixxx:control:: [Master],num_decks
 
