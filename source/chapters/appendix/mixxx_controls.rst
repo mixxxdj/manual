@@ -211,8 +211,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: 0 .. 25 %
    :feedback: latency meter
 
@@ -222,8 +220,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 .. mixxx:control:: [Master],audio_latency_overload
 
    Indicates a buffer under or over-flow. Resets after 500 ms
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Overload indicator
@@ -418,8 +414,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Clip light (mono)
 
@@ -428,7 +422,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (left)
@@ -438,7 +431,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (right)
@@ -458,8 +450,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Outputs the current instantaneous main volume (composite).
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: default
    :feedback: Main meter (mono)
 
@@ -468,7 +458,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Outputs the current instantaneous main volume for the left channel.
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Main meter L
@@ -478,7 +467,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    Outputs the current instantaneous main volume for the right channel.
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Main meter R
@@ -2199,8 +2187,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Clip light
 
@@ -2210,7 +2196,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (left)
@@ -2223,8 +2208,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (right)
@@ -2943,8 +2926,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Outputs the current instantaneous deck volume
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: default
    :feedback: Deck VU meter
 
@@ -2955,7 +2936,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Outputs the current instantaneous deck volume for the left channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter L
@@ -2967,7 +2947,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Outputs the current instantaneous deck volume for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter R
@@ -3117,8 +3096,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Microphone Clip light
 
@@ -3130,8 +3107,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Clip light (left)
 
@@ -3142,8 +3117,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (right)
@@ -3213,8 +3186,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    Outputs the current instantaneous channel volume
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: default
    :feedback: Microphone VU meter changes
 
@@ -3226,7 +3197,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    Outputs the current instantaneous deck volume for the left channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter L
@@ -3239,7 +3209,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    Outputs the current instantaneous deck volume for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter R
