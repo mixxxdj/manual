@@ -2195,30 +2195,37 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],PeakIndicator
-                   [PreviewDeckN],PeakIndicator
-                   [SamplerN],PeakIndicator
+.. mixxx:control:: [ChannelN],peak_indicator
+                   [PreviewDeckN],peak_indicator
+                   [SamplerN],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
    :range: binary
    :feedback: Clip light
 
-.. mixxx:control:: [ChannelN],PeakIndicatorL
-                   [PreviewDeckN],PeakIndicatorL
-                   [SamplerN],PeakIndicatorL
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicator`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicator` and
+      :mixxx:coref:`[SamplerN],PeakIndicator` controls.
+
+.. mixxx:control:: [ChannelN],peak_indicator_l
+                   [PreviewDeckN],peak_indicator_l
+                   [SamplerN],peak_indicator_l
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
-
 
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicatorL`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicatorL` and
+      :mixxx:coref:`[SamplerN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [ChannelN],PeakIndicatorR
-                   [PreviewDeckN],PeakIndicatorR
-                   [SamplerN],PeakIndicatorR
+.. mixxx:control:: [ChannelN],peak_indicator_r
+                   [PreviewDeckN],peak_indicator_r
+                   [SamplerN],peak_indicator_r
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
@@ -2226,7 +2233,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicatorR`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicatorR` and
+      :mixxx:coref:`[SamplerN],PeakIndicatorR` controls.
 
 .. mixxx:control:: [ChannelN],pfl
                    [PreviewDeckN],pfl
@@ -2934,36 +2944,49 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],VuMeter
-                   [PreviewDeckN],VuMeter
-                   [SamplerN],VuMeter
+.. mixxx:control:: [ChannelN],vu_meter
+                   [PreviewDeckN],vu_meter
+                   [SamplerN],vu_meter
 
    Outputs the current instantaneous deck volume
 
    :range: default
    :feedback: Deck VU meter
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeter`,
+      :mixxx:coref:`[PreviewDeckN],VuMeter` and
+      :mixxx:coref:`[SamplerN],VuMeter` controls.
 
-.. mixxx:control:: [ChannelN],VuMeterL
-                   [PreviewDeckN],VuMeterL
-                   [SamplerN],VuMeterL
+
+.. mixxx:control:: [ChannelN],vu_meter_l
+                   [PreviewDeckN],vu_meter_l
+                   [SamplerN],vu_meter_l
 
    Outputs the current instantaneous deck volume for the left channel
-
 
    :range: default
    :feedback: Deck VU meter L
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeterL`,
+      :mixxx:coref:`[PreviewDeckN],VuMeterL` and
+      :mixxx:coref:`[SamplerN],VuMeterL` controls.
 
-.. mixxx:control:: [ChannelN],VuMeterR
-                   [PreviewDeckN],VuMeterR
-                   [SamplerN],VuMeterR
+
+.. mixxx:control:: [ChannelN],vu_meter_r
+                   [PreviewDeckN],vu_meter_r
+                   [SamplerN],vu_meter_r
 
    Outputs the current instantaneous deck volume for the right channel
 
-
    :range: default
    :feedback: Deck VU meter R
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeterR`,
+      :mixxx:coref:`[PreviewDeckN],VuMeterR` and
+      :mixxx:coref:`[SamplerN],VuMeterR` controls.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom
@@ -3105,29 +3128,33 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    .. versionadded:: 1.10.0
 
-.. mixxx:control:: [MicrophoneN],PeakIndicator
-                   [AuxiliaryN],PeakIndicator
+.. mixxx:control:: [MicrophoneN],peak_indicator
+                   [AuxiliaryN],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
 
    :range: binary
    :feedback: Microphone Clip light
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicator` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicator` controls.
 
 
-.. mixxx:control:: [MicrophoneN],PeakIndicatorL
-                   [AuxiliaryN],PeakIndicatorL
+.. mixxx:control:: [MicrophoneN],peak_indicator_l
+                   [AuxiliaryN],peak_indicator_l
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
 
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicatorL` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [MicrophoneN],PeakIndicatorR
-                   [AuxiliaryN],PeakIndicatorR
+.. mixxx:control:: [MicrophoneN],peak_indicator_r
+                   [AuxiliaryN],peak_indicator_r
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
@@ -3135,7 +3162,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicatorR` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicatorR` controls.
 
 .. mixxx:control:: [MicrophoneN],pfl
                    [AuxiliaryN],pfl
@@ -3195,39 +3224,46 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [MicrophoneN],VuMeter
-                   [AuxiliaryN],VuMeter
+.. mixxx:control:: [MicrophoneN],vu_meter
+                   [AuxiliaryN],vu_meter
 
    Outputs the current instantaneous channel volume
 
    :range: default
    :feedback: Microphone VU meter changes
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 1.10.
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeter` and
+      :mixxx:coref:`[AuxiliaryN],VuMeter` controls.
 
 
-.. mixxx:control:: [MicrophoneN],VuMeterL
-                   [AuxiliaryN],VuMeterL
+.. mixxx:control:: [MicrophoneN],vu_meter_l
+                   [AuxiliaryN],vu_meter_l
 
    Outputs the current instantaneous deck volume for the left channel
 
 
    :range: default
-   :feedback: Deck VU meter L
+   :feedback: Microphone/auxiliary VU meter L
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeterL` and
+      :mixxx:coref:`[AuxiliaryN],VuMeterL` controls.
 
 
-.. mixxx:control:: [MicrophoneN],VuMeterR
-                   [AuxiliaryN],VuMeterR
+.. mixxx:control:: [MicrophoneN],vu_meter_r
+                   [AuxiliaryN],vu_meter_r
 
    Outputs the current instantaneous deck volume for the right channel
 
 
    :range: default
-   :feedback: Deck VU meter R
+   :feedback: Microphone/auxiliary VU meter R
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeterR` and
+      :mixxx:coref:`[AuxiliaryN],VuMeterR` controls.
 
 
 The ``[VinylControl]`` group
@@ -4774,6 +4810,188 @@ In the meantime, skins and controller mappings that still use them will keep wor
    .. deprecated:: 1.10.0
 
       The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicator
+                   [PreviewDeckN],PeakIndicator
+                   [SamplerN],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted)
+
+   :range: binary
+   :feedback: Clip light
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator` and
+      :mixxx:coref:`[SamplerN],peak_indicator` instead.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicatorL
+                   [PreviewDeckN],PeakIndicatorL
+                   [SamplerN],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator_l`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_l` and
+      :mixxx:coref:`[SamplerN],peak_indicator_l` instead.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicatorR
+                   [PreviewDeckN],PeakIndicatorR
+                   [SamplerN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator_r`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_r` and
+      :mixxx:coref:`[SamplerN],peak_indicator_r` instead.
+
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicator
+                   [AuxiliaryN],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted)
+
+   :range: binary
+   :feedback: Microphone Clip light
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator` instead.
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicatorL
+                   [AuxiliaryN],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_l` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_l` instead.
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicatorR
+                   [AuxiliaryN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_r` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_r` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeter
+                   [PreviewDeckN],VuMeter
+                   [SamplerN],VuMeter
+
+   Outputs the current instantaneous deck volume
+
+   :range: default
+   :feedback: Deck VU meter
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter` and
+      :mixxx:coref:`[SamplerN],vu_meter` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeterL
+                   [PreviewDeckN],VuMeterL
+                   [SamplerN],VuMeterL
+
+   Outputs the current instantaneous deck volume for the left channel
+
+   :range: default
+   :feedback: Deck VU meter L
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter_l`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_l` and
+      :mixxx:coref:`[SamplerN],vu_meter_l` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeterR
+                   [PreviewDeckN],VuMeterR
+                   [SamplerN],VuMeterR
+
+   Outputs the current instantaneous deck volume for the right channel
+
+   :range: default
+   :feedback: Deck VU meter R
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter_r`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_r` and
+      :mixxx:coref:`[SamplerN],vu_meter_r` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeter
+                   [AuxiliaryN],VuMeter
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 1.10.
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterL
+                   [AuxiliaryN],VuMeterL
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_l` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_l` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterR
+                   [AuxiliaryN],VuMeterR
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_r` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_r` instead.
 
 
 .. mixxx:control:: [Playlist],LoadSelectedIntoFirstStopped
