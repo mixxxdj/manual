@@ -390,7 +390,8 @@ Using search operators
 ----------------------
 
 Search operators allow you to form more complex search queries. They allow you
-to limit certain search terms to particular properties of your tracks.
+to limit certain search terms to particular properties of your tracks. Also consider
+:ref:`using property shortcuts <library-search-shortcuts>`
 
 Mixxx supports the following filters:
 
@@ -535,6 +536,48 @@ Examples
 
 .. note::
   The spelled-out form is case-sensitive: While uppercase ``OR`` refers to the operator, lowercase ``or`` refers to the literal string ``or``. Using the quoted form ``"OR"`` will also search for the literal string.
+
+
+.. _library-search-shortcuts:
+
+Search shortcuts
+----------------
+
+For each searchable property there is a shortcut:
+
+=== ==================
+a   artist
+--- ------------------
+aa  album artist
+--- ------------------
+ad  date added
+--- ------------------
+al  album
+--- ------------------
+b   bpm
+--- ------------------
+cm  comment
+--- ------------------
+cp  composer
+--- ------------------
+du  duration
+--- ------------------
+g   genre
+--- ------------------
+gr  grouping
+--- ------------------
+k   key
+--- ------------------
+lo  location
+--- ------------------
+r   rating
+--- ------------------
+t   title
+--- ------------------
+tr  track (number)
+--- ------------------
+y   year
+=== ==================
 
 .. _library-previewing-tracks:
 
