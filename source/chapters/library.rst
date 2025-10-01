@@ -425,7 +425,7 @@ Mixxx supports the following filters:
       title:= "Track 1"
       artist:="DJ Flop"
 
-* **Numeric filtering**: bpm, bitrate, played, rating, track, year
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year, id (internal track id)
 
   Examples
     ::
