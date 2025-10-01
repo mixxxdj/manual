@@ -128,3 +128,23 @@ No.  Control                                                Function
 7    Cross fader                                            Fade between left and right deck
 7    :hwlabel:`SHIFT` + Cross fader                         zero->notzero: "FADER Start", play track. notzero->zero: "FADER Stop", pause track and set cue
 ===  =====================================================  ============================================================================================
+
+Configure Controller DEMO mode
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Disabling Demo Mode according to the user manual:
+
+1. Disconnect the USB cable / power supply
+2. Hold both the [SHIFT] and [PLAY/PAUSE] buttons and connect USB cable / power supply
+3. Use performance pads to change the settings
+
+-  Pad 1 - Demo mode is switched off
+-  Pad 2 - Demo mode starts when you don’t use the unit for 1 minute
+-  Pad 3 - Demo mode starts when you don’t use the unit for 5 minutes
+-  Pad 4 - Demo mode starts when you don’t use the unit for 10 minutes
+
+While saving bottom row of Performance Pads is flashing. Wait till it stops.
+
+4. Disconnect the USB cable / power supply
+
+
