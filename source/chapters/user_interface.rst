@@ -624,8 +624,8 @@ control rate changes also from your computer's keyboard, see the chapter
 **Pitch/Rate slider**
   The slider allows you to change the speed of the song from the track's
   original tempo.  In default configuration the speed will increase as you move
-  the slider down, and decrease as you move the slider up (similar to the 
-  behaviour found on DJ turntables and :term:`CDJ` units where moving the 
+  the slider down, and decrease as you move the slider up (similar to the
+  behaviour found on DJ turntables and :term:`CDJ` units where moving the
   slider towards you increases the speed).  Note that the direction can be
   inverted, and the range of adjustment widened/narrowed by the settings found
   under "Decks" in Mixxx's preferences.
