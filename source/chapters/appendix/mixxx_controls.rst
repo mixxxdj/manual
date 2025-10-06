@@ -4321,6 +4321,23 @@ The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selectiv
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
 
+.. mixxx:control:: [Skin],highlight_input_allow
+
+   Toggle the external highlighting of :term:`user interface <GUI>` elements by the :term:`controller`. This might not have any immediate effect and depends on your skin and controller mapping.
+
+   :range: binary
+   :feedback: External highlighting is allowed or not.
+
+   .. versionadded:: 2.5.3+
+
+.. mixxx:control:: [Skin],highlight_[ChannelN]
+
+   Toggle the highlighting of :term:`user interface <GUI>` controls for Channel N. N might be between 1 and 4. Highlighting will only have some effect if it is enabled in you skin configuration with the option above or with the skin settings option in your :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: External highlighting for Deck X is active or not.
+
+   .. versionadded:: 2.5.3+
 
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
