@@ -50,9 +50,9 @@ No.  Control                                            Function
 ===  =================================================  ============================================================================================
 1    Jog Wheel (top)                                    Scratch (move play position)
 1    Jog Wheel (outer)                                  Pitch bend (nudge)
-1    :hwlabel:`SHIFT (right)` + Jog Wheel (top)         Seek (move play position) without audio output (left or right Jog Wheel). Be aware of different behaviour of left and right :hwlabel:`SHIFT`
-1    :hwlabel:`SHIFT (left)` + Jog Wheel (top)          Move track selection in library (left or right Jog Wheel). Be aware of different behaviour of left and right :hwlabel:`SHIFT`
-2    :hwlabel:`SHIFT` button                            Switch function of controls (see above for the only difference between left and right :hwlabel:`SHIFT`)
+1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Seek fast (move play position) without audio output. [1]_
+2    :hwlabel:`SHIFT` button                            Switch function of control
+2    left :hwlabel:`SHIFT` + right :hwlabel:`SHIFT`     Change active panel in library.
 3    Pad 1-8  and :hwlabel:`SHIFT` + Pad 1-8            see :ref:`PAD modes section <pioneer-ddj-200-pads>`
 4    :hwlabel:`CUE` button                              Play / set cue, dependent on your configured :ref:`Cue mode <interface-cue-modes>` settings.
 4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop
@@ -63,6 +63,7 @@ No.  Control                                            Function
 7    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
 ===  =================================================  ============================================================================================
 
+.. [1] function can be changed to scroll trough your library in your :menuselection:`Preferences --> Controller --> Controller Setup`.
 
 .. _pioneer-ddj-200-pads:
 
@@ -86,18 +87,18 @@ Mode     Control                                    Function
 ======== ========================================== =========================================
 Hotcue   Pad 1-8                                    Set (if empty) or Preview/Play (if set) hot cue point / loop 1-8
 Hotcue   :hwlabel:`SHIFT` + Pad 1-8                 Clear hot cue 1-8
-Loop     Pad 1-8                                    Set and enables or stops loop over beats (increasing size PADs 1-8) [1]_
-Loop     :hwlabel:`SHIFT` + Pad 1-8                 Set and enables or stops looproll over beats (increasing size PADs 1-8) [1]_
+Loop     Pad 1-8                                    Set and enables or stops loop over beats (increasing size PADs 1-8) [2]_
+Loop     :hwlabel:`SHIFT` + Pad 1-8                 Set and enables or stops looproll over beats (increasing size PADs 1-8) [2]_
 Effect   Pad 1-4                                    Play Sampler 1-4 from cue, if not loaded load current track into Sampler
 Effect   :hwlabel:`SHIFT` + Pad 1-4                 Stop or Eject Sampler 1-4
 Effect   Pad 5-7                                    Toggle FX1/FX2 Effect 1-3
 Effect   :hwlabel:`SHIFT` + Pad 5-7                 Toggle FX3/FX4 Effect 1-3
 Effect   Pad 8 / :hwlabel:`SHIFT` + Pad 8           BPM Tap- Button
-Jump     Pad 1-8                                    Jump forward over beats (increasing distance PADs 1-8) [1]_
-Jump     :hwlabel:`SHIFT` + Pad 1-8                 Jump back over beats (increasing distance PADs 1-8) [1]_
+Jump     Pad 1-8                                    Jump forward over beats (increasing distance PADs 1-8) [2]_
+Jump     :hwlabel:`SHIFT` + Pad 1-8                 Jump back over beats (increasing distance PADs 1-8) [2]_
 ======== ========================================== =========================================
 
-.. [1] minimal loop/jump size can be configured at :menuselection:`Preferences --> Controller --> Controller Setup`.
+.. [2] minimal loop/jump size can be configured at :menuselection:`Preferences --> Controller --> Controller Setup`.
 
 .. _pioneer-ddj-200-mixer:
 
@@ -119,7 +120,7 @@ No.  Control                                                Function
 1    :hwlabel:`MASTER` button                               Toggle main mix in the headphone output on/off
 1    :hwlabel:`SHIFT` + :hwlabel:`MASTER` button            Toggle between 2- and 4-deck mode
 2    :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs      Adjust high/mid/low-frequencies
-3    :hwlabel:`CFX` knobs                                   EffectChain superknob [2]_
+3    :hwlabel:`CFX` knobs                                   EffectChain superknob [3]_
 4    :hwlabel:`HEADPHONE CUE 1` button                      Toggle headphone pre-fader listening of left deck
 4    :hwlabel:`HEADPHONE CUE 2` button                      Toggle headphone pre-fader listening of right deck
 4    :hwlabel:`SHIFT` + :hwlabel:`HEADPHONE CUE 1`          Load selected track to left deck
@@ -132,7 +133,7 @@ No.  Control                                                Function
 7    :hwlabel:`SHIFT` + Cross fader                         zero->notzero: "FADER Start", play track from cue. notzero->zero: "FADER Stop", pause track and set cue
 ===  =====================================================  ============================================================================================
 
-.. [2] superknob can be used for channel gain control if configured at :menuselection:`Preferences --> Controller --> Controller Setup`.
+.. [3] superknob can be used for channel gain control if configured at :menuselection:`Preferences --> Controller --> Controller Setup`.
 
 Configure Controller DEMO mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
