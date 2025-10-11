@@ -45,23 +45,24 @@ Deck section (p. 8)
 
    Deck section (p. 8)
 
-===  =================================================  ============================================================================================
-No.  Control                                            Function
-===  =================================================  ============================================================================================
-1    Jog Wheel (top)                                    Scratch (move play position)
-1    Jog Wheel (outer)                                  Pitch bend (nudge)
-1    :hwlabel:`SHIFT` + Jog Wheel (top)                 Seek fast (move play position) without audio output. [1]_
-2    :hwlabel:`SHIFT` button                            Switch function of control
-2    left :hwlabel:`SHIFT` + right :hwlabel:`SHIFT`     Change active panel in library.
-3    Pad 1-8  and :hwlabel:`SHIFT` + Pad 1-8            see :ref:`PAD modes section <pioneer-ddj-200-pads>`
-4    :hwlabel:`CUE` button                              Play / set cue, dependent on your configured :ref:`Cue mode <interface-cue-modes>` settings.
-4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button           Return to cue point and stop
-5    :hwlabel:`PLAY/PAUSE` button                       Play / pause
-5    :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button    Reverse playing
-6    :hwlabel:`BEAT SYNC` button                        Match tempo and phase of other deck, long press to enable master sync
-6    :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC` button     2-deck mode: Change RPM Range of :hwlabel:`TEMPO` slider. 4-deck mode: Change to active deck (:hwlabel:`BEAT SYNC` will blink on alternate deck control)
-7    :hwlabel:`TEMPO` slider                            Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
-===  =================================================  ============================================================================================
+===  ============================================================================  ============================================================================================
+No.  Control                                                                       Function
+===  ============================================================================  ============================================================================================
+1    Jog Wheel (top)                                                               Scratch (move play position)
+1    Jog Wheel (outer)                                                             Pitch bend (nudge)
+1    :hwlabel:`SHIFT` + Jog Wheel (top)                                            Seek fast (move play position) without audio output. [1]_
+2    :hwlabel:`SHIFT` button                                                       Switch function of control
+2    left :hwlabel:`SHIFT` + right :hwlabel:`SHIFT`                                Change active panel in library.
+3    Pad 1-8  and :hwlabel:`SHIFT` + Pad 1-8                                       see :ref:`PAD modes section <pioneer-ddj-200-pads>`
+4    :hwlabel:`CUE` button                                                         Play / set cue, dependent on your configured :ref:`Cue mode <interface-cue-modes>` settings.
+4    :hwlabel:`SHIFT` + :hwlabel:`CUE` button                                      Return to cue point and stop
+5    :hwlabel:`PLAY/PAUSE` button                                                  Play / pause
+5    :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` button                               Reverse playing
+6    :hwlabel:`BEAT SYNC` button                                                   Match tempo and phase of other deck, long press to enable master sync
+6    :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC` button                                2-deck mode: Change RPM Range of :hwlabel:`TEMPO` slider. 4-deck mode: Change to active deck (:hwlabel:`BEAT SYNC` will blink on alternate deck control)
+6    left :hwlabel:`SHIFT` + right :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC` button  Change RPM Range of :hwlabel:`TEMPO` slider (This will also change active panel in library)
+7    :hwlabel:`TEMPO` slider                                                       Adjust track playing speed (can be adjusted via :hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`)
+===  ============================================================================  ============================================================================================
 
 .. [1] function can be changed to scroll trough your library in your :menuselection:`Preferences --> Controller --> Controller Setup`.
 
