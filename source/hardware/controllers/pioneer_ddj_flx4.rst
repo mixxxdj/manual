@@ -79,9 +79,10 @@ No.       Control                                             Function
 2         :hwlabel:`SHIFT` + Rotary Selector                  Turn to zoom parallel waveform.
 ========  ==================================================  ==========================================
 
+.. _pioneer-ddj-flx4-deck-sections:
+
 Deck sections (p. 15)
 ~~~~~~~~~~~~~~~~~~~~~
-.. _pioneer-ddj-flx4-deck-sections:
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_deck.svg
    :align: center
@@ -117,9 +118,10 @@ No.   Control                                                  Function
 10    :hwlabel:`BEAT JUMP` mode                                Sets pads to :ref:`beat jump mode <pioneer-ddj-flx4-beat-jump-mode>`.
 10    :hwlabel:`SHIFT` + :hwlabel:`BEAT LOOP` mode             Sets pads to :ref:`beat loop mode <pioneer-ddj-flx4-beat-loop-mode>`.
 11    :hwlabel:`SAMPLER` mode                                  Sets pads to :ref:`sampler mode <pioneer-ddj-flx4-sampler-mode>`.
+11    :hwlabel:`SHIFT` + :hwlabel:`KEY SHIFT` mode             Sets pads to :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>`.
 12    :hwlabel:`TEMPO` slider                                  Adjust playback speed.
 13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11.
-14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track).
+14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track.
 15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`.
 16    :hwlabel:`SHIFT`                                         Used to access secondary functiones of other buttons while being pressed.
 ====  =======================================================  ======================================================================
@@ -135,9 +137,12 @@ pad modes described below are similar to those found in rekordbox.
           :hwlabel:`KEYSHIFT`) are not currently implemented by this
           mapping.
 
+          :hwlabel:`KEYSHIFT` is used for the :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>` instead.
+
+.. _pioneer-ddj-flx4-hot-cue-mode:
+
 Hot Cue Mode
 ^^^^^^^^^^^^
-.. _pioneer-ddj-flx4-hot-cue-mode:
 
 Bookmark positions in the track and jump to them.
 
@@ -160,9 +165,10 @@ No.       Control                          Function
 1-8       :hwlabel:`SHIFT` + Pad (lit)     Clear hot cue.
 ========  ===============================  ========================================================
 
+.. _pioneer-ddj-flx4-beat-loop-mode:
+
 Beat Loop Mode
 ^^^^^^^^^^^^^^
-.. _pioneer-ddj-flx4-beat-loop-mode:
 
 Press a pad to enable a loop from the current position. Press the pad again to
 disable the loop. The size of the loop is assigned to the pads as follows:
@@ -182,9 +188,10 @@ disable the loop. The size of the loop is assigned to the pads as follows:
    4 beats       8 beats       16 beats      32 beats
    ============  ============  ============  ============
 
+.. _pioneer-ddj-flx4-beat-jump-mode:
+
 Beat Jump Mode
 ^^^^^^^^^^^^^^
-.. _pioneer-ddj-flx4-beat-jump-mode:
 
 Press a pad to jump forwards or backwards by the number of beats assigned to the
 pads below.
@@ -207,9 +214,10 @@ increase the jump values by a factor of 16.
    4 beats back   4 beats forward  8 beats back   8 beats forward
    =============  ===============  =============  ================
 
+.. _pioneer-ddj-flx4-sampler-mode:
+
 Sampler Mode
 ^^^^^^^^^^^^
-.. _pioneer-ddj-flx4-sampler-mode:
 
 Load and play samples from the library. The pads on decks 1 and 2 correspond to
 the first and second sampler rows in Mixxx respectively.
@@ -232,6 +240,39 @@ No.       Control                                                          Funct
                                            playback starts from the beginning.
 1-8       :hwlabel:`SHIFT` + Pad (lit)     Stop a loaded sample from playing. If the sample is
                                            already stopped, unload it.
+========  ===============================  ========================================================
+
+.. _pioneer-ddj-flx4-stems-mode:
+
+Stems Mode
+^^^^^^^^^^
+
+This mode uses the "KEY SHIFT" mode of the controller.
+
+It can be used when playing a stem-enabled file. Pad 1->8 are linked to stems 1->8
+(a maximum of 4 stems are currently supported by Mixx).
+
+When loading a file, the pads lights will turn on for on the available stems.
+Press a pad to mute or unmute the related stem. Pad Lights will reflect the active stems.
+
+Press :hwlabel:`SHIFT` + pad to unmute the related stem and mute all the others.
+
+.. figure:: ../../_static/controllers/pioneer_ddj_flx4_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-FLX4 (Stems pad)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-FLX4 (Stems pads)
+
+
+========  ===============================  ========================================================
+No.       Control                                                          Function
+========  ===============================  ========================================================
+1-8       Pad (lit)                        Mute the related stem
+1-8       Pad (unlit)                      Unmute the related stem
+1-8       :hwlabel:`SHIFT` + Pad           Unmute the related stem and mute all the others
 ========  ===============================  ========================================================
 
 Mixer section (p. 25)
