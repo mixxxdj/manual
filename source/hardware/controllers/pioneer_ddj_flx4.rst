@@ -249,13 +249,21 @@ Stems Mode
 
 This mode uses the "KEY SHIFT" mode of the controller.
 
-It can be used when playing a stem-enabled file. Pad 1->8 are linked to stems 1->8
-(a maximum of 4 stems are currently supported by Mixx).
+It can be used when playing a stem-enabled file. Pad 1->4 and 5->8 are linked to stems 1->4
 
-When loading a file, the pads lights will turn on for on the available stems.
-Press a pad to mute or unmute the related stem. Pad Lights will reflect the active stems.
+Pad 1->4 mute or unmute the related stem.  Pad is lit up when not muted.
+When loading a file, the pads lights will turn on for on the available stems (as they are initially unmuted).
 
-Press :hwlabel:`SHIFT` + pad to unmute the related stem and mute all the others.
+Press :hwlabel:`SHIFT` + pad 1->4 to unmute only for the related stem and mute all the others.
+
+Pad 5->8 enable or disable the stem FX.  Pad is lit up when FX is enabled.
+
+Press :hwlabel:`SHIFT` + pad 5->8 to cycle through FX for this stem.
+
+Stem FX are kept unchanged when loading a new track on a deck, therefore the pads 5->8 remains usable even
+when loading a file without stems to allow modifying the FX config at all time.
+
+
 
 .. figure:: ../../_static/controllers/pioneer_ddj_flx4_performancepads.svg
    :align: center
@@ -267,13 +275,16 @@ Press :hwlabel:`SHIFT` + pad to unmute the related stem and mute all the others.
    Pioneer DDJ-FLX4 (Stems pads)
 
 
-========  ===============================  ========================================================
+========  ===============================  ======================================================
 No.       Control                                                          Function
-========  ===============================  ========================================================
-1-8       Pad (lit)                        Mute the related stem
-1-8       Pad (unlit)                      Unmute the related stem
-1-8       :hwlabel:`SHIFT` + Pad           Unmute the related stem and mute all the others
-========  ===============================  ========================================================
+========  ===============================  ======================================================
+1-4       Pad (lit)                        Mute the related stem
+1-4       Pad (unlit)                      Unmute the related stem
+1-4       :hwlabel:`SHIFT` + Pad           Unmute the related stem and mute all the others
+5-8       Pad (lit)                        Disable FX for the related stem
+5-8       Pad (unlit)                      Enable FX for the related stem
+5-8       :hwlabel:`SHIFT` + Pad           Select next FX for the related stem
+========  ===============================  ======================================================
 
 Mixer section (p. 25)
 ~~~~~~~~~~~~~~~~~~~~~
