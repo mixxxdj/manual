@@ -165,12 +165,16 @@ Shoutcast metadata format
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
   This allows to set custom metadata formats for the Shoutcast title field.
-  Previously only ``artist - title`` was allowed. For example if you were
-  broadcasting as part of a station, you could add the station's name or the
-  presenter's name in the title: ``MyStation | $artist - $title``.
+  You can use the following tags:
+  ``$artist``, ``$title``, ``$album``, ``$year``, ``$genre`` and ``$bpm``.
+
+  For example if you were broadcasting as part of a station, you could add
+  the station's name or the presenter's name in the title:
+  ``MyStation | $artist - $title``.
   Or if you were doing a live mix with several artists, you could have:
   ``Live mix by MyName - currently playing: $artist``. Or even if you wanted a
-  very unusual format: ``Hey, I like $artist, here is $title by $artist``.
+  very unusual format: ``Hey, I like $artist, here is $title from the album
+  $album by $artist``.
 
   The changes **do not** affect the case for the combination of OGG/Icecast2.
 
