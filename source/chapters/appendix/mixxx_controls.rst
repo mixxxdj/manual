@@ -104,6 +104,40 @@ The ``[App]`` group
 
 The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
 
+.. mixxx:control:: [App],audio_latency_usage
+
+   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx.
+   At value near 25 % there is a high risk of buffer underflows.
+
+   :range: 0 .. 25 %
+   :feedback: latency meter
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_usage` control.
+
+
+.. mixxx:control:: [App],audio_latency_overload
+
+   Indicates a buffer under or over-flow. Resets after 500 ms.
+
+   :range: binary
+   :feedback: Overload indicator
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_overload` control.
+
+
+.. mixxx:control:: [App],audio_latency_overload_count
+
+   Counts buffer over and under-flows, maximum one per 500 ms.
+   The count is displayed in Preferences -> Sound Hardware.
+
+   :range: 0 .. n
+   :feedback: Counter in hardware preferences
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_overload_count` control.
+
 
 
 .. mixxx:control:: [App],gui_tick_50ms_period_s
@@ -234,35 +268,6 @@ The ``[Master]`` group
 
 The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine.
 This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
-
-.. mixxx:control:: [Master],audio_latency_usage
-
-   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows
-
-   :range: 0 .. 25 %
-   :feedback: latency meter
-
-   .. versionadded:: 2.0.0
-
-
-.. mixxx:control:: [Master],audio_latency_overload
-
-   Indicates a buffer under or over-flow. Resets after 500 ms
-
-   :range: binary
-   :feedback: Overload indicator
-
-   .. versionadded:: 2.0.0
-
-
-.. mixxx:control:: [Master],audio_latency_overload_count
-
-   Counts buffer over and under-flows. Max one per 500 ms
-
-   :range: 0 .. n
-   :feedback: Counter in hardware preferences
-
-   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Master],balance
@@ -4374,6 +4379,43 @@ Deprecated controls
 
 These controls have been deprecated and may be removed in a future version of Mixxx.
 In the meantime, skins and controller mappings that still use them will keep working, but using the suggested alternatives is strongly recommended.
+
+.. mixxx:control:: [Master],audio_latency_usage
+
+   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx.
+   At value near 25 % there is a high risk of buffer underflows.
+
+   :range: 0 .. 25 %
+   :feedback: latency meter
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_usage` instead.
+
+
+.. mixxx:control:: [Master],audio_latency_overload
+
+   Indicates a buffer under or over-flow. Resets after 500 ms.
+
+   :range: binary
+   :feedback: Overload indicator
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_overload` instead.
+
+
+.. mixxx:control:: [Master],audio_latency_overload_count
+
+   Counts buffer over and under-flows, maximum one per 500 ms.
+   The count is displayed in Preferences -> Sound Hardware.
+
+   :range: 0 .. n
+   :feedback: Counter in hardware preferences
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_overload_count` instead.
 
 .. mixxx:control:: [Master],guiTick50ms
 
