@@ -4407,7 +4407,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
 .. mixxx:control:: [Master],audio_latency_overload_count
 
-   Counts buffer over and under-flows, maximum one per 500 ms.
+   Counts buffer over- and underflows, maximum one per 500 ms.
+   See :ref:`preferences-sound-other-options` for details.
    The count is displayed in Preferences -> Sound Hardware.
 
    :range: 0 .. n
