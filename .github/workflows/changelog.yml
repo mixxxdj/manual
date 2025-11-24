@@ -21,7 +21,7 @@ jobs:
     - name: Event Information
       run: echo "Event '${{ github.event.action }}' received from '${{ github.event.client_payload.repository }}'"
     - name: Check out repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         ref: ${{ github.event.client_payload.branch }}
     - name: Set up Python
