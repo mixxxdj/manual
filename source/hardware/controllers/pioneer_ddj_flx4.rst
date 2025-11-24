@@ -114,11 +114,11 @@ No.   Control                                                  Function
 7     Jog Wheel (top)                                          Scratch (move play position).
 7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily.
 8     :hwlabel:`HOT CUE` mode                                  Sets pads to :ref:`hot cue mode <pioneer-ddj-flx4-hot-cue-mode>`.
+8     :hwlabel:`SHIFT` + :hwlabel:`KEYBOARD` mode              Sets pads to :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>`.
 9     :hwlabel:`PAD FX` mode                                   Not implemented.
 10    :hwlabel:`BEAT JUMP` mode                                Sets pads to :ref:`beat jump mode <pioneer-ddj-flx4-beat-jump-mode>`.
 10    :hwlabel:`SHIFT` + :hwlabel:`BEAT LOOP` mode             Sets pads to :ref:`beat loop mode <pioneer-ddj-flx4-beat-loop-mode>`.
 11    :hwlabel:`SAMPLER` mode                                  Sets pads to :ref:`sampler mode <pioneer-ddj-flx4-sampler-mode>`.
-11    :hwlabel:`SHIFT` + :hwlabel:`KEY SHIFT` mode             Sets pads to :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>`.
 12    :hwlabel:`TEMPO` slider                                  Adjust playback speed.
 13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11.
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track.
@@ -137,7 +137,7 @@ pad modes described below are similar to those found in rekordbox.
           :hwlabel:`KEYSHIFT`) are not currently implemented by this
           mapping.
 
-          :hwlabel:`KEYSHIFT` is used for the :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>` instead.
+          :hwlabel:`KEYBOARD` is used for the :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>` instead.
 
 .. _pioneer-ddj-flx4-hot-cue-mode:
 
@@ -247,7 +247,7 @@ No.       Control                                                          Funct
 Stems Mode
 ^^^^^^^^^^
 
-This mode uses the "KEY SHIFT" mode of the controller.
+This mode uses the "KEYBOARD" mode of the controller.
 
 It can be used when playing a stem-enabled file. Pad 1->4 and 5->8 are linked to stems 1->4
 
