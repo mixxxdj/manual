@@ -294,7 +294,11 @@ Pitch Shift Mode
 
 This mode uses the "KEY SHIFT" mode of the controller.
 
-It allows to modify a song pitch by semitones. This pitch modification is reset when a track is loaded.
+It allows to modify a song pitch by semitones.
+
+  .. hint:: To make the pitch automatically reset whenever a new
+            track is loaded go to :menuselection:`Preferences --> Decks -->
+            Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
 
 The upper pads (1->4) are used to raise the pitch (the one on the left being the starting point)
 while lower pads (5->8) are used to lower the pitch (the one on the right being the starting point)
