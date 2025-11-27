@@ -114,11 +114,12 @@ No.   Control                                                  Function
 7     Jog Wheel (top)                                          Scratch (move play position).
 7     Jog Wheel (outer)                                        Nudge tempo up or down temporarily.
 8     :hwlabel:`HOT CUE` mode                                  Sets pads to :ref:`hot cue mode <pioneer-ddj-flx4-hot-cue-mode>`.
+8     :hwlabel:`SHIFT` + :hwlabel:`KEYBOARD` mode              Sets pads to :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>`.
 9     :hwlabel:`PAD FX` mode                                   Not implemented.
 10    :hwlabel:`BEAT JUMP` mode                                Sets pads to :ref:`beat jump mode <pioneer-ddj-flx4-beat-jump-mode>`.
 10    :hwlabel:`SHIFT` + :hwlabel:`BEAT LOOP` mode             Sets pads to :ref:`beat loop mode <pioneer-ddj-flx4-beat-loop-mode>`.
 11    :hwlabel:`SAMPLER` mode                                  Sets pads to :ref:`sampler mode <pioneer-ddj-flx4-sampler-mode>`.
-11    :hwlabel:`SHIFT` + :hwlabel:`KEY SHIFT` mode             Sets pads to :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>`.
+11    :hwlabel:`SHIFT` + :hwlabel:`KEY SHIFT` mode             Sets pads to :ref:`Pitch Shift mode <pioneer-ddj-flx4-pitch-shift-mode>`.
 12    :hwlabel:`TEMPO` slider                                  Adjust playback speed.
 13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11.
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track.
@@ -137,7 +138,7 @@ pad modes described below are similar to those found in rekordbox.
           :hwlabel:`KEYSHIFT`) are not currently implemented by this
           mapping.
 
-          :hwlabel:`KEYSHIFT` is used for the :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>` instead.
+          :hwlabel:`KEYBOARD` is used for the :ref:`Stems mode <pioneer-ddj-flx4-stems-mode>` instead.
 
 .. _pioneer-ddj-flx4-hot-cue-mode:
 
@@ -247,7 +248,7 @@ No.       Control                                                          Funct
 Stems Mode
 ^^^^^^^^^^
 
-This mode uses the "KEY SHIFT" mode of the controller.
+This mode uses the "KEYBOARD" mode of the controller.
 
 It can be used when playing a stem-enabled file. Pad 1->4 and 5->8 are linked to stems 1->4
 
@@ -285,6 +286,79 @@ No.       Control                                                          Funct
 5-8       Pad (unlit)                      Enable FX for the related stem
 5-8       :hwlabel:`SHIFT` + Pad           Select next FX for the related stem
 ========  ===============================  ======================================================
+
+.. _pioneer-ddj-flx4-pitch-shift-mode:
+
+Pitch Shift Mode
+^^^^^^^^^^^^^^^^
+
+This mode uses the "KEY SHIFT" mode of the controller.
+
+It allows to modify a song pitch by semitones.
+
+  .. hint:: To make the pitch automatically reset whenever a new
+            track is loaded go to :menuselection:`Preferences --> Decks -->
+            Speed (Tempo) and Key (Pitch) options --> Reset on track load`.
+
+The upper pads (1->4) are used to raise the pitch (the one on the left being the starting point)
+while lower pads (5->8) are used to lower the pitch (the one on the right being the starting point)
+
+
+.. figure:: ../../_static/controllers/pioneer_ddj_flx4_performancepads.svg
+   :align: center
+   :width: 40%
+   :figwidth: 100%
+   :alt: Pioneer DDJ-FLX4 (Pitch Shift pad)
+   :figclass: pretty-figures
+
+   Pioneer DDJ-FLX4 (Pitch Shift pads)
+
+
+Pressing the pad sets an absolute value to the pitch shift.
+Pressing with :hwlabel:`SHIFT`, it is raised or lowered by a certain amount.
+
+========  ====================================  ======================================================
+Pad No.   Pad press                             :hwlabel:`SHIFT` + pad press
+========  ====================================  ======================================================
+1         Reset the pitch shift to 0            Raise the pitch by 1 semitone
+2         Set the pitch shift to +1 semitone    Raise the pitch by 2 semitone
+3         Set the pitch shift to +2 semitone    Raise the pitch by 3 semitone
+4         Set the pitch shift to +3 semitone    Raise the pitch by 4 semitone
+5         Set the pitch shift to -3 semitone    Lower the pitch by 4 semitone
+6         Set the pitch shift to -2 semitone    Lower the pitch by 3 semitone
+7         Set the pitch shift to -1 semitone    Lower the pitch by 2 semitone
+8         Reset the pitch shift to 0            Lower the pitch by 1 semitone
+========  ====================================  ======================================================
+
+
+When no pitch shift is applied, pads 1 and 8 are lit up, to show that it is neither raised nor lowered.
+Pad lights are used as described in this table (◻ for an unlit pads, ▣ for a lit ones):
+
+======================================  ========  ======================================  ========
+Shift (raising pitch)                   Lights    Shift (lowering pitch)                  Lights
+======================================  ========  ======================================  ========
+The pitch is not modified               ▣◻◻◻      The pitch is not modified               ▣◻◻◻
+                                        ◻◻◻▣                                              ◻◻◻▣
+Pitch raised by 1 semitone              ◻▣◻◻      Pitch lowered by 1 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ◻◻▣◻
+Pitch raised by 2 semitone              ◻◻▣◻      Pitch lowered by 2 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ◻▣◻◻
+Pitch raised by 3 semitone              ◻◻◻▣      Pitch lowered by 3 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣◻◻◻
+Pitch raised by 4 semitone              ▣◻◻▣      Pitch lowered by 4 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣◻◻▣
+Pitch raised by 5 semitone              ◻▣◻▣      Pitch lowered by 5 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣◻▣◻
+Pitch raised by 6 semitone              ◻◻▣▣      Pitch lowered by 6 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣▣◻◻
+Pitch raised by 7 semitone              ▣◻▣▣      Pitch lowered by 7 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣▣◻▣
+Pitch raised by 8 semitone              ◻▣▣▣      Pitch lowered by 8 semitone             ◻◻◻◻
+                                        ◻◻◻◻                                              ▣▣▣◻
+Pitch raised by more than 8 semitone    ▣▣▣▣      Pitch lowered by more than 8 semitone   ◻◻◻◻
+                                        ◻◻◻◻                                              ▣▣▣▣
+======================================  ========  ======================================  ========
+
 
 Mixer section (p. 25)
 ~~~~~~~~~~~~~~~~~~~~~
