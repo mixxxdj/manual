@@ -14,6 +14,10 @@ Unlike its predecessor, the Kontrol S4 Mk3 cannot run from :term:`USB` power and
 -  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
 
 .. versionadded:: 2.4
+.. versionchanged:: 2.6.0
+   Added beatjump
+.. versionchanged:: 2.6.0
+   Added stems
 
 Compatibility
 -------------
@@ -133,21 +137,26 @@ Moves modes define how the "move" encoder (the one on the left) reacts when used
 2. **Grid**: The track's detected beats will be move forward or backward on the waveform.
 3. **BPM**: The track's detected BPM will be increased or decreased.
 4. **Keyboard**: The keyboard's keys displayed on pads get moved up or down to display higher or lower keynotes.
+5. **Hotcue color**: When holding both :hwlabel:`HOTCUES` and a hotcue, the move encoder can be used to change the selected color.
+
+   .. note:: When using the shared data API, this will display hotcue metadata such as label (if any), timecode and type.
 
 Here is how to tell use each modes:
 
-+----------+---------------------------------------------------------------------+
-| Mode     |                                                                     |
-+==========+=====================================================================+
-| Beat     | This mode is enable if no other mode are enabled                    |
-+----------+---------------------------------------------------------------------+
-| Grid     | This mode is enabled while :hwlabel:`GRID` is held down             |
-+----------+---------------------------------------------------------------------+
-| BPM      | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are   |
-|          | held down                                                           |
-+----------+---------------------------------------------------------------------+
-| Keyboard | This mode is enabled while STEM is held down                        |
-+----------+---------------------------------------------------------------------+
++--------------+-----------------------------------------------------------------------------+
+| Mode         |                                                                             |
++==============+=============================================================================+
+| Beat         | This mode is enable if no other mode are enabled                            |
++--------------+-----------------------------------------------------------------------------+
+| Grid         | This mode is enabled while :hwlabel:`GRID` is held down                     |
++--------------+-----------------------------------------------------------------------------+
+| BPM          | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are           |
+|              | held down                                                                   |
++--------------+-----------------------------------------------------------------------------+
+| Keyboard     | This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`STEM` is held down  |
++--------------+-----------------------------------------------------------------------------+
+| Hotcue color | This mode is enabled while :hwlabel:`HOTCUES` is held down                  |
++--------------+-----------------------------------------------------------------------------+
 
 All mapping detail
 ~~~~~~~~~~~~~~~~~~
@@ -246,7 +255,8 @@ All mapping detail
 |                  |                                                                  |   hotcue                                 |
 |                  |                                                                  | - White: page 2 of hotcue                |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Rec              | Currently unused                                                                                            |
+| Rec              | - Toggle the beatjump page and display jump option as defined in |                                          |
+|                  |   settings                                                       |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Sampler          | - Toggle the sampler page and display samplers on the Using      | - Off: Current page isn't related to     |
 |                  |                                                                  |   sampler                                |
@@ -254,22 +264,38 @@ All mapping detail
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Mute             | Currently unused                                                                                            |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Stems            | - Toggle the keyboard (on release) while press: enable keyboard  | - Deck color with dim off: Current page  |
-|                  |   move mode                                                      |   isn't related to keyboard              |
-|                  |                                                                  | - Deck color with dim on: Keyboard       |
-|                  |                                                                  |   active                                 |
+| Stems            | - Toggle the stem page                                           | - Deck color with dim off: Current page  |
+|                  | - Shift: toggle the keyboard (on release) while press: enable    |   isn't related to keyboard              |
+|                  |   keyboard move mode                                             | - Deck color with dim on: Stem page      |
+|                  |                                                                  |   or Keyboard is active                  |
 |                  |                                                                  | - Green: keyboard play mode active       |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Pads             | - While in hotcue:                                               | - In hotcue: color of the cue            |
-|                  |                                                                  | - In Sampler: Dim on, sample is playing  |
-|                  |   - press will activate                                          |   dim off sampler is stopped,            |
-|                  |   - :hwlabel:`SHIFT` + press will delete                         |   off no sampler loaded                  |
+| Pads             | - While in hotcue:                                               | - In hotcue: color of the cue. Blinking  |
+|                  |                                                                  |   in delete (shift) mode                 |
+|                  |   - press will activate                                          | - In beatjump: Green is defined jump,    |
+|                  |   - if preview deck is playing the loaded track                  |   red is current jump value and white is |
+|                  |     (using with :hwlabel:`SHIFT`) press will activate in preview |   selection edition                      |
+|                  |     deck                                                         |                                          |
+|                  |   - :hwlabel:`SHIFT` + press will delete (hotcue)                | - In Sampler: Dim on, sample is playing  |
+|                  |                                                                  |   dim off sampler is stopped,            |
+|                  | - While in beatjump:                                             |   off no sampler loaded                  |
 |                  |                                                                  | - In keyboard: keyboard color on each    |
-|                  | - While in sample:                                               |   note, if Dim on, currently             |
-|                  |                                                                  |   active note                            |
-|                  |   - press will play (load selected track if none are)            | - In Beatloop roll: brighter means a     |
-|                  |   - :hwlabel:`SHIFT` + press will stop (if playing) or eject     |   loop roll is active with the given     |
+|                  |   - press will activate a jump forward of 1, 2, 4, 8, 16, 32, 64 |   note, if Dim on, currently             |
+|                  |     or the currently select beatjump size, or custom size if you |   active note                            |
+|                  |     have changed `BeatJumpSize` in :ref:`settings`               | - In Beatloop roll: brighter means a     |
+|                  |   - :hwlabel:`SHIFT` + press will perform the same jump backward |   loop roll is active with the given     |
 |                  |                                                                  |   size                                   |
+|                  | - While in sample:                                               |                                          |
+|                  |                                                                  |                                          |
+|                  |   - press will play (load selected track if none are)            |                                          |
+|                  |   - :hwlabel:`SHIFT` + press will stop (if playing) or eject     |                                          |
+|                  |                                                                  |                                          |
+|                  | - While in stem:                                                 |                                          |
+|                  |                                                                  |                                          |
+|                  |   - the top row can be used to select a stem for further actions |                                          |
+|                  |     (FX assignation, FX dry/run, volume or pre-mixed load)       |                                          |
+|                  |   - the bottom row can be used for mute control                  |                                          |
+|                  |                                                                  |                                          |
 |                  | - While in keyboard:                                             |                                          |
 |                  |                                                                  |                                          |
 |                  |   - will set the key to the selected note                        |                                          |
@@ -336,6 +362,7 @@ All mapping detail
 |                  | - Inverse the column sorting if view button is pressed           |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Preview button   | Preview the currently selected track while pressed               |                                          |
+|                  | Shift: Preview the currently playing track                       |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Star button      | Change the selected track color on short press (next color, or   |                                          |
 |                  | previous if shifted)                                             |                                          |
@@ -385,44 +412,67 @@ Settings can be edited in the preference windows, under :guilabel:`Preferences` 
 
 There are various options that can be used to change some behavior:
 
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
-Setting                                                                                        Variable value                              Default                                                                                                           Range                                                                                 Description
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
-Deck colors                                                                                    `DeckColors`                                LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple                                                   **All colors as defined in _LedColors_. Must be four color, separated by a comma**    Define the leading colors for each decks. Note that some buttons have only one color
-Tempo fader center range                                                                       `tempoCenterRangeMm`                        1.0                                                                                                               0.3..5.0                                                                              Defines the center range in mm where the rate snaps to 0.
-Tempo fader center offset                                                                      `tempoCenterOffsetMm`                       0.0                                                                                                               -3.0..3.0                                                                             Shifts the center range in case it doesn't match the center marker.
-Sortable column in the library                                                                 `LibrarySortableColumns`                    LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, LibraryColumns.Key, LibraryColumns.DatetimeAdded **All values defined in** `the Mixxx control documentation`_ **separated by a comma** Define the list of columns on which it possible to sort the library using the library encoder and the view button
-Loop In/Out jogwheel sensitivity                                                               `LoopWheelMoveFactor`                       50                                                                                                                -500..500 (Recommended)                                                               Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
-Loop encoder sensitivity                                                                       `LoopEncoderMoveFactor`                     500                                                                                                               -3000..3000 (Recommended)                                                             Define the sensitivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
-Loop encoder sensitivity (Shifted)                                                             `LoopEncoderShiftMoveFactor`                2500                                                                                                              -5000..5000 (Recommended)                                                             Define the sensitivity when moving the loop with :hwlabel:`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
-Color of the tempo led when on low takeover                                                    `TempoFaderSoftTakeoverColorLow`            LEDColors.white                                                                                                   **All colors as defined on line 19**                                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is less than on the controller
-Color of the tempo led when on high takeover                                                   `TempoFaderSoftTakeoverColorHigh`           LEDColors.green                                                                                                   **All colors as defined on line 19**                                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is more than on the controller
-Keep transport and play button dimmed when off                                                 `InactiveLightsAlwaysBacklit`               true                                                                                                              true/false                                                                            Having this setting on will keep LED always dimmed, even when off, although they may not have a matching color with the deck's color
-Keep the unselected deck button off rather than show its deck color                            `DeckSelectAlwaysBacklit`                   true                                                                                                              true/false                                                                            Having this setting on will keep the LED of the unselected deck dimmed instead of off.
-Keylock on :hwlabel:`SHIFT` + :hwlabel:`MASTER` instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`  `UseKeylockOnMaster`                        false                                                                                                             true/false                                                                            Use :hwlabel:`SHIFT` + :hwlabel:`MASTER` to toggle the keylock instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`
-Make the :hwlabel:`grid` button blink when over a detected beat                                `GridButtonBlinkOverBeat`                   false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
-Make the jogwheel ring blink when the track playing is near the end                            `WheelLedBlinkOnTrackEnd`                   true                                                                                                              true/false                                                                            The jogwheel LED ring will start blinking when a track is near the end. The end section can be defined in :menuselection:`Preferences --> Waveforms --> End of track warning`
-Use the mixer to control input when using :hwlabel:`SHIFT`                                     `MixerControlsMixAuxOnShift`                false                                                                                                             true/false                                                                            Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
-Number of samples used for jogwheel speed                                                      `WheelSpeedSample`                          3                                                                                                                 1..50                                                                                 Number of samples used to determine the jogwheel movement. A higher value will increase precision but latency too, and vice-versa
-Replace the sampler tab by a beatloop roll tab                                                 `UseBeatloopRollInsteadOfSampler`           false                                                                                                             true/false                                                                            Replace the sample tab as well of the sample feature with 8 beatloop roll
-Define the predefined size to use for the beatloop tab                                         `BeatLoopRolls`                             1/16,1/8,1/4,1/2,1,2,4,8                                                                                          eight number in range 1/32..512                                                       Define the size of loops of each pad, from left to right, starting from the top row.
-Use the two last tab as loop half/double buttons in the beatloop tab                           `AddLoopHalveAndDoubleOnBeatloopRollTab`    true                                                                                                              true/false                                                                            Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatloop roll and normal loop.
-Jogwheel speed (in turntable mode, as well as LED indicator)                                   `BaseRevolutionsPerMinute`                  33 + 1/3                                                                                                          33+1/3, 45 (Recommended)                                                              The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
-Whether or not to use haptic feedback features                                                 `UseMotors`                                 false                                                                                                             true/false                                                                            Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
-Map the mixer :hwlabel:`Master` knob to the Mixxx internal mixer                               `SoftwareMixerMain`                         false                                                                                                             true/false                                                                            When enabled, the Master knob will drive the Main gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
-Map the mixer :hwlabel:`Booth` knob to the Mixxx internal mixer                                `SoftwareMixerBooth`                        false                                                                                                             true/false                                                                            When enabled, the Booth knob will drive the Booth gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
-Map the mixer headphone knobs  :hwlabel:`VOL` and :hwlabel:`MIX` to the Mixxx internal mixer   `SoftwareMixerHeadphone`                    false                                                                                                             true/false                                                                            When enabled, the headphone knobs will drive the headphone controls of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
-Default Pad Layout                                                                             `DefaultPadLayout`                          default                                                                                                           default,hotcue,samplerBeatloop,keyboard                                               Define the default layout used for the pads.
-============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
+============================================================================================== ====================================== ======================================================================================================================================================================================================================================
+Setting                                                                                        Default                                Description
+============================================================================================== ====================================== ======================================================================================================================================================================================================================================
+Deck colors                                                                                    red, blue, yellow, purple              Define the leading colors for each decks. Note that some buttons have only one color
+Sortable column in the library                                                                 Artist, Title, BPM, Key, DatetimeAdded Define the list of columns on which it possible to sort the library using the library encoder and the view button. See `the Mixxx control documentation`_
+Loop In/Out jogwheel sensitivity                                                               50                                     Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
+Loop encoder sensitivity                                                                       500                                    Define the sensitivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
+Loop encoder sensitivity (Shifted)                                                             2500                                   Define the sensitivity when moving the loop with :hwlabel:`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
+Tempo fader center range                                                                       1.0                                    Defines the center range in mm where the rate snaps to 0.
+Tempo fader center offset                                                                      0.0                                    Shifts the center range in case it doesn't match the center marker.
+Color of the tempo led when on low takeover                                                    white                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is less than on the controller
+Color of the tempo led when on high takeover                                                   green                                  Define the color of tempo LED when the tempo fader is out of sync, and the actual value is more than on the controller
+Keep transport and play button dimmed when off                                                 true                                   Having this setting on will keep LED always dimmed, even when off, although they may not have a matching color with the deck's color
+Keep the unselected deck button off rather than show its deck color                            true                                   Having this setting on will keep the LED of the unselected deck dimmed instead of off.
+Keylock on :hwlabel:`SHIFT` + :hwlabel:`MASTER` instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`  false                                  Use :hwlabel:`SHIFT` + :hwlabel:`MASTER` to toggle the keylock instead of :hwlabel:`SHIFT` + :hwlabel:`SYNC`
+Make the :hwlabel:`grid` button blink when over a detected beat                                false                                  Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
+Make the jogwheel ring blink when the track playing is near the end                            true                                   The jogwheel LED ring will start blinking when a track is near the end. The end section can be defined in :menuselection:`Preferences --> Waveforms --> End of track warning`
+Use the mixer to control input when using :hwlabel:`SHIFT`                                     false                                  Make the :hwlabel:`GRID` button blinking when the playback goes over a detected beat
+Number of samples used for jogwheel speed                                                      3                                      Number of samples used to determine the jogwheel movement. A higher value will increase precision but latency too, and vice-versa
+Replace the sampler tab by a beatloop roll tab                                                 false                                  Replace the sample tab as well of the sample feature with 8 beatloop roll
+Define the predefined size to use for the beatjump tab                                         1,2,4,8,16,32,64,beatjump              Define the size of beatjumps of each pad, from left to right, starting from the top row. "beatjump" refers the currently selected value (beatjump_forward or beatjump_backward), "half" and "double" can be used to control this value
+Define the predefined size to use for the beatloop tab                                         1/16,1/8,1/4,1/2,1,2,4,8               Define the size of loops of each pad, from left to right, starting from the top row.
+Use the two last tab as loop half/double buttons in the beatloop tab                           true                                   Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatloop roll and normal loop.
+Jogwheel speed (in turntable mode, as well as LED indicator)                                   33 + 1/3                               The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
+Whether or not to use haptic feedback features                                                 false                                  Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
+Map the mixer :hwlabel:`Master` knob to the Mixxx internal mixer                               false                                  When enabled, the Master knob will drive the Main gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer :hwlabel:`Booth` knob to the Mixxx internal mixer                                false                                  When enabled, the Booth knob will drive the Booth gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer headphone knobs  :hwlabel:`VOL` and :hwlabel:`MIX` to the Mixxx internal mixer   false                                  When enabled, the headphone knobs will drive the headphone controls of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Default Pad Layout                                                                             default                                Define the default layout used for the pads.
+============================================================================================== ====================================== ======================================================================================================================================================================================================================================
 
 .. _the Mixxx control documentation: https://manual.mixxx.org/latest/en/chapters/appendix/mixxx_controls.html#control-[Library]-sort_column
 
 This settings are only useful if you are using haptic feedback features
 
-================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
-Setting                                                          Variable value                              Default        Range                                          Description
-================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
-Number of samples used for jogwheel speed in turntable mode      `TurnTableSpeedSample`                      20             1..50                                          Number of samples used to determine the jogwheel movement when the turntable is on. A higher value will increase precision but latency too, and vice-versa
-Define the tension of the jogwheel                               `TightnessFactor`                           0.5            0..1.0                                         Define the jogwheel tension. 0 makes it very tight while 1 makes it very loose
-Define how much force can the jogwheel use                       `MaxWheelForce`                             25000          10000..30000 (Recommended, can go up to 60000) Define how much resistance can the wheel use when its rotation is held
-================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
+================================================================ ============== ==========================================================================================================================================================
+Setting                                                          Default        Description
+================================================================ ============== ==========================================================================================================================================================
+Number of samples used for jogwheel speed in turntable mode      20             Number of samples used to determine the jogwheel movement when the turntable is on. A higher value will increase precision but latency too, and vice-versa
+Define the tension of the jogwheel                               0.5            Define the jogwheel tension. 0 makes it very tight while 1 makes it very loose
+Define how much force can the jogwheel use                       25000          Define how much resistance can the wheel use when its rotation is held
+================================================================ ============== ==========================================================================================================================================================
+
+Changing settings
+~~~~~~~~~~~~~~~~~
+
+Mixxx 2.4
+^^^^^^^^^
+
+Making these changes is still a little awkward, this will be much easier to do starting in Mixxx 2.5.
+For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
+
+1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
+2. Select :file:`Traktor-Kontrol-S4-MK3-hid-scripts.js`.
+3. Click :guilabel:`Open Selected File`.
+4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
+5. Starting from the block entitled `USER CONFIGURABLE SETTINGS`, there should be configurable options.
+
+
+
+Mixxx 2.5+
+^^^^^^^^^^
+
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
