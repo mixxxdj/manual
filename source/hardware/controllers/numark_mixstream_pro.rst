@@ -19,6 +19,17 @@ fully compatible with Linux, Windows, and macOS. No proprietary driver
 is required on Linux or macOS. For Windows, download and install the
 latest driver from the manufacturers product page.
 
+
+Computer Mode
+-------------
+
+You will need to enter computer mode before you can use your controller with Mixxx.
+
+1. Turn on the controller and press the **Control Center** button, swipe down from the toolbar, or tap the gear icon to open the **Control Center**.
+2. Tap the **Source** icon, and then select the computer icon at the top of the display.
+3. It will ask you to confirm, select yes, and the controller will restart into **Computer Mode**.
+
+
 Audio routing
 -------------
 
@@ -198,7 +209,7 @@ Mapping Description
 ~~~~~~~~~~~
 
 | This capacitive, touch-sensitive platter controls the audio playhead when the wheel is
-| touched and moved.
+| touched and moved. See settings above for adjustments.
 
 22. Scratch Mode
 ~~~~~~~~~~~~~~~~
@@ -208,7 +219,7 @@ Mapping Description
   moving forward) when you use the platter to "scratch" the track. When you release the
   platter, the track will resume normal playback from where it would have been if you had
   never moved the platter.
-| :hwlabel:`SHIFT` + **Hold:** enable jog mode. In this mode, touch the platter and move
+| :hwlabel:`SHIFT` + **Press:** enable or disable jog mode. In this mode, touch the platter and move
   it to temporarily adjust the track's speed.
 | Press this button again to disable Smart Scratch and enable vinyl mode for the platter.
   You can use the platter to "scratch" the track as you would with a vinyl record.
