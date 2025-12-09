@@ -67,19 +67,20 @@ Features in Mixxx that are not available yet in Engine DJ OS on the Numark Mixst
 Configuration options
 ---------------------
 
-Configuration options can be set in the mapping. You will need to edit
-the values below at the very top of the JavaScript file
-“Numark-Mixstream-Pro-scripts.js” and save changes. Allowed values are 
-“**true**” or “**false**” unless specified.
+Configuration options can be set in the options when selecting the mapping.
 
--  **stutterPlayOnShiftPlay**: Defines the `SHIFT` + **Play** behaviour. If true, it will “stutter-play” the track from the initial cue point. If false, it will perform a slow start/pause.
--  **hotCueWhilePlaying**: Enables the use of hotcues while the track is playing.
--  **defaultPadMode**: The default pad mode to set when loading in a track. Available values are: **hotcue**, **savedloop**, **autoloop**, **roll** or *empty* (maintains previous state).
--  **enableVUMeter**: Enable the VU Meter on the device.
--  **backspin**: Enable backspinning. This setting will allow you to press your finger on the plater, scratch quickly and continue to scratch until the platter stops. Contains code incompatible with Mixxx versions below 2.6.
--  **jogWheelBufferSize**: The jog wheel is smoothed using a buffer. A small buffer will make your jog wheel feel more responsive but warbly, while a larger buffer will smooth out the jog wheel movements but lag behind your movements slightly.
--  **jogWheelThreshold**: When backspin is enabled, the track will continue scratching until it goes below a threshold speed. Set this low to allow gradual stops to your backspins. Set this higher if you find your wheel gets stuck when scratching.
--  **jogWheelStuckTimeout**: Occasionally the jog wheel can get stuck while scratching due to the backspin algorithm. This timer will continuously check that you are actually moving the wheel to continually enable scratching.
+ ====================================== ============ =========================================================================================================================================================
+  Option                                 Type         Explanation                                                                                                                                             
+ ====================================== ============ =========================================================================================================================================================
+  `SHIFT` + **Play** Behaviour           Select       Select whether to have this button combo stutter-play or perform a slow start/stop                                                                      
+  Hotcue While Playing                   True/false   Enable hotcue usage and assignment while track is playing                                                                                               
+  Default Pad Mode On Load               Select       Select which pad mode to load by default on loading a new track. The default will use the previously selected mode                                    
+  Jog Wheel Buffer Size                  Number       The jog wheel uses a buffer to smooth the speed it turns. Raising this too high makes it lag behind your movement and lowering it makes it sound warbly 
+  Enable Backspin (only In Mixxx 2.6+)   True/false   Enable backspinning (or forward spinning) when you lift your finger off the platter. Not compatible with Mixxx versions below 2.6                       
+  Backspin Speed Threshold               Decimal      The speed at which the scratching will turn off. This can make the track stuck in a speed if too low                                                    
+  Backspin Timeout                       Milisecond   If the jog wheel speed gets stuck, this will reset it every n miliseconds                                                                                                                                                                                                                                                                                     
+ ====================================== ============ =========================================================================================================================================================
+
 
 Mapping Description
 -------------------
