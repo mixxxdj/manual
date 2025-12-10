@@ -138,7 +138,7 @@ Mapping Description
 
 23. **HOT CUE BUTTONS (1-3):**
 
-| Printed as :hwlabel:`EQ KILL`: :hwlabel:`BASS`,  :hwlabel:`MID`,  :hwlabel:`TREBLE`.
+    Printed as :hwlabel:`EQ KILL`: :hwlabel:`BASS`,  :hwlabel:`MID`,  :hwlabel:`TREBLE`.
 
     - Unlit: press to assign a hot cue at the current position.
     - Lit: press to jump to the stored cue point.
@@ -247,7 +247,7 @@ Credits
 
 - 2010 - `Matteo <https://mixxx.discourse.group/u/matteo>`__, :ref:`Numark Mixtrack <numark-mixtrack>` Mapping Script Functions
 - 2011 - James Ralston
-- 2011 - `Darío José Freije <mailto://dario2004@gmail.com>__`
+- 2011 - `Darío José Freije <https://www.dariofreije.com/>`__
 .. codespell:ignore Patten
 - 2024 - `Josh Patten <https://github.com/joshpatten>`__ with `PR 12948 <https://github.com/mixxxdj/mixxx/pull/12948>`__
 - 2025 - `Vespadj <https://mixxx.discourse.group/u/vespadj>`__
