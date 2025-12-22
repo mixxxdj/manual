@@ -454,7 +454,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
       Replaces the deprecated :mixxx:coref:`[Master],PeakIndicator` control.
 
 
-.. mixxx:control:: [Main],peak_indicator_l
+.. mixxx:control:: [Main],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
 
@@ -465,7 +465,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
       Replaces the deprecated :mixxx:coref:`[Master],PeakIndicatorL` control.
 
 
-.. mixxx:control:: [Main],peak_indicator_r
+.. mixxx:control:: [Main],peak_indicator_right
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
 
@@ -497,7 +497,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
       Replaces the deprecated :mixxx:coref:`[Master],VuMeter` control.
 
 
-.. mixxx:control:: [Main],vu_meter_l
+.. mixxx:control:: [Main],vu_meter_left
 
    Outputs the current instantaneous main volume for the left channel.
 
@@ -508,7 +508,7 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
       Replaces the deprecated :mixxx:coref:`[Master],VuMeterL` control.
 
 
-.. mixxx:control:: [Main],vu_meter_r
+.. mixxx:control:: [Main],vu_meter_right
 
    Outputs the current instantaneous main volume for the right channel.
 
@@ -2242,9 +2242,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       :mixxx:coref:`[PreviewDeckN],PeakIndicator` and
       :mixxx:coref:`[SamplerN],PeakIndicator` controls.
 
-.. mixxx:control:: [ChannelN],peak_indicator_l
-                   [PreviewDeckN],peak_indicator_l
-                   [SamplerN],peak_indicator_l
+.. mixxx:control:: [ChannelN],peak_indicator_left
+                   [PreviewDeckN],peak_indicator_left
+                   [SamplerN],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
 
@@ -2256,9 +2256,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       :mixxx:coref:`[PreviewDeckN],PeakIndicatorL` and
       :mixxx:coref:`[SamplerN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [ChannelN],peak_indicator_r
-                   [PreviewDeckN],peak_indicator_r
-                   [SamplerN],peak_indicator_r
+.. mixxx:control:: [ChannelN],peak_indicator_right
+                   [PreviewDeckN],peak_indicator_right
+                   [SamplerN],peak_indicator_right
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
@@ -2992,9 +2992,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       :mixxx:coref:`[SamplerN],VuMeter` controls.
 
 
-.. mixxx:control:: [ChannelN],vu_meter_l
-                   [PreviewDeckN],vu_meter_l
-                   [SamplerN],vu_meter_l
+.. mixxx:control:: [ChannelN],vu_meter_left
+                   [PreviewDeckN],vu_meter_left
+                   [SamplerN],vu_meter_left
 
    Outputs the current instantaneous deck volume for the left channel
 
@@ -3007,9 +3007,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       :mixxx:coref:`[SamplerN],VuMeterL` controls.
 
 
-.. mixxx:control:: [ChannelN],vu_meter_r
-                   [PreviewDeckN],vu_meter_r
-                   [SamplerN],vu_meter_r
+.. mixxx:control:: [ChannelN],vu_meter_right
+                   [PreviewDeckN],vu_meter_right
+                   [SamplerN],vu_meter_right
 
    Outputs the current instantaneous deck volume for the right channel
 
@@ -3174,8 +3174,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       :mixxx:coref:`[AuxiliaryN],PeakIndicator` controls.
 
 
-.. mixxx:control:: [MicrophoneN],peak_indicator_l
-                   [AuxiliaryN],peak_indicator_l
+.. mixxx:control:: [MicrophoneN],peak_indicator_left
+                   [AuxiliaryN],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
 
@@ -3186,8 +3186,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicatorL` and
       :mixxx:coref:`[AuxiliaryN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [MicrophoneN],peak_indicator_r
-                   [AuxiliaryN],peak_indicator_r
+.. mixxx:control:: [MicrophoneN],peak_indicator_right
+                   [AuxiliaryN],peak_indicator_right
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
@@ -3271,8 +3271,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       :mixxx:coref:`[AuxiliaryN],VuMeter` controls.
 
 
-.. mixxx:control:: [MicrophoneN],vu_meter_l
-                   [AuxiliaryN],vu_meter_l
+.. mixxx:control:: [MicrophoneN],vu_meter_left
+                   [AuxiliaryN],vu_meter_left
 
    Outputs the current instantaneous deck volume for the left channel
 
@@ -3285,8 +3285,8 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
       :mixxx:coref:`[AuxiliaryN],VuMeterL` controls.
 
 
-.. mixxx:control:: [MicrophoneN],vu_meter_r
-                   [AuxiliaryN],vu_meter_r
+.. mixxx:control:: [MicrophoneN],vu_meter_right
+                   [AuxiliaryN],vu_meter_right
 
    Outputs the current instantaneous deck volume for the right channel
 
@@ -4552,7 +4552,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
    :feedback: Clip light (left)
 
     .. deprecated:: 2.4.0
-       Use :mixxx:coref:`[Main],peak_indicator_l` instead.
+       Use :mixxx:coref:`[Main],peak_indicator_left` instead.
 
 
 .. mixxx:control:: [Master],PeakIndicatorR
@@ -4563,7 +4563,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
    :feedback: Clip light (right)
 
     .. deprecated:: 2.4.0
-       Use :mixxx:coref:`[Main],peak_indicator_r` instead.
+       Use :mixxx:coref:`[Main],peak_indicator_right` instead.
 
 
 .. mixxx:control:: [Master],VuMeter
@@ -4585,7 +4585,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
    :feedback: Main meter L
 
     .. deprecated:: 2.4.0
-       Use :mixxx:coref:`[Main],vu_meter_l` instead.
+       Use :mixxx:coref:`[Main],vu_meter_left` instead.
 
 
 .. mixxx:control:: [Master],VuMeterR
@@ -4596,7 +4596,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
    :feedback: Main meter R
 
     .. deprecated:: 2.4.0
-       Use :mixxx:coref:`[Main],vu_meter_r` instead.
+       Use :mixxx:coref:`[Main],vu_meter_right` instead.
 
 
 .. mixxx:control:: [Master],maximize_library
@@ -4930,9 +4930,9 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[ChannelN],peak_indicator_l`,
-      :mixxx:coref:`[PreviewDeckN],peak_indicator_l` and
-      :mixxx:coref:`[SamplerN],peak_indicator_l` instead.
+      Use :mixxx:coref:`[ChannelN],peak_indicator_left`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_left` and
+      :mixxx:coref:`[SamplerN],peak_indicator_left` instead.
 
 
 .. mixxx:control:: [ChannelN],PeakIndicatorR
@@ -4947,9 +4947,9 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[ChannelN],peak_indicator_r`,
-      :mixxx:coref:`[PreviewDeckN],peak_indicator_r` and
-      :mixxx:coref:`[SamplerN],peak_indicator_r` instead.
+      Use :mixxx:coref:`[ChannelN],peak_indicator_right`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_right` and
+      :mixxx:coref:`[SamplerN],peak_indicator_right` instead.
 
 
 
@@ -4977,8 +4977,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[MicrophoneN],peak_indicator_l` and
-      :mixxx:coref:`[AuxiliaryN],peak_indicator_l` instead.
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_left` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_left` instead.
 
 
 .. mixxx:control:: [MicrophoneN],PeakIndicatorR
@@ -4992,8 +4992,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[MicrophoneN],peak_indicator_r` and
-      :mixxx:coref:`[AuxiliaryN],peak_indicator_r` instead.
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_right` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_right` instead.
 
 
 .. mixxx:control:: [ChannelN],VuMeter
@@ -5023,9 +5023,9 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: ?.?.?
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[ChannelN],vu_meter_l`,
-      Use :mixxx:coref:`[PreviewDeckN],vu_meter_l` and
-      :mixxx:coref:`[SamplerN],vu_meter_l` instead.
+      Use :mixxx:coref:`[ChannelN],vu_meter_left`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_left` and
+      :mixxx:coref:`[SamplerN],vu_meter_left` instead.
 
 
 .. mixxx:control:: [ChannelN],VuMeterR
@@ -5039,9 +5039,9 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: ?.?.?
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[ChannelN],vu_meter_r`,
-      Use :mixxx:coref:`[PreviewDeckN],vu_meter_r` and
-      :mixxx:coref:`[SamplerN],vu_meter_r` instead.
+      Use :mixxx:coref:`[ChannelN],vu_meter_right`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_right` and
+      :mixxx:coref:`[SamplerN],vu_meter_right` instead.
 
 
 .. mixxx:control:: [MicrophoneN],VuMeter
@@ -5068,8 +5068,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[MicrophoneN],vu_meter_l` and
-      :mixxx:coref:`[AuxiliaryN],vu_meter_l` instead.
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_left` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_left` instead.
 
 
 .. mixxx:control:: [MicrophoneN],VuMeterR
@@ -5082,8 +5082,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. versionadded:: 2.0.0
    .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[MicrophoneN],vu_meter_r` and
-      :mixxx:coref:`[AuxiliaryN],vu_meter_r` instead.
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_right` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_right` instead.
 
 
 .. mixxx:control:: [Playlist],LoadSelectedIntoFirstStopped
