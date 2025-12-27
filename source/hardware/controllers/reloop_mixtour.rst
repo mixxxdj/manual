@@ -44,7 +44,7 @@ B    :hwlabel:`CUE MIX`             Adjust Headphone Mix between selected PFL ch
 C    Encoder                        Browse up and down in the Library.
 C    :hwlabel:`SHIFT` + Encoder     Browse left and right in the Library.
 C    Press Encoder                  Change active Library window.
-D    :hwlabel:`Back`                (not in use)
+D    :hwlabel:`Back`                Toggle maximized view of library section of the user interface.
 D    LED Band                       Show PFL or Main output level. [3]_
 E    Crossfader                     Fade between the Decks
 ===  ==========================     ============================================================================================
