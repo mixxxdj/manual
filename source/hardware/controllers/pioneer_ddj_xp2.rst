@@ -36,6 +36,7 @@ No.  Control                                              Function
 1    Encoder Rotate                                       Move Up and Down in Library.
 1    :hwlabel:`SHIFT` + Encoder Rotate                    Move Left and Right in Library.
 1    Encoder Press Button                                 Change Library Window.
+1    :hwlabel:`SHIFT` + Encoder Press Button              Toggle maximized view of library section of the user interface.
 2    :hwlabel:`SHIFT`                                     Allow access to Secondary Functions.
 3    :hwlabel:`INT` or :hwlabel:`SHIFT` + :hwlabel:`INT`  Switch to alternate Deck.
 4    :hwlabel:`LOAD`                                      Load selected Track to current Deck.
