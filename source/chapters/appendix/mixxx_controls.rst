@@ -1738,6 +1738,17 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],jog
+                   [PreviewDeckN],jog
+                   [SamplerN],jog
+
+    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+    Use this control to map controller jog wheel turns to pitch bend.
+
+    :range: -3.0..3.0
+    :feedback: waveform
+
+
 .. mixxx:control:: [ChannelN],key
                    [PreviewDeckN],key
                    [SamplerN],key
@@ -4718,19 +4729,6 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
-
-
-.. mixxx:control:: [ChannelN],jog
-                   [PreviewDeckN],jog
-                   [SamplerN],jog
-
-    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
-
-    :range: -3.0..3.0
-    :feedback: waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
 
 
 .. mixxx:control:: [ChannelN],scratch
