@@ -3859,6 +3859,57 @@ This group is going to be deprecated at some point, with its controls added to `
    :feedback: Library track table highlight
 
 
+.. mixxx:control:: [Playlist],LoadSelectedIntoFirstStopped
+    :range: binary
+    :feedback: Waveform view
+
+    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus
+    and Load Selected Track is set as double-click action in the Library preferences,
+    just regardless of the focus.
+
+
+
+.. mixxx:control:: [Playlist],SelectNextPlaylist
+    :range: binary
+    :feedback: Library sidebar
+
+    Switches to the next view (Library, Queue, etc.).
+    Performs the same action action like :mixxx:coref:`[Library],MoveDown` when the sidebar has focus.
+
+
+.. mixxx:control:: [Playlist],SelectPrevPlaylist
+
+    :range: binary
+    :feedback: Library sidebar
+
+    Switches to the previous view (Library, Queue, etc.).
+    Performs the same action action like :mixxx:coref:`[Library],MoveUp` when the sidebar has focus.
+
+
+.. mixxx:control:: [Playlist],ToggleSelectedSidebarItem
+    :range: binary
+    :feedback: Library sidebar
+
+    Toggles (expands/collapses) the currently selected sidebar item.
+    Works regardless which library widget has focus.
+
+
+.. mixxx:control:: [Playlist],SelectNextTrack
+    :range: binary
+    :feedback: Library track table highlight
+
+    Scrolls to the next track in the track table.
+    Performs the same action action like :mixxx:coref:`[Library],MoveDown` when the tracks table has focus.
+
+
+.. mixxx:control:: [Playlist],SelectPrevTrack
+    :range: binary
+    :feedback: Library track table highlight
+
+    Scrolls to the previous track in the track table.
+    Performs the same action action like :mixxx:coref:`[Library],MoveUp` when the tracks table has focus.
+
+
 The ``[Controls]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5084,69 +5135,6 @@ In the meantime, skins and controller mappings that still use them will keep wor
    .. deprecated:: 2.4.0
       Use :mixxx:coref:`[MicrophoneN],vu_meter_right` and
       :mixxx:coref:`[AuxiliaryN],vu_meter_right` instead.
-
-
-.. mixxx:control:: [Playlist],LoadSelectedIntoFirstStopped
-    :range: binary
-    :feedback: Waveform view
-
-    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus,
-    just regardless of the focus.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],GoToItem` instead.
-
-
-.. mixxx:control:: [Playlist],SelectNextPlaylist
-    :range: binary
-    :feedback: Library sidebar
-
-    Switches to the next view (Library, Queue, etc.)
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveDown` instead.
-
-
-.. mixxx:control:: [Playlist],SelectPrevPlaylist
-
-    :range: binary
-    :feedback: Library sidebar
-
-   Switches to the previous view (Library, Queue, etc.)
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveUp` instead.
-
-
-.. mixxx:control:: [Playlist],ToggleSelectedSidebarItem
-    :range: binary
-    :feedback: Library sidebar
-
-    Toggles (expands/collapses) the currently selected sidebar item.
-
-    .. versionadded:: 1.11.0
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],GoToItem` instead.
-
-
-.. mixxx:control:: [Playlist],SelectNextTrack
-    :range: binary
-    :feedback: Library track table highlight
-
-    Scrolls to the next track in the track table.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveDown` instead.
-
-
-.. mixxx:control:: [Playlist],SelectPrevTrack
-    :range: binary
-    :feedback: Library track table highlight
-
-    Scrolls to the previous track in the track table.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveUp` instead.
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
