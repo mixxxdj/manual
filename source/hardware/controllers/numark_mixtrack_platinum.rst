@@ -171,7 +171,7 @@ Manual Loop Mode
 Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) to assign the upper 4 pads.
 The functionality of the Manual loop buttons is controlled by the 'Manual Loop Buttons' option in the Mixxx preferences.
 
-*Loop In/Out* assigns the pads the following functions:
+*  *Loop In/Out* assigns the pads the following functions:
 
 -  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
 -  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
@@ -181,9 +181,9 @@ The functionality of the Manual loop buttons is controlled by the 'Manual Loop B
 If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
 to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status).
 
-*Additional Hotcues* adds hotcues 5-8 to the upper row of pads.
+*  *Additional Hotcues* adds hotcues 5-8 to the upper row of pads.
 
-*Stem Control* controls drum, bass, melody and voice stems of a track using the upper row pads:
+*  *Stem Control* controls drum, bass, melody and voice stems of a track using the upper row pads:
 
 -  **Toggle a stem** by pressing the corresponding stem pad.
 -  **Set a stem's volume** by holding a stem pad while rotating the Beats knob (19) left or right.
@@ -195,12 +195,11 @@ Auto Loop Mode
 ^^^^^^^^^^^^^^
 
 | Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
-| \* **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
-
+-  **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
 -  **Auto 2:** – Sets and starts playback of a 2-beat autoloop.
 -  **Auto 3:** – Sets and starts playback of a 4-beat autoloop.
 -  **Auto 4:** – Sets and starts playback of a 8-beat autoloop.
-   \* **Shift + Auto 1:** – When held, starts a 1/16-beat loop roll.
+-  **Shift + Auto 1:** – When held, starts a 1/16-beat loop roll.
 -  **Shift + Auto 2:** – When held, starts a 1/8-beat loop roll.
 -  **Shift + Auto 3:** – When held, starts a 1/4-beat loop roll.
 -  **Shift + Auto 4:** – When held, starts a 1/2-beat loop roll.
