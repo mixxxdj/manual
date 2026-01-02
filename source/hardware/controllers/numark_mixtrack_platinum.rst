@@ -171,15 +171,15 @@ Manual Loop Mode
 Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) to assign the upper 4 pads.
 The functionality of the Manual loop buttons is controlled by the 'Manual Loop Buttons' option in the Mixxx preferences.
 
-*  *Loop In/Out* assigns the pads the following functions:
+-  *Loop In/Out* assigns the pads the following functions:
 
--  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
--  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
--  **On/Off** – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
--  **Loop x1/2** – Halve the length of the loop. Press Shift + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
+    -  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
+    -  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
+    -  **On/Off** – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
+    -  **Loop x1/2** – Halve the length of the loop. Press Shift + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
 
-If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
-to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status).
+    If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
+    to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status).
 
 *  *Additional Hotcues* adds hotcues 5-8 to the upper row of pads.
 
