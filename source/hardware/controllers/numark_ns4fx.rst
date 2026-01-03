@@ -83,9 +83,9 @@ Mapping
        The knob is, however, used for other functionality in combination with other controls.
 
    16. **Tap BPM:** Press this button 4 or more times to manually enter a new BPM.
-   The software will ignore the track's BPM and follow your manually entered tempo.
+       The software will ignore the track's BPM and follow your manually entered tempo.
 
-   Press Shift and this button to reset the tempo to the track’s default BPM.
+       Press Shift and this button to reset the tempo to the track’s default BPM.
 
 | 2. **Master Gain:** Adjusts the main volume in the software.
 | **Note:** This control does not affect the microphone volume which is summed with the final output of the Main Gain to the Main Output. Use the Mic Gain knob to control the microphone volume.
