@@ -32,7 +32,7 @@ You can set configuration options in the Mixxx controller preferences.
    to use the hotcue behavior (defaults to false)
 -  **UseCueAsSampler:** if true, the hotcues will control sampler slots 5-8 when sampler mode is active. When enabled, the normal hotcue control behavior can be activated using shift+pad mode+sampler
    while pad mode+sampler will activate the special behavior (defaults to false)
--  **Shift+Load ejects track** if true, pressing shift + load will eject a track (defaults to false)
+-  **Shift+Load ejects track** if true, pressing SHIFT + load will eject a track (defaults to false)
 
 Mapping
 -------
@@ -79,13 +79,30 @@ Mapping
 
    14. **FX Wet/Dry Knob:** Turn this knob to adjust the wet/dry mix of the effects.
 
-   15. **Beats Multiplier:** Not applicable as Mixxx does not have a single BEATS knob.
-       The knob is, however, used for other functionality in combination with other controls.
+   15. **Beats Multiplier:** As Mixxx does not have a single BEATS knob, you can use it to control effect units superknobs.
 
    16. **Tap BPM:** Press this button 4 or more times to manually enter a new BPM.
        The software will ignore the track's BPM and follow your manually entered tempo.
 
-       Press Shift and this button to reset the tempo to the track’s default BPM.
+       Press SHIFT and this button to reset the tempo to the track’s default BPM.
+
+   17. **Software FX:** Press one or more of these buttons to select active software effects.
+
+   18. **FX On / Off / Hold:** Push up on the toggle switch to latch (lock) the FX in the 'on' position.
+       Push down on the toggle switch to turn the FX on momentarily.
+       When the toggle switch is in the middle position, the FX will be off.
+
+   19. **Layer:** Press this button to select which layer in the software is controlled by that hardware deck.
+       Deck A can control Layer 1 or 3 while Deck B can control Layer 2 or 4.
+
+   20. **Platter/Jog Wheel:** This capacitive, touch-sensitive jog wheel controls the audio when the wheel is touched and moved.
+       When the Scratch button is not active, use the jog wheel to bend the pitch of the track.
+       When the Scratch button is active, use the jog wheel to grab and move the audio, "scratching" the track as you would with a vinyl record.
+       You can also grab the non-touch-sensitive outer wheel to bend the pitch of the track.
+
+       Press Shift and move the wheel to quickly search through the track audio.
+
+
 
 | 2. **Master Gain:** Adjusts the main volume in the software.
 | **Note:** This control does not affect the microphone volume which is summed with the final output of the Main Gain to the Main Output. Use the Mic Gain knob to control the microphone volume.
@@ -121,7 +138,6 @@ all decks.
 
 13. **Volume fader:** Adjusts the volume of the deck.
 
-14. **Crossfader:** Controls the blend between the two decks.
 
 | 15-16. **Pitch Bend Down/Up:** Press and hold to momentarily reduce the speed of the track.
 | **Shift + Pitch Bend:** adjust the key of the playing track up or down. Press both buttons to reset the key.
@@ -176,7 +192,7 @@ the fader on the controller. This can be reversed in Mixxx’s preferences under
 
 | 32. **Pad Mode:** Hold this button to see the currently selected pad mode, while holding select between Manual Loop, Auto Loop, and Sampler modes. Additionally control of hotcues 5-8 can be
   activated using shift+pad mode+loop mode (either manual or auto loop). Setting either of the **UseManualLoopAsCue** or **UseAutoLoopAsCue** options will reverse the selection of hotcue vs loop mode
-  when shift is held.
+  when SHIFT is held.
 | **Pad Mode+Manual Loop:** set the top row of pads to manual loop control mode (see below)
 | **Pad Mode+Auto Loop:** set the top row of pads to auto loop/loop roll control mode (see below)
 | **Pad Mode+Sampler:** set the top row of pads to sampler control mode (see below)
@@ -204,12 +220,12 @@ Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) 
 -  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
 -  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
 -  **On/Off** – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
--  **Loop x1/2** – Halve the length of the loop. Press Shift + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
+-  **Loop x1/2** – Halve the length of the loop. Press SHIFT + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
 
-If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
+If Manual Loop is selected with SHIFT and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
 to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status). The
 **UseManualLoopAsCue** config option can be set in the mapping file (see above) to swap the default “shadow” mode of the looping controls such that hotcue control will be the default and manual loop
-control with be selected when Shift is used.
+control with be selected when SHIFT is used.
 
 Auto Loop Mode
 ^^^^^^^^^^^^^^
@@ -228,19 +244,19 @@ Auto Loop Mode
 Note: loop rolls activate slip mode so the play position continues to advance normally, such that when the loop is released, play continues from the place it would have been if no loop had been
 activated.
 
-If Auto Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Auto Loop again while holding Pad Mode to
+If Auto Loop is selected with SHIFT and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Auto Loop again while holding Pad Mode to
 restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status). The
 **UseAutoLoopAsCue** config option can be set in the mapping file (see above) to swap the default “shadow” mode of the looping controls such that hotcue control will be the default and auto loop
-control with be selected when Shift is used.
+control with be selected when SHIFT is used.
 
 Sample Mode
 ^^^^^^^^^^^
 
-Hold Pad Mode and press the pad marked Sampler to enter sampler mode (hold down shift as well to control slots 5-8 using the hotcue buttons). A press of any of the sample buttons will load a sample if
-the sampler is not loaded. Shift + sample pad will unload a sample if it is not playing. Pressing a pad when a sample is loaded will play the sample, pressing shift + sample pad while a sample is
+Hold Pad Mode and press the pad marked Sampler to enter sampler mode (hold down SHIFT as well to control slots 5-8 using the hotcue buttons). A press of any of the sample buttons will load a sample if
+the sampler is not loaded. SHIFT + sample pad will unload a sample if it is not playing. Pressing a pad when a sample is loaded will play the sample, pressing SHIFT + sample pad while a sample is
 playing will stop it.
 
-Use **shift+cue gain** to adjust the volume of the sampler. When switching to the pad mode to sampler, hold down shift to control slots 5-8 using the hotcue buttons.
+Use **shift+cue gain** to adjust the volume of the sampler. When switching to the pad mode to sampler, hold down SHIFT to control slots 5-8 using the hotcue buttons.
 
 Note: the 8 sample slots on each deck all control the same 8 slots in Mixxx no matter which deck the sampler is active on. This is because the controller sends the same MIDI codes for button presses
 on each side, so there is no way for Mixxx to tell whether a sampler button was pressed on the left or right side of the controller.
