@@ -240,9 +240,9 @@ Jog Wheel display
 The Jog wheel of Numark NS4FX include a color LED display with useful information about the loaded / playing track.
 
 .. figure:: ../../_static/controllers/numark_ns4fx_display.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
+   :align: right
+   :width: 33%
+   :figwidth: 33%
    :alt: Numark NS4FX jog wheel display (schematic view)
    :figclass: pretty-figures
 
@@ -253,3 +253,18 @@ Numark NS4FX jog wheel display (schematic view)
 2. Platter Position: Displays the current track position.
 
 3. BPM: Displays the current BPM for the selected track.
+
+4. Keylock: This icon illuminates when Keylock is active for the current deck.
+
+5. TODO Pitch Range: Shows the current pitch range.
+
+6. TODO Pitch: Shows current pitch of the track.
+
+7. TODO Pitch Adjust: Indicates the direction to move the Pitch Fader to match the current track’s BPM with the track on the opposite deck.
+
+8. Time Remaining: Displays the time elapsed or time remaining for the current track.
+
+9. Time Bars: Provides visual reference to time1 remaining on the selected song.
+   When the song is almost over these segments will flash to give a warning.
+
+TODO: add slip mode and shift+loop to auto roll loops
