@@ -102,105 +102,71 @@ Mapping
 
        Press Shift and move the wheel to quickly search through the track audio.
 
+   21. **Display:** Use this screen to view information about the current track.
+.. TODO tbazant See DISPLAY for more information.
+
+   22. **Shift:** Allows multiple control commands to be triggered when pressed first along with other buttons.
+
+   23. **Scratch:** Press this button to turn on the scratch feature for the jog wheel.
+
+   24. **Pitch Fader:** Adjust the speed of the music. Moving towards the "+" will speed the music up, while moving towards the "–" will slow it down.
+
+   25. **Pitch Bend Down:** Press and hold to momentarily reduce the speed of the track.
+       **Shift + Pitch Bend Down:** Adjust the key of the playing track down.
+       **Pitch Bend Up + Pitch Bend Down:** Toggle keylock.
+
+   26. **Pitch Bend Up:** Press and hold to momentarily increase the speed of the track.
+       **Shift + Pitch Bend Up:** Adjust the key of the playing track up.
+       **Pitch Bend Up + Pitch Bend Down:** Toggle keylock.
+
+   27. **Sync:** Set the BPM of this deck to match the opposite deck.
+       **Press:** Press once to synchronize the tempo (BPM) to that of to that of the other track
+       **Long Press:** Enable :ref:`Sync Lock <sync-lock>`. Press again to disable.
+       **Shift + Sync:** Toggle quantize mode.
+
+   28. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
+       **Shift + Cue:** return the play head to the start of the track and stop the deck.
+
+   29. **Play/Pause:** Starts and suspends playback.
+
+   30. **Performance Pads:** These pads have different functions on each deck depending on the current pad mode.
+       .. TODO tbazant See Operation > Performance Pad Modes to learn how to use the pads in each mode, described below.
+
+       With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
+
+         * Stutter: Repeats or "stutters" the sample when the pad is repeatedly tapped from the last cue position.
+         * Start: Jumps to the beginning of the current track.
+         * Search Backward: Searches backward through the current track.
+         * Search Forward: Searches forward through the current track.
+
+         TIP: the bottom four pads can also be used for the selected pad mode.
+
+   31. **Cue mode:** Press this button to enter Cue mode.
+
+   32. **Auto Loop:** Press this button to enter Auto Loop mode.
+
+   33. **Fader Cuts:** Press this button to enter Fader Cuts mode.
+
+   34. **Sampler:** Press this button to enter Sampler mode.
+
+   35. **Loop On/Off:** Press this button to activate auto loop on/off. Hold Shift and press this button to trigger a reloop.
+
+   36. **Loop 1/2:** Press this button when a loop is active to decrease the loop size by half. Hold Shift and press this button to set the Loop In point.
+
+   37. **Loop x2:** Press this button when a loop is active to double the loop size. Hold Shift and press this button to set the Loop Out point.
+
+   38. **Mic 1/Line Switch:** Flip this switch to the appropriate position, depending on the device connected to the Mic 1 Input.
+       If you are using a microphone connected to the Mic 1 Input, set the switch to Mic 1.
+       If you are using a device such as a CD player or sampler connected to the AUX input, set the switch to Line.
+   39. **Mic 1/Line Level:** Turn this knob to adjust the level for the Mic 1 Input or Aux Input.
+   40. **Mic 1/Line Tone:** Turn this knob to adjust the tone of the Mic 1 Input or Aux Input.
+       Turn left to increase the Low frequency tone, or turn right to increase the High frequency tone.
+   41. **Booth Volume:** Turn this knob to adjust the output volume of the Booth Output mix.
+   42. **Main Volume:** Turn this knob to adjust the output volume of the Main Output mix.
 
 
-| 2. **Master Gain:** Adjusts the main volume in the software.
-| **Note:** This control does not affect the microphone volume which is summed with the final output of the Main Gain to the Main Output. Use the Mic Gain knob to control the microphone volume.
-
-3. **Cue Mix:** Adjusts the software’s audio output to the headphones, mixing between the cue (PFL) output and the main mix output.
-
-| 4. **Cue Gain:** Adjusts the volume for headphone cueing in the software.
-| **Shift+Cue Gain:** adjust the volume of the first 8 sampler banks
-
-5. **VU Meter:** Monitor the volume levels of the main output and each channel. When cue/pfl is active on ANY channel, the meter shows the mono levels each channel (left meter shows the deck on the
-left, right meter for the deck on the right). Otherwise the meter shows the stereo levels of the main output.
-
-
-
-| 7. **Gain Knobs:** Adjust the gain of the deck.
-| **Shift + Gain:** Adjust parameter 2 of the currently focused effect on this deck.
-
-| 8. **High EQ Knobs:** Adjust the volume of the high frequencies of the deck.
-| **Shift + High:** Adjust parameter 3 of the currently focused effect on this deck.
-
-| 9. **Mid EQ Knobs:** Adjust the volume of the mid frequencies of the deck.
-| **Shift + Mid:** Adjust parameter 4 of the currently focused effect on this deck.
-
-| 10. **Low EQ Knobs:** Adjust the volume of the low frequencies of the deck.
-| **Shift + Low:** Adjust parameter 5 of the currently focused effect on this deck.
-
-| 11. **Filter:** Adjusts the amount of the filter effect. Turning the knob left controls the low pass filter; turning it right controls the high pass filter. The effect applied here can be configured
-  (the Quick Effect option in the Equalizer preferences).
-| **Shift + Filter:** With no effect focused, this controls the Superknob of the effects unit. With an effect focused, this adjusts parameter 1 of the currently focused effect on this deck.
-
-12. **Cue/PFL/Headphones:** Sends pre-fader audio to the headphone output. If any channels have the cue button active, the VU meter will show channel output levels instead of main output levels on
-all decks.
-
-13. **Volume fader:** Adjusts the volume of the deck.
-
-
-| 15-16. **Pitch Bend Down/Up:** Press and hold to momentarily reduce the speed of the track.
-| **Shift + Pitch Bend:** adjust the key of the playing track up or down. Press both buttons to reset the key.
-| **Pitch Bend Up + Pitch Bend Down:** toggle keylock
-
-17. **Pitch Fader:** Adjust the speed of the music (activate keylock to adjust tempo without affecting pitch). Note that moving the fader down *increases* speed, as marked by the “+” at the bottom of
-the fader on the controller. This can be reversed in Mixxx’s preferences under Interface > Speed slider direction.
-
-| 18. **Touch Strip:** Use the Touch Strip to adjust the deck’s Effect Unit Superknob. When an effect is focused, the touch strip controls that effect’s meta knob.
-| **Shift + Touch Strip:** search through a track’s timeline
-
-19. **Beats Knob:** Adjusts the Dry/Wet mix of the deck’s Effect Unit.
-
-| 20. **FX 1 On/Off:** Toggle FX 1 of the deck’s Effect Unit
-| **Shift + FX 1:** Cycle to the next effect.
-| **Hold + FX 1:** Enable this effect in instant mode, after the button is released the effect will be disabled again.
-| **Tap + FX 1:** Focus this effect to allow adjusting its metaknob with the touch strip.
-
-| 21. **FX 2 On/Off:** Toggle FX 2 of the deck’s Effect Unit
-| **Shift + FX 2:** Cycle to the next effect.
-| **Hold + FX 2:** Enable this effect in instant mode, after the button is released the effect will be disabled again.
-| **Tap + FX 2:** Focus this effect to allow adjusting its metaknob with the touch strip.
-
-| 22. **FX 3 On/Off:** Toggle FX 3 of the deck’s Effect Unit
-| **Shift + FX 3:** Cycle to the next effect.
-| **Hold + FX 3:** Enable this effect in instant mode, after the button is released the effect will be disabled again.
-| **Tap + FX 3:** Focus this effect to allow adjusting its metaknob with the touch strip.
-
-| 23. **Tap BPM:** Press this button several times on beat to manually enter a new BPM. The software will ignore the track’s BPM and follow your manually entered tempo.
-| 24. **Wheel button:** If active you can use the platter/jog wheel to grab and move the audio, scratching the track like a vinyl record.
-| **Shift + Wheel:** Toggle elapsed time or time remaining on the deck’s display.
-
-| 25. **Platter/Jog Wheel:** If Wheel is enabled, touching the platter will result in vinyl scratching, when disabled, nothing will happen and the entire jog wheel behaves as if the side was touched.
-| **Touch side:** Pitch bend (nudging) if track is playing
-| **Shift + Touch platter:** Quickly scroll through the track
-| **Shift + Touch side:** Beat jump
-| 26. **Jog Wheel Display:** The display is fully functional with this mapping. It will display the position of the spinner, play position, bpm, and keylock status.
-
-27. **Deck Switch:** Allows switching between decks 1/3 and 2/4.
-
-28. **Shift:** Allows alternate options to be activated for various controls.
-
-| 29. **Sync:** Set the BPM of this deck to match the opposite deck. **Press:** Press once to synchronize the tempo (BPM) to that of to that of the other track
-| **Long Press:** Enable :ref:`Sync Lock <sync-lock>`. Press again to disable.
-| **Shift + Sync:** Toggle quantize mode.
-
-| 30. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
-| **Shift + Cue:** return the play head to the start of the track and stop the deck.
-
-| 31. **Play/Pause:** Starts and stops playback.
-| **Shift + Play/Pause:** stutter the track from the last set cue point. If a cue point has not been set, the play head will return to the start of the track.
-
-| 32. **Pad Mode:** Hold this button to see the currently selected pad mode, while holding select between Manual Loop, Auto Loop, and Sampler modes. Additionally control of hotcues 5-8 can be
-  activated using shift+pad mode+loop mode (either manual or auto loop). Setting either of the **UseManualLoopAsCue** or **UseAutoLoopAsCue** options will reverse the selection of hotcue vs loop mode
-  when SHIFT is held.
-| **Pad Mode+Manual Loop:** set the top row of pads to manual loop control mode (see below)
-| **Pad Mode+Auto Loop:** set the top row of pads to auto loop/loop roll control mode (see below)
-| **Pad Mode+Sampler:** set the top row of pads to sampler control mode (see below)
-| **Shift+Pad Mode+Manual Loop:** set the top row of pads to control hotcues 5-8 (see below)
-| **Shift+Pad Mode+Auto Loop:** set the top row of pads to control hotcues 5-8 (see below)
-| **Shift+Pad Mode+Sampler:** set the bottom row of pads to control sampler banks 5-8 (see below)
-
-33. **Performance Pads:**
+Performance Pads:
+=================
 
 The top row of pads is for controlling loops and samples. To select a mode, hold down the Pad Mode button and press one of the upper pads. An LED under the pad section indicates the currently selected
 mode. See the subsections below for details about each mode.
