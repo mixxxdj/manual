@@ -168,61 +168,56 @@ Mapping
 Performance Pads:
 -----------------
 
-The top row of pads is for controlling loops and samples. To select a mode, hold down the Pad Mode button and press one of the upper pads. An LED under the pad section indicates the currently selected
-mode. See the subsections below for details about each mode.
+The top row of pads 31-34 controls hotcues, loops, stems and samples function of the performance pads below.
+To select a mode, just press one of these upper pads.
+An LED under the pad section indicates the currently selected mode.
+See the subsections below for details about each mode.
 
-| The bottom row of pads is used to trigger hotcue points. If a hotcue point has not already been set for the loaded track, this control will mark the hotcue point. If a hotcue point has already been
-  set, this control will jump to it.
-| **Shift + Hot Cue**: Deletes the assigned hotcue point
+Cue Mode
+^^^^^^^^
 
-Note: the top row can be made to control hotcues 5-8 using shift+pad mode+loop mode (being Auto Loop or Manual Loop). This can also be made the default using a config option (see documentation above
-and below).
+Press the **CUE** pad (31) to enter the cue mode.
+By pressing a pad from the upper row of performance pads, you assign a hotcue 1-4 at the current play position of the track.
+The assigned pad will be illuminated.
+If that pad was already assigned a hotcue, the deck starts to play the current track from the hotcue-assigned position.
+To erase a hotcue, press SHIFT + pad related to that hotcue.
 
-Manual Loop Mode
-^^^^^^^^^^^^^^^^
-
-Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) to assign the upper 4 pads to the functions listed below:
-
--  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
--  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
--  **On/Off** – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
--  **Loop x1/2** – Halve the length of the loop. Press SHIFT + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
-
-If Manual Loop is selected with SHIFT and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
-to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status). The
-**UseManualLoopAsCue** config option can be set in the mapping file (see above) to swap the default “shadow” mode of the looping controls such that hotcue control will be the default and manual loop
-control with be selected when SHIFT is used.
+**TIP:** If you enable the 'Add hotcues 5-8 to the second row of pads' option in the controller's preferences, you add another row of hotcues 5-8.
 
 Auto Loop Mode
 ^^^^^^^^^^^^^^
 
-| Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
-| \* **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
+Press the **AUTO LOOP** pad (32) to enter the auto loop mode.
+It assigns the upper 4 performance pads to the following functions:
+-  **Auto 1:** – Sets and starts playback of a 2-beat autoloop.
+-  **Auto 2:** – Sets and starts playback of a 4-beat autoloop.
+-  **Auto 3:** – Sets and starts playback of a 8-beat autoloop.
+-  **Auto 4:** – Sets and starts playback of a 16-beat autoloop.
 
--  **Auto 2:** – Sets and starts playback of a 2-beat autoloop.
--  **Auto 3:** – Sets and starts playback of a 4-beat autoloop.
--  **Auto 4:** – Sets and starts playback of a 8-beat autoloop.
-   \* **Shift + Auto 1:** – When held, starts a 1/16-beat loop roll.
--  **Shift + Auto 2:** – When held, starts a 1/8-beat loop roll.
--  **Shift + Auto 3:** – When held, starts a 1/4-beat loop roll.
--  **Shift + Auto 4:** – When held, starts a 1/2-beat loop roll.
+**TIP:** You can also control loop s with the 'Loop On/Off', 'Loop 1/2' and 'Loop x2' buttons (35-37).
 
-Note: loop rolls activate slip mode so the play position continues to advance normally, such that when the loop is released, play continues from the place it would have been if no loop had been
-activated.
+Fader Cuts Mode
+^^^^^^^^^^^^^^^
 
-If Auto Loop is selected with SHIFT and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Auto Loop again while holding Pad Mode to
-restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status). The
-**UseAutoLoopAsCue** config option can be set in the mapping file (see above) to swap the default “shadow” mode of the looping controls such that hotcue control will be the default and auto loop
-control with be selected when SHIFT is used.
+Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
+In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-Sample Mode
-^^^^^^^^^^^
+Stem Separation Mode
+^^^^^^^^^^^^^^^^^^^^
 
-Hold Pad Mode and press the pad marked Sampler to enter sampler mode (hold down SHIFT as well to control slots 5-8 using the hotcue buttons). A press of any of the sample buttons will load a sample if
-the sampler is not loaded. SHIFT + sample pad will unload a sample if it is not playing. Pressing a pad when a sample is loaded will play the sample, pressing SHIFT + sample pad while a sample is
-playing will stop it.
 
-Use **shift+cue gain** to adjust the volume of the sampler. When switching to the pad mode to sampler, hold down SHIFT to control slots 5-8 using the hotcue buttons.
 
-Note: the 8 sample slots on each deck all control the same 8 slots in Mixxx no matter which deck the sampler is active on. This is because the controller sends the same MIDI codes for button presses
-on each side, so there is no way for Mixxx to tell whether a sampler button was pressed on the left or right side of the controller.
+Sampler Mode
+^^^^^^^^^^^^
+
+Press the **SAMPLE** pad (34) to enter the sampler mode.
+A press of any of the sample buttons 1-4 will load and start playing a sample if the sampler is not loaded.
+Pressing the same pad again will start playing the sample from its beginning.
+SHIFT + sample pad will stop playing the sample and unloads it if it is not playing.
+
+Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switching to the pad mode to sampler, hold down SHIFT to control slots 5-8 using the hotcue buttons.
+
+**Note:** The sampler pads on both the left and right decks control the same sampler slots in Mixxx.
+This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
+
+.. TODO tbazant introduce controller shortcut for slip mode. Maybe activate roll loop with SHIFT + pad 1-4?
