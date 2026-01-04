@@ -5,7 +5,7 @@ Numark NS4FX
 -  `Forum thread <https://mixxx.discourse.group/t/numark-ns4-fx-mapping-repository/32767>`__
 
 The Numark NS4FX is a 4 channel (with channel layering) DJ controller with an integrated audio interface.
-The stand out feature of the Mixtrack Platinum is the LCD displays integrated into the jog wheels.
+Its stand out feature is the LCD displays integrated into the jog wheels.
 It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
 
 .. versionadded:: 1.0
@@ -166,7 +166,7 @@ Mapping
 
 
 Performance Pads:
-=================
+-----------------
 
 The top row of pads is for controlling loops and samples. To select a mode, hold down the Pad Mode button and press one of the upper pads. An LED under the pad section indicates the currently selected
 mode. See the subsections below for details about each mode.
