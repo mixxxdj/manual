@@ -103,7 +103,7 @@ Mapping
        Press Shift and move the wheel to quickly search through the track audio.
 
    21. **Display:** Use this screen to view information about the current track.
-.. TODO tbazant See DISPLAY for more information.
+       See the TODO DISPLAY for more information.
 
    22. **Shift:** Allows multiple control commands to be triggered when pressed first along with other buttons.
 
@@ -130,7 +130,7 @@ Mapping
    29. **Play/Pause:** Starts and suspends playback.
 
    30. **Performance Pads:** These pads have different functions on each deck depending on the current pad mode.
-       .. TODO tbazant See Operation > Performance Pad Modes to learn how to use the pads in each mode, described below.
+       See TODO Performance Pad Modes to learn how to use the pads in each mode.
 
        With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
 
