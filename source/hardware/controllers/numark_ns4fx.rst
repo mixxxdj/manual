@@ -246,7 +246,7 @@ The Jog wheel of Numark NS4FX include a color LED display with useful informatio
    :alt: Numark NS4FX jog wheel display (schematic view)
    :figclass: pretty-figures
 
-   Numark NS4FX jog wheel display (schematic view)
+Numark NS4FX jog wheel display (schematic view)
 
 1. Active Deck: Indicates the currently active deck.
 
