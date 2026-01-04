@@ -130,7 +130,7 @@ Mapping
    29. **Play/Pause:** Starts and suspends playback.
 
    30. **Performance Pads:** These pads have different functions on each deck depending on the current pad mode.
-       See TODO Performance Pad Modes to learn how to use the pads in each mode.
+       See :ref:`performance-pads` for more information to learn how to use the pads in each mode.
 
        With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
 
@@ -159,11 +159,15 @@ Mapping
        If you are using a microphone connected to the Mic 1 Input, set the switch to Mic 1.
        If you are using a device such as a CD player or sampler connected to the AUX input, set the switch to Line.
    39. **Mic 1/Line Level:** Turn this knob to adjust the level for the Mic 1 Input or Aux Input.
+
    40. **Mic 1/Line Tone:** Turn this knob to adjust the tone of the Mic 1 Input or Aux Input.
        Turn left to increase the Low frequency tone, or turn right to increase the High frequency tone.
+
    41. **Booth Volume:** Turn this knob to adjust the output volume of the Booth Output mix.
+
    42. **Main Volume:** Turn this knob to adjust the output volume of the Main Output mix.
 
+.. _performance-pads:
 
 Performance Pads:
 -----------------
@@ -202,10 +206,17 @@ Fader Cuts Mode
 Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
 In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-Stem Separation Mode
-^^^^^^^^^^^^^^^^^^^^
+Stems Mode
+^^^^^^^^^^
 
+*Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
+To activated stem control mode, activate the 'Control stems with Fader Cuts pads' option in the Mixxx preferences of your controller.
+Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33) to enter the stem mode afterwards.
 
+-  **Toggle a stem** by pressing the corresponding stem pad 1-4 from performance pads.
+-  **Set a stem's volume** by holding a stem pad while rotating the BEATS knob (15) left or right.
+-  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
+-  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
 
 Sampler Mode
 ^^^^^^^^^^^^
@@ -220,4 +231,25 @@ Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switchin
 **Note:** The sampler pads on both the left and right decks control the same sampler slots in Mixxx.
 This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
 
-.. TODO tbazant introduce controller shortcut for slip mode. Maybe activate roll loop with SHIFT + pad 1-4?
+
+.. _jog-wheel-display:
+
+Jog Wheel display
+------------------
+
+The Jog wheel of Numark NS4FX include a color LED display with useful information about the loaded / playing track.
+
+.. figure:: ../../_static/controllers/numark_ns4fx_display.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark NS4FX jog wheel display (schematic view)
+   :figclass: pretty-figures
+
+   Numark NS4FX jog wheel display (schematic view)
+
+1. Active Deck: Indicates the currently active deck.
+
+2. Platter Position: Displays the current track position.
+
+3. BPM: Displays the current BPM for the selected track.
