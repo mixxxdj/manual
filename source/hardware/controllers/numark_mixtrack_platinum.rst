@@ -165,6 +165,7 @@ Note: the top row can be made to control hotcues 5-8 using shift+pad mode+loop m
 and below).
 
 .. _manual-loop-mode:
+
 Manual Loop Mode
 ^^^^^^^^^^^^^^^^
 
@@ -193,8 +194,8 @@ The functionality of the Manual loop buttons is controlled by the 'Manual Loop B
 
 Auto Loop Mode
 ^^^^^^^^^^^^^^
-
-| Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
+Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
+-  **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
 -  **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
 -  **Auto 2:** – Sets and starts playback of a 2-beat autoloop.
 -  **Auto 3:** – Sets and starts playback of a 4-beat autoloop.
