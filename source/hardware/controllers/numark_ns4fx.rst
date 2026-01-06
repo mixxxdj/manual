@@ -24,15 +24,17 @@ Configuration Options
 
 You can set configuration options in the Mixxx controller preferences.
 
--  **EnableWheel:** if true, wheel/vinyl mode will be enabled by default (defaults to true)
--  **ShowTimeElapsed:** if true, time elapsed will be show by default on the displays, otherwise time remaining will be displayed (defaults to true)
--  **UseManualLoopAsCue:** if true, the manual loop controls will behave as hotcues 5-8. When enabled, the normal loop control behavior can be activated using shift+pad mode+mode button and pad
-   mode+mode to use the hotcue behavior (defaults to false)
--  **UseAutoLoopAsCue:** if true, the auto loop controls will behave as hotcues 5-8. When enabled, the normal loop control behavior can be activated using shift+pad mode+mode button and pad mode+mode
-   to use the hotcue behavior (defaults to false)
--  **UseCueAsSampler:** if true, the hotcues will control sampler slots 5-8 when sampler mode is active. When enabled, the normal hotcue control behavior can be activated using shift+pad mode+sampler
-   while pad mode+sampler will activate the special behavior (defaults to false)
--  **Shift+Load ejects track** if true, pressing SHIFT + load will eject a track (defaults to false)
+-  **Enable Wheel on startup** When enabled (default), the jog wheels will be in vinyl/scratch mode by default.
+   When disabled, they will be in pitch bend/nudge mode.
+-  **SHIFT + Load ejects track** When enabled (default), holding the SHIFT button and pressing LOAD will eject the track from the deck.
+   If disabled, it will load and play the selected track.
+-  **Use effect only on active deck** When enabled, effects are only applied to the currently active deck (e.g., Deck 1 or 3).
+   When disabled (default), effects are applied to both decks on that side (e.g., Deck 1 and 3).
+-  **Display VU from both decks** When enabled, the channel VU meters will display the left and right master output levels.
+   When disabled (default), they will display the individual level for each active deck.
+   **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
+   **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
+   **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
 
 Mapping
 -------
@@ -48,11 +50,11 @@ Mapping
 
    1. **Browse Knob:** Rotate this knob clockwise to scroll down, counter clockwise to scroll up.
       Press the Knob to load tracks into the inactive deck, expand entries in the library view, and select playlists and crates.
-      **Shift + Turn:** Page down/page up, allows you to scroll by page instead of by item.
-      **Shift + Push:** Focus next library pane, allows you to toggle between the left and right panes.
+      **SHIFT + Turn:** Page down/page up, allows you to scroll by page instead of by item.
+      **SHIFT + Push:** Focus next library pane, allows you to toggle between the left and right panes.
 
    2. **Load:** Press one of these buttons while a track is selected in the library window to assign it to the active deck.
-      **Shift + Load:** Load the track and play. If the 'Shift+Load ejects track' option is set, eject the track)
+      **SHIFT + Load:** Load the track and play. If the 'SHIFT + Load ejects track' option is set, eject the track)
 
    3. **Level:** Adjusts the pre-fader, pre-EQ audio level of the corresponding channel.
 
@@ -100,32 +102,37 @@ Mapping
        When the Scratch button is active, use the jog wheel to grab and move the audio, "scratching" the track as you would with a vinyl record.
        You can also grab the non-touch-sensitive outer wheel to bend the pitch of the track.
 
-       Press Shift and move the wheel to quickly search through the track audio.
+       Press SHIFT and move the wheel to quickly search through the track audio.
 
    21. **Display:** Use this screen to view information about the current track.
        See the TODO DISPLAY for more information.
 
-   22. **Shift:** Allows multiple control commands to be triggered when pressed first along with other buttons.
+   22. **SHIFT:** Allows multiple control commands to be triggered when pressed first along with other buttons.
 
    23. **Scratch:** Press this button to turn on the scratch feature for the jog wheel.
 
-   24. **Pitch Fader:** Adjust the speed of the music. Moving towards the "+" will speed the music up, while moving towards the "–" will slow it down.
+   24. **Pitch Fader:** Adjust the speed of the music.
+       Moving towards the " + " will speed the music up, while moving towards the "–" will slow it down.
+       **NOTE:** You can reverse the slider direction by deactivating the `Down increases speed` option in Mixxx Deck preferences.
+       **SHIFT + Pitch Fader** changes the pitch range of the deck between 4% to 90%.
+
+
 
    25. **Pitch Bend Down:** Press and hold to momentarily reduce the speed of the track.
-       **Shift + Pitch Bend Down:** Adjust the key of the playing track down.
+       **SHIFT + Pitch Bend Down:** Adjust the key of the playing track down.
        **Pitch Bend Up + Pitch Bend Down:** Toggle keylock.
 
    26. **Pitch Bend Up:** Press and hold to momentarily increase the speed of the track.
-       **Shift + Pitch Bend Up:** Adjust the key of the playing track up.
+       **SHIFT + Pitch Bend Up:** Adjust the key of the playing track up.
        **Pitch Bend Up + Pitch Bend Down:** Toggle keylock.
 
    27. **Sync:** Set the BPM of this deck to match the opposite deck.
        **Press:** Press once to synchronize the tempo (BPM) to that of to that of the other track
        **Long Press:** Enable :ref:`Sync Lock <sync-lock>`. Press again to disable.
-       **Shift + Sync:** Toggle quantize mode.
+       **SHIFT + Sync:** Toggle quantize mode.
 
    28. **Cue (Transport Control):** Behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the Mixxx preferences.
-       **Shift + Cue:** return the play head to the start of the track and stop the deck.
+       **SHIFT + Cue:** return the play head to the start of the track and stop the deck.
 
    29. **Play/Pause:** Starts and suspends playback.
 
@@ -149,11 +156,11 @@ Mapping
 
    34. **Sampler:** Press this button to enter Sampler mode.
 
-   35. **Loop On/Off:** Press this button to activate auto loop on/off. Hold Shift and press this button to trigger a reloop.
+   35. **Loop On/Off:** Press this button to activate auto loop on/off. Hold SHIFT and press this button to trigger a reloop.
 
-   36. **Loop 1/2:** Press this button when a loop is active to decrease the loop size by half. Hold Shift and press this button to set the Loop In point.
+   36. **Loop 1/2:** Press this button when a loop is active to decrease the loop size by half. Hold SHIFT and press this button to set the Loop In point.
 
-   37. **Loop x2:** Press this button when a loop is active to double the loop size. Hold Shift and press this button to set the Loop Out point.
+   37. **Loop x2:** Press this button when a loop is active to double the loop size. Hold SHIFT and press this button to set the Loop Out point.
 
    38. **Mic 1/Line Switch:** Flip this switch to the appropriate position, depending on the device connected to the Mic 1 Input.
        If you are using a microphone connected to the Mic 1 Input, set the switch to Mic 1.
