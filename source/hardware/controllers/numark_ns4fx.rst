@@ -256,15 +256,13 @@ Numark NS4FX jog wheel display (schematic view)
 
 4. Keylock: This icon illuminates when Keylock is active for the current deck.
 
-5. TODO Pitch Range: Shows the current pitch range.
+5. Pitch Range: Shows the current pitch range.
 
-6. TODO Pitch: Shows current pitch of the track.
+6. Pitch: Shows current pitch of the track.
 
-7. TODO Pitch Adjust: Indicates the direction to move the Pitch Fader to match the current track’s BPM with the track on the opposite deck.
+7. Pitch Adjust: Indicates the direction to move the Pitch Fader to match the current track’s BPM with the track on the opposite deck.
 
 8. Time Remaining: Displays the time elapsed or time remaining for the current track.
 
-9. Time Bars: Provides visual reference to time1 remaining on the selected song.
+9. Time Bars: Provides visual reference to time remaining on the selected song.
    When the song is almost over these segments will flash to give a warning.
-
-TODO: add slip mode and shift+loop to auto roll loops
