@@ -135,16 +135,17 @@ Mapping
        **SHIFT + Cue:** return the play head to the start of the track and stop the deck.
 
    29. **Play/Pause:** Starts and suspends playback.
+       **SHIFT + Play:** Toggles slip (roll) mode for the current deck.
 
    30. **Performance Pads:** These pads have different functions on each deck depending on the current pad mode.
        See :ref:`performance-pads` for more information to learn how to use the pads in each mode.
 
        With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
 
-         * Stutter: Repeats or "stutters" the sample when the pad is repeatedly tapped from the last cue position.
-         * Start: Jumps to the beginning of the current track.
-         * Search Backward: Searches backward through the current track.
-         * Search Forward: Searches forward through the current track.
+         * **Stutter:** Repeats or "stutters" the sample when the pad is repeatedly tapped from the last cue position.
+         * **Start:** Jumps to the beginning of the current track.
+         * **Search Backward:** Searches backward through the current track.
+         * **Search Forward:** Searches forward through the current track.
 
          TIP: the bottom four pads can also be used for the selected pad mode.
 
