@@ -426,6 +426,24 @@ Mixxx supports the following filters:
       title:= "Track 1"
       artist:="DJ Flop"
 
+  Even though all text filters behave the same, it's worth mentioning the some subtleties with the
+  'location' and 'directory' filter:
+
+  * find tracks only in "My Music\Disco", ignore subdirectories
+    ::
+
+      dir:="D:\My Music\Disco"
+
+  * find tracks in "My Music\Disco" and all subdirectories,
+    ::
+
+      dir:"D:\My Music\Disco"
+
+  * find tracks only in subdirectories of "Disco" (note trailing '\\')
+    ::
+
+      dir:"D:\My Music\Disco\"
+
 * **Numeric filtering**: bpm, bitrate, played, rating, track, year, id (internal track id)
 
   Examples
