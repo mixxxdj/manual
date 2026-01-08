@@ -396,7 +396,7 @@ to limit certain search terms to particular properties of your tracks. Also cons
 Mixxx supports the following filters:
 
 * **Text filtering**: album_artist, album, artist, comment, composer, crate,
-  genre, grouping, location, title
+  genre, grouping, location, title, directory
 
   Examples
     ::
@@ -559,6 +559,8 @@ b   bpm
 cm  comment
 --- ------------------
 cp  composer
+--- ------------------
+dir directory
 --- ------------------
 du  duration
 --- ------------------
