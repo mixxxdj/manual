@@ -249,7 +249,7 @@ The Jog wheel of Numark NS4FX include a color LED display with useful informatio
 
 .. figure:: ../../_static/controllers/numark_ns4fx_display.png
    :align: right
-   :width: 33%
+   :width: 75%
    :figwidth: 33%
    :alt: Numark NS4FX jog wheel display (schematic view)
    :figclass: pretty-figures
