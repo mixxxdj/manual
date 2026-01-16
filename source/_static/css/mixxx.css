@@ -200,3 +200,13 @@ a:hover {
 .wy-table-responsive table th {
     white-space: normal;
 }
+
+.controlgroup {
+	& > .sig {
+		display: none !important;
+	}
+
+	& > dd {
+		margin-left: 0 !important;
+	}
+}
