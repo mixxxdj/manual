@@ -20,7 +20,7 @@ Mixxx Sound Hardware Preferences
 Mixxx mapping
 ~~~~~~~~~~~~~
 
-- The Mixxx mapping tries to be as close as posiible to NI's original mapings which you can find here: `In section 4 of their manual <https://www.native-instruments.com/fileadmin/ni_media/downloads/manuals/traktor/Traktor_MX2_user_guide-en.pdf>`__
+- The Mixxx mapping tries to be as close as possible to NI's original mappings which you can find here: `In section 4 of their manual <https://www.native-instruments.com/fileadmin/ni_media/downloads/manuals/traktor/Traktor_MX2_user_guide-en.pdf>`__
 
 .. figure:: ../../_static/controllers/native_instruments_traktor_mx2.svg
    :align: center
