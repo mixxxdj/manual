@@ -43,7 +43,7 @@ Channel Controls (1-30)
 | **2**. FX Param    | Control the 'meta' Parameter of Effect 1-3 in FX1 / FX2                                                                     |                                                     |
 | knob               |                                                                                                                             |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| **3**. FX Toggle   | Toggles Effect 1-3 in FX1 / FX2                                                                                             |                                                     |
+| **3**. FX Toggle   | Toggles Effect 1-3 in FX1 / FX2                                                                                             | Cycle through effects                               |
 | button             |                                                                                                                             |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | **4**. Preparation | Add selected track to AutoDJ queue (bottom)                                                                                 | Add selected track to AutoDJ queue (top)            |
