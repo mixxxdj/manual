@@ -91,7 +91,7 @@ Channel Controls (1-30)
 | **16**. Move knob  | Activates a rolling loop of the defined number of beats. Once disabled, playback will resume where the track would have     | Activate current loop, jump to its loop in point,   |
 | **press**          | been if it had not entered the loop                                                                                         | and stop playback                                   |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-| **17**. Keylock    | Enable keylock for the deck                                                                                                 |                                                     |
+| **17**. Keylock    | Enable keylock for the deck. Toggle loop knob **18** to pitch mode while being held                                         |                                                     |
 | button             |                                                                                                                             |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | **18**. Loop knob  | | Halve or double loop size                                                                                                 |                                                     |
@@ -99,6 +99,8 @@ Channel Controls (1-30)
 |                    | while **Stems** is active and **20** is held: see 'Stems mode'                                                              |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | Stems mode         | Control the 'meta' parameter of the stem effect                                                                             | Cycle through effects                               |
++--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+| Pitch mode         | Change pitch of the track                                                                                                   |                                                     |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
 | **18**. Loop knob  | Set a loop of the defined number of beats and enables the loop                                                              | Toggles the current loop on or off                  |
 | **press**          |                                                                                                                             |                                                     |
