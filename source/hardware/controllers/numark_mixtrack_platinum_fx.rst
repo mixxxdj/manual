@@ -39,7 +39,7 @@ Control Mapping
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Numark Mixtrack Playinum FX (schematic view)
+   :alt: Numark Mixtrack Platinum FX (schematic view)
    :figclass: pretty-figures
 
 
@@ -65,12 +65,12 @@ No.      Control                                         Function
 10       Mid EQ                                          Controls the mid-range frequencies for the individual channels.
 11       Low EQ                                          Controls the bass frequencies for the individual channels.
 12       Filter                                          Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively.
-13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring.
+13       Cue/PFL                                         Sends pre-fader audio to the cue channel for headphone monitoring.
 |        :hwlabel:`SHIFT` Slip Mode                      Toggles slip mode on/off for related deck.
 14       Channel Fader                                   Adjusts the volume of the individual channels in the software.
 15       Crossfader                                      Controls the blend between the two decks
 16       Pitch Bend Down                                 Press and hold to momentarily reduce the speed of the track.
-|        :hwlabel:`SHIFT` Pitch Range                    Hold Shift and this djust Pitch Range
+|        :hwlabel:`SHIFT` Pitch Range                    Hold Shift and this button to adjust Pitch Range
 17       Pitch Bend Up                                   Press and hold to momentarily reduce the speed of the track.
 |        :hwlabel:`SHIFT` Keylock                        Hold Shift and this button to adjust Keylock.
 18       Pitch Fader                                     This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down.
