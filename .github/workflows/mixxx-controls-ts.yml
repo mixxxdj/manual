@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow
+
+name: Generate TypeScript Control Types
+
+on:
+  push:
+    branches:
+      - '**'
+    paths:
+      - 'source/chapters/appendix/mixxx_controls.rst'
+
+permissions: {}
+jobs:
+  build-and-deploy-ts-control-types:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Manual
+        uses: actions/checkout@v6
+        with:
+          path: manual
+
+      - name: Checkout Mixxx
+        uses: actions/checkout@v6
+        with:
+          repository: mixxxdj/mixxx
+          token: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          path: mixxx
+          ref: ${{ github.ref_name }}
+
+      - name: Build Manual
+        run: |
+          cd manual
+          pip install -r requirements.txt
+          make html
+
+      - name: Run Generator
+        run: |
+          cd manual
+          python tools/ts_export_docs_controls.py
+          cp build/mixxx-controls.d.ts ../mixxx/res/controllers/mixxx-controls.d.ts
+
+      - name: Commit & Push to Mixxx
+        run: |
+          cd mixxx
+          git config user.name "mixxxbot"
+          git config user.email "bot@mixxx.org"
+          git add res/controllers/mixxx-controls.d.ts
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update types" && git push)
