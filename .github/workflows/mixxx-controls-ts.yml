@@ -35,10 +35,10 @@ jobs:
         working-directory: manual
         run: |
           python tools/ts_export_docs_controls.py
-          cp build/mixxx-controls.d.ts ../mixxx/res/controllers/mixxx-controls.d.ts
 
       - name: 'Check if update branch already exists'
         id: check_sync
+        working-directory: mixxx
         run: |
           if git fetch origin "${SYNC_BRANCH}"; then
             echo "Branch ${SYNC_BRANCH} already exists, checking if the branch was modified..."
@@ -51,6 +51,7 @@ jobs:
             fi
           else
             echo "Branch ${SYNC_BRANCH} does not exist yet."
+            echo "branch_exists=false" >> $GITHUB_OUTPUT
           fi
         env:
           SYNC_COMMITTER_EMAIL: bot@mixxx.org
@@ -58,11 +59,21 @@ jobs:
           SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
 
       - name: 'Push Changes if any'
+        working-directory: mixxx
         run: |
           set -x
 
-          if ! git diff-index --quiet --cached HEAD --
-          then
+          git fetch origin "${TO_BRANCH}"
+          if [ "${BRANCH_EXISTS}" = true ]; then
+            git switch -C "${SYNC_BRANCH}" "origin/${SYNC_BRANCH}"
+          else
+            git switch -C "${SYNC_BRANCH}" "origin/${TO_BRANCH}"
+          fi
+
+          cp ../manual/build/mixxx-controls.d.ts res/controllers/mixxx-controls.d.ts
+          git add res/controllers/mixxx-controls.d.ts
+
+          if git diff --cached --quiet; then
             echo "No changes detected!"
             git status
             exit 0
@@ -71,14 +82,15 @@ jobs:
           git config --global user.email "${SYNC_COMMITTER_EMAIL}"
           git config --global user.name "${SYNC_COMMITTER_NAME}"
 
-          git commit -m "Update Typescript definitions"
+          git commit -m "Update TypeScript definitions"
           git push origin "${SYNC_BRANCH}"
-          if [ ! "${BRANCH_EXISTS}" = true ]; then
-            gh pr create -B "${TO_BRANCH}" -H "${SYNC_BRANCH}" --title "${PULL_REQUEST_TITLE}" --body "${PULL_REQUEST_BODY}"
-            gh pr edit --add-label "sync-branches" # We can use the same label for now
-          fi
+          gh pr create -B "${TO_BRANCH}" -H "${SYNC_BRANCH}" --title "${PULL_REQUEST_TITLE}" --body "${PULL_REQUEST_BODY}" || true
+          gh pr edit --add-label "sync-branches" # We can use the same label for now
         env:
           BRANCH_EXISTS: ${{ steps.check_sync.outputs.branch_exists }}
+          SYNC_COMMITTER_EMAIL: bot@mixxx.org
+          SYNC_COMMITTER_NAME: Mixxx Bot
+          SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
           TO_BRANCH: ${{ github.ref_name }}
           GITHUB_TOKEN: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
           PULL_REQUEST_TITLE: New Typescript definitions for COs on `${{ github.ref_name }}`
