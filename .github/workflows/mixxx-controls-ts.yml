@@ -28,20 +28,20 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Build Manual
+        working-directory: manual
         run: |
-          cd manual
           pip install -r requirements.txt
           make html
 
       - name: Run Generator
+        working-directory: manual
         run: |
-          cd manual
           python tools/ts_export_docs_controls.py
           cp build/mixxx-controls.d.ts ../mixxx/res/controllers/mixxx-controls.d.ts
 
       - name: Commit & Push to Mixxx
+        working-directory: mixxx
         run: |
-          cd mixxx
           git config user.name "mixxxbot"
           git config user.email "bot@mixxx.org"
           git add res/controllers/mixxx-controls.d.ts
