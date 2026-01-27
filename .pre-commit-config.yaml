@@ -53,5 +53,8 @@ repos:
   hooks:
   - id: rstcheck
     name: "Check RST syntax"
+    args: [
+      --ignore-messages=(Hyperlink target.*not referenced)\.$,
+    ]
     additional_dependencies:
     - sphinx
