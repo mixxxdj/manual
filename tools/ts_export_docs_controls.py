@@ -1,9 +1,8 @@
 import os
 import pickle
 import re
-import subprocess
 from collections import defaultdict
-from collections.abc import Callable, Iterator
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -102,9 +101,9 @@ def text_content(node: nodes.Element) -> list[str]:
     return lines
 
 
-def filter_children(n: Node, tagname: str) -> Iterator[document]:
+def filter_children(n: Node, tagname: str) -> "filter[Node]":
     return filter(
-        lambda n: hasattr(n, "tagname") and n.tagname == tagname,  # type: ignore
+        lambda n: isinstance(n, nodes.Element) and n.tagname == tagname,
         n.children,
     )
 
@@ -441,7 +440,7 @@ def get_group(name: str, groups: list[Group]) -> Group:
     except StopIteration:
         raise Exception(
             f"""\033[91mFound no description for {name} group\033[0m
-			Add .. mixxx:cogroupdesc:: {name} to mixxx_controls.rst"""
+Add .. mixxx:cogroupdesc:: {name} to mixxx_controls.rst"""
         )
 
 
@@ -503,77 +502,46 @@ declare namespace MixxxControls {{
 * Public
 */
 
-export type Group =
-	Utils.IsStrict extends true ? GroupName : GroupName | (string & {{}});
+export type Group = Utils.IsStrict extends true
+? GroupName : GroupName | (string & {{}});
 
 
 // All controls
-type Ctrl<TGroup> =
-	Utils.MapGroup<TGroup, Controls>
-    | Utils.MapGroup<TGroup, ReadOnly.ReadOnlyControls>;
+type Ctrl<TGroup> = Utils.MapGroup<TGroup, Controls>
+| Utils.MapGroup<TGroup, ReadOnly.ReadOnlyControls>;
 
 // Only read & write controls (subset of Ctrl)
 type CtrlRW<TGroup> = Utils.MapGroup<TGroup, Controls>;
 
 /*
-	* Group <-> control linking
-	*/
+* Group <-> control linking
+*/
 
 // Read/Write controls
 {"\n".join(create_group_control_linking(rw_groups))}
 
 /*
-	* Values
-	*/
+* Values
+*/
 \t{"\n\t".join(lines)}
 
-	export interface Config {{
-		strict?: false; // default = loose
-	}}
+export interface Config {{
+strict?: false; // default = loose
+}}
 
-	// Internal helper types
-	namespace Utils {{
-		type IsStrict = Config["strict"] extends true ? true : false;
-		type Default = IsStrict extends true ? never : string & {{}};
-		type MapGroup<TGroup, TMap> = 0 extends 1 & TGroup
-			? string // any check
-			: TGroup extends keyof TMap
-				? TMap[TGroup] // found in map
-				: Default; // fallback
+// Internal helper types
+namespace Utils {{
+type IsStrict = Config["strict"] extends true ? true : false;
+type Default = IsStrict extends true ? never : string & {{}};
+type MapGroup<TGroup, TMap> = 0 extends 1 & TGroup
+? string // any check
+: TGroup extends keyof TMap
+? TMap[TGroup] // found in map
+: Default; // fallback
   }}
 }}
 """
         )
-
-
-def format_code(file_path: Path, prettierrc_path: Path):
-    cmd = [
-        "npx",
-        "-y",
-        "prettier",
-        "--write",
-        str(file_path),
-        "--config",
-        str(prettierrc_path),
-        "--parser",
-        "typescript",
-        "--no-error-on-unmatched-pattern",
-        "--ignore-path",
-        "None",
-    ]
-    result = subprocess.run(
-        cmd,
-        capture_output=True,
-        text=True,
-        shell=False,
-        env={**os.environ, "CI": "true"},
-    )
-    if result.returncode == 0:
-        print(result.stdout)
-        print("Success!")
-    else:
-        print("Error formatting:")
-        print(result.stderr)
 
 
 if __name__ == "__main__":
@@ -605,5 +573,3 @@ if __name__ == "__main__":
     export_ts_types(output, groups, controls, pm_suffixes)
 
     prettierrc_path = Path("../mixxx/.prettierrc.yaml")
-    print(f"--- Formatting {output} with {prettierrc_path} ---")
-    format_code(output, prettierrc_path)
