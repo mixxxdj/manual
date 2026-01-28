@@ -8,6 +8,8 @@ on:
       - '**'
 
 permissions: {}
+env:
+  MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
 jobs:
   build-and-deploy-ts-control-types:
     runs-on: ubuntu-latest
@@ -21,7 +23,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: mixxxdj/mixxx
-          token: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          token: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
           path: mixxx
           ref: ${{ github.ref_name }}
 
@@ -60,6 +62,7 @@ jobs:
           SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
 
       - name: 'Push Changes if any'
+        if: env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT != null
         working-directory: mixxx
         run: |
           set -x
@@ -97,7 +100,7 @@ jobs:
           SYNC_COMMITTER_NAME: Mixxx Bot
           SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
           TO_BRANCH: ${{ github.ref_name }}
-          GITHUB_TOKEN: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          GITHUB_TOKEN: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
           PULL_REQUEST_TITLE: New Typescript definitions for COs on `${{ github.ref_name }}`
           PULL_REQUEST_BODY: |
             New COs definitions was generated with the latest manual changes (${{ github.sha }}), so let's merge the changes into `${{ github.ref_name }}`
