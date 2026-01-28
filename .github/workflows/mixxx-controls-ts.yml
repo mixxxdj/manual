@@ -29,6 +29,7 @@ jobs:
         working-directory: manual
         run: |
           pip install -r requirements.txt
+          pip install pre-commit
           make html
 
       - name: Run Generator
@@ -71,6 +72,10 @@ jobs:
           fi
 
           cp ../manual/build/mixxx-controls.d.ts res/controllers/mixxx-controls.d.ts
+          git add res/controllers/mixxx-controls.d.ts
+
+          # Run pre-commit to format and stage
+          pre-commit run --files res/controllers/mixxx-controls.d.ts || true
           git add res/controllers/mixxx-controls.d.ts
 
           if git diff --cached --quiet; then
