@@ -25,7 +25,7 @@ jobs:
           repository: mixxxdj/mixxx
           token: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT || github.token }}
           path: mixxx
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.base_ref || github.ref_name }}
 
       - name: Build Manual
         working-directory: manual
