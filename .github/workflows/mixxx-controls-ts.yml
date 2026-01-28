@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: mixxxdj/mixxx
-          token: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          token: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT || github.token }}
           path: mixxx
           ref: ${{ github.ref_name }}
 
