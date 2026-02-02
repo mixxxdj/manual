@@ -496,6 +496,10 @@ N can range from 1 to the number of active decks in Mixxx.
 Preview decks and Sample decks ("samplers") in Mixxx are identical to regular decks, they simply have a different purpose (previewing tracks or playing samples, respectively).
 Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
 
+The :mixxx:cogroupref:`[ChannelN_StemM]` group allows you to interact with specific stems of a deck when a stem file is loaded.
+M ranges from 1 to 4.
+Some controls (like volume, mute, and VU meters) are shared between decks and stems, while others (like color) are stem-specific.
+
 .. seealso:: There are some :ref:`additional global controls for samplers <appendix-mixxxcontrols-samplers>`.
 
 .. mixxx:control:: [ChannelN],back
@@ -2982,37 +2986,49 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 .. mixxx:control:: [ChannelN],VuMeter
                    [PreviewDeckN],VuMeter
                    [SamplerN],VuMeter
+                   [ChannelN_StemM],vu_meter
 
-   Outputs the current instantaneous deck volume
+   Outputs the current instantaneous deck volume (or stem volume for :mixxx:cogroupref:`[ChannelN_StemM]`)
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter
 
+   .. versionchanged:: 2.6.0
+      Added :mixxx:coref:`[ChannelN_StemM],vu_meter`.
+
 
 .. mixxx:control:: [ChannelN],VuMeterL
                    [PreviewDeckN],VuMeterL
                    [SamplerN],VuMeterL
+                   [ChannelN_StemM],vu_meter_left
 
-   Outputs the current instantaneous deck volume for the left channel
+   Outputs the current instantaneous deck volume for the left channel (or stem volume for :mixxx:cogroupref:`[ChannelN_StemM]`)
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter L
 
+   .. versionchanged:: 2.6.0
+      Added :mixxx:coref:`[ChannelN_StemM],vu_meter_left`.
+
 
 .. mixxx:control:: [ChannelN],VuMeterR
                    [PreviewDeckN],VuMeterR
                    [SamplerN],VuMeterR
+                   [ChannelN_StemM],vu_meter_right
 
-   Outputs the current instantaneous deck volume for the right channel
+   Outputs the current instantaneous deck volume for the right channel (or stem volume for :mixxx:cogroupref:`[ChannelN_StemM]`)
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter R
+
+   .. versionchanged:: 2.6.0
+      Added :mixxx:coref:`[ChannelN_StemM],vu_meter_right`.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom
