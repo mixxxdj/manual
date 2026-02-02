@@ -3089,7 +3089,6 @@ Some controls (like volume, mute, and VU meters) are shared between decks and st
    :feedback: Waveform
 
 
-
 .. _appendix-mixxxcontrols-samplers:
 
 Global Sampler controls
