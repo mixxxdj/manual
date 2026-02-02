@@ -545,6 +545,11 @@ Decks, Preview Decks and Samplers
 
    Sample decks are identical to regular decks, but are used for playing samples; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
 
+.. mixxx:controlgroup:: [ChannelN_StemM]
+
+   Stem decks are per-stem subgroups for a stem track loaded in :mixxx:cogroupref:`[ChannelN]`.
+   M ranges from 1 to :mixxx:coref:`[ChannelN],stem_count` (usually 2-4) and refers to one stem (for example vocals, drums, bass, or other) with its own controls.
+
 Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
 
 .. seealso:: There are some :ref:`additional global controls for samplers <appendix-mixxxcontrols-samplers>`.
@@ -4114,6 +4119,11 @@ The Effects Framework
 
    The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]]` group contains per-deck quick effect controls.
 
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI_StemJ]]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI_StemJ]]` group contains per-stem quick effect controls for a stem within deck I.
+   J ranges from 1 to :mixxx:coref:`[ChannelN],stem_count`.
+
 .. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]]
 
    The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]]` group contains per-deck EQ rack controls.
@@ -4121,6 +4131,10 @@ The Effects Framework
 .. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]_Effect1]
 
    The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]_Effect1]` group contains controls for the single quick effect slot on a deck.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI_StemJ]_Effect1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI_StemJ]_Effect1]` group contains controls for the quick effect slot on a stem within deck I.
 
 .. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]_Effect1]
 
