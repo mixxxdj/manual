@@ -102,7 +102,9 @@ To use ``*_toggle`` the respective shortcut for scripts is:
 The ``[App]`` group
 ~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
+.. mixxx:controlgroup:: [App]
+
+   The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
 
 .. mixxx:control:: [App],audio_latency_usage
 
@@ -263,11 +265,16 @@ The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a sp
 
 
 
-The ``[Master]`` group
-~~~~~~~~~~~~~~~~~~~~~~
+The ``[Master]`` & ``[Main]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine.
-This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
+.. mixxx:controlgroup:: [Master]
+
+   The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine. This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
+
+.. mixxx:controlgroup:: [Main]
+
+   The :mixxx:cogroupref:`[Main]` group contains controls for the main mix output meters and clipping indicators.
 
 
 .. mixxx:control:: [Master],balance
@@ -524,11 +531,20 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 Decks, Preview Decks and Samplers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group.
-Whenever you see :mixxx:cogroupref:`[ChannelN]`, think "Deck N".
-N can range from 1 to the number of active decks in Mixxx.
+.. mixxx:controlgroup:: [ChannelN]
 
-Preview decks and Sample decks ("samplers") in Mixxx are identical to regular decks, they simply have a different purpose (previewing tracks or playing samples, respectively).
+   Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group.
+   Whenever you see :mixxx:cogroupref:`[ChannelN]`, think "Deck N".
+   N can range from 1 to the number of active decks in Mixxx.
+
+.. mixxx:controlgroup:: [PreviewDeckN]
+
+   Preview decks are identical to regular decks, but are used for previewing tracks; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
+
+.. mixxx:controlgroup:: [SamplerN]
+
+   Sample decks are identical to regular decks, but are used for playing samples; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
+
 Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
 
 .. seealso:: There are some :ref:`additional global controls for samplers <appendix-mixxxcontrols-samplers>`.
@@ -3179,6 +3195,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 Global Sampler controls
 +++++++++++++++++++++++
 
+.. mixxx:controlgroup:: [Sampler]
+
+   The :mixxx:cogroupref:`[Sampler]` group contains global controls for managing sampler banks.
+
 These controls can be used to control all samplers.
 
 .. mixxx:control:: [Sampler],SaveSamplerBank
@@ -3209,6 +3229,14 @@ These controls can be used to control all samplers.
 
 Microphones and Auxiliary Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [MicrophoneN]
+
+   The :mixxx:cogroupref:`[MicrophoneN]` group contains controls for microphone input channels, including talkover and monitoring.
+
+.. mixxx:controlgroup:: [AuxiliaryN]
+
+   The :mixxx:cogroupref:`[AuxiliaryN]` group contains controls for auxiliary input channels.
 
 In contrast to :ref:`decks, preview decks and samplers <appendix-mixxxcontrols-decks>`, microphones and auxiliary channels are input channels.
 You can map audio interface's inputs to mixxx's auxiliary input channels and connect external audio source to it (cellphone, mp3 player).
@@ -3396,7 +3424,9 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 The ``[VinylControl]`` group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`.
+.. mixxx:controlgroup:: [VinylControl]
+
+   The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`.
 
 .. mixxx:control:: [VinylControl],Toggle
 
@@ -3426,7 +3456,9 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`.
+.. mixxx:controlgroup:: [Recording]
+
+   The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`.
 
 .. mixxx:control:: [Recording],toggle_recording
 
@@ -3454,7 +3486,9 @@ The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query a
 AutoDJ controls
 ~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`.
+.. mixxx:controlgroup:: [AutoDJ]
+
+   The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`.
 
 .. mixxx:control:: [AutoDJ],enabled
 
@@ -3509,8 +3543,10 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
 The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
-Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
+.. mixxx:controlgroup:: [Library]
+
+   The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
+   Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
 
 .. mixxx:control:: [Library],MoveUp
 
@@ -3910,6 +3946,10 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. mixxx:controlgroup:: [Shoutcast]
+
+   The :mixxx:cogroupref:`[Shoutcast]` group contains controls for broadcasting to a Shoutcast server.
+
 .. mixxx:control:: [Shoutcast],enabled
 
    Shows if live Internet broadcasting is enabled.
@@ -3929,9 +3969,10 @@ The ``[Shoutcast]`` controls
 The ``[Playlist]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering
-the currently focused widget. This is helpful when another application's window is focused.
-This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
+.. mixxx:controlgroup:: [Playlist]
+
+   :mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering the currently focused widget. This is helpful when another application's window is focused.
+   This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
    See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
@@ -4007,7 +4048,9 @@ This group is going to be deprecated at some point, with its controls added to `
 The ``[Controls]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group.
+.. mixxx:controlgroup:: [Controls]
+
+   The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group.
 
 .. mixxx:control:: [Controls],touch_shift
 
@@ -4046,6 +4089,42 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
 
 The Effects Framework
 ~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [EffectRack1]
+
+   The :mixxx:cogroupref:`[EffectRack1]` group contains global controls for the effects rack.
+
+.. mixxx:controlgroup:: [EffectRack1_EffectUnitN]
+
+   The :mixxx:cogroupref:`[EffectRack1_EffectUnitN]` group contains controls for an individual effects unit.
+
+.. mixxx:controlgroup:: [EffectRack1_EffectUnitN_EffectM]
+
+   The :mixxx:cogroupref:`[EffectRack1_EffectUnitN_EffectM]` group contains controls for a single effect slot within an effects unit.
+
+.. mixxx:controlgroup:: [QuickEffectRack1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1]` group contains global controls for the quick effects rack.
+
+.. mixxx:controlgroup:: [EqualizerRack1]
+
+   The :mixxx:cogroupref:`[EqualizerRack1]` group contains global controls for the EQ rack.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]]` group contains per-deck quick effect controls.
+
+.. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]]
+
+   The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]]` group contains per-deck EQ rack controls.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]_Effect1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]_Effect1]` group contains controls for the single quick effect slot on a deck.
+
+.. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]_Effect1]
+
+   The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` group contains controls for the EQ effect slot on a deck.
 
 In the list below,
 
@@ -4494,7 +4573,9 @@ Controls
 The ``[Skin]`` group
 ~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selective show and hide parts of the :term:`graphical user interface <GUI>` of Mixxx to suit your needs.
+.. mixxx:controlgroup:: [Skin]
+
+   The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selective show and hide parts of the :term:`graphical user interface <GUI>` of Mixxx to suit your needs.
 
 .. note::
    Some skins may not support some or all of these controls.
