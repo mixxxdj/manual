@@ -390,12 +390,13 @@ Using search operators
 ----------------------
 
 Search operators allow you to form more complex search queries. They allow you
-to limit certain search terms to particular properties of your tracks.
+to limit certain search terms to particular properties of your tracks. Also consider
+:ref:`using property shortcuts <library-search-shortcuts>`
 
 Mixxx supports the following filters:
 
 * **Text filtering**: album_artist, album, artist, comment, composer, crate,
-  genre, grouping, location, title
+  genre, grouping, location, title, directory
 
   Examples
     ::
@@ -425,7 +426,25 @@ Mixxx supports the following filters:
       title:= "Track 1"
       artist:="DJ Flop"
 
-* **Numeric filtering**: bpm, bitrate, played, rating, track, year
+  Even though all text filters behave the same, it's worth mentioning the some subtleties with the
+  'location' and 'directory' filter:
+
+  * find tracks only in "My Music\Disco", ignore subdirectories
+    ::
+
+      dir:="D:\My Music\Disco"
+
+  * find tracks in "My Music\Disco" and all subdirectories,
+    ::
+
+      dir:"D:\My Music\Disco"
+
+  * find tracks only in subdirectories of "Disco" (note trailing '\\')
+    ::
+
+      dir:"D:\My Music\Disco\"
+
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year, id (internal track id)
 
   Examples
     ::
@@ -472,6 +491,14 @@ Mixxx supports the following filters:
     ::
 
        ~bpm:100
+
+  * Constant BPM search finds tracks that were analyzed with "Assume constant tempo".
+    Combine with "not"/negative prefix``-`` to find all tracks with variable tempo.
+
+    ::
+
+       bpm:const
+       bpm:constant
 
 
     The following example lists all tracks by “Danger” over 3 minutes long that
@@ -529,6 +556,50 @@ Examples
 
 .. note::
   The spelled-out form is case-sensitive: While uppercase ``OR`` refers to the operator, lowercase ``or`` refers to the literal string ``or``. Using the quoted form ``"OR"`` will also search for the literal string.
+
+
+.. _library-search-shortcuts:
+
+Search shortcuts
+----------------
+
+For each searchable property there is a shortcut:
+
+=== ==================
+a   artist
+--- ------------------
+aa  album artist
+--- ------------------
+ad  date added
+--- ------------------
+al  album
+--- ------------------
+b   bpm
+--- ------------------
+cm  comment
+--- ------------------
+cp  composer
+--- ------------------
+dir directory
+--- ------------------
+du  duration
+--- ------------------
+g   genre
+--- ------------------
+gr  grouping
+--- ------------------
+k   key
+--- ------------------
+lo  location
+--- ------------------
+r   rating
+--- ------------------
+t   title
+--- ------------------
+tr  track (number)
+--- ------------------
+y   year
+=== ==================
 
 .. _library-previewing-tracks:
 
