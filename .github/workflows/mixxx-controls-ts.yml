@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow
+
+name: Generate TypeScript Control Types
+
+on:
+  push:
+    branches:
+      - '**'
+
+permissions: {}
+env:
+  MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT: ${{ secrets.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+jobs:
+  build-and-deploy-ts-control-types:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Manual
+        uses: actions/checkout@v6
+        with:
+          path: manual
+
+      - name: Checkout Mixxx
+        if: env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT != null
+        uses: actions/checkout@v6
+        with:
+          repository: mixxxdj/mixxx
+          token: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          path: mixxx
+          ref: ${{ github.ref_name }}
+
+      - name: Build Manual
+        working-directory: manual
+        run: |
+          pip install -r requirements.txt
+          pip install pre-commit
+          make html
+
+      - name: Run Generator
+        working-directory: manual
+        run: |
+          python tools/ts_export_docs_controls.py
+
+      - name: 'Check if update branch already exists'
+        if: env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT != null
+        id: check_sync
+        working-directory: mixxx
+        run: |
+          if git fetch origin "${SYNC_BRANCH}"; then
+            echo "Branch ${SYNC_BRANCH} already exists, checking if the branch was modified..."
+            echo "branch_exists=true" >> $GITHUB_OUTPUT
+            COMMITTER_EMAIL="$(git show --pretty=format:"%ce" --no-patch "origin/${SYNC_BRANCH}")"
+            if [ "${COMMITTER_EMAIL}" = "${SYNC_COMMITTER_EMAIL}" ]; then
+              echo "Branch ${SYNC_BRANCH} was NOT modified."
+            else
+              echo "Branch ${SYNC_BRANCH} was modified."
+            fi
+          else
+            echo "Branch ${SYNC_BRANCH} does not exist yet."
+            echo "branch_exists=false" >> $GITHUB_OUTPUT
+          fi
+        env:
+          SYNC_COMMITTER_EMAIL: bot@mixxx.org
+          SYNC_COMMITTER_NAME: Mixxx Bot
+          SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
+
+      - name: 'Push Changes if any'
+        if: env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT != null
+        working-directory: mixxx
+        run: |
+          set -x
+
+          git fetch origin "${TO_BRANCH}"
+          if [ "${BRANCH_EXISTS}" = true ]; then
+            git switch -C "${SYNC_BRANCH}" "origin/${SYNC_BRANCH}"
+          else
+            git switch -C "${SYNC_BRANCH}" "origin/${TO_BRANCH}"
+          fi
+
+          cp ../manual/build/mixxx-controls.d.ts res/controllers/mixxx-controls.d.ts
+          git add res/controllers/mixxx-controls.d.ts
+
+          # Run pre-commit to format and stage
+          pre-commit run --files res/controllers/mixxx-controls.d.ts || true
+          git add res/controllers/mixxx-controls.d.ts
+
+          if git diff --cached --quiet; then
+            echo "No changes detected!"
+            git status
+            exit 0
+          fi
+
+          git config --global user.email "${SYNC_COMMITTER_EMAIL}"
+          git config --global user.name "${SYNC_COMMITTER_NAME}"
+
+          git commit -m "Update TypeScript definitions"
+          git push origin "${SYNC_BRANCH}"
+          gh pr create -B "${TO_BRANCH}" -H "${SYNC_BRANCH}" --title "${PULL_REQUEST_TITLE}" --body "${PULL_REQUEST_BODY}" || true
+          gh pr edit --add-label "sync-branches" # We can use the same label for now
+        env:
+          BRANCH_EXISTS: ${{ steps.check_sync.outputs.branch_exists }}
+          SYNC_COMMITTER_EMAIL: bot@mixxx.org
+          SYNC_COMMITTER_NAME: Mixxx Bot
+          SYNC_BRANCH: ts-definitions-update-${{ github.ref_name }}
+          TO_BRANCH: ${{ github.ref_name }}
+          GITHUB_TOKEN: ${{ env.MIXXXBOT_TS_TYPES_AUTOUPDATER_PAT }}
+          PULL_REQUEST_TITLE: New Typescript definitions for COs on `${{ github.ref_name }}`
+          PULL_REQUEST_BODY: |
+            New COs definitions was generated with the latest manual changes (${{ github.sha }}), so let's merge the changes into `${{ github.ref_name }}`
