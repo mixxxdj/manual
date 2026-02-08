@@ -2670,6 +2670,46 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],scratch_position
+                   [PreviewDeckN],scratch_position
+                   [SamplerN],scratch_position
+
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch_position_enable` is active.
+   This is used for scratching with scrolling waveforms and spinning vinyl widgets, but can also be used in mappings for controllers with
+   jogwheels that send absolute or relative position values. Like with :mixxx:coref:`[ChannelN],scratch2` and
+   `engine.scratchTick() <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ , input values need to be scaled in order
+   to achieve the desired wheel/waveform scratch ratio. Consider that waveforms, spinnies and `scratch_position` mappings of a specific deck use the same control.
+
+   :range: double
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch_position_enable
+                   [PreviewDeckN],scratch_position_enable
+                   [SamplerN],scratch_position_enable
+
+   When active this enables scratching with :mixxx:coref:`[ChannelN],scratch_position`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
+
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.8.0
+
+
 .. mixxx:control:: [ChannelN],show_track_menu
 
    Toggle the track context menu for the track currently loaded in this deck.
