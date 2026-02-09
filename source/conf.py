@@ -100,7 +100,8 @@ supported_languages = {
 }
 
 smv_tag_whitelist = r"^$"
-smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
+# smv_branch_whitelist = r"^(main|(\d+)\.(\d+))$"
+smv_branch_whitelist = r"^(?:main|2.5)$"
 smv_remote_whitelist = r"^origin$"
 # Mark all branches in the form "N.M" as released except "2.6"
 smv_released_pattern = r"^.*/(?!2\.6)(\d+)\.(\d+)$"
