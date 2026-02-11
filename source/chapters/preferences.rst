@@ -14,4 +14,4 @@ Mixxx has many options to customize in :menuselection:`Options --> Preferences`.
    preferences/colors
    preferences/beat_detection
    preferences/key_detection
-   preferences/equalizers
+   preferences/mixer
