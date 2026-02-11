@@ -82,7 +82,8 @@ Mapping
 
    14. **FX Wet/Dry Knob:** Turn this knob to adjust the wet/dry mix of the effects.
 
-   15. **Beats Multiplier:** As Mixxx does not have a single BEATS knob, you can use it to control effect units superknobs.
+   15. **Beats Multiplier:** As Mixxx does not have a single BEATS knob, you can use it to control the **effect units' Super knobs**.
+       **SHIFT + Turn** controls **main mix** gain.
 
    16. **Tap BPM:** Press this button 4 or more times to manually enter a new BPM.
        The software will ignore the track's BPM and follow your manually entered tempo.
