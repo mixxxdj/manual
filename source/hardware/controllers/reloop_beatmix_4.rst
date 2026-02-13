@@ -3,11 +3,11 @@
 Reloop Beatmix 4
 ================
 
-The Reloop Beatmix 4 is a performance-oriented 4-channel pad controller with integrated soundcard.
+The Reloop Beatmix 4 MK2 is a performance-oriented 4-channel pad controller with integrated soundcard.
 It offers an ergonomically designed 4-channel mixer layout, optimized for the club allowing you to work intuitively:
 Dedicated equalizer and gain dials, high-quality line-faders, an extremely smooth-running crossfader, 16 multi-colour drum pads, as well as two extensive FX units are the foundation for your creativity.
 
--  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4>`__
+-  `Manufacturer’s product page <http://www.reloop.com/reloop-beatmix-4-mk2>`__
 -  `Forum thread <https://mixxx.discourse.group/t/reloop-beatmix-2-4-mapping/16049>`__
 
 .. versionadded:: 2.1
