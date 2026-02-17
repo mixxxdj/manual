@@ -1093,6 +1093,78 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.5.0
 
 
+.. mixxx:control:: [ChannelN],beats_set_halve
+                   [PreviewDeckN],beats_set_halve
+                   [SamplerN],beats_set_halve
+
+   Scale the :term:`BPM` by 1/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_twothirds
+                   [PreviewDeckN],beats_set_twothirds
+                   [SamplerN],beats_set_twothirds
+
+   Scale the :term:`BPM` by 2/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threefourths
+                   [PreviewDeckN],beats_set_threefourths
+                   [SamplerN],beats_set_threefourths
+
+   Scale the :term:`BPM` by 3/4.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threehalves
+                   [PreviewDeckN],beats_set_threehalves
+                   [SamplerN],beats_set_threehalves
+
+   Scale the :term:`BPM` by 3/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_fourthirds
+                   [PreviewDeckN],beats_set_fourthirds
+                   [SamplerN],beats_set_fourthirds
+
+   Scale the :term:`BPM` by 4/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_double
+                   [PreviewDeckN],beats_set_double
+                   [SamplerN],beats_set_double
+
+   Scale the :term:`BPM` by 2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],CloneFromDeck
                    [PreviewDeckN],CloneFromDeck
                    [SamplerN],CloneFromDeck
