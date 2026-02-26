@@ -501,6 +501,15 @@ Mixxx supports the following filters:
        bpm:constant
 
 
+  * ``added``/``dateadded`` recognizes the following date formats
+
+    * ISO 8601 ``2025-10-30``
+
+    * the format selected in :menuselection:`Preferences --> Library --> Track Table View`
+
+    * the "short format" of the selected locale, e.g. ``10.30.25`` for de_DE locale
+
+
     The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
 
