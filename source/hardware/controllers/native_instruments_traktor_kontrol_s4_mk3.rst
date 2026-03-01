@@ -402,8 +402,6 @@ Right Encoder (press)                                            Activate/exit l
 Mapping options
 ---------------
 
-Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
-
 There are various options that can be used to change some behavior.
 Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
 
