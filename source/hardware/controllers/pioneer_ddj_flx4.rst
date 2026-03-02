@@ -124,6 +124,7 @@ No.   Control                                                  Function
 13    Performance pads                                         Functionality differs depending on the pad mode selected by 8-11.
 14    :hwlabel:`PLAY/PAUSE`                                    Play/pauses a track.
 15    :hwlabel:`CUE`                                           Behavior depends on the :ref:`cue mode <interface-cue-modes>`.
+15    :hwlabel:`SHIFT` + :hwlabel:`CUE`                        Jump to the beginning of the track and stop playback.
 16    :hwlabel:`SHIFT`                                         Used to access secondary functiones of other buttons while being pressed.
 ====  =======================================================  ======================================================================
 
