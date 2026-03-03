@@ -321,7 +321,7 @@ All mapping detail
 +-------------------+------------------------------------------------------------------+------------------------------------------+
 | FX 2|3|4 button   | No effect focused:                                                                                          |
 +                   +------------------------------------------------------------------+------------------------------------------+
-|                   | - Toggle (short press) or trigger (long press) effect            | - On if active                           |
+|                   | - Toggle (short press) or trigger (long press) effect            | On if active                             |
 |                   | - Hold :hwlabel:`SHIFT` and press to switch to next effect       |                                          |
 +                   +------------------------------------------------------------------+------------------------------------------+
 |                   | Effect focus mode:                                                                                          |
@@ -355,12 +355,11 @@ All mapping detail
 | Playlist button   | Open or close a context menu for the currently selected track    | On if there is a context-menu open, off  |
 |                   |                                                                  | otherwise                                |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
-| Mixer FX button   | Toggle third effect (short press) or trigger third effect        | - Dim on if the effect is active         |
-|                   | (long press) or assign the quick effect                          |                                          |
-|                   | of FX select buttons are pressed                                 |                                          |
+| Mixer FX button   | Toggle (short press) or trigger (long press) quick effect        | Dim on if the effect is active           |
+|                   | or assign the quick effect if an FX select button is pressed     |                                          |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
-| FX Select         | Apply effect to all deck on release, if no mixer FX button have  |                                          |
-| button            | been pressed                                                     |                                          |
+| FX Select         | Apply effect to all deck on release. While pressed, press mixer  |                                          |
+| button            | FX button to assign effect to that deck                          |                                          |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
 | Ext               | Apply the current gain as default. This will reset the gain knob.|                                          |
 +-------------------+------------------------------------------------------------------+------------------------------------------+
