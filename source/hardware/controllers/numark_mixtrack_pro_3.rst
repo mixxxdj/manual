@@ -24,44 +24,6 @@ microphone input is suggested.
 
 .. versionadded:: 2.1
 
-Configuration options
----------------------
-
-Configuration options can be set in the mapping. You will need to edit
-the values below at the very top of the JavaScript file
-“Numark-Mixtrack-3-scripts.js” and save changes. Allowed values are
-“**true**” or “**false**” unless specified.
-
--  **TrackEndWarning**: whether the Wheel button flashes near the end of
-   a track
--  **iCutEnabled**: whether to enable iCut with the jog wheel. See
-   `#platter/jog wheel <#platter/jog%20wheel>`__ section for details
--  **fastSeekEnabled**: whether to enable fast seeking with the jog
-   wheel. See `#platter/jog wheel <#platter/jog%20wheel>`__ section for
-   details
--  **smartPFL**: When the Load button is used, the Cue/PFL button is
-   automatically activated on the deck being loaded and deactivated on
-   the other deck
--  **beatlooprollActivate**: Use beatlooproll (slip mode loop) instead
-   of beatloop command when using pads in Autoloop mode
--  **DarkMetalSkin**: Specify if Dark Metal skin is used for your
-   installation. This is required in order for Expand Library feature to
-   work properly.
--  **FXMode**: Select FX Mode based on skin used:
-
-   -  value “**1**”: (Deere skin): Each deck is assigned its own Effect
-      Unit with 3 effects per deck (e.g. Deck 1 = Effect Unit 1, Deck 2
-      = Effect Unit 2, etc…\\
-   -  value “**2**”: (other skins): FX button 1 = Effect Unit 1, Effect
-      1, FX Button 2 = Effect Unit 2, Effect 1, FX button 3 = Effect
-      Unit 3, Effect 1. Effect settings are shared by each deck.\\
-
--  **PitchBendOnWheelOff**: allow nudge with wheel when wheel is not
-   active.
--  **noPlayOnSyncDoublePress**: Specify if Play is disabled on Sync
-   button Double Press.
--  **ShiftFilterFX4**: Specify Shift+Filter control behavior - FX
-   parameter 4 (true) or Channel Gain (false)
 
 Mapping Description
 -------------------
@@ -84,6 +46,13 @@ Mapping Description
 | :hwlabel:`SHIFT` **+ Turn:** allows selecting Play Lists and side navigation bar
   items.
 | :hwlabel:`SHIFT` **+ Push:** opens / closes selected side navigation bar item.
+
+**Configurable option:**
+In Focus mode the Browse encoder affects the library widget which currently has keyboard focus.
+This requires the Mixxx window to have focus and allows to control the searchbar, too.
+In Classic mode the Browse encoder can select items in the sidebar and tracks table only, but independent
+of keyboard focus.
+
 
 2. Master Gain
 ~~~~~~~~~~~~~~
@@ -115,10 +84,10 @@ Adjusts the volume for headphone cueing in the software.
   but if you move up the level fader (the volume fader if you prefer) of
   the deck, the track will be played and if you close it to zero, the
   track will be paused.
-| **Configurable option:**
-| If the `smartPFL option <#configuration-options>`__ is set to true,
-  the Cue/PFL button is automatically activated on the deck being loaded
-  and deactivated on the other deck.
+
+**Configurable option:**
+If the smartPFL option is set to true, the Cue/PFL button is automatically activated on the deck being loaded
+and deactivated on the other deck.
 
 6. High EQ Knobs
 ~~~~~~~~~~~~~~~~
@@ -147,6 +116,9 @@ Adjusts the volume for headphone cueing in the software.
 | :hwlabel:`SHIFT` + :hwlabel:`FILTER`: Adjust parameter 4 of the currently focused effect on this deck.
 | If effect is unfocused then;
 | :hwlabel:`SHIFT` + :hwlabel:`FILTER` Adjust the gain of the deck.
+
+**Configurable option:**
+Adjust FX parameter 4 (default) or deck gain when unfocused.
 
 10. Cue/PFL/Headphones
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -244,6 +216,8 @@ direction
   audio, scratching the track like a vinyl record.
 | :hwlabel:`SHIFT` + :hwlabel:`WHEEL`: Toggle slip mode on/off
 
+**Configurable option**: The jog wheel button flashes near the end of a track by default.
+
 23. Platter/Jog Wheel
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -261,11 +235,11 @@ direction
   will open. As a visual reference, TAP LED and Wheel button LED will be
   ON.
 
-**Configuration Options:** The `iCutEnabled <#configuration-options>`__
-and `fastSeekEnabled <#configuration-options>`__ options can be used to
-turn off iCut and fast seeking. These options may be helpful to avoid
-accidentally using these features when touching the platter with shift
+**Configurable Options:**
+The iCutEnabled and fastSeekEnabled options can be used to turn off iCut and fast seeking.
+These options may be helpful to avoid accidentally using these features when touching the platter with shift
 lock on.
+The PitchBendOnWheelOff option allows pitch bending using the jog wheel even when the scratch mode is disabled.
 
 24. Shift
 ~~~~~~~~~
@@ -298,9 +272,8 @@ Sampler).
   Press
 | :hwlabel:`SHIFT` + :hwlabel:`SYNC`: Toggle Key Lock
 
-**Configuration Options:** The
-`noPlayOnSyncDoublePress <#configuration-options>`__ option can be used
-to turn off Play on Sync Double Press.
+**Configuration Options:**
+The noPlayOnSyncDoublePress option can be used to turn off Play on Sync Double Press.
 
 27. Cue (Transport Control)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
