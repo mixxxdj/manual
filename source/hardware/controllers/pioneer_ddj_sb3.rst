@@ -172,6 +172,8 @@ No.  Control                                                Function
 1    :hwlabel:`LOAD` button                                    Loads track highlighted in the library to the left or right deck
 2    :hwlabel:`BROWSE` knob (rotate)                        Rotate the knob left or right highlights the previous or next track in the library
 2    :hwlabel:`BROWSE` knob (press)                         Starts / stops track preview of highlighted track
+2    :hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (rotate)        Rotate the knob left or right highlights the previous or next item in the sidebar
+2    :hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (press)         Opens the currently highlighted item in the sidebar into the track list
 ===  =====================================================  ============================================================================================
 
 Performance Pads
