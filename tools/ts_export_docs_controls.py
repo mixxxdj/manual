@@ -208,8 +208,9 @@ class PotMeterSuffix:
 def read_pot_meter_suffixes(doc: document) -> list[PotMeterSuffix]:
     cpms_table: nodes.table = next(
         doc.findall(
-            lambda n: isinstance(n, nodes.table)
-            and "Control Suffix" in n.astext()
+            lambda n: (
+                isinstance(n, nodes.table) and "Control Suffix" in n.astext()
+            )
         )
     )  # type: ignore
     return [
@@ -221,8 +222,10 @@ def is_pot_meter(content: addnodes.desc_content) -> bool:
     return (
         next(
             content.findall(
-                lambda n: isinstance(n, addnodes.pending_xref)
-                and "controlpotmeter" in n["reftarget"]  # type: ignore
+                lambda n: (
+                    isinstance(n, addnodes.pending_xref)
+                    and "controlpotmeter" in n["reftarget"]
+                )
             ),
             None,
         )
@@ -319,7 +322,7 @@ def control_var(name: str, is_pot_meter: bool) -> str:
 
 def create_group_types_str(groups: list[Group]) -> list[str]:
     lines: list[str] = ["type GroupName = "]
-    for group in groups:
+    for group in sorted(groups, key=lambda g: g.name.casefold()):
         lines.extend(ts_group_doc_comment(group))
         lines.append(f"| {control_var(group.name, False)}")
     lines.append(";")
@@ -332,13 +335,17 @@ def create_control_types_str(
     lines: list[str] = []
     ctls: list[Control] = sorted(
         [c for gc in groupControls.values() for c in gc.values()],
-        key=lambda c: c.name,
+        key=lambda c: c.name.casefold(),
     )
-    for group, controls in sorted(groupControls.items()):
+    for group, controls in sorted(
+        groupControls.items(), key=lambda item: item[0].casefold()
+    ):
         lines.append(f"type {prefix}{group_var(group)} = ")
 
         # controls
-        for name, control in sorted(controls.items()):
+        for name, control in sorted(
+            controls.items(), key=lambda item: item[0].casefold()
+        ):
             lines.extend(ts_control_doc_comment(control))
             lines.append(f"| {control_var(name, control.is_pot_meter)}")
 
@@ -354,17 +361,20 @@ def create_control_types_str(
     return lines
 
 
-def find_group_parents(group: str, controls: list[Control]) -> set[str]:
-    return {
+def find_group_parents(group: str, controls: list[Control]) -> list[str]:
+    parents = {
         "".join(c.groups)
         for c in controls
         if len(c.groups) > 1 and group in c.groups
     }
+    return sorted(parents, key=str.casefold)
 
 
 def create_combined_types(controls: list[Control], prefix: str) -> list[str]:
     lines = []
-    groups = {el for c in controls for el in c.groups}
+    groups = sorted(
+        {el for c in controls for el in c.groups}, key=str.casefold
+    )
     for group in groups:
         # If group has it's own controls, it should already exist
         if any(len(c.groups) == 1 and group in c.groups for c in controls):
@@ -384,18 +394,23 @@ def comment_lines(lines: list[str]) -> list[str]:
 
 def create_pot_meter_suffixes(pm_suffixes: list[PotMeterSuffix]) -> list[str]:
     lines = ["type PotMeterSuffix = ", '| ""']
-    for pms in pm_suffixes:
+    for pms in sorted(pm_suffixes, key=lambda p: p.suffix.casefold()):
         lines.extend(comment_lines([pms.description]))
         lines.append(f'| "{pms.suffix}"')
     lines.append(";\n")
     return lines
 
 
+def create_dyn_group_link(key: str, prefix: str, name: str) -> str:
+    return f"[key: `{key}`]: {prefix}{group_var(name)};"
+
+
 def create_group_control_linking(
     groups: list[Group], type_prefix: str = ""
 ) -> list[str]:
     lines = [f"type {type_prefix}Controls = {{"]
-    group_count = [replace_dynamics(group.name) for group in groups]
+    sorted_groups = sorted(groups, key=lambda g: g.name.casefold())
+    group_count = [replace_dynamics(group.name) for group in sorted_groups]
     prefix = "" if type_prefix == "" else f"{type_prefix}.{type_prefix}"
 
     # static groups
@@ -409,7 +424,7 @@ def create_group_control_linking(
 
     # dynamic groups
     dynamics = [
-        f"[key: `{group_count[i][0]}`]: {prefix}{group_var(groups[i].name)};"
+        create_dyn_group_link(group_count[i][0], prefix, sorted_groups[i].name)
         for i in range(len(group_count))
         if group_count[i][1] > 0
     ]
@@ -428,7 +443,8 @@ def extract_groups(grouped_controls: GroupedControls) -> list[str]:
             for controls in grouped_controls.values()
             for c in controls.values()
             for group in c.groups
-        }
+        },
+        key=str.casefold,
     )
 
 
