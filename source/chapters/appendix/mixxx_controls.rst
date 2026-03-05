@@ -545,6 +545,11 @@ Decks, Preview Decks and Samplers
 
    Sample decks are identical to regular decks, but are used for playing samples; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
 
+.. mixxx:controlgroup:: [ChannelN_StemM]
+
+   Stem decks are per-stem subgroups for a stem track loaded in :mixxx:cogroupref:`[ChannelN]`.
+   M ranges from 1 to :mixxx:coref:`[ChannelN],stem_count` (usually 2-4) and refers to one stem (for example vocals, drums, bass, or other) with its own controls.
+
 Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
 
 .. seealso:: There are some :ref:`additional global controls for samplers <appendix-mixxxcontrols-samplers>`.
@@ -2737,6 +2742,46 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],scratch_position
+                   [PreviewDeckN],scratch_position
+                   [SamplerN],scratch_position
+
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch_position_enable` is active.
+   This is used for scratching with scrolling waveforms and spinning vinyl widgets, but can also be used in mappings for controllers with
+   jogwheels that send absolute or relative position values. Like with :mixxx:coref:`[ChannelN],scratch2` and
+   `engine.scratchTick() <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ , input values need to be scaled in order
+   to achieve the desired wheel/waveform scratch ratio. Consider that waveforms, spinnies and `scratch_position` mappings of a specific deck use the same control.
+
+   :range: double
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch_position_enable
+                   [PreviewDeckN],scratch_position_enable
+                   [SamplerN],scratch_position_enable
+
+   When active this enables scratching with :mixxx:coref:`[ChannelN],scratch_position`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
+
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.8.0
+
+
 .. mixxx:control:: [ChannelN],show_track_menu
 
    Toggle the track context menu for the track currently loaded in this deck.
@@ -4118,6 +4163,11 @@ The Effects Framework
 
    The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]]` group contains per-deck quick effect controls.
 
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI_StemJ]]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI_StemJ]]` group contains per-stem quick effect controls for a stem within deck I.
+   J ranges from 1 to :mixxx:coref:`[ChannelN],stem_count`.
+
 .. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]]
 
    The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]]` group contains per-deck EQ rack controls.
@@ -4125,6 +4175,10 @@ The Effects Framework
 .. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]_Effect1]
 
    The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]_Effect1]` group contains controls for the single quick effect slot on a deck.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI_StemJ]_Effect1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI_StemJ]_Effect1]` group contains controls for the quick effect slot on a stem within deck I.
 
 .. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]_Effect1]
 
