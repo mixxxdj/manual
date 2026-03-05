@@ -425,7 +425,7 @@ Mixxx supports the following filters:
       title:= "Track 1"
       artist:="DJ Flop"
 
-* **Numeric filtering**: bpm, bitrate, played, rating, track, year
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year, added, dateadded, datetime_added, date_added
 
   Examples
     ::
@@ -452,8 +452,12 @@ Mixxx supports the following filters:
 
   * `bpm` also supports fuzzy searches, see Special Filtering below.
 
+  * The `added` filter expects the same date short-format you see in the 'Date added' library column
+    which depends on the selected locale. Due to various formats it does currently not support ranges,
+    only operators like <, <=, > and >=.
 
-* **Special filtering**: bpm, key, duration, added, dateadded, datetime_added, date_added
+
+* **Special filtering**: bpm, key, duration
 
   * Supports fuzzy matching of key searches. The following example lists tracks
     with harmonically compatible keys to C# minor.
