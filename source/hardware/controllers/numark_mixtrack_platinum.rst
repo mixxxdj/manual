@@ -25,13 +25,17 @@ are “true” or “false” unless specified.
 
 -  **EnableWheel:** if true, wheel/vinyl mode will be enabled by default (defaults to true)
 -  **ShowTimeElapsed:** if true, time elapsed will be show by default on the displays, otherwise time remaining will be displayed (defaults to true)
--  **UseManualLoopAsCue:** if true, the manual loop controls will behave as hotcues 5-8. When enabled, the normal loop control behavior can be activated using shift+pad mode+mode button and pad
-   mode+mode to use the hotcue behavior (defaults to false)
 -  **UseAutoLoopAsCue:** if true, the auto loop controls will behave as hotcues 5-8. When enabled, the normal loop control behavior can be activated using shift+pad mode+mode button and pad mode+mode
    to use the hotcue behavior (defaults to false)
 -  **UseCueAsSampler:** if true, the hotcues will control sampler slots 5-8 when sampler mode is active. When enabled, the normal hotcue control behavior can be activated using shift+pad mode+sampler
    while pad mode+sampler will activate the special behavior (defaults to false)
 -  **ShiftLoadEjects:** if true, pressing shift + load will eject a track (defaults to false)
+
+User preferences
+----------------
+
+You can control the behavior of how manual loop buttons using the *Manual Loop Buttons* option in the Mixxx preferences.
+Refer to :ref:`manual-loop-mode` for more detailed information.
 
 Mapping
 -------
@@ -160,31 +164,43 @@ mode. See the subsections below for details about each mode.
 Note: the top row can be made to control hotcues 5-8 using shift+pad mode+loop mode (being Auto Loop or Manual Loop). This can also be made the default using a config option (see documentation above
 and below).
 
+.. _manual-loop-mode:
+
 Manual Loop Mode
 ^^^^^^^^^^^^^^^^
 
-Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) to assign the upper 4 pads to the functions listed below:
+Hold Pad Mode and press the pad marked Manual Loop (silkscreened above the pad) to assign the upper 4 pads.
+The functionality of the Manual loop buttons is controlled by the 'Manual Loop Buttons' option in the Mixxx preferences.
 
--  **Loop In** – Sets the beginning of a loop: When assigned, the Pad LED will light blue
--  **Loop Out** – Sets the end point for the loop: When assigned, the Pad LED will light blue
--  **On/Off** – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
--  **Loop x1/2** – Halve the length of the loop. Press Shift + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
+-  **Loop In/Out** assigns the pads the following functions:
 
-If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
-to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status). The
-**UseManualLoopAsCue** config option can be set in the mapping file (see above) to swap the default “shadow” mode of the looping controls such that hotcue control will be the default and manual loop
-control with be selected when Shift is used.
+    -  *Loop In* – Sets the beginning of a loop: When assigned, the Pad LED will light blue
+    -  *Loop Out* – Sets the end point for the loop: When assigned, the Pad LED will light blue
+    -  *On/Off* – (De)activate the loop. If a loop has not been set, this button will have no effect.: When assigned, the Pad LED will light blue
+    -  *Loop x1/2* – Halve the length of the loop. Press Shift + Loop x1/2 to double the length of the loop. Note that this does not update the beatloop size shown on screen.
+
+    If Manual Loop is selected with Shift and Pad Mode held down this will activate control of hotcues 5-8 on the upper row instead of the looping controls. Select Manual Loop again while holding Pad Mode
+    to restore the default behavior. There will be no indication of which mode is selected (beyond the LEDs on the keys themselves, which will vary depending on loop and hotcue status).
+
+*  **Additional Hotcues** adds hotcues 5-8 to the upper row of pads.
+
+*  **Stem Control** controls drum, bass, melody and voice stems of a track using the upper row pads:
+
+    -  *Toggle a stem* by pressing the corresponding stem pad.
+    -  *Set a stem's volume* by holding a stem pad while rotating the Beats knob (19) left or right.
+    -  *Toggle a stem's effect* by holding SHIFT (28) while pressing the corresponding stem pad.
+    -  *Set a stem's effect volume* by holding a stem pad, pressing SHIFT (28) while rotating the Beats knob (19) left or right.
+
 
 Auto Loop Mode
 ^^^^^^^^^^^^^^
-
-| Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
-| \* **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
-
+Hold Pad Mode and press the pad marked Auto Loop to assign the upper 4 pads to the functions listed below:
+-  **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
+-  **Auto 1:** – Sets and starts playback of a 1-beat autoloop.
 -  **Auto 2:** – Sets and starts playback of a 2-beat autoloop.
 -  **Auto 3:** – Sets and starts playback of a 4-beat autoloop.
 -  **Auto 4:** – Sets and starts playback of a 8-beat autoloop.
-   \* **Shift + Auto 1:** – When held, starts a 1/16-beat loop roll.
+-  **Shift + Auto 1:** – When held, starts a 1/16-beat loop roll.
 -  **Shift + Auto 2:** – When held, starts a 1/8-beat loop roll.
 -  **Shift + Auto 3:** – When held, starts a 1/4-beat loop roll.
 -  **Shift + Auto 4:** – When held, starts a 1/2-beat loop roll.

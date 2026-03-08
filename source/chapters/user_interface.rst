@@ -622,10 +622,13 @@ control rate changes also from your computer's keyboard, see the chapter
   :ref:`sync-lock` for more information.
 
 **Pitch/Rate slider**
-  The slider allows you to change the speed of the song, by default up to 10%
-  from the tracks original tempos. The speed will increase as you move the
-  slider up, opposite to the behavior found on DJ turntables and :term:`CDJ`.
-  Right-clicking on the slider will reset the tempo to its original value.
+  The slider allows you to change the speed of the song from the track's
+  original tempo.  In default configuration the speed will increase as you move
+  the slider down, and decrease as you move the slider up (similar to the
+  behaviour found on DJ turntables and :term:`CDJ` units where moving the
+  slider towards you increases the speed).  Note that the direction can be
+  inverted, and the range of adjustment widened/narrowed by the settings found
+  under "Decks" in Mixxx's preferences.
 
 **Pitch Rate Display**
   The percent that the track's rate is sped up or slowed down is noted here. Is
@@ -683,7 +686,7 @@ You can also shift loops using the :ref:`beatjump / loop move controls <interfac
   If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
 **Beatloop**
-  Left-clicking the Beatloop button starts a loop over the set number of beats. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
+  Left-clicking the Beatloop button starts a loop over the set number of beats. If the loaded track has no beats, the unit is seconds. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
   loop overlay on the waveforms changes color. Right-clicking the Beatloop button temporarily enables a rolling loop over the set number of beats. Playback will resume where the track would have been if it had not entered the loop.
 **Double loop**

@@ -170,7 +170,8 @@ If the mapping was posted as a :file:`.zip` file, first extract the :file:`.zip`
 file by right clicking on it in your file browser and selecting the option for
 extracting an archive or compressed folder. Copy the :file:`.xml` file into your
 User Mapping folder. If there is a :file:`.js` file, also copy that to your
-User Mapping folder. Restart Mixxx and :ref:`load the mapping <control-load-mapping>`.
+User Mapping folder. Close and reopen :menuselection:`Preferences --> Controllers`
+to update the mappings list and :ref:`load the mapping <control-load-mapping>`.
 
 Map your own controller
 -----------------------
