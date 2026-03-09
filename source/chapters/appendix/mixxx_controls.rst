@@ -2835,6 +2835,66 @@ Some controls (like volume, mute, and VU meters) are shared between decks and st
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],stars_one
+                   [PreviewDeckN],stars_one
+                   [SamplerN],stars_one
+
+   Give the currently loaded track a rating of 1 star.
+
+   :range: binary
+   :feedback: Star count is adjusted in the deck's star widget and in the library table.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],stars_two
+                   [PreviewDeckN],stars_two
+                   [SamplerN],stars_two
+
+   Give the currently loaded track a rating of 2 stars.
+
+   :range: binary
+   :feedback: Star count is adjusted in the deck's star widget and in the library table.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],stars_three
+                   [PreviewDeckN],stars_three
+                   [SamplerN],stars_three
+
+   Give the currently loaded track a rating of 3 stars.
+
+   :range: binary
+   :feedback: Star count is adjusted in the deck's star widget and in the library table.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],stars_four
+                   [PreviewDeckN],stars_four
+                   [SamplerN],stars_four
+
+   Give the currently loaded track a rating of 4 stars.
+
+   :range: binary
+   :feedback: Star count is adjusted in the deck's star widget and in the library table.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],stars_five
+                   [PreviewDeckN],stars_five
+                   [SamplerN],stars_five
+
+   Give the currently loaded track a rating of 5 stars.
+
+   :range: binary
+   :feedback: Star count is adjusted in the deck's star widget and in the library table.
+
+   .. versionadded:: 2.7.0
+
+
 .. mixxx:control:: [ChannelN],start
                    [PreviewDeckN],start
                    [SamplerN],start
