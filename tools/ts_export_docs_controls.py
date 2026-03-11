@@ -28,6 +28,8 @@ output = manual_dir / "build/mixxx-controls.d.ts"
 class Group:
     name: str
     description: list[str]
+    version_added: str | None
+    deprecated_since: str | None
 
 
 @dataclass
@@ -171,14 +173,14 @@ def get_deprecated(content: nodes.Element) -> str | None:
     if dep_tag:
         return (
             dep_tag.astext().replace("Deprecated since", "").replace("\n", " ")
-        )
+        ).strip()
     return None
 
 
 def get_version_added(content: nodes.Element) -> str | None:
     dep_tag = get_version_modified_tag(content, "type", "versionadded")
     if dep_tag:
-        return dep_tag.astext().replace("\n", " ")
+        return dep_tag.astext().replace("\n", " ").strip()
     return None
 
 
@@ -234,11 +236,16 @@ def is_pot_meter(content: addnodes.desc_content) -> bool:
 
 
 def extract_group_info(desc: addnodes.desc) -> Group:
+    content = next(desc.findall(addnodes.desc_content))
     name: str = next(desc.findall(addnodes.desc_signature))["ids"][0].replace(
         "controlgroup-", ""
     )
-    description: str = next(desc.findall(addnodes.desc_content)).astext()
-    return Group(name, description.split("\n"))
+    return Group(
+        name,
+        text_content(content),
+        get_version_added(content),
+        get_deprecated(content),
+    )
 
 
 def read_group_info(doc: document) -> list[Group]:
@@ -257,7 +264,16 @@ type GroupedControls = dict[str, dict[str, Control]]
 
 
 def ts_group_doc_comment(group: Group) -> list[str]:
-    return comment_lines(group.description)
+    lines = (
+        group.description
+        if len(group.description) > 0
+        else ["(No description)"]
+    )
+    if group.version_added:
+        lines = [*lines, "", f"@since {group.version_added}"]
+    if group.deprecated_since:
+        lines = [*lines, f"@deprecated since {group.deprecated_since}"]
+    return comment_lines(lines)
 
 
 def ts_control_doc_comment(control: Control) -> list[str]:
@@ -454,7 +470,7 @@ def get_group(name: str, groups: list[Group]) -> Group:
     except StopIteration:
         raise Exception(
             f"""\033[91mFound no description for {name} group\033[0m
-Add .. mixxx:cogroupdesc:: {name} to mixxx_controls.rst"""
+Add .. mixxx:controlgroup:: {name} to mixxx_controls.rst"""
         )
 
 
@@ -474,7 +490,7 @@ def export_ts_types(
     # read/write controls
     rw_controls = filter_controls(
         grouped_controls,
-        lambda c: c.deprecated_since is None and not c.is_read_only,
+        lambda c: not c.is_read_only,
     )
     rw_groups = [
         get_group(name, group_info) for name in extract_groups(rw_controls)
@@ -486,21 +502,13 @@ def export_ts_types(
     lines.append("\t\t// Read-only controls")
     ro_controls = filter_controls(
         grouped_controls,
-        lambda c: c.deprecated_since is None and c.is_read_only,
+        lambda c: c.is_read_only,
     )
     ro_groups = [
         get_group(name, group_info) for name in extract_groups(ro_controls)
     ]
     lines.extend(create_group_control_linking(ro_groups, "ReadOnly"))
     lines.extend(create_control_types_str(ro_controls, "ReadOnly"))
-    lines.append("\n\t}\n")
-
-    # deprecated controls
-    lines.append("\tnamespace Deprecated {\n")
-    l_controls = filter_controls(
-        grouped_controls, lambda c: c.deprecated_since is not None
-    )
-    lines.extend(create_control_types_str(l_controls, "Deprecated"))
     lines.append("\n\t}\n")
 
     # Write file
