@@ -4700,11 +4700,22 @@ The ``[Skin]`` group
    .. versionadded:: 2.6.0
 
 
+Deprecated groups
+~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Samplers]
+
+   The :mixxx:cogroupref:`[Samplers]` group contains controls for showing sampler banks in the :term:`user interface <GUI>` of Mixxx.
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:cogroupref:`[Skin]` instead.
+
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
 
 These controls have been deprecated and may be removed in a future version of Mixxx.
 In the meantime, skins and controller mappings that still use them will keep working, but using the suggested alternatives is strongly recommended.
+
 
 .. mixxx:control:: [Master],audio_latency_usage
 
