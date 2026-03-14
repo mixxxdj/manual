@@ -85,23 +85,24 @@ Id    Control :hwlabel:`C`                               Function
 Mixer section
 ~~~~~~~~~~~~~
 
-===  ======================================  ============================================================================================
-Id   Control                                            Function
-===  ======================================  ============================================================================================
-2    :hwlabel:`GAIN` Knob                    Adjust input gain for the chosen Deck.
-3    :hwlabel:`HIGH` Knob                    Top control for the selected Quickeffect Chain, default high frequencies in Filter mode.
-3    :hwlabel:`MID` Knob                     Middle control for the selected Quickeffect Chain, default mid frequencies in Filter mode.
-3    :hwlabel:`LOW` Knob                     Bottom control for the selected Quickeffect Chain, default low frequencies in Filter mode.
-4    :hwlabel:`FX` Button                    Add Effect to the chosen Deck. [5]_
-4    :hwlabel:`FX` Knob                      Super Knob to filter out High frequencies (turn left) or low frequencies (turn right). If :hwlabel:`FX` Button is active, Knob will control the Effect intensity.
-4    :hwlabel:`FX` LED                       Light up when Super Knob is actively used as frequency filter.
-5    :hwlabel:`LOAD`                         Load the current Track to the chosen Deck.
-5    :hwlabel:`SHIFT` + :hwlabel:`LOAD`      Move left and right in your Library.
-6    :hwlabel:`🎧`                           Monitor the current Deck via the Headphon e (PFL - Pre Fade Listener).
-6    :hwlabel:`SHIFT` + :hwlabel:`🎧`        Loads selected Track into the preview Deck and starts playing it in preview mode.
-7    Fader                                   Adjust channel volume.
-7    :hwlabel:`SHIFT` + Fader zero to top    Fader Start, start the track from the current position.
-7    :hwlabel:`SHIFT` + Fader top to zero    Fader Stop, stop playing the track and go back to cue point.
-===  ======================================  ============================================================================================
+===  =======================================  ============================================================================================
+Id   Control                                             Function
+===  =======================================  ============================================================================================
+2    :hwlabel:`GAIN` Knob                     Adjust input gain for the chosen Deck.
+3    :hwlabel:`HIGH` Knob                     Top control for the selected Quickeffect Chain, default high frequencies in Filter mode.
+3    :hwlabel:`MID` Knob                      Middle control for the selected Quickeffect Chain, default mid frequencies in Filter mode.
+3    :hwlabel:`LOW` Knob                      Bottom control for the selected Quickeffect Chain, default low frequencies in Filter mode.
+4    :hwlabel:`FX` Button                     Toggle between Filter ('Quick Effect Chain Preset' 1) and another 'Quick Effect Chain Preset'. [5]_
+4    :hwlabel:`SHIFT` + :hwlabel:`FX` Button  Select next 'Quick Effect Chain Preset'. [5]_
+4    :hwlabel:`FX` Knob                       Super Knob to filter high frequencies (turn left) or low frequencies (turn right). If :hwlabel:`FX` Button is active, Knob will control the Effect intensity.
+4    :hwlabel:`FX` LED                        Light up when Super Knob is actively used as frequency filter.
+5    :hwlabel:`LOAD`                          Load the current Track to the chosen Deck.
+5    :hwlabel:`SHIFT` + :hwlabel:`LOAD`       Move left and right in your Library.
+6    :hwlabel:`🎧`                            Monitor the current Deck via the Headphon e (PFL - Pre Fade Listener).
+6    :hwlabel:`SHIFT` + :hwlabel:`🎧`         Loads selected Track into the preview Deck and starts playing it in preview mode.
+7    Fader                                    Adjust channel volume.
+7    :hwlabel:`SHIFT` + Fader zero to top     Fader Start, start the track from the current position.
+7    :hwlabel:`SHIFT` + Fader top to zero     Fader Stop, stop playing the track and go back to cue point.
+===  =======================================  ============================================================================================
 
-.. [5] Effect number can be configured in your :menuselection:`Preferences --> Controller --> Controller Setup`.
+.. [5] best configure a plain Filter as first 'Quick Effect Chain Preset' in :menuselection:`Preferences --> Effects --> Quick Effect Chain Presets`.
