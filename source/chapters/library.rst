@@ -408,6 +408,13 @@ Mixxx supports the following filters:
       comment: foo
       genre:hip-hop -genre:country
 
+             * Search for empty fields. The following example lists all tracks without a genre. It works for all text fields.
+
+
+            ::
+
+             genre:""
+
   .. note::
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
@@ -486,17 +493,6 @@ Mixxx supports the following filters:
 
 
     genre:hip-hop -year:1990
-
-.. _search-empty-fields:
-
-
-
-* Search for empty fields. The following example lists all tracks without a genre. It works for all text fields.
-
-   
-    ::
-
-       genre:""
 
 
   Examples
