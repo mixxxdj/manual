@@ -11,7 +11,7 @@ Changelog
 
 .. _v2-5-6:
 
-`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (Unreleased)
+`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (2026-03-25)
 -------------------------------------------------------------------------
 
 Library
@@ -125,7 +125,7 @@ Miscellaneous
 `2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (skipped)
 ----------------------------------------------------------------------
 
-Note: Version 2.5.5 hase been skipped following an issue in the release workflow.
+Note: Version 2.5.5 has been skipped following an issue in the release workflow.
 
 .. _v2-5-4:
 
