@@ -54,6 +54,7 @@ Using Mixxx with your built-in sound card
    4. From the {guilabel}`Microphone` drop-down menu, select the input your microphone is connected to
 5. Click {guilabel}`Apply` to save the changes.
 
+(setup-laptop-with-splitter)=
 ## Laptop and Splitter Cable
 
 The cheapest way to DJ and {term}`cue` with headphones uses a stereo-to-mono DJ splitter cable (also known as a “Y cable”) plugged into the headphone jack of a laptop or other computer. This cable divides the stereo output from a single jack into two separate mono signals.
@@ -73,6 +74,7 @@ This setup allows you to start DJing without having to invest in expensive equip
 Most splitter cables, particularly those marketed as headphone splitter cables, output the same stereo signal to two headphone jacks and will not work for this DJ setup. Also, if you use a generic stereo-to-mono splitter adapter, you may only be able to hear out of one side of your speakers and headphones. DJ splitter cables allow you to hear the same mono signal on both sides of your headphones and speakers.
 :::
 
+(setup-laptop-and-external-card)=
 ## Laptop and External USB Audio Interface
 
 ```{figure-md}
@@ -124,6 +126,7 @@ Using Mixxx together with a DJ controller and integrated audio interface
 4. From the {guilabel}`Headphones` drop-down menu, select your controller's audio interface, then {guilabel}`Channels 3-4`
 5. Click {guilabel}`Apply` to save the changes.
 
+(setup-controller-and-external-card)=
 ### Controllers without an integrated audio interface
 
 Controllers without an integrated audio interface can be used together with a USB audio interface as depicted in the diagram below:
