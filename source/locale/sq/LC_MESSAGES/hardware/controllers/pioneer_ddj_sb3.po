@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 07:51+0200\n"
+"POT-Creation-Date: 2026-03-25 00:48+0100\n"
 "PO-Revision-Date: 2022-09-05 06:00+0000\n"
 "Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -123,12 +123,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:112
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:144
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:170
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:200
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:222
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:249
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:280
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:337
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:375
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
 msgid "No."
 msgstr ""
 
@@ -136,12 +136,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:112
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:144
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:170
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:200
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:222
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:249
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:280
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:337
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:375
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
 msgid "Control"
 msgstr ""
 
@@ -149,12 +149,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:112
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:144
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:170
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:200
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:222
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:249
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:280
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:337
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:375
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
 msgid "Function"
 msgstr ""
 
@@ -163,13 +163,13 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:146
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:147
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:172
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:252
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:340
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:226
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:253
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:254
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:284
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:341
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:342
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:379
 msgid "1"
 msgstr ""
 
@@ -189,13 +189,15 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:149
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:173
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:174
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:225
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:253
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:254
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:283
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:341
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:342
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:378
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:175
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:176
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:227
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:255
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:256
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:285
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:343
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:344
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:380
 msgid "2"
 msgstr ""
 
@@ -228,13 +230,13 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:116
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:150
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:151
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:226
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:255
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:256
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:284
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:343
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:344
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:379
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:228
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:286
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:345
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:346
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:381
 msgid "3"
 msgstr ""
 
@@ -259,12 +261,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:117
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:118
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:152
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:227
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:285
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:345
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:346
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:380
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:229
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:259
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:287
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:347
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:348
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:382
 msgid "4"
 msgstr ""
 
@@ -288,12 +290,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:75
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:119
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:120
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:228
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:286
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:347
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:348
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:381
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:230
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:260
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:288
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:349
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:350
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:383
 msgid "5"
 msgstr ""
 
@@ -316,12 +318,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:76
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:77
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:121
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:229
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:259
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:287
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:349
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:350
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:382
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:231
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:261
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:289
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:351
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:352
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:384
 msgid "6"
 msgstr ""
 
@@ -344,12 +346,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:78
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:79
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:122
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:230
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:260
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:288
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:351
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:352
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:383
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:232
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:262
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:290
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:353
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:354
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:385
 msgid "7"
 msgstr ""
 
@@ -372,12 +374,12 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:80
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:81
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:124
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:231
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:261
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:289
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:353
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:354
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:384
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:233
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:263
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:291
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:355
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:356
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:386
 msgid "8"
 msgstr ""
 
@@ -724,11 +726,30 @@ msgstr ""
 msgid "Starts / stops track preview of highlighted track"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:178
-msgid "Performance Pads"
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:175
+msgid ":hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (rotate)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:175
+msgid ""
+"Rotate the knob left or right highlights the previous or next item in the "
+"sidebar"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:176
+msgid ":hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (press)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:176
+msgid ""
+"Opens the currently highlighted item in the sidebar into the track list"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:180
+msgid "Performance Pads"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:182
 msgid ""
 "You can use the Pad Mode Select buttons to select a mode for the performance"
 " pads. Performance pads are numbered from top left to bottom right. First "
@@ -736,94 +757,93 @@ msgid ""
 "button to access other pad modes."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:185
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:187
 msgid "Hot Cue Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:186
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:188
 msgid ""
 "Hot Cue mode is enabled by pressing the :hwlabel:`HOT CUE` button. The "
 "button will light up when selected."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:195
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:197
 msgid "Pioneer DDJ-SB3 (performance pads in hot cue mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:197
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:199
 msgid "Bookmark positions in the track and jump to them."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:203
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:204
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:205
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:206
 msgid "1-8"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:204
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:253
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:255
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
 msgid "Pad (unlit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:202
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:204
 msgid "Save current position as hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:203
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:205
 msgid "Pad (lit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:203
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:205
 msgid "Jump to hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:204
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:206
 msgid ":hwlabel:`SHIFT` + Pad (lit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:204
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:206
 msgid "Clear hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:208
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:210
 msgid "Beatjump Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:209
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:211
 msgid ""
 "Beatjump mode is enabled by holding :hwlabel:`SHIFT` down and pressing the "
 ":hwlabel:`HOT CUE` button. The button will flash when selected. Use beatjump"
 " mode to jump back or forward on the track by a certain number of beats."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:219
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:221
 msgid "Pioneer DDJ-SB3 (performance pads in beatjump mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:225
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:226
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:227
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:228
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:229
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:230
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:231
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:232
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:233
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:259
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:260
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:261
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:283
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:262
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:263
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:284
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:285
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:286
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:287
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:288
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:289
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:290
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:291
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:341
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:343
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:345
@@ -831,116 +851,117 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:349
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:351
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:353
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:378
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:355
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:379
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:380
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:381
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:382
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:383
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:384
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:385
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:386
 msgid "Pad"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:224
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:226
 msgid "Decrease beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:225
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:227
 msgid "Increase beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:226
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:228
 msgid "Jump left"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:227
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:229
 msgid "Jump right"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:228
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:230
 msgid "Go back to beginning of track"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:229
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:231
 msgid "Search left"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:230
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:232
 msgid "Search right"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:231
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:233
 msgid "Censor"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:235
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:237
 msgid "FX Fade Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:236
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:238
 msgid ""
 "FX Fade mode is enabled by pressing the :hwlabel:`FX FADE` button. The "
 "button will light up when selected. FX fade is a set of functions built-in "
 "to the controller."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:246
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:248
 msgid "Pioneer DDJ-SB3 (Fade mode performance pads)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:251
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:253
 msgid "Applies a high-pass filter from off to max"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:252
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:254
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:256
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
 msgid "Pad (blinking)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:252
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:254
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:256
 msgid "Turn off filter"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:253
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:255
 msgid "Applies a low-pass filter from off to max"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:255
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
 msgid "Apply 1 beat auto-loop and lower volume"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:256
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
 msgid "Turn off loop and restore volume"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:257
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:259
 msgid "Perform a back-spin and resume"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:258
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:260
 msgid "Same as pad 1 but over more time"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:259
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:261
 msgid "Same as pad 2 but over more time"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:260
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:262
 msgid "Auto-loop with exponential size reduction"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:261
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:263
 msgid "Same as 4 but with a longer back-spin"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:265
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:267
 msgid "Loop Roll Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:266
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:268
 msgid ""
 "Loop roll mode is enabled by holding :hwlabel:`SHIFT` down and by pressing "
 "the :hwlabel:`FX FADE` button. The button will blink when selected. Press "
@@ -948,62 +969,62 @@ msgid ""
 "the track will resume playing."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:277
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:279
 msgid "Pioneer DDJ-SB3 (performance pads in loop roll mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:282
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:284
 msgid "1/16 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:283
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:285
 msgid "1/8 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:284
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:286
 msgid "1/4 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:285
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:287
 msgid "1/2 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:286
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:288
 msgid "1 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:287
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:289
 msgid "2 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:288
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:290
 msgid "4 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:289
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:291
 msgid "8 beat loop roll"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:294
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:296
 msgid "Pad Scratch Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:295
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:297
 msgid ""
 "Pad scratch mode is enabled by pressing the :hwlabel:`PAD SCRATCH` button. "
 "The button will light up when selected. Press one of the pads to trigger one"
 " of the built in scratches."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:305
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:307
 msgid "Pioneer DDJ-SB3 (performance pads in pad scratch mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:308
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:310
 msgid "Slicer Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:309
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:311
 msgid ""
 "Slicer mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the "
 ":hwlabel:`PAD SCRATCH` button. The button will blink when selected. In this "
@@ -1012,29 +1033,28 @@ msgid ""
 "down to loop it."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:320
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:322
 msgid "Pioneer DDJ-SB3 (performance pads in slicer mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:323
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:325
 msgid "Sampler Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:324
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:326
 msgid ""
 "Sampler mode is enabled by pressing the :hwlabel:`SAMPLER` button. The "
 "button will light up when selected."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:334
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:336
 msgid "Pioneer DDJ-SB3 (performance pads in sampler mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:339
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:341
 msgid "Play sample 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:340
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:342
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:344
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:346
@@ -1042,74 +1062,75 @@ msgstr ""
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:350
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:352
 #: ../../hardware/controllers/pioneer_ddj_sb3.rst:354
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:356
 msgid ":hwlabel:`SHIFT` + Pad"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:340
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:342
 msgid "Stop sample 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:341
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:343
 msgid "Play sample 2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:342
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:344
 msgid "Stop sample 2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:343
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:345
 msgid "Play sample 3"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:344
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:346
 msgid "Stop sample 3"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:345
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:347
 msgid "Play sample 4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:346
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:348
 msgid "Stop sample 4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:347
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:349
 msgid "Load sample 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:348
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:350
 msgid "Unload sample 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:349
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:351
 msgid "Load sample 2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:350
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:352
 msgid "Unload sample 2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:351
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:353
 msgid "Load sample 3"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:352
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:354
 msgid "Unload sample 3"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:353
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:355
 msgid "Load sample 4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:354
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:356
 msgid "Unload sample 4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:358
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:360
 msgid "Trans Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:359
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:361
 msgid ""
 "Trans mode is enabled by holding :hwlabel:`SHIFT` down and by pressing the "
 ":hwlabel:`SAMPLER` button. The button will blink when selected. Press one of"
@@ -1125,38 +1146,38 @@ msgstr ""
 msgid "Pioneer DDJ-SB3 (performance pads trans mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:372
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:374
 msgid "Pioneer DDJ-SB3 (performance pads in trans mode)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:377
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:379
 msgid "1/16 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:378
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:380
 msgid "1/8 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:379
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:381
 msgid "1/4 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:380
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:382
 msgid "1/2 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:381
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:383
 msgid "1 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:382
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:384
 msgid "2 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:383
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:385
 msgid "1/3 beat cut effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_sb3.rst:384
+#: ../../hardware/controllers/pioneer_ddj_sb3.rst:386
 msgid "Manual cut effect"
 msgstr ""

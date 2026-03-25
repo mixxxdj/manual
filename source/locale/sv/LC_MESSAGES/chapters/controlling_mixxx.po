@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 07:47+0200\n"
+"POT-Creation-Date: 2026-03-25 00:48+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -500,30 +500,31 @@ msgid ""
 ":file:`.zip` file by right clicking on it in your file browser and selecting"
 " the option for extracting an archive or compressed folder. Copy the "
 ":file:`.xml` file into your User Mapping folder. If there is a :file:`.js` "
-"file, also copy that to your User Mapping folder. Restart Mixxx and "
-":ref:`load the mapping <control-load-mapping>`."
+"file, also copy that to your User Mapping folder. Close and reopen "
+":menuselection:`Preferences --> Controllers` to update the mappings list and"
+" :ref:`load the mapping <control-load-mapping>`."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:176
+#: ../../chapters/controlling_mixxx.rst:177
 msgid "Map your own controller"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:178
+#: ../../chapters/controlling_mixxx.rst:179
 msgid ""
 "There is no mapping available for your controller or you want to change an "
 "existing mapping? You can map your controller by using the Controller Wizard"
 " or take full control with the MIDI Scripting support in Mixxx."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:182
+#: ../../chapters/controlling_mixxx.rst:183
 msgid "Go to :ref:`advanced-controller` for detailed information."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:187
+#: ../../chapters/controlling_mixxx.rst:188
 msgid "Using Timecode Vinyl Records and CDs"
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:189
+#: ../../chapters/controlling_mixxx.rst:190
 msgid ""
 ":term:`Vinyl control<vinyl control>` allows a user to manipulate the "
 "playback of a track in Mixxx using a turntable or :term:`CDJ` as an "
@@ -533,6 +534,6 @@ msgid ""
 "of using digital audio."
 msgstr ""
 
-#: ../../chapters/controlling_mixxx.rst:195
+#: ../../chapters/controlling_mixxx.rst:196
 msgid "Go to :ref:`vinyl-control` for detailed information."
 msgstr ""

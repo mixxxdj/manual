@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 19:17+0200\n"
+"POT-Creation-Date: 2026-03-25 00:48+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
@@ -344,76 +344,82 @@ msgid "Doesn't open controllers by default"
 msgstr ""
 
 #: ../../chapters/appendix/commandline_dev_tools.rst:70
+msgid ""
+"Automatically start :ref:`Auto DJ<djing-auto-dj>` when Mixxx finished "
+"loading."
+msgstr ""
+
+#: ../../chapters/appendix/commandline_dev_tools.rst:71
 msgid "[auto|always|never] Use colors on the console output."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:72
+#: ../../chapters/appendix/commandline_dev_tools.rst:73
 msgid "Use a custom locale for loading translations (e.g ``fr``)"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:74
+#: ../../chapters/appendix/commandline_dev_tools.rst:75
 msgid "Start Mixxx in full-screen mode."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:75
+#: ../../chapters/appendix/commandline_dev_tools.rst:76
 msgid "Set the verbosity of command line logging."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:78
+#: ../../chapters/appendix/commandline_dev_tools.rst:79
 msgid "Value"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:78
+#: ../../chapters/appendix/commandline_dev_tools.rst:79
 msgid "Meaning"
 msgstr "Significado"
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:80
+#: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "``critical``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:80
+#: ../../chapters/appendix/commandline_dev_tools.rst:81
 msgid "Critical/Fatal only"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:81
+#: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "``warning``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:81
+#: ../../chapters/appendix/commandline_dev_tools.rst:82
 msgid "Above + Warnings"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:82
+#: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "``info``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:82
+#: ../../chapters/appendix/commandline_dev_tools.rst:83
 msgid "Above + Informational messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:83
+#: ../../chapters/appendix/commandline_dev_tools.rst:84
 msgid "``debug``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:83
+#: ../../chapters/appendix/commandline_dev_tools.rst:84
 msgid "Above + Debug/Developer messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:84
+#: ../../chapters/appendix/commandline_dev_tools.rst:85
 msgid "``trace``"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:84
+#: ../../chapters/appendix/commandline_dev_tools.rst:85
 msgid "Above + Profiling messages"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:86
+#: ../../chapters/appendix/commandline_dev_tools.rst:87
 msgid ""
 "Set the logging level at which the log buffer is flushed to ``mixxx.log``. "
 "``LEVEL`` is one of the values defined at ``--logLevel`` above."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:90
+#: ../../chapters/appendix/commandline_dev_tools.rst:91
 msgid ""
 "Breaks (``SIGINT``) Mixxx if a ``DEBUG_ASSERT`` evaluates to false. A "
 "debugger can then be used to continue. This disables the "
@@ -421,32 +427,32 @@ msgid ""
 "consuming full rebuild."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:95
+#: ../../chapters/appendix/commandline_dev_tools.rst:96
 msgid "Display this help message and exit"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:98
+#: ../../chapters/appendix/commandline_dev_tools.rst:99
 msgid "Developer tools"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:100
+#: ../../chapters/appendix/commandline_dev_tools.rst:101
 msgid ""
 "To start Mixxx in Developer mode with a custom resource directory with "
 ":term:`MIDI` and :term:`HID` logging enabled, type the following line into "
 "the terminal and hit return: ::"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:108
+#: ../../chapters/appendix/commandline_dev_tools.rst:109
 msgid "Experiment modes for rapid development and testing"
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:110
+#: ../../chapters/appendix/commandline_dev_tools.rst:111
 msgid ""
 "Adds a static Experiment class with a tri-state mode flag that indicates "
 "whether the experiment mode is OFF, BASE, or EXPERIMENT."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:113
+#: ../../chapters/appendix/commandline_dev_tools.rst:114
 msgid ""
 "Adds :menuselection:`Developer --> Stats:Experiment Bucket` and "
 ":menuselection:`Developer --> Stats:Base Bucket`. Each one toggles between "
@@ -454,14 +460,14 @@ msgid ""
 "like to collect in your base and experiment buckets."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:118
+#: ../../chapters/appendix/commandline_dev_tools.rst:119
 msgid ""
 "Updates StatsManager to segment collected stats into a base and experiment "
 "bucket. This allows you to quickly measure the difference a code change has "
 "on relevant counters / timers within the same execution of Mixxx."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:122
+#: ../../chapters/appendix/commandline_dev_tools.rst:123
 msgid ""
 "This is useful for quickly enabling and disabling a code change without a "
 "re-compile/re-run cycle to get an anecdotal sense of how it \"feels\" as "
@@ -469,7 +475,7 @@ msgid ""
 "collects."
 msgstr ""
 
-#: ../../chapters/appendix/commandline_dev_tools.rst:127
+#: ../../chapters/appendix/commandline_dev_tools.rst:128
 msgid ""
 "All stats collected via the usual Counter/Timer/ScopedTimer/etc. tools are "
 "segmented into a BASE STATS and EXPERIMENT STATS section printed to the log "

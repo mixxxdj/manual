@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2022
 # Norbert Mallik, 2025
-# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# Stephan Reichert, 2025
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
+"Last-Translator: Stephan Reichert, 2025\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +29,11 @@ msgstr "Bibliothek - Icon Auto-DJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliothek - Icon Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliothek - Icon Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
@@ -88,11 +89,11 @@ msgstr ""
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliothek - Icon Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliothek - Icon Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
@@ -176,47 +177,47 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein gutes Signal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl-Steuerung - Signal folgt der falschen Richtung"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt kein Signal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein schlechtes Signal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl-Steuerung - Kein Eingang konfiguriert"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt kein Timecode Signal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein Signal vom falschen Vinyl Typ"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein Mono Signal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein zu lautes Eingangssignal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein zu leises Signal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/introduction.rst:6
 msgid "Introduction to Mixxx"
@@ -233,13 +234,13 @@ msgid ""
 "<contributing>`!"
 msgstr ""
 "Mixxx ermöglicht es Ihnen, mit Ihrer Musiksammlung live DJ-Sets zu "
-"erstellen. Es hilft Ihnen, die Party zum Laufen zu bringen - mit DJ-"
-"Controllern, Turntables oder einfach nur Ihrer Tastatur. Die Software wird "
-"von einem internationen Team aus Freiwilligen entwickelt, die den Spaß am "
-"DJing allen Menschen verfügbar zu machen. Das Projekt ist gemeinnützig, open"
-" source und wird von der Community getrieben. Gemeinsam haben wir das Ziel, "
-"die beste DJ-Software zu erschaffen, die es gibt. Wir hoffen, Sie "
-":ref:`treten der Community bei <contributing>`!"
+"erstellen. Es hilft Ihnen, die Party richtig zu rocken - mit DJ-Controllern,"
+" Vinyl Plattenspielern oder einfach nur per Computertastatur. Die Software "
+"wird von einem internationalen Team aus Freiwilligen entwickelt, die den "
+"Spaß am DJing allen Menschen näher bringen möchte. Das Projekt ist "
+"gemeinnützig, Open Source und wird von der Community vorangetrieben. "
+"Gemeinsam wollen wir die beste DJ-Software erschaffen, welche es jemals gab."
+" Wir hoffen, auch Sie :ref:`treten der Community bei <contributing>`!"
 
 #: ../../chapters/introduction.rst:18
 msgid "How Mixxx Works"
@@ -278,10 +279,12 @@ msgstr ""
 #: ../../chapters/introduction.rst:33
 msgid "Mixxx can be used in two different ways for headphone cueing:"
 msgstr ""
+"Mixxx kann für das Kopfhörer-Cueing auf zwei verschiedenen Wegen genutzt "
+"werden:"
 
 #: ../../chapters/introduction.rst:35
 msgid "**Internal Mixing**"
-msgstr ""
+msgstr "**Internes Mixing**"
 
 #: ../../chapters/introduction.rst:37
 msgid ""
@@ -297,6 +300,8 @@ msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 msgstr ""
+"Mixxx zusammen mit einem DJ Controller und einem integrierten Audio "
+"Interface verwenden"
 
 #: ../../chapters/introduction.rst:51
 msgid ""
@@ -304,10 +309,13 @@ msgid ""
 "controller has an integrated audio interface that provides two separate "
 "stereo outputs."
 msgstr ""
+"Mixxx zusammen mit einem DJ Controller für internes Mixing verwenden. Der DJ"
+" Controller besitzt ein integriertes Audio Interface, welches zwei separate "
+"Stereo Ausgänge bereitstellt."
 
 #: ../../chapters/introduction.rst:55
 msgid "**External Mixing**"
-msgstr ""
+msgstr "**Externes Mixing**"
 
 #: ../../chapters/introduction.rst:57
 msgid ""
@@ -321,13 +329,25 @@ msgid ""
 "control>` to manipulate digital music files as if the music was on the vinyl"
 " records."
 msgstr ""
+"In dieser Art von Setup, spielt Mixxx mehrere Audio Dateien auf dem Computer"
+" zur gleichen Zeit und sendet jeden Track zu einem separaten Audio Inferface"
+" Ausgang. Die Audio Interface Ausgänge sind mit einem externen Hardware "
+"Mixer verbunden. Dieser Hardware Mixer führt das Mixing der Audio Signale "
+"durch. Am Hardware Mixer stehen zwei separate Ausgänge, einmal für das "
+"gemixte Signal an das Publikum, und einmal für den DJ für das Kopfhörer-"
+"Cueing zur Verfügung. Externes Mixing wird üblicherweise zusammen mit "
+"Plattenspielern und :ref:`special vinyl records` verwendet, um digitale "
+"Musikdateien in der Weise zu nutzen, als wäre diese Musik auf den Vinyl "
+"Schallplatten vorhanden."
 
 #: ../../chapters/introduction.rst:0
 msgid "Using Mixxx together with turntables and external mixer"
-msgstr "Mixxx gemeinsam mit Plattenspielern und externen Mixer verwenden"
+msgstr "Mixxx zusammen mit Plattenspielern und externem Mixer verwenden"
 
 #: ../../chapters/introduction.rst:74
 msgid ""
 "Using Mixxx together with a USB audio interface, external mixer, and "
 "timecode vinyl for external mixing"
 msgstr ""
+"Mixxx zusammen mit einem USB Audio Interface, einem externen Mixer und "
+"Timecode Vinyl zum externen Mixing verwenden"

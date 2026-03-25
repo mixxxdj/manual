@@ -6,15 +6,16 @@
 # Translators:
 # Norbert Mallik, 2025
 # Daniel Schürmann <daschuer@mixxx.org>, 2025
+# Stephan Reichert, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 07:47+0200\n"
+"POT-Creation-Date: 2026-03-25 00:48+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
+"Last-Translator: Stephan Reichert, 2025\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +29,11 @@ msgstr "Bibliothek - Icon Auto-DJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliothek - Icon Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliothek - Icon Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
@@ -88,11 +89,11 @@ msgstr ""
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliothek - Icon Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliothek - Icon Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
@@ -176,47 +177,47 @@ msgstr ""
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl-Steuerung - Empfängt ein gutes Signal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl-Steuerung - Signal folgt der falschen Richtung"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt kein Signal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt ein schlechtes Signal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl-Steuerung – Kein Eingang konfiguriert"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt kein Timecode Signal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt ein Signal vom falschen Vinyl Typ"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt ein Mono Signal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt ein zu lautes Eingangssignal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl-Steuerung – Empfängt ein zu leises Signal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/preferences/sound_hardware.rst:6
 msgid "Sound Hardware"
@@ -448,11 +449,11 @@ msgstr ""
 msgid "CoreAudio is the only Sound API on macOS."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:159
+#: ../../chapters/preferences/sound_hardware.rst:161
 msgid "Other Sound Hardware options"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:160
+#: ../../chapters/preferences/sound_hardware.rst:162
 msgid ""
 "**Multi-Soundcard Synchronization**: Mixxx is able to use two or more "
 ":term:`audio interface <audio interface>` at a time, each with its own "
@@ -462,7 +463,7 @@ msgid ""
 "underflows."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:166
+#: ../../chapters/preferences/sound_hardware.rst:168
 msgid ""
 "**Keylock/Pitch-Bending Engine**: This allows you to select the engine used "
 "for independent tempo and pitch changes (e.g. :term:`key lock`). Use "
@@ -470,13 +471,13 @@ msgid ""
 " you experience buffer underflows while using :term:`key lock`."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:171
+#: ../../chapters/preferences/sound_hardware.rst:173
 msgid ""
 "**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
 "you do not use the :term:`main output`, recording or live broadcasting."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:174
+#: ../../chapters/preferences/sound_hardware.rst:176
 msgid ""
 "**Main Output Mode**: In Mono mode, the left and right channel are combined "
 "into a mono signal which is passed to both channels of your main audio "
@@ -485,28 +486,29 @@ msgid ""
 "reverberation."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:180
+#: ../../chapters/preferences/sound_hardware.rst:182
 msgid ""
-"**Buffer Underflow Count**: Underflows (data is not available when needed) "
-"indicate that some of the subsystems in Mixxx can't keep up with real-time "
-"deadlines imposed by the current audio buffer size. This is useful to tune "
-"the latency settings. If the counter increases, then increase your audio "
-"buffer size, decrease the sample rate setting or change the sound API "
-"setting if available."
-msgstr ""
-
-#: ../../chapters/preferences/sound_hardware.rst:188
-msgid "Output and Input Devices"
+"**Buffer Underflow Count**: This counts overflows in output buffers or "
+"underflows in input buffers, indicating either the output device(s) can't "
+"consume audio data generated by the engine fast enough, or the input "
+"device(s) can't provide audio data as fast as required by the current audio "
+"buffer size. If the counter increases, you may try to increase your audio "
+"buffer size, decrease the sample rate setting, change the sound API "
+"available or try another keylock/pitch-bend engine."
 msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:190
+msgid "Output and Input Devices"
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:192
 msgid ""
 "In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-"
 "card` or :ref:`setup-laptop-and-external-card`), all that needs to be "
 "configured are the Main and Headphones outputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:194
+#: ../../chapters/preferences/sound_hardware.rst:196
 msgid ""
 "Deck and Bus outputs are intended for use with external hardware mixers. "
 "They are taken *post-fader*, which means they include channel volume and "
@@ -517,7 +519,7 @@ msgid ""
 "internal crossfader."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:202
+#: ../../chapters/preferences/sound_hardware.rst:204
 msgid ""
 "All outputs are usually sent to a channel pair (stereo), though they can "
 "also be sent to a single channel (mono mixdown), for example if you need to "
@@ -525,36 +527,36 @@ msgid ""
 "laptop-with-splitter`)."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:206
+#: ../../chapters/preferences/sound_hardware.rst:208
 msgid ""
 "Inputs can be mono or stereo, depending on the connected sources. Vinyl "
 "control inputs always require stereo to capture the full control signal."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:210
+#: ../../chapters/preferences/sound_hardware.rst:212
 msgid "Outputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:212
+#: ../../chapters/preferences/sound_hardware.rst:214
 msgid ""
 "**Main** (Master): The mix of all audible channels, e.g. main decks, all "
 "samplers, enabled microphones and auxiliary inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:215
+#: ../../chapters/preferences/sound_hardware.rst:217
 msgid ""
 "**Headphones**: All channels for which :term:`pfl` is enabled, including the"
 " preview deck."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:218
+#: ../../chapters/preferences/sound_hardware.rst:220
 msgid ""
 "**Booth**: Basically the same output as Main to be routed to a separate "
 "output, for example for the speakers in the DJ booth, external recording "
 "device, loopback device for video recordings etc."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:222
+#: ../../chapters/preferences/sound_hardware.rst:224
 msgid ""
 "**Left Bus / Center Bus / Right Bus**: All decks, samplers, and auxiliaries "
 "routed to the respective side of the :term:`crossfader`. The buses are "
@@ -562,32 +564,32 @@ msgid ""
 "channel mixer."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:226
+#: ../../chapters/preferences/sound_hardware.rst:228
 msgid ""
 "**Deck 1-4**: Separate outputs for each of the main decks. They are picked "
 "post-fader and include effects and crossfader (for Auto DJ)."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:230
+#: ../../chapters/preferences/sound_hardware.rst:232
 msgid "Inputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:232
+#: ../../chapters/preferences/sound_hardware.rst:234
 msgid ""
 "**Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and "
 "passthrough <vinyl-control>`. Note that one input can be selected for "
 "multiple decks."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:235
+#: ../../chapters/preferences/sound_hardware.rst:237
 msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:237
+#: ../../chapters/preferences/sound_hardware.rst:239
 msgid "**Auxiliary 1-4**: Auxiliary inputs."
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:239
+#: ../../chapters/preferences/sound_hardware.rst:241
 msgid ""
 "**Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording "
 "<djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`. "
