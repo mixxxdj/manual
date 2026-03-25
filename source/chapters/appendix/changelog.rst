@@ -9,9 +9,9 @@
 Changelog
 =========
 
-.. _v2-5-5:
+.. _v2-5-6:
 
-`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (Unreleased)
+`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (Unreleased)
 -------------------------------------------------------------------------
 
 Library
@@ -119,6 +119,13 @@ Miscellaneous
 * Num deck streamline
   `#14112 <https://github.com/mixxxdj/mixxx/pull/14112>`__
   `#16009 <https://github.com/mixxxdj/mixxx/pull/16009>`__
+
+.. _v2-5-5:
+
+`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (skipped)
+----------------------------------------------------------------------
+
+Note: Version 2.5.5 hase been skipped following an issue in the release workflow.
 
 .. _v2-5-4:
 
