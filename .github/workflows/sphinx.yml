@@ -11,16 +11,31 @@ jobs:
     steps:
     - name: Clone repository
       uses: actions/checkout@v6
+      with:
+        fetch-depth: ${{ github.event_name == 'pull_request' && 0 || 1 }}
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
         python-version: '3.13'
+    - name: Fetch base branch for diff
+      if: github.event_name == 'pull_request'
+      run: git fetch origin ${{ github.event.pull_request.base.sha }}
+    - name: Get changed source files
+      id: changed
+      if: github.event_name == 'pull_request'
+      env:
+        GITHUB_EVENT_NAME: ${{ github.event_name }}
+        PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        PUSH_BEFORE_SHA: ${{ github.event.before }}
+      run: python tools/list_changed_source_files.py
     - name: Install Python dependencies
+      if: github.event_name == 'push' || steps.changed.outputs.files != ''
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
     - name: Check for broken links
-      run: sphinx-build -q --color -b linkcheck source build
+      if: github.event_name == 'push' || steps.changed.outputs.files != ''
+      run: sphinx-build -q --color -b linkcheck source build ${{ steps.changed.outputs.files }}
 
   build:
     name: Build Check
