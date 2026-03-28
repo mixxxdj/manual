@@ -108,6 +108,12 @@ smv_latest_version = r"2.5"
 smv_outputdir_format = "{config.version}/{config.language}"
 notfound_urls_prefix = "/2.5/en/"
 
+# Canonical URL for SEO: ensures search engines always prefer the latest
+# version of each page, preventing older releases from appearing in results.
+html_baseurl = "https://manual.mixxx.org/{}/{}/".format(
+    smv_latest_version, language
+)
+
 # Directories in which to search for additional message catalogs (see language),
 # relative to the source directory. The directories on this path are searched
 # by the standard gettext module.

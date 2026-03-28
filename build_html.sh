@@ -4,9 +4,12 @@
 # and want to use "en" as a fallback.
 cd source || exit 1
 LANGUAGES="$(python -c 'import conf; print(" ".join(sorted((lang for lang in conf.supported_languages.keys() if lang != "en"), reverse=True)))')"
+SMV_LATEST="$(python -c 'import conf; print(conf.smv_latest_version)')"
 cd .. || exit 1
 LANGUAGES="$LANGUAGES en"
 NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
+
+SITE_URL="https://manual.mixxx.org"
 
 # Write _redirects file
 mkdir -p build/html
@@ -26,6 +29,6 @@ do
         printf '/:version/%s/* /2.5/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
         printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "$(printf "%s" "$lang"  | sed 's/_/-/g')" >> build/html/_redirects
     fi
-    make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"
+    make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang -Dhtml_baseurl=${SITE_URL}/${SMV_LATEST}/${lang}/"
     i=$((i + 1))
 done
