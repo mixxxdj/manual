@@ -4,6 +4,7 @@ sphinx-intl
 sphinx-notfound-page
 graphviz
 markupsafe
+myst-parser
 transifex-client
 sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme
