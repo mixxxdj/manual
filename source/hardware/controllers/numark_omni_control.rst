@@ -1,7 +1,7 @@
 Numark Omni Control
 ===================
 
--  `Manfacturer’s product page <http://www.numark.com/product/omnicontrol>`__
+-  `Manfacturer’s product page <https://web.archive.org/web/20251116224010/www.numark.com/product/omnicontrol>`__
 
 .. versionadded:: 1.10
 
