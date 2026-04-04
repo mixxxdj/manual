@@ -1,7 +1,7 @@
 Akai MPD24
 ==========
 
--  `Manufacturer’s product page <https://www.akaipro.com/mpd24>`__
+-  `Manufacturer’s product page <https://web.archive.org/web/20251116203708/https://www.akaipro.com/mpd24>`__
 -  `Forum thread <https://mixxx.discourse.group/t/akai-mpd24-midi-setup/9020>`__
 
 .. versionadded:: 1.8
