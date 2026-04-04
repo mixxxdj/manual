@@ -30,6 +30,12 @@ You can navigate to the settings directory location manually as described below.
  | Mixxx 2.3: ``~/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx``
  | Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``
 
+.. note:: Due to macOS App Sandbox restrictions, Mixxx cannot automatically access external files
+          or drives (like USBs, or your Music directory). You will need to grant permission manually
+          via a file dialog the first time you access paths outside the sandbox. This permission is
+          saved securely in the container.
+
+
 **Linux**
  | For distribution packages, or Mixxx installed from source:
  | ``~/.mixxx/``
@@ -75,7 +81,12 @@ Content
     Stores tracks currently loaded to sample decks.
 
 **sandbox.cfg**
-    This is used under macOS to track which files Mixxx will have access to
+    This is used under macOS to track which files Mixxx will have access to. Because Mixxx runs
+    inside an App Sandbox on macOS, it cannot automatically access files outside of its container
+    (such as external drives, or the user's Music folder) without explicit permission. When you
+    select a folder or file through a native macOS file dialog, Mixxx safely stores a
+    security-scoped bookmark here so that you do not have to grant permission every time you
+    start Mixxx.
 
 **soundconfig.xml**
     Sound device configuration from Preferences > Sound Hardware
