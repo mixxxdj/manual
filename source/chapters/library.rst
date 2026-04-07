@@ -154,8 +154,7 @@ Tracks - View and edit your whole collection
 
   Rescanning the library will add new files to the library and mark tracks
   as missing if the corresponding file has been deleted. It tries to detect
-  and relocate missing tracks if files have been renamed or moved into another
-  directory.
+  and relocate missing tracks if files have been moved into another directory.
 
   Automatically refreshing the metadata of tracks when files have been modified
   by an external application is not supported, yet. In this case you need to
