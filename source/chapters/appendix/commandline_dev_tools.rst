@@ -48,6 +48,7 @@ types, go to :ref:`file-format-compatibility`.
                                 user settings files such as the library database
                                 and preferences configuration file.
 --enable-legacy-vumeter         Do not use OpenGL vu meter
+--enable-legacy-spinny          Do not use OpenGL spinnies
 --controller-debug              Log all controller data Mixxx sends and receives
                                 as well as scripts it loads.
 --controller-abort-on-warning   The controller mapping will issue more
