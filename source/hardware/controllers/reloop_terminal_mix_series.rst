@@ -21,7 +21,12 @@ Reloop Terminal Mix 2/4
 
    Reloop Terminal Mix 4 (top view)
 
-*Images courtesy of `Reloop <http://www.reloop.com/>`.*
+*Images courtesy of* |Reloop|_
+
+.. |Reloop| replace:: *Reloop*
+.. _Reloop: http://www.reloop.com/
+
+
 
 - `Terminal Mix 2 product page <http://web.archive.org/web/20190916160609/http://www.reloop.com/reloop-terminal-mix-2>`__
 - `Terminal Mix 4 product page <https://web.archive.org/web/20190916134709/http://www.reloop.com/reloop-terminal-mix-4>`__
@@ -144,16 +149,8 @@ Loop Controls
   - play position behind loop-out: jump to loop-in point and play loop from there
   - play position before loop: activate loop, keep playing and enter loop when play position crosses loop-in marker
 
-- :hwlabel:`IN` / :hwlabel:`1/2x` button
-
-  - Press: set the loop in point, flashes when a loop is active
-  - Press + hold: drags the loop in point of an active loop
-
-- :hwlabel:`OUT` / :hwlabel:`2x` button
-
-  - Press: set the loop out point, flashes when a loop is active
-  - Press + hold: drags the loop out point of an active loop
-
+- :hwlabel:`IN` / :hwlabel:`1/2x`: set the loop in point, flashes when a loop is active
+- :hwlabel:`OUT` / :hwlabel:`2x`: set the loop out point, flashes when a loop is active
 - :hwlabel:`MOVE` knob
 
   - Press + turn: adjust the *beatjump size* visible in beatjump spinbox in each skin
@@ -200,8 +197,8 @@ Transport buttons
 
 - :hwlabel:`▶◀ (Sync)`
 
-    - Press: Synchronizes the tempo and beat phase of this deck to that of the other.
-    - Long Press: Toggle Sync Leader
+  - Press: Synchronizes the tempo and beat phase of this deck to that of the other.
+  - Long Press: Toggle Sync Leader
 
 - :hwlabel:`⛾ (CUP)` (Cue-Play) - Start playback from the cue point (also known as stutter play)
 - :hwlabel:`Q` (Cue)
@@ -211,18 +208,9 @@ Transport buttons
   - Press + hold: play from Cue point. Release stops playback
 
 - :hwlabel:`▶⏸` (Play/Pause) Toggle playback of the track
-- :hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`▶⏸` (right deck)
-
-  - initiate the *brake* effect for the respective deck: track slows down to full stop.
-
-- :hwlabel:`SHIFT` + :hwlabel:`⛾ (CUP)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`Q (QUE)` (right deck)
-
-  - initiate the *soft start* effect for the respective deck: a forward acceleration effect from standstill to normal speed.
-
-- :hwlabel:`SHIFT` + :hwlabel:`Q (CUE)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`⛾ (CUP)` (right deck)
-
-  - initiate the *spinback* effect for the respective deck: track spins backward quickly, producing a rapid rewind/scratch sound.
-
+- :hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`▶⏸` (right deck): initiate the *brake* effect for the respective deck (track slows down to full stop)
+- :hwlabel:`SHIFT` + :hwlabel:`⛾ (CUP)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`Q (QUE)` (right deck): initiate the *soft start* effect for the respective deck (a forward acceleration effect from standstill to normal speed)
+- :hwlabel:`SHIFT` + :hwlabel:`Q (CUE)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`⛾ (CUP)` (right deck): initiate the *spinback* effect for the respective deck (track spins backward quickly, producing a rapid rewind/scratch sound)
 - Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4-scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
 - :hwlabel:`3` / :hwlabel:`4` button - When lit all deck buttons (except FX controls) control deck 3 (deck 4 respectively).
 
