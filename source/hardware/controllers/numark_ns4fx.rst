@@ -36,6 +36,8 @@ You can set configuration options in the Mixxx controller preferences.
    **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
    **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
    **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+   **Select the mode for EQ knobs** Sets the behavior of the EQ knobs. Find more details in :ref:`eq-knobs`.
+
 
 Mapping
 -------
@@ -241,6 +243,38 @@ Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switchin
 **Note:** The sampler pads on both the left and right decks control the same sampler slots in Mixxx.
 This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
 
+.. _eq-knobs:
+
+Equalizer (EQ) Knobs
+--------------------
+
+In the controller settings window, you can choose the functionality of the EQ knobs.
+The HI knob controls voice, the MID knob controls melodical instruments, and the BASS knob controls drums and bass together.
+Select one of the available modes:
+
+Normal EQs
+    EQ knobs are treated normally as HI-MID-BASS knobs. This is the default.
+
+Stem Control (Simple)
+    If all EQ knobs are turned to the very right, all stems have full volume gain.
+    Turning a knobe to the left reduces the volume of the related stem.
+    For example, turning the HI knob to the very right while the other knobs to the very left produces an a capella mix.
+    This mode is not balanced - if none of the EQ knobs is at their maximum (very right), the overall volume of the track is reduced.
+
+Stem Control (SoftMax)
+    Smooth, non-linear EQ control that gently boosts the dominant stem while subtly reducing others.
+    Feels natural and musical, avoids harsh transitions.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+Stem Control (Gated Attenuation)
+    Applies threshold-based suppression — stems below a certain level are strongly reduced.
+    Creates clean isolation, great for cutting elements decisively.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+Stem Control (Triangle)
+    Linearly redistributes energy between stems using a triangular weighting curve — boosting one stem proportionally reduces the others based on their distance from the control position.
+    Provides predictable, centered blending with smooth transitions, making it ideal for controlled, balanced mixing without abrupt changes.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
 
 .. _jog-wheel-display:
 
