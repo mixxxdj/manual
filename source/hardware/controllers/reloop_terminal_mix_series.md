@@ -74,17 +74,21 @@ Mixxx will automatically reload the mapping.
 ## Deck controls
 
 
-*The controls are the same on both sides of the controller. The left side
-controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
+*The controls are the same on both sides of the controller.
+The left side controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
 
-- {hwlabel}`RANGE` button - Toggles the pitch slider range. See {ref}`Mapping Options <reloop-terminal-mix-series-options>`.
-- {hwlabel}`KEYLOCK*` button
-    - Press: toggle key lock
-    - {hwlabel}`SHIFT` + Press: reset key
+- {hwlabel}`RANGE` button
+
+  - Press: toggle the pitch slider range. See {ref}`Mapping Options <reloop-terminal-mix-series-options>`.
+  - {hwlabel}`SHIFT` + Press: toggle assignment of effect unit 1 to the deck
+
+- {hwlabel}`KEYLOCK` button
+
+  - Press: toggle key lock
+  - Long Press: reset key
+  - {hwlabel}`SHIFT` + Press: toggle assignment of effect unit 2 to the deck
 
 ### FX Controls
-
-
 This mapping uses the {ref}`Standard Effects Mapping <controller-effects-mapping>` to control the FX units.
 
 :::{note}
