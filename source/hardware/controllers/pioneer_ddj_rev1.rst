@@ -46,13 +46,13 @@ install the latest driver package available.
 
 **Mixxx:** This mapping supports version-gated behavior for Mixxx 2.5 and 2.6+.
 
-==== ===============
-Mode Behavior
-==== ===============
-Auto Uses the non-stems code path on Mixxx 2.5 and the stems code path on 2.6+.
-Force 2.5 Disables stems behavior regardless of the running Mixxx version.
-Force 2.6 Enables stems behavior regardless of the running Mixxx version.
-==== ===============
+==========     ===========================================================================
+Mode           Behavior
+==========     ===========================================================================
+Auto           Uses the non-stems code path on Mixxx 2.5 and the stems code path on 2.6+.
+Force 2.5      Disables stems behavior regardless of the running Mixxx version.
+Force 2.6      Enables stems behavior regardless of the running Mixxx version.
+==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
 ScratchBank when both would conflict.
@@ -67,18 +67,18 @@ jack.
 In :menuselection:`Preferences --> Sound Hardware`, configure outputs as
 follows:
 
-============ ========
-Output channel Assign to
-============ ========
-1–2 Main
-3–4 Headphones
-============ ========
+===============  =========== 
+Output channel   Assign to
+===============  =========== 
+1–2              Main
+3–4              Headphones
+===============  =========== 
 
-============ ========
+=============== =============
 Input Channels  Assign to
-============ ========
+=============   =============
 1-2 (Input 1)   Microphone 1
-============ ========
+=============   =============
 
 Input routing
 ^^^^^^^^^^^^^
@@ -259,7 +259,7 @@ No.  Control                                                   Function
 
 
 User configuration options
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Controller settings are exposed in mapping options (XML); script defaults apply
 as fallbacks.
