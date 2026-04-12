@@ -320,7 +320,7 @@ as fallbacks.
 
 .. note:: ``samplePadLayout`` layouts
 
-  - **Standard** (linear): (Deere, Tango) 
+  - **Standard (linear):** (Deere, Tango) 
       Left 1–8, right 9–16 (top to bottom, linear).
   - **Banked rows:** (Late Night) 
      Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
