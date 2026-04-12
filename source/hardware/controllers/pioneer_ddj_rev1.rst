@@ -76,9 +76,9 @@ Output channel   Assign to
 
 =============== =============
 Input Channels  Assign to
-=============   =============
+=============== =============
 1-2 (Input 1)   Microphone 1
-=============   =============
+=============== =============
 
 Input routing
 ^^^^^^^^^^^^^
@@ -165,26 +165,26 @@ No.  Control                                                   Function
 Effect section
 ^^^^^^^^^^^^^^
 
-==== =========================================================================== ============================================================================================
-No.  Control                                                                     Function
-4    :hwlabel:`LEVEL/DEPTH`                                                      Adjusts the parameter of the enabled effects for FX1 / FX2.
-3    :hwlabel:`SHIFT` + :hwlabel:`FX 1`                                          Cycle to the next effect-chain preset after the currently loaded preset (descending order).
-4    :hwlabel:`SHIFT` + :hwlabel:`FX 2`                                          Adjust the average BPM up by +0.01 (beat grid lines move closer together).
-5    :hwlabel:`SHIFT` + :hwlabel:`FX 3`                                          Adjust the average BPM down by −0.01 (beat grid lines move farther apart).
-4    :hwlabel:`FX1`, :hwlabel:`FX2`, :hwlabel:`FX3` + :hwlabel:`ROTARY SELECTOR` Designate the effect for the selected FX button (descending order).
-==== =========================================================================== ============================================================================================
+==== ===========================================================================  ============================================================================================
+No.  Control                                                                      Function
+4    :hwlabel:`LEVEL/DEPTH`                                                       Adjusts the parameter of the enabled effects for FX1 / FX2.
+3    :hwlabel:`SHIFT` + :hwlabel:`FX 1`                                           Cycle to the next effect-chain preset after the currently loaded preset (descending order).
+4    :hwlabel:`SHIFT` + :hwlabel:`FX 2`                                           Adjust the average BPM up by +0.01 (beat grid lines move closer together).
+5    :hwlabel:`SHIFT` + :hwlabel:`FX 3`                                           Adjust the average BPM down by −0.01 (beat grid lines move farther apart).
+4    :hwlabel:`FX1`, :hwlabel:`FX2`, :hwlabel:`FX3` + :hwlabel:`ROTARY SELECTOR`  Designate the effect for the selected FX button (descending order).
+==== ============================================================================ ============================================================================================
 
 Sampler section
 ^^^^^^^^^^^^^^^
 
-==== ========================================================= ==============================================================================================
+==== ========================================================= =================================================================================================
 No.  Control                                                   Function
-==== ========================================================= ==============================================================================================
+==== ========================================================= =================================================================================================
 10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
 10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
 10   :hwlabel:`SAMPLER PADS` 5–8                               **Mixxx 2.6+ dual mode only.** When ScratchBank is active, loads scratch samples from **17–24**.
-==== ========================================================= ==============================================================================================
+==== ========================================================= =================================================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-dual-mode.png
    :align: center
