@@ -277,7 +277,7 @@ as fallbacks.
      - ``auto``
    * - ``PioneerDDJREV1PROD.vinylMode``
      - Per-deck startup vinyl / CDJ mode.
-     - ``true`` (vinyl on all decks)
+     - ``true``
    * - ``PioneerDDJREV1PROD.VinylSlipAutoff``
      - Auto-enable slip on vinyl touch and auto-disable on release.
      - ``false``
@@ -289,7 +289,7 @@ as fallbacks.
      - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
    * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
      - Per-pad roll sizes for roll mode.
-     - ``1/16`` … ``8`` (per pad)
+     - ``1/16`` … ``8``
    * - ``PioneerDDJREV1PROD.sZoom``
      - Use vinyl side jog for waveform zoom.
      - ``false``
@@ -312,7 +312,7 @@ as fallbacks.
      - PFL adjustment: Off / Auto / Studio.
      - ``Auto``
    * - ``PioneerDDJREV1.splitFx``
-     - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes FX1 vs :hwlabel:`SHIFT` + FX2.
+     - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes :hwlabel:`LEVEL/DEPTH`-> FX1 vs :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`-> FX2 .
      - ``false``
    * - ``PioneerDDJREV1PROD.samplePadLayout``
      - ``Standard`` / ``Banked Rows`` / ``Mirrored``.
