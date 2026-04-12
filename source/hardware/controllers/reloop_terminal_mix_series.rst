@@ -3,6 +3,31 @@
 Reloop Terminal Mix 2/4
 =======================
 
+.. figure:: ../../_static/controllers/reloop_terminalmix2_top.jpg
+   :align: center
+   :width: 90%
+   :figwidth: 100%
+   :alt: Reloop Terminal Mix 2 (top view)
+   :figclass: pretty-figures
+
+   Reloop Terminal Mix 2 (top view)
+
+.. figure:: ../../_static/controllers/reloop_terminalmix4_top.jpg
+   :align: center
+   :width: 90%
+   :figwidth: 100%
+   :alt: Reloop Terminal Mix 4 (top view)
+   :figclass: pretty-figures
+
+   Reloop Terminal Mix 4 (top view)
+
+*Images courtesy of* |Reloop|_
+
+.. |Reloop| replace:: *Reloop*
+.. _Reloop: http://www.reloop.com/
+
+
+
 - `Terminal Mix 2 product page <http://web.archive.org/web/20190916160609/http://www.reloop.com/reloop-terminal-mix-2>`__
 - `Terminal Mix 4 product page <https://web.archive.org/web/20190916134709/http://www.reloop.com/reloop-terminal-mix-4>`__
 
@@ -15,7 +40,7 @@ Sound hardware
 
 The Reloop Terminal Mix 2 and Terminal Mix 4 have integrated multichannel sound cards.
 Usually, the TerminalMix runs very well with USB power only.
-If you experience issues especially when powering both main and booth outputs at high levels you should use the additional power supply (6v/1.5A).
+If you experience issues especially when powering both main and booth outputs at high levels you should use the additional power supply (6V/1.5A).
 The official manual from Reloop states not to operate the unit at temperatures below 5°C/41°F as it might damage A/D converters and other components.
 However, the audio output may already start crackling if the temperature drops below 10°C.
 
@@ -58,24 +83,32 @@ Luckily, the buttons are standard parts and relatively easy to replace, and the 
 Mapping options
 ---------------
 
-The mapping the following customization variable at the top of the script
-you can set to your liking:
+The mapping provides the following customization variable you can set to your liking:
 
-- ``pitchRanges``: Set the pitch slider range each time you toggle it.
+- ``rateRange``: Set the pitch slider range each time you toggle it.
 
-Just open the :file:`Reloop Terminal Mix 2-4.js` file in your favorite
-text editor and you’ll see these variables right near the top. Edit and save and
+Just open the :file:`Reloop-Terminal-Mix-2-4.scripts.js` file in your favorite
+text editor and search for the variable name. Edit and save and
 Mixxx will automatically reload the mapping.
 
 
 Deck controls
 -------------
 
-*The controls are the same on both sides of the controller. The left side
-controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
+*The controls are the same on both sides of the controller.
+The left side controls Deck 1 or 3 and the right side controls Deck 2 or 4.*
 
-- :hwlabel:`RANGE` button - Toggles the pitch slider range. See :ref:`Mapping Options <reloop-terminal-mix-series-options>`.
-- :hwlabel:`KEYLOCK*` button - Toggles key lock.
+- :hwlabel:`RANGE` button
+
+  - Press: toggle the pitch slider range. See :ref:`Mapping Options <reloop-terminal-mix-series-options>`.
+  - :hwlabel:`SHIFT` + Press: toggle assignment of effect unit 1 to the deck
+
+- :hwlabel:`KEYLOCK` button
+
+  - Press: toggle key lock
+  - Long Press: reset key
+  - :hwlabel:`SHIFT` + Press: toggle assignment of effect unit 2 to the deck
+
 
 FX Controls
 ~~~~~~~~~~~
@@ -121,23 +154,15 @@ Loop Controls
   - play position behind loop-out: jump to loop-in point and play loop from there
   - play position before loop: activate loop, keep playing and enter loop when play position crosses loop-in marker
 
-- :hwlabel:`IN` / :hwlabel:`1/2x` button
-
-  - Press: set the loop in point, flashes when a loop is active
-  - Press + hold: drags the loop in point of an active loop
-
-- :hwlabel:`OUT` / :hwlabel:`2x` button
-
-  - Press: set the loop out point, flashes when a loop is active
-  - Press + hold: drags the loop out point of an active loop
-
+- :hwlabel:`IN` / :hwlabel:`1/2x`: set the loop in point, flashes when a loop is active
+- :hwlabel:`OUT` / :hwlabel:`2x`: set the loop out point, flashes when a loop is active
 - :hwlabel:`MOVE` knob
 
-  - Press + turn: adjust the //beatjump size// visible in beatjump spinbox in each skin
-  - Turn with no active loop: jump back or forth in the track by beatjump size
+  - Press + turn: adjust the *beatjump size* visible in beatjump spinbox in each skin
+  - Turn with no active loop: jump back or forth in the track by *beatjump size*
   - Turn with active loop + Quantize OFF: move the loop position by 1/8 beat per detent (helpful to correct the loop in point in case it's set slightly too early or too late)
   - Turn with active loop + Quantize ON: move the loop position by one beat per detent (helpful to correct the loop in point in case it snapped to the wrong beat marker)
-  - :hwlabel:`SHIFT` + turn with active loop: shift the loop back or forth by beatjump size
+  - :hwlabel:`SHIFT` + turn with active loop: shift the loop back or forth by *beatjump size*
 
 Hot cues / Sampler buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -175,20 +200,23 @@ Wheel & Vinyl button
 Transport buttons
 ~~~~~~~~~~~~~~~~~
 
-- :hwlabel:`▶◀ (Sync)` - Synchronizes the tempo and beat phase of this deck to that of the other.
-- :hwlabel:`CUP` (Cue-Play) Start playback from the cue point (also known as stutter play)
+- :hwlabel:`▶◀ (Sync)`
+
+  - Press: Synchronizes the tempo and beat phase of this deck to that of the other.
+  - Long Press: Toggle Sync Leader
+
+- :hwlabel:`⛾ (CUP)` (Cue-Play) - Start playback from the cue point (also known as stutter play)
 - :hwlabel:`Q` (Cue)
 
   - LED: lit or flashes when play position is at cue point, depending on the :ref:`cue mode <interface-cue-modes>`.
   - Press: Set or recall the main cue point on the track
   - Press + hold: play from Cue point. Release stops playback
 
-- :hwlabel:`▶||` (Play/Pause) Toggle playback of the track
-- :hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`▶||` (right deck)
-
-  - initiate the brake effect for the respective deck: track slows down to full stop.
-
-- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`controllers/Reloop Terminal Mix 2-4.js` file and look for ``TerminalMix.brake`` to adjust parameters.
+- :hwlabel:`▶⏸` (Play/Pause) Toggle playback of the track
+- :hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`▶⏸` (right deck): initiate the *brake* effect for the respective deck (track slows down to full stop)
+- :hwlabel:`SHIFT` + :hwlabel:`⛾ (CUP)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`Q (QUE)` (right deck): initiate the *soft start* effect for the respective deck (a forward acceleration effect from standstill to normal speed)
+- :hwlabel:`SHIFT` + :hwlabel:`Q (CUE)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`⛾ (CUP)` (right deck): initiate the *spinback* effect for the respective deck (track spins backward quickly, producing a rapid rewind/scratch sound)
+- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4.scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
 - :hwlabel:`3` / :hwlabel:`4` button - When lit all deck buttons (except FX controls) control deck 3 (deck 4 respectively).
 
 Mixer controls
@@ -197,8 +225,7 @@ Mixer controls
 Channel strips
 ~~~~~~~~~~~~~~
 
-*The below controls adjust the specified parameter of the respective virtual
-deck.*
+*The below controls adjust the specified parameter of the respective virtual deck.*
 
 - :hwlabel:`GAIN` knob - Adjusts the pre-fader gain
 - :hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW` EQ knobs - Adjust the volume of the respective frequency range
@@ -207,7 +234,8 @@ deck.*
 - :hwlabel:`1` / :hwlabel:`2` / :hwlabel:`3` / :hwlabel:`4`
 
   - Press: load the currently highlighted song into that deck.
-  - :hwlabel:`SHIFT` + press: toggle fader-start (on the channel fader and cross-fader when applicable.) The button flashes when fader-start is enabled on that deck.
+  - Long Press: eject the currently loaded song from that deck.
+  - :hwlabel:`SHIFT` + press: toggle fader-start (on the channel fader and cross-fader when applicable). The button flashes when fader-start is enabled on that deck.
 
 - Channel slider - Adjust the output volume
 
@@ -217,9 +245,10 @@ deck.*
 - :hwlabel:`BOOTH` knob - Adjust the booth output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`PHONES` knob - Adjust the headphone output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the main output you hear in the headphones.
-- :hwlabel:`SAMPLER VOLUME` knob - Adjusts the volume of all of the samplers at once.
-- :hwlabel:`CRATES` button - Does nothing at the moment. (Mixxx’s library doesn’t yet support direct panel selection.) Use the MIDI Learning Wizard to assign an action.*
-- :hwlabel:`VIEW` button - Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.* - :hwlabel:`PREP` button - *Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.*
+- :hwlabel:`SAMPLER VOLUME` knob - Adjust the volume of all of the samplers at once.
+- :hwlabel:`CRATES` button - Toggle selected sidebar item.
+- :hwlabel:`VIEW` button - Toggle track menu.
+- :hwlabel:`PREP` button - Toggle maximized library.
 - :hwlabel:`BACK` button
 
   - Press: move the highlight in the active library panel to the right
