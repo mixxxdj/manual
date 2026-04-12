@@ -188,7 +188,7 @@ No.  Control                                                   Function
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-dual-mode.png
    :align: center
-   :width: 450
+   :width: 500
    :alt: Dual mode: samples 1–4 on pads 1–4; ScratchBank samples on pads 5–8.
    :figclass: pretty-figures
 
@@ -222,7 +222,7 @@ No.  Control                                                   Function
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.png
    :align: center
-   :width: 450
+   :width: 350
    :alt: Stems and stem-effect positions: voice, melody, bass, drums.
    :figclass: pretty-figures
 
