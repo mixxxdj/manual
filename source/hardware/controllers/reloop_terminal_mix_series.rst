@@ -87,7 +87,7 @@ The mapping provides the following customization variable you can set to your li
 
 - ``rateRange``: Set the pitch slider range each time you toggle it.
 
-Just open the :file:`Reloop-Terminal-Mix-2-4-scripts.js` file in your favorite
+Just open the :file:`Reloop-Terminal-Mix-2-4.scripts.js` file in your favorite
 text editor and search for the variable name. Edit and save and
 Mixxx will automatically reload the mapping.
 
@@ -211,7 +211,7 @@ Transport buttons
 - :hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`▶⏸` (right deck): initiate the *brake* effect for the respective deck (track slows down to full stop)
 - :hwlabel:`SHIFT` + :hwlabel:`⛾ (CUP)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`Q (QUE)` (right deck): initiate the *soft start* effect for the respective deck (a forward acceleration effect from standstill to normal speed)
 - :hwlabel:`SHIFT` + :hwlabel:`Q (CUE)` (left deck) / :hwlabel:`SHIFT` +  :hwlabel:`⛾ (CUP)` (right deck): initiate the *spinback* effect for the respective deck (track spins backward quickly, producing a rapid rewind/scratch sound)
-- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4-scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
+- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4.scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
 - :hwlabel:`3` / :hwlabel:`4` button - When lit all deck buttons (except FX controls) control deck 3 (deck 4 respectively).
 
 Mixer controls
