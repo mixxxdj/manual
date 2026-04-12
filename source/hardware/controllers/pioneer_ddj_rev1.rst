@@ -319,10 +319,10 @@ as fallbacks.
      - ``Standard``
 
 .. note:: ``samplePadLayout`` layouts
-    - **Standard (linear):** (Deere, Tango) Left 1–8, right 9–16 (top to bottom, linear).
-   - **Banked rows:** (Late Night) Top row: left 1–4, right 5–8. Bottom row: left 9–12, right
+  - **Standard (linear):** (Deere, Tango) Left 1–8, right 9–16 (top to bottom, linear).
+  - **Banked rows:** (Late Night) Top row: left 1–4, right 5–8. Bottom row: left 9–12, right
      13–16.
-   - **Mirrored:** Default order reversed within each row. Example: top 4 3 2 1,
+  - **Mirrored:** Default order reversed within each row. Example: top 4 3 2 1,
      bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
 
 
