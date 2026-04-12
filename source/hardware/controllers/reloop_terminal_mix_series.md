@@ -64,7 +64,7 @@ Luckily, the buttons are standard parts and relatively easy to replace, and the 
 
 The mapping provides the following customization variable you can set to your liking:
 
-- ``rateRange``: Set the pitch slider range each time you toggle it.
+- `rateRange`: Set the pitch slider range each time you toggle it.
 
 Just open the {file}`Reloop Terminal Mix 2-4-scripts.js` file in your favorite
 text editor and search for the variable name. Edit and save and
@@ -183,30 +183,12 @@ These knobs and buttons don’t switch to decks 3 and 4.
   - Press: Set or recall the main cue point on the track
   - Press + hold: play from Cue point. Release stops playback
 
-<<<<<<< HEAD:source/hardware/controllers/reloop_terminal_mix_series.md
-- {hwlabel}`▶⏸` (Play/Pause) Toggle playback of the track
-- {hwlabel}`SHIFT` + {hwlabel}`▶◀` (left deck) / {hwlabel}`SHIFT` + {hwlabel}`▶⏸` (right deck)
-
-  - initiate the *brake* effect for the respective deck: track slows down to full stop.
-
-- {hwlabel}`SHIFT` + {hwlabel}`⛾ (CUP)` (left deck) / {hwlabel}`SHIFT` +  {hwlabel}`Q (QUE)` (right deck)
-
-  - initiate the *soft start* effect for the respective deck: a forward acceleration effect from standstill to normal speed.
-
-- {hwlabel}`SHIFT` + {hwlabel}`Q (CUE)` (left deck) / {hwlabel}`SHIFT` +  {hwlabel}`⛾ (CUP)` (right deck)
-
-  - initiate the *spinback* effect for the respective deck: track spins backward quickly, producing a rapid rewind/scratch sound.
-
-- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the {file}`Reloop-Terminal-Mix-2-4-scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
-- {hwlabel}`3` / {hwlabel}`4` button - When lit all deck buttons (except FX controls) control deck 3 (deck 4 respectively).
-=======
 - {hwlabel}`▶⏸` (Play/Pause) Toggle playback of the track
 - {hwlabel}`SHIFT` + {hwlabel}`▶◀` (left deck) / {hwlabel}`SHIFT` +  {hwlabel}`▶⏸` (right deck): initiate the *brake* effect for the respective deck (track slows down to full stop)
 - {hwlabel}`SHIFT` + {hwlabel}`⛾ (CUP)` (left deck) / {hwlabel}`SHIFT` +  {hwlabel}`Q (QUE)` (right deck): initiate the *soft start* effect for the respective deck (a forward acceleration effect from standstill to normal speed)
 - {hwlabel}`SHIFT` + {hwlabel}`Q (CUE)` (left deck) / {hwlabel}`SHIFT` +  {hwlabel}`⛾ (CUP)` (right deck): initiate the *spinback* effect for the respective deck (track spins backward quickly, producing a rapid rewind/scratch sound)
-- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4-scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
+- Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering the pitch slider) and playback continues as soon as the wheel is released. Open the :file:`Reloop-Terminal-Mix-2-4.scripts.js` file and add options to the ``EffectButton`` to adjust parameters.
 - {hwlabel}`3` / {hwlabel}`4` button - When lit all deck buttons (except FX controls) control deck 3 (deck 4 respectively).
->>>>>>> e63d11678 (refactor(controller): update Reloop Terminal Mix 2/4 for JS components):source/hardware/controllers/reloop_terminal_mix_series.rst
 
 ## Mixer controls
 
