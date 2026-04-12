@@ -165,7 +165,7 @@ No.  Control                                                   Function
 Effect section
 ^^^^^^^^^^^^^^
 
-==== ===========================================================================  ============================================================================================
+==== ============================================================================ ============================================================================================
 No.  Control                                                                      Function
 4    :hwlabel:`LEVEL/DEPTH`                                                       Adjusts the parameter of the enabled effects for FX1 / FX2.
 3    :hwlabel:`SHIFT` + :hwlabel:`FX 1`                                           Cycle to the next effect-chain preset after the currently loaded preset (descending order).
