@@ -121,7 +121,7 @@ describes Mixxx-specific behavior.
 - Additional user configuration options.
 
 Controls
-~~~~~~~~
+-------------------------------
 
 Browse section
 ^^^^^^^^^^^^^^
@@ -138,24 +138,24 @@ Deck section
 ^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-6 :hwlabel:`SYNC` Temporary beat sync. If sync lock is active, a short press cancels the lock.
-6 :hwlabel:`SHIFT` + :hwlabel:`SYNC` Enable sync lock.
-7 :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` Braking disabled: stutter-play. Braking enabled: uses the configured start/stop brake profile (Off / Classic / Slow).
-9 :hwlabel:`JOG WHEEL` top / side Vinyl mode: top scratches, side bends (or waveform zoom when enabled). CDJ mode: jog uses bend behavior.
+6    :hwlabel:`SYNC`                                           Temporary beat sync. If sync lock is active, a short press cancels the lock.
+6    :hwlabel:`SHIFT` + :hwlabel:`SYNC`                        Enable sync lock.
+7    :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE`                  Braking disabled: stutter-play. Braking enabled: uses the configured start/stop brake profile (Off / Classic / Slow).
+9    :hwlabel:`JOG WHEEL` top / side Vinyl mode:               Top scratches, side bends (or waveform zoom when enabled). CDJ mode: jog uses bend behavior.
 ==== ========================================================= ======================================================================
 
 Mixer section
 ^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-12 :hwlabel:`(HEADPHONES) CUE` PFL toggle with updated head-mix handling (user configuration).
-12 :hwlabel:`MASTER CUE` Toggles head-mix behavior (user configuration).
-13 :hwlabel:`SHIFT` + :hwlabel:`CHANNEL FADER` Channel fader start (must be enabled in Utility mode on the controller).
-15 :hwlabel:`SHIFT` + :hwlabel:`CROSSFADER` Crossfader start (must be enabled in Utility mode on the controller).
+12   :hwlabel:`(HEADPHONES) CUE`                               PFL toggle with updated head-mix handling (user configuration).
+12   :hwlabel:`MASTER CUE`                                     Toggles head-mix behavior (user configuration).
+13   :hwlabel:`SHIFT` + :hwlabel:`CHANNEL FADER`               Channel fader start (must be enabled in Utility mode on the controller).
+15   :hwlabel:`SHIFT` + :hwlabel:`CROSSFADER`                  Crossfader start (must be enabled in Utility mode on the controller).
 ==== ========================================================= ======================================================================
 
 .. note::
@@ -165,27 +165,26 @@ No. Control Function
 Effect section
 ^^^^^^^^^^^^^^
 
-==== ========================================================= ======================================================================
-No. Control Function
-==== ========================================================= ======================================================================
-4 :hwlabel:`LEVEL/DEPTH` Adjusts the parameter of the enabled effects for FX1 / FX2.
-3 :hwlabel:`SHIFT` + :hwlabel:`FX 1` Cycle to the next effect-chain preset after the currently loaded preset (descending order).
-4 :hwlabel:`SHIFT` + :hwlabel:`FX 2` Adjust the average BPM up by +0.01 (beat grid lines move closer together).
-5 :hwlabel:`SHIFT` + :hwlabel:`FX 3` Adjust the average BPM down by −0.01 (beat grid lines move farther apart).
-4 :hwlabel:`FX1`, :hwlabel:`FX2`, :hwlabel:`FX3` + :hwlabel:`ROTARY SELECTOR` Designate the effect for the selected FX button (descending order).
-==== ========================================================= ======================================================================
+==== =========================================================================== ============================================================================================
+No.  Control                                                                     Function
+4    :hwlabel:`LEVEL/DEPTH`                                                      Adjusts the parameter of the enabled effects for FX1 / FX2.
+3    :hwlabel:`SHIFT` + :hwlabel:`FX 1`                                          Cycle to the next effect-chain preset after the currently loaded preset (descending order).
+4    :hwlabel:`SHIFT` + :hwlabel:`FX 2`                                          Adjust the average BPM up by +0.01 (beat grid lines move closer together).
+5    :hwlabel:`SHIFT` + :hwlabel:`FX 3`                                          Adjust the average BPM down by −0.01 (beat grid lines move farther apart).
+4    :hwlabel:`FX1`, :hwlabel:`FX2`, :hwlabel:`FX3` + :hwlabel:`ROTARY SELECTOR` Designate the effect for the selected FX button (descending order).
+==== =========================================================================== ============================================================================================
 
 Sampler section
 ^^^^^^^^^^^^^^^
 
-==== ========================================================= ======================================================================
-No. Control Function
-==== ========================================================= ======================================================================
-10 :hwlabel:`SAMPLER PADS` 1–16 Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
-10 :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16 Stop the playing sample, or eject a stopped sample.
-10 :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH` Sampler gain for samplers 1–16 while held (sampler volume gate).
-10 :hwlabel:`SAMPLER PADS` 5–8 **Mixxx 2.6+ dual mode only.** When ScratchBank is active, loads scratch samples from **17–24**.
-==== ========================================================= ======================================================================
+==== ========================================================= ==============================================================================================
+No.  Control                                                   Function
+==== ========================================================= ==============================================================================================
+10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
+10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
+10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
+10   :hwlabel:`SAMPLER PADS` 5–8                               **Mixxx 2.6+ dual mode only.** When ScratchBank is active, loads scratch samples from **17–24**.
+==== ========================================================= ==============================================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-dual-mode.png
    :align: center
@@ -201,9 +200,9 @@ ScratchBank section (Mixxx 2.5)
 When stems priority is not active, ScratchBank uses pads as follows:
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10 :hwlabel:`SCRATCH MODE` pads 1–4 Load scratch samples from samples **17–24**.
+10   :hwlabel:`SCRATCH MODE` pads 1–4                          Load scratch samples from samples **17–24**.
 ==== ========================================================= ======================================================================
 
 .. note::
@@ -214,11 +213,11 @@ Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10 :hwlabel:`SCRATCH MODE` pads 1–4 Stem mute toggles (voice / melody / bass / drums).
-10 :hwlabel:`SCRATCH MODE` pads 5–8 Stem effect toggles (voice / melody / bass / drums).
-10 :hwlabel:`STEM PAD` + :hwlabel:`LEVEL/DEPTH` Adjust stem volume / effect parameters while held.
+10   :hwlabel:`SCRATCH MODE` pads 1–4                          Stem mute toggles (voice / melody / bass / drums).
+10   :hwlabel:`SCRATCH MODE` pads 5–8                          Stem effect toggles (voice / melody / bass / drums).
+10   :hwlabel:`STEM PAD` + :hwlabel:`LEVEL/DEPTH`              Adjust stem volume / effect parameters while held.
 ==== ========================================================= ======================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.png
@@ -233,64 +232,99 @@ Beat jump / roll section
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10 Beatjump pads 1–4 One-shot beat jump / back / size controls.
-10 Beatjump pad 5 Previous track (deck must not be playing).
-10 Beatjump pads 6 / 7 Hold-to-rewind / hold-to-fast-forward.
-10 Beatjump pad 8 Hold-to-censor (``reverseroll``).
-10 Roll pads 1–8 Hold loop roll with per-pad configurable roll sizes.
+10   Beatjump pads 1–4                                         One-shot beat jump / back / size controls.
+10   Beatjump pad 5                                            Previous track (deck must not be playing).
+10   Beatjump pads 6 / 7                                       Hold-to-rewind / hold-to-fast-forward.
+10   Beatjump pad 8                                            Hold-to-censor (``reverseroll``).
+10   Roll pads 1–8                                             Hold loop roll with per-pad configurable roll sizes.
 ==== ========================================================= ======================================================================
 
 Extra controls section
 ^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
-No. Control Function
+No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad1`            AutoDJ.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad2`            AutoDJ fade to next.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad3`            Toggle Microphone.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad4`            Toggle Record Mix.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad5`            Key Match.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad6`            Beat Grid.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`            Pitch Up.
-10                         Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`            Pitch Down.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad1`           AutoDJ.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad2`           AutoDJ fade to next.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad3`           Toggle Microphone.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad4`           Toggle Record Mix.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad5`           Key Match.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad6`           Beat Grid.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`           Pitch Up.
+10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
+
 User configuration options
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
 
 Controller settings are exposed in mapping options (XML); script defaults apply
 as fallbacks.
 
-==== ========================================================= ======================================================================
-Variable Function Default
-==== ========================================================= ======================================================================
-``PioneerDDJREV1PROD.compatibilityMode`` Detects the Mixxx version at runtime. ``auto``
-``PioneerDDJREV1PROD.vinylMode`` Per-deck startup vinyl / CDJ mode. ``true`` (vinyl on all decks)
-``PioneerDDJREV1PROD.VinylSlipAutoff`` Auto-enable slip on vinyl touch and auto-disable on release. ``false``
-``PioneerDDJREV1PROD.nonShiftScratchFeel`` Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO. ``Default``
-``PioneerDDJREV1PROD.librarySortDefaults`` Sort library by artist, BPM, date, duration, genre, key, rating. ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
-``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8`` Per-pad roll sizes for roll mode. ``1/16`` … ``8`` (per pad)
-``PioneerDDJREV1PROD.sZoom`` Use vinyl side jog for waveform zoom. ``false``
-``PioneerDDJREV1PROD.brakingEnabled`` Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking. ``false``
-``PioneerDDJREV1PROD.brakingStartProfile`` Start profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``. ``off``
-``PioneerDDJREV1PROD.brakingStopProfile`` Stop profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``. ``off``
-``PioneerDDJREV1PROD.tempSamplerSkin`` Show sampler UI while using the sampler volume gate. ``false``
-``PioneerDDJREV1PROD.scratchBankEnabled`` Enable ScratchBank where not overridden by stems priority. ``false``
-``PioneerDDJREV1PROD.studioPflAdjustment`` PFL adjustment: Off / Auto / Studio. ``Auto``
-``PioneerDDJREV1.splitFx`` :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes FX1 vs :hwlabel:`SHIFT` + FX2. ``false``
-``PioneerDDJREV1PROD.samplePadLayout`` ``Standard`` / ``Banked Rows`` / ``Mirrored``. ``Standard``
-==== ========================================================= ======================================================================
+.. list-table::
+   :header-rows: 1
+   :widths: 23 62 15
+   :class: longtable
 
-**``samplePadLayout`` layouts**
+   * - Variable
+     - Function
+     - Default
+   * - ``PioneerDDJREV1PROD.compatibilityMode``
+     - Detects the Mixxx version at runtime.
+     - ``auto``
+   * - ``PioneerDDJREV1PROD.vinylMode``
+     - Per-deck startup vinyl / CDJ mode.
+     - ``true`` (vinyl on all decks)
+   * - ``PioneerDDJREV1PROD.VinylSlipAutoff``
+     - Auto-enable slip on vinyl touch and auto-disable on release.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.nonShiftScratchFeel``
+     - Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO.
+     - ``Default``
+   * - ``PioneerDDJREV1PROD.librarySortDefaults``
+     - Sort library by artist, BPM, date, duration, genre, key, rating.
+     - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
+   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
+     - Per-pad roll sizes for roll mode.
+     - ``1/16`` … ``8`` (per pad)
+   * - ``PioneerDDJREV1PROD.sZoom``
+     - Use vinyl side jog for waveform zoom.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.brakingEnabled``
+     - Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.brakingStartProfile``
+     - Start profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
+     - ``off``
+   * - ``PioneerDDJREV1PROD.brakingStopProfile``
+     - Stop profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
+     - ``off``
+   * - ``PioneerDDJREV1PROD.tempSamplerSkin``
+     - Show sampler UI while using the sampler volume gate.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.scratchBankEnabled``
+     - Enable ScratchBank where not overridden by stems priority.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.studioPflAdjustment``
+     - PFL adjustment: Off / Auto / Studio.
+     - ``Auto``
+   * - ``PioneerDDJREV1.splitFx``
+     - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes FX1 vs :hwlabel:`SHIFT` + FX2.
+     - ``false``
+   * - ``PioneerDDJREV1PROD.samplePadLayout``
+     - ``Standard`` / ``Banked Rows`` / ``Mirrored``.
+     - ``Standard``
 
-- **Standard (linear):** (Deere, Tango) Left 1–8, right 9–16 (top to bottom, linear).
-- **Banked rows:** (Late Night) Top row: left 1–4, right 5–8. Bottom row: left 9–12, right
-  13–16.
-- **Mirrored:** Default order reversed within each row. Example: top 4 3 2 1,
-  bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
+.. note:: ``samplePadLayout`` layouts
+    - **Standard (linear):** (Deere, Tango) Left 1–8, right 9–16 (top to bottom, linear).
+   - **Banked rows:** (Late Night) Top row: left 1–4, right 5–8. Bottom row: left 9–12, right
+     13–16.
+   - **Mirrored:** Default order reversed within each row. Example: top 4 3 2 1,
+     bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
+
 
 Known issues
 ~~~~~~~~~~~~
