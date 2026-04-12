@@ -245,10 +245,10 @@ Channel strips
 - :hwlabel:`BOOTH` knob - Adjust the booth output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`PHONES` knob - Adjust the headphone output volume of the internal sound card. *(Hard-wired knob, does not send MIDI messages)*
 - :hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the main output you hear in the headphones.
-- :hwlabel:`SAMPLER VOLUME` knob - Adjusts the volume of all of the samplers at once.
-- :hwlabel:`CRATES` button - *Does nothing at the moment. (Mixxx’s library doesn’t yet support direct panel selection.) Use the MIDI Learning Wizard to assign an action.*
-- :hwlabel:`VIEW` button - *Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.*
-- :hwlabel:`PREP` button - *Does nothing at the moment. Use the MIDI Learning Wizard to assign an action.*
+- :hwlabel:`SAMPLER VOLUME` knob - Adjust the volume of all of the samplers at once.
+- :hwlabel:`CRATES` button - Toggle selected sidebar item.
+- :hwlabel:`VIEW` button - Toggle track menu.
+- :hwlabel:`PREP` button - Toggle maximized library.
 - :hwlabel:`BACK` button
 
   - Press: move the highlight in the active library panel to the right
