@@ -92,6 +92,7 @@ the level of sound input at the microphone input terminal.
 :ref:`Some link text <controllers-with-an-integrated-audio-interface>`
 .. _controllers-with-an-integrated-audio-interface:
 href="#controllers-with-an-integrated-audio-interface"
+#controllers-with-an-integrated-audio-interface
 
 Controllers with an integrated audio interface
 ----------------------------------------------
