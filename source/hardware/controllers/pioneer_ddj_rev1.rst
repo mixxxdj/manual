@@ -88,7 +88,7 @@ the level of sound input at the microphone input terminal.
 
 .. seealso::
    When the microphone is not in use, turn the level to the minimum available.
-   The :ref:`controllers-with-an-integrated-audio-interface` provides more details about the audio configuration in Mixxx.
+   The :ref:`example <controllers-with-an-integrated-audio-interface>` provides more details about the audio configuration in Mixxx.
 
 Hardware controls
 ^^^^^^^^^^^^^^^^^
