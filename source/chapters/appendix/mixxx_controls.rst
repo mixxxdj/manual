@@ -2726,7 +2726,7 @@ Some controls (like volume, mute, and VU meters) are shared between decks and st
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use the JavaScript ``engine.scratchTick`` function to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2738,7 +2738,7 @@ Some controls (like volume, mute, and VU meters) are shared between decks and st
                    [PreviewDeckN],scratch2_enable
                    [SamplerN],scratch2_enable
 
-   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`. Use the JavaScript ``engine.scratchEnable``/``engine.scratchDisable`` functions to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
    :range: binary
    :feedback: Waveform
@@ -5133,7 +5133,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
     :feedback: Waveform
 
     .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
+       Use the JavaScript ``engine.scratchTick`` function to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
 
 .. mixxx:control:: [ChannelN],filter
