@@ -321,7 +321,7 @@ Vinyl Control
 * Fix handling of "vinylcontrol_enabled" causes a frozen vinyl spinny mouse control
   `#15168 <https://github.com/mixxxdj/mixxx/pull/15168>`__
   `#15165 <https://github.com/mixxxdj/mixxx/issues/15165>`__
-* Pitch filter improvements `#15230 <https15054://github.com/mixxxdj/mixxx/pull/15230>`__
+* Pitch filter improvements `#15230 <https://github.com/mixxxdj/mixxx/pull/15230>`__
 * Add a quadrature phase tracker
   `#15217 <https://github.com/mixxxdj/mixxx/pull/15217>`__
   `#15283 <https://github.com/mixxxdj/mixxx/pull/15283>`__
@@ -2191,7 +2191,7 @@ Known issues
 Older Changelog
 ---------------
 
-Find older changelog entries `here <https://github.com/mixxxdj/mixxx/blob/2.5.0/CHANGELOG.md>`__.
+Find older changelog entries in the `2.5.0 Changelog <https://github.com/mixxxdj/mixxx/blob/2.5.0/CHANGELOG.md>`_.
 
 
 .. seealso:: For an overview of previous versions, `take a look
