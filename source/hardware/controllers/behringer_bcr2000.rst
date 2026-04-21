@@ -12,7 +12,7 @@ Behringer BCR2000
 
    Behringer BCR2000 (schematic view)
 
-- `Manufacturer's product page <https://www.behringer.com/behringer/product?modelCode=P0245>`_
+- `Manufacturer's product page <https://www.behringer.com/en/products/0808-aaa>`_
 - `Forum thread <https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287>`_
 
 The B-CONTROL BCR2000 is a general-purpose :term:`USB` :term:`MIDI` controller containing 20

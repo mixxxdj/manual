@@ -3,7 +3,7 @@
 Behringer BCD3000
 =================
 
-  - `Manufacturer's page <https://www.behringer.com/product.html?modelCode=P0758>`__
+  - `Manufacturer's page <https://www.behringer.com/en/products/0700-aab>`__
 
 The B-Control Deejay BCD3000 controller is a 4-channel audio interface.
 It offers a fully fitted controller console with 24-bit A/D und D/A converters,

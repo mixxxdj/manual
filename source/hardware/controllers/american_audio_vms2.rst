@@ -10,7 +10,7 @@ can also be used as a stand-alone mixer with analog sources without a
 computer by setting the USB/Analog switches on the front of the device
 to “Analog”.
 
--  `Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, provides manual and drivers for download.
+-  `Manufacturer’s product page <https://www.adj.eu/vms2>`__, provides manual and drivers for download.
 -  `Forum thread <https://mixxx.discourse.group/t/american-audio-vms2/12000>`__, for discussion of mapping options.
 -  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
 

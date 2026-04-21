@@ -10,7 +10,7 @@ DV-1 are designed to be used together with the
 CMD MM-1, but the CMD MM-1 can be used alone or with other controllers
 (especially the :ref:`Novation Launchpad <novation-launchpad-mk2>`).
 
--  `Manufacturer's product page <https://www.behringer.com/product.html?modelCode=P0AJE>`__
+-  `Manufacturer's product page <https://www.behringer.com/en/products/0700-aae>`__
 -  `Forum thread <https://mixxx.discourse.group/t/advanced-behringer-cmd-mm-1-mapping/16753>`__
 
 .. versionadded:: 2.1

@@ -8,7 +8,7 @@ wheels, performers get access to dedicated hot cue and sample pads for
 on-the-fly remixes.
 
 -  `Manufacturer’s product page <https://www.denondj.com/mc4000-mc4000xus>`__
--  `Manual / Midi commands <http://denon-dj.de/wp-content/uploads/2023/03/MC4000-User-Guide-v1.2_00.pdf>`__
+-  `Manual / Midi commands <https://cdn.inmusicbrands.com/denondj/MC4000/MC4000-User-Guide-v1.2_00.pdf>`__
 -  `Forum thread <https://mixxx.discourse.group/t/denon-mc4000-mapping/15311>`__
 
 The microphone and auxiliary inputs are mixed with the main output in
