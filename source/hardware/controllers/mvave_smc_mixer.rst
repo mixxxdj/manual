@@ -1,7 +1,7 @@
 M-Vave SMC-Mixer
 ================
 
-`Manufacturer's product page <https://www.cuvave.com/productinfo/1106102.html>`_ ·
+`Manufacturer's product page <https://web.archive.org/web/20260307145916/https://www.cuvave.com/productinfo/1106102.html>`_ ·
 `Forum thread <https://mixxx.discourse.group/t/m-wave-sinco-smc-mixer-radio-broadcast-mapping/30366>`_
 
 .. versionadded:: 2.5.1
