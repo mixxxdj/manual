@@ -15,6 +15,7 @@ User Options
 
 To change the mapping’s user options, go into Mixxx's Controllers Settings and change the options:
 
+-  **PioneerDDJSX.NeedleSearchBehaviour**: Allow to use needle search when a song is playing. If disabled, you can use :hwlabel:`Shift` + :hwlabel:`NeedleSearch` to use the needle search when a song is playing.
 -  **PioneerDDJSX.safeScratchTimeout**: Safe Scratch Timeout (ms) (20ms is the minimum allowed)
 -  **PioneerDDJSX.UseShiftToBreak**: Use :hwlabel:`Play` instead of :hwlabel:`Shift` + :hwlabel:`Play` to brake/soft start.
 -  **PioneerDDJSX.SoftStartTime**: Soft Start Factor (Higher is faster) (disable with -1)
@@ -47,13 +48,13 @@ Group                 Figure           Control                                  
 3 - MIXER             5                EQ MID                                         Controls deck’s equalizer/filter mid frequencies
 3 - MIXER             6                EQ LOW                                         Controls deck’s equalizer/filter low frequencies
 3 - MIXER             7                :hwlabel:`CUE`                                 Toggles headphone pre-listen (PFL) for the deck
-3 - MIXER             7                :hwlabel:`SHIFT`  :hwlabel:`CUE`               Sends BPM tap input for manual tempo detection
+3 - MIXER             7                :hwlabel:`SHIFT` + :hwlabel:`CUE`              Sends BPM tap input for manual tempo detection
 3 - MIXER             8                :hwlabel:`MASTER LEVEL`                        Controls the hardware master output level (independent from Mixxx)
-3 - MIXER             9                :hwlabel:`MASTER CUE`                          Routes the master output signal to the headphones (independent from Mixxx)
-3 - MIXER             9                :hwlabel:`SHIFT`  :hwlabel:`MASTER CUE`        Enables split-cue mode (cue in one ear, master in the other)
-3 - MIXER             10               Crossfader Assign                              Crossfader assignment, deck to crossfader (left (A), right (B) or center (THRU))
+3 - MIXER             8                :hwlabel:`MASTER CUE`                          Routes the master output signal to the headphones (independent from Mixxx)
+3 - MIXER             8                :hwlabel:`SHIFT` + :hwlabel:`MASTER CUE`       Enables split-cue mode (cue in one ear, master in the other)
+3 - MIXER             1                Crossfader Assign                              Crossfader assignment, deck to crossfader (left (A), right (B) or center (THRU))
 3 - MIXER             13               :hwlabel:`HEADPHONES MIX`                      Controls headphone’s audio source (cue, main) (independent from Mixxx)
-3 - MIXER             14               SAMPLER VOLUME                                 Controls the global output level of all sampler slots
+3 - MIXER             11               Sampler Volume                                 Controls the global output level of all sampler slots
 3 - MIXER             15               :hwlabel:`BOOTH MONITOR LEVEL`                 Controls the hardware booth output level (independent from Mixxx)
 4 - FRONT PANEL       1                Crossfader curve                               Adjusts the hardware crossfader response curve (smooth to sharp)
 4 - FRONT PANEL       2                :hwlabel:`INPUT SELECT`                        Selects the physical input source for the deck (PC, MIC, CD, PHONO, LINE) (independent from Mixxx)
@@ -83,32 +84,39 @@ Figure           Control                                        Description
 4                :hwlabel:`TEMPO`                               Adjusts the deck’s playback speed (pitch/tempo)
 5                :hwlabel:`KEYLOCK`                             Toggles keylock to maintain musical key when changing tempo, holding the button will reset the tempo to the default value of the track
 5                :hwlabel:`SHIFT` + :hwlabel:`KEYLOCK`          Toggles between for values for the tempo range : +/-8 ; +/-16 ; +/-32 ; +/-64
-6                :hwlabel:`NEEDLE SEARCH`                       Jumps to the corresponding absolute position in the track
+6                :hwlabel:`NEEDLE SEARCH`                       Jumps to the corresponding absolute position in the track when track is not playing (A setting can allow jumping when a track is playing)
+6                :hwlabel:`SHIFT` + :hwlabel:`NEEDLE SEARCH`    Jumps to the corresponding absolute position in the track at any time
 7                :hwlabel:`DECK 1`                              Switches left deck to DECK 1 control and illumination
 8                :hwlabel:`DECK 2`                              Switches right deck to DECK 2 control and illumination
 9                :hwlabel:`DECK 3`                              Switches left deck to DECK 3 control and illumination
 10               :hwlabel:`DECK 4`                              Switches right deck to DECK 4 control and illumination
-13               :hwlabel:`SYNC`                                Toggles beat sync for the deck
-13               :hwlabel:`SHIFT` + :hwlabel:`SYNC`             Toggles sync lock mode for continuous tempo alignment
-14               :hwlabel:`AUTO LOOP`                           Creates and activates an automatic loop at the current play position
-14               :hwlabel:`SHIFT`    :hwlabel:`AUTO LOOP`       Activates or deactivates the currently defined loop
-15               :hwlabel:`LOOP 1/2X`                           Halves the length of the active loop
-15               :hwlabel:`SHIFT`    :hwlabel:`LOOP 1/2X`       Moves the active loop one beat backward
-16               :hwlabel:`LOOP 2X`                             Doubles the length of the active loop
-15               :hwlabel:`SHIFT`    :hwlabel:`LOOP 2X`         Moves the active loop one beat forward
-17               :hwlabel:`LOOP IN`                             Sets or adjusts the loop-in point
-17               :hwlabel:`SHIFT`    :hwlabel:`LOOP IN`         Activates the current loop, jumps to the loop-in point, and stops playback
-18               :hwlabel:`LOOP OUT`                            Sets or adjusts the loop-out point
-18               :hwlabel:`SHIFT`    :hwlabel:`LOOP OUT`        Toggles reloop/exit for the active loop
-19               :hwlabel:`VINYL`                               Enables or disables vinyl (scratch) mode on the jog wheel
-20               :hwlabel:`CENSOR`                              Performs a temporary reverse roll while held
-20               :hwlabel:`SHIFT`    :hwlabel:`CENSOR`          Toggles continuous reverse playback
-21               :hwlabel:`SLIP`                                Enables slip mode, allowing temporary actions without altering track position
-22               :hwlabel:`GRID ADJUST`                         Adjusts the beatgrid tempo up or down
-22               :hwlabel:`SHIFT`    :hwlabel:`GRID ADJUST`     Sets/translates the beatgrid to the current play position
-23               :hwlabel:`GRID SLIDE`                          Hold and touch/rotate Jog dial to set/translate beat grid earlier/later
-23               :hwlabel:`SHIFT`    :hwlabel:`GRID SLIDE`      Resets the beatgrid to its previous state.
-24               :hwlabel:`SHIFT`                               Enables access to secondary (shifted) controls, no direct function
+11               :hwlabel:`SYNC`                                Toggles beat sync for the deck
+11               :hwlabel:`SHIFT` + :hwlabel:`SYNC`             Toggles sync lock mode for continuous tempo alignment
+12               :hwlabel:`AUTO LOOP`                           Creates and activates an automatic loop at the current play position
+12               :hwlabel:`SHIFT` + :hwlabel:`AUTO LOOP`        Activates or deactivates the currently defined loop
+13               :hwlabel:`LOOP 1/2X`                           Halves the length of the active loop
+13               :hwlabel:`SHIFT` + :hwlabel:`LOOP 1/2X`        Moves the active loop one beat backward
+14               :hwlabel:`LOOP 2X`                             Doubles the length of the active loop
+14               :hwlabel:`SHIFT` + :hwlabel:`LOOP 2X`          Moves the active loop one beat forward
+15               :hwlabel:`LOOP IN`                             Sets or adjusts the loop-in point
+15               :hwlabel:`SHIFT` + :hwlabel:`LOOP IN`          Activates the current loop, jumps to the loop-in point, and stops playback
+16               :hwlabel:`LOOP OUT`                            Sets or adjusts the loop-out point
+16               :hwlabel:`SHIFT` + :hwlabel:`LOOP OUT`         Toggles reloop/exit for the active loop
+18               :hwlabel:`SLIP`                                Enables slip mode, allowing temporary actions without altering track position
+18               :hwlabel:`SHIFT` + :hwlabel:`SLIP`             Enables or disables the Vinyl mode for the current Deck (LED ON = Vinyl mode ON, LED OFF = Vinyl mode OFF)
+17               :hwlabel:`CENSOR`                              Performs a temporary reverse roll while held
+17               :hwlabel:`SHIFT` + :hwlabel:`CENSOR`           Toggles continuous reverse playback
+19               :hwlabel:`GRID ADJUST`                         Adjusts the beatgrid tempo up or down
+19               :hwlabel:`SHIFT` + :hwlabel:`GRID ADJUST`      Sets/translates the beatgrid to the current play position
+20               :hwlabel:`GRID SLIDE`                          Hold and touch/rotate Jog dial to set/translate beat grid earlier/later
+20               :hwlabel:`SHIFT` + :hwlabel:`GRID SLIDE`       Resets the beatgrid to its previous state.
+25               :hwlabel:`SLOT`                                Reset the track key (Pitch)
+25               :hwlabel:`SHIFT` + :hwlabel:`SLOT`             Set the track key DOWN (Pitch)
+26               :hwlabel:`REC`                                 Toggle the Quantize function (LED ON = Quantize enabled for the current deck, LED OFF = Quantize disabled)
+26               :hwlabel:`SHIFT` + :hwlabel:`REC`              Set the Repeat mode for the track
+27               :hwlabel:`START`                               Toggle the Loop Anchor function (LED ON = Created from ending point, LED OFF = Created from starting point (Default))
+27               :hwlabel:`SHIFT` + :hwlabel:`START`            Set the track key UP (Pitch)
+21               :hwlabel:`SHIFT`                               Enables access to secondary (shifted) controls, no direct function
 ===============  =============================================  =================================================================================================================================
 
 Performance Pads
@@ -157,6 +165,8 @@ Figure           Control                                        Description
 8                :hwlabel:`SHIFT` + :hwlabel:`PAD 8`            Clear Hot cue 8
 13               :hwlabel:`PARAMETER LEFT`                      No function
 14               :hwlabel:`PARAMETER RIGHT`                     No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
 ===============  =============================================  =================================================================================================================================
 
 
@@ -188,6 +198,8 @@ Figure           Control                                        Description
 8                :hwlabel:`SHIFT` + :hwlabel:`PAD 8`            Clear Hot cue 16
 13               :hwlabel:`PARAMETER LEFT`                      No function
 14               :hwlabel:`PARAMETER RIGHT`                     No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
 ===============  =============================================  =================================================================================================================================
 
 
@@ -222,6 +234,8 @@ Figure           Control                                        Description
 8                :hwlabel:`PAD 8`                               Toggle Beatloop roll length index 8 (according parameter set)
 13               :hwlabel:`PARAMETER LEFT`                      Decrement active looproll-interval parameter set (0-3)
 14               :hwlabel:`PARAMETER RIGHT`                     Increment active looproll-interval parameter set (0-3)
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
 ===============  =============================================  =================================================================================================================================
 
 
@@ -274,6 +288,8 @@ Figure           Control                                        Description
 8                :hwlabel:`SHIFT` + :hwlabel:`PAD 8`            Sample deck index 8 (according sampler bank) - playing: stop deck, stopped: eject track
 13               :hwlabel:`PARAMETER LEFT`                      Selects previous sampler bank (Up to 64 samples)
 14               :hwlabel:`PARAMETER RIGHT`                     Selects next sampler bank (Up to 64 samples)
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
+14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
 ===============  =============================================  =================================================================================================================================
 
 .. _pioneer-DDJ-SX2-velocitysamplermode:
