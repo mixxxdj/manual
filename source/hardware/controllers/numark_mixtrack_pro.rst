@@ -3,11 +3,37 @@
 Numark Mixtrack Pro
 ===================
 
-This is the same as the :ref:`Numark Mixtrack <numark-mixtrack>` with the addition of an integrated sound card. This product has been discontinued and succeeded by the :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>`.
+The **Numark Mixtrack Pro** is functionally identical to the :ref:`Numark Mixtrack <numark-mixtrack>`, but includes a built-in USB audio interface.
+
+This model has been discontinued and was succeeded by the :ref:`Numark Mixtrack Pro 3 <numark-mixtrack-pro-3>`.
 
 -  `Manufacturer’s product page <http://www.numark.com/product/mixtrackpro>`__
+-  `Mixxx forum thread <https://mixxx.discourse.group/t/numark-mixtrack-pro-by-vespadj/32635>`__
 
 .. versionadded:: 1.8.2
+.. versionchanged:: 2.5.x
+
+Overview
+--------
+
+The Mixtrack Pro combines traditional two-deck controls with an integrated sound card for main and headphone outputs.
+
+It is compatible with Mixxx and supports plug-and-play operation on most systems.
+
+.. _audio-interface:
+
+Audio Interface
+---------------
+
+-  :hwlabel:`OUTPUT 1` (RCA):** Main mix output to speakers or amplifier.
+-  :hwlabel:`OUTPUT 2` (RCA):** Cue channel for headphone monitoring.
+-  :hwlabel:`HEADPHONES` (1/4”):** Mirrors the cue channel.
+-  :hwlabel:`MIC THROUGH` (1/4”):** Mic input directly mixed into the master output (not routed to the computer).
+
+Typical configuration in Mixxx:
+
+-  Channels **1–2**: Master output (stereo)
+-  Channels **3–4**: Headphones (cue/PFL) (stereo)
 
 Mapping Description
 -------------------
@@ -21,80 +47,207 @@ Mapping Description
 
    Numark Mixtrack Pro (schematic view)
 
+1.  :hwlabel:`USB`: Sends and receives control information between the controller and the computer.
 
-1.  **USB:** This USB connection sends and receives control information to/from a connected computer.
-2.  **CHANNEL TREBLE:** Adjusts the high (treble) frequencies of the corresponding channel.
-3.  **CHANNEL MID:** Adjusts the mid-range frequencies of the corresponding channel.
-4.  **CHANNEL BASS:** Adjusts the low (bass) frequencies of the corresponding channel.
-5.  **CUE:** Sends pre-fader audio to the Cue Channel for headphone monitoring.
-6.  **CUE GAIN:** Adjusts the audio level of the Cue channel.
-7.  **CUE MIX:** Turn to mix between Cue and Program in the Headphone channel. When all the way to the left, only channels routed to CUE will be heard. When all the way right, only the Program mix
-    will be heard.
-8.  **BROWSE KNOB:** Turn this knob to scroll through lists of tracks / library. When a file is selected, press the knob to load the currently highlighted song into the first stopped deck.
-9.  **BACK:** This button will switch the Browse Knob to scroll into the track list (FILE LED will illuminate) or into the library section (FOLDER LED will illuminate).
-10. **LOAD A / LOAD B:** Press one of these buttons while a track is selected to assign it to Deck A or Deck B, respectively.
-    **\*Only if the track is paused. Put the pitch in 0% at load**\ *(without mattering where the slider is)*.
-11. **CHANNEL FADER:** Adjusts the audio level on the corresponding channel.
-12. **MASTER FADER:** Adjusts the output volume of the Program mix.
-13. **CROSSFADER:** Blends audio playing between Decks A and B. Sliding this to the left plays Deck A and sliding to the right plays Deck B.
-14. **JOG WHEEL:** When the deck is playing, the JOG WHEEL will bend the track’s pitch. When the SCRATCH button is on, touching the top of the JOG WHEEL will scratch the selected track **(can do
-    backspin effect)**, and touching the border of the JOG WHEEL will bend the track’s pitch. When the deck is not playing, rotating the JOG WHEEL will scan through the track.
-15. **SCRATCH:** Turns Scratch Mode on or off. If Scratch Mode is on, the button will light up and the JOG WHEEL will scratch like a turntable when you spin it.
-16. **PLAY / PAUSE:** Starts or resumes playback if the Deck is paused. Pauses playback if the Deck is playing. LED ON when playing. LED OFF when stopped.
-17. **STUTTER:** Adjust BeatGrid in the correct place (useful to sync well).
-    **\*LED Blink at each Beat**\ *of the grid.*
-18. **CUE:** The CUE button will return and pause the track at the last set cue point. For temporary play of the cue point, you can hold down the CUE button. The track will play for as long as the
-    button is held down and will return to the cue point once it has been released (Until it has been pressed PLAY before release CUE, then playback will continue). LED ON when stopped. LED OFF when
-    playing.
-    **\*LED Blink at each Beat in the last 30 seconds of song.
-    \*Don’t set Cue accidentally at the end of the song (return to the latest cue).**
-19. **SYNC:** Automatically matches the corresponding Deck’s tempo and phase with the other Deck.
-    **\*If the other deck is stopped, only sync tempo (not phase).
-    \*LED Blink at Clip Gain**\ *(Peak indicator).
-    *\ **\*Pressing DELETE**\ *before SYNC: Set Pitch to 0%.*
-20. **PITCH FADER:** Controls the track’s playback speed. An LED next to the fader will light up when set at 0%.
-    **\* Pitch slide are inverted, to match with the screen**\ *(Up: +, Down: -, otherwise is very confusing).
-    *\ **\* Soft-takeover to prevent sudden wide parameter changes**\ *when the on-screen control diverges from a hardware control. The control will have no effect until the position is close to that
-    of the software, at which point it will take over and operate as usual.*
-21. **PITCH BEND ( + / – ):** Press or hold down either of these buttons to temporarily adjust the track’s playback speed. When released, the track playback will return to the speed designated by the
-    PITCH FADER.
-22. **KEYLOCK:** This feature allows you to change the speed of the song without changing the key.
-23. **HOT CUE BUTTONS (1-3):** Assigns a Cue Point or returns the track to that Cue Point. When a HOT CUE BUTTON is unlit, you can assign a Cue Point by pressing it at the desired point in your track.
-    Once it is assigned, the HOT CUE BUTTON will light. To return to that Cue Point, simply press it.
-    **\*Pressing DELETE** before HOT CUE: Clear Hotcue.
-24. **DELETE:** Press this to enable second functions to some buttons (LED on). On having pressed another button, it is deactivated and LED turn off. Combinations:
-    **Delete + EFFECT:** Brake Effect (maintain pressed). Flanger Delay (Left. EFFECT CONTROL): Adjust the speed of Brake.
-    **Delete + HOTCUE:** Clear Hotcue.
-    **Delete + RELOOP:** Clear Loop.
-    **Delete + MANUAL:** Set Quantize ON (for best manual loop) or OFF.
-    **Delete + SYNC:** Set Pitch to 0%.
-25. **EFFECT:** Activate / deactivate Flanger. SELECT modify the Depth and LEFT. EFFECT CONTROL change the Delay.
-    **\*Pressing DELETE** before EFFECT: Brake (maintain pressed). Adjust Speed with Flanger Delay (Left. EFFECT CONTROL).
-26. **EFFECT SELECT:** Modify the Depth of Flanger effect, which will be displayed in the software.
-27. **LEFT EFFECT CONTROL:** Modify the Depth of Flanger effect, which will be displayed in the software.
-    **\*Used for change the speed of Brake effect too.
-    RIGHT EFFECT CONTROL:** Gain control of the deck (up to clip).
-28. **MODE:** Press this to switch between Autoloop Mode and Manual Mode, which changes the functions of the LOOP CONTROL buttons.
-    **\*Pressing DELETE** before MODE: Set Quantize ON (for best manual loop), or OFF.
-    **Autoloop Mode (LED ON)**:
-    • 1/2 X: Press this to halve the length of the loop.
-    • 1 BAR: Press this to set a 4 beat loop automatically and enable it (LED ON). **Press again to exit loop**.
-    • 2 X: Press this to double the length of the loop.
-    **Manual Mode (LED OFF)**:
-    • IN: Press this to set a “Loop In” point where your loop will begin (LED ON).
-    • OUT: Press this to set a “Loop Out” point where your loop will end, and enable it (LED ON).
-    • RELOOP: If the Deck is already looping when you press it (LED ON), exit loop. If not, jump to the start of the loop and enable it. (If no loop is set, nothing will happen.)
-    **\*Pressing DELETE** before RELOOP: Clear Loop.
-29. **OUTPUT 1** (RCA): This stereo RCA connection will output the main mix from your computer. Please use a stereo RCA cable to connect this output to a powered speaker or amplifier system.
-30. **OUTPUT 2** (RCA): This stereo RCA connection will output the Cue Channel from your computer for monitoring purposes. Please note that the Cue Channel is also output through the HEADPHONES output
-    on the front panel.
-31. **HEADPHONES:** This stereo 1/4" output will output the signal being routed to the Cue Channel.
-32. **MIC GAIN:** This knob controls the microphone level being sent to the main mix.
-33. **MIC THROUGH:** This is a 1/4" microphone input. The signal from this input will be sent directly to the main mix.
+2.  :hwlabel:`TREBLE`: Adjusts the high-frequency range of the channel.
 
-Known problems
+3.  :hwlabel:`MID`: Adjusts the mid-frequency range.
+
+    *Advanced alternative mapping available at* :ref:`mapping-settings`.
+
+4.  :hwlabel:`BASS`: Adjusts the low-frequency range.
+
+5.  :hwlabel:`CUE` *(round button)*: "PFL". Sends pre-fader audio to the cue channel for headphone monitoring.
+
+    *Advanced alternative mapping available at* :ref:`mapping-settings`.
+
+6.  :hwlabel:`CUE GAIN`: Adjusts the cue channel volume.
+
+7.  :hwlabel:`CUE MIX`: Blends cue and master signals in the headphone output.
+
+    Turn fully left to hear only the cue signal; fully right to hear only the master mix.
+
+8.  :hwlabel:`BROWSE`: Turn and press. Turn the knob to scroll through tracks in the library.
+
+    - In File mode (see 9), press to load the highlighted track into the first stopped deck.
+    - In Folder mode (see 9), scroll library, press to unfold item.
+
+9.  :hwlabel:`BACK`: Toggles the browse knob between folder navigation and track list modes (indicated by the FOLDER or FILE LEDs).
+
+10. :hwlabel:`LOAD A` / :hwlabel:`LOAD B`: Loads the selected track into Deck 1 (A) or Deck 2 (B).
+
+| *May be works only if the deck is stopped depending by* :menuselection:`Preferences --> Deck --> Loading a track, when deck is playing`.
+|  Resets rate/pitch to 0% on load (regardless of slider position).*
+
+11. :hwlabel:`A GAIN` / :hwlabel:`B GAIN` fader: Adjusts the channel volume.
+
+12. :hwlabel:`MASTER GAIN` fader: Controls the overall output volume.
+
+13. **CROSSFADER:** Blends audio between Decks 1 and 2.
+
+14. **JOG WHEEL:**
+
+    - While stopped: scrubs through the track.
+    - With :hwlabel:`SCRATCH` mode on: the top surface scratches (supports backspin); the edge nudges rate.
+    - With :hwlabel:`SCRATCH` mode off: nudges rate while playing.
+
+    *Advanced alternative mapping available at* :ref:`mapping-settings`.
+
+15. :hwlabel:`SCRATCH`: Toggles Scratch Mode (LED on when active).
+
+16. :hwlabel:`PLAY / PAUSE`: Starts or pauses playback.
+
+    LED on = playing; LED off = stopped.
+
+    *Advanced alternative mapping available at* :ref:`mapping-settings`.
+
+17. :hwlabel:`STUTTER`: Repositions the BeatGrid for better synchronization.
+
+    *LED blinks at each beat of the grid.*
+
+18. :hwlabel:`CUE` *(rectangular button)*:
+
+    - When paused: sets the cue point.
+    - When playing: returns to the cue point and pauses.
+
+    Hold to play from the cue point temporarily; releasing returns to the cue point.
+
+    If :hwlabel:`PLAY` is pressed before releasing, playback continues.
+
+    *LED blinks on beats during the last 30 seconds of the track.*
+
+    *Avoid setting cue points too close to the end of the track.*
+
+19. :hwlabel:`SYNC`: Matches tempo and phase to the other deck.
+
+    *If the other deck is stopped, only tempo is synced (not phase).*
+
+    *LED acts as peak indicator.*
+
+    :hwlabel:`SHIFT` *(24) +* :hwlabel:`SYNC` *: resets pitch to 0%.*
+
+20. **RATE FADER:** Controls playback speed.
+
+    LED lights near 0%.
+
+    *Soft-takeover prevents sudden jumps when hardware/software values differ.*
+
+21. :hwlabel:`PITCH BEND` **(– / +)**: Operation depends on :ref:`mapping-settings`.
+
+22. :hwlabel:`KEYLOCK`: preserve key (pitch) on playback speed changes.
+
+23. **HOT CUE BUTTONS (1-3):**
+
+    Printed as :hwlabel:`EQ KILL`: :hwlabel:`BASS`,  :hwlabel:`MID`,  :hwlabel:`TREBLE`.
+
+    - Unlit: press to assign a hot cue at the current position.
+    - Lit: press to jump to the stored cue point.
+
+    :hwlabel:`SHIFT` *(24) + HOTCUE: clears the hot cue.*
+
+24. :hwlabel:`SHIFT`: also printed as :hwlabel:`DELETE`, :hwlabel:`VIEW`, :hwlabel:`TICK`.
+
+    - Enables secondary button functions (LED on).
+    - Deactivates automatically after one use.
+
+    Combinations:
+
+    - :hwlabel:`SHIFT` + **HOTCUE:** clears Hotcue.
+    - :hwlabel:`SHIFT` + :hwlabel:`MANUAL` **:** toggles Quantize ON/OFF.
+    - :hwlabel:`SHIFT` + :hwlabel:`RELOOP` **:** clears active loop (`loop_remove`).
+    - :hwlabel:`SHIFT` + :hwlabel:`SYNC` **:** resets pitch to 0%.
+
+    *Advanced Alternative Mapping is avaible at* :ref:`mapping-settings`.
+
+25. :hwlabel:`EFFECT`: Toggle current FX on the current channel.
+
+    *Advanced Alternative Mapping is avaible at* :ref:`mapping-settings`.
+
+26. **EFFECT** :hwlabel:`SELECT`: Turn to scroll through enabled effects, in Mixxx :menuselection:`Preferences --> Effects --> Visible effects`, and load on-the-fly.
+
+    - Press to reset to default the *Quick Effect Super knob*.
+    - On the left deck: press, hold, and turn to adjust the *Waveform Zoom*.
+
+27. **LEFT EFFECT** :hwlabel:`CONTROL`: Adjusts the MetaKnob.
+
+    **RIGHT EFFECT** :hwlabel:`CONTROL`: Adjusts Mix (dry/wet) knob for FX.
+
+28. **MODE:** Switches between :hwlabel:`AUTO` Loop and :hwlabel:`MANUAL` Loop modes.
+
+    **Auto Loop Mode (LED off):**
+
+    - :hwlabel:`1/2`: creates a 1-beat loop or halves loop length.
+    - :hwlabel:`1 BAR`: creates a 4-beat loop or exits the loop.
+    - :hwlabel:`2X`: doubles loop length or reloop (exit with *OUT* button).
+
+    **Manual Mode (LED on):**
+
+    :hwlabel:`SHIFT` *(24) + MODE: toggles Quantize (recommended for manual looping).*
+
+    - :hwlabel:`IN`: sets loop start point.
+    - :hwlabel:`OUT`: sets loop end point and activates loop.
+    - :hwlabel:`RELOOP`: reactivates last loop or exits current *manual* loop.
+
+    *Panic or clear:* :hwlabel:`SHIFT` *(24) +* :hwlabel:`RELOOP`: clears loop (`loop_remove`).
+
+    *Advanced alternative mapping available at* :ref:`mapping-settings`.
+
+29. :hwlabel:`OUTPUT 1`: See :ref:`audio-interface`.
+30. :hwlabel:`OUTPUT 2`: See :ref:`audio-interface`.
+31. :hwlabel:`HEADPHONES`: See :ref:`audio-interface`.
+32. :hwlabel:`MIC GAIN`: Controls the microphone level sent to the main mix.
+33. :hwlabel:`MIC THROUGH`: See :ref:`audio-interface`.
+
+.. _mapping-settings:
+
+Mapping Settings
+----------------
+
+Check in Mixxx: :menuselection:`Preferences --> Controllers --> MixTrack Pro --> Mapping Settings`.
+
+The following advanced or alternative mappings are available:
+
+-  **Play/Pause performs Brake and Soft Start when “SCRATCH LED” is on.**
+   *Requires Mixxx ≥ 2.6.*
+
+-  **Edit Loop by Touch-Wheel:** If Scratch LED is off and a loop is active, touching the wheel top, then rotate forward for starting the editing of Loop-IN or rotate backward for Loop-OUT point.
+
+-  **PITCH BEND buttons:** follow options available.
+
+    - Rate temp up/down: fine temporarily adjusts playback speed (press and hold).
+    - Beat jump *(Default)*: beat jump, value by Mixxx. Hold + Wheel for fast moving on track.
+    - Pitch-Key up/down: changes key of track.
+
+-  **Quick Effect Super knob on MID knob:** Enables the Quick-Effect super knob (Filter by default) on the MID knob when this modifier is active.
+
+   Options:
+
+    -  None (disabled)
+    -  CUE (PFL) *(default)*
+    -  SHIFT (VIEW / TICK / DELETE)
+    -  EFFECT
+
+-  **Scratch Sensibility:** *default* 600.
+
+Known Problems
 --------------
 
--  The pitch on the controller has a very short run. Thus, having it configured as a +10/-10 (or more) is tricky because you will get a very low pitch precision. Configuring it as +8/-8 (Mk2 style) is
-   highly recommended.
--  Each slide/knob needs to be moved on Mixxx startup to match levels with the Mixxx UI.
+-  The pitch faders on the controller have a very short run, making high-range (+/–10%) adjustments less precise. A ±8% range is recommended.
+-  Knobs and sliders may need to be moved after Mixxx startup to synchronize hardware and software positions.
+
+Compatibility
+-------------
+
+-  Works on Windows, macOS, and Linux.
+-  USB Audio Class compliant (no driver required on macOS or Linux).
+-  Tested with Mixxx 2.5, 2.6 and later.
+
+Credits
+-------
+
+- 2010 - `Matteo <https://mixxx.discourse.group/u/matteo>`__, :ref:`Numark Mixtrack <numark-mixtrack>` Mapping Script Functions
+- 2011 - James Ralston
+- 2011 - `Darío José Freije <https://www.dariofreije.com/>`__
+.. codespell:ignore Patten
+- 2024 - `Josh Patten <https://github.com/joshpatten>`__ with `PR 12948 <https://github.com/mixxxdj/mixxx/pull/12948>`__
+- 2025 - `Vespadj <https://mixxx.discourse.group/u/vespadj>`__
