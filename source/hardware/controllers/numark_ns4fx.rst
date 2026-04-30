@@ -32,10 +32,11 @@ You can set configuration options in the Mixxx controller preferences.
    When disabled (default), effects are applied to both decks on that side (e.g., Deck 1 and 3).
 -  **Display VU from both decks** When enabled, the channel VU meters will display the left and right master output levels.
    When disabled (default), they will display the individual level for each active deck.
-   **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
-   **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
-   **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
-   **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+-  **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+-  **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
+-  **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
+-  **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
+-  **Control beat jump with Auto Loop second row pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will control beat jump (back, dec, inc, fwd) when the pad mode is set to 'Auto Loop'. The number of beats jumped when holding SHIFT can be configured here for each pad.
 
 Mapping
 -------
@@ -209,6 +210,18 @@ It assigns the upper 4 performance pads to the following functions:
 -  **Auto 4:** – Sets and starts playback of a 16-beat autoloop.
 
 **TIP:** You can also control loop s with the 'Loop On/Off', 'Loop 1/2' and 'Loop x2' buttons (35-37).
+
+Auto Loop Beat Jump
+^^^^^^^^^^^^^^^^^^^
+
+When the 'Control beat jump with Auto Loop second row pads' option is enabled in the controller preferences, the bottom row of transport pads (Stutter, Start, Search Backward, Search Forward) control beat jump functions while in Auto Loop mode:
+
+- **Stutter:** Jumps backward by the current beatjump size.
+- **Start:** Halves the current beatjump size.
+- **Search Backward:** Doubles the current beatjump size.
+- **Search Forward:** Jumps forward by the current beatjump size.
+
+Holding SHIFT and pressing one of these pads will jump by a custom number of beats, which can be set in the controller preferences for each pad.
 
 Fader Cuts Mode
 ^^^^^^^^^^^^^^^
