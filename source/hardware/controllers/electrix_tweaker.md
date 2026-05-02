@@ -91,6 +91,7 @@ pressing the encoders 7-12 resets them to center.
 15.  Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the left side (press top shift button first, then this button while holding down top shift)
 16.  Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the right side (press top shift button first, then this button while holding down top shift)
 
+(deck-controls)=
 ### Deck controls
 
 
@@ -201,7 +202,7 @@ between EQ and loop layers.
 The left side of the diagram shows EQ mode. In EQ mode, pressing
 encoders toggles that EQ’s kill switch. The blue LED below the encoder
 is lit while the kill switch is on. Pressing the encoder while holding
-deck shift (see [deck controls #10](#deck-controls)) resets the EQ to
+deck shift (see {ref}`deck controls #10 <deck-controls>`) resets the EQ to
 center.
 
 Tip: You can go to Options > Preferences > Equalizers and check “Reset

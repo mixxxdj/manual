@@ -8,7 +8,7 @@ Native Instruments Traktor Kontrol Z1 is a two-deck ultra-compact DJ controller 
 - [Traktor Kontrol Z1 product page](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-z1/)
 - [Mixxx forum mapping thread](https://mixxx.discourse.group/t/new-mapping-for-native-instruments-traktor-kontrol-z1/28436)
 
-### Compatibility
+## Compatibility
 
 
 The Kontrol Z1 is a HID and USB audio class compliant device, which makes it fully compatible with Mixxx. It requires no proprietary drivers when used on Linux or macOS.
@@ -22,7 +22,7 @@ If you have a parallel installation of Traktor Pro on Windows, a service called 
 
 To make the Z1 work properly with Mixxx, you must either uninstall the Traktor Pro software, or temporarily stop this Windows service. One way to do this is to open a Windows PowerShell terminal as Administrator, and run the following command: ``Stop-Service -Name "NIHardwareService"``.
 :::
-### Audio hardware setup
+## Audio hardware setup
 
 
 The Z1 has a standard 4-channel sound card. Configure the channels in Mixxx as follows:
@@ -33,7 +33,7 @@ The Z1 has a standard 4-channel sound card. Configure the channels in Mixxx as f
 | {guilabel}`Headphones`  |  Channel 3-4 |
 
 
-### Controller overview
+## Controller overview
 
 
 ```{figure-md}
@@ -45,7 +45,7 @@ The Z1 has a standard 4-channel sound card. Configure the channels in Mixxx as f
 
 *Native Instruments Traktor Kontrol Z1 (schematic view)*
 ```
-### Mapping description
+## Mapping description
 
 
 All knobs and buttons function in Mixxx as they are labeled and follow the manufacturer's standard mapping. Two secondary track control functions are also available using the {hwlabel}`Mode` button as a modifier. This makes the Kontrol Z1 more usable by itself without other controllers.

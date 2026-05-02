@@ -4,9 +4,8 @@
 
 
 :::{sectionauthor} Nathan Korth <nkorth@nkorth.com>
-
 :::
-The Numark iDJ Live II is a budget MIDI controller similar to the `Discover DJ <ion-discover-dj>`. It does not have a built in sound card, so a {ref}`splitter cable
+The Numark iDJ Live II is a budget MIDI controller similar to the {ref}`Discover DJ <ion-discover-dj>`. It does not have a built in sound card, so a {ref}`splitter cable
 <hardware-splitter-cables>` or a {ref}`separate audio interface <hardware-audio-interfaces>` is required to use headphones with it.
 
 -  [Manufacturer's product page](https://www.numark.com/product/idj-live-ii)

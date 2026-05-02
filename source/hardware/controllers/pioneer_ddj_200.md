@@ -4,13 +4,13 @@
 
 
 :::{sectionauthor} Daniel Giddins <daniel.giddins at nottingham.ac.uk>
-Frank Breitling <frank.breitling at gmx.de>
+:::
+:::{sectionauthor} Frank Breitling <frank.breitling at gmx.de>
 :::
 ```{figure-md}
 :align: center
 
 <img src="../../_static/controllers/pioneer_ddj_200.svg" alt="Pioneer DDJ-200 (schematic view)" class="pretty-figures" width="100%">
-
 
 Pioneer DDJ-200 (schematic view)
 ```

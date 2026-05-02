@@ -49,7 +49,7 @@ at the top of the script you can set to your liking:
    controlled that deck.)
 -  **singleDeck** - If you’ve got more than one MIDI controller, set this to
    true to have the SCS.3d stay on one deck and make Deck mode non-temporary.
-   [More on this here](#deck-mode).
+   [More on this here]{ref}`DECK mode <deck-mode>`.
 -  **deckChangeWait** - Time in milliseconds to hold the DECK button down to
    avoid changing decks
 -  **pitchAdjustment** - Adjusts the coarseness of the pitch slider (1=coarse,
@@ -506,6 +506,7 @@ and the center slider (S4) can be used to scratch.
 
 (deck-mode-1)=
 
+(deck-mode)=
 ## DECK mode
 
 

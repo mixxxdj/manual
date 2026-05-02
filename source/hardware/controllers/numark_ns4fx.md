@@ -186,7 +186,7 @@ To select a mode, just press one of these upper pads.
 An LED under the pad section indicates the currently selected mode.
 See the subsections below for details about each mode.
 
-#### Cue Mode
+### Cue Mode
 
 
 Press the **CUE** pad (31) to enter the cue mode.
@@ -197,7 +197,7 @@ To erase a hotcue, press SHIFT + pad related to that hotcue.
 
 **TIP:** If you enable the 'Add hotcues 5-8 to the second row of pads' option in the controller's preferences, you add another row of hotcues 5-8.
 
-#### Auto Loop Mode
+### Auto Loop Mode
 
 
 Press the **AUTO LOOP** pad (32) to enter the auto loop mode.
@@ -210,13 +210,13 @@ It assigns the upper 4 performance pads to the following functions:
 
 **TIP:** You can also control loop s with the 'Loop On/Off', 'Loop 1/2' and 'Loop x2' buttons (35-37).
 
-#### Fader Cuts Mode
+### Fader Cuts Mode
 
 
 Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
 In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-#### Stems Mode
+### Stems Mode
 
 
 *Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
@@ -228,7 +228,7 @@ Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33
 -  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
 -  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
 
-#### Sampler Mode
+### Sampler Mode
 
 
 Press the **SAMPLE** pad (34) to enter the sampler mode.
